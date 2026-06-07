@@ -10,7 +10,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Londuimbali,Lobito,Cuíto,Catchiungo,Humbe,Gabela,Dombe Grande,Cuemba,Cubal do Lumbo"
+  "b": "Cusco,Arequipa,Lima,Quito,La Paz,Cochabamba,Sucre,Puno,Ayacucho,Cajamarca,Piura,Chiclayo,Trujillo,Iquitos,Pucallpa,Tacna,Tarapoto,Huancayo,Juliaca,Chimbote,Ica,Moquegua,Abancay,Cerro de Pasco,Tumbes,Chachapoyas,Puerto Maldonado"
 },
 {
     "name": "Yanomami Amazonian",
@@ -19,7 +19,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Simmering,Sankt Peter,Sankt Martin,State of Salzburg,Saalfelden am Steinernen Meer,Pradl,Perchtoldsdorf,Ottakring"
+  "b": "Papiu,Uiramutã,Uraricoera,Demini,Catrimani,Mucajaí,Ajarani,Branco,Aiau,Apiau,Paragua,Karun,Marauá,Pukimabueri,Serra da Estrutura,Amajari,Auaris,Baixo Rio Cauaburis,Surucucu,Kataroa,Omama,Opata,Yanomama,Xiliana,Xilixana,Sanöma,Yãnoma,Ỹaroamë"
 },
 {
     "name": "Cavineña",
@@ -28,7 +28,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Mödling,Meidling,Lustenau,Vorarlberg,Klosterneuburg"
+  "b": "Reyes,Riberalta,Cavinas,Puerto Cavinas,Beni,Madidi,Jesús de Cavinas,Gonzalo Moreno,Ixiamas,Manuripi,Madre de Dios,Iturralde,Ballivián,Vaca Diez,Esperanza,Santa Rosa,San Antonio,Buen Jesus,Puerto Gonzalo,Santa Elena,San Miguel,Riberalta,Reyes,San Borja,San Javier"
 },
 {
     "name": "Chilean Spanish",
@@ -37,7 +37,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Yarraville,Wollert,Wodonga,Wheelers Hill,Westmead,Werribee,Warrnambool,Warragul"
+  "b": "Santiago,Valparaiso,Concepcion,Temuco,Antofagasta,Iquique,Puerto Montt,Rancagua,Talca,Valdivia,Osorno,Coyhaique,Punta Arenas,Calama,Copiapo,La Serena,Vina del Mar,San Antonio,Linares,Chillan,Curico,Los Angeles,Puerto Varas,San Fernando,Talcahuano"
 },
 {
     "name": "Chilote",
@@ -46,7 +46,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Wantirna South,Wangaratta,Wallan,Wahroonga,Upper Coomera,Tuggeranong Administrative District,Truganina,Traralgon,Townsville,Torquay"
+  "b": "Castro,Ancud,Quellon,Chonchi,Dalcahue,Queilen,Quemchi,Curaco de Velez,Achao,Puqueldon,Lemuy,Chiloe,San Juan de la Costa,San Carlos de Chiloe,Calbuco,Maullino,Queilén,Quinchao,Tenaun,Mehuin,Chonchi,Quellon,Castro,Ancud,Dalcahue"
 },
 {
     "name": "Sanöma",
@@ -55,7 +55,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Caracas,Maracaibo,Valencia,Barquisimeto,Ciudad Guayana,Maturín,Maracay,Barcelona,Puerto La Cruz,Cumaná"
+  "b": "Awaris,Kolulu,Parima,Auaris,Yanomami,Roraima,Boa Vista,Caracaraí,Alto Alegre,Mucajaí,Iracema,Normandia,Uiramutã,Pacaraima,Cantá,Anauá,Amaturá,São Gabriel da Cachoeira,Santa Isabel do Rio Negro,Cucuí,Marauá,Balawaque,Ye'kuana,Erebato,Caura"
 },
 {
     "name": "Terêna",
@@ -64,7 +64,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Tessenderlo,Tervuren,Temse,Stekene,Stabroek,Soumagne,Sint-Truiden,Sint-Pieters-Leeuw,Sint-Kruis"
+  "b": "Buenos Aires,Santiago,Lima,Bogotá,Caracas,Quito,La Paz,Sucre,Montevideo,Asunción,Córdoba,Rosario,Mendoza,Tucuman,Salta,Mar del Plata,Bariloche,Valparaíso,Concepción,Temuco,Puerto Varas,Punta Arenas,Ushuaia,Antofagasta,Iquique,Manaus,Belém,Santarém,Parintins,Itacoatiara,Barcelos,Coari,Tefé,Tabatinga"
 },
 {
     "name": "Rioplatense Spanish",
@@ -73,7 +73,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Buenos Aires,Montevideo,Cordoba,Rosario,Mendoza,La Plata,Mar del Plata,Salta,Tucuman,Santa Fe"
+  "b": "Buenos Aires,Santiago,Lima,Bogotá,Caracas,Quito,La Paz,Sucre,Montevideo,Asunción,Córdoba,Rosario,Mendoza,Tucuman,Salta,Mar del Plata,Bariloche,Valparaíso,Concepción,Temuco,Puerto Varas,Punta Arenas,Ushuaia,Antofagasta,Iquique,Manaus,Belém,Santarém,Parintins,Itacoatiara,Barcelos,Coari,Tefé,Tabatinga"
 },
 {
     "name": "Tacana",
@@ -82,7 +82,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Santa Cruz de la Sierra,Cochabamba,La Paz,Sucre,Tarija,Oruro,Potosí,Montero,Trinidad,Riberalta"
+  "b": "Buenos Aires,Santiago,Lima,Bogotá,Caracas,Quito,La Paz,Sucre,Montevideo,Asunción,Córdoba,Rosario,Mendoza,Tucuman,Salta,Mar del Plata,Bariloche,Valparaíso,Concepción,Temuco,Puerto Varas,Punta Arenas,Ushuaia,Antofagasta,Iquique,Manaus,Belém,Santarém,Parintins,Itacoatiara,Barcelos,Coari,Tefé,Tabatinga"
 },
 {
     "name": "Wiwa",
@@ -91,7 +91,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bogotá,Medellín,Cali,Barranquilla,Cartagena,Santa Marta,Villavicencio,Pereira,Manizales,Neiva"
+  "b": "Buenos Aires,Santiago,Lima,Bogotá,Caracas,Quito,La Paz,Sucre,Montevideo,Asunción,Córdoba,Rosario,Mendoza,Tucuman,Salta,Mar del Plata,Bariloche,Valparaíso,Concepción,Temuco,Puerto Varas,Punta Arenas,Ushuaia,Antofagasta,Iquique,Manaus,Belém,Santarém,Parintins,Itacoatiara,Barcelos,Coari,Tefé,Tabatinga"
 },
 {
     "name": "Peruvian Ribereño",
@@ -100,7 +100,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Sangzhe,Runing,Ronglong,Fuqing,Rizhuang,Renzhao,Renyi,Renxian"
+  "b": "Buenos Aires,Santiago,Lima,Bogotá,Caracas,Quito,La Paz,Sucre,Montevideo,Asunción,Córdoba,Rosario,Mendoza,Tucuman,Salta,Mar del Plata,Bariloche,Valparaíso,Concepción,Temuco,Puerto Varas,Punta Arenas,Ushuaia,Antofagasta,Iquique,Manaus,Belém,Santarém,Parintins,Itacoatiara,Barcelos,Coari,Tefé,Tabatinga"
 },
 {
     "name": "Tsimané",
@@ -109,7 +109,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Paosha,Xigaoshan,Luoyu,Shili,Luhe,Xiyu,Shaoyu,Hadapu Zhen,Lichuan Zhen"
+  "b": "Buenos Aires,Santiago,Lima,Bogotá,Caracas,Quito,La Paz,Sucre,Montevideo,Asunción,Córdoba,Rosario,Mendoza,Tucuman,Salta,Mar del Plata,Bariloche,Valparaíso,Concepción,Temuco,Puerto Varas,Punta Arenas,Ushuaia,Antofagasta,Iquique,Manaus,Belém,Santarém,Parintins,Itacoatiara,Barcelos,Coari,Tefé,Tabatinga"
 },
 {
     "name": "Venezuelan Spanish",
@@ -118,7 +118,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Boyaca,Sucre Department,Cauca Department,Huila Department,Tame,Arauca Department,Choco"
+  "b": "Buenos Aires,Santiago,Lima,Bogotá,Caracas,Quito,La Paz,Sucre,Montevideo,Asunción,Córdoba,Rosario,Mendoza,Tucuman,Salta,Mar del Plata,Bariloche,Valparaíso,Concepción,Temuco,Puerto Varas,Punta Arenas,Ushuaia,Antofagasta,Iquique,Manaus,Belém,Santarém,Parintins,Itacoatiara,Barcelos,Coari,Tefé,Tabatinga"
 },
 {
     "name": "Achagua",
@@ -127,7 +127,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kolín,Kobylisy,Klatovy,Karviná,Kadaň,Jirkov,Jindřichův Hradec,Jičín"
+  "b": "Buenos Aires,Santiago,Lima,Bogotá,Caracas,Quito,La Paz,Sucre,Montevideo,Asunción,Córdoba,Rosario,Mendoza,Tucuman,Salta,Mar del Plata,Bariloche,Valparaíso,Concepción,Temuco,Puerto Varas,Punta Arenas,Ushuaia,Antofagasta,Iquique,Manaus,Belém,Santarém,Parintins,Itacoatiara,Barcelos,Coari,Tefé,Tabatinga"
 },
 {
     "name": "Bolivian Spanish",
@@ -136,7 +136,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Strausberg,Straelen,Stockelsdorf,Stockach,Stellingen,Steinhagen,Steinfurt,Steilshoop"
+  "b": "Buenos Aires,Santiago,Lima,Bogotá,Caracas,Quito,La Paz,Sucre,Montevideo,Asunción,Córdoba,Rosario,Mendoza,Tucuman,Salta,Mar del Plata,Bariloche,Valparaíso,Concepción,Temuco,Puerto Varas,Punta Arenas,Ushuaia,Antofagasta,Iquique,Manaus,Belém,Santarém,Parintins,Itacoatiara,Barcelos,Coari,Tefé,Tabatinga"
 },
 {
     "name": "Brazilian Portuguese",
@@ -145,7 +145,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Spenge,Sonthofen,Sonneberg,Sondershausen,Sömmerda,Soltau,Soest,Sinzig,Sinsheim,Singen"
+  "b": "Buenos Aires,Santiago,Lima,Bogotá,Caracas,Quito,La Paz,Sucre,Montevideo,Asunción,Córdoba,Rosario,Mendoza,Tucuman,Salta,Mar del Plata,Bariloche,Valparaíso,Concepción,Temuco,Puerto Varas,Punta Arenas,Ushuaia,Antofagasta,Iquique,Manaus,Belém,Santarém,Parintins,Itacoatiara,Barcelos,Coari,Tefé,Tabatinga"
 },
 {
     "name": "Colombian Spanish",
@@ -154,7 +154,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Rheine,Rheinberg,Rhede,Rheda-Wiedenbrück,Reutlingen,Renningen,Rendsburg,Remagen,Reinickendorf"
+  "b": "Buenos Aires,Santiago,Lima,Bogotá,Caracas,Quito,La Paz,Sucre,Montevideo,Asunción,Córdoba,Rosario,Mendoza,Tucuman,Salta,Mar del Plata,Bariloche,Valparaíso,Concepción,Temuco,Puerto Varas,Punta Arenas,Ushuaia,Antofagasta,Iquique,Manaus,Belém,Santarém,Parintins,Itacoatiara,Barcelos,Coari,Tefé,Tabatinga"
 },
 {
     "name": "Mineiro",
@@ -163,7 +163,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Baden-Baden,Bad Dürkheim,Bad Driburg,Bad Berleburg,Bad Bentheim,Bad Aibling,Backnang,Babenhausen,Aurich,Auerbach"
+  "b": "Buenos Aires,Santiago,Lima,Bogotá,Caracas,Quito,La Paz,Sucre,Montevideo,Asunción,Córdoba,Rosario,Mendoza,Tucuman,Salta,Mar del Plata,Bariloche,Valparaíso,Concepción,Temuco,Puerto Varas,Punta Arenas,Ushuaia,Antofagasta,Iquique,Manaus,Belém,Santarém,Parintins,Itacoatiara,Barcelos,Coari,Tefé,Tabatinga"
 },
 {
     "name": "Paraguayan Spanish",
@@ -172,7 +172,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Oued el Abtal,N’Gaous,Nedroma,Naciria,Mouzaïa,Mohammadia,Miliana"
+  "b": "Buenos Aires,Santiago,Lima,Bogotá,Caracas,Quito,La Paz,Sucre,Montevideo,Asunción,Córdoba,Rosario,Mendoza,Tucuman,Salta,Mar del Plata,Bariloche,Valparaíso,Concepción,Temuco,Puerto Varas,Punta Arenas,Ushuaia,Antofagasta,Iquique,Manaus,Belém,Santarém,Parintins,Itacoatiara,Barcelos,Coari,Tefé,Tabatinga"
 },
 {
     "name": "Peruvian Spanish",
@@ -181,7 +181,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Metlili Chaamba,Messaad,Meskiana,Mers el Kebir,Merouana,Melouza,Mekla,Mehdia daira de meghila,Megarine,Meftah"
+  "b": "Buenos Aires,Santiago,Lima,Bogotá,Caracas,Quito,La Paz,Sucre,Montevideo,Asunción,Córdoba,Rosario,Mendoza,Tucuman,Salta,Mar del Plata,Bariloche,Valparaíso,Concepción,Temuco,Puerto Varas,Punta Arenas,Ushuaia,Antofagasta,Iquique,Manaus,Belém,Santarém,Parintins,Itacoatiara,Barcelos,Coari,Tefé,Tabatinga"
 },
 {
     "name": "Uruguayan Portuguese",
@@ -190,7 +190,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Erraguntla,Erāttupetta,Emmiganūr,Elumalai,Ellenabad,Elamanchili,Egra"
+  "b": "Buenos Aires,Santiago,Lima,Bogotá,Caracas,Quito,La Paz,Sucre,Montevideo,Asunción,Córdoba,Rosario,Mendoza,Tucuman,Salta,Mar del Plata,Bariloche,Valparaíso,Concepción,Temuco,Puerto Varas,Punta Arenas,Ushuaia,Antofagasta,Iquique,Manaus,Belém,Santarém,Parintins,Itacoatiara,Barcelos,Coari,Tefé,Tabatinga"
 },
 {
     "name": "Uruguayan Spanish",
@@ -199,7 +199,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Edappāl,Ganj Dundwāra,Dumraon,Dumra,Dum Duma,Dam Dam,Duliajan"
+  "b": "Buenos Aires,Santiago,Lima,Bogotá,Caracas,Quito,La Paz,Sucre,Montevideo,Asunción,Córdoba,Rosario,Mendoza,Tucuman,Salta,Mar del Plata,Bariloche,Valparaíso,Concepción,Temuco,Puerto Varas,Punta Arenas,Ushuaia,Antofagasta,Iquique,Manaus,Belém,Santarém,Parintins,Itacoatiara,Barcelos,Coari,Tefé,Tabatinga"
 },
 {
     "name": "Movima",
@@ -208,7 +208,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Santa Cruz de la Sierra,Cochabamba,La Paz,Sucre,Tarija,Oruro,Potosí,Montero,Trinidad,Riberalta"
+  "b": "Buenos Aires,Santiago,Lima,Bogotá,Caracas,Quito,La Paz,Sucre,Montevideo,Asunción,Córdoba,Rosario,Mendoza,Tucuman,Salta,Mar del Plata,Bariloche,Valparaíso,Concepción,Temuco,Puerto Varas,Punta Arenas,Ushuaia,Antofagasta,Iquique,Manaus,Belém,Santarém,Parintins,Itacoatiara,Barcelos,Coari,Tefé,Tabatinga"
 },
 {
     "name": "Nonuya",
@@ -217,7 +217,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bogotá,Medellín,Cali,Barranquilla,Cartagena,Santa Marta,Villavicencio,Pereira,Manizales,Neiva"
+  "b": "Buenos Aires,Santiago,Lima,Bogotá,Caracas,Quito,La Paz,Sucre,Montevideo,Asunción,Córdoba,Rosario,Mendoza,Tucuman,Salta,Mar del Plata,Bariloche,Valparaíso,Concepción,Temuco,Puerto Varas,Punta Arenas,Ushuaia,Antofagasta,Iquique,Manaus,Belém,Santarém,Parintins,Itacoatiara,Barcelos,Coari,Tefé,Tabatinga"
 },
 {
     "name": "Ocaina",
@@ -226,7 +226,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Santa Cruz Xoxocotlán,Tecámac,Santa Ana Chiautempan,Zinacatepec,San Salvador El Seco,San Salvador Atenco,San Pablo de las Salinas,San Pablo Autopan,Zinacantepec,San Miguel Coatlinchán"
+  "b": "Buenos Aires,Santiago,Lima,Bogotá,Caracas,Quito,La Paz,Sucre,Montevideo,Asunción,Córdoba,Rosario,Mendoza,Tucuman,Salta,Mar del Plata,Bariloche,Valparaíso,Concepción,Temuco,Puerto Varas,Punta Arenas,Ushuaia,Antofagasta,Iquique,Manaus,Belém,Santarém,Parintins,Itacoatiara,Barcelos,Coari,Tefé,Tabatinga"
 },
 {
     "name": "Guna",
@@ -235,7 +235,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "San Pablo Oztotepec,Oxkutzkab,Orizaba,Ocozocoautla de Espinosa,Ocoyoacac,Ocotlán de Morelos"
+  "b": "Buenos Aires,Santiago,Lima,Bogotá,Caracas,Quito,La Paz,Sucre,Montevideo,Asunción,Córdoba,Rosario,Mendoza,Tucuman,Salta,Mar del Plata,Bariloche,Valparaíso,Concepción,Temuco,Puerto Varas,Punta Arenas,Ushuaia,Antofagasta,Iquique,Manaus,Belém,Santarém,Parintins,Itacoatiara,Barcelos,Coari,Tefé,Tabatinga"
 },
 {
     "name": "Miskito",
@@ -244,7 +244,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Catandica,Boane,Angoche,Alto Molocue,Mutuáli,Iapala,Machipanda,Namapa-erati,Búzi"
+  "b": "Buenos Aires,Santiago,Lima,Bogotá,Caracas,Quito,La Paz,Sucre,Montevideo,Asunción,Córdoba,Rosario,Mendoza,Tucuman,Salta,Mar del Plata,Bariloche,Valparaíso,Concepción,Temuco,Puerto Varas,Punta Arenas,Ushuaia,Antofagasta,Iquique,Manaus,Belém,Santarém,Parintins,Itacoatiara,Barcelos,Coari,Tefé,Tabatinga"
 },
 {
     "name": "Tikuna",
@@ -253,7 +253,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Malema,Messica,Ribáuè,Xilembene,Ndiyona,Tsumeb"
+  "b": "Buenos Aires,Santiago,Lima,Bogotá,Caracas,Quito,La Paz,Sucre,Montevideo,Asunción,Córdoba,Rosario,Mendoza,Tucuman,Salta,Mar del Plata,Bariloche,Valparaíso,Concepción,Temuco,Puerto Varas,Punta Arenas,Ushuaia,Antofagasta,Iquique,Manaus,Belém,Santarém,Parintins,Itacoatiara,Barcelos,Coari,Tefé,Tabatinga"
 },
 {
     "name": "Arawak",
@@ -262,7 +262,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Waddinxveen,Waalwijk,North Brabant,Vught,Voorschoten,Voorburg,Zeeland"
+  "b": "Buenos Aires,Santiago,Lima,Bogotá,Caracas,Quito,La Paz,Sucre,Montevideo,Asunción,Córdoba,Rosario,Mendoza,Tucuman,Salta,Mar del Plata,Bariloche,Valparaíso,Concepción,Temuco,Puerto Varas,Punta Arenas,Ushuaia,Antofagasta,Iquique,Manaus,Belém,Santarém,Parintins,Itacoatiara,Barcelos,Coari,Tefé,Tabatinga"
 },
 {
     "name": "Sranan",
@@ -271,7 +271,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Buskerud,Harstad,Halden,Grimstad,Gjøvik,Asker"
+  "b": "Buenos Aires,Santiago,Lima,Bogotá,Caracas,Quito,La Paz,Sucre,Montevideo,Asunción,Córdoba,Rosario,Mendoza,Tucuman,Salta,Mar del Plata,Bariloche,Valparaíso,Concepción,Temuco,Puerto Varas,Punta Arenas,Ushuaia,Antofagasta,Iquique,Manaus,Belém,Santarém,Parintins,Itacoatiara,Barcelos,Coari,Tefé,Tabatinga"
 },
 {
     "name": "Aluku",
@@ -280,7 +280,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Burauen,Bunawan,Bulaon,Bulan,Bulacan,Buhi,Bugo,Budta"
+  "b": "Buenos Aires,Santiago,Lima,Bogotá,Caracas,Quito,La Paz,Sucre,Montevideo,Asunción,Córdoba,Rosario,Mendoza,Tucuman,Salta,Mar del Plata,Bariloche,Valparaíso,Concepción,Temuco,Puerto Varas,Punta Arenas,Ushuaia,Antofagasta,Iquique,Manaus,Belém,Santarém,Parintins,Itacoatiara,Barcelos,Coari,Tefé,Tabatinga"
 },
 {
     "name": "Ashaninka",
@@ -289,7 +289,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Nok Kundi,New Mirpur City,Naushahro Firoz,Naushahra Virkan,Naudero,Narang Mandi,Naukot"
+  "b": "Buenos Aires,Santiago,Lima,Bogotá,Caracas,Quito,La Paz,Sucre,Montevideo,Asunción,Córdoba,Rosario,Mendoza,Tucuman,Salta,Mar del Plata,Bariloche,Valparaíso,Concepción,Temuco,Puerto Varas,Punta Arenas,Ushuaia,Antofagasta,Iquique,Manaus,Belém,Santarém,Parintins,Itacoatiara,Barcelos,Coari,Tefé,Tabatinga"
 },
 {
     "name": "Aymara",
@@ -298,7 +298,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Radzyń Podlaski,Pułtusk,Puławy,Przeworsk,Przasnysz,Pruszków,Płońsk"
+  "b": "Buenos Aires,Santiago,Lima,Bogotá,Caracas,Quito,La Paz,Sucre,Montevideo,Asunción,Córdoba,Rosario,Mendoza,Tucuman,Salta,Mar del Plata,Bariloche,Valparaíso,Concepción,Temuco,Puerto Varas,Punta Arenas,Ushuaia,Antofagasta,Iquique,Manaus,Belém,Santarém,Parintins,Itacoatiara,Barcelos,Coari,Tefé,Tabatinga"
 },
 {
     "name": "Berbice",
@@ -307,7 +307,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Wałcz,West Pomerania,Wałbrzych,Wągrowiec,Wadowice,Ustroń,Ustka,Turek,Trzebinia,Trzcianka"
+  "b": "Buenos Aires,Santiago,Lima,Bogotá,Caracas,Quito,La Paz,Sucre,Montevideo,Asunción,Córdoba,Rosario,Mendoza,Tucuman,Salta,Mar del Plata,Bariloche,Valparaíso,Concepción,Temuco,Puerto Varas,Punta Arenas,Ushuaia,Antofagasta,Iquique,Manaus,Belém,Santarém,Parintins,Itacoatiara,Barcelos,Coari,Tefé,Tabatinga"
 },
 {
     "name": "Macaguán (Hitnü)",
@@ -316,7 +316,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Tarnowskie Góry,Szczecinek,Szamotuły,Świnoujście,Świętochłowice,Świebodzin,Świecie,Świebodzice"
+  "b": "Buenos Aires,Santiago,Lima,Bogotá,Caracas,Quito,La Paz,Sucre,Montevideo,Asunción,Córdoba,Rosario,Mendoza,Tucuman,Salta,Mar del Plata,Bariloche,Valparaíso,Concepción,Temuco,Puerto Varas,Punta Arenas,Ushuaia,Antofagasta,Iquique,Manaus,Belém,Santarém,Parintins,Itacoatiara,Barcelos,Coari,Tefé,Tabatinga"
 },
 {
     "name": "Arhuaco (Ikë)",
@@ -325,7 +325,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Świdwin,Świdnica,Swarzędz,Sulechów,Strzelce Opolskie,Opole Voivodeship,Strzegom,Stargard,Środa Wielkopolska,Śrem"
+  "b": "Buenos Aires,Santiago,Lima,Bogotá,Caracas,Quito,La Paz,Sucre,Montevideo,Asunción,Córdoba,Rosario,Mendoza,Tucuman,Salta,Mar del Plata,Bariloche,Valparaíso,Concepción,Temuco,Puerto Varas,Punta Arenas,Ushuaia,Antofagasta,Iquique,Manaus,Belém,Santarém,Parintins,Itacoatiara,Barcelos,Coari,Tefé,Tabatinga"
 },
 {
     "name": "Minica Huitoto",
@@ -334,7 +334,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Solec Kujawski,Słubice,Skawina,Sierpc,Sieradz,Siemianowice Śląskie,Rypin,Rydułtowy"
+  "b": "Buenos Aires,Santiago,Lima,Bogotá,Caracas,Quito,La Paz,Sucre,Montevideo,Asunción,Córdoba,Rosario,Mendoza,Tucuman,Salta,Mar del Plata,Bariloche,Valparaíso,Concepción,Temuco,Puerto Varas,Punta Arenas,Ushuaia,Antofagasta,Iquique,Manaus,Belém,Santarém,Parintins,Itacoatiara,Barcelos,Coari,Tefé,Tabatinga"
 },
 {
     "name": "Muinane",
@@ -343,7 +343,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Rumia,Reda,Rawicz,Radzionków,Radomsko,Radlin,Racibórz,Pyskowice,Pszczyna,Pruszcz Gdański"
+  "b": "Buenos Aires,Santiago,Lima,Bogotá,Caracas,Quito,La Paz,Sucre,Montevideo,Asunción,Córdoba,Rosario,Mendoza,Tucuman,Salta,Mar del Plata,Bariloche,Valparaíso,Concepción,Temuco,Puerto Varas,Punta Arenas,Ushuaia,Antofagasta,Iquique,Manaus,Belém,Santarém,Parintins,Itacoatiara,Barcelos,Coari,Tefé,Tabatinga"
 },
 {
     "name": "Nukak",
@@ -352,7 +352,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Prudnik,Polkowice,Police,Płock,Pleszew,Piotrków Trybunalski,Piła,Pabianice,Ozorków"
+  "b": "Buenos Aires,Santiago,Lima,Bogotá,Caracas,Quito,La Paz,Sucre,Montevideo,Asunción,Córdoba,Rosario,Mendoza,Tucuman,Salta,Mar del Plata,Bariloche,Valparaíso,Concepción,Temuco,Puerto Varas,Punta Arenas,Ushuaia,Antofagasta,Iquique,Manaus,Belém,Santarém,Parintins,Itacoatiara,Barcelos,Coari,Tefé,Tabatinga"
 },
 {
     "name": "Sateré-Mawé",
@@ -361,7 +361,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Oświęcim,Ostrów Wielkopolski,Ostróda,Osowa,Orzesze,Olkusz,Oleśnica,Oława,Oborniki"
+  "b": "Buenos Aires,Santiago,Lima,Bogotá,Caracas,Quito,La Paz,Sucre,Montevideo,Asunción,Córdoba,Rosario,Mendoza,Tucuman,Salta,Mar del Plata,Bariloche,Valparaíso,Concepción,Temuco,Puerto Varas,Punta Arenas,Ushuaia,Antofagasta,Iquique,Manaus,Belém,Santarém,Parintins,Itacoatiara,Barcelos,Coari,Tefé,Tabatinga"
 },
 {
     "name": "Tenetehára",
@@ -370,7 +370,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Nowy Tomyśl,Nowogard,Nowa Sól,Nowa Ruda,Namysłów,Nakło nad Notecią,Myszków,Mysłowice,Myślenice"
+  "b": "Buenos Aires,Santiago,Lima,Bogotá,Caracas,Quito,La Paz,Sucre,Montevideo,Asunción,Córdoba,Rosario,Mendoza,Tucuman,Salta,Mar del Plata,Bariloche,Valparaíso,Concepción,Temuco,Puerto Varas,Punta Arenas,Ushuaia,Antofagasta,Iquique,Manaus,Belém,Santarém,Parintins,Itacoatiara,Barcelos,Coari,Tefé,Tabatinga"
 },
 {
     "name": "Warízu",
@@ -379,7 +379,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Santa Cruz de la Sierra,Cochabamba,La Paz,Sucre,Tarija,Oruro,Potosí,Montero,Trinidad,Riberalta"
+  "b": "Buenos Aires,Santiago,Lima,Bogotá,Caracas,Quito,La Paz,Sucre,Montevideo,Asunción,Córdoba,Rosario,Mendoza,Tucuman,Salta,Mar del Plata,Bariloche,Valparaíso,Concepción,Temuco,Puerto Varas,Punta Arenas,Ushuaia,Antofagasta,Iquique,Manaus,Belém,Santarém,Parintins,Itacoatiara,Barcelos,Coari,Tefé,Tabatinga"
 },
 {
     "name": "Wari'",
@@ -388,7 +388,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Belém,Manaus,São Paulo,Rio de Janeiro,Fortaleza,Salvador,Curitiba,Recife,Porto Alegre,Brasília"
+  "b": "Buenos Aires,Santiago,Lima,Bogotá,Caracas,Quito,La Paz,Sucre,Montevideo,Asunción,Córdoba,Rosario,Mendoza,Tucuman,Salta,Mar del Plata,Bariloche,Valparaíso,Concepción,Temuco,Puerto Varas,Punta Arenas,Ushuaia,Antofagasta,Iquique,Manaus,Belém,Santarém,Parintins,Itacoatiara,Barcelos,Coari,Tefé,Tabatinga"
 },
 {
     "name": "Sanumá",
@@ -397,7 +397,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Belém,Manaus,São Paulo,Rio de Janeiro,Fortaleza,Salvador,Curitiba,Recife,Porto Alegre,Brasília"
+  "b": "Buenos Aires,Santiago,Lima,Bogotá,Caracas,Quito,La Paz,Sucre,Montevideo,Asunción,Córdoba,Rosario,Mendoza,Tucuman,Salta,Mar del Plata,Bariloche,Valparaíso,Concepción,Temuco,Puerto Varas,Punta Arenas,Ushuaia,Antofagasta,Iquique,Manaus,Belém,Santarém,Parintins,Itacoatiara,Barcelos,Coari,Tefé,Tabatinga"
 },
 {
     "name": "Trinitario",
@@ -406,7 +406,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Santa Cruz de la Sierra,Cochabamba,La Paz,Sucre,Tarija,Oruro,Potosí,Montero,Trinidad,Riberalta"
+  "b": "Buenos Aires,Santiago,Lima,Bogotá,Caracas,Quito,La Paz,Sucre,Montevideo,Asunción,Córdoba,Rosario,Mendoza,Tucuman,Salta,Mar del Plata,Bariloche,Valparaíso,Concepción,Temuco,Puerto Varas,Punta Arenas,Ushuaia,Antofagasta,Iquique,Manaus,Belém,Santarém,Parintins,Itacoatiara,Barcelos,Coari,Tefé,Tabatinga"
 },
 {
     "name": "Reyesano (Maropa)",
@@ -415,7 +415,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Chełmno,Brzeg,Brodnica,Braniewo,Bolesławiec,Boguszów-Gorce,Bogatynia,Bieruń"
+  "b": "Buenos Aires,Santiago,Lima,Bogotá,Caracas,Quito,La Paz,Sucre,Montevideo,Asunción,Córdoba,Rosario,Mendoza,Tucuman,Salta,Mar del Plata,Bariloche,Valparaíso,Concepción,Temuco,Puerto Varas,Punta Arenas,Ushuaia,Antofagasta,Iquique,Manaus,Belém,Santarém,Parintins,Itacoatiara,Barcelos,Coari,Tefé,Tabatinga"
 },
 {
     "name": "Toromona",
@@ -424,7 +424,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bielawa,Bełchatów,Andrychów,Aleksandrów Łódzki,Ursynów,Praga Północ,Praga Południe,Jelcz Laskowice,Gajowice"
+  "b": "Buenos Aires,Santiago,Lima,Bogotá,Caracas,Quito,La Paz,Sucre,Montevideo,Asunción,Córdoba,Rosario,Mendoza,Tucuman,Salta,Mar del Plata,Bariloche,Valparaíso,Concepción,Temuco,Puerto Varas,Punta Arenas,Ushuaia,Antofagasta,Iquique,Manaus,Belém,Santarém,Parintins,Itacoatiara,Barcelos,Coari,Tefé,Tabatinga"
 },
 {
     "name": "Wichí Lhamtés Nocten (Weenhayek)",
@@ -433,7 +433,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Gądów-Popowice Południowe,Pilczyce-Kozanów-Popowice Północne,Gaj,Huby,Krzyki-Partynice,Osiedle Powstańców Śląskich,Przedmieście Oławskie,Karłowice-Różanka,Psie Pole Zawidawie,Szczepin"
+  "b": "Buenos Aires,Santiago,Lima,Bogotá,Caracas,Quito,La Paz,Sucre,Montevideo,Asunción,Córdoba,Rosario,Mendoza,Tucuman,Salta,Mar del Plata,Bariloche,Valparaíso,Concepción,Temuco,Puerto Varas,Punta Arenas,Ushuaia,Antofagasta,Iquique,Manaus,Belém,Santarém,Parintins,Itacoatiara,Barcelos,Coari,Tefé,Tabatinga"
 },
 {
     "name": "Wichí Lhamtés Vejoz",
@@ -442,7 +442,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Biskupin-Sępolno-Dąbie-Bartoszowice,Nadodrze,Ołbin,Piecki-Migowo,Przymorze Wielkie,Ujeścisko-Łostowice,Wrzeszcz Dolny,Wrzeszcz Górny,Drzetowo-Grabowo"
+  "b": "Buenos Aires,Santiago,Lima,Bogotá,Caracas,Quito,La Paz,Sucre,Montevideo,Asunción,Córdoba,Rosario,Mendoza,Tucuman,Salta,Mar del Plata,Bariloche,Valparaíso,Concepción,Temuco,Puerto Varas,Punta Arenas,Ushuaia,Antofagasta,Iquique,Manaus,Belém,Santarém,Parintins,Itacoatiara,Barcelos,Coari,Tefé,Tabatinga"
 },
 {
     "name": "Tiriyó",
@@ -451,7 +451,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Belém,Manaus,São Paulo,Rio de Janeiro,Fortaleza,Salvador,Curitiba,Recife,Porto Alegre,Brasília"
+  "b": "Buenos Aires,Santiago,Lima,Bogotá,Caracas,Quito,La Paz,Sucre,Montevideo,Asunción,Córdoba,Rosario,Mendoza,Tucuman,Salta,Mar del Plata,Bariloche,Valparaíso,Concepción,Temuco,Puerto Varas,Punta Arenas,Ushuaia,Antofagasta,Iquique,Manaus,Belém,Santarém,Parintins,Itacoatiara,Barcelos,Coari,Tefé,Tabatinga"
 },
 {
     "name": "Palikur",
@@ -460,7 +460,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Sete Rios,São Martinho,Madeira,São João da Talha,São Domingos de Rana,Santa Iria da Azóia,Sacavém,Rio de Mouro,Ramada"
+  "b": "Buenos Aires,Santiago,Lima,Bogotá,Caracas,Quito,La Paz,Sucre,Montevideo,Asunción,Córdoba,Rosario,Mendoza,Tucuman,Salta,Mar del Plata,Bariloche,Valparaíso,Concepción,Temuco,Puerto Varas,Punta Arenas,Ushuaia,Antofagasta,Iquique,Manaus,Belém,Santarém,Parintins,Itacoatiara,Barcelos,Coari,Tefé,Tabatinga"
 },
 {
     "name": "Xavante",
@@ -469,7 +469,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lavradio,Laranjeiro,Falagueira,Estoril,Entroncamento,Damaia,Corroios,Charneca de Caparica"
+  "b": "Buenos Aires,Santiago,Lima,Bogotá,Caracas,Quito,La Paz,Sucre,Montevideo,Asunción,Córdoba,Rosario,Mendoza,Tucuman,Salta,Mar del Plata,Bariloche,Valparaíso,Concepción,Temuco,Puerto Varas,Punta Arenas,Ushuaia,Antofagasta,Iquique,Manaus,Belém,Santarém,Parintins,Itacoatiara,Barcelos,Coari,Tefé,Tabatinga"
 },
 {
     "name": "Xerente",
@@ -478,7 +478,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Carnide,Carnaxide,Carcavelos,Caparica,Caniço,Camarate,Câmara de Lobos"
+  "b": "Buenos Aires,Santiago,Lima,Bogotá,Caracas,Quito,La Paz,Sucre,Montevideo,Asunción,Córdoba,Rosario,Mendoza,Tucuman,Salta,Mar del Plata,Bariloche,Valparaíso,Concepción,Temuco,Puerto Varas,Punta Arenas,Ushuaia,Antofagasta,Iquique,Manaus,Belém,Santarém,Parintins,Itacoatiara,Barcelos,Coari,Tefé,Tabatinga"
 },
 {
     "name": "Guajajara",
@@ -487,7 +487,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "São Luís,Imperatriz,Timon,São José de Ribamar,Caxias,Paço do Lumiar,Codó,Bacabal,Chapadinha,Coroatá"
+  "b": "Buenos Aires,Santiago,Lima,Bogotá,Caracas,Quito,La Paz,Sucre,Montevideo,Asunción,Córdoba,Rosario,Mendoza,Tucuman,Salta,Mar del Plata,Bariloche,Valparaíso,Concepción,Temuco,Puerto Varas,Punta Arenas,Ushuaia,Antofagasta,Iquique,Manaus,Belém,Santarém,Parintins,Itacoatiara,Barcelos,Coari,Tefé,Tabatinga"
 },
 {
     "name": "Língua Geral Amazônica",
@@ -496,7 +496,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Belém,Manaus,São Paulo,Rio de Janeiro,Fortaleza,Salvador,Curitiba,Recife,Porto Alegre,Brasília"
+  "b": "Buenos Aires,Santiago,Lima,Bogotá,Caracas,Quito,La Paz,Sucre,Montevideo,Asunción,Córdoba,Rosario,Mendoza,Tucuman,Salta,Mar del Plata,Bariloche,Valparaíso,Concepción,Temuco,Puerto Varas,Punta Arenas,Ushuaia,Antofagasta,Iquique,Manaus,Belém,Santarém,Parintins,Itacoatiara,Barcelos,Coari,Tefé,Tabatinga"
 },
 {
     "name": "Gwich'in",
@@ -505,7 +505,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Al Hilāl al Gharbīyah,Al Hilāl ash Sharqīyah,Al Ghānim,As Sadd,Umm Lakhbā,Farīj Kulayb,Al Maţār al ‘Atīq,Ath Thumāmah Sab‘ah wa Arba‘ūn,Ath Thumāmah Sittah wa Arba‘ūn,Ath Thumāmah Khamsūn"
+  "b": "Buenos Aires,Santiago,Lima,Bogotá,Caracas,Quito,La Paz,Sucre,Montevideo,Asunción,Córdoba,Rosario,Mendoza,Tucuman,Salta,Mar del Plata,Bariloche,Valparaíso,Concepción,Temuco,Puerto Varas,Punta Arenas,Ushuaia,Antofagasta,Iquique,Manaus,Belém,Santarém,Parintins,Itacoatiara,Barcelos,Coari,Tefé,Tabatinga"
 },
 {
     "name": "Macuna",
@@ -514,7 +514,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Roșiorii de Vede,Râşnov,Valcea County,Buzau County,Caras-Severin County,Reghin-Sat,Prahova"
+  "b": "Buenos Aires,Santiago,Lima,Bogotá,Caracas,Quito,La Paz,Sucre,Montevideo,Asunción,Córdoba,Rosario,Mendoza,Tucuman,Salta,Mar del Plata,Bariloche,Valparaíso,Concepción,Temuco,Puerto Varas,Punta Arenas,Ushuaia,Antofagasta,Iquique,Manaus,Belém,Santarém,Parintins,Itacoatiara,Barcelos,Coari,Tefé,Tabatinga"
 },
 {
     "name": "Cubeo",
@@ -523,7 +523,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bogotá,Medellín,Cali,Barranquilla,Cartagena,Santa Marta,Villavicencio,Pereira,Manizales,Neiva"
+  "b": "Buenos Aires,Santiago,Lima,Bogotá,Caracas,Quito,La Paz,Sucre,Montevideo,Asunción,Córdoba,Rosario,Mendoza,Tucuman,Salta,Mar del Plata,Bariloche,Valparaíso,Concepción,Temuco,Puerto Varas,Punta Arenas,Ushuaia,Antofagasta,Iquique,Manaus,Belém,Santarém,Parintins,Itacoatiara,Barcelos,Coari,Tefé,Tabatinga"
 },
 {
     "name": "Desano",
@@ -532,7 +532,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Iasi County,Giurgiu County,Gheorgheni,Găeşti,Vrancea,Dolj"
+  "b": "Buenos Aires,Santiago,Lima,Bogotá,Caracas,Quito,La Paz,Sucre,Montevideo,Asunción,Córdoba,Rosario,Mendoza,Tucuman,Salta,Mar del Plata,Bariloche,Valparaíso,Concepción,Temuco,Puerto Varas,Punta Arenas,Ushuaia,Antofagasta,Iquique,Manaus,Belém,Santarém,Parintins,Itacoatiara,Barcelos,Coari,Tefé,Tabatinga"
 },
 {
     "name": "Itene",
@@ -541,7 +541,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Fetești-Gară,Mehedinti County,Botosani County,Cugir,Comăneşti"
+  "b": "Buenos Aires,Santiago,Lima,Bogotá,Caracas,Quito,La Paz,Sucre,Montevideo,Asunción,Córdoba,Rosario,Mendoza,Tucuman,Salta,Mar del Plata,Bariloche,Valparaíso,Concepción,Temuco,Puerto Varas,Punta Arenas,Ushuaia,Antofagasta,Iquique,Manaus,Belém,Santarém,Parintins,Itacoatiara,Barcelos,Coari,Tefé,Tabatinga"
 },
 {
     "name": "Hupdë",
@@ -550,7 +550,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Codlea,Cisnădie,Câmpia Turzii,Cernavodă,Buhuşi,Buftea"
+  "b": "Buenos Aires,Santiago,Lima,Bogotá,Caracas,Quito,La Paz,Sucre,Montevideo,Asunción,Córdoba,Rosario,Mendoza,Tucuman,Salta,Mar del Plata,Bariloche,Valparaíso,Concepción,Temuco,Puerto Varas,Punta Arenas,Ushuaia,Antofagasta,Iquique,Manaus,Belém,Santarém,Parintins,Itacoatiara,Barcelos,Coari,Tefé,Tabatinga"
 },
 {
     "name": "Koreguaje",
@@ -559,7 +559,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Braila County,Brad,Blaj,Bistrita-Nasaud County,Balş,Băicoi"
+  "b": "Buenos Aires,Santiago,Lima,Bogotá,Caracas,Quito,La Paz,Sucre,Montevideo,Asunción,Córdoba,Rosario,Mendoza,Tucuman,Salta,Mar del Plata,Bariloche,Valparaíso,Concepción,Temuco,Puerto Varas,Punta Arenas,Ushuaia,Antofagasta,Iquique,Manaus,Belém,Santarém,Parintins,Itacoatiara,Barcelos,Coari,Tefé,Tabatinga"
 },
 {
     "name": "Tukano",
@@ -568,7 +568,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Arad County,Aiud,Mioveni,Sighișoara,Sector 1,Sector 2"
+  "b": "Buenos Aires,Santiago,Lima,Bogotá,Caracas,Quito,La Paz,Sucre,Montevideo,Asunción,Córdoba,Rosario,Mendoza,Tucuman,Salta,Mar del Plata,Bariloche,Valparaíso,Concepción,Temuco,Puerto Varas,Punta Arenas,Ushuaia,Antofagasta,Iquique,Manaus,Belém,Santarém,Parintins,Itacoatiara,Barcelos,Coari,Tefé,Tabatinga"
 },
 {
     "name": "Wanano",
@@ -577,7 +577,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Sector 3,Sector 4,Sector 5,Sector 6,Serbia,Vojvodina,Central Serbia,Trstenik,Stara Pazova"
+  "b": "Buenos Aires,Santiago,Lima,Bogotá,Caracas,Quito,La Paz,Sucre,Montevideo,Asunción,Córdoba,Rosario,Mendoza,Tucuman,Salta,Mar del Plata,Bariloche,Valparaíso,Concepción,Temuco,Puerto Varas,Punta Arenas,Ushuaia,Antofagasta,Iquique,Manaus,Belém,Santarém,Parintins,Itacoatiara,Barcelos,Coari,Tefé,Tabatinga"
 },
 {
     "name": "Tatuyo",
@@ -586,7 +586,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bogotá,Medellín,Cali,Barranquilla,Cartagena,Santa Marta,Villavicencio,Pereira,Manizales,Neiva"
+  "b": "Buenos Aires,Santiago,Lima,Bogotá,Caracas,Quito,La Paz,Sucre,Montevideo,Asunción,Córdoba,Rosario,Mendoza,Tucuman,Salta,Mar del Plata,Bariloche,Valparaíso,Concepción,Temuco,Puerto Varas,Punta Arenas,Ushuaia,Antofagasta,Iquique,Manaus,Belém,Santarém,Parintins,Itacoatiara,Barcelos,Coari,Tefé,Tabatinga"
 },
 {
     "name": "Siriano",
@@ -595,7 +595,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bogotá,Medellín,Cali,Barranquilla,Cartagena,Santa Marta,Villavicencio,Pereira,Manizales,Neiva"
+  "b": "Buenos Aires,Santiago,Lima,Bogotá,Caracas,Quito,La Paz,Sucre,Montevideo,Asunción,Córdoba,Rosario,Mendoza,Tucuman,Salta,Mar del Plata,Bariloche,Valparaíso,Concepción,Temuco,Puerto Varas,Punta Arenas,Ushuaia,Antofagasta,Iquique,Manaus,Belém,Santarém,Parintins,Itacoatiara,Barcelos,Coari,Tefé,Tabatinga"
 },
 {
     "name": "Siona",
@@ -604,7 +604,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Futog,Bačka Topola,Apatin,Udomlya,Russian Federation,Tver Oblast,St.-Petersburg,Ryazan Oblast,Zyuzino,Zyablikovo"
+  "b": "Buenos Aires,Santiago,Lima,Bogotá,Caracas,Quito,La Paz,Sucre,Montevideo,Asunción,Córdoba,Rosario,Mendoza,Tucuman,Salta,Mar del Plata,Bariloche,Valparaíso,Concepción,Temuco,Puerto Varas,Punta Arenas,Ushuaia,Antofagasta,Iquique,Manaus,Belém,Santarém,Parintins,Itacoatiara,Barcelos,Coari,Tefé,Tabatinga"
 },
 {
     "name": "Rama",
@@ -613,7 +613,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Zherdevka,Tambov Oblast,Zheleznovodsk,Stavropol Kray,Zheleznogorsk,Zheleznodorozhnyy,Zernograd,Zelenokumsk,Zelenogradsk,Kaliningrad Oblast,Zelenograd,Tatarstan Republic"
+  "b": "Buenos Aires,Santiago,Lima,Bogotá,Caracas,Quito,La Paz,Sucre,Montevideo,Asunción,Córdoba,Rosario,Mendoza,Tucuman,Salta,Mar del Plata,Bariloche,Valparaíso,Concepción,Temuco,Puerto Varas,Punta Arenas,Ushuaia,Antofagasta,Iquique,Manaus,Belém,Santarém,Parintins,Itacoatiara,Barcelos,Coari,Tefé,Tabatinga"
 },
 {
     "name": "Chimila",
@@ -622,7 +622,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Yelan’,Yegor’yevsk,Yegorlykskaya,Yefremov,Tula Oblast,Yasnyy,Yasnogorsk,Yasenevo,Yartsevo,Yaroslavl Oblast"
+  "b": "Buenos Aires,Santiago,Lima,Bogotá,Caracas,Quito,La Paz,Sucre,Montevideo,Asunción,Córdoba,Rosario,Mendoza,Tucuman,Salta,Mar del Plata,Bariloche,Valparaíso,Concepción,Temuco,Puerto Varas,Punta Arenas,Ushuaia,Antofagasta,Iquique,Manaus,Belém,Santarém,Parintins,Itacoatiara,Barcelos,Coari,Tefé,Tabatinga"
 },
 {
     "name": "Piaroa",
@@ -631,7 +631,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kirov Oblast,Bashkortostan Republic,Yagry,Arkhangelskaya,Yablonovskiy,Adygeya Republic,Vyshniy Volochëk,Vyselki,Vyksa,Vykhino-Zhulebino,Leningradskaya Oblast'"
+  "b": "Buenos Aires,Santiago,Lima,Bogotá,Caracas,Quito,La Paz,Sucre,Montevideo,Asunción,Córdoba,Rosario,Mendoza,Tucuman,Salta,Mar del Plata,Bariloche,Valparaíso,Concepción,Temuco,Puerto Varas,Punta Arenas,Ushuaia,Antofagasta,Iquique,Manaus,Belém,Santarém,Parintins,Itacoatiara,Barcelos,Coari,Tefé,Tabatinga"
 },
 {
     "name": "Toba",
@@ -640,7 +640,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Vyaz’ma,Vsevolozhsk,Udmurtiya Republic,Vostryakovo,Voskresensk,Altuf’yevskiy,Vorob’yovo,Volzhsky"
+  "b": "Buenos Aires,Santiago,Lima,Bogotá,Caracas,Quito,La Paz,Sucre,Montevideo,Asunción,Córdoba,Rosario,Mendoza,Tucuman,Salta,Mar del Plata,Bariloche,Valparaíso,Concepción,Temuco,Puerto Varas,Punta Arenas,Ushuaia,Antofagasta,Iquique,Manaus,Belém,Santarém,Parintins,Itacoatiara,Barcelos,Coari,Tefé,Tabatinga"
 },
 {
     "name": "Wayuu",
@@ -649,7 +649,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Uritsk,Unecha,Uglich,Uchkeken,Kabardino-Balkariya Republic,Tver,Tutayev"
+  "b": "Buenos Aires,Santiago,Lima,Bogotá,Caracas,Quito,La Paz,Sucre,Montevideo,Asunción,Córdoba,Rosario,Mendoza,Tucuman,Salta,Mar del Plata,Bariloche,Valparaíso,Concepción,Temuco,Puerto Varas,Punta Arenas,Ushuaia,Antofagasta,Iquique,Manaus,Belém,Santarém,Parintins,Itacoatiara,Barcelos,Coari,Tefé,Tabatinga"
 },
 {
     "name": "Cogui/Kogi",
@@ -658,7 +658,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Tuchkovo,Tuapse,Tsimlyansk,Trubchevsk,Troparëvo,Troitskaya,Ingushetiya Republic,Troitsk,Torzhok"
+  "b": "Buenos Aires,Santiago,Lima,Bogotá,Caracas,Quito,La Paz,Sucre,Montevideo,Asunción,Córdoba,Rosario,Mendoza,Tucuman,Salta,Mar del Plata,Bariloche,Valparaíso,Concepción,Temuco,Puerto Varas,Punta Arenas,Ushuaia,Antofagasta,Iquique,Manaus,Belém,Santarém,Parintins,Itacoatiara,Barcelos,Coari,Tefé,Tabatinga"
 },
 {
     "name": "Barí",
@@ -667,7 +667,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Tomilino,Timashyovsk,Tikhvin,Tikhoretsk,Teykovo,Terek,Tyoply Stan,Temryuk,Tekstil’shchiki,Tbilisskaya"
+  "b": "Buenos Aires,Santiago,Lima,Bogotá,Caracas,Quito,La Paz,Sucre,Montevideo,Asunción,Córdoba,Rosario,Mendoza,Tucuman,Salta,Mar del Plata,Bariloche,Valparaíso,Concepción,Temuco,Puerto Varas,Punta Arenas,Ushuaia,Antofagasta,Iquique,Manaus,Belém,Santarém,Parintins,Itacoatiara,Barcelos,Coari,Tefé,Tabatinga"
 },
 {
     "name": "Ese Ejja",
@@ -676,7 +676,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Tambov,Agidel’,Taganrog,Taganskiy,Syzran,Svobody"
+  "b": "Buenos Aires,Santiago,Lima,Bogotá,Caracas,Quito,La Paz,Sucre,Montevideo,Asunción,Córdoba,Rosario,Mendoza,Tucuman,Salta,Mar del Plata,Bariloche,Valparaíso,Concepción,Temuco,Puerto Varas,Punta Arenas,Ushuaia,Antofagasta,Iquique,Manaus,Belém,Santarém,Parintins,Itacoatiara,Barcelos,Coari,Tefé,Tabatinga"
 },
 {
     "name": "Yuracaré",
@@ -685,7 +685,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Santa Cruz de la Sierra,Cochabamba,La Paz,Sucre,Tarija,Oruro,Potosí,Montero,Trinidad,Riberalta"
+  "b": "Buenos Aires,Santiago,Lima,Bogotá,Caracas,Quito,La Paz,Sucre,Montevideo,Asunción,Córdoba,Rosario,Mendoza,Tucuman,Salta,Mar del Plata,Bariloche,Valparaíso,Concepción,Temuco,Puerto Varas,Punta Arenas,Ushuaia,Antofagasta,Iquique,Manaus,Belém,Santarém,Parintins,Itacoatiara,Barcelos,Coari,Tefé,Tabatinga"
 },
 {
     "name": "Guambiano",
@@ -694,7 +694,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Sosnovyy Bor,Sosnovaya Polyana,Sorochinsk,Solntsevo,Solnechnogorsk,Sol’-Iletsk,Sokol’niki,Sokol"
+  "b": "Buenos Aires,Santiago,Lima,Bogotá,Caracas,Quito,La Paz,Sucre,Montevideo,Asunción,Córdoba,Rosario,Mendoza,Tucuman,Salta,Mar del Plata,Bariloche,Valparaíso,Concepción,Temuco,Puerto Varas,Punta Arenas,Ushuaia,Antofagasta,Iquique,Manaus,Belém,Santarém,Parintins,Itacoatiara,Barcelos,Coari,Tefé,Tabatinga"
 },
 {
     "name": "Awa Pit",
@@ -703,7 +703,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Sofrino,Sochi,Sobinka,Smolensk,Slobodka,Slavyansk-na-Kubani,Skopin,Skhodnya"
+  "b": "Buenos Aires,Santiago,Lima,Bogotá,Caracas,Quito,La Paz,Sucre,Montevideo,Asunción,Córdoba,Rosario,Mendoza,Tucuman,Salta,Mar del Plata,Bariloche,Valparaíso,Concepción,Temuco,Puerto Varas,Punta Arenas,Ushuaia,Antofagasta,Iquique,Manaus,Belém,Santarém,Parintins,Itacoatiara,Barcelos,Coari,Tefé,Tabatinga"
 },
 {
     "name": "Paez",
@@ -712,7 +712,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Shuya,Shushary,Mikhaylovsk,Shilovo,Sheksna,Shebekino,Shchukino,Shchigry,Shcherbinka,Shchyolkovo"
+  "b": "Buenos Aires,Santiago,Lima,Bogotá,Caracas,Quito,La Paz,Sucre,Montevideo,Asunción,Córdoba,Rosario,Mendoza,Tucuman,Salta,Mar del Plata,Bariloche,Valparaíso,Concepción,Temuco,Puerto Varas,Punta Arenas,Ushuaia,Antofagasta,Iquique,Manaus,Belém,Santarém,Parintins,Itacoatiara,Barcelos,Coari,Tefé,Tabatinga"
 },
 {
     "name": "Bora",
@@ -721,7 +721,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Shchëkino,Shatura,Shar’ya,Shakhun’ya,Shakhty,Severskaya,Severo-Zadonsk,Severoural’sk,Severodvinsk"
+  "b": "Buenos Aires,Santiago,Lima,Bogotá,Caracas,Quito,La Paz,Sucre,Montevideo,Asunción,Córdoba,Rosario,Mendoza,Tucuman,Salta,Mar del Plata,Bariloche,Valparaíso,Concepción,Temuco,Puerto Varas,Punta Arenas,Ushuaia,Antofagasta,Iquique,Manaus,Belém,Santarém,Parintins,Itacoatiara,Barcelos,Coari,Tefé,Tabatinga"
 },
 {
     "name": "Bauré",
@@ -730,7 +730,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Proletarsk,Prokhladnyy,Priyutovo,Privolzhskiy,Privolzhsk,Priozërsk,Primorsko-Akhtarsk,Pridonskoy,Povorino"
+  "b": "Buenos Aires,Santiago,Lima,Bogotá,Caracas,Quito,La Paz,Sucre,Montevideo,Asunción,Córdoba,Rosario,Mendoza,Tucuman,Salta,Mar del Plata,Bariloche,Valparaíso,Concepción,Temuco,Puerto Varas,Punta Arenas,Ushuaia,Antofagasta,Iquique,Manaus,Belém,Santarém,Parintins,Itacoatiara,Barcelos,Coari,Tefé,Tabatinga"
 },
 {
     "name": "Enlhet",
@@ -739,7 +739,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kotlovka,Annino,Polyarnyye Zori,Polyarnyy,Pokrovskoye-Streshnëvo,Pokrov,Pokhvistnevo,Podolsk,Pochep,Ryazanskiy"
+  "b": "Buenos Aires,Santiago,Lima,Bogotá,Caracas,Quito,La Paz,Sucre,Montevideo,Asunción,Córdoba,Rosario,Mendoza,Tucuman,Salta,Mar del Plata,Bariloche,Valparaíso,Concepción,Temuco,Puerto Varas,Punta Arenas,Ushuaia,Antofagasta,Iquique,Manaus,Belém,Santarém,Parintins,Itacoatiara,Barcelos,Coari,Tefé,Tabatinga"
 },
 {
     "name": "Kanamari",
@@ -748,7 +748,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Plavsk,Pikalëvo,Petushki,Petrovskaya,Petrovsk,Petrodvorets,Peterhof,Pestovo,Pervouralsk"
+  "b": "Buenos Aires,Santiago,Lima,Bogotá,Caracas,Quito,La Paz,Sucre,Montevideo,Asunción,Córdoba,Rosario,Mendoza,Tucuman,Salta,Mar del Plata,Bariloche,Valparaíso,Concepción,Temuco,Puerto Varas,Punta Arenas,Ushuaia,Antofagasta,Iquique,Manaus,Belém,Santarém,Parintins,Itacoatiara,Barcelos,Coari,Tefé,Tabatinga"
 },
 {
     "name": "Mocoví",
@@ -757,7 +757,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Pereslavl’-Zalesskiy,Novo-Peredelkino,Pavlovskiy Posad,Pavlovskaya,Pashkovskiy,Pallasovka,Ozerki"
+  "b": "Buenos Aires,Santiago,Lima,Bogotá,Caracas,Quito,La Paz,Sucre,Montevideo,Asunción,Córdoba,Rosario,Mendoza,Tucuman,Salta,Mar del Plata,Bariloche,Valparaíso,Concepción,Temuco,Puerto Varas,Punta Arenas,Ushuaia,Antofagasta,Iquique,Manaus,Belém,Santarém,Parintins,Itacoatiara,Barcelos,Coari,Tefé,Tabatinga"
 },
 {
     "name": "Wounaan",
@@ -766,7 +766,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Panama City,San Miguelito,Toclé,David,Santiago,Chitré,Colón,La Chorrera,Penonomé,Soná"
+  "b": "Buenos Aires,Santiago,Lima,Bogotá,Caracas,Quito,La Paz,Sucre,Montevideo,Asunción,Córdoba,Rosario,Mendoza,Tucuman,Salta,Mar del Plata,Bariloche,Valparaíso,Concepción,Temuco,Puerto Varas,Punta Arenas,Ushuaia,Antofagasta,Iquique,Manaus,Belém,Santarém,Parintins,Itacoatiara,Barcelos,Coari,Tefé,Tabatinga"
 },
 {
     "name": "Mapudungun",
@@ -775,7 +775,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Santiago,Buenos Aires,Mendoza,Córdoba,Rosario,La Plata,Mar del Plata,San Juan,Neuquén,Salta"
+  "b": "Buenos Aires,Santiago,Lima,Bogotá,Caracas,Quito,La Paz,Sucre,Montevideo,Asunción,Córdoba,Rosario,Mendoza,Tucuman,Salta,Mar del Plata,Bariloche,Valparaíso,Concepción,Temuco,Puerto Varas,Punta Arenas,Ushuaia,Antofagasta,Iquique,Manaus,Belém,Santarém,Parintins,Itacoatiara,Barcelos,Coari,Tefé,Tabatinga"
 },
 {
     "name": "Ona",
@@ -784,7 +784,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Novouzensk,Novoul’yanovsk,Novotroitsk,Novotitarovskaya,Novoshakhtinsk,Novorossiysk,Novopokrovskaya,Novopavlovsk,Novomoskovsk,Novomichurinsk"
+  "b": "Buenos Aires,Santiago,Lima,Bogotá,Caracas,Quito,La Paz,Sucre,Montevideo,Asunción,Córdoba,Rosario,Mendoza,Tucuman,Salta,Mar del Plata,Bariloche,Valparaíso,Concepción,Temuco,Puerto Varas,Punta Arenas,Ushuaia,Antofagasta,Iquique,Manaus,Belém,Santarém,Parintins,Itacoatiara,Barcelos,Coari,Tefé,Tabatinga"
 },
 {
     "name": "Yahgan",
@@ -793,7 +793,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Novokuz’minki,Novokuybyshevsk,Novokubansk,Novokhovrino,Novogireyevo,Novodvinsk,Novoanninskiy,Novoaleksandrovsk,Velikiy Novgorod"
+  "b": "Buenos Aires,Santiago,Lima,Bogotá,Caracas,Quito,La Paz,Sucre,Montevideo,Asunción,Córdoba,Rosario,Mendoza,Tucuman,Salta,Mar del Plata,Bariloche,Valparaíso,Concepción,Temuco,Puerto Varas,Punta Arenas,Ushuaia,Antofagasta,Iquique,Manaus,Belém,Santarém,Parintins,Itacoatiara,Barcelos,Coari,Tefé,Tabatinga"
 },
 {
     "name": "Cabiyari",
@@ -802,7 +802,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Nikol’sk,Nikel,Nezlobnaya,Nevinnomyssk,Nevel’,Nerekhta,Nelidovo,Neftegorsk"
+  "b": "Buenos Aires,Santiago,Lima,Bogotá,Caracas,Quito,La Paz,Sucre,Montevideo,Asunción,Córdoba,Rosario,Mendoza,Tucuman,Salta,Mar del Plata,Bariloche,Valparaíso,Concepción,Temuco,Puerto Varas,Punta Arenas,Ushuaia,Antofagasta,Iquique,Manaus,Belém,Santarém,Parintins,Itacoatiara,Barcelos,Coari,Tefé,Tabatinga"
 },
 {
     "name": "Carijona",
@@ -811,7 +811,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bogotá,Medellín,Cali,Barranquilla,Cartagena,Santa Marta,Villavicencio,Pereira,Manizales,Neiva"
+  "b": "Buenos Aires,Santiago,Lima,Bogotá,Caracas,Quito,La Paz,Sucre,Montevideo,Asunción,Córdoba,Rosario,Mendoza,Tucuman,Salta,Mar del Plata,Bariloche,Valparaíso,Concepción,Temuco,Puerto Varas,Punta Arenas,Ushuaia,Antofagasta,Iquique,Manaus,Belém,Santarém,Parintins,Itacoatiara,Barcelos,Coari,Tefé,Tabatinga"
 },
 {
     "name": "Kakwa (Cacua)",
@@ -820,7 +820,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bogotá,Medellín,Cali,Barranquilla,Cartagena,Santa Marta,Villavicencio,Pereira,Manizales,Neiva"
+  "b": "Buenos Aires,Santiago,Lima,Bogotá,Caracas,Quito,La Paz,Sucre,Montevideo,Asunción,Córdoba,Rosario,Mendoza,Tucuman,Salta,Mar del Plata,Bariloche,Valparaíso,Concepción,Temuco,Puerto Varas,Punta Arenas,Ushuaia,Antofagasta,Iquique,Manaus,Belém,Santarém,Parintins,Itacoatiara,Barcelos,Coari,Tefé,Tabatinga"
 },
 {
     "name": "Cuiba",
@@ -829,7 +829,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Liski,Likino-Dulevo,Likhobory,Lianozovo,L’govskiy,Komendantsky aerodrom,Lermontov,Leonovo,Leninskiye Gory,Leninsk"
+  "b": "Buenos Aires,Santiago,Lima,Bogotá,Caracas,Quito,La Paz,Sucre,Montevideo,Asunción,Córdoba,Rosario,Mendoza,Tucuman,Salta,Mar del Plata,Bariloche,Valparaíso,Concepción,Temuco,Puerto Varas,Punta Arenas,Ushuaia,Antofagasta,Iquique,Manaus,Belém,Santarém,Parintins,Itacoatiara,Barcelos,Coari,Tefé,Tabatinga"
 },
 {
     "name": "Culina",
@@ -838,7 +838,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Tsaritsyno,Yubileyny,Lefortovo,Lebedyan’,Lazarevskoye,Lakinsk,Labinsk,Dugulubgey,Kuznetsk"
+  "b": "Buenos Aires,Santiago,Lima,Bogotá,Caracas,Quito,La Paz,Sucre,Montevideo,Asunción,Córdoba,Rosario,Mendoza,Tucuman,Salta,Mar del Plata,Bariloche,Valparaíso,Concepción,Temuco,Puerto Varas,Punta Arenas,Ushuaia,Antofagasta,Iquique,Manaus,Belém,Santarém,Parintins,Itacoatiara,Barcelos,Coari,Tefé,Tabatinga"
 },
 {
     "name": "Cayuvava",
@@ -847,7 +847,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kuz’minki,Kuvandyk,Kuskovo,Kushva,Kushchyovskaya,Kur’yanovo,Kursk,Kurovskoye,Kurganinsk"
+  "b": "Buenos Aires,Santiago,Lima,Bogotá,Caracas,Quito,La Paz,Sucre,Montevideo,Asunción,Córdoba,Rosario,Mendoza,Tucuman,Salta,Mar del Plata,Bariloche,Valparaíso,Concepción,Temuco,Puerto Varas,Punta Arenas,Ushuaia,Antofagasta,Iquique,Manaus,Belém,Santarém,Parintins,Itacoatiara,Barcelos,Coari,Tefé,Tabatinga"
 },
 {
     "name": "Guarani",
@@ -856,7 +856,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Krymsk,Kropotkin,Kronstadt,Krasnyy Sulin,Biryulëvo Zapadnoye,Krasnoye Selo,Krasnoufimsk"
+  "b": "Buenos Aires,Santiago,Lima,Bogotá,Caracas,Quito,La Paz,Sucre,Montevideo,Asunción,Córdoba,Rosario,Mendoza,Tucuman,Salta,Mar del Plata,Bariloche,Valparaíso,Concepción,Temuco,Puerto Varas,Punta Arenas,Ushuaia,Antofagasta,Iquique,Manaus,Belém,Santarém,Parintins,Itacoatiara,Barcelos,Coari,Tefé,Tabatinga"
 },
 {
     "name": "Guahibo (Sikuani)",
@@ -865,7 +865,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bogotá,Medellín,Cali,Barranquilla,Cartagena,Santa Marta,Villavicencio,Pereira,Manizales,Neiva"
+  "b": "Buenos Aires,Santiago,Lima,Bogotá,Caracas,Quito,La Paz,Sucre,Montevideo,Asunción,Córdoba,Rosario,Mendoza,Tucuman,Salta,Mar del Plata,Bariloche,Valparaíso,Concepción,Temuco,Puerto Varas,Punta Arenas,Ushuaia,Antofagasta,Iquique,Manaus,Belém,Santarém,Parintins,Itacoatiara,Barcelos,Coari,Tefé,Tabatinga"
 },
 {
     "name": "Guayabero",
@@ -874,7 +874,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kolpino,Kolomyagi,Kolomna,Kolomenskoye,Kol’chugino,Kokhma,Klin"
+  "b": "Buenos Aires,Santiago,Lima,Bogotá,Caracas,Quito,La Paz,Sucre,Montevideo,Asunción,Córdoba,Rosario,Mendoza,Tucuman,Salta,Mar del Plata,Bariloche,Valparaíso,Concepción,Temuco,Puerto Varas,Punta Arenas,Ushuaia,Antofagasta,Iquique,Manaus,Belém,Santarém,Parintins,Itacoatiara,Barcelos,Coari,Tefé,Tabatinga"
 },
 {
     "name": "Guajá",
@@ -883,7 +883,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Klimovsk,Kizel,Kislovodsk,Kirzhach,Kirsanov,Kirovo-Chepetsk,Kirishi"
+  "b": "Buenos Aires,Santiago,Lima,Bogotá,Caracas,Quito,La Paz,Sucre,Montevideo,Asunción,Córdoba,Rosario,Mendoza,Tucuman,Salta,Mar del Plata,Bariloche,Valparaíso,Concepción,Temuco,Puerto Varas,Punta Arenas,Ushuaia,Antofagasta,Iquique,Manaus,Belém,Santarém,Parintins,Itacoatiara,Barcelos,Coari,Tefé,Tabatinga"
 },
 {
     "name": "Guarayu",
@@ -892,7 +892,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kireyevsk,Kineshma,Kinel’-Cherkassy,Kinel’,Kimry,Kimovsk,Khot'kovo,Khosta,Khoroshëvo-Mnevniki"
+  "b": "Buenos Aires,Santiago,Lima,Bogotá,Caracas,Quito,La Paz,Sucre,Montevideo,Asunción,Córdoba,Rosario,Mendoza,Tucuman,Salta,Mar del Plata,Bariloche,Valparaíso,Concepción,Temuco,Puerto Varas,Punta Arenas,Ushuaia,Antofagasta,Iquique,Manaus,Belém,Santarém,Parintins,Itacoatiara,Barcelos,Coari,Tefé,Tabatinga"
 },
 {
     "name": "Mopán",
@@ -901,7 +901,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Belmopan,San Ignacio,Orange Walk Town,Dangriga,Punta Gorda,Benque Viejo,Corozal Town,San Pedro,Placencia,Hopkins"
+  "b": "Buenos Aires,Santiago,Lima,Bogotá,Caracas,Quito,La Paz,Sucre,Montevideo,Asunción,Córdoba,Rosario,Mendoza,Tucuman,Salta,Mar del Plata,Bariloche,Valparaíso,Concepción,Temuco,Puerto Varas,Punta Arenas,Ushuaia,Antofagasta,Iquique,Manaus,Belém,Santarém,Parintins,Itacoatiara,Barcelos,Coari,Tefé,Tabatinga"
 },
 {
     "name": "Tojolab'al",
@@ -910,7 +910,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Afipskiy,Adler,Abinsk,Abdulino,Vasil’yevo,Ryl’sk,Persianovka,Drozhzhino"
+  "b": "Buenos Aires,Santiago,Lima,Bogotá,Caracas,Quito,La Paz,Sucre,Montevideo,Asunción,Córdoba,Rosario,Mendoza,Tucuman,Salta,Mar del Plata,Bariloche,Valparaíso,Concepción,Temuco,Puerto Varas,Punta Arenas,Ushuaia,Antofagasta,Iquique,Manaus,Belém,Santarém,Parintins,Itacoatiara,Barcelos,Coari,Tefé,Tabatinga"
 },
 {
     "name": "Uspanteko",
@@ -919,7 +919,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Yamalo-Nenets,Omsk Oblast,Tal’menka,Talitsa,Sysert’,Suzun"
+  "b": "Buenos Aires,Santiago,Lima,Bogotá,Caracas,Quito,La Paz,Sucre,Montevideo,Asunción,Córdoba,Rosario,Mendoza,Tucuman,Salta,Mar del Plata,Bariloche,Valparaíso,Concepción,Temuco,Puerto Varas,Punta Arenas,Ushuaia,Antofagasta,Iquique,Manaus,Belém,Santarém,Parintins,Itacoatiara,Barcelos,Coari,Tefé,Tabatinga"
 },
 {
     "name": "Macushi",
@@ -928,7 +928,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Krasnokamensk,Komsomolsk-on-Amur,Kavalerovo,Dalnerechensk,Chigiri,Cheremkhovo,Bol'šoj Kamen',Bodaybo"
+  "b": "Buenos Aires,Santiago,Lima,Bogotá,Caracas,Quito,La Paz,Sucre,Montevideo,Asunción,Córdoba,Rosario,Mendoza,Tucuman,Salta,Mar del Plata,Bariloche,Valparaíso,Concepción,Temuco,Puerto Varas,Punta Arenas,Ushuaia,Antofagasta,Iquique,Manaus,Belém,Santarém,Parintins,Itacoatiara,Barcelos,Coari,Tefé,Tabatinga"
 },
 {
     "name": "Waiwai",
@@ -937,7 +937,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Jewish Autonomous Oblast,Bikin,Baykal’sk,Aykhal,Artëm,Arsen’yev,Aginskoye"
+  "b": "Buenos Aires,Santiago,Lima,Bogotá,Caracas,Quito,La Paz,Sucre,Montevideo,Asunción,Córdoba,Rosario,Mendoza,Tucuman,Salta,Mar del Plata,Bariloche,Valparaíso,Concepción,Temuco,Puerto Varas,Punta Arenas,Ushuaia,Antofagasta,Iquique,Manaus,Belém,Santarém,Parintins,Itacoatiara,Barcelos,Coari,Tefé,Tabatinga"
 },
 {
     "name": "Yukpa",
@@ -946,7 +946,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bogotá,Medellín,Cali,Barranquilla,Cartagena,Santa Marta,Villavicencio,Pereira,Manizales,Neiva"
+  "b": "Buenos Aires,Santiago,Lima,Bogotá,Caracas,Quito,La Paz,Sucre,Montevideo,Asunción,Córdoba,Rosario,Mendoza,Tucuman,Salta,Mar del Plata,Bariloche,Valparaíso,Concepción,Temuco,Puerto Varas,Punta Arenas,Ushuaia,Antofagasta,Iquique,Manaus,Belém,Santarém,Parintins,Itacoatiara,Barcelos,Coari,Tefé,Tabatinga"
 },
 {
     "name": "Piapoco",
@@ -955,7 +955,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bogotá,Medellín,Cali,Barranquilla,Cartagena,Santa Marta,Villavicencio,Pereira,Manizales,Neiva"
+  "b": "Buenos Aires,Santiago,Lima,Bogotá,Caracas,Quito,La Paz,Sucre,Montevideo,Asunción,Córdoba,Rosario,Mendoza,Tucuman,Salta,Mar del Plata,Bariloche,Valparaíso,Concepción,Temuco,Puerto Varas,Punta Arenas,Ushuaia,Antofagasta,Iquique,Manaus,Belém,Santarém,Parintins,Itacoatiara,Barcelos,Coari,Tefé,Tabatinga"
 },
 {
     "name": "Wapishana",
@@ -964,7 +964,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Georgetown,Lethem,New Amsterdam,Skeldon,Bartica,Mabaruma,Anna Regina,Fort Wellington,Pomeroon,Charity"
+  "b": "Buenos Aires,Santiago,Lima,Bogotá,Caracas,Quito,La Paz,Sucre,Montevideo,Asunción,Córdoba,Rosario,Mendoza,Tucuman,Salta,Mar del Plata,Bariloche,Valparaíso,Concepción,Temuco,Puerto Varas,Punta Arenas,Ushuaia,Antofagasta,Iquique,Manaus,Belém,Santarém,Parintins,Itacoatiara,Barcelos,Coari,Tefé,Tabatinga"
 },
 {
     "name": "Chorote",
@@ -973,7 +973,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bushekeri,Busogo,Bugarama,Rangiro,Gitesi,Mukamira"
+  "b": "Buenos Aires,Santiago,Lima,Bogotá,Caracas,Quito,La Paz,Sucre,Montevideo,Asunción,Córdoba,Rosario,Mendoza,Tucuman,Salta,Mar del Plata,Bariloche,Valparaíso,Concepción,Temuco,Puerto Varas,Punta Arenas,Ushuaia,Antofagasta,Iquique,Manaus,Belém,Santarém,Parintins,Itacoatiara,Barcelos,Coari,Tefé,Tabatinga"
 },
 {
     "name": "Choshuenco",
@@ -982,7 +982,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Mukingo,Kayonza,Macuba,Karambi,Kagano,Nyabitekeli,Cyato,Bushenge,Nyamata"
+  "b": "Buenos Aires,Santiago,Lima,Bogotá,Caracas,Quito,La Paz,Sucre,Montevideo,Asunción,Córdoba,Rosario,Mendoza,Tucuman,Salta,Mar del Plata,Bariloche,Valparaíso,Concepción,Temuco,Puerto Varas,Punta Arenas,Ushuaia,Antofagasta,Iquique,Manaus,Belém,Santarém,Parintins,Itacoatiara,Barcelos,Coari,Tefé,Tabatinga"
 },
 {
     "name": "Cocoliche",
@@ -991,7 +991,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Gihombo,Mahembe,Bugaragara,Kamuhanda / Ruyenzi,Umutara,Medina Region,Umluj,Tabuk Region,Northern Borders Region,Ţurayf,Turabah"
+  "b": "Buenos Aires,Santiago,Lima,Bogotá,Caracas,Quito,La Paz,Sucre,Montevideo,Asunción,Córdoba,Rosario,Mendoza,Tucuman,Salta,Mar del Plata,Bariloche,Valparaíso,Concepción,Temuco,Puerto Varas,Punta Arenas,Ushuaia,Antofagasta,Iquique,Manaus,Belém,Santarém,Parintins,Itacoatiara,Barcelos,Coari,Tefé,Tabatinga"
 },
 {
     "name": "Huilliche",
@@ -1000,7 +1000,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Santa Tecla,Metapán,Mejicanos,Izalco,Ilopango,Delgado,Cuscatancingo,Cojutepeque,Chalchuapa"
+  "b": "Buenos Aires,Santiago,Lima,Bogotá,Caracas,Quito,La Paz,Sucre,Montevideo,Asunción,Córdoba,Rosario,Mendoza,Tucuman,Salta,Mar del Plata,Bariloche,Valparaíso,Concepción,Temuco,Puerto Varas,Punta Arenas,Ushuaia,Antofagasta,Iquique,Manaus,Belém,Santarém,Parintins,Itacoatiara,Barcelos,Coari,Tefé,Tabatinga"
 },
 {
     "name": "Guyanese Creole",
@@ -1009,7 +1009,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ḩalfāyā,Dayr Ḩāfir,Ad Darbāsīyah,Burj Islām,Binnish,Batabo"
+  "b": "Buenos Aires,Santiago,Lima,Bogotá,Caracas,Quito,La Paz,Sucre,Montevideo,Asunción,Córdoba,Rosario,Mendoza,Tucuman,Salta,Mar del Plata,Bariloche,Valparaíso,Concepción,Temuco,Puerto Varas,Punta Arenas,Ushuaia,Antofagasta,Iquique,Manaus,Belém,Santarém,Parintins,Itacoatiara,Barcelos,Coari,Tefé,Tabatinga"
 },
 {
     "name": "Puinave",
@@ -1018,7 +1018,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bogotá,Medellín,Cali,Barranquilla,Cartagena,Santa Marta,Villavicencio,Pereira,Manizales,Neiva"
+  "b": "Buenos Aires,Santiago,Lima,Bogotá,Caracas,Quito,La Paz,Sucre,Montevideo,Asunción,Córdoba,Rosario,Mendoza,Tucuman,Salta,Mar del Plata,Bariloche,Valparaíso,Concepción,Temuco,Puerto Varas,Punta Arenas,Ushuaia,Antofagasta,Iquique,Manaus,Belém,Santarém,Parintins,Itacoatiara,Barcelos,Coari,Tefé,Tabatinga"
 },
 {
     "name": "Yanomami",
@@ -1027,7 +1027,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Chumphon,Khanu Woralaksaburi,Huai Yot,Dok Kham Tai,Damnoen Saduak"
+  "b": "Buenos Aires,Santiago,Lima,Bogotá,Caracas,Quito,La Paz,Sucre,Montevideo,Asunción,Córdoba,Rosario,Mendoza,Tucuman,Salta,Mar del Plata,Bariloche,Valparaíso,Concepción,Temuco,Puerto Varas,Punta Arenas,Ushuaia,Antofagasta,Iquique,Manaus,Belém,Santarém,Parintins,Itacoatiara,Barcelos,Coari,Tefé,Tabatinga"
 },
 {
     "name": "Italo-Paulista",
@@ -1036,7 +1036,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Chom Bueng,Cha-am,Ban Tak,Ko Samui,Ban Ko Sire,Ban Pong,Ban Na San,Ban Kamala"
+  "b": "Buenos Aires,Santiago,Lima,Bogotá,Caracas,Quito,La Paz,Sucre,Montevideo,Asunción,Córdoba,Rosario,Mendoza,Tucuman,Salta,Mar del Plata,Bariloche,Valparaíso,Concepción,Temuco,Puerto Varas,Punta Arenas,Ushuaia,Antofagasta,Iquique,Manaus,Belém,Santarém,Parintins,Itacoatiara,Barcelos,Coari,Tefé,Tabatinga"
 },
 {
     "name": "Kashinawa",
@@ -1045,7 +1045,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Thawi Watthana,Thung Khru,Wang Thonglang,Watthana,Ban Chalong,Ban Ratsada,Ban Khlong Bang Phran,Ban Lak Song,Khwaeng Bang Khae,Si Mahosot"
+  "b": "Buenos Aires,Santiago,Lima,Bogotá,Caracas,Quito,La Paz,Sucre,Montevideo,Asunción,Córdoba,Rosario,Mendoza,Tucuman,Salta,Mar del Plata,Bariloche,Valparaíso,Concepción,Temuco,Puerto Varas,Punta Arenas,Ushuaia,Antofagasta,Iquique,Manaus,Belém,Santarém,Parintins,Itacoatiara,Barcelos,Coari,Tefé,Tabatinga"
 },
 {
     "name": "Camsá",
@@ -1054,7 +1054,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Erawan,Ban Aranyik,Bang Bon,Phra Nakhon,Sathorn,Bangkok Riverside,Huamak,Prachin Buri Town,Sam Sen Nai,Inner Huai Khwang"
+  "b": "Buenos Aires,Santiago,Lima,Bogotá,Caracas,Quito,La Paz,Sucre,Montevideo,Asunción,Córdoba,Rosario,Mendoza,Tucuman,Salta,Mar del Plata,Bariloche,Valparaíso,Concepción,Temuco,Puerto Varas,Punta Arenas,Ushuaia,Antofagasta,Iquique,Manaus,Belém,Santarém,Parintins,Itacoatiara,Barcelos,Coari,Tefé,Tabatinga"
 },
 {
     "name": "Kichwa",
@@ -1063,7 +1063,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Tha Raeng,Anusawari,Bang Kho Laem subdistrict,Bang O,Bang Yi Khan,Bang Sue subdistrict,Wong Sawang,Ban Chang Lo,Bang Khun Si,Arun Amarin"
+  "b": "Buenos Aires,Santiago,Lima,Bogotá,Caracas,Quito,La Paz,Sucre,Montevideo,Asunción,Córdoba,Rosario,Mendoza,Tucuman,Salta,Mar del Plata,Bariloche,Valparaíso,Concepción,Temuco,Puerto Varas,Punta Arenas,Ushuaia,Antofagasta,Iquique,Manaus,Belém,Santarém,Parintins,Itacoatiara,Barcelos,Coari,Tefé,Tabatinga"
 },
 {
     "name": "Kaiwá",
@@ -1072,7 +1072,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Türkmengala,Saýat,Lebap,Sarahs,Hojambaz,Magdanly,Arkadag"
+  "b": "Buenos Aires,Santiago,Lima,Bogotá,Caracas,Quito,La Paz,Sucre,Montevideo,Asunción,Córdoba,Rosario,Mendoza,Tucuman,Salta,Mar del Plata,Bariloche,Valparaíso,Concepción,Temuco,Puerto Varas,Punta Arenas,Ushuaia,Antofagasta,Iquique,Manaus,Belém,Santarém,Parintins,Itacoatiara,Barcelos,Coari,Tefé,Tabatinga"
 },
 {
     "name": "Kaingang",
@@ -1081,7 +1081,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Zaouiet Sousse,Sousse Governorate,Zaghouan Governorate,Oued Lill,Moularès,Tunis Governorate,Bizerte Governorate,Tozeur Governorate,Thala,Kasserine Governorate"
+  "b": "Buenos Aires,Santiago,Lima,Bogotá,Caracas,Quito,La Paz,Sucre,Montevideo,Asunción,Córdoba,Rosario,Mendoza,Tucuman,Salta,Mar del Plata,Bariloche,Valparaíso,Concepción,Temuco,Puerto Varas,Punta Arenas,Ushuaia,Antofagasta,Iquique,Manaus,Belém,Santarém,Parintins,Itacoatiara,Barcelos,Coari,Tefé,Tabatinga"
 },
 {
     "name": "Karajá",
@@ -1090,7 +1090,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Belém,Manaus,São Paulo,Rio de Janeiro,Fortaleza,Salvador,Curitiba,Recife,Porto Alegre,Brasília"
+  "b": "Buenos Aires,Santiago,Lima,Bogotá,Caracas,Quito,La Paz,Sucre,Montevideo,Asunción,Córdoba,Rosario,Mendoza,Tucuman,Salta,Mar del Plata,Bariloche,Valparaíso,Concepción,Temuco,Puerto Varas,Punta Arenas,Ushuaia,Antofagasta,Iquique,Manaus,Belém,Santarém,Parintins,Itacoatiara,Barcelos,Coari,Tefé,Tabatinga"
 },
 {
     "name": "Língua Geral Paulista",
@@ -1099,7 +1099,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Beni Khiar,Beni Khalled,Zouila,Zeramedine,Sejoumi"
+  "b": "Buenos Aires,Santiago,Lima,Bogotá,Caracas,Quito,La Paz,Sucre,Montevideo,Asunción,Córdoba,Rosario,Mendoza,Tucuman,Salta,Mar del Plata,Bariloche,Valparaíso,Concepción,Temuco,Puerto Varas,Punta Arenas,Ushuaia,Antofagasta,Iquique,Manaus,Belém,Santarém,Parintins,Itacoatiara,Barcelos,Coari,Tefé,Tabatinga"
 },
 {
     "name": "Latin American Spanish",
@@ -1108,7 +1108,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kireçocağı,Keskin,Kemalpaşa,Karşıyaka,Karapınar,Adiyaman Province"
+  "b": "Buenos Aires,Santiago,Lima,Bogotá,Caracas,Quito,La Paz,Sucre,Montevideo,Asunción,Córdoba,Rosario,Mendoza,Tucuman,Salta,Mar del Plata,Bariloche,Valparaíso,Concepción,Temuco,Puerto Varas,Punta Arenas,Ushuaia,Antofagasta,Iquique,Manaus,Belém,Santarém,Parintins,Itacoatiara,Barcelos,Coari,Tefé,Tabatinga"
 },
 {
     "name": "Pintupi (dedicated)",
@@ -1117,7 +1117,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Mon Repos,San Juan/Laventille,Diego Martin Regional Corporation,Borough of Arima,Douliu,Taiwan,Province of China,Yujing"
+  "b": "Buenos Aires,Santiago,Lima,Bogotá,Caracas,Quito,La Paz,Sucre,Montevideo,Asunción,Córdoba,Rosario,Mendoza,Tucuman,Salta,Mar del Plata,Bariloche,Valparaíso,Concepción,Temuco,Puerto Varas,Punta Arenas,Ushuaia,Antofagasta,Iquique,Manaus,Belém,Santarém,Parintins,Itacoatiara,Barcelos,Coari,Tefé,Tabatinga"
 },
 {
     "name": "Cofán (dedicated)",
@@ -1126,7 +1126,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Feodosiya,Fastiv,Enerhodar,Dzhankoy,Toretsk,Dunayivtsi,Dubno,Drohobych,Dolyna"
+  "b": "Buenos Aires,Santiago,Lima,Bogotá,Caracas,Quito,La Paz,Sucre,Montevideo,Asunción,Córdoba,Rosario,Mendoza,Tucuman,Salta,Mar del Plata,Bariloche,Valparaíso,Concepción,Temuco,Puerto Varas,Punta Arenas,Ushuaia,Antofagasta,Iquique,Manaus,Belém,Santarém,Parintins,Itacoatiara,Barcelos,Coari,Tefé,Tabatinga"
 },
 {
     "name": "Fulnio (dedicated)",
@@ -1135,7 +1135,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Dolynska,Dokuchayevsk,Dobropillia,Kamyanske,Dniprorudne,Myrnohrad,Derhachi,Debaltseve,Chuhuyiv,Chortkiv"
+  "b": "Buenos Aires,Santiago,Lima,Bogotá,Caracas,Quito,La Paz,Sucre,Montevideo,Asunción,Córdoba,Rosario,Mendoza,Tucuman,Salta,Mar del Plata,Bariloche,Valparaíso,Concepción,Temuco,Puerto Varas,Punta Arenas,Ushuaia,Antofagasta,Iquique,Manaus,Belém,Santarém,Parintins,Itacoatiara,Barcelos,Coari,Tefé,Tabatinga"
 },
 {
     "name": "Itonama (dedicated)",
@@ -1144,7 +1144,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Voznesenivka,Sheptytskyi,Bucha,Bryanka,Boyarka,Bortnychi,Boryslav"
+  "b": "Buenos Aires,Santiago,Lima,Bogotá,Caracas,Quito,La Paz,Sucre,Montevideo,Asunción,Córdoba,Rosario,Mendoza,Tucuman,Salta,Mar del Plata,Bariloche,Valparaíso,Concepción,Temuco,Puerto Varas,Punta Arenas,Ushuaia,Antofagasta,Iquique,Manaus,Belém,Santarém,Parintins,Itacoatiara,Barcelos,Coari,Tefé,Tabatinga"
 },
 {
     "name": "Leco (dedicated)",
@@ -1153,7 +1153,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bolhrad,Bohuslav,Bohuniya,Bohodukhiv,Bilhorod-Dnistrovskyi,Berezhany,Berezan,Berdychiv,Berdyansk"
+  "b": "Buenos Aires,Santiago,Lima,Bogotá,Caracas,Quito,La Paz,Sucre,Montevideo,Asunción,Córdoba,Rosario,Mendoza,Tucuman,Salta,Mar del Plata,Bariloche,Valparaíso,Concepción,Temuco,Puerto Varas,Punta Arenas,Ushuaia,Antofagasta,Iquique,Manaus,Belém,Santarém,Parintins,Itacoatiara,Barcelos,Coari,Tefé,Tabatinga"
 },
 {
     "name": "Nivaclé (dedicated)",
@@ -1162,7 +1162,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bilopillia,Bilohirsk,Bilohorodka,Bilychi,Balta,Balakliya,Balaklava,Bakhmach,Bakhchysaray"
+  "b": "Buenos Aires,Santiago,Lima,Bogotá,Caracas,Quito,La Paz,Sucre,Montevideo,Asunción,Córdoba,Rosario,Mendoza,Tucuman,Salta,Mar del Plata,Bariloche,Valparaíso,Concepción,Temuco,Puerto Varas,Punta Arenas,Ushuaia,Antofagasta,Iquique,Manaus,Belém,Santarém,Parintins,Itacoatiara,Barcelos,Coari,Tefé,Tabatinga"
 },
 {
     "name": "Kwaza-Xocó Amazonian",
@@ -1171,7 +1171,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Belém,Manaus,São Paulo,Rio de Janeiro,Fortaleza,Salvador,Curitiba,Recife,Porto Alegre,Brasília"
+  "b": "Buenos Aires,Santiago,Lima,Bogotá,Caracas,Quito,La Paz,Sucre,Montevideo,Asunción,Córdoba,Rosario,Mendoza,Tucuman,Salta,Mar del Plata,Bariloche,Valparaíso,Concepción,Temuco,Puerto Varas,Punta Arenas,Ushuaia,Antofagasta,Iquique,Manaus,Belém,Santarém,Parintins,Itacoatiara,Barcelos,Coari,Tefé,Tabatinga"
 },
 {
     "name": "Shipibo-Conibo Amazonian",
@@ -1180,7 +1180,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Highland Park,Hinsdale,Hoffman Estates,Homer Glen,Huntley,Hyde Park,Irving Park,Joliet,Kankakee"
+  "b": "Buenos Aires,Santiago,Lima,Bogotá,Caracas,Quito,La Paz,Sucre,Montevideo,Asunción,Córdoba,Rosario,Mendoza,Tucuman,Salta,Mar del Plata,Bariloche,Valparaíso,Concepción,Temuco,Puerto Varas,Punta Arenas,Ushuaia,Antofagasta,Iquique,Manaus,Belém,Santarém,Parintins,Itacoatiara,Barcelos,Coari,Tefé,Tabatinga"
 },
 {
     "name": "Kallawaya",
@@ -1189,7 +1189,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kenwood,Lake Forest,Lake Zurich,Lake in the Hills,Lansing,Lemont,Libertyville,Lincoln Park,Lincoln Square,Lisle"
+  "b": "Buenos Aires,Santiago,Lima,Bogotá,Caracas,Quito,La Paz,Sucre,Montevideo,Asunción,Córdoba,Rosario,Mendoza,Tucuman,Salta,Mar del Plata,Bariloche,Valparaíso,Concepción,Temuco,Puerto Varas,Punta Arenas,Ushuaia,Antofagasta,Iquique,Manaus,Belém,Santarém,Parintins,Itacoatiara,Barcelos,Coari,Tefé,Tabatinga"
 },
 {
     "name": "Chiquitano",
@@ -1198,7 +1198,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "West Lafayette,Westfield,Abington,Agawam,Allston,Amesbury,Amherst Center"
+  "b": "Buenos Aires,Santiago,Lima,Bogotá,Caracas,Quito,La Paz,Sucre,Montevideo,Asunción,Córdoba,Rosario,Mendoza,Tucuman,Salta,Mar del Plata,Bariloche,Valparaíso,Concepción,Temuco,Puerto Varas,Punta Arenas,Ushuaia,Antofagasta,Iquique,Manaus,Belém,Santarém,Parintins,Itacoatiara,Barcelos,Coari,Tefé,Tabatinga"
 },
 {
     "name": "Andoque",
@@ -1207,7 +1207,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Aduche,Araracuara,Puerto Santander,Solano,Caquetá,Monochoa,Quinché,Yacapeché,Duché,Ampiyacu,Predio Putumayo,Yarí,Cahuinarí,Guacamayo Rojo,Arau,Guamuez,Putumayo,Amazonas,Resguardo Aduche,Campo,Cerro Monochoa,Quebrada Armadillo,Río Cahurí,Alto Cahuinarí"
+  "b": "Buenos Aires,Santiago,Lima,Bogotá,Caracas,Quito,La Paz,Sucre,Montevideo,Asunción,Córdoba,Rosario,Mendoza,Tucuman,Salta,Mar del Plata,Bariloche,Valparaíso,Concepción,Temuco,Puerto Varas,Punta Arenas,Ushuaia,Antofagasta,Iquique,Manaus,Belém,Santarém,Parintins,Itacoatiara,Barcelos,Coari,Tefé,Tabatinga"
 },
 {
     "name": "Araona",
@@ -1216,7 +1216,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Puerto Araona,Manupare,Manurimi,Ixiamas,La Paz,Chacra,Los Angeles,Pampa Alegre,Madre de Dios,Beni,Riberalta,Iturralde,Colonia Nacional,Río Manorimi,Monopare,Bolivia,Amazonas,Tierras,Araona,Cavina,Caviña,Ese Ejja,Tacana,Reyesano"
+  "b": "Buenos Aires,Santiago,Lima,Bogotá,Caracas,Quito,La Paz,Sucre,Montevideo,Asunción,Córdoba,Rosario,Mendoza,Tucuman,Salta,Mar del Plata,Bariloche,Valparaíso,Concepción,Temuco,Puerto Varas,Punta Arenas,Ushuaia,Antofagasta,Iquique,Manaus,Belém,Santarém,Parintins,Itacoatiara,Barcelos,Coari,Tefé,Tabatinga"
 },
 {
     "name": "Argentinian Rioplatense Spanish",
@@ -1225,7 +1225,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Buenos Aires,Rosario,Córdoba,Mendoza,Tandil,Mar del Plata,La Plata,Bahía Blanca,San Miguel de Tucumán,Salta,Santa Fe,Paraná,Resistencia,Posadas,Neuquén,Bariloche,Ushuaia,Río Gallegos,San Juan,San Luis,Catamarca,La Rioja,Jujuy,Formosa,Corrientes,Concordia,Gualeguaychú,Concepción del Uruguay,Victoria,Goya,Mercedes,Chivilcoy,Luján,Tres Arroyos"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
 },
 {
     "name": "Arhuaco (Ikʉ)",
@@ -1486,7 +1486,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Caracas,Maracaibo,Valencia,Barquisimeto,Maracay,Barcelona,Puerto La Cruz,Maturín,Ciudad Guayana,Mérida"
+  "b": "Buenos Aires,Santiago,Lima,Bogotá,Caracas,Quito,La Paz,Sucre,Montevideo,Asunción,Córdoba,Rosario,Mendoza,Tucuman,Salta,Mar del Plata,Bariloche,Valparaíso,Concepción,Temuco,Puerto Varas,Punta Arenas,Ushuaia,Antofagasta,Iquique,Manaus,Belém,Santarém,Parintins,Itacoatiara,Barcelos,Coari,Tefé,Tabatinga"
 },
 {
     "name": "Warao",

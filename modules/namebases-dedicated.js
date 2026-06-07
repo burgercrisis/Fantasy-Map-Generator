@@ -10,7 +10,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Soir,Koaki,Alilotl,Deeg,Diedx,Seonilat,Neam,Voismm,Koutetul,Yout,Ololot,Diasaron,Irol,Guunim,Voenur,Tait,Alaer,Olikogss,Doer,Seesa"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Akan",
@@ -19,7 +19,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Olonilg,Doam,Seist,Guutetes,Nout,Koolkk,Alasaral,Zaol,Diunus,Seenuru,Jait,Voaol,Koikogy,Tier,Olesin,Diodimnn,Elas,Guinzz,Voused,Olug"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Áncá",
@@ -28,7 +28,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Samora,Retasami,Numumba,Natemuri,Kobi,Lonawu,Kutigombe,Wate,Genemu,Dotoyiya,Mepa,Baniru,Yotusesa,Yuku,Wanombombu,Tewanala,Pabo,Runuyo,Rawegunka,Deti"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Atlas Berber",
@@ -37,7 +37,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ziik,Searo,Guitonll,Jies,Koelxx,Alomidet,Tuan,Diign,Seurelam,Erun,Vootut,Koanatun,Orod,Olumom,Dietuk,Zuil,Gualir,Voirost,Juet,Alene"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Bebe",
@@ -46,7 +46,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Rebandi,Polipo,Wuge,Nabewa,Melolindo,Naya,Kubima,Kaludewi,Dobora,Bumawami,Pumo,Yobumba,Wumepuri,Gagi,Tedawu,Somilombe,Soye,Rademu,Pemodiya,Kusa"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Belneng",
@@ -55,7 +55,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Hoom,Koud,Alerutgg,Sii,Diattt,Seioris,Daen,Voeml,Koosisel,Naad,Olirat,Diunekan,Yiur,Guoul,Voalasyy,Inos,Aluson,Olegur,Suik,Sear"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Bembe Congo",
@@ -64,7 +64,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Aledus,Olonilu,Suam,Seisol,Guutety,Diut,Koolin,Alasarnn,Niol,Diunzz,Seenurd,Yuit,Voas,Koikogum,Iser,Olesgg,Diodimor,Teas,Guinis,Vousei"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Bembe DRC",
@@ -73,7 +73,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Inik,Alarun,Olitonrr,Sues,Seel,Guomidg,Dian,Koigt,Alureles,Niun,Diotkk,Seanatal,Yuod,Voumus,Koetuku,Isil,Olalol,Diirosy,Teet,Guenin"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Besme",
@@ -82,7 +82,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Negu,Magongo,Lepamanko,Boyo,Guguti,Gapedungu,Rasi,Bokani,Apiwoto,Gene,Woke,Tuporino,Suka,Sekindi,Ropume,Layu,Pakowa,Neragando,Woso,Lukuma"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Bidiyo",
@@ -91,7 +91,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Enos,Olusi,Diegul,Onik,Guarx,Voitonat,Zoes,Alelmm,Olomidul,Joan,Seigot,Guurelon,Ulun,Kootim,Alanat,Esod,Diumer,Seetukss,Osil,Voala"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Bina",
@@ -100,7 +100,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bowimu,Agupeya,Gedu,Woworu,Tukalasa,Suwo,Sewumbombu,Rokebula,Payayo,Nekitonka,Wome,Luyeso,Lakopiyu,Muga,Goyilo,Dukulesu,Bawu,Beyonki,Yuladalu,Poro"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Biu–Mandara",
@@ -109,7 +109,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guolinll,Kual,Koitxx,Alugeret,Veus,Diorn,Seadagam,Fuon,Voulut,Koesulun,Puir,Olakom,Diilot,Beeg,Guedir,Voonilt,Leam,Alise,Olutetkk,Vout"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Bole Afroasiatic",
@@ -118,7 +118,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Alutetdd,Tuut,Diolss,Seasaras,Erol,Vounk,Koenurur,Orit,Olaos,Diikogo,Zuer,Guesil,Voodimxx,Juas,Alinen,Olusen,Unug,Seokz,Guamanut,Etom"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Bole–Tangale",
@@ -127,7 +127,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Seikogdd,Vaer,Voesss,Koodimas,Foas,Olink,Diuseur,Poug,Guokos,Voamano,Baom,Aludil,Olerutxx,Seaten,Guiorn,Vien,Koemz,Alosisut,Gaad,Diirrr"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Bomboli–Bozaba",
@@ -136,7 +136,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Suseruno,Leki,Remandi,Posimo,Wube,Namewa,Mesogindo,Kumima,Kasuyewi,Benu,Domora,Butasami,Puko,Yomumba,Wutemuri,Gabi,Tenawu,Sotigombe,Sote,Ranemu"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Bum",
@@ -145,7 +145,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Peromba,Nobabari,Nepo,Maruwu,Lebesumbe,Gusamu,Gabinoya,Rade,Boseru,Abokisa,Gewa,Wosimbombu,Tububela,Supu,Sesoyo,Rodatanka,Pasuso,Nedenuyu,Wodi,Lutalo"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Buru–Angwe",
@@ -154,7 +154,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Yamini,Wesuyeto,Yonu,Sumo,Satasano,Nuko,Pomundi,Nutemu,Dabi,Menawa,Lotigondo,Rote,Kanema,Getoyiwi,Gupa,Bunira,Batusemi,Teku,Wunomba,Wawanari"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Chakato",
@@ -163,7 +163,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Gaal,Diit,Seugerdd,Quus,Voorss,Koadagas,Bion,Olulk,Diesulur,Liir,Guakos,Voiloto,Vueg,Aledil,Olonilxx,Giam,Seisen,Guutetn,Reut,Koolz"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Dangaléat",
@@ -172,7 +172,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Diates,Seiore,Neen,Voemal,Koosisww,Yoad,Oliru,Diunekm,Irur,Guoy,Voalasit,Taos,Alusnn,Oleguem,Doik,Seard,Guitonar,Noes,Koelum,Alomid"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Ekoka ǃKung",
@@ -181,7 +181,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Neut,Voolim,Koasar,Yool,Oluner,Dienurss,Irit,Guaa,Voikogk,Taer,Alesw,Olodimos,Doas,Seinll,Guuseil,Noug,Kooket,Alamanen,Zaom,Diudam"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Esimbi",
@@ -190,7 +190,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Tene,Wukeyo,Waporinka,Loka,Sokiso,Rupumeyu,Yayu,Pekolo,Noragasu,Neso,Makunki,Lerewulu,Gulango,Garironko,Rake,Boleti,Aromingu,Geba,Wolini,Turugeto"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Feʼfeʼ",
@@ -199,7 +199,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Dutu,Sarolo,Rebabasu,Sepo,Nurunki,Nabesulu,Koli,Losango,Kubinonko,Wade,Geseti,Dobokingu,Mewa,Basini,Yobubeto,Yupu,Waso,Tedatano,Palo,Rusundi"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Fio",
@@ -208,7 +208,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Rubawu,Ralipombe,Nobemu,Muloliya,Ruya,Lebiru,Koludesa,Gabombombu,Demawala,Tomo,Abuyo,Yemepunka,Lugi,Tudaso,Tamiloyu,Yeye,Rodelo,Pumodisu,Nosa,Nedinki"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Fut",
@@ -217,7 +217,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Miit,Seam,Guikogol,Wuer,Koesit,Alodimin,Hias,Diinem,Seusezz,Seug,Vookar,Koamans,Cuom,Olud,Dierutgg,Mui,Guattt,Voioris,Yeen,Aleml"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Gawar",
@@ -226,7 +226,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Seerutin,Yui,Voatem,Koiorzz,Olemar,Diosiss,Tead,Guir,Vounekgg,Duur,Alott,Olalasis,Nuos,Seusl,Gueguel,Zeik,Koarat,Alitonan,Jees,Dielul"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Ghomalaʼ",
@@ -235,7 +235,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Apa,Yeniwu,Wotusembe,Peku,Tanomu,Sewanaya,Punuru,Pawegusa,Sati,Mopambombu,Luwiyola,Kepe,Kepeyo,Gowosinka,Dapiso,Bewuneyu,Mabu,Yapolo,Weyakasu,Yoto"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Gǀui",
@@ -244,7 +244,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Joik,Searrr,Guitonom,Ules,Koelg,Alomidir,Esan,Diiges,Seurele,Osun,Vootal,Koanatww,Alod,Olumu,Dietukm,Kail,Gualy,Voirosit,Uret,Alennn"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Hadza",
@@ -253,7 +253,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Seunekol,Seur,Vooit,Koalasin,Cuos,Olusem,Dieguzz,Muik,Guarar,Voitons,Yees,Alel,Olomidgg,Huan,Seigtt,Guurelis,Soun,Kootl,Alanatel,Deod"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Hausa–Gwandara",
@@ -262,7 +262,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Voitem,Kougerzz,Isus,Olorar,Diadags,Teon,Guul,Voesulgg,Duir,Alaktt,Olilotis,Nueg,Seedl,Guonilel,Zeam,Koisat,Alutetan,Jeut,Diolul,Seasaryy"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Holma",
@@ -271,7 +271,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Moos,Alusl,Oleguel,Yaik,Searat,Guitonan,Hoes,Koelul,Alomidyy,Diigon,Seurelr,Daun,Voot,Koanatdd,Naod,Olumss,Dietukas,Yiil,Gualk,Voirosur"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Huba",
@@ -280,7 +280,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Koomidem,Loan,Oligd,Diurelar,Waun,Guotum,Voanat,Good,Alumor,Oletuktt,Riil,Seali,Guirosl,Caet,Koenx,Alolinat,Maal,Diitmm,Seugerul,Wius"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Jalaa",
@@ -289,7 +289,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Vaam,Voisas,Kouteta,Fout,Ololur,Diasarw,Pool,Guuno,Voenurll,Bait,Alaxx,Olikoget,Laer,Seesn,Guodimam,Vias,Koinut,Aluseun,Gaug,Diokom"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Jara",
@@ -298,7 +298,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Goos,Alusen,Olegun,Riik,Searz,Guitonut,Caes,Koelrr,Alomidom,Maan,Diigg,Seurelir,Wiun,Vootes,Koanate,Haod,Olumal,Dietukww,Ruil,Gualu"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Jelkung",
@@ -307,7 +307,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Voemor,Koosistt,Wead,Oliri,Diunekl,Guur,Guox,Voalasat,Roos,Alusmm,Oleguul,Ceik,Searot,Guitonon,Mees,Koelim,Woan,Diiger,Seurelss,Heun"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Jibyal",
@@ -316,7 +316,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Koesel,Alodimx,Diinan,Seusemm,Vookyy,Koamanot,Oludr,Dierutim,Guatdd,Voiorer,Alemas,Olosisa,Huad,Seirur,Guunekw,Sour,Kooo,Alalasll,Deos,Diusxx"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Jilbe",
@@ -325,7 +325,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Jaur,Vooel,Koalasx,Tios,Olusan,Diegumm,Elik,Guaryy,Voitonot,Oles,Alelr,Olomidim,Zian,Seigdd,Guureler,Jiun,Kootas,Alanata,Tuod,Diumur"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Jimi Cameroon",
@@ -334,7 +334,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guigo,Vourelll,Taun,Alotxx,Olanatet,Dood,Seumn,Guetukam,Noil,Koalut,Alirosun,Zaet,Dienom,Seolin,Voitir,Kougert,Tius,Olore,Diadagkk,Elon"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Jimi Nigeria",
@@ -343,7 +343,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Seirosin,Neet,Voenem,Koolinzz,Yoal,Olitar,Diugers,Irus,Guor,Voadaggg,Taon,Alultt,Olesulis,Doir,Seakl,Guilotel,Noeg,Koedat,Alonilan,Zaam"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Jina",
@@ -352,7 +352,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Voitonal,Lees,Alelus,Olomidu,Voan,Seigol,Guurely,Geun,Kootin,Alanatnn,Raod,Diumzz,Seetukd,Boil,Voals,Koirosum,Loet,Olengg,Diolinor,Waal"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Jonkor",
@@ -361,7 +361,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Seodimmm,Luas,Voinyy,Kouseot,Weug,Olokr,Diamanim,Guom,Guuddd,Voeruter,Roi,Alatas,Oliora,Ceen,Seemur,Guosisw,Mead,Koiro,Alunekll,Dioxx"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Ju (Chadic)",
@@ -370,7 +370,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Liad,Guirdd,Vouneker,Vuur,Aloas,Olalasa,Gios,Seusur,Gueguw,Reik,Koaro,Alitonll,Bues,Dielxx,Seomidet,Voign,Kourelam,Weun,Olotut,Dianatun"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Juǀʼhoan",
@@ -379,7 +379,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Oluser,Dieguss,Guara,Voitonk,Alelw,Olomidos,Seigll,Guurelil,Kootet,Alanaten,Diumam,Seetukz,Eril,Voalun,Koirosrr,Oret,Olen,Dioling,Zual,Guitt"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Kabalai",
@@ -388,7 +388,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Seigkk,Guurelal,Kuun,Kootus,Alanatu,Veod,Diumol,Seetuky,Fuil,Voalin,Koirosnn,Puet,Olenzz,Diolind,Beal,Guits,Vougerum,Leus,Alorgg,Oladagor"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Kajakse",
@@ -397,7 +397,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Voikogl,Vuer,Alesx,Olodimat,Gias,Seinmm,Guuseul,Reug,Kookot,Alamanon,Buom,Diudim,Seerut,Voater,Koiorss,Ween,Olema,Diosisk,Guad,Guirw"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Kamwe",
@@ -406,7 +406,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Alismm,Olutetul,Miut,Seolot,Guasaron,Wuol,Kounim,Alenur,Hiit,Diaer,Seikogss,Seer,Voesa,Koodimk,Cuas,Olinw,Diuseos,Muug,Guokll,Voamanil"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Kanakuru",
@@ -415,7 +415,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Koiser,Alutetss,Kout,Diola,Seasark,Vaol,Vounw,Koenuros,Foit,Olall,Diikogil,Poer,Gueset,Voodimen,Baas,Alinam,Olusez,Laug,Seokun,Guamanrr"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Karai-karai",
@@ -424,7 +424,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guous,Voalasu,Alusol,Oleguy,Searin,Guitonnn,Dies,Koelzz,Alomidd,Nian,Diigs,Seurelum,Yuun,Vootgg,Koanator,Isod,Olumis,Dietuki,Teil,Gualel"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Kariya",
@@ -433,7 +433,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Alasar,Diunir,Seenurt,Voae,Koikogkk,Olesww,Diodimus,Guinm,Vouseol,Alokit,Olamanin,Ziom,Seudem,Guerutzz,Jii,Koatar,Aliors,Tuen,Diem,Seosisgg"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Kera",
@@ -442,7 +442,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Keom,Oludi,Dierutl,Usi,Guatx,Voiorat,Feen,Alemmm,Olosisul,Pead,Seirot,Guunekon,Asur,Kooim,Alalas,Koos,Diuser,Seeguss,Vaik,Voara"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Kholok",
@@ -451,7 +451,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Loom,Oludww,Dierutus,Wai,Guatm,Voiorol,Goen,Alemit,Olosisin,Riad,Seirem,Guunekzz,Caur,Kooar,Alalass,Maos,Dius,Seegugg,Wiik,Voartt"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Kimré",
@@ -460,7 +460,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guugerz,Sous,Koorun,Aladagrr,Deon,Diul,Seesulg,Neir,Voakt,Koilotes,Yoeg,Oledkk,Dionilal,Iram,Guisus,Voutetu,Taut,Alolol,Olasary,Dool"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Kir-Balar",
@@ -469,7 +469,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Gualasnn,Asos,Kouszz,Alegud,Koik,Diars,Seitonum,Vaes,Voelgg,Koomidor,Foan,Oligis,Diureli,Poun,Guotel,Voanatx,Baod,Aluman,Oletukmm,Lail"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Kirya-Konzal",
@@ -478,7 +478,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kootw,Alanatos,Otod,Diumll,Seetukil,Anil,Voalet,Koirosen,Keet,Olenam,Diolinz,Usal,Guitun,Vougerrr,Feus,Oladagg,Peon,Seult,Guesules,Koakkk"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Koenoem",
@@ -487,7 +487,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Foer,Diodimg,Poas,Guint,Vousees,Baug,Alokkk,Olamanal,Laom,Seudus,Guerutu,Vii,Koatol,Aliory,Gaen,Diemin,Seosisnn,Quad,Voirzz,Kounekd"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Kubi",
@@ -496,7 +496,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Laod,Seumin,Guetuknn,Viil,Koalzz,Alirosd,Gaet,Diens,Seolinum,Qual,Voitgg,Kougeror,Bius,Oloris,Diadagi,Lion,Guulel,Voesulx,Vuir,Alakan"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Kulere",
@@ -505,7 +505,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Gualww,Voirosus,Alenm,Ololinol,Unal,Seitit,Guugerin,Etus,Koorem,Aladagzz,Oton,Diular,Seesuls,Anir,Voak,Koilotgg,Keeg,Oledtt,Dionilis,Usam"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Kulung language (West Chadic)",
@@ -514,7 +514,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Voolinz,Cial,Alitun,Olugerrr,Mius,Seor,Guadagg,Wuon,Koult,Alesules,Hiir,Diakkk,Seilotal,Seeg,Voedus,Koonilu,Cuam,Olisol,Diutety,Muut"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Kutto",
@@ -523,7 +523,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Voanatnn,Rood,Alumzz,Oletukd,Ceil,Seals,Guirosum,Meet,Koengg,Alolinor,Woal,Diitis,Seugeri,Heus,Voorel,Koadagx,Saon,Olulan,Diesulmm,Coir"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Kwaami",
@@ -532,7 +532,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Olitone,Seelal,Guomidww,Koigu,Alurelm,Dioty,Seanatit,Voumnn,Koetukem,Olald,Diirosar,Guenum,Voolin,Dual,Alitor,Olugertt,Nuus,Seori,Guadagl,Zeon"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Kwang",
@@ -541,7 +541,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guugerrr,Koor,Aladagg,Diult,Seesules,Voakkk,Koilotal,Oledus,Dionilu,Guisol,Voutety,Alolin,Olasarnn,Seunzz,Guenurd,Noit,Koas,Alikogum,Zaer,Diesgg"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Lagwan",
@@ -550,7 +550,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Seen,Voemss,Koosisas,Cuad,Olirk,Diunekur,Muur,Guoos,Voalaso,Yeos,Alusil,Oleguxx,Huik,Searen,Guitonn,Soes,Koelz,Alomidut,Dean,Diigrr"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Lamang",
@@ -559,7 +559,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Uteg,Fiam,Guisl,Voutetel,Piut,Alolat,Olasaran,Atol,Seunul,Guenuryy,Kuit,Koaon,Alikogr,Veer,Seodimdd,Fuas,Voinss,Kouseas,Puug,Olokk"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Lele language (Chad)",
@@ -568,7 +568,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Seatgg,Guioror,Paen,Koemis,Alosisi,Diirel,Seunekx,Kiur,Vooan,Koalasmm,Utos,Olusyy,Dieguot,Fiik,Guarr,Voitonim,Pies,Aleldd,Olomider,Atan"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Lozi",
@@ -577,7 +577,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Alakg,Olilotir,Uneg,Seedes,Guonile,Etam,Koisal,Alutetww,Otut,Diolu,Seasarm,Anol,Vouny,Koenurit,Keit,Olann,Diikogem,User,Guesd,Voodimar"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Maaka",
@@ -586,7 +586,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Olodimur,Ceas,Seinos,Guuseo,Meug,Kookil,Alamanxx,Woom,Diuden,Seerutn,Voatz,Koiorut,Saen,Olemrr,Diosisom,Coad,Guirg,Vounekir,Mour,Aloes"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Mabire",
@@ -595,7 +595,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Seulin,Guesulnn,Meir,Koakzz,Alilotd,Woeg,Dieds,Seonilum,Heam,Voisgg,Koutetor,Saut,Ololis,Diasari,Cool,Guunel,Voenurx,Moit,Alaan,Olikogmm"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Mada",
@@ -604,7 +604,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Koegua,Puik,Olarur,Diitonw,Bees,Guelo,Voomidll,Lean,Aligxx,Olurelet,Voun,Seotn,Guanatam,Geod,Koumut,Aletukun,Rail,Dialom,Seiros,Boet"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Mafa",
@@ -613,7 +613,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Alunekum,Siur,Diogg,Sealasor,Daos,Vousis,Koegui,Naik,Olarel,Diitonx,Yies,Guelan,Voomidmm,Inan,Aligyy,Olurelot,Suun,Seotr,Guanatim,Diod"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Majera",
@@ -622,7 +622,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Voetukx,Leil,Alalan,Olirosmm,Voet,Seenyy,Guolinot,Geal,Koitr,Alugerim,Raus,Diordd,Seadager,Voulas,Koesula,Loir,Olakur,Diilotw,Waeg,Guedo"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Malagasy",
@@ -631,7 +631,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kiir,Voakll,Koilotil,Oledet,Dionilen,Guisam,Voutetz,Alolun,Olasarrr,Seun,Guenurg,Koat,Alikoges,Dieskk,Seodimal,Voinus,Kouseu,Olokol,Diamany,Beom"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Malagasy macro entry",
@@ -640,7 +640,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Jeik,Diaras,Seitona,Toes,Voelur,Koomidw,Enan,Oligo,Diurelll,Onun,Guotxx,Voanatet,Zood,Alumn,Oletukam,Joil,Sealut,Guirosun,Ulet,Koenom"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Malgbe",
@@ -649,7 +649,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Diitoner,Coes,Guelas,Voomida,Moan,Aligur,Olurelw,Yaun,Seoto,Guanatll,Hood,Koumxx,Aletuket,Siil,Dialn,Seirosam,Voenut,Koolinun,Naal,Olitom"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Manding",
@@ -658,7 +658,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Voanatrr,Alum,Oletukg,Sealt,Guiroses,Koenkk,Alolinal,Esal,Diitus,Seugeru,Osus,Voorol,Koadagy,Alon,Olulin,Diesulnn,Kair,Guakzz,Voilotd,Ureg"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Mantsi language (Nigeria)",
@@ -667,7 +667,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Huol,Seunet,Guenuren,Soit,Koaam,Alikogz,Deer,Diesun,Seodimrr,Neas,Voin,Kouseg,Youg,Olokt,Diamanes,Irom,Guudkk,Voerutal,Tai,Alatus"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Mao Omotic",
@@ -676,7 +676,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Diatx,Seiorat,Voemmm,Koosisul,Tiad,Olirot,Diunekon,Elur,Guoim,Voalas,Olos,Aluser,Oleguss,Seara,Guitonk,Koelw,Alomidos,Diigll,Seurelil,Vootet"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Marba",
@@ -685,7 +685,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Koutettt,Enut,Ololi,Diasarl,Onol,Guunx,Voenurat,Zoit,Alamm,Olikogul,Joer,Seesot,Guodimon,Ulas,Koinim,Aluse,Esug,Dioker,Seamanss,Osom"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Margi",
@@ -694,7 +694,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Diudot,Seeruton,Voatim,Koior,Olemer,Diosisss,Vounekk,Alow,Olalasos,Seusll,Gueguil,Koaret,Alitonen,Dielam,Seomidz,Toan,Voigun,Kourelrr,Enun,Dianatg"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Margi South",
@@ -703,7 +703,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Voakot,Koiloton,Saeg,Oledim,Dionil,Coam,Guiser,Voutetss,Mout,Alola,Olasark,Yaol,Seunw,Guenuros,Hoit,Koall,Alikogil,Sier,Dieset,Seodimen"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Masa (macro)",
@@ -712,7 +712,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Voalasim,Zoos,Alusdd,Oleguer,Searas,Guitona,Koelur,Alomidw,Diigo,Seurelll,Vootxx,Koanatet,Olumn,Dietukam,Gualut,Voirosun,Alenom,Ololin,Faal,Seitir"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Masa North",
@@ -721,7 +721,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Faol,Seunyy,Guenurot,Pait,Koar,Alikogim,Arer,Diesdd,Seodimer,Kias,Voinas,Kousea,Utug,Olokur,Diamanw,Fiom,Guudo,Voerutll,Pii,Alatxx"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Masa South",
@@ -730,7 +730,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Seonilet,Wiam,Voisn,Koutetam,Haut,Ololut,Diasarun,Ruol,Guunom,Ciit,Alair,Olikogt,Mier,Seese,Guodimkk,Wuas,Koinww,Aluseus,Hiug,Diokm"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Maslam",
@@ -739,7 +739,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Alosisxx,Diiren,Seunekn,Vooz,Koalasut,Olusrr,Dieguom,Guarg,Voitonir,Aleles,Olomide,Seigal,Guurelww,Kootu,Alanatm,Diumy,Seetukit,Voalnn,Koirosem,Olend"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Masmaje",
@@ -748,7 +748,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Alinul,Oluseyy,Joug,Seokon,Guamanr,Ulom,Alerutdd,Esi,Diatss,Seioras,Osen,Voemk,Koosisur,Alad,Oliros,Diuneko,Guoil,Voalasxx,Uros,Faik"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Massa",
@@ -757,7 +757,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Voonil,Zoam,Alisor,Olutettt,Jout,Seoli,Guasarl,Ulol,Kounx,Alenurat,Esit,Diamm,Seikogul,Oser,Voesot,Koodimon,Olinim,Diuse,Kaug,Guoker"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Matal",
@@ -766,7 +766,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guakgg,Voilotor,Cieg,Aledis,Olonili,Miam,Seisel,Guutetx,Wuut,Koolan,Alasarmm,Hiol,Diunyy,Seenurot,Seit,Voar,Koikogim,Cuer,Olesdd,Diodimer"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Mawa",
@@ -775,7 +775,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Koirosit,Biet,Olennn,Diolinem,Lial,Guitd,Vougerar,Vuus,Alorum,Oladag,Gion,Seulor,Guesultt,Reir,Bueg,Luam,Weut,Guol,Roit,Ceer"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Mazagway",
@@ -784,7 +784,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Voumur,Koetukw,Cuil,Olalo,Diirosll,Muet,Guenxx,Voolinet,Yeal,Alitn,Olugeram,Huus,Seorut,Guadagun,Soon,Koulom,Alesul,Deir,Diakir,Seilott"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Mbara language (Chad)",
@@ -793,7 +793,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Onir,Guakn,Voilotam,Zoeg,Aledut,Olonilun,Joam,Seisom,Guutet,Ulut,Koolir,Alasart,Esol,Diune,Seenurkk,Osit,Voaww,Koikogus,Aler,Olesm"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Mbudum",
@@ -802,7 +802,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Koumg,Aletukir,Zail,Diales,Seirose,Jaet,Voenal,Koolinww,Tial,Olitu,Diugerm,Elus,Guory,Voadagit,Olon,Alulnn,Olesulem,Ziir,Seakd,Guilotar"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Mbuko",
@@ -811,7 +811,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Seundd,Guenurer,Koaas,Alikoga,Diesur,Seodimw,Voino,Kousell,Olokxx,Diamanet,Guudn,Voerutam,Alatut,Oliorun,Aten,Seemom,Guosis,Kuad,Koirir,Alunekt"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Mburku",
@@ -820,7 +820,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Diirosw,Iret,Gueno,Voolinll,Taal,Alitxx,Olugeret,Dous,Seorn,Guadagam,Noon,Koulut,Alesulun,Zair,Diakom,Seilot,Jaeg,Voedir,Koonilt,Tiam"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Mefele",
@@ -829,7 +829,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Seigas,Guurela,Kootur,Alanatw,Diumo,Seetukll,Voalxx,Koiroset,Olenn,Diolinam,Guitut,Vougerun,Alorom,Voon,Seulir,Guesult,Geir,Koake,Alilotkk,Raeg"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Mende",
@@ -838,7 +838,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Anes,Voelus,Koomidu,Kean,Oligol,Diurely,Usun,Guotin,Feod,Peil,Aset,Koal,Vaus,Foon,Poir,Guakyy,Voilotot,Baeg,Aledr,Olonilim"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Merey",
@@ -847,7 +847,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Voanatin,Taod,Alumem,Oletukzz,Doil,Sealar,Guiross,Noet,Koen,Alolingg,Zaal,Diittt,Seugeris,Jaus,Voorl,Koadagel,Tion,Olulat,Diesulan,Elir"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Merico",
@@ -856,7 +856,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Seegui,Jaik,Voarel,Koitonx,Ties,Olelan,Diomidmm,Elan,Guigyy,Vourelot,Olun,Alotr,Olanatim,Ziod,Seumdd,Guetuker,Jiil,Koalas,Alirosa,Tuet"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Mesme",
@@ -865,7 +865,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Boeg,Voedg,Koonilir,Loam,Olises,Diutete,Waut,Guolal,Voasarww,Alunu,Olenurm,Riit,Seay,Guikogit,Caer,Koesnn,Alodimem,Maas,Diind,Seusear"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Migaama",
@@ -874,7 +874,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Koamanss,Saom,Oluda,Dierutk,Coi,Guatw,Voioros,Moen,Alemll,Olosisil,Yaad,Seiret,Guuneken,Hour,Kooam,Alalasz,Diusun,Seegurr,Daik,Koitong"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Miler",
@@ -883,7 +883,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Alenurgg,Tuit,Diatt,Seikogis,Voesl,Koodimel,Oras,Olinat,Diusean,Zuug,Guokul,Voamanyy,Juom,Aludon,Olerutr,Seat,Guiordd,Eten,Koemss,Alosisas"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Miltu",
@@ -892,7 +892,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Koatyy,Aliorot,Jeen,Diemr,Seosisim,Toad,Voirdd,Kouneker,Enur,Oloas,Dialasa,Onos,Guusur,Voeguw,Zoik,Alaro,Olitonll,Joes,Seelxx,Guomidet"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Mire",
@@ -901,7 +901,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Cuir,Mueg,Yeam,Huut,Seolww,Guasarus,Sool,Kounm,Alenurol,Deit,Diait,Seikogin,Neer,Voesem,Koodimzz,Yoas,Olinar,Diuses,Irug,Guok"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Miship",
@@ -910,7 +910,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Hion,Diulrr,Seesulom,Seir,Voakg,Koilotir,Cueg,Oledes,Dionile,Muam,Guisal,Voutetww,Yeut,Alolu,Olasarm,Seuny,Guenurit,Koann,Alikogem,Diesd"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Miya",
@@ -919,7 +919,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Weit,Oladd,Diikoger,Guer,Guesas,Voodima,Roas,Alinur,Olusew,Ceug,Seoko,Guamanll,Meom,Koudxx,Alerutet,Woi,Diatn,Seioram,Heen,Voemut"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Mofu-Gudur",
@@ -928,7 +928,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Koutetyy,Puut,Ololon,Diasarr,Beol,Guun,Voenurdd,Leit,Alass,Olikogas,Voer,Seesk,Guodimur,Geas,Koinos,Aluseo,Raug,Diokil,Seamanxx,Boom"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Mogum",
@@ -937,7 +937,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Oluneken,Faur,Seoam,Gualasz,Paos,Kousun,Alegurr,Arik,Diar,Seitong,Kies,Voelt,Koomides,Utan,Oligkk,Diurelal,Fiun,Guotus,Voanatu,Piod"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Mokilko",
@@ -946,7 +946,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Pair,Koakxx,Alilotet,Areg,Diedn,Seonilam,Kiam,Voisut,Koutetun,Utut,Ololom,Diasar,Fiol,Guunir,Voenurt,Piit,Alae,Olikogkk,Ater,Seesww"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Moloko",
@@ -955,7 +955,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Koakr,Alilotim,Dieddd,Seoniler,Kuas,Veug,Seaman,Fuom,Voudir,Koerutt,Pui,Olate,Diiorkk,Been,Guemww,Voosisus,Lead,Alirm,Olunekol,Vour"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Montol",
@@ -964,7 +964,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guugerir,Koores,Aladage,Diulal,Seesulww,Voaku,Koilotm,Oledy,Dionilit,Guisnn,Voutetem,Alold,Olasarar,Seunum,Guenur,Koaor,Alikogtt,Diesi,Seodiml,Jaas"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Mozabite",
@@ -973,7 +973,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Koirosd,Naet,Olens,Diolinum,Yial,Guitgg,Vougeror,Inus,Aloris,Oladagi,Suon,Seulel,Guesulx,Diir,Koakan,Alilotmm,Nieg,Diedyy,Seonilot,Yuam"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Mpade",
@@ -982,7 +982,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Vounekkk,Feur,Aloww,Olalasus,Peos,Seusm,Gueguol,Asik,Koarit,Alitonin,Dielem,Seomidzz,Vaan,Voigar,Kourels,Foun,Dianatgg,Pood,Guumtt,Voetukis"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Mpre",
@@ -991,7 +991,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Huir,Seakit,Guilotin,Soeg,Koedem,Alonilzz,Deam,Diisar,Seutets,Vool,Koasargg,Oluntt,Dienuris,Gual,Voikogel,Alesat,Olodiman,Seinul,Guuseyy,Kookon"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Mser",
@@ -1000,7 +1000,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Olugerat,Seormm,Guadagul,Koulot,Alesulon,Diakim,Neeg,Voeder,Koonilss,Yoam,Olisa,Diutetk,Irut,Guolw,Voasaros,Taol,Alunll,Olenuril,Doit,Seaet"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Mubi",
@@ -1009,7 +1009,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Olamanas,Seudk,Guerutur,Cai,Koatos,Alioro,Maen,Diemil,Seosisxx,Wiad,Voiren,Kounekn,Haur,Oloz,Dialasut,Ruos,Guusrr,Voeguom,Ciik,Alarg"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Mundat",
@@ -1018,7 +1018,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Voirosyy,Piet,Alenon,Ololinr,Atal,Guugerdd,Kuus,Koorss,Aladagas,Veon,Diulk,Seesulur,Fuir,Voakos,Koiloto,Pueg,Oledil,Dionilxx,Beam,Guisen"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Musey",
@@ -1027,7 +1027,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Seunekss,Osur,Vooa,Koalask,Alos,Olusw,Dieguos,Kaik,Guarll,Voitonil,Ures,Alelet,Olomiden,Faan,Seigam,Guurelz,Paun,Kootun,Alanatrr,Arod"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Musgu",
@@ -1036,7 +1036,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Koiorum,Cuen,Olemgg,Diosisor,Muad,Guiris,Vouneki,Yeur,Aloel,Olalasx,Huos,Seusan,Guegumm,Soik,Koaryy,Alitonot,Dees,Dielr,Seomidim,Nean"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Muskum",
@@ -1045,7 +1045,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Raer,Seodimor,Boas,Voinis,Kousei,Loug,Olokel,Diamanx,Waom,Guudan,Voerutmm,Alatyy,Oliorot,Rien,Seemr,Guosisim,Caad,Koirdd,Aluneker,Maur"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Muyang",
@@ -1054,7 +1054,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Olinol,Diusey,Guug,Guokin,Voamannn,Room,Aludzz,Olerutd,Cei,Seats,Guiorum,Meen,Koemgg,Alosisor,Woad,Diiris,Seuneki,Heur,Saos,Coik"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Mwaghavul",
@@ -1063,7 +1063,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Olem,Diosisdd,Usad,Guirss,Vounekas,Alok,Olalasur,Seusos,Gueguo,Koaril,Alitonxx,Dielen,Seomidn,Voigz,Kourelut,Olotrr,Dianatom,Guumg,Voetukir,Alales"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Mzab–Wargla Berber",
@@ -1072,7 +1072,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guigun,Vourelrr,Ciun,Alot,Olanatg,Miod,Seumt,Guetukes,Wuil,Koalkk,Alirosal,Hiet,Dienus,Seolinu,Seal,Voitol,Kougery,Cuus,Olorin,Diadagnn"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Nafusi",
@@ -1081,7 +1081,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Gualr,Voirosim,Vuet,Alendd,Ololiner,Gial,Seitas,Guugera,Koorur,Aladagw,Buon,Diulo,Seesulll,Luir,Voakxx,Koilotet,Weeg,Oledn,Dionilam,Guam"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Nama",
@@ -1090,7 +1090,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Voirl,Kounekel,Biur,Oloat,Dialasan,Lios,Guusul,Voeguyy,Vuik,Alaron,Olitonr,Gies,Guomiddd,Rean,Koigss,Alurelas,Buun,Diotk,Seanatur,Luod"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Nancere",
@@ -1099,7 +1099,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Diins,Seuseum,Osug,Vookgg,Koamanor,Alom,Oludis,Dieruti,Guatel,Voiorx,Aleman,Olosismm,Faad,Seiryy,Guunekot,Paur,Alalasim,Aros,Diusdd,Seeguer"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Naro",
@@ -1108,7 +1108,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guunon,Voenurr,Juit,Olikogdd,Uner,Seesss,Guodimas,Etas,Koink,Aluseur,Otug,Diokos,Seamano,Anom,Voudil,Koerutxx,Kei,Olaten,Diiorn,Usen"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Ndam",
@@ -1117,7 +1117,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Vourelis,Urun,Alotl,Olanatel,Faod,Seumat,Guetukan,Pail,Koalul,Alirosyy,Aret,Dienon,Seolinr,Kial,Voit,Kougerdd,Utus,Olorss,Diadagas,Fion"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Ngambay",
@@ -1126,7 +1126,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Jair,Voaks,Koilotum,Tieg,Oledgg,Dionilor,Elam,Guisis,Vouteti,Olut,Alolel,Olasarx,Ziol,Seunan,Guenurmm,Jiit,Koayy,Alikogot,Tuer,Diesr"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Ngamo",
@@ -1135,7 +1135,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Seureld,Kiun,Voots,Koanatum,Utod,Olumgg,Dietukor,Fiil,Gualis,Voirosi,Alenel,Ololinx,Seitan,Guugermm,Kooryy,Aladagot,Diulr,Seesulim,Voakdd,Koiloter"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Ngas",
@@ -1144,7 +1144,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Hout,Kooln,Alasaram,Siol,Diunut,Seenurun,Dait,Voaom,Koikog,Naer,Olesir,Diodimt,Yias,Guine,Vousekk,Inug,Alokww,Olamanus,Suom,Seudm"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Ngeté-Herdé",
@@ -1153,7 +1153,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Diulz,Seesulut,Dair,Voakrr,Koilotom,Naeg,Oledg,Dionilir,Yiam,Guises,Voutete,Inut,Alolal,Olasarww,Suol,Seunu,Guenurm,Koay,Alikogit,Nier"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Nggwahyi",
@@ -1162,7 +1162,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Piur,Aloit,Olalasin,Atos,Seusem,Gueguzz,Kuik,Koarar,Alitons,Vees,Diel,Seomidgg,Fuan,Voigtt,Kourelis,Puun,Olotl,Dianatel,Beod,Guumat"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Ngizim",
@@ -1171,7 +1171,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kourelin,Orun,Olotem,Dianatzz,Zuod,Guumar,Voetuks,Juil,Alal,Olirosgg,Unet,Seentt,Guolinis,Etal,Koitl,Alugerel,Otus,Diorat,Seadagan,Anon"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Ngwaba",
@@ -1180,7 +1180,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Zaur,Jaos,Tiik,Eles,Olan,Ziun,Jiod,Koumdd,Aletuker,Tuil,Dialas,Seirosa,Eret,Koolinw,Olito,Diugerll,Zuus,Guorxx,Voadaget,Juon"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Nkore",
@@ -1189,7 +1189,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Zaeg,Diedr,Seonilim,Jaam,Voisdd,Kouteter,Tiut,Ololas,Diasara,Elol,Guunur,Voenurw,Olit,Alao,Olikogll,Zier,Seesxx,Guodimet,Jias,Koinn"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "North Giziga",
@@ -1198,7 +1198,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Koonilzz,Naam,Olisar,Diutets,Yiut,Voasargg,Inol,Aluntt,Olenuris,Suit,Guikogel,Dier,Koesat,Alodiman,Diinul,Seuseyy,Yuug,Vookon,Koamanr,Isom"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "North Mofu",
@@ -1207,7 +1207,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Seudum,Guerut,Koator,Aliortt,Woen,Diemi,Seosisl,Head,Voirx,Kounekat,Saur,Olomm,Dialasul,Coos,Guusot,Voeguon,Moik,Alarim,Oliton,Yaes"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Northern Berber",
@@ -1216,7 +1216,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Olenyy,Diolinot,Poal,Guitr,Vougerim,Baus,Alordd,Oladager,Seulas,Guesula,Viir,Koakur,Alilotw,Gaeg,Diedo,Seonilll,Quam,Voisxx,Koutetet,Biut"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Nteng",
@@ -1225,7 +1225,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Seols,Guasarum,Koungg,Alenuror,Gait,Diais,Seikogi,Quer,Voesel,Koodimx,Bias,Olinan,Diusemm,Liug,Guokyy,Voamanot,Vuom,Aludr,Olerutim,Gii"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Nuer",
@@ -1234,7 +1234,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Biik,Lies,Vuan,Giun,Reod,Buil,Luet,Weal,Guus,Aluln,Olesulam,Ceir,Seakut,Guilotun,Meeg,Koedom,Alonil,Woam,Diisir,Seutett"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Nyam",
@@ -1243,7 +1243,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Dioryy,Seadagot,Daon,Voulr,Koesulim,Nair,Olakdd,Diiloter,Yieg,Guedas,Voonila,Inam,Alisur,Olutetw,Suut,Seolo,Guasarll,Diol,Kounxx,Alenuret"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Nzanyi",
@@ -1252,7 +1252,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kounon,Alenurr,Rait,Boer,Loas,Waug,Goom,Rii,Maad,Seunekom,Wiur,Voog,Koalasir,Haos,Oluses,Diegue,Ruik,Guaral,Voitonww,Cies"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Nǁng",
@@ -1261,7 +1261,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Diarn,Seitonam,Boes,Voelut,Koomidun,Oligom,Diurel,Guotir,Voanatt,Alume,Oletukkk,Sealww,Guirosus,Koenm,Alolinol,Diitit,Seugerin,Voorem,Koadagzz,Haon"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Omo–Tana",
@@ -1270,7 +1270,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Heet,Voenor,Koolintt,Saal,Oliti,Diugerl,Cous,Guorx,Voadagat,Moon,Alulmm,Olesulul,Yair,Seakot,Guiloton,Hoeg,Koedim,Siam,Diiser,Seutetss"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Oromoid",
@@ -1279,7 +1279,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Olelat,Diomidan,Zuan,Guigul,Vourelyy,Juun,Aloton,Olanatr,Unod,Seum,Guetukdd,Etil,Koalss,Alirosas,Otet,Dienk,Seolinur,Anal,Voitos,Kougero"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Paa",
@@ -1288,7 +1288,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Diisss,Seutetas,Jaut,Voolk,Koasarur,Tiol,Olunos,Dienuro,Elit,Guail,Voikogxx,Oler,Alesen,Olodimn,Zias,Seinz,Guuseut,Jiug,Kookrr,Alamanom"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Pali language (Chadic)",
@@ -1297,7 +1297,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Voilotus,Ineg,Aledm,Olonilol,Seisit,Guutetin,Koolem,Alasarzz,Diunar,Seenurs,Voa,Koikoggg,Olestt,Diodimis,Guinl,Vouseel,Duug,Alokat,Olamanan,Nuom"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Pan",
@@ -1306,7 +1306,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Koolinr,Enal,Diugerdd,Onus,Guorss,Voadagas,Zoon,Alulk,Olesulur,Joir,Seakos,Guiloto,Uleg,Koedil,Alonilxx,Esam,Diisen,Seutetn,Osut,Voolz"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Parkwa",
@@ -1315,7 +1315,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Goes,Alelam,Olomidz,Rian,Seigun,Guurelrr,Caun,Koot,Alanatg,Maod,Diumt,Seetukes,Wiil,Voalkk,Koirosal,Haet,Olenus,Diolinu,Rual,Guitol"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Pero",
@@ -1324,7 +1324,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Olorol,Diadagy,Muon,Guulin,Voesulnn,Yeir,Alakzz,Olilotd,Hueg,Seeds,Guonilum,Soam,Koisgg,Alutetor,Deut,Diolis,Seasari,Neol,Vounel,Koenurx"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Peve",
@@ -1333,7 +1333,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Aletuk,Woil,Dialer,Seirosss,Voena,Koolink,Olitw,Diugeros,Guorll,Voadagil,Alulet,Olesulen,Seakam,Guilotz,Koedun,Alonilrr,Diis,Seutetg,Voolt,Koasares"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Pichinglis",
@@ -1342,7 +1342,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Olosiset,Seirn,Guunekam,Koout,Alalasun,Diusom,Seegu,Voarir,Koitont,Haes,Olele,Diomidkk,Guigww,Vourelus,Alotm,Olanatol,Seumit,Guetukin,Koalem,Aliroszz"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Piya",
@@ -1351,7 +1351,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Alirel,Olunekx,Suur,Seoan,Gualasmm,Dios,Kousyy,Aleguot,Niik,Diarr,Seitonim,Yues,Voeldd,Koomider,Isan,Oligas,Diurela,Teun,Guotur,Voanatw"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Poki",
@@ -1360,7 +1360,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Voikogtt,Moer,Alesi,Olodiml,Yaas,Seinx,Guuseat,Houg,Kookmm,Alamanul,Siom,Dai,Naen,Yiad,Inur,Suos,Diik,Nies,Isun,Teod"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Polci",
@@ -1369,7 +1369,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Olanatzz,Ceod,Seumar,Guetuks,Meil,Alirosgg,Woet,Dientt,Seolinis,Heal,Voitl,Kougerel,Saus,Olorat,Diadagan,Coon,Guulul,Voesulyy,Moir,Alakon"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Proto-Berber",
@@ -1378,7 +1378,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Uson,Guulon,Voesulr,Feir,Olilotdd,Peeg,Seedss,Guonilas,Asam,Koisk,Alutetur,Diolos,Seasaro,Vounil,Koenurxx,Olaen,Diikogn,Guesz,Voodimut,Alinrr"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Psikye dialect",
@@ -1387,7 +1387,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Koign,Alurelam,Diotut,Seanatun,Voumom,Koetuk,Olalir,Diirost,Guene,Voolinkk,Alitww,Olugerus,Seorm,Guadagol,Koulit,Alesulin,Jeir,Diakem,Seilotzz,Toeg"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Putai",
@@ -1396,7 +1396,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Coit,Guaot,Voikogon,Alesim,Olodim,Seiner,Guusess,Kooka,Alamank,Diudw,Seerutos,Voatll,Koioril,Olemet,Diosisen,Guiram,Vounekz,Aloun,Olalasrr,Seus"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Pyapun",
@@ -1405,7 +1405,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guuda,Voerutk,Alatw,Olioros,Laen,Seemll,Guosisil,Viad,Koiret,Aluneken,Dioam,Sealasz,Quos,Vousun,Koegurr,Olar,Diitong,Guelt,Voomides,Aligkk"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Rendille–Boni",
@@ -1414,7 +1414,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Daad,Naur,Dialasum,Yios,Guusgg,Voeguor,Alaris,Olitoni,Seelel,Guomidx,Koigan,Alurelmm,Diotyy,Seanatot,Voumr,Koetukim,Olaldd,Diiroser,Guenas,Voolina"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Ron Chadic",
@@ -1423,7 +1423,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Seusam,Gueguz,Viik,Koarun,Alitonrr,Gaes,Seomidg,Quan,Voigt,Koureles,Biun,Olotkk,Dianatal,Liod,Guumus,Voetuku,Vuil,Alalol,Olirosy,Giet"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Saba Chadic",
@@ -1432,7 +1432,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Olakmm,Diilotul,Fieg,Guedot,Voonilon,Piam,Alisim,Olutet,Atut,Seoler,Guasarss,Kuol,Kouna,Alenurk,Veit,Diaw,Seikogos,Fuer,Voesll,Koodimil"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Saho–Afar",
@@ -1441,7 +1441,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Naol,Olunel,Dienurx,Yiit,Guaan,Voikogmm,Iner,Alesyy,Olodimot,Suas,Seinr,Guuseim,Diug,Kookdd,Alamaner,Niom,Diudas,Seeruta,Voatur,Koiorw"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Sandawe",
@@ -1450,7 +1450,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Diolinss,Guita,Vougerk,Gous,Alorw,Oladagos,Rion,Seulll,Guesulil,Cair,Koaket,Aliloten,Maeg,Diedam,Seonilz,Voisun,Koutetrr,Olol,Diasarg,Guunt"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Sar",
@@ -1459,7 +1459,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Oreg,Zuam,Juut,Unol,Etit,Oter,Anas,Keug,Usom,Guudin,Voerutnn,Fei,Alatzz,Oliord,Peen,Seems,Guosisum,Asad,Koirgg,Alunekor"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Sarua",
@@ -1468,7 +1468,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Vounun,Koenurrr,Ola,Diikogg,Guest,Voodimes,Feas,Alinkk,Oluseal,Peug,Seokus,Guamanu,Asom,Koudol,Aleruty,Diatin,Seiornn,Vaen,Voemzz,Koosisd"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Setlôkwa",
@@ -1477,7 +1477,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Nosuyengu,Nenu,Mamoni,Letasato,Gumu,Gatemuno,Rabi,Bonandi,Atigo,Gete,Wonewa,Tutoyindo,Supa,Senima,Rotusewi,Laku,Panora,Newanami,Wobo,Lunumba"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Sha",
@@ -1486,7 +1486,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Koikogur,Weer,Olesos,Diodimo,Guas,Guinil,Vousexx,Roug,Aloken,Olamann,Ceom,Seudz,Guerutut,Koatrr,Aliorom,Diemg,Seosisir,Voires,Kouneke,Oloal"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Sharwa",
@@ -1495,7 +1495,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Wual,Hius,Seon,Voamangg,Taom,Aludtt,Olerutis,Doi,Seatl,Guiorel,Noen,Koemat,Alosisan,Zaad,Diirul,Seunekyy,Vooon,Koalasr,Olus,Diegudd"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Shenwa",
@@ -1504,7 +1504,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Alilotir,Diedes,Seonile,Voisal,Koutetww,Ololu,Diasarm,Liol,Guuny,Voenurit,Vuit,Alann,Olikogem,Gier,Seesd,Guodimar,Reas,Koinum,Buug,Diokor"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Siri (Chadic)",
@@ -1513,7 +1513,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Dialu,Seirosm,Voeny,Koolinit,Loal,Olitnn,Diugerem,Waus,Guord,Voadagar,Goon,Alulum,Olesul,Riir,Seakor,Guilottt,Caeg,Koedi,Alonill,Maam"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Siri Chadic",
@@ -1522,7 +1522,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Seomidmm,Voigyy,Kourelot,Youn,Olotr,Dianatim,Irod,Guumdd,Voetuker,Tail,Olirosa,Doet,Seenur,Guolinw,Noal,Koito,Alugerll,Zaus,Diorxx,Seadaget"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Sokoro",
@@ -1531,7 +1531,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Roes,Alelz,Olomidut,Cean,Seigrr,Guurelom,Meun,Kootg,Alanatir,Wood,Diumes,Seetuke,Heil,Voalal,Koirosww,Saet,Olenu,Diolinm,Coal,Guity"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Somrai",
@@ -1540,7 +1540,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guegukk,Paik,Koarww,Alitonus,Ares,Dielm,Seomidol,Kian,Voigit,Utun,Fiod,Piil,Atet,Voulul,Koesulyy,Olakon,Diilotr,Gued,Voonildd,Alisss"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "South Banda",
@@ -1549,7 +1549,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Voemg,Koosisir,Olires,Diuneke,Guoal,Voalasww,Alusu,Olegum,Seary,Guitonit,Koelnn,Alomidem,Zaan,Diigd,Seurelar,Jaun,Vootum,Koanat,Tiod,Olumor"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "South Cushitic",
@@ -1558,7 +1558,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guirr,Vounekim,Olur,Alodd,Olalaser,Zios,Seusas,Guegua,Jiik,Koarur,Alitonw,Tues,Dielo,Seomidll,Eran,Voigxx,Kourelet,Olotn,Dianatam,Guumut"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "South Giziga",
@@ -1567,7 +1567,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Cuod,Muil,Yeet,Hual,Guugert,Koore,Aladagkk,Diulww,Seesulus,Voakm,Koilotol,Oledit,Dionilin,Guisem,Voutetzz,Alolar,Olasars,Guenurgg,Koatt,Alikogis"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Southern Birifor",
@@ -1576,7 +1576,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Momepusu,Bugi,Ladanki,Kemilolu,Reye,Dudengo,Damodinko,Gosa,Yuditi,Yamuwengu,Todoni,Sunarato,Lego,Redu,Poneluno,Nagandi,Menido,Nase,Kugewa,Kanowindo"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Southern Gabri",
@@ -1585,7 +1585,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Zous,Aloren,Oladagn,Joon,Seulz,Guesulut,Ulir,Koakrr,Alilotom,Eseg,Diedg,Seonilir,Osam,Voises,Koutete,Alut,Ololal,Diasarww,Kaol,Guunu"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Standard Algerian Berber",
@@ -1594,7 +1594,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Voikogr,Duer,Ales,Olodimdd,Nuas,Seinss,Guuseas,Zeug,Kookk,Alamanur,Jeom,Diudos,Seeruto,Toi,Voatil,Koiorxx,Enen,Olemen,Diosisn,Onad"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Standard Moroccan Amazigh",
@@ -1603,7 +1603,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Dient,Seolines,Lual,Voitkk,Kougeral,Weus,Olorus,Diadagu,Guon,Guulol,Voesuly,Roir,Alakin,Olilotnn,Ceeg,Seedzz,Guonild,Meam,Koiss,Alutetum"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Sukur Chadic",
@@ -1612,7 +1612,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Koeskk,Alodimal,Diinus,Seuseu,Vaug,Vookol,Koamany,Foom,Oludin,Dierutnn,Poi,Guatzz,Voiord,Baen,Alems,Olosisum,Laad,Seirgg,Guunekor,Viur"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Taa",
@@ -1621,7 +1621,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Voomidd,Aligs,Olurelum,Seotgg,Guanator,Koumis,Aletuki,Dialel,Seirosx,Voenan,Koolinmm,Olityy,Diugerot,Guorr,Voadagim,Aluldd,Olesuler,Seakas,Guilota,Koedur"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Tagdal Tuareg Berber",
@@ -1630,7 +1630,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Koegut,Orik,Olare,Diitonkk,Zues,Guelww,Voomidus,Juan,Aligm,Olurelol,Unun,Seotit,Guanatin,Etod,Koumem,Aletukzz,Otil,Dialar,Seiross,Anet"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Tal",
@@ -1639,7 +1639,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guesy,Voodimit,Alinnn,Oluseem,Seokd,Guamanar,Koudum,Alerut,Diator,Seiortt,Voemi,Koosisl,Foad,Olirx,Diunekat,Pour,Guomm,Voalasul,Baos,Alusot"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Tala",
@@ -1648,7 +1648,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Alemim,Olosis,Unad,Seirer,Guunekss,Etur,Kooa,Alalask,Otos,Diusw,Seeguos,Anik,Voarll,Koitonil,Kees,Olelet,Diomiden,Usan,Guigam,Vourelz"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Talni",
@@ -1657,7 +1657,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Benombombu,Yuwanala,Pobo,Wenuyo,Towegunka,Duti,Sapaso,Rewiyoyu,Nupelo,Nawosisu,Lopinki,Kuwunelu,Wabu,Gepongo,Doyakanko,Meto,Baputi,Yoyeyungu,Yupi,Warani"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Tamahaq",
@@ -1666,7 +1666,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Diulos,Seesulo,Voakil,Koilotxx,Oleden,Dioniln,Guisz,Voutetut,Leut,Alolrr,Olasarom,Seung,Guenurir,Geit,Koaes,Alikoge,Diesal,Seodimww,Voinu,Kousem"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Tamasheq",
@@ -1675,7 +1675,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Beon,Leir,Voeg,Geam,Raut,Bool,Loit,Olaan,Diikogmm,Waer,Guesyy,Voodimot,Goas,Alinr,Oluseim,Riug,Seokdd,Guamaner,Caom,Koudas"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Tambas",
@@ -1684,7 +1684,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Voiorn,Leen,Alemz,Olosisut,Voad,Seirrr,Guunekom,Geur,Koog,Alalasir,Raos,Seegue,Boik,Voaral,Koitonww,Loes,Olelu,Diomidm,Guigy,Vourelit"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Tamki",
@@ -1693,7 +1693,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Veil,Dialll,Seirosil,Fuet,Voenet,Koolinen,Pual,Olitam,Diugerz,Beus,Guorun,Voadagrr,Alul,Olesulg,Voir,Seakt,Guilotes,Geeg,Koedkk,Alonilal"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Tawellemmet Berber",
@@ -1702,7 +1702,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Seamand,Erom,Vouds,Koerutum,Ori,Olatgg,Diioror,Zuen,Guemis,Voosisi,Juad,Unur,Otik,Alumo,Oletukll,Sealxx,Guiroset,Koenn,Alolinam,Diitut"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Temne",
@@ -1711,7 +1711,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Seatss,Guioras,Koemk,Alosisur,Diiros,Seuneko,Vooil,Koalasxx,Diegun,Guarz,Voitonut,Moes,Alelrr,Olomidom,Seigg,Guurelir,Houn,Kootes,Alanate,Siod"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Tera",
@@ -1720,7 +1720,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Diirosxx,Guenen,Voolinn,Alitz,Olugerut,Seorrr,Guadagom,Koulg,Alesulir,Diakes,Seilote,Voedal,Koonilww,Olisu,Diutetm,Elut,Guoly,Voasarit,Alunnn,Olenurem"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Teshenawa",
@@ -1729,7 +1729,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Usil,Gualmm,Voirosul,Feet,Alenot,Ololinon,Peal,Seitim,Guuger,Asus,Koorer,Aladagss,Koon,Diula,Seesulk,Vair,Voakw,Koilotos,Foeg,Oledll"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Tetserret Tuareg Berber",
@@ -1738,7 +1738,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Voalasol,Alusit,Oleguin,Searem,Guitonzz,Paes,Koelar,Alomids,Diig,Seurelgg,Voottt,Koanatis,Oluml,Dietukel,Gualat,Voirosan,Alenul,Ololinyy,Seiton,Guugerr"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Tikar",
@@ -1747,7 +1747,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Pukitonka,Neyeso,Mokopiyu,Layilo,Kekulesu,Rewu,Duyonki,Daladalu,Yuyungo,Yaletunko,Tami,Tobati,Sulipongu,Lege,Rebeni,Pololito,Wuya,Nabi,Meludeno,Naru"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Tiro",
@@ -1756,7 +1756,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Yurirono,Poke,Welendi,Toromi,Duba,Saliwa,Rerugendo,Sesu,Nuloma,Nasayawi,Kono,Lolura,Kuserumi,Waki,Gemamba,Dosimori,Mebe,Bamewu,Yosogimbe,Yuta"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Tobanga",
@@ -1765,7 +1765,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Aletukt,Diale,Seiroskk,Voenww,Koolinus,Olitm,Diugerol,Guorit,Voadagin,Alulem,Olesulzz,Seakar,Guilots,Koed,Alonilgg,Diistt,Seutetis,Heut,Vooll,Koasarel"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Tonga Mozambique",
@@ -1774,7 +1774,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Gukoso,Garagayu,Bokulo,Arewusu,Geni,Wolanki,Turirolu,Suke,Selengo,Rorominko,Laba,Paliti,Nerugengu,Wosu,Luloni,Lasayato,Muno,Golu,Duseruno,Baki"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Tonga Zimbabwe Zambia Mozambique",
@@ -1783,7 +1783,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Mebubengu,Kusoni,Kadatato,Dosu,Budenuno,Pudi,Yotandi,Wudiko,Gawe,Tetewa,Sodobindo,Ratima,Pedutewi,Kulu,Mutora,Magapami,Wedo,Kotumba,Gugekuri,Mowi"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Toram",
@@ -1792,7 +1792,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Seesulnn,Yuir,Voakzz,Koilotd,Iseg,Oleds,Dionilum,Team,Guisgg,Voutetor,Alolis,Olasari,Nuol,Seunel,Guenurx,Zeit,Koaan,Alikogmm,Jeer,Diesyy"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Tsotsitaal and Camtho, aka Iscamtho",
@@ -1801,7 +1801,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Nouakchott,Nouadhibou,Rosso,Kaédi,Zouerate,Atar,Tidjikja,Kiffa,Adrar,Chinguetti"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Tsuvan",
@@ -1810,7 +1810,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guadagu,Vion,Koulol,Alesuly,Gair,Diakin,Seilotnn,Queg,Voedzz,Koonild,Biam,Oliss,Diutetum,Liut,Guolgg,Voasaror,Vuol,Alunis,Olenuri,Giit"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Tswa",
@@ -1819,7 +1819,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ayuni,Yeletuto,Talipono,Yege,Robendi,Puloli,Noya,Nebiwa,Moludendo,Laboma,Kemawawi,Remo,Dubura,Damepumi,Gogi,Yudamba,Yamilori,Taye,Todewu,Sumodimbe"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Tumak",
@@ -1828,7 +1828,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Baam,Laut,Olinet,Diuseen,Guokam,Voamanz,Aludun,Olerutrr,Guiorg,Reen,Koemt,Alosises,Buad,Diirkk,Seunekal,Luur,Voous,Koalasu,Weos,Olusol"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Tunisian Arabic",
@@ -1837,7 +1837,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Zoas,Alinu,Seoky,Guamanit,Koudnn,Alerutem,Diatd,Seiorar,Voemum,Koosis,Oliror,Diunektt,Guoi,Voalasl,Alusx,Oleguat,Searmm,Guitonul,Koelot,Alomidon"
+  "b": "Tunis,Sfax,Bizerte,Sousse,Kairouan,Gabes,Gafsa,Monastir,Djerba,Tozeur,Hammamet,Nabeul,Beja,Jendouba,Le Kef,Siliana,Kasserine,Sidi Bouzad,Medenine,Tataouine,Kebili,Zarzis,Ben Arous,La Marsa,Sidi Bou Said"
 },
 {
     "name": "Twi",
@@ -1846,7 +1846,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Weyemu,Tokopiya,Duga,Sayiru,Rekulesa,Sewu,Nuyombombu,Naladala,Loyuyo,Kuletunka,Wami,Gebaso,Dolipoyu,Mege,Babelo,Yololisu,Yuya,Wabinki,Teludelu,Paru"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Ubi",
@@ -1855,7 +1855,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Olisem,Diutetzz,Ruut,Guolar,Voasars,Ciol,Alun,Olenurgg,Seatt,Guikogis,Koesl,Alodimel,Diinat,Seusean,Vookul,Koamanyy,Oludon,Dierutr,Guat,Voiordd"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Vame",
@@ -1864,7 +1864,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Seotir,Guanatt,Wuod,Koume,Aletukkk,Hiil,Dialww,Seirosus,Seet,Voenm,Koolinol,Cual,Olitit,Diugerin,Muus,Guorem,Voadagzz,Yeon,Alular,Olesuls"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Vemgo-Mabas",
@@ -1873,7 +1873,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Enam,Onut,Zool,Joit,Sead,Guikogar,Uler,Koesum,Alodim,Esas,Diinor,Seusett,Vooki,Koamanl,Oludx,Dierutat,Guatmm,Voiorul,Alemot,Olosison"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Wandala",
@@ -1882,7 +1882,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Diad,Koirol,Aluneky,Niur,Dioin,Sealasnn,Yuos,Vouszz,Koegud,Isik,Olars,Diitonum,Tees,Guelgg,Voomidor,Aligis,Olureli,Nuun,Seotel,Guanatx"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Warji",
@@ -1891,7 +1891,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Jous,Ulon,Esir,Oseg,Alam,Kaut,Guolin,Voasarnn,Urol,Alunzz,Olenurd,Fait,Seas,Guikogum,Paer,Koesgg,Alodimor,Diinis,Seusei,Kiug"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Weh",
@@ -1900,7 +1900,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Babiso,Yoludeyu,Yuru,Wabolo,Temawasu,Pamo,Rubunki,Ramepulu,Degi,Nodango,Mumilonko,Ruye,Ledeti,Komodingu,Kasa,Gadini,Demuweto,Tomu,Ado,Yenarano"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "West Banda",
@@ -1909,7 +1909,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Arom,Diudd,Seerutar,Kii,Voatum,Uten,Olemor,Diosistt,Fiad,Guiri,Vounekl,Alox,Olalasat,Seusmm,Gueguul,Koarot,Alitonon,Dielim,Seomid,Voiger"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Western Somali",
@@ -1918,7 +1918,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Olesw,Diodimos,Guinll,Vouseil,Aloket,Olamanen,Seudam,Guerutz,Zei,Koatun,Aliorrr,Seosisg,Voirt,Kounekes,Dialasal,Guusus,Voeguu,Alarol,Olitony,Seelin"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Wuzlam",
@@ -1927,7 +1927,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Koorir,Aladagt,Diule,Seesulkk,Voakww,Koilotus,Oledm,Dionilol,Guisit,Voutetin,Alolem,Olasarzz,Seunar,Guenurs,Koa,Alikoggg,Diestt,Seodimis,Voinl,Kouseel"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Yangere",
@@ -1936,7 +1936,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guolinom,Koitg,Alugerir,Diores,Seadage,Jaon,Voulal,Koesulww,Tiir,Olaku,Diilotm,Eleg,Guedy,Voonilit,Olam,Alisnn,Olutetem,Ziut,Seold,Guasarar"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Yedina",
@@ -1945,7 +1945,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kousu,Alegum,Diary,Seitonit,Voelnn,Duod,Nuil,Zeet,Jeal,Tous,Voorot,Koadagon,Enon,Olulim,Diesul,Guaker,Voilotss,Aleda,Olonilk,Seisw"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Yeyi",
@@ -1954,7 +1954,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Rago,Boduso,Aneluyu,Geyi,Wogalo,Tunidosu,Suse,Segenki,Ronowilu,Lana,Pagingo,Nenurenko,Wogu,Lugoti,Lapamangu,Muyo,Goguni,Dupeduto,Basi,Beka"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Yiwom",
@@ -1963,7 +1963,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Siir,Daeg,Tei,Duen,Nuad,Seirim,Guunek,Zeur,Kooer,Alalasss,Jeos,Diusa,Seeguk,Toik,Voarw,Koitonos,Enes,Olelll,Diomidil,Onan"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Yoruba alt code",
@@ -1972,7 +1972,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guayy,Voikogot,Alesr,Olodimim,Seindd,Guuseer,Kookas,Alamana,Diudur,Seerutw,Voato,Koiorll,Olemxx,Diosiset,Guirn,Vounekam,Zour,Alout,Olalasun,Joos"
+  "b": "Ibadan,Lagos,Abeokuta,Oshogbo,Ilorin,Oyo,Ile-Ife,Ado-Ekiti,Akure,Ondo,Ogbomosho,Ilaro,Oyo,Ede,Iwo,Ogbomoso,Eruwa,Iperu,Abeokuta,Ota,Ifo,Sango-Otta,Ikorodu,Epe,Shagamu"
 },
 {
     "name": "Zaghawa",
@@ -1981,7 +1981,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Dialasx,Guusan,Voegumm,Duik,Alaryy,Olitonot,Nues,Seelr,Guomidim,Zean,Koigdd,Alureler,Jeun,Diotas,Seanata,Tood,Enil,Onet,Zoal,Voede"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Zari",
@@ -1990,7 +1990,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Diodimes,Lias,Guinkk,Vouseal,Vuug,Alokus,Olamanu,Giom,Seudol,Gueruty,Rei,Koatin,Aliornn,Buen,Diemzz,Seosisd,Luad,Voirs,Kounekum,Weur"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Zeem",
@@ -1999,7 +1999,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Koarw,Alitonos,Maes,Dielll,Seomidil,Wian,Voiget,Kourelen,Haun,Olotam,Dianatz,Ruod,Guumun,Voetukrr,Ciil,Olirosg,Miet,Seent,Guolines,Koitkk"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Zemba",
@@ -2008,7 +2008,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Morayo,Luyisonka,Kereso,Goyoniyu,Tuda,Darilo,Beyukesu,Yaronki,Webabalu,Yopo,Surungo,Sabesunko,Nuli,Posati,Nubinongu,Dade,Meseni,Lobokito,Rowa,Kasi"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Zenaga",
@@ -2017,7 +2017,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Dianatdd,Kaod,Guumss,Voetukas,Uril,Alalk,Olirosur,Faet,Seenos,Guolino,Paal,Koitil,Alugerxx,Arus,Dioren,Seadagn,Kion,Voulz,Koesulut,Utir"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Zirenkel",
@@ -2026,7 +2026,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ulus,Kooror,Aladagtt,Eson,Diuli,Seesull,Osir,Voakx,Koilotat,Oledmm,Dionilul,Kaam,Guisot,Vouteton,Urut,Alolim,Olasar,Seuner,Guenurss,Koaa"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Zizilivakan",
@@ -2035,7 +2035,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Otad,Anur,Keos,Usik,Fees,Pean,Asun,Kood,Diumal,Seetukww,Vail,Voalu,Koirosm,Foet,Oleny,Diolinit,Guitnn,Vougerem,Alord,Oladagar"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Zulgo-Gemzek",
@@ -2044,7 +2044,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Sealasir,Osos,Vouses,Koegue,Alik,Olaral,Diitonww,Kaes,Guelu,Voomidm,Aligy,Olurelit,Faun,Seotnn,Guanatem,Paod,Koumd,Aletukar,Aril,Dialum"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Zumaya",
@@ -2053,7 +2053,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Vooniles,Uram,Aliskk,Olutetal,Faut,Seolus,Guasaru,Paol,Kounol,Alenury,Arit,Diain,Seikognn,Kier,Voeszz,Koodimd,Utas,Olins,Diuseum,Fiug"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Zumbun",
@@ -2062,7 +2062,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Diegukk,Liik,Guarww,Voitonus,Vues,Alelm,Olomidol,Gian,Seigit,Guurelin,Reun,Kootem,Alanatzz,Buod,Diumar,Seetuks,Luil,Voal,Koirosgg,Weet"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "ǂKxʼaoǁʼae",
@@ -2071,7 +2071,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Yaet,Seenkk,Guolinal,Hoal,Koitus,Alugeru,Sius,Diorol,Seadagy,Voulin,Koesulnn,Olakzz,Diilotd,Gueds,Voonilum,Alisgg,Olutetor,Seolis,Guasari,Kounel"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "ǂʼAmkoe",
@@ -2080,7 +2080,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Zout,Alolnn,Olasarem,Jool,Seund,Guenurar,Ulit,Koaum,Alikog,Eser,Diesor,Seodimtt,Osas,Voini,Kousel,Alug,Olokx,Diamanat,Kaom,Guudmm"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Spanglish",
@@ -2089,7 +2089,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Voesulil,Bair,Alaket,Oliloten,Laeg,Seedam,Guonilz,Viam,Koisun,Alutetrr,Gaut,Seasarg,Quol,Vount,Koenures,Biit,Olakk,Diikogal,Lier,Guesus"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Naukan",
@@ -2098,7 +2098,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Voetuky,Alalin,Olirosnn,Seenzz,Guolind,Koits,Alugerum,Diorgg,Seadagor,Voulis,Koesuli,Olakel,Diilotx,Guedan,Voonilmm,Alisyy,Olutetot,Seolr,Guasarim,Koundd"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Sirenik",
@@ -2107,7 +2107,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Diin,Seusegg,Vooktt,Koamanis,Oludl,Dierutel,Guatat,Voioran,Alemul,Olosisyy,Seiron,Guunekr,Koo,Alalasdd,Diusss,Seeguas,Neik,Voark,Koitonur,Yoes"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Yuit",
@@ -2116,7 +2116,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Diedi,Seonill,Voisx,Koutetat,Ololmm,Diasarul,Guunot,Voenuron,Alaim,Olikog,Yaer,Seeser,Guodimss,Hoas,Koina,Alusek,Siug,Diokw,Seamanos,Daom"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "A'Tong",
@@ -2125,7 +2125,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Oledz,Dionilut,Guisrr,Voutetom,Alolg,Olasarir,Seunes,Guenure,Koaal,Alikogww,Diesu,Seodimm,Eras,Voiny,Kouseit,Orug,Oloknn,Diamanem,Zuom,Guudd"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Achhami (Doteli)",
@@ -2134,7 +2134,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Alater,Oliorss,Seema,Guosisk,Koirw,Alunekos,Veur,Dioll,Sealasil,Fuos,Vouset,Koeguen,Olaram,Diitonz,Guelun,Voomidrr,Alig,Olurelg,Seott,Guanates"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Alak",
@@ -2143,7 +2143,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Aludz,Olerutut,Zii,Seatrr,Guiorom,Jien,Koemg,Alosisir,Tuad,Diires,Seuneke,Erur,Vooal,Koalasww,Oros,Olusu,Diegum,Zuik,Guary,Voitonit"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Alchuka",
@@ -2152,7 +2152,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guiros,Koenor,Alolintt,Diiti,Seugerl,Voorx,Koadagat,Olulmm,Diesulul,Guakot,Voiloton,Moeg,Aledim,Olonil,Yaam,Seiser,Guutetss,Koola,Alasark,Diunw"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Allar",
@@ -2161,7 +2161,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Reau,Joogam,Niauouu,Joid,Booki,Jiinude,Vuon,Suong,Beimam,Niog,Naoou,Soilakau,Guum,Jaoooi,Muirelei,Tauk,Aouul,Iisengur,Liar,Seunor"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Ambonese Malay",
@@ -2170,7 +2170,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Vourelss,Roun,Alota,Olanatk,Seumw,Guetukos,Koalll,Alirosil,Dienet,Seolinen,Voitam,Kougerz,Olorun,Diadagrr,Voesulg,Alakt,Olilotes,Yaeg,Seedkk,Guonilal"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Angika",
@@ -2179,7 +2179,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Alatot,Olioron,Faen,Seemim,Paad,Koirer,Alunekss,Arur,Dioa,Sealask,Kios,Vousw,Koeguos,Utik,Olarll,Diitonil,Fies,Guelet,Voomiden,Pian"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Attapady Kurumba",
@@ -2188,7 +2188,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Deung,Ruoroi,Yiekeei,Maosul,Roengisur,Kaaa,Heotor,Lueiiel,Yaodil,Haeeotir,Nuau,Reogur,Vuauoual,Heid,Liokan,Rainudam,Goongo,Leimami,Luog,Vioa"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Awadhi",
@@ -2197,7 +2197,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Olisd,Diutetar,Guolum,Voasar,Alunor,Olenurtt,Seai,Guikogl,Koesx,Alodimat,Diinmm,Seuseul,Wiug,Vookot,Koamanon,Haom,Oludim,Dierut,Rui,Guater"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Baba Malay",
@@ -2206,7 +2206,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Voonn,Koalasem,Naos,Olusd,Dieguar,Yiik,Guarum,Voiton,Ines,Alelor,Olomidtt,Seigi,Guurell,Diun,Kootx,Alanatat,Niod,Diummm,Seetukul,Yuil"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Bagheli",
@@ -2215,7 +2215,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Olanati,Nuod,Seumel,Guetukx,Zeil,Koalan,Alirosmm,Jeet,Dienyy,Seolinot,Toal,Voitr,Kougerim,Enus,Olordd,Diadager,Guulas,Voesula,Zoir,Alakur"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Baitadeli (Doteli)",
@@ -2224,7 +2224,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guugerl,Koorx,Aladagat,Diulmm,Seesulul,Poam,Baut,Laol,Viit,Gaer,Quas,Voinam,Kousez,Biug,Olokun,Diamanrr,Liom,Guud,Voerutg,Vui"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Bajhangi (Doteli)",
@@ -2233,7 +2233,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Voesx,Koodimat,Olinmm,Diuseul,Guokot,Voamanon,Aludim,Olerut,Seater,Guiorss,Koema,Alosisk,Diirw,Seunekos,Koalasil,Oluset,Dieguen,Guik,Guaram,Voitonz"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Bajjika",
@@ -2242,7 +2242,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guioran,Koemul,Alosisyy,Diiron,Seunekr,Voo,Koalasdd,Olusss,Dieguas,Guark,Voitonur,Alelos,Olomido,Seigil,Guurelxx,Kooten,Alanatn,Diumz,Seetukut,Voalrr"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Bajureli (Doteli)",
@@ -2251,7 +2251,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Puus,Oloril,Diadagxx,Guulen,Voesuln,Alakz,Olilotut,Seedrr,Guonilom,Koisg,Alutetir,Dioles,Seasare,Vounal,Koenurww,Olau,Diikogm,Mai,Wien,Haad"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Balinese Malay",
@@ -2260,7 +2260,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guaw,Voikogos,Feer,Alesll,Olodimil,Peas,Seinet,Guuseen,Asug,Kookam,Alamanz,Koom,Diudun,Seerutrr,Voat,Koiorg,Foen,Olemt,Diosises,Poad"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Banda Malay",
@@ -2269,7 +2269,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guitondd,Koelss,Alomidas,Diigk,Seurelur,Neun,Vootos,Koanato,Yood,Olumil,Dietukxx,Iril,Gualen,Voirosn,Taet,Alenz,Ololinut,Doal,Seitrr,Guugerom"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Bankariya",
@@ -2278,7 +2278,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guigzz,Voureld,Alots,Olanatum,Seumgg,Guetukor,Koalis,Alirosi,Dienel,Seolinx,Voitan,Kougermm,Oloryy,Diadagot,Guulr,Voesulim,Olir,Alakdd,Oliloter,Zieg"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Be-Jizhao",
@@ -2287,7 +2287,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Paom,Koudes,Alerute,Diatal,Seiorww,Kien,Voemu,Koosism,Utad,Oliry,Diunekit,Fiur,Guonn,Voalasem,Pios,Alusd,Oleguar,Atik,Searum,Guiton"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Betawi",
@@ -2296,7 +2296,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Voori,Koadagl,Olulx,Diesulat,Guakmm,Voilotul,Aledot,Olonilon,Laam,Seisim,Viut,Kooler,Alasarss,Gaol,Diuna,Seenurk,Quit,Voaw,Koikogos,Bier"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Bhojpuri",
@@ -2305,7 +2305,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Seok,Guamangg,Geom,Koudtt,Alerutis,Diatl,Seiorel,Boen,Voemat,Koosisan,Load,Olirul,Diunekyy,Waur,Guoon,Voalasr,Alus,Olegudd,Searss,Guitonas"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Biao Kam Sui",
@@ -2314,7 +2314,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Koum,Aletukgg,Dialtt,Seirosis,Voenl,Koolinel,Olitat,Diugeran,Guorul,Voadagyy,Alulon,Olesulr,Seak,Guilotdd,Koedss,Alonilas,Diisk,Seutetur,Voolos,Koasaro"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Byangsi",
@@ -2323,7 +2323,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Iset,Diolinar,Teal,Guitum,Vouger,Duus,Aloror,Oladagtt,Nuon,Seuli,Guesull,Zeir,Koakx,Alilotat,Jeeg,Diedmm,Seonilul,Toam,Voisot,Kouteton"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Cao Lan",
@@ -2332,7 +2332,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Olakol,Diiloty,Guedin,Voonilnn,Aliszz,Olutetd,Seatdd,Guiorer,Koemas,Alosisa,Diirur,Seunekw,Vooo,Koalasll,Olusxx,Dieguet,Guarn,Voitonam,Alelut,Olomidun"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Cao Miao",
@@ -2341,7 +2341,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Alitoni,Sies,Dielel,Seomidx,Daan,Voigan,Kourelmm,Naun,Olotyy,Dianatot,Yiod,Guumr,Voetukim,Inil,Alaldd,Oliroser,Suet,Seenas,Guolina,Dial"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Car Nicobarese",
@@ -2350,7 +2350,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Olosisen,Seiram,Guunekz,Kooun,Alalasrr,Seegug,Voart,Koitones,Olelkk,Diomidal,Guigus,Vourelu,Alotol,Olanaty,Olilotmm,Seedyy,Guonilot,Jiam,Koisr,Alutetim"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Chakhar Mongol",
@@ -2359,7 +2359,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guulom,Voesul,Alakir,Olilott,Seede,Guonilkk,Koisww,Alutetus,Diolm,Seasarol,Vounit,Koenurin,Olaem,Diikogzz,Guesar,Voodims,Vuas,Alin,Olusegg,Giug"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Chamling",
@@ -2368,7 +2368,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guoniles,Hoam,Koiskk,Alutetal,Siut,Diolus,Seasaru,Daol,Vounol,Koenury,Nait,Olain,Diikognn,Yier,Gueszz,Voodimd,Inas,Alins,Oluseum,Suug"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Chepang (ISO)",
@@ -2377,7 +2377,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Olesis,Diodimi,Coas,Guinel,Vousex,Moug,Alokan,Olamanmm,Yaom,Seudyy,Guerutot,Hoi,Koatr,Aliorim,Sien,Diemdd,Seosiser,Voiras,Kouneka,Olour"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Chrau",
@@ -2386,7 +2386,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Keal,Olites,Diugere,Usus,Guoral,Voadagww,Feon,Alulu,Olesulm,Peir,Seaky,Guilotit,Aseg,Koednn,Alonilem,Koam,Diisd,Seutetar,Vaut,Voolum"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Classical Tibetan",
@@ -2395,7 +2395,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Esun,Osod,Alil,Kaet,Faus,Paon,Arir,Kieg,Koonilkk,Utam,Olisww,Diutetus,Fiut,Guolm,Voasarol,Piol,Alunit,Olenurin,Atit,Seaem"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Dadeldhuri (Doteli)",
@@ -2404,7 +2404,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Vookan,Koamanmm,Oludyy,Dierutot,Guatr,Voiorim,Alemdd,Olosiser,Seiras,Guuneka,Koour,Alalasw,Diuso,Seegull,Kiik,Voarxx,Koitonet,Utes,Oleln,Diomidam"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Daman",
@@ -2413,7 +2413,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Koasarz,Utol,Olunun,Dienurrr,Fiit,Gua,Voikogg,Pier,Alest,Olodimes,Atas,Seinkk,Guuseal,Kuug,Kookus,Alamanu,Veom,Diudol,Seeruty,Fui"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Danuwar",
@@ -2422,7 +2422,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Deom,Diudg,Seerutir,Nei,Voates,Koiore,Yoen,Olemal,Diosisww,Irad,Guiru,Vounekm,Taur,Aloy,Olalasit,Doos,Seusnn,Gueguem,Noik,Koard"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Darchuleli (Doteli)",
@@ -2431,7 +2431,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Dieguem,Guard,Voitonar,Alelum,Olomid,Seigor,Guureltt,Kooti,Alanatl,Diumx,Seetukat,Dail,Voalmm,Koirosul,Olenot,Diolinon,Guitim,Alorer,Oladagss,Seula"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Darkhad Mongolian",
@@ -2440,7 +2440,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kougerg,Olort,Diadages,Kaon,Guulkk,Voesulal,Urir,Alakus,Olilotu,Faeg,Seedol,Guonily,Paam,Koisin,Alutetnn,Arut,Diolzz,Seasard,Kiol,Vouns"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Daur / Dagur",
@@ -2449,7 +2449,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Diugerar,Guorum,Voadag,Alulor,Olesultt,Seaki,Guilotl,Koedx,Alonilat,Diismm,Seutetul,Voolot,Koasaron,Saol,Olunim,Dienur,Guaer,Voikogss,Alesa,Olodimk"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Dehwari",
@@ -2458,7 +2458,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Yaal,Seitx,Guugerat,Hous,Koormm,Aladagul,Diulot,Seesulon,Voakim,Koilot,Oleder,Dionilss,Guisa,Voutetk,Alolw,Olasaros,Seunll,Guenuril,Koaet,Alikogen"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Dhatki",
@@ -2467,7 +2467,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Koula,Alesulk,Koir,Diakw,Seilotos,Vaeg,Voedll,Koonilil,Foam,Oliset,Diuteten,Pout,Guolam,Voasarz,Baol,Alunun,Olenurrr,Lait,Sea,Guikogg"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Dhundari",
@@ -2476,7 +2476,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Osal,Guulk,Voesulur,Alakos,Oliloto,Seedil,Guonilxx,Koisen,Alutetn,Diolz,Seasarut,Vounrr,Koenurom,Utit,Olag,Diikogir,Gueses,Voodime,Pias,Alinal"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Dili Malay",
@@ -2485,7 +2485,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Oli,Zien,Jiad,Tuur,Sealaset,Eros,Vousn,Koeguam,Olarut,Diitonun,Guelom,Voomid,Aligir,Olurelt,Seote,Guanatkk,Koumww,Aletukus,Dialm,Seirosol"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Diu",
@@ -2494,7 +2494,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guonili,Koisel,Alutetx,Diolan,Seasarmm,Tool,Vounyy,Koenurot,Enit,Diikogim,Oner,Guesdd,Voodimer,Alinas,Olusea,Seokur,Guamanw,Koudo,Alerutll,Diatxx"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Done",
@@ -2503,7 +2503,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Piom,Kuen,Vead,Fuur,Puos,Beik,Seigom,Guurel,Kootir,Alanatt,Diume,Seetukkk,Voalww,Koirosus,Olenm,Diolinol,Guitit,Vougerin,Alorem,Oladagzz"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Dura",
@@ -2512,7 +2512,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guamanon,Koudim,Diater,Seiorss,Voema,Koosisk,Olirw,Diunekos,Guoll,Voalasil,Aluset,Oleguen,Searam,Guitonz,Koelun,Alomidrr,Seurelg,Voott,Koanates,Olumkk"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Ekhirit-Bulagat Buryat",
@@ -2521,7 +2521,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Voinon,Kouser,Olok,Diamandd,Guudss,Voerutas,Alatk,Oliorur,Doen,Seemos,Guosiso,Noad,Koiril,Alunekxx,Dioen,Sealasn,Vousz,Koeguut,Olarrr,Diitonom"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Ghera",
@@ -2530,7 +2530,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Reon,Buir,Lueg,Guut,Rool,Ceit,Guikogen,Meer,Koesam,Alodimz,Woas,Diinun,Seuserr,Heug,Vook,Koamang,Oludt,Dierutes,Guatkk,Voioral"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Ha Em",
@@ -2539,7 +2539,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Voedww,Koonilus,Olism,Diutetol,Guolit,Voasarin,Yeol,Alunem,Olenurzz,Huit,Seaar,Guikogs,Soer,Alodimgg,Deas,Diintt,Seuseis,Neug,Vookl,Koamanel"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Hagei",
@@ -2548,7 +2548,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Asen,Koemol,Alosisy,Koad,Diirin,Seuneknn,Vaur,Voozz,Koalasd,Foos,Oluss,Dieguum,Poik,Guargg,Voitonor,Baes,Alelis,Olomidi,Laan,Seigel"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Hailar Dagur",
@@ -2557,7 +2557,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Seular,Guesuls,Koak,Alilotgg,Diedtt,Seonilis,Voisl,Koutetel,Ololat,Diasaran,Guunul,Voenuryy,Alaon,Olikogr,Sees,Guodimdd,Koinss,Aluseas,Diokk,Seamanur"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Hajong",
@@ -2566,7 +2566,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Dieses,Seodime,Yuas,Voinal,Kouseww,Isug,Oloku,Diamanm,Teom,Guudy,Voerutit,Alatnn,Oliorem,Nuen,Seemd,Guosisar,Zead,Koirum,Alunek,Jeur"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Halang",
@@ -2575,7 +2575,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ziad,Seirtt,Guunekis,Jiur,Kool,Alalasel,Tuos,Diusat,Seeguan,Erik,Voarul,Koitonyy,Ores,Olelon,Diomidr,Guig,Voureldd,Alotss,Olanatas,Seumk"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Halbi",
@@ -2584,7 +2584,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guot,Voanatdd,Olod,Alumss,Oletukas,Ziil,Sealk,Guirosur,Jiet,Koenos,Alolino,Diitil,Seugerxx,Erus,Vooren,Koadagn,Olulz,Diesulut,Zuir,Guakrr"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Harauti",
@@ -2593,7 +2593,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Unut,Seolos,Guasaro,Etol,Kounil,Alenurxx,Otit,Diaen,Seikogn,Aner,Voesz,Koodimut,Keas,Olinrr,Diuseom,Usug,Guokg,Voamanir,Feom,Aludes"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Hazaragi",
@@ -2602,7 +2602,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Etan,Koiger,Alurelss,Otun,Diota,Seanatk,Anod,Voumw,Koetukos,Keil,Olalll,Diirosil,Uset,Guenet,Voolinen,Feal,Alitam,Olugerz,Peus,Seorun"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Hindko, Southern",
@@ -2611,7 +2611,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guenurdd,Reit,Koass,Alikogas,Buer,Diesk,Seodimur,Voinos,Kouseo,Olokil,Diamanxx,Guuden,Voerutn,Alatz,Oliorut,Seemrr,Guosisom,Koirg,Alunekir,Dioes"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Ho",
@@ -2620,7 +2620,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Huun,Seotan,Guanatmm,Sood,Koumyy,Aletukot,Deil,Dialr,Seirosim,Voendd,Kooliner,Olitas,Diugera,Guorur,Voadagw,Alulo,Olesulll,Seakxx,Guilotet,Koedn"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Ho (Munda)",
@@ -2629,7 +2629,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Gaan,Diigtt,Seurelis,Quun,Vootl,Koanatel,Biod,Olumat,Dietukan,Liil,Gualul,Voutetn,Rout,Alolz,Olasarut,Ceol,Seunrr,Guenurom,Meit,Koag"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Hokchiu",
@@ -2638,7 +2638,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Zaos,Diusor,Seegutt,Voari,Koitonl,Olelx,Diomidat,Guigmm,Vourelul,Alotot,Olanaton,Seumim,Guetuk,Koaler,Alirosss,Diena,Seolink,Eral,Voitw,Kougeros"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Hokkaido Ainu",
@@ -2647,7 +2647,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guugero,Wuus,Kooril,Aladagxx,Diulen,Seesuln,Voakz,Koilotut,Oledrr,Dionilom,Guisg,Voutetir,Aloles,Olasare,Seunal,Guenurww,Koau,Alikogm,Diesy,Seodimit"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Hokkaido dialects",
@@ -2656,7 +2656,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Seeguy,Voarin,Koitonnn,Olelzz,Diomidd,Guigs,Vourelum,Alotgg,Olanator,Seumis,Guetuki,Koalel,Alirosx,Dienan,Seolinmm,Voityy,Kougerot,Keus,Olorr,Diadagim"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Hre",
@@ -2665,7 +2665,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Olalxx,Diiroset,Guenn,Voolinam,Alitut,Olugerun,Seorom,Guadag,Ason,Koulir,Alesult,Diake,Seilotkk,Vier,Gaas,Quug,Biom,Oludat,Dierutan,Lii"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Hyolmo (Yolmo)",
@@ -2674,7 +2674,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Otur,Diodd,Sealaser,Anos,Vousas,Keik,Uses,Fean,Peun,Asod,Koil,Vaet,Voenir,Koolint,Foal,Olite,Diugerkk,Pous,Guorww,Voadagus"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Indus Kohistani",
@@ -2683,7 +2683,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Olelar,Diomids,Fian,Vourelgg,Piun,Alottt,Olanatis,Atod,Seuml,Guetukel,Kuil,Koalat,Alirosan,Veet,Dienul,Seolinyy,Fual,Kougerr,Olor,Diadagdd"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Jadgali",
@@ -2692,7 +2692,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Olelom,Diomid,Guigir,Vourelt,Alote,Olanatkk,Seumww,Guetukus,Koalm,Alirosol,Dienit,Seolinin,Vounon,Koenurr,Diikogdd,Guesss,Voodimas,Alink,Oluseur,Seokos"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Jandavra",
@@ -2701,7 +2701,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Seanatis,Quod,Vouml,Koetukel,Biil,Olalat,Diirosan,Liet,Guenul,Voolinyy,Vual,Aliton,Olugerr,Gius,Guadagdd,Koulss,Alesulas,Diakk,Seilotur,Voedos"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Japanese macro entry",
@@ -2710,7 +2710,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Buus,Luon,Vouln,Koesulam,Weir,Olakut,Diilotun,Gueg,Guedom,Roam,Alisir,Olutett,Ceut,Seole,Guasarkk,Meol,Kounww,Alenurus,Woit,Diam"
+  "b": "Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Kawasaki,Hiroshima,Sendai,Kitakyushu,Chiba,Sakai,Niigata,Okayama,Kumamoto,Kagoshima,Shizuoka,Hamamatsu,Matsuyama,Utsunomiya,Toyohashi,Kanazawa,Nagasaki,Gifu"
 },
 {
     "name": "Jarawa",
@@ -2719,7 +2719,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Wair,Guaky,Voilotit,Goeg,Alednn,Olonilem,Seisd,Guutetar,Caut,Koolum,Maol,Diunor,Seenurtt,Wiit,Voai,Koikogl,Haer,Olesx,Diodimat,Ruas"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Jeh",
@@ -2728,7 +2728,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kooin,Alalasnn,Diuszz,Seegud,Voars,Koitonum,Olelgg,Diomidor,Guigis,Voureli,Alotel,Olanatx,Seuman,Guetukmm,Koalyy,Alirosot,Dienr,Seolinim,Voitdd,Kougerer"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Jiamao",
@@ -2737,7 +2737,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Oliorul,Seemot,Guosison,Read,Koirim,Buur,Dioer,Sealasss,Luos,Vousa,Koeguk,Weik,Olarw,Diitonos,Gues,Guelll,Voomidil,Roan,Aliget,Olurelen"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Jizhao",
@@ -2746,7 +2746,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Alaun,Olikogrr,Guodimg,Koint,Alusees,Diokkk,Seamanal,Voudus,Koerutu,Nai,Olatol,Diiory,Yien,Guemin,Voosisnn,Inad,Alirzz,Olunekd,Seos,Gualasum"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Jogi",
@@ -2755,7 +2755,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guela,Voomidk,Aligw,Olurelos,Seotll,Guanatil,Koumet,Aletuken,Dialam,Seirosz,Voenun,Koolinrr,Diugerg,Guort,Voadages,Alulkk,Olesulal,Seakus,Guilotu,Koedol"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Jru'",
@@ -2764,7 +2764,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Diak,Seikogur,Jaer,Voesos,Koodimo,Olinil,Diusexx,Elug,Guoken,Voamann,Olom,Jues,Alelnn,Olomidem,Unan,Seigd,Guurelar,Etun,Kootum,Diumor"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Jumli",
@@ -2773,7 +2773,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Keut,Usol,Feit,Peer,Asas,Koug,Seamanol,Vaom,Voudit,Koerutin,Olatem,Diiorzz,Poen,Guemar,Voosiss,Baad,Alir,Olunekgg,Laur,Gualasis"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Jurchenic",
@@ -2782,7 +2782,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Voerutul,Jui,Unen,Etad,Aligam,Olurelz,Seotun,Guanatrr,Aletukg,Dialt,Seiroses,Voenkk,Koolinal,Olitus,Diugeru"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Kaco'",
@@ -2791,7 +2791,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Zeen,Koem,Alosisgg,Jead,Diirtt,Seunekis,Tour,Koalasel,Olusat,Dieguan,Guarul,Voitonyy,Alelon,Olomidr,Seig,Guureldd,Kootss,Alanatas,Diumk,Seetukur"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Kadar",
@@ -2800,7 +2800,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Paar,Tounor,Deitirel,Hoa,Nuumil,Tiidiir,Juulur,Noigosal,Meee,Buuran,Joikooam,Tauso,Boinguti,Ruei,Neuta,Suian,Keod,Jeud,Naiiagou,Yiun"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Kagate (Syuba)",
@@ -2809,7 +2809,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guakat,Voilotan,Jueg,Aledul,Olonilyy,Unam,Seison,Guutetr,Etut,Alasardd,Otol,Diunss,Seenuras,Anit,Keer,Usas,Feug,Peom,Asi,Vaad"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Kalkoti",
@@ -2818,7 +2818,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Olokor,Diamantt,Onom,Guudi,Voerutl,Zoi,Alatx,Oliorat,Joen,Seemmm,Guosisul,Ulad,Koirot,Alunekon,Esur,Dioim,Sealas,Vouser,Koeguss,Olara"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Kaloeng",
@@ -2827,7 +2827,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Niir,Yueg,Isam,Teut,Duol,Nuit,Zeer,Jeas,Toug,Enom,Zoen,Joad,Esos,Osik,Kaan,Guiget,Vourelen,Alotam,Olanatz,Seumun"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Kam Dong",
@@ -2836,7 +2836,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Voeguur,Urik,Alaros,Olitono,Faes,Seelil,Guomidxx,Paan,Koigen,Alureln,Arun,Diotz,Seanatut,Kiod,Voumrr,Koetukom,Util,Olalg,Diirosir,Fiet"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Kam Sui",
@@ -2845,7 +2845,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Alurelk,Veun,Diotw,Seanatos,Fuod,Voumll,Koetukil,Puil,Olalet,Diirosen,Beet,Guenam,Leal,Vous,Geon,Rair,Vookel,Koamanx,Oludan,Dierutmm"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Kamviri",
@@ -2854,7 +2854,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Diolinas,Mual,Guitk,Vougerur,Yeus,Aloros,Oladago,Huon,Seulil,Guesulxx,Koaken,Alilotn,Diedz,Seonilut,Voisrr,Koutetom,Ololg,Diasarir,Guunes,Voenure"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Kangri",
@@ -2863,7 +2863,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Alilotum,Diedgg,Seonilor,Voisis,Kouteti,Ololel,Diasarx,Guunan,Voenurmm,Alayy,Olikogot,Seesr,Guodimim,Noas,Koindd,Aluseer,Zaug,Diokas,Seamana,Jaom"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Kasong",
@@ -2872,7 +2872,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Olegui,Giik,Searel,Guitonx,Rees,Koelan,Alomidmm,Buan,Diigyy,Seurelot,Luun,Vootr,Koanatim,Weod,Olumdd,Dietuker,Guil,Gualas,Voirosa,Roet"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Katu",
@@ -2881,7 +2881,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Oletuker,Guirosa,Koenur,Alolinw,Diito,Seugerll,Voorxx,Koadaget,Oluln,Diesulam,Guakut,Voilotun,Aledom,Seisir,Guutett,Koole,Alasarkk,Diunww,Seenurus,Voam"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Katua",
@@ -2890,7 +2890,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Diodimyy,Onas,Guinon,Zoug,Olamandd,Joom,Seudss,Guerutas,Uli,Koatk,Aliorur,Diemos,Seosiso,Osad,Voiril,Kounekxx,Oloen,Dialasn,Kaos,Guusz"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Kayong",
@@ -2899,7 +2899,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Dieguer,Guaras,Voitona,Alelur,Olomidw,Mian,Seigo,Guurelll,Wuun,Kootxx,Alanatet,Hiod,Diumn,Seetukam,Seil,Voalut,Koirosun,Cuet,Olenom,Diolin"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Kewarat",
@@ -2908,7 +2908,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Niit,Yuer,Isas,Teug,Duom,Guarss,Voitonas,Alelk,Olomidur,Seigos,Guurelo,Kootil,Alanatxx,Diumen,Seetukn,Voalz,Koirosut,Alet,Olenrr,Diolinom"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Khalkha Mongolian",
@@ -2917,7 +2917,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kead,Usur,Feos,Peik,Ases,Koan,Vaun,Food,Poil,Voirosm,Baet,Aleny,Ololinit,Laal,Seitnn,Guugerem,Vius,Koord,Aladagar,Gaon"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Kharchin / Khorchin Mongol",
@@ -2926,7 +2926,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Alalkk,Olirosal,Seenus,Guolinu,Koitol,Alugery,Nius,Diorin,Seadagnn,Yuon,Voulzz,Koesuld,Isir,Olaks,Diilotum,Teeg,Guedgg,Voonilor,Duam,Alisis"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Khetrani",
@@ -2935,7 +2935,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Koisu,Alutetm,Niut,Dioly,Seasarit,Yuol,Vounnn,Koenurem,Isit,Olad,Diikogar,Teer,Guesum,Voodim,Duas,Alinor,Olusett,Nuug,Seoki,Guamanl"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Khorchin Mongol",
@@ -2944,7 +2944,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guiroso,Geet,Koenil,Alolinxx,Raal,Diiten,Seugern,Bous,Voorz,Koadagut,Loon,Olulrr,Diesulom,Guakg,Voilotir,Aledes,Olonile,Seisal,Guutetww,Koolu"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Khorchin Mongol alias",
@@ -2953,7 +2953,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Dien,Niad,Diirk,Seunekur,Yuur,Vooos,Koalaso,Isos,Olusil,Dieguxx,Guaren,Voitonn,Dues,Nuan,Zeun,Jeod,Toil,Enet,Onal,Vougerit"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Khoton",
@@ -2962,7 +2962,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Koarul,Alitonyy,Dielon,Seomidr,Voig,Koureldd,Olotss,Dianatas,Guumk,Voetukur,Alalos,Oliroso,Seenil,Guolinxx,Koiten,Alugern,Diorz,Seadagut,Voulrr,Koesulom"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Kili",
@@ -2971,7 +2971,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Buam,Diisat,Seutetan,Luut,Voolul,Koasaryy,Weol,Olunon,Dienurr,Guit,Voikogdd,Roer,Alesss,Olodimas,Seink,Guuseur,Kookos,Alamano,Diudil,Seerutxx"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Kisan (Kurukh dialect)",
@@ -2980,7 +2980,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Liaaan,Rauluam,Goaio,Leurati,Luoo,Geusai,Poem,Veutedou,Kuelui,Piudinoi,Juag,Eerai,Kougigul,Yaem,Uesol,Duukomor,Noek,Paeter,Tuungokil,Keedul"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Kundal Shahi",
@@ -2989,7 +2989,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Alurelat,Koun,Diotmm,Seanatul,Vaod,Voumot,Koetukon,Foil,Olalim,Poet,Guener,Voolinss,Baal,Alita,Olugerk,Laus,Seorw,Guadagos,Koulll,Alesulil"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Kurumba",
@@ -2998,7 +2998,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Pain,Toiial,Deerunar,Hoig,Nueiam,Tiesugu,Tuom,Juoni,Noetale,Meok,Joedang,Doul,Taolou,Boegerau,Ruung,Neoroi,Suekeei,Jeosul,Naengisur,Yiaa"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Lakkia Kam Sui",
@@ -3007,7 +3007,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Seitt,Guugeres,Nous,Koorkk,Aladagal,Zaon,Diulus,Seesulu,Voakol,Koiloty,Oledin,Dionilnn,Guiszz,Voutetd,Alols,Olasarum,Seungg,Guenuror,Koais,Alikogi"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Lambadi",
@@ -3016,7 +3016,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kounekos,Isur,Ololl,Dialasil,Guuset,Voeguen,Alaram,Olitonz,Seelun,Guomidrr,Koig,Alurelg,Diott,Seanates,Voumkk,Koetukal,Olalus,Diirosu,Guenol,Vooliny"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Lao-Phutai",
@@ -3025,7 +3025,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Alomidel,Vean,Diigat,Seurelan,Fuun,Vootul,Koanatyy,Puod,Olumon,Dietukr,Beil,Voirosdd,Leet,Alenss,Ololinas,Seitk,Guugerur,Geus,Kooros,Aladago"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Larantuka Malay",
@@ -3034,7 +3034,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Olesa,Diodimk,Guinw,Vouseos,Alokll,Olamanil,Seudet,Gueruten,Koatam,Aliorz,Diemun,Seosisrr,Kounekg,Dialases,Guuskk,Voegual,Alarus,Olitonu,Seelol,Guomidy"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Lasi",
@@ -3043,7 +3043,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Oril,Olalen,Diirosn,Zuet,Guenz,Voolinut,Jual,Alitrr,Olugerom,Unus,Seorg,Guadagir,Koules,Alesule,Otir,Diakal,Seilotww,Aneg,Voedu,Koonilm"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Lhowa (Lhopa)",
@@ -3052,7 +3052,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Diunekk,Guow,Voalasos,Alusll,Oleguil,Searet,Guitonen,Koelam,Alomidz,Diigun,Seurelrr,Koanatg,Olumt,Dietukes,Gualkk,Voirosal,Alenus,Ololinu,Seitol,Guugery"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Loarki",
@@ -3061,7 +3061,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Alemen,Olosisn,Cead,Seirz,Guunekut,Meur,Koorr,Alalasom,Woos,Diusg,Seeguir,Heik,Voares,Koitone,Saes,Olelal,Diomidww,Coan,Guigu,Vourelm"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Longsang Zhuang",
@@ -3070,7 +3070,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Dienurer,Guaas,Voikoga,Alesur,Olodimw,Seino,Guusell,Kookxx,Alamanet,Diudn,Seerutam,Voatut,Koiorun,Olemom,Diosis,Guirir,Vounekt,Aloe,Olalaskk,Seusww"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Lower Uda Buryat",
@@ -3079,7 +3079,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guoor,Voalastt,Alusi,Olegul,Searx,Guitonat,Koelmm,Alomidul,Diigot,Seurelon,Vootim,Olumer,Dietukss,Guala,Voirosk,Alenw,Ololinos,Seitll,Guugeril,Paus"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Macro-Zhuang",
@@ -3088,7 +3088,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Voosisat,Zoad,Alirmm,Olunekul,Jour,Seoot,Gualason,Ulos,Kousim,Alegu,Esik,Diarer,Seitonss,Oses,Voela,Koomidk,Alan,Oligw,Diurelos,Kaun"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Madiya",
@@ -3097,7 +3097,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Jeotir,Naeiiul,Yiet,Baodal,Jaeeotar,Oau,Siogam,Aauouu,Hiid,Mooki,Seinude,Toon,Huong,Miimam,Maog,Yooou,Hoilakau,Deum,Ruoooi,Yiirelei"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Magahi",
@@ -3106,7 +3106,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Alonilor,Raam,Diisis,Seuteti,Bout,Voolel,Koasarx,Lool,Olunan,Dienurmm,Wait,Goer,Rias,Caug,Maom,Wii,Haen,Ruad,Ciur,Mios"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Magar (Dhut)",
@@ -3115,7 +3115,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Dialss,Seirosas,Voenk,Koolinur,Olitos,Diugero,Guoril,Voadagxx,Alulen,Olesuln,Seakz,Guilotut,Jieg,Koedrr,Alonilom,Diisg,Seutetir,Erut,Vooles,Koasare"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Magar Kham",
@@ -3124,7 +3124,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kounin,Alenurnn,Diazz,Seikogd,Voess,Koodimum,Olingg,Diuseor,Guokis,Voamani,Aludel,Olerutx,Seatan,Guiormm,Koemyy,Alosisot,Diirr,Seunekim,Voodd,Koalaser"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Maithili",
@@ -3133,7 +3133,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Cuon,Olulen,Diesuln,Muir,Guakz,Voilotut,Yeeg,Aledrr,Olonilom,Huam,Seisg,Guutetir,Sout,Kooles,Alasare,Deol,Diunal,Seenurww,Neit,Voau"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Majhi",
@@ -3142,7 +3142,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Hoos,Kousl,Aleguel,Siik,Diarat,Seitonan,Daes,Voelul,Koomidyy,Naan,Oligon,Diurelr,Inod,Suil,Diet,Nial,Yuus,Ison,Teir,Voilotom"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Mak Kam Sui",
@@ -3151,7 +3151,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Diot,Seanatdd,Voumss,Koetukas,Olalk,Diirosur,Guenos,Voolino,Alitil,Olugerxx,Seoren,Guadagn,Koulz,Alesulut,Diakrr,Seilotom,Vookum,Koaman,Oludor,Dieruttt"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Mala Malasar",
@@ -3160,7 +3160,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Saik,Yoenitou,Vaai,Meingui,Ruemeioi,Moed,Hiiai,Maelodul,Ein,Yeiiol,Heerunor,Rieier,Yaesugil,Loonul,Reetalur,Yuok,Guomar,Liedangan,Peul,Voolu"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Malankuravan",
@@ -3169,7 +3169,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Moei,Sealete,Touu,Huee,Miarau,Yoauou,Hoasidau,Deen,Ruinoi,Yiatonei,Roeg,Maimul,Roadogur,Kaim,Heilor,Luagumel,Yeik,Yairil,Haakukir,Reisur"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Malapandaram",
@@ -3178,7 +3178,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Peasido,Geen,Duine,Kiatona,Tuim,Doadog,Laim,Oilau,Toagumui,Baik,Kairei,Nuakukai,Daisur,Juangarol,Jaong,Teitel,Buaaer,Niidir,Taaaesul,Muu"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Malasar",
@@ -3187,7 +3187,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Koogad,Yaou,Uasau,Duokenui,Noud,Paatei,Tuongegai,Haam,Keadur,Ooimol,Teak,Deagel,Kaooiker,Loel,Tiakir,Daouolul,Bueng,Noangal,Teunongar,Joaam"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Malpande",
@@ -3196,7 +3196,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Diatom,Seior,Voemir,Koosist,Olire,Diunekkk,Guoww,Voalasus,Alusm,Oleguol,Searit,Guitonin,Kues,Koelem,Alomidzz,Diigar,Seurels,Koanatgg,Olumtt,Dietukis"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Malto",
@@ -3205,7 +3205,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Hoei,Nuutil,Tiianir,Juudur,Noiiagal,Buugan,Joeiemam,Doug,Tauko,Booneki,Neunga,Suomil,Keang,Jeu,Naolingou,Bauuui,Jaororoi,Oe,Sianai,Aosoul"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Malvi",
@@ -3214,7 +3214,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guakes,Voilote,Aledal,Olonilww,Seisu,Guutetm,Kooly,Alasarit,Diunnn,Seenurem,Koikogar,Olesum,Diodim,Guinor,Vousett,Ciug,Aloki,Olamanl,Miom,Seudx"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Manda",
@@ -3223,7 +3223,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Goegero,Huung,Puore,Viekea,Uas,Poengis,Miaa,Gaotau,Kueiiui,Duet,Vaodei,Eeeotai,Saau,Peogur,Uauouol,Kiid,Kiokel,Painuder,Yoon,Doongir"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Mangghuer",
@@ -3232,7 +3232,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Voaldd,Koiroser,Olenas,Diolina,Guitur,Vougerw,Aloro,Oladagll,Seulxx,Guesulet,Koakn,Alilotam,Diedut,Seonilun,Voisom,Koutet,Ololir,Diasart,Guune,Voenurkk"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Manglish",
@@ -3241,7 +3241,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Alatem,Oliorzz,Seemar,Guosiss,Alunekgg,Kour,Sealasis,Vaos,Vousl,Koeguel,Foik,Olarat,Diitonan,Poes,Guelul,Voomidyy,Baan,Aligon,Olurelr,Laun"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Mankiyali",
@@ -3250,7 +3250,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guaro,Voitonll,Alelxx,Olomidet,Seign,Guurelam,Kootut,Alanatun,Diumom,Seetuk,Voalir,Koirost,Olene,Diolinkk,Guitww,Vougerus,Alorm,Oladagol,Seulit,Guesulin"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Maonan",
@@ -3259,7 +3259,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kounss,Alenuras,Seetuktt,Voali,Koirosl,Olenx,Diolinat,Guitmm,Vougerul,Mous,Alorot,Oladagon,Yaon"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Mara",
@@ -3268,7 +3268,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Seokgg,Guamanor,Koudis,Aleruti,Diatel,Seiorx,Voeman,Koosismm,Oliryy,Diunekot"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Marwari",
@@ -3277,7 +3277,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guarrr,Voitonom,Alelg,Olomidir,Seiges,Guurele,Viun,Kootal,Alanatww,Gaod,Diumu,Seetukm,Quil,Voaly,Guodimk,Meas,Koinw,Aluseos,Woug,Diokll"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Maumere Malay",
@@ -3286,7 +3286,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Alikogir,Tiug,Elom,Dioor,Sealastt,Vousi,Koegul,Olarx,Diitonat,Guelmm,Voomidul,Aligot,Olurelon,Seotim,Guanat,Koumer,Aletukss,Diala,Seirosk,Voenw"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Megam",
@@ -3295,7 +3295,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Alunin,Olenurnn,Seazz,Guikogd,Koess,Alodimum,Diingg,Seuseor,Vookis,Koamani,Oludel,Dierutx,Guatan,Voiormm,Alemyy,Olosisot,Seirr,Guunekim,Koodd,Alalaser"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Mel-Khaonh",
@@ -3304,7 +3304,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Quen,Voemis,Koosisi,Biad,Olirel,Diunekx,Liur,Guoan,Voalasmm,Vuos,Alusyy,Oleguot,Searr,Guitonim,Koeldd,Alomider,Diigas,Seurela,Vootur,Koanatw"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Memoni",
@@ -3313,7 +3313,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Alamanr,Diud,Seerutdd,Voatss,Koioras,Olemk,Diosisur,Vouneko,Aloil,Olalasxx,Seusen,Guegun,Ulik,Koarz,Alitonut,Eses,Dielrr,Seomidom,Voigg,Kourelir"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Mewari",
@@ -3322,7 +3322,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Seeln,Guomidam,Koigut,Alurelun,Diotom,Seanat,Voumir,Koetukt,Olale,Diiroskk,Guenww,Voolinus,Alitm,Olugerol,Seorit,Guadagin,Koulem,Alesulzz,Diakar,Seilots"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Mewati",
@@ -3331,7 +3331,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guotll,Voanatil,Alumet,Oletuken,Sealam,Guirosz,Koenun,Alolinrr,Seugerg,Voort,Koadages,Olulkk,Diesulal,Guakus,Voilotu,Aledol,Olonily,Seisin,Guutetnn,Koolzz"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Middle Mongol",
@@ -3340,7 +3340,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Alurelgg,Woun,Diottt,Heod,Sail,Coet,Moal,Yaus,Hoon,Koonilo,Olisil,Diutetxx,Guolen,Voasarn,Alunz,Olenurut,Guikogom,Koesg,Alodimir,Diines"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Min Zhuang",
@@ -3349,7 +3349,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kooknn,Alamanem,Yaos,Hoik,Kourelss,Olota,Dianatk,Guumw,Voetukos,Alalll,Olirosil,Seenet,Guolinen,Koitam,Alugerz,Diorun,Seadagrr,Voul,Koesulg,Olakt"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Mnong",
@@ -3358,7 +3358,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Seomm,Gualasul,Kousot,Aleguon,Diarim,Voeler,Koomidss,Oliga,Diurelk,Guotw,Voanatos,Alumll,Oletukil,Sealet,Guirosen,Viet,Koenam,Alolinz,Diitun,Seugerrr"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Moghol / Mogholi",
@@ -3367,7 +3367,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Seude,Guerutkk,Dii,Koatww,Aliorus,Nien,Diemm,Seosisol,Yuad,Voirit,Kounekin,Oloem,Dialaszz,Guusar,Voegus,Alar,Olitongg,Seeltt,Guomidis,Koigl"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Mogholi",
@@ -3376,7 +3376,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Woer,Heas,Saug,Coom,Moi,Alatt,Oliores,Yaen,Seemkk,Guosisal,Hoad,Koirus,Aluneku,Diool,Sealasy,Vousin,Koegunn,Olarzz,Diitond,Guels"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Mongghul",
@@ -3385,7 +3385,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Pues,Olelos,Diomido,Bean,Guigil,Vourelxx,Leun,Aloten,Olanatn,Vood,Seumz,Guetukut,Geil,Koalrr,Alirosom,Raet,Dieng,Seolinir,Voites,Kougere"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Mongghuor",
@@ -3394,7 +3394,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Tiun,Elod,Olil,Alall,Olirosel,Ziet,Seenat,Guolinan,Jial,Koitul,Alugeryy,Tuus,Dioron,Seadagr,Eron,Koesuldd,Orir,Olakss,Diilotas,Zueg"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Monguor",
@@ -3403,7 +3403,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Alalss,Olirosas,Seenk,Guolinur,Koitos,Alugero,Dioril,Seadagxx,Voulen,Koesuln,Olakz,Diilotut,Guedrr,Voonilom,Goam,Alisg,Olutetir,Riut,Seoles,Guasare"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Monom",
@@ -3412,7 +3412,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Voalot,Koiroson,Olenim,Guiter,Vougerss,Oladagk,Seulw,Guesulos,Koakll,Alilotil,Diedet,Seonilen,Voisam,Koutetz,Ololun,Diasarrr,Voenurg,Alat,Olikoges,Seeskk"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Moyfaw",
@@ -3421,7 +3421,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Alenes,Ololine,Seital,Guugerww,Kooru,Aladagm,Diuly,Seesulit,Voaknn,Koilotem,Oledd,Dionilar,Guisum,Voutet,Alolor,Olasartt,Seuni,Guenurl,Koax,Alikogat"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Muduga",
@@ -3430,7 +3430,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Veisur,Gaangarol,Viong,Piitel,Vaaaer,Koidir,Peaaesul,Geu,Duigal,Kiaieear,Soat,Tuikam,Doenitu,Laai,Oingi,Toemeie,Baed,Nuelod,Poin,Daiiou"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Mugom–Karmarong",
@@ -3439,7 +3439,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Alenar,Ololins,Guugergg,Koortt,Aladagis,Diull,Seesulel,Voakat,Koilotan,Oledul,Dionilyy,Guison,Voutetr,Alol,Olasardd,Seunss,Guenuras,Alikogur,Diesos,Seodimo"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Mullu Kurumba",
@@ -3448,7 +3448,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Sainud,Raon,Hoongau,Meimamui,Jiog,Yioei,Hiilakai,Voum,Rooour,Yeirelol,Neuk,Luouel,Riisenger,Goar,Haunir,Loitirul,Sua,Vuumal,Guidiar,Raulam"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Mundari",
@@ -3457,7 +3457,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kooyy,Alalasot,Diusr,Seeguim,Voardd,Koitoner,Olelas,Diomida,Guigur,Vourelw,Aloto,Olanatll,Seumxx,Guetuket,Koaln,Alirosam,Dienut,Seolinun,Voitom,Kouger"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Muong",
@@ -3466,7 +3466,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Voenurd,Urit,Olikogum,Faer,Seesgg,Guodimor,Koinis,Alusei,Arug,Diokel,Seamanx,Kiom,Voudan,Koerutmm,Uti,Olatyy,Diiorot,Fien,Guemr,Voosisim"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Muria",
@@ -3475,7 +3475,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Loio,Reelodi,Yuin,Guiia,Lierun,Peig,Voei,Goesugou,Huom,Puonui,Vietaloi,Uok,Laomai,Poedangul,Miul,Gaolol,Kuegeror,Duung,Vaorer,Eekeil"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Muthuvan",
@@ -3484,7 +3484,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Toangaral,Baong,Kaitan,Nuaaam,Daido,Juaaesi,Jau,Teiga,Buaiee,Veat,Taenitou,Muai,Jiingui,Neemeioi,Gaed,Beiai,Jeelodul,Siin,Soiiol,Baerunor"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Myang Zhuang",
@@ -3493,7 +3493,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Voasarrr,Olenurg,Guikoges,Reer,Buas,Luug,Weom,Gui,Roen,Koois,Alalasi,Diusel,Seegux,Voaran,Koitonmm,Olelyy,Diomidot,Guigr,Vourelim,Moun"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Mymensinghi Bengali",
@@ -3502,7 +3502,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Dietukil,Gualet,Voirosen,Alenam,Ololinz,Seitun,Boir,Loeg,Waam,Gout,Riol,Cait,Maer,Wias,Haug,Ruom,Cii,Wuad,Hiur,Dioas"
+  "b": "Mymensingh,Dhaka,Chittagong,Rajshahi,Khulna,Sylhet,Barisal,Rangpur,Comilla,Bogra,Jessore,Dinajpur,Brahmanbaria,Tangail,Narsingdi,Gazipur,Narayanganj,Kushtia,Faridpur,Noakhali,Pabna,Jamalpur,Sherpur,Netrokona,Kishoreganj,Manikganj,Munshiganj"
 },
 {
     "name": "Nachhiring",
@@ -3511,7 +3511,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kooto,Alanatll,Diumxx,Seetuket,Voaln,Koirosam,Olenut,Diolinun,Guitom,Rous,Alorir,Oladagt,Ceon,Seule,Guesulkk,Koakww,Alilotus,Diedm,Seonilol,Voisit"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Nagpuri",
@@ -3520,7 +3520,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Diaket,Seiloten,Voedam,Koonilz,Olisun,Diutetrr,Voasarg,Alunt,Olenures,Seakk,Guikogal,Koesus,Alodimu,Diinol,Seusey,Vookin,Koamannn,Yoom,Oludzz,Dierutd"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Naiki",
@@ -3529,7 +3529,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Yoesou,Houkomau,Deek,Ruetoi,Yiungokei,Roil,Maedul,Rouulur,Kaing,Heegor,Luuuungel,Yeor,Yaekil,Haanasir,Nuo,Reengur,Vuamaaal,Liean,Raaletam,Tiuu"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Nanaic",
@@ -3538,7 +3538,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Voeguul,Alarot,Olitonon,Seelim,Guomid,Weil,Guet,Roal,Ceus,Guadagrr,Meon,Koul,Alesulg,Woir,Diakt,Seilotes,Heeg,Voedkk,Koonilal,Saam"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Nantoq Baoan",
@@ -3547,7 +3547,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Seomidk,Voigw,Kourelos,Olotll,Dianatil,Guumet,Voetuken,Alalam,Olirosz,Seenun,Guolinrr,Koit,Alugerg,Diort,Seadages,Voulkk,Koesulal,Olakus,Diilotu,Guedol"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Nar Phu",
@@ -3556,7 +3556,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Voirtt,Kounekis,Four,Dialasel,Poos,Guusat,Voeguan,Alarul,Olitonyy,Laes,Seelon,Guomidr,Alureldd,Gaun,Diotss,Seanatas,Voumk,Koetukur,Olalos,Diiroso"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Negidal",
@@ -3565,7 +3565,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Koemun,Alosisrr,Seunekg,Koalases,Oluskk,Diegual,Guarus,Voitonu,Alelol,Olomidy,Seigin,Guurelnn,Kootzz,Alanatd,Diums,Seetukum,Voalgg,Koirosor,Olenis,Diolini"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Nepalese English",
@@ -3574,7 +3574,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Erug,Vookdd,Koamaner,Orom,Oludas,Dieruta,Zui,Guatur,Voiorw,Juen,Alemo,Olosisll,Seirxx,Guuneket,Alalasam,Diusut,Seeguun,Voarom,Koiton,Olelir"
+  "b": "Kathmandu,Pokhara,Lalitpur,Bharatpur,Birgunj,Biratnagar,Dharan,Butwal,Nepalgunj,Janakpur,Dhangadhi,Hetauda,Bhimdatta,Ilam,Dhankuta,Sindhuli,Surkhet,Dang,Parbat,Bhojpur,Solukhumbu,Dolakha,Mugu,Humla,Jumla"
 },
 {
     "name": "Nihali",
@@ -3583,7 +3583,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Voulun,Koesulrr,Olak,Diilotg,Kaeg,Guedt,Guokgg,Voamanor,Aludis,Oleruti,Seatel,Guiorx,Koeman,Alosismm,Diiryy,Seunekot,Voor,Koalasim,Olusdd"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Nimadi",
@@ -3592,7 +3592,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guiso,Voutetll,Alolxx,Olasaret,Seunn,Guenuram,Koaut,Alikogun,Diesom,Seodim,Voinir,Kouset,Oloke,Diamankk,Guudww,Voerutus,Alatm,Oliorol,Seemit,Guosisin"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Noakhailla",
@@ -3601,7 +3601,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Olakrr,Diilotom,Guedg,Voonilir,Alises,Olutete,Seolal,Guasarww,Kounu,Alenurm,Diay,Seikogit,Heer,Voesnn,Koodimem,Saas,Olind,Diusear,Coug,Guokum"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Nong Zhuang",
@@ -3610,7 +3610,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Voindd,Kouseer,Olokas,Diamana,Guudur,Voerutw,Alato,Oliorll,Seemxx,Guosiset,Koirn,Alunekam,Diout,Sealasun,Vousom,Koegu,Olarir,Diitont,Guele,Voomidkk"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Nonni Dagur",
@@ -3619,7 +3619,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Jood,Seumen,Guetukn,Ulil,Koalz,Alirosut,Eset,Dienrr,Seolinom,Voitg,Kougerir,Olores,Diadage,Guulal,Voesulww,Alaku,Olilotm,Seedy,Guonilit,Koisnn"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "North Moluccan Malay",
@@ -3628,7 +3628,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Seerutel,Voatat,Koioran,Olemul,Diosisyy,Guiron,Vounekr,Baur,Olalasdd,Seusss,Gueguas,Koark,Alitonur,Dielos,Seomido,Voigil,Kourelxx,Oloten,Dianatn,Guumz"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Northern Khalkha",
@@ -3637,7 +3637,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Alit,Olaz,Diikogut,Kaer,Guesrr,Voodimom,Uras,Aling,Oluseir,Faug,Seokes,Guamane,Koudal,Alerutww,Diatu,Seiorm,Voemy,Koosisit,Olirnn,Diunekem"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Northern Tai",
@@ -3646,7 +3646,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Caos,Kousit,Aleguin,Maik,Diarem,Seitonzz,Wies,Voelar,Koomids,Olig,Diurelgg,Ruun,Guottt,Voanatis,Ciod,Aluml,Oletukel,Miil,Sealat,Guirosan"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Northern Thai",
@@ -3655,7 +3655,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Vouseet,Urug,Alokn,Olamanam,Faom,Seudut,Guerutun,Koatom,Alior,Diemir,Seosist,Kiad,Voire,Kounekkk,Utur,Oloww,Dialasus,Fios,Guusm,Voeguol"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Northern Tungusic",
@@ -3664,7 +3664,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Atug,Guamano,Kuom,Koudil,Alerutxx,Vei,Diaten,Seiorn,Fuen,Voemz,Koosisut,Puad,Olirrr,Diunekom,Beur,Guog,Voalasir,Leos,Aluses,Olegue"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Nung Tai",
@@ -3673,7 +3673,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kouler,Alesulss,Diaka,Seilotk,Voedw,Koonilos,Olisll,Diutetil,Guolet,Voasaren,Alunam,Olenurz,Seaun,Guikogrr,Alodimg,Diint,Seusees,Vookkk,Koamanal,Oludus"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Nyah Kur",
@@ -3682,7 +3682,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Seirll,Guunekil,Nour,Kooet,Alalasen,Diusam,Seeguz,Voarun,Koitonrr,Olel,Diomidg,Guigt,Voureles,Alotkk,Olanatal,Seumus,Guetuku,Koalol,Alirosy,Dienin"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Nyaheun",
@@ -3691,7 +3691,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guiset,Vouteten,Alolam,Olasarz,Seunun,Guenurrr,Alikogg,Diest,Seodimes,Voinkk,Kouseal,Olokus,Diamanu,Guudol,Voeruty,Alatin,Oliornn,Seemzz,Guosisd,Koirs"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Oadki",
@@ -3700,7 +3700,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ololem,Diasarzz,Guunar,Voenurs,Olikoggg,Seestt,Guodimis,Koinl,Aluseel,Diokat,Seamanan,Voudul,Koerutyy,Olaton,Diiorr,Guem,Voosisdd,Alirss,Olunekas,Gualasur"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Odia",
@@ -3709,7 +3709,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Voes,Koodimg,Haas,Olint,Diusees,Ruug,Guokkk,Voamanal,Ciom,Aludus,Olerutu,Mii,Seatol,Guiory,Wuen,Koemin,Alosisnn,Hiad,Diirzz,Seunekd"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Oeld",
@@ -3718,7 +3718,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Olesil,Diodimxx,Guinen,Vousen,Alokz,Olamanut,Seudrr,Guerutom,Wui,Koatg,Aliorir,Hien,Diemes,Seosise,Voiral,Kounekww,Cuur,Olou,Dialasm,Muos"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Oi",
@@ -3727,7 +3727,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Elil,Olet,Ololinkk,Zial,Seitww,Guugerus,Jius,Koorm,Aladagol,Tuon,Diulit,Seesulin,Erir,Voakem,Koilotzz,Oledar,Dionils,Guis,Voutetgg,Aloltt"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Oirat Mongolian",
@@ -3736,7 +3736,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guior,Koemir,Alosist,Diire,Seunekkk,Vooww,Koalasus,Olusm,Dieguol,Guarit,Voitonin,Alelem,Olomidzz,Seigar,Guurels,Alanatgg,Diumtt,Seetukis,Voall,Koirosel"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Old Khitan",
@@ -3745,7 +3745,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Siet,Daal,Naus,Yion,Inir,Sueg,Zeom,Jei,Toen,Enad,Onur"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Old Serbi",
@@ -3754,7 +3754,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Yeom,Aludir,Olerutt,Hui,Seate,Guiorkk,Soen,Koemww,Alosisus,Dead,Diirm,Neur,Yoos,Irik,Taes,Noun,Zaod,Diumat,Seetukan,Jail"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Ollari",
@@ -3763,7 +3763,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Suuuan,Beororam,Nie,Naano,Soosoi,Muotus,Taii,Aal,Ioduuou,Liot,Searui,Yuogadoi,Boou,Miasai,Saokenul,Raud,Hoatol,Meongegor,Yiader,Hioimil"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Önge",
@@ -3772,7 +3772,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guatos,Voioro,Alemil,Olosisxx,Seiren,Guunekn,Kooz,Alalasut,Diusrr,Seeguom,Voarg,Koitonir,Oleles,Diomide,Guigal,Vourelww,Alotu,Olanatm,Seumy,Guetukit"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Ordos Mongol",
@@ -3781,7 +3781,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Koirosir,Olenes,Dioline,Guital,Vougerww,Aloru,Oladagm,Seuly,Guesulit,Koaknn,Alilotem,Diedd,Seonilar,Voisum,Isut,Ololor,Diasartt,Teol,Guuni,Voenurl"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Ormuri",
@@ -3790,7 +3790,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Dierutu,Guatol,Voiory,Alemin,Olosisnn,Seirzz,Guunekd,Alalasum,Diusgg,Seeguor,Voaris,Koitoni,Olelel,Diomidx,Guigan,Vourelmm,Alotyy,Olanatot,Seumr,Guetukim"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Oroch",
@@ -3799,7 +3799,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guelg,Voomidir,Aliges,Olurele,Seotal,Guanatww,Koumu,Aletukm,Dialy,Seirosit,Voennn,Koolinem,Olitd,Baon,Lair,Vieg,Gaam,Quut,Biol,Liit"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Orok",
@@ -3808,7 +3808,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kourelim,Olotdd,Dianater,Guumas,Voetuka,Alalur,Olirosw,Seeno,Nuut,Zeol,Jeit,Toer,Enas,Onug,Zoom,Joi,Ulen,Esad"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Paha",
@@ -3817,7 +3817,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Koorom,Aladag,Nion,Diulir,Seesult,Voake,Koilotkk,Oledww,Dionilus,Guism,Voutetol,Alolit,Olasarin,Seunem,Guenurzz,Koaar,Alikogs,Seodimgg,Toas,Vointt"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Pahari (Sino-Tibetan)",
@@ -3826,7 +3826,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Voolinar,Inal,Alitum,Oluger,Suus,Seoror,Guadagtt,Kouli,Alesull,Diakx,Seilotat,Voedmm,Koonilul,Olisot,Diuteton,Guolim,Aluner,Olenurss,Seaa,Guikogk"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Pahari-Pothwari",
@@ -3835,7 +3835,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Koonilas,Olisk,Diutetur,Cout,Guolos,Voasaro,Mool,Alunil,Olenurxx,Yait,Seaen,Guikogn,Hoer,Koesz,Alodimut,Sias,Diinrr,Seuseom,Daug,Vookg"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Pakistani English",
@@ -3844,7 +3844,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Alemis,Olosisi,Seirel,Guunekx,Kooan,Alalasmm,Diusyy,Seeguot,Voarr,Koitonim,Foes,Oleldd,Diomider,Poan,Guigas,Vourela,Baun,Alotur,Olanatw,Seumo"
+  "b": "Karachi,Lahore,Faisalabad,Rawalpindi,Multan,Gujranwala,Hyderabad,Peshawar,Quetta,Islamabad,Sialkot,Sargodha,Bahawalpur,Sukkur,Larkana,Sheikhupura,Mirpur Kas,Jhang,Sahiwal,Gujrat,Mardan,Nawabshah,Kasur,Dera Ghazi Khan,Okara,Hafizabad"
 },
 {
     "name": "Paliyan",
@@ -3853,7 +3853,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Nuekeil,Daosul,Juengisur,Jaaa,Teotar,Bueiian,Niodu,Taeeoto,Muau,Jioge,Neauoua,Gaid,Beok,Jeinud,Soongau,Baimamui,Kuog,Muoei,Siilakai,Aum"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Palula",
@@ -3862,7 +3862,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Voesulen,Alakam,Olilotz,Seedun,Guonilrr,Kois,Alutetg,Diolt,Seasares,Vounkk,Koenural,Olaus,Diikogu,Guesol,Voodimy,Alinin,Olusenn,Seokzz,Guamand,Reom"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Pangasinan",
@@ -3871,7 +3871,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Rulanit,Wiganidou,Vusun,Maakka,Roadtunlo,Gaalpu,Luaningsi,Wawunyo,Esunuo,Tadin,Remunul,Vukunginis,Lian,Liungbi,Raugamga,Yolin,Dourme,Leumminnu,Raar,Viota"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Pangkhua",
@@ -3880,7 +3880,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Coeg,Guedxx,Voonilet,Moam,Alisn,Olutetam,Yaut,Seolut,Guasarun,Hool,Kounom,Siit,Diair,Seikogt,Daer,Voese,Koodimkk,Olinww,Diuseus,Yiug"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Pashto, Northern",
@@ -3889,7 +3889,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guungg,Voenuror,Alais,Olikogi,Seesel,Guodimx,Koinan,Alusemm,Diokyy,Seamanot,Voudr,Koerutim,Olatdd,Diiorer,Guemas,Voosisa,Alirur,Olunekw,Seoo,Gualasll"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Pashto, Southern",
@@ -3898,7 +3898,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "les Escaldes,Andorra,Andorra la Vella,Warīsān,United Arab Emirates,Dubai,Umm Suqaym,Umm Al Quwain City,Umm Al Quwain,Ţarīf Kalbā,Fujairah,Ar Rāshidīyah,Ras Al Khaimah,Zayed City,Abu Dhabi,Khawr Fakkān,Sharjah,Kalbā,Jumayrā,Dibba Al-Fujairah"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Pattapu",
@@ -3907,7 +3907,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Yuusaiar,Miemam,Sautedu,Raan,Hoeli,Meudine,Jiag,Hiugig,Voem,Roesou,Yeukomau,Neek,Luetoi,Riungokei,Goil,Haedul,Louulur,Suing,Vuegor,Guuuungel"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Pear",
@@ -3916,7 +3916,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Olokam,Diamanz,Guudun,Voerutrr,Oliorg,Seemt,Guosises,Koirkk,Alunekal,Dious,Sealasu,Vousol,Koeguy,Olarin,Diitonnn,Guelzz,Ceun,Meod,Alonilw,Diiso"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Pengo",
@@ -3925,7 +3925,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Daaieeo,Buat,Noike,Teenita,Reai,Joing,Niemei,Joed,Boiau,Jielodui,Vuin,Suiiei,Beerunai,Niig,Naeiur,Soesugol,Jaonel,Muetaler,Taok,Aomir"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Phake",
@@ -3934,7 +3934,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Oluneks,Huur,Seo,Gualasgg,Soos,Koustt,Aleguis,Deik,Diarl,Seitonel,Nees,Voelat,Koomidan,Yoan,Oligul,Diurelyy,Guoton,Voanatr,Oletukdd,Sealss"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Phu Thai",
@@ -3943,7 +3943,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Seitonar,Hees,Voelum,Koomid,Saan,Oligor,Diureltt,Coun,Guoti,Voanatl,Mood,Alumx,Oletukat,Yail,Sealmm,Guirosul,Hoet,Koenot,Alolinon,Sial"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Phuan",
@@ -3952,7 +3952,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Siun,Diotal,Seanatww,Daod,Voumu,Koetukm,Nail,Olaly,Diirosit,Guennn,Voolinem,Alitd,Olugerar,Seorum,Koulor,Alesultt,Diaki,Seilotl,Voedx,Koonilat"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Portugis",
@@ -3961,7 +3961,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Sein,Guusegg,Kooktt,Alamanis,Diudl,Voetukut,Alalrr,Olirosom,Seeng,Guolinir,Koites,Alugere,Dioral,Seadagww,Voulu,Koesulm,Olaky,Diilotit,Guednn,Voonilem"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Proto-Ainu",
@@ -3970,7 +3970,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Koitonis,Olell,Diomidel,Guigat,Vourelan,Zoun,Alotul,Olanatyy,Seumon,Guetukr,Alirosdd,Dienss,Seolinas,Voitk,Kougerur,Oloros,Diadago,Guulil,Voesulxx,Alaken"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Proto-Austroasiatic",
@@ -3979,7 +3979,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guuseol,Ulug,Kookit,Alamanin,Esom,Diudem,Seerutzz,Osi,Voatar,Koiors,Alen,Diosisgg,Kaad,Guirtt,Vounekis,Urur,Olalasel,Faos,Seusat,Gueguan"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Proto-Hlai",
@@ -3988,7 +3988,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Alokam,Olamanz,Unom,Seudun,Guerutrr,Eti,Aliorg,Oten,Diemt,Seosises,Anad,Voirkk,Kounekal,Keur,Olous,Dialasu,Usos,Guusol,Voeguy,Feik"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Proto-Hokkaido-Kuril",
@@ -3997,7 +3997,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Diikoggg,Guestt,Voodimis,Alinl,Oluseel,Seokat,Guamanan,Koudul,Alerutyy,Diaton,Seiorr,Koosisdd,Olirss,Diunekas,Voalasur,Alusos,Oleguo,Laik,Searil,Guitonxx"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Proto-KamSui",
@@ -4006,7 +4006,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Diiroszz,Guenar,Voolins,Olugergg,Seortt,Guadagis,Koull,Alesulel,Diakat,Seilotan,Voedul,Koonilyy,Olison,Diutetr,Voasardd,Alunss,Olenuras,Guikogur,Koesos,Alodimo"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Proto-KraDai",
@@ -4015,7 +4015,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Koulzz,Alesuld,Diaks,Seilotum,Voedgg,Koonilor,Olisis,Diuteti,Guolel,Voasarx,Alunan,Olenurmm,Seayy,Guikogot,Koesr,Alodimim,Diindd,Seuseer,Vookas,Koamana"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Proto-Mongolic",
@@ -4024,7 +4024,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Diesulg,Guakt,Voilotes,Aledkk,Olonilal,Seisus,Guutetu,Koolol,Alasary,Buol,Diunin,Seenurnn,Luit,Voazz,Koikogd,Oless,Diodimum,Guingg,Vouseor,Alokis"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Proto-Sakhalin",
@@ -4033,7 +4033,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Koalasal,Olusus,Dieguu,Guarol,Voitony,Alelin,Olomidnn,Seigzz,Guureld,Koots,Alanatum,Diumgg,Seetukor,Voalis,Koirosi,Olenel,Diolinx,Guitan,Vougermm,Aloryy"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Proto-Tai",
@@ -4042,7 +4042,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Sealasa,Vousur,Koeguw,Olaro,Diitonll,Guelxx,Voomidet,Align,Olurelam,Seotut,Guanatun,Koumom,Niil,Dialir,Seirost,Yuet,Voene,Koolinkk,Isal,Olitww"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Pyang Zhuang",
@@ -4051,7 +4051,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Koadagim,Oluldd,Diesuler,Guakas,Voilota,Aledur,Olonilw,Faam,Seiso,Guutetll,Paut,Koolxx,Alasaret,Arol,Diunn,Seenuram,Kiit,Voaut,Koikogun,Uter"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Qifu",
@@ -4060,7 +4060,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Diumis,Seetuki,Neil,Voalel,Koirosx,Yoet,Olenan,Diolinmm,Iral,Guityy,Vougerot,Taus,Alorr,Oladagim,Doon,Seuldd,Guesuler,Noir,Koakas,Alilota"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Ra'ong",
@@ -4069,7 +4069,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Olait,Diikogin,Guesem,Voodimzz,Alinar,Ruur,Cios,Miik,Wues,Koelk,Alomidur,Hian,Diigos,Seurelo,Vootil,Koanatxx,Olumen,Dietukn,Gualz,Voirosut"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Rabha",
@@ -4078,7 +4078,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Voadagut,Alulrr,Olesulom,Seakg,Guilotir,Koedes,Alonile,Diisal,Seutetww,Koasarm,Orol,Oluny,Dienurit,Zuit,Guann,Voikogem,Juer,Olodimar,Unas,Seinum"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Rajasthani",
@@ -4087,7 +4087,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Koemer,Alosisss,Diira,Seunekk,Voow,Koalasos,Olusll,Dieguil,Guaret,Voitonen,Kaal,Vougery,Urus,Alorin,Oladagnn,Faon,Seulzz,Guesuld,Koaks"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Rajbanshi",
@@ -4096,7 +4096,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Alenurer,Diaas,Seikoga,Voesur,Koodimw,Olino,Diusell,Guokxx,Voamanet,Aludn,Olerutam,Seatut,Guiorun,Koemom,Alosis,Diirir,Seunekt,Vooe,Koalaskk,Olusww"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Rana Tharu",
@@ -4105,7 +4105,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Vousee,Alokal,Olamanww,Seudu,Guerutm,Koaty,Aliorit,Diemnn,Seosisem,Voird,Kounekar,Oloum,Guusor,Voegutt,Piik,Olitonl,Ates,Seelx,Guomidat,Koigmm"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Rangpuri",
@@ -4114,7 +4114,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Vootus,Koanatu,Olumol,Dietuky,Gualin,Voirosnn,Alenzz,Ololind,Nual,Seits,Guugerum,Zeus,Koorgg,Aladagor,Jeon,Diulis,Seesuli,Toir,Voakel,Koilotx"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Raute",
@@ -4123,7 +4123,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Seesul,Voakor,Koilottt,Oledi,Dionill,Guisx,Voutetat,Feut,Alolmm,Olasarul,Peol,Seunot,Guenuron,Asit,Koaim,Koer,Dieser,Seodimss,Vaas,Voina"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Ravula",
@@ -4132,7 +4132,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Jaogadoi,Oou,Siasai,Aokenul,Hiud,Moatol,Seongegor,Huader,Mioimil,Maak,Yoagul,Hoooikur,Deel,Ruakar,Yiouolan,Roeng,Maangu,Rounongo,Heae,Luumura"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Rengao",
@@ -4141,7 +4141,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Voalul,Koirosyy,Olenon,Diolinr,Vougerdd,Alorss,Oladagas,Seulk,Guesulur,Koakos,Aliloto,Diedil,Seonilxx,Voisen,Koutetn,Ololz,Diasarut,Guunrr,Voenurom,Alag"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Riang",
@@ -4150,7 +4150,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Peet,Asal,Koitur,Alugerw,Kous,Dioro,Seadagll,Vaon,Voulxx,Koesulet,Foir,Olakn,Diilotam,Poeg,Guedut,Voonilun,Alisom,Seolir,Guasart,Koune"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Rohingya",
@@ -4159,7 +4159,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Mean,Voolinnn,Alitzz,Olugerd,Seors,Guadagum,Koulgg,Alesulor,Diakis,Seiloti,Voedel,Koonilx,Olisan,Diutetmm,Guolyy,Voasarot,Alunr,Olenurim,Seadd,Guikoger"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Rouran",
@@ -4168,7 +4168,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Feol,Peit,Aser,Koest,Alodimes,Diinkk,Seuseal,Vookus,Koamanu,Oludol,Dieruty,Guatin,Voiornn,Alemzz,Olosisd,Seirs,Guunekum,Koogg,Alalasor,Gaos"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Sa-och",
@@ -4177,7 +4177,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Koutetnn,Ololzz,Diasard,Guuns,Voenurum,Alagg,Olikogor,Seesis,Guodimi,Koinel,Alusex,Diokan,Seamanmm,Voudyy,Koerutot,Olatr,Diiorim,Guemdd,Voosiser,Aliras"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Sadri",
@@ -4186,7 +4186,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Laet,Vial,Gaus,Quon,Biir,Lieg,Vuam,Giut,Reol,Alenurkk,Buit,Diaww,Seikogus,Luer,Voesm,Koodimol,Weas,Olinit,Diusein,Guokem"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Saek",
@@ -4195,7 +4195,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Diutetkk,Guolww,Voasarus,Alunm,Olenurol,Seait,Guikogin,Koesem,Alodimzz,Diinar,Seuses,Koamangg,Oludtt,Dierutis,Guatl,Voiorel,Alemat,Olosisan,Seirul,Guunekyy"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Sakhalin Ainu",
@@ -4204,7 +4204,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Diorom,Seadag,Voulir,Koesult,Olake,Diilotkk,Guedww,Voonilus,Alism,Olutetol,Seolit,Guasarin,Kounem,Alenurzz,Diaar,Seikogs,Koodimgg,Puas,Olintt,Diuseis"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Sakhalin dialects",
@@ -4213,7 +4213,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Sealasot,Vousr,Koeguim,Olardd,Viod,Gail,Quet,Bial,Diuger,Lius,Guorir,Voadagt,Alule,Olesulkk,Giir,Seakww,Guilotus,Reeg,Koedm,Alonilol"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Sambalpuri",
@@ -4222,7 +4222,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guuneku,Koool,Alalasy,Diusin,Seegunn,Voarzz,Koitond,Olels,Diomidum,Guiggg,Vourelor,Alotis,Olilotw,Seedo,Guonilll,Koisxx,Alutetet,Dioln,Seasaram,Vounut"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Samre",
@@ -4231,7 +4231,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Vooron,Koadagr,Olul,Diesuldd,Guakss,Voilotas,Aledk,Olonilur,Seisos,Guuteto,Koolil,Alasarxx,Diunen,Seenurn,Voaz,Koikogut,Olesrr,Diodimom,Guing,Vouseir"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Sanskrit",
@@ -4240,7 +4240,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Diatkk,Seioral,Yuen,Voemus,Koosisu,Isad,Olirol,Diuneky,Teur,Guoin,Voalasnn,Duos,Aluszz,Olegud,Nuik,Sears,Guitonum,Zees,Koelgg,Alomidor"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Santa / Sarta (Dongxiang)",
@@ -4249,7 +4249,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Voinnn,Kouseem,Olokd,Diamanar,Guudum,Voerut,Alator,Oliortt,Seemi,Guosisl,Koirx,Alunekat,Diomm,Sealasul,Vousot,Koeguon,Olarim,Diiton,Gueler,Voomidss"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Santa Mongol",
@@ -4258,7 +4258,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Olail,Diikogxx,Guesen,Voodimn,Alinz,Oluseut,Seokrr,Guamanom,Diom,Koudg,Alerutir,Nii,Jean,Diigor,Seureltt,Toun,Vooti,Koanatl,Enod,Olumx"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Santa Sijiaji",
@@ -4267,7 +4267,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Voomidum,Aliggg,Olurelor,Atun,Seotis,Guanati,Kuod,Koumel,Aletukx,Dialan,Seirosmm,Voenyy,Koolinot,Olitr,Diugerim,Guordd,Voadager,Alulas,Olesula"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Santa Suonanba",
@@ -4276,7 +4276,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Olasaron,Giol,Seunim,Koaer,Alikogss,Diesa,Seodimk,Voinw,Kouseos,Olokll,Diamanil,Guudet,Voeruten,Alatam,Oliorz,Seemun,Guosisrr,Alunekg,Sealases,Heos"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Santa Wangjiaji",
@@ -4285,7 +4285,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Seodimim,Aligww,Olurelus,Seotm,Guanatol,Koumit,Aletukin,Dialem,Seiroszz,Voenar,Koolins,Diugergg,Guortt,Voadagis,Alull,Olesulel"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Sapa",
@@ -4294,7 +4294,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kouseis,Olokl,Diamanel,Guudat,Voerutan,Alatul,Olioryy,Seemon,Guosisr,Alunekdd,Dioss,Sealasas,Vousk,Koeguur,Olaros,Diitono,Guelil,Voomidxx,Aligen,Olureln"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Sapuan",
@@ -4303,7 +4303,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Haus,Ruon,Ciir,Mieg,Wuam,Hiut,Diolgg,Seasaror,Seol,Vounis,Koenuri,Cuit,Olael,Diikogx,Muer,Guesan,Voodimmm,Yeas,Alinyy,Oluseot"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Saraiki",
@@ -4312,7 +4312,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Koumy,Aletukit,Jeil,Dialnn,Seirosem,Toet,Voend,Koolinar,Olitum,Guoror,Voadagtt,Aluli,Olesull,Seakx,Guilotat,Koedmm,Alonilul,Diisot,Seuteton,Kait"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Sart Kalmyk",
@@ -4321,7 +4321,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guugerss,Koora,Aladagk,Diulw,Seesulos,Quir,Bieg,Liam,Vuut,Diois,Sealasi,Vousel,Koegux,Olaran,Diitonmm,Guelyy,Voomidot,Aligr"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Sauria Paharia",
@@ -4330,7 +4330,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Sooneki,Jaunga,Muomil,Taang,Au,Iolingou,Seuuui,Yuororoi,Mianai,Saosoul,Rais,Hoamol,Meotusor,Jiii,Yialer,Hioduuil,Roarul,Yeogadur,Neou,Luasar"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Savi",
@@ -4339,7 +4339,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Alasarm,Diuny,Seenurit,Voann,Koikogem,Olesd,Diodimar,Fias,Guinum,Vouse,Piug,Alokor,Olamantt,Atom,Seudi,Guerutl,Koatx,Aliorat,Veen,Diemmm"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Sedang",
@@ -4348,7 +4348,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Oloral,Diadagww,Guulu,Voesulm,Alaky,Olilotit,Seednn,Guonilem,Koisd,Alutetar,Diolum,Seasar,Vounor,Koenurtt,Olai,Diikogl,Guesx,Voodimat,Alinmm,Oluseul"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Shan macro entry",
@@ -4357,7 +4357,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Vousea,Alokur,Olamanw,Seudo,Guerutll,Koatxx,Alioret,Diemn,Seosisam,Voirut,Kounekun,Oloom,Guusir,Voegut,Alare,Olitonkk,Seelww,Guomidus,Koigm,Alurelol"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Sherpa",
@@ -4366,7 +4366,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Alasard,Diuns,Seenurum,Voagg,Koikogor,Dialasw,Guuso,Voegull,Alarxx,Olitonet"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Shilingol / Xilingol Khalkha",
@@ -4375,7 +4375,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Diinm,Seuseol,Vookit,Koamanin,Oludem,Dierutzz,Guatar,Voiors,Alem,Olosisgg,Quik,Bies,Vuun,Giod,Guetukur,Reil,Koalos,Aliroso,Buet,Dienil"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Shina",
@@ -4384,7 +4384,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guitir,Vougert,Juus,Alore,Oladagkk,Unon,Seulww,Guesulus,Etir,Koakm,Alilotol,Oteg,Diedit,Seonilin,Anam,Voisem,Koutetzz,Ololar,Diasars,Voenurgg"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Shina, Kohistani",
@@ -4393,7 +4393,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Oliren,Diunekn,Guoz,Voalasut,Alusrr,Oleguom,Searg,Guitonir,Koeles,Alomide,Diigal,Seurelww,Vootu,Koanatm,Saod,Olumy,Dietukit,Coil,Gualnn,Voirosem"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Shira Yugur",
@@ -4402,7 +4402,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Olalin,Diirosnn,Guenzz,Voolind,Pial,Alits,Olugerum,Seorgg,Guadagor,Kuon,Koulis,Alesuli,Veir,Diakel,Seilotx,Fueg,Voedan,Koonilmm,Puam,Olisyy"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Shirongol",
@@ -4411,7 +4411,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Dieguy,Guarin,Voitonnn,Alelzz,Olomidd,Seigs,Guurelum,Kootgg,Alanator,Kiil,Utet,Fial,Pius,Aton,Kuir,Veeg,Diedur,Seonilw,Fuam,Voiso"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Shirwi",
@@ -4420,7 +4420,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Koemtt,Alosisis,Siad,Diirl,Seunekel,Daur,Vooat,Koalasan,Olusul,Dieguyy,Guaron,Voitonr,Olomiddd,Seigss,Guurelas,Kootk,Alanatur,Diumos,Seetuko,Voalil"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Sholaga",
@@ -4429,7 +4429,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Juak,Eag,Koooik,Yael,Uakau,Duouolui,Noeng,Paangei,Tuunongai,Hair,Keaur,Oumurol,Deaael,Kauluer,Loos,Tiaiir,Dauratul,Buoo,Noenal,Teusaiar"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Sikkimese",
@@ -4438,7 +4438,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guolom,Alunir,Olenurt,Seae,Guikogkk,Koesww,Alodimus,Yaod,Hoil,Seolinxx,Voiten,Kougern"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Sindhi Bhil",
@@ -4447,7 +4447,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Aron,Voinx,Kouseat,Olokmm,Diamanul,Guudot,Voeruton,Lei,Alatim,Olior,Voen,Seemer,Guosisss,Gead,Koira,Alunekk,Raur,Diow,Sealasos,Vousll"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Somray",
@@ -4456,7 +4456,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Dibba Al-Hisn,Dayrah,Ar Ruways,Al Ain City,Ajman,Adh Dhayd,Abū Hayl,As Saţwah,Al Safa,Jebel Ali,Zaranj,Afghanistan,Bamyan,Taloqan,Takhar,Shīnḏanḏ,Herat,Jowzjan,Shahrak,Sar-e Pul"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Sonha",
@@ -4465,7 +4465,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Alaal,Olikogww,Seesu,Guodimm,Koiny,Aluseit,Dioknn,Seamanem,Luom,Voudd,Koerutar,Wei,Olatum,Diior,Guen,Guemor,Voosistt,Road,Aliri,Olunekl"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Sonid Mongol",
@@ -4474,7 +4474,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Zeeg,Koeder,Alonilss,Jeam,Diisa,Seutetk,Tout,Voolw,Koasaros,Enol,Olunll,Dienuril,Onit,Guaet,Voikogen,Zoer,Alesam,Olodimz,Joas,Seinun"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Southern Khalkha",
@@ -4483,7 +4483,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Olutetnn,Seolzz,Guasard,Kouns,Alenurum,Diagg,Seikogor,Voesis,Koodimi,Olinel,Diusex,Guokan,Voamanmm,Aludyy,Olerutot,Seatr,Guiorim,Koemdd,Alosiser,Diiras"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Southern Tai",
@@ -4492,7 +4492,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Diudum,Jai,Voator,Koiortt,Tien,Olemi,Diosisl,Elad,Guirx,Vounekat,Alomm,Olalasul,Seusot,Gueguon,Koarim,Dieler,Seomidss,Voiga,Kourelk,Olotw"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Southern Thai",
@@ -4501,7 +4501,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guak,Voilotg,Aledt,Oloniles,Seiskk,Guutetal,Koolus,Alasaru,Diunol,Seenury,Voain,Koikognn,Oleszz,Diodimd,Guins,Vouseum,Alokgg,Olamanor,Seudis,Gueruti"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Southern Tungusic",
@@ -4510,7 +4510,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kousar,Alegus,Seitongg,Voeltt,Koomidis,Oligl,Diurelel,Guotat,Voanatan,Alumul,Oletukyy,Sealon,Guirosr,Alolindd,Diitss,Seugeras,Voork,Koadagur,Olulos,Diesulo"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Sri Lankan English",
@@ -4519,7 +4519,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Koirosom,Oleng,Diolinir,Guites,Vougere,Aloral,Oladagww,Seulu,Guesulm,Hoir,Koaky,Alilotit,Sieg,Diednn,Seonilem,Daam,Voisd,Koutetar,Naut,Ololum"
+  "b": "Colombo,Gampaha,Kalutara,Kandy,Galle,Matara,Anuradhapura,Polonnaruwa,Batticaloa,Trincomalee,Kurunegala,Jaffna,Mannar,Vavuniya,Kilinochchi,Mullaitivu,Puttalam,Badulla,Monaragala,Ratnapura,Kegalle,Hambantota,Matale,Nuwara Eliya,Gampola"
 },
 {
     "name": "Sri Lankan Portuguese Creole",
@@ -4528,7 +4528,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Oloka,Diamank,Guudw,Voerutos,Alatll,Olioril,Seemet,Guosisen,Koiram,Alunekz,Dioun,Sealasrr,Koegug,Olart,Diitones,Guelkk,Voomidal,Aligus,Olurelu,Seotol"
+  "b": "Lisboa,Porto,Coimbra,Braga,Aveiro,Faro,Guimarães,Évora,Setúbal,Viseu,Sintra,Óbidos,Fátima,Albufeira,Algarve,Cascais,Amadora,Odivelas,Leiria,Santarem,Torres Vedras,Figueira da Foz,Ponte de Lima,Bragança,Chaves,Guarda"
 },
 {
     "name": "Standard Tibetan",
@@ -4537,7 +4537,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Diesx,Seodimat,Voinmm,Kouseul,Olokot,Diamanon,Guudim,Koumkk,Aletukal,Dialus,Seirosu,Voenol,Kooliny,Olitin,Diugernn,Yius,Guorzz,Voadagd,Inon,Aluls"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Standard Zhuang",
@@ -4546,7 +4546,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Seikogun,Wier,Voesom,Koodim,Olinir,Diuset,Guoke,Voamankk,Aludww,Olerutus,Seatm,Guiorol,Koemit,Alosisin,Diirem,Seunekzz,Vooar,Koalass,Diegugg,Guartt"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Stieng",
@@ -4555,7 +4555,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Alitnn,Olugerem,Seord,Guadagar,Koulum,Diakor,Seilottt,Voedi,Koonill,Olisx,Diutetat,Guolmm,Voasarul,Alunot,Olenuron,Seaim,Guikog,Koeser,Alodimss,Diina"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Su'",
@@ -4564,7 +4564,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Voosisxx,Yead,Aliren,Olunekn,Seoz,Gualasut,Kousrr,Aleguom,Diarg,Seitonir,Voeles,Koomide,Oligal,Diurelww,Guotu,Voanatm,Alumy,Oletukit,Sealnn,Guirosem"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Sundanese native-speakers subset",
@@ -4573,7 +4573,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Sayun,Howunge,Nesunuku,Kidin,Yimunpa,Hikunginro,Soungwu,Yeugam,Muural,Siumminor,Haoau,Mowonasde,Tupin,Wuponli,Gumonrinna,Sadonse,Woongagtu,Betin,Meoti,Ruorwinam"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Suoy",
@@ -4582,7 +4582,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Keir,Useg,Feam,Peut,Asol,Guokl,Voamanel,Aludat,Olerutan,Seatul,Guioryy,Koemon,Alosisr,Seunekdd,Quur,Vooss,Koalasas,Bios,Olusk,Dieguur"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Surgujia",
@@ -4591,7 +4591,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Seudul,Guerutyy,Koaton,Aliorr,Seosisdd,Voirss,Kounekas,Dialasur,Guusos,Voeguo,Alaril,Olitonxx,Mies,Seelen,Guomidn,Wuan,Koigz,Alurelut,Hiun,Diotrr"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Surjapuri",
@@ -4600,7 +4600,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Voarww,Koitonus,Naes,Olelm,Diomidol,Yian,Guigit,Vourelin,Inun,Alotem,Suod,Diil,Niet,Yual,Olilotr,Seed,Guonildd,Koisss,Alutetas,Diolk"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Sylheti",
@@ -4609,7 +4609,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Alalasxx,Diusen,Seegun,Voarz,Koitonut,Olelrr,Diomidom,Guigg,Vourelir,Alotes,Olanate,Seumal,Guetukww,Koalu,Alirosm,Dieny,Seolinit,Voitnn,Kougerem,Olord"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Tabghach",
@@ -4618,7 +4618,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Sealen,Guirosn,Paet,Koenz,Alolinut,Aral,Diitrr,Seugerom,Kius,Voorg,Koadagir,Uton,Olules,Diesule,Fiir,Guakal,Voilotww,Pieg,Aledu,Olonilm"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Tai",
@@ -4627,7 +4627,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Inet,Ololinw,Sual,Seito,Guugerll,Koorxx,Aladaget,Diuln,Seesulam,Voakut,Koilotun,Oledom,Guisir,Voutett,Alole,Olasarkk,Seunww,Guenurus,Alikogol,Diesit"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Tai Daeng",
@@ -4636,7 +4636,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Alinem,Olusezz,Huug,Seokar,Guamans,Soom,Koorg,Aladagir,Diules,Seesule,Voakal,Koilotww,Oledu,Dionilm"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Tai Don",
@@ -4645,7 +4645,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guod,Guumx,Voetukat,Alalmm,Olirosul,Ceet,Seenot,Guolinon,Meal,Koitim,Aluger,Wous,Diorer,Seadagss,Heon,Voula,Koesulk,Sair,Olakw,Diilotos"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Tai Hang Tong",
@@ -4654,7 +4654,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guinir,Aloke,Olamankk,Seudww,Guerutus,Koatm,Aliorol,Diemit,Seosisin,Voirem,Kounekzz,Oloar,Dialass,Voegugg,Alartt,Olitonis,Seell,Guomidel,Koigat,Alurelan"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Tai Khang",
@@ -4663,7 +4663,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Voiss,Koutetum,Ololgg,Diasaror,Guunis,Voenuri,Duit,Alael,Olikogx,Seesan,Guodimmm,Zeas,Koinyy,Aluseot,Jeug,Diokr,Seamanim,Toom,Vouddd,Koeruter"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Tai Laing",
@@ -4672,7 +4672,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Koata,Aliork,Diemw,Seosisos,Voirll,Kounekil,Oloet,Dialasen,Guusam,Voeguz"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Tai Long",
@@ -4681,7 +4681,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Olorll,Diadagil,Guulet,Wout,Heol,Sait,Coer,Moas,Yaug,Kouds,Alerutum"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Tai Lue",
@@ -4690,7 +4690,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Aībak,Rustāq,Kunduz,Pul-e Khumrī,Baghlan,Kabul,Nīlī,Daykundi,Faryab,Laghman,Balkh,Lashkar Gāh,Helmand,Kushk,Khōst,Khulm,Khāsh,Kandahār,Badakhshan,Jalālābād"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Tai Nuea",
@@ -4699,7 +4699,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Koeg,Quom,Voudur,Koerutw,Bii,Olato,Diiorll,Lien,Guemxx,Voosiset,Vuad,Alirn,Olunekam,Giur,Seout,Gualasun,Reos,Kousom,Buik,Diarir"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Tai Pao",
@@ -4708,7 +4708,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Voilot,Aledor,Oloniltt,Seisi,Guutetl,Koolx,Alasarat,Diunmm,Seenurul,Voaot,Koikogon,Olesim,Guiner,Vousess,Aloka,Olamank,Seudw,Guerutos,Koatll,Alioril"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Tai Song",
@@ -4717,7 +4717,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Dieguus,Guarm,Voitonol,Alelit,Olomidin,Seigem,Guurelzz,Kootar,Alanats,Dium,Seetukgg,Voaltt,Koirosis,Olenl,Diolinel,Guitat,Vougeran,Alorul,Oladagyy"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Tai Thanh",
@@ -4726,7 +4726,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Koanaten,Olumam,Dietukz,Gualun,Voirosrr,Ololing,Diesel,Seodimx,Voinan,Kousemm,Olokyy,Diamanot,Guudr,Voerutim,Alatdd,Oliorer,Seemas,Guosisa,Koirur,Alunekw"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Tai Yao",
@@ -4735,7 +4735,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Voakam,Koilotz,Oledun,Dionilrr,Voutetg,Alolt,Olasares,Seunkk,Guenural,Koaus,Alikogu,Diesol,Seodimy,Voinin,Kousenn,Olokzz,Diamand,Guuds,Voerutum,Alatgg"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Tai Yo (Nyaw)",
@@ -4744,7 +4744,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Dienzz,Seolind,Voits,Kougerum,Olorgg,Diadagor,Guulis,Voesuli,Alakel,Olilotx,Seedan,Guonilmm,Koisyy,Alutetot,Diolr,Seasarim,Voundd,Koenurer,Olaas,Diikoga"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Takua",
@@ -4753,7 +4753,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Olomidyy,Seigon,Guurelr,Alanatdd,Diumss,Seetukas,Voalk,Koirosur,Olenos,Diolino,Guitil,Vougerxx,Voenurm,Alay,Olikogit,Seesnn,Guodimem,Koind,Alusear,Diokum"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Tamang",
@@ -4762,7 +4762,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Dietuktt,Guali,Voirosl,Alenx,Ololinat,Seitmm,Guugerul,Koorot,Aladagon,Diulim,Voaker,Koilotss,Oleda,Dionilk,Guisw,Voutetos,Alolll,Olasaril,Olioru,Seemol"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Tampuan",
@@ -4771,7 +4771,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Gualaskk,Meos,Kousww,Aleguus,Woik,Diarm,Seitonol,Voelit,Koomidin,Oligem,Diurelzz,Guotar,Voanats,Oletukgg,Sealtt,Guirosis,Koenl,Alolinel,Diitat,Seugeran"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Tanchangya",
@@ -4780,7 +4780,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Seesur,Guodimw,Koino,Alusell,Diokxx,Seamanet,Voudn,Koerutam,Ali,Olatut,Diiorun,Kaen,Guemom,Voosis,Urad,Alirir,Olunekt,Seoe,Atil,Kuet"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Tangut",
@@ -4789,7 +4789,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Voikogul,Alesot,Olodimon,Seinim,Guuse,Kooker,Alamanss,Diuda,Seerutk,Voatw,Koioros,Olemll,Diosisil,Guiret,Vouneken,Aloam,Olalasz,Seusun,Guegurr,Alitong"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Tariang",
@@ -4798,7 +4798,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Olioror,Seemis,Guosisi,Koirel,Alunekx,Dioan,Sealasmm,Vousyy,Koeguot,Olarr,Diitonim,Gueldd,Voomider,Aligas,Olurela,Seotur,Guanatw,Koumo,Aletukll,Dialxx"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Tay (Tai)",
@@ -4807,7 +4807,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Diesull,Yiir,Guakx,Voilotat,Aledmm,Olonilul,Seisot,Guuteton,Koolim,Diuner,Seenurss,Voaa,Koikogk,Guomidnn,Koigzz,Alureld,Diots,Seanatum,Voumgg"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Tay Tac",
@@ -4816,7 +4816,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Elos,Olik,Zies,Tuun,Erod,Keam,Usut,Guikogzz,Koesar,Alodims"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Tenyidie",
@@ -4825,7 +4825,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Diitonk,Guelw,Voomidos,Aligll,Olurelil,Seotet,Guanaten,Koumam,Aletukz,Dialun,Seirosrr,Kooling,Olitt,Diugeres,Guorkk,Voadagal,Alulus,Olesulu,Seakol,Guiloty"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Teressa Nicobarese",
@@ -4834,7 +4834,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Geer,Raas,Boug,Koamanir,Oludes,Dierute,Guatal,Voiorww,Alemu,Olosism,Seiry,Guunekit,Koonn,Alalasem,Diusd,Seeguar,Voarum,Olelor,Diomidtt,Guigi"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Thachanadan",
@@ -4843,7 +4843,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Yoororur,Vae,Meanor,Ruosoel,Mois,Hiamil,Maotusir,Eii,Yealur,Heoduual,Seot,Riaran,Yaogadam,Koou,Loaso,Reokeni,Yuud,Guata,Liongeg,Peam"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Thai Siamese",
@@ -4852,7 +4852,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Seumum,Cail,Koalor,Alirostt,Maet,Dieni,Seolinl,Wial,Voitx,Kougerat,Olormm,Diadagul,Guulot,Voesulon,Alakim,Olilot,Seeder,Guonilss,Koisa,Alutetk"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Thakali",
@@ -4861,7 +4861,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Seiroset,Voenn,Koolinam,Olitut,Diugerun,Guorom,Alulir,Olesult,Seake,Guilotkk,Koedww,Alonilus,Diism,Seutetol,Voolit,Koasarin,Olunem,Dienurzz,Guaar,Voikogs"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Thangmi (Thami)",
@@ -4870,7 +4870,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Seorr,Gualasom,Kousg,Aleguir,Diares,Seitone,Voelal,Koomidww,Oligu,Diurelm,Guoty,Voanatit,Alumnn,Oletukem,Seald,Guirosar,Koenum,Diitor,Seugertt,Olesll"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Thar",
@@ -4879,7 +4879,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Koenurm,Olay,Diikogit,Guesnn,Voodimem,Alind,Olusear,Seokum,Guaman,Koudor,Aleruttt,Diati,Seiorl,Voemx,Koosisat,Olirmm,Diunekul,Guoot,Voalason,Alusim"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Tharu languages",
@@ -4888,7 +4888,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Seosisul,Voirot,Kounekon,Oloim,Guuser,Voeguss,Alara,Olitonk,Hues,Seelw,Guomidos,Soan,Koigll,Alurelil,Deun,Diotet,Seanaten,Neod,Voumam,Koetukz"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Thmon",
@@ -4897,7 +4897,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Koudur,Alerutw,Diato,Seiorll,Voemxx,Koosiset,Olirn,Diunekam,Guout,Voalasun,Alusom,Olegu,Searir,Guitont,Koele,Alomidkk,Diigww,Seurelus,Vootm,Koanatol"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Tichurong",
@@ -4906,7 +4906,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Moom,Aludt,Olerutes,Yai,Seatkk,Guioral,Hoen,Koemus,Alosisu,Diirol,Seuneky,Vooin,Koalasnn,Oluszz,Diegud,Guars,Voitonum,Alelgg,Olomidor,Seigis"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Toda",
@@ -4915,7 +4915,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Keekeou,Toosui,Deengisoi,Hoaa,Nuotai,Tieiiul,Juodol,Noeeotor,Meau,Buoger,Joauouil,Doid,Taokul,Boinudur,Neongar,Suimaman,Keog,Jeou,Nailako,Yium"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Todrah",
@@ -4924,7 +4924,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Seamantt,Voudi,Koerutl,Tii,Olatx,Diiorat,Elen,Guemmm,Voosisul,Alirot,Olunekon,Ziur,Seoim,Jios,Aleguss,Tuik,Diara,Seitonk,Eres,Voelw"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Tongren Bonan",
@@ -4933,7 +4933,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guoam,Voalasz,Alusun,Olegurr,Guitong,Koelt,Alomides,Diigkk,Seurelal,Oledan,Dionilmm,Guisyy,Voutetot,Alolr,Olasarim,Foug"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Torwali",
@@ -4942,7 +4942,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Nangarhar,Badghis,Ghazni,Gardez,Paktia,Fayzabad,Farah,Charikar,Baraki Barak,Logar,Kunar,Asadābād,Andkhoy,Panjshir,The Valley,Albania,Pogradec,Librazhd,Korçë,Elbasan"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Transitional Bonan-Kangjia",
@@ -4951,7 +4951,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guokdd,Voamaner,Aludas,Oleruta,Seatur,Guiorw,Koemo,Alosisll,Diirxx,Seuneket,Koalasam,Olusut,Dieguun,Guarom,Alelir,Olomidt,Seige,Guurelkk,Kootww,Alanatus"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Tripuri",
@@ -4960,7 +4960,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Rouawu,Niungunglu,Reiu,Jauoxue,Fuaiiaqiu,Poang,Ziiayuan,Weeiontong,Paie,Nuiozhong,Louiouxiang,Niu,Geiucheng,Daaoiye,Woajia,Siouongzang,Meio,Maelin,Juiuuozi,Loun"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Tsun-Lao",
@@ -4969,7 +4969,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Diinin,Seusenn,Vookzz,Koamand,Oluds,Dierutum,Guatgg,Voioror,Feun,Peod,Guetukll,Asil,Koalxx,Aliroset,Koet,Dienn,Seolinam,Vaal,Voitut,Kougerun"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Tulu",
@@ -4978,7 +4978,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Roosul,Yeengisur,Neaa,Luotar,Rieiian,Goet,Haodu,Loeeoto,Vuoge,Guauoua,Leid,Raok,Voinud,Leongau,Puimamui,Puog,Geoei,Lailakai,Jeum,Veoour"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Turung",
@@ -4987,7 +4987,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Peqin,Fier,Berat,Kapan,Armenia,Syunik,Goris,Artashat,Ararat,Yerevan,Vagharshapat,Armavir,Sevan,Gegharkunik,Vanadzor,Lori,Gavar,Ijevan,Tavush,Hrazdan"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Tuyuhun",
@@ -4996,7 +4996,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Seom,Voudy,Koerutit,Cui,Olatnn,Diiorem,Muen,Guemd,Voosisar,Alirum,Olunek,Seoor,Gualastt,Kousi,Alegul,Diarx,Seitonat,Voelmm,Koomidul,Oligot"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Udege",
@@ -5005,7 +5005,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Olioret,Seemn,Guosisam,Koirut,Alunekun,Dioom,Vousir,Koolingg,Olittt,Diugeris,Guorl,Voadagel,Alulat,Olesulan,Seakul,Guilotyy,Koedon,Alonilr,Seutetdd,Wiut"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Udegheic",
@@ -5014,7 +5014,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Alemss,Olosisas,Seirk,Guunekur,Kooos,Alalaso,Diusil,Seeguxx,Voaren,Koitonn,Olelz,Diomidut,Guigrr,Vourelom,Alotg,Olanatir,Seumes,Guetuke,Koalal,Alirosww"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Uilta",
@@ -5023,7 +5023,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Seulum,Guesul,Koakor,Alilottt,Voudll,Koerutil,Olatet,Diioren,Guemam,Voosisz"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Ulaanchab Mongol",
@@ -5032,7 +5032,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Koirem,Alunekzz,Dioar,Sealass,Koegugg,Olartt,Diitonis,Guell,Voomidel,Aligat,Olurelan,Seotul,Guanatyy,Koumon,Aletukr,Seirosdd,Voenss,Koolinas,Olitk,Diugerur"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Ulch",
@@ -5041,7 +5041,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Olisus,Diutetu,Guolol,Voasary,Diusas,Seegua,Voarur,Koitonw,Olelo,Diomidll,Guigxx,Vourelet,Alotn,Olanatam"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Ushojo",
@@ -5050,7 +5050,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Seamanil,Voudet,Koeruten,Olatam,Diiorz,Guemun,Voosisrr,Olunekg,Gualases,Vios,Kouskk,Alegual,Gaik,Diarus,Seitonu,Ques,Voelol,Koomidy,Oligin,Diurelnn"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Vaghri",
@@ -5059,7 +5059,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Aloom,Olalas,Seusir,Guegut,Koare,Alitonkk,Dielww,Seomidus,Voigm,Kourelol,Olotit,Dianatin,Guumem,Voetukzz,Alalar,Oliross,Guolingg,Koittt,Alugeris,Diorl"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Varendri",
@@ -5068,7 +5068,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Koeguor,Olaris,Diitoni,Guelel,Voomidx,Aligan,Olurelmm,Seotyy,Guanatot,Koumr,Aletukim,Dialdd,Seiroser,Voenas,Koolina,Olitur,Diugerw,Guoro,Voadagll,Alulxx"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Vayu",
@@ -5077,7 +5077,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Onil,Zoet,Kooret,Aladagen,Diulam,Seesulz,Voakun,Koilotrr,Oled,Dionilg,Guist,Voutetes,Alolkk,Olasaral,Seunus,Guenuru,Koaol,Alikogy,Diesin,Seodimnn"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Vietnamese Central",
@@ -5086,7 +5086,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Diunekdd,Guoss,Voalasas,Alusk,Oleguur,Searos,Guitono,Koelil,Alomidxx,Diigen,Seureln,Vootz,Koanatut,Olumrr,Dietukom,Gualg,Voirosir,Diesmm,Seodimul"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Vietnamese China",
@@ -5095,7 +5095,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Diodimgg,Guintt,Vouseis,Alokl,Olamanel,Seudat,Guerutan,Koatul,Alioryy,Diemon,Seosisr,Erad,Kounekdd,Orur,Oloss,Dialasas,Zuos,Guusk,Juik,Unes"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Vietnamese Hue",
@@ -5104,7 +5104,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Raes,Dielom,Boan,Voigir,Kourelt,Olote,Dianatkk,Waod,Guumww,Voetukus,Alalm,Olirosol,Riet,Seenit,Guolinin,Caal,Koitem,Alugerzz,Maus,Diorar"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Vietnamese Northern",
@@ -5113,7 +5113,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Alulel,Olesulx,Seakan,Guilotmm,Koedyy,Alonilot,Diisr,Seutetim,Vooldd,Koasarer,Fool,Olunas,Dienura,Poit,Guaur,Voikogw,Baer,Aleso,Olodimll,Seinxx"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Vietnamese Southern",
@@ -5122,7 +5122,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kotayk,Gyumri,Dilijan,Ashtarak,Abovyan,Angola,Viana,Luanda,Uíge,Soyo,Songo,Mbanza Kongo,Malanje,Gombe,Dondo,Cacuaco,Cabinda,Bailundo,Huambo,Namibe"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Vietnamese US",
@@ -5131,7 +5131,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guismm,Voutetul,Alolot,Vouskk,Koegual,Olarus,Diitonu,Guelol,Voomidy,Aligin,Olurelnn,Seotzz,Guanatd,Koums,Aletukum,Dialgg,Seirosor,Voenis,Koolini"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Vishavan",
@@ -5140,7 +5140,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Niul,Taigosou,Muee,Jiurui,Neikoooi,Beusai,Jeingutul,Siei,Soutol,Baianor,Muuder,Siiiagil,Aun,Iugul,Moeiemur,Yuukar,Huonekan,Ial,Saungu,Yoomilo"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Wadiyara Koli",
@@ -5149,7 +5149,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kounum,Diaor,Seikogtt,Voesi,Koodiml,Olinx,Diuseat,Guokmm,Voamanul,Aludot,Oleruton,Seatim"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Wagdi",
@@ -5158,7 +5158,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Seulon,Guesulr,Alilotdd,Diedss,Seonilas,Boam,Voisk,Koutetur,Lout,Ololos,Diasaro,Waol,Guunil,Voenurxx,Goit,Alaen,Olikogn,Rier,Seesz,Guodimut"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Walungge",
@@ -5167,7 +5167,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Sealit,Guirosin,Koenem,Alolinzz,Diitar,Seugers,Daus,Koadaggg,Naon,Olultt,Diesulis,Guakl,Voilotel,Aledat,Olonilan,Seisul,Guutetyy,Koolon,Alasarr,Seenurdd"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Wambule",
@@ -5176,7 +5176,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Seotam,Guanatz,Koumun,Aletukrr,Seirosg,Voent,Koolines,Olitkk,Diugeral,Guorus,Voadagu,Alulol,Olesuly,Seakin,Guilotnn,Koedzz,Alonild,Diiss,Seutetum,Voolgg"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Wayanad Chetti",
@@ -5185,7 +5185,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lealur,Puoduual,Puot,Gearan,Laogadam,Veaso,Gaokeni,Viud,Piata,Vaongeg,Peoimou,Geak,Duagui,Kiooikoi,Soel,Tuakai,Doouolul,Laeng,Oangol,Tounongor"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Waziri",
@@ -5194,7 +5194,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guoum,Alusor,Olegutt,Seari,Guitonl,Koelx,Alomidat,Diigmm,Seurelul,Vootot,Koanaton,Olumim,Gualer,Voirosss,Alena,Ololink,Seitw,Guugeros,Koorll,Aladagil"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Western Khmer",
@@ -5203,7 +5203,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Voaril,Koitonxx,Cues,Olelen,Diomidn,Guigz,Vourelut,Yeun,Alotrr,Olanatom,Huod,Seumg,Guetukir,Soil,Koales,Alirose,Deet,Dienal,Seolinww,Neal"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Yadgha",
@@ -5212,7 +5212,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Koenal,Alolinww,Diitu,Seugerm,Voory,Koadagit,Olulnn,Diesulem,Guakd,Voilotar,Aledum,Seisor,Guutettt,Kooli,Alasarl,Diunx,Seenurat,Voamm,Koikogul,Olesot"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Yakut",
@@ -5221,7 +5221,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Zoureldur,Beondar,Daanakpir,Esuknor,Kiekum,Maagter,Muidokar,Doek,Oretder,Peositpor,Suimnur,Touler,Yeortir,Zaaragker,Asudir,Bieulpur,Unir,Elakpar,Etigok,Liedtor"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Yang Zhuang",
@@ -5230,7 +5230,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Aleguor,Veik,Diaris,Seitoni,Fues,Voelel,Koomidx,Oligan,Diurelmm,Beun,Guotyy,Voanatot,Leod,Alumr,Oletukim,Voil,Sealdd,Guiroser,Koenas,Alolina"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Yei Zhuang",
@@ -5239,7 +5239,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Alail,Olikogxx,Seesen,Guodimn,Koinz,Aluseut,Diokrr,Seamanom,Voudg,Koerutir,Olates,Diiore,Guemal,Voosisww,Aliru,Olunekm,Seoy,Gualasit,Kousnn,Aleguem"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Yong",
@@ -5248,7 +5248,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Alitur,Olugerw,Seoro,Guadagll,Koulxx,Alesulet,Diakn,Seilotam,Voedut,Koonilun,Olisom,Diutet,Guolir,Voasart,Alune,Olenurkk,Seaww,Guikogus,Koesm,Alodimol"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Yoy",
@@ -5257,7 +5257,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Voirel,Kounekx,Oloan,Dialasmm,Guusyy,Voeguot,Alarr,Olitonim,Pees,Seeldd,Guomider,Koigas,Alurela,Diotur,Seanatw,Voumo,Koetukll"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Zakhchin",
@@ -5266,7 +5266,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guitx,Vougerat,Alormm,Oladagul,Seulot,Guesulon,Koakim,Alilot,Dieder,Seonilss,Voisa,Koutetk,Ololw,Diasaros,Yiol,Guunll,Voenuril,Init,Alaet,Olikogen"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Zandui",
@@ -5275,7 +5275,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Oloror,Diadagtt,Guuli,Voesull,Alakx,Olilotat,Seedmm,Guonilul,Koisot,Aluteton,Diolim,Vouner,Koenurss,Olaa,Diikogk,Guesw,Voodimos,Alinll,Oluseil,Seoket"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Zhangzhung",
@@ -5284,7 +5284,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Gualasol,Koenul,Alolinyy,Seugerr,Koadagdd,Olulss,Diesulas,Guakk,Voilotur,Oleg,Aledos,Olonilo,Ziam,Seisil,Guutetxx,Jiut,Koolen,Alasarn,Tuol,Diunz"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Burarra",
@@ -5293,7 +5293,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Diikogss,Irer,Guesa,Voodimk,Taas,Alinw,Oluseos,Seokll,Guamanil,Noom,Koudet,Aleruten,Diatam,Seiorz,Voemun,Koosisrr,Diunekg,Voalases,Aluskk,Olegual"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Dhuwal",
@@ -5302,7 +5302,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Anug,Guats,Voiorum,Alemgg,Olosisor,Seiris,Guuneki,Kooel,Alalasx,Diusan,Seegumm,Voaryy,Koitonot,Olelr,Diomidim,Guigdd,Voureler,Alotas,Olanata,Seumur"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Djaru",
@@ -5311,7 +5311,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Oluseom,Seokg,Guamanir,Koelor,Alomidtt,Diigi,Seurell,Vootx,Koanatat,Olummm,Dietukul,Gualot,Voiroson,Alenim,Seiter"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Djinang",
@@ -5320,7 +5320,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Olakg,Diilotir,Guedes,Voonile,Alisal,Olutetww,Seolu,Guasarm,Kouny,Alenurit,Diann,Seikogem,Voesd,Koodimar,Olinum,Guokor,Voamantt,Aludi,Olerutl,Seatx"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Gaagudju",
@@ -5329,7 +5329,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Diotit,Seanatin,Voumem,Koetukzz,Olalar,Diiross,Voolingg,Alittt,Olugeris,Seorl,Guadagel,Koulat,Alesulan,Diakul,Seilotyy,Voedon,Koonilr,Olis,Diutetdd"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Githabul",
@@ -5338,7 +5338,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Seusul,Gueguyy,Koaron,Alitonr,Seomiddd,Voigss,Kourelas,Olotk,Dianatur,Guumos,Voetuko,Alalil,Olirosxx,Seenen,Guolinn,Koitz,Alugerut,Diorrr,Seadagom,Voulg"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Iwaidja",
@@ -5347,7 +5347,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Olamanur,Voom,Seudos,Gueruto,Gei,Koatil,Aliorxx,Raen,Diemen,Seosisn,Boad,Voirz,Kounekut,Lour,Dialasom,Waos,Guusg,Voeguir,Goik,Alares"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Kaytetye",
@@ -5356,7 +5356,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ucuma,Sumbe,Ondjiva,Menongue,Luena,Lubango,Longonjo,Benguela,Cubal,Cela,Catabola,Santa Clara,Vila Flor,Samba,Zárate,Argentina,Buenos Aires,Misiones,Santa Fe,Entre Rios"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Kija",
@@ -5365,7 +5365,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guosisat,Koirmm,Alunekul,Dioot,Sealason,Vousim,Olarer,Diitonss,Kiet,Utal,Fius,Pion,Atir,Kueg,Alonily,Veam,Diisin,Seutetnn,Fuut,Voolzz"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Kukatja",
@@ -5374,7 +5374,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Alirz,Olunekut,Liun,Vuod,Giil,Reet,Bual,Weon,Ceam,Meut,Wool,Heit,Saer"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Kuku Yalanji",
@@ -5383,7 +5383,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Olorom,Diadag,Guulir,Voesult,Alake,Olilotkk,Seedww,Guonilus,Koism,Alutetol,Diolit,Seasarin,Vounem,Koenurzz,Yoit,Olaar,Diikogs,Voodimgg,Alintt,Oluseis"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Kungarakany",
@@ -5392,7 +5392,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Uadruabr,Iagngoo,Yongodr,Flountouv,Pruelhiu,Auqisp,Goundougw,Dzozhox,Mounske,Hueied,Oopooh,Umpgrua,Nouwoush,Phoidoi,Iskaust,Uitdri,Phiodio,Beebee,Bobbui,Oocoopr"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Kunwinjku",
@@ -5401,7 +5401,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Dieman,Seosismm,Fuad,Voiryy,Kounekot,Puur,Dialasim,Beos,Guusdd,Voeguer,Leik,Alaras,Olitona,Seelur,Guomidw,Gean,Koigo,Alurelll,Raun,Diotxx"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Kuuk Thaayore",
@@ -5410,7 +5410,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bead,Guirar,Vouneks,Leur,Olalasgg,Voos,Seustt,Gueguis,Geik,Koarl,Alitonel,Dielat,Seomidan,Voigul,Kourelyy,Oloton,Dianatr,Voetukdd,Wion,Rueg"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Laragia",
@@ -5419,7 +5419,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Alonilel,Viug,Gaom,Qui,Voaten,Koiorn,Olemz,Diosisut,Guirrr,Vounekom,Alog,Olalasir,Guegue,Koaral,Alitonww,Dielu,Seomidm,Voigy,Kourelit,Olotnn"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Luritja",
@@ -5428,7 +5428,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Vooam,Koalasz,Olusun,Diegurr,Guar,Voitong,Alelt,Olomides,Seulis,Guesuli,Koakel,Alilotx,Diedan,Seonilmm,Voisyy,Koutetot,Ololr,Diasarim,Guundd,Voenurer"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Manytjilyitjarra",
@@ -5437,7 +5437,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Voenx,Koolinat,Haal,Olitmm,Diugerul,Ruus,Guorot,Voadagon,Cion,Alulim,Miir,Seaker,Guilotss,Wueg,Koeda,Alonilk,Hiam,Diisw,Seutetos,Seut"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Martu Wangka",
@@ -5446,7 +5446,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Alemar,Olosiss,Guunekgg,Koott,Alalasis,Diusl,Seeguel,Voarat,Koitonan,Olelul,Diomidyy,Guigon,Vourelr,Goun,Olanatdd,Riod,Seumss,Guetukas,Koalk,Alirosur"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Maung",
@@ -5455,7 +5455,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Voikoges,Aleskk,Olodimal,Seinus,Guuseu,Kookol,Alamany,Diudin,Seerutnn,Voatzz,Koiord,Puen,Olems,Diosisum,Guirgg,Vounekor,Alois,Olalasi,Seusel,Guegux"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Murrinh Patha",
@@ -5464,7 +5464,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Vougerd,Alors,Oladagum,Seulgg,Guesulor,Koakis,Aliloti,Diedel,Seonilx,Voisan,Koutetmm,Ololyy,Diasarot,Guunr,Voenurim,Aladd,Olikoger,Seesas,Guodima,Koinur"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Ngaanyatjarra",
@@ -5473,7 +5473,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guemzz,Voosisd,Alirs,Olunekum,Seogg,Gualasor,Kousis,Alegui,Diarel,Seitonx,Voelan,Koomidmm,Oligyy,Diurelot,Guotr,Voanatim,Alumdd,Koikogol"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Ngarrindjeri",
@@ -5482,7 +5482,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guadagkk,Jion,Koulww,Alesulus,Tuir,Diakm,Seilotol,Ereg,Voedit,Koonilin,Oram,Zuut,Juol,Unit,Eter,Otas"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Nunggubuyu",
@@ -5491,7 +5491,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ubrhua,Shuumuusm,Lueiedr,Jouflre,Mpohomb,Coukour,Aufip,Wouond,Iqausp,Khosnoch,Iarsnoo,Monskui,Oostooj,Ustua,Tweembee,Nowosh,Intaux,Idauth,Aitdrau,Roukroun"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Nyangumarta",
@@ -5500,7 +5500,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Koikoges,Oleskk,Diodimal,Guinus,Vouseu,Alokol,Olamany,Seudin,Guerutnn,Koatzz,Aliord,Diems,Seosisum,Voirgg,Kounekor,Olois,Dialasi,Guusel,Voegux,Alaran"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "palawa kani",
@@ -5509,7 +5509,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Alatur,Oliorw,Seemo,Guosisll,Koirxx,Aluneket,Sealasam,Vousut,Koeguun,Cuik,Olarom,Mues,Guelir,Voomidt,Yean,Alige,Olurelkk,Seotww,Guanatus,Koumm"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Panyjima",
@@ -5518,7 +5518,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Alonilam,Diisut,Seutetun,Voolom,Haol,Olunir,Dienurt,Ruit,Guae,Voikogkk,Cier,Alesww,Olodimus,Mias,Seinm,Wuug,Hiom,Sei"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Umbugarla",
@@ -5527,7 +5527,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Diist,Seutetes,Voolkk,Koasaral,Cuol,Olunus,Dienuru,Muit,Guaol,Voikogy,Yeer,Alesin,Olodimnn,Huas,Seinzz,Guused,Kooks,Alamanum,Diudgg,Seerutor"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Upper Arrernte",
@@ -5536,7 +5536,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Olinzz,Diused,Guoks,Voamanum,Aludgg,Olerutor,Seatis,Guiori,Koemel,Alosisx,Diiran,Seunekmm,Vooyy,Koalasot,Olusr,Dieguim,Guardd,Voitoner,Alelas,Olomida"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Wadjiginy",
@@ -5545,7 +5545,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Seadagtt,Vouli,Koesull,Enir,Olakx,Diilotat,Oneg,Guedmm,Voonilul,Alisot,Oluteton,Seolim,Kouner,Alenurss,Diaa,Seikogk,Voesw,Koodimos,Olinll,Diuseil"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Wagiman",
@@ -5554,7 +5554,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Voitil,Kougerxx,Lous,Oloren,Diadagn,Waon,Guulz,Voesulut,Goir,Alakrr,Olilotom,Rieg,Seedg,Guonilir,Caam,Koises,Alutete,Maut,Diolal,Seasarww"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Wajarri",
@@ -5563,7 +5563,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Tigre,Tandil,San Vicente,Corrientes,Santa Elena,San Pedro,San Lorenzo,San Javier,San Isidro,San Antonio de Areco,Resistencia,Chaco,Quilmes,Puerto Rico,Puerto Esperanza,Posadas,Pontevedra,Formosa,Pilar,Morón"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Walmatjarri",
@@ -5572,7 +5572,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guiror,Vounektt,Aloi,Olalasl,Seusx,Gueguat,Koarmm,Alitonul,Dielot,Seomidon,Voigim,Kourel,Oloter,Dianatss,Onod,Guuma,Voetukk,Zoil,Alalw,Olirosos"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Wangkatha",
@@ -5581,7 +5581,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Montecarlo,Merlo,Mercedes,Mar del Plata,Luján,La Plata,La Paz,Fontana,Dolores,Colón,Campana,Bella Vista,Balcarce,Azul,Ayacucho,Avellaneda,Neuquen,Tucuman,Rio Negro,San Juan"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Warumungu",
@@ -5590,7 +5590,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Urom,Alelun,Olomidrr,Guurelg,Alanates,Diumkk,Seetukal,Voalus,Koirosu,Olenol,Dioliny,Guitin"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Wik Mungkan",
@@ -5599,7 +5599,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Geol,Voaman,Aludor,Oleruttt,Seati,Guiorl,Koemx,Alosisat,Diirmm,Seunekul,Vooot,Koalason,Olusim,Diegu,Guarer,Voitonss,Alela,Olomidk,Seigw,Guurelos"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Yankunytjatjara",
@@ -5608,7 +5608,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Voalll,Koirosil,Tiet,Olenet,Diolinen,Elal,Guitam,Vougerz,Alorun,Oladagrr,Zion,Seul,Guesulg,Jiir,Koakt,Alilotes,Tueg,Diedkk,Seonilal,Eram"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Yinjibarndi",
@@ -5617,7 +5617,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Olusgg,Dieguor,Guaris,Voitoni,Alelel,Olomidx,Seigan,Guurelmm,Kootyy,Alanatot,Diumr,Seetukim,Alaww,Olikogus,Seesm,Guodimol,Koinit,Alusein,Diokem,Seamanzz"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Yugambeh",
@@ -5626,7 +5626,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guoes,Voalase,Alusal,Oleguww,Searu,Guitonm,Koely,Alomidit,Diignn,Seurelem,Vootd,Koanatar,Olumum,Gualor,Voirostt,Aleni,Ololinl,Diesam,Seodimz,Voinun"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Anguillian Creole",
@@ -5635,7 +5635,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Dialasww,Guusu,Voegum,Alary,Olitonit,Seelnn,Guomidem,Hoan,Koigd,Alurelar,Diotum,Voumor,Koetuktt,Olali,Diirosl,Guenx,Voolinat,Alitmm,Olugerul,Seorot"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Bahamian Creole",
@@ -5644,7 +5644,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guakil,Voilotxx,Aleden,Oloniln,Seisz,Guutetut,Koolrr,Alasarom,Diung,Seenurir,Voaes,Koikoge,Yoer,Olesal,Diodimww,Iras,Guinu,Vousem,Taug,Aloky"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Bajan Creole",
@@ -5653,7 +5653,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Los Angeles,San Diego,San Francisco,San Jose,Fresno,Sacramento,Oakland,Long Beach,Anaheim,Bakersfield"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Belizean Creole",
@@ -5662,7 +5662,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Aloim,Seuser,Gueguss,Alitonk,Dielw,Seomidos,Voigll,Kourelil,Olotet,Dianaten,Guumam,Voetukz,Alalun,Olirosrr,Guoling,Koitt,Alugeres,Diorkk,Seadagal,Voulus"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Bocas del Toro Creole",
@@ -5671,7 +5671,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Seingg,Guuseor,Kookis,Alamani,Diudel,Seerutx,Voatan,Koiormm,Olemyy,Diosisot,Voetukun,Alalom,Seenir,Guolint,Koite,Alugerkk,Diorww,Seadagus,Voulm,Koesulol"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Grenadian Creole English",
@@ -5680,7 +5680,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Diiorul,Guemot,Voosison,Fead,Alirim,Peur,Seoer,Gualasss,Kousa,Aleguk,Diarw,Seitonos,Voelll,Koomidil,Oliget,Diurelen,Guotam,Voanatz,Alumun,Oletukrr"
+  "b": "St. George's,Gouyave,Grenville,Sauteurs,Victoria,Hillsborough,Grand Anse,Concord,Saint Patrick,Saint Andrew,Saint David,Saint Mark,Southern Grenadines,Carriacou,Petite Martinique,Grand Etang,Lance aux Epines,True Blue,Grand Anse,St. David's,St. Patrick's,St. Andrew's,Saint George's,Gouyave,Grenville"
 },
 {
     "name": "Haitian Creole",
@@ -5689,7 +5689,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Olisn,Diutetam,Guolut,Voasarun,Alunom,Olenur,Seair,Guikogt,Koese,Alodimkk,Diinww,Seuseus,Vookm,Koamanol,Oludit,Dierutin,Guatem,Voiorzz,Dienos,Seolino"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Jamaican Creole",
@@ -5698,7 +5698,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Usod,Guumi,Voetukl,Feil,Alalx,Olirosat,Seenmm,Guolinul,Koitot,Alugeron,Diorim,Vouler,Koesulss,Olaka,Diilotk,Guedw,Voonilos,Alisll,Olutetil,Seolet"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Jamaican Patois",
@@ -5707,7 +5707,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Mair,Diakos,Seiloto,Wieg,Voedil,Koonilxx,Olisen,Diutetn,Guolz,Voasarut,Alunrr,Olenurom,Seag,Guikogir,Koeses,Alodime,Diinal,Seuseww,Vooku,Koamanm"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Leeward Caribbean Creole English",
@@ -5716,7 +5716,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Seusom,Guegu,Koarir,Alitont,Zaes,Diele,Seomidkk,Voigww,Kourelus,Olotm,Dianatol,Guumit,Voetukin,Alalem,Oliroszz,Seenar,Guolins,Alugergg,Diortt,Seadagis"
+  "b": "Basseterre,Charlestown,Nevis,St. Kitts,Antigua,Barbuda,Montserrat,Anguilla,British Virgin Islands,Tortola,Virgin Gorda,Jost Van Dyke,Anegada,St. John,St. Thomas,St. Croix,Christiansted,Frederiksted,Road Town,Spanish Town,The Valley,St. George's,Basseterre,Charlestown,Nevis,St. Kitts,Antigua,Barbuda,Montserrat,Anguilla"
 },
 {
     "name": "Limonese Creole",
@@ -5725,7 +5725,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Orad,Zuur,Juos,Unik,Etes,Otan,Anun,Voota,Koanatk,Olumw,Dietukos,Gualll,Voirosil,Alenet,Ololinen,Seitam,Seunin,Guenurnn,Koazz"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Miskito Coast Creole",
@@ -5734,7 +5734,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Villa Nueva,Cordoba,Villa Carlos Paz,Victoria,Ushuaia,Tierra del Fuego,Trenque Lauquen,Santiago del Estero,Tartagal,Salta,Santa Rosa,La Pampa,Santa Lucía,Jujuy,San Rafael,Mendoza,San Martín de los Andes,San Martín,San Luis,San Francisco"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Montserrat Creole",
@@ -5743,7 +5743,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Vounen,Koenurn,Voalasar,Alusum,Searor,Guitontt,Koeli,Alomidl,Diigx,Seurelat,Vootmm,Koanatul,Olumot,Dietukon,Gualim,Voiros,Alener,Ololinss,Seita,Guugerk"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Papiamento",
@@ -5752,7 +5752,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guilotg,Koedt,Aloniles,Diiskk,Seutetal,Voolus,Koasaru,Olunol,Dienury,Guain,Voikognn,Aleszz,Olodimd,Seins,Guuseum,Kookgg,Alamanor,Diudis,Seeruti,Voatel"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Rama Cay Creole",
@@ -5761,7 +5761,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Salto,Rosario,Río Grande,Santa Cruz,Pergamino,Paraná,Olavarría,Lincoln,La Rioja,Junín,Jesús María,General Pinedo,Gálvez,Diamante,Carcarañá,Capitán Bermúdez,Cañada de Gómez,Caleta Olivia,Bell Ville,Bahía Blanca"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Saint Kitts Creole",
@@ -5770,7 +5770,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Seurelom,Vootg,Koanatir,Olumes,Dietuke,Gualal,Voirosww,Alenu,Ololinm,Seity,Guugerit,Koornn,Aladagem,Diuld,Seesular,Voakum,Oledor,Dioniltt,Guisi,Voutetl"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "San Andrés-Providencia Creole",
@@ -5779,7 +5779,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Alalaszz,Diusar,Seegus,Koitongg,Oleltt,Diomidis,Guigl,Vourelel,Alotat,Olanatan,Seumul,Guetukyy,Koalon,Alirosr,Seolindd,Voitss,Kougeras,Olork,Diadagur,Guulos"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Tobagonian Creole",
@@ -5788,7 +5788,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Loer,Waas,Goug,Olamanit,Seudnn,Guerutem,Koatd,Aliorar,Diemum,Seosis,Voiror,Kounektt,Oloi,Dialasl,Guusx,Voeguat,Alarmm,Olitonul,Seelot,Guomidon"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Trinidadian Creole",
@@ -5797,7 +5797,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Voamanat,Aludmm,Olerutul,Seatot,Guioron,Koemim,Diirer,Seetukg,Voalt,Koiroses,Olenkk,Diolinal,Guitus,Vougeru,Alorol,Oladagy"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Andi",
@@ -5806,7 +5806,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Orer,Zuas,Juug,Seelzz,Guomidd,Koigs,Alurelum,Diotgg,Seanator,Voumis,Koetuki,Olalel,Diirosx,Guenan,Voolinmm,Alityy,Olugerot,Guadagim,Kouldd,Alesuler"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Bezhta",
@@ -5815,7 +5815,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Koswshui,Uithphi,Mbueiedz,Nkeekwee,Tsoueist,Priolio,Phuuaafr,Gwouofl,Ooqoosp,Usnjua,Wuurndii,Twuembziu,Mounoup,Iyaugw,Auslidz,Oobrooph,Thuevniu,Twoumbous,Uapuah,Iaswzhoo"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Botlikh",
@@ -5824,7 +5824,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Koiron,Alunekr,Dio,Sealasdd,Vousss,Koeguas,Loik,Olark,Diitonur,Waes,Guelos,Voomido,Goan,Aligil,Olurelxx,Riun,Seoten,Guanatn,Caod,Koumz"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Kabardian",
@@ -5833,7 +5833,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Voudgg,Koerutor,Olatis,Diiori,Guemel,Voosisx,Aliran,Olunekmm,Seoyy,Gualasot,Kousr,Aleguim,Diardd,Seitoner,Voelas,Koomida,Oligur,Diurelw,Guoto,Voanatll"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Kaitag",
@@ -5842,7 +5842,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Seioret,Voemn,Koosisam,Olirut,Diunekun,Guoom,Alusir,Olegut,Seare,Guitonkk,Koelww,Alomidus,Diigm,Seurelol,Vootit,Koanatin,Olumem,Dietukzz,Gualar,Voiross"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Kubachi",
@@ -5851,7 +5851,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kroucouw,Ikhaun,Gruesmueg,Aubriph,Dosozh,Oogrooq,Udzspua,Iangnoo,Uatsuat,Uinkwi,Vueiew,Skeegee,Aidzspau,Dzozhfui,Pruuaah,Trouoth,Boubbe,Uslqua,Cuukpii,Dzuezhfiu"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Mingrelian",
@@ -5860,7 +5860,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Koair,Alikogt,Diese,Seodimkk,Voinww,Kouseus,Olokm,Diamanol,Guudit,Voerutin,Guanatdd,Koumss,Aletukas,Dialk,Seirosur,Voenos,Koolino,Olitil,Diugerxx,Guoren"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Proto-Georgian–Zan",
@@ -5869,7 +5869,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Mail,Wiet,Voadagn,Alulz,Olesulut,Seakrr,Guilotom,Koedg,Alonilir,Diises,Seutete,Voolal,Koasarww,Olunu,Dienurm,Guay,Voikogit,Alesnn"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Rutul",
@@ -5878,7 +5878,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Arroyo Seco,Arroyito,Arrecifes,Añatuya,Alta Gracia,Alderetes,Albardón,Aimogasta,Aguilares,Balvanera,Villa Santa Rita,Villa Mercedes,San Miguel,San Carlos de Bariloche,Adrogué,La Unión,Pago Pago,American Samoa,Austria,Wolfsberg"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Svan",
@@ -5887,7 +5887,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Seots,Guanatum,Koumgg,Aletukor,Dialis,Seirosi,Voenel,Koolinx,Olitan,Diugermm,Guoryy,Voadagot,Alulr,Olesulim,Seakdd,Guiloter,Koedas,Alonila,Niam,Diisur"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Tabasaran",
@@ -5896,7 +5896,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Olurelal,Seotus,Guanatu,Koumol,Aletuky,Dialin,Seirosnn,Voenzz,Koolind,Olits,Diugerum,Guorgg,Voadagor,Alulis,Olesuli,Seakel,Guilotx,Koedan,Alonilmm,Diisyy"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Tat",
@@ -5905,7 +5905,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Voudw,Koerutos,Olatll,Diioril,Guemet,Voosisen,Aliram,Olunekz,Seoun,Gualasrr,Alegug,Diart,Seitones,Voelkk,Koomidal,Oligus,Diurelu,Zuun,Guotol,Voanaty"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Tindi",
@@ -5914,7 +5914,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guosisy,Koirin,Aluneknn,Diozz,Sealasd,Vouss,Koeguum,Olargg,Diitonor,Guelis,Voomidi,Aligel,Olurelx"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Ubykh",
@@ -5923,7 +5923,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Seanatom,Bood,Voumg,Koetukir,Loil,Olales,Diirose,Waet,Guenal,Voolinww,Goal,Alitu,Olugerm,Rius,Seory,Guadagit,Caon,Koulnn,Alesulem,Diakd"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Pipil (Nawat)",
@@ -5932,7 +5932,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Koadagun,Olulom,Guakir,Voilott,Alede,Olonilkk,Seisww,Guutetus,Koolm,Alasarol,Diunit,Seenurin,Voaem,Koikogzz,Olesar,Diodims,Guin,Vousegg,Aloktt,Olamanis"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Sarikoli",
@@ -5941,7 +5941,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Olisxx,Diutetet,Guoln,Voasaram,Alunut,Olenurun,Seaom,Koesir,Alodimt,Diine,Seusekk,Vookww,Koamanus,Oludm,Dierutol,Guatit,Voiorin,Alemem,Olosiszz,Seirar"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Sogdian",
@@ -5950,7 +5950,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Diuseem,Guokd,Voamanar,Inom,Aludum,Seator,Guiortt,Koemi,Alosisl,Diirx,Seunekat,Voomm,Koalasul,Olusot,Dieguon,Guarim,Aleler,Olomidss,Seiga,Guurelk"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Wakhi",
@@ -5959,7 +5959,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Koirosg,Olent,Diolines,Guitkk,Vougeral,Alorus,Oladagu,Seulol,Guesuly,Koakin,Alilotnn,Diedzz,Seonild,Caas,Maug,Wiom,Hai,Olatas,Diiora,Ruen"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Big Flowery",
@@ -5968,7 +5968,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Alalor,Olirostt,Seeni,Guolinl,Koitx,Alugerat,Diormm,Seadagul,Voulot,Koesulon,Olakim,Gueder,Voonilss,Alisa,Olutetk,Seolw,Guasaros,Kounll,Alenuril,Diaet"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Gangwon Korean",
@@ -5977,7 +5977,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Wiener Neustadt,Vienna,Wels,Villach,Traun,Steyr,Sankt Pölten,Salzburg,Linz,Klagenfurt am Wörthersee,Innsbruck,Innere Stadt,Penzing,Hötting,Hohenems,Hietzing,Hernals,Graz,Fünfhaus,Floridsdorf"
+  "b": "Chuncheon,Wonju,Gangneung,Sokcho,Donghae,Samcheok,Taebaek,Hongcheon,Pyeongchang,Jeongseon,Hongcheon,Pyeongchang,Jeongseon,Hongcheon,Pyeongchang,Jeongseon,Hongcheon,Pyeongchang,Jeongseon,Hongcheon,Pyeongchang,Jeongseon,Hongcheon,Pyeongchang,Jeongseon"
 },
 {
     "name": "Gyeonggi / Seoul Korean",
@@ -5986,7 +5986,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guatul,Voioryy,Alemon,Olosisr,Guunekdd,Kooss,Alalasas,Diusk,Seeguur,Voaros,Koitono,Olelil,Diomidxx,Guigen,Voureln,Alotz,Olanatut"
+  "b": "Seoul,Incheon,Suwon,Seongnam,Bucheon,Anyang,Goyang,Gwangmyeong,Seongnam,Bucheon,Anyang,Goyang,Gwangmyeong,Seongnam,Bucheon,Anyang,Goyang,Gwangmyeong,Seongnam,Bucheon,Anyang,Goyang,Gwangmyeong,Seongnam,Bucheon,Anyang,Goyang,Gwangmyeong"
 },
 {
     "name": "Gyeongsang Korean",
@@ -5995,7 +5995,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kooon,Alalasr,Seegudd,Voarss,Koitonas,Olelk,Diomidur,Guigos,Vourelo,Alotil,Olanatxx"
+  "b": "Busan,Daegu,Ulsan,Changwon,Pohang,Gyeongju,Andong,Gumi,Changwon,Pohang,Gyeongju,Andong,Gumi,Changwon,Pohang,Gyeongju,Andong,Gumi,Changwon,Pohang,Gyeongju,Andong,Gumi,Changwon,Pohang,Gyeongju,Andong,Gumi"
 },
 {
     "name": "Hamgyŏng Korean",
@@ -6004,7 +6004,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Feldkirch,Essling,Eggenberg,Dornbirn,Bregenz,Bludenz,Baden,Aspern,Amstetten,Favoriten,Donaustadt,Jakomini,Lend,Geidorf,Sankt Leonhard,Scarborough,Australia,Western Australia,Rockingham,Perth"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
 },
 {
     "name": "Han (Samhan)",
@@ -6013,7 +6013,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guemur,Voosisw,Aliro,Olunekll,Ceur,Seoxx,Gualaset,Kousn,Aleguam,Diarut,Seitonun,Voelom,Oligir,Diurelt,Guote,Voanatkk,Alumww,Oletukus,Sealm,Guirosol"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Hm Nai",
@@ -6022,7 +6022,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Hiik,Diaram,Seitonz,Voelun,Koomidrr,Cuan,Diurelg,Muun,Guott,Voanates,Yeod,Alumkk,Oletukal,Huil,Sealus,Guirosu,Soet,Koenol,Deal,Neus"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Hmong macro entry",
@@ -6031,7 +6031,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Mount Isa,Queensland,Mount Barker,South Australia,Mandurah,Kalgoorlie,Geraldton,Darwin,Northern Territory,Busselton,Bunbury,Alice Springs,Albany,Adelaide,New South Wales,Warwick,Australian Capital Territory,Toowoomba,Thornbury,Tamworth"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Hmu",
@@ -6040,7 +6040,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guula,Voesulk,Piir,Alakw,Olilotos,Ateg,Seedll,Guonilil,Kuam,Koiset,Aluteten,Veut,Diolam,Seasarz,Fuol,Puit,Beer,Leas,Voug,Olirs"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Huishui",
@@ -6049,7 +6049,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Eni,Onen,Seitont,Voele,Koomidkk,Oligww,Diurelus,Guotm,Voanatol,Urod,Alumit,Oletukin,Fail,Sealem,Guiroszz,Koenar,Alolins,Seugergg,Voortt,Koadagis"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Hwanghae Korean",
@@ -6058,7 +6058,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Koolinl,Olitx,Diugerat,Guormm,Voadagul,Alulot,Olesulon,Seakim,Guilot,Guuserr,Alamang,Diudt,Seerutes,Voatkk,Koioral,Olemus,Diosisu,Guirol,Vouneky,Aloin"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
 },
 {
     "name": "Jeju",
@@ -6067,7 +6067,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Rour,Ceos,Guegug,Meik,Koart,Alitones,Woes,Dielkk,Seomidal,Hean,Voigus,Kourelu,Saun,Olotol,Dianaty,Cood,Guumin,Voetuknn,Alalzz,Olirosd"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Jeolla Korean",
@@ -6076,7 +6076,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Uashuadr,Dzuuzhfii,Koswokr,Aithphau,Uikhvi,Audzic,Zheephee,Poshtui,Pasha,Zodzlui,Tsaya,Snouokw,Smoueibr,Fueiets,Kroueism,Froueing,Feechee,Fuuchtsii,Dueskhiu,Oonooy"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
 },
 {
     "name": "Jiaoliao Mandarin",
@@ -6085,7 +6085,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Sydney,Seaford,Richmond,Preston,Orange,Newcastle,Miranda,Mildura,Melbourne,Liverpool,Launceston,Tasmania,Lara,Kogarah,Keysborough,Kew,Kensington,Horsham,Hornsby,Hobart"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
 },
 {
     "name": "Jilu Mandarin",
@@ -6094,7 +6094,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Diomidt,Guige,Vourelkk,Alotww,Olanatus,Seumm,Guetukol,Koalit,Alirosin,Dienem,Seolinzz,Voitar,Kougers,Diadaggg,Guultt,Voesulis,Alakl,Olilotel,Seedat,Guonilan"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
 },
 {
     "name": "Kiong Nai",
@@ -6103,7 +6103,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Alirun,Olunekrr,Gualasg,Koust,Alegues,Diarkk,Seitonal,Juod,Unil,Etet,Otal,Anus,Keon,Usir,Feeg,Seisdd"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Luobohe",
@@ -6112,7 +6112,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Hawthorn South,Hawthorn,Hampton Park,Gympie,Griffith,Greenvale,Greensborough,Granville,Grafton,Goulburn,Gold Coast,Glen Waverley,Glenroy,Glen Iris,Glenferrie,Gladstone,Geelong,Frankston East,Dubbo,Doncaster"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Mahan Korean",
@@ -6121,7 +6121,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Koitondd,Olelss,Diomidas,Guigk,Vourelur,Alotos,Olanato,Seumil,Guetukxx,Koalen,Alirosn,Dienz,Seolinut,Voitrr,Kougerom,Yous,Olorg,Diadagir,Iron,Guules"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
 },
 {
     "name": "Maojia",
@@ -6130,7 +6130,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Croydon,Cranbourne,Craigieburn,Corio,Coorparoo,Coogee,Coffs Harbour,Coburg,Clayton,Wollongong,Chatswood,Cessnock,Caulfield North,Castle Hill,Carrum Downs,Carnegie,Carlton,Carlingford,Capalaba,Canberra"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Mashan",
@@ -6139,7 +6139,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Koesulir,Olakes,Diilote,Guedal,Voonilww,Alisu,Olutetm,Seoly,Guasarit,Kounnn,Alenurem,Seikogar,Voesum,Olinor,Diusett,Guoki,Voamanl,Aludx,Olerutat,Seatmm"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Middle Korean",
@@ -6148,7 +6148,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Voesyy,Koodimot,Olinr,Diuseim,Diumm,Seetukol,Voalit,Koirosin,Olenem,Diolinzz,Guitar,Vougers,Oladaggg,Seultt,Guesulis,Koakl,Alilotel"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
 },
 {
     "name": "Mo Piu",
@@ -6157,7 +6157,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Kawasaki,Sendai"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Modern Korean",
@@ -6166,7 +6166,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Seosisel,Voirat,Kounekan,Oloul,Dialasyy,Guuson,Voegur,Olitondd,Ries,Seelss,Guomidas,Caan,Koigk,Alurelur,Diotos,Seanato,Wiod,Voumil,Koetukxx,Ruet"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
 },
 {
     "name": "Munhwaŏ (Standard North Korean)",
@@ -6175,7 +6175,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Monop,Uindnki,Aundimb,Ngounkmbe,Tsueyueh,Oomoots,Twouoz,Guundspii,Swiothio,Proueih,Brouov,Sweethee,Zoidzoi,Yanga,Nawa,Aisnjau,Uikwri,Zhueiech,Indaumb,Yeengee"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
 },
 {
     "name": "Ná-Meo",
@@ -6184,7 +6184,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Gualol,Voirosy,Alenin,Ololinnn,Seitzz,Guugerd,Koors,Aladagum,Diulgg,Seesulor,Voakis,Koiloti,Oledel,Dionilx,Guisan,Voutetmm,Alolyy,Olasarot,Seunr,Guenurim"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Nao Klao",
@@ -6193,7 +6193,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Voedar,Koonils,Diutetgg,Guoltt,Voasaris,Alunl,Olenurel,Seaat,Guikogan,Koesul,Alodimyy,Diinon,Koamandd,Oludss,Dierutas,Guatk,Voiorur,Alemos,Olosiso,Seiril"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "North Korean",
@@ -6202,7 +6202,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Koorl,Aladagel,Diulat,Seesulan,Voakul,Koilotyy,Oledon,Dionilr,Voutetdd,Alolss,Olasaras,Seunk,Guenurur,Koaos,Alikogo,Diesil,Seodimxx,Voinen,Kousen,Olokz"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
 },
 {
     "name": "Northern Min",
@@ -6211,7 +6211,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Alugerk,Diorw,Seadagos,Voulll,Koesulil,Olaket,Diiloten,Guedam,Voonilz,Alisun,Olutetrr,Guasarg,Kount,Alenures,Seikogal,Voesus,Koodimu"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Numao",
@@ -6220,7 +6220,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Punchbowl,Parafield Gardens,Hillside,St Clair,Kirwan,Bundoora,Forest Lake,Sunnybank Hills,Rochedale South,Keilor East,Cranbourne East,Cranbourne North,Cranbourne West,San Nicolas,Azerbaijan,Şuşa,Salyan,Nakhchivan,Lankaran,Shirvan"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Old Korean",
@@ -6229,7 +6229,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Oledas,Dionila,Guisur,Voutetw,Alolo,Olasarll,Seunxx,Guenuret,Alikogam,Diesut,Seodimun,Voinom,Kouse,Olokir,Diamant,Guude,Voerutkk,Alatww,Oliorus,Seemm"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
 },
 {
     "name": "Pa Na",
@@ -6238,7 +6238,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guegum,Koary,Alitonit,Dielnn,Seomidem,Voigd,Kourelar,Olotum,Dianat,Guumor,Voetuktt,Alali,Olirosl,Seenx,Guolinat,Koitmm,Alugerul,Diorot,Seadagon,Voulim"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Pa-Hng",
@@ -6247,7 +6247,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Diitz,Seugerut,Voorrr,Koadagom,Olulg,Diesulir,Guerutat,Koatmm,Aliorul,Diemot,Seosison,Voirim,Kounek,Oloer,Dialasss,Guusa,Voeguk,Alarw,Olitonos,Seelll"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Pingtang",
@@ -6256,7 +6256,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Alindd,Oluseer,Seokas,Guamana,Olumit,Dietukin,Gualem,Voiroszz,Ciet,Mial"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Proto-Hmong-Mien",
@@ -6265,7 +6265,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Heom,Voudar,Koeruts,Sai,Olat,Diiorgg,Guemtt,Voosisis,Moad,Alirl,Olunekel"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Proto-Hmongic",
@@ -6274,7 +6274,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Shamakhi,Quba,Mingachevir,Ganja,Barda,Baku,Zenica,Bosnia and Herzegovina,Visoko,Tuzla,Trebinje,Sarajevo,Prijedor,Mostar,Lukavac,Gradačac,Gračanica,Goražde,Doboj,Cazin"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Proto-Koreanic",
@@ -6283,7 +6283,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bugojno,Brčko,Bosanska Krupa,Bijeljina,Bihać,Banja Luka,Konjic,Bridgetown,Saint Michael,Bangladesh,Teknāf,Chittagong,Sylhet,Sunāmganj,Jamālpur,Sātkhira,Sirajganj,Sandwīp,Rajshahi,Pirojpur"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
 },
 {
     "name": "Proto-Mienic",
@@ -6292,7 +6292,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Patiya,Narayanganj,Mymensingh,Comilla,Rangpur,Kushtia,Habiganj,Feni,Rāipur,Dhaka,Khagrachhari,Bāndarban,Bagerhat,Narail,Lakshmīpur,Gazipur,Farīdpur,Dinajpur,Chāndpur,Bera"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Pu–Xian Min",
@@ -6301,7 +6301,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Voitu,Kougerm,Olory,Diadagit,Guulnn,Voesulem,Alakd,Olilotar,Seedum,Guonil,Koisor,Alutettt,Dioli,Seasarl,Vounx,Koenurat,Olamm,Diikogul,Guesot,Voodimon"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Puyŏ",
@@ -6310,7 +6310,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Dienu,Seolinm,Voity,Kougerit,Olornn,Diadagem,Guuld,Voesular,Alakum,Seedor,Guoniltt,Koisi,Alutetl,Diolx,Seasarat,Vounmm,Koenurul,Olaot,Diikogon,Guesim"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Pyojuneo (Standard Korean)",
@@ -6319,7 +6319,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Sātkania,Cox’s Bāzār,Khulna,Bhola,Rangamati,Jessore,Brāhmanbāria,Pābna,Tangail,Bogra,Nawābganj,Sherpur,Hāthazāri,Manikchari,Patuakhali,Karnaphuli,Belgium,Waterloo,Waregem,Walcourt"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
 },
 {
     "name": "Pyongan Korean",
@@ -6328,7 +6328,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guorol,Voadagy,Alulin,Olesulnn,Seakzz,Guilotd,Koeds,Alonilum,Diisgg,Seutetor,Yuut,Voolis,Koasari,Isol,Teit"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
 },
 {
     "name": "Raojia",
@@ -6337,7 +6337,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Oligr,Diurelim,Guotdd,Voanater,Alumas,Oletuka,Sealur,Guirosw,Koeno,Alolinll,Diitxx,Seugeret,Voorn,Koadagam,Olulut,Diesulun,Guakom,Aledir,Olonilt,Seise"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Sanqiao",
@@ -6346,7 +6346,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Voelu,Koomidm,Wean,Oligy,Diurelit,Guotnn,Voanatem,Alumd,Oletukar,Sealum,Seenuros,Koikogil,Oleset,Diodimen,Guinam,Vousez,Alokun,Olamanrr,Seud,Guerutg"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Shanghainese",
@@ -6355,7 +6355,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Diedal,Seonilww,Voisu,Koutetm,Ololy,Diasarit,Guunnn,Voenurem,Olikogar,Seesum,Guodim,Koinor,Alusett,Dioki,Seamanl,Voudx,Koerutat,Olatmm,Guirosg"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Shao–Jiang Min",
@@ -6364,7 +6364,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Voalo,Koirosll,Olenxx,Diolinet,Guitn,Vougeram,Alorut,Oladagun,Seulom,Koakir,Alilott,Diede,Seonilkk,Voisww,Koutetus,Orut,Ololm,Diasarol,Zuol,Guunit"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "She",
@@ -6373,7 +6373,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Hieg,Koutetll,Cuut,Ololxx,Diasaret,Muol,Guunn,Voenuram,Yeit,Alaut,Olikogun,Huer,Seesom,Soas,Koinir,Deug,Dioke,Seamankk,Neom,Voudww"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "She Chinese",
@@ -6382,7 +6382,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Seutetm,Vooly,Koasarit,Olunnn,Dienurem,Voikogar,Alesum,Seinor,Guusett,Kooki,Alamanl,Diudx,Seerutat,Voatmm,Koiorul,Olemot,Diosison,Guirim,Vounek,Aloer"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
 },
 {
     "name": "Silla Korean",
@@ -6391,7 +6391,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guomidk,Koigw,Alurelos,Diotll,Seanatil,Voumet,Koetuken,Olalam,Diirosz,Guenun,Voolinrr,Olugerg,Seort,Guadages,Koulkk,Alesulal,Diakus,Seilotu,Voedol,Koonily"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
 },
 {
     "name": "Small Flowery",
@@ -6400,7 +6400,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Seiru,Guunekm,Kooy,Alalasit,Diusnn,Seeguem,Voard,Koitonar,Olelum,Guigor,Voureltt,Aloti,Olanatl,Seumx,Guetukat,Koalmm,Alirosul,Dienot,Seolinon,Voitim"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "South Korean",
@@ -6409,7 +6409,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Seox,Gualasat,Kousmm,Aleguul,Diarot,Seitonon,Lues,Voelim,Oliger,Diurelss,Guota,Voanatk,Alumw,Oletukos,Sealll,Guirosil,Koenet,Alolinen"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
 },
 {
     "name": "Southern Min",
@@ -6418,7 +6418,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Oladagl,Seulx,Guesulat,Koakmm,Alilotul,Diedot,Seonilon,Voisim,Ololer,Diasarss,Guuna,Voenurk,Alaw,Olikogos,Seesll,Guodimil,Koinet,Aluseen,Diokam,Seamanz"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Suzhounese",
@@ -6427,7 +6427,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Verviers,Tournai,Tongeren,Tielt,Soignies,Sint-Niklaas,Seraing,Roeselare,Poperinge,Ostend,Nivelles,Namur,Mons,Menen,Mechelen,Marcinelle,Marchienne-au-Pont,Marche-en-Famenne,Lille,Liège"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Taiwanese Mandarin",
@@ -6436,7 +6436,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Dioldd,Seasarer,Vounas,Koenura,Olaur,Diikogw,Gueso,Voodimll,Alinxx,Oluseet,Seokn,Guamanam,Koudut,Alerutun"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
 },
 {
     "name": "Wenzhounese",
@@ -6445,7 +6445,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Alelal,Olomidww,Seigu,Guurelm,Kooty,Alanatit,Diumnn,Seetukem,Voald,Koirosar,Olenum,Guitor,Vougertt,Cius,Alori,Mion,Wuir,Voudun,Koerutrr,Yoi"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Xixiu",
@@ -6454,7 +6454,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Aliga,Olurelk,Seotw,Guanatos,Koumll,Aletukil,Dialet,Seirosen,Voenam,Koolinz,Olitun,Diugerrr,Voadagg,Alult,Olesules,Seakkk,Guilotal,Koedus,Alonilu,Diisol"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Xong",
@@ -6463,7 +6463,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Olunekes,Riur,Seokk,Gualasal,Kousus,Aleguu,Diarol,Seitony,Voelin,Koomidnn,Oligzz,Diureld,Guots,Voanatum,Alumgg,Oletukor,Sealis,Guirosi,Wuet,Koenel"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Yangchun Pai Yao",
@@ -6472,7 +6472,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Voigk,Kourelur,Olotos,Dianato,Guumil,Voetukxx,Alalen,Olirosn,Seenz,Guolinut,Koitrr,Alugerom,Diorg,Seadagir,Voules,Koesule,Olakal,Diilotww,Guedu,Voonilm"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Ye-Maek",
@@ -6481,7 +6481,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Seesulun,Voakom,Oledir,Dionilt,Guise,Voutetkk,Alolww,Olasarus,Seunm,Guenurol,Koait,Alikogin,Diesem,Seodimzz,Voinar,Kouses,Diamangg,Poom,Guudtt,Voerutis"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Yeheni",
@@ -6490,7 +6490,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Leuven,La Louvière,Kortrijk,Jumet,Ieper,Huy,Hoboken,Hasselt,Genk,Forest,Fleurus,Diksmuide,Courcelles,Charleroi,Ath,Asse,Arlon,Ans,Aalst,Zorgo"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Yeongdong Korean",
@@ -6499,7 +6499,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guuteter,Koolas,Alasara,Diunur,Seenurw,Voao,Koikogll,Olesxx,Diodimet,Guinn,Vouseam,Alokut,Olamanun,Seudom,Koatir,Aliort,Dieme,Seosiskk,Voirww,Kounekus"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
 },
 {
     "name": "Yeongseo Korean",
@@ -6508,7 +6508,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Diaon,Seikogr,Koodimdd,Olinss,Diuseas,Guokk,Voamanur,Aludos,Oleruto,Seatil,Guiorxx,Koemen,Alosisn,Diirz,Seunekut,Voorr,Koalasom,Olusg,Dieguir,Guares"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
 },
 {
     "name": "Younian",
@@ -6517,7 +6517,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Tui,Dietukal,Gualus,Voirosu,Alenol,Ololiny,Guugernn,Koorzz,Aladagd,Diuls,Seesulum,Voakgg,Koilotor,Oledis,Dionili,Guisel,Voutetx,Alolan,Olasarmm"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Younuo",
@@ -6526,7 +6526,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Diitel,Seugerx,Vooran,Koadagmm,Olulyy,Diesulot,Guakr,Voilotim,Aleddd,Oloniler,Seisas,Guuteta,Koolur,Alasarw,Diuno,Seenurll,Voaxx,Koikoget,Olesn,Diodimam"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Yukjin Korean",
@@ -6535,7 +6535,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Olosisel,Seirat,Guunekan,Kooul,Alalasyy,Diuson,Seegur,Voesule,Alakal,Olilotww,Seedu,Guonilm,Koisy,Alutetit,Diolnn,Seasarem"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
 },
 {
     "name": "Zainichi Korean",
@@ -6544,7 +6544,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Dout,Nool,Zait,Guoket,Voamanen,Aludam,Olerutz,Seatun,Guiorrr,Alosisg,Diirt,Seunekes,Vookk"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
 },
 {
     "name": "Almosan",
@@ -6553,7 +6553,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Gwuuaafl,Smopbrui,Zoudzousn,Swoithoi,Ianttwoo,Uaguatw,Youngtwe,Pueshtiu,Autsit,Ausniw,Sleetree,Nduugruusk,Brotosl,Iastoo,Worndui,Thouvouk,Gwoskflui,Zuedzliu,Uiqndi,Goueisp"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Bjarmian Sámi",
@@ -6562,7 +6562,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Koetuknn,Olalzz,Diirosd,Guens,Voolinum,Alitgg,Olugeror,Seoris,Guadagi,Koulel,Alesulx,Diakan,Seilotmm,Voedyy,Koonilot,Olisr,Diutetim,Guoldd,Voasarer,Alunas"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Cingali",
@@ -6571,7 +6571,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Dieln,Seomidam,Voigut,Kourelun,Olotom,Guumir,Voetukt,Alale,Oliroskk,Seenww,Guolinus,Koitm,Alugerol,Diorit,Seadagin,Voulem,Koesulzz,Olakar,Diilots,Voonilgg"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Csángó",
@@ -6580,7 +6580,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Uakual,Nkoukwouy,Krocsmui,Truubrthii,Nduegruesk,Thueien,Uiphtri,Frouong,Tsouyste,Ukwrua,Iaqndoo,Tougwje,Zuedzuesn,Aungisk,Autwifl,Aikdzau,Thouvne,Worom,Iadrpoo,Froikhoi"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Dené-Yeniseian",
@@ -6589,7 +6589,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Diigis,Seureli,Vootel,Koanatx,Oluman,Dietukmm,Gualyy,Voirosot,Alenr,Ololinim,Seitdd,Guugerer,Kooras,Aladaga,Diulur,Seesulw,Voako,Koilotll,Oledxx,Dionilet"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Jåkkåkaska",
@@ -6598,7 +6598,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kouserr,Diamang,Guudt,Voerutes,Alatkk,Olioral,Seemus,Guosisu,Kouman,Aletukmm,Dialyy,Seirosot,Voenr,Koolinim"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Jällivaara",
@@ -6607,7 +6607,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Beir,Guakim,Leeg,Aleder,Olonilss,Seisa,Guutetk,Geut,Koolw,Alasaros,Raol,Diunll,Seenuril,Boit,Voaet,Koikogen,Olesam,Diodimz,Guinun,Vouserr"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Jugan",
@@ -6616,7 +6616,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guolem,Voasarzz,Alunar,Olenurs,Guikoggg,Koestt,Alodimis,Diinl,Seuseel,Vookat,Koamanan,Oludul,Dierutyy,Guaton,Voiorr,Taen,Olosisdd,Doad,Seirss,Guunekas"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Jukonda",
@@ -6625,7 +6625,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Diadagar,Guulum,Alakor,Olilottt,Seedi,Guonill,Koisx,Alutetat,Diolmm,Seasarul,Vounot,Koenuron,Olaim,Diikog,Gueser,Voodimss,Alina,Olusek,Seokw,Guamanos"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Kainuu",
@@ -6634,7 +6634,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Diulum,Kousek,Olokw,Diamanos,Guudll,Voerutil,Alatet,Olioren,Seemam,Guosisz"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Kamassian proper",
@@ -6643,7 +6643,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Seitl,Guugerel,Koorat,Aladagan,Diulul,Seesulyy,Voakon,Koilotr,Dionildd,Guisss,Voutetas,Alolk,Olasarur,Seunos,Guenuro,Koail,Alikogxx,Diesen,Seodimn,Voinz"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Kazym",
@@ -6652,7 +6652,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Dioat,Sealasan,Vousul,Koeguyy,Olaron,Diitonr,Guel,Voomiddd,Aligss,Olurelas,Seotk,Guanatur,Koumos,Aletuko,Dialil,Seirosxx,Voenen,Koolinn,Olitz,Diugerut"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Kiknur",
@@ -6661,7 +6661,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Olunekil,Seoet,Gualasen,Kousam,Aleguz,Diarun,Seitonrr,Voel,Koomidg,Oligt,Diureles,Guotkk,Voanatal,Alumus,Oletuku,Sealol,Guirosy,Koenin,Alolinnn,Diitzz"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Komi-Yodzyak",
@@ -6670,7 +6670,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Olilotem,Seedd,Guonilar,Koisum,Alutet,Diolor,Seasartt,Vouni,Koenurl,Olax,Diikogat,Guesmm,Voodimul,Alinot,Oluseon,Seokim,Kouder,Alerutss,Diata,Seiork"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Komi-Zyryan",
@@ -6679,7 +6679,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guesel,Voodimx,Alinan,Olusemm,Seokyy,Guamanot,Koudr,Alerutim,Diatdd,Seiorer,Voemas,Koosisa,Olirur,Diunekw,Guoo,Voalasll,Alusxx,Oleguet,Searn,Guitonam"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Kosa-Kama",
@@ -6688,7 +6688,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Koow,Alalasos,Diusll,Seeguil,Voaret,Koitonen,Olelam,Diomidz,Guulzz,Voesuld,Alaks,Olilotum,Seedgg,Guonilor,Koisis,Aluteti,Diolel,Seasarx,Vounan,Koenurmm"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Kozymodemyan",
@@ -6697,7 +6697,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Alesmm,Olodimul,Seinot,Guuseon,Kookim,Alaman,Diuder,Seerutss,Voata,Koiork,Olemw,Diosisos,Guirll,Vounekil,Aloet,Olalasen,Seenin,Guolinnn,Koitzz,Alugerd"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Kuuďärv Ludic",
@@ -6706,7 +6706,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Diudon,Seerutr,Koiordd,Olemss,Diosisas,Guirk,Vounekur,Aloos,Olalaso,Seusil,Gueguxx,Koaren,Alitonn,Dielz,Seomidut,Voigrr,Kourelom,Olotg,Dianatir,Guumes"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Likrisovskoe",
@@ -6715,7 +6715,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Burkina Faso,Ziniaré,Tougan,Toma,Tenkodogo,Solenzo,Sapouy,Réo,Ouahigouya,Ouagadougou,Orodara,Niangoloko,Manga,Léo,Koupéla,Koudougou,Kaya,Houndé,Gayéri,Garango"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Lipsha",
@@ -6724,7 +6724,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Voinil,Kousexx,Oloken,Diamann,Guudz,Voerutut,Alatrr,Oliorom,Seemg,Guosisir,Koires,Aluneke,Dioal,Sealasww,Toos,Vousu,Koegum,Enik,Olary,Diitonit"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Lower Demjanka",
@@ -6733,7 +6733,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Koesulis,Olakl,Diilotel,Guedat,Voonilan,Alisul,Olutetyy,Seolon,Guasarr,Alenurdd,Diass,Seikogas,Voesk,Koodimur,Olinos,Diuseo,Guokil,Voamanxx,Aluden,Olerutn"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Lower Konda",
@@ -6742,7 +6742,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Diitona,Guelur,Voomidw,Aligo,Olurelll,Seotxx,Guanatet,Koumn,Aletukam,Dialut,Seirosun,Voenom,Olitir,Diugert,Guore,Voadagkk,Alulww,Olesulus,Seakm,Guilotol"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Lower Lozva",
@@ -6751,7 +6751,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Alodimdd,Diinss,Seuseas,Koamanur,Oludos,Dieruto,Guatil,Voiorxx,Vuen,Giad,Reur,Buos,Luik,Wees,Guan,Aloty,Olanatit,Seumnn,Guetukem,Koald"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Lower Luga",
@@ -6760,7 +6760,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Wuit,Hier,Cuug,Muom,Huen,Guosisol,Soad,Koirit,Alunekin,Deur,Dioem,Sealaszz,Neos,Vousar,Koegus,Yoik,Diitongg,Ires,Gueltt,Voomidis"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Lower Vychegda",
@@ -6769,7 +6769,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ceekee,Twuumbuus,Umchua,Oomboont,Uswzhua,Fouots,Kwapra,Duesuezh,Breetee,Aixflau,Aucipr,Khoueink,Yuuaatw,Ulcua,Oospooz,Flueiekr,Cuukuur,Heedree,Juuaar,Uidbri"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Ludza",
@@ -6778,7 +6778,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guend,Koesw,Alodimos,Diinll,Seuseil,Vooket,Koamanen,Oludam,Dierutz,Guatun,Voiorrr,Olosisg,Seirt,Guunekes,Alalasal,Diusus,Seeguu,Voarol,Koitony"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Luokta-Mávas",
@@ -6787,7 +6787,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Alaas,Olikoga,Suer,Dias,Niug,Yuom,Isi,Teen,Duad,Nuur,Zeos"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Luza-Letka",
@@ -6796,7 +6796,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Alarit,Olitonin,Seelem,Guomidzz,Koigar,Alurels,Seanatgg,Voumtt,Koetukis,Diirosel,Guenat,Voolinan,Alitul,Olugeryy,Seoron,Guadagr,Alesuldd,Diakss,Seilotas,Voedk"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Merya",
@@ -6805,7 +6805,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Olismm,Diutetul,Guolot,Voasaron,Alunim,Seaer,Guikogss,Koesa,Alodimk,Diinw,Seuseos,Vookll,Koamanil,Utom,Oludet,Dieruten,Fii,Guatam,Voiorz,Pien"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Meshcherian",
@@ -6814,7 +6814,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Seale,Guiroskk,Koenww,Alolinus,Diitm,Seugerol,Voorit,Koadagin,Olulem,Diesulzz,Ruir,Guakar,Voilots,Aled,Olonilgg,Seistt,Guutetis,Kooll,Alasarel,Diunat"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Middle Botnian",
@@ -6823,7 +6823,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Keol,Usit,Olalasnn,Seuszz,Guegud,Koars,Alitonum,Dielgg,Seomidor,Voigis,Koureli,Olotel,Dianatx,Guuman,Voetukmm,Alalyy,Olirosot,Seenr,Guolinim,Koitdd"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Middle Konda",
@@ -6832,7 +6832,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Olalgg,Diirosor,Elet,Guenis,Voolini,Olal,Alitel,Olugerx,Zius,Seoran,Guadagmm,Koulyy,Alesulot,Diakr,Seilotim,Voeddd,Kooniler,Olisas,Diuteta,Guolur"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Middle Lozva",
@@ -6841,7 +6841,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Voinot,Kouseon,Olokim,Diaman,Guuder,Voerutss,Oliork,Seemw,Guosisos,Koirll,Alunekil,Dioet,Sealasen,Vousam,Koeguz,Olarun,Diitonrr,Voomidg,Aligt,Olureles"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Mulgi",
@@ -6850,7 +6850,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Seugerun,Voorom,Koadag,Olulir,Diesult,Guake,Voilotkk,Dueg,Aledww,Olonilus,Nuam,Seism,Guutetol,Zeut,Koolit,Alasarin,Jeol,Diunem,Seenurzz,Toit"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Muromian",
@@ -6859,7 +6859,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Gao,Fada N'gourma,Sahel,Diapaga,Dédougou,Boussé,Boulsa,Boromo,Bogandé,Bobo-Dioulasso,Banfora,Bama,Yambol,Bulgaria,Vratsa,Vidin,Pazardzhik,Veliko Tarnovo,Varna,Targovishte"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Mysy",
@@ -6868,7 +6868,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Diisun,Seutetrr,Koasarg,Olunt,Dienures,Voikogal,Alesus,Olodimu,Seinol,Guusey,Kookin,Alamannn,Diudzz,Seerutd,Voats,Voigdd,Koureler,Olotas,Dianata,Guumur"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Nerdva",
@@ -6877,7 +6877,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guumd,Voetukar,Alalum,Seenor,Guolintt,Koiti,Alugerl,Diorx,Seadagat,Voulmm,Koesulul,Olakot,Diiloton,Guedim,Aliser,Olutetss,Seola,Guasark,Kounw,Alenuros"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "North Vagilsk",
@@ -6886,7 +6886,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lovech,Dobrich,Svishtov,Haskovo,Stara Zagora,Kyustendil,Sofia,Smolyan,Sliven,Silistra,Shumen,Sevlievo,Gabrovo,Sandanski,Blagoevgrad,Ruse,Razgrad,Plovdiv,Pleven,Pernik"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Northeast Hungary",
@@ -6895,7 +6895,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Koenit,Alolinin,Diitem,Seugerzz,Voorar,Koadags,Diesulgg,Guaktt,Voilotis,Aledl,Olonilel,Seisat,Guutetan,Koolul,Alasaryy,Diunon,Seenurr,Koikogdd,Olesss,Diodimas"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Northeastern coastal Estonian",
@@ -6904,7 +6904,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Aliret,Alumol,Oletuky,Sealin,Guirosnn,Koenzz,Alolind,Veal,Diits,Seugerum,Voorgg,Koadagor,Olulis,Diesuli,Guakel,Voilotx,Aledan,Olonilmm,Seisyy,Guutetot"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Northern Botnian",
@@ -6913,7 +6913,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Panagyurishte,Montana,Kardzhali,Kazanlak,Burgas,Gotse Delchev,Dimitrovgrad,Botevgrad,Asenovgrad,Bahrain,Manama,Madīnat Ḩamad,Northern,Al Muharraq,Muharraq,Burundi,Bururi,Rumonge,Bujumbura,Gitega"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Northern Ludic",
@@ -6922,7 +6922,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Cankuzo,Bubanza,Mpanda,Cibitoke,Ngozi,Kayanza,Kirundo,Benin,Toviklin,Tchaourou,Sinendé,Ségbana,Savé,Sakété,Plateau,Porto-Novo,Parakou,Zou,Ouidah,Nikki"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Northern Savonian",
@@ -6931,7 +6931,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Shoueigw,Uisnji,Houeid,Zhoiphoi,Lafa,Kruuaasm,Ngeenkee,Aiswzhau,Flouokr,Gueiesp,Nkoukwqe,Phueiefr,Poushte,Swuethmiu,Qoumpoutw,Uaskuast,Mpouhoumb,Auphisw,Aifkau,Mbuuquust"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Northern Veps",
@@ -6940,7 +6940,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guosisww,Koiru,Alunekm,Dioy,Sealasit,Vousnn,Koeguem,Olard,Diitonar,Guelum,Aligor,Olureltt,Seoti,Guanatl,Koumx,Aletukat,Dialmm,Seirosul,Voenot,Koolinon"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Ob Mansi",
@@ -6949,7 +6949,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Olatt,Diiores,Guemkk,Voosisal,Alirus,Oluneku,Seool,Gualasy,Geos,Kousin,Alegunn,Diarzz,Seitond,Voels,Koomidum,Oliggg,Diurelor,Guotis,Voanati,Alumel"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Obdorsk",
@@ -6958,7 +6958,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Olitel,Diugerx,Guoran,Voadagmm,Alulyy,Olesulot,Seakr,Guilotim,Koeddd,Aloniler,Diisas,Seuteta,Voolur,Koasarw,Oluno,Dienurll,Guaxx,Voikoget,Alesn,Olodimam"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Old Hungarian",
@@ -6967,7 +6967,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Olunal,Dienurww,Guau,Voikogm,Alesy,Olodimit,Seinnn,Guuseem,Kookd,Alamanar,Wuik,Hies,Sean,Cuun,Dianatos,Muod,Guumll,Voetukil,Yeil,Alalet"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Old Komi",
@@ -6976,7 +6976,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Olumin,Dietuknn,Gualzz,Voirosd,Alens,Ololinum,Seitgg,Guugeror,Kooris,Aladagi,Diulel,Seesulx,Voakan,Koilotmm,Oledyy,Dionilot,Guisr,Voutetim,Aloldd,Olasarer"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "On",
@@ -6985,7 +6985,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Olusis,Diegui,Guarel,Voitonx,Alelan,Olomidmm,Seigyy,Guurelot,Kootr,Alanatim,Diumdd,Seetuker,Koirosa,Diolinw,Guito,Vougerll,Alorxx,Oladaget,Seuln,Guesulam"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Orodezhi",
@@ -6994,7 +6994,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Koesuls,Diilotgg,Guedtt,Voonilis,Alisl,Olutetel,Seolat,Guasaran,Kounul,Alenuryy,Beug,Leom,Raad,Bour,Waik,Voitone"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Päijänne Tavastia",
@@ -7003,7 +7003,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guumon,Voetukr,Olirosdd,Seenss,Guolinas,Koitk,Alugerur,Dioros,Seadago,Voulil,Koesulxx,Olaken,Diilotn,Guedz,Voonilut,Alisrr,Olutetom,Seolg,Guasarir,Kounes"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Pechora",
@@ -7012,7 +7012,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ixaur,Sneexee,Gwioskio,Gwouskfle,Pouot,Kruucsmii,Zhuephuez,Phoudfre,Mpuehphiu,Xoueipr,Joflrui,Smiopio,Diosio,Iphausw,Iagwtsoo,Nkuukwqii,Youotw,Kouswshe,Uimchi,Broutve"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Pelym",
@@ -7021,7 +7021,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Seesam,Guodimz,Koinun,Aluserr,Diok,Seamang,Voudt,Koerutes,Olatkk,Diioral,Guemus,Voosisu,Alirol,Oluneky,Seoin,Sealyy,Guirosot,Koenr,Alolinim,Diitdd"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Pim",
@@ -7030,7 +7030,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Alosisit,Diirnn,Seunekem,Koalasar,Olusum,Guaror,Voitontt,Aleli,Olomidl,Seigx,Guurelat,Kootmm,Alanatul,Diumot,Seetukon,Voalim,Koiros,Olener,Voenures,Alakk"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Pite Sami",
@@ -7039,7 +7039,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Jofloth,Iatdroo,Phueduedz,Nouwge,Xouopr,Ngionkio,Gruusmtrii,Deesee,Ntouspouj,Uanuay,Uantuax,Houdrouq,Zhouoch,Luufdrii,Bueieb,Choufroul,Rouogr,Houdrde,Uahuatr,Iadzspoo"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Porvoo",
@@ -7048,7 +7048,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Seunas,Guenura,Koaur,Alikogw,Dieso,Seodimll,Voinxx,Kouseet,Olokn,Diamanam,Guudut,Voerutun,Alatom,Seemir,Guosist,Koire,Alunekkk,Dioww,Sealasus,Vousm"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Proto-Hungarian",
@@ -7057,7 +7057,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ndali,Lokossa,Kouandé,Kandi,Kalalé,Ekpé,Dogbo,Donga,Cotonou,Bembèrèkè,Banikoara,Athiémé,Aplahoué,Allada,Adjarra,Abomey,Klouékanmè,Hamilton,Tutong,Seria"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Proto-Mordvinic",
@@ -7066,7 +7066,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Nios,Yuik,Ises,Tean,Duun,Olorz,Diadagut,Guulrr,Voesulom,Joeg,Ulam,Esut,Osol,Alinum,Oluse"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Ruija",
@@ -7075,7 +7075,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Koigim,Alurel,Dioter,Seanatss,Vouma,Koetukk,Olalw,Diirosos,Guenll,Voolinil,Alitet,Olugeren,Seoram,Guadagz,Koulun,Alesulrr,Seilotg,Voedt,Kooniles,Oliskk"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Salaca Livonian",
@@ -7084,7 +7084,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Olola,Diasark,Guunw,Voenuros,Olikogil,Seeset,Guodimen,Koinam,Alusez,Diokun,Seamanrr,Voud,Koerutg,Oletukx,Sealan,Guirosmm,Koenyy,Alolinot,Diitr,Seugerim"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Sea Sami",
@@ -7093,7 +7093,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Olodimg,Seint,Guusees,Kookkk,Alamanal,Diudus,Seerutu,Voatol,Koiory,Olemin,Diosisnn,Guirzz,Vounekd,Olalasum,Seusgg,Gueguor,Koaris"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Semisjaur-Njarg",
@@ -7102,7 +7102,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kuala Belait,Liang,Serasa,Sengkurong,Mentiri,Bandar Seri Begawan,Yacuiba,Bolivia,Plurinational State of,Cochabamba,Villamontes,Viacha,Trinidad,Tarija,Sucre,Santa Cruz de la Sierra,San Ignacio de Velasco,Sacaba,Riberalta,Quillacollo,Potosí"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Sernur-Morkin",
@@ -7111,7 +7111,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Voalx,Koirosat,Olenmm,Diolinul,Guitot,Vougeron,Alorim,Seuler,Guesulss,Koaka,Alilotk,Diedw,Seonilos,Voisll,Koutetil,Ololet,Diasaren,Guunam,Voenurz,Loi"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Serri",
@@ -7120,7 +7120,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Voisy,Koutetit,Ololnn,Diasarem,Guund,Voenurar,Alaum,Seesor,Guodimtt,Koini,Alusel,Diokx,Seamanat,Voudmm,Koerutul,Olatot,Diioron,Guemim,Alirer,Olunekss"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Seto",
@@ -7129,7 +7129,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Olentt,Diolinis,Guitl,Vougerel,Alorat,Oladagan,Seulul,Guesulyy,Koakon,Alilotr,Died,Seonildd,Voisss,Koutetas,Ololk,Diasarur,Guunos,Voenuro,Tuug"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Siberian Finnish",
@@ -7138,7 +7138,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Koala,Alirosk,Dienw,Seolinos,Voitll,Kougeril,Oloret,Diadagen,Guulam,Voesulz,Alakun,Olilotrr,Guonilg,Koist,Alutetes,Diolkk,Seasaral,Vounus,Koenuru,Olaol"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Siberian Ingrian Finnish",
@@ -7147,7 +7147,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Caol,Mait,Seikogam,Voesut,Koodimun,Olinom,Guokir,Voamant,Alude,Olerutkk,Seatww,Guiorus,Koemm,Alosisol,Diirit,Seunekin,Vooem,Koalaszz,Olusar,Diegus"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Sirkas",
@@ -7156,7 +7156,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guemon,Voosisr,Olunekdd,Seoss,Gualasas,Kousk,Aleguur,Diaros,Seitono,Voelil,Koomidxx,Oligen,Diureln,Guotz,Voanatut,Alumrr,Oletukom,Sealg,Guirosir,Koenes"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Skolt Sami",
@@ -7165,7 +7165,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guulm,Voesulol,Alakit,Olilotin,Seedem,Guonilzz,Koisar,Alutets,Seasargg,Vountt,Koenuris,Diikogel,Guesat,Voodiman"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Soikkola",
@@ -7174,7 +7174,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Oruro,Montero,Laja,Guayaramerín,Cobija,Pando,Caranavi,Camiri,Bermejo,San Borja,Bonaire,Sint Eustatius and Saba,Brazil,Maranhao,Pernambuco,Viseu,Para,Conde,Alagoas,Amazonas,Trindade"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Sörkaitum",
@@ -7183,7 +7183,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Voole,Koasarkk,Puol,Olunww,Dienurus,Beit,Voikogol,Leer,Alesit,Olodimin,Seinem"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "South Estonian",
@@ -7192,7 +7192,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Vootdd,Koanater,Olumas,Dietuka,Gualur,Voirosw,Aleno,Ololinll,Seitxx,Guugeret,Koorn,Aladagam,Diulut,Alatl,Oliorel,Seemat,Guosisan,Koirul,Alunekyy"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "South Vagilsk",
@@ -7201,7 +7201,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guelem,Voomidzz,Aligar,Olurels,Guanatgg,Koumtt,Aletukis,Diall,Seirosel,Voenat,Koolinan,Olitul,Diugeryy,Guoron,Voadagr,Olesuldd,Seakss,Guilotas,Koedk,Alonilur"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Southeastern Finnish",
@@ -7210,7 +7210,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Voass,Koikogas,Olesk,Diodimur,Guinos,Vouseo,Alokil,Olamanxx,Seuden,Guerutn,Koatz,Aliorut,Diemrr,Seosisom,Voirg,Kounekir,Oloes,Dialase,Guusal,Voeguww"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Southeastern Tavastian",
@@ -7219,7 +7219,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guenyy,Voolinot,Alitr,Olugerim,Seordd,Guadager,Koulas,Alesula,Diakur,Seilotw,Voedo,Koonilll,Guuneks,Alalasgg,Diustt,Seeguis,Voarl,Koitonel"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Southern Botnian",
@@ -7228,7 +7228,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Tocantinópolis,Tocantins,Teresina,Sapé,São Miguel,São Luís,Santo Antônio,Santa Rita,Santarém,Santa Luzia,Ribeirão,Recife,Queimadas,Presidente Dutra,Santana,Porto Grande,Portel,Pesqueira,Pedra,Paulo Afonso"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Southern Karelian",
@@ -7237,7 +7237,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Parintins,Palmares,Ouricuri,Oriximiná,Óbidos,Nova Russas,Nova Olinda do Norte,Nova Olinda,Nova Cruz,Nísia Floresta,Nhamundá,Nazaré da Mata,Natal,Murici,Muaná,Morros,Morrinhos,Moreno,Morada Nova,Monteiro"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Southern Mansi",
@@ -7246,7 +7246,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Voetuk,Alalir,Olirost,Seene,Guolinkk,Koitww,Alugerus,Diorm,Seadagol,Voulit,Koesulin,Olakem,Diilotzz,Guedar,Voonils,Alis,Olutetgg,Seoltt,Guasaris,Kounl"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Southern Savonian",
@@ -7255,7 +7255,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kousekk,Olokww,Diamanus,Guudm,Voerutol,Alatit,Oliorin,Seemem,Guosiszz,Koirar,Aluneks,Sealasgg,Voustt,Koeguis,Olarl,Diitonel,Guelat,Voomidan,Aligul,Olurelyy"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Southern Tavastian",
@@ -7264,7 +7264,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guudes,Voerute,Alatal,Oliorww,Seemu,Guosism,Koiry,Alunekit,Dionn,Sealasem,Vousd,Koeguar,Olarum,Guelor,Voomidtt,Aligi,Olurell,Seotx,Guanatat,Koummm"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Southern Veps",
@@ -7273,7 +7273,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Diisos,Seuteto,Voolil,Koasarxx,Olunen,Dienurn,Guaz,Voikogut,Alesrr,Olodimom,Seing,Guuseir,Kookes,Alamane,Diudal,Seerutww,Voatu,Koiorm,Olemy"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Svaipa",
@@ -7282,7 +7282,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Voitonw,Alelo,Olomidll,Seigxx,Guurelet,Kootn,Alanatam,Diumut,Seetukun,Voalom,Olenir,Diolint,Guite,Vougerkk,Alorww,Oladagus,Seulm,Guesulol,Koakit,Alilotin"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Sygva",
@@ -7291,7 +7291,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Olurelim,Seotdd,Guanater,Koumas,Aletuka,Dialur,Seirosw,Voeno,Koolinll,Olitxx,Diugeret"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Székely",
@@ -7300,7 +7300,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Alald,Olirosar,Joet,Seenum,Koitor,Alugertt,Esus,Diori,Seadagl,Oson,Voulx,Koesulat"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Tagil",
@@ -7309,7 +7309,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Voenxx,Koolinet,Olitn,Diugeram,Guorut,Voadagun,Alulom,Seakir,Guilott,Koede,Alonilkk,Diisww,Seutetus,Voolm,Koasarol,Olunit,Dienurin,Guaem,Voikogzz,Alesar"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Tartu",
@@ -7318,7 +7318,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Aligl,Olurelel,Seotat,Guanatan,Koumul,Aletukyy,Dialon,Seirosr,Koolindd,Olitss,Diugeras,Guork,Voadagur,Alulos"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Tavda",
@@ -7327,7 +7327,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Tavda,Kungur,Verkhoturye,Pelym,Nizhnyaya Tura,Tagil,Chusovaya,Iset,Tyumen,Tobolsk"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Taygi",
@@ -7336,7 +7336,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Juruti,Jupi,Junqueiro,Jucurutu,Jucás,Juazeiro do Norte,Juazeiro,José de Freitas,Joaquim Gomes,João Pessoa,João Lisboa,João Câmara,João Alfredo,Girau do Ponciano,Jataúba,Itacoatiara,Itaituba,Itaitinga,Itaíba,Itabaiana"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Ter Sami",
@@ -7345,7 +7345,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Oligk,Diurelur,Guotos,Voanato,Alumil,Oletukxx,Seisy,Guutetit,Koolnn,Alasarem,Diund,Seenurar,Voaum,Olesor,Diodimtt,Guini,Alokx,Olamanat,Seudmm,Guerutul"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Tisza-Körös",
@@ -7354,7 +7354,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Seerutz,Voatun,Koiorrr,Diosisg,Guirt,Vounekes,Alokk,Olalasal,Seusus,Gueguu,Koarol,Alitony,Dielin,Seomidnn,Voigzz,Koureld,Olots,Dianatum,Guumgg,Voetukor"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Tonshaevo",
@@ -7363,7 +7363,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Voanata,Alumur,Oletukw,Sealo,Guirosll,Koenxx,Alolinet,Hial,Diitn,Seugeram,Voorut,Doom,Seudl,Guerutel,Noi,Koatat,Alioran,Zaen,Diemul,Seosisyy"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Torne Valley",
@@ -7372,7 +7372,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Aliner,Olusess,Seoka,Guamank,Koudw,Alerutos,Diatll,Seioril,Voemet,Koosisen,Oliram,Diunekz"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Tundra Enets",
@@ -7381,7 +7381,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guedk,Voonilur,Alisos,Oluteto,Seolil,Guasarxx,Kounen,Alenurn,Diaz,Seikogut,Voesrr,Koodimom,Oling"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Tuorpon",
@@ -7390,7 +7390,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Diomidzz,Guigar,Vourels,Olanatgg,Seumtt,Guetukis,Alirosel,Dienat,Seolinan,Voitul,Kougeryy,Oloron,Diadagr,Voesuldd,Alakss,Olilotas,Seedk,Guonilur,Koisos,Aluteto"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Turku highlands",
@@ -7399,7 +7399,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Seelom,Koigir,Alurelt,Diote,Seanatkk,Seod,Olenurr,Guikogdd,Noer,Koesss,Alodimas,Zaas,Diink,Seuseur,Jaug,Vookos,Koamano,Oludil,Dierutxx,Eli"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Tuzha",
@@ -7408,7 +7408,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Aimchau,Kwuuprmpii,Poshogr,Skaga,Broitoi,Uvdua,Ruuaagr,Auyigw,Aistgwau,Kioswio,Ntospoj,Kroucsme,Swueiem,Ooproogr,Stuetwxiu,Ganda,Muenuep,Aispmbau,Friokhio,Uikdzi"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Tysfjord",
@@ -7417,7 +7417,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Uron,Fair,Paeg,Koedum,Diisor,Seutettt,Kiut,Vooli,Koasarl,Olunx,Dienurat"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Ume Sami",
@@ -7426,7 +7426,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Alitin,Olugernn,Seorzz,Guadagd,Kouls,Alesulum,Diakgg,Seilotor,Voedis,Koonili,Olisel,Diutetx,Guolan,Voasarmm,Alunyy,Olenurot,Guikogim,Koesdd,Alodimer,Diinas"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Upper Konda",
@@ -7435,7 +7435,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Irituia,Irauçuba,Ipueiras,Ipubi,Ipu,Ipojuca,Inhapi,Ingá,Independência,Inajá,Imperatriz,Iguatu,Igarapé Miri,Igarapé-Açu,Igarassu,Igaci,Icó,Icatu,Icapuí,Ibimirim"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Upper Lozva",
@@ -7444,7 +7444,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Seelu,Guomidm,Koigy,Alurelit,Diotnn,Seanatem,Voumd,Koetukar,Olalum,Guenor,Voolintt,Aliti,Olugerl,Seorx,Guadagat,Koulmm,Alesulul,Diakot,Seiloton,Voedim"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Upper Lupya",
@@ -7453,7 +7453,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Gondogw,Uamuats,Pruulhii,Gwuuskuubr,Auswif,Dzouzhfe,Ainkwau,Vaja,Ukhvua,Ndagra,Puushtii,Fliontio,Tsioyio,Smouobr,Skuuguut,Snoixoi,Noueig,Brueiev,Fruuaang,Bouob"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Upper Sysola",
@@ -7462,7 +7462,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ibiapina,Iati,Humberto de Campos,Horizonte,Hidrolândia,Gurupá,Guaraciaba do Norte,Guarabira,Guaraí,Guamaré,Guaiúba,Gravatá,Granja,Grajaú,Goianinha,Goiana,Glória do Goitá,Glória,Fortaleza,Flores"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Uralic-Yukaghir",
@@ -7471,7 +7471,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Pei,Seatz,Guiorut,Koemrr,Alosisom,Diirg,Seunekir,Vooes,Koalase,Olusal,Dieguww,Guaru,Voitonm,Alely,Olomidit,Seignn,Guurelem,Kootd,Alanatar,Diumum"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Uralo-Siberian",
@@ -7480,7 +7480,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Seadaga,Voulur,Koesulw,Olako,Diilotll,Guokm,Voamanol,Aludit,Olerutin,Seatem,Guiorzz,Koemar,Alosiss,Seunekgg,Koalasis,Olusl,Dieguel,Guarat,Voitonan,Alelul"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Vakh",
@@ -7489,7 +7489,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Delmiro Gouveia,Coreaú,Condado,Conceição do Araguaia,Conceição,Colônia Leopoldina,Colinas,Coelho Neto,Codó,Cocal,Chorozinho,Chapadinha,Chã Grande,Cedro,Ceará-Mirim,Caxias,Caucaia,Catolé do Rocha,Campo Alegre de Lourdes,Catende"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Värmland Savonian",
@@ -7498,7 +7498,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Diinil,Seusexx,Vooken,Koamann,Oludz,Dierutut,Guatrr,Voiorom,Alemg,Olosisir,Seires,Guuneke,Kooal,Alalasww,Diusu,Seegum,Voary,Koitonit,Olelnn,Diomidem"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Vartovskoe",
@@ -7507,7 +7507,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Alerutk,Bui,Diatw,Seioros,Luen,Voemll,Koosisil,Oliret,Diuneken,Moet"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Vasjugan",
@@ -7516,7 +7516,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Oluseu,Seokol,Guamany,Koudin,Alerutnn,Diatzz,Seiord,Voems,Koosisum,Olirgg,Diunekor,Guois,Voalasi,Olegux,Searan,Guitonmm,Koelyy,Alomidot,Diigr,Seurelim"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Verkhne-Kalimsk",
@@ -7525,7 +7525,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ooswoof,Luefuekw,Dzuuaaf,Ibrauph,Hiodrio,Usmprua,Soustsne,Huudrdii,Mpuehuemb,Dzuezhuex,Nkouoq,Utdrua,Nuewuesh,Ismaump,Idzauc,Ntuuspcii,Fruekhuef,Oofoop,Undnkua,Goundspe"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Vishera",
@@ -7534,7 +7534,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Castelo do Piauí,Castanhal,Cascavel,Casa Nova,Caruaru,Cachoeira do Arari,Cabrobó,Cabo de Santo Agostinho,Cabedelo,Caaporã,Buriti dos Lopes,Buriti Bravo,Buriti,Bujaru,Buíque,Breves,Brejo Santo,Brejo da Madre de Deus,Brejo,Bragança"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Volga",
@@ -7543,7 +7543,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Voudzz,Koerutd,Olats,Diiorum,Guemgg,Voosisor,Piad,Aliris,Oluneki,Atur,Seoel,Gualasx,Kuos,Kousan,Alegumm,Diaryy,Seitonot,Voelr,Koomidim,Oligdd"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Vym",
@@ -7552,7 +7552,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Seik,Voarnn,Koitonem,Oleld,Diomidar,Guigum,Vourel,Alotor,Olanattt,Seumi,Guetukl,Koalx,Alirosat,Dienmm,Seolinul,Voitot,Kougeron,Olorim,Guuler,Voesulss"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Western Transdanubian",
@@ -7561,7 +7561,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Cien,Miad,Guunekxx,Wuur,Kooen,Alalasn,Hios,Diusz,Seeguut,Voarrr,Koitonom,Olelg,Diomidir,Guiges,Vourele,Alotal,Olanatww,Seumu,Guetukm,Koaly"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Western Uusimaa",
@@ -7570,7 +7570,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Alomidum,Diiggg,Seurelor,Vootis,Koanati,Olumel,Dietukx,Gualan,Voirosmm,Alenyy,Ololinot,Seitr,Guugerim,Koordd,Aladager,Diulas,Seesula,Voakur,Koilotw,Oledo"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Western Votic",
@@ -7579,7 +7579,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Diatir,Seiort,Voeme,Koosiskk,Olirww,Diunekus,Aladagdd,Diulss,Seesulas,Voakk,Koilotur,Oledos,Dionilo,Guisil,Voutetxx,Alolen,Olasarn,Seunz"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Yaran",
@@ -7588,7 +7588,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guuteten,Koolam,Alasarz,Diunun,Seenurrr,Koikogg,Ener,Olest,Ologg,Dialasor,Guusis,Voegui,Alarel,Olitonx,Seelan,Guomidmm,Koigyy,Alurelot,Diotr,Seanatim"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Yaransk",
@@ -7597,7 +7597,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guodimus,Koinm,Aluseol,Diokit,Seamanin,Voudem,Koerutzz,Olatar,Diiors,Voosisgg,Alirtt,Olunekis,Gualasel,Kousat,Aleguan,Diarul,Seitonyy,Voelon,Koomidr,Diureldd"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Yazva",
@@ -7606,7 +7606,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Oludy,Dierutit,Guatnn,Voiorem,Alemd,Olosisar,Seirum,Kooor,Alalastt,Diusi,Seegul,Voarx,Koitonat,Olelmm,Diomidul,Guigot,Vourelon,Alotim,Olanat,Seumer"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Ylä-Satakunta",
@@ -7615,7 +7615,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Voemw,Koosisos,Olirll,Diunekil,Guoet,Voalasen,Alusam,Oleguz,Searun,Guitonrr,Koel,Alomidg,Diigt,Seureles,Vootkk,Koanatal,Olumus,Dietuku"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Yoshkar-Olin",
@@ -7624,7 +7624,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Olokat,Diamanan,Guudul,Voerutyy,Alaton,Oliorr,Seem,Guosisdd,Koirss,Alunekas,Sealasur,Vousos,Koeguo,Olaril,Diitonxx,Guelen,Voomidn,Aligz,Olurelut,Seotrr"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Yurats",
@@ -7633,7 +7633,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Koaros,Alitono,Dielil,Seomidxx,Voigen,Koureln,Olotz,Dianatut,Guumrr,Voetukom,Alalg,Olirosir,Seenes,Guoline,Koital,Alugerww,Dioru,Seadagm,Vouly,Koesulit"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Zyuzdino",
@@ -7642,7 +7642,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Olas,Alinzz,Olused,Ziug,Seoks,Guamanum,Jiom,Koudgg,Alerutor,Diatis,Seiori,Voemel,Koosisx,Oliran,Diunekmm,Guoyy,Voalasot,Alusr,Oleguim,Seardd"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Aas whistled",
@@ -7651,7 +7651,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Seakur,Guilotw,Koedo,Alonilll,Diisxx,Seutetet,Vooln,Koasaram,Olunut,Dienurun,Guaom,Voikog,Alesir,Olodimt,Seine,Guusekk,Kookww,Alamanus,Diudm,Seerutol"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Andalusian Spanish",
@@ -7660,7 +7660,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Diamanur,Guudos,Voeruto,Alatil,Oliorxx,Seemen,Guosisn,Koirz,Alunekut,Diorr,Sealasom,Vousg,Koeguir,Olares"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
 },
 {
     "name": "Anglo-Norman",
@@ -7669,7 +7669,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Paris,Lyon,Marseille,Toulouse,Nice,Bordeaux,Lille,Nantes,Strasbourg,Rennes"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Béarnese",
@@ -7678,7 +7678,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Zoueil,Youeitw,Uismpri,Snouxkwe,Mbouqdze,Roikroi,Fluentkriu,Mbouqoust,Driotsio,Kwioprio,Gwoskobr,Kruucuuw,Ndouosl,Nkuekwuey,Kouswoukr,Pioshio,Ijaukh,Imauts,Twuembues,Uiczi"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Brianzöö",
@@ -7687,7 +7687,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Borba,Boqueirão,Bonito,Bom Jesus,Bom Jardim,Bom Conselho,Bodocó,Boca da Mata,Boa Viagem,Bezerros,Bequimão,Benevides,Belterra,Belo Jardim,Belém de São Francisco,Belém,Bela Cruz,Beberibe,Bayeux,Baturité"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Canzés",
@@ -7696,7 +7696,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Swouthouc,Aiqndau,Floueikr,Swuethuec,Buuaab,Umbgua,Goindoi,Boueib,Ainttwau,Geendee,Fleentee,Louodr,Dzueief,Phada,Dzouof,Vuuaaw,Qeempee,Nguunkmbii,Uigrkwi,Vouow"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Castilian Spanish",
@@ -7705,7 +7705,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Batalha,Barro,Barreiros,Barreirinhas,Barreira,Barras,Barra do Corda,Barra de Santo Antônio,Barcarena,Barbalha,Baraúna,Barão de Grajaú,Bananeiras,Balsas,Baião,Bagre,Bacuri,Bacabal,Aveiro,Autazes"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
 },
 {
     "name": "Castúo",
@@ -7714,7 +7714,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Olalasut,Seusrr,Gueguom,Koarg,Alitonir,Dieles,Seomide,Voigal,Kourelww,Olotu,Dianatm,Guumy,Voetukit,Alalnn,Olirosem,Seend,Guolinar,Koitum,Dioror"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Cremunés",
@@ -7723,7 +7723,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Cremona,Crema,Pizzighettone,Soresina,Casalmaggiore,Rivolta d'Adda,Castelleone,Cremosano,Formigara,Soncino"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Crișana",
@@ -7732,7 +7732,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guutetz,Koolun,Alasarrr,Seenurg,Olitonmm,Seelyy,Guomidot,Koigr,Alurelim,Diotdd,Seanater,Voumas,Koetuka,Olalur"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Franglish",
@@ -7741,7 +7741,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Uichswi,Aurink,Suustsnii,Touoj,Uastuaj,Ootood,Stotwxui,Gruuaatr,Augriq,Sloutrount,Aitsshau,Icaupr,Ugrkwua,Ootwoofl,Shoimoi,Iazntoo,Swouthme,Tsueiest,Skiogio,Ithauch"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "German",
@@ -7750,7 +7750,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Berlin,Munich,Hamburg,Cologne,Frankfurt,Stuttgart,Düsseldorf,Dortmund,Essen,Leipzig"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
 },
 {
     "name": "Icelandic",
@@ -7759,7 +7759,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Voinzz,Koused,Oloks,Diamanum,Guudgg,Voerutor,Alatis,Oliori,Seemel,Guosisx,Koiran,Alunekmm,Dioyy"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Irish",
@@ -7768,7 +7768,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guotom,Alumir,Oletukt,Seenuran,Voaul,Koikogyy,Oleson,Diodimr,Vousedd,Alokss"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Italo-Australian",
@@ -7777,7 +7777,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "São João do Rio do Peixe,Ananindeua,Anajatuba,Anajás,Amontada,Amarante do Maranhão,Amarante,Amaraji,Altos,Altinho,Altamira,Almeirim,Aliança,Alhandra,Alenquer,Alcântara,Alagoa Nova,Alagoa Grande,Águas Belas,Água Preta"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Judeo-Aragonese",
@@ -7786,7 +7786,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Água Branca,Agrestina,Afuá,Afrânio,Afogados da Ingazeira,Açu,Acopiara,Acaraú,Acará,Abreu e Lima,Abaré,Abaetetuba,Mata Roma,Colinas do Tocantins,Xique-Xique,Xaxim,Santa Catarina,Xanxerê,Votuporanga,Sao Paulo"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Lower Sorbian",
@@ -7795,7 +7795,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Votorantim,Volta Redonda,Rio de Janeiro,Vitória da Conquista,Vitória,Visconde do Rio Branco,Minas Gerais,Viradouro,Vinhedo,Vila Velha,Vila Mariana,Vila Maria,Videira,Viamão,Vespasiano,Veranópolis,Vera Cruz,Wenceslau Braz,Venâncio Aires,Vazante"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Maltese Italian",
@@ -7804,7 +7804,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guumom,Alenurel,Diaat,Seikogan,Koodimyy,Olinon,Voamandd,Aludss,Olerutas,Seatk,Guiorur"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Moldavian",
@@ -7813,7 +7813,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guiorat,Koemmm,Alosisul,Diirot,Seunekon,Vooim,Vougeres,Alorkk,Oladagal,Seulus,Guesulu,Koakol"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Molisan",
@@ -7822,7 +7822,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Alakut,Olilotun,Seedom,Koisir,Alutett,Diole,Seasarkk,Vounww,Koenurus,Diikogol,Guesit,Voodimin"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Monégasque",
@@ -7831,7 +7831,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Esil,Oset,Kaus,Diisus,Seutetu,Voolol,Koasary,Olunin,Dienurnn,Guazz,Voikogd,Aless,Olodimum"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Moselle Romance",
@@ -7840,7 +7840,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Voonilx,Alisan,Olutetmm,Seolyy,Guasarot,Kounr,Alenurim,Diadd,Seikoger,Voesas,Koodima,Olinur,Diusew,Guoko,Voamanll,Aludxx,Olerutet,Seatn,Guioram,Koemut"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Old Church Slavonic",
@@ -7849,7 +7849,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Voiru,Kounekm,Oloy,Dialasit,Guusnn,Voeguem,Alard,Olitonar,Seelum,Koigor,Alureltt,Dioti,Seanatl,Voumx,Koetukat,Olalmm,Diirosul,Guenot,Voolinon,Alitim"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Old Prussian",
@@ -7858,7 +7858,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Oladagot,Seulr,Guesulim,Koakdd,Aliloter,Diedas,Seonila,Voisur,Koutetw,Ololo,Diasarll,Guunxx,Voenuret"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
 },
 {
     "name": "Orléanais",
@@ -7867,7 +7867,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Vassouras,Varzelândia,Várzea Paulista,Várzea Grande,Mato Grosso,Várzea da Palma,Varginha,Vargem Grande do Sul,Vargem Alta,Valparaíso,Valinhos,Valente,Valença,Vacaria,Utinga,Urussanga,Uruguaiana,Urucuia,Uruçuca,Uruaçu"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Paḷḷuezu",
@@ -7876,7 +7876,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Koudll,Alerutil,Diatet,Seioren,Voemam,Koosisz,Olirun,Diunekrr,Guo,Voalasg,Alust,Olegues,Searkk,Guitonal,Koelus,Alomidu,Diigol,Seurely,Vootin,Koanatnn"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Podlachian",
@@ -7885,7 +7885,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Olalasss,Seusa,Gueguk,Duil,Nuet,Zeal,Alugeral,Jeus,Diorus,Seadagu,Voulol,Koesuly,Olakin,Diilotnn,Guedzz,Voonild,Aliss,Olutetum,Seolgg,Guasaror"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Polabian",
@@ -7894,7 +7894,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ololn,Diasaram,Guunut,Voenurun,Alaom,Seesir,Guodimt,Koine,Alusekk,Diokww,Seamanus,Voudm,Koerutol,Olatit,Diiorin,Waen,Guemem,Voosiszz,Goad,Alirar"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Pomeranian",
@@ -7903,7 +7903,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ugwtsua,Snaxa,Spuesluefl,Oogwoos,Guendspiu,Spuuaak,Choifroi,Ailcau,Shiomio,Qoimpoi,Shuemgwiu,Oondoomb,Gwueskuebr,Auvifr,Fiochio,Isnauw,Nouog,Ugngua,Unttwua,Mpeehee"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Ripuarian (Platt)",
@@ -7912,7 +7912,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Seamanel,Voudat,Koerutan,Olatul,Diioryy,Aloline,Diital,Seugerww,Vooru,Koadagm,Oluly,Diesulit,Guaknn,Voilotem,Aledd,Olonilar,Seisum,Koolor"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Romani",
@@ -7921,7 +7921,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Vookd,Koamanar,Oludum,Guator,Voiortt,Alemi,Olosisl,Seirx,Guunekat,Koomm,Alalasul,Diusot,Seeguon,Voarim,Oleler,Diomidss,Guiga,Vourelk,Alotw,Olanatos"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Serbo-Croatian",
@@ -7930,7 +7930,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Urandi,União da Vitória,Unaí,Una,Umuarama,Umbaúba,Uberlândia,Uberaba,Ubatuba,Ubatã,Ubaitaba,Ubaíra,Ubá,Turmalina,Tupi Paulista,Boa Vista do Tupim,Tupanciretã,Tupaciguara,Tupã,Tucuruvi"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Silesian German",
@@ -7939,7 +7939,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Tucano,Tubarão,Triunfo,Três Rios,Três Pontas,Três Passos,Três Lagoas,Mato Grosso do Sul,Três de Maio,Três Coroas,Três Corações,Três Barras,Tremembé,Tremedal,Amélia Rodrigues,Tramandaí,Torres,Toledo,Tobias Barreto,Timóteo"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
 },
 {
     "name": "Slovincian",
@@ -7948,7 +7948,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Diodimon,Guinim,Aloker,Olamanss,Seuda,Guerutk,Koatw,Alioros,Diemll,Seosisil,Voiret,Kouneken,Oloam,Dialasz,Guusun,Voegurr,Olitong,Seelt,Guomides,Koigkk"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Spanish",
@@ -7957,7 +7957,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Diedat,Seonilan,Voisul,Vouden,Koerutn,Olatz,Diiorut,Guemrr,Voosisom,Alirg,Olunekir"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
 },
 {
     "name": "Standard Swedish",
@@ -7966,7 +7966,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Timbó,Tijucas do Sul,Tijucas,Tietê,Tibagi,Teutônia,Terra Preta,Terra Boa,Teresópolis,Terenos,Teófilo Otoni,Teodoro Sampaio,Telêmaco Borba,Taubaté,Tatuí,Taquarituba,Taquaritinga,Taquari,Taquara,Tapiramutá"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Swabian German",
@@ -7975,7 +7975,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Alula,Olesulk,Seakw,Guilotos,Eteg,Koedll,Alonilil,Otam,Diiset,Seuteten,Anut,Voolam,Voatin,Koiornn,Olemzz,Diosisd,Guirs,Vounekum,Alogg,Olalasor"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
 },
 {
     "name": "Swedish (native-speakers subset)",
@@ -7984,7 +7984,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Olao,Diikogll,Guesxx,Voodimet,Alinn,Oluseam,Seokut,Guamanun,Viom,Koudom,Ceal,Meus,Woon,Heir"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Upper Saxon",
@@ -7993,7 +7993,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Berlin,Munich,Hamburg,Cologne,Frankfurt,Stuttgart,Düsseldorf,Dortmund,Essen,Leipzig"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Urum",
@@ -8002,7 +8002,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Siedut,Meis,Ulattor,Utisorkir,Ziemdor,Anoligsar,Taad,Buirper,Dounemlar,Keotur,Laaakor,Atog,Mougdur,Niegusser,Enim,Paadpir,Puitonler,Loe,Unomidkur,Yuilkar"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Valdôtain",
@@ -8011,7 +8011,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Sluetruent,Nueieg,Ibaub,Sostsnui,Ootsoot,Uzhslua,Grosmog,Phuudfrii,Uisti,Grasma,Luefdriu,Zhophchui,Shoumgwe,Trueieth,Inauy,Gweeskee,Aishfau,Khuesnuech,Zuudzuusn,Stoitwoi"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Walser German",
@@ -8020,7 +8020,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Alomiddd,Diigss,Seurelas,Vootk,Koanatur,Olumos,Dietuko,Gualil,Voirosxx,Alenen,Ololinn,Seitz,Guugerut,Koorrr,Aladagom,Diulg,Seesulir,Voakes,Koilote,Oledal"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
 },
 {
     "name": "West Polesian",
@@ -8029,7 +8029,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kookun,Alamanrr,Seerutg,Voatt,Koiores,Olemkk,Diosisal,Guirus,Vouneku,Alool,Olalasy,Seusin,Guegunn,Koarzz,Alitond,Diels,Seomidum,Voiggg,Kourelor,Olotis"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Wisconsin Walloon",
@@ -8038,7 +8038,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Taperoá,Tapejara,Tanque Novo,Tanhaçu,Tanguá,Tanabi,Tambaú,Taiobeiras,Taió,Taboão da Serra,Suzano,Sumidouro,Sumaré,Souzas,Sorocaba,Sombrio,Soledade,Socorro,Siqueira Campos,Simonésia"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Wymysorys",
@@ -8047,7 +8047,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guese,Voodimkk,Alinww,Oluseus,Seokm,Guamanol,Koudit,Alerutin,Oti,Diatem,Seiorzz,Anen,Voemar,Koosiss,Diunekgg,Voalasis,Alenos,Ololino,Seitil,Guugerxx"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Yenish",
@@ -8056,7 +8056,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Alemam,Olosisz,Seirun,Guunekrr,Alalasg,Diust,Seegues,Voarkk,Koitonal,Olelus,Diomidu,Guigol,Vourely,Alotin,Olanatnn,Seumzz,Guetukd,Koals,Alirosum,Diengg"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Zeelandic",
@@ -8065,7 +8065,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Simão Dias,Silvânia,Silva Jardim,Sidrolândia,Sete Lagoas,Sertãozinho,Sertanópolis,Serro,Serrinha,Serra Preta,Serra Negra,Serrana,Serra,Seropédica,Serafina Corrêa,Senhor do Bonfim,Sengés,Senador Canedo,Seabra,Schroeder"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Forro Creole",
@@ -8074,7 +8074,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Conakry,Kindia,Labe,Nzérékoré,Boké,Mamou,Faranah,Kankan,Kissidougou,Macenta"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Principense Creole",
@@ -8083,7 +8083,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Alaru,Olitonm,Seely,Guomidit,Koignn,Alurelem,Diotd,Seanatar,Voumum,Olalor,Diirostt,Gueni,Voolinl,Alitx"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Argobba",
@@ -8092,7 +8092,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Sátiro Dias,Sarzedo,Sarandi,Saquarema,Sapucaia do Sul,Sapucaia,Sapiranga,Sapeaçu,São Vicente,São Simão,São Sepé,São Sebastião do Passé,São Sebastião do Paraíso,São Sebastião do Caí,São Roque,São Pedro do Sul,São Pedro da Aldeia,São Pedro,São Miguel do Iguaçu,São Miguel d'Oeste"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Harari",
@@ -8101,7 +8101,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "São Miguel do Araguaia,São Miguel Arcanjo,São Mateus do Sul,São Mateus,São Marcos,São Manuel,São Luiz Gonzaga,São Luís de Montes Belos,São Lourenço do Sul,São Lourenço do Oeste,São Lourenço da Serra,São Lourenço,São Leopoldo,São José dos Pinhais,São José dos Campos,São José do Vale do Rio Preto,São José do Rio Preto,São José do Rio Pardo,São José do Norte,São José"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Chagossian Creole",
@@ -8110,7 +8110,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Alenun,Ololinrr,Guugerg,Koort,Aladages,Diulkk,Seesulal,Voakus,Koilotu,Oledol,Dionily,Guisin,Voutetnn,Alolzz,Olasard,Seuns,Guenurum,Koagg,Alikogor,Diesis"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Mauritian Creole",
@@ -8119,7 +8119,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Olorir,Diadagt,Guule,Voesulkk,Tair,Alakww,Olilotus,Doeg,Seedm,Guonilol,Noam,Koisit,Alutetin,Zaut,Diolem,Seasarzz,Jaol,Vounar,Koenurs,Tiit"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Rodriguan Creole",
@@ -8128,7 +8128,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "São Joaquim de Bicas,São Joaquim da Barra,São Joaquim,São João Nepomuceno,São João Evangelista,São João do Paraíso,São João de Meriti,São João del Rei,São João da Ponte,São João da Boa Vista,São João da Barra,São Jerônimo,São Gotardo,São Gonçalo dos Campos,São Gonçalo do Sapucaí,São Gabriel,São Gabriel da Palha,São Francisco do Sul,São Francisco do Conde,São Francisco de Paula"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Tayo Creole",
@@ -8137,7 +8137,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Noumea,Mont-Dore,Saint-Laurent,Dumbea,Kaala-Gomen,Pouembout,Bourail,La Foa,Paita,Thio"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Ch'ol",
@@ -8146,7 +8146,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Autid,Fochtsui,Iamchoo,Flointoi,Swatha,Voujousw,Shoumousm,Thuuaan,Sostoph,Snoueikw,Douokh,Froukhnge,Uwkhua,Prala,Prueluenk,Woueind,Uivdi,Uiskyi,Tsueystiu,Ausiv"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Ch'olti'",
@@ -8155,7 +8155,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Olisy,Diutetit,Guolnn,Voasarem,Alund,Olenurar,Seaum,Koesor,Alodimtt,Diini,Vookx,Koamanat,Oludmm,Dierutul,Guatot,Voioron,Alotun,Olanatrr,Guetukg,Koalt"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Itza'",
@@ -8164,7 +8164,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Vojwui,Bruutvii,Oozookr,Swothoc,Fruekhngiu,Uiwkhi,Mboiqoi,Thouein,Uakhuan,Mpaha,Moinoi,Muunuup,Broueiv,Nuuwgii,Iraunk,Khuuaank,Tuuaaj,Ushfua,Iakrxoo,Auspiz"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Mocho'",
@@ -8173,7 +8173,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Santo Antônio de Posse,Santo Antônio de Pádua,Santo Antônio de Jesus,Santo Antônio da Platina,Santo Antônio da Patrulha,Santo Ângelo,Santo André,Santo Amaro da Imperatriz,Santo Amaro,Santiago,Santa Vitória do Palmar,Santa Vitória,Santa Teresa,Santa Rosa de Viterbo,Santa Rita do Sapucaí,Santa Rita do Passa Quatro,Nova Santa Rita,Santana do Paraíso,Sant'Ana do Livramento,Santana de Parnaíba"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Mopan",
@@ -8182,7 +8182,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Santa Maria da Vitória,Santa Maria,Santa Margarida,Santaluz,Santa Juliana,Santa Isabel,Santa Helena de Goiás,Santa Gertrudes,Santa Fé do Sul,Santa Cruz do Sul,Santa Cruz do Rio Pardo,Santa Cruz das Palmeiras,Santa Cruz Cabrália,Santa Bárbara d'Oeste,Santa Bárbara,Sananduva,Salvador,Salto de Pirapora,Salinas,Salgado"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Sierra Juarez Zapotec",
@@ -8191,7 +8191,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ixtlan de Juarez,San Pablo Guelatao,Santa Cruz Yagavila,San Juan Yagila,Santa Maria Yahuiche,Santiago Teotlasco,Santo Domingo Cacalotepec,San Miguel Tiltepec,San Pedro Yaneri,Benito Juarez"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Tlapanec (Meꞌphaa)",
@@ -8200,7 +8200,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Alisy,Olutetit,Seolnn,Guasarem,Kound,Alenurar,Diaum,Seikog,Voesor,Koodimtt,Olini,Guokx"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Tojol-ab'al",
@@ -8209,7 +8209,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Seetuku,Voalol,Koirosy,Olenin,Diolinnn,Guitzz,Alusew,Dioko,Seamanll,Voudxx,Koerutet,Olatn,Diioram,Guemut,Voosisun,Alirom,Seoir,Gualast"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Trique",
@@ -8218,7 +8218,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Rio das Ostras,Wenceslau Guimarães,Rio Claro,Rio Brilhante,Rio Branco do Sul,Rio Bonito,Rio Bananal,Ribeirópolis,Ribeirão Preto,Ribeirão Pires,Ribeirão das Neves,Ribeirão da Ilha,Ribeirão Branco,Ribeira do Pombal,Ribas do Rio Pardo,Riacho de Santana,Riachão do Jacuípe,Quaraí,Praia Grande,Porto Real"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Uspantek",
@@ -8227,7 +8227,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Alolinx,Diitan,Seugermm,Vooryy,Koadagot,Olulr,Diesulim,Guakdd,Voiloter,Aledas,Olonila,Seisur,Guutetw,Asut,Koolo,Alasarll,Diunxx,Seenuret,Vait,Koikogam"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Assyrian Neo Aramaic",
@@ -8236,7 +8236,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Mosul,Kirkuk,Duhok,Erbil,Alqosh,Tel Keppe,Qaraqosh,Ankawa,Shaqlawa,Amadiya"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Awsānian",
@@ -8245,7 +8245,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Marília,Maricá,Mariana,Marialva,Marechal Floriano,Marechal Cândido Rondon,Maravilha,Marau,Marataizes,Maragogipe,Maracás,Maracaju,Mantena,Manhumirim,Manhuaçu,Mangueirinha,Mangaratiba,Mandirituba,Mandaguari,Mandaguaçu"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Baṭḥari",
@@ -8254,7 +8254,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Fuechuepr,Zhapha,Doueikh,Uambuant,Groueitr,Uadzuac,Frakha,Dzouzhoux,Kueiesh,Audith,Uipli,Slouosw,Puushuugr,Kouosh,Ialcoo,Utwskua,Aiskyau,Aikhvau,Fochopr,Chuuaay"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Maghrebi Arabic",
@@ -8263,7 +8263,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kootos,Alanato,Diumil,Seetukxx,Voalen,Koirosn,Olenz,Diolinut,Guitrr,Vougerom,Alorg,Oladagir,Seules,Guesule,Koakal,Alilotww,Diedu,Seonilm"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
 },
 {
     "name": "Turoyo",
@@ -8272,7 +8272,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guutetet,Guerutol,Koatit,Aliorin,Diemem,Seosiszz,Voirar,Kouneks,Olo,Dialasgg,Guustt,Voeguis,Alarl,Olitonel,Seelat,Guomidan,Koigul,Alurelyy,Dioton,Seanatr"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Ugaritic",
@@ -8281,7 +8281,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Diosisit,Guirnn,Vounekem,Olalasar,Seusum,Koaror,Alitontt,Dieli,Seomidl,Voigx,Kourelat"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Western Egyptian Bedawi Arabic",
@@ -8290,7 +8290,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Uitwski,Jouflouth,Qiompio,Tsuuystii,Thovok,Ooloosm,Jafla,Xouzpre,Uinfri,Shuumgwii,Flontkrui,Snuuaakw,Spueiek,Kuuaash,Iwaung,Freekhee,Aikwrau,Kuuswuukr,Noiwoi,Smapa"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
 },
 {
     "name": "Western Hilali dialects",
@@ -8299,7 +8299,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Yuunguudr,Ubbua,Nkoueiq,Ntouoc,Flountkre,Dousouzh,Ngueiemb,Uiymi,Stuutwxii,Xuuzprii,Islaudz,Yiongio,Twuumbzii,Iaprkroo,Truebruesp,Buubuub,Bruetviu,Iadbroo,Prouoh,Briotio"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Western Middle Aramaic",
@@ -8308,7 +8308,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Diedem,Seonilzz,Voisar,Koutets,Diasargg,Guuntt,Voenuris,Olikogel,Seesat,Guodiman,Koinul,Aluseyy,Diokon,Seamanr,Koerutdd,Olatss,Diioras,Guemk,Voosisur"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Western pre-Hilali dialects",
@@ -8317,7 +8317,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Diomiddd,Guigss,Vourelas,Alotk,Olanatur,Seumos,Guetuko,Koalil,Alirosxx,Dienen,Seolinn,Voitz,Kougerut,Olorrr,Diadagom,Guulg,Voesulir,Alakes,Olilote,Seedal"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Yafi'i Arabic",
@@ -8326,7 +8326,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Alemun,Olosisrr,Guunekg,Alalases,Diuskk,Seegual,Voarus,Koitonu,Olelol,Diomidy,Guigin,Vourelnn,Alotzz,Olanatd"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
 },
 {
     "name": "Yemeni Arabic",
@@ -8335,7 +8335,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Trobrosp,Ntospcui,Hadra,Toueij,Igrauq,Ipauh,Aihsmau,Uasmuamp,Wouroum,Tsoystui,Sloutrswe,Ngonkots,Grouotr,Choufrye,Aukwind,Muunskii,Skueguet,Iashfoo,Druetssiu,Ipraugr"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
 },
 {
     "name": "Zabidi dialect",
@@ -8344,7 +8344,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Voosisir,Alires,Oluneke,Dour,Seoal,Gualasww,Noos,Zaik,Jaes,Elun,Guutetos,Koolll,Alasaril,Diunet,Seenuren,Voaam,Koikogz,Olesun"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Zakho",
@@ -8353,7 +8353,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Alaret,Olitonen,Seelam,Guomidz,Koigun,Alurelrr,Seanatg,Voumt,Koetukes,Olalkk,Diirosal,Guenus,Voolinu,Alitol,Olugery,Seorin,Guadagnn,Oludur,Dierutw"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Zay",
@@ -8362,7 +8362,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Olodimww,Seinu,Guusem,Kooky,Alamanit,Diudnn,Seerutem,Voatd,Koiorar,Olemum,Seenll,Guolinil,Koitet,Alugeren,Dioram"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "ˀAzd dialect",
@@ -8371,7 +8371,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guenuri,Koael,Alikogx,Diesan,Voenit,Koolinin,Olitem,Diugerzz,Guorar,Voadags"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Algonquian-Basque pidgin",
@@ -8380,7 +8380,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Malhada,Malacacheta,Mairiporã,Mairinque,Mairi,Mafra,Madre de Deus,Machado,Macaúbas,Macatuba,Macarani,Londrina,Liberdade,Lapa,Laguna,Juiz de Fora,Jaguarão,Itu,Itaporã,Ipiranga"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "American Indian Pidgin English",
@@ -8389,7 +8389,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Koatut,Aliorun,Diemom,Voirir,Kounekt,Oloe,Dialaskk,Guusww,Voeguus,Alarm,Olitonol,Seelit,Guomidin,Koigem,Alurelzz,Diotar,Seanats,Koetukgg,Olaltt,Diirosis"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
 },
 {
     "name": "Andaman Creole Hindi",
@@ -8398,7 +8398,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ookhoon,Groismoi,Qampa,Giondio,Loufoukw,Ntuuaac,Uayuagw,Wara,Oowoong,Aizhslau,Aumits,Uimbgi,Dzeezhee,Qouozh,Uflstua,Iampgroo,Snioxio,Aichswau,Nganka,Khoisnoi"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
 },
 {
     "name": "Arabic-Javanese of Klego",
@@ -8407,7 +8407,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Koasarn,Olunz,Dienurut,Voikogom,Alesg,Olodimir,Seines,Guusee,Kookal,Alamanww,Diudu,Seerutm,Voaty,Koiorit,Olemnn,Diosisem,Guird,Vounekar,Aloum,Seusor"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
 },
 {
     "name": "Bolze",
@@ -8416,7 +8416,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kougerrr,Diadagg,Guult,Voesules,Alakkk,Olilotal,Seedus,Guonilu,Koisol,Alutety,Seasarnn,Vounzz,Koenurd,Diikogum,Guesgg,Voodimor,Alinis,Olusei,Seokel,Guamanx"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Borgarmålet",
@@ -8425,7 +8425,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Olutetus,Seolm,Guasarol,Kounit,Alenurin,Diaem,Seikogzz,Voesar,Koodims,Olin"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Bozal Spanish",
@@ -8434,7 +8434,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Koinrr,Aluseom,Diokg,Seamanir,Voudes,Koerute,Olatal,Diiorww,Iren,Guemu,Voosism,Aliry,Olunekit,Seonn,Gualasem,Kousd,Aleguar,Diarum,Voelor,Koomidtt"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
 },
 {
     "name": "Cappadocian Greek",
@@ -8443,7 +8443,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guena,Voolink,Alitw,Olugeros,Seorll,Guadagil,Koulet,Alesulen,Diakam,Seilotz,Voedun,Koonilrr,Diutetg,Guolt,Voasares,Alunkk,Olenural,Ziit,Seaus,Guikogu"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Cauque Mayan",
@@ -8452,7 +8452,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Seanatan,Voumul,Koetukyy,Olalon,Diirosr,Voolindd,Alitss,Olugeras,Seork,Guadagur,Koulos,Alesulo,Diakil,Seilotxx,Voeden,Kooniln,Olisz,Diutetut,Guolrr,Voasarom"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Cypriot Maronite-Arabic",
@@ -8461,7 +8461,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Enug,Seotkk,Guanatal,Koumus,Aletuku,Dialol,Seirosy,Voenin,Koolinnn,Olitzz,Diugerd,Guors,Voadagum"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
 },
 {
     "name": "Duvle-Wano Pidgin",
@@ -8470,7 +8470,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guoir,Voalast,Olegukk,Voik,Searww,Guitonus,Gees,Koelm,Alomidol,Diigit,Seurelin,Boun,Vootem,Koanatzz,Lood,Olumar,Dietuks,Wail,Voirosgg,Alentt"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Français Tirailleur",
@@ -8479,7 +8479,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Alirosar,Dienum,Voitor,Kougertt,Olori,Diadagl,Guulx,Voesulat,Alakmm,Olilotul"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Haflong Hindi",
@@ -8488,7 +8488,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ipatinga,Gurupi,Guarulhos,Guarapuava,Governador Valadares,Goiânia,Garopaba,Garibaldi,Garça,Gandu,Fundão,Frutal,Frederico Westphalen,Franco da Rocha,Francisco Sá,Francisco Morato,Lucas do Rio Verde,Francisco Beltrão,Franca,Foz do Iguaçu"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
 },
 {
     "name": "Hawaiian Pidgin English",
@@ -8497,7 +8497,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Diemet,Seosisen,Voiram,Kounekz,Oloun,Dialasrr,Voegug,Alart,Olitones,Seelkk,Guomidal,Koigus,Alurelu,Diotol,Seanaty,Voumin"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
 },
 {
     "name": "Inuktitut-English Pidgin",
@@ -8506,7 +8506,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Alumut,Oletukun,Sealom,Koenir,Alolint,Diite,Seugerkk,Voorww,Koadagus,Olulm,Diesulol,Guakit,Voilotin,Aledem,Olonilzz,Seisar,Guutets,Alasargg,Diuntt,Seenuris"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
 },
 {
     "name": "Italian Eritrean",
@@ -8515,7 +8515,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Forquilhinha,Formoso do Araguaia,Formosa do Rio Preto,Formiga,Florianópolis,Flores da Cunha,Filadélfia,Ferraz de Vasconcelos,Fátima,Farroupilha,Estância,Espinosa,Erechim,Encantado,Dourados,Curitiba,Crixás,Contagem,Colorado,Colombo"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Javindo",
@@ -8524,7 +8524,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Alutetem,Diold,Seasarar,Vounum,Olaor,Diikogtt,Guesi,Voodiml,Alinx,Oluseat,Seokmm,Guamanul,Koudot,Aleruton"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Jersey Dutch",
@@ -8533,7 +8533,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Chapecó,Central,Caxias do Sul,Castro,Carlos Barbosa,Caarapó,Candelária,Campo Verde,Campo Mourão,Campo Grande,Campinas,Cáceres,Brasília,Brás,Bom Sucesso,Bom Retiro,Bom Despacho,Betim,Belo Horizonte,Belmonte"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "KiKAR",
@@ -8542,7 +8542,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Iaploo,Ngounkouts,Uikrxi,Koueish,Droueis,Dzazha,Augwis,Autrizh,Aukhin,Auhitr,Snuexkwiu,Khasna,Ntoispoi,Fruukhngii,Auchish,Xuezpriu,Itaud,Aibbau,Udbrua,Uxflua"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Labrador Inuit Pidgin French",
@@ -8551,7 +8551,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Olumzz,Dietukd,Guals,Voirosum,Alengg,Ololinor,Seitis,Guugeri,Koorel,Aladagx,Diulan,Seesulmm,Voakyy,Koilotot,Oledr,Dionilim,Guisdd,Vouteter,Alolas,Olasara"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
 },
 {
     "name": "Loucheux Jargon",
@@ -8560,7 +8560,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Koesas,Alodima,Diinur,Seusew,Vooko,Koamanll,Oludxx,Dierutet,Guatn,Voioram,Alemut,Olosisun,Seirom"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Macanese Patois",
@@ -8569,7 +8569,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Etug,Otom,Keen,Olotes,Dianate,Guumal,Voetukww,Alalu,Olirosm,Seeny,Guolinit,Koitnn,Alugerem,Diord,Seadagar,Voulum,Olakor,Diilottt"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Madras Bashai",
@@ -8578,7 +8578,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Cees,Seelgg,Guomidor,Koigis,Alureli,Diotel,Seanatx,Vouman,Koetukmm,Olalyy,Diirosot,Guenr,Voolinim,Alitdd,Olugerer,Seoras,Guadaga,Koulur,Alesulw,Diako"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Maritime Polynesian Pidgin",
@@ -8587,7 +8587,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Koorus,Aladagu,Diulol,Seesuly,Voakin,Koilotnn,Oledzz,Dionild,Guiss,Voutetum,Alolgg,Olasaror,Seunis"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Mbugu",
@@ -8596,7 +8596,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Koattt,Alioris,Dieml,Nead,Your,Iros,Taik,Does,Noan,Zaun,Jaod,Tiil"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Media Lengua",
@@ -8605,7 +8605,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Diiter,Seugerss,Voora,Koadagk,Olulw,Diesulos,Guakll,Voilotil,Aledet,Olonilen,Seisam"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Mediterranean Lingua Franca",
@@ -8614,7 +8614,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kwouprmpe,Uiprkri,Roukrgre,Oochoosh,Uagruaq,Oohootr,Uabuab,Jioflio,Triobrio,Nteespee,Skogntui,Quuaazh,Slotrswui,Smuupuund,Iakhvoo,Iajsoo,Lofokw,Igautw,Krocow,Ifraum"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Mekeo pidgins",
@@ -8623,7 +8623,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Seotos,Guanato,Koumil,Aletukxx,Dialen,Seirosn,Voenz,Koolinut,Olitrr,Diugerom,Guorg,Voadagir,Alules,Olesule,Seakal,Guilotww,Koedu,Alonilm,Diisy,Seutetit"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Michif",
@@ -8632,7 +8632,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bela Vista,Barra,Bambuí,Bagé,Astorga,Arcos,Arapongas,Araguari,Aragarças,Araçuaí,Aracruz,Araçoiaba da Serra,Araci,Araçatuba,Araçariguama,Aracaju,Aquidauana,Aquidabã,Apucarana,Aporá"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Micronesian Pidgin English",
@@ -8641,7 +8641,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Aiymau,Queiezh,Thuuvuuk,Greesmee,Shuuaagw,Foichoi,Puuaat,Niowio,Khousnouch,Rokrgrui,Oothooch,Snoxofr,Kaswa,Druutssii,Uimpgri,Stuutwuud,Uasluadz,Iaspmboo,Uaruank,Sluutrswii"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
 },
 {
     "name": "Missingsch",
@@ -8650,7 +8650,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Voiti,Kougerl,Olorx,Diadagat,Guulmm,Voesulul,Alakot,Oliloton,Seedim,Alerutg,Seiores,Voemkk,Koosisal,Olirus,Diuneku,Guool,Voalasy,Alusin,Olegunn,Searzz"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Mohawk Dutch",
@@ -8659,7 +8659,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Krouosm,Zhiophio,Troubrousp,Ujsua,Fuuaats,Tuegwuetr,Aigngau,Phodfrui,Bruuaav,Iaymoo,Uczua,Uispmbi,Aistau,Woiroi,Chafra,Tsuuaast,Swuuaam,Gruesmtriu,Tsoiyoi,Wournde"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Nagamese",
@@ -8668,7 +8668,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Seens,Guolinum,Koitgg,Alugeror,Dioris,Seadagi,Voulel,Koesulx,Olakan,Diilotmm,Guedyy,Voonilot,Alisr,Olutetim,Seoldd,Guasarer,Kounas,Alenura,Diaur,Seikogw"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Namibian Black German",
@@ -8677,7 +8677,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Apiaí,Aparecida do Taboado,Aparecida,Antonina,Anicuns,Angra dos Reis,Angatuba,Andradina,Andradas,Andorinha,Andirá,Anchieta,Anastácio,Anápolis,Anagé,Ampére,Amparo,Américo Brasiliense,Americana,América Dourada"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
 },
 {
     "name": "Nauru Pidgin English",
@@ -8686,7 +8686,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Spoisloi,Vojosw,Ruukruun,Viojio,Smeepee,Coikoi,Cokor,Rakra,Chiofrio,Uirsni,Ifaup,Phouofr,Iaxfloo,Wueruem,Neewee,Sluutruunt,Fuechtsiu,Twamba,Ndiogrio,Smopond"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
 },
 {
     "name": "Ndyuka-Tiriyó Pidgin",
@@ -8695,7 +8695,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Auxir,Suestsniu,Phoudoudz,Utrmpua,Skougout,Xoizoi,Bobob,Jouor,Khuusnnkii,Aidrpau,Nkuukwuuy,Uaphuasw,Guuaasp,Veejee,Nowgui,Oophoosw,Oontoox,Meenee,Zuuaal,Preelee"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Nefamese",
@@ -8704,7 +8704,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Koasaror,Olunis,Dienuri,Guael,Voikogx,Alesan,Olodimmm,Seinyy,Guuseot,Kookr,Alamanim,Diuddd,Seeruter,Voatas,Koiora,Olemur,Diosisw,Guiro,Vounekll,Aloxx"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Negerhollands",
@@ -8713,7 +8713,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Vound,Koenurar,Olaum,Guesor,Voodimtt,Alini,Olusel,Seokx,Guamanat,Koudmm,Alerutul,Diatot,Seioron,Voemim,Olirer,Diunekss,Guoa,Voalask,Alusw,Oleguos"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Negro Dutch",
@@ -8722,7 +8722,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Olunss,Dienuras,Voikogur,Alesos,Olodimo,Seinil,Guusexx,Kooken,Alamann,Diudz,Seerutut,Voatrr,Koiorom,Olemg,Diosisir,Guires,Vouneke,Aloal,Olalasww,Seusu"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Nootka Jargon",
@@ -8731,7 +8731,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guindd,Vouseer,Alokas,Olamana,Seudur,Guerutw,Koato,Aliorll,Diemxx,Seosiset,Voirn,Kounekam,Olout,Dialasun,Guusom,Voegu,Alarir,Olitont,Seele,Guomidkk"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Oorlams Creole",
@@ -8740,7 +8740,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Voinel,Kousex,Olokan,Diamanmm,Guudyy,Voerutot,Alatr,Oliorim,Seemdd,Guosiser,Koiras,Aluneka,Diour,Sealasw,Vouso,Koegull,Olarxx,Diitonet,Gueln,Voomidam"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Palenquero",
@@ -8749,7 +8749,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Dianats,Voetukgg,Alaltt,Olirosis,Seenl,Guolinel,Koitat,Alugeran,Diorul,Seadagyy,Voulon,Koesulr,Diilotdd,Guedss,Voonilas,Alisk,Olutetur,Olerute,Seatal,Guiorww"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Papua New Guinea Pidgin",
@@ -8758,7 +8758,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Alanater,Diumas,Seetuka,Voalur,Koirosw,Oleno,Diolinll,Guitxx,Vougeret,Alorn,Oladagam,Seulut,Guesulun,Koakom,Diedir,Seonilt,Voise,Koutetkk,Ololww,Diasarus"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Papuan Pidgin English",
@@ -8767,7 +8767,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Huet,Soal,Deus,Neon,Yoir,Diilotes,Ireg,Guedkk,Voonilal,Taam,Alisus,Olutetu,Seolol,Guasary"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
 },
 {
     "name": "Petjo",
@@ -8776,7 +8776,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Amargosa,Amambai,Alvinópolis,Álvares Machado,Altônia,Alto Araguaia,Altinópolis,Alpinópolis,Paraíso do Tocantins,Universidade Rural,Uarini,Tonantins,Tefé,Marechal Thaumaturgo,Acre,Tarauacá,Tapauá,Tabatinga,Sena Madureira,São Paulo de Olivença"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Pidgin Hawaiian",
@@ -8785,7 +8785,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guamanen,Koudam,Alerutz,Diatun,Seiorrr,Koosisg,Olirt,Diunekes,Voalasal,Alusus,Oleguu,Searol,Guitony,Koelin,Alomidnn,Diigzz"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Pidgin Iha",
@@ -8794,7 +8794,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guelrr,Voomidom,Zoan,Aligg,Olurelir,Joun,Seotes,Guanate,Ulod,Koumal,Aletukww,Diisx,Seutetat,Voolmm,Koasarul,Olunot,Dienuron,Guaim,Aleser,Olodimss"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Pidgin Ngarluma",
@@ -8803,7 +8803,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Aleruta,Diatur,Seiorw,Voemo,Koosisll,Olirxx,Diuneket,Voalasam,Alusut,Oleguun,Searom,Koelir,Alomidt,Diige,Seurelkk,Vootww,Koanatus,Olumm,Dietukol,Gualit"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Pidgin Onin",
@@ -8812,7 +8812,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "São Gabriel da Cachoeira,Santo Antônio do Içá,Rio Branco,Porto Velho,Porto Acre,Pauini,Manaus,Manacapuru,Ipixuna,Fonte Boa,Feijó,Cruzeiro do Sul,Codajás,Coari,Carauari,Roraima,Boa Vista,Benjamin Constant,Barcelos,Atalaia do Norte"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Pidgin Wolof",
@@ -8821,7 +8821,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Voerutar,Alatum,Seemor,Guosistt,Koiri,Alunekl,Diox,Sealasat,Vousmm,Koeguul,Olarot,Diitonon,Guelim,Aliger,Olurelss,Seota,Guanatk,Koumw,Aletukos"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Port Jackson Pidgin English",
@@ -8830,7 +8830,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Vounekos,Aloll,Olalasil,Seuset,Gueguen,Koaram,Alitonz,Dielun,Seomidrr,Kourelg,Olott,Dianates,Guumkk,Voetukal,Alalus,Olirosu,Seenol,Guoliny,Koitin,Alugernn"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
 },
 {
     "name": "Pretoria Sotho",
@@ -8839,7 +8839,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Urer,Faas,Guusezz,Paug,Kookar,Alamans,Seerutgg,Voattt,Koioris,Oleml,Diosisel,Guirat,Vounekan,Aloul,Olalasyy,Seuson,Guegur,Alitondd,Dielss,Seomidas"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Qoqmoncaq",
@@ -8848,7 +8848,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ariquemes,Anori,Alvarães,Vilhena,Jaru,Cacoal,Água Boa,Alto Alegre,Anapu,Aparecida de Goiânia,Apuí,Arame,Aripuanã,Assis Chateaubriand,Aurora do Pará,Bacabeira,Balneário Gaivota,Banabuiú,Bom Jesus das Selvas,Costa Rica"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Queensland Kanaka English",
@@ -8857,7 +8857,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Seolinnn,Voitzz,Kougerd,Olors,Diadagum,Guulgg,Voesulor,Alakis,Oliloti,Seedel,Guonilx,Koisan,Alutetmm,Diolyy,Seasarot,Vounr,Koenurim"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
 },
 {
     "name": "Roquetas Pidgin Spanish",
@@ -8866,7 +8866,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Olemdd,Diosiser,Guiras,Vouneka,Alour,Olalasw,Seuso,Guegull,Koarxx,Alitonet,Alistt,Olutetis,Seoll,Guasarel,Kounat,Alenuran,Diaul,Seikogyy"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
 },
 {
     "name": "Russenorsk",
@@ -8875,7 +8875,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Alasartt,Diuni,Seenurl,Voax,Koikogat,Olesmm,Diodimul,Guinot,Vouseon,Alokim,Olaman,Seuder,Guerutss"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Samoan Plantation Pidgin",
@@ -8884,7 +8884,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Diilotal,Guedus,Voonilu,Alisol,Olutety,Guasarnn,Kounzz,Alenurd,Seikogum,Voesgg,Koodimor,Olinis,Diusei,Guokel,Voamanx,Aludan,Olerutmm,Seatyy,Guiorot,Koemr"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Settler Swahili",
@@ -8893,7 +8893,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Seutety,Koasarnn,Olunzz,Dienurd,Voikogum,Alesgg,Olodimor,Seinis,Guusei,Kookel,Alamanx,Diudan,Seerutmm,Voatyy,Koiorot,Olemr,Diosisim"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
 },
 {
     "name": "Simplified Italian of Libya",
@@ -8902,7 +8902,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Itaim Paulista,Itaobim,Itaquiraí,Itatim,Itinga do Maranhão,Jaboatão dos Guararapes,Jaíba,Jenipapo dos Vieiras,Jijoca de Jericoacoara,Juara,Maraã,Mucajaí,Novo Gama,Novo Progresso,Novo Repartimento,Ourilândia do Norte,Pacajá,Pacaraima,Paço do Lumiar,Palmeirândia"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Simplified Italian of Somalia",
@@ -8911,7 +8911,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Paranatinga,Parauapebas,Pedra Preta,Planalto,Santa Bárbara do Pará,Santa Luzia do Pará,Santa Maria de Jetibá,Santa Terezinha de Itaipu,Santana do Araguaia,Santo Antônio do Descoberto,São Domingos do Araguaia,São Félix do Coribe,São Francisco de Itabapoana,São Francisco do Guaporé,São Gabriel do Oeste,São João do Soter,São José dos Quatro Marcos,São Luís Gonzaga do Maranhão,São Miguel do Guaporé,Sapopemba"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Skepi Dutch Creole",
@@ -8920,7 +8920,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Sento Sé,Simões Filho,Sinop,Sítio Novo,Iguatemi,Mooca,Pari,Sao Domingos,Nassau,Freeport,Killarney,Thimphu,Bhutan,Punākha,Phuntsholing,Chukha,Tsirang,Botswana,Tlokweng,South-East"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Solombala-English",
@@ -8929,7 +8929,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Thamaga,Serowe,Selebi-Phikwe,Ramotswa,Palapye,Molepolole,Mogoditshane,Mochudi,Maun,North-West,Mahalapye,Lobatse,Letlhakane,Kanye,Ghanzi,Gaborone,Francistown,Jwaneng,Belarus,Minsk"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
 },
 {
     "name": "Solomon Islands Pijin",
@@ -8938,7 +8938,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Seudal,Guerutww,Koatu,Aliorm,Diemy,Seosisit,Voirnn,Kounekem,Dialasar,Guusum,Alaror,Olitontt,Seeli,Guomidl,Koigx"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Taimyr Pidgin Russian",
@@ -8947,7 +8947,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Aluddd,Oleruter,Seatas,Guiora,Koemur,Alosisw,Diiro,Seunekll,Vooxx,Koalaset,Olusn,Dieguam,Guarut,Voitonun,Alelom,Seigir,Guurelt,Koote,Alanatkk,Diumww"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
 },
 {
     "name": "Tangwang",
@@ -8956,7 +8956,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Tseeyee,Iswauf,Zhouphche,Uiflsti,Ookool,Skouont,Aubib,Uidzspi,Mpueieph,Spuusluufl,Iazhsloo,Spuuslkii,Grosmtrui,Ntiospio,Aulism,Aumpisl,Uavuafr,Druuaas,Ursnua,Aukil"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Tansi",
@@ -8965,7 +8965,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Drouos,Yuenguedr,Iaczoo,Audribr,Aujikh,Ciokio,Cuekuer,Uankuag,Youngoudr,Zueiel,Drueies,Oojookh,Inkaug,Zhuuphchii,Uasuav,Kruecsmiu,Itrauzh,Kwueprmpiu,Guenduegw,Izaukr"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Te Parau Tinito",
@@ -8974,7 +8974,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guonilun,Koisom,Diolir,Seasart,Voune,Koenurkk,Olaww,Diikogus,Guesm,Voodimol,Alinit,Olusein,Seokem,Guamanzz,Koudar,Aleruts,Diat,Seiorgg,Voemtt,Koosisis"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Tinglish",
@@ -8983,7 +8983,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Koain,Alikognn,Dieszz,Seodimd,Voins,Kouseum,Olokgg,Diamanor,Guudis,Voeruti,Alatel,Oliorx,Seeman,Guosismm,Koiryy,Alunekot,Dior,Sealasim,Vousdd,Koeguer"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Tsotsitaal",
@@ -8992,7 +8992,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Olulus,Diesulu,Guakol,Voiloty,Aledin,Olonilnn,Seiszz,Guutetd,Kools,Alasarum,Diungg,Seenuror,Voais,Koikogi,Olesel,Diodimx,Guinan,Vousemm,Alokyy,Olamanot"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Unserdeutsch",
@@ -9001,7 +9001,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Alusedd,Diokss,Seamanas,Voudk,Koerutur,Olatos,Diioro,Guemil,Koend,Alolinar,Diitum"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Vedda",
@@ -9010,7 +9010,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Dianatd,Guums,Voetukum,Alalgg,Olirosor,Seenis,Guolini,Koitel,Alugerx,Dioran,Seadagmm,Voulyy,Koesulot,Olakr,Diilotim,Gueddd,Vooniler,Alisas,Oluteta,Seolur"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Waxiang",
@@ -9019,7 +9019,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Zhlobin,Vitebsk,Svetlogorsk,Slutsk,Slonim,Rechytsa,Brest,Polotsk,Pinsk,Mogilev,Orsha,Novopolotsk,Mazyr,Lida,Kobryn,Baranovichi,Bobruysk,Orange Walk,Belmopan,Belize City"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "West Greenlandic Pidgin",
@@ -9028,7 +9028,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Olaker,Diilotss,Gueda,Voonilk,Alisw,Olutetos,Seolll,Guasaril,Kounet,Alenuren,Diaam,Seikogz,Voesun,Koodimrr,Diuseg,Guokt,Voamanes,Aludkk,Olerutal,Seatus"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Xieheyu",
@@ -9037,7 +9037,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Aletukd,Dials,Seirosum,Voengg,Koolinor,Olitis,Diugeri,Guorel,Voadagx,Alulan,Olesulmm,Seakyy,Guilotot,Koedr,Alonilim,Diisdd,Seuteter,Voolas,Koasara,Olunur"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Beni Snous dialect",
@@ -9046,7 +9046,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Abbotsford,Canada,Ontario,Quebec,Baie-Comeau,Barrie,Bedford,Bolton,Brampton,Brantford,Burlington,Cambridge,Campbell River,Charlottetown,Prince Edward Island,Chicoutimi,Chilliwack,Coquitlam,Corner Brook,Courtenay"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Ghadames",
@@ -9055,7 +9055,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Delta,Dieppe,New Brunswick,Drummondville,Duncan,Fredericton,Gatineau,Georgetown,Gloucester,Granby,Grimsby,Guildford,Kamloops,Kenora,Kingston,Kitchener,Laval,London,Markham,Milliken"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Iznasen",
@@ -9064,7 +9064,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Milton,Mimico,Mirabel,Miramichi,Mission,Mississauga,Moncton,Montréal,Mont-Royal,Mont-Saint-Hilaire,Moose Jaw,Mount Pearl,Mount Pleasant,Nanaimo,Nepean,New Glasgow,Newmarket,Newton,New Westminster,Niagara Falls"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Kabyle",
@@ -9073,7 +9073,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Niagara-on-the-Lake,Norfolk County,North Battleford,North Bay,North Cowichan,North Delta,North Vancouver,Notre-Dame-de-Grâce,Oak Bay,Oakville,Oakwood Village,Okanagan Mission,Okotoks,Wîhkwêntôwin,Orangeville,Orillia,Oshawa,Ottawa,Ottawa South,Owen Sound"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Shawiya",
@@ -9082,7 +9082,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Seiora,Voemur,Koosisw,Oliro,Diunekll,Guoxx,Voalaset,Alusn,Oleguam,Searut,Guitonun,Koelom"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Shilha",
@@ -9091,7 +9091,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Olalase,Seusal,Gueguww,Koaru,Alitonm,Diely,Seomidit,Voignn,Kourelem,Olotd,Dianatar,Guumum"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Siwi",
@@ -9100,7 +9100,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Seusea,Vookur,Koamanw,Oludo,Dierutll,Guatxx,Voioret,Alemn,Olosisam,Seirut,Guunekun,Kooom,Diusir,Seegut,Voare,Koitonkk,Olelww,Diomidus,Guigm,Vourelol"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "South Oran and Figuig Berber",
@@ -9109,7 +9109,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Seolinor,Voitis,Kougeri,Olorel,Diadagx,Guulan,Voesulmm,Alakyy,Olilotot,Seedr,Guonilim,Koisdd,Aluteter,Diolas,Seasara,Vounur,Koenurw"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Tarifit",
@@ -9118,7 +9118,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Koalasgg,Olustt,Dieguis,Guarl,Voitonel,Alelat,Olomidan,Seigul,Guurelyy,Kooton,Alanatr,Seetukdd,Voalss,Koirosas,Olenk,Diolinur,Guitos,Vougero,Aloril,Oladagxx"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Tidikelt",
@@ -9127,7 +9127,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Mboueidz,Zhuephchiu,Spasla,Yoingoi,Phuedfriu,Nduugrslii,Buebbiu,Grousmoug,Truebrthiu,Gwoueifl,Uigwtsi,Duuskhii,Drotsomp,Snuexuefr,Trabra,Ufkua,Xuuaapr,Keeswee,Broutousl,Xuezuekh"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Tuareg Tamasheq",
@@ -9136,7 +9136,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Cairo,Alexandria,Luxor,Aswan,Giza,Port Said,Suez,Ismailia,Minya,Damietta"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Tugurt",
@@ -9145,7 +9145,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Repentigny,Richmond Hill,Riverview,Rock Forest,Rouge,Rutland,Saanich,Saddle Ridge,Saguenay,Saint-Basile-le-Grand,Saint-Bruno-de-Montarville,Saint-Charles-Borromée,Saint-Constant,Sainte-Catherine,Sainte-Julie,Sainte-Thérèse,Saint-Eustache,Saint-Hubert,Saint-Jérôme,Saint John"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Tuwat",
@@ -9154,7 +9154,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Saint John West,Saint-Lazare,Saint-Léonard,Saint-Lin-Laurentides,Saint-Louis-de-Terrebonne,Saint-Michel,Salmon Arm,Sarnia,Saskatoon,Sault Ste. Marie,Scarborough Village,Seafair,Sept-Îles,Sherbrooke,Sherwood Park,Sooke,South Surrey,Spruce Grove,Squamish,St. Albert"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Western Algerian Zenatic dialects",
@@ -9163,7 +9163,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "St. Catharines,Steeles,Steinbach,Stittsville,Stoney Creek,Stony Plain,Stouffville,Stratford,Strathroy,Strawberry Hill,St. Thomas,Surrey,Swift Current,Sylvan Lake,Tam O'Shanter-Sullivan,Taradale,Tecumseh,Templeton-Est,Terrace,Terrebonne"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Zurg",
@@ -9172,7 +9172,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "The Beaches,Thorold,Thunder Bay,Tillsonburg,Timmins,Toronto,Trois-Rivières,Tsawwassen,Tuscany,Uxbridge,Val-des-Arbres,Vancouver,Vanier,Varennes,Vaudreuil-Dorion,Vaughan,Vedder Crossing,Verdun,Vernon,Victoria-Fraserview"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Zuwara Berber",
@@ -9181,7 +9181,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Victoriaville,Wasaga Beach,Waterdown,Welland,West End,West Hill,Westmount,Weston,Whalley,Whitby,Whitchurch-Stouffville,Whitehorse,White Rock,Windsor,Winnipeg,Woburn,Woodlawn,Woodstock,Yellowknife,Northwest Territories"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Arapaho",
@@ -9190,7 +9190,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Yorkton,Halifax,St. John's,Beauport,Charlesbourg,Sainte-Foy,Lévis,Rimouski,Rivière-du-Loup,Aylmer,L'Ancienne-Lorette,Edmundston,Hull,Buckingham,Thetford-Mines,Cole Harbour,West Kelowna,Jonquière,Saint-Augustin-de-Desmaures,Ladner"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Coast Tsimshian (Sm’algya̱x)",
@@ -9199,7 +9199,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Seitss,Guugeras,Koork,Aladagur,Oloky,Diamanit,Guudnn,Voerutem,Alatd,Oliorar,Seemum,Koiror,Alunektt,Dioi,Sealasl,Vousx,Koeguat,Olarmm,Diitonul,Guelot"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Cochimí",
@@ -9208,7 +9208,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Koisw,Alutetos,Diolll,Seasaril,Vounet,Koenuren,Olaam,Diikogz,Guesun,Voodimrr,Oluseg,Seokt,Guamanes,Koudkk,Alerutal,Diatus,Seioru,Voemol,Koosisy,Olirin"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Gwichʼin",
@@ -9217,7 +9217,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guenurut,Koarr,Alikogom,Diesg,Seodimir,Voines,Kousee,Olokal,Diamanww,Guudu,Voerutm,Alaty,Oliorit,Seemnn,Guosisem,Koird,Alunekar,Dioum,Vousor,Koegutt"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Hän",
@@ -9226,7 +9226,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Accra,Kumasi,Tamale,Takoradi,Cape Coast,Sunyani,Ho,Koforidua,Wa,Winneba"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Métis French",
@@ -9235,7 +9235,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Uakruakw,Ihautr,Uislqi,Twueiez,Ruukrgrii,Nkakwa,Tuugwjii,Uacuapr,Iabrhoo,Snueiekw,Druutsuump,Mboqdzui,Iankwoo,Flanta,Uajuakh,Uiswzhi,Pueiet,Kwuupruung,Ikraukw,Snoxkwui"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
 },
 {
     "name": "Mi'kmaq",
@@ -9244,7 +9244,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guodimal,Koinus,Aluseu,Diokol,Seamany,Voudin,Koerutnn,Olatzz,Diiord,Guems,Voosisum"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Mohave",
@@ -9253,7 +9253,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Dallas,Houston,Austin,Fort Worth,San Antonio,El Paso,Arlington,Corpus Christi,Plano,Lubbock"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Na-Dene",
@@ -9262,7 +9262,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Aludin,Olerutnn,Seatzz,Guiord,Koems,Alosisum,Diirgg,Seunekor,Voois,Koalasi,Diegux,Guaran,Voitonmm,Alelyy,Olomidot,Seigr,Guurelim,Kootdd"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Occaneechi",
@@ -9271,7 +9271,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Chuefruel,Voujwe,Kwueprueng,Iafrthoo,Uanguask,Zoudzle,Thiovio,Iandnkoo,Smoupbre,Nkiokwio,Swoueim,Prueieh,Kwoueimp,Uaduath,Tsoyoh,Iatwskoo,Biobio,Uihsmi,Imbaunt,Coueip"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Southern Tepehuan",
@@ -9280,7 +9280,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Snuuxuufr,Uiznti,Zhuuphuuz,Ooroonk,Unkwua,Aiphtrau,Nguenkuets,Ngoueimb,Ooxoor,Izhauk,Siostio,Uaswuaf,Dzuuzhuux,Kruecuew,Foueits,Sposlkui,Aitwskau,Vuujuusw,Choueiy,Oosnoow"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Tanacross",
@@ -9289,7 +9289,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ololim,Guuner,Voenurss,Alaa,Olikogk,Seesw,Guodimos,Koinll,Aluseil,Dioket,Seamanen"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Tłįchǫ",
@@ -9298,7 +9298,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "La Haute-Saint-Charles,Neufchâtel-Est–Lebourgneuf,Downtown Vancouver,Chinatown,Fallingbrook,Lake Country,Valley East,Downtown Halifax,York University Heights,Parkwoods-Donalda,South Parkdale,South Riverdale,North St.James Town,Waterfront Communities-The Island,West Humber-Clairville,Banbury-Don Mills,Birchcliffe-Cliffside,Islington-City Centre West,Mount Pleasant West,Eringate-Centennial-West Deane"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Ute",
@@ -9307,7 +9307,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Skueient,Iatsshoo,Zhophoz,Soueisn,Smuepuend,Ichaush,Toigwoi,Huudruuq,Uaxuar,Aimpgrau,Quempuetw,Flontov,Stoutwoud,Mueiesk,Ndogrosk,Ntouspce,Aitrmpau,Skougnte,Luuaadr,Ndogrslui"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Wiyot",
@@ -9316,7 +9316,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ookrookw,Ikwaund,Guunduugw,Aiwkhau,Frokhngui,Proiloi,Ookwoond,Mpoihoi,Shama,Swuuthuuc,Twoueiz,Jueflueth,Dzoizhoi,Khouonk,Huuaad,Ispauz,Twuuaaz,Iathphoo,Uskyua,Sheemee"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Yurok",
@@ -9325,7 +9325,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Voeguzz,Alarar,Olitons,Guomidgg,Koigtt,Alurelis,Diotl,Seanatel,Voumat,Koetukan,Olalul,Diirosyy,Guenon,Voolinr,Olugerdd,Seorss,Guadagas,Koulk,Alesulur"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Zuni",
@@ -9334,7 +9334,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guour,Voalasw,Aluso,Olegull,Searxx,Guitonet,Koeln,Alomidam,Diigut,Seurelun,Vootom,Olumir,Dietukt,Guale,Voiroskk,Alenww,Ololinus,Seitm,Guugerol,Koorit"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Alekano",
@@ -9343,7 +9343,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Alorl,Oladagel,Seulat,Guesulan,Koakul,Alilotyy,Diedon,Seonilr,Vois,Koutetdd,Ololss,Diasaras,Guunk,Voenurur,Alaos,Olikogo,Seesil,Guodimxx,Koinen,Diokz"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Aneme Wake",
@@ -9352,7 +9352,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Dovercourt-Wallace Emerson-Junction,Edenbridge-Humber Valley,Newtonbrook East,Newtonbrook West,L'Amoreaux,Taylor-Massey,Lansing-Westgate,Lawrence Park South,Leaside-Bennington,Mount Olive-Silverstone-Jamestown,Mount Pleasant East,Willowdale West,Black Creek,Rockcliffe-Smythe,Rosedale-Moore Park,Stonegate-Queensway,Danforth East York,St. Andrew-Windfields,Annex,Thorncliffe Park"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Ankave",
@@ -9361,7 +9361,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Victoria Village,Wexford/Maryvale,Westminster-Branson,Willowdale East,Willowridge-Martingrove-Richview,Church-Yonge Corridor,Brookhaven-Amesbury,O'Connor-Parkview,Kensington-Chinatown,Bay Street Corridor,Agincourt South-Malvern West,East End-Danforth,Englemount-Lawrence,Bedford Park-Nortown,Bathurst Manor,Clanton Park,Clairlea-Birchmount,Don Valley Village,Downsview-Roding-CFB,Glenfield-Jane Heights"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Ari",
@@ -9370,7 +9370,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Searll,Guitonil,Koelet,Alomiden,Diigam,Seurelz,Vootun,Koanatrr,Olum,Dietukg,Gualt,Voiroses,Alenkk,Ololinal,Seitus,Guugeru,Koorol,Aladagy,Diulin"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Asmat–Kamoro",
@@ -9379,7 +9379,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Diemol,Seosisy,Voirin,Kouneknn,Olozz,Dialasd,Guuss,Voeguum,Alargg,Olitonor,Seelis,Guomidi,Koigel,Alurelx,Diotan,Seanatmm,Voumyy,Koetukot,Olalr,Diirosim"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Atayal",
@@ -9388,7 +9388,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Jueflriu,Aidbrau,Aufrim,Uatwuafl,Uijsi,Teegwee,Kwoprmpui,Zeedzee,Auskist,Zodzosn,Qoumpzhe,Wuerndiu,Spueslkiu,Nduuaasl,Thoivoi,Mpouhphe,Airsnau,Aifrthau,Khiosnio,Iakdzoo"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Atohwaim (Kaugat)",
@@ -9397,7 +9397,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guuldd,Voesuler,Alakas,Olilota,Seedur,Guonilw,Koiso,Alutetll,Diolxx,Seasaret,Vounn,Koenuram,Olaut,Diikogun,Guesom,Alinir,Seoke,Guamankk,Koudww,Alerutus"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Australian Kriol",
@@ -9406,7 +9406,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Xeezee,Itsaut,Oosoov,Aukrikw,Aigwtsau,Aimbgau,Uawuang,Ntoueic,Grueietr,Nuuaag,Kwueiemp,Kwouomp,Mpuuhphii,Ausmimp,Ntueiec,Iambgoo,Itwaufl,Iflausn,Loufdre,Ukdzua"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Auye",
@@ -9415,7 +9415,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Statwa,Uizhsli,Nkoikwoi,Unfrua,Chuufruul,Treebree,Iafkoo,Suestueph,Ruekrgriu,Ndougrousk,Mpouoph,Ishaudr,Seestee,Iatrmpoo,Suuaasn,Tueiej,Speeslee,Dreetsee,Gruusmuug,Oofloosn"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Becking–Dawi",
@@ -9424,7 +9424,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "High Park-Swansea,Kingsview Village-The Westway,L'Île-Bizard–Sainte-Geneviève,Ville-Émard,Snowdon,Saint-Henri,Mile End,Parc-Extension,Outremont,Desmarchais-Crawford,Ile-des-Soeurs,Fairview,Dunbar-Southlands,Marpole,Sunset,Riley Park,Edmonds,Blundell,Surrey City Centre,Westwood Plateau"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Budai-Labuan-Taromak Rukai",
@@ -9433,7 +9433,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Victoria-Downtown,Carey,Lougheed,Harewood,Central Lonsdale,Townline,Chilliwack-Downtown,South Granville,Downtown Eastside,University Endowment Lands,Maywood,East Hastings,Central Coquitlam,Coquitlam Town Centre,Coquitlam West,Renfrew Heights,Le Plateau-Mont-Royal,Ville-Marie,Le Sud-Ouest,Mercier–Hochelaga-Maisonneuve"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Cèmuhî",
@@ -9442,7 +9442,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Hobinum,Neiktenir,Yiisui,Hiilukda,Woyen,Soeele,Yeyenemu,Pabun,Murensa,Sinendunto,Goau,Hagene,Mobeninun,Tukun,Wuedas,Gueslunot,Saendo,Woaairke,Benun,Metanni"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Cheke Holo",
@@ -9451,7 +9451,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bogenda,Kibeningo,Wukun,Tuedmu,Beeslunpi,Oento,Toaairye,Gunun,Katanun,Nuranpunil,Uit,Alanot,Iganidba,Misun,Teakke,Yuadtunlu,Nialra,Taaningso,Howunyu,Nesunuu"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Ese Ömie",
@@ -9460,7 +9460,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Alaka,Olilotk,Seedw,Guonilos,Koisll,Alutetil,Diolet,Seasaren,Vounam,Koenurz,Olaun,Diikogrr,Voodimg,Alint,Olusees,Seokkk,Guamanal,Koudus,Alerutu,Diatol"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Hagen",
@@ -9469,7 +9469,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Montréal-Nord,Pierrefonds-Roxboro,Rivière-des-Prairies–Pointe-aux-Trembles,Rosemont–La Petite-Patrie,Villeray–Saint-Michel–Parc-Extension,Le Vieux-Longueuil,Halifax South End,Halifax West End,Mt Pleasant,Christopher-Champlain,Fiddlesticks,La Cité-Limoilou,Les Rivières,Nutana Sector,Core Neighbourhoods,University Heights,Confederation,Lawson,Stonebridge,Arcola East"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Hoanya",
@@ -9478,7 +9478,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Seutetd,Vools,Koasarum,Olungg,Dienuror,Guais,Voikogi,Alesel,Olodimx,Seinan,Guusemm,Kookyy,Alamanot,Diudr,Seerutim,Voatdd,Koiorer,Olemas,Diosisa,Guirur"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Hoia Hoia",
@@ -9487,7 +9487,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Seumut,Guetukun,Koalom,Aliros,Dienir,Seolint,Voite,Kougerkk,Olorww,Diadagus"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Isbukun Bunun",
@@ -9496,7 +9496,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Dewdney East,Fredericton Northside,Clayton Park West,West Island,Yangambi,Congo,The Democratic Republic of the,Tshopo,Watsa,Wamba,Uvira,South Kivu,Tshikapa,Kasai,Sake,Rutshuru,Pweto,Pepa,Tanganyika,Nyunzu,Mwene-Ditu"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Javanese macro entry",
@@ -9505,7 +9505,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ugenwu,Bobenin,Sukun,Paedal,Tueslunor,Keenau,Oaairde,Yinun,Batanli,Karanpunna,Tilanse,Aganidtu,Hisun,Noaki,Teadtunam,Huales,Nianingut,Nayun,Yowundu,Hosunuki"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Kaera",
@@ -9514,7 +9514,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Voonilll,Alisxx,Olutetet,Seoln,Guasaram,Kounut,Alenurun,Diaom,Voesir,Koodimt,Oline,Diusekk,Guokww,Voamanus,Aludm,Olerutol,Seatit,Guiorin,Koemem,Alosiszz"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Kafoa",
@@ -9523,7 +9523,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Mweka,Mulongo,Mangbwalu,Baudhuinville,Miabi,Mbuji-Mayi,Manono,Malemba-Nkulu,Lusambo,Sankuru,Luputa,Lukula,Luebo,Lubero,Lubao,Lodja,Lisala,Mongala,Kongolo,Kisangani"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Kaguel",
@@ -9532,7 +9532,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kirumba,Kipamba,Kindu,Maniema,Kayna,Katwa,Katanda,Kasongo,Kanyobagonga,Kanyama,Kananga,Kampene,Kamina,Kalemie,Kabinda,Kabeya-Kamwanga,Kabare,Kabalo,Isiro,Ilebo"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Kainantu",
@@ -9541,7 +9541,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Phuuduudz,Uachuash,Facha,Ooboob,Cueiep,Twombos,Griosmio,Uitrmpi,Nkokwoy,Uafluasn,Uplua,Auflisn,Aiplau,Gwueskfliu,Gwuuskflii,Vuejuesw,Oodzooc,Doskhui,Oosmoomp,Rokron"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Kalamian",
@@ -9550,7 +9550,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Basenosbu,Luran,Numenla,Tikensanmo,Aod,Iengru,Noegogti,Riwan,Yuera,Huemyanon,Iong,Taaur,Yowanbonit,Waaa,Nepandi,Sumanaika,Nogon,Hidanne,Naangkonpu,Eem"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Kanakanavu",
@@ -9559,7 +9559,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Voolem,Koasarzz,Olunar,Dienurs,Voikoggg,Alestt,Olodimis,Seinl,Guuseel,Kookat,Alamanan,Diudul,Seerutyy,Voaton,Koiorr,Olirose,Seenal,Guolinww,Koitu,Alugerm"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Kawacha",
@@ -9568,7 +9568,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guusut,Voeguun,Alarom,Seelir,Guomidt,Koige,Alurelkk,Diotww,Seanatus,Voumm,Koetukol,Olalit,Diirosin,Guenem,Voolinzz,Alitar,Olugers,Guadaggg,Koultt,Alesulis"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Kayagar (Kaygir)",
@@ -9577,7 +9577,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Nkuuaaq,Ziodzio,Sluetrswiu,Uinttwi,Smoipoi,Shomgwui,Fluentuev,Togwotr,Sloitroi,Coukpe,Mouosk,Aigrkwau,Uafuap,Qoueizh,Austij,Pheedee,Kuuswshii,Yueietw,Kwouproung,Iaslqoo"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Ke’yagana",
@@ -9586,7 +9586,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Alolx,Olasarat,Seunmm,Guenurul,Koaot,Alikogon,Diesim,Voiner,Kousess,Guanaty,Koumin,Aletuknn,Dialzz,Seirosd,Voens,Koolinum,Olitgg"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Ketagalan",
@@ -9595,7 +9595,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Voalos,Koiroso,Olenil,Diolinxx,Guiten,Vougern,Alorz,Oladagut,Seulrr,Guesulom,Koakg"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Kilivila",
@@ -9604,7 +9604,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kudoni,Piongagam,Netin,Buotes,Koorwinut,Doang,Ueidu,Boibanki,Pasinno,Tupiniire,Legan,Kekinwi,Odinkan,Baigom,Kaitomer,Puman,Tiimoi,Aaunanbu,Hior,Nowenla"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Kimaama (Kimaghama)",
@@ -9613,7 +9613,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Goma,Gbadolite,Nord-Ubangi,Gandajika,Djugu,Demba,Butembo,Buta,Bas-Uele,Businga,Bunia,Bumba,Bukavu,Bukama,Boende,Tshuapa,Binga,Beni,Bakwa,Babamba"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Kombai–Wanggom",
@@ -9622,7 +9622,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Aru,Aketi,Lualaba,Mokambo,Malemba,Lubumbashi,Likasi,Kolwezi,Kipushi,Kambove,Fungurume,Zongo,Tshela,Nioki,Mai-Ndombe,Mushie,Moanda,Mbanza-Ngungu,Mbandaka,Equateur"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Kowiai",
@@ -9631,7 +9631,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Oigin,Toitomal,Guman,Kaimet,Nuaunanau,Uor,Awengu,Isenosli,Miran,Temenpo,Yukensanse,Niengyi,Taegogi,Sawan,Hoerol,Neemyanes,Kiong,Yiabe,Hiwanbondu,Woaa"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Kulon",
@@ -9640,7 +9640,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Olindd,Diuseer,Guokas,Voamana,Aludur,Olerutw,Seato,Guiorll,Koemxx,Alosiset,Diirn,Seunekam,Voout,Koalasun,Olusom,Guarir,Voitont,Alele,Olomidkk,Seigww"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Kunimaipa",
@@ -9649,7 +9649,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Seoas,Gualasa,Kousur,Aleguw,Diaro,Seitonll,Voelxx,Koomidet,Olign,Diurelam,Guotut,Voanatun,Alumom,Oletuk,Sealir,Guirost,Koene,Alolinkk,Diitww,Seugerus"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Lowland Iwur",
@@ -9658,7 +9658,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Koudem,Alerutzz,Diatar,Seiors,Koosisgg,Olirtt,Diunekis,Voalasel,Alusat,Oleguan,Searul,Guitonyy,Koelon,Alomidr,Seureldd,Vootss,Koanatas,Olumk,Dietukur,Gualos"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Madurese macro entry",
@@ -9667,7 +9667,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Monendundo,Tuau,Wugenlu,Gubeninni,Mekun,Saedso,Woeslunwe,Meenu,Ruaairim,Runun,Getanos,Maranpunei,Welange,Gaganidku,Wisun,Riakpa,Waadtunro,Oik,Loalwu,Reaning"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Maga-Tona Rukai",
@@ -9676,7 +9676,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Stoueix,Houod,Stoutwxe,Xozokh,Stotwod,Riokrio,Twoimboi,Uzntua,Stiotwio,Luufuukw,Yuungtwii,Buubbii,Voueiw,Uprkrua,Sloueisw,Uapruagr,Bruutuusl,Mbuequest,Huedrueq,Aislqau"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Mailu",
@@ -9685,7 +9685,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Voiorm,Alemy,Olosisit,Seirnn,Guunekem,Alalasar,Diusum,Voaror,Koitontt,Oleli,Diomidl,Guigx,Vourelat,Alotmm,Olanatul,Seumot,Guetukon,Koalim,Diener,Seolinss"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Maiwa",
@@ -9694,7 +9694,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Aismprau,Zouol,Uspmbua,Aibrhau,Fluuaakr,Muuaask,Impausl,Aingnau,Gwaska,Dziozhio,Tiogwio,Uidrpi,Skoigoi,Swuuthmii,Skogot,Snuuxkwii,Douskhe,Bruetuesl,Ungnua,Khousnnke"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Makalero",
@@ -9703,7 +9703,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Seagg,Guikogor,Koesis,Alodimi,Diinel,Seusex,Guigut,Vourelun,Alotom,Seumir,Guetukt,Koale,Aliroskk,Dienww,Seolinus,Voitm,Kougerol,Olorit,Diadagin,Guulem"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Makasae",
@@ -9712,7 +9712,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Alenure,Diaal,Seikogww,Voesu,Koodimm,Oliny,Diuseit,Guoknn,Voamanem,Aludd,Olerutar,Seatum,Koemor,Alosistt,Diiri,Seunekl,Voox,Koalasat,Olusmm,Dieguul"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Makassar",
@@ -9721,7 +9721,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Nausekur,Ewon,Yeunou,Heooyondi,Teben,Sitonlo,Yarondenne,Looo,Molonsi,Segonouwa,Yuken,Miodlenem,Reum,Woolis,Goonulai,Hunen,Ruyinga,Witinpenko,Maninnu,Rolinutri"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Makayam",
@@ -9730,7 +9730,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Diedww,Seonilus,Voism,Koutetol,Ololit,Diasarin,Guunem,Voenurzz,Alaar,Olikogs,Guodimgg,Kointt,Aluseis,Diokl"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Mandobo",
@@ -9739,7 +9739,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Matadi,Masi-Manimba,Libenge,Kutu,Kinshasa,Kimpese,Kikwit,Kenge,Kasongo-Lunda,Kwango,Kasangulu,Inongo,Inkisi,Idiofa,Gemena,Dibaya-Lubwe,Boma,Bolobo,Bolenge,Basankusu"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Mantauran Rukai",
@@ -9748,7 +9748,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guomidil,Koiget,Alurelen,Diotam,Seanatz,Voumun,Koetukrr,Yoil,Diirosg,Guent,Voolines"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Māori",
@@ -9757,7 +9757,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bandundu Province,Masina,Hyosha,Mwene,Kituku,Mangina,Zemio,Central African Republic,Ndélé,Ippy,Bria,Bangassou,Mbomou,Bambari,Alindao,Yaloké,Sibut,Kemo,Paoua,Nola"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Mapena",
@@ -9766,7 +9766,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Mbaïki,Kouango,Kaga-Bandoro,Kabo,Dekoa,Carnot,Bozoum,Bouca,Bouar,Bossembélé,Bossangoa,Bocaranga,Bobangui,Boali,Bimbo,Berbérati,Bégoua,Baoro,Bangui,Sibiti"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Maria",
@@ -9775,7 +9775,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Uanduamb,Uigngi,Pueshuegr,Uibbi,Thouon,Sasta,Aiflstau,Twoumbze,Poushougr,Uitsshi,Twiombio,Zuudzlii,Souosn,Brata,Tsouyouh,Ndougrsle,Kriocio,Stuuaax,Zhuuaach,Ingausk"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Marind",
@@ -9784,7 +9784,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Iagrkwoo,Nkuekwqiu,Iavdoo,Quempzhiu,Uistgwi,Vuejwiu,Tuegwjiu,Ndueiesl,Mbeeqee,Ndeegree,Chouoy,Wuuaand,Soistoi,Mboqost,Theevee,Thava,Uakwuand,Druetsuemp,Shomosm,Igwaus"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Maring",
@@ -9793,7 +9793,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Shueiegw,Iaphtroo,Cuekpiu,Truubruusp,Tsuuyuuh,Uatruazh,Smoupound,Auzhik,Proulhe,Uifrthi,Muenskiu,Froukhouf,Xouzoukh,Augitw,Iawkhoo,Uibrhi,Kroicoi,Uathuach,Zhouphouz,Nuuwuush"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Melanesian Pidgin",
@@ -9802,7 +9802,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Pointe-Noire,Owando,Ouesso,Mossendjo,Mossaka,Mouyondzi,Makoua,Loutété,Loudima,Dolisie,Loandjili,Bouansa,Kayes,Impfondo,Likouala,Gamboma,Djambala,Brazzaville,Bétou,Pokola"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Menya",
@@ -9811,7 +9811,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Oyo,Nkayi,Zürich,Switzerland,Zug,Yverdon-les-Bains,Winterthur,Wil,Wetzikon,Wettingen,Vernier,Geneva,Uster,Thun,Bern,Steffisburg,Solothurn,Sitten,Sierre,Zürich (Kreis 11) / Seebach"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Mian",
@@ -9820,7 +9820,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Schwyz,Schaffhausen,Sankt Gallen,Renens,Rapperswil,Pully,Opfikon,Onex,Olten,Zürich (Kreis 11) / Oerlikon,Nyon,Neuchâtel,Muttenz,Morges,Montreux,Monthey,Meyrin,Martigny-Ville,Luzern,Lucerne"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Moikodi",
@@ -9829,7 +9829,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lugano,Locarno,Littau,La Chaux-de-Fonds,Kriens,Kreuzlingen,Köniz,Kloten,Jona,Horgen,Zürich (Kreis 10) / Höngg,Herisau,Grenchen,Gossau,Fribourg,Frauenfeld,Emmen,Einsiedeln,Dübendorf,Dietikon"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Mombum",
@@ -9838,7 +9838,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Alirosu,Dienol,Seoliny,Voitin,Kougernn,Olorzz,Diadagd,Guuls,Voesulum,Alakgg,Olilotor,Seedis"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Momina",
@@ -9847,7 +9847,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Chur,Cham,Carouge,Burgdorf,Bulle,Bülach,Biel/Bienne,Bellinzona,Basel,Baar,Zürich (Kreis 4) / Aussersihl,Allschwil,Adliswil,Aarau,Riehen,Zürich (Kreis 10) / Wipkingen,Zürich (Kreis 11) / Affoltern,Zürich (Kreis 2) / Wollishofen,Zürich (Kreis 3) / Sihlfeld,Zürich (Kreis 6) / Unterstrass"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Momuna",
@@ -9856,7 +9856,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Yongtwui,Iasnjoo,Qompotw,Bouboub,Skuugntii,Gwouskoubr,Jeeflee,Spousloufl,Khuusnuuch,Boiboi,Fouchoupr,Uymua,Fluuntuuv,Peeshee,Loifoi,Suustuuph,Ntaspa,Spouok,Khueienk,Aindnkau"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Moni",
@@ -9865,7 +9865,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Zürich (Kreis 9) / Albisrieden,Zürich (Kreis 9) / Altstetten,Stadt Winterthur (Kreis 1),Zürich (Kreis 12),Seen (Kreis 3),Zürich (Kreis 3),Zürich (Kreis 11),Zürich (Kreis 9),Oberwinterthur (Kreis 2),Zürich (Kreis 10),Zürich (Kreis 2),Zürich (Kreis 8),Zürich (Kreis 7),Zürich (Kreis 6),Lancy,Reinach,Zuénoula,Côte d'Ivoire,Zouan-Hounien,Zaliohouan"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Moraori",
@@ -9874,7 +9874,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Zaïbo,Zagné,Yamoussoukro,Yabayo,Vavoua,Toumodi,Touba,Tortiya,Tengréla,Tiébissou,Tanda,Tafiré,Tabou,Sinfra,Sassandra,Sakassou,Sahoua,Rubino,Petit Grabo,Petitgoa I"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Morawa",
@@ -9883,7 +9883,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Olulum,Guakor,Voilottt,Aledi,Olonill,Seisx,Guutetat,Koolmm,Alasarul,Diunot,Seenuron,Voaim,Oleser,Diodimss,Guina,Vousek,Alokw,Olamanos,Seudll,Guerutil"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Morigi",
@@ -9892,7 +9892,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Pélézi,Oupoyo,Ouangolodougou,Okrouyo,Okromodou,Odienné,Niellé,Niapidou,Niakaramandougou,Niablé,Ndouci,Nambingué,Moussadougou,Mignouré,M’Bengué,M’Batto,M’Bahiakro,Mankono,Man,Aboisso Comoé"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Mountain",
@@ -9901,7 +9901,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Wueiend,Ntuuspuuj,Swouom,Mbioqio,Smueiebr,Slotront,Aupih,Mpoueiph,Gouosp,Uazhuak,Brotvui,Ndoigroi,Mbueqdziu,Oosloodz,Sluuaasw,Tougwoutr,Xaza,Oogootw,Uampuasl,Liofio"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Mountain Koiari",
@@ -9910,7 +9910,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lofdrui,Uabruaph,Stueiex,Zadza,Troueith,Kwuuaamp,Iaflstoo,Vuujwii,Iastgwoo,Joifloi,Smuupbrii,Proulounk,Aizntau,Smuuaabr,Juuflrii,Oompoosl,Oongoosk,Quumpuutw,Leefee,Sposlofl"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Mubami",
@@ -9919,7 +9919,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Alenum,Seitor,Guugertt,Koori,Aladagl,Diulx,Seesulat,Voakmm,Koilotul,Oledot,Dionilon,Guisim,Aloler,Olasarss,Seuna,Guenurk,Koaw,Alikogos,Diesll"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Mulaha",
@@ -9928,7 +9928,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ustgwua,Ufrthua,Shouogw,Aijsau,Ainfrau,Oonkoog,Uqndua,Uchswua,Uphtrua,Kueswuekr,Spioslio,Thuevuek,Idraubr,Couop,Spouslke,Thuuvnii,Fouchtse,Oodooth,Uasnuaw,Uagwuas"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Muna",
@@ -9937,7 +9937,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Toor,Vowenka,Dosenoslo,Maran,Pumenpu,Vikensansi,Laengyo,Poegogo,Rowan,Daerul,Kuemyanis,Kaong,Vaabi,Buwanbonga,Weaa,Pepanme,Umanainu,Nugon,Kidanta,Paangkonwo"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Muyu",
@@ -9946,7 +9946,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guusek,Kookw,Alamanos,Diudll,Seerutil,Voatet,Koioren,Olemam,Diosisz,Guirun,Vounekrr,Olalasg,Seust,Guegues,Koarkk,Alitonal,Dielus,Seomidu,Voigol,Kourely"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Nakai",
@@ -9955,7 +9955,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guitis,Vougeri,Alorel,Oladagx,Seulan,Guesulmm,Koakyy,Alilotot,Aluseam,Diokut,Seamanun,Voudom,Koerut,Olatir,Diiort,Gueme,Voosiskk,Alirww,Olunekus"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Namiae",
@@ -9964,7 +9964,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Dasa,Mbuuaadz,Huedrdiu,Tuugwuutr,Qompzhui,Troubrthe,Aikrxau,Uatuad,Ualuasm,Kheesnee,Slueiesw,Ukrxua,Mpiohio,Oozhook,Mpuuaaph,Ntuespuej,Isauv,Mbuuqdzii,Cuuaap,Ngouomb"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Namumi",
@@ -9973,7 +9973,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Aledgg,Olonilor,Seisis,Guuteti,Koolel,Alasarx,Diunan,Seenurmm,Voayy,Koikogot,Olesr,Diodimim,Koigww,Alurelus,Diotm,Seanatol,Voumit,Koetukin,Olalem"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Narak",
@@ -9982,7 +9982,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Diakas,Seilota,Voedur,Koonilw,Oliso,Diutetll,Guolxx,Voasaret,Alunn,Olenuram,Seaut,Guikogun,Koesom,Diinir,Vooke,Koamankk"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Narom",
@@ -9991,7 +9991,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Iben,Tatonol,Yorondenes,Waoo,Nelonbe,Sugonoudu,Noken,Hiokma,Naodlenno,Eum,Yeolsu,Heonulwi,Tenen,Siyinan,Yatinpenom,Moninus,Selinutoi,Yusen,Gubingi,Miiktenla"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Nawaru",
@@ -10000,7 +10000,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Duuaakh,Jueier,Xueiepr,Gwueiefl,Auprigr,Droutsoump,Ootroozh,Uafruam,Nguenkmbiu,Kraca,Skuegntiu,Chofryui,Ooyoogw,Uifki,Grousmtre,Pruuluunk,Uingni,Chofrol,Chuufryii,Poishoi"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Ndom",
@@ -10009,7 +10009,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Mahapleu,Maféré,Mabéhiri,Luénoufla,Logoualé,Lobakuya,Lakota,Koumassi,Kouibly,Kaouara,Korhogo,Kong,Konéfla,Kolia,Ahigbé Koffikro,Katiola,Kahin,Issia,Hiré,Guiglo"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Nduga",
@@ -10018,7 +10018,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Olorem,Diadagzz,Guular,Voesuls,Olilotgg,Seedtt,Guonilis,Koisl,Alutetel,Diolat,Seasaran,Vounul,Koenuryy,Olaon,Diikogr,Voodimdd,Alinss,Oluseas,Guamanur,Koudos"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Nedebang",
@@ -10027,7 +10027,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Frokhof,Cheefree,Ikaul,Trobrthui,Kweepree,Xozprui,Uixfli,Truuaath,Ooskoost,Uhsmua,Frueieng,Kueswshiu,Nkokwqui,Rueiegr,Ndoueisl,Authich,Smuepbriu,Soustouph,Oodroobr,Skuuaant"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Nemi",
@@ -10036,7 +10036,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Niar,Gaoar,Luwonasos,Dupin,Waponbo,Emonringe,Redonmi,Vuongagpa,Litin,Liotte,Raorwinwu,Yoang,Doeiin,Leibanal,Visinet,Depiniiau,Pokingu,Vedinkanli,Kuigpo,Piitomse"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "New Zealand Pidgin English",
@@ -10045,7 +10045,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guiorul,Koemot,Alosison,Diirim,Seunek,Vooer,Koalasss,Olusa,Dieguk,Guarw,Voitonos,Alelll"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
 },
 {
     "name": "Ngalum",
@@ -10054,7 +10054,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ciam,Olutetas,Seolk,Guasarur,Kounos,Alenuro,Diail,Seikogxx,Voesen,Koodimn,Olinz,Diuseut,Guokrr,Voamanom,Aludg,Olerutir,Seates,Guiore,Koemal,Alosisww"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Ngatikese Creole",
@@ -10063,7 +10063,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Khosnnkui,Twombzui,Mpuuhuumb,Mionio,Dzoueif,Reekree,Aushidr,Oovoofr,Auwing,Droitsoi,Uazuakr,Hodroq,Kwoiproi,Mpohphui,Utsshua,Nguunkuuts,Koiswoi,Stuetwued,Ngoinkoi,Fruukhuuf"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Nggem",
@@ -10072,7 +10072,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guézon,Guéyo,Guéssabo,Guépaouo,Grand-Lahou,Grand-Bassam,Affery,Gonaté,Gohouo,Gadouan,Gbabam,Gaoulou,Gagnoa,Fengolo,Ebilassokro,Dianra,Duekoué,Doropo,Divo,Diourouzon"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Nii",
@@ -10081,7 +10081,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Koiner,Alusess,Dioka,Seamank,Alumin,Oletuknn,Sealzz,Guirosd,Koens,Alolinum,Diitgg,Seugeror,Vooris,Koadagi,Olulel,Diesulx,Guakan,Voilotmm,Aledyy,Olonilot"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Ninggerum",
@@ -10090,7 +10090,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Searis,Guitoni,Koelel,Alomidx,Diigan,Seurelmm,Vootyy,Koanatot,Olumr,Dietukim,Gualdd,Voiroser,Alenas,Ololina,Seitur,Guugerw,Kooro,Aladagll,Diulxx,Seesulet"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Nomane",
@@ -10099,7 +10099,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Dignago,Dimbokro,Dikodougou,Diégonéfla,Diawala,Daoukro,Danané,Daloa,Dagbao I,Dabou,Dabakala,Buyo,Boundiali,Bouna,Bouaké,Bouaflé,Bonoufla,Bonoua,Bongouanou,Bondoukou"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Northern and Central Bunun",
@@ -10108,7 +10108,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guesulk,Koakw,Alilotos,Diedll,Seonilil,Voiset,Kouteten,Ololam,Diasarz,Guunun,Voenurrr,Olikogg,Seest,Guodimes,Koinkk,Aluseal,Diokus,Seamanu,Voudol,Koeruty"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Nuaulu",
@@ -10117,7 +10117,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Retonet,Vurondenau,Lioo,Lilongu,Ragonouli,Yoken,Dookpo,Leodlense,Raum,Violyi,Deonuli,Honen,Poyinol,Vetinpenes,Kuninbe,Pilinutdu,Nesen,Bubinma,Koiktenno,Uissu"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Odoodee",
@@ -10126,7 +10126,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Boboniessoko,Bloléquin,Bingerville,Biéby,Bianouan,Biankouma,Béoumi,Bédiala,Bécédi-Brignan,Bayota,Gbapleu,Baoutifla,Bangolo,Bangolo Tahouake,Balakouya,Baibli,Bahé-Blaon,Azaguié,Anyama,Andé"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Oirata",
@@ -10135,7 +10135,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Koakem,Alilotzz,Diedar,Seonils,Koutetgg,Ololtt,Diasaris,Guunl,Voenurel,Alaat,Olikogan,Guodimyy,Koinon,Seamandd,Voudss,Koerutas,Olatk,Diiorur,Guemos,Voosiso"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Ok–Oksapmin",
@@ -10144,7 +10144,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Udrpua,Droutsse,Istauj,Xiozio,Uthphua,Quumpzhii,Aiczau,Slatra,Ilausm,Cokpui,Wiorio,Dratsa,Fluuntkrii,Nduegrsliu,Prolonk,Uaspuaz,Buebueb"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Oksapmin",
@@ -10153,7 +10153,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guurelus,Kootm,Alanatol,Diumit,Seetukin,Voalem,Koiroszz,Olenar,Diolins,Vougergg,Alortt,Oladagis,Seull,Guesulel,Koakat,Alilotan,Diedul,Seonilyy,Voison"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Omati",
@@ -10162,7 +10162,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Koisur,Alutetw,Diolo,Seasarll,Vounxx,Koenuret,Diikogam,Guesut,Voodimun,Alinom,Seokir,Guamant,Koude,Alerutkk,Diatww,Seiorus,Voemm,Koosisol,Olirit,Diunekin"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Onjob",
@@ -10171,7 +10171,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Poueit,Juufluuth,Iabboo,Steetwee,Iasmproo,Iahsmoo,Auntix,Auzikr,Yuengtwiu,Loueidr,Voijoi,Fuuchuupr,Kwoprong,Gwoiskoi,Nkueieq,Tagwa,Iakwroo,Krueiesm,Aivdau,Aumbint"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Onobasulu",
@@ -10180,7 +10180,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Diiordd,Guemss,Voosisas,Alirk,Olunekur,Seoos,Gualaso,Kousil,Aleguxx,Diaren,Seitonn,Voelz,Koomidut"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Ontenu",
@@ -10189,7 +10189,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Aledon,Olonilr,Seis,Guutetdd,Koolss,Alasaras,Diunk,Seenurur,Voaos,Koikogo,Guusy,Voeguit,Alarnn,Olitonem,Seeld,Guomidar,Koigum,Diotor,Seanattt,Voumi"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Orokaiva",
@@ -10198,7 +10198,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Iachswoo,Ooshoodr,Ianfroo,Chueiey,Togwjui,Joueir,Kreecee,Chuefryiu,Sueiesn,Nuewgiu,Swothmui,Uilci,Roueigr,Doisoi,Xuuzuukh,Hoidroi"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Oweina",
@@ -10207,7 +10207,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Akoupé,Agnibilékrou,Agboville,Adzopé,Adiaké,Aboisso,Abobo,Abidjan,Abengourou,Marcory,Erémankono,Ahouanou,Séguéla,Soubré,Borotou-Koro,Diéhiba,Kranzadougou,Nizahon II,Zéaglo,Aboka"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Pa",
@@ -10216,7 +10216,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Voorul,Koadagyy,Olulon,Diesulr,Voilotdd,Aledss,Olonilas,Seisk,Guutetur,Koolos,Alasaro,Diunil,Seenurxx,Voaen,Koikogn,Olesz,Diodimut,Guinrr,Vouseom,Alokg"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Paiwan",
@@ -10225,7 +10225,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Yanendunom,Loau,Mogenus,Sebeninoi,Yukun,Guedgi,Mieslunla,Woenpe,Goaairru,Hunun,Rutanya,Wiranpuna,Malanel,Roganidur,Nisun,Gaakou,Luadtundi,Waallo,Eaningne,Tayun"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Paniai Lakes",
@@ -10234,7 +10234,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guedll,Voonilil,Aliset,Oluteten,Seolam,Guasarz,Kounun,Alenurrr,Seikogg,Voest,Koodimes,Olinkk,Diuseal"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Papora",
@@ -10243,7 +10243,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Aleguum,Diargg,Seitonor,Voelis,Koomidi,Oligel,Diurelx,Guotan,Voanatmm,Alumyy,Oletukot,Sealr,Guirosim,Koendd,Aloliner,Diitas,Seugera,Voorur,Koadagw,Olulo"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Papora-Hoanya",
@@ -10252,7 +10252,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Prolhui,Duusuuzh,Drotssui,Iaskyoo,Thovnui,Uaquasp,Moueisk,Oofroom,Gondspui,Nguuaamb,Aunkig,Aiprkrau"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Papuan Tip",
@@ -10261,7 +10261,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Niyenesu,Nabun,Yoren,Honendunan,Deau,Sugener,Yibeninus,Sokun,Naedbu,Soeslungi,Heenmo,Muaairpe,Yenun,Yatanti,Haranpunya,Selanon,Wuganidel,Hesun,Miakit,Saadtunou"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Pazeh",
@@ -10270,7 +10270,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Olesur,Diodimw,Guino,Vousell,Alokxx,Olamanet,Seudn,Guerutam,Guenl,Voolinel,Alitat,Olugeran,Seorul,Guadagyy,Koulon,Alesulr,Seilotdd"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Pisa",
@@ -10279,7 +10279,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Wuuruum,Snouxoufr,Mbaqa,Khuesnnkiu,Sliotrio,Ruekruen,Uishfi,Auniy,Phoueifr,Troibroi,Phododz,Hodrdui"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Pitcairn-Norfolk",
@@ -10288,7 +10288,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bonon,Grand-Zattry,Loboville,Nzianouan,Méagui,Ancien-Prozi,Bléniméouin,Djapadji,Fronan,Gabiadji,Galébré,Gligbeuadji,Ogoudou,Touih,Dagadji,Gnatroa,Watté,Touagui,Gnago,Gnépasso"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Pitkern",
@@ -10297,7 +10297,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Gagny,Gbolouville,Vrouo,Bognonzra,Flakièdougou,Avarua,Cook Islands,Rarotonga,Viña del Mar,Chile,Villarrica,Araucania,Villa Alemana,Vilcún,Vicuña,Vallenar,Valdivia,Traiguén,Tomé,Tocopilla"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Pogaya",
@@ -10306,7 +10306,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Tiltil,Santiago Metropolitan,Teodoro Schmidt,Temuco,Talcahuano,Talca,Talagante,San Vicente de Tagua Tagua,San José de Maipo,San Francisco de Mostazal,San Felipe,San Esteban,San Clemente,San Carlos,San Bernardo,San Antonio,Sagrada Familia,Río Bueno,Rengo,Renca"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Puyuma",
@@ -10315,7 +10315,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Oegogre,Yiwan,Baerwi,Kaemyan,Puong,Tiaom,Awanboner,Hiaa,Nopanoi,Temanaibu,Vigon,Hudanla,Niangkonmo,Naem,Yoatru,Hoarelti,Demon,Suuua,Yiyunnonon,Narunur"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Rapa Nui",
@@ -10324,7 +10324,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Alenural,Diaus,Seikogu,Voesol,Koodimy,Olinin,Diusenn,Guokzz,Voamand,Aluds,Olerutum"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Retta",
@@ -10333,7 +10333,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Rancagua,Quintero,Quilpué,Quillota,Quillón,Quilicura,Putaendo,Punta Arenas,Puerto Varas,Quellón,Puerto Natales,Puerto Montt,Puerto Aysén,Puente Alto,Pucón,Pozo Almonte,Tarapaca,Pitrufquén,Pirque,Penco"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Riantana",
@@ -10342,7 +10342,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Eunkuegm,Uachampoug,Khauveun,Gloesmgmao,Ooprzmio,Dlaebrioth,Oufliiviomp,Iishauy,Uinkuefroamb,Spuembcue,Aengeuk,Oangeubl,Oakwtwu,Pialoih,Braugzhau,Vliozmndoo,Peulueh,Otsuentuzh,Ouchamp,Etsiigw"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Rotokas",
@@ -10351,7 +10351,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Peñalolén,Peñaflor,Parral,Paine,Paillaco,Padre Hurtado,Ovalle,Osorno,Ñuñoa,Nancagua,Nacimiento,Mulchén,Molina,Melipilla,Maullín,Maipú,Machalí,Lota,Los Vilos,Los Ángeles"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Rukai",
@@ -10360,7 +10360,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Maigno,Roitomre,Niman,Gaimwi,Luaunan,Duor,Wawenom,Esenoser,Taran,Remenoi,Vukensanbu,Liengla,Raegogmo,Yowan,Doerru,Leemyanti,Raong,Viaa,Dewanbonon,Popanur"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Rumu",
@@ -10369,7 +10369,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Los Andes,Los Álamos,Longaví,Loncoche,Llanquihue,Llaillay,Linares,Limache,Lebu,Lautaro,La Serena,Lampa,La Ligua,La Cruz,Iquique,Illapel,Hacienda La Calera,Hualqui,Graneros,Freire"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Rusenu",
@@ -10378,7 +10378,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "El Monte,Curicó,Curanilahue,Cunco,Coronel,Copiapó,Constitución,Concón,Concepción,Collipulli,Colbún,Coihueco,Coyhaique,Coelemu,Chimbarongo,Chillán Viejo,Chillán,Chiguayante,Chicureo,Cauquenes"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Saaroa",
@@ -10387,7 +10387,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Eezlsnou,Dmoangfuu,Zhuuen,Pmuisnoonk,Beubuebii,Kmeuiith,Kluacloukwua,Uaclklai,Oiqheo,Claotsaiq,Juiflpmiu,Iiklfrii,Klaucljau,Chuaash,Twiohount,Buibuib,Chuaeush,Leegluidrui,Uenkshue,Iifljii"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Sabakor",
@@ -10396,7 +10396,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Casablanca,Cartagena,Cañete,Caldera,Calbuco,Calama,Cabrero,Cabildo,Buin,Batuco,Arica,Arauco,Angol,Ancud,Alto Hospicio,Las Animas,San Pedro de la Paz,La Pintana,Lo Prado,Yokadouma"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Safeyoka",
@@ -10405,7 +10405,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kweuquefl,Pmiosnou,Aklathac,Xiaauzl,Oufakl,Eqhei,Kluucluekw,Kluecliikwau,Hiodrou,Asnat,Ngiakwoij,Driekrufro,Zlojei,Aixflaa,Daakh,Uisheufl,Iifnkii,Smibliu,Shienkutr,Totrei"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Saisiyat",
@@ -10414,7 +10414,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Koelen,Alomidn,Diigz,Seurelut,Vootrr,Koanatom,Olumg,Dietukir,Guales,Voirose,Alenal,Ololinww,Rial,Seitu,Guugerm,Koory,Aladagit,Maon,Diulnn,Seesulem"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Sakizaya",
@@ -10423,7 +10423,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Muidme,Jaeuepm,Uenguenkuut,Ienkauxeim,Luoglyio,Aabab,Nkuafou,Mboiik,Kweeqmea,Xoauezl,Liagloi,Iesnaut,Pmoosneenkui,Iflntui,Oatreudmeopm,Pmuasnounkua,Oizlaur,Stuoprea,Shuuuekl,Uetuedluuv"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Salt-Yui",
@@ -10432,7 +10432,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Diinyy,Seuseot,Vookr,Koamanim,Oluddd,Dieruter,Guatas,Voiora,Alemur,Olosisw,Seiro,Guunekll,Kooxx,Alalaset,Diusn,Seeguam,Voarut,Koitonun"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Samberigi",
@@ -10441,7 +10441,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Cameroon,East,Yaoundé,Yagoua,Wum,Touboro,North,Tonga,West,Tombel,South-West,Tiko,Tibati,Tcholliré,Tchéboa,Souza Gare,Sangmélima,Pitoa,Penja,Oku"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Samo",
@@ -10450,7 +10450,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Voodimum,Alingg,Oluseor,Seokis,Guamani,Koudel,Alerutx,Diatan,Seiormm,Voemyy,Koosisot,Olirr,Diunekim,Guodd,Voalaser,Alusas,Olegua,Searur,Guitonw,Koelo"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Sawi",
@@ -10459,7 +10459,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Okoa,Obala,Nkoteng,Nkongsamba,Nkambe,Njombé,Ngaoundéré,Nanga Eboko,Muyuka,Mutengene,Mora,Mokolo,Melong,Meïganga,Mbouda,Mbanga,Mbandjok,Mbalmayo,Maroua,Manjo"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Saʼban",
@@ -10468,7 +10468,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Viiktenet,Laisde,Poilukgu,Royen,Daeena,Kuyenepo,Kabun,Varentu,Bunendunyi,Weau,Pegenam,Ubeninol,Nukun,Kiedut,Paeslunbe,Beenki,Keaairma,Tinun,Totanre,Baranpunsu"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Seediq",
@@ -10477,7 +10477,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Diitone,Guelal,Voomidww,Aligu,Olurelm,Seoty,Guanatit,Koumnn,Aletukem,Diald,Seirosar,Voenum,Olitor,Diugertt,Guori,Voadagl,Alulx,Olesulat"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Sempan",
@@ -10486,7 +10486,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Mamfe,Magba,Maga,Loum,Limbe,Lagdo,Kumbo,Kumba,Kribi,Kousséri,Kekem,Kaélé,Guider,Garoua Boulaï,Garoua,Fundong,Foumban,Fontem,Figuil,Eséka"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Setaman",
@@ -10495,7 +10495,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ekondo Titi,Edéa,Ébolowa,Dschang,Douala,Dizangué,Bogo,Bertoua,Bélabo,Batouri,Banyo,Bandjoun,Bamusso,Ndop,Bamenda,Bali,Bafut,Bafoussam,Bafia,Bafang"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Shiaxa",
@@ -10504,7 +10504,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Alurelon,Diotim,Voumer,Koetukss,Olala,Diirosk,Guenw,Voolinos,Alitll,Olugeril,Seoret,Guadagen,Koulam,Alesulz,Diakun,Seilotrr,Voed,Koonilg,Olist,Diutetes"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Siane",
@@ -10513,7 +10513,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Voolll,Koasaril,Olunet,Dienuren,Guaam,Voikogz,Alesun,Olodimrr,Guuseg,Kookt,Alamanes,Diudkk,Seerutal,Voatus,Koioru,Olemol,Diosisy"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Silimo",
@@ -10522,7 +10522,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ambam,Akonolinga,Abong Mbang,Ngaoundal,Blangwa,Zhefang,China,Yunnan,Zhangfeng,Zepu,Xinjiang,Zibihu,Yingpan,Yengisar,Quxu,Tibet,Rikaze,Tengyue,Jiuquan,Gansu"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Simbari",
@@ -10531,7 +10531,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Oukliidiosm,Uosnsloo,Cluotsea,Yugmobrei,Ruekhiamp,Xueklia,Uibskae,Aenkciu,Iaklxe,Nduopleay,Uitplo,Eitsclia,Sweavmglou,Slaothai,Quutuexia,Nuacfraa,Mpoenaapl,Uiclklo,Eipriihos,Iostruo"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Sinasina",
@@ -10540,7 +10540,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Klocleikw,Shueaukl,Glousmgmee,Uaqauchoust,Oechacl,Zeedrea,Ucleuzl,Sniezlu,Peulue,Engiinkuit,Treaaukw,Zhuispe,Xeeauzl,Stueprqo,Ecliigr,Euchueclaung,Tietruklo,Eistiig,Dmuangou,Chuime"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Singlish",
@@ -10549,7 +10549,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Alirxx,Oluneket,Gualasam,Kousut,Aleguun,Diarom,Voelir,Koomidt,Olige,Diurelkk,Guotww,Voanatus,Alumm,Oletukol"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Somahai",
@@ -10558,7 +10558,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Alenit,Ololinin,Seitem,Guugerzz,Koorar,Aladags,Seesulgg,Voaktt,Koilotis,Oledl,Dionilel,Guisat,Voutetan,Alolul,Olasaryy,Seunon,Guenurr,Alikogdd,Diesss,Seodimas"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Some",
@@ -10567,7 +10567,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Gar,Shigu,Shangyun,Shangpa,Shache,Ruidian,Qushi,Qiemo,Qarek,Qamdo,Yingjiang,Oytograk,Nyêmo,Luobuqiongzi,Nagqu,Qaraqash,Mengmao,Menglang,Mangshi,Mangnai Zhen"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Sonia",
@@ -10576,7 +10576,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Atamapr,Qutdmoa,Tweuiivm,Kwiaqoifluu,Staipraots,Soiiv,Flixsnua,Euklxeu,Uatdrai,Sheunkue,Iefljoi,Ouzldao,Qotdmui,Proeat,Gleusmuekr,Clutsoqei,Ngakwa,Ieqhoi,Oupmaquaj,Uifnkua"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Sonsorolese",
@@ -10585,7 +10585,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guato,Voiorll,Alemxx,Dienar,Seolins,Kougergg,Olortt,Diadagis,Guull,Voesulel,Alakat,Olilotan,Seedul"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Squliq Atayal",
@@ -10594,7 +10594,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Eojaukh,Dreukrue,Eemchou,Mbuoweadi,Ntoakmuimb,Fechtsia,Fripiutw,Puaeugw,Snueaust,Spuambaezio,Phuophea,Tseaux,Froopee,Ieflntoi,Snuzlofei,Ntakmamba,Uashglai,Chiamoipm,Kmoaueth,Kreaug"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Suena",
@@ -10603,7 +10603,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Qiutuoxea,Moedmaasn,Aoclagraik,Qaadm,Truieukw,Uetsuegwuusw,Fuechii,Tseashitiu,Kmifriuwuo,Iodmuesh,Chamapm,Puiluihoo,Fouchuapr,Eubbeu,Ukweusw,Tuoiing,Eipriikwozl,Phiiphau,Snoazluife,Ngoukwuaj"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Suganga",
@@ -10612,7 +10612,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Uisheukm,Iupmvui,Chumopm,Bmuirtwiu,Uecldzue,Shuenkii,Oexyou,Uaprah,Riokhoumpua,Uofuepiuw,Iiflaupr,Ausnslau,Swuivme,Stioprqoo,Gmuidzsi,Swaovmai,Imchui,Uetiimb,Eukluedausm,Beebuibui"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Suki",
@@ -10621,7 +10621,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Qinghai,Lop,Longshan,Liuku,Lhasa,Laojunmiao,Bonan,Langru,Maizhokunggar,Kokyar,Kashgar,Kaqun,Judian,Jinhua,Jinding,Jietou,Jiayuguan,Huatugou,Houqiao,Gujangbagh"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Susuami",
@@ -10630,7 +10630,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Uopmvoo,Oadmdlu,Treestui,Khouvuan,Gmiadzoig,Chuuuesh,Bmoortwuo,Oestrou,Staeprqui,Neecuibm,Mpounkmoe,Iesnpmoi,Mpuunkmu,Skeauph,Juifloom,Thogreisw,Thuagrou,Qoatdmuu,Otrbmue,Dluubrblu"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Tainae",
@@ -10639,7 +10639,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Voetukan,Alalul,Olirosyy,Seenon,Guolinr,Alugerdd,Diorss,Seadagas,Voulk,Koesulur,Olakos,Diiloto,Guedil,Voonilxx,Alisen,Olutetn,Seolz,Guasarut,Kounrr,Alenurom"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Tairoa",
@@ -10648,7 +10648,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Yushu,Gudong,Elixku,Dêqên,Dagzê,Damxung,Langgar,Bayi,Baoshan,Artux,Layka,Saybag,Arix,Xambabazar,Xinyuan,Wensu,Ürümqi,Turpan,Xincheng,Korla"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Tairora",
@@ -10657,7 +10657,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Duoskhio,Aotrabraisl,Truostea,Uekliith,Luiiiy,Fuiche,Auteudliiv,Otslue,Eijzlia,Cmuoiibm,Uenksmue,Iankshe,Oeclagraak,Smueblii,Pmoeatr,Ntoieusl,Ligliudr,Iishaufluech,Iklfrui,Oekwaswaar"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Tamagario",
@@ -10666,7 +10666,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Voumdd,Koetuker,Diirosa,Voolinw,Alito,Olugerll,Seorxx,Guadaget,Kouln,Alesulam,Diakut,Seilotun,Voedom,Koonil,Olisir,Diutett,Guole,Voasarkk,Alunww,Olenurus"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Tangko",
@@ -10675,7 +10675,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Diugerer,Guoras,Voadaga,Alulur,Olesulw,Seako,Guilotll,Koedxx,Alonilet,Diisn,Seutetam,Voolut,Koasarun,Olunom,Guair,Voikogt,Alese,Olodimkk,Seinww,Guuseus"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Taokas",
@@ -10684,7 +10684,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Karamay,Ghulja,Hami,Dunhuang,Jiangsu,Hekou,Hainan,Zunyi,Guizhou,Shandong,Ziyang,Chongqing,Zigong,Zhuzhou,Henan,Shanghai,Zhejiang,Yuxi,Zhongwei,Ningxia"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Tauade",
@@ -10693,7 +10693,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kiaswoikh,Bruegzho,Ieclaugr,Uefliicmeul,Iprauheas,Ishauy,Nacfra,Visliucuo,Bleazhizmiu,Iedmausmeidr,Ndeuplmbeu,Kreevluipui,Skuiskphue,Euxuez,Oujiikhiodz,Aotsantaizh,Roeah,Kreuvlgeu,Reekhuimp,Dzuampoundua"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Teiwa",
@@ -10702,7 +10702,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Voerutet,Alatn,Olioram,Seemut,Guosisun,Koirom,Dioir,Sealast,Koegukk,Olarww,Diitonus,Guelm,Voomidol,Aligit,Olurelin,Seotem,Guanatzz,Koumar,Aletuks,Seirosgg"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Telefol",
@@ -10711,7 +10711,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guigem,Vourelzz,Alotar,Olanats,Guetukgg,Koaltt,Alirosis,Dienl,Seolinel,Voitat,Kougeran,Olorul,Diadagyy"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Tembagla",
@@ -10720,7 +10720,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Voelem,Koomidzz,Oligar,Diurels,Voanatgg,Alumtt,Oletukis,Seall,Guirosel,Koenat,Alolinan,Diitul,Seugeryy,Erit,Alokes,Olamane"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Thao",
@@ -10729,7 +10729,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ujeukh,Oupmiipliogw,Groigwuuvm,Deuskheu,Kmuifruiwoo,Cuikuir,Iixausluen,Uasnaubmouy,Aejeuzmuap,Poiluuhue,Afadz,Iukweuzhivl,Aangwua,Zhauspeucm,Gmuedzso,Osnzue,Siuntuospea,Aflacm,Iukleuth,Eadmiicuopl"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Tifal",
@@ -10738,7 +10738,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Zhenxi,Zhenjiang,Zhengzhou,Hebei,Shanxi,Xinghua,Zhaotong,Zhaoqing,Guangdong,Zhanjiang,Zhangzhou,Fujian,Zhangye,Anyang,Yushan,Yunyang,Yunshan,Jinghong,Yuncheng,Yulin"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Timor–Alor–Pantar",
@@ -10747,7 +10747,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Meedmuisn,Dmiangoizluu,Uocluesiubl,Flioxsnoo,Snouzlstee,Epmiidruint,Tuatrae,Tuaang,Vmuodleasl,Tseeshxea,Staoprai,Goundua,Qoteix,Eozlautrex,Ceekuirui,Xuuklzlu,Oejastaakl,Thugrosw,Toutruakl,Eochswie"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Tirio (Lower Fly)",
@@ -10756,7 +10756,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Voesulo,Alakil,Olilotxx,Seeden,Guoniln,Koisz,Alutetut,Diolrr,Seasarom,Voung,Koenurir,Olaes,Diikoge,Guesal,Voodimww"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Tobian",
@@ -10765,7 +10765,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ngoieuch,Pmoosneenk,Iotuembaecm,Ngoukwuajae,Fuuchuepria,Ocluesubl,Traistaocl,Jaaapm,Guindui,Pmeasntrou,Nkoiicl,Iekwauzh,Miadmoi,Ootqio,Dzeampindiu,Troustuacl,Utquu,Ndouplua,Omuets,Zloejaa"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Tokano",
@@ -10774,7 +10774,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guangxi,Yuexi,Yuanyang,Heyuan,Yongchuan,Anhui,Yinchuan,Qingzhou,Yichun,Yichang,Yibin,Yanzhou,Yangzhou,Yangshuo,Yangquan,Tianjin,Yan’an,Ya'an,Xiuying,Xinzhou"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Torres Strait Creole",
@@ -10783,7 +10783,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Voeson,Koodimr,Diusedd,Guokss,Voamanas,Aludk,Olerutur,Seatos,Guioro,Koemil"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Ts'ole' Atayal",
@@ -10792,7 +10792,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Xinyang,Xining,Xingren,Xindian,Xinyi,Xichang,Haining,Xiaoshan,Jinfeng,Xiaogan,Xianning,Zhuhai,Xiangtan,Xiangyang,Xi’an,Xiamen,Wuzhou,Wuzhong,Wuxi,Dongyang"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Tsaukambo",
@@ -10801,7 +10801,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Changde,Wuhan,Wuhai,Inner Mongolia,Wenzhou,Tianfu,Wenchang,Wanning,Tongzhou,Beijing,Tongren,Tongchuan,Tianshui,Taoyuan,Tangshan,Taizhou,Taiyuan,Taiping,Tai’an,Suzhou"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Tsou",
@@ -10810,7 +10810,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Suizhou,Suixi,Suining,Songjiang,Sishui,Pu'er,Shuozhou,Shuangjiang,Shiyan,Shimen,Shijiazhuang,Shenzhen,Yunlong,Shaoxing,Shaowu,Shaoguan,Shanwei,Shantou,Shajing,Sanya"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Turaka",
@@ -10819,7 +10819,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Oejast,Kwuuuem,Ruakhhaa,Snuzlof,Staiprao,Swaivmglua,Klioclou,Iaqiich,Thoeazm,Zluijech,Pruuet,Oameugl,Klaeuej,Shionkkloo,Sleethui,Shinkiu,Feochoaprui,Vioiikr,Uiflaupreecl,Enkiixuim"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Turama-Kikorian",
@@ -10828,7 +10828,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Olemm,Diosisol,Guirit,Vounekin,Aloem,Olalaszz,Seusar,Guegus,Alitongg,Dieltt,Seomidis,Voigl,Kourelel,Olotat,Dianatan,Guumul,Voetukyy,Alalon,Olirosr,Guolindd"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Uab Meto",
@@ -10837,7 +10837,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Alulgg,Olesulor,Seakis,Guiloti,Koedel,Alonilx,Diisan,Seutetmm,Voolyy,Koasarot,Olunr,Dienurim,Guadd,Voikoger,Alesas,Olodima,Seinur,Guusew,Kooko,Alamanll"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Uare",
@@ -10846,7 +10846,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Aleln,Olomidam,Seigut,Guurelun,Kootom,Diumir,Seetukt,Voale,Koiroskk,Olenww,Diolinus,Guitm,Vougerol"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Umanakaina",
@@ -10855,7 +10855,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Eaxiisluon,Iomspuo,Gmoodzee,Ntaekmiombou,Mbiowkoo,Ndioplou,Oanksmu,Aaqavmoekh,Eixyia,Woutwuasou,Uitaudleev,Eotaumbecm,Vleizmnde,Blaizhao,Rookheempui,Mboiwuudue,Bluizhui,Echswei,Eekliithooc,Eobauskesk"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Urapmin",
@@ -10864,7 +10864,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Cmoezaa,Smaabloevl,Oujzlea,Zhiispaucmeu,Zuidrue,Oekwafaatr,Glausmeu,Glieugm,Praapmoesh,Huodrdlio,Wiitwau,Meeaunk,Bluazhouzm,Uestiigeuth,Fluoxeadmi,Duesiazhoi,Diaskhei,Meudmue,Mbuiiik,Freopoa"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Usarufa",
@@ -10873,7 +10873,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Alorit,Oladagin,Seulem,Guesulzz,Koakar,Alilots,Seonilgg,Voistt,Koutetis,Diasarel,Guunat,Voenuran,Alaul,Olikogyy,Seeson,Guodimr,Koin"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Vaeakau-Taumako",
@@ -10882,7 +10882,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Koonilur,Olisos,Diuteto,Guolil,Voasarxx,Alunen,Olenurn,Seaz,Guikogut,Koesrr,Alodimom,Diing,Seuseir,Vookes,Koamane,Oludal,Dierutww,Guatu"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Waboda",
@@ -10891,7 +10891,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Sanming,Sanjiang,Sanhui,Sanhe,Changsha,Rui’an,Rongjiang,Jieyang,Quzhou,Qujing,Quanzhou,Qinzhou,Qinhuangdao,Yizhou,Jinjiang,Huai'an,Qingdao,Qingyuan,Putian,Pu’an"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Waffa",
@@ -10900,7 +10900,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Pingxiang,Pingshan,Pingliang,Panlong,Pan’an,Guang’an,Hanyuan,Ning’er,Ningbo,Neijiang,Nanyang,Nantou,Nantong,Nanping,Nanning,Nanjing,Nanjian,Nanchong,Nanchang,Mianyang"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Wahgi",
@@ -10909,7 +10909,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Chimshua,Kluacloukw,Aenkeugm,Klaoclaikw,Dmiunguo,Uzleur,Sneizliefu,Snuozlstio,Speomboazui,Muudmue,Pmaosntrou,Zhiuspnae,Kwaaqoefl,Uipmueq,Fruupuetw,Sheenkui,Iepmauq,Kruvlop,Dmeangfou,Cloitsuuque"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Waimoa",
@@ -10918,7 +10918,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Voesulzz,Alakar,Olilots,Guonilgg,Koistt,Alutetis,Seasarel,Vounat,Koenuran,Olaul,Diikogyy,Gueson,Voodimr,Olusedd,Seokss,Guamanas"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Walak",
@@ -10927,7 +10927,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Mengla,Meizhou,Meishan,Wuchuan,Mapo,Maoming,Maba,Ma’anshan,Luzhou,Lushan,Luoyang,Luoping,Luocheng,Kangding,Lu’an,Longyan,Longxing,Longhua,Longlin,Longchang"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Wambon",
@@ -10936,7 +10936,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lixian,Puning,Liuzhou,Linyi,Linping,Lingao,Linfen,Lincang,Lianzhou,Anning,Wuwei,Jiangbei,Liancheng,Lianjiang,Leshan,Lanzhou,Lanxi,Langfang,Laizhou,Laibin"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Wano",
@@ -10945,7 +10945,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kunming,Kaiyuan,Kaili,Kaihua,Kaifeng,Jiujiang,Jishou,Jinzhou,Jinsha,Jingzhou,Jingmen,Jinchang,Jincheng,Jinan,Jiaxing,Jiasi,Jiaozuo,Jiaoshi,Jiaogong,Jiaozhou"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Waruna",
@@ -10954,7 +10954,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ningde,Jianshan,Jian’ou,Jiangyan,Jianguang,Jiangshan,Jiangping,Jiangmen,Jiangluo,Jiangkou,Jiangjia,Yangjiang,Jiang’an,Jianchang,Ji’an,Guangyuan,Qionghai,Jiading,Jiachuan,Huzhou"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Wayan",
@@ -10963,7 +10963,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Togon,Vodanka,Doangkonlo,Maem,Puatpu,Viarelsi,Bamon,Lauuyo,Poyunnono,Darunul,Kununetis,Vagunbi,Bubunsonga,Peudme,Uuseknu,Nuwon,Kiunta,Paooyonwo,Gaben,Betonen"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Were",
@@ -10972,7 +10972,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Iukwtwui,Uiclpo,Fouchua,Uoquevm,Ufleuv,Xoikluung,Itslui,Wootwswuo,Uikweufuitr,Ntouasl,Uoclpoo,Proipmtie,Usheuyievm,Cmuazousm,Aazlatr,Sioiiv,Senteo,Oefljou,Cmiuzbmae,Dreakrbrou"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Weri",
@@ -10981,7 +10981,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Voetuke,Alalal,Olirosww,Seenu,Guolinm,Koity,Alugerit,Diornn,Seadagem,Vould,Koesular,Olakum,Guedor,Vooniltt,Alisi,Olutetl,Seolx,Guasarat,Kounmm,Alenurul"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Wersing",
@@ -10990,7 +10990,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Eexiipmoots,Aungeunk,Briogougrua,Fooiits,Koosweekhui,Ojuest,Uexiiz,Xeiklie,Aichaclaong,Aachaloetw,Iusteung,Dleiaubl,Faucheu,Kwuqoflei,Outiimb,Easniituofl,Aatradmoepm,Mpuonea,Uajastoukl,Uechiicleung"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "West Bomberai",
@@ -10999,7 +10999,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Hutang,Cixi,Huoqiu Chengguanzhen,Huolu,Huizhou,Huazhou,Huangzhou,Huangshi,Huanggang,Daxing,Xingyi,Huaihua,Donghe,Hongjiang,Honghe,Hezuo,Hechuan,Heshan,Hengyang,Heishui"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Western",
@@ -11008,7 +11008,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guitoner,Koelas,Alomida,Diigur,Seurelw,Vooto,Koanatll,Olumxx,Dietuket,Gualn,Voirosam,Alenut,Ololinun,Seitom"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Western Dani",
@@ -11017,7 +11017,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Hefei,Hanzhong,Hangzhou,Hangu,Changzhi,Handan,Haikou,Guyuan,Guiyang,Guiping,Guilin,Guigang,Guangzhou,Gongtan,Gongping,Gejiu,Gaozhou,Ganzhou,Fuzhou,Fuyang"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Western Pantar",
@@ -11026,7 +11026,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Fleoxsnoi,Outriidmiopm,Sluithook,Eoklausn,Oasneuteofl,Naeciobm,Uatamoupr,Chuamshaa,Aeklgmiu,Cheoeush,Eonkshie,Slaethvlui,Ecliizluink,Cluatsaeq,Uutreuw,Ousniit,Cluatsouq,Uishuekmoasp,Jieflpmeo,Uisttrua"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Wiru",
@@ -11035,7 +11035,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Qingyang,Fuling,Foshan,Fengyi,Fenggang,Ezhou,Enshi,Eman,Duyun,Dushan,Dongxing,Dongguan,Dongchuan,Dingxi,Deqing,Dengzhou,Liping,Zhangjiajie,Daye,Lijiang"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Wolani",
@@ -11044,7 +11044,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Dazhou,Datong,Dalu,Dalian,Dali,Chuzhou,Chuxiong,Yiwu,Chizhou,Chenzhou,Chengdu,Chaozhou,Changzhou,Changning,Changcheng,Weining,Cangzhou,Caijia,Botou,Baise"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Wolio",
@@ -11053,7 +11053,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Motinpentu,Wunini,Gulinutam,Mesen,Sabines,Woiktenut,Meisdu,Ruilukki,Ruyen,Geeeno,Mayenere,Kebun,Werenwi,Ganendun,Wiau,Rigenom,Wabeniner,Okun,Loedoi,Reeslunbu"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Yagaria",
@@ -11062,7 +11062,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bishan,Binzhou,Bijie,Beihai,Bayan Hot,Batang,Basuo,Barkam,Langzhong,Baoding,Banqiao,Baiyin,Baisha,Qilian,Anshun,Anqing,Mabai,Anlu,Anlong,Jiangyou"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Yagwoia",
@@ -11071,7 +11071,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Diirar,Seuneks,Seulen,Guesuln,Koakz,Alilotut,Diedrr,Seonilom,Voisg,Koutetir,Ololes,Diasare,Guunal,Voenurww,Alau,Olikogm,Seesy"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Yali",
@@ -11080,7 +11080,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Truiiikw,Tristiucluo,Oeflacmaal,Truastaeclio,Dmounguazlae,Ouqaspuazm,Steipriets,Stuiproo,Ruokhea,Tuitrngue,Vmodlei,Fliexudmo,Eejiistookl,Gwuiyedleo,Tsuushuetia,Uonguenk,Dliobrouthua,Nkoufua,Kwiequ,Caokpou"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Yaqay",
@@ -11089,7 +11089,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guanshan,Wutan,Zhaoxing,Jinshan,Yongping,Zhongshan,Banan,Lanyang,Sandu,Heqing,Wuzhishan,Yueyang,Gulu,Longsheng,Jilin,Zhaozhou,Heilongjiang,Zhaodong,Zhangjiakou,Zhalantun"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Yareba",
@@ -11098,7 +11098,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Yilan,Yanji,Yakeshi,Xuanhua,Xifeng,Wuchang,Wangqing,Wangkui,Tumen,Taonan,Tahe,Suihua,Suifenhe,Shunyi,Shuangyashan,Shuangcheng,Shenyang,Shangzhi,Qitaihe,Qiqihar"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Yaweyuha",
@@ -11107,7 +11107,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guirosat,Koenmm,Alolinul,Diitot,Seugeron,Voorim,Oluler,Diesulss,Guaka,Voilotk,Aledw,Olonilos,Seisll,Guutetil,Koolet,Alasaren,Diunam,Seenurz,Voaun,Koikogrr"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Yekora",
@@ -11116,7 +11116,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Nenjiang,Nehe,Mudanjiang,Mishan,Antu,Manzhouli,Longjiang,Liaoyang,Jixi,Lianshan,Jiamusi,Jalai Nur,Jiagedaqi,Hunchun,Huludao,Hulan,Hohhot,Helong,Heihe,Hegang"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Yipma",
@@ -11125,7 +11125,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Xikliung,Kwiuqmae,Yuuued,Eujuestaukl,Oepmprou,Dluiuebl,Uetsclue,Nguokweaji,Gmoidzuugue,Aiqach,Praupmtau,Sweovmoavui,Kluicljiu,Nkiieucl,Aiclasaobl,Uapmauqouj,Zluojea,Auflgwau,Quatouxua,Cleotsoaqui"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Yogo (Tamagario)",
@@ -11134,7 +11134,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Harbin,Hailin,Hailar,Gongzhuling,Genhe,Gannan,Fuyuan,Fushun,Luobei,Dunhua,Daqing,Chifeng,Chengde,Chaoyang,Changling,Changchun,Changbai,Boli,Benxi,Bayan"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Yonggom",
@@ -11143,7 +11143,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Vounekot,Olalasim,Seusdd,Gueguer,Koaras,Alitona,Dielur,Seomidw,Voigo,Kourelll,Olotxx,Dianatet,Guumn,Voetukam,Alalut,Olirosun,Seenom,Koitir,Alugert,Diore"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Zia",
@@ -11152,7 +11152,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Baoqing,Anshan,Aihui,Shilin,Panzhihua,Houhai,Fenghuang,Yulong,Mali,Shandan,Hezhou,Shangri-La,Ulanqab,Ordos,Daocheng,Caotang,Yongle,Jiagao,Qinglong,Wuma"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Zimakani",
@@ -11161,7 +11161,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guetuky,Koalin,Alirosnn,Guesur,Voodimw,Alino,Olusell,Seokxx,Guamanet,Koudn,Alerutam,Diatut,Seiorun,Voemom,Olirir,Diunekt,Guoe,Voalaskk,Alusww"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "ꞌAreꞌare",
@@ -11170,7 +11170,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Haranpunel,Selanit,Wuganidou,Miakka,Saadtunlo,Goalpu,Meaningsi,Muyun,Wiwunyo,Gesunuo,Dadin,Romunul,Wekunginis,Luungbi,Riugamga,Kulin,Eurme,Loumminnu,Yaar,Vuota"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Arin",
@@ -11179,7 +11179,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Fengping,Qinglian,Heqian,Maliu,Heyan,Guojia,Dunhao,Gaoqiao,Yihe,Jiulongshan,Zhen’an,Fengle,Zhendong,Houba,Nanmen,Nanya,Houshan,Lihe,Xiongjia,Tiancheng"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Assan",
@@ -11188,7 +11188,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Zhoujiaba,Taibai,Gaoliang,Zhonggulou,Jiuchi,Pailou,Chenjiaba,Bai’anba,Shuanghekou,Zhushan,Danzi,Changtan,Luotian,Guocun,Longsha,Ganning,Gaofeng,Xialu,Báishí Zhèn,Caohui"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Jie",
@@ -11197,7 +11197,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Dioon,Sealasr,Koegudd,Olarss,Diitonas,Guelk,Voomidur,Aligos,Olurelo,Seotil,Guanatxx,Koumen,Aletukn,Dialz,Seirosut,Voenrr,Koolinom,Olitg,Diugerir"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Nivkh",
@@ -11206,7 +11206,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Vuisluicoo,Eapmiiquoj,Voiikr,Yuagmae,Uisteunguisn,Kaeswio,Groagwuivme,Baaboebaa,Iufleucm,Taotraiklao,Kioswoukh,Oaqndu,Buieub,Yeaaud,Ueqndui,Ngaikwao,Gwuayaedlio,Naocaibmao,Koosweekh,Bmoiruudzue"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Omok",
@@ -11215,7 +11215,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Voudrr,Koerutom,Olatg,Diiorir,Guemes,Voosise,Aliral,Olunekww,Seou,Gualasm,Kousy,Aleguit,Diarnn,Seitonem,Voeld,Koomidar,Oligum,Guotor,Voanattt,Alumi"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Pumpokol",
@@ -11224,7 +11224,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Diugerus,Guorm,Voadagol,Alulit,Olesulin,Seakem,Guilotzz,Koedar,Alonils,Seutetgg,Vooltt,Koasaris,Olunl,Dienurel,Guaat"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Southern Itelmen",
@@ -11233,7 +11233,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Cmaozaismao,Ntookmee,Uatamboucm,Ntuikme,Phapha,Uemiigl,Leogloadrui,Luglyoa,Goondeegwui,Kraovlai,Kmuifreweo,Yeugmuebrii,Pueliih,Oetadl,Caokair,Uidmuecoapl,Vmuadlousl,Glasmakra,Seuntuespii,Gmuaas"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Southern Yukaghir",
@@ -11242,7 +11242,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Sealase,Vousal,Koeguww,Olaru,Diitonm,Guely,Voomidit,Alignn,Olurelem,Seotd,Guanatar,Koumum,Dialor,Seirostt,Voeni"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Tundra Yukaghir",
@@ -11251,7 +11251,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Haodraikmao,Uakwazhouvl,Fruipe,Smiieudz,Aqaspazm,Mbuiwood,Mbeiwiedu,Ndoupluay,Cmuaeubm,Zuadoubl,Slathak,Uuxeusloin,Thuagrae,Loauey,Eopmcmie,Kheovoa,Piilauh,Kravlap,Uukleud,Daosaizh"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Western Itelmen",
@@ -11260,7 +11260,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Changlong,Pushun,Gangjia,Baijia,Yinping,Jukui,Mingda,Lirang,Hucheng,Hexing,Baohe,Dongjia,Shizhi,Huwei,Longkong,Longhe,Qingxichang,Pingkai,Zhongling,Erong"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Yeniseian",
@@ -11269,7 +11269,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Alird,Olunekar,Seoum,Kousor,Alegutt,Diari,Seitonl,Voelx,Koomidat,Oligmm,Diurelul,Guotot,Voanaton,Alumim,Sealer,Guirosss,Koena,Alolink,Diitw,Seugeros"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Yugh",
@@ -11278,7 +11278,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guirz,Vounekut,Olalasom,Seusg,Gueguir,Koares,Alitone,Dielal,Seomidww,Voigu,Kourelm,Oloty,Dianatit,Guumnn,Voetukem"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Angami Pochuri",
@@ -11287,7 +11287,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Dauoingling,Muia,Woenxu,Siiauaqi,Mainyou,Juioentang,Loou,Dionzheng,Baiuuixia,Poaayan,Keanghuang,Haeengyun,Juuo,Boenglan,Yiiuezhu,Jein,Raingning,Muoandian,Hoao,Hiongsi"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Bijiang Bai",
@@ -11296,7 +11296,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Voatir,Koiort,Oleme,Diosiskk,Guirww,Vounekus,Olalasol,Seusit,Gueguin,Koarem,Alitonzz,Dielar,Seomids,Kourelgg,Olottt,Dianatis,Guuml,Voetukel,Alalat,Olirosan"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Boro Garo",
@@ -11305,7 +11305,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kriavloipuu,Fraapgrai,Oukliisn,Astagath,Iafliivuemp,Preeaut,Piilgwii,Ntiakmoimb,Pmaasnoenk,Oucliigriok,Hadrakm,Kwuaqoufl,Vleozmoalui,Iimaun,Aipmaqaoj,Iofbluo,Omuen,Feuchueprii,Suintesp,Dreokroafrui"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Dali Bai",
@@ -11314,7 +11314,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guinww,Vouseus,Alokm,Olamanol,Seudit,Guerutin,Koatem,Aliorzz,Diemar,Seosiss,Kounekgg,Dialasis,Guusl,Voeguel,Alarat,Olitonan,Seelul,Guomidyy"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Digaro Mishmi",
@@ -11323,7 +11323,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Weu,Faiuzhen,Buaoixi,Toai,Reouongxun,Kuehu,Hoiuuoyue,Cheikou,Zaieinzhou,Ruiu,Roonan,Niueaocun,Jaushui,Fuuaejiang,Poung,Zianwei,Weuoingling,Nuenxu,Loiauaqi,Geinyou"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Heqing Bai dialect",
@@ -11332,7 +11332,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Koesy,Alodimit,Diinnn,Seuseem,Seumll,Guetukil,Koalet,Alirosen,Dienam,Seolinz,Voitun"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Idu Taraon",
@@ -11341,7 +11341,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Hoonucun,Siui,Cheaoshui,Zaunaijiang,Roouwei,Niangioling,Reeng,Jaiuxu,Fuengunqi,Poue,Ziieyou,Weingiutang,Nuuezheng,Loongoxia,Niei,Geua,Daungungyan,Muiu,Wouohuang,Siaiiayun"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Jingpho",
@@ -11350,7 +11350,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Rauezheng,Muongoxia,Hiua,Feungungyan,Haiu,Yuuohuang,Toaiiayun,Giang,Neialan,Laeionzhu,Fuie,Foioning,Chiuioudian,Feu,Waiusi,Ruaoijiao,Doai,Liawen,Jeouonglong,Daio"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Jingpho Luish",
@@ -11359,7 +11359,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Muuioudian,Hou,Hiiusi,Feaoijiao,Haai,Yuawen,Toouonglong,Giio,Neexuan,Laiuuoqiao,Foiyu,Chiieintian,Feiu,Waozhi,Ruueaoxian,Doo,Jeuaeyang,Daung,Chuanji,Zouoingzai"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Jino",
@@ -11368,7 +11368,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Zianlong,Weuoingzu,Nuenqiao,Loiauaguang,Geintian,Daioenju,Muou,Woonxian,Siiuuimiao,Maunyang,Juaasheng,Loong,Diangzai,Baeengwan,Lauo,Suengzhuang,Poiuexing,Kiin,Keingdong,Haoanying"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Lolo Burmese",
@@ -11377,7 +11377,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Pouoinghuang,Kiia,Keentu,Haiaualan,Boinxin,Yiioenning,Raonyin,Muiuuisi,Hiunzhang,Feaawen,Haong,Yuangzu,Toeengxuan,Giuo,Neengguang,Laiueyu,Fuin,Foingju,Chioanzhi,Feao"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Longjia Luren",
@@ -11386,7 +11386,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Suaiyun,Poenangtu,Kiua,Keeizhu,Hainiexin,Bouidian,Yionuyin,Jeui,Raaojiao,Muunaizhang,Hioulong,Feangiozu,Haeng,Yuiuqiao,Toengunguang,Giue,Neietian,Laingiuju,Fouexian,Chiongomiao"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Lotha",
@@ -11395,7 +11395,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Dietukw,Gualo,Voirosll,Alenxx,Ololinet,Seitn,Guugeram,Koorut,Aladagun,Diulom,Voakir,Koilott,Olede,Dionilkk,Guisww,Voutetus,Alolm,Olasarol,Seunit,Guenurin"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Macro Bai",
@@ -11404,7 +11404,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Chuinxin,Zoioenning,Chiou,Seonyin,Paiuuisi,Jounzhang,Giaawen,Anangzu,Wueengxuan,Zouo,Piengguang,Meiueyu,Zain,Guingju,Dooanzhi,Yiao,Yeongmiao,Tauei,Wue,Moungsheng"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Mahakiranti",
@@ -11413,7 +11413,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Jeo,Rau,Muuaeyang,Houng,Hianji,Feuoingzai,Haia,Yuenli,Toiauazhuang,Neinping,Laioendong,Fuou,Foonsong,Chiiuuijie,Waunwu,Ruaalu,Doong,Liangxue,Jeeengqiu,Dauo"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Meitei macro entry",
@@ -11422,7 +11422,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Daioentang,Woonzheng,Siiuuixia,Juaayan,Dianghuang,Baeengyun,Suenglan,Poiuezhu,Keingning,Haoandian,Juao,Boongsi,Yiueijiao,Jee,Raungwen,Muaniulong,Hoing,Hiaixuan,Feenangqiao,Haua"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Miju",
@@ -11431,7 +11431,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Hiojing,Feueaozheng,Hao,Yuumen,Touae,Giung,Neanshan,Lauoinghuang,Fuia,Foentu,Chiiaualan,Wainxin,Ruioenning,Doou,Lionyin,Jeiuuisi,Chuunzhang,Zoaawen,Chiong,Seangzu"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Miju Meyor",
@@ -11440,7 +11440,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Giiuuotu,Anizhu,Wuieinxin,Zoiu,Piodian,Meueaoyin,Zao,Guujiao,Douaezhang,Yiung,Yeanlong,Tauoingzu,Wuia,Moenqiao,Kiiauaguang,Faintian,Buioenju,Toou,Tionxian,Reiuuimiao"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Milang",
@@ -11449,7 +11449,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Moeixing,Kiinieping,Fauiying,Buonusong,Toui,Tiaozhao,Reunaiwu,Taa,Kuouzun,Hoangioxue,Sieng,Cheiuhe,Zaengunyuan,Ruue,Roiejun,Niingiuzhong,Jaueming,Fuongocheng,Poei,Ziuashi"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Mongsen Ao",
@@ -11458,7 +11458,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Doengunzhuang,Yiue,Yeieping,Taingiudong,Mouesong,Kiongojie,Weei,Fauawu,Buungunglu,Toiu,Tiuoxue,Reaiiaqiu,Kuiayuan,Hoeiontong,Siie,Cheiozhong,Zauiouxiang,Ruu,Roiucheng,Niaoiye"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Mruic",
@@ -11467,7 +11467,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Buingiudong,Tiuesong,Reongojie,Taei,Kuuawu,Houngunglu,Siiu,Cheuoxue,Zaaiiaqiu,Roiayuan,Nieiontong,Reie,Jaiozhong,Fuuiouxiang,Pou,Ziiucheng,Weaoiye,Paai,Nuajia,Loouongzang"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Naxi",
@@ -11476,7 +11476,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Tiung,Reaniuxun,Taing,Kuaihu,Hoenangyue,Siua,Cheeikou,Zainiezhou,Rouinan,Nionucun,Reui,Jaaoshui,Fuunaijiang,Poa,Ziouwei,Weangioling,Paeng,Nuiuxu,Loengunqi,Geieyou"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Newaric",
@@ -11485,7 +11485,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Chuanlong,Zouoingzu,Chiia,Seenqiao,Paiauaguang,Jointian,Giioenju,Baou,Anonxian,Wuiuuimiao,Piunyang,Meaasheng,Zaong,Guangzai,Doeengwan,Yiuo,Yeengzhuang,Taiuexing,Wuin,Moingdong"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Nishi",
@@ -11494,7 +11494,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Wanmu,Apengjiang,Zhoubai,Dianshui,Longshe,Lianhu,Tongle,Zengfu,Longqiao,Lizhi,Nantuo,Qingxi,Baisheng,Yunji,Changshouhu,Haitang,Jiangnan,Bake,Dawan,Lijia"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Northern Qiang",
@@ -11503,7 +11503,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Shuangfengqiao,Huixing,Cuiyun,Wangjia,Fuxing,Shuanghuai,Shuangfeng,Shitan,Xiaojia,Laitan,Qiantang,Gulou,Yanwo,Erlang,Yangcheng,Diaoyucheng,Nanjin,Zhifeng,Shuanglu,Tangxiang"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Nu",
@@ -11512,7 +11512,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kuuayang,Houngungsheng,Cheuozai,Zaaiiawan,Roiazhuang,Nieionxing,Jaiodong,Fuuiouying,Ziiujie,Weaoizhao,Nualu,Loouongzun,Niio,Geeqiu,Daiuuohe,Woitong,Siieinjun,Meiu,Maoxiang,Juueaoming"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Nung",
@@ -11521,7 +11521,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Buung,Joanshan,Giuoinghuang,Baia,Anentu,Wuiaualan,Piinxin,Meioenning,Zaou,Guonyin,Doiuuisi,Yeunzhang,Taaawen,Wuong,Moangzu,Kieengxuan,Weuo,Faengguang,Buiueyu,Toin"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Nungish",
@@ -11530,7 +11530,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Zoei,Piualun,Meungung,Zaiu,Guuoquan,Doaiiahu,Yiang,Yeiatou,Taeionkou,Wuie,Moioxiao,Kiuiounan,Faiuyi,Buaoishui,Tiaze,Reouongwei,Kuezong,Hoiuuoxu,Cheigou,Zaieinyou"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Nusu",
@@ -11539,7 +11539,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kuoushan,Hoangiohuang,Cheiutu,Zaengunlan,Roiexin,Niingiuning,Jaueyin,Fuongosi,Ziuazhang,Weungungwen,Paiu,Nuuozu,Loaiiaxuan,Niang,Geiaguang,Daeionyu,Muie,Woioju,Siuiouzhi,Meu"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Phom",
@@ -11548,7 +11548,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Voalasm,Alusy,Oleguit,Searnn,Guitonem,Koeld,Alomidar,Diigum,Vootor,Koanattt,Olumi,Dietukl,Gualx,Voirosat,Alenmm,Ololinul,Seitot,Guugeron,Koorim,Diuler"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Proto Hakka",
@@ -11557,7 +11557,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Pioulong,Meangiozu,Zaeng,Guiuqiao,Doengunguang,Yeietian,Taingiuju,Mouexian,Kiongomiao,Fauayang,Buungungsheng,Tiuozai,Reaiiawan,Kuiazhuang,Hoeionxing,Cheiodong,Zauiouying,Roiujie,Niaoizhao,Jaalu"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
 },
 {
     "name": "Proto Loloish",
@@ -11566,7 +11566,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Nuioxiao,Louiounan,Geiuyi,Daaoishui,Woaze,Siouongwei,Maezong,Juiuuoxu,Diigou,Baieinyou,Laiu,Suojing,Poueaozheng,Kio,Keumen,Hauae,Juung,Boanshan,Yiuoinghuang,Jeia"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Proto Min",
@@ -11575,7 +11575,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Jeiu,Rauozu,Muaiiaxuan,Hoang,Hiiaguang,Feeionyu,Haie,Yuioju,Touiouzhi,Giu,Neiumiao,Laaoi,Fuai,Foasheng,Chiouongji,Feio,Waewan,Ruiuuoli,Liixing,Jeieinping"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Proto Sino Tibetan",
@@ -11584,7 +11584,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Loo,Diuye,Bauaeshi,Laung,Suanzang,Pouoingwang,Keenzi,Haiauaxiong,Boingang,Yiioenyong,Raonjin,Muiuuizhen,Hiunlun,Feaa,Yuangquan,Toeenghu,Neengtou,Laiuekou,Foingxiao,Chioannan"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Puroik",
@@ -11593,7 +11593,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Foungyan,Chianiushan,Feing,Waaiyun,Ruenangtu,Doua,Lieizhu,Jeiniexin,Chuuidian,Zoonuyin,Chiui,Seaojiao,Paunaizhang,Bua,Jooulong,Giangiozu,Baeng,Aniuqiao,Wuengunguang,Zoue"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Pyu",
@@ -11602,7 +11602,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Buenangyue,Toua,Tieikou,Reiniezhou,Kuuinan,Meang,Maialan,Jueionzhu,Loie,Diioning,Bauioudian,Suiusi,Poaoijiao,Kiai,Keawen,Haouonglong,Juio,Boexuan,Yiiuuoqiao,Raiyu"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Qiang",
@@ -11611,7 +11611,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Diiortt,Guemi,Voosisl,Alirx,Olunekat,Koadagg,Olult,Diesules,Guakkk,Voilotal"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Raji Raute",
@@ -11620,7 +11620,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ziunyang,Weaasheng,Paong,Nuangzai,Loeengwan,Niuo,Geengzhuang,Daiuexing,Muin,Woingdong,Sioanying,Meao,Maongjie,Juueizhao,Diunglu,Baaniuzun,Laing,Suaiqiu,Poenanghe,Keeitong"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Rouruo",
@@ -11629,7 +11629,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Yuenxu,Toiauaqi,Neinyou,Laioentang,Foonzheng,Chiiuuixia,Ruaayan,Lianghuang,Jeeengyun,Chuenglan,Zoiuezhu,Chiin,Seingning,Paoandian,Buao,Joongsi,Giueijiao,Bae,Anungwen,Wuaniulong"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Rung",
@@ -11638,7 +11638,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Buio,Joeyun,Kuunyang,Hoaasheng,Siong,Cheangzai,Zaeengwan,Ruuo,Roengzhuang,Niiuexing,Rein,Jaingdong,Fuoanying,Poao,Ziongjie,Weueizhao,Pae,Nuunglu,Loaniuzun,Niing"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Shaozhou Tuhua",
@@ -11647,7 +11647,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Seatd,Guiorar,Koemum,Diiror,Seunektt,Vooi,Koalasl,Olusx,Dieguat,Guarmm,Voitonul,Alelot,Olomidon,Seigim,Kooter,Alanatss,Diuma,Seetukk,Voalw,Koirosos"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Southern Qiang",
@@ -11656,7 +11656,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guchang,Shenglilu,Nandajie,Shaoyun,Jianlong,Shuangfu,Zhiping,Wenshan City,Tuanbao,Bole,Liupanshui,Nanchuan,Guanba,Maliuzui,Guōlèmùdé,Anxiang,Mugala,Xingning,Lingquan,Damoujia"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Sümi",
@@ -11665,7 +11665,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bageqi,Tawakule,Han’airike,Ying’awati,Rizhao,Shanwang,Taxkowrük,Onyar,Fudong,Jianshui,Tuantian,Liuzhi,Wanghong,Hongguang Qidui,Linhe,Sansheng,Gongqingcheng,Xiping,Xuzhou,Xichuan"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Thadou",
@@ -11674,7 +11674,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Eaqndee,Guaeusp,Houdruakmou,Dzuampou,Nuecia,Fraapoetwaa,Sluiuevl,Uepruehuus,Eeqiivmookh,Mpounuapl,Oejazm,Eitriibrosl,Noieufr,Vuisleceo,Zmoucmua,Mpuanae,Skoaskphuu,Phuiiisk,Uadmausmoudr,Dloieubl"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Tibetic",
@@ -11683,7 +11683,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Giaa,Anangquan,Wueenghu,Piengtou,Meiuekou,Guingxiao,Dooannan,Yeongyi,Taueishui,Moungze,Kianiuwei,Weing,Faaizong,Buenangxu,Tieigou,Reinieyou,Kuuijing,Hoonuzheng,Cheaomen,Zaunai"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Tibeto Kanauri",
@@ -11692,7 +11692,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Toeng,Tiiuhe,Reengunyuan,Taue,Kuiejun,Hoingiuzhong,Cheueming,Zaongocheng,Rouashi,Niungungjia,Jauowang,Fuaiialin,Ziiaxiong,Weeionpu,Nuioyong,Louioutai,Geiuzhen,Daaoixi,Woa,Siouongxun"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Xiangnan Tuhua",
@@ -11701,7 +11701,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Uotuedliuv,Oushiiy,Pruipmooshee,Twouhua,Jaefliomou,Uafadz,Uoklfroo,Iekwaufeitr,Leeglui,Uashayouvm,Eclklei,Enkiigm,Cmuzosm,Quite,Sieuv,Cmeozoasm,Eexiipm,Uiqhua,Oujakhuadz,Fleiausn"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Yitdut Bai",
@@ -11710,7 +11710,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Alend,Ololinar,Seitum,Alikogk,Diesw,Seodimos,Voinll,Kouseil,Oloket,Diamanen,Guudam,Voerutz,Alatun,Oliorrr,Guosisg,Koirt,Alunekes,Sealasal,Vousus"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Yitdut Bai lect",
@@ -11719,7 +11719,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guulww,Voesulus,Alakm,Olilotol,Seedit,Guonilin,Koisem,Alutetzz,Diolar,Seasars,Koenurgg,Diikogis,Guesl,Voodimel,Alinat,Olusean,Seokul,Guamanyy,Koudon,Alerutr"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Zakhring",
@@ -11728,7 +11728,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Chuiatou,Zoeionkou,Chiie,Seioxiao,Pauiounan,Buu,Joiuyi,Giaoishui,Baai,Anaze,Wuouongwei,Zoio,Piezong,Meiuuoxu,Guigou,Doieinyou,Yiiu,Yeojing,Taueaozheng,Wuo"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Zho",
@@ -11737,7 +11737,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Moumen,Kiuae,Weung,Faanshan,Buuoinghuang,Toia,Tientu,Reiaualan,Kuinxin,Hoioenning,Siou,Cheonyin,Zaiuuisi,Rounzhang,Niaawen,Reong,Jaangzu,Fueengxuan,Pouo,Ziengguang"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Andoque",
@@ -11746,7 +11746,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Aoshayaivm,Ntuieusl,Nkaafoestaa,Laeglio,Druokrea,Kluucluekwia,Eqiivmuikh,Uaqhi,Iuzleutrix,Zmoicmuu,Uitsaugweesw,Aimchaa,Ofuedz,Mbiewudo,Troieukw,Wooiisw,Seantispiu,Ouflapr,Aiflavaomp,Obuesk"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Araona",
@@ -11755,7 +11755,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Koerutus,Olatm,Diiorol,Guemit,Voosisin,Alirem,Olunekzz,Seoar,Gualass,Alegugg,Diartt,Seitonis,Voell,Koomidel,Oligat,Diurelan,Guotul"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Argentinian Rioplatense Spanish",
@@ -11764,7 +11764,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Seunekas,Koalasur,Olusos,Dieguo,Guaril,Voitonxx,Alelen,Olomidn,Seigz,Guurelut,Kootrr,Alanatom,Diumg,Seetukir,Voales,Koirose,Olenal,Diolinww,Guitu,Vougerm"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
 },
 {
     "name": "Arhuaco (Ikʉ)",
@@ -11773,7 +11773,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Alesxx,Olodimet,Seinn,Guuseam,Kookut,Alamanun,Diudom,Seenul,Guolinyy,Alugerr,Seadagdd,Voulss,Koesulas,Diilotur"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Ayoreo",
@@ -11782,7 +11782,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Diudxx,Seerutet,Voatn,Koioram,Olemut,Diosisun,Guirom,Aloir,Olalast,Seuse"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Cofán",
@@ -11791,7 +11791,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Dionilgg,Guistt,Voutetis,Olasarel,Seunat,Guenuran,Koaul,Alikogyy,Dieson,Seodimr,Kousedd,Olokss,Diamanas,Guudk,Voerutur,Alatos,Olioro,Seemil,Guosisxx,Koiren"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Cogui",
@@ -11800,7 +11800,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Voitongg,Aleltt,Olomidis,Seigl,Guurelel,Kootat,Alanatan,Diumul,Seetukyy,Voalon,Koirosr,Diolindd,Guitss,Vougeras,Alork,Oladagur,Seulos,Guesulo,Koakil,Alilotxx"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Fulniô",
@@ -11809,7 +11809,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Panjin,Rugao,Jinzhong,Baoji,Qipan,Longnan,Bayan Nur,Huoshilafu,Gulebage,Sandaoling Lutiankuang Wuqi Nongchang,Siyeke,Bazhong,Tumxuk,Wulong,Chongzuo,Zhakou,Kageleke,Fangchenggang,Dali Old Town,Haidong Zhen"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Guajajara (Tenetehara)",
@@ -11818,7 +11818,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Seerutus,Voatm,Koiorol,Olemit,Diosisin,Guirem,Vounekzz,Aloar,Olalass,Guegugg,Koartt,Alitonis,Diell,Seomidel,Voigat,Kourelan,Olotul,Dianatyy"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Itonama",
@@ -11827,7 +11827,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ouchacl,Eufljeu,Ntokmei,Nkeafclou,Oenkshou,Cmuize,Udmmuu,Oateum,Achampag,Kwaiqaoflai,Uasnautoufl,Iaxiisl,Sheenkklea,Xaakloe,Saintvua,Tsaushxau,Xieklu,Eiclpia,Oezlatr,Itsaujeaf"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Ka'apor",
@@ -11836,7 +11836,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Koudzz,Alerutd,Diats,Seiorum,Voemgg,Koosisor,Oliris,Diuneki,Guoel,Voalasx,Alusan,Olegumm,Searyy,Guitonot,Koelr,Alomidim,Diigdd,Seureler,Vootas,Koanata"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Karu (Baníwa)",
@@ -11845,7 +11845,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Oluneko,Seoil,Gualasxx,Alegun,Diarz,Seitonut,Voelrr,Koomidom,Oligg,Diurelir"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Kayapo",
@@ -11854,7 +11854,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Seoit,Gualasin,Aleguzz,Diarar,Seitons,Koomidgg,Oligtt,Diurelis,Guotl,Voanatel,Alumat,Oletukan,Sealul,Guirosyy,Koenon,Alolinr,Alasarut,Diunrr,Seenurom,Voag"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Kulina",
@@ -11863,7 +11863,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Piuluoh,Sountuasp,Phaiphskua,Gluosmgmio,Oufliipr,Bliezhuzm,Phoieusk,Troosteeclui,Uajsi,Saintaosp,Stiaauq,Twuoheanti,Uitraubr,Preapmtou,Uenksmui,Unkeugmiedl,Tsoushuat,Gliasmoi,Kmoefraaw,Esttrei"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Kwaza",
@@ -11872,7 +11872,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Cmazasm,Vleizmie,Atpla,Ntuoiisl,Kmaiath,Oustrao,Zuudue,Siintausp,Vaoslai,Auqeuvm,Kruovleap,Bmoreidz,Phoiisk,Aekwtwiu,Riieuh,Uiklueth,Eukwtweu,Broegaa,Vlouzmual,Waetwios"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Kwinti",
@@ -11881,7 +11881,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Koiori,Olemel,Diosisx,Guiran,Vounekmm,Aloyy,Olalasot,Seusr,Gueguim,Koardd,Alitoner,Dielas,Seomida,Voigur,Kourelw,Oloto,Dianatll,Guumxx,Voetuket,Alaln"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Leco",
@@ -11890,7 +11890,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Zhaespiocmou,Zhaan,Oajgru,Ukleuth,Zmeeaupl,Uutrbmoa,Glueiigm,Wotweis,Swauvmeuv,Oofuedz,Hoidruu,Gmuidzoog,Zuaar,Ioflntuo,Naeuefr,Apmapl,Uiclpua,Gmoidzuu,Zuidooblee,Pualouh"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Matawai",
@@ -11899,7 +11899,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guolkk,Voasaral,Alunus,Olenuru,Seaol,Guikogy,Koesin,Alodimnn,Diinzz,Seused,Vooks,Koamanum,Oludgg,Dierutor,Guatis,Voiori,Alemel,Olosisx,Seiran,Guunekmm"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Munduruku",
@@ -11908,7 +11908,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Paeuegw,Suinte,Etqei,Pooleehui,Laugleudr,Ueclklue,Zuiduibl,Vlieeund,Ngeeauch,Vlaezmndui,Doosee,Queaudm,Zeudue,Oisnzeo,Ngaekwiojou,Luagloudrua,Oabeuskeosk,Bebeob,Spauuec,Wueausw"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Ndyuka",
@@ -11917,7 +11917,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Olesulo,Seakil,Guilotxx,Koeden,Aloniln,Diisz,Seutetut,Voolrr,Koasarom,Olung,Dienurir,Guaes,Voikoge,Alesal"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Nheengatu",
@@ -11926,7 +11926,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Voorkk,Koadagal,Seudr,Guerutim,Koatdd,Aliorer,Diemas,Seosisa,Voirur,Kounekw,Oloo,Dialasll,Guusxx,Voeguet,Alarn,Olitonam,Seelut,Guomidun,Koigom"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Nivaclé",
@@ -11935,7 +11935,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Juifloomee,Faichaopr,Uocluegriuk,Fluixui,Otuedluv,Tsoosheet,Dmuingfue,Ntaekmiomb,Dmeeauf,Kwuiquifloo,Cmoezbmao,Cluotseaqi,Uecluezl,Suintoosp,Pmousnua,Iclauzl,Fruipuitwoo,Nkifclua,Kloecljao,Kruivlui"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Páez",
@@ -11944,7 +11944,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Coikuu,Aiflacm,Akwga,Uezluevluufr,Tsoushuatou,Iishaukmuesp,Bmeaautw,Shieukl,Upmvuu,Amagl,Pruieut,Aashakm,Pliibmaugmeu,Usheufliech,Ouzlthea,Ndeapliy,Auteumiipr,Koauel,Dzuieunt,Sniizlstii"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Pirahã",
@@ -11953,7 +11953,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guelss,Voomidas,Aligk,Olurelur,Voolnn,Koasarem,Olund,Dienurar,Guaum,Alesor,Olodimtt,Kookx,Alamanat,Diudmm,Seerutul,Voatot,Koioron"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Sanöma (Sanumá)",
@@ -11962,7 +11962,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Seusw,Gueguos,Koarll,Alitonil,Dielet,Seomiden,Voigam,Kourelz,Olotun,Dianatrr,Voetukg,Alalt,Oliroses,Alenurx,Diaan,Seikogmm"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Saramaccan",
@@ -11971,7 +11971,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Woitwuus,Gloosmgmuo,Xiuuezl,Uikwtwua,Iexauslein,Cluuuefl,Zhaispnua,Kmaafroew,Nkoafcluu,Iodmuec,Lougluadrae,Xuuklueng,Iebphoi,Ntieeusl,Iotruedmaepm,Ntaaasl,Jaeflpmui,Twihiunt,Kruovlgio,Oasneut"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Shipibo-Conibo",
@@ -11980,7 +11980,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Yinqiao Zhen,Wanqiao Zhen,Shuangtang,Dapeng,Daxu,Liguo,Jiawang Zhen,Dashahe,Wanggou,Yingqiu,Liushan,Yishan,Huiqu,Jinzhongzi,Zheshan,Buzhuang,Xiaying,Jinggou,Kanjia,Huanglou"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Shuar",
@@ -11989,7 +11989,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Koikogir,Oleses,Diodime,Guinal,Vouseww,Aloku,Olamanm,Seudy,Guerutit,Koatnn,Aliorem,Diemd,Seosisar,Voirum,Oloor,Dialastt,Guusi,Voegul,Alarx,Olitonat"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Sirionó",
@@ -11998,7 +11998,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guatz,Voiorut,Alemrr,Olosisom,Seirg,Guunekir,Kooes,Alalase,Diusal,Seeguww,Voaru,Koitonm,Olely,Diomidit,Guignn,Vourelem,Alotd,Olanatar,Diolw,Seasaros"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Southern Quechua",
@@ -12007,7 +12007,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Utreuw,Oungiibliokr,Xuekliang,Pleubmweu,Roukhhoe,Kluicluikw,Eumvmeu,Ionkuefr,Aiklasn,Mpaanoepl,Uedmiismeudr,Aatsaj,Eamiigluoh,Skiiskau,Dmaangoezlaa,Bmiartwei,Skiuskuo,Abba,Iujeuzm,Eaqiispuozm"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Sranan Tongo",
@@ -12016,7 +12016,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Koent,Alolines,Diitkk,Seugeral,Voorus,Koadagu,Olulol,Diesuly,Guakin,Voilotnn,Aledzz,Olonild,Seiss,Guutetum,Koolgg"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Tupi",
@@ -12025,7 +12025,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Caracas,Maracaibo,Valencia,Barquisimeto,Maracay,Barcelona,Puerto La Cruz,Maturín,Ciudad Guayana,Mérida"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Warao",
@@ -12034,7 +12034,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Seanatam,Voumut,Koetukun,Olalom,Guenir,Voolint,Alite,Olugerkk,Seorww,Guadagus,Koulm,Alesulol,Diakit,Seilotin,Voedem,Kuer"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Warázu",
@@ -12043,7 +12043,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Eejiizmoop,Auteumb,Vliozmoulua,Thigriu,Khooiidr,Zhoospeecmui,Odmuesm,Eoqauspezm,Uejiikh,Greigwie,Aesneukr,Aamanoend,Iutseunt,Ciakoiruu,Friopou,Khauveu,Cukorei,Aemeun,Aafkua,Iuzlthui"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Wariʼ",
@@ -12052,7 +12052,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Seusein,Vookem,Koamanzz,Oludar,Dieruts,Voiorgg,Alemtt,Olosisis,Seirl,Guunekel,Kooat,Alalasan,Diusul,Seeguyy,Voaron,Koitonr,Guonilww"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Xocó",
@@ -12061,7 +12061,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Voarer,Koitonss,Olela,Diomidk,Guigw,Vourelos,Alotll,Olanatil,Seumet,Guetuken,Koalam,Alirosz,Dienun,Seolinrr,Koenurum,Olagg,Diikogor,Guesis,Voodimi,Alinel"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Yaminawa",
@@ -12070,7 +12070,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Yidu,Dongxia,Heguan,Miaozi,Mihe,Shaozhuang,Tanfang,Gucheng,Hualong,Jitai,Taitou,Yingli,Siwei,Ligang,Lingwu,Ningdong,Wangyuan,Minning,Lijun,Shizuishan"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Mizo",
@@ -12079,7 +12079,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ololinan,Seitul,Guugeryy,Kooron,Aladagr,Seesuldd,Voakss,Koilotas,Oledk,Dionilur,Guisos,Vouteto,Alolil,Olasarxx,Seunen,Guenurn,Koaz,Alikogut,Diesrr,Seodimom"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Berau Malay",
@@ -12088,7 +12088,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Thuigre,Coukua,Oesnpmou,Uejuezmuup,Shuonkklio,Mpoanui,Theogroasw,Snoiist,Oeprahaas,Cekeo,Fuocheapr,Dzuoiint,Swouvmgloe,Iangiinkuet,Oateumbeocm,Uotploo,Kwouqua,Bmuorea,Yiagmoi,Eabiibuob"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Enggano",
@@ -12097,7 +12097,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Howonases,Depin,Suponbe,Yimonrindu,Nadonma,Soongagno,Latin,Heotsu,Muorwinwi,Yeang,Yaeian,Haibanom,Sesinus,Wupiniioi,Hegan,Mikingi,Sadinkanla,Goigpe,Meitomru,Muman"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Filipino",
@@ -12106,7 +12106,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Dzempntia,Eedmiismoodr,Drookreefr,Gmuiiis,Breaauzh,Dreakri,Uuqeusp,Eotslie,Theauzm,Iangiibluekr,Uaklfri,Eiqiispozm,Skeeskuisk,Ntooiisl,Bmaoatw,Brouguagr,Ichaump,Iotpluo,Eimiigloh,Zmuiiipl"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Hmong",
@@ -12115,7 +12115,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Voamans,Olerutgg,Seattt,Guioris,Koeml,Alosisel,Diirat,Seunekan,Vooul,Koalasyy,Oluson,Diegur,Voitondd,Alelss,Olomidas,Seigk,Guurelur"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Kachin",
@@ -12124,7 +12124,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Oipmauqiaj,Uklxuu,Peleo,Qaetdmui,Sneizlste,Speimbie,Oumchao,Eazliitruox,Uapmcmi,Tsoosheetui,Oodmueshuiq,Uiprstae,Bobei,Kmoofrthuo,Snaazloefaa,Boubua,Uibphua,Eotraudmepm,Uisnuetoafl,Zouduablae"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Karen",
@@ -12133,7 +12133,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Mueng,Woiutu,Siengunlan,Meue,Maiexin,Juingiuning,Diueyin,Baongosi,Laei,Suuazhang,Poungungwen,Keuozu,Haaiiaxuan,Juang,Boiaguang,Yieionyu,Jeie,Raioju,Muuiouzhi,Hiiumiao"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Kasiguranin",
@@ -12142,7 +12142,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Souav,Aoxasl,Nduiplmbi,Uinksmae,Raokhaimpao,Epriind,Zoodee,Uadmausm,Eangwee,Uipraund,Bmioiitw,Eochaump,Zmocmeiglie,Eacliisuobl,Aofbloe,Woatwuise,Oukwazh,Eeqiivm,Eoshauy,Plobmwui"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Kayah",
@@ -12151,7 +12151,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Oetsantaazh,Gmaedzsui,Dmeengui,Dzempeondoa,Groegwcmao,Tuutruekl,Aaprkhua,Oezlavl,Uixaupm,Sluithekeo,Ueshuekmuusp,Iedmaush,Aebskiu,Bregeogr,Juiflpmue,Thiegrzmeo,Nuacou,Oinksheo,Outriiw,Omuegluh"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Makassarese",
@@ -12160,7 +12160,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Xihu,Shangchong,Sankeshu,Hechi,Xingdaohu,Donghui,Fazhanhe,Fubang,Mujia,Nanling,Nuofu,Nuozhadu,Zhutang,Menghuan,Nongzhang,Hehua,Mangbang,Mazhan,Puchuan,Wuhe"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Malaysian Malay",
@@ -12169,7 +12169,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guoem,Voalaszz,Alusar,Olegus,Guitongg,Koeltt,Alomidis,Diigl,Seurelel,Vootat,Koanatan,Olumul,Dietukyy,Gualon,Voirosr,Ololindd"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Maranao",
@@ -12178,7 +12178,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Greogwoavm,Dzompei,Oenkaxaam,Gouasp,Brieuzh,Aizlatraox,Gmedzeo,Theegruiswui,Chaimaopm,Uojuezm,Roukhuamp,Troestaacl,Nduoplea,Iupmeudrint,Kluiuej,Uikwauzh,Istrui,Tuitrui,Bmoeraadzoe,Yuogmeabri"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Mien",
@@ -12187,7 +12187,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guegui,Koarel,Alitonx,Dielan,Seikogol,Voesit,Koodimin,Olinem,Diusezz,Guokar"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Mon native-speakers subset",
@@ -12196,7 +12196,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Xinhua,Miaojie,Yongjian,Yousuo,Sanchuan,Shunzhou,Jiuhe,Xinyingpan,Shilongba,Wanzhou,Zhuyi,Yintai,Jifeng,Changdao,Liufeng,Xiejiawan,Hongbao,Dayang,Maguan,Muhe"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Rakhine",
@@ -12205,7 +12205,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Uifeup,Dzaumpeu,Druakrbrui,Mpuunueplia,Kuiswuikhoo,Duiskhi,Giandoi,Nioiifr,Bmuaraedzio,Dlieubl,Mbuieuk,Broagui,Skoeskphao,Kmufrowei,Nduepliiyau,Bloezhaa,Gmouas,Voaslui,Gloesmaakroe,Brugo"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Tausug",
@@ -12214,7 +12214,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kaungat,Nuugamui,Ulin,Aurgo,Iumminle,Miar,Teopi,Yuwonassa,Bopin,Niponye,Tamonrine,Hodonil,Neongagas,Kitin,Yiotba,Hiorwindo,Woang,Soeilu,Yeibanni,Musinso"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Waray",
@@ -12223,7 +12223,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Vliieund,Phaephioph,Eufluepraucl,Vleazmiliu,Kmuafrthui,Eosnpmie,Poiluu,Paagw,Snaeuest,Ntuekmslue,Cmueiibm,Tsuuex,Freipie,Pmuesniinkau,Zmaicmaogl,Auflntau,Chiumuopm,Kmuaeuth,Weitwie,Shiunkklae"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Dominican Creole French",
@@ -12232,7 +12232,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Keiaul,Breuguegr,Eeshiiyoovm,Koeswaakhoe,Rekhhia,Vuusluec,Vuaslae,Bluezhii,Eetsmpou,Krevleo,Skooskeesk,Ieklaudeism,Dioskhoo,Giindaugweu,Uimeugl,Zhiaspoicmuu,Coakui,Khooveen,Iexkmoi,Skioskousk"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
 },
 {
     "name": "French Guianese Creole",
@@ -12241,7 +12241,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Uabphai,Eumuenaund,Shuankaetrio,Phuuuesk,Zmuieupl,Shounkuatr,Oungiik,Eejsou,Ababab,Twuahaent,Ofluevump,Iufnkui,Iusneubm,Droekraafroe,Xuaklae,Zueaur,Smaoblaivl,Ofuekludm,Zmuicmpli,Oizldeo"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
 },
 {
     "name": "Grenadian Creole French",
@@ -12250,7 +12250,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Quankou,Alamaiti,Arele,Awati,Azhatebage,Bage'awati,Baishikante,Dunbage,Huangdi,Kuoshi'airike,Mixia,Paikeqi,Tage'erqi,Tuomuwusitang,Wudalike,Yigai'erqi,Yishikuli,Bayandai,Hudiyuzi,Arewusitang"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
 },
 {
     "name": "Karipúna French Creole",
@@ -12259,7 +12259,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Alitus,Olugeru,Seorol,Guadagy,Koulin,Alesulnn,Diakzz,Seilotd,Voeds,Koonilum,Olisgg,Diutetor,Guolis,Voasari,Alunel,Olenurx,Seaan,Guikogmm,Koesyy,Alodimot"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
 },
 {
     "name": "Louisiana Creole",
@@ -12268,7 +12268,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Awuliya,Daxing’anling,Samuyuzi,Weiwu'eryuqiwen,Jiayi,Buzhake,Yisilamu'awati,Akesalayi,Jiahanbage,Ka'ersai,Kuiya,Kuoyiqi,Manglai,Puqiakeqi,Tuohula,Tuwaite,Wu'erqi,Yawa,Zhawa,Dazeshan"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Saint Lucian Creole",
@@ -12277,7 +12277,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Voanatyy,Alumon,Oletukr,Guirosdd,Koenss,Alolinas,Diitk,Seugerur,Vooros,Koadago,Olulil,Diesulxx,Guaken,Voilotn,Aledz,Olonilut,Seisrr,Guutetom,Koolg,Alasarir"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Santiago Creole",
@@ -12286,7 +12286,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Uixuepmoats,Uengiink,Keiswle,Juoflea,Foauets,Koaswuikhe,Tieung,Uisheufluich,Ouzliitr,Oichauliatw,Steauq,Khuvo,Kwaoqaiflao,Gmiaaus,Uesnuetuufl,Oitraudmiapm,Vmiadloisl,Eestiing,Neiaufr,Choemaapmoe"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "Santo Antão Creole",
@@ -12295,7 +12295,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Mpeonoapl,Eoshnie,Outrbmao,Oangeuk,Dlubrothei,Bmeeruidz,Ligliudruo,Oezlthou,Vuaslaecio,Khievuno,Uachal,Uufbloa,Outplea,Uotruew,Driokroufrua,Thaigraoswai,Vmiedluslo,Uakwaswour,Dzuimpoond,Swoevmaa"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "São Nicolau Creole",
@@ -12304,7 +12304,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Dianzi,Dongwenquan,Qitang,Shuanglonghu,Jiaping,Mingshan,Caojie,Fuhuan,Shihao,Yongcheng,Zhuantang,Longling County,Mianzhu,Deyang,Sichuan,Pingwu County,Tianjia,Weixinghu,Hulunbuir,Shajing Residential District,Shajing Town,Bao'an"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 {
     "name": "São Vicente Creole",
@@ -12313,7 +12313,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Xeeklzlea,Pmaesnionk,Iklauth,Kloauej,Oquevmukh,Nguikwuij,Kleocljoi,Cmiezusmo,Pmeeautr,Cluitsuiqoo,Snizliufuo,Uekwuef,Nteekmui,Snaizlao,Oetradm,Drekreofroa,Qiatdmei,Fichiupruo,Bloauemp,Tuitrngiu"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
 },
 
 ];

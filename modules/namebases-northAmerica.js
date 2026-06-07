@@ -10,7 +10,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Patos Fshat,Fier County,Patos,Lushnjë,Lezhë,Lezhe County,Kuçovë,Berat County,Krujë,Kavajë,Fushë-Krujë"
+  "b": "Tenochtitlan,Mexico City,Texcoco,Xochimilco,Tlaxcala,Cuernavaca,Azcapotzalco,Tlatelolco,Chalco,Nezahualcoyotl,Tepotzotlan,Huaxacac,Oaxaca,Tlachco,Taxco,Matixco,Yaotlan,Cuicatlan,Comitlan,Amatlan,Tonanytlan,Xolotlan,Otompan,Yopico,Zinacantlan,Tzinhuitzquilocan"
 },
 {
     "name": "Inuit",
@@ -19,7 +19,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Boedo,Berazategui,Belgrano,Barranqueras,Barracas,Aristóbulo del Valle,Apóstoles"
+  "b": "Iqaluit,Kinngait,Arviat,Rankin Inlet,Baker Lake,Pond Inlet,Cape Dorset,Pangnirtung,Igloolik,Clyde River,Kimmirut,Cambridge Bay,Gjoa Haven,Repulse Bay,Chesterfield Inlet,Whale Cove,Naujaat,Sanikiluaq,Kugaaruk,Kugluktuk,Ulukhaktok,Paulatuk,Tuktoyaktuk,Inuvik,Aklavik"
 },
 {
     "name": "Canadian French",
@@ -28,7 +28,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Morphett Vale,Kwinana,Gosnells,Gawler,Byford,Australind"
+  "b": "Montreal,Quebec City,Trois-Rivieres,Sherbrooke,Gatineau,Saguenay,Longueuil,Levis,Saint-Jean-sur-Richelieu,Laval,Terrebonne,Repentigny,Dollard-des-Ormeaux,Brossard,Saint-Jerome,Blainville,Mirabel,Chateauguay,Drummondville,Saint-Hyacinthe,Joliette,Victoriaville,Rouyn-Noranda,Val-d'Or,Saint-Georges"
 },
 {
     "name": "Chipilo",
@@ -37,7 +37,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Aspen,Boulder,Breckenridge,Vail,Estes Park,Fort Collins,Colorado Springs,Pueblo,Greeley,Grand Junction"
+  "b": "Chipilo,Puebla,Segusino,Treviso,Belluno,Quero,Valdobbiadene,Feltre,Maser,San Gregorio Atzompa,Chipilo de Francisco Javier Mina,Veneto,Feltrino-Bellunese,Colonia Fernandez Leal,Casa de Italia,Salesian convent,St. Anne,St. Peter,St. Paul,St. Mary,St. Joseph,St. Francis,St. Anthony,St. Michael,St. John"
 },
 {
     "name": "New England French",
@@ -46,7 +46,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Springvale,South Yarra,Southport,Shepparton,Seven Hills,Saint Kilda,Saint Ives,Saint Albans,Ryde"
+  "b": "Lewiston,Madawaska,Fort Kent,Van Buren,St. Agatha,Grand Isle,Hamlin,Frenchville,New Canada,Eagle Lake,St. Francis,Wallagrass,Cyr Plantation,Dennistown Plantation,St. John Plantation,Allagash,St. Froid,St. Pamphile,Perth-Andover,Plaster Rock,Grand Falls,Edmundston,Woodstock,Grand-Sault,St. Leonard,St. Andre"
 },
 {
     "name": "Newfoundland French",
@@ -55,7 +55,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Rowville,Rockhampton,Rockdale,Ringwood,Reservoir,Quakers Hill,Port Melbourne,Port Macquarie,Point Cook"
+  "b": "Placentia,Plaisance,St. Pierre,Miquelon,Port au Port,Cape St. George,Black Duck Brook,Winterhouse,Mainland,La Grand'Terre,Degras,Ruisseau Rouge,Red Brook,L'Anse-a-Canards,Lourdes,Stephenville,Codroy Island,St. Georges,Ferryland,Grand Le Pierre,Bay l'Argent,Beau Bois,Petite Forte,La Scie,Trepassey,St. Lunaire,Bréhat,Quirpon"
 },
 {
     "name": "Afro-Seminole Creole",
@@ -64,7 +64,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Pascoe Vale,Palm Beach,Pakenham,Officer,North Melbourne,Northcote,Noble Park,Nerang,Narre Warren"
+  "b": "Oklahoma City,Tulsa,Lawton,Duncan,Wichita Falls,Ardmore,Durant,Chickasha,Anadarko,Clinton,McAlester,Seminole,Muskogee,Okmulgee,Eufaula,Wewoka,Holdenville,Sasakwa,Redbird,Weleetka,Clearview,Bowlegs,Earlsboro,Wetumka,Dewar,Calvin,Indianola,Spaulding,Weleetka"
 },
 {
     "name": "Awakatek",
@@ -73,7 +73,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Narangba,Muswellbrook,Mulgrave,Mount Waverley,Mount Martha,Mount Gambier,Mount Eliza,Mount Druitt,Mosman,Mornington"
+  "b": "Aguacatán,Huehuetenango,Chalchitán,San Miguel Acatán,San Rafael La Independencia,Nentón,San Sebastián Coatán,San Mateo Ixtatán,San Juan Ixcoy,Santa Cruz Barillas,Cuilco,Ystapalapán,San Ramón,Ayutla,Tres Cruces,Puebla,Campeche,Champotón,Candelaria,La Libertad,El Quetzal,San Cristóbal Verapaz,Tactic,Cobán,Santo Tomás,Panzós,Purulhá"
 },
 {
     "name": "Franco-Ontarian",
@@ -82,7 +82,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Frankston,Footscray,Fairfield,Essendon,Epping"
+  "b": "Ottawa,Orléans,Sudbury,Thunder Bay,Timmins,North Bay,Hamilton,Windsor,Kingston,London,Kitchener,Guelph,Barrie,Pembroke,Hawkesbury,Plantagenet,Casselman,Embrun,Rockland,Cornwall,Alexandria,Vankleek Hill,Clarence-Rockland,Russell,Glengarry,Prescott"
 },
 {
     "name": "Frenchville French",
@@ -91,7 +91,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Engadine,Eltham,Eight Mile Plains,Echuca,Eastwood,Earlwood,Doreen,Doncaster East"
+  "b": "Frenchville,Clearfield,Philipsburg,Altoona,State College,Williamsport,Erie,Pittsburgh,Harrisburg,Scranton,Wilkes-Barre,Allentown,Bethlehem,Reading,Lancaster,York,Mechanicsburg,Gettysburg,Carlisle,Doylestown,Bethlehem,Easton,Stroudsburg,Jim Thorpe,Bethlehem,Easton,Stroudsburg"
 },
 {
     "name": "Louisiana French",
@@ -100,7 +100,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "New Orleans,Lafayette,Baton Rouge,Shreveport,Lake Charles,Houma,Thibodaux,Opelousas,Crowley,Eunice"
+  "b": "New Orleans,Lafayette,Baton Rouge,Shreveport,Lake Charles,Houma,Thibodaux,Opelousas,Crowley,Eunice,Morgan City,Natchitoches,Alexandria,Monroe,Bossier City,Ruston,Ville Platte,Marksville,Breaux Bridge,Gonzales,Donaldsonville,Plaquemine,Thibodaux,Lutcher,St. Martinville,Franklin"
 },
 {
     "name": "Chuj",
@@ -109,7 +109,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "San Mateo Ixtatán,San Sebastián Coatán,Nentón,Barillas,Ixcán,Huehuetenango,San Juan Cotzal,Santa Cruz del Quiché,Chichicastenango,Antigua Guatemala"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Seri",
@@ -118,7 +118,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Calgary,Camrose,Candiac,Cariboo,Cartierville,Central Saanich,Centretown,Chambly,Châteauguay"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Inuktitut",
@@ -127,7 +127,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Iqaluit,Rankin Inlet,Arviat,Baker Lake,Pond Inlet,Cape Dorset,Pangnirtung,Igloolik,Clyde River,Kimmirut"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Acadian",
@@ -136,7 +136,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Velbert,Vegesack,Vechta,Vechelde,Vaterstetten,Varel,Vaihingen an der Enz,Uetersen,Uslar,Unterschleißheim"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Brayon",
@@ -145,7 +145,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Steglitz,Staßfurt,Stadtlohn,Stadthagen,Stadtallendorf,Hansestadt Stade,Staaken,Sprockhövel,Springe"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "American Finnish",
@@ -154,7 +154,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Schmalkalden,Schlüchtern,Schleswig,Schkeuditz,Schiffweiler,Schifferstadt,Scharnhorst,Bad Saulgau,Sasel,Sarstedt"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Magoua",
@@ -163,7 +163,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bobingen,Blomberg,Blieskastel,Blasewitz,Blankenburg,Bitterfeld-Wolfen,Bingen am Rhein,Billstedt,Bietigheim-Bissingen,Biesdorf"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Mexican Spanish",
@@ -172,7 +172,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bad Salzuflen,Bad Säckingen,Bad Reichenhall,Bad Rappenau,Bad Pyrmont,Bad Oldesloe,Bad Oeynhausen,Bad Neustadt an der Saale,Bad Neuenahr-Ahrweiler,Bad Nauheim"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Missouri French",
@@ -181,7 +181,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Aue,Attendorn,Aschersleben,Ascheberg,Bad Arolsen,Arnstadt,Arnsberg,Arheilgen,Apolda"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Muskrat French",
@@ -190,7 +190,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Filderstadt,Ostfildern,Rodgau,Gropiusstadt,Seeheim-Jugenheim,Bonn Hardtberg,Charlottenburg-Nord,Mitte,Rheinstetten,Südstadt"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Ch'orti'",
@@ -199,7 +199,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Helsingør,Hedensted,Haderslev,Greve,Glostrup,Frederikssund,Frederikshavn,Frederiksberg,Fredericia,Farum"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Cauque Mayan language",
@@ -208,7 +208,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Fontaine,Floirac,Fleury-les-Aubrais,Firminy,Fécamp,Faches-Thumesnil,Eysines,Évry,Évreux"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Pidgin Delaware",
@@ -217,7 +217,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Élancourt,Écully,Échirolles,Eaubonne,Dunkirk,Draveil,Drancy,Douai,Domont"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Deg Xinag",
@@ -226,7 +226,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Deuil-la-Barre,Denain,Décines-Charpieu,Dammarie-les-Lys,Cugnaux,Croix,Créteil"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Tâ”¼Ã©â”€Â»châ•ŸÂ½",
@@ -235,7 +235,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Crépy-en-Valois,Creil,Cran-Gevrier,Courbevoie,Coulommiers,Couëron,Coudekerque-Branche,Cormeilles-en-Parisis,Corbeil-Essonnes,Conflans-Sainte-Honorine"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Kiliwa",
@@ -244,7 +244,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Compiègne,Combs-la-Ville,Pontault-Combault,Colomiers,Colombes,Colmar,Cluses,Clichy-sous-Bois,Clichy"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Quechan",
@@ -253,7 +253,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Chaumont,Chatou,Châtenay-Malabry,Châteaudun,Charenton-le-Pont,Champs-sur-Marne,Champigny-sur-Marne"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Cochimâ”œÂ¡",
@@ -262,7 +262,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Challans,Cestas,Cesson-Sévigné,Cergy,Cenon,Castelnau-le-Lez,Carvin"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Yavapai",
@@ -271,7 +271,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Carrières-sous-Poissy,Carquefou,Canteleu,Caluire-et-Cuire,Calais,Cahors,Cagnes-sur-Mer"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Mohawk",
@@ -280,7 +280,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Cachan,Paris 19 Buttes-Chaumont,Paris 18 Buttes-Montmartre,Bry-sur-Marne,Brunoy,Bruay-la-Buissière,Bron,Brignoles,Brie-Comte-Robert,Brétigny-sur-Orge"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Cayuga",
@@ -289,7 +289,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Paris 02 Bourse,Bourg-lès-Valence,Bourg-la-Reine,Bourg-en-Bresse,Boulogne-sur-Mer,Boulogne-Billancourt,Bouguenais,Bonneuil-sur-Marne"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Oneida",
@@ -298,7 +298,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bondy,Boissy-Saint-Léger,Bois-Colombes,Bobigny,Blanquefort,Blagnac,Bischheim,Bezons"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Onondaga",
@@ -307,7 +307,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Berck,Berck-Plage,Bègles,Paris 17 Batignolles-Monceau,Balma"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Seneca",
@@ -316,7 +316,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bagnols-sur-Cèze,Bagnolet,Bagneux,Avon,Avion,Aulnay-sous-Bois,Aubervilliers"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Tuscarora",
@@ -325,7 +325,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Athis-Mons,Asnières-sur-Seine,Armentières,Argenteuil,Arcueil,Antony,Annonay,Annemasse"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Turks and Caicos Creole",
@@ -334,7 +334,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Hazel Grove,Haywards Heath,Hayes,Haydock,Hawarden,Haverhill,Havant,Haslingden"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Vincentian Creole",
@@ -343,7 +343,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Haslemere,Harwich,Hartley,Hartlepool,Harrow,Harrogate,Harpenden,Harlesden,Hanworth,Hampton"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Virgin Islands Creole",
@@ -352,7 +352,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Halewood,Hailsham,Hadleigh,Guiseley,Guisborough,Greenwich"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Jamaican Maroon Creole",
@@ -361,7 +361,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Greenford,Great Yarmouth,Great Wyrley,Great Sankey,Great Malvern,Grays,Gravesend,Grangemouth,Gosport,Gosforth"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Aleut",
@@ -370,7 +370,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Folkestone,Flint,Fleet,Finchley,Feltham,Felling,Felixstowe,Fazakerley,Faversham"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Quebec French",
@@ -379,7 +379,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ashton-under-Lyne,Ashton in Makerfield,Ashington,Ascot,Arnold,Arbroath,Antrim,Ampthill"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Kumeyaay",
@@ -388,7 +388,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Samtskhe-Javakheti,Stantsiya Novyy Afon,French Guiana,Guyane,Rémire-Montjoly,Matoury,Guernsey,Yegyi"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Broken Oghibbeway",
@@ -397,7 +397,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Prairie du Chien,Wisconsin Rapids,La Crosse,Green Bay,Milwaukee,Chicago,St. Louis,Davenport,Rock Island,Peoria"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Broken Slavey",
@@ -406,7 +406,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Whitehorse,Dawson City,Fort McPherson,Inuvik,Yellowknife,Norman Wells,Watson Lake,Mayo,Carmacks,Pelly Crossing"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Chol",
@@ -415,7 +415,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Tuxtla Gutiérrez,San Cristóbal de las Casas,Comitán,Tapachula,Ocosingo,Palenque,Chiapa de Corzo,Tonala,Arrigain,Cacahoatán"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Cahuilla",
@@ -424,7 +424,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Los Angeles,San Diego,Riverside,Palm Springs,Indio,Thermal,Anza,Mountain Center,Aguanga,Idyllwild"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Huastec",
@@ -433,7 +433,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Barberena,Asunción Mita,Amatitlán,Alotenango,Tamuning-Tumon-Harmon Village,Yigo Village,Dededo Village"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Central Zapotec",
@@ -442,7 +442,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Naphegy,Mosonmagyaróvár,Mátyásföld,Lágymányos,Kőbánya,Kispest,Kiskunhalas"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Mazatec",
@@ -451,7 +451,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Budapest XXI. kerület,Budapest XX. kerület,Budapest XVII. kerület,Budapest III. kerület,Budapest II. kerület,Budapest I. kerület,Józsefváros,Csepel-Királyerdő,Csepel-Csillagtelep,Középső-Ferencváros"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Chinantec",
@@ -460,7 +460,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Sandyford,Donaghmede,South Dublin,Giv`at H̱ananya,Modi‘in Makkabbim Re‘ut,Zikhron Ya‘aqov,Northern District,Yoqne‘am ‘Illit,Yirkā"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Chinook Jargon",
@@ -469,7 +469,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ofaqim,Netivot,Ness Ziona,Nesher,Naẕerat ‘Illit,Nahariyya,Migdal Ha‘Emeq,Mevasseret Tsiyyon,Majd el Kurūm"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Cholti Classic",
@@ -478,7 +478,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Er Reina,Eilat,Dimona,Daliyat al Karmel,Binyamina-Giv‘at ‘Ada,Bet Shemesh,Bet She’an,Be’er Ya‘aqov,Bat Yam"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Chorotega",
@@ -487,7 +487,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Vellakkovil,Vejalpur,Vedaraniyam,Vayalār,Vattalkundu,Vāsudevanallūr,Vasind,Vaso,Varkala"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Chicomuceltec",
@@ -496,7 +496,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Sopur,Sonkach,Sonīpat,Songadh,Sonpet,Rajpur Sonarpur,Sonāmukhi,Sompeta,Someshwar"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Coxoh",
@@ -505,7 +505,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Sheohar,Sheoganj,Shenkottai,Shehera,Shegaon,Shāntipur,Shamsābād,Shāmli,Shāmgarh"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Eskimo Trade Jargon",
@@ -514,7 +514,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Khatauli,Khārupatia,Kharsia,Kharkhauda,Kharhiāl,Khargone,Khardah,Kharar,Kharakvasla"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Greenlandic",
@@ -523,7 +523,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Jadcherla,Etmadpur,Itārsi,Islāmpur,Islāmnagar,Irugūr,Irinjālakuda,Iringal,Malda"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Gullah",
@@ -532,7 +532,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Denkanikota,Delhi Cantonment,Davorlim,Davangere,Daund,Daudnagar,Dattāpur,Datia"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Inuktitut-English Pidgin (dedicated)",
@@ -541,7 +541,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Amarpātan,Ambarnath,Amalāpuram,Alwaye,Allinagaram,Prayagraj"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Isthmus Zapotec",
@@ -550,7 +550,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Karjan,Jalandhar Cantonment,Kagaznāgār,Prāntij,Kirandul,Nedumbassery,Ganaur,Shiraguppi,Gadag-Betageri"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Itza",
@@ -559,7 +559,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lateri,V.S.K.Valasai (Dindigul-Dist.),Dhamanagar,Joda,Kadodara,Maithon,Neelankarai,Injambakkam,Palavakkam"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Cree",
@@ -568,7 +568,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Babil,Ṟuwandiz,Rānyah,Al Qā’im,Al-Hamdaniya"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Ojibwe",
@@ -577,7 +577,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Qal‘at Sukkar,Dhi Qar,Qal‘at Şāliḩ,Maysan,Qeładizê,Mandalī,Koysinceq,Kifrī,Khānaqīn,Kelar"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Yupik",
@@ -586,7 +586,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Hīt,Ḩarir,Ḩadīthah,Soran,Dihok,Jamjamāl,Bayjī,Batifa,Baqubah"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Cherokee",
@@ -595,7 +595,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ash Shāmīyah,Ar Ruţbah,Ar Rumaythah,‘Aqrah,An Nu‘mānīyah,‘Anat al Qadīmah,Al Qurnah,Al-Qāsim,Al-Musayab"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Apache",
@@ -604,7 +604,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Mescalero,San Carlos,White Mountain,Fort Sill,Jicarilla,Lipan,Chiricahua,Warm Springs,Tonto,Cibecue"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Athabaskan",
@@ -613,7 +613,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Fairbanks,Anchorage,Bethel,Nome,Barrow,Kotzebue,Dillingham,Unalakleet,St. Mary's,Holy Cross"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Navajo",
@@ -622,7 +622,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "‘Anah,Simele,Shūrash,Abū al-Kahṣīb,Iran,Islamic Republic of,Alvand,Qazvin Province,Zīr Āb,Mazandaran"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Achi",
@@ -631,7 +631,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Salamá,Cubulco,Rabinal,San Miguel Chicaj,San Jerónimo,Purulhá,El Chol,Granados,Tactic,San Cristóbal"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Akatek",
@@ -640,7 +640,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "San Miguel Acatán,San Rafael La Independencia,Concepción Huista,Nentón,San Sebastián Coatán,San Mateo Ixtatán,Huehuetenango,Comitán,Tuxtla Gutiérrez,San Cristóbal de las Casas"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Labrador Inuit Pidgin French (dedicated)",
@@ -649,7 +649,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Savannakhet Province,Champasak Province,Loungnamtha,Muang Phônsavan,Xiangkhoang,Pakxan,Khammouane Province,Luang Prabang Province,Borikhan,Ban Xénô"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Lakota",
@@ -658,7 +658,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Pine Ridge,Rosebud,Standing Rock,Cheyenne River,Lower Brule,Crow Creek,Yankton,Flandreau,Marty,Wagner"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Cuicatec",
@@ -667,7 +667,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Oaxaca City,Cuicatlán,Teotitlán del Valle,Miahuatlán,Tlaxiaco,Huatulco,Pochutla,Puerto Escondido,Salina Cruz,Juchitán"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Ahtna",
@@ -676,7 +676,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Madera,Los Reyes de Salgado,Los Mochis,León de los Aldama,Las Pintas de Arriba"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Qeqchi",
@@ -685,7 +685,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Putra Heights,Bukit Bintang,Bandar Sunway,Bandar Puncak Alam,Kota Damansara,Damansara Damai"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Kiche",
@@ -694,7 +694,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bandar Sri Damansara,Taman Petaling,Denai Alam,Tropicana Indah,Taman Greenwood,Taman Melati,Ara Damansara,Desa Parkcity,Kampung Setia"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Yucatec-Maya",
@@ -703,7 +703,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Mont Kiara,Taman OUG,Taman Tun Dr Ismail,Bangsar,Seremban 2"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Totonac",
@@ -712,7 +712,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bandar Country Homes,Alam Damai,SS2,Sungai Jawi,Bandar Saujana Utama"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Qanjobal",
@@ -721,7 +721,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bukit Rahman Putra,Setia Tropika,Bandar Tasik Puteri,Desa Petaling,Bukit Kerinchi,Titiwangsa,Horizon Hills,Bandar Putra Kulai,Taman Scientex,Bandar Seri Alam"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Southern-Quechua",
@@ -730,7 +730,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "FELDA Chini,Bandar Baru Salak Tinggi,Bandar Utama,Bukit Jalil,Taman Desa,Gaza Province,Sofala,Zambezia Province"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Tlingit",
@@ -739,7 +739,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Juneau,Skagway,Sitka,Ketchikan,Haines,Angoon,Yakutat,Metlakatla,HAINES,Tenakee Springs"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Salish",
@@ -748,7 +748,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Buguma,Bode Saadu,Birnin Kudu,Sofo-Birnin-Gwari,Biliri,Bende"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Innu",
@@ -757,7 +757,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Nelson Region,Rolleston,Tasman District,Pukekohe East,Palmerston North,North Shore,New Plymouth,Taranaki Region,Napier,Hawke's Bay Region"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Amuzgo",
@@ -766,7 +766,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ayala Alabang,Banco Filipino Homes,General Salipada K. Pendatun,Bagong Silang,Al-Barka,Chuhar Jamali,Azad Kashmir,Pir Jo Goth"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Sierra Popoluca",
@@ -775,7 +775,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Świerczewo,Osiedle Kosmonautów,Rejon placu Grunwaldzkiego,Rejon ulicy Traugutta,Kozanów,Rejon placu Świętego Macieja,Różanka-Polanka,Orunia Górna-Gdańsk Południe,Psie Pole,Saint Pierre and Miquelon"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Tlapanec (MeÎ©â‚§Ã®phaa)",
@@ -784,7 +784,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Acapulco,Cancun,Guadalajara,Mazatlán,Mérida,Monterrey,Puerto Vallarta,Tijuana,Toluca,Veracruz"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Paipai",
@@ -793,7 +793,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Fajardo,Guayama,Manati,Mayagueez,Palestine,State of"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Coast Tsimshian (SmÎ“Ã‡Ã–algyaâ• â–’x)",
@@ -802,7 +802,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ma‘ale Adummim,Janīn,Idhnā,Ḩalḩūl,Dūrā,Bayt Jālā,Bayt Ḩanīnā,Battir,Banī Na‘īm"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Dakota",
@@ -811,7 +811,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Pine Ridge,Rosebud,Standing Rock,Cheyenne River,Lower Brule,Crow Creek,Yankton,Flandreau,Marty,Wagner"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Crow",
@@ -820,7 +820,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Crow Agency,Hardin,Lodge Grass,Pryor,St. Xavier,Wyola,Fort Smith,Burns Creek,Smith Creek,Soap Creek"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Mixe",
@@ -829,7 +829,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "São Mamede de Infesta,São João da Madeira,Santo Ovídio,Santo António dos Olivais,Ribeira de Frades,Póvoa de Varzim,Ponte de Lima,Paranhos"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Tabasco Zoque",
@@ -838,7 +838,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ovar,Oliveira do Douro,Lordelo do Ouro,Leça do Bailio,Leça da Palmeira,Ílhavo"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Chochotec",
@@ -847,7 +847,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Oaxaca City,Cuicatlán,Teotitlán del Valle,Miahuatlán,Tlaxiaco,Huatulco,Pochutla,Puerto Escondido,Salina Cruz,Juchitán"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Ixcatec",
@@ -856,7 +856,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Oaxaca City,Cuicatlán,Teotitlán del Valle,Miahuatlán,Tlaxiaco,Huatulco,Pochutla,Puerto Escondido,Salina Cruz,Juchitán"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Q'anjob'al",
@@ -865,7 +865,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Azeitão,Parque das Nações,Cidade Universitária,Campo De Ourique,Yby Yaú,Villa Elisa,Central Department,Misiones Department"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Eyak",
@@ -874,7 +874,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Presidente Franco,Alto Parana Department,Neembucu Department,Amambay Department,Boqueron Department,Itauguá,Itá,Itapua"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Dena'ina",
@@ -883,7 +883,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Caaguazu Department,Caazapá,Cordillera Department,Al ‘Unayzah,Baladiyat ad Dawhah,Umm Şalāl Muḩammad,Umm Ghuwaylīnah"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Chipewyan",
@@ -892,7 +892,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Nu‘ayjah,Mu‘aydhir Rawḑat Rāshid,Baladiyat ar Rayyan,Madīnat Khalīfah,Az̧ Z̧a‘āyin,Ar Rayyān,Al Khawr,As Sulţah al Jadīdah,Al Manşūrah,An Najmah"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Holikachuk",
@@ -901,7 +901,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Grayling,Anvik,Shageluk,Holy Cross,McGrath,Nikolai,Takotna,Lime Village,Red Devil,Sleetmute"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Koyukon",
@@ -910,7 +910,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Romania,Teleorman County,Zărnești,Brasov County,Salaj County,Vulcan,Hunedoara County,Voluntari,Ilfov,Maramures,Vaslui County,Urziceni"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Upper Kuskokwim",
@@ -919,7 +919,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ialomita County,Cluj County,Tulcea County,Târnăveni,Mures County,Târgu Secuiesc,Covasna County,Neamt County,Gorj County,Dambovita County"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Upper Tanana",
@@ -928,7 +928,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Timis County,Galati County,Olt,Sibiu County,Alba County,Satu Mare County,Bihor County,Săcele"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Kiowa",
@@ -937,7 +937,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Zelenchukskaya,Karachayevo-Cherkesiya Republic,Zavolzh’ye,Zavety Il’icha,Zarechnyy,Penza Oblast,Zaraysk,Zapolyarnyy,Zamoskvorech’ye,Yushkovo"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Tewa",
@@ -946,7 +946,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Yur’yev-Pol’skiy,Vladimir Oblast,Mariy-El Republic,Yeysk,Yessentukskaya,Yessentuki,Yershov,Yemva,Yelizavetinskaya,Yelets,Lipetsk Oblast"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Choctaw",
@@ -955,7 +955,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Vol’sk,Volokolamsk,Vologda,Vologda Oblast,Nagornyy,Volgorechensk,Kostroma Oblast,Volgodonsk,Novovladykino"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Muscogee",
@@ -964,7 +964,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "North Ossetia-Alania,Vidnoye,Vichuga,Ivanovo Oblast,Veshnyaki,Venëv,Vel’sk,Velikiye Luki,Pskov Oblast,Vatutino"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Mikasuki",
@@ -973,7 +973,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Valuyki,Valday,Novgorod Oblast,Vagonoremont,Uzlovaya,Uvarovo,Ust’-Labinsk,Ust’-Katav,Usman’,Uryupinsk"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Comanche",
@@ -982,7 +982,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lawton,Frederick,Walters,Cache,Elgin,Fletcher,Indiahoma,Geronimo,Medicine Park,Meers"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Hopi",
@@ -991,7 +991,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Oraibi,Hotevilla,Walpi,Shongopavi,Mishongnovi,First Mesa,Second Mesa,Third Mesa,Keams Canyon,Tuba City"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Shoshoni",
@@ -1000,7 +1000,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Reno,Carson City,Elko,Ely,Fallon,Winnemucca,Battle Mountain,Tonopah,Austin,Gabbs"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Kalaallisut",
@@ -1009,7 +1009,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Novaya Usman’,Novaya Derevnya,Noginsk,Nizhnyaya Tura,Nizhny Tagil,Nizhniy Novgorod,Nizhniy Lomov,Nikulino,Nikol’skoye"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Chontal Maya",
@@ -1018,7 +1018,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Manturovo,Yaroslavskiy,Maloyaroslavets,Malakhovka,Magnitogorsk,Lyudinovo,Lyublino,Lyubertsy"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Cora",
@@ -1027,7 +1027,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lytkarino,Lys’va,Luzhniki,Lukhovitsy,Losino-Petrovskiy,Lomonosov,Lodeynoye Pole,Lobnya,Livny"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Alutiiq",
@@ -1036,7 +1036,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kurchatov,Kupchino,Kuntsevo,Kukmor,Kudrovo,Kudepsta,Kubinka"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Huichol",
@@ -1045,7 +1045,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kholmskiy,Khimki,Kharabali,Khadyzhensk,Katav-Ivanovsk,Kastanayevo,Kasimov,Kashira,Kashin"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Inuinnaqtun",
@@ -1054,7 +1054,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Karachev,Karabanovo,Kapotnya,Kantyshevo,Kanevskaya,Kamyzyak,Kamyshin,Kamensk-Shakhtinsky"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Q'eqchi'",
@@ -1063,7 +1063,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kamenka,Kaluga,Kalininsk,Korolev,Kalach-na-Donu,Kalach,Kachkanar,Kabanovo,Izobil’nyy"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Tzeltal",
@@ -1072,7 +1072,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Izmaylovo,Ivanteyevka,Istra,Ipatovo,Inozemtsevo,Il’skiy,Gus’-Khrustal’nyy"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Tzotzil",
@@ -1081,7 +1081,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Gusev,Gul’kevichi,Gukovo,Gubkin,Gubakha,Gryazovets,Gryazi,Gribanovskiy"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Yucatec Maya",
@@ -1090,7 +1090,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Mérida,Valladolid,Tizimín,Progreso,Umán,Ticul,Halachó,Peto,Calkínu,Motul"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Kaqchikel",
@@ -1099,7 +1099,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guatemala City,Antigua Guatemala,Chichicastenango,Sololá,Totonicapán,Quetzaltenango,Escuintla,Mazatenango,Retalhuleu,San Marcos"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Ixil",
@@ -1108,7 +1108,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guatemala City,Nebaj,Chajul,Cotzal,Santa María Nebaj,Sacapulas,Canillá,San Juan Cotzal,Uspantán,Santa Cruz Barillas"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Jakaltek",
@@ -1117,7 +1117,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Chudovo,Chernyanka,Chernyakhovsk,Chernogolovka,Cherepovets,Cherëmushki,Chekhov"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "K'iche'",
@@ -1126,7 +1126,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Chaykovskiy,Chapayevsk,Buzuluk,Buy,Buturlinovka,Buguruslan,Budyonnovsk,Bryukhovetskaya"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Lacandon",
@@ -1135,7 +1135,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bryansk,Bronnitsy,Brateyevo,Borovichi,Borisoglebsk,Bol’shaya Setun’,Bologoye,Boksitogorsk,Boguchar"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Mam",
@@ -1144,7 +1144,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bogorodsk,Bogoroditsk,Bobrov,Blagodarnyy,Biryulëvo,Bibirevo,Bezhetsk,Bezenchuk"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Poqomam",
@@ -1153,7 +1153,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guatemala City,Mixco,San Lucas Sacatepéquez,Santiago Sacatepéquez,San Juan Sacatepéquez,Fraijanes,Villa Nueva,Chimaltenango,Amatitlán,Palin"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Poqomchi'",
@@ -1162,7 +1162,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guatemala City,Tucurú,Tamahú,San Cristóbal Verapaz,Purulhá,Tactic,San Miguel Chicaj,Rabinal,Salamá,San Jerónimo"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Tz'utujil",
@@ -1171,7 +1171,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Dagomys,Gorod Shebekino,Belidzhi,Lesnoy,Trëkhgornyy,Mirnyy,Znamensk,Kochubeyevskoye,Moskovskiy"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Sakapultek",
@@ -1180,7 +1180,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Obukhovo,Staryy Malgobek,Zavodoukovsk,Altai Krai,Yuzhnyy,Yuzhnoural’sk,Yurga,Kuzbass,Krasnoyarsk Krai"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Sipakapense",
@@ -1189,7 +1189,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Yemanzhelinsk,Yashkino,Yalutorovsk,Vorgashor,Verkhnyaya Salda,Verkhnyaya Pyshma,Verkhniy Ufaley,Khanty-Mansia"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Tektitek",
@@ -1198,7 +1198,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Topki,Toguchin,Novosibirsk Oblast,Irkutsk Oblast,Tayga,Tatarsk,Tashtagol"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Matlatzinca",
@@ -1207,7 +1207,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Toluca,Metepec,Tenancingo,San Mateo Atenco,Lerma,Temoaya,Calimaya,San Antonio la Isla,Santiago Tianguistenco,Xalatlaco"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Mazahua",
@@ -1216,7 +1216,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Toluca,Metepec,San Felipe del Progreso,Atlacomulco,Ixtlahuaca,Jiquipilco,San José del Rincón,Villa Victoria,El Oro,San Martín Otzoloapan"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Mixtec",
@@ -1225,7 +1225,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Miass,Mezhdurechensk,Mariinsk,Linëvo,Leninsk-Kuznetsky,Republic of Tyva,Kyshtym,Kuybyshev"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Otomi",
@@ -1234,7 +1234,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kurtamysh,Kurgan,Kupino,Krasnoural’sk,Krasnoturinsk,Krasnoobsk,Korkino,Kopeysk"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Zapotec",
@@ -1243,7 +1243,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Oaxaca City,Juchitán,Tehuantepec,Salina Cruz,Miahuatlán,Pochutla,Huatulco,Tlaxiaco,San Pedro Pochutla,Puerto Ángel"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Mayo",
@@ -1252,7 +1252,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Navojoa,Hermosillo,Guaymas,Ciudad Obregón,Los Mochis,Culiacán,Mazatlán,San Luis Río Colorado,Agua Prieta,Cananea"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "O'odham",
@@ -1261,7 +1261,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Chebarkul’,Borovskiy,Bolotnoye,Bogdanovich,Beryozovsky,Berëzovskiy,Berëzovka,Berdsk"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Pima Bajo",
@@ -1270,7 +1270,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Belyy Yar,Belovo,Barabinsk,Asino,Asbest,Artëmovskiy,Aramil,Anzhero-Sudzhensk,Alapayevsk"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Tarahumara",
@@ -1279,7 +1279,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Chihuahua,Ciudad Juárez,Delicias,Parral,Cuauhtémoc,Nuevo Casas Grandes,Camargo,Jiménez,Meoqui,Ojinaga"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Huarijio",
@@ -1288,7 +1288,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Hermosillo,Ciudad Obregón,Navojoa,Guaymas,Nogales,San Luis Río Colorado,Caborca,Agua Prieta,Cananea,Peñasco"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Yaqui",
@@ -1297,7 +1297,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Petrovsk-Zabaykal’skiy,Zabaykalskiy (Transbaikal) Kray,Partizansk,Neryungri,Luchegorsk,Lesozavodsk"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Iñupiaq",
@@ -1306,7 +1306,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ennedi-Ouest,Ouadai,Mayo-Kebbi Ouest,Barh el Gazel,Logone Occidental"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Inuvialuktun",
@@ -1315,7 +1315,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Inuvik,Tuktoyaktuk,Sachs Harbour,Paulatuk,Ulukhaktok,Aklavik,Fort McPherson,Whitehorse,Yellowknife,Norman Wells"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Blackfoot",
@@ -1324,7 +1324,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Billings,Great Falls,Missoula,Bozeman,Helena,Butte,Kalispell,Whitefish,Havre,Glasgow"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Haida",
@@ -1333,7 +1333,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lom Sak,Laem Sing,Laem Ngop,Kut Chap,Kuchinarai,Krathum Baen,Klaeng,Khon Buri"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Garifuna",
@@ -1342,7 +1342,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Khetsamsenok,Chorakhe Bua,Chan Kasem,Khwaeng Bang Plat,Khlong Sam Wa,Bang Bon Nuea,Bangbontai,Khlong Chan,Bang Khae Nuea,Bang Phai"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Keresan",
@@ -1351,7 +1351,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Sbeitla,Siliana,Siliana Governorate,Sidi Bouzid,Sidi Bouzid Governorate,Sidi Abid,Sfax Governorate,Ben Arous Governorate,Mahdia Governorate"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Algonquian-Basque pidgin (dedicated)",
@@ -1360,7 +1360,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Sultanbeyli,Sancaktepe,Karabağlar,İncirli,Oba,Cikcilli,Muratpaşa,Çubuklu,Bostanlı"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Almosan (dedicated)",
@@ -1369,7 +1369,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Şemikler,Nilüfer,Merkezefendi,Altınşehir,Trinidad and Tobago,Tunapuna/Piarco,Tobago,Sangre Grande Regional Corporation,Mayaro"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "American Indian Pidgin English (dedicated)",
@@ -1378,7 +1378,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Citong,Donggang,Caotun,Toufen,Tianwei,Taibao,Xinying"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Anguillian Creole (dedicated)",
@@ -1387,7 +1387,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Jinhu,Fukien,Xiluo,Erlin,Zhudong,Chiayi City"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Bahamian Creole (dedicated)",
@@ -1396,7 +1396,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Zhongxing New Village,New Taipei City,Tanzania,United Republic of,Zanzibar Urban/West,Wete,Pemba North,Vwawa,Songwe,Vikindu,Uyovu"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Bajan Creole (dedicated)",
@@ -1405,7 +1405,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Uvinza,Utengule,Ushirombo,Usevia,Usangi,Usagara,Usa River,Urunda,Urambo"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Belizean Creole (dedicated)",
@@ -1414,7 +1414,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Tukuyu,Tinde,Rukwa,Songwa,Somanda,Simiyu,Sokoni,Zanzibar Central/South,Sirari"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Bocas del Toro Creole (dedicated)",
@@ -1423,7 +1423,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Sikonge,Shelui,Shanwa,Sepuka,Sengerema,Rulenge,Rujewa,Puma,Old Shinyanga"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Grenadian Creole English (dedicated)",
@@ -1432,7 +1432,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Telychka,Siverskodonetsk,Svitlovodsk,Dovzhansk,Svatove,Sukhodilsk,Sudak,Stryi,Stebnyk"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Leeward Caribbean Creole English (dedicated)",
@@ -1441,7 +1441,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Starokostyantyniv,Starobilsk,Stara Darnytsya,Kadiyivka,Sotsmisto,Sokal,Snizhne,Smila,Slovyansk,Slavuta"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Limonese Creole (dedicated)",
@@ -1450,7 +1450,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Skvyra,Skadovsk,Synelnykove,Simferopol,Sykhiv,Shpola,Shepetivka,Shakhtarsk,Sevastopol,Sevastopol City"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Miskito Coast Creole (dedicated)",
@@ -1459,7 +1459,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Selydove,Sarny,Sambir,Rubizhne,Rozdilna,Kurakhove,Rovenky,Romny"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Montserrat Creole (dedicated)",
@@ -1468,7 +1468,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Radomyshl,Pyatykhatky,Pryluky,Chernihiv Oblast,Popasna,Polonne,Polohy,Podil,Pidhorodnye"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Rama Cay Creole (dedicated)",
@@ -1477,7 +1477,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Managua,Bluefields,Rama Cay,San Juan del Sur,Corinto,Puerto Cabezas,Bilwi,Siuna,Rosita,Bonanza"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Saint Kitts Creole (dedicated)",
@@ -1486,7 +1486,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Netishyn,Nadvirna,Mykolayiv,Mostyska,Otamanivka,Mohyliv-Podilskyy,Myrhorod"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Tobagonian Creole (dedicated)",
@@ -1495,7 +1495,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Merefa,Masany,Marhanets,Malyn,Makiyivka,Liubotyn,Lutuhyne,Lubny"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Trinidadian Creole (dedicated)",
@@ -1504,7 +1504,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Port of Spain,San Fernando,Chaguanas,Arima,Sangre Grande,Point Fortin,Tunapuna,Princes Town,Scarborough,Diego Martin"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Turks and Caicos Creole (dedicated)",
@@ -1513,7 +1513,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Cockburn Town,Providenciales,Grand Turk,South Caicos,North Caicos,Middle Caicos,Whitby,Kew,Blue Hills,Bottle Creek"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Vincentian Creole (dedicated)",
@@ -1522,7 +1522,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Holubivka,Kropyvnytskyi,Kiliya,Khmilnyk,Khartsyzk,Khanzhonkove,Kerch,Kozyatyn"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Virgin Islands Creole (dedicated)",
@@ -1531,7 +1531,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kaniv,Kamyanets-Podilskyi,Kalush,Kalynivka,Kakhovka,Izyum,Iziaslav,Izmayil,Irpin"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Jamaican Maroon Creole (dedicated)",
@@ -1540,7 +1540,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Inhulets,Ilovays’k,Chornomors’k,Horodok,Horlivka,Hlukhiv,Hostomel,Henichesk,Haysyn,Hadyach"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Jersey Dutch (dedicated)",
@@ -1549,7 +1549,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Rutoma,Western Region,Nyahuka,Nyachera,Namayumba"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Spanglish (dedicated)",
@@ -1558,7 +1558,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Katabi,Kasozi,Kasanje,Kasangati,Kasanda,Kasambya,Kasaali"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Purépecha",
@@ -1567,7 +1567,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Morelia,Uruapan,Zamora,Apatzingán,Lázaro Cárdenas,Pátzcuaro,Cuitzeo,Zinapécuaro,Tacámbaro,Ciudad Hidalgo"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Huave",
@@ -1576,7 +1576,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "East Moline,East Peoria,Elk Grove Village,Elmhurst,Elmwood Park,Englewood,Evergreen Park,Franklin Park"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Joual",
@@ -1585,7 +1585,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Logan Square,Lombard,Loves Park,Lower West Side,Machesney Park,Macomb,Matteson,McHenry,McKinley Park"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Cocopa",
@@ -1594,7 +1594,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Holtsville,Howard Beach,Huntington Station,Hunts Point,Irondequoit,Islip,Jackson Heights,Kenmore"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Chiac",
@@ -1603,7 +1603,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kew Gardens,Kings Bridge,Kings Park,Kiryas Joel,Lackawanna,Lake Ronkonkoma,Latham,Laurelton"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Spanglish",
@@ -1639,7 +1639,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Los Angeles,San Diego,San Francisco,San Jose,Fresno,Sacramento,Oakland,Long Beach,Anaheim,Bakersfield"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Belizean Creole",
@@ -1666,7 +1666,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "St. George's,Gouyave,Grenville,Victoria,Sauteurs,Hillsborough,Soubise,Mabouya,Marigot,Duquesne,Grand Anse,Lance aux Epines,Woburn,Mount Moriah,Concord,Apple Mount,Calivigny,Frequente,Gouaveave,Tivoli,Bacoye,Aquatic,Bon Air,Morne Docteur,True Blue,Mt Parnassus,Clabony,Crochu,Retreat,Vendome,Nonpareil,Paraclete,Mt Forte,Brizan,Fontainbleu,Chutz,Egmont,La Sagesse,Petite Martinique,Carriacou"
+  "b": "St. George's,Gouyave,Grenville,Sauteurs,Victoria,Hillsborough,Grand Anse,Concord,Saint Patrick,Saint Andrew,Saint David,Saint Mark,Southern Grenadines,Carriacou,Petite Martinique,Grand Etang,Lance aux Epines,True Blue,Grand Anse,St. David's,St. Patrick's,St. Andrew's,Saint George's,Gouyave,Grenville"
 },
 {
     "name": "Haitian Creole",
@@ -1702,7 +1702,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "St. John's,Basseterre,Charlestown,Brades,The Valley,St. Peter's Village,St. George's Hill,St. John's Village,St. Patrick's,Salem,Cork Hill,Five Islands,Codrington,Parham,Potters Village,Gray's Hill,Piggott's Village,Swetes,Bolans,Willikies,Urlings,Ffryes,Old Road,Crab Hill,Saddlers,Cayon,Monkey Hill,Sandy Point,Middle Island,Fig Tree,Capisterre,Dieppe Bay,Newcastle,Gingerland"
+  "b": "Basseterre,Charlestown,Nevis,St. Kitts,Antigua,Barbuda,Montserrat,Anguilla,British Virgin Islands,Tortola,Virgin Gorda,Jost Van Dyke,Anegada,St. John,St. Thomas,St. Croix,Christiansted,Frederiksted,Road Town,Spanish Town,The Valley,St. George's,Basseterre,Charlestown,Nevis,St. Kitts,Antigua,Barbuda,Montserrat,Anguilla"
 },
 {
     "name": "Limonese Creole",
@@ -1846,7 +1846,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ixtlan de Juarez,San Pablo Guelatao,Santa Cruz Yagavila,San Juan Yagila,Santa Maria Yahuiche,Santiago Teotlasco,Santo Domingo Cacalotepec,San Miguel Tiltepec,San Pedro Yaneri,Benito Juarez"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Tlapanec (Meꞌphaa)",
@@ -1927,7 +1927,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Accra,Kumasi,Tamale,Takoradi,Cape Coast,Sunyani,Ho,Koforidua,Wa,Winneba"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Métis French",
@@ -1936,7 +1936,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Batoche,Lac Ste. Anne,St. Laurent,St. Louis,St. Boniface,Lorette,Oak Point,Willow Bunch,Qu'Appelle,Cypress Hills,Prince Albert,La Ronge,Lac La Biche,Fort Edmonton,St. Paul-des-Métis,St. Albert,St. François Xavier,Lac du Bonnet,Selkirk,Portage la Prairie,Gimli,St. Norbert,St. Vital,St. James,Assiniboia,Red River,Pembina,Brandon,Swan River,Dauphin,The Pas,Nelson House,Norway House"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
 },
 {
     "name": "Mi'kmaq",
@@ -1954,7 +1954,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Dallas,Houston,Austin,Fort Worth,San Antonio,El Paso,Arlington,Corpus Christi,Plano,Lubbock"
+  "b": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Austin,Jacksonville,Fort Worth,Columbus,Charlotte,Indianapolis,San Francisco,Seattle,Denver,Boston,El Paso,Detroit,Nashville,Portland,Memphis,Oklahoma City,Las Vegas,Louisville,Baltimore,Milwaukee,Albuquerque,Tucson,Fresno,Sacramento,Kansas City,Mesa,Atlanta,Omaha,Raleigh,Miami,Minneapolis"
 },
 {
     "name": "Na-Dene",
@@ -2044,7 +2044,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Roseau,Portsmouth,Marigot,Berekua,Salybia,Soufrière,Pointe Michel,Mahaut,Canefield,St. Joseph,Layou,Woodford Hill,Castle Bruce,Goodwill,Paix Bouche,Penville,Vieille Case,Thibaud,Bellevue Rawle,Bonnefoi,Gagné,Delices,Bagatelle,Colihaut,Dublanc,Pichelin,Toucari,Scots Head,Galway,Londonderry,Bioche,Tarou"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
 },
 {
     "name": "French Guianese Creole",
@@ -2053,7 +2053,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Cayenne,Kourou,Saint-Laurent-du-Maroni,Matoury,Remire-Montjoly,Macouria,Mana,Maripasoula,Grand-Santi,Apatou,Awala-Yalimapo,Saint-Élie,Sinnamary,Roura,Montsinéry-Tonnegrande,Iracoubo,Camopi,Papaïchton,Saint-Georges,Régina,Ouanary,Saül,Elahé,Yaloupi,Trois Sauts,Bienvenue,Couachi,Balaté,Village,Palikur,Alicoto,Opalabi,Boula,Maroni"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
 },
 {
     "name": "Grenadian Creole French",
@@ -2062,7 +2062,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "St. George's,Gouyave,Grenville,Sauteurs,Victoria,Hillsborough,Mabouya,Marigot,Duquesne,Soubise,Grand Anse,Carriacou,Petite Martinique,Sauteurs,Tivoli,Mt Moriah,Gouyave,The Dove,Lance aux Epines,Morne Fendue,Flambeau,Crochu,Nonpareil,Brizan,Westerhall,Mt Gayack,Content,Savan,Mt Ramier,Mt Plaisir,Vendôme,St. Louis"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
 },
 {
     "name": "Karipúna French Creole",
@@ -2071,7 +2071,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Galibi,Karipuna,São José dos Galibi,Uaça,Manga,Kunanã,Ariramba,Flexinha,São Francisco,Mapari,Oiapoque,Cunani,Calçoene,Amapá,Cutias,Ferreira Gomes,Pracuúba,Serra do Navio,Pedra Branca do Amapari,Porto Grande,Mazagão,Santana,Macapá,Itaubal,Laranjal do Jari,Vitória do Jari,Gurupá,Breves,Bagre,Melgaço,Portel,Almeirim"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
 },
 {
     "name": "Louisiana Creole",

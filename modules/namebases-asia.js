@@ -10,7 +10,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Gereshk,Istālif,Eslam Qaleh,Bahārak,Ārt Khwājah,Āsmār"
+  "b": "Memphis,Alexandria,Thebes,Giza,Aswan,Luxor,Abydos,Asyut,Beni Suef,Sohag,Qena,Minya,Faiyum,Damanhur,Zagazig,Tanta,Ismailia,Suez,Port Said,Damietta,Shibin El Kom,Kafr El Sheikh,Arish,Hurghada,Marsa Matruh,Siwa"
 },
 {
     "name": "Japanese",
@@ -19,7 +19,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bāzārak,Markaz-e Woluswalī-ye Āchīn,Saint John’s,Antigua and Barbuda,Saint John Parish,Anguilla,Sarandë,Vlore County,Korce County,Elbasan County"
+  "b": "Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Kawasaki,Hiroshima,Sendai,Kitakyushu,Chiba,Sakai,Niigata,Okayama,Kumamoto,Kagoshima,Shizuoka,Hamamatsu,Matsuyama,Utsunomiya,Toyohashi,Kanazawa,Nagasaki,Gifu"
 },
 {
     "name": "Turkish",
@@ -28,7 +28,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Shirak,Davtashen,Charentsavan,Avan,Aragatsotn,Artik,Erebuni,Nor Nork,Ajapnyak"
+  "b": "Istanbul,Ankara,Izmir,Bursa,Antalya,Adana,Konya,Gaziantep,Mersin,Kayseri,Eskisehir,Samsun,Denizli,Malatya,Kahramanmaraş,Erzurum,Van,Diyarbakır,Manisa,Batman,Elazig,Osmaniye,Sakarya,Trabzon,Ordu,Rize"
 },
 {
     "name": "Arabic",
@@ -37,7 +37,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Cassanguidi,Lumbala,Moxico,Luau,Cazombo,Nzagi,Cuanza Norte,Úcua,Bengo,Tombôco,Zaire"
+  "b": "Baghdad,Damascus,Beirut,Amman,Jerusalem,Cairo,Riyadh,Jeddah,Mecca,Medina,Muscat,Doha,Abu Dhabi,Kuwait City,Manama,Sanaa,Aden,Alexandria,Tripoli,Tunis,Algiers,Casablanca,Rabat,Mogadishu,Khartoum"
 },
 {
     "name": "Mesopotamian",
@@ -46,7 +46,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Cacuso,Bula Atumba,Buco Zau,Belize,Barra do Dande,Gama,Cazenga,Golfe"
+  "b": "Uruk,Babylon,Ur,Nippur,Larsa,Eridu,Kish,Ashur,Nineveh,Arbela,Harran,Samarra,Ctesiphon,Sippar,Borsippa,Isin,Adab,Shuruppak,Lagash,Girsu,Marad,Umma,Dilbat,Zabalam,Karkar,Puzrish-Dagan"
 },
 {
     "name": "Iranian",
@@ -55,7 +55,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Camama,Talatona,Xangongo,Cunene,Alto Hama,Virei,Ucu Seles,Tômbua,Quipungo,Huila"
+  "b": "Tehran,Isfahan,Shiraz,Tabriz,Mashhad,Ahvaz,Kermanshah,Qom,Rasht,Hamadan,Yazd,Arak,Kerman,Zanjan,Sari,Qazvin,Karaj,Orumiyeh,Bandar Abbas,Sanandaj,Borujerd,Najafabad,Gorgan,Rafsanjan,Khomeyn,Amol,Bojnurd,Semnan,Maragheh"
 },
 {
     "name": "Karnataka",
@@ -64,7 +64,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Quibala,Porto Amboim,Nharêa,Bie,Mossamedes,Mungo,Matala,Luquembo"
+  "b": "Bengaluru,Mysuru,Mangaluru,Hubballi,Belagavi,Ballari,Gulbarga,Kalaburagi,Davangere,Shivamogga,Tumakuru,Udupi,Bidar,Raichur,Hassan,Dharwad,Gadag,Koppal,Chitradurga,Bagalkot,Bijapur,Vijayapura,Chikkamagaluru,Mandya,Kodagu"
 },
 {
     "name": "Vietnamese",
@@ -73,7 +73,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Hanoi,HoChiMinhCity,Saigon,Hue,DaNang,HaiPhong,CanTho,NhaTrang,DaLat,Vinh,ThaiNguyen,QuyNhon,RachGia,MyTho"
+  "b": "Hanoi,Ho Chi Minh City,Saigon,Hue,Da Nang,Hai Phong,Can Tho,Nha Trang,Da Lat,Vinh,Thai Nguyen,Quy Nhon,Rach Gia,My Tho,Vung Tau,Bien Hoa,Ha Long,Ninh Binh,Phan Thiet,Cam Ranh,Buon Ma Thuat,Pleiku,Quang Ngai,Tam Ky,Thanh Hoa"
 },
 {
     "name": "Cantonese",
@@ -82,7 +82,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Cafunfo,Quissecula,Mulenvos,Kilamba,Ingombota,Nova Vida,Zango,Rangel"
+  "b": "Hong Kong,Guangzhou,Shenzhen,Macau,Foshan,Dongguan,Zhongshan,Zhuhai,Jiangmen,Huizhao,Zhaoqing,Yunfu,Shantou,Shaoguan,Qingyuan,Maoming,Yangjiang,Heyuan,Meizhou,Chaozhou,Jieyang,Shanwei,Taishan,Kaiping,Gaoyao,Sihui"
 },
 {
     "name": "Eastern Indonesian",
@@ -91,7 +91,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Quitilipi,Punta Alta,Puerto Madryn,Profesor Salvador Mazza,Presidencia Roque Sáenz Peña,Pocito,Plottier,Pérez,Pehuajó"
+  "b": "Ambon,Ternate,Tidore,Manado,Sorong,Jayapura,Merauke,Manokwari,Sorong,Biak,Timika,Fakfak,Kaimana,Nabire,Wamena,Dekai,Oksibil,Enarotali,Agats,Serui,Yapen,Waropen,Numfor,Supiori,Ransiki,Ayamaru,Inanwatan"
 },
 {
     "name": "Koya-Konda-Manda-Pengo",
@@ -100,7 +100,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ingeniero Pablo Nogués,Villa Sarmiento,José C. Paz,Eastern District,Döbling,State of Vienna"
+  "b": "Visakhapatnam,Vizianagaram,Srikakulam,Koraput,Rayagada,Paralakhemundi,Gunupur,Malkangiri,Nabarangpur,Kalahandi,Bhawanipatna,Daspalla,Bissam Cuttack,Lakshmipur,Baliguda,Motu,Gunupur,Pottangi,Nandapur,Ramabhadrapuram,Araku,Bobbili,Salur,Padmapur,Jeypore"
 },
 {
     "name": "Archi",
@@ -109,7 +109,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Cherrybrook,Roxburgh Park,Prestons,Wyndham Vale,Ballajura,Willetton,Glenwood,Cabramatta,Campsie,Casula"
+  "b": "Archi,Kubachi,Khunzakh,Botlikh,Godoberi,Chamalal,Tindi,Bagulal,Bezhta,Hunzib,Tsez,Dido,Andi,Avar,Lezgin,Tabasaran,Lak,Dargwa,Chechen,Ingush,Rutul,Tsakhur,Azerbaijani,Georgian,Turkish,Arabic,Russian"
 },
 {
     "name": "Iban",
@@ -118,7 +118,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kuching,Sibu,Miri,Sarikei,Limbang,Kapit,Betong,Sri Aman,Bintulu,Mukah"
+  "b": "Kuching,Sibu,Sarikei,Miri,Limbang,Lawas,Bintulu,Betong,Sri Aman,Kapit,Song,Simanggang,Engkilili,Lubok Antu,Pusa,Roban,Debak,Spaoh,Lemanak,Belaga,Long Lellang,Long Peluan,Long Seridan,Betong,Sri Aman,Kapit,Song,Simanggang,Engkilili,Lubok Antu"
 },
 {
     "name": "Sarawakian Malay",
@@ -127,7 +127,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Narre Warren South,Dandenong North,Frankston South,Sunshine West,Altona Meadows,Taylors Hill,Hurstville,West Pennant Hills,City of Port Phillip,Sunshine Coast"
+  "b": "Kuching,Sibu,Sarikei,Miri,Limbang,Lawas,Bintulu,Betong,Sri Aman,Kapit,Song,Simanggang,Engkilili,Lubok Antu,Pusa,Roban,Debak,Spaoh,Lemanak,Belaga,Long Lellang,Long Peluan,Long Seridan,Marudi,Sibuti,Lundu,Kanowit"
 },
 {
     "name": "Standard Malay",
@@ -136,7 +136,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Shusha,Salyan District,Saatlı,Neftçala,Naxçıvan,Lerik,Lerik District,Imishli,Imisli,Fizuli,Fuzuli District"
+  "b": "Kuala Lumpur,George Town,Johor Bahru,Ipoh,Kuching,Kota Kinabalu,Shah Alam,Malacca City,Kuantan,Kota Bharu,Alor Setar,Kangar,Kuala Terengganu,Taiping,Seremban,Miri,Sandakan,Tawau,Lahad Datu,Keningau,Kudat,Beaufort,Penampang,Papar,Teluk Intan"
 },
 {
     "name": "Kupang Malay",
@@ -145,7 +145,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kupang,Oebobo,Maulafa,KelapaLima,KotaLama,Alak,KotaRaja,Oesapa,Oebufu,Oetete,Nefonaek,Merdeka,Liliba,Fatululi,Solum"
+  "b": "Kupang,Atambua,Kefamenanu,Soe,Beto Ambiku,Noelbaki,Oelamasi,Camplong,Baumata,Fatukoa,Oenoni,Nikiiki,Bipopaka,Neonbasu,Kuimasi,Oepaha,Manufahi,Fatuleu,Nikiiki,Bipopaka,Neonbasu,Kuimasi,Oepaha,Manufahi,Fatuleu,Suai,Same,Fatu Lulik"
 },
 {
     "name": "Malaccan Creole Malay",
@@ -154,7 +154,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Shamkhor,Shamkir Rayon,Samaxi,Sheki,Shaki City,Sabunçu,Sabirabad,Sabirabad District,Qusar,Qusar District,Hacıqabul,Haciqabul"
+  "b": "Malacca City,Alor Gajah,Jasin,Masjid Tanah,Merlimau,Sungai Udang,Kuala Linggi,Tanjung Bidara,Pekan Nyalas,Kuala Sungai Baru,Serkam,Bemban,Ayer Keroh,Batu Berendam,Klebang,Cheng,Pekan Nyalas,Kuala Sungai Baru,Serkam,Bemban,Ayer Keroh,Batu Berendam,Klebang,Cheng,Tanjung Krabau"
 },
 {
     "name": "Manado Malay",
@@ -163,7 +163,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Qazax,Hacı Zeynalabdin,Mingacevir City,Maştağa,Mardakan,Lokbatan,Kyurdarmir,Kurdamir District,Khirdalan,Abseron,İsmayıllı"
+  "b": "Manado,Bitung,Tomohon,Tondano,Amurang,Kotamobagu,Modoinding,Langsa,Kauditan,Belang,Sonder,Ratahan,Poigar,Kawangkoan,Toure,Likupang,Passir,Modoinding,Langsa,Kauditan,Belang,Sonder,Ratahan,Poigar,Kawangkoan,Toure,Likupang"
 },
 {
     "name": "Dura-Tandrange",
@@ -172,7 +172,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ismayilli District,Yeni Suraxanı,Göyçay,Goeycay,Hövsan,Ganja City,Divichibazar,Shabran,Buzovna,Biny Selo,Bilajari"
+  "b": "Tandrange,Dura,Gorkha,Palpa,Gulmi,Arghakhanchi,Kapilvastu,Rupandehi,Nawalparasi,Chitwan,Tanahun,Syangja,Lamjung,Kaski,Parbat,Baglung,Myagdi,Dang,Pyuthan,Rolpa,Salyan,Banke,Bardiya,Dailekh,Jajarkot,Dolpa,Mugu,Humla"
 },
 {
     "name": "Papuan Malay",
@@ -181,7 +181,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Amirdzhan,Aghsu,Agsu District,Ağdaş,Agdzhabedy,Aghjabadi Rayon,Bakıxanov,Federation of B&H,Velika Kladuša"
+  "b": "Jayapura,Manokwari,Sorong,Biak,Merauke,Timika,Fakfak,Kaimana,Nabire,Wamena,Merauke,Asmat,Mimika,Yapen,Waropen,Numfor,Supiori,Ransiki,Ayamaru,Serui,Yapen,Waropen,Numfor,Supiori,Ransiki"
 },
 {
     "name": "Serui Malay",
@@ -190,7 +190,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Serui,Yapen,Waropen,Biak,Numfor,Sarmi,Jayapura,Keerom,Sentani,Merauke"
+  "b": "Serui,Yapen,Waropen,Numfor,Supiori,Ransiki,Ayamaru,Manokwari,Sorong,Biak,Merauke,Timika,Fakfak,Kaimana,Nabire,Wamena,Merauke,Asmat,Mimika,Yapen,Waropen,Numfor,Supiori,Ransiki,Ayamaru,Serui"
 },
 {
     "name": "Sula Malay",
@@ -199,7 +199,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Barbados,Thākurgaon,Rangpur Division,Tungi,Dhaka Division,Sylhet Division,Dohār,Mymensingh Division,Shibganj,Rajshahi Division"
+  "b": "Sula,Mangoli,Sanana,Taliabu,Buru,Fatleyesi,Lede,Kasiruta,Bacan,Obi,Mandioli,Gane,Mare,Kayoa,Makian,Tidore,Ternate,Bacan,Obi,Mandioli,Gane,Mare,Kayoa,Makian,Tidore,Ternate"
 },
 {
     "name": "Batek",
@@ -208,7 +208,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Khulna Division,Netrakona,Narsingdi,Shāhzādpur,Rāmganj,Barisal Division,Panchagarh"
+  "b": "Kuala Tahan,Kuala Tembeling,Jerantut,Kuala Lipis,Raub,Bentong,Gua Musang,Kota Bharu,Kuala Krai,Machang,Tanah Merah,Pasir Mas,Tumpat,Bachok,Kuala Tembeling,Jerantut,Kuala Lipis,Raub,Bentong,Gua Musang,Kota Bharu,Kuala Krai,Machang,Tanah Merah,Pasir Mas,Tumpat,Bachok"
 },
 {
     "name": "Mah Meri",
@@ -217,7 +217,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Parbatipur,Nālchiti,Nāgarpur,Nageswari,Muktāgācha,Mirzāpur,Maulavi Bāzār,Morrelgonj,Mehendiganj"
+  "b": "Kuala Selangor,Sekinchan,Sabak Bernam,Tanjung Karang,Banting,Kuala Langat,Morib,Jugra,Carey Island,Pulau Ketam,Pulau Lumut,Pulau Tengah,Pulau Udang,Pulau Besar,Kuala Selangor,Sekinchan,Sabak Bernam,Tanjung Karang,Banting,Kuala Langat,Morib,Jugra,Carey Island,Pulau Ketam,Pulau Lumut"
 },
 {
     "name": "Semai",
@@ -226,7 +226,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Mathba,Lalmonirhat,Lākshām,Kālīganj,Jhingergācha,Joypur Hāt,Ishwardi,Gaurnadi"
+  "b": "Cameron Highlands,Kuala Lipis,Raub,Bentong,Gua Musang,Kota Bharu,Kuala Krai,Machang,Tanah Merah,Pasir Mas,Tumpat,Bachok,Kuala Tembeling,Jerantut,Kuala Lipis,Raub,Bentong,Gua Musang,Kota Bharu,Kuala Krai,Machang,Tanah Merah,Pasir Mas,Tumpat,Bachok"
 },
 {
     "name": "Semaq Beri",
@@ -235,7 +235,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Gafargaon,Sarankhola,Ramna Maidan,Chilmāri,Chhāgalnāiya,Lālmohan,Chhātak,Bhātpāra Abhaynagar"
+  "b": "Kemaman,Dungun,Kuala Terengganu,Kuala Besut,Setiu,Hulu Terengganu,Marang,Jertih,Besut,Paka,Chukai,Bukit Besi,Kijal,BukitPayong,Awak,KualaBerang,Kemaman,Dungun,KualaTerengganu,KualaBesut,Setiu,HuluTerengganu,Marang,Jertih,Besut,Paka"
 },
 {
     "name": "Semelai",
@@ -244,7 +244,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bherāmāra,Bhairab Bāzār,Kālia,Baniachang,Bājitpur,Badarganj,Tungipara,Sonārgaon,Shāhbāzpur Town"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Camorta Nicobarese",
@@ -253,7 +253,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Maijdi,Kesabpur,Kafrul,Hājīganj,Gopālganj,Dukuria,Dohazāri,Uttar Char Fasson"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Chaura Nicobarese",
@@ -262,7 +262,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Chattogram,Char Bhadrāsan,Charāmaddi,Burirchar,Bhatara,Burhānuddin,Ayla Patakata,Ashuganj City"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Nancowry Nicobarese",
@@ -271,7 +271,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Barishal,Pīrgaaj,Madaripur,Kishorganj,Mānikganj"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Nicobarese (macro)",
@@ -280,7 +280,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Savar,Bhāndāria,Bibir Hat,Saidpur,Taluker Char Doani,Natona,Puthia,Natore,Srimangal"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Orang Pulo",
@@ -289,7 +289,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Dhanmondi,Pallabi,Azimpur,Paotana Hat,Bhanga,Paltan,Mirpur Model Thana,Motijheel,Zwijndrecht"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Peranakan",
@@ -298,7 +298,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Flanders,Zwevegem,Zottegem,Zonhoven,Zolder,Zemst,Zele,Zedelgem,Zaventem,Wondelgem"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Shompen",
@@ -307,7 +307,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Woluwe-Saint-Lambert,Brussels Capital,Wilrijk,Willebroek,Wevelgem,Wetteren,Westerlo,Wervik,Wavre,Wallonia,Watermael-Boitsfort"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Southern Nicobarese",
@@ -316,7 +316,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Visé,Vilvoorde,Uccle,Turnhout,Tubize,Torhout,Tienen"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Katchal Nicobarese",
@@ -325,7 +325,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Sint-Katelijne-Waver,Sint-Gillis-Waas,Sint-Genesius-Rode,Sint-Andries,Sint-Amandsberg,Schoten,Schilde,Schaerbeek,Saint-Nicolas"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Kenaboi",
@@ -334,7 +334,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Saint-Josse-ten-Noode,Saint-Gilles,Saint-Ghislain,Rotselaar,Ronse,Rixensart,Riemst,Ranst,Quaregnon,Puurs"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Minangkabau",
@@ -343,7 +343,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Putte,Pont-à-Celles,Péruwelz,Overijse,Oupeye,Oudenaarde,Oostkamp,Ninove"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Alor Malay",
@@ -352,7 +352,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Colcapirhua,Achocalla,Ascención de Guarayos,Kralendijk,Bonaire,Sint Eustatius and Saba,Bonaire,Vitorino Freire,Vitória do Mearim"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Malaysian Mandarin",
@@ -361,7 +361,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "KualaLumpur,JohorBahru,Penang,Ipoh,Malacca,Kuching,PetalingJaya,ShahAlam,Klang,Sandakan,Tawau,Taiping,Seremban,Muar,BatuPahat,Kluang,KotaKinabalu,KotaBharu,AlorSetar"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Singaporean Mandarin",
@@ -370,7 +370,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Timbiras,Timbaúba,Tibau do Sul,Tianguá,Terra Santa,Tejuçuoca,Tauá,São João dos Inhamuns,Taquaritinga do Norte"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Acehnese",
@@ -379,7 +379,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Taquarana,Tamboril,Itambé,Tamandaré,Tacaratu,Tabuleiro do Norte,Tabira,Surubim,Sumé,Sousa"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Madurese",
@@ -388,7 +388,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Soure,Solonópole,Solânea,Sobral,Sobradinho,Sirinhaém,Sertânia,Serrita,Serra Talhada,Senador Pompeu"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "South Halmahera",
@@ -397,7 +397,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "São José de Mipibu,São José da Tapera,São José da Laje,São José da Coroa Grande,São Joaquim do Monte,São João dos Patos,São João do Piauí,São João de Pirabas,São João Batista,São João"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Barlavento Creoles",
@@ -406,7 +406,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bangkok,Chiang Mai,Phuket,Pattaya,Hat Yai,Chiang Rai,Udon Thani,Khon Kaen,Nakhon Ratchasima,Surat Thani"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Fogo Creole",
@@ -415,7 +415,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "São Benedito do Rio Preto,São Benedito,Santo Antônio do Tauá,Santa Quitéria do Maranhão,Santa Quitéria,Santana do Ipanema,Santana do Cariri,Santana do Acaraú"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Maguindanao",
@@ -424,7 +424,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Pirapemas,Piranhas,Piracuruca,Piquet Carneiro,Pio XII,Pio IX,Pinheiro,Pindoretama,Pindaré-Mirim,Picuí"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Sotavento Creoles",
@@ -433,7 +433,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Picos,Piancó,Petrolina,Peritoró,Pereiro,Pentecoste,Penalva,Pedro II,Pedreiras"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Mardijker Creole",
@@ -442,7 +442,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Pedras de Fogo,Pedra Branca,Paulo Ramos,Paulistana,Paulista,Paulino Neves,Pau dos Ferros,Paudalho,Pastos Bons"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Tetum",
@@ -451,7 +451,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Jakarta,Bandung,Surabaya,Medan,Denpasar,Yogyakarta,Makassar,Malang,Padang,Manado"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Santali",
@@ -460,7 +460,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Paraibano,Paragominas,Paracuru,Pão de Açúcar,Panelas,Pacatuba,Pacajus,Ourém"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Palaung",
@@ -469,7 +469,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Orobó,Olinda,Olho d'Água das Flores,Oiapoque,Oeiras do Pará,Oeiras,Ocara,Novo Oriente"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Bunun (Isbukun)",
@@ -478,7 +478,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Crateús,Craíbas,Quiterianópolis,Correntes,Coroatá"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Bunun (Northern-Central)",
@@ -487,7 +487,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Nantou,Hualien,Taitung,Kaohsiung,Renai,Xinyi,Zhuoxi,Wanrong,Yanping,Haiduan"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Atayal (Squliq)",
@@ -496,7 +496,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Wulai,Fuxing,Jianshi,Heping,Renai,Datong,Nanao,Tayax,Pyanan,Habarun,Jiaobanshan,Piyasan,Tebirun,Pesyux,qalangPyasan"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Atayal (Ts'ole')",
@@ -505,7 +505,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Wufeng,Jianshi,Taian,Renai,Datong,Nanao,Haga,Paris,Mabuh,Pangray,Tulong,Dalalushan,LlyungMnibu,Minnao"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Yaeyama",
@@ -514,7 +514,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Piraí do Sul,Piraí,Pirassununga,Piracicaba,Piracanjuba,Piracaia,Pinheiros,Pinheiral,Pinhão,Pinhalzinho"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Yonaguni",
@@ -523,7 +523,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Espírito Santo do Pinhal,Pindobaçu,Pindamonhangaba,Pilar do Sul,Balneário Piçarras,Nova Hartz,Piaçabuçu,Petrópolis"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Yoron",
@@ -532,7 +532,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Yoronjima,Yoron,Chabana,Mugiya,Wadomari,China,Yoroncho,Nishikata,Higashikata,Yamato,MugiyaNishiku"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Yilan Creole Japanese",
@@ -541,7 +541,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Pedreira,Pedregulho,Pedra Azul,Pederneiras,Peçanha,Paulínia,Patrocínio,Patos de Minas,Pato Branco,Paty do Alferes"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Yokohama Pidgin Japanese",
@@ -550,7 +550,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Posto da Mata,Passos,Alvorada,Passa Quatro,Parobé,Pariquera-Açu,Paripiranga,Parelheiros,Paratinga,Rafael Jambeiro"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Adeni Arabic",
@@ -559,7 +559,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Natividade,Não-Me-Toque,Nanuque,Muzambinho,Mutum,Mutuípe,Muritiba,Muriaé,Muniz Freire"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Aleppine Arabic",
@@ -568,7 +568,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Mucuri,Morro do Chapéu,Morro da Fumaça,Morro Agudo,Morretes,Monte Sião,Monte Santo de Minas,Monte Santo,Monte Mor"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Algerian Arabic",
@@ -577,7 +577,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Monte Carmelo,Monte Azul Paulista,Monte Azul,Monte Aprazível,Monte Alto,Monte Alegre de Minas,Montanha,Mongaguá,Mogi Mirim,Mogi Guaçu"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Algerian Saharan Arabic",
@@ -586,7 +586,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Mogi das Cruzes,Mococa,Mirassol,Mirante do Paranapanema,Mirangaba,Mirandópolis,Miracema,Miracatu,Mineiros"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Burmish",
@@ -595,7 +595,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Minas Novas,Mimoso do Sul,Miguel Pereira,Miguelópolis,Miguel Calmon,Mendes,Medianeira,Medeiros Neto,Mauá,Matozinhos"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Burmo Qiangic",
@@ -604,7 +604,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Vila Bela da Santíssima Trindade,Matipó,Matinhos,Mateus Leme,Matelândia,Matão,Mata de São João,Massaranduba,Maruim,Martinópolis"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Caijia",
@@ -613,7 +613,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bijie,Weining,Hezhang,Nayong,Qianxi,Dafang,Zhijin,Jinsha,Xingyi,Puan"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Chepang",
@@ -622,7 +622,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Chitwan,Makawanpur,Dhading,Gorkha,Hetauda,Bharatpur,Narayangarh,Gorkha,Manahari,Khairahani"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Macro-Yaeyama",
@@ -631,7 +631,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lambari,Lajinha,Lages,Teolândia,Lajeado,Laje,Lagoa Vermelha,Lagoa Santa"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Miyakoan",
@@ -640,7 +640,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lagoa Formosa,Lagoa da Prata,Lagarto,Ladário,Juquitiba,Juquiá,Junqueirópolis,Jundiaí,Júlio de Castilhos"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Southern Amami",
@@ -649,7 +649,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Jussara,Juatuba,José Bonifácio,Joinville,João Pinheiro,João Monlevade,Joaçaba,Jeremoabo,Jequitinhonha,Jequié"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Okinoerabu",
@@ -658,7 +658,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Jataí,Jarinu,Jardinópolis,Jaraguá do Sul,Jaraguá,Japeri,Japaratuba,Januária,Jandira"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Tokunoshima",
@@ -667,7 +667,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Jandaia do Sul,Janaúba,Jales,Jaguaruna,Jaguariúna,Jaguaripe,Jaguariaíva,Jaguarari,Jaguaquara"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Amami",
@@ -676,7 +676,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Irecê,Irati,Irará,Iraquara,Iracemápolis,Iporã,Ipirá,Ipiaú"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Kikai",
@@ -685,7 +685,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Iperó,Ipanema,Ipameri,Ipaba,Inhumas,Inhapim,Inhambupe,Indiaroba,Indaiatuba"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Kunigami",
@@ -694,7 +694,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Indaial,Imbituva,Imbituba,Ilhota,Ilhéus,Ilha Solteira,Ilhabela,Ijuí,Iguape,Iguaí"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Okinawan",
@@ -703,7 +703,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Iguaba Grande,Igrejinha,Igreja Nova,Igarapé,Igarapava,Igaraçu do Tietê,Igaporã,Pilão Arcado,Içara,Ibotirama"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Abaza",
@@ -712,7 +712,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ibipeba,Ibicoara,Ibicaraí,Ibiá,Ibatiba,Ibaté,Ibaiti,Iaçu,Hortolândia,Horizontina"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Bzyb",
@@ -721,7 +721,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guarapari,Guaranésia,Guaramirim,Guaporé,Guapó,Guapimirim,Guapiara,Guapiaçu"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Aghul",
@@ -730,7 +730,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guanhães,Guanambi,Guaíra,Engenheiro Coelho,Guaianases,Guaçuí,Gravataí,Goioerê,Goiatuba"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Anatolian Arabic",
@@ -739,7 +739,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Estância Velha,Espumoso,Esplanada,Espera Feliz,Esmeraldas,Ervália,Encruzilhada do Sul,Encruzilhada"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Baghdadi Arabic",
@@ -748,7 +748,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Embu-Guaçu,Embu das Artes,Elói Mendes,Elias Fausto,Ecoporanga,Duque de Caxias,Dracena,Dom Pedrito,Domingos Martins"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Bahraini Gulf Arabic",
@@ -757,7 +757,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Dois Vizinhos,Dois Irmãos,Dois Córregos,Divinópolis,Divino,Dionísio Cerqueira,Dias d'Ávila,Dianópolis,Diamantino,Diamantina"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Bukharian Arabic",
@@ -766,7 +766,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Cruzeiro,Cruz das Almas,Cruz Alta,Cristinápolis,Cristalina,Crisópolis,Criciúma,Cravinhos,Coxim"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Cairene Arabic",
@@ -775,7 +775,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Cotia,Cosmópolis,Coruripe,Corupá,Corumbá,Correntina,Corrente,Correia Pinto,Coronel Vivida,Coronel Fabriciano"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Central Asian Arabic",
@@ -784,7 +784,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Coromandel,Cornélio Procópio,Corinto,Cordeirópolis,Cordeiro,Corbélia,Coração de Maria,Coração de Jesus,Contenda,Conselheiro Pena"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Ainu",
@@ -793,7 +793,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Sapporo,Hakodate,Asahikawa,Kushiro,Obihiro,Tomakomai,Muroran,Iwamizawa,Abashiri,Nemuro,Shizunai,Biratori,Nibutani,Shakotan,Saru"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Hachijo",
@@ -802,7 +802,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Conceição do Jacuípe,Conceição das Alagoas,Conceição da Feira,Conceição da Barra,Colina,Colatina,Cocos,Cocal do Sul"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Japanese dialects",
@@ -811,7 +811,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Coaraci,Clevelândia,Cláudio,Cipó,Cidreira,Cícero Dantas,Cianorte,Chopinzinho,Nova Xavantina,Charqueadas"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Japanese macro",
@@ -820,7 +820,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Caxambu,Catu,Catanduva,Catalão,Cataguases,Castro Alves,Castilho,Castelo,Cassilândia,Cássia"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Ryukyuan",
@@ -829,7 +829,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Casimiro de Abreu,Casa Branca,Carmópolis de Minas,Carmo do Rio Claro,Carmo do Paranaíba,Carmo do Cajuru,Carmo,Carlos Chagas,Carlópolis"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Egyptian Arabic",
@@ -838,7 +838,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Carira,Carinhanha,Cariacica,Carazinho,Caratinga,Carapicuíba,Carangola,Carandaí,Caraí"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Doteli",
@@ -847,7 +847,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Doti,Dadeldhura,Baitadi,Darchula,Bajhang,Achham,Kailali,Kanchanpur,Bajura,Jumla"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Achhami Doteli",
@@ -856,7 +856,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Mangalsen,Sanfebagar,Dhakari,Mellekh,Bannigadi Jayagadh,Ramaroshan,Chaurpati,Kamalbazar,Turmakhad,Basti"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Baitadeli Doteli",
@@ -865,7 +865,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Baitadi,Dasharathchand,Patan,Melauli,Purchaudi,Shivanath,Sunarya,Thalakanda,Dogdakedar,Gokuleshwar"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Bajhangi Doteli",
@@ -874,7 +874,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bajhang,Baitadi,Dadeldhura,Darchula,Doti,Achham,Kailali,Kanchanpur,Bajura,Jumla"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Darchuleli Doteli",
@@ -883,7 +883,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Darchula,Shailyashikhar,Khalanga,Makalu,Byas,Rapla,Api,Hikila,Marma,Duhun"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Bajureli Doteli",
@@ -892,7 +892,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bajura,Martadi,Khalanga,Chhededaha,Jagannath,Bandhu,Badi,Kolti,Triveni,Bichhiya"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Dadeldhuri Doteli",
@@ -901,7 +901,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Dadeldhura,Amargadhi,Parashuram,Ajaymeru,Bhageshwar,Navadurga,Alital,Ganyapadhura,Koteli,Shirsha"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Philippine Spanish",
@@ -910,7 +910,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Jinxiang,Jinshi,Jinqiao,Jinji,Jining,Jingzhi,Tianchang"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Bakhtiari Arabic",
@@ -919,7 +919,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "ShahreKord,Kuhrang,Lordegan,Falard,Ardal,Bazoft,Manj,Suristan,NaqsRostam,Zardkuh,Dezful,Andimeshk,Shushtar,Izeh"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Al-Azdi dialect",
@@ -928,7 +928,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Hradec Kralove Region,South Moravian,Vysocina,Usti nad Labem Region,Ústí nad Orlicí,Pardubice Region"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Żejtun dialect",
@@ -937,7 +937,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Uherský Brod,Uherské Hradiště,Trutnov,Třinec,Moravian-Silesian Region,Třebíč,South Bohemian Region,Svitavy,Šumperk,Olomouc Region"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "A Ou",
@@ -946,7 +946,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Říčany,Řepy,Rakovník,Prostějov,Prosek,Přerov,Poděbrady,Pilsen,Plzen Region"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Abba Gorgoryos",
@@ -955,7 +955,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Náchod,Modřany,Michle,Mělník,Louny,Litvínov,Litoměřice,Líšeň,Liberec Region"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Achang",
@@ -964,7 +964,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Jablonec nad Nisou,Hranice,Hostivař,Horní Měcholupy,Holešovice,Hodonín,Hlubočepy,Havlíčkův Brod,Havířov,Háje"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Adi",
@@ -973,7 +973,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bruntál,Břeclav,Braník,Brandýs nad Labem-Stará Boleslav,Bohumín,Bohnice,Blansko,Beroun,Benešov,Černý Most"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Adjaran Georgian",
@@ -982,7 +982,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Batumi,Kobuleti,Keda,Khulo,Shuakhevi,Sarpi,Chakvi,Makhinjauri,Khelvachauri,Ozurgeti,Lanchkhuti,Poti,Anaklia,Grigoleti,Kulevi"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Aer",
@@ -991,7 +991,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Wolfen,Witzenhausen,Wittstock,Wittmund,Wittlich,Wittenberge,Wittenau,Witten,Wipperfürth,Winterhude"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Agalega Creole",
@@ -1000,7 +1000,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Winsen,Winnenden,Baden-Wurttemberg,Wilnsdorf,Wilmersdorf,Wilhelmstadt,Wilhelmshaven,Wilhelmsburg,Wildeshausen,Wiesloch"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Ahom",
@@ -1009,7 +1009,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Unterhaching,Unterkrozingen,Unna,Uerdingen,Uelzen,Überlingen,Tuttlingen,Tübingen,Trossingen"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Aiton",
@@ -1018,7 +1018,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Schwanewede,Schwandorf in Bayern,Schwalmstadt,Schwalbach,Schwäbisch Hall,Schwäbisch Gmünd,Schwabach,Schrobenhausen,Schramberg,Schortens"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Aramaic",
@@ -1027,7 +1027,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Reinheim,Reinbek,Reichenbach/Vogtland,Recklinghausen,Ravensburg,Ratingen,Rathenow,Ratekau,Rastede"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Aranadan",
@@ -1036,7 +1036,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Rastatt,Rahlstedt,Rahden,Radolfzell,Radevormwald,Radebeul,Radeberg,Quickborn,Querenburg,Quedlinburg"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Aka-Jeru",
@@ -1045,7 +1045,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Püttlingen,Puchheim,Prenzlauer Berg,Prenzlau,Preetz,Potsdam,Porz am Rhein,Porta Westfalica,Poppenbüttel,Plettenberg"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Akkadian",
@@ -1054,7 +1054,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Plauen,Pirna,Pinneberg,Pfungstadt,Pfullingen,Pforzheim,Pfaffenhofen an der Ilm,Petershagen,Penzberg"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Aka-Bo",
@@ -1063,7 +1063,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Peine,Pasing,Parchim,Papenburg,Pankow,Paderborn,Oyten,Overath,Ottobrunn bei München,Ottensen"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Akhvakh",
@@ -1072,7 +1072,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Olching,Öhringen,Ohligs,Offenburg,Offenbach,Oerlinghausen,Oer-Erkenschwick,Oelde,Odenthal,Ochtrup"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Alak Bahnaric",
@@ -1081,7 +1081,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Oberursel,Obertshausen,Oberschöneweide,Ober-Ramstadt,Oberkirch,Oberhausen,Oberasbach,Nürtingen,Nümbrecht"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Alar-Tunka Buryat",
@@ -1090,7 +1090,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Nottuln,Northeim,Nördlingen,Nordhorn,Nordhausen,Norderstedt,Nordenham,Norden,Nippes,Niendorf"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Assyrian Neo-Aramaic",
@@ -1099,7 +1099,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Neustadt in Holstein,Neustadt an der Weinstraße,Neustadt am Rübenberge,Neue Neustadt,Neusäß,Neuruppin,Neunkirchen,Neumünster,Neumarkt in der Oberpfalz,Neukölln"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Hebrew",
@@ -1108,7 +1108,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Neu-Isenburg,Neugraben-Fischbek,Neufahrn bei Freising,Neuenhagen,Neuburg an der Donau,Neubrück,Neu-Anspach,Netphen,Neheim"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Western Neo-Aramaic",
@@ -1117,7 +1117,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Neckarsulm,Naumburg,Nauen,Nagold,Hannoversch Münden,Müllheim,Mülheim,Mühlheim am Main"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Iranian Persian",
@@ -1126,7 +1126,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Stuttgart Mühlhausen,Mühlhausen,Mühldorf,Mühlacker,Much,Mössingen,Mosbach,Moosburg,Mölln"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Sorani Kurdish",
@@ -1135,7 +1135,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Moers,Moabit,Mittweida,Misburg,Minden,Michelstadt,Metzingen,Mettmann,Meschede,Merzig"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Azerbaijani",
@@ -1144,7 +1144,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Merseburg,Meppen,Menden,Memmingen,Melle,Meissen"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Central Plains Mandarin",
@@ -1153,7 +1153,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Markkleeberg,Märkisches Viertel,Marienfelde,Mariendorf,Marburg an der Lahn,Marbach am Neckar"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Lan-Yin Mandarin",
@@ -1162,7 +1162,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Maintal,Mahlsdorf,Lütgendortmund,Lusan,Lurup,Lünen,Ludwigshafen am Rhein,Ludwigsfelde,Ludwigsburg"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Northeastern Mandarin",
@@ -1171,7 +1171,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lüdinghausen,Lüdenscheid,Luckenwalde,Lubnjow,Lübbecke,Loxstedt,Losheim,Loschwitz,Lörrach,Lohr am Main"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Southwestern Mandarin",
@@ -1180,7 +1180,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lohne,Lohmar,Löbtau,Löbau,Lippstadt,Lingen,Lindlar,Linden-Nord,Lindau"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Lower Yangtze Mandarin",
@@ -1189,7 +1189,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Nanjing,Suzhou,Wuxi,Changzhou,Zhenjiang,Yangzhou,Nantong,Taizhou,Huzhou,Jiaxing"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Athpahariya (Athpare)",
@@ -1198,7 +1198,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Leimen,Leichlingen,Lehrte,Lebach,Laupheim,Lauf an der Pegnitz,Lauchhammer,Lankwitz,Langenhagen"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Bantawa",
@@ -1207,7 +1207,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Langendreer,Langen,Landsberg am Lech,Landau in der Pfalz,Lampertheim,Lahr,Lahnstein,Lage"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Belhare",
@@ -1216,7 +1216,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Köthen,Korschenbroich,Kornwestheim,Korntal,Korbach,Köpenick,Berlin Köpenick,Konz,Konstanz,Königs Wusterhausen"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Chintang",
@@ -1225,7 +1225,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Königstein im Taunus,Königslutter am Elm,Königsbrunn,Kolbermoor,Koblenz,Klotzsche,Klingenstein,Kleve,Kleinmachnow"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Dumi",
@@ -1234,7 +1234,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kladow,Kirchlengern,Kirchheim unter Teck,Kirchhain,Kierspe,Kevelaer,Kempten (Allgäu),Kelkheim"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Sampang",
@@ -1243,7 +1243,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kehl,Kaulsdorf,Kaufbeuren,Kassel,Karow,Karlstadt,Karlsruhe,Karlshorst,Karlsfeld"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Sunuwar",
@@ -1252,7 +1252,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Karben,Kamp-Lintfort,Kamenz,Kamen,Kaltenkirchen,Kaarst,Johannisthal,Jena"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Thulung",
@@ -1261,7 +1261,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Itzehoe,Isernhagen Farster Bauerschaft,Iserlohn,Ingelheim am Rhein,Ilmenau,Illingen,Illertissen,Idstein,Ibbenbueren"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Yamphu",
@@ -1270,7 +1270,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Hünfeld,Hummelsbüttel,Humboldtkolonie,Hude,Hückeswagen,Hückelhoven,Huckarde,Höxter,Hövelhof"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Chulung",
@@ -1279,7 +1279,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Hörstel,Horn,Hörde,Horb am Neckar,Homburg,Holzwickede,Holzminden,Holzkirchen,Hohenstein-Ernstthal,Hohen Neuendorf"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Mewahang",
@@ -1288,7 +1288,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Hofheim am Taunus,Hofgeismar,Hof,Hockenheim,Hochheim am Main,Hochfeld,Hille,Hilchenbach,Hiddenhausen"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Jerung (Jero)",
@@ -1297,7 +1297,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Heusweiler,Heusenstamm,Hettstedt,Hessisch Oldendorf,Herzogenaurach,Herten,Herrenberg,Herne,Hermsdorf"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Limbu",
@@ -1306,7 +1306,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Herford,Herdecke,Herborn,Heppenheim an der Bergstrasse,Hennigsdorf,Hennef (Sieg),Hemmingen,Hemer,Helmstedt,Hellersdorf"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Lohorung",
@@ -1315,7 +1315,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Heilbad Heiligenstadt,Heiligensee,Heiligenhaus,Heilbronn,Heidenheim an der Brenz,Heidenau,Heidelberg,Heide,Hechingen,Hausbruch"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Puma",
@@ -1324,7 +1324,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Hattingen,Hattersheim,Haßloch,Haselhorst,Harvestehude,Harsewinkel,Harpen,Haren,Harburg,Hannover"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Dungmali",
@@ -1333,7 +1333,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Hanau am Main,Hamminkeln,Hamm,Wandsbek,Marienthal,Hamburg-Mitte,Eimsbüttel,Altona"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Saam",
@@ -1342,7 +1342,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Halver,Haltern am See,Halstenbek,Halle (Saale),Haldensleben I,Halberstadt,Hakenfelde,Haiger,Haar"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Hayu/Vayu",
@@ -1351,7 +1351,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Gütersloh,Güstrow,Gunzenhausen,Günzburg,Gummersbach,Guben,Groß-Umstadt,Großostheim,Groß-Gerau,Großenhain"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Chantyal",
@@ -1360,7 +1360,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Gronau,Gröbenzell,Grimma,Griesheim,Greven,Greiz,Universitäts- und Hansestadt Greifswald,Göttingen,Gotha"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Ghale",
@@ -1369,7 +1369,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Gorbitz,Göppingen,Gonsenheim,Gohlis,Goch,Glinde,Glauchau,Gladbeck,Ginsheim-Gustavsburg"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Kaike (Magar Kaike)",
@@ -1378,7 +1378,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Gilching,Gifhorn,Gießen,Giengen an der Brenz,Gevelsberg,Gesundbrunnen,Geseke,Gescher,Gersthofen,Germersheim"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Manang (Manange)",
@@ -1387,7 +1387,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Germering,Gerlingen,Geretsried,Georgsmarienhütte,Gelsenkirchen,Gelnhausen,Geldern,Geislingen an der Steige,Geesthacht"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Altai",
@@ -1396,7 +1396,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Gauting,Garmisch-Partenkirchen,Garching,Garbsen,Ganderkesee,Gaggenau,Füssen,Fürstenwalde,Fürstenfeldbruck"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Altai Uriankhai",
@@ -1405,7 +1405,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Fulda,Fröndenberg,Frohnau,Friesoythe,Friedrichshain,Friedrichshagen,Friedrichshafen,Friedrichsfelde,Friedrichsdorf,Friedenau"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Alyutor",
@@ -1414,7 +1414,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Stuttgart Feuerbach,Fellbach,Falkensee,Eving,Eutin,Ettlingen,Esslingen"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Sui Lang",
@@ -1423,7 +1423,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Espelkamp,Eschwege,Eschborn,Erwitte,Erkrath,Erfurt,Erftstadt,Erding"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Tai Dam",
@@ -1432,7 +1432,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Eppingen,Eppendorf,Eppelborn,Ennigerloh,Ennepetal,Enger,Engelskirchen,Emsdetten,Emmerich,Emmendingen"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Tai Ya",
@@ -1441,7 +1441,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Emden,Eltville,Elmshorn,Elmschenhagen,Ellwangen,Eitorf,Eißendorf,Eislingen,Eisenhüttenstadt,Eisenach"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Taishanese",
@@ -1450,7 +1450,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Einbeck,Eilenburg,Eilbek,Ehingen,Eggenstein-Leopoldshafen,Edewecht,Eckernförde,Eberswalde,Ebersbach an der Fils,Eberbach"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Wutunhua",
@@ -1459,7 +1459,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Dülmen,Duderstadt,Drensteinfurt,Dreieich,Dotzheim,Dorstfeld,Dorsten"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Yi",
@@ -1468,7 +1468,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Donauwörth,Donaueschingen,Döbeln,Ditzingen,Dinslaken,Dingolfing,Dillingen an der Donau,Dillingen,Dillenburg,Dietzenbach"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Amdo Tibetan",
@@ -1477,7 +1477,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Diepholz,Dieburg,Deutz,Detmold,Dessau,Delmenhorst,Delitzsch,Delbrück,Datteln"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Nubri",
@@ -1486,7 +1486,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Französisch Buchholz,Buchen in Odenwald,Brüggen,Bruckmühl,Bruchsal,Bruchköbel,Britz,Brilon,Bretten"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Boro (Bodo)",
@@ -1495,7 +1495,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bremervörde,Bremerhaven,Brandenburg an der Havel,Bramsche,Brakel,Brake (Unterweser),Brackenheim,Brackel,Bottrop"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Proto-Karenic",
@@ -1504,7 +1504,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bothfeld,Borna,Borken,Boppard,Bönen,Bogenhausen,Bockum,Bocholt,Böblingen"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Baram Thangmi",
@@ -1513,7 +1513,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bergisch Gladbach,Bensheim,Bendorf,Bemerode,Beckum,Beckingen,Bayreuth,Baunatal,Baumschulenweg"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Dhimalish",
@@ -1522,7 +1522,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bassum,Balingen,Baiersbronn,Baesweiler,Bad Zwischenahn"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Mijiic",
@@ -1531,7 +1531,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bad Münder am Deister,Bad Mergentheim,Bad Lippspringe,Bad Langensalza,Bad Kreuznach,Bad Homburg vor der Höhe,Bad Hersfeld,Bad Harzburg,Bad Essen"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Ammonite",
@@ -1540,7 +1540,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Aplerbeck,Ansbach,Annaberg-Buchholz,Angermünde,Andernach,Alzey,Alzenau in Unterfranken,Altglienicke,Altenburg,Altena"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Amorite",
@@ -1549,7 +1549,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Altdorf bei Nürnberg,Alsterdorf,Alsfeld,Alfter,Alfeld,Albstadt,Aichach,Ahrensburg,Ahlen"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Amur Dagur",
@@ -1558,7 +1558,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ahaus,Adlershof,Achim,Achern,Aalen,Neukirchen-Vluyn,Vellmar,Mörfelden-Walldorf,Riedstadt,Lauda-Königshofen"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Armazic",
@@ -1567,7 +1567,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Es Senia,En Nedjma,El Milia,El Meghaïer,El Malah,El Kseur,El Khroub,El Kala,El Idrissia"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Assamese",
@@ -1576,7 +1576,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Cheraga,Chemini,Chellalat el Adhaouara,Chelghoum el Aïd,Chebli,Charef,Chabet el Ameur,Brezina,Bou Tlelis,Bou Saâda"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Assyrian",
@@ -1585,7 +1585,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Boumahra Ahmed,Boukadir,Bou Ismaïl,Bouinan,Bou Hanifia el Hamamat,Bougara,Bougaa,Boufarik,Boudouaou"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Daur",
@@ -1594,7 +1594,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Beni Saf,Beni Mester,Beni Mered,Beni Douala,Beni Amrane,Barika,Barbacha,Baraki"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Oirat",
@@ -1603,7 +1603,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bab Ezzouar,Azzaba,Azazga,Arzew,Arris,Arhribs,Arbatache,Ammi Moussa,Amizour"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Torgut Oirat",
@@ -1612,7 +1612,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Akbou,Aïn Touta,Aïn Taya,Aïn Smara,Aïn Oussera,Aïn Oulmene,Aïn M’Lila,’Aïn Merane,Aïn Kercha"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Burushaski",
@@ -1621,7 +1621,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ţūd,Ţāmiyah,Ţalkhā,Talā,Monufia,Beni Suweif,Matruh"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Hinglish",
@@ -1630,7 +1630,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Delhi,Mumbai,Kolkata,Chennai,Bangalore,Hyderabad,Pune,Ahmedabad,Jaipur,Lucknow"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Hindko, Northern",
@@ -1639,7 +1639,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Peshawar,Abbottabad,Mansehra,Muzaffarabad,Rawalpindi,Islamabad,Attock,Haripur,Nowshera,Swabi"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Indian English",
@@ -1648,7 +1648,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Delhi,Mumbai,Kolkata,Chennai,Bangalore,Hyderabad,Pune,Ahmedabad,Jaipur,Lucknow"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Korku",
@@ -1657,7 +1657,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Betul,Khandwa,Harda,Chhindwara,Burhanpur,Timarni,Khargone,Pandhana,Balaghat,Seoni"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Sora (Savara)",
@@ -1666,7 +1666,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Paralakhemundi,Gunupur,Rayagada,Mohana,Padmapur,Bissam Cuttack,Gudari,Kashinagar,Chikiti,Chatrapur"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Chinese",
@@ -1675,7 +1675,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Man Met (Kemie)",
@@ -1684,7 +1684,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Mengla,Jinghong,Mohan,Mengpeng,Mengman,Mengban,Mengwang,Menglong,Mengyun,Mengzhe"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Hu (Angku, Kon Keu)",
@@ -1693,7 +1693,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Mengla,Jinghong,Mohan,Mengpeng,Mengman,Mengban,Mengwang,Menglong,Mengyun,Mengzhe"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "U (Pouma)",
@@ -1702,7 +1702,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Mengla,Jinghong,Mohan,Mengpeng,Mengman,Mengban,Mengwang,Menglong,Mengyun,Mengzhe"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Babylonian",
@@ -1711,7 +1711,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Baghdad,Basra,Mosul,Kirkuk,Erbil,Najaf,Karbilla,Samarra,Hillah,Nasiriyah"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Badaga",
@@ -1720,7 +1720,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ooty,Kotagiri,Coonoor,Gudalur,Wellington,Pandalur,Kundah,Balacola,Melur,Devarshola"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Baoan",
@@ -1729,7 +1729,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Jishishan,Linxia,Kangle,Dongxiang,Lintan,Hezuo,Xiahe,Mahezuo,Quercai,Zoigê"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Baoanic",
@@ -1738,7 +1738,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Jishishan,Linxia,Kangle,Dongxiang,Lintan,Hezuo,Xiahe,Mahezuo,Quercai,Zoigê"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Baoting Hlai",
@@ -1747,7 +1747,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Haikou,Sanya,Wuzhishan,Qionghai,Wanning,Dongfang,Ledong,Lingshui,Tunchang,Chengmai"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Badong Yao",
@@ -1756,7 +1756,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Badong,Xingshan,Zigui,Songzi,Enshi,Lichuan,Xuan'en,Xianfeng,Jianshi,Laifeng"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Baekje Korean",
@@ -1765,7 +1765,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Bahnar",
@@ -1774,7 +1774,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kon Tum,Pleiku,Dak Lak,Buon Ma Thuot,Dak Nong,Gia Lai,Lam Dong,Ninh Thuan,Binh Phuoc,Tay Ninh"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Bengali Portuguese Creole",
@@ -1783,7 +1783,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Dhaka,Chittagong,Khulna,Rajshahi,Sylhet,Barisal,Rangpur,Comilla,Narayanganj,Gazipur"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Coast Tsimshian",
@@ -1792,7 +1792,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Prince Rupert,Terrace,Kitimat,Hazelton,Smithers,Port Edward,Vancouver,Burnaby,Surrey,Richmond"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Gelao",
@@ -1801,7 +1801,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Zunyi,Chishui,Renhuai,Meitan,Suiyang,Tongzi,Xishui,Daozhen,Zheng'an,Wuchuan"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Tongzha",
@@ -1810,7 +1810,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Haikou,Sanya,Wuzhishan,Qionghai,Wanning,Dongfang,Ledong,Lingshui,Tunchang,Chengmai"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Telue",
@@ -1819,7 +1819,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Judu,Moji,Wantao,Yueliangwan,Fengyan,Laozhai,Liuzhi,Longlin,Malipo,Xingyi"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Then Kam Sui",
@@ -1828,7 +1828,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Rongjiang,Congjiang,Liping,Jinping,Sanjiang,Tianzhu,Jianhe,Majiang,Zhenyuan,Shibing"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Vandu",
@@ -1837,7 +1837,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Zunyi,Chishui,Renhuai,Meitan,Suiyang,Tongzi,Xishui,Daozhen,Zheng'an,Wuchuan"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Chadong",
@@ -1846,7 +1846,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Tongdao,Sanjiang,Jinping,Rongshui,Longsheng,Chengbu,Xinning,Ziyuan,Quanzhou,Longsheng"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "En Kra",
@@ -1855,7 +1855,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Zunyi,Chishui,Renhuai,Meitan,Suiyang,Tongzi,Xishui,Daozhen,Zheng'an,Wuchuan"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Nuoxi Naxi Yao",
@@ -1864,7 +1864,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Xinning,Chengbu,Longsheng,Ziyuan,Quanzhou,Tongdao,Sanjiang,Jinping,Rongshui,Longsheng"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Lauhut",
@@ -1873,7 +1873,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Haikou,Sanya,Wuzhishan,Qionghai,Wanning,Dongfang,Ledong,Lingshui,Tunchang,Chengmai"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Bahrani Arabic",
@@ -1882,7 +1882,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Manama,Muharraq,Riffa,Hamad Town,Isa Town,Al Hidd,Sitra,Budaiya,Al Jasra,Adliya"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Baima",
@@ -1891,7 +1891,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Pingwu,Jiuzhaigou,Songpan,Wenchuan,Maoxian,Lixian,Heishui,Zoigê,Barkam,Hongyuan"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Baisha Hlai",
@@ -1900,7 +1900,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Haikou,Sanya,Wuzhishan,Qionghai,Wanning,Dongfang,Ledong,Lingshui,Tunchang,Chengmai"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Balti",
@@ -1909,7 +1909,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Gobēsa,Waliso,Ghinnir,Gīnch’ī,Gimja Bēt Maryam,Gīmbīcho,Raqo,Gasuba,Genet"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Pashto, Central",
@@ -1918,7 +1918,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kabul,Kandahar,Herat,Mazar-i-Sharif,Jalalabad,Peshawar,Quetta,Kunduz,Lashkargah,Taloqan"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Waneci",
@@ -1927,7 +1927,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ciro,Chinahsen,Ch’iko,Sifra,Chelenko"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Eastern Indonesian Malay",
@@ -1936,7 +1936,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bichena,Bale Hawassa,Bedēsa,Bambesi,Āykel,Āyana"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Gorap",
@@ -1945,7 +1945,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Āt’aye,Āsbe Teferī,Arerti,Ārabī,Ara Ali,Amba Giorgis,‘Alem T’ēna"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Balinese",
@@ -1954,7 +1954,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Arsi Negele,Digih Habar Es,Shendi,May Cadera,Mehoni,Shinshicho,Wonji,Adebaye"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Bangladeshi English",
@@ -1963,7 +1963,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Damboya,Ginja Bet,Gutin,Kercha,Wacha,Wegeda,Badessa,Shanto"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Banjar",
@@ -1972,7 +1972,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Pirkanmaa,North Ostrobothnia,Vuosaari,Uusimaa,Vihti,North Savo,Vammala,Ostrobothnia,Tuusula,Southwest Finland"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Bareqi Arabic",
@@ -1981,7 +1981,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Pitäjänmäki,Pirkkala,Oulunkylä,Paijat-Hame,Nurmijärvi,Munkkiniemi"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Bargut",
@@ -1990,7 +1990,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Mellunkylä,Matinkylä,Mäntsälä,Leppävaara,Lauttasaari,Laukaa,Central Finland,South Karelia"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Bargut Buryat",
@@ -1999,7 +1999,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kymenlaakso,Korsholm,North Karelia,Central Ostrobothnia,Kallio"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Barwar",
@@ -2008,7 +2008,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Stanley,Falkland Islands (Malvinas),Micronesia,Federated States of,Pohnpei State,Faroe Islands,Streymoy,Yerres,Ile-de-France,Wittenheim,Wattrelos"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Barzani Jewish Neo-Aramaic",
@@ -2017,7 +2017,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Wasquehal,Rhone-Alpes,Vitry-sur-Seine,Vitrolles,Provence-Alpes-Cote d'Azur,Viry-Châtillon,Viroflay,Vincennes,Villiers-sur-Marne,Villiers-le-Bel"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Bathari",
@@ -2026,7 +2026,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Villejuif,Villefranche-sur-Saône,Villefontaine,Vigneux-sur-Seine,Bourgogne,Vertou,Versailles,Verrières-le-Buisson"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Bats",
@@ -2035,7 +2035,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Verneuil-sur-Seine,Vénissieux,Vendôme,Vélizy-Villacoublay,Vauréal,Vaulx-en-Velin,Paris 15 Vaugirard,Vanves,Vandœuvre-lès-Nancy"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Toba Batak",
@@ -2044,7 +2044,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Sevran,Sélestat,Schiltigheim,Savigny-sur-Orge,Savigny-le-Temple,Sartrouville,Sarcelles"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Bugan",
@@ -2053,7 +2053,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Sannois,Sanary-sur-Mer,Sallanches,Saint-Sébastien-sur-Loire,Saint-Priest,Saint-Pol-sur-Mer,Saint-Pierre-des-Corps,Saint-Ouen-l'Aumône"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Balochi, Sulaimani",
@@ -2062,7 +2062,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Saint-Omer,Saint-Michel-sur-Orge,Saint-Médard-en-Jalles,Saint-Maximin-la-Sainte-Baume,Saint-Maur-des-Fossés,Saint-Martin-d'Hères,Saint-Mandé,Saint-Loup"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Badeshi",
@@ -2071,7 +2071,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Saint-Lô,Saint-Leu-la-Forêt,Saint-Laurent-du-Var,Saint-Jean-de-la-Ruelle,Saint-Herblain,Saint-Gratien,Saint-Germain-en-Laye,Saint-Genis-Laval,Saint-Fons"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Tuvan",
@@ -2080,7 +2080,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Saint-Cyr-l'École,Saint-Cloud,Saint-Chamond,Saint-Brieuc,Saint-Avertin,Saint-Amand-les-Eaux,Rueil-Malmaison,Roubaix,Rosny-sous-Bois"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Ili Turki",
@@ -2089,7 +2089,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ronchin,Romorantin-Lanthenay,Romans-sur-Isère,Romainville,Roissy-en-Brie,Roanne,Ris-Orangis,Rillieux-la-Pape"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Fuyu Kyrgyz",
@@ -2098,7 +2098,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Rezé,Paris 12 Reuilly,Rambouillet,Puteaux,Port-de-Bouc,Paris 11 Popincourt,Pontoise,Pont-à-Mousson"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Salar",
@@ -2107,7 +2107,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Poissy,Plaisir,Pierrefitte-sur-Seine,Pessac,Paris 16 Passy,Pantin"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Mulam",
@@ -2116,7 +2116,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Paris 05 Panthéon,Palaiseau,Paris 07 Palais-Bourbon,Ozoir-la-Ferrière,Oyonnax,Outreau,Oullins,Osny,Orvault"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Be",
@@ -2125,7 +2125,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Orsay,Orly,Paris 09 Opéra,Octeville,Paris 14 Observatoire,Noisy-le-Sec,Noisy-le-Grand,Noisiel"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Bouyei",
@@ -2134,7 +2134,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Nogent-sur-Oise,Nogent-sur-Marne,Neuilly-sur-Seine,Neuilly-sur-Marne,Neuilly-Plaisance,Nanterre,Muret"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "E Tai",
@@ -2143,7 +2143,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Mulhouse,Mougins,Morsang-sur-Orge,Mont-Saint-Aignan,Montrouge,Montreuil,Montmorency,Montivilliers"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Lao Nyo",
@@ -2152,7 +2152,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Montbrison,Mons-en-Barœul,Moissy-Cramayel,Mitry-Mory,Miramas,Meyzieu,Meylan,Meudon"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Tai Muong Vat",
@@ -2161,7 +2161,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Mérignac,Paris 20 Ménilmontant,Melun,Meaux,Mazargues,Maurepas,Mauguio,Maubeuge,Massy"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Lao Phutai",
@@ -2170,7 +2170,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Marly-le-Roi,Marignane,Marcq-en-Barœul,Mantes-la-Ville,Mantes-la-Jolie,Malakoff,Maisons-Laffitte"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Pa Di",
@@ -2179,7 +2179,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Maisons-Alfort,Paris 06 Luxembourg,Lunel,Lucé,Louviers,Lormont,Longjumeau"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Thai Song",
@@ -2188,7 +2188,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lomme,Lognes,Livry-Gargan,Lisieux,Lingolsheim,Limeil-Brévannes,Limay,Liévin"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Northwestern Tai",
@@ -2197,7 +2197,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Libourne,L'Haÿ-les-Roses,Le Vésinet,Levallois-Perret,Les Sables-d'Olonne,Les Pennes-Mirabeau,Les Pavillons-sous-Bois,Les Olives,Les Mureaux,Les Lilas"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Southwestern Tai",
@@ -2206,7 +2206,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Les Herbiers,Les Clayes-sous-Bois,Le Pré-Saint-Gervais,Le Pontet,Le Plessis-Trévise,Le Plessis-Robinson,Le Petit-Quevilly,Le Perreux-sur-Marne,Le Pecq"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "tay-tai",
@@ -2215,7 +2215,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Le Mée-sur-Seine,Le Kremlin-Bicêtre,Le Grand-Quevilly,Le Creusot,Le Chesnay,Le Cannet,Le Bouscat,Le Blanc-Mesnil,Laxou"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "tai",
@@ -2224,7 +2224,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "La Valette-du-Var,Lattes,La Teste-de-Buch,La Seyne-sur-Mer,La Roche-sur-Yon,La Pomme,Landerneau,Lambersart"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "tay-tac",
@@ -2233,7 +2233,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "La Madeleine,Lagny-sur-Marne,La Garenne-Colombes,La Garde,La Crau,La Courneuve,La Chapelle-sur-Erdre,La Celle-Saint-Cloud"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "northern-tai",
@@ -2242,7 +2242,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Jouy-le-Moutier,Joué-lès-Tours,Joinville-le-Pont,Ivry-sur-Seine,Issy-les-Moulineaux,Illzach,Illkirch-Graffenstaden,Houilles,Paris 04 Hôtel-de-Ville"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "min-zhuang",
@@ -2251,7 +2251,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Hérouville-Saint-Clair,Herblay-sur-Seine,Hénin-Beaumont,Hem,Hazebrouck,Hayange,Hautmont,Yutz,Haubourdin,Halluin"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "tai-long",
@@ -2260,7 +2260,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Haguenau,Guyancourt,Gujan-Mestras,Guéret,Guérande,Grigny,Grasse,Grande-Synthe,Gradignan"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "yei-zhuang",
@@ -2269,7 +2269,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Goussainville,Gonesse,Paris 13 Gobelins,Givors,Gif-sur-Yvette,Gentilly,Gennevilliers,Garges-lès-Gonesse,Gardanne,Garches"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "tai-daeng",
@@ -2278,7 +2278,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Frontignan,Fresnes,Franconville,Fos-sur-Mer,Fontenay-sous-Bois,Fontenay-aux-Roses,Fontainebleau"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Beijing Mandarin",
@@ -2287,7 +2287,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Annecy-le-Vieux,Anglet,Allauch,Alfortville,Alençon"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Betanure Jewish Neo-Aramaic",
@@ -2296,7 +2296,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Marseille 16,La Defense,Saint-Quentin-en-Yvelines,Cergy-Pontoise,La Blancarde,Le Camas,Marne La Vallée,Quinze-Vingts,Saint-Roch"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Betta Kurumba",
@@ -2305,7 +2305,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Picpus,Paris 10e Arrondissement,Hôpital Saint-Louis,Porte Saint-Denis,Porte Saint-Martin,Saint-Vincent de Paul,Paris 11e Arrondissement,Folie Méricourt,Roquette,Saint-Ambroise"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Hokkien",
@@ -2314,7 +2314,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Paris 12e Arrondissement,Bel-Air,Paris 13e Arrondissement,Croulebarbe,Gare,Maison Blanche,Salpêtrière,Plaine du Var,Tchibanga"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Teochew Min",
@@ -2323,7 +2323,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ogooue-Maritime,Woleu-Ntem,Moyen-Ogooue,Owendo,Estuaire,Ntoum,Ngouni,Haut-Ogooue,Makokou,Ogooue-Ivindo"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Hainanese",
@@ -2332,7 +2332,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ogooue-Lolo,Akanda,United Kingdom,Yeadon,Yarm,Wrexham,Wales,Worksop"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Leizhou Min",
@@ -2341,7 +2341,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Workington,Worcester Park,Wood Green,Woodford Green,Wombwell,Wolverhampton,Wokingham,Woking,Witney"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Pu-Xian Min",
@@ -2350,7 +2350,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Wishaw,Wisbech,Winsford,Wimborne Minster,Wimbledon,Wilmslow,Willesden,Willenhall,Wigston Magna"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Haklau Min",
@@ -2359,7 +2359,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Widnes,Wickford,Whitstable,Whitley Bay,Whitehaven,Whitefield,Whickham,Weybridge,Weston-super-Mare"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Haryanvi",
@@ -2368,7 +2368,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "West Molesey,City of Westminster,Westhoughton,West Ham,West Bromwich,West Bridgford,Wembley,Welwyn Garden City,Wellingborough"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Balochi, Makrani",
@@ -2377,7 +2377,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Welling,Wednesfield,Wednesbury,Wath upon Dearne,Waterlooville,Warrington,Warminster,Ware,Walton-on-Thames"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Balochi, Rakhshani",
@@ -2386,7 +2386,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Walton-on-the-Naze,Walthamstow,Waltham Abbey,Walsall,Wallsend,Wallington,Wallasey,Walkden,Wakefield"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Bagri",
@@ -2395,7 +2395,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Urmston,Upper Norwood,Uckfield,Tynemouth,Tyldesley,Trowbridge,Totton,Totteridge,Tottenham"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Bawm",
@@ -2404,7 +2404,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Tonbridge,Tipton,Thorne,Thornaby-on-Tees,Tewkesbury,Taunton,Tadley,Swinton"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Bola",
@@ -2413,7 +2413,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Swindon,Swansea,Swanscombe,Swanley,Swadlincote,Sutton in Ashfield,Sutton Coldfield,Sutton,Sunderland,Sunbury-on-Thames"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Chashan",
@@ -2422,7 +2422,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Stroud,Strood,Stretford,Streatham,Stratford-upon-Avon,Stowmarket,Stourport-on-Severn,Stourbridge,Stoke-on-Trent"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Langsu",
@@ -2431,7 +2431,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Stockton-on-Tees,Stockport,Stevenage,Stepney,Staveley,Stanford-le-Hope,Stalybridge,Staines,Spennymoor"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Lashi",
@@ -2440,7 +2440,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Speke,Spalding,Southsea,South Ockendon,South Norwood,South Hayling,Southend-on-Sea,South Elmsall,South Benfleet"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Zaiwa",
@@ -2449,7 +2449,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Southall,Smethwick,Slough,Sleaford,Skelmersdale,Skegness,Sittingbourne,Shoreham-by-Sea"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Bijiang Bai lect",
@@ -2458,7 +2458,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Shipley,Shepherds Bush,Sevenoaks,Selby,Seaham,Scunthorpe,Sandown,Sandhurst,Sandbach"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Bijiang Bai language",
@@ -2467,7 +2467,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Salford,Saint Peters,Saint Neots,St Helens,Saint Andrews,Saffron Walden,Saddleworth"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Dali Bai lect",
@@ -2476,7 +2476,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ryton,Rushden,Runcorn,Ruislip,Rugeley,Rugby,Royton,Royston,Royal Tunbridge Wells"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Dali Bai language",
@@ -2485,7 +2485,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Rottingdean,Rotherham,Romsey,Romford,Roehampton,Rochford,Rochdale,Ripon,Ripley"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Heqing Bai lect",
@@ -2494,7 +2494,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Rickmansworth,Rhyl,Rhosllannerchrugog,Rhondda,Renfrew,Reigate,Redhill,Redditch,Redcar"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Xiangyun Bai dialect",
@@ -2503,7 +2503,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Rayleigh,Rawtenstall,Rawmarsh,Ramsgate,Ramsbottom,Putney,Purley,Pudsey,Prestwich"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Choyo",
@@ -2512,7 +2512,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Prestatyn,Prescot,Poulton-le-Fylde,Potters Bar,Portslade,Portishead,Porthcawl,Portadown,Poole"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Gyalrong",
@@ -2521,7 +2521,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Pontypool,Ponders End,Plymstock,Plumstead,Pitsea,Pinner,Peterlee"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Horpa",
@@ -2530,7 +2530,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Penicuik,Penarth,Palmers Green,Ossett,Orpington,Omagh,Oldham"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Khroskyabs",
@@ -2539,7 +2539,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Oadby,Nuneaton,Notting Hill,Northwich,North Shields,Northolt,Lancing,Northallerton"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Muya",
@@ -2548,7 +2548,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Norbury,Newtownards,Newtownabbey,Newton Mearns,Newton-le-Willows,Newton Aycliffe,Newton Abbot,Newry,Newport Pagnell,Newport"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Prinmi",
@@ -2557,7 +2557,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "New Milton,New Mills,New Malden,New Cross,Newcastle upon Tyne,Newcastle under Lyme,Newburn,Newark on Trent"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Zhaba",
@@ -2566,7 +2566,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Nether Edge,Neston,Neath,Nantwich,Nailsea,Musselburgh,Mountsorrel,Motherwell,Moreton"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Mang",
@@ -2575,7 +2575,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Morecambe,Morden,Mirfield,Milton Keynes,Middleton,Middlesbrough,Mexborough,Merthyr Tydfil,Melton Mowbray,Melksham"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Bolyu",
@@ -2584,7 +2584,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Meikle Earnock,Marlow,Market Harborough,Margate,March,Mansfield Woodhouse,Mansfield,Mangotsfield,Maltby"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Blang",
@@ -2593,7 +2593,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Maidstone,Maidenhead,Maghull,Maesteg,Lowestoft,Loughton,Loughborough,Longton"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Bhili",
@@ -2602,7 +2602,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Longfield,Long Eaton,Londonderry County Borough,Derry,Lofthouse,Llanelli,Llandudno,Liversedge,Littlehampton"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Bhaya",
@@ -2611,7 +2611,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Litherland,Lisburn,Limehouse,Lichfield,Leyland,Leighton Buzzard,Leigh"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Biao Kam-Sui",
@@ -2620,7 +2620,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kingston upon Hull,King's Lynn,Kilwinning,Kidsgrove,Kidderminster,Keynsham,Kettering,Kempston"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Biao Min",
@@ -2629,7 +2629,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Keighley,Johnstone,Jarrow,Islington,Isleworth,Irvine,Irlam,Ilkeston,Ilford"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Biao Mon",
@@ -2638,7 +2638,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Hythe,Hyde,Huyton,Huntingdon,Humberstone,Huddersfield,Hucknall,Hoyland Nether,Hove,Hounslow"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Biblical Aramaic",
@@ -2647,7 +2647,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Houghton-Le-Spring,Horwich,Horsforth,Horley,Hook,Hoddesdon,Hindley,High Wycombe,Highbury"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Biblical Hebrew",
@@ -2656,7 +2656,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "High Blantyre,Heysham,Heswall,Heston,Herne Bay,Hemel Hempstead,Heckmondwike,Hebburn,Heanor"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Bidau Creole Portuguese",
@@ -2665,7 +2665,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Gorseinon,Goole,Golborne,Godalming,Glossop,Glenrothes,Glen Parva,Gillingham,Gelligaer"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Bikol",
@@ -2674,7 +2674,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Garston,Gainsborough,Fylde,Fulwood,Fulham,Frome,Frinton-on-Sea,Friern Barnet,Formby"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Bote",
@@ -2683,7 +2683,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Caterham,Castlereagh,Castleford,Carterton,Carshalton,Carrickfergus,Cannock,Cambuslang"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Bodish",
@@ -2692,7 +2692,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Alton,Alloa,Alfreton,Aldridge,Aldershot,Adwick le Street,Acton,Acocks Green"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Bodo",
@@ -2701,7 +2701,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Accrington,Blackwood,Camden Town,Telford,Craigavon,Soho,Bayswater"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Bohtan Neo-Aramaic",
@@ -2710,7 +2710,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Pimlico,North Watford,Yateley,Bowthorpe,Hedge End,Gerrards Cross,Erskine,Kilburn,Chalk Farm,Amersham on the Hill"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Bokar",
@@ -2719,7 +2719,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Shadwell,Battersea,Tooting,South Croydon,Hornchurch,Surbiton,Ewell,Becontree,Brixton,Bethnal Green"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Bonan",
@@ -2728,7 +2728,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Failsworth,Radcliffe,Heywood,Old Trafford,Longsight,Heavitree,Ferndown,Canary Wharf,Leytonstone,Earl Shilton"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Bonan-Kangjia",
@@ -2737,7 +2737,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bordon,Lytham St Annes,Hadley Wood,Muswell Hill,Chapel Allerton,Kempston Hardwick,Mendip,Manchester City Centre,Lower Earley"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Bonan Manegacha",
@@ -2746,7 +2746,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bartley Green,Abbey Wood,West Ealing,Golders Green,Canvey Island,Earlsfield,Old Swan,Peacehaven,Letchworth Garden City,Peckham"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Bonan Manegacha lect",
@@ -2755,7 +2755,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Shirley,Rossendale,Thornton-Cleveleys,Deeside,High Peak,Hayling Island,Isle of Lewis,Holloway,Harringay,Canning Town"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Bouhin",
@@ -2764,7 +2764,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Hunts Cross,Norris Green,Stamford Hill,Burngreave,Archway,Sinfin,Ealing Common,South Ruislip,Wealdstone,East Barnet"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Bourbonnais Creole",
@@ -2773,7 +2773,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Perry Vale,Furzedown,Seven Sisters,Tottenham Hale,Latchmere,Washwood Heath,Nigg,Primrose Place,Saint George's,Grenada"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Bishnupriya Manipuri",
@@ -2782,7 +2782,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Samegrelo and Zemo Svaneti,Imereti,Shida Kartli,Kakheti,Sokhumi,Abkhazia,Kvemo Kartli"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Brahui",
@@ -2791,7 +2791,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bono East,Winneba,Wankyi,Upper West,Twifu Praso,Teshi Old Town,Greater Accra,Tepa,Tarkwa"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Braj",
@@ -2800,7 +2800,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Tafo,Swedru,Suhum,Shama Junction,Sekondi-Takoradi,Saltpond,Sakumona"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Brao",
@@ -2809,7 +2809,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Stung Treng,Ratanakiri,Mondulkiri,Kratie,Kampong Cham,Kandal,Phnom Penh,Siem Reap,Battambang,Sihanoukville"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Baram",
@@ -2818,7 +2818,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Miri,Marudi,Long Lama,Lio Matoh,Belaga,Long Bedian,Long Peluan,Long San,Baram,Bakong"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Bru",
@@ -2827,7 +2827,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kon Tum,Pleiku,Dak Lak,Buon Ma Thuot,Dak Nong,Gia Lai,Lam Dong,Ninh Thuan,Binh Phuoc,Tay Ninh"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Kati",
@@ -2836,7 +2836,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Boke Region,Labe Region,Kankan Region,Mamou Region,Nzerekore Region"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Bateri",
@@ -2845,7 +2845,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Chilas,Gilgit,Skardu,Astore,Hunza,Naltar,Chalt,Gupis,Yasin,Phandar"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Buginese",
@@ -2854,7 +2854,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Makassar,Parepare,Maros,Soppeng,Wajo,Sinjai,Pangkajene,Barru,Bone,Sengkang"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Bundeli",
@@ -2863,7 +2863,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Jhansi,Chhatarpur,Tikamgarh,Lalitpur,Datia,Banda,Mahoba,Hamirpur,Orchha,Panna"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Bunu",
@@ -2872,7 +2872,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Nandan,Tian'e,Fengshan,Donglan,Du'an,Huanjiang,Yizhou,Luocheng,Bama,Jinchengjiang"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Buyang",
@@ -2881,7 +2881,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guangnan,Funing,Malipo,Xichou,Qingshuihe,Luoping,Yanshan,Wenshan,Maguan,Qiubei"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Buyeo Korean",
@@ -2890,7 +2890,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Cai Long",
@@ -2899,7 +2899,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bijie,Dafang,Qianxi,Zhijin,Jinsha,Xingyi,Puan,Shuicheng,Liupanshui,Anshun"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Camtho",
@@ -2908,7 +2908,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Mangilao Village,Xitole,Gabú,East Berbice-Corentyne,Upper Demerara-Berbice,Demerara-Mahaica,Yuen Long San Hui"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Canaano-Akkadian",
@@ -2917,7 +2917,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Yuen Long Kau Hui,Yeung Uk Tsuen,Kwun Tong District,Yau Tsim Mong District,Wong Tai Sin District,Wo Che,Sha Tin,Wang Tau Hom,Kowloon City,Wah Fu,Southern District"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Cannanore Portuguese Creole",
@@ -2926,7 +2926,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Tuen Mun San Hui,Tsz Wan Shan,Tsing Yi Town,Kwai Tsing District,Sai Kung District,To Kwa Wan,Tin Wan,Ting Kau"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Chakma",
@@ -2935,7 +2935,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Sha Tin Wai,Sham Tseng,Sau Mau Ping,San Tin,San Po Kong,Sai Kung,Pok Fu Lam,San Tung Chung Hang"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Koda",
@@ -2944,7 +2944,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Mount Davis,Central and Western,Mid Levels,Ma Tau Wai,Leighton Hill,Kwai Chung,Kowloon Tong,Kowloon"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Cebuano native-speakers subset",
@@ -2953,7 +2953,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kennedy Town,Kam Tin,Hong Lok Yuen,Ho Man Tin,Ha Tsuen,Discovery Bay,Chuk Yuen"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Central Hilali dialects",
@@ -2962,7 +2962,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Tegucigalpa,Francisco Morazan Department,Siguatepeque,Comayagua Department,Santa Rosa de Copán,Copan Department,Santa Barbara Department,Valle Department,Potrerillos,Olanchito,La Lima"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Central Min",
@@ -2971,7 +2971,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Sesvete,Samobor,Primorje-Gorski Kotar,Istria,County of Osijek-Baranja,Koprivnica-Krizevci,Dubrovnik-Neretva,Megimurje,Bjelovar-Bilogora"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Central Tai",
@@ -2980,7 +2980,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Hinche,Gressier,Grand Gosier,Grangwav,Gonaïves,Fond Parisien,Désarmes,Croix-des-Bouquets,Les Cayes,Sud"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Tây Bồi Pidgin French",
@@ -2989,7 +2989,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Cap-Haïtien,Arcahaie,Ti Port-de-Paix,Carrefour,Újszeged,Jasz-Nagykun-Szolnok,Borsod-Abauj-Zemplen,Bekes County"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Central Tibeto Burman",
@@ -2998,7 +2998,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Zugló,Budapest,Zala County,Veszprém,Vác,Újpest,Komarom-Esztergom,Vas County"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Falam",
@@ -3007,7 +3007,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bacs-Kiskun,Kiskunfélegyháza,Kiskőrös,Kelenföld,Kecskemét,Jászberény,Győr"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Khaling",
@@ -3016,7 +3016,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Gödöllő,Ferencváros,Erzsébetváros,Érd,Dunaújváros,Dunakeszi,Cegléd"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Koi",
@@ -3025,7 +3025,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Budaörs,Budafok,Buda,Angyalföld,Ajka,Újpalota,Budapest V. kerület,Budapest XII. kerület,Budapest XI. kerület"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Tilung",
@@ -3034,7 +3034,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Budapest VIII. kerület,Budapest VI. kerület,Budapest XIII. kerület,Budapest IV. kerület,Budapest XV. kerület,Budapest XVI. kerület,Budapest XIX. kerület,Budapest XVIII. kerület,Budapest XXIII. kerület,Budapest XXII. kerület"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Hinuq",
@@ -3043,7 +3043,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bireun,Berastagi,Belawan,Barus,Bandar,Wonosobo,Central Java,Wonosari"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Kachi Koli",
@@ -3052,7 +3052,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Highland Papua,Southwest Papua,East Nusa Tenggara,Ungaran,Tulungagung,Tulangan Utara,Trucuk"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Gujari",
@@ -3061,7 +3061,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Trenggalek,North Maluku,Central Papua,Terbanggi Besar,Lampung,Tarub,Tarakan"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Goguryeo Korean",
@@ -3070,7 +3070,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "East Kalimantan,Rengasdengklok,Rembangan,Randudongkal,Rajapolah,Southeast Sulawesi,Purwodadi"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Zway",
@@ -3079,7 +3079,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Prabumulih,Pemangkat,Pemalang,Pelabuhanratu,Riau,Pecangaan,Pati,Paseh"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Chakhar",
@@ -3088,7 +3088,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Pameungpeuk,Pamanukan,Palimanan,Pakisaji,Pagar Alam,Paciran"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Chaldean Neo-Aramaic",
@@ -3097,7 +3097,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Nunukan,Ngunut,Ngoro,Ngawi,Nganjuk,Namrole,Muntok,Muntilan,Muncar"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Chamdo",
@@ -3106,7 +3106,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Muara Bungo,Mranggen,Mojokerto,Mojoagung,Mlonggo,Metro,Mertoyudan,Melati"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Changjiang Hlai",
@@ -3115,7 +3115,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Majenang,Lubuklinggau,Loa Janan,Lembang,Lebaksiu,Lawang,Lasem"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Chavacano",
@@ -3124,7 +3124,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lahat,Kutoarjo,Kudus,Kuala Tungkal,Kroya,Kresek,Kraksaan"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Chechen",
@@ -3133,7 +3133,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Klaten,Klangenan,Ketanggungan,Kertosono,Kepanjen,Kencong,Kedungwuni,Kedungwaru"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Chenchu",
@@ -3142,7 +3142,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kebonarun,Kebomas,Kawasi,Kawalu,Karangsembung,Karanganom,Karangampel"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Tibeto-Kanauri",
@@ -3151,7 +3151,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Juwana,Jombang,Jogonalan,Jepara,Jekulo,Jatiwangi,Jatiroto,Jatibarang,Jaten"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Western Himalayas",
@@ -3160,7 +3160,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Jambi City,Indralaya,Grogol,Gongdanglegi Kulon,Gombong,Godean,Genteng,Gedangan"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Dhuleli",
@@ -3169,7 +3169,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Gebog,Gampengrejo,Gambiran Satu,Galesong,Dumai,Dukuhturi,Driyorejo"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Greater Magaric",
@@ -3178,7 +3178,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Diwek,Demak,Delanggu,Dampit,Curug,Comal,Colomadu,Citeureup"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Magaric",
@@ -3187,7 +3187,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ciputat,Cileunyi,Cileungsir,Cilegon,Cilacap,Cikarang,Cikampek,Cicurug,Cibinong"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Mgp",
@@ -3196,7 +3196,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Cepu,Ceper,Caringin,Ciampea,Bulakamba,Buduran,Buaran,Boyolangu"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Kip",
@@ -3205,7 +3205,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Boyolali,Bondowoso,Blora,Besuki,Benoa"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Drq",
@@ -3214,7 +3214,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bengkayang,Baturaja,Baturaden,Banyumas,Bantul,Banjaran"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Japanese regional lects",
@@ -3223,7 +3223,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bangil,Bambanglipuro,Balung,Balapulang,Balai Pungut,Baekrajan,Babat"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Kanbun Kundoku",
@@ -3232,7 +3232,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Astanajapura,Arjawinangun,Ambarawa,Amahai,South Papua,Adiwerna,Padalarang,Ciranjang-hilir,Leuwiliang"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Chepangic",
@@ -3241,7 +3241,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Cikupa,Teluknaga,Karangnongko,Gamping Lor,Kasihan,Ngemplak,Kartasura,Gatak"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Chhattisgarhi",
@@ -3250,7 +3250,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Abepura,Seririt,Bedugul,Sukawati,Batubulan,Pekan Bahapal,Masohi,Amlapura city"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Chiang Saen",
@@ -3259,7 +3259,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kota Sambas,Dalung,Ireland,Leinster,Tallaght,Sligo,Connacht,Rathfarnham,Droichead Nua"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Chin",
@@ -3268,7 +3268,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Dún Laoghaire,Cluain Meala,Celbridge,Carrigaline,Blanchardstown,Ballincollig"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Chinese Korean",
@@ -3277,7 +3277,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Yehud,Yāfā,Umm el Faḥm,Tirat Karmel,maalot Tarshīhā,Tamra,Shefar‘am,Sderot"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Chinese Kyakala",
@@ -3286,7 +3286,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Sakhnīn,Rosh Ha‘Ayin,Rishon LeTsiyyon,Ramat HaSharon,Ra'anana,Qiryat Yam,Qiryat Tiv‘on,Qiryat Shmona,Qiryat Motsqin"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Chinese Pidgin English",
@@ -3295,7 +3295,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Qiryat Mal’akhi,Qiryat HaYovel,Kiryat Gat,Qiryat Bialik,Qiryat Ata,Qalansuwa,Petaẖ Tiqva,Pardés H̱anna Karkur,Or Yehuda,Or Akiva"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Chittagonian",
@@ -3304,7 +3304,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Maghār,Kfar Yona,Kfar Saba,Karmi’el,Kafr Qāsim,Kafr Qari‘,Kafr Mandā,Kafr Kannā,Judeida Makr"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Cholanaikkan",
@@ -3313,7 +3313,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Hod HaSharon,Herzliya,Hadera,Giv'at Shmuel,Givatayim,Gan Yavne,Ganei Tikva,Eṭ Ṭīra,Eṭ Ṭaiyiba"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Chong",
@@ -3322,7 +3322,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bāqa el Gharbīya,‘Ara-‘Ar‘ara,Afula,West Jerusalem,Rahat,Modiin Ilit,Ariel,Judea and Samaria Area"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Chrau Bahnaric",
@@ -3331,7 +3331,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Tel Sheva‘,‘Ar‘ara BaNegev,H̱ura,Kuseifa,Shoham,Yehud-Monosson,Kadima Zoran,Kiryat Ono,Isle of Man"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Christian Palestinian Aramaic",
@@ -3340,7 +3340,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Pūnch,Kilakarai,Zamānia,Zaidpur,Zahirābād,Yeola,Yelahanka,Yavatmāl,Yāval"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Christian Urmi Neo-Aramaic",
@@ -3349,7 +3349,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Yanam,Yamuna Nagar,Wazīrganj,Wāshīm,Warud,Warora,Wāris Alīganj"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Chukchi",
@@ -3358,7 +3358,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Vuyyūru,Vriddhāchalam,Vittal,Vite,Visnagar,Vishāram,Vīsāvadar,Virudunagar,Vadakku Viravanallur"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Chongqing Mandarin",
@@ -3367,7 +3367,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Virār,Viramgām,Vinukonda,Villupuram,Villianur,Vilattikulam,Vikramasingapuram,Vikārābād,Vijāpur"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Chukotkan",
@@ -3376,7 +3376,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Vadakku Valliyūr,Vadakāncheri,Vāda,Uttiramerūr,Ūttangarai,Uttamapālaiyam,Utraula,Utnūr,Usilampatti"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Chukotko-Kamchatkan",
@@ -3385,7 +3385,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Usehat,Urun-Islāmpur,Urmar,Uravakonda,Upleta,Uppal Kalan,Unnāo,Unjha,Unhel,Unchahra"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Chungcheong Korean",
@@ -3394,7 +3394,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Uluberiya,Ujhāni,Udumalaippettai,Udgīr,Udangudi,Udaipura"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Chuvan",
@@ -3403,7 +3403,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Tuljāpur,Tufānganj,Tudiyalūr,Trittāla,Tripunittura,Trāl,Toshām,Tonk,Tondi"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Cilician Arabic",
@@ -3412,7 +3412,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Tohāna,Todaraisingh,Todabhim,Tittagudi,Titlāgarh,Titāgarh,Tisaiyanvilai,Tiruvottiyūr,Cheyyar"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Circassian",
@@ -3421,7 +3421,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Tiruvankod,Tiruvallur,Tiruvalla,Thiruthuraipoondi,Thiruthani,Tiruttangal,Tirūrangādi,Tiruppuvanam,Tirupattur"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Cham",
@@ -3430,7 +3430,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Tirupparangunram,Tirumangalam,Tirumala,Tirukkoyilur,Tirukkalikkunram,Tiruchengode,Tiruchchendur,Tirāwari"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Chamalal",
@@ -3439,7 +3439,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Tinnanūr,Tindivanam,Timurni,Tilhar,Tikkotti,Tijāra,Thiruvaiyaru,Thāsra"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Chak",
@@ -3448,7 +3448,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Tharād,Thara,Thānesar,Thandla,Thāna Bhawan,Thān,Thākurganj,Thakurdwara"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Classical Arabic",
@@ -3457,7 +3457,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Teghra,Tāsgaon,Tarn Taran,Tharangambadi,Tārānagar,Tarāna,Tāramangalam,Tarakeswar,Tāoru"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Classical Syriac",
@@ -3466,7 +3466,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Taliparamba,Taleigao,Talegaon Dābhāde,Tālcher,Talakkād,Talāja,Tāki,Takhatgarh"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Chilisso",
@@ -3475,7 +3475,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Tājpur,Tadpatri,Tādepalle,Sutrāpāra,Susner,Suriāpet,Suriānwān,Surendranagar,Suratgarh"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Idu Mishmi",
@@ -3484,7 +3484,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Sūrandai,Sūrajgarh,Sunel,Sundarnagar,Sundergarh,Sunām,Sumbal,Sullya,Sūlūru"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Haka",
@@ -3493,7 +3493,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Sulur,Sultanpur,Suket,Sūjāngarh,Suār,Srivilliputhur,Srīvardhan,Srivaikuntam,Srīsailain,Srīrāmnagar"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Khumi",
@@ -3502,7 +3502,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Srīperumbūdūr,Sri Mādhopur,Karanpur,Sri Dūngargarh,Soygaon,Soron,Sorada"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Cochin Portuguese Creole",
@@ -3511,7 +3511,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Sojītra,Sojat,Sohna,Sohāgpur,Siwāna,Sivagiri,Siuri"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Corfiot Maltese",
@@ -3520,7 +3520,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Sikandarābād,Sijua,Sihorā,Sihor,Sidhi,Sidhaulī,Siddipet,Siddhapur"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Cottonera Dialect",
@@ -3529,7 +3529,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Shyamnagar,Shujālpur,Shrīrāmpur,Shrīgonda,Sholinghur,Sholapur,Shivpuri,Shīshgarh"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Asho",
@@ -3538,7 +3538,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Shendurjana,Sendhwa,Sendamangalam,Sehore,Sāyla,Sāvli,Sāvda,Sāvantvādi,Sausar"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Cua",
@@ -3547,7 +3547,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Sathyamangalam,Sattur,Sattenapalle,Satānā,Sāsvad,Sasarām,Sawar,Sarkhej"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Cun Hlai",
@@ -3556,7 +3556,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Sardulgarh,Sardhana,Sardārshahr,Sarauli,Sārangpur,Saraipali,Sarāi Mīr,Sarāi Ākil,Saoner,Sānwer"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Cypriot Arabic",
@@ -3565,7 +3565,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Sānkrāil,Sankarankovil,Sangrūr,Sāngola,Sangod,Sangariā,Sangāreddi,Sangamner,Sandīla"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Dadanitic",
@@ -3574,7 +3574,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Sāndi,Sancoale,Sānchor,Sanāwad,Sanaur,Sānand,Samthar,Samrāla,Sāmpla,Samdari"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Dagur",
@@ -3583,7 +3583,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Salāya,Saktī,Saint Thomas Mount,Sainthia,Sahāwar,Sahaswān"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Dai Zhuang",
@@ -3592,7 +3592,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Sahaspur,Sāgwāra,Sagauli,Saugor,Safīpur,Safidon,Sādri,Sadasivpet"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Damu",
@@ -3601,7 +3601,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Sadābād,Sachīn,Sabalgarh,Rusera,Rura,Ropar,Rūdarpur,Roorkee,Rohtak"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Dao",
@@ -3610,7 +3610,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Raxaul,Rāwatsār,Rāwatbhāta,Rātu,Ratnagiri,Ratia,Rāth,Ratangarh"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Dargwa",
@@ -3619,7 +3619,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Rānia,Rangāpāra,Rānāvāv,Rānāghāt,Rāmtek,Rampur Hat,Rāmpura"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Dari",
@@ -3628,7 +3628,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Rāmjībanpur,Rāmgundam,Rāmganj Mandi,Rameswaram,Rāmāpuram,Closepet"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Darkhad",
@@ -3637,7 +3637,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Rāmachandrapuram,Rājūra,Rājula,Rajpura,Rajpur,Rājpīpla,Rājmahal,Rājgurunagar"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Holiya",
@@ -3646,7 +3646,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Rāhatgarh,Rahata,Raghunathpur,Rāghogarh,Rafiganj,Raebareli,Rādhanpur,Koyilandy,Kasba"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Irula",
@@ -3655,7 +3655,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Qadian,Pushkar,Pusad,Purwā,Purushottampur,Puruliya,Pūrna,Pūranpur"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Jeseri",
@@ -3664,7 +3664,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Purāini,Pupri,Punjai Puliyampatti,Punganūru,Pūndri,Punāsa,Punalūr,Pūnāhāna,Puliyankudi"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Kadar Dravidian",
@@ -3673,7 +3673,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Pulivendla,Pulgaon,Pukhrāyān,Pugalūr,Pudunagaram,Pottanūr,Andaman and Nicobar,Porsa"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Kaikadi",
@@ -3682,7 +3682,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Poonamalle,Ponnūru,Ponneri,Polūr,Pollachi,Polavaram,Polasara,Pokaran,Podili"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Kakkala",
@@ -3691,7 +3691,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Pithāpuram,Pirthīpur,Piro,Piravam,Pīpri,Pipraich,Pipili,Pipariā,Pīpār"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Kalanadi",
@@ -3700,7 +3700,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Pinjaur,Pindwāra,Pināhat,Pimpri,Pilkhua,Pīlibhīt,Pilibangan,Pīleru,Pihānī"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Kanikkaran",
@@ -3709,7 +3709,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Pidugurālla,Pichor,Phulpur,Phulera,Phirangipuram,Phillaur,Phaphūnd,Phaltan,Phalodi"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Khirwar",
@@ -3718,7 +3718,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Phalauda,Phagwāra,Petlāwad,Petlād,Pethāpur,Perundurai,Perumpāvūr,Periyanayakkanpalaiyam,Periyakulam,Perintalmanna"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Kodava",
@@ -3727,7 +3727,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Peravurani,Peranāmpattu,Penukonda,Penugonda,Pennāgaram,Pennādam,Pehowa,Peddāpuram,Peddapalli"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Derung",
@@ -3736,7 +3736,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Parli Vaijnāth,Pariyāpuram,Parīchhatgarh,Pārdi,Paravūr Tekkumbhāgam,Pārassāla,Parāsia,Paramagudi,Parādīp Garh"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Dhakaiya Kutti Bengali",
@@ -3745,7 +3745,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Pandharpur,Pāndharkawada,French Rocks,Pandaria,Pānakkudi,Panāgar,Pāmūru,Pāmpur,Pāmban"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Dhivehi",
@@ -3754,7 +3754,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Palwal,Palani,Palmaner,Pallippatti,Pallikonda,Pallāvaram,Pallappatti,Palladam,Pālkonda"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Dimasa",
@@ -3763,7 +3763,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Nūrpur,Nūh,Nowrangapur,Nowgong,North Guwāhāti,Nokha,Nohar,Noāmundi"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Domaaki",
@@ -3772,7 +3772,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Nilakottai,Nilagiri,Nihtaur,Nidadavole,Nichlaul,Ngūr,Neyyāttinkara,Neyveli,Neral"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Dameli",
@@ -3781,7 +3781,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ner,Nepānagar,Nellimarla,Nellikkuppam,Nelamangala,Nedumangād,Nāyudupet,Nawanshahr"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Dorbet Oirat",
@@ -3790,7 +3790,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Narakal,Nārāinpur,Naraini,Naraina,Napāsar,Nānpāra,Nāngloi Jāt,Nangal"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Dolpo",
@@ -3799,7 +3799,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Naldurg,Naksalbāri,Nakrekal,Nakodar,Najībābād,Najafgarh,Nainwa,Nainpur"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Darai",
@@ -3808,7 +3808,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Naihāti,Nahorkatiya,Nāgod,Nagīna,Nagda,Nāgar Karnūl,Nagari"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Duan",
@@ -3817,7 +3817,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Nagalapuram,Nādbai,Nādāpuram,Nābha,Muzaffarnagar,Mūvattupula,Muthupet"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Duruwa",
@@ -3826,7 +3826,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Modāsa,Misrikh,Miryalaguda,Mīrganj,Mīrānpur Katra,Mīrānpur,Mīnjūr,Milak,Mihona"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "E mixed",
@@ -3835,7 +3835,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Mhow,Mhaswad,Merta,Mennānyam,Mendarda,Memāri,Mehsi,Mehndāwal"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Early Modern Korean",
@@ -3844,7 +3844,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Mehkar,Medinīpur,Medchal,Māyābandar,Mawāna,Mavoor,Māvelikara,Mauganj"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "East Bodish",
@@ -3853,7 +3853,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Maudaha,Mau Aimma,Mau,Mattigiri,Mattanur,Mātābhānga,Masaurhi Buzurg,Mormugao"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Duan Bahnaric",
@@ -3862,7 +3862,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Manoharpur,Mannargudi,Mannārakkāt,Manmād,Mankāchar,Majalgaon,Manjhanpur,Manipal,Mani Mājra,Manihāri"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Eastern Himalayas",
@@ -3871,7 +3871,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Mālpura,Malpe,Mallasamudram,Malkāpur,Malakanagiri,Māliya,Malīhābād,Māler Kotla,Malout"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Eastern Itelmen",
@@ -3880,7 +3880,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Mukandgarh,Mākum,Maksi,Makrāna,Majhiāon Kalān,Mairwa,Mainpuri,Maināguri,Maihar,Mahwa"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Arh",
@@ -3889,7 +3889,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Mahemdāvād,Mahē,Mahbūbābād,Mahārāganj,Mahārājgani,Maham,Māgadi,Madurāntakam"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Bmr",
@@ -3898,7 +3898,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Madukkūr,Madukkarai,Madhyamgram,Madhupur,Madhuban,Madgaon"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Dzao Min",
@@ -3907,7 +3907,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Madattukkulam,Madanapalle,Machilīpatnam,Machhlīshahr,Māchhīwāra,Mācherla,Lūnāvāda,Luckeesarai,Losal"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Eastern Min",
@@ -3916,7 +3916,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Loha,Lāwar Khās,Laungowāl,Lāthi,Lāsalgaon,Lar,Lālsot,Lālpur"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Eastern Yugur",
@@ -3925,7 +3925,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kulittalai,Kulasegaram,Kukshi,Kukatpally,Kuju,Kudāl,Kudachi,Kuchera,Kuchāman"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Ekherit Bulagat Buryat",
@@ -3934,7 +3934,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kosigi,Kosamba,Korwai,Koregaon,Koratla,Kopargaon"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Ekhirit Bulagat Buryat",
@@ -3943,7 +3943,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kopāganj,Konnagar,Kondapalle,Konch,Konārka,Kolāras"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Eravallan",
@@ -3952,7 +3952,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Khūtār,Khusropur,Khurja,Khuldābād,Khowai,Khopoli,Khirkiya,Khilchipur,Khetri"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Even",
@@ -3961,7 +3961,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Khāpa,Khanna,Khaniādhāna,Khandela,Khāmgaon,Khambhāt,Khambhāliya,Khamaria,Khalīlābād"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Ewenic",
@@ -3970,7 +3970,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Khāchrod,Kaithoon,Kesinga,Keshorai Pātan,Keshod,Kesariyā,Kerūr,Keonjhargarh,Kendrāparha,Kenda"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Dogri",
@@ -3979,7 +3979,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kangayam,Kandukūr,Kāndla,Kāndhla,Kāmthi,Kāmārhāti,Kāmāreddi"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Dongjia",
@@ -3988,7 +3988,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kāman,Kamalganj,Kāmākhyānagar,Kalyani,Kalwākurti,Kalugumalai,Kālpi,Kalpatta,Kalol"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Dongxiang",
@@ -3997,7 +3997,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kālna,Kalmeshwar,Kallidaikurichi,Kallakkurichchi,Kāliyāganj,Kālāvad,Kālānwāli,Kalānaur"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Tsez",
@@ -4006,7 +4006,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kalamnūri,Kalamb,Kallam,Kalakkādu,Kalāyat,Kakrāla,Kākori,Kakdwip,Kairāna"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Dzongkha",
@@ -4015,7 +4015,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kadi,Kadayanallur,Kānchrāpāra,Kachhwa,Kabrāi,Junnar,Jūnāgarh,Jhumri Telaiya,Shādīpur Julāna"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Goryeo Korean",
@@ -4024,7 +4024,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Jāmkhed,Jambusar,Gogri Jamālpur,Jāmai,Jāmadoba"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Greater Siangic",
@@ -4033,7 +4033,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Jahānābād,Jagtiāl,Jagraon,Jaggayyapeta,Jagdīspur,Jagdīshpur,Jagatsinghapur,Jagādhri,Jāfarābād"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Garo",
@@ -4042,7 +4042,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Indri,Indergarh,Indargarh,Indāpur,Ilaiyankudi,Igatpuri,Idar"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Gangwon Dialect",
@@ -4051,7 +4051,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Chuncheon,Wonju,Gangneung,Sokcho,Donghae,Samcheok,Taebaek,Hongcheon,Pyeongchang,Jeongseon"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Gaya Korean",
@@ -4060,7 +4060,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Hastināpur,Hasanpur,Harūr,Harsūd,Harpanahalli,Harpālpur,Haripād,Hārij"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Garhwali",
@@ -4069,7 +4069,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Hardoī,Harda,Hāpur,Hānsi,Handiā,Halvad,Hālol"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Godoberi",
@@ -4078,7 +4078,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Hālīsahar,Haldaur,Hadgāon,Hābra,Gyānpur,Guskhara,Guruvāyūr"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Gejia",
@@ -4087,7 +4087,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guru Har Sahāi,Gursarāi,Gursahāiganj,Gurugram,Gunupur,Gunnaur,Gummidipundi"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Gurgula",
@@ -4096,7 +4096,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Jaipur,Jodhpur,Udaipur,Ajmer,Bikaner,Alwar,Bharatpur,Sikar,Nagaur,Pali"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Gta",
@@ -4105,7 +4105,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Jeypore,Koraput,Nabarangpur,Malkangiri,Kotpad,Borigumma,Balimela,Gunupur,Paralakhemundi,Rayagada"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Guiyang",
@@ -4114,7 +4114,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Depālpur,Deori Khās,Deoria,Deoraniān,Deolāli,Deoband"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Hezhang Buyi",
@@ -4123,7 +4123,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Dinapore,Dāmnagar,Medininagar,Dalsingh Sarai,Dalkola,Dākor,Dohad,Dahegām,Dāhānu"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Hezhou",
@@ -4132,7 +4132,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Dādri,Dabwāli,Dabra,Daboh,Dabhoi,Curti,Cuncolim"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Hiligaynon",
@@ -4141,7 +4141,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Colonelganj,Colgong,Calangute,Clement Town,Chunār,Chotila,Chorwād"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Hindustani",
@@ -4150,7 +4150,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Chiplūn,Chinnūr,Chinna Salem,Chinnamanūr,Chillupār,Chilakalūrupet,Chikhli"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Hkongso",
@@ -4159,7 +4159,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Chik Ballāpur,Chīka,Chidambaram,Chicholi,Chhoti Sādri,Chhota Udepur,Chhibrāmau,Chhātāpur,Chhāta"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Halabi",
@@ -4168,7 +4168,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Chharra,Chhaprauli,Chhāpar,Chhanerā,Chhala,Chhabra,Chettipālaiyam,Chetput,Cheranmahadevi"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Southern Ghale",
@@ -4177,7 +4177,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Chennimalai,Chengam,Chengalpattu,Chavara,Chetwayi,Chaumu,Chaksu,Chas"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Northern Ghale",
@@ -4186,7 +4186,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Charthāwal,Charkhi Dādri,Charkhāri,Chāpar,Changanācheri,Chāndor,Chāndūr Bāzār,Chāndūr"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Huizhou Chinese",
@@ -4195,7 +4195,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Chānda,Chandrakona,Chandia,Chanderi,Chanduasi,Chandauli,Chandannagar,Chānasma,Chamrajnagar"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Huishui Miao",
@@ -4204,7 +4204,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Huishui,Longli,Guiding,Qingzhen,Anshun,Pingba,Kaiyang,Xifeng,Weng'an,Dushan"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Hunzib",
@@ -4213,7 +4213,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bishrāmpur,Bisauli,Bīsalpur,Bisālgarh,Bīrpur,Birmitrapur,Binika,Bindki"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Hwanghae",
@@ -4222,7 +4222,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Etāwa,Bilthra,Bilsi,Bilsanda,Bilimora,Bilhaur,Bilgrām,Bilāsipāra"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Ibanag",
@@ -4231,7 +4231,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bilāri,Bilāra,Bikramganj,Bikram,Bijnor,Bijbehara,Bijāwar,Bijaipur,Bijaynagar"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Goaria",
@@ -4240,7 +4240,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bhikkiwind Uttār,Bhīkhi,Bhikangaon,Bhetia,Bhelai,Bhāyāvadar,Bhayandar,Bhawānīgarh,Bhawāni Mandi"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Gurung",
@@ -4249,7 +4249,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bhādra,Bhadohi,Bhadaur,Bhādāsar,Bhachāu,Bhabhua,Bhābhar,Beypore,Bewar"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Gawri",
@@ -4258,7 +4258,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bettiah,Betma,Betamcherla,Beri Khās,Berasia,Beohāri,Belsand"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Gowro",
@@ -4267,7 +4267,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Chilas,Gilgit,Skardu,Astore,Hunza,Naltar,Chalt,Gupis,Yasin,Phandar"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Gyeonggi-Seoul",
@@ -4276,7 +4276,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Barshi,Barpāli,Baroda,Chhipa Barod,Barnagar,Bārmer,Barki Saria,Barkā Kānā,Barjala"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Gyeongsang",
@@ -4285,7 +4285,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bari Sādri,Barhiya,Bārh,Bargūr,Bargi,Bareli,Bareja,Bārdoli"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Hani",
@@ -4294,7 +4294,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bāpatla,Bāonlī,Bāola,Banūr,Bāntva,Bānswāda,Bānsi,Bānsdīh,Bānsbāria"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Armenian (Hayeren)",
@@ -4303,7 +4303,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Balotra,Ballia,Ballarpur,Balarāmpur,Bālāpur"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Armenian Dialect",
@@ -4312,7 +4312,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bālāchor,Bakhtiyārpur,Bakhri,Budge Budge,Viratnagar,Bairāgnia,Bail-Hongal,Baikunthpur,Baihar,Baidyabāti"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Old Armenian",
@@ -4321,7 +4321,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bābai,Azamgarh,Ayyampettāi,Ayodhya,Ayakudi,Avanigadda,Avinashi,Avadi,Ausa"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Old Cilician Armenian",
@@ -4330,7 +4330,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Auraiya,Attingal,Attili,Attibele,Atraulī,Atmakūr,Adirampattinam,Athani,Āthagarh"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Hayu (Vayu)",
@@ -4339,7 +4339,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Lalitpur,Bharatpur,Birgunj,Biratnagar,Dharan,Butwal,Nepalgunj,Janakpur"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Hazara (Hazaragi)",
@@ -4348,7 +4348,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Aramboli,Arāmbāgh,Arakkonam,Aonla,Anūpshahr,Anūpgarh"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Ilocano native-speakers subset",
@@ -4357,7 +4357,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Andol,Anthiyur,Āndippatti,Anandpur,Anakapalle,Anaimalai,Āmūr"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Antillean Creole",
@@ -4366,7 +4366,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Aklūj,Aklera,Akivīdu,Akhnūr,Akbarpur,Akaltara,Akalkot,Ajara,Ajnāla"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Yuanmen Hlai",
@@ -4375,7 +4375,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ajaigarh,Ahwa,Ahraura,Ahor,Ahmadpur,Ahilyanagar,Agar"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Qau",
@@ -4384,7 +4384,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Afzalgarh,Adūr,Addanki,Achhnera,Achhībal,Achalpur,Ābu Road,Ābu,Abohar"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Taman",
@@ -4393,7 +4393,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Abhayāpuri,Dalli Rājhara,Contai,Haldia,Srirāmpur,Dumjor,Bankra,Chakapara,Mahiari,Dhulagari"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Kolami",
@@ -4402,7 +4402,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "koppana Agrahara,Bommasandra Industrial Area,Murudeshwara,Shivaji Nagar,Greater Noida,Zerakpur,Mohali,Pithampur,Barbil"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Koraga",
@@ -4411,7 +4411,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Airoli,Vapi,Baddi,Noida,Bhiwadi,Mandideep,Singrauli"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Kudiya",
@@ -4420,7 +4420,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Chinnachowk,Kyathampalle,Gajuwaka,Katheru,Metpalle,Kalyandurg,Payakaraopeta,Ponnur,Quthbullapur"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Kui Dravidian",
@@ -4429,7 +4429,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ramanayyapeta,Palwancha,Barpeta Road,Sathupalli,Yanamalakuduru,Morigaon,Serilingampalle,Lumding Railway Colony,Aistala"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Paniya",
@@ -4438,7 +4438,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Thottada,Nongthymmai,Kumbalangy,Patran,Kharghar,Chendamangalam,Singampunari,Mannachanallur,Thuraiyur"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Pardhan",
@@ -4447,7 +4447,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Pallipalayam,Kumarapalayam,Parangipettai,Virudhachalam,Kattumannarkoil,Oddanchathiram,Udaipurwati,Sumerpur,Karingal,Arumanai"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Pathiya",
@@ -4456,7 +4456,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kottur,Sankagiri,Electronic City Phase I,Ramagundam,Hanumana,Sultānganj,Bagru,Nimach,Kamatgi"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Itelmen",
@@ -4465,7 +4465,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Rabkavi-Banhatti,Bada Malhera,Laitumkhrah,Kurwai,Jirapur,Budhni,Badi,Areraj,Rajgangpur"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Joseon Korean Early Modern",
@@ -4474,7 +4474,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Srikalahasti,Shahbazpur,Heli Mandi,Mānesar,Pammal,Anakaputhur,Valasaravakkam,Maduravoyal,Meenambakkam"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Joseon Korean Modern",
@@ -4483,7 +4483,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Pallikaranai,Ganguwa,Gulgam,Kopawor,Barāra,Khairtal,Kansāpur,Kherli,Asāra,Sārni"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Jirel",
@@ -4492,7 +4492,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Sātalkheri,Mūllānpur,Pehlādpur Bāngar,Siraspur,Kundli,Kādīpur,Libāspur,Burāri,Gil"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Kam-Tai",
@@ -4501,7 +4501,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Sānehwāl,Karāla,Auhammadpur Mājri,Rāni Khera,Begampur,Pūth Kalān,Kamaruddinnagar,Mūndka,Bakarwāla,Nilithi"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Kamassian",
@@ -4510,7 +4510,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Chilla Soroda Bāngar,Dalūpura,Molārband,Jaitpur,Kondli,Gharroli,Tilpat,Mīthepur,Choudwar"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Khmu",
@@ -4519,7 +4519,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Luang Prabang,Namtha,Oudomxay,Bokeo,Phongsali,Sainyabuli,Xieng Khouang,Houaphan,Nam Et,Nam Ha"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Kuy",
@@ -4528,7 +4528,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Sādpalli,Chandili,Ibrāhīmpatnam,Rāmavarappādu,Poranki,Tādigadapa,Bacheli"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Katuic",
@@ -4537,7 +4537,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Cheppad,Keru,Fālna,Akalkuva,Makhdumpur,Madhurampur Dehri,Kōtekāra,Sōmēshvara"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Khmuic",
@@ -4546,7 +4546,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Koipādi,Kūdlu,Kakkalapalle,Somandepalle,Ramanattukara,Chengala,Ajānūr,Trikarpūr North,Trikarpūr South,Mādāyi"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Proto Tibeto Burman",
@@ -4555,7 +4555,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Āyanchēri,Eravattūr,Kunnummal,Chēmanchēri,Kizhariyūr,Nangli,Ulliyeri,Icchannūr,Talakkolattur,Nanminda"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Tibeto Burman",
@@ -4564,7 +4564,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Lalitpur,Bharatpur,Birgunj,Biratnagar,Dharan,Butwal,Nepalgunj,Janakpur"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Sal",
@@ -4573,7 +4573,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kakkanad,Abrama,Phusro,Alangad,Andipalayam,Anklav"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Karakalpak",
@@ -4582,7 +4582,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bagbera,Barauni,Boriavi,Kanjari,Vadakkanandal,Tangla,Talod,Sithurajapuram,Savarkundla"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Hrusish",
@@ -4591,7 +4591,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Vinnamāla,Vengikkal,Puliyankannu,Sevilimedu,Nattappettai,Kottaikādu"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Ilocano",
@@ -4600,7 +4600,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Laoag,Vigan,Candon,San Fernando,Dagupan,Manila,Quezon City,Caloocan,Antipolo,Cabanatuan"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Iranun",
@@ -4609,7 +4609,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Rāmachettipālaiyam,Kokōtamangalam South,Chengalam,Mannanchōri,Srīkandamangalam,Bharanikāvu Tekku,Krishnāpuram,Ochira,Kulasēkarapuram,Ādanāttutekkumuri Kizhakku"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Isan",
@@ -4618,7 +4618,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Talattala,Mīnād,Puttankulam,Edavai,Kumārapālaiyam,Palangarai,Tirumuruganpūndi,Velampālaiyam,Boyampālaiyam"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Joseon Korean Middle",
@@ -4627,7 +4627,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Georgian dialects",
@@ -4636,7 +4636,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Gilan Province,Alborz Province,Khuzestan,Fars,Kohgiluyeh and Boyer-Ahmad,Yazd Province"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Old Georgian",
@@ -4645,7 +4645,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Razavi Khorasan,Tonekābon,Hashtpar,Tākestān,Takāb,Tajrīsh,Taft"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Proto-Georgian-Zan",
@@ -4654,7 +4654,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Tafresh,Markazi,Surian,Nūr,Şowme‘eh Sarā,Sonqor,Eqbālīyeh,Sirjan,Sīāhkal"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Proto-Kartvelian",
@@ -4663,7 +4663,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Shūsh,North Khorasan,Shāl,Shahr-e Kord,Chaharmahal and Bakhtiari"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Zan languages",
@@ -4672,7 +4672,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Tbilisi,Kutaisi,Batumi,Rustavi,Gori,Poti,Zugdidi,Telavi,Marneuli,Bolnisi"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Judaeo-Georgian",
@@ -4681,7 +4681,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Tbilisi,Kutaisi,Batumi,Rustavi,Gori,Poti,Zugdidi,Telavi,Marneuli,Bolnisi"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Georgian-Zan",
@@ -4690,7 +4690,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Piranshahr,Pāveh,Pārsābād,Ardabil Province,Oskū,Oshnavīyeh,Omīdīyeh"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Kartvelian languages",
@@ -4699,7 +4699,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Nowshahr,Neyrīz,Nekā,Naz̧arābād,Naqadeh,Najafshahr,Meshkīn Dasht,Mīnūdasht"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Kamchatkan",
@@ -4708,7 +4708,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Māhdāsht,Marand,Marāgheh,Manūjān,Manjīl,Malekān,Malāyer"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Kerek",
@@ -4717,7 +4717,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Anadyr,Beringovskiy,Provideniya,Lavrentiya,Egvekinot,Lorino,Enurmino,Inchoun,Uelen,Chukchi"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Ket",
@@ -4726,7 +4726,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Khomām,Bandar-e Khamīr,Khalkhāl,Kāzerūn,Karahrūd,Bandar-e Kangān,Kāmyārān"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Koryak",
@@ -4735,7 +4735,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kalāleh,Kabūdarāhang,Eyvān,Ilam Province,Jūybār,Jask,Jam,Jājarm,Jahrom"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Kott",
@@ -4744,7 +4744,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Krasnoyarsk,Yeniseysk,Turukhansk,Igarka,Dudinka,Norilsk,Talnach,Podkamennaya Tunguska,Strelka,Bakhta"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Kangjia",
@@ -4753,7 +4753,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Xining,Haidong,Haibei,Hainan,Haixi,Golmud,Delingha,Mangnai,Dulan,Yushu"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Kannada",
@@ -4762,7 +4762,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Varnāmkhvāst,Sedeh Lanjān,Rehnān,Khowrzūq,Khomeynī Shahr,Kelīshād va Sūdarjān,Gaz-e Borkhar"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Kapampangan",
@@ -4771,7 +4771,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Angeles,San Fernando,Mabalacat,Mexico,Magalang,Porac,Guagua,Lubao,Floridablanca,Bacolor"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Kabutra",
@@ -4780,7 +4780,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Paternò,Palmi,Palma di Montechiaro,Palagonia,Pachino,Niscemi"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Koch",
@@ -4789,7 +4789,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Misterbianco,Misilmeri,Mascalucia,Lentini,Giarre,Floridia"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Tai Meuay",
@@ -4798,7 +4798,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "San Mauro Torinese,San Lazzaro,San Giuseppe Vesuviano,San Giuliano Milanese,San Giovanni Rotondo,San Giovanni Lupatoto,San Giovanni a Teduccio,San Giorgio a Cremano,San Donato Milanese"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Proto-Kra",
@@ -4807,7 +4807,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Majiang,Tianzhu,Jinping,Congjiang,Rongjiang,Liping,Danzhai,Qiandongnan,Qiannan,Tongren"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Nadou",
@@ -4816,7 +4816,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Nanning,Chongzuo,Pingxiang,Longzhou,Daxin,Tiandeng,Ningming,Fusui,Jiangzhou,Dongxing"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Mulao Kra",
@@ -4825,7 +4825,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Majiang,Tianzhu,Jinping,Congjiang,Rongjiang,Liping,Danzhai,Qiandongnan,Qiannan,Tongren"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Mising",
@@ -4834,7 +4834,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Pianura,Pesaro,Parabiago,Palo del Colle,Palazzolo sull'Oglio"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Ke'yagana",
@@ -4843,7 +4843,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ottaviano,Orta Nova,Oderzo,Novate Milanese,Noicattaro"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Kacchi",
@@ -4852,7 +4852,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Melzo,Melito di Napoli,Melegnano,Marina di Carrara,Marigliano"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Kusunda",
@@ -4861,7 +4861,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Gorkha,Palpa,Arghakhanchi,Gulmi,Kapilvastu,Rupandehi,Nawalparasi,Chitwan,Tanahun,Syangja"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Dura Tandrange",
@@ -4870,7 +4870,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Lalitpur,Bharatpur,Birgunj,Biratnagar,Dharan,Butwal,Nepalgunj,Janakpur"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Gong",
@@ -4879,7 +4879,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Zunyi,Chishui,Renhuai,Meitan,Suiyang,Tongzi,Xishui,Daozhen,Zheng'an,Wuchuan"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Gongduk",
@@ -4888,7 +4888,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Thimphu,Punakha,Wangdue Phodrang,Trongsa,Bumthang,Mongar,Lhuentse,Trashigang,Samdrup Jongkhar,Gelephu"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Aslian languages",
@@ -4897,7 +4897,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kuala Lipis,Gua Musang,Kota Bharu,Kuala Terengganu,Ipoh,Taiping,Seremban,Malacca,Segamat,Johor Bahru"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Khowar",
@@ -4906,7 +4906,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Chitral,Drosh,Mastuj,Garam Chashma,Shandur,Booni,Laspur,Shishi,Khowar,Phargam"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Khwarshi",
@@ -4915,7 +4915,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Makhachkala,Derbent,Kaspiysk,Buynaksk,Kizlyar,Hasavyurt,Southwest Dagestan,Khwarshi,Tindi,Avar"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Kiautschou Pidgin German",
@@ -4924,7 +4924,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Qingdao,Jinan,Yantai,Weifang,Zibo,Tai'an,Rizhao,Liaocheng,Dezhou,Binzhou"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Kim Mun",
@@ -4933,7 +4933,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Longlin,Tianlin,Leye,Lingyun,Bama,Dahua,Fengshan,Nandan,Tiane,Jinchengjiang"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Khasi",
@@ -4942,7 +4942,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Shillong,Tura,Nongstoin,Jowai,Mairang,Umiam,Nongpoh,Baghmara,Williamnagar,Kyrdemkulai"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Lyngngam",
@@ -4951,7 +4951,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Shillong,Tura,Nongstoin,Jowai,Mairang,Umiam,Nongpoh,Baghmara,Williamnagar,Kyrdemkulai"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Khasi native-speakers subset",
@@ -4960,7 +4960,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Shillong,Tura,Nongstoin,Jowai,Mairang,Umiam,Nongpoh,Baghmara,Williamnagar,Kyrdemkulai"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Pnar",
@@ -4969,7 +4969,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Shillong,Tura,Nongstoin,Jowai,Mairang,Umiam,Nongpoh,Baghmara,Williamnagar,Kyrdemkulai"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "War Khasi",
@@ -4978,7 +4978,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Shillong,Tura,Nongstoin,Jowai,Mairang,Umiam,Nongpoh,Baghmara,Williamnagar,Kyrdemkulai"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Khakas",
@@ -4987,7 +4987,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Abakan,Sayanogorsk,Chernogorsk,Abaza,Bely Yar,Shira,Kopyovo,Tashtyp,Bograd,Kyzyl"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Khams Tibetan",
@@ -4996,7 +4996,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Dêgê,Kangding,Litang,Batang,Xiangcheng,Derong,Sêrxü,Yajiang,Daocheng,Sêrtar"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Khamti",
@@ -5005,7 +5005,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Myitkyina,Bhamo,Mogaung,Putao,Tanai,N'Changyang,Lekhapani,Margherita,Digboi,Jaipur"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Khamyang",
@@ -5014,7 +5014,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Dibrugarh,Tinsukia,Sivasagar,Jorhat,Golaghat,Nagaon,Tezpur,Guwahati,Silchar,Diphu"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Kharia",
@@ -5023,7 +5023,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ranchi,Jamshedpur,Dhanbad,Bokaro,Hazaribagh,Gumla,Simdega,Lohardaga,Chatra,Palamu"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Khe Khmer",
@@ -5032,7 +5032,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Phnom Penh,Siem Reap,Battambang,Sihanoukville,Kampong Cham,Kampot,Takeo,Kratie,Kampong Thom,Kampong Speu"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Northern Khmer",
@@ -5041,7 +5041,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Surin,Buriram,Sisaket,Roi Et,Mahasarakham,Kalasin,Nakhon Ratchasima,Chaiyaphum,Khon Kaen,Ubon Ratchathani"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Kho Bwa",
@@ -5050,7 +5050,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Yangon,Mandalay,Naypyidaw,Mawlamyine,Bago,Pathein,Monywa,Meiktila,Sittwe,Taunggyi"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Khori Buryat",
@@ -5059,7 +5059,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ulan-Ude,Kyakhta,Gusinoozyorsk,Selenginsk,Zakamensk,Khorinsk,Mukhorshibir,Taksimo,Barguzin,Petrovsk-Zabaykalsky"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Khortha",
@@ -5068,7 +5068,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ranchi,Jamshedpur,Dhanbad,Bokaro,Hazaribagh,Gumla,Simdega,Lohardaga,Chatra,Palamu"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Khun",
@@ -5077,7 +5077,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Chiang Rai,Mae Sai,Chiang Saen,Mae Chan,Mae Suai,Phan,Thoeng,Wiang Pa Pao,Mae Lao,Doi Luang"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Kulung",
@@ -5086,7 +5086,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Solukhumbu,Okhaldhunga,Khotang,Bhojpur,Dhankuta,Terhathum,Panchthar,Ilam,Taplejung,Sankhuwasabha"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Kalasha",
@@ -5095,7 +5095,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Chitral,Drosh,Mastuj,Garam Chashma,Shandur,Booni,Laspur,Shishi,Khowar,Phargam"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Mednyj Aleut",
@@ -5104,7 +5104,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Nikolskoye,Bering Island,Medny Island,Kamchatka,Petropavlovsk-Kamchatsky,Yelizovo,Ust-Kamchatsk,Klyuchi,Sobolevo"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Lakkia-Kam-Sui",
@@ -5113,7 +5113,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Goshogawara,Aso,Kachidoki,Nanto-shi,Kawage,Neyagawa,Owariasahi,Hitachi-Naka,Chikusei"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Tai Hongjin",
@@ -5122,7 +5122,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Yuanjiang,Moji,Jiangcheng,Pu'er,Mengla,Jinghong,Mohan,Mengzi,Gejiu,Kaiyuan"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Qabiao",
@@ -5131,7 +5131,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Malipo,Xichou,Qingshuihe,Guangnan,Funing,Luoping,Yanshan,Wenshan,Maguan,Qiubei"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Koho",
@@ -5140,7 +5140,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kon Tum,Pleiku,Dak Lak,Buon Ma Thuot,Dak Nong,Gia Lai,Lam Dong,Ninh Thuan,Binh Phuoc,Tay Ninh"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Kombai-Wanggom",
@@ -5149,7 +5149,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Amakusa,Aizu-misato Machi,Ikebukuro,Kamigyō-ku,Buzen,Hakurōmachi,Katsushika,Nanaku"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Konda",
@@ -5158,7 +5158,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Visakhapatnam,Vizianagaram,Srikakulam,Anakapalli,Alluri Sitharama Raju,Parvathipuram Manyam,Eluru,West Godavari,East Godavari"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Konkani",
@@ -5167,7 +5167,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Panaji,Margao,Vasco da Gama,Mapusa,Ponda,Bicholim,Sanguem,Quepem,Canacona,Karwar"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Kor",
@@ -5176,7 +5176,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Korlai Portuguese Creole",
@@ -5185,7 +5185,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Mumbai,Thane,Navi Mumbai,Kalyan,Ulhasnagar,Bhiwandi,Vasai-Virar,Ambarnath,Badlapur,Dombivli"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Koya",
@@ -5194,7 +5194,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Mazeras,Matuga,Masalani,Tana River County,Maralal,Samburu County,Busia County,Makutano,West Pokot County"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Karata",
@@ -5203,7 +5203,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Makueni Boma,Lugulu,Turkana County,Ongata Rongai,Kiserian,Kinoi"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Karachay-Balkar",
@@ -5212,7 +5212,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Cherkessk,Nalchik,Maykop,Stavropol,Krasnodar,Sochi,Gelendzhik,Tuapse,Anapa,Novorossiysk"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Kristang",
@@ -5221,7 +5221,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Malacca,Kuala Lumpur,Singapore,George Town,Johor Bahru,Ipoh,Kuching,Kota Kinabalu,Shah Alam,Malacca City"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Kuki Chin",
@@ -5230,7 +5230,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Yangon,Mandalay,Naypyidaw,Mawlamyine,Bago,Pathein,Monywa,Meiktila,Sittwe,Taunggyi"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Kuki Chin Naga",
@@ -5239,7 +5239,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Yangon,Mandalay,Naypyidaw,Mawlamyine,Bago,Pathein,Monywa,Meiktila,Sittwe,Taunggyi"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Kumyk",
@@ -5248,7 +5248,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Rajin,Musan-ŭp,Manp’o,Kyŏngsŏng,Kop’ung,Kilju,Kapsan-ŭp,Kanggye"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Kunduvadi",
@@ -5257,7 +5257,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Chennai,Coimbatore,Madurai,Tiruchirappalli,Salem,Tiruppur,Erode,Vellore,Tuticorin,Thanjavur"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Kuril Ainu",
@@ -5266,7 +5266,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Yuzhno-Kurilsk,Kurilsk,Severo-Kurilsk,Shikotan,Iturup,Kunashir,Paramushir,Onekotan,Simushir,Matua"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Kuril dialects",
@@ -5275,7 +5275,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Nangen,Namsa,Munsan,Mungyeong,Gyeongsan-si,Kwangyang"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Kurukh",
@@ -5284,7 +5284,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kurye,Guri-si,Kunwi,Gunsan,Kinzan,Goyang-si,Kyosai,Koesan"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Kuvi",
@@ -5293,7 +5293,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Koch'ang,Gimpo-si,Kimje,Kimhae,Gijang"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Bagvalal",
@@ -5302,7 +5302,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Makhachkala,Derbent,Kaspiysk,Buynaksk,Kizlyar,Hasavyurt,Tsumada,Karata,Akhvakh,Tindi"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Parkari Koli",
@@ -5311,7 +5311,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Karachi,Hyderabad,Sukkur,Larkana,Nawabshah,Khairpur,Mirpur Khas,Tharparkar,Umerkot,Jacobabad"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Kwoma-Manambu Pidgin",
@@ -5320,7 +5320,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ambunti,Angoram,Karawari,Wosera,Gawi,Yangoru,Sepik,Maprik,Wewak,Pagwi"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Kui (India)",
@@ -5329,7 +5329,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ḩawallī,As Sālimīyah,Ar Rumaythīyah,Ar Riqqah,Al Manqaf,Al Mahbūlah,Al Asimah,Al Jahra Governorate,Al Faḩāḩīl"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Kyakhta Russian-Chinese Pidgin",
@@ -5338,7 +5338,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Shalqar,Shalkar,Atyrau Oblisi,West Kazakhstan,East Kazakhstan"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Kyowa-go",
@@ -5347,7 +5347,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Kawasaki,Hiroshima"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Kewat",
@@ -5356,7 +5356,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Patna,Gaya,Muzaffarpur,Bhagalpur,Darbhanga,Purnia,Arrah,Begusarai,Munger,Chapra"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Kurmali",
@@ -5365,7 +5365,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ranchi,Jamshedpur,Dhanbad,Bokaro,Hazaribagh,Gumla,Simdega,Lohardaga,Chatra,Palamu"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Lachi",
@@ -5374,7 +5374,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ban Laongam,Salavan Province,Ban Kèngkok,Ban Houakhoua,Ban Khoan,Bekaa,North Lebanon,South Governorate,Chmistâr,Baalbek-Hermel Governorate"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Laha",
@@ -5383,7 +5383,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ra’s Bayrūt,Aarsâl,Habboûch,Bsharri,En Nâqoûra,Nabatîyé et Tahta,El Hermel,Ghazieh"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Lahu",
@@ -5392,7 +5392,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Aley,Saint Lucia,Gros-Islet,Liechtenstein,Southern Province,Northern Province,Eastern Province,Sabaragamuwa Province"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Lanping Bai dialect",
@@ -5401,7 +5401,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lijiang,Dali,Kunming,Qujing,Yuxi,Baoshan,Zhaotong,Pu'er,Lincang,Chuxiong"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Kurambhag Paharia",
@@ -5410,7 +5410,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ranchi,Jamshedpur,Dhanbad,Bokaro,Hazaribagh,Gumla,Simdega,Lohardaga,Chatra,Palamu"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Kurichiya",
@@ -5419,7 +5419,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Laayoune-Sakia El Hamra,Marrakesh-Safi,Beni Mellal-Khenifra,Zaïo,Oriental,Draa-Tafilalet"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Azd Dialect",
@@ -5428,7 +5428,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Souss-Massa,Tit Mellil,Casablanca-Settat,Tirhanimîne,Tanger-Tetouan-Al Hoceima,Rabat-Sale-Kenitra,Fes-Meknes"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Abkhaz",
@@ -5437,7 +5437,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Sukhumi,Gudauta,Gagra,Ochamchire,Tkvarcheli,Gali,Gulripshi,Bzyb,New Athos,Miusera"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Adyghe",
@@ -5446,7 +5446,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Maykop,Adygeysk,Tulsky,Krasnodar,Sochi,Gelendzhik,Tuapse,Anapa,Novorossiysk,Armavir"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Afro Seminole Creole",
@@ -5455,7 +5455,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Oklahoma City,Tulsa,Dallas,Houston,Austin,Fort Worth,San Antonio,El Paso,Lubbock,Midland"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Lao",
@@ -5464,7 +5464,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Vientiane,Luang Prabang,Savannakhet,Pakse,Thakhek,Xam Neua,Phonsavan,Bokeo,Oudomxay,Sainyabuli"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Kva",
@@ -5473,7 +5473,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Tbilisi,Kutaisi,Batumi,Rustavi,Gori,Poti,Zugdidi,Telavi,Marneuli,Bolnisi"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Kvx",
@@ -5482,7 +5482,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Kwoma Manambu Pidgin",
@@ -5491,7 +5491,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ambunti,Angoram,Karawari,Wosera,Gawi,Yangoru,Sepik,Maprik,Wewak,Pagwi"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Kxu",
@@ -5500,7 +5500,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "North Macedonia,Zhelino,Studenichani,Grad Skopje,Radovish"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Kyakhta Russian Chinese Pidgin",
@@ -5509,7 +5509,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ulan-Ude,Kyakhta,Irkutsk,Chita,Angarsk,Bratsk,Novokuznetsk,Krasnoyarsk,Tomsk,Barnaul,Omsk"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Kyowa Go",
@@ -5518,7 +5518,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Harbin,Changchun,Dalian,Shenyang,Jiamusi,Qiqihar,Mudanjiang,Jiutai,Shuangcheng,Acheng"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Kyv",
@@ -5527,7 +5527,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Tbilisi,Kutaisi,Batumi,Rustavi,Gori,Poti,Zugdidi,Telavi,Marneuli,Bolnisi"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Kyw",
@@ -5536,7 +5536,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kangaba,Kalaban Koro,Pèlèngana,Finnkolo,Fana,Dougabougou,Diourou"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Kzi",
@@ -5545,7 +5545,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bafoulabé,Andéranboukan,Dialakorodji,I-n-Tillit,Massiogo"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Laven",
@@ -5554,7 +5554,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Yawnghwe,Nyaungdon,Mandalay Region,Wundwin,Waw,Wakema,Twante,Taungoo,Thin Gan Kyun Gyi"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Lavi",
@@ -5563,7 +5563,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Thayetmyo,Tharyarwady,Thanhlyin,Thanatpin,Tanintharyi Region,Taungup,Rakhine,Taungdwingyi,Tatkon"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Laz",
@@ -5572,7 +5572,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Rize,Trabzon,Artvin,Hopa,Pazar,Ardeşen,Fındıklı,Arhavi,Batumi,Tbilisi"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Lak",
@@ -5581,7 +5581,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Makhachkala,Derbent,Kaspiysk,Buynaksk,Kizlyar,Hasavyurt,Tsumada,Karata,Akhvakh,Tindi"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Ladakhi",
@@ -5590,7 +5590,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Leh,Kargil,Padum,Dras,Nyoma,Hemis,Thiksey,Shey,Diskit,Chushul"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Lepcha",
@@ -5599,7 +5599,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Sinngu,Setsan,Set Ka Lay,Myenigon,Danai,Laukkai,Pauk Kone,Min Ga Lar Don Zay"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Levantine Arabic",
@@ -5608,7 +5608,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Damascus,Aleppo,Homs,Hama,Beirut,Amman,Jerusalem,Ramallah,Nablus,Latakia"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Lezgin",
@@ -5617,7 +5617,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Arkhangai Province,Selenge Province,Hentiy,Khoevsgoel Province,OEvoerhangay,Orhon,Central Aimak,Darhan Uul"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Lhomi",
@@ -5626,7 +5626,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "OEmnoegovi,East Aimak,East Gobi Aymag,Baruun-Urt,Suhbaatar,Arvayheer,Taipa,Macao,Our Lady of Carmo,Lai Chi Van"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Lingling",
@@ -5635,7 +5635,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Nouakchott West,Nouakchott North,Saint Anthony,Malta,Haz-Zabbar,Tas-Sliema,Saint Paul's Bay"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Lisu",
@@ -5644,7 +5644,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Il-Mosta,Plaines Wilhems,Pamplemousses,Grand Port,Riviere du Rempart,Flacq"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Yakkha",
@@ -5653,7 +5653,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Lalitpur,Bharatpur,Birgunj,Biratnagar,Dharan,Butwal,Nepalgunj,Janakpur"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Avar",
@@ -5662,7 +5662,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Zacualtipán,Zacatlán,Zacatepec,Yecapixtla,Yautepec,Xoxocotla,Xonacatlán,Xochitepec,Xochimilco,Xicotepec de Juárez"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Yerukala",
@@ -5671,7 +5671,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Xico,Santa Ana Xalmimilulco,Álvaro Obregón,Gustavo Adolfo Madero,Villaflores,Venustiano Carranza"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Levantine",
@@ -5680,7 +5680,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Túxpam de Rodríguez Cano,Tultitlán de Mariano Escobedo,Tultepec,Tulancingo,Tula de Allende,Santa Rosa Treinta,San Miguel Topilejo,San Bernardino Tlaxcalancingo,Tlaquiltenango"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Tibetan",
@@ -5689,7 +5689,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "San Miguel Ajusco,San Martin Texmelucan de Labastida,Teolocholco,San Juan Zitlaltepec,San Juan Ixtayopan,San Juan del Río"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Meitei",
@@ -5698,7 +5698,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Nuevo Laredo,Nogales,Nicolás Romero,Naucalpan de Juárez,Naranjos,Nanchital de Lázaro Cárdenas del Río,Motul,Motozintla,Montemorelos,Nuevo Leon"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Karenic",
@@ -5707,7 +5707,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Santiago Momoxpan,Mixquiahuala de Juarez,Miramar,Minatitlán,Milpa Alta,Miahuatlán de Porfirio Díaz,Matías Romero Avendaño,Heroica Matamoros"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Bai",
@@ -5716,7 +5716,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Mapastepec,Magdalena Contreras,Reyes Acozac,Los Reyes Acaquilpan,Los Reyes de Juárez,Libres,Lerma de Villada,Lerdo de Tejada,Las Rosas"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Tujia",
@@ -5725,7 +5725,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Las Margaritas,Las Choapas,Magdalena Atlicpac,La Isla,San Antonio de la Cal,Kanasín,Juchitepec,Heroica Ciudad de Juchitán de Zaragoza,José Cardel,Jojutla"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "West Himalayish",
@@ -5734,7 +5734,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Jiutepec,Jáltipan de Morelos,Jalpa de Méndez,Xalatlaco,Xalapa de Enríquez,Izúcar de Matamoros,Ixtapan de la Sal,Ixtapaluca,Iztapalapa"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Tamangic",
@@ -5743,7 +5743,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ixtaczoquitlán,Iztacalco,Villa Independencia,Iguala de la Independencia,Hunucmá,Huixtla,Ciudad de Huitzuco,Huimanguillo,Huejutla de Reyes"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Kiranti",
@@ -5752,7 +5752,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Lalitpur,Bharatpur,Birgunj,Biratnagar,Dharan,Butwal,Nepalgunj,Janakpur"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Qiangic",
@@ -5761,7 +5761,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Chengdu,Kangding,Litang,Batang,Xiangcheng,Dêgê,Sêrxü,Yajiang,Daocheng,Sêrtar"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Gyalrongic",
@@ -5770,7 +5770,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ciudad Serdán,Ciudad Sahagun,Ciudad Nezahualcoyotl,Ciudad Miguel Alemán,Ciudad Mendoza,Ciudad Madero,Ciudad Fernández,Ciudad del Carmen,Cintalapa de Figueroa"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Ersuic",
@@ -5779,7 +5779,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Chilpancingo,Chilapa de Álvarez,Chignahuapan,Chiconcuac,Chicoloapan"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Naic",
@@ -5788,7 +5788,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lijiang,Dali,Kunming,Qujing,Yuxi,Baoshan,Zhaotong,Pu'er,Lincang,Chuxiong"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Naga",
@@ -5797,7 +5797,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kohima,Dimapur,Mokokchung,Wokha,Zunheboto,Tuensang,Mon,Phek,Kiphire,Longleng"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Kuki-Chin",
@@ -5806,7 +5806,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Río de Teapa,Huamantla,La Magdalena Tlaltelulco,Zacatelco,Papalotla,Villa Vicente Guerrero,San Mateo Huitzilzingo,San Martín Cuautlalpan"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Jingpho-Luish",
@@ -5815,7 +5815,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Tulantongo,Tezoyuca,Tepexpan,Santa María Ajoloapan,Alto Lucero,Loma Bonita,San Andrés Cuexcontitlán,San Mateo Otzacatipan,San Pedro Totoltepec"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Arunachal",
@@ -5824,7 +5824,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Santa María Totoltepec,San Francisco Cuaxusco,Benito Juarez,Miguel Hidalgo,Cuauhtémoc,Huixquilucan,Melchor Ocampo,Huilango,Santiago Teyahualco,Ojo de Agua"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Gan",
@@ -5833,7 +5833,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Zapotiltic,Zapopan,Zamora de Hidalgo,Zacoalco de Torres,Zacapu,Yuriria,Guanajuato,Yurécuaro,Villa Hidalgo,Villagrán"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Min",
@@ -5842,7 +5842,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "El Pueblito,Ciudad de Villa de Álvarez,Valle de Santiago,Valle de Bravo,Uriangato,Tuzantla,Tuxpan"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Wu",
@@ -5851,7 +5851,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Tlaquepaque,Tlajomulco de Zúñiga,San Francisco Tesistán,Tequila,Tepatitlán de Morelos,Tepalcatepec,Teocaltiche,Tejupilco de Hidalgo,Técpan de Galeana"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Xiang",
@@ -5860,7 +5860,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Tecomán,Tecate,Tangancícuaro de Arista,Tamazula de Gordiano,Tacámbaro de Codallos,Soledad de Graciano Sánchez,Silao de la Victoria,Sayula,Santiago Papasquiaro"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Jin",
@@ -5869,7 +5869,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Santiago Ixcuintla,Santa Rosa Jáuregui,Santa Anita,San Sebastián el Grande,San Nicolás de los Garza,San Miguel el Alto,San Miguel de Allende,San Luis Río Colorado"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Hui",
@@ -5878,7 +5878,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "San Luis de la Paz,Cabo San Lucas,San Juan de los Lagos,San José Iturbide,San José del Castillo,San José del Cabo,San Francisco del Rincón,San Francisco de los Romo,Tlaltenango de Sánchez Román"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Pinghua",
@@ -5887,7 +5887,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "San Agustín,Salvatierra,Salinas de Hidalgo,Sahuayo de Morelos,Ciudad Sabinas Hidalgo,Sabinas,Romita"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Hakka",
@@ -5896,7 +5896,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Rincón de Romos,La Joya,Ramos Arizpe,Puruándiro,Purísima de Bustos,Purépero de Echáiz,Puerto Vallarta,Puerto Peñasco,Piedras Negras"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Magar",
@@ -5905,7 +5905,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Petatlán,Peribán de Ramos,Pénjamo,Parras de la Fuente,Paracho de Verduzco,Palaú,Pabellón de Arteaga,Ojinaga,Ocotlán,Nuevo México"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Kham",
@@ -5914,7 +5914,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Nuevo Casas Grandes,Nueva Rosita,Nueva Italia de Ruiz,Nochistlán de Mejía,Navolato,Nava,Moroleón,Monclova"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Bhujel",
@@ -5923,7 +5923,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Mezcales,Pedro Meoqui,Ciudad Melchor Múzquiz,Matehuala,Matamoros,Marfil,Maravatío de Ocampo,Rodolfo Sánchez Taboada"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Dhimal",
@@ -5932,7 +5932,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Jhapa,Morang,Sunsari,Dhankuta,Terhathum,Panchthar,Taplejung,Ilam,Bhojpur,Chitwan"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Toto",
@@ -5941,7 +5941,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Heroica Caborca,Heroica Guaymas,Guasave,Guamúchil,Guadalupe Victoria,Gómez Palacio,Vicente Guerrero,Juan José Ríos"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Miju-Meyor",
@@ -5950,7 +5950,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "El Grullo,Victoria de Durango,Coyula,Cortazar,Compostela"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Koro",
@@ -5959,7 +5959,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Itanagar,Ziro,Tawang,Bomdila,Rollen,Seppa,Daporijo,Along,Pasighat,Roing"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Idu-Taraon",
@@ -5968,7 +5968,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bucerías,Autlán de Navarro,Atoyac de Álvarez,Atotonilco el Alto,Ciudad de Armería,Ario de Rosales,Arcelia,Arandas,Ciudad Apodaca"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Zeme",
@@ -5977,7 +5977,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Apaseo el Grande,Apaseo el Alto,Ameca,Ciudad de Allende,Ahualulco de Mercado,Agua Prieta,Acámbaro,Abasolo"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Konyak",
@@ -5986,7 +5986,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Dolores Hidalgo,Las Guacamayas,Ciudad Lázaro Cárdenas,San José del Valle,Colonia del Valle,Colonia Lindavista,Colonia Nativitas,Las Delicias,Hacienda Santa Fe"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Tangkhulic",
@@ -5995,7 +5995,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Fuentes del Valle,San Salvador Tizatlalli,Jardines de la Silla,San Jerónimo Cuatro Vientos,San Martín Azcatepec,Fraccionamiento Real Palmas,Pórticos de San Antonio,Centro Familiar la Soledad,San José Guadalupe Otzacatipan"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Mru",
@@ -6004,7 +6004,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bandarban,Rangamati,Khagrachari,Cox's Bazar,Chittagong,Rajshahi,Sylhet,Dinajpur,Rangpur,Naogaon"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Karbi",
@@ -6013,7 +6013,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Diphu,Hamren,Donka,Bokajan,Howraghat,Phuloni,Manja,Rongkhang,Silonijan,Rongkhang"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Tshangla",
@@ -6022,7 +6022,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Thimphu,Punakha,Wangdue Phodrang,Trongsa,Bumthang,Mongar,Lhuentse,Trashigang,Samdrup Jongkhar,Gelephu"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Tani",
@@ -6031,7 +6031,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Masai,Gelang Patah,Pengerang,Yong Peng,Tangkak,Gerisek,Pagoh"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Basum",
@@ -6040,7 +6040,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bakri,Labis,Batang Berjuntai,Kapar,Cangkat Jong,Cukai,Terengganu,Val Dor"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Ole",
@@ -6049,7 +6049,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kertih,Lunas,Selama,Bandar Baharu,Bagan Serai,Padang Serai,Bedong"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Kho-Bwa",
@@ -6058,7 +6058,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kampung Kupang,Pulai,Kampung Jeli,Kelantan,Simpang Empat,Kamunting,Batu Kurau,Padang Rengas"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Songlin",
@@ -6067,7 +6067,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Chemor,Kampung Teluk Kemang,Negeri Sembilan,Kampung Ayer Keroh,Pelabuhan Klang"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Kathu",
@@ -6076,7 +6076,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Jenjarum,Sepang,Taman Senawang Indah,Rembau,Pekan"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Cai-Long",
@@ -6085,7 +6085,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Temerluh,Kampung Teluk Air Tawar,Batu Feringgi,Perai,Bukit Mertajam,Nibong Tebal,Parit Buntar,Kuala Kurau,Tasek Glugor"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Lolo-Burmese",
@@ -6094,7 +6094,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Balik Pulau,Bayan Lepas,Hulu Yam Lama,Serendah,Setapak,Ampang"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Loloish",
@@ -6103,7 +6103,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Hutan Melintang,Sungai Besar,Batu Gajah,Tapah Road,Parit,Lumut,Sitiawan"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Raji-Raute",
@@ -6112,7 +6112,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Perlis,Changloon,Jitra,Kuala Kedah,Pokok Sena,Wakaf Baharu"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Lhokpu",
@@ -6121,7 +6121,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Thimphu,Punakha,Wangdue Phodrang,Trongsa,Bumthang,Mongar,Lhuentse,Trashigang,Samdrup Jongkhar,Gelephu"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Mehri",
@@ -6130,7 +6130,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kampung Machap Baru,Kampung Kerubong,Kampong Kadok,Kampong Dungun,Kampung Cheng,Kampung Bukit Baharu,Kampung Baru Subang,Kampung Baharu Nilai,Kampong Baharu Cheras Batu Sebelas"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Khmer",
@@ -6139,7 +6139,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Phnom Penh,Siem Reap,Battambang,Sihanoukville,Kampong Cham,Kampot,Takeo,Kratie,Kampong Thom,Kampong Speu"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Hindi",
@@ -6148,7 +6148,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Mocímboa,Milange,Micolene,Marromeu,Maputo City"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Bengali",
@@ -6157,7 +6157,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Gombe State,Kwara State,Osun State,Ondo State,Imo State"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Punjabi",
@@ -6166,7 +6166,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kogi State,Oke Ila,Ekiti State,Ohafia-Ifigh,Ogwashi-Uku,Ogoja,Ogaminana"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Urdu",
@@ -6175,7 +6175,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ode,Obudu,Obonoma,Enugu State,Nkwerre,Nkpor"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Gujarati",
@@ -6184,7 +6184,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ahmedabad,Surat,Vadodara,Rajkot,Bhavnagar,Jamnagar,Gandhinagar,Junagath,Anand,Nadiad"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Sinhala",
@@ -6193,7 +6193,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lalupon,Lafiagi,Kumagunnam,Kiyawa,Jigawa State,Kaura Namoda"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Kurdish",
@@ -6202,7 +6202,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Erbil,Sulaymaniyah,Kirkuk,Duhok,Mosul,Halabja,Ranya,Chamchamal,Kifri,Darbandikhan"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Pashto",
@@ -6211,7 +6211,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kabul,Kandahar,Herat,Mazar-i-Sharif,Jalalabad,Peshawar,Quetta,Kunduz,Lashkargah,Taloqan"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Persian",
@@ -6220,7 +6220,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Tehran,Isfahan,Shiraz,Tabriz,Mashhad,Ahvaz,Kermanshah,Qom,Rasht,Hamadan"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Georgian",
@@ -6229,7 +6229,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Baro,Babana,Awgu,Atani,Aramoko-Ekiti,Apomu,Anchau"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Armenian",
@@ -6238,7 +6238,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Yerevan,Gyumri,Vanadzor,Abovyan,Hrazdan,Armavir,Masis,Kapan,Artashat,Spitak"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Kazakh",
@@ -6247,7 +6247,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Managua Department,Madriz Department,Chinandega Department,North Caribbean Coast,Carazo Department,Rivas Department,Matagalpa Department"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Uzbek",
@@ -6256,7 +6256,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "South Caribbean Coast,Nueva Segovia Department,Nandaime,Granada Department,Leon Department,Masaya Department,Chontales Department"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Kyrgyz",
@@ -6265,7 +6265,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bishkek,Osh,Jalal-Abad,Karakol,Tokmok,Naryn,At-Basy,Kant,Kara-Balta,Mayluu-Suu"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Uyghur",
@@ -6274,7 +6274,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Overijssel,Gelderland,Zevenaar,Zeist,Zeewolde,Flevoland,Zandvoort,North Holland,Zaltbommel,Zaandam"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Tajik",
@@ -6283,7 +6283,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Woerden,Wisch,Winterswijk,Winschoten,Wijk bij Duurstede,Wijchen,Wierden,Weesp,Limburg,Wassenaar"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Ingush",
@@ -6292,7 +6292,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Oosterhout,Ommoord,Oldenzaal,Oisterwijk,Oegstgeest,Nunspeet,Nuenen,Nootdorp,Noordwijk-Binnen,Nijverdal"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Ossetian",
@@ -6301,7 +6301,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Nijkerk,Nieuw-Vennep,Nieuwegein,Naarden,Naaldwijk,Mijdrecht,Middelharnis,Merenwijk,Meppel,Drenthe"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Turkmen",
@@ -6310,7 +6310,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Medemblik,Maassluis,Maarssen,Losser,Loon op Zand,Lisse,Lindenholt,Lichtenvoorde,Leusden"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Buryat",
@@ -6319,7 +6319,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "IJsselstein,IJmuiden,Huizen,Huissen,Hoorn,Hoogvliet,Hoogezand,Hoogeveen,Hoofddorp,Hoge Vucht"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Kashmiri",
@@ -6328,7 +6328,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Amsterdam-Zuidoost,Berkel en Rodenrijs,Ypenburg,Velserbroek,Maaspoort,Trondelag,Troms,Tromsdalen,Vestfold,Time"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Sindhi",
@@ -6337,7 +6337,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Rogaland,Stjørdalshalsen,Telemark,Ostfold,Porsgrunn,Nesttun,Vestland,Molde"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Balochi",
@@ -6346,7 +6346,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "More og Romsdal,Mo i Rana,Nordland,Lillestrøm,Akershus,Lillehammer,Innlandet,Levanger,Larvik,Kristiansund,Agder,Kongsberg"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Nogai",
@@ -6355,7 +6355,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Cherkessk,Nalchik,Maykop,Stavropol,Krasnodar,Sochi,Gelendzhik,Tuapse,Anapa,Novorossiysk"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Sundanese",
@@ -6364,7 +6364,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Massey,Rotorua,Upper Hutt,Hamilton East,Southeastern Governorate,Al Batinah North,Sufālat Samā’il,Ad Dakhiliyah"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Cebuano",
@@ -6373,7 +6373,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Qurayyāt,Musandam Governorate,Ad Dhahirah,Ibrā’,Northeastern Governorate,Bawshar,Barkā’,Al Batinah South"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Zhuang",
@@ -6382,7 +6382,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Santiago de Veraguas,Veraguas Province,San Miguelito,Sabanitas,Río Abajo,Penonomé,Cocle,Pedregal,Chiriqui Province,Parque Lefevre,Las Cumbres"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Kam-Sui",
@@ -6391,7 +6391,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "La Concepción,La Chorrera,La Cabima,Juan Díaz,El Chorrillo,David,Curundú,Chilibre,Bocas del Toro Province"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Kra",
@@ -6400,7 +6400,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Cativá,Arraiján,Ancón,Alcalde Díaz,Nuevo Belén,Virú,Uchiza,San Martin Department,Tocache"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Hlai",
@@ -6409,7 +6409,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Tingo María,Huanuco Department,Tambo Grande,Talara,Sullana,Sechura,Santiago de Cao,San Pedro de Lloc,Saña"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Shan",
@@ -6418,7 +6418,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Taunggyi,Lashio,Kengtung,Mongnai,Tachileik,Thibaw,Nyaungshwe,Mongnai,Shwebo,Kyaukme"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Athpahariya",
@@ -6427,7 +6427,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ilo,Huaura,Huarmey,Huaral,Huanta,Huancayo,Hualmay,Huacho"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Beary",
@@ -6436,7 +6436,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Mangalore,Udupi,Kundapura,Manjeshwar,Kasaragod,Puttur,Beltangady,Sullia,Moodbidri,Bantwal"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Sri Lankan Malay",
@@ -6445,7 +6445,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Colombo,Gampaha,Kalutara,Kandy,Galle,Matara,Anuradhapura,Polonnaruwa,Batticaloa,Trincomalee"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Gondi",
@@ -6454,7 +6454,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bhopal,Indore,Jabalpur,Gwalior,Ujjain,Sagar,Raipur,Bilaspur,Durg,Korba"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Kui-Kuvi Dravidian",
@@ -6463,7 +6463,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Zverevo,Rostov,Zvenigorod,Zlatoust,Zimovniki,Zhulebino,Zhukovsky,Zhukovka,Zhirnovsk,Zhigulëvsk"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Brunei Malay",
@@ -6472,7 +6472,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bandar Seri Begawan,Kuala Belait,Seria,Tutong,Bangar,Tanjung Bunut,Sengkurong,Lumut,Muara,Kianggeh"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Tungusic",
@@ -6481,7 +6481,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Mecca Region,Al Jawf Region,Unaizah,Al-Qassim Region,Sulţānah,Riyadh Region,Sayhāt,Şāmitah,Jazan Region,Sakakah"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Cocos Malay",
@@ -6490,7 +6490,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Şafwá,Şabyā,Rumāḩ,Raḩīmah,Rābigh,Qal‘at Bīshah,'Asir Region,Najran Region,Mahd adh Dhahab"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Kar",
@@ -6499,7 +6499,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Nang Rong,Nam Som,Nakhon Phanom,Nakhon Nayok,Nakhon Luang,Makkasan"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Japanese Bamboo English",
@@ -6508,7 +6508,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Erdek,Erbaa,Eminönü,Devrek,Derince,Çubuk,Çorlu,Çerkezköy"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Japanese Pidgin English",
@@ -6517,7 +6517,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Kawasaki,Hiroshima"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Korean Bamboo English",
@@ -6526,7 +6526,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bayburt Province,Bartin,Arnavutköy,Ardeşen,Ardahan,Araklı"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Thai Pidgin English",
@@ -6535,7 +6535,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Alaplı,Alaca,Akyurt,Akyazı,Akçakoca,Akçaabat,Adapazarı,Espiye,Merter Keresteciler,Güngören Merter"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Javanese",
@@ -6544,7 +6544,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Nyamuswa,Nyalikungu,Nyakabindi,Nsunga,Nshamba,Nguruka"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Ao Naga",
@@ -6553,7 +6553,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Mokokchung,Ungma,Longkhim,Chungtia,Alichen,Maongkimsen,Tuli,Changtongya,Longla,Merangmen"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Ao",
@@ -6562,7 +6562,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Isaka,Ipinda,Ilula,Ilongero,Ilembula,Ikwiriri,Ikungi,Igurusi"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Angami",
@@ -6571,7 +6571,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Igunga,Igugunu,Ifakara,Hedaru,Geiro,Galappo,Dongobesh,Dareda"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Lotha Naga",
@@ -6580,7 +6580,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Chimala,Chato,Chanika,Chalinze,Chala,Chake Chake,Bungu"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Daman Creole",
@@ -6589,7 +6589,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Avdiyivka,Bakhmut,Armyansk,Apostolove,Antratsyt,Amvrosiivka,Alushta,Alchevsk,Okhtyrka,Horishni Plavni"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Daman and Diu Portuguese Creole",
@@ -6598,7 +6598,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Saltivka,Zhuravlivka,Pivnichna Saltivka,Slavutych,Pivdennoukrainsk,Varash,Svyatopetrivske,Novoyavorivs'k,Obolon,Cheremushky"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Diu Creole",
@@ -6607,7 +6607,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Molodizhne,Demiyivka,Borshchahivka,Reni,Avtozavodskyi,Oleksiyivka,Knyahynyn,Sofiivska Borschahivka,Holosiyiv,Pechersk"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Korlai Creole",
@@ -6616,7 +6616,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Svyatoshyn,Dniprovskyi,Desna,Solomyansk,Shevchenkivskyi,Zhulyany,Fortechnyi,Podilskyi,Novyi Lviv,Bohodukhivskyi"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Sao Nicolau Creole",
@@ -6625,7 +6625,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Yuzivskyi,Kalynivskyi,Kyivskyi,Rutchenkivskyi,Bosse,Oleksandrivskyi,Chumakivskyi,Tekstylnyk,Shevchenko"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Sao Vicente Creole",
@@ -6634,7 +6634,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Rayon KTZ,Pravyi Bereh,Nyvky,Pozniaky,Darnytsya,Berezniaky,Voskresenka,Stare Misto,Lypky,Vynohradar"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Santo Antao Creole",
@@ -6643,7 +6643,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Teremky,Vidradnyi,Chokolivka,Darnytskyi Masyv,Rayduzhnyi Masyv,Vyshhorodskyi Masyv,Mostytskyi Masyv,Syrets,Kurenivka,Tatarka"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Indo-Portuguese",
@@ -6652,7 +6652,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Shulyavka,Galagany,Lukyanivka,Mykilska Borshchahivka,Kharkivskyi Masyv,Pivnichni Osokorky,Klov,Zvirynets,Kybalchych,Pivnichno-Brovarskyi Masyv"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Indo-Portuguese Creole of Bombay",
@@ -6661,7 +6661,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Rusanivka,Saperna Slobidka,Minskyi Masyv,Smolyanskyi,Tsentralno-Miskyi,Khanzhonkivskyi,Hruzkyi,Hirnytskyi,Berestovskyi,Verhunskyi"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Karipºna French Creole",
@@ -6670,7 +6670,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Vilkhivskyi,Kamyanobridskyi,Kovpakivskyi,Zarichnyi,Kindrativskyi,Mykytivskyi,Tsentralnyi,Kalmiuskyi,Livoberezhnyi"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Réunion Creole",
@@ -6679,7 +6679,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Prymorskyi,Desnyanskyi,Novozavodskyi,Hladkivka,Korolyov,Rakove,Nyzhnya Telychka,Eastern Region"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Caribbean English Creole",
@@ -6688,7 +6688,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kingston,Port of Spain,Bridgetown,Nassau,Georgetown,Castries,St. John's,Roseau,Port-au-Prince,Santo Domingo"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Pacific English Creole",
@@ -6697,7 +6697,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Port Moresby,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Malay-based Creole",
@@ -6706,7 +6706,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kiziba,Kireka,Kinoni,Kikube,Kihihi,Kigumba,Kiboga,Katoke"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Iu Mien",
@@ -6715,7 +6715,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Faribault,Fridley,Golden Valley,Ham Lake,Inver Grove Heights,Lakeville,Lino Lakes"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Hruso",
@@ -6724,7 +6724,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Itanagar,Naharlagun,Pasighat,Roing,Tezu,Changlang,Miao,Namsai,Khonsa,Longding"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Ancient North Arabian",
@@ -6733,7 +6733,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bay Shore,Baychester,Bayside,Bellmore,Bensonhurst,Bethpage,Binghamton,Borough Park,Brighton Beach"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Andalusi Arabic",
@@ -6742,7 +6742,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "The Bronx,Brooklyn,Brooklyn Heights,Bushwick,Cambria Heights,Canarsie,Centereach,Central Islip,Cheektowaga"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Arabic (Gulf)",
@@ -6751,7 +6751,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Rhawnhurst,State College,Tacony,Upper Saint Clair,West Mifflin,West Oak Lane,Whitehall Township,Wilkes-Barre,Wilkinsburg"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Malayalam",
@@ -6760,7 +6760,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Avocado Heights,Azusa,Bakersfield,Baldwin Park,Banning,Barstow,Barstow Heights,Bay Point,Bell"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Marathi",
@@ -6769,7 +6769,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bell Gardens,Bellflower,Benicia,Beverly Hills,Blythe,Bostonia,Boyle Heights,Brawley,Brea"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Korean",
@@ -6778,7 +6778,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Buena Park,Burlingame,Calabasas,Calexico,Camarillo,Cameron Park"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Thai",
@@ -6787,7 +6787,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bangkok,Chiang Mai,Chiang Rai,Phuket,Hat Yai,Nakhon Ratchasima,Udon Thani,Pattaya,Surat Thani,Khon Kaen"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Bahing/Bayung",
@@ -6796,7 +6796,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Okhaldhunga,Solukhumbu,Khotang,Bhojpur,Dhankuta,Terhathum,Panchthar,Ilam,Taplejung,Sankhuwasabha"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Ahirani",
@@ -6805,7 +6805,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Dhule,Jalgaon,Nandurbar,Nashik,Aurangabad,Chalisgaon,Malegaon,Amalner,Parola,Dondaicha"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Ai Cham",
@@ -6814,7 +6814,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Phnom Penh,Siem Reap,Battambang,Kampong Cham,Takeo,Kampot,Chau Doc,Tay Ninh,An Giang,Ninh Thuan"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Manchu",
@@ -6823,7 +6823,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Monterey,Monterey Park,Moorpark,Moraga,Moreno Valley,Morgan Hill,Mountain View,Murrieta,National City"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Burmese",
@@ -6832,7 +6832,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Yangon,Mandalay,Naypyidaw,Mawlamyine,Bago,Pathein,Monywa,Meiktila,Sittwe,Taunggyi"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Newar",
@@ -6841,7 +6841,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Rosamond,Rosemead,Rosemont,Rowland Heights,Rubidoux,San Bruno,San Dimas"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Tamil",
@@ -6850,7 +6850,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Whittier,Wildomar,Willowbrook,Winnetka,Winter Gardens,Woodland,Woodland Hills,Yorba Linda"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Nepali",
@@ -6859,7 +6859,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Yuba City,Yucaipa,Yucca Valley,Arvada,Broomfield,Cañon City,Castle Rock,Castlewood,Centennial"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Xibe",
@@ -6868,7 +6868,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Haqqulobod,Kosonsoy,Jizzax,Iskandar,Qorasuv,Hazorasp,Gurlan,Guliston,G’ijduvon Shahri,G‘azalkent"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Nanai",
@@ -6877,7 +6877,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "G’allaorol Shahri,Gagarin Shahri,Jalolquduq,Do’stlik Shahri,Druzhba,Dardoq,Chust,Chinoz,Chinobod"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Evenki",
@@ -6886,7 +6886,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Chilanzar,Sergeli,Chortoq,Bo‘ka,Beshariq,Bektemir,Bekobod,Andijon,Oltiariq"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Oroqen",
@@ -6895,7 +6895,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Oyim,Quva,Sultonobod,Vatican City,Holy See (Vatican City State),Saint Vincent and the Grenadines,Venezuela,Bolivarian Republic of,La Asunción,Anaco,Anzoategui,Alto Barinas"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "A'Tong",
@@ -6922,7 +6922,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bolaven,Sekong,Lao Ngarm,Champasak,Khongsedone,Pakse,Tad Lo,Luansang,Lamam,Tai Oy,Toumlane,Attapeu,Salavan,Vapy,Ban Houay Houn,Sa Mouay,Lakhonepheng,Xe Sap,Thakhek,Katarn,Houayxay,Dong Hua Sao,Savannakhet"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Alchuka",
@@ -6985,7 +6985,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Alor Setar,Pontian,Kulai,Kuala Lumpur,Malacca City,Jasin,Ipoh,Melaka Tengah,Kluang,Penang,Johor Bahru,Alor Gajah,Kuantan,Kangar,Batu Pahat,Singapore,Seremban,Muar,George Town,Segamat"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Bagheli",
@@ -7075,7 +7075,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Senen,Bekasi,Bogor,Kebayoran,Tanjung Priok,Duren Sawit,Cengkareng,Cempaka Putih,Kemayoran,Tangerang,Menteng,Ciracas,Depok,Pasar Minggu,Pesanggrahan,Gambir,Cakung,Jagakarsa,Cilandak,Jakarta"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Bhojpuri",
@@ -7165,7 +7165,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Tai Oy,Dong Hua Sao,Sekong,Bolaven,Luansang,Ban Houay Houn,Katarn,Khongsedone,Vapy,Lao Ngarm,Xe Sap,Lakhonepheng,Attapeu,Toumlane,Tad Lo,Houayxay,Sa Mouay,Savannakhet,Pakse,Lamam,Thakhek,Salavan,Champasak"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Classical Tibetan",
@@ -7354,7 +7354,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Sekong,Vapy,Savannakhet,Champasak,Bolaven,Tad Lo,Lamam,Khongsedone,Toumlane,Attapeu,Pakse,Lakhonepheng,Thakhek,Dong Hua Sao,Sa Mouay,Houayxay,Lao Ngarm,Tai Oy,Luansang,Xe Sap,Salavan,Katarn,Ban Houay Houn"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Halbi",
@@ -7444,7 +7444,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Khongsedone,Pakse,Tai Oy,Champasak,Ban Houay Houn,Houayxay,Tad Lo,Xe Sap,Katarn,Salavan,Attapeu,Dong Hua Sao,Sekong,Lamam,Vapy,Thakhek,Sa Mouay,Savannakhet,Lao Ngarm,Bolaven,Luansang,Toumlane,Lakhonepheng"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Hyolmo (Yolmo)",
@@ -7489,7 +7489,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Toyama,Sendai,Nagoya,Matsumoto,Kumamoto,Nagano,Sagamihara,Sapporo,Kyoto,Osaka,Kobe,Tokyo,Kanazawa,Sakai,Saitama,Niigata,Chiba,Shizuoka,Fukuoka,Kawasaki,Nara,Hiroshima,Yokohama,Okayama,Hamamatsu"
+  "b": "Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Kawasaki,Hiroshima,Sendai,Kitakyushu,Chiba,Sakai,Niigata,Okayama,Kumamoto,Kagoshima,Shizuoka,Hamamatsu,Matsuyama,Utsunomiya,Toyohashi,Kanazawa,Nagasaki,Gifu"
 },
 {
     "name": "Jarawa",
@@ -7507,7 +7507,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Tad Lo,Houayxay,Thakhek,Sa Mouay,Pakse,Lao Ngarm,Khongsedone,Salavan,Sekong,Champasak,Xe Sap,Luansang,Lamam,Vapy,Bolaven,Dong Hua Sao,Ban Houay Houn,Lakhonepheng,Savannakhet,Toumlane,Katarn,Tai Oy,Attapeu"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Jiamao",
@@ -7543,7 +7543,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lakhonepheng,Luansang,Bolaven,Champasak,Tad Lo,Toumlane,Houayxay,Thakhek,Lao Ngarm,Ban Houay Houn,Attapeu,Pakse,Vapy,Tai Oy,Sa Mouay,Khongsedone,Katarn,Savannakhet,Xe Sap,Salavan,Sekong,Dong Hua Sao,Lamam"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Jumli",
@@ -7570,7 +7570,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Toumlane,Ban Houay Houn,Attapeu,Houayxay,Vapy,Sa Mouay,Lao Ngarm,Tad Lo,Tai Oy,Thakhek,Bolaven,Salavan,Sekong,Khongsedone,Xe Sap,Lakhonepheng,Lamam,Savannakhet,Pakse,Katarn,Luansang,Champasak,Dong Hua Sao"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Kadar",
@@ -7660,7 +7660,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "An Khe,Chu Se,Dak Doa,Mang Yang,Bao Lac,Pleiku,Chu Pah,Dak Plo,Dalat,Song Mao,Phan Rang,Ayun Pa,Da Lat,Dak Hrin,Krung Tra,Phu Tuc,Quy Nhon,Buon Ma Thuot,Dak Song,Tra Thu,Phan Thiet,Kon Tum,Kahet,Nha Trang"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Katua",
@@ -7669,7 +7669,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Luansang,Sekong,Khongsedone,Salavan,Houayxay,Thakhek,Vapy,Bolaven,Lakhonepheng,Attapeu,Sa Mouay,Dong Hua Sao,Champasak,Pakse,Tai Oy,Savannakhet,Toumlane,Xe Sap,Tad Lo,Ban Houay Houn,Katarn,Lamam,Lao Ngarm"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Kayong",
@@ -7678,7 +7678,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Sekong,Bolaven,Vapy,Dong Hua Sao,Lao Ngarm,Tai Oy,Lamam,Thakhek,Katarn,Khongsedone,Champasak,Houayxay,Toumlane,Salavan,Lakhonepheng,Ban Houay Houn,Attapeu,Savannakhet,Pakse,Tad Lo,Xe Sap,Sa Mouay,Luansang"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Kewarat",
@@ -7804,7 +7804,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Mukdahan,Nakhon Phanom,Sakon Nakhon,Kalasin,Khammouane,Savannakhet,Salavan,Champasak,Hoa Binh,Nghe An,Ha Tinh,Amnat Charoen,Yasothon,Roi Et,Udon Thani"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Larantuka Malay",
@@ -7813,7 +7813,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Larantuka,Ende,Konga,Wure,Lewotobi,Maumere,Bajawa,Sikka,Flores Timur,Adonara,Solor,Lembata,Pantar,Alor,Manggarai"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Lasi",
@@ -7822,7 +7822,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Karachi,Hyderabad,Larkana,Sukkur,Quetta,Gwadar,Turbat,Khuzdar,Sibi,Dadu,Nawabshah,Jacobabad,Shikarpur,Ghotki,Pishin"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Lhowa (Lhopa)",
@@ -7831,7 +7831,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lo Manthang,Jomsom,Marpha,Tukuche,Kagbeni,Muktinath,Chhusang,Ghiling,Samar,Ghami,Bahragaun,Chhoyo,Dhi,Jharkot,Phalyak"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Loarki",
@@ -7840,7 +7840,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Jodhpur,Bikaner,Jaisalmer,Barmer,Pali,Nagaur,Sikar,Churu,Fatehpur,Jhunjhunu,Merta,Phalodi,Balotra,Sanchor,Siwana"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Longsang Zhuang",
@@ -7849,7 +7849,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Debao,Jingxi,Napo,Longsang,Tiandeng,Daxin,Chongzuo,Ningming,Longzhou,Pingxiang,Baise,Yunnan,Funing,Malipo,Guangnan"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Lower Uda Buryat",
@@ -7858,7 +7858,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Nizhneudinsk,Kushun,Mungutubuluk,Irkutsk,Ust-Orda,Tulun,Kultuk,Slyudyanka,Baykalsk,Angarsk,Usolye,Cheremkhovo,Zima,Taishet,Bratsk"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Macro-Zhuang",
@@ -7867,7 +7867,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Nanning,Wuming,Yongning,Fusui,Longan,Jinzhou,Shangse,Chongzuo,Jingxi,Debao,Napo,Daxin,Tiandeng,Ningming,Longzhou"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Madiya",
@@ -7876,7 +7876,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Chandrapur,Gadchiroli,Nagpur,Bhandara,Gondia,Rajnandgaon,Kanker,Balaghat,Mandla,Seoni,Chhindwara,Betul,Harda,Buldhana,Wardha"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Magahi",
@@ -7885,7 +7885,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Patna,Gaya,Nalanda,Jehanabad,Arwal,Aurangabad,Lakhisarai,Sheikhpura,Nawada,Jamui,Banka,Munger,Bhagalpur,Hazaribagh,Bokaro"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Magar (Dhut)",
@@ -7894,7 +7894,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Palpa,Syangja,Tanahu,Gorkha,Parbat,Baglung,Nawalparasi,Kapilvastu,Dhading,Sindhuli,Okhaldhunga,Udayapur,Dhankuta,Bhojpur,Ilam"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Magar Kham",
@@ -7903,7 +7903,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Rolpa,East Rukum,West Rukum,Baglung,Pyuthan,Salyan,Dailekh,Jajarkot,Surkhet,Dolpa,Humla,Jumla,Kalikot,Mugu,Bajura"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Maithili",
@@ -7912,7 +7912,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Darbhanga,Madhubani,Sitamarhi,Saharsa,Supaul,Purnia,Katihar,Araria,Kishanganj,Muzaffarpur,Vaishali,Samastipur,Begusarai,Khagaria,Janakpur"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Majhi",
@@ -7921,7 +7921,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ramechhap,Dolakha,Kavrepalanchok,Khotang,Okhaldhunga,Udayapur,Sindhuli,Sunsari,Morang,Jhapa,Ilam,Panchthar,Terhathum,Bhojpur,Dhankuta"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Mak Kam Sui",
@@ -7930,7 +7930,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Libo,Dushan,Duyun,Sandu,Rongjiang,Congjiang,Liping,Jinping,Tongdao,Xinning,Chengbu,Wugang,Longhui,Suining,Huitong"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Mala Malasar",
@@ -7939,7 +7939,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Coimbatore,Tiruppur,Erode,Palakkad,Thrissur,Mannarkkad,Attapadi,Nilgiris,Dindigul,Karur,Pollachi,Udumalaipettai,Valparai,Anaimalai,Velliangiri"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Malankuravan",
@@ -7948,7 +7948,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kollam,Thiruvananthapuram,Kanyakumari,Tirunelveli,Nagercoil,Palakkad,Malappuram,Wayanad,Idukki,Pathanamthitta,Alappuzha,Kottayam,Ernakulam,Thrissur,Kasaragod"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Malapandaram",
@@ -7957,7 +7957,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kanyakumari,Tirunelveli,Nagercoil,Kollam,Thiruvananthapuram,Idukki,Wayanad,Palakkad,Pathanamthitta,Kottayam,Ernakulam,Malappuram,Thrissur,Kasaragod,Dindigul"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Malasar",
@@ -7966,7 +7966,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Palakkad,Thrissur,Coimbatore,Erode,Nilgiris,Parambikulam,Anaimalai,Nelliampathi,Kollengode,Nemmara,Chittoor,Malai,Velliangiri,Poondi,Mallung"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Malpande",
@@ -7975,7 +7975,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Malto",
@@ -7984,7 +7984,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Dumka,Godda,Sahebganj,Pakur,Deoghar,Giridih,Hazaribagh,Bokaro,Ranchi,Chatra,Palamu,Latehar,Gumla,Lohardaga,Simdega"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Malvi",
@@ -7993,7 +7993,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ujjain,Indore,Dhar,Ratlam,Mandsaur,Neemuch,Rajgarh,Shajapur,Agar Malwa,Jhalawar,Kota,Bundi,Baran,Chittorgarh,Pratapgarh"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Manda",
@@ -8002,7 +8002,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Balesore,Mayurbhanj,Jharsuguda,Sundargarh,Keonjhar,Sambalpur,Angul,Dhenkanal,Cuttack,Kendrapara,Jagatsinghpur,Puri,Khordha,Nayagarh,Ganjam"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Mangghuer",
@@ -8011,7 +8011,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Minhe,Huzhu,Datong,Ledu,Pingan,Hualong,Xunhua,Jishishan,Linxia,Hezheng,Kangle,Yongjing,Guanghe,Zhengdie,Fengxiang"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Manglish",
@@ -8020,7 +8020,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kuala Lumpur,Penang,Johor Bahru,Ipoh,Malacca,Kota Kinabalu,Kuching,Shah Alam,Petaling Jaya,Klang,Seremban,Kuantan,Alor Setar,Kota Bharu,Kuala Terengganu"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Mankiyali",
@@ -8029,7 +8029,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Abbottabad,Mansehra,Haripur,Battagram,Kohistan,Torghar,Havelian,Murree,Muzaffarabad,Hattian,Bagh,Poonch,Bhimber,Kotli,Mirpur"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Maonan",
@@ -8038,7 +8038,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Huanjiang,Dahua,Yizhou,Luocheng,Nandan,Tiane,Duan,Hechi,Du'an,Shangsi,Leye,Lingyun,Fengshan,Tianlin,Bama"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Mara",
@@ -8047,7 +8047,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Siaha,Lunglei,Champhai,Serchhip,Lawngtlai,Aizawl,Hakha,Falam,Tedim,Tonzang,Paletwa,Matupi,Mindat,Kanpetlet,Rih"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Marwari",
@@ -8056,7 +8056,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Jodhpur,Jaipur,Jaisalmer,Bikaner,Udaipur,Ajmer,Kota,Alwar,Bharatpur,Bhilwara,Pali,Sikar,Churu,Ganganagar,Nagaur"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Maumere Malay",
@@ -8065,7 +8065,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Maumere,Ende,Larantuka,Bajawa,Ruteng,Bima,Sumbawa,Flores,Sikka,Nagekeo,Manggarai,Ngada,Flores Timur,Lembata,Ende"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Megam",
@@ -8074,7 +8074,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Tura,Williamnagar,Baghmara,Resubelpara,Mendipathar,Kharkutta,Dalu,Rongjeng,Ampati,Selsella,Phulbari,Rajabala,Gasuapara,Zikzak,Betasing"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Mel-Khaonh",
@@ -8083,7 +8083,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kon Tum,Pleiku,Buon Ma Thuot,Da Lat,Nha Trang,Phan Rang,Phan Thiet,Dalat,Banmethuot,Gia Lai,Dak Lak,Lam Dong,Binh Dinh,Khanh Hoa,Ninh Thuan"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Memoni",
@@ -8092,7 +8092,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Karachi,Hyderabad,Thatta,Badin,Tharparkar,Umerkot,Mirpur Khas,Sanghar,Nawabshah,Tando Allahyar,Tando Muhammad Khan,Matiari,Hala,Naushahro Feroze,Khairpur"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Mewari",
@@ -8101,7 +8101,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Udaipur,Chittorgarh,Rajsamand,Bhilwara,Pratapgarh,Banswara,Dungarpur,Sirohi,Pali,Jalore,Barmer,Jodhpur,Nagaur,Ajmer,Jaipur"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Mewati",
@@ -8110,7 +8110,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Alwar,Bharatpur,Dausa,Karauli,Sawai Madhopur,Gurgaon,Rewari,Mahendragarh,Nuh,Palwal,Faridabad,Mathura,Agra,Firozabad,Etah"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Middle Mongol",
@@ -8119,7 +8119,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ulaanbaatar,Karakorum,Hohhot,Hailar,Manzhouli,Xilinhot,Chifeng,Tongliao,Ulanhot,Arxan,Erenhot,Duolun,Shangdu,Yingchang,Dadu"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Min Zhuang",
@@ -8128,7 +8128,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Wenshan,Malipo,Guibian,Yanshan,Guangnan,Qiubei,Funing,Xichou,Maguan,Jianshui,Gejiu,Kaiyuan,Mengzi,Luxi,Yiliang"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Mnong",
@@ -8137,7 +8137,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Buon Ma Thuot,Gia Nghia,Dak Mil,Dak Rlap,Krong Pac,Ea Kar,Mdrang Phok,Buon Ho,Krong Buk,Krong Nang,Ea Hleo,Krana,Lak,Dak Lak,Binh Phuoc"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Moghol / Mogholi",
@@ -8146,7 +8146,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Herat,Ghor,Balkh,Kunduz,Baghlan,Samangan,Sar-e Pol,Jowzjan,Faryab,Badghis,Farah,Nimruz,Helmand,Kandahar,Zabul"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Mogholi",
@@ -8155,7 +8155,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Herat,Ghor,Balkh,Kunduz,Baghlan,Samangan,Sar-e Pol,Jowzjan,Faryab,Badghis,Farah,Nimruz,Helmand,Kandahar,Zabul"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Mongghul",
@@ -8164,7 +8164,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Huzhu,Minhe,Datong,Ledu,Pingan,Hualong,Xunhua,Jishishan,Linxia,Hezheng,Kangle,Yongjing,Guanghe,Zhengdie,Fengxiang"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Mongghuor",
@@ -8173,7 +8173,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Huzhu,Minhe,Datong,Ledu,Pingan,Hualong,Xunhua,Jishishan,Linxia,Hezheng,Kangle,Yongjing,Guanghe,Zhengdie,Fengxiang"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Monguor",
@@ -8182,7 +8182,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Huzhu,Minhe,Datong,Ledu,Pingan,Hualong,Xunhua,Jishishan,Linxia,Hezheng,Kangle,Yongjing,Guanghe,Zhengdie,Fengxiang"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Monom",
@@ -8191,7 +8191,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kon Tum,Pleiku,Buon Ma Thuot,An Khe,Ayun Pa,Chu Pah,Chu Se,Dak Doa,Dak Po,Gia Lai,Ia Grai,Kbang,Krong Pa,Mang Yang,Phu Tuc"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Moyfaw",
@@ -8200,7 +8200,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Savannakhet,Khammouane,Bolikhamxai,Vientiane,Luang Prabang,Xiangkhouang,Houaphan,Phongsali,Luang Namtha,Bokeo,Oudomxai,Sainyabuli,Xaisomboun,Attapeu,Sekong"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Muduga",
@@ -8209,7 +8209,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Nilgiris,Coimbatore,Palakkad,Wayanad,Malappuram,Thrissur,Erode,Dindigul,Theni,Idukki,Kannur,Kasaragod,Kozhikode,Kottayam,Pathanamthitta"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Mugom–Karmarong",
@@ -8218,7 +8218,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Dolpa,Mugu,Jumla,Humla,Kalikot,Bajura,Bajhang,Darchula,Baitadi,Dadeldhura,Doti,Achham,Surkhet,Dailekh,Jajarkot"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Mullu Kurumba",
@@ -8227,7 +8227,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Nilgiris,Wayanad,Malappuram,Palakkad,Kozhikode,Coimbatore,Erode,Dindigul,Theni,Idukki,Thrissur,Kannur,Kasaragod,Kottayam,Pathanamthitta"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Mundari",
@@ -8236,7 +8236,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ranchi,Khunti,Gumla,Lohardaga,Simdega,West Singhbhum,East Singhbhum,Saraikela,Jamshedpur,Chaibasa,Chakradharpur,Noamundi,Jagannathpur,Kolebira,Bano"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Muong",
@@ -8245,7 +8245,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Hoa Binh,Thanh Hoa,Ninh Binh,Phu Tho,Son La,Dien Bien,Lai Chau,Yen Bai,Tuyen Quang,Bac Kan,Thai Nguyen,Vinh Phuc,Ha Nam,Nam Dinh,Ninh Binh"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Muria",
@@ -8254,7 +8254,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kanker,Narayanpur,Bijapur,Dantewada,Bastar,Kondagaon,Kabirdham,Rajnandgaon,Gadchiroli,Chandrapur,Balaghat,Mandla,Dindori,Seoni,Chhindwara"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Muthuvan",
@@ -8263,7 +8263,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Idukki,Ernakulam,Kottayam,Pathanamthitta,Wayanad,Palakkad,Thrissur,Coimbatore,Dindigul,Theni,Nilgiris,Kannur,Kasaragod,Malappuram,Kozhikode"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Myang Zhuang",
@@ -8272,7 +8272,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Debao,Jingxi,Napo,Longsang,Tiandeng,Daxin,Chongzuo,Ningming,Longzhou,Pingxiang,Baise,Yunnan,Funing,Malipo,Guangnan"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Mymensinghi Bengali",
@@ -8281,7 +8281,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Mymensingh,Netrokona,Jamalpur,Sherpur,Kishoreganj,Narsingdi,Gazipur,Tangail,Manikganj,Munshiganj,Dhaka,Narayanganj,Faridpur,Gopalganj,Madaripur"
+  "b": "Mymensingh,Dhaka,Chittagong,Rajshahi,Khulna,Sylhet,Barisal,Rangpur,Comilla,Bogra,Jessore,Dinajpur,Brahmanbaria,Tangail,Narsingdi,Gazipur,Narayanganj,Kushtia,Faridpur,Noakhali,Pabna,Jamalpur,Sherpur,Netrokona,Kishoreganj,Manikganj,Munshiganj"
 },
 {
     "name": "Nachhiring",
@@ -8290,7 +8290,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Khotang,Bhojpur,Dhankuta,Terhathum,Panchthar,Ilam,Jhapa,Morang,Sunsari,Udayapur,Okhaldhunga,Solukhumbu,Sankhuwasabha,Taplejung,Sindhuli"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Nagpuri",
@@ -8299,7 +8299,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ranchi,Gumla,Lohardaga,Simdega,West Singhbhum,East Singhbhum,Saraikela,Hazaribagh,Ramgarh,Bokaro,Dhanbad,Giridih,Koderma,Chatra,Palamu"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Naiki",
@@ -8308,7 +8308,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Nanded,Yavatmal,Wardha,Chandrapur,Gadchiroli,Nagpur,Bhandara,Gondia,Amravati,Akola,Buldhana,Washim,Hingoli,Parbhani,Beed"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Nanaic",
@@ -8317,7 +8317,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Khabarovsk,Vladivostok,Ussuriysk,Nakhodka,Dalnegorsk,Lesozavodsk,Spassk-Dalny,Artyom,Bolshoy Kamen,Fokino,Partizansk,Luchegorsk,Dalnerechensk,Bikin,Terney"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Nantoq Baoan",
@@ -8326,7 +8326,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Jishishan,Linxia,Hezheng,Kangle,Yongjing,Guanghe,Zhengdie,Fengxiang,Xunhua,Hualong,Minhe,Huzhu,Datong,Ledu,Pingan"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Nar Phu",
@@ -8335,7 +8335,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Manang,Nar,Phu,Koto,Chame,Pisang,Braga,Gyaru,Nyak,Humde,Khangsar,Thanchok,Dharapani,Bagarchhap,Chulu"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Negidal",
@@ -8344,7 +8344,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Khabarovsk,Nikolayevsk,Tugur,Chumikan,Ayan,Okhotsk,Evensk,Magadan,Ola,Palatka,Bogorodskoye,Imeni Poliny Osipenko,Tyr,Ulchskiy,Nanaiski"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Nepalese English",
@@ -8353,7 +8353,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha"
+  "b": "Kathmandu,Pokhara,Lalitpur,Bharatpur,Birgunj,Biratnagar,Dharan,Butwal,Nepalgunj,Janakpur,Dhangadhi,Hetauda,Bhimdatta,Ilam,Dhankuta,Sindhuli,Surkhet,Dang,Parbat,Bhojpur,Solukhumbu,Dolakha,Mugu,Humla,Jumla"
 },
 {
     "name": "Nihali",
@@ -8362,7 +8362,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Buldhana,Akola,Amravati,Jalgaon,Dhule,Nandurbar,Nashik,Ahmednagar,Pune,Satara,Sangli,Solapur,Osmanabad,Latur,Beed"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Nimadi",
@@ -8371,7 +8371,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Dewas,Shajapur,Agar Malwa,Rajgarh,Sehore,Raisen,Vidisha,Bhopal,Guna,Ashoknagar,Shivpuri,Datia,Gwalior,Morena,Bhind"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Noakhailla",
@@ -8380,7 +8380,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Noakhali,Feni,Lakshmipur,Chandpur,Comilla,Brahmanbaria,Munshiganj,Narayanganj,Gazipur,Narsingdi,Shariatpur,Madaripur,Faridpur,Gopalganj,Barisal"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Nong Zhuang",
@@ -8389,7 +8389,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Jingxi,Debao,Napo,Longsang,Tiandeng,Daxin,Chongzuo,Ningming,Longzhou,Pingxiang,Baise,Yunnan,Funing,Malipo,Guangnan"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Nonni Dagur",
@@ -8398,7 +8398,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Hailar,Manzhouli,Yakeshi,Zhalantun,Nenjiang,Qiqihar,Fuyu,Nehe,Keshan,Baiquan,Mingshui,Hailun,Suileng,Wangkui,Lanxi"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "North Moluccan Malay",
@@ -8407,7 +8407,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ternate,Tidore,Ambon,Manado,Bitung,Tobelo,Galela,Sofifi,Jailolo,Loloda,Bacan,Kayoa,Makian,Motir,Patani"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Northern Khalkha",
@@ -8416,7 +8416,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ulaanbaatar,Erdenet,Darkhan,Sukhbaatar,Zuunmod,Moron,Ondorkhaan,Choibalsan,Ulaangom,Khovd,Bayankhongor,Arvaikheer,Tsetserleg,Bulgan,Sukhbaatar"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Northern Tai",
@@ -8425,7 +8425,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Chiang Mai,Lampang,Lamphun,Phrae,Nan,Uttaradit,Phitsanulok,Sukhothai,Kamphaeng Phet,Tak,Nakhon Sawan,Uthai Thani,Chai Nat,Lopburi,Saraburi"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Northern Thai",
@@ -8434,7 +8434,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Chiang Mai,Chiang Rai,Lampang,Lamphun,Phrae,Nan,Mae Hong Son,Phayao,Uttaradit,Phitsanulok,Sukhothai,Kamphaeng Phet,Tak,Nakhon Sawan,Uthai Thani"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Northern Tungusic",
@@ -8443,7 +8443,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Yakutsk,Neryungri,Mirny,Udachny,Nyurba,Vilyuysk,Lensk,Olyokminsk,Aldan,Tommot,Chulman,Berkakit,Zeya,Tynda,Skovorodino"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Nung Tai",
@@ -8452,7 +8452,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lao Cai,Ha Giang,Cao Bang,Lang Son,Bac Kan,Thai Nguyen,Tuyen Quang,Yen Bai,Lai Chau,Son La,Dien Bien,Phu Tho,Vinh Phuc,Bac Giang,Quang Ninh"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Nyah Kur",
@@ -8461,7 +8461,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Nakhon Ratchasima,Buriram,Chaiyaphum,Khon Kaen,Maha Sarakham,Roi Et,Kalasin,Sakon Nakhon,Nakhon Phanom,Udon Thani,Loei,Nong Bua Lamphu,Ubon Ratchathani,Sisaket,Surin"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Nyaheun",
@@ -8470,7 +8470,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Attapeu,Sekong,Salavan,Champasak,Savannakhet,Khammouane,Bolikhamxai,Vientiane,Xiangkhouang,Houaphan,Phongsali,Luang Prabang,Oudomxai,Bokeo,Sainyabuli"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Oadki",
@@ -8479,7 +8479,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Jodhpur,Bikaner,Jaisalmer,Barmer,Pali,Nagaur,Sikar,Churu,Fatehpur,Jhunjhunu,Merta,Phalodi,Balotra,Sanchor,Siwana"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Odia",
@@ -8488,7 +8488,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bhubaneswar,Cuttack,Puri,Rourkela,Sambalpur,Berhampur,Balasore,Baripada,Bhadrak,Jharsuguda,Angul,Dhenkanal,Kendrapara,Jagatsinghpur,Khordha"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Oeld",
@@ -8497,7 +8497,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ulaanbaatar,Khovd,Ulaangom,Bayankhongor,Govi-Altai,Zavkhan,Uvs,Arvaikheer,Tsetserleg,Bulgan,Erdenet,Sukhbaatar,Darkhan,Moron,Ondorkhaan"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Oi",
@@ -8506,7 +8506,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Attapeu,Sekong,Salavan,Champasak,Savannakhet,Khammouane,Bolikhamxai,Vientiane,Xiangkhouang,Houaphan,Phongsali,Luang Prabang,Oudomxai,Bokeo,Sainyabuli"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Oirat Mongolian",
@@ -8515,7 +8515,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Khovd,Ulaangom,Bayankhongor,Govi-Altai,Zavkhan,Uvs,Kalmykia,Astrakhan,Elista,Iki-Burul,Komsomolsky,Priyutnoye,Tashang,Balkhash,Almaty"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Old Khitan",
@@ -8524,7 +8524,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Hohhot,Chifeng,Tongliao,Hailar,Manzhouli,Xilinhot,Ulanhot,Arxan,Erenhot,Duolun,Shangdu,Yingchang,Dadu,Zhongdu,Shangjing"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Old Serbi",
@@ -8533,7 +8533,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Hohhot,Chifeng,Tongliao,Hailar,Manzhouli,Xilinhot,Ulanhot,Arxan,Erenhot,Duolun,Shangdu,Yingchang,Dadu,Zhongdu,Shangjing"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Ollari",
@@ -8542,7 +8542,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Visakhapatnam,Vizianagaram,Srikakulam,East Godavari,West Godavari,Krishna,Guntur,Prakasam,Nellore,Chittoor,Kadapa,Anantapur,Kurnool,Sundargarh,Keonjhar"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Önge",
@@ -8551,7 +8551,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Little Andaman,Rutland Island,South Andaman,North Andaman,Middle Andaman,Havelock Island,Neil Island,Baratang,Ritchie Archipelago,Temple Sound,Interview Island,North Reef,Stewart Island,Sound Island,Alexandra Island"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Ordos Mongol",
@@ -8560,7 +8560,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ordos,Baotou,Hohhot,Bayannur,Wuhai,Alxa,Ulaanchab,Xilingol,Hinggan,Tongliao,Chifeng,Hulunbuir,Manzhouli,Erenhot,Arxan"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Ormuri",
@@ -8569,7 +8569,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kandahar,Lashkargah,Quetta,Zhob,Pishin,Chaman,Turbat,Khuzdar,Sibi,Loralai,Musakhel,Barkhan,Kohlu,Duki,Harnai"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Oroch",
@@ -8578,7 +8578,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Khabarovsk,Nikolayevsk,Sovetskaya Gavan,Vanino,Lazarev,Chumikan,Ayan,Okhotsk,Evensk,Magadan,Ola,Palatka,Bogorodskoye,Tyr,Ulchskiy"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Orok",
@@ -8587,7 +8587,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Yuzhno-Sakhalinsk,Okha,Nogliki,Alexandrovsk-Sakhalinsky,Korsakov,Nevelsk,Kholmsk,Tomari,Poronaisk,Tymovskoye,Smirnykh,Makarov,Vakhrushev,Poronaysk,Uglegorsk"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Paha",
@@ -8596,7 +8596,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Baise,Debao,Jingxi,Napo,Longling,Xilin,Lingyun,Fengshan,Tianlin,Leye,Yizhou,Hechi,Du'an,Dahua,Bama"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Pahari (Sino-Tibetan)",
@@ -8605,7 +8605,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Lalitpur,Bhaktapur,Kirtipur,Panauti,Dhulikhel,Banepa,Sindhupalchok,Nuwakot,Rasuwa,Dhading,Makwanpur,Chitwan,Gorkha,Lamjung"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Pahari-Pothwari",
@@ -8614,7 +8614,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Rawalpindi,Islamabad,Jhelum,Gujrat,Sialkot,Lahore,Faisalabad,Multan,Peshawar,Abbottabad,Mansehra,Muzaffarabad,Bagh,Poonch,Kotli"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Pakistani English",
@@ -8623,7 +8623,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Karachi,Lahore,Islamabad,Rawalpindi,Faisalabad,Multan,Peshawar,Quetta,Hyderabad,Sialkot,Gujranwala,Sargodha,Bahawalpur,Sukkur,Larkana"
+  "b": "Karachi,Lahore,Faisalabad,Rawalpindi,Multan,Gujranwala,Hyderabad,Peshawar,Quetta,Islamabad,Sialkot,Sargodha,Bahawalpur,Sukkur,Larkana,Sheikhupura,Mirpur Kas,Jhang,Sahiwal,Gujrat,Mardan,Nawabshah,Kasur,Dera Ghazi Khan,Okara,Hafizabad"
 },
 {
     "name": "Paliyan",
@@ -8632,7 +8632,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Madurai,Theni,Dindigul,Virudhunagar,Ramanathapuram,Sivaganga,Tirunelveli,Kanyakumari,Thoothukudi,Tiruchirapalli,Salem,Namakkal,Erode,Coimbatore,Karur"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Palula",
@@ -8641,7 +8641,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Chitral,Drosh,Booni,Mastuj,Shishi,Golen,Phargram,Lotkoh,Shandur,Mulkhow,Torkhow,Laspur,Hunza,Gilgit,Skardu"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Pangasinan",
@@ -8650,7 +8650,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lingayen,Dagupan,Manaoag,Urdaneta,Calasiao,Binmaley,Mangaldan,Mapandan,Santa Barbara,Malasiqui,Villasis,Santo Tomas,Bautista,Alaminos,San Carlos"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Pangkhua",
@@ -8659,7 +8659,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Aizawl,Lunglei,Champhai,Serchhip,Lawngtlai,Siaha,Khawzawl,Saitual,Hnahthial,Bairabi,Vairengte,Thenzawl,Tlabung,Zawlnuam,Phullen"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Pashto, Northern",
@@ -8668,7 +8668,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kabul,Jalalabad,Kandahar,Herat,Mazar-i-Sharif,Peshawar,Quetta,Kunduz,Ghazni,Lashkargah,Khost,Gardez,Bamyan,Farah,Zaranj"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Pashto, Southern",
@@ -8677,7 +8677,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kandahar,Lashkargah,Kabul,Jalalabad,Herat,Mazar-i-Sharif,Peshawar,Quetta,Kunduz,Ghazni,Khost,Gardez,Bamyan,Farah,Zaranj"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Pattapu",
@@ -8686,7 +8686,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Nellore,Chittoor,Tirupati,Kadapa,Anantapur,Kurnool,Prakasam,Guntur,Krishna,East Godavari,West Godavari,Visakhapatnam,Vizianagaram,Srikakulam,YSR Kadapa"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Pear",
@@ -8695,7 +8695,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Battambang,Siem Reap,Pailin,Samlot,Phnom Penh,Kampong Cham,Kampong Thom,Kampong Speu,Takeo,Kampot,Sihanoukville,Kep,Koh Kong,Pursat,Banteay Meanchey"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Pengo",
@@ -9298,7 +9298,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
+  "b": "Colombo,Gampaha,Kalutara,Kandy,Galle,Matara,Anuradhapura,Polonnaruwa,Batticaloa,Trincomalee,Kurunegala,Jaffna,Mannar,Vavuniya,Kilinochchi,Mullaitivu,Puttalam,Badulla,Monaragala,Ratnapura,Kegalle,Hambantota,Matale,Nuwara Eliya,Gampola"
 },
 {
     "name": "Sri Lankan Portuguese Creole",
@@ -10108,7 +10108,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Beijing,Shanghai,Tokyo,Seoul,Osaka,Kyoto,Hiroshima,Nagoya,Yokohama,Kobe,Sendai,Sapporo,Fukuoka,Taipei,Kaohsiung,Taichung,Hsinchu,Busan,Incheon,Daegu,Gwangju,Daejeon,Ulsan,Suwon,Changwon,Goyang,Yongin,Cheongju,Jeonju,Pohang"
+  "b": "Chuncheon,Wonju,Gangneung,Sokcho,Donghae,Samcheok,Taebaek,Hongcheon,Pyeongchang,Jeongseon,Hongcheon,Pyeongchang,Jeongseon,Hongcheon,Pyeongchang,Jeongseon,Hongcheon,Pyeongchang,Jeongseon,Hongcheon,Pyeongchang,Jeongseon,Hongcheon,Pyeongchang,Jeongseon"
 },
 {
     "name": "Gyeonggi / Seoul Korean",
@@ -10117,7 +10117,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Beijing,Shanghai,Tokyo,Seoul,Osaka,Kyoto,Hiroshima,Nagoya,Yokohama,Kobe,Sendai,Sapporo,Fukuoka,Taipei,Kaohsiung,Taichung,Hsinchu,Busan,Incheon,Daegu,Gwangju,Daejeon,Ulsan,Suwon,Changwon,Goyang,Yongin,Cheongju,Jeonju,Pohang"
+  "b": "Seoul,Incheon,Suwon,Seongnam,Bucheon,Anyang,Goyang,Gwangmyeong,Seongnam,Bucheon,Anyang,Goyang,Gwangmyeong,Seongnam,Bucheon,Anyang,Goyang,Gwangmyeong,Seongnam,Bucheon,Anyang,Goyang,Gwangmyeong,Seongnam,Bucheon,Anyang,Goyang,Gwangmyeong"
 },
 {
     "name": "Gyeongsang Korean",
@@ -10126,7 +10126,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Beijing,Shanghai,Tokyo,Seoul,Osaka,Kyoto,Hiroshima,Nagoya,Yokohama,Kobe,Sendai,Sapporo,Fukuoka,Taipei,Kaohsiung,Taichung,Hsinchu,Busan,Incheon,Daegu,Gwangju,Daejeon,Ulsan,Suwon,Changwon,Goyang,Yongin,Cheongju,Jeonju,Pohang"
+  "b": "Busan,Daegu,Ulsan,Changwon,Pohang,Gyeongju,Andong,Gumi,Changwon,Pohang,Gyeongju,Andong,Gumi,Changwon,Pohang,Gyeongju,Andong,Gumi,Changwon,Pohang,Gyeongju,Andong,Gumi,Changwon,Pohang,Gyeongju,Andong,Gumi"
 },
 {
     "name": "Hamgyŏng Korean",
@@ -10135,7 +10135,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Beijing,Shanghai,Tokyo,Seoul,Osaka,Kyoto,Hiroshima,Nagoya,Yokohama,Kobe,Sendai,Sapporo,Fukuoka,Taipei,Kaohsiung,Taichung,Hsinchu,Busan,Incheon,Daegu,Gwangju,Daejeon,Ulsan,Suwon,Changwon,Goyang,Yongin,Cheongju,Jeonju,Pohang"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
 },
 {
     "name": "Han (Samhan)",
@@ -10189,7 +10189,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Beijing,Shanghai,Tokyo,Seoul,Osaka,Kyoto,Hiroshima,Nagoya,Yokohama,Kobe,Sendai,Sapporo,Fukuoka,Taipei,Kaohsiung,Taichung,Hsinchu,Busan,Incheon,Daegu,Gwangju,Daejeon,Ulsan,Suwon,Changwon,Goyang,Yongin,Cheongju,Jeonju,Pohang"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
 },
 {
     "name": "Jeju",
@@ -10207,7 +10207,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Beijing,Shanghai,Tokyo,Seoul,Osaka,Kyoto,Hiroshima,Nagoya,Yokohama,Kobe,Sendai,Sapporo,Fukuoka,Taipei,Kaohsiung,Taichung,Hsinchu,Busan,Incheon,Daegu,Gwangju,Daejeon,Ulsan,Suwon,Changwon,Goyang,Yongin,Cheongju,Jeonju,Pohang"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
 },
 {
     "name": "Jiaoliao Mandarin",
@@ -10216,7 +10216,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Beijing,Shanghai,Tokyo,Seoul,Osaka,Kyoto,Hiroshima,Nagoya,Yokohama,Kobe,Sendai,Sapporo,Fukuoka,Taipei,Kaohsiung,Taichung,Hsinchu,Busan,Incheon,Daegu,Gwangju,Daejeon,Ulsan,Suwon,Changwon,Goyang,Yongin,Cheongju,Jeonju,Pohang"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
 },
 {
     "name": "Jilu Mandarin",
@@ -10225,7 +10225,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Beijing,Shanghai,Tokyo,Seoul,Osaka,Kyoto,Hiroshima,Nagoya,Yokohama,Kobe,Sendai,Sapporo,Fukuoka,Taipei,Kaohsiung,Taichung,Hsinchu,Busan,Incheon,Daegu,Gwangju,Daejeon,Ulsan,Suwon,Changwon,Goyang,Yongin,Cheongju,Jeonju,Pohang"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
 },
 {
     "name": "Kiong Nai",
@@ -10252,7 +10252,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Beijing,Shanghai,Tokyo,Seoul,Osaka,Kyoto,Hiroshima,Nagoya,Yokohama,Kobe,Sendai,Sapporo,Fukuoka,Taipei,Kaohsiung,Taichung,Hsinchu,Busan,Incheon,Daegu,Gwangju,Daejeon,Ulsan,Suwon,Changwon,Goyang,Yongin,Cheongju,Jeonju,Pohang"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
 },
 {
     "name": "Maojia",
@@ -10279,7 +10279,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Beijing,Shanghai,Tokyo,Seoul,Osaka,Kyoto,Hiroshima,Nagoya,Yokohama,Kobe,Sendai,Sapporo,Fukuoka,Taipei,Kaohsiung,Taichung,Hsinchu,Busan,Incheon,Daegu,Gwangju,Daejeon,Ulsan,Suwon,Changwon,Goyang,Yongin,Cheongju,Jeonju,Pohang"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
 },
 {
     "name": "Mo Piu",
@@ -10288,7 +10288,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Kawasaki,Sendai"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Modern Korean",
@@ -10297,7 +10297,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Beijing,Shanghai,Tokyo,Seoul,Osaka,Kyoto,Hiroshima,Nagoya,Yokohama,Kobe,Sendai,Sapporo,Fukuoka,Taipei,Kaohsiung,Taichung,Hsinchu,Busan,Incheon,Daegu,Gwangju,Daejeon,Ulsan,Suwon,Changwon,Goyang,Yongin,Cheongju,Jeonju,Pohang"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
 },
 {
     "name": "Munhwaŏ (Standard North Korean)",
@@ -10306,7 +10306,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Beijing,Shanghai,Tokyo,Seoul,Osaka,Kyoto,Hiroshima,Nagoya,Yokohama,Kobe,Sendai,Sapporo,Fukuoka,Taipei,Kaohsiung,Taichung,Hsinchu,Busan,Incheon,Daegu,Gwangju,Daejeon,Ulsan,Suwon,Changwon,Goyang,Yongin,Cheongju,Jeonju,Pohang"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
 },
 {
     "name": "Ná-Meo",
@@ -10333,7 +10333,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Beijing,Shanghai,Tokyo,Seoul,Osaka,Kyoto,Hiroshima,Nagoya,Yokohama,Kobe,Sendai,Sapporo,Fukuoka,Taipei,Kaohsiung,Taichung,Hsinchu,Busan,Incheon,Daegu,Gwangju,Daejeon,Ulsan,Suwon,Changwon,Goyang,Yongin,Cheongju,Jeonju,Pohang"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
 },
 {
     "name": "Northern Min",
@@ -10360,7 +10360,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Beijing,Shanghai,Tokyo,Seoul,Osaka,Kyoto,Hiroshima,Nagoya,Yokohama,Kobe,Sendai,Sapporo,Fukuoka,Taipei,Kaohsiung,Taichung,Hsinchu,Busan,Incheon,Daegu,Gwangju,Daejeon,Ulsan,Suwon,Changwon,Goyang,Yongin,Cheongju,Jeonju,Pohang"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
 },
 {
     "name": "Pa Na",
@@ -10414,7 +10414,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Beijing,Shanghai,Tokyo,Seoul,Osaka,Kyoto,Hiroshima,Nagoya,Yokohama,Kobe,Sendai,Sapporo,Fukuoka,Taipei,Kaohsiung,Taichung,Hsinchu,Busan,Incheon,Daegu,Gwangju,Daejeon,Ulsan,Suwon,Changwon,Goyang,Yongin,Cheongju,Jeonju,Pohang"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
 },
 {
     "name": "Proto-Mienic",
@@ -10450,7 +10450,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Beijing,Shanghai,Tokyo,Seoul,Osaka,Kyoto,Hiroshima,Nagoya,Yokohama,Kobe,Sendai,Sapporo,Fukuoka,Taipei,Kaohsiung,Taichung,Hsinchu,Busan,Incheon,Daegu,Gwangju,Daejeon,Ulsan,Suwon,Changwon,Goyang,Yongin,Cheongju,Jeonju,Pohang"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
 },
 {
     "name": "Pyongan Korean",
@@ -10459,7 +10459,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Beijing,Shanghai,Tokyo,Seoul,Osaka,Kyoto,Hiroshima,Nagoya,Yokohama,Kobe,Sendai,Sapporo,Fukuoka,Taipei,Kaohsiung,Taichung,Hsinchu,Busan,Incheon,Daegu,Gwangju,Daejeon,Ulsan,Suwon,Changwon,Goyang,Yongin,Cheongju,Jeonju,Pohang"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
 },
 {
     "name": "Raojia",
@@ -10513,7 +10513,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Fuqing,Youxi,Datian,Yongtai,Minhou,Lianjiang,Luoyuan,Fuding,Shouning,Zherong,Pingnan,Longxi,Dongtou,Cangnan,Taishun,Qingtian,Yunhe,Jingning,Longquan,Suichang,Songxi,Zhenghe,Jianyang,Shaowu,Wuyishan,Pucheng,Guangze,Shunchang,Jiangle,Mingxi"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
 },
 {
     "name": "Silla Korean",
@@ -10522,7 +10522,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Gyeongju,Daegu,Ulsan,Pohang,Gimhae,Miryang,Changwon,Yangsan,Gyeongsan,Cheongdo,Goryeong,Seongju,Chilgok,Gunwi,Uiseong,Andong,Sangju,Mungyeong,Gumi,Gimcheon,Seonsan,Dalseong,Dalseo,Nam-gu,Buk-gu,Suseong,Jung-gu,Dong-gu,Seo-gu,Buksong"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
 },
 {
     "name": "Small Flowery",
@@ -10540,7 +10540,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Goyang,Yongin,Cheongju,Jeonju,Pohang,Jeju,Chuncheon,Wonju,Gangneung,Sokcho,Donghae,Samcheok,Taebaek,Jecheon,Chungju,Cheongwon,Gimcheon,Gumi,Yeosu,Suncheon,Mokpo"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
 },
 {
     "name": "Southern Min",
@@ -10567,7 +10567,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Taipei,Kaohsiung,Taichung,Tainan,Hsinchu,Chiayi,Keelung,Taoyuan,Pingtung,Yilan,Hualien,Taitung,Nantou,Miaoli,Changhua,Yunlin,Penghu,Kinmen,Lienchiang,New Taipei,Banqiao,Zhonghe,Xindian,Tamsui,Bali,Linkou,Luzhu,Guishan,Dayuan,Yangmei"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
 },
 {
     "name": "Wenzhounese",
@@ -10630,7 +10630,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Gangneung,Sokcho,Yangyang,Samcheok,Donghae,Taebaek,Jeongseon,Yeongwol,Pyeongchang,Jecheon,Danyang,Uljin,Cheorwon,Hwacheon,Yanggu,Inje,Goseong,Hongcheon,Hoengseong,Wonju,Chuncheon,Gapyeong,Pyeonggang,Anbyon,Kowon,Munchon,Sepo,Chonnae,Tongchon,Kosong"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
 },
 {
     "name": "Yeongseo Korean",
@@ -10639,7 +10639,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Chuncheon,Wonju,Hongcheon,Hoengseong,Yeongwol,Pyeongchang,Jecheon,Danyang,Cheorwon,Hwacheon,Yanggu,Inje,Goseong,Gapyeong,Pocheon,Yeoncheon,Paju,Goyang,Uijeongbu,Namyangju,Guri,Hanam,Gwangju,Icheon,Yongin,Anseong,Pyeongtaek,Hwaseong,Osan"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
 },
 {
     "name": "Younian",
@@ -10666,7 +10666,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Hamhung,Chongjin,Rason,Kimchaek,Kilju,Myongchon,Orang,Hwadae,Musan,Hoeryong,Onsong,Kyonghung,Kyongwon,Puryong,Kapsan,Kimhyongjik,Ryanggang,Kanggye,Huichon,Manpo,Sijung,Chosan,Uiju,Sinuiju,Kaesong,Sariwon,Nampo,Pyongyang,Wonsan,Kowon"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
 },
 {
     "name": "Zainichi Korean",
@@ -10675,7 +10675,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Tokyo,Osaka,Kyoto,Nagoya,Yokohama,Kobe,Sapporo,Fukuoka,Sendai,Hiroshima,Kitakyushu,Chiba,Saitama,Shizuoka,Hamamatsu,Okayama,Kumamoto,Kagoshima,Niigata,Kanazawa,Nagano,Oita,Miyazaki,Naha,Toyohashi,Toyonaka,Kawasaki,Sagamihara,Funabashi,Ichikawa"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
 },
 {
     "name": "Assyrian Neo Aramaic",
@@ -10684,7 +10684,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Mosul,Kirkuk,Duhok,Erbil,Alqosh,Tel Keppe,Qaraqosh,Ankawa,Shaqlawa,Amadiya"
+  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
 },
 {
     "name": "Awsānian",
@@ -10711,7 +10711,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Casablanca,Rabat,Marrakech,Fes,Tangier,Algiers,Oran,Constantine,Tunis,Sfax,Sousse,Tripoli,Benghazi,Misrata,Agadir,Oujda,Tlemcen,Annaba,Gabes,Kairouan,Tafilalt,Draa,Haha,Chiadma,Doukkala,Gharb,Rif,Kroumirie,Aurès"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
 },
 {
     "name": "Turoyo",
@@ -10738,7 +10738,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Cairo,Alexandria,Marsa Matruh,Siwa,Bahariya,Farafra,Dakhla,Kharga,Aswan,Luxor,Aswan,Sinai,Arish,Sharm el-Sheikh,Dahab,Nuweiba,Taba,Saint Catherine,Faiyum,Minya,Assiut,Sohag,Qena,Hurghada,Safaga,Quseir,Port Said,Suez,Ismailia"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
 },
 {
     "name": "Western Hilali dialects",
@@ -10774,7 +10774,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Sana'a,Aden,Lahij,Yafa,Taiz,Ibb,Dhamar,Al-Mukalla,Sayun,Tarim,Seiyun,Ash Shihr,Al Hudaydah,Zabid,Amran,Sa'dah,Al Bayda,Ataq,Al Ghaydah,Mahra,Marib,Al-Jawf,Hadhramaut,Shabwa,Al-Mahwit,Hajja,Raymah"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
 },
 {
     "name": "Yemeni Arabic",
@@ -10783,7 +10783,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Sana'a,Aden,Taiz,Ibb,Dhamar,Al-Mukalla,Sayun,Tarim,Seiyun,Ash Shihr,Al Hudaydah,Zabid,Amran,Sa'dah,Al Bayda,Lahij,Ataq,Al Ghaydah,Mahra,Marib,Al-Jawf,Hadhramaut,Shabwa,Al-Mahwit,Hajja,Raymah,Al-Hudaydah"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
 },
 {
     "name": "Zabidi dialect",
@@ -11098,7 +11098,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Meizian,Xingning,Wuhua,Dabu,Fengshun,Jiaoling,Pingyuan,Dapu,Raoping,Chenghai,Chaozhou,Shantou,Jieyang,Huizhou,Heyuan,Shaoguan,Qingyuan,Zengcheng,Conghua,Longmen,Boluo,Huidong,Haifeng,Lufeng,Jiexi,Meixian,Pingyuan,Jiaoling,Xingning,Wuhua"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
 },
 {
     "name": "Proto Loloish",

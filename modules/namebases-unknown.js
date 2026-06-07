@@ -10,7 +10,7 @@ window.unknownNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Chengamanād,Kallūr Tekkumuri,Martūru,Chelamartam,Vāzhakulam,Kunnatnād"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília"
 },
 {
     "name": "Algonquian-Basque pidgin",
@@ -19,7 +19,7 @@ window.unknownNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Gaspe,Tadoussac,Sept-Iles,Blanc-Sablon,Mingan,Natashquan,La Romaine,Saint-Augustin,Harrington Harbour,Chevery,Baie-Comeau,Port-Menier,Bonaventure,Percé,Gespeg,Rimouski,Trois-Pistoles,Bic,Matane,Cap-Chat"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília"
 },
 {
     "name": "American Indian Pidgin English",
@@ -28,7 +28,7 @@ window.unknownNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Boston,Plymouth,Salem,Provincetown,Martha's Vineyard,Nantucket,Newport,Hartford,New Haven,Deerfield,Albany,Poughkeepsie,Niagara,Buffalo,Cleveland,Detroit,Green Bay,Milwaukee,Mackinac,Sault Sainte Marie"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
 },
 {
     "name": "Andaman Creole Hindi",
@@ -37,7 +37,7 @@ window.unknownNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Port Blair,Diglipur,Mayabander,Rangat,Havelock Island,Neil Island,Little Andaman,Baratang,Interview Island,Long Island,Rutland Island,North Bay,Wandoor,Ferrargunj,Chouldari,Jirkatang,Shadipur,Garacharma,Prothrapur,Sippighat"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
 },
 {
     "name": "Arabic-Javanese of Klego",
@@ -46,7 +46,7 @@ window.unknownNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Klego,Sumberagung,Blumbang,Kedungori,Kedokan,Gunungmijil,Jlegong,Selorejo,Sumurduren,Karangmojo,Kopen,Tegalsari,Goligo,Pelemrejo,Nggulon,Kartoharjo,Sangge,Rejosari,Grembyuk,Seredan"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
 },
 {
     "name": "Bolze",
@@ -55,7 +55,7 @@ window.unknownNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Fribourg,Freiburg,Sarine,Sense,Murten,Morat,Avenches,Payerne,Romont,Bulle,Gruyères,Châtel-Saint-Denis,Villars-sur-Glâne,Düdingen,Schmitten,Bösingen,Heitenried,Plaffeien,Giffers,St. Ursen"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília"
 },
 {
     "name": "Borgarmålet",
@@ -64,7 +64,7 @@ window.unknownNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Luleå,Kiruna,Gällivare,Boden,Piteå,Skellefteå,Jokkmokk,Arjeplog,Arvidsjaur,Sorsele,Storuman,Tärnaby,Jukkasjärvi,Abisko,Karesuando,Jäkkvik,Ammarnäs,Blåsmark,Nederluleå,Haparanda"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília"
 },
 {
     "name": "Bozal Spanish",
@@ -73,7 +73,7 @@ window.unknownNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Matanzas,Perico,Pedro Betancourt,Unión de Reyes,Cárdenas,Colón,Jovellanos,Havana,Guanabacoa,Regla,Santiago de Cuba,Bayamo,Manzanillo,Cienfuegos,Santa Clara,Remedios,Caibarién,Sagua la Grande,Placetas,Trinidad"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
 },
 {
     "name": "Cappadocian Greek",
@@ -82,7 +82,7 @@ window.unknownNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Nevşehir,Ürgüp,Göreme,Avanos,Derinkuyu,Kaymaklı,Ihlara,Gülşehir,Niğde,Bor,Kayseri,Sivas,Soğanlı,Çavuşin,Zelve,Acıgöl,Tatlarin,Konaklı,Üçhisar,Ortahisar"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília"
 },
 {
     "name": "Cauque Mayan",
@@ -91,7 +91,7 @@ window.unknownNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Santiago Sacatepéquez,San Lucas Sacatepéquez,San Bartolomé Milpas Altas,Sumpango,Santo Domingo Xenacoj,San Mateo Milpas Altas,Santa Lucía Milpas Altas,Pastores,San Juan Gascón,San Miguel Milpas Altas,Jocotenango,Antigua Guatemala,San Pedro Sacatepéquez,San Felipe de Jesús,Santa Marta,San Lorenzo El Tejar,San Miguel Morazán,El Manzanillo,Buena Vista,La Embaulada"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília"
 },
 {
     "name": "Cypriot Maronite-Arabic",
@@ -100,7 +100,7 @@ window.unknownNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kormakitis,Asomatos,Agia Marina,Karpaseia,Kyrenia,Nicosia,Limassol,Larnaca,Paphos,Morphou,Lapithos,Karavas,Myrtou,Diorios,Bellapais,Famagusta,Trikomo,Lefkoniko,Lythrangomi,Vasilia"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
 },
 {
     "name": "Duvle-Wano Pidgin",
@@ -109,7 +109,7 @@ window.unknownNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Dagai,Puncak Jaya,Wamena,Jayapura,Merauke,Timika,Nabire,Manokwari,Sorong,Biak,Serui,Enarotali,Ilaga,Mulia,Tembagapura,Oksibil,Bokondini,Kiwirok,Angguruk,Karubaga"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília"
 },
 {
     "name": "Français Tirailleur",
@@ -118,7 +118,7 @@ window.unknownNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Dakar,Saint-Louis,Thiès,Kaolack,Ziguinchor,Touba,Rufisque,Mbour,Diourbel,Louga,Tambacounda,Kolda,Matam,Sédhiou,Kaffrine,Bamako,Kayes,Sikasso,Ségou,Mopti"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília"
 },
 {
     "name": "Haflong Hindi",
@@ -127,7 +127,7 @@ window.unknownNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Haflong,Silchar,Diphu,Lumding,Hojai,Lanka,Umrangso,Maibong,Jatinga,Harangajao,Gunjung,Ditokcherra,Dehangi,Baraigram,Kalachand,Diyungbra,Khobak,Hatikhali,Baghmara,Jatinga"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
 },
 {
     "name": "Hawaiian Pidgin English",
@@ -136,7 +136,7 @@ window.unknownNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Honolulu,Hilo,Kona,Kailua,Waikiki,Pearl City,Kaneohe,Wahiawa,Waimanalo,Kahului,Lihue,Kapaa,Hanalei,Lahaina,Kihei,Wailuku,Makawao,Paia,Kula,Hana"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
 },
 {
     "name": "Inuktitut-English Pidgin",
@@ -145,7 +145,7 @@ window.unknownNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Pond Inlet,Naujaat,Kugluktuk,Cambridge Bay,Gjoa Haven,Taloyoak,Kugaaruk,Repulse Bay,Arviat,Rankin Inlet,Baker Lake,Chesterfield Inlet,Coral Harbour,Igloolik,Sanikiluaq,Cape Dorset,Pangnirtung,Iqaluit,Kimmirut,Qikiqtarjuaq"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
 },
 {
     "name": "Italian Eritrean",
@@ -154,7 +154,7 @@ window.unknownNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Asmara,Keren,Massawa,Assab,Mendefera,Tessenei,Agordat,Barentu,Adi Keyh,Senafe,Dekemhare,Ghinda,Nakfa,Keren,Akordat,Biscia,Omhajer,Teseney,Haykota,Adi Quala"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília"
 },
 {
     "name": "Javindo",
@@ -163,7 +163,7 @@ window.unknownNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Semarang,Surabaya,Yogyakarta,Solo,Malang,Bandung,Bogor,Tegal,Pekalongan,Madiun,Kediri,Probolinggo,Pasuruan,Magelang,Blitar,Salatiga,Cirebon,Tasikmalaya,Banjarmasin,Pontianak"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília"
 },
 {
     "name": "Jersey Dutch",
@@ -172,7 +172,7 @@ window.unknownNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bergen,Hackensack,Passaic,Paterson,Paramus,Ridgewood,Fair Lawn,Teaneck,Englewood,Fort Lee,Jersey City,Hoboken,Union City,West New York,North Bergen,Secaucus,Kearny,Newark,Elizabeth,Rahway"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília"
 },
 {
     "name": "KiKAR",
@@ -181,7 +181,7 @@ window.unknownNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Nairobi,Mombasa,Kisumu,Nakuru,Eldoret,Thika,Machakos,Meru,Nyeri,Embu,Kitale,Kakamega,Bungoma,Malaba,Garissa,Wajir,Lamu,Malindi,Voi,Moyale"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília"
 },
 {
     "name": "Labrador Inuit Pidgin French",
@@ -190,7 +190,7 @@ window.unknownNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Rigolet,Makkovik,Hopedale,Nain,Postville,Black Tickle,Cartwright,Port Hope Simpson,St. Lewis,Red Bay,L'Anse-au-Loup,Forteau,L'Anse-Amour,West St. Modeste,Pinware,Cape Charles,Battle Harbour,Mary's Harbour,Williams Harbour"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
 },
 {
     "name": "Loucheux Jargon",
@@ -199,7 +199,7 @@ window.unknownNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Inuvik,Aklavik,Fort McPherson,Tsiigehtchic,Old Crow,Fort Yukon,Chalkyitsik,Birch Creek,Venetie,Arctic Village,Beaver,Stevens Village,Circle,Eagle,Central,Rampart,Tanana,Ruby,Galena,Kaltag"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília"
 },
 {
     "name": "Macanese Patois",
@@ -208,7 +208,7 @@ window.unknownNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Macau,Taipa,Coloane,Cotai,Guangzhou,Zhuhai,Shenzhen,Hong Kong,Zhongshan,Jiangmen,Foshan,Dongguan,Huizhou,Zhaoqing,Shantou,Xiamen,Quanzhou,Fuzhou,Ningbo,Wenzhou"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília"
 },
 {
     "name": "Madras Bashai",
@@ -217,7 +217,7 @@ window.unknownNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Chennai,Madras,Tambaram,Avadi,Ambattur,Pallavaram,Chromepet,Tiruvallur,Kanchipuram,Vellore,Tirupati,Salem,Coimbatore,Erode,Tiruchirappalli,Madurai,Thanjavur,Cuddalore,Villupuram,Puducherry"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília"
 },
 {
     "name": "Maritime Polynesian Pidgin",
@@ -226,7 +226,7 @@ window.unknownNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Tahiti,Bora Bora,Moorea,Huahine,Raiatea,Rangiroa,Fakarava,Hiva Oa,Nuku Hiva,Rapa Iti,Mangareva,Rarotonga,Aitutaki,Mauke,Mitiaro,Atiu,Mangaia,Manihiki,Penrhyn,Pukapuka"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília"
 },
 {
     "name": "Mbugu",
@@ -235,7 +235,7 @@ window.unknownNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Magamba,Bumbuli,Rangwi,Lushoto,Mlalo,Mtae,Korogwe,Muheza,Pangani,Tanga,Mombasa,Same,Moshi,Arusha,Dodoma,Morogoro,Iringa,Mbeya,Songea,Mtwara"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília"
 },
 {
     "name": "Media Lengua",
@@ -244,7 +244,7 @@ window.unknownNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Quito,Cuenca,Loja,Ambato,Riobamba,Ibarra,Latacunga,Tulcán,Esmeraldas,Guaranda,Azogues,Macas,Tena,Puyo,Zamora,Machala,Portoviejo,Manta,Babahoyo,Quevedo"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília"
 },
 {
     "name": "Mediterranean Lingua Franca",
@@ -253,7 +253,7 @@ window.unknownNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Algiers,Tunis,Tripoli,Valletta,Marseille,Genoa,Venice,Trieste,Naples,Palermo,Catania,Bari,Split,Dubrovnik,Corfu,Thessaloniki,Istanbul,Izmir,Antalya,Beirut"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília"
 },
 {
     "name": "Mekeo pidgins",
@@ -262,7 +262,7 @@ window.unknownNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ongofoina,Inauaisa,Bereina,Port Moresby,Kairuku,Hula,Kaparoko,Aipeana,Inawi,Paisapaisa,Ogofoina,Gagai,Okope,Ugo,Afai,Ipage,Lopia,Lalae,Iso"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília"
 },
 {
     "name": "Michif",
@@ -271,7 +271,7 @@ window.unknownNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "St. Laurent,Pembina,Winnipeg,Brandon,Dauphin,Swan River,The Pas,Flin Flon,Thompson,Churchill,Regina,Saskatoon,Prince Albert,North Battleford,Meadow Lake,Lloydminster,Medicine Hat,Lethbridge,Calgary,Edmonton"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília"
 },
 {
     "name": "Micronesian Pidgin English",
@@ -280,7 +280,7 @@ window.unknownNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Pohnpei,Kosrae,Chuuk,Yap,Palau,Majuro,Kwajalein,Ebeye,Tarawa,Funafuti,Nauru,Kiribati,Tuvalu,Nauru,Banaba,Nauru,Nauru,Nauru,Nauru,Nauru"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
 },
 {
     "name": "Missingsch",
@@ -289,7 +289,7 @@ window.unknownNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Hamburg,Bremen,Lübeck,Kiel,Rostock,Stralsund,Greifswald,Flensburg,Schwerin,Wismar,Cuxhaven,Wilhelmshaven,Emden,Oldenburg,Osnabrück,Münster,Bielefeld,Hannover,Braunschweig,Magdeburg"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília"
 },
 {
     "name": "Mohawk Dutch",
@@ -298,7 +298,7 @@ window.unknownNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Albany,Schenectady,Troy,Cohoes,Watervliet,Rensselaer,Hudson,Catskill,Coxsackie,Athens,Mechanicville,Ballston Spa,Saratoga Springs,Glens Falls,Fort Edward,Hudson Falls,Schuylerville,Stillwater,Waterford,Green Island"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília"
 },
 {
     "name": "Nagamese",
@@ -307,7 +307,7 @@ window.unknownNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Dimapur,Kohima,Mokokchung,Wokha,Zunheboto,Tuensang,Mon,Phek,Peren,Kiphire,Longleng,Tseminyu,Chuchuyimlang,Mongsenyimti,Jalukie,Tizit,Tening,Pfutsero,Meluri,Aboi"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília"
 },
 {
     "name": "Namibian Black German",
@@ -316,7 +316,7 @@ window.unknownNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Windhoek,Swakopmund,Walvis Bay,Lüderitz,Keetmanshoop,Gobabis,Otjiwarongo,Okahandja,Omaruru,Tsumeb,Grootfontein,Mariental,Rehoboth,Maltahöhe,Bethanie,Karasburg,Oranjemund,Rundu,Katima Mulio,Oshakati"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
 },
 {
     "name": "Nauru Pidgin English",
@@ -325,7 +325,7 @@ window.unknownNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Aiwo,Denigomodu,Meneng,Yaren,Boe,Buada,Anabar,Anetan,Anibare,Baiti,Ewa,Ijuw,Nibok,Uaboe,Yangor,Ewa,Anebenok,Anera,Aribimomo,Arubo"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
 },
 {
     "name": "Ndyuka-Tiriyó Pidgin",
@@ -334,7 +334,7 @@ window.unknownNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Diitabiki,Poeloegoedoe,Paloemeu,Apetina,Kawemhakan,Lensidede,Manlobi,Moitaki,Pikienkondre,Tutu Kampu,Aloepi,Benzdorp,Cottica,Godo Holo,Kumakahpan,Lokatabiki,Nason,Stoelmanseiland,Akani Pata,Antonio do Brinco"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília"
 },
 {
     "name": "Nefamese",
@@ -343,7 +343,7 @@ window.unknownNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Itanagar,Ziro,Along,Pasighat,Roing,Tezu,Bomdila,Seppa,Daporijo,Yingkiong,Tawang,Bhalukpong,Bomdila,Dirang,Kalaktang,Rupa,Shergaon,Mechuka,Monigong,Pangin"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília"
 },
 {
     "name": "Negerhollands",
@@ -352,7 +352,7 @@ window.unknownNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Charlotte Amalie,Christiansted,Frederiksted,Cruz Bay,Road Town,Tortola,St. Thomas,St. John,St. Croix,St. Croix,St. Croix,St. Croix,St. Croix,St. Croix,St. Croix,St. Croix,St. Croix,St. Croix,St. Croix,St. Croix"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília"
 },
 {
     "name": "Negro Dutch",
@@ -361,7 +361,7 @@ window.unknownNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Georgetown,New Amsterdam,Vreed en Hoop,Skeldon,Rose Hall,Anna Regina,Parika,Bartica,Linden,Mahaica,Berbice,Canje,Corentyne,Demerara,Essequibo,Pomeroon,Supenaam,Wakenaam,Leguan,Parika"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília"
 },
 {
     "name": "Nootka Jargon",
@@ -370,7 +370,7 @@ window.unknownNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Nootka Sound,Vancouver Island,Clayoquot Sound,Barkley Sound,Tofino,Ucluelet,Port Alberni,Nanaimo,Victoria,Sooke,Saanich,Cowichan,Comox,Campbell River,Alert Bay,Port Hardy,Quatsino,Tahsis,Zeballos,Kyuquot"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília"
 },
 {
     "name": "Oorlams Creole",
@@ -379,7 +379,7 @@ window.unknownNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Windhoek,Khauxanas,Gobabis,Rehoboth,Maltahöhe,Mariental,Kalkrand,Stampriet,Aranos,Leonardville,Aminuis,Rundu,Katima Mulio,Oshakati,Ongwediva,Oshikoto,Tsumeb,Grootfontein,Otjiwarongo,Okahandja"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília"
 },
 {
     "name": "Palenquero",
@@ -388,7 +388,7 @@ window.unknownNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "San Basilio de Palenque,Cartagena,Barranquilla,Turbaco,Arjona,Mahates,San Juan Nepomuceno,María La Baja,San Jacinto,El Carmen de Bolívar,Córdoba,Sincelejo,Tolú,Santiago de Tolú,San Onofre,Morroa,San Estanislao,Soplaviento,Villanueva,Santa Lucía"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília"
 },
 {
     "name": "Papua New Guinea Pidgin",
@@ -397,7 +397,7 @@ window.unknownNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Wewak,Mount Hagen,Goroka,Kokopo,Popondetta,Alotau,Kimbe,Vanimo,Daru,Mendi,Tari,Kundiawa,Bulolo,Wau,Rabaul,Kavieng,Lorengau"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília"
 },
 {
     "name": "Papuan Pidgin English",
@@ -406,7 +406,7 @@ window.unknownNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Port Moresby,Daru,Kerema,Kikori,Baimuru,Ihu,Kerema,Kokoda,Popondetta,Tufi,Samarai,Alotau,Misima,Woodlark,Kiriwina,Kaileuna,Tauwema,Kaduwaga,Bulakwa,Kaisiga"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
 },
 {
     "name": "Petjo",
@@ -415,7 +415,7 @@ window.unknownNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Jakarta,Batavia,Bandung,Semarang,Surabaya,Yogyakarta,Solo,Malang,Bogor,Tegal,Pekalongan,Cirebon,Tasikmalaya,Banjarmasin,Pontianak,Medan,Palembang,Padang,Makassar,Manado"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília"
 },
 {
     "name": "Pidgin Hawaiian",
@@ -424,7 +424,7 @@ window.unknownNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Honolulu,Hilo,Kona,Kailua,Waikiki,Pearl City,Kaneohe,Wahiawa,Waimanalo,Kahului,Lihue,Kapaa,Hanalei,Lahaina,Kihei,Wailuku,Makawao,Paia,Kula,Hana"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília"
 },
 {
     "name": "Pidgin Iha",
@@ -433,7 +433,7 @@ window.unknownNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Fakfak,Kaimana,Bintuni,Sorong,Manokwari,Ransiki,Warmare,Kebar,Momi,Wamesa,Amberbaken,Aranday,Weriagar,Moswaren,Meninggo,Sumuri,Metamani,Irarutu,Kuri,Tobati"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília"
 },
 {
     "name": "Pidgin Ngarluma",
@@ -442,7 +442,7 @@ window.unknownNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Roebourne,Dampier,Karratha,Wickham,Point Samson,Cossack,Whim Creek,Pannawonica,Onslow,Exmouth,Carnarvon,Geraldton,Port Hedland,South Hedland,Newman,Tom Price,Paraburdoo,Pilbara,Burrup,Maitland"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília"
 },
 {
     "name": "Pidgin Onin",
@@ -451,7 +451,7 @@ window.unknownNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Fakfak,Kokas,Bomberai,Kaimana,Bintuni,Sorong,Manokwari,Ransiki,Warmare,Kebar,Momi,Wamesa,Amberbaken,Aranday,Weriagar,Moswaren,Meninggo,Sumuri,Metamani,Irarutu"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília"
 },
 {
     "name": "Pidgin Wolof",
@@ -460,7 +460,7 @@ window.unknownNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Dakar,Saint-Louis,Thiès,Kaolack,Ziguinchor,Touba,Rufisque,Mbour,Diourbel,Louga,Tambacounda,Kolda,Matam,Sédhiou,Kaffrine,Banjul,Serekunda,Brikama,Bakau,Farafenni"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília"
 },
 {
     "name": "Port Jackson Pidgin English",
@@ -469,7 +469,7 @@ window.unknownNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Sydney,Parramatta,Newcastle,Wollongong,Gosford,Katoomba,Penrith,Liverpool,Campbelltown,Blacktown,Bondi,Manly,Cronulla,Botany Bay,Port Jackson,Hawkesbury,Windsor,Richmond,Blue Mountains,Woy Woy"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
 },
 {
     "name": "Pretoria Sotho",
@@ -478,7 +478,7 @@ window.unknownNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Pretoria,Soshanguve,Mamelodi,Atteridgeville,Hammanskraal,Garankuwa,Mabopane,Temba,Ga-Rankuwa,Winterveld,Akasia,Centurion,Midrand,Kempton Park,Benoni,Boksburg,Germiston,Springs,Vanderbijlpark,Vereeniging"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília"
 },
 {
     "name": "Qoqmoncaq",
@@ -487,7 +487,7 @@ window.unknownNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Altay,Burqin,Fuyun,Habahe,Jeminay,Qinghe,Fuhai,Burultokay,Koktokay,Sharbakty,Tacheng,Emin,Tuoli,Usu,Shawan,Manas,Shihezi,Karamay,Bole,Wusu"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília"
 },
 {
     "name": "Queensland Kanaka English",
@@ -496,7 +496,7 @@ window.unknownNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Mackay,Cairns,Townsville,Bundaberg,Rockhampton,Gladstone,Maryborough,Hervey Bay,Toowoomba,Ipswich,Brisbane,Gold Coast,Sunshine Coast,Innisfail,Atherton,Mossman,Innisfail,Tully,Cardwell,Ingham"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
 },
 {
     "name": "Roquetas Pidgin Spanish",
@@ -505,7 +505,7 @@ window.unknownNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Roquetas de Mar,Almería,El Ejido,Adra,Berja,Dalías,Enix,Felix,Gádor,Huércal de Almería,La Mojonera,Pechina,Rioja,Santa Fe de Mondújar,Vícar,Aguadulce,Balerma,Benahadux,Carboneras,Cuevas del Almanzora"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
 },
 {
     "name": "Russenorsk",
@@ -514,7 +514,7 @@ window.unknownNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kirkenes,Vardø,Vadsø,Hammerfest,Tromsø,Bodø,Narvik,Harstad,Alta,Lakselv,Honningsvåg,Nordkapp,Skarsvåg,Gjesvær,Kiberg,Båtsfjord,Berlevåg,Mehamn,Gamvik,Sør-Varanger"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília"
 },
 {
     "name": "Samoan Plantation Pidgin",
@@ -523,7 +523,7 @@ window.unknownNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Apia,Vaitele,Faleula,Leulumoega,Mulifanua,Fasito'o,Safotu,Saleaula,Safune,Fagamalo,Asau,Amanave,Falealupo,Neiafu,Pangai,Nuku'alofa,Ha'apai,Vava'u,Eua,Niuatoputapu"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília"
 },
 {
     "name": "Settler Swahili",
@@ -532,7 +532,7 @@ window.unknownNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Nairobi,Mombasa,Kisumu,Nakuru,Eldoret,Thika,Machakos,Meru,Nyeri,Embu,Kitale,Kakamega,Bungoma,Malaba,Garissa,Wajir,Lamu,Malindi,Voi,Moyale"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
 },
 {
     "name": "Simplified Italian of Libya",
@@ -541,7 +541,7 @@ window.unknownNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Tripoli,Benghazi,Misrata,Zliten,Khoms,Tarhuna,Bani Walid,Sabha,Ghat,Murzuk,Derna,Tobruk,Ajdabiya,Sirte,Zawiya,Gharyan,Yafran,Nalut,Jadu,Ghadames"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília"
 },
 {
     "name": "Simplified Italian of Somalia",
@@ -550,7 +550,7 @@ window.unknownNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Mogadishu,Kismayo,Baidoa,Baraawe,Marka,Galkayo,Garowe,Bosaso,Berbera,Hargeisa,Burao,Erigavo,Las Anod,Beledweyne,Jowhar,Afgooye,Bardera,Dhusa Mareb,Garbaharrey,Qoryoley"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília"
 },
 {
     "name": "Skepi Dutch Creole",
@@ -559,7 +559,7 @@ window.unknownNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Georgetown,New Amsterdam,Vreed en Hoop,Skeldon,Rose Hall,Anna Regina,Parika,Bartica,Linden,Mahaica,Berbice,Canje,Corentyne,Demerara,Essequibo,Pomeroon,Supenaam,Wakenaam,Leguan,Parika"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília"
 },
 {
     "name": "Solombala-English",
@@ -568,7 +568,7 @@ window.unknownNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Arkhangelsk,Solombala,Severodvinsk,Novodvinsk,Kholmogory,Onega,Mezen,Pinega,Kargopol,Nyandoma,Velsk,Kotlas,Krasnoborsk,Shenkursk,Yemetsk,Leshukonskoye,Obozersky,Plesetsk,Mirny,Naryan-Mar"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
 },
 {
     "name": "Solomon Islands Pijin",
@@ -577,7 +577,7 @@ window.unknownNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Honiara,Gizo,Auki,Taro,Kirakira,Lata,Tulagi,Munda,Seghe,Noro,Kolombangara,Munda,Gizo,Noro,Taro,Auki,Lata,Kirakira,Honiara,Tulagi"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília"
 },
 {
     "name": "Taimyr Pidgin Russian",
@@ -586,7 +586,7 @@ window.unknownNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Dudinka,Norilsk,Khatanga,Taimyr,Ust-Port,Dikson,Kayerkan,Talnakh,Igarka,Turukhansk,Yeniseisk,Lesosibirsk,Boguchany,Kodinsk,Motygino,Severo-Yeniseysk,Baykit,Vanavara,Strelka,Turukhansk"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
 },
 {
     "name": "Tangwang",
@@ -595,7 +595,7 @@ window.unknownNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Tangwang,Linxia,Hezuo,Xiahe,Lintan,Zhuoni,Diebu,Zhouqu,Wudu,Wenxian,Kangxian,Chengxian,Hui County,Liangdang,Li County,Tianshui,Qinan,Gangu,Zhangjiachuan,Qingshui"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília"
 },
 {
     "name": "Tansi",
@@ -604,7 +604,7 @@ window.unknownNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Tangwang,Linxia,Hezuo,Xiahe,Lintan,Zhuoni,Diebu,Zhouqu,Wudu,Wenxian,Kangxian,Chengxian,Hui County,Liangdang,Li County,Tianshui,Qinan,Gangu,Zhangjiachuan,Qingshui"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília"
 },
 {
     "name": "Te Parau Tinito",
@@ -613,7 +613,7 @@ window.unknownNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Papeete,Faaa,Punaauia,Pirae,Mahina,Paea,Papenoo,Arue,Hitiaa,Taravao,Teahupoo,Tautira,Afaahiti,Mataiea,Papara,Teva I Uta,Taiarapu,Hitiaa O Te Ra,Mahina,Paea"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília"
 },
 {
     "name": "Tinglish",
@@ -622,7 +622,7 @@ window.unknownNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bangkok,Chiang Mai,Phuket,Pattaya,Hat Yai,Nakhon Ratchasima,Udon Thani,Khon Kaen,Chon Buri,Nakhon Si Thammarat,Songkhla,Surat Thani,Ubon Ratchathani,Nakhon Sawan,Lop Buri,Ayutthaya,Sukhothai,Lampang,Nakhon Pathom,Kanchanaburi"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília"
 },
 {
     "name": "Tsotsitaal",
@@ -631,7 +631,7 @@ window.unknownNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Johannesburg,Soweto,Pretoria,Durban,Cape Town,Port Elizabeth,Bloemfontein,Kimberley,Pietermaritzburg,East London,Rustenburg,Polokwane,Nelspruit,Witbank,Vereeniging,Vanderbijlpark,Klerksdorp,Potchefstroom,Brits,Mmabatho"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília"
 },
 {
     "name": "Unserdeutsch",
@@ -640,7 +640,7 @@ window.unknownNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Rabaul,Kokopo,Madang,Lae,Wewak,Mount Hagen,Goroka,Kundiawa,Mendi,Kimbe,Vanimo,Daru,Alotau,Popondetta,Bulolo,Wau,Kavieng,Lorengau,Manus,Buka"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília"
 },
 {
     "name": "Vedda",
@@ -649,7 +649,7 @@ window.unknownNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Dambana,Bibile,Monaragala,Mahiyanganaya,Padiyathalawa,Ampara,Kalmunai,Batticaloa,Trincomalee,Anuradhapura,Polonnaruwa,Kurunegala,Puttalam,Chilaw,Negombo,Gampaha,Kandy,Nuwara Eliya,Badulla,Bandarawela"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília"
 },
 {
     "name": "Waxiang",
@@ -658,7 +658,7 @@ window.unknownNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Xiangxi,Jishou,Luxi,Baojing,Guzhang,Yuanlong,Fenghuang,Huayuan,Longshan,Yongshun,Zhangjiajie,Cili,Sangzhi,Shimen,Taoyuan,Hanshou,Anxiang,Jinshi,Linli,Li County"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília"
 },
 {
     "name": "West Greenlandic Pidgin",
@@ -667,7 +667,7 @@ window.unknownNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Nuuk,Sisimiut,Ilulissat,Qaqortoq,Aasiaat,Maniitsoq,Tasiilaq,Paamiut,Uummannaq,Upernavik,Qasigiannguit,Qeqertarsuaq,Kangaatsiaq,Kangerlussuaq,Kullorsuaq,Savissivik,Kulusuk,Ittoqqortoormiit,Narsarsuaq,Nanortalik"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília"
 },
 {
     "name": "Xieheyu",
@@ -676,7 +676,7 @@ window.unknownNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Xiehe,Linxia,Hezuo,Xiahe,Lintan,Zhuoni,Diebu,Zhouqu,Wudu,Wenxian,Kangxian,Chengxian,Hui County,Liangdang,Li County,Tianshui,Qinan,Gangu,Zhangjiachuan,Qingshui"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília"
 },
 
 ];

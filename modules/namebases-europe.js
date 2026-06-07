@@ -10,7 +10,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath"
 },
 {
     "name": "French",
@@ -19,7 +19,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Al Ḩamīdīyah,Al Waheda,Al Karama,Al Wasl,The Palm Jumeirah,Bur Dubai,Khalifah A City"
+  "b": "Paris,Lyon,Marseille,Toulouse,Nice,Nantes,Strasbourg,Montpellier,Bordeaux,Lille,Rennes,Reims,Le Havre,Saint-Étienne,Toulon,Grenoble,Dijon,Angers,Nîmes,Villeurbanne,Saint-Denis,Le Mans,Aix-en-Provence,Clermont-Ferrand,Limoges,Tours,Amiens,Metz,Besançon,Orléans"
 },
 {
     "name": "Italian",
@@ -28,7 +28,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Mirdif,Hawr al ‘Anz,Mankhūl,Nāyf,Al Murar al Qadīm,Al Warqaa,International City,Dubai Marina,Dubai Internet City"
+  "b": "Rome,Milan,Naples,Turin,Palermo,Genoa,Bologna,Florence,Catania,Bari,Verona,Venice,Padua,Trieste,Parma,Modena,Perugia,Livorno,Cagliari,Ravenna,Foggia,Salerno,Siena,Pisa,Lucca,Ancona,Trento,Bolzano,Padova,Aosta"
 },
 {
     "name": "Castillian",
@@ -37,7 +37,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ar Rumaylah,Al Jurf,Al Majaz,Dubai Festival City,Dubai International Financial Centre,Dubai Investments Park,Bani Yas City,Musaffah,Al Shamkhah City,Reef Al Fujairah City"
+  "b": "Madrid,Barcelona,Valencia,Seville,Zaragoza,Málaga,Murcia,Palma,Bilbao,Alicante,Córdoba,Valladolid,Vigo,Gijón,La Coruña,Oviedo,Santander,Tarragona,Granada,Salamanca,Burgos,León,Pamplona,Logroño,Santiago,Toledo,Segovia,Cáceres,Cuenca,Huesca"
 },
 {
     "name": "Nordic",
@@ -46,7 +46,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Al Bada'a,Al Muteena,Al Mizhar First,Dubai Silicon Oasis,Al Furjan,Business Bay,Al Qusais 1,Halwan,Al Sajaah,Lahbab"
+  "b": "Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense,Stavanger,Reykjavik,Tromsø,Gothenburg,Malmö,Århus,Turku,Västerås,Linköping,Örebro,Drammen,Kristiansand,Sandnes,Fredrikstad,Skien,Tønsberg,Larvik,Arendal,Haugesund"
 },
 {
     "name": "Greek",
@@ -55,7 +55,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Mohammed Bin Zayed City,Nimroz,Bāzār-e Yakāwlang,Shibirghān,Ghowr,Sar-e Pol Province,Sang-e Chārak,Samangan"
+  "b": "Athens,Thessaloniki,Patras,Heraklion,Larissa,Volos,Ioannina,Chania,Rhodes,Kalamata,Corfu,Argos,Sparta,Nafplio,Olympia,Delphi,Metsovo,Kastoria,Preveza,Veria,Kilkis,Serres,Alexandroupoli,Drama,Xanthi,Komotini"
 },
 {
     "name": "Roman",
@@ -64,7 +64,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Qarqīn,Qarāwul,Paghmān,Nahrīn,Maymana,Mehtar Lām,Mazār-e Sharīf,Khowst"
+  "b": "Rome,Ostia,Tivoli,Alba Longa,Lavinium,Ardea,Aricia,Tusculum,Lanuvium,Laurentum,Praeneste,Velitrae,Nomentum,Fidenae,Crustumerium,Satricum,Antemnae,Collatia,Apiolae,Gabii,Cora,Norba,Setia,Circeii,Tarracina,Privernum"
 },
 {
     "name": "Finnic",
@@ -73,7 +73,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Khān Neshīn,Khanabad,Karukh,Jurm,Jabal os Saraj,Parwan,Ghormach"
+  "b": "Helsinki,Tampere,Turku,Oulu,Espoo,Vantaa,Jyväskylä,Kuopio,Lahti,Pori,Tallinn,Tartu,Narva,Pärnu,Viljandi,Rakvere,Kohtla-Järve,Maardu,Saue,Haapsalu,Porvoo,Loviisa,Kotka,Rauma,Valkeakoski,Kajaani"
 },
 {
     "name": "Portuguese",
@@ -82,7 +82,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kukës,Kukes County,Gjirokastër,Gjirokaster County,Bulqizë,Diber County,Vlorë,Tirana,Shkodër,Shkoder County,Rrashbull,Durres County"
+  "b": "Lisboa,Porto,Coimbra,Braga,Aveiro,Faro,Guimarães,Évora,Setúbal,Viseu,Sintra,Óbidos,Fátima,Albufeira,Algarve,Cascais,Amadora,Odivelas,Leiria,Santarem,Torres Vedras,Figueira da Foz,Ponte de Lima,Bragança,Chaves,Guarda"
 },
 {
     "name": "Hungarian",
@@ -91,7 +91,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Budapest,Debrecen,Szeged,Miskolc,Pécs,Győr,Nyíregyháza,Kecskemét,Székesfehérvár,Szombathely"
+  "b": "Budapest,Debrecen,Szeged,Miskolc,Pécs,Győr,Nyíregyháza,Kecskemét,Székesfehérvár,Szombathely,Eger,Sopron,Veszprém,Zalaegerszeg,Salgótarján,Kaposvár,Békéscsaba,Dunaújvóros,Hódmezővásárhely,Szekszárd,Kiskunfélegyháza,Cegléd,Jászberény,Paks,Baja,Szolnok"
 },
 {
     "name": "Basque",
@@ -100,7 +100,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Sanza Pombo,Piri,Pango Aluquém,N'zeto,Negage,N'dalatando,Muxaluando,Mussende,Kwanza Sul"
+  "b": "Bilbao,San Sebastian,Vitoria-Gasteiz,Pamplona,Bayonne,Biarritz,Hendaye,Irun,Getxo,Barakaldo,Santurtzi,Portugalete,Eibar,Tolosa,Errenteria,Andoain,Pasaia,Lezo,Oiartzun,Hondarribia,Irurtzun,Lizarra,Zarautz,Donostia,Ermua,Azpeitia,Zumaia"
 },
 {
     "name": "Celtic",
@@ -109,7 +109,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Cuímba,Cuilo,Cuango-Luzamba,Caxito,Cangandala,Canacassala,Camabatela,Calumbo,Cage Mazumbo"
+  "b": "Dublin,Cork,Galway,Limerick,Waterford,Derry,Belfast,Armagh,Killarney,Tralee,Sligo,Wexford,Kilkenny,Ennis,Dundalk,Navan,Naas,Arklow,Bray,Drogheda,Newry,Omagh,Letterkenny,Cavan,Monaghan,Longford,Athlone"
 },
 {
     "name": "Lechitic",
@@ -118,7 +118,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Villa Lugano,Villaguay,Villa Gesell,Villa de Mayo,Tristán Suárez,Tortuguitas,Santo Tomé,Santos Lugares,Santa Teresita"
+  "b": "Warsaw,Krakow,Wroclaw,Poznan,Gdansk,Szczecin,Lodz,Bytom,Katowice,Lublin,Bialystok,Czestochoza,Radom,Sosnowiec,Tychy,Dabrowa Gornicza,Kielce,Rzeszow,Gdynia,Zabrze,Opole,Olsztyn,Torun,Gliwice,Zielona Gorzow,Sopot"
 },
 {
     "name": "Czech-Slovak",
@@ -127,7 +127,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "San Luis del Palmar,San Justo,San Antonio de Padua,Saladillo,Saladas,Retiro"
+  "b": "Prague,Brno,Bratislava,Ostrava,Plzen,Liberec,Olomouc,Ceske Budejovice,Hradec Kralove,Pardubice,Zlin,Kosice,Presov,Zilina,Nitra,Trnava,Trencin,Martin,Banska Bystrica,Poprad,Komarno,Prievidza,Michalovce,Spisska Nova Ves,Hlohovec,Levice,Galanta"
 },
 {
     "name": "South Slavic BCS",
@@ -136,7 +136,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Reconquista,Puerto Iguazú,Puerto Eldorado,Pirané,Pinamar,Paso de los Libres,Oberá"
+  "b": "Sarajevo,Banja Luka,Tuzla,Zenica,Bijeljina,Mostar,Prijedor,Brcko,Doboj,Gradiska,Zvornik,Visoko,Srebrenik,Gradacac,Tesanj,Laktaši,Livno,Zavidovic,Prnjavor,Kakanj,Zepce,Trebinje,Konjic,Derventa,Ilidza,Cazin,Bosanska Krupa"
 },
 {
     "name": "Somontanés",
@@ -145,7 +145,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Don Torcuato,Curuzú Cuatiá,Concordia,Concepción del Uruguay,Colegiales,Chascomús,Chajarí,Castelar"
+  "b": "Barbastro,Huesca,Ayerbe,Nocito,Adahuesca,Almudévar,Fuencalderas,Sabiñánigo,Jaca,Biescas,Benasque,Ansó,Hecho,Jasa,Aragüés,San Juan de la Peña,Riglos,Loarre,Agüero,Aniés,Murillo de Gállego,San Mateo de Gállego,Yésero,Candasnos,Berbegal"
 },
 {
     "name": "Bulgarian",
@@ -154,7 +154,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Cinco Saltos,Chivilcoy,Chimbas,Chilecito,Charata,Chacabuco,Centenario,Caucete,Catriel,Juan José Castelli"
+  "b": "Sofia,Plovdiv,Varna,Burgas,Ruse,Stara Zagora,Pleven,Sliven,Dobrich,Shumen,Pernik,Yambol,Haskovo,Pazardzhik,Blagoevgrad,Veliko Tarnovo,Gabrovo,Asenovgrad,Vratsa,Kazanlak,Targovishte,Razgrad,Botevgrad,Lovech,Samokov,Kardzhali"
 },
 {
     "name": "Ukrainian",
@@ -163,7 +163,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kyiv,Kharkiv,Odesa,Dnipro,Donetsk,Lviv,Zaporizhzhia,Kryvyi Rih,Mykolaiv,Vinnytsia"
+  "b": "Kyiv,Kharkiv,Odesa,Dnipro,Donetsk,Lviv,Zaporizhzhia,Kryvyi Rih,Mykolaiv,Vinnytsia,Sumy,Chernihiv,Zhytomyr,Poltava,Kherson,Ivano-Frankivsk,Lutsk,Ternopil,Uzhhorod,Rivne,Chernivtsi,Mukachevo,Kropyvnytskyi,Khmelnytskyi,Drohobych"
 },
 {
     "name": "Irish Gaelic",
@@ -172,7 +172,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Morayfield,South Morang,Mooroolbark,Moonee Ponds,Mitcham,Mill Park,Merrylands,Mernda,Mascot"
+  "b": "Dublin,Cork,Galway,Limerick,Waterford,Derry,Belfast,Armagh,Killarney,Tralee,Sligo,Wexford,Kilkenny,Ennis,Dundalk,Navan,Naas,Arklow,Bray,Drogheda,Newry,Omagh,Letterkenny,Cavan,Monaghan,Longford,Athlone,Enniscorthy"
 },
 {
     "name": "Scottish Gaelic",
@@ -181,7 +181,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Maryborough,Marrickville,Maroubra,Manly,Maitland,Mackay,Lilydale,Lidcombe"
+  "b": "Glasgow,Edinburgh,Aberdeen,Dundee,Inverness,Perth,Stirling,Hamilton,Dunfermline,Kilmarnock,Ayr,Paisley,Oban,Fort William,Ullapool,Stornoway,Lerwick,Dornoch,Aviemore,Mallaig,Culloden,Ballachulish,Glencoe,Achnasheen,Plockton,Torridon"
 },
 {
     "name": "South Estonian A",
@@ -190,7 +190,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Buderim,Brunswick,Boronia,Blacktown,Bexley,Bentleigh East,Bentleigh,Bendigo"
+  "b": "Võru,Tartu,Põlva,Valga,Räpina,Vastseliina,Haanja,Mõniste,Kanepi,Värska,Setomaa,Luutja,Leevi,Lasva,Orava,Pelgulina,Meremäe,Mikitamäe,Võru,Tartu,Põlva,Valga,Räpina,Vastseliina,Haanja,Mõniste,Kanepi,Värska,Setomaa"
 },
 {
     "name": "South Estonian B",
@@ -199,7 +199,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Baulkham Hills,Batemans Bay,Banora Point,Bankstown,Ballarat,Bairnsdale,Bacchus Marsh,Ashfield,Ascot Vale"
+  "b": "Võru,Tartu,Põlva,Valga,Räpina,Vastseliina,Haanja,Mõniste,Kanepi,Värska,Setomaa,Luutja,Leevi,Lasva,Orava,Pelgulina,Meremäe,Mikitamäe,Võru,Tartu,Põlva,Valga,Räpina,Vastseliina,Haanja,Mõniste,Kanepi,Värska,Setomaa"
 },
 {
     "name": "Middle English",
@@ -208,7 +208,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Albany Creek,Maroochydore,Cheltenham,Randwick,Dee Why,Umina Beach,Hervey Bay,Blue Mountains,Sydney Central Business District"
+  "b": "London,York,Canterbury,Winchester,Chester,Durham,Norwich,Ipswich,Exeter,Lincoln,Hereford,Worcester,Gloucester,Bath,Shrewsbury,Stafford,Leicester,Coventry,Nottingham,Derby,Newcastle,Carlisle,Bristol,Oxford,Cambridge"
 },
 {
     "name": "Old English",
@@ -217,7 +217,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Balwyn North,Malvern East,Brighton East,Redbank Plains,Labrador,Central Coast,Endeavour Hills,Kellyville,Taylors Lakes"
+  "b": "London,Winchester,York,Canterbury,Chester,Durham,Norwich,Ipswich,Exeter,Lincoln,Hereford,Worcester,Gloucester,Bath,Shrewsbury,Stafford,Leicester,Coventry,Nottingham,Derby,Newcastle,Carlisle,Bristol,Oxford,Cambridge"
 },
 {
     "name": "Samoyedic Arctic",
@@ -226,7 +226,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Cranebrook,Greenacre,Greystanes,Ellenbrook,Alexandra Hills,Calamvale,Yagoona,Highton,Pacific Pines"
+  "b": "Naryan-Mar,Salekhard,Krasnoyarsk,Turukhansk,Igarka,Dudinka,Norilsk,Talnach,Khatanga,Taimyr,Yamalo-Nenets,Khanty-Mansiysk,Surgut,Nizhnevartovsk,Novy Urengoy,Nadym,Pur,Taz,Urengoy,Labytnangi,Naryan-Mar,Salekhard,Kazym,Konda,Ngarma"
 },
 {
     "name": "Nenets",
@@ -235,7 +235,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Santa Maria do Pará,Santa Maria das Barreiras,Santa Maria da Boa Vista,Santa Isabel do Pará,Santa Inês,Santa Helena,Santa Cruz do Capibaribe,Sanharó"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Bustocco-Legnanese",
@@ -244,7 +244,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Laiuse,Tartu,Tallinn,Narva,Pärnu,KohtlaJärve,Valga,Viljandi,Rakvere,Maardu,Sillamäe,Kuressaare,Haapsalu,Põltsamaa"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Cadorino",
@@ -253,7 +253,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Laiuse,Tartu,Tallinn,Narva,Pärnu,KohtlaJärve,Valga,Viljandi,Rakvere,Paide,Tapa,Jõhvi,Kiviõli,Rapla"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Calabro",
@@ -262,7 +262,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Laiuse,Tartu,Tallinn,Narva,Pärnu,KohtlaJärve,Valga,Viljandi,Rakvere,Elva,Võru,Antsla,Kallaste,Mustvee"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Campano",
@@ -271,7 +271,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Laiuse,Tartu,Tallinn,Narva,Pärnu,KohtlaJärve,Valga,Viljandi,Rakvere,Rõuge,Otepää,Palamuse,Sadala,Voore"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Campidanese",
@@ -280,7 +280,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Laiuse,Tartu,Tallinn,Narva,Pärnu,KohtlaJärve,Valga,Viljandi,Rakvere,Kohtla,Alatskivi,Adavere,Pikavere,Kohila"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Canarian",
@@ -289,7 +289,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Laiuse,Tartu,Tallinn,Narva,Pärnu,KohtlaJärve,Valga,Viljandi,Rakvere,Põltsamaa,Türi,Rapla,Märjamaa,Vigala"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Akkala Sami",
@@ -298,7 +298,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Laiuse,Tartu,Tallinn,Narva,Pärnu,KohtlaJärve,Valga,Viljandi,Rakvere,Kohila,Keila,Saue,Lelle,Hageri"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Finnmark Sami",
@@ -307,7 +307,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Laiuse,Tartu,Tallinn,Narva,Pärnu,KohtlaJärve,Valga,Viljandi,Rakvere,Tapa,Lasva,Vastseliina,Meremäe,Obja"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Inari Sami",
@@ -316,7 +316,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Laiuse,Tartu,Tallinn,Narva,Pärnu,KohtlaJärve,Valga,Viljandi,Rakvere,Rakke,Palamuse,Võhma,SuureJaani,Kõo"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Kainuu Sami",
@@ -325,7 +325,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Laiuse,Tartu,Tallinn,Narva,Pärnu,KohtlaJärve,Valga,Viljandi,Rakvere,Põltsamaa,Järvakandi,Kaiu,Harmi,Rõuge"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Kemi Sami",
@@ -334,7 +334,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Laiuse,Tartu,Tallinn,Narva,Pärnu,KohtlaJärve,Valga,Viljandi,Rakvere,Viljandi,Saarepeedi,Pärsti,Roogõ,Tammiku"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Kildin Sami",
@@ -343,7 +343,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Laiuse,Tartu,Tallinn,Narva,Pärnu,KohtlaJärve,Valga,Viljandi,Rakvere,Tori,Are,Surju,Kilingi,Vändra"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Lule Sami",
@@ -352,7 +352,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Laiuse,Tartu,Tallinn,Narva,Pärnu,KohtlaJärve,Valga,Viljandi,Rakvere,Rõuge,Haanja,Mõniste,Misso,Vastseliina"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Catalan",
@@ -361,7 +361,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Laiuse,Tartu,Tallinn,Narva,Pärnu,KohtlaJärve,Valga,Viljandi,Rakvere,Põltsamaa,Adavere,Palamuse,Käravete,Järvakandi"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Cantabrian",
@@ -370,7 +370,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Laiuse,Tartu,Tallinn,Narva,Pärnu,KohtlaJärve,Valga,Viljandi,Rakvere,Kohila,Lelle,Keila,Saue,Nissi"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Castrapo",
@@ -379,7 +379,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Santiago de Compostela,A Coruna,Vigo,Pontevedra,Ourense,Lugo,Ferrol,Naron,Carballo,Arteixo"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Norman",
@@ -388,7 +388,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Paraty,Paraopeba,Paranoá,Paranavaí,Paranapanema,Paranaíba,Paranaguá,Paramirim,Paraisópolis,Paraibuna"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Cauchois",
@@ -397,7 +397,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Paraíba do Sul,Paraguaçu Paulista,Paraguaçu,Pará de Minas,Paracatu,Paracambi,Papanduva,Pancas,Panambi,Palotina"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Augeron",
@@ -406,7 +406,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Palmitos,Palmital,Palmeiras de Goiás,Palmeira das Missões,Palmeira,Palmas de Monte Alto,Palhoça,Paiçandu,Padre Paraíso"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Cotentinais",
@@ -415,7 +415,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Padre Bernardo,Ouro Fino,Ouro Branco,Ourolândia,Ourinhos,Otacílio Costa,Osvaldo Cruz,Osório"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Auregnais",
@@ -424,7 +424,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Orlândia,Orizona,Oliveira dos Brejinhos,Oliveira,Olindina,Olímpia,Núcleo Bandeirante,Novo Horizonte,Novo Hamburgo,Novo Cruzeiro"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Guernésiais",
@@ -433,7 +433,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Nova Viçosa,Nova Venécia,Nova Soure,Nova Serrana,Nova Resende,Nova Petrópolis,Nova Olímpia,Nova Odessa,Nova Lima"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Jèrriais",
@@ -442,7 +442,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Nova Iguaçu,Nova Granada,Nova Friburgo,Nova Esperança,Nova Era,Nossa Senhora do Socorro,Freguesia do Ó,Nossa Senhora das Dores,Nossa Senhora da Glória,Nordestina"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Jersey Legal French",
@@ -451,7 +451,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Nobres,Niterói,Niquelândia,Nilópolis,Nerópolis,Nepomuceno,Neópolis,Nazaré Paulista,Nazaré"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Aragonese",
@@ -460,7 +460,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Jaguapitã,Jacutinga,Jacupiranga,Jacobina,Jaciara,Jacarezinho,Jacareí,Jaguaré,Jaboticabal,Jaboticatubas"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Central Aragonese",
@@ -469,7 +469,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ivoti,Ivaiporã,Iúna,Ituverava,Iturama,Ituporanga,Itupeva,Itumbiara,Ituiutaba,Ituberá"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Castilian",
@@ -478,7 +478,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ituaçu,Itororó,Itiúba,Itirapina,Itaúna,Itatinga,Itatiba,Itatiaia,Itariri,Itararé"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Castelmezzano",
@@ -487,7 +487,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Itarantim,Itaqui,Itaquera,Itaquaquecetuba,Itapuranga,Itaporanga d'Ajuda,Itápolis,Teofilândia,Itapiranga"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Central Italian",
@@ -496,7 +496,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Itapira,Itapicuru,Itapevi,Itapeva,Itapetininga,Itapetinga,Itaperuna,Itaperuçu,Itapemirim,Itapema"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Central Marchigiano",
@@ -505,7 +505,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Itapoá,Itapecerica da Serra,Itapecerica,Itaparica,Itapaci,Itaocara,Itanhém,Itanhandu,Itanhaém,Itambacuri"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Central Metafonetica",
@@ -514,7 +514,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Itamarandiba,Itamaraju,Itajuípe,Itajubá,Itajobi,Itagibá,Itajaí,Itaiópolis,Itaí,Itaguaí"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Central-Southern Calabrian",
@@ -523,7 +523,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Itacaré,Itacarambi,Itabuna,Itaboraí,Itabirito,Itabira,Itaberaí,Itaberaba,Itaberá,Itabaianinha"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Butler English",
@@ -532,7 +532,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ibiúna,Ibititá,Ibitinga,Ibirubá,Ibirité,Ibirataia,Ibirapitanga,Ibirama,Ibiporã,Santa Rita de Cássia"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Angevin",
@@ -541,7 +541,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Caraguatatuba,Capivari,Capinzal,Capim Grosso,Capelinha,Capela do Alto,Capão do Leão,Capão da Canoa,Capão Bonito"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Burgundian",
@@ -550,7 +550,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Cantagalo,Cansanção,Canoinhas,Canoas,Canguçu,Canela,Cândido Mota,Cândido de Abreu,Candeias,Canavieiras"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Champenois",
@@ -559,7 +559,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Canarana,João Dourado,Campos Novos,Campos Gerais,Campos do Jordão,Campos Belos,Campos dos Goytacazes,Quedas do Iguaçu,Campo Magro"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Poitevin",
@@ -568,7 +568,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Campo Limpo,Campo Limpo Paulista,Campo Largo,Campo Formoso,Campo do Brito,Campo Bom,Campo Belo,Campina Verde,Campina Grande do Sul"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Saintongeais",
@@ -577,7 +577,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Campina da Lagoa,Campestre,Campanha,Cambuí,Cambuci,Camboriú,Cambé,Cambará,Camaquã,Camanducaia"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Aas-whistled",
@@ -586,7 +586,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Camamu,Camaçari,Camacan,Caldas Novas,Cajuru,Cajati,Cajamar,Cairu,Caieiras,Caiapônia"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Aranese",
@@ -595,7 +595,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Cafelândia,Cafarnaum,Caetité,Caeté,Caculé,Caconde,Cachoeiro de Itapemirim,Cachoeiras de Macacu,Cachoeira Paulista"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "B-arnese",
@@ -604,7 +604,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Cachoeira do Sul,Cachoeira,Caçapava do Sul,Caçapava,Caçador,Cabreúva,Cabo Frio,Governador Mangabeira,Cabaceiras do Paraguaçu"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Abruzzese",
@@ -613,7 +613,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Butiá,Buritizeiro,Buritis,Buritirama,Buritama,Buri,Boquim,Brusque,Brumado,Brumadinho"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Arianese",
@@ -622,7 +622,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Brotas,Brodowski,Brazlândia,Brasília de Minas,Bragança Paulista,Braço do Norte,Botucatu,Holambra,Borda da Mata"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Barese",
@@ -631,7 +631,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lisbon,Porto,Coimbra,Braga,Aveiro,Faro,Loule,Evora,Funchal,Cascais"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Basilicatine",
@@ -640,7 +640,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Boa Esperança,Blumenau,Bituruna,Biritinga,Biritiba Mirim,Birigui,Biguaçu,Bertioga,Bento Gonçalves,Belo Oriente"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Benevento",
@@ -649,7 +649,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Belo Campo,Belford Roxo,Bela Vista de Goiás,Bebedouro,Bauru,Batatais,Bataguassu,Bastos"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Cilentan",
@@ -658,7 +658,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Barueri,Barroso,Barrocas,Barrinha,Barretos,Barreiro do Jaíba,Barreiras,Barra Velha,Barra Mansa,Barra dos Coqueiros"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Cosentino",
@@ -667,7 +667,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Barra do Piraí,Barra do Garças,Barra do Bugres,Barra de São Francisco,Barra da Estiva,Barra do Choça,Barra Bonita,Bariri,Barbacena,Barão de Cocais"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Irpino",
@@ -676,7 +676,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bandeirantes,Balneário Rincão,Balneário Camboriú,Baixo Guandu,Baixa Grande,Baependi,Bady Bassitt,Avaré,Atibaia"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Northern Calabrian",
@@ -685,7 +685,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Araxá,Araucária,Araruama,Araras,Araraquara,Araranguá,Araquari,Arapoti"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Pugliese",
@@ -694,7 +694,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bari,Brindisi,Lecce,Taranto,Foggia,Andria,Barletta,Trani,Monopoli,San Severo"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "South Lucanian",
@@ -703,7 +703,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Potenza,Matera,Melfi,Policoro,Venosa,Lagonegro,Lauria,Rotonda,Chiaromonte,Francavilla in Sinni"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Southern Latian",
@@ -712,7 +712,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Almirante Tamandaré,Almenara,Presidente Tancredo Neves,Alfenas,Além Paraíba,Alegrete,Alegre,Alcobaça,Alagoinhas,Aimorés"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Southern Laziale",
@@ -721,7 +721,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Agudos,Agudo,Águas Formosas,Águas de Lindóia,Água Rasa,Aguaí,Água Clara,Afonso Cláudio,Adamantina,Abelardo Luz"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Tarantino",
@@ -730,7 +730,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Abaeté,Leblon,Guaíba,Comodoro,Bombinhas,Pontal do Paraná,Lagoa da Confusão"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Vastese",
@@ -739,7 +739,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Rondonia,Novo Aripuanã,Novo Airão,Manicoré,Mâncio Lima"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Ardennais",
@@ -748,7 +748,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lábrea,Humaitá,Eirunepé,Caracaraí,Canutama"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Berrichon",
@@ -757,7 +757,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Boca do Acre,Beruri,Iranduba,Presidente Figueiredo,Careiro,Manaquiri,Xapuri"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Bourbonnais",
@@ -766,7 +766,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Senador Guiomard,Presidente Médici,Rolim de Moura do Guaporé,Plácido de Castro,Pimenta Bueno,Ouro Preto do Oeste,Ji Paraná,Guajará Mirim,Espigão dOeste"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "French (fra)",
@@ -775,7 +775,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Brasiléia,Abadia de Goiás,Açailândia,Acreúna,Água Azul do Norte,Águas Lindas de Goiás,Aldeias Altas,Alexânia,Alta Floresta d'Oeste"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Frainc-Comtou",
@@ -784,7 +784,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Besançon,Belfort,Montbéliard,Dole,Pontarlier,Lons-le-Saunier,Vesoul,Saint-Claude,Gray,Audincourt"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Gallo",
@@ -793,7 +793,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bom Jesus do Tocantins,Breu Branco,Cachoeira do Piriá,Campo Novo do Parecis,Canaã dos Carajás,Candeias do Jamari,Cândido Sales,Cantá"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Gaumais",
@@ -802,7 +802,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Capivari de Baixo,Cerejeiras,Chapadão do Sul,Cocalzinho de Goiás,Colíder,Colniza,Colorado do Oeste,Concórdia do Pará,Confresa,Coronel João Sá"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Law French",
@@ -811,7 +811,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Curionópolis,Dom Eliseu,Dormentes,Eldorado do Sul,Eldorado dos Carajás,Epitaciolândia,Ermelino Matarazzo,Estrela de Alagoas,Fátima do Sul"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Lorrain",
@@ -820,7 +820,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Metz,Nancy,Bar-le-Duc,Thionville,Epinal,Toul,Verdun,Sarrebourg,Forbach,Hayange"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Mayennais",
@@ -829,7 +829,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Indiara,Ipixuna do Pará,Itabela,Juína,Lambari d'Oeste"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Meridional French",
@@ -838,7 +838,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Laranjal do Jari,Lauro de Freitas,Machadinho d'Oeste,Mãe do Rio,Mário Campos,Marituba,Matões do Norte,Matupá,Medicilândia,Minaçu"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Orleanais",
@@ -847,7 +847,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Mojuí dos Campos,Nova Alvorada do Sul,Nova Andradina,Nova Esperança do Piriá,Nova Mamoré,Nova Mutum"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Paydret",
@@ -856,7 +856,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Pedro Canário,Pedro do Rosário,Peixoto de Azevedo,Petrolândia,Pinhais,Placas,Potim"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Picard",
@@ -865,7 +865,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Presidente Sarney,Querência,Quitandinha,Raposa,Santo Anastácio,Rio Maria,Rio Preto da Eva,Rolim de Moura,Rondon do Pará"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Aeolian",
@@ -874,7 +874,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lipari,Malfa,Leni,Filicudi,Alicudi,Salina,Panarea,Stromboli,Vulcano,Panarea"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Alentejan",
@@ -883,7 +883,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Sooretama,Sorriso,Souto Soares,Tailândia,Tangará da Serra"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Algherese",
@@ -892,7 +892,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Trairão,Três Marias,Trizidela do Vale,Ubiratã,Ulianópolis,Uruará,Valparaíso de Goiás,Vargem Grande Paulista,Vila Rica,Vitória do Xingu"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Ancona",
@@ -901,7 +901,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Xangri-lá,Xinguara,Zé Doca,Terra Roxa,Taguatinga,Barra da Tijuca,Tatuapé,Consolação,Rocinha,Vidigal"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Andalusi Romance",
@@ -910,7 +910,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Estácio,Catete,Pirituba,Limão,Vila Galvão,Jardim Paulista,Freguesia do Ribeirao da Ilha,Olho d’Água das Cunhãs,Teotônio Vilela"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Andalusian",
@@ -919,7 +919,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Mirassol d'Oeste,Brasilândia de Minas,Governador Edison Lobão,Brasil Novo,Pôr do Sol,Itaim Bibi,Vicente Pires,Moema,Livramento de Nossa Senhora"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Ansó",
@@ -928,7 +928,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Luis Eduardo Magalhães,Sapezal,Artur Alvim,Anhanguera,Cidade Dutra,Capao Redondo,Casa Verde,Sao Lucas"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Aretino-Chianaiolo",
@@ -937,7 +937,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Rio Pequeno,Carrao,Alto De Pinheiros,Cidade Lider,Aricanduva,Jaçanã,Jaguara,Jabaquara,Cidade Ademar"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Argentinian Spanish",
@@ -946,7 +946,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Barra Funda,Brasilandia,Butanta,Cangaiba,Cursino,Vila Prudente,Morumbi"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Arpitan",
@@ -955,7 +955,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Mandaqui,Jardim Angela,Vila Formosa,Vila Guilherme,Vila Jacui,Vila Matilde,Vila Medeiros,Santa Cecilia,Parque Do Carmo"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Auvergnat",
@@ -964,7 +964,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ponte Rasa,Raposo Tavares,Vila Leopoldina,Cidade Tiradentes,Jardim Helena,Jardim Sao Luis,Republica"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Balearic",
@@ -973,7 +973,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Sacomã,Sao Rafael,Vila Andrade,Vila Curuca,Bosque Saúde,Bairro da Penha,Bairro Parque Nossa Senhora do Carmo,Sudoeste/Octagonal,Lago Sul"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Banat",
@@ -982,7 +982,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lago Norte,Jardim Botânico,Sobradinho II,Riacho Fundo II,Riacho Fundo,Samambaia,Águas Claras,Setor Complementar de Indústria e Abastecimento,Park Way"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Barranquenho",
@@ -991,7 +991,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Apicum-Açu,Centro Novo do Maranhão,Turilândia,Santa Luzia do Paruá,Buriticupu,Tapurah,Guarantã do Norte,Campinápolis,Brasnorte,Cidade Ocidental"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Bercian",
@@ -1000,7 +1000,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "São José da Lapa,Recanto das Emas,Serra do Ramalho,Plano Piloto,Bahamas,New Providence,Lucaya,Thimphu District"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Bergamasque",
@@ -1009,7 +1009,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Tsirang District,Tonota,Kweneng,Selibe Phikwe,Mosopa,Ngwaketsi,Kgatleng"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Bolognese",
@@ -1018,7 +1018,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Janeng,Gabane,City of Francistown,Bobonong,Mmopone,Tutume"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Brianzoo",
@@ -1027,7 +1027,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Nesvizh,Novogrudok,Minsk City,Mar’ina Gorka,Maladziečna,Mahilyow,Lyepyel’,Luninyets,Logoysk"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Brigasc",
@@ -1036,7 +1036,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Krychaw,Kalodzishchy,Klimovichi,Kalinkovichi,Ivatsevichi,Ivanovo,Hrodna,Horki,Homyel'"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "British Latin",
@@ -1045,7 +1045,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Hlybokaye,Dzyarzhynsk,Dobrush,Bykhov,Byaroza,Barysaw,Oshmyany,Fanipol"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Bukovinian",
@@ -1054,7 +1054,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Belize District,Orange Walk District,Cayo District,British Columbia,Agincourt North,Ahuntsic-Cartierville,Airdrie,Alberta,Ajax,Alliston"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Canzes",
@@ -1063,7 +1063,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Alma,Alta Vista,Amos,Arbutus Ridge,Armdale,Nova Scotia,Bayview Village,Beaconsfield,Belleville"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Central-Northern Lazian",
@@ -1072,7 +1072,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Beloeil,Bendale,Blainville,Boisbriand,Boucherville,Bowmanville,Bracebridge,Brandon,Manitoba"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Cheso",
@@ -1081,7 +1081,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Brant,Brighouse-City Centre,Broadmoor,Brocklehurst,Brockville,Brooklin,Brossard,Burnaby,Caledon"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Comasco-Lecchese",
@@ -1090,7 +1090,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Colwood,Conception Bay South,Newfoundland and Labrador,Cornwall,Côte-Saint-Luc,Coventry Hills,Cranbrook,Dartmouth"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Corsican",
@@ -1099,7 +1099,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Deux-Montagnes,Dollard-Des Ormeaux,Dorset Park,Dorval,Duvernay,East Gwillimbury,Edgemont,Edmonton,Humbermede"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Cremish",
@@ -1108,7 +1108,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Esquimalt,Etobicoke,Evergreen,Fleetwood,Flemingdon Park,Forest Heights,Fort Erie,Fort McMurray,Fort St. John,Fraser Heights"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Cremun-S",
@@ -1117,7 +1117,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Glace Bay,Gordon Head,Grande Prairie,Greater Sudbury,Grandview-Woodlands,Greater Napanee,Greenfield Park"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Cri-ana",
@@ -1126,7 +1126,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Oradea,Arad,Cluj-Napoca,Salonta,Beius,Alesd,Marghita,Stei,Chisineu-Cris,Curtea de Arges"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Daco-Romanian",
@@ -1135,7 +1135,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Joliette,Kanata,Kelowna,Kennedy Park,Kensington-Cedar Cottage,Keswick,Kingsville,Kirkland"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Dalmatian",
@@ -1144,7 +1144,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kitsilano,Laflèche,Langford,Langley,La Prairie,LaSalle,L'Assomption,Laval-des-Rapides,Leamington"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Eastern Aragonese",
@@ -1153,7 +1153,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Leduc,Les Coteaux,Lethbridge,Lindsay,Lloydminster,Longueuil,Lower Lonsdale,Lutes Mountain,Magog"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Eastern Catalan",
@@ -1162,7 +1162,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Maillardville,Malvern,Maple Ridge,Mascouche,McKenzie Towne,Medicine Hat,Metrotown,Midland"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Eastern Lombard",
@@ -1171,7 +1171,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Brescia,Bergamo,Monza,Como,Cremona,Lodi,Mantova,Pavia,Varese,Lecco"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Eastern Nonmetafonetica",
@@ -1180,7 +1180,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Catania,Siracusa,Ragusa,Augusta,Lentini,Paterno,Carlentini,Militello,Francofonte,Scordia"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Eastern Romanian",
@@ -1189,7 +1189,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bucharest,Cluj-Napoca,Timișoara,Iași,Constanța,Craiova,Galați,Ploiești,Oradea,Brăila"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Ecuadorian Spanish",
@@ -1198,7 +1198,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Quito,Guayaquil,Cuenca,Santo Domingo,Machala,Durán,Portoviejo,Manta,Loja,Ambato"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Emilian",
@@ -1207,7 +1207,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bologna,Modena,Parma,Reggio Emilia,Piacenza,Ferrara,Ravenna,Forlì,Cesena,Rimini"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Ennese",
@@ -1216,7 +1216,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Enna,Piazza Armerina,Nicosia,Aidone,Sperlinga,Gangi,Valguarnera Caropepe,Barrafranca,Morgantina,Caltanissetta"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Eonavian",
@@ -1225,7 +1225,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Boal,Castropol,Coaña,Eilao,El Franco,Grandas de Salime,Pezós,Taramundi,Tapia de Casariego,Vilanova de Ozcos"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Estremenho",
@@ -1234,7 +1234,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lisbon,Coimbra,Santarem,Leiria,Torres Vedras,Caldas da Rainha,Setúbal,Almada,Amadora,Odivelas"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "European Portuguese",
@@ -1243,7 +1243,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lisbon,Porto,Coimbra,Braga,Aveiro,Faro,Guimarães,Évora,Setúbal,Viseu"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Extremaduran",
@@ -1252,7 +1252,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Caceres,Plasencia,Mérida,Badajoz,Almendralejo,Don Benito,Navalmoral de la Mata,Miajadas,Coria,Guadalupe"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Fabriano",
@@ -1261,7 +1261,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lakewood,Cocos (Keeling) Islands,Congo,The Democratic Republic of the,Haut-Uele"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Faetar",
@@ -1270,7 +1270,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "North Kivu,Haut-Katanga,Lomami,Haut-Lomami,Ituri,East Kasai"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Fala",
@@ -1279,7 +1279,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Cáceres,Plasencia,Mérida,Badajoz,Almendralejo,Don Benito,Navalmoral de la Mata,Miajadas,Coria,Guadalupe"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Ferrarese",
@@ -1288,7 +1288,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ferrara,Cento,Comacchio,Argenta,Portomaggiore,Copparo,Bondeno,Poggio Renatico,Voghiera,Migliaro"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Fiuman",
@@ -1297,7 +1297,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Rijeka,Pula,Osijek,Zadar,Split,Dubrovnik,Varaždin,Karlovac,Šibenik,Slavonski Brod"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Florentine",
@@ -1306,7 +1306,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Florence,Pisa,Lucca,Arezzo,Siena,Prato,Livorno,Pistoia,Grosseto,Massa"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Forlivese",
@@ -1315,7 +1315,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Forlì,Cesena,Rimini,Ravenna,Faenza,Imola,San Marino,Forlimpopoli,Bertinoro,Castrocaro"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Fornes",
@@ -1324,7 +1324,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Haut-Mbomou,Bamingui-Bangoran,Ouaka,Haute-Kotto,Basse-Kotto,Ombella-M'Poko"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Franco-Italian",
@@ -1333,7 +1333,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lim-Pende,Sangha-Mbaere,Lobaye,Nana-Grebizi,Ouham-Fafa,Mambere,Ouham-Pende,Nana-Mambere"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Franco-Provençal",
@@ -1342,7 +1342,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ouham,Mambere-Kadei,Batangafo,Baboua,Lekoumou,Cuvette"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Galician",
@@ -1351,7 +1351,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Mindouli,Vaud,Saint Gallen,Aargau,Vevey"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Galician-Asturian",
@@ -1360,7 +1360,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Oviedo,Gijón,Avilés,Mieres,Langreo,Siero,Cangas del Narcea,Llanes,Cudillero,Tineo"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Gallo-Italic of Basilicata",
@@ -1369,7 +1369,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Potenza,Matera,Melfi,Policoro,Venosa,Lagonegro,Lauria,Rotonda,Chiaromonte,Francavilla in Sinni"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Gallo-Italic of Sicily",
@@ -1378,7 +1378,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Palermo,Catania,Messina,Syracuse,Agrigento,Trapani,Caltanissetta,Enna,Ragusa,Licata"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Gallo-Picene",
@@ -1387,7 +1387,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ancona,Pesaro,Macerata,Fermo,Ascoli Piceno,Civitanova Marche,San Benedetto del Tronto,Recanati,Matelica,Cingoli"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Gallurese",
@@ -1396,7 +1396,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Sassari,Olbia,Alghero,Tempio Pausania,Palau,La Maddalino,Arzachena,Badesi,Oschiri,Luras"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Gardiol",
@@ -1405,7 +1405,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lacs District,Bas-Sassandra District,Woroba,Vallee du Bandama District,Savanes District,Tiassalé,Lagunes District,Zanzan District"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Gascon",
@@ -1414,7 +1414,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bordeaux,Toulouse,Pau,Auch,Arcachon,Biarritz,Bayonne,Dax,Mont-de-Marsan,Agen"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Genoese",
@@ -1423,7 +1423,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Genoa,Savona,La Spezia,Chiavari,Rapallo,Albenga,Loano,Varazze,Recco,Sestri Levante"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Grossetano",
@@ -1432,7 +1432,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Grosseto,Orbetello,Follonica,Porto Ercole,Castiglione della Pescaia,Massa Marittima,Scansano,Manciano,Sorano,Pitigliano"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Haketia",
@@ -1441,7 +1441,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Casablanca,Rabat,Marrakech,Fez,Tangier,Agadir,Meknes,Oujda,Kenitra,Tetouan"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Intemelio",
@@ -1450,7 +1450,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Genoa,Savona,La Spezia,Chiavari,Rapallo,Albenga,Loano,Varazze,Recco,Sestri Levante"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Istriot",
@@ -1459,7 +1459,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Rovinj,Vodnjan,Bale,Fažana,Šišan,Galižana,Pula,Istria,Lim,Raša"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Jauer",
@@ -1468,7 +1468,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Chur,Davos,St. Moritz,Arosa,Landquart,Ilanz,Domleschg,Thusis,Surses,Albula"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Judeo-Catalan",
@@ -1477,7 +1477,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Barcelona,Girona,Lleida,Tarragona,Valencia,Palma de Mallorca,Perpignan,Tortosa,Reus,Igualada"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Judeo-Gascon",
@@ -1486,7 +1486,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Coquimbo Region,Atacama,Los Rios Region,Antofagasta,Maule Region"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Landese",
@@ -1495,7 +1495,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bordeaux,Toulouse,Pau,Auch,Arcachon,Biarritz,Bayonne,Dax,Mont-de-Marsan,Agen"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Languedocien",
@@ -1504,7 +1504,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Toulouse,Montpellier,Nîmes,Perpignan,Carcassonne,Béziers,Albi,Castres,Narbonne,Millau"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Latin",
@@ -1513,7 +1513,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Rome,Ostia,Tivoli,Alba Longa,Lavinium,Tusculum,Aricia,Lanuvium,Praeneste,Tibur"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Leonese",
@@ -1522,7 +1522,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "León,Ponferrada,Astorga,Bembibre,Cistierna,La Bañeza,Sahagún,Villafranca del Bierzo,Benavente,Valencia de Don Juan"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Ligurian",
@@ -1531,7 +1531,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Genoa,Savona,La Spezia,Chiavari,Rapallo,Albenga,Loano,Varazze,Recco,Sestri Levante"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Limousin",
@@ -1540,7 +1540,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Limoges,Brive-la-Gaillarde,Tulle,Ussel,Guéret,Saint-Junien,Aixe-sur-Vienne,Panazol,Issoire,Châteauroux"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Llanito",
@@ -1549,7 +1549,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Gibraltar,Seville,Madrid,Barcelona,Valencia,Málaga,Córdoba,Granada,Bilbao,Zaragoza"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Logudorese",
@@ -1558,7 +1558,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Sassari,Nuoro,Ozieri,Oliena,Macomer,Dorgali,Orune,Bitti,Ottana,Ittiri"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Lombard",
@@ -1567,7 +1567,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Milan,Bergamo,Brescia,Como,Cremona,Lodi,Mantova,Pavia,Varese,Lecco"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Lucchese",
@@ -1576,7 +1576,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lucca,Pisa,Massa,Prato,Viareggio,Altopascio,Capannori,Porcari,Montecarlo,Castelnuovo di Garfagnana"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "M-tis French",
@@ -1585,7 +1585,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Mont-Joli,Sainte-Flavie,Métis-sur-Mer,La Rédemption,Les Hauteurs,Padoue,Price,Saint-Donat,Sainte-Angèle-de-Mérici,Saint-Charles-Garnier"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Macerata",
@@ -1594,7 +1594,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Macerata,Fermo,Camerino,Tolentino,Civitanova Marche,San Severino Marche,Recanati,Matelica,Cingoli,Esanatoglia"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Mallorcan",
@@ -1603,7 +1603,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Wujiaqu,Wusu,Tacheng,Shihezi,Sandaohezi,Chapchal,Qarasu"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Maltese-Italian",
@@ -1612,7 +1612,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Jelilyüzi,Hoxtolgay,Fuyun,Emin,Xininglu,Dure,Changji,Burqin"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Manduriano",
@@ -1621,7 +1621,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Beitun,Baijiantan,Jinshanlu,Aqsu,Oymak,Kax,Baytokay,Yengitam,Dadamtu,Yuqunweng"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Maramureș",
@@ -1630,7 +1630,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Panjim,Liangji,Lanshan,Qing’an,Malingshan,Chenlou,Hegou,Gangshang,Zouzhuang,Tangzhang"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Menorcan",
@@ -1639,7 +1639,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Hanwang,Yitang,Xuzhuang,Nianzhuang,Tashan,Zizhuang,Liuji,Jiangzhuang,Daizhuang,Zhangzhuang"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Mentonasc",
@@ -1648,7 +1648,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Xinglou,Huzhai,Heqiao,Fanlou,Songlou,Sunlou,Zhuzhai,Zhaozhuang,Anguo"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Messinese",
@@ -1657,7 +1657,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Shizhai,Yaxing,Lintan Chengguanzhen,Zuitai,Zoucheng,Nima,Ziyang Chengguanzhen,Shaanxi,Zitong,Zishui"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Milanese",
@@ -1666,7 +1666,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Hunan,Zhuyuan,Zhuyang,Zhuxi,Zhutuo,Zhuoshui,Zhumadian,Zhujing,Zhujiajiao"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Minderico",
@@ -1675,7 +1675,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Zhuji,Zhouqu Chengguanzhen,Zhucheng,Zhuanghe,Liaoning,Zhouzhuang,Zhouxi,Zhoukou,Zhoujia,Zhoucun"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Mirandese",
@@ -1684,7 +1684,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Zhong’ao,Zhigou,Zhicheng,Hubei,Zhenzhou,Zhenping,Zhaobaoshan,Zhengxing,Zhengji"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Mozarabic",
@@ -1693,7 +1693,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Yuzhou,Yuxia,Kunshan,Yuntai,Yunnanyi,Yunmeng Chengguanzhen,Yunmen,Yunjin"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Murcian",
@@ -1702,7 +1702,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Pizhou,Yunfu,Yulinshi,Wulingyuan,Yujia,Yudong,Yuci,Yucheng"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Navarrese",
@@ -1711,7 +1711,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Huaiyang,Yuanshang,Yuanping,Qianjiang,Youxi,Youting,Youchou,Yongzhou,Yongxing"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Navarro-Aragonese",
@@ -1720,7 +1720,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Yongxin,Yongqing,Yongning,Yongjia,Yongfeng,Yongbei,Yong’an,Yizhuang,Yishui"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Niçard",
@@ -1729,7 +1729,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Yantai,Yanliang,Yanjing,Yanjia,Yanguan,Yangtun,Zhangjiagang,Yangpu"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Nones",
@@ -1738,7 +1738,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Yangliuqing,Yangjiaying,Yanghe,Yanggu,Yangcun,Yancheng,Yajiang,Tongshan,Xuyong"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Northern Catalan",
@@ -1747,7 +1747,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Xucheng,Shangrao,Xunyang,Xunsi,Xunchang,Xujiang,Xuhui,Xuchang,Xuantan,Xuancheng"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Northern Portuguese",
@@ -1756,7 +1756,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Xixiang,Xiulin,Xiugu,Xituo,Xiongzhou,Huayuan,Xinzhi"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Northern Romanian",
@@ -1765,7 +1765,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Xinzhai,Xinyu,Xinye,Xinxing,Xinxiang,Xintian,Xintai,Xinshi,Xinmin,Xinmiao"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Northwestern Catalan",
@@ -1774,7 +1774,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Xinji,Shangmei,Xinhe,Xingtai,Xinglong,Xingguo,Ankang,Wenfeng"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Novarese",
@@ -1783,7 +1783,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Xindi,Feicheng,Sanshui,Ximeicun,Wacheng Neighborhood,Xihe,Xigang,Xiema"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Occitan",
@@ -1792,7 +1792,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Xiazhuang,Xiazhen,Xiasi,Gongyi,Xiaoweizhai,Xiaomian,Xiaolingwei"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Old Catalan",
@@ -1801,7 +1801,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Wuyang,Wuxue,Wushan,Wutongshu,Wuqiao,Wuling,Wujing,Wujia"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Old Gallo-Romance",
@@ -1810,7 +1810,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Wuhu,Wugang,Wudong,Wuda,Wucheng,Wenxian Chengguanzhen,Wenshang,Wenquan"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Old Leonese",
@@ -1819,7 +1819,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Wenling,Wenjiang,Wenheng,Weituo,Weinan,Weimiao,Weiji,Weihai,Weifang"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Old Lombard",
@@ -1828,7 +1828,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Wayaobu,Wayao,Wanxian,Wanshun,Wanshui,Wansheng,Wangwu,Wangu,Wangpu,Wangji"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Old Occitan",
@@ -1837,7 +1837,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Yinzhu,Wangfen,Waina,Wafangdian,Tuxiang,Tushan,Huangshan,Loushanguan,Tongxi"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Old Romagnol",
@@ -1846,7 +1846,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Fuding,Tongling,Tongjing,Tieqiao,Tiefu,Tiaoshi,Tianzhuang,Tianpeng,Tianliu"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Old Spanish",
@@ -1855,7 +1855,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Chengtangcun,Taozhuang,Taozhou,Taoluo,Taolin,Tantou,Tanjia,Tangzhai,Tangwu"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Oliventine",
@@ -1864,7 +1864,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Tangping,Tangjiazhuang,Tanghe,Tanggu,Tangba,Taixing,Shanghe,Taihe"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Oltenian",
@@ -1873,7 +1873,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Taishan,Taicang,Suyangshan,Suqian,Suozhen,Suicheng"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Ossolano",
@@ -1882,7 +1882,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Songgang,Songcheng,Songbai,Shangsi,Sitou,Simen,Dachang Shandao,Sihu,Shunhe"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Palafrugués",
@@ -1891,7 +1891,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Shuizhai,Shuitu,Shuikou,Shuijiang,Laixi,Shuangshi,Shuanglong,Shuanghe"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Palra",
@@ -1900,7 +1900,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Shuanggou,Shouxian,Shouguang,Huinong,Shizilu,Shiwan,Shituo,Shitanjing,Shiquan"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Pannonian Latin",
@@ -1909,7 +1909,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Shiqiaozi,Shiqiao,Shiqi,Shima,Xianglong,Shilong,Tongchuanshi,Shikang,Shijiao"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Pantesco",
@@ -1918,7 +1918,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Shiji,Shihui,Shidui,Shichuan,Shibuzi,Shetan,Yanta,Chentuan,Shenjiamen"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Parmigiano",
@@ -1927,7 +1927,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Shanting,Shankou,Shanji,Shangluo,Shangqiu,Shangkou,Shanghuang,Shaji,Shahecheng"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Pavese",
@@ -1936,7 +1936,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Shahe,Shagang,Sanzhuang,Sanqu,Sanmenxia,Sanjiao,Xiaodu"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Pesciatino",
@@ -1945,7 +1945,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Qionghu,Qinnan,Qingshuping,Qingshizui,Qingshanquan,Qingquan,Qingpu,Qingping"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Bjarmian Finnic",
@@ -1954,7 +1954,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Qingfu,Qincheng,Qina,Hongqiao,Qibao,Qiaotou,Qiaoguan"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Proto-Sami",
@@ -1963,7 +1963,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Qianliu,Qabqa,Puzi,Puyang Chengguanzhen,Puyang,Putuo,Puji,Puqi,Pulandian"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Forest Nenets",
@@ -1972,7 +1972,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Pudong,Poyang,Pingyin,Pingyi,Gutao,Pingtan,Pingnan,Pingli"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Proto-Finnic",
@@ -1981,7 +1981,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Pingjin,Pingdu,Pingdingshan,Pianjiao,Pengze,Pengpu,Pengcheng,Peicheng,Picheng"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Southwestern Finnish",
@@ -1990,7 +1990,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Panghai,Paipu,Ningyang,Yutan,Ninghai,Nianbo,Nanzhou"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Proto-Uralic",
@@ -1999,7 +1999,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Nanzhang Chengguanzhen,Nanxi,Nanshu,Nanqiao,Pucheng,Nanma,Nanlong"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Proto-Karelian",
@@ -2008,7 +2008,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Nanhu,Nangong,Nanfeng,Nandu,Nanding,Nancun,Nanbin"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Proto-Permic",
@@ -2017,7 +2017,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Naliang,Nada,Mudong,Miyang,Minhang,Mingshui,Mingguang,Minggang,Mingcun,Micheng"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Somero region",
@@ -2026,7 +2026,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Miaoyu,Mentougou,Mengyin,Mengcheng Chengguanzhen,Meng’a,Meijiang,Mawu"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Jämtland",
@@ -2035,7 +2035,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Mawang,Maocun,Malianzhuang,Majie,Zhijiang,Macheng,Lüshun"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Tundra Nenets",
@@ -2044,7 +2044,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Liutuan,Liuquan,Lishui,Lishi,Lintong,Linxia Chengguanzhen,Linxi,Linshui,Linshi"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "North Estonian",
@@ -2053,7 +2053,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Linqu,Linqiong,Qingnian,Linjiang,Linjiacun,Dongta,Linghe,Lingcheng,Beiliu"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Western Estonian",
@@ -2062,7 +2062,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Linfeng,Xishan,Liji,Ligezhuang,Lidu,Lichuan,Licha,Liaolan"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Northern Erzya",
@@ -2071,7 +2071,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Liaocheng,Hepu,Liangzhai,Liangxiang,Liangshui,Lengshuitan"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Southeastern Erzya",
@@ -2080,7 +2080,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lengshuijiang,Leiyang,Lecheng,Laohekou,Lianyuan,Langao Chengguanzhen,Laiyang,Laiwu"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Western Erzya",
@@ -2089,7 +2089,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Laisu,Labuleng,Kunyang,Kuangshi,Kongtan,Juye,Junlian"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Shoksha",
@@ -2098,7 +2098,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Juexi,Juegang,Liulin,Jiyuan,Jizhou,Jiuxian,Jiushan,Jiudian,Jishui"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Piedmontese",
@@ -2107,7 +2107,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Jingui,Jingling,Jingguan,Jingdezhen,Jing’an,Jimo,Jijiang"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Pisano-Livornese",
@@ -2116,7 +2116,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Jiexiu,Jieshou,Jieshi,Jielong,Jiehu,Jiazi,Jiayue,Jiawang"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Pistoiese",
@@ -2125,7 +2125,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Pistoia,Montecatini Terme,Pescia,Lamporecchio,Larciano,Serravalle Pistoiese,Abetone,San Marcello Piteglio,Chiesina Uzzanese,Monsummano Terme"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Poitevin-Saintongeais",
@@ -2134,7 +2134,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Humen,Huixian Chengguanzhen,Huilong,Huicheng,Huguo"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Eastern Khanty",
@@ -2143,7 +2143,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Hufeng,Huayin,Huashan,Huankou,Dasha,Huangpi,Huangmei,Huangji"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Eastern Mansi",
@@ -2152,7 +2152,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Huanghua,Dingcheng,Huaiyuan Chengguanzhen,Huainan,Huaicheng,Huaidian,Huaibei,Huacheng"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Western Mansi",
@@ -2161,7 +2161,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Houzhen,Hongzhou,Honglu,Hongkou,Hong’an,Heze,Hetoudian"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Csangó",
@@ -2170,7 +2170,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Hepo,Hengshui,Hengbei,Helin,Hejiang,Hede,Hecun,Hebian"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Transylvanian Plain",
@@ -2179,7 +2179,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Hebi,Heba,Haomen,Haojiaqiao,Hanyin Chengguanzhen,Hanting,Hanjia,Hanfeng"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Southern Sami",
@@ -2188,7 +2188,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Hanchuan,Hancheng,Haizhou,Haiyang,Haitou,Jiaojiang,Haimen"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Proto-Eastern Romance",
@@ -2197,7 +2197,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guiren,Gucheng Chengguanzhen,Guanzhuang,Guanyin,Guanhu,Guangtong,Guangshun,Guangshui"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Proto-Romance",
@@ -2206,7 +2206,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guandu,Gongmen,Gongguan,Gelan,Gecheng,Gaozuo,Gaoyou"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Provençal",
@@ -2215,7 +2215,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Gaoping,Gaomi,Gaoliu,Gaojia,Gaogu,Gaogou,Gao’an,Gantang,Ganshui"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Putèr",
@@ -2224,7 +2224,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Gangu Chengguanzhen,Gangtou,Fujia,Fuyong,Wofo,Fulu,Fuji"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Mator",
@@ -2233,7 +2233,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Fenyi,Fenshui,Fengcheng,Fengrun,Fengkou,Fengjia,Fenggao,Fangshan"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Mator proper",
@@ -2242,7 +2242,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Fangcun,Fangcheng,Encheng,Ehen Hudag,Duzhou,Dushi,Duobao"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Proto-Ob-Ugric",
@@ -2251,7 +2251,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Dunhou,Ducheng,Duoba,Dongying,Dongxi,Dongtai,Dongsheng,Dongkan,Donghai"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Kamas",
@@ -2260,7 +2260,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Dongdu,Dongcun,Xinle,Dingzhou,Dingtao,Dingshi,Dingjia,Dezhou"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Nganasan",
@@ -2269,7 +2269,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Songyang,Degan,Dazhong,Daxie,Dawukou,Datun"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Western Lombard",
@@ -2278,7 +2278,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Dashun,Dashan,Fenghua,Daotian,Daokou,Danshui,Danjiangkou,Gushu,Dangjiang"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Varesino",
@@ -2287,7 +2287,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Tanchang Chengguanzhen,Damiao,Daliang,Dajin,Dahuangshan,Daguan,Dafengdong,Dachang"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Ticinese",
@@ -2296,7 +2296,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Shuren,Cuijiaji,Cizhu,Yangchun,Chongxing,Chengqiao,Chonglong,Chongkan"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Triestine",
@@ -2305,7 +2305,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Chóngfú,Chengyang,Chengxian Chengguanzhen,Chengxi,Chengjiang,Jiangyin,Chenggu,Chenghua"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Rémois",
@@ -2314,7 +2314,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kaitang,Bibo,Jiuchao,Baijiawan,Baliwan,Dashi,Dazhuang,Guochuan"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Regional Italian",
@@ -2323,7 +2323,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Jutou,Kuanchuan,Liuping,Qianhu,Suhe,Wangyao,Wangyin,Xingfeng"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Ribagorçan",
@@ -2332,7 +2332,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Yebao,Dianbu,Tanzhou,Conglin,Ciyun,Xiaba"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Riberan",
@@ -2341,7 +2341,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Anlan,Nanpeng,Huimin,Ersheng,Yufengshan,Tongjiaxi,Dasheng,Tuchang,Honghu"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Riojan",
@@ -2350,7 +2350,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guangcun,Mutang,Dongcheng,Shijie,Lianghu,Zhoucheng,Dalianwan,Xiaochangshan"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Riunorese",
@@ -2359,7 +2359,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lixi,Hedong,Zhenlai,Shuangliao,Youhao,Yingkou"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Romagnol",
@@ -2368,7 +2368,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Yebaishou,Yantongshan,Xiuyan,Xinqing,Xinlin,Xinglongshan,Xingcheng,Xilin Hot"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Romanesco",
@@ -2377,7 +2377,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Xiaoshi,Hepingjie,Ulanhot,Tuqiang,Tongliao,Tonghua,Tieling,Tieli"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Romanian Daco-Romanian",
@@ -2386,7 +2386,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Tailai,Dorbod,Sujiatun,Suiling,Songjianghe,Siping,Shulan"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Royasc",
@@ -2395,7 +2395,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Shuangyang,Shiguai,Shanhecun,Shanhaiguan,Sanchazi,Salaqi,Fendou"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Sabino",
@@ -2404,7 +2404,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Qinggang,Songyuan,Pingzhuang,Panshi,Panshan,Nianzishan,Nantai,Nanpiao,Lianhe"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Salentino",
@@ -2413,7 +2413,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lingyuan,Lingdong,Liaozhong,Langxiang,Langtoucun,E’erguna,Kuandian,Kaitong"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Sammarinese",
@@ -2422,7 +2422,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bin Xian,Beipiao,Bei’an,Baotou,Muling,Baishishan,Baiquan,Baicheng"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Sardo-Corsican",
@@ -2431,7 +2431,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Baishan,Anda,Oroqen Zizhiqi,Acheng,Songlingcun,Shigang,Doilungdêqên,Jinniu"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Sassarese",
@@ -2440,7 +2440,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Shuifu,Bowangshan,Xilinji,Maozhou,Gongheyong,Sanjianzai,Taifu"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Savoyard",
@@ -2449,7 +2449,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Gangxia,Changshu,Shixing,Jiashan,Baiguan,Zhongba,Dengbu,Baihe,Puchi"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Senese",
@@ -2458,7 +2458,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Maying,Dianga,Dongjiang,Chengjiao,Wuying,Lianhua,Weidian,Shibao,Luotang"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Southeast Metafonetica",
@@ -2467,7 +2467,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Tange,Gaolou,Hualin,Zhu Cheng City,Xingqiao,Changzheng,Xiayang,Maqin County"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Southern Aragonese",
@@ -2476,7 +2476,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Tongyangdao,Lhoka,Huangpu,Xili,Chengxiang,Tangfang,Fengling"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Surmiran",
@@ -2485,7 +2485,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Surmeir,Albula,Bever,Bivio,Marmorera,Mulegns,Tinizong-Rona,Surses,Ilanz,Chur"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Sursilvan",
@@ -2494,7 +2494,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Disentis,Ilanz,Vrin,Lumnezia,Cumbel,Degen,Lumbrein,Morissen,Vignogn,Vella"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Sutsilvan",
@@ -2503,7 +2503,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Domleschg,Schams,Heinzenberg,Bonaduz,Rhäzüns,Domat,Ems,Trin,Flims,Laax"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Tuatschin",
@@ -2512,7 +2512,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Tujetsch,Cadi,Val Medel,Sedrun,Disentis,Ilanz,Vrin,Lumnezia,Cumbel,Degen"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Vallader",
@@ -2521,7 +2521,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Chur,Davos,St. Moritz,Arosa,Landquart,Ilanz,Domleschg,Thusis,Surses,Albula"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Standard French",
@@ -2530,7 +2530,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Paris,Lyon,Marseille,Toulouse,Nice,Nantes,Strasbourg,Montpellier,Bordeaux,Lille"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Standard Italian",
@@ -2539,7 +2539,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Rome,Milan,Naples,Turin,Florence,Bologna,Genoa,Palermo,Catania,Bari"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Swiss Italian",
@@ -2548,7 +2548,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lugano,Bellinzona,Locarno,Ascona,Mendrisio,Chiasso,Biasca,Riviera,Balerna,Gordola"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Tuscan",
@@ -2557,7 +2557,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Florence,Pisa,Lucca,Arezzo,Siena,Prato,Livorno,Pistoia,Grosseto,Massa"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Southern Cilentan",
@@ -2566,7 +2566,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Agropoli,Salerno,Nocera Inferiore,Battipaglia,Eboli,Vallo della Lucania,Pollica,Stio,Omignano,Cicerale"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Tabarchino",
@@ -2575,7 +2575,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Sassari,Olbia,Alghero,Tempio Pausania,Palau,La Maddalino,Arzachena,Badesi,Oschiri,Luras"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Talian",
@@ -2584,7 +2584,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Venice,Verona,Padua,Vicenza,Treviso,Rovigo,Chioggia,Mestre,Venezia,Marghera"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Transylvanian",
@@ -2593,7 +2593,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Cluj-Napoca,Timișoara,Brașov,Sibiu,Târgu Mureș,Oradea,Baia Mare,Alba Iulia,Arad,Satu Mare"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Tuscia",
@@ -2602,7 +2602,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Rome,Viterbo,Civitavecchia,Tarquinia,Montefiascone,Orte,Nepi,Valentano,Canino,Bolsena"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Umbrian",
@@ -2611,7 +2611,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Perugia,Terni,Foligno,Spoleto,Assisi,Gubbio,Città di Castello,Orvieto,Spello,Bevagna"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Valdô",
@@ -2620,7 +2620,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Aosta,Courmayeur,Chamois,La Thuile,Valtournenche,Saint-Vincent,Gressan,Quart,Pollein,Saint-Pierre"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Valencian",
@@ -2629,7 +2629,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Valencia,Alicante,Castellón,Elche,Gandia,Sagunto,Torrevieja,Benidorm,Dénia,Oropesa del Mar"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Venetian",
@@ -2638,7 +2638,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Meta Department,Norte de Santander Department,La Guajira Department,Caldas Department,Santander Department,Cesar Department"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Versiliese",
@@ -2647,7 +2647,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Viareggio,Pietrasanta,Forte dei Marmi,Massa,Carrara,Camaiore,Seravezza,Lucca,Pisa,Livorno"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Viareggino",
@@ -2656,7 +2656,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Viareggio,Massarosa,Camaiore,Pietrasanta,Forte dei Marmi,Lucca,Pisa,Massa,Carrara,Seravezza"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Vivaro-Alpine",
@@ -2665,7 +2665,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Grenoble,Chambéry,Annecy,Nice,Toulon,Marseille,Aix-en-Provence,Digne-les-Bains,Valence,Avignon"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Vosgien",
@@ -2674,7 +2674,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Épinal,Saint-Dié-des-Vosges,Neufchâteau,Remiremont,Gérardmer,Mirecourt,La Bresse,Thaon-les-Vosges,Vittel,Raon-l'Étape"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Wallachian",
@@ -2683,7 +2683,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bucharest,Craiova,Ploiești,Brăila,Galați,Constanța,Tulcea,Slatina,Pitești,Ruse"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Welche",
@@ -2692,7 +2692,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Strasbourg,Colmar,Mulhouse,Haguenau,Sélestat,Wissembourg,Thann,Obernai,Guebwiller,Saverne"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "West Walloon",
@@ -2701,7 +2701,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Namur,Charleroi,Liège,Mons,Tournai,La Louvière,Seraing,Verviers,Mouscron,Châtelet"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Western Aragonese",
@@ -2710,7 +2710,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Jaca,Huesca,Barbastro,Monzón,Sabiñánigo,Biescas,Ansó,Hecho,Canfranc,Benasque"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Western Catalan",
@@ -2719,7 +2719,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Barcelona,Girona,Lleida,Tarragona,Reus,Tortosa,Igualada,Manresa,Sabadell,Terrassa"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Western Sicilian",
@@ -2728,7 +2728,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ammochostos,Pafos,Larnaka,Keryneia,Czechia"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Åsele",
@@ -2737,7 +2737,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Střížkov,Strakonice,Stodůlky,Starý Bohumín,Staré Strašnice,Sokolov,Carlsbad Region,Smíchov,Slaný,Central Bohemia,Rožnov pod Radhoštěm"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Atlym",
@@ -2746,7 +2746,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Wiesbaden,Wiehl,Wickede,Wetzlar,Wetter,Westerstede,Wesel,Petersberg,Wertheim"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Atlym-Nizyam Khanty",
@@ -2755,7 +2755,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Wersten,Wernigerode,Werne,Bochum-Werne,Wermelskirchen,Werl,Werdohl,Werder,Werdau,Wendlingen am Neckar"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Nizyam",
@@ -2764,7 +2764,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Wendelstein,Weiterstadt,Weißwasser,Weißenfels,Weißenburg in Bayern,Weinstadt-Endersbach,Weinheim,Weingarten,Weimar,Weilheim"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Salym Khanty",
@@ -2773,7 +2773,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Weil der Stadt,Weil am Rhein,Weißensee,Weener,Wedel,Wedding,Wattenscheid,Wassenberg"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Western Khanty",
@@ -2782,7 +2782,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Warstein,Warendorf,Waren,Wardenburg,Warburg,Wangen,Wandlitz,Waltrop,Walsrode,Wallenhorst"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Ala-Satakunta",
@@ -2791,7 +2791,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Schorndorf,Schopfheim,Schöneberg,Schönebeck,Schneverdingen,Schnelsen,Schneeberg,Schmelz,Schmargendorf,Schmallenberg"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Avam",
@@ -2800,7 +2800,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Sankt Wendel,Sankt Ingbert,Sangerhausen,Hansestadt Salzwedel,Salzkotten,Salzgitter,Saarlouis,Saarbrücken,Saalfeld"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Berjozov",
@@ -2809,7 +2809,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Rüsselsheim am Main,Rummelsburg,Rudow,Rudolstadt,Rottweil,Rottenburg,Rotherbaum,Roth,Rotenburg,Rösrath"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Besermyan",
@@ -2818,7 +2818,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ronnenberg,Rissen,Rinteln,Rietberg,Riesa,Riegelsberg,Ribnitz-Damgarten,Rheinhausen,Rheinfelden"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Lower Inva",
@@ -2827,7 +2827,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Burghausen,Burg bei Magdeburg,Büren,Bünde,Bühl,Büdingen,Buckow,Bückeburg,Buchholz in der Nordheide"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Kudymkar-Inva",
@@ -2836,7 +2836,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bielefeld,Biebrich,Biberach an der Riß,Bexbach,Beverungen,Bernburg,Bernau bei Berlin,Bergneustadt,Bergkamen"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Ingrian",
@@ -2845,7 +2845,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Altstadt Sud,Altstadt Nord,Neuehrenfeld,Bilderstöckchen,Stuttgart-Ost,St. Pauli,Gallus,Eidelstedt,Eisleben Lutherstadt,Halle-Neustadt"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Kven",
@@ -2854,7 +2854,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bergedorf,Spandau,Treptow,Niederrad,Äußere Neustadt,Barmbek-Nord,Barmbek-Süd,Farmsen-Berne,Zeulenroda-Triebes"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Livonian",
@@ -2863,7 +2863,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Falkenhagener Feld,Neu-Hohenschönhausen,Alt-Hohenschönhausen,Fennpfuhl,Hamburg-Nord,Neustadt/Nord,Neustadt/Süd,Kalk,Rodenkirchen,Gartenstadt"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Ludic",
@@ -2872,7 +2872,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kröpeliner-Tor-Vorstadt,Düsseldorf-Pempelfort,Burglesum,Nordstadt,Eselsberg,Altona-Altstadt,Altona-Nord,Dulsberg,Hoheluft-Ost,Misburg-Nord"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Meänkieli",
@@ -2881,7 +2881,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Sachsenheim,Petershausen-West,Kronberg Tal,Remseck am Neckar,Blankenfelde-Mahlow,Tadjourah,Ali Sabih,Vordingborg"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Veps",
@@ -2890,7 +2890,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Zealand,Viby,Central Jutland,Viborg,South Denmark,Vanløse,Capital Region,Vallensbæk,Valby,Tønder,Tilst"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Võro",
@@ -2899,7 +2899,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Taastrup,Stenløse,Sønderborg,Solrød Strand,Slagelse,Skive,Silkeborg,Rødovre,Ringsted"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Votic",
@@ -2908,7 +2908,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Nykøbing Falster,Nyborg,Næstved,Nørresundby,North Denmark,Middelfart,Lillerød,Køge,Copenhagen"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Savonlinna",
@@ -2917,7 +2917,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Klinteby Frihed,Kalundborg,Ishøj,Hvidovre,Hørsholm,Holstebro,Holbæk,Hjørring,Hillerød,Herning"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Danish",
@@ -2926,7 +2926,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Indre By,Dominica,Saint George Parish,Villa Francisca,Dominican Republic,Nacional,Villa Consuelo,Villa Bisonó,Santiago Province,Villa Altagracia,Santiago de los Caballeros"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "isl",
@@ -2935,7 +2935,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Santa Cruz de El Seibo,El Seibo,Santa Cruz de Barahona,Barahona Province,San Juan de la Maguana,San Juan Province,San José de Ocoa,San Francisco de Macorís,Duarte Province,San Fernando de Monte Cristi,Monte Cristi Province,Puerto Plata"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Norwegian",
@@ -2944,7 +2944,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Salvaleón de Higüey,La Altagracia Province,Salcedo,San Ignacio de Sabaneta,Santiago Rodriguez,Sabana Grande de Boyá,Monte Plata Province,Quisqueya,Punta Cana,Neiba,Baoruco Province"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Bavarian",
@@ -2953,7 +2953,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Nagua,Maria Trinidad Sanchez,Monte Plata,Monte Llano,Espaillat Province,Valverde Province,Las Matas de Farfán,La Romana,Hato Mayor del Rey,Hato Mayor Province"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Cimbrian",
@@ -2962,7 +2962,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Dajabón,Cristo Rey,Sanchez Ramirez,Constanza,Ciudad Nueva,Monsenor Nouel,Boca Chica,Santo Domingo Province,Bayaguana"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Limburgish",
@@ -2971,7 +2971,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Peravia,Bajos de Haina,Azua,Azua Province,Santo Domingo Oeste,Santo Domingo Este,Boumerdas,Boumerdes,Zighout Youcef,Zeribet el Oued,Zeralda"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Low German",
@@ -2980,7 +2980,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Zemoura,Tolga,Tizi Rached,Tizi-n-Tleta,Tizi Gheniff,Tirmitine,Tipaza,Timizart"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Mainfränkisch",
@@ -2989,7 +2989,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "el hed,Tighenif,Theniet el Had,Thenia,Telerghma,Tebesbest,Tazoult-Lambese,Tamanghasset"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Palatinate German",
@@ -2998,7 +2998,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Tamalous,Taïbet,Tadmaït,Tadjenanet,Sour el Ghozlane,Bouira,Souma,Lardjem,Sougueur"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Ripuarian Platt",
@@ -3007,7 +3007,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Sig,Sidi Okba,Sidi Moussa,Sidi Mérouane,Sidi Khaled,Ouled Djellal,Sidi ech Chahmi,Sidi Amrane,El Mghair,Sidi Akkacha,Sidi Aïssa"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Hollola",
@@ -3016,7 +3016,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Sidi Abdelli,Sfizef,Sedrata,Seddouk,Sebdou,Saoula,Salah Bey,Rouissat,Rouiba"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Heart Tavastian",
@@ -3025,7 +3025,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Rouached,Robbah,Remchi,Reguiba,Reghaïa,Râs el Oued,Râs el Aïoun,Rais Hamidou"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Savonian",
@@ -3034,7 +3034,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ouled Slama Fouaga,Ouled Moussa,Ouled Mimoun,Ouled Haddaj,Ouenza,Oued Zenati,Oued Sly,Oued Rhiou,Oued Fodda,Oued el Alleug"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Hollola (setBases aux)",
@@ -3043,7 +3043,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Médéa,Mecheria,M’Daourouch,Mazouna,Mansourah,Makouda,Maghnia,L’Arbaa Naït Irathen,Larbaâ"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Heart Tavastian (setBases aux)",
@@ -3052,7 +3052,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lakhdaria,Ksar el Boukhari,Ksar Chellala,Kolea,Khemis Miliana,Khemis el Khechna,Kerkera,Kaïs,Djidiouia"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Savonian (setBases aux)",
@@ -3061,7 +3061,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ighram,Hennaya,Hassi Messaoud,Assi Bou Nif,Hassi Bahbah,Hammam Bou Hadjar,Ain Temouchent,Hamma Bouziane,Hadjout"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Arp",
@@ -3070,7 +3070,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Didouche Mourad,Dellys,Debila,Dar el Beïda,Dar Chioukh,Chorfa,Chiffa,Chetouane,Cheria,Cherchell"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Central Transdanubian",
@@ -3079,7 +3079,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Budapest,Székesfehérvár,Pécs,Kaposvár,Veszprém,Dunaújváros,Székesfehérvár,Győr,Kecskemét,Szombathely"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Kárás",
@@ -3088,7 +3088,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kaposvár,Siófok,Marcali,Barcs,Nagyatád,Csurgó,Tab,Fonyód,Balatonlelle,Lengyeltóti"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Palóc",
@@ -3097,7 +3097,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Salgótarján,Balassagyarmat,Bátonyterenye,Pásztó,Szécsény,Losonc,Rétság,Diósjenő,Bercel,Nógrádsáp"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Southern Transdanubian",
@@ -3106,7 +3106,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Pécs,Kaposvár,Szekszárd,Dombóvár,Bonyhád,Paks,Szigetvár,Mohács,Simontornya,Sásd"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Southern Great Plain",
@@ -3115,7 +3115,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Szeged,Kecskemét,Hódmezővásárhely,Szolnok,Békéscsaba,Kiskunfélegyháza,Kiskunhalas,Jászberény,Cegléd,Kunszentmárton"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Proper Southeastern",
@@ -3124,7 +3124,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Debrecen,Nyíregyháza,Békéscsaba,Hajdúszoboszló,Kisvárda,Püspökladány,Hajdúböszörmény,Vásárosnamény,Mátészalka,Nyírbátor"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Standard Finnish",
@@ -3133,7 +3133,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Helsinki,Espoo,Tampere,Vantaa,Oulu,Turku,Jyväskylä,Kuopio,Lahti,Pori"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Udora",
@@ -3142,7 +3142,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Syktyvkar,Ukhta,Vorkuta,Inta,Pechora,Sosnogorsk,Ezhva,Mikun,Yemva,Ust-Tsilma"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Torne Sami",
@@ -3151,7 +3151,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kiruna,Gällivare,Haparanda,Tornio,Karesuando,Jukkasjärvi,Abisko,Nikkala,Låktatjåkka,Pältsa"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Tavastian",
@@ -3160,7 +3160,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Helsinki,Tampere,Lahti,Hämeenlinna,Riihimäki,Forssa,Valkeakoski,Akaa,Toijala,Hattula"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Tornio",
@@ -3169,7 +3169,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Tornio,Haparanda,Kemi,Keminmaa,Tervola,Ylitornio,Pello,Kolari,Muonio,Ranua"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Hevaha",
@@ -3178,7 +3178,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kikori,Baimuru,Ihu,Kerema,Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Northern Karelian",
@@ -3187,7 +3187,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Central Ethiopia Regional State,South West Ethiopia Peoples' Region,Suntu,Sīrē,Sheno"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Upper Vychegda",
@@ -3196,7 +3196,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Shambu,Shakiso,Sendafa,Sek’ot’a,Sagurē,Robīt,Bale Robe,Nejo"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Pori region",
@@ -3205,7 +3205,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Negēlē,Nefas Mewch’a,Mot’a,Mī’ēso,Mertule Maryam,Mersa"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Peräpohjola",
@@ -3214,7 +3214,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Mer’āwī,Mena,Mek’ī,Mehal Mēda,Mambuk,Binshangul Gumuz,Maksenyit,Lumamē,Logīya"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Fingelska",
@@ -3223,7 +3223,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Leku,Kuyera,K’olīto,K’ola Diba,Kibre Mengist,Kemisē,Kachīsī"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Southern Selkup",
@@ -3232,7 +3232,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Īteya,Intich’o,Insēno,Inda Silasē,Indabaguna,Idaga Hamus,Ibnat,Huruta"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Vadey",
@@ -3241,7 +3241,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Hosa’ina,Hartīshēk,Harbu,Hāgere Hiywet,El Bahay,Gurbetē,Komtikas"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Basque-Icelandic pidgin",
@@ -3250,7 +3250,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Villers-lès-Nancy,Villepinte,Villeparisis,New Aquitaine,Villeneuve-Saint-Georges,Villeneuve-le-Roi,Villeneuve-la-Garenne,Villenave-d'Ornon,Villemomble"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Tatar",
@@ -3259,7 +3259,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Saint-Étienne-du-Rouvray,Saint-Étienne,Sainte-Marguerite,Sainte-Geneviève-des-Bois,Sainte-Foy-lès-Lyon,Saint-Égrève,Saint-Dié-des-Vosges,Saint-Cyr-sur-Loire"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Bjarmian",
@@ -3268,7 +3268,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Arkhangelsk,Severodvinsk,Novodvinsk,Kotlas,Pinega,Mezen,Kargopol,Onega,Shenkursk,Yemetsk"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Central Erzya",
@@ -3277,7 +3277,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Mei Foo Sun Chuen,Hoi Lai Estate,Fu Cheong Estate,So Uk Estate,Siu Sai Wan Estate,Taikoo Shing,Heng Fa Chuen,Yiu Tung Estate,Lei Tung Estate,South Horizons (Estate)"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Central Estonian",
@@ -3286,7 +3286,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Whampoa Garden,Oi Man Estate,Tak Long Estate,Chuk Yuen North Estate,Tung Tau Estate,Choi Hung Estate,Choi Wan Estate (I & II),Lower Wong Tai Sin Estate (I & II),Tsz Ching Estate,Wang Tau Hom Estate"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Central Finland",
@@ -3295,7 +3295,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "New Territories,Hong Kong Island,Kowloon City Centre,Kowloon West End,Puerto Cortez,Cortes Department,Yoro Department,Tocoa,Colon Department,Tela,Atlantida Department"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Central Ludic",
@@ -3304,7 +3304,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Juticalpa,Olancho Department,El Paraiso Department,Danlí,Comayagua,Cofradía,Ciudad Choluteca,Choluteca Department,Choloma,Zaprešić"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Central Mansi",
@@ -3313,7 +3313,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Zagreb County,Vukovar-Srijem,Split-Dalmatia,Brod-Posavina,Pozega-Slavonia,Sisak-Moslavina,Sibenik-Knin"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Central Moksha",
@@ -3322,7 +3322,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Centar,Liberpolis,Verrettes,Haiti,Artibonite,Thomazeau,Ouest,Terrier Rouge,Nord-Est,Saint-Michel de l'Atalaye,Saint-Marc,Port-de-Paix"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Central Selkup",
@@ -3331,7 +3331,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Nord-Ouest,Port-au-Prince,Tigwav,Pétionville,Miragoâne,Lenbe,Léogâne,Kenscoff,Jérémie,Jacmel"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Petuh",
@@ -3340,7 +3340,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Hajdu-Bihar,Ózd,Orosháza,Nyíregyháza,Szabolcs-Szatmar-Bereg,Kazincbarcika,Hódmezővásárhely"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Sercquiais",
@@ -3349,7 +3349,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Hajdúnánás,Hajdúböszörmény,Gyula,Heves County,Diósgyőr,Békéscsaba,Abony,Pest County"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Central Veps",
@@ -3358,7 +3358,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Szigetszentmiklós,Szentendre,Tolna County,Székesfehérvár,Fejer,Sopron,Gyor-Moson-Sopron,Siófok,Somogy County,Sashalom"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Central Vychegda",
@@ -3367,7 +3367,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Rákosszentmihály,Rákospalota,Rákoskeresztúr,Pestlőrinc,Pesterzsébet,Pest,Pécs,Baranya,Óbuda"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Chovashi",
@@ -3376,7 +3376,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Vaikam,Vaijāpur,Vagholi,Vāghodia,Vadnagar,Vadlapūdi,Vadipatti,Vādāsinor,Vadamadurai,Vadāli"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Chukotko-Kamchatkan-Amuric",
@@ -3385,7 +3385,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Unchagao,Umreth,Umred,Umarkot,Umarkhed,Umargām,Umarga"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Chusovaya",
@@ -3394,7 +3394,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bara Uchāna,Ubaidullāhganj,Tyāgadurgam,Turaiyūr,Tuni,Tūndla,Tumsar"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Colloquial Finnish",
@@ -3403,7 +3403,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Sītāpur,Siswā Bāzār,Sisauli,Sirūr,Sirumugai,Sirsilla,Sirsāganj,Sirsa"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Core Mansi",
@@ -3412,7 +3412,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Sindkhed Raja,Simga,Silvāni,Sillod,Silao,Sikandra Rao,Sikandarpur"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Courland Livonian",
@@ -3421,7 +3421,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Shirdi,Shikohābād,Shikaripura,Shertallai,Sherkot,Sherghāti,Sheopur"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Crimean Tatar",
@@ -3430,7 +3430,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Siwāni,Settūr,Seoni Mālwa,Seoni Chhapāra,Seondha,Seohāra"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Eastern Estonian",
@@ -3439,7 +3439,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Mancherial,Manchar,Manāwar,Mānāvadar,Manāsa,Manapparai,Manamadurai,Mahabalipuram,Mālvan"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Eastern Mari",
@@ -3448,7 +3448,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Mahuva,Mahudha,Maholi,Mahobā,Mahīshādal,Mahgawān,Maheshwar,Mahesāna,Mahendragarh"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Eastern Savonian",
@@ -3457,7 +3457,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lahār,Lādwa,Lādnūn,Laxmangarh,Kuzhithurai,Kuttuparamba,Kuttippuram,Koothanallur,Kuttampuzha,Kuthalam"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Eastern South Estonian",
@@ -3466,7 +3466,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kutiyāna,Kutiatodu,Kurinjippādi,Kurduvādi,Kurandvād,Kūrāli,Kuppam,Kunnamangalam"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Eastern Votic",
@@ -3475,7 +3475,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kundla,Kundarkhi,Kūmher,Kumhāri,Kumbhrāj,Kulti,Kulpahār"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Enets",
@@ -3484,7 +3484,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Colachel,Koelwār,Kodoli,Kodarma,Kodār,Kuchinda,Koch Bihār"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Far Eastern Khanty",
@@ -3493,7 +3493,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Karjat,Kariapatti,Karhal,Karera,Karanjiā,Karamsad"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Gaulish",
@@ -3502,7 +3502,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Paris,Lyon,Marseille,Toulouse,Nice,Nantes,Strasbourg,Montpellier,Bordeaux,Lille"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Finnish",
@@ -3511,7 +3511,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Goyerkāta,Govardhan,Gotan,Gormi,Gorantla,Gorai,Gobichettipalayam,Gooty"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Forest Enets",
@@ -3520,7 +3520,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Gangoh,Gangavati,Gangārāmpur,Gangāpur,Gangākher,Gāndhīdhām,Gandevi"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Gällivare",
@@ -3529,7 +3529,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Dubrājpur,Dornakal,Dorāha,Domchānch,Dombivali,Doddaballapura,Deesa,Dirba"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Gagauz",
@@ -3538,7 +3538,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Dīnhāta,Dīnānagar,Digras,Deglur,Dighwāra,Dīg,Dīdwāna"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Hill Mari",
@@ -3547,7 +3547,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Sholavandan,Chodavaram,Chittūr,Chittaranjan,Chitarpur,Chidawa,Chīpurupalle"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Iitti",
@@ -3556,7 +3556,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bhogpur,Bhiwandi,Bhitarwār,Bhīnmāl,Bhinga,Bhindār,Bhind,Bhīmunipatnam,Bhiloda"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Udmurt",
@@ -3565,7 +3565,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Anshing,Annur,Annāmalainagar,Ankleshwar,Anjār,Anjangaon,Anjad,Angamāli"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Insular Estonian",
@@ -3574,7 +3574,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Amīngarh,Amet,Ambur,Ambattur,Ambasamudram,Āmbāsa,Ambājogāi,Ambāh,Ambad"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Alutaguse",
@@ -3583,7 +3583,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Alīpur,Alīganj,Alattūr,Ālangulam,Alangāyam,Alandur,Alandi,Akot"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Karagas",
@@ -3592,7 +3592,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Rampura Phul,Puthencruz,Peruvallur,Patdi,Paravai,Paranda,Nedumpana,Chandrapura,Chinnalapatti,Chirkunda"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Karasuk",
@@ -3601,7 +3601,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Krasnoyarsk,Novosibirsk,Omsk,Tomsk,Barnaul,Irkutsk,Kemerovo,Abakan,Novokuznetsk,Kyzyl"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Proto-Samoyedic",
@@ -3610,7 +3610,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Mīnāb,Mīāneh,Mīāndoāb,Meybod,Meshgīn Shahr,Mahrīz,Bardsīr,Marvdasht,Marīvān"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Karelian",
@@ -3619,7 +3619,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Petrozavodsk,Kondupoga,Segezha,Medvezhyegorsk,Pudozh,Olonets,Vyborg,Sortavala,Lakhdenpokhya,Prionezhsky"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Karelian proper",
@@ -3628,7 +3628,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Rosolini,Ribera,Quattromiglia,Pozzallo,Porto Empedocle"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Kemi",
@@ -3637,7 +3637,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Nocera Superiore,Nerviano,Nardò,Mugnano di Napoli,Montichiari"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Kemijärvi",
@@ -3646,7 +3646,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Monterotondo,Montecchio Maggiore-Alte Ceccato,Montebelluna,Monselice,Mondragone,Mogliano Veneto"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Keuruu-Evijärvi",
@@ -3655,7 +3655,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Modugno,Mirano,Mirandola,Mira Taglio,Nizza Millefonti,Miano,Merano"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Gaelic",
@@ -3664,7 +3664,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Glasgow,Edinburgh,Aberdeen,Dundee,Inverness,Perth,Stirling,Hamilton,Dunfermline,Kilmarnock"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Southern Udmurt",
@@ -3673,7 +3673,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Izhevsk,Sarapul,Votkinsk,Glazov,Mozhga,Igra,Debyosy,Kez,Yar,Alnashi"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Northern Udmurt",
@@ -3682,7 +3682,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Izhevsk,Sarapul,Votkinsk,Glazov,Mozhga,Igra,Debyosy,Kez,Yar,Alnashi"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Meadow Mari",
@@ -3691,7 +3691,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Yoshkar-Ola,Volzhsk,Kozmodemyansk,Zvenigovo,Sernur,Kilemary,Mari-Turek,Paranga,Yurino,Orshanka"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Meadow Mari Proper",
@@ -3700,7 +3700,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Yoshkar-Ola,Volzhsk,Kozmodemyansk,Zvenigovo,Sernur,Kilemary,Mari-Turek,Paranga,Yurino,Orshanka"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Proto-Mari",
@@ -3709,7 +3709,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Yoshkar-Ola,Volzhsk,Kozmodemyansk,Zvenigovo,Sernur,Kilemary,Mari-Turek,Paranga,Yurino,Orshanka"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Kochevo",
@@ -3718,7 +3718,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kudymkar,Kosa,Gaynya,Yurla,Kochevo,Kizel,Solikamsk,Berezniki,Perm,Chusovoy"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Koibal",
@@ -3727,7 +3727,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Krasnoyarsk,Novosibirsk,Omsk,Tomsk,Barnaul,Irkutsk,Kemerovo,Abakan,Novokuznetsk,Kyzyl"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Komi-Permyak",
@@ -3736,7 +3736,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kudymkar,Kosa,Gaynya,Yurla,Kochevo,Kizel,Solikamsk,Berezniki,Perm,Chusovoy"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Konda Khanty",
@@ -3745,7 +3745,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Khanty-Mansiysk,Surgut,Nizhnevartovsk,Nefteyugansk,Langepas,Megion,Pyt-Yakh,Yugorsk,Beloyarsky,Nyagan"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Koryo-mar",
@@ -3754,7 +3754,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Tashkent,Almaty,Astana,Bishkek,Dushanbe,Ashgabat,Nur-Sultan,Shymkent,Osh,Karaganda"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Kraasna",
@@ -3763,7 +3763,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kabarnet,Jomvu,Iten,Marakwet District,Isiolo County,Isebania,Uasin Gishu County"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Krasnojarsk Khanty",
@@ -3772,7 +3772,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Nyandarua County,Garissa County,Embu County,Tharaka - Nithi,Siaya County"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Krevinian",
@@ -3781,7 +3781,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Issyk-Kul,Chuy Region,Jalal-Abad Region,Talas Region,Osh Region,Naryn Region"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Kukkuzi",
@@ -3790,7 +3790,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "St. Petersburg,Moscow,Novgorod,Pskov,Tver,Yaroslavl,Vologda,Arkhangelsk,Murmansk,Petrozavodsk"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Laiuse Romani",
@@ -3799,7 +3799,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Tallinn,Tartu,Narva,Pärnu,Viljandi,Rakvere,Kohtla-Järve,Maardu,Saue,Haapsalu"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Tura",
@@ -3808,7 +3808,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lofa County,Bomi County,Maryland County,Montserrado County,Margibi County,Sinoe County,Bong County"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Northern Khanty",
@@ -3817,7 +3817,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Grand Bassa County,Berea,Qacha's Nek District,Mohale's Hoek District,Maseru District,Mafeteng District,Lithuania"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Sherkal",
@@ -3826,7 +3826,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Makhachkala,Derbent,Kaspiysk,Buynaksk,Kizlyar,Hasavyurt,Tsumada,Karata,Akhvakh,Tindi"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Southern Khanty",
@@ -3835,7 +3835,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Karoliniškės,Šilainiai,Eiguliai,Pašilaičiai,Pilaitė,Justiniškės"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Upper Demjanka",
@@ -3844,7 +3844,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Šeškinė,Lazdynai,Vilkpėdė,Naujamiestis,Latvia,Tukums Municipality,Salaspils Municipality"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Surgut Khanty",
@@ -3853,7 +3853,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Jekabpils Municipality,Cesis Municipality,Mārupe,Dārzciems,Al Butnan,Qaryat Sulūq,Banghazi,Darnah"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Malij Jugan",
@@ -3862,7 +3862,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Az Zuwaytīnah,Al Wahat,At Tāj,Al Kufrah,Al Qubbah,Al Marj,Al Jabal al Akhdar,Al Abyār,An Nuqat al Khams,Misratah"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Tremjugan",
@@ -3871,7 +3871,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Yafran,Jabal al Gharbi,Tarhuna,Al Marqab,Tājūrā’,Surt,Şurmān,Az Zawiyah,Şabrātah,Sabha District,Sīdī Bin Zīnah"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Ejtun Dialect",
@@ -3880,7 +3880,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guelmim-Oued Noun,Tamallalt,Tahla,Tabount,Souq Larb’a al Gharb,Souq Sebt Oulad Nemma,Souk et Tnine Jorf el Mellah,Sidi Yahia El Gharb,Sidi Slimane"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Aas Whistled",
@@ -3889,7 +3889,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Sidi Rahal,Bouknadel,Sidi Bennour,Sidi Allal El Bahraoui,Gueznaia,Selouane,Zeghanghane,Sebt Gzoula"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Southeastern Moksha",
@@ -3898,7 +3898,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Saransk,Ruzaevka,Kovylkino,Zubova Polyana,Temnikov,Chamzinka,Atyashevo,Insar,Kadoshkino,Tengushevo"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Western Moksha",
@@ -3907,7 +3907,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Saransk,Ruzaevka,Kovylkino,Zubova Polyana,Temnikov,Chamzinka,Atyashevo,Insar,Kadoshkino,Tengushevo"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Syktyvkar",
@@ -3916,7 +3916,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Syktyvkar,Ukhta,Vorkuta,Inta,Pechora,Sosnogorsk,Ezhva,Mikun,Yemva,Ust-Tsilma"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Sanchursk",
@@ -3925,7 +3925,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Municipality of Monaco,Moldova,Republic of,Raionul Edinet,Transnistria,Straseni,Singerei,Soroca District"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Sharanga",
@@ -3934,7 +3934,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Hincesti,Chisinau Municipality,Causeni,Floresti,Gagauzia,Bender Municipality,Balti"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Selkup",
@@ -3943,7 +3943,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Opstina Niksic,Saint Martin (French part),Atsinanana,Atsimo-Atsinanana,Fitovinany Region,Analanjirofo"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Northern Selkup",
@@ -3952,7 +3952,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bongolava,Androy,Betsiboka,Atsimo-Andrefana,Anosy,Itasy,Vakinankaratra,Boeny"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Northern Mansi",
@@ -3961,7 +3961,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Khanty-Mansiysk,Surgut,Nizhnevartovsk,Nefteyugansk,Langepas,Megion,Pyt-Yakh,Yugorsk,Beloyarsky,Nyagan"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Sosva",
@@ -3970,7 +3970,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Yekaterinburg,Nizhny Tagil,Kamensk-Uralsky,Pervouralsk,Serov,Ivdel,Achit,Turinsk,Irbit,Krasnouralsk"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Leivu",
@@ -3979,7 +3979,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Tartu,Põlva,Võru,Valga,Elva,Kanepi,Räpa,Haanja,Mõniste,Rõuge"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Lemi region",
@@ -3988,7 +3988,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Zee Kone,Ah Lel,Shan Chaung,Oke Kan,Nyaung,San Chaung,Okpo,Shwenatha,Pawgan"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Livvi",
@@ -3997,7 +3997,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Black River,Kaafu Atoll,Northern Region,Southern Region,Central Region"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Maltese",
@@ -4006,7 +4006,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Valletta,Birkirkara,Qormi,Mosta,Sliema,Żabbar,San Ġwann,Naxxar,Marsaskala,Paola"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Scottish-Gaelic",
@@ -4015,7 +4015,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Manica,Manhiça,Mandimba,Niassa Province,Macomia,Gurúè,Gondola,Cuamba,Chiúre"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Albanian",
@@ -4024,7 +4024,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Tirana,Durrës,Vlorë,Elbasan,Shkodër,Korçë,Fier,Berat,Gjirokastër,Kukës"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Estonian",
@@ -4033,7 +4033,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Tallinn,Tartu,Narva,Pärnu,Viljandi,Rakvere,Kohtla-Järve,Maardu,Saue,Haapsalu"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Sardinian",
@@ -4042,7 +4042,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Cagliari,Sassari,Olbia,Alghero,Quartu Sant'Elena,Carbonia,Oristano,Nuoro,Iglesias,Macomer"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Romansh",
@@ -4051,7 +4051,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Chur,Davos,St. Moritz,Arosa,Landquart,Ilanz,Domleschg,Thusis,Surses,Albula"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Faroese",
@@ -4060,7 +4060,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Rhenen,Raalte,Putten,Purmerend,Pijnacker,Papendrecht,Oud-Beijerland,Oss"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Northern Sami",
@@ -4069,7 +4069,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lelystad,Leiderdorp,Leiden,Leerdam,Krimpen aan den IJssel,Korrewegwijk,Katwijk aan Zee,Kampen,Julianadorp"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Manx",
@@ -4078,7 +4078,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Hoensbroek,Hilversum,Hillegom,Hengelo,Hendrik-Ido-Ambacht,Helmond,Hellevoetsluis,Heiloo,Heerhugowaard"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Sicilian",
@@ -4087,7 +4087,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Heemstede,Heemskerk,Harderwijk,Hardenberg,Haaksbergen,Groot IJsselmonde,Groesbeek,Gouda"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Bashkir",
@@ -4096,7 +4096,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Gorinchem,Goirle,Glanerbrug,Gennep,Gemert,Geldrop,Geldermalsen,Geertruidenberg"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Chuvash",
@@ -4105,7 +4105,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Enkhuizen,Emmeloord,Elst,Elburg,Eibergen,Eersel,Duiven,Dronten,Driebergen-Rijsenburg"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Komi Permyak",
@@ -4114,7 +4114,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Dordrecht,Dongen,Doetinchem,Didam,Deventer,Den Helder,De Meern,Delft"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Komi Zyryan",
@@ -4123,7 +4123,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Syktyvkar,Ukhta,Vorkuta,Inta,Pechora,Sosnogorsk,Ezhva,Mikun,Yemva,Ust-Tsilma"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Asturian",
@@ -4132,7 +4132,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Amstelveen,Amersfoort,Alphen aan den Rijn,Almere Stad,Almelo,Alkmaar,Alblasserdam,Aalten,Aalsmeer"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Luxembourgish",
@@ -4141,7 +4141,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ytrebygda,Wāliṅ,Gandaki Pradesh,Lumbini Province,Ṭikāpur,Sudurpashchim Pradesh,Madhesh,Bagmati Province,Malaṅgawā"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Silesian",
@@ -4150,7 +4150,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Katowice,Wrocław,Kraków,Łódź,Poznań,Gdańsk,Szczecin,Bytom,Zabrze,Gliwice"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Kalmyk",
@@ -4159,7 +4159,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Madhyapur Thimi,Yaren District,Wellington Region,Manawatu-Wanganui,Wainuiomata,Timaru,Taupo,Waikato Region,Stoke"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Friulian",
@@ -4168,7 +4168,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Manukau City,Mangere,Lower Hutt,Karori,Invercargill,Dunedin,Avondale,Levin"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Ladin",
@@ -4177,7 +4177,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Papakura,Ashburton,Rangiora,Takanini,Mangere East,Papatoetoe,Otahuhu"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Walloon",
@@ -4186,7 +4186,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Manurewa,Otara,New Lynn,Mount Eden,Titirangi,Remuera,Massey East,Te Atatu Peninsula,Te Atatu South"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Neapolitan",
@@ -4195,7 +4195,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Badīyah,As Suwayq,Seeb,Al Khābūrah,Al Buraymī,Al Buraimi,Panama Oeste Province,Tocumen"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Mari",
@@ -4204,7 +4204,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ancash,Chimbote,Chiclayo,Chepén,Chachapoyas,Catacaos"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Erzya",
@@ -4213,7 +4213,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bagua Grande,La Breita,Zarumilla,Yunguyo,Yauri,Cuzco Department,Yanacancha,Tarma"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Northwestern Mari",
@@ -4222,7 +4222,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Tacna,Santiago de Surco,Lima region,Satipo,San Vicente de Cañete,Paramonga,Nuevo Imperial"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Ob-Ugric",
@@ -4231,7 +4231,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Nazca,Moquegua Department,Mollendo,Minas de Marcona,Lima Province,La Oroya,Villa Poeta José Gálvez Barrenechea,Jauja"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Elfdalian",
@@ -4240,7 +4240,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Mora,Orsa,Leksand,Rättvik,Säter,Falun,Borlänge,Ludvika,Smedjebacken,Gagnef"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Welsh",
@@ -4249,7 +4249,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Iles du Vent,East Sepik Province,Western Highlands Province,Southern Highlands Province,Morobe Province,East New Britain Province"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Russian",
@@ -4258,7 +4258,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "West New Britain Province,Eastern Highlands Province,Eastern Visayas,Central Luzon,Zamboanga Peninsula,Autonomous Region in Muslim Mindanao,Bicol Region"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Slovak",
@@ -4267,7 +4267,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Victorias,Western Visayas,Calabarzon,Mimaropa,Veruela,Caraga,National Capital Region,NIA Valencia,Northern Mindanao,Urdaneta,Ualog,Tupi"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Polish",
@@ -4276,7 +4276,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Soccsksargen,Tunasan,Cagayan Valley,Central Visayas,Tiwi,Tinongan,Teresa,Telabastagan"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Kashubian",
@@ -4285,7 +4285,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Tayabas,Tarlac City,Tanza,Tanjay,Tangub,Tandag,Tanay,Tanauan,Taloc,Talitay"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Bosnian",
@@ -4294,7 +4294,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Tagaytay,Tagas,Tabaco,Surallah,Sumag,Sultan sa Barongis,Subic"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Croatian",
@@ -4303,7 +4303,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Suay,Solano,Solana,Sitangkai,Sipalay,Siocon,Silang"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Serbian",
@@ -4312,7 +4312,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Belgrade,Novi Sad,Niš,Kragujevac,Subotica,Zrenjanin,Pančevo,Čačak,Smederevo,Leskovac"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Macedonian",
@@ -4321,7 +4321,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Skopje,Bitola,Kumanovo,Prilep,Tetovo,Veles,Ohrid,Strumica,Kavadarci,Gostivar"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Slovene",
@@ -4330,7 +4330,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ljubljana,Maribor,Celje,Kranj,Koper,Novo Mesto,Velenje,Trbovlje,Kamnik,Murska Sobota"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Dutch",
@@ -4339,7 +4339,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Amsterdam,Rotterdam,The Hague,Utrecht,Eindhoven,Groningen,Tilburg,Almere,Breda,Nijmegen"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Yiddish",
@@ -4348,7 +4348,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "New York,Brooklyn,Chicago,Los Angeles,Miami,Toronto,Montreal,London,Paris,Buenos Aires"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Frisian",
@@ -4357,7 +4357,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Norzagaray,Norala,New Corella,Nasugbu,Narra,Naic,Nagcarlan,Nabunturan"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Swiss German",
@@ -4366,7 +4366,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Nabua,Muricay,Muntinlupa,Muñoz,Morong,Rodriguez,Monkayo,Molave"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Scots",
@@ -4375,7 +4375,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Glasgow,Edinburgh,Aberdeen,Dundee,Inverness,Perth,Stirling,Hamilton,Dunfermline,Kilmarnock"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Moksha",
@@ -4384,7 +4384,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ashmont,Attleboro,Back Bay,Barnstable,Belmont,Beverly,Beverly Cove,Billerica,Brockton"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Montenegrin",
@@ -4393,7 +4393,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Brookline,Chestnut Hill,Chicopee,Danvers,Dedham,Dracut"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Benasquese",
@@ -4402,7 +4402,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Duxbury,East Boston,East Longmeadow,Easthampton,Fairhaven,Fitchburg,Framingham,Framingham Center"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Judeo-Italian",
@@ -4411,7 +4411,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Rome,Milan,Florence,Venice,Turin,Genoa,Bologna,Palermo,Naples,Trieste"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Judeo-Mantuan",
@@ -4420,7 +4420,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lynn,Malden,Marblehead,Mattapan,Medford,Methuen,Middleborough"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Judeo-Piedmontese",
@@ -4429,7 +4429,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Natick,Needham,New Bedford,Newburyport,North Chicopee,Norton,Orient Heights,Peabody"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Judeo-Portuguese",
@@ -4438,7 +4438,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Pittsfield,Randolph,Rockland,Roslindale,Roxbury Crossing,Saugus,Somerset,South Boston"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Judeo-Provençal",
@@ -4447,7 +4447,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "South Hadley,South Peabody,Southbridge,Stoneham,Stoughton,Tewksbury,Waltham"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Judeo-Spanish",
@@ -4456,7 +4456,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Istanbul,Thessaloniki,Izmir,Barcelona,Valencia,Salonika,Edirne,Bursa,Athens,Skopje"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Izhma",
@@ -4465,7 +4465,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Mankato,Maple Grove,Maplewood,Minneapolis,Minnetonka,Minnetonka Mills,Moorhead"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Romanian",
@@ -4474,7 +4474,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bucharest,Cluj-Napoca,Timișoara,Iași,Constanța,Craiova,Galați,Ploiești,Oradea,Brăila"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Upper Sorbian",
@@ -4483,7 +4483,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "South Orange,South Plainfield,South River,Summit,Teaneck,Tinton Falls,West Milford"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Central Catalan",
@@ -4492,7 +4492,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "West New York,West Orange,Willingboro,Woodbridge,Astoria,Baldwin,Bath Beach"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Benasquese (Benasque Valley)",
@@ -4501,7 +4501,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Huesca,Jaca,Barbastro,Benasque,Graus,Sabiñánigo,Aínsa,Bielsa,Ansó,Alquézar"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Judeo-Italian (Standard)",
@@ -4510,7 +4510,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Rome,Milan,Florence,Venice,Turin,Genoa,Bologna,Palermo,Naples,Trieste"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Judeo-Mantuan (Lombardy)",
@@ -4519,7 +4519,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Mantova,Cremona,Brescia,Verona,Vicenza,Padova,Ferrara,Parma,Modena,Rovigo"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Judeo-Piedmontese (Turin)",
@@ -4528,7 +4528,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Turin,Novara,Alessandria,Asti,Cuneo,Vercelli,Biella,Verbania,Ivrea,Moncalieri"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Molisan (Molise)",
@@ -4537,7 +4537,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Campobasso,Isernia,Termoli,Venafro,Larino,Bojano,Agnone,Sepino,Macchia d'Isernia,Mafalda"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Moselle Romance (Lorraine)",
@@ -4546,7 +4546,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Metz,Nancy,Thionville,Épinal,Bar-le-Duc,Verdun,Sarrebourg,Forbach,Hayange,Longwy"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Moldavian (Moldova)",
@@ -4555,7 +4555,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Adelanto,Agoura,Agoura Hills,Agua Caliente,Aliso Viejo,Altadena,Alum Rock,American Canyon"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Judeo-Aragonese (Aragon)",
@@ -4564,7 +4564,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Anaheim,Antelope,Arroyo Grande,Artesia,Arvin,Atascadero,Atwater Village,Atwater"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Slovenian",
@@ -4573,7 +4573,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ljubljana,Maribor,Celje,Kranj,Koper,Novo Mesto,Velenje,Trbovlje,Kamnik,Murska Sobota"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Swedish",
@@ -4582,7 +4582,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Encino,Escondido,Fair Oaks,Fallbrook,Florin,Folsom,Foothill Farms,Foster City,Fountain Valley"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Rusyn",
@@ -4591,7 +4591,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Fullerton,Garden Grove,Gilroy,Glen Avon,Glendora,Goleta,Granite Bay"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Belarusian",
@@ -4600,7 +4600,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Hacienda Heights,Hanford,Hayward,Hemet,Hercules,Hermosa Beach,Hesperia,Hollister"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Aromanian",
@@ -4609,7 +4609,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Oildale,Orangevale,Orcutt,Orinda,Oroville,Oxnard,Pacific Palisades,Pacifica,Pacific Grove"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Megleno-Romanian",
@@ -4618,7 +4618,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Palmdale,Palo Alto,Paramount,Parlier,Paso Robles,Patterson,Perris,Petaluma"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Istro-Romanian",
@@ -4627,7 +4627,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Pico Rivera,Pinole,Pleasant Hill,Pomona,Rancho Cucamonga"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Ladino",
@@ -4636,7 +4636,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Istanbul,Thessaloniki,Izmir,Salonika,Edirne,Bursa,Antioch,Sidon,Tyre,Haifa"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Latvian",
@@ -4645,7 +4645,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Santa Fe Springs,Santa Monica,Santa Paula,Santee,Saratoga,Sawtelle"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Lithuanian",
@@ -4654,7 +4654,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Seal Beach,North Hills,Shafter,Sherman Oaks,South El Monte,South Lake Tahoe,South Pasadena,South San Francisco"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Breton",
@@ -4663,7 +4663,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "South San Jose Hills,South Whittier,South Yuba City,Stanton,Studio City,Suisun,Sunland,Sylmar"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Cornish",
@@ -4672,7 +4672,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Temple City,Tracy,Truckee,Tujunga,Tulare,Turlock,Tustin,North Tustin"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Czech",
@@ -4681,7 +4681,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Twentynine Palms,Ukiah,Upland,Vacaville,Valinda,Van Nuys,Vincent"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Austrian German",
@@ -4690,7 +4690,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Vista,Walnut,Walnut Creek,Walnut Park,Watsonville,West Carson,West Puente Valley,West Sacramento"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Flemish",
@@ -4699,7 +4699,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Cimarron Hills,Colorado Springs,Columbine,Commerce City,Denver,Fountain,Golden,Grand Junction,Greenwood Village"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Naukan",
@@ -4951,7 +4951,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Krasnoyarsk,Yeniseisk,Kyzyl,Igarka,Dudinka,Norilsk,Tura,Khatanga,Volochanka,Ust-Port,Nidym,Turukhansk,Vereshchagino,Kellog,Sym,Bakhtinka,Yartsevo,Podtyosovo,Bor,Novoselovo,Shiversk,Abalakovo,Vorogovo,Kuminsk"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Kazym",
@@ -5068,7 +5068,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kingisepp,Ivangorod,Volkhov,Tikhvin,Kirishi,Vyborg,Sosnovy Bor,Luga,Slantsy,Boksitogorsk,Podporozhye,Lodeynoye Pole,Pikalyovo,Chudovo,Malaya Vishera,Novaya Ladoga,Shapki,Svetogorsk,Primorsk,Vysotsk,Orodezhi,Soikkola"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Lower Vychegda",
@@ -5122,7 +5122,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kasimov,Sasovo,Yelatma,Vladimir,Murom,Gorokhovets,Sobinka,Kovrov,Sudogda,Melenki,Kameshkovo,Vyazniki,Kolchugino,Alexandrov,Kirzhach,Pokrov,Petushki,Kosteryovo,Strunino,Lakinsk"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Middle Botnian",
@@ -5167,7 +5167,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Murom,Vyazniki,Gorokhovets,Kasimov,Sasovo,Yelatma,Vladimir,Sobinka,Kovrov,Sudogda,Melenki,Kameshkovo,Kolchugino,Alexandrov,Kirzhach,Pokrov,Petushki,Kosteryovo,Strunino,Lakinsk"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Mysy",
@@ -5302,7 +5302,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kingisepp,Ivangorod,Volkhov,Tikhvin,Kirishi,Vyborg,Sosnovy Bor,Luga,Slantsy,Boksitogorsk,Podporozhye,Lodeynoye Pole,Pikalyovo,Chudovo,Malaya Vishera,Novaya Ladoga,Shapki,Svetogorsk,Primorsk,Vysotsk,Orodezhi,Soikkola"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Päijänne Tavastia",
@@ -5374,7 +5374,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Saransk,Ardatov,Insar,Kovylkino,Ruzayevka,Zubova Polyana,Chamzinka,Romodanovo,Kadoshkino,Lyambir,Atyashevo,Torbeyevo,Yelniki,Krasnoslobodsk,Temnikov,Barashevo,Atyuryevo,Dubyonki,Yavas"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Ruija",
@@ -5455,7 +5455,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kingisepp,Ivangorod,Volkhov,Tikhvin,Kirishi,Vyborg,Sosnovy Bor,Luga,Slantsy,Boksitogorsk,Podporozhye,Lodeynoye Pole,Pikalyovo,Chudovo,Malaya Vishera,Novaya Ladoga,Shapki,Svetogorsk,Primorsk,Vysotsk,Orodezhi,Soikkola"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Sirkas",
@@ -5482,7 +5482,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kingisepp,Ivangorod,Volkhov,Tikhvin,Kirishi,Vyborg,Sosnovy Bor,Luga,Slantsy,Boksitogorsk,Podporozhye,Lodeynoye Pole,Pikalyovo,Chudovo,Malaya Vishera,Novaya Ladoga,Shapki,Svetogorsk,Primorsk,Vysotsk,Orodezhi,Soikkola"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Sörkaitum",
@@ -5635,7 +5635,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Tavda,Kungur,Verkhoturye,Pelym,Nizhnyaya Tura,Tagil,Chusovaya,Iset,Tyumen,Tobolsk"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Taygi",
@@ -5644,7 +5644,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Krasnoyarsk,Yeniseisk,Kyzyl,Igarka,Dudinka,Norilsk,Tura,Khatanga,Volochanka,Ust-Port,Nidym,Turukhansk,Vereshchagino,Kellog,Sym,Bakhtinka,Yartsevo,Podtyosovo,Bor,Novoselovo,Shiversk,Abalakovo,Vorogovo,Kuminsk"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Ter Sami",
@@ -5887,7 +5887,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kingisepp,Ivangorod,Volkhov,Tikhvin,Kirishi,Vyborg,Sosnovy Bor,Luga,Slantsy,Boksitogorsk,Podporozhye,Lodeynoye Pole,Pikalyovo,Chudovo,Malaya Vishera,Novaya Ladoga,Shapki,Svetogorsk,Primorsk,Vysotsk"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Yaran",
@@ -5923,7 +5923,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Pori,Rauma,Ulvila,Harjavalta,Kokemki,Huittinen,Sastamala,Ikaalinen,Kihni,Parkano,Jmijrvi,Kankaanp,Karvia,Kullaa,Lavia,Merikarvia,Nakkila,Pomarkku,Siikainen,Sakyl,Vampula"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Yoshkar-Olin",
@@ -5968,7 +5968,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Seville,Mlaga,Crdoba,Granada,Almera,Huelva,Jan,Antequera,Marbella,Jerez,Rota,El Puerto,Sanlcar,Chiclana,Algeciras,Roquetas,Motril,beda,Baeza,cija,Osuna,Estepa,Priego,Lucena,Puerto Real,Lepe,Ayamonte,Isla Cristina,Arcos,Medina Sidonia,Vejer,Tarifa,Conil,Zahara,Olvera,Setenil,Grazalema,Aracena"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
 },
 {
     "name": "Anglo-Norman",
@@ -5977,7 +5977,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Paris,Lyon,Marseille,Toulouse,Nice,Bordeaux,Lille,Nantes,Strasbourg,Rennes"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Béarnese",
@@ -6013,7 +6013,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Madrid,Toledo,Segovia,vila,Burgos,Valladolid,Soria,Palencia,Len,Zamora,Salamanca,Ciudad Real,Cuenca,Guadalajara,Siguenza,Medina del Campo,Aranda,Lerma,Sepulveda,Pedraza,Riaza,Aylln,Madrigal,Tordesillas,Almazn,Berlanga,Atienza,Molina,Medinaceli,Calatayud"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
 },
 {
     "name": "Castúo",
@@ -6031,7 +6031,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Cremona,Crema,Pizzighettone,Soresina,Casalmaggiore,Rivolta d'Adda,Castelleone,Cremosano,Formigara,Soncino"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Crișana",
@@ -6058,7 +6058,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Berlin,Munich,Hamburg,Cologne,Frankfurt,Stuttgart,Düsseldorf,Dortmund,Essen,Leipzig"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
 },
 {
     "name": "Icelandic",
@@ -6166,7 +6166,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Knigsberg,Elbing,Thorn,Marienburg,Insterburg,Tilsit,Rastenburg,Osterode,Allenstein,Neidenburg,Bartenstein,Lbau,Ragnit,Tapiau,Labiau,Wehlau,Gerdauen,Friedland,Preuisch Eylau,Heilsberg,Mohrungen,Sensburg"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
 },
 {
     "name": "Orléanais",
@@ -6193,7 +6193,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bialystok,Bielskodlaski,Hajnwwka,Siemiatycze,Wysokie Mazowieckie,Lapy,Bransk,Kleszczele,Czye,Bielsk,Pinsk,Luninets,Stolin,Davyd-Haradok,Turov"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Polabian",
@@ -6202,7 +6202,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lneburg,Ratzeburg,Lbeck,Hamburg,Bardowick,Dahlenburg,Bleckede,Bevensen,Bienenbttel,Rullstorf,Tostedt,Jesteburg,Hanstedt,Asendorf,Salzhausen,Gdenstorf,Barendorf,Harburg,Stelle,Marschacht,Brackel,Buchholz"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Pomeranian",
@@ -6220,7 +6220,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Cologne,Bonn,Aachen,Dsseldorf,Mnchengladbach,Krefeld,Leverkusen,Solingen,Bergisch Gladbach,Neuss,Dren,Euskirchen,Hrth,Brhl,Frechen,Pulheim,Troisdorf,Niederkassel,Wesseling,Bornheim,Wachtberg,Meckenheim,Rheinberg,Rheberg"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Romani",
@@ -6247,7 +6247,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Wrocaw,Opole,Gliwice,Zabrze,Bytom,Rybnik,Ruda lska,Tychy,Dabrowa Gornicza,Chorz,Jastrzbie-Zdrj,Myslowice,Siemianowice lskie,Piekary lskie,Swietochowice"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
 },
 {
     "name": "Slovincian",
@@ -6256,7 +6256,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Supsk,Ustka,Smoldziski Las,Lbork,Leba,Koscierzyna,Brusy,Studzienice,Lipnica,Parchowo,Sulczyno,Karsin,Stzyca,Chmielno,Sierakowice,Lczyce,Kobylnica,Gdansk,Sopot,Gdynia"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Spanish",
@@ -6265,7 +6265,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Madrid,Barcelona,Valencia,Seville,Zaragoza,Mlaga,Murcia,Palma,Bilbao,Alicante,Crdoba,Valladolid,Vigo,Gijn,Hospitalet,Vitoria,La Corua,Granada,Elche,Oviedo,Badalona,Cartagena,Terrassa,Jerez,Sabadell,Mstoles,Santa Cruz,Pamplona,Almera,Fuenlabrada,Legans,San Sebastin,Santander,Burgos,Albacete,Castelln,Alcorcn,Getafe,Salamanca,Huelva"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
 },
 {
     "name": "Standard Swedish",
@@ -6283,7 +6283,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Stuttgart,Ulm,Tbingen,Reutlingen,Esslingen,Heilbronn,Ludwigsburg,Gppingen,Aalen,Schwbisch Gmnd,Heidenheim,Crailsheim,Bblingen,Leonberg,Sindelfingen,Leinfelden-Echterdingen,Fellbach,Kornwestheim,Ostfildern,Ditzingen,Remseck,Waiblingen,Schwbisch Hall,Ellwangen,Schorndorf,Backnang,Murrhardt,Gaildorf,Gerabronn,Kirchheim,Lorch,Welzheim"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
 },
 {
     "name": "Swedish (native-speakers subset)",
@@ -6301,7 +6301,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Berlin,Munich,Hamburg,Cologne,Frankfurt,Stuttgart,Düsseldorf,Dortmund,Essen,Leipzig"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Urum",
@@ -6319,7 +6319,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lyon,Grenoble,Saint-tienne,Chambry,Annecy,Valence,Bourg-en-Bresse,Ambrieu-en-Bugey,Oyonnax,Vienne,Roanne,Montbrison,Riom,Thiers,Le Puy-en-Velay,Aurillac,Moulins,Vichy,Cusset,Gannat"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Walser German",
@@ -6328,7 +6328,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Zermatt,Saas-Fees,Evolne,Alagna Valsesia,Rima San Giuseppe,Carcano,Rimella,Riva Valdobbia,Mollia,Boccioleto,Campertogno,Pila,Gressoney-Saint-Jean,Gressoney-La-Trinit,Issime,Lillianes,Perloz,Carema,Quinet,Settimo Vittone,Donnas,Pont-Saint-Martin,Oyace,Valprato Soana,Allein,Antey-Saint-Andr,Avise,Chambave,Chamois,Champdepraz,Champorcher,Cogne,Doues,Emarse,Etroubles,Fnis,Gaby,Gignod,Introd,Issogne"
+  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
 },
 {
     "name": "West Polesian",
@@ -6346,7 +6346,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Namur,Charleroi,Lige,Mons,Tournai,Verviers,La Louvire,Seraing,Mouscron,Chatelet,Gembloux,Dinant,Couvin,Marche-en-Famenne,Bastogne,Nufchteau,Arlon,Virton"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Wymysorys",
@@ -6436,7 +6436,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Klyuchi,Kozyrevsk,Milkovo,Esso,Palana,Tigil,Sobolevka,Korf,Krasnogorye,Atlasovo,Ust-Khayryuzovo,Kovran,Sedanka,Ust-Bolsheretsk,Ossora,Karaga,Tymlat,Kakhtana,Ilpyrskoye,Khayryuzovo"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Southern Yukaghir",
@@ -6463,7 +6463,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Klyuchi,Kozyrevsk,Milkovo,Esso,Palana,Tigil,Sobolevka,Korf,Krasnogorye,Atlasovo,Ust-Khayryuzovo,Kovran,Sedanka,Ust-Bolsheretsk,Ossora,Karaga,Tymlat,Kakhtana,Ilpyrskoye,Khayryuzovo"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
 },
 {
     "name": "Yeniseian",
