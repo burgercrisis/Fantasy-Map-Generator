@@ -1,0 +1,1602 @@
+[
+  {
+    "i": 11335,
+    "name": "Guinea-Bissau Creole",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 11339,
+    "name": "Gurara",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 11435,
+    "name": "Hina",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 11482,
+    "name": "Ghomara",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 11484,
+    "name": "Gidar",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 11532,
+    "name": "Kilba",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 11538,
+    "name": "Hun-Saare",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 11581,
+    "name": "Hwana",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 11583,
+    "name": "Hya",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 11631,
+    "name": "Giiwo",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 11634,
+    "name": "Guruntum",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 11636,
+    "name": "Gvoko",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 11638,
+    "name": "Gwandara",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 11646,
+    "name": "Han-Samhan",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 13339,
+    "name": "Omaio",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 13340,
+    "name": "Ongota",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 13375,
+    "name": "Judeo-Berber",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 13439,
+    "name": "Proto-Ron",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 13440,
+    "name": "Proto-Warji",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 13445,
+    "name": "North Bauchi",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 13446,
+    "name": "Ron",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 13447,
+    "name": "South Bauchi",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 13448,
+    "name": "West Chadic",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 13599,
+    "name": "Tuareg Berber",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 13600,
+    "name": "Tuareg languages",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 13602,
+    "name": "Western Berber",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 13604,
+    "name": "Zenaga Berber",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 13605,
+    "name": "Zenati languages",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 13663,
+    "name": "Telugu",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 13664,
+    "name": "Setl'kwa",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 13665,
+    "name": "Shanjo",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 13667,
+    "name": "Suba-Simbiti",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 13743,
+    "name": "Kiga",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 13745,
+    "name": "Kikar",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 13749,
+    "name": "Kinyarwanda",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 13750,
+    "name": "Kirundi",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 13751,
+    "name": "Kongo",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 13854,
+    "name": "Kituba",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 13911,
+    "name": "Kunama",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 13928,
+    "name": "Laal",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 13946,
+    "name": "Lusoga",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 13947,
+    "name": "Tetserret",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 13948,
+    "name": "Ber",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 13949,
+    "name": "Tasawaq",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 13950,
+    "name": "Tagdal",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 13951,
+    "name": "Talodi",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 13952,
+    "name": "Tegali",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 13953,
+    "name": "Tegem",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 13954,
+    "name": "Tima",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 13955,
+    "name": "Tembo",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 13956,
+    "name": "Tocho",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 13957,
+    "name": "Tumtum",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 13965,
+    "name": "Sele",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 14041,
+    "name": "Liberian Kreyol",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 14042,
+    "name": "Libyan Arabic",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 14045,
+    "name": "Lingala",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 14073,
+    "name": "Boro-Garo",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 14134,
+    "name": "Nyabwa",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 14136,
+    "name": "Mumuye",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 14137,
+    "name": "Moore",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 14145,
+    "name": "Tigre",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 14148,
+    "name": "Geez",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 14151,
+    "name": "Hadiyya",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 14152,
+    "name": "Sidama",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 14153,
+    "name": "Wolaitta",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 14155,
+    "name": "Ganza",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 14164,
+    "name": "Luganda",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 14279,
+    "name": "Sango",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 20000,
+    "name": "Ghanaian Pidgin English",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 20001,
+    "name": "Nigerian Pidgin",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 20002,
+    "name": "West African Pidgin English",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 20103,
+    "name": "Angolar Creole",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 20104,
+    "name": "Annobonese Creole",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 20124,
+    "name": "Baca",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 20125,
+    "name": "Bangala",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 20144,
+    "name": "Cape Verdean Creole",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 20156,
+    "name": "Avokaya",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 20162,
+    "name": "Hozo",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 20163,
+    "name": "Tulishi",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 20164,
+    "name": "Uduk",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 20165,
+    "name": "Chadian Arabic",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 20166,
+    "name": "Kujargé",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 20169,
+    "name": "Cypriot Maronite Arabic",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 20170,
+    "name": "Gadal",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 20172,
+    "name": "Nubi",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 20220,
+    "name": "Bomboli-Bozaba",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 20221,
+    "name": "Bomboma",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 20222,
+    "name": "Boze",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 20227,
+    "name": "Bozo",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 20228,
+    "name": "Buu",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 20229,
+    "name": "Dagaare",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 20230,
+    "name": "Awing",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 20231,
+    "name": "Beba",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 20300,
+    "name": "Amira",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 20301,
+    "name": "Babanki",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 20319,
+    "name": "Amkoe",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 20323,
+    "name": "Bangi",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 20324,
+    "name": "Bangolan",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 20501,
+    "name": "Bala",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 20502,
+    "name": "Baldemu",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 20503,
+    "name": "Balo",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 20504,
+    "name": "Bamali",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 20505,
+    "name": "Bambalang",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 20507,
+    "name": "Bamboo English",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 20512,
+    "name": "Bamukumbit",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 20513,
+    "name": "Bamum",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 20514,
+    "name": "Bamwe",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 20515,
+    "name": "Bana",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 20516,
+    "name": "Bangime",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 20517,
+    "name": "Bariba",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 20518,
+    "name": "Bassari",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 20519,
+    "name": "Bata",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 20520,
+    "name": "Batu",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 20521,
+    "name": "Bayot",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 20551,
+    "name": "Beja",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 20555,
+    "name": "Bembe (Congo)",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 20556,
+    "name": "Bembe (DRC)",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 20557,
+    "name": "Comorian",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 20560,
+    "name": "Bete",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 20564,
+    "name": "Bhaca",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 20572,
+    "name": "Bidiya",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 20579,
+    "name": "Birgit",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 20581,
+    "name": "Boghom",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 20582,
+    "name": "Boor",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 20583,
+    "name": "Bole Chadic",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 20587,
+    "name": "Binza",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 20588,
+    "name": "Birri",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 20589,
+    "name": "Biseni",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 20590,
+    "name": "Bissa",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 20591,
+    "name": "Bitare",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 20593,
+    "name": "Bobo",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 20594,
+    "name": "Boga",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 20595,
+    "name": "Boko",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 20596,
+    "name": "Bole Niger-Congo",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 20598,
+    "name": "Bolon",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 20599,
+    "name": "Bomitaba",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 20600,
+    "name": "Bomu",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 20601,
+    "name": "Bongili",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 20602,
+    "name": "Bongo",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 20603,
+    "name": "Bonjo",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 20604,
+    "name": "Bono Ghana-Ivory Coast",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 20605,
+    "name": "Bono Nigeria",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 20606,
+    "name": "Boon",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 20612,
+    "name": "Budza",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 20613,
+    "name": "Buli",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 20614,
+    "name": "Buru-Angwe",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 20622,
+    "name": "Bwi",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 20631,
+    "name": "Caka",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 20660,
+    "name": "Cebaara",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 20661,
+    "name": "Central Atlas Tamazight",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 20665,
+    "name": "Chopi",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 20667,
+    "name": "Tigrinya",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 20668,
+    "name": "Qwara",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 20670,
+    "name": "Dangme",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 20671,
+    "name": "Seychellois Creole",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 20678,
+    "name": "Glavda",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 20685,
+    "name": "Simaa",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 20688,
+    "name": "Tshivenda",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 20690,
+    "name": "Goemai",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 20691,
+    "name": "Goji",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 20693,
+    "name": "Sebat Bet",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 20694,
+    "name": "Ulbare",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 20695,
+    "name": "Wolane",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 20696,
+    "name": "Mesmes",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 20697,
+    "name": "Mesqan",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 20698,
+    "name": "Muher",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 20700,
+    "name": "Inneqor",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 20701,
+    "name": "Inor",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 20702,
+    "name": "Chaha",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 20709,
+    "name": "Chung",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 20710,
+    "name": "Dciriku",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 20711,
+    "name": "Defaka",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 20712,
+    "name": "Mao-Omotic",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 20713,
+    "name": "North Omotic",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 20714,
+    "name": "Ometo",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 20718,
+    "name": "Chichewa",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 20721,
+    "name": "Cibak",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 20722,
+    "name": "Cineni",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 20723,
+    "name": "Ciwogai",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 20725,
+    "name": "Coptic",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 20726,
+    "name": "Cuvok",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 20727,
+    "name": "Daba",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 20728,
+    "name": "Dahalik",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 20729,
+    "name": "Dass",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 20730,
+    "name": "Daza",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 20731,
+    "name": "Dazawa",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 20732,
+    "name": "Ddo",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 20733,
+    "name": "Deh",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 20735,
+    "name": "Dengese",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 20736,
+    "name": "Deno",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 20738,
+    "name": "Lisan al-Gharbi",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 20739,
+    "name": "Matmata Berber",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 20740,
+    "name": "Ouargli",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 20741,
+    "name": "Sanhaja de Srair",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 20742,
+    "name": "Sened",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 20743,
+    "name": "Sheliff Basin Berber",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 20744,
+    "name": "Sokna",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 21109,
+    "name": "Bimbashi Arabic",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 21110,
+    "name": "Bongor Arabic",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 21111,
+    "name": "Maridi Arabic",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  }
+]

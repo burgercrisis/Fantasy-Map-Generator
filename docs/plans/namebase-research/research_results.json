@@ -1,0 +1,15 @@
+{
+  "_comment": "Research results for namebase audit. Each entry must have ALL fields filled in.",
+  "_format": {
+    "i": "language id number",
+    "name": "language name",
+    "file": "JS file name (e.g. namebases-asia.js)",
+    "d": "phonotactic doubling value (e.g. 'lnrt', 'lr', 'cltrpfsmbdg', '' for empty)",
+    "family": "language family (e.g. 'Austronesian', 'Bantu', 'Sino-Tibetan')",
+    "continent": "correct continent file should be in (e.g. 'asia', 'africa', 'europe', 'northAmerica', 'southAmerica', 'oceania')",
+    "seeds": "comma-separated list of 25+ place names IN THE LANGUAGE ITSELF",
+    "seed_count": "number of seeds provided",
+    "notes": "any issues found (wrong continent, wrong seeds, etc.)"
+  },
+  "entries": []
+}

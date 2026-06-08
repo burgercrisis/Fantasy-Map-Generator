@@ -1,0 +1,1602 @@
+[
+  {
+    "i": 2315,
+    "name": "Laiuse Romani",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 2320,
+    "name": "Tura",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 2321,
+    "name": "Northern Khanty",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 2322,
+    "name": "Sherkal",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 2323,
+    "name": "Southern Khanty",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 2324,
+    "name": "Upper Demjanka",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 2325,
+    "name": "Surgut Khanty",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 2326,
+    "name": "Malij Jugan",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 2327,
+    "name": "Tremjugan",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 2346,
+    "name": "Ejtun Dialect",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 2348,
+    "name": "Aas Whistled",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 2371,
+    "name": "Southeastern Moksha",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 2372,
+    "name": "Western Moksha",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 2373,
+    "name": "Syktyvkar",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 2375,
+    "name": "Sanchursk",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 2376,
+    "name": "Sharanga",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 2377,
+    "name": "Selkup",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 2378,
+    "name": "Northern Selkup",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 2379,
+    "name": "Northern Mansi",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 2380,
+    "name": "Sosva",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 2414,
+    "name": "Leivu",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 2416,
+    "name": "Lemi region",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 2429,
+    "name": "Livvi",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 2528,
+    "name": "Maltese",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 2575,
+    "name": "Scottish-Gaelic",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 2600,
+    "name": "Albanian",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 2606,
+    "name": "Estonian",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 2624,
+    "name": "Sardinian",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 2625,
+    "name": "Romansh",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 2627,
+    "name": "Faroese",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 2635,
+    "name": "Northern Sami",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 2639,
+    "name": "Manx",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 2641,
+    "name": "Sicilian",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 2642,
+    "name": "Bashkir",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 2643,
+    "name": "Chuvash",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 2645,
+    "name": "Komi Permyak",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 2646,
+    "name": "Komi Zyryan",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 2649,
+    "name": "Asturian",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 2656,
+    "name": "Luxembourgish",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 2657,
+    "name": "Silesian",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 2659,
+    "name": "Kalmyk",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 2663,
+    "name": "Friulian",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 2664,
+    "name": "Ladin",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 2665,
+    "name": "Walloon",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 2669,
+    "name": "Neapolitan",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 2676,
+    "name": "Mari",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 2677,
+    "name": "Erzya",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 2678,
+    "name": "Northwestern Mari",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 2680,
+    "name": "Ob-Ugric",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 2702,
+    "name": "Elfdalian",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 2709,
+    "name": "Welsh",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 2710,
+    "name": "Russian",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 2715,
+    "name": "Slovak",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 2716,
+    "name": "Polish",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 2717,
+    "name": "Kashubian",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 2720,
+    "name": "Bosnian",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 2721,
+    "name": "Croatian",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 2723,
+    "name": "Serbian",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 2725,
+    "name": "Macedonian",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 2726,
+    "name": "Slovene",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 2728,
+    "name": "Dutch",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 2729,
+    "name": "Yiddish",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 2730,
+    "name": "Frisian",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 2732,
+    "name": "Swiss German",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 2733,
+    "name": "Scots",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 21049,
+    "name": "Moksha",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 21050,
+    "name": "Montenegrin",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 21054,
+    "name": "Benasquese",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 21058,
+    "name": "Judeo-Italian",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 21059,
+    "name": "Judeo-Mantuan",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 21060,
+    "name": "Judeo-Piedmontese",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 21061,
+    "name": "Judeo-Portuguese",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 21062,
+    "name": "Judeo-Provençal",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 21063,
+    "name": "Judeo-Spanish",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 21095,
+    "name": "Izhma",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 21103,
+    "name": "Romanian",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 21105,
+    "name": "Upper Sorbian",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 21106,
+    "name": "Central Catalan",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 23004,
+    "name": "Benasquese (Benasque Valley)",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 23005,
+    "name": "Judeo-Italian (Standard)",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 23006,
+    "name": "Judeo-Mantuan (Lombardy)",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 23007,
+    "name": "Judeo-Piedmontese (Turin)",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 23011,
+    "name": "Molisan (Molise)",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 23012,
+    "name": "Moselle Romance (Lorraine)",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 23013,
+    "name": "Moldavian (Moldova)",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 23014,
+    "name": "Judeo-Aragonese (Aragon)",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 44747,
+    "name": "Slovenian",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 50005,
+    "name": "Swedish",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 50006,
+    "name": "Rusyn",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 50007,
+    "name": "Belarusian",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 50030,
+    "name": "Aromanian",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 50031,
+    "name": "Megleno-Romanian",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 50032,
+    "name": "Istro-Romanian",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 50035,
+    "name": "Ladino",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 50036,
+    "name": "Latvian",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 50037,
+    "name": "Lithuanian",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 50038,
+    "name": "Breton",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 50039,
+    "name": "Cornish",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 50040,
+    "name": "Czech",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 51484,
+    "name": "Austrian German",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 88382,
+    "name": "Flemish",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 200232,
+    "name": "Naukan",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "Uelen,Lavrentiya,Provideniya,Lorino,Naukan,Nunyamo,Uelkal,Chaplino,Sireniki,Imtuk,Avan,Nutaq,Napaqut...",
+    "seed_count": 45
+  },
+  {
+    "i": 200233,
+    "name": "Sirenik",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "Sireniki,Imtuk,Ungaziq,Chaplino,Naukan,Lavrentiya,Provideniya,Lorino,Uelen,Avan,Sighineq,Siqlluk,Ity...",
+    "seed_count": 38
+  },
+  {
+    "i": 200234,
+    "name": "Yuit",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "Chaplino,Ungaziq,Sireniki,Naukan,Lavrentiya,Provideniya,Lorino,Uelen,Imtuk,Avan,Savoonga,Gambell,Siv...",
+    "seed_count": 42
+  },
+  {
+    "i": 200644,
+    "name": "Andi",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "Andi,Gunkha,Gagatl,Ashali,Rikvani,Chanko,Zilo,Kvanxidatl,Munin,Bichonni,Rushukha,Tsibilda,Koisu,Botl...",
+    "seed_count": 41
+  },
+  {
+    "i": 200645,
+    "name": "Bezhta",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "Bezhta,Tladal,Khasharkhota,Balakuri,Isso,Sinatli,Zhammod,Andzhaga,Kachalay,Tsunta,Koyshula,Shamil,Ti...",
+    "seed_count": 39
+  },
+  {
+    "i": 200646,
+    "name": "Botlikh",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "Botlikh,Miarso,Ashino,Chontaul,Ankho,Batlakhatli,Koyshula,Tindi,Echeda,Aknada,Tissi,Khushet,Goba,And...",
+    "seed_count": 39
+  },
+  {
+    "i": 200647,
+    "name": "Kabardian",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "Nalchik,Baksan,Prokhladny,Terek,Mozdok,Nartan,Kislovodsk,Piatigorsk,Essentuki,Zheleznovodsk,Cherkess...",
+    "seed_count": 42
+  },
+  {
+    "i": 200648,
+    "name": "Kaitag",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "Kaitag,Urkarakh,Kara-Kureysh,Madzhalis,Basly,Derbent,Mamedkala,Dagestanskiye Ogni,Tabasaran,Khuchni,...",
+    "seed_count": 38
+  },
+  {
+    "i": 200649,
+    "name": "Kubachi",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "Kubachi,Amuzgi,Shari,Sulevkent,Derbent,Mamedkala,Dagestanskiye Ogni,Tabasaran,Khuchni,Turag,Khurik,M...",
+    "seed_count": 39
+  },
+  {
+    "i": 200650,
+    "name": "Mingrelian",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "Zugdidi,Poti,Senaki,Martvili,Chkhorotsku,Tsalenjikha,Khobi,Ochamchire,Gali,Gulripshi,Abasha,Nokalake...",
+    "seed_count": 41
+  },
+  {
+    "i": 200651,
+    "name": "Proto-Georgian–Zan",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "Mtskheta,Tbilisi,Kutaisi,Batumi,Gori,Dmanisi,Vani,Sukhumi,Poti,Telavi,Mestia,Oni,Akhaltsikhe,Khashur...",
+    "seed_count": 43
+  },
+  {
+    "i": 200652,
+    "name": "Rutul",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "Rutul,Luchek,Ikhrek,Amsar,Boch,Shinaz,Khinov,Kala,Aran,Vurush,Djilikhur,Mukhrek,Tsudik,Kiche,Kufa,Kh...",
+    "seed_count": 40
+  },
+  {
+    "i": 200653,
+    "name": "Svan",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "Mestia,Ushguli,Latali,Lenjeri,Mulakhi,Ipari,Adishi,Kala,Becho,Chuberi,Neskra,Nakra,Lalveri,Pari,Ecer...",
+    "seed_count": 44
+  },
+  {
+    "i": 200654,
+    "name": "Tabasaran",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "Khuchni,Turag,Khurik,Mezhgyul,Kondik,Tinit,Sirtich,Khanag,Eteg,Dureb,Shilyagi,Kirki,Turaga,Mugarty,C...",
+    "seed_count": 45
+  },
+  {
+    "i": 200655,
+    "name": "Tat",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lahıc,Ismailli,Shamakhi,Khachmaz,Guba,Xizi,Zarat,Qonaqkənd,Qusar,Xudat,Derbent,Mərdəkan,Biləcəri,Bin...",
+    "seed_count": 45
+  },
+  {
+    "i": 200656,
+    "name": "Tindi",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "Tindi,Idari,Aknada,Echeda,Tissi,Khushet,Goba,Botlikh,Miarso,Ashino,Chontaul,Ankho,Batlakhatli,Andi,G...",
+    "seed_count": 35
+  },
+  {
+    "i": 200657,
+    "name": "Ubykh",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "Sochi,Tuapse,Gelendzhik,Novorossiysk,Krasnodar,Lazarevskoye,Khosta,Matsesta,Dagomys,Loo,Adler,Kudeps...",
+    "seed_count": 40
+  },
+  {
+    "i": 200727,
+    "name": "Almosan",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "Ural,Ob,Yenisei,Lena,Kolyma,Anadyr,Kamchatka,Chukotka,Taimyr,Yamal,Gydan,Taz,Pur,Nadym,Salekhard,Kha...",
+    "seed_count": 45
+  },
+  {
+    "i": 200728,
+    "name": "Bjarmian Sámi",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "Kemi,Tornio,Kemijrvi,Salla,Kuusamo,Oulu,Rovaniemi,Pudasjrvi,Taivalkoski,Posio,Ranua,Yli-Ii,Ii,Haukip...",
+    "seed_count": 54
+  },
+  {
+    "i": 200729,
+    "name": "Cingali",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "Khanty-Mansiysk,Surgut,Nizhnevartovsk,Nefteyugansk,Langepas,Megion,Raduzhny,Uray,Nyagan,Kogalym,Pyt-...",
+    "seed_count": 40
+  },
+  {
+    "i": 200730,
+    "name": "Csángó",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "Budapest,Debrecen,Szeged,Miskolc,Pcs,Gyr,Nyregyhza,Kecskemt,Szkesfehvar,Szombathely,Szolnok,Tatabnya...",
+    "seed_count": 40
+  },
+  {
+    "i": 200731,
+    "name": "Dené-Yeniseian",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "Yenisei,Angara,Lena,Khatanga,Kolyma,Indigirka,Alazeya,Anabar,Olenyok,Vilyuy,Podkamennaya Tunguska,Ni...",
+    "seed_count": 44
+  },
+  {
+    "i": 200732,
+    "name": "Jåkkåkaska",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "Jokkmokk,Gllivare,Pajala,Karesuando,Jukkasjrvi,Tarend,Overkalix,Kalix,Haparanda,Kautokeino,Karasjok,...",
+    "seed_count": 45
+  },
+  {
+    "i": 200733,
+    "name": "Jällivaara",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "Kiruna,Gllivare,Jokkmokk,Pajala,Karesuando,Jukkasjrvi,Tarend,Overkalix,Kalix,Haparanda,Boden,Lule,Pi...",
+    "seed_count": 37
+  },
+  {
+    "i": 200734,
+    "name": "Jugan",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "Khanty-Mansiysk,Surgut,Nizhnevartovsk,Nefteyugansk,Langepas,Megion,Raduzhny,Uray,Nyagan,Kogalym,Pyt-...",
+    "seed_count": 40
+  },
+  {
+    "i": 200735,
+    "name": "Jukonda",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "Uray,Nyagan,Kogalym,Langepas,Megion,Nizhnevartovsk,Nefteyugansk,Surgut,Pyt-Yakh,Pokachi,Igrim,Beryoz...",
+    "seed_count": 40
+  },
+  {
+    "i": 200736,
+    "name": "Kainuu",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "Helsinki,Turku,Tampere,Oulu,Jyvskyl,Kuopio,Lahti,Pori,Joensuu,Vaasa,Rovaniemi,Kemi,Tornio,Kotka,Lapp...",
+    "seed_count": 40
+  },
+  {
+    "i": 200737,
+    "name": "Kamassian proper",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 200738,
+    "name": "Kazym",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "Khanty-Mansiysk,Surgut,Nizhnevartovsk,Nefteyugansk,Langepas,Megion,Raduzhny,Uray,Nyagan,Kogalym,Pyt-...",
+    "seed_count": 40
+  },
+  {
+    "i": 200739,
+    "name": "Kiknur",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "Yoshkar-Ola,Kozmodemyansk,Volzhsk,Zvenigovo,Sernur,Orshanka,Kilemary,Sovetsky,Morki,Paranga,Yurino,M...",
+    "seed_count": 27
+  },
+  {
+    "i": 200740,
+    "name": "Komi-Yodzyak",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "Syktyvkar,Vorkuta,Usinsk,Pechora,Inta,Ukhta,Sosnogorsk,Yemva,Vylgort,Kortkeros,Izhma,Nizhny Odes,Zhe...",
+    "seed_count": 40
+  },
+  {
+    "i": 200741,
+    "name": "Komi-Zyryan",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "Syktyvkar,Vorkuta,Usinsk,Pechora,Inta,Ukhta,Sosnogorsk,Yemva,Vylgort,Kortkeros,Izhma,Nizhny Odes,Zhe...",
+    "seed_count": 40
+  },
+  {
+    "i": 200742,
+    "name": "Kosa-Kama",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "Syktyvkar,Vorkuta,Usinsk,Pechora,Inta,Ukhta,Sosnogorsk,Yemva,Vylgort,Kortkeros,Izhma,Nizhny Odes,Zhe...",
+    "seed_count": 40
+  },
+  {
+    "i": 200743,
+    "name": "Kozymodemyan",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "Yoshkar-Ola,Kozmodemyansk,Volzhsk,Zvenigovo,Sernur,Orshanka,Kilemary,Sovetsky,Morki,Paranga,Yurino,M...",
+    "seed_count": 27
+  },
+  {
+    "i": 200744,
+    "name": "Kuuďärv Ludic",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "Petrozavodsk,Kondopoga,Medvezhyegorsk,Segezha,Pitkyaranta,Sortavala,Lahdenpohja,Imatra,Joutseno,Lapp...",
+    "seed_count": 28
+  },
+  {
+    "i": 200745,
+    "name": "Likrisovskoe",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "Khanty-Mansiysk,Surgut,Nizhnevartovsk,Nefteyugansk,Langepas,Megion,Raduzhny,Uray,Nyagan,Kogalym,Pyt-...",
+    "seed_count": 40
+  },
+  {
+    "i": 200746,
+    "name": "Lipsha",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "Yoshkar-Ola,Kozmodemyansk,Volzhsk,Zvenigovo,Sernur,Orshanka,Kilemary,Sovetsky,Morki,Paranga,Yurino,M...",
+    "seed_count": 27
+  },
+  {
+    "i": 200747,
+    "name": "Lower Demjanka",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "Khanty-Mansiysk,Surgut,Nizhnevartovsk,Nefteyugansk,Langepas,Megion,Raduzhny,Uray,Nyagan,Kogalym,Pyt-...",
+    "seed_count": 40
+  },
+  {
+    "i": 200748,
+    "name": "Lower Konda",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "Uray,Nyagan,Kogalym,Langepas,Megion,Nizhnevartovsk,Nefteyugansk,Surgut,Pyt-Yakh,Pokachi,Igrim,Beryoz...",
+    "seed_count": 40
+  },
+  {
+    "i": 200749,
+    "name": "Lower Lozva",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "Uray,Nyagan,Kogalym,Langepas,Megion,Nizhnevartovsk,Nefteyugansk,Surgut,Pyt-Yakh,Pokachi,Igrim,Beryoz...",
+    "seed_count": 40
+  },
+  {
+    "i": 200750,
+    "name": "Lower Luga",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 200751,
+    "name": "Lower Vychegda",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "Syktyvkar,Vorkuta,Usinsk,Pechora,Inta,Ukhta,Sosnogorsk,Yemva,Vylgort,Kortkeros,Izhma,Nizhny Odes,Zhe...",
+    "seed_count": 40
+  },
+  {
+    "i": 200752,
+    "name": "Ludza",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "Tallinn,Tartu,Narva,Prnu,Viljandi,Rakvere,Kohtla-Jrve,Maardu,Sillamae,Kuressaare,Valga,Vru,Jgeva,Haa...",
+    "seed_count": 34
+  },
+  {
+    "i": 200753,
+    "name": "Luokta-Mávas",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "Arjeplog,Arvidsjaur,Jokkmokk,Gllivare,Kiruna,Pajala,Karesuando,Jukkasjrvi,Tarend,Overkalix,Kalix,Kau...",
+    "seed_count": 45
+  },
+  {
+    "i": 200754,
+    "name": "Luza-Letka",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "Syktyvkar,Vorkuta,Usinsk,Pechora,Inta,Ukhta,Sosnogorsk,Yemva,Vylgort,Kortkeros,Izhma,Nizhny Odes,Zhe...",
+    "seed_count": 40
+  },
+  {
+    "i": 200755,
+    "name": "Merya",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "Rostov,Yaroslavl,Kostroma,Ivanovo,Vologda,Kineshma,Galich,Chukhloma,Soligalich,Buy,Kologriv,Manturov...",
+    "seed_count": 29
+  },
+  {
+    "i": 200756,
+    "name": "Meshcherian",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 200757,
+    "name": "Middle Botnian",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "Oulu,Vaasa,Pori,Rauma,Kokkola,Pietarsaari,Kajaani,Kuhmo,Suomussalmi,Sotkamo,Kitee,Tohmajrvi,Ilomants...",
+    "seed_count": 32
+  },
+  {
+    "i": 200758,
+    "name": "Middle Konda",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "Uray,Nyagan,Kogalym,Langepas,Megion,Nizhnevartovsk,Nefteyugansk,Surgut,Pyt-Yakh,Pokachi,Igrim,Beryoz...",
+    "seed_count": 40
+  },
+  {
+    "i": 200759,
+    "name": "Middle Lozva",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "Uray,Nyagan,Kogalym,Langepas,Megion,Nizhnevartovsk,Nefteyugansk,Surgut,Pyt-Yakh,Pokachi,Igrim,Beryoz...",
+    "seed_count": 40
+  },
+  {
+    "i": 200760,
+    "name": "Mulgi",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "Tallinn,Tartu,Narva,Prnu,Viljandi,Rakvere,Kohtla-Jrve,Maardu,Sillamae,Kuressaare,Valga,Vru,Jgeva,Haa...",
+    "seed_count": 34
+  },
+  {
+    "i": 200761,
+    "name": "Muromian",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 200762,
+    "name": "Mysy",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "Kudymkar,Gaynsk,Yurla,Kosa,Kochevo,Yusva,Leninsk,Sepol,Pozhva,Maykor,Nytva,Okhansk,Ochyor,Perm,Berez...",
+    "seed_count": 40
+  },
+  {
+    "i": 200763,
+    "name": "Nerdva",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "Kudymkar,Gaynsk,Yurla,Kosa,Kochevo,Yusva,Leninsk,Sepol,Pozhva,Maykor,Nytva,Okhansk,Ochyor,Perm,Berez...",
+    "seed_count": 40
+  },
+  {
+    "i": 200764,
+    "name": "North Vagilsk",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "Uray,Nyagan,Kogalym,Langepas,Megion,Nizhnevartovsk,Nefteyugansk,Surgut,Pyt-Yakh,Pokachi,Igrim,Beryoz...",
+    "seed_count": 40
+  },
+  {
+    "i": 200765,
+    "name": "Northeast Hungary",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "Budapest,Debrecen,Szeged,Miskolc,Pcs,Gyr,Nyregyhza,Kecskemt,Szkesfehvar,Szombathely,Szolnok,Tatabnya...",
+    "seed_count": 40
+  },
+  {
+    "i": 200766,
+    "name": "Northeastern coastal Estonian",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "Tallinn,Tartu,Narva,Prnu,Viljandi,Rakvere,Kohtla-Jrve,Maardu,Sillamae,Kuressaare,Valga,Vru,Jgeva,Haa...",
+    "seed_count": 34
+  },
+  {
+    "i": 200767,
+    "name": "Northern Botnian",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "Oulu,Kemi,Tornio,Rovaniemi,Kemijrvi,Salla,Kuusamo,Pudasjrvi,Taivalkoski,Posio,Ranua,Yli-Ii,Ii,Haukip...",
+    "seed_count": 44
+  },
+  {
+    "i": 200768,
+    "name": "Northern Ludic",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "Petrozavodsk,Kondopoga,Medvezhyegorsk,Segezha,Pitkyaranta,Sortavala,Lahdenpohja,Imatra,Joutseno,Lapp...",
+    "seed_count": 26
+  },
+  {
+    "i": 200769,
+    "name": "Northern Savonian",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "Helsinki,Turku,Tampere,Oulu,Jyvskyl,Kuopio,Lahti,Pori,Joensuu,Vaasa,Rovaniemi,Kemi,Tornio,Kotka,Lapp...",
+    "seed_count": 40
+  },
+  {
+    "i": 200770,
+    "name": "Northern Veps",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "Vytegra,Podporozhye,Boksitogorsk,Lodeynoye Pole,Pikalyovo,Tikhvin,Chudovo,Malaya Vishera,Novaya Lado...",
+    "seed_count": 32
+  },
+  {
+    "i": 200771,
+    "name": "Ob Mansi",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "Uray,Nyagan,Kogalym,Langepas,Megion,Nizhnevartovsk,Nefteyugansk,Surgut,Pyt-Yakh,Pokachi,Igrim,Beryoz...",
+    "seed_count": 40
+  },
+  {
+    "i": 200772,
+    "name": "Obdorsk",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "Khanty-Mansiysk,Surgut,Nizhnevartovsk,Nefteyugansk,Langepas,Megion,Raduzhny,Uray,Nyagan,Kogalym,Pyt-...",
+    "seed_count": 40
+  },
+  {
+    "i": 200773,
+    "name": "Old Hungarian",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "Budapest,Debrecen,Szeged,Miskolc,Pcs,Gyr,Nyregyhza,Kecskemt,Szkesfehvar,Szombathely,Szolnok,Tatabnya...",
+    "seed_count": 40
+  },
+  {
+    "i": 200774,
+    "name": "Old Komi",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "Syktyvkar,Vorkuta,Usinsk,Pechora,Inta,Ukhta,Sosnogorsk,Yemva,Vylgort,Kortkeros,Izhma,Nizhny Odes,Zhe...",
+    "seed_count": 40
+  },
+  {
+    "i": 200775,
+    "name": "On",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "Kudymkar,Gaynsk,Yurla,Kosa,Kochevo,Yusva,Leninsk,Sepol,Pozhva,Maykor,Nytva,Okhansk,Ochyor,Perm,Berez...",
+    "seed_count": 40
+  },
+  {
+    "i": 200776,
+    "name": "Orodezhi",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 200777,
+    "name": "Päijänne Tavastia",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "Helsinki,Turku,Tampere,Oulu,Jyvskyl,Kuopio,Lahti,Pori,Joensuu,Vaasa,Rovaniemi,Kemi,Tornio,Kotka,Lapp...",
+    "seed_count": 40
+  },
+  {
+    "i": 200778,
+    "name": "Pechora",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "Syktyvkar,Vorkuta,Usinsk,Pechora,Inta,Ukhta,Sosnogorsk,Yemva,Vylgort,Kortkeros,Izhma,Nizhny Odes,Zhe...",
+    "seed_count": 40
+  },
+  {
+    "i": 200779,
+    "name": "Pelym",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "Uray,Nyagan,Kogalym,Langepas,Megion,Nizhnevartovsk,Nefteyugansk,Surgut,Pyt-Yakh,Pokachi,Igrim,Beryoz...",
+    "seed_count": 40
+  },
+  {
+    "i": 200780,
+    "name": "Pim",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "Khanty-Mansiysk,Surgut,Nizhnevartovsk,Nefteyugansk,Langepas,Megion,Raduzhny,Uray,Nyagan,Kogalym,Pyt-...",
+    "seed_count": 40
+  },
+  {
+    "i": 200781,
+    "name": "Pite Sami",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "Arjeplog,Arvidsjaur,Jokkmokk,Gllivare,Kiruna,Pajala,Karesuando,Jukkasjrvi,Tarend,Overkalix,Kalix,Kau...",
+    "seed_count": 45
+  },
+  {
+    "i": 200782,
+    "name": "Porvoo",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "Porvoo,Lohja,Hyvink,Nurmijrvi,Tuusula,Kerava,Kirkkonummi,Vihti,Raseborg,Salo,Rauma,Helsinki,Espoo,Va...",
+    "seed_count": 42
+  },
+  {
+    "i": 200783,
+    "name": "Proto-Hungarian",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "Budapest,Debrecen,Szeged,Miskolc,Pcs,Gyr,Nyregyhza,Kecskemt,Szkesfehvar,Szombathely,Szolnok,Tatabnya...",
+    "seed_count": 40
+  },
+  {
+    "i": 200784,
+    "name": "Proto-Mordvinic",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 200785,
+    "name": "Ruija",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "Kautokeino,Karasjok,Inari,Utsjoki,Skolt,Nellim,Sevettajrvi,Hetta,Jukkasjrvi,Gllivare,Kiruna,Jokkmokk...",
+    "seed_count": 41
+  },
+  {
+    "i": 200786,
+    "name": "Salaca Livonian",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "Kolka,Mazirbe,Skrags,Vaide,Pitrags,Kosrags,Lielirbe,Miktornis,Salaca,Riga,Dundaga,Talsi,Tukums,Jurma...",
+    "seed_count": 35
+  },
+  {
+    "i": 200787,
+    "name": "Sea Sami",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "Kautokeino,Karasjok,Inari,Utsjoki,Nuorgam,Ntm,Sevettajrvi,Hetta,Skolt,Nellim,Jukkasjrvi,Gllivare,Kir...",
+    "seed_count": 41
+  },
+  {
+    "i": 200788,
+    "name": "Semisjaur-Njarg",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "Arjeplog,Arvidsjaur,Jokkmokk,Gllivare,Kiruna,Pajala,Karesuando,Jukkasjrvi,Tarend,Overkalix,Kalix,Kau...",
+    "seed_count": 45
+  },
+  {
+    "i": 200789,
+    "name": "Sernur-Morkin",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "Yoshkar-Ola,Kozmodemyansk,Volzhsk,Zvenigovo,Sernur,Orshanka,Kilemary,Sovetsky,Morki,Paranga,Yurino,M...",
+    "seed_count": 27
+  },
+  {
+    "i": 200790,
+    "name": "Serri",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "Jokkmokk,Gllivare,Pajala,Karesuando,Jukkasjrvi,Tarend,Overkalix,Kalix,Haparanda,Kautokeino,Karasjok,...",
+    "seed_count": 45
+  },
+  {
+    "i": 200791,
+    "name": "Seto",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "Tallinn,Tartu,Narva,Prnu,Viljandi,Rakvere,Kohtla-Jrve,Maardu,Sillamae,Kuressaare,Valga,Vru,Jgeva,Haa...",
+    "seed_count": 34
+  },
+  {
+    "i": 200792,
+    "name": "Siberian Finnish",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "Helsinki,Turku,Tampere,Oulu,Jyvskyl,Kuopio,Lahti,Pori,Joensuu,Vaasa,Rovaniemi,Kemi,Tornio,Kotka,Lapp...",
+    "seed_count": 40
+  },
+  {
+    "i": 200793,
+    "name": "Siberian Ingrian Finnish",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 200794,
+    "name": "Sirkas",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "Jokkmokk,Gllivare,Pajala,Karesuando,Jukkasjrvi,Tarend,Overkalix,Kalix,Haparanda,Kautokeino,Karasjok,...",
+    "seed_count": 45
+  },
+  {
+    "i": 200795,
+    "name": "Skolt Sami",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "Sevettajrvi,Nellim,Inari,Ivalo,Saariselk,Utsjoki,Nuorgam,Ntm,Kautokeino,Karasjok,Skolt,Hetta,Jukkasj...",
+    "seed_count": 41
+  },
+  {
+    "i": 200796,
+    "name": "Soikkola",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 200797,
+    "name": "Sörkaitum",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "Jokkmokk,Gllivare,Pajala,Karesuando,Jukkasjrvi,Tarend,Overkalix,Kalix,Haparanda,Kautokeino,Karasjok,...",
+    "seed_count": 45
+  },
+  {
+    "i": 200798,
+    "name": "South Estonian",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "Tallinn,Tartu,Narva,Prnu,Viljandi,Rakvere,Kohtla-Jrve,Maardu,Sillamae,Kuressaare,Valga,Vru,Jgeva,Haa...",
+    "seed_count": 34
+  },
+  {
+    "i": 200799,
+    "name": "South Vagilsk",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "Uray,Nyagan,Kogalym,Langepas,Megion,Nizhnevartovsk,Nefteyugansk,Surgut,Pyt-Yakh,Pokachi,Igrim,Beryoz...",
+    "seed_count": 40
+  },
+  {
+    "i": 200800,
+    "name": "Southeastern Finnish",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "Helsinki,Turku,Tampere,Oulu,Jyvskyl,Kuopio,Lahti,Pori,Joensuu,Vaasa,Rovaniemi,Kemi,Tornio,Kotka,Lapp...",
+    "seed_count": 40
+  },
+  {
+    "i": 200801,
+    "name": "Southeastern Tavastian",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "Hmeenlinna,Lahti,Kouvola,Hollola,Orimattila,Artjrvi,Asikkala,Hattula,Hauho,Jankkala,Krkl,Lammi,Nasto...",
+    "seed_count": 39
+  },
+  {
+    "i": 200802,
+    "name": "Southern Botnian",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "Vaasa,Pori,Rauma,Kokkola,Pietarsaari,Kajaani,Kuhmo,Suomussalmi,Sotkamo,Kitee,Tohmajrvi,Ilomantsi,Lie...",
+    "seed_count": 31
+  },
+  {
+    "i": 200803,
+    "name": "Southern Karelian",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lappeenranta,Imatra,Joutseno,Savonlinna,Varkaus,Pieksmki,Jyvskyl,Mikkeli,Heinola,Sysm,Hmeenlinna,Lah...",
+    "seed_count": 49
+  },
+  {
+    "i": 200804,
+    "name": "Southern Mansi",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "Uray,Nyagan,Kogalym,Langepas,Megion,Nizhnevartovsk,Nefteyugansk,Surgut,Pyt-Yakh,Pokachi,Igrim,Beryoz...",
+    "seed_count": 40
+  },
+  {
+    "i": 200805,
+    "name": "Southern Savonian",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "Helsinki,Turku,Tampere,Oulu,Jyvskyl,Kuopio,Lahti,Pori,Joensuu,Vaasa,Rovaniemi,Kemi,Tornio,Kotka,Lapp...",
+    "seed_count": 40
+  },
+  {
+    "i": 200806,
+    "name": "Southern Tavastian",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "Hmeenlinna,Lahti,Kouvola,Hollola,Orimattila,Artjrvi,Asikkala,Hattula,Hauho,Jankkala,Krkl,Lammi,Nasto...",
+    "seed_count": 39
+  },
+  {
+    "i": 200807,
+    "name": "Southern Veps",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "Vytegra,Podporozhye,Boksitogorsk,Lodeynoye Pole,Pikalyovo,Tikhvin,Chudovo,Malaya Vishera,Novaya Lado...",
+    "seed_count": 32
+  },
+  {
+    "i": 200808,
+    "name": "Svaipa",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "Arjeplog,Arvidsjaur,Jokkmokk,Gllivare,Kiruna,Pajala,Karesuando,Jukkasjrvi,Tarend,Overkalix,Kalix,Kau...",
+    "seed_count": 45
+  }
+]

@@ -1,0 +1,1602 @@
+[
+  {
+    "i": 1,
+    "name": "English",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 30
+  },
+  {
+    "i": 19,
+    "name": "Basque",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "Bilbao,San Sebastian,Vitoria-Gasteiz,Pamplona,Bayonne,Biarritz,Hendaye,Irun,Getxo,Barakaldo,Santurtz...",
+    "seed_count": 27
+  },
+  {
+    "i": 21,
+    "name": "Celtic",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "Dublin,Cork,Galway,Limerick,Waterford,Derry,Belfast,Armagh,Killarney,Tralee,Sligo,Wexford,Kilkenny,E...",
+    "seed_count": 27
+  },
+  {
+    "i": 89,
+    "name": "Middle English",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,York,Canterbury,Winchester,Chester,Durham,Norwich,Ipswich,Exeter,Lincoln,Hereford,Worcester,G...",
+    "seed_count": 25
+  },
+  {
+    "i": 94,
+    "name": "Old English",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Winchester,York,Canterbury,Chester,Durham,Norwich,Ipswich,Exeter,Lincoln,Hereford,Worcester,G...",
+    "seed_count": 25
+  },
+  {
+    "i": 219,
+    "name": "Bustocco-Legnanese",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 220,
+    "name": "Cadorino",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 221,
+    "name": "Calabro",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 222,
+    "name": "Campano",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 223,
+    "name": "Campidanese",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 224,
+    "name": "Canarian",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 225,
+    "name": "Akkala Sami",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 226,
+    "name": "Finnmark Sami",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 227,
+    "name": "Inari Sami",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 228,
+    "name": "Kainuu Sami",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 229,
+    "name": "Kemi Sami",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 230,
+    "name": "Kildin Sami",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 231,
+    "name": "Lule Sami",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 232,
+    "name": "Catalan",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 233,
+    "name": "Cantabrian",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 235,
+    "name": "Castrapo",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 257,
+    "name": "Norman",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 258,
+    "name": "Cauchois",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 259,
+    "name": "Augeron",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 260,
+    "name": "Cotentinais",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 261,
+    "name": "Auregnais",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 262,
+    "name": "Guernésiais",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 263,
+    "name": "Jèrriais",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 264,
+    "name": "Jersey Legal French",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 284,
+    "name": "Aragonese",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 285,
+    "name": "Central Aragonese",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 286,
+    "name": "Castilian",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 287,
+    "name": "Castelmezzano",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 288,
+    "name": "Central Italian",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 289,
+    "name": "Central Marchigiano",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 290,
+    "name": "Central Metafonetica",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 291,
+    "name": "Central-Southern Calabrian",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 297,
+    "name": "Butler English",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 323,
+    "name": "Angevin",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 324,
+    "name": "Burgundian",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 325,
+    "name": "Champenois",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 326,
+    "name": "Poitevin",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 327,
+    "name": "Saintongeais",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 328,
+    "name": "Aas-whistled",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 329,
+    "name": "Aranese",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 330,
+    "name": "B-arnese",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 331,
+    "name": "Abruzzese",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 332,
+    "name": "Arianese",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 333,
+    "name": "Barese",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 334,
+    "name": "Basilicatine",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 335,
+    "name": "Benevento",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 336,
+    "name": "Cilentan",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 337,
+    "name": "Cosentino",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 338,
+    "name": "Irpino",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 341,
+    "name": "Northern Calabrian",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 342,
+    "name": "Pugliese",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 343,
+    "name": "South Lucanian",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 344,
+    "name": "Southern Latian",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 345,
+    "name": "Southern Laziale",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 346,
+    "name": "Tarantino",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 347,
+    "name": "Vastese",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 348,
+    "name": "Ardennais",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 349,
+    "name": "Berrichon",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 350,
+    "name": "Bourbonnais",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 351,
+    "name": "French (fra)",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 352,
+    "name": "Frainc-Comtou",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 353,
+    "name": "Gallo",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 354,
+    "name": "Gaumais",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 355,
+    "name": "Law French",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 356,
+    "name": "Lorrain",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 357,
+    "name": "Mayennais",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 358,
+    "name": "Meridional French",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 360,
+    "name": "Orleanais",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 361,
+    "name": "Paydret",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 362,
+    "name": "Picard",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 364,
+    "name": "Aeolian",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 366,
+    "name": "Alentejan",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 367,
+    "name": "Algherese",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 368,
+    "name": "Ancona",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 369,
+    "name": "Andalusi Romance",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 370,
+    "name": "Andalusian",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 371,
+    "name": "Ansó",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 372,
+    "name": "Aretino-Chianaiolo",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 373,
+    "name": "Argentinian Spanish",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 374,
+    "name": "Arpitan",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 376,
+    "name": "Auvergnat",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 377,
+    "name": "Balearic",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 378,
+    "name": "Banat",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 379,
+    "name": "Barranquenho",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 381,
+    "name": "Bercian",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 382,
+    "name": "Bergamasque",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 384,
+    "name": "Bolognese",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 387,
+    "name": "Brianzoo",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 388,
+    "name": "Brigasc",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 389,
+    "name": "British Latin",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 390,
+    "name": "Bukovinian",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 391,
+    "name": "Canzes",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 392,
+    "name": "Central-Northern Lazian",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 393,
+    "name": "Cheso",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 399,
+    "name": "Comasco-Lecchese",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 400,
+    "name": "Corsican",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 401,
+    "name": "Cremish",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 402,
+    "name": "Cremun-S",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 403,
+    "name": "Cri-ana",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 404,
+    "name": "Daco-Romanian",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 405,
+    "name": "Dalmatian",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 406,
+    "name": "Eastern Aragonese",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 407,
+    "name": "Eastern Catalan",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 408,
+    "name": "Eastern Lombard",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 409,
+    "name": "Eastern Nonmetafonetica",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 410,
+    "name": "Eastern Romanian",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 411,
+    "name": "Ecuadorian Spanish",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 412,
+    "name": "Emilian",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 420,
+    "name": "Ennese",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 421,
+    "name": "Eonavian",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 423,
+    "name": "Estremenho",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 424,
+    "name": "European Portuguese",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 425,
+    "name": "Extremaduran",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 426,
+    "name": "Fabriano",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 427,
+    "name": "Faetar",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 428,
+    "name": "Fala",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 429,
+    "name": "Ferrarese",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 430,
+    "name": "Fiuman",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 431,
+    "name": "Florentine",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 432,
+    "name": "Forlivese",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 433,
+    "name": "Fornes",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 434,
+    "name": "Franco-Italian",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 436,
+    "name": "Franco-Provençal",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 439,
+    "name": "Galician",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 440,
+    "name": "Galician-Asturian",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 441,
+    "name": "Gallo-Italic of Basilicata",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 442,
+    "name": "Gallo-Italic of Sicily",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 443,
+    "name": "Gallo-Picene",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 444,
+    "name": "Gallurese",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 445,
+    "name": "Gardiol",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 446,
+    "name": "Gascon",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 447,
+    "name": "Genoese",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 448,
+    "name": "Grossetano",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 449,
+    "name": "Haketia",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 450,
+    "name": "Intemelio",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 451,
+    "name": "Istriot",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 453,
+    "name": "Jauer",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 456,
+    "name": "Judeo-Catalan",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 457,
+    "name": "Judeo-Gascon",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 466,
+    "name": "Landese",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 467,
+    "name": "Languedocien",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 468,
+    "name": "Latin",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 469,
+    "name": "Leonese",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 470,
+    "name": "Ligurian",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 471,
+    "name": "Limousin",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 472,
+    "name": "Llanito",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 473,
+    "name": "Logudorese",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 474,
+    "name": "Lombard",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 476,
+    "name": "Lucchese",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 477,
+    "name": "M-tis French",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 478,
+    "name": "Macerata",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 480,
+    "name": "Mallorcan",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 481,
+    "name": "Maltese-Italian",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 482,
+    "name": "Manduriano",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 483,
+    "name": "Maramureș",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 484,
+    "name": "Menorcan",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 485,
+    "name": "Mentonasc",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 486,
+    "name": "Messinese",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 488,
+    "name": "Milanese",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 489,
+    "name": "Minderico",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 491,
+    "name": "Mirandese",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 495,
+    "name": "Mozarabic",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 496,
+    "name": "Murcian",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 498,
+    "name": "Navarrese",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 499,
+    "name": "Navarro-Aragonese",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 502,
+    "name": "Niçard",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 503,
+    "name": "Nones",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 504,
+    "name": "Northern Catalan",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 505,
+    "name": "Northern Portuguese",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 506,
+    "name": "Northern Romanian",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 507,
+    "name": "Northwestern Catalan",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 508,
+    "name": "Novarese",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 509,
+    "name": "Occitan",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 512,
+    "name": "Old Catalan",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 513,
+    "name": "Old Gallo-Romance",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 514,
+    "name": "Old Leonese",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 515,
+    "name": "Old Lombard",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 516,
+    "name": "Old Occitan",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 517,
+    "name": "Old Romagnol",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 518,
+    "name": "Old Spanish",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 519,
+    "name": "Oliventine",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 520,
+    "name": "Oltenian",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 521,
+    "name": "Ossolano",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 522,
+    "name": "Palafrugués",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 523,
+    "name": "Palra",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 524,
+    "name": "Pannonian Latin",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 525,
+    "name": "Pantesco",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 527,
+    "name": "Parmigiano",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 528,
+    "name": "Pavese",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 531,
+    "name": "Pesciatino",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 532,
+    "name": "Bjarmian Finnic",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 533,
+    "name": "Proto-Sami",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 534,
+    "name": "Forest Nenets",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 535,
+    "name": "Proto-Finnic",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  },
+  {
+    "i": 536,
+    "name": "Southwestern Finnish",
+    "file": "namebases-europe.js",
+    "current_d": "lnrt",
+    "current_seeds": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambri...",
+    "seed_count": 50
+  }
+]

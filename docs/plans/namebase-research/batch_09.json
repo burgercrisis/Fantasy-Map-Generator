@@ -1,0 +1,1602 @@
+[
+  {
+    "i": 200192,
+    "name": "Tetserret Tuareg Berber",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Tetserret,Agadez,Arlit,Tchirozerine,In-Gall,Aderbissinat,Tabelot,Abalak,Tahoua,Keita,Bouza,Madaoua,K...",
+    "seed_count": 33
+  },
+  {
+    "i": 200193,
+    "name": "Tikar",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Bamenda,Bafut,Bali,Bamum,Bandjoun,Bafoussam,Bamougoum,Bameka,Bamendjou,Bahouan,Baham,Batie,Bapa,Bade...",
+    "seed_count": 50
+  },
+  {
+    "i": 200194,
+    "name": "Tiro",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Tiro,Plateau,Shendam,Langung,Panyam,Balong,Dokan Tofa,Jos,Bukuru,Pankshin,Mangu,Kabwir,Gindiri,Riyom...",
+    "seed_count": 43
+  },
+  {
+    "i": 200195,
+    "name": "Tobanga",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Tobanga,Chad,Mayo-Kebbi,Bongor,Pala,Fianga,Léré,Koumra,Doba,Moundou,Bébédjia,Béïnamar,Béïssa,Békiri,...",
+    "seed_count": 49
+  },
+  {
+    "i": 200196,
+    "name": "Tonga Mozambique",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Tete,Zumbo,Cahora Bassa,Songo,Changara,Moatize,Marara,Zobue,Ulongue,Doa,Magoé,Marávia,Chifunde,Macan...",
+    "seed_count": 43
+  },
+  {
+    "i": 200197,
+    "name": "Tonga Zimbabwe Zambia Mozambique",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Kariba,Binga,Siavonga,Gwembe,Sinazongwe,Maamba,Chirundu,Kafue,Mazabuka,Monze,Choma,Gwembe,Sinazongwe...",
+    "seed_count": 41
+  },
+  {
+    "i": 200198,
+    "name": "Toram",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Toram,Chad,Guéra,Mongo,Bitkine,Melfi,Abtouyour,Batha,Am Timan,Abou Deïa,Adré,Am Dam,Assinet,Bahaï,Ba...",
+    "seed_count": 49
+  },
+  {
+    "i": 200199,
+    "name": "Tsotsitaal and Camtho, aka Iscamtho",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 200200,
+    "name": "Tsuvan",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Tsuvan,Mayo-Tsanaga,Mokolo,Mogodé,Gawar,Kortchi,Maroua,Mora,Waza,Kousséri,Mayo-Moskota,Mayo-Ouldémé,...",
+    "seed_count": 44
+  },
+  {
+    "i": 200201,
+    "name": "Tswa",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Maputo,Xai-Xai,Chibuto,Manjacaze,Chókwè,Guijá,Chicumbane,Mabalane,Massingir,Chokwe,Maputo,Matola,Boa...",
+    "seed_count": 32
+  },
+  {
+    "i": 200202,
+    "name": "Tumak",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Tumak,Chad,Mayo-Kebbi,Bongor,Pala,Fianga,Léré,Koumra,Doba,Moundou,Bébédjia,Béïnamar,Béïssa,Békiri,Bé...",
+    "seed_count": 49
+  },
+  {
+    "i": 200203,
+    "name": "Tunisian Arabic",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Tunis,Sfax,Bizerte,Sousse,Kairouan,Gabes,Gafsa,Monastir,Djerba,Tozeur,Hammamet,Nabeul,Beja,Jendouba,...",
+    "seed_count": 25
+  },
+  {
+    "i": 200204,
+    "name": "Twi",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Kumasi,Accra,Cape Coast,Koforidua,Bekwae,Goaso,Nsuta,Kwamo,Oforikrom,Bohyen,Buokrom,Bantama,Breman,A...",
+    "seed_count": 38
+  },
+  {
+    "i": 200205,
+    "name": "Ubi",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Ubi,Mayo-Tsanaga,Mokolo,Mogodé,Gawar,Kortchi,Maroua,Mora,Waza,Kousséri,Mayo-Moskota,Mayo-Ouldémé,May...",
+    "seed_count": 44
+  },
+  {
+    "i": 200206,
+    "name": "Vame",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Vame,Borno,Gwoza,Bama,Askira-Uba,Damboa,Konduga,Mafa,Monguno,Ngala,Kala-Balge,Marte,Kukawa,Gubio,Mag...",
+    "seed_count": 47
+  },
+  {
+    "i": 200207,
+    "name": "Vemgo-Mabas",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Vemgo,Mabas,Borno,Gwoza,Bama,Askira-Uba,Damboa,Konduga,Mafa,Monguno,Ngala,Kala-Balge,Marte,Kukawa,Gu...",
+    "seed_count": 48
+  },
+  {
+    "i": 200208,
+    "name": "Wandala",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Wandala,Borno,Gwoza,Bama,Askira-Uba,Damboa,Konduga,Mafa,Monguno,Ngala,Kala-Balge,Marte,Kukawa,Gubio,...",
+    "seed_count": 47
+  },
+  {
+    "i": 200209,
+    "name": "Warji",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Warji,Bauchi,Darazo,Ganjuwa,Kafin Madaki,Soro,Miya,Baben Kasa,Badaromo,Barkaya,Dagale,Deno,Digawa,Du...",
+    "seed_count": 45
+  },
+  {
+    "i": 200210,
+    "name": "Weh",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Weh,Plateau,Shendam,Langung,Panyam,Balong,Dokan Tofa,Jos,Bukuru,Pankshin,Mangu,Kabwir,Gindiri,Riyom,...",
+    "seed_count": 43
+  },
+  {
+    "i": 200211,
+    "name": "West Banda",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "West Banda,Central African Republic,Bambari,Bria,Bangassou,Bria,Bambari,Bangassou,Bria,Bambari,Banga...",
+    "seed_count": 44
+  },
+  {
+    "i": 200212,
+    "name": "Western Somali",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Jijiga,Dire Dawa,Harar,Kebri Dehar,Gode,Shilabo,Kelafo,Fik,Degehabur,Aware,Bokh,Imi,Danan,Aysha,Shin...",
+    "seed_count": 44
+  },
+  {
+    "i": 200213,
+    "name": "Wuzlam",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Wuzlam,Mayo-Tsanaga,Mokolo,Mogodé,Gawar,Kortchi,Maroua,Mora,Waza,Kousséri,Mayo-Moskota,Mayo-Ouldémé,...",
+    "seed_count": 44
+  },
+  {
+    "i": 200214,
+    "name": "Yangere",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Yangere,Central African Republic,Bambari,Bria,Bangassou,Bria,Bambari,Bangassou,Bria,Bambari,Bangasso...",
+    "seed_count": 47
+  },
+  {
+    "i": 200215,
+    "name": "Yedina",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Yedina,Borno,Lake Chad,Baga,Doron Baga,Kauwa,Monguno,Marte,Kukawa,Gubio,Magumeri,Abadam,Guzamala,Kag...",
+    "seed_count": 45
+  },
+  {
+    "i": 200216,
+    "name": "Yeyi",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Yeyi,Botswana,Ghanzi,Dutlwe,Xade,New Xade,Kweneng,Kalahari,Okavango,Maun,Shakawe,Nokaneng,Tsodilo,Nx...",
+    "seed_count": 49
+  },
+  {
+    "i": 200217,
+    "name": "Yiwom",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Yiwom,Plateau,Shendam,Langung,Panyam,Balong,Dokan Tofa,Jos,Bukuru,Pankshin,Mangu,Kabwir,Gindiri,Riyo...",
+    "seed_count": 43
+  },
+  {
+    "i": 200218,
+    "name": "Yoruba alt code",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Ibadan,Lagos,Abeokuta,Oshogbo,Ilorin,Oyo,Ile-Ife,Ado-Ekiti,Akure,Ondo,Ogbomosho,Ilaro,Oyo,Ede,Iwo,Og...",
+    "seed_count": 25
+  },
+  {
+    "i": 200219,
+    "name": "Zaghawa",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Zaghawa,Darfur,El Fasher,Kutum,Kabkabiya,Saraf Omra,Um Kadada,Mellit,Al Malha,Al Tina,Beida,Birao,Ti...",
+    "seed_count": 41
+  },
+  {
+    "i": 200220,
+    "name": "Zari",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Zari,Bauchi,Darazo,Ganjuwa,Kafin Madaki,Soro,Miya,Baben Kasa,Badaromo,Barkaya,Dagale,Deno,Digawa,Dug...",
+    "seed_count": 46
+  },
+  {
+    "i": 200221,
+    "name": "Zeem",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Zeem,Bauchi,Darazo,Ganjuwa,Kafin Madaki,Soro,Miya,Baben Kasa,Badaromo,Barkaya,Dagale,Deno,Digawa,Dug...",
+    "seed_count": 46
+  },
+  {
+    "i": 200222,
+    "name": "Zemba",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Zemba,Angola,Huambo,Benguela,Lubango,Namibe,Menongue,Cuito Cuanavale,Mavinga,Cuchi,Longonjo,Ucuma,Ec...",
+    "seed_count": 36
+  },
+  {
+    "i": 200223,
+    "name": "Zenaga",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Zenaga,Mauritania,Nouakchott,Nouadhibou,Rosso,Kaédi,Boghé,Bababé,Mâl,Ndiago,Tidjikja,Kiffa,Kankossa,...",
+    "seed_count": 44
+  },
+  {
+    "i": 200224,
+    "name": "Zirenkel",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Zirenkel,Chad,Mayo-Kebbi,Bongor,Pala,Fianga,Léré,Koumra,Doba,Moundou,Bébédjia,Béïnamar,Béïssa,Békiri...",
+    "seed_count": 49
+  },
+  {
+    "i": 200225,
+    "name": "Zizilivakan",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Zizilivakan,Mayo-Tsanaga,Mokolo,Mogodé,Gawar,Kortchi,Maroua,Mora,Waza,Kousséri,Mayo-Moskota,Mayo-Oul...",
+    "seed_count": 44
+  },
+  {
+    "i": 200226,
+    "name": "Zulgo-Gemzek",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Zulgo,Gemzek,Mayo-Tsanaga,Mokolo,Mogodé,Gawar,Kortchi,Maroua,Mora,Waza,Kousséri,Mayo-Moskota,Mayo-Ou...",
+    "seed_count": 45
+  },
+  {
+    "i": 200227,
+    "name": "Zumaya",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Zumaya,Mayo-Tsanaga,Mokolo,Mogodé,Gawar,Kortchi,Maroua,Mora,Waza,Kousséri,Mayo-Moskota,Mayo-Ouldémé,...",
+    "seed_count": 44
+  },
+  {
+    "i": 200228,
+    "name": "Zumbun",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Zumbun,Bauchi,Darazo,Ganjuwa,Kafin Madaki,Soro,Miya,Baben Kasa,Badaromo,Barkaya,Dagale,Deno,Digawa,D...",
+    "seed_count": 46
+  },
+  {
+    "i": 200229,
+    "name": "ǂKxʼaoǁʼae",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "ǂKxʼaoǁʼae,Ghanzi,Dutlwe,Xade,New Xade,Kweneng,Kalahari,Okavango,Maun,Shakawe,Nokaneng,Tsodilo,Nxaun...",
+    "seed_count": 48
+  },
+  {
+    "i": 200230,
+    "name": "ǂʼAmkoe",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "ǂʼAmkoe,Ghanzi,Dutlwe,Xade,New Xade,Kweneng,Kalahari,Okavango,Maun,Shakawe,Nokaneng,Tsodilo,Nxaunxau...",
+    "seed_count": 48
+  },
+  {
+    "i": 200896,
+    "name": "Forro Creole",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 200897,
+    "name": "Principense Creole",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Santo António,Príncipe,Sundy,Porto Real,Neves Ferreira,Ribeira Izé,Bom Viver,Praia Inhame,Praia Burr...",
+    "seed_count": 37
+  },
+  {
+    "i": 200898,
+    "name": "Argobba",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Argobba,Amhara,Wollo,South Wollo,North Wollo,Oromia,Afar,Dire Dawa,Harar,Jijiga,Kebri Dehar,Gode,Shi...",
+    "seed_count": 45
+  },
+  {
+    "i": 200899,
+    "name": "Harari",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Harar,Dire Dawa,Jijiga,Kebri Dehar,Gode,Shilabo,Kelafo,Fik,Degehabur,Aware,Bokh,Imi,Danan,Aysha,Shin...",
+    "seed_count": 44
+  },
+  {
+    "i": 200900,
+    "name": "Chagossian Creole",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Diego Garcia,Peros Banhos,Salomon,Six Îles,Three Brothers,Eagle Island,Île Boddam,Île Anglaise,Île d...",
+    "seed_count": 48
+  },
+  {
+    "i": 200901,
+    "name": "Mauritian Creole",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Port Louis,Curepipe,Vacoas,Quatre Bornes,Beau Bassin,Rose Hill,Flacq,Grand Port,Savanne,Black River,...",
+    "seed_count": 28
+  },
+  {
+    "i": 200902,
+    "name": "Rodriguan Creole",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Port Mathurin,Cascade Victoire,Baie Topaze,Grande Montagne,Anse aux Anglais,Baie du Nord,Cascade Sai...",
+    "seed_count": 30
+  },
+  {
+    "i": 200903,
+    "name": "Tayo Creole",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 201004,
+    "name": "Beni Snous dialect",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Beni Snous,Tlemcen,Maghnia,Hammam Boughrana,Bab El Assa,Souahlia,Dar Yaghmouracene,Ouled Mimoun,Remc...",
+    "seed_count": 37
+  },
+  {
+    "i": 201005,
+    "name": "Ghadames",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Bauchi,Dass,Tafawa Balewa,Bununu,Lere,Bula,Danjiri,Dull,Kardam,Tapshin,Ball,Zungur,Galambi,Durum,Kun...",
+    "seed_count": 25
+  },
+  {
+    "i": 201006,
+    "name": "Iznasen",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Bauchi,Dass,Tafawa Balewa,Bununu,Lere,Bula,Danjiri,Dull,Kardam,Tapshin,Ball,Zungur,Galambi,Durum,Kun...",
+    "seed_count": 25
+  },
+  {
+    "i": 201007,
+    "name": "Kabyle",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Bauchi,Dass,Tafawa Balewa,Bununu,Lere,Bula,Danjiri,Dull,Kardam,Tapshin,Ball,Zungur,Galambi,Durum,Kun...",
+    "seed_count": 25
+  },
+  {
+    "i": 201008,
+    "name": "Shawiya",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Bauchi,Dass,Tafawa Balewa,Bununu,Lere,Bula,Danjiri,Dull,Kardam,Tapshin,Ball,Zungur,Galambi,Durum,Kun...",
+    "seed_count": 25
+  },
+  {
+    "i": 201009,
+    "name": "Shilha",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Bauchi,Dass,Tafawa Balewa,Bununu,Lere,Bula,Danjiri,Dull,Kardam,Tapshin,Ball,Zungur,Galambi,Durum,Kun...",
+    "seed_count": 25
+  },
+  {
+    "i": 201010,
+    "name": "Siwi",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Bauchi,Dass,Tafawa Balewa,Bununu,Lere,Bula,Danjiri,Dull,Kardam,Tapshin,Ball,Zungur,Galambi,Durum,Kun...",
+    "seed_count": 25
+  },
+  {
+    "i": 201011,
+    "name": "South Oran and Figuig Berber",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Bauchi,Dass,Tafawa Balewa,Bununu,Lere,Bula,Danjiri,Dull,Kardam,Tapshin,Ball,Zungur,Galambi,Durum,Kun...",
+    "seed_count": 25
+  },
+  {
+    "i": 201012,
+    "name": "Tarifit",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Bauchi,Dass,Tafawa Balewa,Bununu,Lere,Bula,Danjiri,Dull,Kardam,Tapshin,Ball,Zungur,Galambi,Durum,Kun...",
+    "seed_count": 25
+  },
+  {
+    "i": 201013,
+    "name": "Tidikelt",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Bauchi,Dass,Tafawa Balewa,Bununu,Lere,Bula,Danjiri,Dull,Kardam,Tapshin,Ball,Zungur,Galambi,Durum,Kun...",
+    "seed_count": 25
+  },
+  {
+    "i": 201014,
+    "name": "Tuareg Tamasheq",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 201015,
+    "name": "Tugurt",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Bauchi,Dass,Tafawa Balewa,Bununu,Lere,Bula,Danjiri,Dull,Kardam,Tapshin,Ball,Zungur,Galambi,Durum,Kun...",
+    "seed_count": 25
+  },
+  {
+    "i": 201016,
+    "name": "Tuwat",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Bauchi,Dass,Tafawa Balewa,Bununu,Lere,Bula,Danjiri,Dull,Kardam,Tapshin,Ball,Zungur,Galambi,Durum,Kun...",
+    "seed_count": 25
+  },
+  {
+    "i": 201017,
+    "name": "Western Algerian Zenatic dialects",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Bauchi,Dass,Tafawa Balewa,Bununu,Lere,Bula,Danjiri,Dull,Kardam,Tapshin,Ball,Zungur,Galambi,Durum,Kun...",
+    "seed_count": 25
+  },
+  {
+    "i": 201018,
+    "name": "Zurg",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Bauchi,Dass,Tafawa Balewa,Bununu,Lere,Bula,Danjiri,Dull,Kardam,Tapshin,Ball,Zungur,Galambi,Durum,Kun...",
+    "seed_count": 25
+  },
+  {
+    "i": 201019,
+    "name": "Zuwara Berber",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Bauchi,Dass,Tafawa Balewa,Bununu,Lere,Bula,Danjiri,Dull,Kardam,Tapshin,Ball,Zungur,Galambi,Durum,Kun...",
+    "seed_count": 25
+  },
+  {
+    "i": 201364,
+    "name": "Santiago Creole",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Praia,Cidade Velha,Assomada,Tarrafal,Pedra Badejo,Calheta de São Miguel,Ribeira Grande,São Domingos,...",
+    "seed_count": 31
+  },
+  {
+    "i": 201365,
+    "name": "Santo Antão Creole",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Porto Novo,Ribeira Grande,Ponta do Sol,Pombas,Paul,Sinagoga,Espongeiro,Vale do Paúl,Tope de Coroa,Mo...",
+    "seed_count": 29
+  },
+  {
+    "i": 201366,
+    "name": "São Nicolau Creole",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Ribeira Brava,Tarrafal de São Nicolau,Preguiça,Monte Gordo,Monte Bissau,Pico de Alberto,Covoada,Estâ...",
+    "seed_count": 31
+  },
+  {
+    "i": 201367,
+    "name": "São Vicente Creole",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 74,
+    "name": "Afro-Seminole Creole",
+    "file": "namebases-northAmerica.js",
+    "current_d": "lnrt",
+    "current_seeds": "Oklahoma City,Tulsa,Lawton,Duncan,Wichita Falls,Ardmore,Durant,Chickasha,Anadarko,Clinton,McAlester,...",
+    "seed_count": 28
+  },
+  {
+    "i": 236,
+    "name": "Chuj",
+    "file": "namebases-northAmerica.js",
+    "current_d": "lnrt",
+    "current_seeds": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Aust...",
+    "seed_count": 41
+  },
+  {
+    "i": 396,
+    "name": "Seri",
+    "file": "namebases-northAmerica.js",
+    "current_d": "lnrt",
+    "current_seeds": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Aust...",
+    "seed_count": 41
+  },
+  {
+    "i": 728,
+    "name": "Inuktitut",
+    "file": "namebases-northAmerica.js",
+    "current_d": "lnrt",
+    "current_seeds": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Aust...",
+    "seed_count": 41
+  },
+  {
+    "i": 765,
+    "name": "Acadian",
+    "file": "namebases-northAmerica.js",
+    "current_d": "lnrt",
+    "current_seeds": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Aust...",
+    "seed_count": 41
+  },
+  {
+    "i": 787,
+    "name": "Brayon",
+    "file": "namebases-northAmerica.js",
+    "current_d": "lnrt",
+    "current_seeds": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Aust...",
+    "seed_count": 41
+  },
+  {
+    "i": 796,
+    "name": "American Finnish",
+    "file": "namebases-northAmerica.js",
+    "current_d": "lnrt",
+    "current_seeds": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Aust...",
+    "seed_count": 41
+  },
+  {
+    "i": 882,
+    "name": "Magoua",
+    "file": "namebases-northAmerica.js",
+    "current_d": "lnrt",
+    "current_seeds": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Aust...",
+    "seed_count": 41
+  },
+  {
+    "i": 890,
+    "name": "Mexican Spanish",
+    "file": "namebases-northAmerica.js",
+    "current_d": "lnrt",
+    "current_seeds": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Aust...",
+    "seed_count": 41
+  },
+  {
+    "i": 895,
+    "name": "Missouri French",
+    "file": "namebases-northAmerica.js",
+    "current_d": "lnrt",
+    "current_seeds": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Aust...",
+    "seed_count": 41
+  },
+  {
+    "i": 900,
+    "name": "Muskrat French",
+    "file": "namebases-northAmerica.js",
+    "current_d": "lnrt",
+    "current_seeds": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Aust...",
+    "seed_count": 41
+  },
+  {
+    "i": 914,
+    "name": "Ch'orti'",
+    "file": "namebases-northAmerica.js",
+    "current_d": "lnrt",
+    "current_seeds": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Aust...",
+    "seed_count": 41
+  },
+  {
+    "i": 1187,
+    "name": "Cauque Mayan language",
+    "file": "namebases-northAmerica.js",
+    "current_d": "lnrt",
+    "current_seeds": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Aust...",
+    "seed_count": 41
+  },
+  {
+    "i": 1189,
+    "name": "Pidgin Delaware",
+    "file": "namebases-northAmerica.js",
+    "current_d": "lnrt",
+    "current_seeds": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Aust...",
+    "seed_count": 41
+  },
+  {
+    "i": 1193,
+    "name": "Deg Xinag",
+    "file": "namebases-northAmerica.js",
+    "current_d": "lnrt",
+    "current_seeds": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Aust...",
+    "seed_count": 41
+  },
+  {
+    "i": 1198,
+    "name": "Tâ”¼Ã©â”€Â»châ•ŸÂ½",
+    "file": "namebases-northAmerica.js",
+    "current_d": "lnrt",
+    "current_seeds": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Aust...",
+    "seed_count": 41
+  },
+  {
+    "i": 1201,
+    "name": "Kiliwa",
+    "file": "namebases-northAmerica.js",
+    "current_d": "lnrt",
+    "current_seeds": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Aust...",
+    "seed_count": 41
+  },
+  {
+    "i": 1203,
+    "name": "Quechan",
+    "file": "namebases-northAmerica.js",
+    "current_d": "lnrt",
+    "current_seeds": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Aust...",
+    "seed_count": 41
+  },
+  {
+    "i": 1204,
+    "name": "Cochimâ”œÂ¡",
+    "file": "namebases-northAmerica.js",
+    "current_d": "lnrt",
+    "current_seeds": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Aust...",
+    "seed_count": 41
+  },
+  {
+    "i": 1206,
+    "name": "Yavapai",
+    "file": "namebases-northAmerica.js",
+    "current_d": "lnrt",
+    "current_seeds": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Aust...",
+    "seed_count": 41
+  },
+  {
+    "i": 1207,
+    "name": "Mohawk",
+    "file": "namebases-northAmerica.js",
+    "current_d": "lnrt",
+    "current_seeds": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Aust...",
+    "seed_count": 41
+  },
+  {
+    "i": 1208,
+    "name": "Cayuga",
+    "file": "namebases-northAmerica.js",
+    "current_d": "lnrt",
+    "current_seeds": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Aust...",
+    "seed_count": 41
+  },
+  {
+    "i": 1209,
+    "name": "Oneida",
+    "file": "namebases-northAmerica.js",
+    "current_d": "lnrt",
+    "current_seeds": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Aust...",
+    "seed_count": 41
+  },
+  {
+    "i": 1210,
+    "name": "Onondaga",
+    "file": "namebases-northAmerica.js",
+    "current_d": "lnrt",
+    "current_seeds": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Aust...",
+    "seed_count": 41
+  },
+  {
+    "i": 1211,
+    "name": "Seneca",
+    "file": "namebases-northAmerica.js",
+    "current_d": "lnrt",
+    "current_seeds": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Aust...",
+    "seed_count": 41
+  },
+  {
+    "i": 1212,
+    "name": "Tuscarora",
+    "file": "namebases-northAmerica.js",
+    "current_d": "lnrt",
+    "current_seeds": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Aust...",
+    "seed_count": 41
+  },
+  {
+    "i": 1293,
+    "name": "Turks and Caicos Creole",
+    "file": "namebases-northAmerica.js",
+    "current_d": "lnrt",
+    "current_seeds": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Aust...",
+    "seed_count": 41
+  },
+  {
+    "i": 1294,
+    "name": "Vincentian Creole",
+    "file": "namebases-northAmerica.js",
+    "current_d": "lnrt",
+    "current_seeds": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Aust...",
+    "seed_count": 41
+  },
+  {
+    "i": 1295,
+    "name": "Virgin Islands Creole",
+    "file": "namebases-northAmerica.js",
+    "current_d": "lnrt",
+    "current_seeds": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Aust...",
+    "seed_count": 41
+  },
+  {
+    "i": 1296,
+    "name": "Jamaican Maroon Creole",
+    "file": "namebases-northAmerica.js",
+    "current_d": "lnrt",
+    "current_seeds": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Aust...",
+    "seed_count": 41
+  },
+  {
+    "i": 1304,
+    "name": "Aleut",
+    "file": "namebases-northAmerica.js",
+    "current_d": "lnrt",
+    "current_seeds": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Aust...",
+    "seed_count": 41
+  },
+  {
+    "i": 1340,
+    "name": "Quebec French",
+    "file": "namebases-northAmerica.js",
+    "current_d": "lnrt",
+    "current_seeds": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Aust...",
+    "seed_count": 41
+  },
+  {
+    "i": 1372,
+    "name": "Kumeyaay",
+    "file": "namebases-northAmerica.js",
+    "current_d": "lnrt",
+    "current_seeds": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Aust...",
+    "seed_count": 41
+  },
+  {
+    "i": 1379,
+    "name": "Broken Oghibbeway",
+    "file": "namebases-northAmerica.js",
+    "current_d": "lnrt",
+    "current_seeds": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Aust...",
+    "seed_count": 41
+  },
+  {
+    "i": 1380,
+    "name": "Broken Slavey",
+    "file": "namebases-northAmerica.js",
+    "current_d": "lnrt",
+    "current_seeds": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Aust...",
+    "seed_count": 41
+  },
+  {
+    "i": 1412,
+    "name": "Chol",
+    "file": "namebases-northAmerica.js",
+    "current_d": "lnrt",
+    "current_seeds": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Aust...",
+    "seed_count": 41
+  },
+  {
+    "i": 1417,
+    "name": "Cahuilla",
+    "file": "namebases-northAmerica.js",
+    "current_d": "lnrt",
+    "current_seeds": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Aust...",
+    "seed_count": 41
+  },
+  {
+    "i": 1428,
+    "name": "Huastec",
+    "file": "namebases-northAmerica.js",
+    "current_d": "lnrt",
+    "current_seeds": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Aust...",
+    "seed_count": 41
+  },
+  {
+    "i": 1492,
+    "name": "Central Zapotec",
+    "file": "namebases-northAmerica.js",
+    "current_d": "lnrt",
+    "current_seeds": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Aust...",
+    "seed_count": 41
+  },
+  {
+    "i": 1499,
+    "name": "Mazatec",
+    "file": "namebases-northAmerica.js",
+    "current_d": "lnrt",
+    "current_seeds": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Aust...",
+    "seed_count": 41
+  },
+  {
+    "i": 1588,
+    "name": "Chinantec",
+    "file": "namebases-northAmerica.js",
+    "current_d": "lnrt",
+    "current_seeds": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Aust...",
+    "seed_count": 41
+  },
+  {
+    "i": 1592,
+    "name": "Chinook Jargon",
+    "file": "namebases-northAmerica.js",
+    "current_d": "lnrt",
+    "current_seeds": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Aust...",
+    "seed_count": 41
+  },
+  {
+    "i": 1595,
+    "name": "Cholti Classic",
+    "file": "namebases-northAmerica.js",
+    "current_d": "lnrt",
+    "current_seeds": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Aust...",
+    "seed_count": 41
+  },
+  {
+    "i": 1604,
+    "name": "Chorotega",
+    "file": "namebases-northAmerica.js",
+    "current_d": "lnrt",
+    "current_seeds": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Aust...",
+    "seed_count": 41
+  },
+  {
+    "i": 1630,
+    "name": "Chicomuceltec",
+    "file": "namebases-northAmerica.js",
+    "current_d": "lnrt",
+    "current_seeds": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Aust...",
+    "seed_count": 41
+  },
+  {
+    "i": 1640,
+    "name": "Coxoh",
+    "file": "namebases-northAmerica.js",
+    "current_d": "lnrt",
+    "current_seeds": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Aust...",
+    "seed_count": 41
+  },
+  {
+    "i": 1774,
+    "name": "Eskimo Trade Jargon",
+    "file": "namebases-northAmerica.js",
+    "current_d": "lnrt",
+    "current_seeds": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Aust...",
+    "seed_count": 41
+  },
+  {
+    "i": 1829,
+    "name": "Greenlandic",
+    "file": "namebases-northAmerica.js",
+    "current_d": "lnrt",
+    "current_seeds": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Aust...",
+    "seed_count": 41
+  },
+  {
+    "i": 1879,
+    "name": "Gullah",
+    "file": "namebases-northAmerica.js",
+    "current_d": "lnrt",
+    "current_seeds": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Aust...",
+    "seed_count": 41
+  },
+  {
+    "i": 1951,
+    "name": "Inuktitut-English Pidgin (dedicated)",
+    "file": "namebases-northAmerica.js",
+    "current_d": "lnrt",
+    "current_seeds": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Aust...",
+    "seed_count": 41
+  },
+  {
+    "i": 1984,
+    "name": "Isthmus Zapotec",
+    "file": "namebases-northAmerica.js",
+    "current_d": "lnrt",
+    "current_seeds": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Aust...",
+    "seed_count": 41
+  },
+  {
+    "i": 1988,
+    "name": "Itza",
+    "file": "namebases-northAmerica.js",
+    "current_d": "lnrt",
+    "current_seeds": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Aust...",
+    "seed_count": 41
+  },
+  {
+    "i": 2069,
+    "name": "Cree",
+    "file": "namebases-northAmerica.js",
+    "current_d": "lnrt",
+    "current_seeds": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Aust...",
+    "seed_count": 41
+  },
+  {
+    "i": 2070,
+    "name": "Ojibwe",
+    "file": "namebases-northAmerica.js",
+    "current_d": "lnrt",
+    "current_seeds": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Aust...",
+    "seed_count": 41
+  },
+  {
+    "i": 2071,
+    "name": "Yupik",
+    "file": "namebases-northAmerica.js",
+    "current_d": "lnrt",
+    "current_seeds": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Aust...",
+    "seed_count": 41
+  },
+  {
+    "i": 2073,
+    "name": "Cherokee",
+    "file": "namebases-northAmerica.js",
+    "current_d": "lnrt",
+    "current_seeds": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Aust...",
+    "seed_count": 41
+  },
+  {
+    "i": 2074,
+    "name": "Apache",
+    "file": "namebases-northAmerica.js",
+    "current_d": "lnrt",
+    "current_seeds": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Aust...",
+    "seed_count": 41
+  },
+  {
+    "i": 2075,
+    "name": "Athabaskan",
+    "file": "namebases-northAmerica.js",
+    "current_d": "lnrt",
+    "current_seeds": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Aust...",
+    "seed_count": 41
+  },
+  {
+    "i": 2076,
+    "name": "Navajo",
+    "file": "namebases-northAmerica.js",
+    "current_d": "lnrt",
+    "current_seeds": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Aust...",
+    "seed_count": 41
+  },
+  {
+    "i": 2223,
+    "name": "Achi",
+    "file": "namebases-northAmerica.js",
+    "current_d": "lnrt",
+    "current_seeds": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Aust...",
+    "seed_count": 41
+  },
+  {
+    "i": 2249,
+    "name": "Akatek",
+    "file": "namebases-northAmerica.js",
+    "current_d": "lnrt",
+    "current_seeds": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Aust...",
+    "seed_count": 41
+  },
+  {
+    "i": 2311,
+    "name": "Labrador Inuit Pidgin French (dedicated)",
+    "file": "namebases-northAmerica.js",
+    "current_d": "lnrt",
+    "current_seeds": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Aust...",
+    "seed_count": 41
+  },
+  {
+    "i": 2316,
+    "name": "Lakota",
+    "file": "namebases-northAmerica.js",
+    "current_d": "lnrt",
+    "current_seeds": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Aust...",
+    "seed_count": 41
+  },
+  {
+    "i": 2439,
+    "name": "Cuicatec",
+    "file": "namebases-northAmerica.js",
+    "current_d": "lnrt",
+    "current_seeds": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Aust...",
+    "seed_count": 41
+  },
+  {
+    "i": 2470,
+    "name": "Ahtna",
+    "file": "namebases-northAmerica.js",
+    "current_d": "lnrt",
+    "current_seeds": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Aust...",
+    "seed_count": 41
+  },
+  {
+    "i": 2548,
+    "name": "Qeqchi",
+    "file": "namebases-northAmerica.js",
+    "current_d": "lnrt",
+    "current_seeds": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Aust...",
+    "seed_count": 41
+  },
+  {
+    "i": 2549,
+    "name": "Kiche",
+    "file": "namebases-northAmerica.js",
+    "current_d": "lnrt",
+    "current_seeds": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Aust...",
+    "seed_count": 41
+  },
+  {
+    "i": 2550,
+    "name": "Yucatec-Maya",
+    "file": "namebases-northAmerica.js",
+    "current_d": "lnrt",
+    "current_seeds": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Aust...",
+    "seed_count": 41
+  },
+  {
+    "i": 2558,
+    "name": "Totonac",
+    "file": "namebases-northAmerica.js",
+    "current_d": "lnrt",
+    "current_seeds": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Aust...",
+    "seed_count": 41
+  },
+  {
+    "i": 2561,
+    "name": "Qanjobal",
+    "file": "namebases-northAmerica.js",
+    "current_d": "lnrt",
+    "current_seeds": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Aust...",
+    "seed_count": 41
+  },
+  {
+    "i": 2565,
+    "name": "Southern-Quechua",
+    "file": "namebases-northAmerica.js",
+    "current_d": "lnrt",
+    "current_seeds": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Aust...",
+    "seed_count": 41
+  },
+  {
+    "i": 2611,
+    "name": "Tlingit",
+    "file": "namebases-northAmerica.js",
+    "current_d": "lnrt",
+    "current_seeds": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Aust...",
+    "seed_count": 41
+  },
+  {
+    "i": 2613,
+    "name": "Salish",
+    "file": "namebases-northAmerica.js",
+    "current_d": "lnrt",
+    "current_seeds": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Aust...",
+    "seed_count": 41
+  },
+  {
+    "i": 2662,
+    "name": "Innu",
+    "file": "namebases-northAmerica.js",
+    "current_d": "lnrt",
+    "current_seeds": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Aust...",
+    "seed_count": 41
+  },
+  {
+    "i": 3330,
+    "name": "Amuzgo",
+    "file": "namebases-northAmerica.js",
+    "current_d": "lnrt",
+    "current_seeds": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Aust...",
+    "seed_count": 41
+  },
+  {
+    "i": 5828,
+    "name": "Sierra Popoluca",
+    "file": "namebases-northAmerica.js",
+    "current_d": "lnrt",
+    "current_seeds": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Aust...",
+    "seed_count": 41
+  },
+  {
+    "i": 5829,
+    "name": "Tlapanec (MeÎ©â‚§Ã®phaa)",
+    "file": "namebases-northAmerica.js",
+    "current_d": "lnrt",
+    "current_seeds": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Aust...",
+    "seed_count": 41
+  },
+  {
+    "i": 5830,
+    "name": "Paipai",
+    "file": "namebases-northAmerica.js",
+    "current_d": "lnrt",
+    "current_seeds": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Aust...",
+    "seed_count": 41
+  },
+  {
+    "i": 5832,
+    "name": "Coast Tsimshian (SmÎ“Ã‡Ã–algyaâ• â–’x)",
+    "file": "namebases-northAmerica.js",
+    "current_d": "lnrt",
+    "current_seeds": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Aust...",
+    "seed_count": 41
+  },
+  {
+    "i": 6110,
+    "name": "Dakota",
+    "file": "namebases-northAmerica.js",
+    "current_d": "lnrt",
+    "current_seeds": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Aust...",
+    "seed_count": 41
+  },
+  {
+    "i": 6111,
+    "name": "Crow",
+    "file": "namebases-northAmerica.js",
+    "current_d": "lnrt",
+    "current_seeds": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Aust...",
+    "seed_count": 41
+  },
+  {
+    "i": 6622,
+    "name": "Mixe",
+    "file": "namebases-northAmerica.js",
+    "current_d": "lnrt",
+    "current_seeds": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Aust...",
+    "seed_count": 41
+  },
+  {
+    "i": 6623,
+    "name": "Tabasco Zoque",
+    "file": "namebases-northAmerica.js",
+    "current_d": "lnrt",
+    "current_seeds": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Aust...",
+    "seed_count": 41
+  },
+  {
+    "i": 6624,
+    "name": "Chochotec",
+    "file": "namebases-northAmerica.js",
+    "current_d": "lnrt",
+    "current_seeds": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Aust...",
+    "seed_count": 41
+  },
+  {
+    "i": 6625,
+    "name": "Ixcatec",
+    "file": "namebases-northAmerica.js",
+    "current_d": "lnrt",
+    "current_seeds": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Aust...",
+    "seed_count": 41
+  },
+  {
+    "i": 6626,
+    "name": "Q'anjob'al",
+    "file": "namebases-northAmerica.js",
+    "current_d": "lnrt",
+    "current_seeds": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Aust...",
+    "seed_count": 41
+  },
+  {
+    "i": 6630,
+    "name": "Eyak",
+    "file": "namebases-northAmerica.js",
+    "current_d": "lnrt",
+    "current_seeds": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Aust...",
+    "seed_count": 41
+  },
+  {
+    "i": 6631,
+    "name": "Dena'ina",
+    "file": "namebases-northAmerica.js",
+    "current_d": "lnrt",
+    "current_seeds": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Aust...",
+    "seed_count": 41
+  },
+  {
+    "i": 6632,
+    "name": "Chipewyan",
+    "file": "namebases-northAmerica.js",
+    "current_d": "lnrt",
+    "current_seeds": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Aust...",
+    "seed_count": 41
+  },
+  {
+    "i": 6636,
+    "name": "Holikachuk",
+    "file": "namebases-northAmerica.js",
+    "current_d": "lnrt",
+    "current_seeds": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Aust...",
+    "seed_count": 41
+  },
+  {
+    "i": 6637,
+    "name": "Koyukon",
+    "file": "namebases-northAmerica.js",
+    "current_d": "lnrt",
+    "current_seeds": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Aust...",
+    "seed_count": 41
+  },
+  {
+    "i": 6639,
+    "name": "Upper Kuskokwim",
+    "file": "namebases-northAmerica.js",
+    "current_d": "lnrt",
+    "current_seeds": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Aust...",
+    "seed_count": 41
+  },
+  {
+    "i": 6640,
+    "name": "Upper Tanana",
+    "file": "namebases-northAmerica.js",
+    "current_d": "lnrt",
+    "current_seeds": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Aust...",
+    "seed_count": 41
+  },
+  {
+    "i": 7242,
+    "name": "Kiowa",
+    "file": "namebases-northAmerica.js",
+    "current_d": "lnrt",
+    "current_seeds": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Aust...",
+    "seed_count": 41
+  },
+  {
+    "i": 7243,
+    "name": "Tewa",
+    "file": "namebases-northAmerica.js",
+    "current_d": "lnrt",
+    "current_seeds": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Aust...",
+    "seed_count": 41
+  },
+  {
+    "i": 7365,
+    "name": "Choctaw",
+    "file": "namebases-northAmerica.js",
+    "current_d": "lnrt",
+    "current_seeds": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Aust...",
+    "seed_count": 41
+  },
+  {
+    "i": 7366,
+    "name": "Muscogee",
+    "file": "namebases-northAmerica.js",
+    "current_d": "lnrt",
+    "current_seeds": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Aust...",
+    "seed_count": 41
+  },
+  {
+    "i": 7367,
+    "name": "Mikasuki",
+    "file": "namebases-northAmerica.js",
+    "current_d": "lnrt",
+    "current_seeds": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Aust...",
+    "seed_count": 41
+  },
+  {
+    "i": 7835,
+    "name": "Comanche",
+    "file": "namebases-northAmerica.js",
+    "current_d": "lnrt",
+    "current_seeds": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Aust...",
+    "seed_count": 41
+  },
+  {
+    "i": 7836,
+    "name": "Hopi",
+    "file": "namebases-northAmerica.js",
+    "current_d": "lnrt",
+    "current_seeds": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Aust...",
+    "seed_count": 41
+  },
+  {
+    "i": 7837,
+    "name": "Shoshoni",
+    "file": "namebases-northAmerica.js",
+    "current_d": "lnrt",
+    "current_seeds": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Aust...",
+    "seed_count": 41
+  },
+  {
+    "i": 8050,
+    "name": "Kalaallisut",
+    "file": "namebases-northAmerica.js",
+    "current_d": "lnrt",
+    "current_seeds": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Aust...",
+    "seed_count": 41
+  },
+  {
+    "i": 8055,
+    "name": "Chontal Maya",
+    "file": "namebases-northAmerica.js",
+    "current_d": "lnrt",
+    "current_seeds": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Aust...",
+    "seed_count": 41
+  },
+  {
+    "i": 8057,
+    "name": "Cora",
+    "file": "namebases-northAmerica.js",
+    "current_d": "lnrt",
+    "current_seeds": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Aust...",
+    "seed_count": 41
+  },
+  {
+    "i": 8111,
+    "name": "Alutiiq",
+    "file": "namebases-northAmerica.js",
+    "current_d": "lnrt",
+    "current_seeds": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Aust...",
+    "seed_count": 41
+  },
+  {
+    "i": 8118,
+    "name": "Huichol",
+    "file": "namebases-northAmerica.js",
+    "current_d": "lnrt",
+    "current_seeds": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Aust...",
+    "seed_count": 41
+  },
+  {
+    "i": 8119,
+    "name": "Inuinnaqtun",
+    "file": "namebases-northAmerica.js",
+    "current_d": "lnrt",
+    "current_seeds": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Aust...",
+    "seed_count": 41
+  },
+  {
+    "i": 8125,
+    "name": "Q'eqchi'",
+    "file": "namebases-northAmerica.js",
+    "current_d": "lnrt",
+    "current_seeds": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Aust...",
+    "seed_count": 41
+  },
+  {
+    "i": 8126,
+    "name": "Tzeltal",
+    "file": "namebases-northAmerica.js",
+    "current_d": "lnrt",
+    "current_seeds": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Aust...",
+    "seed_count": 41
+  },
+  {
+    "i": 8127,
+    "name": "Tzotzil",
+    "file": "namebases-northAmerica.js",
+    "current_d": "lnrt",
+    "current_seeds": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Aust...",
+    "seed_count": 41
+  },
+  {
+    "i": 8128,
+    "name": "Yucatec Maya",
+    "file": "namebases-northAmerica.js",
+    "current_d": "lnrt",
+    "current_seeds": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Aust...",
+    "seed_count": 41
+  },
+  {
+    "i": 8129,
+    "name": "Kaqchikel",
+    "file": "namebases-northAmerica.js",
+    "current_d": "lnrt",
+    "current_seeds": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Aust...",
+    "seed_count": 41
+  },
+  {
+    "i": 8130,
+    "name": "Ixil",
+    "file": "namebases-northAmerica.js",
+    "current_d": "lnrt",
+    "current_seeds": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Aust...",
+    "seed_count": 41
+  },
+  {
+    "i": 8131,
+    "name": "Jakaltek",
+    "file": "namebases-northAmerica.js",
+    "current_d": "lnrt",
+    "current_seeds": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Aust...",
+    "seed_count": 41
+  },
+  {
+    "i": 8132,
+    "name": "K'iche'",
+    "file": "namebases-northAmerica.js",
+    "current_d": "lnrt",
+    "current_seeds": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Aust...",
+    "seed_count": 41
+  },
+  {
+    "i": 8133,
+    "name": "Lacandon",
+    "file": "namebases-northAmerica.js",
+    "current_d": "lnrt",
+    "current_seeds": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Aust...",
+    "seed_count": 41
+  },
+  {
+    "i": 8134,
+    "name": "Mam",
+    "file": "namebases-northAmerica.js",
+    "current_d": "lnrt",
+    "current_seeds": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Aust...",
+    "seed_count": 41
+  },
+  {
+    "i": 8136,
+    "name": "Poqomam",
+    "file": "namebases-northAmerica.js",
+    "current_d": "lnrt",
+    "current_seeds": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Aust...",
+    "seed_count": 41
+  },
+  {
+    "i": 8137,
+    "name": "Poqomchi'",
+    "file": "namebases-northAmerica.js",
+    "current_d": "lnrt",
+    "current_seeds": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Aust...",
+    "seed_count": 41
+  },
+  {
+    "i": 8139,
+    "name": "Tz'utujil",
+    "file": "namebases-northAmerica.js",
+    "current_d": "lnrt",
+    "current_seeds": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Aust...",
+    "seed_count": 41
+  },
+  {
+    "i": 8141,
+    "name": "Sakapultek",
+    "file": "namebases-northAmerica.js",
+    "current_d": "lnrt",
+    "current_seeds": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Aust...",
+    "seed_count": 41
+  },
+  {
+    "i": 8142,
+    "name": "Sipakapense",
+    "file": "namebases-northAmerica.js",
+    "current_d": "lnrt",
+    "current_seeds": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Aust...",
+    "seed_count": 41
+  },
+  {
+    "i": 8143,
+    "name": "Tektitek",
+    "file": "namebases-northAmerica.js",
+    "current_d": "lnrt",
+    "current_seeds": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Aust...",
+    "seed_count": 41
+  },
+  {
+    "i": 8425,
+    "name": "Matlatzinca",
+    "file": "namebases-northAmerica.js",
+    "current_d": "lnrt",
+    "current_seeds": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Aust...",
+    "seed_count": 41
+  },
+  {
+    "i": 8426,
+    "name": "Mazahua",
+    "file": "namebases-northAmerica.js",
+    "current_d": "lnrt",
+    "current_seeds": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Aust...",
+    "seed_count": 41
+  },
+  {
+    "i": 8428,
+    "name": "Mixtec",
+    "file": "namebases-northAmerica.js",
+    "current_d": "lnrt",
+    "current_seeds": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Aust...",
+    "seed_count": 41
+  },
+  {
+    "i": 8429,
+    "name": "Otomi",
+    "file": "namebases-northAmerica.js",
+    "current_d": "lnrt",
+    "current_seeds": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Aust...",
+    "seed_count": 41
+  },
+  {
+    "i": 8430,
+    "name": "Zapotec",
+    "file": "namebases-northAmerica.js",
+    "current_d": "lnrt",
+    "current_seeds": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Aust...",
+    "seed_count": 41
+  },
+  {
+    "i": 8481,
+    "name": "Mayo",
+    "file": "namebases-northAmerica.js",
+    "current_d": "lnrt",
+    "current_seeds": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Aust...",
+    "seed_count": 41
+  },
+  {
+    "i": 8483,
+    "name": "O'odham",
+    "file": "namebases-northAmerica.js",
+    "current_d": "lnrt",
+    "current_seeds": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Aust...",
+    "seed_count": 41
+  },
+  {
+    "i": 8484,
+    "name": "Pima Bajo",
+    "file": "namebases-northAmerica.js",
+    "current_d": "lnrt",
+    "current_seeds": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Aust...",
+    "seed_count": 41
+  },
+  {
+    "i": 8485,
+    "name": "Tarahumara",
+    "file": "namebases-northAmerica.js",
+    "current_d": "lnrt",
+    "current_seeds": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Aust...",
+    "seed_count": 41
+  },
+  {
+    "i": 8486,
+    "name": "Huarijio",
+    "file": "namebases-northAmerica.js",
+    "current_d": "lnrt",
+    "current_seeds": "New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose,Aust...",
+    "seed_count": 41
+  }
+]

@@ -1,0 +1,1602 @@
+[
+  {
+    "i": 200718,
+    "name": "Yangchun Pai Yao",
+    "file": "namebases-asia.js",
+    "current_d": "lnrt",
+    "current_seeds": "Yangchun,Yangdong,Yangxi,Yangjiang,Jiangmen,Foshan,Guangzhou,Shenzhen,Dongguan,Huizhou,Zhaoqing,Yunf...",
+    "seed_count": 29
+  },
+  {
+    "i": 200719,
+    "name": "Ye-Maek",
+    "file": "namebases-asia.js",
+    "current_d": "lnrt",
+    "current_seeds": "Hamhung,Chongjin,Rason,Wonsan,Kanggye,Sinuiju,Hyesan,Kimchaek,Kaesong,Sariwon,Nampo,Pyongyang,Tonghu...",
+    "seed_count": 30
+  },
+  {
+    "i": 200720,
+    "name": "Yeheni",
+    "file": "namebases-asia.js",
+    "current_d": "lnrt",
+    "current_seeds": "Xinning,Chengbu,Tongdao,Zhijiang,Xinhuang,Hongjiang,Zhongfang,Huitong,Jingzhou,Mayang,Yuanling,Chenx...",
+    "seed_count": 28
+  },
+  {
+    "i": 200721,
+    "name": "Yeongdong Korean",
+    "file": "namebases-asia.js",
+    "current_d": "lnrt",
+    "current_seeds": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dha...",
+    "seed_count": 33
+  },
+  {
+    "i": 200722,
+    "name": "Yeongseo Korean",
+    "file": "namebases-asia.js",
+    "current_d": "lnrt",
+    "current_seeds": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dha...",
+    "seed_count": 33
+  },
+  {
+    "i": 200723,
+    "name": "Younian",
+    "file": "namebases-asia.js",
+    "current_d": "lnrt",
+    "current_seeds": "Xinning,Chengbu,Tongdao,Zhijiang,Xinhuang,Hongjiang,Zhongfang,Huitong,Jingzhou,Mayang,Yuanling,Chenx...",
+    "seed_count": 28
+  },
+  {
+    "i": 200724,
+    "name": "Younuo",
+    "file": "namebases-asia.js",
+    "current_d": "lnrt",
+    "current_seeds": "Longsheng,Sanjiang,Rongshui,Rong'an,Lingui,Xing'an,Quanzhou,Guanyang,Ziyuan,Chengbu,Xinning,Tongdao,...",
+    "seed_count": 29
+  },
+  {
+    "i": 200725,
+    "name": "Yukjin Korean",
+    "file": "namebases-asia.js",
+    "current_d": "lnrt",
+    "current_seeds": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dha...",
+    "seed_count": 33
+  },
+  {
+    "i": 200726,
+    "name": "Zainichi Korean",
+    "file": "namebases-asia.js",
+    "current_d": "lnrt",
+    "current_seeds": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dha...",
+    "seed_count": 33
+  },
+  {
+    "i": 200915,
+    "name": "Awsānian",
+    "file": "namebases-asia.js",
+    "current_d": "lnrt",
+    "current_seeds": "Sana'a,Shabwa,Marib,Al-Jawf,Hadhramaut,Aden,Taiz,Ibb,Dhamar,Al-Mukalla,Sayun,Tarim,Seiyun,Ash Shihr,...",
+    "seed_count": 28
+  },
+  {
+    "i": 200916,
+    "name": "Baṭḥari",
+    "file": "namebases-asia.js",
+    "current_d": "lnrt",
+    "current_seeds": "Salalah,Shuwaimiyya,Sharbithat,Sawqara,Liqbi,Mirbat,Sadah,Rakhyut,Dhalkut,Mughsayl,Taqa,Hasik,Al-Maz...",
+    "seed_count": 30
+  },
+  {
+    "i": 200917,
+    "name": "Maghrebi Arabic",
+    "file": "namebases-asia.js",
+    "current_d": "lnrt",
+    "current_seeds": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dha...",
+    "seed_count": 33
+  },
+  {
+    "i": 200918,
+    "name": "Turoyo",
+    "file": "namebases-asia.js",
+    "current_d": "lnrt",
+    "current_seeds": "Mardin,Nusaybin,Midyat,Dargecit,Idil,Sirnak,Cizre,Hasankeyf,Batman,Diyarbakir,Urfa,Antioch,Aleppo,Qa...",
+    "seed_count": 29
+  },
+  {
+    "i": 200919,
+    "name": "Ugaritic",
+    "file": "namebases-asia.js",
+    "current_d": "lnrt",
+    "current_seeds": "Ugarit,Ras Shamra,Latakia,Tartus,Baniyas,Jableh,Safita,Homs,Hama,Aleppo,Damascus,Palmyra,Dura-Europo...",
+    "seed_count": 29
+  },
+  {
+    "i": 200920,
+    "name": "Western Egyptian Bedawi Arabic",
+    "file": "namebases-asia.js",
+    "current_d": "lnrt",
+    "current_seeds": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dha...",
+    "seed_count": 33
+  },
+  {
+    "i": 200921,
+    "name": "Western Hilali dialects",
+    "file": "namebases-asia.js",
+    "current_d": "lnrt",
+    "current_seeds": "Casablanca,Rabat,Marrakech,Fes,Tangier,Algiers,Oran,Constantine,Tunis,Sfax,Sousse,Tripoli,Benghazi,M...",
+    "seed_count": 29
+  },
+  {
+    "i": 200922,
+    "name": "Western Middle Aramaic",
+    "file": "namebases-asia.js",
+    "current_d": "lnrt",
+    "current_seeds": "Damascus,Aleppo,Homs,Hama,Jerusalem,Bethlehem,Nazareth,Capernaum,Tyre,Sidon,Byblos,Beirut,Tripoli,An...",
+    "seed_count": 29
+  },
+  {
+    "i": 200923,
+    "name": "Western pre-Hilali dialects",
+    "file": "namebases-asia.js",
+    "current_d": "lnrt",
+    "current_seeds": "Casablanca,Rabat,Marrakech,Fes,Tangier,Algiers,Oran,Constantine,Tunis,Sfax,Sousse,Tripoli,Benghazi,M...",
+    "seed_count": 29
+  },
+  {
+    "i": 200924,
+    "name": "Yafi'i Arabic",
+    "file": "namebases-asia.js",
+    "current_d": "lnrt",
+    "current_seeds": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dha...",
+    "seed_count": 33
+  },
+  {
+    "i": 200925,
+    "name": "Yemeni Arabic",
+    "file": "namebases-asia.js",
+    "current_d": "lnrt",
+    "current_seeds": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dha...",
+    "seed_count": 33
+  },
+  {
+    "i": 200926,
+    "name": "Zabidi dialect",
+    "file": "namebases-asia.js",
+    "current_d": "lnrt",
+    "current_seeds": "Zabid,Al Hudaydah,Sana'a,Aden,Taiz,Ibb,Dhamar,Al-Mukalla,Sayun,Tarim,Seiyun,Ash Shihr,Amran,Sa'dah,A...",
+    "seed_count": 27
+  },
+  {
+    "i": 200927,
+    "name": "Zakho",
+    "file": "namebases-asia.js",
+    "current_d": "lnrt",
+    "current_seeds": "Zakho,Duhok,Erbil,Mosul,Kirkuk,Sulaymaniyah,Halabja,Ranya,Chamchamal,Koya,Akre,Amadiya,Barwari,Tkhum...",
+    "seed_count": 30
+  },
+  {
+    "i": 200928,
+    "name": "Zay",
+    "file": "namebases-asia.js",
+    "current_d": "lnrt",
+    "current_seeds": "Addis Ababa,Hawassa,Ziway,Butajira,Sodo,Arba Minch,Wolaita,Hosaina,Shashemene,Boditi,Areka,Worabe,We...",
+    "seed_count": 28
+  },
+  {
+    "i": 200929,
+    "name": "ˀAzd dialect",
+    "file": "namebases-asia.js",
+    "current_d": "lnrt",
+    "current_seeds": "Muscat,Salalah,Sohar,Sur,Nizwa,Ibri,Bahla,Adam,Bidbid,Samail,Izki,Manah,Al Hamra,Bahla,Jebel Akhdar,...",
+    "seed_count": 29
+  },
+  {
+    "i": 201253,
+    "name": "Angami Pochuri",
+    "file": "namebases-asia.js",
+    "current_d": "lnrt",
+    "current_seeds": "Kohima,Dimapur,Mokokchung,Wokha,Zunheboto,Phek,Tuensang,Mon,Longleng,Kiphire,Peren,Jalukie,Tseminyu,...",
+    "seed_count": 28
+  },
+  {
+    "i": 201254,
+    "name": "Bijiang Bai",
+    "file": "namebases-asia.js",
+    "current_d": "lnrt",
+    "current_seeds": "Bijiang,Dali,Lijiang,Weishan,Yunlong,Yangbi,Midu,Xiangyun,Binchuan,Eryuan,Heqing,Jianchuan,Shuanglan...",
+    "seed_count": 29
+  },
+  {
+    "i": 201255,
+    "name": "Boro Garo",
+    "file": "namebases-asia.js",
+    "current_d": "lnrt",
+    "current_seeds": "Guwahati,Tura,Goalpara,Kokrajhar,Bongaigaon,Barpeta,Nalbari,Dhubri,South Salmara,North Garo Hills,We...",
+    "seed_count": 29
+  },
+  {
+    "i": 201256,
+    "name": "Dali Bai",
+    "file": "namebases-asia.js",
+    "current_d": "lnrt",
+    "current_seeds": "Dali,Xiaguan,Eryuan,Binchuan,Yongping,Yunlong,Yangbi,Weishan,Nanjian,Midu,Xiangyun,Heqing,Jianchuan,...",
+    "seed_count": 28
+  },
+  {
+    "i": 201257,
+    "name": "Digaro Mishmi",
+    "file": "namebases-asia.js",
+    "current_d": "lnrt",
+    "current_seeds": "Itanagar,Ziro,Along,Pasighat,Roing,Tezu,Anini,Daporijo,Bomdila,Tawang,Seppa,Yingkiong,Mechuka,Monigo...",
+    "seed_count": 28
+  },
+  {
+    "i": 201258,
+    "name": "Heqing Bai dialect",
+    "file": "namebases-asia.js",
+    "current_d": "lnrt",
+    "current_seeds": "Heqing,Dali,Lijiang,Eryuan,Binchuan,Yongping,Yunlong,Yangbi,Weishan,Nanjian,Midu,Xiangyun,Jianchuan,...",
+    "seed_count": 28
+  },
+  {
+    "i": 201259,
+    "name": "Idu Taraon",
+    "file": "namebases-asia.js",
+    "current_d": "lnrt",
+    "current_seeds": "Itanagar,Ziro,Along,Pasighat,Roing,Tezu,Anini,Daporijo,Bomdila,Tawang,Seppa,Yingkiong,Mechuka,Monigo...",
+    "seed_count": 28
+  },
+  {
+    "i": 201260,
+    "name": "Jingpho",
+    "file": "namebases-asia.js",
+    "current_d": "lnrt",
+    "current_seeds": "Myitkyina,Bhamo,Mohnyin,Lashio,Ruili,Tengchong,Baoshan,Dali,Kunming,Jinghong,Mengla,Lincang,Puer,Sim...",
+    "seed_count": 29
+  },
+  {
+    "i": 201261,
+    "name": "Jingpho Luish",
+    "file": "namebases-asia.js",
+    "current_d": "lnrt",
+    "current_seeds": "Myitkyina,Bhamo,Mohnyin,Lashio,Ruili,Tengchong,Baoshan,Dali,Kunming,Jinghong,Mengla,Lincang,Puer,Sim...",
+    "seed_count": 29
+  },
+  {
+    "i": 201262,
+    "name": "Jino",
+    "file": "namebases-asia.js",
+    "current_d": "lnrt",
+    "current_seeds": "Jinghong,Mengla,Menghai,Xishuangbanna,Pu'er,Lincang,Baoshan,Tengchong,Ruili,Mangshi,Lianghe,Yingjian...",
+    "seed_count": 28
+  },
+  {
+    "i": 201263,
+    "name": "Lolo Burmese",
+    "file": "namebases-asia.js",
+    "current_d": "lnrt",
+    "current_seeds": "Mandalay,Yangon,Lashio,Taunggyi,Kengtung,Tachileik,Mae Sai,Chiang Rai,Chiang Mai,Lampang,Phrae,Nan,P...",
+    "seed_count": 29
+  },
+  {
+    "i": 201264,
+    "name": "Longjia Luren",
+    "file": "namebases-asia.js",
+    "current_d": "lnrt",
+    "current_seeds": "Guiyang,Zunyi,Anshun,Bijie,Liupanshui,Kaili,Duyun,Xingyi,Tongren,Qianxinan,Qiandongnan,Qiannan,Majia...",
+    "seed_count": 29
+  },
+  {
+    "i": 201265,
+    "name": "Lotha",
+    "file": "namebases-asia.js",
+    "current_d": "lnrt",
+    "current_seeds": "Wokha,Kohima,Dimapur,Mokokchung,Zunheboto,Phek,Tuensang,Mon,Longleng,Kiphire,Peren,Jalukie,Tseminyu,...",
+    "seed_count": 28
+  },
+  {
+    "i": 201266,
+    "name": "Macro Bai",
+    "file": "namebases-asia.js",
+    "current_d": "lnrt",
+    "current_seeds": "Dali,Lijiang,Eryuan,Binchuan,Yongping,Yunlong,Yangbi,Weishan,Nanjian,Midu,Xiangyun,Heqing,Jianchuan,...",
+    "seed_count": 28
+  },
+  {
+    "i": 201267,
+    "name": "Mahakiranti",
+    "file": "namebases-asia.js",
+    "current_d": "lnrt",
+    "current_seeds": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Ita...",
+    "seed_count": 29
+  },
+  {
+    "i": 201268,
+    "name": "Meitei macro entry",
+    "file": "namebases-asia.js",
+    "current_d": "lnrt",
+    "current_seeds": "Imphal,Thoubal,Bishnupur,Churachandpur,Kakching,Jiribam,Moirang,Nambol,Wangjing,Yairipok,Sugnu,Mayan...",
+    "seed_count": 29
+  },
+  {
+    "i": 201269,
+    "name": "Miju",
+    "file": "namebases-asia.js",
+    "current_d": "lnrt",
+    "current_seeds": "Itanagar,Ziro,Along,Pasighat,Roing,Tezu,Anini,Daporijo,Bomdila,Tawang,Seppa,Yingkiong,Mechuka,Monigo...",
+    "seed_count": 28
+  },
+  {
+    "i": 201270,
+    "name": "Miju Meyor",
+    "file": "namebases-asia.js",
+    "current_d": "lnrt",
+    "current_seeds": "Itanagar,Ziro,Along,Pasighat,Roing,Tezu,Anini,Daporijo,Bomdila,Tawang,Seppa,Yingkiong,Mechuka,Monigo...",
+    "seed_count": 28
+  },
+  {
+    "i": 201271,
+    "name": "Milang",
+    "file": "namebases-asia.js",
+    "current_d": "lnrt",
+    "current_seeds": "Itanagar,Ziro,Along,Pasighat,Roing,Tezu,Anini,Daporijo,Bomdila,Tawang,Seppa,Yingkiong,Mechuka,Monigo...",
+    "seed_count": 28
+  },
+  {
+    "i": 201272,
+    "name": "Mongsen Ao",
+    "file": "namebases-asia.js",
+    "current_d": "lnrt",
+    "current_seeds": "Mokokchung,Kohima,Dimapur,Wokha,Zunheboto,Phek,Tuensang,Mon,Longleng,Kiphire,Peren,Jalukie,Tseminyu,...",
+    "seed_count": 28
+  },
+  {
+    "i": 201273,
+    "name": "Mruic",
+    "file": "namebases-asia.js",
+    "current_d": "lnrt",
+    "current_seeds": "Bandarban,Rangamati,Khagrachari,Cox's Bazar,Chittagong,Sittwe,Mrauk U,Kyaukpyu,Thandwe,Ponnagyan,Gwa...",
+    "seed_count": 28
+  },
+  {
+    "i": 201274,
+    "name": "Naxi",
+    "file": "namebases-asia.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lijiang,Dali,Shangri-La,Deqin,Weixi,Lanping,Fugong,Gongshan,Nujiang,Lushui,Liuku,Pianma,Eryuan,Binch...",
+    "seed_count": 29
+  },
+  {
+    "i": 201275,
+    "name": "Newaric",
+    "file": "namebases-asia.js",
+    "current_d": "lnrt",
+    "current_seeds": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Ita...",
+    "seed_count": 29
+  },
+  {
+    "i": 201276,
+    "name": "Nishi",
+    "file": "namebases-asia.js",
+    "current_d": "lnrt",
+    "current_seeds": "Itanagar,Ziro,Along,Pasighat,Roing,Tezu,Anini,Daporijo,Bomdila,Tawang,Seppa,Yingkiong,Mechuka,Monigo...",
+    "seed_count": 28
+  },
+  {
+    "i": 201277,
+    "name": "Northern Qiang",
+    "file": "namebases-asia.js",
+    "current_d": "lnrt",
+    "current_seeds": "Wenchuan,Li,Mao,Songpan,Heishui,Jinchuan,Xiaojin,Barkam,Zagunao,Zamtang,Aba,Rangtang,Daofu,Luhuo,Gan...",
+    "seed_count": 28
+  },
+  {
+    "i": 201278,
+    "name": "Nu",
+    "file": "namebases-asia.js",
+    "current_d": "lnrt",
+    "current_seeds": "Fugong,Gongshan,Lanping,Weixi,Zhongdian,Deqin,Shangri-La,Lijiang,Dali,Eryuan,Binchuan,Yongping,Yunlo...",
+    "seed_count": 28
+  },
+  {
+    "i": 201279,
+    "name": "Nung",
+    "file": "namebases-asia.js",
+    "current_d": "lnrt",
+    "current_seeds": "Myitkyina,Bhamo,Mohnyin,Lashio,Ruili,Tengchong,Baoshan,Dali,Kunming,Jinghong,Mengla,Lincang,Puer,Sim...",
+    "seed_count": 29
+  },
+  {
+    "i": 201280,
+    "name": "Nungish",
+    "file": "namebases-asia.js",
+    "current_d": "lnrt",
+    "current_seeds": "Myitkyina,Bhamo,Mohnyin,Lashio,Ruili,Tengchong,Baoshan,Dali,Kunming,Jinghong,Mengla,Lincang,Puer,Sim...",
+    "seed_count": 29
+  },
+  {
+    "i": 201281,
+    "name": "Nusu",
+    "file": "namebases-asia.js",
+    "current_d": "lnrt",
+    "current_seeds": "Fugong,Gongshan,Lanping,Weixi,Zhongdian,Deqin,Shangri-La,Lijiang,Dali,Eryuan,Binchuan,Yongping,Yunlo...",
+    "seed_count": 28
+  },
+  {
+    "i": 201282,
+    "name": "Phom",
+    "file": "namebases-asia.js",
+    "current_d": "lnrt",
+    "current_seeds": "Longleng,Kohima,Dimapur,Mokokchung,Wokha,Zunheboto,Phek,Tuensang,Mon,Kiphire,Peren,Jalukie,Tseminyu,...",
+    "seed_count": 28
+  },
+  {
+    "i": 201283,
+    "name": "Proto Hakka",
+    "file": "namebases-asia.js",
+    "current_d": "lnrt",
+    "current_seeds": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dha...",
+    "seed_count": 33
+  },
+  {
+    "i": 201284,
+    "name": "Proto Loloish",
+    "file": "namebases-asia.js",
+    "current_d": "lnrt",
+    "current_seeds": "Kunming,Dali,Lijiang,Chuxiong,Yuxi,Baoshan,Zhaotong,Qujing,Puer,Lincang,Nujiang,Dehong,Xishuangbanna...",
+    "seed_count": 29
+  },
+  {
+    "i": 201285,
+    "name": "Proto Min",
+    "file": "namebases-asia.js",
+    "current_d": "lnrt",
+    "current_seeds": "Fuzhou,Xiamen,Quanzhou,Zhangzhou,Longyan,Putian,Nanping,Sanming,Ningde,Fu'an,Fuding,Shouning,Zherong...",
+    "seed_count": 29
+  },
+  {
+    "i": 201286,
+    "name": "Proto Sino Tibetan",
+    "file": "namebases-asia.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lhasa,Shigatse,Gyangtse,Nagqu,Ngari,Nyingchi,Chamdo,Xigaze,Tsetang,Drepung,Sera,Ganden,Samye,Tsurphu...",
+    "seed_count": 29
+  },
+  {
+    "i": 201287,
+    "name": "Puroik",
+    "file": "namebases-asia.js",
+    "current_d": "lnrt",
+    "current_seeds": "Itanagar,Ziro,Along,Pasighat,Roing,Tezu,Anini,Daporijo,Bomdila,Tawang,Seppa,Yingkiong,Mechuka,Monigo...",
+    "seed_count": 28
+  },
+  {
+    "i": 201288,
+    "name": "Pyu",
+    "file": "namebases-asia.js",
+    "current_d": "lnrt",
+    "current_seeds": "Sri Ksetra,Beikthano,Halin,Mandalay,Bagan,Yangon,Taunggyi,Lashio,Myitkyina,Bhamo,Mohnyin,Prome,Thaye...",
+    "seed_count": 28
+  },
+  {
+    "i": 201289,
+    "name": "Qiang",
+    "file": "namebases-asia.js",
+    "current_d": "lnrt",
+    "current_seeds": "Wenchuan,Li,Mao,Songpan,Heishui,Jinchuan,Xiaojin,Barkam,Zagunao,Zamtang,Aba,Rangtang,Daofu,Luhuo,Gan...",
+    "seed_count": 28
+  },
+  {
+    "i": 201290,
+    "name": "Raji Raute",
+    "file": "namebases-asia.js",
+    "current_d": "lnrt",
+    "current_seeds": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Ita...",
+    "seed_count": 29
+  },
+  {
+    "i": 201291,
+    "name": "Rouruo",
+    "file": "namebases-asia.js",
+    "current_d": "lnrt",
+    "current_seeds": "Kunming,Dali,Lijiang,Chuxiong,Yuxi,Baoshan,Zhaotong,Qujing,Puer,Lincang,Nujiang,Dehong,Xishuangbanna...",
+    "seed_count": 29
+  },
+  {
+    "i": 201292,
+    "name": "Rung",
+    "file": "namebases-asia.js",
+    "current_d": "lnrt",
+    "current_seeds": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Ita...",
+    "seed_count": 29
+  },
+  {
+    "i": 201293,
+    "name": "Shaozhou Tuhua",
+    "file": "namebases-asia.js",
+    "current_d": "lnrt",
+    "current_seeds": "Shaoguan,Qujiang,Wujiang,Zhenjiang,Renhua,Ruyuan,Nanxiong,Lechang,Renhua,Yingde,Qingyuan,Fogang,Yang...",
+    "seed_count": 29
+  },
+  {
+    "i": 201294,
+    "name": "Southern Qiang",
+    "file": "namebases-asia.js",
+    "current_d": "lnrt",
+    "current_seeds": "Wenchuan,Li,Mao,Songpan,Heishui,Jinchuan,Xiaojin,Barkam,Zagunao,Zamtang,Aba,Rangtang,Daofu,Luhuo,Gan...",
+    "seed_count": 28
+  },
+  {
+    "i": 201295,
+    "name": "Sümi",
+    "file": "namebases-asia.js",
+    "current_d": "lnrt",
+    "current_seeds": "Zunheboto,Kohima,Dimapur,Mokokchung,Wokha,Phek,Tuensang,Mon,Longleng,Kiphire,Peren,Jalukie,Tseminyu,...",
+    "seed_count": 28
+  },
+  {
+    "i": 201296,
+    "name": "Thadou",
+    "file": "namebases-asia.js",
+    "current_d": "lnrt",
+    "current_seeds": "Imphal,Thoubal,Bishnupur,Churachandpur,Kakching,Jiribam,Moirang,Nambol,Wangjing,Yairipok,Sugnu,Mayan...",
+    "seed_count": 29
+  },
+  {
+    "i": 201297,
+    "name": "Tibetic",
+    "file": "namebases-asia.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lhasa,Shigatse,Gyangtse,Nagqu,Ngari,Nyingchi,Chamdo,Xigaze,Tsetang,Drepung,Sera,Ganden,Samye,Tsurphu...",
+    "seed_count": 29
+  },
+  {
+    "i": 201298,
+    "name": "Tibeto Kanauri",
+    "file": "namebases-asia.js",
+    "current_d": "lnrt",
+    "current_seeds": "Shimla,Manali,Kullu,Spiti,Lahaul,Kinnaur,Pithoragarh,Chamoli,Uttarkashi,Dehradun,Haridwar,Rishikesh,...",
+    "seed_count": 28
+  },
+  {
+    "i": 201299,
+    "name": "Xiangnan Tuhua",
+    "file": "namebases-asia.js",
+    "current_d": "lnrt",
+    "current_seeds": "Yongzhou,Hengyang,Chenzhou,Shaoyang,Loudi,Xiangtan,Zhuzhou,Changde,Yiyang,Zhangjiajie,Huaihua,Lianyu...",
+    "seed_count": 28
+  },
+  {
+    "i": 201300,
+    "name": "Yitdut Bai",
+    "file": "namebases-asia.js",
+    "current_d": "lnrt",
+    "current_seeds": "Dali,Lijiang,Eryuan,Binchuan,Yongping,Yunlong,Yangbi,Weishan,Nanjian,Midu,Xiangyun,Heqing,Jianchuan,...",
+    "seed_count": 28
+  },
+  {
+    "i": 201301,
+    "name": "Yitdut Bai lect",
+    "file": "namebases-asia.js",
+    "current_d": "lnrt",
+    "current_seeds": "Dali,Lijiang,Eryuan,Binchuan,Yongping,Yunlong,Yangbi,Weishan,Nanjian,Midu,Xiangyun,Heqing,Jianchuan,...",
+    "seed_count": 28
+  },
+  {
+    "i": 201302,
+    "name": "Zakhring",
+    "file": "namebases-asia.js",
+    "current_d": "lnrt",
+    "current_seeds": "Itanagar,Ziro,Along,Pasighat,Roing,Tezu,Anini,Daporijo,Bomdila,Tawang,Seppa,Yingkiong,Mechuka,Monigo...",
+    "seed_count": 28
+  },
+  {
+    "i": 201303,
+    "name": "Zho",
+    "file": "namebases-asia.js",
+    "current_d": "lnrt",
+    "current_seeds": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dha...",
+    "seed_count": 33
+  },
+  {
+    "i": 201341,
+    "name": "Mizo",
+    "file": "namebases-asia.js",
+    "current_d": "lnrt",
+    "current_seeds": "Aizawl,Lunglei,Champhai,Serchhip,Kolasib,Lawngtlai,Mamit,Saiha,Hnahthial,Khawzawl,Saitual,Bairabi,Va...",
+    "seed_count": 28
+  },
+  {
+    "i": 201342,
+    "name": "Berau Malay",
+    "file": "namebases-asia.js",
+    "current_d": "lnrt",
+    "current_seeds": "Tanjung Redeb,Tarakan,Nunukan,Balikpapan,Samarinda,Bontang,Sangatta,Tenggarong,Kutai,Berau,Paser,Pen...",
+    "seed_count": 29
+  },
+  {
+    "i": 201343,
+    "name": "Enggano",
+    "file": "namebases-asia.js",
+    "current_d": "lnrt",
+    "current_seeds": "Enggano,Bengkulu,Bandar Lampung,Palembang,Jakarta,Padang,Pekanbaru,Medan,Banda Aceh,Padang Sidempuan...",
+    "seed_count": 28
+  },
+  {
+    "i": 201344,
+    "name": "Filipino",
+    "file": "namebases-asia.js",
+    "current_d": "lnrt",
+    "current_seeds": "Manila,Quezon City,Cebu,Davao,Zamboanga,Cagayan de Oro,General Santos,Bacolod,Iloilo,Angeles,Baguio,...",
+    "seed_count": 29
+  },
+  {
+    "i": 201345,
+    "name": "Hmong",
+    "file": "namebases-asia.js",
+    "current_d": "lnrt",
+    "current_seeds": "Vientiane,Luang Prabang,Phonsavan,Xam Neua,Hanoi,Sa Pa,Ha Giang,Lao Cai,Dien Bien Phu,Lai Chau,Son L...",
+    "seed_count": 28
+  },
+  {
+    "i": 201346,
+    "name": "Kachin",
+    "file": "namebases-asia.js",
+    "current_d": "lnrt",
+    "current_seeds": "Myitkyina,Bhamo,Mohnyin,Lashio,Ruili,Tengchong,Baoshan,Dali,Kunming,Jinghong,Mengla,Lincang,Puer,Sim...",
+    "seed_count": 29
+  },
+  {
+    "i": 201347,
+    "name": "Karen",
+    "file": "namebases-asia.js",
+    "current_d": "lnrt",
+    "current_seeds": "Yangon,Mawlamyine,Hpa-an,Myawaddy,Kawkareik,Taungoo,Bago,Mandalay,Chiang Mai,Mae Sot,Mae Hong Son,Ta...",
+    "seed_count": 27
+  },
+  {
+    "i": 201348,
+    "name": "Kasiguranin",
+    "file": "namebases-asia.js",
+    "current_d": "lnrt",
+    "current_seeds": "Manila,Quezon City,Cebu,Davao,Zamboanga,Cagayan de Oro,General Santos,Bacolod,Iloilo,Angeles,Baguio,...",
+    "seed_count": 29
+  },
+  {
+    "i": 201349,
+    "name": "Kayah",
+    "file": "namebases-asia.js",
+    "current_d": "lnrt",
+    "current_seeds": "Loikaw,Demoso,Hpruso,Bawlakhe,Mese,Shadaw,Pasawng,Hpasawng,Mawchi,Hpa-an,Myawaddy,Kawkareik,Taungoo,...",
+    "seed_count": 27
+  },
+  {
+    "i": 201350,
+    "name": "Makassarese",
+    "file": "namebases-asia.js",
+    "current_d": "lnrt",
+    "current_seeds": "Makassar,Parepare,Pinrang,Bantaeng,Bulukumba,Jeneponto,Takalar,Gowa,Maros,Pangkep,Barru,Sidenrang,En...",
+    "seed_count": 29
+  },
+  {
+    "i": 201351,
+    "name": "Malaysian Malay",
+    "file": "namebases-asia.js",
+    "current_d": "lnrt",
+    "current_seeds": "Kuala Lumpur,Penang,Malacca,Johor Bahru,Kuching,Kota Kinabalu,Ipoh,Shah Alam,Petaling Jaya,Klang,Kua...",
+    "seed_count": 28
+  },
+  {
+    "i": 201352,
+    "name": "Maranao",
+    "file": "namebases-asia.js",
+    "current_d": "lnrt",
+    "current_seeds": "Marawi,Iligan,Cagayan de Oro,Davao,Zamboanga,Manila,Quezon City,Cebu,Bacolod,Iloilo,Angeles,Baguio,B...",
+    "seed_count": 29
+  },
+  {
+    "i": 201353,
+    "name": "Mien",
+    "file": "namebases-asia.js",
+    "current_d": "lnrt",
+    "current_seeds": "Guilin,Nanning,Liuzhou,Baise,Hezhou,Wuzhou,Yulin,Beihai,Fangchenggang,Qinzhou,Guigang,Chongzuo,Hengz...",
+    "seed_count": 29
+  },
+  {
+    "i": 201354,
+    "name": "Mon native-speakers subset",
+    "file": "namebases-asia.js",
+    "current_d": "lnrt",
+    "current_seeds": "Yangon,Mawlamyine,Thaton,Pa-an,Kyaikto,Mudon,Bago,Sittaung,Chaungzon,Kyaikmaraw,Thanbyuzayat,Ye,Lami...",
+    "seed_count": 28
+  },
+  {
+    "i": 201355,
+    "name": "Rakhine",
+    "file": "namebases-asia.js",
+    "current_d": "lnrt",
+    "current_seeds": "Sittwe,Thandwe,Kyaukpyu,Mrauk U,Maungdaw,Buthidaung,Ponnagyan,Gwa,Toungup,Maei,Paletwa,Matupi,Hakha,...",
+    "seed_count": 28
+  },
+  {
+    "i": 201356,
+    "name": "Tausug",
+    "file": "namebases-asia.js",
+    "current_d": "lnrt",
+    "current_seeds": "Jolo,Zamboanga,Bongao,Siasi,Lapuyan,Kalamansig,Tandubas,Sitangkai,Languyan,Panglima Sugala,Sapa-Sapa...",
+    "seed_count": 28
+  },
+  {
+    "i": 201357,
+    "name": "Waray",
+    "file": "namebases-asia.js",
+    "current_d": "lnrt",
+    "current_seeds": "Tacloban,Catbalogan,Calbayog,Borongan,Catarman,Maasin,Ormoc,Baybay,Abuyog,Carigara,Jaro,Palo,Tanauan...",
+    "seed_count": 29
+  },
+  {
+    "i": 20,
+    "name": "Nigerian",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Abuja,Kano,Ibadan,Port Harcourt,Benin City,Aba,Onitsha,Enugu,Kaduna,Zaria,Jos,Maiduguri,Sokoto...",
+    "seed_count": 26
+  },
+  {
+    "i": 100,
+    "name": "Sabah Malay",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Kota Kinabalu,Sandakan,Tawau,Lahad Datu,Keningau,Kudat,Beaufort,Penampang,Papar,Tuaran,Putatan,Inana...",
+    "seed_count": 27
+  },
+  {
+    "i": 107,
+    "name": "Makassar Malay",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Makassar,Parepare,Maros,Soppeng,Wajo,Sinjai,Pangkajene,Barru,Bone,Sengkang,Ujung Pandang,Sungguminas...",
+    "seed_count": 30
+  },
+  {
+    "i": 121,
+    "name": "Temiar",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Pos Kuala Mu,Sungai Siput,Kuala Kangsar,Ipoh,Kota Bharu,Jeli,Gua Musang,Cameron Highlands,Kuala Krai...",
+    "seed_count": 26
+  },
+  {
+    "i": 137,
+    "name": "Berta-Besme",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 155,
+    "name": "Makassar Branch",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 184,
+    "name": "Juk (Bahnaric)",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Sekong,Tateng,Ban Nyokthong,Gnokthong,Ban Kafe,Lavi,Jru,Laven,Su,Brao,Katuic,Bahnaric,Mondul Kiri,Kr...",
+    "seed_count": 25
+  },
+  {
+    "i": 185,
+    "name": "Wa",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Pangkham,Cangyuan,Ximeng,Lancang,Menglian,Gengma,Kunma,Kengtung,Tachileik,Mong Yang,Mong Hka,Mong Ky...",
+    "seed_count": 27
+  },
+  {
+    "i": 241,
+    "name": "Bulu",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Biwong-Bulu,Ebolowa,Sangmelima,Ambam,Kribi,Ntem,Mvila,Dja-et-Lobo,Ocaña,Zoebefam,Nkong-Edjom,Nkolbit...",
+    "seed_count": 25
+  },
+  {
+    "i": 242,
+    "name": "Busa",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Bussa,New Bussa,Bagudo,Kosubosu,Kaiama,Segbana,Kalele,Borgu,Niger State,Kebbi State,Kwara State,Baru...",
+    "seed_count": 25
+  },
+  {
+    "i": 243,
+    "name": "Bushong",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 244,
+    "name": "Bwela",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 245,
+    "name": "Buyu",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 246,
+    "name": "Cameroonian Pidgin",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 247,
+    "name": "Cameroonian Pidgin English",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 248,
+    "name": "Bole Tangale",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 249,
+    "name": "Tangale",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 250,
+    "name": "Dangaleat",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 307,
+    "name": "West African English Creole",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 312,
+    "name": "Harari-Argobba",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 385,
+    "name": "Bauchi Chadic",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 386,
+    "name": "East Chadic",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 398,
+    "name": "Omaio-Shabo-Seze",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 437,
+    "name": "Angolar São Tomé",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 454,
+    "name": "Annobonese Palé",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 462,
+    "name": "Judeo-ProvenÃ§al",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 475,
+    "name": "Forro São Tomé",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 479,
+    "name": "Principense Sundy",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 490,
+    "name": "Equatoguinean Spanish",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 492,
+    "name": "Baka",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 494,
+    "name": "MonÃ©gasque",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 500,
+    "name": "Berta",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 501,
+    "name": "Saharan Spanish",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 510,
+    "name": "Werni",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 511,
+    "name": "Zhire",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 526,
+    "name": "Zhoa",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 530,
+    "name": "Shabo",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 543,
+    "name": "Sucite",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 544,
+    "name": "Suwu",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 545,
+    "name": "Acheron",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 546,
+    "name": "Adara",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 566,
+    "name": "Aghem",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 580,
+    "name": "Aiki",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 581,
+    "name": "Amdang",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 582,
+    "name": "Doghose",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 583,
+    "name": "Eton",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 584,
+    "name": "Afade",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 585,
+    "name": "Afar",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 586,
+    "name": "Bura",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 587,
+    "name": "Bure",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 588,
+    "name": "Buwal",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 589,
+    "name": "Cakfem-Mushere",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 590,
+    "name": "Bukusu",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 596,
+    "name": "Afrikaans",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 608,
+    "name": "Agaw",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 610,
+    "name": "Yemba",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 611,
+    "name": "Zande",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 612,
+    "name": "Wannu",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 613,
+    "name": "Yalunka",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 614,
+    "name": "Yamba",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 615,
+    "name": "Yela-Kela",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 630,
+    "name": "N!ung Click",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 631,
+    "name": "Nama Click",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 632,
+    "name": "Naro Click",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 633,
+    "name": "G!ui Click",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 634,
+    "name": "Ju|'hoan Click",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 666,
+    "name": "Kru Pidgin English",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 667,
+    "name": "Liberian Interior Pidgin English",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 696,
+    "name": "Fur",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "El Fasher,Nyala,Kutum,Kabkabiya,El Geneina,Mellit,Tina,Tawila,Kornoi,Um Keddada,Zalingei,Mukjar,Abu ...",
+    "seed_count": 28
+  },
+  {
+    "i": 701,
+    "name": "Gumuz",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 702,
+    "name": "Gwari",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 703,
+    "name": "Gyong",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 704,
+    "name": "Hakaona",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 705,
+    "name": "Hanga",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 706,
+    "name": "Saari",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 707,
+    "name": "Samwe",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 708,
+    "name": "Shwai",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 709,
+    "name": "Sighu",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 710,
+    "name": "Siwu",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 711,
+    "name": "Southeast Ijo",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 713,
+    "name": "Susu",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Conakry,Freetown,Kamsar,Dubreka,Makeni,Kissy,Waterloo,Port Loko,Moyamba,Boffa,Kissidougou,Labé,Kindi...",
+    "seed_count": 25
+  },
+  {
+    "i": 767,
+    "name": "African Romance",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 772,
+    "name": "Yoruba",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Ibadan,Lagos,Abeokuta,Oshogbo,Ilorin,Oyo,Ile-Ife,Ado-Ekiti,Akure,Ondo,Ogbomosho,Ilaro,Oyo,Ede,Ijebu-...",
+    "seed_count": 30
+  },
+  {
+    "i": 791,
+    "name": "Ait Seghrouchen Berber",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Midelt,Ksar Tissouit,Ait Seghrouchen,Imouzzer,Middle Atlas,High Atlas,Talesinnt,Tichikout,Ait Ayache...",
+    "seed_count": 25
+  },
+  {
+    "i": 814,
+    "name": "Alasha Mongol",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 836,
+    "name": "Bahing",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 872,
+    "name": "Amharic",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Addis Ababa,Dire Dawa,Adama,Bahir Dar,Gondar,Mekele,Awasa,Jimma,Dessie,Debre Markos,Harar,Jijiga,Haw...",
+    "seed_count": 25
+  },
+  {
+    "i": 873,
+    "name": "Amharic-Argobba",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Addis Ababa,Argobba,Dire Dawa,Harar,Jijiga,Debub Amhara,Amhara Region,Oromia,Afar,Argobba Special Wo...",
+    "seed_count": 25
+  },
+  {
+    "i": 942,
+    "name": "Arabic Javanese of Klego",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Klego,Purworejo,Magelang,Temanggung,Wonosobo,Banjarnegara,Batang,Pekalongan,Kendal,Semarang,Surakart...",
+    "seed_count": 28
+  },
+  {
+    "i": 946,
+    "name": "Bube",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 947,
+    "name": "Saya",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 957,
+    "name": "Mongolian",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Ulaanbaatar,Erdenet,Darkhan,Choibalsan,Mörön,Ölgii,Khovd,Arvaikheer,Bayankhongor,Altai,Sainshand,Zam...",
+    "seed_count": 26
+  },
+  {
+    "i": 969,
+    "name": "Wolof",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Dakar,Saint-Louis,Kaolack,Tivaouane,Thiès,Mbour,Rufisque,Ziguinchor,Kolda,Sédhiou,Diourbel,Bambey,Lo...",
+    "seed_count": 26
+  },
+  {
+    "i": 970,
+    "name": "Sesotho",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Maseru,Mafeteng,Mohale's Hoek,Quthing,Qacha's Nek,Mokhotlong,Thaba-Tseka,Butha-Buthe,Leribe,Teyateya...",
+    "seed_count": 25
+  },
+  {
+    "i": 971,
+    "name": "Tswana",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Gaborone,Francistown,Lobatse,Selibe Phikwe,Jwaneng,Orapa,Sowa Town,Molepolole,Mochudi,Kanye,Kgalagad...",
+    "seed_count": 25
+  },
+  {
+    "i": 974,
+    "name": "Shona",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Harare,Mutare,Bulawayo,Gweru,Kwekwe,Masvingo,Chinhoyi,Marondera,Bindura,Chegutu,Kadoma,Norton,Chitun...",
+    "seed_count": 26
+  },
+  {
+    "i": 979,
+    "name": "Tumbuka",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Mzuzu,Karonga,Chitipa,Rumphi,Nkhata Bay,Livingstonia,Mzimba,Kasungu,Dowa,Mchinji,Lilongwe,Blantyre,Z...",
+    "seed_count": 26
+  },
+  {
+    "i": 980,
+    "name": "Sakata",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 986,
+    "name": "Zulu",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 988,
+    "name": "Southern Ndebele",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 989,
+    "name": "Sumayela Ndebele",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 990,
+    "name": "Tsonga or Xitsonga",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 1001,
+    "name": "Jurchen",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 1014,
+    "name": "Baarin Mongol",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 1065,
+    "name": "El Molo",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 1067,
+    "name": "Somali",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 1103,
+    "name": "Bambara",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  },
+  {
+    "i": 1114,
+    "name": "Harari-East Gurage",
+    "file": "namebases-africa.js",
+    "current_d": "lnrt",
+    "current_seeds": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibad...",
+    "seed_count": 47
+  }
+]
