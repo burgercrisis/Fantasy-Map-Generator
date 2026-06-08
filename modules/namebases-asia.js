@@ -7,44 +7,44 @@ window.asiaNameBases = [
     "name": "Ancient Egyptian",
   "i": 10,
   "min": 4,
-  "max": 11,
-  "d": "lnrt",
+  "max": 14,
+  "d": "mnstklrpbfdh",
   "m": 0,
-  "b": "Memphis,Alexandria,Thebes,Giza,Aswan,Luxor,Abydos,Asyut,Beni Suef,Sohag,Qena,Minya,Faiyum,Damanhur,Zagazig,Tanta,Ismailia,Suez,Port Said,Damietta,Shibin El Kom,Kafr El Sheikh,Arish,Hurghada,Marsa Matruh,Siwa"
+  "b": "Mennefer,Waset,Abdju,Nekhen,Ipu,Khemenu,Herakleopolis,Shedet,Djedu,Tanis,Per-Bast,Bubastis,Avaris,Pi-Ramesses,Akhetaten,Itjtawy,Henen-nesut,Ihnasya,Busiris,Mendes,Sebennytos,Buto,Sais,Xois,Naucratis,Thonis,Canopus,Alexandria,Raqote"
 },
 {
     "name": "Japanese",
   "i": 11,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "kstpmnrl",
   "m": 0,
   "b": "Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Kawasaki,Hiroshima,Sendai,Kitakyushu,Chiba,Sakai,Niigata,Okayama,Kumamoto,Kagoshima,Shizuoka,Hamamatsu,Matsuyama,Utsunomiya,Toyohashi,Kanazawa,Nagasaki,Gifu"
 },
 {
     "name": "Turkish",
   "i": 15,
-  "min": 4,
-  "max": 11,
-  "d": "lnrt",
+  "min": 3,
+  "max": 13,
+  "d": "lmnprstkc",
   "m": 0,
-  "b": "Istanbul,Ankara,Izmir,Bursa,Antalya,Adana,Konya,Gaziantep,Mersin,Kayseri,Eskisehir,Samsun,Denizli,Malatya,Kahramanmaraş,Erzurum,Van,Diyarbakır,Manisa,Batman,Elazig,Osmaniye,Sakarya,Trabzon,Ordu,Rize"
+  "b": "Istanbul,Ankara,Izmir,Bursa,Antalya,Adana,Konya,Gaziantep,Mersin,Kayseri,Eskisehir,Samsun,Denizli,Malatya,Kahramanmaras,Erzurum,Van,Diyarbakir,Manisa,Batman,Elazig,Osmaniye,Sakarya,Trabzon,Ordu,Rize"
 },
 {
     "name": "Arabic",
   "i": 17,
   "min": 4,
-  "max": 11,
-  "d": "lnrt",
+  "max": 12,
+  "d": "bdfghklmnqrstwxz",
   "m": 0,
-  "b": "Baghdad,Damascus,Beirut,Amman,Jerusalem,Cairo,Riyadh,Jeddah,Mecca,Medina,Muscat,Doha,Abu Dhabi,Kuwait City,Manama,Sanaa,Aden,Alexandria,Tripoli,Tunis,Algiers,Casablanca,Rabat,Mogadishu,Khartoum"
+  "b": "Baghdad,Damascus,Beirut,Amman,Al-Quds,Cairo,Riyadh,Jeddah,Makkah,Al-Madinah,Muscat,Ad-Dawhah,Abu Dhabi,Al-Kuwayt,Manamah,Sanaa,Al-Adan,Al-Iskandariyah,Tarablus,Tunis,Al-Jazair,Ad-Dar al-Bayda,Rabat,Muqdisho,Al-Khartum"
 },
 {
     "name": "Mesopotamian",
   "i": 23,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "bdfghklmnqrstwxz",
   "m": 0,
   "b": "Uruk,Babylon,Ur,Nippur,Larsa,Eridu,Kish,Ashur,Nineveh,Arbela,Harran,Samarra,Ctesiphon,Sippar,Borsippa,Isin,Adab,Shuruppak,Lagash,Girsu,Marad,Umma,Dilbat,Zabalam,Karkar,Puzrish-Dagan"
 },
@@ -53,7 +53,7 @@ window.asiaNameBases = [
   "i": 24,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "bdfghjklmnprstvxz",
   "m": 0,
   "b": "Tehran,Isfahan,Shiraz,Tabriz,Mashhad,Ahvaz,Kermanshah,Qom,Rasht,Hamadan,Yazd,Arak,Kerman,Zanjan,Sari,Qazvin,Karaj,Orumiyeh,Bandar Abbas,Sanandaj,Borujerd,Najafabad,Gorgan,Rafsanjan,Khomeyn,Amol,Bojnurd,Semnan,Maragheh"
 },
@@ -61,8 +61,8 @@ window.asiaNameBases = [
     "name": "Karnataka",
   "i": 25,
   "min": 4,
-  "max": 11,
-  "d": "lnrt",
+  "max": 12,
+  "d": "tnlrpdmk",
   "m": 0,
   "b": "Bengaluru,Mysuru,Mangaluru,Hubballi,Belagavi,Ballari,Gulbarga,Kalaburagi,Davangere,Shivamogga,Tumakuru,Udupi,Bidar,Raichur,Hassan,Dharwad,Gadag,Koppal,Chitradurga,Bagalkot,Bijapur,Vijayapura,Chikkamagaluru,Mandya,Kodagu"
 },
@@ -71,61 +71,61 @@ window.asiaNameBases = [
   "i": 28,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
   "b": "Hanoi,Ho Chi Minh City,Saigon,Hue,Da Nang,Hai Phong,Can Tho,Nha Trang,Da Lat,Vinh,Thai Nguyen,Quy Nhon,Rach Gia,My Tho,Vung Tau,Bien Hoa,Ha Long,Ninh Binh,Phan Thiet,Cam Ranh,Buon Ma Thuat,Pleiku,Quang Ngai,Tam Ky,Thanh Hoa"
 },
 {
     "name": "Cantonese",
   "i": 29,
-  "min": 4,
+  "min": 5,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Hong Kong,Guangzhou,Shenzhen,Macau,Foshan,Dongguan,Zhongshan,Zhuhai,Jiangmen,Huizhao,Zhaoqing,Yunfu,Shantou,Shaoguan,Qingyuan,Maoming,Yangjiang,Heyuan,Meizhou,Chaozhou,Jieyang,Shanwei,Taishan,Kaiping,Gaoyao,Sihui"
+  "b": "Hong Kong,Guangzhou,Shenzhen,Macau,Foshan,Dongguan,Zhongshan,Zhuhai,Jiangmen,Huizhao,Zhaoqing,Yunfu,Shantou,Shaoguan,Qingyuan,Maoming,Yangjiang,Heyuan,Meizhou,Chaozhou,Jieyang,Shanwei,Taishon,Kaiping,Gaoyao,Sihui"
 },
 {
     "name": "Eastern Indonesian",
   "i": 52,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Ambon,Ternate,Tidore,Manado,Sorong,Jayapura,Merauke,Manokwari,Sorong,Biak,Timika,Fakfak,Kaimana,Nabire,Wamena,Dekai,Oksibil,Enarotali,Agats,Serui,Yapen,Waropen,Numfor,Supiori,Ransiki,Ayamaru,Inanwatan"
+  "b": "Ambon,Ternate,Tidore,Manado,Sorong,Jayapura,Merauke,Manokwari,Biak,Timika,Fakfak,Kaimana,Nabire,Wamena,Dekai,Oksibil,Enarotali,Agats,Serui,Yapen,Waropen,Numfor,Supiori,Ransiki,Ayamaru,Inanwatan"
 },
 {
     "name": "Koya-Konda-Manda-Pengo",
   "i": 61,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "tdnl",
   "m": 0,
-  "b": "Visakhapatnam,Vizianagaram,Srikakulam,Koraput,Rayagada,Paralakhemundi,Gunupur,Malkangiri,Nabarangpur,Kalahandi,Bhawanipatna,Daspalla,Bissam Cuttack,Lakshmipur,Baliguda,Motu,Gunupur,Pottangi,Nandapur,Ramabhadrapuram,Araku,Bobbili,Salur,Padmapur,Jeypore"
+  "b": "Visakhapatnam,Vizianagaram,Srikakulam,Koraput,Rayagada,Paralakhemundi,Gunupur,Malkangiri,Nabarangpur,Kalahandi,Bhawanipatna,Daspalla,Bissam Cuttack,Lakshmipur,Baliguda,Motu,Pottangi,Nandapur,Ramabhadrapuram,Araku,Bobbili,Salur,Padmapur,Jeypore"
 },
 {
     "name": "Archi",
   "i": 95,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "cltr",
   "m": 0,
-  "b": "Archi,Kubachi,Khunzakh,Botlikh,Godoberi,Chamalal,Tindi,Bagulal,Bezhta,Hunzib,Tsez,Dido,Andi,Avar,Lezgin,Tabasaran,Lak,Dargwa,Chechen,Ingush,Rutul,Tsakhur,Azerbaijani,Georgian,Turkish,Arabic,Russian"
+  "b": "Archi,Kubachi,Khunzakh,Botlikh,Godoberi,Chamalal,Tindi,Bagulal,Bezhta,Hunzib,Tsez,Dido,Andi,Gamiyakh,Karata,Akusha,Mugi,Khvartseri,Shamil,Archib,Khuchada,Talda,Gigatl"
 },
 {
     "name": "Iban",
   "i": 97,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Kuching,Sibu,Sarikei,Miri,Limbang,Lawas,Bintulu,Betong,Sri Aman,Kapit,Song,Simanggang,Engkilili,Lubok Antu,Pusa,Roban,Debak,Spaoh,Lemanak,Belaga,Long Lellang,Long Peluan,Long Seridan,Betong,Sri Aman,Kapit,Song,Simanggang,Engkilili,Lubok Antu"
+  "b": "Kuching,Sibu,Sarikei,Miri,Limbang,Lawas,Bintulu,Betong,Sri Aman,Kapit,Song,Simanggang,Engkilili,Lubok Antu,Pusa,Roban,Debak,Spaoh,Lemanak,Belaga,Long Lellang,Long Peluan,Long Seridan,Marudi,Sibuti,Lundu,Kanowit"
 },
 {
     "name": "Sarawakian Malay",
   "i": 98,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
   "b": "Kuching,Sibu,Sarikei,Miri,Limbang,Lawas,Bintulu,Betong,Sri Aman,Kapit,Song,Simanggang,Engkilili,Lubok Antu,Pusa,Roban,Debak,Spaoh,Lemanak,Belaga,Long Lellang,Long Peluan,Long Seridan,Marudi,Sibuti,Lundu,Kanowit"
 },
@@ -134,7 +134,7 @@ window.asiaNameBases = [
   "i": 103,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
   "b": "Kuala Lumpur,George Town,Johor Bahru,Ipoh,Kuching,Kota Kinabalu,Shah Alam,Malacca City,Kuantan,Kota Bharu,Alor Setar,Kangar,Kuala Terengganu,Taiping,Seremban,Miri,Sandakan,Tawau,Lahad Datu,Keningau,Kudat,Beaufort,Penampang,Papar,Teluk Intan"
 },
@@ -143,34 +143,34 @@ window.asiaNameBases = [
   "i": 105,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Kupang,Atambua,Kefamenanu,Soe,Beto Ambiku,Noelbaki,Oelamasi,Camplong,Baumata,Fatukoa,Oenoni,Nikiiki,Bipopaka,Neonbasu,Kuimasi,Oepaha,Manufahi,Fatuleu,Nikiiki,Bipopaka,Neonbasu,Kuimasi,Oepaha,Manufahi,Fatuleu,Suai,Same,Fatu Lulik"
+  "b": "Kupang,Atambua,Kefamenanu,Soe,Beto Ambiku,Noelbaki,Oelamasi,Camplong,Baumata,Fatukoa,Oenoni,Nikiiki,Bipopaka,Neonbasu,Kuimasi,Oepaha,Manufahi,Fatuleu,Suai,Same,Fatu Lulik"
 },
 {
     "name": "Malaccan Creole Malay",
   "i": 108,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Malacca City,Alor Gajah,Jasin,Masjid Tanah,Merlimau,Sungai Udang,Kuala Linggi,Tanjung Bidara,Pekan Nyalas,Kuala Sungai Baru,Serkam,Bemban,Ayer Keroh,Batu Berendam,Klebang,Cheng,Pekan Nyalas,Kuala Sungai Baru,Serkam,Bemban,Ayer Keroh,Batu Berendam,Klebang,Cheng,Tanjung Krabau"
+  "b": "Malacca City,Alor Gajah,Jasin,Masjid Tanah,Merlimau,Sungai Udang,Kuala Linggi,Tanjung Bidara,Pekan Nyalas,Kuala Sungai Baru,Serkam,Bemban,Ayer Keroh,Batu Berendam,Klebang,Cheng,Tanjung Krabau"
 },
 {
     "name": "Manado Malay",
   "i": 109,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Manado,Bitung,Tomohon,Tondano,Amurang,Kotamobagu,Modoinding,Langsa,Kauditan,Belang,Sonder,Ratahan,Poigar,Kawangkoan,Toure,Likupang,Passir,Modoinding,Langsa,Kauditan,Belang,Sonder,Ratahan,Poigar,Kawangkoan,Toure,Likupang"
+  "b": "Manado,Bitung,Tomohon,Tondano,Amurang,Kotamobagu,Modoinding,Langsa,Kauditan,Belang,Sonder,Ratahan,Poigar,Kawangkoan,Toure,Likupang,Passir"
 },
 {
     "name": "Dura-Tandrange",
   "i": 110,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
   "b": "Tandrange,Dura,Gorkha,Palpa,Gulmi,Arghakhanchi,Kapilvastu,Rupandehi,Nawalparasi,Chitwan,Tanahun,Syangja,Lamjung,Kaski,Parbat,Baglung,Myagdi,Dang,Pyuthan,Rolpa,Salyan,Banke,Bardiya,Dailekh,Jajarkot,Dolpa,Mugu,Humla"
 },
@@ -179,6723 +179,6723 @@ window.asiaNameBases = [
   "i": 112,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Jayapura,Manokwari,Sorong,Biak,Merauke,Timika,Fakfak,Kaimana,Nabire,Wamena,Merauke,Asmat,Mimika,Yapen,Waropen,Numfor,Supiori,Ransiki,Ayamaru,Serui,Yapen,Waropen,Numfor,Supiori,Ransiki"
+  "b": "Jayapura,Manokwari,Sorong,Biak,Merauke,Timika,Fakfak,Kaimana,Nabire,Wamena,Asmat,Mimika,Yapen,Waropen,Numfor,Supiori,Ransiki,Ayamaru,Serui"
 },
 {
     "name": "Serui Malay",
   "i": 113,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Serui,Yapen,Waropen,Numfor,Supiori,Ransiki,Ayamaru,Manokwari,Sorong,Biak,Merauke,Timika,Fakfak,Kaimana,Nabire,Wamena,Merauke,Asmat,Mimika,Yapen,Waropen,Numfor,Supiori,Ransiki,Ayamaru,Serui"
+  "b": "Serui,Yapen,Waropen,Numfor,Supiori,Ransiki,Ayamaru,Manokwari,Sorong,Biak,Merauke,Timika,Fakfak,Kaimana,Nabire,Wamena,Asmat,Mimika"
 },
 {
     "name": "Sula Malay",
   "i": 115,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Sula,Mangoli,Sanana,Taliabu,Buru,Fatleyesi,Lede,Kasiruta,Bacan,Obi,Mandioli,Gane,Mare,Kayoa,Makian,Tidore,Ternate,Bacan,Obi,Mandioli,Gane,Mare,Kayoa,Makian,Tidore,Ternate"
+  "b": "Sula,Mangoli,Sanana,Taliabu,Buru,Fatleyesi,Lede,Kasiruta,Bacan,Obi,Mandioli,Gane,Mare,Kayoa,Makian,Tidore,Ternate"
 },
 {
     "name": "Batek",
   "i": 116,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Kuala Tahan,Kuala Tembeling,Jerantut,Kuala Lipis,Raub,Bentong,Gua Musang,Kota Bharu,Kuala Krai,Machang,Tanah Merah,Pasir Mas,Tumpat,Bachok,Kuala Tembeling,Jerantut,Kuala Lipis,Raub,Bentong,Gua Musang,Kota Bharu,Kuala Krai,Machang,Tanah Merah,Pasir Mas,Tumpat,Bachok"
+  "b": "Kuala Tahan,Kuala Tembeling,Jerantut,Kuala Lipis,Raub,Bentong,Gua Musang,Kota Bharu,Kuala Krai,Machang,Tanah Merah,Pasir Mas,Tumpat,Bachok"
 },
 {
     "name": "Mah Meri",
   "i": 117,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Kuala Selangor,Sekinchan,Sabak Bernam,Tanjung Karang,Banting,Kuala Langat,Morib,Jugra,Carey Island,Pulau Ketam,Pulau Lumut,Pulau Tengah,Pulau Udang,Pulau Besar,Kuala Selangor,Sekinchan,Sabak Bernam,Tanjung Karang,Banting,Kuala Langat,Morib,Jugra,Carey Island,Pulau Ketam,Pulau Lumut"
+  "b": "Kuala Selangor,Sekinchan,Sabak Bernam,Tanjung Karang,Banting,Kuala Langat,Morib,Jugra,Carey Island,Pulau Ketam,Pulau Lumut,Pulau Tengah,Pulau Udang,Pulau Besar"
 },
 {
     "name": "Semai",
   "i": 118,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Cameron Highlands,Kuala Lipis,Raub,Bentong,Gua Musang,Kota Bharu,Kuala Krai,Machang,Tanah Merah,Pasir Mas,Tumpat,Bachok,Kuala Tembeling,Jerantut,Kuala Lipis,Raub,Bentong,Gua Musang,Kota Bharu,Kuala Krai,Machang,Tanah Merah,Pasir Mas,Tumpat,Bachok"
+  "b": "Cameron Highlands,Kuala Lipis,Raub,Bentong,Gua Musang,Kota Bharu,Kuala Krai,Machang,Tanah Merah,Pasir Mas,Tumpat,Bachok,Kuala Tembeling,Jerantut"
 },
 {
     "name": "Semaq Beri",
   "i": 119,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Kemaman,Dungun,Kuala Terengganu,Kuala Besut,Setiu,Hulu Terengganu,Marang,Jertih,Besut,Paka,Chukai,Bukit Besi,Kijal,BukitPayong,Awak,KualaBerang,Kemaman,Dungun,KualaTerengganu,KualaBesut,Setiu,HuluTerengganu,Marang,Jertih,Besut,Paka"
+  "b": "Kemaman,Dungun,Kuala Terengganu,Kuala Besut,Setiu,Hulu Terengganu,Marang,Jertih,Besut,Paka,Chukai,Bukit Besi,Kijal,BukitPayong,Awak,KualaBerang"
 },
 {
     "name": "Semelai",
   "i": 120,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Kuala Tembeling,Jerantut,Kuala Lipis,Raub,Bentong,Gua Musang,Kota Bharu,Kuala Krai,Machang,Tanah Merah,Pasir Mas,Tumpat,Bachok,Kemaman,Dungun,Kuala Terengganu,Marang,Jertih,Besut,Paka,Chukai"
 },
 {
     "name": "Camorta Nicobarese",
   "i": 122,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Car Nicobar,Kamorta,Katchal,Nancowry,Great Nicobar,Little Nicobar,Teressa,Bamboo Flat,Campbell Bay,Malacca,Kondul,Chuckchow,Kabra,Menicurry,Pulo Milo,Kafu,Kondul,Laful,Tilanchong,Pulo Babe,Pulo Kunji,Kakana,Arong,Chowra"
 },
 {
     "name": "Chaura Nicobarese",
   "i": 124,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Chaura,Katchal,Nancowry,Great Nicobar,Little Nicobar,Teressa,Bamboo Flat,Campbell Bay,Malacca,Kondul,Chuckchow,Kabra,Menicurry,Pulo Milo,Kafu,Kondul,Laful,Tilanchong,Pulo Babe,Pulo Kunji,Kakana,Arong,Chowra"
 },
 {
     "name": "Nancowry Nicobarese",
   "i": 125,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Nancowry,Kamorta,Katchal,Great Nicobar,Little Nicobar,Teressa,Bamboo Flat,Campbell Bay,Car Nicobar,Malacca,Kondul,Chuckchow,Kabra,Menicurry,Pulo Milo,Kafu,Kondul,Laful,Tilanchong,Pulo Babe,Pulo Kunji,Kakana,Arong,Chowra"
 },
 {
     "name": "Nicobarese (macro)",
   "i": 126,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Car Nicobar,Kamorta,Katchal,Nancowry,Great Nicobar,Little Nicobar,Teressa,Bamboo Flat,Campbell Bay,Malacca,Kondul,Chuckchow,Kabra,Menicurry,Pulo Milo,Kafu,Kondul,Laful,Tilanchong,Pulo Babe,Pulo Kunji,Kakana,Arong,Chowra,Trinket,Pilo Pagar"
 },
 {
     "name": "Orang Pulo",
   "i": 127,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Peranakan",
   "i": 128,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Shompen",
   "i": 129,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Southern Nicobarese",
   "i": 130,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Katchal Nicobarese",
   "i": 132,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Kenaboi",
   "i": 133,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Minangkabau",
   "i": 134,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Alor Malay",
   "i": 169,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Malaysian Mandarin",
   "i": 171,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Singaporean Mandarin",
   "i": 175,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Acehnese",
   "i": 176,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Madurese",
   "i": 177,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "South Halmahera",
   "i": 180,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Barlavento Creoles",
   "i": 181,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Fogo Creole",
   "i": 182,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Maguindanao",
   "i": 188,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Sotavento Creoles",
   "i": 189,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Mardijker Creole",
   "i": 191,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Tetum",
   "i": 192,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Santali",
   "i": 193,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Palaung",
   "i": 194,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Bunun (Isbukun)",
   "i": 212,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Bunun (Northern-Central)",
   "i": 213,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Atayal (Squliq)",
   "i": 217,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Atayal (Ts'ole')",
   "i": 218,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Yaeyama",
   "i": 251,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Yonaguni",
   "i": 252,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Yoron",
   "i": 253,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Yilan Creole Japanese",
   "i": 254,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Yokohama Pidgin Japanese",
   "i": 255,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Adeni Arabic",
   "i": 265,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Aleppine Arabic",
   "i": 266,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Algerian Arabic",
   "i": 267,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Algerian Saharan Arabic",
   "i": 268,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Burmish",
   "i": 270,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Burmo Qiangic",
   "i": 271,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Caijia",
   "i": 272,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Chepang",
   "i": 273,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Macro-Yaeyama",
   "i": 279,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Miyakoan",
   "i": 280,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Southern Amami",
   "i": 281,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Okinoerabu",
   "i": 282,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Tokunoshima",
   "i": 283,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Amami",
   "i": 293,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Kikai",
   "i": 294,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Kunigami",
   "i": 295,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Okinawan",
   "i": 296,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Abaza",
   "i": 300,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Bzyb",
   "i": 303,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Aghul",
   "i": 304,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Anatolian Arabic",
   "i": 308,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Baghdadi Arabic",
   "i": 310,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Bahraini Gulf Arabic",
   "i": 311,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Bukharian Arabic",
   "i": 313,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Cairene Arabic",
   "i": 314,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Central Asian Arabic",
   "i": 315,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Ainu",
   "i": 316,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Hachijo",
   "i": 317,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Japanese dialects",
   "i": 318,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Japanese macro",
   "i": 320,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Ryukyuan",
   "i": 321,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Egyptian Arabic",
   "i": 322,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Doteli",
   "i": 413,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Achhami Doteli",
   "i": 414,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Baitadeli Doteli",
   "i": 415,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Bajhangi Doteli",
   "i": 416,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Darchuleli Doteli",
   "i": 417,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Bajureli Doteli",
   "i": 418,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Dadeldhuri Doteli",
   "i": 419,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Philippine Spanish",
   "i": 554,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Bakhtiari Arabic",
   "i": 680,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Al-Azdi dialect",
   "i": 737,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Żejtun dialect",
   "i": 738,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "A Ou",
   "i": 740,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Abba Gorgoryos",
   "i": 742,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Achang",
   "i": 745,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Adi",
   "i": 748,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Adjaran Georgian",
   "i": 749,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Aer",
   "i": 751,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Agalega Creole",
   "i": 756,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Ahom",
   "i": 766,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Aiton",
   "i": 792,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Aramaic",
   "i": 801,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Aranadan",
   "i": 802,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Aka-Jeru",
   "i": 806,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Akkadian",
   "i": 807,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Aka-Bo",
   "i": 808,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Akhvakh",
   "i": 811,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Alak Bahnaric",
   "i": 812,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Alar-Tunka Buryat",
   "i": 813,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Assyrian Neo-Aramaic",
   "i": 816,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Hebrew",
   "i": 817,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Western Neo-Aramaic",
   "i": 818,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Iranian Persian",
   "i": 822,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Sorani Kurdish",
   "i": 824,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Azerbaijani",
   "i": 827,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Central Plains Mandarin",
   "i": 829,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Lan-Yin Mandarin",
   "i": 830,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Northeastern Mandarin",
   "i": 831,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Southwestern Mandarin",
   "i": 832,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Lower Yangtze Mandarin",
   "i": 833,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Athpahariya (Athpare)",
   "i": 834,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Bantawa",
   "i": 835,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Belhare",
   "i": 837,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Chintang",
   "i": 838,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Dumi",
   "i": 839,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Sampang",
   "i": 840,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Sunuwar",
   "i": 841,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Thulung",
   "i": 842,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Yamphu",
   "i": 843,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Chulung",
   "i": 844,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Mewahang",
   "i": 845,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Jerung (Jero)",
   "i": 846,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Limbu",
   "i": 847,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Lohorung",
   "i": 848,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Puma",
   "i": 850,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Dungmali",
   "i": 851,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Saam",
   "i": 852,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Hayu/Vayu",
   "i": 853,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Chantyal",
   "i": 854,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Ghale",
   "i": 855,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Kaike (Magar Kaike)",
   "i": 856,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Manang (Manange)",
   "i": 857,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Altai",
   "i": 858,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Altai Uriankhai",
   "i": 859,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Alyutor",
   "i": 862,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Sui Lang",
   "i": 863,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Tai Dam",
   "i": 864,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Tai Ya",
   "i": 865,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Taishanese",
   "i": 866,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Wutunhua",
   "i": 867,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Yi",
   "i": 868,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Amdo Tibetan",
   "i": 869,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Nubri",
   "i": 875,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Boro (Bodo)",
   "i": 876,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Proto-Karenic",
   "i": 878,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Baram Thangmi",
   "i": 888,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Dhimalish",
   "i": 889,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Mijiic",
   "i": 891,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Ammonite",
   "i": 897,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Amorite",
   "i": 898,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Amur Dagur",
   "i": 899,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Armazic",
   "i": 945,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Assamese",
   "i": 952,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Assyrian",
   "i": 954,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Daur",
   "i": 959,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Oirat",
   "i": 960,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Torgut Oirat",
   "i": 961,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Burushaski",
   "i": 992,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Hinglish",
   "i": 993,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Hindko, Northern",
   "i": 994,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Indian English",
   "i": 995,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Korku",
   "i": 996,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Sora (Savara)",
   "i": 999,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Chinese",
   "i": 1000,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Man Met (Kemie)",
   "i": 1011,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Hu (Angku, Kon Keu)",
   "i": 1012,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "U (Pouma)",
   "i": 1013,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Babylonian",
   "i": 1016,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Badaga",
   "i": 1018,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Baoan",
   "i": 1019,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Baoanic",
   "i": 1020,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Baoting Hlai",
   "i": 1021,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Badong Yao",
   "i": 1024,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Baekje Korean",
   "i": 1025,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Bahnar",
   "i": 1028,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Bengali Portuguese Creole",
   "i": 1030,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Coast Tsimshian",
   "i": 1053,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Gelao",
   "i": 1054,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Tongzha",
   "i": 1055,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Telue",
   "i": 1056,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Then Kam Sui",
   "i": 1057,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Vandu",
   "i": 1059,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Chadong",
   "i": 1060,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "En Kra",
   "i": 1061,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Nuoxi Naxi Yao",
   "i": 1062,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Lauhut",
   "i": 1063,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Bahrani Arabic",
   "i": 1073,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Baima",
   "i": 1075,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Baisha Hlai",
   "i": 1076,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Balti",
   "i": 1100,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Pashto, Central",
   "i": 1109,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Waneci",
   "i": 1110,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Eastern Indonesian Malay",
   "i": 1111,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Gorap",
   "i": 1112,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Balinese",
   "i": 1119,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Bangladeshi English",
   "i": 1122,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Banjar",
   "i": 1123,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Bareqi Arabic",
   "i": 1125,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Bargut",
   "i": 1126,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Bargut Buryat",
   "i": 1127,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Barwar",
   "i": 1132,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Barzani Jewish Neo-Aramaic",
   "i": 1133,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Bathari",
   "i": 1139,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Bats",
   "i": 1140,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Toba Batak",
   "i": 1146,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Bugan",
   "i": 1147,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Balochi, Sulaimani",
   "i": 1148,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Badeshi",
   "i": 1149,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Tuvan",
   "i": 1154,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Ili Turki",
   "i": 1155,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Fuyu Kyrgyz",
   "i": 1156,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Salar",
   "i": 1157,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Mulam",
   "i": 1159,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Be",
   "i": 1160,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Bouyei",
   "i": 1161,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "E Tai",
   "i": 1162,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Lao Nyo",
   "i": 1164,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Tai Muong Vat",
   "i": 1165,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Lao Phutai",
   "i": 1167,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Pa Di",
   "i": 1168,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Thai Song",
   "i": 1169,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Northwestern Tai",
   "i": 1170,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Southwestern Tai",
   "i": 1171,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "tay-tai",
   "i": 1172,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "tai",
   "i": 1173,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "tay-tac",
   "i": 1174,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "northern-tai",
   "i": 1175,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "min-zhuang",
   "i": 1176,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "tai-long",
   "i": 1177,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "yei-zhuang",
   "i": 1178,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "tai-daeng",
   "i": 1179,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Beijing Mandarin",
   "i": 1226,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Betanure Jewish Neo-Aramaic",
   "i": 1236,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Betta Kurumba",
   "i": 1238,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Hokkien",
   "i": 1240,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Teochew Min",
   "i": 1241,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Hainanese",
   "i": 1242,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Leizhou Min",
   "i": 1243,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Pu-Xian Min",
   "i": 1244,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Haklau Min",
   "i": 1245,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Haryanvi",
   "i": 1246,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Balochi, Makrani",
   "i": 1247,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Balochi, Rakhshani",
   "i": 1248,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Bagri",
   "i": 1249,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Bawm",
   "i": 1250,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Bola",
   "i": 1251,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Chashan",
   "i": 1252,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Langsu",
   "i": 1253,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Lashi",
   "i": 1254,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Zaiwa",
   "i": 1255,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Bijiang Bai lect",
   "i": 1256,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Bijiang Bai language",
   "i": 1257,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Dali Bai lect",
   "i": 1258,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Dali Bai language",
   "i": 1259,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Heqing Bai lect",
   "i": 1260,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Xiangyun Bai dialect",
   "i": 1261,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Choyo",
   "i": 1264,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Gyalrong",
   "i": 1265,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Horpa",
   "i": 1266,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Khroskyabs",
   "i": 1267,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Muya",
   "i": 1268,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Prinmi",
   "i": 1269,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Zhaba",
   "i": 1270,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Mang",
   "i": 1271,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Bolyu",
   "i": 1272,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Blang",
   "i": 1273,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Bhili",
   "i": 1277,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Bhaya",
   "i": 1278,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Biao Kam-Sui",
   "i": 1285,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Biao Min",
   "i": 1286,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Biao Mon",
   "i": 1287,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Biblical Aramaic",
   "i": 1288,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Biblical Hebrew",
   "i": 1289,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Bidau Creole Portuguese",
   "i": 1297,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Bikol",
   "i": 1299,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Bote",
   "i": 1330,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Bodish",
   "i": 1341,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Bodo",
   "i": 1342,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Bohtan Neo-Aramaic",
   "i": 1344,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Bokar",
   "i": 1345,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Bonan",
   "i": 1353,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Bonan-Kangjia",
   "i": 1354,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Bonan Manegacha",
   "i": 1355,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Bonan Manegacha lect",
   "i": 1356,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Bouhin",
   "i": 1365,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Bourbonnais Creole",
   "i": 1366,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Bishnupriya Manipuri",
   "i": 1368,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Brahui",
   "i": 1374,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Braj",
   "i": 1375,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Brao",
   "i": 1376,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Baram",
   "i": 1377,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Bru",
   "i": 1382,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Kati",
   "i": 1383,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Bateri",
   "i": 1384,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Buginese",
   "i": 1386,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Bundeli",
   "i": 1391,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Bunu",
   "i": 1392,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Buyang",
   "i": 1403,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Buyeo Korean",
   "i": 1404,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Cai Long",
   "i": 1418,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Camtho",
   "i": 1431,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Canaano-Akkadian",
   "i": 1432,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Cannanore Portuguese Creole",
   "i": 1433,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Chakma",
   "i": 1435,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Koda",
   "i": 1456,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Cebuano native-speakers subset",
   "i": 1458,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Central Hilali dialects",
   "i": 1473,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Central Min",
   "i": 1481,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Central Tai",
   "i": 1484,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Tây Bồi Pidgin French",
   "i": 1486,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Central Tibeto Burman",
   "i": 1489,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Falam",
   "i": 1493,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Khaling",
   "i": 1494,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Koi",
   "i": 1495,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Tilung",
   "i": 1496,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Hinuq",
   "i": 1503,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Kachi Koli",
   "i": 1505,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Gujari",
   "i": 1506,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Goguryeo Korean",
   "i": 1522,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Zway",
   "i": 1525,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Chakhar",
   "i": 1537,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Chaldean Neo-Aramaic",
   "i": 1538,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Chamdo",
   "i": 1544,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Changjiang Hlai",
   "i": 1553,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Chavacano",
   "i": 1554,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Chechen",
   "i": 1555,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Chenchu",
   "i": 1556,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Tibeto-Kanauri",
   "i": 1558,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Western Himalayas",
   "i": 1559,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Dhuleli",
   "i": 1561,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Greater Magaric",
   "i": 1562,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Magaric",
   "i": 1563,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Mgp",
   "i": 1565,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Kip",
   "i": 1566,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Drq",
   "i": 1567,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Japanese regional lects",
   "i": 1571,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Kanbun Kundoku",
   "i": 1572,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Chepangic",
   "i": 1582,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Chhattisgarhi",
   "i": 1583,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Chiang Saen",
   "i": 1584,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Chin",
   "i": 1587,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Chinese Korean",
   "i": 1589,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Chinese Kyakala",
   "i": 1590,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Chinese Pidgin English",
   "i": 1591,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Chittagonian",
   "i": 1593,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Cholanaikkan",
   "i": 1594,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Chong",
   "i": 1596,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Chrau Bahnaric",
   "i": 1597,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Christian Palestinian Aramaic",
   "i": 1598,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Christian Urmi Neo-Aramaic",
   "i": 1599,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Chukchi",
   "i": 1601,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Chongqing Mandarin",
   "i": 1602,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Chukotkan",
   "i": 1607,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Chukotko-Kamchatkan",
   "i": 1608,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Chungcheong Korean",
   "i": 1610,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Chuvan",
   "i": 1612,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Cilician Arabic",
   "i": 1614,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Circassian",
   "i": 1617,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Cham",
   "i": 1619,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Chamalal",
   "i": 1620,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Chak",
   "i": 1621,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Classical Arabic",
   "i": 1623,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Classical Syriac",
   "i": 1625,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Chilisso",
   "i": 1626,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Idu Mishmi",
   "i": 1627,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Haka",
   "i": 1628,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Khumi",
   "i": 1629,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Cochin Portuguese Creole",
   "i": 1631,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Corfiot Maltese",
   "i": 1637,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Cottonera Dialect",
   "i": 1638,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Asho",
   "i": 1643,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Cua",
   "i": 1644,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Cun Hlai",
   "i": 1645,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Cypriot Arabic",
   "i": 1647,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Dadanitic",
   "i": 1649,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Dagur",
   "i": 1651,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Dai Zhuang",
   "i": 1653,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Damu",
   "i": 1654,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Dao",
   "i": 1657,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Dargwa",
   "i": 1659,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Dari",
   "i": 1660,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Darkhad",
   "i": 1661,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Holiya",
   "i": 1671,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Irula",
   "i": 1672,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Jeseri",
   "i": 1673,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Kadar Dravidian",
   "i": 1674,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Kaikadi",
   "i": 1675,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Kakkala",
   "i": 1676,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Kalanadi",
   "i": 1677,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Kanikkaran",
   "i": 1678,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Khirwar",
   "i": 1679,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Kodava",
   "i": 1680,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Derung",
   "i": 1696,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Dhakaiya Kutti Bengali",
   "i": 1698,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Dhivehi",
   "i": 1699,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Dimasa",
   "i": 1703,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Domaaki",
   "i": 1705,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Dameli",
   "i": 1706,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Dorbet Oirat",
   "i": 1714,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Dolpo",
   "i": 1717,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Darai",
   "i": 1718,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Duan",
   "i": 1719,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Duruwa",
   "i": 1724,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "E mixed",
   "i": 1726,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Early Modern Korean",
   "i": 1727,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "East Bodish",
   "i": 1728,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Duan Bahnaric",
   "i": 1732,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Eastern Himalayas",
   "i": 1738,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Eastern Itelmen",
   "i": 1739,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Arh",
   "i": 1741,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Bmr",
   "i": 1742,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Dzao Min",
   "i": 1745,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Eastern Min",
   "i": 1747,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Eastern Yugur",
   "i": 1753,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Ekherit Bulagat Buryat",
   "i": 1758,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Ekhirit Bulagat Buryat",
   "i": 1759,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Eravallan",
   "i": 1768,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Even",
   "i": 1777,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Ewenic",
   "i": 1780,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Dogri",
   "i": 1794,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Dongjia",
   "i": 1798,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Dongxiang",
   "i": 1800,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Tsez",
   "i": 1802,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Dzongkha",
   "i": 1813,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Goryeo Korean",
   "i": 1825,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Greater Siangic",
   "i": 1828,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Garo",
   "i": 1830,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Gangwon Dialect",
   "i": 1832,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Gaya Korean",
   "i": 1836,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Garhwali",
   "i": 1837,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Godoberi",
   "i": 1838,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Gejia",
   "i": 1840,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Gurgula",
   "i": 1869,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Gta",
   "i": 1871,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Guiyang",
   "i": 1877,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Hezhang Buyi",
   "i": 1882,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Hezhou",
   "i": 1883,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Hiligaynon",
   "i": 1884,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Hindustani",
   "i": 1887,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Hkongso",
   "i": 1889,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Halabi",
   "i": 1890,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Southern Ghale",
   "i": 1891,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Northern Ghale",
   "i": 1892,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Huizhou Chinese",
   "i": 1899,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Huishui Miao",
   "i": 1901,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Hunzib",
   "i": 1906,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Hwanghae",
   "i": 1908,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Ibanag",
   "i": 1911,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Goaria",
   "i": 1916,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Gurung",
   "i": 1923,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Gawri",
   "i": 1925,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Gowro",
   "i": 1926,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Gyeonggi-Seoul",
   "i": 1929,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Gyeongsang",
   "i": 1930,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Hani",
   "i": 1933,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Armenian (Hayeren)",
   "i": 1937,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Armenian Dialect",
   "i": 1938,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Old Armenian",
   "i": 1942,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Old Cilician Armenian",
   "i": 1943,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Hayu (Vayu)",
   "i": 1944,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Hazara (Hazaragi)",
   "i": 1945,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Ilocano native-speakers subset",
   "i": 1947,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Antillean Creole",
   "i": 1956,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Yuanmen Hlai",
   "i": 1963,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Qau",
   "i": 1964,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Taman",
   "i": 1967,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Kolami",
   "i": 1974,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Koraga",
   "i": 1975,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Kudiya",
   "i": 1977,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Kui Dravidian",
   "i": 1978,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Paniya",
   "i": 1980,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Pardhan",
   "i": 1981,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Pathiya",
   "i": 1982,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Itelmen",
   "i": 1987,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Joseon Korean Early Modern",
   "i": 1991,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Joseon Korean Modern",
   "i": 1993,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Jirel",
   "i": 1997,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Kam-Tai",
   "i": 1998,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Kamassian",
   "i": 2001,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Khmu",
   "i": 2006,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Kuy",
   "i": 2007,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Katuic",
   "i": 2008,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Khmuic",
   "i": 2009,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Proto Tibeto Burman",
   "i": 2014,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Tibeto Burman",
   "i": 2015,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Sal",
   "i": 2016,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Karakalpak",
   "i": 2017,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Hrusish",
   "i": 2023,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Ilocano",
   "i": 2025,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Iranun",
   "i": 2029,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Isan",
   "i": 2031,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Joseon Korean Middle",
   "i": 2041,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Georgian dialects",
   "i": 2078,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Old Georgian",
   "i": 2079,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Proto-Georgian-Zan",
   "i": 2080,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Proto-Kartvelian",
   "i": 2081,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Zan languages",
   "i": 2082,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Judaeo-Georgian",
   "i": 2083,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Georgian-Zan",
   "i": 2084,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Kartvelian languages",
   "i": 2085,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Kamchatkan",
   "i": 2088,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Kerek",
   "i": 2089,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Ket",
   "i": 2090,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Koryak",
   "i": 2091,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Kott",
   "i": 2092,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Kangjia",
   "i": 2102,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Kannada",
   "i": 2104,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Kapampangan",
   "i": 2107,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Kabutra",
   "i": 2116,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Koch",
   "i": 2117,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Tai Meuay",
   "i": 2127,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Proto-Kra",
   "i": 2128,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Nadou",
   "i": 2129,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Mulao Kra",
   "i": 2130,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Mising",
   "i": 2133,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Ke'yagana",
   "i": 2134,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Kacchi",
   "i": 2141,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Kusunda",
   "i": 2143,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Dura Tandrange",
   "i": 2144,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Gong",
   "i": 2147,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Gongduk",
   "i": 2148,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Aslian languages",
   "i": 2155,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Khowar",
   "i": 2159,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Khwarshi",
   "i": 2160,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Kiautschou Pidgin German",
   "i": 2161,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Kim Mun",
   "i": 2167,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Khasi",
   "i": 2189,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Lyngngam",
   "i": 2190,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Khasi native-speakers subset",
   "i": 2191,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Pnar",
   "i": 2192,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "War Khasi",
   "i": 2193,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Khakas",
   "i": 2194,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Khams Tibetan",
   "i": 2197,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Khamti",
   "i": 2198,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Khamyang",
   "i": 2199,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Kharia",
   "i": 2200,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Khe Khmer",
   "i": 2202,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Northern Khmer",
   "i": 2203,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Kho Bwa",
   "i": 2204,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Khori Buryat",
   "i": 2205,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Khortha",
   "i": 2206,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Khun",
   "i": 2233,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Kulung",
   "i": 2240,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Kalasha",
   "i": 2242,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Mednyj Aleut",
   "i": 2243,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Lakkia-Kam-Sui",
   "i": 2246,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Tai Hongjin",
   "i": 2247,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Qabiao",
   "i": 2248,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Koho",
   "i": 2251,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Kombai-Wanggom",
   "i": 2254,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Konda",
   "i": 2259,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Konkani",
   "i": 2262,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Kor",
   "i": 2265,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Korlai Portuguese Creole",
   "i": 2267,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Koya",
   "i": 2274,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Karata",
   "i": 2276,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Karachay-Balkar",
   "i": 2280,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Kristang",
   "i": 2283,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Kuki Chin",
   "i": 2286,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Kuki Chin Naga",
   "i": 2287,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Kumyk",
   "i": 2290,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Kunduvadi",
   "i": 2294,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Kuril Ainu",
   "i": 2295,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Kuril dialects",
   "i": 2296,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Kurukh",
   "i": 2297,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Kuvi",
   "i": 2298,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Bagvalal",
   "i": 2299,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Parkari Koli",
   "i": 2300,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Kwoma-Manambu Pidgin",
   "i": 2301,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Kui (India)",
   "i": 2302,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Kyakhta Russian-Chinese Pidgin",
   "i": 2304,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Kyowa-go",
   "i": 2305,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Kewat",
   "i": 2306,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Kurmali",
   "i": 2307,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Lachi",
   "i": 2312,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Laha",
   "i": 2313,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Lahu",
   "i": 2314,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Lanping Bai dialect",
   "i": 2319,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Kurambhag Paharia",
   "i": 2343,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Kurichiya",
   "i": 2344,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Azd Dialect",
   "i": 2345,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Abkhaz",
   "i": 2351,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Adyghe",
   "i": 2356,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Afro Seminole Creole",
   "i": 2362,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Lao",
   "i": 2370,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Kva",
   "i": 2384,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Kvx",
   "i": 2385,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Kwoma Manambu Pidgin",
   "i": 2386,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Kxu",
   "i": 2387,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Kyakhta Russian Chinese Pidgin",
   "i": 2389,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Kyowa Go",
   "i": 2390,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Kyv",
   "i": 2391,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Kyw",
   "i": 2392,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Kzi",
   "i": 2393,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Laven",
   "i": 2408,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Lavi",
   "i": 2409,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Laz",
   "i": 2411,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Lak",
   "i": 2412,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Ladakhi",
   "i": 2413,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Lepcha",
   "i": 2417,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Levantine Arabic",
   "i": 2418,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Lezgin",
   "i": 2419,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Lhomi",
   "i": 2420,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Lingling",
   "i": 2427,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Lisu",
   "i": 2428,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Yakkha",
   "i": 2430,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Avar",
   "i": 2431,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Yerukala",
   "i": 2432,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Levantine",
   "i": 2433,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Tibetan",
   "i": 2438,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Meitei",
   "i": 2441,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Karenic",
   "i": 2442,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Bai",
   "i": 2443,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Tujia",
   "i": 2444,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "West Himalayish",
   "i": 2445,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Tamangic",
   "i": 2446,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Kiranti",
   "i": 2447,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Qiangic",
   "i": 2448,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Gyalrongic",
   "i": 2449,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Ersuic",
   "i": 2450,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Naic",
   "i": 2451,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Naga",
   "i": 2452,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Kuki-Chin",
   "i": 2453,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Jingpho-Luish",
   "i": 2455,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Arunachal",
   "i": 2456,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Gan",
   "i": 2458,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Min",
   "i": 2459,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Wu",
   "i": 2460,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Xiang",
   "i": 2461,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Jin",
   "i": 2462,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Hui",
   "i": 2463,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Pinghua",
   "i": 2464,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Hakka",
   "i": 2465,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Magar",
   "i": 2466,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Kham",
   "i": 2467,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Bhujel",
   "i": 2469,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Dhimal",
   "i": 2471,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Toto",
   "i": 2472,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Miju-Meyor",
   "i": 2474,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Koro",
   "i": 2475,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Idu-Taraon",
   "i": 2476,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Zeme",
   "i": 2479,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Konyak",
   "i": 2480,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Tangkhulic",
   "i": 2481,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Mru",
   "i": 2482,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Karbi",
   "i": 2483,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Tshangla",
   "i": 2484,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Tani",
   "i": 2485,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Basum",
   "i": 2486,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Ole",
   "i": 2489,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Kho-Bwa",
   "i": 2490,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Songlin",
   "i": 2491,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Kathu",
   "i": 2494,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Cai-Long",
   "i": 2495,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Lolo-Burmese",
   "i": 2497,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Loloish",
   "i": 2498,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Raji-Raute",
   "i": 2500,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Lhokpu",
   "i": 2502,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Mehri",
   "i": 2527,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Khmer",
   "i": 2570,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Hindi",
   "i": 2574,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Bengali",
   "i": 2592,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Punjabi",
   "i": 2593,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Urdu",
   "i": 2594,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Gujarati",
   "i": 2595,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Sinhala",
   "i": 2596,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Kurdish",
   "i": 2601,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Pashto",
   "i": 2602,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Persian",
   "i": 2603,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Georgian",
   "i": 2614,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Armenian",
   "i": 2615,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Kazakh",
   "i": 2616,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Uzbek",
   "i": 2617,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Kyrgyz",
   "i": 2618,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Uyghur",
   "i": 2619,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Tajik",
   "i": 2620,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Ingush",
   "i": 2630,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Ossetian",
   "i": 2631,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Turkmen",
   "i": 2633,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Buryat",
   "i": 2637,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Kashmiri",
   "i": 2651,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Sindhi",
   "i": 2652,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Balochi",
   "i": 2653,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Nogai",
   "i": 2658,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Sundanese",
   "i": 2666,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Cebuano",
   "i": 2667,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Zhuang",
   "i": 2670,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Kam-Sui",
   "i": 2672,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Kra",
   "i": 2673,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Hlai",
   "i": 2674,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Shan",
   "i": 2675,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Athpahariya",
   "i": 2699,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Beary",
   "i": 2742,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Sri Lankan Malay",
   "i": 4205,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Gondi",
   "i": 4797,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Kui-Kuvi Dravidian",
   "i": 7023,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Brunei Malay",
   "i": 8660,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Tungusic",
   "i": 9480,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Cocos Malay",
   "i": 9821,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Kar",
   "i": 13491,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Japanese Bamboo English",
   "i": 20006,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Japanese Pidgin English",
   "i": 20007,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Korean Bamboo English",
   "i": 20008,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Thai Pidgin English",
   "i": 20019,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Javanese",
   "i": 20114,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Ao Naga",
   "i": 20158,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Ao",
   "i": 20159,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Angami",
   "i": 20160,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Lotha Naga",
   "i": 20161,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Daman Creole",
   "i": 20194,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Daman and Diu Portuguese Creole",
   "i": 20195,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Diu Creole",
   "i": 20196,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Korlai Creole",
   "i": 20197,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Sao Nicolau Creole",
   "i": 20198,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Sao Vicente Creole",
   "i": 20199,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Santo Antao Creole",
   "i": 20200,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Indo-Portuguese",
   "i": 20201,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Indo-Portuguese Creole of Bombay",
   "i": 20202,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Karipºna French Creole",
   "i": 20207,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Réunion Creole",
   "i": 20209,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Caribbean English Creole",
   "i": 20214,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Pacific English Creole",
   "i": 20215,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Malay-based Creole",
   "i": 20216,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Iu Mien",
   "i": 21094,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Hruso",
   "i": 21104,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Ancient North Arabian",
   "i": 21107,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Andalusi Arabic",
   "i": 21108,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Arabic (Gulf)",
   "i": 23003,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Malayalam",
   "i": 23341,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Marathi",
   "i": 24621,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Korean",
   "i": 33327,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Thai",
   "i": 34834,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Bahing/Bayung",
   "i": 50003,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Ahirani",
   "i": 50008,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Ai Cham",
   "i": 50009,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Manchu",
   "i": 50027,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Burmese",
   "i": 50033,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Newar",
   "i": 50034,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Tamil",
   "i": 55997,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Nepali",
   "i": 60031,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Xibe",
   "i": 98028,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Nanai",
   "i": 98029,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Evenki",
   "i": 98030,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Oroqen",
   "i": 98031,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "A'Tong",
@@ -6920,9 +6920,9 @@ window.asiaNameBases = [
   "i": 200237,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Alchuka",
@@ -6983,9 +6983,9 @@ window.asiaNameBases = [
   "i": 200244,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Bagheli",
@@ -7073,9 +7073,9 @@ window.asiaNameBases = [
   "i": 200254,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Bhojpuri",
@@ -7163,9 +7163,9 @@ window.asiaNameBases = [
   "i": 200264,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Classical Tibetan",
@@ -7352,9 +7352,9 @@ window.asiaNameBases = [
   "i": 200285,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Halbi",
@@ -7442,9 +7442,9 @@ window.asiaNameBases = [
   "i": 200295,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Hyolmo (Yolmo)",
@@ -7505,9 +7505,9 @@ window.asiaNameBases = [
   "i": 200302,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Jiamao",
@@ -7541,9 +7541,9 @@ window.asiaNameBases = [
   "i": 200306,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Jumli",
@@ -7568,9 +7568,9 @@ window.asiaNameBases = [
   "i": 200309,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Kadar",
@@ -7658,27 +7658,27 @@ window.asiaNameBases = [
   "i": 200319,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Katua",
   "i": 200320,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Kayong",
   "i": 200321,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Kewarat",
@@ -7802,477 +7802,477 @@ window.asiaNameBases = [
   "i": 200335,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Larantuka Malay",
   "i": 200336,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Lasi",
   "i": 200337,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Lhowa (Lhopa)",
   "i": 200338,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Loarki",
   "i": 200339,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Longsang Zhuang",
   "i": 200340,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Lower Uda Buryat",
   "i": 200341,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Macro-Zhuang",
   "i": 200342,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Madiya",
   "i": 200343,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Magahi",
   "i": 200344,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Magar (Dhut)",
   "i": 200345,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Magar Kham",
   "i": 200346,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Maithili",
   "i": 200347,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Majhi",
   "i": 200348,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Mak Kam Sui",
   "i": 200349,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Mala Malasar",
   "i": 200350,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Malankuravan",
   "i": 200351,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Malapandaram",
   "i": 200352,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Malasar",
   "i": 200353,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Malpande",
   "i": 200354,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Malto",
   "i": 200355,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Malvi",
   "i": 200356,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Manda",
   "i": 200357,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Mangghuer",
   "i": 200358,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Manglish",
   "i": 200359,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Mankiyali",
   "i": 200360,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Maonan",
   "i": 200361,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Mara",
   "i": 200362,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Marwari",
   "i": 200363,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Maumere Malay",
   "i": 200364,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Megam",
   "i": 200365,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Mel-Khaonh",
   "i": 200366,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Memoni",
   "i": 200367,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Mewari",
   "i": 200368,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Mewati",
   "i": 200369,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Middle Mongol",
   "i": 200370,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Min Zhuang",
   "i": 200371,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Mnong",
   "i": 200372,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Moghol / Mogholi",
   "i": 200373,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Mogholi",
   "i": 200374,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Mongghul",
   "i": 200375,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Mongghuor",
   "i": 200376,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Monguor",
   "i": 200377,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Monom",
   "i": 200378,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Moyfaw",
   "i": 200379,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Muduga",
   "i": 200380,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Mugom–Karmarong",
   "i": 200381,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Mullu Kurumba",
   "i": 200382,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Mundari",
   "i": 200383,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Muong",
   "i": 200384,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Muria",
   "i": 200385,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Muthuvan",
   "i": 200386,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Myang Zhuang",
   "i": 200387,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Mymensinghi Bengali",
@@ -8288,63 +8288,63 @@ window.asiaNameBases = [
   "i": 200389,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Nagpuri",
   "i": 200390,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Naiki",
   "i": 200391,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Nanaic",
   "i": 200392,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Nantoq Baoan",
   "i": 200393,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Nar Phu",
   "i": 200394,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Negidal",
   "i": 200395,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Nepalese English",
@@ -8360,261 +8360,261 @@ window.asiaNameBases = [
   "i": 200397,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Nimadi",
   "i": 200398,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Noakhailla",
   "i": 200399,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Nong Zhuang",
   "i": 200400,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Nonni Dagur",
   "i": 200401,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "North Moluccan Malay",
   "i": 200402,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Northern Khalkha",
   "i": 200403,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Northern Tai",
   "i": 200404,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Northern Thai",
   "i": 200405,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Northern Tungusic",
   "i": 200406,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Nung Tai",
   "i": 200407,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Nyah Kur",
   "i": 200408,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Nyaheun",
   "i": 200409,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Oadki",
   "i": 200410,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Odia",
   "i": 200411,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Oeld",
   "i": 200412,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Oi",
   "i": 200413,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Oirat Mongolian",
   "i": 200414,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Old Khitan",
   "i": 200415,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Old Serbi",
   "i": 200416,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Ollari",
   "i": 200417,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Önge",
   "i": 200418,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Ordos Mongol",
   "i": 200419,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Ormuri",
   "i": 200420,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Oroch",
   "i": 200421,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Orok",
   "i": 200422,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Paha",
   "i": 200423,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Pahari (Sino-Tibetan)",
   "i": 200424,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Pahari-Pothwari",
   "i": 200425,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Pakistani English",
@@ -8630,72 +8630,72 @@ window.asiaNameBases = [
   "i": 200427,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Palula",
   "i": 200428,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Pangasinan",
   "i": 200429,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Pangkhua",
   "i": 200430,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Pashto, Northern",
   "i": 200431,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Pashto, Southern",
   "i": 200432,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Pattapu",
   "i": 200433,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Pear",
   "i": 200434,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Pengo",
@@ -10099,7 +10099,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Beijing,Shanghai,Tokyo,Seoul,Osaka,Kyoto,Hiroshima,Nagoya,Yokohama,Kobe,Sendai,Sapporo,Fukuoka,Taipei,Kaohsiung,Taichung,Hsinchu,Busan,Incheon,Daegu,Gwangju,Daejeon,Ulsan,Suwon,Changwon,Goyang,Yongin,Cheongju,Jeonju,Pohang"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Gangwon Korean",
@@ -10135,7 +10135,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Han (Samhan)",
@@ -10144,7 +10144,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Beijing,Shanghai,Tokyo,Seoul,Osaka,Kyoto,Hiroshima,Nagoya,Yokohama,Kobe,Sendai,Sapporo,Fukuoka,Taipei,Kaohsiung,Taichung,Hsinchu,Busan,Incheon,Daegu,Gwangju,Daejeon,Ulsan,Suwon,Changwon,Goyang,Yongin,Cheongju,Jeonju,Pohang"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Hm Nai",
@@ -10153,7 +10153,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Beijing,Shanghai,Tokyo,Seoul,Osaka,Kyoto,Hiroshima,Nagoya,Yokohama,Kobe,Sendai,Sapporo,Fukuoka,Taipei,Kaohsiung,Taichung,Hsinchu,Busan,Incheon,Daegu,Gwangju,Daejeon,Ulsan,Suwon,Changwon,Goyang,Yongin,Cheongju,Jeonju,Pohang"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Hmong macro entry",
@@ -10162,7 +10162,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Beijing,Shanghai,Tokyo,Seoul,Osaka,Kyoto,Hiroshima,Nagoya,Yokohama,Kobe,Sendai,Sapporo,Fukuoka,Taipei,Kaohsiung,Taichung,Hsinchu,Busan,Incheon,Daegu,Gwangju,Daejeon,Ulsan,Suwon,Changwon,Goyang,Yongin,Cheongju,Jeonju,Pohang"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Hmu",
@@ -10171,7 +10171,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Beijing,Shanghai,Tokyo,Seoul,Osaka,Kyoto,Hiroshima,Nagoya,Yokohama,Kobe,Sendai,Sapporo,Fukuoka,Taipei,Kaohsiung,Taichung,Hsinchu,Busan,Incheon,Daegu,Gwangju,Daejeon,Ulsan,Suwon,Changwon,Goyang,Yongin,Cheongju,Jeonju,Pohang"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Huishui",
@@ -10180,7 +10180,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Beijing,Shanghai,Tokyo,Seoul,Osaka,Kyoto,Hiroshima,Nagoya,Yokohama,Kobe,Sendai,Sapporo,Fukuoka,Taipei,Kaohsiung,Taichung,Hsinchu,Busan,Incheon,Daegu,Gwangju,Daejeon,Ulsan,Suwon,Changwon,Goyang,Yongin,Cheongju,Jeonju,Pohang"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Hwanghae Korean",
@@ -10189,7 +10189,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Jeju",
@@ -10198,7 +10198,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Beijing,Shanghai,Tokyo,Seoul,Osaka,Kyoto,Hiroshima,Nagoya,Yokohama,Kobe,Sendai,Sapporo,Fukuoka,Taipei,Kaohsiung,Taichung,Hsinchu,Busan,Incheon,Daegu,Gwangju,Daejeon,Ulsan,Suwon,Changwon,Goyang,Yongin,Cheongju,Jeonju,Pohang"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Jeolla Korean",
@@ -10207,7 +10207,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Jiaoliao Mandarin",
@@ -10216,7 +10216,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Jilu Mandarin",
@@ -10225,7 +10225,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Kiong Nai",
@@ -10234,7 +10234,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Beijing,Shanghai,Tokyo,Seoul,Osaka,Kyoto,Hiroshima,Nagoya,Yokohama,Kobe,Sendai,Sapporo,Fukuoka,Taipei,Kaohsiung,Taichung,Hsinchu,Busan,Incheon,Daegu,Gwangju,Daejeon,Ulsan,Suwon,Changwon,Goyang,Yongin,Cheongju,Jeonju,Pohang"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Luobohe",
@@ -10243,7 +10243,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Beijing,Shanghai,Tokyo,Seoul,Osaka,Kyoto,Hiroshima,Nagoya,Yokohama,Kobe,Sendai,Sapporo,Fukuoka,Taipei,Kaohsiung,Taichung,Hsinchu,Busan,Incheon,Daegu,Gwangju,Daejeon,Ulsan,Suwon,Changwon,Goyang,Yongin,Cheongju,Jeonju,Pohang"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Mahan Korean",
@@ -10252,7 +10252,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Maojia",
@@ -10261,7 +10261,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Beijing,Shanghai,Tokyo,Seoul,Osaka,Kyoto,Hiroshima,Nagoya,Yokohama,Kobe,Sendai,Sapporo,Fukuoka,Taipei,Kaohsiung,Taichung,Hsinchu,Busan,Incheon,Daegu,Gwangju,Daejeon,Ulsan,Suwon,Changwon,Goyang,Yongin,Cheongju,Jeonju,Pohang"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Mashan",
@@ -10270,7 +10270,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Beijing,Shanghai,Tokyo,Seoul,Osaka,Kyoto,Hiroshima,Nagoya,Yokohama,Kobe,Sendai,Sapporo,Fukuoka,Taipei,Kaohsiung,Taichung,Hsinchu,Busan,Incheon,Daegu,Gwangju,Daejeon,Ulsan,Suwon,Changwon,Goyang,Yongin,Cheongju,Jeonju,Pohang"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Middle Korean",
@@ -10279,16 +10279,16 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Mo Piu",
   "i": 200683,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Modern Korean",
@@ -10297,7 +10297,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Munhwaŏ (Standard North Korean)",
@@ -10306,7 +10306,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Ná-Meo",
@@ -10315,7 +10315,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Beijing,Shanghai,Tokyo,Seoul,Osaka,Kyoto,Hiroshima,Nagoya,Yokohama,Kobe,Sendai,Sapporo,Fukuoka,Taipei,Kaohsiung,Taichung,Hsinchu,Busan,Incheon,Daegu,Gwangju,Daejeon,Ulsan,Suwon,Changwon,Goyang,Yongin,Cheongju,Jeonju,Pohang"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Nao Klao",
@@ -10324,7 +10324,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Beijing,Shanghai,Tokyo,Seoul,Osaka,Kyoto,Hiroshima,Nagoya,Yokohama,Kobe,Sendai,Sapporo,Fukuoka,Taipei,Kaohsiung,Taichung,Hsinchu,Busan,Incheon,Daegu,Gwangju,Daejeon,Ulsan,Suwon,Changwon,Goyang,Yongin,Cheongju,Jeonju,Pohang"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "North Korean",
@@ -10333,7 +10333,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Northern Min",
@@ -10342,7 +10342,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Beijing,Shanghai,Tokyo,Seoul,Osaka,Kyoto,Hiroshima,Nagoya,Yokohama,Kobe,Sendai,Sapporo,Fukuoka,Taipei,Kaohsiung,Taichung,Hsinchu,Busan,Incheon,Daegu,Gwangju,Daejeon,Ulsan,Suwon,Changwon,Goyang,Yongin,Cheongju,Jeonju,Pohang"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Numao",
@@ -10351,7 +10351,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Beijing,Shanghai,Tokyo,Seoul,Osaka,Kyoto,Hiroshima,Nagoya,Yokohama,Kobe,Sendai,Sapporo,Fukuoka,Taipei,Kaohsiung,Taichung,Hsinchu,Busan,Incheon,Daegu,Gwangju,Daejeon,Ulsan,Suwon,Changwon,Goyang,Yongin,Cheongju,Jeonju,Pohang"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Old Korean",
@@ -10360,7 +10360,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Pa Na",
@@ -10369,7 +10369,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Beijing,Shanghai,Tokyo,Seoul,Osaka,Kyoto,Hiroshima,Nagoya,Yokohama,Kobe,Sendai,Sapporo,Fukuoka,Taipei,Kaohsiung,Taichung,Hsinchu,Busan,Incheon,Daegu,Gwangju,Daejeon,Ulsan,Suwon,Changwon,Goyang,Yongin,Cheongju,Jeonju,Pohang"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Pa-Hng",
@@ -10378,7 +10378,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Beijing,Shanghai,Tokyo,Seoul,Osaka,Kyoto,Hiroshima,Nagoya,Yokohama,Kobe,Sendai,Sapporo,Fukuoka,Taipei,Kaohsiung,Taichung,Hsinchu,Busan,Incheon,Daegu,Gwangju,Daejeon,Ulsan,Suwon,Changwon,Goyang,Yongin,Cheongju,Jeonju,Pohang"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Pingtang",
@@ -10387,7 +10387,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Beijing,Shanghai,Tokyo,Seoul,Osaka,Kyoto,Hiroshima,Nagoya,Yokohama,Kobe,Sendai,Sapporo,Fukuoka,Taipei,Kaohsiung,Taichung,Hsinchu,Busan,Incheon,Daegu,Gwangju,Daejeon,Ulsan,Suwon,Changwon,Goyang,Yongin,Cheongju,Jeonju,Pohang"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Proto-Hmong-Mien",
@@ -10396,7 +10396,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Beijing,Shanghai,Tokyo,Seoul,Osaka,Kyoto,Hiroshima,Nagoya,Yokohama,Kobe,Sendai,Sapporo,Fukuoka,Taipei,Kaohsiung,Taichung,Hsinchu,Busan,Incheon,Daegu,Gwangju,Daejeon,Ulsan,Suwon,Changwon,Goyang,Yongin,Cheongju,Jeonju,Pohang"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Proto-Hmongic",
@@ -10405,7 +10405,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Beijing,Shanghai,Tokyo,Seoul,Osaka,Kyoto,Hiroshima,Nagoya,Yokohama,Kobe,Sendai,Sapporo,Fukuoka,Taipei,Kaohsiung,Taichung,Hsinchu,Busan,Incheon,Daegu,Gwangju,Daejeon,Ulsan,Suwon,Changwon,Goyang,Yongin,Cheongju,Jeonju,Pohang"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Proto-Koreanic",
@@ -10414,7 +10414,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Proto-Mienic",
@@ -10423,7 +10423,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Beijing,Shanghai,Tokyo,Seoul,Osaka,Kyoto,Hiroshima,Nagoya,Yokohama,Kobe,Sendai,Sapporo,Fukuoka,Taipei,Kaohsiung,Taichung,Hsinchu,Busan,Incheon,Daegu,Gwangju,Daejeon,Ulsan,Suwon,Changwon,Goyang,Yongin,Cheongju,Jeonju,Pohang"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Pu–Xian Min",
@@ -10432,7 +10432,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Beijing,Shanghai,Tokyo,Seoul,Osaka,Kyoto,Hiroshima,Nagoya,Yokohama,Kobe,Sendai,Sapporo,Fukuoka,Taipei,Kaohsiung,Taichung,Hsinchu,Busan,Incheon,Daegu,Gwangju,Daejeon,Ulsan,Suwon,Changwon,Goyang,Yongin,Cheongju,Jeonju,Pohang"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Puyŏ",
@@ -10441,7 +10441,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Beijing,Shanghai,Tokyo,Seoul,Osaka,Kyoto,Hiroshima,Nagoya,Yokohama,Kobe,Sendai,Sapporo,Fukuoka,Taipei,Kaohsiung,Taichung,Hsinchu,Busan,Incheon,Daegu,Gwangju,Daejeon,Ulsan,Suwon,Changwon,Goyang,Yongin,Cheongju,Jeonju,Pohang"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Pyojuneo (Standard Korean)",
@@ -10450,7 +10450,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Pyongan Korean",
@@ -10459,7 +10459,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Raojia",
@@ -10468,7 +10468,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Beijing,Shanghai,Tokyo,Seoul,Osaka,Kyoto,Hiroshima,Nagoya,Yokohama,Kobe,Sendai,Sapporo,Fukuoka,Taipei,Kaohsiung,Taichung,Hsinchu,Busan,Incheon,Daegu,Gwangju,Daejeon,Ulsan,Suwon,Changwon,Goyang,Yongin,Cheongju,Jeonju,Pohang"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Sanqiao",
@@ -10477,7 +10477,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Beijing,Shanghai,Tokyo,Seoul,Osaka,Kyoto,Hiroshima,Nagoya,Yokohama,Kobe,Sendai,Sapporo,Fukuoka,Taipei,Kaohsiung,Taichung,Hsinchu,Busan,Incheon,Daegu,Gwangju,Daejeon,Ulsan,Suwon,Changwon,Goyang,Yongin,Cheongju,Jeonju,Pohang"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Shanghainese",
@@ -10486,7 +10486,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Beijing,Shanghai,Tokyo,Seoul,Osaka,Kyoto,Hiroshima,Nagoya,Yokohama,Kobe,Sendai,Sapporo,Fukuoka,Taipei,Kaohsiung,Taichung,Hsinchu,Busan,Incheon,Daegu,Gwangju,Daejeon,Ulsan,Suwon,Changwon,Goyang,Yongin,Cheongju,Jeonju,Pohang"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Shao–Jiang Min",
@@ -10495,7 +10495,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Beijing,Shanghai,Tokyo,Seoul,Osaka,Kyoto,Hiroshima,Nagoya,Yokohama,Kobe,Sendai,Sapporo,Fukuoka,Taipei,Kaohsiung,Taichung,Hsinchu,Busan,Incheon,Daegu,Gwangju,Daejeon,Ulsan,Suwon,Changwon,Goyang,Yongin,Cheongju,Jeonju,Pohang"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "She",
@@ -10513,7 +10513,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Silla Korean",
@@ -10522,7 +10522,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Small Flowery",
@@ -10540,7 +10540,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Southern Min",
@@ -10567,7 +10567,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Wenzhounese",
@@ -10630,7 +10630,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Yeongseo Korean",
@@ -10639,7 +10639,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Younian",
@@ -10666,7 +10666,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Zainichi Korean",
@@ -10675,16 +10675,16 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Assyrian Neo Aramaic",
   "i": 200914,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Seongnam"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Awsānian",
@@ -10711,7 +10711,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Turoyo",
@@ -10738,7 +10738,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Western Hilali dialects",
@@ -10774,7 +10774,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Yemeni Arabic",
@@ -10783,7 +10783,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Zabidi dialect",
@@ -11098,7 +11098,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Proto Loloish",
@@ -11278,7 +11278,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Xi'an,Tianjin,Suzhou,Zhengzhou,Changsha,Qingdao,Dalian,Xiamen,Fuzhou,Kunming,Harbin,Shenyang,Jinan,Hefei,Nanchang,Guiyang,Lanzhou,Urumqi,Lhasa,Hohhot,Nanning"
+  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
 },
 {
     "name": "Mizo",

@@ -8,7 +8,7 @@ window.oceaniaNameBases = [
   "i": 50,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
   "b": "Wabag,Wapenamanda,Laiagam,Kandep,Kompiam,Paiela,Lapalama,Yenkis,Maramuni,Sari,Sau,Tayato,Yandapo,Mae,Kaina,Kandepe,Kapona,Layapo,Anditale,Angar,Olya,Angi,Anji,Lumusa,Kemangle,Sinak,Malamaundi"
 },
@@ -17,7 +17,7 @@ window.oceaniaNameBases = [
   "i": 51,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "ptklnrs",
   "m": 0,
   "b": "Wamena,Mulia,Tigi,Jiwika,Kurulu,Asologaima,Hitadipa,Kelila,Makki,Baliem,Hema,Wolo,Kanggime,Tagime,Abel,Milipna,Kiwirok,Pass Valley,Bokondini,Dela,Soba,Ilaga,Karubaga,Mapenduma,Kamuge,Waikerek,Mabilabol"
 },
@@ -26,25 +26,25 @@ window.oceaniaNameBases = [
   "i": 53,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Vila,Luganville,Santo,Malakula,Paama,Ambrym,Epi,Shefa,Tafea,Tanna,Aniwa,Futuna,Erromango,Aneityum,Banks,Torres,Efate,Emae,Mele,Pango,Erakor,Ifira,Iririki,Pango,Tagabe,Melemaat"
+  "b": "Ifira,Santo,Malakula,Paama,Ambrym,Epi,Shefa,Tafea,Tanna,Aniwa,Futuna,Erromango,Aneityum,Banks,Torres,Efate,Emae,Mele,Erakor,Iririki,Tagabe,Melemaat,PGongo,Litslits,Bethel,Norsup,Uraparapara"
 },
 {
     "name": "Micronesian",
   "i": 54,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Majuro,Tarawa,Palikir,Colonia,Yap,Weno,Chuuk,Pohnpei,Kosrae,Nuku'alofa,Apia,Nuku'alofa,Funafuti,Nauru,Tarawa,Bairiki,Betio,Bonriki,Ambo,Tungaru,Ebeye,Jaluit,Mili,Ailinglaplap,Kwajalein,Ujae,Lae,Likiep"
+  "b": "Majuro,Tarawa,Palikir,Colonia,Yap,Weno,Chuuk,Pohnpei,Kosrae,Nauru,Bairiki,Betio,Bonriki,Ambo,Tungaru,Ebeye,Jaluit,Mili,Ailinglaplap,Kwajalein,Ujae,Lae,Likiep,Wotje,Maloelap,Utirik,Rongelap,Enewetak,Bikini,Kili,Namdrik,Ebon"
 },
 {
     "name": "Central Pacific",
   "i": 55,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
   "b": "Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Nauru,Funafuti,Avarua,Mata-Utu,Neiafou,Alofi,Ngerulmud,Melekeok,Yaren,Tokelau,Wallis,Futuna,Papeete,Faaa,Mahina,Noumea,Thio,Dumbea"
 },
@@ -53,3006 +53,3006 @@ window.oceaniaNameBases = [
   "i": 56,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Noumea,Mont-Dore,Dumbea,Paita,Bourail,La Foa,Pouembout,Kaala-Gomen,Thio,Poya,Hienghene,Houailou,Canala,Bouloupari,Poindimie,Yate,Thio,Kone,Voh,Bourail,Koumac,Lifou,Mare,Ouvea,Poindimea,Bourail"
+  "b": "Dumbea,Paita,Kaala-Gomen,Thio,Poya,Hienghene,Houailou,Canala,Poindimie,Yate,Kone,Voh,Koumac,Lifou,Mare,Ouvea,Nece,Yatimo,Wala,Pweopa,Boakowe,Pece,Koniambo,Nepoui"
 },
 {
     "name": "Lampung",
   "i": 135,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Bandar Lampung,Metro,Way Kanan,Tanggamus,Pesawaran,Metro Utara,Lampung Selatan,Lampung Tengah,Lampung Utara,Lampung Barat,Tulang Bawang,Mesuji,Pringsewu,Sukadana,Bukit Kemuning,Pubian,Teluk Betung,Kalianda,Sukabumi,Rajabasa,Gedong Tataan"
 },
 {
     "name": "Bima",
   "i": 136,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Bima,Sape,Rajo,Manggarai,Sumbawa,Dompu,Woha,Lambu,Sanggar,Bajo,Kilo,Moyo,Sumbawa Besar,Taliwang,Ruteng,Bawa,Komodo,Rinca,Geli,Mbeliling,Selong,Praya,Batu Lanteh,Senggi"
 },
 {
     "name": "Basap",
   "i": 138,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Samarinda,Tanjung Redeb,Penajam,Sangatta,Bengalon,Muara Wahau,Long Iram,Kelay,Berau,Loajanan,Talabisong,Maratua,Pulau Derawan,Sangkuaki,Gunung Tabur,Segah,Long Peso,Labanan,Batuhitam,Miau Baru"
 },
 {
     "name": "Selaru",
   "i": 139,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Selaru,Yamdena,Tepa,Selaru Island,Fanating,Wotaponda,Babo,Kulugowa,Piru,Wassu,Iwurklele,Tungu,Masma,Selaru Besar,Pasena"
 },
 {
     "name": "Land Dayak",
   "i": 140,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Kuching,Sibu,Sarikei,Lundu,Bau,Lubok Antu,Betong,Serian,Simanggang,Sri Aman,Kapit,Song,Engkilili,Lubok Antu,Batang Ai"
 },
 {
     "name": "Flores-Lembata",
   "i": 141,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Larantuka,Lewoleba,Kalikasa,Matawasmadu,Waibalun,Bura,Pamakajo,Waimangura,Lewuka,Kangae,Solor,arantuka,Lamalera,Waiwerang,Tana Ayu"
 },
 {
     "name": "Kei-Tanimbar",
   "i": 142,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Tual,Saumlaki,Kayeli,Olilit,Weratan,Kei Besar,Kei Kecil,Dullah,Tanimbar,Yarat,Bab,Misool,Watmakur,Wetan,Rumar"
 },
 {
     "name": "Timoric",
   "i": 143,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Dili,Baucau,Viqueque,Lospalos,Manatuto,Aileu,Maliana,Suai,Liquiçá,Ermera,Ainaro,Oecusse,Same,Fatuberlio,Natarbora"
 },
 {
     "name": "Sumba-Flores",
   "i": 144,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Waingapu,Waikabubak,Waibakul,Tana Righu,Memboro,Laboya,Mangili,Wanokaka,Lamboya,KODI,Bungku,Barabajo,Waijarang,Rua,Katala"
 },
 {
     "name": "Tomini-Tolitoli",
   "i": 145,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Tolitoli,Luwuk,Dondale,Bailang,Kasimbar,Tinombo,Ogomuans,Dampal,Moutong,Lampasio,Pinolosian,Bolangitang,Simangga,Basi,Mooutong,Likupang,Tomini"
 },
 {
     "name": "Muna-Buton",
   "i": 146,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Baubau,Kendari,Buton,Wakatobi,Pasawajo,Lasalimu,Kumbewaha,Kaliai,Tomea,Buranga,Batupo,Kadambula,Lakambau,Muna,Karamboa,Siontapina,Tongkuno"
 },
 {
     "name": "Minahasan",
   "i": 147,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Manado,Tomohon,Tondano,Amurang,Kotamobagu,Modoinding,Langsa,Kauditan,Belang,Sonder,Ratahan,Poigar,Kawangkoan,Toure,Likupang,Passir,Tombolata,Ratahan"
 },
 {
     "name": "Sangiric",
   "i": 148,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Tahulandang,Siau,Biaro,Tagulandang,Salibabu,Manganitu,Kendahe,Tabukan,Tatoareng,Sangir Besar,Siau Tagulandang,Ensem,Buhias,Naha,Kalangan,Raikele"
 },
 {
     "name": "Kayan-Murik",
   "i": 149,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Long Anap,Long Moh,Long San,Long Lama,Long Miri,Long Bedian,Long Semado,Long Laput,Long Lellang,Long Seridan,Long Banga,Long Peluan,Baram,Murik"
 },
 {
     "name": "Melanau-Kajang",
   "i": 150,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Mukah,Dalat,Oya,Sibu,Matu,Igan,Kanowit,Sarikei,Daro,Bintulu,Sebauh,Tatau,Kapit,Belaga,Long Lama,Long Bedian"
 },
 {
     "name": "North Sarawakan",
   "i": 151,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Limbang,Lawas,Sundar,Trusan,Sipitang,Beaufort,Keningau,Tenom,Padawan,Penampang,Kota Belud,Tuaran,Ranau,Kundasang,Kota Marudu,Pitas,Kudat"
 },
 {
     "name": "Sabahan",
   "i": 152,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "North Borneo",
   "i": 153,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Greater North Borneo",
   "i": 154,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "South Sulawesi",
   "i": 156,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Northern South Sulawesi",
   "i": 157,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Central South Sulawesi",
   "i": 158,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Kaili-Wolio",
   "i": 159,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Saluan-Banggai",
   "i": 160,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Seko-Badaic",
   "i": 161,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Moklenic",
   "i": 162,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Nasal",
   "i": 163,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Northwest Sumatra Barrier Islands",
   "i": 164,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Sumatran",
   "i": 165,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "SHWNG",
   "i": 166,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Barito",
   "i": 167,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Bali Sasak Sumbawa",
   "i": 168,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Malayo-Chamic",
   "i": 172,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Malayo-Polynesian",
   "i": 173,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Western Malayo-Polynesian",
   "i": 174,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "North New Guinea",
   "i": 178,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Sawila",
   "i": 179,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Tiwi",
   "i": 186,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Ari (Papuan)",
   "i": 187,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Abui",
   "i": 195,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Asmat Citak",
   "i": 198,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Asmat-Kamoro",
   "i": 199,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Becking-Dawi",
   "i": 200,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Bimin",
   "i": 202,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Gadsup",
   "i": 203,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Gahuku",
   "i": 204,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Gogodala",
   "i": 205,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Awiyaana",
   "i": 206,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Kasua",
   "i": 207,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Kamoro",
   "i": 208,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Kerewo",
   "i": 209,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Kenati",
   "i": 210,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Bunun",
   "i": 211,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Basay",
   "i": 214,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Babuza",
   "i": 215,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Chambri",
   "i": 275,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Iatm",
   "i": 276,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Hawaiian",
   "i": 301,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Anindilyakwa",
   "i": 305,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Gunwinggu",
   "i": 306,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Pohnpeian",
   "i": 319,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Bundjalung",
   "i": 340,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Abaga",
   "i": 741,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Aboriginal Pidgin English",
   "i": 743,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Adang",
   "i": 747,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Adnyamathanha",
   "i": 750,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Agarabi",
   "i": 762,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Aghu",
   "i": 764,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Nataoran",
   "i": 790,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Akoye",
   "i": 809,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Alu",
   "i": 860,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Angaataha",
   "i": 915,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Atohwaim-Kaugat",
   "i": 955,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Aws-Nian",
   "i": 1007,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Barai",
   "i": 1022,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Baham",
   "i": 1027,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Bami",
   "i": 1115,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Baramu",
   "i": 1124,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Bariji",
   "i": 1129,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Barikanchi Pidgin",
   "i": 1130,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Baruga",
   "i": 1131,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Bauwaki",
   "i": 1142,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Bayono",
   "i": 1144,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Biangai",
   "i": 1280,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Binahari",
   "i": 1306,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Binandere",
   "i": 1307,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Binumarien",
   "i": 1308,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Bipim",
   "i": 1321,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Bisorio",
   "i": 1324,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Bitur",
   "i": 1327,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Blagar",
   "i": 1329,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Bonin English",
   "i": 1359,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Broome Pearling Lugger Pidgin",
   "i": 1381,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Bukawa",
   "i": 1387,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Bunak",
   "i": 1390,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Burumakok",
   "i": 1401,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Buruwai",
   "i": 1402,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Cemuhî",
   "i": 1420,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Carolinian",
   "i": 1434,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Gobasi",
   "i": 1520,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Chimbu",
   "i": 1586,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Kavalan",
   "i": 1622,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Cook Islands Māori Pidgin",
   "i": 1634,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Lonwolwol",
   "i": 1641,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Daga",
   "i": 1650,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Dani",
   "i": 1655,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Dano",
   "i": 1656,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Dap",
   "i": 1658,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Densar",
   "i": 1670,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Dima",
   "i": 1701,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Dom",
   "i": 1709,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Domu",
   "i": 1710,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Doromu",
   "i": 1715,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Duna",
   "i": 1723,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Duvle Wano Pidgin",
   "i": 1733,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Edolo",
   "i": 1755,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Ekari",
   "i": 1757,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Enga",
   "i": 1767,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Ese'Ekit",
   "i": 1772,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Ewage",
   "i": 1778,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Faiwol",
   "i": 1781,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Fasu",
   "i": 1789,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Fataluku",
   "i": 1790,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Eibela",
   "i": 1814,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Favorlang",
   "i": 1820,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Golin",
   "i": 1821,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Goroka",
   "i": 1824,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Grand Valley Dani",
   "i": 1826,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Grass Koiari",
   "i": 1827,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Gauwa",
   "i": 1834,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Fembe",
   "i": 1842,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Fiwaga",
   "i": 1846,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Foe",
   "i": 1848,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Foia Foia",
   "i": 1849,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Fore",
   "i": 1851,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Siraya",
   "i": 1853,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Gende",
   "i": 1864,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Humene",
   "i": 1903,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Hupla",
   "i": 1905,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Iha",
   "i": 1914,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Gimi",
   "i": 1918,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Gurindji Kriol",
   "i": 1919,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Hamtai",
   "i": 1931,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Inoke-Yate",
   "i": 1949,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Abinomn",
   "i": 1969,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Abun",
   "i": 1970,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Anem",
   "i": 1971,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Bilua",
   "i": 1972,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Kuot",
   "i": 1973,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Kamang",
   "i": 1999,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Kamasa",
   "i": 2000,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Kambaira",
   "i": 2002,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Kamberau",
   "i": 2003,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Karas",
   "i": 2020,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Ikobi",
   "i": 2024,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Mpur",
   "i": 2064,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Maibrat",
   "i": 2065,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Mor",
   "i": 2066,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Elseng",
   "i": 2067,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Kapauri",
   "i": 2068,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Philippine",
   "i": 2072,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Central Luzon",
   "i": 2077,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Kamono",
   "i": 2098,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Kanak",
   "i": 2099,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Kanasi",
   "i": 2100,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Kandawo",
   "i": 2101,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Kanite",
   "i": 2103,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Kap",
   "i": 2106,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Loyalties-New Caledonia",
   "i": 2118,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "North Vanuatu",
   "i": 2119,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "South Vanuatu",
   "i": 2120,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Southeast Solomonic",
   "i": 2121,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Southern Oceanic",
   "i": 2122,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "St. Matthias",
   "i": 2123,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Temotu",
   "i": 2124,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Vanuatu",
   "i": 2125,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Western Oceanic",
   "i": 2126,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Admiralty",
   "i": 2149,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Alor-Pantar",
   "i": 2151,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Anim languages",
   "i": 2153,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Aru",
   "i": 2154,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Awin-Pa",
   "i": 2156,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Awyu-Dumut",
   "i": 2157,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Kimaama-Kimaghama",
   "i": 2168,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Central Vanuatu",
   "i": 2172,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Eastern Oceanic",
   "i": 2173,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Meso-Melanesian",
   "i": 2174,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Oceanic",
   "i": 2175,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Binanderean",
   "i": 2176,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Kutubuan languages",
   "i": 2177,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Goilalan",
   "i": 2178,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Kolopom",
   "i": 2179,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Damal",
   "i": 2180,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Dem",
   "i": 2181,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Dibiyaso",
   "i": 2182,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Guriaso",
   "i": 2183,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Kaki Ae",
   "i": 2184,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Karami",
   "i": 2185,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Kehu",
   "i": 2186,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Kiwai",
   "i": 2238,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Klon",
   "i": 2241,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Koitabu",
   "i": 2253,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Komolom",
   "i": 2256,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Komyandaret",
   "i": 2257,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Konai",
   "i": 2258,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Koneraw",
   "i": 2261,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Kopkaka",
   "i": 2264,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Korafe",
   "i": 2266,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Korowai",
   "i": 2269,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Kosraean",
   "i": 2271,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Kosena",
   "i": 2272,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Kovojab",
   "i": 2273,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Kubo",
   "i": 2284,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Kui Alor-Pantar",
   "i": 2285,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Kula",
   "i": 2289,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Kuman",
   "i": 2291,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Kyaka",
   "i": 2303,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Kelabit",
   "i": 2308,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Laua",
   "i": 2407,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Lauje",
   "i": 2410,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Lembena",
   "i": 2415,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Tagalog",
   "i": 2584,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Indonesian",
   "i": 2585,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Malay",
   "i": 2586,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Maori",
   "i": 2587,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Samoan",
   "i": 2588,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Fijian",
   "i": 2589,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Awa",
   "i": 2734,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Awbono",
   "i": 2736,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Awin",
   "i": 2737,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Beami",
   "i": 2741,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Tongan",
   "i": 2744,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Tahitian",
   "i": 2745,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Marshallese",
   "i": 2746,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Palauan",
   "i": 2747,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Chamorro",
   "i": 2748,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Kiribati",
   "i": 2749,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Rarotongan",
   "i": 2750,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Minkin",
   "i": 20030,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Papuan",
   "i": 21003,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Benabena",
   "i": 21007,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Kriol",
   "i": 21008,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Yolngu",
   "i": 21009,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Wiradjuri",
   "i": 21010,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Gamilaraay",
   "i": 21011,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Paakantyi",
   "i": 21012,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Wallisian",
   "i": 21013,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Futunan",
   "i": 21014,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Tuvalu",
   "i": 21015,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Rejang",
   "i": 21085,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Bintulu",
   "i": 21086,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Boazi",
   "i": 21087,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Boazi Lake Murray",
   "i": 21088,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Ginuman",
   "i": 21089,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Chuave",
   "i": 21090,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Ipiko",
   "i": 21091,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Ipili",
   "i": 21092,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Isabi",
   "i": 21093,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Jimi",
   "i": 21096,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Ambakich",
   "i": 21097,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Ap Ma",
   "i": 21098,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Asabano",
   "i": 21099,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Bogaya",
   "i": 21100,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Burmeso",
   "i": 21101,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Light Warlpiri",
   "i": 21102,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Northern Formosan",
   "i": 21118,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Northern Luzon",
   "i": 21119,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Northern Mindoro",
   "i": 21120,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "South Mindanao",
   "i": 21121,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Tsouic",
   "i": 21122,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Greater Central Philippine",
   "i": 21123,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Batanic",
   "i": 21124,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Pintupi",
   "i": 21126,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Tok Pisin (Papua Coastal)",
   "i": 22003,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Hiri Motu (Port Moresby Villages)",
   "i": 22004,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Hawaiian (Oahu Neighbor Islands)",
   "i": 22005,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Huli (Tari Region)",
   "i": 23008,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Hawaiian (Island Cities)",
   "i": 23009,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Kewa (Southern Highlands Core)",
   "i": 23010,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Aimele",
   "i": 50023,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Arafundi-Enga Pidgin",
   "i": 50024,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Aneme-Wake",
   "i": 50026,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Fuyug",
   "i": 50028,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Tokelauan",
   "i": 97905,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Nauruan",
   "i": 97906,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Tuvaluan",
   "i": 97908,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Amis",
   "i": 97939,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Tok Pisin",
   "i": 97969,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Hiri Motu",
   "i": 97970,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Angal",
   "i": 97971,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Melpa",
   "i": 97972,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Kewa",
   "i": 97973,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Huli",
   "i": 97974,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Asaro",
   "i": 97976,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Kaluli",
   "i": 97977,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Mekeo",
   "i": 97978,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Koita",
   "i": 97979,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Arrernte",
   "i": 97982,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Warlpiri",
   "i": 97983,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Pitjantjatjara",
   "i": 97984,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Yolŋu",
   "i": 97985,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Miriwoong",
   "i": 97986,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Gooniyandi",
   "i": 97987,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Walmajarri",
   "i": 97988,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Bunuba",
   "i": 97989,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Niuean",
   "i": 97994,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Murrinhpatha",
   "i": 97996,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Kamilaroi",
   "i": 97997,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Chuukese",
   "i": 98000,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Yapese",
   "i": 98001,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Nauru",
   "i": 98003,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Bislama",
   "i": 98004,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Anejom",
   "i": 98005,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Lenakel",
   "i": 98006,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Kwamera",
   "i": 98007,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Nengone",
   "i": 98008,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Drehu",
   "i": 98009,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Xârâcùù",
   "i": 98010,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Jawe",
   "i": 98011,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Hinukh",
   "i": 98012,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Lau",
   "i": 98013,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Hawaiian Pidgin",
   "i": 98014,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Pijin",
   "i": 98015,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Rotuman",
   "i": 98016,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Norfuk",
   "i": 98017,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Bardi",
   "i": 98018,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Gurindji",
   "i": 98019,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Guugu Yimidhirr",
   "i": 98020,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Noongar",
   "i": 98021,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Asmat",
   "i": 98022,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Kokoda",
   "i": 98023,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Maisin",
   "i": 98024,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Motu",
   "i": 98025,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Burarra",
@@ -3329,9 +3329,9 @@ window.oceaniaNameBases = [
   "i": 200617,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Walmatjarri",
@@ -3347,9 +3347,9 @@ window.oceaniaNameBases = [
   "i": 200619,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Warumungu",
@@ -3410,36 +3410,36 @@ window.oceaniaNameBases = [
   "i": 201038,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Ankave",
   "i": 201039,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Ari",
   "i": 201040,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Asmat–Kamoro",
   "i": 201041,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Atayal",
@@ -3455,36 +3455,36 @@ window.oceaniaNameBases = [
   "i": 201043,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Australian Kriol",
   "i": 201044,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Auye",
   "i": 201045,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Becking–Dawi",
   "i": 201046,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Budai-Labuan-Taromak Rukai",
@@ -3500,36 +3500,36 @@ window.oceaniaNameBases = [
   "i": 201048,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Cheke Holo",
   "i": 201049,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Ese Ömie",
   "i": 201050,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Hagen",
   "i": 201051,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Hoanya",
@@ -3545,9 +3545,9 @@ window.oceaniaNameBases = [
   "i": 201053,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Isbukun Bunun",
@@ -3563,9 +3563,9 @@ window.oceaniaNameBases = [
   "i": 201055,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Kaera",
@@ -3590,9 +3590,9 @@ window.oceaniaNameBases = [
   "i": 201058,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Kainantu",
@@ -3608,9 +3608,9 @@ window.oceaniaNameBases = [
   "i": 201060,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Kanakanavu",
@@ -3626,18 +3626,18 @@ window.oceaniaNameBases = [
   "i": 201062,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Kayagar (Kaygir)",
   "i": 201063,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Ke’yagana",
@@ -3662,36 +3662,36 @@ window.oceaniaNameBases = [
   "i": 201066,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Kimaama (Kimaghama)",
   "i": 201067,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Kombai–Wanggom",
   "i": 201068,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Kowiai",
   "i": 201069,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Kulon",
@@ -3707,9 +3707,9 @@ window.oceaniaNameBases = [
   "i": 201071,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Lowland Iwur",
@@ -3743,63 +3743,63 @@ window.oceaniaNameBases = [
   "i": 201075,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Maiwa",
   "i": 201076,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Makalero",
   "i": 201077,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Makasae",
   "i": 201078,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Makassar",
   "i": 201079,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Makayam",
   "i": 201080,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Mandobo",
   "i": 201081,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Mantauran Rukai",
@@ -3815,63 +3815,63 @@ window.oceaniaNameBases = [
   "i": 201083,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Mapena",
   "i": 201084,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Maria",
   "i": 201085,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Marind",
   "i": 201086,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Maring",
   "i": 201087,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Melanesian Pidgin",
   "i": 201088,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Menya",
   "i": 201089,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Mian",
@@ -3887,72 +3887,72 @@ window.oceaniaNameBases = [
   "i": 201091,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Mombum",
   "i": 201092,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Momina",
   "i": 201093,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Momuna",
   "i": 201094,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Moni",
   "i": 201095,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Moraori",
   "i": 201096,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Morawa",
   "i": 201097,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Morigi",
   "i": 201098,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Mountain",
@@ -3968,36 +3968,36 @@ window.oceaniaNameBases = [
   "i": 201100,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Mubami",
   "i": 201101,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Mulaha",
   "i": 201102,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Muna",
   "i": 201103,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Muyu",
@@ -4022,54 +4022,54 @@ window.oceaniaNameBases = [
   "i": 201106,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Namumi",
   "i": 201107,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Narak",
   "i": 201108,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Narom",
   "i": 201109,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Nawaru",
   "i": 201110,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Ndom",
   "i": 201111,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Nduga",
@@ -4094,9 +4094,9 @@ window.oceaniaNameBases = [
   "i": 201114,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "New Zealand Pidgin English",
@@ -4121,9 +4121,9 @@ window.oceaniaNameBases = [
   "i": 201117,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Nggem",
@@ -4139,9 +4139,9 @@ window.oceaniaNameBases = [
   "i": 201119,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Ninggerum",
@@ -4157,9 +4157,9 @@ window.oceaniaNameBases = [
   "i": 201121,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Northern and Central Bunun",
@@ -4175,36 +4175,36 @@ window.oceaniaNameBases = [
   "i": 201123,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Odoodee",
   "i": 201124,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Oirata",
   "i": 201125,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Ok–Oksapmin",
   "i": 201126,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Oksapmin",
@@ -4220,27 +4220,27 @@ window.oceaniaNameBases = [
   "i": 201128,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Onjob",
   "i": 201129,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Onobasulu",
   "i": 201130,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Ontenu",
@@ -4256,9 +4256,9 @@ window.oceaniaNameBases = [
   "i": 201132,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Oweina",
@@ -4274,9 +4274,9 @@ window.oceaniaNameBases = [
   "i": 201134,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Paiwan",
@@ -4292,9 +4292,9 @@ window.oceaniaNameBases = [
   "i": 201136,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Papora",
@@ -4319,9 +4319,9 @@ window.oceaniaNameBases = [
   "i": 201139,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Pazeh",
@@ -4337,36 +4337,36 @@ window.oceaniaNameBases = [
   "i": 201141,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Pitcairn-Norfolk",
   "i": 201142,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Pitkern",
   "i": 201143,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Pogaya",
   "i": 201144,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Puyuma",
@@ -4382,9 +4382,9 @@ window.oceaniaNameBases = [
   "i": 201146,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Retta",
@@ -4400,18 +4400,18 @@ window.oceaniaNameBases = [
   "i": 201148,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Rotokas",
   "i": 201149,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Rukai",
@@ -4427,18 +4427,18 @@ window.oceaniaNameBases = [
   "i": 201151,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Rusenu",
   "i": 201152,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Saaroa",
@@ -4454,18 +4454,18 @@ window.oceaniaNameBases = [
   "i": 201154,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Safeyoka",
   "i": 201155,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Saisiyat",
@@ -4490,45 +4490,45 @@ window.oceaniaNameBases = [
   "i": 201158,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Samberigi",
   "i": 201159,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Samo",
   "i": 201160,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Sawi",
   "i": 201161,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Saʼban",
   "i": 201162,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Seediq",
@@ -4544,9 +4544,9 @@ window.oceaniaNameBases = [
   "i": 201164,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Setaman",
@@ -4562,9 +4562,9 @@ window.oceaniaNameBases = [
   "i": 201166,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Siane",
@@ -4589,18 +4589,18 @@ window.oceaniaNameBases = [
   "i": 201169,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Sinasina",
   "i": 201170,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Singlish",
@@ -4616,36 +4616,36 @@ window.oceaniaNameBases = [
   "i": 201172,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Some",
   "i": 201173,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Sonia",
   "i": 201174,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Sonsorolese",
   "i": 201175,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Squliq Atayal",
@@ -4661,9 +4661,9 @@ window.oceaniaNameBases = [
   "i": 201177,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Suganga",
@@ -4679,27 +4679,27 @@ window.oceaniaNameBases = [
   "i": 201179,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Susuami",
   "i": 201180,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Tainae",
   "i": 201181,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Tairoa",
@@ -4724,9 +4724,9 @@ window.oceaniaNameBases = [
   "i": 201184,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Tangko",
@@ -4751,9 +4751,9 @@ window.oceaniaNameBases = [
   "i": 201187,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Teiwa",
@@ -4778,9 +4778,9 @@ window.oceaniaNameBases = [
   "i": 201190,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Thao",
@@ -4805,27 +4805,27 @@ window.oceaniaNameBases = [
   "i": 201193,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Tirio (Lower Fly)",
   "i": 201194,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Tobian",
   "i": 201195,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Tokano",
@@ -4841,9 +4841,9 @@ window.oceaniaNameBases = [
   "i": 201197,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Ts'ole' Atayal",
@@ -4859,9 +4859,9 @@ window.oceaniaNameBases = [
   "i": 201199,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Tsou",
@@ -4877,45 +4877,45 @@ window.oceaniaNameBases = [
   "i": 201201,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Turama-Kikorian",
   "i": 201202,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Uab Meto",
   "i": 201203,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Uare",
   "i": 201204,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Umanakaina",
   "i": 201205,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Urapmin",
@@ -4949,9 +4949,9 @@ window.oceaniaNameBases = [
   "i": 201209,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Waffa",
@@ -4967,18 +4967,18 @@ window.oceaniaNameBases = [
   "i": 201211,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Waimoa",
   "i": 201212,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Walak",
@@ -4994,9 +4994,9 @@ window.oceaniaNameBases = [
   "i": 201214,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Wano",
@@ -5012,36 +5012,36 @@ window.oceaniaNameBases = [
   "i": 201216,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Wayan",
   "i": 201217,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Were",
   "i": 201218,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Weri",
   "i": 201219,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Wersing",
@@ -5057,9 +5057,9 @@ window.oceaniaNameBases = [
   "i": 201221,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Western",
@@ -5093,27 +5093,27 @@ window.oceaniaNameBases = [
   "i": 201225,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Wolani",
   "i": 201226,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Wolio",
   "i": 201227,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Yagaria",
@@ -5129,9 +5129,9 @@ window.oceaniaNameBases = [
   "i": 201229,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Yali",
@@ -5147,18 +5147,18 @@ window.oceaniaNameBases = [
   "i": 201231,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Yareba",
   "i": 201232,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Yaweyuha",
@@ -5174,27 +5174,27 @@ window.oceaniaNameBases = [
   "i": 201234,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Yipma",
   "i": 201235,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Yogo (Tamagario)",
   "i": 201236,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Yonggom",
@@ -5210,18 +5210,18 @@ window.oceaniaNameBases = [
   "i": 201238,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "Zimakani",
   "i": 201239,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Kokopo,Popondetta,Alotau,Kimbe,Hoskins,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Rabaul,Buka,Arawa,Suva,Apia,Nuku'alofa,Tarawa,Palikir,Majuro,Honiara,Port Vila,Pago Pago,Avarua,Alofi,Yaren,Tokelau,Nauru,Funafuti"
+  "b": "Nuku'alofa,Apia,Suva,Port Vila,Port Moresby,Honiara,Rabaul,Kokopo,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Kiunga,Tari,Mendi,Wabag,Vanimo,Maprik,Kavieng,Buka,Arawa,Saipan,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago"
 },
 {
     "name": "ꞌAreꞌare",

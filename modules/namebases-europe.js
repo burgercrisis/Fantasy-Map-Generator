@@ -7,7 +7,7 @@ window.europeNameBases = [
     "name": "English",
   "i": 1,
   "min": 4,
-  "max": 11,
+  "max": 13,
   "d": "lnrt",
   "m": 0,
   "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath"
@@ -16,8 +16,8 @@ window.europeNameBases = [
     "name": "French",
   "i": 2,
   "min": 4,
-  "max": 11,
-  "d": "lnrt",
+  "max": 13,
+  "d": "lnrm",
   "m": 0,
   "b": "Paris,Lyon,Marseille,Toulouse,Nice,Nantes,Strasbourg,Montpellier,Bordeaux,Lille,Rennes,Reims,Le Havre,Saint-Étienne,Toulon,Grenoble,Dijon,Angers,Nîmes,Villeurbanne,Saint-Denis,Le Mans,Aix-en-Provence,Clermont-Ferrand,Limoges,Tours,Amiens,Metz,Besançon,Orléans"
 },
@@ -25,71 +25,79 @@ window.europeNameBases = [
     "name": "Italian",
   "i": 3,
   "min": 4,
-  "max": 11,
-  "d": "lnrt",
+  "max": 12,
+  "d": "cltrpfsmbdg",
   "m": 0,
-  "b": "Rome,Milan,Naples,Turin,Palermo,Genoa,Bologna,Florence,Catania,Bari,Verona,Venice,Padua,Trieste,Parma,Modena,Perugia,Livorno,Cagliari,Ravenna,Foggia,Salerno,Siena,Pisa,Lucca,Ancona,Trento,Bolzano,Padova,Aosta"
+  "b": "Roma,Milano,Napoli,Torino,Palermo,Genova,Bologna,Firenze,Catania,Bari,Verona,Venezia,Padova,Trieste,Parma,Modena,Perugia,Livorno,Cagliari,Ravenna,Foggia,Salerno,Siena,Pisa,Lucca,Ancona,Trento,Bolzano,Aosta"
 },
 {
     "name": "Castillian",
   "i": 4,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "lr",
   "m": 0,
-  "b": "Madrid,Barcelona,Valencia,Seville,Zaragoza,Málaga,Murcia,Palma,Bilbao,Alicante,Córdoba,Valladolid,Vigo,Gijón,La Coruña,Oviedo,Santander,Tarragona,Granada,Salamanca,Burgos,León,Pamplona,Logroño,Santiago,Toledo,Segovia,Cáceres,Cuenca,Huesca"
+  "b": "Madrid,Barcelona,Valencia,Sevilla,Zaragoza,Málaga,Murcia,Palma,Bilbao,Alicante,Córdoba,Valladolid,Vigo,Gijón,La Coruña,Oviedo,Santander,Tarragona,Granada,Salamanca,Burgos,León,Pamplona,Logroño,Santiago,Toledo,Segovia,Cáceres,Cuenca,Huesca"
 },
 {
     "name": "Nordic",
   "i": 5,
   "min": 4,
-  "max": 11,
-  "d": "lnrt",
+  "max": 13,
+  "d": "klnpt",
   "m": 0,
-  "b": "Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense,Stavanger,Reykjavik,Tromsø,Gothenburg,Malmö,Århus,Turku,Västerås,Linköping,Örebro,Drammen,Kristiansand,Sandnes,Fredrikstad,Skien,Tønsberg,Larvik,Arendal,Haugesund"
+  "b": "Oslo,Stockholm,Kobenhavn,Bergen,Trondheim,Uppsala,Odense,Stavanger,Reykjavik,Tromso,Goteborg,Malmo,Aarhus,Turku,Vasteras,Linkoping,Orebro,Drammen,Kristiansand,Sandnes,Fredrikstad,Skien,Tonsberg,Larvik,Arendal,Haugesund,Kirkenes,Longyearbyen"
 },
 {
     "name": "Greek",
   "i": 6,
   "min": 4,
-  "max": 11,
-  "d": "lnrt",
+  "max": 12,
+  "d": "stpklnr",
   "m": 0,
-  "b": "Athens,Thessaloniki,Patras,Heraklion,Larissa,Volos,Ioannina,Chania,Rhodes,Kalamata,Corfu,Argos,Sparta,Nafplio,Olympia,Delphi,Metsovo,Kastoria,Preveza,Veria,Kilkis,Serres,Alexandroupoli,Drama,Xanthi,Komotini"
+  "b": "Athina,Thessaloniki,Patra,Irakleio,Larisa,Volos,Ioannina,Chania,Rodos,Kalamata,Kerkyra,Argos,Sparti,Nafplio,Olympia,Delphi,Metsovo,Kastoria,Preveza,Veria,Kilkis,Serres,Alexandroupoli,Drama,Xanthi,Komotini"
 },
 {
     "name": "Roman",
   "i": 7,
   "min": 4,
-  "max": 11,
-  "d": "lnrt",
+  "max": 12,
+  "d": "lnrstpkmbdfg",
   "m": 0,
-  "b": "Rome,Ostia,Tivoli,Alba Longa,Lavinium,Ardea,Aricia,Tusculum,Lanuvium,Laurentum,Praeneste,Velitrae,Nomentum,Fidenae,Crustumerium,Satricum,Antemnae,Collatia,Apiolae,Gabii,Cora,Norba,Setia,Circeii,Tarracina,Privernum"
+  "b": "Roma,Ostia,Tivoli,Alba Longa,Lavinium,Ardea,Aricia,Tusculum,Lanuvium,Laurentum,Praeneste,Velitrae,Nomentum,Fidenae,Crustumerium,Satricum,Antemnae,Collatia,Apiolae,Gabii,Cora,Norba,Setia,Circeii,Tarracina,Privernum"
 },
 {
     "name": "Finnic",
   "i": 8,
   "min": 4,
-  "max": 11,
-  "d": "lnrt",
+  "max": 12,
+  "d": "klmnprst",
   "m": 0,
-  "b": "Helsinki,Tampere,Turku,Oulu,Espoo,Vantaa,Jyväskylä,Kuopio,Lahti,Pori,Tallinn,Tartu,Narva,Pärnu,Viljandi,Rakvere,Kohtla-Järve,Maardu,Saue,Haapsalu,Porvoo,Loviisa,Kotka,Rauma,Valkeakoski,Kajaani"
+  "b": "Helsinki,Tampere,Turku,Oulu,Espoo,Vantaa,Jyvaskyla,Kuopio,Lahti,Pori,Porvoo,Loviisa,Kotka,Rauma,Valkeakoski,Kajaani,Mikkeli,Joensuu,Lappeenranta,Hameenlinna,Vaasa,Seinajoki,Rovaniemi,Kokkola"
+},{
+  "name": "Estonian",
+  "i": 9,
+  "min": 3,
+  "max": 10,
+  "d": "klmnprst",
+  "m": 0,
+  "b": "Tallinn,Tartu,Narva,Parnu,Viljandi,Rakvere,Kohtla-Jarve,Maardu,Saue,Haapsalu,Sillamae,Tapa,Polva,Valga,Jogeva,Paide,Rapla,Voru,Keila,Kuressaare,Antsla,Narva-Joesuu,Loksa"
 },
 {
     "name": "Portuguese",
   "i": 12,
   "min": 4,
-  "max": 11,
-  "d": "lnrt",
+  "max": 13,
+  "d": "lnrs",
   "m": 0,
-  "b": "Lisboa,Porto,Coimbra,Braga,Aveiro,Faro,Guimarães,Évora,Setúbal,Viseu,Sintra,Óbidos,Fátima,Albufeira,Algarve,Cascais,Amadora,Odivelas,Leiria,Santarem,Torres Vedras,Figueira da Foz,Ponte de Lima,Bragança,Chaves,Guarda"
+  "b": "Lisboa,Porto,Coimbra,Braga,Aveiro,Faro,Guimarães,Évora,Setúbal,Viseu,Sintra,Óbidos,Fátima,Albufeira,Cascais,Amadora,Odivelas,Leiria,Santarem,Torres Vedras,Figueira da Foz,Ponte de Lima,Bragança,Chaves,Guarda,Portimão"
 },
 {
     "name": "Hungarian",
   "i": 14,
   "min": 4,
-  "max": 11,
-  "d": "lnrt",
+  "max": 16,
+  "d": "klmnprstz",
   "m": 0,
   "b": "Budapest,Debrecen,Szeged,Miskolc,Pécs,Győr,Nyíregyháza,Kecskemét,Székesfehérvár,Szombathely,Eger,Sopron,Veszprém,Zalaegerszeg,Salgótarján,Kaposvár,Békéscsaba,Dunaújvóros,Hódmezővásárhely,Szekszárd,Kiskunfélegyháza,Cegléd,Jászberény,Paks,Baja,Szolnok"
 },
@@ -116,34 +124,43 @@ window.europeNameBases = [
   "i": 34,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "lnrst",
   "m": 0,
-  "b": "Warsaw,Krakow,Wroclaw,Poznan,Gdansk,Szczecin,Lodz,Bytom,Katowice,Lublin,Bialystok,Czestochoza,Radom,Sosnowiec,Tychy,Dabrowa Gornicza,Kielce,Rzeszow,Gdynia,Zabrze,Opole,Olsztyn,Torun,Gliwice,Zielona Gorzow,Sopot"
+  "b": "Warszawa,Kraków,Wrocław,Poznań,Gdańsk,Szczecin,Łódź,Bytom,Katowice,Lublin,Białystok,Częstochowa,Radom,Sosnowiec,Tychy,Dąbrowa Górnicza,Kielce,Rzeszów,Gdynia,Zabrze,Opole,Olsztyn,Toruń,Gliwice,Zielona Góra,Sopot"
 },
 {
-    "name": "Czech-Slovak",
+    "name": "Czech",
   "i": 35,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Prague,Brno,Bratislava,Ostrava,Plzen,Liberec,Olomouc,Ceske Budejovice,Hradec Kralove,Pardubice,Zlin,Kosice,Presov,Zilina,Nitra,Trnava,Trencin,Martin,Banska Bystrica,Poprad,Komarno,Prievidza,Michalovce,Spisska Nova Ves,Hlohovec,Levice,Galanta"
+  "b": "Praha,Brno,Ostrava,Plzeň,Liberec,Olomouc,České Budějovice,Hradec Králové,Pardubice,Zlín,Jihlava,Ústí nad Labem,Přerov,Havířov,Teplice,Most,Kladno,Opava,Karviná,Vsetín,Frýdek-Místek,Česká Lípa,Sokolov,Beroun,Kolín,Chomutov,Mladá Boleslav,Písek,Jablonec nad Nisou,Prostějov"
 },
 {
     "name": "South Slavic BCS",
   "i": 36,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
   "b": "Sarajevo,Banja Luka,Tuzla,Zenica,Bijeljina,Mostar,Prijedor,Brcko,Doboj,Gradiska,Zvornik,Visoko,Srebrenik,Gradacac,Tesanj,Laktaši,Livno,Zavidovic,Prnjavor,Kakanj,Zepce,Trebinje,Konjic,Derventa,Ilidza,Cazin,Bosanska Krupa"
+},
+{
+  "name": "Slovak",
+  "i": 20001,
+  "min": 4,
+  "max": 11,
+  "d": "",
+  "m": 0,
+  "b": "Bratislava,Košice,Prešov,Žilina,Nitra,Trnava,Trenčín,Martin,Banská Bystrica,Poprad,Komárno,Prievidza,Michalovce,Spišská Nová Ves,Hlohovec,Levice,Galanta,Levoča,Ružomberok,Dunajská Streda,Humenné,Skalica,Sabinov,Námestovo,Turčianske Teplice,Liptovský Mikuláš,Bardejov,Senica,Trstená,Revúca,Žiar nad Hronom"
 },
 {
     "name": "Somontanés",
   "i": 42,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
   "b": "Barbastro,Huesca,Ayerbe,Nocito,Adahuesca,Almudévar,Fuencalderas,Sabiñánigo,Jaca,Biescas,Benasque,Ansó,Hecho,Jasa,Aragüés,San Juan de la Peña,Riglos,Loarre,Agüero,Aniés,Murillo de Gállego,San Mateo de Gállego,Yésero,Candasnos,Berbegal"
 },
@@ -152,16 +169,16 @@ window.europeNameBases = [
   "i": 57,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Sofia,Plovdiv,Varna,Burgas,Ruse,Stara Zagora,Pleven,Sliven,Dobrich,Shumen,Pernik,Yambol,Haskovo,Pazardzhik,Blagoevgrad,Veliko Tarnovo,Gabrovo,Asenovgrad,Vratsa,Kazanlak,Targovishte,Razgrad,Botevgrad,Lovech,Samokov,Kardzhali"
+  "b": "Sofiya,Plovdiv,Varna,Burgas,Ruse,Stara Zagora,Pleven,Sliven,Dobrich,Shumen,Pernik,Yambol,Haskovo,Pazardzhik,Blagoevgrad,Veliko Tarnovo,Gabrovo,Asenovgrad,Vratsa,Kazanluk,Targovishte,Razgrad,Botevgrad,Lovech,Samokov,Kardzhali"
 },
 {
     "name": "Ukrainian",
   "i": 58,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
   "b": "Kyiv,Kharkiv,Odesa,Dnipro,Donetsk,Lviv,Zaporizhzhia,Kryvyi Rih,Mykolaiv,Vinnytsia,Sumy,Chernihiv,Zhytomyr,Poltava,Kherson,Ivano-Frankivsk,Lutsk,Ternopil,Uzhhorod,Rivne,Chernivtsi,Mukachevo,Kropyvnytskyi,Khmelnytskyi,Drohobych"
 },
@@ -170,36 +187,36 @@ window.europeNameBases = [
   "i": 76,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "nldtsrk",
   "m": 0,
-  "b": "Dublin,Cork,Galway,Limerick,Waterford,Derry,Belfast,Armagh,Killarney,Tralee,Sligo,Wexford,Kilkenny,Ennis,Dundalk,Navan,Naas,Arklow,Bray,Drogheda,Newry,Omagh,Letterkenny,Cavan,Monaghan,Longford,Athlone,Enniscorthy"
+  "b": "Átha Cliath,Corcaigh,Gaillimh,Luimneach,Port Láirge,Doire,Béal Feirste,Ard Mhacha,Cill Áirne,Trá Lí,Sligeach,Loch Garman,Cill Chainnigh,Inis,Dún Dealgan,An Uaimh,Nás na Rí,An tInse,Bré,Droichead Átha,Iúr Cinn Trá,An Eachrois,Leitir Ceanainn,An Cabhán,Muineachán,An Longfort,Baile Átha Luain,Inis Córthaigh"
 },
 {
     "name": "Scottish Gaelic",
   "i": 77,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "nldtsrk",
   "m": 0,
-  "b": "Glasgow,Edinburgh,Aberdeen,Dundee,Inverness,Perth,Stirling,Hamilton,Dunfermline,Kilmarnock,Ayr,Paisley,Oban,Fort William,Ullapool,Stornoway,Lerwick,Dornoch,Aviemore,Mallaig,Culloden,Ballachulish,Glencoe,Achnasheen,Plockton,Torridon"
+  "b": "Glaschu,Dùn Èideann,Obar Dheathain,Dùn Dè,Inbhir Nis,Peairt,Sruighlea,Hamaltun,Dùn Phàrlain,Cille Mheàrnaig,Inbhir Àir,Pàislig,An t-Òban,An Gearasdan,Ullapul,Steòrnabhagh,Lerwick,Dornoch,An t-Àban Mòr,Malaig,Cùladair,Baile a' Chulaich,Gleann Comhann,Achadh na Sìne,Ploc Loch Aillse,Tairden"
 },
 {
-    "name": "South Estonian A",
+  "name": "South Estonian A",
   "i": 87,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "klmnprst",
   "m": 0,
-  "b": "Võru,Tartu,Põlva,Valga,Räpina,Vastseliina,Haanja,Mõniste,Kanepi,Värska,Setomaa,Luutja,Leevi,Lasva,Orava,Pelgulina,Meremäe,Mikitamäe,Võru,Tartu,Põlva,Valga,Räpina,Vastseliina,Haanja,Mõniste,Kanepi,Värska,Setomaa"
+  "b": "Võru,Tartu,Põlva,Valga,Räpina,Vastseliina,Haanja,Mõniste,Kanepi,Värska,Setomaa,Luutja,Leevi,Lasva,Orava,Pelgulina,Meremäe,Mikitamäe"
 },
 {
-    "name": "South Estonian B",
+  "name": "South Estonian B",
   "i": 88,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "klmnprst",
   "m": 0,
-  "b": "Võru,Tartu,Põlva,Valga,Räpina,Vastseliina,Haanja,Mõniste,Kanepi,Värska,Setomaa,Luutja,Leevi,Lasva,Orava,Pelgulina,Meremäe,Mikitamäe,Võru,Tartu,Põlva,Valga,Räpina,Vastseliina,Haanja,Mõniste,Kanepi,Värska,Setomaa"
+  "b": "Võru,Tartu,Põlva,Valga,Räpina,Vastseliina,Haanja,Mõniste,Kanepi,Värska,Setomaa,Luutja,Leevi,Lasva,Orava,Pelgulina,Meremäe,Mikitamäe"
 },
 {
     "name": "Middle English",
@@ -223,19 +240,19 @@ window.europeNameBases = [
     "name": "Samoyedic Arctic",
   "i": 96,
   "min": 4,
-  "max": 11,
-  "d": "lnrt",
+  "max": 12,
+  "d": "klmnprst",
   "m": 0,
-  "b": "Naryan-Mar,Salekhard,Krasnoyarsk,Turukhansk,Igarka,Dudinka,Norilsk,Talnach,Khatanga,Taimyr,Yamalo-Nenets,Khanty-Mansiysk,Surgut,Nizhnevartovsk,Novy Urengoy,Nadym,Pur,Taz,Urengoy,Labytnangi,Naryan-Mar,Salekhard,Kazym,Konda,Ngarma"
+  "b": "Naryan-Mar,Salekhard,Krasnoyarsk,Turukhansk,Igarka,Dudinka,Norilsk,Talnach,Khatanga,Taimyr,Khanty-Mansiysk,Surgut,Nizhnevartovsk,Novy Urengoy,Nadym,Pur,Taz,Urengoy,Labytnangi,Kazym,Konda,Ngarma"
 },
 {
     "name": "Nenets",
   "i": 183,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "klmnprst",
   "m": 0,
-  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester,Cambridge,Oxford,York,Canterbury,Exeter,Winchester,Chester,Durham,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oslo,Stockholm,Copenhagen,Helsinki,Bergen,Trondheim,Uppsala,Odense"
+  "b": "Naryan-Mar,Salekhard,Dudinka,Norilsk,Khatanga,Turukhansk,Igarka,Talnach,Krasnoyark,Taimyr,Yamalo-Nenets,Khanty-Mansiysk,Surgut,Nizhnevartovsk,Novy Urengoy,Nadym,Pur,Taz,Urengoy,Labytnangi,Amderma,Kharaulakh,Nyda,Yamburg,Novy Port,Korotchaevo"
 },
 {
     "name": "Bustocco-Legnanese",

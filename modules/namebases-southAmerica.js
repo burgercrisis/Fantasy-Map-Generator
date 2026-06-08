@@ -8,7 +8,7 @@ window.southAmericaNameBases = [
   "i": 26,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
   "b": "Cusco,Arequipa,Lima,Quito,La Paz,Cochabamba,Sucre,Puno,Ayacucho,Cajamarca,Piura,Chiclayo,Trujillo,Iquitos,Pucallpa,Tacna,Tarapoto,Huancayo,Juliaca,Chimbote,Ica,Moquegua,Abancay,Cerro de Pasco,Tumbes,Chachapoyas,Puerto Maldonado"
 },
@@ -17,7 +17,7 @@ window.southAmericaNameBases = [
   "i": 63,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
   "b": "Papiu,Uiramutã,Uraricoera,Demini,Catrimani,Mucajaí,Ajarani,Branco,Aiau,Apiau,Paragua,Karun,Marauá,Pukimabueri,Serra da Estrutura,Amajari,Auaris,Baixo Rio Cauaburis,Surucucu,Kataroa,Omama,Opata,Yanomama,Xiliana,Xilixana,Sanöma,Yãnoma,Ỹaroamë"
 },
@@ -26,16 +26,16 @@ window.southAmericaNameBases = [
   "i": 64,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Reyes,Riberalta,Cavinas,Puerto Cavinas,Beni,Madidi,Jesús de Cavinas,Gonzalo Moreno,Ixiamas,Manuripi,Madre de Dios,Iturralde,Ballivián,Vaca Diez,Esperanza,Santa Rosa,San Antonio,Buen Jesus,Puerto Gonzalo,Santa Elena,San Miguel,Riberalta,Reyes,San Borja,San Javier"
+  "b": "Reyes,Riberalta,Cavinas,Puerto Cavinas,Beni,Madidi,Jesús de Cavinas,Gonzalo Moreno,Ixiamas,Manuripi,Madre de Dios,Iturralde,Ballivián,Vaca Diez,Esperanza,Santa Rosa,San Antonio,Buen Jesus,Puerto Gonzalo,Santa Elena,San Miguel,San Borja,San Javier"
 },
 {
     "name": "Chilean Spanish",
   "i": 69,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "lr",
   "m": 0,
   "b": "Santiago,Valparaiso,Concepcion,Temuco,Antofagasta,Iquique,Puerto Montt,Rancagua,Talca,Valdivia,Osorno,Coyhaique,Punta Arenas,Calama,Copiapo,La Serena,Vina del Mar,San Antonio,Linares,Chillan,Curico,Los Angeles,Puerto Varas,San Fernando,Talcahuano"
 },
@@ -44,27 +44,27 @@ window.southAmericaNameBases = [
   "i": 70,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "lr",
   "m": 0,
-  "b": "Castro,Ancud,Quellon,Chonchi,Dalcahue,Queilen,Quemchi,Curaco de Velez,Achao,Puqueldon,Lemuy,Chiloe,San Juan de la Costa,San Carlos de Chiloe,Calbuco,Maullino,Queilén,Quinchao,Tenaun,Mehuin,Chonchi,Quellon,Castro,Ancud,Dalcahue"
+  "b": "Castro,Ancud,Quellon,Chonchi,Dalcahue,Queilen,Quemchi,Curaco de Velez,Achao,Puqueldon,Lemuy,Chiloe,San Juan de la Costa,San Carlos de Chiloe,Calbuco,Maullino,Tenaun,Quinchao,San Antonio,Puerto Montt,Osorno"
 },
 {
     "name": "Sanöma",
   "i": 78,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Awaris,Kolulu,Parima,Auaris,Yanomami,Roraima,Boa Vista,Caracaraí,Alto Alegre,Mucajaí,Iracema,Normandia,Uiramutã,Pacaraima,Cantá,Anauá,Amaturá,São Gabriel da Cachoeira,Santa Isabel do Rio Negro,Cucuí,Marauá,Balawaque,Ye'kuana,Erebato,Caura"
+  "b": "Awaris,Kolulu,Parima,Auaris,Roraima,Boa Vista,Caracaraí,Mucajaí,Iracema,Uiramutã,Pacaraima,Cantá,Anauá,Amaturá,São Gabriel da Cachoeira,Cucuí,Marauá,Balawaque,Ye'kuana,Erebato,Caura"
 },
 {
     "name": "Terêna",
   "i": 131,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Buenos Aires,Santiago,Lima,Bogotá,Caracas,Quito,La Paz,Sucre,Montevideo,Asunción,Córdoba,Rosario,Mendoza,Tucuman,Salta,Mar del Plata,Bariloche,Valparaíso,Concepción,Temuco,Puerto Varas,Punta Arenas,Ushuaia,Antofagasta,Iquique,Manaus,Belém,Santarém,Parintins,Itacoatiara,Barcelos,Coari,Tefé,Tabatinga"
+  "b": "Campo Grande,Três Lagoas,Coração de Maria,Miranda,Bodoquena,Aquidauana,Anastácio,Dois Irmãos do Buriti,Sidrolândia,Maracaju,Rio Brilhante,Nova Andradina,Bataguasso,Ivinhema,Jateí,Nova Alvorada do Sul,Paranaíba,Caarapó,Amambai,Dourados,Naviraí,Glória de Dourados,Japorã,Itaporã,Deodápolis,Angélica,Bela Vista,Carumbeí,Rio Verde de Mato Grosso"
 },
 {
     "name": "Rioplatense Spanish",

@@ -8,7 +8,7 @@ window.africaNameBases = [
   "i": 16,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "bdfghklmnqrstz",
   "m": 0,
   "b": "Tlemcen,Oran,Algiers,Constantine,Casablanca,Rabat,Marrakech,Fez,Tangier,Agadir,Meknes,Oujda,Kenitra,Tetouan,Safi,Beni Mellal,Nador,Settat,Errachidia,Ouarzazate,Ghardaia,Bechar,Tamanrasset,Annaba,Biskra,Blida,Tizi Ouzou"
 },
@@ -26,7 +26,7 @@ window.africaNameBases = [
   "i": 27,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
   "b": "Zanzibar,Mombasa,Dar es Salaam,Nairobi,Kigali,Kampala,Dodoma,Arusha,Mwanza,Tanga,Lamu,Malindi,Pemba,Kilwa,Gedi,Shanga,Manda,Songo Mnara,Pate,Bagamojo,Mogadishu,Barawa,Kismayu,Merca,Lindi,Mtwara"
 },
@@ -34,80 +34,80 @@ window.africaNameBases = [
     "name": "Gurage",
   "i": 31,
   "min": 4,
-  "max": 11,
-  "d": "lnrt",
+  "max": 12,
+  "d": "bdfghklmnrstwxz",
   "m": 0,
   "b": "Welkite,Butajira,Emdibir,Enseno,Wolkite,Hosaena,Bui,Dugda,Jole,Koshe,Arekite,Araket,Attat,Bura,Deramr,Eftar,Gubre,Gunchire,Kombo,Mokyer,Suten,Zizencio,Agena,Kela,Wekepeche,Dacuna"
 },
 {
     "name": "Berber (Maghreb)",
   "i": 37,
-  "min": 4,
-  "max": 11,
-  "d": "lnrt",
+  "min": 3,
+  "max": 12,
+  "d": "bdfghklmnqrstwxz",
   "m": 0,
-  "b": "Casablanca,Rabat,Marrakech,Fez,Tangier,Agadir,Meknes,Oujda,Kenitra,Tetouan,Safi,Beni Mellal,Nador,Settat,Errachidia,Ouarzazate,Ghardaia,Bechar,Tamanrasset,Annaba,Biskra,Blida,Tizi Ouzou,Oran,Algiers,Constantine,Tunis,Sfax,Sousse"
+  "b": "Anfa,Arbaṭ,Murakush,Fas,Tanja,Agadir,Meknes,Wejda,Kenitra,Ttawen,Asfi,Ayt Mellal,Anḍaḍor,Azṭaṭ,Imɣday,Warzazat,Taɣerdayt,Becchar,Tamanɣasett,Ennaba,Tibeskert,Belida,Tizi Wezzu,Wehran,Dzayer,Qsenṭina,Tunes,Safaqis,Susa"
 },
 {
     "name": "Sekele",
   "i": 39,
   "min": 4,
-  "max": 11,
-  "d": "lnrt",
+  "max": 14,
+  "d": "lnrtksxmg",
   "m": 0,
-  "b": "Windhoek,Oshakati,Ondangwa,Ongwediva,Swakopmund,Walvis Bay,Rehoboth,Gobabis,Mariental,Keetmanshoop,Luderitz,Oranjemund,Karasburg,Noordoewer,Aroab,Bethanie,Helao Nafidi,Okahandja,Otjiwarongo,Outapi,Rundu,Grootfontein,Katima Mulilo,Opuwo,Eenhana,Omuthiya"
+  "b": "Ekoka,Okongo,Tsintsabis,Mangetti Dune,Neitsas,Gaub,Mpunguvlei,Olokula,Otyolo,Leeunes,Nurugas,Kameeldoring,Omatako,Gobabis,Tsumkwe,Eenhana,Okahandja,Otjiwarongo,Outapi,Rundu,Opuwo,Omuthiya,Onjoka,Oshigambo,Olufuko,Omaruru"
 },
 {
     "name": "Taa Click",
   "i": 41,
-  "min": 4,
+  "min": 3,
   "max": 11,
-  "d": "lnrt",
+  "d": "lnrtkxgms",
   "m": 0,
-  "b": "Windhoek,Gobabis,Mariental,Rehoboth,Keetmanshoop,Luderitz,Oranjemund,Karasburg,Noordoewer,Aroab,Bethanie,Khorixas,Opuwo,Eenhana,Oshakati,Ondangwa,Ongwediva,Swakopmund,Walvis Bay,Rundu,Nkurenkuru,Divundu,Bagani,Maun,Kasane,Shakawe,Ghanzi"
+  "b": "Ghanzi,Maun,Kasane,Shakawe,Dutlwe,Tshwaane,Khekhenye,Lokgwabe,Matsheng,Nossob,Leonardville,Gobabis,Mariental,Rehoboth,Keetmanshoop,Aroab,Bethanie,Khorixas,Opuwo,Eenhana,Ondangwa,Ongwediva,Rundu,Nkurenkuru,Divundu,Bagani,Kgalagadi,Omaheke,Okwa,Xauda,Siisa,Inxe"
 },
 {
     "name": "Ju/'hoan Click",
   "i": 47,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "lnrtksxmg",
   "m": 0,
-  "b": "Tsumkwe,Epukiro,Rundu,Omatako,Grootfontein,Divundu,Bagani,Mkata,Ncamangor,Ncuncuni,Omega,Tsumkwe,Mangetti,Dobe,Buitepos,Aroab,Asab,Baraka,Bethanie,Boesmanland,Epukiro,Erwee,Gibeon,Gochas,Katima Mulilo,Rundu"
+  "b": "Tsumkwe,Nyae Nyae,Epukiro,Omatako,Gobabis,Divundu,Bagani,Mangetti Dune,Dobe,Buitepos,Aroab,Asab,Baraka,Boesmanland,Erwee,Gibeon,Gochas,Katima Mulilo,Kremetartkop,Djxokwe,Makuri,Khaudum,Eiseb,Gaq'a,N≠a-Jaqna,Ondjou,Aasvoëlnes,Tsintsabis,Omuramba Ovamboland"
 },
 {
     "name": "Hadza Click",
   "i": 48,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "lnrtksmb",
   "m": 0,
-  "b": "Mangola,Yaeda Chini,Munguli,Endamagha,Mongo wa Mono,Baray,Karatu,Dunduhina,Siponga,Tlhiika,Mbulu,Iramba,Singida,Dodoma,Arusha,Manyara,Oldeani,Ngorongoro,Eyasi,Sukuma,Isanzu,Datooga,Iraqw,Maasai,Ngorongoro"
+  "b": "Mangola,Yaeda Chini,Munguli,Endamagha,Mongo wa Mono,Baray,Dunduhina,Siponga,Tlhiika,Oldeani,Eyasi,Tindiga,Kindiga,Kangeju,Wahi,Duivelskloof,Kisima,Ibobwa,Mangola wa Chini,Sani,Yaeda Bwa,Hazda,Xa'kambala,Pakasi"
 },
 {
     "name": "Sandawe Click",
   "i": 49,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "lnrtksmb",
   "m": 0,
-  "b": "Kwa Mtoro,Farkwa,Poro Banguma,Magambua,Ovada,Gungi,Moto,Gumbu,Sanzawa,Kurio,Mangastaa,Dodoma,Kondoa,Singida,Arusha,Manyara,Datooga,Nyaturu,Gogo,Rangi,Alagwa,Burunge,Maasai,Iraqw,Sukuma,Isanzu"
+  "b": "Kwa Mtoro,Farkwa,Poro Banguma,Magambua,Ovada,Gungi,Moto,Gumbu,Sanzawa,Kurio,Mangastaa,Kondoa,Usandawe,Ts'ana,Hatsa,G!oa,Ts'imbala,Kelema,Sanya,Nzungwa,Mbuga,Tlha'na,Gwa'ri,Burunge,Rangi,Alagwa,Datooga,Nyaturu,Gogo"
 },
 {
     "name": "Bemba-Bembe-Fwe",
   "i": 62,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Mbala,Mansa,Kawambwa,Mporokoso,Kasama,Luwingu,Mungwi,Chinsali,Isoka,Chilubi,Mpika,Kabwe,Chingola,Chililabombwe,Kalulushi,Luwishi,Mufulira,Ndola,Kitwe,Luanshya,Chililabombwe,Mongu,Kapiri Mposhi,Serenje,Mpongwe,Luanshya"
+  "b": "Mbala,Mansa,Kawambwa,Mporokoso,Kasama,Luwingu,Mungwi,Chinsali,Isoka,Chilubi,Mpika,Kabwe,Chingola,Chililabombwe,Kalulushi,Luwishi,Mufulira,Ndola,Kitwe,Luanshya,Mongu,Kapiri Mposhi,Serenje,Mpongwe"
 },
 {
     "name": "Southern Mongolic",
   "i": 66,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
   "b": "Hohhot,Baotou,Chifeng,Tongliao,Ordos,Ulanqab,Bayannur,Alxa,Xilin Gol,Hinggan,Jalaid,Hure,Barag,Baarin,Ongniud,Tumed,Ujumqin,Ar Horqin,Dorbet,Ju Ud,Mandalgovi,Dalanzadgad,Bayankhongor,Altai,Tsetserleg"
 },
@@ -116,7 +116,7 @@ window.africaNameBases = [
   "i": 67,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
   "b": "Mora,Kerawa,Mozogo,Koza,Ashigashia,Gwoza,Madagali,Mubi,Gamergu,Glavda,Podokwa,Dghwede,Guduf,Gvoko,Lamang,Mafa,Malgwa,Sukur,Wula,Vizik,Vemgo,Mabas,Hide,Turu,Kamwe,Nzanyi,Bata,Fali,Guɗe,Gudu,Jara,Hwana,Tera,Boga,Kaɓәn,Fәrtata"
 },
@@ -125,27 +125,27 @@ window.africaNameBases = [
   "i": 85,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Tucupita,Orinoco Delta,Delta Amacuro,San Francisco de Guayo,Osibu Kahunoko,Murako,Hobure,Amauro,Manamo,Cocuina,Macareo,Siawani,Chaguanes,Veriotaus,Tiuitiuas,Guanoco,Mariusa,Bajo Delta,Morichales,Caño Manamo,Caño Tucupita,Caño Pedernales,Caño Araguaimujo,Caño Macareo,Caño Jobal,Caño Pedernales"
+  "b": "Tucupita,Delta Amacuro,San Francisco de Guayo,Osibu Kahunoko,Murako,Hobure,Amauro,Manamo,Cocuina,Macareo,Siawani,Chaguanes,Veriotaus,Tiuitiuas,Guanoco,Mariusa,Bajo Delta,Morichales,Caño Manamo,Caño Tucupita,Caño Pedernales,Caño Araguaimujo,Caño Macareo,Caño Jobal"
 },
 {
     "name": "Mandarin Global",
   "i": 91,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Chongqing,Tianjin,Suzhou,Xi'an,Changsha,Qingdao,Dalian,Xiamen,Kunming,Harbin,Changzhou,Wuxi,Ningbo,Foshan,Dongguan,Qingdao,Jinan"
+  "b": "Cairo,Lagos,Nairobi,Kinshasa,Johannesburg,Casablanca,Addis Ababa,Dar es Salaam,Accra,Khartoum,Luanda,Maputo,Dakar,Algiers,Kampala,Kigali,Bujumbura,Mogadishu,Tripoli,Tunis,Abuja,Douala,Antananarivo,Port Louis,Victoria,Lilongwe,Lusaka,Harare,Gaborone,Windhoek"
 },
 {
     "name": "Arabic Global",
   "i": 92,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "bdfghklmnqrstwxz",
   "m": 0,
-  "b": "Cairo,Riyadh,Jeddah,Mecca,Medina,Damascus,Baghdad,Amman,Kuwait City,Manama,Doha,Abu Dhabi,Muscat,Sanaa,Aden,Alexandria,Tripoli,Tunis,Algiers,Casablanca,Rabat,Marrakech,Fez,Khartoum,Mogadishu,Nairobi"
+  "b": "Al-Qāhirah,Ar-Riyāḍ,Jiddah,Makkah,Al-Madīnah,Dimashq,Baghdād,'Ammān,Al-Kuwayt,Al-Manāmah,Ad-Dawhah,Abū Ẓabī,Masqaṭ,Ṣan'ā','Adan,Al-Iskandarīyah,Ṭarābulus,Tūnis,Al-Jazā'ir,Ad-Dār al-Bayḍā',Ar-Rabāṭ,Murrākush,Fās,Al-Khurṭūm,Maqadīshū,Nairobi"
 },
 {
     "name": "Sabah Malay",

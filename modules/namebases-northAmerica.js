@@ -6,27 +6,27 @@ window.northAmericaNameBases = [
 {
     "name": "Nahuatl",
   "i": 13,
-  "min": 4,
-  "max": 11,
-  "d": "lnrt",
+  "min": 5,
+  "max": 13,
+  "d": "lmtnxzc",
   "m": 0,
-  "b": "Tenochtitlan,Mexico City,Texcoco,Xochimilco,Tlaxcala,Cuernavaca,Azcapotzalco,Tlatelolco,Chalco,Nezahualcoyotl,Tepotzotlan,Huaxacac,Oaxaca,Tlachco,Taxco,Matixco,Yaotlan,Cuicatlan,Comitlan,Amatlan,Tonanytlan,Xolotlan,Otompan,Yopico,Zinacantlan,Tzinhuitzquilocan"
+  "b": "Tenochtitlan,Mexihco,Texcoco,Xochimilco,Tlaxcala,Cuernavaca,Azcapotzalco,Tlatelolco,Chalco,Tenayuca,Tepotzotlan,Huaxacac,Oaxaca,Tlachco,Taxco,Matixco,Yaotlan,Cuicatlan,Comitlan,Amatlan,Tonanytlan,Xolotlan,Otompan,Yopico,Zinacantlan,Teotihuacan"
 },
 {
     "name": "Inuit",
   "i": 46,
   "min": 4,
-  "max": 11,
-  "d": "lnrt",
+  "max": 15,
+  "d": "ntklrsmg",
   "m": 0,
-  "b": "Iqaluit,Kinngait,Arviat,Rankin Inlet,Baker Lake,Pond Inlet,Cape Dorset,Pangnirtung,Igloolik,Clyde River,Kimmirut,Cambridge Bay,Gjoa Haven,Repulse Bay,Chesterfield Inlet,Whale Cove,Naujaat,Sanikiluaq,Kugaaruk,Kugluktuk,Ulukhaktok,Paulatuk,Tuktoyaktuk,Inuvik,Aklavik"
+  "b": "Iqaluit,Kinngait,Arviat,Kangiqliniq,Qamani'tuaq,Mittimatalik,Pangnirtung,Igloolik,Clyde River,Kimmirut,Iqaluktuuttiaq,Uqsuqtuuq,Tikirarjuaq,Naujaat,Sanikiluaq,Kugaaruk,Kugluktuk,Ulukhaktok,Paulatuk,Tuktoyaktuk,Inuvik,Aklavik,Inukjuak,Puvirnituq,Salluit,Kangiqsujuaq,Kangirsuk,Kuujjuaq,Kuujjuarapik,Sachs Harbour"
 },
 {
     "name": "Canadian French",
   "i": 68,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "lnrm",
   "m": 0,
   "b": "Montreal,Quebec City,Trois-Rivieres,Sherbrooke,Gatineau,Saguenay,Longueuil,Levis,Saint-Jean-sur-Richelieu,Laval,Terrebonne,Repentigny,Dollard-des-Ormeaux,Brossard,Saint-Jerome,Blainville,Mirabel,Chateauguay,Drummondville,Saint-Hyacinthe,Joliette,Victoriaville,Rouyn-Noranda,Val-d'Or,Saint-Georges"
 },
@@ -35,16 +35,16 @@ window.northAmericaNameBases = [
   "i": 71,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "cltr",
   "m": 0,
-  "b": "Chipilo,Puebla,Segusino,Treviso,Belluno,Quero,Valdobbiadene,Feltre,Maser,San Gregorio Atzompa,Chipilo de Francisco Javier Mina,Veneto,Feltrino-Bellunese,Colonia Fernandez Leal,Casa de Italia,Salesian convent,St. Anne,St. Peter,St. Paul,St. Mary,St. Joseph,St. Francis,St. Anthony,St. Michael,St. John"
+  "b": "Chipilo,Puebla,San Gregorio Atzompa,Chipilo de Francisco Javier Mina,Colonia Fernandez Leal,Segusino,Treviso,Belluno,Quero,Valdobbiadene,Feltre,Maser,Conegliano,Vittorio Veneto,Pieve di Soligo,Mogliano Veneto,Preganziol,San Biagio di Callalta,Spresiano,Villa del Conte,Montebelluna,Castelfranco Veneto,Cittadella,Padova,Venezia,Verona,Rovigo"
 },
 {
     "name": "New England French",
   "i": 72,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "lnrm",
   "m": 0,
   "b": "Lewiston,Madawaska,Fort Kent,Van Buren,St. Agatha,Grand Isle,Hamlin,Frenchville,New Canada,Eagle Lake,St. Francis,Wallagrass,Cyr Plantation,Dennistown Plantation,St. John Plantation,Allagash,St. Froid,St. Pamphile,Perth-Andover,Plaster Rock,Grand Falls,Edmundston,Woodstock,Grand-Sault,St. Leonard,St. Andre"
 },
@@ -53,7 +53,7 @@ window.northAmericaNameBases = [
   "i": 73,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "lnrm",
   "m": 0,
   "b": "Placentia,Plaisance,St. Pierre,Miquelon,Port au Port,Cape St. George,Black Duck Brook,Winterhouse,Mainland,La Grand'Terre,Degras,Ruisseau Rouge,Red Brook,L'Anse-a-Canards,Lourdes,Stephenville,Codroy Island,St. Georges,Ferryland,Grand Le Pierre,Bay l'Argent,Beau Bois,Petite Forte,La Scie,Trepassey,St. Lunaire,Bréhat,Quirpon"
 },
@@ -64,14 +64,14 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Oklahoma City,Tulsa,Lawton,Duncan,Wichita Falls,Ardmore,Durant,Chickasha,Anadarko,Clinton,McAlester,Seminole,Muskogee,Okmulgee,Eufaula,Wewoka,Holdenville,Sasakwa,Redbird,Weleetka,Clearview,Bowlegs,Earlsboro,Wetumka,Dewar,Calvin,Indianola,Spaulding,Weleetka"
+  "b": "Oklahoma City,Tulsa,Lawton,Duncan,Wichita Falls,Ardmore,Durant,Chickasha,Anadarko,Clinton,McAlester,Seminole,Muskogee,Okmulgee,Eufaula,Wewoka,Holdenville,Sasakwa,Redbird,Weleetka,Clearview,Bowlegs,Earlsboro,Wetumka,Dewar,Calvin,Indianola,Spaulding"
 },
 {
     "name": "Awakatek",
   "i": 75,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "kpt",
   "m": 0,
   "b": "Aguacatán,Huehuetenango,Chalchitán,San Miguel Acatán,San Rafael La Independencia,Nentón,San Sebastián Coatán,San Mateo Ixtatán,San Juan Ixcoy,Santa Cruz Barillas,Cuilco,Ystapalapán,San Ramón,Ayutla,Tres Cruces,Puebla,Campeche,Champotón,Candelaria,La Libertad,El Quetzal,San Cristóbal Verapaz,Tactic,Cobán,Santo Tomás,Panzós,Purulhá"
 },
@@ -80,7 +80,7 @@ window.northAmericaNameBases = [
   "i": 82,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "lnrm",
   "m": 0,
   "b": "Ottawa,Orléans,Sudbury,Thunder Bay,Timmins,North Bay,Hamilton,Windsor,Kingston,London,Kitchener,Guelph,Barrie,Pembroke,Hawkesbury,Plantagenet,Casselman,Embrun,Rockland,Cornwall,Alexandria,Vankleek Hill,Clarence-Rockland,Russell,Glengarry,Prescott"
 },
@@ -89,18 +89,18 @@ window.northAmericaNameBases = [
   "i": 84,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "lnrm",
   "m": 0,
-  "b": "Frenchville,Clearfield,Philipsburg,Altoona,State College,Williamsport,Erie,Pittsburgh,Harrisburg,Scranton,Wilkes-Barre,Allentown,Bethlehem,Reading,Lancaster,York,Mechanicsburg,Gettysburg,Carlisle,Doylestown,Bethlehem,Easton,Stroudsburg,Jim Thorpe,Bethlehem,Easton,Stroudsburg"
+  "b": "Frenchville,Clearfield,Philipsburg,Altoona,State College,Williamsport,Erie,Pittsburgh,Harrisburg,Scranton,Wilkes-Barre,Allentown,Bethlehem,Reading,Lancaster,York,Mechanicsburg,Gettysburg,Carlisle,Doylestown,Easton,Stroudsburg,Jim Thorpe"
 },
 {
     "name": "Louisiana French",
   "i": 86,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "lnrm",
   "m": 0,
-  "b": "New Orleans,Lafayette,Baton Rouge,Shreveport,Lake Charles,Houma,Thibodaux,Opelousas,Crowley,Eunice,Morgan City,Natchitoches,Alexandria,Monroe,Bossier City,Ruston,Ville Platte,Marksville,Breaux Bridge,Gonzales,Donaldsonville,Plaquemine,Thibodaux,Lutcher,St. Martinville,Franklin"
+  "b": "New Orleans,Lafayette,Baton Rouge,Shreveport,Lake Charles,Houma,Thibodaux,Opelousas,Crowley,Eunice,Morgan City,Natchitoches,Alexandria,Monroe,Bossier City,Ruston,Ville Platte,Marksville,Breaux Bridge,Gonzales,Donaldsonville,Plaquemine,Lutcher,St. Martinville,Franklin"
 },
 {
     "name": "Chuj",
