@@ -115,9 +115,9 @@ window.europeNameBases = [
   "i": 21,
   "min": 4,
   "max": 11,
-  "d": "lnrt",
+  "d": "nldtsrk",
   "m": 0,
-  "b": "Dublin,Cork,Galway,Limerick,Waterford,Derry,Belfast,Armagh,Killarney,Tralee,Sligo,Wexford,Kilkenny,Ennis,Dundalk,Navan,Naas,Arklow,Bray,Drogheda,Newry,Omagh,Letterkenny,Cavan,Monaghan,Longford,Athlone"
+  "b": "Átha Cliath,Corcaigh,Gaillimh,Luimneach,Port Láirge,Doire,Béal Feirste,Ard Mhacha,Cill Áirne,Trá Lí,Sligeach,Loch Garman,Cill Chainnigh,Inis,Dún Dealgan,An Uaimh,Nás na Rí,An tInse,Bré,Droichead Átha,Iúr Cinn Trá,An Eachrois,Leitir Ceanainn,An Cabhán,Muineachán,An Longfort,Baile Átha Luain"
 },
 {
     "name": "Lechitic",
