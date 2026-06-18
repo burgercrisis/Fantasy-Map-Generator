@@ -148,7 +148,7 @@ window.europeNameBases = [
 },
 {
   "name": "Slovak",
-  "i": 20001,
+  "i": 38,
   "min": 4,
   "max": 11,
   "d": "",
