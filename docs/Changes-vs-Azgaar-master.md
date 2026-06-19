@@ -86,13 +86,7 @@ Behavioral impact vs upstream:
 - More **language diversity** and finer mapping between cultures/races and name sets.
 - Ability to define **synthetic mixed languages** for worlds that don’t map cleanly to any single real‑world language.
 
-- Mixer objective tuning (helper tooling): `tools/mixer-core/compare-mixer-nextgen-to-app.js` includes a set of experimental syllable-linguistic mixer variants (v17–v19) focused on improving realism metrics (seed-corpus trigram `bpc/ppl/js`) while preserving novelty (low `copy`). v20 was attempted and then removed; v19 is the current best-performing / stable cap.
-
-  App test wiring (non-default): `modules/names-mixer.js` supports opting into the v19 mixed-name generator via `?mixer=v19` (or `localStorage.fmg-mixer-version = "v19"`). Defaults remain unchanged unless the override is set.
-
-  Verified snapshot (seed=420, base=1-20, count=50):
-
-  `syllLing_v19_realismObjective_lowPpl_lowJs: bpc=3.509 ppl=11.39 js=0.1671 oov=0.00% copy=0/50 (0.0%)`
+- Mixer objective tuning (helper tooling): `tools/mixer-core/compare-language-generators.js` is used to evaluate and compare different mixer generation approaches. `modules/names-mixer.js` supports opting into the v19 mixed-name generator via `?mixer=v19` (or `localStorage.fmg-mixer-version = "v19"`). Defaults remain unchanged unless the override is set.
 
 ---
 
@@ -173,28 +167,44 @@ These changes are mostly **additive wiring** for new systems; core map editing U
 A large set of maintenance scripts under `tools/` has been added or expanded. Highlights include:
 
 - **Language family & mapping maintenance:**
-  - `add-african-languages.js`, `add-trans-new-guinea-mixer.js`, `update-*.js` for specific families (Afroasiatic, Austroasiatic, Austronesian, Dravidian, Indo‑Aryan, Kartvelian, Niger‑Congo, Romance, Turkic, Uralic, etc.).
-  - `fill-all-missing-mixes.js`, `fill-family-mixes.js`, `fill-mongolic-mixes.js`, `fill-sino-tibetan-mixes.js`, etc., to auto‑populate language mixer entries.
+  - `tools/mixer-catalog/add-lexifier.js` — auto-populate language mixer entries.
+  - `tools/mixer-catalog/fill-family-mixes.js` — fill missing family-level mixes.
+  - `tools/mixer-meta/_meta-fill-missing-mixes.js` — meta-level missing mix filler.
+  - `tools/mixer-diagnostics/retune-african-mappings.js` — retune African language mappings.
+  - `tools/mixer-diagnostics/restore-lost-language-mappings.js` — restore lost mappings.
+  - `tools/mixer-core/normalize-language-names.js` — normalize language name formatting.
 
 - **Quality & coverage reports:**
-  - `check-language-mixer-coverage.js`, `check-special-families.js`.
-  - `report-language-mixer-duplicates.js`, `report-language-mixer-name-counts.js`, `report-namebase-duplicates.js`.
-  - `report-race-language-coverage.js`, `report-per-race-language-coverage.js`, and `report-race-language-palettes.js` to compare race profiles with language availability and palette breadth.
+  - `tools/mixer-core/check-mixer-health.js` — unified health checker (coverage, failures, duplicates, base clusters, family drift). Exposed via `pnpm run mixer:health` (full) and `pnpm run mixer:coverage` (quick).
+  - `tools/mixer-core/check-language-mixer-guardrails.js` — structural guardrails. Exposed via `pnpm run mixer:guardrails`.
+  - `tools/mixer-diagnostics/check-special-families.js` — validate special family mappings.
+  - `tools/mixer-diagnostics/report-language-mixer-duplicates.js` — find duplicate mixer entries.
+  - `tools/mixer-core/report-language-mixer-name-counts.js` — report name counts per base.
+  - `tools/mixer-namebases/report-namebase-duplicates.js` — find duplicate namebase entries.
+  - `tools/mixer-races/report-race-language-coverage.js` — race ↔ language coverage analysis. Exposed via `pnpm run mixer:race-coverage`.
+  - `tools/mixer-races/list-race-languages.js` — list catalog languages per race.
 
 - **Mixer tooling & orchestrators:**
-  - `generate-language-mixer.js` and `run-language-mixer-suite.js` to build/import/update language mixer data and run a full maintenance pipeline.
-  - `run-language-mixer-health.js` as a **read‑only diagnostics orchestrator** (family drift, coverage, mapping failures, duplicate languages, base clusters). Exposed via the `mixer:health` npm script.
-  - `dedupe-namebase-duplicates.js` and `fix-language-mixer-mappings.js` to clean and normalize data.
+  - `tools/mixer-core/generate-language-mixer.js` — build/import/update language mixer data. Exposed via `pnpm run generate:language-mixer`.
+  - `tools/mixer-core/run-language-mixer-suite.js` — full maintenance pipeline.
+  - `tools/mixer-core/diff-language-families.js` — diff family assignments. Exposed via `pnpm run diff:families`.
+  - `tools/mixer-core/apply-mixer-deltas.js` — apply delta JSON files to regenerate artifacts. Exposed via `pnpm run mixer:apply-deltas`.
+  - `tools/mixer-namebases/dedupe-namebase-duplicates.js` — deduplicate namebase entries.
+  - `tools/fixes/fix-language-mixer-mappings.js` — clean and normalize mixer mappings.
+  - `tools/mixer-core/dedupe-language-mixer-map.js` — deduplicate mixer map entries.
+  - `tools/mixer-diagnostics/clean-language-mixer-map.js` — clean mixer map data.
 
 - **Multi-agent coordination helpers (new vs upstream):**
-  - `tools/mixer-diagnostics/no-uniq-base-claim.js` (writes/updates `tools/mixer-diagnostics/_no_uniq_base_claims.json` under a lock)
-  - `tools/mixer-diagnostics/decluster-claim.js` (writes/updates `tools/mixer-diagnostics/_decluster_claims.json` under a lock)
-  - Workflows under `.windsurf/workflows/`, notably:
-    - `no-unique-base2.md` (verification + handoff checklist)
-    - `single-integrator-lane.md` (artifact regeneration discipline)
+  - `tools/mixer-diagnostics/create-no-uniq-base-claim.js` — writes claim entries for uniqueness debt tracking.
+  - `tools/mixer-diagnostics/decluster-claim.js` — writes decluster claims under a lock.
+  - `tools/mixer-diagnostics/find-no-uniq-base-candidates.js` — find candidates lacking unique bases.
+  - `tools/mixer-diagnostics/list-no-uniq-base-candidates.js` — list those candidates.
+  - `tools/mixer-diagnostics/suggest-unique-base-sets.js` — suggest base set improvements.
+  - `tools/mixer-diagnostics/enhance-language-uniqueness.js` — enhance uniqueness across mappings.
 
 - **Race tooling & orchestrators:**
-  - `run-race-language-suite.js` to run `check-race-language-profiles.js`, `report-per-race-language-coverage.js`, `report-race-language-coverage.js`, and `report-race-language-palettes.js` in one go. Exposed via the `mixer:race-suite` npm script.
+  - `tools/mixer-races/run-race-language-suite.js` — runs `check-race-language-profiles.js`, `list-race-languages.js`, and `report-race-language-coverage.js` in one go. Exposed via `pnpm run mixer:race-suite`.
+  - `tools/mixer-races/check-race-language-profiles.js` — validate raceLanguageProfiles invariants.
 
 - **Recommended QA cadence (this fork vs upstream):**
   - Run `pnpm run mixer:health` **after each substantial mixer edit or family batch** (e.g. a Romance or Uralic pass), and at least **once per mixer‑editing session** before committing.
