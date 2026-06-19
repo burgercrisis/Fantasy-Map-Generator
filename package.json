@@ -11,18 +11,17 @@
     "generate:language-mixer": "node tools/mixer-core/generate-language-mixer.js",
     "diff:families": "node tools/mixer-core/diff-language-families.js",
     "mixer:check-and-generate": "node tools/mixer-core/diff-language-families.js && node tools/mixer-core/generate-language-mixer.js",
-    "mixer:coverage": "node tools/mixer-core/check-language-mixer-coverage.js",
+    "mixer:coverage": "node tools/mixer-core/check-mixer-health.js --quick",
     "mixer:lexifier-auto": "node tools/mixer-catalog/add-lexifier.js",
-    "mixer:qa": "node tools/mixer-core/diff-language-families.js && node tools/mixer-core/check-language-mixer-coverage.js",
+    "mixer:qa": "node tools/mixer-core/diff-language-families.js && node tools/mixer-core/check-mixer-health.js --quick",
     "mixer:full": "node tools/mixer-catalog/add-lexifier.js && node tools/mixer-core/diff-language-families.js && node tools/mixer-core/generate-language-mixer.js",
     "mixer:full-with-normalize": "node tools/mixer-catalog/add-lexifier.js && node tools/mixer-core/normalize-language-names.js && node tools/mixer-core/diff-language-families.js && node tools/mixer-core/generate-language-mixer.js",
     "mixer:namedups": "node tools/mixer-diagnostics/check-language-mixer-name-duplicates.js",
-    "mixer:failures": "node tools/mixer-core/check-language-mixer-failures.js",
-    "mixer:health": "node tools/mixer-core/run-language-mixer-health.js",
-    "mixer:doctor": "node tools/mixer-core/mixer-doctor.js",
+    "mixer:failures": "node tools/mixer-core/check-mixer-health.js --no-family-diff --no-coverage --no-name-dups --no-fuzzy-dups --no-base-clusters",
+    "mixer:health": "node tools/mixer-core/check-mixer-health.js --full",
+    "mixer:doctor": "node tools/mixer-core/check-mixer-health.js --full --strict",
     "mixer:integration-table": "node tools/mixer-core/generate-language-integration-table.js",
     "mixer:race-coverage": "node tools/mixer-races/report-race-language-coverage.js",
-    "mixer:race-per-coverage": "node tools/mixer-races/report-per-race-language-coverage.js",
     "mixer:race-suite": "node tools/mixer-races/run-race-language-suite.js",
     "mixer:clean-map": "node tools/mixer-diagnostics/clean-language-mixer-map.js",
     "mixer:normalize-names": "node tools/mixer-core/normalize-language-names.js",
@@ -34,10 +33,12 @@
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage",
     "test:normalize": "jest tools/mixer-core/normalize-language-names.test.js",
-    "test:placenames": "jest --config tools/placename-replacement/jest.config.js"
+    "test:placenames": "jest --config tools/placename-replacement/jest.config.js",
+    "dev": "node tools/dev-server.js"
   },
   "devDependencies": {
     "fast-check": "^4.5.2",
+    "http-server": "^14.1.1",
     "jest": "^30.2.0",
     "puppeteer": "^24.34.0"
   }
