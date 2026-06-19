@@ -24,8 +24,9 @@ export function open() {
 
 function insertEditorHtml() {
   const editorHtml = /* html */ `<div id="culturesEditor" class="dialog stable">
-    <div id="culturesHeader" class="header" style="grid-template-columns: 10em 7em 9em 4em 8em 5em 7em 8em">
+    <div id="culturesHeader" class="header" style="grid-template-columns: 10em 5em 7em 9em 4em 8em 5em 7em 8em">
       <div data-tip="Click to sort by culture name" class="sortable alphabetically" data-sortby="name">Culture&nbsp;</div>
+      <div data-tip="Click to sort by race" class="sortable alphabetically" data-sortby="race">Race&nbsp;</div>
       <div data-tip="Click to sort by type" class="sortable alphabetically" data-sortby="type">Type&nbsp;</div>
       <div data-tip="Click to sort by culture namesbase" class="sortable" data-sortby="base">Namesbase&nbsp;</div>
       <div data-tip="Click to sort by culture cells count" class="sortable hide" data-sortby="cells">Cells&nbsp;</div>
@@ -149,6 +150,7 @@ function culturesEditorAddLines() {
           data-area="${area}"
           data-population="${population}"
           data-base="${c.base}"
+          data-race=""
           data-type=""
           data-expansionism=""
           data-emblems="${c.shield}"
@@ -156,6 +158,7 @@ function culturesEditorAddLines() {
           <svg width="11" height="11" class="placeholder"></svg>
           <input data-tip="Neutral culture name. Click and type to change" class="cultureName italic" style="width: 7em"
             value="${c.name}" autocorrect="off" spellcheck="false" />
+          <select class="cultureRace placeholder">${getRaceOptions("")}</select>
           <span class="icon-cw placeholder"></span>
           <select class="cultureType placeholder">${getTypeOptions(c.type)}</select>
           <span data-tip="Click to re-generate names for burgs with this culture assigned" class="icon-arrows-cw hide"></span>
@@ -184,6 +187,7 @@ function culturesEditorAddLines() {
         data-area="${area}"
         data-population="${population}"
         data-base="${c.base}"
+        data-race="${getRaceName(c)}"
         data-type="${c.type}"
         data-expansionism="${c.expansionism}"
         data-emblems="${c.shield}"
@@ -191,6 +195,8 @@ function culturesEditorAddLines() {
         <fill-box fill="${c.color}"></fill-box>
         <input data-tip="Culture name. Click and type to change" class="cultureName" style="width: 7em"
           value="${c.name}" autocorrect="off" spellcheck="false" />
+        <select data-tip="Culture race. Defines language mixer weights. Click to change"
+          class="cultureRace">${getRaceOptions(getRaceName(c))}</select>
         <span data-tip="Regenerate culture name" class="icon-cw hiddenIcon" style="visibility: hidden"></span>
         <select data-tip="Culture type. Defines growth model. Click to change"
           class="cultureType">${getTypeOptions(c.type)}</select>
@@ -240,6 +246,7 @@ function culturesEditorAddLines() {
   $body.querySelectorAll("div > span.icon-cw").forEach($el => $el.on("click", regenerateCultureName));
   $body.querySelectorAll("div > input.cultureExpan").forEach($el => $el.on("change", cultureChangeExpansionism));
   $body.querySelectorAll("div > select.cultureType").forEach($el => $el.on("change", cultureChangeType));
+  $body.querySelectorAll("div > select.cultureRace").forEach($el => $el.on("change", cultureChangeRace));
   $body.querySelectorAll("div > select.cultureBase").forEach($el => $el.on("change", cultureChangeBase));
   $body.querySelectorAll("div > select.cultureEmblems").forEach($el => $el.on("change", cultureChangeEmblemsShape));
   $body.querySelectorAll("div > div.culturePopulation").forEach($el => $el.on("click", changePopulation));
@@ -278,8 +285,30 @@ function getBaseOptions(base) {
   return options;
 }
 
+function getRaceName(culture) {
+  if (!culture || !culture.i) return "";
+  if (typeof culture.race === "string" && culture.race) return culture.race;
+  if (typeof getRaceNameForCulture === "function") {
+    const raceName = getRaceNameForCulture(culture);
+    if (raceName && raceName !== "None") return raceName;
+  }
+  if (culture.race && pack && Array.isArray(pack.races)) {
+    const race = pack.races[culture.race];
+    if (race && race.name && race.name !== "None") return race.name;
+  }
+  return "Human";
+}
+
+function getRaceOptions(selected) {
+  const allRaces = Array.isArray(window.fantasyRaceNames) ? window.fantasyRaceNames : [];
+  let options = "";
+  for (const race of allRaces) {
+    options += `<option ${race === selected ? "selected" : ""} value="${race}">${race}</option>`;
+  }
+  return options;
+}
+
 function getShapeOptions(selectShape, selected) {
-  if (!selectShape) return "";
 
   const shapes = Object.keys(COA.shields.types)
     .map(type => Object.keys(COA.shields[type]))
@@ -372,6 +401,27 @@ function cultureChangeExpansionism() {
   this.parentNode.dataset.expansionism = this.value;
   pack.cultures[culture].expansionism = +this.value;
   recalculateCultures();
+}
+
+function cultureChangeRace() {
+  const cultureId = +this.parentNode.dataset.id;
+  const raceName = this.value;
+  this.parentNode.dataset.race = raceName;
+  pack.cultures[cultureId].race = raceName;
+  if (raceName && raceName !== "Human") {
+    if (typeof getRaceLanguageIsoWeights === "function") {
+      const weights = getRaceLanguageIsoWeights(raceName);
+      if (weights && typeof ensureCultureMixerBaseIndex === "function") {
+        const baseIndex = ensureCultureMixerBaseIndex(cultureId);
+        if (typeof baseIndex === "number") {
+          pack.cultures[cultureId].base = baseIndex;
+          this.parentNode.dataset.base = baseIndex;
+          const baseSelect = this.parentNode.querySelector(".cultureBase");
+          if (baseSelect) baseSelect.innerHTML = getBaseOptions(baseIndex);
+        }
+      }
+    }
+  }
 }
 
 function cultureChangeType() {
