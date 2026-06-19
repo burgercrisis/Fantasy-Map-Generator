@@ -142,11 +142,77 @@ window.Cultures = (function () {
       };
     };
 
+    // Read the language mixer setting from the UI
+    const getLanguageMixerSetting = () => {
+      const el = document.getElementById("languageMixer");
+      return el ? el.value : "on";
+    };
+
+    // Read the current culture set from the UI
+    const getCultureSet = () => {
+      const el = document.getElementById("culturesSet");
+      return el ? el.value || "world" : "world";
+    };
+
+    // Filter the language catalog based on the culture set preset configuration
+    const filterCatalogByCultureSet = (catalog, cultureSet) => {
+      const config = window.languageMixerCultureSets && window.languageMixerCultureSets[cultureSet];
+      if (!config) return catalog.filter(l => l && l.iso && !(l.tags && l.tags.includes("family")));
+
+      const { categories, families, regions } = config;
+      const hasFilter = (categories && categories.length) || (families && families.length) || (regions && regions.length);
+
+      // No filters = full catalog (world, random)
+      if (!hasFilter) return catalog.filter(l => l && l.iso && !(l.tags && l.tags.includes("family")));
+
+      const catSet = new Set((categories || []).map(c => c.toLowerCase()));
+      const famSet = new Set((families || []).map(f => f.toLowerCase()));
+      const regSet = new Set((regions || []).map(r => r.toLowerCase()));
+
+      return catalog.filter(l => {
+        if (!l || !l.iso) return false;
+        if (l.tags && l.tags.includes("family")) return false;
+
+        const cat = (l.category || "").toLowerCase();
+        const fam = (l.family || "").toLowerCase();
+        const reg = (l.region || "").toLowerCase();
+
+        if (catSet.size && catSet.has(cat)) return true;
+        if (famSet.size && famSet.has(fam)) return true;
+        if (regSet.size && regSet.has(reg)) return true;
+        return false;
+      });
+    };
+
     const buildCultureMixerIsoWeights = cultureId => {
       const catalog = Array.isArray(window.languageMixerCatalog) ? window.languageMixerCatalog : [];
       if (!catalog.length) return null;
 
+      const cultureSet = getCultureSet();
+      const mixerSetting = getLanguageMixerSetting();
+
+      // The "random" culture set has its own independent random namebase selection
+      // and should not use the language mixer
+      if (cultureSet === "random") return null;
+
+      // Off = don't use mixer at all
+      if (mixerSetting === "off") return null;
+
+      // Random = 50/50 chance per map
+      if (mixerSetting === "random") {
+        const seedStr = typeof seed === "string" ? seed : String(seed || "");
+        let h = 2166136261;
+        const s = `mixer-random|${seedStr}`;
+        for (let i = 0; i < s.length; i++) {
+          h ^= s.charCodeAt(i);
+          h = Math.imul(h, 16777619);
+        }
+        if (((h >>> 0) % 2) === 0) return null;
+      }
+
       const culture = pack.cultures && pack.cultures[cultureId];
+
+      // If culture has a race, use race-based weights (existing behavior)
       if (culture && typeof getRaceLanguageIsoWeights === "function") {
         const raceName = typeof getRaceNameForCulture === "function" ? getRaceNameForCulture(culture) : "";
         if (raceName) {
@@ -155,15 +221,20 @@ window.Cultures = (function () {
         }
       }
 
-      const languages = catalog.filter(l => l && l.iso && !(l.tags && l.tags.includes("family")));
-      if (!languages.length) return null;
+      // Filter catalog by culture set preset
+      let pool = filterCatalogByCultureSet(catalog, cultureSet);
+      if (!pool.length) {
+        // Fallback: if filter produced nothing, use full catalog
+        pool = catalog.filter(l => l && l.iso && !(l.tags && l.tags.includes("family")));
+      }
+      if (!pool.length) return null;
 
       const rng = makeRng(getCultureMixerSeed(cultureId));
       const isoWeights = {};
 
       const picks = 3 + Math.floor(rng() * 4); // 3..6
       for (let i = 0; i < picks; i++) {
-        const lang = languages[Math.floor(rng() * languages.length)];
+        const lang = pool[Math.floor(rng() * pool.length)];
         if (!lang || !lang.iso) continue;
         isoWeights[lang.iso] = (isoWeights[lang.iso] || 0) + 1;
       }
@@ -384,6 +455,10 @@ window.Cultures = (function () {
     // Assign mixer bases to all cultures (except wildlands at index 0)
     for (const c of (pack.cultures || [])) {
       if (!c || c.i === 0 || c.removed) continue;
+      if (typeof getRaceNameForCulture === "function") {
+        const raceName = getRaceNameForCulture(c);
+        if (raceName) c.race = raceName;
+      }
       const baseIndex = ensureCultureMixerBaseIndex(c.i);
       if (typeof baseIndex === "number") c.base = baseIndex;
     }
