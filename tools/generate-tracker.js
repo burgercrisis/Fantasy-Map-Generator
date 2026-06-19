@@ -2,7 +2,13 @@
 const fs = require("node:fs");
 const path = require("node:path");
 
-const data = require("../docs/plans/namebase-research/data.json");
+const dataPath = path.join(__dirname, "../docs/plans/namebase-research/data.json");
+if (!fs.existsSync(dataPath)) {
+  console.error("ERROR: data file not found: " + dataPath);
+  console.error("Run tools/generate-quality-tracker.js first to generate it.");
+  process.exit(1);
+}
+const data = require(dataPath);
 const outDir = path.join(__dirname, "../docs/plans/namebase-research");
 
 function langEntry(item) {

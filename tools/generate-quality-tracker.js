@@ -14,8 +14,11 @@ const NAMEBASE_FILES = [
   "modules/namebases-dedicated.js"
 ];
 
-const CATALOG_PATH = "config/language-mixes.json";
-const OUTPUT_DIR = "docs/plans/namebase-research";
+const path = require("path");
+const fs = require("fs");
+const ROOT = path.resolve(__dirname, "..");
+const CATALOG_PATH = path.join(ROOT, "config/language-mixes.json");
+const OUTPUT_DIR = path.join(ROOT, "docs/plans/namebase-research");
 const MIN_SEEDS_SMALL = 5;
 const MIN_SEEDS_IDEAL = 20;
 
@@ -179,7 +182,7 @@ function extractEntries(content, filename) {
 const allEntries = [];
 for (const file of NAMEBASE_FILES) {
   try {
-    const content = fs.readFileSync(file, "utf8");
+    const content = fs.readFileSync(path.join(ROOT, file), "utf8");
     const entries = extractEntries(content, file.replace("modules/", ""));
     allEntries.push(...entries);
     console.log(file + ": " + entries.length + " entries");
@@ -230,6 +233,7 @@ const enriched = allEntries.map(entry => {
   };
 });
 
+fs.mkdirSync(OUTPUT_DIR, {recursive: true});
 fs.writeFileSync(path.join(OUTPUT_DIR, "data.json"), JSON.stringify(enriched, null, 2), "utf8");
 console.log("Written data.json");
 
