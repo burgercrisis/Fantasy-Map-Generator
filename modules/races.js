@@ -1,63 +1,63 @@
 "use strict";
 
 const fantasyRaceBases = {
-  Human: [32],//Fantasy race static bases commented out instead of deleted to preserve history through/after systemic migrations
-  // Elf: [33],
-  // "Dark Elf": [34],
-  // Dwarf: [35],
-  // Goblin: [36],
-  // Orc: [37],
-  // Giant: [38],
-  // Draconic: [39],
-  // Arachnid: [40],
-  // Serpent: [41],
-  // Halfling: [43],
-  // Gnome: [44],
-  // "Half-Elf": [45],
-  // "Half-Orc": [46],
-  // Tiefling: [47],
-  // Aasimar: [48],
-  // Hobgoblin: [49],
-  // Goliath: [50],
-  // Lizardfolk: [51],
-  // Shifter: [52],
-  // Gnoll: [53],
-  // Bugbear: [54],
-  // Tabaxi: [55],
-  // Warforged: [56],
-  // Kenku: [57],
-  // Aarakocra: [58],
-  // Dragonborn: [59],
-  // Triton: [60],
-  // "Yuan-ti": [61],
-  // Firbolg: [62],
-  // Gith: [63],
-  // Genasi: [64],
-  // Changeling: [65],
-  // Satyr: [66],
-  // Minotaur: [67],
-  // Kalashtar: [68],
-  // Kobold: [69],
-  // Duergar: [70],
-  // Dhampir: [71],
-  // Reborn: [72],
-  // "Shadar-kai": [73],
-  // Hexblood: [74],
-  // Centaur: [75],
-  // Leonin: [76],
-  // Loxodon: [77],
-  // Harengon: [78],
-  // Tortle: [79],
-  // Giff: [80],
-  // Owlin: [81],
-  // "Thri-Kreen": [82],
-  // Oni: [83],
-  // Kitsune: [84],
-  // Deepkin: [85],
-  // Starspawn: [86],
-  // Scions: [274],
-  // Seafarer: [275],
-  // AnyLanguage: [276]
+  Human: [32, 100000],
+  Elf: [33, 100001],
+  "Dark Elf": [34, 100002],
+  Dwarf: [35, 100003],
+  Goblin: [36, 100004],
+  Orc: [37, 100005],
+  Giant: [38, 100006],
+  Draconic: [39, 100007],
+  Arachnid: [40, 100008],
+  Serpent: [41, 100009],
+  Halfling: [43],
+  Gnome: [44],
+  "Half-Elf": [45],
+  "Half-Orc": [46],
+  Tiefling: [47],
+  Aasimar: [48],
+  Hobgoblin: [49],
+  Goliath: [50],
+  Lizardfolk: [51],
+  Shifter: [52],
+  Gnoll: [53],
+  Bugbear: [54],
+  Tabaxi: [55],
+  Warforged: [56],
+  Kenku: [57],
+  Aarakocra: [58],
+  Dragonborn: [59],
+  Triton: [60],
+  "Yuan-ti": [61],
+  Firbolg: [62],
+  Gith: [63],
+  Genasi: [64],
+  Changeling: [65],
+  Satyr: [66],
+  Minotaur: [67],
+  Kalashtar: [68],
+  Kobold: [69],
+  Duergar: [70],
+  Dhampir: [71],
+  Reborn: [72],
+  "Shadar-kai": [73],
+  Hexblood: [74],
+  Centaur: [75],
+  Leonin: [76],
+  Loxodon: [77],
+  Harengon: [78],
+  Tortle: [79],
+  Giff: [80],
+  Owlin: [81],
+  "Thri-Kreen": [82],
+  Oni: [83],
+  Kitsune: [84],
+  Deepkin: [85],
+  Starspawn: [86],
+  Scions: [274],
+  Seafarer: [275],
+  AnyLanguage: [276]
 };
 
 // Optional language mixer profiles per race. These define which real-world
@@ -734,13 +734,14 @@ function isBadRaceMixerDisplayName(displayName, raceName) {
   if (!displayName || typeof displayName !== "string") return false;
   if (!raceName) return false;
   const trimmed = displayName.trimEnd();
+  // Only flag the literal "Race X (Mixer)" pattern as bad
+  if (trimmed === `Race ${raceName} (Mixer)`) return true;
+  // Flag if it's just the race name in parens with nothing before
   const suffix = `(${raceName})`;
-  if (!trimmed.endsWith(suffix)) return false;
-  const prefix = trimmed.slice(0, trimmed.length - suffix.length).trim();
-  if (!prefix) return true;
-  if (prefix.length < 5) return true;
-  if (/\s/.test(prefix)) return true;
-  if (/english/i.test(prefix)) return true;
+  if (trimmed.endsWith(suffix)) {
+    const prefix = trimmed.slice(0, trimmed.length - suffix.length).trim();
+    if (!prefix) return true;
+  }
   return false;
 }
 
@@ -817,71 +818,75 @@ function buildRaceMixerLanguageDisplayName(raceName, isoWeights, options) {
   const max = 16;
   const dupl = "lnrt";
 
-  let v = chain[""],
-    cur = pick(v),
-    w = "";
-
-  for (let i = 0; i < 20; i++) {
-    if (cur === "") {
-      if (w.length < min) {
-        cur = "";
-        w = "";
-        v = chain[""];
-      } else break;
-    } else {
-      if (w.length + cur.length > max) {
-        if (w.length < min) w += cur;
-        break;
-      } else v = chain[last(cur)] || chain[""];
+  // Try up to 5 times to generate a good name
+  let bestName = "";
+  for (let attempt = 0; attempt < 5; attempt++) {
+    let v = chain[""], cur = pick(v), w = "";
+    for (let i = 0; i < 20; i++) {
+      if (cur === "") {
+        if (w.length < min) { cur = ""; w = ""; v = chain[""]; }
+        else break;
+      } else {
+        if (w.length + cur.length > max) { if (w.length < min) w += cur; break; }
+        else v = chain[last(cur)] || chain[""];
+      }
+      w += cur;
+      cur = pick(v);
     }
 
-    w += cur;
-    cur = pick(v);
+    const l = last(w);
+    if (l === "'" || l === " " || l === "-") w = w.slice(0, -1);
+
+    let name = [...w].reduce(function (r, c, i, d) {
+      if (c === d[i + 1] && !dupl.includes(c)) return r;
+      if (!r.length) return c.toUpperCase();
+      if (r.slice(-1) === "-" && c === " ") return r;
+      if (r.slice(-1) === " ") return r + c.toUpperCase();
+      if (r.slice(-1) === "-") return r + c.toUpperCase();
+      if (c === "a" && d[i + 1] === "e") return r;
+      if (i + 2 < d.length && c === d[i + 1] && c === d[i + 2]) return r;
+      return r + c;
+    }, "");
+
+    if (name.split(" ").some(part => part.length < 2)) {
+      name = name.split(" ").map((p, i) => (i ? p.toLowerCase() : p)).join("");
+    }
+
+    if (!name || name.length < 2) continue;
+
+    const prefix = String(name).trim();
+    if (prefix.length < 4) continue;
+    if (/english/i.test(prefix)) continue;
+    // Reject only if it's an exact match with a source language name
+    if (prefix.length < 6) {
+      const prefixLower = prefix.toLowerCase();
+      let matchesSource = false;
+      for (const src of sources) {
+        const sName = src && src.name ? String(src.name).trim() : "";
+        if (!sName) continue;
+        if (sName.toLowerCase() === prefixLower) { matchesSource = true; break; }
+      }
+      if (matchesSource) continue;
+    }
+
+    bestName = prefix;
+    break;
   }
 
-  const l = last(w);
-  if (l === "'" || l === " " || l === "-") w = w.slice(0, -1);
-
-  let name = [...w].reduce(function (r, c, i, d) {
-    if (c === d[i + 1] && !dupl.includes(c)) return r;
-    if (!r.length) return c.toUpperCase();
-    if (r.slice(-1) === "-" && c === " ") return r;
-    if (r.slice(-1) === " ") return r + c.toUpperCase();
-    if (r.slice(-1) === "-") return r + c.toUpperCase();
-    if (c === "a" && d[i + 1] === "e") return r;
-    if (i + 2 < d.length && c === d[i + 1] && c === d[i + 2]) return r;
-    return r + c;
-  }, "");
-
-  if (name.split(" ").some(part => part.length < 2)) {
-    name = name
-      .split(" ")
-      .map((p, i) => (i ? p.toLowerCase() : p))
-      .join("");
-  }
-
-  if (!name || name.length < 2) {
-    const fallback = sources[0] && sources[0].name ? sources[0].name : "";
-    name = fallback ? fallback.charAt(0).toUpperCase() + fallback.slice(1) : "";
-  }
-
-  if (!name || name.length < 2) return "";
-
-  const prefix = String(name || "").trim();
-  if (prefix.length < 5) return "";
-  if (/\s/.test(prefix)) return "";
-  if (/english/i.test(prefix)) return "";
-  if (prefix.length < 7) {
-    const prefixLower = prefix.toLowerCase();
-    for (const src of sources) {
-      const sName = src && src.name ? String(src.name).trim() : "";
-      if (!sName) continue;
-      const sLower = sName.toLowerCase();
-      if (sLower.startsWith(prefixLower) || prefixLower.startsWith(sLower)) return "";
+  if (!bestName) {
+    // Fallback: derive a name from the top source language
+    const topSource = sources[0];
+    if (topSource && topSource.name) {
+      const src = String(topSource.name).trim();
+      if (src.length >= 3) {
+        bestName = src.charAt(0).toUpperCase() + src.slice(1);
+      }
     }
   }
 
-  return `${prefix} (${raceName})`;
+  if (!bestName || bestName.length < 3) return "";
+
+  return `${bestName} (${raceName})`;
 }
 
 function hashStringToUint32(value) {
@@ -961,28 +966,7 @@ function ensureRaceMixerBaseIndex(raceName, options) {
 
       try {
         const name = typeof base.name === "string" ? base.name.trimEnd() : "";
-        if (name && name.endsWith(`(${raceName})`)) {
-          const prefixName = name.slice(0, name.lastIndexOf("(")).trim();
-          if (prefixName) {
-            for (let j = 0; j < nameBases.length; j++) {
-              if (j === existing) continue;
-              const other = nameBases[j];
-              if (!other || typeof other.name !== "string") continue;
-              if (other.name !== prefixName) continue;
-              if (typeof other.b === "string" && other.b === base.b) return true;
-            }
-          }
-        }
-      } catch (e) { }
-
-      try {
-        const classicBases = fantasyRaceBases[raceName];
-        if (Array.isArray(classicBases)) {
-          for (const baseIndex of classicBases) {
-            const classic = nameBases[baseIndex];
-            if (classic && typeof classic.b === "string" && classic.b === base.b) return true;
-          }
-        }
+        if (isBadRaceMixerDisplayName(name, raceName)) return true;
       } catch (e) { }
 
       return false;
@@ -1373,7 +1357,8 @@ function defineRaceExpansionism(name) {
 
 function getRaceNameForCulture(culture) {
   if (!culture || !culture.i || culture.removed) return null;
-  if (culture.race && pack && Array.isArray(pack.races)) {
+  if (typeof culture.race === "string" && culture.race !== "None" && culture.race !== "") return culture.race;
+  if (culture.race != null && typeof culture.race === "number" && pack && Array.isArray(pack.races)) {
     const race = pack.races[culture.race];
     const raceName = race && typeof race.name === "string" ? race.name : "";
     if (raceName && raceName !== "None") return raceName;
@@ -1426,10 +1411,6 @@ function getRaceNameForCulture(culture) {
 }
 
 function shouldEnableRacesForCurrentWorld() {
-  try {
-    if (typeof isFantasyCulturesSet === "function" && isFantasyCulturesSet()) return true;
-  } catch (e) { }
-
   if (pack && Array.isArray(pack.races)) {
     for (const race of pack.races) {
       if (!race || !race.i || !race.name) continue;
@@ -1942,3 +1923,6 @@ function assignRaces() {
     syncCultureBasesToDominantRace();
   } catch (e) { }
 }
+
+// Expose the canonical race list for UI consumers (e.g. cultures editor dropdown)
+window.fantasyRaceNames = Object.keys(fantasyRaceBases);

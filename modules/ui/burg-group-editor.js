@@ -2,6 +2,8 @@
 
 function editBurgGroups() {
   if (customization) return;
+  if (!options.burgs) options.burgs = {};
+  if (!options.burgs.groups) options.burgs.groups = Burgs && typeof Burgs.getDefaultGroups === "function" ? Burgs.getDefaultGroups() : [];
   addLines();
 
   $("#burgGroupsEditor").dialog({
@@ -158,7 +160,10 @@ function editBurgGroups() {
 
   function selectFeaturesLimitation(el) {
     const value = el.previousElementSibling.value;
-    const initial = value ? JSON.parse(value) : {};
+    let initial = {};
+    if (value) {
+      try { initial = JSON.parse(value); } catch (e) { ERROR && console.error("selectFeaturesLimitation: invalid JSON", e); }
+    }
 
     const features = [
       {name: "capital", icon: "icon-star"},
