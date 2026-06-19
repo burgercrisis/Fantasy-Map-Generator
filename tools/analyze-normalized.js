@@ -47,10 +47,10 @@ for (const r of mapRows) {
   if (!r.bases) continue;
   const entry = catalogByIso.get(r.iso);
   if (entry && entry.tags && entry.tags.includes("family")) continue;
-  
+
   const uniqueBases = r.bases.filter(b => baseUseCount[b] === 1);
   if (uniqueBases.length === 0) continue;
-  
+
   let uniqueCount = 0;
   const allSeeds = [];
   const sharedSeeds = [];
@@ -67,7 +67,7 @@ for (const r of mapRows) {
       }
     }
   }
-  
+
   if (uniqueCount < 10) {
     failures.push({
       iso: r.iso,

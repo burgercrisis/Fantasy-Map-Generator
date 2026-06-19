@@ -3,7 +3,7 @@ import re, sys, io, os
 from pathlib import Path
 if sys.stdout.encoding and sys.stdout.encoding.lower() != "utf-8":
     sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
-BASE = Path(r"E:\code\Fantasy-Map-Generator\modules")
+BASE = Path(__file__).resolve().parent.parent / "modules"
 VARMAP = {
     "namebases-africa.js":"africaNameBases",
     "namebases-asia.js":"asiaNameBases",

@@ -252,4 +252,6 @@ const DB = {
 
   // ---- Indonesia: Maluku ----
   kei_tanimbar: ["Tual","Yamdena","Saumlaki","Larat","Fordata","Kei Besar","Kei Kecil","Kur","Tanimbar","Selaru","Wetar","Moa","Lakor","Leti","Damer","Babar","Tual","Yamdena","Saumlaki","Larat","Fordata","Kei Besar","Kei Kecil","Kur","Tanimbar","Selaru","Wetar","Moa","Lakor","Leti","Damer","Babar"],
-  shwng: ["Halmahera","Ternate","Tidore","Bacan","Obi","Morotai","Kayoa","Makian","Patani","Weda","Gebe","Weda","Kau","Bulang","Patani Utara","Tobelo","Halmahera","Ternate","Tidore","Bacan","Obi","Morotai","Kayoa","Makian","Pat
+  maluku: ["Halmahera","Ternate","Tidore","Bacan","Obi","Morotai","Kayoa","Makian","Patani","Weda","Gebe","Weda","Kau","Bulang","Patani Utara","Tobelo","Halmahera","Ternate","Tidore","Bacan","Obi","Morotai","Kayoa","Makian","Patani","Weda","Gebe","Weda","Kau","Bulang","Patani Utara","Tobelo"]
+
+};

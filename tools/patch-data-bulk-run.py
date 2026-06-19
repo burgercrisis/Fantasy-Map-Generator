@@ -1,7 +1,13 @@
 import json
 from pathlib import Path
 
-DATA = Path(r"E:\code\Fantasy-Map-Generator\docs\plans\namebase-research\data.json")
+BASE = Path(__file__).resolve().parent.parent
+DATA = BASE / "docs" / "plans" / "namebase-research" / "data.json"
+
+if not DATA.exists():
+    print(f"ERROR: data file not found: {DATA}", file=sys.stderr)
+    sys.exit(1)
+
 raw = DATA.read_text()
 data = json.loads(raw)
 

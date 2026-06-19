@@ -6,7 +6,8 @@ from pathlib import Path
 if sys.stdout.encoding and sys.stdout.encoding.lower() != "utf-8":
     sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
 
-MODULES = Path(r"E:\code\Fantasy-Map-Generator\modules")
+BASE = Path(__file__).resolve().parent.parent
+MODULES = BASE / "modules"
 SENTINELS = ["Lima","Paris","London","Berlin","Tokyo","Delhi","Madrid","Moscow","Rome",
     "Chicago","Toronto","Vienna","Oslo","Stockholm","Prague","Warsaw","Budapest",
     "Reno","Las Vegas","Cardamom","Ho Chi Minh","Kuala Lumpur","Marseille","Lyon",

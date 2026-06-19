@@ -1,13 +1,20 @@
 #!/usr/bin/env python3
-"""Audit namebases using the canonical bills.jsonl exported by the working fixer."""
+"""Audit namebases using the canonical data.json exported by the working fixer."""
 import json, sys, io
+from pathlib import Path
+
 if sys.stdout.encoding and sys.stdout.encoding.lower() != "utf-8":
     sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
 
-FP = r"E:\code\Fantasy-Map-Generator\docs\plans\namebase-research\data.json"
+BASE = Path(__file__).resolve().parent.parent
+FP = BASE / "docs" / "plans" / "namebase-research" / "data.json"
+
+if not FP.exists():
+    print(f"ERROR: data file not found: {FP}", file=sys.stderr)
+    sys.exit(1)
 
 # Use a tolerant non-strict loader so the prepended "use strict"; and the comma
-# between entries on Windows (CRLF) don’t break things.
+# between entries on Windows (CRLF) don't break things.
 OPEN = '['
 CLOSE = ']'
 
@@ -21,6 +28,9 @@ try:
 except Exception as e:
     print(f"json.loads strict failed: {e}")
     items = None
+
+if items is None:
+    sys.exit(1)
 
 # Reliable sentinels that unambiguously indicate a non-place contamination
 SENTINELS = [

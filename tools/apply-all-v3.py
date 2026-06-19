@@ -1,13 +1,21 @@
-"""Regenerate namebases-*.js from data.json with CRLF line endings."""
+"""Regenerate namebases-*.js from data.json with CRLF line endings.
+
+Only applies defaults (min/max/d/m) to entries that are missing those fields
+entirely. Existing metadata from data.json is preserved.
+"""
 import json, os, sys, io
 from pathlib import Path
 
 if sys.stdout.encoding and sys.stdout.encoding.lower() != "utf-8":
     sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
 
-BASE = Path(r"E:\code\Fantasy-Map-Generator")
-DATA = BASE / "docs/plans/namebase-research/data.json"
+BASE = Path(__file__).resolve().parent.parent
+DATA = BASE / "docs" / "plans" / "namebase-research" / "data.json"
 OUT  = BASE / "modules"
+
+if not DATA.exists():
+    print(f"ERROR: data file not found: {DATA}", file=sys.stderr)
+    sys.exit(1)
 
 raw = DATA.read_text(encoding="utf-8", errors="replace")
 start = raw.index("[")
@@ -31,6 +39,8 @@ VARMAP = {
     "namebases-unknown.js":   "unknownNameBases",
 }
 
+DEFAULTS = {"min": 4, "max": 11, "d": "lnrt", "m": 0}
+
 def sort_key(e):
     i = e.get("i","")
     try: return (0, int(i), str(e.get("name","")))
@@ -50,16 +60,21 @@ for fname, arr in sorted(by_file.items()):
         if not tokens:
             continue
         places = ",".join(tokens)
+        # Preserve existing metadata; only fill in defaults when missing
+        min_val = e.get("min") if e.get("min") is not None else DEFAULTS["min"]
+        max_val = e.get("max") if e.get("max") is not None else DEFAULTS["max"]
+        d_val = e.get("d") if e.get("d") else DEFAULTS["d"]
+        m_val = e.get("m") if e.get("m") is not None else DEFAULTS["m"]
         block = (
             '{\n'
             '    "name": "' + nm + '",\n'
             '  "i": ' + str(bid) + ',\n'
-            '  "min": 4,\n'
-            '  "max": 11,\n'
-            '  "d": "lnrt",\n'
-            '  "m": 0,\n'
+            '  "min": ' + str(min_val) + ',\n'
+            '  "max": ' + str(max_val) + ',\n'
+            '  "d": "' + d_val + '",\n'
+            '  "m": ' + str(m_val) + ',\n'
             '  "b": "' + places + '"\n'
-            '},\n'
+            '},\n',
         )
         lines.append(block)
     lines.append("\n];\n")
