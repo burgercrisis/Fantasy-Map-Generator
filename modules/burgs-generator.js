@@ -207,7 +207,8 @@ window.Burgs = (() => {
     if (port) return "Naval";
 
     const haven = cells.haven[cellId];
-    if (haven !== undefined && features[cells.f[haven]].type === "lake") return "Lake";
+    const featureId = haven !== undefined ? cells.f[haven] : undefined;
+    if (featureId && features[featureId] && features[featureId].type === "lake") return "Lake";
 
     if (cells.h[cellId] > 60) return "Highland";
 
@@ -237,7 +238,13 @@ window.Burgs = (() => {
   function defineEmblem(burg) {
     burg.type = getType(burg.cell, burg.port);
 
-    const state = pack.states[burg.state];
+    const state = pack.states && pack.states[burg.state];
+    if (!state) {
+      ERROR && console.error("defineEmblem: no state for burg " + burg.i + " state=" + burg.state);
+      burg.coa = COA.generate({}, 0.25, null, burg.capital ? "Capital" : "City");
+      burg.coa.shield = "round";
+      return;
+    }
     const stateCOA = state.coa;
 
     let kinship = 0.25;
@@ -259,7 +266,7 @@ window.Burgs = (() => {
     burg.walls = Number(burg.capital || pop > 30 || (pop > 20 && P(0.75)) || (pop > 10 && P(0.5)) || P(0.1));
     burg.shanty = Number(pop > 60 || (pop > 40 && P(0.75)) || (pop > 20 && burg.walls && P(0.4)));
     const religion = pack.cells.religion[burg.cell];
-    const theocracy = pack.states[burg.state].form === "Theocracy";
+    const theocracy = pack.states && pack.states[burg.state] && pack.states[burg.state].form === "Theocracy";
     burg.temple = Number(
       (religion && theocracy && P(0.5)) || pop > 50 || (pop > 35 && P(0.75)) || (pop > 20 && P(0.5))
     );
@@ -318,6 +325,11 @@ window.Burgs = (() => {
   ];
 
   function defineGroup(burg, populations) {
+    if (!options.burgs || !options.burgs.groups || !options.burgs.groups.length) {
+      ERROR && console.error("options.burgs.groups is not initialized");
+      return;
+    }
+
     if (burg.lock && burg.group) {
       // locked burgs: don't change group if it still exists
       const group = options.burgs.groups.find(g => g.name === burg.group);
@@ -374,6 +386,7 @@ window.Burgs = (() => {
   function getPreview(burg) {
     if (burg.link) return {link: burg.link, preview: burg.link};
 
+    if (!options.burgs?.groups) return {link: null, preview: null};
     const group = options.burgs.groups.find(g => g.name === burg.group);
     if (!group?.preview || !previewGeneratorsMap[group.preview]) return {link: null, preview: null};
 
