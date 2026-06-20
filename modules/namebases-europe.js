@@ -780,10 +780,10 @@ window.europeNameBases = [
     "name": "Bourbonnais",
   "i": 350,
   "min": 4,
-  "max": 11,
+  "max": 32,
   "d": "lnrt",
   "m": 0,
-  "b": "Moulins,Vichy,Gannat,Saint-Pourçain-sur-Sioule,Lapalisse,Varennes-sur-Allier,Saint-Gérand-le-Puy,Le Mayet-de-Montagne,Montluçon,Commentry,Domérat,Servant,Chareil-Cintrat,Ebreuil,Echassières,Gannat,Lapalisse,Le Mayet-de-Montagne,Moulins,Saint-Pourçain-sur-Sioule,Varennes-sur-Allier,Vichy"
+  "b": "Moulins,Vichy,Montluçon,Gannat,Saint-Pourçain-sur-Sioule,Lapalisse,Varennes-sur-Allier,Saint-Gérand-le-Puy,Le Mayet-de-Montagne,Commentry,Domérat,Chareil-Cintrat,Ebreuil,Echassières,Cusset,Yzeure,Bourbon-l'Archambault,Néris-les-Bains,Chantelle,Charroux,Châtel-Montagne,Châtillon,Chavenon,Cognat-Lyonne,Cosne-d'Allier,Cressanges,Creuzier-le-Vieux,Deneuille-les-Mines,Doyet,Escurolles,Ferrières-sur-Sichon,Fleuriel,Franchesse,Gouise,Haut-Bocage,Hérisson,Huriel,Jaligny-sur-Besbre,Lalizolle,Lavault-Sainte-Anne,Lenax,Lignerolles,Louroux-Bourbonnais,Magnet,Marcillat-en-Combraille,Marigny,Mazerier,Meaulne-Vitray,Molinet,Monétay-sur-Allier,Montaigu-le-Blin,Montbeugny,Montcombroux-les-Mines,Montmarault,Montoldre,Montvicq,Murat,Neuilly-le-Réal,Neuvy,Noyant-d'Allier,Paray-sous-Briailles,Pierrefitte-sur-Loire,Poëzat,Prémilhat,Quinssaines,Rocles,Ronnet,Saint-Angel,Saint-Bonnet-de-Four,Saint-Caprais,Saint-Christophe-en-Bourbonnais,Saint-Clément,Saint-Désiré,Saint-Éloy-d'Allier,Saint-Ennemond,Saint-Fargeol,Saint-Félix,Saint-Genest,Saint-Gérand-de-Vaux,Saint-Germain-des-Fossés,Saint-Hilaire,Saint-Léon,Saint-Loup,Saint-Marcel-en-Murat,Saint-Martinien,Saint-Menoux,Saint-Palais,Saint-Plaisir,Saint-Pont,Saint-Pourçain-sur-Besbre,Saint-Priest-en-Murat,Saint-Prix,Saint-Rémy-en-Rollat,Saint-Sauvier,Saint-Sornin,Saint-Victor,Saint-Yorre,Saligny-sur-Roudon,Sanssat,Saulcet,Saulzet,Sauvagny,Sazeret,Serbannes,Seuillet,Sorbier,Souvigny,Sussat,Target,Taxat-Senat,Terjat,Theneuille,Thiel-sur-Acolin,Thionne,Toulon-sur-Allier,Treignat,Trévol,Trézelles,Tronget,Ussel-d'Allier,Valignat,Valigny,Villeneuve-sur-Allier,Vitray"
 },
 {
     "name": "French (fra)",
@@ -861,10 +861,10 @@ window.europeNameBases = [
     "name": "Orleanais",
   "i": 360,
   "min": 4,
-  "max": 11,
+  "max": 28,
   "d": "lnrt",
   "m": 0,
-  "b": "Orléans,Beaugency,Meung-sur-Loire,Châteauneuf-sur-Loire,Sully-sur-Loire,Gien,Châtillon-sur-Loire,Briare,Gien,Châtillon-sur-Loire,Briare,Gien,Châtillon-sur-Loire,Briare"
+  "b": "Orléans,Beaugency,Meung-sur-Loire,Châteauneuf-sur-Loire,Sully-sur-Loire,Gien,Châtillon-sur-Loire,Briare,Montargis,Olivet,Amilly,Châlette-sur-Loing,Cepoy,Saint-Jean-de-Braye,Saint-Jean-le-Blanc,Saint-Denis-en-Val,Saint-Cyr-en-Val,Fleury-les-Aubrais,La Chapelle-Saint-Mesmin,Combleux,Chécy,Sandillon,Saran,Mardié,Rebréchien,Ingrannes,Intville-la-Guétard,Château-Renard,Châtillon-Coligny,Châtillon-le-Roi,Chaussy,Chevannes,Chevillon-sur-Huillard,Chevilly,Chilleurs-aux-Bois,Cléry-Saint-André,Coinces,Combreux,Conflans-sur-Loing,Corbeilles,Corquilleroy,Coudroy,Coullons,Coulmiers,Courcelles-le-Roi,Courcy-aux-Loges,La Cour-Marigny,Courtenay,Cravant,Dadonville,Dammarie-sur-Loing,Dampierre-en-Burly,Darvoy,Donnery,Dordives,Douchy-Montcorbon,Dry,Échilleuses,Égry,Engenville,Épieds-en-Beauce,Erceville,Ervauville,Escrennes,Escrignelles,Estouy,Faverelles,Fay-aux-Loges,Férolles,Ferrières-en-Gâtinais,La Ferté-Saint-Aubin,Fontenay-sur-Loing,Foucherolles,Fréville-du-Gâtinais,Gaubertin,Gémigny,Germigny-des-Prés,Gidy,Girolles,Givraines,Gondreville,Grangermont,Greneville-en-Beauce,Griselles,Guigneville,Guilly,Gy-les-Nonains,Huêtre,Huisseau-sur-Mauves,Ingré,Jargeau,Jouy-en-Pithiverais,Jouy-le-Potier,Juranville,Ladon,Lailly-en-Val,Langesse,Léouville,Ligny-le-Ribault,Lion-en-Beauce,Lion-en-Sullias,Lombreuil,Lorcy,Lorris,Loury,Louzouer,Le Malesherbois,Marcilly-en-Villette,Mareau-aux-Bois,Mareau-aux-Prés,Marigny-les-Usages,Marsainvilliers,Melleroy,Ménestreau-en-Villette,Mérinville,Messas,Mézières-en-Gâtinais,Mézières-lez-Cléry,Mignères,Mignerette,Montbarrois,Montbouy,Montereau,Montigny,Montliard,Mormant-sur-Vernisson,Morville-en-Beauce,Le Moulinet-sur-Solin,Moulon,Nancray-sur-Rimarde,Nargis,Nesploy,Neuville-aux-Bois,La Neuville-sur-Essonne,Neuvy-en-Sullias,Nevoy,Nibelle,Nogent-sur-Vernisson,Noyers,Oison,Ondreville-sur-Essonne,Ormes,Orville,Ousson-sur-Loire,Oussoy-en-Gâtinais,Outarville,Ouvrouer-les-Champs,Ouzouer-des-Champs,Ouzouer-sous-Bellegarde,Ouzouer-sur-Loire,Ouzouer-sur-Trézée,Pannecières,Pannes,Patay,Paucourt,Pers-en-Gâtinais,Pierrefitte-ès-Bois,Pithiviers,Pithiviers-le-Vieil,Poilly-lez-Gien,Préfontaines,Presnoy,Pressigny-les-Pins,Puiseaux,Quiers-sur-Bézonde,Ramoulu,Rozoy-le-Vieil,Rouvray-Sainte-Croix,Rouvres-Saint-Jean,Rozières-en-Beauce,Ruan,Saint-Aignan-le-Jaillard,Saint-Ay,Saint-Benoît-sur-Loire,Saint-Brisson-sur-Loire,Saint-Denis-de-l'Hôtel,Saint-Firmin-des-Bois,Saint-Firmin-sur-Loire,Saint-Florent,Saint-Germain-des-Prés,Saint-Gondon,Saint-Hilaire-les-Andrésis,Saint-Hilaire-Saint-Mesmin,Saint-Hilaire-sur-Puiseaux,Saint-Loup-des-Vignes,Saint-Lyé-la-Forêt,Saint-Martin-d'Abbat,Saint-Martin-sur-Ocre,Saint-Maurice-sur-Aveyron,Saint-Maurice-sur-Fessard,Saint-Michel,Saint-Péravy-la-Colombe,Saint-Père-sur-Loire,Saint-Pryvé-Saint-Mesmin,Saint-Sigismond,Santeau,Sceaux-du-Gâtinais,Seichebrières,La Selle-en-Hermoy,La Selle-sur-le-Bied,Semoy,Sennely,Sermaises,Sigloy,Solterre,Sougy,Sully-la-Chapelle,Sury-aux-Bois,Tavers,Thignonville,Thimory,Thorailles,Thou,Varennes-Changy,Vennecy,Vieilles-Maisons-sur-Joudry,Vienne-en-Val,Viglain,Villamblain,Villemandeur,Villemoutiers,Villemurlin,Villeneuve-sur-Conie,Villereau,Villevoques,Villorceau,Vimory,Vitry-aux-Loges,Yèvre-la-Ville"
 },
 {
     "name": "Paydret",
@@ -1332,7 +1332,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Forlì,Cesena,Rimini,Ravenna,Forlì,Cesena,Rimini,Ravenna,Forlì,Cesena,Rimini,Ravenna,Forlì,Cesena,Rimini,Ravenna,Forlì,Cesena,Rimini,Ravenna,Forlì,Cesena,Rimini,Ravenna,Forlì,Cesena,Rimini,Ravenna,Forlì,Cesena,Rimini,Ravenna"
+    "b": "Forlì,Cesena,Ravenna,Rimini,Villafranca di Forlì,Bagnolo,Barisano,Borgo Sisa,Branzolino,Carpena,Carpinello,Casemurate,Caserma,Castiglione,Ca'Ossi,Cava,Collina,Coriano,Durazzanino,Forniolo,Grisignano,Ladino,Magliano,Malmissole,Massa,Ospedaletto,Para,Pescaccia,Petrignone,Pianta,Pieve Acquedotto,Pievequinta,Poggio,Ponte Vico,Quattro,Ravaldino in Monte,Romiti,Roncadello,Ronco,Rotta,Rovere,San Giorgio,San Leonardo in Schiova,San Lorenzo in Noceto,San Martino in Strada,San Martino in Villafranca,San Tomé,San Varano,Vecchiazzano,Villa Rovere,Villa Selva,Villagrappa,Villanova"
 },
 {
     "name": "Fornes",
@@ -1863,7 +1863,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ravenna,Forlì,Cesena,Rimini,Ravenna,Forlì,Cesena,Rimini,Ravenna,Forlì,Cesena,Rimini,Ravenna,Forlì,Cesena,Rimini,Ravenna,Forlì,Cesena,Rimini,Ravenna,Forlì,Cesena,Rimini,Ravenna,Forlì,Cesena,Rimini,Ravenna,Forlì,Cesena,Rimini"
+    "b": "Ravenna,Forlì,Cesena,Rimini,Faenza,Imola,Lugo,Bagno di Romagna,Bertinoro,Brisighella,Castel Bolognese,Cervia,Cesena,Coriano,Cotignola,Dozza,Faenza,Forlimpopoli,Forlì,Galeata,Gambettola,Gatteo,Imola,Lugo,Massa Lombarda,Meldola,Mercato Saraceno,Mesola,Montiano,Morciano di Romagna,Novafeltria,Pennabilli,Predappio,Prignano sulla Secchia,Ravenna,Riccione,Rimini,Roncofreddo,Rovereto di San Marino,San Clemente,San Leo,San Marino,Sant'Agata Feltria,Santarcangelo di Romagna,Sarsina,Sassofeltrio,Sogliano al Rubicone,Talamello,Terra del Sole,Verucchio,Verghereto,Villafranca di Forlì"
 },
 {
     "name": "Old Spanish",
@@ -2184,10 +2184,11 @@ window.europeNameBases = [
     "name": "Csangó",
   "i": 562,
   "min": 4,
-  "max": 11,
+  "max": 20,
   "d": "lnrt",
   "m": 0,
-  "b": "Gyergyószentmiklós,Ditrău,Székelyudvarhely,Gyergyószentmiklós,Ditrău,Székelyudvarhely,Gyergyószentmiklós,Ditrău,Székelyudvarhely,Gyergyószentmiklós,Ditrău,Székelyudvarhely,Gyergyószentmiklós,Ditrău,Székelyudvarhely,Gyergyószentmiklós,Ditrău,Székelyudvarhely,Gyergyószentmiklós,Ditrău,Székelyudvarhely"
+  "b": "Gyergyószentmiklós,Ditrău,Székelyudvarhely,Székelykeresztúr,Gyergyótölgyes,Csíkszereda,Szentimre,Barátfalva,Kászonfüzes,Kászonimpodrom,Székelyderzs,Székelypálfalva,Mádéfalva,Szentlászló,Csíkmadaras,Csíkszentmárton,Gyergyóalfalu,Csíktapolca,Székelyhodos,Székelyközfalva,Székelyszentkirály,Székelyzsombor,Székelydoboz,Székelyfancsal,Székelyvécke,Székelybikfalva,Székelykövesd,Székelyszakadás,Székelyszépvíz,Székelyhosszúaszó,Székelykisgörgény,Székelynagygörgény,Székelyoroszlános,Székelyszentdomonkos,Székelybélbor,Székelyköbölkút,Székelymalomfalva,Székelypákás,Székelyszentmihály,Székelytófalu,Székelyvadas,Székelykeresztúr,Székelyszépvíz,Székelyhosszúaszó,Székelykisgörgény,Székelynagygörgény,Székelyoroszlános,Székelyszentdomonkos,Székelybélbor,Székelyköbölkút,Székelymalomfalva,Székelypákás,Székelyszentmihály,Székelytófalu,Székelyvadas,Székelyzsombor,Székelykeresztúr,Székelyszépvíz,Székelyhosszúaszó,Székelykisgörgény"
+}
 },
 {
     "name": "Transylvanian Plain",
@@ -2385,7 +2386,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ravenna,Forlì,Cesena,Rimini,Ravenna,Forlì,Cesena,Rimini,Ravenna,Forlì,Cesena,Rimini,Ravenna,Forlì,Cesena,Rimini,Ravenna,Forlì,Cesena,Rimini,Ravenna,Forlì,Cesena,Rimini,Ravenna,Forlì,Cesena,Rimini"
+    "b": "Ravenna,Forlì,Cesena,Rimini,Faenza,Imola,Lugo,Bagno di Romagna,Bertinoro,Brisighella,Castel Bolognese,Cervia,Coriano,Cotignola,Dozza,Forlimpopoli,Galeata,Gambettola,Gatteo,Massa Lombarda,Meldola,Mercato Saraceno,Mesola,Montiano,Morciano di Romagna,Novafeltria,Pennabilli,Predappio,Prignano sulla Secchia,Riccione,Roncofreddo,Rovereto di San Marino,San Clemente,San Leo,San Marino,Sant'Agata Feltria,Santarcangelo di Romagna,Sarsina,Sassofeltrio,Sogliano al Rubicone,Talamello,Terra del Sole,Verucchio,Villafranca di Forlì"
 },
 {
     "name": "Romanesco",
@@ -6273,7 +6274,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Słupsk,Ustka,Smołdzino,Słupsk,Ustka,Smołdzino,Słupsk,Ustka,Smołdzino,Słupsk,Ustka,Smołdzino,Słupsk,Ustka,Smołdzino"
+  "b": "Słupsk,Ustka,Smołdzino,Kluki,Stojcino,Czołpino,Gardna Wielka,Gardna Mała,Wysoka,Retowo,Łódki,Czysta,Rowy,Stowięcino,Żeleskie,Smołdziński Las,Główczyce,Potęgowa,Strzelino,Wielichowo,Gdańsk,Sopot,Gdynia,Puck,Hel,Jastarnia,Kuznica,Pogorzelica,Mrzeżyno,Dziwnów,Kamień Pomorski"
 },
 {
     "name": "Spanish",

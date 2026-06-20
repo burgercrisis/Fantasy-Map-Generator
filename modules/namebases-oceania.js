@@ -1117,7 +1117,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Rabaul,Kokopo,Honiara,Suva,Apia,Nuku'alofa,Port Vila,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago,Denpasar,Mataram,Kupang,Makassar,Manado,Medan,Palembang,Jakarta,Bandung,Surabaya,Semarang,Bali,Lombok,Sumbawa,Flores,Timor,Roti,Savu,Alor,Pantar,Banda,Ambon,Ternate,Tidore,Halmahera,Seram,Buru,Manokwari,Jayapura,Sorong,Biak,Timika,Tual,Merauke,Nabire,Auckland,Wellington,Christchurch,Dunedin,Hamilton,Tauranga,Napier,Hastings,Palmerston North,Nelson,Rotorua,New Plymouth,Whangarei,Gisborne,Invercargill,Timaru,Oamaru,Nuku'alofa,Neiafu,Pangai,Haveluloto,Ohonua,Mu'a,Vaini,Tatakamotonga,Lapaha,Ha'ateiho,Kolovai,Utulei,Leava,Tu'asila,Fua'amotu,Malapo,Longoteme,Veitongo,Nukunonu,Hihifo,Niuatoputapu,Niuafo'ou,Apia,Mulifanua,Asau,Fagatogo,Leulumoega,Nofo,Lufilufi,Safotu,Salesatele,Sataua,Sinamoga,Taga,Tufele,Faleasiu,Fasitoouta,Fatitu,Leava,Malaeimi,Malaelau,Manono,Matautu,Motootua,Salelologa,Satapuala,Saulau,Tanugamanono,Tufulele,Ulutogia,Vaitele,Vaiusu,Vailoa,Vaisala,Vaitogi,Vaivase"
+  "b": "Popondetta,Kawawoki,Oro Province,Managalasi,Ese,Muaturaina,Chimona,Dea,Akabafa,Nami,Mesari,Afore,Minjori,Oko,Wakue,Numba,Jimuni,Karira"
 },
 {
     "name": "Ewage",
@@ -1126,7 +1126,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Rabaul,Kokopo,Honiara,Suva,Apia,Nuku'alofa,Port Vila,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago,Denpasar,Mataram,Kupang,Makassar,Manado,Medan,Palembang,Jakarta,Bandung,Surabaya,Semarang,Bali,Lombok,Sumbawa,Flores,Timor,Roti,Savu,Alor,Pantar,Banda,Ambon,Ternate,Tidore,Halmahera,Seram,Buru,Manokwari,Jayapura,Sorong,Biak,Timika,Tual,Merauke,Nabire,Auckland,Wellington,Christchurch,Dunedin,Hamilton,Tauranga,Napier,Hastings,Palmerston North,Nelson,Rotorua,New Plymouth,Whangarei,Gisborne,Invercargill,Timaru,Oamaru,Nuku'alofa,Neiafu,Pangai,Haveluloto,Ohonua,Mu'a,Vaini,Tatakamotonga,Lapaha,Ha'ateiho,Kolovai,Utulei,Leava,Tu'asila,Fua'amotu,Malapo,Longoteme,Veitongo,Nukunonu,Hihifo,Niuatoputapu,Niuafo'ou,Apia,Mulifanua,Asau,Fagatogo,Leulumoega,Nofo,Lufilufi,Safotu,Salesatele,Sataua,Sinamoga,Taga,Tufele,Faleasiu,Fasitoouta,Fatitu,Leava,Malaeimi,Malaelau,Manono,Matautu,Motootua,Salelologa,Satapuala,Saulau,Tanugamanono,Tufulele,Ulutogia,Vaitele,Vaiusu,Vailoa,Vaisala,Vaitogi,Vaivase"
+  "b": "Popondetta,Oro Province,Notu,Sose,Sohe,Ifane,Ihane,Yega,Gona,Okeina,Okena,Orokaiva,Binanderean"
 },
 {
     "name": "Faiwol",
@@ -1135,7 +1135,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Rabaul,Kokopo,Honiara,Suva,Apia,Nuku'alofa,Port Vila,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago,Denpasar,Mataram,Kupang,Makassar,Manado,Medan,Palembang,Jakarta,Bandung,Surabaya,Semarang,Bali,Lombok,Sumbawa,Flores,Timor,Roti,Savu,Alor,Pantar,Banda,Ambon,Ternate,Tidore,Halmahera,Seram,Buru,Manokwari,Jayapura,Sorong,Biak,Timika,Tual,Merauke,Nabire,Auckland,Wellington,Christchurch,Dunedin,Hamilton,Tauranga,Napier,Hastings,Palmerston North,Nelson,Rotorua,New Plymouth,Whangarei,Gisborne,Invercargill,Timaru,Oamaru,Nuku'alofa,Neiafu,Pangai,Haveluloto,Ohonua,Mu'a,Vaini,Tatakamotonga,Lapaha,Ha'ateiho,Kolovai,Utulei,Leava,Tu'asila,Fua'amotu,Malapo,Longoteme,Veitongo,Nukunonu,Hihifo,Niuatoputapu,Niuafo'ou,Apia,Mulifanua,Asau,Fagatogo,Leulumoega,Nofo,Lufilufi,Safotu,Salesatele,Sataua,Sinamoga,Taga,Tufele,Faleasiu,Fasitoouta,Fatitu,Leava,Malaeimi,Malaelau,Manono,Matautu,Motootua,Salelologa,Satapuala,Saulau,Tanugamanono,Tufulele,Ulutogia,Vaitele,Vaiusu,Vailoa,Vaisala,Vaitogi,Vaivase"
+  "b": "Fly River,Palmer River,Murray River,Western Province,South Papua,Angkiyak,Wopkei,Setaman,Selbang,Dimtikin,Kauwol,Ok,Oksapmin,Telefol,Tifal,Mian,Urapmin"
 },
 {
     "name": "Fasu",
@@ -1144,7 +1144,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Rabaul,Kokopo,Honiara,Suva,Apia,Nuku'alofa,Port Vila,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago,Denpasar,Mataram,Kupang,Makassar,Manado,Medan,Palembang,Jakarta,Bandung,Surabaya,Semarang,Bali,Lombok,Sumbawa,Flores,Timor,Roti,Savu,Alor,Pantar,Banda,Ambon,Ternate,Tidore,Halmahera,Seram,Buru,Manokwari,Jayapura,Sorong,Biak,Timika,Tual,Merauke,Nabire,Auckland,Wellington,Christchurch,Dunedin,Hamilton,Tauranga,Napier,Hastings,Palmerston North,Nelson,Rotorua,New Plymouth,Whangarei,Gisborne,Invercargill,Timaru,Oamaru,Nuku'alofa,Neiafu,Pangai,Haveluloto,Ohonua,Mu'a,Vaini,Tatakamotonga,Lapaha,Ha'ateiho,Kolovai,Utulei,Leava,Tu'asila,Fua'amotu,Malapo,Longoteme,Veitongo,Nukunonu,Hihifo,Niuatoputapu,Niuafo'ou,Apia,Mulifanua,Asau,Fagatogo,Leulumoega,Nofo,Lufilufi,Safotu,Salesatele,Sataua,Sinamoga,Taga,Tufele,Faleasiu,Fasitoouta,Fatitu,Leava,Malaeimi,Malaelau,Manono,Matautu,Motootua,Salelologa,Satapuala,Saulau,Tanugamanono,Tufulele,Ulutogia,Vaitele,Vaiusu,Vailoa,Vaisala,Vaitogi,Vaivase"
+  "b": "Lake Kutubu,Southern Highlands,Gulf Province,Western Province,Some,Kaibu,Namome,Namumi,Namo Me,Kutubuan,Kikorian,Foe,Fiwaga"
 },
 {
     "name": "Fataluku",
@@ -1153,7 +1153,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Rabaul,Kokopo,Honiara,Suva,Apia,Nuku'alofa,Port Vila,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago,Denpasar,Mataram,Kupang,Makassar,Manado,Medan,Palembang,Jakarta,Bandung,Surabaya,Semarang,Bali,Lombok,Sumbawa,Flores,Timor,Roti,Savu,Alor,Pantar,Banda,Ambon,Ternate,Tidore,Halmahera,Seram,Buru,Manokwari,Jayapura,Sorong,Biak,Timika,Tual,Merauke,Nabire,Auckland,Wellington,Christchurch,Dunedin,Hamilton,Tauranga,Napier,Hastings,Palmerston North,Nelson,Rotorua,New Plymouth,Whangarei,Gisborne,Invercargill,Timaru,Oamaru,Nuku'alofa,Neiafu,Pangai,Haveluloto,Ohonua,Mu'a,Vaini,Tatakamotonga,Lapaha,Ha'ateiho,Kolovai,Utulei,Leava,Tu'asila,Fua'amotu,Malapo,Longoteme,Veitongo,Nukunonu,Hihifo,Niuatoputapu,Niuafo'ou,Apia,Mulifanua,Asau,Fagatogo,Leulumoega,Nofo,Lufilufi,Safotu,Salesatele,Sataua,Sinamoga,Taga,Tufele,Faleasiu,Fasitoouta,Fatitu,Leava,Malaeimi,Malaelau,Manono,Matautu,Motootua,Salelologa,Satapuala,Saulau,Tanugamanono,Tufulele,Ulutogia,Vaitele,Vaiusu,Vailoa,Vaisala,Vaitogi,Vaivase"
+  "b": "Lospalos,East Timor,Lautem,Fataluku,Oirata,Rusenu,Makalero,Makasae,Timor-Alor-Pantar,Timor-Leste,Dagaga,Dagoda,Dagada"
 },
 {
     "name": "Eibela",
@@ -1162,7 +1162,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Rabaul,Kokopo,Honiara,Suva,Apia,Nuku'alofa,Port Vila,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago,Denpasar,Mataram,Kupang,Makassar,Manado,Medan,Palembang,Jakarta,Bandung,Surabaya,Semarang,Bali,Lombok,Sumbawa,Flores,Timor,Roti,Savu,Alor,Pantar,Banda,Ambon,Ternate,Tidore,Halmahera,Seram,Buru,Manokwari,Jayapura,Sorong,Biak,Timika,Tual,Merauke,Nabire,Auckland,Wellington,Christchurch,Dunedin,Hamilton,Tauranga,Napier,Hastings,Palmerston North,Nelson,Rotorua,New Plymouth,Whangarei,Gisborne,Invercargill,Timaru,Oamaru,Nuku'alofa,Neiafu,Pangai,Haveluloto,Ohonua,Mu'a,Vaini,Tatakamotonga,Lapaha,Ha'ateiho,Kolovai,Utulei,Leava,Tu'asila,Fua'amotu,Malapo,Longoteme,Veitongo,Nukunonu,Hihifo,Niuatoputapu,Niuafo'ou,Apia,Mulifanua,Asau,Fagatogo,Leulumoega,Nofo,Lufilufi,Safotu,Salesatele,Sataua,Sinamoga,Taga,Tufele,Faleasiu,Fasitoouta,Fatitu,Leava,Malaeimi,Malaelau,Manono,Matautu,Motootua,Salelologa,Satapuala,Saulau,Tanugamanono,Tufulele,Ulutogia,Vaitele,Vaiusu,Vailoa,Vaisala,Vaitogi,Vaivase"
+  "b": "Lake Campbell,Western Province,Aimele,Kware,Bosavi,Kaluli,Kasua,Kamula,Odoodee,Sonia,Onobasulu,Beami"
 },
 {
     "name": "Favorlang",
@@ -1171,7 +1171,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Rabaul,Kokopo,Honiara,Suva,Apia,Nuku'alofa,Port Vila,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago,Denpasar,Mataram,Kupang,Makassar,Manado,Medan,Palembang,Jakarta,Bandung,Surabaya,Semarang,Bali,Lombok,Sumbawa,Flores,Timor,Roti,Savu,Alor,Pantar,Banda,Ambon,Ternate,Tidore,Halmahera,Seram,Buru,Manokwari,Jayapura,Sorong,Biak,Timika,Tual,Merauke,Nabire,Auckland,Wellington,Christchurch,Dunedin,Hamilton,Tauranga,Napier,Hastings,Palmerston North,Nelson,Rotorua,New Plymouth,Whangarei,Gisborne,Invercargill,Timaru,Oamaru,Nuku'alofa,Neiafu,Pangai,Haveluloto,Ohonua,Mu'a,Vaini,Tatakamotonga,Lapaha,Ha'ateiho,Kolovai,Utulei,Leava,Tu'asila,Fua'amotu,Malapo,Longoteme,Veitongo,Nukunonu,Hihifo,Niuatoputapu,Niuafo'ou,Apia,Mulifanua,Asau,Fagatogo,Leulumoega,Nofo,Lufilufi,Safotu,Salesatele,Sataua,Sinamoga,Taga,Tufele,Faleasiu,Fasitoouta,Fatitu,Leava,Malaeimi,Malaelau,Manono,Matautu,Motootua,Salelologa,Satapuala,Saulau,Tanugamanono,Tufulele,Ulutogia,Vaitele,Vaiusu,Vailoa,Vaisala,Vaitogi,Vaivase"
+  "b": "Tainan,Chiayi,Yunlin,Changhua,Taiwan,Babuza,Taokas,Papora,Hoanya,Thao,Pazeh,Ketagalan,Formosan"
 },
 {
     "name": "Moklenic",
@@ -1189,7 +1189,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Rabaul,Kokopo,Honiara,Suva,Apia,Nuku'alofa,Port Vila,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago,Denpasar,Mataram,Kupang,Makassar,Manado,Medan,Palembang,Jakarta,Bandung,Surabaya,Semarang,Bali,Lombok,Sumbawa,Flores,Timor,Roti,Savu,Alor,Pantar,Banda,Ambon,Ternate,Tidore,Halmahera,Seram,Buru,Manokwari,Jayapura,Sorong,Biak,Timika,Tual,Merauke,Nabire,Auckland,Wellington,Christchurch,Dunedin,Hamilton,Tauranga,Napier,Hastings,Palmerston North,Nelson,Rotorua,New Plymouth,Whangarei,Gisborne,Invercargill,Timaru,Oamaru,Nuku'alofa,Neiafu,Pangai,Haveluloto,Ohonua,Mu'a,Vaini,Tatakamotonga,Lapaha,Ha'ateiho,Kolovai,Utulei,Leava,Tu'asila,Fua'amotu,Malapo,Longoteme,Veitongo,Nukunonu,Hihifo,Niuatoputapu,Niuafo'ou,Apia,Mulifanua,Asau,Fagatogo,Leulumoega,Nofo,Lufilufi,Safotu,Salesatele,Sataua,Sinamoga,Taga,Tufele,Faleasiu,Fasitoouta,Fatitu,Leava,Malaeimi,Malaelau,Manono,Matautu,Motootua,Salelologa,Satapuala,Saulau,Tanugamanono,Tufulele,Ulutogia,Vaitele,Vaiusu,Vailoa,Vaisala,Vaitogi,Vaivase"
+  "b": "Goroka,Kainantu,Eastern Highlands Province,Mount Hagen,Kundiawa,Lae,Madang,Asaro,Benabena,Yagaria,Gahuku,Fore,Gimi,Siane"
 },
 {
     "name": "Grand Valley Dani",
@@ -1198,7 +1198,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Rabaul,Kokopo,Honiara,Suva,Apia,Nuku'alofa,Port Vila,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago,Denpasar,Mataram,Kupang,Makassar,Manado,Medan,Palembang,Jakarta,Bandung,Surabaya,Semarang,Bali,Lombok,Sumbawa,Flores,Timor,Roti,Savu,Alor,Pantar,Banda,Ambon,Ternate,Tidore,Halmahera,Seram,Buru,Manokwari,Jayapura,Sorong,Biak,Timika,Tual,Merauke,Nabire,Auckland,Wellington,Christchurch,Dunedin,Hamilton,Tauranga,Napier,Hastings,Palmerston North,Nelson,Rotorua,New Plymouth,Whangarei,Gisborne,Invercargill,Timaru,Oamaru,Nuku'alofa,Neiafu,Pangai,Haveluloto,Ohonua,Mu'a,Vaini,Tatakamotonga,Lapaha,Ha'ateiho,Kolovai,Utulei,Leava,Tu'asila,Fua'amotu,Malapo,Longoteme,Veitongo,Nukunonu,Hihifo,Niuatoputapu,Niuafo'ou,Apia,Mulifanua,Asau,Fagatogo,Leulumoega,Nofo,Lufilufi,Safotu,Salesatele,Sataua,Sinamoga,Taga,Tufele,Faleasiu,Fasitoouta,Fatitu,Leava,Malaeimi,Malaelau,Manono,Matautu,Motootua,Salelologa,Satapuala,Saulau,Tanugamanono,Tufulele,Ulutogia,Vaitele,Vaiusu,Vailoa,Vaisala,Vaitogi,Vaivase"
+  "b": "Baliem Valley,Jayawijaya Regency,Highland Papua,Indonesia,Lower Grand Valley,Mid Grand Valley,Upper Grand Valley,Hupla,Kurima,Bele,Kimbin,Pyramid,Wano,Nggem,Nduga,Yali,Walak,Lani"
 },
 {
     "name": "Grass Koiari",
@@ -1207,7 +1207,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Rabaul,Kokopo,Honiara,Suva,Apia,Nuku'alofa,Port Vila,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago,Denpasar,Mataram,Kupang,Makassar,Manado,Medan,Palembang,Jakarta,Bandung,Surabaya,Semarang,Bali,Lombok,Sumbawa,Flores,Timor,Roti,Savu,Alor,Pantar,Banda,Ambon,Ternate,Tidore,Halmahera,Seram,Buru,Manokwari,Jayapura,Sorong,Biak,Timika,Tual,Merauke,Nabire,Auckland,Wellington,Christchurch,Dunedin,Hamilton,Tauranga,Napier,Hastings,Palmerston North,Nelson,Rotorua,New Plymouth,Whangarei,Gisborne,Invercargill,Timaru,Oamaru,Nuku'alofa,Neiafu,Pangai,Haveluloto,Ohonua,Mu'a,Vaini,Tatakamotonga,Lapaha,Ha'ateiho,Kolovai,Utulei,Leava,Tu'asila,Fua'amotu,Malapo,Longoteme,Veitongo,Nukunonu,Hihifo,Niuatoputapu,Niuafo'ou,Apia,Mulifanua,Asau,Fagatogo,Leulumoega,Nofo,Lufilufi,Safotu,Salesatele,Sataua,Sinamoga,Taga,Tufele,Faleasiu,Fasitoouta,Fatitu,Leava,Malaeimi,Malaelau,Manono,Matautu,Motootua,Salelologa,Satapuala,Saulau,Tanugamanono,Tufulele,Ulutogia,Vaitele,Vaiusu,Vailoa,Vaisala,Vaitogi,Vaivase"
+  "b": "Port Moresby,Sogeri Plateau,Hunter River,Musgrave River,Tubuseleia,Barakau,Gaile,Kailakinumu,Agitana,Dagoda,Senunu,Futinumu,Vesilogo,Fakonama,Fulumuti,Vaivai,Mesime,Mokonumu,Labuka"
 },
 {
     "name": "Gauwa",
@@ -1216,7 +1216,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Rabaul,Kokopo,Honiara,Suva,Apia,Nuku'alofa,Port Vila,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago,Denpasar,Mataram,Kupang,Makassar,Manado,Medan,Palembang,Jakarta,Bandung,Surabaya,Semarang,Bali,Lombok,Sumbawa,Flores,Timor,Roti,Savu,Alor,Pantar,Banda,Ambon,Ternate,Tidore,Halmahera,Seram,Buru,Manokwari,Jayapura,Sorong,Biak,Timika,Tual,Merauke,Nabire,Auckland,Wellington,Christchurch,Dunedin,Hamilton,Tauranga,Napier,Hastings,Palmerston North,Nelson,Rotorua,New Plymouth,Whangarei,Gisborne,Invercargill,Timaru,Oamaru,Nuku'alofa,Neiafu,Pangai,Haveluloto,Ohonua,Mu'a,Vaini,Tatakamotonga,Lapaha,Ha'ateiho,Kolovai,Utulei,Leava,Tu'asila,Fua'amotu,Malapo,Longoteme,Veitongo,Nukunonu,Hihifo,Niuatoputapu,Niuafo'ou,Apia,Mulifanua,Asau,Fagatogo,Leulumoega,Nofo,Lufilufi,Safotu,Salesatele,Sataua,Sinamoga,Taga,Tufele,Faleasiu,Fasitoouta,Fatitu,Leava,Malaeimi,Malaelau,Manono,Matautu,Motootua,Salelologa,Satapuala,Saulau,Tanugamanono,Tufulele,Ulutogia,Vaitele,Vaiusu,Vailoa,Vaisala,Vaitogi,Vaivase"
+  "b": "Kainantu,Eastern Highlands Province,Gadsup,Auyana,Awa,Agarabi,Ontena,Akuna,Oyana,Usarufa,Moife,Imikori,Irafo,Kagu,Agura"
 },
 {
     "name": "Fembe",
@@ -1225,7 +1225,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Rabaul,Kokopo,Honiara,Suva,Apia,Nuku'alofa,Port Vila,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago,Denpasar,Mataram,Kupang,Makassar,Manado,Medan,Palembang,Jakarta,Bandung,Surabaya,Semarang,Bali,Lombok,Sumbawa,Flores,Timor,Roti,Savu,Alor,Pantar,Banda,Ambon,Ternate,Tidore,Halmahera,Seram,Buru,Manokwari,Jayapura,Sorong,Biak,Timika,Tual,Merauke,Nabire,Auckland,Wellington,Christchurch,Dunedin,Hamilton,Tauranga,Napier,Hastings,Palmerston North,Nelson,Rotorua,New Plymouth,Whangarei,Gisborne,Invercargill,Timaru,Oamaru,Nuku'alofa,Neiafu,Pangai,Haveluloto,Ohonua,Mu'a,Vaini,Tatakamotonga,Lapaha,Ha'ateiho,Kolovai,Utulei,Leava,Tu'asila,Fua'amotu,Malapo,Longoteme,Veitongo,Nukunonu,Hihifo,Niuatoputapu,Niuafo'ou,Apia,Mulifanua,Asau,Fagatogo,Leulumoega,Nofo,Lufilufi,Safotu,Salesatele,Sataua,Sinamoga,Taga,Tufele,Faleasiu,Fasitoouta,Fatitu,Leava,Malaeimi,Malaelau,Manono,Matautu,Motootua,Salelologa,Satapuala,Saulau,Tanugamanono,Tufulele,Ulutogia,Vaitele,Vaiusu,Vailoa,Vaisala,Vaitogi,Vaivase"
+  "b": "Strickland River,East Strickland,Upper East Strickland,Western Province,Agala,Fembe,Gobasi,Konai,Kubo,Odoodee,Samo"
 },
 {
     "name": "Fiwaga",
@@ -1234,7 +1234,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Rabaul,Kokopo,Honiara,Suva,Apia,Nuku'alofa,Port Vila,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago,Denpasar,Mataram,Kupang,Makassar,Manado,Medan,Palembang,Jakarta,Bandung,Surabaya,Semarang,Bali,Lombok,Sumbawa,Flores,Timor,Roti,Savu,Alor,Pantar,Banda,Ambon,Ternate,Tidore,Halmahera,Seram,Buru,Manokwari,Jayapura,Sorong,Biak,Timika,Tual,Merauke,Nabire,Auckland,Wellington,Christchurch,Dunedin,Hamilton,Tauranga,Napier,Hastings,Palmerston North,Nelson,Rotorua,New Plymouth,Whangarei,Gisborne,Invercargill,Timaru,Oamaru,Nuku'alofa,Neiafu,Pangai,Haveluloto,Ohonua,Mu'a,Vaini,Tatakamotonga,Lapaha,Ha'ateiho,Kolovai,Utulei,Leava,Tu'asila,Fua'amotu,Malapo,Longoteme,Veitongo,Nukunonu,Hihifo,Niuatoputapu,Niuafo'ou,Apia,Mulifanua,Asau,Fagatogo,Leulumoega,Nofo,Lufilufi,Safotu,Salesatele,Sataua,Sinamoga,Taga,Tufele,Faleasiu,Fasitoouta,Fatitu,Leava,Malaeimi,Malaelau,Manono,Matautu,Motootua,Salelologa,Satapuala,Saulau,Tanugamanono,Tufulele,Ulutogia,Vaitele,Vaiusu,Vailoa,Vaisala,Vaitogi,Vaivase"
+  "b": "Lake Kutubu,Southern Highlands Province,Gulf Province,Foe,Foi,Kikori River,Mubi River,Beaver Falls,Kutubuan,Kikorian,Fimaga,Fiwage"
 },
 {
     "name": "Foe",
@@ -1243,7 +1243,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Rabaul,Kokopo,Honiara,Suva,Apia,Nuku'alofa,Port Vila,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago,Denpasar,Mataram,Kupang,Makassar,Manado,Medan,Palembang,Jakarta,Bandung,Surabaya,Semarang,Bali,Lombok,Sumbawa,Flores,Timor,Roti,Savu,Alor,Pantar,Banda,Ambon,Ternate,Tidore,Halmahera,Seram,Buru,Manokwari,Jayapura,Sorong,Biak,Timika,Tual,Merauke,Nabire,Auckland,Wellington,Christchurch,Dunedin,Hamilton,Tauranga,Napier,Hastings,Palmerston North,Nelson,Rotorua,New Plymouth,Whangarei,Gisborne,Invercargill,Timaru,Oamaru,Nuku'alofa,Neiafu,Pangai,Haveluloto,Ohonua,Mu'a,Vaini,Tatakamotonga,Lapaha,Ha'ateiho,Kolovai,Utulei,Leava,Tu'asila,Fua'amotu,Malapo,Longoteme,Veitongo,Nukunonu,Hihifo,Niuatoputapu,Niuafo'ou,Apia,Mulifanua,Asau,Fagatogo,Leulumoega,Nofo,Lufilufi,Safotu,Salesatele,Sataua,Sinamoga,Taga,Tufele,Faleasiu,Fasitoouta,Fatitu,Leava,Malaeimi,Malaelau,Manono,Matautu,Motootua,Salelologa,Satapuala,Saulau,Tanugamanono,Tufulele,Ulutogia,Vaitele,Vaiusu,Vailoa,Vaisala,Vaitogi,Vaivase"
+  "b": "Lake Kutubu,Mubi River,Southern Highlands Province,Gulf Province,Kikori River,Ifigi,Kafa,Kutubu,Foi,Mubi,East Kutubuan,Kutubuan"
 },
 {
     "name": "Foia Foia",
@@ -1252,7 +1252,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Rabaul,Kokopo,Honiara,Suva,Apia,Nuku'alofa,Port Vila,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago,Denpasar,Mataram,Kupang,Makassar,Manado,Medan,Palembang,Jakarta,Bandung,Surabaya,Semarang,Bali,Lombok,Sumbawa,Flores,Timor,Roti,Savu,Alor,Pantar,Banda,Ambon,Ternate,Tidore,Halmahera,Seram,Buru,Manokwari,Jayapura,Sorong,Biak,Timika,Tual,Merauke,Nabire,Auckland,Wellington,Christchurch,Dunedin,Hamilton,Tauranga,Napier,Hastings,Palmerston North,Nelson,Rotorua,New Plymouth,Whangarei,Gisborne,Invercargill,Timaru,Oamaru,Nuku'alofa,Neiafu,Pangai,Haveluloto,Ohonua,Mu'a,Vaini,Tatakamotonga,Lapaha,Ha'ateiho,Kolovai,Utulei,Leava,Tu'asila,Fua'amotu,Malapo,Longoteme,Veitongo,Nukunonu,Hihifo,Niuatoputapu,Niuafo'ou,Apia,Mulifanua,Asau,Fagatogo,Leulumoega,Nofo,Lufilufi,Safotu,Salesatele,Sataua,Sinamoga,Taga,Tufele,Faleasiu,Fasitoouta,Fatitu,Leava,Malaeimi,Malaelau,Manono,Matautu,Motootua,Salelologa,Satapuala,Saulau,Tanugamanono,Tufulele,Ulutogia,Vaitele,Vaiusu,Vailoa,Vaisala,Vaitogi,Vaivase"
+  "b": "Omati River,Gulf Province,Western Province,Bibisa,Kamusi,Moka,Ikobi-Kairi,Goaribari,Pepeha,Dauku,Giri-Mokura,Minanibai,Foyafoya,Inland Gulf"
 },
 {
     "name": "Fore",
@@ -1261,7 +1261,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Rabaul,Kokopo,Honiara,Suva,Apia,Nuku'alofa,Port Vila,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago,Denpasar,Mataram,Kupang,Makassar,Manado,Medan,Palembang,Jakarta,Bandung,Surabaya,Semarang,Bali,Lombok,Sumbawa,Flores,Timor,Roti,Savu,Alor,Pantar,Banda,Ambon,Ternate,Tidore,Halmahera,Seram,Buru,Manokwari,Jayapura,Sorong,Biak,Timika,Tual,Merauke,Nabire,Auckland,Wellington,Christchurch,Dunedin,Hamilton,Tauranga,Napier,Hastings,Palmerston North,Nelson,Rotorua,New Plymouth,Whangarei,Gisborne,Invercargill,Timaru,Oamaru,Nuku'alofa,Neiafu,Pangai,Haveluloto,Ohonua,Mu'a,Vaini,Tatakamotonga,Lapaha,Ha'ateiho,Kolovai,Utulei,Leava,Tu'asila,Fua'amotu,Malapo,Longoteme,Veitongo,Nukunonu,Hihifo,Niuatoputapu,Niuafo'ou,Apia,Mulifanua,Asau,Fagatogo,Leulumoega,Nofo,Lufilufi,Safotu,Salesatele,Sataua,Sinamoga,Taga,Tufele,Faleasiu,Fasitoouta,Fatitu,Leava,Malaeimi,Malaelau,Manono,Matautu,Motootua,Salelologa,Satapuala,Saulau,Tanugamanono,Tufulele,Ulutogia,Vaitele,Vaiusu,Vailoa,Vaisala,Vaitogi,Vaivase"
+  "b": "Okapa District,Goroka District,Eastern Highlands Province,North Fore,South Fore,Central Fore,Wanevinti Mountains,Yani River,Lamari River,Moke,Kami,Purosa,Kamano,Gimi,Foré"
 },
 {
     "name": "Siraya",
@@ -1270,7 +1270,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Rabaul,Kokopo,Honiara,Suva,Apia,Nuku'alofa,Port Vila,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago,Denpasar,Mataram,Kupang,Makassar,Manado,Medan,Palembang,Jakarta,Bandung,Surabaya,Semarang,Bali,Lombok,Sumbawa,Flores,Timor,Roti,Savu,Alor,Pantar,Banda,Ambon,Ternate,Tidore,Halmahera,Seram,Buru,Manokwari,Jayapura,Sorong,Biak,Timika,Tual,Merauke,Nabire,Auckland,Wellington,Christchurch,Dunedin,Hamilton,Tauranga,Napier,Hastings,Palmerston North,Nelson,Rotorua,New Plymouth,Whangarei,Gisborne,Invercargill,Timaru,Oamaru,Nuku'alofa,Neiafu,Pangai,Haveluloto,Ohonua,Mu'a,Vaini,Tatakamotonga,Lapaha,Ha'ateiho,Kolovai,Utulei,Leava,Tu'asila,Fua'amotu,Malapo,Longoteme,Veitongo,Nukunonu,Hihifo,Niuatoputapu,Niuafo'ou,Apia,Mulifanua,Asau,Fagatogo,Leulumoega,Nofo,Lufilufi,Safotu,Salesatele,Sataua,Sinamoga,Taga,Tufele,Faleasiu,Fasitoouta,Fatitu,Leava,Malaeimi,Malaelau,Manono,Matautu,Motootua,Salelologa,Satapuala,Saulau,Tanugamanono,Tufulele,Ulutogia,Vaitele,Vaiusu,Vailoa,Vaisala,Vaitogi,Vaivase"
+  "b": "Tainan,Tainan Plains,Hengchun Peninsula,Madou,Jiali,Shanhua,Sinshih,Sinckan,Mattauw,Soelangh,Baccloangh,Taivoan,Makatao,Formosan"
 },
 {
     "name": "Gende",
@@ -1279,7 +1279,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Rabaul,Kokopo,Honiara,Suva,Apia,Nuku'alofa,Port Vila,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago,Denpasar,Mataram,Kupang,Makassar,Manado,Medan,Palembang,Jakarta,Bandung,Surabaya,Semarang,Bali,Lombok,Sumbawa,Flores,Timor,Roti,Savu,Alor,Pantar,Banda,Ambon,Ternate,Tidore,Halmahera,Seram,Buru,Manokwari,Jayapura,Sorong,Biak,Timika,Tual,Merauke,Nabire,Auckland,Wellington,Christchurch,Dunedin,Hamilton,Tauranga,Napier,Hastings,Palmerston North,Nelson,Rotorua,New Plymouth,Whangarei,Gisborne,Invercargill,Timaru,Oamaru,Nuku'alofa,Neiafu,Pangai,Haveluloto,Ohonua,Mu'a,Vaini,Tatakamotonga,Lapaha,Ha'ateiho,Kolovai,Utulei,Leava,Tu'asila,Fua'amotu,Malapo,Longoteme,Veitongo,Nukunonu,Hihifo,Niuatoputapu,Niuafo'ou,Apia,Mulifanua,Asau,Fagatogo,Leulumoega,Nofo,Lufilufi,Safotu,Salesatele,Sataua,Sinamoga,Taga,Tufele,Faleasiu,Fasitoouta,Fatitu,Leava,Malaeimi,Malaelau,Manono,Matautu,Motootua,Salelologa,Satapuala,Saulau,Tanugamanono,Tufulele,Ulutogia,Vaitele,Vaiusu,Vailoa,Vaisala,Vaitogi,Vaivase"
+  "b": "Madang Province,Bundi,Goroka District,Eastern Highlands Province,Gendeka,Gene,Gafoka,Isabi,Siane,Benabena"
 },
 {
     "name": "Humene",
@@ -1288,7 +1288,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Rabaul,Kokopo,Honiara,Suva,Apia,Nuku'alofa,Port Vila,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago,Denpasar,Mataram,Kupang,Makassar,Manado,Medan,Palembang,Jakarta,Bandung,Surabaya,Semarang,Bali,Lombok,Sumbawa,Flores,Timor,Roti,Savu,Alor,Pantar,Banda,Ambon,Ternate,Tidore,Halmahera,Seram,Buru,Manokwari,Jayapura,Sorong,Biak,Timika,Tual,Merauke,Nabire,Auckland,Wellington,Christchurch,Dunedin,Hamilton,Tauranga,Napier,Hastings,Palmerston North,Nelson,Rotorua,New Plymouth,Whangarei,Gisborne,Invercargill,Timaru,Oamaru,Nuku'alofa,Neiafu,Pangai,Haveluloto,Ohonua,Mu'a,Vaini,Tatakamotonga,Lapaha,Ha'ateiho,Kolovai,Utulei,Leava,Tu'asila,Fua'amotu,Malapo,Longoteme,Veitongo,Nukunonu,Hihifo,Niuatoputapu,Niuafo'ou,Apia,Mulifanua,Asau,Fagatogo,Leulumoega,Nofo,Lufilufi,Safotu,Salesatele,Sataua,Sinamoga,Taga,Tufele,Faleasiu,Fasitoouta,Fatitu,Leava,Malaeimi,Malaelau,Manono,Matautu,Motootua,Salelologa,Satapuala,Saulau,Tanugamanono,Tufulele,Ulutogia,Vaitele,Vaiusu,Vailoa,Vaisala,Vaitogi,Vaivase"
+  "b": "Manugoro,Rigo District,Central Province,Sogeri Plateau,Gaire,Kapakapa,Sabuia,Lagume,Gobuia,Kwale,Uare,Humeme,Lakume"
 },
 {
     "name": "Hupla",
@@ -1297,7 +1297,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Rabaul,Kokopo,Honiara,Suva,Apia,Nuku'alofa,Port Vila,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago,Denpasar,Mataram,Kupang,Makassar,Manado,Medan,Palembang,Jakarta,Bandung,Surabaya,Semarang,Bali,Lombok,Sumbawa,Flores,Timor,Roti,Savu,Alor,Pantar,Banda,Ambon,Ternate,Tidore,Halmahera,Seram,Buru,Manokwari,Jayapura,Sorong,Biak,Timika,Tual,Merauke,Nabire,Auckland,Wellington,Christchurch,Dunedin,Hamilton,Tauranga,Napier,Hastings,Palmerston North,Nelson,Rotorua,New Plymouth,Whangarei,Gisborne,Invercargill,Timaru,Oamaru,Nuku'alofa,Neiafu,Pangai,Haveluloto,Ohonua,Mu'a,Vaini,Tatakamotonga,Lapaha,Ha'ateiho,Kolovai,Utulei,Leava,Tu'asila,Fua'amotu,Malapo,Longoteme,Veitongo,Nukunonu,Hihifo,Niuatoputapu,Niuafo'ou,Apia,Mulifanua,Asau,Fagatogo,Leulumoega,Nofo,Lufilufi,Safotu,Salesatele,Sataua,Sinamoga,Taga,Tufele,Faleasiu,Fasitoouta,Fatitu,Leava,Malaeimi,Malaelau,Manono,Matautu,Motootua,Salelologa,Satapuala,Saulau,Tanugamanono,Tufulele,Ulutogia,Vaitele,Vaiusu,Vailoa,Vaisala,Vaitogi,Vaivase"
+  "b": "Yahukimo Regency,Highland Papua,Indonesia,Baliem Valley,Hubla,Lower Grand Valley Dani,Dani"
 },
 {
     "name": "Iha",
@@ -1306,7 +1306,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Rabaul,Kokopo,Honiara,Suva,Apia,Nuku'alofa,Port Vila,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago,Denpasar,Mataram,Kupang,Makassar,Manado,Medan,Palembang,Jakarta,Bandung,Surabaya,Semarang,Bali,Lombok,Sumbawa,Flores,Timor,Roti,Savu,Alor,Pantar,Banda,Ambon,Ternate,Tidore,Halmahera,Seram,Buru,Manokwari,Jayapura,Sorong,Biak,Timika,Tual,Merauke,Nabire,Auckland,Wellington,Christchurch,Dunedin,Hamilton,Tauranga,Napier,Hastings,Palmerston North,Nelson,Rotorua,New Plymouth,Whangarei,Gisborne,Invercargill,Timaru,Oamaru,Nuku'alofa,Neiafu,Pangai,Haveluloto,Ohonua,Mu'a,Vaini,Tatakamotonga,Lapaha,Ha'ateiho,Kolovai,Utulei,Leava,Tu'asila,Fua'amotu,Malapo,Longoteme,Veitongo,Nukunonu,Hihifo,Niuatoputapu,Niuafo'ou,Apia,Mulifanua,Asau,Fagatogo,Leulumoega,Nofo,Lufilufi,Safotu,Salesatele,Sataua,Sinamoga,Taga,Tufele,Faleasiu,Fasitoouta,Fatitu,Leava,Malaeimi,Malaelau,Manono,Matautu,Motootua,Salelologa,Satapuala,Saulau,Tanugamanono,Tufulele,Ulutogia,Vaitele,Vaiusu,Vailoa,Vaisala,Vaitogi,Vaivase"
+  "b": "Bomberai Peninsula,West Papua Province,Indonesia,Fakfak Regency,Kokas,Onin Peninsula,Kaimana,Kapaur,Matta,Mbaham,Baham,Karas,Kalamang"
 },
 {
     "name": "Gimi",
@@ -1315,7 +1315,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Rabaul,Kokopo,Honiara,Suva,Apia,Nuku'alofa,Port Vila,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago,Denpasar,Mataram,Kupang,Makassar,Manado,Medan,Palembang,Jakarta,Bandung,Surabaya,Semarang,Bali,Lombok,Sumbawa,Flores,Timor,Roti,Savu,Alor,Pantar,Banda,Ambon,Ternate,Tidore,Halmahera,Seram,Buru,Manokwari,Jayapura,Sorong,Biak,Timika,Tual,Merauke,Nabire,Auckland,Wellington,Christchurch,Dunedin,Hamilton,Tauranga,Napier,Hastings,Palmerston North,Nelson,Rotorua,New Plymouth,Whangarei,Gisborne,Invercargill,Timaru,Oamaru,Nuku'alofa,Neiafu,Pangai,Haveluloto,Ohonua,Mu'a,Vaini,Tatakamotonga,Lapaha,Ha'ateiho,Kolovai,Utulei,Leava,Tu'asila,Fua'amotu,Malapo,Longoteme,Veitongo,Nukunonu,Hihifo,Niuatoputapu,Niuafo'ou,Apia,Mulifanua,Asau,Fagatogo,Leulumoega,Nofo,Lufilufi,Safotu,Salesatele,Sataua,Sinamoga,Taga,Tufele,Faleasiu,Fasitoouta,Fatitu,Leava,Malaeimi,Malaelau,Manono,Matautu,Motootua,Salelologa,Satapuala,Saulau,Tanugamanono,Tufulele,Ulutogia,Vaitele,Vaiusu,Vailoa,Vaisala,Vaitogi,Vaivase"
+  "b": "Okapa District,Eastern Highlands Province,Chimbu Province,Gomia,Mainomoi,Gouno,Labogai,Fore,Benabena"
 },
 {
     "name": "Gurindji Kriol",
@@ -1324,7 +1324,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Rabaul,Kokopo,Honiara,Suva,Apia,Nuku'alofa,Port Vila,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago,Denpasar,Mataram,Kupang,Makassar,Manado,Medan,Palembang,Jakarta,Bandung,Surabaya,Semarang,Bali,Lombok,Sumbawa,Flores,Timor,Roti,Savu,Alor,Pantar,Banda,Ambon,Ternate,Tidore,Halmahera,Seram,Buru,Manokwari,Jayapura,Sorong,Biak,Timika,Tual,Merauke,Nabire,Auckland,Wellington,Christchurch,Dunedin,Hamilton,Tauranga,Napier,Hastings,Palmerston North,Nelson,Rotorua,New Plymouth,Whangarei,Gisborne,Invercargill,Timaru,Oamaru,Nuku'alofa,Neiafu,Pangai,Haveluloto,Ohonua,Mu'a,Vaini,Tatakamotonga,Lapaha,Ha'ateiho,Kolovai,Utulei,Leava,Tu'asila,Fua'amotu,Malapo,Longoteme,Veitongo,Nukunonu,Hihifo,Niuatoputapu,Niuafo'ou,Apia,Mulifanua,Asau,Fagatogo,Leulumoega,Nofo,Lufilufi,Safotu,Salesatele,Sataua,Sinamoga,Taga,Tufele,Faleasiu,Fasitoouta,Fatitu,Leava,Malaeimi,Malaelau,Manono,Matautu,Motootua,Salelologa,Satapuala,Saulau,Tanugamanono,Tufulele,Ulutogia,Vaitele,Vaiusu,Vailoa,Vaisala,Vaitogi,Vaivase"
+  "b": "Kalkaringi,Daguragu,Victoria River District,Northern Territory,Australia,Wave Hill,Yarralin,Pigeon Hole,Gurindji,Kriol,Ngarinyman,Bilinarra"
 },
 {
     "name": "Hamtai",
@@ -1333,7 +1333,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Rabaul,Kokopo,Honiara,Suva,Apia,Nuku'alofa,Port Vila,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago,Denpasar,Mataram,Kupang,Makassar,Manado,Medan,Palembang,Jakarta,Bandung,Surabaya,Semarang,Bali,Lombok,Sumbawa,Flores,Timor,Roti,Savu,Alor,Pantar,Banda,Ambon,Ternate,Tidore,Halmahera,Seram,Buru,Manokwari,Jayapura,Sorong,Biak,Timika,Tual,Merauke,Nabire,Auckland,Wellington,Christchurch,Dunedin,Hamilton,Tauranga,Napier,Hastings,Palmerston North,Nelson,Rotorua,New Plymouth,Whangarei,Gisborne,Invercargill,Timaru,Oamaru,Nuku'alofa,Neiafu,Pangai,Haveluloto,Ohonua,Mu'a,Vaini,Tatakamotonga,Lapaha,Ha'ateiho,Kolovai,Utulei,Leava,Tu'asila,Fua'amotu,Malapo,Longoteme,Veitongo,Nukunonu,Hihifo,Niuatoputapu,Niuafo'ou,Apia,Mulifanua,Asau,Fagatogo,Leulumoega,Nofo,Lufilufi,Safotu,Salesatele,Sataua,Sinamoga,Taga,Tufele,Faleasiu,Fasitoouta,Fatitu,Leava,Malaeimi,Malaelau,Manono,Matautu,Motootua,Salelologa,Satapuala,Saulau,Tanugamanono,Tufulele,Ulutogia,Vaitele,Vaiusu,Vailoa,Vaisala,Vaitogi,Vaivase"
+  "b": "Morobe Province,Gulf Province,Kratke Range,Wenta,Howi,Pmasa'a,Kaintiba,Menya,Kamasa,Kapau,Kamea,Watut"
 },
 {
     "name": "Inoke-Yate",
@@ -1342,7 +1342,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Rabaul,Kokopo,Honiara,Suva,Apia,Nuku'alofa,Port Vila,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago,Denpasar,Mataram,Kupang,Makassar,Manado,Medan,Palembang,Jakarta,Bandung,Surabaya,Semarang,Bali,Lombok,Sumbawa,Flores,Timor,Roti,Savu,Alor,Pantar,Banda,Ambon,Ternate,Tidore,Halmahera,Seram,Buru,Manokwari,Jayapura,Sorong,Biak,Timika,Tual,Merauke,Nabire,Auckland,Wellington,Christchurch,Dunedin,Hamilton,Tauranga,Napier,Hastings,Palmerston North,Nelson,Rotorua,New Plymouth,Whangarei,Gisborne,Invercargill,Timaru,Oamaru,Nuku'alofa,Neiafu,Pangai,Haveluloto,Ohonua,Mu'a,Vaini,Tatakamotonga,Lapaha,Ha'ateiho,Kolovai,Utulei,Leava,Tu'asila,Fua'amotu,Malapo,Longoteme,Veitongo,Nukunonu,Hihifo,Niuatoputapu,Niuafo'ou,Apia,Mulifanua,Asau,Fagatogo,Leulumoega,Nofo,Lufilufi,Safotu,Salesatele,Sataua,Sinamoga,Taga,Tufele,Faleasiu,Fasitoouta,Fatitu,Leava,Malaeimi,Malaelau,Manono,Matautu,Motootua,Salelologa,Satapuala,Saulau,Tanugamanono,Tufulele,Ulutogia,Vaitele,Vaiusu,Vailoa,Vaisala,Vaitogi,Vaivase"
+  "b": "Eastern Highlands Province,Okapa District,Yate,Jate,Inoke,Kamono,Yagaria,Kanite,Benabena,Keyagana"
 },
 {
     "name": "Abinomn",
@@ -1351,7 +1351,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Rabaul,Kokopo,Honiara,Suva,Apia,Nuku'alofa,Port Vila,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago,Denpasar,Mataram,Kupang,Makassar,Manado,Medan,Palembang,Jakarta,Bandung,Surabaya,Semarang,Bali,Lombok,Sumbawa,Flores,Timor,Roti,Savu,Alor,Pantar,Banda,Ambon,Ternate,Tidore,Halmahera,Seram,Buru,Manokwari,Jayapura,Sorong,Biak,Timika,Tual,Merauke,Nabire,Auckland,Wellington,Christchurch,Dunedin,Hamilton,Tauranga,Napier,Hastings,Palmerston North,Nelson,Rotorua,New Plymouth,Whangarei,Gisborne,Invercargill,Timaru,Oamaru,Nuku'alofa,Neiafu,Pangai,Haveluloto,Ohonua,Mu'a,Vaini,Tatakamotonga,Lapaha,Ha'ateiho,Kolovai,Utulei,Leava,Tu'asila,Fua'amotu,Malapo,Longoteme,Veitongo,Nukunonu,Hihifo,Niuatoputapu,Niuafo'ou,Apia,Mulifanua,Asau,Fagatogo,Leulumoega,Nofo,Lufilufi,Safotu,Salesatele,Sataua,Sinamoga,Taga,Tufele,Faleasiu,Fasitoouta,Fatitu,Leava,Malaeimi,Malaelau,Manono,Matautu,Motootua,Salelologa,Satapuala,Saulau,Tanugamanono,Tufulele,Ulutogia,Vaitele,Vaiusu,Vailoa,Vaisala,Vaitogi,Vaivase"
+  "b": "Mamberamo Hulu District,Mamberamo Raya Regency,Papua province,Indonesia,Baso River,Foya mountains,Sarmi Regency,Avinomen,Foia,Papasena,Diebroud,Foau,Berik"
 },
 {
     "name": "Abun",
@@ -1360,7 +1360,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Rabaul,Kokopo,Honiara,Suva,Apia,Nuku'alofa,Port Vila,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago,Denpasar,Mataram,Kupang,Makassar,Manado,Medan,Palembang,Jakarta,Bandung,Surabaya,Semarang,Bali,Lombok,Sumbawa,Flores,Timor,Roti,Savu,Alor,Pantar,Banda,Ambon,Ternate,Tidore,Halmahera,Seram,Buru,Manokwari,Jayapura,Sorong,Biak,Timika,Tual,Merauke,Nabire,Auckland,Wellington,Christchurch,Dunedin,Hamilton,Tauranga,Napier,Hastings,Palmerston North,Nelson,Rotorua,New Plymouth,Whangarei,Gisborne,Invercargill,Timaru,Oamaru,Nuku'alofa,Neiafu,Pangai,Haveluloto,Ohonua,Mu'a,Vaini,Tatakamotonga,Lapaha,Ha'ateiho,Kolovai,Utulei,Leava,Tu'asila,Fua'amotu,Malapo,Longoteme,Veitongo,Nukunonu,Hihifo,Niuatoputapu,Niuafo'ou,Apia,Mulifanua,Asau,Fagatogo,Leulumoega,Nofo,Lufilufi,Safotu,Salesatele,Sataua,Sinamoga,Taga,Tufele,Faleasiu,Fasitoouta,Fatitu,Leava,Malaeimi,Malaelau,Manono,Matautu,Motootua,Salelologa,Satapuala,Saulau,Tanugamanono,Tufulele,Ulutogia,Vaitele,Vaiusu,Vailoa,Vaisala,Vaitogi,Vaivase"
+  "b": "Sausapor,Ayamaru,Moraid,Bird's Head Peninsula,Tambrauw Regency,Southwest Papua,Indonesia,Abun Tat,Abun Ji,Abun Je,Yimbun,Anden,Manif,Karon Pantai,Moi,Maybrat,Mpur,Biak"
 },
 {
     "name": "Anem",
@@ -1369,7 +1369,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Rabaul,Kokopo,Honiara,Suva,Apia,Nuku'alofa,Port Vila,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago,Denpasar,Mataram,Kupang,Makassar,Manado,Medan,Palembang,Jakarta,Bandung,Surabaya,Semarang,Bali,Lombok,Sumbawa,Flores,Timor,Roti,Savu,Alor,Pantar,Banda,Ambon,Ternate,Tidore,Halmahera,Seram,Buru,Manokwari,Jayapura,Sorong,Biak,Timika,Tual,Merauke,Nabire,Auckland,Wellington,Christchurch,Dunedin,Hamilton,Tauranga,Napier,Hastings,Palmerston North,Nelson,Rotorua,New Plymouth,Whangarei,Gisborne,Invercargill,Timaru,Oamaru,Nuku'alofa,Neiafu,Pangai,Haveluloto,Ohonua,Mu'a,Vaini,Tatakamotonga,Lapaha,Ha'ateiho,Kolovai,Utulei,Leava,Tu'asila,Fua'amotu,Malapo,Longoteme,Veitongo,Nukunonu,Hihifo,Niuatoputapu,Niuafo'ou,Apia,Mulifanua,Asau,Fagatogo,Leulumoega,Nofo,Lufilufi,Safotu,Salesatele,Sataua,Sinamoga,Taga,Tufele,Faleasiu,Fasitoouta,Fatitu,Leava,Malaeimi,Malaelau,Manono,Matautu,Motootua,Salelologa,Satapuala,Saulau,Tanugamanono,Tufulele,Ulutogia,Vaitele,Vaiusu,Vailoa,Vaisala,Vaitogi,Vaivase"
+  "b": "West New Britain Province,New Britain,Malasoŋo,Karaiai,Mosiliki,Pudêlîŋ,Atiatu,Bolo,Anêm,Ata,Yélî Dnye"
 },
 {
     "name": "Bilua",
@@ -1378,7 +1378,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Alotau,Rabaul,Kokopo,Honiara,Suva,Apia,Nuku'alofa,Port Vila,Palikir,Majuro,Tarawa,Funafuti,Nauru,Yaren,Avarua,Alofi,Tokelau,Pago Pago,Denpasar,Mataram,Kupang,Makassar,Manado,Medan,Palembang,Jakarta,Bandung,Surabaya,Semarang,Bali,Lombok,Sumbawa,Flores,Timor,Roti,Savu,Alor,Pantar,Banda,Ambon,Ternate,Tidore,Halmahera,Seram,Buru,Manokwari,Jayapura,Sorong,Biak,Timika,Tual,Merauke,Nabire,Auckland,Wellington,Christchurch,Dunedin,Hamilton,Tauranga,Napier,Hastings,Palmerston North,Nelson,Rotorua,New Plymouth,Whangarei,Gisborne,Invercargill,Timaru,Oamaru,Nuku'alofa,Neiafu,Pangai,Haveluloto,Ohonua,Mu'a,Vaini,Tatakamotonga,Lapaha,Ha'ateiho,Kolovai,Utulei,Leava,Tu'asila,Fua'amotu,Malapo,Longoteme,Veitongo,Nukunonu,Hihifo,Niuatoputapu,Niuafo'ou,Apia,Mulifanua,Asau,Fagatogo,Leulumoega,Nofo,Lufilufi,Safotu,Salesatele,Sataua,Sinamoga,Taga,Tufele,Faleasiu,Fasitoouta,Fatitu,Leava,Malaeimi,Malaelau,Manono,Matautu,Motootua,Salelologa,Satapuala,Saulau,Tanugamanono,Tufulele,Ulutogia,Vaitele,Vaiusu,Vailoa,Vaisala,Vaitogi,Vaivase"
+  "b": "Vella Lavella Island,Western Province,Solomon Islands,Mbilua,Vella Lavella,Central Solomon"
 },
 {
     "name": "Kuot",
