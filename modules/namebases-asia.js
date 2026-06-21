@@ -1279,7 +1279,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
+  "b": "Balochistan,Suleiman Mountains,Tobah-Kakar,Kharan,Chagai,Kohlu,Dera Bugti,Barkhan,Loralai,Zhob,Pishin,Killa Abdullah,Quetta,Chaman,Taftan,Kharan Desert,Chagai Hills,Rakhshan,Washuk,Kalat,Mastung"
 },
 {
     "name": "Eastern Indonesian Malay",
@@ -1288,7 +1288,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
+  "b": "Ambon,Ternate,Tidore,Bacan,Halmahera,Seram,Buru,Kei Islands,Aru Islands,Sorong,Manokwari,Jayapura,Merauke,Fakfak,Timika,Nabire,Wamena,Biak,Numfor,Yapen,Padang,Solok,Bukittinggi,Pekanbaru,Jambi,Palembang"
 },
 {
     "name": "Gorap",
@@ -1297,7 +1297,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
+  "b": "Jayapura,Sorong,Manokwari,Merauke,Fakfak,Timika,Nabire,Wamena,Biak,Numfor,Yapen,Kei Islands,Aru Islands,Ternate,Tidore,Ambon,Seram,Buru,Halmahera,Bacan,Padang,Solok,Bukittinggi,Pekanbaru"
 },
 {
     "name": "Balinese",
@@ -1306,7 +1306,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
+  "b": "Denpasar,Kuta,Ubud,Seminyak,Canggu,Sanur,Nusa Dua,Lovina,Singaraja,Amed,Tabanan,Gianyar,Badung,Buleleng,Jembrana,Karangasem"
 },
 {
     "name": "Bangladeshi English",
@@ -1315,7 +1315,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
+  "b": "Dhaka,Chittagong,Khulna,Rajshahi,Sylhet,Barisal,Rangpur,Mymensingh,Comilla,Narayanganj,Gazipur,Tangail,Kushtia,Jessore,Bogra,Pabna,Dinajpur,Noakhali,Cox's Bazar,Feni,Lakshmipur,Brahmanbaria,Chandpur,Narsingdi,Manikganj,Munshiganj,Shariatpur,Madaripur,Rajbari,Gopalganj,Faridpur"
 },
 {
     "name": "Banjar",
@@ -1324,7 +1324,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
+  "b": "Banjarmasin,Banjarbaru,Martapura,Landasan,Ulin,Kandangan,Barabai,Rantau,Kuala Bintang,Amuntai,Pagatan,Muara Teweh,Batola,Sungai Buluh,Sungai Tabuk,Kota Baru,Pulau Laut,Pulau Sebuku"
 },
 {
     "name": "Bareqi Arabic",
@@ -1333,7 +1333,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
+  "b": "Bareq,Bisha,Abha,Khamis Mushait,Najran,Jizan,Al Bahah,Baljurashi,Taif,Mecca,Jeddah,Riyadh,Dammam,Khobar,Hofuf,Al-Mubarraz,Al-Kharj,Al-Majma'ah,Al-Qassim,Buraydah,Sakakah,Tabuk,Arar"
 },
 {
     "name": "Bargut",
@@ -1342,7 +1342,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
+  "b": "Hulunbuir,Barguzin Valley,Onon River,Khalkha,Ulan-Ude,Irkutsk,Chita,Ulaanbaatar,Hailar,Manzhouli,Arxan,Yakeshi,Genhe,Ergun,Shiwei,Enhe,Baiyin,Xin Barag Left Banner,Xin Barag Right Banner,Old Bargut,New Bargut,Barga,Barag,Borjigin,Kherlen,Hulun Lake,Buir Lake,Dalai Lake"
 },
 {
     "name": "Bargut Buryat",
@@ -1351,7 +1351,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
+  "b": "Hulunbuir,Barguzin,Ulan-Ude,Irkutsk,Chita,Ulaanbaatar,Hailar,Manzhouli,Arxan,Yakeshi,Genhe,Ergun,Shiwei,Enhe,Baiyin,Xin Barag Left Banner,Xin Barag Right Banner,Old Bargut,New Bargut,Barga,Barag,Borjigin,Kherlen,Hulun Lake,Buir Lake,Dalai Lake"
 },
 {
     "name": "Barwar",
@@ -1360,7 +1360,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
+  "b": "Barwar,Lakhimpur,Lucknow,Gonda,Sitapur,Shahjahanpur,Bareilly,Moradabad,Meerut,Aligarh,Agra,Kanpur,Allahabad,Varanasi,Gorakhpur,Deoria,Ballia,Mau,Azamgarh,Jaunpur,Sultanpur,Faizabad,Ambedkar Nagar,Barabanki,Rae Bareli,Unnao,Hardoi,Pilibhit,Badaun,Rampur,Saharanpur,Shamli,Baghpat,Hapur,Ghaziabad,Bulandshahr,Muzaffarnagar"
 },
 {
     "name": "Barzani Jewish Neo-Aramaic",
@@ -1369,7 +1369,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
+  "b": "Barzan,Erbil,Sulaymaniyah,Duhok,Kirkuk,Amedi,Zakho,Amadiya,Shaqlawa,Rawandiz,Soran,Choman,Akre,Bashiqa,Bahzani,Alqosh,Tel Keppe,Bartella,Karamles,Bakhdida,Nimrud,Assur,Nineveh"
 },
 {
     "name": "Bathari",
@@ -1378,7 +1378,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
+  "b": "Dhofar,Salalah,Mirbat,Sadah,Taqah,Rakhyut,Shihr,Mukalla,Ash Shihr,Al-Ghaydah,Al-Mukalla,Aden,Taiz,Ibb,Sana'a,Amran,Sa'dah,Hajjah,Al Hudaydah,Al Bayda',Dhamar,Ibb,Taiz,Lahij,Abyan,Shabwah,Hadhramaut,Sayun,Tarim,Al-Qatn,Shibam"
 },
 {
     "name": "Bats",
@@ -1387,7 +1387,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
+  "b": "Zemo Alvani,Akhmeta,Telavi,Kvareli,Lagodekhi,Sighnaghi,Dedoplistskaro,Gardabani,Marneuli,Bolnisi,Dmanisi,Tsalka,Tetritskaro,Mtskheta,Gori,Kaspi,Khashuri,Kareli,Borjomi,Akhaltsikhe,Adigeni,Aspindza,Akhalkalaki,Ninotsminda"
 },
 {
     "name": "Toba Batak",
@@ -1396,7 +1396,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
+  "b": "Parapat,Pangururan,Onan Runggu,Simanindo,Harianja,Sianjur Mula-mula,Lumban Julu,Balige,Laguboti,Porsea,Ajibata,Sigapiton,Medan,Binjai,Stabat,Tanjung Pura,Asahan,Tanjung Balai,Rantau Prapat,Kisaran,Tebing Tinggi,Pematangsiantar,Padang Sidempuan"
 },
 {
     "name": "Bugan",
@@ -1405,7 +1405,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
+  "b": "Laowalong,Xinwalong,Jiuping,Shibeipo,Xinzhai,Manlong,Nala,Guangnan,Xichou,Wenshan,Yunnan"
 },
 {
     "name": "Balochi, Sulaimani",
@@ -1414,7 +1414,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
+  "b": "Quetta,Kalat,Khuzdar,Sibi,Dera Ghazi Khan,Taunsa,Sindh,Punjab,Marri,Bugti,Leghari,Mazari,Buzdar,Lashari,Rind,Mengal,Talpur,Karachi,Hyderabad,Mirpur Khas,Nawabshah,Sanghar"
 },
 {
     "name": "Badeshi",
@@ -1423,7 +1423,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
+  "b": "Bishigram Valley,Chail,Madyan,Swat,Kohistan,Tirat Valley,Dir,Shangla,Alai,Mansehra,Khyber Pakhtunkhwa,Pakistan"
 },
 {
     "name": "Tuvan",
@@ -1432,7 +1432,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
+  "b": "Kyzyl,Ak-Dovurak,Kyzyl-Dag,Bay-Khaak,Mugur-Aksy,Kungurtug,Saryg-Sep,Chaa-Khol,Khandagayty,Todja,Kyzyl-Mazhalyk,Teeli,Ter-Khol"
 },
 {
     "name": "Ili Turki",
@@ -1441,7 +1441,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
+  "b": "Yining,Ghulja,Kulja,Ningyuan,Xinjiang,Urumqi,Kashgar,Turpan,Khotan,Yarkand,Aksu,Kucha,Atush,Bayingolin,Ili,Dzungaria"
 },
 {
     "name": "Fuyu Kyrgyz",
@@ -1450,7 +1450,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
+  "b": "Fuyu,Qiqihar,Heilongjiang,Harbin,Changchun,Shenyang,Mudanjiang,Jiamusi,Shuangyashan,Hegang,Jixi,Qitaihe"
 },
 {
     "name": "Salar",
@@ -1459,7 +1459,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
+  "b": "Xining,Haidong,Hualong,Xunhua,Gansu,Linxia,Gonghe,Jainca,Guide,Qinghai"
 },
 {
     "name": "Mulam",
@@ -1468,7 +1468,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
+  "b": "Luocheng,Dongmen,Luoyang,Siba,Jiazhuan,Yizhou,Guangxi,Huanjiang,Du'an,Dahua,Lingyun,Leye,Tianlin"
 },
 {
     "name": "Be",
@@ -1477,7 +1477,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
+  "b": "Haikou,Wenchang,Qionghai,Wanning,Sanya,Dongfang,Ledong,Lingshui,Baoting,Qiongzhong,Changjiang,Baisha"
 },
 {
     "name": "Bouyei",
@@ -1486,7 +1486,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
+  "b": "Xingyi,Xingren,Puan,Zhenfeng,Qinglong,Zhenyuan,Wangmo,Ceheng,Anlong,Guanling,Pu'an,Luodian,Duyun,Dushan"
 },
 {
     "name": "E Tai",
@@ -1495,7 +1495,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
+  "b": "Jinping,Mengla,Mohan,Jinghong,Pu'er,Lincang,Baoshan,Dehong,Xishuangbanna,Yunnan,Gejiu,Kaiyuan,Mengzi,Hekou"
 },
 {
     "name": "Lao Nyo",
@@ -1504,7 +1504,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
+  "b": "Luang Prabang,Vientiane,Savannakhet,Pakse,Champasak,Attapeu,Xekong,Bolikhamxai,Khammouane,Vientiane Province,Nabong,Hinboun,Nape"
 },
 {
     "name": "Tai Muong Vat",
@@ -1513,7 +1513,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
+  "b": "Dien Bien,Lai Chau,Son La,Hoa Binh,Thanh Hoa,Nghe An,Ha Tinh,Quang Binh,Quang Tri,Thua Thien,Nghia Lo,Muong Lat,Tuong Duong"
 },
 {
     "name": "Lao Phutai",
@@ -1522,7 +1522,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
+  "b": "Luang Prabang,Vientiane,Savannakhet,Pakse,Champasak,Attapeu,Xekong,Bolikhamxai,Khammouane,Vientiane Province,Nabong,Hinboun,Nape"
 },
 {
     "name": "Pa Di",
@@ -1531,7 +1531,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
+  "b": "Lao Cai,Yen Bai,Ha Giang,Cao Bang,Lang Son,Bac Kan,Tuyen Quang,Thai Nguyen,Phu Tho,Vinh Bac,Ninh Binh,Nam Dinh,Thai Binh"
 },
 {
     "name": "Thai Song",
@@ -1540,7 +1540,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
+  "b": "Nakhon Sawan,Chai Nat,Sing Buri,Lop Buri,Ang Thong,Ayutthaya,Suphan Buri,Nakhon Pathom,Ratchaburi,Samut Sakhon,Samut Songkhram,Phetchaburi"
 },
 {
     "name": "Northwestern Tai",
@@ -1549,7 +1549,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
+  "b": "Chiang Mai,Chiang Rai,Lampang,Lamphun,Mae Hong Son,Nan,Phayao,Phrae,Uttaradit,Sukhothai,Phetchabun,Phitsanulok"
 },
 {
     "name": "Southwestern Tai",
@@ -1558,7 +1558,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
+  "b": "Bangkok,Nakhon Pathom,Samut Prakan,Nonthaburi,Pathum Thani,Phra Nakhon Si Ayutthaya,Ang Thong,Lop Buri,Sing Buri,Chai Nat,Saraburi"
 },
 {
     "name": "tay-tai",
@@ -1567,7 +1567,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
+  "b": "Hanoi,Haiphong,Da Nang,Ho Chi Minh City,Can Tho,Nha Trang,Vung Tau,Hue,Quy Nhon,Buon Ma Thuot,Phan Thiet,My Tho"
 },
 {
     "name": "tai",
@@ -1576,7 +1576,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
+  "b": "Bangkok,Chiang Mai,Luang Prabang,Vientiane,Hanoi,Phnom Penh,Yangon,Mandalay,Singapore,Kuala Lumpur"
 },
 {
     "name": "tay-tac",
@@ -1585,7 +1585,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
+  "b": "Lao Cai,Yen Bai,Ha Giang,Cao Bang,Lang Son,Bac Kan,Tuyen Quang,Thai Nguyen,Phu Tho,Vinh Bac,Ninh Binh,Nam Dinh,Thai Binh"
 },
 {
     "name": "northern-tai",
@@ -1594,7 +1594,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
+  "b": "Chiang Mai,Chiang Rai,Lampang,Lamphun,Mae Hong Son,Nan,Phayao,Phrae,Uttaradit,Sukhothai,Phetchabun,Phitsanulok"
 },
 {
     "name": "min-zhuang",
@@ -1603,7 +1603,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
+  "b": "Guangxi,Yunnan,Guizhou,Hainan,Guangdong,Fujian,Jiangxi,Hunan,Guangzhou,Nanning,Kunming,Guiyang,Haikou,Shenzhen,Zhuhai"
 },
 {
     "name": "tai-long",
@@ -1612,7 +1612,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
+  "b": "Tho,Thai Binh,Hai Phong,Haiphong,Quang Ninh,Hai Duong,Hung Yen,Bac Ninh,Bac Giang,Phu Tho,Vinh Yen,Tuyen Quang,Lang Son,Cao Bang,Bac Kan"
 },
 {
     "name": "yei-zhuang",
@@ -1621,7 +1621,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
+  "b": "Guangxi,Yunnan,Guizhou,Hainan,Guangdong,Fujian,Jiangxi,Hunan,Guangzhou,Nanning,Kunming,Guiyang,Haikou,Shenzhen,Zhuhai"
 },
 {
     "name": "tai-daeng",
@@ -1630,7 +1630,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
+  "b": "Ubon Ratchathani,Sisaket,Roi Et,Yasothon,Amnat Charoen,Buriram,Nakhon Ratchasima,Chaiyaphum,Khon Kaen,Maha Sarakham,Kalasin,Sakon Nakhon,Nakhon Phanom,Mukdahan,Loei,Nong Khai,Bueng Kan,Nong Bua Lamphu,Udon Thani"
 },
 {
     "name": "Beijing Mandarin",
@@ -1639,7 +1639,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
+  "b": "Beijing,Tianjin,Shijiazhuang,Tangshan,Baoding,Langfang,Cangzhou,Handan,Xingtai,Chengde,Zhangjiakou,Hengshui,Qinhuangdao"
 },
 {
     "name": "Betanure Jewish Neo-Aramaic",
@@ -1648,7 +1648,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
+  "b": "Betanure,Barzan,Erbil,Sulaymaniyah,Duhok,Kirkuk,Amedi,Zakho,Amadiya,Shaqlawa,Rawandiz,Soran,Choman,Akre,Bashiqa,Bahzani,Alqosh,Tel Keppe,Bartella,Karamles,Bakhdida"
 },
 {
     "name": "Betta Kurumba",
@@ -1657,7 +1657,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
+  "b": "Nilgiris,Coimbatore,Erode,Tiruppur,Salem,Dharmapuri,Krishnagiri,Vellore,Chittoor,Anantapur,Kurnool,Prakasam,Guntur,Visakhapatnam,Vizianagaram,Srikakulam"
 },
 {
     "name": "Hokkien",
@@ -1666,7 +1666,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
+  "b": "Xiamen,Quanzhou,Zhangzhou,Putian,Fuzhou,Longyan,Sanming,Nanping,Shantou,Chaozhou,Jieyang,Puning,Meizhou"
 },
 {
     "name": "Teochew Min",
@@ -1675,7 +1675,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
+  "b": "Shantou,Chaozhou,Jieyang,Puning,Meizhou,Shanwei,Huizhou,Dongguan,Shenzhen,Hong Kong,Macau,Guangzhou,Foshan"
 },
 {
     "name": "Hainanese",
@@ -1684,7 +1684,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
+  "b": "Haikou,Sanya,Wenchang,Qionghai,Wanning,Dongfang,Ledong,Lingshui,Baoting,Qiongzhong,Changjiang,Baisha"
 },
 {
     "name": "Leizhou Min",
@@ -1693,7 +1693,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
+  "b": "Leizhou,Xuwen,Suixi,Haikang,Lianjiang,Zhanjiang,Maoming,Dianbai,Wuchuan,Huazhou"
 },
 {
     "name": "Pu-Xian Min",
@@ -1702,7 +1702,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
+  "b": "Putian,Xianyou,Quanzhou,Fuzhou,Nanping,Sanming,Longyan,Zhangzhou,Xiamen"
 },
 {
     "name": "Haklau Min",
@@ -1711,7 +1711,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
+  "b": "Shanwei,Haifeng,Lufeng,Hailufeng,Haicheng,Lianhua Mountains,Luo River,South China Sea"
 },
 {
     "name": "Haryanvi",
@@ -1720,7 +1720,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
+  "b": "Hisar,Rohtak,Panipat,Karnal,Ambala,Kurukshetra,Sonipat,Jhajjar,Bhiwani,Charkhi Dadri,Fatehabad,Sirsa"
 },
 {
     "name": "Balochi, Makrani",
@@ -1729,7 +1729,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
+  "b": "Gwadar,Turbat,Pasni,Ormara,Kech,Makran,Chabahar,Karachi,Sibi,Quetta,Kalat,Khuzdar"
 },
 {
     "name": "Balochi, Rakhshani",
@@ -1738,7 +1738,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
+  "b": "Quetta,Kalat,Khuzdar,Sibi,Dhadar,Bolan,Mastung,Chagai,Nushki,Washuk,Kharan,Saranan,Pishin"
 },
 {
     "name": "Bagri",
@@ -1747,7 +1747,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
+  "b": "Bikaner,Hanumangarh,Sri Ganganagar,Churu,Jhunjhunu,Sikar,Nagaur,Jaipur,Ajmer,Tonk,Bundi,Kota"
 },
 {
     "name": "Bawm",
@@ -1756,7 +1756,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
+  "b": "Chin State,Mizoram,Lushai Hills,Aizawl,Lunglei,Saiha,Champhai,Serchhip,Khawzawl,Lawngtlai"
 },
 {
     "name": "Bola",
@@ -1765,7 +1765,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
+  "b": "New Britain,Pomio,Kokopo,Rabaul,Buka,Kavieng,Lorengau,Vanimo,West New Britain,East New Britain"
 },
 {
     "name": "Chashan",
@@ -1774,7 +1774,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
+  "b": "Chashan,Dehong,Yunnan,Baoshan,Tengchong,Yingjiang,Lianghe,Ruili,Wanding,Pu'er,Lincang"
 },
 {
     "name": "Langsu",
@@ -1783,7 +1783,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
+  "b": "Luxi City,Yingpan Township,Lianghe County,Mengyang Township,Longchuan County,Bangwai Township,Jingkan Township,Dehong,Yunnan"
 },
 {
     "name": "Lashi",
@@ -1792,7 +1792,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
+  "b": "Mangshi City,Manghai Township,Zhongshan Township,Dongshan Township,Santai Township,Ruili City,Longchuan County,Yingjiang County,Dehong,Yunnan,Kachin State,Shan State"
 },
 {
     "name": "Zaiwa",
@@ -1801,7 +1801,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
+  "b": "Bangwa,Longchuan County,Zhanxi,Yingjiang County,Xishan,Mangshi,Dehong,Yunnan,Sadon,Myitkyina,Kachin State,Shan State"
 },
 {
     "name": "Bijiang Bai lect",
@@ -1810,7 +1810,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
+  "b": "Bijiang,Lanping,Yunnan,Nujiang,Lushui,Fugong,Gongshan,Weixi,Deqin,Zhongdian,Shangri-La"
 },
 {
     "name": "Bijiang Bai language",
@@ -1819,7 +1819,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
+  "b": "Bijiang,Lanping,Yunnan,Nujiang,Lushui,Fugong,Gongshan,Weixi,Deqin,Zhongdian,Shangri-La"
 },
 {
     "name": "Dali Bai lect",
@@ -1828,7 +1828,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
+  "b": "Dali,Xiaguan,Weishan,Eryuan,Yangbi,Yunlong,Heqing,Jianchuan,Lanping,Baoshan"
 },
 {
     "name": "Dali Bai language",
@@ -1837,7 +1837,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
+  "b": "Dali,Xiaguan,Weishan,Eryuan,Yangbi,Yunlong,Heqing,Jianchuan,Lanping,Baoshan"
 },
 {
     "name": "Heqing Bai lect",
@@ -1846,7 +1846,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
+  "b": "Heqing,Yunnan,Dali,Bai,Shangguan,Xiaguan,Weishan,Eryuan,Yangbi,Yunlong,Jianchuan,Lanping"
 },
 {
     "name": "Xiangyun Bai dialect",
@@ -1855,7 +1855,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
+  "b": "Xiangyun,Yunnan,Dali,Bai,Lanjian,Weishan,Eryuan,Yangbi,Yunlong,Heqing,Jianchuan,Lanping"
 },
 {
     "name": "Choyo",
@@ -1864,7 +1864,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
+  "b": "Yajiang,Litang,Daocheng,Xiangcheng,Derong,Batang,Sêrba,Gyaitang,Dêgê,Garzê,Sichuan"
 },
 {
     "name": "Gyalrong",
@@ -1873,7 +1873,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
+  "b": "Barkam,Wenchuan,Lixian,Jinchuan,Zagunao,Heishui,Maerkang,Xiaojin,Danba,Sichuan"
 },
 {
     "name": "Horpa",
@@ -1882,7 +1882,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
+  "b": "Dawu,Luhuo,Sertar,Ganzi,Danba,Xinlong,Yajiang,Litang,Dêgê,Sichuan"
 },
 {
     "name": "Khroskyabs",
@@ -1891,7 +1891,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
+  "b": "Dawu,Luhuo,Sertar,Ganzi,Danba,Xinlong,Yajiang,Litang,Dêgê,Sichuan"
 },
 {
     "name": "Muya",
@@ -1900,7 +1900,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
+  "b": "Kangding,Luding,Xinlong,Yajiang,Litang,Daocheng,Xiangcheng,Derong,Batang,Sichuan"
 },
 {
     "name": "Prinmi",
@@ -1909,7 +1909,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
+  "b": "Luhuo,Sertar,Ganzi,Danba,Xinlong,Yajiang,Litang,Dêgê,Sichuan"
 },
 {
     "name": "Zhaba",
@@ -1918,7 +1918,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
+  "b": "Zhaba,Daofu,Luhuo,Sertar,Ganzi,Danba,Xinlong,Yajiang,Litang,Dêgê,Sichuan"
 },
 {
     "name": "Mang",
@@ -1927,7 +1927,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
+  "b": "Mang,Zhaba,Daofu,Luhuo,Sertar,Ganzi,Danba,Xinlong,Yajiang,Litang,Dêgê,Sichuan"
 },
 {
     "name": "Bolyu",
@@ -1936,7 +1936,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
+  "b": "Longlin County,Xilin County,Guangxi,Douhong,Xinhe Village,Changfa Township,Kechang,De'e,Changme,Guosha,Hengsha,Wenya Village,Puhe Miao Autonomous Township,Naya,Badahe Township"
 },
 {
     "name": "Blang",
@@ -1945,7 +1945,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
+  "b": "Menghai County,Bulangshan District,Xinman'e,Guanshuang,Mengman Township,Jinghong County,Xiaomengyang,Damenglong,Mengpeng Town,Xishuangbanna,Lincang,Simao,Shuangjiang,Yongde,Yunxian,Gengma,Lancang,Mojiang,Baoshan"
 },
 {
     "name": "Bhili",
@@ -1954,7 +1954,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Bangkok,Jakarta,Manila,Kuala Lumpur,Singapore,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Dhaka,Colombo,Kathmandu,Thimphu,Islamabad,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh"
+  "b": "Rajasthan,Gujarat,Madhya Pradesh,Maharashtra,Dadra and Nagar Haveli,Daman and Diu,Bhil Pradesh,Aravalli Range,Satpura Range,Jhabua,Chhota Udepur,Dhar,Barwani,Jhalawar,Banswara,Dungarpur"
 },
 {
     "name": "Bhaya",
