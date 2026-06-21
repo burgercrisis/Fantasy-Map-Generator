@@ -244,7 +244,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibadan,Kumasi,Tamale,Bissau,Banjul,Sekondi,Navrongo,Bolgatanga,Siguiri,Nzérékoré,Kédougou,Falémé,Sikasso,Ségou,Mopti,Gao,Tombouctou,El Fasher,Nyala,Kutum,Kabkabiya,El Geneina,Mellit,Tina,Tawila,Kornoi,Um Keddada,Zalingei,Mukjar,Abu Adam,Um Dafuq,Ed Damazin,Al Roseires,Kurmuk"
+  "b": "Lisala,Bumba,Bongandanga,Mbandaka,Boende,Bokula,Likimi,Mobeka,Bokanga,Bingaka,Lukolela,Basankusu,Ingende,Bikoro,Makanza,Bolombo,Bondongo,Bonkula,Lusankani,Mpama,Boboka,Bolombo"
 },
 {
     "name": "Buyu",
@@ -1711,7 +1711,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibadan,Kumasi,Tamale,Bissau,Banjul,Sekondi,Navrongo,Bolgatanga,Siguiri,Nzérékoré,Kédougou,Falémé,Sikasso,Ségou,Mopti,Gao,Tombouctou,El Fasher,Nyala,Kutum,Kabkabiya,El Geneina,Mellit,Tina,Tawila,Kornoi,Um Keddada,Zalingei,Mukjar,Abu Adam,Um Dafuq,Ed Damazin,Al Roseires,Kurmuk"
+  "b": "Makokou,Mékambo,Booué,Ovan,Okondja,Kelle,Mbomo,Kongou,Mingouli,Lopé,Ivindo,Mokéko,Zadié,Mwagna,Minkébé,Djouah,Liboumba,Mounianghi,Ipassa,Bouvinga"
 },
 {
     "name": "Kuturmi",
@@ -2539,7 +2539,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibadan,Kumasi,Tamale,Bissau,Banjul,Sekondi,Navrongo,Bolgatanga,Siguiri,Nzérékoré,Kédougou,Falémé,Sikasso,Ségou,Mopti,Gao,Tombouctou,El Fasher,Nyala,Kutum,Kabkabiya,El Geneina,Mellit,Tina,Tawila,Kornoi,Um Keddada,Zalingei,Mukjar,Abu Adam,Um Dafuq,Ed Damazin,Al Roseires,Kurmuk"
+  "b": "Numan,Demsa,Lamurde,Guyuk,Mayobelwa,Bali,Garkida,Mubi,Yola,Numan,Demsa,Lamurde,Guyuk,Mayobelwa,Bali,Garkida,Mubi,Yola,Jimeta,Ganye,Gombi,Hong,Song,Fufore,Dong,Konkol,Belel,Kiri,Kumo,Bashar"
 },
 {
     "name": "Barambu",
@@ -3028,13 +3028,13 @@ window.africaNameBases = [
   "b": "Abuja,New Karshi,Karu,Minna,Bida,Lokoja,Kaduna,Kano,Abuja,New Karshi,Karu,Minna,Bida,Lokoja,Kaduna,Kano,Abuja,New Karshi,Karu,Minna,Bida,Lokoja,Kaduna,Kano,Abuja,New Karshi,Karu,Minna,Bida,Lokoja,Kaduna,Kano"
 },
 {
-    "name": "Han-Samhan",
+    "name": "Komo",
   "i": 11646,
   "min": 4,
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibadan,Kumasi,Tamale,Bissau,Banjul,Sekondi,Navrongo,Bolgatanga,Siguiri,Nzérékoré,Kédougou,Falémé,Sikasso,Ségou,Mopti,Gao,Tombouctou,El Fasher,Nyala,Kutum,Kabkabiya,El Geneina,Mellit,Tina,Tawila,Kornoi,Um Keddada,Zalingei,Mukjar,Abu Adam,Um Dafuq,Ed Damazin,Al Roseires,Kurmuk"
+  "b": "Asosa,Gambella,Kurmuk,Assosa,Penishuba,Yabeldigis,Mao,Komo,Ura,Aftit,Bisha,Guba,Didessa,Omo,Beloj,Dabus,Sherkole,Menge,Durame,Kacha,Bita"
 },
 {
     "name": "Omaio",
@@ -3097,7 +3097,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibadan,Kumasi,Tamale,Bissau,Banjul,Sekondi,Navrongo,Bolgatanga,Siguiri,Nzérékoré,Kédougou,Falémé,Sikasso,Ségou,Mopti,Gao,Tombouctou,El Fasher,Nyala,Kutum,Kabkabiya,El Geneina,Mellit,Tina,Tawila,Kornoi,Um Keddada,Zalingei,Mukjar,Abu Adam,Um Dafuq,Ed Damazin,Al Roseires,Kurmuk"
+  "b": "Bokkos,Daffo,Butura,Mbar,Manguna,Shagawu,Hottom,Maiduna,Hurum,Fanga,Kandik,Faram,Mandung,Mayi,Josho,Mahurum,Hurti,Gwande,Dambwash,Karfa,Mangu,Pankshin,Tambas,Fyer,Sha,Mundat,Kulere,Richa"
 },
 {
     "name": "Venda",
@@ -3172,13 +3172,13 @@ window.africaNameBases = [
   "b": "Mtwara,Lindi,Masasi,Nachingwea,Ruangwa,Newala,Tunduru,Mtwara,Lindi,Masasi,Nachingwea,Ruangwa,Newala,Tunduru,Mtwara,Lindi,Masasi,Nachingwea,Ruangwa,Newala,Tunduru,Mtwara,Lindi,Masasi,Nachingwea,Ruangwa,Newala,Tunduru"
 },
 {
-    "name": "Setl'kwa",
+    "name": "Kunda",
   "i": 13664,
   "min": 4,
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibadan,Kumasi,Tamale,Bissau,Banjul,Sekondi,Navrongo,Bolgatanga,Siguiri,Nzérékoré,Kédougou,Falémé,Sikasso,Ségou,Mopti,Gao,Tombouctou,El Fasher,Nyala,Kutum,Kabkabiya,El Geneina,Mellit,Tina,Tawila,Kornoi,Um Keddada,Zalingei,Mukjar,Abu Adam,Um Dafuq,Ed Damazin,Al Roseires,Kurmuk"
+  "b": "Mambwe,Luangwa,Guruve,Tete,Nsefu,Kakumbi,Malama,Mnkhanya,Msoro,Jumbe,Lundazi,Petauke,Katete,Chipata,Mfuwe,Chongwe,Chadiza,Chipangali,Vubwi,Chama"
 },
 {
     "name": "Shanjo",
@@ -3700,7 +3700,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibadan,Kumasi,Tamale,Bissau,Banjul,Sekondi,Navrongo,Bolgatanga,Siguiri,Nzérékoré,Kédougou,Falémé,Sikasso,Ségou,Mopti,Gao,Tombouctou,El Fasher,Nyala,Kutum,Kabkabiya,El Geneina,Mellit,Tina,Tawila,Kornoi,Um Keddada,Zalingei,Mukjar,Abu Adam,Um Dafuq,Ed Damazin,Al Roseires,Kurmuk"
+  "b": "Bicizà,Bintiri,Biso,Rumana,Gbandaŋ,Mairaga,Rumfán Gwomna,Kwana,Séréri,Ugbara,Jéjin Filí,Urèkùn,Gindau,Tasha,Bassa,Jos,Kafanchan,Shedam,Rukuba,Dungu,Mazan,Bicizà"
 },
 {
     "name": "Bozo",
@@ -3709,7 +3709,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibadan,Kumasi,Tamale,Bissau,Banjul,Sekondi,Navrongo,Bolgatanga,Siguiri,Nzérékoré,Kédougou,Falémé,Sikasso,Ségou,Mopti,Gao,Tombouctou,El Fasher,Nyala,Kutum,Kabkabiya,El Geneina,Mellit,Tina,Tawila,Kornoi,Um Keddada,Zalingei,Mukjar,Abu Adam,Um Dafuq,Ed Damazin,Al Roseires,Kurmuk"
+  "b": "Mopti,Djenné,Ségou,Bamako,Diafarabé,Pondori,Kotya,Korondugu,Debo,Mopti,Djenné,Ségou,Bamako,Diafarabé,Pondori,Kotya,Korondugu,Debo"
 },
 {
     "name": "Buu",
@@ -3745,7 +3745,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibadan,Kumasi,Tamale,Bissau,Banjul,Sekondi,Navrongo,Bolgatanga,Siguiri,Nzérékoré,Kédougou,Falémé,Sikasso,Ségou,Mopti,Gao,Tombouctou,El Fasher,Nyala,Kutum,Kabkabiya,El Geneina,Mellit,Tina,Tawila,Kornoi,Um Keddada,Zalingei,Mukjar,Abu Adam,Um Dafuq,Ed Damazin,Al Roseires,Kurmuk"
+  "b": "Beba,Nsoka,Mbekunyam,Ntadiambo,Muala,Mbamba,Shisong,Fombi,Agah,Widikum,Bamenda,Mbengwi,Ntamecheh,Menchum,Benakuma,Ntarinkon,Bombe,Bazhi,Bebadji,Mubadji"
 },
 {
     "name": "Amira",
@@ -3961,7 +3961,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibadan,Kumasi,Tamale,Bissau,Banjul,Sekondi,Navrongo,Bolgatanga,Siguiri,Nzérékoré,Kédougou,Falémé,Sikasso,Ségou,Mopti,Gao,Tombouctou,El Fasher,Nyala,Kutum,Kabkabiya,El Geneina,Mellit,Tina,Tawila,Kornoi,Um Keddada,Zalingei,Mukjar,Abu Adam,Um Dafuq,Ed Damazin,Al Roseires,Kurmuk"
+  "b": "Uvira,Fizi,Itombwe,Kalemie,Mwenga,Baraka,Kazimia,Swema,Sebele,Makobola,Minembwe,Kilembwe,Lulimba,Kasongo,Lubilo,Misisi,Kaziba,Luberizi,Ruzizi,Uvira,Malemba"
 },
 {
     "name": "Comorian",
@@ -3970,7 +3970,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibadan,Kumasi,Tamale,Bissau,Banjul,Sekondi,Navrongo,Bolgatanga,Siguiri,Nzérékoré,Kédougou,Falémé,Sikasso,Ségou,Mopti,Gao,Tombouctou,El Fasher,Nyala,Kutum,Kabkabiya,El Geneina,Mellit,Tina,Tawila,Kornoi,Um Keddada,Zalingei,Mukjar,Abu Adam,Um Dafuq,Ed Damazin,Al Roseires,Kurmuk"
+  "b": "Moroni,Mutsamudu,Ouani,Mandza,Fomboni,Domoni,Mitsoudjé,Singani,Dembéni,Foumbouni,Moroni,Mutsamudu,Ouani,Mandza,Fomboni,Domoni,Mitsoudjé,Singani,Dembéni,Foumbouni"
 },
 {
     "name": "Bete",
@@ -4015,7 +4015,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibadan,Kumasi,Tamale,Bissau,Banjul,Sekondi,Navrongo,Bolgatanga,Siguiri,Nzérékoré,Kédougou,Falémé,Sikasso,Ségou,Mopti,Gao,Tombouctou,El Fasher,Nyala,Kutum,Kabkabiya,El Geneina,Mellit,Tina,Tawila,Kornoi,Um Keddada,Zalingei,Mukjar,Abu Adam,Um Dafuq,Ed Damazin,Al Roseires,Kurmuk"
+  "b": "Kanam,Wase,Jos,Bukuru,Pankshin,Shendam,Langtang,Mangu,Kanam,Wase,Jos,Bukuru,Pankshin,Shendam,Langtang,Mangu"
 },
 {
     "name": "Boor",
@@ -4024,16 +4024,16 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibadan,Kumasi,Tamale,Bissau,Banjul,Sekondi,Navrongo,Bolgatanga,Siguiri,Nzérékoré,Kédougou,Falémé,Sikasso,Ségou,Mopti,Gao,Tombouctou,El Fasher,Nyala,Kutum,Kabkabiya,El Geneina,Mellit,Tina,Tawila,Kornoi,Um Keddada,Zalingei,Mukjar,Abu Adam,Um Dafuq,Ed Damazin,Al Roseires,Kurmuk"
+  "b": "Dumraw,Bousso,Sarh,Moundou,Doba,Koumra,Moissala,Bébédjia,Dumraw,Bousso,Sarh,Moundou,Doba,Koumra,Moissala,Bébédjia"
 },
 {
-    "name": "Bole Chadic",
+    "name": "Bokoto",
   "i": 20583,
   "min": 4,
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibadan,Kumasi,Tamale,Bissau,Banjul,Sekondi,Navrongo,Bolgatanga,Siguiri,Nzérékoré,Kédougou,Falémé,Sikasso,Ségou,Mopti,Gao,Tombouctou,El Fasher,Nyala,Kutum,Kabkabiya,El Geneina,Mellit,Tina,Tawila,Kornoi,Um Keddada,Zalingei,Mukjar,Abu Adam,Um Dafuq,Ed Damazin,Al Roseires,Kurmuk"
+  "b": "Bangui,Bambari,Bouar,Berberati,Bossangoa,Bozoum,Carnot,Mbaiki,Boda,Bangui,Bambari,Bouar,Berberati,Bossangoa,Bozoum,Carnot,Mbaiki,Boda"
 },
 {
     "name": "Binza",
@@ -4042,7 +4042,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibadan,Kumasi,Tamale,Bissau,Banjul,Sekondi,Navrongo,Bolgatanga,Siguiri,Nzérékoré,Kédougou,Falémé,Sikasso,Ségou,Mopti,Gao,Tombouctou,El Fasher,Nyala,Kutum,Kabkabiya,El Geneina,Mellit,Tina,Tawila,Kornoi,Um Keddada,Zalingei,Mukjar,Abu Adam,Um Dafuq,Ed Damazin,Al Roseires,Kurmuk"
+  "b": "Bolongo,Bondongo,Nzenze,Bobaka,Bongoi,Moteki,Liketa,Bonianga,Ngiri,Ubangi,Mongala,Bumba,Lisala,Ingende,Makanza,Businga,Boteka,Bokuma,Djombo,Senge,Bwamanda"
 },
 {
     "name": "Birri",
@@ -4051,7 +4051,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibadan,Kumasi,Tamale,Bissau,Banjul,Sekondi,Navrongo,Bolgatanga,Siguiri,Nzérékoré,Kédougou,Falémé,Sikasso,Ségou,Mopti,Gao,Tombouctou,El Fasher,Nyala,Kutum,Kabkabiya,El Geneina,Mellit,Tina,Tawila,Kornoi,Um Keddada,Zalingei,Mukjar,Abu Adam,Um Dafuq,Ed Damazin,Al Roseires,Kurmuk"
+  "b": "Rafaï,Obo,Deim Zubeir,Mboto,Munga,Bria,Bangassou,Bambari,Rafaï,Obo,Deim Zubeir,Mboto,Munga,Bria,Bangassou,Bambari"
 },
 {
     "name": "Biseni",
@@ -4069,7 +4069,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibadan,Kumasi,Tamale,Bissau,Banjul,Sekondi,Navrongo,Bolgatanga,Siguiri,Nzérékoré,Kédougou,Falémé,Sikasso,Ségou,Mopti,Gao,Tombouctou,El Fasher,Nyala,Kutum,Kabkabiya,El Geneina,Mellit,Tina,Tawila,Kornoi,Um Keddada,Zalingei,Mukjar,Abu Adam,Um Dafuq,Ed Damazin,Al Roseires,Kurmuk"
+  "b": "Garango,Gomboussougou,Zabré,Tenkodogo,Boudry,Bawku,Nima,Ouagadougou,Barka,Lebir,Lere,Garango,Gomboussougou,Zabré,Tenkodogo,Boudry,Bawku,Nima,Ouagadougou,Barka,Lebir,Lere"
 },
 {
     "name": "Bitare",
@@ -4078,7 +4078,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibadan,Kumasi,Tamale,Bissau,Banjul,Sekondi,Navrongo,Bolgatanga,Siguiri,Nzérékoré,Kédougou,Falémé,Sikasso,Ségou,Mopti,Gao,Tombouctou,El Fasher,Nyala,Kutum,Kabkabiya,El Geneina,Mellit,Tina,Tawila,Kornoi,Um Keddada,Zalingei,Mukjar,Abu Adam,Um Dafuq,Ed Damazin,Al Roseires,Kurmuk"
+  "b": "Baissa,Sardauna,Abong,Mambila,Turan,Takum,Wukari,Gboko,Makurdi,Baissa,Sardauna,Abong,Mambila,Turan,Takum,Wukari,Gboko,Makurdi"
 },
 {
     "name": "Bobo",
@@ -4087,7 +4087,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibadan,Kumasi,Tamale,Bissau,Banjul,Sekondi,Navrongo,Bolgatanga,Siguiri,Nzérékoré,Kédougou,Falémé,Sikasso,Ségou,Mopti,Gao,Tombouctou,El Fasher,Nyala,Kutum,Kabkabiya,El Geneina,Mellit,Tina,Tawila,Kornoi,Um Keddada,Zalingei,Mukjar,Abu Adam,Um Dafuq,Ed Damazin,Al Roseires,Kurmuk"
+  "b": "Bobo-Dioulasso,Banfora,Dédougou,Tenkodogo,Tansila,Koudougou,Ouagadougou,Bobo-Dioulasso,Banfora,Dédougou,Tenkodogo,Tansila,Koudougou,Ouagadougou"
 },
 {
     "name": "Boga",
@@ -4096,7 +4096,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibadan,Kumasi,Tamale,Bissau,Banjul,Sekondi,Navrongo,Bolgatanga,Siguiri,Nzérékoré,Kédougou,Falémé,Sikasso,Ségou,Mopti,Gao,Tombouctou,El Fasher,Nyala,Kutum,Kabkabiya,El Geneina,Mellit,Tina,Tawila,Kornoi,Um Keddada,Zalingei,Mukjar,Abu Adam,Um Dafuq,Ed Damazin,Al Roseires,Kurmuk"
+  "b": "Adamawa,Mubi,Gombi,Song,Fufore,Yola,Demsa,Numan,Ganye,Adamawa,Mubi,Gombi,Song,Fufore,Yola,Demsa,Numan,Ganye"
 },
 {
     "name": "Boko",
@@ -4105,16 +4105,16 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibadan,Kumasi,Tamale,Bissau,Banjul,Sekondi,Navrongo,Bolgatanga,Siguiri,Nzérékoré,Kédougou,Falémé,Sikasso,Ségou,Mopti,Gao,Tombouctou,El Fasher,Nyala,Kutum,Kabkabiya,El Geneina,Mellit,Tina,Tawila,Kornoi,Um Keddada,Zalingei,Mukjar,Abu Adam,Um Dafuq,Ed Damazin,Al Roseires,Kurmuk"
+  "b": "Segbana,Kalalé,Borgu,Bagudo,Baruten,Bussa,Illo,Senji,Kenugbe,Kaoje,Demmo,Swalla,Karalé,Segbana,Borgou,Alibori,Niger,Kebbi,Kwara,Abuja"
 },
 {
-    "name": "Bole Niger-Congo",
+    "name": "Bongo",
   "i": 20596,
   "min": 4,
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibadan,Kumasi,Tamale,Bissau,Banjul,Sekondi,Navrongo,Bolgatanga,Siguiri,Nzérékoré,Kédougou,Falémé,Sikasso,Ségou,Mopti,Gao,Tombouctou,El Fasher,Nyala,Kutum,Kabkabiya,El Geneina,Mellit,Tina,Tawila,Kornoi,Um Keddada,Zalingei,Mukjar,Abu Adam,Um Dafuq,Ed Damazin,Al Roseires,Kurmuk"
+  "b": "Wau,Busere,Tonj,Aguka,Juba,Maridi,Yambio,Rumbek,Aweil,Wau,Busere,Tonj,Aguka,Juba,Maridi,Yambio,Rumbek,Aweil"
 },
 {
     "name": "Bolon",
@@ -4123,7 +4123,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibadan,Kumasi,Tamale,Bissau,Banjul,Sekondi,Navrongo,Bolgatanga,Siguiri,Nzérékoré,Kédougou,Falémé,Sikasso,Ségou,Mopti,Gao,Tombouctou,El Fasher,Nyala,Kutum,Kabkabiya,El Geneina,Mellit,Tina,Tawila,Kornoi,Um Keddada,Zalingei,Mukjar,Abu Adam,Um Dafuq,Ed Damazin,Al Roseires,Kurmuk"
+  "b": "Bobo-Dioulasso,Banfora,Dédougou,Houndé,Nouna,Solenzo,Ouagadougou,Bobo-Dioulasso,Banfora,Dédougou,Houndé,Nouna,Solenzo,Ouagadougou"
 },
 {
     "name": "Bomitaba",
@@ -4132,7 +4132,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibadan,Kumasi,Tamale,Bissau,Banjul,Sekondi,Navrongo,Bolgatanga,Siguiri,Nzérékoré,Kédougou,Falémé,Sikasso,Ségou,Mopti,Gao,Tombouctou,El Fasher,Nyala,Kutum,Kabkabiya,El Geneina,Mellit,Tina,Tawila,Kornoi,Um Keddada,Zalingei,Mukjar,Abu Adam,Um Dafuq,Ed Damazin,Al Roseires,Kurmuk"
+  "b": "Epena,Likouala-aux-Herbes,Impfondo,Ouesso,Bangui,Brazzaville,Epena,Likouala-aux-Herbes,Impfondo,Ouesso,Bangui,Brazzaville"
 },
 {
     "name": "Bomu",
@@ -4141,7 +4141,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibadan,Kumasi,Tamale,Bissau,Banjul,Sekondi,Navrongo,Bolgatanga,Siguiri,Nzérékoré,Kédougou,Falémé,Sikasso,Ségou,Mopti,Gao,Tombouctou,El Fasher,Nyala,Kutum,Kabkabiya,El Geneina,Mellit,Tina,Tawila,Kornoi,Um Keddada,Zalingei,Mukjar,Abu Adam,Um Dafuq,Ed Damazin,Al Roseires,Kurmuk"
+  "b": "San,Tominian,Mandiakuy,Sialo,Dahanmu,Dwemu,Bobo-Dioulasso,Ouagadougou,San,Tominian,Mandiakuy,Sialo,Dahanmu,Dwemu,Bobo-Dioulasso,Ouagadougou"
 },
 {
     "name": "Bongili",
@@ -4150,7 +4150,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibadan,Kumasi,Tamale,Bissau,Banjul,Sekondi,Navrongo,Bolgatanga,Siguiri,Nzérékoré,Kédougou,Falémé,Sikasso,Ségou,Mopti,Gao,Tombouctou,El Fasher,Nyala,Kutum,Kabkabiya,El Geneina,Mellit,Tina,Tawila,Kornoi,Um Keddada,Zalingei,Mukjar,Abu Adam,Um Dafuq,Ed Damazin,Al Roseires,Kurmuk"
+  "b": "Pikounda,Ouesso,Liouesso,Brazzaville,Pointe-Noire,Impfondo,Pikounda,Ouesso,Liouesso,Brazzaville,Pointe-Noire,Impfondo"
 },
 {
     "name": "Bongo",
@@ -4159,7 +4159,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibadan,Kumasi,Tamale,Bissau,Banjul,Sekondi,Navrongo,Bolgatanga,Siguiri,Nzérékoré,Kédougou,Falémé,Sikasso,Ségou,Mopti,Gao,Tombouctou,El Fasher,Nyala,Kutum,Kabkabiya,El Geneina,Mellit,Tina,Tawila,Kornoi,Um Keddada,Zalingei,Mukjar,Abu Adam,Um Dafuq,Ed Damazin,Al Roseires,Kurmuk"
+  "b": "Wau,Busere,Tonj,Aguka,Juba,Maridi,Yambio,Rumbek,Aweil,Wau,Busere,Tonj,Aguka,Juba,Maridi,Yambio,Rumbek,Aweil"
 },
 {
     "name": "Bonjo",
@@ -4168,7 +4168,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibadan,Kumasi,Tamale,Bissau,Banjul,Sekondi,Navrongo,Bolgatanga,Siguiri,Nzérékoré,Kédougou,Falémé,Sikasso,Ségou,Mopti,Gao,Tombouctou,El Fasher,Nyala,Kutum,Kabkabiya,El Geneina,Mellit,Tina,Tawila,Kornoi,Um Keddada,Zalingei,Mukjar,Abu Adam,Um Dafuq,Ed Damazin,Al Roseires,Kurmuk"
+  "b": "Impfondo,Likouala,Ouesso,Bangui,Brazzaville,Pointe-Noire,Impfondo,Likouala,Ouesso,Bangui,Brazzaville,Pointe-Noire"
 },
 {
     "name": "Bono Ghana-Ivory Coast",
@@ -4177,16 +4177,16 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibadan,Kumasi,Tamale,Bissau,Banjul,Sekondi,Navrongo,Bolgatanga,Siguiri,Nzérékoré,Kédougou,Falémé,Sikasso,Ségou,Mopti,Gao,Tombouctou,El Fasher,Nyala,Kutum,Kabkabiya,El Geneina,Mellit,Tina,Tawila,Kornoi,Um Keddada,Zalingei,Mukjar,Abu Adam,Um Dafuq,Ed Damazin,Al Roseires,Kurmuk"
+  "b": "Sunyani,Techiman,Wenchi,Berekum,Dormaa Ahenkro,Atebubu,Kintampo,Nkoranza,Bondoukou,Bono Manso,Begho,Sunyani,Techiman,Wenchi,Berekum,Dormaa Ahenkro,Atebubu,Kintampo,Nkoranza,Bondoukou,Bono Manso,Begho"
 },
 {
-    "name": "Bono Nigeria",
+    "name": "Bura",
   "i": 20605,
   "min": 4,
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibadan,Kumasi,Tamale,Bissau,Banjul,Sekondi,Navrongo,Bolgatanga,Siguiri,Nzérékoré,Kédougou,Falémé,Sikasso,Ségou,Mopti,Gao,Tombouctou,El Fasher,Nyala,Kutum,Kabkabiya,El Geneina,Mellit,Tina,Tawila,Kornoi,Um Keddada,Zalingei,Mukjar,Abu Adam,Um Dafuq,Ed Damazin,Al Roseires,Kurmuk"
+  "b": "Biu,Hawul,Kwaya Kusar,Shani,Bayo,Garkida,Damboa,Gulani,Gujba,Gombe,Biu,Hawul,Kwaya Kusar,Shani,Bayo,Garkida,Damboa,Gulani,Gujba,Gombe"
 },
 {
     "name": "Boon",
@@ -4195,7 +4195,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibadan,Kumasi,Tamale,Bissau,Banjul,Sekondi,Navrongo,Bolgatanga,Siguiri,Nzérékoré,Kédougou,Falémé,Sikasso,Ségou,Mopti,Gao,Tombouctou,El Fasher,Nyala,Kutum,Kabkabiya,El Geneina,Mellit,Tina,Tawila,Kornoi,Um Keddada,Zalingei,Mukjar,Abu Adam,Um Dafuq,Ed Damazin,Al Roseires,Kurmuk"
+  "b": "Jilib,Middle Jubba,Kismayo,Mogadishu,Baidoa,Bardhere,Jilib,Middle Jubba,Kismayo,Mogadishu,Baidoa,Bardhere"
 },
 {
     "name": "Budza",
@@ -4204,7 +4204,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibadan,Kumasi,Tamale,Bissau,Banjul,Sekondi,Navrongo,Bolgatanga,Siguiri,Nzérékoré,Kédougou,Falémé,Sikasso,Ségou,Mopti,Gao,Tombouctou,El Fasher,Nyala,Kutum,Kabkabiya,El Geneina,Mellit,Tina,Tawila,Kornoi,Um Keddada,Zalingei,Mukjar,Abu Adam,Um Dafuq,Ed Damazin,Al Roseires,Kurmuk"
+  "b": "Mbandaka,Bumba,Lisala,Mongala,Yambuli,Kinshasa,Mbandaka,Bumba,Lisala,Mongala,Yambuli,Kinshasa"
 },
 {
     "name": "Buli",
@@ -4213,7 +4213,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibadan,Kumasi,Tamale,Bissau,Banjul,Sekondi,Navrongo,Bolgatanga,Siguiri,Nzérékoré,Kédougou,Falémé,Sikasso,Ségou,Mopti,Gao,Tombouctou,El Fasher,Nyala,Kutum,Kabkabiya,El Geneina,Mellit,Tina,Tawila,Kornoi,Um Keddada,Zalingei,Mukjar,Abu Adam,Um Dafuq,Ed Damazin,Al Roseires,Kurmuk"
+  "b": "Navrongo,Sandema,Fumbisi,Chuchuliga,Bolgatanga,Bawku,Tamale,Navrongo,Sandema,Fumbisi,Chuchuliga,Bolgatanga,Bawku,Tamale"
 },
 {
     "name": "Buru-Angwe",
@@ -4222,16 +4222,16 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibadan,Kumasi,Tamale,Bissau,Banjul,Sekondi,Navrongo,Bolgatanga,Siguiri,Nzérékoré,Kédougou,Falémé,Sikasso,Ségou,Mopti,Gao,Tombouctou,El Fasher,Nyala,Kutum,Kabkabiya,El Geneina,Mellit,Tina,Tawila,Kornoi,Um Keddada,Zalingei,Mukjar,Abu Adam,Um Dafuq,Ed Damazin,Al Roseires,Kurmuk"
+  "b": "Baissa,Sardauna,Takum,Wukari,Gboko,Makurdi,Jalingo,Baissa,Sardauna,Takum,Wukari,Gboko,Makurdi,Jalingo"
 },
 {
-    "name": "Bwi",
+    "name": "Bwamu",
   "i": 20622,
   "min": 4,
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibadan,Kumasi,Tamale,Bissau,Banjul,Sekondi,Navrongo,Bolgatanga,Siguiri,Nzérékoré,Kédougou,Falémé,Sikasso,Ségou,Mopti,Gao,Tombouctou,El Fasher,Nyala,Kutum,Kabkabiya,El Geneina,Mellit,Tina,Tawila,Kornoi,Um Keddada,Zalingei,Mukjar,Abu Adam,Um Dafuq,Ed Damazin,Al Roseires,Kurmuk"
+  "b": "Dédougou,Houndé,Bobo-Dioulasso,Nouna,Fara,Ouagadougou,Dédougou,Houndé,Bobo-Dioulasso,Nouna,Fara,Ouagadougou"
 },
 {
     "name": "Caka",
@@ -4240,7 +4240,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibadan,Kumasi,Tamale,Bissau,Banjul,Sekondi,Navrongo,Bolgatanga,Siguiri,Nzérékoré,Kédougou,Falémé,Sikasso,Ségou,Mopti,Gao,Tombouctou,El Fasher,Nyala,Kutum,Kabkabiya,El Geneina,Mellit,Tina,Tawila,Kornoi,Um Keddada,Zalingei,Mukjar,Abu Adam,Um Dafuq,Ed Damazin,Al Roseires,Kurmuk"
+  "b": "Assaka,Batanga,Akwaya,Mamfe,Bamenda,Buea,Assaka,Batanga,Akwaya,Mamfe,Bamenda,Buea"
 },
 {
     "name": "Cebaara",
@@ -4249,7 +4249,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibadan,Kumasi,Tamale,Bissau,Banjul,Sekondi,Navrongo,Bolgatanga,Siguiri,Nzérékoré,Kédougou,Falémé,Sikasso,Ségou,Mopti,Gao,Tombouctou,El Fasher,Nyala,Kutum,Kabkabiya,El Geneina,Mellit,Tina,Tawila,Kornoi,Um Keddada,Zalingei,Mukjar,Abu Adam,Um Dafuq,Ed Damazin,Al Roseires,Kurmuk"
+  "b": "Korhogo,Ferkessédougou,Boundiali,Odienné,Bouaké,Abidjan,Korhogo,Ferkessédougou,Boundiali,Odienné,Bouaké,Abidjan"
 },
 {
     "name": "Central Atlas Tamazight",
@@ -4258,7 +4258,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibadan,Kumasi,Tamale,Bissau,Banjul,Sekondi,Navrongo,Bolgatanga,Siguiri,Nzérékoré,Kédougou,Falémé,Sikasso,Ségou,Mopti,Gao,Tombouctou,El Fasher,Nyala,Kutum,Kabkabiya,El Geneina,Mellit,Tina,Tawila,Kornoi,Um Keddada,Zalingei,Mukjar,Abu Adam,Um Dafuq,Ed Damazin,Al Roseires,Kurmuk"
+  "b": "Khénifra,Azrou,Ifrane,Sefrou,El Hajeb,Imouzzer Kandar,Meknes,Fes,Khénifra,Azrou,Ifrane,Sefrou,El Hajeb,Imouzzer Kandar,Meknes,Fes"
 },
 {
     "name": "Chopi",
@@ -4267,7 +4267,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibadan,Kumasi,Tamale,Bissau,Banjul,Sekondi,Navrongo,Bolgatanga,Siguiri,Nzérékoré,Kédougou,Falémé,Sikasso,Ségou,Mopti,Gao,Tombouctou,El Fasher,Nyala,Kutum,Kabkabiya,El Geneina,Mellit,Tina,Tawila,Kornoi,Um Keddada,Zalingei,Mukjar,Abu Adam,Um Dafuq,Ed Damazin,Al Roseires,Kurmuk"
+  "b": "Quissico,Zavala,Inhambane,Maxixe,Inharrime,Chidenguele,Maputo,Quissico,Zavala,Inhambane,Maxixe,Inharrime,Chidenguele,Maputo"
 },
 {
     "name": "Tigrinya",
@@ -4276,7 +4276,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibadan,Kumasi,Tamale,Bissau,Banjul,Sekondi,Navrongo,Bolgatanga,Siguiri,Nzérékoré,Kédougou,Falémé,Sikasso,Ségou,Mopti,Gao,Tombouctou,El Fasher,Nyala,Kutum,Kabkabiya,El Geneina,Mellit,Tina,Tawila,Kornoi,Um Keddada,Zalingei,Mukjar,Abu Adam,Um Dafuq,Ed Damazin,Al Roseires,Kurmuk"
+  "b": "Asmara,Mendefera,Adi Quala,Keren,Massawa,Dekemhare,Axum,Mekelle,Adigrat,Asmara,Mendefera,Adi Quala,Keren,Massawa,Dekemhare,Axum,Mekelle,Adigrat"
 },
 {
     "name": "Qwara",
@@ -4285,7 +4285,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibadan,Kumasi,Tamale,Bissau,Banjul,Sekondi,Navrongo,Bolgatanga,Siguiri,Nzérékoré,Kédougou,Falémé,Sikasso,Ségou,Mopti,Gao,Tombouctou,El Fasher,Nyala,Kutum,Kabkabiya,El Geneina,Mellit,Tina,Tawila,Kornoi,Um Keddada,Zalingei,Mukjar,Abu Adam,Um Dafuq,Ed Damazin,Al Roseires,Kurmuk"
+  "b": "Gelegu,Tewodros Ketema,Metemma,Takusa,Alefa,Lake Tana,Gondar,Gelegu,Tewodros Ketema,Metemma,Takusa,Alefa,Lake Tana,Gondar"
 },
 {
     "name": "Dangme",
@@ -4294,7 +4294,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibadan,Kumasi,Tamale,Bissau,Banjul,Sekondi,Navrongo,Bolgatanga,Siguiri,Nzérékoré,Kédougou,Falémé,Sikasso,Ségou,Mopti,Gao,Tombouctou,El Fasher,Nyala,Kutum,Kabkabiya,El Geneina,Mellit,Tina,Tawila,Kornoi,Um Keddada,Zalingei,Mukjar,Abu Adam,Um Dafuq,Ed Damazin,Al Roseires,Kurmuk"
+  "b": "Ada,Kpone,Ningo,Prampram,Shai,Manya Krobo,Yilo Krobo,Osudoku,Accra,Tema,Ada,Kpone,Ningo,Prampram,Shai,Manya Krobo,Yilo Krobo,Osudoku,Accra,Tema"
 },
 {
     "name": "Seychellois Creole",
@@ -4303,7 +4303,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibadan,Kumasi,Tamale,Bissau,Banjul,Sekondi,Navrongo,Bolgatanga,Siguiri,Nzérékoré,Kédougou,Falémé,Sikasso,Ségou,Mopti,Gao,Tombouctou,El Fasher,Nyala,Kutum,Kabkabiya,El Geneina,Mellit,Tina,Tawila,Kornoi,Um Keddada,Zalingei,Mukjar,Abu Adam,Um Dafuq,Ed Damazin,Al Roseires,Kurmuk"
+  "b": "Victoria,Beau Vallon,Anse Royale,Praslin,La Digue,Baie Lazare,Takamaka,Port Glaud,Victoria,Beau Vallon,Anse Royale,Praslin,La Digue,Baie Lazare,Takamaka,Port Glaud"
 },
 {
     "name": "Glavda",
@@ -4312,7 +4312,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibadan,Kumasi,Tamale,Bissau,Banjul,Sekondi,Navrongo,Bolgatanga,Siguiri,Nzérékoré,Kédougou,Falémé,Sikasso,Ségou,Mopti,Gao,Tombouctou,El Fasher,Nyala,Kutum,Kabkabiya,El Geneina,Mellit,Tina,Tawila,Kornoi,Um Keddada,Zalingei,Mukjar,Abu Adam,Um Dafuq,Ed Damazin,Al Roseires,Kurmuk"
+  "b": "Ashigashia,Ngoshie,Bokwa,Amuda,Arboko,Maiduguri,Maroua,Ashigashia,Ngoshie,Bokwa,Amuda,Arboko,Maiduguri,Maroua"
 },
 {
     "name": "Simaa",
@@ -4321,16 +4321,16 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibadan,Kumasi,Tamale,Bissau,Banjul,Sekondi,Navrongo,Bolgatanga,Siguiri,Nzérékoré,Kédougou,Falémé,Sikasso,Ségou,Mopti,Gao,Tombouctou,El Fasher,Nyala,Kutum,Kabkabiya,El Geneina,Mellit,Tina,Tawila,Kornoi,Um Keddada,Zalingei,Mukjar,Abu Adam,Um Dafuq,Ed Damazin,Al Roseires,Kurmuk"
+  "b": "Mongu,Senanga,Kalabo,Lukulu,Zambezi,Rundu,Mongu,Senanga,Kalabo,Lukulu,Zambezi,Rundu"
 },
 {
-    "name": "Tshivenda",
+    "name": "Tswa",
   "i": 20688,
   "min": 4,
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibadan,Kumasi,Tamale,Bissau,Banjul,Sekondi,Navrongo,Bolgatanga,Siguiri,Nzérékoré,Kédougou,Falémé,Sikasso,Ségou,Mopti,Gao,Tombouctou,El Fasher,Nyala,Kutum,Kabkabiya,El Geneina,Mellit,Tina,Tawila,Kornoi,Um Keddada,Zalingei,Mukjar,Abu Adam,Um Dafuq,Ed Damazin,Al Roseires,Kurmuk"
+  "b": "Inhambane,Maxixe,Hlengwe,Dzibi,Dzonga,Mandla,Nhayi,Inhambane,Maxixe,Hlengwe,Dzibi,Dzonga,Mandla,Nhayi"
 },
 {
     "name": "Goemai",
@@ -4339,7 +4339,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibadan,Kumasi,Tamale,Bissau,Banjul,Sekondi,Navrongo,Bolgatanga,Siguiri,Nzérékoré,Kédougou,Falémé,Sikasso,Ségou,Mopti,Gao,Tombouctou,El Fasher,Nyala,Kutum,Kabkabiya,El Geneina,Mellit,Tina,Tawila,Kornoi,Um Keddada,Zalingei,Mukjar,Abu Adam,Um Dafuq,Ed Damazin,Al Roseires,Kurmuk"
+  "b": "Shendam,Jos,Pankshin,Mangu,Bokkos,Langtang,Wase,Shendam,Jos,Pankshin,Mangu,Bokkos,Langtang,Wase"
 },
 {
     "name": "Goji",
@@ -4348,7 +4348,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibadan,Kumasi,Tamale,Bissau,Banjul,Sekondi,Navrongo,Bolgatanga,Siguiri,Nzérékoré,Kédougou,Falémé,Sikasso,Ségou,Mopti,Gao,Tombouctou,El Fasher,Nyala,Kutum,Kabkabiya,El Geneina,Mellit,Tina,Tawila,Kornoi,Um Keddada,Zalingei,Mukjar,Abu Adam,Um Dafuq,Ed Damazin,Al Roseires,Kurmuk"
+  "b": "Bauchi,Azare,Misau,Jama'are,Katagum,Gamawa,Damban,Ningi,Toro,Bauchi,Azare,Misau,Jama'are,Katagum,Gamawa,Damban,Ningi,Toro"
 },
 {
     "name": "Sebat Bet",
@@ -4357,16 +4357,16 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibadan,Kumasi,Tamale,Bissau,Banjul,Sekondi,Navrongo,Bolgatanga,Siguiri,Nzérékoré,Kédougou,Falémé,Sikasso,Ségou,Mopti,Gao,Tombouctou,El Fasher,Nyala,Kutum,Kabkabiya,El Geneina,Mellit,Tina,Tawila,Kornoi,Um Keddada,Zalingei,Mukjar,Abu Adam,Um Dafuq,Ed Damazin,Al Roseires,Kurmuk"
+  "b": "Cheha,Meskan,Ezhana Wolene,Gumer,Geta,Enemorina Eaner,Addis Ababa,Cheha,Meskan,Ezhana Wolene,Gumer,Geta,Enemorina Eaner,Addis Ababa"
 },
 {
-    "name": "Ulbare",
+    "name": "Umbundu",
   "i": 20694,
   "min": 4,
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibadan,Kumasi,Tamale,Bissau,Banjul,Sekondi,Navrongo,Bolgatanga,Siguiri,Nzérékoré,Kédougou,Falémé,Sikasso,Ségou,Mopti,Gao,Tombouctou,El Fasher,Nyala,Kutum,Kabkabiya,El Geneina,Mellit,Tina,Tawila,Kornoi,Um Keddada,Zalingei,Mukjar,Abu Adam,Um Dafuq,Ed Damazin,Al Roseires,Kurmuk"
+  "b": "Huambo,Bié,Benguela,Lobito,Luanda,Lubango,Saurimo,Cuíto,Huambo,Bié,Benguela,Lobito,Luanda,Lubango,Saurimo,Cuíto"
 },
 {
     "name": "Wolane",
@@ -4375,7 +4375,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibadan,Kumasi,Tamale,Bissau,Banjul,Sekondi,Navrongo,Bolgatanga,Siguiri,Nzérékoré,Kédougou,Falémé,Sikasso,Ségou,Mopti,Gao,Tombouctou,El Fasher,Nyala,Kutum,Kabkabiya,El Geneina,Mellit,Tina,Tawila,Kornoi,Um Keddada,Zalingei,Mukjar,Abu Adam,Um Dafuq,Ed Damazin,Al Roseires,Kurmuk"
+  "b": "Wolane Jimma,Mahal Amba,Addis Ababa,Harar,Hadiya,Wolane Jimma,Mahal Amba,Addis Ababa,Harar,Hadiya"
 },
 {
     "name": "Mesmes",
@@ -4384,7 +4384,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibadan,Kumasi,Tamale,Bissau,Banjul,Sekondi,Navrongo,Bolgatanga,Siguiri,Nzérékoré,Kédougou,Falémé,Sikasso,Ségou,Mopti,Gao,Tombouctou,El Fasher,Nyala,Kutum,Kabkabiya,El Geneina,Mellit,Tina,Tawila,Kornoi,Um Keddada,Zalingei,Mukjar,Abu Adam,Um Dafuq,Ed Damazin,Al Roseires,Kurmuk"
+  "b": "Gurage Zone,Hadiyya,Inor,Endegeny,Addis Ababa,Gurage Zone,Hadiyya,Inor,Endegeny,Addis Ababa"
 },
 {
     "name": "Mesqan",
@@ -4393,7 +4393,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibadan,Kumasi,Tamale,Bissau,Banjul,Sekondi,Navrongo,Bolgatanga,Siguiri,Nzérékoré,Kédougou,Falémé,Sikasso,Ségou,Mopti,Gao,Tombouctou,El Fasher,Nyala,Kutum,Kabkabiya,El Geneina,Mellit,Tina,Tawila,Kornoi,Um Keddada,Zalingei,Mukjar,Abu Adam,Um Dafuq,Ed Damazin,Al Roseires,Kurmuk"
+  "b": "Butajira,Inseno,Meskane,Silt'e Zone,Muhor Na Aklil,Kokir Gedebanoon,Butajira,Inseno,Meskane,Silt'e Zone,Muhor Na Aklil,Kokir Gedebanoon"
 },
 {
     "name": "Muher",
@@ -4402,7 +4402,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibadan,Kumasi,Tamale,Bissau,Banjul,Sekondi,Navrongo,Bolgatanga,Siguiri,Nzérékoré,Kédougou,Falémé,Sikasso,Ségou,Mopti,Gao,Tombouctou,El Fasher,Nyala,Kutum,Kabkabiya,El Geneina,Mellit,Tina,Tawila,Kornoi,Um Keddada,Zalingei,Mukjar,Abu Adam,Um Dafuq,Ed Damazin,Al Roseires,Kurmuk"
+  "b": "Cheha,Ezhana Wolene,Cäzza,Gurage Zone,Addis Ababa,Cheha,Ezhana Wolene,Cäzza,Gurage Zone,Addis Ababa"
 },
 {
     "name": "Inneqor",
@@ -4411,7 +4411,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibadan,Kumasi,Tamale,Bissau,Banjul,Sekondi,Navrongo,Bolgatanga,Siguiri,Nzérékoré,Kédougou,Falémé,Sikasso,Ségou,Mopti,Gao,Tombouctou,El Fasher,Nyala,Kutum,Kabkabiya,El Geneina,Mellit,Tina,Tawila,Kornoi,Um Keddada,Zalingei,Mukjar,Abu Adam,Um Dafuq,Ed Damazin,Al Roseires,Kurmuk"
+  "b": "Silt'e Zone,Wolane,Ulbareg,Addis Ababa,Silt'e Zone,Wolane,Ulbareg,Addis Ababa"
 },
 {
     "name": "Inor",
@@ -4420,7 +4420,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibadan,Kumasi,Tamale,Bissau,Banjul,Sekondi,Navrongo,Bolgatanga,Siguiri,Nzérékoré,Kédougou,Falémé,Sikasso,Ségou,Mopti,Gao,Tombouctou,El Fasher,Nyala,Kutum,Kabkabiya,El Geneina,Mellit,Tina,Tawila,Kornoi,Um Keddada,Zalingei,Mukjar,Abu Adam,Um Dafuq,Ed Damazin,Al Roseires,Kurmuk"
+  "b": "Gurage Zone,Addis Ababa,Endegenn,Enner,Gyeto,Gurage Zone,Addis Ababa,Endegegn,Enner,Gyeto"
 },
 {
     "name": "Chaha",
@@ -4429,7 +4429,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibadan,Kumasi,Tamale,Bissau,Banjul,Sekondi,Navrongo,Bolgatanga,Siguiri,Nzérékoré,Kédougou,Falémé,Sikasso,Ségou,Mopti,Gao,Tombouctou,El Fasher,Nyala,Kutum,Kabkabiya,El Geneina,Mellit,Tina,Tawila,Kornoi,Um Keddada,Zalingei,Mukjar,Abu Adam,Um Dafuq,Ed Damazin,Al Roseires,Kurmuk"
+  "b": "Cheha,Emdibir,Addis Ababa,Gurage Zone,Cheha,Emdibir,Addis Ababa,Gurage Zone"
 },
 {
     "name": "Chung",
@@ -4438,7 +4438,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibadan,Kumasi,Tamale,Bissau,Banjul,Sekondi,Navrongo,Bolgatanga,Siguiri,Nzérékoré,Kédougou,Falémé,Sikasso,Ségou,Mopti,Gao,Tombouctou,El Fasher,Nyala,Kutum,Kabkabiya,El Geneina,Mellit,Tina,Tawila,Kornoi,Um Keddada,Zalingei,Mukjar,Abu Adam,Um Dafuq,Ed Damazin,Al Roseires,Kurmuk"
+  "b": "Kimbi,Bum,Boyo,Bamenda,Northwest Region,Kimbi,Bum,Boyo,Bamenda,Northwest Region"
 },
 {
     "name": "Dciriku",
@@ -4447,7 +4447,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibadan,Kumasi,Tamale,Bissau,Banjul,Sekondi,Navrongo,Bolgatanga,Siguiri,Nzérékoré,Kédougou,Falémé,Sikasso,Ségou,Mopti,Gao,Tombouctou,El Fasher,Nyala,Kutum,Kabkabiya,El Geneina,Mellit,Tina,Tawila,Kornoi,Um Keddada,Zalingei,Mukjar,Abu Adam,Um Dafuq,Ed Damazin,Al Roseires,Kurmuk"
+  "b": "Rundu,Ndiyona,Andara,Kavango River,Okavango Delta,Rundu,Ndiyona,Andara,Kavango River,Okavango Delta"
 },
 {
     "name": "Defaka",
@@ -4456,34 +4456,34 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibadan,Kumasi,Tamale,Bissau,Banjul,Sekondi,Navrongo,Bolgatanga,Siguiri,Nzérékoré,Kédougou,Falémé,Sikasso,Ségou,Mopti,Gao,Tombouctou,El Fasher,Nyala,Kutum,Kabkabiya,El Geneina,Mellit,Tina,Tawila,Kornoi,Um Keddada,Zalingei,Mukjar,Abu Adam,Um Dafuq,Ed Damazin,Al Roseires,Kurmuk"
+  "b": "Nkoro,Iwoma Nkoro,Opobo,Bonny District,Niger Delta,Nkoro,Iwoma Nkoro,Opobo,Bonny District,Niger Delta"
 },
 {
-    "name": "Mao-Omotic",
+    "name": "Mao",
   "i": 20712,
   "min": 4,
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibadan,Kumasi,Tamale,Bissau,Banjul,Sekondi,Navrongo,Bolgatanga,Siguiri,Nzérékoré,Kédougou,Falémé,Sikasso,Ségou,Mopti,Gao,Tombouctou,El Fasher,Nyala,Kutum,Kabkabiya,El Geneina,Mellit,Tina,Tawila,Kornoi,Um Keddada,Zalingei,Mukjar,Abu Adam,Um Dafuq,Ed Damazin,Al Roseires,Kurmuk"
+  "b": "Bambasi,Asosa,Begi,Hozo,Seze,Ganza,Bambasi,Asosa,Begi,Hozo,Seze,Ganza"
 },
 {
-    "name": "North Omotic",
+    "name": "Kafa",
   "i": 20713,
   "min": 4,
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibadan,Kumasi,Tamale,Bissau,Banjul,Sekondi,Navrongo,Bolgatanga,Siguiri,Nzérékoré,Kédougou,Falémé,Sikasso,Ségou,Mopti,Gao,Tombouctou,El Fasher,Nyala,Kutum,Kabkabiya,El Geneina,Mellit,Tina,Tawila,Kornoi,Um Keddada,Zalingei,Mukjar,Abu Adam,Um Dafuq,Ed Damazin,Al Roseires,Kurmuk"
+  "b": "Bonga,Keffa Zone,Sheka,Bench-Maji,Gojeb River,Omo River,Bonga,Keffa Zone,Sheka,Bench-Maji,Gojeb River,Omo River"
 },
 {
-    "name": "Ometo",
+    "name": "Wolaytta",
   "i": 20714,
   "min": 4,
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibadan,Kumasi,Tamale,Bissau,Banjul,Sekondi,Navrongo,Bolgatanga,Siguiri,Nzérékoré,Kédougou,Falémé,Sikasso,Ségou,Mopti,Gao,Tombouctou,El Fasher,Nyala,Kutum,Kabkabiya,El Geneina,Mellit,Tina,Tawila,Kornoi,Um Keddada,Zalingei,Mukjar,Abu Adam,Um Dafuq,Ed Damazin,Al Roseires,Kurmuk"
+  "b": "Wolaita Sodo,Areka,Boditi,Tebela,Bale Hawassa,Gesuba,Gununo,Bedessa,Dimtu,Wolaita Sodo,Areka,Boditi,Tebela,Bale Hawassa,Gesuba,Gununo,Bedessa,Dimtu"
 },
 {
     "name": "Chichewa",
@@ -4492,7 +4492,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibadan,Kumasi,Tamale,Bissau,Banjul,Sekondi,Navrongo,Bolgatanga,Siguiri,Nzérékoré,Kédougou,Falémé,Sikasso,Ségou,Mopti,Gao,Tombouctou,El Fasher,Nyala,Kutum,Kabkabiya,El Geneina,Mellit,Tina,Tawila,Kornoi,Um Keddada,Zalingei,Mukjar,Abu Adam,Um Dafuq,Ed Damazin,Al Roseires,Kurmuk"
+  "b": "Lilongwe,Blantyre,Zomba,Mzuzu,Kasungu,Mangochi,Dedza,Salima,Nkhotakota,Ntchisi,Lilongwe,Blantyre,Zomba,Mzuzu,Kasungu,Mangochi,Dedza,Salima,Nkhotakota,Ntchisi"
 },
 {
     "name": "Cibak",
@@ -4501,7 +4501,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibadan,Kumasi,Tamale,Bissau,Banjul,Sekondi,Navrongo,Bolgatanga,Siguiri,Nzérékoré,Kédougou,Falémé,Sikasso,Ségou,Mopti,Gao,Tombouctou,El Fasher,Nyala,Kutum,Kabkabiya,El Geneina,Mellit,Tina,Tawila,Kornoi,Um Keddada,Zalingei,Mukjar,Abu Adam,Um Dafuq,Ed Damazin,Al Roseires,Kurmuk"
+  "b": "Chibok,Askira,Uba,Damboa,Borno State,Chibok,Askira,Uba,Damboa,Borno State"
 },
 {
     "name": "Cineni",
@@ -4510,7 +4510,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibadan,Kumasi,Tamale,Bissau,Banjul,Sekondi,Navrongo,Bolgatanga,Siguiri,Nzérékoré,Kédougou,Falémé,Sikasso,Ségou,Mopti,Gao,Tombouctou,El Fasher,Nyala,Kutum,Kabkabiya,El Geneina,Mellit,Tina,Tawila,Kornoi,Um Keddada,Zalingei,Mukjar,Abu Adam,Um Dafuq,Ed Damazin,Al Roseires,Kurmuk"
+  "b": "Cineni,Gwoza,Borno State,Cineni,Gwoza,Borno State"
 },
 {
     "name": "Ciwogai",
@@ -4519,7 +4519,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibadan,Kumasi,Tamale,Bissau,Banjul,Sekondi,Navrongo,Bolgatanga,Siguiri,Nzérékoré,Kédougou,Falémé,Sikasso,Ségou,Mopti,Gao,Tombouctou,El Fasher,Nyala,Kutum,Kabkabiya,El Geneina,Mellit,Tina,Tawila,Kornoi,Um Keddada,Zalingei,Mukjar,Abu Adam,Um Dafuq,Ed Damazin,Al Roseires,Kurmuk"
+  "b": "Tsagu,Bauchi State,Warji,Bade,Tsagu,Bauchi State,Warji,Bade"
 },
 {
     "name": "Coptic",
@@ -4528,7 +4528,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibadan,Kumasi,Tamale,Bissau,Banjul,Sekondi,Navrongo,Bolgatanga,Siguiri,Nzérékoré,Kédougou,Falémé,Sikasso,Ségou,Mopti,Gao,Tombouctou,El Fasher,Nyala,Kutum,Kabkabiya,El Geneina,Mellit,Tina,Tawila,Kornoi,Um Keddada,Zalingei,Mukjar,Abu Adam,Um Dafuq,Ed Damazin,Al Roseires,Kurmuk"
+  "b": "Cairo,Alexandria,Asyut,Luxor,Memphis,Thebes,Faiyum,Oxyrhynchus,Cairo,Alexandria,Asyut,Luxor,Memphis,Thebes,Faiyum,Oxyrhynchus"
 },
 {
     "name": "Cuvok",
@@ -4537,7 +4537,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibadan,Kumasi,Tamale,Bissau,Banjul,Sekondi,Navrongo,Bolgatanga,Siguiri,Nzérékoré,Kédougou,Falémé,Sikasso,Ségou,Mopti,Gao,Tombouctou,El Fasher,Nyala,Kutum,Kabkabiya,El Geneina,Mellit,Tina,Tawila,Kornoi,Um Keddada,Zalingei,Mukjar,Abu Adam,Um Dafuq,Ed Damazin,Al Roseires,Kurmuk"
+  "b": "Tchouvok,Mokolo,Zamay,Maroua,Far North Region,Tchouvok,Mokolo,Zamay,Maroua,Far North Region"
 },
 {
     "name": "Daba",
@@ -4546,7 +4546,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibadan,Kumasi,Tamale,Bissau,Banjul,Sekondi,Navrongo,Bolgatanga,Siguiri,Nzérékoré,Kédougou,Falémé,Sikasso,Ségou,Mopti,Gao,Tombouctou,El Fasher,Nyala,Kutum,Kabkabiya,El Geneina,Mellit,Tina,Tawila,Kornoi,Um Keddada,Zalingei,Mukjar,Abu Adam,Um Dafuq,Ed Damazin,Al Roseires,Kurmuk"
+  "b": "Mayo-Oulo,Douroum,Garoua Daba,Hina,Bourrha,Mayo-Oulo,Douroum,Garoua Daba,Hina,Bourrha"
 },
 {
     "name": "Dahalik",
@@ -4555,7 +4555,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lagos,Accra,Abidjan,Dakar,Bamako,Conakry,Freetown,Monrovia,Ouagadougou,Niamey,Cotonou,Lomé,Kano,Ibadan,Kumasi,Tamale,Bissau,Banjul,Sekondi,Navrongo,Bolgatanga,Siguiri,Nzérékoré,Kédougou,Falémé,Sikasso,Ségou,Mopti,Gao,Tombouctou,El Fasher,Nyala,Kutum,Kabkabiya,El Geneina,Mellit,Tina,Tawila,Kornoi,Um Keddada,Zalingei,Mukjar,Abu Adam,Um Dafuq,Ed Damazin,Al Roseires,Kurmuk"
+  "b": "Dahlak Kebir,Nora,Dehil,Durrubishet,Dasquo,Massawa,Dahlak,Dissei,Shumma,Dohul,Harat,Kebir,Nora,Dehil,Arqiyo,Salamona,Harat"
 },
 {
     "name": "Dass",
