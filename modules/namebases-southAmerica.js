@@ -235,7 +235,7 @@ window.southAmericaNameBases = [
   "max": 21,
   "d": "lnrt",
   "m": 0,
-  "b": "Leticia,PuertoNariño,Tarapaco,SanMartínDeAmacayacu,PuertoSantander,Macedonia,ElEncanto,LaChorrera,LaPedrera,PuertoArica,PuertoAlegría,SanJoséDeSaramuro,NuevaEsperanza,Remanso,Cothué,PuertoBahía,PuertoCórdoba,PuertoTriunfo,PuertoLimón,PuertoIndio,Dureno,Zábalo,Sinangué,Dovuno,Villanueva,SantaRosaDeSucumbíos,Yarinal,SanAntonio,BocanasDelLuzón,Diviso,LaRivera,Orito,Guamuez,SanMiguel,LagoAgrio,Aguarico,Napo,Putumayo,Jambelí,Cascales,ElDorado,Cuyabeno,LaBonita,Bermejo,Tablero,ElHacha,NuevaGranada,BuenaVista,PiñaBlanca,PuertoLeguizamo"
+  "b": "SantaRosaDeSucumbíos,Yarinal,SanAntonio,BocanasDelLuzón,Diviso,LaRivera,Orito,Guamuez,SanMiguel,LagoAgrio,Aguarico,Napo,Putumayo,Jambelí,Cascales,ElDorado,Cuyabeno,LaBonita,Bermejo,Tablero,ElHacha,NuevaGranada,BuenaVista,PiñaBlanca,PuertoLeguizamo,PuertoAsís,LaHormiga,ElPaujil,ValleDelGuamuez,SanAndres,LaDorada,PuertoColombia,PuertoGuzmán,ElPlacer,PuertoRodríguez,LaFlorida,PuertoCaicedo,Mocoa,Sibundoy,PuertoUmbría,Villagarzón,PuertoLimón,PuertoBolívar,PuertoCórdoba,PuertoTriunfo,PuertoIndio,Dureno,Zábalo,Sinangué,Dovuno,Villanueva"
 },
 {
     "name": "Fulnio (dedicated)",
@@ -253,7 +253,7 @@ window.southAmericaNameBases = [
   "max": 20,
   "d": "lnrt",
   "m": 0,
-  "b": "Riberalta,Cobija,Reyes,BuenaVista,SanJavier,SanBorja,ElCarmen,SanAntonioDeLomerío,SanJuanDeDios,SanMiguelDeVelasco,SanRafaelDeVelasco,SantaAnaDeYacuma,SantaRoca,SantiagoDeChiquitos,Roboré,PortoSuárez,PuertoQuijarro,CarmenRiveroTorres,SanJoséDeChiquitos,SanJuanBautista,SantaCruzDeLaSierra,Montero,Mineros,LaGuardia,ElTorno,Pailón,SanJulián,SanRamón,Moxos,Concepción"
+  "b": "Magdalena,Huacaraje,SanRamón,SanJavier,Magda,Reyes,Riberalta,Cobija,BuenaVista,SanBorja,ElCarmen,SantaAnaDeYacuma,SantaRoca,Trinidad,SanIgnacio,Rurrenabaque,SanMiguelDeVelasco,SanRafaelDeVelasco,PortoSuárez,PuertoQuijarro,Roboré,SantiagoDeChiquitos,Concepción,SanJoséDeChiquitos,SanJuanBautista,Loreto,CarmenRiveroTorres,Moxos,SanJoaquin,SanCarlos"
 },
 {
     "name": "Leco (dedicated)",
@@ -262,16 +262,16 @@ window.southAmericaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Apolo,Mapiri,Aten,Guanay,Tipuani,Sorata,LaPaz,Teoponte,Challana,Coroico,Kaka,Rik'a,Burua,Larecaja,FranzTamayo,Inquisivi,Cañamina,Combaya,Quiabaya,Ichoca,Cotata,Hucurate,Camata,Calamarca,Ambaná,Caranavi,Charazani,Cajuata,PuertoAcosta,Ayata,Cocoma,Pongo,Chivé,Ixiamas"
+  "b": "Apolo,Mapiri,Aten,Guanay,Tipuani,Sorata,Teoponte,Challana,Coroico,Inquisivi,Cañamina,Combaya,Quiabaya,Ichoca,Cotata,Hucurate,Camata,Calamarca,Ambaná,Caranavi,Charazani,Cajuata,PuertoAcosta,Ayata,Cocoma,Pongo,Chivé,Ixiamas,Muñecas,Omasuyos,Larecaja,FranzTamayo"
 },
 {
     "name": "Nivaclé (dedicated)",
   "i": 20193,
   "min": 4,
-  "max": 23,
+  "max": 27,
   "d": "lnrt",
   "m": 0,
-  "b": "Filadelfia,LomaPlata,Neuland,ColoniaMenno,TenienteIralaFernández,FuerteOlimpo,BenjaminAceval,MariscalEstigarribia,PozoColorado,PresidenciaDeLaSierra,GeneralEugenioAGaray,PedroPPeña,Boquerón,AltoParaguay,GranChaco,Ingenio,VillaHayes,Marangarú,Independencia,FortínGralDíaz,CapitánBado,JuandeZalazar,PuertoCasado,PuertoPinasco,BahíaNegra,LaVictoria,ColoniaFernheim,ColoniaNeuland,ColoniaMennoSur,ColoniaLomaPlata,ColoniaMennoNorte"
+  "b": "Embarcación,Salta,Jujuy,Tartagal,Pichanal,SanRamónDeLaNuevaOrán,LibertadorGeneralSanMartín,PalmaSola,Caimancito,Huachalera,ElQuebrachal,VillaSaavedra,Dragones,AguasBlancas,ElGalpón,Metán,ElCarril,RosarioDeLaFrontera,LaCandelaria,ElTala,Guachipas,Cafayate,SanCarlos,Animaná,Tolombom,Pichao,ColalaoDelValle,Payogasta,Cachi,SantaVictoria,Iruya,Rinconada,SanAntonioDeLosCobres,SantaRosaDeTastil,CachiAdentro,PuebloViejo,AbraPampa"
 },
 {
     "name": "Kwaza-Xocó Amazonian",
