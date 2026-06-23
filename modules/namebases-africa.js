@@ -3493,7 +3493,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Mizan Teferi,Shewa Gimira,Debub Bench,Semien Bench,She Bench,Bensa,Kacha,Meinit,Mizan Aman,Guraferda,Sheko,Bench Maji Zone,South West Ethiopia,Omotic,Gimojan"
+    "b": "Mizan Teferi,Shewa Gimira,Debub Bench,Semien Bench,She Bench,Bensa,Kacha,Meinit,Mizan Aman,Guraferda,Sheko,Addis Ababa,Jimma,Hawassa,Wolaytta,Kaffa,Gambela,Bonga,Tepi,Shey Bench,Bench Maji Zone,Surma,Garu,Mentac,Biro,Geisha,Semab,Jaba,Gorei"
 },
 {
     "name": "Ganza",
@@ -3556,7 +3556,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "São João dos Angolares,Ribeira Peixe,Santa Catarina,Porto Alegre,São Tomé,Santo António,Neves,Monte Café,Trindade,Conchas,Aguaize,Ribeiro Alfonso,Príncipe,Forro"
+    "b": "São João dos Angolares,Ribeira Peixe,Santa Catarina,Porto Alegre,São Tomé,Santo António,Neves,Monte Café,Trindade,Príncipe,Santa Cruz,Bom Successo,Ribeira Afonso,Guadalupe,Santana,Pantufo,Santo Amaro,Vila Malanza,Angra Toldo,Dona Augusta,Monte Mário,Praia Pesqueira,Santa Josefina,Vila Clotilde,Ilhéu das Rolas,Madalena,Caixão Grande,Bombom,Almas,Conde,Micoló"
 },
 {
     "name": "Annobonese Creole",
@@ -3628,7 +3628,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kau Nakka,Yabus,Belila,Chali,Kurmuk,Gambela,Bonga,Itang,Blue Nile State,Mabaan,Upper Nile,Komo,Kwama,Gumuz,Jebel Uduk"
+    "b": "Kau Nakka,Yabus,Belila,Chali,Kurmuk,Gambela,Bonga,Itang,Mabaan,Gindi,Kolnugura,Borfa,Jammus Omm,Penawayu,Bee,Balila,Asosa,Metemma,Nyimang,Kpaile,Dorobo,Khor Bonga,Abiye,Ad-Damazin,Roseires,Talodi"
 },
 {
     "name": "Chadian Arabic",
@@ -4087,7 +4087,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bobo-Dioulasso,Banfora,Dédougou,Tenkodogo,Tansila,Koudougou,Ouagadougou,Bobo-Dioulasso,Banfora,Dédougou,Tenkodogo,Tansila,Koudougou,Ouagadougou"
+    "b": "Bobo-Dioulasso,Banfora,Dédougou,Houndé,Orodara,Tenkodogo,Koudougou,Ouagadougou,Boura,Sia,Borodougou,Solenzo,Nouna,Toma,Boussé,Zorgho,Kombissiri,Boromo,Diébougou,Sindou,Gayéri,Pama,Ouargaye,Koupéla,Batié,Dano,Kongoussi,Tansila,N'Dorola,Koloko,Koti,Koumbia,Béréba,Boni,Fô,Founzan,Kangala,Karangasso-Sambla"
 },
 {
     "name": "Boga",
@@ -4123,7 +4123,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bobo-Dioulasso,Banfora,Dédougou,Houndé,Nouna,Solenzo,Ouagadougou,Bobo-Dioulasso,Banfora,Dédougou,Houndé,Nouna,Solenzo,Ouagadougou"
+    "b": "Bobo-Dioulasso,Dédougou,Banfora,Houndé,Orodara,Nouna,Solenzo,Tougan,Di,Gomboro,Kassoum,Kiembara,Lanfiéra,Lankoué,Toéni,Sindou,Diébougou,Gaoua,Loropéni,Nako,Batié,Pô,Manga,Ziniaré,Ouagadougou,Koudougou,Tenkodogo,Kaya,Ouahigouya,Dori"
 },
 {
     "name": "Bomitaba",
@@ -4213,7 +4213,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Navrongo,Sandema,Fumbisi,Chuchuliga,Bolgatanga,Bawku,Tamale,Navrongo,Sandema,Fumbisi,Chuchuliga,Bolgatanga,Bawku,Tamale"
+    "b": "Sandema,Chuchuliga,Doninga,Fumbisi,Gbedema,Gbedembilisi,Kadema,Kanjarga,Siniensi,Uwasa,Vaari,Wiaga,Wiesi,Navrongo,Bolgatanga,Bawku,Tamale,Kanjaga,Builsa,Paga,Tongo,Zebilla,Binduri,Zuarungu,Bongo,Garu,Nangodi,Pusiga,Tempane"
 },
 {
     "name": "Buru-Angwe",
@@ -4222,7 +4222,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Baissa,Sardauna,Takum,Wukari,Gboko,Makurdi,Jalingo,Baissa,Sardauna,Takum,Wukari,Gboko,Makurdi,Jalingo"
+    "b": "Gembu,Kakara,Magu,Mayo-Ndaga,Mbamnga,Ndum-Yaji,Nguroje,Titong,Warwar,Kabri,Baissa,Takum,Wukari,Jalingo,Makurdi,Gashaka,Kurmi,Serti,Furmi,Gurgu,Hainare,Kaniyaka,Kuai,Lekitaba,Leme,Mai-Samari,Mayu,Mbar,Mbu,Njawai,Nver,Tamnyar,Vakude,Wah"
 },
 {
     "name": "Bwamu",
@@ -4240,7 +4240,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Assaka,Batanga,Akwaya,Manyu Division,Southwest Region,Cameroon,Widikum,Eman,Ipulo,Batomo,Esimbi,Tivoid,Mamfe,Buea,Nigeria border"
+    "b": "Asaka,Batanga,Basaka,Akwaya,Adzu Balaka,Adzu Batanga,Batomo,Boduma,Ekondo Titi,Eman,Esimbi,Fontem,Ikom,Ipulo,Kakwumba,Keti,Kumba,Limbe,Mamfe,Mbakwa,Mundemba,Ndian,Nguti,Tiko,Tinto,Tombel,Wabane,Buea,Dschang"
 },
 {
     "name": "Cebaara",
@@ -4267,7 +4267,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Quissico,Zavala,Inhambane,Maxixe,Inharrime,Chidenguele,Maputo,Quissico,Zavala,Inhambane,Maxixe,Inharrime,Chidenguele,Maputo"
+    "b": "Quissico,Zavala,Inhambane,Maxixe,Inharrime,Chidenguele,Maputo,Zandamela,Manjacaze,Jangamo,Funhalouro,Govuro,Homoine,Inhassoro,Mabote,Massinga,Morrumbene,Panda,Vilanculos,Tofo,Vilankulo,Gaza,Chibuto,Xai-Xai,Limpopo,Matola,Beira"
 },
 {
     "name": "Tigrinya",
@@ -4285,7 +4285,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Gelegu,Tewodros Ketema,Metemma,Takusa,Alefa,Lake Tana,Gondar,Gelegu,Tewodros Ketema,Metemma,Takusa,Alefa,Lake Tana,Gondar"
+    "b": "Gelegu,Tewodros Ketema,Metemma,Takusa,Alefa,Chilga,Ayikel,Seraba,Wohni,Dembiya,Lay Armachiho,Tach Armachiho,Gondar,Dabat,Debark,Gorgora,Addi Arkay,Beyeda,Jan Amora,Mirab Armachiho,Wegera,Tselemt,Tegeda,Simien,Lasta,Begemder,Dengel Ber,Manu,Uadi Mena,Acsera,Metebiya"
 },
 {
     "name": "Dangme",
@@ -4312,7 +4312,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ashigashia,Ngoshie,Bokwa,Amuda,Arboko,Maiduguri,Maroua,Ashigashia,Ngoshie,Bokwa,Amuda,Arboko,Maiduguri,Maroua"
+    "b": "Ngoshe,Bokwa,Amuda,Arboko,Ashigashiya,Agapalawa,Aganjara,Juburli,Zamga,Atagara,Halaghwa,Gwoza,Maiduguri,Maroua,Koza,Gava,Pulka,Mora,Moskota,Zelidva,Kerawa,Uvagha,Gvoko,Cineni,Wandala,Mafa,Konduga,Dikwa,Monguno,Baga"
 },
 {
     "name": "Simaa",
@@ -4330,7 +4330,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Inhambane,Maxixe,Hlengwe,Dzibi,Dzonga,Mandla,Nhayi,Inhambane,Maxixe,Hlengwe,Dzibi,Dzonga,Mandla,Nhayi"
+    "b": "Inhambane,Maxixe,Hlengwe,Dzibi,Dzonga,Mandla,Nhayi,Xai-Xai,Chibuto,Manjacaze,Zavala,Jangamo,Inharrime,Bilene,Chidenguele,Maputo,Matola,Beira,Chimoio,Vilankulo,Massinga,Morrumbene,Panda,Homoine,Funhalouro,Govuro,Inhassoro,Mabote,Vilanculos,Bazaruto"
 },
 {
     "name": "Goemai",
@@ -4339,7 +4339,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Shendam,Jos,Pankshin,Mangu,Bokkos,Langtang,Wase,Shendam,Jos,Pankshin,Mangu,Bokkos,Langtang,Wase"
+    "b": "Shendam,Ajikamai,Bakin Kogi,Derlit,Dungba,Garas,Gidan-Adamu,Ilalong,Kato,Kuru wat,Kuruh Lagai,Kwaphur,Kwapkuwa,Lakushi,Lavaba,Lon goebou,Longvel,Naburuk,Nball,Nbet,Nder,Nshar,Ntuer,Pangshom,Peoshie,Poediel,Rajiyam Giwa,Shanlang,Shepwan,Shunkwan,Sohlut,Soklut,Tangzeb,Tinhan,Tsovo,Tukum,Tumbi,Turdung Doruwa,Yelwa,Jos,Pankshin,Mangu,Bokkos,Langtang,Wase,Mikang,Qua'an Pan,Ibi,Riyom,Nasarawa"
 },
 {
     "name": "Goji",
@@ -4357,7 +4357,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Cheha,Meskan,Ezhana Wolene,Gumer,Geta,Enemorina Eaner,Addis Ababa,Cheha,Meskan,Ezhana Wolene,Gumer,Geta,Enemorina Eaner,Addis Ababa"
+    "b": "Cheha,Meskan,Ezhana Wolene,Gumer,Geta,Enemorina Eaner,Muher,Addis Ababa,Emdibir,Agenna,Gura Megenase,Wirir,K'abul,K'want'e,Ch'eza,Endegegn,Mesmes,Soddo,Silt'e,Wolane,Zay,Kistane,Butajira,Wolkite,Hosaina,Ambo,Shashamane,Ziway,Melkassa,Wonji"
 },
 {
     "name": "Umbundu",
@@ -4744,7 +4744,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kondoa,Chemba District,Dodoma,Farkwa,Babu River,Mponde River,Singida,Rift Valley,Sandawe,Alagwa,Kw'adza,Tanzania,Khoisan"
+    "b": "Kondoa,Farkwa,Kwamtoro,Msera,Banguma,Kurio,Ndoroboni,Mialo,Chemba,Dodoma,Singida,Sanzawa,Swagaswaga,Ibugule,Nkhome,Chibelela,Isangha,Mwitikira,Mphangwe,Mtitaa,Nhyinila,Makorongo,Maziwa,Babayu,Chase,Ovada,Takwa,Kinyamsindo,Mengu,Baaba,Jogolo,Dinae,Msaada,Machiga,Changamka,Songambele,Kimaha,Wisuzaje,Mwaikisabe,Chukuruma,Mwailanje"
 },
 {
     "name": "Yoruba (Nigeria Coastal)",
@@ -7111,7 +7111,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Mindelo,São Pedro,Calhau,Salamansa,Baía das Gatas,Lameira,Ribeira de Julião,Monte Verde,Morro Branco,Preguiça,Sinagoga,Ribeira Bote,São Vicente,Cape Verde"
+    "b": "Mindelo,São Pedro,Calhau,Salamansa,Baía das Gatas,Lameira,Ribeira de Julião,Monte Verde,Morro Branco,Preguiça,Sinagoga,Ribeira Bote,São Vicente,Ribeira da Vinha,Viana,Madeiral,Caixa,Monte Cara,Porto Grande,Ilhéu dos Pássaros,Santo Antão,Santa Luzia,São Nicolau,Sal,Boa Vista,Santiago,Fogo,Brava,Maio,Praia"
 },
 
 ];
