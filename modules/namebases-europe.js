@@ -4294,7 +4294,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Tirana,Durrës,Vlorë,Shkodër,Elbasan,Korçë,Berat,Fier,Gjirokastër,Kukës,Lezhë,Peshkopi,Librazhd,Pogradec,Kavajë,Lushnjë,Patos,Rrogozhinë,Divjakë,Maliq,Cërrik,Përmet,Tepelenë,Delvinë,Sarandë,Himara,Orikum"
+  "b": "Warszawa,Kraków,Wrocław,Poznań,Gdańsk,Szczecin,Łódź,Bytom,Katowice,Lublin,Białystok,Częstochowa,Radom,Sosnowiec,Tychy,Dąbrowa Górnicza,Kielce,Rzeszów,Gdynia,Zabrze,Opole,Olsztyn,Toruń,Gliwice,Zielona Góra,Sopot,Bydgoszcz,Kalisz,Płock,Elbląg"
 },
 {
     "name": "Kashubian",

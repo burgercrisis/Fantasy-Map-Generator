@@ -3781,7 +3781,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bobangi,Ubangi,Congo River,Kinshasa,Brazzaville,Mbandaka,Bumba,Lisala,Bolobo,Yumbi,Bomongo,Cuvette,Mai-Ndombe,Équateur,Lingala,Bangala"
+    "b": "Bolobo,Yumbi,Bomongo,Cuvette,Mbandaka,Bumba,Lisala,Kinshasa,Brazzaville,Ouesso,Pikounda,Likouala,Sangha,Impfondo,Epena,Makotimpoko,Liranga,Bokuma,Boteka,Bondaka,Bongandanga,Budjala,Djamba,Gemena,Ingende,Kikwit,Kimpese"
 },
 {
     "name": "Bangolan",
@@ -3799,7 +3799,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Likoka,Poko,South Lobala,Tanda,Mbandaka,Bumba,Lisala,Kungu,Bala,Lobala,Iboko,Boko,Ngiri,Congo River,Équateur"
+    "b": "Mbandaka,Bumba,Lisala,Kungu,Dongo,Bomongo,Ngombe,Bokala,Bobenge,Bomboli,Bondaka,Bongandanga,Boteka,Budjala,Djamba,Gemena,Ingende,Kikwit,Kimpese,Kisangani,Likasi,Lingwala,Lukolela,Lusambo,Mahagi,Mongala,Bokungu,Bonormala,Iboko,Poko,Likoka,Tanda"
 },
 {
     "name": "Baldemu",
@@ -3862,7 +3862,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Fizi,Uvira,Itombwe,Kalemie,Kigoma,Lake Tanganyika,Lega,Mwenga,Baraka,Kazimia,Sebele,Swema,Mkobola,Minembwe,Kilembwe,Luberizi,Ruzizi"
+    "b": "Fizi,Uvira,Itombwe,Kalemie,Kigoma,Lega,Mwenga,Baraka,Kazimia,Sebele,Swema,Mkobola,Minembwe,Kilembwe,Luberizi,Ruzizi,Pemba,Luvunga,Kavimvira,Luanga,Mpulungu,Kabambare,Kasenga,Kinshasa,Lubumbashi"
 },
 {
     "name": "Bamwe",
@@ -3880,7 +3880,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guili,Bourrha,Mayo-Tsanaga,Gamboura,Gili,Ouda,Mokolo,Maroua,Guili,Bourrha,Mayo-Tsanaga,Gamboura,Gili,Ouda,Mokolo,Maroua"
+    "b": "Guili,Bourrha,Gamboura,Gili,Ouda,Mokolo,Maroua,Hadjeram,Hina,Limane,Kaele,Waza,Kousseri,Logone,Binder,Guider,Amchide,Meme,Mindif,Moulvouday,Bibemi,Bogo,Bokoro,Bol,Bongor,Bousso,Fada,Faya,Fianga,Goré,Goundi,Gounou Gaya,Goz Beïda"
 },
 {
     "name": "Bangime",
@@ -3934,7 +3934,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Nyassia,Ziguinchor,Cacheu,Essin,Kugere,Njambalaan,Arame,Gubaare,Nyassia,Ziguinchor,Cacheu,Essin,Kugere,Njambalaan,Arame,Gubaare"
+    "b": "Nyassia,Ziguinchor,Cacheu,Bissine,Bassèré,Bagame,Boulome,Adéane,Marsassoum,Bandial,Agnack Grand,Kugere,Essin,Arame,Gubaare,Kuxinge,Edamme,Njambalaan,Tambacoumba,Goudomp,Kolda,Keniane,Mlomp,Diouloulou,Elinkine,Oussouye,Sindian,Tenghory,Niaguis,Coubalan,Enampore,Maoudé,Boutoupa"
 },
 {
     "name": "Beja",
@@ -3952,7 +3952,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Fizi,Uvira,Itombwe,Kalemie,Kigoma,Lake Tanganyika,Lega,Mwenga,Fizi,Uvira,Itombwe,Kalemie,Kigoma,Lake Tanganyika,Lega,Mwenga"
+    "b": "Sibiti,Kingoué,Bouenza,Pool,Brazzaville,Dolisie,Pointe-Noire,Lékoumou,Madingou,Komono,Mbinda,Ntamo,Poumou,Yamba,Loandjika,Likombo,Likanou,Linzolo,Londéla-Kayes,Mayoko,Mfilou,Ngamo,Nkabou,Nsatou,Tchibatché"
 },
 {
     "name": "Bembe (DRC)",
@@ -3979,7 +3979,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Gagnoa,Daloa,Guiberoua,Soubré,Kouya,Godié,Bété-Gagnoa,Bété-Daloa,Gagnoa,Daloa,Guiberoua,Soubré,Kouya,Godié,Bété-Gagnoa,Bété-Daloa"
+    "b": "Gagnoa,Daloa,Guiberoua,Soubré,Kouya,Godié,Bété-Gagnoa,Bété-Daloa,Ahizabré,Atonihio,Bobia,Bognoa,Bogrégnoa,Dagodio,Dahopa-Ourepa,Daliguépa,Digbeugnoa,Dobé,Gnahio-Dégoué,Godiabré,Grébré,Guéménédou,Guessihio,Kabia,Kakrédou,Kripahio,Lélébrékoua,Logobia,Maguiahio,Mahidio"
 },
 {
     "name": "Bhaca",
@@ -4015,7 +4015,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kanam,Wase,Jos,Bukuru,Pankshin,Shendam,Langtang,Mangu,Kanam,Wase,Jos,Bukuru,Pankshin,Shendam,Langtang,Mangu"
+    "b": "Kanam,Wase,Jos,Bukuru,Pankshin,Shendam,Langtang,Mangu,Duguri,Bokkos,Daffo,Tambas,Riyom,Du,Kwalla,Gindiri,Mangu Town,Barakin Ladi,Jos Town,Vom,Lamingo,Ngabo"
 },
 {
     "name": "Boor",
@@ -4024,7 +4024,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Dumraw,Bousso,Sarh,Moundou,Doba,Koumra,Moissala,Bébédjia,Dumraw,Bousso,Sarh,Moundou,Doba,Koumra,Moissala,Bébédjia"
+    "b": "Dumraw,Bousso,Sarh,Moundou,Doba,Koumra,Moissala,Bébédjia,Gori,N'Djaména,Laal,Boua,Bagirmi,Miltu,Sarua,Gadang,Ndam,Mawa,Korbol,Am Timan,Abéché,Mongo,Ati,Biltine,Fada,Faya-Largeau,Bria,Oum Hadjer"
 },
 {
     "name": "Bokoto",
@@ -4051,7 +4051,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Rafaï,Obo,Deim Zubeir,Mboto,Munga,Bria,Bangassou,Bambari,Rafaï,Obo,Deim Zubeir,Mboto,Munga,Bria,Bangassou,Bambari"
+    "b": "Rafaï,Obo,Deim Zubeir,Mboto,Munga,Bria,Bangassou,Bambari,Yambio,Maridi,Wau,Aweil,Rumbek,Torit,Juba,Yei,Kapoeta,Nimule,Ezo,Bagasi,Duru,Sofe,Sakure,Nzara,Dembia"
 },
 {
     "name": "Biseni",

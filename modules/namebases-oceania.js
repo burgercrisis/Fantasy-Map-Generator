@@ -4366,7 +4366,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Hualien,Taitung,Amis,Sakizaya,Takubuwa,Jialiwan,Chilaiwan,Gaolian,Shoufeng,Fenglin,Yuli,Guanshan,Luye,Chenggong,Fuli,Ruisui,Jian,Chishang,Fengbin,Zhuoxi,Wanrong,Xiulin,Truku,Taroko,Seediq,Alishan,Meili,Xibao,Nan'an,Xinshe,Jianhe,Dulan,Shoufeng Township,Fenglin Township"
+  "b": "Takubuwa,Jialiwan,Chilaiwan,Gaolian,Shoufeng,Fenglin,Yuli,Guanshan,Luye,Chenggong,Fuli,Ruisui,Jian,Chishang,Fengbin,Zhuoxi,Wanrong,Xiulin,Truku,Taroko,Seediq,Alishan,Meili,Xibao,Nan'an,Xinshe,Jianhe,Dulan,Hualien,Taitung,Amis"
 },
 {
     "name": "Salt-Yui",
@@ -4501,7 +4501,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Somahai,Momuna,Momina,Somage,Sumohai,Balim River,Rekai River,Yahukimo,Asmat,Wissel Lakes,Paniai Lakes,Lake Paniai,Lake Tigi,Lake Tage,Enarotali,Kemandoga River,Jawej River,Oeta River,Yawei River,Urumuka,Wissel Mountains,Weyland Mountains,Sudirman Range,Paniai Regency,Deiyai Regency,Ekari,Moni,Wolani,Auye,Dao"
+  "b": "Somahai,Momuna,Momina,Somage,Sumohai,Balim River,Rekai River,Yahukimo,Asmat,Wissel Lakes,Paniai Lakes,Lake Paniai,Lake Tigi,Lake Tage,Enarotali,Kemandoga River,Jawej River,Oeta River,Yawei River,Urumuka,Wissel Mountains,Weyland Mountains,Sudirman Range,Ekari,Moni,Wolani,Auye,Dao,Moanamani,Mbiyandogo River"
 },
 {
     "name": "Some",
@@ -4510,7 +4510,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Some,Som,Somahai,Momuna,Momina,Somage,Sumohai,Wolani,Paniai Lakes,Lake Paniai,Lake Tigi,Lake Tage,Enarotali,Kemandoga River,Jawej River,Oeta River,Yawei River,Urumuka,Wissel Mountains,Weyland Mountains,Sudirman Range,Paniai Regency,Deiyai Regency,Ekari,Moni,Auye,Dao,Moanamani,Mbiyandogo River"
+  "b": "Some,Som,Somahai,Momuna,Momina,Somage,Sumohai,Wolani,Paniai Lakes,Lake Paniai,Lake Tigi,Lake Tage,Enarotali,Kemandoga River,Jawej River,Oeta River,Yawei River,Urumuka,Wissel Mountains,Weyland Mountains,Sudirman Range,Ekari,Moni,Auye,Dao,Moanamani,Mbiyandogo River,Wissel Lakes"
 },
 {
     "name": "Sonia",
@@ -4528,7 +4528,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Sonsorol,Dongosaru,Pulo Anna,Merir,Koror,Echang,Ngerkebesang,Helen Reef,Hotsarihie,Pieraurou,Tobi,Hatohobei,Sonsorol State,Southwest Islands,Palau,Melekeok,Ngerulmud,Kayangel,Angaur,Babelthuap,Koror Island,Ngerakbesang Island,Echang Village,Sonsorol Island,Pulo Anna Island,Merir Island,Dongosaru Village,Fanna,Ulithi,Woleaian,Satawalese,Saipan Carolinian,Chuuk,Pohnpei"
+  "b": "Sonsorol,Dongosaru,Pulo Anna,Merir,Koror,Echang,Ngerkebesang,Helen Reef,Hotsarihie,Pieraurou,Tobi,Hatohobei,Southwest Islands,Palau,Melekeok,Ngerulmud,Kayangel,Angaur,Babelthuap,Koror Island,Ngerakbesang Island,Echang Village,Sonsorol Island,Pulo Anna Island,Merir Island,Dongosaru Village,Fanna,Ulithi,Woleaian,Satawalese,Saipan Carolinian,Chuuk,Pohnpei"
 },
 {
     "name": "Squliq Atayal",
@@ -4564,7 +4564,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Suki,Fly River,Western Province,Gogodala,Suki Aramia River,Daru Island,Kiunga,Tabubil,Morehead,Bula,Wereavere,Wemnevere,Mibini,Garaita,Pongariki,Dimisisi,Sibidiri,Limol,Keru,Pukaduka,Kiriwo,Aewe,Wando,Kandarisa,Rouku,Morehead Station,Bimadeben,Eniyawa,Kautru,Kondobol,Malam,Strickland River,Lake Murray,Bensbach River,Aramia River,Balimo,Kutubu"
+  "b": "Suki,Fly River,Strickland River,Lake Murray,Kiunga,Tabubil,Morehead,Bula,Wereavere,Wemnevere,Mibini,Garaita,Pongariki,Dimisisi,Sibidiri,Limol,Keru,Pukaduka,Kiriwo,Aewe,Wando,Kandarisa,Rouku,Morehead Station,Bimadeben,Eniyawa,Kautru,Kondobol,Malam,Gogodala,Daru"
 },
 {
     "name": "Susuami",
@@ -4573,7 +4573,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Susuami,Manki,Upper Watut River,Bulolo,Morobe Province,Watut,Hamtai,Angaataha,Langimar,Kiapou,Aseki,Nabak,Mesem,Momolili,Gwabadik,Musom Tale,Lae,Wau,Bulolo District,Markham Valley,Watut River,Upper Watut Valley,Blackwood River,Mount Kaindi,Bulolo River,Wampit River,Watut Mountains,Huon Gulf,Markham River,Ramu River,Finisterre Range,Saruwaged Range,Rawlinson Range,Cromwell Range,Nuzen,Wapi,Mumeng,Kabwum,Selepet,Komba,Timbe,Kwasang,Yate,Ese,Hote,Iamalele,Buhutu,Kakabai,Diodio,Bwaidoka"
+  "b": "Susuami,Manki,Upper Watut River,Bulolo,Watut,Hamtai,Angaataha,Langimar,Kiapou,Aseki,Nabak,Mesem,Momolili,Gwabadik,Musom Tale,Upper Watut Valley,Blackwood River,Mount Kaindi,Bulolo River,Wampit River,Watut Mountains,Huon Gulf,Markham River,Ramu River,Finisterre Range,Saruwaged Range,Rawlinson Range,Cromwell Range,Nuzen,Wapi,Mumeng,Kabwum,Selepet,Komba,Timbe,Kwasang,Yate,Ese,Hote,Iamalele,Buhutu,Kakabai,Diodio,Bwaidoka"
 },
 {
     "name": "Tainae",
@@ -4582,7 +4582,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Tainae,Famba,Paiguna,Pio,Kotidanga Rural LLG,Gulf Province,Ivori,Angan,Kikori,Baimuru,Ihu,Kerema,Kutubu,Mendi,Nipa,Kagua,Erave,Ialibu,Lake Kutubu,Moro,Fasu,Foi,Foe,Kikori River,Turama River,Kikori,Baimuru,Ihu,Kerema,Kutubu,Mendi,Nipa,Kagua,Erave,Ialibu,Lake Kutubu"
+  "b": "Tainae,Famba,Paiguna,Pio,Ivori,Angan,Kikori,Baimuru,Ihu,Kerema,Kutubu,Mendi,Nipa,Kagua,Erave,Ialibu,Lake Kutubu,Moro,Fasu,Foi,Foe,Kikori River,Turama River,Kikori River,Omati River"
 },
 {
     "name": "Tairoa",
@@ -4609,7 +4609,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Tamagario,Kaitok,Sigare,Yame,Haju District,Mambioman Bapai District,Mappi Regency,South Papua,Indonesia,Arare,Kerke,Pagai,Tereyemu,Magabag,Tamaraw,Wagow,Buru,Kayagar,Kajagar,Kajgir,Kaygir,Atohwaim,Atoheim,Kaugat,Gondu River,Juliana River,Cook River,Casuarina Coast,Digul River,Tariku River,Mamberamo River"
+  "b": "Tamagario,Kaitok,Sigare,Yame,Arare,Kerke,Pagai,Tereyemu,Magabag,Tamaraw,Wagow,Buru,Kayagar,Kajagar,Kajgir,Kaygir,Atohwaim,Atoheim,Kaugat,Gondu River,Juliana River,Cook River,Casuarina Coast,Digul River,Tariku River,Mamberamo River"
 },
 {
     "name": "Tangko",
@@ -4636,7 +4636,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Tauade,Central Province,Rigo District,Kairuku,Hiri,Mekeo,Roro,Gabadi,Doura,Sinaugoro,Pokau,Lala,Aroma,Keapara,Hula,Motu,Hanuabada,Baruni,Poreporena,Bootless Inlet,Tupuseleia,Barakau,Gaile,Gorohu,Boera,Porebada,Tatana,Koderika,Nara,Manumanuv,Ari,Koboni,Vabukori,Pari,Taurama,Korobosea"
+  "b": "Tauade,Kairuku,Hiri,Mekeo,Roro,Gabadi,Doura,Sinaugoro,Pokau,Lala,Aroma,Keapara,Hula,Motu,Hanuabada,Baruni,Poreporena,Bootless Inlet,Tupuseleia,Barakau,Gaile,Gorohu,Boera,Porebada,Tatana,Koderika,Nara,Manumanuv,Ari,Koboni,Vabukori,Pari,Taurama,Korobosea"
 },
 {
     "name": "Teiwa",
@@ -4762,7 +4762,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Turaka,Gulf Province,Kikori,Turama River,Omati River,Rumu,Kairi,Dumu,Tumu,Kibiri,Kopi,Waira,Kaparao,Mati,Irimuku,Imu,Aurai,Tutugu,Iehi Creek,Dopima,Baina,Barawiti,Hivuku,Iharu,Kaiam,Siauwiti,Sogwai,Sumai,Susumoro,Ufeho,Fai'a,Komaio,Sibaure,Sorobo,Suniri,Sumakarimu,Namumi,Ikobi,Mena,Kaser,Barika,Omati,Karam,Karima,Mouwase,Gibidai,Iba,Koumaio,Kibeni,Asanu"
+  "b": "Turaka,Kikori,Turama River,Omati River,Rumu,Kairi,Dumu,Tumu,Kibiri,Kopi,Waira,Kaparao,Mati,Irimuku,Imu,Aurai,Tutugu,Iehi Creek,Dopima,Baina,Barawiti,Hivuku,Iharu,Kaiam,Siauwiti,Sogwai,Sumai,Susumoro,Ufeho,Fai'a,Komaio,Sibaure,Sorobo,Suniri,Sumakarimu,Namumi,Ikobi,Mena,Kaser,Barika,Omati,Karam,Karima,Mouwase,Gibidai,Iba,Koumaio,Kibeni,Asanu"
 },
 {
     "name": "Turama-Kikorian",
@@ -4789,7 +4789,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Uare,Rigo Inland Rural LLG,Central Province,Garia,Garihe,Kwale,Kware,Humene,Mulaha,Ikega,Taboro,Doe,Ogotana,Kahitana,Berebei,Varutanumu,Suria,Boridi,Kagi,Efogi,Manari,Edevu,Sogeri,Port Moresby,Rigo,Kairuku,Hiri,Mekeo,Roro,Gabadi,Doura,Sinaugoro,Pokau,Lala,Aroma,Keapara,Hula,Motu,Hanuabada,Baruni,Poreporena,Bootless Inlet,Tupuseleia"
+  "b": "Uare,Garia,Garihe,Kwale,Kware,Humene,Mulaha,Ikega,Taboro,Doe,Ogotana,Kahitana,Berebei,Varutanumu,Suria,Boridi,Kagi,Efogi,Manari,Edevu,Sogeri,Port Moresby,Rigo,Kairuku,Hiri,Mekeo,Roro,Gabadi,Doura,Sinaugoro,Pokau,Lala,Aroma,Keapara,Hula,Motu,Hanuabada,Baruni,Poreporena,Bootless Inlet,Tupuseleia"
 },
 {
     "name": "Umanakaina",
@@ -4798,7 +4798,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Umanakaina,Bonenepi,Gwedena,Gweda,Gwede,Umanikaina,Awaula,Awayama,Tawala,Upper Ugu River,Milne Bay Province,Goodenough Bay,Paiwa,Kanamara,Gwoiru mountains,Dima,Dagan,Southeast Papua,Eastern Division,Musa River,Oro Province,Popondetta,Kokoda,Buna,Gona,Sanananda,Dobodura,Higaturu,Soputa,Mount Lamington,Oro Bay,Cape Nelson,Tufi,Afore,Collingwood Bay"
+  "b": "Umanakaina,Bonenepi,Gwedena,Gweda,Gwede,Umanikaina,Awaula,Awayama,Tawala,Upper Ugu River,Goodenough Bay,Paiwa,Kanamara,Gwoiru mountains,Dima,Dagan,Musa River,Popondetta,Kokoda,Buna,Gona,Sanananda,Dobodura,Higaturu,Soputa,Mount Lamington,Oro Bay,Cape Nelson,Tufi,Afore,Collingwood Bay"
 },
 {
     "name": "Urapmin",
@@ -4834,7 +4834,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Waboda,Kiwai,Fly River,Strickland River,Lake Murray,Western Province,Daru Island,Kiwai Island,Bamu River,Turi River,Waboda Island,Bamu,Parama,Kutubu,Morehead,Bula,Wereavere,Wemnevere,Mibini,Garaita,Pongariki,Dimisisi,Sibidiri,Limol,Keru,Pukaduka,Kiriwo,Aewe,Wando,Kandarisa,Rouku,Morehead Station,Bimadeben,Eniyawa,Kautru,Kondobol,Malam"
+  "b": "Waboda,Kiwai,Fly River,Strickland River,Lake Murray,Daru Island,Kiwai Island,Bamu River,Turi River,Waboda Island,Bamu,Parama,Kutubu,Morehead,Bula,Wereavere,Wemnevere,Mibini,Garaita,Pongariki,Dimisisi,Sibidiri,Limol,Keru,Pukaduka,Kiriwo,Aewe,Wando,Kandarisa,Rouku,Morehead Station,Bimadeben,Eniyawa,Kautru,Kondobol,Malam"
 },
 {
     "name": "Waffa",
@@ -4897,7 +4897,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Waruna,Fly River,Strickland River,Lake Murray,Western Province,Kiunga,Tabubil,Morehead,Bula,Wereavere,Wemnevere,Mibini,Garaita,Pongariki,Dimisisi,Sibidiri,Limol,Keru,Pukaduka,Kiriwo,Aewe,Wando,Kandarisa,Rouku,Morehead Station,Bimadeben,Eniyawa,Kautru,Kondobol,Malam,Waruna area"
+  "b": "Waruna,Fly River,Strickland River,Lake Murray,Kiunga,Tabubil,Morehead,Bula,Wereavere,Wemnevere,Mibini,Garaita,Pongariki,Dimisisi,Sibidiri,Limol,Keru,Pukaduka,Kiriwo,Aewe,Wando,Kandarisa,Rouku,Morehead Station,Bimadeben,Eniyawa,Kautru,Kondobol,Malam"
 },
 {
     "name": "Wayan",
@@ -4906,7 +4906,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Wayan,Fiji,Vanua Levu,Cakaudrove Province,Bua Province,Macuata Province,Taveuni,Kadavu,Lau Group,Lomaiviti Group,Yasawa Group,Mamanuca Group,Viti Levu,Suva,Nadi,Lautoka,Ba,Sigatoka,Labasa,Savusavu,Rakiraki,Tavua,Nausori,Navua,Pacific Harbour,Lami,Korovou,Seaqaqa,Nabouwalu,Natewa,Dreketi,Vatukoula"
+  "b": "Wayan,Fiji,Vanua Levu,Taveuni,Kadavu,Lau Group,Lomaiviti Group,Yasawa Group,Mamanuca Group,Viti Levu,Suva,Nadi,Lautoka,Ba,Sigatoka,Labasa,Savusavu,Rakiraki,Tavua,Nausori,Navua,Pacific Harbour,Lami,Korovou,Seaqaqa,Nabouwalu,Natewa,Dreketi,Vatukoula"
 },
 {
     "name": "Were",
@@ -4987,7 +4987,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Wolani,Moanamani,Kemandoga River,Mbiyandogo River,Lake Paniai,Paniai Regency,Central Papua,Indonesia,Wodani,Woda,Woda-Mo,Ero Group,Aro Paparumpe,Ero Wodaipe,Upper Mbijandoga,Ekari,Moni,Auye,Dao,Dani,Lani,Nduga,Yali,Mee,Ngalum,Yalimo,Puncak,Puncak Jaya,Paniai Lakes,Wissel Lakes,Enarotali,Lake Tigi,Lake Tage"
+  "b": "Wolani,Moanamani,Kemandoga River,Mbiyandogo River,Lake Paniai,Wodani,Woda,Woda-Mo,Ero Group,Aro Paparumpe,Ero Wodaipe,Upper Mbijandoga,Ekari,Moni,Auye,Dao,Dani,Lani,Nduga,Yali,Mee,Ngalum,Yalimo,Puncak,Puncak Jaya,Paniai Lakes,Wissel Lakes,Enarotali,Lake Tigi,Lake Tage"
 },
 {
     "name": "Wolio",
@@ -5041,7 +5041,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Yareba,Ijitivari,Popondetta,Moni River,Musa River,Obeia,Bibira 1,Ubo,Toma,Auwaka,Ianu,Maioki,Bubudi,Moikodi,Aneme,Bariji,Nawaru,Middle Musa,Oro Province,Northern District,Didana Range,Musa Gorge,Kokoda,Buna,Gona,Sanananda,Dobodura,Higaturu,Soputa,Mount Lamington,Oro Bay,Cape Nelson,Tufi,Afore,Collingwood Bay,Goodenough Bay,Milne Bay,Samarai,Dobu,Sudest Island,Rossel Island"
+  "b": "Yareba,Ijitivari,Popondetta,Moni River,Musa River,Obeia,Bibira 1,Ubo,Toma,Auwaka,Ianu,Maioki,Bubudi,Moikodi,Aneme,Bariji,Nawaru,Middle Musa,Didana Range,Musa Gorge,Kokoda,Buna,Gona,Sanananda,Dobodura,Higaturu,Soputa,Mount Lamington,Oro Bay,Cape Nelson,Tufi,Afore,Collingwood Bay,Goodenough Bay,Milne Bay,Samarai,Dobu,Sudest Island,Rossel Island"
 },
 {
     "name": "Yaweyuha",
@@ -5059,7 +5059,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Yekora,Morobe Province,Markham Valley,Bulolo,Wau,Lae,Hamtai,Angaataha,Langimar,Kiapou,Aseki,Nabak,Mesem,Momolili,Gwabadik,Musom Tale,Watut,Upper Watut,Lower Watut,Wampit,Isu,Kwasang,Yate,Ese,Hote,Iamalele,Buhutu,Kakabai,Diodio,Bwaidoka,Goodenough Island,Fergusson Island,Normanby Island"
+  "b": "Yekora,Markham Valley,Bulolo,Wau,Lae,Hamtai,Angaataha,Langimar,Kiapou,Aseki,Nabak,Mesem,Momolili,Gwabadik,Musom Tale,Watut,Upper Watut,Lower Watut,Wampit,Isu,Kwasang,Yate,Ese,Hote,Iamalele,Buhutu,Kakabai,Diodio,Bwaidoka"
 },
 {
     "name": "Yipma",
@@ -5068,7 +5068,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Yipma,Wauko,Ande,Mala,Mount Yelia,Marawaka,Meniyamiya,Baruya,Barua,Wantakia,Gulicha,Usirampia,Wuzuraabya,Anzii,Bruwa,Hipma,Yɨ'ayagaala,Morobe Province,Bulolo,Wau,Lae,Markham Valley,Watut,Upper Watut,Lower Watut,Wampit,Isu,Kwasang,Yate,Ese,Hote,Iamalele,Buhutu,Kakabai,Diodio,Bwaidoka,Goodenough Island,Fergusson Island,Normanby Island"
+  "b": "Yipma,Wauko,Ande,Mala,Mount Yelia,Marawaka,Meniyamiya,Baruya,Barua,Wantakia,Gulicha,Usirampia,Wuzuraabya,Anzii,Bruwa,Hipma,Yɨ'ayagaala,Bulolo,Wau,Lae,Markham Valley,Watut,Upper Watut,Lower Watut,Wampit,Isu,Kwasang,Yate,Ese,Hote,Iamalele,Buhutu,Kakabai,Diodio,Bwaidoka"
 },
 {
     "name": "Yogo (Tamagario)",
@@ -5077,7 +5077,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Kaitok,Sigare,Yame,Haju District,Mambioman Bapai District,Mappi Regency,South Papua,Indonesia,Arare,Kerke,Pagai,Tereyemu,Magabag,Tamagario,Tamaraw,Wagow,Buru,Kayagar,Kajagar,Kajgir,Kaygir,Atohwaim,Atoheim,Kaugat,Gondu River,Juliana River,Cook River,Casuarina Coast,Digul River,Tariku River,Mamberamo River"
+  "b": "Yogo,Kaitok,Sigare,Yame,Arare,Kerke,Pagai,Tereyemu,Magabag,Tamaraw,Wagow,Buru,Kayagar,Kajagar,Kajgir,Kaygir,Atohwaim,Atoheim,Kaugat,Gondu River,Juliana River,Cook River,Casuarina Coast,Digul River,Tariku River,Mamberamo River"
 },
 {
     "name": "Yonggom",
@@ -5095,7 +5095,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Zia,Morobe Province,Markham Valley,Bulolo,Wau,Lae,Hamtai,Angaataha,Langimar,Kiapou,Aseki,Nabak,Mesem,Momolili,Gwabadik,Musom Tale,Watut,Upper Watut,Lower Watut,Wampit,Isu,Kwasang,Yate,Ese,Hote,Iamalele,Buhutu,Kakabai,Diodio,Bwaidoka,Goodenough Island,Fergusson Island,Normanby Island,Zia area"
+  "b": "Zia,Markham Valley,Bulolo,Wau,Lae,Hamtai,Angaataha,Langimar,Kiapou,Aseki,Nabak,Mesem,Momolili,Gwabadik,Musom Tale,Watut,Upper Watut,Lower Watut,Wampit,Isu,Kwasang,Yate,Ese,Hote,Iamalele,Buhutu,Kakabai,Diodio,Bwaidoka"
 },
 {
     "name": "Zimakani",
@@ -5104,7 +5104,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Zimakani,Lake Murray,Western Province,Bagwa,Baegwa,Begua,Dea,Mbegu,Kuni-Boazi,Boazi,Daru,Kiwai Island,Daru Island,Fly River,Strickland River,Bensbach River,Aramia River,Balimo,Kutubu,Morehead,Bula,Wereavere,Wemnevere,Mibini,Garaita,Pongariki,Dimisisi,Sibidiri,Limol,Keru,Pukaduka,Kiriwo,Aewe,Wando,Kandarisa,Rouku,Morehead Station,Bimadeben,Eniyawa,Kautru,Kondobol,Malam,Kiunga"
+  "b": "Zimakani,Lake Murray,Bagwa,Baegwa,Begua,Dea,Mbegu,Kuni-Boazi,Boazi,Daru,Kiwai Island,Daru Island,Fly River,Strickland River,Bensbach River,Aramia River,Balimo,Kutubu,Morehead,Bula,Wereavere,Wemnevere,Mibini,Garaita,Pongariki,Dimisisi,Sibidiri,Limol,Keru,Pukaduka,Kiriwo,Aewe,Wando,Kandarisa,Rouku,Morehead Station,Bimadeben,Eniyawa,Kautru,Kondobol,Malam,Kiunga"
 },
 {
     "name": "ꞌAreꞌare",
