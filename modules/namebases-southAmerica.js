@@ -19,7 +19,7 @@ window.southAmericaNameBases = [
   "max": 19,
   "d": "",
   "m": 0,
-  "b": "Papiu,Uiramutã,Uraricoera,Demini,Catrimani,Mucajaí,Ajarani,Branco,Aiau,Apiau,Paragua,Karun,Marauá,Pukimabueri,SerraDaEstrutura,Amajari,Auaris,BaixoRioCauaburis,Surucucu,Kataroa,Omama,Opata,Yanomama,Xiliana,Xilixana,Sanöma,Yãnoma,Ỹaroamë,Haximú,Balaú,Maturacá,Surucucus"
+  "b": "Papiu,Demini,Haximú,Balaú,Auaris,Surucucu,Maturacá"
 },
 {
     "name": "Cavineña",
@@ -28,7 +28,7 @@ window.southAmericaNameBases = [
   "max": 19,
   "d": "",
   "m": 0,
-  "b": "Reyes,Riberalta,Cavinas,PuertoCavinas,Beni,Madidi,JesúsDeCavinas,GonzaloMoreno,Ixiamas,Manuripi,MadreDeDios,Iturralde,Ballivián,VacaDiez,Esperanza,SantaRosa,SanAntonio,BuenJesus,PuertoGonzalo,SantaElena,SanMiguel,SanBorja,SanJavier,ElCarmen,SanJuan,SantaCruz,Rurrenabaque,SanIgnacio,Guayaramerín,SanRamón,Moxos,SanJoaquin,SanCarlos,SanLuis,SanPedro,SanPablo,SanJosé,SantaAna,Santiago,Trinidad,Cobija,PuertoSuárez,PuertoQuijarro,Roboré,SantiagoDeChiquitos,Concepción,SanMatías,PuertoRiberalta,SanJoséDeChiquitos,PuertoCavinasNorte"
+    "b": "PuertoCavinas,Cavinas,JesúsDeCavinas"
 },
 {
     "name": "Chilean Spanish",
@@ -55,7 +55,7 @@ window.southAmericaNameBases = [
   "max": 24,
   "d": "",
   "m": 0,
-  "b": "Awaris,Kolulu,Parima,Auaris,Roraima,BoaVista,Caracaraí,Mucajaí,Iracema,Uiramutã,Pacaraima,Cantá,Anauá,Amaturá,SãoGabrielDaCachoeira,Cucuí,Marauá,Balawaque,Ye'kuana,Erebato,Caura,Toototobi,Parawa,Demini,Ajarani,Xamatauteri,Opata,Omama,Kataroa,Surucucu,MissãoCatrimani,Uraricoera"
+  "b": "Auaris,Aracaçá,Hokomawä"
 },
 {
     "name": "Terêna",

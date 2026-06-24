@@ -33,74 +33,74 @@ window.northAmericaNameBases = [
 {
     "name": "Chipilo",
   "i": 71,
-  "min": 4,
-  "max": 11,
+  "min": 3,
+  "max": 22,
   "d": "cltr",
-  "m": 0,
-    "b": "Chipilo,Puebla,San Gregorio Atzompa,Chipilo de Francisco Javier Mina,Colonia Fernandez Leal,Segusino,Treviso,Belluno,Quero,Valdobbiadene,Feltre,Maser,Conegliano,Vittorio Veneto,Pieve di Soligo,Mogliano Veneto,Preganziol,San Biagio di Callalta,Spresiano,Villa del Conte,Montebelluna,Castelfranco Veneto,Cittadella,Padova,Venezia,Verona,Rovigo,Tehuacán,Atlixco,Huamantla,Tlaxcala"
+  "m": 0.35,
+    "b": "Chipilo,San Gregorio Atzompa,Chipilo de Francisco Javier Mina,Colonia Fernandez Leal,Segusino,Treviso,Belluno,Quero,Valdobbiadene,Feltre,Maser,Conegliano,Vittorio Veneto,Pieve di Soligo,Mogliano Veneto,Preganziol,San Biagio di Callalta,Spresiano,Villa del Conte,Montebelluna,Castelfranco Veneto,Cittadella,Stramare,Milies,Huatusco,Alano di Piave,Pederobba,Cavaso del Tomba,Fener,Vas"
 },
 {
     "name": "New England French",
   "i": 72,
   "min": 4,
-  "max": 11,
+  "max": 20,
   "d": "lnrm",
-  "m": 0,
-    "b": "Lewiston,Madawaska,Fort Kent,Van Buren,St. Agatha,Grand Isle,Hamlin,Frenchville,New Canada,Eagle Lake,St. Francis,Wallagrass,Cyr Plantation,Dennistown Plantation,St. John Plantation,Allagash,St. Froid,St. Pamphile,Perth-Andover,Plaster Rock,Grand Falls,Edmundston,Woodstock,Grand-Sault,St. Leonard,St. Andre,Biddeford,Sanford,Brunswick,Augusta,Bangor,Waterville"
+  "m": 0.42,
+    "b": "Lewiston,Madawaska,Fort Kent,Van Buren,St. Agatha,Grand Isle,Hamlin,Frenchville,New Canada,Eagle Lake,St. Francis,Wallagrass,Cyr Plantation,Dennistown Plantation,St. John Plantation,Allagash,St. Froid,Biddeford,Sanford,Waterville,Bangor,Manchester,Woonsocket,Lowell,Burlington,Fall River,Berlin,New Bedford,Holyoke,Caribou,Skowhegan"
 },
 {
     "name": "Newfoundland French",
   "i": 73,
   "min": 4,
-  "max": 11,
+  "max": 16,
   "d": "lnrm",
-  "m": 0,
-    "b": "Placentia,Plaisance,St. Pierre,Miquelon,Port au Port,Cape St. George,Black Duck Brook,Winterhouse,Mainland,La Grand'Terre,Degras,Ruisseau Rouge,Red Brook,L'Anse-a-Canards,Lourdes,Stephenville,Codroy Island,St. Georges,Ferryland,Grand Le Pierre,Bay l'Argent,Beau Bois,Petite Forte,La Scie,Trepassey,St. Lunaire,Bréhat,Quirpon,St. John's,Corner Brook,Gander,Grand Falls,Windsor,Bay Roberts"
+  "m": 0.6,
+    "b": "Placentia,Plaisance,Port au Port,Cape St. George,Black Duck Brook,Winterhouse,Mainland,La Grand'Terre,Degras,Ruisseau Rouge,Red Brook,L'Anse-a-Canards,Lourdes,Stephenville,Codroy Island,St. Georges,Ferryland,Grand Le Pierre,Bay l'Argent,Beau Bois,Petite Forte,La Scie,Trepassey,St. Lunaire,Bréhat,Quirpon,Petit Jardin,Grand Jardin,Three Rock Cove,Felix Cove"
 },
 {
     "name": "Afro-Seminole Creole",
   "i": 74,
   "min": 4,
-  "max": 11,
+  "max": 22,
   "d": "lnrt",
-  "m": 0,
-    "b": "Oklahoma City,Tulsa,Lawton,Duncan,Wichita Falls,Ardmore,Durant,Chickasha,Anadarko,Clinton,McAlester,Seminole,Muskogee,Okmulgee,Eufaula,Wewoka,Holdenville,Sasakwa,Redbird,Weleetka,Clearview,Bowlegs,Earlsboro,Wetumka,Dewar,Calvin,Indianola,Spaulding,Brackettville,Del Rio,Eagle Pass,Laredo"
+  "m": 0.29,
+    "b": "Brackettville,Wewoka,Seminole,Sasakwa,Bowlegs,Fort Clark,Nacimiento de los Negros"
 },
 {
     "name": "Awakatek",
   "i": 75,
   "min": 4,
-  "max": 11,
+  "max": 18,
   "d": "kpt",
-  "m": 0,
-    "b": "Aguacatán,Huehuetenango,Chalchitán,San Miguel Acatán,San Rafael La Independencia,Nentón,San Sebastián Coatán,San Mateo Ixtatán,San Juan Ixcoy,Santa Cruz Barillas,Cuilco,Ystapalapán,San Ramón,Ayutla,Tres Cruces,Puebla,Campeche,Champotón,Candelaria,La Libertad,El Quetzal,San Cristóbal Verapaz,Tactic,Cobán,Santo Tomás,Panzós,Purulhá,Tamahú,Raxruhá,Chamelco,Santa Cruz Verapaz,Tucurú"
+  "m": 0.33,
+    "b": "Aguacatán,Chalchitán,Cantón Aguacatán,Llano del Coyote,Río San Juan,El Manzanillo,La Barranca,Cantzela,El Pericón,Agua Blanca,Coacutec,Witxun,Maya Tecún,Santo Domingo Kesté,Chichoche,Chichuj,Tichón,El Cipresal,Pajuil,Comojá,Tuluxuy,Patzalan,Pichiquil,Petzal,Xenaxecul,Xolpik,Duraznales,Exchimal,Los Cifuentes,Los Tigrales"
 },
 {
     "name": "Franco-Ontarian",
   "i": 82,
   "min": 4,
-  "max": 11,
+  "max": 21,
   "d": "lnrm",
-  "m": 0,
-    "b": "Ottawa,Orléans,Sudbury,Thunder Bay,Timmins,North Bay,Hamilton,Windsor,Kingston,London,Kitchener,Guelph,Barrie,Pembroke,Hawkesbury,Plantagenet,Casselman,Embrun,Rockland,Cornwall,Alexandria,Vankleek Hill,Clarence-Rockland,Russell,Glengarry,Prescott,Alfred,Alfred and Plantagenet,Arnprior,Bourget,Champlain,Cochrane,Constance Bay,Cumberland,Dunrobin,Earlton,Greely,Hammond,Hearst,Iroquois Falls,Kapuskasing,Kearney,Kenora,L'Orignal,Madoc,Marlborough,Mattawa,Mississippi Mills,Morrisburg,New Liskeard,Nipissing,North Dundas,North Glengarry,North Grenbury,North Stormont,Perth,Petawawa,Renfrew,Sault Ste. Marie,Smiths Falls,South Glengarry,South Stormont,St. Isidore,Sturgeon Falls,Temiskaming Shores,Toronto,Val-des-Monts,Vanier,Wellington,West Carleton"
+  "m": 0.36,
+    "b": "Ottawa,Orléans,Sudbury,Thunder Bay,Timmins,North Bay,Pembroke,Hawkesbury,Plantagenet,Casselman,Embrun,Rockland,Cornwall,Alexandria,Vankleek Hill,Clarence-Rockland,Russell,Glengarry,Prescott,Alfred,Alfred and Plantagenet,Bourget,Champlain,Cochrane,Cumberland,Earlton,Hammond,Hearst,Iroquois Falls,Kapuskasing,Kenora,L'Orignal,Mattawa,Morrisburg,New Liskeard,Nipissing,North Dundas,North Glengarry,North Grenville,North Stormont,Sault Ste. Marie,South Glengarry,South Stormont,St. Isidore,Sturgeon Falls,Temiskaming Shores,Vanier"
 },
 {
     "name": "Frenchville French",
   "i": 84,
   "min": 4,
-  "max": 11,
+  "max": 12,
   "d": "lnrm",
   "m": 0,
-    "b": "Frenchville,Clearfield,Philipsburg,Altoona,State College,Williamsport,Erie,Pittsburgh,Harrisburg,Scranton,Wilkes-Barre,Allentown,Bethlehem,Reading,Lancaster,York,Mechanicsburg,Gettysburg,Carlisle,Doylestown,Easton,Stroudsburg,Jim Thorpe,Pottsville,Shamokin,Mount Carmel,Centralia,Ashland,Shenandoah,Mahanoy City,Minersville,Tamaqua,Coaldale,New Kensington"
+    "b": "Frenchville"
 },
 {
     "name": "Louisiana French",
   "i": 86,
   "min": 4,
-  "max": 11,
+  "max": 14,
   "d": "lnrm",
-  "m": 0,
-    "b": "New Orleans,Lafayette,Baton Rouge,Shreveport,Lake Charles,Houma,Thibodaux,Opelousas,Crowley,Eunice,Morgan City,Natchitoches,Alexandria,Monroe,Bossier City,Ruston,Ville Platte,Marksville,Breaux Bridge,Gonzales,Donaldsonville,Plaquemine,Lutcher,St. Martinville,Franklin,Larose,Grand Isle,Dulac,Gueydan,Cameron,Creole,Grand Chenier,Hackberry,Vinton,Sulphur,DeRidder,Leesville,New Iberia,St. Martin,Abbeville,Erath,Delcambre,Broussard,Carencro,Scott,Youngsville,Maurice,Rayne,Church Point,Iota,Basile,Elton,Jennings,Oberlin,Kinder,Sunset,Grand Coteau,Washington,Arnaudville,Krotz Springs,Melville,Sorrento,Convent,Gramercy,Laplace,Hahnville,Luling,Des Allemands,Boutte,Paradis,St. Rose,Kenner,Harahan,Metairie,Gretna,Chalmette,Violet,Terrytown,Meraux,Belle Chasse,Port Sulphur,Buras,Triumph,Golden Meadow,Lafitte,Cut Off,Galliano,Lockport,Mathews,Raceland,Napoleonville,Schriever,Gray,Chackbay,Choctaw,Westlake,Moss Bluff,Carlyss,Prien,Goosport,Starks,Grand Lake,Holly Beach,Johnson Bayou"
+  "m": 0.32,
+    "b": "New Orleans,Lafayette,Baton Rouge,Lake Charles,Houma,Thibodaux,Opelousas,Eunice,Natchitoches,Ville Platte,Breaux Bridge,Plaquemine,St. Martinville,Grand Isle,Larose,Dulac,Gueydan,Creole,Grand Chenier,New Iberia,Abbeville,Delcambre,Broussard,Carencro,Maurice,Rayne,Basile,Grand Coteau,Arnaudville,Convent,Laplace,Des Allemands,Boutte,Paradis,St. Rose,Metairie,Chalmette,Meraux,Belle Chasse,Buras,Lafitte,Galliano,Napoleonville,Schriever,Chackbay,Grand Lake,St. Martin,Gonzales"
 },
 {
     "name": "Chuj",
@@ -115,52 +115,52 @@ window.northAmericaNameBases = [
     "name": "Seri",
   "i": 396,
   "min": 4,
-  "max": 11,
+  "max": 16,
   "d": "lnrt",
-  "m": 0,
-  "b": "Socaaix,Haxöl Iihom,Tahejöc,Cofteecöl,Hast,Xepe Coosot,Xepe Heeque,Zaah Hacáila,Pailc Haacöt,Xpano Hax,Haasíxp,Xapoyáh,Hajháx,Cyazim,Sacpátix,Haanc,Hatquísa,Taij It,Inóohcö Quixaz,Xniizc,Tacáta,Heeme,Hast Hax,Soosni Itáaai,Xoxáacöl,Caail iti ctamcö,Hax Ipac,Heecot Hax,Hax Caail,Haspót Hax,Xapij An Hax,Bahía Kino,Guaymas,Puerto Lobos,Punta Tepopa,Hant Ihiin,Heeno,Xnaamotat,Xiica hast ano,Tahejöc himquij,Cofteecöl hipcap,Socaaix hac"
+  "m": 0.55,
+    "b": "Socaaix,Haxöl Iihom,Tahejöc,Cofteecöl,Hast,Xepe Coosot,Xepe Heeque,Zaah Hacáila,Pailc Haacöt,Xpano Hax,Haasíxp,Xapoyáh,Hajháx,Cyazim,Sacpátix,Haanc,Hatquísa,Taij It,Inóohcö Quixaz,Xniizc,Tacáta,Heeme,Hast Hax,Soosni Itáaai,Xoxáacöl,Caail iti ctamcö,Hax Ipac,Heecot Hax,Hax Caail,Haspót Hax,Xapij An Hax,Hant Ihiin,Heeno,Xnaamotat,Xiica hast ano,Tahejöc himquij,Cofteecöl hipcap,Socaaix hac"
 },
 {
     "name": "Inuktitut",
   "i": 728,
   "min": 4,
-  "max": 11,
+  "max": 16,
   "d": "lnrt",
-  "m": 0,
+  "m": 0.02,
   "b": "Iqaluit,Arviat,Qamani'tuaq,Iqaluktuuttiaq,Ikpiarjuk,Kinngait,Igluligaarjuk,Kangiqtugaapik,Sallit,Uqsuqtuuq,Aujuittuq,Sanirajak,Iglulik,Kimmirut,Kugaaruk,Kugluktuk,Nanisivik,Pangniqtuuq,Mittimatalik,Qikiqtarjuaq,Kangiqiniq,Naujaat,Qausuittuq,Sanikiluaq,Taloyoak,Tikirarjuaq,Ukkusiksalik,Kuujjuaq,Inukjuak,Puvirnituq,Akulivik,Aupaluk,Ivujivik,Kangiqsualujjuaq,Kangiqsujuaq,Kangirsuk,Kuujjuarapik,Umiujaq,Quaqtaq,Salluit,Inuvik,Tuktoyaktuk,Aklavik,Paulatuk,Sachs Harbour,Ulukhaktok,Qikiqtaaluk,Tasiujaq,Nunavik,Ungava,Nastapoka"
 },
 {
     "name": "Acadian",
   "i": 765,
   "min": 4,
-  "max": 11,
+  "max": 23,
   "d": "lnrt",
-  "m": 0,
-  "b": "Caraquet,Bas-Caraquet,Shediac,Cocagne,Memramcook,Cap-Pelé,Bouctouche,Richibucto,Saint-Louis-de-Kent,Grand-Barachois,Petitcodiac,Hillsborough,Chipoudy,Miramichi,Bathurst,Edmundston,Chéticamp,Pubnico,Clare,Meteghan,Grand-Pré,Annapolis Royal,Arichat,Rustico,St. Peters Bay,Breaux Bridge,St. Martinville,New Iberia,Abbeville,Crowley,Eunice,Mamou,Ville Platte,Opelousas,Marksville,Church Point,Gueydan,Pierre Part,Madawaska,Van Buren,Fort Kent,Frenchville,St. Agatha,Carleton-sur-Mer,Bonaventure,Nouvelle,Saint-Gervais,Saint-Grégoire,L'Acadie,Les Îles-de-la-Madeleine,Listuguj,Gesgapegiag,Pobomcoup,Beaubassin,Cobequid,Pisiguid,Les Mines,Mirliguesh,Nipisiguit,Pentagoet,Baie des Chaleurs"
+  "m": 0.18,
+  "b": "Caraquet,Bas-Caraquet,Shediac,Cocagne,Memramcook,Cap-Pelé,Bouctouche,Richibucto,Saint-Louis-de-Kent,Grand-Barachois,Chipoudy,Miramichi,Bathurst,Edmundston,Chéticamp,Pubnico,Clare,Meteghan,Grand-Pré,Arichat,Rustico,St. Peters Bay,Breaux Bridge,St. Martinville,New Iberia,Abbeville,Crowley,Eunice,Mamou,Ville Platte,Opelousas,Marksville,Church Point,Gueydan,Pierre Part,Madawaska,Van Buren,Fort Kent,Frenchville,St. Agatha,Carleton-sur-Mer,Bonaventure,Nouvelle,Saint-Grégoire,L'Acadie,Les Îles-de-la-Madeleine,Listuguj,Gesgapegiag,Pobomcoup,Beaubassin,Cobequid,Pisiguid,Les Mines,Mirliguesh,Nipisiguit,Pentagoet,Baie des Chaleurs"
 },
 {
     "name": "Brayon",
   "i": 787,
   "min": 4,
-  "max": 11,
+  "max": 26,
   "d": "lnrt",
-  "m": 0,
-  "b": "Edmundston,Grand Falls,Saint-Basile,Saint-Léolin,Rivière-Verte,Lac-Baker,Lac Caron,Lac Unique,Haut-Madawaska,Saint-Joseph-de-Madawaska,Saint-Jacques,Saint-Hilaire,Baker Brook,Clair,Saint-François-de-Madawaska,Siegas,Sainte-Anne-de-Madawaska,Connors,Saint-Léonard,Madawaska,Fort Kent,Frenchville,Van Buren,Grand Isle,Saint-Agatha,Saint-Fortunat,Saint-Rose,Notre-Dame-du-Portage,Rivière-du-Loup,Témiscouata-sur-le-Lac,Saint-Pascal,Saint-André,Lac Frontière,Estcourt Station,Allagash,Eagle Lake,Fort Kent Mills,Wallagrass,Daigle,Fournier,Lavertue,Upper Frenchville,Cleveland,St. David,Hamlin,Cyr Plantation,Saint John Plantation"
+  "m": 0.32,
+  "b": "Edmundston,Saint-Basile,Saint-Léolin,Rivière-Verte,Lac-Baker,Lac Caron,Lac Unique,Haut-Madawaska,Saint-Joseph-de-Madawaska,Saint-Jacques,Saint-Hilaire,Baker Brook,Clair,Saint-François-de-Madawaska,Siegas,Sainte-Anne-de-Madawaska,Connors,Saint-Léonard,Madawaska,Fort Kent,Frenchville,Van Buren,Grand Isle,Saint-Agatha,Saint-Fortunat,Allagash,Eagle Lake,Fort Kent Mills,Wallagrass,Daigle,Fournier,Upper Frenchville,St. David,Hamlin,Cyr Plantation,Saint John Plantation"
 },
 {
     "name": "American Finnish",
   "i": 796,
   "min": 4,
-  "max": 11,
+  "max": 12,
   "d": "lnrt",
-  "m": 0,
-  "b": "Hancock,Calumet,Ishpeming,Negaunee,Tapiola,Toivola,Nisula,Paavola,Kaleva,Elo,Pelkie,Waasa,Jacobsville,Republic,Champion,Palmer,Humboldt,Iron River,Crystal Falls,Amasa,Stambaugh,Quinnesec,Norway,Iron Mountain,Ironwood,Bessemer,Wakefield,South Range,Chassell,Duluth,Finland,Makinen,Embarrass,Palo,Cokato,Hibbing,Virginia,Eveleth,Meadowlands,Astoria,Warrenton,Seaside,Hamlet,Nehalem,Centerville,Naselle,Aberdeen,Hoquiam,Seattle,Ballard,Rochester,Buckley,Tacoma,Bellingham"
+  "m": 0.12,
+  "b": "Hancock,Calumet,Ishpeming,Negaunee,Tapiola,Toivola,Nisula,Paavola,Kaleva,Elo,Pelkie,Waasa,Jacobsville,Republic,Champion,Palmer,Humboldt,Iron River,Crystal Falls,Amasa,Stambaugh,Quinnesec,Norway,Iron Mountain,Ironwood,Bessemer,Wakefield,South Range,Chassell,Duluth,Finland,Makinen,Embarrass,Palo,Hibbing,Virginia,Eveleth,Meadowlands,Astoria,Naselle"
 },
 {
     "name": "Magoua",
   "i": 882,
   "min": 4,
-  "max": 11,
+  "max": 28,
   "d": "lnrt",
   "m": 0,
   "b": "Trois-Rivières,Shawinigan,Maskinongé,La Tuque,Louiseville,Notre-Dame-du-Mont-Carmel,Saint-Boniface,Saint-Étienne-des-Grès,Saint-Tite,Saint-Maurice,Saint-Alexis-des-Monts,Yamachiche,Sainte-Thècle,Sainte-Anne-de-la-Pérade,Saint-Élie-de-Caxton,Champlain,Saint-Narcisse,Obedjiwan,Saint-Paulin,Saint-Mathieu-du-Parc,Lac-aux-Sables,Hérouxville,Sainte-Ursule,Saint-Barnabé,Wemotaci,Charette,Sainte-Geneviève-de-Batiscan,Saint-Stanislas,Saint-Léon-le-Grand,Saint-Justin,Batiscan,Saint-Adelphe,Notre-Dame-de-Montauban,Sainte-Angèle-de-Prémont,La Bostonnais,Saint-Luc-de-Vincennes,Trois-Rives,Grandes-Piles,Saint-Prosper-de-Champlain,Saint-Sévère,Saint-Roch-de-Mékinac,Lac-Édouard,Pointe-du-Lac,Grand-Mère,Cap-de-la-Madeleine"
@@ -169,64 +169,64 @@ window.northAmericaNameBases = [
     "name": "Mexican Spanish",
   "i": 890,
   "min": 4,
-  "max": 11,
+  "max": 27,
   "d": "lnrt",
-  "m": 0,
+  "m": 0.15,
   "b": "Mexico City,Guadalajara,Monterrey,Puebla,Tijuana,León,Juárez,Querétaro,Morelia,Oaxaca,Guanajuato,San Luis Potosí,Zacatecas,Aguascalientes,Chihuahua,Hermosillo,Saltillo,Colima,Durango,Tepic,Xalapa,Villahermosa,Tuxtla Gutiérrez,La Paz,Campeche,Cuernavaca,Culiacán,Pachuca,Tlaxcala,Tehuacán,Xochimilco,Coyoacán,Chapultepec,Tepoztlán,Texcoco,Chalco,Naucalpan,Ecatepec,Nezahualcóyotl,Tula,Tulancingo,Huamantla,Zempoala,Cempoala,Tlalpan,Azcapotzalco,Iztacalco,Milpa Alta,Zapopan,Tlaquepaque,Tonalá,Cocula,Tequisquiapan,Tepatitlán,Tlapa,Huajuapan,Tehuantepec,Tuxtepec,Poza Rica,Minatitlán,Coatzacoalcos,Palenque,San Cristóbal de las Casas,Tapachula,Comitán,Ocosingo,Yajalón,Tila,Salto de Agua,Chilón,Sitalá,Altamirano,Las Margaritas,Marqués de Comillas,Benemérito de las Américas,San Juan Cancuc,Oxchuc,Tenejapa,Chenalhó,Chalchihuitán,Larráinzar,Pantelhó,Santiago el Pinar,San Andrés Duraznal"
 },
 {
     "name": "Missouri French",
   "i": 895,
   "min": 4,
-  "max": 11,
+  "max": 17,
   "d": "lnrt",
-  "m": 0,
-  "b": "Ste. Genevieve,St. Louis,Florissant,Carondelet,Old Mines,Bonne Terre,Valles Mines,Desloge,De Soto,Cadet,Richwoods,Potosi,St. Ferdinand,Spanish Lake,Bridgeton,Femme Osage,Spanish Pond,Prairie du Biche,Grand Champ,Cahokia,Kaskaskia,Prairie du Rocher,Fort de Chartres,St. Philippe,Nouvelle Chartres,Fort Kaskaskia,Peoria,Vincennes,Ouiatenon,Pimiteoui,Fort Orleans,River Des Peres,Bonhomme Creek,Aux Vassey,Femme Osage River"
+  "m": 0.57,
+  "b": "Ste. Genevieve,St. Louis,Florissant,Carondelet,Old Mines,Bonne Terre,Valles Mines,Desloge,Cadet,St. Ferdinand,Femme Osage,Prairie du Biche,Grand Champ,Cahokia,Kaskaskia,Prairie du Rocher,St. Philippe,Peoria,Vincennes,Ouiatenon,Portage des Sioux"
 },
 {
     "name": "Muskrat French",
   "i": 900,
   "min": 4,
-  "max": 11,
+  "max": 19,
   "d": "lnrt",
-  "m": 0,
-  "b": "Detroit,Grosse Pointe,Pointe Mouillée,Windmill Pointe,River Rouge,Ecorse,Wyandotte,Trenton,Gibraltar,Monroe,Frenchtown,Rivière aux Raisins,Rivière aux Dindes,Petite Rivière,Pointe Pelée,Île à la Pêche,Île aux Dindes,Île aux Bois-Blancs,Grosse Île,Lac Sainte-Claire,Rivière du Détroit,Windsor,LaSalle,Petite Côte,Sandwich,Tecumseh,Belle-Rivière,Puce,Saint-Joachim,Pointe-aux-Roches,Pain Court,Grande-Pointe,Rivière-aux-Canards,Amherstburg,Lakeshore,Maidstone,Rochester,Comber,Ruscom,Staples,Woodslee,Lighthouse Cove,St. Clair Beach,Oldcastle,Fox Creek,Grand Marais,DeTour,Navarre,St. Antoine,Bois Blanc Island,Lake Erie,Lake St. Clair,Lake Huron,Sandusky"
+  "m": 0.48,
+  "b": "Detroit,Grosse Pointe,Pointe Mouillée,River Rouge,Ecorse,Frenchtown,Rivière aux Raisins,Rivière aux Dindes,Petite Rivière,Pointe Pelée,Île à la Pêche,Île aux Dindes,Île aux Bois-Blancs,Grosse Île,Windsor,LaSalle,Petite Côte,Sandwich,Belle-Rivière,Puce,Saint-Joachim,Pointe-aux-Roches,Pain Court,Grande-Pointe,Rivière-aux-Canards,Ruscom,Grand Marais,DeTour,Navarre,Bois Blanc Island"
 },
 {
     "name": "Ch'orti'",
   "i": 914,
   "min": 4,
-  "max": 11,
+  "max": 21,
   "d": "lnrt",
-  "m": 0,
-  "b": "Jocotán,Camotán,Olopa,San Juan Ermita,Quetzaltepeque,Esquipulas,San Jacinto,Concepción Las Minas,Ipala,Chiquimula,La Unión,Chinam Murak,Nenoja,Tontoles,La Palmilla,Zarzamora,El Limón,Los Achiotes,Los Planes,Las Medias,Los Ranchos,El Mirador,El Planón,El Raizal,El Rosario,El Tamarindo,El Jaral,Campamento,Buena Vista,La Casita,La Libertad,La Reforma,Minas de Piedras,Mirasol,Plan Grande,Rastrojitos,Río Amarillo,Río Blanco,San Jerónimo,Tierra Fría,Vara de Cohete,Gotas de Sangre,Agua Caliente,Copán Ruinas,Santa Rita,San Rafael,Sensenti,Ocotepeque,Nueva Ocotepeque,Antigua Ocotepeque,Chonco,Colón Jubuco,Tapescos,Carrizalón,Sinuapa,Dulce Nombre de Copán,Cucuyagua,El Florido,La Entrada,Nueva Arcadia,San Agustín,Tejutla,Citalá,Las Mataras"
+  "m": 0.65,
+  "b": "Jocotán,Camotán,Olopa,San Juan Ermita,Quetzaltepeque,Esquipulas,San Jacinto,Concepción Las Minas,Ipala,Chiquimula,La Unión,Chinam Murak,Nenoja,Tontoles,La Palmilla,Zarzamora,El Limón,Los Achiotes,Los Planes,Las Medias,Los Ranchos,El Mirador,El Planón,El Raizal,El Rosario,El Tamarindo,El Jaral,Campamento,Buena Vista,La Casita,La Reforma,Minas de Piedras,Mirasol,Plan Grande,Rastrojitos,Río Amarillo,Río Blanco,San Jerónimo,Tierra Fría,Vara de Cohete,Gotas de Sangre,Agua Caliente,Copán Ruinas,Santa Rita,San Rafael,Sensenti,Ocotepeque,Nueva Ocotepeque,Antigua Ocotepeque,Chonco,Colón Jubuco,Tapescos,Carrizalón,Sinuapa,Dulce Nombre de Copán,Cucuyagua,El Florido,La Entrada,Nueva Arcadia,San Agustín,Tejutla,Citalá"
 },
 {
     "name": "Cauque Mayan language",
   "i": 1187,
   "min": 4,
-  "max": 11,
+  "max": 25,
   "d": "lnrt",
-  "m": 0,
-  "b": "Cunén,Chichicastenango,Chiché,Chinique,Zacualpa,Patzité,San Antonio Ilotenango,San Pedro Jocopilas,Santa Cruz del Quiché,San Juan Comalapa,San Martín Jilotepeque,San Andrés Sajcabajá,Santa María Chiquimula,San Bartolomé Jocotenango,Sacapulas,San Miguel Uspantán,San Gaspar Chajul,Santa María Nebaj,Cajualicán,Chuisiguán,Xexuxcab,Xocomja,Chinimachicaj,Chuisec,Chirramos,Chuitinamit,Atalaya,Pamoxam,Chuwi Laq,Pamoxam Chiquito,Chuisiguán Grande,Chuisiguán Chiquito,Chirramos Grande,Chirramos Chiquito,Chuitinamit Grande,Chuitinamit Chiquito"
+  "m": 0.45,
+  "b": "Cunén,Chichicastenango,Chiché,Chinique,Zacualpa,Patzité,San Antonio Ilotenango,San Pedro Jocopilas,Santa Cruz del Quiché,San Andrés Sajcabajá,Santa María Chiquimula,San Bartolomé Jocotenango,Sacapulas,Cajualicán,Chuisiguán,Xexuxcab,Xocomja,Chinimachicaj,Chuisec,Chirramos,Chuitinamit,Atalaya,Pamoxam,Chuwi Laq,Pamoxam Chiquito,Chuisiguán Grande,Chuisiguán Chiquito,Chirramos Grande,Chirramos Chiquito,Chuitinamit Grande,Chuitinamit Chiquito"
 },
 {
     "name": "Pidgin Delaware",
   "i": 1189,
   "min": 4,
-  "max": 11,
+  "max": 20,
   "d": "lnrt",
-  "m": 0,
-  "b": "Trenton,New Castle,Wilmington,Philadelphia,Chester,Lancaster,York,Reading,Easton,Allentown,Harrisburg,Pittsburgh,Scranton,Wilkes-Barre,Bethlehem,Downingtown,West Chester,Coatesville,Oxford,Phoenixville,Pottstown,Norristown,Doylestown,Lansdale,Perkasie,Quakertown,Sellersville,Boyertown,Red Hill,Green Lane,Pennsburg,East Greenville,Upper Darby,Lower Darby,Chester Heights,Eddystone,Marcus Hook,Trainer,Linwood,Marcus Hook Heights"
+  "m": 0.29,
+  "b": "Trenton,New Castle,Wilmington,Philadelphia,Chester,Reading,Easton,Allentown,Bethlehem,Downingtown,West Chester,Coatesville,Oxford,Phoenixville,Pottstown,Norristown,Doylestown,Lansdale,Perkasie,Quakertown,Sellersville,Boyertown,Red Hill,Green Lane,Pennsburg,East Greenville,Upper Darby,Lower Darby,Chester Heights,Eddystone,Marcus Hook,Trainer,Linwood,Marcus Hook Heights"
 },
 {
     "name": "Deg Xinag",
   "i": 1193,
   "min": 4,
-  "max": 11,
+  "max": 15,
   "d": "lnrt",
-  "m": 0,
-  "b": "Anvik,Shageluk,Grayling,Holy Cross,Innoko,Russian Mission,Nikolai,McGrath,Medfra,Takotna,Lime Village,Stony River,Crooked Creek,Aniak,Chuathbaluk,Kalskag,Upper Kalskag,Lower Kalskag,Red Devil,Sleetmute,Napakiak,Napaskiak,Kasigluk,Nunapitchuk,Oscarville,Atmauthluak,Platinum,Bethel,Kwigillingok,Kongiganok,Kipnuk,Chefornak"
+  "m": 0.38,
+  "b": "Anvik,Shageluk,Grayling,Holy Cross,Innoko,Russian Mission,Nikolai,Aniak,Chuathbaluk,Kalskag,Upper Kalskag,Lower Kalskag,Red Devil,Sleetmute,Crooked Creek,Stony River"
 },
 {
     "name": "Tlicho",
@@ -235,79 +235,79 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Behchoko,Whati,Gameti,Wekweeti,Yellowknife,Dettah,Ndilo,Fort Simpson,Fort Liard,Fort McPherson,Tulita,Norman Wells,Inuvik,Tsiigehtchic,Aklavik,Tuktoyaktuk,Paulatuk,Sachs Harbour,Ulukhaktok,Colville Lake,Deline,Fort Good Hope,Rae Edzo,Behchoko North,Behchoko South,Whati East,Whati West,Gameti Bay,Wekweeti Lake,Yellowknife Bay,Dettah Island,Ndilo Peninsula"
+    "b": "Behchoko,Whati,Gameti,Wekweeti,Yellowknife,Dettah,Ndilo"
 },
 {
     "name": "Kiliwa",
   "i": 1201,
   "min": 4,
-  "max": 11,
+  "max": 19,
   "d": "lnrt",
-  "m": 0,
+  "m": 0.11,
   "b": "Ajantequedo,Amúwey,Casilepe,Chipa'ja,Chuwíluetai,Colwey,Cuap wey,Htim,Hwanuk,Isicha'a,Ja-íl,Janielja',Jankílawa',Jaweyspa,Její chuwílu,Jejíja,Jeljumkwiñep,Jewíluja wey,Kay kesiáy,Kay sipukwín,Konúko,Kumwálo-wakusepól,Kwal'wiiy,Kwtuulkhwapu',Mat'iypuq,Mejéwey,Miltíja',Mnwiycwilu,Mttaywiiy,Múwá wey,Nyaaywii,Phuwlqhaw,Qhaayxri',Selewálo,Tesíl,Wiiyyuwl,Wi'yaaypxyaru',Wiiykwsqhalp,Xa'xl'muwp,Xa'xaycwilu,Xs'irxltap,Xwiiyspa',Wiiynyaay,Wiiyx'waaq"
 },
 {
     "name": "Quechan",
   "i": 1203,
   "min": 4,
-  "max": 11,
+  "max": 10,
   "d": "lnrt",
-  "m": 0,
-  "b": "Yuma,Fort Yuma,Winterhaven,Bard,Poston,Somerton,Gadsden,Roll,Wellton,Dateland,Aztec,Ligurta,Palomas,Alamo,Colorado River,Gila River,Mojave Desert,Sonoran Desert,Imperial Valley,Parker,Quartzsite,Ehrenberg,Bouse,Salome,Harquahala,Vicksburg,Desert Center,Cactus,Plomosa,Kofa,Cibola,Castle Dome,Chocolate Mountains,Trigo,Muggins Mountains"
+  "m": 0.10,
+  "b": "Yuma,Fort Yuma,Winterhaven,Bard,Somerton,Gadsden,Roll,Wellton,Dateland,Palomas"
 },
 {
     "name": "Cochimí",
   "i": 1204,
   "min": 4,
-  "max": 11,
+  "max": 19,
   "d": "lnrt",
-  "m": 0,
-  "b": "San Borja,Santa Gertrudis,San Francisco de la Sierra,Sierra de la Giganta,Sierra de la Laguna,La Paz,Loreto,Mulegé,Comondú,Caduaño,Calamujue,San Javier,San Juan Londó,Santa Rosalía,San Ignacio,Guadalupe,Santa Águeda,Santo Domingo,La Purísima,San José de Comondú,Santiago,San Luis Gonzaga,Todos Santos,Cabo San Lucas,San José del Cabo,La Rivera,Los Barriles,Todo Santos,El Pescadero,San Bartolo,Santiago de los Coras"
+  "m": 0.63,
+  "b": "San Borja,Santa Gertrudis,Loreto,Mulegé,Comondú,Caduaño,Calamujue,San Javier,San Juan Londó,Santa Rosalía,San Ignacio,Guadalupe,Santo Domingo,La Purísima,San José de Comondú,San Luis Gonzaga"
 },
 {
     "name": "Yavapai",
   "i": 1206,
   "min": 4,
-  "max": 11,
+  "max": 13,
   "d": "lnrt",
-  "m": 0,
-  "b": "Yavepe,Wipukepa,Kwevkepaya,Tolkepaya,Matkawatapa,Ilihasitumapa,Hakayopa,Hichapulvapa,Yelyuchopa,Amahiyukpa,Atachiopa,Iiwilkamepa,Onalkeopa,Walkamepa,Wikedjasapa,Hasaya mvo,Hakthkyayvi,Wikañacha,Waulkayauayau,Matthi wa,Wipuhk a bah,Walkeyanyanye,Mat K i la,Ahakhela,Cuercomache,Amanyikt,Mazatzal,Sycamore Canyon,Oak Creek Canyon,Fossil Creek,Cherry Creek,Williamson Valley,Tonto Basin,Sunflower Valley,Pinal Mountains,Superstition Mountains,Sierra Ancha,Date Creek,Skull Valley,Bloody Basin,Camp Verde,Fort McDowell,Prescott,Verde River,Agua Fria,Lynx Creek,Big Bug Creek,Groom Creek,Humbug Creek,Tuzigoot,Montezuma Castle,Red Rock,Red Buttes"
+  "m": 0.43,
+  "b": "Hasaya mvo,Hakthkyayvi,Wikañacha,Waulkayauayau,Matthi wa,Wipuhk a bah,Walkeyanyanye,Mat K i la,Ahakhela,Cuercomache,Amanyikt,Camp Verde,Fort McDowell,Prescott"
 },
 {
     "name": "Mohawk",
   "i": 1207,
   "min": 4,
-  "max": 11,
+  "max": 14,
   "d": "lnrt",
-  "m": 0,
-  "b": "Kahnawake,Kanesatake,Akwesasne,Tyendinaga,Kanatsiohareke,Wahta,Ohsweken,Kanièn:ke,Kenhtè:ke,Wáhta,Kanehsatàke,Ahkwesáhsne,Kahnawà:ke,Kawehnò:ke,Kana:takon,Tsi Snaíhne,Tióneró:ton,Ganienkeh,Doncaster,Sainte-Lucie-des-Laurentides,Bala,Auriesville,Fonda,Hogansburg,Rooseveltown,Massena,Cornwall,Dundee,Oka,Deux-Montagnes,Bay of Quinte,Grand River,Mohawk River,St. Lawrence River,Canajoharie,Ossernenon,Andagaron,Tionontoguen,Ganneious,Fort Hunter,Caughnawaga,Schoharie,Tionondorage"
+  "m": 0.03,
+  "b": "Kahnawake,Kanesatake,Akwesasne,Tyendinaga,Kanatsiohareke,Wahta,Ohsweken,Kanièn:ke,Kenhtè:ke,Wáhta,Kanehsatàke,Ahkwesáhsne,Kahnawà:ke,Kawehnò:ke,Kana:takon,Tsi Snaíhne,Tióneró:ton,Ganienkeh,Auriesville,Fonda,Hogansburg,Rooseveltown,Massena,Cornwall,Oka,Deux-Montagnes,Canajoharie,Ossernenon,Andagaron,Tionontoguen,Ganneious,Caughnawaga,Schoharie,Tionondorage"
 },
 {
     "name": "Cayuga",
   "i": 1208,
   "min": 4,
-  "max": 11,
+  "max": 21,
   "d": "lnrt",
-  "m": 0,
-  "b": "Cayuga,Seneca,Onondaga,Oneida,Tuscarora,Mohawk,Tonawanda,Cattaraugus,Allegany,Genesee,Buffalo,Niagara Falls,Rochester,Syracuse,Utica,Rome,Oneida Lake,Lake Ontario,Lake Erie,Susquehanna River,Genesee River,Black River,Oswego River,Chemung River,Cayuga Lake,Seneca Lake,Keuka Lake,Canandaigua Lake,Owasco Lake,Skaneateles Lake,Otsego Lake,Oneida Castle,Onondaga Castle,Tuscarora Reservation,Cayuga Heights,Seneca Falls,Red Jacket,Cornplanter,Ganondagan,Ganagaratöhwe,Onöñda'gega',Onöndowa'ga:,Gayogohó:nö',Skarù:ręˀ"
+  "m": 0.30,
+  "b": "Cayuga,Tonawanda,Cattaraugus,Allegany,Oneida Castle,Onondaga Castle,Tuscarora Reservation,Ganondagan,Ganagaratöhwe,Cornplanter"
 },
 {
     "name": "Oneida",
   "i": 1209,
   "min": 4,
-  "max": 11,
+  "max": 13,
   "d": "lnrt",
-  "m": 0,
-  "b": "Oneida,Oneida Lake,Oneida Castle,Oneida Nation,Southwold,Waterville,Norwood,Almonte,Perth,Kingston,Belleville,Trenton,Oshawa,Toronto,Hamilton,London,Windsor,Sarnia,Chatham,Sault Ste. Marie,Sudbury,North Bay,Timmins,Kirkland Lake,Elliot Lake,Blind River,Mississauga,Brampton,Oakville,Burlington,St. Catharines,Niagara-on-the-Lake,Grimsby,Ancaster,Dundas,Waterloo,Kitchener,Cambridge,Guelph,Barrie,Orillia,Peterborough,Cobourg,Port Hope,Brighton,Quinte West,Prince Edward County,Bay of Quinte"
+  "m": 0.33,
+  "b": "Oneida,Oneida Castle,Southwold"
 },
 {
     "name": "Onondaga",
   "i": 1210,
   "min": 4,
-  "max": 11,
+  "max": 16,
   "d": "lnrt",
-  "m": 0,
-  "b": "Onondaga,Onondaga Castle,Onondaga Hill,Nedrow,Lafayette,Syracuse,Jamesville,Fayetteville,Manlius,DeWitt,Cicero,Clay,Salina,Liverpool,Geddes,Camillus,Marcellus,Skaneateles,Cazenovia,Canastota,Chittenango,Oneida,Verona,Rome,Utica,Whitesboro,New Hartford,Clinton,Kirkland,Oriskany,Fall Brook,Limestone Creek,Butternut Creek,Onondaga Creek,Harbor Brook,Ninemile Creek,Seneca River,Erie Canal,Onondaga Lake,Otisco Lake,Skaneateles Lake,Cazenovia Lake,Oneida Lake"
+  "m": 0.40,
+  "b": "Onondaga,Onondaga Castle,Onondaga Hill,Nedrow,Lafayette"
 },
 {
     "name": "Seneca",
@@ -315,44 +315,44 @@ window.northAmericaNameBases = [
   "min": 4,
   "max": 11,
   "d": "lnrt",
-  "m": 0,
-  "b": "Seneca,Seneca Falls,Geneva,Canandaigua,Waterloo,Bath,Ithaca,Elmira,Binghamton,Owego,Corning,Hornell,Olean,Salamanca,Jamestown,Dunkirk,Fredonia,Buffalo,Niagara Falls,Rochester,Syracuse,Genesee River,Allegheny River,Susquehanna River,Cattaraugus Creek,Tonawanda Creek,Cayuga Creek,Seneca Lake,Cayuka Lake,Keuka Lake,Canandaigua Lake,Owasco Lake,Chautauqua Lake,Lake Erie,Lake Ontario,Erie Canal,Genesee Canal,Seneca River,Cayuga-Seneca Canal"
+  "m": 0.14,
+  "b": "Seneca,Seneca Falls,Geneva,Canandaigua,Salamanca,Buffalo,Rochester"
 },
 {
     "name": "Tuscarora",
   "i": 1212,
   "min": 4,
-  "max": 11,
+  "max": 9,
   "d": "lnrt",
   "m": 0,
-    "b": "Tuscarora,Indian Woods,Staggs Hill,Mount Spring,Peachtree,Red Springs,Lumberton,Pembroke,Rowland,Maxton,St. Pauls,Elizabethtown,Bladenboro,Wilmington,Whiteville,Clinton,Kinston,Goldsboro,Raleigh,Durham,Chapel Hill,Weldon,Halifax,Enfield,Warrenton,Rocky Mount,Smithfield,Wilson,Greenville,New Bern,Washington,Elizabeth City,Plymouth,Windsor,Jackson,Williamston,Edenton,Hertford,Gatesville,Murfreesboro,Ahoskie,Lewiston,Stokes,Wellons,Harrells,Warsaw,Beulaville,Richlands,Jacksonville,Swansboro,Camp Lejeune,Fayetteville,Fort Bragg,Pope Army Airfield"
+    "b": "Tuscarora"
 },
 {
     "name": "Turks and Caicos Creole",
   "i": 1293,
   "min": 4,
-  "max": 11,
+  "max": 16,
   "d": "lnrt",
-  "m": 0,
-    "b": "Grand Turk,Providenciales,South Caicos,Middle Caicos,North Caicos,Salt Cay,Parrot Cay,Pine Cay,Ambergris Cay,Big Ambergris Cay,Long Bay,Chalk Sound,Blue Hills,Bottle Creek,The Bight,Whitby,Kew,Sandy Point,Cockburn Town,Balfour Town,Conch Bar,Lorimers,Bambarra,Leeward,Blue Mountain,Dick Hill,Highland,Palm Grove,Hospital Hill,Wheeland,Back Salina,Overback"
+  "m": 0.66,
+  "b": "Grand Turk,Providenciales,South Caicos,Middle Caicos,North Caicos,Salt Cay,Parrot Cay,Pine Cay,Ambergris Cay,Big Ambergris Cay,Long Bay,Blue Hills,Bottle Creek,The Bight,Whitby,Kew,Sandy Point,Cockburn Town,Balfour Town,Conch Bar,Lorimers,Bambarra,Leeward,Blue Mountain,Dick Hill,Highland,Palm Grove,Hospital Hill,Wheeland,Back Salina,Overback"
 },
 {
     "name": "Vincentian Creole",
   "i": 1294,
   "min": 4,
-  "max": 11,
+  "max": 14,
   "d": "lnrt",
-  "m": 0,
-  "b": "Kingstown,Calliaqua,Georgetown,Biabou,Byera Hill,Peruvian Vale,Stubbs,Richmond Hill,Mesopotamia,Chauncey,Argyle,Owia,Layou,Barrouallie,Chateaubelair,Wallilabou,Fitz Hughes,Colonarie,Rutland Vale,Mount Wynne,South Rivers,Cumberland,Edinboro,Questelles,Sion Hill,Fountain,Sharpes,New Ground,Victoria Park,Belmont,Greiggs,Rich Park,Spring Village,Park Hill,Rose Hall,Union Island,Mayreau,Canouan,Bequia,Mustique,Palm Island,Prune Island,Young Island,Baliceaux, Battowia, Quatre Isle"
+  "m": 0.45,
+  "b": "Kingstown,Calliaqua,Georgetown,Biabou,Byera Hill,Peruvian Vale,Stubbs,Richmond Hill,Mesopotamia,Chauncey,Argyle,Owia,Layou,Barrouallie,Chateaubelair,Wallilabou,Fitz Hughes,Colonarie,Rutland Vale,Mount Wynne,South Rivers,Cumberland,Edinboro,Questelles,Sion Hill,Fountain,Sharpes,New Ground,Victoria Park,Belmont,Greiggs,Rich Park,Spring Village,Park Hill,Rose Hall,Union Island,Mayreau,Canouan,Bequia,Mustique,Palm Island,Prune Island,Young Island"
 },
 {
     "name": "Virgin Islands Creole",
   "i": 1295,
   "min": 4,
-  "max": 11,
+  "max": 19,
   "d": "lnrt",
-  "m": 0,
-  "b": "Charlotte Amalie,Christiansted,Frederiksted,Cruz Bay,Coral Bay,Red Hook,Smith Bay,Reef Bay,Grove Place,Anna's Retreat,Contant,Admiralens Gade,Kongens Gade,Dronningens Gade,Commandant Gade,Back Street,Northside,Southside,East End,West End,St. Thomas,St. Croix,St. John,Water Island,Frenchtown,Sion Farm,Altona,Bodkin Estate,Carl Laaben,Castle Nugent,Claremont,Contentment,Cotton Garden,Diamond,Estate La Grange,Estate Neltjeberg,Estate Whim,Fair Plain,Fort Christian,Frederiksdal,Frydendal,Golden Grove,Good Hope,Grange,Green Kay,Half Penny,Ham's Bluff,Happy Hill,Harwood Highway,Hogen's Gut,Humboldt Hill,Jealousy,Jumbie Bay,Keating's Pen,Kirke Gade,Knud Hill,Kronprinsens Gade,La Grande Princesse,Labyrinth,Lalley,Libanon Hill,Lilliendal,Lindberg Bay,Lindquist,Little La Grange,Louisendal,Lovango Cay,Mandal,Margaret Hill,Mary's Fancy,Middle Works,Misgen,Neltjeberg,Nevis,Saba,Salt River,Sandy Point,Sorgenfri,Spring Bay,Sprat Hall,St. Peter,Steeple Building,Sugar Estate,Tutu,Upper Love,Vagthus,Veeder Hill,Veterans Drive,Virgin Gorda,Jost Van Dyke,Anegada,Tortola"
+  "m": 0.59,
+  "b": "Charlotte Amalie,Christiansted,Frederiksted,Cruz Bay,Coral Bay,Red Hook,Smith Bay,Grove Place,Anna's Retreat,Contant,Back Street,Northside,Southside,East End,West End,St. Thomas,St. Croix,St. John,Water Island,Frenchtown,Sion Farm,Altona,Castle Nugent,Claremont,Contentment,Cotton Garden,Diamond,Fair Plain,Fort Christian,Frederiksdal,Frydendal,Golden Grove,Good Hope,Grange,Green Kay,Half Penny,Happy Hill,Hogen's Gut,Jealousy,Jumbie Bay,Knud Hill,La Grande Princesse,Labyrinth,Lalley,Libanon Hill,Lilliendal,Lindberg Bay,Lindquist,Louisendal,Lovango Cay,Mandal,Margaret Hill,Middle Works,Misgen,Neltjeberg,Nevis,Saba,Salt River,Sandy Point,Sorgenfri,Spring Bay,Sprat Hall,St. Peter,Tutu,Upper Love,Vagthus,Veeder Hill,Virgin Gorda,Jost Van Dyke,Anegada,Tortola"
 },
 {
     "name": "Jamaican Maroon Creole",

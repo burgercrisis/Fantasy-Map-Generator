@@ -10,7 +10,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Wabag,Wapenamanda,Laiagam,Kandep,Kompiam,Paiela,Lapalama,Yenkis,Maramuni,Sari,Sau,Tayato,Yandapo,Mae,Kaina,Kandepe,Kapona,Layapo,Anditale,Angar,Olya,Angi,Anji,Lumusa,Kemangle,Sinak,Malamaundi"
+  "b": "Wabag,Wapenamanda,Laiagam,Kandep,Kompiam,Paiela,Lapalama,Yengis,Maramuni,Sari,Anditale,Angar,Olya,Angi,Anji,Lumusa,Kemangle,Malaumanda,Tukusanda,Aipanda,Tambitanis,Sakarip,Sopas,Silim,Wapai,Sauanda,Paiam,Kaipures,Lakapos,Yampu,Palimbi,Sikiro,Kupin,Yambali,Mulitaka,Torenam,Walya,Yeim,Tomba,Kanak,Kepilam,Yokona,Tapos,Komanda,Alumanda,Pitipais,Raiakam,Londol,Saina,Kenailama,Olimoli,Mulale,Kapumanda"
 },
 {
     "name": "Dani Papuan",
@@ -19,16 +19,16 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "ptklnrs",
   "m": 0,
-  "b": "Wamena,Mulia,Tigi,Jiwika,Kurulu,Asologaima,Hitadipa,Kelila,Makki,Baliem,Hema,Wolo,Kanggime,Tagime,Abel,Milipna,Kiwirok,Pass Valley,Bokondini,Dela,Soba,Ilaga,Karubaga,Mapenduma,Kamuge,Waikerek,Mabilabol"
+    "b": "Aikima,Asologaima,Baliem,Balingga,Bokondini,Bolakme,Bugi,Dimba,Dugum,Geya,Goyage,Ilaga,Jiwika,Kanggime,Karubaga,Kelila,Kembu,Kenyam,Kilise,Kimbim,Konda,Kuari,Kubu,Kurima,Kurulu,Makki,Mapenduma,Melagineri,Napua,Obia,Pabuma,Pass Valley,Pelebaga,Pirime,Piramid,Pumo,Siepkosi,Silimo,Sogomo,Sumpaima,Suroba,Taelarek,Tagime,Timori,Tiom,Usilimo,Wamena,Welesi,Wesaput,Wolo,Wouma,Yalengga,Yuneri"
 },
 {
     "name": "Melanesian Vanuatu",
   "i": 53,
   "min": 4,
-  "max": 11,
-  "d": "",
+  "max": 13,
+  "d": "nrs",
   "m": 0,
-  "b": "Ifira,Santo,Malakula,Paama,Ambrym,Epi,Shefa,Tafea,Tanna,Aniwa,Futuna,Erromango,Aneityum,Banks,Torres,Efate,Emae,Mele,Erakor,Iririki,Tagabe,Melemaat,PGongo,Litslits,Bethel,Norsup,Uraparapara"
+  "b": "Abatvenu,Abwatuntora,Angoro,Aronbwaratu,Asanvari,Atavtabangga,Avanbatai,Avavanvae,Bwatvenua,Lakatava,Lalak,Lamalanga,Laone,Latano,Lavatu,Lavatmanggemu,Lavui,Loltong,Nambwarangiut,Namaram,Nazareth,Renbura,Tasvarongo,Vanrasini,Vunmarama"
 },
 {
     "name": "Micronesian",
