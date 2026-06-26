@@ -1,14 +1,13 @@
 {
-  "blockers": [],
-  "lastUpdate": "",
-  "completedEntries": 0,
-  "lastVerifiedIndex": -1,
-  "totalIssuesFixed": 0,
-  "lastVerifiedName": "none",
-  "currentLanguage": "",
-  "startedAt": "",
-  "totalNamesVerified": 0,
-  "totalEntries": 0,
+  "lastUpdate": "2026-06-26T11:38:00Z",
+  "completedEntries": 71,
+  "currentLanguage": "Terêna, Mapudungun, Huilliche, Itonama verified. 30 entries still need web-source research.",
+  "status": "in_progress",
   "continent": "south-america",
-  "status": "not_started"
+  "totalEntries": 71,
+  "allEntriesHaveMinimumNames": true,
+  "entriesFullyVerified": 41,
+  "entriesRegionallyVerified": 30,
+  "criticalFixes": 24,
+  "sessionSummary": "4 entries web-source verified (Terêna, Mapudungun, Huilliche, Itonama). 2 entries fixed (Cavineña 24→36, Karajá 24→30). 41 fully verified, 30 regional. Guardrails PASS."
 }
