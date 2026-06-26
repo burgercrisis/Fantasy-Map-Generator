@@ -903,7 +903,7 @@ window.europeNameBases = [
   "max": 25,
   "d": "lnrt",
   "m": 0,
-  "b": "Córdoba,Sevilla,Granada,Málaga,Almería,Jaén,Cádiz,Huelva,Marbella,Ronda,Antequera,Écija,Utrera,Jerez de la Frontera,Sanlúcar de Barrameda,Chipiona,Rota,El Puerto de Santa María,Chiclana de la Frontera,Conil de la Frontera,Tarifa,Algeciras,La Línea de la Concepción,Gibraltar"
+  "b": "Córdoba,Sevilla,Granada,Málaga,Almería,Jaén,Cádiz,Huelva,Marbella,Ronda,Antequera,Écija,Utrera,Jerez de la Frontera,Sanlúcar de Barrameda,Chipiona,Rota,El Puerto de Santa María,Chiclana de la Frontera,Conil de la Frontera,Tarifa,Algeciras,La Línea de la Concepción,Gibraltar,Linares"
 },
 {
     "name": "Andalusian",
@@ -1119,7 +1119,7 @@ window.europeNameBases = [
   "max": 21,
    "d": "lnrt",
    "m": 0,
-    "b": "Oradea,Arad,Salonta,Zalău,Carei,Chișineu-Criș,Beiuș,Marghita,Aleșd,Vașcău,Valea lui Mihai,Ineu,Curtuișeni,Biharia,Abdulăuți,Târnăveni,Cluj-Napoca,Alba Iulia,Aiud,Câmpeni,Turda,Dej,Huedin,Gherla"
+    "b": "Oradea,Arad,Salonta,Zalău,Carei,Chișineu-Criș,Beiuș,Marghita,Aleșd,Vașcău,Valea lui Mihai,Ineu,Curtuișeni,Biharia,Abdulăuți,Târnăveni,Cluj-Napoca,Alba Iulia,Aiud,Câmpeni,Turda,Dej,Huedin,Gherla,Nucet"
 },
 {
     "name": "Daco-Romanian",
@@ -1146,7 +1146,7 @@ window.europeNameBases = [
   "max": 15,
   "d": "lnrt",
   "m": 0,
-  "b": "Benasque,Campo,Graus,Estadilla,Capella,Fonz,Monzón,Barbastro,Almudévar,Tierz,La Sotonera,Robres,Monflorite,Lupiñén-Ortilla,Albero Alto,Nueno,Puertolas,El Grado,Arén,Secastilla,Sopeira,Chía,Peraltilla,Aínsa"
+  "b": "Benasque,Campo,Graus,Estadilla,Capella,Fonz,Monzón,Barbastro,Almudévar,Tierz,La Sotonera,Robres,Monflorite,Lupiñén-Ortilla,Albero Alto,Nueno,Puertolas,El Grado,Arén,Secastilla,Sopeira,Chía,Peraltilla,Aínsa,Castejón de Sos"
 },
 {
     "name": "Eastern Catalan",
@@ -1344,7 +1344,7 @@ window.europeNameBases = [
   "max": 22,
   "d": "lnrt",
   "m": 0,
-  "b": "Santiago de Compostela,A Coruña,Vigo,Ourense,Lugo,Pontevedra,Ferrol,Narón,Carballo,Arteixo,Cambre,Culleredo,Betanzos,Noia,Muros,Ribeira,Boiro,Pobra do Caramiñal,Vilagarcía de Arousa,Caldas de Reis,Tui,O Porriño,Redondela,Nigrán,Cangas do Morrazo,Marín,Ponteareas,Moaña,Ceuta,O Barco de Valdeorras,Verín,Allariz,Xinzo de Limia,O Carballiño,Ribeira de Pena,Lalín,Catoira,Terra Chá"
+  "b": "Santiago de Compostela,A Coruña,Vigo,Ourense,Lugo,Pontevedra,Ferrol,Narón,Carballo,Arteixo,Cambre,Culleredo,Betanzos,Noia,Muros,Ribeira,Boiro,Pobra do Caramiñal,Vilagarcía de Arousa,Caldas de Reis,Tui,O Porriño,Redondela,Nigrán,Cangas do Morrazo,Marín,Ponteareas,Moaña,O Barco de Valdeorras,Verín,Allariz,Xinzo de Limia,O Carballiño,Ribeira de Pena,Lalín,Catoira,Terra Chá,Sarria"
 },
 {
     "name": "Galician-Asturian",
@@ -1407,7 +1407,7 @@ window.europeNameBases = [
   "max": 27,
   "d": "lnrt",
   "m": 0,
-  "b": "Bordeaux,Pau,Tarbes,Auch,Biarritz,Bayonne,Dax,Mont-de-Marsan,Aire-sur-l'Adour,Lourdes,Saint-Gaudens,Muret,Blagnac,Tournefeuille,Colomiers,Pessac,Mérignac,Villenave-d'Ornon,Bègles,Talence,Gradignan,Libourne,Arcachon,La Teste-de-Buch,Bigorre,Luchon,Saint-Bertrand-de-Comminges,Condom,Périgueux,Agen"
+  "b": "Bordeaux,Pau,Tarbes,Auch,Biarritz,Bayonne,Dax,Mont-de-Marsan,Aire-sur-l'Adour,Lourdes,Saint-Gaudens,Muret,Blagnac,Tournefeuille,Colomiers,Pessac,Mérignac,Villenave-d'Ornon,Bègles,Talence,Gradignan,Libourne,Arcachon,La Teste-de-Buch,Luchon,Saint-Bertrand-de-Comminges,Condom,Périgueux,Agen"
 },
 {
     "name": "Genoese",
@@ -1425,7 +1425,7 @@ window.europeNameBases = [
   "max": 25,
   "d": "lnrt",
   "m": 0,
-  "b": "Grosseto,Orbetello,Pitigliano,Sorano,Manciano,Castiglione della Pescaia,Massa Marittima,Scansano,Arcidosso,Santa Fiora,Semproniano,Porto Santo Stefano,Porto Ercole,Magliano in Toscana,Seggiano,Castel del Piano"
+  "b": "Grosseto,Orbetello,Pitigliano,Sorano,Manciano,Castiglione della Pescaia,Massa Marittima,Scansano,Arcidosso,Santa Fiora,Semproniano,Porto Santo Stefano,Porto Ercole,Magliano in Toscana,Seggiano,Castel del Piano,Follonica,Roccastrada,Gavorrano,Capalbio,Civitella Paganico,Cinigiano,Campagnatico,Scarlino,Roccalbegna,Castell'Azzara,Monterotondo Marittimo,Montieri"
 },
 {
     "name": "Haketia",
@@ -1515,7 +1515,7 @@ window.europeNameBases = [
   "max": 22,
   "d": "lnrt",
   "m": 0,
-  "b": "León,Ponferrada,Astorga,La Bañeza,Villablino,Cacabelos,Sahagún,Valencia de Don Juan,Santa María del Páramo,Bembibre,Toreno,Fabero,Carracedelo,Vega de Espinareda,Palacios del Sil,Páramo del Sil,Berlanga del Bierzo,Villafranca del Bierzo,Congosto,Cubillos del Sil,Priaranza del Bierzo,Sancedo,Vega de Valcarce,Trabadelo,Barjas,Cistierna,Igüeña,Bercianos del Páramo,Santa Marina del Rey,Villadangos del Páramo"
+  "b": "León,Ponferrada,Astorga,La Bañeza,Villablino,Cacabelos,Sahagún,Valencia de Don Juan,Santa María del Páramo,Bembibre,Toreno,Fabero,Carracedelo,Vega de Espinareda,Palacios del Sil,Páramo del Sil,Berlanga del Bierzo,Villafranca del Bierzo,Congosto,Cubillos del Sil,Priaranza del Bierzo,Sancedo,Vega de Valcarce,Trabadelo,Barjas,Cistierna,Igüeña,Bercianos del Páramo,Santa Marina del Rey,Villadangos del Páramo,San Pedro de las Dueñas"
 },
 {
     "name": "Ligurian",
@@ -1887,10 +1887,10 @@ window.europeNameBases = [
   "b": "Palafrugell,Girona,Barcelona,Lleida,Tarragona,Sabadell,Terrassa,Mataró,Manresa,Vic,Olot,Puigcerdà,La Seu d'Urgell,Solsona,Balaguer,Tàrrega,Cervera,Palamós,Calella,Blanes,Sant Feliu de Guíxols,Tossa de Mar,Begur,Pals,Calonge"
 },
 {
-    "name": "Palra",
-  "i": 523,
-  "min": 3,
-  "max": 21,
+   "name": "Palra",
+   "i": 523,
+   "min": 3,
+   "max": 22,
   "d": "lnrt",
   "m": 0,
    "b": "León,Ponferrada,Astorga,La Bañeza,Villablino,Cacabelos,Sahagún,Valencia de Don Juan,Santa María del Páramo,Bembibre,Toreno,Fabero,Carracedelo,Vega de Espinareda,Palacios del Sil,Páramo del Sil,Berlanga del Bierzo,Villafranca del Bierzo,Congosto,Cubillos del Sil,Priaranza del Bierzo,Sancedo,Vega de Valcarce,Trabadelo,Barjas"
@@ -2226,7 +2226,7 @@ window.europeNameBases = [
   "max": 13,
   "d": "lnrt",
   "m": 0,
-  "b": "Kyzyl,Abakan,Minusinsk,Achinsk,Kansk,Shushenskoye,Chernogorsk,Sayansk,Bogotol,Nazarovo,Tura,Parabel,Yeniseysk,Taseyevo,Lesosibirsk,Novokuznetsk,Kemerovo,Prokopyevsk"
+  "b": "Kyzyl,Abakan,Minusinsk,Achinsk,Kansk,Shushenskoye,Chernogorsk,Sayansk,Bogotol,Nazarovo,Tura,Parabel,Yeniseysk,Taseyevo,Lesosibirsk,Novokuznetsk,Kemerovo,Prokopyevsk,Tomsk,Novosibirsk,Irkutsk,Krasnoyarsk,Barnaul"
 },
 {
     "name": "Proto-Ob-Ugric",
@@ -2280,7 +2280,7 @@ window.europeNameBases = [
   "max": 14,
   "d": "lnrt",
   "m": 0,
-  "b": "Lugano,Bellinzona,Locarno,Chiasso,Mendrisio,Biasca,Riviera,Ascona,Losone,Maggia,Verzasca,Leventina,Val Bedretto,Val Leventina,Val Blenio,Val Calanca,Val Mesolcina,Val Bregaglia,Val Poschiavo,Val Müstair,Engadin,Val Venosta,Val Pusteria,Val Isarco,Val Non,Val Sole,Val Giudicarie,Val Lagarina,Val di Ledro,Val di Non,Val di Sole,Val di Rabbi,Val di Peio,Val di Fiemme,Val di Fassa,Val di Cembra"
+   "b": "Lugano,Bellinzona,Locarno,Chiasso,Mendrisio,Biasca,Riviera,Ascona,Losone,Maggia,Verzasca,Blenio,Onsernone,Leventina,Cevio,Bignasco,Cugnasco,Gordola,Minusio,Muralto,Orselina,Ponte Tresa,Savosa,Vira,Airolo"
 },
 {
     "name": "Triestine",
@@ -2460,7 +2460,7 @@ window.europeNameBases = [
   "max": 25,
   "d": "lnrt",
   "m": 0,
-  "b": "Teruel,Alcañiz,Andorra,Calamocha,Monreal del Campo,Albarracín,Mora de Rubielos,Valderrobres,Calanda,Alcorisa,Híjar,Calaceite,Valdealgorfa,La Puebla de Híjar,Samper de Calanda,Castellote,Ariño,Alloza,Oliete,Muniesa,Albalate del Arzobispo,Alacón,Salcedillo,Crivillén,Gargallo,Villarluengo,Villarroya de los Pinares,Noguera de Albarracín,Gea de Albarracín,Guadalaviar,Javalambre,Sierra de Albarracín,Maestrazgo,Gúdar,Sierra de Gúdar,Sierra de Javalambre"
+  "b": "Teruel,Alcañiz,Andorra,Calamocha,Monreal del Campo,Albarracín,Mora de Rubielos,Valderrobres,Calanda,Alcorisa,Híjar,Calaceite,Valdealgorfa,La Puebla de Híjar,Samper de Calanda,Castellote,Ariño,Alloza,Oliete,Muniesa,Albalate del Arzobispo,Alacón,Salcedillo,Crivillén,Gargallo,Villarluengo,Villarroya de los Pinares"
 },
 {
     "name": "Surmiran",
@@ -2532,7 +2532,7 @@ window.europeNameBases = [
   "max": 14,
   "d": "lnrt",
   "m": 0,
-  "b": "Lugano,Bellinzona,Locarno,Chiasso,Mendrisio,Biasca,Riviera,Leventina,Val Bedretto,Val Leventina,Val Blenio,Val Calanca,Val Mesolcina,Val Bregaglia,Val Poschiavo,Val Müstair,Engadin,Val Mustair,Val Venosta,Val Pusteria,Val Isarco,Val Adige,Val Non,Val Sole,Val Giudicarie,Val Lagarina,Val di Ledro,Val di Non,Val di Sole,Val di Rabbi,Val di Peio,Val di Fiemme,Val di Fassa,Val di Cembra"
+   "b": "Lugano,Bellinzona,Locarno,Chiasso,Mendrisio,Biasca,Riviera,Leventina,Ascona,Losone,Maggia,Verzasca,Loco,Lumino,Castelrotto,Faido,Sorengo,Paradiso,Morcote,Carona,Ceresio,Lugaggia,Brissago,Gambarogno,Levantine"
 },
 {
     "name": "Tuscan",
@@ -2613,7 +2613,7 @@ window.europeNameBases = [
   "max": 21,
   "d": "lnrt",
   "m": 0,
-  "b": "València,Alacant,Castelló,Elche,Alicante,Orihuela,Gandia,Sagunto,Torrent,Paterna,Mislata,Burjassot,Ontinyent,Xàtiva,Alzira,Sueca,Carcaixent,Benidorm,Calpe,Denia,Altea,Benissa,Teulada,Benitachell,Piles,Oliva,Albaida,Alcoi,Elda,Novelda,Crevillente,Santa Pola,Torrevieja,Guardamar del Segura,Pilar de la Horadada,San Pedro del Pinatar,Los Alcázares,Cartagena,La Unión,Lorca,Águilas,Mazarrón,San Javier,Torre Pacheco"
+  "b": "València,Alacant,Castelló,Elche,Alicante,Orihuela,Gandia,Sagunto,Torrent,Paterna,Mislata,Burjassot,Ontinyent,Xàtiva,Alzira,Sueca,Carcaixent,Benidorm,Calpe,Denia,Altea,Benissa,Teulada,Benitachell,Piles,Oliva,Albaida,Alcoi,Elda,Novelda,Crevillente,Santa Pola,Torrevieja,Guardamar del Segura,Pilar de la Horadada,San Pedro del Pinatar,Los Alcázares"
 },
 {
     "name": "Venetian",
@@ -4869,7 +4869,7 @@ window.europeNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Budapest,Debrecen,Szeged,Miskolc,Pécs,Győr,Nyíregyháza,Kecskemét,Székesfehérvár,Szombathely,Szolnok,Tatabánya,Kaposvár,Veszprém,Békéscsaba,Zalaegerszeg,Eger,Sopron,Nagykanizsa,Dunaújváros,Hódmezővásárhely,Dunakeszi,Cegléd,Vác,Gödllő,Szentendre,Esztergom,Komárom,Gyula,Orosháza,Kazincbarcika,Salgótarján,Várpalota,Pápa,Kiskunfélegyháza,Baja,Kiskunhalas,Mezőköld,Szarvas,Békés"
+  "b": "Săbăoani,Pildești,Traian,Iugani,Bărgăoani,Bălușești,Ploscuțeni,Valea Seacă,Galbeni,Valea Mare,Gioseni,Nicolae Bălcescu,Pădureni,Călugăreni,Lespezi,Gârlenii de Sus,Lilieci,Cleja,Arini,Bălțata,Frumoasa,Pustiana,Bogdănești,Târța,Palanca"
 },
 {
     "name": "Dené-Yeniseian",
