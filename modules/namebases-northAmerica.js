@@ -181,7 +181,7 @@ window.northAmericaNameBases = [
   "max": 17,
   "d": "lnrt",
   "m": 0.57,
-  "b": "Ste. Genevieve,Old Mines,Plattenville,Cinque Hommes,St. Louis,Carondelet,Florissant,Valles Mines,Desloge,Bon Terre,Cadet,St. Ferdinand,Femme Osage,Prairie du Biche,Grand Champ,Cahokia,Kaskaskia,Prairie du Rocher,St. Philippe,Peoria,Vincennes,Ouiatenon,Portage des Sioux,Pioneer Mine,San Miguel,Mississippi River"
+  "b": "Ste. Genevieve,Old Mines,Plattenville,Cinque Hommes,St. Louis,Carondelet,Florissant,Valles Mines,Desloge,Bon Terre,Cadet,St. Ferdinand,Femme Osage,Prairie du Biche,Grand Champ,Cahokia,Kaskaskia,Prairie du Rocher,St. Philippe,Peoria,Vincennes,Ouiatenon,Portage des Sioux,Pioneer Mine,San Miguel"
 },
 {
     "name": "Muskrat French",
@@ -190,7 +190,7 @@ window.northAmericaNameBases = [
   "max": 19,
   "d": "lnrt",
   "m": 0.48,
-  "b": "Detroit,Grosse Pointe,Pointe Mouillée,River Rouge,Ecorse,Frenchtown,Rivière aux Raisins,Rivière aux Dindes,Petite Rivière,Pointe Pelée,Île à la Pêche,Île aux Dindes,Île aux Bois-Blancs,Grosse Île,Windsor,LaSalle,Petite Côte,Sandwich,Belle-Rivière,Puce,Saint-Joachim,Pointe-aux-Roches,Pain Court,Grande-Pointe,Rivière-aux-Canards,Ruscom,Grand Marais,DeTour,Navarre,Bois Blanc Island"
+  "b": "Detroit,Grosse Pointe,Pointe Mouillee,River Rouge,Ecorse,Frenchtown,Pointe Pelee,Ile aux Dindes,Ile aux Bois-Blancs,Grosse Ile,Windsor,LaSalle,Petite Cote,Sandwich,Belle-Riviere,Puce,Saint-Joachim,Pointe-aux-Roches,Pain Court,Grande-Pointe,Navarre,Bois Blanc Island,Monroe,Tecumseh,Wyandotte,Dearborn,Lincoln Park,Allen Park,Melvindale,Riverview,Trenton,Gibraltar,Rockwood,Flat Rock,South Rockwood,Carleton,Estral Beach,Newport,Stony Point,Grand Marais,DeTour,Drummond Island"
 },
 {
     "name": "Ch'orti'",
@@ -253,7 +253,7 @@ window.northAmericaNameBases = [
   "max": 10,
   "d": "lnrt",
   "m": 0.10,
-  "b": "Yuma,Fort Yuma,Winterhaven,Bard,Somerton,Gadsden,Roll,Wellton,Dateland,Palomas,Quartzsite,Blythe,Calexico,El Centro,El Centro Imperial,Heber,Holtville,Brawley,Seeley,Westmorland,Imperial,Ocotillo,Coyote Wells,Coolidge Springs,Salton Slough,Moortown,Cibola,Ripley,Mesquite,Seneca,Colorado River,Aquecheme,Tonaya,Yumaya,Amakhwaiya,Kwatsáan"
+  "b": "Yuma,Fort Yuma,Winterhaven,Bard,Somerton,Gadsden,Roll,Wellton,Dateland,Palomas,Quartzsite,Blythe,Calexico,El Centro,El Centro Imperial,Heber,Holtville,Brawley,Seeley,Westmorland,Imperial,Ocotillo,Coyote Wells,Coolidge Springs,Salton Slough,Moortown,Cibola,Ripley,Mesquite,Seneca,Aquecheme,Tonaya,Yumaya,Amakhwaiya,Kwatsáan"
 },
 {
     "name": "Cochimí",
@@ -271,7 +271,7 @@ window.northAmericaNameBases = [
   "max": 13,
   "d": "lnrt",
   "m": 0.43,
-  "b": "Prescott,Fort McDowell,Camp Verde,Mexico,Yavapai,Mazatzal,Verde,Fossil Creek,Oak Creek,Rio Verde,Hassayampa,Wickenburg,Congress,Salome,Kirkland Valley,Wiltaika,Harquahala,Castle Dome,La Paz,Dripping Springs,Pinal Mountains,McDowell Mountains,Four Peaks,Superstition Mountains,Mazatzal Mountains,Agua Fria,Black Hills,Sierra Ancha,Cordes,Cedar Bench,Walker Creek,McDowell Range,Prescott Valley,Chino Valley,Wilhoit,Wagoner"
+  "b": "Prescott,Fort McDowell,Camp Verde,Mexico,Yavapai,Mazatzal,Verde,Fossil Creek,Oak Creek,Rio Verde,Hassayampa,Wickenburg,Congress,Salome,Kirkland Valley,Wiltaika,Harquahala,Castle Dome,Dripping Springs,Pinal Mountains,McDowell Mountains,Four Peaks,Superstition Mountains,Mazatzal Mountains,Agua Fria,Black Hills,Sierra Ancha,Cordes,Cedar Bench,Walker Creek,McDowell Range,Prescott Valley,Chino Valley,Wilhoit,Wagoner"
 },
 {
     "name": "Mohawk",
@@ -935,7 +935,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-    "b": "Cache,Carnegie,Elgin,Lawton,Anadarko,Fort Cobb,Carnegie,Hobart,Mountain View,Gotebo,Cooperton,Roosevelt,Snyder,Headrick,Granite,Lone Wolf,Mountain Park,Cache,Lawton,Fort Sill,Saddle Mountain,Hawk Creek,Hog Creek,Prairie Dog,Prickly Pear,Navajo Mountain,Goat Mountain,Original Wichita Mountains,Stewart Mountain,Soldier Peak,King Mountain,Byrd Mountain,Red River,Washita River,Cashiers Valley,Caddo County,Kiowa County,Wichita,Tahleah,Tahlequah,Anadarko"
+    "b": "Cache,Carnegie,Elgin,Lawton,Anadarko,Fort Cobb,Carnegie,Hobart,Mountain View,Gotebo,Cooperton,Roosevelt,Snyder,Headrick,Granite,Lone Wolf,Mountain Park,Cache,Lawton,Fort Sill,Saddle Mountain,Hawk Creek,Hog Creek,Prairie Dog,Prickly Pear,Navajo Mountain,Goat Mountain,Original Wichita Mountains,Stewart Mountain,Soldier Peak,King Mountain,Byrd Mountain,Cashiers Valley,Caddo County,Kiowa County,Wichita,Tahleah,Tahlequah,Anadarko"
   },
   {
     "name": "Tewa",
@@ -980,7 +980,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-    "b": "Lawton,Fletcher,Apache,Cyril,Indiahoma,Sterling,Hastings,Marlow,Duncan,Olustee,Waurika,Grandfield,Tipton,Hollister,Frederick,Tom Steed Lake,Cache,Snyder,Elgin,Fort Sill,Wichita,Brazos River,Washita River,North Fork,Blue Beaver,North Canadian River,Salt Fork Arkansas,Red River,Llano Estacado,Wichita Mountains,Comanche County,Stephens County,Kiowa County,Jackson County,Tillman County,Cotton County,Texas,Wichita Falls,Abilene,Oklahoma,Indian Territory,KCA Reservation"
+    "b": "Lawton,Fletcher,Apache,Cyril,Indiahoma,Sterling,Hastings,Marlow,Duncan,Olustee,Waurika,Grandfield,Tipton,Hollister,Frederick,Tom Steed Lake,Cache,Snyder,Elgin,Fort Sill,Wichita,Blue Beaver,North Canadian River,Salt Fork Arkansas,Wichita Mountains,Comanche County,Stephens County,Kiowa County,Jackson County,Tillman County,Cotton County,Texas,Wichita Falls,Abilene,Oklahoma,Indian Territory,KCA Reservation"
   },
   {
     "name": "Hopi",
@@ -1025,7 +1025,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-    "b": "Jesus Maria,San Pedro Tepetitlan,San Juan Bautista,San Francisco de Conchos,San Juan de los Lagos,San Miguel el Grande,San Juan Bautista Cuicatlan,San Pedro Tepetitlan,San Francisco de Conchos,San Juan de los Lagos,San Miguel el Grande,San Juan Bautista Cuicatlan,San Pedro Tepetitlan,San Francisco de Conchos,San Juan de los Lagos,San Miguel el Grande,San Juan Bautista Cuicatlan,San Pedro Tepetitlan,San Francisco de Conchos,San Juan de los Lagos,San Miguel el Grande,San Juan Bautista Cuicatlan,Nayarit,Durango,Jalisco"
+    "b": "Jesus Maria,Boca de Arroyo Santiago,Juan Lopez,Mesa del Nayar,La Mesa,El Nayar,Presidio de los Reyes,Los Reyes,Rosarito,El Rosarito,Rosamorada,Dolores,San Juan Corapan,San Francisco,San Blasito,Santa Teresa,Tepic,Santiago Ixcuintla,Acaponeta,Huajicori,Mezquital,San Luis de la Paz,San Pedro Tepetitlan,San Miguel el Grande,San Juan Bautista Cuicatlan,San Francisco de Conchos,San Juan Bautista,San Pedro Tepetitlan,San Miguel el Grande,San Juan Bautista Cuicatlan,San Francisco de Conchos,San Juan Bautista,San Pedro Tepetitlan,San Miguel el Grande,San Juan Bautista Cuicatlan,San Francisco de Conchos,San Juan Bautista"
 },
 {
     "name": "Alutiiq",
@@ -1249,7 +1249,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-    "b": "Navojoa,Álamos,Huatabampo,San Ignacio Río Muerto,Choix,El Fuerte,Sinaloa de Leyva,Navolato,Badiraguato,Cosala,San Ignacio,Elota,El Rosario,Mochicahui,Jahuara,El Carrizal,El Veranito,Bacabachi,San Blas,Tecuala,Acaponeta,Tepic,Onavas,Alamos,Cuchuiriachi,San Juan de los Lagos"
+    "b": "Navojoa,Álamos,Huatabampo,San Ignacio Río Muerto,Choix,El Fuerte,Sinaloa de Leyva,Navolato,Badiraguato,Cosala,San Ignacio,Elota,El Rosario,Mochicahui,Jahuara,El Carrizal,El Veranito,Bacabachi,San Blas,Tecuala,Acaponeta,Tepic,Onavas,Alamos,Cuchuiriachi"
 },
 {
     "name": "O'odham",
@@ -1312,7 +1312,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-    "b": "Inuvik,Tuktoyaktuk,Aklavik,Paulatuk,Sachs Harbour,Ulukhaktok,Colville Lake,Good Hope,Tsiigehtchic,Fort McPherson,Arctic Red River,Norman Wells,Yukon,Northwest Territories,Inuvialuit,Inuinnaqtun,Siglitun,Uummarmiutun,Natsilingmiutut,Kivallirmiutut,Iglulingmiut,South Baffin,North Baffin,Kitikmeot,Kivalliq"
+    "b": "Inuvik,Tuktoyaktuk,Aklavik,Paulatuk,Sachs Harbour,Ulukhaktok,Good Hope,Tsiigehtchic,Fort McPherson,Norman Wells,Yukon,Northwest Territories,Inuvialuit,Inuinnaqtun,Siglitun,Uummarmiutun,Natsilingmiutut,Kivallirmiutut,Iglulingmiut,South Baffin,North Baffin,Kitikmeot,Kivalliq,Aklavik,Inuvik,Tuktoyaktuk,Paulatuk,Sachs Harbour,Ulukhaktok,Fort McPherson,Tsiigehtchic,Good Hope,Norman Wells,Colville Lake,Deline,Fort Providence,Hay River,Yellowknife"
 },
 {
     "name": "Blackfoot",
@@ -1330,7 +1330,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-   "b": "Hydaburg,Kasaan,Prince of Wales,Masset,Skidegate,Graham Island,Haida Gwaii,Queen Charlotte,Klanga,Dala,Tanggu,Djaagu,Cumshewa,Skidegate,Masset,Kasaan,Hydaburg,Klawock,Craig,Hollis,Ketchikan,Sitka,Juneau,Angoon,Elfin Cove"
+   "b": "Hydaburg,Kasaan,Prince of Wales,Masset,Skidegate,Queen Charlotte,Klanga,Dala,Tanggu,Djaagu,Cumshewa,Klawock,Craig,Hollis,Ketchikan,Sitka,Juneau,Angoon,Elfin Cove,Pelican,Tenakee Springs,Hoonah,Elfin Cove,Skagway,Haines,Klukwan,Yakutat,Cordova,Valdez,Seward,Homer,Kodiak,Port Lions,Ouzinkie,Larsen Bay,Old Harbor,Akhiok,Karluk,Port Graham"
 },
 {
     "name": "Garifuna",
@@ -1886,7 +1886,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-    "b": "Wind River Reservation,Arapahoe,Fremont,Thermopolis,Cody,Riverton,Mills,Lander,Wyoming,Colorado River,Oklahoma,Cheyenne,Laramie,Rawlins,Casper,Gillette,Sheridan,Buffalo,Evanston,Rock Springs,Green River,Jackson,Pinedale,Kemmerer,Dubois"
+    "b": "Wind River Reservation,Arapahoe,Fremont,Thermopolis,Cody,Riverton,Mills,Lander,Wyoming,Oklahoma,Cheyenne,Laramie,Rawlins,Casper,Gillette,Sheridan,Buffalo,Evanston,Rock Springs,Green River,Jackson,Pinedale,Kemmerer,Dubois,Lander,Fort Washakie,Crowheart,Johnstown,Hudson,Jeffrey City,Shoshoni,Boulder,Arapahoe,Ethete,Fort Washakie,Crowheart,Johnstown,Hudson,Jeffrey City,Shoshoni"
 },
 {
     "name": "Coast Tsimshian (Sm’algya̱x)",
@@ -1895,7 +1895,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-   "b": "Lax Kwalaams,Metlakatla,Port Simpson,Hartley Bay,Kitsumkalum,Terrace,Prince Rupert,British Columbia,Tsimshian,Gitga at,Gitxaala,Kitimat,Kitamaat,Hazelton,Smithers,Vancouver,Skeena,Nass,Stikine,Tahltan,Nisga a,Haisla,Heiltsq,Oweekeno,Gitxsan"
+   "b": "Lax Kwalaams,Metlakatla,Port Simpson,Kitsumkalum,Terrace,Prince Rupert,British Columbia,Tsimshian,Gitga at,Gitxaala,Kitimat,Kitamaat,Hazelton,Smithers,Vancouver,Skeena,Nass,Stikine,Tahltan,Nisga a,Haisla,Heiltsq,Oweekeno,Gitxsan,Kispiox,Gitanyow,Gitseguk,Gitwangak,Gitwinksihlwikw,Gitlaxt aamiks,Gitxaala,Gitga at,Kitsumkalum,Kitselas,Gitnadoiks,Git aat"
 },
 {
     "name": "Cochimí",
@@ -1931,7 +1931,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-    "b": "Winnipeg,St. Boniface,Lorette,St. Laurent,Ste. Rose,Dauphin,St. Pierre,Giroux,Metis,Red River,Manitoba,Saskatchewan,Alberta,British Columbia,Northwest Territories,Saskatoon,Regina,Brandon,Selkirk,The Pas,Thompson,Churchill,Portage la Prairie,Swan River,Lacombe"
+    "b": "Winnipeg,St. Boniface,Lorette,St. Laurent,Ste. Rose,Dauphin,St. Pierre,Giroux,Metis,Manitoba,Saskatchewan,Alberta,British Columbia,Northwest Territories,Saskatoon,Regina,Brandon,Selkirk,The Pas,Thompson,Churchill,Portage la Prairie,Swan River,Lacombe,St. Albert,St. Paul,Lloydminster,Meadow Lake,La Ronge,Flin Flon,Yorkton,Moose Jaw,Prince Albert,North Battleford,Swift Current,Medicine Hat,Lethbridge"
 },
 {
     "name": "Mi'kmaq",
@@ -2003,7 +2003,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-   "b": "Uintah,Ouray,Fort Duchesne,Roosevelt,Myton,Vernal,Moab,Price,Delta,Richfield,Braddock,Ephraim,Colorado,Utah,Navajo,Paiute,Goshute,Shoshone,Bannock,Comanche,Kiowa,Apache,Cheyenne,Arapaho,Wind River"
+   "b": "Uintah,Ouray,Fort Duchesne,Roosevelt,Myton,Vernal,Moab,Price,Delta,Richfield,Braddock,Ephraim,Colorado,Utah,Navajo,Paiute,Goshute,Shoshone,Bannock,Comanche,Kiowa,Apache,Cheyenne,Arapaho,Wind River,White Mesa,Blanding,Monticello,Bluff,Aneth,Mexican Hat,Navajo Mountain,Kayenta,Chinle,Tuba City,Page,Kanab,Cedar City,St. George"
 },
 {
     "name": "Wiyot",

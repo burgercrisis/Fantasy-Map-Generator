@@ -28,7 +28,7 @@ window.southAmericaNameBases = [
   "max": 19,
   "d": "",
   "m": 0,
-    "b": "PuertoCavinas,Cavinas,JesúsDeCavinas,Riberalta,Reyes,Beni,Madidi,Pando,VillaNueva,RioBeni,RioMadidi,FranciscanaDeEsmeralda,Maryknoll,Tacana,EseEjja,Yucumo,Rurrenabaque,Trinidad,Cobija,Guayaramerín,Magdalena,Baures,SanBorja,ElCarmen"
+    "b": "PuertoCavinas,Cavinas,JesúsDeCavinas,Riberalta,Reyes,VillaNueva,RioBeni,RioMadidi,FranciscanaDeEsmeralda,Maryknoll,Tacana,EseEjja,Yucumo,Rurrenabaque,Trinidad,Cobija,Guayaramerín,Magdalena,Baures,SanBorja,ElCarmen,Baqueti,Bolívar,Candelaria,Natividad,Paraíso,SantaCatalina,SanJuan,SanJosé,SanMiguel,Francia,ElChoro,PeñaGuarayo,Galilea"
 },
 {
     "name": "Chilean Spanish",
@@ -199,7 +199,7 @@ window.southAmericaNameBases = [
   "max": 21,
   "d": "",
   "m": 0,
-    "b": "Aruanã,Fontoura,SantaIsabelDoMorro,Macacúba,SãoRaimundo,SãoDomingos,Itxala,Axiwé,Watau,Tytema,Mirindiba,Maranduba,Buridina,Krehãwa,IlhaDoBananal,Araguaia,Javaés,BotoVelho,Tapirapé,SãoFélixDoAraguaia,PortoNacional,AltaFloresta,Palmas,Goiás"
+    "b": "Aruanã,Fontoura,SantaIsabelDoMorro,Macacúba,SãoRaimundo,SãoDomingos,Itxala,Axiwé,Watau,Tytema,Mirindiba,Maranduba,Buridina,Krehãwa,IlhaDoBananal,Araguaia,Javaés,BotoVelho,Tapirapé,SãoFélixDoAraguaia,PortoNacional,AltaFloresta,Palmas,Goiás,Tocantins,Xambioá,Luciara,SantanaDoAraguaia,Itajá"
 },
 {
     "name": "Língua Geral Paulista",

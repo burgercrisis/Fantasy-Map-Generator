@@ -1479,7 +1479,7 @@ window.europeNameBases = [
   "max": 27,
   "d": "lnrt",
   "m": 0,
-  "b": "Bordeaux,Pau,Tarbes,Auch,Biarritz,Bayonne,Dax,Mont-de-Marsan,Aire-sur-l'Adour,Lourdes,Saint-Gaudens,Muret,Blagnac,Tournefeuille,Colomiers,Pessac,Mérignac,Villenave-d'Ornon,Bègles,Talence,Gradignan,Libourne,Arcachon,La Teste-de-Buch,Bigorre,Luchon,Saint-Bertrand-de-Comminges,Condom,Périgueux,Agen"
+  "b": "Bordeaux,Pau,Tarbes,Auch,Biarritz,Bayonne,Dax,Mont-de-Marsan,Aire-sur-l'Adour,Lourdes,Saint-Gaudens,Muret,Blagnac,Tournefeuille,Colomiers,Pessac,Mérignac,Villenave-d'Ornon,Bègles,Talence,Gradignan,Libourne,Arcachon,La Teste-de-Buch,Luchon,Saint-Bertrand-de-Comminges,Condom,Périgueux,Agen"
 },
 {
     "name": "Landese",
@@ -1506,7 +1506,7 @@ window.europeNameBases = [
   "max": 18,
   "d": "lnrt",
   "m": 0,
-  "b": "Roma,Ostia,Tivoli,Alba Longa,Lavinium,Ardea,Aricia,Tusculum,Praeneste,Velitrae,Nomentum,Fidenae,Crustumerium,Satricum,Antemnae,Collatia,Apiolae,Gabii,Cora,Norba,Setia,Circeii,Tarracina,Privernum,Cerveteri,Tarquinia,Veii,Volsinii,Perusia,Arretium,Volaterrae,Luna,Pisae,Genua,Mediolanium,Augusta Taurinorum,Placentia,Cremona,Mutina,Bononia,Ravenna,Ariminum,Capua,Sicilia,Syracusae,Agrigentum,Lilybaeum,Panormus,Messana,Tarentum,Brundisium,Ancona,Spoletium,Narnia,Interamna,Forum Iulii,Aquileia,Pola,Iulia Concordia,Altinum,Patavium,Atria,Parma"
+  "b": "Roma,Ostia,Tivoli,Alba Longa,Lavinium,Ardea,Aricia,Tusculum,Praeneste,Velitrae,Nomentum,Fidenae,Crustumerium,Satricum,Antemnae,Collatia,Apiolae,Gabii,Cora,Norba,Setia,Circeii,Tarracina,Privernum,Cerveteri,Tarquinia,Veii,Volsinii,Perusia,Arretium,Volaterrae,Luna,Pisae,Genua,Mediolanium,Augusta Taurinorum,Placentia,Cremona,Mutina,Bononia,Ravenna,Ariminum,Capua,Carthago,Syracusae,Agrigentum,Lilybaeum,Panormus,Messana,Tarentum,Brundisium,Ancona,Spoletium,Narnia,Interamna,Forum Iulii,Aquileia,Pola,Iulia Concordia,Altinum,Patavium,Atria,Parma"
 },
 {
     "name": "Leonese",
@@ -1587,7 +1587,7 @@ window.europeNameBases = [
   "max": 19,
   "d": "lnrt",
   "m": 0,
-  "b": "Macerata,Civitanova Marche,Potenza Picena,Montecosaro,Morrovalle,Pollenza,Recanati,San Severino Marche,Tolentino,Treia,Urbisaglia,Cingoli,Esanatoglia,Fiuminata,Gagliole,Matelica,Mogliano,Pioraco,Sefro,Serra San Quirico,Corridonia,Porto Recanati,Camerino,San Ginesio,Sarnano"
+  "b": "Macerata,Civitanova Marche,Potenza Picena,Montecosaro,Morrovalle,Pollenza,Recanati,San Severino Marche,Tolentino,Treia,Urbisaglia,Cingoli,Esanatoglia,Fiuminata,Gagliole,Matelica,Mogliano,Pioraco,Sefro,Serra San Quirico,Corridonia,Porto Recanati,Camerino,San Ginesio,Sarnano,Montefano"
 },
 {
     "name": "Mallorcan",
@@ -1632,7 +1632,7 @@ window.europeNameBases = [
   "max": 21,
   "d": "lnrt",
   "m": 0,
-  "b": "Maó,Ciutadella,Alaior,Es Mercadal,Ferreries,Sant Lluís,Es Migjorn Gran,Fornells,Es Grau,Port de Maó,Capdepera,Son Servera,Portocristo,Cala Rajada,Cala Millor,Cala Bona,Santa Ponça,Magaluf,Palmanova,S'Arenal,Platja de Palma,Port d'Alcúdia,Can Picafort,Es Trenc,Colònia de Sant Jordi,Cala d'Or,Portopetro,Cala Ferrera,Cala Egos,Cala Serena"
+  "b": "Maó,Ciutadella,Alaior,Es Mercadal,Ferreries,Sant Lluís,Es Migjorn Gran,Fornells,Es Grau,Port de Maó"
 },
 {
     "name": "Mentonasc",

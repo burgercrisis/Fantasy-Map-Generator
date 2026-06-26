@@ -940,22 +940,22 @@ window.oceaniaNameBases = [
    "b": "Poindimié,Koné,Touho,Congouma,Wagap"
 },
 {
-    "name": "Carolinian",
-  "i": 1434,
-  "min": 4,
-  "max": 11,
-  "d": "",
-  "m": 0,
-  "b": "Saipan,Anatahan,Agrihan,Northern Mariana Islands,Refaluwasch,Chuukic,Satawalese,Woleaian,Puluwatese,Mortlockese,Chuukese,Ulithian"
+     "name": "Carolinian",
+   "i": 1434,
+   "min": 4,
+   "max": 11,
+   "d": "",
+   "m": 0,
+   "b": "Saipan,Anatahan,Agrihan,Northern Mariana Islands,Refaluwasch,Satawalese,Woleaian,Puluwatese,Mortlockese,Ulithian"
 },
 {
-    "name": "Chimbu",
-  "i": 1586,
-  "min": 4,
-  "max": 11,
-  "d": "",
-  "m": 0,
-  "b": "Kundiawa,Kerowagi,Gembogl,Gumine,Chuave,Nomane,Salt-Yui,Sinasina,Chimbu Province,Simbu,Mount Wilhelm,Kuman,Wahgi,Melpa"
+     "name": "Chimbu",
+   "i": 1586,
+   "min": 4,
+   "max": 11,
+   "d": "",
+   "m": 0,
+   "b": "Kundiawa,Kerowagi,Gembogl,Gumine,Chuave,Nomane,Salt-Yui,Sinasina"
 },
 {
     "name": "Sumatran",
@@ -967,22 +967,22 @@ window.oceaniaNameBases = [
   "b": "Medan,Binjai,Tebing Tinggi,Pematangsiantar,Padang Sidempuan,Lubuklinggau,Prabumulih,Baturaja,Palembang,Pangkalpinang,Tanjung Pandan,Muntok,Balikpapan,Samarinda,Bontang,Tarakan,Nunukan,Selat Panjang,Bengkalis,Dumai,Rokan Hilir,Batam,Tanjung Pinang,Singkawang,Pontianak,Sintang,Putussibau,Padang,Bukittinggi,Pekanbaru,Banda Aceh,Lhokseumawe,Langsa,Meulaboh,Sabang,Subulussalam,Tapaktuan,Blangkejeren,Gayo Lues,Takengon,Bireuen,Lhoksukon,Idi Rayeuk,Simpang Tiga,Singkil,Blangpidie,Meulaboh,Sinabang,Suka Makmue,Lhoknga,Baitussalam,Bandar Baru,Medan"
 },
 {
-    "name": "Cook Islands Māori Pidgin",
-  "i": 1634,
-  "min": 4,
-  "max": 11,
-  "d": "",
-  "m": 0,
-  "b": "Rarotonga,Avarua,Aitutaki,Mangaia,Atiu,Mauke,Mitiaro,Manihiki,Rakahanga,Penrhyn,Pukapuka,Palmerston,Cook Islands,Polynesian"
+     "name": "Cook Islands Māori Pidgin",
+   "i": 1634,
+   "min": 4,
+   "max": 11,
+   "d": "",
+   "m": 0,
+   "b": "Rarotonga,Avarua,Aitutaki,Mangaia,Atiu,Mauke,Mitiaro,Manihiki,Rakahanga,Penrhyn,Pukapuka,Palmerston"
 },
 {
-    "name": "Lonwolwol",
-  "i": 1641,
-  "min": 4,
-  "max": 11,
-  "d": "",
-  "m": 0,
-  "b": "Ambrym,Craig Cove,West Ambrym,Raljago,Vanuatu,Paamese,Central Vanuatu,Southern Oceanic,North-Central Vanuatu"
+     "name": "Lonwolwol",
+   "i": 1641,
+   "min": 4,
+   "max": 11,
+   "d": "",
+   "m": 0,
+   "b": "Ambrym,Craig Cove,West Ambrym,Raljago"
 },
 {
     "name": "Nasal",
@@ -994,13 +994,13 @@ window.oceaniaNameBases = [
   "b": "Bengkulu,Curup,Rejang Lebong,Kepahiang,Mukomuko,Lebong,Seluma,Enggano,Pagar Alam,Lahat,Musi Banyuasin,Palembang,Pangkalpinang,Tanjung Pandan,Muntok,Balikpapan,Samarinda,Bontang,Tarakan,Nunukan,Selat Panjang,Bengkalis,Dumai,Rokan Hilir,Batam,Tanjung Pinang,Singkawang,Pontianak,Sintang,Putussibau"
 },
 {
-    "name": "Dani",
-  "i": 1655,
-  "min": 4,
-  "max": 11,
-  "d": "",
-  "m": 0,
-  "b": "Baliem Valley,Wamena,Jayawijaya,Highland Papua,Kurulu,Habbema,Pelebaga,Hubula,Lani,Walak,Nduga,Yali,Wano,Nggem,Ngalik,Hupla"
+     "name": "Dani",
+   "i": 1655,
+   "min": 4,
+   "max": 11,
+   "d": "",
+   "m": 0,
+   "b": "Baliem Valley,Wamena,Jayawijaya,Kurulu,Habbema,Pelebaga,Hubula,Lani,Walak,Nduga,Yali,Wano,Nggem,Ngalik,Hupla"
 },
 {
     "name": "SHWNG",
@@ -1030,13 +1030,13 @@ window.oceaniaNameBases = [
   "b": "Seradela,Yahukimo,Papua Province,Indonesia,Highland Papua,Bayono,Awbono,Kovojab"
 },
 {
-    "name": "Dima",
-  "i": 1701,
-  "min": 4,
-  "max": 11,
-  "d": "",
-  "m": 0,
-  "b": "Milne Bay,Ruaba River,Moi Bay,Posaposa Harbor,Jimajima,East Inland Jimajima,West Coastal Jimajima,Daga,Maiwa"
+     "name": "Dima",
+   "i": 1701,
+   "min": 4,
+   "max": 11,
+   "d": "",
+   "m": 0,
+   "b": "Ruaba River,Moi Bay,Posaposa Harbor,Jimajima,East Inland Jimajima,West Coastal Jimajima,Daga,Maiwa"
 },
 {
     "name": "Dom",
@@ -1066,13 +1066,13 @@ window.oceaniaNameBases = [
   "b": "Central Province,Owen Stanley,Kasonomu,Port Moresby,Koki,Kokila,Koriko,Manubaran,Maria,Mount Brown"
 },
 {
-    "name": "Duna",
-  "i": 1723,
-  "min": 4,
-  "max": 11,
-  "d": "",
-  "m": 0,
-  "b": "Southern Highlands,Hela Province,Koroba-Kopiago,Strickland River,Lake Kopiago,Paiela-Hewa,Enga Province,Bogaya,Huli,Pogaya"
+     "name": "Duna",
+   "i": 1723,
+   "min": 4,
+   "max": 11,
+   "d": "",
+   "m": 0,
+   "b": "Koroba,Kopiago,Strickland River,Lake Kopiago,Paiela,Hewa,Bogaya,Huli,Pogaya,Koroba-Kopiago"
 },
 {
     "name": "Duvle Wano Pidgin",
@@ -1099,25 +1099,25 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Enarotali,Mapia,Moanemani,Paniai Lakes,Central Papua,Indonesia,Ekagi,Kapauku,Mee,Paniai"
+   "b": "Enarotali,Mapia,Moanemani,Ekagi,Kapauku,Mee"
 },
 {
-    "name": "Enga",
-  "i": 1767,
-  "min": 4,
-  "max": 11,
-  "d": "",
-  "m": 0,
-  "b": "Wabag,Mount Hagen,Porgera,Lai Valley,Lagaip Valley,Ambum Valley,Tsak Valley,Kandep,Kompiam,Enga Province,Mae,Itemo,Kaina,Huli,Kewa"
+     "name": "Enga",
+   "i": 1767,
+   "min": 4,
+   "max": 11,
+   "d": "",
+   "m": 0,
+   "b": "Wabag,Porgera,Lai Valley,Lagaip Valley,Ambum Valley,Tsak Valley,Kandep,Kompiam,Mae,Itemo,Kaina,Huli,Kewa"
 },
 {
-    "name": "Ese'Ekit",
-  "i": 1772,
-  "min": 4,
-  "max": 11,
-  "d": "",
-  "m": 0,
-  "b": "Popondetta,Kawawoki,Oro Province,Managalasi,Ese,Muaturaina,Chimona,Dea,Akabafa,Nami,Mesari,Afore,Minjori,Oko,Wakue,Numba,Jimuni,Karira"
+     "name": "Ese'Ekit",
+   "i": 1772,
+   "min": 4,
+   "max": 11,
+   "d": "",
+   "m": 0,
+   "b": "Kawawoki,Popondetta,Muaturaina,Chimona,Dea,Akabafa,Nami,Mesari,Averi,Afore,Minjori,Oko,Wakue,Numba,Jimuni,Karira"
 },
 {
     "name": "Ewage",
@@ -1129,13 +1129,13 @@ window.oceaniaNameBases = [
   "b": "Popondetta,Oro Province,Notu,Sose,Sohe,Ifane,Ihane,Yega,Gona,Okeina,Okena,Orokaiva,Binanderean"
 },
 {
-    "name": "Faiwol",
-  "i": 1781,
-  "min": 4,
-  "max": 11,
-  "d": "",
-  "m": 0,
-  "b": "Fly River,Palmer River,Murray River,Western Province,South Papua,Angkiyak,Wopkei,Setaman,Selbang,Dimtikin,Kauwol,Ok,Oksapmin,Telefol,Tifal,Mian,Urapmin"
+     "name": "Faiwol",
+   "i": 1781,
+   "min": 4,
+   "max": 11,
+   "d": "",
+   "m": 0,
+   "b": "Angkiyak,Wopkei,Setaman,Selbang,Dimtikin,Kauwol"
 },
 {
     "name": "Fasu",
@@ -1147,13 +1147,13 @@ window.oceaniaNameBases = [
   "b": "Lake Kutubu,Southern Highlands,Gulf Province,Western Province,Some,Kaibu,Namome,Namumi,Namo Me,Kutubuan,Kikorian,Foe,Fiwaga"
 },
 {
-    "name": "Fataluku",
-  "i": 1790,
-  "min": 4,
-  "max": 11,
-  "d": "",
-  "m": 0,
-  "b": "Lospalos,East Timor,Lautem,Fataluku,Oirata,Rusenu,Makalero,Makasae,Timor-Alor-Pantar,Timor-Leste,Dagaga,Dagoda,Dagada"
+     "name": "Fataluku",
+   "i": 1790,
+   "min": 4,
+   "max": 11,
+   "d": "",
+   "m": 0,
+   "b": "Lospalos,Dagaga,Dagoda,Dagada,Oirata,Rusenu,Makalero,Makasae,Lautem"
 },
 {
     "name": "Eibela",
@@ -1183,13 +1183,13 @@ window.oceaniaNameBases = [
   "b": "Phuket,Krabi,Trang,Ranong,Takua Pa,Thung Song,Nakhon Si Thammarat,Chumphon,Songkhla,Pattani,Yala,Narathiwat,Betong,Sadao,Bangkok,Nonthaburi,Samut Prakan,Nakhon Pathom,Samut Sakhon,Samut Songkhram,Phetchabun,Lopburi,Sing Buri,Ang Thong,Ayutthaya,Pathum Thani,Saraburi,Prachinburi,Chonburi,Rayong,Chanthaburi,Trat,Chachoengsao,Sa Kaeo,Nakhon Nayok,Prachinburi"
 },
 {
-    "name": "Goroka",
-  "i": 1824,
-  "min": 4,
-  "max": 11,
-  "d": "",
-  "m": 0,
-  "b": "Goroka,Kainantu,Eastern Highlands Province,Mount Hagen,Kundiawa,Lae,Madang,Asaro,Benabena,Yagaria,Gahuku,Fore,Gimi,Siane"
+     "name": "Goroka",
+   "i": 1824,
+   "min": 4,
+   "max": 11,
+   "d": "",
+   "m": 0,
+   "b": "Goroka,Asaro,Benabena,Yagaria,Gahuku,Fore,Gimi,Siane,Dano,Tokano,Alekano,Abaga,Kamono,Kanite,Inoke-Yate,Yaweyuha,Isabi,Gende"
 },
 {
     "name": "Grand Valley Dani",
@@ -1210,13 +1210,13 @@ window.oceaniaNameBases = [
   "b": "Sogeri Plateau,Hunter River,Musgrave River,Tubuseleia,Barakau,Gaile,Kailakinumu,Agitana,Dagoda,Senunu,Futinumu,Vesilogo,Fakonama,Fulumuti,Vaivai,Mesime,Mokonumu,Labuka,Osabewai,Vaiagai,Furimuti,Bereadabu,Kailaki,Doe,Ogotana,Kahitana,Berebei,Varutanumu,Suria,Boridi,Kagi,Efogi,Manari,Edevu,Rigo,Laloki River,Era"
 },
 {
-    "name": "Gauwa",
-  "i": 1834,
-  "min": 4,
-  "max": 11,
-  "d": "",
-  "m": 0,
-  "b": "Kainantu,Eastern Highlands Province,Gadsup,Auyana,Awa,Agarabi,Ontena,Akuna,Oyana,Usarufa,Moife,Imikori,Irafo,Kagu,Agura"
+     "name": "Gauwa",
+   "i": 1834,
+   "min": 4,
+   "max": 11,
+   "d": "",
+   "m": 0,
+   "b": "Kainantu,Gadsup,Auyana,Awa,Agarabi,Ontena,Akuna,Oyana,Usarufa,Moife,Imikori,Irafo,Kagu,Agura"
 },
 {
     "name": "Fembe",
@@ -1228,13 +1228,13 @@ window.oceaniaNameBases = [
   "b": "Strickland River,East Strickland,Upper East Strickland,Western Province,Agala,Fembe,Gobasi,Konai,Kubo,Odoodee,Samo"
 },
 {
-    "name": "Fiwaga",
-  "i": 1846,
-  "min": 4,
-  "max": 11,
-  "d": "",
-  "m": 0,
-  "b": "Lake Kutubu,Southern Highlands Province,Gulf Province,Foe,Foi,Kikori River,Mubi River,Beaver Falls,Kutubuan,Kikorian,Fimaga,Fiwage"
+     "name": "Fiwaga",
+   "i": 1846,
+   "min": 4,
+   "max": 11,
+   "d": "",
+   "m": 0,
+   "b": "Lake Kutubu,Beaver Falls,Fimaga,Fiwage,Foe,Foi,Kikori River,Mubi River"
 },
 {
     "name": "Foe",
@@ -1246,13 +1246,13 @@ window.oceaniaNameBases = [
   "b": "Lake Kutubu,Mubi River,Southern Highlands Province,Gulf Province,Kikori River,Ifigi,Kafa,Kutubu,Foi,Mubi,East Kutubuan,Kutubuan"
 },
 {
-    "name": "Foia Foia",
-  "i": 1849,
-  "min": 4,
-  "max": 11,
-  "d": "",
-  "m": 0,
-  "b": "Omati River,Gulf Province,Western Province,Bibisa,Kamusi,Moka,Ikobi-Kairi,Goaribari,Pepeha,Dauku,Giri-Mokura,Minanibai,Foyafoya,Inland Gulf"
+     "name": "Foia Foia",
+   "i": 1849,
+   "min": 4,
+   "max": 11,
+   "d": "",
+   "m": 0,
+   "b": "Bibisa,Moka,Pepeha,Kamusi,Ikobi-Kairi,Goaribari,Dauku,Giri-Mokura,Minanibai,Foyafoya"
 },
 {
     "name": "Fore",
@@ -1273,40 +1273,40 @@ window.oceaniaNameBases = [
   "b": "Tainan,Tainan Plains,Hengchun Peninsula,Madou,Jiali,Shanhua,Sinshih,Sinckan,Mattauw,Soelangh,Baccloangh,Taivoan,Makatao,Formosan"
 },
 {
-    "name": "Gende",
-  "i": 1864,
-  "min": 4,
-  "max": 11,
-  "d": "",
-  "m": 0,
-  "b": "Madang Province,Bundi,Goroka District,Eastern Highlands Province,Gendeka,Gene,Gafoka,Isabi,Siane,Benabena"
+     "name": "Gende",
+   "i": 1864,
+   "min": 4,
+   "max": 11,
+   "d": "",
+   "m": 0,
+   "b": "Bundi,Gendeka,Gene,Gafoka,Isabi,Siane,Benabena"
 },
 {
-    "name": "Humene",
-  "i": 1903,
-  "min": 4,
-  "max": 11,
-  "d": "",
-  "m": 0,
-  "b": "Manugoro,Rigo District,Central Province,Sogeri Plateau,Gaire,Kapakapa,Sabuia,Lagume,Gobuia,Kwale,Uare,Humeme,Lakume"
+     "name": "Humene",
+   "i": 1903,
+   "min": 4,
+   "max": 11,
+   "d": "",
+   "m": 0,
+   "b": "Manugoro,Gobuia,Lagume,Sogeri Plateau,Gaire,Kapakapa,Sabuia,Gobui,Kwale,Uare,Lakume"
 },
 {
-    "name": "Hupla",
-  "i": 1905,
-  "min": 4,
-  "max": 11,
-  "d": "",
-  "m": 0,
-  "b": "Yahukimo Regency,Highland Papua,Indonesia,Baliem Valley,Hubla,Lower Grand Valley Dani,Dani"
+     "name": "Hupla",
+   "i": 1905,
+   "min": 4,
+   "max": 11,
+   "d": "",
+   "m": 0,
+   "b": "Yahukimo,Hubla,Baliem Valley"
 },
 {
-    "name": "Iha",
-  "i": 1914,
-  "min": 4,
-  "max": 11,
-  "d": "",
-  "m": 0,
-  "b": "Bomberai Peninsula,West Papua Province,Indonesia,Fakfak Regency,Kokas,Onin Peninsula,Kaimana,Kapaur,Matta,Mbaham,Baham,Karas,Kalamang"
+     "name": "Iha",
+   "i": 1914,
+   "min": 4,
+   "max": 11,
+   "d": "",
+   "m": 0,
+   "b": "Bomberai Peninsula,Kokas,Onin Peninsula,Kaimana,Kapaur,Matta,Mbaham,Baham,Karas,Kalamang"
 },
 {
     "name": "Gimi",
@@ -1840,13 +1840,13 @@ window.oceaniaNameBases = [
   "b": "Wapoga District,Nabire Regency,Papua province,Poronai River,Keuw village,Woisaru,Sanawado"
 },
 {
-    "name": "Kiwai",
-  "i": 2238,
-  "min": 4,
-  "max": 11,
-  "d": "",
-  "m": 0,
-  "b": "Western Province,Fly River delta,Kiwai Island,Daru,Tureture,Sui,Doumori,Kope,Gibaio,Urama,Arigibi"
+     "name": "Kiwai",
+   "i": 2238,
+   "min": 4,
+   "max": 11,
+   "d": "",
+   "m": 0,
+   "b": "Kiwai Island,Iasa,Sumai,Doropo,Sagasia,Ipisia,Agobara,Oromosapuo,Coast Kiwai,Daru Kiwai,Island Kiwai,Eastern Kiwai,Southern Coast Kiwai,Doumori,Gibaio,Kope,Urama,Arigibi"
 },
 {
     "name": "Klon",
