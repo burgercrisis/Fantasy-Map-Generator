@@ -1135,7 +1135,7 @@ window.africaNameBases = [
   "max": 13,
   "d": "lnrt",
   "m": 0,
-  "b": "Isiro,Bumba,Gemena,Kabinda,Kasongo-Lunda,Kenge,Kasangulu,Kikwit,Mwene-Ditu,Tshikapa,Uvira,Bukavu,Goma,Butembo,Beni,Luozi,Kamina,Kongolo,Manono,Malemba-Nkulu,Maiduguri,Damaturu,Potiskum,Biu,Gwoza"
+   "b": "Isiro,Bumba,Gemena,Kabinda,Kasongo-Lunda,Kenge,Kasangulu,Kikwit,Mwene-Ditu,Tshikapa,Uvira,Bukavu,Goma,Butembo,Beni,Luozi,Kamina,Kongolo,Manono,Malemba-Nkulu"
 },
 {
     "name": "Bena",
@@ -1144,7 +1144,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Njombe,Makambako,Iringa,Mafinga,Kidete,Kilolo,Rungwa,Ulanga,Mlimba,Kiberege,Ifakara,Kilombero,Morogoro,Dodoma,Singida,Manyoni,Tabora,Shinyanga,Mwanza,Kigoma,Maiduguri,Damaturu,Potiskum,Biu,Gwoza"
+   "b": "Njombe,Makambako,Iringa,Mafinga,Kidete,Kilolo,Rungwa,Ulanga,Mlimba,Kiberege,Ifakara,Kilombero,Morogoro,Dodoma,Singida,Manyoni,Tabora,Shinyanga,Mwanza,Kigoma"
 },
 {
     "name": "Fwe",
@@ -1153,7 +1153,7 @@ window.africaNameBases = [
   "max": 13,
   "d": "lnrt",
   "m": 0,
-  "b": "Katima Mulilo,Rundu,Kongola,Sikona,Muyako,Linyanti,Chinchimane,Sangwali,Sifuha,Kabbe,Masokotwani,Ngoma,Choi,Lisikili,Nyonga,Simungoma,Mashi,Sioma,Sinjembela,Zambezi,Okavango,Chobe,Ngamiland,Maiduguri,Damaturu"
+   "b": "Katima Mulilo,Rundu,Kongola,Sikona,Muyako,Linyanti,Chinchimane,Sangwali,Sifuha,Kabbe,Masokotwani,Ngoma,Choi,Lisikili,Nyonga,Simungoma,Mashi,Sioma,Sinjembela,Zambezi,Okavango,Chobe,Ngamiland"
 },
 {
     "name": "Biu-Mandara",
@@ -1171,7 +1171,7 @@ window.africaNameBases = [
   "max": 17,
   "d": "lnrt",
   "m": 0,
-  "b": "Abeche,Adre,Am Timan,Ati,Biltine,Bria,Doba,Dourbali,Fada,Faya-Largeau,Goz Beida,Haraze Mangueigne,Koro,Koumra,Lai,Mao,Moundou,N'Djamena,Oum Hadjer,Sarh,Zouar,Maiduguri,Damaturu,Potiskum,Biu"
+   "b": "Abeche,Adre,Am Timan,Ati,Biltine,Bria,Doba,Dourbali,Fada,Faya-Largeau,Goz Beida,Haraze Mangueigne,Koro,Koumra,Lai,Mao,Moundou,N'Djamena,Oum Hadjer,Sarh,Zouar"
 },
 {
     "name": "Songhoyboro Ciine",

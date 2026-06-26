@@ -4,22 +4,22 @@ window.oceaniaNameBases = [
 
 
 {
-    "name": "Engan Papuan",
-  "i": 50,
-  "min": 4,
-  "max": 11,
-  "d": "",
-  "m": 0,
-  "b": "Wabag,Wapenamanda,Laiagam,Kandep,Kompiam,Paiela,Lapalama,Yengis,Maramuni,Sari,Anditale,Angar,Olya,Angi,Anji,Lumusa,Kemangle,Malaumanda,Tukusanda,Aipanda,Tambitanis,Sakarip,Sopas,Silim,Wapai,Sauanda,Paiam,Kaipures,Lakapos,Yampu,Palimbi,Sikiro,Kupin,Yambali,Mulitaka,Torenam,Walya,Yeim,Tomba,Kanak,Kepilam,Yokona,Tapos,Komanda,Alumanda,Pitipais,Raiakam,Londol,Saina,Kenailama,Olimoli,Mulale,Kapumanda"
+     "name": "Engan Papuan",
+   "i": 50,
+   "min": 4,
+   "max": 11,
+   "d": "",
+   "m": 0,
+   "b": ""
 },
 {
-    "name": "Dani Papuan",
-  "i": 51,
-  "min": 4,
-  "max": 11,
-  "d": "ptklnrs",
-  "m": 0,
-    "b": "Aikima,Asologaima,Baliem,Balingga,Bokondini,Bolakme,Bugi,Dimba,Dugum,Geya,Goyage,Ilaga,Jiwika,Kanggime,Karubaga,Kelila,Kembu,Kenyam,Kilise,Kimbim,Konda,Kuari,Kubu,Kurima,Kurulu,Makki,Mapenduma,Melagineri,Napua,Obia,Pabuma,Pass Valley,Pelebaga,Pirime,Piramid,Pumo,Siepkosi,Silimo,Sogomo,Sumpaima,Suroba,Taelarek,Tagime,Timori,Tiom,Usilimo,Wamena,Welesi,Wesaput,Wolo,Wouma,Yalengga,Yuneri"
+     "name": "Dani Papuan",
+   "i": 51,
+   "min": 4,
+   "max": 11,
+   "d": "ptklnrs",
+   "m": 0,
+   "b": ""
 },
 {
     "name": "Melanesian Vanuatu",
@@ -1849,49 +1849,49 @@ window.oceaniaNameBases = [
    "b": "Kiwai Island,Iasa,Sumai,Doropo,Sagasia,Ipisia,Agobara,Oromosapuo,Coast Kiwai,Daru Kiwai,Island Kiwai,Eastern Kiwai,Southern Coast Kiwai,Doumori,Gibaio,Kope,Urama,Arigibi"
 },
 {
-    "name": "Klon",
-  "i": 2241,
-  "min": 4,
-  "max": 11,
-  "d": "",
-  "m": 0,
-  "b": "Alor Island,western tip,Probur,Probur Utara,Tribur,Halerman,Margera,Manatang,Kelon"
+     "name": "Klon",
+   "i": 2241,
+   "min": 4,
+   "max": 11,
+   "d": "",
+   "m": 0,
+   "b": "Probur,Probur Utara,Tribur,Halerman,Margera,Manatang,Kelon"
 },
 {
-    "name": "Koitabu",
-  "i": 2253,
-  "min": 4,
-  "max": 11,
-  "d": "",
-  "m": 0,
-  "b": "Koita,Kilakila,Hanuabada,Baruni,Poreporena,Bootless Inlet,Tupuseleia,Barakau,Gaile,Gorohu,Boera,Porebada,Tatana,Koderika,Nara,Manumanuv,Ari,Koboni,Kairuku,Hiri,Vabukori,Pari,Taurama,Korobosea,Gabadi,Doura,Sinaugoro,Pokau,Lala,Aroma,Keapara,Hula,Roro,Mekeo,Mulaha,Iaibu"
+     "name": "Koitabu",
+   "i": 2253,
+   "min": 4,
+   "max": 11,
+   "d": "",
+   "m": 0,
+   "b": "Koitabu,Kilakila,Hanuabada,Baruni,Poreporena,Bootless Inlet,Tupuseleia,Barakau,Gaile,Gorohu,Boera,Porebada,Tatana,Koderika,Nara,Manumanuv,Ari,Koboni,Kairuku,Hiri,Vabukori,Pari,Taurama,Korobosea,Gabadi,Doura,Sinaugoro,Pokau,Lala,Aroma,Keapara,Hula,Roro,Mekeo,Mulaha,Iaibu"
 },
 {
-    "name": "Komolom",
-  "i": 2256,
-  "min": 4,
-  "max": 11,
-  "d": "",
-  "m": 0,
-  "b": "Komolom Island,Yos Sudarso Island,Muli Strait,South Papua,Kimaam District,Merauke Regency,Mombum,Koneraw"
+     "name": "Komolom",
+   "i": 2256,
+   "min": 4,
+   "max": 11,
+   "d": "",
+   "m": 0,
+   "b": "Komolom Island,Yos Sudarso Island,Muli Strait,Kimaam District,Mombum,Koneraw"
 },
 {
-    "name": "Komyandaret",
-  "i": 2257,
-  "min": 4,
-  "max": 11,
-  "d": "",
-  "m": 0,
-  "b": "Boven Digoel Regency,South Papua,Firiwage District,Kaway Village,Danau Kit,Tsaukambo"
+     "name": "Komyandaret",
+   "i": 2257,
+   "min": 4,
+   "max": 11,
+   "d": "",
+   "m": 0,
+   "b": "Firiwage District,Kaway Village,Danau Kit,Tsaukambo"
 },
 {
-    "name": "Konai",
-  "i": 2258,
-  "min": 4,
-  "max": 11,
-  "d": "",
-  "m": 0,
-  "b": "Western Province,Strickland River,west bank,Konai"
+     "name": "Konai",
+   "i": 2258,
+   "min": 4,
+   "max": 11,
+   "d": "",
+   "m": 0,
+   "b": "Kalai"
 },
 {
     "name": "Koneraw",
@@ -1948,22 +1948,22 @@ window.oceaniaNameBases = [
   "b": "Enga Province,Baiyer River,Western Highlands,Saua,Mae,Ipili"
 },
 {
-    "name": "Kelabit",
-  "i": 2308,
-  "min": 4,
-  "max": 11,
-  "d": "",
-  "m": 0,
-  "b": "Bario,Sarawak,North Kalimantan,Kelabit Highlands,Apo Duat,Lun Bawang,Sa'ban"
+     "name": "Kelabit",
+   "i": 2308,
+   "min": 4,
+   "max": 11,
+   "d": "",
+   "m": 0,
+   "b": "Bario,Pa' Ukat,Pa' Umor,Pa' Lungan,Pa' Dalih,Long Lellang,Long Seridan,Kelabit Highlands,Apo Duat,Lun Bawang,Sa'ban"
 },
 {
-    "name": "Laua",
-  "i": 2407,
-  "min": 4,
-  "max": 11,
-  "d": "",
-  "m": 0,
-  "b": "Central Province,Laua,Labu"
+     "name": "Laua",
+   "i": 2407,
+   "min": 4,
+   "max": 11,
+   "d": "",
+   "m": 0,
+   "b": "Laua,Labu"
 },
 {
     "name": "Lauje",
@@ -1975,13 +1975,13 @@ window.oceaniaNameBases = [
   "b": "Sulawesi,Indonesia,Tomini,Tolitoli"
 },
 {
-    "name": "Lembena",
-  "i": 2415,
-  "min": 4,
-  "max": 11,
-  "d": "",
-  "m": 0,
-  "b": "Enga Province,East Sepik Province,Yuat River,Madang Province,Lembena,Yariba"
+     "name": "Lembena",
+   "i": 2415,
+   "min": 4,
+   "max": 11,
+   "d": "",
+   "m": 0,
+   "b": "Eleme,Isataele,Itopeno,Madawesa,Mokosele,Pipitesa,Saut Mosope,Yambaitoko,Lembena,Yariba"
 },
 {
     "name": "Tagalog",

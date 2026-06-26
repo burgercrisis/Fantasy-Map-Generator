@@ -1958,12 +1958,12 @@ window.asiaNameBases = [
 },
 {
     "name": "Bhaya",
-  "i": 1278,
+  "i": 1233,
   "min": 4,
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Sindh,Pakistan,Balochistan,Karachi,Hyderabad,Mirpur Khas,Tharparkar,Umerkot,Badin"
+  "b": "Sindh,Balochistan,Karachi,Hyderabad,Mirpur Khas,Tharparkar,Umerkot,Nawabshah"
 },
 {
     "name": "Biao Kam-Sui",
@@ -3070,7 +3070,7 @@ window.asiaNameBases = [
   "max": 12,
   "d": "",
   "m": 0,
-  "b": "Jharkhand,Chhattisgarh,Ranchi,Rourkela,Bilaspur,Raigarh,Surguja,Korba"
+  "b": "Ranchi,Rourkela,Bilaspur,Raigarh,Surguja,Korba"
 },
 {
     "name": "Kodava",
@@ -3587,12 +3587,12 @@ window.asiaNameBases = [
 },
 {
     "name": "Goaria",
-  "i": 1916,
+  "i": 1861,
   "min": 4,
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Larkana,Sukkur,Moro,Badin,Umerkot,Tharparkar,Mirpurkhas,Sindh,Pakistan,Hindu,Rajasthani,Marwari"
+  "b": "Larkana,Sukkur,Moro,Badin,Umerkot,Tharparkar,Mirpurkhas,Sindh,Hin"
 },
 {
     "name": "Gurung",
@@ -8138,7 +8138,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Nanning,Haikou,Kunming,Bangkok,Hanoi,Khamouan,Guangxi,Yunnan,Hainan,Zhanjiang,Liangshan,Youjiang,Hajiang,Mekong,Liujiang,Mun,River,Guiping,Laibin,Wuming,Baise"
+  "b": "Nanning,Haikou,Kunming,Bangkok,Hanoi,Khamouan,Zhanjiang,Liangshan,Youjiang,Hajiang,Laibin,Wuming,Baise,Fangchenggang,Qinzhou"
 },
 {
     "name": "Proto-Mongolic",
@@ -8174,7 +8174,7 @@ window.asiaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
+  "b": "Guangxi,Nanning,Liuzhou,Baise,Qinzhou,Fangchenggang,Chongzuo,Laibin,Hechi,Wuzhou,Yulin,Guigang,Binyang,Hengzhou,Wuming,Lingshan,Shangsi,Fusui,Napo,Jingxi,Debao"
 },
 {
     "name": "Qifu",
@@ -8183,7 +8183,7 @@ window.asiaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
+  "b": "Guangxi,Nanning,Liuzhou,Baise,Qinzhou,Yulin,Guigang,Binyang,Hengzhou,Wuming,Lingshan,Shangsi,Fusui,Napo,Jingxi,Debao,Longzhou,Daxin,Tianlin,Xilin,Leye,Libo,Nandan,Wangmo"
 },
 {
     "name": "Ra'ong",
@@ -8192,7 +8192,7 @@ window.asiaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
+  "b": "Guangxi,Nanning,Liuzhou,Baise,Qinzhou,Yulin,Guigang,Binyang,Hengzhou,Wuming,Lingshan,Shangsi,Fusui,Napo,Jingxi,Debao,Longzhou,Daxin,Tianlin,Xilin,Leye,Libo,Nandan,Wangmo"
 },
 {
     "name": "Rabha",
@@ -8201,7 +8201,7 @@ window.asiaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
+  "b": "Assam,Goalpara,Barpeta,Bongaigaon,Dhubri,Kokrajhar,Kamrup,Darrang,Tezpur,Sonitpur,Lakhimpur,Dhemaji,Jorhat,Sibsagar,Golaghat,Nagaon,Karbi Anglong,Dima Hasao,Cachar"
 },
 {
     "name": "Rajasthani",
@@ -8210,7 +8210,7 @@ window.asiaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
+  "b": "Jaipur,Jodhpur,Udaipur,Ajmer,Bikaner,Alwar,Bharatpur,Kota,Bundi,Chittorgarh,Sikar,Pali,Tonk,Sawai Madhopur,Barmer,Jaisalmer,Jhalawar,Karauli,Dungarpur,Banswara,Churu,Jhunjhunu,Sirohi,Nagaur"
 },
 {
     "name": "Rajbanshi",
@@ -8219,7 +8219,7 @@ window.asiaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
+  "b": "Morigaon,Dhubri,Goalpara,Kokrajhar,Barpeta,Bongaigaon,Kamrup,Darrang,Tezpur,Sonitpur,Lakhimpur,Dhemaji,Jorhat,Sibsagar,Golaghat,Nagaon,Assam"
 },
 {
     "name": "Rana Tharu",
@@ -8228,7 +8228,7 @@ window.asiaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
+  "b": "Kathmandu,Pokhara,Lalitpur,Bharatpur,Birgunj,Biratnagar,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
 },
 {
     "name": "Rangpuri",
@@ -8237,7 +8237,7 @@ window.asiaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
+  "b": "Morigaon,Dhubri,Goalpara,Kokrajhar,Barpeta,Bongaigaon,Kamrup,Darrang,Tezpur,Sonitpur,Lakhimpur,Dhemaji,Jorhat,Sibsagar,Golaghat,Nagaon,Assam,Silchar,Cachar,Karimganj,Hailakandi"
 },
 {
     "name": "Raute",
@@ -8246,7 +8246,7 @@ window.asiaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
+  "b": "Dang,Pyuthan,Tanahun,Gorkha,Rolpa,Surkhet,Gandaki,Lumbini,Kathmandu,Ghorahi,Sakhi,Mahendra,Tribhuvan,Accham,Bajhang,Bajura,Jumla,Dadeldhura,Darchula,Kailali,Kanchanpur,Dipayal,Silgadhi"
 },
 {
     "name": "Ravula",
@@ -8255,7 +8255,7 @@ window.asiaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
+  "b": "Kannur,Kozhikode,Malappuram,Palakkad,Thrissur,Kochi,Kottayam,Alappuzha,Pathanamthitta,Kollam,Thiruvananthapuram,Wayanad,Idukki"
 },
 {
     "name": "Rengao",
@@ -8264,7 +8264,7 @@ window.asiaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
+  "b": "Quang Tri,Quang Binh,Thua Thien Hue,Da Nang,Quang Nam,Quang Ngai,Binh Dinh,Phu Yen,Khanh Hoa,Ninh Thuan,Binh Thuan,Kon Tum,Gia Lai,Dak Lak,Dak Nong,Lam Dong"
 },
 {
     "name": "Riang",
@@ -8273,7 +8273,7 @@ window.asiaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
+  "b": "Tripura,Agartala,Udaipur,Kailasahar,Khowai,Ambassa,Dharmanagar,Kamalpur,Longtharai,Chandranath"
 },
 {
     "name": "Rohingya",
@@ -8282,7 +8282,7 @@ window.asiaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
+  "b": "Sittwe,Mrauk U,Minbya,Ponnagyun,Rathedaung,Buthidaung,Maungdaw,Kawthaung,Taungpyoletwe,Yebyu,Ann,Rathedaung,Pauktaw,Ponnagyun,Myebon,Minbya,Mrauk U"
 },
 {
     "name": "Rouran",
@@ -8291,7 +8291,7 @@ window.asiaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
+  "b": "Ulaanbaatar,Erdenet,Choibalsan,Baruun-Urt,Murun,Ondorkhaan,Khovd,Altai,Bayan-Olgii,Uvs,Khovsgol,Zavkhan,Dornod,Dundgovi,Govisumber,Selenge,Tov,Darkhan"
 },
 {
     "name": "Sa-och",
@@ -8300,7 +8300,7 @@ window.asiaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
+  "b": "Quang Tri,Quang Binh,Thua Thien Hue,Da Nang,Quang Nam,Quang Ngai,Binh Dinh,Phu Yen,Khanh Hoa,Ninh Thuan,Binh Thuan,Kon Tum,Gia Lai,Dak Lak,Dak Nong,Lam Dong"
 },
 {
     "name": "Sadri",
@@ -8309,7 +8309,7 @@ window.asiaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
+  "b": "Ranchi,Dumka,Jamshedpur,Hazaribagh,Giridih,Dhanbad,Bokaro,Deoghar,Gumla,Simdega,Lohardaga,Pakur,Sahebganj,Godda,Seraikela,Khunti,Chatra,Latehar,Palamu,Singhbhum,East Singhbhum,West Singhbhum,Santhal Pargana,Jhargram,Bankura,Purulia,Mayurbhanj"
 },
 {
     "name": "Saek",
@@ -8318,7 +8318,7 @@ window.asiaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
+  "b": "Nakhon Ratchasima,Buri Ram,Surin,Khon Kaen,Ubon Ratchathani,Maha Sarakham,Roi Et,Chaiyaphum,Loei,Nong Khai,Nakhon Phanom,Mukdahan,Kalasin,Sisaket,Amnat Charoen,Yasothon,Udon Thani,Bueng Kan"
 },
 {
     "name": "Sakhalin Ainu",
@@ -8327,7 +8327,7 @@ window.asiaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
+  "b": "Sapporo,Abashiri,Wakkanai,Obihiro,Kushiro,Nemuro,Kitami,Asahikawa,Hakodate,Otaru,Muroran,Tomakomai,Nayoro,Shari,Mombetsu,Rubetsu,Tomari,Kasimobe,Bettobu,Shibetsu"
 },
 {
     "name": "Sakhalin dialects",
@@ -8336,7 +8336,7 @@ window.asiaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
+  "b": "Sapporo,Abashiri,Wakkanai,Obihiro,Kushiro,Nemuro,Kitami,Asahikawa,Hakodate,Otaru,Muroran,Tomakomai,Nayoro,Shari,Mombetsu,Rubetsu,Tomari,Kasimobe,Bettobu,Shibetsu"
 },
 {
     "name": "Sambalpuri",
@@ -8345,7 +8345,7 @@ window.asiaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
+  "b": "Sambalpur,Bargarh,Jharsuguda,Deogarh,Sonepur,Boudh,Angul,Subarnapur,Balangir,Nuapada,Koraput,Malkangiri,Rayagada,Nabarangpur,Kalahandi,Kandhamal,Gajapati,Jagatsinghpur,Cuttack,Puri,Khordha,Nayagarh,Kendrapara,Jajpur,Dhenkanal,Bhadrak,Mayurbhanj,Keonjhar,Sundargarh"
 },
 {
     "name": "Samre",
@@ -8354,7 +8354,7 @@ window.asiaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
+  "b": "Surin,Buri Ram,Nakhon Ratchasima,Ubon Ratchathani,Roi Et,Chaiyaphum,Loei,Nong Khai,Sisaket,Amnat Charoen,Yasothon,Bueng Kan,Si Sa Ket,Surin City"
 },
 {
     "name": "Sanskrit",
@@ -8363,7 +8363,7 @@ window.asiaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
+  "b": "Varanasi,Haridwar,Rishikesh,Mathura,Vrindavan,Ayodhya,Prayagraj,Kanchipuram,Tirupati,Ujjain,Dwarka,Puri,Rameswaram,Shirdi,Nashik,Udaipur,Jaipur,Jodhpur,Pushkar,Kurukshetra,Indraprastha,Hastinapura"
 },
 {
     "name": "Santa / Sarta (Dongxiang)",
@@ -8372,7 +8372,7 @@ window.asiaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
+  "b": "Linxia,Lanzhou,Tianshui,Dingxi,Zhangye,Wuwei,Pingliang,Qingyang,Baiyin,Jinchang,Jiuquan,Zhangye,Gansu"
 },
 {
     "name": "Santa Mongol",
@@ -8381,7 +8381,7 @@ window.asiaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
+  "b": "Linxia,Lanzhou,Tianshui,Dingxi,Zhangye,Wuwei,Pingliang,Qingyang,Baiyin,Jinchang,Jiuquan,Zhangye,Gansu"
 },
 {
     "name": "Santa Sijiaji",
@@ -8390,7 +8390,7 @@ window.asiaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
+  "b": "Linxia,Lanzhou,Tianshui,Dingxi,Zhangye,Wuwei,Pingliang,Qingyang,Baiyin,Jinchang,Jiuquan,Zhangye,Gansu"
 },
 {
     "name": "Santa Suonanba",
@@ -8399,7 +8399,7 @@ window.asiaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
+  "b": "Linxia,Lanzhou,Tianshui,Dingxi,Zhangye,Wuwei,Pingliang,Qingyang,Baiyin,Jinchang,Jiuquan,Zhangye,Gansu"
 },
 {
     "name": "Santa Wangjiaji",
@@ -8408,7 +8408,7 @@ window.asiaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
+  "b": "Linxia,Lanzhou,Tianshui,Dingxi,Zhangye,Wuwei,Pingliang,Qingyang,Baiyin,Jinchang,Jiuquan,Zhangye,Gansu"
 },
 {
     "name": "Sapa",
@@ -8417,7 +8417,7 @@ window.asiaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
+  "b": "Lao Cai,Sa Pa,Bac Ha,Muong Khuong,Si Ma Cai,Bac Yen,Ban Ho,Sin Chai,Phong Tho,Mu Cang,San U,Sa Pa,Ta Van,Ta Phin,Ban Khoang"
 },
 {
     "name": "Sapuan",
@@ -8426,7 +8426,7 @@ window.asiaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
+  "b": "Quang Tri,Quang Binh,Thua Thien Hue,Da Nang,Quang Nam,Quang Ngai,Binh Dinh,Phu Yen,Khanh Hoa,Ninh Thuan,Binh Thuan,Kon Tum,Gia Lai,Dak Lak,Dak Nong,Lam Dong"
 },
 {
     "name": "Saraiki",
@@ -8435,7 +8435,7 @@ window.asiaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
+  "b": "Multan,Bahawalpur,Rahim Yar Khan,Khanewal,Lodhran,Muzaffargarh,Dera Ghazi Khan,Dera Ismail Khan,Gujranwala,Faisalabad,Sargodha,Sahiwal,Okara,Pakpattan,Vehari,Kasur,Rahim Yar Khan,Bahawalnagar"
 },
 {
     "name": "Sart Kalmyk",
@@ -8444,7 +8444,7 @@ window.asiaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
+  "b": "Elista,Kyzyl,Khovd,Bayan-Olgii,Uvs,Dörbet,Bayat,Torgut,Khoshut,Choros,Urumqi,Bayingolin,Bortala,Altai,Khövsgöl,Tuva,Kalmyk,Zakhchin,Khoton,Myangad,Uriankhai,Ööld"
 },
 {
     "name": "Sauria Paharia",
@@ -8453,7 +8453,7 @@ window.asiaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
+  "b": "Sahibganj,Dumka,Jamtara,Deoghar,Godda,Bhagalpur,Banka,Munger,Khagaria,Jamui,Bihariganj,Madhepura,Katihar,Purnia,Araria,Kishanganj,Barari,Jhajha,Chandan,Maheshpura,Ranchi"
 },
 {
     "name": "Savi",
@@ -8462,7 +8462,7 @@ window.asiaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
+  "b": "Dhofar,Salalah,Mirbat,Sadah,Taqah,Rakhyut,Shihr,Mukalla,Ash Shihr,Al-Ghaydah,Al-Mukalla,Aden,Taiz,Ibb,Sana'a,Amran,Sa'dah,Hajjah,Al Hudaydah,Al Bayda',Dhamar,Lahij,Abyan,Shabwah,Hadhramaut,Sayun,Tarim,Al-Qatn,Shibam"
 },
 {
     "name": "Sedang",
@@ -8471,7 +8471,7 @@ window.asiaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
+  "b": "Quang Tri,Quang Binh,Thua Thien Hue,Da Nang,Quang Nam,Quang Ngai,Binh Dinh,Phu Yen,Khanh Hoa,Ninh Thuan,Binh Thuan,Kon Tum,Gia Lai,Dak Lak,Dak Nong,Lam Dong"
 },
 {
     "name": "Shan macro entry",
@@ -8480,7 +8480,7 @@ window.asiaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
+  "b": "Taunggyi,Lashio,Kengtung,Tachilek,Mong La,Muse,Loikaw,Thibaw,Hsipaw,Kyaukme,Mongmit,Tangyan,Mongphak,Mongyaw,Mongsit,Mongnai,Mongpan,Pinglang,Ho-mak,Kunhing,Loilen,Nansang,Kehsi,Pinlaung,Hopong,Yatsauk,Shwenyaung,Heho,Aungban,Kalaw"
 },
 {
     "name": "Sherpa",
@@ -8489,7 +8489,7 @@ window.asiaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
+  "b": "Solu,Khumbu,Pharak,Dingboche,Lukla,Namche,Tengboche,Pheriche,Lobuche,Kala Patthar,Everest Base Camp,Gokyo,Ri,Thame,Pangboche,Dhulikhel,Kathmandu,Lalitpur,Bhaktapur"
 },
 {
     "name": "Shilingol / Xilingol Khalkha",
@@ -8498,7 +8498,7 @@ window.asiaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
+  "b": "Ulan-Ude,Irkutsk,Chita,Ulaanbaatar,Elista,Kyzyl,Khovd"
 },
 {
     "name": "Shina",
@@ -8507,7 +8507,7 @@ window.asiaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
+  "b": "Gilgit,Skardu,Bunji,Astore,Hunza,Nagar,Chilas,Diamer,Gilgit,Kargil,Leh,Ladakh,Nubra,Zanskar"
 },
 {
     "name": "Shina, Kohistani",
@@ -8516,7 +8516,7 @@ window.asiaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
+  "b": "Chilas,Swat,Kohistan,Dir,Mansehra,Battagram,Shangla,Kaghan,Chitral,Astore,Diamer,Gilgit"
 },
 {
     "name": "Shira Yugur",
@@ -8525,7 +8525,7 @@ window.asiaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
+  "b": "Zhangye,Sunan,Ganzhou,Wuwei,Jinchang,Lanzhou,Xining,Qinghai,Zhuoni,Lintan,Hezuo,Taohe"
 },
 {
     "name": "Shirongol",
@@ -8534,7 +8534,7 @@ window.asiaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
+  "b": "Linxia,Lanzhou,Tianshui,Dingxi,Zhangye,Wuwei,Pingliang,Qingyang,Baiyin,Jinchang,Jiuquan,Zhangye,Gansu"
 },
 {
     "name": "Shirwi",
@@ -8543,7 +8543,7 @@ window.asiaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
+  "b": "Dhofar,Salalah,Mirbat,Sadah,Taqah,Rakhyut,Shihr,Mukalla,Ash Shihr,Al-Ghaydah,Al-Mukalla,Aden,Taiz,Ibb,Sana'a,Amran,Sa'dah,Hajjah,Al Hudaydah,Al Bayda',Dhamar,Lahij,Abyan,Shabwah,Hadhramaut,Sayun,Tarim,Al-Qatn,Shibam"
 },
 {
     "name": "Sholaga",
@@ -8552,7 +8552,7 @@ window.asiaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
+  "b": "Kannur,Kozhikode,Malappuram,Palakkad,Thrissur,Kochi,Kottayam,Alappuzha,Pathanamthitta,Kollam,Thiruvananthapuram,Wayanad,Idukki"
 },
 {
     "name": "Sikkimese",
@@ -8561,7 +8561,7 @@ window.asiaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
+  "b": "Gangtok,Pelling,Namchi,Ravangla,Rangpo,Dikchu,Mangan,Soreng,Tsomgo,Rinchenpong,Chungthang,Singtam,Rangli,Rongli,Aritar,Mangshila,Chakung,Rhenock,Nathula,La,Zul,Ravangla,Pelling,Namchi,Gangtok"
 },
 {
     "name": "Sindhi Bhil",
@@ -8570,7 +8570,7 @@ window.asiaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
+  "b": "Hyderabad,Sukkur,Larkana,Nawabshah,Mirpur Khas,Shikarpur,Khairpur,Dadu,Badin,Thatta,Ghotki,Sanghar,Umarkot,Mithi,Ratodero,Mehar,Kamber,Shahdadkot,Moro,Sakrand,Tando Muhammad Khan,Tando Allahyar,Matiari,Hala,Sehwan,Sinjhoro,Naushro Feroze,Kandiaro,Daharki,Pano Aqil,Rohri,Kashmor,Dhurkot,Tando Jan Mohammad,Bhit Shah"
 },
 {
     "name": "Somray",
@@ -8579,7 +8579,7 @@ window.asiaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
+  "b": "Battambang,Pursat,Kampong Thom,Kampong Cham,Kampong Speu,Kandal,Takeo,Kratie,Stung Treng,Ratanakiri,Mondulkiri,Preah Vihear,Kampong Thom,Kampong Cham,Kampong Speu,Kandal,Takeo,Kratie,Stung Treng,Ratanakiri,Mondulkiri,Preah Vihear"
 },
 {
     "name": "Sonha",
@@ -8588,7 +8588,7 @@ window.asiaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
+  "b": "Dumka,Sahibganj,Godda,Pakur,Banka,Munger,Khagaria,Jamui,Bihariganj,Madhepura,Katihar,Purnia,Araria,Kishanganj,Barari,Jhajha,Chandan,Maheshpura,Ranchi"
 },
 {
     "name": "Sonid Mongol",
@@ -8597,7 +8597,7 @@ window.asiaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
+  "b": "Ulan-Ude,Irkutsk,Chita,Ulaanbaatar,Elista,Kyzyl,Khovd,Xilinhot,Chifeng,Tongliao"
 },
 {
     "name": "Southern Khalkha",
@@ -8606,7 +8606,7 @@ window.asiaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
+  "b": "Ulaanbaatar,Darkhan,Erdenet,Choibalsan,Murun,Baruun-Urt"
 },
 {
     "name": "Southern Tai",
@@ -8615,7 +8615,7 @@ window.asiaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
+  "b": "Chiang Mai,Chiang Rai,Lampang,Lamphun,Mae Hong Son,Nan,Phayao,Phrae,Uttaradit,Sukhothai,Phetchabun,Phitsanulok"
 },
 {
     "name": "Southern Thai",
@@ -8624,7 +8624,7 @@ window.asiaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
+  "b": "Surat Thani,Nakhon Si Thammarat,Songkhla,Pattani,Yala,Narathiwat,Trang,Phatthalung,Chumphon,Ranong,Phuket,Krabi"
 },
 {
     "name": "Southern Tungusic",
@@ -8633,7 +8633,7 @@ window.asiaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
+  "b": "Harbin,Qiqihar,Heihe,Khabarovsk,Vladivostok,Blagoveshchensk,Tongjiang,Fuyuan,Komsomolsk-on-Amur,Bikin,Lesozavodsk,Dalnerechensk,Dolinsk,Yuzhno-Sakhalinsk,Ulan-Ude,Chita,Amursk,Artyom,Ussuriysk,Partizansk,Nakhodka,Spassk-Dalny,Luchegorsk,Dalnegorsk,Kavalerovo,Vanino,Chernyshevsky,Neryungri,Tygda,Mogocha"
 },
 {
     "name": "Sri Lankan English",
@@ -8651,7 +8651,7 @@ window.asiaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
+  "b": "Colombo,Hambantota,Kandy,Galle,Badulla,Nuwara Eliya,Trincomalee,Batticaloa,Kurunegala,Welimada,Beruwala,Kirinda,Matara,Tangalle,Ampara,Polonnaruwa,Anuradhapura,Jaffna,Mannar,Batticaloa,Trincomalee,Galle,Matara,Colombo,Kandy,Hambantota,Nuwara Eliya,Badulla,Kurunegala,Welimada,Beruwala,Kirinda,Tangalle,Ampara,Polonnaruwa,Anuradhapura,Jaffna,Mannar"
 },
 {
     "name": "Standard Tibetan",
@@ -8660,7 +8660,7 @@ window.asiaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
+  "b": "Lhasa,Shigatse,Chamdo,Nagqu,Nyingchi,Gyantse,Tsetang,Drigung,Ralung,Samye,Sakya,Reting,Tashilhunpo,Drepung,Sera,Ganden,Norbu Lingka,Potala,Barkhor,Amdo,Kham,U-Tsang"
 },
 {
     "name": "Standard Zhuang",
@@ -8669,7 +8669,7 @@ window.asiaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
+  "b": "Nanning,Liuzhou,Guilin,Baise,Qinzhou,Fangchenggang,Chongzuo,Laibin,Hechi,Lingshan,Binyang,Duan,Mashan,Hengzhou,Wuming,Yongning,Fusui,Shangsi,Pinyang,Daxin,Ningming,Xiangzhou,Duanshan,Yulin"
 },
 {
     "name": "Stieng",
@@ -8678,7 +8678,7 @@ window.asiaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
+  "b": "Quang Tri,Quang Binh,Thua Thien Hue,Da Nang,Quang Nam,Quang Ngai,Binh Dinh,Phu Yen,Khanh Hoa,Ninh Thuan,Binh Thuan,Kon Tum,Gia Lai,Dak Lak,Dak Nong,Lam Dong"
 },
 {
     "name": "Su'",
@@ -8687,7 +8687,7 @@ window.asiaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
+  "b": "Quang Tri,Quang Binh,Thua Thien Hue,Da Nang,Quang Nam,Quang Ngai,Binh Dinh,Phu Yen,Khanh Hoa,Ninh Thuan,Binh Thuan,Kon Tum,Gia Lai,Dak Lak,Dak Nong,Lam Dong"
 },
 {
     "name": "Sundanese native-speakers subset",
@@ -8696,7 +8696,7 @@ window.asiaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
+  "b": "Bandung,Bogor,Sukabumi,Tasikmalaya,Cirebon,Garut,Sumedang,Cianjur,Subang,Purwakarta,Ciamis,Indramayu,Majalengka,Kuningan,Banjar,Cimahi,Soreang,Lembang,Padalarang,Banjaran,Pameungpeuk,Rancaekek,Jatinangor,Cicalengka,Cileunyi,Tanjungsari,Plered,Cibeureum,Kawali,Rajapolah,Puspahiang,Sindang,Panawangan"
 },
 {
     "name": "Suoy",
@@ -8705,7 +8705,7 @@ window.asiaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
+  "b": "Quang Tri,Quang Binh,Thua Thien Hue,Da Nang,Quang Nam,Quang Ngai,Binh Dinh,Phu Yen,Khanh Hoa,Ninh Thuan,Binh Thuan,Kon Tum,Gia Lai,Dak Lak,Dak Nong,Lam Dong"
 },
 {
     "name": "Surgujia",
@@ -8714,7 +8714,7 @@ window.asiaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
+  "b": "Raipur,Bilaspur,Durg,Rajnandgaon,Korba,Ambikapur,Jagdalpur,Jashpur,Raigarh,Baloda Bazar,Mahasamund,Dhamtari,Kanker,Bijapur,Narayanpur,Sukma,Konta,Dantewada,Antagarh,Bhanupratappur"
 },
 {
     "name": "Surjapuri",
@@ -8723,7 +8723,7 @@ window.asiaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
+  "b": "Purnia,Katihar,Araria,Kishanganj,Madhepura,Saharsa,Darbhanga,Muzaffarpur,Samastipur,Begusarai,Munger,Bhagalpur,Banka,Jamui,Godda,Dumka,Sahibganj,Ranchi"
 },
 {
     "name": "Sylheti",
@@ -8732,7 +8732,7 @@ window.asiaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
+  "b": "Sylhet,Moulvibazar,Habiganj,Sunamganj,Chittagong,Cox's Bazar,Comilla,Noakhali,Feni,Lakshmipur,Brahmanbaria,Chandpur,Narayanganj,Gazipur,Dhaka,Mymensingh,Netrokona,Kishoreganj,Manikganj,Munshiganj,Narsingdi,Tangail,Kushtia,Jessore,Barisal,Patuakhali,Bhola,Pirojpur,Jhalokati,Rangamati,Khagrachari,Bandarban"
 },
 {
     "name": "Tabghach",
@@ -8741,7 +8741,7 @@ window.asiaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
+  "b": "Ulaanbaatar,Erdenet,Choibalsan,Baruun-Urt,Murun,Ondorkhaan,Khovd,Altai,Bayan-Olgii,Uvs,Khovsgol,Zavkhan,Dornod,Dundgovi,Govisumber,Selenge,Tov,Darkhan"
 },
 {
     "name": "Tai",
@@ -8750,7 +8750,7 @@ window.asiaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
+  "b": "Chiang Mai,Chiang Rai,Lampang,Lamphun,Mae Hong Son,Nan,Phayao,Phrae,Uttaradit,Sukhothai,Phetchabun,Phitsanulok,Chiang Mai,Chiang Rai,Lampang,Lamphun,Mae Hong Son,Nan,Phayao,Phrae,Uttaradit,Sukhothai,Phetchabun,Phitsanulok"
 },
 {
     "name": "Tai Daeng",
@@ -8759,7 +8759,7 @@ window.asiaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
+  "b": "Nakhon Ratchasima,Buri Ram,Surin,Khon Kaen,Ubon Ratchathani,Maha Sarakham,Roi Et,Chaiyaphum,Loei,Nong Khai,Nakhon Phanom,Mukdahan,Kalasin,Sisaket,Amnat Charoen,Yasothon,Udon Thani,Bueng Kan"
 },
 {
     "name": "Tai Don",
@@ -8768,7 +8768,7 @@ window.asiaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
+  "b": "Chiang Rai,Loei,Nong Khai,Nong Bua Lamphu,Udon Thani,Sakon Nakhon,Kalasin,Mukdahan,Amnat Charoen,Yasothon,Bueng Kan,Si Sa Ket,Surin,Buri Ram,Nakhon Ratchasima,Roi Et,Chaiyaphum,Maha Sarakham,Khon Kaen,Ubon Ratchathani"
 },
 {
     "name": "Tai Hang Tong",
@@ -8777,7 +8777,7 @@ window.asiaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
+  "b": "Chiang Mai,Chiang Rai,Lampang,Lamphun,Mae Hong Son,Nan,Phayao,Phrae,Uttaradit,Sukhothai,Phetchabun,Phitsanulok"
 },
 {
     "name": "Tai Khang",
@@ -8786,7 +8786,7 @@ window.asiaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
+  "b": "Chiang Mai,Chiang Rai,Lampang,Lamphun,Mae Hong Son,Nan,Phayao,Phrae,Uttaradit,Sukhothai,Phetchabun,Phitsanulok"
 },
 {
     "name": "Tai Laing",
@@ -8795,7 +8795,7 @@ window.asiaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
+  "b": "Chiang Mai,Chiang Rai,Lampang,Lamphun,Mae Hong Son,Nan,Phayao,Phrae,Uttaradit,Sukhothai,Phetchabun,Phitsanulok"
 },
 {
     "name": "Tai Long",
@@ -8804,7 +8804,7 @@ window.asiaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
+  "b": "Chiang Mai,Chiang Rai,Lampang,Lamphun,Mae Hong Son,Nan,Phayao,Phrae,Uttaradit,Sukhothai,Phetchabun,Phitsanulok"
 },
 {
     "name": "Tai Lue",
@@ -8813,7 +8813,7 @@ window.asiaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
+  "b": "Chiang Mai,Chiang Rai,Lampang,Lamphun,Mae Hong Son,Nan,Phayao,Phrae,Uttaradit,Sukhothai,Phetchabun,Phitsanulok"
 },
 {
     "name": "Tai Nuea",
@@ -8822,7 +8822,7 @@ window.asiaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
+  "b": "Chiang Mai,Chiang Rai,Lampang,Lamphun,Mae Hong Son,Nan,Phayao,Phrae,Uttaradit,Sukhothai,Phetchabun,Phitsanulok"
 },
 {
     "name": "Tai Pao",
@@ -8831,7 +8831,7 @@ window.asiaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
+  "b": "Chiang Mai,Chiang Rai,Lampang,Lamphun,Mae Hong Son,Nan,Phayao,Phrae,Uttaradit,Sukhothai,Phetchabun,Phitsanulok"
 },
 {
     "name": "Tai Song",
@@ -8840,7 +8840,7 @@ window.asiaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
+  "b": "Chiang Mai,Chiang Rai,Lampang,Lamphun,Mae Hong Son,Nan,Phayao,Phrae,Uttaradit,Sukhothai,Phetchabun,Phitsanulok"
 },
 {
     "name": "Tai Thanh",
@@ -8849,7 +8849,7 @@ window.asiaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
+  "b": "Quang Tri,Quang Binh,Thua Thien Hue,Da Nang,Quang Nam,Quang Ngai,Binh Dinh,Phu Yen,Khanh Hoa,Ninh Thuan,Binh Thuan,Kon Tum,Gia Lai,Dak Lak,Dak Nong,Lam Dong"
 },
 {
     "name": "Tai Yao",
@@ -8858,7 +8858,7 @@ window.asiaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
+  "b": "Chiang Mai,Chiang Rai,Lampang,Lamphun,Mae Hong Son,Nan,Phayao,Phrae,Uttaradit,Sukhothai,Phetchabun,Phitsanulok"
 },
 {
     "name": "Tai Yo (Nyaw)",
@@ -8867,7 +8867,7 @@ window.asiaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
+  "b": "Chiang Mai,Chiang Rai,Lampang,Lamphun,Mae Hong Son,Nan,Phayao,Phrae,Uttaradit,Sukhothai,Phetchabun,Phitsanulok"
 },
 {
     "name": "Takua",
@@ -8876,7 +8876,7 @@ window.asiaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
+  "b": "Quang Tri,Quang Binh,Thua Thien Hue,Da Nang,Quang Nam,Quang Ngai,Binh Dinh,Phu Yen,Khanh Hoa,Ninh Thuan,Binh Thuan,Kon Tum,Gia Lai,Dak Lak,Dak Nong,Lam Dong"
 },
 {
     "name": "Tamang",
@@ -8885,7 +8885,7 @@ window.asiaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
+  "b": "Kathmandu,Dhading,Nuwakot,Rasuwa,Chitwan,Makwanpur,Okhaldhunga,Khotang,Udayapur,Bara,Parsa,Rautahat,Sindhupalchok,Ramechap,Dolakha,Solukhumbu,Langtang,Kyanjin Gompa,Syabrubesi,Thulo Syabru"
 },
 {
     "name": "Tampuan",
@@ -8894,7 +8894,7 @@ window.asiaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
+  "b": "Ban Me Thuot,Gia Nghia,Kon Tum,Pleiku,An Khe,Dak Lak,Buon Ho,Yok Don,Chu Pah,Chu Prong,Chu Pong,Chu Rung,Chu Se,Chu Ty,Chu Vac,Chu Vay,Chu Yang,Dak Doa,Dak Glei,Dak Ha,Dak Nia,Dak Pxi,Dak Song,Dak Trung,Ea Drang,Ea Kmung,Ea Knua,Ea Ktur,Ea Nueng,Ea Sup,Ea Tar,Ea Uy,Ea Wy,Gia Lai,Hue,Lam Dong,Ninh Thuan,Phu Yen"
 },
 {
     "name": "Tanchangya",
@@ -8903,7 +8903,7 @@ window.asiaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
+  "b": "Chittagong,Cox's Bazar,Comilla,Noakhali,Feni,Lakshmipur,Brahmanbaria,Chandpur,Narayanganj,Gazipur,Dhaka,Mymensingh,Netrokona,Kishoreganj,Manikganj,Munshiganj,Narsingdi,Tangail,Kushtia,Jessore,Barisal,Patuakhali,Bhola,Pirojpur,Jhalokati,Rangamati,Khagrachari,Bandarban"
 },
 {
     "name": "Tangut",
@@ -8912,7 +8912,7 @@ window.asiaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
+  "b": "Wuwei,Zhangye,Ganzhou,Lanzhou,Xining,Qinghai,Zhuoni,Lintan,Hezuo,Taohe,Dunhuang,Yumen,Jiayuguan,Guazhou,Dunhuang,Yumen,Jiayuguan,Guazhou,Zhangye,Wuwei,Ganzhou,Lanzhou,Xining,Qinghai"
 },
 {
     "name": "Tariang",
@@ -8921,7 +8921,7 @@ window.asiaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
+  "b": "Quang Tri,Quang Binh,Thua Thien Hue,Da Nang,Quang Nam,Quang Ngai,Binh Dinh,Phu Yen,Khanh Hoa,Ninh Thuan,Binh Thuan,Kon Tum,Gia Lai,Dak Lak,Dak Nong,Lam Dong"
 },
 {
     "name": "Tay (Tai)",
@@ -8930,7 +8930,7 @@ window.asiaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
+  "b": "Chiang Mai,Chiang Rai,Lampang,Lamphun,Mae Hong Son,Nan,Phayao,Phrae,Uttaradit,Sukhothai,Phetchabun,Phitsanulok"
 },
 {
     "name": "Tay Tac",
@@ -8939,7 +8939,7 @@ window.asiaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
+  "b": "Quang Tri,Quang Binh,Thua Thien Hue,Da Nang,Quang Nam,Quang Ngai,Binh Dinh,Phu Yen,Khanh Hoa,Ninh Thuan,Binh Thuan,Kon Tum,Gia Lai,Dak Lak,Dak Nong,Lam Dong"
 },
 {
     "name": "Tenyidie",
@@ -8948,7 +8948,7 @@ window.asiaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
+  "b": "Kohima,Chumukedima,Viswema,Khonoma,Diphu,Jakhama,Kezo,Nerhema,Phekerkrima,Keshor,Keringu,Kijumetso,Phesama,Rusoma,Mirapfu,Merema,Sendenyu,Kakha,Dihoma,Tsiesema"
 },
 {
     "name": "Teressa Nicobarese",
@@ -8957,7 +8957,7 @@ window.asiaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
+  "b": "Teressa,Katchal,Nancowry,Camorta,Car Nicobar,Great Nicobar,Little Nicobar,Kondul,Pulo Milo,Pulo Babe,Pulo Kunji,Kakana,Arong,Chowra,Trinket,Pilo Pagar,Kapanga,Laful,Tilanchong"
 },
 {
     "name": "Thachanadan",
@@ -8966,7 +8966,7 @@ window.asiaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
+  "b": "Kannur,Kozhikode,Malappuram,Palakkad,Thrissur,Kochi,Kottayam,Alappuzha,Pathanamthitta,Kollam,Thiruvananthapuram,Wayanad,Idukki"
 },
 {
     "name": "Thai Siamese",
@@ -8975,7 +8975,7 @@ window.asiaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
+  "b": "Bangkok,Chiang Mai,Phuket,Chonburi,Nakhon Ratchasima,Pattaya,Rayong,Samut Prakan,Hat Yai,Udon Thani,Khon Kaen,Krabi,Nakhon Si Thammarat,Songkhla,Surat Thani,Mae Sot,Chiang Rai,Ayutthaya,Saraburi,Lopburi,Kanchanaburi,Ratchaburi,Phetchaburi,Chumphon,Tak,Trat,Chanthaburi,Sa Kaeo,Mukdahan,Nong Khai"
 },
 {
     "name": "Thakali",
@@ -8984,7 +8984,7 @@ window.asiaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
+  "b": "Jomsom,Marpha,Tatopani,Manang,Chame,Nar,Phu,Ghumtang,Braga,Manang,Chame,Nar,Phu,Ghumtang,Braga,Jomsom,Marpha,Tatopani"
 },
 {
     "name": "Thangmi (Thami)",
@@ -8993,7 +8993,7 @@ window.asiaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
+  "b": "Dolakha,Sindhuli,Ramechap,Okhaldhunga,Khotang,Udayapur,Solukhumbu,Langtang,Kyanjin Gompa,Syabrubesi,Thulo Syabru,Dolakha,Sindhuli,Ramechap,Okhaldhunga,Khotang,Udayapur,Solukhumbu,Langtang,Kyanjin Gompa,Syabrubesi,Thulo Syabru"
 },
 {
     "name": "Thar",
@@ -9002,7 +9002,7 @@ window.asiaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
+  "b": "Jaisalmer,Jodhpur,Barmer,Bikaner,Churu,Jhunjhunu,Sikar,Pali,Tonk,Sawai Madhopur,Alwar,Bharatpur,Kota,Bundi,Chittorgarh,Dungarpur,Banswara,Jhalawar,Karauli"
 },
 {
     "name": "Tharu languages",
@@ -9011,7 +9011,7 @@ window.asiaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
+  "b": "Kathmandu,Pokhara,Lalitpur,Bharatpur,Birgunj,Biratnagar,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
 },
 {
     "name": "Thmon",
@@ -9020,7 +9020,7 @@ window.asiaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
+  "b": "Quang Tri,Quang Binh,Thua Thien Hue,Da Nang,Quang Nam,Quang Ngai,Binh Dinh,Phu Yen,Khanh Hoa,Ninh Thuan,Binh Thuan,Kon Tum,Gia Lai,Dak Lak,Dak Nong,Lam Dong"
 },
 {
     "name": "Tichurong",
@@ -9029,7 +9029,7 @@ window.asiaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
+  "b": "Dolakha,Sindhuli,Ramechap,Okhaldhunga,Khotang,Udayapur,Solukhumbu,Langtang,Kyanjin Gompa,Syabrubesi,Thulo Syabru,Dolakha,Sindhuli,Ramechap,Okhaldhunga,Khotang,Udayapur,Solukhumbu,Langtang,Kyanjin Gompa,Syabrubesi,Thulo Syabru"
 },
 {
     "name": "Toda",
@@ -9038,7 +9038,7 @@ window.asiaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
+  "b": "Ooty,Kotagiri,Coonoor,Gudalur,Kundah,Nilgiris,Wayand,Kozhikode,Kannur,Malappuram,Palakkad,Thrissur,Ernakulam,Kollam,Thiruvananthapuram,Kottayam,Alappuzha,Pathanamthitta,Idukki"
 },
 {
     "name": "Todrah",
@@ -9047,7 +9047,7 @@ window.asiaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
+  "b": "Quang Tri,Quang Binh,Thua Thien Hue,Da Nang,Quang Nam,Quang Ngai,Binh Dinh,Phu Yen,Khanh Hoa,Ninh Thuan,Binh Thuan,Kon Tum,Gia Lai,Dak Lak,Dak Nong,Lam Dong"
 },
 {
     "name": "Tongren Bonan",
@@ -9056,7 +9056,7 @@ window.asiaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
+  "b": "Tongren,Linxia,Xunhua,Huzhu,Minhe,Hualong,Jishishan,Zeku,Tianzhu,Lanzhou,Xining,Gonghe,Mangcha,Haidong,Pingliang,Zhenyuan"
 },
 {
     "name": "Torwali",
@@ -9065,7 +9065,7 @@ window.asiaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
+  "b": "Chilas,Swat,Kohistan,Dir,Shangla,Alai,Mansehra"
 },
 {
     "name": "Transitional Bonan-Kangjia",
@@ -9074,7 +9074,7 @@ window.asiaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
+  "b": "Tongren,Linxia,Xunhua,Huzhu,Minhe,Hualong,Jishishan,Zeku,Tianzhu,Lanzhou,Xining,Gonghe,Mangcha,Haidong,Pingliang,Zhenyuan"
 },
 {
     "name": "Tripuri",
@@ -9083,7 +9083,7 @@ window.asiaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
+  "b": "Agartala,Udaipur,Kailasahar,Khowai,Ambassa,Dharmanagar,Kamalpur,Longtharai,Chandranath,Tripura,Agartala,Udaipur,Kailasahar,Khowai,Ambassa,Dharmanagar,Kamalpur,Longtharai,Chandranath"
 },
 {
     "name": "Tsun-Lao",
@@ -9092,7 +9092,7 @@ window.asiaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
+  "b": "Chiang Mai,Chiang Rai,Lampang,Lamphun,Mae Hong Son,Nan,Phayao,Phrae,Uttaradit,Sukhothai,Phetchabun,Phitsanulok"
 },
 {
     "name": "Tulu",
@@ -9101,7 +9101,7 @@ window.asiaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
+  "b": "Mangaluru,Bantwal,Puttur,Sullia,Beltangady,Manjeshwar,Uppala,Kasaragod,Moodbidri,Karkala,Vittal,Ujire,Dharmasthala,Kunjar,Mulki,Padubidri,Hebri,Nitte,Shirva,Katapadi"
 },
 {
     "name": "Turung",
@@ -9110,7 +9110,7 @@ window.asiaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
+  "b": "Dibrugarh,Tinsukia,Lakhimpur,Dhemaji,Jorhat,Sibsagar,Golaghat,Nagaon,Assam,Tezpur,Guwahati,Dispur,Nalbari,Bongaigaon,Dhubri,Kokrajhar,Bilasipara,Rangia,Mangaldoi,Sivasagar,Habraghat,Mariani,Dimapur,Kohima"
 },
 {
     "name": "Tuyuhun",
@@ -9119,7 +9119,7 @@ window.asiaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
+  "b": "Xining,Qinghai,Gonghe,Haidong,Linxia,Zhangye,Wuwei,Jinchang,Jiuquan,Zhangye,Gansu,Xining,Qinghai,Gonghe,Haidong,Linxia,Zhangye,Wuwei,Jinchang,Jiuquan,Zhangye,Gansu"
 },
 {
     "name": "Udege",
@@ -9128,7 +9128,7 @@ window.asiaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
+  "b": "Khabarovsk,Vladivostok,Blagoveshchensk,Tongjiang,Fuyuan,Komsomolsk-on-Amur,Bikin,Lesozavodsk,Dalnerechensk,Dolinsk,Yuzhno-Sakhalinsk,Ulan-Ude,Chita,Amursk,Artyom,Ussuriysk,Partizansk,Nakhodka,Spassk-Dalny,Luchegorsk,Dalnegorsk,Kavalerovo,Vanino,Chernyshevsky,Neryungri,Tygda,Mogocha"
 },
 {
     "name": "Udegheic",
@@ -9137,7 +9137,7 @@ window.asiaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
+  "b": "Khabarovsk,Vladivostok,Blagoveshchensk,Tongjiang,Fuyuan,Komsomolsk-on-Amur,Bikin,Lesozavodsk,Dalnerechensk,Dolinsk,Yuzhno-Sakhalinsk,Ulan-Ude,Chita,Amursk,Artyom,Ussuriysk,Partizansk,Nakhodka,Spassk-Dalny,Luchegorsk,Dalnegorsk,Kavalerovo,Vanino,Chernyshevsky,Neryungri,Tygda,Mogocha"
 },
 {
     "name": "Uilta",
@@ -9146,7 +9146,7 @@ window.asiaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
+  "b": "Khabarovsk,Vladivostok,Blagoveshchensk,Tongjiang,Fuyuan,Komsomolsk-on-Amur,Bikin,Lesozavodsk,Dalnerechensk,Dolinsk,Yuzhno-Sakhalinsk,Ulan-Ude,Chita,Amursk,Artyom,Ussuriysk,Partizansk,Nakhodka,Spassk-Dalny,Luchegorsk,Dalnegorsk,Kavalerovo,Vanino,Chernyshevsky,Neryungri,Tygda,Mogocha"
 },
 {
     "name": "Ulaanchab Mongol",
@@ -9155,7 +9155,7 @@ window.asiaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
+  "b": "Ulaanbaatar,Erdenet,Choibalsan,Baruun-Urt,Murun,Ondorkhaan,Khovd,Altai,Bayan-Olgii,Uvs,Khovsgol,Zavkhan,Dornod,Dundgovi,Govisumber,Selenge,Tov,Darkhan"
 },
 {
     "name": "Ulch",
@@ -9164,7 +9164,7 @@ window.asiaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
+  "b": "Khabarovsk,Vladivostok,Blagoveshchensk,Tongjiang,Fuyuan,Komsomolsk-on-Amur,Bikin,Lesozavodsk,Dalnerechensk,Dolinsk,Yuzhno-Sakhalinsk,Ulan-Ude,Chita,Amursk,Artyom,Ussuriysk,Partizansk,Nakhodka,Spassk-Dalny,Luchegorsk,Dalnegorsk,Kavalerovo,Vanino,Chernyshevsky,Neryungri,Tygda,Mogocha"
 },
 {
     "name": "Ushojo",
@@ -9173,7 +9173,7 @@ window.asiaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
+  "b": "Chilas,Swat,Kohistan,Dir,Shangla,Alai,Mansehra"
 },
 {
     "name": "Vaghri",
@@ -9182,7 +9182,7 @@ window.asiaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
+  "b": "Hyderabad,Sukkur,Larkana,Nawabshah,Mirpur Khas,Shikarpur,Khairpur,Dadu,Badin,Thatta,Ghotki,Sanghar,Umarkot,Mithi,Ratodero,Mehar,Kamber,Shahdadkot,Moro,Sakrand,Tando Muhammad Khan,Tando Allahyar,Matiari,Hala,Sehwan,Sinjhoro,Naushro Feroze,Kandiaro,Daharki,Pano Aqil,Rohri,Kashmor,Dhurkot,Tando Jan Mohammad,Bhit Shah"
 },
 {
     "name": "Varendri",
@@ -9191,7 +9191,7 @@ window.asiaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
+  "b": "Purnia,Katihar,Araria,Kishanganj,Madhepura,Saharsa,Darbhanga,Muzaffarpur,Samastipur,Begusarai,Munger,Bhagalpur,Banka,Jamui,Godda,Dumka,Sahibganj,Ranchi"
 },
 {
     "name": "Vayu",
@@ -9263,7 +9263,7 @@ window.asiaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
+  "b": "Kannur,Kozhikode,Malappuram,Palakkad,Thrissur,Kochi,Kottayam,Alappuzha,Pathanamthitta,Kollam,Thiruvananthapuram,Wayanad,Idukki"
 },
 {
     "name": "Wadiyara Koli",
@@ -9272,7 +9272,7 @@ window.asiaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
+  "b": "Hyderabad,Sukkur,Larkana,Nawabshah,Mirpur Khas,Shikarpur,Khairpur,Dadu,Badin,Thatta,Ghotki,Sanghar,Umarkot,Mithi,Ratodero,Mehar,Kamber,Shahdadkot,Moro,Sakrand,Tando Muhammad Khan,Tando Allahyar,Matiari,Hala,Sehwan,Sinjhoro,Naushro Feroze,Kandiaro,Daharki,Pano Aqil,Rohri,Kashmor,Dhurkot,Tando Jan Mohammad,Bhit Shah"
 },
 {
     "name": "Wagdi",
@@ -9281,7 +9281,7 @@ window.asiaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
+  "b": "Jodhpur,Jaipur,Udaipur,Ajmer,Bikaner,Alwar,Bharatpur,Kota,Bundi,Chittorgarh,Sikar,Pali,Tonk,Sawai Madhopur,Barmer,Jaisalmer,Jhalawar,Karauli,Dungarpur,Banswara,Churu,Jhunjhunu,Sirohi,Nagaur"
 },
 {
     "name": "Walungge",
@@ -9290,7 +9290,7 @@ window.asiaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
+  "b": "Kathmandu,Pokhara,Lalitpur,Bharatpur,Birgunj,Biratnagar,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
 },
 {
     "name": "Wambule",
@@ -9299,7 +9299,7 @@ window.asiaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
+  "b": "Okhaldhunga,Khotang,Udayapur,Solukhumbu,Langtang,Kyanjin Gompa,Syabrubesi,Thulo Syabru,Dolakha,Sindhuli,Ramechap,Okhaldhunga,Khotang,Udayapur,Solukhumbu,Langtang,Kyanjin Gompa,Syabrubesi,Thulo Syabru,Dolakha,Sindhuli,Ramechap"
 },
 {
     "name": "Wayanad Chetti",
@@ -9308,7 +9308,7 @@ window.asiaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
+  "b": "Kannur,Kozhikode,Malappuram,Palakkad,Thrissur,Kochi,Kottayam,Alappuzha,Pathanamthitta,Kollam,Thiruvananthapuram,Wayanad,Idukki"
 },
 {
     "name": "Waziri",
@@ -9317,7 +9317,7 @@ window.asiaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
+  "b": "Peshawar,Charsadda,Mardan,Swat,Dir,Shangla,Alai,Mansehra,Abbottabad,Haripur,Torghar,Nowshera,Akora Khattak,Swabi,Kohat,Attock,Rawalpindi,Murree,Kaghan,Muzaffarabad,Battagram,Buner,Charsadda,Mingora,Matta,Kabal,Parachinar,Kurram"
 },
 {
     "name": "Western Khmer",
@@ -9326,7 +9326,7 @@ window.asiaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
+  "b": "Battambang,Pursat,Kampong Thom,Kampong Cham,Kampong Speu,Kandal,Takeo,Kratie,Stung Treng,Ratanakiri,Mondulkiri,Preah Vihear,Kampong Thom,Kampong Cham,Kampong Speu,Kandal,Takeo,Kratie,Stung Treng,Ratanakiri,Mondulkiri,Preah Vihear"
 },
 {
     "name": "Yadgha",
@@ -9335,7 +9335,7 @@ window.asiaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
+  "b": "Okhaldhunga,Khotang,Udayapur,Solukhumbu,Langtang,Kyanjin Gompa,Syabrubesi,Thulo Syabru,Dolakha,Sindhuli,Ramechap,Okhaldhunga,Khotang,Udayapur,Solukhumbu,Langtang,Kyanjin Gompa,Syabrubesi,Thulo Syabru,Dolakha,Sindhuli,Ramechap"
 },
 {
     "name": "Yakut",
@@ -9344,7 +9344,7 @@ window.asiaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
+  "b": "Yakutsk,Vilyuysk,Olyokminsk,Nyurba,Lensk,Mirny,Pokrovsk,Srednekolymsk,Zyryanka,Saskylakh,Bilibino,Chokurdakh,Ust-Nera,Susuman,Oymyakon,Ust-Maya,Seymchan,Srednekolymsk,Zyryanka,Saskylakh,Bilibino,Chokurdakh,Ust-Nera,Susuman,Oymyakon,Ust-Maya,Seymchan"
 },
 {
     "name": "Yang Zhuang",
@@ -9353,7 +9353,7 @@ window.asiaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
+  "b": "Nanning,Liuzhou,Guilin,Baise,Qinzhou,Fangchenggang,Chongzuo,Laibin,Hechi,Wuzhou,Yulin,Guigang,Binyang,Hengzhou,Wuming,Lingshan,Shangsi,Fusui,Napo,Jingxi,Debao"
 },
 {
     "name": "Yei Zhuang",
@@ -9362,7 +9362,7 @@ window.asiaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
+  "b": "Nanning,Liuzhou,Guilin,Baise,Qinzhou,Fangchenggang,Chongzuo,Laibin,Hechi,Wuzhou,Yulin,Guigang,Binyang,Hengzhou,Wuming,Lingshan,Shangsi,Fusui,Napo,Jingxi,Debao"
 },
 {
     "name": "Yong",
@@ -9371,7 +9371,7 @@ window.asiaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
+  "b": "Chiang Mai,Chiang Rai,Lampang,Lamphun,Mae Hong Son,Nan,Phayao,Phrae,Uttaradit,Sukhothai,Phetchabun,Phitsanulok"
 },
 {
     "name": "Yoy",
@@ -9380,7 +9380,7 @@ window.asiaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
+  "b": "Chiang Mai,Chiang Rai,Lampang,Lamphun,Mae Hong Son,Nan,Phayao,Phrae,Uttaradit,Sukhothai,Phetchabun,Phitsanulok"
 },
 {
     "name": "Zakhchin",
@@ -9389,7 +9389,7 @@ window.asiaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
+  "b": "Ulaanbaatar,Erdenet,Choibalsan,Baruun-Urt,Murun,Ondorkhaan,Khovd,Altai,Bayan-Olgii,Uvs,Khovsgol,Zavkhan,Dornod,Dundgovi,Govisumber,Selenge,Tov,Darkhan"
 },
 {
     "name": "Zandui",
@@ -9398,7 +9398,7 @@ window.asiaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
+  "b": "Guangxi,Nanning,Liuzhou,Baise,Qinzhou,Fangchenggang,Chongzuo,Laibin,Hechi,Wuzhou,Yulin,Guigang,Binyang,Hengzhou,Wuming,Lingshan,Shangsi,Fusui,Napo,Jingxi,Debao"
 },
 {
     "name": "Zhangzhung",
@@ -9407,7 +9407,7 @@ window.asiaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
+  "b": "Lhasa,Shigatse,Chamdo,Nagqu,Nyingchi,Gyantse,Tsetang,Drigung,Ralung,Samye,Sakya,Reting,Tashilhunpo,Drepung,Sera,Ganden,Norbu Lingka,Potala,Barkhor,Amdo,Kham,U-Tsang"
 },
 {
     "name": "Sarikoli",
@@ -10298,7 +10298,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha"
+  "b": "Okhaldhunga,Khotang,Udayapur,Solukhumbu,Langtang,Kyanjin,Syabrubesi,Thulo Syabru,Taplejung,Panchthar,Ilam,Dhankuta,Sankhuwasabha,Bhojpur,Terhathum,Sindhuli,Kavrepalanchok,Dolakha,Ramechap"
 },
 {
     "name": "Meitei macro entry",
@@ -10370,7 +10370,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha"
+  "b": "Kathmandu,Lalitpur,Bhaktapur,Kirtipur,Madhyapur Thimi,Kageshwari Manohara,Lalitpur,Bhaktapur,Sanga,Bhaktapur,Lalitpur,Kathmandu,Godawari,Suryabinayak,Changunarayan,Nagarjun,Kirtipur,Tokha,Champi,Lalitpur,Bhaktapur,Kathmandu,Sundarijal,Chisapani,Gokarneshwor"
 },
 {
     "name": "Nishi",
@@ -10505,7 +10505,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha"
+  "b": "Dang,Pyuthan,Tanahun,Gorkha,Rolpa,Surkhet,Gandaki,Lumbini,Kathmandu,Ghorahi,Sakhi,Mahendra,Tribhuvan,Accham,Bajhang,Bajura,Jumla,Dadeldhura,Darchula,Kailali,Kanchanpur,Dipayal,Silgadhi"
 },
 {
     "name": "Rouruo",
@@ -10523,7 +10523,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha"
+  "b": "Taplejung,Panchthar,Ilam,Dhankuta,Sankhuwasabha,Bhojpur,Terhathum,Okhaldhunga,Khotang,Udayapur,Solukhumbu,Langtang,Kyanjin Gompa,Syabrubesi,Thulo Syabru,Dolakha,Sindhuli,Ramechap"
 },
 {
     "name": "Shaozhou Tuhua",
