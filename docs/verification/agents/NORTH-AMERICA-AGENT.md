@@ -22,16 +22,51 @@ Process entries **strictly in file order** (sequential, from top to bottom). Do 
 
 ## Common Issues to Watch For
 
-### 1. Colonial-Language Names in Bases
-Many language bases may be contaminated with English or Spanish colonial names. Prefer names from the indigenous language. The test is: "Was this name coined by speakers of this language?"
+### 1. Colonial-Language Names in Indigenous Bases
+Many indigenous language entries are contaminated with English, French, or Spanish colonial names. **Prefer names from the indigenous language.** The test is: "Was this name coined by speakers of this language?"
 
-### 2. Romanization of Indigenous Names
-Many indigenous languages use specialized romanization. Keep diacritics that are part of the standard orthography.
+- ❌ "Red Lake", "White Earth", "Mille Lacs", "Fond du Lac" in Ojibwe → English/French names
+- ❌ "Sioux Falls", "Rapid City", "Fargo", "Bismarck" in Dakota → English names
+- ❌ "Window Rock", "Shiprock", "Tuba City" in Navajo → English names
+- ❌ "Santa Fe", "Albuquerque" in Navajo/Apache → Spanish names
 
-### 3. Very Small Name Sets
+### 2. Language Names as Place Names
+Never use the language name itself as a place name:
+- ❌ "Eyak" in Eyak entry
+- ❌ "Cherokee" in Cherokee entry
+- ❌ "Wiyot" in Wiyot entry
+- ❌ "Holikachuk" in Holikachuk entry
+
+### 3. Ethnic Group Names as Place Names
+Never use ethnic group names as place names:
+- ❌ "Tlingit", "Inupiat", "Yupik", "Nunamiut", "Sugpiaq", "Aleut", "Alutiiq" in Tlingit entry
+
+### 4. Person Names as Place Names
+Never use person names as place names:
+- ❌ "Lone Wolf", "Satanta", "Kicking Bird", "Big Tree", "Ten Bears" in Kiowa entry
+- ❌ "Standing Bear" in Muscogee entry
+
+### 5. Event Names as Place Names
+Never use event names as place names:
+- ❌ "Trail of Tears" in Muscogee entry
+
+### 6. Administrative Region Names
+Never use political/administrative region names:
+- ❌ "Georgia", "Florida", "Oklahoma", "Indian Territory" in Muscogee entry
+- ❌ "Kiowa County", "Caddo County", "Comanche County" in Kiowa/Comanche entries
+- ❌ "Tuscarora" entry had 28 NC county names — all removed
+
+### 7. Cross-Contamination Between Indigenous Languages
+Names from one indigenous language appearing in another's entry. This is a common copy-paste bug:
+- ❌ Zapotec/Chatino/Mixtec names in Mixe entry
+- ❌ Cuicatec/Zapotec names in Huichol entry
+- ❌ Amuzgo names in Chontal Maya entry
+- ❌ Oaxaca-region names in Sierra Popoluca entry
+
+### 8. Very Small Name Sets
 Many indigenous languages may have very few documented place names. Do your best to find authentic names. Include historical place names if modern ones are scarce.
 
-### 4. Cross-File Issues
+### 9. Cross-File Issues
 Some languages span North and South America (Quechua, Arawakan). Ensure entries have names from the language as spoken in North/Central America.
 
 ## Verification Workflow
@@ -71,6 +106,12 @@ If fewer than 30 names (50 preferred):
 - [ ] All names use Latin/Romanized script
 - [ ] Minimum 25 names (target 50+)
 - [ ] Prefer indigenous-language place names over colonial names
+- [ ] No language names used as place names
+- [ ] No ethnic group names used as place names
+- [ ] No person names used as place names
+- [ ] No event names used as place names
+- [ ] No administrative region names
+- [ ] No cross-language contamination from other indigenous languages
 - [ ] `min`/`max` are reasonable
 - [ ] `d` value matches language phonotactics
 - [ ] No encoding issues

@@ -1,0 +1,19 @@
+{
+  "continent": "oceania",
+  "lastVerifiedIndex": 51,
+  "lastVerifiedName": "Dani Papuan (emptied - cover term)",
+  "totalEntries": 568,
+  "completedEntries": 0,
+  "waitingEntries": 0,
+  "totalNamesVerified": 0,
+  "totalIssuesFixed": 0,
+  "startedAt": "2026-06-23T12:00:00Z",
+  "lastUpdate": "2026-06-26T12:23:00Z",
+  "status": "restart",
+  "currentLanguage": "Restarting from beginning",
+  "nextLanguage": "Engan Papuan (i=50) - WAITING (cover term)",
+  "blockers": ["Need to restart verification from scratch for every entry"],
+  "sessionStart": "2026-06-26T12:23:00Z",
+  "entriesThisSession": 0,
+  "notes": "RESTART: Previous sessions' work was incomplete. The 'COMPLETE' status from before was inaccurate - entries had province names removed but individual names were NOT verified against sources. Restarting from scratch. For each language: 1) Find Wikipedia/Ethnologue page 2) Extract verified settlement/village names 3) Replace b: field ONLY with those verified names 4) If no source or no villages listed, mark WAITING."
+}

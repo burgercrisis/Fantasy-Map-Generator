@@ -1,14 +1,1 @@
-{
-  "blockers": [],
-  "lastUpdate": "",
-  "completedEntries": 0,
-  "lastVerifiedIndex": -1,
-  "totalIssuesFixed": 0,
-  "lastVerifiedName": "none",
-  "currentLanguage": "",
-  "startedAt": "",
-  "totalNamesVerified": 0,
-  "totalEntries": 0,
-  "continent": "asia",
-  "status": "not_started"
-}
+{"blockers":["web_search_rate_limit"],"lastUpdate":"2026-06-26T13:18:00-07:00","verifiedEntries":2,"lastVerifiedEntry":"Kannada (i=25)","totalEntries":1195,"continent":"asia","status":"rate_limited","notes":"Only 2 entries (Ancient Egyptian i=10, Kannada i=25) verified. All 1,193 remaining entries UNVERIFIED. Hit rate limits again at session start while attempting to research Japanese (i=11). No entries modified this session. Resume: entry #3 (Japanese, i=11). Wait 10+ min for rate limit reset."}

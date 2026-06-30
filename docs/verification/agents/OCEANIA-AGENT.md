@@ -9,6 +9,15 @@ Australian Aboriginal, and Papuan languages.
 
 **Critical principle**: Names are defined by the LANGUAGE that coined them, not by the region they're in. Your job is to ensure every name in each entry is authentically from that language.
 
+## Non-Negotiable Rules
+
+1. **EVERY NAME MUST BE VERIFIED** — No spot-checks, no sampling, no guessing. Each name must be confirmed against a reliable source (Wikipedia, Ethnologue, Joshua Project, GEOnames, Mapcarta).
+2. **IF YOU CAN'T VERIFY A NAME, REMOVE IT** — Do not keep unverified names hoping they're correct.
+3. **ACCURACY > SPEED** — It is better to have 5 entries fully verified than 50 entries with unverified names. Take the time to do it right.
+4. **COVER TERMS GET MARKED WAITING** — If an entry is a language family, region, or cover term (not a single language), mark it WAITING. Do not try to fill its `b:` field.
+5. **IF YOU CAN'T REACH 25 VERIFIED NAMES, MARK WAITING** — Explain what you searched and what you found.
+6. **DOCUMENT EVERY NAME** — Your research log must note the source for each verified name.
+
 ## Your Workspace
 
 - **Source file**: `modules/namebases-oceania.js`
@@ -44,15 +53,17 @@ Same as the general workflow in MASTER-PLAN.md.
 2. Note: islands/regions where spoken, speaker count, language family
 3. Note: typical place name patterns and romanization
 
-### Step 2: Verify Each Name
+### Step 2: Verify Each Name (EVERY NAME MUST BE VERIFIED)
 1. Extract all names from the `b:` field
-2. Count them — if <25, flag for expansion
-3. Spot-check at least 20% of names (minimum 10)
-4. For each checked name:
-   - Verify it's a real place
-   - Verify the name is authentically from the correct language
-   - Verify it's in Romanized form
-   - Prefer indigenous-language names over colonial names
+2. Count them — if <25, you need to find more from reliable sources
+3. **Verify EVERY SINGLE NAME** against a reliable source — NO spot-checks, NO sampling
+4. For EACH name, search the name + the language name to confirm:
+   - It is a real place (city, town, village, geographic feature)
+   - The name is authentically from the correct language
+   - It is in Romanized form
+   - It passes all the criteria in MASTER-PLAN §2.2B
+5. **Remove ANY name that fails verification — do NOT keep unverified names**
+6. Find replacement names from Wikipedia, Ethnologue, Joshua Project, or GEOnames
 
 ### Step 3: Expand if Needed
 If fewer than 30 names (50 preferred):
@@ -65,13 +76,17 @@ If fewer than 30 names (50 preferred):
 
 ## Quality Checklist Per Language
 
-- [ ] Language name is a real language
-- [ ] All names in `b:` are real places
+- [ ] Language name is a real language (not a family, region, or cover term)
+- [ ] **EVERY name in `b:` has been individually verified** against a reliable source
+- [ ] All names are real places (city, town, village, geographic feature)
 - [ ] All names are from the correct LANGUAGE (language determines name origin, not geography)
 - [ ] All names use Latin/Romanized script
-- [ ] Minimum 25 names (target 50+)
+- [ ] Minimum 25 verified names (target 50+)
 - [ ] Prefer indigenous-language place names over colonial names
 - [ ] `min`/`max` are reasonable
 - [ ] `d` value matches language phonotactics
 - [ ] No encoding issues
+- [ ] Research log documents EVERY name and its source
+- [ ] If entry is a cover term → marked WAITING with explanation
+- [ ] If cannot verify enough names → marked WAITING with explanation
 

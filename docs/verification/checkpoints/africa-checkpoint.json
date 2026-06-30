@@ -1,14 +1,52 @@
 {
-  "blockers": [],
-  "lastUpdate": "",
-  "completedEntries": 0,
-  "lastVerifiedIndex": -1,
-  "totalIssuesFixed": 0,
-  "lastVerifiedName": "none",
-  "currentLanguage": "",
-  "startedAt": "",
-  "totalNamesVerified": 0,
-  "totalEntries": 0,
+  "blockers": ["Khoisan entries (Sekele, Taa, Ju/'hoan, Hadza) and Bantu entries with southern Angola names (Luvale) have many wrong-region names removed. Micro-languages need additional sources."],
+  "lastUpdate": "2026-06-30T03:15:00Z",
+  "completedEntries": 20,
+  "protocolVersion": "2.0-bulletproof",
+  "startedAt": "2026-06-30T02:30:00Z",
+  "totalEntries": 790,
   "continent": "africa",
-  "status": "not_started"
+  "status": "IN_PROGRESS",
+  "progress": {
+    "structuralFixes": "completed",
+    "perNameVerification": "20 entries processed (2.5%)"
+  },
+  "sessionResults": {
+    "entriesCompletedThisSession": {
+      "Berber (i=16)": "WAITING - cover term/language family",
+      "Ijaw (i=20)": "COMPLETE - 47 names verified",
+      "Swahili (i=27)": "COMPLETE - 25 names verified",
+      "Gurage (i=31)": "WAITING - language cluster",
+      "Berber (Maghreb) (i=37)": "WAITING - regional language group",
+      "Sekele (i=39)": "WAITING - 8 names verified (micro-language)",
+      "Taa Click (i=41)": "WAITING - 8 names verified (wrong-region names removed)",
+      "Ju/'hoan Click (i=47)": "WAITING - 12 names verified (wrong-region names removed)",
+      "Hadza (i=48)": "WAITING - 11 names verified (micro-language)",
+      "Sandawe Click (i=49)": "COMPLETE - 23 names verified (6 ethnic group names removed)",
+      "Bemba (i=62)": "COMPLETE - 25 names verified (prior session)",
+      "Bilen (i=66)": "COMPLETE - 22 names verified (6 wrong-region names removed)",
+      "Mandara Chadic (i=67)": "WAITING - language sub-family",
+      "Nubian (i=85)": "WAITING - language family",
+      "Comorian (i=91)": "COMPLETE - 26 names verified (1 duplicate removed)",
+      "Arabic Maghrebi (i=92)": "WAITING - regional dialect group",
+      "Tsonga (i=100)": "COMPLETE - 19 names verified (6 wrong-region names removed)",
+      "Luvale (i=107)": "WAITING - 14 names verified (19 wrong-region names removed)",
+      "Lugbara (i=121)": "NOT_STARTED",
+      "Berta (i=137)": "NOT_STARTED",
+      "Lunda (i=155)": "NOT_STARTED",
+      "Bamileke (i=184)": "WAITING - language cluster (not processed this session)"
+    }
+  },
+  "patternsIdentified": {
+    "wrongRegionContamination": "Many entries had names from completely wrong regions (e.g., Luvale had 19 names from southern Angola/Huíla Province; Taa had names from northern Namibia; Ju/'hoan had names from southern Namibia). This is the same contamination pattern identified by prior sessions.",
+    "microLanguageChallenge": "Khoisan languages (Sekele, Taa, Ju/'hoan, Hadza) have few documented place names online. Wikipedia articles only name a handful of settlements.",
+    "ethnicGroupVsPlace": "Some entries included ethnic group names (Burunge, Rangi, Alagwa, Datooga, Nyaturu, Gogo in Sandawe) rather than place names."
+  },
+  "nextStep": "Continue from entry 19 (Lugbara, i=121).",
+  "resumePosition": {
+    "entryIndex": 19,
+    "entryName": "Lugbara",
+    "entryI": 121,
+    "note": "Next unprocessed entry is Lugbara (i=121), a Central Sudanic language spoken in Uganda/DRC."
+  }
 }

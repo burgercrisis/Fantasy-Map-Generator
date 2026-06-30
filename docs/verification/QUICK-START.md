@@ -57,12 +57,12 @@ Check `docs/verification/reports/<continent>-progress.md` for each agent's progr
 
 ### Step 4: Review and Validate
 
-After each agent completes:
+After each agent completes a batch of entries (5-10 at a time):
 1. Review the progress report
 2. Run `pnpm mixer:guardrails`
 3. Run `pnpm mixer:health`
-4. Spot-check some entries for quality
-5. Commit the changes
+4. **Verify entries against sources** — pick a few entries from the agent's work and confirm the names in their `b:` fields are real places from the correct language. If you find unverified names, send the agent back to fix them.
+5. Only mark entries as fully COMPLETE after you have confirmed the agent verified every name.
 
 ### Step 5: Final Validation
 
@@ -91,30 +91,32 @@ Spawn agents in this order (largest files first for maximum parallelism):
 
 ## Expected Timeline
 
-With 8 agents working in parallel, each language takes approximately 15-30 minutes
-to verify thoroughly (research, verify names, expand, document).
+ACCURACY IS MORE IMPORTANT THAN SPEED. Do NOT rush entries to finish faster. If an entry takes 2 hours to verify properly, it takes 2 hours. It is better to have 10 entries fully verified than 100 entries with unverified names.
+
+With agents working in parallel, each language takes approximately 30-60 minutes to verify thoroughly (research sources, verify every name individually, expand if needed, document). Some languages may take longer if sources are hard to find.
 
 | Agent | Entries | Estimated Time |
 |-------|---------|----------------|
-| Asia | 1,270 | ~32-64 hours |
-| Dedicated | 1,368 | ~34-68 hours |
-| Africa | 790 | ~20-40 hours |
-| Europe | 722 | ~18-36 hours |
-| Oceania | 581 | ~15-30 hours |
-| North America | 232 | ~6-12 hours |
-| South America | 170 | ~4-8 hours |
-| Unknown | 85 | ~2-4 hours |
+| Asia | 1,270 | ~63-127 hours |
+| Dedicated | 1,368 | ~68-137 hours |
+| Africa | 790 | ~40-79 hours |
+| Europe | 722 | ~36-72 hours |
+| Oceania | 581 | ~29-58 hours |
+| North America | 232 | ~12-23 hours |
+| South America | 170 | ~9-17 hours |
+| Unknown | 85 | ~4-9 hours |
 
-**Total wall-clock time**: ~34-68 hours (determined by the largest agent)
-**Total work**: ~130-260 agent-hours
+**Total wall-clock time**: ~68-137 hours (determined by the largest agent)
+**Total work**: ~275-550 agent-hours
 
 ## Quality Expectations
 
 After verification, every entry should have:
-- ✅ 50-100+ verified authentic place names
+- ✅ 25+ verified authentic place names (50-100+ preferred)
+- ✅ EVERY name individually verified against a reliable source — NO exceptions
 - ✅ All names from the correct LANGUAGE (not just the correct region — language determines name origin)
 - ✅ All names in Romanized Latin script
 - ✅ Unique, collision-free index
 - ✅ Correct `min`, `max`, `d`, `m` values
 - ✅ No encoding issues
-- ✅ Research log documenting verification
+- ✅ Research log documenting EVERY name and its source

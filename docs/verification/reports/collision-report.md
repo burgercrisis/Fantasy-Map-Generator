@@ -1,6 +1,6 @@
 # Collision Audit Report
 
-**Generated**: 2026-06-18T22:41:48.980Z
+**Generated**: 2026-06-20T01:07:18.096Z
 
 ## Summary
 
@@ -3951,7 +3951,7 @@ These may be intentional (same language in multiple continents) or may need clea
 
 ### Index 200731: Dené-Yeniseian
 
-- namebases-europe.js (44 names)
+- namebases-europe.js (43 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 200732: Jåkkåkaska
@@ -5106,17 +5106,17 @@ These may be intentional (same language in multiple continents) or may need clea
 
 ### Index 201304: Andoque
 
-- namebases-southAmerica.js (34 names)
+- namebases-southAmerica.js (39 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201305: Araona
 
-- namebases-southAmerica.js (34 names)
+- namebases-southAmerica.js (29 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201306: Argentinian Rioplatense Spanish
 
-- namebases-southAmerica.js (30 names)
+- namebases-southAmerica.js (34 names)
 - namebases-dedicated.js (30 names)
 
 ### Index 201307: Arhuaco (Ikʉ)
@@ -5261,7 +5261,7 @@ These may be intentional (same language in multiple continents) or may need clea
 
 ### Index 201335: Tupi
 
-- namebases-southAmerica.js (34 names)
+- namebases-southAmerica.js (27 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201336: Warao
@@ -5441,7 +5441,7 @@ These may be intentional (same language in multiple continents) or may need clea
 
 ### Index 200617: Wajarri
 
-- namebases-oceania.js (34 names)
+- namebases-oceania.js (37 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 200618: Walmatjarri
@@ -5451,7 +5451,7 @@ These may be intentional (same language in multiple continents) or may need clea
 
 ### Index 200619: Wangkatha
 
-- namebases-oceania.js (34 names)
+- namebases-oceania.js (132 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 200620: Warumungu
@@ -5486,22 +5486,22 @@ These may be intentional (same language in multiple continents) or may need clea
 
 ### Index 201038: Aneme Wake
 
-- namebases-oceania.js (34 names)
+- namebases-oceania.js (132 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201039: Ankave
 
-- namebases-oceania.js (34 names)
+- namebases-oceania.js (132 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201040: Ari
 
-- namebases-oceania.js (34 names)
+- namebases-oceania.js (132 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201041: Asmat–Kamoro
 
-- namebases-oceania.js (34 names)
+- namebases-oceania.js (132 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201042: Atayal
@@ -5511,22 +5511,22 @@ These may be intentional (same language in multiple continents) or may need clea
 
 ### Index 201043: Atohwaim (Kaugat)
 
-- namebases-oceania.js (34 names)
+- namebases-oceania.js (132 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201044: Australian Kriol
 
-- namebases-oceania.js (34 names)
+- namebases-oceania.js (132 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201045: Auye
 
-- namebases-oceania.js (34 names)
+- namebases-oceania.js (132 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201046: Becking–Dawi
 
-- namebases-oceania.js (34 names)
+- namebases-oceania.js (132 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201047: Budai-Labuan-Taromak Rukai
@@ -5536,22 +5536,22 @@ These may be intentional (same language in multiple continents) or may need clea
 
 ### Index 201048: Cèmuhî
 
-- namebases-oceania.js (34 names)
+- namebases-oceania.js (132 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201049: Cheke Holo
 
-- namebases-oceania.js (34 names)
+- namebases-oceania.js (132 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201050: Ese Ömie
 
-- namebases-oceania.js (34 names)
+- namebases-oceania.js (132 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201051: Hagen
 
-- namebases-oceania.js (34 names)
+- namebases-oceania.js (132 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201052: Hoanya
@@ -5561,7 +5561,7 @@ These may be intentional (same language in multiple continents) or may need clea
 
 ### Index 201053: Hoia Hoia
 
-- namebases-oceania.js (34 names)
+- namebases-oceania.js (132 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201054: Isbukun Bunun
@@ -5571,7 +5571,7 @@ These may be intentional (same language in multiple continents) or may need clea
 
 ### Index 201055: Javanese macro entry
 
-- namebases-oceania.js (34 names)
+- namebases-oceania.js (132 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201056: Kaera
@@ -5586,7 +5586,7 @@ These may be intentional (same language in multiple continents) or may need clea
 
 ### Index 201058: Kaguel
 
-- namebases-oceania.js (34 names)
+- namebases-oceania.js (132 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201059: Kainantu
@@ -5596,7 +5596,7 @@ These may be intentional (same language in multiple continents) or may need clea
 
 ### Index 201060: Kalamian
 
-- namebases-oceania.js (34 names)
+- namebases-oceania.js (132 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201061: Kanakanavu
@@ -5606,12 +5606,12 @@ These may be intentional (same language in multiple continents) or may need clea
 
 ### Index 201062: Kawacha
 
-- namebases-oceania.js (34 names)
+- namebases-oceania.js (132 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201063: Kayagar (Kaygir)
 
-- namebases-oceania.js (34 names)
+- namebases-oceania.js (132 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201064: Ke’yagana
@@ -5626,22 +5626,22 @@ These may be intentional (same language in multiple continents) or may need clea
 
 ### Index 201066: Kilivila
 
-- namebases-oceania.js (34 names)
+- namebases-oceania.js (132 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201067: Kimaama (Kimaghama)
 
-- namebases-oceania.js (34 names)
+- namebases-oceania.js (132 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201068: Kombai–Wanggom
 
-- namebases-oceania.js (34 names)
+- namebases-oceania.js (132 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201069: Kowiai
 
-- namebases-oceania.js (34 names)
+- namebases-oceania.js (132 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201070: Kulon
@@ -5651,7 +5651,7 @@ These may be intentional (same language in multiple continents) or may need clea
 
 ### Index 201071: Kunimaipa
 
-- namebases-oceania.js (34 names)
+- namebases-oceania.js (132 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201072: Lowland Iwur
@@ -5671,37 +5671,37 @@ These may be intentional (same language in multiple continents) or may need clea
 
 ### Index 201075: Mailu
 
-- namebases-oceania.js (34 names)
+- namebases-oceania.js (132 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201076: Maiwa
 
-- namebases-oceania.js (34 names)
+- namebases-oceania.js (132 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201077: Makalero
 
-- namebases-oceania.js (34 names)
+- namebases-oceania.js (132 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201078: Makasae
 
-- namebases-oceania.js (34 names)
+- namebases-oceania.js (132 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201079: Makassar
 
-- namebases-oceania.js (34 names)
+- namebases-oceania.js (132 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201080: Makayam
 
-- namebases-oceania.js (34 names)
+- namebases-oceania.js (132 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201081: Mandobo
 
-- namebases-oceania.js (34 names)
+- namebases-oceania.js (132 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201082: Mantauran Rukai
@@ -5711,37 +5711,37 @@ These may be intentional (same language in multiple continents) or may need clea
 
 ### Index 201083: Māori
 
-- namebases-oceania.js (34 names)
+- namebases-oceania.js (132 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201084: Mapena
 
-- namebases-oceania.js (34 names)
+- namebases-oceania.js (132 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201085: Maria
 
-- namebases-oceania.js (34 names)
+- namebases-oceania.js (132 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201086: Marind
 
-- namebases-oceania.js (34 names)
+- namebases-oceania.js (132 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201087: Maring
 
-- namebases-oceania.js (34 names)
+- namebases-oceania.js (132 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201088: Melanesian Pidgin
 
-- namebases-oceania.js (34 names)
+- namebases-oceania.js (132 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201089: Menya
 
-- namebases-oceania.js (34 names)
+- namebases-oceania.js (132 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201090: Mian
@@ -5751,42 +5751,42 @@ These may be intentional (same language in multiple continents) or may need clea
 
 ### Index 201091: Moikodi
 
-- namebases-oceania.js (34 names)
+- namebases-oceania.js (132 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201092: Mombum
 
-- namebases-oceania.js (34 names)
+- namebases-oceania.js (132 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201093: Momina
 
-- namebases-oceania.js (34 names)
+- namebases-oceania.js (132 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201094: Momuna
 
-- namebases-oceania.js (34 names)
+- namebases-oceania.js (132 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201095: Moni
 
-- namebases-oceania.js (34 names)
+- namebases-oceania.js (132 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201096: Moraori
 
-- namebases-oceania.js (34 names)
+- namebases-oceania.js (132 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201097: Morawa
 
-- namebases-oceania.js (34 names)
+- namebases-oceania.js (132 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201098: Morigi
 
-- namebases-oceania.js (34 names)
+- namebases-oceania.js (132 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201099: Mountain
@@ -5796,22 +5796,22 @@ These may be intentional (same language in multiple continents) or may need clea
 
 ### Index 201100: Mountain Koiari
 
-- namebases-oceania.js (34 names)
+- namebases-oceania.js (132 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201101: Mubami
 
-- namebases-oceania.js (34 names)
+- namebases-oceania.js (132 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201102: Mulaha
 
-- namebases-oceania.js (34 names)
+- namebases-oceania.js (132 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201103: Muna
 
-- namebases-oceania.js (34 names)
+- namebases-oceania.js (132 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201104: Muyu
@@ -5826,32 +5826,32 @@ These may be intentional (same language in multiple continents) or may need clea
 
 ### Index 201106: Namiae
 
-- namebases-oceania.js (34 names)
+- namebases-oceania.js (132 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201107: Namumi
 
-- namebases-oceania.js (34 names)
+- namebases-oceania.js (132 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201108: Narak
 
-- namebases-oceania.js (34 names)
+- namebases-oceania.js (132 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201109: Narom
 
-- namebases-oceania.js (34 names)
+- namebases-oceania.js (132 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201110: Nawaru
 
-- namebases-oceania.js (34 names)
+- namebases-oceania.js (132 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201111: Ndom
 
-- namebases-oceania.js (34 names)
+- namebases-oceania.js (132 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201112: Nduga
@@ -5866,7 +5866,7 @@ These may be intentional (same language in multiple continents) or may need clea
 
 ### Index 201114: Nemi
 
-- namebases-oceania.js (34 names)
+- namebases-oceania.js (132 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201115: New Zealand Pidgin English
@@ -5881,7 +5881,7 @@ These may be intentional (same language in multiple continents) or may need clea
 
 ### Index 201117: Ngatikese Creole
 
-- namebases-oceania.js (34 names)
+- namebases-oceania.js (132 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201118: Nggem
@@ -5891,7 +5891,7 @@ These may be intentional (same language in multiple continents) or may need clea
 
 ### Index 201119: Nii
 
-- namebases-oceania.js (34 names)
+- namebases-oceania.js (132 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201120: Ninggerum
@@ -5901,7 +5901,7 @@ These may be intentional (same language in multiple continents) or may need clea
 
 ### Index 201121: Nomane
 
-- namebases-oceania.js (34 names)
+- namebases-oceania.js (132 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201122: Northern and Central Bunun
@@ -5911,22 +5911,22 @@ These may be intentional (same language in multiple continents) or may need clea
 
 ### Index 201123: Nuaulu
 
-- namebases-oceania.js (34 names)
+- namebases-oceania.js (132 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201124: Odoodee
 
-- namebases-oceania.js (34 names)
+- namebases-oceania.js (132 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201125: Oirata
 
-- namebases-oceania.js (34 names)
+- namebases-oceania.js (132 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201126: Ok–Oksapmin
 
-- namebases-oceania.js (34 names)
+- namebases-oceania.js (132 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201127: Oksapmin
@@ -5936,17 +5936,17 @@ These may be intentional (same language in multiple continents) or may need clea
 
 ### Index 201128: Omati
 
-- namebases-oceania.js (34 names)
+- namebases-oceania.js (132 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201129: Onjob
 
-- namebases-oceania.js (34 names)
+- namebases-oceania.js (132 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201130: Onobasulu
 
-- namebases-oceania.js (34 names)
+- namebases-oceania.js (132 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201131: Ontenu
@@ -5956,7 +5956,7 @@ These may be intentional (same language in multiple continents) or may need clea
 
 ### Index 201132: Orokaiva
 
-- namebases-oceania.js (34 names)
+- namebases-oceania.js (132 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201133: Oweina
@@ -5966,7 +5966,7 @@ These may be intentional (same language in multiple continents) or may need clea
 
 ### Index 201134: Pa
 
-- namebases-oceania.js (34 names)
+- namebases-oceania.js (132 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201135: Paiwan
@@ -5976,7 +5976,7 @@ These may be intentional (same language in multiple continents) or may need clea
 
 ### Index 201136: Paniai Lakes
 
-- namebases-oceania.js (34 names)
+- namebases-oceania.js (132 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201137: Papora
@@ -5991,7 +5991,7 @@ These may be intentional (same language in multiple continents) or may need clea
 
 ### Index 201139: Papuan Tip
 
-- namebases-oceania.js (34 names)
+- namebases-oceania.js (132 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201140: Pazeh
@@ -6001,22 +6001,22 @@ These may be intentional (same language in multiple continents) or may need clea
 
 ### Index 201141: Pisa
 
-- namebases-oceania.js (34 names)
+- namebases-oceania.js (132 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201142: Pitcairn-Norfolk
 
-- namebases-oceania.js (34 names)
+- namebases-oceania.js (132 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201143: Pitkern
 
-- namebases-oceania.js (34 names)
+- namebases-oceania.js (4 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201144: Pogaya
 
-- namebases-oceania.js (34 names)
+- namebases-oceania.js (132 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201145: Puyuma
@@ -6026,7 +6026,7 @@ These may be intentional (same language in multiple continents) or may need clea
 
 ### Index 201146: Rapa Nui
 
-- namebases-oceania.js (34 names)
+- namebases-oceania.js (132 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201147: Retta
@@ -6036,12 +6036,12 @@ These may be intentional (same language in multiple continents) or may need clea
 
 ### Index 201148: Riantana
 
-- namebases-oceania.js (34 names)
+- namebases-oceania.js (132 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201149: Rotokas
 
-- namebases-oceania.js (34 names)
+- namebases-oceania.js (132 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201150: Rukai
@@ -6051,12 +6051,12 @@ These may be intentional (same language in multiple continents) or may need clea
 
 ### Index 201151: Rumu
 
-- namebases-oceania.js (34 names)
+- namebases-oceania.js (132 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201152: Rusenu
 
-- namebases-oceania.js (34 names)
+- namebases-oceania.js (132 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201153: Saaroa
@@ -6066,12 +6066,12 @@ These may be intentional (same language in multiple continents) or may need clea
 
 ### Index 201154: Sabakor
 
-- namebases-oceania.js (34 names)
+- namebases-oceania.js (132 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201155: Safeyoka
 
-- namebases-oceania.js (34 names)
+- namebases-oceania.js (132 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201156: Saisiyat
@@ -6086,27 +6086,27 @@ These may be intentional (same language in multiple continents) or may need clea
 
 ### Index 201158: Salt-Yui
 
-- namebases-oceania.js (34 names)
+- namebases-oceania.js (132 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201159: Samberigi
 
-- namebases-oceania.js (34 names)
+- namebases-oceania.js (132 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201160: Samo
 
-- namebases-oceania.js (34 names)
+- namebases-oceania.js (132 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201161: Sawi
 
-- namebases-oceania.js (34 names)
+- namebases-oceania.js (132 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201162: Saʼban
 
-- namebases-oceania.js (34 names)
+- namebases-oceania.js (132 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201163: Seediq
@@ -6116,7 +6116,7 @@ These may be intentional (same language in multiple continents) or may need clea
 
 ### Index 201164: Sempan
 
-- namebases-oceania.js (34 names)
+- namebases-oceania.js (132 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201165: Setaman
@@ -6126,7 +6126,7 @@ These may be intentional (same language in multiple continents) or may need clea
 
 ### Index 201166: Shiaxa
 
-- namebases-oceania.js (34 names)
+- namebases-oceania.js (132 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201167: Siane
@@ -6141,12 +6141,12 @@ These may be intentional (same language in multiple continents) or may need clea
 
 ### Index 201169: Simbari
 
-- namebases-oceania.js (34 names)
+- namebases-oceania.js (132 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201170: Sinasina
 
-- namebases-oceania.js (34 names)
+- namebases-oceania.js (132 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201171: Singlish
@@ -6156,22 +6156,22 @@ These may be intentional (same language in multiple continents) or may need clea
 
 ### Index 201172: Somahai
 
-- namebases-oceania.js (34 names)
+- namebases-oceania.js (132 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201173: Some
 
-- namebases-oceania.js (34 names)
+- namebases-oceania.js (132 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201174: Sonia
 
-- namebases-oceania.js (34 names)
+- namebases-oceania.js (132 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201175: Sonsorolese
 
-- namebases-oceania.js (34 names)
+- namebases-oceania.js (4 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201176: Squliq Atayal
@@ -6181,7 +6181,7 @@ These may be intentional (same language in multiple continents) or may need clea
 
 ### Index 201177: Suena
 
-- namebases-oceania.js (34 names)
+- namebases-oceania.js (132 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201178: Suganga
@@ -6191,17 +6191,17 @@ These may be intentional (same language in multiple continents) or may need clea
 
 ### Index 201179: Suki
 
-- namebases-oceania.js (34 names)
+- namebases-oceania.js (132 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201180: Susuami
 
-- namebases-oceania.js (34 names)
+- namebases-oceania.js (132 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201181: Tainae
 
-- namebases-oceania.js (34 names)
+- namebases-oceania.js (132 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201182: Tairoa
@@ -6216,7 +6216,7 @@ These may be intentional (same language in multiple continents) or may need clea
 
 ### Index 201184: Tamagario
 
-- namebases-oceania.js (34 names)
+- namebases-oceania.js (132 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201185: Tangko
@@ -6231,7 +6231,7 @@ These may be intentional (same language in multiple continents) or may need clea
 
 ### Index 201187: Tauade
 
-- namebases-oceania.js (34 names)
+- namebases-oceania.js (132 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201188: Teiwa
@@ -6246,7 +6246,7 @@ These may be intentional (same language in multiple continents) or may need clea
 
 ### Index 201190: Tembagla
 
-- namebases-oceania.js (34 names)
+- namebases-oceania.js (132 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201191: Thao
@@ -6261,17 +6261,17 @@ These may be intentional (same language in multiple continents) or may need clea
 
 ### Index 201193: Timor–Alor–Pantar
 
-- namebases-oceania.js (34 names)
+- namebases-oceania.js (132 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201194: Tirio (Lower Fly)
 
-- namebases-oceania.js (34 names)
+- namebases-oceania.js (132 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201195: Tobian
 
-- namebases-oceania.js (34 names)
+- namebases-oceania.js (3 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201196: Tokano
@@ -6281,7 +6281,7 @@ These may be intentional (same language in multiple continents) or may need clea
 
 ### Index 201197: Torres Strait Creole
 
-- namebases-oceania.js (34 names)
+- namebases-oceania.js (132 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201198: Ts'ole' Atayal
@@ -6291,7 +6291,7 @@ These may be intentional (same language in multiple continents) or may need clea
 
 ### Index 201199: Tsaukambo
 
-- namebases-oceania.js (34 names)
+- namebases-oceania.js (132 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201200: Tsou
@@ -6301,27 +6301,27 @@ These may be intentional (same language in multiple continents) or may need clea
 
 ### Index 201201: Turaka
 
-- namebases-oceania.js (34 names)
+- namebases-oceania.js (132 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201202: Turama-Kikorian
 
-- namebases-oceania.js (34 names)
+- namebases-oceania.js (132 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201203: Uab Meto
 
-- namebases-oceania.js (34 names)
+- namebases-oceania.js (132 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201204: Uare
 
-- namebases-oceania.js (34 names)
+- namebases-oceania.js (132 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201205: Umanakaina
 
-- namebases-oceania.js (34 names)
+- namebases-oceania.js (132 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201206: Urapmin
@@ -6341,7 +6341,7 @@ These may be intentional (same language in multiple continents) or may need clea
 
 ### Index 201209: Waboda
 
-- namebases-oceania.js (34 names)
+- namebases-oceania.js (132 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201210: Waffa
@@ -6351,12 +6351,12 @@ These may be intentional (same language in multiple continents) or may need clea
 
 ### Index 201211: Wahgi
 
-- namebases-oceania.js (34 names)
+- namebases-oceania.js (132 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201212: Waimoa
 
-- namebases-oceania.js (34 names)
+- namebases-oceania.js (132 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201213: Walak
@@ -6366,7 +6366,7 @@ These may be intentional (same language in multiple continents) or may need clea
 
 ### Index 201214: Wambon
 
-- namebases-oceania.js (34 names)
+- namebases-oceania.js (132 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201215: Wano
@@ -6376,22 +6376,22 @@ These may be intentional (same language in multiple continents) or may need clea
 
 ### Index 201216: Waruna
 
-- namebases-oceania.js (34 names)
+- namebases-oceania.js (132 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201217: Wayan
 
-- namebases-oceania.js (34 names)
+- namebases-oceania.js (132 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201218: Were
 
-- namebases-oceania.js (34 names)
+- namebases-oceania.js (132 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201219: Weri
 
-- namebases-oceania.js (34 names)
+- namebases-oceania.js (132 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201220: Wersing
@@ -6401,7 +6401,7 @@ These may be intentional (same language in multiple continents) or may need clea
 
 ### Index 201221: West Bomberai
 
-- namebases-oceania.js (34 names)
+- namebases-oceania.js (132 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201222: Western
@@ -6421,17 +6421,17 @@ These may be intentional (same language in multiple continents) or may need clea
 
 ### Index 201225: Wiru
 
-- namebases-oceania.js (34 names)
+- namebases-oceania.js (132 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201226: Wolani
 
-- namebases-oceania.js (34 names)
+- namebases-oceania.js (132 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201227: Wolio
 
-- namebases-oceania.js (34 names)
+- namebases-oceania.js (132 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201228: Yagaria
@@ -6441,7 +6441,7 @@ These may be intentional (same language in multiple continents) or may need clea
 
 ### Index 201229: Yagwoia
 
-- namebases-oceania.js (34 names)
+- namebases-oceania.js (132 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201230: Yali
@@ -6451,12 +6451,12 @@ These may be intentional (same language in multiple continents) or may need clea
 
 ### Index 201231: Yaqay
 
-- namebases-oceania.js (34 names)
+- namebases-oceania.js (132 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201232: Yareba
 
-- namebases-oceania.js (34 names)
+- namebases-oceania.js (132 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201233: Yaweyuha
@@ -6466,17 +6466,17 @@ These may be intentional (same language in multiple continents) or may need clea
 
 ### Index 201234: Yekora
 
-- namebases-oceania.js (34 names)
+- namebases-oceania.js (132 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201235: Yipma
 
-- namebases-oceania.js (34 names)
+- namebases-oceania.js (132 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201236: Yogo (Tamagario)
 
-- namebases-oceania.js (34 names)
+- namebases-oceania.js (132 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201237: Yonggom
@@ -6486,12 +6486,12 @@ These may be intentional (same language in multiple continents) or may need clea
 
 ### Index 201238: Zia
 
-- namebases-oceania.js (34 names)
+- namebases-oceania.js (132 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201239: Zimakani
 
-- namebases-oceania.js (34 names)
+- namebases-oceania.js (132 names)
 - namebases-dedicated.js (28 names)
 
 ### Index 201240: ꞌAreꞌare

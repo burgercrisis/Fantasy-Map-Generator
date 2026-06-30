@@ -61,7 +61,11 @@ For each Type C collision:
 
 Process entries **strictly in file order** (sequential, from top to bottom). Do NOT skip around or reorder by language size. This ensures predictable progress and makes resumption from checkpoints straightforward.
 
-**Success criterion**: Every single entry must pass the quality checklist. No exceptions. No language is too small, too obscure, or too difficult to verify properly. If you can't find information about a language, try multiple search strategies. If you can't verify a name, remove it and replace it with one you can verify.
+**Success criterion**: Every single entry must pass the quality checklist. No exceptions. No language is too small, too obscure, or too difficult to verify properly. If you can't find information about a language, try multiple search strategies. If you cannot verify a name, **remove it**. Do NOT guess. Do NOT keep unverified names. Do NOT spot-check — verify EVERY name individually against a reliable source (Wikipedia, Ethnologue, Joshua Project, GEOnames, official government geographic databases).
+
+**ACCURACY IS THE ONLY REQUIREMENT. Speed is irrelevant. If a language takes 5 hours to verify properly, it takes 5 hours. If you cannot verify a name, remove it. If you cannot verify enough names to reach 25, mark the entry WAITING and explain exactly what you searched and what you found.**
+
+**For indigenous languages**: The standard is especially strict. English/French/Spanish colonial names in indigenous language entries must be replaced with authentic indigenous-language names. Cross-contamination between indigenous languages (e.g., Zapotec names in Mixe entry) must be found and fixed.
 
 ### 2.2 Per-Language Verification Checklist
 
@@ -74,18 +78,26 @@ For EACH language entry, the agent MUST complete ALL of these steps:
 - [ ] Note the language's geographic distribution (countries/regions where it's spoken)
 - [ ] Note the language's speaker count estimate
 
-#### B. Seed Name Authenticity
+#### B. Seed Name Authenticity (EVERY NAME MUST BE VERIFIED)
 - [ ] Extract ALL names from the `b:` field
 - [ ] Count the names — must be ≥25 (target 50-100+)
-- [ ] Spot-check at least 20% of names (minimum 10) against real-world sources
-- [ ] For each checked name, confirm:
-  - It is a real place (city, town, village, geographic feature)
+- [ ] **Verify EVERY SINGLE NAME** against a reliable source — NO spot-checks, NO sampling
+- [ ] For EACH name, confirm by searching the name + the language name:
+  - It is a real place (city, town, village, geographic feature) — verify with Wikipedia, GEOnames, or official sources
   - The name is authentically from the language — it was coined by speakers of that language, regardless of where the place is located
   - The name form matches the language's naming conventions and phonotactics
   - It is NOT an administrative unit name (province, state, district)
   - It is NOT a modern anachronism (post-1900 foundation in historical bases)
-- [ ] Remove any name that fails verification
-- [ ] Replace removed names with verified authentic alternatives
+  - It is NOT a language name used as a place name (e.g., "Eyak" in Eyak entry)
+  - It is NOT an ethnic group name used as a place name (e.g., "Tlingit" in Tlingit entry)
+  - It is NOT a person name used as a place name (e.g., "Lone Wolf" in Kiowa entry)
+  - It is NOT an event name used as a place name (e.g., "Trail of Tears" in Muscogee entry)
+  - It is NOT an administrative region name (e.g., "Georgia", "Oklahoma" in Muscogee entry)
+  - It is NOT a colonial-language name in an indigenous language entry (e.g., "Red Lake" in Ojibwe, "Sioux Falls" in Dakota, "Window Rock" in Navajo)
+  - It is NOT a cross-language contamination (e.g., Zapotec names in Mixe entry, Cuicatec names in Huichol entry)
+- [ ] **Remove ANY name that fails verification or cannot be confirmed — do NOT keep unverified names**
+- [ ] Replace removed names with verified authentic alternatives from reliable sources
+- [ ] If you cannot verify enough names to reach 25, mark the entry WAITING with detailed explanation of what you searched
 
 #### C. Language Coverage
 - [ ] Names should span the FULL range of the language's naming traditions
@@ -115,24 +127,46 @@ For EACH language entry, the agent MUST complete ALL of these steps:
 
 ### 2.3 Research Methodology
 
-For each language, the agent should:
+For each language, the agent MUST:
 
 1. **Search Wikipedia** for the language article
    - URL pattern: `https://en.wikipedia.org/wiki/<Language>_language`
    - Check: distribution, phonology, toponymy sections
-2. **Search for place names** in the language's naming tradition
-   - `"[Language] place names"`
-   - `"[Language] cities and towns"`
-   - `"[Language] toponymy"`
-3. **Cross-reference** names from the `b:` field
-   - Search each name + the language name
-   - Verify the place exists and the name is authentically from that language
+   - If no Wikipedia article exists, search Ethnologue, Glottolog, Joshua Project
+2. **Extract verified place names** from the source
+   - Only include names explicitly listed as places where the language is spoken
+   - Only include names you can confirm are real settlements/villages/towns
+   - Do NOT include names just because they "look right" or "sound like" the language
+3. **Cross-reference** existing names from the `b:` field
+   - For EACH existing name, search to verify it's a real place from the correct language
+   - If you cannot verify a name, REMOVE IT — do not keep it hoping it's correct
+   - If you verify a name, keep it
 4. **Find replacement names** for any that fail
    - Use Wikipedia lists of cities named by speakers of the relevant language
    - Use GEOnames.org for smaller places
    - Use official government geographic databases
+   - Use Joshua Project for village lists
+5. **If you cannot verify enough names to reach 25**, mark the entry WAITING with detailed explanation:
+   - What sources you searched
+   - What you found
+   - Why you couldn't verify enough names
+   - Do NOT mark an entry COMPLETE with unverified names
 
-### 2.4 Documentation
+### 2.4 Verified Sources for Place Names
+
+When researching a language, use these sources in order of preference:
+
+1. **Wikipedia** — Search for the language article. The # Distribution or # Geographic distribution section often lists specific villages/towns.
+2. **Ethnologue** (ethnologue.com) — Lists locations where each language is spoken. May require paid access for some details.
+3. **Joshua Project** (joshuaproject.net) — Lists villages and communities for many small languages.
+4. **Glottolog** (glottolog.org) — Provides geographic coordinates and references.
+5. **GEOnames.org** — Database of geographic names worldwide. Useful for confirming a name is a real place.
+6. **Mapcarta** — Maps with village-level detail for remote areas.
+7. **Official government sources** — National census data, geographic surveys.
+
+**IMPORTANT**: When you find a name in a source, note the source in your research log. Every name in the `b:` field must be traceable to a source.
+
+### 2.5 Documentation
 
 For each language, create a research log at:
 `research/by-language/<language-name>.md`
@@ -149,6 +183,22 @@ Update `reports/<file>-progress.md` after each language:
 - Time spent
 
 Update `checkpoints/<file>-checkpoint.json` with current position.
+
+---
+
+### 2.6 Cover Terms and Non-Language Entries
+
+Some entries in the namebase files are NOT single languages. They are cover terms, language families, or regions. These must be handled as follows:
+
+| Type | Example | Action |
+|------|---------|--------|
+| Language family | "Engan Papuan", "Melanesian Vanuatu", "Dani Papuan" | Mark WAITING — not a single language |
+| Cover term for multiple languages | "Land Dayak", "Flores-Lembata" | Mark WAITING — not a single language |
+| Region name | "New Caledonia", "Central Pacific" | Mark WAITING — not a language |
+| Proto-language | "Proto-Romance", "Proto-Finnic" | Mark WAITING — reconstructed, not attested |
+| Dialect continuum | "Cavineena/Cavineña" (same language, two spellings) | Verify if it's one language or two |
+
+**If an entry's `name` field is a family, region, or cover term (not an individual language), do NOT try to fill its `b:` field with names. Mark it WAITING with explanation.**
 
 ---
 

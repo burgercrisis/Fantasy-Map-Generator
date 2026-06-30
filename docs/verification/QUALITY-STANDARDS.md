@@ -24,12 +24,37 @@ Every single name in the `b:` field MUST be a verifiable real-world place name:
 
 **Key principle:** If Spanish speakers named a place in Japan, it's Spanish, not Japanese. Language determines name origin, not geography.
 
+**CRITICAL DISTINCTION — Native name vs. English exonym:**
+Even when a name is "from the right language," it must be the form that speakers of that language actually use — NOT an English transliteration or exonym.
+
+| Language | ❌ WRONG (English exonym) | ✅ CORRECT (Native name) |
+|----------|--------------------------|--------------------------|
+| Hindi | Mumbai, Delhi, Kolkata | मुंबई, दिल्ली, कोलकाता |
+| Bengali | Dhaka, Chittagong | ঢাকা, চট্টগ্রাম |
+| Urdu | Karachi, Lahore | کراچی, لاہور |
+| Persian | Tehran, Isfahan | تهران, اصفهان |
+| Arabic | Cairo, Alexandria | القاهرة, الإسكندرية |
+| Thai | Bangkok, Chiang Mai | กรุงเทพ, เชียงใหม่ |
+| Korean | Seoul, Busan | 서울, 부산 |
+| Japanese | Tokyo, Osaka | 東京, 大阪 |
+| Chinese | Beijing, Shanghai | 北京, 上海 |
+| Punjabi | Ludhiana, Amritsar | ਲੁਧਿਆਣਾ, ਅੰਮ੍ਿਤਸਰ |
+| Gujarati | Ahmedabad, Surat | અમદાવાદ, સુરત |
+| Sinhala | Colombo, Kandy | කොළඹ, මහනුවර |
+| Khmer | Phnom Penh, Siem Reap | ភ្នំពេញ, សៀមរាប |
+| Pashto | Kabul, Kandahar | کابل, قندهار |
+
+**The test:** Ask yourself "What do speakers of [language] call this place?" If the answer is different from what you've written, fix it.
+
 ### 1.3 Names MUST match the language's naming conventions
 
 Names should follow the morphological patterns of the language:
 - **Turkish** names should look Turkish (İstanbul, Ankara, İzmir, Bursa, Antalya)
-- **Arabic** names in Arabic-script romanization (Cairo, Alexandria, Khartoum)
+- **Arabic** names in Arabic script (القاهرة, الإسكندرية, الرياض)
 - **German** names should look German (München, Köln, Düsseldorf, Hamburg)
+- **Hindi** names in Devanagari (मुंबई, दिल्ली, कोलकाता)
+- **Japanese** names in Kanji/Kana (東京, 大阪, 京都)
+- **Chinese** names in Hanzi (北京, 上海, 广州)
 
 ### 1.4 Prohibited name types
 
@@ -42,6 +67,29 @@ NEVER include:
 - ❌ Placeholder text or fake names
 - ❌ Names from the wrong language (even if from the same region)
 - ❌ Names from the wrong language family
+- ❌ **English/French/Spanish colonial names in indigenous language entries** — if the name was coined by a colonial language, it does NOT belong in an indigenous entry, even if the place is in that language's territory
+
+### 1.5 Self-Check Before Submitting
+
+Before finalizing ANY entry, answer these questions:
+
+1. **"What do speakers of [language] call this place?"** — If you can't answer this for every name in the `b:` field, you haven't verified it.
+2. **"Would a native speaker recognize this as a name from their language?"** — If the answer is no, remove it.
+3. **"Am I using the language's native script?"** — If the language uses Devanagari, Arabic, Bengali, etc., the names MUST be in that script. Latin exonyms are not acceptable.
+4. **"Am I confusing geography with linguistics?"** — A place being located in a country does NOT mean the name belongs to that language. "Mumbai" is an English name, not a Hindi name. "Delhi" is an English transliteration, not the Hindi name.
+
+**If you cannot answer YES to all four questions, STOP and research more.**
+
+### 1.6 Language family entries
+
+For entries that represent language families or groups (e.g., "Lolo-Burmese", "Kho-Bwa",
+"Tamangic", "Qiangic", "Tani", "West Himalayish"):
+
+- Select ONE representative language within the family
+- Use that language's native toponyms in the `b:` field
+- Do NOT use English names of places in the region
+- Do NOT mix names from multiple unrelated languages within the family
+- The test is: "Would speakers of [representative language] recognize these as names from their language?"
 
 ## 2. Name Count Requirements
 
@@ -67,44 +115,57 @@ Names must span the language's full naming range:
 50 authentic names are worth more than 200 questionable ones. If in doubt about a name,
 RESEARCH it. If you can't verify it, REMOVE it and replace it with a verified one.
 
-## 3. Script Requirements
+## 3. Script and Name Form Requirements
 
-### 3.1 Romanized Latin script only
+### 3.1 Names must be in the language's native form
 
-All names must use the Latin (Roman) alphabet. This is a hard constraint because the
-Markov name generator operates on Latin characters.
+**This is critical.** Names in the `b:` field must be the names that speakers of the language
+actually use — NOT English exonyms or transliterations designed for English speakers.
 
-### 3.2 Acceptable characters
+The Markov name generator operates on the characters in the `b:` field. If you put English
+names in, the generator will produce English-sounding names. If you put native-script names in,
+the generator will produce names that actually sound like the language.
 
-- Basic Latin: A-Z, a-z
-- Common diacritics used in romanization:
-  - Accented vowels: á, é, í, ó, ú, à, è, ì, ò, ü, ö, ä, ë, ï
-  - Nasal vowels: ã, õ, ñ
-  - Special consonants: ç, ø, ß, ð, þ, ł, ő, ű
-  - Other: č, š, ž, ř, ă, ș, ţ, ğ
+### 3.2 Native script is REQUIRED for non-Latin-script languages
 
-### 3.3 Prohibited scripts
+For languages that use a non-Latin script, the `b:` field MUST contain names in the language's
+own script. This is not optional.
 
-- ❌ Cyrillic (Київ → use Kyiv)
-- ❌ Arabic script (القاهرة → use Cairo/al-Qahira)
-- ❌ CJK characters (北京 → use Beijing)
-- ❌ Devanagari (मुंबई → use Mumbai)
-- ❌ Chinese characters
-- ❌ Japanese kanji/kana
-- ❌ Korean hangul
-- ❌ Thai, Burmese, Khmer, etc.
-- ❌ Ge'ez/Ethiopic script
-- ❌ Tamil, Telugu, Kannada, etc.
+| Language | Script | ✅ Correct | ❌ Wrong |
+|----------|--------|---------|---------|
+| Hindi | Devanagari | मुंबई, दिल्ली, कोलकाता | Mumbai, Delhi, Kolkata |
+| Bengali | Bengali | ঢাকা, চট্টগ্রাম, খুলনা | Dhaka, Chittagong, Khulna |
+| Urdu | Nastaliq/Arabic | کراچی, لاہور, اسلام‌آباد | Karachi, Lahore, Islamabad |
+| Punjabi | Gurmukhi | ਲੁਧਿਆਣਾ, ਅੰਮ੍ਿਤਸਰ | Ludhiana, Amritsar |
+| Gujarati | Gujarati | અમદાવાદ, સુરત | Ahmedabad, Surat |
+| Sinhala | Sinhala | කොළඹ, මහනුවර | Colombo, Kandy |
+| Khmer | Khmer | ភ្នំពេញ, សៀមរាប | Phnom Penh, Siem Reap |
+| Persian | Perso-Arabic | تهران, اصفهان, شیراز | Tehran, Isfahan, Shiraz |
+| Pashto | Pashto | کابل, قندهار, هرات | Kabul, Kandahar, Herat |
+| Kurdish | Arabic/Latin | هەولێر, سلۭمانی, دهۆک | Erbil, Sulaymaniyah, Duhok |
+| Arabic | Arabic | القاهرة, الإسكندرية, الرياض | Cairo, Alexandria, Riyadh |
+| Thai | Thai | กรุงเทพ, เชียงใหม่ | Bangkok, Chiang Mai |
+| Burmese | Burmese | ရန်ကုန်, မန္တလေး | Yangon, Mandalay |
+| Korean | Hangul | 서울, 부산, 인천 | Seoul, Busan, Incheon |
+| Japanese | Kanji/Kana | 東京, 大阪, 京都 | Tokyo, Osaka, Kyoto |
+| Chinese | Hanzi | 北京, 上海, 广州 | Beijing, Shanghai, Guangzhou |
+| Tamil | Tamil | சென்னை, மதுரை | Chennai, Madurai |
+| Telugu | Telugu | హైదరాబాద్, విశాఖాపట్నం | Hyderabad, Visakhapatnam |
+| Turkish | Latin (Turkish) | İstanbul, Ankara, İzmir | (same — Turkish uses Latin script) |
 
-### 3.4 Romanization standards
+### 3.3 Latin-script languages
 
-Use the most common/standard romanization:
-- Chinese: Pinyin (Beijing, Shanghai, Guangzhou)
-- Japanese: Hepburn (Tokyo, Osaka, Kyoto)
-- Korean: Revised Romanization (Seoul, Busan, Incheon)
-- Arabic: Common transliteration (Cairo, Alexandria, Riyadh)
-- Turkish: Modern Turkish Latin script (Istanbul, Ankara)
-- Use the form most commonly found in English-language sources
+For languages that already use Latin script (English, Spanish, French, German, Turkish,
+Indonesian, Vietnamese, etc.), names should be written in the language's own orthography
+(including diacritics): München (not Munich), São Paulo (not Sao Paulo), etc.
+
+### 3.4 Romanization is ONLY acceptable when:
+
+- The language has no standardized native-script orthography (rare)
+- The language is exclusively written in Latin script (Turkish, Indonesian, etc.)
+- The romanization IS the official orthography (e.g., Turkish: İstanbul, not استانبول)
+
+When in doubt, use the native script. The generator can handle Unicode.
 
 ## 4. Language Uniqueness
 

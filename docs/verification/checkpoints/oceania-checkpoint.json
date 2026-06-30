@@ -1,14 +1,23 @@
 {
-  "blockers": [],
-  "lastUpdate": "",
-  "completedEntries": 0,
-  "lastVerifiedIndex": -1,
-  "totalIssuesFixed": 0,
-  "lastVerifiedName": "none",
-  "currentLanguage": "",
-  "startedAt": "",
-  "totalNamesVerified": 0,
-  "totalEntries": 0,
   "continent": "oceania",
-  "status": "not_started"
+  "lastVerifiedIndex": 51,
+  "lastVerifiedName": "Dani Papuan (emptied - cover term, not a single language)",
+  "totalEntries": 568,
+  "completedEntries": 0,
+  "waitingEntries": 3,
+  "totalNamesVerified": 0,
+  "totalIssuesFixed": 0,
+  "startedAt": "2026-06-23T12:00:00Z",
+  "lastUpdate": "2026-06-26T12:42:00Z",
+  "status": "restart_fresh",
+  "currentLanguage": "Starting fresh from i=50",
+  "nextLanguage": "Engan Papuan (i=50) - already emptied (cover term)",
+  "blockers": [],
+  "sessionStart": "2026-06-26T12:42:00Z",
+  "entriesThisSession": 0,
+  "notes": "RESTART: All previous work was found to be inaccurate (entries marked COMPLETE had unverified names). Restarting from the beginning. For each entry: 1) If it's a cover term/family/region → WAITING 2) If it's a real language → find Wikipedia/Ethnologue, verify EVERY name individually, replace b: field 3) If can't verify enough names → WAITING with explanation. NO spot-checks. NO guessing. Accuracy only.",
+  "waitingList": [
+    "Engan Papuan (i=50) - language family, not single language",
+    "Dani Papuan (i=51) - language family, not single language"
+  ]
 }

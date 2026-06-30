@@ -1,14 +1,20 @@
 {
   "blockers": [],
-  "lastUpdate": "",
+  "lastUpdate": "2026-06-26T12:40:00Z",
   "completedEntries": 0,
-  "lastVerifiedIndex": -1,
   "totalIssuesFixed": 0,
-  "lastVerifiedName": "none",
-  "currentLanguage": "",
-  "startedAt": "",
-  "totalNamesVerified": 0,
-  "totalEntries": 0,
+  "totalEntries": 718,
   "continent": "europe",
-  "status": "not_started"
+  "status": "RESTART — ALL PREVIOUS LOGS MARKED UNVERIFIED",
+  "currentEntry": 1,
+  "currentName": "English (i=1) — properly verified",
+  "honestAssessment": {
+    "entriesWithFullProperVerification": 0,
+    "entriesPreviouslyMarkedVerifiedButActuallyUnverified": 521,
+    "note": "All 521 previous log files have been marked as UNVERIFIED. None of them had proper per-name source verification. The task must be done properly from the start: for each entry, fetch a real source, check each name against it, write log with actual sources cited.",
+    "properlyVerifiedSoFar": {
+      "English (i=1)": "187 names verified against Wikipedia List of Towns in England + List of Cities in the UK"
+    }
+  },
+  "notes": "Starting completely fresh. Only entries with actual per-name source verification will be marked COMPLETE. No batch claims. No shortcuts."
 }

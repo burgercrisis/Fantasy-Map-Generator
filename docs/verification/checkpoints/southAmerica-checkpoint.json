@@ -1,0 +1,17 @@
+{
+  "agent": "South America",
+  "file": "namebases-southAmerica.js",
+  "totalEntries": 38,
+  "startIndex": 0,
+  "currentIndex": 2,
+  "lastUpdated": "2026-06-30T02:45:00-07:00",
+  "status": "IN_PROGRESS",
+  "completedEntries": [
+    {"index": 0, "name": "Quechua", "status": "COMPLETE", "namesKept": 37},
+    {"index": 1, "name": "Yanomami Amazonian", "status": "WAITING", "namesKept": 11, "reason": "Only 11 verified Yanomami village names found; cannot reach 25 minimum"}
+  ],
+  "waitingEntries": [
+    {"index": 1, "name": "Yanomami Amazonian", "reason": "Micro-language with dispersed villages, only 11 verified names found after 5+ searches"}
+  ],
+  "notes": "Completed Quechua (entry 0) and Yanomami Amazonian (entry 1). Moving to entry 2 (Cavineña)."
+}
