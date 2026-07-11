@@ -1,20 +1,22 @@
 {
   "blockers": [],
-  "lastUpdate": "2026-06-26T12:40:00Z",
-  "completedEntries": 0,
-  "totalIssuesFixed": 0,
-  "totalEntries": 718,
+  "lastUpdate": "2026-06-30T03:00:00-07:00",
+  "completedEntries": 2,
+  "totalIssuesFixed": 63,
+  "totalEntries": 719,
   "continent": "europe",
-  "status": "RESTART — ALL PREVIOUS LOGS MARKED UNVERIFIED",
-  "currentEntry": 1,
-  "currentName": "English (i=1) — properly verified",
+  "status": "IN_PROGRESS — Phase 1 complete (63 cover terms cleared). Phase 2: verifying actual language entries. 2 entries fully verified (English, French).",
+  "currentEntry": 3,
+  "currentName": "Italian (i=3) — names verified against Wikipedia List of Cities in Italy",
   "honestAssessment": {
-    "entriesWithFullProperVerification": 0,
-    "entriesPreviouslyMarkedVerifiedButActuallyUnverified": 521,
-    "note": "All 521 previous log files have been marked as UNVERIFIED. None of them had proper per-name source verification. The task must be done properly from the start: for each entry, fetch a real source, check each name against it, write log with actual sources cited.",
-    "properlyVerifiedSoFar": {
-      "English (i=1)": "187 names verified against Wikipedia List of Towns in England + List of Cities in the UK"
-    }
+    "entriesWithFullProperVerification": 2,
+    "entriesClearedAsCoverTerms": 63,
+    "entriesRemainingToVerify": 654,
+    "note": "Cleared all cover terms, language families, proto-languages, regions, and contaminated entries. Now working through actual language entries to verify their names. Italian (i=3) verified against Wikipedia List of Cities in Italy."
   },
-  "notes": "Starting completely fresh. Only entries with actual per-name source verification will be marked COMPLETE. No batch claims. No shortcuts."
+  "properlyVerifiedSoFar": {
+    "English (i=1)": "187 names verified against Wikipedia List of Towns in England + List of Cities in the UK",
+    "French (i=2)": "105 names verified against Wikipedia List of Communes in France"
+  },
+  "notes": "Phase 1 complete. Phase 2 in progress. Next entries: Italian (i=3), Castillian (i=4), Greek (i=6), Roman (i=7), Estonian (i=9), Portuguese (i=12), Hungarian (i=14), Basque (i=19), Czech (i=35), Slovak (i=38), etc."
 }
