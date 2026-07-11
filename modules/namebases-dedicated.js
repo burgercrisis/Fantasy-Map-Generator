@@ -10,7 +10,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Ajawa,Bamako,Bouaké,Abidjan,Kano,Bobo-Dioulasso,Conakry,Ziguinchor,Porto-Novo,Dakar,Tenkodogo,Kankan,Kaolack,Timbuktu,Mopti,Koudougou,Kayes,Daloa,Koidu,Kaduna,Minna,Zaria,Brikama,Wukari,Bertoua,Ebebiyín,Tambacounda,Nzérékoré"
 },
 {
     "name": "Akan",
@@ -19,7 +19,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Akan,Bouaké,Daloa,Bissau,Bobo-Dioulasso,Dakar,Praia,Accra,Freetown,Kaolack,Farafenni,Bafatá,Maiduguri,Kaduna,Lomé,Parakou,Korhogo,Bauchi,Sikasso,Nzérékoré,Niamey,Tambacounda,Mopti,Yamoussoukro,Timbuktu,Zaria,Tema,Kumasi"
 },
 {
     "name": "Áncá",
@@ -28,7 +28,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Áncá,Jalingo,Daloa,Tambacounda,Dakar,Accra,Bamako,Bertoua,Timbuktu,Koidu,Bouaké,Banjul,Yamoussoukro,Mopti,Saint-Louis,Ziguinchor,Parakou,Sunyani,Tema,Maroua,Kaduna,Ségou,Nzérékoré,Conakry,Koudougou,Bauchi,Jos,Sikasso"
 },
 {
     "name": "Atlas Berber",
@@ -37,7 +37,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Atlas Berber,El Jadida,Salé,Béjaïa,Taroudant,Rabat,Agadir,Marrakech,Casablanca,Fès,Houmt Souk,Algiers,Mostaganem,Médéa,Tétouan,Mascara,Ouargla,Blida,Oujda,Taourirt,Zagora,Rissani,Tizi Ouzou,Tiznit,Boujdour,Ouarzazate,Oran,Chlef"
 },
 {
     "name": "Bebe",
@@ -46,7 +46,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Bebe,Bissau,Accra,Tema,Bouaké,Man,Lomé,Ségou,Korhogo,Bamako,Malabo,Kankan,Warri,Gbarnga,Kumasi,Nzérékoré,Gabú,Ouagadougou,Bamenda,Monrovia,Ngaoundéré,Thiès,Niamey,Jalingo,Cacheu,Bertoua,Saint-Louis,Yola"
 },
 {
     "name": "Belneng",
@@ -55,7 +55,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Belneng,Natitingou,Wukari,Kumasi,Conakry,Korhogo,Kaduna,Freetown,Kayes,Parakou,Buea,Bobo-Dioulasso,Kankan,Mopti,Lomé,Ziguinchor,Daloa,Wa,Sokodé,Praia,Kaolack,Tema,Basse,Yola,Yamoussoukro,Nzérékoré,Jos,Ebebiyín"
 },
 {
     "name": "Bembe Congo",
@@ -64,7 +64,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Bembe Congo,Accra,Bissau,Bobo-Dioulasso,Kara,Garoua,Dakar,Man,Lomé,Kaduna,Gbarnga,Brikama,Zinder,Korhogo,Basse,Jos,Parakou,Warri,Monrovia,Tarrafal,Bafatá,Ouagadougou,Maiduguri,Yamoussoukro,Nzérékoré,Kankan,Sunyani,Sikasso"
 },
 {
     "name": "Bembe DRC",
@@ -73,7 +73,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Bembe DRC,Cotonou,Daloa,Tema,Koudougou,Bamako,Dakar,Basse,Katsina,Monrovia,Sokodé,Lomé,Kayes,Praia,Bamenda,Ségou,Tarrafal,Kaolack,Farafenni,Lafia,Tambacounda,Koidu,Ziguinchor,Ebebiyín,Sokoto,Zaria,Nzérékoré,Cacheu"
 },
 {
     "name": "Besme",
@@ -82,7 +82,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Besme,Ziguinchor,Banjul,Ouagadougou,Bissau,Conakry,Man,Ségou,Gbarnga,Koidu,Korhogo,Sokodé,Bobo-Dioulasso,Kara,Niamey,Maiduguri,Mopti,Bauchi,Timbuktu,Monrovia,Lomé,Kumba,Sunyani,Lafia,Kayes,Katsina,Saint-Louis,Nouakchott"
 },
 {
     "name": "Bidiyo",
@@ -91,7 +91,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Bidiyo,Basse,Ouagadougou,Daloa,Dakar,Sokodé,Bouaké,Saint-Louis,Bafatá,Bissau,Freetown,Mopti,Kaolack,Cotonou,Monrovia,Maiduguri,Buea,Abidjan,Kaduna,Gbarnga,Man,Thiès,Bobo-Dioulasso,Koudougou,Brikama,Kano,Kumasi,Tambacounda"
 },
 {
     "name": "Bina",
@@ -100,7 +100,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Bina,Abidjan,Bouaké,Nouakchott,Dakar,Koudougou,Koidu,Saint-Louis,Bertoua,Daloa,Jalingo,Ebebiyín,Parakou,Ségou,Accra,Porto-Novo,Bamenda,Kaduna,Maiduguri,Zaria,Conakry,Timbuktu,Kankan,Man,Monrovia,Lafia,Mopti,Kano"
 },
 {
     "name": "Biu–Mandara",
@@ -109,7 +109,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Biu–Mandara,Accra,Bouaké,Banjul,Bobo-Dioulasso,Tambacounda,Gbarnga,Sokodé,Cotonou,Daloa,Lomé,Monrovia,Nouakchott,Conakry,Bamako,Kaduna,Bamenda,Kankan,Kumasi,Freetown,Bissau,Ségou,Maiduguri,Korhogo,Parakou,Zaria,Jos,Sokoto"
 },
 {
     "name": "Bole Afroasiatic",
@@ -118,7 +118,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Bole Afroasiatic,Daloa,Bissau,Cotonou,Ouagadougou,Bobo-Dioulasso,Tema,Koudougou,Monrovia,Bertoua,Bamenda,Bamako,Gbarnga,Kara,Timbuktu,Sokoto,Garoua,Bauchi,Nouakchott,Sokodé,Kumasi,Lomé,Porto-Novo,Tenkodogo,Parakou,Minna,Sikasso,Basse"
 },
 {
     "name": "Bole–Tangale",
@@ -127,7 +127,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Bole–Tangale,Banjul,Bobo-Dioulasso,Koidu,Koudougou,Bouaké,Bissau,Dakar,Bamako,Gbarnga,Katsina,Kankan,Porto-Novo,Saint-Louis,Kumasi,Bolama,Kayes,Freetown,Korhogo,Ouagadougou,Maiduguri,Kano,Mindelo,Assomada,Sokodé,Ségou,Niamey,Tambacounda"
 },
 {
     "name": "Bomboli–Bozaba",
@@ -136,7 +136,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Bomboli–Bozaba,Ziguinchor,Gbarnga,Daloa,Accra,Dakar,Conakry,Koidu,Sunyani,Monrovia,Banjul,Ebebiyín,Basse,Katsina,Tema,Kaduna,Zaria,Bissau,Freetown,Kano,Niamey,Kumba,Lomé,Yamoussoukro,Bobo-Dioulasso,Porto-Novo,Garoua,Bamako"
 },
 {
     "name": "Bum",
@@ -145,7 +145,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Bum,Bamako,Koidu,Garoua,Bobo-Dioulasso,Tema,Conakry,Daloa,Ouagadougou,Abidjan,Praia,Lomé,Sunyani,Tambacounda,Ségou,Man,Korhogo,Koudougou,Nzérékoré,Bissau,Tamale,Bolama,Monrovia,Yamoussoukro,Banjul,Assomada,Nouakchott,Porto-Novo"
 },
 {
     "name": "Buru–Angwe",
@@ -154,7 +154,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Buru–Angwe,Medellín,Inírida,Bucaramanga,Cartagena,Guayaquil,Mendoza,Manta,Ambato,Barranquilla,Uberlândia,Cochabamba,Portoviejo,El Alto,Cusco,Arequipa,La Plata,Rivera,Potosí,Chiclayo,La Paz,San Ignacio,Antofagasta,Huancayo,Talca,Córdoba,Quito,Puyo"
 },
 {
     "name": "Chakato",
@@ -163,7 +163,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Chakato,Accra,Banjul,Zaria,Conakry,Jos,Gbarnga,Banfora,Katsina,Kayes,Lomé,Dakar,Koidu,Mopti,Kano,Man,Bissau,Lafia,Kaduna,Sunyani,Abidjan,Kumasi,Maiduguri,Korhogo,Niamey,Sokodé,Bertoua,Sokoto"
 },
 {
     "name": "Dangaléat",
@@ -172,7 +172,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Dangaléat,Accra,Parakou,Kumasi,Conakry,Zaria,Katsina,Ebebiyín,Bissau,Ziguinchor,Koidu,Dakar,Cotonou,Kayes,Korhogo,Sokodé,Gbarnga,Bauchi,Lomé,Kankan,Tema,Thiès,Maiduguri,Mopti,Monrovia,Assomada,Tambacounda,Nzérékoré"
 },
 {
     "name": "Ekoka ǃKung",
@@ -181,7 +181,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Ekoka ǃKung,Accra,Cotonou,Bobo-Dioulasso,Bissau,Dakar,Assomada,Sunyani,Freetown,Bertoua,Bafatá,Zaria,Tamale,Kankan,Katsina,Ebebiyín,Maiduguri,Koudougou,Nzérékoré,Man,Bamako,Mopti,Sikasso,Tema,Parakou,Yola,Saint-Louis,Basse"
 },
 {
     "name": "Esimbi",
@@ -190,7 +190,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Esimbi,Accra,Banjul,Bata,Conakry,Katsina,Maiduguri,Sunyani,Zinder,Dakar,Kankan,Kumasi,Bouaké,Ebebiyín,Koudougou,Kayes,Brikama,Freetown,Lomé,Garoua,Tamale,Porto-Novo,Cotonou,Ziguinchor,Sikasso,Mopti,Niamey,Nzérékoré"
 },
 {
     "name": "Feʼfeʼ",
@@ -199,7 +199,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Feʼfeʼ,Bamako,Bissau,Abidjan,Katsina,Daloa,Freetown,Kumasi,Porto-Novo,Bouaké,Kaolack,Gusau,Tenkodogo,Koudougou,Niamey,Lomé,Garoua,Ségou,Kara,Timbuktu,Monrovia,Lafia,Brikama,Nzérékoré,Dakar,Ebebiyín,Praia,Bauchi"
 },
 {
     "name": "Fio",
@@ -208,7 +208,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Fio,Gbarnga,Ségou,Katsina,Lomé,Cotonou,Bouaké,Mopti,Ziguinchor,Praia,Bertoua,Maiduguri,Sokoto,Bamako,Koudougou,Monrovia,Ebebiyín,Bissau,Sikasso,Sunyani,Man,Jalingo,Conakry,Assomada,Saint-Louis,Garoua,Wa,Warri"
 },
 {
     "name": "Fut",
@@ -217,7 +217,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Fut,Accra,Abidjan,Banjul,Bertoua,Yola,Sunyani,Dakar,Bolama,Koidu,Basse,Kumasi,Ziguinchor,Kankan,Maroua,Nouakchott,Parakou,Saint-Louis,Cotonou,Aconibe,Koudougou,Mopti,Wa,Yamoussoukro,Kaolack,Tenkodogo,Niamey,Sikasso"
 },
 {
     "name": "Gawar",
@@ -226,7 +226,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Gawar,Katsina,Bouaké,Bissau,Banjul,Koudougou,Bobo-Dioulasso,Kankan,Gbarnga,Kaolack,Korhogo,Daloa,Man,Mopti,Kano,Nouakchott,Niamey,Abidjan,Praia,Ebebiyín,Tamale,Cotonou,Ouagadougou,Tema,Maiduguri,Thiès,Dakar,Warri"
 },
 {
     "name": "Ghomalaʼ",
@@ -235,7 +235,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Ghomalaʼ,Maiduguri,Freetown,Cotonou,Bamako,Bertoua,Gbarnga,Banjul,Kara,Yamoussoukro,Katsina,Sokodé,Kankan,Praia,Kayes,Bafoussam,Kano,Monrovia,Sokoto,Lafia,Saint-Louis,Ebebiyín,Abidjan,Malabo,Tema,Nzérékoré,Sunyani,Gabú"
 },
 {
     "name": "Gǀui",
@@ -244,7 +244,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Gǀui,Lomé,Conakry,Banjul,Korhogo,Dakar,Bolt,Kankan,Timbuktu,Bafatá,Nouakchott,Niamey,Sokodé,Ségou,Bissau,Warri,Bata,Saint-Louis,Monrovia,Kumasi,Zaria,Praia,Thiès,Accra,Parakou,Kara,Tamale,Maiduguri"
 },
 {
     "name": "Hadza",
@@ -253,7 +253,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Hadza,Abidjan,Bouaké,Koidu,Dakar,Bamako,Bamenda,Monrovia,Kumasi,Kayes,Kankan,Koudougou,Man,Kaolack,Bertoua,Maiduguri,Bauchi,Jalingo,Basse,Garoua,Thiès,Ouagadougou,Wa,Timbuktu,Ebebiyín,Gbarnga,Nzérékoré,Cacheu"
 },
 {
     "name": "Hausa–Gwandara",
@@ -262,7 +262,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Hausa–Gwandara,Bouaké,Accra,Bissau,Kankan,Cotonou,Bertoua,Sokodé,Freetown,Kaolack,Daloa,Gbarnga,Nouakchott,Tambacounda,Kayes,Praia,Brikama,Porto-Novo,Tenkodogo,Bafatá,Garoua,Tema,Mopti,Bamenda,Kaduna,Timbuktu,Sunyani,Ziguinchor"
 },
 {
     "name": "Holma",
@@ -271,7 +271,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Holma,Banjul,Abidjan,Freetown,Dakar,Cotonou,Kano,Lomé,Kankan,Jalingo,Korhogo,Sokodé,Kara,Mindelo,Niamey,Natitingou,Mopti,Kayes,Koidu,Ebebiyín,Bouaké,Man,Nzérékoré,Praia,Parakou,Bertoua,Koudougou,Saint-Louis"
 },
 {
     "name": "Huba",
@@ -280,7 +280,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Huba,Abidjan,Man,Bamako,Gbarnga,Dakar,Lomé,Daloa,Kumasi,Tambacounda,Bertoua,Ouagadougou,Ebebiyín,Niamey,Bauchi,Garoua,Korhogo,Saint-Louis,Ngaoundéré,Bouaké,Parakou,Thiès,Sokodé,Yamoussoukro,Bobo-Dioulasso,Ségou,Ziguinchor,Porto-Novo"
 },
 {
     "name": "Jalaa",
@@ -289,7 +289,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Jalaa,Banjul,Abidjan,Freetown,Bobo-Dioulasso,Kaolack,Basse,Praia,Tema,Accra,Nouakchott,Maiduguri,Man,Kara,Sokodé,Conakry,Banfora,Koidu,Monrovia,Bertoua,Niamey,Thiès,Saint-Louis,Yamoussoukro,Nzérékoré,Kayes,Jos,Sikasso"
 },
 {
     "name": "Jara",
@@ -298,7 +298,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Jara,Basse,Porto-Novo,Gbarnga,Bobo-Dioulasso,Dakar,Katsina,Nzérékoré,Lomé,Koidu,Kumba,Cotonou,Sokodé,Brikama,Koudougou,Lafia,Timbuktu,Bafatá,Maiduguri,Kaolack,Freetown,Ebebiyín,Ziguinchor,Yamoussoukro,Tenkodogo,Zaria,Kankan,Warri"
 },
 {
     "name": "Jelkung",
@@ -307,7 +307,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Jelkung,Cotonou,Lomé,Nouakchott,Ebebiyín,Tema,Praia,Porto-Novo,Freetown,Monrovia,Katsina,Ségou,Kayes,Bamako,Koudougou,Abidjan,Parakou,Sokodé,Cacheu,Bissau,Man,Niamey,Kaduna,Maroua,Kumasi,Sikasso,Nzérékoré,Bouaké"
 },
 {
     "name": "Jibyal",
@@ -316,7 +316,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Jibyal,Katsina,Bissau,Banjul,Cotonou,Dakar,Conakry,Bobo-Dioulasso,Ebebiyín,Bamenda,Daloa,Kankan,Tambacounda,Kumasi,Minna,Korhogo,Kumba,Accra,Sokodé,Maiduguri,Tamale,Niamey,Mopti,Ouagadougou,Parakou,Bolt,Farafenni,Sokoto"
 },
 {
     "name": "Jilbe",
@@ -325,7 +325,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Jilbe,Sokodé,Banjul,Bamako,Bouaké,Abidjan,Bamenda,Conakry,Daloa,Koudougou,Lomé,Kaduna,Koidu,Kankan,Ségou,Korhogo,Kumasi,Tambacounda,Porto-Novo,Katsina,Man,Ouagadougou,Nouakchott,Gusau,Monrovia,Tarrafal,Timbuktu,Saint-Louis"
 },
 {
     "name": "Jimi Cameroon",
@@ -334,7 +334,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Jimi Cameroon,Kankan,Bamako,Zaria,Bissau,Lomé,Koidu,Daloa,Ziguinchor,Katsina,Freetown,Brikama,Kaolack,Conakry,Mopti,Korhogo,Niamey,Kayes,Monrovia,Kumasi,Farafenni,Gusau,Porto-Novo,Jalingo,Timbuktu,Bobo-Dioulasso,Bamenda,Tambacounda"
 },
 {
     "name": "Jimi Nigeria",
@@ -343,7 +343,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Jimi Nigeria,Kaduna,Malabo,Cotonou,Accra,Daloa,Tambacounda,Lomé,Ouagadougou,Monrovia,Freetown,Bertoua,Kaolack,Maiduguri,Koudougou,Sokoto,Ziguinchor,Ngaoundéré,Korhogo,Garoua,Ségou,Tema,Porto-Novo,Minna,Timbuktu,Basse,Saint-Louis,Abidjan"
 },
 {
     "name": "Jina",
@@ -352,7 +352,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Jina,Danchon,Chengdu,Shenyang,Lhasa,Guangzhou,Harbin,Tainan,Cheongju,Shanghai,Fuzhou,Incheon,Nanchang,Zhongshan,Suzhou,Xi'an,Chongqing,Taichung,Changsha,Pyongyang,Taiyuan,Xiamen,Wuhan,Nanjing,Zibo,Yanji,Hambung,Daejeon"
 },
 {
     "name": "Jonkor",
@@ -361,7 +361,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Jonkor,Dakar,Bamako,Parakou,Koudougou,Daloa,Freetown,Katsina,Bissau,Bamenda,Kankan,Kumasi,Abidjan,Ziguinchor,Korhogo,Porto-Novo,Ebebiyín,Lomé,Bouaké,Yola,Niamey,Kumba,Ouagadougou,Tema,Thiès,Mopti,Nzérékoré,Bolama"
 },
 {
     "name": "Ju (Chadic)",
@@ -370,7 +370,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Ju (Chadic),Ziguinchor,Bouaké,Abidjan,Accra,Bissau,Daloa,Koudougou,Bertoua,Sokodé,Freetown,Ebebiyín,Kaolack,Bamenda,Kara,Maiduguri,Niamey,Mopti,Koidu,Jalingo,Tema,Kumba,Lomé,Ségou,Kaduna,Porto-Novo,Tambacounda,Sunyani"
 },
 {
     "name": "Juǀʼhoan",
@@ -379,7 +379,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Juǀʼhoan,Mopti,Banjul,Ouagadougou,Abidjan,Daloa,Bamako,Kankan,Kara,Wa,Korhogo,Conakry,Kumasi,Katsina,Bafatá,Kayes,Gbarnga,Lafia,Yamoussoukro,Sunyani,Tamale,Saint-Louis,Basse,Accra,Niamey,Tambacounda,Ebebiyín,Cacheu"
 },
 {
     "name": "Kabalai",
@@ -388,7 +388,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Kabalai,Accra,Bolt,Brikama,Bissau,Kayes,Bouaké,Conakry,Dakar,Banjul,Freetown,Mopti,Kankan,Lafia,Kaolack,Man,Katsina,Lomé,Ebebiyín,Zaria,Nouakchott,Maiduguri,Sunyani,Ziguinchor,Garoua,Assomada,Mindelo,Bertoua"
 },
 {
     "name": "Kajakse",
@@ -397,7 +397,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Kajakse,Nouakchott,Bobo-Dioulasso,Abidjan,Daloa,Conakry,Cotonou,Kankan,Freetown,Kaolack,Niamey,Bissau,Gbarnga,Maiduguri,Katsina,Ouagadougou,Lomé,Koudougou,Nzérékoré,Garoua,Kumba,Sikasso,Gusau,Jalingo,Mopti,Tamale,Tema,Porto-Novo"
 },
 {
     "name": "Kamwe",
@@ -406,7 +406,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Kamwe,Conakry,Bissau,Gbarnga,Niamey,Koidu,Freetown,Praia,Ségou,Kayes,Abidjan,Korhogo,Mopti,Banjul,Bolama,Warri,Parakou,Saint-Louis,Monrovia,Dakar,Kumasi,Tamale,Man,Kankan,Assomada,Maroua,Katsina,Sunyani"
 },
 {
     "name": "Kanakuru",
@@ -415,7 +415,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Kanakuru,Lima,Medellín,Cuenca,Barranquilla,Santos,Bucaramanga,Bogotá,Piura,La Plata,Manta,Sucre,Potosí,Manaus,Pedro Juan Caballero,La Paz,Trujillo,Pereira,Valparaíso,Cusco,Córdoba,Buenos Aires,Santiago,São Luís,Mitú,Oruro,El Alto,Maldonado"
 },
 {
     "name": "Karai-karai",
@@ -424,7 +424,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Karai-karai,Conakry,Bamenda,Accra,Bamako,Bobo-Dioulasso,Cotonou,Nouakchott,Kara,Sokodé,Freetown,Korhogo,Kankan,Assomada,Maiduguri,Kayes,Kumba,Koudougou,Kumasi,Banjul,Cacheu,Niamey,Nzérékoré,Yamoussoukro,Mopti,Kaduna,Wa,Ouagadougou"
 },
 {
     "name": "Kariya",
@@ -433,7 +433,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Kariya,Conakry,Bamako,Banjul,Lomé,Koidu,Ebebiyín,Bobo-Dioulasso,Korhogo,Garoua,Daloa,Kaolack,Ouagadougou,Kankan,Praia,Wa,Basse,Kumba,Bamenda,Aconibe,Katsina,Maiduguri,Jalingo,Yamoussoukro,Mopti,Accra,Bafatá,Kara"
 },
 {
     "name": "Kera",
@@ -442,7 +442,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Kera,Gbarnga,Kaduna,Ebebiyín,Kankan,Accra,Conakry,Bertoua,Kaolack,Koudougou,Korhogo,Porto-Novo,Kumasi,Mopti,Kara,Man,Tema,Maiduguri,Praia,Sunyani,Bouaké,Thiès,Gusau,Banjul,Saint-Louis,Assomada,Jos,Nzérékoré"
 },
 {
     "name": "Kholok",
@@ -451,7 +451,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Kholok,Abidjan,Accra,Bouaké,Gbarnga,Timbuktu,Lomé,Tambacounda,Katsina,Basse,Ebebiyín,Tenkodogo,Kano,Koidu,Ségou,Nouakchott,Ziguinchor,Bertoua,Porto-Novo,Mopti,Man,Bamako,Maroua,Kaduna,Parakou,Tamale,Bamenda,Banfora"
 },
 {
     "name": "Kimré",
@@ -460,7 +460,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Kimré,Bissau,Koidu,Bamako,Sokodé,Daloa,Tema,Dakar,Niamey,Praia,Gbarnga,Gusau,Kumasi,Ziguinchor,Kaolack,Koudougou,Jos,Brikama,Kayes,Ebebiyín,Lomé,Mopti,Bafatá,Basse,Gabú,Tamale,Nzérékoré,Kumba"
 },
 {
     "name": "Kir-Balar",
@@ -469,7 +469,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Kir-Balar,Ségou,Conakry,Yamoussoukro,Sokodé,Kankan,Bamako,Timbuktu,Bissau,Daloa,Freetown,Dakar,Kaolack,Man,Kara,Lomé,Niamey,Accra,Bamenda,Parakou,Ouagadougou,Bobo-Dioulasso,Maiduguri,Thiès,Porto-Novo,Banfora,Sunyani,Bata"
 },
 {
     "name": "Kirya-Konzal",
@@ -478,7 +478,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Kirya-Konzal,Bamako,Bissau,Cotonou,Accra,Katsina,Freetown,Conakry,Praia,Timbuktu,Kaolack,Ouagadougou,Kayes,Kara,Mopti,Nzérékoré,Korhogo,Bauchi,Nouakchott,Koudougou,Sunyani,Garoua,Lomé,Man,Porto-Novo,Ségou,Niamey,Bertoua"
 },
 {
     "name": "Koenoem",
@@ -487,7 +487,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Koenoem,Nouakchott,Koidu,Bamako,Daloa,Sokodé,Ziguinchor,Bertoua,Lomé,Kayes,Accra,Bamenda,Koudougou,Tambacounda,Mopti,Tema,Katsina,Korhogo,Bobo-Dioulasso,Bissau,Warri,Malabo,Niamey,Ngaoundéré,Man,Porto-Novo,Ségou,Ouagadougou"
 },
 {
     "name": "Kubi",
@@ -496,7 +496,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Kubi,Banjul,Tema,Cotonou,Bouaké,Bobo-Dioulasso,Tamale,Kumba,Kaduna,Accra,Bata,Parakou,Kayes,Tambacounda,Mopti,Nouakchott,Niamey,Jos,Kumasi,Freetown,Kaolack,Thiès,Ebebiyín,Maiduguri,Monrovia,Buea,Koudougou,Saint-Louis"
 },
 {
     "name": "Kulere",
@@ -505,7 +505,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Kulere,Ebebiyín,Katsina,Cotonou,Tema,Bissau,Bobo-Dioulasso,Abidjan,Nouakchott,Sokodé,Man,Daloa,Mopti,Tambacounda,Ouagadougou,Koudougou,Koidu,Saint-Louis,Maiduguri,Sunyani,Tamale,Ségou,Kaduna,Yamoussoukro,Monrovia,Tenkodogo,Basse,Parakou"
 },
 {
     "name": "Kulung language (West Chadic)",
@@ -514,7 +514,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Kulung language (West Chadic),Abidjan,Bissau,Daloa,Lomé,Bamako,Accra,Kankan,Banjul,Dakar,Katsina,Jalingo,Kaolack,Kara,Kaduna,Basse,Koidu,Man,Koudougou,Mopti,Sokodé,Maiduguri,Gusau,Cotonou,Porto-Novo,Ségou,Ebebiyín,Saint-Louis"
 },
 {
     "name": "Kutto",
@@ -523,7 +523,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Kutto,Accra,Conakry,Bobo-Dioulasso,Farafenni,Korhogo,Nouakchott,Ziguinchor,Freetown,Kayes,Kankan,Kumba,Lomé,Tema,Timbuktu,Basse,Maiduguri,Saint-Louis,Abidjan,Sunyani,Tamale,Bauchi,Brikama,Porto-Novo,Parakou,Nzérékoré,Sokoto,Warri"
 },
 {
     "name": "Kwaami",
@@ -532,7 +532,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Kwaami,Bouaké,Ziguinchor,Cotonou,Bobo-Dioulasso,Kara,Kaolack,Praia,Freetown,Basse,Banjul,Bamako,Gbarnga,Tenkodogo,Kano,Kayes,Dakar,Bafatá,Korhogo,Garoua,Bamenda,Thiès,Man,Malabo,Parakou,Monrovia,Tamale,Nzérékoré"
 },
 {
     "name": "Kwang",
@@ -541,7 +541,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Kwang,Bouaké,Accra,Bamako,Sokodé,Bamenda,Gbarnga,Praia,Kankan,Lomé,Ségou,Kaduna,Freetown,Mopti,Niamey,Warri,Lafia,Saint-Louis,Porto-Novo,Kumasi,Man,Kaolack,Tema,Ziguinchor,Nzérékoré,Zaria,Tambacounda,Garoua"
 },
 {
     "name": "Lagwan",
@@ -550,7 +550,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Lagwan,Abidjan,Bamako,Bolt,Sokodé,Daloa,Accra,Praia,Tema,Bissau,Korhogo,Mopti,Bauchi,Jalingo,Kaolack,Basse,Porto-Novo,Saint-Louis,Brikama,Lomé,Man,Monrovia,Dakar,Lafia,Conakry,Bertoua,Kumasi,Nzérékoré"
 },
 {
     "name": "Lamang",
@@ -559,7 +559,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Lamang,Abidjan,Accra,Lomé,Bissau,Bouaké,Bobo-Dioulasso,Katsina,Conakry,Kaolack,Kumasi,Porto-Novo,Freetown,Kano,Korhogo,Ziguinchor,Nouakchott,Saint-Louis,Koudougou,Gbarnga,Brikama,Garoua,Gusau,Koidu,Jalingo,Niamey,Nzérékoré,Ebebiyín"
 },
 {
     "name": "Lele language (Chad)",
@@ -568,7 +568,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Lele language (Chad),Sikasso,Banjul,Farafenni,Abidjan,Cotonou,Conakry,Dakar,Jalingo,Kayes,Kumasi,Kaolack,Tenkodogo,Tambacounda,Man,Monrovia,Maiduguri,Tamale,Lomé,Buea,Tarrafal,Kano,Wa,Yamoussoukro,Zinder,Timbuktu,Ziguinchor,Jos"
 },
 {
     "name": "Lozi",
@@ -577,7 +577,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Lozi,Abidjan,Accra,Kaolack,Man,Daloa,Bouaké,Bafatá,Dakar,Bamako,Katsina,Kumasi,Ouagadougou,Kayes,Praia,Lomé,Niamey,Ségou,Bauchi,Bissau,Tamale,Brikama,Nouakchott,Assomada,Mopti,Gusau,Sokoto,Sokodé"
 },
 {
     "name": "Maaka",
@@ -586,7 +586,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Maaka,Bouaké,Bamako,Kankan,Ziguinchor,Conakry,Freetown,Accra,Basse,Daloa,Saint-Louis,Timbuktu,Lomé,Bobo-Dioulasso,Niamey,Mopti,Ségou,Porto-Novo,Thiès,Garoua,Tema,Kara,Tenkodogo,Yamoussoukro,Praia,Korhogo,Tambacounda,Cacheu"
 },
 {
     "name": "Mabire",
@@ -595,7 +595,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Mabire,Abidjan,Kano,Timbuktu,Nouakchott,Bouaké,Monrovia,Conakry,Lomé,Ziguinchor,Kankan,Kumasi,Jalingo,Koudougou,Kara,Cotonou,Buea,Katsina,Bertoua,Nzérékoré,Ouagadougou,Sokoto,Accra,Praia,Sunyani,Lafia,Tambacounda,Kaolack"
 },
 {
     "name": "Mada",
@@ -604,7 +604,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Mada,Banjul,Kayes,Ziguinchor,Cotonou,Kano,Ouagadougou,Dakar,Saint-Louis,Koudougou,Kankan,Porto-Novo,Zaria,Warri,Sikasso,Gusau,Bamako,Bertoua,Sokodé,Niamey,Thiès,Monrovia,Gbarnga,Man,Nzérékoré,Kara,Minna,Kumba"
 },
 {
     "name": "Mafa",
@@ -613,7 +613,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Mafa,Accra,Tamale,Kaolack,Bobo-Dioulasso,Dakar,Conakry,Daloa,Praia,Kankan,Bafatá,Kumasi,Ziguinchor,Tambacounda,Kayes,Korhogo,Koidu,Warri,Nouakchott,Maiduguri,Nzérékoré,Brikama,Lomé,Wa,Sunyani,Basse,Parakou,Kara"
 },
 {
     "name": "Majera",
@@ -622,7 +622,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Majera,Katsina,Timbuktu,Gbarnga,Basse,Conakry,Bobo-Dioulasso,Nouakchott,Man,Koudougou,Ziguinchor,Lomé,Saint-Louis,Bouaké,Ebebiyín,Kano,Kumasi,Brikama,Niamey,Daloa,Ngaoundéré,Monrovia,Mopti,Tenkodogo,Maroua,Zaria,Wa,Kumba"
 },
 {
     "name": "Malagasy",
@@ -631,7 +631,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Malagasy,Accra,Banjul,Bissau,Conakry,Bobo-Dioulasso,Bertoua,Cotonou,Katsina,Freetown,Tambacounda,Maiduguri,Kankan,Sokodé,Kayes,Kumasi,Korhogo,Garoua,Brikama,Sunyani,Parakou,Niamey,Monrovia,Nouakchott,Zinder,Nzérékoré,Yamoussoukro,Kaduna"
 },
 {
     "name": "Malagasy macro entry",
@@ -640,7 +640,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Malagasy macro entry,Accra,Abidjan,Tema,Bobo-Dioulasso,Sunyani,Bouaké,Gbarnga,Cotonou,Freetown,Bissau,Katsina,Basse,Ouagadougou,Kayes,Korhogo,Sokodé,Conakry,Parakou,Kara,Jalingo,Tambacounda,Wa,Saint-Louis,Ngaoundéré,Porto-Novo,Ebebiyín,Nouakchott"
 },
 {
     "name": "Malgbe",
@@ -649,7 +649,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Malgbe,Abidjan,Timbuktu,Bissau,Gbarnga,Bobo-Dioulasso,Cotonou,Monrovia,Tema,Nouakchott,Kaolack,Jalingo,Koidu,Mopti,Gusau,Koudougou,Tamale,Bertoua,Sokodé,Ouagadougou,Freetown,Ségou,Porto-Novo,Yamoussoukro,Thiès,Nzérékoré,Ebebiyín,Daloa"
 },
 {
     "name": "Manding",
@@ -658,7 +658,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Manding,Tbilisi,Kutaisi,Rustavi,Poti,Nalchik,Mtskheta,Grozny,Urus-Martan,Krymsk,Karachayevsk,Gori,Maykop,Argun,Achkhoy-Martan,Makhachkala,Malgobek,Kizilyurt,Kizlyar,Alagir,Samashki,Beslan,Avtury,Kaspiysk,Storozhevaya,Sukhumi,Borjomi,Sighnaghi"
 },
 {
     "name": "Mantsi language (Nigeria)",
@@ -667,7 +667,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Mantsi language (Nigeria),Bafatá,Katsina,Praia,Sokodé,Gbarnga,Cotonou,Daloa,Lafia,Koidu,Bertoua,Jalingo,Tema,Kankan,Mopti,Kaduna,Parakou,Yola,Monrovia,Tambacounda,Ebebiyín,Garoua,Maroua,Lomé,Ouagadougou,Niamey,Conakry,Warri"
 },
 {
     "name": "Mao Omotic",
@@ -676,7 +676,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Mao Omotic,Gondar,Machakos,Dire Dawa,Bahir Dar,Jimma,Masaka,Addis Ababa,Shashamane,Dila,Sodo,Mbarara,Gedaref,Khartoum,Hosaena,Eldoret,Embu,Port Sudan,Torit,Kakamega,Kampala,Rumbek,Arua,Nyeri,Busia,Kassala,Kisumu,Mizan Teferi"
 },
 {
     "name": "Marba",
@@ -685,7 +685,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Marba,Conakry,Nouakchott,Bamenda,Mindelo,Koidu,Dakar,Ebebiyín,Bouaké,Bobo-Dioulasso,Freetown,Ziguinchor,Kara,Tema,Koudougou,Korhogo,Kayes,Kankan,Warri,Kumasi,Man,Mopti,Sunyani,Parakou,Monrovia,Bolt,Tambacounda,Timbuktu"
 },
 {
     "name": "Margi",
@@ -694,7 +694,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Margi,Ouagadougou,Freetown,Nouakchott,Bafatá,Kaolack,Cotonou,Kankan,Niamey,Katsina,Korhogo,Ségou,Sikasso,Basse,Koudougou,Abidjan,Ebebiyín,Lomé,Kumba,Bissau,Bobo-Dioulasso,Jos,Porto-Novo,Praia,Dakar,Tamale,Garoua,Bafoussam"
 },
 {
     "name": "Margi South",
@@ -703,7 +703,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Margi South,Bobo-Dioulasso,Koudougou,Dakar,Kumasi,Banjul,Bissau,Kaduna,Bouaké,Freetown,Cotonou,Tarrafal,Kayes,Timbuktu,Abidjan,Monrovia,Niamey,Kara,Nzérékoré,Zinder,Koidu,Conakry,Gbarnga,Man,Yamoussoukro,Ouagadougou,Jos,Bafoussam"
 },
 {
     "name": "Masa (macro)",
@@ -712,7 +712,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Masa (macro),Accra,Abidjan,Man,Bissau,Kankan,Conakry,Banjul,Cotonou,Dakar,Lomé,Tema,Kaolack,Ouagadougou,Kara,Koudougou,Gusau,Kumasi,Sokodé,Mopti,Bertoua,Yamoussoukro,Buea,Malabo,Kano,Basse,Nouakchott,Bata"
 },
 {
     "name": "Masa North",
@@ -721,7 +721,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Masa North,Bissau,Banjul,Niamey,Tambacounda,Accra,Cotonou,Zinder,Kano,Bertoua,Sunyani,Conakry,Kaolack,Bolama,Koudougou,Korhogo,Daloa,Lomé,Abidjan,Bobo-Dioulasso,Nzérékoré,Praia,Maiduguri,Brikama,Ziguinchor,Zaria,Yola,Dakar"
 },
 {
     "name": "Masa South",
@@ -730,7 +730,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Masa South,Bobo-Dioulasso,Ouagadougou,Accra,Ziguinchor,Freetown,Dakar,Minna,Kara,Bertoua,Nzérékoré,Farafenni,Maiduguri,Kumasi,Sokodé,Korhogo,Bamako,Kayes,Jos,Yola,Cacheu,Conakry,Niamey,Yamoussoukro,Daloa,Gusau,Kano,Saint-Louis"
 },
 {
     "name": "Maslam",
@@ -739,7 +739,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Maslam,Kaduna,Ségou,Banjul,Bobo-Dioulasso,Dakar,Zinder,Mopti,Kankan,Farafenni,Bamako,Kumasi,Gusau,Monrovia,Katsina,Ouagadougou,Wa,Sunyani,Ziguinchor,Accra,Nzérékoré,Bamenda,Saint-Louis,Yamoussoukro,Bafatá,Conakry,Kaolack,Sokoto"
 },
 {
     "name": "Masmaje",
@@ -748,7 +748,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Masmaje,Gbarnga,Ziguinchor,Bobo-Dioulasso,Freetown,Kaduna,Cotonou,Bamako,Sokodé,Bertoua,Mopti,Kaolack,Conakry,Abidjan,Garoua,Man,Banjul,Praia,Monrovia,Bafatá,Timbuktu,Ebebiyín,Thiès,Yamoussoukro,Nouakchott,Basse,Tambacounda,Sokoto"
 },
 {
     "name": "Massa",
@@ -757,7 +757,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Massa,Kankan,Korhogo,Banjul,Natitingou,Kano,Freetown,Man,Bouaké,Niamey,Abidjan,Kumasi,Kaduna,Accra,Gbarnga,Bamenda,Maiduguri,Saint-Louis,Cotonou,Sunyani,Daloa,Basse,Tamale,Nzérékoré,Mopti,Minna,Sokodé,Kayes"
 },
 {
     "name": "Matal",
@@ -766,7 +766,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Matal,Sokodé,Banjul,Bobo-Dioulasso,Daloa,Conakry,Timbuktu,Kano,Dakar,Katsina,Korhogo,Kumasi,Saint-Louis,Ouagadougou,Bouaké,Koidu,Mopti,Tema,Sikasso,Assomada,Man,Lomé,Wa,Maroua,Niamey,Tamale,Parakou,Basse"
 },
 {
     "name": "Mawa",
@@ -775,7 +775,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Mawa,Abidjan,Kano,Koudougou,Nouakchott,Man,Tema,Timbuktu,Gbarnga,Monrovia,Dakar,Kumasi,Kayes,Daloa,Accra,Koidu,Niamey,Katsina,Ngaoundéré,Praia,Korhogo,Cotonou,Wa,Bouaké,Ebebiyín,Ouagadougou,Tambacounda,Cacheu"
 },
 {
     "name": "Mazagway",
@@ -784,7 +784,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Mazagway,Accra,Bamako,Katsina,Bobo-Dioulasso,Dakar,Freetown,Timbuktu,Kara,Kankan,Korhogo,Brikama,Lomé,Niamey,Daloa,Koudougou,Parakou,Conakry,Kumasi,Sunyani,Cotonou,Tamale,Minna,Basse,Aconibe,Maiduguri,Tenkodogo,Ziguinchor"
 },
 {
     "name": "Mbara language (Chad)",
@@ -793,7 +793,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Mbara language (Chad),Abidjan,Bissau,Ouagadougou,Koidu,Bouaké,Conakry,Bafatá,Kaolack,Gbarnga,Korhogo,Kumasi,Kara,Nouakchott,Man,Lomé,Koudougou,Cacheu,Sokodé,Timbuktu,Ziguinchor,Niamey,Wa,Katsina,Parakou,Ségou,Kano,Jos"
 },
 {
     "name": "Mbudum",
@@ -802,7 +802,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Mbudum,Cotonou,Kankan,Abidjan,Daloa,Bamako,Banjul,Bissau,Nzérékoré,Kaolack,Conakry,Nouakchott,Tema,Monrovia,Kano,Ségou,Parakou,Maiduguri,Ebebiyín,Kumba,Kayes,Bamenda,Sokodé,Koudougou,Zaria,Lomé,Ouagadougou,Tambacounda"
 },
 {
     "name": "Mbuko",
@@ -811,7 +811,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Mbuko,Katsina,Banjul,Bamako,Daloa,Praia,Bouaké,Lomé,Cotonou,Freetown,Man,Timbuktu,Kankan,Mopti,Kara,Ouagadougou,Buea,Abidjan,Tambacounda,Monrovia,Dakar,Nouakchott,Wa,Bamenda,Niamey,Bertoua,Conakry,Assomada"
 },
 {
     "name": "Mburku",
@@ -820,7 +820,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Mburku,Bamako,Bouaké,Bertoua,Lomé,Kaolack,Cotonou,Katsina,Bafatá,Kayes,Bauchi,Kankan,Dakar,Lafia,Nzérékoré,Abidjan,Korhogo,Yola,Monrovia,Warri,Mopti,Kumba,Porto-Novo,Nouakchott,Sikasso,Koudougou,Maiduguri,Sokoto"
 },
 {
     "name": "Mefele",
@@ -829,7 +829,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Mefele,Bissau,Bamako,Kaolack,Praia,Jalingo,Conakry,Lafia,Gbarnga,Freetown,Basse,Bouaké,Kara,Koidu,Sokodé,Koudougou,Nzérékoré,Korhogo,Porto-Novo,Cotonou,Bolt,Monrovia,Ouagadougou,Saint-Louis,Sikasso,Abidjan,Jos,Tambacounda"
 },
 {
     "name": "Mende",
@@ -838,7 +838,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Mende,Bertoua,Bissau,Bobo-Dioulasso,Conakry,Katsina,Timbuktu,Gbarnga,Abidjan,Kayes,Daloa,Koidu,Basse,Tema,Mopti,Kara,Korhogo,Banfora,Monrovia,Aconibe,Ebebiyín,Niamey,Maiduguri,Yamoussoukro,Nzérékoré,Ségou,Sokodé,Ziguinchor"
 },
 {
     "name": "Merey",
@@ -847,7 +847,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Merey,Bouaké,Gbarnga,Man,Garoua,Sokodé,Daloa,Bamako,Lomé,Abidjan,Warri,Kankan,Kaolack,Mopti,Kayes,Korhogo,Sikasso,Zaria,Koudougou,Kano,Kaduna,Kumasi,Monrovia,Bamenda,Ziguinchor,Cotonou,Accra,Praia"
 },
 {
     "name": "Merico",
@@ -856,7 +856,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Merico,Mopti,Abidjan,Bissau,Dakar,Conakry,Freetown,Kankan,Lomé,Bertoua,Ziguinchor,Gbarnga,Bamako,Ségou,Niamey,Man,Nouakchott,Accra,Kumasi,Jalingo,Saint-Louis,Ouagadougou,Warri,Kara,Monrovia,Tamale,Katsina,Porto-Novo"
 },
 {
     "name": "Mesme",
@@ -865,7 +865,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Mesme,Bobo-Dioulasso,Koidu,Bouaké,Man,Dakar,Basse,Kankan,Freetown,Mopti,Bamako,Bafatá,Kara,Kaolack,Niamey,Tambacounda,Katsina,Maiduguri,Minna,Banjul,Tamale,Kano,Monrovia,Yamoussoukro,Sikasso,Nzérékoré,Parakou,Natitingou"
 },
 {
     "name": "Migaama",
@@ -874,7 +874,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Migaama,Bissau,Bafatá,Gbarnga,Conakry,Gusau,Cotonou,Kankan,Lomé,Dakar,Freetown,Porto-Novo,Ségou,Bobo-Dioulasso,Nouakchott,Ziguinchor,Ouagadougou,Gabú,Sokoto,Saint-Louis,Natitingou,Thiès,Bolama,Tamale,Mopti,Accra,Yamoussoukro,Malabo"
 },
 {
     "name": "Miler",
@@ -883,7 +883,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Miler,Sikasso,Bafatá,Nouakchott,Sokodé,Ebebiyín,Conakry,Lomé,Freetown,Tema,Bissau,Accra,Parakou,Katsina,Kayes,Warri,Natitingou,Ziguinchor,Koudougou,Sunyani,Niamey,Jalingo,Porto-Novo,Bertoua,Mopti,Nzérékoré,Saint-Louis,Thiès"
 },
 {
     "name": "Miltu",
@@ -892,7 +892,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Miltu,Accra,Ziguinchor,Bobo-Dioulasso,Bissau,Daloa,Cotonou,Banfora,Sokoto,Tema,Sunyani,Gusau,Kaolack,Kankan,Kano,Zaria,Korhogo,Bauchi,Abidjan,Bafatá,Malabo,Bertoua,Maiduguri,Yamoussoukro,Parakou,Kayes,Minna,Nouakchott"
 },
 {
     "name": "Mire",
@@ -901,7 +901,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Mire,Bissau,Bafoussam,Banjul,Korhogo,Farafenni,Gbarnga,Bertoua,Freetown,Daloa,Basse,Porto-Novo,Kara,Kaduna,Kaolack,Assomada,Maiduguri,Wukari,Kumasi,Ouagadougou,Sikasso,Monrovia,Mopti,Tambacounda,Nouakchott,Gusau,Yola,Nzérékoré"
 },
 {
     "name": "Miship",
@@ -910,7 +910,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Miship,Koidu,Bobo-Dioulasso,Abidjan,Kaolack,Lomé,Praia,Cotonou,Accra,Daloa,Monrovia,Koudougou,Sikasso,Mopti,Nzérékoré,Nouakchott,Yola,Tenkodogo,Warri,Bissau,Kumasi,Porto-Novo,Yamoussoukro,Ouagadougou,Bamenda,Zaria,Freetown,Tambacounda"
 },
 {
     "name": "Miya",
@@ -919,7 +919,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Miya,Tema,Conakry,Abidjan,Accra,Porto-Novo,Kaduna,Nouakchott,Kara,Kayes,Freetown,Brikama,Maiduguri,Koidu,Katsina,Korhogo,Lomé,Tenkodogo,Monrovia,Tambacounda,Koudougou,Niamey,Bamenda,Saint-Louis,Ngaoundéré,Ebebiyín,Praia,Timbuktu"
 },
 {
     "name": "Mofu-Gudur",
@@ -928,7 +928,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Mofu-Gudur,Banjul,Banfora,Freetown,Bobo-Dioulasso,Cotonou,Bouaké,Kankan,Dakar,Kaolack,Niamey,Ouahigouya,Praia,Korhogo,Sokoto,Bamenda,Maiduguri,Saint-Louis,Katsina,Nzérékoré,Monrovia,Buea,Man,Kumasi,Ebebiyín,Ouagadougou,Tamale,Kumba"
 },
 {
     "name": "Mogum",
@@ -937,7 +937,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Mogum,Bolt,Sunyani,Bobo-Dioulasso,Nouakchott,Tema,Ebebiyín,Banfora,Bafatá,Saint-Louis,Daloa,Freetown,Kankan,Mopti,Timbuktu,Korhogo,Kaolack,Tenkodogo,Monrovia,Basse,Koudougou,Warri,Maiduguri,Yamoussoukro,Man,Niamey,Bissau,Sokoto"
 },
 {
     "name": "Mokilko",
@@ -946,7 +946,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Mokilko,Bissau,Bouaké,Banjul,Basse,Koudougou,Conakry,Koidu,Cotonou,Kaolack,Lomé,Freetown,Kara,Bauchi,Niamey,Man,Tambacounda,Malabo,Praia,Kano,Nzérékoré,Katsina,Nouakchott,Gbarnga,Porto-Novo,Bolt,Jos,Warri"
 },
 {
     "name": "Moloko",
@@ -955,7 +955,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Moloko,Accra,Banjul,Bouaké,Bissau,Daloa,Timbuktu,Kaduna,Dakar,Zaria,Korhogo,Kankan,Kara,Kumasi,Wa,Lomé,Maiduguri,Saint-Louis,Kaolack,Conakry,Tamale,Parakou,Koidu,Bamenda,Zinder,Sunyani,Sikasso,Ségou"
 },
 {
     "name": "Montol",
@@ -964,7 +964,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Montol,Chiang Mai,Hai Phong,Da Lat,Phongsali,Da Nang,Guilin,Surat Thani,Battambang,Điện Biên Phủ,Phan Thiet,Yangon,Luang Prabang,Hue,Naypyidaw,Shantou,Pakse,Guiyang,Mandalay,Phnom Penh,Xieng Khouang,Nakhon Ratchasima,Rach Gia,Pathein,Kampot,Khon Kaen,Taunggyi,Mawlamyine"
 },
 {
     "name": "Mozabite",
@@ -973,7 +973,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Mozabite,Algiers,Batna,Casablanca,Marrakech,Tiznit,Agadir,Béjaïa,Oran,Fès,Tlemcen,Laayoune,Sétif,Boujdour,Tangier,Smara,Salé,Médéa,Chlef,Tunis,Taroudant,Ouarzazate,Zagora,Guelmim,Misrata,Dakhla,Safi,Mostaganem"
 },
 {
     "name": "Mpade",
@@ -982,7 +982,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Mpade,Kaduna,Sunyani,Jalingo,Bobo-Dioulasso,Accra,Conakry,Kankan,Daloa,Kayes,Korhogo,Ségou,Banfora,Yamoussoukro,Farafenni,Nzérékoré,Man,Saint-Louis,Monrovia,Garoua,Mopti,Thiès,Maiduguri,Bamenda,Tenkodogo,Warri,Kumba,Sikasso"
 },
 {
     "name": "Mpre",
@@ -991,7 +991,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Mpre,Ziguinchor,Bamako,Bobo-Dioulasso,Lomé,Timbuktu,Ouagadougou,Bouaké,Freetown,Yamoussoukro,Bertoua,Sokodé,Kumasi,Katsina,Kaolack,Koudougou,Parakou,Abidjan,Tema,Sokoto,Bafatá,Mopti,Zaria,Monrovia,Tarrafal,Ebebiyín,Nzérékoré,Tenkodogo"
 },
 {
     "name": "Mser",
@@ -1000,7 +1000,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Mser,Bamako,Banjul,Assomada,Tamale,Cotonou,Parakou,Gbarnga,Sunyani,Sokoto,Bouaké,Koidu,Kara,Kayes,Ouagadougou,Natitingou,Yamoussoukro,Man,Mopti,Maroua,Nzérékoré,Conakry,Saint-Louis,Ebebiyín,Zinder,Gusau,Tambacounda,Malabo"
 },
 {
     "name": "Mubi",
@@ -1009,7 +1009,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Mubi,Bissau,Jalingo,Cotonou,Korhogo,Tenkodogo,Praia,Conakry,Freetown,Monrovia,Bamenda,Bobo-Dioulasso,Kankan,Mopti,Kara,Man,Timbuktu,Wukari,Sokoto,Tema,Ségou,Kaduna,Parakou,Malabo,Porto-Novo,Nzérékoré,Daloa,Banjul"
 },
 {
     "name": "Mundat",
@@ -1018,7 +1018,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Mundat,Itanagar,Thiruvananthapuram,Coimbatore,Biratnagar,Aurangabad,Dharamshala,Faridabad,Ghaziabad,Aizawl,Indore,Dhaka,Kozhikode,Srinagar,Amritsar,Hyderabad,Ahmedabad,Noida,Jodhpur,Varanasi,Mangalore,Jabalpur,Dharan,Rourkela,Kochi,Pokhara,Bhubaneswar,Tiruchirappalli"
 },
 {
     "name": "Musey",
@@ -1027,7 +1027,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Musey,Accra,Banjul,Gbarnga,Bissau,Niamey,Kaduna,Kankan,Dakar,Sikasso,Kara,Koidu,Monrovia,Tambacounda,Ségou,Garoua,Korhogo,Timbuktu,Kaolack,Basse,Bafatá,Sokoto,Lomé,Sunyani,Cotonou,Parakou,Saint-Louis,Kumba"
 },
 {
     "name": "Musgu",
@@ -1036,7 +1036,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Musgu,Accra,Bauchi,Bobo-Dioulasso,Korhogo,Katsina,Kaduna,Tema,Bamako,Kayes,Tambacounda,Porto-Novo,Bouaké,Kankan,Mopti,Banjul,Ziguinchor,Assomada,Jalingo,Conakry,Sokodé,Lafia,Nouakchott,Maiduguri,Cacheu,Zaria,Bissau,Gusau"
 },
 {
     "name": "Muskum",
@@ -1045,7 +1045,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Muskum,Bamako,Ziguinchor,Cotonou,Conakry,Monrovia,Timbuktu,Katsina,Accra,Abidjan,Tenkodogo,Kumasi,Kara,Daloa,Kaolack,Koudougou,Porto-Novo,Tamale,Ebebiyín,Garoua,Kankan,Man,Wa,Malabo,Bamenda,Bolt,Lafia,Warri"
 },
 {
     "name": "Muyang",
@@ -1054,7 +1054,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Muyang,Accra,Banjul,Nzérékoré,Bissau,Gbarnga,Sunyani,Conakry,Koidu,Zaria,Timbuktu,Freetown,Parakou,Gusau,Korhogo,Lomé,Monrovia,Saint-Louis,Ebebiyín,Ziguinchor,Kaduna,Bamenda,Maiduguri,Malabo,Tambacounda,Kara,Bouaké,Jalingo"
 },
 {
     "name": "Mwaghavul",
@@ -1063,7 +1063,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Mwaghavul,Ziguinchor,Bamako,Bissau,Gbarnga,Bouaké,Tema,Dakar,Katsina,Koudougou,Bertoua,Freetown,Ebebiyín,Mopti,Man,Kara,Korhogo,Jos,Ouagadougou,Kumasi,Timbuktu,Monrovia,Bauchi,Porto-Novo,Kaduna,Ségou,Tambacounda,Jalingo"
 },
 {
     "name": "Mzab–Wargla Berber",
@@ -1072,7 +1072,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Mzab–Wargla Berber,Houmt Souk,Ghardaïa,Béchar,Béjaïa,El Jadida,Blida,Bouïra,Ifrane,Tétouan,Mostaganem,Salé,Ouargla,Rissani,Ouarzazate,Smara,Rabat,Fès,Bordj Bou Arreridj,Tangier,Monastir,Zliten,Sfax,Laayoune,Chlef,Zagora,Saïda,Tlemcen"
 },
 {
     "name": "Nafusi",
@@ -1081,7 +1081,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Nafusi,Agadir,Tiznit,Oran,Ghardaïa,Béjaïa,Blida,Bordj Bou Arreridj,Casablanca,Salé,Monastir,Tizi Ouzou,Meknès,Médéa,Safi,Sfax,Derna,Bouïra,Tantan,Sousse,Erfoud,Tétouan,Mostaganem,Azrou,Tlemcen,Rissani,Bizerte,Guelmim"
 },
 {
     "name": "Nama",
@@ -1090,7 +1090,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Nama,Middelburg,Swakopmund,East London,Xai-Xai,Mmabatho,Soweto,Upington,Serowe,Maseru,Teyateyaneng,Rustenburg,Springbok,Vereeniging,Mutare,Bulawayo,Tembisa,Ndola,George,Inhambane,Luanshya,Kitwe,Bethal,Salima,Chitungwiza,Beira,Masvingo,Qacha's Nek"
 },
 {
     "name": "Nancere",
@@ -1099,7 +1099,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Nancere,Bamako,Bobo-Dioulasso,Cotonou,Kaduna,Koidu,Banjul,Koudougou,Katsina,Daloa,Monrovia,Kano,Maiduguri,Lomé,Conakry,Porto-Novo,Korhogo,Cacheu,Kara,Bolama,Wukari,Bamenda,Parakou,Brikama,Dakar,Niamey,Bertoua,Tambacounda"
 },
 {
     "name": "Naro",
@@ -1108,7 +1108,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Naro,Bamako,Ouagadougou,Bafatá,Porto-Novo,Warri,Banjul,Cotonou,Daloa,Jalingo,Freetown,Parakou,Kaolack,Mopti,Minna,Kaduna,Timbuktu,Kumasi,Nouakchott,Sunyani,Lomé,Sokodé,Sikasso,Maiduguri,Ziguinchor,Bissau,Conakry,Kumba"
 },
 {
     "name": "Ndam",
@@ -1117,7 +1117,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Ndam,Abidjan,Bouaké,Sokodé,Bissau,Conakry,Timbuktu,Daloa,Bafatá,Bamako,Niamey,Praia,Lomé,Kaolack,Mopti,Nouakchott,Koidu,Ziguinchor,Tema,Korhogo,Parakou,Bertoua,Brikama,Yamoussoukro,Bauchi,Ségou,Kumasi,Jos"
 },
 {
     "name": "Ngambay",
@@ -1126,7 +1126,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Ngambay,Accra,Timbuktu,Conakry,Lomé,Ouagadougou,Freetown,Ségou,Daloa,Kaolack,Korhogo,Kumasi,Sunyani,Basse,Niamey,Tenkodogo,Cacheu,Man,Maiduguri,Kayes,Kaduna,Thiès,Bamenda,Ziguinchor,Bertoua,Bolama,Bamako,Ngaoundéré"
 },
 {
     "name": "Ngamo",
@@ -1135,7 +1135,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Ngamo,Bertoua,Accra,Bissau,Dakar,Bauchi,Tema,Sokodé,Ouagadougou,Tambacounda,Jos,Kumasi,Katsina,Abidjan,Koudougou,Bamako,Maiduguri,Saint-Louis,Ngaoundéré,Daloa,Conakry,Thiès,Nouakchott,Ziguinchor,Parakou,Ségou,Kankan,Cotonou"
 },
 {
     "name": "Ngas",
@@ -1144,7 +1144,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Ngas,Accra,Banjul,Tema,Abidjan,Bobo-Dioulasso,Daloa,Tenkodogo,Koidu,Nouakchott,Bafatá,Sokodé,Katsina,Monrovia,Bouaké,Kayes,Korhogo,Kumasi,Nzérékoré,Lafia,Parakou,Banfora,Mopti,Bafoussam,Ségou,Ouagadougou,Jos,Sokoto"
 },
 {
     "name": "Ngeté-Herdé",
@@ -1153,7 +1153,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Ngeté-Herdé,Ziguinchor,Bertoua,Bissau,Bouaké,Nouakchott,Daloa,Dakar,Kankan,Timbuktu,Parakou,Tenkodogo,Jalingo,Lafia,Praia,Bamako,Lomé,Sunyani,Koudougou,Bamenda,Conakry,Man,Porto-Novo,Tamale,Freetown,Malabo,Mopti,Tema"
 },
 {
     "name": "Nggwahyi",
@@ -1162,7 +1162,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Nggwahyi,Chuxiong,Mangan,Lhasa,Ngari,Barkam,Deqin,Lijiang,Dalton Ganj,Xichang,Zhaotong,Jowai,Rhenock,Paro,Jorthang,Rishikesh,Melli,Gangtok,Rangpo,Garzê,Kunming,Punakha,Mawlai,Wangdue,Xichang,Tura,Koksar,Dali"
 },
 {
     "name": "Ngizim",
@@ -1171,7 +1171,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Ngizim,Abidjan,Bouaké,Praia,Bissau,Conakry,Katsina,Man,Daloa,Monrovia,Niamey,Sokodé,Kayes,Mopti,Accra,Porto-Novo,Lomé,Gbarnga,Nouakchott,Ziguinchor,Bamenda,Ségou,Dakar,Ouagadougou,Zinder,Zaria,Bafatá,Bamako"
 },
 {
     "name": "Ngwaba",
@@ -1180,7 +1180,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Ngwaba,Gbarnga,Accra,Bamako,Ebebiyín,Dakar,Tema,Man,Kankan,Kayes,Mopti,Daloa,Lomé,Bouaké,Niamey,Ségou,Kaduna,Timbuktu,Monrovia,Sokodé,Banjul,Assomada,Brikama,Katsina,Nzérékoré,Koidu,Praia,Sokoto"
 },
 {
     "name": "Nkore",
@@ -1189,7 +1189,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Nkore,Kumasi,Katsina,Jalingo,Bamako,Bobo-Dioulasso,Dakar,Korhogo,Farafenni,Banjul,Kaolack,Kayes,Kankan,Bafatá,Kara,Man,Tenkodogo,Sikasso,Monrovia,Accra,Bertoua,Lomé,Sokodé,Maiduguri,Niamey,Nzérékoré,Ségou,Sokoto"
 },
 {
     "name": "North Giziga",
@@ -1198,7 +1198,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "North Giziga,Abidjan,Assomada,Kaduna,Monrovia,Koidu,Koudougou,Dakar,Nouakchott,Basse,Kaolack,Sokodé,Kara,Kano,Katsina,Bauchi,Ouagadougou,Timbuktu,Nzérékoré,Bouaké,Niamey,Bertoua,Ebebiyín,Bolt,Sikasso,Praia,Kayes,Lomé"
 },
 {
     "name": "North Mofu",
@@ -1207,7 +1207,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "North Mofu,Koidu,Ebebiyín,Abidjan,Ziguinchor,Bamenda,Cotonou,Conakry,Kankan,Bolt,Praia,Koudougou,Kaolack,Daloa,Kara,Thiès,Niamey,Lomé,Monrovia,Katsina,Basse,Tambacounda,Malabo,Bamako,Parakou,Assomada,Maiduguri,Buea"
 },
 {
     "name": "Northern Berber",
@@ -1216,7 +1216,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Northern Berber,Ifrane,Blida,Agadir,El Jadida,Oran,Tizi Ouzou,Safi,Béjaïa,Ouargla,Fès,Tiznit,Derna,Misrata,Erfoud,Sousse,Zliten,Béchar,Tunis,Meknès,Zagora,Biskra,Rissani,Chefchaouen,Tangier,Dakhla,Taza,Saïda"
 },
 {
     "name": "Nteng",
@@ -1225,7 +1225,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Nteng,Bolt,Kaduna,Cotonou,Lomé,Kaolack,Banjul,Ségou,Nouakchott,Abidjan,Koidu,Bissau,Kankan,Ziguinchor,Praia,Tema,Parakou,Basse,Koudougou,Wa,Tamale,Maiduguri,Lafia,Cacheu,Monrovia,Bauchi,Bamenda,Bertoua"
 },
 {
     "name": "Nuer",
@@ -1234,7 +1234,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Nuer,Bertoua,Tambacounda,Bouaké,Cotonou,Nouakchott,Ouagadougou,Gbarnga,Koidu,Niamey,Tamale,Abidjan,Accra,Maiduguri,Sikasso,Bissau,Bobo-Dioulasso,Timbuktu,Monrovia,Porto-Novo,Dakar,Daloa,Freetown,Zinder,Sokodé,Praia,Banjul,Bamenda"
 },
 {
     "name": "Nyam",
@@ -1243,7 +1243,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Nyam,Kieta,Madang,Kimbe,Wewak,Kavieng,Mount Hagen,Lae,Alotau,Kokopo,Lake Kopiago,Nomad,Popondetta,Wapenamanda,Vanimo,Menyamya,Wau,Bogia,Olsobip,Pangia,Aitape,Kiunga,Komo,Telefomin,Kikori,Aseki,Chuave,Tabubil"
 },
 {
     "name": "Nzanyi",
@@ -1252,7 +1252,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Nzanyi,Xichang,Ngari,Jowai,Nagqu,Almora,Mangan,Rangpo,Rishikesh,Nyingchi,Zhongdian,Dali,Cherrapunji,Shigatse,Chuxiong,Namchi,Kangding,Leshan,Nainital,Samdrup Jongkhar,Daocheng,Xichang,Lijiang,Trongsa,Shillong,Barkam,Deqin,Singtam"
 },
 {
     "name": "Nǁng",
@@ -1261,7 +1261,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Nǁng,Abidjan,Kano,Lomé,Cotonou,Bamenda,Ouagadougou,Gbarnga,Bertoua,Monrovia,Man,Bauchi,Sunyani,Kaolack,Katsina,Koudougou,Sokodé,Saint-Louis,Conakry,Bamako,Dakar,Warri,Porto-Novo,Brikama,Parakou,Bata,Jos,Niamey"
 },
 {
     "name": "Omo–Tana",
@@ -1270,7 +1270,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Omo–Tana,Abidjan,Bafatá,Bamako,Gbarnga,Koidu,Bobo-Dioulasso,Katsina,Tema,Cotonou,Man,Brikama,Kankan,Kano,Kaolack,Ouagadougou,Parakou,Sokodé,Kayes,Sunyani,Bertoua,Jalingo,Wa,Lomé,Saint-Louis,Zaria,Gabú,Porto-Novo"
 },
 {
     "name": "Oromoid",
@@ -1279,7 +1279,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Oromoid,Katsina,Dakar,Bobo-Dioulasso,Conakry,Tema,Cotonou,Maiduguri,Bamako,Brikama,Basse,Bertoua,Kaolack,Sunyani,Kara,Kaduna,Yola,Saint-Louis,Tamale,Koudougou,Natitingou,Garoua,Zinder,Kankan,Sikasso,Ebebiyín,Niamey,Nouakchott"
 },
 {
     "name": "Paa",
@@ -1288,7 +1288,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Paa,Timbuktu,Ouagadougou,Nouakchott,Ebebiyín,Daloa,Freetown,Bamenda,Parakou,Koudougou,Gbarnga,Kumasi,Maiduguri,Kaolack,Ngaoundéré,Bafatá,Praia,Bamako,Kara,Sunyani,Porto-Novo,Monrovia,Jalingo,Bertoua,Dakar,Mopti,Malabo,Ziguinchor"
 },
 {
     "name": "Pali language (Chadic)",
@@ -1297,7 +1297,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Pali language (Chadic),Ebebiyín,Bamako,Minna,Conakry,Gabú,Katsina,Lomé,Bissau,Kankan,Kara,Tema,Kaolack,Freetown,Ségou,Kayes,Maiduguri,Nouakchott,Korhogo,Tenkodogo,Ziguinchor,Banjul,Tamale,Malabo,Brikama,Bobo-Dioulasso,Niamey,Nzérékoré"
 },
 {
     "name": "Pan",
@@ -1306,7 +1306,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Pan,Nouakchott,Abidjan,Freetown,Bamako,Cotonou,Bissau,Bobo-Dioulasso,Sokodé,Man,Ebebiyín,Saint-Louis,Banfora,Banjul,Gbarnga,Warri,Bamenda,Kara,Yola,Ouahigouya,Tamale,Niamey,Maiduguri,Wa,Lomé,Mopti,Minna,Ngaoundéré"
 },
 {
     "name": "Parkwa",
@@ -1315,7 +1315,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Parkwa,Kaduna,Bamako,Bouaké,Bissau,Conakry,Timbuktu,Kara,Katsina,Dakar,Tamale,Porto-Novo,Kaolack,Gbarnga,Kano,Cacheu,Wukari,Malabo,Koidu,Korhogo,Monrovia,Kumba,Man,Ebebiyín,Ségou,Zaria,Tambacounda,Sokodé"
 },
 {
     "name": "Pero",
@@ -1324,7 +1324,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Pero,Bamako,Daloa,Kaduna,Ebebiyín,Cotonou,Conakry,Thiès,Tema,Bafatá,Kankan,Kumasi,Mopti,Tambacounda,Malabo,Katsina,Wa,Warri,Nouakchott,Monrovia,Nzérékoré,Porto-Novo,Lomé,Kumba,Kano,Sokodé,Tamale,Basse"
 },
 {
     "name": "Peve",
@@ -1333,7 +1333,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Peve,Tema,Kankan,Ouagadougou,Accra,Bissau,Nouakchott,Koudougou,Daloa,Bouaké,Freetown,Kayes,Ségou,Ziguinchor,Conakry,Koidu,Maroua,Bauchi,Monrovia,Jalingo,Sikasso,Lomé,Parakou,Sokodé,Porto-Novo,Gusau,Tambacounda,Sokoto"
 },
 {
     "name": "Pichinglis",
@@ -1342,7 +1342,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Pichinglis,Chamdo,Nainital,Lhasa,Leh,Ngari,Mangan,Kangding,Barkam,Dali,Jorthang,Singtam,Trongsa,Zhaotong,Mawlai,Jakar,Trashigang,Rishikesh,Lijiang,Dehradun,Melli,Kunming,Shigatse,Gangtok,Shillong,Deqin,Xichang,Dalton Ganj"
 },
 {
     "name": "Piya",
@@ -1351,7 +1351,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Piya,Praia,Banjul,Sunyani,Ouagadougou,Conakry,Kaolack,Cotonou,Tenkodogo,Tambacounda,Kara,Kumasi,Kankan,Mopti,Kayes,Nzérékoré,Korhogo,Accra,Ebebiyín,Bertoua,Tarrafal,Monrovia,Warri,Porto-Novo,Saint-Louis,Bamenda,Ziguinchor,Brikama"
 },
 {
     "name": "Poki",
@@ -1360,7 +1360,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Poki,Accra,Kumasi,Kankan,Jos,Wukari,Cotonou,Ebebiyín,Freetown,Man,Korhogo,Brikama,Sokodé,Lafia,Kara,Mopti,Kaolack,Bolama,Porto-Novo,Tenkodogo,Bamenda,Nzérékoré,Katsina,Yamoussoukro,Bouaké,Kayes,Wa,Sokoto"
 },
 {
     "name": "Polci",
@@ -1369,7 +1369,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Polci,Bouaké,Banjul,Cotonou,Bafoussam,Dakar,Kayes,Bobo-Dioulasso,Kumasi,Monrovia,Nzérékoré,Kaolack,Kara,Kankan,Timbuktu,Porto-Novo,Maiduguri,Saint-Louis,Daloa,Ziguinchor,Man,Kano,Koidu,Yamoussoukro,Zinder,Tambacounda,Niamey,Sikasso"
 },
 {
     "name": "Proto-Berber",
@@ -1378,7 +1378,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Proto-Berber,Marrakech,Tunis,Biskra,Blida,Béjaïa,Casablanca,Aïn Sefra,Béchar,Oran,Mostaganem,Algiers,Meknès,Fès,Erfoud,Oujda,Salé,Essaouira,Rabat,Ouargla,Tangier,Sfax,Saïda,Monastir,Zagora,Bouïra,Ghat,Tlemcen"
 },
 {
     "name": "Psikye dialect",
@@ -1387,7 +1387,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Psikye dialect,Accra,Kankan,Bissau,Conakry,Niamey,Freetown,Korhogo,Abidjan,Dakar,Basse,Lafia,Koidu,Banjul,Daloa,Monrovia,Maiduguri,Saint-Louis,Thiès,Tema,Gbarnga,Tenkodogo,Mindelo,Wa,Jalingo,Zaria,Jos,Sokodé"
 },
 {
     "name": "Putai",
@@ -1396,7 +1396,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Putai,Luang Prabang,Savannakhet,My Tho,Hai Phong,Sam Neua,Qionghai,Phan Thiet,Thakhek,Chiang Mai,Haikou,Phongsali,Rach Gia,Hanoi,Chiang Rai,Siem Reap,Nha Trang,Mandalay,Lạng Sơn,Pursat,Sơn La,Xieng Khouang,Da Nang,Hue,Wuzhou,Khon Kaen,Sihanoukville,Yangon"
 },
 {
     "name": "Pyapun",
@@ -1405,7 +1405,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Pyapun,Accra,Daloa,Bobo-Dioulasso,Conakry,Parakou,Bamako,Mopti,Kara,Gbarnga,Nouakchott,Kumasi,Kaolack,Dakar,Bouaké,Zinder,Ouagadougou,Kaduna,Korhogo,Ebebiyín,Man,Praia,Bafatá,Ségou,Nzérékoré,Farafenni,Lomé,Bertoua"
 },
 {
     "name": "Rendille–Boni",
@@ -1414,7 +1414,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Rendille–Boni,Daloa,Ziguinchor,Bissau,Jalingo,Cotonou,Freetown,Bamako,Gbarnga,Bafatá,Ségou,Koidu,Nouakchott,Korhogo,Basse,Bertoua,Kano,Katsina,Tema,Porto-Novo,Ebebiyín,Thiès,Kayes,Zaria,Nzérékoré,Lafia,Ouahigouya,Warri"
 },
 {
     "name": "Ron Chadic",
@@ -1423,7 +1423,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Ron Chadic,Accra,Abidjan,Banjul,Kaduna,Dakar,Conakry,Daloa,Freetown,Porto-Novo,Gbarnga,Kankan,Bafatá,Jalingo,Kumasi,Man,Parakou,Buea,Cacheu,Maiduguri,Bolama,Thiès,Saint-Louis,Tema,Sunyani,Korhogo,Bertoua,Jos"
 },
 {
     "name": "Saba Chadic",
@@ -1432,7 +1432,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Saba Chadic,Banjul,Ségou,Bobo-Dioulasso,Bamako,Kaolack,Gbarnga,Tema,Dakar,Kankan,Nouakchott,Niamey,Daloa,Yola,Kayes,Accra,Bolt,Tarrafal,Kano,Sokodé,Tamale,Tenkodogo,Maiduguri,Sunyani,Monrovia,Kumasi,Koudougou,Maroua"
 },
 {
     "name": "Saho–Afar",
@@ -1441,7 +1441,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Saho–Afar,Abidjan,Bamako,Bertoua,Tema,Lomé,Tenkodogo,Nouakchott,Kara,Kayes,Daloa,Freetown,Gbarnga,Kaolack,Koudougou,Korhogo,Kaduna,Saint-Louis,Koidu,Zinder,Man,Ouagadougou,Maroua,Cotonou,Timbuktu,Tarrafal,Nzérékoré,Warri"
 },
 {
     "name": "Sandawe",
@@ -1450,7 +1450,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Sandawe,Tembisa,Mzuzu,Port Elizabeth,Livingstone,Bloemfontein,Butha-Buthe,Masvingo,Rustenburg,Salima,Mmabatho,Welkom,Springbok,Quelimane,Mafeteng,Kabwe,Bethal,Selebi-Phikwe,Gweru,Chingola,Lusaka,Kwekwe,Harare,Kimberley,Mangochi,Zomba,Walvis Bay,Tete"
 },
 {
     "name": "Sar",
@@ -1459,7 +1459,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Sar,Nouakchott,Katsina,Bamako,Bouaké,Dakar,Lomé,Sokodé,Freetown,Kaduna,Man,Koidu,Bertoua,Bissau,Ouagadougou,Koudougou,Tema,Gbarnga,Mopti,Bafatá,Tenkodogo,Ségou,Niamey,Natitingou,Parakou,Zaria,Monrovia,Timbuktu"
 },
 {
     "name": "Sarua",
@@ -1468,7 +1468,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Sarua,Daloa,Cotonou,Nouakchott,Freetown,Bamako,Banjul,Cacheu,Korhogo,Sokodé,Lomé,Malabo,Maiduguri,Kankan,Bamenda,Koudougou,Accra,Bauchi,Kumasi,Katsina,Man,Bafatá,Porto-Novo,Ziguinchor,Dakar,Parakou,Nzérékoré,Bouaké"
 },
 {
     "name": "Setlôkwa",
@@ -1477,7 +1477,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Setlôkwa,Kayes,Banjul,Koidu,Abidjan,Sikasso,Conakry,Cacheu,Freetown,Lomé,Koudougou,Porto-Novo,Bamenda,Kumasi,Kara,Praia,Niamey,Saint-Louis,Timbuktu,Dakar,Kaduna,Kumba,Gusau,Tamale,Bissau,Warri,Bamako,Sokoto"
 },
 {
     "name": "Sha",
@@ -1486,7 +1486,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Sha,Tambacounda,Praia,Koidu,Bouaké,Gbarnga,Katsina,Conakry,Kaolack,Freetown,Daloa,Kumasi,Kayes,Bertoua,Niamey,Kara,Timbuktu,Tenkodogo,Bamenda,Ouagadougou,Aconibe,Thiès,Basse,Abidjan,Nzérékoré,Zaria,Jos,Tarrafal"
 },
 {
     "name": "Sharwa",
@@ -1495,7 +1495,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Sharwa,Ouagadougou,Tambacounda,Gbarnga,Bissau,Koidu,Daloa,Lomé,Bamenda,Dakar,Freetown,Kumasi,Cacheu,Mopti,Koudougou,Kara,Buea,Bamako,Praia,Sunyani,Maiduguri,Niamey,Tema,Man,Monrovia,Kano,Banjul,Garoua"
 },
 {
     "name": "Shenwa",
@@ -1504,7 +1504,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Shenwa,Liuzhou,Chiang Rai,Hanoi,Quy Nhon,Hue,Yangon,Lạng Sơn,Savannakhet,Luang Prabang,Phan Thiet,Pursat,Rach Gia,Chiềng Mai,Phongsali,Siem Reap,Điện Biên Phủ,Bago,Hai Phong,Pathein,Xieng Khouang,Hat Yai,Phnom Penh,Nha Trang,Kampot,Macau,Taunggyi,Kampong Cham"
 },
 {
     "name": "Siri (Chadic)",
@@ -1513,7 +1513,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Siri (Chadic),Abidjan,Bissau,Man,Cotonou,Koidu,Daloa,Kankan,Mopti,Dakar,Freetown,Bouaké,Porto-Novo,Lafia,Koudougou,Kumasi,Banjul,Saint-Louis,Tema,Gbarnga,Ouagadougou,Thiès,Basse,Ziguinchor,Sunyani,Cacheu,Minna,Nzérékoré"
 },
 {
     "name": "Siri Chadic",
@@ -1522,7 +1522,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Siri Chadic,Niamey,Kaolack,Bobo-Dioulasso,Bissau,Dakar,Abidjan,Nouakchott,Koidu,Freetown,Korhogo,Saint-Louis,Mopti,Ngaoundéré,Kumasi,Ouahigouya,Bertoua,Koudougou,Maiduguri,Sunyani,Bamako,Monrovia,Brikama,Conakry,Sikasso,Garoua,Thiès,Bauchi"
 },
 {
     "name": "Sokoro",
@@ -1531,7 +1531,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Sokoro,Accra,Daloa,Natitingou,Abidjan,Banjul,Bouaké,Basse,Kara,Ebebiyín,Freetown,Kumasi,Kaolack,Kaduna,Man,Ouagadougou,Tamale,Dakar,Korhogo,Conakry,Porto-Novo,Mopti,Gusau,Yamoussoukro,Zinder,Ségou,Timbuktu,Saint-Louis"
 },
 {
     "name": "Somrai",
@@ -1540,7 +1540,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Somrai,Sokodé,Banjul,Kayes,Ebebiyín,Accra,Gbarnga,Dakar,Abidjan,Daloa,Kankan,Nzérékoré,Koidu,Mopti,Sunyani,Freetown,Lomé,Ouagadougou,Kaolack,Kara,Bertoua,Tenkodogo,Parakou,Ziguinchor,Saint-Louis,Jos,Kaduna,Sikasso"
 },
 {
     "name": "South Banda",
@@ -1549,7 +1549,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "South Banda,Libreville,Kimongo,Douala,Mbaïki,Brazzaville,Bata,Kinshasa,Bangassou,Owando,Madingou,Moutamba,Carnot,Dolisie,Boende,Nkayi,Koulamoutou,Edéa,Bujumbura,Tchibanga,Bafia,Lambaréné,Yaoundé,Makokou,Cankuzo,Bambari,Lisala,Sangmélima"
 },
 {
     "name": "South Cushitic",
@@ -1558,7 +1558,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "South Cushitic,Arba Minch,Addis Ababa,Bahir Dar,Sodo,Kampala,Harar,Shashamane,Embu,Dila,Dire Dawa,Negele,Mbarara,Jinja,Nekemte,Mityana,Yabelo,Mizan Teferi,Mbale,Juba,Gedaref,Kakamega,Nakuru,Nyala,Soroti,Kitale,Kericho,Meru"
 },
 {
     "name": "South Giziga",
@@ -1567,7 +1567,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "South Giziga,Bouaké,Bamako,Sokodé,Praia,Ségou,Accra,Daloa,Kumasi,Tema,Korhogo,Brikama,Gbarnga,Bertoua,Koudougou,Timbuktu,Kara,Porto-Novo,Man,Kaolack,Banjul,Bafatá,Bafoussam,Bauchi,Mopti,Nzérékoré,Niamey,Ziguinchor"
 },
 {
     "name": "Southern Birifor",
@@ -1576,7 +1576,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Southern Birifor,Saint-Louis,Banjul,Bertoua,Bissau,Timbuktu,Daloa,Katsina,Dakar,Gbarnga,Koidu,Freetown,Lomé,Kayes,Bouaké,Man,Korhogo,Kankan,Tema,Jos,Parakou,Monrovia,Maiduguri,Kumasi,Banfora,Assomada,Tambacounda,Ziguinchor"
 },
 {
     "name": "Southern Gabri",
@@ -1585,7 +1585,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Southern Gabri,Accra,Abidjan,Gbarnga,Bobo-Dioulasso,Banjul,Dakar,Katsina,Ségou,Gabú,Kara,Kumasi,Bertoua,Mopti,Niamey,Nzérékoré,Tema,Conakry,Korhogo,Porto-Novo,Saint-Louis,Jalingo,Nouakchott,Ziguinchor,Parakou,Zaria,Jos,Sokodé"
 },
 {
     "name": "Standard Algerian Berber",
@@ -1594,7 +1594,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Standard Algerian Berber,El Jadida,Batna,Sfax,Ifrane,Ghardaïa,Taroudant,Bordj Bou Arreridj,Tétouan,Tunis,Fès,Béchar,Safi,Gabès,Blida,Oran,Algiers,Rissani,Tiznit,Biskra,Boujdour,Meknès,Misrata,Monastir,Zagora,Tlemcen,Derna,Casablanca"
 },
 {
     "name": "Standard Moroccan Amazigh",
@@ -1603,7 +1603,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Standard Moroccan Amazigh,Abidjan,Banjul,Bissau,Katsina,Bouaké,Jalingo,Gusau,Cotonou,Freetown,Conakry,Tamale,Nouakchott,Lomé,Sokodé,Koidu,Parakou,Daloa,Kano,Bafatá,Timbuktu,Ségou,Wa,Malabo,Monrovia,Zinder,Kara,Sikasso"
 },
 {
     "name": "Sukur Chadic",
@@ -1612,7 +1612,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Sukur Chadic,Ebebiyín,Lomé,Nouakchott,Accra,Ségou,Bafatá,Timbuktu,Daloa,Kayes,Nzérékoré,Freetown,Kankan,Ziguinchor,Gusau,Man,Tenkodogo,Bertoua,Koidu,Minna,Parakou,Yola,Niamey,Bafoussam,Sikasso,Assomada,Zaria,Tambacounda"
 },
 {
     "name": "Taa",
@@ -1621,7 +1621,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Taa,Bouaké,Monrovia,Banjul,Man,Bamako,Freetown,Abidjan,Kara,Dakar,Maiduguri,Gusau,Accra,Lafia,Kaolack,Korhogo,Bobo-Dioulasso,Ouagadougou,Koidu,Koudougou,Bamenda,Sokodé,Niamey,Cotonou,Kankan,Assomada,Aconibe,Nouakchott"
 },
 {
     "name": "Tagdal Tuareg Berber",
@@ -1630,7 +1630,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Tagdal Tuareg Berber,Ifrane,Béchar,Taroudant,Marrakech,Constantine,Blida,Batna,Oujda,Taza,Boujdour,Salé,Mostaganem,Tangier,Rabat,Sousse,Erfoud,Bouïra,Sétif,Saïda,Tétouan,Ouargla,Tiznit,Gabès,Zagora,Ouarzazate,Smara,Bizerte"
 },
 {
     "name": "Tal",
@@ -1639,7 +1639,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Tal,Yamoussoukro,Bamako,Bouaké,Bobo-Dioulasso,Kaolack,Bafatá,Kankan,Dakar,Freetown,Lomé,Gbarnga,Katsina,Assomada,Jalingo,Tambacounda,Kayes,Ouagadougou,Lafia,Koudougou,Man,Nzérékoré,Mopti,Korhogo,Monrovia,Tamale,Daloa,Parakou"
 },
 {
     "name": "Tala",
@@ -1648,7 +1648,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Tala,Tenkodogo,Bamako,Dakar,Kaolack,Man,Koidu,Gbarnga,Katsina,Kumasi,Bobo-Dioulasso,Praia,Bamenda,Banfora,Maiduguri,Koudougou,Tambacounda,Saint-Louis,Timbuktu,Porto-Novo,Kara,Ségou,Bertoua,Bouaké,Wa,Abidjan,Jos,Sokoto"
 },
 {
     "name": "Talni",
@@ -1657,7 +1657,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Talni,Abidjan,Accra,Gusau,Nouakchott,Daloa,Bouaké,Man,Sokodé,Bamako,Basse,Kumasi,Ouagadougou,Bafatá,Katsina,Timbuktu,Kayes,Koudougou,Porto-Novo,Lomé,Yola,Ségou,Kaduna,Brikama,Mopti,Zaria,Monrovia,Praia"
 },
 {
     "name": "Tamahaq",
@@ -1666,7 +1666,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Tamahaq,Misrata,Biskra,Mostaganem,Marrakech,Constantine,Fès,Batna,Agadir,Taza,Erfoud,Tangier,Béchar,Mahdia,Sétif,Benghazi,Salé,Bordj Bou Arreridj,Safi,Derna,Ghardaïa,Tunis,Oujda,Taourirt,Rissani,Tlemcen,Meknès,Sabha"
 },
 {
     "name": "Tamasheq",
@@ -1675,7 +1675,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Tamasheq,Agadir,Taroudant,Annaba,Oujda,Ghardaïa,El Jadida,Marrakech,Blida,Meknès,Rabat,Erfoud,Fès,Bouïra,Algiers,Ifrane,Nabeul,Safi,Taza,Béchar,Sousse,Bordj Bou Arreridj,Misrata,Sfax,Tiznit,Dakhla,Constantine,Houmt Souk"
 },
 {
     "name": "Tambas",
@@ -1684,7 +1684,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Tambas,Katsina,Lomé,Bissau,Nouakchott,Kaolack,Cotonou,Jalingo,Gbarnga,Kayes,Porto-Novo,Zinder,Banfora,Kaduna,Koudougou,Tambacounda,Ségou,Lafia,Monrovia,Korhogo,Bata,Niamey,Conakry,Daloa,Sokodé,Timbuktu,Freetown,Sokoto"
 },
 {
     "name": "Tamki",
@@ -1693,7 +1693,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Tamki,Nouakchott,Bissau,Abidjan,Koudougou,Dakar,Sunyani,Kankan,Conakry,Kaduna,Accra,Kaolack,Banjul,Koidu,Bobo-Dioulasso,Timbuktu,Mopti,Man,Thiès,Lomé,Freetown,Basse,Kayes,Cotonou,Jalingo,Porto-Novo,Nzérékoré,Sikasso"
 },
 {
     "name": "Tawellemmet Berber",
@@ -1702,7 +1702,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Tawellemmet Berber,Béchar,Batna,Ouargla,Tunis,Algiers,Constantine,Ghardaïa,Dakhla,Béjaïa,Rissani,Salé,Mostaganem,Marrakech,Rabat,Sousse,Boujdour,Safi,Meknès,Blida,Tétouan,Tangier,Oujda,Azrou,Zagora,Fès,Bouïra,Djerba"
 },
 {
     "name": "Temne",
@@ -1711,7 +1711,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Temne,Accra,Bamako,Banjul,Tema,Sunyani,Bertoua,Natitingou,Kaolack,Freetown,Kara,Bauchi,Koidu,Maiduguri,Ouahigouya,Nzérékoré,Katsina,Gusau,Ebebiyín,Kayes,Saint-Louis,Lomé,Porto-Novo,Bolama,Mopti,Monrovia,Tambacounda,Warri"
 },
 {
     "name": "Tera",
@@ -1720,7 +1720,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Tera,Ouagadougou,Banjul,Bamako,Bouaké,Abidjan,Dakar,Nouakchott,Kankan,Koudougou,Gbarnga,Koidu,Katsina,Lomé,Ségou,Korhogo,Niamey,Timbuktu,Maiduguri,Ziguinchor,Man,Monrovia,Brikama,Tamale,Warri,Jos,Tambacounda,Kumba"
 },
 {
     "name": "Teshenawa",
@@ -1729,7 +1729,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Teshenawa,Sam Neua,Kampong Cham,Ho Chi Minh City,Chiang Mai,Rach Gia,Hanoi,Hai Phong,Vientiane,Da Nang,Savannakhet,Phnom Penh,Shantou,Wuzhou,Fangchenggang,Nanning,Haikou,Khon Kaen,Lạng Sơn,Hong Kong,Sihanoukville,Quy Nhon,Xieng Khouang,Chiang Rai,Yangon,Pattaya,Taunggyi,Takeo"
 },
 {
     "name": "Tetserret Tuareg Berber",
@@ -1738,7 +1738,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Tetserret Tuareg Berber,El Jadida,Tétouan,Biskra,Blida,Meknès,Ghardaïa,Béchar,Safi,Monastir,Oran,Annaba,Sétif,Casablanca,Misrata,Erfoud,Algiers,Rabat,Taza,Tizi Ouzou,Chefchaouen,Oujda,Sfax,Tiznit,Constantine,Houmt Souk,Tantan,Midelt"
 },
 {
     "name": "Tikar",
@@ -1747,7 +1747,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Tikar,Lafia,Banjul,Kayes,Dakar,Accra,Bamako,Daloa,Kankan,Saint-Louis,Bouaké,Gbarnga,Korhogo,Wa,Ouagadougou,Man,Bafatá,Kara,Mopti,Niamey,Tamale,Warri,Lomé,Nouakchott,Tenkodogo,Assomada,Bafoussam,Cacheu"
 },
 {
     "name": "Tiro",
@@ -1756,7 +1756,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Tiro,Abidjan,Accra,Jalingo,Bissau,Daloa,Gbarnga,Koudougou,Bamenda,Sokodé,Kara,Mopti,Ouagadougou,Ziguinchor,Dakar,Nouakchott,Parakou,Man,Lomé,Niamey,Tamale,Basse,Wa,Monrovia,Maroua,Saint-Louis,Kumasi,Banfora"
 },
 {
     "name": "Tobanga",
@@ -1765,7 +1765,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Tobanga,Bamako,Man,Abidjan,Bobo-Dioulasso,Cotonou,Korhogo,Nouakchott,Conakry,Ebebiyín,Koidu,Kaolack,Gbarnga,Sokodé,Ségou,Monrovia,Lomé,Bissau,Ziguinchor,Bamenda,Freetown,Kaduna,Bertoua,Nzérékoré,Niamey,Lafia,Tambacounda,Porto-Novo"
 },
 {
     "name": "Tonga Mozambique",
@@ -1774,7 +1774,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Tonga Mozambique,Awasa,Bahir Dar,Gambela,Lalibela,Dessie,Kericho,Debre Markos,Thika,Kisumu,Nekemte,Jinka,Robe,Gedaref,Woldia,Arba Minch,Jimma,Mbale,Malakal,Masaka,Yabelo,Yambio,Nakuru,Nyeri,Mombasa,Mekelle,Omdurman,Jinja"
 },
 {
     "name": "Tonga Zimbabwe Zambia Mozambique",
@@ -1783,7 +1783,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Tonga Zimbabwe Zambia Mozambique,Kisumu,Yei,Tororo,Malakal,Gambela,Embu,Machakos,Hosaena,Addis Ababa,Dessie,Awasa,Mizan Teferi,Soroti,Mbale,Entebbe,Woldia,Mbarara,Yabelo,Juba,Negele,Mombasa,Arua,Robe,Kitgum,Kitale,Harar,Eldoret"
 },
 {
     "name": "Toram",
@@ -1792,7 +1792,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Toram,Sikasso,Bouaké,Cotonou,Abidjan,Bobo-Dioulasso,Conakry,Banjul,Koidu,Accra,Saint-Louis,Freetown,Gbarnga,Lomé,Timbuktu,Kara,Warri,Bauchi,Koudougou,Dakar,Sokodé,Monrovia,Maiduguri,Yamoussoukro,Niamey,Praia,Nzérékoré,Thiès"
 },
 {
     "name": "Tsotsitaal and Camtho, aka Iscamtho",
@@ -1801,7 +1801,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Tsotsitaal and Camtho, aka Iscamtho,Kumba,Accra,Abidjan,Bobo-Dioulasso,Bouaké,Saint-Louis,Kaduna,Nouakchott,Kara,Korhogo,Assomada,Kaolack,Ebebiyín,Koudougou,Bamenda,Wukari,Bissau,Nzérékoré,Warri,Conakry,Banfora,Kankan,Malabo,Ziguinchor,Sokodé,Tema,Wa"
 },
 {
     "name": "Tsuvan",
@@ -1810,7 +1810,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Tsuvan,Bamako,Banjul,Gbarnga,Kumasi,Tema,Conakry,Minna,Kankan,Nouakchott,Freetown,Bobo-Dioulasso,Ouagadougou,Mopti,Monrovia,Kara,Kayes,Bafatá,Maroua,Sunyani,Ebebiyín,Accra,Jos,Niamey,Man,Bauchi,Bouaké,Thiès"
 },
 {
     "name": "Tswa",
@@ -1819,7 +1819,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Tswa,Banfora,Banjul,Bertoua,Freetown,Kumasi,Cotonou,Conakry,Kankan,Kayes,Mopti,Accra,Farafenni,Korhogo,Malabo,Koudougou,Parakou,Saint-Louis,Ziguinchor,Nouakchott,Jalingo,Monrovia,Porto-Novo,Thiès,Zinder,Zaria,Kaduna,Sunyani"
 },
 {
     "name": "Tumak",
@@ -1828,7 +1828,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Tumak,Ziguinchor,Accra,Daloa,Lomé,Praia,Dakar,Katsina,Kayes,Koudougou,Jalingo,Porto-Novo,Gbarnga,Ouagadougou,Ségou,Man,Conakry,Basse,Parakou,Korhogo,Warri,Kano,Bolama,Bissau,Ebebiyín,Assomada,Nzérékoré,Sikasso"
 },
 {
     "name": "Tunisian Arabic",
@@ -1837,7 +1837,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Tunis,Sfax,Bizerte,Sousse,Kairouan,Gabes,Gafsa,Monastir,Djerba,Tozeur,Hammamet,Nabeul,Beja,Jendouba,Le Kef,Siliana,Kasserine,Sidi Bouzad,Medenine,Tataouine,Kebili,Zarzis,Ben Arous,La Marsa,Sidi Bou Said"
+  "b": "Tunisian Arabic,Rustaq,Amman,Aqaba,Alexandria,Asyut,Tyre,Nablus,Sur,Cairo,Erbil,Mersin,Kuwait City,Karbala,Muscat,Istanbul,Port Said,Aleppo,Manama,Gaza,Damascus,Tanta,Beirut,Ibri,Baghdad,Sulaymaniyah,Deir ez-Zor,Urfa"
 },
 {
     "name": "Twi",
@@ -1846,7 +1846,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Twi,Man,Bouaké,Lafia,Banjul,Bertoua,Accra,Warri,Dakar,Koudougou,Ziguinchor,Kayes,Basse,Jalingo,Tema,Kara,Korhogo,Kaolack,Tenkodogo,Thiès,Kumasi,Praia,Maiduguri,Cotonou,Nzérékoré,Ouagadougou,Zaria,Kumba"
 },
 {
     "name": "Ubi",
@@ -1855,7 +1855,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Ubi,Koidu,Banjul,Bissau,Katsina,Bamenda,Daloa,Bouaké,Sokodé,Cotonou,Bertoua,Kumasi,Ebebiyín,Mopti,Kara,Bamako,Ségou,Nouakchott,Man,Abidjan,Monrovia,Porto-Novo,Tema,Tamale,Bobo-Dioulasso,Lomé,Garoua,Parakou"
 },
 {
     "name": "Vame",
@@ -1864,7 +1864,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Vame,Tema,Korhogo,Bamenda,Gabú,Bobo-Dioulasso,Katsina,Saint-Louis,Kara,Dakar,Kumasi,Koidu,Kankan,Mopti,Tambacounda,Man,Parakou,Bauchi,Ebebiyín,Banjul,Tamale,Niamey,Bolt,Tarrafal,Sikasso,Assomada,Daloa,Lafia"
 },
 {
     "name": "Vemgo-Mabas",
@@ -1873,7 +1873,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Vemgo-Mabas,Timbuktu,Daloa,Banjul,Kara,Nzérékoré,Kankan,Bobo-Dioulasso,Freetown,Minna,Ségou,Bafatá,Farafenni,Nouakchott,Mopti,Dakar,Ebebiyín,Conakry,Monrovia,Kayes,Lomé,Brikama,Bamako,Bolt,Abidjan,Zaria,Ouagadougou,Sunyani"
 },
 {
     "name": "Wandala",
@@ -1882,7 +1882,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Wandala,Bauchi,Accra,Abidjan,Bobo-Dioulasso,Kaolack,Ebebiyín,Man,Kayes,Monrovia,Bertoua,Koidu,Tema,Cotonou,Koudougou,Gbarnga,Parakou,Lomé,Mopti,Bissau,Conakry,Ngaoundéré,Porto-Novo,Sokoto,Banjul,Ségou,Tambacounda,Malabo"
 },
 {
     "name": "Warji",
@@ -1891,7 +1891,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Warji,Ouahigouya,Bobo-Dioulasso,Bafatá,Conakry,Bouaké,Ebebiyín,Sunyani,Abidjan,Freetown,Zinder,Tarrafal,Kano,Bata,Koudougou,Warri,Maiduguri,Korhogo,Monrovia,Kara,Kumba,Kumasi,Nzérékoré,Sikasso,Katsina,Cacheu,Ziguinchor,Lafia"
 },
 {
     "name": "Weh",
@@ -1900,7 +1900,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Weh,Jalingo,Kumba,Koudougou,Bobo-Dioulasso,Katsina,Conakry,Bissau,Kankan,Nouakchott,Accra,Gbarnga,Mopti,Daloa,Kayes,Tenkodogo,Timbuktu,Bamenda,Sikasso,Garoua,Man,Koidu,Nzérékoré,Sokoto,Banjul,Parakou,Bafoussam,Warri"
 },
 {
     "name": "West Banda",
@@ -1909,7 +1909,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "West Banda,Mbalmayo,Carnot,Bunia,Bata,Madingou,Kribi,Lambaréné,Libreville,Ruyigi,Bambari,Nkayi,Bossangoa,Gitega,Ebolowa,Owando,Dolisie,Kinshasa,Ewo,Port-Gentil,Tchibanga,Moutamba,Cankuzo,Mbaïki,Muramvya,Bangassou,Bururi,Kayanza"
 },
 {
     "name": "Western Somali",
@@ -1918,7 +1918,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Western Somali,Bouaké,Minna,Bobo-Dioulasso,Abidjan,Conakry,Bamako,Accra,Daloa,Freetown,Korhogo,Jos,Koidu,Man,Timbuktu,Zaria,Ebebiyín,Saint-Louis,Mopti,Jalingo,Parakou,Niamey,Maiduguri,Kumasi,Kaduna,Gusau,Lomé,Ouagadougou"
 },
 {
     "name": "Wuzlam",
@@ -1927,7 +1927,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Wuzlam,Guangzhou,Chongqing,Chengdu,Cheongju,Beijing,Tumen,Dalian,Ansan,Hefei,Nanchang,Taiyuan,Lhasa,Nanjing,Shenyang,Tianjin,Shanghai,Suzhou,Zhuhai,Qingdao,Ürümqi,Taichung,Ulsan,Wonsan,Zhengzhou,Dandong,Xi'an,Danchon"
 },
 {
     "name": "Yangere",
@@ -1936,7 +1936,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Yangere,Lomé,Banjul,Nzérékoré,Bissau,Bouaké,Monrovia,Timbuktu,Dakar,Daloa,Ebebiyín,Lafia,Gbarnga,Katsina,Korhogo,Parakou,Sokodé,Koidu,Gabú,Tenkodogo,Niamey,Thiès,Saint-Louis,Jalingo,Zaria,Assomada,Nouakchott,Freetown"
 },
 {
     "name": "Yedina",
@@ -1945,7 +1945,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Yedina,Ouagadougou,Nouakchott,Ségou,Conakry,Dakar,Bouaké,Freetown,Bobo-Dioulasso,Bissau,Daloa,Kumasi,Gbarnga,Kaolack,Koudougou,Kara,Man,Bamako,Kano,Kumba,Malabo,Porto-Novo,Gusau,Sunyani,Monrovia,Jalingo,Niamey,Kaduna"
 },
 {
     "name": "Yeyi",
@@ -1954,7 +1954,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Yeyi,Lhokha,Mawlai,Panzhihua,Barkam,Lhasa,Weixi,Deqin,Xichang,Rangpo,Lincang,Kangding,Shigatse,Lijiang,Trongsa,Thimphu,Namchi,Mangan,Jorthang,Chamdo,Kham,Xichang,Dalton Ganj,Rhenock,Nainital,Daofu,Jowai,Mianyang"
 },
 {
     "name": "Yiwom",
@@ -1963,7 +1963,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Yiwom,Chengdu,Jowai,Shigatse,Kunming,Xichang,Kangding,Mawlai,Weixi,Singtam,Melli,Nyingchi,Zhaotong,Nongstoin,Rangpo,Wangdue,Zigong,Nagqu,Cherrapunji,Lincang,Trongsa,Dali,Baoshan,Leh,Kham,Mianyang,Lhasa,Trashigang"
 },
 {
     "name": "Yoruba alt code",
@@ -1972,7 +1972,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ibadan,Lagos,Abeokuta,Oshogbo,Ilorin,Oyo,Ile-Ife,Ado-Ekiti,Akure,Ondo,Ogbomosho,Ilaro,Oyo,Ede,Iwo,Ogbomoso,Eruwa,Iperu,Abeokuta,Ota,Ifo,Sango-Otta,Ikorodu,Epe,Shagamu"
+  "b": "Yoruba alt code,Abidjan,Timbuktu,Bissau,Katsina,Kaolack,Nouakchott,Kara,Bafatá,Freetown,Conakry,Praia,Mopti,Bouaké,Banjul,Bamako,Parakou,Saint-Louis,Monrovia,Daloa,Koudougou,Kumasi,Lomé,Ziguinchor,Bauchi,Niamey,Korhogo,Sokoto"
 },
 {
     "name": "Zaghawa",
@@ -1981,7 +1981,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Zaghawa,Accra,Kaolack,Bouaké,Bobo-Dioulasso,Monrovia,Minna,Mopti,Kankan,Freetown,Bamako,Porto-Novo,Ségou,Lafia,Koidu,Korhogo,Ouagadougou,Tambacounda,Sikasso,Lomé,Maiduguri,Wukari,Ziguinchor,Zinder,Yola,Nzérékoré,Jos,Dakar"
 },
 {
     "name": "Zari",
@@ -1990,7 +1990,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Zari,Monrovia,Accra,Bissau,Daloa,Bertoua,Cotonou,Bamako,Conakry,Katsina,Bafatá,Kankan,Kayes,Nouakchott,Kaduna,Timbuktu,Sunyani,Ziguinchor,Sikasso,Lomé,Niamey,Kumasi,Porto-Novo,Tambacounda,Man,Bauchi,Tema,Ségou"
 },
 {
     "name": "Zeem",
@@ -1999,7 +1999,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Zeem,Bamako,Koidu,Cotonou,Ouagadougou,Dakar,Conakry,Banjul,Freetown,Jos,Kankan,Tambacounda,Kara,Mopti,Praia,Kayes,Farafenni,Timbuktu,Yola,Bolt,Kumasi,Niamey,Bertoua,Monrovia,Bafatá,Nzérékoré,Bouaké,Malabo"
 },
 {
     "name": "Zemba",
@@ -2008,7 +2008,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Zemba,Banfora,Abidjan,Lomé,Bobo-Dioulasso,Ebebiyín,Conakry,Man,Koudougou,Sokodé,Kankan,Banjul,Tema,Niamey,Ouagadougou,Lafia,Maiduguri,Saint-Louis,Sikasso,Brikama,Kumasi,Jalingo,Bauchi,Yamoussoukro,Parakou,Dakar,Kaduna,Maroua"
 },
 {
     "name": "Zenaga",
@@ -2017,7 +2017,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Zenaga,Tunis,Bordj Bou Arreridj,Ifrane,Biskra,Meknès,Fès,Mostaganem,El Jadida,Sousse,Boujdour,Marrakech,Oran,Tripoli,Oujda,Annaba,Tobruk,Bouïra,Erfoud,Tangier,Tizi Ouzou,Tiznit,Tétouan,Mascara,Monastir,Taroudant,Smara,Houmt Souk"
 },
 {
     "name": "Zirenkel",
@@ -2026,7 +2026,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Zirenkel,Sokodé,Praia,Kano,Dakar,Lomé,Bobo-Dioulasso,Nouakchott,Banjul,Katsina,Bertoua,Timbuktu,Gusau,Daloa,Kara,Garoua,Man,Bauchi,Koudougou,Bouaké,Conakry,Ouagadougou,Wa,Tema,Monrovia,Nzérékoré,Cacheu,Maroua"
 },
 {
     "name": "Zizilivakan",
@@ -2035,7 +2035,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Zizilivakan,Daloa,Sokodé,Bissau,Gbarnga,Lomé,Katsina,Kumba,Thiès,Bamenda,Bobo-Dioulasso,Bamako,Banjul,Zaria,Niamey,Koudougou,Kayes,Basse,Nouakchott,Garoua,Maiduguri,Monrovia,Kankan,Cotonou,Tema,Ségou,Tambacounda,Porto-Novo"
 },
 {
     "name": "Zulgo-Gemzek",
@@ -2044,7 +2044,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Zulgo-Gemzek,Accra,Conakry,Ouagadougou,Daloa,Banjul,Gbarnga,Praia,Kara,Dakar,Koudougou,Sokodé,Bamako,Tamale,Abidjan,Kayes,Parakou,Kano,Mopti,Porto-Novo,Koidu,Ségou,Tenkodogo,Yamoussoukro,Niamey,Nzérékoré,Sunyani,Aconibe"
 },
 {
     "name": "Zumaya",
@@ -2053,7 +2053,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Zumaya,Mazatlán,Tuxtla Gutiérrez,Chihuahua,Culiacán,Pijijiapan,Durango,Zacatecas,Mexico City,San Luis Potosí,Puerto Cortés,Pachuca,Tula,Mexicali,Juchitán,Puebla,Tapachula,Flores,Cuernavaca,Toluca,Coatzacoalcos,Cancún,Cobán,Punta Gorda,Nogales,León,Tehuacán,Corozal"
 },
 {
     "name": "Zumbun",
@@ -2062,7 +2062,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Zumbun,Bamako,Banjul,Daloa,Conakry,Bouaké,Kara,Saint-Louis,Praia,Kankan,Maiduguri,Porto-Novo,Kaolack,Parakou,Kumasi,Kayes,Cotonou,Freetown,Koudougou,Sunyani,Monrovia,Timbuktu,Niamey,Ouagadougou,Katsina,Malabo,Bertoua,Nzérékoré"
 },
 {
     "name": "ǂKxʼaoǁʼae",
@@ -2071,7 +2071,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "ǂKxʼaoǁʼae,Bamenda,Monrovia,Bissau,Banjul,Bobo-Dioulasso,Gbarnga,Abidjan,Saint-Louis,Dakar,Kaolack,Katsina,Gusau,Koidu,Kara,Kayes,Koudougou,Bafatá,Ouagadougou,Cotonou,Basse,Maiduguri,Porto-Novo,Yamoussoukro,Kaduna,Bouaké,Tambacounda,Daloa"
 },
 {
     "name": "ǂʼAmkoe",
@@ -2080,7 +2080,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "ǂʼAmkoe,Ouagadougou,Abidjan,Praia,Bobo-Dioulasso,Daloa,Kaduna,Bertoua,Niamey,Kankan,Sokodé,Yola,Basse,Conakry,Sikasso,Nouakchott,Koidu,Banjul,Wa,Parakou,Maiduguri,Thiès,Mopti,Maroua,Ségou,Zaria,Porto-Novo,Kayes"
 },
 {
     "name": "Spanglish",
@@ -2089,7 +2089,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Spanglish,Kaduna,Koudougou,Banjul,Bafatá,Kumasi,Conakry,Koidu,Lomé,Freetown,Kaolack,Natitingou,Kara,Mopti,Bamako,Mindelo,Kayes,Tambacounda,Brikama,Korhogo,Man,Monrovia,Porto-Novo,Bamenda,Sikasso,Niamey,Ziguinchor,Kumba"
 },
 {
     "name": "Naukan",
@@ -2098,7 +2098,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Naukan,Chersky,Magadan,Yakutsk,Orotukan,Zhigansk,Novosibirsk,Khatanga,Beringovsky,Ust-Kamchatsk,Barguzin,Kadykchan,Esso,Anadyr,Klyuchi,Okhotsk,Lavrentiya,Nyurba,Egvekinot,Myaundzha,Podgornoye,Sosnovo-Ozerskoye,Suntar,Molchanovo,Norilsk,Uelen,Yelizovo,Kayerkan"
 },
 {
     "name": "Sirenik",
@@ -2107,7 +2107,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Sirenik,Magadan,Olyokminsk,Tiksi,Bely Yar,Oymyakon,Klyuchi,Myaundzha,Saskylakh,Chokurdakh,Snezhnogorsk,Ust-Kamchatsk,Yelizovo,Dudinka,Anadyr,Bilibino,Chersky,Tigil,Susuman,Ust-Nera,Khandyga,Esso,Parabel,Suntar,Pevek,Uelen,Orotukan,Igarka"
 },
 {
     "name": "Yuit",
@@ -2116,7 +2116,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Yuit,Timbuktu,Bamako,Banjul,Daloa,Wukari,Conakry,Gbarnga,Kara,Freetown,Kankan,Bobo-Dioulasso,Bamenda,Praia,Kaolack,Porto-Novo,Parakou,Zinder,Nouakchott,Korhogo,Kumasi,Nzérékoré,Sunyani,Ouagadougou,Zaria,Tenkodogo,Ebebiyín,Sikasso"
 },
 {
     "name": "A'Tong",
@@ -2125,7 +2125,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "A'Tong,Gbarnga,Bamako,Cotonou,Malabo,Ouagadougou,Sokodé,Man,Banjul,Bissau,Bolt,Kumasi,Conakry,Abidjan,Kayes,Nzérékoré,Nouakchott,Saint-Louis,Tema,Bertoua,Jos,Bamenda,Bobo-Dioulasso,Koidu,Korhogo,Ségou,Ziguinchor,Lomé"
 },
 {
     "name": "Achhami (Doteli)",
@@ -2134,7 +2134,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Achhami (Doteli),Jalingo,Koidu,Bobo-Dioulasso,Katsina,Bamenda,Gbarnga,Accra,Ziguinchor,Dakar,Freetown,Tamale,Yamoussoukro,Mopti,Kaolack,Timbuktu,Bissau,Saint-Louis,Korhogo,Bertoua,Man,Sunyani,Bouaké,Kankan,Parakou,Assomada,Tambacounda,Niamey"
 },
 {
     "name": "Alak",
@@ -2143,7 +2143,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Alak,Kizlyar,Uchkeken,Derbent,Kutaisi,Labinsk,Prokhladny,Gagra,Akhaltsikhe,Khasavyurt,Ochamchire,Rustavi,Nalchik,Vladikavkaz,Tbilisi,Batumi,Buynaksk,Poti,Avtury,Kizilyurt,Ardon,Alagir,Shali,Baksan,Samashki,Borjomi,Grozny,Cherkessk"
 },
 {
     "name": "Alchuka",
@@ -2152,7 +2152,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Alchuka,Koidu,Banjul,Accra,Parakou,Kara,Kaolack,Thiès,Cotonou,Ouagadougou,Bamako,Freetown,Katsina,Tema,Bouaké,Ziguinchor,Korhogo,Gusau,Kumasi,Bobo-Dioulasso,Tamale,Zaria,Maiduguri,Mopti,Monrovia,Kayes,Basse,Porto-Novo"
 },
 {
     "name": "Allar",
@@ -2161,7 +2161,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Allar,Bouaké,Bissau,Bafatá,Jalingo,Dakar,Bobo-Dioulasso,Abidjan,Kara,Daloa,Accra,Lomé,Tema,Monrovia,Sunyani,Kayes,Nouakchott,Tenkodogo,Parakou,Malabo,Maiduguri,Kaolack,Ebebiyín,Katsina,Mopti,Ouagadougou,Nzérékoré,Koudougou"
 },
 {
     "name": "Ambonese Malay",
@@ -2170,7 +2170,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Ambonese Malay,Jakarta,Semarang,Bandung,Bangar,Jaluit,Ba,Santo,Denpasar,Davao,Muara,George Town,Malekula,Ambrym,Rabaul,Kota Kinabalu,Pentecost,Nadi,Malacca,Port Moresby,Singapore,Kuching,Munda,Buala,Kuala Belait,Sonsorol,Quezon City,Epi"
 },
 {
     "name": "Angika",
@@ -2179,7 +2179,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Angika,Banjul,Gbarnga,Bobo-Dioulasso,Wukari,Jalingo,Man,Conakry,Dakar,Kayes,Koudougou,Maiduguri,Daloa,Nzérékoré,Kara,Accra,Bafoussam,Garoua,Wa,Porto-Novo,Zaria,Buea,Cotonou,Kumasi,Tenkodogo,Freetown,Basse,Sikasso"
 },
 {
     "name": "Attapady Kurumba",
@@ -2188,7 +2188,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Attapady Kurumba,Barranquilla,Santo Domingo,Cúcuta,Cali,Huancayo,Lima,Caacupé,Cusco,Chiclayo,La Paz,Ambato,Paysandú,El Alto,Quito,Coca,Tarija,Mitú,Iquitos,Portoviejo,Boa Vista,San Miguel de Tucumán,Asunción,Bucaramanga,Santa Cruz,Uberlândia,Bogotá,Córdoba"
 },
 {
     "name": "Awadhi",
@@ -2197,7 +2197,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Awadhi,Ahmedabad,Bhubaneswar,Bhopal,Delhi,Chennai,Allahabad,Amritsar,Aurangabad,Khulna,Indore,Jodhpur,Itanagar,Ghaziabad,Mumbai,Rajkot,Hyderabad,Gwalior,Dhaka,Jammu,Pune,Guwahati,Rourkela,Lucknow,Thiruvananthapuram,Faridabad,Noida,Aizawl"
 },
 {
     "name": "Baba Malay",
@@ -2206,7 +2206,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Baba Malay,Jakarta,Semarang,Palikir,Medan,Quezon City,Johor Bahru,Santo,Malekula,George Town,Surabaya,Port Vila,Bangar,Zamboanga,Tulagi,Singapore,Pentecost,Nadi,Makassar,Davao,Munda,Kuching,Luganville,Buala,Tanna,Honiara,Bandar Seri Begawan,Iloilo City"
 },
 {
     "name": "Bagheli",
@@ -2215,7 +2215,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Bagheli,Brikama,Accra,Abidjan,Jalingo,Katsina,Kano,Conakry,Tema,Bouaké,Kaolack,Cotonou,Kankan,Nouakchott,Kayes,Lomé,Koudougou,Bertoua,Monrovia,Cacheu,Saint-Louis,Maiduguri,Bata,Bamenda,Niamey,Nzérékoré,Mopti,Sikasso"
 },
 {
     "name": "Baitadeli (Doteli)",
@@ -2224,7 +2224,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Baitadeli (Doteli),Sokodé,Timbuktu,Banjul,Lomé,Dakar,Freetown,Katsina,Kaduna,Monrovia,Saint-Louis,Koidu,Bamako,Kankan,Mopti,Ebebiyín,Nouakchott,Conakry,Praia,Kumasi,Maiduguri,Bauchi,Mindelo,Yamoussoukro,Assomada,Zaria,Niamey,Bobo-Dioulasso"
 },
 {
     "name": "Bajhangi (Doteli)",
@@ -2233,7 +2233,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Bajhangi (Doteli),Cotonou,Gbarnga,Katsina,Kayes,Bamenda,Freetown,Ségou,Dakar,Ziguinchor,Niamey,Monrovia,Accra,Koidu,Tenkodogo,Daloa,Korhogo,Ouagadougou,Maiduguri,Bamako,Man,Lomé,Nzérékoré,Jos,Tambacounda,Sokoto,Gusau,Porto-Novo"
 },
 {
     "name": "Bajjika",
@@ -2242,7 +2242,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Bajjika,Bamako,Bobo-Dioulasso,Cotonou,Conakry,Monrovia,Ouagadougou,Kankan,Gbarnga,Tema,Freetown,Porto-Novo,Lomé,Kara,Malabo,Kumasi,Mopti,Koudougou,Korhogo,Bissau,Kano,Praia,Tambacounda,Lafia,Bafatá,Ziguinchor,Parakou,Sokodé"
 },
 {
     "name": "Bajureli (Doteli)",
@@ -2251,7 +2251,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Bajureli (Doteli),Bertoua,Bouaké,Bamako,Jalingo,Abidjan,Nouakchott,Kankan,Koidu,Koudougou,Gbarnga,Bissau,Ouagadougou,Kaolack,Accra,Mopti,Banjul,Katsina,Porto-Novo,Jos,Praia,Kumba,Niamey,Tema,Freetown,Ebebiyín,Thiès,Garoua"
 },
 {
     "name": "Balinese Malay",
@@ -2260,7 +2260,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Balinese Malay,Sonsorol,Jaluit,Makassar,Denpasar,Lautoka,Manila,Kuching,Davao,Singapore,Kavieng,Cebu City,Epi,Bacolod,Malekula,Seria,Malacca,Nadi,Sigatoka,Ambrym,Bandung,Kirakira,Shah Alam,Buala,Port Moresby,Babeldaob,Suva,Savusavu"
 },
 {
     "name": "Banda Malay",
@@ -2269,7 +2269,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Banda Malay,Bangui,Mouila,Berbérati,Kimongo,Ebolowa,Mbaïki,Mbandaka,Carnot,Ngozi,Bata,Pointe-Noire,Bangassou,Malabo,Ruyigi,Oyem,Bunia,Impfondo,Lambaréné,Libreville,Tchibanga,Gemena,Kribi,Yaoundé,Koulamoutou,Madingou,Makokou,Bimbo"
 },
 {
     "name": "Bankariya",
@@ -2278,7 +2278,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Bankariya,Bertoua,Sokodé,Bissau,Accra,Koidu,Gbarnga,Kaolack,Kumasi,Tema,Conakry,Abidjan,Kara,Gusau,Ouagadougou,Koudougou,Kano,Thiès,Korhogo,Ziguinchor,Nouakchott,Man,Porto-Novo,Yamoussoukro,Parakou,Ségou,Bolama,Nzérékoré"
 },
 {
     "name": "Be-Jizhao",
@@ -2287,7 +2287,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Be-Jizhao,Bissau,Banjul,Katsina,Jalingo,Conakry,Gbarnga,Sunyani,Dakar,Daloa,Nouakchott,Maroua,Thiès,Kankan,Mopti,Koudougou,Korhogo,Farafenni,Tambacounda,Bobo-Dioulasso,Maiduguri,Kara,Zaria,Niamey,Nzérékoré,Banfora,Cotonou,Porto-Novo"
 },
 {
     "name": "Betawi",
@@ -2296,7 +2296,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Betawi,Nouakchott,Accra,Abidjan,Cotonou,Katsina,Ouagadougou,Bissau,Dakar,Bouaké,Kankan,Daloa,Kaolack,Assomada,Lomé,Kayes,Korhogo,Kaduna,Jalingo,Bamako,Man,Sokodé,Brikama,Niamey,Nzérékoré,Malabo,Kumba,Sikasso"
 },
 {
     "name": "Bhojpuri",
@@ -2305,7 +2305,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Bhojpuri,Allahabad,Ahmedabad,Kolkata,Bhopal,Guwahati,Dharan,Coimbatore,Bhubaneswar,Mysore,Dimapur,Chandigarh,Amritsar,Indore,Jammu,Ghaziabad,Imphal,Mangalore,Pune,Nashik,Jaipur,Noida,Kochi,Nagpur,Visakhapatnam,Mumbai,Kathmandu,Chittagong"
 },
 {
     "name": "Biao Kam Sui",
@@ -2314,7 +2314,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Biao Kam Sui,Chiang Mai,Pathein,Wuzhou,Savannakhet,Da Lat,Nha Trang,Chonburi,My Tho,Vinh,Nanning,Phongsali,Pattaya,Guiyang,Battambang,Pakse,Ho Chi Minh City,Mandalay,Guilin,Hue,Xieng Khouang,Siem Reap,Khon Kaen,Naypyidaw,Kampot,Hai Phong,Chiềng Mai,Taunggyi"
 },
 {
     "name": "Byangsi",
@@ -2323,7 +2323,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Byangsi,Accra,Katsina,Bafatá,Tema,Conakry,Cotonou,Freetown,Parakou,Man,Maiduguri,Buea,Ebebiyín,Garoua,Koudougou,Mopti,Daloa,Yola,Nouakchott,Korhogo,Sunyani,Minna,Wa,Saint-Louis,Ouagadougou,Kayes,Nzérékoré,Cacheu"
 },
 {
     "name": "Cao Lan",
@@ -2332,7 +2332,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Cao Lan,Bamako,Accra,Nouakchott,Bobo-Dioulasso,Bissau,Bolt,Bertoua,Saint-Louis,Abidjan,Daloa,Tema,Kankan,Katsina,Koudougou,Kayes,Conakry,Ségou,Koidu,Kumasi,Korhogo,Lomé,Praia,Bafatá,Kara,Tenkodogo,Ebebiyín,Nzérékoré"
 },
 {
     "name": "Cao Miao",
@@ -2341,7 +2341,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Cao Miao,Hue,Hanoi,Da Nang,Savannakhet,Bago,Vinh,Kampot,Bangkok,Battambang,Chiang Rai,Can Tho,Sanya,Phongsali,Luang Prabang,Siem Reap,Chiềng Rạ,Hong Kong,Xieng Khouang,Điện Biên Phủ,Phnom Penh,Kampong Cham,Danzhou,Hà Giang,Mawlamyine,Nakhon Ratchasima,Rach Gia,Liuzhou"
 },
 {
     "name": "Car Nicobarese",
@@ -2350,7 +2350,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Car Nicobarese,Chiang Mai,Hanoi,Điện Biên Phủ,Wuzhou,Hue,Phnom Penh,Can Tho,Shantou,Vinh,Yangon,Phongsali,Luang Prabang,Phan Thiet,Hà Giang,Thakhek,Pakse,Mandalay,Mawlamyine,Hai Phong,Takeo,Battambang,Nha Trang,Macau,Savannakhet,Cao Bằng,Kampot,Liuzhou"
 },
 {
     "name": "Chakhar Mongol",
@@ -2359,7 +2359,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Chakhar Mongol,Savannakhet,Da Nang,Hue,Can Tho,Chiang Rai,Nakhon Ratchasima,Hat Yai,Pursat,Phnom Penh,Phan Thiet,My Tho,Rach Gia,Điện Biên Phủ,Vientiane,Haikou,Sam Neua,Myitkyina,Naypyidaw,Bangkok,Kampot,Ho Chi Minh City,Guilin,Bago,Siem Reap,Quy Nhon,Taunggyi,Kunming"
 },
 {
     "name": "Chamling",
@@ -2368,7 +2368,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Chamling,Ouagadougou,Bamako,Dakar,Bobo-Dioulasso,Accra,Conakry,Praia,Kankan,Koudougou,Koidu,Gusau,Yamoussoukro,Sokoto,Korhogo,Nzérékoré,Bamenda,Maroua,Ebebiyín,Sunyani,Nouakchott,Lomé,Maiduguri,Ziguinchor,Porto-Novo,Tamale,Sikasso,Timbuktu"
 },
 {
     "name": "Chepang (ISO)",
@@ -2377,7 +2377,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Chepang (ISO),Chamdo,Deqin,Lijiang,Batang,Namchi,Zhongdian,Zhaotong,Jakar,Panzhihua,Trongsa,Daofu,Rangpo,Gangtok,Melli,Lhokha,Xichang,Kunming,Jorthang,Leh,Thimphu,Mawlai,Dali,Pu'er,Dalton Ganj,Nainital,Shillong,Lhasa"
 },
 {
     "name": "Chrau",
@@ -2386,7 +2386,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Chrau,Kampong Cham,Quy Nhon,Da Lat,Bago,Rach Gia,Pakse,Hat Yai,Sam Neua,Vinh,Nha Trang,Hue,Chonburi,Battambang,Phongsali,Lạng Sơn,Takeo,Luang Prabang,Lào Cai,Pathein,Xieng Khouang,Yangon,Vientiane,Sơn La,Siem Reap,Kampot,Ho Chi Minh City,Fangchenggang"
 },
 {
     "name": "Classical Tibetan",
@@ -2395,7 +2395,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Classical Tibetan,Lhasa,Ngari,Lijiang,Jorthang,Singtam,Panzhihua,Batang,Tura,Pithoragarh,Thimphu,Leshan,Deqin,Koksar,Xichang,Weixi,Paro,Shillong,Jowai,Cherrapunji,Samdrup Jongkhar,Leh,Zhongdian,Pu'er,Kunming,Mianyang,Nainital,Kangding"
 },
 {
     "name": "Dadeldhuri (Doteli)",
@@ -2404,7 +2404,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Dadeldhuri (Doteli),Katsina,Porto-Novo,Abidjan,Kumba,Bouaké,Cotonou,Ebebiyín,Kankan,Freetown,Daloa,Korhogo,Kayes,Kaolack,Tema,Tenkodogo,Nzérékoré,Bolt,Sikasso,Zaria,Saint-Louis,Lomé,Nouakchott,Mindelo,Parakou,Kaduna,Timbuktu,Tambacounda"
 },
 {
     "name": "Daman",
@@ -2413,7 +2413,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Daman,Sokodé,Lomé,Bissau,Bamako,Bobo-Dioulasso,Conakry,Koidu,Cotonou,Korhogo,Bamenda,Bertoua,Parakou,Lafia,Sokoto,Saint-Louis,Niamey,Yola,Sunyani,Garoua,Daloa,Nzérékoré,Basse,Praia,Porto-Novo,Zaria,Jos,Warri"
 },
 {
     "name": "Danuwar",
@@ -2422,7 +2422,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Danuwar,Bissau,Freetown,Ouagadougou,Bouaké,Bamako,Daloa,Koudougou,Basse,Monrovia,Bafatá,Kano,Assomada,Bamenda,Jalingo,Katsina,Kankan,Bauchi,Sikasso,Maiduguri,Bertoua,Ségou,Nouakchott,Tarrafal,Kumasi,Zaria,Lafia,Cacheu"
 },
 {
     "name": "Darchuleli (Doteli)",
@@ -2431,7 +2431,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Darchuleli (Doteli),Tambacounda,Gabú,Kara,Kaolack,Dakar,Bouaké,Maiduguri,Abidjan,Monrovia,Bamako,Mopti,Bamenda,Sikasso,Koudougou,Conakry,Cotonou,Koidu,Saint-Louis,Kayes,Bafatá,Kumba,Tenkodogo,Malabo,Katsina,Nzérékoré,Jalingo,Ouagadougou"
 },
 {
     "name": "Darkhad Mongolian",
@@ -2440,7 +2440,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Darkhad Mongolian,Vinh,Hat Yai,Mandalay,Chiang Rai,Pursat,Xieng Khouang,Vientiane,Da Nang,Nanning,My Tho,Hanoi,Lạng Sơn,Yangon,Nha Trang,Chiềng Rạ,Pakse,Kunming,Phnom Penh,Macau,Phongsali,Nakhon Ratchasima,Takeo,Hà Giang,Pathein,Điện Biên Phủ,Taunggyi,Beihai"
 },
 {
     "name": "Daur / Dagur",
@@ -2449,7 +2449,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Daur / Dagur,Abidjan,Bissau,Koidu,Conakry,Ziguinchor,Freetown,Dakar,Timbuktu,Kaolack,Tamale,Bouaké,Bobo-Dioulasso,Daloa,Ségou,Gusau,Kaduna,Bauchi,Koudougou,Bafatá,Ouagadougou,Kumasi,Ebebiyín,Kano,Niamey,Monrovia,Nzérékoré,Sokodé"
 },
 {
     "name": "Dehwari",
@@ -2458,7 +2458,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Dehwari,Daloa,Banjul,Man,Bissau,Conakry,Ségou,Koudougou,Gbarnga,Cacheu,Bafatá,Timbuktu,Nouakchott,Jalingo,Kara,Kumasi,Banfora,Kaduna,Bertoua,Tema,Basse,Bamako,Nzérékoré,Yamoussoukro,Ouagadougou,Bouaké,Niamey,Cotonou"
 },
 {
     "name": "Dhatki",
@@ -2467,7 +2467,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Dhatki,Kankan,Abidjan,Sunyani,Conakry,Lafia,Garoua,Parakou,Koidu,Kayes,Kara,Man,Bamako,Mopti,Timbuktu,Freetown,Praia,Korhogo,Kaduna,Dakar,Saint-Louis,Bobo-Dioulasso,Bissau,Yamoussoukro,Kaolack,Kumasi,Jos,Sokoto"
 },
 {
     "name": "Dhundari",
@@ -2476,7 +2476,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Dhundari,Murghob,Namangan,Nukus,Khujand,Qom,Nur-Sultan,Tehran,Pavlodar,Karakol,Osh,Istaravshan,Gyzylarbat,Bayramaly,Khorugh,Panjakent,Tashkent,Samarkand,Karagandy,Balkanabat,Atyrau,Rawalpindi,Shymkent,Bokhtar,Almaty,Kokand,Mary,Tokmok"
 },
 {
     "name": "Dili Malay",
@@ -2485,7 +2485,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Dili Malay,Jakarta,Zamboanga,Ipoh,Semarang,Muara,Palembang,Davao,Johor Bahru,Bandung,Cagayan de Oro,Singapore,George Town,Kuala Lumpur,Kuala Belait,Manila,Auki,Malekula,Seria,Ba,Pentecost,Malacca,Port Vila,Suva,Ngerulmud,Munda,Santo,Kuching"
 },
 {
     "name": "Diu",
@@ -2494,7 +2494,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Diu,Abidjan,Bamako,Bertoua,Bouaké,Ouagadougou,Conakry,Gbarnga,Cotonou,Bolt,Ebebiyín,Bamenda,Kara,Basse,Kumasi,Timbuktu,Nouakchott,Koudougou,Mopti,Garoua,Tarrafal,Nzérékoré,Niamey,Yamoussoukro,Monrovia,Bafatá,Sunyani,Sikasso"
 },
 {
     "name": "Done",
@@ -2503,7 +2503,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Done,Gbarnga,Bouaké,Nouakchott,Conakry,Bissau,Koidu,Saint-Louis,Daloa,Bafatá,Dakar,Niamey,Tambacounda,Timbuktu,Accra,Jalingo,Lomé,Koudougou,Bobo-Dioulasso,Basse,Zaria,Ouagadougou,Maroua,Yamoussoukro,Freetown,Praia,Kankan,Sunyani"
 },
 {
     "name": "Dura",
@@ -2512,7 +2512,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Dura,Gangtok,Nyingchi,Chamdo,Zhongdian,Leh,Kangding,Thimphu,Wangdue,Xichang,Dali,Trashigang,Rangpo,Koksar,Rishikesh,Daofu,Trongsa,Mangan,Jorthang,Lijiang,Shillong,Pithoragarh,Nainital,Pu'er,Yuánmóu,Tura,Dalton Ganj,Xichang"
 },
 {
     "name": "Ekhirit-Bulagat Buryat",
@@ -2521,7 +2521,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Ekhirit-Bulagat Buryat,Almaty,Kirovabad,Tashkent,Tehran,Oral,Kokand,Bukhara,Murghob,Shymkent,Samarkand,Karagandy,Istaravshan,Khorugh,Naryn,Jalal-Abad,Bokhtar,Panjakent,Kulob,Ashgabat,Faisalabad,Kandahar,Osh,Batken,Ahvaz,Turkmenabat,Gyzylarbat,Mary"
 },
 {
     "name": "Ghera",
@@ -2530,7 +2530,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Ghera,Daloa,Bamako,Banjul,Timbuktu,Accra,Freetown,Kaduna,Kara,Dakar,Tamale,Conakry,Abidjan,Mopti,Kaolack,Korhogo,Ouagadougou,Aconibe,Lomé,Maiduguri,Wa,Nzérékoré,Porto-Novo,Nouakchott,Sunyani,Malabo,Gusau,Sikasso"
 },
 {
     "name": "Ha Em",
@@ -2539,7 +2539,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Ha Em,Bertoua,Bamako,Ziguinchor,Praia,Basse,Conakry,Accra,Dakar,Freetown,Kankan,Monrovia,Koudougou,Kumasi,Korhogo,Banjul,Kayes,Assomada,Lomé,Sunyani,Man,Porto-Novo,Mopti,Tenkodogo,Sikasso,Kaduna,Mindelo,Nzérékoré"
 },
 {
     "name": "Hagei",
@@ -2548,7 +2548,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Hagei,Nouakchott,Kano,Cotonou,Bobo-Dioulasso,Tambacounda,Kayes,Bissau,Koudougou,Daloa,Parakou,Ségou,Kara,Kankan,Tema,Gusau,Maiduguri,Lafia,Monrovia,Kaolack,Tenkodogo,Bauchi,Mopti,Ouagadougou,Zinder,Bamako,Basse,Sokoto"
 },
 {
     "name": "Hailar Dagur",
@@ -2557,7 +2557,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Hailar Dagur,Ouagadougou,Bamako,Timbuktu,Bissau,Daloa,Dakar,Abidjan,Kara,Maiduguri,Freetown,Cotonou,Nouakchott,Koidu,Kayes,Tambacounda,Bobo-Dioulasso,Man,Ebebiyín,Sikasso,Jos,Tema,Porto-Novo,Koudougou,Kankan,Niamey,Zinder,Yamoussoukro"
 },
 {
     "name": "Hajong",
@@ -2566,7 +2566,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Hajong,Freetown,Abidjan,Bobo-Dioulasso,Conakry,Praia,Cotonou,Sikasso,Kaduna,Kayes,Saint-Louis,Gbarnga,Kara,Ouagadougou,Korhogo,Koidu,Maiduguri,Banjul,Tamale,Nouakchott,Niamey,Tema,Jos,Dakar,Warri,Ngaoundéré,Nzérékoré,Jalingo"
 },
 {
     "name": "Halang",
@@ -2575,7 +2575,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Halang,Niamey,Abidjan,Praia,Conakry,Banjul,Bissau,Freetown,Bamako,Zaria,Kaolack,Dakar,Kara,Saint-Louis,Ségou,Katsina,Kayes,Gusau,Kaduna,Bobo-Dioulasso,Tamale,Bafoussam,Koudougou,Porto-Novo,Sikasso,Maiduguri,Bafatá,Banfora"
 },
 {
     "name": "Halbi",
@@ -2584,7 +2584,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Halbi,Abidjan,Basse,Bamako,Conakry,Daloa,Bouaké,Cotonou,Banjul,Kankan,Lomé,Ouagadougou,Praia,Katsina,Ebebiyín,Tema,Sokodé,Gusau,Ziguinchor,Man,Parakou,Thiès,Jos,Yamoussoukro,Ouahigouya,Warri,Bauchi,Sikasso"
 },
 {
     "name": "Harauti",
@@ -2593,7 +2593,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Harauti,Nouakchott,Accra,Bafatá,Gusau,Kaolack,Katsina,Cotonou,Dakar,Kaduna,Bertoua,Abidjan,Ouagadougou,Daloa,Man,Bamako,Kara,Bouaké,Koudougou,Niamey,Sokodé,Garoua,Warri,Ebebiyín,Mopti,Nzérékoré,Brikama,Jalingo"
 },
 {
     "name": "Hazaragi",
@@ -2602,7 +2602,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Hazaragi,Accra,Banjul,Bobo-Dioulasso,Gbarnga,Daloa,Cotonou,Kankan,Monrovia,Maiduguri,Kaduna,Bertoua,Tema,Kano,Lomé,Sokodé,Bamako,Conakry,Sunyani,Freetown,Farafenni,Thiès,Mopti,Malabo,Parakou,Korhogo,Koudougou,Kara"
 },
 {
     "name": "Hindko, Southern",
@@ -2611,7 +2611,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Hindko, Southern,Praia,Bouaké,Timbuktu,Abidjan,Katsina,Nouakchott,Banjul,Bertoua,Freetown,Kara,Conakry,Maiduguri,Yola,Daloa,Niamey,Korhogo,Ziguinchor,Thiès,Kumasi,Parakou,Buea,Minna,Jos,Bauchi,Wa,Lomé,Sokoto"
 },
 {
     "name": "Ho",
@@ -2620,7 +2620,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Ho,Accra,Banjul,Bissau,Conakry,Bobo-Dioulasso,Bouaké,Ziguinchor,Niamey,Korhogo,Daloa,Ouagadougou,Kara,Tambacounda,Kaolack,Koudougou,Monrovia,Timbuktu,Maiduguri,Kankan,Lomé,Nouakchott,Nzérékoré,Mopti,Parakou,Yamoussoukro,Wa,Sokoto"
 },
 {
     "name": "Ho (Munda)",
@@ -2629,7 +2629,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Ho (Munda),Allahabad,Aurangabad,Hyderabad,Bhubaneswar,Nagpur,Dharamshala,Dimapur,Bangalore,Itanagar,Silchar,Ranchi,Lucknow,Jalandhar,Vadodara,Gwalior,Imphal,Jabalpur,Kozhikode,Ghaziabad,Ludhiana,Dharan,Raipur,Coimbatore,Jammu,Nashik,Mangalore,Mysore"
 },
 {
     "name": "Hokchiu",
@@ -2638,7 +2638,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Hokchiu,Accra,Banjul,Bouaké,Conakry,Ouagadougou,Sokodé,Ziguinchor,Katsina,Kayes,Daloa,Kankan,Gabú,Koidu,Man,Maiduguri,Niamey,Brikama,Bamako,Korhogo,Kumasi,Ségou,Mopti,Yamoussoukro,Ebebiyín,Kara,Jalingo,Timbuktu"
 },
 {
     "name": "Hokkaido Ainu",
@@ -2647,7 +2647,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Hokkaido Ainu,Ishigaki,Matsudo,Kawasaki,Matsue,Yokosuka,Saitama,Aomori,Nayoro,Akita,Sendai,Shizuoka,Fukuyama,Kyoto,Ishigaki,Niigata,Sagamihara,Toyota,Kobe,Maebashi,Ichihara,Obihiro,Kumamoto,Osaka,Nagano,Fukuoka,Ginowan,Wakkanai"
 },
 {
     "name": "Hokkaido dialects",
@@ -2656,7 +2656,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Hokkaido dialects,Sendai,Tokyo,Kawasaki,Fukuoka,Saitama,Furano,Wakkanai,Sagamihara,Matsudo,Nago,Chiba,Setagaya,Okayama,Ishigaki,Fukuyama,Itabashi,Okinawa,Gifu,Naha,Kushiro,Nemuro,Nayoro,Kagoshima,Matsue,Aomori,Matsuyama,Toyama"
 },
 {
     "name": "Hre",
@@ -2665,7 +2665,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Hre,Nakhon Ratchasima,Phan Thiet,Hue,Bangkok,Rach Gia,Savannakhet,Hanoi,Pursat,Vinh,Yangon,My Tho,Myitkyina,Can Tho,Chonburi,Battambang,Quy Nhon,Mandalay,Haikou,Macau,Kampot,Guiyang,Guilin,Hà Giang,Pathein,Nanning,Taunggyi,Mawlamyine"
 },
 {
     "name": "Hyolmo (Yolmo)",
@@ -2674,7 +2674,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Hyolmo (Yolmo),Accra,Banfora,Kaolack,Basse,Ziguinchor,Zaria,Minna,Katsina,Kayes,Korhogo,Gbarnga,Nouakchott,Kumasi,Bouaké,Parakou,Tambacounda,Ngaoundéré,Bafatá,Bamenda,Tarrafal,Niamey,Mopti,Tamale,Mindelo,Assomada,Gusau,Ebebiyín"
 },
 {
     "name": "Indus Kohistani",
@@ -2683,7 +2683,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Indus Kohistani,Bertoua,Banjul,Bobo-Dioulasso,Koidu,Ziguinchor,Ouagadougou,Porto-Novo,Basse,Gbarnga,Daloa,Ebebiyín,Bamenda,Ouahigouya,Garoua,Warri,Kayes,Thiès,Maiduguri,Kaduna,Nzérékoré,Farafenni,Tamale,Niamey,Zaria,Ségou,Jos,Sikasso"
 },
 {
     "name": "Jadgali",
@@ -2692,7 +2692,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Jadgali,Lomé,Koidu,Cotonou,Bissau,Gbarnga,Kaolack,Kara,Ziguinchor,Katsina,Korhogo,Brikama,Niamey,Bolama,Koudougou,Tema,Kankan,Bauchi,Monrovia,Tenkodogo,Accra,Thiès,Ebebiyín,Bamako,Tambacounda,Ségou,Nouakchott,Sikasso"
 },
 {
     "name": "Jandavra",
@@ -2701,7 +2701,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Jandavra,Accra,Banjul,Bouaké,Koidu,Bobo-Dioulasso,Dakar,Korhogo,Bertoua,Koudougou,Kaolack,Kara,Nouakchott,Kankan,Mopti,Man,Kumasi,Ngaoundéré,Ouagadougou,Ziguinchor,Gbarnga,Ségou,Jalingo,Tambacounda,Sunyani,Mindelo,Kaduna,Sokodé"
 },
 {
     "name": "Japanese macro entry",
@@ -2710,7 +2710,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Kawasaki,Hiroshima,Sendai,Kitakyushu,Chiba,Sakai,Niigata,Okayama,Kumamoto,Kagoshima,Shizuoka,Hamamatsu,Matsuyama,Utsunomiya,Toyohashi,Kanazawa,Nagasaki,Gifu"
+  "b": "Japanese macro entry,Osaka,Sapporo,Fukuoka,Nara,Kobe,Yokohama,Toyama,Okayama,Chiba,Gifu,Sendai,Kumamoto,Shizuoka,Yamagata,Matsuyama,Tokyo,Saitama,Niigata,Itabashi,Fukushima,Yamaguchi,Miyazaki,Kushiro,Okinawa,Aomori,Kanazawa,Ichihara"
 },
 {
     "name": "Jarawa",
@@ -2719,7 +2719,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Jarawa,Lomé,Banjul,Gbarnga,Dakar,Daloa,Cotonou,Bissau,Kara,Kumasi,Koidu,Katsina,Nouakchott,Jalingo,Sokodé,Man,Accra,Basse,Kaduna,Sunyani,Jos,Banfora,Wa,Ouagadougou,Brikama,Ségou,Tenkodogo,Bauchi"
 },
 {
     "name": "Jeh",
@@ -2728,7 +2728,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Jeh,Accra,Abidjan,Praia,Korhogo,Banjul,Ebebiyín,Conakry,Bata,Sokodé,Tarrafal,Katsina,Kumasi,Mopti,Niamey,Nzérékoré,Kayes,Ouagadougou,Tamale,Dakar,Man,Bafatá,Porto-Novo,Assomada,Tema,Zaria,Jos,Parakou"
 },
 {
     "name": "Jiamao",
@@ -2737,7 +2737,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Jiamao,Bobo-Dioulasso,Bafatá,Accra,Korhogo,Nzérékoré,Daloa,Man,Abidjan,Koidu,Bamako,Kumasi,Kankan,Kara,Koudougou,Warri,Ngaoundéré,Zaria,Maiduguri,Bamenda,Gbarnga,Niamey,Garoua,Ebebiyín,Monrovia,Tambacounda,Jalingo,Sikasso"
 },
 {
     "name": "Jizhao",
@@ -2746,7 +2746,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Jizhao,Ebebiyín,Katsina,Banjul,Bertoua,Bobo-Dioulasso,Jalingo,Kankan,Sokodé,Ouagadougou,Gbarnga,Kara,Maiduguri,Koudougou,Maroua,Korhogo,Basse,Saint-Louis,Sikasso,Mopti,Nzérékoré,Timbuktu,Parakou,Niamey,Kaolack,Minna,Man,Aconibe"
 },
 {
     "name": "Jogi",
@@ -2755,7 +2755,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Jogi,Accra,Banjul,Korhogo,Katsina,Wa,Basse,Bertoua,Abidjan,Saint-Louis,Sikasso,Kankan,Kaduna,Mopti,Koidu,Nzérékoré,Maiduguri,Gabú,Ebebiyín,Kumasi,Ouagadougou,Ségou,Sunyani,Monrovia,Parakou,Timbuktu,Ziguinchor,Malabo"
 },
 {
     "name": "Jru'",
@@ -2764,7 +2764,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Jru',Bangkok,Bago,Macau,Ho Chi Minh City,Chiềng Mai,Da Lat,Chiang Rai,Nakhon Ratchasima,My Tho,Phnom Penh,Phongsali,Luang Prabang,Battambang,Can Tho,Sam Neua,Thakhek,Hat Yai,Mawlamyine,Pursat,Sanya,Shantou,Yangon,Kampot,Pakse,Taunggyi,Hue,Danzhou"
 },
 {
     "name": "Jumli",
@@ -2773,7 +2773,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Jumli,Yamoussoukro,Daloa,Tema,Wa,Bobo-Dioulasso,Dakar,Katsina,Kara,Brikama,Kumasi,Banjul,Bamenda,Yola,Niamey,Nzérékoré,Parakou,Kankan,Maiduguri,Sunyani,Saint-Louis,Freetown,Ségou,Accra,Monrovia,Zaria,Tambacounda,Natitingou"
 },
 {
     "name": "Jurchenic",
@@ -2782,7 +2782,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Jurchenic,Zhigansk,Tiksi,Chokurdakh,Bilibino,Saskylakh,Anadyr,Yelizovo,Susuman,Oymyakon,Anadyr,Provideniya,Nyurba,Bagdarin,Khatanga,Tigil,Igarka,Ust-Kamchatsk,Novosibirsk,Romanovka,Esso,Kadykchan,Sosnovo-Ozerskoye,Klyuchi,Uelen,Myaundzha,Orotukan,Pevek"
 },
 {
     "name": "Kaco'",
@@ -2791,7 +2791,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Kaco',Katsina,Sikasso,Bissau,Zaria,Bobo-Dioulasso,Koidu,Dakar,Sokodé,Banjul,Kankan,Accra,Man,Bafatá,Maroua,Koudougou,Lomé,Korhogo,Mindelo,Conakry,Saint-Louis,Nzérékoré,Sunyani,Maiduguri,Parakou,Buea,Jos,Porto-Novo"
 },
 {
     "name": "Kadar",
@@ -2800,7 +2800,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Kadar,Koidu,Banjul,Tema,Korhogo,Bobo-Dioulasso,Freetown,Ségou,Kankan,Lomé,Ouagadougou,Dakar,Maiduguri,Mopti,Kara,Man,Katsina,Niamey,Nzérékoré,Praia,Gbarnga,Nouakchott,Monrovia,Yamoussoukro,Cotonou,Bauchi,Kano,Tambacounda"
 },
 {
     "name": "Kagate (Syuba)",
@@ -2809,7 +2809,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Kagate (Syuba),Abidjan,Banjul,Sokodé,Ouagadougou,Kaolack,Man,Dakar,Bamenda,Ségou,Bertoua,Katsina,Kankan,Tambacounda,Kara,Bamako,Koudougou,Koidu,Kano,Mopti,Garoua,Maiduguri,Timbuktu,Ziguinchor,Niamey,Nouakchott,Maroua,Porto-Novo"
 },
 {
     "name": "Kalkoti",
@@ -2818,7 +2818,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Kalkoti,Accra,Bissau,Banjul,Kaolack,Cotonou,Thiès,Nouakchott,Cacheu,Tenkodogo,Kankan,Bertoua,Kara,Bobo-Dioulasso,Ségou,Korhogo,Niamey,Maiduguri,Kumasi,Lomé,Ziguinchor,Dakar,Sokodé,Bafatá,Saint-Louis,Banfora,Bamenda,Sikasso"
 },
 {
     "name": "Kaloeng",
@@ -2827,7 +2827,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Kaloeng,Katsina,Koudougou,Accra,Gbarnga,Banjul,Dakar,Freetown,Kara,Kayes,Sokodé,Nzérékoré,Daloa,Mopti,Kumasi,Maroua,Parakou,Ouahigouya,Bissau,Yamoussoukro,Koidu,Bolama,Brikama,Praia,Porto-Novo,Maiduguri,Jos,Warri"
 },
 {
     "name": "Kam Dong",
@@ -2836,7 +2836,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Kam Dong,Chiang Mai,Bangkok,Pattaya,Fangchenggang,Lạng Sơn,Hai Phong,Can Tho,Da Nang,Yangon,Lào Cai,Chonburi,Phan Thiet,Kunming,Pakse,Phnom Penh,Naypyidaw,Mandalay,Thakhek,Macau,Battambang,Sihanoukville,Kampong Cham,Haikou,Nanning,Kampot,Surat Thani,Vinh"
 },
 {
     "name": "Kam Sui",
@@ -2845,7 +2845,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Kam Sui,Shantou,Chiang Rai,Nha Trang,Pursat,Hà Giang,Điện Biên Phủ,Bangkok,Quy Nhon,Siem Reap,Haikou,Naypyidaw,Nanning,Pakse,Thakhek,Hat Yai,Vientiane,Mandalay,Phan Thiet,Phnom Penh,Yangon,Xieng Khouang,Kunming,Pattaya,Sihanoukville,Kampot,Hong Kong,Ho Chi Minh City"
 },
 {
     "name": "Kamviri",
@@ -2854,7 +2854,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Kamviri,Freetown,Abidjan,Nouakchott,Bafoussam,Kumasi,Bissau,Bobo-Dioulasso,Kara,Koidu,Koudougou,Banjul,Maiduguri,Kankan,Kaduna,Man,Parakou,Praia,Niamey,Garoua,Bouaké,Lomé,Wa,Malabo,Ouagadougou,Assomada,Gbarnga,Nzérékoré"
 },
 {
     "name": "Kangri",
@@ -2863,7 +2863,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Kangri,Sokodé,Bouaké,Bamako,Conakry,Dakar,Ziguinchor,Daloa,Praia,Cotonou,Lomé,Gbarnga,Timbuktu,Tema,Kaolack,Man,Sunyani,Brikama,Mopti,Abidjan,Koudougou,Ouagadougou,Jos,Yamoussoukro,Parakou,Saint-Louis,Bauchi,Porto-Novo"
 },
 {
     "name": "Kasong",
@@ -2872,7 +2872,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Kasong,Banjul,Gbarnga,Cotonou,Bamako,Koidu,Dakar,Kankan,Sokodé,Monrovia,Warri,Kara,Kayes,Maroua,Abidjan,Bauchi,Timbuktu,Jos,Sikasso,Ouahigouya,Niamey,Tambacounda,Saint-Louis,Maiduguri,Parakou,Nzérékoré,Koudougou,Porto-Novo"
 },
 {
     "name": "Katu",
@@ -2881,7 +2881,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Katu,Kampong Cham,Hanoi,Điện Biên Phủ,Da Nang,Can Tho,Beihai,Hai Phong,Nanning,Vinh,Hat Yai,Yangon,My Tho,Battambang,Savannakhet,Phongsali,Lạng Sơn,Thakhek,Xieng Khouang,Sihanoukville,Ho Chi Minh City,Kampot,Guilin,Phan Thiet,Danzhou,Hong Kong,Surat Thani,Luang Prabang"
 },
 {
     "name": "Katua",
@@ -2890,7 +2890,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Katua,Chiang Rai,Sam Neua,Bangkok,Thakhek,Can Tho,Hai Phong,Da Lat,Luang Prabang,Kampong Cham,Savannakhet,Phan Thiet,Xieng Khouang,Nha Trang,Lạng Sơn,Liuzhou,Nanning,Bago,Kunming,Pathein,Takeo,Quy Nhon,Hue,Pursat,Hanoi,Battambang,Kampot,Lào Cai"
 },
 {
     "name": "Kayong",
@@ -2899,7 +2899,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Kayong,Bamako,Bobo-Dioulasso,Basse,Abidjan,Banjul,Conakry,Kaolack,Monrovia,Ziguinchor,Assomada,Timbuktu,Kayes,Koidu,Bouaké,Niamey,Sokodé,Kara,Maiduguri,Praia,Tambacounda,Thiès,Bafatá,Dakar,Sikasso,Bauchi,Jos,Sokoto"
 },
 {
     "name": "Kewarat",
@@ -2908,7 +2908,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Kewarat,Kankan,Banjul,Wa,Bissau,Conakry,Sunyani,Accra,Daloa,Freetown,Ouagadougou,Porto-Novo,Maiduguri,Niamey,Cotonou,Yola,Korhogo,Malabo,Sikasso,Kayes,Parakou,Nouakchott,Koudougou,Yamoussoukro,Zinder,Mopti,Banfora,Kumba"
 },
 {
     "name": "Khalkha Mongolian",
@@ -2917,7 +2917,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Khalkha Mongolian,Bangkok,Chiang Mai,Da Nang,Hai Phong,Quy Nhon,Hue,Bago,Fangchenggang,Nha Trang,Phan Thiet,Phongsali,Pursat,Chiềng Mai,Nanning,Yangon,Takeo,Savannakhet,Kunming,Vientiane,Phnom Penh,Chiang Rai,Chonburi,Kampong Cham,Chiềng Rạ,Myitkyina,Hat Yai,Taunggyi"
 },
 {
     "name": "Kharchin / Khorchin Mongol",
@@ -2926,7 +2926,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Kharchin / Khorchin Mongol,Udon Thani,Nha Trang,Hue,Phnom Penh,Chonburi,Thakhek,Phan Thiet,Vientiane,Hanoi,Lạng Sơn,Naypyidaw,My Tho,Mawlamyine,Ho Chi Minh City,Takeo,Xieng Khouang,Mandalay,Siem Reap,Shantou,Chiang Rai,Taunggyi,Guilin,Luang Prabang,Wuzhou,Hai Phong,Surat Thani,Kampot"
 },
 {
     "name": "Khetrani",
@@ -2935,7 +2935,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Khetrani,Praia,Bamako,Dakar,Warri,Bouaké,Accra,Ségou,Banjul,Monrovia,Bobo-Dioulasso,Kaolack,Kayes,Kaduna,Koudougou,Porto-Novo,Nzérékoré,Lomé,Sokodé,Koidu,Man,Niamey,Brikama,Cotonou,Korhogo,Kumba,Tamale,Basse"
 },
 {
     "name": "Khorchin Mongol",
@@ -2944,7 +2944,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Khorchin Mongol,Bangkok,Chiang Mai,Da Nang,Savannakhet,Quy Nhon,Rach Gia,Thakhek,Hai Phong,Da Lat,Pursat,Fangchenggang,Vinh,Lạng Sơn,Battambang,Kampong Cham,Takeo,Khon Kaen,Haikou,Kunming,Hanoi,Chiềng Mai,Siem Reap,Vientiane,Guilin,Nha Trang,Bago,Yangon"
 },
 {
     "name": "Khorchin Mongol alias",
@@ -2953,7 +2953,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Khorchin Mongol alias,Bangkok,Chiang Mai,Rach Gia,Điện Biên Phủ,Quy Nhon,Da Nang,Phnom Penh,Sam Neua,Chiang Rai,Sihanoukville,Nanning,Luang Prabang,Battambang,Lạng Sơn,Nha Trang,My Tho,Thakhek,Kunming,Kampong Cham,Hanoi,Naypyidaw,Guilin,Da Lat,Yangon,Khon Kaen,Can Tho,Liuzhou"
 },
 {
     "name": "Khoton",
@@ -2962,7 +2962,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Khoton,Bafatá,Daloa,Brikama,Bobo-Dioulasso,Dakar,Conakry,Yamoussoukro,Koudougou,Kaolack,Lomé,Monrovia,Praia,Kayes,Niamey,Sokodé,Maiduguri,Gusau,Mopti,Freetown,Zaria,Nzérékoré,Bamako,Korhogo,Parakou,Warri,Sikasso,Kumasi"
 },
 {
     "name": "Kili",
@@ -2971,7 +2971,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Kili,Bouaké,Banjul,Conakry,Abidjan,Parakou,Bamenda,Accra,Basse,Dakar,Kaolack,Timbuktu,Katsina,Mopti,Maiduguri,Tambacounda,Korhogo,Kankan,Praia,Sunyani,Maroua,Kumasi,Ebebiyín,Saint-Louis,Ziguinchor,Kano,Jos,Malabo"
 },
 {
     "name": "Kisan (Kurukh dialect)",
@@ -2980,7 +2980,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Kisan (Kurukh dialect),Chitungwiza,East London,Pretoria,Polokwane,Bloemfontein,Selebi-Phikwe,Lilongwe,Pietermaritzburg,Bulawayo,Mafikeng,George,Xai-Xai,Masvingo,Quelimane,Springbok,Mohale's Hoek,Ndola,Kabwe,Kadoma,Inhambane,Mutare,Port Elizabeth,Nelspruit,Maseru,Beira,Qacha's Nek,Tete"
 },
 {
     "name": "Kundal Shahi",
@@ -2989,7 +2989,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Kundal Shahi,Tema,Bamenda,Ouagadougou,Ebebiyín,Bobo-Dioulasso,Kayes,Abidjan,Kara,Koidu,Lafia,Nouakchott,Kaolack,Monrovia,Koudougou,Praia,Bafatá,Cotonou,Timbuktu,Garoua,Warri,Jos,Porto-Novo,Tambacounda,Nzérékoré,Assomada,Sunyani,Lomé"
 },
 {
     "name": "Kurumba",
@@ -2998,7 +2998,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Kurumba,Pereira,Piura,Cuenca,Santo Domingo,Cúcuta,Salta,San Ignacio,Mocoa,Caacupé,Encarnación,Ambato,Rio Branco,Mitú,Lima,Concepción,La Plata,Potosí,Loja,Paysandú,La Paz,Iquitos,Puyo,Barranquilla,Santa Cruz,Tarija,Mendoza,Letícia"
 },
 {
     "name": "Lakkia Kam Sui",
@@ -3007,7 +3007,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Lakkia Kam Sui,Yangon,Guiyang,Can Tho,Bangkok,Nha Trang,Hai Phong,Udon Thani,Vinh,Rach Gia,Da Nang,Điện Biên Phủ,Xieng Khouang,Luang Prabang,My Tho,Thakhek,Myitkyina,Liuzhou,Battambang,Mawlamyine,Pattaya,Danzhou,Chiang Rai,Sihanoukville,Ho Chi Minh City,Kampot,Naypyidaw,Taunggyi"
 },
 {
     "name": "Lambadi",
@@ -3016,7 +3016,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Lambadi,Bissau,Katsina,Cotonou,Lomé,Koidu,Sokodé,Gbarnga,Dakar,Monrovia,Bafatá,Man,Porto-Novo,Basse,Kumasi,Sunyani,Kankan,Ebebiyín,Freetown,Bamenda,Bertoua,Nouakchott,Brikama,Minna,Kano,Jos,Praia,Bamako"
 },
 {
     "name": "Lao-Phutai",
@@ -3025,7 +3025,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Lao-Phutai,Bangkok,Chiang Mai,Bago,Vientiane,Rach Gia,Hue,Da Lat,Can Tho,Savannakhet,Battambang,Ho Chi Minh City,Fangchenggang,Pursat,Nakhon Ratchasima,Điện Biên Phủ,Phongsali,Mandalay,Kampot,Naypyidaw,Chonburi,Kunming,Haikou,Phnom Penh,Nanning,Quy Nhon,Surat Thani,Kampong Cham"
 },
 {
     "name": "Larantuka Malay",
@@ -3034,7 +3034,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Larantuka Malay,Davao,Tulagi,Makassar,Denpasar,Quezon City,Bandung,Santo,Majuro,Munda,Zamboanga,Kolonia,Bangar,Muara,Jaluit,Cebu City,Palikir,Kota Kinabalu,Kuching,Ipoh,Singapore,Shah Alam,Rabaul,Ba,Tutong,Jerudong,Ngerulmud,Buala"
 },
 {
     "name": "Lasi",
@@ -3043,7 +3043,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Lasi,Accra,Koidu,Conakry,Abidjan,Praia,Thiès,Ziguinchor,Bissau,Daloa,Gusau,Ebebiyín,Cotonou,Banjul,Kara,Kayes,Mopti,Korhogo,Bolt,Kankan,Niamey,Kano,Maiduguri,Tema,Bafatá,Yamoussoukro,Jos,Freetown"
 },
 {
     "name": "Lhowa (Lhopa)",
@@ -3052,7 +3052,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Lhowa (Lhopa),Gbarnga,Accra,Bouaké,Dakar,Ebebiyín,Bobo-Dioulasso,Bissau,Daloa,Ségou,Korhogo,Bertoua,Brikama,Ziguinchor,Kara,Warri,Basse,Kano,Koudougou,Timbuktu,Conakry,Maiduguri,Buea,Lomé,Ouagadougou,Nzérékoré,Kankan,Jos"
 },
 {
     "name": "Loarki",
@@ -3061,7 +3061,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Loarki,Bissau,Accra,Daloa,Banjul,Abidjan,Dakar,Ziguinchor,Tema,Lomé,Bertoua,Katsina,Freetown,Kaolack,Basse,Man,Koidu,Porto-Novo,Nouakchott,Kaduna,Yamoussoukro,Ségou,Kano,Malabo,Ouagadougou,Mopti,Nzérékoré,Bamenda"
 },
 {
     "name": "Longsang Zhuang",
@@ -3070,7 +3070,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Longsang Zhuang,Polokwane,Maseru,Pretoria,Bloemfontein,Upington,Vereeniging,Otjiwarongo,Masvingo,Chitungwiza,Kabwe,Cape Town,Mmabatho,George,Springbok,Port Elizabeth,Klerksdorp,Xai-Xai,Molepolole,East London,Matola,Bethal,Livingstone,Quelimane,Mutare,Salima,Kadoma,Teyateyaneng"
 },
 {
     "name": "Lower Uda Buryat",
@@ -3079,7 +3079,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Lower Uda Buryat,Tashkent,Samarkand,Khorugh,Nukus,Balkanabat,Atyrau,Andijan,Lahore,Osh,Karakol,Turkmenabat,Dushanbe,Kulob,Batken,Bayramaly,Bishkek,Murghob,Fergana,Shymkent,Jalalabad,Bokhtar,Murgab,Yangibazar,Gyzylarbat,Kandahar,Talas,Karagandy"
 },
 {
     "name": "Macro-Zhuang",
@@ -3088,7 +3088,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Macro-Zhuang,Sam Neua,Chiang Rai,Quy Nhon,Nha Trang,Rach Gia,Vinh,Surat Thani,My Tho,Nanning,Thakhek,Vientiane,Chiang Mai,Da Nang,Hanoi,Ho Chi Minh City,Hue,Savannakhet,Hai Phong,Kunming,Yangon,Udon Thani,Điện Biên Phủ,Bangkok,Phan Thiet,Siem Reap,Bago,Mawlamyine"
 },
 {
     "name": "Madiya",
@@ -3097,7 +3097,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Madiya,Ziguinchor,Nzérékoré,Bissau,Bobo-Dioulasso,Lomé,Ouahigouya,Gbarnga,Freetown,Kayes,Korhogo,Gusau,Bata,Bauchi,Bafatá,Banjul,Monrovia,Mopti,Bouaké,Timbuktu,Tamale,Garoua,Brikama,Yamoussoukro,Kaduna,Ebebiyín,Zaria,Buea"
 },
 {
     "name": "Magahi",
@@ -3106,7 +3106,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Magahi,Nagpur,Ahmedabad,Kolkata,Rourkela,Delhi,Jalandhar,Allahabad,Dimapur,Coimbatore,Rangpur,Siliguri,Faridabad,Aurangabad,Jodhpur,Gangtok,Dharan,Gwalior,Imphal,Varanasi,Patna,Prayagraj,Jammu,Ghaziabad,Surat,Chandigarh,Guwahati,Tiruchirappalli"
 },
 {
     "name": "Magar (Dhut)",
@@ -3115,7 +3115,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Magar (Dhut),Lhasa,Shigatse,Lhokha,Daofu,Kangding,Nagqu,Jowai,Chengdu,Zhaotong,Melli,Trongsa,Singtam,Kunming,Batang,Lijiang,Trashigang,Lijiang,Punakha,Cherrapunji,Thimphu,Rhenock,Zhongdian,Pu'er,Samdrup Jongkhar,Jorthang,Shillong,Rangpo"
 },
 {
     "name": "Magar Kham",
@@ -3124,7 +3124,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Magar Kham,Shigatse,Zhongdian,Kunming,Chamdo,Barkam,Batang,Deqin,Lijiang,Dali,Kangding,Gangtok,Dalton Ganj,Sarchu,Padum,Melli,Nainital,Leshan,Rhenock,Rangpo,Jakar,Dali,Paro,Lincang,Baoshan,Tura,Cherrapunji,Samdrup Jongkhar"
 },
 {
     "name": "Maithili",
@@ -3133,7 +3133,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Maithili,Guwahati,Ahmedabad,Dibrugarh,Dimapur,Bhopal,Chennai,Aurangabad,Bhubaneswar,Nagpur,Kolkata,Itanagar,Biratnagar,Kathmandu,Kochi,Jammu,Jaipur,Panaji,Imphal,Ghaziabad,Siliguri,Aizawl,Dhaka,Allahabad,Bharatpur,Udaipur,Madurai,Prayagraj"
 },
 {
     "name": "Majhi",
@@ -3142,7 +3142,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Majhi,Accra,Bouaké,Bobo-Dioulasso,Conakry,Bertoua,Kaduna,Kankan,Abidjan,Daloa,Kumasi,Dakar,Kaolack,Mindelo,Ségou,Kara,Jos,Tenkodogo,Korhogo,Maroua,Lomé,Freetown,Thiès,Ebebiyín,Parakou,Nzérékoré,Tambacounda,Gusau"
 },
 {
     "name": "Mak Kam Sui",
@@ -3151,7 +3151,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Mak Kam Sui,Fangchenggang,Bangkok,Phongsali,Hue,Phnom Penh,Xieng Khouang,Naypyidaw,Can Tho,Thakhek,Hat Yai,Hai Phong,Quy Nhon,Battambang,Sihanoukville,Vinh,Mandalay,Phan Thiet,Nha Trang,Pathein,Myitkyina,Điện Biên Phủ,Guilin,Hanoi,Rach Gia,Kunming,Bago,Chiềng Rạ"
 },
 {
     "name": "Mala Malasar",
@@ -3160,7 +3160,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Mala Malasar,Kaduna,Bamako,Banjul,Sokodé,Kara,Dakar,Ouagadougou,Ebebiyín,Monrovia,Man,Lomé,Basse,Gusau,Porto-Novo,Mopti,Koidu,Niamey,Bertoua,Ziguinchor,Warri,Thiès,Wa,Gbarnga,Saint-Louis,Tema,Tambacounda,Cacheu"
 },
 {
     "name": "Malankuravan",
@@ -3169,7 +3169,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Malankuravan,Accra,Kara,Bobo-Dioulasso,Abidjan,Conakry,Freetown,Banjul,Dakar,Praia,Ouagadougou,Lafia,Ziguinchor,Lomé,Daloa,Zinder,Koidu,Saint-Louis,Bamako,Buea,Parakou,Kayes,Tamale,Bafatá,Thiès,Niamey,Banfora,Sikasso"
 },
 {
     "name": "Malapandaram",
@@ -3178,7 +3178,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Malapandaram,Conakry,Kankan,Korhogo,Bamako,Bobo-Dioulasso,Tenkodogo,Accra,Freetown,Banjul,Garoua,Natitingou,Ziguinchor,Thiès,Sikasso,Nzérékoré,Bamenda,Maiduguri,Gbarnga,Wa,Nouakchott,Porto-Novo,Mopti,Niamey,Saint-Louis,Zaria,Sunyani,Kumasi"
 },
 {
     "name": "Malasar",
@@ -3187,7 +3187,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Malasar,Conakry,Basse,Man,Bamako,Cotonou,Bissau,Kaduna,Dakar,Kaolack,Praia,Bata,Gbarnga,Kumasi,Kayes,Bolt,Koidu,Bauchi,Koudougou,Korhogo,Ségou,Garoua,Nzérékoré,Banjul,Zinder,Malabo,Niamey,Bafoussam"
 },
 {
     "name": "Malpande",
@@ -3196,7 +3196,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Malpande,Abidjan,Nouakchott,Ebebiyín,Praia,Kaolack,Bouaké,Kankan,Daloa,Tema,Kara,Lomé,Bamenda,Bertoua,Porto-Novo,Gusau,Bolama,Kano,Mopti,Sunyani,Bafatá,Thiès,Dakar,Sokodé,Minna,Bolt,Kumba,Ziguinchor"
 },
 {
     "name": "Malto",
@@ -3205,7 +3205,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Malto,Amritsar,Lucknow,Bhubaneswar,Ahmedabad,Aurangabad,Chandigarh,Dibrugarh,Vadodara,Dharamshala,Jammu,Itanagar,Ghaziabad,Mymensingh,Imphal,Rajkot,Guwahati,Gwalior,Jaipur,Bhopal,Prayagraj,Noida,Udaipur,Nashik,Thiruvananthapuram,Kochi,Faridabad,Mangalore"
 },
 {
     "name": "Malvi",
@@ -3214,7 +3214,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Malvi,Yola,Bamako,Tema,Koudougou,Conakry,Daloa,Kaduna,Thiès,Kayes,Brikama,Freetown,Kumasi,Praia,Niamey,Katsina,Maiduguri,Bauchi,Ziguinchor,Korhogo,Sunyani,Kumba,Porto-Novo,Mopti,Ouagadougou,Garoua,Tambacounda,Sokoto"
 },
 {
     "name": "Manda",
@@ -3223,7 +3223,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Manda,Accra,Bamako,Wa,Timbuktu,Bafatá,Conakry,Jos,Gusau,Daloa,Koidu,Mindelo,Kumasi,Tambacounda,Parakou,Korhogo,Cotonou,Tenkodogo,Basse,Freetown,Maiduguri,Assomada,Kaolack,Nouakchott,Nzérékoré,Bertoua,Saint-Louis,Lafia"
 },
 {
     "name": "Mangghuer",
@@ -3232,7 +3232,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Mangghuer,Bissau,Banjul,Bamako,Sokodé,Jalingo,Ziguinchor,Tema,Cotonou,Bertoua,Parakou,Katsina,Mopti,Gusau,Kaolack,Kara,Ouagadougou,Gbarnga,Koidu,Korhogo,Koudougou,Maiduguri,Timbuktu,Yamoussoukro,Man,Tambacounda,Bafatá,Ebebiyín"
 },
 {
     "name": "Manglish",
@@ -3241,7 +3241,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Manglish,Bamako,Banjul,Bafatá,Nouakchott,Basse,Dakar,Mopti,Kara,Daloa,Freetown,Gbarnga,Kaolack,Ngaoundéré,Bouaké,Lomé,Praia,Parakou,Maiduguri,Bobo-Dioulasso,Bertoua,Kankan,Koidu,Malabo,Monrovia,Gusau,Niamey,Sikasso"
 },
 {
     "name": "Mankiyali",
@@ -3250,7 +3250,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Mankiyali,Goroka,Kainantu,Kokopo,Wewak,Lae,Olsobip,Popondetta,Aseki,Ramu,Kimbe,Tari,Vanimo,Wau,Wapenamanda,Balimo,Kundiawa,Menyamya,Kerema,Kiunga,Kiunga,Ialibu,Tabubil,Kikori,Morehead,Daru,Komo,Bogia"
 },
 {
     "name": "Maonan",
@@ -3259,7 +3259,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Maonan,Abidjan,Jalingo,Bissau,Bobo-Dioulasso,Daloa,Ouagadougou,Bouaké,Freetown,Katsina,Banjul,Monrovia,Kara,Lafia,Lomé,Korhogo,Man,Kayes,Tamale,Gbarnga,Tema,Niamey,Warri,Bertoua,Porto-Novo,Bolama,Nouakchott,Sokodé"
 },
 {
     "name": "Mara",
@@ -3268,7 +3268,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Mara,Shigatse,Chamdo,Nyingchi,Nagqu,Barkam,Lijiang,Kangding,Gangtok,Baoshan,Weixi,Singtam,Zhongdian,Mangan,Namchi,Batang,Melli,Shillong,Rangpo,Dali,Cherrapunji,Wangdue,Dalton Ganj,Rhenock,Pu'er,Paro,Jakar,Rishikesh"
 },
 {
     "name": "Marwari",
@@ -3277,7 +3277,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Marwari,Bobo-Dioulasso,Abidjan,Accra,Bouaké,Kano,Dakar,Gbarnga,Freetown,Kayes,Korhogo,Kaolack,Nzérékoré,Zaria,Kara,Man,Kumasi,Sokodé,Bertoua,Timbuktu,Tamale,Sokoto,Basse,Praia,Yamoussoukro,Monrovia,Lafia,Porto-Novo"
 },
 {
     "name": "Maumere Malay",
@@ -3286,7 +3286,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Maumere Malay,Jakarta,Medan,Semarang,Ba,Iloilo City,Honiara,Suva,Cebu City,Ngerulmud,Denpasar,Malacca,Cagayan de Oro,Malekula,Majuro,Muara,Port Vila,Bandar Seri Begawan,Kota Kinabalu,Jaluit,Pentecost,Kuching,Auki,Bangar,Buala,Levuka,Lorengau,Angaur"
 },
 {
     "name": "Megam",
@@ -3295,7 +3295,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Megam,Conakry,Maroua,Korhogo,Dakar,Tema,Freetown,Daloa,Bissau,Banjul,Kankan,Ziguinchor,Abidjan,Kaolack,Kara,Ebebiyín,Bamenda,Saint-Louis,Sunyani,Man,Bauchi,Maiduguri,Ouagadougou,Yamoussoukro,Parakou,Accra,Nzérékoré,Warri"
 },
 {
     "name": "Mel-Khaonh",
@@ -3304,7 +3304,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Mel-Khaonh,Basse,Bamako,Daloa,Tema,Man,Bouaké,Ziguinchor,Minna,Koidu,Dakar,Kumasi,Kaduna,Nouakchott,Koudougou,Bissau,Sokodé,Saint-Louis,Lomé,Sunyani,Maiduguri,Praia,Bobo-Dioulasso,Monrovia,Warri,Bamenda,Tambacounda,Bolt"
 },
 {
     "name": "Memoni",
@@ -3313,7 +3313,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Memoni,Kampong Cham,Hanoi,Hai Phong,Savannakhet,Hue,Nakhon Ratchasima,Chiang Mai,Naypyidaw,Can Tho,Rach Gia,My Tho,Phan Thiet,Phongsali,Lạng Sơn,Luang Prabang,Pakse,Mandalay,Macau,Nanning,Phnom Penh,Sihanoukville,Battambang,Udon Thani,Mawlamyine,Takeo,Guilin,Zhanjiang"
 },
 {
     "name": "Mewari",
@@ -3322,7 +3322,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Mewari,Daloa,Koidu,Mopti,Man,Bobo-Dioulasso,Monrovia,Kankan,Abidjan,Dakar,Kaolack,Accra,Lomé,Nouakchott,Bouaké,Kayes,Ouagadougou,Saint-Louis,Yamoussoukro,Korhogo,Kumasi,Brikama,Sunyani,Kaduna,Lafia,Conakry,Ziguinchor,Freetown"
 },
 {
     "name": "Mewati",
@@ -3331,7 +3331,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Mewati,Ziguinchor,Cotonou,Aconibe,Kano,Sokodé,Freetown,Praia,Bamako,Sunyani,Kankan,Ngaoundéré,Ebebiyín,Mopti,Porto-Novo,Man,Kumba,Tema,Zinder,Conakry,Parakou,Nzérékoré,Katsina,Garoua,Koidu,Brikama,Wa,Cacheu"
 },
 {
     "name": "Middle Mongol",
@@ -3340,7 +3340,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Middle Mongol,Phongsali,Hanoi,Quy Nhon,Fangchenggang,Da Lat,Savannakhet,Hai Phong,Nha Trang,Cao Bằng,Vinh,Hue,Phan Thiet,Taunggyi,Phnom Penh,My Tho,Luang Prabang,Mandalay,Nakhon Ratchasima,Pathein,Thakhek,Xieng Khouang,Hat Yai,Can Tho,Siem Reap,Pursat,Shantou,Sihanoukville"
 },
 {
     "name": "Min Zhuang",
@@ -3349,7 +3349,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Min Zhuang,Pakse,Bangkok,Fangchenggang,Hai Phong,Điện Biên Phủ,Can Tho,Kunming,Lạng Sơn,Vientiane,Nha Trang,Kampot,Rach Gia,Luang Prabang,Sanya,Macau,Cao Bằng,Vinh,Surat Thani,Hue,Myitkyina,Xieng Khouang,Battambang,Liuzhou,Sihanoukville,Wuzhou,Yangon,Mawlamyine"
 },
 {
     "name": "Mnong",
@@ -3358,7 +3358,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Mnong,Bago,Savannakhet,Sam Neua,Ho Chi Minh City,Sihanoukville,Hai Phong,Thakhek,Qionghai,Haikou,Vinh,Vientiane,Rach Gia,Cao Bằng,Guilin,Pakse,Takeo,Phan Thiet,Kampong Cham,Fangchenggang,Xieng Khouang,Udon Thani,Mandalay,Siem Reap,Kampot,Hue,Beihai,Liuzhou"
 },
 {
     "name": "Moghol / Mogholi",
@@ -3367,7 +3367,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Moghol / Mogholi,Bishkek,Fergana,Tashkent,Kirovabad,Almaty,Naryn,Kulob,Samarkand,Shymkent,Oral,Ashgabat,Karagandy,Bayramaly,Isfahan,Khorugh,Dashoguz,Bukhara,Pavlodar,Tehran,Tokmok,Istaravshan,Shiraz,Karaj,Kandahar,Herat,Bokhtar,Tabriz"
 },
 {
     "name": "Mogholi",
@@ -3376,7 +3376,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Mogholi,Samarkand,Namangan,Andijan,Ghazni,Fergana,Shymkent,Jalalabad,Oral,Aktau,Talas,Balkanabat,Qom,Pavlodar,Bokhtar,Murghob,Tabriz,Turkmenabat,Tokmok,Nur-Sultan,Atyrau,Herat,Tejen,Karaj,Khorugh,Panjakent,Yangibazar,Kunduz"
 },
 {
     "name": "Mongghul",
@@ -3385,7 +3385,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Mongghul,Hue,Bangkok,Điện Biên Phủ,Wuzhou,Hanoi,Ho Chi Minh City,Can Tho,Da Nang,Vinh,Vientiane,Haikou,Cao Bằng,Kunming,Zhanjiang,Phnom Penh,Hà Giang,My Tho,Bago,Battambang,Savannakhet,Mandalay,Quy Nhon,Guilin,Sihanoukville,Phan Thiet,Mawlamyine,Pakse"
 },
 {
     "name": "Mongghuor",
@@ -3394,7 +3394,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Mongghuor,Nanning,Sam Neua,Nha Trang,Chiang Mai,Vientiane,Điện Biên Phủ,Phnom Penh,Mandalay,Quy Nhon,Lạng Sơn,Da Nang,Xieng Khouang,Macau,Phongsali,Fangchenggang,Phan Thiet,Hat Yai,Hà Giang,Bangkok,Can Tho,Haikou,Yangon,Beihai,Hue,Naypyidaw,My Tho,Thakhek"
 },
 {
     "name": "Monguor",
@@ -3403,7 +3403,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Monguor,Chiang Mai,Da Nang,Da Lat,Fangchenggang,Phnom Penh,Udon Thani,Hai Phong,Quy Nhon,Can Tho,Xieng Khouang,Phongsali,Rach Gia,Phan Thiet,Kunming,Siem Reap,Shantou,Mandalay,Pakse,Nanning,Kampot,Vinh,Pursat,Qionghai,Wuzhou,Hanoi,Sihanoukville,Pattaya"
 },
 {
     "name": "Monom",
@@ -3412,7 +3412,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Monom,Bangkok,Ho Chi Minh City,Hue,Phongsali,Hà Giang,Kampong Cham,Da Lat,Hanoi,Phnom Penh,My Tho,Naypyidaw,Nanning,Da Nang,Udon Thani,Guiyang,Mandalay,Rach Gia,Chiang Mai,Bago,Kampot,Pursat,Chiềng Mai,Beihai,Battambang,Sam Neua,Siem Reap,Khon Kaen"
 },
 {
     "name": "Moyfaw",
@@ -3421,7 +3421,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Moyfaw,Minna,Daloa,Ebebiyín,Yamoussoukro,Mopti,Freetown,Kankan,Bissau,Kayes,Ouahigouya,Kumasi,Abidjan,Parakou,Kumba,Nzérékoré,Monrovia,Bobo-Dioulasso,Bouaké,Yola,Cotonou,Wukari,Aconibe,Malabo,Zinder,Ségou,Kaolack,Sikasso"
 },
 {
     "name": "Muduga",
@@ -3430,7 +3430,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Muduga,Banjul,Saint-Louis,Conakry,Bamako,Ebebiyín,Kumasi,Maroua,Bouaké,Dakar,Kara,Bobo-Dioulasso,Koidu,Koudougou,Cotonou,Nouakchott,Korhogo,Bauchi,Man,Sunyani,Mopti,Wa,Porto-Novo,Bamenda,Sokodé,Bafoussam,Parakou,Niamey"
 },
 {
     "name": "Mugom–Karmarong",
@@ -3439,7 +3439,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Mugom–Karmarong,Daloa,Bobo-Dioulasso,Bouaké,Freetown,Man,Brikama,Nouakchott,Ziguinchor,Korhogo,Mopti,Bissau,Yamoussoukro,Ouagadougou,Ségou,Warri,Accra,Katsina,Koidu,Bafoussam,Parakou,Jalingo,Porto-Novo,Tambacounda,Bamenda,Bamako,Tema,Nzérékoré"
 },
 {
     "name": "Mullu Kurumba",
@@ -3448,7 +3448,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Mullu Kurumba,Cali,Cúcuta,Quito,Medellín,Cartagena,Talca,Chiclayo,Santo Domingo,Bogotá,Ambato,Sucre,Loja,Piura,Lima,Arequipa,Cusco,Arica,La Paz,Asunción,Cochabamba,Puerto Carreño,Antofagasta,Cuenca,Iquitos,Oruro,Puyo,Villarrica"
 },
 {
     "name": "Mundari",
@@ -3457,7 +3457,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Mundari,Ahmedabad,Amritsar,Jalandhar,Patna,Bhopal,Hyderabad,Delhi,Dharan,Dibrugarh,Faridabad,Indore,Itanagar,Dimapur,Jabalpur,Kozhikode,Gwalior,Rajkot,Jaipur,Noida,Udaipur,Varanasi,Raipur,Nagpur,Vadodara,Aizawl,Kochi,Lucknow"
 },
 {
     "name": "Muong",
@@ -3466,7 +3466,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Muong,Bangkok,Lạng Sơn,Pattaya,Hue,Chiang Rai,Kunming,Quy Nhon,Taunggyi,Siem Reap,Savannakhet,Phongsali,My Tho,Pakse,Battambang,Surat Thani,Xieng Khouang,Liuzhou,Fangchenggang,Shantou,Phnom Penh,Pursat,Guilin,Zhanjiang,Yangon,Sihanoukville,Hanoi,Nakhon Ratchasima"
 },
 {
     "name": "Muria",
@@ -3475,7 +3475,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Muria,Koidu,Accra,Timbuktu,Conakry,Ouagadougou,Bobo-Dioulasso,Koudougou,Daloa,Gbarnga,Katsina,Kara,Tema,Garoua,Tenkodogo,Man,Praia,Bertoua,Kayes,Nouakchott,Brikama,Ebebiyín,Ziguinchor,Sunyani,Freetown,Porto-Novo,Kumasi,Monrovia"
 },
 {
     "name": "Muthuvan",
@@ -3484,7 +3484,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Muthuvan,Abidjan,Bissau,Bobo-Dioulasso,Gbarnga,Man,Cotonou,Daloa,Banjul,Kumasi,Kara,Bafatá,Kaolack,Praia,Koudougou,Ziguinchor,Parakou,Mopti,Monrovia,Porto-Novo,Tema,Kano,Gusau,Bamenda,Jos,Bamako,Timbuktu,Wukari"
 },
 {
     "name": "Myang Zhuang",
@@ -3493,7 +3493,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Myang Zhuang,Takeo,Shantou,Hanoi,Hue,Siem Reap,Guiyang,Chiang Mai,Ho Chi Minh City,Cao Bằng,Chiang Rai,Qionghai,Luang Prabang,Vinh,Liuzhou,Thakhek,Pakse,Mandalay,Pursat,Chiềng Mai,Xieng Khouang,My Tho,Fangchenggang,Naypyidaw,Battambang,Kampot,Taunggyi,Can Tho"
 },
 {
     "name": "Mymensinghi Bengali",
@@ -3502,7 +3502,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Mymensingh,Dhaka,Chittagong,Rajshahi,Khulna,Sylhet,Barisal,Rangpur,Comilla,Bogra,Jessore,Dinajpur,Brahmanbaria,Tangail,Narsingdi,Gazipur,Narayanganj,Kushtia,Faridpur,Noakhali,Pabna,Jamalpur,Sherpur,Netrokona,Kishoreganj,Manikganj,Munshiganj"
+  "b": "Mymensinghi Bengali,Jabalpur,Guwahati,Chennai,Lucknow,Aizawl,Nagpur,Delhi,Dimapur,Madurai,Imphal,Sylhet,Dibrugarh,Panaji,Faridabad,Gwalior,Silchar,Mangalore,Srinagar,Kolkata,Allahabad,Mysore,Rourkela,Ahmedabad,Kochi,Bhubaneswar,Pune,Amritsar"
 },
 {
     "name": "Nachhiring",
@@ -3511,7 +3511,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Nachhiring,Cacheu,Nzérékoré,Accra,Dakar,Kayes,Bouaké,Freetown,Wukari,Conakry,Daloa,Kara,Kaolack,Bafatá,Saint-Louis,Praia,Timbuktu,Tenkodogo,Maiduguri,Yamoussoukro,Kumasi,Niamey,Basse,Malabo,Monrovia,Jalingo,Bauchi,Ouagadougou"
 },
 {
     "name": "Nagpuri",
@@ -3520,7 +3520,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Nagpuri,Cotonou,Bamako,Sokodé,Malabo,Kaolack,Bolt,Koidu,Kumasi,Kano,Bamenda,Katsina,Kara,Basse,Koudougou,Daloa,Timbuktu,Monrovia,Sikasso,Sunyani,Man,Thiès,Freetown,Gusau,Zinder,Niamey,Parakou,Bertoua"
 },
 {
     "name": "Naiki",
@@ -3529,7 +3529,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Naiki,Abidjan,Bertoua,Bamako,Daloa,Ouagadougou,Conakry,Dakar,Tema,Koudougou,Bamenda,Bissau,Parakou,Nouakchott,Timbuktu,Lomé,Ziguinchor,Sokodé,Koidu,Buea,Niamey,Tambacounda,Brikama,Katsina,Zinder,Wukari,Korhogo,Kano"
 },
 {
     "name": "Nanaic",
@@ -3538,7 +3538,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Nanaic,Yakutsk,Norilsk,Chersky,Oymyakon,Palana,Bagdarin,Verkhoyansk,Lavrentiya,Zhigansk,Svetlogorsk,Okhotsk,Tiksi,Egvekinot,Beringovsky,Nyurba,Petropavlovsk-Kamchatsky,Kozyrevsk,Myaundzha,Anadyr,Seymchan,Ust-Kamchatsk,Provideniya,Bilibino,Talnakh,Kadykchan,Kayerkan,Orotukan"
 },
 {
     "name": "Nantoq Baoan",
@@ -3547,7 +3547,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Nantoq Baoan,Bukhara,Fergana,Tashkent,Ashgabat,Balkanabat,Jalalabad,Kokand,Shymkent,Kulob,Istaravshan,Jalal-Abad,Tabriz,Bishkek,Faisalabad,Herat,Karakol,Almaty,Naryn,Rawalpindi,Tokmok,Yangibazar,Bokhtar,Murgab,Ghazni,Qom,Bayramaly,Nukus"
 },
 {
     "name": "Nar Phu",
@@ -3556,7 +3556,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Nar Phu,Malabo,Conakry,Abidjan,Koidu,Gbarnga,Cotonou,Tema,Koudougou,Kayes,Katsina,Gusau,Basse,Daloa,Niamey,Lomé,Nouakchott,Saint-Louis,Monrovia,Garoua,Man,Wa,Porto-Novo,Bauchi,Sikasso,Bafatá,Maiduguri,Bamenda"
 },
 {
     "name": "Negidal",
@@ -3565,7 +3565,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Negidal,Yakutsk,Bagdarin,Mirny,Novosibirsk,Verkhoyansk,Khatanga,Chersky,Pevek,Yelizovo,Saskylakh,Ust-Nera,Suntar,Beringovsky,Palana,Orotukan,Ust-Kamchatsk,Lavrentiya,Dudinka,Molchanovo,Seymchan,Myaundzha,Khandyga,Podgornoye,Kargasok,Barguzin,Magadan,Romanovka"
 },
 {
     "name": "Nepalese English",
@@ -3574,7 +3574,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Pokhara,Lalitpur,Bharatpur,Birgunj,Biratnagar,Dharan,Butwal,Nepalgunj,Janakpur,Dhangadhi,Hetauda,Bhimdatta,Ilam,Dhankuta,Sindhuli,Surkhet,Dang,Parbat,Bhojpur,Solukhumbu,Dolakha,Mugu,Humla,Jumla"
+  "b": "Nepalese English,Pu'er,Jowai,Nyingchi,Kunming,Lijiang,Paro,Xichang,Trongsa,Dali,Zhongdian,Singtam,Chamdo,Samdrup Jongkhar,Tura,Weixi,Wangdue,Shillong,Nongstoin,Jorthang,Rhenock,Dali,Baoshan,Melli,Thimphu,Yibin,Kham,Tso Kar"
 },
 {
     "name": "Nihali",
@@ -3583,7 +3583,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Nihali,Gbarnga,Bouaké,Bissau,Timbuktu,Bata,Conakry,Tambacounda,Koudougou,Freetown,Malabo,Ngaoundéré,Kara,Accra,Kumasi,Jos,Kayes,Nouakchott,Porto-Novo,Sokodé,Bolt,Kumba,Brikama,Mopti,Monrovia,Thiès,Sunyani,Sikasso"
 },
 {
     "name": "Nimadi",
@@ -3592,7 +3592,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Nimadi,Man,Conakry,Cotonou,Daloa,Freetown,Kaolack,Bertoua,Bobo-Dioulasso,Abidjan,Gbarnga,Bissau,Malabo,Warri,Koudougou,Bouaké,Ségou,Ebebiyín,Gusau,Saint-Louis,Zinder,Tema,Nouakchott,Bamenda,Basse,Katsina,Wa,Timbuktu"
 },
 {
     "name": "Noakhailla",
@@ -3601,7 +3601,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Noakhailla,Lhasa,Gangtok,Kangding,Punakha,Xichang,Dali,Lijiang,Weixi,Ngari,Batang,Mangan,Shigatse,Lhokha,Chuxiong,Namchi,Samdrup Jongkhar,Koksar,Paro,Dalton Ganj,Rangpo,Trongsa,Panzhihua,Nainital,Thimphu,Trashigang,Shillong,Jorthang"
 },
 {
     "name": "Nong Zhuang",
@@ -3610,7 +3610,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Nong Zhuang,Da Nang,Hue,Phuket,Hai Phong,Can Tho,Ho Chi Minh City,Vinh,Bago,Pursat,Bangkok,Lạng Sơn,Savannakhet,Sam Neua,Phongsali,Phnom Penh,Luang Prabang,Mandalay,Pakse,Macau,Thakhek,Xieng Khouang,Guilin,Pathein,Sihanoukville,My Tho,Fangchenggang,Khon Kaen"
 },
 {
     "name": "Nonni Dagur",
@@ -3619,7 +3619,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Nonni Dagur,Bobo-Dioulasso,Abidjan,Accra,Nzérékoré,Gbarnga,Bissau,Bata,Kara,Conakry,Man,Dakar,Jalingo,Lomé,Kumasi,Kankan,Bamako,Yola,Katsina,Basse,Porto-Novo,Maiduguri,Saint-Louis,Bertoua,Niamey,Zaria,Yamoussoukro,Mopti"
 },
 {
     "name": "North Moluccan Malay",
@@ -3628,7 +3628,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "North Moluccan Malay,Kirakira,Denpasar,Davao,Manila,Quezon City,Cebu City,Makassar,Muara,George Town,Bandung,Bacolod,Bandar Seri Begawan,Port Vila,Malacca,Bangar,Jerudong,Tulagi,Kuala Belait,Kolonia,Kuching,Shah Alam,Iloilo City,Lae,Tutong,Lautoka,Labasa,Savusavu"
 },
 {
     "name": "Northern Khalkha",
@@ -3637,7 +3637,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Northern Khalkha,Bukhara,Kirovabad,Tashkent,Andijan,Jalalabad,Khorugh,Kokand,Aktau,Tehran,Oral,Batken,Naryn,Osh,Karakol,Nukus,Tokmok,Shymkent,Dushanbe,Almaty,Mary,Sialkot,Shiraz,Kabul,Murghob,Murgab,Kulob,Istaravshan"
 },
 {
     "name": "Northern Tai",
@@ -3646,7 +3646,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Northern Tai,Bangkok,Taunggyi,Da Nang,Thakhek,Shantou,Cao Bằng,Phan Thiet,Nha Trang,Yangon,Rach Gia,Phongsali,Siem Reap,Sam Neua,Hanoi,Savannakhet,Surat Thani,Hong Kong,Xieng Khouang,Kunming,Pattaya,Danzhou,Hat Yai,Chiềng Mai,Lạng Sơn,Pursat,My Tho,Phuket"
 },
 {
     "name": "Northern Thai",
@@ -3655,7 +3655,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Northern Thai,Da Lat,Vinh,Quy Nhon,Sihanoukville,Nha Trang,Hanoi,Rach Gia,Pathein,Taunggyi,Pakse,Hat Yai,Xieng Khouang,Ho Chi Minh City,Hai Phong,Sam Neua,Takeo,Kampong Cham,Kampot,Macau,Fangchenggang,Điện Biên Phủ,Guilin,Vientiane,Can Tho,Thakhek,Pattaya,Haikou"
 },
 {
     "name": "Northern Tungusic",
@@ -3664,7 +3664,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Northern Tungusic,Novosibirsk,Magadan,Yakutsk,Anadyr,Chersky,Saskylakh,Suntar,Kargasok,Verkhoyansk,Lavrentiya,Chita,Ust-Kamchatsk,Nyurba,Tiksi,Kozyrevsk,Palana,Bagdarin,Talnakh,Petropavlovsk-Kamchatsky,Beringovsky,Zhigansk,Provideniya,Molchanovo,Okhotsk,Barguzin,Uelen,Myaundzha"
 },
 {
     "name": "Nung Tai",
@@ -3673,7 +3673,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Nung Tai,Da Nang,Ho Chi Minh City,Shantou,Bago,Can Tho,Pakse,Da Lat,Luang Prabang,Chiang Rai,Quy Nhon,Hat Yai,My Tho,Vientiane,Kunming,Nha Trang,Guiyang,Battambang,Sihanoukville,Sam Neua,Phnom Penh,Danzhou,Siem Reap,Nakhon Ratchasima,Naypyidaw,Nanning,Lào Cai,Pursat"
 },
 {
     "name": "Nyah Kur",
@@ -3682,7 +3682,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Nyah Kur,Koidu,Lomé,Bissau,Daloa,Bouaké,Praia,Gusau,Banjul,Ouagadougou,Jalingo,Kankan,Man,Kara,Katsina,Warri,Yola,Sokodé,Basse,Abidjan,Conakry,Ségou,Saint-Louis,Yamoussoukro,Bertoua,Gbarnga,Garoua,Kaolack"
 },
 {
     "name": "Nyaheun",
@@ -3691,7 +3691,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Nyaheun,Abidjan,Lomé,Bamako,Accra,Bouaké,Daloa,Jalingo,Katsina,Kaolack,Tenkodogo,Parakou,Kara,Mopti,Ségou,Monrovia,Gusau,Saint-Louis,Ouagadougou,Porto-Novo,Praia,Kaduna,Conakry,Bissau,Sunyani,Timbuktu,Ebebiyín,Warri"
 },
 {
     "name": "Oadki",
@@ -3700,7 +3700,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Oadki,Daloa,Cotonou,Timbuktu,Bobo-Dioulasso,Bouaké,Ebebiyín,Man,Kumasi,Bissau,Kaolack,Abidjan,Kara,Sokodé,Bafatá,Koidu,Kano,Korhogo,Tarrafal,Nzérékoré,Maroua,Basse,Freetown,Assomada,Tenkodogo,Nouakchott,Tambacounda,Porto-Novo"
 },
 {
     "name": "Odia",
@@ -3709,7 +3709,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Odia,Allahabad,Aizawl,Kolkata,Chandigarh,Jammu,Dharamshala,Chennai,Jabalpur,Dimapur,Ahmedabad,Coimbatore,Dharan,Ghaziabad,Dibrugarh,Itanagar,Guwahati,Thiruvananthapuram,Jaipur,Silchar,Jalandhar,Mumbai,Varanasi,Ranchi,Leh,Dhaka,Raipur,Ludhiana"
 },
 {
     "name": "Oeld",
@@ -3718,7 +3718,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Oeld,Bissau,Accra,Cotonou,Bouaké,Bamako,Freetown,Kankan,Kaduna,Nouakchott,Nzérékoré,Daloa,Monrovia,Man,Lafia,Koudougou,Maiduguri,Assomada,Jalingo,Sunyani,Ouagadougou,Ségou,Kumba,Mindelo,Parakou,Thiès,Tambacounda,Koidu"
 },
 {
     "name": "Oi",
@@ -3727,7 +3727,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Oi,Bamako,Monrovia,Nouakchott,Daloa,Bobo-Dioulasso,Bouaké,Tema,Cotonou,Dakar,Koidu,Bissau,Kankan,Mopti,Kaolack,Kayes,Freetown,Bafatá,Korhogo,Kumasi,Koudougou,Gusau,Ziguinchor,Katsina,Parakou,Zaria,Accra,Ouagadougou"
 },
 {
     "name": "Oirat Mongolian",
@@ -3736,7 +3736,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Oirat Mongolian,Sam Neua,Pakse,My Tho,Quy Nhon,Phongsali,Phan Thiet,Pursat,Guilin,Hat Yai,Rach Gia,Hai Phong,Lào Cai,Kampong Cham,Shantou,Luang Prabang,Nha Trang,Mandalay,Khon Kaen,Hà Giang,Macau,Hanoi,Battambang,Udon Thani,Bangkok,Nanning,Yangon,Haikou"
 },
 {
     "name": "Old Khitan",
@@ -3745,7 +3745,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Old Khitan,Bishkek,Turkmenabat,Balkanabat,Andijan,Batken,Fergana,Kabul,Nur-Sultan,Lahore,Khujand,Khorugh,Jalalabad,Multan,Bokhtar,Almaty,Murghob,Nukus,Rawalpindi,Talas,Tejen,Karagandy,Gyzylarbat,Jalal-Abad,Kulob,Qom,Mazar-i-Sharif,Karaj"
 },
 {
     "name": "Old Serbi",
@@ -3754,7 +3754,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Old Serbi,Abidjan,Bamako,Bafatá,Banjul,Porto-Novo,Ouagadougou,Kankan,Kaduna,Katsina,Bamenda,Gbarnga,Maiduguri,Bouaké,Bobo-Dioulasso,Bissau,Koidu,Kumasi,Yamoussoukro,Banfora,Koudougou,Mopti,Kayes,Malabo,Conakry,Zaria,Sokodé,Niamey"
 },
 {
     "name": "Ollari",
@@ -3763,7 +3763,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Ollari,Wukari,Banjul,Accra,Daloa,Bobo-Dioulasso,Koidu,Timbuktu,Bafatá,Monrovia,Freetown,Kara,Kaolack,Buea,Bouaké,Porto-Novo,Bertoua,Saint-Louis,Ouagadougou,Mopti,Nzérékoré,Ziguinchor,Wa,Sunyani,Sikasso,Lafia,Tambacounda,Conakry"
 },
 {
     "name": "Önge",
@@ -3772,7 +3772,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Önge,Basse,Accra,Bissau,Gbarnga,Koudougou,Katsina,Daloa,Dakar,Monrovia,Kankan,Brikama,Kano,Man,Tema,Bamako,Lafia,Ziguinchor,Bafatá,Mopti,Niamey,Kaolack,Porto-Novo,Koidu,Parakou,Jalingo,Sunyani,Ebebiyín"
 },
 {
     "name": "Ordos Mongol",
@@ -3781,7 +3781,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Ordos Mongol,Hai Phong,Chiang Rai,Nanning,Hue,Chiang Mai,Pakse,Phan Thiet,Savannakhet,Điện Biên Phủ,Shantou,Sihanoukville,Bangkok,Battambang,Da Lat,Chonburi,Ho Chi Minh City,Vinh,Xieng Khouang,Macau,Vientiane,Danzhou,Kunming,Taunggyi,Mawlamyine,Siem Reap,Sam Neua,Liuzhou"
 },
 {
     "name": "Ormuri",
@@ -3790,7 +3790,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Ormuri,Abidjan,Sokodé,Daloa,Banjul,Gbarnga,Basse,Bouaké,Bertoua,Monrovia,Freetown,Tambacounda,Kaolack,Man,Koidu,Porto-Novo,Tema,Timbuktu,Koudougou,Sunyani,Ouagadougou,Thiès,Bobo-Dioulasso,Lafia,Nzérékoré,Warri,Praia,Bissau"
 },
 {
     "name": "Oroch",
@@ -3799,7 +3799,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Oroch,Anadyr,Suntar,Saskylakh,Zhigansk,Magadan,Novosibirsk,Norilsk,Khatanga,Beringovsky,Tigil,Anadyr,Olyokminsk,Romanovka,Provideniya,Uelen,Barguzin,Khandyga,Parabel,Myaundzha,Verkhoyansk,Yelizovo,Yakutsk,Esso,Susuman,Klyuchi,Norilsk,Pevek"
 },
 {
     "name": "Orok",
@@ -3808,7 +3808,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Orok,Magadan,Norilsk,Barguzin,Anadyr,Oymyakon,Anadyr,Petropavlovsk-Kamchatsky,Saskylakh,Kozyrevsk,Olyokminsk,Chokurdakh,Klyuchi,Khandyga,Provideniya,Kadykchan,Tigil,Suntar,Kolpashevo,Bagdarin,Bilibino,Ust-Nera,Lavrentiya,Yelizovo,Dudinka,Norilsk,Kargasok,Igarka"
 },
 {
     "name": "Paha",
@@ -3817,7 +3817,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Paha,Abidjan,Accra,Ouagadougou,Zaria,Bouaké,Bobo-Dioulasso,Sokodé,Banjul,Cotonou,Lomé,Katsina,Man,Bertoua,Dakar,Koidu,Tamale,Jalingo,Nzérékoré,Timbuktu,Conakry,Porto-Novo,Kankan,Yamoussoukro,Tema,Gbarnga,Saint-Louis,Nouakchott"
 },
 {
     "name": "Pahari (Sino-Tibetan)",
@@ -3826,7 +3826,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Pahari (Sino-Tibetan),Hyderabad,Aurangabad,Dharan,Ahmedabad,Bhopal,Bhubaneswar,Coimbatore,Ghaziabad,Dharamshala,Dimapur,Patna,Imphal,Vadodara,Kochi,Lalitpur,Bangalore,Mangalore,Aizawl,Jabalpur,Panaji,Kozhikode,Leh,Kolkata,Ludhiana,Chandigarh,Mysore,Tiruchirappalli"
 },
 {
     "name": "Pahari-Pothwari",
@@ -3835,7 +3835,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Pahari-Pothwari,Thiruvananthapuram,Aurangabad,Bangalore,Rourkela,Chennai,Bhubaneswar,Delhi,Ghaziabad,Faridabad,Guwahati,Kolkata,Dimapur,Lucknow,Patna,Rajkot,Hyderabad,Jalandhar,Biratnagar,Ludhiana,Jaipur,Itanagar,Kathmandu,Dharan,Noida,Silchar,Surat,Aizawl"
 },
 {
     "name": "Pakistani English",
@@ -3844,7 +3844,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Karachi,Lahore,Faisalabad,Rawalpindi,Multan,Gujranwala,Hyderabad,Peshawar,Quetta,Islamabad,Sialkot,Sargodha,Bahawalpur,Sukkur,Larkana,Sheikhupura,Mirpur Kas,Jhang,Sahiwal,Gujrat,Mardan,Nawabshah,Kasur,Dera Ghazi Khan,Okara,Hafizabad"
+  "b": "Pakistani English,Madrid,Drammen,Sion,Marseille,Liverpool,Valencia,Eindhoven,Munich,Berlin,Düsseldorf,Trondheim,Cologne,Palermo,Frankfurt,Rome,Venice,Naples,Vevey,Stockholm,Zurich,Glasgow,Pori,Warsaw,Lublin,Stavanger,Waterford,Tromsø"
 },
 {
     "name": "Paliyan",
@@ -3853,7 +3853,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Paliyan,Bamenda,Bamako,Banjul,Kumasi,Abidjan,Bouaké,Conakry,Jalingo,Kaolack,Gbarnga,Timbuktu,Kayes,Korhogo,Koudougou,Man,Dakar,Koidu,Aconibe,Cotonou,Warri,Maiduguri,Malabo,Ouagadougou,Wa,Praia,Jos,Porto-Novo"
 },
 {
     "name": "Palula",
@@ -3862,7 +3862,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Palula,Accra,Timbuktu,Bissau,Bobo-Dioulasso,Bouaké,Conakry,Jos,Porto-Novo,Katsina,Gbarnga,Kumasi,Kara,Kaolack,Niamey,Korhogo,Maiduguri,Bamenda,Brikama,Koudougou,Parakou,Garoua,Ouagadougou,Man,Zinder,Ebebiyín,Nzérékoré,Bolama"
 },
 {
     "name": "Pangasinan",
@@ -3871,7 +3871,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Pangasinan,Abidjan,Bouaké,Daloa,Bissau,Kaolack,Man,Bamako,Koidu,Kayes,Gbarnga,Kumasi,Yamoussoukro,Sokodé,Lomé,Timbuktu,Cacheu,Garoua,Ouagadougou,Thiès,Mopti,Porto-Novo,Bobo-Dioulasso,Koudougou,Warri,Cotonou,Tema,Sikasso"
 },
 {
     "name": "Pangkhua",
@@ -3880,7 +3880,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Pangkhua,Conakry,Banjul,Bobo-Dioulasso,Dakar,Accra,Koidu,Kankan,Bafatá,Maiduguri,Bouaké,Ségou,Bafoussam,Mopti,Niamey,Tamale,Lomé,Saint-Louis,Tarrafal,Sunyani,Wa,Gusau,Tema,Yamoussoukro,Parakou,Zaria,Lafia,Kayes"
 },
 {
     "name": "Pashto, Northern",
@@ -3889,7 +3889,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Pashto, Northern,Nur-Sultan,Namangan,Shymkent,Almaty,Karagandy,Aktau,Atyrau,Rawalpindi,Kulob,Faisalabad,Tehran,Andijan,Jalal-Abad,Khujand,Bayramaly,Osh,Batken,Karakol,Quetta,Jalalabad,Isfahan,Tokmok,Mary,Bokhtar,Talas,Bukhara,Kokand"
 },
 {
     "name": "Pashto, Southern",
@@ -3898,7 +3898,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Pashto, Southern,Isfahan,Namangan,Atyrau,Yangibazar,Jalal-Abad,Pavlodar,Multan,Istaravshan,Aktau,Khujand,Naryn,Osh,Kirovabad,Bukhara,Murghob,Almaty,Karakol,Dashoguz,Sialkot,Talas,Tokmok,Murgab,Tabriz,Bokhtar,Panjakent,Karagandy,Oral"
 },
 {
     "name": "Pattapu",
@@ -3907,7 +3907,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Pattapu,Bafoussam,Katsina,Conakry,Bissau,Banfora,Nouakchott,Bobo-Dioulasso,Freetown,Kayes,Daloa,Korhogo,Kara,Kankan,Parakou,Garoua,Maiduguri,Bauchi,Abidjan,Sokoto,Kumasi,Porto-Novo,Wa,Ouagadougou,Kano,Mopti,Nzérékoré,Dakar"
 },
 {
     "name": "Pear",
@@ -3916,7 +3916,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Pear,Abidjan,Gbarnga,Bissau,Sokodé,Malabo,Timbuktu,Lomé,Cotonou,Korhogo,Kaolack,Ouagadougou,Monrovia,Bamako,Tema,Ziguinchor,Koidu,Saint-Louis,Maiduguri,Bauchi,Freetown,Ebebiyín,Bobo-Dioulasso,Man,Buea,Kumba,Jos,Sokoto"
 },
 {
     "name": "Pengo",
@@ -3925,7 +3925,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Pengo,Nouakchott,Banjul,Daloa,Bamenda,Korhogo,Gbarnga,Conakry,Timbuktu,Kayes,Nzérékoré,Jalingo,Bouaké,Mopti,Kara,Wa,Kano,Koudougou,Abidjan,Porto-Novo,Kaolack,Saint-Louis,Lomé,Yamoussoukro,Kaduna,Bafoussam,Cotonou,Malabo"
 },
 {
     "name": "Phake",
@@ -3934,7 +3934,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Phake,Accra,Conakry,Bobo-Dioulasso,Tamale,Lomé,Bamako,Gbarnga,Kara,Mindelo,Freetown,Ebebiyín,Kaolack,Ségou,Mopti,Niamey,Parakou,Kumasi,Koidu,Korhogo,Thiès,Kumba,Tenkodogo,Yamoussoukro,Zinder,Bolama,Jos,Ziguinchor"
 },
 {
     "name": "Phu Thai",
@@ -3943,7 +3943,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Phu Thai,Ho Chi Minh City,Haikou,Hue,Hai Phong,Chiang Mai,Can Tho,Da Lat,Battambang,Xieng Khouang,Sam Neua,Beihai,Sihanoukville,Taunggyi,Luang Prabang,Udon Thani,Takeo,Liuzhou,Mandalay,Phan Thiet,Kampot,Kunming,Nha Trang,Phnom Penh,Kampong Cham,Vinh,Shantou,Mawlamyine"
 },
 {
     "name": "Phuan",
@@ -3952,7 +3952,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Phuan,Ebebiyín,Bouaké,Katsina,Bobo-Dioulasso,Bamako,Bauchi,Kankan,Koudougou,Abidjan,Kaolack,Kaduna,Monrovia,Ségou,Accra,Gbarnga,Nouakchott,Cotonou,Cacheu,Maiduguri,Tambacounda,Nzérékoré,Porto-Novo,Sokoto,Sunyani,Ouagadougou,Bolama,Koidu"
 },
 {
     "name": "Portugis",
@@ -3961,7 +3961,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Portugis,Sikasso,Banjul,Bobo-Dioulasso,Praia,Kara,Cotonou,Kankan,Freetown,Daloa,Tarrafal,Kaduna,Maiduguri,Timbuktu,Cacheu,Ziguinchor,Korhogo,Yola,Kumasi,Accra,Garoua,Nzérékoré,Monrovia,Yamoussoukro,Tema,Zaria,Lafia,Porto-Novo"
 },
 {
     "name": "Proto-Ainu",
@@ -3970,7 +3970,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Proto-Ainu,Kobe,Yokosuka,Sapporo,Kawasaki,Saitama,Sendai,Chiba,Takatsuki,Kumamoto,Saga,Ishigaki,Kurume,Fukushima,Kanazawa,Kagoshima,Nago,Morioka,Matsuyama,Niigata,Okinawa,Hakodate,Toyota,Kushiro,Obihiro,Shizuoka,Ichihara,Sagamihara"
 },
 {
     "name": "Proto-Austroasiatic",
@@ -3979,7 +3979,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Proto-Austroasiatic,Chiang Mai,Kampong Cham,Hanoi,Nha Trang,Hong Kong,Vientiane,Vinh,Da Nang,Pattaya,Quy Nhon,Phongsali,Sam Neua,Mandalay,Kampot,Beihai,Luang Prabang,Hai Phong,Danzhou,Pathein,Kunming,Nanning,Naypyidaw,Hat Yai,Takeo,Qionghai,Khon Kaen,Liuzhou"
 },
 {
     "name": "Proto-Hlai",
@@ -3988,7 +3988,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Proto-Hlai,Kayes,Abidjan,Accra,Dakar,Nzérékoré,Tarrafal,Kaolack,Kaduna,Conakry,Cotonou,Bobo-Dioulasso,Man,Kara,Korhogo,Kankan,Yola,Freetown,Kumasi,Lomé,Niamey,Sunyani,Monrovia,Yamoussoukro,Ouahigouya,Maiduguri,Tema,Maroua"
 },
 {
     "name": "Proto-Hokkaido-Kuril",
@@ -3997,7 +3997,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Proto-Hokkaido-Kuril,Osaka,Hiroshima,Fukuoka,Kobe,Nagano,Shizuoka,Setagaya,Saitama,Sendai,Okayama,Nagoya,Kanazawa,Yokosuka,Toyama,Toyota,Sagamihara,Niigata,Gifu,Nayoro,Nagasaki,Akita,Tottori,Fukushima,Furano,Itabashi,Yamaguchi,Wakkanai"
 },
 {
     "name": "Proto-KamSui",
@@ -4006,7 +4006,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Proto-KamSui,Chiang Mai,Sihanoukville,Hue,Bangkok,Điện Biên Phủ,Da Nang,My Tho,Ho Chi Minh City,Can Tho,Lào Cai,Phongsali,Rach Gia,Phan Thiet,Naypyidaw,Luang Prabang,Takeo,Myitkyina,Pakse,Guilin,Phnom Penh,Sam Neua,Pattaya,Battambang,Thakhek,Pathein,Haikou,Yangon"
 },
 {
     "name": "Proto-KraDai",
@@ -4015,7 +4015,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Proto-KraDai,Accra,Kankan,Bissau,Bouaké,Man,Conakry,Koudougou,Dakar,Niamey,Kaolack,Zaria,Kayes,Korhogo,Ngaoundéré,Nzérékoré,Wa,Sunyani,Cacheu,Gabú,Tamale,Bobo-Dioulasso,Natitingou,Mopti,Tema,Kaduna,Parakou,Bafatá"
 },
 {
     "name": "Proto-Mongolic",
@@ -4024,7 +4024,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Proto-Mongolic,Sam Neua,Da Nang,Hanoi,Hue,Haikou,My Tho,Quy Nhon,Vinh,Sanya,Ho Chi Minh City,Hai Phong,Xieng Khouang,Phan Thiet,Vientiane,Hat Yai,Phongsali,Battambang,Nha Trang,Takeo,Thakhek,Beihai,Guilin,Chonburi,Chiang Rai,Sihanoukville,Kampong Cham,Chiềng Rạ"
 },
 {
     "name": "Proto-Sakhalin",
@@ -4033,7 +4033,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Proto-Sakhalin,Lhasa,Nyingchi,Chamdo,Ngari,Trashigang,Lhokha,Kangding,Xichang,Deqin,Gangtok,Weixi,Zhongdian,Mangan,Kunming,Chuxiong,Melli,Zhaotong,Rangpo,Daofu,Singtam,Trongsa,Jorthang,Sarchu,Padum,Cherrapunji,Koksar,Mussoorie"
 },
 {
     "name": "Proto-Tai",
@@ -4042,7 +4042,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Proto-Tai,Da Lat,Điện Biên Phủ,Sam Neua,Da Nang,Hue,Pathein,Takeo,Phan Thiet,Vientiane,Sanya,Bago,My Tho,Thakhek,Sihanoukville,Battambang,Siem Reap,Savannakhet,Myitkyina,Hà Giang,Udon Thani,Hat Yai,Guilin,Mandalay,Danzhou,Naypyidaw,Kampot,Phuket"
 },
 {
     "name": "Pyang Zhuang",
@@ -4051,7 +4051,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Pyang Zhuang,Bangkok,Savannakhet,Điện Biên Phủ,Da Lat,Vinh,Phnom Penh,Quy Nhon,Bago,Nanning,Phongsali,Yangon,Hai Phong,Chiang Rai,Shantou,Kampot,Sihanoukville,Nakhon Ratchasima,Pursat,Thakhek,Lạng Sơn,Macau,Battambang,Fangchenggang,Siem Reap,Hat Yai,Zhanjiang,Guiyang"
 },
 {
     "name": "Qifu",
@@ -4060,7 +4060,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Qifu,Accra,Kankan,Freetown,Conakry,Koidu,Bamako,Sokodé,Katsina,Bobo-Dioulasso,Korhogo,Kumasi,Lomé,Kara,Daloa,Koudougou,Maiduguri,Saint-Louis,Monrovia,Dakar,Kaduna,Ouahigouya,Bouaké,Ziguinchor,Mopti,Niamey,Parakou,Buea"
 },
 {
     "name": "Ra'ong",
@@ -4069,7 +4069,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Ra'ong,Abidjan,Bamako,Bissau,Bobo-Dioulasso,Dakar,Gusau,Daloa,Katsina,Freetown,Banjul,Lomé,Kaolack,Sokodé,Praia,Monrovia,Parakou,Jalingo,Koudougou,Bouaké,Man,Maiduguri,Porto-Novo,Ouagadougou,Niamey,Tamale,Yamoussoukro,Sokoto"
 },
 {
     "name": "Rabha",
@@ -4078,7 +4078,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Rabha,Jorthang,Dali,Lhokha,Gangtok,Chamdo,Nyingchi,Jowai,Zhaotong,Leshan,Chengdu,Rhenock,Umroi,Weixi,Paro,Lijiang,Garzê,Mawlai,Punakha,Rangpo,Thimphu,Dehradun,Baoshan,Trashigang,Leh,Kunming,Tura,Chuxiong"
 },
 {
     "name": "Rajasthani",
@@ -4087,7 +4087,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Rajasthani,Bhubaneswar,Guwahati,Chandigarh,Pune,Coimbatore,Delhi,Allahabad,Bangalore,Faridabad,Jalandhar,Dharan,Indore,Itanagar,Rourkela,Jodhpur,Khulna,Nashik,Ludhiana,Dharamshala,Kochi,Biratnagar,Jammu,Udaipur,Mysore,Kathmandu,Madurai,Rangpur"
 },
 {
     "name": "Rajbanshi",
@@ -4096,7 +4096,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Rajbanshi,Nouakchott,Bobo-Dioulasso,Basse,Jalingo,Conakry,Banjul,Bamako,Gbarnga,Lomé,Kara,Porto-Novo,Tema,Bata,Kayes,Koidu,Nzérékoré,Mindelo,Koudougou,Tambacounda,Zaria,Yamoussoukro,Korhogo,Kaduna,Bolt,Garoua,Bamenda,Timbuktu"
 },
 {
     "name": "Rana Tharu",
@@ -4105,7 +4105,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Rana Tharu,Bamako,Accra,Katsina,Tema,Bobo-Dioulasso,Bouaké,Daloa,Cotonou,Jalingo,Kaduna,Monrovia,Porto-Novo,Man,Kaolack,Basse,Saint-Louis,Bauchi,Sunyani,Lomé,Koudougou,Maiduguri,Wa,Garoua,Mopti,Zaria,Ouagadougou,Bafatá"
 },
 {
     "name": "Rangpuri",
@@ -4114,7 +4114,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Rangpuri,Abidjan,Bissau,Daloa,Accra,Gusau,Ziguinchor,Brikama,Kumasi,Katsina,Man,Bouaké,Kara,Saint-Louis,Koidu,Ebebiyín,Ouagadougou,Bertoua,Freetown,Mopti,Tamale,Monrovia,Porto-Novo,Malabo,Sokodé,Zaria,Niamey,Bauchi"
 },
 {
     "name": "Raute",
@@ -4123,7 +4123,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Raute,Skagway,Nome,Winnipeg,Dillingham,Attawapiskat,Deadhorse,Anchorage,Prince Rupert,King Salmon,Sisimiut,Smithers,Valdez,Seward,Prince George,Anchorage,Terrace,Kangerlussuaq,Ottawa,Kenai,Cordova,Dawson Creek,Bethel,Sitka,Whitehorse,Flagstaff,Chinle,Santa Fe"
 },
 {
     "name": "Ravula",
@@ -4132,7 +4132,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Ravula,Bissau,Katsina,Conakry,Bobo-Dioulasso,Mopti,Cotonou,Banjul,Kumasi,Kara,Korhogo,Man,Koudougou,Dakar,Niamey,Koidu,Porto-Novo,Nouakchott,Brikama,Bata,Tamale,Bauchi,Gbarnga,Bertoua,Zinder,Gusau,Banfora,Tema"
 },
 {
     "name": "Rengao",
@@ -4141,7 +4141,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Rengao,Koidu,Bissau,Kaduna,Daloa,Dakar,Nouakchott,Cotonou,Katsina,Ebebiyín,Bertoua,Kumasi,Cacheu,Kankan,Ouagadougou,Kano,Buea,Saint-Louis,Bafatá,Abidjan,Gusau,Mopti,Wa,Nzérékoré,Ségou,Timbuktu,Garoua,Maroua"
 },
 {
     "name": "Riang",
@@ -4150,7 +4150,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Riang,Kumba,Banjul,Bobo-Dioulasso,Ziguinchor,Kaolack,Koudougou,Kankan,Bafatá,Freetown,Jalingo,Praia,Wukari,Yamoussoukro,Tamale,Man,Bertoua,Koidu,Maiduguri,Saint-Louis,Nzérékoré,Basse,Wa,Gusau,Mopti,Assomada,Warri,Mindelo"
 },
 {
     "name": "Rohingya",
@@ -4159,7 +4159,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Rohingya,Accra,Korhogo,Aconibe,Conakry,Koudougou,Dakar,Kankan,Kara,Bafatá,Kaolack,Kumasi,Bouaké,Katsina,Bissau,Kano,Parakou,Kayes,Yamoussoukro,Sunyani,Tarrafal,Maiduguri,Cotonou,Freetown,Niamey,Bobo-Dioulasso,Timbuktu,Banjul"
 },
 {
     "name": "Rouran",
@@ -4168,7 +4168,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Rouran,Samarkand,Nukus,Atyrau,Batken,Dushanbe,Khorugh,Oral,Aktau,Qom,Andijan,Pavlodar,Tehran,Namangan,Tashkent,Rawalpindi,Khujand,Talas,Karaj,Kokand,Naryn,Bokhtar,Mary,Yangibazar,Bukhara,Nur-Sultan,Bishkek,Murgab"
 },
 {
     "name": "Sa-och",
@@ -4177,7 +4177,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Sa-och,Koidu,Garoua,Tamale,Abidjan,Kaolack,Zinder,Mindelo,Cotonou,Freetown,Kumasi,Kara,Kayes,Korhogo,Ouagadougou,Accra,Porto-Novo,Bamenda,Yola,Sunyani,Nzérékoré,Ziguinchor,Jos,Yamoussoukro,Saint-Louis,Thiès,Basse,Sikasso"
 },
 {
     "name": "Sadri",
@@ -4186,7 +4186,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Sadri,Accra,Conakry,Korhogo,Timbuktu,Kaduna,Abidjan,Kankan,Katsina,Zaria,Cotonou,Freetown,Monrovia,Bertoua,Bissau,Ebebiyín,Parakou,Saint-Louis,Mopti,Bobo-Dioulasso,Koudougou,Bauchi,Maiduguri,Malabo,Porto-Novo,Warri,Sikasso,Kumasi"
 },
 {
     "name": "Saek",
@@ -4195,7 +4195,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Saek,Tambacounda,Koidu,Bouaké,Bertoua,Man,Katsina,Kaduna,Ziguinchor,Koudougou,Ebebiyín,Kara,Sokodé,Bissau,Ségou,Gbarnga,Praia,Saint-Louis,Sikasso,Tamale,Nouakchott,Lomé,Wa,Monrovia,Jalingo,Bamako,Bamenda,Kumba"
 },
 {
     "name": "Sakhalin Ainu",
@@ -4204,7 +4204,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Sakhalin Ainu,Kunming,Jorthang,Chengdu,Shigatse,Xichang,Zhaotong,Lijiang,Melli,Deqin,Lijiang,Samdrup Jongkhar,Weixi,Wangdue,Nainital,Lincang,Thimphu,Gangtok,Punakha,Dalton Ganj,Umroi,Dali,Barkam,Trashigang,Almora,Trongsa,Koksar,Nongstoin"
 },
 {
     "name": "Sakhalin dialects",
@@ -4213,7 +4213,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Sakhalin dialects,Ngari,Gangtok,Mangan,Barkam,Chuxiong,Lijiang,Trashigang,Samdrup Jongkhar,Nainital,Deqin,Zhongdian,Namchi,Jorthang,Singtam,Dali,Trongsa,Lhokha,Padum,Xichang,Cherrapunji,Chengdu,Daofu,Paro,Mawlai,Zhaotong,Panzhihua,Lincang"
 },
 {
     "name": "Sambalpuri",
@@ -4222,7 +4222,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Sambalpuri,Koidu,Basse,Dakar,Garoua,Ouagadougou,Katsina,Man,Freetown,Kaolack,Gbarnga,Timbuktu,Kayes,Nzérékoré,Korhogo,Daloa,Koudougou,Monrovia,Kano,Cotonou,Kumasi,Yola,Tamale,Sokodé,Ngaoundéré,Ségou,Lafia,Lomé"
 },
 {
     "name": "Samre",
@@ -4231,7 +4231,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Samre,Brikama,Accra,Sokodé,Bouaké,Conakry,Daloa,Timbuktu,Dakar,Kaolack,Kaduna,Ziguinchor,Kankan,Lomé,Koudougou,Ouagadougou,Parakou,Bauchi,Kayes,Kumasi,Kano,Man,Porto-Novo,Gbarnga,Tarrafal,Nzérékoré,Bamenda,Cacheu"
 },
 {
     "name": "Sanskrit",
@@ -4240,7 +4240,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Sanskrit,Vereeniging,Masvingo,Quelimane,Johannesburg,Beira,Middelburg,Bloemfontein,Mmabatho,Rustenburg,Polokwane,Francistown,Kadoma,Bulawayo,Mzuzu,Maseru,Tembisa,Keetmanshoop,Bethal,Durban,Windhoek,Blantyre,Butha-Buthe,Nkhotakota,Mutare,Mafeteng,Kabwe,Chitungwiza"
 },
 {
     "name": "Santa / Sarta (Dongxiang)",
@@ -4249,7 +4249,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Santa / Sarta (Dongxiang),Maseru,Bloemfontein,East London,Ndola,Gweru,Nelspruit,Kwekwe,Serowe,Rustenburg,George,Vereeniging,Francistown,Lusaka,Springbok,Bethal,Mangochi,Tsumeb,Livingstone,Xai-Xai,Harare,Hlotse,Qacha's Nek,Nkhotakota,Soweto,Mutare,Nampula,Chingola"
 },
 {
     "name": "Santa Mongol",
@@ -4258,7 +4258,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Santa Mongol,Swakopmund,Cape Town,Polokwane,Molepolole,Durban,George,Mmabatho,Grootfontein,Gaborone,Maputo,Pretoria,Johannesburg,Mangochi,Kadoma,Klerksdorp,Harare,Welkom,Inhambane,Springbok,Otjiwarongo,Masvingo,Matola,Kwekwe,Mafeteng,Mzuzu,Mutare,Maun"
 },
 {
     "name": "Santa Sijiaji",
@@ -4267,7 +4267,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Santa Sijiaji,Soweto,Pretoria,East London,Springbok,Polokwane,Xai-Xai,Port Elizabeth,Durban,Upington,Harare,Mafikeng,Middelburg,Kitwe,Mutare,Maseru,Kabwe,Cape Town,Masvingo,Chingola,Salima,Gweru,Welkom,Qacha's Nek,Livingstone,Quthing,Nampula,Zomba"
 },
 {
     "name": "Santa Suonanba",
@@ -4276,7 +4276,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Santa Suonanba,Johannesburg,Salima,Mafikeng,Port Elizabeth,Pietermaritzburg,Pretoria,Kimberley,Kwekwe,Upington,Mmabatho,Kadoma,Mufulira,Mohale's Hoek,Vereeniging,Gweru,Welkom,Polokwane,Klerksdorp,Chingola,Harare,Blantyre,Xai-Xai,Soweto,Nelspruit,Livingstone,Bethal,Qacha's Nek"
 },
 {
     "name": "Santa Wangjiaji",
@@ -4285,7 +4285,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Santa Wangjiaji,Rustenburg,Lilongwe,Inhambane,Kimberley,Matola,Nelspruit,Upington,Springbok,Tsumeb,Welkom,Mafikeng,Qacha's Nek,Bloemfontein,Mzuzu,Harare,Rundu,Ndola,Port Elizabeth,Maputo,Butha-Buthe,George,Lusaka,Pretoria,Nkhotakota,Karonga,Windhoek,Luanshya"
 },
 {
     "name": "Sapa",
@@ -4294,7 +4294,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Sapa,Ziguinchor,Bobo-Dioulasso,Accra,Lomé,Banjul,Jos,Kaolack,Kara,Monrovia,Garoua,Kaduna,Ouagadougou,Jalingo,Bamako,Kankan,Koidu,Freetown,Tema,Parakou,Man,Sokoto,Bouaké,Dakar,Ebebiyín,Timbuktu,Tambacounda,Cacheu"
 },
 {
     "name": "Sapuan",
@@ -4303,7 +4303,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Sapuan,Abidjan,Gbarnga,Ouagadougou,Conakry,Bissau,Bouaké,Cotonou,Kara,Daloa,Ségou,Timbuktu,Kankan,Jalingo,Monrovia,Warri,Lomé,Bertoua,Koudougou,Garoua,Tema,Sunyani,Ebebiyín,Katsina,Kaduna,Man,Banjul,Sokoto"
 },
 {
     "name": "Saraiki",
@@ -4312,7 +4312,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Saraiki,Bangui,Kimongo,Yaoundé,Mbalmayo,Malabo,Bimbo,Oyem,Berbérati,Bouar,Bunia,Dolisie,Carnot,Mouila,Foumban,Ruyigi,Franceville,Kribi,Impfondo,Nkongsamba,Owando,Gamboma,Moutamba,Bumba,Koulamoutou,Ebolowa,Bururi,Boende"
 },
 {
     "name": "Sart Kalmyk",
@@ -4321,7 +4321,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Sart Kalmyk,Khorugh,Tashkent,Samarkand,Fergana,Talas,Jalal-Abad,Naryn,Nur-Sultan,Osh,Karakol,Istaravshan,Pavlodar,Peshawar,Herat,Kokand,Tokmok,Dushanbe,Andijan,Gyzylarbat,Tejen,Murghob,Shiraz,Isfahan,Ghazni,Quetta,Dushanbe,Rawalpindi"
 },
 {
     "name": "Sauria Paharia",
@@ -4330,7 +4330,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Sauria Paharia,Jodhpur,Aurangabad,Bhopal,Bangalore,Surat,Chennai,Ghaziabad,Rajshahi,Warangal,Imphal,Ludhiana,Dimapur,Kathmandu,Aizawl,Varanasi,Faridabad,Noida,Dharan,Allahabad,Jalandhar,Jaipur,Madurai,Kozhikode,Mumbai,Siliguri,Nashik,Mysore"
 },
 {
     "name": "Savi",
@@ -4339,7 +4339,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Savi,Katsina,Yamoussoukro,Bafatá,Maiduguri,Bamenda,Freetown,Kankan,Assomada,Tenkodogo,Daloa,Kara,Bouaké,Bertoua,Koudougou,Kayes,Mopti,Accra,Sokodé,Sunyani,Kumba,Ebebiyín,Porto-Novo,Korhogo,Saint-Louis,Parakou,Jos,Nzérékoré"
 },
 {
     "name": "Sedang",
@@ -4348,7 +4348,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Sedang,Da Lat,Hue,Bangkok,Quy Nhon,Hai Phong,Hanoi,Nha Trang,Vinh,Điện Biên Phủ,Pakse,Kampong Cham,Taunggyi,Vientiane,Sam Neua,Bago,Xieng Khouang,Ho Chi Minh City,Hat Yai,Rach Gia,Myitkyina,Kunming,Udon Thani,Kampot,Wuzhou,Naypyidaw,Surat Thani,Haikou"
 },
 {
     "name": "Shan macro entry",
@@ -4357,7 +4357,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Shan macro entry,Shantou,Chiang Rai,Kunming,Da Nang,Bago,Nha Trang,Rach Gia,Sam Neua,Nanning,Quy Nhon,Yangon,My Tho,Fangchenggang,Sihanoukville,Thakhek,Taunggyi,Haikou,Udon Thani,Pursat,Surat Thani,Guiyang,Kampong Cham,Beihai,Takeo,Savannakhet,Chiềng Mai,Phuket"
 },
 {
     "name": "Sherpa",
@@ -4366,7 +4366,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Sherpa,Yuánmóu,Trashigang,Shigatse,Chamdo,Nainital,Nongstoin,Dali,Lijiang,Barkam,Rhenock,Kham,Zhongdian,Trongsa,Rangpo,Mangan,Pu'er,Jakar,Kunming,Pithoragarh,Singtam,Wangdue,Samdrup Jongkhar,Weixi,Jorthang,Cherrapunji,Yibin,Xichong"
 },
 {
     "name": "Shilingol / Xilingol Khalkha",
@@ -4375,7 +4375,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Shilingol / Xilingol Khalkha,Shymkent,Atyrau,Andijan,Istaravshan,Karagandy,Murgab,Almaty,Bishkek,Turkmenabat,Ashgabat,Bukhara,Namangan,Khujand,Lahore,Tashkent,Kokand,Osh,Karakol,Talas,Murghob,Multan,Rawalpindi,Karaj,Kulob,Kandahar,Samarkand,Qom"
 },
 {
     "name": "Shina",
@@ -4384,7 +4384,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Shina,Jos,Bamako,Ouagadougou,Bobo-Dioulasso,Kayes,Bafatá,Accra,Freetown,Daloa,Nouakchott,Kumasi,Tenkodogo,Yamoussoukro,Koudougou,Bertoua,Korhogo,Saint-Louis,Monrovia,Sunyani,Niamey,Mopti,Kaolack,Malabo,Ebebiyín,Kankan,Lomé,Sikasso"
 },
 {
     "name": "Shina, Kohistani",
@@ -4393,7 +4393,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Shina, Kohistani,Bissau,Mopti,Gbarnga,Conakry,Accra,Abidjan,Ségou,Cotonou,Koudougou,Nouakchott,Porto-Novo,Lomé,Bobo-Dioulasso,Saint-Louis,Monrovia,Kayes,Kankan,Sokoto,Bertoua,Praia,Garoua,Zaria,Malabo,Tema,Freetown,Kaduna,Kara"
 },
 {
     "name": "Shira Yugur",
@@ -4402,7 +4402,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Shira Yugur,Accra,Bauchi,Bissau,Conakry,Bobo-Dioulasso,Cotonou,Kankan,Sikasso,Korhogo,Kaolack,Kumasi,Gbarnga,Parakou,Katsina,Kayes,Maiduguri,Niamey,Man,Ségou,Daloa,Monrovia,Buea,Malabo,Mindelo,Nzérékoré,Basse,Porto-Novo"
 },
 {
     "name": "Shirongol",
@@ -4411,7 +4411,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Shirongol,Ouagadougou,Banjul,Dakar,Conakry,Accra,Cotonou,Nouakchott,Bamako,Kayes,Freetown,Kankan,Katsina,Kara,Ebebiyín,Lomé,Man,Bertoua,Kaduna,Sunyani,Nzérékoré,Thiès,Mopti,Korhogo,Niamey,Bafatá,Wa,Sikasso"
 },
 {
     "name": "Shirwi",
@@ -4420,7 +4420,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Shirwi,Bamako,Freetown,Bissau,Conakry,Kaolack,Daloa,Ebebiyín,Tenkodogo,Parakou,Koidu,Cotonou,Gbarnga,Bamenda,Wa,Nouakchott,Accra,Garoua,Banjul,Monrovia,Kaduna,Bauchi,Lomé,Sokodé,Tamale,Kumba,Jalingo,Lafia"
 },
 {
     "name": "Sholaga",
@@ -4429,7 +4429,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Sholaga,Sikasso,Banjul,Kara,Maiduguri,Bobo-Dioulasso,Dakar,Koidu,Kankan,Bamenda,Kumasi,Zinder,Gusau,Freetown,Lomé,Warri,Kaduna,Bertoua,Daloa,Koudougou,Mopti,Buea,Wa,Niamey,Katsina,Nzérékoré,Bolt,Sokodé"
 },
 {
     "name": "Sikkimese",
@@ -4438,7 +4438,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Sikkimese,Sarchu,Nyingchi,Nagqu,Lhasa,Barkam,Mangan,Shigatse,Xichang,Lijiang,Weixi,Namchi,Zhongdian,Paro,Leshan,Tura,Gangtok,Melli,Singtam,Dehradun,Samdrup Jongkhar,Wangdue,Dalton Ganj,Trongsa,Punakha,Kunming,Chuxiong,Batang"
 },
 {
     "name": "Sindhi Bhil",
@@ -4447,7 +4447,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Sindhi Bhil,Ahmedabad,Kolkata,Aurangabad,Bhubaneswar,Dharan,Chennai,Visakhapatnam,Itanagar,Dharamshala,Aizawl,Guwahati,Nagpur,Hyderabad,Thiruvananthapuram,Bangalore,Kochi,Amritsar,Jammu,Shillong,Coimbatore,Vijayawada,Jaipur,Lucknow,Madurai,Dhaka,Jodhpur,Mysore"
 },
 {
     "name": "Somray",
@@ -4456,7 +4456,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Somray,Bamako,Minna,Accra,Yola,Kara,Bouaké,Brikama,Kayes,Ouagadougou,Kaolack,Korhogo,Kankan,Ségou,Koudougou,Nzérékoré,Parakou,Dakar,Maiduguri,Tarrafal,Kumasi,Niamey,Man,Ziguinchor,Saint-Louis,Nouakchott,Jos,Sikasso"
 },
 {
     "name": "Sonha",
@@ -4465,7 +4465,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Sonha,Daloa,Bamako,Cotonou,Tema,Lomé,Bouaké,Koidu,Bertoua,Monrovia,Kara,Minna,Kankan,Bamenda,Koudougou,Dakar,Kayes,Bauchi,Kumba,Freetown,Mopti,Niamey,Timbuktu,Sokodé,Parakou,Bolama,Sunyani,Banjul"
 },
 {
     "name": "Sonid Mongol",
@@ -4474,7 +4474,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Sonid Mongol,Hanoi,Bago,Vinh,Xieng Khouang,Hat Yai,Can Tho,Nha Trang,Udon Thani,Hai Phong,Shantou,Yangon,Luang Prabang,Battambang,My Tho,Kampot,Sihanoukville,Mandalay,Surat Thani,Pathein,Hà Giang,Taunggyi,Macau,Beihai,Takeo,Pakse,Bangkok,Phuket"
 },
 {
     "name": "Southern Khalkha",
@@ -4483,7 +4483,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Southern Khalkha,Qom,Kirovabad,Bukhara,Oral,Bishkek,Nur-Sultan,Batken,Pavlodar,Almaty,Khorugh,Aktau,Atyrau,Tehran,Istaravshan,Karakol,Jalalabad,Lahore,Mary,Gyzylarbat,Bokhtar,Karagandy,Tejen,Rawalpindi,Murghob,Shymkent,Panjakent,Quetta"
 },
 {
     "name": "Southern Tai",
@@ -4492,7 +4492,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Southern Tai,Bangkok,Ho Chi Minh City,Hanoi,Hue,Phnom Penh,Can Tho,Nanning,Nha Trang,Vinh,Rach Gia,Yangon,Pursat,Lạng Sơn,Thakhek,Kampot,Fangchenggang,Bago,Xieng Khouang,Savannakhet,Phongsali,Udon Thani,Hà Giang,Takeo,Hong Kong,Chiang Rai,Taunggyi,Da Lat"
 },
 {
     "name": "Southern Thai",
@@ -4501,7 +4501,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Southern Thai,Nha Trang,Sam Neua,Fangchenggang,Hai Phong,Da Lat,Hanoi,Bago,Kampong Cham,Da Nang,Vientiane,Rach Gia,Phan Thiet,Điện Biên Phủ,Luang Prabang,Yangon,Thakhek,Naypyidaw,Macau,Lạng Sơn,Mawlamyine,Xieng Khouang,Vinh,Kunming,Sihanoukville,Shantou,Siem Reap,Kampot"
 },
 {
     "name": "Southern Tungusic",
@@ -4510,7 +4510,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Southern Tungusic,Kargasok,Zhigansk,Pevek,Norilsk,Ust-Kamchatsk,Khatanga,Yakutsk,Novosibirsk,Uelen,Suntar,Anadyr,Chokurdakh,Anadyr,Tigil,Mirny,Klyuchi,Chersky,Tiksi,Petropavlovsk-Kamchatsky,Khandyga,Talnakh,Parabel,Beringovsky,Svetlogorsk,Kadykchan,Podgornoye,Orotukan"
 },
 {
     "name": "Sri Lankan English",
@@ -4519,7 +4519,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Colombo,Gampaha,Kalutara,Kandy,Galle,Matara,Anuradhapura,Polonnaruwa,Batticaloa,Trincomalee,Kurunegala,Jaffna,Mannar,Vavuniya,Kilinochchi,Mullaitivu,Puttalam,Badulla,Monaragala,Ratnapura,Kegalle,Hambantota,Matale,Nuwara Eliya,Gampola"
+  "b": "Sri Lankan English,Barcelona,Toulouse,Nantes,Paris,Marseille,Florence,Bordeaux,Granada,Zurich,Cologne,Zaragoza,Leoben,Basel,Hamburg,Ostrava,Bilbao,Birmingham,Trondheim,Turin,Berlin,Manchester,Hradec Králové,Cork,Venice,Stuttgart,Szczecin,Linz"
 },
 {
     "name": "Sri Lankan Portuguese Creole",
@@ -4528,7 +4528,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lisboa,Porto,Coimbra,Braga,Aveiro,Faro,Guimarães,Évora,Setúbal,Viseu,Sintra,Óbidos,Fátima,Albufeira,Algarve,Cascais,Amadora,Odivelas,Leiria,Santarem,Torres Vedras,Figueira da Foz,Ponte de Lima,Bragança,Chaves,Guarda"
+  "b": "Sri Lankan Portuguese Creole,Palermo,Lyon,Bilbao,Madrid,Nantes,Basel,Frankfurt,Málaga,Warsaw,Västerås,Lisbon,Birmingham,Hamburg,Leipzig,Bologna,Maastricht,Paris,Florence,Reykjanesbær,Tromsø,Nice,Rome,Szczecin,Linz,Turin,Uppsala,Edinburgh"
 },
 {
     "name": "Standard Tibetan",
@@ -4537,7 +4537,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Standard Tibetan,Zhaotong,Kunming,Rishikesh,Nagqu,Chamdo,Zhongdian,Jowai,Gangtok,Lhasa,Rhenock,Lijiang,Nyingchi,Sarchu,Jakar,Thimphu,Melli,Batang,Shillong,Kangding,Chuxiong,Trashigang,Trongsa,Xichong,Weixi,Garzê,Mawlai,Pithoragarh"
 },
 {
     "name": "Standard Zhuang",
@@ -4546,7 +4546,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Standard Zhuang,Bangkok,Vientiane,Chiang Rai,Sam Neua,Can Tho,Hue,Quy Nhon,Kampong Cham,Nha Trang,Da Lat,Nanning,Shantou,Ho Chi Minh City,Rach Gia,My Tho,Pakse,Da Nang,Battambang,Pathein,Thakhek,Yangon,Pattaya,Beihai,Hat Yai,Khon Kaen,Liuzhou,Pursat"
 },
 {
     "name": "Stieng",
@@ -4555,7 +4555,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Stieng,Sam Neua,Chiang Mai,Bangkok,Rach Gia,Chiang Rai,Can Tho,Bago,Fangchenggang,My Tho,Pakse,Thakhek,Phongsali,Kampong Cham,Phan Thiet,Liuzhou,Surat Thani,Da Lat,Taunggyi,Xieng Khouang,Hai Phong,Lạng Sơn,Phnom Penh,Ho Chi Minh City,Siem Reap,Khon Kaen,Hue,Mawlamyine"
 },
 {
     "name": "Su'",
@@ -4564,7 +4564,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Su',Bobo-Dioulasso,Bertoua,Accra,Bamako,Gbarnga,Dakar,Niamey,Kara,Kayes,Saint-Louis,Korhogo,Daloa,Banfora,Man,Mopti,Bafoussam,Ouahigouya,Wukari,Malabo,Jos,Praia,Wa,Sokodé,Sunyani,Maroua,Tamale,Sikasso"
 },
 {
     "name": "Sundanese native-speakers subset",
@@ -4573,7 +4573,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Sundanese native-speakers subset,Iloilo City,Malekula,Kuala Lumpur,Bangar,Johor Bahru,Manila,Kirakira,Bandar Seri Begawan,Palembang,Kota Kinabalu,Port Vila,Bacolod,Suva,Kuching,Tulagi,Ambrym,Davao,Kuala Belait,Bandung,Denpasar,Shah Alam,Alotau,Babeldaob,Seria,Levuka,Santo,Lorengau"
 },
 {
     "name": "Suoy",
@@ -4582,7 +4582,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Suoy,Bouaké,Banjul,Daloa,Koidu,Gbarnga,Kara,Kaduna,Cotonou,Katsina,Korhogo,Ebebiyín,Lomé,Bertoua,Conakry,Zinder,Man,Koudougou,Monrovia,Tema,Accra,Bauchi,Saint-Louis,Bolama,Tambacounda,Sokodé,Jos,Ouagadougou"
 },
 {
     "name": "Surgujia",
@@ -4591,7 +4591,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Surgujia,Tema,Banjul,Koidu,Accra,Bissau,Conakry,Bouaké,Daloa,Ziguinchor,Katsina,Freetown,Sunyani,Korhogo,Praia,Kaolack,Brikama,Gbarnga,Nouakchott,Garoua,Man,Koudougou,Ouagadougou,Jalingo,Porto-Novo,Mopti,Timbuktu,Kaduna"
 },
 {
     "name": "Surjapuri",
@@ -4600,7 +4600,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Surjapuri,Accra,Cotonou,Conakry,Tema,Kayes,Dakar,Kankan,Sokoto,Banjul,Korhogo,Kara,Minna,Lafia,Bissau,Monrovia,Kaolack,Maroua,Gbarnga,Koudougou,Man,Ségou,Nzérékoré,Bamenda,Bafatá,Zaria,Niamey,Cacheu"
 },
 {
     "name": "Sylheti",
@@ -4609,7 +4609,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Sylheti,Katsina,Koidu,Ziguinchor,Bouaké,Bissau,Lomé,Conakry,Kumasi,Koudougou,Gbarnga,Porto-Novo,Bobo-Dioulasso,Praia,Niamey,Kaolack,Korhogo,Abidjan,Maiduguri,Sunyani,Gusau,Kano,Sokodé,Banfora,Monrovia,Jalingo,Parakou,Saint-Louis"
 },
 {
     "name": "Tabghach",
@@ -4618,7 +4618,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Tabghach,Andijan,Fergana,Tashkent,Murgab,Karagandy,Shymkent,Aktau,Oral,Kulob,Kokand,Almaty,Rawalpindi,Istaravshan,Naryn,Turkmenabat,Herat,Panjakent,Namangan,Bishkek,Islamabad,Khujand,Isfahan,Ashgabat,Nur-Sultan,Tabriz,Bayramaly,Khorugh"
 },
 {
     "name": "Tai",
@@ -4627,7 +4627,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Tai,Chiang Rai,Da Lat,Fangchenggang,Nha Trang,Rach Gia,Hanoi,Luang Prabang,Vinh,Da Nang,Pakse,Sam Neua,Can Tho,Xieng Khouang,Sihanoukville,Bago,Phan Thiet,Pursat,Yangon,Chiềng Mai,Siem Reap,Takeo,Shantou,Vientiane,Phongsali,Wuzhou,Hai Phong,Kampong Cham"
 },
 {
     "name": "Tai Daeng",
@@ -4636,7 +4636,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Tai Daeng,Hai Phong,Hanoi,Quy Nhon,Shantou,Pursat,Rach Gia,Can Tho,Kunming,Battambang,Phan Thiet,My Tho,Nha Trang,Taunggyi,Nanning,Pakse,Phnom Penh,Surat Thani,Chiang Rai,Zhanjiang,Vientiane,Khon Kaen,Chiềng Mai,Beihai,Kampot,Phongsali,Savannakhet,Sihanoukville"
 },
 {
     "name": "Tai Don",
@@ -4645,7 +4645,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Tai Don,Vientiane,Da Lat,Macau,Da Nang,Rach Gia,Battambang,Hue,Danzhou,Vinh,Surat Thani,Phongsali,My Tho,Siem Reap,Thakhek,Hanoi,Luang Prabang,Chiang Mai,Haikou,Pathein,Qionghai,Sihanoukville,Chiang Rai,Beihai,Kampong Cham,Fangchenggang,Sam Neua,Sanya"
 },
 {
     "name": "Tai Hang Tong",
@@ -4654,7 +4654,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Tai Hang Tong,Bangkok,Naypyidaw,Quy Nhon,Da Lat,Liuzhou,Thakhek,Phan Thiet,Can Tho,Battambang,Pursat,Phongsali,Kunming,Savannakhet,Chiang Mai,Bago,Kampong Cham,Mandalay,Siem Reap,Ho Chi Minh City,Myitkyina,Nha Trang,Surat Thani,Da Nang,Mawlamyine,Chiang Rai,Hat Yai,Phuket"
 },
 {
     "name": "Tai Khang",
@@ -4663,7 +4663,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Tai Khang,Chiang Rai,Quy Nhon,Hue,Lạng Sơn,Rach Gia,Da Lat,Shantou,Phan Thiet,Chiềng Rạ,Phnom Penh,My Tho,Luang Prabang,Sam Neua,Bago,Điện Biên Phủ,Pattaya,Can Tho,Mandalay,Sihanoukville,Xieng Khouang,Hai Phong,Liuzhou,Hanoi,Battambang,Danzhou,Nanning,Mawlamyine"
 },
 {
     "name": "Tai Laing",
@@ -4672,7 +4672,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Tai Laing,Da Nang,Da Lat,Vinh,Vientiane,Takeo,Chiang Rai,Savannakhet,Kampong Cham,Hue,Pakse,Hanoi,Phan Thiet,Guilin,My Tho,Luang Prabang,Thakhek,Hai Phong,Phongsali,Pathein,Ho Chi Minh City,Lạng Sơn,Sam Neua,Battambang,Sihanoukville,Can Tho,Nanning,Khon Kaen"
 },
 {
     "name": "Tai Long",
@@ -4681,7 +4681,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Tai Long,Ho Chi Minh City,Fangchenggang,Chiang Rai,Shantou,Da Lat,Hat Yai,Hai Phong,Quy Nhon,Thakhek,Savannakhet,Phnom Penh,Taunggyi,Phan Thiet,Naypyidaw,Pakse,Bago,Sam Neua,Xieng Khouang,Nanning,Guiyang,Danzhou,Hà Giang,Guilin,Kampong Cham,Pattaya,Sihanoukville,Nakhon Ratchasima"
 },
 {
     "name": "Tai Lue",
@@ -4690,7 +4690,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Tai Lue,Bangkok,Ho Chi Minh City,Sam Neua,Hai Phong,Hat Yai,Vinh,Da Lat,Chiang Mai,Rach Gia,Bago,Thakhek,Hue,Haikou,My Tho,Lạng Sơn,Takeo,Quy Nhon,Phnom Penh,Pathein,Phongsali,Yangon,Guilin,Kunming,Siem Reap,Pursat,Sihanoukville,Taunggyi"
 },
 {
     "name": "Tai Nuea",
@@ -4699,7 +4699,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Tai Nuea,Kampong Cham,Nha Trang,Battambang,Lạng Sơn,Hai Phong,Hong Kong,Rach Gia,Can Tho,Vinh,Mandalay,Pakse,Naypyidaw,Qionghai,My Tho,Yangon,Sihanoukville,Hue,Takeo,Lào Cai,Phongsali,Udon Thani,Điện Biên Phủ,Beihai,Savannakhet,Kampot,Vientiane,Fangchenggang"
 },
 {
     "name": "Tai Pao",
@@ -4708,7 +4708,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Tai Pao,Bangkok,Chiang Mai,Ho Chi Minh City,Kampong Cham,Quy Nhon,Hue,Pursat,Hanoi,Da Lat,Savannakhet,Rach Gia,Lạng Sơn,Da Nang,Can Tho,Sam Neua,Kampot,Vientiane,Takeo,Battambang,Phnom Penh,Taunggyi,Phan Thiet,Haikou,Shantou,Lào Cai,Chonburi,Beihai"
 },
 {
     "name": "Tai Song",
@@ -4717,7 +4717,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Tai Song,Chiang Rai,Fangchenggang,Da Nang,Hai Phong,Hanoi,Pattaya,Can Tho,Bangkok,Phongsali,Rach Gia,Thakhek,Ho Chi Minh City,Luang Prabang,My Tho,Guiyang,Kampot,Vinh,Pursat,Sanya,Sihanoukville,Yangon,Guilin,Wuzhou,Vientiane,Hà Giang,Siem Reap,Khon Kaen"
 },
 {
     "name": "Tai Thanh",
@@ -4726,7 +4726,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Tai Thanh,Ho Chi Minh City,Bago,Sam Neua,Chiang Rai,Chiang Mai,Takeo,Hue,Can Tho,Hanoi,Phnom Penh,Vinh,Phan Thiet,My Tho,Luang Prabang,Pakse,Shantou,Phuket,Savannakhet,Thakhek,Hong Kong,Pathein,Kunming,Hai Phong,Battambang,Khon Kaen,Kampot,Kampong Cham"
 },
 {
     "name": "Tai Yao",
@@ -4735,7 +4735,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Tai Yao,Yei,Bahir Dar,Hosaena,Machakos,Arba Minch,Dessie,Jinka,Debre Markos,Woldia,Sodo,Malakal,Fort Portal,Jinja,Mityana,Dila,Soroti,Lira,Awasa,Nyeri,Robe,Omdurman,Nakuru,Kisumu,Kakamega,Tororo,Lalibela,Embu"
 },
 {
     "name": "Tai Yo (Nyaw)",
@@ -4744,7 +4744,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Tai Yo (Nyaw),Sam Neua,Chiang Mai,Pursat,Vientiane,Quy Nhon,Hue,Bangkok,Phan Thiet,Siem Reap,Can Tho,Da Lat,Bago,Kunming,Điện Biên Phủ,Nakhon Ratchasima,Pathein,Mandalay,Udon Thani,Danzhou,Pakse,Phnom Penh,Phongsali,Da Nang,Sơn La,Fangchenggang,Taunggyi,Chiang Rai"
 },
 {
     "name": "Takua",
@@ -4753,7 +4753,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Takua,Cotonou,Timbuktu,Gbarnga,Ziguinchor,Mopti,Conakry,Bamako,Bafatá,Kaolack,Gusau,Kayes,Bauchi,Tambacounda,Koudougou,Nouakchott,Korhogo,Kaduna,Lafia,Jalingo,Man,Bolama,Zinder,Nzérékoré,Porto-Novo,Parakou,Praia,Maroua"
 },
 {
     "name": "Tamang",
@@ -4762,7 +4762,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Tamang,Chamdo,Shigatse,Ngari,Kangding,Deqin,Lijiang,Dehradun,Gangtok,Punakha,Zhaotong,Xichang,Nyingchi,Trashigang,Mangan,Lhasa,Samdrup Jongkhar,Namchi,Dalton Ganj,Singtam,Rhenock,Lijiang,Jorthang,Tura,Jakar,Trongsa,Kunming,Lhokha"
 },
 {
     "name": "Tampuan",
@@ -4771,7 +4771,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Tampuan,Kano,Gbarnga,Bouaké,Dakar,Daloa,Katsina,Bissau,Basse,Nzérékoré,Tenkodogo,Jalingo,Kumasi,Saint-Louis,Koudougou,Ebebiyín,Banjul,Bauchi,Brikama,Lomé,Ouagadougou,Monrovia,Kankan,Abidjan,Tamale,Nouakchott,Accra,Sokodé"
 },
 {
     "name": "Tanchangya",
@@ -4780,7 +4780,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Tanchangya,Bouaké,Bissau,Abidjan,Accra,Monrovia,Cotonou,Kaduna,Tema,Freetown,Katsina,Nouakchott,Kara,Praia,Bamenda,Kayes,Bertoua,Kumba,Sokodé,Garoua,Sokoto,Niamey,Cacheu,Mopti,Porto-Novo,Ziguinchor,Bafatá,Gbarnga"
 },
 {
     "name": "Tangut",
@@ -4789,7 +4789,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Tangut,Zhaotong,Jorthang,Barkam,Jowai,Rangpo,Weixi,Leh,Ngari,Jakar,Samdrup Jongkhar,Shigatse,Aba,Dali,Chamdo,Kunming,Namchi,Kargil,Punakha,Xichong,Chuxiong,Xichang,Tura,Pu'er,Dehradun,Mianyang,Mawlai,Zanskar"
 },
 {
     "name": "Tariang",
@@ -4798,7 +4798,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Tariang,Ouagadougou,Bouaké,Cotonou,Daloa,Bobo-Dioulasso,Kayes,Kumba,Saint-Louis,Lomé,Kaolack,Man,Porto-Novo,Koudougou,Timbuktu,Nzérékoré,Yamoussoukro,Bamako,Assomada,Lafia,Freetown,Ségou,Wa,Malabo,Ebebiyín,Zaria,Bata,Bolama"
 },
 {
     "name": "Tay (Tai)",
@@ -4807,7 +4807,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Tay (Tai),Chiang Mai,Quy Nhon,Da Lat,Hue,Hanoi,Pakse,Điện Biên Phủ,Can Tho,Thakhek,Pattaya,Phongsali,My Tho,Vientiane,Ho Chi Minh City,Bago,Guiyang,Battambang,Xieng Khouang,Hai Phong,Hat Yai,Danzhou,Guilin,Beihai,Kunming,Sihanoukville,Mandalay,Takeo"
 },
 {
     "name": "Tay Tac",
@@ -4816,7 +4816,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Tay Tac,Bissau,Bamako,Kaolack,Freetown,Man,Cotonou,Gbarnga,Maiduguri,Kayes,Bobo-Dioulasso,Kumasi,Conakry,Bouaké,Kaduna,Praia,Porto-Novo,Warri,Bafatá,Ebebiyín,Basse,Thiès,Dakar,Cacheu,Nzérékoré,Abidjan,Tamale,Sokoto"
 },
 {
     "name": "Tenyidie",
@@ -4825,7 +4825,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Tenyidie,Shigatse,Pu'er,Paro,Ngari,Nagqu,Kangding,Nyingchi,Zhongdian,Thimphu,Sarchu,Singtam,Weixi,Xichang,Zanskar,Rangpo,Kunming,Wangdue,Melli,Leh,Punakha,Dalton Ganj,Kham,Barkam,Samdrup Jongkhar,Mianyang,Umroi,Rishikesh"
 },
 {
     "name": "Teressa Nicobarese",
@@ -4834,7 +4834,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Teressa Nicobarese,Bangkok,Fangchenggang,Shantou,Nanning,Naypyidaw,Da Lat,Phan Thiet,Savannakhet,Vientiane,Can Tho,Phongsali,Vinh,Mandalay,Guilin,Rach Gia,Pathein,Macau,Taunggyi,Quy Nhon,Điện Biên Phủ,Siem Reap,Yangon,Hà Giang,Pursat,Ho Chi Minh City,Hong Kong,Guiyang"
 },
 {
     "name": "Thachanadan",
@@ -4843,7 +4843,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Thachanadan,Kaduna,Sunyani,Ségou,Bobo-Dioulasso,Banjul,Conakry,Gbarnga,Basse,Korhogo,Koudougou,Man,Kara,Wa,Kumasi,Katsina,Sokodé,Nzérékoré,Tema,Monrovia,Natitingou,Niamey,Brikama,Bamenda,Sikasso,Kankan,Yamoussoukro,Porto-Novo"
 },
 {
     "name": "Thai Siamese",
@@ -4852,7 +4852,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Thai Siamese,Quy Nhon,Pursat,Shantou,Hue,Can Tho,Hai Phong,Hanoi,Vinh,Hat Yai,Vientiane,Phongsali,My Tho,Điện Biên Phủ,Takeo,Kampong Cham,Bago,Mandalay,Nha Trang,Sihanoukville,Battambang,Mawlamyine,Guilin,Nanning,Hà Giang,Pattaya,Macau,Fangchenggang"
 },
 {
     "name": "Thakali",
@@ -4861,7 +4861,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Thakali,Abidjan,Bissau,Gbarnga,Timbuktu,Dakar,Katsina,Tema,Zaria,Porto-Novo,Kaduna,Kumasi,Kano,Ouagadougou,Koudougou,Kumba,Parakou,Bouaké,Jalingo,Nzérékoré,Kankan,Ziguinchor,Gusau,Sokodé,Bafoussam,Lafia,Basse,Warri"
 },
 {
     "name": "Thangmi (Thami)",
@@ -4870,7 +4870,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Thangmi (Thami),Chamdo,Ngari,Kangding,Mangan,Deqin,Barkam,Namchi,Zhaotong,Lhasa,Zhongdian,Rangpo,Batang,Trongsa,Tura,Kunming,Melli,Leshan,Punakha,Cherrapunji,Jorthang,Nongstoin,Rhenock,Samdrup Jongkhar,Lijiang,Shillong,Trashigang,Padum"
 },
 {
     "name": "Thar",
@@ -4879,7 +4879,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Thar,Tema,Abidjan,Bissau,Dakar,Bertoua,Freetown,Kano,Niamey,Sokodé,Kankan,Katsina,Jalingo,Monrovia,Kayes,Korhogo,Parakou,Conakry,Farafenni,Koudougou,Ouagadougou,Assomada,Bafatá,Kara,Praia,Banjul,Wa,Tamale"
 },
 {
     "name": "Tharu languages",
@@ -4888,7 +4888,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Tharu languages,Bertoua,Freetown,Nzérékoré,Monrovia,Man,Sokoto,Yola,Mopti,Koudougou,Kaolack,Kumasi,Kayes,Lafia,Maroua,Ouagadougou,Bouaké,Kara,Sikasso,Sunyani,Koidu,Kumba,Abidjan,Yamoussoukro,Niamey,Maiduguri,Tamale,Cacheu"
 },
 {
     "name": "Thmon",
@@ -4897,7 +4897,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Thmon,Bangkok,Ho Chi Minh City,Nanning,Hue,Da Lat,Da Nang,Nha Trang,Bago,Udon Thani,Phnom Penh,Pattaya,Phongsali,Siem Reap,Thakhek,Pakse,Can Tho,Rach Gia,Kampot,Macau,Pursat,Xieng Khouang,Haikou,Savannakhet,Sihanoukville,Naypyidaw,Vinh,Mandalay"
 },
 {
     "name": "Tichurong",
@@ -4906,7 +4906,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Tichurong,Freetown,Tema,Bobo-Dioulasso,Nouakchott,Tarrafal,Kankan,Maiduguri,Dakar,Bertoua,Bafatá,Kaolack,Bouaké,Saint-Louis,Cotonou,Kano,Praia,Tambacounda,Monrovia,Accra,Man,Banfora,Mopti,Yamoussoukro,Parakou,Maroua,Brikama,Sokoto"
 },
 {
     "name": "Toda",
@@ -4915,7 +4915,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Toda,Man,Bamako,Banjul,Cotonou,Bobo-Dioulasso,Kaduna,Abidjan,Gbarnga,Monrovia,Katsina,Freetown,Kaolack,Kara,Koudougou,Bamenda,Jalingo,Tambacounda,Lafia,Kano,Yamoussoukro,Sokodé,Maiduguri,Bauchi,Nzérékoré,Bouaké,Sunyani,Ouagadougou"
 },
 {
     "name": "Todrah",
@@ -4924,7 +4924,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Todrah,Bissau,Banjul,Bamako,Kankan,Bouaké,Katsina,Ségou,Kara,Cotonou,Freetown,Ouagadougou,Lomé,Koudougou,Conakry,Korhogo,Accra,Praia,Maiduguri,Koidu,Tamale,Kaolack,Niamey,Gbarnga,Bauchi,Ziguinchor,Nzérékoré,Parakou"
 },
 {
     "name": "Tongren Bonan",
@@ -4933,7 +4933,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Tongren Bonan,Samarkand,Kokand,Bishkek,Tehran,Kirovabad,Lahore,Oral,Shymkent,Aktau,Jalal-Abad,Istaravshan,Karagandy,Khorugh,Turkmenabat,Ashgabat,Karakol,Batken,Dushanbe,Ghazni,Tokmok,Mashhad,Shiraz,Peshawar,Panjakent,Osh,Kandahar,Dashoguz"
 },
 {
     "name": "Torwali",
@@ -4942,7 +4942,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Torwali,Abidjan,Bertoua,Cotonou,Banjul,Katsina,Bouaké,Kankan,Gbarnga,Ouagadougou,Koidu,Daloa,Kayes,Mopti,Bauchi,Kaolack,Timbuktu,Tenkodogo,Monrovia,Sunyani,Niamey,Jalingo,Ngaoundéré,Lomé,Maiduguri,Praia,Jos,Kaduna"
 },
 {
     "name": "Transitional Bonan-Kangjia",
@@ -4951,7 +4951,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Transitional Bonan-Kangjia,Bishkek,Namangan,Shymkent,Nukus,Karagandy,Turkmenabat,Talas,Khorugh,Aktau,Dushanbe,Kirovabad,Tejen,Lahore,Bokhtar,Bukhara,Murghob,Istaravshan,Tehran,Qom,Mashhad,Almaty,Murgab,Atyrau,Tabriz,Kandahar,Faisalabad,Quetta"
 },
 {
     "name": "Tripuri",
@@ -4960,7 +4960,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Tripuri,Shigatse,Zhaotong,Trongsa,Nagqu,Xichang,Daocheng,Chuxiong,Umroi,Dali,Gangtok,Zanskar,Zhongdian,Rishikesh,Namchi,Melli,Samdrup Jongkhar,Trashigang,Rangpo,Dehradun,Jakar,Rhenock,Panzhihua,Xichang,Punakha,Daofu,Mawlai,Aba"
 },
 {
     "name": "Tsun-Lao",
@@ -4969,7 +4969,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Tsun-Lao,Chiang Mai,Battambang,Fangchenggang,Bangkok,Da Nang,Vinh,Phan Thiet,Ho Chi Minh City,Can Tho,Phongsali,Hanoi,Nha Trang,Vientiane,My Tho,Luang Prabang,Mandalay,Takeo,Kunming,Pathein,Sihanoukville,Taunggyi,Zhanjiang,Pakse,Guiyang,Cao Bằng,Savannakhet,Mawlamyine"
 },
 {
     "name": "Tulu",
@@ -4978,7 +4978,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Tulu,Bangalore,Biratnagar,Pune,Nagpur,Bhubaneswar,Guwahati,Mumbai,Aurangabad,Chennai,Varanasi,Visakhapatnam,Aizawl,Imphal,Kolkata,Madurai,Jaipur,Mangalore,Kathmandu,Nashik,Lucknow,Udaipur,Kochi,Rangpur,Jammu,Siliguri,Ludhiana,Tiruchirappalli"
 },
 {
     "name": "Turung",
@@ -4987,7 +4987,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Turung,Medellín,Cuenca,Barranquilla,Cúcuta,Talca,Arica,Manta,Oruro,Arequipa,Cusco,Piura,Loja,Puyo,Santiago,Trujillo,Paysandú,Rio Branco,Pereira,Ambato,Cochabamba,Manaus,Asunción,Huancayo,Rancagua,Potosí,Antofagasta,Concepción"
 },
 {
     "name": "Tuyuhun",
@@ -4996,7 +4996,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Tuyuhun,Tashkent,Bukhara,Namangan,Andijan,Almaty,Nur-Sultan,Atyrau,Jalalabad,Rawalpindi,Aktau,Pavlodar,Karagandy,Dushanbe,Jalal-Abad,Balkanabat,Isfahan,Osh,Kulob,Naryn,Batken,Tokmok,Khorugh,Panjakent,Bokhtar,Multan,Bayramaly,Khorugh"
 },
 {
     "name": "Udege",
@@ -5005,7 +5005,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Udege,Verkhoyansk,Oymyakon,Orotukan,Magadan,Kargasok,Petropavlovsk-Kamchatsky,Mirny,Olyokminsk,Yakutsk,Chokurdakh,Esso,Suntar,Anadyr,Bagdarin,Novosibirsk,Egvekinot,Molchanovo,Tigil,Turukhansk,Ust-Kamchatsk,Kozyrevsk,Okhotsk,Chita,Bilibino,Lavrentiya,Kayerkan,Palana"
 },
 {
     "name": "Udegheic",
@@ -5014,7 +5014,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Udegheic,Yakutsk,Anadyr,Petropavlovsk-Kamchatsky,Tiksi,Anadyr,Verkhoyansk,Olyokminsk,Khatanga,Zhigansk,Nyurba,Palana,Suntar,Bilibino,Pevek,Uelen,Kargasok,Talnakh,Ust-Nera,Klyuchi,Seymchan,Lavrentiya,Orotukan,Ust-Kamchatsk,Khandyga,Mirny,Chokurdakh,Igarka"
 },
 {
     "name": "Uilta",
@@ -5023,7 +5023,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Uilta,Ségou,Cotonou,Kayes,Bamako,Zaria,Dakar,Kankan,Freetown,Bafatá,Kumasi,Gusau,Man,Conakry,Sikasso,Nzérékoré,Maiduguri,Wa,Lomé,Nouakchott,Daloa,Porto-Novo,Jalingo,Monrovia,Parakou,Assomada,Sunyani,Kaduna"
 },
 {
     "name": "Ulaanchab Mongol",
@@ -5032,7 +5032,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Ulaanchab Mongol,Chiang Mai,Quy Nhon,Hue,Chiang Rai,Hat Yai,Phan Thiet,Battambang,Surat Thani,Vinh,Ho Chi Minh City,Phongsali,Siem Reap,Guilin,Sihanoukville,Can Tho,Luang Prabang,Savannakhet,Xieng Khouang,Chonburi,Kampot,Hanoi,Yangon,Hai Phong,Shantou,Myitkyina,Thakhek,My Tho"
 },
 {
     "name": "Ulch",
@@ -5041,7 +5041,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Ulch,Verkhoyansk,Norilsk,Mirny,Chersky,Petropavlovsk-Kamchatsky,Kozyrevsk,Anadyr,Palana,Zhigansk,Anadyr,Molchanovo,Nyurba,Myaundzha,Lavrentiya,Khandyga,Suntar,Bagdarin,Tigil,Chita,Egvekinot,Snezhnogorsk,Parabel,Svetlogorsk,Bilibino,Ulan-Ude,Kayerkan,Sosnovo-Ozerskoye"
 },
 {
     "name": "Ushojo",
@@ -5050,7 +5050,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Ushojo,Kaduna,Bamako,Bobo-Dioulasso,Bouaké,Dakar,Accra,Basse,Kaolack,Koudougou,Korhogo,Gbarnga,Katsina,Abidjan,Kumasi,Ouagadougou,Sikasso,Bafatá,Thiès,Ségou,Nouakchott,Kumba,Niamey,Ebebiyín,Zinder,Cotonou,Monrovia,Assomada"
 },
 {
     "name": "Vaghri",
@@ -5059,7 +5059,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Vaghri,Bissau,Bertoua,Bobo-Dioulasso,Bamako,Accra,Abidjan,Koidu,Dakar,Tema,Nouakchott,Kankan,Bauchi,Timbuktu,Monrovia,Korhogo,Zaria,Kaduna,Gbarnga,Sunyani,Ségou,Buea,Lomé,Garoua,Mopti,Freetown,Nzérékoré,Porto-Novo"
 },
 {
     "name": "Varendri",
@@ -5068,7 +5068,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Varendri,Davao,Jakarta,Jerudong,Makassar,Quezon City,Cebu City,Denpasar,Muara,Bangar,Semarang,Surabaya,Bandung,Tanna,Kuala Lumpur,Sonsorol,Tutong,Munda,Bandar Seri Begawan,Singapore,Palikir,Gizo,Jaluit,Tulagi,Seria,Kota Kinabalu,Lata,Kayangel"
 },
 {
     "name": "Vayu",
@@ -5077,7 +5077,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Vayu,Sokodé,Bamako,Kaduna,Daloa,Sunyani,Conakry,Kankan,Bamenda,Gusau,Koudougou,Mindelo,Kaolack,Kara,Lomé,Basse,Katsina,Ségou,Monrovia,Freetown,Maiduguri,Thiès,Natitingou,Tarrafal,Lafia,Bobo-Dioulasso,Parakou,Wa"
 },
 {
     "name": "Vietnamese Central",
@@ -5086,16 +5086,16 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Vietnamese Central,Udon Thani,Ho Chi Minh City,Chiang Rai,Lạng Sơn,Can Tho,Da Nang,Hai Phong,Vientiane,Da Lat,Hanoi,Pursat,Sam Neua,Pathein,My Tho,Danzhou,Điện Biên Phủ,Naypyidaw,Zhanjiang,Quy Nhon,Myitkyina,Hat Yai,Haikou,Phnom Penh,Battambang,Chiềng Mai,Sihanoukville,Yangon"
 },
 {
     "name": "Vietnamese China",
-  "i": 200565,
+  "i": 201380,
   "min": 4,
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Vietnamese China,Vientiane,Chiang Mai,Da Lat,Kampong Cham,Phnom Penh,Da Nang,Phan Thiet,Kunming,Chiang Rai,Phongsali,Rach Gia,My Tho,Quy Nhon,Thakhek,Yangon,Naypyidaw,Bangkok,Pursat,Pathein,Myitkyina,Chiềng Rạ,Shantou,Ho Chi Minh City,Macau,Savannakhet,Battambang,Nanning"
 },
 {
     "name": "Vietnamese Hue",
@@ -5104,7 +5104,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Vietnamese Hue,Chiang Mai,Chiang Rai,Hanoi,Da Lat,Savannakhet,Điện Biên Phủ,Hai Phong,Quy Nhon,Luang Prabang,Khon Kaen,Bago,Phan Thiet,Taunggyi,Rach Gia,Pakse,Vientiane,Pursat,Da Nang,Hue,Thakhek,Shantou,Guilin,Xieng Khouang,Sihanoukville,Siem Reap,Sam Neua,Fangchenggang"
 },
 {
     "name": "Vietnamese Northern",
@@ -5113,7 +5113,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Vietnamese Northern,Quy Nhon,Hanoi,Kunming,Luang Prabang,Hue,Mawlamyine,Shantou,Can Tho,Siem Reap,Vinh,Vientiane,Qionghai,Battambang,Phnom Penh,Yangon,Chiềng Mai,Điện Biên Phủ,Da Lat,Udon Thani,Thakhek,Xieng Khouang,Pursat,My Tho,Sihanoukville,Khon Kaen,Chiang Rai,Chiang Mai"
 },
 {
     "name": "Vietnamese Southern",
@@ -5122,7 +5122,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Vietnamese Southern,Chiang Rai,Hue,Sam Neua,Luang Prabang,Phnom Penh,Lạng Sơn,Can Tho,Vinh,Siem Reap,Pakse,Phongsali,Danzhou,Beihai,Thakhek,Nakhon Ratchasima,Takeo,Mandalay,Mawlamyine,Sơn La,Nha Trang,Xieng Khouang,Da Nang,My Tho,Sihanoukville,Bago,Kampot,Hai Phong"
 },
 {
     "name": "Vietnamese US",
@@ -5131,7 +5131,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Vietnamese US,Quy Nhon,Hue,Chiang Mai,Can Tho,Mandalay,Vinh,Rach Gia,My Tho,Siem Reap,Da Lat,Savannakhet,Ho Chi Minh City,Macau,Chiang Rai,Luang Prabang,Chiềng Rạ,Sam Neua,Kunming,Surat Thani,Phongsali,Phuket,Phnom Penh,Nakhon Ratchasima,Sihanoukville,Pathein,Da Nang,Beihai"
 },
 {
     "name": "Vishavan",
@@ -5140,7 +5140,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Vishavan,Bamako,Jalingo,Abidjan,Bissau,Bouaké,Conakry,Daloa,Cotonou,Timbuktu,Kara,Ebebiyín,Kaolack,Kankan,Gusau,Kayes,Bafatá,Katsina,Porto-Novo,Nouakchott,Lomé,Kumba,Mopti,Maiduguri,Garoua,Nzérékoré,Sunyani,Sokoto"
 },
 {
     "name": "Wadiyara Koli",
@@ -5149,7 +5149,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Wadiyara Koli,Dharan,Ahmedabad,Allahabad,Amritsar,Bhopal,Chennai,Aurangabad,Ghaziabad,Rangpur,Dharamshala,Imphal,Raipur,Visakhapatnam,Indore,Guwahati,Nagpur,Silchar,Itanagar,Surat,Pune,Kochi,Kozhikode,Chittagong,Kolkata,Coimbatore,Ranchi,Dimapur"
 },
 {
     "name": "Wagdi",
@@ -5158,7 +5158,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Wagdi,Daloa,Kaduna,Katsina,Conakry,Dakar,Bouaké,Kankan,Kara,Bamako,Accra,Abidjan,Kaolack,Tambacounda,Tenkodogo,Kayes,Sunyani,Koidu,Niamey,Nouakchott,Mopti,Maroua,Lomé,Maiduguri,Praia,Ségou,Lafia,Brikama"
 },
 {
     "name": "Walungge",
@@ -5167,7 +5167,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Walungge,Abidjan,Cotonou,Bouaké,Dakar,Bamako,Sokodé,Tambacounda,Ségou,Lafia,Kara,Brikama,Kaolack,Man,Bobo-Dioulasso,Ebebiyín,Sikasso,Kayes,Koidu,Saint-Louis,Nzérékoré,Maiduguri,Ouagadougou,Mopti,Tamale,Warri,Yamoussoukro,Bissau"
 },
 {
     "name": "Wambule",
@@ -5176,7 +5176,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Wambule,Nouakchott,Daloa,Bobo-Dioulasso,Ségou,Accra,Mindelo,Conakry,Kayes,Banjul,Freetown,Kaduna,Kaolack,Maiduguri,Tema,Bafatá,Mopti,Koudougou,Bolt,Kankan,Man,Ziguinchor,Lomé,Yamoussoukro,Parakou,Nzérékoré,Niamey,Sokoto"
 },
 {
     "name": "Wayanad Chetti",
@@ -5185,7 +5185,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Wayanad Chetti,Lafia,Bamako,Sokodé,Bouaké,Koidu,Garoua,Kankan,Nzérékoré,Kayes,Man,Gusau,Monrovia,Katsina,Bata,Koudougou,Thiès,Cotonou,Accra,Timbuktu,Cacheu,Tambacounda,Wa,Malabo,Jos,Brikama,Nouakchott,Sikasso"
 },
 {
     "name": "Waziri",
@@ -5194,7 +5194,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Waziri,Bertoua,Freetown,Bissau,Koidu,Timbuktu,Nouakchott,Conakry,Katsina,Gbarnga,Mindelo,Kumasi,Bauchi,Monrovia,Parakou,Lomé,Sunyani,Sikasso,Man,Cotonou,Bafatá,Nzérékoré,Porto-Novo,Malabo,Dakar,Bamenda,Jalingo,Tambacounda"
 },
 {
     "name": "Western Khmer",
@@ -5203,7 +5203,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Western Khmer,Ho Chi Minh City,Phan Thiet,Hanoi,Nakhon Ratchasima,Khon Kaen,Shantou,Savannakhet,Vinh,Can Tho,Rach Gia,Haikou,Sam Neua,Battambang,Điện Biên Phủ,Luang Prabang,Qionghai,Mawlamyine,Hong Kong,Surat Thani,Takeo,Sihanoukville,Danzhou,Yangon,Wuzhou,Phongsali,Chiang Rai,Hat Yai"
 },
 {
     "name": "Yadgha",
@@ -5212,7 +5212,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Yadgha,Praia,Bamako,Ebebiyín,Gbarnga,Gusau,Kara,Kaolack,Dakar,Lafia,Jalingo,Cotonou,Accra,Niamey,Kano,Warri,Lomé,Jos,Maiduguri,Bouaké,Timbuktu,Kumba,Porto-Novo,Gabú,Monrovia,Brikama,Tambacounda,Nouakchott"
 },
 {
     "name": "Yakut",
@@ -5221,7 +5221,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Yakut,Bukhara,Kirovabad,Batken,Mary,Almaty,Lahore,Turkmenabat,Bayramaly,Karagandy,Fergana,Atyrau,Gyzylarbat,Ghazni,Isfahan,Bishkek,Balkanabat,Kulob,Nur-Sultan,Tabriz,Panjakent,Murgab,Khorugh,Andijan,Murghob,Shymkent,Charikh,Istaravshan"
 },
 {
     "name": "Yang Zhuang",
@@ -5230,7 +5230,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Yang Zhuang,Savannakhet,Chiang Rai,Da Nang,Phongsali,Kunming,Fangchenggang,Pursat,Phnom Penh,Vientiane,Quy Nhon,Pattaya,Hai Phong,Phan Thiet,Kampot,Siem Reap,Shantou,Luang Prabang,Mandalay,Yangon,My Tho,Điện Biên Phủ,Hong Kong,Macau,Khon Kaen,Thakhek,Naypyidaw,Nanning"
 },
 {
     "name": "Yei Zhuang",
@@ -5239,7 +5239,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Yei Zhuang,Shantou,Ho Chi Minh City,Điện Biên Phủ,Liuzhou,Udon Thani,Rach Gia,Pakse,Hat Yai,Siem Reap,Da Lat,Lạng Sơn,Phan Thiet,Sam Neua,Nakhon Ratchasima,Savannakhet,Hai Phong,Nha Trang,Can Tho,Kampong Cham,Vinh,Danzhou,Fangchenggang,Yangon,My Tho,Pursat,Mandalay,Bangkok"
 },
 {
     "name": "Yong",
@@ -5248,7 +5248,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Yong,Bobo-Dioulasso,Timbuktu,Cotonou,Mopti,Dakar,Nzérékoré,Banjul,Kara,Monrovia,Tamale,Bertoua,Koidu,Jos,Yamoussoukro,Ebebiyín,Abidjan,Saint-Louis,Sokodé,Maiduguri,Gbarnga,Ouagadougou,Tenkodogo,Freetown,Parakou,Zaria,Kaolack,Cacheu"
 },
 {
     "name": "Yoy",
@@ -5257,7 +5257,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Yoy,Maroua,Banjul,Freetown,Koidu,Dakar,Bamako,Kankan,Gbarnga,Katsina,Korhogo,Gusau,Tema,Man,Bouaké,Warri,Kumasi,Jalingo,Assomada,Ziguinchor,Bertoua,Mindelo,Lomé,Parakou,Yola,Mopti,Zaria,Saint-Louis"
 },
 {
     "name": "Zakhchin",
@@ -5266,7 +5266,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Zakhchin,Lhokha,Shigatse,Rangpo,Trashigang,Chuxiong,Mangan,Tura,Thimphu,Lijiang,Melli,Zhaotong,Namchi,Xichang,Nainital,Leh,Paro,Ngari,Litang,Cherrapunji,Nyingchi,Deqin,Lijiang,Jorthang,Batang,Mianyang,Jowai,Sarchu"
 },
 {
     "name": "Zandui",
@@ -5275,7 +5275,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Zandui,Bissau,Dakar,Kaduna,Bamenda,Accra,Kaolack,Banjul,Kara,Bertoua,Bouaké,Conakry,Wa,Sikasso,Lomé,Bauchi,Praia,Kankan,Mopti,Sunyani,Ségou,Kayes,Koidu,Niamey,Cotonou,Kumasi,Zaria,Yamoussoukro"
 },
 {
     "name": "Zhangzhung",
@@ -5284,7 +5284,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Zhangzhung,Warri,Freetown,Katsina,Bamenda,Malabo,Cotonou,Korhogo,Nouakchott,Daloa,Basse,Ouagadougou,Koidu,Tambacounda,Lafia,Gbarnga,Mopti,Tema,Kara,Ziguinchor,Maiduguri,Thiès,Nzérékoré,Kaolack,Kumasi,Praia,Sikasso,Kumba"
 },
 {
     "name": "Burarra",
@@ -5293,7 +5293,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Burarra,Ouagadougou,Banjul,Ziguinchor,Conakry,Dakar,Gbarnga,Accra,Kara,Mindelo,Wa,Kumasi,Koidu,Wukari,Sikasso,Ségou,Parakou,Mopti,Monrovia,Kankan,Saint-Louis,Lomé,Bouaké,Kano,Niamey,Korhogo,Gusau,Sokoto"
 },
 {
     "name": "Dhuwal",
@@ -5302,7 +5302,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Dhuwal,Melbourne,Alice Springs,Darwin,Adelaide,Hobart,Townsville,Newcastle,Cairns,Gold Coast,Halls Creek,Albany,Maningrida,Yuendumu,Kalgoorlie,Papunya,Daly River,Geraldton,Nhulunbuy,Esperance,Roma,Andamooka,Kununurra,Ceduna,Milingimbi,Port Hedland,Broome,Port Lincoln"
 },
 {
     "name": "Djaru",
@@ -5311,7 +5311,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Djaru,Daloa,Cotonou,Abidjan,Ebebiyín,Tema,Gusau,Kano,Conakry,Bamenda,Accra,Bamako,Lomé,Kaolack,Mopti,Tambacounda,Kumba,Tenkodogo,Maiduguri,Sunyani,Ouagadougou,Koidu,Kankan,Koudougou,Monrovia,Niamey,Bafoussam,Bolama"
 },
 {
     "name": "Djinang",
@@ -5320,7 +5320,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Djinang,Cheongju,Dalian,Chongqing,Harbin,Hefei,Hangzhou,Nanchang,Qingdao,Shanghai,Daegu,Taiyuan,Nanning,Yanji,Xiamen,Xi'an,Ürümqi,Taichung,Taipei,Zibo,Keelung,Zhongshan,Wuhan,Zhuhai,Suwon,Wonsan,Lhasa,Fushun"
 },
 {
     "name": "Gaagudju",
@@ -5329,7 +5329,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Gaagudju,Adelaide,Gold Coast,Broome,Darwin,Karratha,Newcastle,Geelong,Townsville,Yuendumu,Maningrida,Daly River,Perth,Alice Springs,Wyndham,Wollongong,Geraldton,Ceduna,Elcho Island,Brisbane,Roma,Albany,Kununurra,Fitzroy Crossing,Cunnamulla,Derby,Cooktown,Port Augusta"
 },
 {
     "name": "Githabul",
@@ -5338,7 +5338,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Githabul,Sydney,Yuendumu,Cunnamulla,Adelaide,Canberra,Darwin,Karratha,Bunbury,Broken Hill,Broome,Port Augusta,Pine Creek,Oodnadatta,Charleville,Alice Springs,Andamooka,Derby,Halls Creek,Maningrida,Katherine,Longreach,Mount Isa,Bourke,Elcho Island,Coober Pedy,Melbourne,Kalgoorlie"
 },
 {
     "name": "Iwaidja",
@@ -5347,7 +5347,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Iwaidja,Accra,Conakry,Ngaoundéré,Katsina,Sokodé,Bamako,Kankan,Brikama,Ziguinchor,Freetown,Dakar,Kayes,Kara,Niamey,Korhogo,Mopti,Lomé,Kumasi,Yola,Ouagadougou,Aconibe,Kaduna,Yamoussoukro,Zaria,Zinder,Parakou,Cacheu"
 },
 {
     "name": "Kaytetye",
@@ -5356,7 +5356,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Kaytetye,Zamboanga,Ipoh,Davao,Sonsorol,Cagayan de Oro,Kuala Lumpur,Jakarta,Makassar,Quezon City,Munda,Tutong,Majuro,Ba,Tulagi,Johor Bahru,Shah Alam,Manila,Port Vila,Babeldaob,Levuka,Gizo,Medan,Honiara,Melekeok,Ngerulmud,Kuala Belait,Muara"
 },
 {
     "name": "Kija",
@@ -5365,7 +5365,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Kija,Broken Hill,Sydney,Gold Coast,Karratha,Cairns,Geelong,Kalgoorlie,Sunshine Coast,Broome,Geraldton,Port Hedland,Oodnadatta,Coober Pedy,Port Augusta,Leigh Creek,Canberra,Albany,Esperance,Darwin,Brisbane,Melbourne,Tennant Creek,Newcastle,Charleville,Hobart,Wollongong,Elcho Island"
 },
 {
     "name": "Kukatja",
@@ -5374,7 +5374,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Kukatja,Charleville,Hobart,Normanton,Sunshine Coast,Canberra,Cairns,Mount Isa,Adelaide,Bunbury,Longreach,Albany,Gold Coast,Yuendumu,Townsville,Geraldton,Milingimbi,Barkly,Esperance,Melbourne,Wadeye,Port Hedland,Broken Hill,Leigh Creek,Derby,Nhulunbuy,Coober Pedy,Newcastle"
 },
 {
     "name": "Kuku Yalanji",
@@ -5383,7 +5383,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Kuku Yalanji,Kavieng,Bandung,Medan,Davao,George Town,Malekula,Jakarta,Cagayan de Oro,Semarang,Ba,Johor Bahru,Iloilo City,Bandar Seri Begawan,Muara,Epi,Rabaul,Singapore,Luganville,Manila,Seria,Auki,Port Vila,Kirakira,Kayangel,Angaur,Ngerulmud,Ipoh"
 },
 {
     "name": "Kungarakany",
@@ -5392,7 +5392,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Kungarakany,Brisbane,Cunnamulla,Kununurra,Darwin,Katherine,Townsville,Bunbury,Bourke,Kalgoorlie,Melbourne,Geelong,Sunshine Coast,Maningrida,Cooktown,Canberra,Kalkarindji,Yuendumu,Daly River,Gold Coast,Normanton,Elcho Island,Broken Hill,Alice Springs,Wilcannia,Charleville,Weipa,Oodnadatta"
 },
 {
     "name": "Kunwinjku",
@@ -5401,7 +5401,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Kunwinjku,Canberra,Oodnadatta,Broken Hill,Melbourne,Adelaide,Sunshine Coast,Sydney,Elcho Island,Wollongong,Cooktown,Karratha,Broome,Charleville,Port Augusta,Kalgoorlie,Geelong,Bunbury,Pine Creek,Kununurra,Cairns,Mount Isa,Leigh Creek,Wyndham,Derby,Maningrida,Weipa,Barkly"
 },
 {
     "name": "Kuuk Thaayore",
@@ -5410,7 +5410,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Kuuk Thaayore,Kaduna,Banjul,Katsina,Koudougou,Sokoto,Abidjan,Lomé,Jalingo,Dakar,Ségou,Brikama,Zaria,Bamenda,Bissau,Kayes,Kaolack,Lafia,Korhogo,Sunyani,Maiduguri,Mopti,Minna,Kankan,Nzérékoré,Accra,Tema,Bafatá"
 },
 {
     "name": "Laragia",
@@ -5419,7 +5419,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Laragia,Canberra,Fitzroy Crossing,Geelong,Gold Coast,Broome,Newcastle,Melbourne,Port Lincoln,Pine Creek,Daly River,Milingimbi,Sydney,Darwin,Ceduna,Kalkarindji,Katherine,Derby,Geraldton,Bourke,Albany,Sunshine Coast,Yuendumu,Hobart,Nhulunbuy,Port Hedland,Areyonga,Perth"
 },
 {
     "name": "Luritja",
@@ -5428,7 +5428,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Luritja,Melbourne,Coober Pedy,Perth,Mount Isa,Port Augusta,Broome,Alice Springs,Karratha,Newcastle,Milingimbi,Kalkarindji,Geelong,Hobart,Oodnadatta,Darwin,Canberra,Derby,Katherine,Leigh Creek,Townsville,Kununurra,Adelaide,Wyndham,Gold Coast,Daly River,Warrabri,Wadeye"
 },
 {
     "name": "Manytjilyitjarra",
@@ -5437,7 +5437,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Manytjilyitjarra,Panzhihua,Rishikesh,Ngari,Nyingchi,Kangding,Lhokha,Zhongdian,Trashigang,Tura,Wangdue,Lhasa,Thimphu,Deqin,Rangpo,Punakha,Gangtok,Paro,Singtam,Kunming,Umroi,Lijiang,Leshan,Chuxiong,Rhenock,Cherrapunji,Daofu,Kham"
 },
 {
     "name": "Martu Wangka",
@@ -5446,7 +5446,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Martu Wangka,Bissau,Accra,Abidjan,Bobo-Dioulasso,Kaduna,Bertoua,Katsina,Daloa,Koidu,Korhogo,Ségou,Ziguinchor,Kankan,Koudougou,Jalingo,Freetown,Saint-Louis,Sikasso,Ebebiyín,Cacheu,Kumasi,Maiduguri,Bamako,Nouakchott,Sokodé,Nzérékoré,Ouagadougou"
 },
 {
     "name": "Maung",
@@ -5455,7 +5455,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Maung,Broome,Melbourne,Brisbane,Adelaide,Katherine,Karratha,Port Augusta,Cairns,Kalgoorlie,Daly River,Wollongong,Sunshine Coast,Canberra,Milingimbi,Oodnadatta,Nhulunbuy,Elcho Island,Esperance,Cooktown,Roma,Gold Coast,Mount Isa,Bunbury,Wilcannia,Fitzroy Crossing,Broken Hill,Ceduna"
 },
 {
     "name": "Murrinh Patha",
@@ -5464,7 +5464,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Murrinh Patha,Melbourne,Yuendumu,Kalkarindji,Hobart,Maningrida,Broome,Wyndham,Cooktown,Albany,Adelaide,Sunshine Coast,Canberra,Barkly,Port Hedland,Cairns,Kununurra,Derby,Kalgoorlie,Broken Hill,Nhulunbuy,Longreach,Milingimbi,Bourke,Daly River,Port Lincoln,Weipa,Tennant Creek"
 },
 {
     "name": "Ngaanyatjarra",
@@ -5473,7 +5473,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Ngaanyatjarra,Angaur,Manila,Kuala Lumpur,Makassar,Quezon City,Davao,Denpasar,Palikir,Jerudong,Levuka,Majuro,Malacca,Surabaya,Cagayan de Oro,Kota Kinabalu,Epi,Nadi,Kuala Belait,Tanna,Shah Alam,Gizo,Santo,Buala,Seria,George Town,Kirakira,Savusavu"
 },
 {
     "name": "Ngarrindjeri",
@@ -5482,7 +5482,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Ngarrindjeri,Mount Isa,Broken Hill,Port Hedland,Coober Pedy,Cairns,Wollongong,Milingimbi,Sydney,Elcho Island,Canberra,Perth,Karratha,Daly River,Sunshine Coast,Newcastle,Yuendumu,Derby,Port Augusta,Geelong,Normanton,Nhulunbuy,Halls Creek,Esperance,Wadeye,Fitzroy Crossing,Marree,Albany"
 },
 {
     "name": "Nunggubuyu",
@@ -5491,7 +5491,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Nunggubuyu,Surabaya,Bandung,Denpasar,Makassar,Kavieng,Ipoh,Quezon City,Cagayan de Oro,Ngerulmud,Ambrym,Malacca,George Town,Munda,Pentecost,Kuching,Jerudong,Sigatoka,Tulagi,Cebu City,Manila,Auki,Iloilo City,Seria,Kuala Belait,Shah Alam,Luganville,Tanna"
 },
 {
     "name": "Nyangumarta",
@@ -5500,7 +5500,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Nyangumarta,Broome,Perth,Hobart,Charleville,Elcho Island,Milingimbi,Oodnadatta,Adelaide,Warrabri,Daly River,Esperance,Geelong,Melbourne,Port Augusta,Nhulunbuy,Geraldton,Derby,Ceduna,Cooktown,Katherine,Kalkarindji,Coober Pedy,Sunshine Coast,Kalgoorlie,Normanton,Bourke,Wadeye"
 },
 {
     "name": "palawa kani",
@@ -5509,7 +5509,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "palawa kani,Levuka,Medan,Surabaya,Savusavu,Quezon City,Palembang,Jaluit,Cagayan de Oro,Iloilo City,Munda,Sonsorol,Bangar,Ngerulmud,George Town,Melekeok,Jerudong,Kuching,Shah Alam,Makassar,Zamboanga,Tutong,Port Moresby,Angaur,Tanna,Honiara,Kavieng,Kirakira"
 },
 {
     "name": "Panyjima",
@@ -5518,7 +5518,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Panyjima,Broken Hill,Geraldton,Maningrida,Darwin,Melbourne,Wollongong,Geelong,Alice Springs,Longreach,Karratha,Roma,Port Augusta,Hobart,Brisbane,Kalkarindji,Papunya,Daly River,Albany,Cooktown,Katherine,Weipa,Townsville,Perth,Halls Creek,Wadeye,Yuendumu,Ceduna"
 },
 {
     "name": "Umbugarla",
@@ -5527,7 +5527,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Umbugarla,Adelaide,Wyndham,Brisbane,Townsville,Sydney,Cairns,Oodnadatta,Hobart,Wollongong,Kununurra,Broome,Newcastle,Weipa,Yuendumu,Nhulunbuy,Geraldton,Cooktown,Port Hedland,Canberra,Normanton,Katherine,Derby,Port Lincoln,Maningrida,Fitzroy Crossing,Esperance,Pine Creek"
 },
 {
     "name": "Upper Arrernte",
@@ -5536,7 +5536,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Upper Arrernte,Surabaya,Bangar,Makassar,Bacolod,Palembang,Zamboanga,Ambrym,Cagayan de Oro,Kuala Belait,Jaluit,Denpasar,Iloilo City,Quezon City,Davao,Kota Kinabalu,Melekeok,Luganville,Bandung,Babeldaob,Palikir,Nadi,Tutong,Jerudong,Lata,Lautoka,Ipoh,Gizo"
 },
 {
     "name": "Wadjiginy",
@@ -5545,7 +5545,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Wadjiginy,Kalkarindji,Melbourne,Wollongong,Mount Isa,Adelaide,Newcastle,Brisbane,Townsville,Pine Creek,Geelong,Halls Creek,Kununurra,Alice Springs,Gold Coast,Port Hedland,Daly River,Derby,Kalgoorlie,Cooktown,Geraldton,Leigh Creek,Bunbury,Milingimbi,Wyndham,Oodnadatta,Weipa,Sydney"
 },
 {
     "name": "Wagiman",
@@ -5554,7 +5554,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Wagiman,Cunnamulla,Melbourne,Adelaide,Cairns,Gold Coast,Canberra,Fitzroy Crossing,Broken Hill,Newcastle,Darwin,Kununurra,Wollongong,Geelong,Barkly,Broome,Bunbury,Ceduna,Kalgoorlie,Pine Creek,Katherine,Albany,Cooktown,Derby,Daly River,Nhulunbuy,Wyndham,Marree"
 },
 {
     "name": "Wajarri",
@@ -5563,7 +5563,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Wajarri,Townsville,Canberra,Alice Springs,Hobart,Darwin,Geraldton,Port Augusta,Melbourne,Pine Creek,Gold Coast,Yuendumu,Maningrida,Elcho Island,Broome,Kununurra,Port Hedland,Coober Pedy,Kalgoorlie,Broken Hill,Esperance,Fitzroy Crossing,Roma,Bunbury,Halls Creek,Nhulunbuy,Mount Isa,Sydney"
 },
 {
     "name": "Walmatjarri",
@@ -5572,7 +5572,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Walmatjarri,Karratha,Brisbane,Katherine,Alice Springs,Hobart,Canberra,Maningrida,Kalkarindji,Oodnadatta,Townsville,Broken Hill,Charleville,Weipa,Gold Coast,Ceduna,Port Hedland,Wyndham,Albany,Sydney,Kalgoorlie,Normanton,Wadeye,Daly River,Pine Creek,Elcho Island,Imanpa,Cunnamulla"
 },
 {
     "name": "Wangkatha",
@@ -5581,7 +5581,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Wangkatha,Bandung,Kuala Lumpur,Zamboanga,Iloilo City,Epi,Manila,Tulagi,Cagayan de Oro,George Town,Kota Kinabalu,Suva,Quezon City,Bangar,Ipoh,Palembang,Jaluit,Auki,Kuching,Ba,Surabaya,Palikir,Santo,Tutong,Nadi,Munda,Muara,Ambrym"
 },
 {
     "name": "Warumungu",
@@ -5590,7 +5590,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Warumungu,Mount Hagen,Kokopo,Lae,Wewak,Tari,Rabaul,Kavieng,Port Moresby,Kimbe,Vanimo,Aseki,Mendi,Madang,Buka,Kerema,Lorengau,Menyamya,Wau,Daru,Pangia,Ambunti,Kikori,Morehead,Lake Kopiago,Tabubil,Ialibu,Kiunga"
 },
 {
     "name": "Wik Mungkan",
@@ -5599,7 +5599,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Wik Mungkan,Muara,Singapore,Bandung,Denpasar,Quezon City,Palikir,Palembang,Cagayan de Oro,Iloilo City,Sonsorol,Davao,Makassar,Bandar Seri Begawan,Kota Kinabalu,Kirakira,Kavieng,Zamboanga,Pentecost,Semarang,Suva,Ipoh,Munda,Weno,Malekula,Johor Bahru,Bangar,Kuala Belait"
 },
 {
     "name": "Yankunytjatjara",
@@ -5608,7 +5608,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Yankunytjatjara,Bandung,Ipoh,Semarang,Manila,Iloilo City,Denpasar,Quezon City,George Town,Palembang,Davao,Sonsorol,Shah Alam,Bacolod,Malacca,Ba,Tulagi,Gizo,Port Vila,Suva,Seria,Munda,Muara,Kuala Lumpur,Medan,Weno,Santo,Singapore"
 },
 {
     "name": "Yinjibarndi",
@@ -5617,7 +5617,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Yinjibarndi,Paro,Garzê,Ngari,Sarchu,Samdrup Jongkhar,Barkam,Kangding,Dali,Trongsa,Zhongdian,Singtam,Lijiang,Koksar,Weixi,Jorthang,Xichang,Wangdue,Leh,Shigatse,Dalton Ganj,Kham,Baoshan,Namchi,Lhokha,Mianyang,Luhuo,Chuxiong"
 },
 {
     "name": "Yugambeh",
@@ -5626,7 +5626,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Yugambeh,Jakarta,Bandung,Manila,Shah Alam,Makassar,Kuala Lumpur,Kavieng,Alotau,Zamboanga,Malacca,Levuka,Denpasar,Epi,Palikir,Kuching,Malekula,Johor Bahru,Kuala Belait,Majuro,Singapore,Munda,Port Vila,Luganville,Tanna,Suva,George Town,Muara"
 },
 {
     "name": "Anguillian Creole",
@@ -5635,7 +5635,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Anguillian Creole,Spanish Town,Gustavia,Havana,Ocho Ríos,Gonaïves,Saint-Marc,Mandeville,Freeport,Fort-Liberté,Montego Bay,Jacmel,Andros Town,Harbour Island,Marsh Harbour,Maho Reef,Falmouth,Nassau,Santiago de Cuba,Chaguanas,Bridgetown,West End,Bathsheba,Oranjestad,Hastings,Oistins,Crane,Montaña"
 },
 {
     "name": "Bahamian Creole",
@@ -5644,7 +5644,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Bahamian Creole,Montego Bay,Jacmel,Hastings,Mandeville,Ocho Ríos,Cockburn Town,Saint-Marc,Cap-Haïtien,Simpson Bay,Nassau,Alice Town,Bridgetown,Fort-Liberté,Tortola,Jérémie,Point Fortin,Port of Spain,Christ Church,Chaguanas,Dunmore Town,Santiago de Cuba,Kingston,Brievengat,Speightstown,Holguín,Bathsheba,Upper Prince's Quarter"
 },
 {
     "name": "Bajan Creole",
@@ -5653,7 +5653,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Bajan Creole,Kingston,Harbour Island,Bridgetown,Havana,Maho Reef,Cockburn Town,West End,Portmore,Brievengat,Montego Bay,Port of Spain,Fort-Liberté,San Fernando,Hastings,Jérémie,Freeport,Crane,Marsh Harbour,Arima,Dunmore Town,Montaña,Tortola,Mandeville,Soto,Nassau,Couva,Bathsheba"
 },
 {
     "name": "Belizean Creole",
@@ -5662,7 +5662,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Belizean Creole,Jacmel,Basseterre,Mandeville,Cap-Haïtien,Fort-Liberté,Oranjestad,Simpson Bay,Camagüey,Port Antonio,Ocho Ríos,West End,Soto,Dunmore Town,Montego Bay,Hastings,Les Cayes,Nassau,Marsh Harbour,Spanish Town,Andros Town,Holetown,Havana,Harbour Island,Sint Nicolaas,Gustavia,Couva,Christ Church"
 },
 {
     "name": "Bocas del Toro Creole",
@@ -5671,7 +5671,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Bocas del Toro Creole,Tunapuna,Cap-Haïtien,Ocho Ríos,Kingston,Camagüey,Basseterre,Portmore,Jérémie,Fort-Liberté,Port Antonio,Saint-Marc,Gonaïves,Dunmore Town,Santa Cruz,Crane,Marsh Harbour,Hastings,Harbour Island,Chaguanas,Nassau,Bathsheba,Cockburn Town,Speightstown,Hato,Montego Bay,Scarborough,Oranjestad"
 },
 {
     "name": "Grenadian Creole English",
@@ -5680,7 +5680,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "St. George's,Gouyave,Grenville,Sauteurs,Victoria,Hillsborough,Grand Anse,Concord,Saint Patrick,Saint Andrew,Saint David,Saint Mark,Southern Grenadines,Carriacou,Petite Martinique,Grand Etang,Lance aux Epines,True Blue,Grand Anse,St. David's,St. Patrick's,St. Andrew's,Saint George's,Gouyave,Grenville"
+  "b": "Grenadian Creole English,Lyon,Bydgoszcz,Marseille,Bergen,Palermo,Randers,Bilbao,Sion,Aveiro,Hamburg,Barcelona,Turin,Basel,Birmingham,Linz,Leipzig,Innsbruck,Galway,Turku,Sligo,Bologna,Bristol,Florence,Brno,Selfoss,Glasgow,Bern"
 },
 {
     "name": "Haitian Creole",
@@ -5689,7 +5689,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Haitian Creole,Mandeville,Portmore,Spanish Town,Falmouth,Bridgetown,Port-au-Prince,Port Antonio,Nassau,Cap-Haïtien,Alice Town,Gonaïves,Saveta,Santa Cruz,Harbour Island,Dunmore Town,Christ Church,Chaguanas,Marsh Harbour,Couva,Basseterre,Camagüey,Hastings,Barber,Guantánamo,Point Fortin,Oistins,Willemstad"
 },
 {
     "name": "Jamaican Creole",
@@ -5698,7 +5698,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Jamaican Creole,Havana,Harbour Island,Camagüey,West End,Gonaïves,Port-au-Prince,Maho Reef,Cap-Haïtien,Crane,Point Fortin,Port of Spain,Fort-Liberté,Santa Cruz,Portmore,Bridgetown,Soto,Basseterre,Falmouth,Andros Town,Montaña,Willemstad,Hastings,Cockburn Town,Holguín,Santa Clara,Tanki Leendert,Scarborough"
 },
 {
     "name": "Jamaican Patois",
@@ -5707,7 +5707,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Jamaican Patois,Matanzas,Falmouth,Jacmel,Mandeville,Tortola,Port-au-Prince,Dunmore Town,Point Fortin,Freeport,Andros Town,Cul de Sac,Gonaïves,Speightstown,Marsh Harbour,Hastings,Saint-Marc,Fort-Liberté,Holetown,Natal,Willemstad,Santiago de Cuba,Santa Cruz,Nassau,Holguín,Oistins,Basseterre,Camagüey"
 },
 {
     "name": "Leeward Caribbean Creole English",
@@ -5716,7 +5716,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Basseterre,Charlestown,Nevis,St. Kitts,Antigua,Barbuda,Montserrat,Anguilla,British Virgin Islands,Tortola,Virgin Gorda,Jost Van Dyke,Anegada,St. John,St. Thomas,St. Croix,Christiansted,Frederiksted,Road Town,Spanish Town,The Valley,St. George's,Basseterre,Charlestown,Nevis,St. Kitts,Antigua,Barbuda,Montserrat,Anguilla"
+  "b": "Leeward Caribbean Creole English,Bordeaux,Drogheda,Leipzig,Uppsala,Toulouse,Wroclaw,Nantes,Strasbourg,Marseille,Málaga,Sion,Munich,Milan,Bilbao,Granada,Zaragoza,Bristol,Glasgow,Reykjanesbær,Chur,Liverpool,Lisbon,Barcelona,Bologna,Trondheim,St. Gallen,Prague"
 },
 {
     "name": "Limonese Creole",
@@ -5725,7 +5725,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Limonese Creole,Da Nang,Chiang Mai,Da Lat,Mandalay,Pursat,Nha Trang,Bangkok,Savannakhet,Luang Prabang,Can Tho,Bago,My Tho,Battambang,Beihai,Lạng Sơn,Hong Kong,Sam Neua,Hue,Quy Nhon,Kampong Cham,Điện Biên Phủ,Fangchenggang,Ho Chi Minh City,Kunming,Myitkyina,Surat Thani,Naypyidaw"
 },
 {
     "name": "Miskito Coast Creole",
@@ -5734,7 +5734,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Miskito Coast Creole,Kingston,Point Fortin,Portmore,Mandeville,Harbour Island,Gonaïves,Falmouth,Bridgetown,Cap-Haïtien,Camagüey,Dunmore Town,Fort-Liberté,Port-au-Prince,Jérémie,Willemstad,Hastings,Couva,Andros Town,Soto,Matanzas,Simpson Bay,San Fernando,Crane,Basseterre,Port of Spain,Christ Church,Noord"
 },
 {
     "name": "Montserrat Creole",
@@ -5743,7 +5743,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Montserrat Creole,Naypyidaw,Da Nang,My Tho,Bangkok,Hanoi,Can Tho,Hai Phong,Phan Thiet,Luang Prabang,Hong Kong,Guiyang,Fangchenggang,Surat Thani,Sihanoukville,Phongsali,Quy Nhon,Shantou,Siem Reap,Sam Neua,Beihai,Danzhou,Guilin,Chiang Mai,Mawlamyine,Kampot,Da Lat,Phuket"
 },
 {
     "name": "Papiamento",
@@ -5752,7 +5752,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Papiamento,Kingston,Montego Bay,Spanish Town,Port Antonio,Mandeville,Basseterre,Crane,Saint-Marc,Harbour Island,Cap-Haïtien,Nassau,Brievengat,Tortola,Cienfuegos,Fort-Liberté,Speightstown,Hastings,West End,Havana,Arima,Holetown,Alice Town,Upper Prince's Quarter,Guantánamo,Tunapuna,Couva,Cul de Sac"
 },
 {
     "name": "Rama Cay Creole",
@@ -5761,7 +5761,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Rama Cay Creole,Tortola,Mandeville,Spanish Town,Cockburn Town,Harbour Island,Point Fortin,Arima,Nassau,West End,Portmore,Speightstown,Freeport,Port of Spain,Falmouth,Gustavia,Marsh Harbour,Gonaïves,Cienfuegos,Chaguanas,Matanzas,Montaña,Holguín,Jacmel,Havana,Christ Church,Oistins,Brievengat"
 },
 {
     "name": "Saint Kitts Creole",
@@ -5770,7 +5770,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Saint Kitts Creole,Mandeville,Dunmore Town,Port Antonio,Santa Cruz,Soto,West End,Hastings,Nassau,Marsh Harbour,Fort-Liberté,Andros Town,Cap-Haïtien,Saint-Marc,Speightstown,Santa Clara,Havana,Couva,Portmore,Port-au-Prince,Freeport,Port of Spain,Les Cayes,Cienfuegos,Holetown,Spanish Town,Arima,Bathsheba"
 },
 {
     "name": "San Andrés-Providencia Creole",
@@ -5779,7 +5779,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "San Andrés-Providencia Creole,Otjiwarongo,Springbok,Upington,Mzuzu,Gweru,Pietermaritzburg,Klerksdorp,Masvingo,Tembisa,Polokwane,Welkom,Vereeniging,Soweto,Kimberley,Lilongwe,Chitungwiza,Mufulira,Pretoria,Nampula,Mangochi,Kadoma,Zomba,Maputo,Mutare,Bulawayo,Ndola,Lusaka"
 },
 {
     "name": "Tobagonian Creole",
@@ -5788,7 +5788,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Tobagonian Creole,Kingston,Cul de Sac,West End,Falmouth,Jacmel,Holetown,Port Antonio,Camagüey,Les Cayes,Brievengat,Jérémie,Gustavia,Christ Church,Marsh Harbour,Port-au-Prince,Basseterre,Nassau,Cockburn Town,Hastings,Bridgetown,Harbour Island,Cienfuegos,Crane,Point Fortin,Matanzas,Philipsburg,Fort-Liberté"
 },
 {
     "name": "Trinidadian Creole",
@@ -5797,7 +5797,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Trinidadian Creole,Montego Bay,Bathsheba,Falmouth,Ocho Ríos,Freeport,Les Cayes,Saint-Marc,Tunapuna,Fort-Liberté,Port of Spain,Camagüey,Havana,Andros Town,Spanish Town,Holetown,Oistins,Christ Church,Bridgetown,Chaguanas,Noord,Saveta,Holguín,Speightstown,Matanzas,Arima,George Town,Maho Reef"
 },
 {
     "name": "Andi",
@@ -5806,7 +5806,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Andi,Adygeysk,Kutaisi,Karachayevsk,Derbent,Khasavyurt,Urus-Martan,Gori,Sighnaghi,Nalchik,Argun,Ochamchire,Mtskheta,Vladikavkaz,Shali,Kizilyurt,Izberbash,Kardonikskaya,Malgobek,Telavi,Kizlyar,Beslan,Zelenchukskaya,Khabez,Mozdok,Grozny,Akhaltsikhe,Alagir"
 },
 {
     "name": "Bezhta",
@@ -5815,7 +5815,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Bezhta,Beslan,Batumi,Telavi,Terek,Tbilisi,Gori,Argun,Mtskheta,Gagra,Sukhumi,Khasavyurt,Borjomi,Kobuleti,Krymsk,Derbent,Buynaksk,Mozdok,Adygeysk,Timashevsk,Ardon,Baksan,Izberbash,Labinsk,Shali,Kizilyurt,Karachayevsk,Nalchik"
 },
 {
     "name": "Botlikh",
@@ -5824,7 +5824,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Botlikh,Kizlyar,Gori,Poti,Zugdidi,Mtskheta,Sukhumi,Sighnaghi,Akhaltsikhe,Nalchik,Ochamchire,Borjomi,Gagra,Gudermes,Karabulaq,Argun,Buynaksk,Adygeysk,Uchkeken,Chegem,Samashki,Izberbash,Korenovsk,Batumi,Maisky,Labinsk,Malgobek,Avtury"
 },
 {
     "name": "Kabardian",
@@ -5833,7 +5833,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Kabardian,Malgobek,Argun,Sighnaghi,Samashki,Poti,Grozny,Gagra,Akhaltsikhe,Nartkala,Karachayevsk,Achkhoy-Martan,Izberbash,Batumi,Korenovsk,Ochamchire,Buynaksk,Mozdok,Gori,Kaspiysk,Cherkessk,Prokhladny,Gudermes,Karabulaq,Avtury,Krymsk,Labinsk,Nazran"
 },
 {
     "name": "Kaitag",
@@ -5842,7 +5842,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Kaitag,Rustavi,Argun,Gori,Baksan,Achkhoy-Martan,Avtury,Maykop,Makhachkala,Borjomi,Nartkala,Gagra,Ochamchire,Khasavyurt,Izberbash,Mtskheta,Derbent,Akhaltsikhe,Kizlyar,Vladikavkaz,Ardon,Shali,Grozny,Chegem,Malgobek,Adygeysk,Slavyansk-na-Kubani,Storozhevaya"
 },
 {
     "name": "Kubachi",
@@ -5851,7 +5851,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Kubachi,Avtury,Makhachkala,Mtskheta,Gagra,Sukhumi,Akhaltsikhe,Uchkeken,Zugdidi,Adygeysk,Buynaksk,Borjomi,Derbent,Gudermes,Ochamchire,Kaspiysk,Karabulaq,Beslan,Terek,Krymsk,Gori,Kizlyar,Chegem,Grozny,Shali,Rustavi,Alagir,Kardonikskaya"
 },
 {
     "name": "Mingrelian",
@@ -5860,7 +5860,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Mingrelian,Khasavyurt,Sighnaghi,Krymsk,Karachayevsk,Baksan,Telavi,Akhaltsikhe,Kaspiysk,Gori,Kobuleti,Makhachkala,Borjomi,Gagra,Sukhumi,Kardonikskaya,Shali,Izberbash,Storozhevaya,Terek,Grozny,Gudermes,Nalchik,Argun,Vladikavkaz,Abinsk,Avtury,Slavyansk-na-Kubani"
 },
 {
     "name": "Proto-Georgian–Zan",
@@ -5869,7 +5869,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Proto-Georgian–Zan,Baksan,Rustavi,Achkhoy-Martan,Akhaltsikhe,Terek,Kutaisi,Mtskheta,Malgobek,Kobuleti,Telavi,Slavyansk-na-Kubani,Ochamchire,Alagir,Buynaksk,Borjomi,Kardonikskaya,Shali,Kizilyurt,Gudermes,Samashki,Argun,Avtury,Abinsk,Maykop,Ardon,Karabulaq,Kizlyar"
 },
 {
     "name": "Rutul",
@@ -5878,7 +5878,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Rutul,Tbilisi,Malgobek,Gori,Argun,Kobuleti,Urus-Martan,Gagra,Sighnaghi,Kutaisi,Achkhoy-Martan,Izberbash,Poti,Zugdidi,Makhachkala,Sukhumi,Buynaksk,Khasavyurt,Kaspiysk,Mozdok,Samashki,Vladikavkaz,Tyrnyauz,Chegem,Nalchik,Timashevsk,Shali,Adygeysk"
 },
 {
     "name": "Svan",
@@ -5887,7 +5887,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Svan,Tbilisi,Makhachkala,Kaspiysk,Akhaltsikhe,Sukhumi,Telavi,Borjomi,Sighnaghi,Gori,Khasavyurt,Ochamchire,Grozny,Gagra,Adygeysk,Kutaisi,Baksan,Korenovsk,Buynaksk,Labinsk,Vladikavkaz,Malgobek,Tyrnyauz,Zugdidi,Karachayevsk,Krymsk,Chegem,Maykop"
 },
 {
     "name": "Tabasaran",
@@ -5896,7 +5896,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Tabasaran,Brazzaville,Koulamoutou,Bata,Kinshasa,Gamboma,Mbaïki,Ebolowa,Libreville,Oyem,Bouar,Mbandaka,Bangassou,Dolisie,Kimongo,Douala,Ewo,Moutamba,Franceville,Bambari,Mbalmayo,Kribi,Bumba,Isiro,Kisangani,Tchibanga,Port-Gentil,Sangmélima"
 },
 {
     "name": "Tat",
@@ -5905,7 +5905,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Tat,Lomé,Banjul,Timbuktu,Daloa,Accra,Bertoua,Kankan,Abidjan,Kaolack,Korhogo,Kumasi,Ziguinchor,Koudougou,Niamey,Bamenda,Kayes,Nouakchott,Ouagadougou,Conakry,Man,Tambacounda,Mopti,Yamoussoukro,Porto-Novo,Tamale,Koidu,Tarrafal"
 },
 {
     "name": "Tindi",
@@ -5914,7 +5914,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Tindi,Tbilisi,Batumi,Sukhumi,Achkhoy-Martan,Akhaltsikhe,Poti,Telavi,Makhachkala,Vladikavkaz,Nalchik,Malgobek,Derbent,Terek,Beslan,Baksan,Izberbash,Mozdok,Nazran,Buynaksk,Grozny,Storozhevaya,Zelenchukskaya,Khasavyurt,Kardonikskaya,Karabulaq,Slavyansk-na-Kubani,Kutaisi"
 },
 {
     "name": "Ubykh",
@@ -5923,7 +5923,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Ubykh,Abinsk,Tbilisi,Nazran,Terek,Poti,Gori,Rustavi,Karachayevsk,Akhaltsikhe,Kardonikskaya,Izberbash,Urus-Martan,Makhachkala,Vladikavkaz,Derbent,Malgobek,Buynaksk,Zelenchukskaya,Karabulaq,Mozdok,Kizlyar,Tyrnyauz,Batumi,Shali,Timashevsk,Avtury,Gagra"
 },
 {
     "name": "Pipil (Nawat)",
@@ -5932,7 +5932,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Pipil (Nawat),Tijuana,Arriaga,Corozal,Mexico City,Tegucigalpa,Puebla,Tuxtla Gutiérrez,Orizaba,Hermosillo,Morelia,Tapachula,Querétaro,Zacatecas,Campeche,Ecatepec,Culiacán,Tehuacán,Toluca,Mazatlán,Puerto Cortés,Córdoba,Cobán,Ciudad del Carmen,Veracruz,Flores,Punta Gorda,Mapastepec"
 },
 {
     "name": "Sarikoli",
@@ -5941,7 +5941,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Sarikoli,Bhubaneswar,Hyderabad,Varanasi,Coimbatore,Delhi,Allahabad,Dibrugarh,Aurangabad,Jodhpur,Ghaziabad,Rajkot,Gwalior,Kolkata,Visakhapatnam,Jaipur,Dharamshala,Udaipur,Itanagar,Chennai,Indore,Jalandhar,Jammu,Bharatpur,Mangalore,Shillong,Madurai,Bangalore"
 },
 {
     "name": "Sogdian",
@@ -5950,7 +5950,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Sogdian,Bukhara,Fergana,Nur-Sultan,Tashkent,Panjakent,Kokand,Karagandy,Aktau,Osh,Talas,Kulob,Balkanabat,Jalal-Abad,Nukus,Bishkek,Batken,Bokhtar,Shymkent,Karakol,Rawalpindi,Bayramaly,Shiraz,Ghazni,Murghob,Namangan,Tehran,Isfahan"
 },
 {
     "name": "Wakhi",
@@ -5959,7 +5959,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Wakhi,Batken,Bishkek,Fergana,Khorugh,Nukus,Kulob,Rawalpindi,Pavlodar,Osh,Lahore,Murgab,Quetta,Oral,Mashhad,Naryn,Murghob,Bukhara,Samarkand,Bayramaly,Talas,Dushanbe,Karaj,Tashkent,Kandahar,Turkmenabat,Bokhtar,Shymkent"
 },
 {
     "name": "Big Flowery",
@@ -5968,7 +5968,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Big Flowery,Katsina,Bamako,Man,Cotonou,Koudougou,Accra,Dakar,Freetown,Bissau,Lomé,Ouagadougou,Basse,Zaria,Praia,Kumasi,Kara,Abidjan,Monrovia,Yamoussoukro,Niamey,Kano,Porto-Novo,Tema,Mopti,Bamenda,Tambacounda,Jalingo"
 },
 {
     "name": "Gangwon Korean",
@@ -5977,7 +5977,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Chuncheon,Wonju,Gangneung,Sokcho,Donghae,Samcheok,Taebaek,Hongcheon,Pyeongchang,Jeongseon,Hongcheon,Pyeongchang,Jeongseon,Hongcheon,Pyeongchang,Jeongseon,Hongcheon,Pyeongchang,Jeongseon,Hongcheon,Pyeongchang,Jeongseon,Hongcheon,Pyeongchang,Jeongseon"
+  "b": "Gangwon Korean,Qingdao,Zhengzhou,Hefei,Incheon,Wuhan,Chengdu,Nanchang,Lhasa,Fuzhou,Suzhou,Zhuhai,Shanghai,Wuxi,Xiamen,Shenzhen,Taiyuan,Changsha,Nanjing,Chongqing,Xi'an,Jeonju,Zibo,Taoyuan,Chongjin,Ansan,Jinan,Hsinchu"
 },
 {
     "name": "Gyeonggi / Seoul Korean",
@@ -5986,7 +5986,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Seoul,Incheon,Suwon,Seongnam,Bucheon,Anyang,Goyang,Gwangmyeong,Seongnam,Bucheon,Anyang,Goyang,Gwangmyeong,Seongnam,Bucheon,Anyang,Goyang,Gwangmyeong,Seongnam,Bucheon,Anyang,Goyang,Gwangmyeong,Seongnam,Bucheon,Anyang,Goyang,Gwangmyeong"
+  "b": "Gyeonggi / Seoul Korean,Wonsan,Zhuhai,Hefei,Ürümqi,Beijing,Harbin,Tianjin,Qingdao,Shanghai,Wuhan,Nanjing,Hangzhou,Chengdu,Tainan,Incheon,Ulsan,Taichung,Shenyang,New Taipei,Gwangju,Changwon,Taiyuan,Guangzhou,Keelung,Jilin,Hsinchu,Kaohsiung"
 },
 {
     "name": "Gyeongsang Korean",
@@ -5995,7 +5995,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Busan,Daegu,Ulsan,Changwon,Pohang,Gyeongju,Andong,Gumi,Changwon,Pohang,Gyeongju,Andong,Gumi,Changwon,Pohang,Gyeongju,Andong,Gumi,Changwon,Pohang,Gyeongju,Andong,Gumi,Changwon,Pohang,Gyeongju,Andong,Gumi"
+  "b": "Gyeongsang Korean,Polokwane,Pretoria,Kadoma,Kimberley,Kabwe,Pietermaritzburg,Swakopmund,Durban,Zomba,Mmabatho,Cape Town,Windhoek,Mafikeng,Springbok,Gweru,Vereeniging,Port Elizabeth,Livingstone,Harare,Mutare,Maputo,Middelburg,Lusaka,Tembisa,Beira,Nampula,Xai-Xai"
 },
 {
     "name": "Hamgyŏng Korean",
@@ -6004,7 +6004,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
+  "b": "Hamgyŏng Korean,Beijing,Qingdao,Harbin,Jinan,Hefei,Fuzhou,Dalian,Zhengzhou,Wonsan,Changsha,Taiyuan,Nanchang,Wuhan,Nanjing,Shanghai,Seongnam,New Taipei,Gwangju,Jilin,Suzhou,Tumen,Daegu,Xi'an,Xiamen,Seoul,Ansan,Fushun"
 },
 {
     "name": "Han (Samhan)",
@@ -6013,7 +6013,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Han (Samhan),Abidjan,Accra,Timbuktu,Tema,Gbarnga,Cotonou,Bouaké,Dakar,Nzérékoré,Mopti,Kumasi,Freetown,Nouakchott,Koidu,Tambacounda,Korhogo,Ouagadougou,Monrovia,Sunyani,Tamale,Bertoua,Wa,Kaduna,Saint-Louis,Lomé,Tarrafal,Sokoto"
 },
 {
     "name": "Hm Nai",
@@ -6022,7 +6022,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Hm Nai,Conakry,Nouakchott,Banjul,Bissau,Kankan,Man,Accra,Kara,Daloa,Freetown,Tema,Gbarnga,Kayes,Koudougou,Korhogo,Parakou,Dakar,Bafatá,Sunyani,Mopti,Thiès,Katsina,Bamenda,Sikasso,Mindelo,Kano,Kaduna"
 },
 {
     "name": "Hmong macro entry",
@@ -6031,7 +6031,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Hmong macro entry,Can Tho,Vientiane,Pathein,Nha Trang,Quy Nhon,Hai Phong,Phan Thiet,Sihanoukville,Sam Neua,Khon Kaen,Phnom Penh,My Tho,Chiềng Mai,Ho Chi Minh City,Thakhek,Kampot,Mandalay,Battambang,Phuket,Điện Biên Phủ,Hat Yai,Nanning,Hà Giang,Takeo,Pattaya,Mawlamyine,Xieng Khouang"
 },
 {
     "name": "Hmu",
@@ -6040,7 +6040,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Hmu,Haikou,Kunming,Nha Trang,Phongsali,Da Lat,Hanoi,Ho Chi Minh City,My Tho,Rach Gia,Fangchenggang,Pattaya,Pakse,Sam Neua,Vinh,Shantou,Thakhek,Vientiane,Beihai,Pathein,Takeo,Danzhou,Lạng Sơn,Bago,Mawlamyine,Khon Kaen,Guilin,Taunggyi"
 },
 {
     "name": "Huishui",
@@ -6049,7 +6049,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Huishui,Changsha,Shenyang,Harbin,Hangzhou,Fuzhou,Tumen,Qingdao,Daejeon,Seoul,Lanzhou,Keelung,Taichung,Ansan,Gwangju,Shenzhen,Ürümqi,Nanchang,Guangzhou,Mudanjiang,Zhongshan,Tianjin,Nanjing,Kaohsiung,Suwon,Tainan,Yongin,Xiamen"
 },
 {
     "name": "Hwanghae Korean",
@@ -6058,7 +6058,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
+  "b": "Hwanghae Korean,Chongjin,Fuzhou,Jinan,Beijing,Wonsan,Hefei,Yanji,Lanzhou,Hangzhou,Shanghai,Zhongshan,Nanning,Kaohsiung,Guangzhou,Xiamen,Wuhan,Yongin,Zhuhai,Shenzhen,Taichung,Busan,Gwangju,Taiyuan,Zibo,Ansan,Nanjing,Goyang"
 },
 {
     "name": "Jeju",
@@ -6067,7 +6067,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Jeju,Guangzhou,Harbin,Jinan,Chongqing,Lhasa,Incheon,Beijing,Hefei,Xi'an,Lanzhou,Kaohsiung,Zhuhai,Yanji,Chongjin,Wuxi,Shenzhen,Wonsan,Nanchang,Taoyuan,Suzhou,Jilin,Tumen,Daejeon,Daegu,Danchon,New Taipei,Dalian"
 },
 {
     "name": "Jeolla Korean",
@@ -6076,7 +6076,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
+  "b": "Jeolla Korean,Qingdao,Shenyang,Guangzhou,Hangzhou,Fuzhou,Hefei,Nanchang,Lhasa,Jeonju,Gwangju,Lanzhou,Tumen,Wuxi,Harbin,Keelung,Shanghai,Xiamen,Taiyuan,Cheonan,Nanjing,Danchon,Ürümqi,Seoul,Zibo,Hsinchu,Yongin,Daejeon"
 },
 {
     "name": "Jiaoliao Mandarin",
@@ -6085,7 +6085,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
+  "b": "Jiaoliao Mandarin,Beijing,New Taipei,Chongjin,Tianjin,Hangzhou,Nanjing,Wonsan,Gaecheon,Kaohsiung,Shenzhen,Incheon,Cheongju,Hsinchu,Taichung,Ürümqi,Hefei,Jinan,Taipei,Daegu,Gwangju,Fushun,Seoul,Wuhan,Shanghai,Qingdao,Jilin,Zhengzhou"
 },
 {
     "name": "Jilu Mandarin",
@@ -6094,7 +6094,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
+  "b": "Jilu Mandarin,Dalian,Ulsan,Harbin,Tumen,Lhasa,Nanning,Nanchang,Changsha,Cheongju,Zhuhai,Wuhan,Nanjing,Tainan,Chongqing,Shenzhen,Qingdao,Daegu,Taiyuan,Guangzhou,Tianjin,Sinuiju,Kaohsiung,Taipei,Xiamen,New Taipei,Chongjin,Incheon"
 },
 {
     "name": "Kiong Nai",
@@ -6103,7 +6103,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Kiong Nai,Daloa,Bamako,Tema,Bobo-Dioulasso,Dakar,Bouaké,Koidu,Nouakchott,Sokodé,Banjul,Abidjan,Timbuktu,Kayes,Kara,Porto-Novo,Koudougou,Praia,Monrovia,Man,Tamale,Maiduguri,Freetown,Bolama,Sunyani,Ségou,Ouagadougou,Sikasso"
 },
 {
     "name": "Luobohe",
@@ -6112,7 +6112,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Luobohe,Koudougou,Bissau,Bamenda,Lafia,Daloa,Freetown,Kumasi,Parakou,Bertoua,Kaolack,Bolt,Koidu,Bamako,Ebebiyín,Porto-Novo,Accra,Timbuktu,Mopti,Maiduguri,Kankan,Lomé,Kano,Malabo,Sunyani,Gusau,Tambacounda,Tema"
 },
 {
     "name": "Mahan Korean",
@@ -6121,7 +6121,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
+  "b": "Mahan Korean,Zhengzhou,Beijing,Hangzhou,Lhasa,Jinan,Hefei,Wuhan,Guangzhou,Xi'an,Shenzhen,Ansan,Shanghai,New Taipei,Dalian,Zhongshan,Tianjin,Nanning,Zibo,Taoyuan,Changwon,Danchon,Ürümqi,Taiyuan,Chongjin,Nanchang,Xiamen,Jeonju"
 },
 {
     "name": "Maojia",
@@ -6130,7 +6130,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Maojia,Praia,Bafatá,Accra,Nouakchott,Cotonou,Bissau,Sikasso,Dakar,Kaolack,Korhogo,Bauchi,Kankan,Banjul,Kara,Jalingo,Basse,Nzérékoré,Mopti,Freetown,Tamale,Tema,Maiduguri,Saint-Louis,Niamey,Warri,Kano,Tambacounda"
 },
 {
     "name": "Mashan",
@@ -6139,7 +6139,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Mashan,Chiang Rai,Pursat,Ho Chi Minh City,Fangchenggang,Nha Trang,Hai Phong,Kunming,Pakse,Rach Gia,Udon Thani,Pattaya,Xieng Khouang,Luang Prabang,Chiang Mai,Phnom Penh,Điện Biên Phủ,Vientiane,Pathein,Sam Neua,Thakhek,Myitkyina,Yangon,Shantou,Hanoi,Nanning,Taunggyi,Liuzhou"
 },
 {
     "name": "Middle Korean",
@@ -6148,7 +6148,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
+  "b": "Middle Korean,Fuzhou,Chongqing,Changsha,Harbin,Wonsan,Jilin,Shenzhen,Zhengzhou,Nanjing,Nanchang,Lanzhou,Taiyuan,Hefei,Tainan,Shenyang,Beijing,Nanning,Suzhou,Yongin,Lhasa,Wuhan,Taichung,Ürümqi,Ansan,Seoul,Zhongshan,Hambung"
 },
 {
     "name": "Mo Piu",
@@ -6157,7 +6157,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Mo Piu,Katsina,Accra,Abidjan,Kaduna,Bouaké,Conakry,Kankan,Daloa,Lomé,Porto-Novo,Gusau,Bamenda,Kaolack,Garoua,Timbuktu,Kayes,Bamako,Basse,Sunyani,Maiduguri,Kumba,Niamey,Yamoussoukro,Bertoua,Assomada,Nzérékoré,Tenkodogo"
 },
 {
     "name": "Modern Korean",
@@ -6166,7 +6166,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
+  "b": "Modern Korean,Ürümqi,Qingdao,Ulsan,Fuzhou,Lanzhou,Cheongju,Zhengzhou,Taiyuan,Zhuhai,Shenzhen,Hefei,New Taipei,Daegu,Jilin,Hangzhou,Busan,Taichung,Dalian,Pyongyang,Chengdu,Gwangju,Suzhou,Chongqing,Wuhan,Zhongshan,Yongin,Anshan"
 },
 {
     "name": "Munhwaŏ (Standard North Korean)",
@@ -6175,7 +6175,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
+  "b": "Munhwaŏ (Standard North Korean),Hsinchu,Nanjing,Hefei,Wonsan,Beijing,Jilin,Taichung,Shenyang,New Taipei,Wuhan,Chengdu,Shanghai,Xi'an,Suzhou,Jinan,Tianjin,Incheon,Ürümqi,Changwon,Zhuhai,Zhengzhou,Kaohsiung,Gwangju,Danchon,Seongnam,Chongjin,Zhongshan"
 },
 {
     "name": "Ná-Meo",
@@ -6184,7 +6184,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Ná-Meo,Bouaké,Bafatá,Basse,Abidjan,Mopti,Lomé,Accra,Kara,Daloa,Gbarnga,Ziguinchor,Tamale,Warri,Kaolack,Korhogo,Jalingo,Ouagadougou,Koidu,Kumasi,Maiduguri,Niamey,Yamoussoukro,Dakar,Monrovia,Minna,Ngaoundéré,Sikasso"
 },
 {
     "name": "Nao Klao",
@@ -6193,7 +6193,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Nao Klao,Chiang Mai,Da Lat,Haikou,Sam Neua,Phnom Penh,Sanya,Naypyidaw,Pursat,Nakhon Ratchasima,Liuzhou,Bago,Phongsali,Vientiane,Da Nang,Pakse,Điện Biên Phủ,Battambang,Chiang Rai,Pathein,Yangon,Xieng Khouang,Myitkyina,Beihai,Sihanoukville,Hanoi,Mandalay,Vinh"
 },
 {
     "name": "North Korean",
@@ -6202,7 +6202,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
+  "b": "North Korean,Changsha,Hambung,Wuhan,Lhasa,Nanjing,Jilin,Hangzhou,Jinan,Tainan,Shenzhen,Pyongyang,Nanchang,Zhuhai,Nanning,Chongqing,Chongjin,Shanghai,Tianjin,Taoyuan,Sinuiju,Ürümqi,Daegu,Fushun,Xiamen,Wuxi,Xi'an,Zhongshan"
 },
 {
     "name": "Northern Min",
@@ -6211,7 +6211,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Northern Min,Jalingo,Ouagadougou,Garoua,Niamey,Timbuktu,Kayes,Praia,Saint-Louis,Sokodé,Kaolack,Abidjan,Conakry,Koidu,Dakar,Nzérékoré,Banjul,Cotonou,Porto-Novo,Bertoua,Lafia,Ségou,Tambacounda,Monrovia,Sikasso,Bouaké,Kumba,Yamoussoukro"
 },
 {
     "name": "Numao",
@@ -6220,7 +6220,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Numao,Bouaké,Katsina,Ouagadougou,Bolt,Daloa,Dakar,Kano,Kara,Bissau,Freetown,Kayes,Gbarnga,Kaolack,Koudougou,Monrovia,Bobo-Dioulasso,Bamako,Ebebiyín,Zinder,Mopti,Man,Porto-Novo,Saint-Louis,Sikasso,Niamey,Wa,Garoua"
 },
 {
     "name": "Old Korean",
@@ -6229,7 +6229,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
+  "b": "Old Korean,Incheon,Chongqing,Changsha,Tumen,Hefei,Guangzhou,Harbin,Lanzhou,Nanjing,Chengdu,Taiyuan,Taoyuan,Shenzhen,Nanning,Daejeon,Shanghai,Suzhou,Xi'an,Fuzhou,Hsinchu,Ürümqi,Pyongyang,Fushun,Xiamen,Zhengzhou,Zhuhai,Taipei"
 },
 {
     "name": "Pa Na",
@@ -6238,7 +6238,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Pa Na,Abidjan,Accra,Warri,Ouagadougou,Lomé,Bobo-Dioulasso,Man,Dakar,Bamako,Daloa,Kara,Kayes,Jalingo,Kano,Cotonou,Ziguinchor,Mopti,Praia,Bafatá,Timbuktu,Garoua,Sunyani,Yamoussoukro,Monrovia,Koidu,Jos,Wukari"
 },
 {
     "name": "Pa-Hng",
@@ -6247,7 +6247,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Pa-Hng,Pathein,Chiang Rai,Pursat,Lạng Sơn,Khon Kaen,Vinh,Hai Phong,Shantou,Rach Gia,Pakse,Phan Thiet,Bangkok,Taunggyi,Phongsali,Liuzhou,Luang Prabang,Hue,Phnom Penh,Chiang Mai,Nha Trang,Kampot,Sihanoukville,Takeo,Siem Reap,Xieng Khouang,Mandalay,Hat Yai"
 },
 {
     "name": "Pingtang",
@@ -6256,7 +6256,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Pingtang,Udaipur,Amritsar,Aurangabad,Ghaziabad,Ahmedabad,Faridabad,Indore,Chennai,Dimapur,Mangalore,Itanagar,Gwalior,Nagpur,Silchar,Kolkata,Ludhiana,Jalandhar,Sylhet,Jaipur,Bhopal,Bangalore,Lucknow,Visakhapatnam,Siliguri,Rajkot,Dharan,Noida"
 },
 {
     "name": "Proto-Hmong-Mien",
@@ -6265,7 +6265,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Proto-Hmong-Mien,Bangkok,Da Nang,Naypyidaw,Chiang Mai,Bago,Lạng Sơn,Udon Thani,Danzhou,Pakse,Vientiane,Takeo,Quy Nhon,Sam Neua,Thakhek,Nha Trang,Luang Prabang,Da Lat,Phnom Penh,Macau,Myitkyina,Guiyang,Pattaya,Beihai,Mandalay,Kampot,Kunming,Mawlamyine"
 },
 {
     "name": "Proto-Hmongic",
@@ -6274,7 +6274,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Proto-Hmongic,Bangkok,Da Nang,Bago,Hat Yai,Rach Gia,Hai Phong,Chiang Rai,Nha Trang,Quy Nhon,Fangchenggang,Siem Reap,Luang Prabang,Takeo,My Tho,Kampong Cham,Zhanjiang,Thakhek,Xieng Khouang,Macau,Haikou,Nakhon Ratchasima,Chiềng Rạ,Taunggyi,Mawlamyine,Ho Chi Minh City,Vinh,Yangon"
 },
 {
     "name": "Proto-Koreanic",
@@ -6283,7 +6283,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
+  "b": "Proto-Koreanic,Fuzhou,Beijing,Hefei,Chengdu,Lanzhou,Dalian,Suzhou,Shanghai,Xi'an,Lhasa,Suwon,Jinan,Nanning,New Taipei,Nanchang,Taiyuan,Taichung,Shenzhen,Taoyuan,Ürümqi,Changsha,Daejeon,Gwangju,Zibo,Ansan,Taipei,Hangzhou"
 },
 {
     "name": "Proto-Mienic",
@@ -6292,7 +6292,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Proto-Mienic,Ho Chi Minh City,Rach Gia,Bangkok,Chiang Mai,Chiang Rai,Liuzhou,Pakse,Vientiane,Kunming,Kampong Cham,Yangon,Taunggyi,Battambang,Thakhek,Quy Nhon,Phan Thiet,Mawlamyine,Siem Reap,Nha Trang,Xieng Khouang,Guiyang,Takeo,Khon Kaen,Phongsali,Sam Neua,Vinh,Phuket"
 },
 {
     "name": "Pu–Xian Min",
@@ -6301,7 +6301,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Pu–Xian Min,Bissau,Bouaké,Bamako,Conakry,Abidjan,Jalingo,Kankan,Koidu,Daloa,Lomé,Kaduna,Praia,Kumasi,Nouakchott,Kayes,Bafatá,Man,Monrovia,Korhogo,Ebebiyín,Kumba,Saint-Louis,Malabo,Freetown,Porto-Novo,Dakar,Ouagadougou"
 },
 {
     "name": "Puyŏ",
@@ -6310,7 +6310,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Puyŏ,Bobo-Dioulasso,Banjul,Cacheu,Timbuktu,Bouaké,Kaolack,Dakar,Cotonou,Freetown,Sokodé,Kumasi,Praia,Kankan,Ziguinchor,Koudougou,Korhogo,Bauchi,Maiduguri,Kano,Tamale,Bafoussam,Wa,Kayes,Monrovia,Nzérékoré,Ségou,Sikasso"
 },
 {
     "name": "Pyojuneo (Standard Korean)",
@@ -6319,7 +6319,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
+  "b": "Pyojuneo (Standard Korean),Daejeon,Chengdu,Chongqing,Fuzhou,Changsha,Lhasa,Nanchang,Harbin,Wuhan,Jinan,Yanji,Nanning,Cheongju,Xiamen,Daegu,Shanghai,Sinuiju,Ürümqi,Hangzhou,Jilin,Busan,Tianjin,Zhongshan,Taipei,Tainan,Yongin,Zhuhai"
 },
 {
     "name": "Pyongan Korean",
@@ -6328,7 +6328,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
+  "b": "Pyongan Korean,Beijing,Chongqing,Guangzhou,Hangzhou,Dalian,Shenyang,Suzhou,Changsha,Jinan,Qingdao,New Taipei,Pyongyang,Hsinchu,Nanning,Wuhan,Chongjin,Incheon,Wuxi,Lhasa,Xiamen,Chengdu,Xi'an,Gwangju,Zhengzhou,Daejeon,Yongin,Changwon"
 },
 {
     "name": "Raojia",
@@ -6337,7 +6337,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Raojia,Ouagadougou,Lomé,Gbarnga,Katsina,Kaolack,Daloa,Bafatá,Koidu,Cotonou,Timbuktu,Kumasi,Sokodé,Bissau,Kankan,Praia,Kara,Saint-Louis,Mopti,Tenkodogo,Tamale,Bauchi,Porto-Novo,Yamoussoukro,Maiduguri,Ebebiyín,Nzérékoré,Tema"
 },
 {
     "name": "Sanqiao",
@@ -6346,7 +6346,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Sanqiao,Johannesburg,Polokwane,Cape Town,Lilongwe,Nelspruit,Quelimane,Swakopmund,Molepolole,Mmabatho,Durban,Upington,Gweru,Maseru,Soweto,Lusaka,Mzuzu,Ndola,Masvingo,Chingola,Harare,Mufulira,Tembisa,Klerksdorp,Livingstone,Rundu,Bloemfontein,Kwekwe"
 },
 {
     "name": "Shanghainese",
@@ -6355,7 +6355,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Shanghainese,Bangkok,Chiang Rai,Hanoi,Nha Trang,Siem Reap,Can Tho,Udon Thani,Da Lat,Ho Chi Minh City,Vinh,Yangon,Rach Gia,Lạng Sơn,Luang Prabang,Savannakhet,Liuzhou,Surat Thani,Nanning,Pakse,Phnom Penh,Điện Biên Phủ,Guilin,Quy Nhon,Sihanoukville,Kampong Cham,Taunggyi,Hà Giang"
 },
 {
     "name": "Shao–Jiang Min",
@@ -6364,7 +6364,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Shao–Jiang Min,Bissau,Abidjan,Timbuktu,Conakry,Katsina,Kara,Cotonou,Dakar,Koudougou,Kankan,Jalingo,Parakou,Korhogo,Gbarnga,Freetown,Bamenda,Tenkodogo,Maiduguri,Sunyani,Lomé,Sokodé,Wa,Man,Niamey,Mopti,Basse,Bauchi"
 },
 {
     "name": "She",
@@ -6373,7 +6373,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "She,Vientiane,Hanoi,Sam Neua,Battambang,Chiềng Mai,Savannakhet,Rach Gia,My Tho,Vinh,Da Lat,Phongsali,Pakse,Bangkok,Lào Cai,Thakhek,Kampong Cham,Quy Nhon,Taunggyi,Pursat,Sơn La,Naypyidaw,Nanning,Ho Chi Minh City,Kunming,Qionghai,Surat Thani,Mawlamyine"
 },
 {
     "name": "She Chinese",
@@ -6382,7 +6382,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
+  "b": "She Chinese,Qionghai,Da Nang,Chonburi,Bangkok,Vientiane,Can Tho,Udon Thani,My Tho,Hue,Pathein,Chiang Mai,Pakse,Haikou,Da Lat,Kampot,Mandalay,Phuket,Rach Gia,Hai Phong,Phongsali,Nanning,Myitkyina,Sihanoukville,Chiềng Mai,Beihai,Guiyang,Mawlamyine"
 },
 {
     "name": "Silla Korean",
@@ -6391,7 +6391,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
+  "b": "Silla Korean,Zhengzhou,Cheonan,Nanning,Ulsan,Jinan,Hangzhou,Fuzhou,Lanzhou,Nanchang,Nanjing,Shenyang,Tianjin,Hsinchu,Incheon,Cheongju,Zibo,Goyang,Taoyuan,Ansan,Suwon,Daejeon,Taichung,Ürümqi,Gwangju,Wuxi,Pyongyang,Xiamen"
 },
 {
     "name": "Small Flowery",
@@ -6400,7 +6400,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Small Flowery,Bouaké,Banjul,Accra,Katsina,Dakar,Kaolack,Ziguinchor,Bafoussam,Freetown,Buea,Kumasi,Tenkodogo,Timbuktu,Thiès,Man,Ebebiyín,Saint-Louis,Maiduguri,Koudougou,Sokodé,Korhogo,Bolama,Niamey,Sikasso,Assomada,Jos,Cacheu"
 },
 {
     "name": "South Korean",
@@ -6409,7 +6409,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
+  "b": "South Korean,Changsha,Chengdu,Tianjin,Fuzhou,Nanjing,Hangzhou,Qingdao,Ulsan,Lanzhou,Jinan,Suzhou,New Taipei,Nanning,Xiamen,Chongqing,Shenzhen,Nanchang,Zibo,Chongjin,Wonsan,Zhongshan,Wuxi,Gwangju,Xi'an,Ürümqi,Keelung,Taipei"
 },
 {
     "name": "Southern Min",
@@ -6418,7 +6418,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Southern Min,Abidjan,Bamako,Cotonou,Kara,Bouaké,Dakar,Kayes,Banjul,Cacheu,Daloa,Kaolack,Timbuktu,Katsina,Lomé,Kumasi,Koudougou,Brikama,Kano,Malabo,Ouagadougou,Zinder,Man,Yamoussoukro,Sikasso,Saint-Louis,Tambacounda,Bissau"
 },
 {
     "name": "Suzhounese",
@@ -6427,7 +6427,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Suzhounese,Changsha,Dalian,Chongqing,Zhengzhou,Hefei,Hangzhou,Shenyang,Incheon,Shenzhen,Beijing,New Taipei,Lhasa,Qingdao,Xiamen,Chongjin,Ürümqi,Yanji,Tianjin,Nanchang,Keelung,Zhongshan,Taichung,Daegu,Seoul,Fuzhou,Zibo,Shanghai"
 },
 {
     "name": "Taiwanese Mandarin",
@@ -6436,7 +6436,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
+  "b": "Taiwanese Mandarin,Chiang Mai,Ho Chi Minh City,Hue,Hai Phong,Hat Yai,Bangkok,Lạng Sơn,Siem Reap,Vinh,Nha Trang,Phan Thiet,Haikou,Surat Thani,Yangon,Thakhek,Sam Neua,Kunming,Bago,Shantou,Xieng Khouang,Guiyang,Sihanoukville,Beihai,Kampot,Naypyidaw,Pathein,My Tho"
 },
 {
     "name": "Wenzhounese",
@@ -6445,7 +6445,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Wenzhounese,Chongqing,Kaohsiung,Fuzhou,Chengdu,Nanning,Seongnam,Harbin,Mudanjiang,Xi'an,Taiyuan,Hefei,Shenyang,Chongjin,Shenzhen,Changsha,Nanjing,Taichung,Suwon,Taoyuan,Xiamen,Nanchang,Seoul,Wuxi,Tianjin,Lanzhou,Hsinchu,Hangzhou"
 },
 {
     "name": "Xixiu",
@@ -6454,7 +6454,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Xixiu,Accra,Ziguinchor,Yamoussoukro,Lomé,Conakry,Katsina,Kankan,Nzérékoré,Monrovia,Tambacounda,Praia,Garoua,Tema,Bauchi,Dakar,Koidu,Saint-Louis,Maiduguri,Korhogo,Sunyani,Kumba,Porto-Novo,Bobo-Dioulasso,Sikasso,Zaria,Bamako,Banjul"
 },
 {
     "name": "Xong",
@@ -6463,7 +6463,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Xong,Shantou,Sam Neua,Nha Trang,Quy Nhon,Hai Phong,Hanoi,Ho Chi Minh City,Kunming,Bangkok,My Tho,Pursat,Thakhek,Vientiane,Phnom Penh,Taunggyi,Fangchenggang,Liuzhou,Xieng Khouang,Wuzhou,Sanya,Danzhou,Kampot,Hà Giang,Siem Reap,Naypyidaw,Kampong Cham,Hat Yai"
 },
 {
     "name": "Yangchun Pai Yao",
@@ -6472,7 +6472,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Yangchun Pai Yao,Awasa,Arba Minch,Busia,Nairobi,Eldoret,Woldia,Mizan Teferi,Harar,Addis Ababa,Mekelle,Shashamane,Dessie,Robe,Kitale,Jinja,Juba,Kakamega,Gulu,Fort Portal,Lira,Kisumu,Nakuru,Gedaref,Arua,Wau,Kabale,Meru"
 },
 {
     "name": "Ye-Maek",
@@ -6481,7 +6481,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Ye-Maek,Tenkodogo,Bouaké,Cotonou,Bobo-Dioulasso,Dakar,Freetown,Conakry,Daloa,Monrovia,Bamako,Koudougou,Lomé,Katsina,Kumasi,Ségou,Kayes,Saint-Louis,Tema,Kankan,Maiduguri,Thiès,Niamey,Sokoto,Man,Mopti,Parakou,Banjul"
 },
 {
     "name": "Yeheni",
@@ -6490,7 +6490,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Yeheni,Bissau,Banjul,Cotonou,Accra,Koidu,Bouaké,Conakry,Gbarnga,Katsina,Kayes,Brikama,Man,Mopti,Kaolack,Bamenda,Kankan,Monrovia,Lomé,Abidjan,Warri,Ouagadougou,Tema,Gabú,Niamey,Zaria,Jos,Bolt"
 },
 {
     "name": "Yeongdong Korean",
@@ -6499,7 +6499,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
+  "b": "Yeongdong Korean,Chiang Rai,Hat Yai,Nha Trang,Chiang Mai,Ho Chi Minh City,Savannakhet,Phan Thiet,My Tho,Quy Nhon,Chonburi,Siem Reap,Sam Neua,Da Lat,Nanning,Phuket,Takeo,Vientiane,Pakse,Pursat,Naypyidaw,Guiyang,Vinh,Hà Giang,Fangchenggang,Kampong Cham,Xieng Khouang,Yangon"
 },
 {
     "name": "Yeongseo Korean",
@@ -6508,7 +6508,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
+  "b": "Yeongseo Korean,Jinan,Qingdao,Jilin,Fuzhou,Hefei,Seoul,Nanchang,Nanning,Lanzhou,Chengdu,Incheon,Shanghai,Wuxi,Tainan,Shenzhen,Yanji,Taichung,Chongjin,Sinuiju,Zhuhai,Busan,Ürümqi,Zibo,Zhongshan,Hangzhou,Yongin,Zhengzhou"
 },
 {
     "name": "Younian",
@@ -6517,7 +6517,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Younian,Yamoussoukro,Kaduna,Katsina,Conakry,Gbarnga,Bamako,Praia,Abidjan,Bertoua,Mopti,Tema,Kankan,Bata,Kara,Ebebiyín,Koudougou,Kumba,Monrovia,Sunyani,Tamale,Maiduguri,Daloa,Korhogo,Niamey,Zaria,Lomé,Ngaoundéré"
 },
 {
     "name": "Younuo",
@@ -6526,7 +6526,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Younuo,Savannakhet,Quy Nhon,Sam Neua,Lạng Sơn,Hai Phong,Chiang Rai,Phan Thiet,Can Tho,Guilin,Pakse,Hanoi,My Tho,Pattaya,Chiềng Mai,Liuzhou,Siem Reap,Mandalay,Phongsali,Haikou,Sihanoukville,Pursat,Mawlamyine,Hà Giang,Wuzhou,Fangchenggang,Da Nang,Xieng Khouang"
 },
 {
     "name": "Yukjin Korean",
@@ -6535,7 +6535,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
+  "b": "Yukjin Korean,New Taipei,Chongqing,Jinan,Wuhan,Hefei,Hangzhou,Lhasa,Chongjin,Incheon,Taichung,Seoul,Nanning,Tianjin,Zhuhai,Suzhou,Ürümqi,Kaohsiung,Gaecheon,Yanji,Changsha,Tumen,Daegu,Dalian,Seongnam,Ansan,Daejeon,Hunchun"
 },
 {
     "name": "Zainichi Korean",
@@ -6544,7 +6544,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
+  "b": "Zainichi Korean,Chengdu,Tumen,Nanjing,Fuzhou,Guangzhou,Keelung,Taiyuan,Harbin,Lanzhou,Nanchang,Qingdao,Nanning,Hefei,Taichung,Zhongshan,Shanghai,Kaohsiung,Ürümqi,Pyongyang,Zhuhai,Daejeon,Wuxi,New Taipei,Zibo,Xiamen,Xi'an,Busan"
 },
 {
     "name": "Almosan",
@@ -6553,7 +6553,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Almosan,Johannesburg,Pretoria,Pietermaritzburg,Bloemfontein,Nelspruit,East London,Kimberley,Maputo,Chingola,Welkom,George,Mmabatho,Lusaka,Vereeniging,Tembisa,Nampula,Harare,Gweru,Springbok,Kanye,Middelburg,Kabwe,Qacha's Nek,Livingstone,Mzuzu,Upington,Swakopmund"
 },
 {
     "name": "Bjarmian Sámi",
@@ -6562,7 +6562,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Bjarmian Sámi,Daloa,Cotonou,Bauchi,Freetown,Katsina,Banjul,Lomé,Tema,Warri,Conakry,Bissau,Sikasso,Kaolack,Nzérékoré,Jalingo,Maiduguri,Koidu,Wa,Tenkodogo,Man,Ségou,Ebebiyín,Kaduna,Parakou,Tamale,Farafenni,Porto-Novo"
 },
 {
     "name": "Cingali",
@@ -6571,7 +6571,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Cingali,Accra,Cotonou,Tema,Maiduguri,Katsina,Gbarnga,Koudougou,Kara,Freetown,Bissau,Kumasi,Ouagadougou,Kankan,Mopti,Dakar,Wa,Korhogo,Brikama,Conakry,Bolama,Bauchi,Porto-Novo,Parakou,Zinder,Nzérékoré,Nouakchott,Sikasso"
 },
 {
     "name": "Csángó",
@@ -6580,7 +6580,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Csángó,Freetown,Abidjan,Cotonou,Bobo-Dioulasso,Bouaké,Bissau,Praia,Dakar,Bertoua,Kankan,Banjul,Bafatá,Kumasi,Korhogo,Porto-Novo,Kayes,Tambacounda,Saint-Louis,Warri,Jos,Thiès,Wa,Kano,Garoua,Sokodé,Gabú,Tema"
 },
 {
     "name": "Dené-Yeniseian",
@@ -6589,7 +6589,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Dené-Yeniseian,Verkhoyansk,Anadyr,Snezhnogorsk,Bely Yar,Oymyakon,Chokurdakh,Mirny,Olyokminsk,Egvekinot,Zhigansk,Kargasok,Anadyr,Nyurba,Yelizovo,Beringovsky,Tiksi,Lavrentiya,Ust-Kamchatsk,Kozyrevsk,Podgornoye,Igarka,Tigil,Okhotsk,Barguzin,Ust-Nera,Kayerkan,Yakutsk"
 },
 {
     "name": "Jåkkåkaska",
@@ -6598,7 +6598,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Jåkkåkaska,Banjul,Abidjan,Freetown,Conakry,Ebebiyín,Bouaké,Gbarnga,Bamenda,Wukari,Kankan,Yola,Katsina,Yamoussoukro,Saint-Louis,Koudougou,Wa,Kara,Maiduguri,Sunyani,Kaolack,Nzérékoré,Timbuktu,Malabo,Sokodé,Cacheu,Tambacounda,Parakou"
 },
 {
     "name": "Jällivaara",
@@ -6607,7 +6607,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Jällivaara,Bamako,Koidu,Bissau,Dakar,Bouaké,Sokodé,Bamenda,Jalingo,Korhogo,Bobo-Dioulasso,Kaolack,Kayes,Tambacounda,Yola,Man,Monrovia,Wukari,Kaduna,Sunyani,Nzérékoré,Porto-Novo,Parakou,Maiduguri,Tema,Koudougou,Lafia,Nouakchott"
 },
 {
     "name": "Jugan",
@@ -6616,7 +6616,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Jugan,Changsha,Dalian,Shenyang,Qingdao,Hefei,Hangzhou,Tumen,Lanzhou,New Taipei,Beijing,Nanchang,Lhasa,Ürümqi,Ulsan,Fuzhou,Shenzhen,Taichung,Daejeon,Chongqing,Jilin,Wuhan,Xiamen,Zhuhai,Gwangju,Zhongshan,Hsinchu,Jeonju"
 },
 {
     "name": "Jukonda",
@@ -6625,7 +6625,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Jukonda,Ouagadougou,Kara,Bouaké,Daloa,Bissau,Kaduna,Sokodé,Bobo-Dioulasso,Nouakchott,Monrovia,Maiduguri,Gusau,Mopti,Kano,Jos,Basse,Katsina,Banjul,Lomé,Parakou,Brikama,Zinder,Bamenda,Bertoua,Tambacounda,Freetown,Porto-Novo"
 },
 {
     "name": "Kainuu",
@@ -6634,7 +6634,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Kainuu,Osaka,Kawasaki,Fukuoka,Yokohama,Gifu,Tokyo,Hiroshima,Hamamatsu,Yokosuka,Sapporo,Sagamihara,Setagaya,Miyako,Okayama,Saitama,Matsuyama,Ishigaki,Chiba,Tsu,Fukushima,Obihiro,Naha,Kyoto,Toyama,Kurume,Wakayama,Matsue"
 },
 {
     "name": "Kamassian proper",
@@ -6643,7 +6643,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Kamassian proper,Helsinki,Oulu,Rovaniemi,Haapsalu,Vaasa,Pori,Pechora,Ardatov,Kokkola,Kortkeros,Pärnu,Tallinn,Kovylkino,Kudymkar,Tartu,Morki,Krasnoslobodsk,Viljandi,Krasnovishersk,Saransk,Zvenigovo,Usinsk,Jyväskylä,Romodanovo,Kilemary,Kecskemét,Medvedevo"
 },
 {
     "name": "Kazym",
@@ -6652,7 +6652,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Kazym,Daloa,Jalingo,Ziguinchor,Bobo-Dioulasso,Kara,Conakry,Bouaké,Yola,Monrovia,Banjul,Nouakchott,Man,Ebebiyín,Kaolack,Kayes,Dakar,Bamako,Tema,Tamale,Kano,Niamey,Freetown,Koidu,Accra,Aconibe,Jos,Bissau"
 },
 {
     "name": "Kiknur",
@@ -6661,7 +6661,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Kiknur,Bouaké,Accra,Bissau,Tema,Koudougou,Man,Kano,Bafatá,Daloa,Kankan,Monrovia,Katsina,Kara,Gusau,Bamako,Mopti,Maiduguri,Tambacounda,Ziguinchor,Tamale,Ebebiyín,Jalingo,Ngaoundéré,Saint-Louis,Lomé,Nouakchott,Bolt"
 },
 {
     "name": "Komi-Yodzyak",
@@ -6670,7 +6670,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Komi-Yodzyak,Helsinki,Tampere,Turku,Ardatov,Syktyvkar,Yoshkar-Ola,Pori,Krasnovishersk,Pechora,Monchegorsk,Mikkeli,Pécs,Kokkola,Morki,Haapsalu,Kortkeros,Pärnu,Narva,Sernur,Romodanovo,Ukhta,Saransk,Kirovsk,Vorkuta,Krasnoslobodsk,Ruzaevka,Chamzinka"
 },
 {
     "name": "Komi-Zyryan",
@@ -6679,7 +6679,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Komi-Zyryan,Lahti,Krasnovishersk,Kortkeros,Mikkeli,Saransk,Rovaniemi,Turku,Kotka,Viljandi,Haapsalu,Jyväskylä,Kokkola,Seinäjoki,Krasnoslobodsk,Joensuu,Kuressaare,Rakvere,Morki,Narva,Kozmodemyansk,Kovylkino,Cherdyn,Vorkuta,Pécs,Helsinki,Atemar,Nyíregyháza"
 },
 {
     "name": "Kosa-Kama",
@@ -6688,7 +6688,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Kosa-Kama,Accra,Koidu,Niamey,Abidjan,Bobo-Dioulasso,Dakar,Banjul,Maroua,Freetown,Basse,Kumasi,Kara,Maiduguri,Daloa,Bolt,Ouagadougou,Korhogo,Mopti,Kankan,Saint-Louis,Sunyani,Bouaké,Tema,Ebebiyín,Parakou,Monrovia,Sikasso"
 },
 {
     "name": "Kozymodemyan",
@@ -6697,7 +6697,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Kozymodemyan,Bafatá,Bouaké,Timbuktu,Sikasso,Bobo-Dioulasso,Dakar,Banjul,Kara,Kankan,Lomé,Buea,Ouahigouya,Freetown,Maiduguri,Monrovia,Koidu,Kayes,Koudougou,Parakou,Nzérékoré,Saint-Louis,Wa,Kumasi,Zinder,Mopti,Niamey,Sokoto"
 },
 {
     "name": "Kuuďärv Ludic",
@@ -6706,7 +6706,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Kuuďärv Ludic,Maisky,Izberbash,Sukhumi,Akhaltsikhe,Malgobek,Borjomi,Slavyansk-na-Kubani,Kaspiysk,Shali,Ochamchire,Maykop,Zugdidi,Poti,Kizilyurt,Gagra,Buynaksk,Vladikavkaz,Timashevsk,Karabulaq,Alagir,Prokhladny,Abinsk,Chegem,Storozhevaya,Gudermes,Mozdok,Cherkessk"
 },
 {
     "name": "Likrisovskoe",
@@ -6715,7 +6715,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Likrisovskoe,Accra,Abidjan,Banjul,Sokodé,Bobo-Dioulasso,Tarrafal,Daloa,Kumasi,Bafatá,Monrovia,Man,Jalingo,Mopti,Ségou,Yamoussoukro,Maiduguri,Ziguinchor,Korhogo,Tema,Praia,Bertoua,Wa,Kara,Zinder,Gusau,Bissau,Cacheu"
 },
 {
     "name": "Lipsha",
@@ -6724,7 +6724,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Lipsha,Dakar,Bamako,Jalingo,Bobo-Dioulasso,Yamoussoukro,Koudougou,Praia,Ségou,Monrovia,Bamenda,Conakry,Maiduguri,Kaolack,Niamey,Zinder,Parakou,Wa,Kaduna,Sunyani,Bauchi,Warri,Gusau,Kankan,Sokoto,Mopti,Nzérékoré,Cacheu"
 },
 {
     "name": "Lower Demjanka",
@@ -6733,7 +6733,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Lower Demjanka,Ouagadougou,Banjul,Bafatá,Sokodé,Abidjan,Cotonou,Katsina,Daloa,Dakar,Ziguinchor,Kara,Nouakchott,Kankan,Koudougou,Kumba,Jos,Basse,Korhogo,Bamenda,Man,Gusau,Ebebiyín,Kano,Maroua,Monrovia,Jalingo,Nzérékoré"
 },
 {
     "name": "Lower Konda",
@@ -6742,7 +6742,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Lower Konda,Bamako,Bobo-Dioulasso,Abidjan,Kaduna,Bissau,Bamenda,Cotonou,Daloa,Koudougou,Freetown,Porto-Novo,Tenkodogo,Kumasi,Katsina,Kayes,Jalingo,Tambacounda,Nouakchott,Garoua,Maiduguri,Basse,Parakou,Lomé,Warri,Nzérékoré,Wa,Kumba"
 },
 {
     "name": "Lower Lozva",
@@ -6751,7 +6751,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Lower Lozva,Praia,Gbarnga,Bissau,Korhogo,Ebebiyín,Freetown,Tema,Daloa,Dakar,Lafia,Kumasi,Yamoussoukro,Mopti,Kara,Gabú,Katsina,Sunyani,Koudougou,Niamey,Koidu,Nzérékoré,Sokodé,Kaduna,Saint-Louis,Assomada,Abidjan,Parakou"
 },
 {
     "name": "Lower Luga",
@@ -6760,7 +6760,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Lower Luga,Koidu,Ebebiyín,Bouaké,Bobo-Dioulasso,Bamako,Lomé,Koudougou,Ouagadougou,Freetown,Kankan,Daloa,Nouakchott,Mopti,Korhogo,Man,Sokodé,Katsina,Sikasso,Bissau,Nzérékoré,Abidjan,Basse,Cotonou,Gabú,Bafatá,Accra,Warri"
 },
 {
     "name": "Lower Vychegda",
@@ -6769,7 +6769,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Lower Vychegda,Katsina,Gbarnga,Bobo-Dioulasso,Bouaké,Koidu,Porto-Novo,Ouagadougou,Man,Bissau,Kara,Ziguinchor,Garoua,Cotonou,Sikasso,Maiduguri,Mopti,Koudougou,Monrovia,Bamako,Nzérékoré,Nouakchott,Jos,Basse,Bafatá,Sokodé,Sunyani,Sokoto"
 },
 {
     "name": "Ludza",
@@ -6778,7 +6778,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Ludza,Kaduna,Sokodé,Ouagadougou,Bamenda,Koidu,Cotonou,Abidjan,Mopti,Dakar,Kano,Maiduguri,Kankan,Bamako,Tambacounda,Kayes,Bafoussam,Bauchi,Nzérékoré,Sunyani,Yamoussoukro,Ségou,Saint-Louis,Man,Monrovia,Malabo,Gusau,Banfora"
 },
 {
     "name": "Luokta-Mávas",
@@ -6787,7 +6787,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Luokta-Mávas,Ouagadougou,Banjul,Bobo-Dioulasso,Korhogo,Kaolack,Kara,Kumasi,Abidjan,Gbarnga,Niamey,Porto-Novo,Wa,Lafia,Minna,Accra,Timbuktu,Saint-Louis,Bafatá,Jalingo,Yamoussoukro,Lomé,Koidu,Monrovia,Tambacounda,Basse,Ziguinchor,Farafenni"
 },
 {
     "name": "Luza-Letka",
@@ -6796,7 +6796,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Luza-Letka,Bamako,Conakry,Bissau,Accra,Kaolack,Monrovia,Koidu,Porto-Novo,Bouaké,Niamey,Gbarnga,Dakar,Katsina,Sokodé,Abidjan,Ebebiyín,Cotonou,Jalingo,Sunyani,Bauchi,Wa,Korhogo,Bamenda,Zaria,Ségou,Tema,Kumba"
 },
 {
     "name": "Merya",
@@ -6805,7 +6805,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Merya,Daloa,Accra,Cotonou,Katsina,Ségou,Lomé,Conakry,Kankan,Basse,Tema,Abidjan,Kaduna,Gbarnga,Kara,Kaolack,Niamey,Bouaké,Kumasi,Koidu,Bertoua,Thiès,Saint-Louis,Kano,Monrovia,Ouagadougou,Mopti,Porto-Novo"
 },
 {
     "name": "Meshcherian",
@@ -6814,7 +6814,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Meshcherian,Accra,Warri,Bissau,Kankan,Dakar,Conakry,Ebebiyín,Freetown,Kayes,Kara,Buea,Maiduguri,Kaolack,Ouagadougou,Koudougou,Korhogo,Farafenni,Monrovia,Kaduna,Bauchi,Ségou,Mopti,Porto-Novo,Tarrafal,Nzérékoré,Wa,Nouakchott"
 },
 {
     "name": "Middle Botnian",
@@ -6823,7 +6823,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Middle Botnian,Abidjan,Cotonou,Nouakchott,Dakar,Bamako,Ziguinchor,Freetown,Bobo-Dioulasso,Daloa,Kaolack,Bamenda,Man,Ségou,Praia,Parakou,Korhogo,Bafatá,Maiduguri,Tema,Kayes,Tamale,Brikama,Buea,Sokodé,Gbarnga,Lafia,Ebebiyín"
 },
 {
     "name": "Middle Konda",
@@ -6832,7 +6832,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Middle Konda,Cacheu,Lafia,Abidjan,Accra,Assomada,Ebebiyín,Bissau,Kara,Nouakchott,Kaduna,Ségou,Kaolack,Nzérékoré,Bertoua,Monrovia,Parakou,Saint-Louis,Banjul,Cotonou,Maiduguri,Bolt,Man,Bauchi,Sikasso,Wa,Tambacounda,Warri"
 },
 {
     "name": "Middle Lozva",
@@ -6841,7 +6841,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Middle Lozva,Bissau,Praia,Banjul,Katsina,Accra,Conakry,Dakar,Yola,Aconibe,Kano,Mindelo,Bertoua,Ouagadougou,Wa,Sokoto,Parakou,Saint-Louis,Koidu,Basse,Man,Malabo,Abidjan,Korhogo,Bamako,Sokodé,Tambacounda,Kaduna"
 },
 {
     "name": "Mulgi",
@@ -6850,7 +6850,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Mulgi,Abidjan,Accra,Bertoua,Banjul,Ebebiyín,Bobo-Dioulasso,Bouaké,Kara,Daloa,Nouakchott,Garoua,Kayes,Ouagadougou,Lomé,Kaolack,Sokodé,Parakou,Monrovia,Kumasi,Gusau,Kumba,Sunyani,Koidu,Aconibe,Zaria,Mopti,Bamenda"
 },
 {
     "name": "Muromian",
@@ -6859,7 +6859,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Muromian,Bolt,Bissau,Abidjan,Katsina,Dakar,Tenkodogo,Nouakchott,Daloa,Kaolack,Monrovia,Gbarnga,Sokodé,Nzérékoré,Kankan,Timbuktu,Kayes,Tambacounda,Maiduguri,Bafatá,Maroua,Ségou,Mopti,Praia,Bauchi,Kaduna,Wa,Man"
 },
 {
     "name": "Mysy",
@@ -6868,7 +6868,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Mysy,Sokodé,Bamako,Bouaké,Bissau,Cotonou,Accra,Kaolack,Tema,Kaduna,Daloa,Bertoua,Ziguinchor,Kara,Kano,Lomé,Koudougou,Nzérékoré,Man,Bamenda,Kumasi,Maiduguri,Porto-Novo,Monrovia,Niamey,Koidu,Yamoussoukro,Timbuktu"
 },
 {
     "name": "Nerdva",
@@ -6877,7 +6877,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Nerdva,Bouaké,Bissau,Man,Daloa,Koidu,Freetown,Ouagadougou,Bertoua,Dakar,Kara,Cotonou,Accra,Tambacounda,Kano,Gusau,Maiduguri,Sikasso,Lomé,Bamako,Kayes,Monrovia,Porto-Novo,Koudougou,Aconibe,Gbarnga,Saint-Louis,Jos"
 },
 {
     "name": "North Vagilsk",
@@ -6886,7 +6886,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "North Vagilsk,Abidjan,Sokodé,Ziguinchor,Gbarnga,Timbuktu,Conakry,Bertoua,Kaolack,Bamako,Koidu,Kankan,Ouagadougou,Bissau,Korhogo,Mopti,Bauchi,Saint-Louis,Sikasso,Daloa,Man,Cotonou,Tema,Katsina,Parakou,Natitingou,Nouakchott,Koudougou"
 },
 {
     "name": "Northeast Hungary",
@@ -6895,7 +6895,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Northeast Hungary,Abidjan,Kaduna,Kaolack,Bouaké,Dakar,Conakry,Kumasi,Kayes,Bamako,Gbarnga,Bissau,Parakou,Saint-Louis,Niamey,Basse,Korhogo,Koudougou,Gusau,Porto-Novo,Ouagadougou,Ségou,Sokodé,Man,Timbuktu,Koidu,Lafia,Tarrafal"
 },
 {
     "name": "Northeastern coastal Estonian",
@@ -6904,7 +6904,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Northeastern coastal Estonian,Morki,Lahti,Kokkola,Joensuu,Kortkeros,Helsinki,Vaasa,Kovylkino,Tallinn,Rovaniemi,Pori,Gainy,Pécs,Tartu,Oulu,Pärnu,Kotka,Syktyvkar,Sernur,Budapest,Krasnoslobodsk,Solikamsk,Tampere,Ruzaevka,Monchegorsk,Chamzinka,Seinäjoki"
 },
 {
     "name": "Northern Botnian",
@@ -6913,7 +6913,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Northern Botnian,Accra,Katsina,Conakry,Daloa,Bouaké,Kaduna,Sikasso,Bissau,Maiduguri,Man,Kumasi,Koidu,Nouakchott,Kara,Nzérékoré,Korhogo,Ouagadougou,Praia,Gusau,Mopti,Bamenda,Ziguinchor,Tenkodogo,Kano,Assomada,Niamey,Sokoto"
 },
 {
     "name": "Northern Ludic",
@@ -6922,7 +6922,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Northern Ludic,Terek,Kaspiysk,Kobuleti,Gagra,Krymsk,Argun,Makhachkala,Ochamchire,Slavyansk-na-Kubani,Sukhumi,Mtskheta,Telavi,Gudermes,Buynaksk,Karachayevsk,Kutaisi,Mozdok,Prokhladny,Timashevsk,Baksan,Adygeysk,Kizlyar,Borjomi,Samashki,Avtury,Maykop,Akhaltsikhe"
 },
 {
     "name": "Northern Savonian",
@@ -6931,7 +6931,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Northern Savonian,Accra,Timbuktu,Cotonou,Bouaké,Conakry,Katsina,Bobo-Dioulasso,Koidu,Praia,Bafatá,Sokoto,Kankan,Mopti,Kayes,Tema,Nzérékoré,Freetown,Zinder,Lomé,Zaria,Maiduguri,Daloa,Sunyani,Niamey,Ebebiyín,Tambacounda,Wa"
 },
 {
     "name": "Northern Veps",
@@ -6940,7 +6940,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Northern Veps,Joensuu,Kokkola,Medvedevo,Kuopio,Mikkeli,Pori,Solikamsk,Krasnovishersk,Helsinki,Tampere,Kozmodemyansk,Narva,Lahti,Saransk,Yoshkar-Ola,Pärnu,Kajaani,Syktyvkar,Kirovsk,Ardatov,Kovylkino,Ruzaevka,Viljandi,Sernur,Chamzinka,Tartu,Ukhta"
 },
 {
     "name": "Ob Mansi",
@@ -6949,7 +6949,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Ob Mansi,Pori,Helsinki,Lahti,Debrecen,Atemar,Kotka,Tampere,Jyväskylä,Tallinn,Kokkola,Rakvere,Monchegorsk,Ardatov,Seinäjoki,Krasnovishersk,Tartu,Kovylkino,Saransk,Oulu,Pécs,Ruzaevka,Berezniki,Vorkuta,Zvenigovo,Inta,Chamzinka,Győr"
 },
 {
     "name": "Obdorsk",
@@ -6958,7 +6958,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Obdorsk,Cotonou,Daloa,Abidjan,Kaolack,Man,Banjul,Lomé,Korhogo,Bouaké,Ziguinchor,Katsina,Bauchi,Jalingo,Bafatá,Gbarnga,Bobo-Dioulasso,Sikasso,Monrovia,Nzérékoré,Kayes,Bamenda,Kaduna,Kano,Parakou,Bamako,Kumba,Minna"
 },
 {
     "name": "Old Hungarian",
@@ -6967,7 +6967,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Old Hungarian,Haapsalu,Monchegorsk,Turku,Jyväskylä,Tallinn,Kajaani,Saransk,Kortkeros,Tartu,Pechora,Kovdor,Kudymkar,Helsinki,Viljandi,Syktyvkar,Atemar,Volzhsk,Medvedevo,Lahti,Oulu,Krasnoslobodsk,Rakvere,Ardatov,Chamzinka,Kozmodemyansk,Murmansk,Olenegorsk"
 },
 {
     "name": "Old Komi",
@@ -6976,7 +6976,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Old Komi,Ruzaevka,Rovaniemi,Kuopio,Sernur,Pärnu,Kotka,Mikkeli,Turku,Tartu,Kortkeros,Tampere,Jyväskylä,Kandalaksha,Viljandi,Krasnovishersk,Joensuu,Solikamsk,Atemar,Budapest,Kirovsk,Ukhta,Volzhsk,Kovdor,Narva,Debrecen,Syktyvkar,Nyíregyháza"
 },
 {
     "name": "On",
@@ -6985,7 +6985,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "On,Katsina,Bissau,Jalingo,Conakry,Man,Bamako,Koidu,Kara,Daloa,Freetown,Dakar,Kankan,Mopti,Kaolack,Monrovia,Parakou,Saint-Louis,Korhogo,Accra,Lomé,Maiduguri,Bafatá,Kumasi,Tema,Banjul,Bouaké,Ouagadougou"
 },
 {
     "name": "Orodezhi",
@@ -6994,7 +6994,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Orodezhi,Bissau,Bamenda,Gbarnga,Banjul,Koidu,Cotonou,Koudougou,Conakry,Ebebiyín,Monrovia,Lomé,Freetown,Ziguinchor,Kano,Katsina,Sunyani,Kumasi,Yamoussoukro,Ségou,Man,Bamako,Porto-Novo,Bouaké,Mopti,Kaduna,Nouakchott,Sokodé"
 },
 {
     "name": "Päijänne Tavastia",
@@ -7003,7 +7003,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Päijänne Tavastia,Basse,Banjul,Kaolack,Ziguinchor,Dakar,Bamako,Kano,Bissau,Timbuktu,Korhogo,Kara,Kumasi,Ouagadougou,Bouaké,Bobo-Dioulasso,Gbarnga,Saint-Louis,Zinder,Jalingo,Man,Wa,Koidu,Yamoussoukro,Mopti,Zaria,Kaduna,Maroua"
 },
 {
     "name": "Pechora",
@@ -7012,7 +7012,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Pechora,Garoua,Jalingo,Bouaké,Cotonou,Dakar,Kaolack,Koudougou,Daloa,Lomé,Sokodé,Kara,Accra,Gbarnga,Bamenda,Korhogo,Kaduna,Porto-Novo,Monrovia,Bamako,Maiduguri,Bissau,Parakou,Yamoussoukro,Man,Ouagadougou,Niamey,Bafatá"
 },
 {
     "name": "Pelym",
@@ -7021,7 +7021,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Pelym,Bouaké,Banfora,Bobo-Dioulasso,Kaduna,Daloa,Dakar,Bafatá,Koidu,Kayes,Freetown,Yamoussoukro,Tema,Lomé,Kumasi,Korhogo,Parakou,Gusau,Bamenda,Wa,Timbuktu,Tamale,Porto-Novo,Conakry,Mopti,Kankan,Monrovia,Lafia"
 },
 {
     "name": "Pim",
@@ -7030,7 +7030,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Pim,Bouaké,Bissau,Bamako,Daloa,Dakar,Korhogo,Kano,Timbuktu,Freetown,Lomé,Niamey,Kara,Mopti,Ouagadougou,Cotonou,Tema,Sunyani,Monrovia,Koudougou,Kaduna,Brikama,Wa,Gbarnga,Bauchi,Tamale,Lafia,Assomada"
 },
 {
     "name": "Pite Sami",
@@ -7039,7 +7039,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Pite Sami,Bafatá,Banjul,Bamako,Conakry,Man,Bamenda,Dakar,Lafia,Cotonou,Daloa,Freetown,Bertoua,Tenkodogo,Tambacounda,Lomé,Tamale,Minna,Sunyani,Bissau,Koudougou,Kumasi,Niamey,Maroua,Kumba,Abidjan,Jalingo,Warri"
 },
 {
     "name": "Porvoo",
@@ -7048,7 +7048,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Porvoo,Sokodé,Mopti,Bissau,Bamako,Conakry,Kankan,Man,Freetown,Cacheu,Kara,Korhogo,Timbuktu,Koidu,Parakou,Ziguinchor,Kaolack,Mindelo,Koudougou,Sunyani,Porto-Novo,Niamey,Basse,Yamoussoukro,Bouaké,Ségou,Nouakchott,Thiès"
 },
 {
     "name": "Proto-Hungarian",
@@ -7057,7 +7057,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Proto-Hungarian,Turku,Tallinn,Rovaniemi,Joensuu,Kovylkino,Kotka,Pécs,Romodanovo,Narva,Kozmodemyansk,Ukhta,Oulu,Sernur,Tartu,Syktyvkar,Yoshkar-Ola,Haapsalu,Kuressaare,Budapest,Pärnu,Kovdor,Kuopio,Solikamsk,Kortkeros,Lahti,Tampere,Inta"
 },
 {
     "name": "Proto-Mordvinic",
@@ -7066,7 +7066,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Proto-Mordvinic,Haapsalu,Oulu,Ardatov,Saransk,Romodanovo,Pori,Jyväskylä,Vaasa,Kovylkino,Tartu,Kokkola,Medvedevo,Rakvere,Yusva,Seinäjoki,Narva,Tallinn,Pechora,Szeged,Yoshkar-Ola,Kozmodemyansk,Ruzaevka,Lahti,Berezniki,Joensuu,Usinsk,Turku"
 },
 {
     "name": "Ruija",
@@ -7075,7 +7075,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Ruija,Parakou,Conakry,Banjul,Jalingo,Maroua,Kara,Lomé,Dakar,Koidu,Korhogo,Bertoua,Bamako,Sunyani,Abidjan,Katsina,Saint-Louis,Bauchi,Koudougou,Nzérékoré,Tamale,Sokoto,Gbarnga,Kankan,Mopti,Gusau,Niamey,Wukari"
 },
 {
     "name": "Salaca Livonian",
@@ -7084,7 +7084,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Salaca Livonian,Krasnovishersk,Kortkeros,Haapsalu,Atemar,Vaasa,Pori,Kotka,Narva,Seinäjoki,Helsinki,Tampere,Mikkeli,Kovdor,Chamzinka,Yusva,Miskolc,Ruzaevka,Cherdyn,Morki,Pécs,Krasnoslobodsk,Syktyvkar,Oulu,Zvenigovo,Berezniki,Volzhsk,Apatity"
 },
 {
     "name": "Sea Sami",
@@ -7093,7 +7093,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Sea Sami,Praia,Bamako,Conakry,Kankan,Dakar,Freetown,Nzérékoré,Bissau,Kaolack,Bafatá,Wukari,Abidjan,Yamoussoukro,Sokodé,Basse,Kayes,Lomé,Koudougou,Parakou,Maroua,Sunyani,Daloa,Korhogo,Monrovia,Maiduguri,Ebebiyín,Niamey"
 },
 {
     "name": "Semisjaur-Njarg",
@@ -7102,7 +7102,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Semisjaur-Njarg,Bamako,Cotonou,Basse,Dakar,Kaolack,Jalingo,Kankan,Kumasi,Gbarnga,Lomé,Cacheu,Nouakchott,Lafia,Accra,Koidu,Freetown,Sokoto,Ngaoundéré,Garoua,Bafatá,Bolt,Kayes,Yamoussoukro,Banjul,Parakou,Malabo,Kaduna"
 },
 {
     "name": "Sernur-Morkin",
@@ -7111,7 +7111,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Sernur-Morkin,Bamako,Bertoua,Cotonou,Bouaké,Bobo-Dioulasso,Bamenda,Nouakchott,Kayes,Abidjan,Lomé,Ziguinchor,Praia,Garoua,Sikasso,Kara,Korhogo,Kaolack,Ouagadougou,Bissau,Man,Monrovia,Bolt,Bata,Tema,Sunyani,Jos,Ségou"
 },
 {
     "name": "Serri",
@@ -7120,7 +7120,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Serri,Porto-Novo,Bafoussam,Koidu,Bobo-Dioulasso,Accra,Daloa,Conakry,Korhogo,Jalingo,Kaolack,Sunyani,Kankan,Mopti,Koudougou,Basse,Parakou,Tenkodogo,Nzérékoré,Lafia,Tamale,Saint-Louis,Kano,Monrovia,Niamey,Ségou,Jos,Malabo"
 },
 {
     "name": "Seto",
@@ -7129,7 +7129,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Seto,Conakry,Bissau,Sokodé,Katsina,Dakar,Kankan,Niamey,Korhogo,Sunyani,Abidjan,Kumasi,Kaduna,Accra,Monrovia,Bobo-Dioulasso,Maiduguri,Man,Malabo,Garoua,Daloa,Thiès,Wa,Timbuktu,Zaria,Ségou,Parakou,Kumba"
 },
 {
     "name": "Siberian Finnish",
@@ -7138,7 +7138,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Siberian Finnish,Helsinki,Oulu,Turku,Lahti,Pori,Kajaani,Joensuu,Seinäjoki,Pechora,Ardatov,Kozmodemyansk,Kuopio,Medvedevo,Krasnoslobodsk,Saransk,Romodanovo,Chamzinka,Atemar,Pärnu,Sernur,Haapsalu,Kuressaare,Budapest,Inta,Kovdor,Chusovoi,Morki"
 },
 {
     "name": "Siberian Ingrian Finnish",
@@ -7147,7 +7147,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Siberian Ingrian Finnish,Lahti,Kajaani,Monchegorsk,Oulu,Helsinki,Krasnovishersk,Turku,Kozmodemyansk,Viljandi,Kuopio,Jyväskylä,Rakvere,Mikkeli,Chamzinka,Saransk,Pärnu,Pechora,Syktyvkar,Kokkola,Pécs,Kovylkino,Tartu,Yoshkar-Ola,Berezniki,Joensuu,Vaasa,Nyíregyháza"
 },
 {
     "name": "Sirkas",
@@ -7156,7 +7156,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Sirkas,Accra,Kumasi,Gbarnga,Daloa,Farafenni,Tarrafal,Kaolack,Cotonou,Freetown,Ouagadougou,Bobo-Dioulasso,Koudougou,Kaduna,Tenkodogo,Ngaoundéré,Ziguinchor,Jalingo,Maiduguri,Garoua,Gabú,Thiès,Malabo,Saint-Louis,Monrovia,Tema,Wukari,Parakou"
 },
 {
     "name": "Skolt Sami",
@@ -7165,7 +7165,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Skolt Sami,Accra,Mindelo,Freetown,Abidjan,Timbuktu,Koidu,Kankan,Kara,Monrovia,Katsina,Ziguinchor,Cotonou,Lafia,Bouaké,Kayes,Parakou,Korhogo,Kumasi,Nouakchott,Bertoua,Mopti,Man,Ouagadougou,Jos,Tarrafal,Lomé,Cacheu"
 },
 {
     "name": "Soikkola",
@@ -7174,7 +7174,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Soikkola,Lomé,Bamako,Ziguinchor,Bobo-Dioulasso,Dakar,Conakry,Kankan,Kayes,Daloa,Bolama,Kumasi,Zaria,Freetown,Niamey,Nouakchott,Korhogo,Monrovia,Wa,Saint-Louis,Kumba,Nzérékoré,Ouahigouya,Tema,Abidjan,Maiduguri,Parakou,Minna"
 },
 {
     "name": "Sörkaitum",
@@ -7183,7 +7183,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Sörkaitum,Bamako,Bobo-Dioulasso,Cotonou,Bissau,Daloa,Warri,Conakry,Ouagadougou,Gbarnga,Mopti,Kaduna,Bamenda,Timbuktu,Korhogo,Tema,Yamoussoukro,Nouakchott,Maiduguri,Kaolack,Jalingo,Gabú,Wa,Porto-Novo,Lafia,Niamey,Assomada,Ziguinchor"
 },
 {
     "name": "South Estonian",
@@ -7192,7 +7192,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "South Estonian,Ardatov,Medvedevo,Kajaani,Lahti,Szeged,Haapsalu,Krasnovishersk,Romodanovo,Viljandi,Monchegorsk,Pärnu,Tartu,Joensuu,Pécs,Saransk,Kudymkar,Narva,Zvenigovo,Yoshkar-Ola,Ruzaevka,Kovylkino,Usinsk,Aikino,Cherdyn,Jyväskylä,Kuressaare,Nyíregyháza"
 },
 {
     "name": "South Vagilsk",
@@ -7201,7 +7201,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "South Vagilsk,Bamenda,Katsina,Kaduna,Bafatá,Tambacounda,Bouaké,Man,Daloa,Cacheu,Ziguinchor,Freetown,Kankan,Mopti,Kara,Bamako,Koidu,Maroua,Korhogo,Bauchi,Sokodé,Kumasi,Maiduguri,Ouagadougou,Gusau,Lomé,Jos,Cotonou"
 },
 {
     "name": "Southeastern Finnish",
@@ -7210,7 +7210,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Southeastern Finnish,Helsinki,Pechora,Viljandi,Lahti,Jyväskylä,Kokkola,Rovaniemi,Haapsalu,Kotka,Kajaani,Sernur,Szeged,Ruzaevka,Kovylkino,Nyíregyháza,Kuressaare,Volzhsk,Romodanovo,Turku,Saransk,Joensuu,Morki,Vorkuta,Ukhta,Inta,Yusva,Yoshkar-Ola"
 },
 {
     "name": "Southeastern Tavastian",
@@ -7219,7 +7219,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Southeastern Tavastian,Abidjan,Bouaké,Basse,Nouakchott,Bamako,Bamenda,Koudougou,Katsina,Ouagadougou,Timbuktu,Koidu,Korhogo,Maiduguri,Niamey,Man,Bobo-Dioulasso,Praia,Tambacounda,Gusau,Kayes,Kano,Monrovia,Jalingo,Bertoua,Nzérékoré,Freetown,Ségou"
 },
 {
     "name": "Southern Botnian",
@@ -7228,7 +7228,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Southern Botnian,Accra,Bamako,Katsina,Bobo-Dioulasso,Kaolack,Lafia,Gabú,Kara,Freetown,Korhogo,Monrovia,Kayes,Mopti,Kumasi,Saint-Louis,Parakou,Tambacounda,Wukari,Banfora,Cotonou,Thiès,Kaduna,Ouagadougou,Gbarnga,Assomada,Daloa,Nzérékoré"
 },
 {
     "name": "Southern Karelian",
@@ -7237,7 +7237,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Southern Karelian,Weno,Bandung,Medan,Santo,Suva,Lautoka,Denpasar,Manila,Cebu City,Palikir,Singapore,Honiara,Makassar,Cagayan de Oro,Luganville,George Town,Bacolod,Tulagi,Kota Kinabalu,Ambrym,Shah Alam,Ipoh,Lorengau,Tutong,Peleliu,Epi,Quezon City"
 },
 {
     "name": "Southern Mansi",
@@ -7246,7 +7246,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Southern Mansi,Helsinki,Turku,Oulu,Rovaniemi,Narva,Kokkola,Kajaani,Pécs,Krasnovishersk,Atemar,Haapsalu,Tampere,Seinäjoki,Yoshkar-Ola,Viljandi,Kuressaare,Kovylkino,Pori,Jyväskylä,Vaasa,Murmansk,Usinsk,Solikamsk,Aikino,Inta,Kortkeros,Krasnoslobodsk"
 },
 {
     "name": "Southern Savonian",
@@ -7255,7 +7255,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Southern Savonian,Ziguinchor,Tema,Banjul,Gbarnga,Korhogo,Freetown,Kano,Ségou,Niamey,Mopti,Katsina,Gabú,Maiduguri,Kayes,Zinder,Parakou,Dakar,Tenkodogo,Sunyani,Daloa,Thiès,Yamoussoukro,Kankan,Kaolack,Nzérékoré,Jos,Jalingo"
 },
 {
     "name": "Southern Tavastian",
@@ -7264,7 +7264,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Southern Tavastian,Banjul,Bouaké,Cotonou,Koudougou,Bobo-Dioulasso,Dakar,Natitingou,Praia,Porto-Novo,Jos,Gbarnga,Parakou,Ouagadougou,Kumasi,Nzérékoré,Garoua,Freetown,Maiduguri,Kayes,Yamoussoukro,Conakry,Mopti,Malabo,Farafenni,Niamey,Saint-Louis,Gusau"
 },
 {
     "name": "Southern Veps",
@@ -7273,7 +7273,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Southern Veps,Kokkola,Kajaani,Romodanovo,Kuopio,Tartu,Pori,Joensuu,Mikkeli,Kovdor,Syktyvkar,Lahti,Kirovsk,Saransk,Volzhsk,Jyväskylä,Kuressaare,Viljandi,Vaasa,Haapsalu,Zvenigovo,Nyíregyháza,Vorkuta,Turku,Atemar,Tallinn,Pechora,Helsinki"
 },
 {
     "name": "Svaipa",
@@ -7282,7 +7282,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Svaipa,Lomé,Bissau,Cotonou,Accra,Conakry,Bouaké,Timbuktu,Bolama,Ouagadougou,Sokodé,Korhogo,Niamey,Bamako,Monrovia,Koudougou,Ngaoundéré,Tema,Gabú,Lafia,Tamale,Bafatá,Kano,Malabo,Mindelo,Nzérékoré,Tambacounda,Warri"
 },
 {
     "name": "Sygva",
@@ -7291,7 +7291,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Sygva,Abidjan,Banjul,Daloa,Bouaké,Bamenda,Lomé,Tema,Koidu,Bamako,Tamale,Bauchi,Gbarnga,Nouakchott,Timbuktu,Kayes,Lafia,Saint-Louis,Monrovia,Katsina,Ziguinchor,Man,Korhogo,Buea,Sokodé,Sunyani,Tambacounda,Praia"
 },
 {
     "name": "Székely",
@@ -7300,7 +7300,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Székely,Banjul,Abidjan,Bobo-Dioulasso,Nouakchott,Cotonou,Ségou,Niamey,Lomé,Kaolack,Tamale,Mindelo,Wa,Yola,Nzérékoré,Warri,Kayes,Man,Maiduguri,Garoua,Bouaké,Saint-Louis,Malabo,Jalingo,Sunyani,Zaria,Koudougou,Cacheu"
 },
 {
     "name": "Tagil",
@@ -7309,7 +7309,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Tagil,Banjul,Ségou,Bobo-Dioulasso,Maiduguri,Warri,Niamey,Cotonou,Dakar,Kankan,Korhogo,Kumasi,Sokodé,Jalingo,Kayes,Accra,Kaolack,Saint-Louis,Malabo,Nzérékoré,Man,Thiès,Abidjan,Yamoussoukro,Monrovia,Nouakchott,Koudougou,Porto-Novo"
 },
 {
     "name": "Tartu",
@@ -7318,7 +7318,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Tartu,Basse,Accra,Bissau,Bafatá,Kaolack,Bouaké,Praia,Daloa,Kaduna,Kara,Lomé,Freetown,Kumba,Porto-Novo,Sokodé,Zaria,Ouagadougou,Nzérékoré,Ségou,Sunyani,Thiès,Dakar,Mopti,Nouakchott,Garoua,Bertoua,Gusau"
 },
 {
     "name": "Tavda",
@@ -7327,7 +7327,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Tavda,Bamako,Timbuktu,Daloa,Dakar,Lomé,Bafatá,Kankan,Nouakchott,Bouaké,Man,Assomada,Banjul,Cotonou,Basse,Abidjan,Parakou,Kayes,Lafia,Korhogo,Koudougou,Mopti,Maiduguri,Kano,Monrovia,Zaria,Ziguinchor,Niamey"
 },
 {
     "name": "Taygi",
@@ -7336,7 +7336,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Taygi,Abidjan,Sokodé,Lomé,Bouaké,Bissau,Bobo-Dioulasso,Nouakchott,Daloa,Ouagadougou,Dakar,Koidu,Koudougou,Monrovia,Niamey,Ségou,Mopti,Kumasi,Sunyani,Katsina,Korhogo,Bauchi,Saint-Louis,Malabo,Jalingo,Ziguinchor,Tema,Basse"
 },
 {
     "name": "Ter Sami",
@@ -7345,7 +7345,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Ter Sami,Ebebiyín,Banjul,Bobo-Dioulasso,Conakry,Sunyani,Monrovia,Kumasi,Kaduna,Lomé,Lafia,Accra,Ngaoundéré,Kankan,Mopti,Assomada,Timbuktu,Saint-Louis,Bamako,Cacheu,Bissau,Ouagadougou,Wa,Yamoussoukro,Zinder,Dakar,Minna,Nouakchott"
 },
 {
     "name": "Tisza-Körös",
@@ -7354,7 +7354,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Tisza-Körös,Abidjan,Bamako,Bouaké,Cotonou,Bertoua,Ouagadougou,Maiduguri,Sokodé,Niamey,Koudougou,Gabú,Nouakchott,Basse,Ziguinchor,Bissau,Porto-Novo,Saint-Louis,Tema,Koidu,Lomé,Daloa,Wa,Minna,Ebebiyín,Timbuktu,Sikasso,Natitingou"
 },
 {
     "name": "Tonshaevo",
@@ -7363,7 +7363,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Tonshaevo,Accra,Bissau,Conakry,Bamenda,Ngaoundéré,Cotonou,Kankan,Bafatá,Monrovia,Abidjan,Brikama,Koidu,Katsina,Yola,Bobo-Dioulasso,Timbuktu,Tamale,Malabo,Nzérékoré,Man,Praia,Sunyani,Maroua,Saint-Louis,Niamey,Parakou,Freetown"
 },
 {
     "name": "Torne Valley",
@@ -7372,7 +7372,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Torne Valley,Bouaké,Banjul,Bissau,Daloa,Bobo-Dioulasso,Freetown,Zaria,Kara,Ouagadougou,Kaolack,Gusau,Korhogo,Kankan,Sikasso,Man,Basse,Ségou,Kaduna,Kumasi,Gbarnga,Maiduguri,Sunyani,Parakou,Mopti,Bertoua,Niamey,Tamale"
 },
 {
     "name": "Tundra Enets",
@@ -7381,7 +7381,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Tundra Enets,Tampere,Kokkola,Kuopio,Pécs,Romodanovo,Turku,Mikkeli,Seinäjoki,Joensuu,Yusva,Kotka,Ruzaevka,Krasnovishersk,Jyväskylä,Medvedevo,Atemar,Tartu,Rakvere,Ardatov,Lahti,Krasnoslobodsk,Kuressaare,Kortkeros,Aikino,Győr,Chusovoi,Sernur"
 },
 {
     "name": "Tuorpon",
@@ -7390,7 +7390,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Tuorpon,Daloa,Banjul,Kaduna,Ségou,Dakar,Bouaké,Lomé,Tema,Niamey,Koidu,Ziguinchor,Cotonou,Timbuktu,Gusau,Monrovia,Kumasi,Banfora,Saint-Louis,Korhogo,Man,Nouakchott,Lafia,Kankan,Nzérékoré,Sunyani,Parakou,Mindelo"
 },
 {
     "name": "Turku highlands",
@@ -7399,7 +7399,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Turku highlands,Ziguinchor,Bobo-Dioulasso,Nzérékoré,Bouaké,Bertoua,Freetown,Bolt,Kaolack,Accra,Ouagadougou,Dakar,Bissau,Sokodé,Kara,Praia,Brikama,Kayes,Lomé,Kumasi,Tamale,Garoua,Wa,Sunyani,Zinder,Maiduguri,Jos,Saint-Louis"
 },
 {
     "name": "Tuzha",
@@ -7408,7 +7408,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Tuzha,Abidjan,Ziguinchor,Bobo-Dioulasso,Ouagadougou,Lomé,Daloa,Kaolack,Katsina,Man,Timbuktu,Bouaké,Basse,Bamako,Jalingo,Nzérékoré,Maiduguri,Saint-Louis,Wukari,Sunyani,Tema,Bafatá,Ebebiyín,Ségou,Yamoussoukro,Koidu,Niamey,Sokoto"
 },
 {
     "name": "Tysfjord",
@@ -7417,7 +7417,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Tysfjord,Bouaké,Gbarnga,Timbuktu,Farafenni,Dakar,Bissau,Freetown,Kara,Lomé,Sokodé,Brikama,Kankan,Man,Kumasi,Yamoussoukro,Wukari,Bafatá,Monrovia,Bolt,Koudougou,Maiduguri,Garoua,Malabo,Kumba,Lafia,Tambacounda,Sokoto"
 },
 {
     "name": "Ume Sami",
@@ -7426,7 +7426,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Ume Sami,Conakry,Daloa,Kayes,Gbarnga,Dakar,Ebebiyín,Bertoua,Kara,Bobo-Dioulasso,Man,Basse,Kankan,Mopti,Timbuktu,Tamale,Parakou,Banjul,Kumasi,Korhogo,Sunyani,Niamey,Nzérékoré,Yamoussoukro,Saint-Louis,Zaria,Jos,Bafoussam"
 },
 {
     "name": "Upper Konda",
@@ -7435,7 +7435,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Upper Konda,Jalingo,Bobo-Dioulasso,Tenkodogo,Gbarnga,Daloa,Dakar,Sunyani,Abidjan,Freetown,Thiès,Gusau,Kayes,Tambacounda,Kara,Koidu,Nzérékoré,Mindelo,Ouagadougou,Monrovia,Parakou,Accra,Praia,Kumasi,Farafenni,Wa,Jos,Yamoussoukro"
 },
 {
     "name": "Upper Lozva",
@@ -7444,7 +7444,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Upper Lozva,Bauchi,Freetown,Koidu,Accra,Bamako,Daloa,Maiduguri,Bobo-Dioulasso,Basse,Katsina,Cotonou,Bamenda,Bertoua,Koudougou,Gbarnga,Kankan,Sokodé,Kara,Garoua,Parakou,Ebebiyín,Mopti,Lafia,Kumasi,Lomé,Tamale,Nouakchott"
 },
 {
     "name": "Upper Lupya",
@@ -7453,7 +7453,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Upper Lupya,Bamako,Ziguinchor,Accra,Sokoto,Daloa,Lomé,Praia,Kara,Gbarnga,Korhogo,Gusau,Kayes,Bertoua,Kaduna,Maiduguri,Abidjan,Niamey,Yamoussoukro,Saint-Louis,Tamale,Monrovia,Kaolack,Dakar,Parakou,Zaria,Wukari,Thiès"
 },
 {
     "name": "Upper Sysola",
@@ -7462,7 +7462,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Upper Sysola,Accra,Banjul,Saint-Louis,Mindelo,Jos,Bouaké,Basse,Bissau,Kara,Lomé,Kankan,Cotonou,Bafatá,Kayes,Bobo-Dioulasso,Tema,Garoua,Ségou,Parakou,Wa,Kumasi,Porto-Novo,Korhogo,Monrovia,Bamenda,Lafia,Tenkodogo"
 },
 {
     "name": "Uralic-Yukaghir",
@@ -7471,7 +7471,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Uralic-Yukaghir,Vaasa,Oulu,Kuopio,Kirovsk,Usinsk,Rovaniemi,Mikkeli,Romodanovo,Seinäjoki,Kozmodemyansk,Tartu,Ruzaevka,Murmansk,Kudymkar,Inta,Joensuu,Kandalaksha,Rakvere,Sernur,Saransk,Kuressaare,Yoshkar-Ola,Vorkuta,Atemar,Chamzinka,Aikino,Medvedevo"
 },
 {
     "name": "Uralo-Siberian",
@@ -7480,7 +7480,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Uralo-Siberian,Magadan,Anadyr,Tiksi,Barguzin,Kargasok,Molchanovo,Suntar,Chokurdakh,Olyokminsk,Khatanga,Oymyakon,Anadyr,Beringovsky,Ust-Kamchatsk,Seymchan,Provideniya,Yelizovo,Khandyga,Bilibino,Norilsk,Kolpashevo,Uelen,Snezhnogorsk,Ust-Nera,Esso,Kayerkan,Bely Yar"
 },
 {
     "name": "Vakh",
@@ -7489,7 +7489,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Vakh,Bamako,Bissau,Nouakchott,Conakry,Monrovia,Ouagadougou,Korhogo,Koidu,Jalingo,Koudougou,Daloa,Lomé,Kaolack,Niamey,Katsina,Maiduguri,Mopti,Kara,Yola,Kankan,Gbarnga,Porto-Novo,Yamoussoukro,Praia,Cotonou,Kano,Man"
 },
 {
     "name": "Värmland Savonian",
@@ -7498,7 +7498,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Värmland Savonian,Accra,Kumasi,Wa,Bobo-Dioulasso,Mopti,Cotonou,Sokodé,Kaduna,Kayes,Bamako,Sikasso,Bolama,Tambacounda,Parakou,Monrovia,Korhogo,Bauchi,Bouaké,Sunyani,Maiduguri,Jalingo,Zaria,Malabo,Bafatá,Ségou,Lafia,Cacheu"
 },
 {
     "name": "Vartovskoe",
@@ -7507,7 +7507,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Vartovskoe,Bertoua,Bamako,Bissau,Daloa,Bobo-Dioulasso,Dakar,Jalingo,Gbarnga,Kumasi,Man,Cotonou,Kayes,Kara,Nouakchott,Nzérékoré,Mopti,Koidu,Sikasso,Kaolack,Tamale,Maroua,Basse,Maiduguri,Garoua,Monrovia,Ngaoundéré,Tambacounda"
 },
 {
     "name": "Vasjugan",
@@ -7516,7 +7516,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Vasjugan,Nanjing,Chongqing,Changsha,Fuzhou,Guangzhou,Shenyang,Taoyuan,Hefei,Suzhou,Kaohsiung,Changwon,Pyongyang,Fushun,Daegu,Shanghai,Tumen,Zhongshan,Ürümqi,Lanzhou,Xiamen,Wonsan,Chengdu,Hsinchu,Ansan,Busan,Gwangju,Danchon"
 },
 {
     "name": "Verkhne-Kalimsk",
@@ -7525,7 +7525,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Verkhne-Kalimsk,Abidjan,Bissau,Gbarnga,Ouagadougou,Koidu,Conakry,Dakar,Freetown,Kaolack,Ziguinchor,Katsina,Jalingo,Tambacounda,Ségou,Warri,Korhogo,Sokodé,Koudougou,Kaduna,Lomé,Kumasi,Praia,Tamale,Bobo-Dioulasso,Kano,Kara,Tema"
 },
 {
     "name": "Vishera",
@@ -7534,16 +7534,16 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Vishera,Da Nang,Hat Yai,Phnom Penh,Rach Gia,Can Tho,Naypyidaw,Da Lat,Hue,Quy Nhon,Hanoi,Bangkok,Chiang Mai,Siem Reap,Thakhek,My Tho,Savannakhet,Nakhon Ratchasima,Pakse,Pursat,Xieng Khouang,Guiyang,Vinh,Yangon,Lạng Sơn,Nha Trang,Pathein,Taunggyi"
 },
 {
     "name": "Volga",
-  "i": 200837,
+  "i": 201381,
   "min": 4,
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Volga,Accra,Banjul,Conakry,Bamako,Lomé,Buea,Bamenda,Tema,Freetown,Kankan,Porto-Novo,Katsina,Nzérékoré,Koudougou,Dakar,Ségou,Sunyani,Maiduguri,Kayes,Ebebiyín,Thiès,Nouakchott,Malabo,Niamey,Mopti,Yamoussoukro,Kumba"
 },
 {
     "name": "Vym",
@@ -7552,7 +7552,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Vym,Ziguinchor,Accra,Koudougou,Dakar,Kaolack,Conakry,Daloa,Cotonou,Warri,Bobo-Dioulasso,Brikama,Kayes,Bertoua,Korhogo,Man,Ngaoundéré,Saint-Louis,Maiduguri,Sokodé,Nouakchott,Lomé,Nzérékoré,Ebebiyín,Jalingo,Assomada,Ségou,Sokoto"
 },
 {
     "name": "Western Transdanubian",
@@ -7561,7 +7561,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Western Transdanubian,Dire Dawa,Masaka,Jimma,Gambela,Awasa,Dila,Mizan Teferi,Nairobi,Gondar,Dessie,Mbarara,Malakal,Sodo,Soroti,Nekemte,Yabelo,Kabale,Kitale,Fort Portal,Jinja,Addis Ababa,Garissa,Eldoret,Busia,Robe,Entebbe,Nyala"
 },
 {
     "name": "Western Uusimaa",
@@ -7570,7 +7570,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Western Uusimaa,Daloa,Maroua,Ebebiyín,Conakry,Timbuktu,Dakar,Brikama,Ouagadougou,Nouakchott,Monrovia,Jalingo,Mopti,Accra,Bamenda,Kara,Korhogo,Kaduna,Bamako,Sunyani,Porto-Novo,Jos,Wa,Saint-Louis,Nzérékoré,Zaria,Warri,Cacheu"
 },
 {
     "name": "Western Votic",
@@ -7579,7 +7579,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Western Votic,Joensuu,Oulu,Narva,Jyväskylä,Pori,Rakvere,Monchegorsk,Vaasa,Chamzinka,Krasnovishersk,Tampere,Tallinn,Kozmodemyansk,Krasnoslobodsk,Kuopio,Tartu,Haapsalu,Volzhsk,Sernur,Saransk,Kudymkar,Usinsk,Murmansk,Chusovoi,Kortkeros,Yusva,Atemar"
 },
 {
     "name": "Yaran",
@@ -7588,7 +7588,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Yaran,Bissau,Dakar,Bobo-Dioulasso,Conakry,Accra,Gbarnga,Basse,Jos,Kaolack,Bouaké,Kankan,Korhogo,Koidu,Mindelo,Niamey,Koudougou,Kara,Maiduguri,Bertoua,Tamale,Bolt,Lomé,Yamoussoukro,Sikasso,Ziguinchor,Sunyani,Ouagadougou"
 },
 {
     "name": "Yaransk",
@@ -7597,7 +7597,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Yaransk,Bamako,Banjul,Accra,Bouaké,Ziguinchor,Cotonou,Farafenni,Thiès,Buea,Monrovia,Mindelo,Mopti,Bobo-Dioulasso,Kara,Kayes,Kumasi,Koudougou,Sokodé,Yamoussoukro,Bafatá,Bauchi,Niamey,Freetown,Tambacounda,Nzérékoré,Koidu,Porto-Novo"
 },
 {
     "name": "Yazva",
@@ -7606,7 +7606,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Yazva,Accra,Praia,Bobo-Dioulasso,Parakou,Tamale,Ebebiyín,Conakry,Katsina,Kayes,Korhogo,Maroua,Kankan,Mopti,Tema,Man,Kaolack,Freetown,Monrovia,Bamenda,Bamako,Maiduguri,Kano,Bauchi,Jos,Nzérékoré,Cotonou,Sokoto"
 },
 {
     "name": "Ylä-Satakunta",
@@ -7615,7 +7615,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Ylä-Satakunta,Gbarnga,Accra,Bissau,Lomé,Bouaké,Cotonou,Warri,Kankan,Bamenda,Tema,Timbuktu,Kayes,Bamako,Korhogo,Man,Niamey,Saint-Louis,Koidu,Bata,Maiduguri,Ségou,Monrovia,Zaria,Mopti,Koudougou,Kaduna,Porto-Novo"
 },
 {
     "name": "Yoshkar-Olin",
@@ -7624,7 +7624,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Yoshkar-Olin,Abidjan,Daloa,Nouakchott,Bouaké,Dakar,Cotonou,Kankan,Conakry,Koudougou,Praia,Bissau,Gbarnga,Kaolack,Koidu,Ouagadougou,Tema,Korhogo,Porto-Novo,Niamey,Mopti,Basse,Wa,Warri,Bamenda,Zaria,Nzérékoré,Timbuktu"
 },
 {
     "name": "Yurats",
@@ -7633,7 +7633,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Yurats,Lahti,Joensuu,Helsinki,Syktyvkar,Kozmodemyansk,Rovaniemi,Romodanovo,Vaasa,Kotka,Viljandi,Pécs,Kovylkino,Kajaani,Tampere,Narva,Pärnu,Yoshkar-Ola,Zvenigovo,Pechora,Kirovsk,Sernur,Saransk,Turku,Ardatov,Krasnovishersk,Vorkuta,Cherdyn"
 },
 {
     "name": "Zyuzdino",
@@ -7642,7 +7642,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Zyuzdino,Jalingo,Katsina,Abidjan,Bissau,Bobo-Dioulasso,Gbarnga,Porto-Novo,Dakar,Lomé,Sokodé,Bamenda,Kankan,Lafia,Kaduna,Korhogo,Parakou,Warri,Bertoua,Daloa,Koudougou,Kumba,Tema,Basse,Wukari,Zaria,Tambacounda,Tarrafal"
 },
 {
     "name": "Aas whistled",
@@ -7651,7 +7651,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Aas whistled,Bafatá,Wa,Bobo-Dioulasso,Conakry,Dakar,Bamako,Man,Kara,Kaolack,Daloa,Gbarnga,Basse,Kumasi,Koidu,Sunyani,Ebebiyín,Kankan,Kaduna,Tambacounda,Tamale,Lomé,Mopti,Maiduguri,Niamey,Ségou,Saint-Louis,Nzérékoré"
 },
 {
     "name": "Andalusian Spanish",
@@ -7660,7 +7660,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
+  "b": "Andalusian Spanish,Hamburg,Chur,Malmö,Sion,Bilbao,Marseille,Rome,Waterford,Berlin,Nantes,Palermo,Prague,Oslo,Lisbon,Valencia,Dundalk,Naples,Venice,Liverpool,Plzeň,Nice,London,Zaragoza,Esbjerg,Funchal,Birmingham,Hradec Králové"
 },
 {
     "name": "Anglo-Norman",
@@ -7669,7 +7669,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Anglo-Norman,Niamey,Banjul,Kaolack,Praia,Conakry,Bouaké,Freetown,Dakar,Gbarnga,Korhogo,Bertoua,Kara,Mopti,Kayes,Bobo-Dioulasso,Tambacounda,Saint-Louis,Wa,Basse,Tamale,Lomé,Timbuktu,Kumasi,Nouakchott,Jos,Yola,Mindelo"
 },
 {
     "name": "Béarnese",
@@ -7678,7 +7678,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Béarnese,Accra,Kankan,Bobo-Dioulasso,Conakry,Gbarnga,Bamako,Timbuktu,Kara,Freetown,Sokodé,Kumasi,Ouagadougou,Natitingou,Daloa,Malabo,Katsina,Koidu,Maiduguri,Jos,Niamey,Basse,Mopti,Wa,Thiès,Zaria,Lomé,Zinder"
 },
 {
     "name": "Brianzöö",
@@ -7687,7 +7687,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Brianzöö,Katsina,Bamako,Man,Praia,Ebebiyín,Freetown,Daloa,Kara,Monrovia,Banjul,Porto-Novo,Accra,Mopti,Kaolack,Buea,Tambacounda,Koidu,Zinder,Abidjan,Koudougou,Timbuktu,Zaria,Bafatá,Niamey,Ouagadougou,Jos,Sokodé"
 },
 {
     "name": "Canzés",
@@ -7696,7 +7696,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Canzés,Abidjan,Bissau,Bouaké,Accra,Praia,Koidu,Gbarnga,Nouakchott,Porto-Novo,Katsina,Korhogo,Kaduna,Kaolack,Ouagadougou,Malabo,Sikasso,Basse,Timbuktu,Minna,Man,Kumba,Bamenda,Mopti,Farafenni,Tamale,Tema,Gusau"
 },
 {
     "name": "Castilian Spanish",
@@ -7705,7 +7705,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
+  "b": "Castilian Spanish,Nice,Toulouse,Wroclaw,Linz,Innsbruck,Bilbao,Reykjanesbær,Marseille,Málaga,Liverpool,Seville,Zaragoza,Hamburg,The Hague,Naples,Barcelona,Waterford,Birmingham,Leeds,Bydgoszcz,Tampere,Malmö,Winterthur,Munich,Basel,Aveiro,Stavanger"
 },
 {
     "name": "Castúo",
@@ -7714,7 +7714,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Castúo,Daloa,Ouagadougou,Cotonou,Accra,Jalingo,Conakry,Kano,Dakar,Monrovia,Kankan,Lomé,Gbarnga,Katsina,Sokodé,Praia,Ebebiyín,Gusau,Kaduna,Sunyani,Maiduguri,Garoua,Ziguinchor,Bouaké,Niamey,Abidjan,Nouakchott,Bamako"
 },
 {
     "name": "Cremunés",
@@ -7723,7 +7723,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Cremunés,Abidjan,Bouaké,Bissau,Daloa,Tema,Katsina,Kankan,Banjul,Thiès,Korhogo,Ebebiyín,Bolama,Gusau,Koidu,Ségou,Monrovia,Bafatá,Sokodé,Zaria,Conakry,Ouagadougou,Saint-Louis,Basse,Nouakchott,Gbarnga,Dakar,Tambacounda"
 },
 {
     "name": "Crișana",
@@ -7732,7 +7732,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Crișana,Kankan,Jos,Banjul,Nouakchott,Dakar,Freetown,Accra,Bissau,Kaolack,Daloa,Bamenda,Abidjan,Kayes,Koidu,Koudougou,Korhogo,Tenkodogo,Ouagadougou,Ngaoundéré,Maiduguri,Monrovia,Gusau,Warri,Assomada,Brikama,Tambacounda,Kumba"
 },
 {
     "name": "Franglish",
@@ -7741,7 +7741,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Franglish,Tema,Freetown,Monrovia,Basse,Kaduna,Jalingo,Bamako,Nzérékoré,Kaolack,Garoua,Kumasi,Kankan,Ebebiyín,Kayes,Warri,Katsina,Sokoto,Koudougou,Bissau,Man,Sokodé,Porto-Novo,Cotonou,Niamey,Tamale,Bafatá,Nouakchott"
 },
 {
     "name": "German",
@@ -7750,7 +7750,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
+  "b": "German,Västerås,Wroclaw,Madrid,Sion,Nantes,Liverpool,Leeds,Valencia,Copenhagen,Florence,Cologne,Tampere,Milan,Zaragoza,Frankfurt,Stuttgart,Norrköping,Innsbruck,Bilbao,Seville,Rome,Linz,Birmingham,Glasgow,Esbjerg,Hradec Králové,Olomouc"
 },
 {
     "name": "Icelandic",
@@ -7759,7 +7759,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Icelandic,Tbilisi,Kutaisi,Achkhoy-Martan,Poti,Telavi,Kobuleti,Sukhumi,Gori,Makhachkala,Khasavyurt,Gagra,Ochamchire,Abinsk,Borjomi,Kizilyurt,Samashki,Urus-Martan,Izberbash,Avtury,Slavyansk-na-Kubani,Nalchik,Kaspiysk,Kizlyar,Vladikavkaz,Grozny,Alagir,Adygeysk"
 },
 {
     "name": "Irish",
@@ -7768,7 +7768,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Irish,Bilbao,Krakow,Linz,Palermo,Nantes,Lisbon,Utrecht,Vejle,Naples,Plzeň,Stuttgart,Milan,Bordeaux,Chur,Munich,Berlin,Leipzig,London,Stockholm,Turin,Manchester,Poznan,Zurich,Leeds,Bologna,Oslo,Liberec"
 },
 {
     "name": "Italo-Australian",
@@ -7777,7 +7777,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Italo-Australian,Sydney,Melbourne,Brisbane,Canberra,Fitzroy Crossing,Oodnadatta,Wollongong,Hobart,Wyndham,Mount Isa,Esperance,Newcastle,Geelong,Daly River,Gold Coast,Sunshine Coast,Derby,Kununurra,Karratha,Geraldton,Bunbury,Leigh Creek,Kalkarindji,Albany,Adelaide,Wadeye,Elcho Island"
 },
 {
     "name": "Judeo-Aragonese",
@@ -7786,7 +7786,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Judeo-Aragonese,Liège,Strasbourg,Toulouse,Madrid,Barcelona,Liverpool,Granada,Ghent,Dublin,Bilbao,Fredrikstad,Cork,Düsseldorf,Nice,Locarno,Bern,Bologna,Salzburg,Lucerne,Aveiro,Stockholm,Berlin,Edinburgh,Lyon,Florence,Warsaw,Drammen"
 },
 {
     "name": "Lower Sorbian",
@@ -7795,7 +7795,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Lower Sorbian,Ufa,Moscow,Yekaterinburg,Omsk,Rostov-on-Don,Rijeka,Žilina,Perm,Zaporizhzhia,Chișinău,Kumanovo,Novosibirsk,Baranovichi,Poznań,Kharkiv,Babruysk,Mogilev,Elbląg,Saratov,Stara Zagora,Sofia,Voronezh,Subotica,Tuzla,Plovdiv,Burgas,Banská Bystrica"
 },
 {
     "name": "Maltese Italian",
@@ -7804,7 +7804,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Maltese Italian,Aleppo,Umm Qasr,Aqaba,Nablus,Asyut,Karbala,Irbid,Beirut,Doha,Kirkuk,Basra,Erbil,Khartoum,Muscat,Najaf,Istanbul,Gaza,Kuwait City,Antalya,Mosul,Cairo,Urfa,Salalah,Manama,Gaziantep,Port Said,Diyarbakir"
 },
 {
     "name": "Moldavian",
@@ -7813,7 +7813,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Moldavian,Bissau,Tema,Kankan,Basse,Koidu,Conakry,Bata,Banfora,Nzérékoré,Korhogo,Tarrafal,Maiduguri,Praia,Kara,Freetown,Mopti,Nouakchott,Farafenni,Accra,Sokodé,Kayes,Zaria,Yamoussoukro,Bamako,Kumasi,Jos,Wa,Chisinau,Balti,Cahul,Ungheni,Soroca,Orhei,Hincesti,Comrat,Tiraspol,Bender,Straseni,Riscani,Drochia,Edinet,Briceni,Ocnita,Anenii Noi,Calarasi,Ialoveni,Singerei,Nisporeni,Rezina,Telenesti,Floresti,Soldanesti,Cimislia,Basarabeasca,Taraclia,Cantemir,Leova,Glodeni,Falesti,Criuleni,Dubasari,Grigoriopol,Slobozia,Camenca,Ribnita,Chisinau Nou,Vadul lui Voda,Cricova,Codru,Vatra,Durlesti,Stauceni,Bubuieci,Ciorescu,Bacioi,Colonita,Ghidighici,Budești,Cojusna,Crucea"
 },
 {
     "name": "Molisan",
@@ -7822,7 +7822,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Molisan,Johannesburg,Bloemfontein,East London,Nelspruit,Pretoria,Mafikeng,Vereeniging,Mohale's Hoek,Gweru,Tembisa,Blantyre,Lilongwe,Mzuzu,Welkom,Mmabatho,Kwekwe,Ndola,Harare,Molepolole,Quelimane,Windhoek,Grootfontein,Rustenburg,Livingstone,Qacha's Nek,Mufulira,Kimberley"
 },
 {
     "name": "Monégasque",
@@ -7831,7 +7831,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Monégasque,Kampong Cham,Hat Yai,Lạng Sơn,Sihanoukville,Phan Thiet,Can Tho,Chiang Mai,My Tho,Hue,Surat Thani,Savannakhet,Luang Prabang,Hanoi,Hong Kong,Pakse,Takeo,Mandalay,Xieng Khouang,Phongsali,Wuzhou,Guiyang,Fangchenggang,Battambang,Siem Reap,Khon Kaen,Pursat,Mawlamyine"
 },
 {
     "name": "Moselle Romance",
@@ -7840,7 +7840,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Moselle Romance,Paris,Lyon,Berlin,Nantes,Barcelona,Valencia,Prague,Hradec Králové,Seville,Wroclaw,Ostrava,Liberec,Leeds,Zaragoza,Naples,Milan,Bilbao,Leipzig,Gdansk,Dundalk,Edinburgh,Copenhagen,Frankfurt,Glasgow,Bregenz,Venice,Chur"
 },
 {
     "name": "Old Church Slavonic",
@@ -7849,7 +7849,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Old Church Slavonic,Nizhny Novgorod,Kyiv,Kazan,Chișinău,Saint Petersburg,Moscow,Žilina,Novosibirsk,Vinnytsia,Kumanovo,Stara Zagora,Banská Bystrica,Grodno,Prague,Plovdiv,Orhei,Elbląg,Gomel,Štip,Lviv,Vitebsk,Košice,Nitra,Odesa,Krasnoyarsk,Burgas,Warsaw"
 },
 {
     "name": "Old Prussian",
@@ -7858,7 +7858,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
+  "b": "Old Prussian,Prague,Chelyabinsk,Poznań,Saint Petersburg,Nizhny Novgorod,Samara,Chișinău,Orhei,Omsk,Kyiv,Zenica,Saratov,Perm,Blagoevgrad,Volgograd,Vinnytsia,Łódź,Bratislava,Babruysk,Kraków,Sarajevo,Košice,Zadar,Baranovichi,Mostar,Celje,Varna"
 },
 {
     "name": "Orléanais",
@@ -7867,7 +7867,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Orléanais,Abidjan,Gbarnga,Bertoua,Lomé,Conakry,Tambacounda,Bouaké,Daloa,Kayes,Kara,Jalingo,Man,Mopti,Timbuktu,Cotonou,Korhogo,Katsina,Ouagadougou,Nzérékoré,Zaria,Porto-Novo,Dakar,Bissau,Sunyani,Koidu,Accra,Gusau"
 },
 {
     "name": "Paḷḷuezu",
@@ -7876,7 +7876,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Paḷḷuezu,Tema,Daloa,Cotonou,Bissau,Katsina,Banjul,Man,Warri,Ouagadougou,Porto-Novo,Maiduguri,Kayes,Koudougou,Nouakchott,Bauchi,Mopti,Kaolack,Sikasso,Timbuktu,Sokoto,Thiès,Conakry,Malabo,Bafatá,Mindelo,Saint-Louis,Jalingo"
 },
 {
     "name": "Podlachian",
@@ -7885,7 +7885,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Podlachian,Bamako,Bouaké,Timbuktu,Conakry,Banjul,Dakar,Gusau,Abidjan,Daloa,Kara,Freetown,Ouagadougou,Nzérékoré,Niamey,Sunyani,Maiduguri,Koudougou,Kumasi,Kayes,Ségou,Ebebiyín,Bauchi,Yamoussoukro,Bafatá,Bamenda,Porto-Novo,Sokoto"
 },
 {
     "name": "Polabian",
@@ -7894,7 +7894,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Polabian,Moscow,Babruysk,Ljubljana,Odesa,Ufa,Banská Bystrica,Omsk,Saint Petersburg,Subotica,Perm,Veliko Tarnovo,Poznań,Gomel,Ungheni,Volgograd,Celje,Minsk,Stara Zagora,Mykolaiv,Vitebsk,Warsaw,Saratov,Zrenjanin,Kharkiv,Plovdiv,Yekaterinburg,Sofia"
 },
 {
     "name": "Pomeranian",
@@ -7903,7 +7903,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Pomeranian,Bouaké,Bamako,Tambacounda,Koidu,Warri,Accra,Abidjan,Gbarnga,Freetown,Dakar,Porto-Novo,Kankan,Ebebiyín,Sokodé,Basse,Monrovia,Saint-Louis,Koudougou,Cotonou,Maiduguri,Bauchi,Brikama,Garoua,Bamenda,Praia,Jos,Maroua"
 },
 {
     "name": "Ripuarian (Platt)",
@@ -7912,7 +7912,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Ripuarian (Platt),Dundalk,Liberec,Drogheda,Zaragoza,Barcelona,Stuttgart,Granada,Seville,Örebro,Cologne,Birmingham,Drammen,Hradec Králové,Turin,Munich,Leeds,Copenhagen,Naples,České Budějovice,Krakow,Aarhus,Kolding,Szczecin,Nice,Manchester,Dublin,Florence"
 },
 {
     "name": "Romani",
@@ -7921,7 +7921,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Romani,Malmö,Lyon,Bilbao,Nice,Hamburg,Waterford,Prague,Málaga,Munich,Valencia,Copenhagen,Bydgoszcz,Trondheim,Frankfurt,Liège,Nantes,Warsaw,Dundalk,Leeds,Venice,Florence,Rome,Naples,Randers,Plzeň,Palermo,Leoben"
 },
 {
     "name": "Serbo-Croatian",
@@ -7930,7 +7930,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Serbo-Croatian,Novosibirsk,Odesa,Saint Petersburg,Voronezh,Minsk,Rostov-on-Don,Volgograd,Ufa,Lviv,Szczecin,Krasnoyarsk,Zagreb,Kraków,Vitebsk,Perm,Brest,Kazan,Mogilev,Kharkiv,Omsk,Kumanovo,Sarajevo,Gomel,Žilina,Ungheni,Nitra,Wrocław"
 },
 {
     "name": "Silesian German",
@@ -7939,7 +7939,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
+  "b": "Silesian German,Paris,Toulouse,Warsaw,Liverpool,Ghent,Helsinki,Waterford,Madrid,Granada,Bordeaux,Oslo,Venice,Palermo,Bydgoszcz,Reykjanesbær,Birmingham,Dublin,Leipzig,Kópavogur,Florence,Bern,Málaga,Liège,Leeds,Bilbao,Liberec,Vienna"
 },
 {
     "name": "Slovincian",
@@ -7948,7 +7948,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Slovincian,Bamako,Freetown,Daloa,Ziguinchor,Kaolack,Banjul,Conakry,Sokodé,Bouaké,Korhogo,Bissau,Kayes,Bauchi,Ebebiyín,Praia,Maiduguri,Timbuktu,Lomé,Cotonou,Bobo-Dioulasso,Tamale,Man,Koudougou,Parakou,Monrovia,Tambacounda,Malabo"
 },
 {
     "name": "Spanish",
@@ -7957,7 +7957,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
+  "b": "Spanish,Aveiro,Toulouse,Lyon,Nice,Strasbourg,Palermo,Valencia,Warsaw,Reykjanesbær,Bilbao,Bristol,Munich,Málaga,Dundalk,Wroclaw,Hamburg,Cologne,Naples,Hradec Králové,Milan,Madrid,Liberec,Poznan,Norrköping,Berlin,Turin,Galway"
 },
 {
     "name": "Standard Swedish",
@@ -7966,7 +7966,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Standard Swedish,Lyon,Gdansk,Nice,Strasbourg,Zaragoza,Zurich,Bordeaux,Tampere,Hamburg,Berlin,Chur,Frankfurt,Munich,Naples,Maastricht,Braga,Lausanne,Lucerne,London,Birmingham,Rome,Turin,Liberec,Edinburgh,Plzeň,Leeds,Glasgow"
 },
 {
     "name": "Swabian German",
@@ -7975,7 +7975,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
+  "b": "Swabian German,Copenhagen,Liège,Leoben,Bologna,Hamburg,Seville,Barcelona,Montreux,Bristol,Granada,Marseille,Lyon,Venice,Aveiro,Nantes,Strasbourg,Innsbruck,Milan,Kópavogur,Rome,Örebro,Bilbao,Malmö,Turin,Bruges,Gdansk,Vejle"
 },
 {
     "name": "Swedish (native-speakers subset)",
@@ -7984,7 +7984,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Swedish (native-speakers subset),Strasbourg,Düsseldorf,Lyon,Nice,Granada,Frankfurt,Oslo,Linz,Valencia,Málaga,Munich,Esbjerg,Milan,Poznan,Rome,Florence,Bilbao,Stuttgart,Lucerne,Bristol,Naples,Liberec,Wroclaw,Seville,Bregenz,Funchal,Norrköping"
 },
 {
     "name": "Upper Saxon",
@@ -7993,7 +7993,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Upper Saxon,Zurich,Granada,Liberec,Lyon,Nantes,Dublin,Munich,Salzburg,Toulouse,Milan,Bordeaux,Berlin,Porto,Madrid,Rome,Leipzig,Amadora,Bilbao,Seville,Liège,Västerås,Vejle,Palermo,Lublin,Amsterdam,Plzeň,Stuttgart"
 },
 {
     "name": "Urum",
@@ -8002,7 +8002,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Urum,Barranquilla,Bogotá,Medellín,Cali,Quito,Guayaquil,Huancayo,Portoviejo,Manta,El Alto,Arequipa,Cusco,Oruro,Santo Domingo,Francisco de Orellana,Pereira,Concepción,Londrina,San Ignacio,Mitú,La Paz,Sucre,Ambato,Pedro Juan Caballero,Florencia,Chiclayo,Antofagasta"
 },
 {
     "name": "Valdôtain",
@@ -8011,7 +8011,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Valdôtain,Chiang Mai,Hanoi,Mandalay,Quy Nhon,Nanning,Chiang Rai,Kunming,My Tho,Luang Prabang,Phan Thiet,Vinh,Udon Thani,Savannakhet,Fangchenggang,Pattaya,Takeo,Hai Phong,Xieng Khouang,Pathein,Sihanoukville,Nakhon Ratchasima,Macau,Beihai,Battambang,Khon Kaen,Sơn La,Liuzhou"
 },
 {
     "name": "Walser German",
@@ -8020,7 +8020,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
+  "b": "Walser German,Nice,Toulouse,Lyon,Strasbourg,Hamburg,Rome,Liverpool,Malmö,Drammen,Amsterdam,Manchester,Randers,Bristol,Turin,Edinburgh,Wroclaw,Bilbao,Bydgoszcz,Lucerne,Plzeň,Norrköping,Dundalk,Venice,Gdansk,Waterford,Copenhagen,Innsbruck"
 },
 {
     "name": "West Polesian",
@@ -8029,7 +8029,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "West Polesian,Moscow,Novosibirsk,Sarajevo,Omsk,Volgograd,Babruysk,Saratov,Pančevo,Chișinău,Katowice,Zaporizhzhia,Saint Petersburg,Grodno,Yekaterinburg,Nizhny Novgorod,Vinnytsia,Mykolaiv,Wrocław,Subotica,Bratislava,Sofia,Kumanovo,Lviv,Brno,Tetovo,Zenica,Warsaw"
 },
 {
     "name": "Wisconsin Walloon",
@@ -8038,7 +8038,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Wisconsin Walloon,Limerick,Bydgoszcz,Trondheim,Funchal,Barcelona,Milan,Toulouse,Málaga,Zaragoza,Chur,Stuttgart,Liège,Seville,Glasgow,Gdansk,Florence,Frankfurt,Oulu,Cologne,České Budějovice,Innsbruck,Szczecin,Garðabær,Bologna,Brno,Palermo,Olomouc"
 },
 {
     "name": "Wymysorys",
@@ -8047,7 +8047,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Wymysorys,Bamenda,Accra,Bamako,Nouakchott,Gbarnga,Man,Cotonou,Conakry,Dakar,Mopti,Bouaké,Freetown,Lafia,Katsina,Kumasi,Lomé,Tambacounda,Koudougou,Niamey,Sunyani,Nzérékoré,Ouagadougou,Koidu,Bafatá,Ziguinchor,Kankan,Timbuktu"
 },
 {
     "name": "Yenish",
@@ -8056,7 +8056,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Yenish,Praia,Conakry,Abidjan,Bissau,Daloa,Bamenda,Katsina,Ziguinchor,Kankan,Garoua,Freetown,Maiduguri,Kaolack,Koidu,Nouakchott,Ségou,Cotonou,Koudougou,Bertoua,Accra,Thiès,Porto-Novo,Bauchi,Ouagadougou,Monrovia,Korhogo,Jalingo"
 },
 {
     "name": "Zeelandic",
@@ -8065,7 +8065,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Zeelandic,Achkhoy-Martan,Tbilisi,Gori,Makhachkala,Kobuleti,Akhaltsikhe,Nalchik,Ochamchire,Batumi,Karabulaq,Rustavi,Gagra,Poti,Derbent,Avtury,Khabez,Vladikavkaz,Kizilyurt,Adygeysk,Izberbash,Kaspiysk,Mozdok,Argun,Shali,Slavyansk-na-Kubani,Abinsk,Nartkala"
 },
 {
     "name": "Forro Creole",
@@ -8074,7 +8074,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Forro Creole,Kingston,Brievengat,Portmore,Jacmel,Havana,Cap-Haïtien,Gonaïves,Nassau,Crane,Les Cayes,Port-au-Prince,Fort-Liberté,Cockburn Town,Freeport,Harbour Island,Ocho Ríos,Maho Reef,Point Fortin,West End,Saveta,Dunmore Town,Speightstown,Bridgetown,Oistins,Santa Clara,Port of Spain,Cul de Sac"
 },
 {
     "name": "Principense Creole",
@@ -8083,7 +8083,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Principense Creole,Camagüey,Soto,Spanish Town,Montego Bay,Bridgetown,Harbour Island,Point Fortin,Cap-Haïtien,Port-au-Prince,Les Cayes,Port Antonio,Saint-Marc,West End,Fort-Liberté,Basseterre,Philipsburg,Marsh Harbour,Christ Church,Havana,Andros Town,Chaguanas,Sint Nicolaas,Jacmel,Crane,Kingston,Montaña,Port of Spain"
 },
 {
     "name": "Argobba",
@@ -8092,7 +8092,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Argobba,Abidjan,Timbuktu,Bamako,Ouagadougou,Man,Kaolack,Lomé,Bertoua,Gbarnga,Kankan,Koidu,Sokodé,Koudougou,Korhogo,Farafenni,Zaria,Tenkodogo,Wa,Bissau,Niamey,Tambacounda,Ebebiyín,Yamoussoukro,Porto-Novo,Bouaké,Ziguinchor,Sikasso"
 },
 {
     "name": "Harari",
@@ -8101,7 +8101,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Harari,Banjul,Dakar,Bafatá,Gbarnga,Niamey,Freetown,Kankan,Nzérékoré,Ouahigouya,Minna,Zinder,Wa,Mopti,Abidjan,Man,Mindelo,Kara,Bertoua,Yola,Ngaoundéré,Sokodé,Cotonou,Bata,Daloa,Natitingou,Koudougou,Sikasso"
 },
 {
     "name": "Chagossian Creole",
@@ -8110,7 +8110,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Chagossian Creole,Kingston,Saveta,Point Fortin,Falmouth,Mandeville,Soto,Saint-Marc,Jérémie,Spanish Town,Marsh Harbour,Upper Prince's Quarter,Alice Town,Camagüey,Harbour Island,Arima,West End,Gonaïves,Les Cayes,Crane,Tanki Leendert,Speightstown,Port of Spain,Charlestown,Oistins,Gustavia,Montaña,Willemstad"
 },
 {
     "name": "Mauritian Creole",
@@ -8119,7 +8119,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Mauritian Creole,Mandeville,Portmore,Port-au-Prince,Falmouth,Bridgetown,Jérémie,Brievengat,Jacmel,Harbour Island,Gonaïves,Alice Town,West End,Matanzas,Soto,Marsh Harbour,Cockburn Town,Point Fortin,San Fernando,Hastings,Camagüey,Basseterre,Holguín,Upper Prince's Quarter,Freeport,Kingston,Holetown,Couva"
 },
 {
     "name": "Rodriguan Creole",
@@ -8128,7 +8128,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Rodriguan Creole,Les Cayes,Philipsburg,Ocho Ríos,Mandeville,Maho Reef,Andros Town,Montego Bay,Barber,Nassau,Santa Cruz,Fort-Liberté,Tera Cora,Saint-Marc,Cockburn Town,Oranjestad,Jacmel,Bridgetown,Santa Clara,San Fernando,Tunapuna,Jérémie,Speightstown,Dunmore Town,Christ Church,Freeport,Tortola,Scarborough"
 },
 {
     "name": "Tayo Creole",
@@ -8137,7 +8137,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Tayo Creole,Portmore,Kingston,Ocho Ríos,Cap-Haïtien,Fort-Liberté,Port-au-Prince,Cienfuegos,Alice Town,Saveta,Marsh Harbour,Chaguanas,Dunmore Town,Freeport,Jérémie,Tunapuna,Oistins,San Fernando,Speightstown,Montaña,Santa Cruz,Saint John's,Santa Clara,George Town,Jacmel,Les Cayes,Charlestown,Scarborough"
 },
 {
     "name": "Ch'ol",
@@ -8146,7 +8146,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Ch'ol,Bouaké,Bissau,Gbarnga,Conakry,Banjul,Bamako,Accra,Ouagadougou,Jos,Katsina,Dakar,Kankan,Lomé,Kayes,Korhogo,Parakou,Farafenni,Kaolack,Man,Ngaoundéré,Tambacounda,Sikasso,Mopti,Niamey,Sunyani,Tema,Bobo-Dioulasso"
 },
 {
     "name": "Ch'olti'",
@@ -8155,7 +8155,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Ch'olti',Banjul,Timbuktu,Aconibe,Gbarnga,Zaria,Kayes,Kara,Zinder,Man,Korhogo,Monrovia,Assomada,Yola,Cotonou,Koudougou,Parakou,Saint-Louis,Tenkodogo,Ouagadougou,Maiduguri,Sikasso,Kano,Wukari,Niamey,Freetown,Maroua,Porto-Novo"
 },
 {
     "name": "Itza'",
@@ -8164,7 +8164,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Itza',Parakou,Abidjan,Daloa,Kankan,Accra,Ouagadougou,Mopti,Zaria,Man,Kara,Timbuktu,Kayes,Conakry,Basse,Warri,Korhogo,Dakar,Koidu,Niamey,Tamale,Bobo-Dioulasso,Kaduna,Yamoussoukro,Porto-Novo,Kumasi,Kumba,Nouakchott"
 },
 {
     "name": "Mocho'",
@@ -8173,7 +8173,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Mocho',Accra,Bouaké,Banjul,Bobo-Dioulasso,Dakar,Gbarnga,Kankan,Katsina,Freetown,Nouakchott,Brikama,Kara,Conakry,Kaduna,Korhogo,Kayes,Saint-Louis,Kumba,Jos,Mopti,Ouagadougou,Lomé,Wa,Parakou,Zaria,Monrovia,Sokodé"
 },
 {
     "name": "Mopan",
@@ -8182,7 +8182,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Mopan,Toluca,Chihuahua,Tuxtla Gutiérrez,León,Mexicali,Nogales,Puebla,Campeche,Culiacán,Morelia,Salina Cruz,Guadalajara,Palenque,Mérida,Tlaxcala,Zacatecas,Punta Gorda,Xalapa,Guanajuato,La Ceiba,San Ignacio,San Pedro Sula,Tehuacán,Cuernavaca,Benque Viejo,Córdoba,Tula"
 },
 {
     "name": "Sierra Juarez Zapotec",
@@ -8191,7 +8191,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Sierra Juarez Zapotec,Makassar,Tanna,Kavieng,Muara,Nadi,Majuro,Bacolod,Port Moresby,Kuching,Singapore,Malacca,Shah Alam,George Town,Tutong,Lae,Kuala Lumpur,Kota Kinabalu,Bandar Seri Begawan,Auki,Jerudong,Kuala Belait,Johor Bahru,Cagayan de Oro,Semarang,Sonsorol,Buala,Suva"
 },
 {
     "name": "Tlapanec (Meꞌphaa)",
@@ -8200,7 +8200,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Tlapanec (Meꞌphaa),Koidu,Bouaké,Cotonou,Praia,Bobo-Dioulasso,Gbarnga,Kankan,Bamako,Accra,Bolt,Freetown,Kara,Man,Abidjan,Nzérékoré,Katsina,Ouagadougou,Bamenda,Banjul,Thiès,Ngaoundéré,Maiduguri,Sokodé,Parakou,Minna,Sunyani,Jalingo"
 },
 {
     "name": "Tojol-ab'al",
@@ -8209,7 +8209,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Tojol-ab'al,Abidjan,Banjul,Bouaké,Gbarnga,Bissau,Nouakchott,Kaduna,Daloa,Monrovia,Kankan,Bamenda,Bobo-Dioulasso,Mopti,Sunyani,Lomé,Kumasi,Tambacounda,Sokodé,Garoua,Niamey,Bauchi,Ouagadougou,Koidu,Tema,Man,Conakry,Bafatá"
 },
 {
     "name": "Trique",
@@ -8218,7 +8218,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Trique,Tijuana,Puebla,Tuxtepec,San Ignacio,Juchitán,Morelia,Sololá,Chihuahua,Minatitlán,San Luis Potosí,Tlaxcala,Querétaro,Cobán,Puerto Escondido,Tuxtla Gutiérrez,Ecatepec,Coatzacoalcos,Toluca,Hermosillo,Orizaba,Guadalajara,Oaxaca,Ciudad del Carmen,Veracruz,Totonicapán,Tehuacán,Nogales"
 },
 {
     "name": "Uspantek",
@@ -8227,7 +8227,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Uspantek,Mexico City,Huatulco,San Luis Potosí,León,Querétaro,Ciudad del Carmen,Culiacán,Palizada,Tlaxcala,Toluca,Tuxtla Gutiérrez,Tijuana,Durango,Guanajuato,Chihuahua,Coatzacoalcos,Puerto Escondido,Tuxtla,Tapachula,Guadalajara,San Cristóbal,Cobán,Palenque,Totonicapán,Xalapa,Huehuetenango,Sololá"
 },
 {
     "name": "Assyrian Neo Aramaic",
@@ -8236,7 +8236,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Assyrian Neo Aramaic,Sur,Aqaba,Beirut,Damascus,Zubayr,Deir ez-Zor,Gaza,Byblos,Alexandria,Irbid,Kirkuk,Hama,Salalah,Sulaymaniyah,Istanbul,Jeddah,Nasiriyah,Manama,Izmir,Kuwait City,Mersin,Wadi Halfa,Zarqa,Tehran,Sanaa,Muscat,Karbala"
 },
 {
     "name": "Awsānian",
@@ -8245,7 +8245,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Awsānian,Bamako,Bissau,Lomé,Daloa,Bouaké,Freetown,Ebebiyín,Koudougou,Abidjan,Kaolack,Bafatá,Kayes,Korhogo,Ouagadougou,Bolt,Katsina,Bamenda,Monrovia,Sikasso,Bauchi,Porto-Novo,Ziguinchor,Nouakchott,Buea,Nzérékoré,Niamey,Tambacounda"
 },
 {
     "name": "Baṭḥari",
@@ -8254,7 +8254,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Baṭḥari,Bouaké,Timbuktu,Jos,Ebebiyín,Banjul,Conakry,Zaria,Dakar,Freetown,Kankan,Gbarnga,Tema,Katsina,Kaolack,Porto-Novo,Warri,Kumasi,Man,Niamey,Tamale,Kumba,Nouakchott,Brikama,Parakou,Cacheu,Saint-Louis,Farafenni"
 },
 {
     "name": "Maghrebi Arabic",
@@ -8263,7 +8263,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
+  "b": "Maghrebi Arabic,Aleppo,Amman,Asyut,Aden,Baghdad,Alexandria,Basra,Damascus,Erbil,Gaza,Jeddah,Istanbul,Kirkuk,Homs,Najaf,Manama,Umm Qasr,Zubayr,Nasiriyah,Muscat,Batroun,Kuwait City,Zarqa,Tyre,Jerusalem,Mardin,Ibri"
 },
 {
     "name": "Turoyo",
@@ -8272,7 +8272,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Turoyo,Abidjan,Banjul,Gbarnga,Bouaké,Katsina,Nouakchott,Kaduna,Bertoua,Freetown,Tema,Monrovia,Korhogo,Bissau,Ségou,Kumba,Koidu,Daloa,Timbuktu,Kumasi,Man,Ebebiyín,Parakou,Saint-Louis,Sokodé,Mopti,Basse,Kaolack"
 },
 {
     "name": "Ugaritic",
@@ -8281,7 +8281,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Ugaritic,Irbid,Rustaq,Aqaba,Homs,Jeddah,Doha,Aden,Aleppo,Beirut,Gaza,Damascus,Nasiriyah,Luxor,Tunis,Alexandria,Port Said,Baghdad,Urfa,Deir ez-Zor,Adana,Mersin,Muscat,Sulaymaniyah,Izmir,Salalah,Zubayr,Mosul"
 },
 {
     "name": "Western Egyptian Bedawi Arabic",
@@ -8290,7 +8290,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
+  "b": "Western Egyptian Bedawi Arabic,Doha,Erbil,Aleppo,Nablus,Asyut,Sohar,Amman,Baghdad,Al Hasakah,Homs,Riyadh,Kuwait City,Khartoum,Karbala,Irbid,Sur,Istanbul,Mardin,Manama,Salalah,Ahvaz,Baalbek,Adana,Tabriz,Cairo,Tanta,Umm Qasr"
 },
 {
     "name": "Western Hilali dialects",
@@ -8299,7 +8299,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Western Hilali dialects,Abidjan,Banjul,Bamako,Daloa,Brikama,Bouaké,Sokodé,Cotonou,Freetown,Gusau,Bertoua,Katsina,Man,Lomé,Warri,Parakou,Ouagadougou,Jalingo,Sunyani,Bamenda,Kano,Wa,Mopti,Garoua,Lafia,Tambacounda,Niamey"
 },
 {
     "name": "Western Middle Aramaic",
@@ -8308,7 +8308,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Western Middle Aramaic,Amman,Aden,Byblos,Deir ez-Zor,Asyut,Istanbul,Cairo,Homs,Basra,Erbil,Khartoum,Kirkuk,Gaza,Riyadh,Karbala,Port Said,Wadi Halfa,Irbid,Muscat,Hama,Mosul,Beirut,Sur,Zarqa,Al Hasakah,Najaf,Zgharta"
 },
 {
     "name": "Western pre-Hilali dialects",
@@ -8317,7 +8317,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Western pre-Hilali dialects,Basse,Accra,Bissau,Katsina,Cotonou,Bobo-Dioulasso,Bouaké,Lomé,Ziguinchor,Gbarnga,Koidu,Nzérékoré,Korhogo,Kankan,Jalingo,Kumasi,Praia,Maiduguri,Sunyani,Ebebiyín,Bauchi,Maroua,Daloa,Malabo,Nouakchott,Kaduna,Tambacounda"
 },
 {
     "name": "Yafi'i Arabic",
@@ -8326,7 +8326,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
+  "b": "Yafi'i Arabic,Amman,Jeddah,Beirut,Najaf,Muscat,Irbid,Gaza,Tunis,Sanaa,Homs,Khartoum,Taiz,Antalya,Aden,Karbala,Diyarbakir,Doha,Kuwait City,Sur,Baalbek,Luxor,Al Hasakah,Asyut,Tabriz,Ahvaz,Mardin,Tehran"
 },
 {
     "name": "Yemeni Arabic",
@@ -8335,7 +8335,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
+  "b": "Yemeni Arabic,Doha,Aden,Umm Qasr,Jeddah,Basra,Sanaa,Zarqa,Baghdad,Irbid,Homs,Amman,Damascus,Luxor,Deir ez-Zor,Istanbul,Karbala,Kuwait City,Muscat,Tanta,Nablus,Al Hasakah,Port Said,Antalya,Riyadh,Salalah,Tabriz,Najaf"
 },
 {
     "name": "Zabidi dialect",
@@ -8344,7 +8344,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Zabidi dialect,Kankan,Katsina,Ebebiyín,Dakar,Accra,Conakry,Praia,Koidu,Jos,Korhogo,Kumasi,Niamey,Bertoua,Wa,Man,Daloa,Kara,Malabo,Buea,Bouaké,Kumba,Abidjan,Yamoussoukro,Ziguinchor,Nouakchott,Bissau,Maiduguri"
 },
 {
     "name": "Zakho",
@@ -8353,7 +8353,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Zakho,Timbuktu,Bobo-Dioulasso,Farafenni,Abidjan,Brikama,Sunyani,Dakar,Freetown,Mopti,Kaolack,Kara,Jalingo,Maroua,Korhogo,Katsina,Thiès,Praia,Daloa,Kayes,Niamey,Monrovia,Yola,Parakou,Bissau,Maiduguri,Jos,Zaria"
 },
 {
     "name": "Zay",
@@ -8362,7 +8362,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Zay,Abidjan,Man,Ziguinchor,Dakar,Timbuktu,Tenkodogo,Jalingo,Brikama,Kankan,Freetown,Bertoua,Praia,Tambacounda,Porto-Novo,Maiduguri,Warri,Kaolack,Koudougou,Ségou,Nzérékoré,Monrovia,Buea,Ebebiyín,Saint-Louis,Gbarnga,Kaduna,Thiès"
 },
 {
     "name": "ˀAzd dialect",
@@ -8371,7 +8371,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "ˀAzd dialect,Accra,Bissau,Dakar,Maroua,Lomé,Niamey,Zaria,Daloa,Bobo-Dioulasso,Sikasso,Kara,Kayes,Bata,Koidu,Korhogo,Kumasi,Gusau,Yamoussoukro,Yola,Bertoua,Bafatá,Wa,Man,Nzérékoré,Banjul,Ebebiyín,Sokodé"
 },
 {
     "name": "Algonquian-Basque pidgin",
@@ -8380,7 +8380,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Algonquian-Basque pidgin,Montreal,Cordova,Barrow,Reykjavik,Fort Smith,Sitka,Grants,Kodiak,Prince Rupert,Seward,Smithers,Victoria,Fairbanks,Terrace,Hay River,Nome,Kangerlussuaq,Prince George,Wiseman,Edmonton,Aasiaat,Kotzebue,Barrow,Sisimiut,Wasilla,Los Alamos,Shiprock"
 },
 {
     "name": "American Indian Pidgin English",
@@ -8389,7 +8389,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
+  "b": "American Indian Pidgin English,Dublin,Waterford,Madrid,Randers,Rome,Dundalk,Palermo,Toulouse,Bilbao,Malmö,Stuttgart,Bydgoszcz,Naples,Düsseldorf,Hamburg,Munich,Ostrava,Florence,Berlin,Birmingham,Liberec,Szczecin,Locarno,Esbjerg,Nice,Leoben,Namur"
 },
 {
     "name": "Andaman Creole Hindi",
@@ -8398,7 +8398,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
+  "b": "Andaman Creole Hindi,Rourkela,Jalandhar,Amritsar,Allahabad,Dharan,Chandigarh,Kolkata,Chennai,Coimbatore,Dimapur,Ludhiana,Kohima,Dibrugarh,Guwahati,Jabalpur,Nagpur,Indore,Thiruvananthapuram,Lucknow,Jaipur,Rangpur,Aurangabad,Hyderabad,Jodhpur,Delhi,Kochi,Visakhapatnam"
 },
 {
     "name": "Arabic-Javanese of Klego",
@@ -8407,7 +8407,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
+  "b": "Arabic-Javanese of Klego,Alexandria,Nasiriyah,Zubayr,Port Said,Damascus,Cairo,Umm Qasr,Zgharta,Doha,Kirkuk,Wadi Halfa,Istanbul,Zarqa,Muscat,Najaf,Jerusalem,Sanaa,Byblos,Mosul,Tripoli,Basra,Tanta,Homs,Irbid,Kuwait City,Ahvaz,Urfa"
 },
 {
     "name": "Bolze",
@@ -8416,7 +8416,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Bolze,Bissau,Accra,Bamenda,Tambacounda,Man,Dakar,Koudougou,Kayes,Bouaké,Kankan,Porto-Novo,Bertoua,Tema,Warri,Gbarnga,Lafia,Nouakchott,Praia,Kaolack,Nzérékoré,Abidjan,Wukari,Katsina,Banjul,Ebebiyín,Bobo-Dioulasso,Kano"
 },
 {
     "name": "Borgarmålet",
@@ -8425,7 +8425,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Borgarmålet,Daloa,Bissau,Abidjan,Praia,Ouagadougou,Porto-Novo,Kano,Lomé,Koidu,Koudougou,Tema,Bamenda,Basse,Niamey,Parakou,Accra,Ségou,Mopti,Katsina,Ngaoundéré,Kumba,Bertoua,Bauchi,Tenkodogo,Cotonou,Monrovia,Jos"
 },
 {
     "name": "Bozal Spanish",
@@ -8434,7 +8434,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
+  "b": "Bozal Spanish,Ghent,Berlin,Nice,Warsaw,Madrid,Malmö,Paris,Düsseldorf,Lucerne,Granada,Amsterdam,Málaga,Hradec Králové,Bydgoszcz,Gdansk,London,Bristol,Seville,Naples,The Hague,Aveiro,Poznan,Tromsø,St. Gallen,Krakow,Liverpool,Ostrava"
 },
 {
     "name": "Cappadocian Greek",
@@ -8443,7 +8443,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Cappadocian Greek,Düsseldorf,Paris,Seville,Bordeaux,Madrid,Nice,Toulouse,Klagenfurt,Zaragoza,Bristol,Liberec,Bern,Milan,Munich,Gdansk,Lublin,Ostrava,Liverpool,Pori,Warsaw,Leipzig,Palermo,Barcelona,Turin,Olomouc,Birmingham,Vienna"
 },
 {
     "name": "Cauque Mayan",
@@ -8452,7 +8452,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Cauque Mayan,Mazatlán,Hermosillo,Nogales,Puebla,Morelia,Guanajuato,Puerto Escondido,Corozal,Aguascalientes,Chihuahua,Juchitán,Tuxtla Gutiérrez,Puerto Cortés,Mexico City,Guadalajara,Toluca,Tehuacán,Veracruz,Arriaga,Pinotepa,Tuxtepec,Tlaxcala,Chetumal,San Ignacio,Minatitlán,Huehuetenango,Salina Cruz"
 },
 {
     "name": "Cypriot Maronite-Arabic",
@@ -8461,7 +8461,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
+  "b": "Cypriot Maronite-Arabic,Aqaba,Aleppo,Beirut,Asyut,Alexandria,Urfa,Damascus,Nablus,Izmir,Gaza,Jeddah,Istanbul,Zahle,Sohar,Taiz,Sur,Hama,Adana,Karbala,Mosul,Tunis,Manama,Tyre,Ahvaz,Najaf,Baalbek,Tehran"
 },
 {
     "name": "Duvle-Wano Pidgin",
@@ -8470,7 +8470,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Duvle-Wano Pidgin,Cul de Sac,Maho Reef,Cockburn Town,Ocho Ríos,Bridgetown,Falmouth,Saint-Marc,Port-au-Prince,Oistins,Marsh Harbour,Crane,Freeport,Speightstown,Harbour Island,Point Fortin,Santa Cruz,San Fernando,Dunmore Town,Chaguanas,Hastings,Arima,Holguín,Cienfuegos,Bathsheba,Camagüey,Gonaïves,Scarborough"
 },
 {
     "name": "Français Tirailleur",
@@ -8479,7 +8479,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Français Tirailleur,Bissau,Gbarnga,Bouaké,Conakry,Ségou,Kankan,Koudougou,Timbuktu,Cotonou,Kumasi,Basse,Kaolack,Tamale,Niamey,Kano,Parakou,Nouakchott,Kaduna,Gusau,Sokodé,Bamako,Porto-Novo,Bafatá,Tema,Zaria,Ziguinchor,Monrovia"
 },
 {
     "name": "Haflong Hindi",
@@ -8488,7 +8488,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
+  "b": "Haflong Hindi,Allahabad,Aurangabad,Bhopal,Jabalpur,Chandigarh,Gangtok,Kozhikode,Guwahati,Gwalior,Dimapur,Itanagar,Ghaziabad,Rangpur,Mangalore,Siliguri,Jaipur,Madurai,Thiruvananthapuram,Biratnagar,Panaji,Aizawl,Chennai,Srinagar,Ludhiana,Warangal,Surat,Tiruchirappalli"
 },
 {
     "name": "Hawaiian Pidgin English",
@@ -8497,7 +8497,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
+  "b": "Hawaiian Pidgin English,Marseille,Berlin,Toulouse,Liège,Bydgoszcz,Bordeaux,Malmö,Madrid,Hamburg,Palermo,Stuttgart,Málaga,Milan,Reykjanesbær,Cologne,Liberec,Birmingham,Lisbon,London,Rome,Bregenz,Örebro,Granada,Venice,Gdansk,Plzeň,Winterthur"
 },
 {
     "name": "Inuktitut-English Pidgin",
@@ -8506,7 +8506,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
+  "b": "Inuktitut-English Pidgin,Lyon,Nantes,Rotterdam,Hamburg,Bydgoszcz,Copenhagen,Bologna,Barcelona,Seville,Cologne,Hradec Králové,Munich,Stuttgart,Berlin,Rome,Bilbao,Warsaw,Leipzig,Naples,Madrid,Bordeaux,Vienna,Edinburgh,Aveiro,Norrköping,Turin,Olomouc"
 },
 {
     "name": "Italian Eritrean",
@@ -8515,7 +8515,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Italian Eritrean,Strasbourg,Tampere,Lyon,Granada,Nice,Seville,Paris,Kópavogur,Madrid,Málaga,Turin,Berlin,Zurich,Prague,Trondheim,Waterford,Linz,Ghent,Tromsø,Warsaw,The Hague,Düsseldorf,Liberec,Naples,Hradec Králové,Liverpool,Wroclaw"
 },
 {
     "name": "Javindo",
@@ -8524,7 +8524,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Javindo,Christ Church,Mandeville,Portmore,Cockburn Town,Cap-Haïtien,Port Antonio,Falmouth,Gonaïves,Marsh Harbour,Kingston,Freeport,Alice Town,Holguín,Tera Cora,Holetown,Basseterre,Crane,Gustavia,Saveta,Speightstown,Montaña,Tortola,Cienfuegos,Oistins,Tunapuna,Bridgetown,Paradera"
 },
 {
     "name": "Jersey Dutch",
@@ -8533,7 +8533,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Jersey Dutch,Amsterdam,Nice,London,Berlin,Málaga,Hamburg,Trondheim,Marseille,Stockholm,Valencia,Stuttgart,Reykjanesbær,Paris,Wroclaw,Dublin,Venice,Manchester,Helsinki,Funchal,Edinburgh,Tromsø,Rome,Gothenburg,Szczecin,Randers,Plzeň,Dundalk"
 },
 {
     "name": "KiKAR",
@@ -8542,7 +8542,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "KiKAR,Abidjan,Bissau,Bamako,Bouaké,Lomé,Koidu,Kankan,Gbarnga,Cotonou,Bertoua,Kano,Katsina,Mopti,Nouakchott,Korhogo,Kara,Ebebiyín,Ouagadougou,Sunyani,Nzérékoré,Thiès,Jalingo,Daloa,Maiduguri,Zaria,Ngaoundéré,Warri"
 },
 {
     "name": "Labrador Inuit Pidgin French",
@@ -8551,7 +8551,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
+  "b": "Labrador Inuit Pidgin French,Bilbao,Strasbourg,Toulouse,Plzeň,Salzburg,Bordeaux,Klagenfurt,Madrid,Dublin,Cologne,Milan,Szczecin,Marseille,Liverpool,Stuttgart,Krakow,Düsseldorf,Dundalk,Kolding,Funchal,Bydgoszcz,Poznan,Ostrava,Naples,Bern,Palermo,Aveiro"
 },
 {
     "name": "Loucheux Jargon",
@@ -8560,7 +8560,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Loucheux Jargon,Bouaké,Accra,Bafatá,Bobo-Dioulasso,Timbuktu,Dakar,Ouagadougou,Cotonou,Ziguinchor,Sokodé,Brikama,Lomé,Kaolack,Gusau,Monrovia,Nouakchott,Praia,Maiduguri,Bamako,Bauchi,Koidu,Ségou,Yamoussoukro,Sikasso,Saint-Louis,Kano,Tambacounda"
 },
 {
     "name": "Macanese Patois",
@@ -8569,7 +8569,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Macanese Patois,Mandeville,Kingston,Saint-Marc,Port-au-Prince,Crane,Point Fortin,Lower Prince's Quarter,Cap-Haïtien,Havana,Jérémie,Camagüey,Alice Town,Nassau,Oistins,Les Cayes,Marsh Harbour,Speightstown,Tera Cora,Harbour Island,Bridgetown,Freeport,Holguín,Chaguanas,Scarborough,Cockburn Town,San Fernando,Dunmore Town"
 },
 {
     "name": "Madras Bashai",
@@ -8578,7 +8578,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Madras Bashai,Katsina,Bouaké,Bertoua,Conakry,Bissau,Banjul,Kankan,Accra,Abidjan,Freetown,Cotonou,Kaolack,Daloa,Niamey,Kara,Tambacounda,Kano,Sunyani,Timbuktu,Lomé,Nouakchott,Wa,Porto-Novo,Nzérékoré,Assomada,Maiduguri,Cacheu"
 },
 {
     "name": "Maritime Polynesian Pidgin",
@@ -8587,7 +8587,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Maritime Polynesian Pidgin,Joensuu,Chamzinka,Berezniki,Kuopio,Tartu,Jyväskylä,Kotka,Ruzaevka,Cherdyn,Pärnu,Tampere,Mikkeli,Vorkuta,Tallinn,Kovylkino,Monchegorsk,Atemar,Budapest,Sernur,Rovaniemi,Kortkeros,Saransk,Kirovsk,Kecskemét,Yusva,Haapsalu,Aikino"
 },
 {
     "name": "Mbugu",
@@ -8596,7 +8596,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Mbugu,Abidjan,Bamako,Cotonou,Banjul,Bobo-Dioulasso,Lomé,Gbarnga,Mopti,Koidu,Kaolack,Gusau,Maiduguri,Ségou,Kayes,Sokodé,Nouakchott,Ouagadougou,Koudougou,Garoua,Freetown,Bertoua,Banfora,Yamoussoukro,Conakry,Bolama,Tambacounda,Timbuktu"
 },
 {
     "name": "Media Lengua",
@@ -8605,7 +8605,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Media Lengua,Bouaké,Ziguinchor,Bissau,Banjul,Man,Bobo-Dioulasso,Kano,Daloa,Kumba,Basse,Nouakchott,Nzérékoré,Lafia,Bafatá,Gusau,Koidu,Katsina,Thiès,Bamenda,Niamey,Kaolack,Dakar,Malabo,Tema,Lomé,Mopti,Porto-Novo"
 },
 {
     "name": "Mediterranean Lingua Franca",
@@ -8614,7 +8614,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Mediterranean Lingua Franca,Spanish Town,Saveta,Port-au-Prince,Montego Bay,Nassau,Cul de Sac,Andros Town,Ocho Ríos,Port Antonio,Fort-Liberté,Maho Reef,West End,Havana,Falmouth,Bathsheba,Marsh Harbour,Harbour Island,Holetown,Speightstown,Bridgetown,Kingston,Matanzas,Guantánamo,Oistins,Christ Church,Couva,Tera Cora"
 },
 {
     "name": "Mekeo pidgins",
@@ -8623,7 +8623,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Mekeo pidgins,George Town,Jakarta,Surabaya,Sonsorol,Cebu City,Alotau,Tutong,Cagayan de Oro,Kuala Belait,Bacolod,Makassar,Shah Alam,Ngerulmud,Singapore,Luganville,Bandung,Medan,Muara,Daru,Tulagi,Seria,Suva,Buala,Bangar,Weno,Auki,Denpasar"
 },
 {
     "name": "Michif",
@@ -8632,7 +8632,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Michif,Gbarnga,Lafia,Bamako,Bissau,Kankan,Tambacounda,Abidjan,Daloa,Katsina,Tema,Kumasi,Man,Bouaké,Lomé,Brikama,Mopti,Koidu,Ouagadougou,Sunyani,Wa,Kumba,Dakar,Niamey,Freetown,Nzérékoré,Bertoua,Ségou"
 },
 {
     "name": "Micronesian Pidgin English",
@@ -8641,7 +8641,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
+  "b": "Micronesian Pidgin English,Randers,Strasbourg,Marseille,Paris,Palermo,Trondheim,Toulouse,Madrid,Barcelona,Bilbao,Seville,Florence,Granada,Norrköping,Plzeň,Berlin,Munich,Hamburg,Klagenfurt,Stuttgart,Milan,Leipzig,Warsaw,Graz,Dundalk,Ghent,Tampere"
 },
 {
     "name": "Missingsch",
@@ -8650,7 +8650,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Missingsch,Abidjan,Bissau,Bobo-Dioulasso,Dakar,Daloa,Jalingo,Cotonou,Bamenda,Warri,Tambacounda,Katsina,Kaolack,Koidu,Timbuktu,Maiduguri,Ségou,Bauchi,Basse,Man,Saint-Louis,Monrovia,Porto-Novo,Yamoussoukro,Parakou,Gusau,Tamale,Thiès"
 },
 {
     "name": "Mohawk Dutch",
@@ -8659,7 +8659,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Mohawk Dutch,Marseille,Paris,Florence,Granada,Barcelona,Stavanger,Liverpool,Seville,Stuttgart,Nice,Linköping,Tromsø,Milan,Prague,Munich,Leoben,Faro,Bristol,Düsseldorf,Chur,Turin,Berlin,Szczecin,Lyon,Edinburgh,Dublin,Birmingham"
 },
 {
     "name": "Nagamese",
@@ -8668,7 +8668,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Nagamese,Chamdo,Nyingchi,Weixi,Mangan,Zhongdian,Dali,Trashigang,Xichang,Dali,Deqin,Haldwani,Ngari,Mawlai,Litang,Rhenock,Xichang,Rishikesh,Jakar,Nainital,Singtam,Dalton Ganj,Samdrup Jongkhar,Pithoragarh,Pu'er,Umroi,Yibin,Shigatse"
 },
 {
     "name": "Namibian Black German",
@@ -8677,7 +8677,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
+  "b": "Namibian Black German,Copenhagen,Valencia,Hradec Králové,Bydgoszcz,Granada,Bordeaux,Palermo,Linz,Innsbruck,Cologne,Reykjanesbær,Málaga,Bristol,Randers,Munich,České Budějovice,Ostrava,Glasgow,Nice,Düsseldorf,Norrköping,Liège,Szczecin,Venice,Manchester,Pori,Waterford"
 },
 {
     "name": "Nauru Pidgin English",
@@ -8686,7 +8686,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
+  "b": "Nauru Pidgin English,Trondheim,Düsseldorf,Bilbao,Marseille,Liège,Edinburgh,Berlin,Seville,Frankfurt,Rome,Strasbourg,Liberec,Ghent,Bordeaux,Eindhoven,Bologna,Hamburg,Leoben,Prague,Sion,Florence,Naples,Copenhagen,Lublin,Cork,Manchester,London"
 },
 {
     "name": "Ndyuka-Tiriyó Pidgin",
@@ -8695,7 +8695,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Ndyuka-Tiriyó Pidgin,Mandeville,Port Antonio,Saint-Marc,Fort-Liberté,Basseterre,Montego Bay,Spanish Town,Point Fortin,Les Cayes,Ocho Ríos,Holetown,Maho Reef,Andros Town,Cap-Haïtien,Jacmel,Matanzas,Port-au-Prince,Oistins,Gonaïves,Bridgetown,Montaña,Holguín,Cienfuegos,Crane,Tortola,Alice Town,Bathsheba"
 },
 {
     "name": "Nefamese",
@@ -8704,7 +8704,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Nefamese,Nouakchott,Daloa,Katsina,Tema,Kaolack,Cotonou,Bafatá,Bobo-Dioulasso,Korhogo,Koidu,Freetown,Bafoussam,Man,Ségou,Malabo,Kankan,Bauchi,Monrovia,Mopti,Kayes,Abidjan,Gusau,Koudougou,Kaduna,Lafia,Bamenda,Banfora"
 },
 {
     "name": "Negerhollands",
@@ -8713,7 +8713,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Negerhollands,Kingston,Spanish Town,Portmore,Maho Reef,Gonaïves,Port Antonio,Port-au-Prince,Brievengat,Harbour Island,Santa Clara,Port of Spain,Saint-Marc,Cockburn Town,Jérémie,Bridgetown,Andros Town,West End,Willemstad,Fort-Liberté,Cul de Sac,Dunmore Town,Upper Prince's Quarter,Scarborough,Oistins,Crane,Cienfuegos,Nassau"
 },
 {
     "name": "Negro Dutch",
@@ -8722,7 +8722,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Negro Dutch,Bern,Valencia,Bordeaux,Paris,Strasbourg,Randers,Leipzig,Nice,Hamburg,Berlin,Toulouse,Amsterdam,Ghent,Málaga,Milan,Birmingham,Granada,Glasgow,Stockholm,Turin,Nantes,Uppsala,Cologne,Linz,Reykjanesbær,Bologna,Krakow"
 },
 {
     "name": "Nootka Jargon",
@@ -8731,7 +8731,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Nootka Jargon,Natitingou,Daloa,Timbuktu,Bobo-Dioulasso,Yamoussoukro,Maroua,Korhogo,Ziguinchor,Ouagadougou,Kaolack,Kumasi,Kara,Mopti,Praia,Sikasso,Lafia,Gusau,Nzérékoré,Kankan,Niamey,Zaria,Abidjan,Accra,Mindelo,Bertoua,Jos,Kayes"
 },
 {
     "name": "Oorlams Creole",
@@ -8740,7 +8740,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Oorlams Creole,Montego Bay,Spanish Town,Christ Church,Holetown,Port-au-Prince,Cap-Haïtien,Alice Town,Mandeville,Nassau,Les Cayes,Falmouth,Fort-Liberté,Freeport,Santa Clara,Marsh Harbour,Basseterre,Saint-Marc,Cockburn Town,Arima,Bathsheba,Dunmore Town,Harbour Island,Montaña,Oistins,Sint Nicolaas,Couva,Scarborough"
 },
 {
     "name": "Palenquero",
@@ -8749,7 +8749,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Palenquero,Kingston,Camagüey,Noord,Jacmel,Willemstad,Hastings,Spanish Town,Andros Town,Freeport,Saint-Marc,Harbour Island,Gonaïves,Jérémie,Arima,Mandeville,Cul de Sac,Santiago de Cuba,Montego Bay,Santa Cruz,Soto,Nassau,Holguín,Cienfuegos,Port of Spain,Bridgetown,Christ Church,Bathsheba"
 },
 {
     "name": "Papua New Guinea Pidgin",
@@ -8758,7 +8758,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Papua New Guinea Pidgin,Ocho Ríos,Andros Town,Cap-Haïtien,Spanish Town,Port of Spain,Mandeville,Jérémie,Maho Reef,Montego Bay,Dunmore Town,Camagüey,Freeport,Alice Town,Kingston,Christ Church,Sint Willibrordus,Cul de Sac,Holetown,Portmore,West End,Falmouth,Bridgetown,Les Cayes,Chaguanas,Bathsheba,Sint Nicolaas,Scarborough"
 },
 {
     "name": "Papuan Pidgin English",
@@ -8767,7 +8767,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
+  "b": "Papuan Pidgin English,Mount Hagen,Nomad,Port Moresby,Kokopo,Kavieng,Lorengau,Bulolo,Wewak,Kundiawa,Saidor,Goroka,Madang,Kimbe,Kieta,Wau,Ialibu,Arawa,Morehead,Pangia,Oksapmin,Komo,Wapenamanda,Alotau,Tambul,Nipa,Muglamp,Ramu"
 },
 {
     "name": "Petjo",
@@ -8776,7 +8776,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Petjo,Port Antonio,Port of Spain,Port-au-Prince,Harbour Island,Falmouth,Les Cayes,Crane,Jérémie,Kingston,Point Fortin,Arima,Marsh Harbour,Mandeville,Speightstown,Nassau,Barber,Brievengat,Couva,Maho Reef,Camagüey,Holetown,Philipsburg,Jacmel,Guantánamo,Tunapuna,Charlestown,Oistins"
 },
 {
     "name": "Pidgin Hawaiian",
@@ -8785,7 +8785,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Pidgin Hawaiian,Montego Bay,Port Antonio,Mandeville,Ocho Ríos,Marsh Harbour,Falmouth,Saveta,Port of Spain,Cap-Haïtien,Andros Town,Hato,Jérémie,Speightstown,Havana,Nassau,Dunmore Town,Hastings,Montaña,Portmore,Cockburn Town,Oistins,Matanzas,Chaguanas,Basseterre,Christ Church,Gonaïves,Bathsheba"
 },
 {
     "name": "Pidgin Iha",
@@ -8794,7 +8794,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Pidgin Iha,Matanzas,Brievengat,Falmouth,Jérémie,Cap-Haïtien,Camagüey,Saint-Marc,Nassau,Tera Cora,Gonaïves,Tortola,Cul de Sac,Havana,Crane,Barber,West End,San Fernando,Santiago de Cuba,Harbour Island,Oistins,Freeport,Sint Willibrordus,Basseterre,Port of Spain,Christ Church,Philipsburg,Saveta"
 },
 {
     "name": "Pidgin Ngarluma",
@@ -8803,7 +8803,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Pidgin Ngarluma,Hastings,West End,Port Antonio,Nassau,Port-au-Prince,Oranjestad,Mandeville,Jacmel,Havana,Jérémie,Alice Town,Saint-Marc,Philipsburg,Simpson Bay,Bridgetown,Marsh Harbour,San Fernando,Arima,Crane,Holguín,Harbour Island,Cap-Haïtien,Santa Cruz,Sint Willibrordus,Holetown,Speightstown,Santa Clara"
 },
 {
     "name": "Pidgin Onin",
@@ -8812,7 +8812,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Pidgin Onin,Montego Bay,Kingston,Gonaïves,Cul de Sac,Cockburn Town,Cap-Haïtien,Christ Church,Port Antonio,Oistins,Andros Town,Speightstown,Jérémie,Portmore,Crane,Marsh Harbour,Chaguanas,Alice Town,Dunmore Town,Holetown,Couva,Les Cayes,Arima,Road Town,Scarborough,Tunapuna,Nassau,Oranjestad"
 },
 {
     "name": "Pidgin Wolof",
@@ -8821,7 +8821,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Pidgin Wolof,Saveta,Spanish Town,Harbour Island,Crane,Kingston,Port Antonio,Port-au-Prince,Fort-Liberté,Les Cayes,Holetown,Tanki Leendert,Arima,Friar's Bay,Freeport,West End,Dunmore Town,Cul de Sac,Santa Cruz,Bridgetown,Tunapuna,Camagüey,Matanzas,George Town,Brievengat,Santa Clara,Couva,Paradera"
 },
 {
     "name": "Port Jackson Pidgin English",
@@ -8830,7 +8830,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
+  "b": "Port Jackson Pidgin English,Strasbourg,Vejle,Copenhagen,Valencia,Glasgow,Barcelona,Gothenburg,Cologne,Nantes,Hamburg,Stuttgart,Berlin,Málaga,The Hague,Trondheim,Milan,Palermo,Randers,Lisbon,Utrecht,Turin,Bern,Szczecin,Olomouc,Bordeaux,Tampere,Leipzig"
 },
 {
     "name": "Pretoria Sotho",
@@ -8839,7 +8839,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Pretoria Sotho,Kisumu,Dila,Gambela,Addis Ababa,Dessie,Harar,Masaka,Yei,Debre Markos,Gondar,Wau,Woldia,Khartoum,Arua,Arba Minch,Nyeri,Lira,Yabelo,Bahir Dar,Mizan Teferi,Jinja,Nakuru,Port Sudan,Gulu,Mbale,Kericho,Rumbek"
 },
 {
     "name": "Qoqmoncaq",
@@ -8848,7 +8848,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Qoqmoncaq,Bangkok,Chiang Mai,Chiang Rai,Da Nang,Fangchenggang,Quy Nhon,Sam Neua,Can Tho,Pursat,Phongsali,Rach Gia,Phan Thiet,Naypyidaw,My Tho,Yangon,Thakhek,Vientiane,Luang Prabang,Battambang,Shantou,Kampot,Guilin,Ho Chi Minh City,Surat Thani,Myitkyina,Pathein,Siem Reap"
 },
 {
     "name": "Queensland Kanaka English",
@@ -8857,7 +8857,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
+  "b": "Queensland Kanaka English,Nice,Toulouse,Drammen,Amsterdam,Marseille,Valencia,Glasgow,Barcelona,Berlin,Rome,Malmö,Granada,Chur,Zaragoza,Málaga,Cologne,Munich,Szczecin,Edinburgh,Milan,Leipzig,Madrid,Kolding,Helsinki,Seville,Amadora,Warsaw"
 },
 {
     "name": "Roquetas Pidgin Spanish",
@@ -8866,7 +8866,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
+  "b": "Roquetas Pidgin Spanish,Marseille,Vaasa,Toulouse,Berlin,Barcelona,Bordeaux,Bilbao,Palermo,Hamburg,Innsbruck,Malmö,Granada,Linz,Bologna,Gdansk,London,Birmingham,Naples,Lucerne,Utrecht,Linköping,Poznan,Szczecin,Venice,Brno,Rome,Warsaw"
 },
 {
     "name": "Russenorsk",
@@ -8875,7 +8875,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Russenorsk,Basseterre,Spanish Town,Havana,Ocho Ríos,Cap-Haïtien,Andros Town,Tortola,Freeport,Maho Reef,Jérémie,Holetown,Dunmore Town,Holguín,Cul de Sac,Saveta,Marsh Harbour,Falmouth,Hastings,Chaguanas,Christ Church,Crane,Brievengat,Upper Prince's Quarter,Kingston,Saint-Marc,San Fernando,Alice Town"
 },
 {
     "name": "Samoan Plantation Pidgin",
@@ -8884,7 +8884,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Samoan Plantation Pidgin,Hastings,Mandeville,Portmore,Cap-Haïtien,Oranjestad,Soto,Brievengat,Jérémie,Nassau,Oistins,Santa Cruz,Speightstown,Havana,Fort-Liberté,Andros Town,Ocho Ríos,Tanki Leendert,Holetown,West End,Freeport,Bathsheba,Dunmore Town,Upper Prince's Quarter,Philipsburg,Gonaïves,Matanzas,Tortola"
 },
 {
     "name": "Settler Swahili",
@@ -8893,7 +8893,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
+  "b": "Settler Swahili,Addis Ababa,Gondar,Awasa,Bahir Dar,Lalibela,Gambela,Malakal,Harar,Juba,Masaka,Garissa,Busia,Sodo,Robe,Port Sudan,Negele,Kabale,Arua,Jinja,Gedaref,Nairobi,Kericho,Dila,Yabelo,Thika,Fort Portal,Kisumu"
 },
 {
     "name": "Simplified Italian of Libya",
@@ -8902,7 +8902,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Simplified Italian of Libya,Valencia,Helsinki,Lyon,Nice,Strasbourg,Florence,Wroclaw,Leeds,Palermo,Málaga,Paris,Esbjerg,Milan,Berlin,Bristol,Hamburg,Cologne,Leipzig,Malmö,Liberec,Madrid,Aveiro,Linköping,Naples,Warsaw,Funchal,Norrköping"
 },
 {
     "name": "Simplified Italian of Somalia",
@@ -8911,7 +8911,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Simplified Italian of Somalia,Nantes,Toulouse,Hamburg,Bologna,Barcelona,Cologne,Vaasa,Seville,Marseille,Glasgow,Florence,Málaga,Zaragoza,Prague,Milan,Leipzig,Stuttgart,Naples,Utrecht,Reykjanesbær,Rome,Lucerne,Szczecin,Warsaw,Ostrava,Chur,Olomouc"
 },
 {
     "name": "Skepi Dutch Creole",
@@ -8920,7 +8920,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Skepi Dutch Creole,Düsseldorf,Toulouse,Tampere,Marseille,Nice,Strasbourg,Trondheim,Wroclaw,Seville,Manchester,London,Málaga,Lisbon,Munich,Gdansk,Stuttgart,Reykjanesbær,Frankfurt,Ostrava,Barcelona,Szczecin,Poznan,Bydgoszcz,Florence,Hradec Králové,Birmingham,Edinburgh"
 },
 {
     "name": "Solombala-English",
@@ -8929,7 +8929,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
+  "b": "Solombala-English,Toulouse,Edinburgh,Berlin,Seville,Nantes,Madrid,London,Bilbao,Barcelona,Linköping,Bergen,Helsinki,Málaga,Trondheim,Munich,Copenhagen,Birmingham,Leipzig,Sion,Turin,Bordeaux,Florence,Vejle,Namur,Aalborg,Venice,Chur"
 },
 {
     "name": "Solomon Islands Pijin",
@@ -8938,7 +8938,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Solomon Islands Pijin,Fangchenggang,Savannakhet,Da Lat,Ho Chi Minh City,Hai Phong,Siem Reap,Chiang Mai,Hat Yai,Quy Nhon,Naypyidaw,Rach Gia,Phan Thiet,Luang Prabang,Phnom Penh,Beihai,Surat Thani,Mandalay,Battambang,Hanoi,Takeo,Shantou,Nanning,Can Tho,Sihanoukville,Danzhou,Lạng Sơn,Vinh"
 },
 {
     "name": "Taimyr Pidgin Russian",
@@ -8947,7 +8947,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
+  "b": "Taimyr Pidgin Russian,Da Lat,Ho Chi Minh City,Bangkok,Hue,Can Tho,Pakse,Nha Trang,Luang Prabang,Rach Gia,Pattaya,Savannakhet,Hanoi,Nanning,Kampot,Yangon,Hai Phong,Sam Neua,Pathein,Macau,Vinh,Siem Reap,Kampong Cham,Pursat,Battambang,Kunming,Beihai,Điện Biên Phủ"
 },
 {
     "name": "Tangwang",
@@ -8956,7 +8956,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Tangwang,Bouaké,Banjul,Lomé,Bissau,Daloa,Gbarnga,Kano,Dakar,Jalingo,Korhogo,Katsina,Kumasi,Ouagadougou,Ebebiyín,Warri,Parakou,Conakry,Monrovia,Sokodé,Tamale,Maiduguri,Koidu,Cacheu,Niamey,Timbuktu,Tambacounda,Sokoto"
 },
 {
     "name": "Tansi",
@@ -8965,7 +8965,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Tansi,Koidu,Bamako,Bouaké,Bissau,Kankan,Conakry,Jalingo,Ouagadougou,Monrovia,Freetown,Basse,Sokoto,Porto-Novo,Ségou,Bafatá,Nouakchott,Tenkodogo,Korhogo,Ebebiyín,Maiduguri,Banjul,Wa,Brikama,Nzérékoré,Bamenda,Saint-Louis,Cacheu"
 },
 {
     "name": "Te Parau Tinito",
@@ -8974,7 +8974,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Te Parau Tinito,Bamako,Saint-Louis,Bertoua,Garoua,Bobo-Dioulasso,Katsina,Banjul,Minna,Monrovia,Malabo,Porto-Novo,Kaolack,Yola,Kayes,Tarrafal,Gbarnga,Praia,Koudougou,Sunyani,Parakou,Thiès,Koidu,Jos,Niamey,Banfora,Tambacounda,Cacheu"
 },
 {
     "name": "Tinglish",
@@ -8983,7 +8983,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Tinglish,Bouaké,Tema,Katsina,Lafia,Gbarnga,Tambacounda,Kaduna,Basse,Monrovia,Kara,Porto-Novo,Bobo-Dioulasso,Kankan,Mopti,Maiduguri,Man,Daloa,Wa,Sunyani,Jalingo,Kaolack,Lomé,Yamoussoukro,Kumba,Banfora,Kano,Bamako"
 },
 {
     "name": "Tsotsitaal",
@@ -8992,7 +8992,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Tsotsitaal,Abidjan,Bouaké,Monrovia,Praia,Tenkodogo,Cotonou,Bamako,Freetown,Koudougou,Lomé,Kumasi,Ouagadougou,Gusau,Dakar,Nzérékoré,Bertoua,Mopti,Thiès,Kaolack,Garoua,Tema,Bobo-Dioulasso,Yola,Conakry,Sokodé,Jalingo,Daloa"
 },
 {
     "name": "Unserdeutsch",
@@ -9001,7 +9001,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Unserdeutsch,Mahina,Leone,Bairiki,Saratamata,Avarua,Majuro,Tanaea,Betio,Ebeye,Bikenibeu,Mili,Faleniu,Vaitogi,Kitti,Kwajalein,Jaluit,Vaiaku,Fakaifou,Honolulu,Rongelap,Madolenihmw,Funafuti,Kralendijk,Hilo,Alia,Lelu,Muʻa"
 },
 {
     "name": "Vedda",
@@ -9010,7 +9010,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Vedda,Bamako,Accra,Gbarnga,Bouaké,Bobo-Dioulasso,Conakry,Ouagadougou,Praia,Abidjan,Man,Katsina,Kaolack,Ebebiyín,Ngaoundéré,Kara,Timbuktu,Koudougou,Mopti,Lomé,Maiduguri,Ségou,Monrovia,Maroua,Nzérékoré,Tema,Garoua,Porto-Novo"
 },
 {
     "name": "Waxiang",
@@ -9019,7 +9019,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Waxiang,Lanzhou,Beijing,Harbin,Lhasa,Fuzhou,Guangzhou,Jilin,Nanning,Qingdao,Nanchang,Chongqing,Shanghai,Hsinchu,Wuhan,Xiamen,Zibo,Wonsan,Tianjin,Kaohsiung,Taiyuan,Zhongshan,Daegu,Cheongju,Taipei,Seongnam,Incheon,Goyang"
 },
 {
     "name": "West Greenlandic Pidgin",
@@ -9028,7 +9028,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "West Greenlandic Pidgin,Kaspiysk,Batumi,Kobuleti,Zugdidi,Grozny,Poti,Kizilyurt,Ochamchire,Sukhumi,Karabulaq,Makhachkala,Nalchik,Sighnaghi,Akhaltsikhe,Storozhevaya,Mtskheta,Telavi,Izberbash,Tbilisi,Rustavi,Malgobek,Karachayevsk,Khasavyurt,Gudermes,Kardonikskaya,Shali,Vladikavkaz"
 },
 {
     "name": "Xieheyu",
@@ -9037,7 +9037,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Xieheyu,Bamako,Bamenda,Bobo-Dioulasso,Abidjan,Tamale,Ebebiyín,Gbarnga,Yamoussoukro,Conakry,Sokoto,Man,Kankan,Zaria,Bafatá,Accra,Parakou,Monrovia,Korhogo,Sunyani,Nzérékoré,Maiduguri,Wa,Kara,Niamey,Ouagadougou,Saint-Louis,Bauchi"
 },
 {
     "name": "Beni Snous dialect",
@@ -9046,7 +9046,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Beni Snous dialect,Nouakchott,Bissau,Bamako,Bertoua,Man,Bobo-Dioulasso,Lomé,Ouagadougou,Daloa,Kankan,Koudougou,Kaolack,Mopti,Ségou,Kumasi,Conakry,Koidu,Kayes,Sokodé,Kaduna,Praia,Wa,Gbarnga,Tamale,Bouaké,Dakar,Porto-Novo"
 },
 {
     "name": "Ghadames",
@@ -9055,7 +9055,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Ghadames,Béchar,Algiers,Agadir,Béjaïa,Meknès,Biskra,Constantine,Tiznit,El Jadida,Taroudant,Fès,Ifrane,Erfoud,Oran,Sousse,Bordj Bou Arreridj,Tangier,Sfax,Safi,Blida,Tunis,Sétif,Monastir,Tlemcen,Derna,Bouïra,Guelmim"
 },
 {
     "name": "Iznasen",
@@ -9064,7 +9064,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Iznasen,Safi,Casablanca,Oujda,Béjaïa,Biskra,Rabat,Midelt,Fès,Ifrane,Meknès,Salé,Tizi Ouzou,Médéa,Mostaganem,Tlemcen,Bizerte,Agadir,Taza,Ghardaïa,Bouïra,Tunis,Batna,Gabès,Erfoud,Laayoune,Sétif,Chlef"
 },
 {
     "name": "Kabyle",
@@ -9073,7 +9073,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Kabyle,Mascara,Algiers,El Jadida,Ghardaïa,Tiznit,Blida,Bordj Bou Arreridj,Sfax,Rabat,Sousse,Béchar,Ouargla,Tangier,Marrakech,Agadir,Gabès,Meknès,Sétif,Taroudant,Taza,Biskra,Tlemcen,Casablanca,Aïn Sefra,Dakhla,Ifrane,Guelmim"
 },
 {
     "name": "Shawiya",
@@ -9082,7 +9082,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Shawiya,Agadir,Taroudant,Oujda,Blida,El Jadida,Béjaïa,Béchar,Batna,Oran,Sousse,Tobruk,Tiznit,Marrakech,Meknès,Mostaganem,Mascara,Midelt,Ouargla,Tripoli,Taourirt,Bizerte,Constantine,Ifrane,Bouïra,Derna,Rissani,Misrata"
 },
 {
     "name": "Shilha",
@@ -9091,7 +9091,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Shilha,Erfoud,Batna,Fès,Bizerte,Aïn Sefra,Boujdour,Taourirt,Mostaganem,Kairouan,Rabat,Salé,Oujda,Marrakech,Safi,Misrata,Tunis,Bouïra,Gabès,Saïda,Tiznit,Taza,El Jadida,Azrou,Tangier,Constantine,Tétouan,Guelmim"
 },
 {
     "name": "Siwi",
@@ -9100,7 +9100,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Siwi,Oran,Taroudant,Casablanca,Tiznit,Blida,Batna,Marrakech,Fès,Agadir,Tangier,Sfax,Mostaganem,Meknès,Tétouan,Médéa,Ouargla,Annaba,Oujda,Sétif,Aïn Sefra,Erfoud,Misrata,Derna,Bordj Bou Arreridj,Ifrane,Ghat,Zagora"
 },
 {
     "name": "South Oran and Figuig Berber",
@@ -9109,7 +9109,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "South Oran and Figuig Berber,Algiers,Batna,Misrata,Tizi Ouzou,Benghazi,Agadir,Ghardaïa,El Jadida,Mascara,Béchar,Salé,Médéa,Bizerte,Mostaganem,Constantine,Ouargla,Fès,Tangier,Smara,Taza,Sétif,Casablanca,Boujdour,Taourirt,Saïda,Safi,Tlemcen"
 },
 {
     "name": "Tarifit",
@@ -9118,7 +9118,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Tarifit,Taroudant,Agadir,Oran,Kairouan,Tangier,Tunis,Batna,Biskra,Taza,Béchar,Ghardaïa,Sfax,Smara,Tétouan,Mostaganem,Oujda,Blida,Rabat,Safi,Sétif,Tiznit,Guelmim,Salé,Tlemcen,Constantine,Bouïra,Béjaïa"
 },
 {
     "name": "Tidikelt",
@@ -9127,7 +9127,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Tidikelt,Oran,Houmt Souk,Erfoud,Meknès,Midelt,Fès,Tunis,Constantine,Béchar,Rabat,Taza,Bizerte,Casablanca,Batna,Boujdour,Tétouan,Ghardaïa,Sétif,Saïda,Sousse,Médéa,Mascara,Ouarzazate,Chlef,Aïn Sefra,Essaouira,Sfax"
 },
 {
     "name": "Tuareg Tamasheq",
@@ -9136,7 +9136,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Tuareg Tamasheq,Agadir,Béchar,Béjaïa,Casablanca,El Jadida,Oran,Gabès,Boujdour,Oujda,Erfoud,Tantan,Tunis,Houmt Souk,Ifrane,Sousse,Batna,Biskra,Derna,Saïda,Taourirt,Ouarzazate,Tizi Ouzou,Safi,Zagora,Dakhla,Taza,Médéa"
 },
 {
     "name": "Tugurt",
@@ -9145,7 +9145,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Tugurt,Kankan,Bafatá,Lomé,Bobo-Dioulasso,Kumasi,Parakou,Accra,Ouagadougou,Tema,Korhogo,Porto-Novo,Koidu,Freetown,Bolama,Dakar,Thiès,Conakry,Bouaké,Koudougou,Bissau,Garoua,Mopti,Yamoussoukro,Zinder,Timbuktu,Ziguinchor,Kaduna"
 },
 {
     "name": "Tuwat",
@@ -9154,7 +9154,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Tuwat,Batna,Biskra,Algiers,Fès,Tobruk,Oujda,Mahdia,Taza,Ouargla,Sousse,Benghazi,Mostaganem,Rissani,Agadir,Safi,Tunis,Béjaïa,Béchar,Saïda,Tangier,Bordj Bou Arreridj,Azrou,Constantine,Zagora,Zliten,Aïn Sefra,Tlemcen"
 },
 {
     "name": "Western Algerian Zenatic dialects",
@@ -9163,7 +9163,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Western Algerian Zenatic dialects,Bouaké,Accra,Abidjan,Bamenda,Bobo-Dioulasso,Bauchi,Sokodé,Gbarnga,Kankan,Jalingo,Mopti,Katsina,Nouakchott,Koudougou,Kara,Kayes,Kaolack,Korhogo,Porto-Novo,Niamey,Ngaoundéré,Wa,Lafia,Man,Monrovia,Basse,Nzérékoré"
 },
 {
     "name": "Zurg",
@@ -9172,7 +9172,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Zurg,Katsina,Bissau,Abidjan,Conakry,Man,Freetown,Lomé,Parakou,Monrovia,Kaolack,Koudougou,Mopti,Ouagadougou,Niamey,Nzérékoré,Basse,Bamako,Koidu,Sunyani,Kankan,Gbarnga,Porto-Novo,Ségou,Ebebiyín,Malabo,Lafia,Bouaké"
 },
 {
     "name": "Zuwara Berber",
@@ -9181,7 +9181,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Zuwara Berber,Béchar,Batna,Sfax,Algiers,Houmt Souk,Blida,Safi,El Jadida,Oran,Tiznit,Ghardaïa,Taza,Tizi Ouzou,Oujda,Mostaganem,Ouargla,Bouïra,Dakhla,Erfoud,Rissani,Boujdour,Rabat,Biskra,Tobruk,Agadir,Zagora,Bordj Bou Arreridj"
 },
 {
     "name": "Arapaho",
@@ -9190,7 +9190,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Arapaho,Barrow,Fairbanks,Cordova,Kenai,Attawapiskat,Seward,King Salmon,Laguna,Wiseman,Ilulissat,Kodiak,Dawson Creek,Yellowknife,Montreal,Crownpoint,Norman Wells,Togiak,Inuvik,Kangerlussuaq,Kotzebue,Flagstaff,Reykjavik,Homer,Anchorage,Barrow,Palmer,Chinle"
 },
 {
     "name": "Coast Tsimshian (Sm’algya̱x)",
@@ -9199,7 +9199,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Coast Tsimshian (Sm’algya̱x),Calgary,Montreal,Anchorage,Dillingham,Bethel,Kodiak,Whitehorse,Kenai,Ilulissat,Haines,Vancouver,Dawson Creek,Kotzebue,Cordova,Fort Smith,Aasiaat,Terrace,Smithers,Nome,Sisimiut,Inuvik,Hay River,Kangerlussuaq,Skagway,Sitka,Houston,Palmer"
 },
 {
     "name": "Cochimí",
@@ -9208,7 +9208,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Cochimí,Bafatá,Cotonou,Banjul,Gbarnga,Bamako,Kara,Abidjan,Kano,Bolt,Porto-Novo,Gusau,Tenkodogo,Tambacounda,Koidu,Koudougou,Ouagadougou,Korhogo,Bamenda,Sokodé,Tamale,Man,Wa,Bouaké,Jalingo,Bolama,Maiduguri,Timbuktu"
 },
 {
     "name": "Gwichʼin",
@@ -9217,7 +9217,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Gwichʼin,Bouaké,Katsina,Minna,Gabú,Ouagadougou,Bamenda,Accra,Kara,Monrovia,Lafia,Kayes,Kankan,Tambacounda,Maiduguri,Tema,Parakou,Jalingo,Kaolack,Dakar,Tamale,Niamey,Nzérékoré,Yamoussoukro,Saint-Louis,Ebebiyín,Kano,Bobo-Dioulasso"
 },
 {
     "name": "Hän",
@@ -9226,7 +9226,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Hän,Abidjan,Lomé,Bobo-Dioulasso,Kankan,Bouaké,Sokodé,Man,Gbarnga,Ouagadougou,Koidu,Jalingo,Conakry,Kara,Niamey,Koudougou,Thiès,Saint-Louis,Accra,Bolt,Maiduguri,Ségou,Kumasi,Bamako,Assomada,Timbuktu,Buea,Brikama"
 },
 {
     "name": "Métis French",
@@ -9235,7 +9235,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
+  "b": "Métis French,Berlin,Västerås,Toulouse,Nice,Nantes,Dundalk,Hamburg,Malmö,Brno,Prague,Rome,Granada,Lyon,London,Wroclaw,Warsaw,Paris,Cologne,Liverpool,Frankfurt,Linz,Birmingham,Dublin,Turin,Hradec Králové,Funchal,Valencia"
 },
 {
     "name": "Mi'kmaq",
@@ -9244,7 +9244,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Mi'kmaq,Accra,Timbuktu,Basse,Lomé,Kankan,Freetown,Ngaoundéré,Ziguinchor,Maiduguri,Kara,Conakry,Kumasi,Nouakchott,Daloa,Thiès,Lafia,Saint-Louis,Bamako,Sunyani,Parakou,Ouagadougou,Koidu,Yamoussoukro,Buea,Dakar,Bouaké,Sikasso"
 },
 {
     "name": "Mohave",
@@ -9253,16 +9253,16 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Mohave,Sokodé,Bissau,Bobo-Dioulasso,Praia,Bamako,Gusau,Koidu,Dakar,Man,Lomé,Cotonou,Kaolack,Bouaké,Koudougou,Kara,Kumasi,Tenkodogo,Accra,Garoua,Bertoua,Brikama,Mopti,Jalingo,Saint-Louis,Nouakchott,Monrovia,Lafia"
 },
 {
     "name": "Na-Dene",
-  "i": 201028,
+  "i": 201382,
   "min": 4,
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Na-Dene,Juneau,Fairbanks,Barrow,Cordova,Nome,Prince George,Laguna,Inuvik,Palmer,Montreal,Wiseman,Victoria,Edmonton,Whitehorse,Ottawa,Reykjavik,Kodiak,Grants,Terrace,Haines,Santa Fe,Sitka,Seward,Yellowknife,Anchorage,Aasiaat,Sisimiut"
 },
 {
     "name": "Occaneechi",
@@ -9271,7 +9271,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Occaneechi,Bissau,Praia,Sokodé,Conakry,Man,Gbarnga,Koudougou,Accra,Kankan,Lomé,Ziguinchor,Kaolack,Lafia,Koidu,Parakou,Ségou,Saint-Louis,Kumasi,Nouakchott,Monrovia,Bamako,Korhogo,Buea,Kayes,Abidjan,Kaduna,Nzérékoré"
 },
 {
     "name": "Southern Tepehuan",
@@ -9280,7 +9280,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Southern Tepehuan,Juneau,Nome,Barrow,Skagway,Yellowknife,Sitka,Prince George,Nome,Haines,Dillingham,Vancouver,Fort St. John,Homer,Attawapiskat,Fairbanks,Inuvik,Ilulissat,Santa Fe,Ottawa,Hay River,Flagstaff,Kangerlussuaq,Palmer,Tuba City,Crownpoint,Fort Smith,Taos"
 },
 {
     "name": "Tanacross",
@@ -9289,7 +9289,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Tanacross,Abidjan,Banjul,Daloa,Bissau,Ouagadougou,Cotonou,Timbuktu,Gbarnga,Lomé,Kara,Porto-Novo,Jalingo,Mopti,Man,Nzérékoré,Korhogo,Kumasi,Koidu,Monrovia,Praia,Tema,Gusau,Sokodé,Bauchi,Katsina,Mindelo,Tambacounda"
 },
 {
     "name": "Tłįchǫ",
@@ -9298,7 +9298,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Tłįchǫ,Tarrafal,Bouaké,Koidu,Nzérékoré,Ouagadougou,Kaolack,Kano,Freetown,Accra,Ngaoundéré,Kumasi,Parakou,Mopti,Zaria,Conakry,Korhogo,Saint-Louis,Koudougou,Sokodé,Tamale,Monrovia,Gusau,Yamoussoukro,Bissau,Warri,Jos,Thiès"
 },
 {
     "name": "Ute",
@@ -9307,7 +9307,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Ute,Palmer,Skagway,Ottawa,Prince George,Kotzebue,Seward,Juneau,Vancouver,Yellowknife,Nome,Fairbanks,Victoria,Anchorage,Kenai,Edmonton,Terrace,Calgary,Santa Fe,Bethel,Los Alamos,Dawson Creek,Reykjavik,Nuuk,King Salmon,Ilulissat,Aasiaat,Tuba City"
 },
 {
     "name": "Wiyot",
@@ -9316,7 +9316,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Wiyot,Bethel,Cordova,Skagway,Anchorage,Vancouver,Attawapiskat,Juneau,Victoria,Yellowknife,Ottawa,Reykjavik,Fort Smith,Prince George,Inuvik,Terrace,Palmer,Togiak,Haines,Calgary,Sitka,Edmonton,Crownpoint,Fort St. John,Kotzebue,Nuuk,Qaqortoq,Bethel"
 },
 {
     "name": "Yurok",
@@ -9325,7 +9325,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Yurok,Barrow,Skagway,Prince George,Kotzebue,Fairbanks,Window Rock,Grants,Taos,Yellowknife,Norman Wells,Reykjavik,Ottawa,Vancouver,Seward,Edmonton,Dawson Creek,Kodiak,Nuuk,Fort Smith,Dillingham,Hay River,Crownpoint,Dillingham,Farmington,Barrow,Aasiaat,Juneau"
 },
 {
     "name": "Zuni",
@@ -9334,7 +9334,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Zuni,Attawapiskat,Bethel,Montreal,Inuvik,Kayenta,Kodiak,Fairbanks,Yellowknife,Skagway,Seward,Valdez,Kenai,Calgary,Smithers,Laguna,Prince George,Terrace,Hay River,Whitehorse,Edmonton,Nuuk,Ottawa,Fort Smith,Toronto,Window Rock,Kotzebue,Moose Factory"
 },
 {
     "name": "Alekano",
@@ -9343,7 +9343,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Alekano,Daloa,Banjul,Bobo-Dioulasso,Conakry,Maroua,Kankan,Kaduna,Koudougou,Maiduguri,Bissau,Freetown,Katsina,Ebebiyín,Cotonou,Monrovia,Bertoua,Saint-Louis,Abidjan,Kayes,Kaolack,Kara,Tema,Malabo,Jalingo,Tarrafal,Bamenda,Yamoussoukro"
 },
 {
     "name": "Aneme Wake",
@@ -9352,7 +9352,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Aneme Wake,Lafia,Conakry,Bissau,Accra,Gbarnga,Basse,Kaduna,Nouakchott,Kaolack,Korhogo,Porto-Novo,Maiduguri,Cotonou,Katsina,Man,Garoua,Tenkodogo,Sokodé,Ségou,Wukari,Saint-Louis,Sokoto,Bamako,Zinder,Monrovia,Bafatá,Warri"
 },
 {
     "name": "Ankave",
@@ -9361,7 +9361,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Ankave,Praia,Accra,Kaolack,Bobo-Dioulasso,Bouaké,Kankan,Sokodé,Daloa,Abidjan,Basse,Freetown,Kara,Ouagadougou,Kayes,Lomé,Nouakchott,Jalingo,Koudougou,Bauchi,Man,Kaduna,Saint-Louis,Katsina,Porto-Novo,Zaria,Tambacounda,Thiès"
 },
 {
     "name": "Ari",
@@ -9370,7 +9370,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Ari,Bouaké,Bamako,Praia,Bafatá,Kara,Gusau,Abidjan,Katsina,Monrovia,Banjul,Ouagadougou,Man,Kaolack,Koudougou,Malabo,Dakar,Ségou,Korhogo,Garoua,Sunyani,Niamey,Sokoto,Yola,Accra,Minna,Porto-Novo,Bissau"
 },
 {
     "name": "Asmat–Kamoro",
@@ -9379,7 +9379,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Asmat–Kamoro,Port Moresby,Rabaul,Kokopo,Alotau,Kimbe,Mendi,Mount Hagen,Madang,Buka,Popondetta,Kundiawa,Wewak,Kiunga,Wau,Kaintiba,Wapenamanda,Komo,Kerema,Kieta,Telefomin,Arawa,Nuku,Bulolo,Tari,Morehead,Finschhafen,Ramu"
 },
 {
     "name": "Atayal",
@@ -9388,7 +9388,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Atayal,Bamako,Accra,Cotonou,Praia,Daloa,Lomé,Katsina,Jalingo,Bouaké,Freetown,Thiès,Kaolack,Kankan,Gusau,Korhogo,Bafatá,Kano,Parakou,Mopti,Nzérékoré,Bamenda,Bobo-Dioulasso,Garoua,Ségou,Assomada,Porto-Novo,Tema"
 },
 {
     "name": "Atohwaim (Kaugat)",
@@ -9397,7 +9397,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Atohwaim (Kaugat),Gbarnga,Bissau,Abidjan,Bouaké,Tema,Daloa,Koudougou,Bobo-Dioulasso,Timbuktu,Kaolack,Porto-Novo,Man,Bamako,Niamey,Sokodé,Lafia,Natitingou,Monrovia,Sunyani,Zinder,Mopti,Jalingo,Ségou,Sikasso,Assomada,Tambacounda,Minna"
 },
 {
     "name": "Australian Kriol",
@@ -9406,7 +9406,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Australian Kriol,Melbourne,Canberra,Cairns,Sydney,Katherine,Broken Hill,Hobart,Geelong,Pine Creek,Weipa,Wollongong,Yuendumu,Cooktown,Sunshine Coast,Geraldton,Wadeye,Derby,Elcho Island,Tennant Creek,Nhulunbuy,Newcastle,Daly River,Mount Isa,Milingimbi,Perth,Normanton,Darwin"
 },
 {
     "name": "Auye",
@@ -9415,7 +9415,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Auye,Bouaké,Bamako,Bamenda,Bobo-Dioulasso,Dakar,Basse,Bolt,Freetown,Daloa,Banjul,Kano,Lomé,Gbarnga,Kayes,Korhogo,Ségou,Gusau,Koudougou,Ouagadougou,Warri,Sunyani,Porto-Novo,Yamoussoukro,Parakou,Minna,Monrovia,Jalingo"
 },
 {
     "name": "Becking–Dawi",
@@ -9424,7 +9424,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Becking–Dawi,Praia,Man,Conakry,Bamako,Dakar,Kaduna,Bamenda,Yamoussoukro,Tamale,Abidjan,Kayes,Sokodé,Katsina,Cotonou,Korhogo,Bouaké,Jos,Kumasi,Garoua,Nouakchott,Accra,Wa,Freetown,Niamey,Bobo-Dioulasso,Saint-Louis,Porto-Novo"
 },
 {
     "name": "Budai-Labuan-Taromak Rukai",
@@ -9433,7 +9433,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Budai-Labuan-Taromak Rukai,Bissau,Zaria,Kayes,Conakry,Daloa,Dakar,Man,Lomé,Bobo-Dioulasso,Ouagadougou,Gusau,Kara,Kankan,Koudougou,Koidu,Nzérékoré,Saint-Louis,Basse,Timbuktu,Niamey,Mopti,Wa,Maroua,Parakou,Kumasi,Tambacounda,Bafoussam"
 },
 {
     "name": "Cèmuhî",
@@ -9442,7 +9442,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Cèmuhî,Conakry,Dakar,Nouakchott,Abidjan,Niamey,Bamako,Banjul,Kara,Basse,Korhogo,Bauchi,Gbarnga,Ouagadougou,Yola,Minna,Bissau,Saint-Louis,Nzérékoré,Kumba,Ziguinchor,Kayes,Mopti,Yamoussoukro,Ségou,Accra,Sikasso,Sokoto"
 },
 {
     "name": "Cheke Holo",
@@ -9451,7 +9451,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Cheke Holo,Man,Bamako,Banjul,Bissau,Bobo-Dioulasso,Kankan,Abidjan,Cotonou,Katsina,Freetown,Ouagadougou,Jalingo,Monrovia,Koudougou,Kara,Lafia,Bauchi,Korhogo,Kano,Mopti,Maroua,Lomé,Wa,Garoua,Bouaké,Maiduguri,Tambacounda"
 },
 {
     "name": "Ese Ömie",
@@ -9460,7 +9460,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Ese Ömie,Abidjan,Kaduna,Tema,Bouaké,Timbuktu,Basse,Conakry,Koidu,Freetown,Ziguinchor,Cotonou,Kayes,Kara,Mopti,Ouagadougou,Maiduguri,Monrovia,Buea,Kano,Man,Kumasi,Bertoua,Kaolack,Ebebiyín,Bafoussam,Saint-Louis,Bauchi"
 },
 {
     "name": "Hagen",
@@ -9469,7 +9469,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Hagen,Lae,Lorengau,Goroka,Olsobip,Balimo,Oksapmin,Kavieng,Kieta,Kimbe,Popondetta,Kainantu,Vanimo,Madang,Mendi,Wau,Ambunti,Menyamya,Telefomin,Pangia,Lake Kopiago,Minj,Wapenamanda,Nomad,Ramu,Wewak,Saidor,Bogia"
 },
 {
     "name": "Hoanya",
@@ -9478,7 +9478,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Hoanya,Bouaké,Bissau,Sokodé,Praia,Man,Gbarnga,Ziguinchor,Kara,Dakar,Maiduguri,Ouahigouya,Accra,Monrovia,Brikama,Korhogo,Kano,Ouagadougou,Assomada,Koudougou,Lomé,Basse,Banjul,Saint-Louis,Kankan,Bamako,Freetown,Porto-Novo"
 },
 {
     "name": "Hoia Hoia",
@@ -9487,7 +9487,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Hoia Hoia,Ségou,Bouaké,Katsina,Conakry,Bamenda,Cotonou,Kankan,Kumasi,Gbarnga,Koidu,Bissau,Kaolack,Tamale,Banjul,Ouagadougou,Jalingo,Bauchi,Lomé,Praia,Ziguinchor,Tema,Man,Nouakchott,Niamey,Tarrafal,Bertoua,Nzérékoré"
 },
 {
     "name": "Isbukun Bunun",
@@ -9496,7 +9496,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Isbukun Bunun,Chiang Mai,Bangkok,Hanoi,Nha Trang,Vientiane,Shantou,Hai Phong,Sam Neua,Hue,Quy Nhon,Phan Thiet,Chiang Rai,Bago,Savannakhet,Yangon,Phongsali,Surat Thani,Pakse,My Tho,Mandalay,Danzhou,Fangchenggang,Beihai,Kampot,Khon Kaen,Chiềng Mai,Sanya"
 },
 {
     "name": "Javanese macro entry",
@@ -9505,7 +9505,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Javanese macro entry,Makassar,Luganville,George Town,Cagayan de Oro,Kota Kinabalu,Sonsorol,Munda,Jakarta,Iloilo City,Bandung,Cebu City,Bacolod,Quezon City,Kuching,Jerudong,Tofol,Nadi,Shah Alam,Medan,Kwajalein,Malacca,Tutong,Buala,Kuala Belait,Kirakira,Seria,Tanna,Kudus,Demak,Jepara,Rembang,Tuban,Lamongan,Gresik,Sidoarjo,Mojokerto,Jombang,Nganjuk,Madiun,Ngawi,Ponorogo,Trenggalek,Tulungagung,Blitar,Kediri,Pasuruan,Probolinggo,Lumajang,Jember,Banyuwangi,Bondowoso,Situbondo,Bangkalan,Sampang,Pamekasan,Sumenep,Indramayu,Cirebon,Kuningan,Majalengka,Subang,Purwakarta,Karawang,Bekasi,Tangerang,Serang,Pandeglang,Lebak,Bogor,Sukabumi,Cianjur,Garut,Tasikmalaya,Ciamis,Pangandaran,Banjar,Cilacap,Kebumen,Purworejo,Magelang,Temanggung,Wonosobo,Salatiga,Sragen,Karanganyar,Sukoharjo,Wonogiri,Boyolali,Klaten,Gunung Kidul,Sleman,Bantul,Kulon Progo,Pekalongan,Batang,Pemalang,Tegal,Brebes,Slawi,Weleri,Kendal,Purwodadi,Grobogan,Blora,Pati,Rembang,Jepara"
 },
 {
     "name": "Kaera",
@@ -9514,7 +9514,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Kaera,Bamako,Basse,Ziguinchor,Ouagadougou,Bobo-Dioulasso,Katsina,Bertoua,Conakry,Daloa,Freetown,Monrovia,Kaolack,Ségou,Accra,Korhogo,Mopti,Koidu,Koudougou,Lomé,Nzérékoré,Kano,Kayes,Warri,Niamey,Mindelo,Tambacounda,Bafatá"
 },
 {
     "name": "Kafoa",
@@ -9523,7 +9523,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Kafoa,Abidjan,Bamako,Nouakchott,Timbuktu,Porto-Novo,Man,Cotonou,Maroua,Dakar,Bafatá,Gbarnga,Jalingo,Kumasi,Kaolack,Kayes,Koidu,Monrovia,Koudougou,Ziguinchor,Tamale,Sokodé,Mopti,Bertoua,Tenkodogo,Tema,Bobo-Dioulasso,Bauchi"
 },
 {
     "name": "Kaguel",
@@ -9532,7 +9532,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Kaguel,Ebebiyín,Abidjan,Banjul,Jalingo,Dakar,Cotonou,Sokodé,Daloa,Timbuktu,Katsina,Kankan,Ziguinchor,Kara,Gbarnga,Ségou,Kumasi,Man,Niamey,Kano,Maiduguri,Bobo-Dioulasso,Basse,Conakry,Warri,Saint-Louis,Wa,Sikasso"
 },
 {
     "name": "Kainantu",
@@ -9541,7 +9541,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Kainantu,Madang,Kokopo,Oksapmin,Kieta,Kavieng,Nipa,Tari,Daru,Buka,Port Moresby,Alotau,Kundiawa,Kiunga,Bulolo,Pangia,Arawa,Lorengau,Telefomin,Salamaua,Minj,Lae,Wapenamanda,Aseki,Morehead,Maprik,Ningerum,Kikori"
 },
 {
     "name": "Kalamian",
@@ -9550,7 +9550,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Kalamian,Man,Gbarnga,Basse,Bouaké,Timbuktu,Conakry,Bertoua,Kankan,Bamako,Korhogo,Lomé,Kara,Niamey,Tema,Saint-Louis,Jalingo,Abidjan,Monrovia,Koidu,Accra,Sikasso,Praia,Gusau,Bolama,Ebebiyín,Ziguinchor,Porto-Novo"
 },
 {
     "name": "Kanakanavu",
@@ -9559,7 +9559,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Kanakanavu,Accra,Katsina,Bissau,Lomé,Cotonou,Dakar,Maiduguri,Bafatá,Korhogo,Kaolack,Kankan,Kayes,Freetown,Mopti,Nzérékoré,Bamako,Jos,Nouakchott,Ségou,Kaduna,Thiès,Niamey,Conakry,Ziguinchor,Tarrafal,Sunyani,Porto-Novo"
 },
 {
     "name": "Kawacha",
@@ -9568,7 +9568,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Kawacha,Gbarnga,Banjul,Bouaké,Ebebiyín,Lafia,Timbuktu,Koudougou,Kaolack,Kano,Bertoua,Abidjan,Mopti,Lomé,Jalingo,Yamoussoukro,Kankan,Daloa,Bolama,Koidu,Accra,Tema,Parakou,Praia,Bobo-Dioulasso,Ségou,Tambacounda,Cotonou"
 },
 {
     "name": "Kayagar (Kaygir)",
@@ -9577,7 +9577,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Kayagar (Kaygir),Abidjan,Accra,Bissau,Nouakchott,Brikama,Bobo-Dioulasso,Cotonou,Ouagadougou,Koidu,Kano,Bouaké,Ziguinchor,Kaolack,Bertoua,Monrovia,Kumasi,Korhogo,Jalingo,Gbarnga,Saint-Louis,Man,Basse,Ebebiyín,Sikasso,Lomé,Kaduna,Koudougou"
 },
 {
     "name": "Ke’yagana",
@@ -9586,7 +9586,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Ke’yagana,Beijing,Wonsan,Cheongju,New Taipei,Changwon,Tumen,Lanzhou,Incheon,Shanghai,Ulsan,Kaohsiung,Yanji,Guangzhou,Suzhou,Taipei,Xi'an,Taichung,Hangzhou,Suwon,Zhuhai,Xiamen,Zibo,Yongin,Seoul,Shenyang,Hsinchu,Qingdao"
 },
 {
     "name": "Ketagalan",
@@ -9595,7 +9595,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Ketagalan,Snezhnogorsk,Anadyr,Kozyrevsk,Palana,Petropavlovsk-Kamchatsky,Krivosheino,Chersky,Magadan,Mirny,Zhigansk,Yakutsk,Kadykchan,Anadyr,Novosibirsk,Kargasok,Saskylakh,Seymchan,Molchanovo,Tigil,Myaundzha,Dudinka,Egvekinot,Ust-Kamchatsk,Yelizovo,Bilibino,Turukhansk,Talnakh"
 },
 {
     "name": "Kilivila",
@@ -9604,7 +9604,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Kilivila,Semarang,Jakarta,Peleliu,Kuala Lumpur,Labasa,Cagayan de Oro,Medan,Bacolod,Honiara,Kota Kinabalu,Quezon City,Bandung,Ba,Tutong,Cebu City,Bangar,Johor Bahru,Bandar Seri Begawan,Nadi,Pentecost,Seria,Port Vila,Shah Alam,Buala,Surabaya,Gizo,Kwajalein"
 },
 {
     "name": "Kimaama (Kimaghama)",
@@ -9613,7 +9613,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Kimaama (Kimaghama),Katsina,Bouaké,Bamako,Lomé,Abidjan,Man,Kankan,Conakry,Tema,Ebebiyín,Bissau,Jalingo,Nouakchott,Ouagadougou,Kayes,Korhogo,Tenkodogo,Bertoua,Gbarnga,Kumasi,Kano,Saint-Louis,Zaria,Wukari,Assomada,Tambacounda,Thiès"
 },
 {
     "name": "Kombai–Wanggom",
@@ -9622,7 +9622,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Kombai–Wanggom,Jorthang,Zhaotong,Chamdo,Barkam,Lhasa,Trashigang,Lhokha,Weixi,Xichang,Chuxiong,Leh,Batang,Trongsa,Mianyang,Sarchu,Xichang,Shillong,Melli,Gangtok,Jakar,Thimphu,Kunming,Ngari,Samdrup Jongkhar,Tura,Yibin,Xichong"
 },
 {
     "name": "Kowiai",
@@ -9631,7 +9631,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Kowiai,Bamako,Accra,Abidjan,Tema,Kano,Kumba,Bissau,Dakar,Basse,Katsina,Bolt,Kaolack,Nouakchott,Niamey,Koudougou,Kumasi,Man,Garoua,Sunyani,Porto-Novo,Ségou,Lomé,Wa,Nzérékoré,Warri,Bobo-Dioulasso,Cacheu"
 },
 {
     "name": "Kulon",
@@ -9640,7 +9640,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Kulon,Freetown,Koidu,Accra,Conakry,Jos,Sokodé,Porto-Novo,Kara,Saint-Louis,Abidjan,Warri,Ziguinchor,Bolt,Bafatá,Korhogo,Parakou,Thiès,Bissau,Malabo,Maiduguri,Gabú,Monrovia,Maroua,Nzérékoré,Bobo-Dioulasso,Tambacounda,Sikasso"
 },
 {
     "name": "Kunimaipa",
@@ -9649,7 +9649,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Kunimaipa,Praia,Kumasi,Banjul,Ebebiyín,Katsina,Gusau,Accra,Freetown,Kayes,Man,Conakry,Niamey,Ziguinchor,Sokoto,Basse,Sokodé,Dakar,Malabo,Kaduna,Tamale,Thiès,Wa,Yamoussoukro,Mopti,Zaria,Parakou,Nouakchott"
 },
 {
     "name": "Lowland Iwur",
@@ -9658,7 +9658,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Lowland Iwur,Chongjin,Tianjin,Chongqing,Seoul,Lhasa,Xi'an,Suzhou,Nanning,Zhengzhou,New Taipei,Harbin,Nanjing,Xiamen,Tainan,Changwon,Fuzhou,Ürümqi,Seongnam,Suwon,Zhongshan,Wonsan,Kaohsiung,Chengdu,Yongin,Guangzhou,Danchon,Jinan"
 },
 {
     "name": "Madurese macro entry",
@@ -9667,7 +9667,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Madurese macro entry,Jakarta,Zamboanga,Iloilo City,Denpasar,Ipoh,Kuching,Cagayan de Oro,Bangar,Bandung,Malekula,Suva,Makassar,Semarang,Singapore,Manila,Jerudong,Kota Kinabalu,Muara,Rabaul,Pentecost,Ambrym,Levuka,Palembang,Bandar Seri Begawan,Santo,Tutong,Honiara"
 },
 {
     "name": "Maga-Tona Rukai",
@@ -9676,7 +9676,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Maga-Tona Rukai,Bissau,Tenkodogo,Banjul,Gbarnga,Lafia,Cotonou,Conakry,Dakar,Kara,Kankan,Tarrafal,Mopti,Sokoto,Nouakchott,Nzérékoré,Praia,Kayes,Saint-Louis,Man,Niamey,Assomada,Wa,Yamoussoukro,Zinder,Ebebiyín,Bolama,Kaduna"
 },
 {
     "name": "Mailu",
@@ -9685,7 +9685,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Mailu,Kaduna,Ziguinchor,Kaolack,Nouakchott,Daloa,Bouaké,Kankan,Katsina,Bamako,Niamey,Gbarnga,Kayes,Kumasi,Porto-Novo,Ouagadougou,Koidu,Jalingo,Lomé,Sunyani,Tenkodogo,Bauchi,Mopti,Monrovia,Praia,Assomada,Dakar,Bafatá"
 },
 {
     "name": "Maiwa",
@@ -9694,7 +9694,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Maiwa,Accra,Kaduna,Gbarnga,Conakry,Banfora,Bamako,Dakar,Bafatá,Bertoua,Mopti,Kara,Sokodé,Katsina,Korhogo,Bamenda,Kumasi,Tambacounda,Maiduguri,Ziguinchor,Tenkodogo,Sunyani,Parakou,Yamoussoukro,Monrovia,Niamey,Koidu,Timbuktu"
 },
 {
     "name": "Makalero",
@@ -9703,7 +9703,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Makalero,Naples,Strasbourg,Palermo,Stuttgart,Västerås,Toulouse,Zaragoza,Málaga,Malmö,Dundalk,London,Cologne,Berlin,Milan,Frankfurt,Vienna,Krakow,Uppsala,Bregenz,Aalborg,Manchester,Warsaw,Venice,Glasgow,Brno,Tampere,Bydgoszcz"
 },
 {
     "name": "Makasae",
@@ -9712,7 +9712,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Makasae,Daloa,Bamako,Banjul,Saint-Louis,Katsina,Cotonou,Kankan,Ziguinchor,Dakar,Kumasi,Accra,Kaolack,Jalingo,Zinder,Kayes,Bissau,Tenkodogo,Ngaoundéré,Tema,Sunyani,Thiès,Ebebiyín,Gusau,Kaduna,Bolama,Tambacounda,Ouagadougou,Baucau,Venilale,Lospalos,Lautem,Leuro,Fuiloro,Lore,Iliomar,Com,Laivai,Moro,Luro,Sorel,Baguia,Letemumo,Uatolari,Uatocarbau,Ossu,Soibada,Manatuto,Laclubar,Natarbora,Lacluta,Dili,Cristo Rei,Nain Feto,Vera Cruz,Dom Aleixo,Becora,Hera,Metinaro,Atauro,Tibar,Maubara,Mau-Lafa,Liquica,Bazartete,Ermera,Ainaro,Hato Builico,Maubisse,Turiscai,Fatuberliu,Same,Beto Tauri,Fohorem,Fatululic,Zumalai,Aituto,Cassaitolo,Dare,Viqueque"
 },
 {
     "name": "Makassar",
@@ -9721,7 +9721,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Makassar,Jerudong,Ba,Ipoh,Jakarta,Makassar,Johor Bahru,Tutong,Manila,Sonsorol,Davao,Muara,Cagayan de Oro,Iloilo City,Palembang,Kuala Lumpur,Zamboanga,Lorengau,Kota Kinabalu,Port Moresby,Malacca,Alotau,Shah Alam,Angaur,Bandar Seri Begawan,Buala,Honiara,Seria"
 },
 {
     "name": "Makayam",
@@ -9730,7 +9730,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Makayam,Madang,Wau,Kokopo,Morehead,Kikori,Lake Kopiago,Kaintiba,Menyamya,Okapa,Vanimo,Tari,Kimbe,Kieta,Port Moresby,Lae,Lorengau,Daru,Kerema,Kavieng,Kiunga,Wewak,Ningerum,Buka,Wapenamanda,Nomad,Banz,Bogia"
 },
 {
     "name": "Mandobo",
@@ -9739,7 +9739,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Mandobo,Port Moresby,Lae,Tari,Madang,Kundiawa,Nipa,Aitape,Kavieng,Komo,Kimbe,Nomad,Kieta,Goroka,Popondetta,Mendi,Olsobip,Kerema,Okapa,Maprik,Kiunga,Wau,Tambul,Mount Hagen,Tabubil,Alotau,Kaintiba,Ambunti"
 },
 {
     "name": "Mantauran Rukai",
@@ -9748,7 +9748,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Mantauran Rukai,Maiduguri,Tambacounda,Cotonou,Ouagadougou,Dakar,Freetown,Banjul,Kara,Accra,Bamako,Kaolack,Farafenni,Mopti,Nzérékoré,Tamale,Ziguinchor,Bobo-Dioulasso,Koudougou,Niamey,Gbarnga,Monrovia,Koidu,Kumasi,Zaria,Ségou,Basse,Thiès"
 },
 {
     "name": "Māori",
@@ -9757,7 +9757,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Māori,Bamako,Katsina,Man,Bissau,Sokodé,Bouaké,Conakry,Kayes,Monrovia,Lomé,Kumasi,Kankan,Mopti,Kaolack,Praia,Timbuktu,Ouagadougou,Bamenda,Garoua,Ebebiyín,Maiduguri,Bobo-Dioulasso,Lafia,Porto-Novo,Cotonou,Accra,Bafatá"
 },
 {
     "name": "Mapena",
@@ -9766,7 +9766,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Mapena,Bamako,Koidu,Tambacounda,Lomé,Freetown,Cotonou,Man,Ebebiyín,Mopti,Korhogo,Gusau,Dakar,Bissau,Zaria,Koudougou,Lafia,Kaolack,Banjul,Nouakchott,Timbuktu,Ségou,Kaduna,Daloa,Nzérékoré,Katsina,Jos,Gbarnga"
 },
 {
     "name": "Maria",
@@ -9775,7 +9775,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Maria,Turku,Rovaniemi,Kirovsk,Kuopio,Kokkola,Kotka,Mikkeli,Ruzaevka,Jyväskylä,Joensuu,Haapsalu,Krasnovishersk,Medvedevo,Morki,Tallinn,Pori,Rakvere,Viljandi,Pechora,Inta,Kudymkar,Kozmodemyansk,Syktyvkar,Kovylkino,Berezniki,Tartu,Krasnoslobodsk"
 },
 {
     "name": "Marind",
@@ -9784,7 +9784,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Marind,Kimbe,Bulolo,Madang,Kokopo,Kavieng,Wewak,Popondetta,Ramu,Buka,Oksapmin,Kerowagi,Mendi,Wapenamanda,Kikori,Arawa,Wau,Lorengau,Okapa,Tabubil,Kiunga,Koroba,Kainantu,Telefomin,Olsobip,Morehead,Mount Hagen,Bogia"
 },
 {
     "name": "Maring",
@@ -9793,7 +9793,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Maring,Turku,Pori,Helsinki,Jyväskylä,Lahti,Syktyvkar,Viljandi,Kuopio,Tartu,Joensuu,Kortkeros,Kajaani,Haapsalu,Ardatov,Narva,Mikkeli,Pärnu,Kovylkino,Tallinn,Morki,Szeged,Saransk,Medvedevo,Pechora,Atemar,Romodanovo,Cherdyn"
 },
 {
     "name": "Melanesian Pidgin",
@@ -9802,7 +9802,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Melanesian Pidgin,Kingston,Montego Bay,Nassau,Falmouth,Port Antonio,Ocho Ríos,Bridgetown,Portmore,Holetown,Cul de Sac,Saveta,Saint-Marc,Couva,Jérémie,Fort-Liberté,Freeport,Gonaïves,Harbour Island,Jacmel,Lower Prince's Quarter,Dunmore Town,Santa Cruz,Port of Spain,Cienfuegos,Philipsburg,Alice Town,Crane"
 },
 {
     "name": "Menya",
@@ -9811,7 +9811,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Menya,Koudougou,Kaduna,Kankan,Koidu,Abidjan,Cotonou,Lomé,Bamenda,Maroua,Bobo-Dioulasso,Bouaké,Niamey,Ebebiyín,Dakar,Sokodé,Zaria,Porto-Novo,Monrovia,Gbarnga,Wa,Ziguinchor,Kayes,Bamako,Conakry,Warri,Jos,Sokoto"
 },
 {
     "name": "Mian",
@@ -9820,7 +9820,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Mian,Banfora,Abidjan,Gbarnga,Conakry,Porto-Novo,Nzérékoré,Katsina,Sokodé,Monrovia,Basse,Kumasi,Ebebiyín,Dakar,Niamey,Bafoussam,Wa,Saint-Louis,Mopti,Timbuktu,Tamale,Brikama,Bolama,Man,Bauchi,Maiduguri,Sunyani,Accra"
 },
 {
     "name": "Moikodi",
@@ -9829,7 +9829,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Moikodi,Katsina,Banjul,Cotonou,Sokodé,Timbuktu,Praia,Lomé,Kara,Kano,Maiduguri,Tenkodogo,Kankan,Ouagadougou,Kaolack,Korhogo,Accra,Bissau,Ebebiyín,Nouakchott,Warri,Niamey,Conakry,Gbarnga,Parakou,Daloa,Kaduna,Cacheu"
 },
 {
     "name": "Mombum",
@@ -9838,7 +9838,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Mombum,Muglamp,Balimo,Kokopo,Wewak,Daru,Port Moresby,Wau,Nipa,Buka,Popondetta,Ramu,Rabaul,Kerema,Kiunga,Mendi,Mount Hagen,Salamaua,Kiunga,Kainantu,Pangia,Tabubil,Telefomin,Kavieng,Kikori,Morehead,Arawa,Ialibu"
 },
 {
     "name": "Momina",
@@ -9847,7 +9847,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Momina,Daloa,Maroua,Bafoussam,Kayes,Man,Conakry,Kankan,Freetown,Banjul,Mopti,Korhogo,Bafatá,Bobo-Dioulasso,Bamako,Nzérékoré,Nouakchott,Wukari,Zaria,Brikama,Niamey,Dakar,Banfora,Malabo,Thiès,Accra,Tambacounda,Timbuktu"
 },
 {
     "name": "Momuna",
@@ -9856,7 +9856,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Momuna,Accra,Bamako,Banjul,Bobo-Dioulasso,Conakry,Cotonou,Kankan,Kaolack,Daloa,Maiduguri,Lomé,Kayes,Katsina,Ziguinchor,Monrovia,Nzérékoré,Koidu,Kumasi,Bauchi,Mopti,Bertoua,Tambacounda,Freetown,Gbarnga,Korhogo,Nouakchott,Tenkodogo"
 },
 {
     "name": "Moni",
@@ -9865,7 +9865,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Moni,Phan Thiet,Vientiane,Hue,Ho Chi Minh City,Siem Reap,Nha Trang,Kampong Cham,My Tho,Guilin,Pakse,Chiang Mai,Xieng Khouang,Haikou,Myitkyina,Phongsali,Rach Gia,Hai Phong,Bangkok,Vinh,Điện Biên Phủ,Hanoi,Battambang,Kunming,Da Nang,Kampot,Hà Giang,Can Tho"
 },
 {
     "name": "Moraori",
@@ -9874,7 +9874,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Moraori,Koidu,Banjul,Bouaké,Tema,Kara,Kaolack,Sikasso,Warri,Bafoussam,Bamako,Basse,Maiduguri,Kayes,Niamey,Conakry,Korhogo,Saint-Louis,Ouagadougou,Bobo-Dioulasso,Porto-Novo,Ebebiyín,Ngaoundéré,Jos,Bissau,Nzérékoré,Monrovia,Tambacounda"
 },
 {
     "name": "Morawa",
@@ -9883,7 +9883,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Morawa,Bafatá,Conakry,Bissau,Jos,Sokodé,Cotonou,Gbarnga,Kankan,Dakar,Kaolack,Freetown,Kara,Koudougou,Korhogo,Lomé,Kumasi,Tema,Nouakchott,Sikasso,Niamey,Lafia,Maiduguri,Mopti,Parakou,Bobo-Dioulasso,Kumba,Nzérékoré"
 },
 {
     "name": "Morigi",
@@ -9892,7 +9892,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Morigi,Accra,Banjul,Bissau,Sokoto,Gbarnga,Bertoua,Conakry,Freetown,Bauchi,Korhogo,Kaolack,Kano,Man,Wa,Kayes,Ségou,Tema,Tenkodogo,Ziguinchor,Daloa,Jalingo,Nzérékoré,Malabo,Kumba,Lafia,Nouakchott,Cacheu"
 },
 {
     "name": "Mountain",
@@ -9901,7 +9901,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Mountain,Sam Neua,Chiang Rai,Hai Phong,Kunming,Rach Gia,Vinh,Fangchenggang,My Tho,Vientiane,Pakse,Chiềng Rạ,Bangkok,Naypyidaw,Luang Prabang,Hanoi,Kampot,Siem Reap,Sihanoukville,Myitkyina,Nha Trang,Battambang,Da Lat,Chiang Mai,Liuzhou,Xieng Khouang,Taunggyi,Mawlamyine"
 },
 {
     "name": "Mountain Koiari",
@@ -9910,7 +9910,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Mountain Koiari,Nanning,Hat Yai,Quy Nhon,Da Lat,Nha Trang,Hai Phong,Naypyidaw,Danzhou,Da Nang,Sam Neua,Phongsali,Xieng Khouang,Fangchenggang,Điện Biên Phủ,Siem Reap,Kampong Cham,Pathein,Cao Bằng,Shantou,Guiyang,Udon Thani,Hue,Thakhek,Hanoi,Kampot,Phan Thiet,Pursat"
 },
 {
     "name": "Mubami",
@@ -9919,7 +9919,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Mubami,Accra,Banjul,Praia,Bissau,Sokodé,Abidjan,Daloa,Cotonou,Kaduna,Korhogo,Ngaoundéré,Katsina,Tamale,Kayes,Mopti,Kaolack,Kankan,Koudougou,Garoua,Bamako,Parakou,Porto-Novo,Freetown,Monrovia,Nouakchott,Tambacounda,Bamenda"
 },
 {
     "name": "Mulaha",
@@ -9928,7 +9928,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Mulaha,Bamako,Garoua,Daloa,Dakar,Kaolack,Conakry,Ziguinchor,Kankan,Bouaké,Bobo-Dioulasso,Bafatá,Gbarnga,Maiduguri,Koudougou,Porto-Novo,Zinder,Bamenda,Saint-Louis,Maroua,Man,Kano,Wukari,Lomé,Ségou,Monrovia,Tambacounda,Nzérékoré"
 },
 {
     "name": "Muna",
@@ -9937,7 +9937,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Muna,Praia,Banjul,Accra,Bobo-Dioulasso,Gabú,Cotonou,Assomada,Freetown,Bamenda,Kankan,Kumasi,Maiduguri,Timbuktu,Gusau,Warri,Lomé,Saint-Louis,Monrovia,Sunyani,Niamey,Garoua,Bouaké,Yamoussoukro,Ouagadougou,Tamale,Nzérékoré,Sikasso"
 },
 {
     "name": "Muyu",
@@ -9946,7 +9946,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Muyu,Port Moresby,Madang,Mount Hagen,Arawa,Kavieng,Aitape,Nipa,Popondetta,Bulolo,Lorengau,Goroka,Tambul,Kikori,Kundiawa,Balimo,Angoram,Nomad,Kainantu,Alotau,Okapa,Mendi,Vanimo,Morehead,Komo,Ramu,Wewak,Kaintiba"
 },
 {
     "name": "Nakai",
@@ -9955,7 +9955,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Nakai,Bamako,Bissau,Bafatá,Conakry,Bobo-Dioulasso,Ouagadougou,Freetown,Kara,Monrovia,Ziguinchor,Brikama,Tema,Tambacounda,Lomé,Koudougou,Parakou,Sokodé,Man,Kaolack,Kankan,Bertoua,Lafia,Warri,Sikasso,Kaduna,Korhogo,Abidjan"
 },
 {
     "name": "Namiae",
@@ -9964,7 +9964,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Namiae,Nzérékoré,Abidjan,Korhogo,Bamako,Banjul,Ebebiyín,Kara,Yamoussoukro,Monrovia,Cotonou,Zinder,Katsina,Lafia,Sokodé,Kankan,Gabú,Bafoussam,Kumasi,Dakar,Bafatá,Thiès,Mopti,Kayes,Lomé,Ouagadougou,Brikama,Cacheu"
 },
 {
     "name": "Namumi",
@@ -9973,7 +9973,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Namumi,Accra,Freetown,Gbarnga,Conakry,Bobo-Dioulasso,Cotonou,Koudougou,Bamako,Zinder,Brikama,Nouakchott,Bouaké,Kankan,Porto-Novo,Kayes,Korhogo,Bauchi,Lomé,Praia,Ziguinchor,Banjul,Garoua,Wukari,Sikasso,Mopti,Bolama,Tema"
 },
 {
     "name": "Narak",
@@ -9982,7 +9982,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Narak,Sonsorol,Jaluit,Alotau,Semarang,Cagayan de Oro,Jakarta,Kuala Lumpur,Quezon City,Cebu City,Kavieng,Angaur,Malacca,Surabaya,Bandar Seri Begawan,Kuching,Jerudong,Makassar,Epi,Ebeye,Bangar,Seria,Shah Alam,Tulagi,Kolonia,Nadi,Muara,Rabaul"
 },
 {
     "name": "Narom",
@@ -9991,7 +9991,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Narom,Bobo-Dioulasso,Koudougou,Dakar,Bamako,Zinder,Bissau,Kara,Bouaké,Accra,Gbarnga,Bertoua,Tema,Nzérékoré,Abidjan,Man,Kumasi,Korhogo,Monrovia,Parakou,Koidu,Ouahigouya,Niamey,Malabo,Lomé,Assomada,Lafia,Sikasso"
 },
 {
     "name": "Nawaru",
@@ -10000,7 +10000,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Nawaru,Abidjan,Bissau,Bamako,Jalingo,Dakar,Bouaké,Ouagadougou,Katsina,Daloa,Gbarnga,Kaolack,Kumasi,Man,Bertoua,Bauchi,Lomé,Ségou,Nouakchott,Parakou,Kano,Niamey,Brikama,Koidu,Ziguinchor,Mopti,Yola,Kumba"
 },
 {
     "name": "Ndom",
@@ -10009,7 +10009,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Ndom,Cacheu,Cotonou,Banjul,Timbuktu,Sokodé,Bamenda,Freetown,Kara,Bissau,Ségou,Bouaké,Porto-Novo,Koidu,Ouagadougou,Minna,Bobo-Dioulasso,Koudougou,Maiduguri,Abidjan,Bertoua,Niamey,Man,Kaolack,Mopti,Wa,Monrovia,Sikasso"
 },
 {
     "name": "Nduga",
@@ -10018,7 +10018,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Nduga,Lae,Port Moresby,Alotau,Kokopo,Tari,Vanimo,Wewak,Daru,Wapenamanda,Oksapmin,Kiunga,Popondetta,Mendi,Wau,Kieta,Kimbe,Olsobip,Menyamya,Lorengau,Ialibu,Tabubil,Angoram,Madang,Kikori,Saidor,Arawa,Kaintiba"
 },
 {
     "name": "Nedebang",
@@ -10027,7 +10027,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Nedebang,Jalingo,Koidu,Nouakchott,Lomé,Conakry,Kaolack,Kankan,Sokodé,Monrovia,Daloa,Timbuktu,Bobo-Dioulasso,Katsina,Ouagadougou,Koudougou,Bertoua,Lafia,Man,Gbarnga,Kumasi,Kumba,Tamale,Bissau,Jos,Sikasso,Korhogo,Bamako"
 },
 {
     "name": "Nemi",
@@ -10036,7 +10036,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Nemi,Bata,Banjul,Ségou,Bouaké,Tarrafal,Sokodé,Kankan,Minna,Katsina,Maiduguri,Natitingou,Monrovia,Tambacounda,Niamey,Jalingo,Bissau,Korhogo,Kano,Farafenni,Lomé,Thiès,Daloa,Mopti,Bafatá,Ouagadougou,Jos,Sokoto"
 },
 {
     "name": "New Zealand Pidgin English",
@@ -10045,7 +10045,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
+  "b": "New Zealand Pidgin English,Strasbourg,Dublin,Bilbao,Linz,Palermo,Wroclaw,Prague,Turin,Barcelona,Berlin,Düsseldorf,Zaragoza,Leeds,Rome,Hamburg,Marseille,Zurich,Stuttgart,Liberec,Gothenburg,Tromsø,Cologne,Warsaw,Linköping,Esbjerg,Oslo,Salzburg"
 },
 {
     "name": "Ngalum",
@@ -10054,7 +10054,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Ngalum,Bamako,Bissau,Abidjan,Accra,Conakry,Freetown,Gbarnga,Tema,Koudougou,Daloa,Kaolack,Koidu,Lafia,Kaduna,Bertoua,Parakou,Timbuktu,Basse,Jalingo,Thiès,Praia,Nouakchott,Sokodé,Tenkodogo,Zaria,Tambacounda,Tarrafal"
 },
 {
     "name": "Ngatikese Creole",
@@ -10063,7 +10063,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Ngatikese Creole,Spanish Town,West End,Maho Reef,Cockburn Town,Falmouth,Saint-Marc,Andros Town,Cap-Haïtien,Gonaïves,Marsh Harbour,Alice Town,Freeport,Les Cayes,Arima,Camagüey,Saveta,Basseterre,Scarborough,Portmore,Tunapuna,Oranjestad,Cul de Sac,Crane,Port of Spain,Barber,Christ Church,San Fernando"
 },
 {
     "name": "Nggem",
@@ -10072,7 +10072,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Nggem,Abidjan,Bamako,Lomé,Gbarnga,Sokodé,Accra,Jalingo,Daloa,Freetown,Koudougou,Gusau,Kara,Tambacounda,Kano,Nzérékoré,Mopti,Bouaké,Parakou,Monrovia,Man,Kumasi,Niamey,Koidu,Sunyani,Zaria,Kayes,Ouagadougou"
 },
 {
     "name": "Nii",
@@ -10081,7 +10081,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Nii,Daloa,Bertoua,Bissau,Banjul,Garoua,Cotonou,Kaduna,Dakar,Nzérékoré,Gusau,Abidjan,Kumasi,Mopti,Kankan,Nouakchott,Jalingo,Bauchi,Bobo-Dioulasso,Saint-Louis,Zaria,Koudougou,Sokodé,Tema,Sikasso,Ouagadougou,Accra,Tambacounda"
 },
 {
     "name": "Ninggerum",
@@ -10090,7 +10090,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Ninggerum,Cotonou,Bobo-Dioulasso,Lomé,Conakry,Koidu,Banjul,Bamako,Jalingo,Bouaké,Kumasi,Porto-Novo,Kankan,Mindelo,Katsina,Kayes,Sokodé,Lafia,Tema,Bauchi,Koudougou,Kaduna,Freetown,Daloa,Nouakchott,Bertoua,Kumba,Sokoto"
 },
 {
     "name": "Nomane",
@@ -10099,7 +10099,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Nomane,Lomé,Conakry,Abidjan,Gbarnga,Bissau,Jalingo,Bafatá,Kara,Kayes,Daloa,Freetown,Timbuktu,Mopti,Koidu,Bolt,Bobo-Dioulasso,Nouakchott,Monrovia,Lafia,Koudougou,Maiduguri,Man,Malabo,Parakou,Kumba,Jos,Buea"
 },
 {
     "name": "Northern and Central Bunun",
@@ -10108,7 +10108,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Northern and Central Bunun,Da Nang,Bago,Hanoi,Haikou,Yangon,Nha Trang,Pursat,Can Tho,My Tho,Quy Nhon,Pattaya,Savannakhet,Hat Yai,Phongsali,Siem Reap,Xieng Khouang,Guilin,Mawlamyine,Kampong Cham,Phnom Penh,Ho Chi Minh City,Vinh,Rach Gia,Wuzhou,Sihanoukville,Myitkyina,Liuzhou"
 },
 {
     "name": "Nuaulu",
@@ -10117,7 +10117,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Nuaulu,Bouaké,Daloa,Bamako,Bissau,Dakar,Kara,Bamenda,Cotonou,Tema,Gbarnga,Niamey,Sunyani,Korhogo,Conakry,Parakou,Kankan,Bafatá,Lomé,Koudougou,Man,Assomada,Banjul,Gusau,Warri,Maroua,Zaria,Kano"
 },
 {
     "name": "Odoodee",
@@ -10126,7 +10126,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Odoodee,Maiduguri,Kumasi,Sokoto,Bobo-Dioulasso,Tambacounda,Bafatá,Banjul,Lomé,Accra,Gbarnga,Buea,Bissau,Kara,Kaolack,Kayes,Monrovia,Ouagadougou,Tenkodogo,Sunyani,Niamey,Sikasso,Koidu,Yola,Parakou,Garoua,Banfora,Bauchi"
 },
 {
     "name": "Oirata",
@@ -10135,7 +10135,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Oirata,Khorugh,Isfahan,Shymkent,Nur-Sultan,Bukhara,Turkmenabat,Talas,Namangan,Jalal-Abad,Lahore,Ashgabat,Karagandy,Khujand,Fergana,Balkanabat,Rawalpindi,Peshawar,Kabul,Quetta,Panjakent,Gyzylarbat,Ghazni,Naryn,Karaj,Tabriz,Jalalabad,Kunduz"
 },
 {
     "name": "Ok–Oksapmin",
@@ -10144,7 +10144,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Ok–Oksapmin,Madang,Kokopo,Lae,Mount Hagen,Arawa,Salamaua,Alotau,Daru,Buka,Popondetta,Kaintiba,Vanimo,Kavieng,Aseki,Olsobip,Nuku,Menyamya,Goroka,Kikori,Morehead,Aitape,Ningerum,Telefomin,Wapenamanda,Banz,Kerema,Kainantu"
 },
 {
     "name": "Oksapmin",
@@ -10153,7 +10153,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Oksapmin,Bouaké,Ziguinchor,Porto-Novo,Accra,Bissau,Banjul,Bamako,Gbarnga,Abidjan,Tema,Maiduguri,Jalingo,Ouagadougou,Kaolack,Nouakchott,Mopti,Timbuktu,Korhogo,Cotonou,Koudougou,Man,Cacheu,Katsina,Parakou,Monrovia,Bolt,Ebebiyín"
 },
 {
     "name": "Omati",
@@ -10162,7 +10162,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Omati,Basse,Bamako,Banjul,Man,Ouagadougou,Conakry,Cotonou,Bolt,Jalingo,Korhogo,Bouaké,Maiduguri,Malabo,Freetown,Daloa,Katsina,Bafatá,Monrovia,Niamey,Bobo-Dioulasso,Kano,Porto-Novo,Koidu,Accra,Sokoto,Warri,Cacheu"
 },
 {
     "name": "Onjob",
@@ -10171,7 +10171,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Onjob,Jakarta,Ipoh,Bandung,Davao,Quezon City,Epi,Zamboanga,Denpasar,George Town,Kuala Lumpur,Semarang,Cebu City,Singapore,Malekula,Manila,Malacca,Ambrym,Ngerulmud,Melekeok,Luganville,Munda,Bangar,Buala,Seria,Johor Bahru,Honiara,Iloilo City"
 },
 {
     "name": "Onobasulu",
@@ -10180,7 +10180,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Onobasulu,Tenkodogo,Accra,Jalingo,Warri,Bouaké,Kankan,Bauchi,Cotonou,Wukari,Gbarnga,Kaolack,Kayes,Malabo,Ziguinchor,Nouakchott,Monrovia,Bamako,Tema,Bolt,Nzérékoré,Man,Lomé,Wa,Tamale,Porto-Novo,Lafia,Thiès"
 },
 {
     "name": "Ontenu",
@@ -10189,7 +10189,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Ontenu,Accra,Cotonou,Katsina,Zaria,Kankan,Lomé,Bobo-Dioulasso,Dakar,Kaduna,Korhogo,Kumasi,Farafenni,Man,Jos,Bolama,Parakou,Sikasso,Mopti,Kayes,Tambacounda,Bolt,Bissau,Bauchi,Koidu,Lafia,Koudougou,Banfora"
 },
 {
     "name": "Orokaiva",
@@ -10198,7 +10198,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Orokaiva,Semarang,Kuala Lumpur,Jakarta,Makassar,Davao,Quezon City,Melekeok,Manila,Cebu City,Nadi,Levuka,Cagayan de Oro,Jaluit,Malacca,Port Vila,George Town,Ipoh,Palikir,Honiara,Lautoka,Alotau,Majuro,Bangar,Kuala Belait,Epi,Ba,Auki"
 },
 {
     "name": "Oweina",
@@ -10207,7 +10207,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Oweina,Banjul,Katsina,Bouaké,Conakry,Bobo-Dioulasso,Wukari,Praia,Kara,Niamey,Monrovia,Kankan,Kayes,Jos,Ebebiyín,Tamale,Parakou,Malabo,Koidu,Sokodé,Kaolack,Kano,Jalingo,Yamoussoukro,Sikasso,Dakar,Sokoto,Porto-Novo"
 },
 {
     "name": "Pa",
@@ -10216,7 +10216,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Pa,Saint-Louis,Parakou,Banjul,Timbuktu,Accra,Conakry,Daloa,Mopti,Kayes,Korhogo,Koudougou,Kara,Kaolack,Gbarnga,Wa,Nouakchott,Kankan,Niamey,Sunyani,Bouaké,Porto-Novo,Lomé,Bertoua,Kano,Kumasi,Man,Zaria"
 },
 {
     "name": "Paiwan",
@@ -10225,7 +10225,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Paiwan,Ouagadougou,Bissau,Banjul,Maiduguri,Bouaké,Cotonou,Bauchi,Kara,Gbarnga,Kaduna,Gusau,Korhogo,Mopti,Niamey,Nzérékoré,Bobo-Dioulasso,Abidjan,Lomé,Koudougou,Cacheu,Garoua,Parakou,Monrovia,Kankan,Saint-Louis,Tema,Timbuktu"
 },
 {
     "name": "Paniai Lakes",
@@ -10234,7 +10234,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Paniai Lakes,Nalchik,Karachayevsk,Gori,Krymsk,Khasavyurt,Sukhumi,Malgobek,Ardon,Zugdidi,Rustavi,Maykop,Kizlyar,Kobuleti,Kizilyurt,Derbent,Baksan,Adygeysk,Buynaksk,Karabulaq,Grozny,Pregradnaya,Borjomi,Cherkessk,Batumi,Urus-Martan,Alagir,Achkhoy-Martan"
 },
 {
     "name": "Papora",
@@ -10243,7 +10243,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Papora,Niamey,Ouagadougou,Praia,Conakry,Gbarnga,Porto-Novo,Koudougou,Freetown,Dakar,Minna,Mopti,Maiduguri,Bobo-Dioulasso,Aconibe,Kayes,Katsina,Kumasi,Gusau,Kano,Kaolack,Timbuktu,Tambacounda,Banjul,Daloa,Yamoussoukro,Mindelo,Bolt"
 },
 {
     "name": "Papora-Hoanya",
@@ -10252,7 +10252,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Papora-Hoanya,Bamako,Accra,Bissau,Kayes,Bouaké,Praia,Porto-Novo,Sokodé,Kaolack,Bobo-Dioulasso,Nouakchott,Monrovia,Saint-Louis,Ngaoundéré,Koudougou,Sokoto,Cotonou,Dakar,Sunyani,Parakou,Ségou,Lafia,Malabo,Tambacounda,Nzérékoré,Jos,Cacheu"
 },
 {
     "name": "Papuan Tip",
@@ -10261,7 +10261,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Papuan Tip,Alotau,Rabaul,Kimbe,Wau,Okapa,Lae,Mendi,Vanimo,Kundiawa,Ambunti,Telefomin,Wewak,Port Moresby,Aseki,Kerema,Kainantu,Menyamya,Wapenamanda,Mount Hagen,Salamaua,Kaintiba,Kokopo,Kieta,Banz,Morehead,Ialibu,Aitape"
 },
 {
     "name": "Pazeh",
@@ -10270,7 +10270,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Pazeh,Abidjan,Bafatá,Kaolack,Lomé,Nouakchott,Kaduna,Dakar,Daloa,Jalingo,Kara,Garoua,Kumasi,Koidu,Katsina,Cotonou,Korhogo,Kano,Monrovia,Gbarnga,Yola,Timbuktu,Maroua,Minna,Porto-Novo,Saint-Louis,Jos,Ouagadougou"
 },
 {
     "name": "Pisa",
@@ -10279,7 +10279,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Pisa,Thiès,Koudougou,Banjul,Bobo-Dioulasso,Yamoussoukro,Conakry,Tema,Kara,Freetown,Nouakchott,Gusau,Kayes,Kaolack,Korhogo,Mopti,Parakou,Saint-Louis,Brikama,Kankan,Ebebiyín,Monrovia,Kano,Malabo,Sikasso,Basse,Nzérékoré,Kumba"
 },
 {
     "name": "Pitcairn-Norfolk",
@@ -10288,7 +10288,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Pitcairn-Norfolk,Arno,Fagatogo,Bikenibeu,Mesepa,Eita,Hilo,Saratamata,Kitti,Majuro,Pangai,Funafuti,Jaluit,Pago Pago,Fakaifou,Tarawa,Alapi,Mahina,Kwajalein,Port Vila,Muʻa,Nett,Kolonia,Wotje,Kaneohe,Senala,Windwardside,Madolenihmw"
 },
 {
     "name": "Pitkern",
@@ -10297,7 +10297,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Pitkern,Leone,Faleniu,Nuʻuuli,Mesepa,Betio,Paea,The Bottom,Kahului,Ebeye,Saratamata,Uh,Muʻa,Alapi,Nett,Kwajalein,Kitti,Vaiaku,Fagatogo,Eita,Rongelap,Jaluit,Mili,Tatakamotonga,Madolenihmw,Fakaifou,Senala,Teone"
 },
 {
     "name": "Pogaya",
@@ -10306,7 +10306,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Pogaya,Bissau,Bamako,Bafatá,Bobo-Dioulasso,Gbarnga,Daloa,Warri,Cotonou,Freetown,Kumasi,Conakry,Kara,Yola,Mopti,Ebebiyín,Kayes,Kankan,Maiduguri,Korhogo,Assomada,Basse,Lomé,Buea,Monrovia,Sunyani,Timbuktu,Kaduna"
 },
 {
     "name": "Puyuma",
@@ -10315,7 +10315,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Puyuma,Tarrafal,Kankan,Porto-Novo,Bolt,Bobo-Dioulasso,Conakry,Jos,Kara,Katsina,Saint-Louis,Kumasi,Kaolack,Lafia,Brikama,Jalingo,Parakou,Bauchi,Ziguinchor,Freetown,Maiduguri,Monrovia,Bouaké,Bafatá,Niamey,Nzérékoré,Tambacounda,Thiès"
 },
 {
     "name": "Rapa Nui",
@@ -10324,7 +10324,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Rapa Nui,Pago Pago,Nuʻuuli,Majuro,Fagatogo,Mesepa,Bikenibeu,Faleniu,Wotje,Hilo,Eita,Rongelap,Ebeye,Mahina,Palikir,Tarawa,Jaluit,Honolulu,Uh,Buota,Vaiaku,Sokehs,Paea,Tatakamotonga,Fakaifou,Lofeagai,Kolonia,Avarua"
 },
 {
     "name": "Retta",
@@ -10333,7 +10333,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Retta,Abidjan,Tenkodogo,Ouagadougou,Bafatá,Bouaké,Ebebiyín,Kankan,Cotonou,Koudougou,Kaolack,Porto-Novo,Kayes,Mopti,Ziguinchor,Man,Bamenda,Bamako,Maiduguri,Timbuktu,Lomé,Niamey,Brikama,Nouakchott,Kano,Nzérékoré,Jos,Kumba"
 },
 {
     "name": "Riantana",
@@ -10342,7 +10342,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Riantana,Porto-Novo,Bissau,Abidjan,Accra,Conakry,Freetown,Daloa,Bobo-Dioulasso,Sokodé,Katsina,Gbarnga,Kaduna,Ouagadougou,Koudougou,Sikasso,Korhogo,Kaolack,Mopti,Brikama,Ségou,Niamey,Tamale,Lafia,Minna,Cotonou,Monrovia,Tambacounda"
 },
 {
     "name": "Rotokas",
@@ -10351,7 +10351,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Rotokas,Bamako,Bobo-Dioulasso,Kayes,Abidjan,Banjul,Kara,Assomada,Maroua,Monrovia,Ouagadougou,Dakar,Maiduguri,Tambacounda,Sokodé,Kumasi,Gbarnga,Wukari,Daloa,Sunyani,Bertoua,Thiès,Mopti,Yamoussoukro,Bissau,Zaria,Niamey,Accra"
 },
 {
     "name": "Rukai",
@@ -10360,7 +10360,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Rukai,Bissau,Bobo-Dioulasso,Lomé,Freetown,Daloa,Koidu,Koudougou,Kaolack,Abidjan,Conakry,Porto-Novo,Tema,Nouakchott,Bamenda,Bauchi,Mopti,Cacheu,Maiduguri,Sunyani,Yamoussoukro,Kano,Nzérékoré,Cotonou,Monrovia,Malabo,Jos,Sikasso"
 },
 {
     "name": "Rumu",
@@ -10369,7 +10369,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Rumu,Mount Hagen,Madang,Bulolo,Ialibu,Lake Kopiago,Kainantu,Kokopo,Arawa,Aitape,Daru,Buka,Mendi,Wapenamanda,Kieta,Wau,Kikori,Kavieng,Kiunga,Vanimo,Tabubil,Oksapmin,Ambunti,Nipa,Koroba,Telefomin,Angoram,Lae"
 },
 {
     "name": "Rusenu",
@@ -10378,7 +10378,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Rusenu,Katsina,Bissau,Kaduna,Accra,Tenkodogo,Gbarnga,Ouagadougou,Kara,Timbuktu,Mopti,Bamako,Bafoussam,Tambacounda,Kaolack,Koudougou,Nouakchott,Daloa,Monrovia,Garoua,Porto-Novo,Nzérékoré,Lomé,Lafia,Zinder,Zaria,Bolt,Sikasso"
 },
 {
     "name": "Saaroa",
@@ -10387,7 +10387,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Saaroa,Dakar,Banjul,Bobo-Dioulasso,Basse,Kaolack,Daloa,Kankan,Lomé,Conakry,Yola,Gbarnga,Kumasi,Lafia,Bamako,Saint-Louis,Ouagadougou,Mopti,Korhogo,Kayes,Koudougou,Maiduguri,Bertoua,Kara,Nouakchott,Bauchi,Jos,Niamey"
 },
 {
     "name": "Sabakor",
@@ -10396,7 +10396,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Sabakor,Bouaké,Bamako,Kankan,Bissau,Bobo-Dioulasso,Assomada,Accra,Timbuktu,Monrovia,Freetown,Saint-Louis,Nouakchott,Tambacounda,Kaduna,Katsina,Korhogo,Koidu,Mopti,Warri,Maiduguri,Sunyani,Man,Bamenda,Ebebiyín,Zaria,Lomé,Cacheu"
 },
 {
     "name": "Safeyoka",
@@ -10405,7 +10405,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Safeyoka,Sokodé,Abidjan,Banjul,Bobo-Dioulasso,Bolama,Lomé,Conakry,Timbuktu,Ouagadougou,Koidu,Kara,Kankan,Mopti,Kayes,Garoua,Gusau,Jalingo,Koudougou,Korhogo,Sunyani,Maiduguri,Wa,Dakar,Nzérékoré,Jos,Bauchi,Niamey"
 },
 {
     "name": "Saisiyat",
@@ -10414,7 +10414,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Saisiyat,Bamako,Banjul,Bobo-Dioulasso,Ziguinchor,Kaolack,Tambacounda,Warri,Cotonou,Daloa,Bouaké,Praia,Kayes,Korhogo,Niamey,Koidu,Gbarnga,Lafia,Ségou,Mopti,Kumba,Kano,Maiduguri,Nzérékoré,Porto-Novo,Bata,Jos,Sokoto"
 },
 {
     "name": "Sakizaya",
@@ -10423,7 +10423,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Sakizaya,Conakry,Bamako,Bertoua,Bobo-Dioulasso,Man,Daloa,Koidu,Kaduna,Banjul,Kaolack,Lomé,Ziguinchor,Sunyani,Zaria,Korhogo,Bamenda,Praia,Maiduguri,Freetown,Katsina,Niamey,Wa,Yamoussoukro,Mopti,Accra,Sikasso,Ségou"
 },
 {
     "name": "Salt-Yui",
@@ -10432,7 +10432,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Salt-Yui,Basse,Kaolack,Abidjan,Nouakchott,Bamako,Cotonou,Kankan,Dakar,Freetown,Koudougou,Kaduna,Kayes,Timbuktu,Accra,Katsina,Koidu,Monrovia,Assomada,Mopti,Tema,Man,Ouagadougou,Parakou,Saint-Louis,Ségou,Jos,Warri"
 },
 {
     "name": "Samberigi",
@@ -10441,7 +10441,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Samberigi,Bissau,Conakry,Mopti,Tema,Accra,Daloa,Lomé,Timbuktu,Ouagadougou,Bafatá,Yamoussoukro,Ségou,Saint-Louis,Bamenda,Zinder,Korhogo,Banjul,Cotonou,Sunyani,Parakou,Maiduguri,Porto-Novo,Yola,Niamey,Zaria,Man,Nzérékoré"
 },
 {
     "name": "Samo",
@@ -10450,7 +10450,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Samo,Bamako,Bobo-Dioulasso,Bouaké,Jalingo,Daloa,Banjul,Cotonou,Ziguinchor,Ouagadougou,Freetown,Man,Timbuktu,Tenkodogo,Conakry,Parakou,Accra,Koudougou,Korhogo,Nouakchott,Tema,Bauchi,Porto-Novo,Lomé,Mopti,Bamenda,Monrovia,Minna"
 },
 {
     "name": "Sawi",
@@ -10459,7 +10459,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Sawi,Bafatá,Ziguinchor,Porto-Novo,Bobo-Dioulasso,Assomada,Kano,Dakar,Kumasi,Yamoussoukro,Kaolack,Basse,Ouagadougou,Koidu,Kumba,Korhogo,Maiduguri,Timbuktu,Conakry,Monrovia,Nzérékoré,Daloa,Freetown,Malabo,Sunyani,Bertoua,Nouakchott,Garoua"
 },
 {
     "name": "Saʼban",
@@ -10468,7 +10468,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Saʼban,Bouaké,Bamako,Thiès,Brikama,Bobo-Dioulasso,Conakry,Ouagadougou,Kankan,Monrovia,Daloa,Freetown,Kaolack,Lafia,Malabo,Sunyani,Katsina,Bolama,Korhogo,Kano,Kumasi,Ségou,Maiduguri,Yamoussoukro,Man,Nzérékoré,Bolt,Dakar"
 },
 {
     "name": "Seediq",
@@ -10477,7 +10477,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Seediq,Gusau,Bissau,Saint-Louis,Bobo-Dioulasso,Dakar,Ebebiyín,Ngaoundéré,Daloa,Banjul,Basse,Nouakchott,Monrovia,Gabú,Ségou,Kayes,Parakou,Koidu,Korhogo,Bamenda,Nzérékoré,Thiès,Maiduguri,Mopti,Malabo,Zaria,Sokodé,Kumasi"
 },
 {
     "name": "Sempan",
@@ -10486,7 +10486,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Sempan,Bamako,Timbuktu,Cotonou,Bissau,Gbarnga,Bouaké,Kayes,Malabo,Monrovia,Daloa,Freetown,Kankan,Mopti,Kaolack,Korhogo,Katsina,Tamale,Dakar,Sokodé,Koudougou,Kumasi,Sikasso,Kano,Bamenda,Ouagadougou,Nouakchott,Abidjan"
 },
 {
     "name": "Setaman",
@@ -10495,7 +10495,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Setaman,Ebebiyín,Kayes,Daloa,Bamako,Nzérékoré,Koidu,Bafatá,Freetown,Banjul,Praia,Bobo-Dioulasso,Lomé,Mopti,Sokoto,Dakar,Maiduguri,Koudougou,Kaduna,Conakry,Porto-Novo,Saint-Louis,Katsina,Malabo,Parakou,Korhogo,Cotonou,Wa"
 },
 {
     "name": "Shiaxa",
@@ -10504,7 +10504,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Shiaxa,Bamako,Timbuktu,Gbarnga,Bobo-Dioulasso,Basse,Bouaké,Conakry,Kara,Nouakchott,Bafatá,Kaolack,Kankan,Cotonou,Koudougou,Koidu,Buea,Monrovia,Tema,Saint-Louis,Bata,Lomé,Lafia,Maiduguri,Sikasso,Nzérékoré,Tambacounda,Ouagadougou"
 },
 {
     "name": "Siane",
@@ -10513,7 +10513,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Siane,Ségou,Accra,Nouakchott,Tema,Daloa,Koidu,Bamako,Kumasi,Bafatá,Bobo-Dioulasso,Kaolack,Gbarnga,Kayes,Man,Porto-Novo,Niamey,Sokoto,Bamenda,Kano,Nzérékoré,Thiès,Wa,Zaria,Ziguinchor,Koudougou,Parakou,Kaduna"
 },
 {
     "name": "Silimo",
@@ -10522,7 +10522,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Silimo,Accra,Bamako,Cotonou,Kankan,Timbuktu,Freetown,Koidu,Tema,Banjul,Yamoussoukro,Tenkodogo,Katsina,Ziguinchor,Malabo,Dakar,Ouagadougou,Saint-Louis,Koudougou,Kaduna,Basse,Maiduguri,Nzérékoré,Sokoto,Bertoua,Gabú,Tambacounda,Kumasi"
 },
 {
     "name": "Simbari",
@@ -10531,7 +10531,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Simbari,Conakry,Banjul,Kayes,Abidjan,Dakar,Bamako,Maroua,Ziguinchor,Bobo-Dioulasso,Man,Lomé,Korhogo,Mopti,Saint-Louis,Freetown,Bissau,Kankan,Tema,Kara,Katsina,Niamey,Tamale,Jalingo,Ebebiyín,Zaria,Yola,Nouakchott"
 },
 {
     "name": "Sinasina",
@@ -10540,7 +10540,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Sinasina,Bafatá,Cotonou,Abidjan,Bamenda,Man,Dakar,Brikama,Warri,Monrovia,Parakou,Nouakchott,Mopti,Bissau,Accra,Gbarnga,Kumasi,Basse,Ségou,Kaolack,Conakry,Bertoua,Maiduguri,Tambacounda,Porto-Novo,Bamako,Lafia,Cacheu"
 },
 {
     "name": "Singlish",
@@ -10549,7 +10549,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Singlish,Accra,Abidjan,Bissau,Bouaké,Basse,Kaduna,Wa,Freetown,Kumasi,Korhogo,Dakar,Kara,Kankan,Ziguinchor,Nzérékoré,Warri,Kayes,Lomé,Sunyani,Tamale,Kumba,Porto-Novo,Ouagadougou,Parakou,Banjul,Gbarnga,Buea"
 },
 {
     "name": "Somahai",
@@ -10558,7 +10558,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Somahai,Bethel,Fairbanks,Nome,Cordova,Kotzebue,Valdez,Reykjavik,Kodiak,Sitka,Whitehorse,Prudhoe Bay,Seward,Taos,Terrace,Laguna,Prince George,Aasiaat,Grants,Calgary,Palmer,Anchorage,Montreal,Homer,Yellowknife,Barrow,Qaqortoq,Fort Smith"
 },
 {
     "name": "Some",
@@ -10567,7 +10567,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Some,Abidjan,Bamako,Daloa,Malabo,Dakar,Gbarnga,Koudougou,Kara,Jalingo,Banjul,Ebebiyín,Accra,Katsina,Lomé,Tema,Bobo-Dioulasso,Kaolack,Basse,Kaduna,Man,Bamenda,Warri,Tambacounda,Garoua,Zaria,Yamoussoukro,Minna"
 },
 {
     "name": "Sonia",
@@ -10576,7 +10576,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Sonia,Koidu,Bamako,Gbarnga,Bouaké,Jalingo,Tema,Cotonou,Katsina,Sunyani,Bobo-Dioulasso,Kaolack,Kano,Nzérékoré,Niamey,Koudougou,Thiès,Saint-Louis,Ebebiyín,Tenkodogo,Tambacounda,Porto-Novo,Kumba,Praia,Korhogo,Abidjan,Dakar,Tamale"
 },
 {
     "name": "Sonsorolese",
@@ -10585,7 +10585,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Sonsorolese,Tema,Bouaké,Bobo-Dioulasso,Bertoua,Gusau,Timbuktu,Monrovia,Ebebiyín,Kayes,Lomé,Brikama,Kara,Koudougou,Ségou,Bissau,Niamey,Mopti,Accra,Gbarnga,Sokodé,Katsina,Porto-Novo,Ziguinchor,Bauchi,Jalingo,Saint-Louis,Bamenda"
 },
 {
     "name": "Squliq Atayal",
@@ -10594,7 +10594,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Squliq Atayal,Gbarnga,Bamako,Timbuktu,Bobo-Dioulasso,Mopti,Conakry,Farafenni,Freetown,Daloa,Kara,Kayes,Bamenda,Accra,Tambacounda,Monrovia,Korhogo,Koudougou,Bafatá,Warri,Parakou,Nzérékoré,Yamoussoukro,Cacheu,Abidjan,Ziguinchor,Kaolack,Wa"
 },
 {
     "name": "Suena",
@@ -10603,7 +10603,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Suena,Koidu,Cotonou,Kaolack,Bobo-Dioulasso,Warri,Freetown,Nouakchott,Dakar,Bouaké,Kayes,Ouagadougou,Banjul,Bamenda,Accra,Praia,Korhogo,Daloa,Ebebiyín,Sokodé,Zinder,Ségou,Parakou,Yamoussoukro,Nzérékoré,Basse,Kankan,Man"
 },
 {
     "name": "Suganga",
@@ -10612,7 +10612,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Suganga,Dalian,Jinan,Tianjin,Changsha,Chengdu,Shenyang,Suzhou,Seoul,Xi'an,Nanchang,Zhengzhou,Ürümqi,Wuxi,Tainan,New Taipei,Fuzhou,Qingdao,Cheongju,Changwon,Wuhan,Beijing,Ulsan,Harbin,Yongin,Seongnam,Hsinchu,Zhuhai"
 },
 {
     "name": "Suki",
@@ -10621,7 +10621,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Suki,Bamako,Monrovia,Kaduna,Bissau,Kankan,Basse,Cotonou,Freetown,Koudougou,Lomé,Porto-Novo,Kayes,Ouagadougou,Kano,Man,Korhogo,Timbuktu,Maiduguri,Garoua,Minna,Kumba,Yola,Banfora,Warri,Assomada,Lafia,Koidu"
 },
 {
     "name": "Susuami",
@@ -10630,7 +10630,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Susuami,Gbarnga,Bamako,Banjul,Yamoussoukro,Mopti,Monrovia,Conakry,Farafenni,Garoua,Lomé,Freetown,Koidu,Accra,Katsina,Dakar,Parakou,Koudougou,Sokodé,Kankan,Bissau,Kumasi,Maiduguri,Ouagadougou,Tambacounda,Kaduna,Tenkodogo,Cacheu"
 },
 {
     "name": "Tainae",
@@ -10639,7 +10639,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Tainae,Haikou,Quy Nhon,Yangon,Hue,Phan Thiet,Da Lat,Chiang Rai,My Tho,Siem Reap,Chiang Mai,Phnom Penh,Taunggyi,Ho Chi Minh City,Mandalay,Da Nang,Pakse,Lạng Sơn,Thakhek,Kunming,Takeo,Guiyang,Chiềng Mai,Naypyidaw,Hanoi,Kampot,Nakhon Ratchasima,Bangkok"
 },
 {
     "name": "Tairoa",
@@ -10648,7 +10648,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Tairoa,Pursat,Ho Chi Minh City,Hanoi,Da Nang,Chiang Rai,My Tho,Phan Thiet,Nha Trang,Lạng Sơn,Naypyidaw,Fangchenggang,Vientiane,Rach Gia,Sihanoukville,Sanya,Can Tho,Hat Yai,Phongsali,Phnom Penh,Kampong Cham,Siem Reap,Xieng Khouang,Thakhek,Yangon,Sam Neua,Bago,Guiyang"
 },
 {
     "name": "Tairora",
@@ -10657,7 +10657,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Tairora,Nanning,Haikou,Bago,Da Nang,My Tho,Hai Phong,Lạng Sơn,Vinh,Siem Reap,Hanoi,Điện Biên Phủ,Phnom Penh,Savannakhet,Yangon,Luang Prabang,Danzhou,Phongsali,Thakhek,Bangkok,Pursat,Nakhon Ratchasima,Sihanoukville,Pathein,Shantou,Chiềng Rạ,Kampot,Ho Chi Minh City"
 },
 {
     "name": "Tamagario",
@@ -10666,7 +10666,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Tamagario,Kangding,Lhasa,Nagqu,Chamdo,Dali,Nainital,Singtam,Xichang,Punakha,Melli,Shillong,Zhongdian,Nongstoin,Rangpo,Namchi,Deqin,Dalton Ganj,Thimphu,Rhenock,Umroi,Trongsa,Yuánmóu,Tso Kar,Jorthang,Paro,Jakar,Jowai"
 },
 {
     "name": "Tangko",
@@ -10675,7 +10675,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Tangko,Koidu,Monrovia,Abidjan,Bissau,Katsina,Daloa,Bamako,Sokodé,Kankan,Ziguinchor,Gusau,Praia,Sunyani,Koudougou,Porto-Novo,Jalingo,Saint-Louis,Kaduna,Garoua,Nzérékoré,Bamenda,Wa,Lomé,Nouakchott,Tambacounda,Accra,Cacheu"
 },
 {
     "name": "Taokas",
@@ -10684,7 +10684,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Taokas,Koidu,Kumasi,Cotonou,Bamako,Aconibe,Freetown,Katsina,Kara,Monrovia,Gbarnga,Gabú,Kayes,Man,Kano,Mopti,Maroua,Saint-Louis,Tema,Banjul,Niamey,Thiès,Maiduguri,Yamoussoukro,Sunyani,Zaria,Kaduna,Praia"
 },
 {
     "name": "Tauade",
@@ -10693,7 +10693,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Tauade,Timbuktu,Sokodé,Bobo-Dioulasso,Bouaké,Cotonou,Accra,Kayes,Gbarnga,Kaolack,Dakar,Freetown,Kara,Koudougou,Ouagadougou,Ségou,Ziguinchor,Monrovia,Kankan,Bamako,Sokoto,Tambacounda,Mopti,Bauchi,Nouakchott,Bamenda,Jos,Lomé"
 },
 {
     "name": "Teiwa",
@@ -10702,7 +10702,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Teiwa,Cotonou,Bauchi,Jalingo,Sokodé,Praia,Koidu,Bolt,Brikama,Monrovia,Gbarnga,Maiduguri,Kayes,Ebebiyín,Koudougou,Daloa,Kumasi,Nzérékoré,Kankan,Sunyani,Man,Niamey,Aconibe,Bamako,Zinder,Kumba,Nouakchott,Timbuktu"
 },
 {
     "name": "Telefol",
@@ -10711,7 +10711,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Telefol,Bissau,Ziguinchor,Sikasso,Conakry,Man,Mindelo,Dakar,Tema,Parakou,Freetown,Tambacounda,Kankan,Mopti,Kaolack,Korhogo,Nouakchott,Ebebiyín,Gbarnga,Maiduguri,Lomé,Bertoua,Wa,Yamoussoukro,Sunyani,Accra,Assomada,Banjul"
 },
 {
     "name": "Tembagla",
@@ -10720,7 +10720,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Tembagla,Basse,Banjul,Katsina,Sokodé,Bamenda,Dakar,Kankan,Praia,Lomé,Korhogo,Accra,Mindelo,Kaolack,Niamey,Man,Koidu,Saint-Louis,Ségou,Parakou,Kumasi,Kaduna,Wa,Jalingo,Sikasso,Mopti,Nzérékoré,Bolt"
 },
 {
     "name": "Thao",
@@ -10729,7 +10729,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Thao,Daloa,Accra,Cotonou,Tema,Man,Bouaké,Sokodé,Niamey,Bafatá,Kankan,Katsina,Kayes,Praia,Kaolack,Jalingo,Parakou,Bissau,Maiduguri,Warri,Saint-Louis,Sokoto,Ngaoundéré,Gbarnga,Tamale,Abidjan,Bertoua,Assomada"
 },
 {
     "name": "Tifal",
@@ -10738,7 +10738,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Tifal,Bamako,Koudougou,Bissau,Accra,Cotonou,Daloa,Conakry,Freetown,Lomé,Katsina,Maiduguri,Kayes,Ebebiyín,Wa,Man,Timbuktu,Koidu,Sikasso,Parakou,Bolama,Kaduna,Porto-Novo,Kaolack,Nouakchott,Bafatá,Korhogo,Jalingo"
 },
 {
     "name": "Timor–Alor–Pantar",
@@ -10747,7 +10747,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Timor–Alor–Pantar,Surabaya,Palembang,Palikir,Lae,Malacca,Johor Bahru,Sigatoka,Ambrym,Tulagi,Kota Kinabalu,Iloilo City,Manila,Melekeok,Ipoh,Tutong,Jerudong,Quezon City,Bandar Seri Begawan,Tofol,Jakarta,George Town,Auki,Sonsorol,Rabaul,Port Vila,Luganville,Gizo"
 },
 {
     "name": "Tirio (Lower Fly)",
@@ -10756,7 +10756,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Tirio (Lower Fly),Bissau,Gbarnga,Banjul,Dakar,Abidjan,Bamenda,Conakry,Koidu,Ouagadougou,Sokodé,Monrovia,Kano,Bamako,Porto-Novo,Bafatá,Kayes,Kaduna,Koudougou,Cotonou,Kumasi,Maiduguri,Tambacounda,Yamoussoukro,Sunyani,Nzérékoré,Buea,Sokoto"
 },
 {
     "name": "Tobian",
@@ -10765,7 +10765,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Tobian,Gbarnga,Bobo-Dioulasso,Accra,Conakry,Dakar,Cotonou,Praia,Freetown,Kayes,Aconibe,Jalingo,Nouakchott,Sokodé,Saint-Louis,Gusau,Kumasi,Monrovia,Bissau,Sunyani,Koudougou,Maiduguri,Basse,Wukari,Brikama,Niamey,Warri,Porto-Novo"
 },
 {
     "name": "Tokano",
@@ -10774,7 +10774,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Tokano,Lomé,Ziguinchor,Tema,Gbarnga,Man,Accra,Bamako,Cotonou,Koidu,Bobo-Dioulasso,Kaolack,Ségou,Monrovia,Koudougou,Porto-Novo,Timbuktu,Saint-Louis,Yamoussoukro,Cacheu,Buea,Tambacounda,Kumasi,Bamenda,Nouakchott,Abidjan,Sokodé,Nzérékoré"
 },
 {
     "name": "Torres Strait Creole",
@@ -10783,7 +10783,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Torres Strait Creole,Mandeville,Port Antonio,Portmore,Crane,Philipsburg,Port-au-Prince,Spanish Town,Les Cayes,Freeport,Marsh Harbour,Harbour Island,Andros Town,Bridgetown,Oistins,West End,Maho Reef,Gonaïves,Holetown,Port of Spain,Ocho Ríos,Montaña,Lower Prince's Quarter,Fort-Liberté,Arima,Sint Nicolaas,Christ Church,Paradera"
 },
 {
     "name": "Ts'ole' Atayal",
@@ -10792,7 +10792,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Ts'ole' Atayal,Korhogo,Banjul,Bissau,Bamenda,Koidu,Timbuktu,Kankan,Ziguinchor,Bobo-Dioulasso,Bertoua,Kumasi,Monrovia,Ebebiyín,Parakou,Nzérékoré,Lomé,Saint-Louis,Mopti,Garoua,Gbarnga,Ségou,Daloa,Yamoussoukro,Cotonou,Conakry,Tambacounda,Jos"
 },
 {
     "name": "Tsaukambo",
@@ -10801,7 +10801,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Tsaukambo,Barrow,Skagway,Winnipeg,Crownpoint,Edmonton,Ilulissat,Valdez,Nome,Calgary,Taos,Cordova,Kenai,Sitka,Los Alamos,Haines,Hay River,Deadhorse,Nuuk,Qaqortoq,Bethel,Whitehorse,Reykjavik,Homer,Laguna,Anchorage,Chinle,Bethel"
 },
 {
     "name": "Tsou",
@@ -10810,7 +10810,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Tsou,Daloa,Banjul,Conakry,Bamenda,Accra,Abidjan,Bobo-Dioulasso,Cotonou,Dakar,Niamey,Kumasi,Kaolack,Mopti,Praia,Koidu,Kayes,Maroua,Nouakchott,Porto-Novo,Timbuktu,Lafia,Bissau,Maiduguri,Nzérékoré,Freetown,Jos,Tema"
 },
 {
     "name": "Turaka",
@@ -10819,7 +10819,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Turaka,Honiara,Kuala Lumpur,Bangar,Johor Bahru,Semarang,Makassar,Bacolod,Medan,Bandung,Zamboanga,Muara,Melekeok,Munda,Surabaya,Iloilo City,George Town,Palembang,Malacca,Ambrym,Singapore,Manila,Majuro,Luganville,Port Moresby,Pentecost,Ngerulmud,Port Vila"
 },
 {
     "name": "Turama-Kikorian",
@@ -10828,7 +10828,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Turama-Kikorian,Banjul,Basse,Cotonou,Conakry,Kumasi,Nouakchott,Thiès,Banfora,Parakou,Man,Sunyani,Yola,Dakar,Niamey,Kayes,Bamako,Assomada,Monrovia,Freetown,Maiduguri,Kankan,Gbarnga,Timbuktu,Sokoto,Gabú,Gusau,Korhogo"
 },
 {
     "name": "Uab Meto",
@@ -10837,7 +10837,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Uab Meto,Port Vila,Jakarta,Kavieng,Lorengau,Labasa,Manila,Suva,Quezon City,Sonsorol,Johor Bahru,Kirakira,Davao,Medan,Zamboanga,Surabaya,Iloilo City,Shah Alam,Semarang,Kuching,Gizo,Kota Kinabalu,Auki,Kayangel,Palikir,Port Moresby,Seria,Tanna"
 },
 {
     "name": "Uare",
@@ -10846,7 +10846,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Uare,Semarang,Bandung,Quezon City,Makassar,Labasa,Ipoh,Muara,Cebu City,Kuching,Bandar Seri Begawan,Tulagi,Jaluit,Levuka,Babeldaob,Kota Kinabalu,Shah Alam,Epi,Munda,Denpasar,Pentecost,Bangar,Ambrym,Port Moresby,Palikir,Seria,Iloilo City,Lae"
 },
 {
     "name": "Umanakaina",
@@ -10855,7 +10855,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Umanakaina,Daloa,Accra,Tenkodogo,Bobo-Dioulasso,Kaolack,Dakar,Koudougou,Cotonou,Basse,Garoua,Lomé,Koidu,Bafatá,Kankan,Tema,Maroua,Bissau,Maiduguri,Man,Conakry,Bouaké,Mopti,Katsina,Ziguinchor,Gusau,Porto-Novo,Ouagadougou"
 },
 {
     "name": "Urapmin",
@@ -10864,7 +10864,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Urapmin,Abidjan,Bouaké,Bamako,Gbarnga,Katsina,Bobo-Dioulasso,Kankan,Niamey,Daloa,Kumasi,Kaolack,Freetown,Koidu,Praia,Lomé,Ouagadougou,Zaria,Kano,Ziguinchor,Banjul,Man,Yamoussoukro,Malabo,Tema,Porto-Novo,Tambacounda,Bauchi"
 },
 {
     "name": "Usarufa",
@@ -10873,7 +10873,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Usarufa,Praia,Bissau,Korhogo,Daloa,Dakar,Abidjan,Timbuktu,Kankan,Kaolack,Cotonou,Conakry,Bafatá,Tambacounda,Lomé,Warri,Sikasso,Accra,Koudougou,Freetown,Kumasi,Niamey,Man,Kayes,Nzérékoré,Maiduguri,Sokodé,Thiès"
 },
 {
     "name": "Vaeakau-Taumako",
@@ -10882,7 +10882,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Vaeakau-Taumako,Katsina,Abidjan,Tema,Ziguinchor,Wa,Conakry,Kumasi,Kara,Minna,Nouakchott,Accra,Kankan,Bolt,Mindelo,Kayes,Bouaké,Saint-Louis,Mopti,Sunyani,Sokoto,Niamey,Gbarnga,Yamoussoukro,Nzérékoré,Korhogo,Lafia,Sokodé"
 },
 {
     "name": "Waboda",
@@ -10891,7 +10891,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Waboda,Bissau,Timbuktu,Banjul,Katsina,Ouagadougou,Bouaké,Nouakchott,Kaolack,Kayes,Korhogo,Gbarnga,Ségou,Kumasi,Sokodé,Daloa,Maiduguri,Ziguinchor,Conakry,Bertoua,Man,Niamey,Monrovia,Koidu,Porto-Novo,Tamale,Kumba,Kano"
 },
 {
     "name": "Waffa",
@@ -10900,7 +10900,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Waffa,Bamako,Banjul,Daloa,Zinder,Bobo-Dioulasso,Kankan,Koudougou,Abidjan,Dakar,Gbarnga,Maiduguri,Kaolack,Freetown,Bolama,Koidu,Niamey,Tambacounda,Ebebiyín,Kayes,Mopti,Monrovia,Saint-Louis,Malabo,Katsina,Porto-Novo,Parakou,Thiès"
 },
 {
     "name": "Wahgi",
@@ -10909,7 +10909,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Wahgi,Rabaul,Kimbe,Goroka,Nipa,Kundiawa,Bulolo,Kieta,Tari,Buka,Lake Kopiago,Daru,Aitape,Popondetta,Chuave,Oksapmin,Olsobip,Kerema,Madang,Mount Hagen,Kokopo,Kainantu,Tabubil,Karamui,Bogia,Nuku,Kikori,Aseki"
 },
 {
     "name": "Waimoa",
@@ -10918,7 +10918,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Waimoa,Bamako,Sokodé,Praia,Jalingo,Bissau,Banjul,Gbarnga,Kayes,Bouaké,Freetown,Mopti,Ségou,Koudougou,Sikasso,Korhogo,Basse,Porto-Novo,Kara,Daloa,Ziguinchor,Ouagadougou,Brikama,Katsina,Sunyani,Monrovia,Sokoto,Tenkodogo"
 },
 {
     "name": "Walak",
@@ -10927,7 +10927,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Walak,Kutaisi,Mtskheta,Zugdidi,Kaspiysk,Gori,Kobuleti,Kizilyurt,Nalchik,Storozhevaya,Buynaksk,Vladikavkaz,Kizlyar,Labinsk,Slavyansk-na-Kubani,Makhachkala,Samashki,Baksan,Nazran,Achkhoy-Martan,Ardon,Abinsk,Karabulaq,Sighnaghi,Izberbash,Urus-Martan,Alagir,Nartkala"
 },
 {
     "name": "Wambon",
@@ -10936,7 +10936,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Wambon,Bamako,Accra,Lomé,Daloa,Bobo-Dioulasso,Basse,Koudougou,Man,Tema,Freetown,Ziguinchor,Kaolack,Mopti,Ségou,Ebebiyín,Saint-Louis,Bauchi,Bafatá,Cotonou,Cacheu,Bouaké,Porto-Novo,Katsina,Bertoua,Ouagadougou,Tambacounda,Gbarnga"
 },
 {
     "name": "Wano",
@@ -10945,7 +10945,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Wano,Accra,Bertoua,Wa,Abidjan,Jalingo,Bamako,Kankan,Dakar,Freetown,Korhogo,Banjul,Katsina,Bolama,Bouaké,Nouakchott,Tema,Kayes,Lomé,Garoua,Tamale,Maiduguri,Nzérékoré,Saint-Louis,Mopti,Sunyani,Niamey,Cacheu"
 },
 {
     "name": "Waruna",
@@ -10954,7 +10954,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Waruna,Jalingo,Bissau,Bamako,Conakry,Gbarnga,Bafatá,Dakar,Lomé,Kaolack,Tamale,Kara,Bobo-Dioulasso,Bouaké,Ségou,Katsina,Kumasi,Warri,Koudougou,Ouagadougou,Nouakchott,Man,Timbuktu,Daloa,Sokodé,Nzérékoré,Kaduna,Praia"
 },
 {
     "name": "Wayan",
@@ -10963,7 +10963,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Wayan,Abidjan,Daloa,Banjul,Koidu,Kaduna,Bafatá,Malabo,Bobo-Dioulasso,Bissau,Freetown,Gbarnga,Kaolack,Gusau,Thiès,Koudougou,Man,Porto-Novo,Maiduguri,Sokodé,Kumba,Ségou,Monrovia,Ouagadougou,Sikasso,Tamale,Tambacounda,Cacheu"
 },
 {
     "name": "Were",
@@ -10972,7 +10972,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Were,Malabo,Bertoua,Katsina,Basse,Warri,Kaolack,Man,Mindelo,Praia,Kankan,Accra,Bamenda,Mopti,Kumba,Kumasi,Korhogo,Bobo-Dioulasso,Nouakchott,Freetown,Niamey,Dakar,Sokodé,Bafatá,Zinder,Conakry,Tambacounda,Kara"
 },
 {
     "name": "Weri",
@@ -10981,7 +10981,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Weri,Banjul,Abidjan,Jalingo,Bamako,Basse,Jos,Bertoua,Bamenda,Maiduguri,Koudougou,Bobo-Dioulasso,Kayes,Mopti,Koidu,Sokoto,Bafatá,Dakar,Nouakchott,Kara,Praia,Kankan,Nzérékoré,Yamoussoukro,Zinder,Freetown,Bauchi,Korhogo"
 },
 {
     "name": "Wersing",
@@ -10990,7 +10990,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Wersing,Accra,Tema,Bobo-Dioulasso,Wa,Koudougou,Daloa,Kankan,Freetown,Ziguinchor,Katsina,Monrovia,Ségou,Kayes,Niamey,Bolama,Parakou,Gusau,Korhogo,Mopti,Sokodé,Dakar,Porto-Novo,Conakry,Bouaké,Nzérékoré,Sunyani,Nouakchott"
 },
 {
     "name": "West Bomberai",
@@ -10999,7 +10999,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "West Bomberai,Kumba,Bobo-Dioulasso,Cotonou,Bissau,Kankan,Gbarnga,Koudougou,Freetown,Bertoua,Korhogo,Ouagadougou,Kayes,Sokodé,Tema,Lomé,Sikasso,Warri,Monrovia,Parakou,Banfora,Praia,Niamey,Man,Zinder,Bamenda,Sunyani,Sokoto"
 },
 {
     "name": "Western",
@@ -11008,7 +11008,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Western,Bouaké,Accra,Abidjan,Bobo-Dioulasso,Ziguinchor,Cotonou,Bamako,Conakry,Katsina,Daloa,Kankan,Kayes,Timbuktu,Koidu,Kaduna,Sokodé,Monrovia,Sikasso,Kaolack,Tambacounda,Kumasi,Lomé,Tema,Wa,Zaria,Ouahigouya,Bauchi"
 },
 {
     "name": "Western Dani",
@@ -11017,7 +11017,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Western Dani,Nipa,Lake Kopiago,Kimbe,Arawa,Goroka,Wewak,Mount Hagen,Kieta,Vanimo,Popondetta,Kaintiba,Buka,Wapenamanda,Kundiawa,Wau,Kiunga,Mendi,Olsobip,Bulolo,Saidor,Morehead,Oksapmin,Menyamya,Kerema,Banz,Chuave,Kainantu"
 },
 {
     "name": "Western Pantar",
@@ -11026,7 +11026,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Western Pantar,Johor Bahru,Palembang,Makassar,Semarang,Angaur,Surabaya,Davao,Munda,Kuala Belait,Muara,Zamboanga,Malekula,Majuro,Kuching,Malacca,Jerudong,Ba,Suva,Ipoh,Pentecost,Alotau,Kavieng,Jakarta,Gizo,Manila,Sigatoka,Savusavu"
 },
 {
     "name": "Wiru",
@@ -11035,7 +11035,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Wiru,Accra,Daloa,Banjul,Sokodé,Conakry,Nouakchott,Cotonou,Kara,Kaduna,Wukari,Kumasi,Ouagadougou,Kankan,Mopti,Kano,Katsina,Parakou,Tema,Bauchi,Malabo,Kumba,Abidjan,Brikama,Zaria,Assomada,Ségou,Sikasso"
 },
 {
     "name": "Wolani",
@@ -11044,7 +11044,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Wolani,Bissau,Bobo-Dioulasso,Cotonou,Katsina,Bertoua,Banjul,Freetown,Koidu,Monrovia,Conakry,Daloa,Koudougou,Ebebiyín,Nzérékoré,Man,Korhogo,Timbuktu,Ouagadougou,Ziguinchor,Tamale,Bamenda,Bolt,Bamako,Sikasso,Tema,Nouakchott,Cacheu"
 },
 {
     "name": "Wolio",
@@ -11053,7 +11053,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Wolio,Ziguinchor,Bissau,Bamako,Conakry,Bouaké,Koudougou,Dakar,Bamenda,Kayes,Kankan,Gbarnga,Assomada,Bafatá,Lomé,Parakou,Korhogo,Daloa,Ouagadougou,Sunyani,Timbuktu,Cotonou,Mopti,Man,Tambacounda,Ségou,Kano,Porto-Novo"
 },
 {
     "name": "Yagaria",
@@ -11062,7 +11062,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Yagaria,Basse,Daloa,Koidu,Katsina,Bamako,Bouaké,Zaria,Gbarnga,Freetown,Malabo,Porto-Novo,Kankan,Cotonou,Korhogo,Nzérékoré,Parakou,Saint-Louis,Koudougou,Wa,Man,Nouakchott,Brikama,Kano,Bafatá,Tambacounda,Ouagadougou,Niamey"
 },
 {
     "name": "Yagwoia",
@@ -11071,7 +11071,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Yagwoia,Wa,Daloa,Gbarnga,Conakry,Dakar,Saint-Louis,Ségou,Bafatá,Kayes,Bouaké,Kano,Ebebiyín,Mopti,Sikasso,Kumba,Abidjan,Nouakchott,Bamako,Sokoto,Basse,Maiduguri,Bauchi,Banjul,Niamey,Yola,Ngaoundéré,Jos"
 },
 {
     "name": "Yali",
@@ -11080,7 +11080,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Yali,Lae,Port Moresby,Goroka,Kavieng,Madang,Lorengau,Kimbe,Tari,Arawa,Buka,Angoram,Mount Hagen,Wewak,Vanimo,Bogia,Balimo,Kerema,Telefomin,Okapa,Menyamya,Wapenamanda,Ningerum,Kiunga,Kainantu,Aseki,Tambul,Ambunti"
 },
 {
     "name": "Yaqay",
@@ -11089,7 +11089,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Yaqay,Kaduna,Cotonou,Dakar,Sikasso,Kankan,Katsina,Kano,Kara,Lomé,Daloa,Man,Ebebiyín,Ziguinchor,Bafatá,Korhogo,Maiduguri,Saint-Louis,Koudougou,Parakou,Warri,Tambacounda,Zaria,Malabo,Zinder,Freetown,Bertoua,Thiès"
 },
 {
     "name": "Yareba",
@@ -11098,7 +11098,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Yareba,Johor Bahru,Bandung,Suva,Medan,Ngerulmud,Port Vila,Bacolod,Cebu City,Zamboanga,Quezon City,Palembang,Cagayan de Oro,Malacca,Makassar,Semarang,Rabaul,Munda,Malekula,Muara,Kuching,Singapore,Ipoh,Sonsorol,Koror,Labasa,Epi,Davao"
 },
 {
     "name": "Yaweyuha",
@@ -11107,7 +11107,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Yaweyuha,Nouakchott,Banjul,Jos,Katsina,Kaduna,Conakry,Cacheu,Freetown,Bolama,Gbarnga,Kumasi,Parakou,Kankan,Bauchi,Kayes,Maiduguri,Sokodé,Mindelo,Tamale,Porto-Novo,Bafatá,Wa,Malabo,Zinder,Saint-Louis,Nzérékoré,Aconibe"
 },
 {
     "name": "Yekora",
@@ -11116,7 +11116,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Yekora,Bissau,Kano,Banjul,Sunyani,Accra,Conakry,Koidu,Cotonou,Kaolack,Mopti,Sokodé,Nouakchott,Praia,Yamoussoukro,Maroua,Kayes,Kankan,Maiduguri,Niamey,Ebebiyín,Garoua,Wa,Korhogo,Parakou,Zaria,Jos,Sokoto"
 },
 {
     "name": "Yipma",
@@ -11125,7 +11125,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Yipma,Lhokha,Chamdo,Nyingchi,Gangtok,Dalton Ganj,Mangan,Zhaotong,Lijiang,Pithoragarh,Lijiang,Daofu,Deqin,Mawlai,Rangpo,Kham,Batang,Trashigang,Punakha,Kangding,Thimphu,Dali,Paro,Rhenock,Pu'er,Rishikesh,Panzhihua,Jowai"
 },
 {
     "name": "Yogo (Tamagario)",
@@ -11134,7 +11134,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Yogo (Tamagario),Deqin,Chamdo,Xichang,Lijiang,Lhasa,Shigatse,Kangding,Rhenock,Rangpo,Thimphu,Chengdu,Mangan,Singtam,Pu'er,Trashigang,Nyingchi,Padum,Lijiang,Mawlai,Dalton Ganj,Pithoragarh,Sarchu,Lhokha,Baoshan,Rishikesh,Lincang,Jorthang"
 },
 {
     "name": "Yonggom",
@@ -11143,7 +11143,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Yonggom,Sokodé,Gbarnga,Cotonou,Man,Dakar,Praia,Bertoua,Lomé,Nouakchott,Accra,Kumasi,Ebebiyín,Bissau,Jalingo,Koudougou,Koidu,Bauchi,Korhogo,Mindelo,Lafia,Mopti,Porto-Novo,Kano,Ngaoundéré,Bouaké,Kumba,Nzérékoré"
 },
 {
     "name": "Zia",
@@ -11152,7 +11152,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Zia,Bamako,Ouagadougou,Cotonou,Bafatá,Kaolack,Daloa,Porto-Novo,Lomé,Katsina,Bamenda,Warri,Koudougou,Kaduna,Ségou,Bouaké,Maiduguri,Bauchi,Monrovia,Tambacounda,Man,Nouakchott,Mopti,Jalingo,Zinder,Tamale,Kano,Sokoto"
 },
 {
     "name": "Zimakani",
@@ -11161,7 +11161,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Zimakani,Sokodé,Gusau,Koidu,Accra,Conakry,Bouaké,Cotonou,Bobo-Dioulasso,Ouagadougou,Bamenda,Bissau,Basse,Mopti,Kaolack,Niamey,Wa,Timbuktu,Koudougou,Ziguinchor,Tambacounda,Bertoua,Porto-Novo,Ebebiyín,Monrovia,Parakou,Tema,Sikasso"
 },
 {
     "name": "ꞌAreꞌare",
@@ -11170,7 +11170,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "ꞌAreꞌare,Jakarta,Bandung,Kuala Lumpur,Makassar,Kavieng,Ipoh,Kuala Belait,Manila,Cebu City,Bandar Seri Begawan,Zamboanga,Port Vila,Majuro,Kuching,Semarang,Malekula,Luganville,Shah Alam,Malacca,Kokopo,Honiara,Jerudong,Labasa,Tanna,Iloilo City,Tulagi,Davao"
 },
 {
     "name": "Arin",
@@ -11179,7 +11179,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Arin,Mirny,Ust-Kamchatsk,Novosibirsk,Verkhoyansk,Snezhnogorsk,Bagdarin,Petropavlovsk-Kamchatsky,Bilibino,Zhigansk,Chersky,Suntar,Nyurba,Dudinka,Provideniya,Pevek,Oymyakon,Anadyr,Tigil,Myaundzha,Khandyga,Lavrentiya,Kozyrevsk,Anadyr,Olyokminsk,Egvekinot,Orotukan,Uelen"
 },
 {
     "name": "Assan",
@@ -11188,7 +11188,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Assan,Swakopmund,Mafikeng,Soweto,Bloemfontein,Vereeniging,Upington,Polokwane,Kimberley,Cape Town,Molepolole,Lilongwe,Mmabatho,Port Elizabeth,Klerksdorp,Harare,Bethal,Pietermaritzburg,Karonga,Masvingo,Rustenburg,Kwekwe,Livingstone,Maputo,Kitwe,Mafeteng,Salima,Tete"
 },
 {
     "name": "Jie",
@@ -11197,7 +11197,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Jie,Daloa,Timbuktu,Bauchi,Bobo-Dioulasso,Bissau,Lomé,Gbarnga,Koudougou,Monrovia,Kumba,Jalingo,Banjul,Koidu,Nouakchott,Kayes,Ebebiyín,Basse,Ségou,Katsina,Bertoua,Maiduguri,Saint-Louis,Yamoussoukro,Sunyani,Tenkodogo,Accra,Cacheu"
 },
 {
     "name": "Nivkh",
@@ -11206,7 +11206,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Nivkh,Yakutsk,Chersky,Norilsk,Barguzin,Lavrentiya,Khatanga,Zhigansk,Olyokminsk,Kargasok,Bely Yar,Mirny,Nyurba,Ust-Kamchatsk,Bagdarin,Tigil,Saskylakh,Kozyrevsk,Oymyakon,Palana,Esso,Orotukan,Okhotsk,Kadykchan,Uelen,Verkhoyansk,Kayerkan,Provideniya"
 },
 {
     "name": "Omok",
@@ -11215,7 +11215,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Omok,Verkhoyansk,Palana,Anadyr,Suntar,Orotukan,Oymyakon,Petropavlovsk-Kamchatsky,Khatanga,Kozyrevsk,Anadyr,Zhigansk,Yelizovo,Svetlogorsk,Ust-Kamchatsk,Yakutsk,Snezhnogorsk,Mirny,Beringovsky,Myaundzha,Uelen,Kolpashevo,Okhotsk,Novosibirsk,Egvekinot,Kargasok,Bilibino,Lavrentiya"
 },
 {
     "name": "Pumpokol",
@@ -11224,7 +11224,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Pumpokol,Magadan,Barguzin,Norilsk,Palana,Tiksi,Khandyga,Oymyakon,Anadyr,Okhotsk,Chokurdakh,Beringovsky,Petropavlovsk-Kamchatsky,Saskylakh,Nyurba,Olyokminsk,Tigil,Suntar,Khatanga,Svetlogorsk,Ust-Kamchatsk,Kargasok,Anadyr,Klyuchi,Provideniya,Norilsk,Ulan-Ude,Podgornoye"
 },
 {
     "name": "Southern Itelmen",
@@ -11233,7 +11233,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Southern Itelmen,Verkhoyansk,Tiksi,Palana,Oymyakon,Dudinka,Chersky,Lavrentiya,Magadan,Yelizovo,Okhotsk,Zhigansk,Suntar,Kozyrevsk,Nyurba,Olyokminsk,Beringovsky,Anadyr,Egvekinot,Kadykchan,Ust-Kamchatsk,Esso,Kargasok,Khatanga,Anadyr,Provideniya,Khandyga,Igarka"
 },
 {
     "name": "Southern Yukaghir",
@@ -11242,7 +11242,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Southern Yukaghir,Yakutsk,Verkhoyansk,Norilsk,Molchanovo,Lavrentiya,Oymyakon,Mirny,Khatanga,Suntar,Zhigansk,Palana,Nyurba,Orotukan,Olyokminsk,Ust-Kamchatsk,Provideniya,Kozyrevsk,Egvekinot,Kolpashevo,Anadyr,Ust-Nera,Krivosheino,Podgornoye,Pevek,Kayerkan,Esso,Igarka"
 },
 {
     "name": "Tundra Yukaghir",
@@ -11251,7 +11251,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Tundra Yukaghir,Molchanovo,Magadan,Mirny,Oymyakon,Yakutsk,Petropavlovsk-Kamchatsky,Kadykchan,Norilsk,Palana,Kozyrevsk,Verkhoyansk,Zhigansk,Khandyga,Nyurba,Ust-Kamchatsk,Esso,Anadyr,Klyuchi,Sosnovo-Ozerskoye,Olyokminsk,Bagdarin,Okhotsk,Podgornoye,Beringovsky,Chersky,Bilibino,Chita"
 },
 {
     "name": "Western Itelmen",
@@ -11260,7 +11260,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Western Itelmen,Snezhnogorsk,Mirny,Khatanga,Barguzin,Verkhoyansk,Petropavlovsk-Kamchatsky,Yelizovo,Ust-Kamchatsk,Chersky,Zhigansk,Okhotsk,Klyuchi,Nyurba,Lavrentiya,Kadykchan,Susuman,Khandyga,Palana,Myaundzha,Chokurdakh,Kayerkan,Talnakh,Ust-Nera,Sosnovo-Ozerskoye,Pevek,Uelen,Kozyrevsk"
 },
 {
     "name": "Yeniseian",
@@ -11269,7 +11269,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Yeniseian,Mirny,Petropavlovsk-Kamchatsky,Khatanga,Kargasok,Nyurba,Oymyakon,Klyuchi,Chokurdakh,Magadan,Norilsk,Snezhnogorsk,Barguzin,Saskylakh,Verkhoyansk,Yelizovo,Esso,Norilsk,Egvekinot,Chita,Beringovsky,Pevek,Molchanovo,Talnakh,Okhotsk,Olyokminsk,Orotukan,Uelen"
 },
 {
     "name": "Yugh",
@@ -11278,7 +11278,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Yugh,Norilsk,Yelizovo,Magadan,Tiksi,Bilibino,Anadyr,Lavrentiya,Verkhoyansk,Olyokminsk,Ulan-Ude,Klyuchi,Chersky,Svetlogorsk,Okhotsk,Kayerkan,Nyurba,Khandyga,Kadykchan,Dudinka,Krivosheino,Kolpashevo,Khatanga,Chita,Uelen,Provideniya,Yakutsk,Bely Yar"
 },
 {
     "name": "Angami Pochuri",
@@ -11287,7 +11287,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Angami Pochuri,Koidu,Man,Daloa,Nouakchott,Dakar,Jalingo,Kankan,Bissau,Zaria,Korhogo,Kaolack,Monrovia,Banjul,Bauchi,Ebebiyín,Parakou,Saint-Louis,Zinder,Bafatá,Timbuktu,Thiès,Mopti,Bolama,Assomada,Ségou,Niamey,Kayes"
 },
 {
     "name": "Bijiang Bai",
@@ -11296,7 +11296,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Bijiang Bai,Daloa,Bissau,Timbuktu,Banjul,Bamenda,Bobo-Dioulasso,Koudougou,Conakry,Cotonou,Gbarnga,Abidjan,Bolt,Mopti,Basse,Koidu,Kara,Nouakchott,Lomé,Korhogo,Man,Ziguinchor,Ebebiyín,Kumba,Bata,Bertoua,Sokodé,Tema"
 },
 {
     "name": "Boro Garo",
@@ -11305,7 +11305,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Boro Garo,Kunming,Zhongdian,Mangan,Almora,Barkam,Leh,Nagqu,Deqin,Pu'er,Zhaotong,Haldwani,Lhasa,Paro,Gangtok,Jakar,Jorthang,Namchi,Rishikesh,Cherrapunji,Daofu,Rhenock,Lincang,Mianyang,Dehradun,Garzê,Chamdo,Sarchu"
 },
 {
     "name": "Dali Bai",
@@ -11314,7 +11314,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Dali Bai,Bouaké,Banjul,Cotonou,Bissau,Dakar,Daloa,Kaduna,Nouakchott,Bamenda,Korhogo,Kankan,Kara,Gbarnga,Niamey,Jalingo,Bafatá,Koidu,Man,Ouagadougou,Accra,Lomé,Kano,Malabo,Ebebiyín,Porto-Novo,Gusau,Koudougou"
 },
 {
     "name": "Digaro Mishmi",
@@ -11323,7 +11323,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Digaro Mishmi,Ngari,Lhasa,Xichang,Aba,Lijiang,Barkam,Chengdu,Thimphu,Nagqu,Melli,Panzhihua,Trongsa,Luhuo,Wangdue,Kham,Dalton Ganj,Rangpo,Kunming,Jorthang,Lhokha,Namchi,Trashigang,Paro,Yuánmóu,Mianyang,Cherrapunji,Shillong"
 },
 {
     "name": "Heqing Bai dialect",
@@ -11332,7 +11332,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Heqing Bai dialect,Abidjan,Bamako,Bobo-Dioulasso,Gbarnga,Garoua,Bouaké,Kaolack,Ouagadougou,Freetown,Daloa,Tema,Porto-Novo,Tambacounda,Koudougou,Nzérékoré,Maiduguri,Bauchi,Monrovia,Niamey,Kumasi,Assomada,Lomé,Man,Zinder,Parakou,Kayes,Buea"
 },
 {
     "name": "Idu Taraon",
@@ -11341,7 +11341,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Idu Taraon,Accra,Banjul,Bissau,Nouakchott,Kankan,Maroua,Jos,Garoua,Korhogo,Kaolack,Freetown,Bafoussam,Lomé,Bafatá,Nzérékoré,Parakou,Kayes,Tambacounda,Mindelo,Tamale,Thiès,Porto-Novo,Maiduguri,Yamoussoukro,Warri,Sunyani,Zaria"
 },
 {
     "name": "Jingpho",
@@ -11350,7 +11350,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Jingpho,Changsha,Tianjin,Hunchun,Jinan,Hefei,Taoyuan,Nanchang,Incheon,Xi'an,Chengdu,Fuzhou,Nanjing,Nanning,Tainan,Suzhou,Ürümqi,Lanzhou,Chongjin,Shanghai,Zhongshan,Busan,Jeonju,Goyang,Wuxi,Hangzhou,Zibo,Chongqing"
 },
 {
     "name": "Jingpho Luish",
@@ -11359,7 +11359,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Jingpho Luish,Guangzhou,Incheon,Chengdu,Changsha,Dalian,Nanning,Changwon,Ulsan,Harbin,Qingdao,Shenzhen,Ürümqi,Wuxi,Shenyang,Seoul,Zibo,Jinan,Busan,Tumen,Taichung,Tainan,Yanji,Zhuhai,New Taipei,Daegu,Hsinchu,Pyongyang"
 },
 {
     "name": "Jino",
@@ -11368,7 +11368,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Jino,Chamdo,Jorthang,Kangding,Zhaotong,Punakha,Nyingchi,Rangpo,Namchi,Gangtok,Dehradun,Zhongdian,Tura,Mawlai,Wangdue,Melli,Samdrup Jongkhar,Leshan,Weixi,Xichang,Nongstoin,Chengdu,Trongsa,Pu'er,Baoshan,Ngari,Xichong,Lincang"
 },
 {
     "name": "Lolo Burmese",
@@ -11377,7 +11377,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Lolo Burmese,Nyingchi,Lhasa,Dali,Barkam,Xichang,Sarchu,Wangdue,Weixi,Namchi,Melli,Daofu,Nainital,Zhongdian,Paro,Rangpo,Chamdo,Shillong,Umroi,Padum,Thimphu,Baoshan,Chengdu,Lincang,Zhaotong,Mianyang,Kangding,Daocheng"
 },
 {
     "name": "Longjia Luren",
@@ -11386,7 +11386,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Longjia Luren,Bouaké,Bamako,Banjul,Gbarnga,Cotonou,Bamenda,Abidjan,Bafatá,Ziguinchor,Katsina,Kayes,Sokodé,Koidu,Ebebiyín,Lafia,Garoua,Saint-Louis,Monrovia,Ouagadougou,Man,Jalingo,Porto-Novo,Nouakchott,Accra,Kaduna,Praia,Kano"
 },
 {
     "name": "Lotha",
@@ -11395,7 +11395,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Lotha,Nouakchott,Daloa,Bamako,Brikama,Kaduna,Bouaké,Katsina,Kano,Kaolack,Niamey,Kumasi,Jalingo,Ouagadougou,Koudougou,Kumba,Maroua,Man,Mopti,Lomé,Tamale,Thiès,Accra,Sunyani,Bertoua,Ségou,Assomada,Basse"
 },
 {
     "name": "Macro Bai",
@@ -11404,7 +11404,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Macro Bai,Lomé,Ziguinchor,Bamako,Gbarnga,Bissau,Bamenda,Kankan,Kara,Bauchi,Ouagadougou,Kumasi,Freetown,Bouaké,Koidu,Timbuktu,Conakry,Saint-Louis,Koudougou,Nouakchott,Mopti,Bolt,Accra,Praia,Minna,Assomada,Kaduna,Bertoua"
 },
 {
     "name": "Mahakiranti",
@@ -11413,7 +11413,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Mahakiranti,Zhaotong,Nyingchi,Shigatse,Deqin,Haridwar,Mangan,Melli,Lhasa,Dali,Punakha,Leh,Namchi,Yibin,Cherrapunji,Rangpo,Kangding,Leshan,Nongstoin,Weixi,Jowai,Nainital,Rhenock,Nagqu,Mussoorie,Pu'er,Lijiang,Zhongdian"
 },
 {
     "name": "Meitei macro entry",
@@ -11422,7 +11422,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Meitei macro entry,Chuxiong,Samdrup Jongkhar,Xichang,Xichang,Jorthang,Chamdo,Zhongdian,Melli,Weixi,Lhokha,Panzhihua,Namchi,Mussoorie,Wangdue,Litang,Lijiang,Mangan,Pithoragarh,Shillong,Paro,Garzê,Baoshan,Pu'er,Rangpo,Mianyang,Yibin,Jakar"
 },
 {
     "name": "Miju",
@@ -11431,7 +11431,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Miju,Accra,Banjul,Bouaké,Conakry,Kankan,Bamako,Mopti,Saint-Louis,Daloa,Koidu,Katsina,Kara,Basse,Niamey,Sokodé,Thiès,Bauchi,Kumasi,Zaria,Sunyani,Bobo-Dioulasso,Garoua,Yamoussoukro,Timbuktu,Ziguinchor,Lomé,Ebebiyín"
 },
 {
     "name": "Miju Meyor",
@@ -11440,7 +11440,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Miju Meyor,Kankan,Conakry,Tarrafal,Bamako,Thiès,Wa,Gbarnga,Dakar,Kaduna,Mopti,Kumasi,Kaolack,Ségou,Ngaoundéré,Assomada,Saint-Louis,Tenkodogo,Abidjan,Sunyani,Maiduguri,Minna,Bissau,Bauchi,Ouagadougou,Tema,Lafia,Sikasso"
 },
 {
     "name": "Milang",
@@ -11449,7 +11449,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Milang,Katsina,Accra,Tambacounda,Dakar,Bertoua,Freetown,Kaolack,Kankan,Monrovia,Gbarnga,Nouakchott,Basse,Porto-Novo,Kayes,Koudougou,Niamey,Bamako,Thiès,Bissau,Lomé,Man,Sokoto,Jos,Kano,Ségou,Lafia,Bauchi"
 },
 {
     "name": "Mongsen Ao",
@@ -11458,7 +11458,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Mongsen Ao,Chiang Mai,Hanoi,Hue,Hai Phong,Phongsali,Bangkok,Phan Thiet,Hat Yai,Udon Thani,Pakse,Pathein,Luang Prabang,Battambang,Chiềng Mai,Guilin,Takeo,Mandalay,Xieng Khouang,Kampong Cham,Chiang Rai,Điện Biên Phủ,Thakhek,Beihai,Mawlamyine,Myitkyina,Wuzhou,Phuket"
 },
 {
     "name": "Mruic",
@@ -11467,7 +11467,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Mruic,Koidu,Bamako,Katsina,Kara,Kaduna,Daloa,Ouagadougou,Banjul,Gbarnga,Kaolack,Sokodé,Conakry,Mopti,Kano,Tema,Saint-Louis,Bauchi,Man,Abidjan,Tambacounda,Gusau,Basse,Jalingo,Monrovia,Nzérékoré,Dakar,Bamenda"
 },
 {
     "name": "Naxi",
@@ -11476,7 +11476,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Naxi,Chamdo,Barkam,Lhasa,Shigatse,Kangding,Nyingchi,Tura,Zhaotong,Lhokha,Zhongdian,Trashigang,Rangpo,Namchi,Gangtok,Melli,Rhenock,Batang,Weixi,Deqin,Punakha,Mawlai,Jorthang,Dalton Ganj,Xichang,Dali,Samdrup Jongkhar,Lijiang"
 },
 {
     "name": "Newaric",
@@ -11485,7 +11485,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Newaric,Barkam,Leh,Ngari,Zhaotong,Nyingchi,Trongsa,Shigatse,Lijiang,Xichang,Jowai,Umroi,Chamdo,Weixi,Koksar,Melli,Paro,Namchi,Rangpo,Singtam,Mangan,Mussoorie,Cherrapunji,Padum,Deqin,Garzê,Yibin,Jakar"
 },
 {
     "name": "Nishi",
@@ -11494,7 +11494,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Nishi,Dakar,Abidjan,Banjul,Bertoua,Praia,Niamey,Katsina,Kara,Tema,Saint-Louis,Kumasi,Nouakchott,Korhogo,Bissau,Nzérékoré,Daloa,Lomé,Kaduna,Conakry,Man,Ebebiyín,Tambacounda,Basse,Sikasso,Mopti,Yamoussoukro,Sokoto"
 },
 {
     "name": "Northern Qiang",
@@ -11503,7 +11503,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Northern Qiang,Lijiang,Shigatse,Jorthang,Mangan,Ngari,Nagqu,Lhokha,Barkam,Chamdo,Chuxiong,Lhasa,Namchi,Jowai,Chengdu,Batang,Weixi,Thimphu,Sarchu,Leh,Melli,Pithoragarh,Punakha,Trashigang,Rishikesh,Leshan,Trongsa,Kunming"
 },
 {
     "name": "Nu",
@@ -11512,7 +11512,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Nu,Accra,Wa,Bouaké,Nouakchott,Dakar,Freetown,Katsina,Abidjan,Kayes,Sunyani,Conakry,Ziguinchor,Kumasi,Niamey,Porto-Novo,Maiduguri,Saint-Louis,Bamako,Kara,Ouagadougou,Kano,Koidu,Thiès,Sokodé,Zaria,Parakou,Sikasso"
 },
 {
     "name": "Nung",
@@ -11521,7 +11521,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Nung,Abidjan,Banjul,Praia,Dakar,Kaolack,Bouaké,Cotonou,Katsina,Ségou,Sokodé,Bissau,Jalingo,Mopti,Basse,Bamako,Parakou,Nouakchott,Koudougou,Korhogo,Maiduguri,Bertoua,Banfora,Yamoussoukro,Man,Nzérékoré,Tambacounda,Kaduna"
 },
 {
     "name": "Nungish",
@@ -11530,7 +11530,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Nungish,Abidjan,Bouaké,Gbarnga,Cotonou,Koudougou,Daloa,Bamako,Kara,Freetown,Kankan,Lomé,Sokodé,Mopti,Man,Bissau,Saint-Louis,Tenkodogo,Ziguinchor,Ouagadougou,Niamey,Kumba,Porto-Novo,Yamoussoukro,Nzérékoré,Lafia,Bobo-Dioulasso,Jalingo"
 },
 {
     "name": "Nusu",
@@ -11539,7 +11539,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Nusu,Bissau,Maiduguri,Bobo-Dioulasso,Conakry,Bafatá,Abidjan,Zinder,Bamako,Banjul,Kayes,Warri,Ebebiyín,Mopti,Nouakchott,Korhogo,Tenkodogo,Saint-Louis,Tamale,Lomé,Koudougou,Jos,Cotonou,Garoua,Bamenda,Lafia,Porto-Novo,Praia"
 },
 {
     "name": "Phom",
@@ -11548,7 +11548,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Phom,Tenkodogo,Bamako,Bobo-Dioulasso,Man,Dakar,Accra,Monrovia,Cotonou,Tema,Korhogo,Porto-Novo,Kaolack,Gbarnga,Kara,Yamoussoukro,Kumasi,Abidjan,Ziguinchor,Garoua,Banjul,Parakou,Saint-Louis,Bouaké,Niamey,Koidu,Lafia,Ouagadougou"
 },
 {
     "name": "Proto Hakka",
@@ -11557,7 +11557,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
+  "b": "Proto Hakka,Chengdu,Shenyang,Guangzhou,Incheon,Tianjin,Harbin,Xi'an,New Taipei,Jinan,Chongjin,Zibo,Ulsan,Suzhou,Wonsan,Shenzhen,Seoul,Suwon,Gwangju,Taoyuan,Ürümqi,Hsinchu,Kaohsiung,Dalian,Zhengzhou,Pyongyang,Yongin,Zhuhai"
 },
 {
     "name": "Proto Loloish",
@@ -11566,7 +11566,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Proto Loloish,Chamdo,Nainital,Kangding,Batang,Ngari,Chuxiong,Trashigang,Weixi,Sarchu,Lijiang,Singtam,Jowai,Dehradun,Zigong,Gangtok,Rishikesh,Namchi,Melli,Cherrapunji,Rhenock,Jorthang,Barkam,Xichang,Paro,Deqin,Baoshan,Dalton Ganj"
 },
 {
     "name": "Proto Min",
@@ -11575,7 +11575,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Proto Min,Ziguinchor,Ebebiyín,Tambacounda,Maiduguri,Bamenda,Jalingo,Ouagadougou,Timbuktu,Kayes,Bobo-Dioulasso,Man,Kankan,Bamako,Koudougou,Koidu,Kaduna,Cotonou,Bertoua,Bafatá,Sunyani,Porto-Novo,Zinder,Parakou,Sokodé,Ségou,Jos,Sokoto"
 },
 {
     "name": "Proto Sino Tibetan",
@@ -11584,7 +11584,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Proto Sino Tibetan,Chamdo,Xichang,Kham,Punakha,Barkam,Nyingchi,Deqin,Zhaotong,Lincang,Batang,Dehradun,Weixi,Paro,Zigong,Daofu,Trashigang,Shillong,Sarchu,Ngari,Leshan,Chengdu,Yibin,Padum,Panzhihua,Jakar,Leh,Mangan"
 },
 {
     "name": "Puroik",
@@ -11593,7 +11593,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Puroik,Daloa,Bouaké,Cotonou,Bamenda,Dakar,Conakry,Kara,Katsina,Bamako,Kaduna,Timbuktu,Ziguinchor,Bissau,Banjul,Monrovia,Koidu,Bauchi,Man,Lomé,Accra,Mopti,Banfora,Sunyani,Bobo-Dioulasso,Sokodé,Niamey,Cacheu"
 },
 {
     "name": "Pyu",
@@ -11602,7 +11602,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Pyu,Timbuktu,Banjul,Bissau,Katsina,Sokodé,Dakar,Gbarnga,Cotonou,Freetown,Kara,Lomé,Korhogo,Abidjan,Ségou,Bamako,Mopti,Yamoussoukro,Ziguinchor,Maiduguri,Ouagadougou,Tambacounda,Niamey,Nouakchott,Sokoto,Tema,Parakou,Kano"
 },
 {
     "name": "Qiang",
@@ -11611,7 +11611,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Qiang,Chamdo,Shigatse,Ngari,Jorthang,Kangding,Xichang,Barkam,Garzê,Mangan,Thimphu,Dali,Lijiang,Leh,Melli,Lincang,Rangpo,Leshan,Rishikesh,Deqin,Jakar,Singtam,Cherrapunji,Pithoragarh,Panzhihua,Lijiang,Umroi,Xichong"
 },
 {
     "name": "Raji Raute",
@@ -11620,7 +11620,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Raji Raute,Dillingham,Juneau,Sitka,Fairbanks,Gallup,Terrace,Ilulissat,Kenai,Haines,Edmonton,Reykjavik,Victoria,Calgary,Smithers,Shiprock,Norman Wells,Anchorage,Sisimiut,Chinle,Nome,Santa Fe,Toronto,Nome,Los Alamos,Kodiak,Tasiilaq,Hay River"
 },
 {
     "name": "Rouruo",
@@ -11629,7 +11629,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Rouruo,Bogotá,Cartagena,Santo Domingo,São José dos Campos,Portoviejo,Talca,Chiclayo,Cuenca,Loja,Barranquilla,Ambato,Iquitos,Pereira,Pedro Juan Caballero,Buenos Aires,Mitú,Ciudad del Este,Sucre,Oruro,La Paz,Rio Branco,Piura,Arica,Salta,Tarija,Trujillo,Cochabamba"
 },
 {
     "name": "Rung",
@@ -11638,7 +11638,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Rung,Bamako,Ziguinchor,Lomé,Tema,Bertoua,Banjul,Freetown,Tambacounda,Abidjan,Koudougou,Timbuktu,Malabo,Bissau,Korhogo,Nouakchott,Tenkodogo,Mopti,Saint-Louis,Sunyani,Porto-Novo,Buea,Wa,Cotonou,Kaduna,Assomada,Lafia,Koidu"
 },
 {
     "name": "Shaozhou Tuhua",
@@ -11647,7 +11647,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Shaozhou Tuhua,Dalian,Shenyang,Harbin,Chongjin,Wuhan,Lanzhou,Zhuhai,Jinan,Seoul,Nanjing,Jilin,Chongqing,Daegu,Fuzhou,Suzhou,Zhongshan,Xi'an,Tianjin,Taoyuan,Danchon,New Taipei,Kaohsiung,Gwangju,Nanning,Chengdu,Zhengzhou,Goyang"
 },
 {
     "name": "Southern Qiang",
@@ -11656,7 +11656,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Southern Qiang,Kangding,Rangpo,Lhasa,Zhaotong,Chamdo,Deqin,Ngari,Trashigang,Lhokha,Gangtok,Chuxiong,Kunming,Paro,Leshan,Pithoragarh,Koksar,Melli,Punakha,Cherrapunji,Shillong,Lincang,Nagqu,Xichang,Nyingchi,Mianyang,Mawlai,Sarchu"
 },
 {
     "name": "Sümi",
@@ -11665,7 +11665,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Sümi,Accra,Lomé,Katsina,Tema,Conakry,Gusau,Sunyani,Kara,Dakar,Malabo,Freetown,Zaria,Mopti,Niamey,Koudougou,Parakou,Jos,Bolama,Farafenni,Koidu,Tamale,Porto-Novo,Yamoussoukro,Kaduna,Ségou,Bissau,Sikasso"
 },
 {
     "name": "Thadou",
@@ -11674,7 +11674,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Thadou,Shigatse,Nyingchi,Barkam,Lhasa,Lhokha,Chuxiong,Trashigang,Jorthang,Nongstoin,Kham,Almora,Kangding,Weixi,Melli,Jakar,Gangtok,Kunming,Deqin,Panzhihua,Thimphu,Trongsa,Paro,Pu'er,Yuánmóu,Wangdue,Samdrup Jongkhar,Rhenock"
 },
 {
     "name": "Tibetic",
@@ -11683,7 +11683,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Tibetic,Sokodé,Lomé,Koudougou,Banjul,Tema,Ziguinchor,Katsina,Bertoua,Monrovia,Dakar,Kankan,Gbarnga,Kayes,Kumasi,Basse,Conakry,Daloa,Mopti,Ouagadougou,Korhogo,Bamenda,Brikama,Bouaké,Parakou,Bissau,Sikasso,Timbuktu"
 },
 {
     "name": "Tibeto Kanauri",
@@ -11692,7 +11692,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Tibeto Kanauri,Bissau,Bamako,Gbarnga,Ouagadougou,Tambacounda,Bouaké,Kankan,Banjul,Katsina,Bobo-Dioulasso,Yamoussoukro,Nouakchott,Sokodé,Bertoua,Man,Timbuktu,Basse,Koidu,Kumasi,Niamey,Thiès,Monrovia,Bafatá,Korhogo,Assomada,Dakar,Porto-Novo"
 },
 {
     "name": "Xiangnan Tuhua",
@@ -11701,7 +11701,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Xiangnan Tuhua,Hangzhou,Chongqing,Zhuhai,Gwangju,Nanchang,Shenyang,Tianjin,Dalian,Taiyuan,Guangzhou,Hefei,Gaecheon,Jilin,Cheongju,Lanzhou,Xiamen,Nanning,Wuxi,Taoyuan,Qingdao,Zhongshan,Ürümqi,Mudanjiang,Keelung,Yanji,Hsinchu,Danchon"
 },
 {
     "name": "Yitdut Bai",
@@ -11710,7 +11710,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Yitdut Bai,Pu'er,Lhasa,Kangding,Mussoorie,Deqin,Ngari,Rangpo,Xichang,Sarchu,Gangtok,Punakha,Lijiang,Mangan,Nainital,Barkam,Jakar,Dali,Rhenock,Weixi,Batang,Dalton Ganj,Haldwani,Namchi,Paro,Almora,Samdrup Jongkhar,Melli"
 },
 {
     "name": "Yitdut Bai lect",
@@ -11719,7 +11719,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Yitdut Bai lect,Shigatse,Lhokha,Mangan,Ngari,Nagqu,Kunming,Namchi,Rangpo,Sarchu,Dali,Leh,Deqin,Tura,Trongsa,Jorthang,Dehradun,Melli,Punakha,Cherrapunji,Rhenock,Pu'er,Daofu,Padum,Jakar,Paro,Mianyang,Panzhihua"
 },
 {
     "name": "Zakhring",
@@ -11728,7 +11728,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Zakhring,Abidjan,Bissau,Banjul,Daloa,Bouaké,Ebebiyín,Tambacounda,Kara,Basse,Kaolack,Man,Cacheu,Kano,Porto-Novo,Nzérékoré,Bobo-Dioulasso,Bauchi,Tamale,Jalingo,Bertoua,Garoua,Yola,Ségou,Kankan,Gbarnga,Niamey,Buea"
 },
 {
     "name": "Zho",
@@ -11737,7 +11737,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Zho,Kankan,Malabo,Cotonou,Conakry,Bouaké,Dakar,Bobo-Dioulasso,Kara,Freetown,Koudougou,Sokodé,Kayes,Banjul,Kumasi,Lafia,Lomé,Ouagadougou,Maiduguri,Saint-Louis,Jalingo,Sokoto,Kaduna,Parakou,Nouakchott,Niamey,Tarrafal,Tamale"
 },
 {
     "name": "Andoque",
@@ -11746,7 +11746,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Andoque,Medellín,Barranquilla,Bucaramanga,Paysandú,Cúcuta,Quito,Caacupé,Cochabamba,Portoviejo,Trujillo,Manaus,Chiclayo,Londrina,El Alto,Puyo,Tarija,São José dos Campos,Iquitos,San Ignacio,Villarrica,Arica,Encarnación,Huancayo,Temuco,La Plata,Macas,Guayaquil"
 },
 {
     "name": "Araona",
@@ -11755,7 +11755,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Araona,Ziguinchor,Accra,Bamako,Gbarnga,Kankan,Koudougou,Bamenda,Koidu,Maroua,Kara,Bouaké,Ebebiyín,Ségou,Basse,Man,Parakou,Ouagadougou,Bobo-Dioulasso,Sunyani,Tema,Monrovia,Mopti,Daloa,Freetown,Sokodé,Porto-Novo,Kumba"
 },
 {
     "name": "Argentinian Rioplatense Spanish",
@@ -11764,7 +11764,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
+  "b": "Argentinian Rioplatense Spanish,Palermo,Marseille,Hamburg,Valencia,Berlin,Strasbourg,Zurich,Bordeaux,Seville,Zaragoza,Birmingham,Warsaw,Esbjerg,Helsinki,Liberec,Randers,Malmö,Florence,Stockholm,Edinburgh,Naples,Waterford,Wroclaw,Liverpool,Mosfellsbær,Milan,London"
 },
 {
     "name": "Arhuaco (Ikʉ)",
@@ -11773,7 +11773,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Arhuaco (Ikʉ),Saint-Louis,Bamako,Sokoto,Bissau,Daloa,Mopti,Kano,Dakar,Bafatá,Gbarnga,Nouakchott,Kumasi,Freetown,Kaolack,Korhogo,Koidu,Kankan,Bouaké,Parakou,Lomé,Maiduguri,Malabo,Yamoussoukro,Ngaoundéré,Banfora,Sikasso,Warri"
 },
 {
     "name": "Ayoreo",
@@ -11782,7 +11782,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Ayoreo,Banjul,Jos,Cotonou,Basse,Bertoua,Bissau,Kankan,Bata,Monrovia,Ouagadougou,Kara,Gusau,Freetown,Abidjan,Koudougou,Porto-Novo,Kumasi,Kaduna,Korhogo,Tambacounda,Ségou,Bolama,Yamoussoukro,Mopti,Nzérékoré,Man,Accra"
 },
 {
     "name": "Cofán",
@@ -11791,7 +11791,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Cofán,Daloa,Kumasi,Bobo-Dioulasso,Ziguinchor,Tamale,Bouaké,Freetown,Abidjan,Kankan,Korhogo,Accra,Mopti,Ebebiyín,Yamoussoukro,Tambacounda,Tarrafal,Praia,Sikasso,Banjul,Bissau,Nouakchott,Wa,Conakry,Parakou,Tenkodogo,Niamey,Wukari"
 },
 {
     "name": "Cogui",
@@ -11800,7 +11800,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Cogui,Kumasi,Korhogo,Accra,Daloa,Dakar,Bouaké,Cotonou,Kara,Freetown,Sokodé,Kaolack,Kano,Maiduguri,Bauchi,Basse,Abidjan,Banjul,Saint-Louis,Bobo-Dioulasso,Nouakchott,Niamey,Brikama,Ségou,Mopti,Kayes,Parakou,Kankan"
 },
 {
     "name": "Fulniô",
@@ -11809,7 +11809,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Fulniô,Bouaké,Bissau,Abidjan,Accra,Conakry,Man,Koidu,Bobo-Dioulasso,Jalingo,Katsina,Kaolack,Gbarnga,Kara,Koudougou,Kayes,Korhogo,Nouakchott,Lomé,Lafia,Maroua,Tema,Parakou,Bafatá,Monrovia,Cotonou,Kumba,Sikasso"
 },
 {
     "name": "Guajajara (Tenetehara)",
@@ -11818,7 +11818,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Guajajara (Tenetehara),Kano,Bobo-Dioulasso,Abidjan,Timbuktu,Ebebiyín,Lomé,Bamako,Sikasso,Wa,Freetown,Cacheu,Koidu,Kankan,Kaolack,Korhogo,Kumba,Bauchi,Tema,Monrovia,Ziguinchor,Zinder,Porto-Novo,Cotonou,Man,Kaduna,Niamey,Bamenda"
 },
 {
     "name": "Itonama",
@@ -11827,7 +11827,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Itonama,Beira,Rustenburg,Pietermaritzburg,Swakopmund,Nelspruit,Lilongwe,Maseru,Bethal,Durban,Qacha's Nek,George,Mmabatho,Soweto,Masvingo,Nkhotakota,East London,Ndola,Vereeniging,Maun,Johannesburg,Mutare,Cape Town,Springbok,Kabwe,Kitwe,Klerksdorp,Welkom"
 },
 {
     "name": "Ka'apor",
@@ -11836,7 +11836,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Ka'apor,Lomé,Kumasi,Katsina,Abidjan,Banjul,Bamenda,Bobo-Dioulasso,Dakar,Freetown,Kaolack,Porto-Novo,Kara,Koudougou,Niamey,Man,Kayes,Timbuktu,Maiduguri,Sunyani,Garoua,Ouagadougou,Basse,Yamoussoukro,Monrovia,Tarrafal,Praia,Bertoua"
 },
 {
     "name": "Karu (Baníwa)",
@@ -11845,7 +11845,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Karu (Baníwa),Bamako,Bouaké,Kaduna,Daloa,Ziguinchor,Lomé,Kano,Kara,Korhogo,Kaolack,Katsina,Maiduguri,Sikasso,Freetown,Kayes,Tema,Koudougou,Man,Monrovia,Bolt,Porto-Novo,Niamey,Bertoua,Dakar,Tambacounda,Conakry,Sokodé"
 },
 {
     "name": "Kayapo",
@@ -11854,7 +11854,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Kayapo,Accra,Katsina,Bamenda,Kumasi,Freetown,Gabú,Kankan,Kara,Bertoua,Man,Lomé,Cotonou,Garoua,Bouaké,Sikasso,Parakou,Banjul,Jalingo,Natitingou,Tamale,Maiduguri,Mopti,Praia,Basse,Yamoussoukro,Koidu,Aconibe"
 },
 {
     "name": "Kulina",
@@ -11863,7 +11863,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Kulina,Bamako,Man,Basse,Porto-Novo,Bobo-Dioulasso,Katsina,Daloa,Koudougou,Dakar,Freetown,Kankan,Kaolack,Bissau,Ziguinchor,Sokodé,Ngaoundéré,Ségou,Praia,Garoua,Nzérékoré,Zinder,Brikama,Tambacounda,Niamey,Bamenda,Kayes,Ebebiyín"
 },
 {
     "name": "Kwaza",
@@ -11872,7 +11872,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Kwaza,Abidjan,Banjul,Bouaké,Katsina,Ouagadougou,Ziguinchor,Tambacounda,Tema,Freetown,Kara,Gbarnga,Kayes,Kumasi,Man,Assomada,Basse,Lomé,Bertoua,Brikama,Timbuktu,Kano,Mopti,Jalingo,Sokodé,Zaria,Conakry,Bauchi"
 },
 {
     "name": "Kwinti",
@@ -11881,7 +11881,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Kwinti,Camagüey,Montego Bay,Mandeville,Soto,Fort-Liberté,Brievengat,Falmouth,Santa Cruz,Chaguanas,Ocho Ríos,Gonaïves,Saint-Marc,West End,Holetown,Bridgetown,Les Cayes,Spanish Town,Andros Town,Harbour Island,Philipsburg,Santa Clara,Tortola,Port of Spain,Oranjestad,Havana,San Fernando,Saveta"
 },
 {
     "name": "Leco",
@@ -11890,7 +11890,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Leco,Lomé,Mopti,Gbarnga,Bobo-Dioulasso,Man,Garoua,Conakry,Dakar,Daloa,Kankan,Ziguinchor,Praia,Banjul,Kara,Freetown,Bamenda,Saint-Louis,Kumasi,Sunyani,Kano,Tema,Porto-Novo,Wa,Nouakchott,Accra,Lafia,Bauchi"
 },
 {
     "name": "Matawai",
@@ -11899,7 +11899,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Matawai,Maho Reef,West End,Ocho Ríos,Bridgetown,Les Cayes,Harbour Island,Kingston,Cap-Haïtien,Holetown,Arima,Gonaïves,Fort-Liberté,Soto,Andros Town,Freeport,Dunmore Town,Montaña,Alice Town,Willemstad,Sint Willibrordus,Cockburn Town,Chaguanas,Saveta,Guantánamo,Havana,Tanki Leendert,Mandeville"
 },
 {
     "name": "Munduruku",
@@ -11908,7 +11908,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Munduruku,Bangui,Lisala,Malabo,Pointe-Noire,Mbalmayo,Mbaïki,Berbérati,Bouar,Carnot,Bata,Ebolowa,Nkayi,Makokou,Ouesso,Oyem,Gamboma,Kribi,Port-Gentil,Bafia,Mbandaka,Mouila,Bunia,Kimongo,Koulamoutou,Yaoundé,Tchibanga,Muramvya"
 },
 {
     "name": "Ndyuka",
@@ -11917,7 +11917,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Ndyuka,Mandeville,Havana,Port Antonio,Cul de Sac,Bridgetown,Gonaïves,Saint-Marc,Port-au-Prince,Fort-Liberté,Holetown,Les Cayes,Oistins,Barber,Portmore,Philipsburg,Cap-Haïtien,Brievengat,Point Fortin,Maho Reef,Ocho Ríos,Arima,Dunmore Town,Santa Cruz,Port of Spain,Crane,Couva,Saveta"
 },
 {
     "name": "Nheengatu",
@@ -11926,7 +11926,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Nheengatu,Medellín,Quito,Bucaramanga,Cúcuta,Trujillo,Arequipa,Ambato,Pedro Juan Caballero,Barranquilla,Cartagena,Paysandú,Macas,El Alto,Piura,Guayaquil,Cali,Salto,Mendoza,Puyo,Loja,Santa Cruz,San Ignacio,Talca,Concepción,Francisco de Orellana,Caacupé,San Miguel de Tucumán"
 },
 {
     "name": "Nivaclé",
@@ -11935,7 +11935,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Nivaclé,Bamako,Accra,Katsina,Daloa,Cotonou,Tema,Koudougou,Ségou,Basse,Freetown,Jalingo,Cacheu,Kankan,Sokodé,Niamey,Yola,Bauchi,Ouagadougou,Mopti,Garoua,Gbarnga,Lomé,Mindelo,Gusau,Nzérékoré,Sunyani,Porto-Novo"
 },
 {
     "name": "Páez",
@@ -11944,7 +11944,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Páez,Abidjan,Koidu,Bissau,Kaduna,Kaolack,Bobo-Dioulasso,Bafatá,Ebebiyín,Koudougou,Saint-Louis,Nouakchott,Freetown,Katsina,Ségou,Man,Korhogo,Daloa,Kumasi,Gbarnga,Sunyani,Monrovia,Ouagadougou,Jalingo,Mopti,Assomada,Tambacounda,Ziguinchor"
 },
 {
     "name": "Pirahã",
@@ -11953,7 +11953,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Pirahã,Bafatá,Abidjan,Conakry,Ebebiyín,Minna,Kaduna,Gbarnga,Bouaké,Korhogo,Kara,Thiès,Bamako,Man,Parakou,Ngaoundéré,Tamale,Tema,Bolama,Sunyani,Niamey,Freetown,Lomé,Yamoussoukro,Maroua,Nouakchott,Kano,Sikasso"
 },
 {
     "name": "Sanöma (Sanumá)",
@@ -11962,7 +11962,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Sanöma (Sanumá),Masvingo,Otjiwarongo,Soweto,Pretoria,Serowe,Middelburg,East London,Nelspruit,Upington,Mafikeng,Kadoma,Tete,Welkom,Maputo,Gweru,Kabwe,Port Elizabeth,Mzuzu,Windhoek,Harare,Quelimane,Ndola,Nkhotakota,Bethal,Bulawayo,Luanshya,Salima"
 },
 {
     "name": "Saramaccan",
@@ -11971,7 +11971,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Saramaccan,Yaoundé,Brazzaville,Nkayi,Kinshasa,Libreville,Bouar,Ouesso,Berbérati,Port-Gentil,Mbalmayo,Bambari,Impfondo,Franceville,Carnot,Dolisie,Ewo,Kimongo,Tchibanga,Gamboma,Lisala,Malabo,Edéa,Mouila,Kisangani,Muramvya,Bururi,Bangui"
 },
 {
     "name": "Shipibo-Conibo",
@@ -11980,7 +11980,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Shipibo-Conibo,Santos,Bucaramanga,Pereira,Cúcuta,Concepción,Guayaquil,Chiclayo,Valparaíso,Rio Branco,Cusco,Ambato,Arequipa,Florencia,São Luís,La Paz,Mocoa,Francisco de Orellana,Londrina,San Ignacio,Arica,Salta,Puerto Asís,Rancagua,El Alto,Temuco,Córdoba,Asunción"
 },
 {
     "name": "Shuar",
@@ -11989,7 +11989,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Shuar,Ambato,Londrina,Santo Domingo,Quito,Asunción,Puyo,Buenos Aires,Talca,Cochabamba,Santos,Sucre,Manta,Caacupé,Chiclayo,Potosí,Uberlândia,Ciudad del Este,Las Piedras,Paysandú,El Alto,Huancayo,Piura,Antofagasta,Concepción,Francisco de Orellana,Inírida,Cúcuta"
 },
 {
     "name": "Sirionó",
@@ -11998,7 +11998,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Sirionó,Gbarnga,Sokodé,Bobo-Dioulasso,Koidu,Cotonou,Freetown,Conakry,Kankan,Kumba,Korhogo,Man,Ouagadougou,Tema,Lomé,Bauchi,Kayes,Saint-Louis,Maiduguri,Dakar,Bouaké,Malabo,Porto-Novo,Niamey,Praia,Buea,Nzérékoré,Bolama"
 },
 {
     "name": "Southern Quechua",
@@ -12007,7 +12007,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Southern Quechua,Cuenca,Mocoa,Cartagena,Sucre,Santiago,Santo Domingo,Santos,Quito,Talca,Asunción,Salta,Puyo,Caacupé,La Paz,Potosí,Nueva Rocafuerte,Ciudad del Este,Chiclayo,San Ignacio,Ambato,Huancayo,Arequipa,Concepción,Santa Cruz,Temuco,Rancagua,San Miguel de Tucumán"
 },
 {
     "name": "Sranan Tongo",
@@ -12016,7 +12016,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Sranan Tongo,Spanish Town,Falmouth,Mandeville,Port of Spain,Port-au-Prince,Port Antonio,Cul de Sac,Maho Reef,Fort-Liberté,Harbour Island,Basseterre,Havana,Oranjestad,Andros Town,Holetown,Nassau,Marsh Harbour,Willemstad,Charlestown,San Fernando,Santiago de Cuba,Crane,Bathsheba,Camagüey,Arima,Dunmore Town,Hastings"
 },
 {
     "name": "Tupi",
@@ -12025,7 +12025,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Tupi,Cartagena,Medellín,Buenos Aires,Bucaramanga,Lima,Talca,Chiclayo,Quito,Piura,Manta,Mocoa,Salta,Caacupé,El Alto,Sucre,Rosario,La Paz,Huancayo,Montevideo,Potosí,São Luís,Manaus,Uberlândia,Mar del Plata,Maldonado,Ciudad del Este,Valparaíso"
 },
 {
     "name": "Warao",
@@ -12034,7 +12034,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Warao,Bissau,Bamako,Dakar,Bouaké,Lafia,Ouagadougou,Kankan,Freetown,Kaolack,Bobo-Dioulasso,Bafatá,Monrovia,Kayes,Nouakchott,Man,Sokodé,Lomé,Kumasi,Cotonou,Tamale,Ségou,Nzérékoré,Bolama,Saint-Louis,Assomada,Timbuktu,Sikasso"
 },
 {
     "name": "Warázu",
@@ -12043,7 +12043,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Warázu,Daloa,Bouaké,Abidjan,Nouakchott,Bertoua,Monrovia,Basse,Bobo-Dioulasso,Kara,Timbuktu,Sokodé,Dakar,Lafia,Bolt,Bamenda,Korhogo,Bissau,Nzérékoré,Katsina,Malabo,Brikama,Parakou,Koudougou,Niamey,Ségou,Bafoussam,Gbarnga"
 },
 {
     "name": "Wariʼ",
@@ -12052,7 +12052,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Wariʼ,Ebebiyín,Banjul,Cotonou,Kara,Praia,Sokoto,Zaria,Basse,Accra,Tema,Kumasi,Parakou,Mopti,Niamey,Koudougou,Monrovia,Freetown,Daloa,Kano,Tamale,Wa,Maroua,Yamoussoukro,Bissau,Ségou,Bouaké,Tambacounda"
 },
 {
     "name": "Xocó",
@@ -12061,7 +12061,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Xocó,Accra,Bamako,Banjul,Bissau,Bobo-Dioulasso,Bafatá,Tarrafal,Dakar,Kankan,Lomé,Conakry,Gbarnga,Kaduna,Wa,Katsina,Parakou,Korhogo,Timbuktu,Niamey,Maiduguri,Bolama,Porto-Novo,Freetown,Mopti,Zaria,Nzérékoré,Sokodé"
 },
 {
     "name": "Yaminawa",
@@ -12070,7 +12070,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Yaminawa,Kokopo,Tari,Bulolo,Kiunga,Kainantu,Tabubil,Karamui,Kerema,Lae,Mount Hagen,Madang,Morehead,Vanimo,Wau,Wewak,Aseki,Menyamya,Kimbe,Kavieng,Alotau,Kikori,Kundiawa,Nipa,Saidor,Ningerum,Olsobip,Lorengau"
 },
 {
     "name": "Mizo",
@@ -12079,7 +12079,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Mizo,Keylong,Gangtok,Dali,Tso Kar,Koksar,Rhenock,Zhongdian,Weixi,Kham,Jorthang,Nainital,Lhokha,Leshan,Namchi,Xichang,Chamdo,Shillong,Rangpo,Cherrapunji,Padum,Dali,Baoshan,Pu'er,Paro,Chuxiong,Nongstoin,Singtam"
 },
 {
     "name": "Berau Malay",
@@ -12088,7 +12088,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Berau Malay,Surabaya,Kuala Lumpur,Semarang,Bandung,Daru,Jaluit,Kuching,Manila,Sonsorol,Lorengau,Cebu City,Majuro,Sigatoka,Bandar Seri Begawan,Luganville,Jerudong,Denpasar,Malacca,Ambrym,Tutong,Ebeye,Malekula,Kota Kinabalu,Kuala Belait,Seria,Ba,Port Vila"
 },
 {
     "name": "Enggano",
@@ -12097,7 +12097,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Enggano,Changsha,Suwon,Nanning,Tianjin,Cheongju,Hunchun,Hangzhou,Taoyuan,Shanghai,Nanchang,Fuzhou,Guangzhou,Nanjing,Shenzhen,Wuxi,Zhengzhou,Taichung,Beijing,Lanzhou,Gaecheon,Ulsan,Qingdao,Gwangju,Zibo,Kaohsiung,Zhongshan,Taipei"
 },
 {
     "name": "Filipino",
@@ -12106,7 +12106,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Filipino,Lomé,Bamako,Gbarnga,Katsina,Bamenda,Daloa,Kaolack,Kankan,Kayes,Dakar,Cotonou,Kaduna,Yamoussoukro,Niamey,Koudougou,Maiduguri,Saint-Louis,Praia,Abidjan,Kumasi,Man,Zaria,Koidu,Tambacounda,Timbuktu,Bobo-Dioulasso,Kumba"
 },
 {
     "name": "Hmong",
@@ -12115,7 +12115,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Hmong,Fangchenggang,Chiang Rai,Nha Trang,Savannakhet,Nanning,Hat Yai,Cao Bằng,Rach Gia,Hanoi,Pursat,Yangon,Bangkok,Phan Thiet,Shantou,Vientiane,Khon Kaen,Kampot,Thakhek,Pathein,Mandalay,Xieng Khouang,Takeo,Hà Giang,Battambang,Nakhon Ratchasima,Wuzhou,Phongsali"
 },
 {
     "name": "Kachin",
@@ -12124,7 +12124,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Kachin,Ngari,Chamdo,Lijiang,Xichang,Lhasa,Kangding,Jowai,Dali,Namchi,Trashigang,Kham,Trongsa,Yibin,Pithoragarh,Thimphu,Jorthang,Chengdu,Barkam,Melli,Cherrapunji,Wangdue,Xichong,Aba,Samdrup Jongkhar,Dalton Ganj,Nyingchi,Mawlai"
 },
 {
     "name": "Karen",
@@ -12133,7 +12133,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Karen,Rishikesh,Lhasa,Nagqu,Chamdo,Xichong,Lijiang,Rhenock,Dali,Trashigang,Weixi,Mangan,Zhaotong,Punakha,Haridwar,Keylong,Melli,Leshan,Ngari,Xichang,Dalton Ganj,Mawlai,Rangpo,Pu'er,Wangdue,Kham,Shillong,Zhongdian"
 },
 {
     "name": "Kasiguranin",
@@ -12142,7 +12142,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Kasiguranin,Gbarnga,Katsina,Bouaké,Koidu,Abidjan,Kankan,Cotonou,Ségou,Warri,Porto-Novo,Basse,Ziguinchor,Bissau,Dakar,Timbuktu,Tema,Saint-Louis,Lomé,Sunyani,Man,Brikama,Minna,Sokodé,Bertoua,Zaria,Cacheu,Maroua"
 },
 {
     "name": "Kayah",
@@ -12151,7 +12151,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Kayah,Lhasa,Chamdo,Nagqu,Punakha,Deqin,Lijiang,Kangding,Gangtok,Rangpo,Rhenock,Lhokha,Barkam,Chuxiong,Weixi,Singtam,Jowai,Pu'er,Tura,Kham,Yuánmóu,Leh,Namchi,Lijiang,Melli,Jakar,Dalton Ganj,Jorthang"
 },
 {
     "name": "Makassarese",
@@ -12160,7 +12160,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Makassarese,Suva,Bandung,Medan,Semarang,Manila,Davao,Jaluit,Makassar,Pentecost,Zamboanga,Levuka,Melekeok,Johor Bahru,Iloilo City,Port Vila,Buala,Singapore,Denpasar,Ba,Honiara,Tutong,Kavieng,Jakarta,Angaur,Kirakira,Epi,Tanna"
 },
 {
     "name": "Malaysian Malay",
@@ -12169,7 +12169,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Malaysian Malay,Bangar,Ipoh,Makassar,Jakarta,Davao,Palembang,Cebu City,Luganville,Bacolod,Cagayan de Oro,Tutong,Manila,Surabaya,Daru,Tulagi,Kota Kinabalu,Muara,Munda,Ambrym,Rabaul,Buala,Johor Bahru,Medan,Tanna,Lautoka,Port Vila,Port Moresby"
 },
 {
     "name": "Maranao",
@@ -12178,7 +12178,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Maranao,Shigatse,Lijiang,Ngari,Nagqu,Deqin,Barkam,Zhaotong,Dali,Tura,Cherrapunji,Xichang,Gangtok,Paro,Namchi,Sarchu,Trashigang,Rhenock,Singtam,Jowai,Leh,Punakha,Wangdue,Pu'er,Yibin,Jakar,Batang,Kham"
 },
 {
     "name": "Mien",
@@ -12187,7 +12187,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Mien,Chiang Mai,Da Lat,Kampong Cham,Hai Phong,Hue,Can Tho,Sihanoukville,Bago,Chonburi,Thakhek,Phongsali,Xieng Khouang,Hanoi,Ho Chi Minh City,Lạng Sơn,Takeo,Phnom Penh,Nha Trang,Phan Thiet,Wuzhou,Naypyidaw,Bangkok,Pakse,Kunming,Myitkyina,Vientiane,Pursat"
 },
 {
     "name": "Mon native-speakers subset",
@@ -12196,7 +12196,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Mon native-speakers subset,Da Lat,Ho Chi Minh City,Hanoi,Kunming,Chiang Rai,Da Nang,Phongsali,Hue,Can Tho,Rach Gia,Bangkok,Pursat,Chiềng Mai,Savannakhet,Kampong Cham,Xieng Khouang,Danzhou,Chiềng Rạ,Thakhek,Nanning,Sihanoukville,Vinh,Phnom Penh,Takeo,Yangon,Siem Reap,Mawlamyine"
 },
 {
     "name": "Rakhine",
@@ -12205,7 +12205,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Rakhine,Man,Praia,Banjul,Bissau,Kara,Cotonou,Abidjan,Bolt,Dakar,Gbarnga,Niamey,Kano,Porto-Novo,Koidu,Bauchi,Maiduguri,Mopti,Sokodé,Koudougou,Nzérékoré,Tambacounda,Wa,Malabo,Wukari,Jalingo,Gabú,Sokoto"
 },
 {
     "name": "Tausug",
@@ -12214,7 +12214,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Tausug,Accra,Conakry,Banjul,Cotonou,Dakar,Daloa,Maroua,Monrovia,Basse,Kano,Freetown,Kumasi,Kayes,Mindelo,Korhogo,Parakou,Bobo-Dioulasso,Ouagadougou,Sunyani,Koudougou,Ziguinchor,Jos,Malabo,Ebebiyín,Zaria,Tambacounda,Nouakchott"
 },
 {
     "name": "Waray",
@@ -12223,7 +12223,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Waray,Kaduna,Banjul,Ebebiyín,Conakry,Tema,Dakar,Praia,Kara,Sokodé,Gbarnga,Katsina,Kaolack,Bafatá,Niamey,Korhogo,Parakou,Bamenda,Kumasi,Koidu,Man,Ségou,Tamale,Maiduguri,Wa,Jalingo,Porto-Novo,Bamako"
 },
 {
     "name": "Dominican Creole French",
@@ -12232,7 +12232,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
+  "b": "Dominican Creole French,Paris,Hamburg,Liège,Lucerne,Barcelona,Strasbourg,Warsaw,Málaga,Palermo,Wroclaw,Stuttgart,Seville,Nice,Frankfurt,Rome,Innsbruck,Manchester,Milan,Valencia,Liberec,Ostrava,Düsseldorf,Liverpool,Edinburgh,Reykjanesbær,Norrköping,Locarno"
 },
 {
     "name": "French Guianese Creole",
@@ -12241,7 +12241,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
+  "b": "French Guianese Creole,Olomouc,Toulouse,Amsterdam,Bilbao,Marseille,Paris,Venice,Madrid,Barcelona,Valencia,Tromsø,Drammen,Milan,Faro,Berlin,Düsseldorf,Munich,Cologne,Edinburgh,Liverpool,Turin,Liberec,Pori,Rome,Bologna,Plzeň,Dundalk"
 },
 {
     "name": "Grenadian Creole French",
@@ -12250,7 +12250,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
+  "b": "Grenadian Creole French,Nice,Frankfurt,Toulouse,Nantes,Esbjerg,Groningen,Granada,Linz,Düsseldorf,Bydgoszcz,Reykjanesbær,Tampere,Zaragoza,Cologne,Milan,Porto,Naples,Vejle,Örebro,Basel,Norrköping,Mosfellsbær,Eindhoven,Coimbra,Turin,Bologna,Tromsø"
 },
 {
     "name": "Karipúna French Creole",
@@ -12259,7 +12259,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix"
+  "b": "Karipúna French Creole,Sion,Marseille,Paris,Nantes,Nice,Seville,London,Florence,Zurich,Berlin,Dublin,Toulouse,Stuttgart,Granada,Drammen,Trondheim,Funchal,Leipzig,Düsseldorf,Bydgoszcz,Esbjerg,Wroclaw,Madrid,Glasgow,Brno,Bregenz,Gdansk"
 },
 {
     "name": "Louisiana Creole",
@@ -12268,7 +12268,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Louisiana Creole,Jérémie,Portmore,Freeport,Tunapuna,Montego Bay,Spanish Town,Cap-Haïtien,Harbour Island,Sint Nicolaas,Saint-Marc,Falmouth,Port-au-Prince,Speightstown,Arima,Cockburn Town,Christ Church,Bridgetown,Scarborough,Basseterre,Hastings,Holguín,Maho Reef,Marsh Harbour,Oranjestad,Crane,Jacmel,Paradera"
 },
 {
     "name": "Saint Lucian Creole",
@@ -12277,7 +12277,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Saint Lucian Creole,Harbour Island,Portmore,Gonaïves,Falmouth,Fort-Liberté,Cap-Haïtien,Jérémie,Marsh Harbour,Noord,Jacmel,Couva,Holetown,Ocho Ríos,Freeport,Cul de Sac,Upper Prince's Quarter,San Fernando,Andros Town,Oranjestad,Dunmore Town,Brievengat,Saveta,Cienfuegos,Road Town,Alice Town,West End,Saint-Marc"
 },
 {
     "name": "Santiago Creole",
@@ -12286,7 +12286,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Santiago Creole,Klerksdorp,Masvingo,Salima,Bloemfontein,Molepolole,Kadoma,Maputo,Kimberley,Upington,Gweru,Lusaka,Matola,Quelimane,Middelburg,Karonga,Tembisa,Pietermaritzburg,Bethal,Keetmanshoop,Francistown,Vereeniging,Mutare,Nkhotakota,Livingstone,Beira,Kabwe,Harare"
 },
 {
     "name": "Santo Antão Creole",
@@ -12295,7 +12295,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "Santo Antão Creole,Cape Town,Kadoma,Pretoria,Vereeniging,Johannesburg,Kitwe,Pietermaritzburg,Qacha's Nek,Nelspruit,Masvingo,Springbok,Durban,Livingstone,Ndola,Klerksdorp,Swakopmund,Salima,Kabwe,Lilongwe,Otjiwarongo,Blantyre,Xai-Xai,Maputo,Maseru,Mafeteng,Rustenburg,Chitungwiza"
 },
 {
     "name": "São Nicolau Creole",
@@ -12304,7 +12304,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "São Nicolau Creole,Kingston,Spanish Town,Mandeville,Oranjestad,Ocho Ríos,Hastings,Harbour Island,Saint-Marc,Cap-Haïtien,Fort-Liberté,Andros Town,Gonaïves,Speightstown,Arima,Freeport,Maho Reef,Dunmore Town,Bathsheba,Willemstad,Camagüey,Port of Spain,Noord,Cienfuegos,Holetown,Port Antonio,Philipsburg,Cockburn Town"
 },
 {
     "name": "São Vicente Creole",
@@ -12313,7 +12313,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago"
+  "b": "São Vicente Creole,Montego Bay,Maho Reef,Mandeville,Freeport,Cap-Haïtien,Arima,Falmouth,Soto,Fort-Liberté,Jacmel,Jérémie,Saint-Marc,Ocho Ríos,Andros Town,Harbour Island,Havana,Marsh Harbour,Point Fortin,Cienfuegos,Port of Spain,Matanzas,San Fernando,Christ Church,Oistins,Tanki Leendert,Bathsheba,Scarborough"
 },
 
 ];
