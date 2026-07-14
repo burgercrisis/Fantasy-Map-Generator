@@ -4123,7 +4123,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Raute,Xochimilco,Chuquisaca,Tingambato,Monte Albán,Temuco,Xochicalco,Calakmul,Rapa Nui,Cacaxtla,Zaculeu,Teopanzolco,Moche,Magueyes,Tiwanaku,Yaxchilán,Yohualichan,Texcoco,Coyoacán,Cempoala,Tlatelolco,Tenochtitlan,Quiahuiztlan,Cholula,Teotihuacán,Cuarenta Casas,Luang Prabang,Soc Trang,Skagway,Nome,Winnipeg,Dillingham,Attawapiskat,Deadhorse,Anchorage,Prince Rupert,King Salmon,Sisimiut,Smithers,Valdez,Seward,Prince George,Terrace,Kangerlussuaq,Ottawa,Kenai,Cordova,Dawson Creek,Bethel,Sitka,Whitehorse,Flagstaff,Chinle,Santa Fe"
+  "b": "Raute,Xochimilco,Chuquisaca,Tingambato,Monte Albán,Temuco,Xochicalco,Calakmul,Rapa Nui,Cacaxtla,Zaculeu,Teopanzolco,Moche,Magueyes,Tiwanaku,Yaxchilán,Yohualichan,Texcoco,Coyoacán,Cempoala,Tlatelolco,Tenochtitlan,Quiahuiztlan,Cholula,Teotihuacán,Cuarenta Casas,Luang Prabang,Soc Trang,Skagway,Nome,Winnipeg,Dillingham,Attawapiskat,Deadhorse,Anchorage,Prince Rupert,King Salmon,Sisimiut,Smithers,Valdez,Seward,Prince George,Kangerlussuaq,Ottawa,Kenai,Cordova,Dawson Creek,Bethel,Sitka,Whitehorse,Flagstaff,Chinle,Santa Fe"
 },
 {
     "name": "Ravula",
@@ -8380,7 +8380,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Algonquian-Basque pidgin,Ioannina,Nova Gorica,Bruges,Bremen,Munich,Timișoara,Pančevo,Plovdiv,Korçë,Sarajevo,Varna,Mogilev,Västerås,Bari,Palermo,Prilep,Swansea,Charleroi,Kaunas,Poznań,Subotica,Pangai,Adelaide,Titikaveka,Mare,Lorengau,Lautoka,Montreal,Cordova,Barrow,Reykjavik,Fort Smith,Sitka,Grants,Kodiak,Prince Rupert,Seward,Smithers,Victoria,Fairbanks,Terrace,Hay River,Nome,Kangerlussuaq,Prince George,Wiseman,Edmonton,Aasiaat,Kotzebue,Sisimiut,Wasilla,Los Alamos,Shiprock"
+  "b": "Algonquian-Basque pidgin,Ioannina,Nova Gorica,Bruges,Bremen,Munich,Timișoara,Pančevo,Plovdiv,Korçë,Sarajevo,Varna,Mogilev,Västerås,Bari,Palermo,Prilep,Swansea,Charleroi,Kaunas,Poznań,Subotica,Pangai,Adelaide,Titikaveka,Mare,Lorengau,Lautoka,Montreal,Cordova,Barrow,Reykjavik,Fort Smith,Sitka,Grants,Kodiak,Prince Rupert,Seward,Smithers,Victoria,Fairbanks,Hay River,Nome,Kangerlussuaq,Prince George,Wiseman,Edmonton,Aasiaat,Kotzebue,Sisimiut,Wasilla,Los Alamos,Shiprock"
 },
 {
     "name": "American Indian Pidgin English",
@@ -9262,7 +9262,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Na-Dene,Cholula,Tibes,Alta Vista,Uxmal,Osorno,Xochicalco,Huauchinango,Chan Chan,Yohualichan,Machu Picchu,Kaminaljuyú,Jayuya,Riobamba,Teopanzolco,Calchaquí,Tiahuanaco,Comalcalco,Hanga Roa,Texcoco,Ihuatzio,Chavín de Huántar,Tlatelolco,Xochimilco,Coyoacán,Tenochtitlan,Quiahuiztlan,Teotihuacán,Juneau,Fairbanks,Barrow,Cordova,Nome,Prince George,Laguna,Inuvik,Palmer,Montreal,Wiseman,Victoria,Edmonton,Whitehorse,Ottawa,Reykjavik,Kodiak,Grants,Terrace,Haines,Santa Fe,Sitka,Seward,Yellowknife,Anchorage,Aasiaat,Sisimiut"
+  "b": "Na-Dene,Cholula,Tibes,Alta Vista,Uxmal,Osorno,Xochicalco,Huauchinango,Chan Chan,Yohualichan,Machu Picchu,Kaminaljuyú,Jayuya,Riobamba,Teopanzolco,Calchaquí,Tiahuanaco,Comalcalco,Hanga Roa,Texcoco,Ihuatzio,Chavín de Huántar,Tlatelolco,Xochimilco,Coyoacán,Tenochtitlan,Quiahuiztlan,Teotihuacán,Juneau,Fairbanks,Barrow,Cordova,Nome,Prince George,Laguna,Inuvik,Palmer,Montreal,Wiseman,Victoria,Edmonton,Whitehorse,Ottawa,Reykjavik,Kodiak,Grants,Haines,Santa Fe,Sitka,Seward,Yellowknife,Anchorage,Aasiaat,Sisimiut"
 },
 {
     "name": "Occaneechi",
@@ -9307,7 +9307,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ute,Chapultepec,Pátzcuaro,Xochicalco,Coquimbo,Paquimé,Tikal,Panguipulli,Malinalco,Teopanzolco,Iximché,Zempoala,Pisac,Caral,Tibes,Yohualichan,Aguada Fénix,Tula,Texcoco,Coyoacán,Tuxpan,Quiahuiztlan,Xochimilco,Cholula,Teotihuacán,Tlatelolco,Sacsayhuamán,Potosí,Palmer,Skagway,Ottawa,Prince George,Kotzebue,Seward,Juneau,Vancouver,Yellowknife,Nome,Fairbanks,Victoria,Anchorage,Kenai,Edmonton,Terrace,Calgary,Santa Fe,Bethel,Los Alamos,Dawson Creek,Reykjavik,Nuuk,King Salmon,Ilulissat,Aasiaat,Tuba City"
+  "b": "Ute,Chapultepec,Pátzcuaro,Xochicalco,Coquimbo,Paquimé,Tikal,Panguipulli,Malinalco,Teopanzolco,Iximché,Zempoala,Pisac,Caral,Tibes,Yohualichan,Aguada Fénix,Tula,Texcoco,Coyoacán,Tuxpan,Quiahuiztlan,Xochimilco,Cholula,Teotihuacán,Tlatelolco,Sacsayhuamán,Potosí,Palmer,Skagway,Ottawa,Prince George,Kotzebue,Seward,Juneau,Vancouver,Yellowknife,Nome,Fairbanks,Victoria,Anchorage,Kenai,Edmonton,Calgary,Santa Fe,Bethel,Los Alamos,Dawson Creek,Reykjavik,Nuuk,King Salmon,Ilulissat,Aasiaat,Tuba City"
 },
 {
     "name": "Wiyot",
@@ -9316,7 +9316,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Wiyot,Xochimilco,Chuquisaca,Tingambato,Monte Albán,Temuco,Xochicalco,Calakmul,Rapa Nui,Cacaxtla,Zaculeu,Teopanzolco,Moche,Magueyes,Tiwanaku,Yaxchilán,Yohualichan,Texcoco,Coyoacán,Cempoala,Tlatelolco,Tenochtitlan,Quiahuiztlan,Cholula,Teotihuacán,Cuarenta Casas,Papantla,Potosí,Bethel,Cordova,Skagway,Anchorage,Vancouver,Attawapiskat,Juneau,Victoria,Yellowknife,Ottawa,Reykjavik,Fort Smith,Prince George,Inuvik,Terrace,Palmer,Togiak,Haines,Calgary,Sitka,Edmonton,Crownpoint,Fort St. John,Kotzebue,Nuuk,Qaqortoq"
+  "b": "Wiyot,Xochimilco,Chuquisaca,Tingambato,Monte Albán,Temuco,Xochicalco,Calakmul,Rapa Nui,Cacaxtla,Zaculeu,Teopanzolco,Moche,Magueyes,Tiwanaku,Yaxchilán,Yohualichan,Texcoco,Coyoacán,Cempoala,Tlatelolco,Tenochtitlan,Quiahuiztlan,Cholula,Teotihuacán,Cuarenta Casas,Papantla,Potosí,Bethel,Cordova,Skagway,Anchorage,Vancouver,Attawapiskat,Juneau,Victoria,Yellowknife,Ottawa,Reykjavik,Fort Smith,Prince George,Inuvik,Palmer,Togiak,Haines,Calgary,Sitka,Edmonton,Crownpoint,Fort St. John,Kotzebue,Nuuk,Qaqortoq"
 },
 {
     "name": "Yurok",
@@ -9334,7 +9334,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Zuni,Tlatelolco,Ihuatzio,El Tajín,Xochicalco,Casas Grandes,Palenque,Kawésqar,Teopanzolco,Xalapa,Chavín de Huántar,Quiahuiztlan,Sacsayhuamán,Chan Chan,Jacana,Loja,Yohualichan,Mapuche,Texcoco,Coyoacán,Utatlán,Tenochtitlan,Alta Vista,Piedras Negras,Cholula,Teotihuacán,Xochimilco,Uxmal,Attawapiskat,Bethel,Montreal,Inuvik,Kayenta,Kodiak,Fairbanks,Yellowknife,Skagway,Seward,Valdez,Kenai,Calgary,Smithers,Laguna,Prince George,Terrace,Hay River,Whitehorse,Edmonton,Nuuk,Ottawa,Fort Smith,Toronto,Window Rock,Kotzebue,Moose Factory"
+  "b": "Zuni,Tlatelolco,Ihuatzio,El Tajín,Xochicalco,Casas Grandes,Palenque,Kawésqar,Teopanzolco,Xalapa,Chavín de Huántar,Quiahuiztlan,Sacsayhuamán,Chan Chan,Jacana,Loja,Yohualichan,Mapuche,Texcoco,Coyoacán,Utatlán,Tenochtitlan,Alta Vista,Piedras Negras,Cholula,Teotihuacán,Xochimilco,Uxmal,Attawapiskat,Bethel,Montreal,Inuvik,Kayenta,Kodiak,Fairbanks,Yellowknife,Skagway,Seward,Valdez,Kenai,Calgary,Smithers,Laguna,Prince George,Hay River,Whitehorse,Edmonton,Nuuk,Ottawa,Fort Smith,Toronto,Window Rock,Kotzebue,Moose Factory"
 },
 {
     "name": "Alekano",
@@ -10558,7 +10558,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Somahai,Tchibanga,Conakry,Parakou,Fatick,Jalingo,Gashua,Koulikoro,Tougué,Dapaong,Kontagora,Tahoua,Wa,Franceville,Luba,Umuahia,Faranah,Zaria,Lafia,Nkongsamba,Yamoussoukro,Moundou,Porto-Novo,Ségou,Ife,Timbuktu,Farafenni,Lomé,Bethel,Fairbanks,Nome,Cordova,Kotzebue,Valdez,Reykjavik,Kodiak,Sitka,Whitehorse,Prudhoe Bay,Seward,Taos,Terrace,Laguna,Prince George,Aasiaat,Grants,Calgary,Palmer,Anchorage,Montreal,Homer,Yellowknife,Barrow,Qaqortoq,Fort Smith"
+  "b": "Somahai,Tchibanga,Conakry,Parakou,Fatick,Jalingo,Gashua,Koulikoro,Tougué,Dapaong,Kontagora,Tahoua,Wa,Franceville,Luba,Umuahia,Faranah,Zaria,Lafia,Nkongsamba,Yamoussoukro,Moundou,Porto-Novo,Ségou,Ife,Timbuktu,Farafenni,Lomé,Bethel,Fairbanks,Nome,Cordova,Kotzebue,Valdez,Reykjavik,Kodiak,Sitka,Whitehorse,Prudhoe Bay,Seward,Taos,Laguna,Prince George,Aasiaat,Grants,Calgary,Palmer,Anchorage,Montreal,Homer,Yellowknife,Barrow,Qaqortoq,Fort Smith"
 },
 {
     "name": "Some",
@@ -11620,7 +11620,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Raji Raute,El Tajín,Mapuche,Casas Grandes,Palenque,Tibes,Teopanzolco,Xalapa,Utatlán,Quiahuiztlan,Sacsayhuamán,Xochicalco,Jacana,Loja,Piedras Negras,Kawésqar,Comalcalco,Chan Chan,Texcoco,Coyoacán,Ihuatzio,Tlatelolco,Yohualichan,Xochimilco,Cholula,Teotihuacán,Tula,Lhasa,Dillingham,Juneau,Sitka,Fairbanks,Gallup,Terrace,Ilulissat,Kenai,Haines,Edmonton,Reykjavik,Victoria,Calgary,Smithers,Shiprock,Norman Wells,Anchorage,Sisimiut,Chinle,Nome,Santa Fe,Toronto,Los Alamos,Kodiak,Tasiilaq,Hay River"
+  "b": "Raji Raute,El Tajín,Mapuche,Casas Grandes,Palenque,Tibes,Teopanzolco,Xalapa,Utatlán,Quiahuiztlan,Sacsayhuamán,Xochicalco,Jacana,Loja,Piedras Negras,Kawésqar,Comalcalco,Chan Chan,Texcoco,Coyoacán,Ihuatzio,Tlatelolco,Yohualichan,Xochimilco,Cholula,Teotihuacán,Tula,Lhasa,Dillingham,Juneau,Sitka,Fairbanks,Gallup,Ilulissat,Kenai,Haines,Edmonton,Reykjavik,Victoria,Calgary,Smithers,Shiprock,Norman Wells,Anchorage,Sisimiut,Chinle,Nome,Santa Fe,Toronto,Los Alamos,Kodiak,Tasiilaq,Hay River"
 },
 {
     "name": "Rouruo",
