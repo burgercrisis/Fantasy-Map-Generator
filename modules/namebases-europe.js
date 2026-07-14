@@ -118,7 +118,7 @@ window.europeNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-   "b": ""
+   "b": "Dublin,Cardiff,Edinburgh,Glasgow,Belfast,Galway,Cork,Limerick,Waterford,Swansea,Aberystwyth,Inverness,Stirling,Perth,Dundee,Carlisle,Truro,St Ives,Penzance,Newquay"
 },
 {
    "name": "Lechitic",

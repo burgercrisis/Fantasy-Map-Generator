@@ -3862,7 +3862,7 @@ window.asiaNameBases = [
   "max": 15,
   "d": "",
   "m": 0,
-  "b": "Abalakovo"
+  "b": "Abalakovo,Kan,Mana,Siberia,Krasnoyarsk,Taseevo,Aginskoe"
 },
 {
     "name": "Khmu",
@@ -5455,7 +5455,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Pithoragarh,Champawat,Dadeldhura,Darchula,Surkhet,Kailali,Bardiya"
+  "b": "Pithoragarh,Champawat,Dadeldhura,Darchula,Surkhet,Kailali,Bardiya,Dailekh,Jajarkot,Salyan,Rukum,Kalikot,Mugu,Humla,Bajura,Bajhang,Baitadi"
 },
 {
     "name": "Lhokpu",

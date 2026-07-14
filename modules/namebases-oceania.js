@@ -595,7 +595,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Gunbalanya,Oenpelli,Kabulwarnamyo,Mammoyi,Bourdah,Maningrida,Kunbarlanja,Madjedbebe"
+  "b": "Gunbalanya,Oenpelli,Kabulwarnamyo,Mammoyi,Bourdah,Maningrida,Kunbarlanja,Madjedbebe,Mamadai,Djarrakpi,Mankorlod,Bolkdjam,Kurrurldul,Yikarrakkal,Bedderman,Wulwul,Naborrbid,Kunek"
 },
 {
     "name": "Pohnpeian",
@@ -928,7 +928,7 @@ window.oceaniaNameBases = [
    "max": 11,
    "d": "",
    "m": 0,
-   "b": "Poindimié,Koné,Touho,Congouma,Wagap"
+   "b": "Poindimié,Koné,Touho,Congouma,Wagap,Ponérihouen,Voh,Hienghène,Kaala-Gomen,Ouégoa,Pouébo,Temala,Tiouandé,Néhé,Opao,Tibou,Poyes"
 },
 {
      "name": "Carolinian",
@@ -1072,7 +1072,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Dagai,Puncak Jaya,Central Papua,Duvle,Wano,Lakes Plain,Papua Province,Indonesia"
+  "b": "Dagai,Puncak Jaya,Central Papua,Duvle,Wano,Lakes Plain,Papua Province,Indonesia,Bokondini,Piramid,Karubaga,Kanggime,Wamena,Kenyam,Tiom,Mulia,Ilaga,Sinak"
 },
 {
     "name": "Edolo",
@@ -1549,7 +1549,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Yakamul,Ali Island,Angel Island,Seleo Island,Paup,Sandaun Province,East Aitape Rural LLG"
+  "b": "Yakamul,Ali Island,Angel Island,Seleo Island,Paup,Sandaun Province,East Aitape Rural LLG,Serui,Ansus,Korido,Yapen,Biak,Numfor,Roon,Waropen"
 },
 {
     "name": "Loyalties-New Caledonia",
@@ -2206,7 +2206,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Mata-Utu,Leava,Mala'efo'ou,Hihifo,Haleko,Ono,Gahi,Alofi,Wallis"
+  "b": "Mata-Utu,Leava,Mala'efo'ou,Hihifo,Haleko,Ono,Gahi,Alofi,Wallis,Sigave,Alo,Mua,Alele,Liku,Haafusia,Utufua,Teesi,Malae,Halalo,Fineveke,Kolia,Tavai"
 },
 {
     "name": "Futunan",
@@ -2224,7 +2224,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Nui,Funafuti,Vaiaku,Nukufetau,Nukulaelae,Nanumaga,Niutao"
+  "b": "Nui,Funafuti,Vaiaku,Nukufetau,Nukulaelae,Nanumaga,Niutao,Nanumea,Nanumanga,Vaitupu,Fakaifou,Alapi,Senala,Teone"
 },
 {
     "name": "Rejang",
