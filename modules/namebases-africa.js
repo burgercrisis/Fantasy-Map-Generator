@@ -55,7 +55,7 @@ window.africaNameBases = [
   "max": 14,
   "d": "lnrtksxmg",
   "m": 0,
-  "b": "Ekoka,Okongo,Tsintsabis,Mangetti Dune,Mpunguvlei,Omatako,Eenhana,Rundu,Kimilili,Garsen,Shilabo,Jasiira,Qardho,Merka,Ngao,Ekerenyo,Garissa,Farlibaax,Dhalwo,Eyl,Goobweyn,Rabai,Manga,Sekelela,Sekelema,Sekelewa,Sekelera,Sekeleka,Sekeleta,Sekelebwe,Sekelesa,Sekelena,Sekelefa,Sekelega,Sekeleja,Sekeleda,Sekelene,Sekelele,Sekelere,Sekelezi,Sekelebo,Sekeleki,Sekelemu"
+  "b": "Kimilili,Garsen,Shilabo,Jasiira,Qardho,Merka,Ngao,Ekerenyo,Garissa,Farlibaax,Dhalwo,Eyl,Goobweyn,Rabai,Manga,Sekelela,Sekelema,Sekelewa,Sekelera,Sekeleka,Sekeleta,Sekelebwe,Sekelesa,Sekelena,Sekelefa,Sekelega,Sekeleja,Sekeleda,Sekelene,Sekelele,Sekelere,Sekelezi,Sekelebo,Sekeleki,Sekelemu,Ekoka,Okongo,Tsintsabis,Mangetti Dune,Mpunguvlei,Omatako,Eenhana,Rundu,Nyangana,Mukwe,Mbwaku,Mupapama,Mashare,Ndiyona,Mankuku,Kurunana,Mbambi,Mpururu,Mupini,Mupukuyo"
 },
 {
     "name": "Taa Click",
@@ -64,7 +64,7 @@ window.africaNameBases = [
   "max": 12,
   "d": "lnrtkxgms",
   "m": 0,
-  "b": "Ghanzi,Nossob,Leonardville,Gobabis,Mariental,Rehoboth,Okwa,Xauda"
+  "b": "Ghanzi,Nossob,Gobabis,Mariental,Rehoboth,Okwa,Xauda,Kgalagadi,Tsabong,Hukuntsi,Lehututu,Lokgwabe,Kang,Ncojane,Tshane,Khuis,Bere,Kule,Makopong,Matsheng,Bogogobo,Khakhea,Kokotsha,Mabua,Mabuasehube,Ngwatle,Leonardville"
 },
 {
     "name": "Ju/'hoan Click",
@@ -73,7 +73,7 @@ window.africaNameBases = [
   "max": 19,
   "d": "lnrtksxmg",
   "m": 0,
-  "b": "Tsumkwe,Nyae Nyae,Epukiro,Omatako,Gobabis,Divundu,Bagani,Dobe,Makuri,Khaudum,Eiseb,Ondjou"
+  "b": "Nyae Nyae,Epukiro,Omatako,Gobabis,Divundu,Bagani,Dobe,Eiseb,Ondjou,Tsumkwe,Gautscha,Baraka,Mangetti,Gam,Tjum!kui,G//araha,Bushmanland,Nyangana,Mukwe,Xaixai,Kanagas,Grootlaagte,M'kata,Choana,Khaudum,Rietfontein,Sikereti,Makuri"
 },
 {
     "name": "Hadza",
@@ -91,7 +91,7 @@ window.africaNameBases = [
   "max": 12,
   "d": "lnrtksmb",
   "m": 0,
-  "b": "Kwa Mtoro,Farkwa,Poro Banguma,Magambua,Ovada,Gungi,Moto,Gumbu,Sanzawa,Kurio,Mangastaa,Kondoa,Usandawe,Ts'ana,Hatsa,G!oa,Ts'imbala,Kelema,Sanya,Nzungwa,Mbuga,Tlha'na,Gwa'ri"
+  "b": "Kwa Mtoro,Farkwa,Poro Banguma,Magambua,Ovada,Gungi,Moto,Gumbu,Kurio,Mangastaa,Kondoa,Usandawe,Ts'ana,Hatsa,G!oa,Ts'imbala,Kelema,Sanya,Nzungwa,Mbuga,Tlha'na,Gwa'ri,Mang'alai,Kandaga,Solow,Mwaru,Kinyasi,Monduli,Babati,Hanang,Mbulu,Ufana,Kateshi,Kichangani,Kitaru,Manda,Sanzawa,Kwamtoro,Makangale,Moora,Munguli,Tlhiika"
 },
 {
     "name": "Bemba",
@@ -118,7 +118,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Mora,Kerawa,Mozogo,Koza,Ashigashia,Gwoza,Madagali,Mubi,Gamergu,Glavda,Podokwa,Dghwede,Guduf,Gvoko,Lamang,Mafa,Malgwa,Sukur,Wula,Vizik,Vemgo,Mabas,Hide,Turu,Kamwe,Nzanyi,Bata,Fali,Guɗe,Gudu,Jara,Hwana,Tera,Boga,Kaɓәn,Fәrtata"
+  "b": "Mora,Kerawa,Mozogo,Koza,Ashigashia,Gwoza,Madagali,Mubi,Gamergu,Glavda,Podokwa,Dghwede,Guduf,Gvoko,Lamang,Mafa,Malgwa,Sukur,Wula,Vizik,Vemgo,Mabas,Hide,Kamwe,Nzanyi,Bata,Fali,Guɗe,Gudu,Jara,Hwana,Tera,Boga,Kaɓәn,Fәrtata,Ouagadougou,Turu"
 },
 {
     "name": "Nubian",
@@ -148,7 +148,7 @@ window.africaNameBases = [
    "b": "Al-Qāhirah,Al-Iskandarīyah,Ṭarābulus,Tūnis,Al-Jazā'ir,Ad-Dār al-Bayḍā',Ar-Rabāṭ,Murrākush,Fās,Al-Khurṭūm,Maqadīshū,Al-Fāshir,Al-Jūnaynah,Al-Ubayyiḍ,Al-Raḥād,Al-Dinder,Al-Rūṣayriṣ,Ed Damazin,Kurmuk,Ṣan'ā','Adan,Al-Madīnah,Asmara,Keren"
 },
 {
-    "name": "Tsonga", "i": 100, "min": 4, "max": 14, "d": "lnrt", "m": 0,   "b": "Xai-Xai,Chibuto,Manjacaze,Chókwè,Guijá,Bilene,Chicumbane,Masingue,Namaacha,Ressano Garcia,Maputo,Matola,Boane,Magude,Manhiça,Matutuine,Marracuene,Inhambane,ChauDoc,TanTru,Shidian,DongHa,CauKe,Fugong,DakDoa,CaiLay,Phongsali,DucTrong,MaeFaLuang,ChiangHai,LaiThieu,ThaWangPha,BacLieu,SabahMalaypur,SabahMalaynagar,SabahMalaybad,SabahMalaykot,SabahMalaywada,SabahMalayghat,SabahMalaypalli,SabahMalaykonda,SabahMalaypeta,SabahMalayuru,SabahMalayuri,SabahMalayooru,SabahMalaygiri,NagarSabahMalay,SabahMalaybari,SabahMalayganj,SabahMalaybazar,SabahMalaybandar,SabahMalaygram,PalliSabahMalay"
+    "name": "Tsonga", "i": 100, "min": 4, "max": 14, "d": "lnrt", "m": 0,   "b": "Xai-Xai,Chibuto,Manjacaze,Chókwè,Guijá,Bilene,Chicumbane,Masingue,Namaacha,Ressano Garcia,Maputo,Matola,Boane,Magude,Manhiça,Matutuine,Marracuene,Inhambane,Johannesburg,Cape Town,Durban,Pretoria,Windhoek,Gaborone,Harare,Lusaka,Maputo,Gqeberha,Bloemfontein,Kimberley,Pietermaritzburg,Polokwane,Bulawayo,Mutare,Gweru,ChauDoc,TanTru,Shidian,DongHa,CauKe,Fugong,DakDoa,CaiLay,Phongsali,DucTrong,MaeFaLuang,ChiangHai,LaiThieu,ThaWangPha,BacLieu,SabahMalaypur,SabahMalaynagar,SabahMalaybad,SabahMalaykot,SabahMalaywada,SabahMalayghat,SabahMalaypalli,SabahMalaykonda,SabahMalaypeta,SabahMalayuru,SabahMalayuri,SabahMalayooru,SabahMalaygiri,NagarSabahMalay,SabahMalaybari,SabahMalayganj,SabahMalaybazar,SabahMalaybandar,SabahMalaygram,PalliSabahMalay"
 },
 {
     "name": "Luvale",
@@ -166,7 +166,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Arua,Maracha,Koboko,Moyo,Yumbe,Adjumani,Obongi,Rhino Camp,Vurra,Arivu,Ovujo,Kuluba,Okollo,Odramacaku,Bondo,Ogoko,Oluvu,Ajira,Logiri,Ejirimagiri,Omugo,Keriganga,Manibe,Oleba,Odravu,Liria,Omogili,QuangNinh,PhuocLong,RongKwang,DaLat,CanGio,TalokMuh,TieuCan,CaoLanh,Ninglang,SongCau,ChoGao,Jinghong,PhuNhon,ChiangKhlong,Sing,Temiarpur,Temiarnagar,Temiarbad,Temiarkot,Temiarwada,Temiarghat,Temiarpalli,Temiarkonda,Temiarpeta,Temiaruru,Temiaruri,Temiarooru,Temiargiri,NagarTemiar,Temiarbari,Temiarganj,Temiarbazar,Temiarbandar,Temiargram,PalliTemiar"
+   "b": "Arua,Maracha,Koboko,Moyo,Yumbe,Adjumani,Obongi,Rhino Camp,Vurra,Arivu,Ovujo,Kuluba,Okollo,Odramacaku,Bondo,Ogoko,Oluvu,Ajira,Omugo,Keriganga,Manibe,Oleba,Odravu,Liria,Omogili,Logiri,Ejirimagiri,QuangNinh,PhuocLong,RongKwang,DaLat,CanGio,TalokMuh,TieuCan,CaoLanh,Ninglang,SongCau,ChoGao,Jinghong,PhuNhon,ChiangKhlong,Sing,Temiarpur,Temiarnagar,Temiarbad,Temiarkot,Temiarwada,Temiarghat,Temiarpalli,Temiarkonda,Temiarpeta,Temiaruru,Temiaruri,Temiarooru,Temiargiri,NagarTemiar,Temiarbari,Temiarganj,Temiarbazar,Temiarbandar,Temiargram,PalliTemiar"
 },
 {
     "name": "Berta", "i": 137, "min": 3, "max": 11, "d": "lnrt", "m": 0, "b": "Kurmuk,Geissan,Yabus,Doka,Debat,Felej,Ulu,Aradeiba,Bambasi,Al Mijlad,Al Radom,Al Fasher,Al Junaynah,Al Ubayyid,Al Rahad,Al Dinder,Al Roseires,Ed Damazin,Sennar,Wad Medani,Fazouk,Maban,Babanusa,Al-Fasher,Al-Junaynah"
@@ -196,7 +196,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-   "b": "Daloa,Issia,Vavoua,Zuénoula,Bouaflé,Gagnoa,Oumé,Guibéroua,Tiapoumé,Bédiala,Bolgoua,Bazré,Yakassé,Dananon,Divo,Biankouma,Touba,PhuThien,ChoLach,Puer,Pleiku,ChiangSaen,ThongMySai,TanPhu,ChiangMuan,QuangNinh,PhuocLong,RongKwang,DaLat,CanGio,TalokMuh,TieuCan,Wapur,Wanagar,Wabad,Wakot,Wawada,Waghat,Wapalli,Wakonda,Wapeta,Wauru,Wauri,Waooru,Wagiri,NagarWa,Wabari,Waganj,Wabazar,Wabandar,Wagram,PalliWa"
+   "b": "Daloa,Issia,Vavoua,Zuénoula,Bouaflé,Gagnoa,Oumé,Guibéroua,Tiapoumé,Bédiala,Bolgoua,Bazré,Yakassé,Dananon,Divo,Biankouma,Touba,Mopti,Timbuktu,Gao,Bobo-Dioulasso,Kindia,Kankan,Nzérékoré,Porto-Novo,Parakou,Sokodé,Kara,Cape Coast,Yamoussoukro,Dakar,Bamako,Ouagadougou,Conakry,PhuThien,ChoLach,Puer,Pleiku,ChiangSaen,ThongMySai,TanPhu,ChiangMuan,QuangNinh,PhuocLong,RongKwang,DaLat,CanGio,TalokMuh,TieuCan,Wapur,Wanagar,Wabad,Wakot,Wawada,Waghat,Wapalli,Wakonda,Wapeta,Wauru,Wauri,Waooru,Wagiri,NagarWa,Wabari,Waganj,Wabazar,Wabandar,Wagram,PalliWa"
 },
 {
     "name": "Bulu",
@@ -205,7 +205,7 @@ window.africaNameBases = [
   "max": 14,
   "d": "lnrt",
   "m": 0,
-   "b": "Biwong-Bulu,Ebolowa,Sangmelima,Ambam,Kribi,Ntem,Mvila,Dja-et-Lobo,Ocaña,Zoebefam,Nkong-Edjom,Nkolbitye,Nkoetze,Njana,Mvoula,Nloupssa-Yevol,Nkoltang,Obala,Meyo,Meyomessala,Biwong,F Boulou,Bifoum"
+   "b": "Biwong-Bulu,Ebolowa,Sangmelima,Ambam,Kribi,Ntem,Mvila,Ocaña,Zoebefam,Nkong-Edjom,Nkolbitye,Nkoetze,Njana,Mvoula,Nloupssa-Yevol,Nkoltang,Obala,Meyo,Meyomessala,Biwong,F Boulou,Bifoum,Dja-et-Lobo"
 },
 {
     "name": "Busa",
@@ -214,7 +214,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-   "b": "Bussa,New Bussa,Bagudo,Kosubosu,Kaiama,Segbana,Kalele,Borgu,Bokobaru,Zugweya,Busanci,Bissa,Alibori,Borgou,Parakou,Kandi,Natitingou,Kau,Butere,Kilifi,Teltele,Wargalo,Xabo,BurAcaba,Bargoni,Chwele,Hola,Degehabur,Bagula,Iskushuban,Gendershe,Garsen,Adetma,Aigta,Adulma,Akitma,Apata,Afunra,Apobta,Amolma,Afodta,Akumra,Alasta,Adunma,Amebta,Afura,Airta,Busala,MaBusa,Busawa,Busara,Busaka"
+   "b": "Bussa,New Bussa,Bagudo,Kosubosu,Kaiama,Segbana,Kalele,Borgu,Bokobaru,Zugweya,Busanci,Bissa,Alibori,Borgou,Parakou,Kandi,Natitingou,Kau,Butere,Kilifi,Teltele,Wargalo,Xabo,BurAcaba,Bargoni,Chwele,Hola,Degehabur,Bagula,Iskushuban,Gendershe,Garsen,Adetma,Aigta,Adulma,Akitma,Apata,Afunra,Apobta,Amolma,Afodta,Akumra,Alasta,Adunma,Amebta,Afura,Airta,Busala,Busawa,Busara,Busaka,MaBusa"
 },
 {
     "name": "Bushong",
@@ -250,7 +250,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Douala,Yaounde,Bamenda,Buea,Limbe,Kumba,Mamfe,Nkongsamba,Bafoussam,Bertoua,Ebolowa,Maroua,Garoua,Ngaoundere,Batouri,Yokadouma,Kribi,Edea,Tiko,Muyuka,Nkambe,Wum,Mfundi,Akwa,Bonaberi,Deido,Mokolo,Yagoua,Figuil,Guider,Tibati,Meiganga,Banyo,Tignere,Geza,Uriri,Bubisa,Kumbare,Sheikh,GalCad,Ngei,Takawiri,Nyangusu,Loyangalani,Caano,CelDheer,Saakow,Buni,Ikerege,Alotsa,Aferfa,Afubma,Alemsa,Anutsa,Abogma,Aalsa,Amegma,Anenfa,Aposma,Alersa,Amelfa,Afakma,Abobsa,Abikma,CameroonianPidginla,CameroonianPidginma,CameroonianPidginwa,CameroonianPidginra,CameroonianPidginka"
+  "b": "Douala,Yaounde,Bamenda,Buea,Limbe,Kumba,Mamfe,Nkongsamba,Bafoussam,Bertoua,Ebolowa,Maroua,Garoua,Ngaoundere,Yokadouma,Kribi,Edea,Tiko,Muyuka,Nkambe,Wum,Mfundi,Akwa,Bonaberi,Deido,Mokolo,Yagoua,Figuil,Guider,Tibati,Meiganga,Banyo,Tignere,Geza,Uriri,Bubisa,Kumbare,Sheikh,GalCad,Ngei,Takawiri,Nyangusu,Loyangalani,Caano,CelDheer,Saakow,Buni,Ikerege,Alotsa,Aferfa,Afubma,Alemsa,Anutsa,Abogma,Aalsa,Amegma,Anenfa,Aposma,Alersa,Amelfa,Afakma,Abobsa,Abikma,Accra,Batouri,CameroonianPidginla,CameroonianPidginma,CameroonianPidginwa,CameroonianPidginra,CameroonianPidginka"
 },
 {
     "name": "Duala",
@@ -259,7 +259,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-   "b": "Douala,Bonaberi,Deido,Akwa,Bassa,Mungo,Wouri,Edea,Kribi,Yabassi,Mouanko,Nkongsamba,Bana,Bafou,Batoufam,Batié,Bertoua,Ebolowa,Foumban,Foumbot,Garoua,Kaélé,Limbé,Mamfe,Maroua,Mbalmayo,Mbanga,Mbouda,Nanga-Eboko,Penja,Sangmelima,Tiko,Yaoundé,Yokadouma,SanGerman,AguasBuenas,LasPiedras,Brades,Manati,Humacao,Orocovis,Mayaguez,Juncos,Maunabo,Castries,Dorado,Arecibo,Jayuya,Aguada,Aetown,Aborland,Adotford,Apotown,Akagtown,Anenland,Abotland,Analland,Amurland,Amubtown,Aburtown,Aalland,Aebland,Afiland,Apirland,CameroonianPidginEnglishtown,CameroonianPidginEnglishville,CameroonianPidginEnglishburg,CameroonianPidginEnglishview,CameroonianPidginEnglishside"
+   "b": "Douala,Bonaberi,Deido,Akwa,Bassa,Mungo,Edea,Kribi,Yabassi,Mouanko,Nkongsamba,Bana,Bafou,Batoufam,Batié,Bertoua,Ebolowa,Foumban,Foumbot,Garoua,Kaélé,Limbé,Mamfe,Maroua,Mbalmayo,Mbanga,Mbouda,Nanga-Eboko,Penja,Sangmelima,Tiko,Yaoundé,Yokadouma,Kumasi,Abidjan,Lomé,Cotonou,Lagos,Kano,Ibadan,Abuja,Tamale,Bouaké,Saint-Louis,Thiès,Kaolack,Ziguinchor,Touba,Ségou,Sikasso,Mopti,Timbuktu,Gao,Wouri,SanGerman,AguasBuenas,LasPiedras,Brades,Manati,Humacao,Orocovis,Mayaguez,Juncos,Maunabo,Castries,Dorado,Arecibo,Jayuya,Aguada,Aetown,Aborland,Adotford,Apotown,Akagtown,Anenland,Abotland,Analland,Amurland,Amubtown,Aburtown,Aalland,Aebland,Afiland,Apirland,CameroonianPidginEnglishtown,CameroonianPidginEnglishville,CameroonianPidginEnglishburg,CameroonianPidginEnglishview,CameroonianPidginEnglishside"
 },
 {
     "name": "Bole",
@@ -277,7 +277,7 @@ window.africaNameBases = [
   "max": 13,
   "d": "lnrt",
   "m": 0,
-  "b": "Kaltungo,Shongom,Akko,Billiri,Pindiga,Kumo,Tula,Deba,Banga,Kaltin,Kushi,Bogoro,Dadin Kowa,Bambam,Waja,Dukku,Misau,Ningi,Dass,Tafawa Balewa,Azare,Katagum,Potiskum,Fika,Bara,Lere,Bununu,Bondo,Vipingo,Konso,CeyrTabaan,Laasqoray,QansaxDheere,Garsen,Mumias,Malindi,Yavello,Guba,Xaafuun,Lanta,Ozi,Tindinyo,Tangalela,Tangalema,Tangalewa,Tangalera,Tangaleka,Tangaleta,Tangalebwe,Tangalesa,Tangalena,Tangalefa,Tangalega,Tangaleja,Tangaleda,Tangalene,Tangalele,Tangalere,Tangalezi,Tangalebo,Tangaleki,Tangalemu"
+  "b": "Kaltungo,Shongom,Akko,Billiri,Pindiga,Kumo,Tula,Deba,Banga,Kaltin,Kushi,Bogoro,Bambam,Waja,Dukku,Misau,Ningi,Dass,Tafawa Balewa,Azare,Katagum,Potiskum,Fika,Bara,Lere,Bununu,Bondo,Vipingo,Konso,CeyrTabaan,Laasqoray,Garsen,Mumias,Malindi,Yavello,Guba,Xaafuun,Lanta,Ozi,Tindinyo,Tangalela,Tangalema,Tangalewa,Tangalera,Tangaleka,Tangaleta,Tangalebwe,Tangalesa,Tangalena,Tangalefa,Tangalega,Tangaleja,Tangaleda,Tangalene,Tangalele,Tangalere,Tangalezi,Tangalebo,Tangaleki,Tangalemu,Dadin Kowa,QansaxDheere"
 },
 {
     "name": "Dangaleat",
@@ -295,7 +295,7 @@ window.africaNameBases = [
   "max": 13,
   "d": "lnrt",
   "m": 0,
-  "b": "Accra,Cape Coast,Freetown,Monrovia,Douala,Malabo,Conakry,Banjul,Bissau,Lome,Cotonou,Port Harcourt,Calabar,Warri,Sapele,Benin City,Onitsha,Aba,Ibadan,Abeokuta,Oshogbo,Uyo,Asaba,Owerri,Abakaliki,Umuahia,Awka,Nsukka"
+  "b": "Accra,Cape Coast,Monrovia,Douala,Malabo,Conakry,Banjul,Bissau,Lome,Cotonou,Port Harcourt,Calabar,Warri,Sapele,Benin City,Onitsha,Aba,Ibadan,Abeokuta,Oshogbo,Uyo,Asaba,Owerri,Abakaliki,Umuahia,Awka,Nsukka,Bobo-Dioulasso,Freetown"
 },
 {
     "name": "Harari",
@@ -304,7 +304,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Harar,Dire Dawa,Jijiga,Haramaya,Babile,Kebri Dehar,Godey,Shilabo,Ferfer,Kelafo,Degahabur,Chinaksen,Awbere,Finkile,Mile,Erer,Kombolcha,Deder,Gursum,Kersa,Metehara,Alemaya,Nazret,Adama,Modjo,Bishoftu,Ambo,Holeta,Sebeta,Ghinir"
+  "b": "Harar,Jijiga,Haramaya,Babile,Kebri Dehar,Godey,Shilabo,Ferfer,Kelafo,Degahabur,Chinaksen,Awbere,Finkile,Mile,Erer,Kombolcha,Deder,Gursum,Kersa,Metehara,Alemaya,Nazret,Adama,Modjo,Bishoftu,Ambo,Holeta,Sebeta,Ghinir,Dire Dawa"
 },
 {
     "name": "Bauchi Chadic",
@@ -313,7 +313,7 @@ window.africaNameBases = [
   "max": 13,
   "d": "lnrt",
   "m": 0,
-  "b": "Azare,Katagum,Misau,Ningi,Dass,Tafawa Balewa,Bununu,Lere,Potiskum,Dukku,Kaltungo,Shongom,Akko,Kwami,Billiri,Pindiga,Kumo,Fika,Bara,Deba,Banga,Kaltin,Kushi,Bogoro,Dadin Kowa,Bambam,Waja"
+  "b": "Azare,Katagum,Misau,Ningi,Dass,Tafawa Balewa,Bununu,Lere,Potiskum,Dukku,Kaltungo,Shongom,Akko,Kwami,Billiri,Pindiga,Kumo,Fika,Bara,Deba,Banga,Kaltin,Kushi,Bogoro,Bambam,Waja,Dadin Kowa"
 },
 {
     "name": "East Chadic",
@@ -322,7 +322,7 @@ window.africaNameBases = [
   "max": 17,
   "d": "lnrt",
   "m": 0,
-  "b": "Mongo,Migami,Moussoro,Biltine,Am Dam,Aozou,Batha,Abeche,Adre,Am Timan,Ati,Bria,Doba,Dourbali,Fada,Faya-Largeau,Goz Beida,Haraze Mangueigne,Koro,Koumra,Lai,Mao,Moundou,N'Djamena,Oum Hadjer,Sarh,Zouar,Xabo,BurAcaba,Bargoni,Chwele,Hola,Degehabur,Bagula,Iskushuban,Gendershe,Garsen,Ikonge,ElDera,Haraale,Salkaxo,Garowe,Afulsa,Abetma,Aigfa,Adibsa,Alamsa,Aputma,Ainma,Amumma,Apassa,Adigsa,Anarma,Afisfa,Abema,Apursa,Anobsa,EastChadicla,EastChadicma,EastChadicwa,EastChadicra,EastChadicka"
+  "b": "Mongo,Migami,Moussoro,Biltine,Am Dam,Aozou,Batha,Abeche,Adre,Am Timan,Ati,Bria,Doba,Dourbali,Fada,Faya-Largeau,Goz Beida,Haraze Mangueigne,Koro,Koumra,Lai,Mao,Moundou,N'Djamena,Oum Hadjer,Sarh,Zouar,Xabo,BurAcaba,Bargoni,Chwele,Hola,Degehabur,Bagula,Iskushuban,Gendershe,Garsen,Ikonge,Haraale,Salkaxo,Garowe,Afulsa,Abetma,Aigfa,Adibsa,Alamsa,Aputma,Ainma,Amumma,Apassa,Adigsa,Anarma,Afisfa,Abema,Apursa,Anobsa,ElDera,EastChadicla,EastChadicma,EastChadicwa,EastChadicra,EastChadicka"
 },
 {
     "name": "Shabo",
@@ -331,7 +331,7 @@ window.africaNameBases = [
   "max": 14,
   "d": "lnrt",
   "m": 0,
-  "b": "Anderaccha,Gecha,Kaabo,Mizan Teferi,Bonga,Tepi,Gore,Metu,Jimma,Agaro,Bedele,Sebeta,Durame,Kacha Bira,Wacha,Shishinda,Shay Bench,Bench Maji,Meinit,Meinit Goldiya,Keffa,Sheka,Bench Sheko,Kelafo,Gode,Mustahil"
+  "b": "Anderaccha,Gecha,Kaabo,Mizan Teferi,Bonga,Tepi,Gore,Metu,Jimma,Agaro,Bedele,Sebeta,Durame,Wacha,Shishinda,Shay Bench,Bench Maji,Meinit,Meinit Goldiya,Keffa,Sheka,Bench Sheko,Kelafo,Gode,Mustahil,Kacha Bira"
 },
 {
     "name": "Angolar Creole",
@@ -340,7 +340,7 @@ window.africaNameBases = [
   "max": 14,
   "d": "lnrt",
   "m": 0,
-  "b": "Santa Catarina,Porto Alegre,Neves,Santo Amaro,Santana,Trindade,Guadalupe,Piedade,Agua Ize,Bom Successo,Monte Cafe,Caué,Lemba,Lobata,Riboque,Madre Deus,Boa Morte,Varzea,Almeirim,Picão,Porto Real,Angolares,Praia Buri,Praia Conco,Ribeira Afonso"
+  "b": "Santa Catarina,Porto Alegre,Neves,Santo Amaro,Santana,Trindade,Guadalupe,Piedade,Agua Ize,Bom Successo,Monte Cafe,Caué,Lemba,Lobata,Riboque,Madre Deus,Boa Morte,Varzea,Almeirim,Picão,Porto Real,Angolares,Praia Conco,Ribeira Afonso,Kindia,Praia Buri"
 },
 {
     "name": "Annobonese",
@@ -376,7 +376,7 @@ window.africaNameBases = [
   "max": 15,
   "d": "lnrt",
   "m": 0,
-  "b": "Principe,Santo Antonio,Bom Bom,Cidade de Santo Antonio,Praia Inhame,Praia Grande,Pequena,Praia Seca,Cachoeira,Ribeira Izé,Praia Abade,Praia das Bananas,Praia do Caixao,Praia Formiga,Praia de Santa Rita,Praia do Mel,Praia do Boi,Praia da Mandioca,Praia do Rei,Praia da Piscina,Praia do Gato,Praia da Fortaleza,Praia do Conde,Praia da Azeitona,Praia da Côco"
+  "b": "Principe,Santo Antonio,Bom Bom,Cidade de Santo Antonio,Praia Inhame,Praia Grande,Pequena,Praia Seca,Cachoeira,Ribeira Izé,Praia Abade,Praia das Bananas,Praia do Caixao,Praia Formiga,Praia do Mel,Praia do Boi,Praia da Mandioca,Praia do Rei,Praia da Piscina,Praia do Gato,Praia da Fortaleza,Praia do Conde,Praia da Azeitona,Praia da Côco,Praia de Santa Rita"
 },
 {
     "name": "Equatoguinean Spanish",
@@ -394,7 +394,7 @@ window.africaNameBases = [
   "max": 14,
   "d": "lnrt",
   "m": 0,
-  "b": "Lomié,Moloundou,Yokadouma,Abong Mbang,Garoua Boulai,Bertoua,Dimako,Doumé,Mbang,Batouri,Bélabo,Mindourou,Nguélémendouka,Ndélélé,Ndokayo,Ngam,Bébidja,Bindi,Djoum,Gari Gombo,Makokou,Booué,Mekambo,Okondja,Koulamoutou,Mounana,Lastoursville,Moanda,Franceville"
+  "b": "Lomié,Moloundou,Yokadouma,Abong Mbang,Garoua Boulai,Bertoua,Dimako,Doumé,Mbang,Bélabo,Mindourou,Nguélémendouka,Ndélélé,Ndokayo,Ngam,Bébidja,Bindi,Djoum,Gari Gombo,Makokou,Booué,Mekambo,Okondja,Koulamoutou,Mounana,Moanda,Kankan,Nzérékoré,Porto-Novo,Batouri,Lastoursville,Franceville"
 },
 {
     "name": "Bassa",
@@ -403,7 +403,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Douala,Yaounde,Bafoussam,Bamenda,Bertoua,Ebolowa,Garoua,Maroua,Ngaoundere,Batouri,Yokadouma,Kribi,Edea,Tiko,Muyuka,Nkambe,Wum,Mfundi,Akwa,Bonaberi,Deido,Mokolo,Yagoua,Figuil,Guider,Tibati,Meiganga,Banyo,Tignere"
+  "b": "Douala,Yaounde,Bafoussam,Bamenda,Bertoua,Ebolowa,Garoua,Maroua,Ngaoundere,Yokadouma,Kribi,Edea,Tiko,Muyuka,Nkambe,Wum,Mfundi,Akwa,Bonaberi,Deido,Mokolo,Yagoua,Figuil,Guider,Tibati,Meiganga,Banyo,Tignere,Parakou,Batouri"
 },
 {
     "name": "Shilluk",
@@ -439,7 +439,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Jos,Bukuru,Riyom,Mangu,Bokkos,Pankshin,Shendam,Langtang,Wase,Keffi,Lafia,Akwanga,Awe,Keana,Oto,Doma,Obi,Agatu,Otukpo,Ugbokpo,Gboko,Aliade,Vandeikya,Katsina-Ala,Zaki Biam,Takawiri,Nyangusu,Loyangalani,Caano,CelDheer,Saakow,Buni,Ikerege,Mkunumbi,Lodwar,Qorragan,Buulobarde,CeelBarde,Ngomoni,Oyugis,Zhirela,Zhirema,Zhirewa,Zhirera,Zhireka,Zhireta,Zhirebwe,Zhiresa,Zhirena,Zhirefa,Zhirega,Zhireja,Zhireda,Zhirene,Zhirele,Zhirere,Zhirezi,Zhirebo,Zhireki,Zhiremu"
+  "b": "Jos,Riyom,Mangu,Bokkos,Pankshin,Shendam,Langtang,Wase,Keffi,Lafia,Akwanga,Awe,Keana,Oto,Doma,Obi,Agatu,Otukpo,Ugbokpo,Gboko,Aliade,Vandeikya,Katsina-Ala,Zaki Biam,Takawiri,Nyangusu,Loyangalani,Caano,CelDheer,Saakow,Buni,Ikerege,Mkunumbi,Lodwar,Qorragan,Buulobarde,CeelBarde,Ngomoni,Oyugis,Zhirela,Zhirema,Zhirewa,Zhirera,Zhireka,Zhireta,Zhirebwe,Zhiresa,Zhirena,Zhirefa,Zhirega,Zhireja,Zhireda,Zhirene,Zhirele,Zhirere,Zhirezi,Zhirebo,Zhireki,Zhiremu,Sokodé,Bukuru"
 },
 {
     "name": "Zhoa",
@@ -448,7 +448,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bamenda,Nkambe,Wum,Mfundi,Babanki,Kom,Oku,Bafoussam,Bangante,Bandjoun,Baham,Bamendjou,Batcham,Bana,Bafou,Batoufam,Bamougoum,Bamessingue,Bangangté,Bafang,Bangwa,Bamunka,Bambalang,Bambui,Bambili,Bamukumbit,Bamum,Sibiloi,Waamo,Giohar,Guriceel,Selina,Sindo,Galole,Kalokol,Harardera,Mahaday,Yeed,Kidimu,HomaBay,Kiunga,Kibish,Zhoala,Zhoama,Zhoawa,Zhoara,Zhoaka,Zhoata,Zhoabwe,Zhoasa,Zhoana,Zhoafa,Zhoaga,Zhoaja,Zhoada,Zhoane,Zhoale,Zhoare,Zhoazi,Zhoabo,Zhoaki,Zhoamu"
+  "b": "Bamenda,Nkambe,Wum,Mfundi,Babanki,Kom,Oku,Bafoussam,Bangante,Bandjoun,Baham,Bamendjou,Batcham,Bana,Bafou,Batoufam,Bamougoum,Bamessingue,Bangangté,Bafang,Bangwa,Bamunka,Bambalang,Bambui,Bambili,Bamukumbit,Bamum,Sibiloi,Waamo,Giohar,Guriceel,Selina,Sindo,Galole,Kalokol,Harardera,Mahaday,Yeed,Kidimu,Kiunga,Kibish,Zhoala,Zhoama,Zhoawa,Zhoara,Zhoaka,Zhoata,Zhoabwe,Zhoasa,Zhoana,Zhoafa,Zhoaga,Zhoaja,Zhoada,Zhoane,Zhoale,Zhoare,Zhoazi,Zhoabo,Zhoaki,Zhoamu,HomaBay"
 },
 {
     "name": "Nara",
@@ -457,7 +457,7 @@ window.africaNameBases = [
   "max": 13,
   "d": "lnrt",
   "m": 0,
-  "b": "Barentu,Agordat,Tessenei,Hamelmalo,Adi Tekelezan,Elabered,Gala,Forto,Adi Quala,Mogolo,Antalla,Adi Nebrid,Adi Hageray,Adi Yaqob,Adi Ghebru,Adi Tsetser,Adi Abune,Adi Gebru,Adi Tekelie,Keren,Asmara,Massawa,Nakfa,Mendefera,Dekemhare,Adi Keyh,Senafe,Segheneyti,Degehabur,Bagula,Iskushuban,Gendershe,Garsen,Ikonge,ElDera,Haraale,Salkaxo,Garowe,Janaale,Kaloleni,Masige,ArchersPost,RasKamboni,Shabola,Shaboma,Shabowa,Shabora,Shaboka,Shabota,Shabobwe,Shabosa,Shabona,Shabofa,Shaboga,Shaboja,Shaboda,Shabone,Shabole,Shabore,Shabozi,Shabobo,Shaboki,Shabomu"
+  "b": "Barentu,Agordat,Tessenei,Hamelmalo,Adi Tekelezan,Elabered,Gala,Forto,Adi Quala,Mogolo,Antalla,Adi Nebrid,Adi Hageray,Adi Yaqob,Adi Ghebru,Adi Tsetser,Adi Abune,Adi Gebru,Adi Tekelie,Keren,Asmara,Massawa,Nakfa,Mendefera,Dekemhare,Adi Keyh,Senafe,Segheneyti,Degehabur,Bagula,Iskushuban,Gendershe,Garsen,Ikonge,Haraale,Salkaxo,Garowe,Janaale,Kaloleni,Masige,ArchersPost,RasKamboni,Shabola,Shaboma,Shabowa,Shabora,Shaboka,Shabota,Shabobwe,Shabosa,Shabona,Shabofa,Shaboga,Shaboja,Shaboda,Shabone,Shabole,Shabore,Shabozi,Shabobo,Shaboki,Shabomu,ElDera"
 },
 {
     "name": "Sucite",
@@ -466,7 +466,7 @@ window.africaNameBases = [
   "max": 19,
   "d": "lnrt",
   "m": 0,
-  "b": "Sikasso,Kadiolo,Lobougoula,Niena,Zanférébougou,Blendio,Kolonzo,Loulouni,Nkourala,Kafouziéla,Gongasso,Kignan,Finkolo,Finkolo Ganadougou,Sankarani,Tiémala-Banimonotié,Kouoro,Danderesso,Koumankou,M'Pessoba,Koungoba,Tomoni,N'Golonianasso,Kapolondougou,Sanzana,Wanleweyn,Dolow,Gongoni,Bondo,Vipingo,Konso,CeyrTabaan,Laasqoray,QansaxDheere,Garsen,Mumias,Malindi,Yavello,Guba,Xaafuun,Sucitela,Sucitema,Sucitewa,Sucitera,Suciteka,Suciteta,Sucitebwe,Sucitesa,Sucitena,Sucitefa,Sucitega,Suciteja,Suciteda,Sucitene,Sucitele,Sucitere,Sucitezi,Sucitebo,Suciteki,Sucitemu"
+  "b": "Sikasso,Kadiolo,Lobougoula,Niena,Zanférébougou,Blendio,Kolonzo,Loulouni,Nkourala,Kafouziéla,Gongasso,Kignan,Finkolo,Finkolo Ganadougou,Sankarani,Tiémala-Banimonotié,Kouoro,Danderesso,Koumankou,M'Pessoba,Koungoba,Tomoni,N'Golonianasso,Kapolondougou,Sanzana,Wanleweyn,Dolow,Gongoni,Bondo,Vipingo,Konso,CeyrTabaan,Laasqoray,Garsen,Mumias,Malindi,Yavello,Guba,Xaafuun,Sucitela,Sucitema,Sucitewa,Sucitera,Suciteka,Suciteta,Sucitebwe,Sucitesa,Sucitena,Sucitefa,Sucitega,Suciteja,Suciteda,Sucitene,Sucitele,Sucitere,Sucitezi,Sucitebo,Suciteki,Sucitemu,QansaxDheere"
 },
 {
     "name": "Suwu",
@@ -475,7 +475,7 @@ window.africaNameBases = [
   "max": 13,
   "d": "lnrt",
   "m": 0,
-  "b": "Bimbia,Limbe,Buea,Tiko,Muyuka,Douala,Yaounde,Edea,Kribi,Ebolowa,Ambam,Meyo,Mbalmayo,Nanga-Eboko,Monatele,Akonolinga,Obala,Nkongsamba,Bertoua,Garoua,Maroua,Ngaoundere,Batouri,Yokadouma,CeelAfweyn,Baidoa,Chara,Webuye,Kipini,Mega,AadanYabaal,Galgalo,Fancole,Wema,Nyaribari,Kotus,SofOmar,Hadud,Bereeda,Suwula,Suwuma,Suwuwa,Suwura,Suwuka,Suwuta,Suwubwe,Suwusa,Suwuna,Suwufa,Suwuga,Suwuja,Suwuda,Suwune,Suwule,Suwure,Suwuzi,Suwubo,Suwuki,Suwumu"
+  "b": "Bimbia,Limbe,Buea,Tiko,Muyuka,Douala,Yaounde,Edea,Kribi,Ebolowa,Ambam,Meyo,Mbalmayo,Nanga-Eboko,Monatele,Akonolinga,Obala,Nkongsamba,Bertoua,Garoua,Maroua,Ngaoundere,Yokadouma,CeelAfweyn,Baidoa,Chara,Webuye,Kipini,Mega,AadanYabaal,Galgalo,Fancole,Wema,Nyaribari,Kotus,SofOmar,Hadud,Bereeda,Suwula,Suwuma,Suwuwa,Suwura,Suwuka,Suwuta,Suwubwe,Suwusa,Suwuna,Suwufa,Suwuga,Suwuja,Suwuda,Suwune,Suwule,Suwure,Suwuzi,Suwubo,Suwuki,Suwumu,Kara,Batouri"
 },
 {
     "name": "Acheron",
@@ -484,7 +484,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kadugli,El Obeid,Dilling,Talodi,Rashad,Abri,Salara,Saraf al-Jawamus,Moro Hills,Heiban,Tocho,Gathuk,Gandok,Garong,Karindoolay,Shalambood,Jariiban,Deynile,Rigomane,QansaxDheere,Lanta,Berdaale,Yubbe,Jerree,Mgangani,Cagaaran,Kabxan,FergusonsGulf,Cadaado,Abetna,Arowa,Apakla,Apidwa,Abulna,Afitna,Anewa,Adarla,Anubwa,Alolna,Afokna,Adudwa,Afanla,Akeswa,Anina,Acheronla,Acheronma,Acheronwa,Acheronra,Acheronka"
+  "b": "Kadugli,El Obeid,Dilling,Talodi,Rashad,Abri,Salara,Saraf al-Jawamus,Moro Hills,Heiban,Tocho,Gathuk,Gandok,Garong,Karindoolay,Shalambood,Jariiban,Deynile,Rigomane,Lanta,Berdaale,Yubbe,Jerree,Mgangani,Cagaaran,Kabxan,FergusonsGulf,Cadaado,Abetna,Arowa,Apakla,Apidwa,Abulna,Afitna,Anewa,Adarla,Anubwa,Alolna,Afokna,Adudwa,Afanla,Akeswa,Anina,Acheronla,Acheronma,Acheronwa,Acheronra,Acheronka,QansaxDheere"
 },
 {
     "name": "Adara",
@@ -493,7 +493,7 @@ window.africaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-   "b": "Kachia,Kagarko,Kajuru,Kaura,Kauru,Jema'a,Kufana,Kagoma,Karibi,Kpak,Kuyanbaba,Zangon Kataf,Ungwan Rimi,Ungwan Boro,Zonkwa,Fadan Karshe,Kafanchan,Idazo,Ungwan Galadima,Ungwan Guza,Etissi,Ungwan Ma'aji,Ungwan Dantata,Ungwan Araha,Ungwan Goshi,Ungwan Shaban,Ungwan Jibo,Magunguna,Paikoro,Munya"
+   "b": "Kachia,Kagarko,Kaura,Jema,Cape Coast,Yamoussoukro'a,Kufana,Kagoma,Karibi,Kpak,Kuyanbaba,Zangon Kataf,Ungwan Rimi,Ungwan Boro,Zonkwa,Fadan Karshe,Kafanchan,Idazo,Ungwan Galadima,Ungwan Guza,Etissi,Ungwan Ma'aji,Ungwan Dantata,Ungwan Araha,Ungwan Goshi,Ungwan Shaban,Magunguna,Paikoro,Munya,Kajuru,Kauru,Jema'a,Ungwan Jibo"
 },
 {
     "name": "Aghem",
@@ -529,7 +529,7 @@ window.africaNameBases = [
   "max": 14,
   "d": "lnrt",
   "m": 0,
-  "b": "Ouagadougou,Bobo-Dioulasso,Koudougou,Banfora,Ouahigouya,Dédougou,Nouna,Tougan,Djibo,Gorom-Gorom,Marka,Yako,Kongoussi,Kaya,Fada N'Gourma,Gayeri,Leo,Sapouy,Bittou,Garango,Zorgho,Boussé,Kouka,Mogtédo,Rambo,Yargo,Teltele,Wargalo,Xabo,BurAcaba,Bargoni,Chwele,Hola,Degehabur,Bagula,Iskushuban,Gendershe,Garsen,Ikonge,ElDera,Haraale,Adilta,Akodta,Afimma,Adagta,Aegma,Alinma,Apara,Aminta,Alasma,Anenta,Afudta,Akukma,Aalra,Abama,Afinta,Doghosela,Doghosema,Doghosewa,Doghosera,Doghoseka"
+  "b": "Ouagadougou,Bobo-Dioulasso,Koudougou,Banfora,Ouahigouya,Dédougou,Nouna,Tougan,Djibo,Gorom-Gorom,Marka,Yako,Kongoussi,Kaya,Fada N'Gourma,Gayeri,Leo,Sapouy,Bittou,Garango,Zorgho,Boussé,Kouka,Mogtédo,Rambo,Yargo,Teltele,Wargalo,Xabo,BurAcaba,Bargoni,Chwele,Hola,Degehabur,Bagula,Iskushuban,Gendershe,Garsen,Ikonge,Haraale,Adilta,Akodta,Afimma,Adagta,Aegma,Alinma,Apara,Aminta,Alasma,Anenta,Afudta,Akukma,Aalra,Abama,Afinta,Doghosela,Doghosema,Doghosewa,Doghosera,Doghoseka,ElDera"
 },
 {
     "name": "Eton",
@@ -538,7 +538,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-   "b": "Yaounde,Mbalmayo,Ebolowa,Ambam,Meyo,Eseka,Nanga-Eboko,Monatele,Akonolinga,Obala,Nkongsamba,Douala,Bertoua,Garoua,Maroua,Ngaoundere,Batouri,Yokadouma,Kribi,Edea,Tiko,Muyuka,ElKere,Garawe,Bargaal,Afgooye,Malindi,Sengera,ElBur,AbudWaaq,Kabxan,Gaalkacyo,Maraag,Mackinnon,Nyamira,Wamba,Xato,Apukla,Anodla,Apimka,Aikwa,Amomla,Amagka,Akimwa,Abidla,Adamla,Aelka,Aebla,Alirwa,Aminla,Adidwa,Aosla,Etonla,Etonma,Etonwa,Etonra,Etonka"
+   "b": "Yaounde,Mbalmayo,Ebolowa,Ambam,Meyo,Eseka,Nanga-Eboko,Monatele,Akonolinga,Obala,Nkongsamba,Douala,Bertoua,Garoua,Maroua,Ngaoundere,Yokadouma,Kribi,Edea,Tiko,Muyuka,Garawe,Bargaal,Afgooye,Malindi,Sengera,ElBur,AbudWaaq,Kabxan,Gaalkacyo,Maraag,Mackinnon,Nyamira,Wamba,Xato,Apukla,Anodla,Apimka,Aikwa,Amomla,Amagka,Akimwa,Abidla,Adamla,Aelka,Aebla,Alirwa,Aminla,Adidwa,Aosla,Etonla,Etonma,Etonwa,Etonra,Etonka,Dakar,Batouri,ElKere"
 },
 {
     "name": "Afade",
@@ -547,7 +547,7 @@ window.africaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-   "b": "Maiduguri,Dikwa,Monguno,Ngala,Kala-Balge,Gamboru,Gwoza,Bama,Marte,Kukawa,Kaga,Kousseri,Marafa,Waza,Logone-Birni,Hina,Mora,Balda,Makary,Kousséri,Mkokoni,Sarameer,Keumbu,BurAcaba,Bubisa,Cagare,Bagula,Salkaxo,Sablaale,Jongole,Wanleweyn,Dinsor,Hobyo,Rangwe,Duduble,Apatfa,Amigra,Amunma,Amebra,Apolfa,Abekfa,Akagra,Aumma,Alosra,Afifa,Abirfa,Aobra,Abulma,Adatra,Akegfa,Afadela,Afadema,Afadewa,Afadera,Afadeka"
+   "b": "Dikwa,Monguno,Ngala,Kala-Balge,Gamboru,Gwoza,Bama,Marte,Kukawa,Kaga,Kousseri,Marafa,Waza,Logone-Birni,Hina,Mora,Balda,Makary,Kousséri,Mkokoni,Sarameer,Keumbu,BurAcaba,Bubisa,Cagare,Bagula,Salkaxo,Sablaale,Jongole,Wanleweyn,Dinsor,Hobyo,Rangwe,Duduble,Apatfa,Amigra,Amunma,Amebra,Apolfa,Abekfa,Akagra,Aumma,Alosra,Afifa,Abirfa,Aobra,Abulma,Adatra,Akegfa,Afadela,Afadema,Afadewa,Afadera,Afadeka,Bamako,Maiduguri"
 },
 {
     "name": "Afar",
@@ -559,7 +559,7 @@ window.africaNameBases = [
    "b": "Asaita,Assab,Tadjoura,Obock,Dikhil,Ali Sabieh,Dorra,Manda,Galafi,Beilul,Loyada,Rahayta,Adi Addey,Kousséra,Bure,Edd,Airolaf,Omar Jagaa,Hando,Moulhoule,Balho,Damerjog,Debne"
 },
 {
-    "name": "Bura", "i": 586, "min": 3, "max": 12, "d": "lnrt", "m": 0, "b": "Biu,Maiduguri,Mubi,Konduga,Gwoza,Bama,Marte,Monguno,Ngala,Dikwa,Kukawa,Kousseri,Marafa,Waza,Gamboru,Logone-Birni,Hina,Mora,Balda,Makary,Kousséri,Damboa,Gulak,Madagali,Damaturu,Kumbare,Sheikh,GalCad,Ngei,Takawiri,Nyangusu,Loyangalani,Caano,CelDheer,Saakow,Buni,Ikerege,Mkunumbi,Lodwar,Qorragan,Apekma,Anidfa,Aitsa,Afasa,Amurma,Abibfa,Animma,Aketsa,Adegsa,Adinma,Adisfa,Amaksa,Aibsa,Alamma,Abikfa,Burala,Burama,Burawa,Burara,Buraka"
+    "name": "Bura", "i": 586, "min": 3, "max": 12, "d": "lnrt", "m": 0, "b": "Biu,Mubi,Konduga,Gwoza,Bama,Marte,Monguno,Ngala,Dikwa,Kukawa,Kousseri,Marafa,Waza,Gamboru,Logone-Birni,Hina,Mora,Balda,Makary,Kousséri,Damboa,Gulak,Madagali,Kumbare,Sheikh,GalCad,Ngei,Takawiri,Nyangusu,Loyangalani,Caano,CelDheer,Saakow,Buni,Ikerege,Mkunumbi,Lodwar,Qorragan,Apekma,Anidfa,Aitsa,Afasa,Amurma,Abibfa,Animma,Aketsa,Adegsa,Adinma,Adisfa,Amaksa,Aibsa,Alamma,Abikfa,Burala,Burama,Burawa,Burara,Buraka,Ouagadougou,Conakry,Maiduguri,Damaturu"
 },
 {
     "name": "Bure",
@@ -568,7 +568,7 @@ window.africaNameBases = [
   "max": 13,
   "d": "lnrt",
   "m": 0,
-  "b": "Azare,Katagum,Misau,Ningi,Dass,Tafawa Balewa,Bununu,Lere,Potiskum,Dukku,Kaltungo,Shongom,Akko,Kwami,Billiri,Pindiga,Kumo,Fika,Bara,Deba,Banga,Kaltin,Kushi,Bogoro,Dadin Kowa,Bambam,Waja,Geedweyne,Cadaado,Bardhere,Wangwana,Keumbu,Witu,Lokitaung,Baydhabo,Jalalaqsi,Luq,Mafisini,Rangwe,Takwa,Dimeka,Sablaale,Akosla,Akikla,Aludbwe,Apinbwe,Adesla,Anuna,Afurla,Aobbwe,Apombwe,Anutla,Anugna,Aenla,Adisbwe,Abirla,Amubna,Burela,Burema,Burewa,RaBure,Bureka"
+  "b": "Azare,Katagum,Misau,Ningi,Dass,Tafawa Balewa,Bununu,Lere,Potiskum,Dukku,Kaltungo,Shongom,Akko,Kwami,Billiri,Pindiga,Kumo,Fika,Bara,Deba,Banga,Kaltin,Kushi,Bogoro,Bambam,Waja,Geedweyne,Cadaado,Bardhere,Wangwana,Keumbu,Witu,Lokitaung,Baydhabo,Jalalaqsi,Luq,Mafisini,Rangwe,Takwa,Dimeka,Sablaale,Akosla,Akikla,Aludbwe,Apinbwe,Adesla,Anuna,Afurla,Aobbwe,Apombwe,Anutla,Anugna,Aenla,Adisbwe,Abirla,Amubna,Burela,Burema,Burewa,Bureka,Dadin Kowa,RaBure"
 },
 {
     "name": "Buwal",
@@ -586,7 +586,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Jos,Bukuru,Riyom,Mangu,Bokkos,Pankshin,Shendam,Langtang,Wase,Keffi,Lafia,Akwanga,Awe,Keana,Oto,Doma,Obi,Agatu,Otukpo,Ugbokpo,Gboko,Aliade,Vandeikya,Katsina-Ala,Zaki Biam,CeyrTabaan,Laasqoray,QansaxDheere,Garsen,Mumias,Malindi,Yavello,Guba,Xaafuun,Lanta,Ozi,Tindinyo,Masalani,ElKere,Garawe,Aponbwe,Alesna,Afunka,Alobwe,Abuska,Amalka,Aderna,Apobbwe,Amorka,Amebka,Apuna,Akisna,Alinka,Aditna,Aodbwe,CakfemMusherela,CakfemMusherema,CakfemMusherewa,CakfemMusherera,CakfemMushereka"
+  "b": "Jos,Riyom,Mangu,Bokkos,Pankshin,Shendam,Langtang,Wase,Keffi,Lafia,Akwanga,Awe,Keana,Oto,Doma,Obi,Agatu,Otukpo,Ugbokpo,Gboko,Aliade,Vandeikya,Katsina-Ala,Zaki Biam,CeyrTabaan,Laasqoray,Garsen,Mumias,Malindi,Yavello,Guba,Xaafuun,Lanta,Ozi,Tindinyo,Masalani,Garawe,Aponbwe,Alesna,Afunka,Alobwe,Abuska,Amalka,Aderna,Apobbwe,Amorka,Amebka,Apuna,Akisna,Alinka,Aditna,Aodbwe,Accra,Bukuru,QansaxDheere,ElKere,CakfemMusherela,CakfemMusherema,CakfemMusherewa,CakfemMusherera,CakfemMushereka"
 },
 {
     "name": "Bukusu",
@@ -595,7 +595,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bungoma,Kitale,Kakamega,Webuye,Busia,Malaba,Tororo,Jinja,Mbale,Kisumu,Siaya,Homa Bay,Migori,Kericho,Nakuru,Nandi,Eldoret,Kapsabet,Nzoia,Trans Nzoia,Marakwet,Keiyo,Baringo,Laikipia,Nyeri,Kirinyaga,AadanYabaal,Galgalo,Fancole,Wema,Nyaribari,Kotus,SofOmar,Hadud,Bereeda,Shalambood,Kilifi,Rioma,Habaswein,TulaNaga,Sarweyne,Apimsa,Akatta,Abodsa,Aimra,Apesra,Abanta,Anera,Adinra,Anossa,Alata,Adogra,Akensa,Audsa,Abukra,Anudsa,Bukusula,Bukusuma,Bukusuwa,Bukusura,Bukusuka"
+  "b": "Bungoma,Kitale,Kakamega,Webuye,Busia,Malaba,Tororo,Jinja,Mbale,Kisumu,Siaya,Homa Bay,Migori,Kericho,Nandi,Eldoret,Kapsabet,Nzoia,Trans Nzoia,Marakwet,Keiyo,Baringo,Laikipia,Nyeri,Kirinyaga,AadanYabaal,Galgalo,Fancole,Wema,Nyaribari,Kotus,SofOmar,Hadud,Bereeda,Shalambood,Kilifi,Rioma,Habaswein,Sarweyne,Apimsa,Akatta,Abodsa,Aimra,Apesra,Abanta,Anera,Adinra,Anossa,Alata,Adogra,Akensa,Audsa,Abukra,Anudsa,Bukusula,Bukusuma,Bukusuwa,Bukusura,Bukusuka,Kumasi,Nakuru,TulaNaga"
 },
 {
     "name": "Afrikaans",
@@ -604,7 +604,7 @@ window.africaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Cape Town,Johannesburg,Pretoria,Durban,Port Elizabeth,Bloemfontein,East London,Kimberley,Pietermaritzburg,Windhoek,Swakopmund,Walvis Bay,Keetmanshoop,Gobabis,Mariental,Rehoboth,Luderitz,Oranjemund,Rundu,Katima Mulilo,Oshakati,Ondangwa,Tsumeb,Grootfontein,Otjiwarongo,Okahandja,Afgoi,Kotus,ArchersPost,Bacad,Mohoro,Illeret,Iskushuban,Garbahaarrey,Galkacyo,CelDheer,Matiri,Dhoobley,Qorragan,Wargalo,Kau,Apotsa,Amerfa,Amubma,Apemsa,Abuksa,Akogma,Aenfa,Alebma,Afalsa,Abaksa,Aedma,Abemfa,Adotma,Akugsa,Apersa,Afrikaansla,Afrikaansma,Afrikaanswa,Afrikaansra,Afrikaanska"
+  "b": "Cape Town,Johannesburg,Pretoria,Durban,Port Elizabeth,Bloemfontein,East London,Kimberley,Windhoek,Swakopmund,Walvis Bay,Keetmanshoop,Gobabis,Mariental,Rehoboth,Luderitz,Oranjemund,Rundu,Katima Mulilo,Oshakati,Ondangwa,Tsumeb,Grootfontein,Otjiwarongo,Okahandja,Afgoi,Kotus,ArchersPost,Bacad,Mohoro,Illeret,Iskushuban,Garbahaarrey,Galkacyo,CelDheer,Matiri,Dhoobley,Qorragan,Wargalo,Kau,Apotsa,Amerfa,Amubma,Apemsa,Abuksa,Akogma,Aenfa,Alebma,Afalsa,Abaksa,Aedma,Abemfa,Adotma,Akugsa,Apersa,Afrikaansla,Afrikaansma,Afrikaanswa,Afrikaansra,Afrikaanska,Masvingo,Pietermaritzburg"
 },
 {
     "name": "Agaw",
@@ -640,7 +640,7 @@ window.africaNameBases = [
   "max": 13,
   "d": "lnrt",
   "m": 0,
-  "b": "Azare,Katagum,Misau,Ningi,Dass,Tafawa Balewa,Bununu,Lere,Potiskum,Dukku,Kaltungo,Shongom,Akko,Kwami,Billiri,Pindiga,Kumo,Fika,Bara,Deba,Banga,Kaltin,Kushi,Bogoro,Dadin Kowa,Bambam,Waja,Garsen,Mumias,Malindi,Yavello,Guba,Xaafuun,Lanta,Ozi,Tindinyo,Masalani,ElKere,Garawe,Bargaal,Afgooye,Sengera,Wannula,Wannuma,Wannuwa,Wannura,Wannuka,Wannuta,Wannubwe,Wannusa,Wannuna,Wannufa,Wannuga,Wannuja,Wannuda,Wannune,Wannule,Wannure,Wannuzi,Wannubo,Wannuki,Wannumu"
+  "b": "Azare,Katagum,Misau,Ningi,Dass,Tafawa Balewa,Bununu,Lere,Potiskum,Dukku,Kaltungo,Shongom,Akko,Kwami,Billiri,Pindiga,Kumo,Fika,Bara,Deba,Banga,Kaltin,Kushi,Bogoro,Bambam,Waja,Garsen,Mumias,Malindi,Yavello,Guba,Xaafuun,Lanta,Ozi,Tindinyo,Masalani,Garawe,Bargaal,Afgooye,Sengera,Wannula,Wannuma,Wannuwa,Wannura,Wannuka,Wannuta,Wannubwe,Wannusa,Wannuna,Wannufa,Wannuga,Wannuja,Wannuda,Wannune,Wannule,Wannure,Wannuzi,Wannubo,Wannuki,Wannumu,Dadin Kowa,ElKere"
 },
 {
     "name": "Yalunka",
@@ -649,7 +649,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-   "b": "Kankan,Kissidougou,Kouroussa,Siguiri,Labé,Yomou,Beyla,Nzérékoré,Macenta,Gueckedou,Faranah,Mamou,Dalaba,Pita,Lélouma,Koubia,Tougué,Coyah,Kindia,Forécariah,Dubréka,Boffa,Boké,Wema,Nyaribari,Kotus,SofOmar,Hadud,Bereeda,Shalambood,Kilifi,Rioma,Habaswein,TulaNaga,Sarweyne,Koorma,Xarardheere,Mariakani,Yalunkala,Yalunkama,Yalunkawa,Yalunkara,Yalunkaka,Yalunkata,Yalunkabwe,Yalunkasa,Yalunkana,Yalunkafa,Yalunkaga,Yalunkaja,Yalunkada,Yalunkane,Yalunkale,Yalunkare,Yalunkazi,Yalunkabo,Yalunkaki,Yalunkamu"
+   "b": "Kankan,Kissidougou,Kouroussa,Siguiri,Labé,Yomou,Beyla,Nzérékoré,Macenta,Gueckedou,Faranah,Mamou,Dalaba,Pita,Lélouma,Koubia,Tougué,Coyah,Kindia,Forécariah,Dubréka,Boffa,Boké,Wema,Nyaribari,Kotus,SofOmar,Hadud,Bereeda,Shalambood,Kilifi,Rioma,Habaswein,Sarweyne,Koorma,Xarardheere,Mariakani,Yalunkala,Yalunkama,Yalunkawa,Yalunkara,Yalunkaka,Yalunkata,Yalunkabwe,Yalunkasa,Yalunkana,Yalunkafa,Yalunkaga,Yalunkaja,Yalunkada,Yalunkane,Yalunkale,Yalunkare,Yalunkazi,Yalunkabo,Yalunkaki,Yalunkamu,TulaNaga"
 },
 {
     "name": "Yamba",
@@ -667,7 +667,7 @@ window.africaNameBases = [
   "max": 13,
   "d": "lnrt",
   "m": 0,
-   "b": "Lubumbashi,Kolwezi,Likasi,Kipushi,Kambove,Kasenga,Kafungu,Lualaba,Mwene-Ditu,Kasongo-Lunda,Kenge,Kasangulu,Kikwit,Tshikapa,Uvira,Bukavu,Goma,Butembo,Beni,Luozi,Kamina,Kongolo,Manono,Malemba-Nkulu,Samburu,Ogembo,SouthHorr,Dhalwo,Aqable,Jariiban,Garbaharey,Geza,Uriri,Bubisa,Kumbare,Sheikh,GalCad,Ngei,Takawiri,YelaKelala,YelaKelama,YelaKelawa,YelaKelara,YelaKelaka,YelaKelata,YelaKelabwe,YelaKelasa,YelaKelana,YelaKelafa,YelaKelaga,YelaKelaja,YelaKelada,YelaKelane,YelaKelale,YelaKelare,YelaKelazi,YelaKelabo,YelaKelaki,YelaKelamu"
+   "b": "Lubumbashi,Kolwezi,Likasi,Kipushi,Kambove,Kasenga,Kafungu,Lualaba,Mwene-Ditu,Kasongo-Lunda,Kenge,Kasangulu,Kikwit,Tshikapa,Uvira,Bukavu,Goma,Butembo,Beni,Luozi,Kamina,Kongolo,Manono,Malemba-Nkulu,Ogembo,SouthHorr,Dhalwo,Aqable,Jariiban,Garbaharey,Geza,Uriri,Bubisa,Kumbare,Sheikh,GalCad,Ngei,Takawiri,Abidjan,Samburu,YelaKelala,YelaKelama,YelaKelawa,YelaKelara,YelaKelaka,YelaKelata,YelaKelabwe,YelaKelasa,YelaKelana,YelaKelafa,YelaKelaga,YelaKelaja,YelaKelada,YelaKelane,YelaKelale,YelaKelare,YelaKelazi,YelaKelabo,YelaKelaki,YelaKelamu"
 },
 {
     "name": "Nung",
@@ -685,7 +685,7 @@ window.africaNameBases = [
   "max": 13,
   "d": "lnrt",
   "m": 0,
-  "b": "Windhoek,Swakopmund,Walvis Bay,Keetmanshoop,Gobabis,Mariental,Rehoboth,Luderitz,Oranjemund,Rundu,Katima Mulilo,Oshakati,Ondangwa,Tsumeb,Grootfontein,Otjiwarongo,Okahandja,Gibeon,Bethanie,Gochas,Karasburg,Aroab,Noordoewer,Klein Karoo,Upington"
+  "b": "Windhoek,Swakopmund,Walvis Bay,Keetmanshoop,Gobabis,Mariental,Rehoboth,Luderitz,Oranjemund,Rundu,Katima Mulilo,Oshakati,Ondangwa,Tsumeb,Grootfontein,Otjiwarongo,Okahandja,Gibeon,Bethanie,Gochas,Aroab,Noordoewer,Klein Karoo,Upington,Victoria Falls,Karasburg"
 },
 {
     "name": "Naro",
@@ -694,7 +694,7 @@ window.africaNameBases = [
   "max": 13,
   "d": "lnrt",
   "m": 0,
-  "b": "Ghanzi,Maun,Kasane,Francistown,Serowe,Palapye,Mahalapye,Selebi-Phikwe,Bobonong,Tonota,Shoshong,Mmadinare,Orapa,Letlhakane,Jwaneng,Sua,Okavango,Chobe,Ngamiland,Tutume,Kgalagadi,Goodhope,Tshabong,Hukuntsi,Kang"
+  "b": "Ghanzi,Maun,Kasane,Francistown,Serowe,Palapye,Mahalapye,Selebi-Phikwe,Bobonong,Tonota,Shoshong,Mmadinare,Orapa,Letlhakane,Jwaneng,Sua,Okavango,Chobe,Tutume,Kgalagadi,Goodhope,Tshabong,Hukuntsi,Kang,Lomé,Ngamiland"
 },
 {
     "name": "Gui",
@@ -703,7 +703,7 @@ window.africaNameBases = [
   "max": 13,
   "d": "lnrt",
   "m": 0,
-  "b": "Ghanzi,Maun,Kasane,Francistown,Serowe,Palapye,Mahalapye,Selebi-Phikwe,Bobonong,Tonota,Shoshong,Mmadinare,Orapa,Letlhakane,Jwaneng,Sua,Okavango,Chobe,Ngamiland,Tutume,Kgalagadi,Goodhope,Tshabong,Hukuntsi,Kang"
+  "b": "Ghanzi,Maun,Kasane,Francistown,Serowe,Palapye,Mahalapye,Selebi-Phikwe,Bobonong,Tonota,Shoshong,Mmadinare,Orapa,Letlhakane,Jwaneng,Sua,Okavango,Chobe,Tutume,Kgalagadi,Goodhope,Tshabong,Hukuntsi,Kang,Cotonou,Ngamiland"
 },
 {
     "name": "Kwadi",
@@ -721,7 +721,7 @@ window.africaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-   "b": "Monrovia,Buchanan,Harper,Greenville,Sanniquellie,Gbarnga,Kakata,Zwedru,Voinjama,Foya,Tubmanburg,Robertsport,Harbel,Paynesville,Ganta,Saniquellie,Bong,Tappita,Maryland,Sinoe,Fajardo,Marigot,Camuy,Guayama,Cidra,SanGerman,AguasBuenas,LasPiedras,Brades,Manati,Humacao,Orocovis,Mayaguez,Juncos,Maunabo,Aleswood,Amisville,Alugwood,Audbridge,Apedville,Akusbridge,Akugbridge,Adoswood,Afulbridge,Aerville,Aniswood,Anilville,Arewood,Adumbridge,Afenville,KruPidginEnglishtown,KruPidginEnglishville,KruPidginEnglishburg,KruPidginEnglishview,KruPidginEnglishside"
+   "b": "Monrovia,Buchanan,Harper,Sanniquellie,Gbarnga,Kakata,Zwedru,Voinjama,Foya,Robertsport,Harbel,Ganta,Saniquellie,Bong,Tappita,Sinoe,Lagos,Kano,Ibadan,Abuja,Tamale,Bouaké,Saint-Louis,Thiès,Kaolack,Ziguinchor,Touba,Ségou,Sikasso,Mopti,Timbuktu,Gao,Bobo-Dioulasso,Kindia,Kankan,Greenville,Tubmanburg,Paynesville,Maryland,Fajardo,Marigot,Camuy,Guayama,Cidra,SanGerman,AguasBuenas,LasPiedras,Brades,Manati,Humacao,Orocovis,Mayaguez,Juncos,Maunabo,Aleswood,Amisville,Alugwood,Audbridge,Apedville,Akusbridge,Akugbridge,Adoswood,Afulbridge,Aerville,Aniswood,Anilville,Arewood,Adumbridge,Afenville,KruPidginEnglishtown,KruPidginEnglishville,KruPidginEnglishburg,KruPidginEnglishview,KruPidginEnglishside"
 },
 {
     "name": "Liberian Pidgin English",
@@ -730,7 +730,7 @@ window.africaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-   "b": "Monrovia,Buchanan,Harper,Greenville,Sanniquellie,Gbarnga,Kakata,Zwedru,Voinjama,Foya,Tubmanburg,Robertsport,Harbel,Paynesville,Ganta,Saniquellie,Bong,Tappita,Maryland,Sinoe,Manati,Humacao,Orocovis,Mayaguez,Juncos,Maunabo,Castries,Dorado,Arecibo,Jayuya,Aguada,Ceiba,Guayama,Arroyo,Bayamon,Abodland,Amemford,Ailland,Adorland,Aegford,Abemford,Apekford,Afudland,Alomland,Amaktown,Aneland,Afulland,Apalland,Apottown,Alibtown,LiberianInteriorPidginEnglishtown,LiberianInteriorPidginEnglishville,LiberianInteriorPidginEnglishburg,LiberianInteriorPidginEnglishview,LiberianInteriorPidginEnglishside"
+   "b": "Monrovia,Buchanan,Harper,Sanniquellie,Gbarnga,Kakata,Zwedru,Voinjama,Foya,Robertsport,Harbel,Ganta,Saniquellie,Bong,Tappita,Sinoe,Nzérékoré,Porto-Novo,Parakou,Sokodé,Kara,Cape Coast,Yamoussoukro,Dakar,Bamako,Ouagadougou,Conakry,Accra,Kumasi,Abidjan,Lomé,Cotonou,Lagos,Kano,Ibadan,Abuja,Greenville,Tubmanburg,Paynesville,Maryland,Manati,Humacao,Orocovis,Mayaguez,Juncos,Maunabo,Castries,Dorado,Arecibo,Jayuya,Aguada,Ceiba,Guayama,Arroyo,Bayamon,Abodland,Amemford,Ailland,Adorland,Aegford,Abemford,Apekford,Afudland,Alomland,Amaktown,Aneland,Afulland,Apalland,Apottown,Alibtown,LiberianInteriorPidginEnglishtown,LiberianInteriorPidginEnglishville,LiberianInteriorPidginEnglishburg,LiberianInteriorPidginEnglishview,LiberianInteriorPidginEnglishside"
 },
 {
     "name": "Fur",
@@ -766,7 +766,7 @@ window.africaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-   "b": "Kachia,Kagarko,Kajuru,Kaura,Kauru,Jema'a,Kufana,Kagoma,Karibi,Kpak,Kuyanbaba,Zangon Kataf,Ungwan Rimi,Ungwan Boro,Zonkwa,Fadan Karshe,Kafanchan,Xabo,BurAcaba,Bargoni,Chwele,Hola,Degehabur,Bagula,Iskushuban,Gendershe,Garsen,Ikonge,ElDera,Haraale,Salkaxo,Garowe,Abatwa,Afarla,Akatwa,Audka,Anunla,Aluka,Alakwa,Amedka,Aolla,Anigka,Apabka,Abawa,Adila,Afika,Adosla,Gyongla,Gyongma,Gyongwa,Gyongra,Gyongka"
+   "b": "Kachia,Kagarko,Kaura,Jema,Tamale,Bouaké'a,Kufana,Kagoma,Karibi,Kpak,Kuyanbaba,Zangon Kataf,Ungwan Rimi,Ungwan Boro,Zonkwa,Fadan Karshe,Kafanchan,Xabo,BurAcaba,Bargoni,Chwele,Hola,Degehabur,Bagula,Iskushuban,Gendershe,Garsen,Ikonge,Haraale,Salkaxo,Garowe,Abatwa,Afarla,Akatwa,Audka,Anunla,Aluka,Alakwa,Amedka,Aolla,Anigka,Apabka,Abawa,Adila,Afika,Adosla,Gyongla,Gyongma,Gyongwa,Gyongra,Gyongka,Kajuru,Kauru,Jema'a,ElDera"
 },
 {
     "name": "Hakaona",
@@ -793,7 +793,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-   "b": "Yaounde,Mbalmayo,Ebolowa,Ambam,Meyo,Eseka,Nanga-Eboko,Monatele,Akonolinga,Obala,Nkongsamba,Douala,Bafoussam,Bamenda,Bertoua,Garoua,Maroua,Ngaoundere,Batouri,Yokadouma,Kribi,Edea,Tiko,Muyuka,Godinlabe,Afmadow,Jimbo,Suna,Kargi,Geesaley,Dhuusamareeb,Balad,Gerille,Kisimani,Ntimaru,Illeret,Jerree,Warshiek,Cadaado,Aisma,Saarila,Saarima,Saariwa,Saarira,Saarika,Saarita,Saaribwe,Saarisa,Saarina,Saarifa,Saariga,Saarija,Saarida,Saarine,Saarile,Saarire,Saarizi,Saaribo,Saariki"
+   "b": "Yaounde,Mbalmayo,Ebolowa,Ambam,Meyo,Eseka,Nanga-Eboko,Monatele,Akonolinga,Obala,Nkongsamba,Douala,Bafoussam,Bamenda,Bertoua,Garoua,Maroua,Ngaoundere,Yokadouma,Kribi,Edea,Tiko,Muyuka,Godinlabe,Afmadow,Jimbo,Suna,Kargi,Geesaley,Dhuusamareeb,Balad,Gerille,Kisimani,Ntimaru,Illeret,Jerree,Warshiek,Cadaado,Aisma,Saarila,Saarima,Saariwa,Saarira,Saarika,Saarita,Saaribwe,Saarisa,Saarina,Saarifa,Saariga,Saarija,Saarida,Saarine,Saarile,Saarire,Saarizi,Saaribo,Saariki,Saint-Louis,Batouri"
 },
 {
     "name": "Samwe",
@@ -820,7 +820,7 @@ window.africaNameBases = [
   "max": 13,
   "d": "lnrt",
   "m": 0,
-  "b": "Libreville,Port-Gentil,Franceville,Oyem,Mouila,Lambaréné,Tchibanga,Moanda,Koulamoutou,Mounana,Lastoursville,Okondja,Makokou,Booué,Mekambo,Garbahaarrey,Omaribaya,Yala,Mtwapa,Karamara,Qoryooley,CeelBuux,Tiyeglow,Kau,Butere,Kilifi,Teltele,Wargalo,Xabo,BurAcaba,Sighula,Sighuma,Sighuwa,Sighura,Sighuka,Sighuta,Sighubwe,Sighusa,Sighuna,Sighufa,Sighuga,Sighuja,Sighuda,Sighune,Sighule,Sighure,Sighuzi,Sighubo,Sighuki,Sighumu"
+  "b": "Port-Gentil,Oyem,Mouila,Lambaréné,Tchibanga,Moanda,Koulamoutou,Mounana,Okondja,Makokou,Booué,Mekambo,Garbahaarrey,Omaribaya,Yala,Mtwapa,Karamara,Qoryooley,CeelBuux,Tiyeglow,Kau,Butere,Kilifi,Teltele,Wargalo,Xabo,BurAcaba,Sighula,Sighuma,Sighuwa,Sighura,Sighuka,Sighuta,Sighubwe,Sighusa,Sighuna,Sighufa,Sighuga,Sighuja,Sighuda,Sighune,Sighule,Sighure,Sighuzi,Sighubo,Sighuki,Sighumu,Thiès,Kaolack,Ziguinchor,Libreville,Franceville,Lastoursville"
 },
 {
     "name": "Siwu",
@@ -847,7 +847,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Conakry,Freetown,Kamsar,Dubreka,Makeni,Kissy,Waterloo,Port Loko,Moyamba,Boffa,Kissidougou,Labé,Kindia,Mamou,Kankan,Siguiri,Boke,Gueckedou,Lola,Nzérékoré,Youmou,Beyla,Macenta,Dinguiraye,Faranah,Kouroussa,Mandiana,Lélouma,Koubia,Tougué,Coyah,Burdhubo,Samburu,Ogembo,SouthHorr,Dhalwo,Aqable,Jariiban,Garbaharey,Geza,Uriri,Bubisa,Kumbare,Sheikh,GalCad,Ngei,Susula,Susuma,Susuwa,Susura,Susuka,Susuta,Susubwe,Sususa,Susuna,Susufa,Susuga,Susuja,Susuda,Susune,Susule,Susure,Susuzi,Susubo,Susuki,Susumu"
+  "b": "Conakry,Kamsar,Dubreka,Makeni,Kissy,Waterloo,Port Loko,Moyamba,Boffa,Kissidougou,Labé,Kindia,Mamou,Kankan,Siguiri,Boke,Gueckedou,Lola,Nzérékoré,Youmou,Beyla,Macenta,Dinguiraye,Faranah,Kouroussa,Mandiana,Lélouma,Koubia,Tougué,Coyah,Burdhubo,Ogembo,SouthHorr,Dhalwo,Aqable,Jariiban,Garbaharey,Geza,Uriri,Bubisa,Kumbare,Sheikh,GalCad,Ngei,Susula,Susuma,Susuwa,Susura,Susuka,Susuta,Susubwe,Sususa,Susuna,Susufa,Susuga,Susuja,Susuda,Susune,Susule,Susure,Susuzi,Susubo,Susuki,Susumu,Touba,Ségou,Freetown,Samburu"
 },
 {
     "name": "Tamashek",
@@ -865,7 +865,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ibadan,Abeokuta,Oshogbo,Ilorin,Ile-Ife,Ado-Ekiti,Akure,Ogbomosho,Ilaro,Ede,Ijebu-Ode,Ilesha,Shagamu,Ikirun,Modakeke,Iwo,Ogbomoso,Eruwa,Idi-Iroko,Iperu,Ota,Ifo,Sango-Otta,Ikorodu,Epe,Ijebu-Igbo,Owo,Okitipupa,Ikare,Ikire,Igbo-Ora,Garsen,Ikonge,ElDera,Haraale,Salkaxo,Garowe,Janaale,Kaloleni,Masige,ArchersPost,RasKamboni,Deynile,Hobyo,Kudhaa,Shimba,Yorubala,Yorubama,Yorubawa,Yorubara,Yorubaka,Yorubata,Yorubabwe,Yorubasa,Yorubana,Yorubafa,Yorubaga,Yorubaja,Yorubada,Yorubane,Yorubale,Yorubare,Yorubazi,Yorubabo,Yorubaki,Yorubamu"
+  "b": "Ibadan,Abeokuta,Oshogbo,Ilorin,Ile-Ife,Ado-Ekiti,Akure,Ogbomosho,Ilaro,Ede,Ijebu-Ode,Ilesha,Shagamu,Ikirun,Modakeke,Iwo,Ogbomoso,Eruwa,Idi-Iroko,Iperu,Ota,Ifo,Ikorodu,Epe,Owo,Okitipupa,Ikare,Ikire,Igbo-Ora,Garsen,Ikonge,Haraale,Salkaxo,Garowe,Janaale,Kaloleni,Masige,ArchersPost,RasKamboni,Deynile,Hobyo,Kudhaa,Shimba,Yorubala,Yorubama,Yorubawa,Yorubara,Yorubaka,Yorubata,Yorubabwe,Yorubasa,Yorubana,Yorubafa,Yorubaga,Yorubaja,Yorubada,Yorubane,Yorubale,Yorubare,Yorubazi,Yorubabo,Yorubaki,Yorubamu,Sango-Otta,Ijebu-Igbo,ElDera"
 },
 {
     "name": "Ait Seghrouchen Berber",
@@ -883,7 +883,7 @@ window.africaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-   "b": "Abidjan,Bouaflé,Gagnoa,Oumé,Guibéroua,Tiapoumé,Bédiala,Bolgoua,Bazré,Daloa,Issia,Vavoua,Zuénoula,Grand-Bassam,Grand-Lahou,Sassandra,San Pedro,Tabou,Soubré,Fresco,Grand-Béréby,DiLinh,DokKhamtai,Nateuy,LongKhanh,BanLuang,HaTien,BinhDuong,PhuKamYao,TanAn,CanDuoc,Tengchong,LongMy,LaiVung,Weixi,CungSon,Abiguru,Aunkot,Apednagar,Aolkot,Abaturu,Afoguru,Anirkot,Adebnagar,Apamkot,Alukuru,Afuduru,Afankot,Afesnagar,Alikot,Anoruru,AlashaMongolpur,AlashaMongolnagar,AlashaMongolbad,AlashaMongolkot,AlashaMongolwada"
+   "b": "Abidjan,Bouaflé,Gagnoa,Oumé,Guibéroua,Tiapoumé,Bédiala,Bolgoua,Bazré,Daloa,Issia,Vavoua,Zuénoula,Grand-Bassam,Grand-Lahou,Sassandra,San Pedro,Tabou,Soubré,Fresco,Grand-Béréby,Sikasso,Mopti,Timbuktu,Gao,Bobo-Dioulasso,Kindia,Kankan,Nzérékoré,Porto-Novo,Parakou,Sokodé,Kara,Cape Coast,Yamoussoukro,Dakar,Bamako,Ouagadougou,Conakry,Accra,Kumasi,DiLinh,DokKhamtai,Nateuy,LongKhanh,BanLuang,HaTien,BinhDuong,PhuKamYao,TanAn,CanDuoc,Tengchong,LongMy,LaiVung,Weixi,CungSon,Abiguru,Aunkot,Apednagar,Aolkot,Abaturu,Afoguru,Anirkot,Adebnagar,Apamkot,Alukuru,Afuduru,Afankot,Afesnagar,Alikot,Anoruru,AlashaMongolpur,AlashaMongolnagar,AlashaMongolbad,AlashaMongolkot,AlashaMongolwada"
 },
 {
     "name": "Bari",
@@ -892,7 +892,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Juba,Yei,Maridi,Ezo,Nagero,Tambura,Bangassou,Bria,Doruma,Gambo,Obo,Birao,Bambouti,Dembo,Kapoeta,Torit,Bor,Nimule,Lafon,Pibor,Boma,Mundri,Lainya,Raja,Akobo,Wau,ChiangKhlong,Sing,DinhQuan,Chun,MongCai,DongPhu,NaMuen,BaoLoc,DucHoa,Wuwei,CangLong,LapVo,Lijiang,TuyAnh,GoCongTay,Aukkonda,Apenagar,Aniruru,Anadnagar,Ailkonda,Adatkonda,Alugnagar,Abinuru,Amibnagar,Adekkonda,Abidnagar,Adimuru,Afutnagar,Amakonda,Ainkonda,Bahingpur,Bahingnagar,Bahingbad,Bahingkot,Bahingwada"
+  "b": "Juba,Yei,Maridi,Ezo,Nagero,Tambura,Bangassou,Bria,Doruma,Gambo,Obo,Birao,Bambouti,Dembo,Kapoeta,Torit,Bor,Nimule,Lafon,Pibor,Boma,Mundri,Lainya,Raja,Akobo,Wau,Abidjan,Lomé,Cotonou,Lagos,Kano,Ibadan,Abuja,Tamale,Bouaké,Saint-Louis,Thiès,Kaolack,Ziguinchor,Touba,Ségou,Sikasso,Mopti,Timbuktu,Gao,Bobo-Dioulasso,bhjSprings,bhjCreek,bhjRidge,bhjHeights,bhjFalls,bhjBeach,bhjPoint,bhjBay,bhjGrove,ChiangKhlong,Sing,DinhQuan,Chun,MongCai,DongPhu,NaMuen,BaoLoc,DucHoa,Wuwei,CangLong,LapVo,Lijiang,TuyAnh,GoCongTay,Aukkonda,Apenagar,Aniruru,Anadnagar,Ailkonda,Adatkonda,Alugnagar,Abinuru,Amibnagar,Adekkonda,Abidnagar,Adimuru,Afutnagar,Amakonda,Ainkonda,Bahingpur,Bahingnagar,Bahingbad,Bahingkot,Bahingwada"
 },
 {
     "name": "Amharic",
@@ -901,7 +901,7 @@ window.africaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-  "b": "Addis Ababa,Dire Dawa,Adama,Bahir Dar,Gondar,Mekele,Awasa,Jimma,Dessie,Debre Markos,Harar,Jijiga,Hawassa,Shashamane,Arba Minch,Wolaita Sodo,Asella,Nekemte,Debre Birhan,Ambo,Fiche,Sodo,Gambela,Axum,Lalibela,Debre Tabor,Weldiya,Kombolcha,Debre Zeit,Bishoftu,Modjo,Qoryoley,Muqur,GalGaduud,Jannale,Lafaduun,Burtinle,Hurso,Hudur,CeelBur,Laascaanood,Hafun,Saresor,AdanYabaal,AdanYabal,Dheer,Aosre,Apulwe,Anetke,Anogwe,Aenre,Adusre,Amilwe,Abekke,Amagwe,Akanre,Adasre,Adawe,Aderke,Amulre,Aekre,Amharicle,Amharicre,Amharicne,Amharicke,Amhariche"
+  "b": "Addis Ababa,Adama,Bahir Dar,Gondar,Mekele,Awasa,Jimma,Dessie,Debre Markos,Harar,Jijiga,Hawassa,Shashamane,Arba Minch,Wolaita Sodo,Asella,Nekemte,Debre Birhan,Ambo,Fiche,Sodo,Gambela,Axum,Lalibela,Debre Tabor,Weldiya,Kombolcha,Debre Zeit,Bishoftu,Modjo,Qoryoley,Muqur,GalGaduud,Jannale,Lafaduun,Burtinle,Hurso,Hudur,CeelBur,Laascaanood,Hafun,Saresor,AdanYabaal,AdanYabal,Dheer,Aosre,Apulwe,Anetke,Anogwe,Aenre,Adusre,Amilwe,Abekke,Amagwe,Akanre,Adasre,Adawe,Aderke,Amulre,Aekre,Amharicle,Amharicre,Amharicne,Amharicke,Amhariche,Dire Dawa"
 },
 {
     "name": "Argobba",
@@ -910,7 +910,7 @@ window.africaNameBases = [
   "max": 14,
   "d": "lnrt",
   "m": 0,
-   "b": "Harar,Dire Dawa,Jijiga,Shikute,Shewa,Ankober,Debre Birhan,Ambo,Fiche,Sodo,Gambela,Bahir Dar,Gondar,Mekele,Weldiya,Kombolcha,Dessie,Debre Markos,Adama,Addis Ababa,Filtu,Abudwaq,CeelBaraf,Tayeglow,Goldogob,Rako,Bacadkabobe,Xudun,Dabeyley,CarroCada,Shalamay,Warder,Burhakaba,Garanwa,Bargal"
+   "b": "Harar,Jijiga,Shikute,Shewa,Ankober,Debre Birhan,Ambo,Fiche,Sodo,Gambela,Bahir Dar,Gondar,Mekele,Weldiya,Kombolcha,Dessie,Debre Markos,Adama,Addis Ababa,Filtu,Abudwaq,CeelBaraf,Tayeglow,Goldogob,Rako,Bacadkabobe,Xudun,Dabeyley,Shalamay,Warder,Burhakaba,Garanwa,Bargal,Dire Dawa,CarroCada"
 },
 {
     "name": "Bube",
@@ -928,7 +928,7 @@ window.africaNameBases = [
   "max": 13,
   "d": "lnrt",
   "m": 0,
-  "b": "Azare,Katagum,Misau,Ningi,Dass,Tafawa Balewa,Bununu,Lere,Potiskum,Dukku,Kaltungo,Shongom,Akko,Kwami,Billiri,Pindiga,Kumo,Fika,Bara,Deba,Banga,Kaltin,Kushi,Bogoro,Dadin Kowa,Bambam,Waja,ElBur,AbudWaaq,Kabxan,Gaalkacyo,Maraag,Mackinnon,Nyamira,Wamba,Xato,Sarameer,Rigomane,BilisQoqani,Jombo,Kihancha,Laisamis,Adoksa,Aagma,Ausma,Adelsa,Akuksa,Anogma,Afenfa,Apebma,Amalsa,Akaksa,Afedma,Akemfa,Alotma,Anugsa,Adensa,Bubela,Bubema,Bubewa,Bubera,Bubeka"
+  "b": "Azare,Katagum,Misau,Ningi,Dass,Tafawa Balewa,Bununu,Lere,Potiskum,Dukku,Kaltungo,Shongom,Akko,Kwami,Billiri,Pindiga,Kumo,Fika,Bara,Deba,Banga,Kaltin,Kushi,Bogoro,Bambam,Waja,ElBur,AbudWaaq,Kabxan,Gaalkacyo,Maraag,Mackinnon,Nyamira,Wamba,Xato,Sarameer,Rigomane,BilisQoqani,Jombo,Kihancha,Laisamis,Adoksa,Aagma,Ausma,Adelsa,Akuksa,Anogma,Afenfa,Apebma,Amalsa,Akaksa,Afedma,Akemfa,Alotma,Anugsa,Adensa,Bubela,Bubema,Bubewa,Bubera,Bubeka,Dadin Kowa"
 },
 {
     "name": "Sidamo",
@@ -946,7 +946,7 @@ window.africaNameBases = [
   "max": 13,
   "d": "lnrt",
   "m": 0,
-  "b": "Wolaita Sodo,Boditi,Aleta Wendo,Dilla,Arba Minch,Yirgalem,Chire,Bensa,Dara,Hula,Angacha,Bilate,Tiyo,Bule,Gedeb,Hawassa Zuria,Loka Abaya,Boricha,Wondo Genet,Chuko,Sodo,Gambela,Bahir Dar,Gondar,Mekele,ChiangHai,LaiThieu,ThaWangPha,BacLieu,DiAn,BanKok,TanChau,ChauThanh,Baoshan,QuangTri,TieuCan,Lushui,DakTo,XamNeua,DaLat,Mongolianpur,Mongoliannagar,Mongolianbad,Mongoliankot,Mongolianwada,Mongolianghat,Mongolianpalli,Mongoliankonda,Mongolianpeta,Mongolianuru,Mongolianuri,Mongolianooru,Mongoliangiri,NagarMongolian,Mongolianbari,Mongolianganj,Mongolianbazar,Mongolianbandar,Mongoliangram,PalliMongolian"
+  "b": "Wolaita Sodo,Boditi,Aleta Wendo,Dilla,Arba Minch,Yirgalem,Chire,Bensa,Dara,Hula,Angacha,Bilate,Tiyo,Bule,Gedeb,Hawassa Zuria,Loka Abaya,Boricha,Wondo Genet,Chuko,Sodo,Gambela,Bahir Dar,Gondar,Mekele,Kindia,Kankan,Nzérékoré,Porto-Novo,Parakou,Sokodé,Kara,Cape Coast,Yamoussoukro,Dakar,Bamako,Ouagadougou,Conakry,Accra,Kumasi,Abidjan,Lomé,ChiangHai,LaiThieu,ThaWangPha,BacLieu,DiAn,BanKok,TanChau,ChauThanh,Baoshan,QuangTri,TieuCan,Lushui,DakTo,XamNeua,DaLat,Mongolianpur,Mongoliannagar,Mongolianbad,Mongoliankot,Mongolianwada,Mongolianghat,Mongolianpalli,Mongoliankonda,Mongolianpeta,Mongolianuru,Mongolianuri,Mongolianooru,Mongoliangiri,NagarMongolian,Mongolianbari,Mongolianganj,Mongolianbazar,Mongolianbandar,Mongoliangram,PalliMongolian"
 },
 {
     "name": "Wolof",
@@ -1009,7 +1009,7 @@ window.africaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Durban,Pietermaritzburg,Empangeni,Ladysmith,Newcastle,Vryheid,Ulundi,Melmoth,Nongoma,Mkuze,Pongola,Paulpietersburg,Glencoe,Dundee,Eshowe,Nkandla,Mtubatuba,Hlabisa,Ndwedwe,Maphumulo,KwaMashu,Umlazi,Inanda,Clermont,Stanger,Tongaat,Verulam,Amanzimtoti"
+  "b": "Durban,Empangeni,Ladysmith,Newcastle,Vryheid,Ulundi,Melmoth,Nongoma,Mkuze,Pongola,Glencoe,Dundee,Eshowe,Nkandla,Mtubatuba,Hlabisa,Ndwedwe,Maphumulo,KwaMashu,Umlazi,Inanda,Clermont,Stanger,Tongaat,Verulam,Amanzimtoti,Mbombela,East London,Pietermaritzburg,Paulpietersburg"
 },
 {
     "name": "Southern Ndebele",
@@ -1018,7 +1018,7 @@ window.africaNameBases = [
   "max": 14,
   "d": "lnrt",
   "m": 0,
-  "b": "Pretoria,Johannesburg,Ekurhuleni,Mamelodi,Atteridgeville,Soshanguve,Tembisa,KwaThema,Daveyton,Germiston,Springs,Brakpan,Nigel,Benoni,Boksburg,Witbank,Middelburg,Emalahleni,Delmas,Ogies,Phola,Secunda,Evander,Leandra,Kinross,Trichardt,KenduBay,Faza,Omorate,Qoton,Afgoi,Beledhawo,Jamia,Siaya,Samburu,Ririba,Galolk,CeelAfweyn,Baidoa,Chara,Webuye,SouthernNdebelela,SouthernNdebelema,SouthernNdebelewa,SouthernNdebelera,SouthernNdebeleka,SouthernNdebeleta,SouthernNdebelebwe,SouthernNdebelesa,SouthernNdebelena,SouthernNdebelefa,SouthernNdebelega,SouthernNdebeleja,SouthernNdebeleda,SouthernNdebelene,SouthernNdebelele,SouthernNdebelere,SouthernNdebelezi,SouthernNdebelebo,SouthernNdebeleki,SouthernNdebelemu"
+  "b": "Pretoria,Johannesburg,Ekurhuleni,Mamelodi,Soshanguve,Tembisa,Daveyton,Germiston,Springs,Brakpan,Nigel,Benoni,Witbank,Emalahleni,Delmas,Ogies,Phola,Secunda,Evander,Leandra,Kinross,Trichardt,Faza,Omorate,Qoton,Afgoi,Beledhawo,Jamia,Siaya,Ririba,Galolk,CeelAfweyn,Baidoa,Chara,Webuye,Stellenbosch,George,Upington,Swakopmund,Atteridgeville,KwaThema,Boksburg,Middelburg,KenduBay,Samburu,SouthernNdebelela,SouthernNdebelema,SouthernNdebelewa,SouthernNdebelera,SouthernNdebeleka,SouthernNdebeleta,SouthernNdebelebwe,SouthernNdebelesa,SouthernNdebelena,SouthernNdebelefa,SouthernNdebelega,SouthernNdebeleja,SouthernNdebeleda,SouthernNdebelene,SouthernNdebelele,SouthernNdebelere,SouthernNdebelezi,SouthernNdebelebo,SouthernNdebeleki,SouthernNdebelemu"
 },
 {
     "name": "Sumayela Ndebele",
@@ -1027,7 +1027,7 @@ window.africaNameBases = [
   "max": 14,
   "d": "lnrt",
   "m": 0,
-  "b": "Pretoria,Johannesburg,Ekurhuleni,Mamelodi,Atteridgeville,Soshanguve,Tembisa,KwaThema,Daveyton,Germiston,Springs,Brakpan,Nigel,Benoni,Boksburg,Witbank,Middelburg,Emalahleni,Delmas,Ogies,Phola,Secunda,Evander,Leandra,Kinross,Trichardt,Vihiga,Mariakani,Moyale,SaLul,Erigavo,Baardheere,Bwiti,Bungoma,Lamu,Imi,GeedWeen,Karindoolay,Gamey,Kipini,Nyakoe,SumayelaNdebelela,SumayelaNdebelema,SumayelaNdebelewa,SumayelaNdebelera,SumayelaNdebeleka,SumayelaNdebeleta,SumayelaNdebelebwe,SumayelaNdebelesa,SumayelaNdebelena,SumayelaNdebelefa,SumayelaNdebelega,SumayelaNdebeleja,SumayelaNdebeleda,SumayelaNdebelene,SumayelaNdebelele,SumayelaNdebelere,SumayelaNdebelezi,SumayelaNdebelebo,SumayelaNdebeleki,SumayelaNdebelemu"
+  "b": "Pretoria,Johannesburg,Ekurhuleni,Mamelodi,Soshanguve,Tembisa,Daveyton,Germiston,Springs,Brakpan,Nigel,Benoni,Witbank,Emalahleni,Delmas,Ogies,Phola,Secunda,Evander,Leandra,Kinross,Trichardt,Vihiga,Mariakani,Moyale,SaLul,Erigavo,Baardheere,Bwiti,Bungoma,Lamu,Imi,GeedWeen,Karindoolay,Gamey,Kipini,Nyakoe,Walvis Bay,Ndola,Kitwe,Atteridgeville,KwaThema,Boksburg,Middelburg,SumayelaNdebelela,SumayelaNdebelema,SumayelaNdebelewa,SumayelaNdebelera,SumayelaNdebeleka,SumayelaNdebeleta,SumayelaNdebelebwe,SumayelaNdebelesa,SumayelaNdebelena,SumayelaNdebelefa,SumayelaNdebelega,SumayelaNdebeleja,SumayelaNdebeleda,SumayelaNdebelene,SumayelaNdebelele,SumayelaNdebelere,SumayelaNdebelezi,SumayelaNdebelebo,SumayelaNdebeleki,SumayelaNdebelemu"
 },
 {
     "name": "Pedi",
@@ -1045,7 +1045,7 @@ window.africaNameBases = [
   "max": 13,
   "d": "lnrt",
   "m": 0,
-  "b": "Windhoek,Swakopmund,Walvis Bay,Keetmanshoop,Gobabis,Mariental,Rehoboth,Luderitz,Oranjemund,Rundu,Katima Mulilo,Oshakati,Ondangwa,Tsumeb,Grootfontein,Otjiwarongo,Okahandja,Gibeon,Bethanie,Gochas,Karasburg,Aroab,Noordoewer,Klein Karoo,Upington,Chun,MongCai,DongPhu,NaMuen,BaoLoc,DucHoa,Wuwei,CangLong,LapVo,Lijiang,TuyAnh,GoCongTay,Mengla,ThuongDuc,Thoeng,Afokbad,Abudpalli,Akadpalli,Amitpalli,Apugbad,Afenbad,Abunpalli,Apobbad,Apekpalli,Aebwada,Amikbad,Adobpalli,Adurbad,Aarpalli,Akabbad,Jurchenpur,Jurchennagar,Jurchenbad,Jurchenkot,Jurchenwada"
+  "b": "Windhoek,Swakopmund,Walvis Bay,Keetmanshoop,Gobabis,Mariental,Rehoboth,Luderitz,Oranjemund,Rundu,Katima Mulilo,Oshakati,Ondangwa,Tsumeb,Grootfontein,Otjiwarongo,Okahandja,Gibeon,Bethanie,Gochas,Aroab,Noordoewer,Klein Karoo,Upington,Livingstone,Beira,Nampula,Tete,Chimoio,Francistown,Maun,Johannesburg,Cape Town,Durban,Pretoria,Windhoek,Gaborone,Harare,Lusaka,Maputo,Gqeberha,Bloemfontein,Kimberley,Pietermaritzburg,Polokwane,Karasburg,Chun,MongCai,DongPhu,NaMuen,BaoLoc,DucHoa,Wuwei,CangLong,LapVo,Lijiang,TuyAnh,GoCongTay,Mengla,ThuongDuc,Thoeng,Afokbad,Abudpalli,Akadpalli,Amitpalli,Apugbad,Afenbad,Abunpalli,Apobbad,Apekpalli,Aebwada,Amikbad,Adobpalli,Adurbad,Aarpalli,Akabbad,Jurchenpur,Jurchennagar,Jurchenbad,Jurchenkot,Jurchenwada"
 },
 {
     "name": "El Molo",
@@ -1054,7 +1054,7 @@ window.africaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-   "b": "Lokichoggio,Lodwar,Kakuma,Kalokol,Loiyangalani,Lokichar,Lokori,Lapur,Lake Turkana,Marsabit,Isiolo,Maralal,Baragoi,Suguta,South Horr,North Horr,Laisamis,Kargi,Korr,Namarei,Apiduru,Anumkot,Amesnagar,Anokot,Apakuru,Aboburu,Alimkot,Aetnagar,Amakot,Afunuru,Abusuru,Abalkot,Abeknagar,Adidkot,Alomuru,BaarinMongolpur,BaarinMongolnagar,BaarinMongolbad,BaarinMongolkot,BaarinMongolwada"
+   "b": "Lokichoggio,Lodwar,Kakuma,Kalokol,Loiyangalani,Lokichar,Lokori,Lake Turkana,Marsabit,Isiolo,Maralal,Baragoi,Suguta,South Horr,North Horr,Laisamis,Kargi,Korr,Namarei,Cotonou,Lagos,Kano,Ibadan,Abuja,Tamale,Bouaké,Saint-Louis,Thiès,Kaolack,Ziguinchor,Touba,Ségou,Sikasso,Mopti,Timbuktu,Gao,Bobo-Dioulasso,Kindia,Kankan,Nzérékoré,Lapur,Apiduru,Anumkot,Amesnagar,Anokot,Apakuru,Aboburu,Alimkot,Aetnagar,Amakot,Afunuru,Abusuru,Abalkot,Abeknagar,Adidkot,Alomuru,BaarinMongolpur,BaarinMongolnagar,BaarinMongolbad,BaarinMongolkot,BaarinMongolwada"
 },
 {
     "name": "Somali",
@@ -1063,7 +1063,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-   "b": "Mogadishu,Hargeisa,Bosaso,Kismayo,Baidoa,Beledweyne,Galkayo,Burao,Erigavo,Laascaanod,Armo,Qardho,El Bua,Dhusamareb,Adado,Wanlaweyn,Afgooye,Marka,Barawa,Brava,Merka,Jowhar,Balcad,Cagaaran,Ufeyn,Dinsor,Jongole,Kimilili,Garsen,Shilabo,Jasiira,Qardho,Merka,Ngao,Ekerenyo,Garissa,Farlibaax,Dhalwo,Alemwa,Akotla,Alawa,Amirna,Apadna,Anotla,Afigwa,Apokla,Afamna,Amitna,Abagwa,Adonna,Adoswa,Amorwa,Aosna,ElMolola,ElMoloma,ElMolowa,ElMolora,ElMoloka"
+   "b": "Mogadishu,Hargeisa,Bosaso,Kismayo,Baidoa,Beledweyne,Galkayo,Burao,Erigavo,Laascaanod,Armo,Qardho,El Bua,Dhusamareb,Adado,Wanlaweyn,Afgooye,Marka,Barawa,Brava,Merka,Jowhar,Balcad,Cagaaran,Ufeyn,Dinsor,Jongole,Kimilili,Garsen,Shilabo,Jasiira,Ngao,Ekerenyo,Garissa,Farlibaax,Dhalwo,Alemwa,Akotla,Alawa,Amirna,Apadna,Anotla,Afigwa,Apokla,Afamna,Amitna,Abagwa,Adonna,Adoswa,Amorwa,Aosna,ElMolola,ElMoloma,ElMolowa,ElMolora,ElMoloka"
 },
 {
     "name": "Oromo",
@@ -1072,7 +1072,7 @@ window.africaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-  "b": "Addis Ababa,Dire Dawa,Adama,Bahir Dar,Gondar,Mekele,Awasa,Jimma,Dessie,Debre Markos,Harar,Jijiga,Hawassa,Shashamane,Arba Minch,Wolaita Sodo,Asella,Nekemte,Debre Birhan,Ambo,Fiche,Sodo,Gambela,Axum,Lalibela,Debre Tabor,Weldiya,Kombolcha,Debre Zeit,Bishoftu,Modjo,Candala,CeelHuur,Tayyeglow,Aja,Bardheere,Yabelo,Aponde,Amable,Amelce,Amukle,Anegde,Abumde,Akosle,Aece,Alekle,Adadde,Abamde,Aetle,Aegce,Adonle,Akusde,Somalile,Somalire,Somaline,Somalike,Somalihe"
+  "b": "Addis Ababa,Adama,Bahir Dar,Gondar,Mekele,Awasa,Jimma,Dessie,Debre Markos,Harar,Jijiga,Hawassa,Shashamane,Arba Minch,Wolaita Sodo,Asella,Nekemte,Debre Birhan,Ambo,Fiche,Sodo,Gambela,Axum,Lalibela,Debre Tabor,Weldiya,Kombolcha,Debre Zeit,Bishoftu,Modjo,Candala,CeelHuur,Tayyeglow,Aja,Bardheere,Yabelo,Aponde,Amable,Amelce,Amukle,Anegde,Abumde,Akosle,Aece,Alekle,Adadde,Abamde,Aetle,Aegce,Adonle,Akusde,Somalile,Somalire,Somaline,Somalike,Somalihe,Dire Dawa"
 },
 {
     "name": "Bambara",
@@ -1090,7 +1090,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Hosanna,Durame,Angacha,Shinshicho,Kacha Bira,Wacha,Shishinda,Boditi,Gurage,Hadiya,Kembata,Tembaro,Alaba,Silte,Garbo,Mareerey,BurAnod,Qandala,Baladweyne,Tayeeglo,Doolow,GodobJiraan,Wajid,Janale,Danot,WarCeel,Kismaayo,Alduba,Tayeeglow"
+  "b": "Hosanna,Durame,Angacha,Shinshicho,Wacha,Shishinda,Boditi,Gurage,Hadiya,Kembata,Tembaro,Alaba,Silte,Garbo,Mareerey,BurAnod,Qandala,Baladweyne,Tayeeglo,Doolow,GodobJiraan,Wajid,Janale,Danot,WarCeel,Kismaayo,Alduba,Tayeeglow,Kacha Bira"
 },
 {
     "name": "Kafa",
@@ -1099,7 +1099,7 @@ window.africaNameBases = [
   "max": 14,
   "d": "lnrt",
   "m": 0,
-   "b": "Bonga,Tepi,Mizan Teferi,Gore,Metu,Jimma,Agaro,Bedele,Sebeta,Durame,Kacha Bira,Wacha,Shishinda,Bench Maji,Meinit,Meinit Goldiya,Keffa,Sheka,Bench Sheko,Sing,DinhQuan,Chun,MongCai,DongPhu,NaMuen,BaoLoc,DucHoa,Wuwei,CangLong,LapVo,Lijiang,TuyAnh,GoCongTay,Mengla,Adotpur,Aobwada,Adempur,Amampur,Akatpur,Afagwada,Akenbad,Aliswada,Apupur,Aderpur,Amobwada,Afelbad,Aurwada,Animpur,Anetwada,BayatOiratpur,BayatOiratnagar,BayatOiratbad,BayatOiratkot,BayatOiratwada"
+   "b": "Bonga,Tepi,Mizan Teferi,Gore,Metu,Jimma,Agaro,Bedele,Sebeta,Durame,Wacha,Shishinda,Bench Maji,Meinit,Meinit Goldiya,Keffa,Sheka,Bench Sheko,Dar es Salaam,Arusha,Mwanza,Nairobi,Kisumu,Kampala,Kigali,Addis Ababa,Asmara,Massawa,Mogadishu,Hargeisa,Zanzibar,Mombasa,Nakuru,Eldoret,Malindi,Lamu,Jinja,Entebbe,Kacha Bira,Sing,DinhQuan,Chun,MongCai,DongPhu,NaMuen,BaoLoc,DucHoa,Wuwei,CangLong,LapVo,Lijiang,TuyAnh,GoCongTay,Mengla,Adotpur,Aobwada,Adempur,Amampur,Akatpur,Afagwada,Akenbad,Aliswada,Apupur,Aderpur,Amobwada,Afelbad,Aurwada,Animpur,Anetwada,BayatOiratpur,BayatOiratnagar,BayatOiratbad,BayatOiratkot,BayatOiratwada"
 },
 {
     "name": "Kuan",
@@ -1108,7 +1108,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-   "b": "Lomé,Sokodé,Kpalimé,Atakpamé,Bassar,Kara,Notsé,Tchamba,Badou,Aného,Tabligbo,Kpagouda,Kandé,Mango,Sotouboua,Bafilo,Akposso,Agou,Niamtougou,Dapaong,Biankouri,Tandjouaré,TanTru,Shidian,DongHa,CauKe,Fugong,DakDoa,CaiLay,Phongsali,DucTrong,MaeFaLuang,ChiangHai,LaiThieu,ThaWangPha,BacLieu,DiAn,Akanpur,Adaspur,Arawada,Alotwada,Abalwada,Aduspur,Afusbad,Adenwada,Aputpur,Amalwada,Aripur,Apekwada,Adikwada,Afutbad,Adobwada,Kuanpur,Kuannagar,Kuanbad,Kuankot,Kuanwada"
+   "b": "Lomé,Sokodé,Kpalimé,Atakpamé,Bassar,Kara,Notsé,Tchamba,Badou,Aného,Tabligbo,Kpagouda,Kandé,Mango,Sotouboua,Bafilo,Akposso,Agou,Niamtougou,Dapaong,Tandjouaré,Porto-Novo,Parakou,Cape Coast,Yamoussoukro,Dakar,Bamako,Ouagadougou,Conakry,Accra,Kumasi,Abidjan,Cotonou,Lagos,Kano,Ibadan,Abuja,Tamale,Bouaké,Biankouri,TanTru,Shidian,DongHa,CauKe,Fugong,DakDoa,CaiLay,Phongsali,DucTrong,MaeFaLuang,ChiangHai,LaiThieu,ThaWangPha,BacLieu,DiAn,Akanpur,Adaspur,Arawada,Alotwada,Abalwada,Aduspur,Afusbad,Adenwada,Aputpur,Amalwada,Aripur,Apekwada,Adikwada,Afutbad,Adobwada,Kuanpur,Kuannagar,Kuanbad,Kuankot,Kuanwada"
 },
 {
     "name": "Beli",
@@ -1117,7 +1117,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Yei,Maridi,Ezo,Nagero,Tambura,Bangassou,Bria,Doruma,Gambo,Obo,Birao,Bambouti,Dembo,Kapoeta,Torit,Juba,Bor,Nimule,Lafon,Pibor,Boma,Mundri,Lainya,Raja,Akobo,Wau,Guayama,Cataño,Mayaguez,Utuado,Moca,Luquillo,Salinas,Yabucoa,TrujilloAlto,TheBottom,LasMarias,Lares,ToaAlta,Ponce,Loiza,Afurbridge,Adedwood,Anuport,Aledwood,Adambridge,Anaport,Aburport,Akedport,Aitport,Afonport,Afugport,Apagbridge,Apelport,Abonbridge,Alomport,MobilianJargontown,MobilianJargonville,MobilianJargonburg,MobilianJargonview,MobilianJargonside"
+  "b": "Yei,Maridi,Ezo,Nagero,Tambura,Bangassou,Bria,Doruma,Gambo,Obo,Birao,Bambouti,Dembo,Kapoeta,Torit,Juba,Bor,Nimule,Lafon,Pibor,Boma,Mundri,Lainya,Raja,Akobo,Wau,Saint-Louis,Thiès,Kaolack,Ziguinchor,Touba,Ségou,Sikasso,Guayama,Cataño,Mayaguez,Utuado,Moca,Luquillo,Salinas,Yabucoa,TrujilloAlto,TheBottom,LasMarias,Lares,ToaAlta,Ponce,Loiza,Afurbridge,Adedwood,Anuport,Aledwood,Adambridge,Anaport,Aburport,Akedport,Aitport,Afonport,Afugport,Apagbridge,Apelport,Abonbridge,Alomport,MobilianJargontown,MobilianJargonville,MobilianJargonburg,MobilianJargonview,MobilianJargonside"
 },
 {
     "name": "Nobiin",
@@ -1144,7 +1144,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-   "b": "Njombe,Makambako,Iringa,Mafinga,Kidete,Kilolo,Rungwa,Ulanga,Mlimba,Kiberege,Ifakara,Kilombero,Morogoro,Dodoma,Singida,Manyoni,Tabora,Shinyanga,Mwanza,Kigoma,Afgoi,Beledhawo,Jamia,Siaya,Samburu,Ririba,Galolk,CeelAfweyn,Baidoa,Chara,Webuye,Kipini,Mega,AadanYabaal,Galgalo,Aosra,Apulsa,Anetta,Anogsa,Aenra,Amilsa,Abekta,Amagsa,Adasra,Adasa,Aderta,Afibsa,Amulra,Aekra,Akodsa,Bembala,Bembama,Bembawa,Bembara,Bembaka"
+   "b": "Njombe,Makambako,Iringa,Mafinga,Kidete,Kilolo,Rungwa,Ulanga,Mlimba,Kiberege,Ifakara,Kilombero,Morogoro,Dodoma,Singida,Manyoni,Tabora,Shinyanga,Mwanza,Kigoma,Afgoi,Beledhawo,Jamia,Siaya,Ririba,Galolk,CeelAfweyn,Baidoa,Chara,Webuye,Kipini,Mega,AadanYabaal,Galgalo,Aosra,Apulsa,Anetta,Anogsa,Aenra,Amilsa,Abekta,Amagsa,Adasra,Adasa,Aderta,Afibsa,Amulra,Aekra,Akodsa,Bembala,Bembama,Bembawa,Bembara,Bembaka,Mopti,Samburu"
 },
 {
     "name": "Fwe",
@@ -1153,7 +1153,7 @@ window.africaNameBases = [
   "max": 13,
   "d": "lnrt",
   "m": 0,
-   "b": "Katima Mulilo,Rundu,Kongola,Sikona,Muyako,Linyanti,Chinchimane,Sangwali,Sifuha,Kabbe,Masokotwani,Ngoma,Choi,Lisikili,Nyonga,Simungoma,Mashi,Sioma,Sinjembela,Zambezi,Okavango,Chobe,Ngamiland,Rigomane,BilisQoqani,Jombo,Kihancha,Laisamis,Koriley,BuloBurde,Guriel,Golbo,Chundwa,Mabera,NorthHorr,Jiingadda,Adale,Caabudwaaq,Afabfa,Adilra,Abegra,Aodra,Aninfa,Alisfa,Alora,Alurma,Amadra,Aelfa,Afokfa,Anegra,Abitra,Arafa,Apunfa,Fwela,Fwema,Fwewa,Fwera,Fweka"
+   "b": "Katima Mulilo,Rundu,Kongola,Sikona,Muyako,Linyanti,Chinchimane,Sangwali,Sifuha,Kabbe,Masokotwani,Ngoma,Choi,Lisikili,Nyonga,Simungoma,Mashi,Sioma,Sinjembela,Zambezi,Okavango,Chobe,Rigomane,BilisQoqani,Jombo,Kihancha,Laisamis,Koriley,BuloBurde,Guriel,Golbo,Chundwa,Mabera,NorthHorr,Jiingadda,Adale,Caabudwaaq,Afabfa,Adilra,Abegra,Aodra,Aninfa,Alisfa,Alora,Alurma,Amadra,Aelfa,Afokfa,Anegra,Abitra,Arafa,Apunfa,Fwela,Fwema,Fwewa,Fwera,Fweka,Timbuktu,Ngamiland"
 },
 {
     "name": "Biu-Mandara",
@@ -1162,7 +1162,7 @@ window.africaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-  "b": "Maiduguri,Biu,Mubi,Konduga,Gwoza,Bama,Marte,Monguno,Ngala,Dikwa,Kukawa,Kousseri,Marafa,Waza,Gamboru,Logone-Birni,Hina,Mora,Balda,Makary,Kousséri,Damboa,Gulak,Madagali,Damaturu"
+  "b": "Biu,Mubi,Konduga,Gwoza,Bama,Marte,Monguno,Ngala,Dikwa,Kukawa,Kousseri,Marafa,Waza,Gamboru,Logone-Birni,Hina,Mora,Balda,Makary,Kousséri,Damboa,Gulak,Madagali,Gao,Bobo-Dioulasso,Maiduguri,Damaturu"
 },
 {
     "name": "Sinyar",
@@ -1189,7 +1189,7 @@ window.africaNameBases = [
   "max": 14,
   "d": "lnrt",
   "m": 0,
-  "b": "Abéché,Adré,Abéché,Assoungha,Ouaddaï,Abéché,Adré,Am Timan,Ati,Biltine,Bria,Doba,Dourbali,Fada,Faya-Largeau,Goz Beida,Koro,Dabare,Runni,Kachoda,Mkokoni,Kehancha,Sibiloi,Waamo,Giohar,Guriceel,Selina,Sindo,Galole,Kalokol,Harardera,Mahaday,Surbakhalla,Surbakhalma,Surbakhalwa,Surbakhalra,Surbakhalka,Surbakhalta,Surbakhalbwe,Surbakhalsa,Surbakhalna,Surbakhalfa,Surbakhalga,Surbakhalja,Surbakhalda,Surbakhalne,Surbakhalle,Surbakhalre,Surbakhalzi,Surbakhalbo,Surbakhalki,Surbakhalmu"
+  "b": "Abéché,Adré,Assoungha,Ouaddaï,Am Timan,Ati,Biltine,Bria,Doba,Dourbali,Fada,Faya-Largeau,Goz Beida,Koro,Dabare,Runni,Kachoda,Mkokoni,Kehancha,Sibiloi,Waamo,Giohar,Guriceel,Selina,Sindo,Galole,Kalokol,Harardera,Mahaday,Surbakhalla,Surbakhalma,Surbakhalwa,Surbakhalra,Surbakhalka,Surbakhalta,Surbakhalbwe,Surbakhalsa,Surbakhalna,Surbakhalfa,Surbakhalga,Surbakhalja,Surbakhalda,Surbakhalne,Surbakhalle,Surbakhalre,Surbakhalzi,Surbakhalbo,Surbakhalki,Surbakhalmu"
 },
 {
     "name": "Teda",
@@ -1198,7 +1198,7 @@ window.africaNameBases = [
   "max": 17,
   "d": "lnrt",
   "m": 0,
-  "b": "Fada,Faya-Largeau,Bardaï,Zouar,Tibesti,Emi Koussi,Borkou,Ennedi,Tibesti Mountains,Agadez,Bilma,Seguedine,Murzuq,Sabha,Ghat,Ubari,Warshiek,Cadaado,Mgangani,Karungu,Dida,Kakuma,Garsale,Jowhaar,Farlibaax,Pongwe,KenduBay,Faza,Omorate,Qoton,Afgoi,Tedala,Tedama,Tedawa,Tedara,Tedaka,Tedata,Tedabwe,Tedasa,Tedana,Tedafa,Tedaga,Tedaja,Tedada,Tedane,Tedale,Tedare,Tedazi,Tedabo,Tedaki,Tedamu"
+  "b": "Fada,Faya-Largeau,Bardaï,Zouar,Tibesti,Emi Koussi,Borkou,Ennedi,Tibesti Mountains,Agadez,Bilma,Seguedine,Murzuq,Sabha,Ghat,Ubari,Warshiek,Cadaado,Mgangani,Karungu,Dida,Kakuma,Garsale,Jowhaar,Farlibaax,Pongwe,Faza,Omorate,Qoton,Afgoi,Tedala,Tedama,Tedawa,Tedara,Tedaka,Tedata,Tedabwe,Tedasa,Tedana,Tedafa,Tedaga,Tedaja,Tedada,Tedane,Tedale,Tedare,Tedazi,Tedabo,Tedaki,Tedamu,KenduBay"
 },
 {
     "name": "Tondi Songway Kiini",
@@ -1213,7 +1213,7 @@ window.africaNameBases = [
     "name": "Sukur", "i": 1336, "min": 4, "max": 11, "d": "lnrt", "m": 0, "b": "Mubi,Madagali,Gulak,Mayo-Belwa,Yola,Sukur,Damay,Kurang,Mandara,Kapsiki,Michika,Hong,Gombi,Song,Garkida,Guyaku,Boga,Numan,Demsa,Jimeta,Ganye,Jada,Fufore,Lamurde,Toungo,Yubbe,Huddur,Mikinduni,Kakamega,Kaloleni,Arero,Cagaaran,Ufeyn,Dinsor,Jongole,Kimilili,Garsen,Shilabo,Jasiira,Qardho,Sukurla,Sukurma,Sukurwa,Sukurra,Sukurka,Sukurta,Sukurbwe,Sukursa,Sukurna,Sukurfa,Sukurga,Sukurja,Sukurda,Sukurne,Sukurle,Sukurre,Sukurzi,Sukurbo,Sukurki,Sukurmu"
 },
 {
-    "name": "Bacama", "i": 1337, "min": 4, "max": 11, "d": "lnrt", "m": 0, "b": "Mubi,Madagali,Gulak,Mayo-Belwa,Yola,Bacama,Numan,Demsa,Song,Fufore,Michika,Hong,Gombi,Garkida,Guyaku,Boga,Jimeta,Ganye,Jada,Lamurde,Toungo,Shelleng,Maiha,Ngaura,Pindiga,Xabo,BurAcaba,Bargoni,Chwele,Hola,Degehabur,Bagula,Iskushuban,Gendershe,Garsen,Ikonge,ElDera,Haraale,Salkaxo,Garowe,Akegbwe,Afonla,Adusna,Afilla,Akukbwe,Amigbwe,Abenla,Alusna,Adula,Apokbwe,Amodbwe,Amumla,Amutna,Apela,Abinbwe,Bacamala,Bacamama,Bacamawa,Bacamara,Bacamaka"
+    "name": "Bacama", "i": 1337, "min": 4, "max": 11, "d": "lnrt", "m": 0, "b": "Mubi,Madagali,Gulak,Mayo-Belwa,Yola,Bacama,Numan,Demsa,Song,Fufore,Michika,Hong,Gombi,Garkida,Guyaku,Boga,Jimeta,Ganye,Jada,Lamurde,Toungo,Shelleng,Maiha,Ngaura,Pindiga,Xabo,BurAcaba,Bargoni,Chwele,Hola,Degehabur,Bagula,Iskushuban,Gendershe,Garsen,Ikonge,Haraale,Salkaxo,Garowe,Akegbwe,Afonla,Adusna,Afilla,Akukbwe,Amigbwe,Abenla,Alusna,Adula,Apokbwe,Amodbwe,Amumla,Amutna,Apela,Abinbwe,Bacamala,Bacamama,Bacamawa,Bacamara,Bacamaka,ElDera"
 },
 {
     "name": "Bade",
@@ -1222,7 +1222,7 @@ window.africaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-  "b": "Maiduguri,Biu,Mubi,Konduga,Gwoza,Bama,Marte,Monguno,Ngala,Dikwa,Kukawa,Kousseri,Marafa,Waza,Gamboru,Logone-Birni,Hina,Mora,Balda,Makary,Kousséri,Yola,Madagali,Michika,Hong,Bargaal,Afgooye,Malindi,Sengera,ElBur,AbudWaaq,Kabxan,Gaalkacyo,Maraag,Mackinnon,Nyamira,Wamba,Xato,Sarameer,Rigomane,Abolta,Aputfa,Apesa,Aporfa,Aebta,Afulta,Amitfa,Abegsa,Anarfa,Akabta,Afalta,Adakfa,Adedsa,Akimfa,Amutta,Badela,Badema,Badewa,Badera,Badeka"
+  "b": "Biu,Mubi,Konduga,Gwoza,Bama,Marte,Monguno,Ngala,Dikwa,Kukawa,Kousseri,Marafa,Waza,Gamboru,Logone-Birni,Hina,Mora,Balda,Makary,Kousséri,Yola,Madagali,Michika,Hong,Bargaal,Afgooye,Malindi,Sengera,ElBur,AbudWaaq,Kabxan,Gaalkacyo,Maraag,Mackinnon,Nyamira,Wamba,Xato,Sarameer,Rigomane,Abolta,Aputfa,Apesa,Aporfa,Aebta,Afulta,Amitfa,Abegsa,Anarfa,Akabta,Afalta,Adakfa,Adedsa,Akimfa,Amutta,Badela,Badema,Badewa,Badera,Badeka,Kindia,Maiduguri"
 },
 {
     "name": "Bokyi",
@@ -1249,7 +1249,7 @@ window.africaNameBases = [
   "max": 19,
   "d": "lnrt",
   "m": 0,
-  "b": "East London,Queenstown,Port Elizabeth,Uitenhage,Grahamstown,King William's Town,Cradock,Stutterheim,Alice,Fort Beaufort,Mdantsane,Mthatha,Lusikisiki,Flagstaff,Tabankulu,Cofimvaba,Elliotdale,Butterworth,Nqamakwe,Willowvale,Yola,Mubi,Madagali,Michika,Hong,Nyaribari,Kotus,SofOmar,Hadud,Bereeda,Shalambood,Kilifi,Rioma,Habaswein,TulaNaga,Sarweyne,Koorma,Xarardheere,Mariakani,Kisii,Xhosala,Xhosama,Xhosawa,Xhosara,Xhosaka,Xhosata,Xhosabwe,Xhosasa,Xhosana,Xhosafa,Xhosaga,Xhosaja,Xhosada,Xhosane,Xhosale,Xhosare,Xhosazi,Xhosabo,Xhosaki,Xhosamu"
+  "b": "East London,Port Elizabeth,Uitenhage,King William,Bulawayo,Mutare's Town,Cradock,Stutterheim,Alice,Fort Beaufort,Mdantsane,Mthatha,Lusikisiki,Flagstaff,Tabankulu,Cofimvaba,Elliotdale,Butterworth,Nqamakwe,Willowvale,Yola,Mubi,Madagali,Michika,Hong,Nyaribari,Kotus,SofOmar,Hadud,Bereeda,Shalambood,Kilifi,Rioma,Habaswein,Sarweyne,Koorma,Xarardheere,Mariakani,Kisii,Xhosala,Xhosama,Xhosawa,Xhosara,Xhosaka,Xhosata,Xhosabwe,Xhosasa,Xhosana,Xhosafa,Xhosaga,Xhosaja,Xhosada,Xhosane,Xhosale,Xhosare,Xhosazi,Xhosabo,Xhosaki,Xhosamu,Queenstown,Grahamstown,King William's Town,TulaNaga"
 },
 {
     "name": "Chewa",
@@ -1276,10 +1276,10 @@ window.africaNameBases = [
   "max": 19,
   "d": "lnrt",
   "m": 0,
-  "b": "Sikasso,Kadiolo,Lobougoula,Niena,Zanférébougou,Blendio,Kolonzo,Loulouni,Nkourala,Kafouziéla,Gongasso,Kignan,Finkolo,Finkolo Ganadougou,Sankarani,Tiémala-Banimonotié,Kouoro,Danderesso,Koumankou,M'Pessoba,Koungoba,Tomoni,N'Golonianasso,Kapolondougou,Sanzana,Guriceel,Selina,Sindo,Galole,Kalokol,Harardera,Mahaday,Yeed,Kidimu,HomaBay,Kiunga,Kibish,GofKudle,Wanleweyn,Dolow,SyerTenyerla,SyerTenyerma,SyerTenyerwa,SyerTenyerra,SyerTenyerka,SyerTenyerta,SyerTenyerbwe,SyerTenyersa,SyerTenyerna,SyerTenyerfa,SyerTenyerga,SyerTenyerja,SyerTenyerda,SyerTenyerne,SyerTenyerle,SyerTenyerre,SyerTenyerzi,SyerTenyerbo,SyerTenyerki,SyerTenyermu"
+  "b": "Sikasso,Kadiolo,Lobougoula,Niena,Zanférébougou,Blendio,Kolonzo,Loulouni,Nkourala,Kafouziéla,Gongasso,Kignan,Finkolo,Finkolo Ganadougou,Sankarani,Tiémala-Banimonotié,Kouoro,Danderesso,Koumankou,M'Pessoba,Koungoba,Tomoni,N'Golonianasso,Kapolondougou,Sanzana,Guriceel,Selina,Sindo,Galole,Kalokol,Harardera,Mahaday,Yeed,Kidimu,Kiunga,Kibish,Wanleweyn,Dolow,HomaBay,GofKudle,SyerTenyerla,SyerTenyerma,SyerTenyerwa,SyerTenyerra,SyerTenyerka,SyerTenyerta,SyerTenyerbwe,SyerTenyersa,SyerTenyerna,SyerTenyerfa,SyerTenyerga,SyerTenyerja,SyerTenyerda,SyerTenyerne,SyerTenyerle,SyerTenyerre,SyerTenyerzi,SyerTenyerbo,SyerTenyerki,SyerTenyermu"
 },
 {
-    "name": "Tiv", "i": 1501, "min": 3, "max": 11, "d": "lnrt", "m": 0, "b": "Makurdi,Gboko,Otukpo,Katsina-Ala,Zaki Biam,Vandeikya,Adikpo,Aliade,Ukum,Kwande,Logo,Konshisha,Guma,Buruku,Ushongo,Tarka,Gwer,Lafia,Awe,Doma,Nassarawa,Sati,Anongo,Anshav,Tomatar,Tomataan,Abwa,Ugbema,Denen,Mkovor,Agasha,Gbajimba,Aondoana,Agagbe,Naka,Makurdi"
+    "name": "Tiv", "i": 1501, "min": 3, "max": 11, "d": "lnrt", "m": 0, "b": "Makurdi,Gboko,Otukpo,Katsina-Ala,Zaki Biam,Vandeikya,Adikpo,Aliade,Ukum,Kwande,Logo,Konshisha,Guma,Buruku,Ushongo,Tarka,Gwer,Lafia,Awe,Doma,Nassarawa,Sati,Anongo,Anshav,Tomatar,Tomataan,Abwa,Ugbema,Denen,Mkovor,Agasha,Gbajimba,Aondoana,Agagbe,Naka"
 },
 {
     "name": "Tyap",
@@ -1297,7 +1297,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Damaturu,Potiskum,Gashua,Nguru,Buni Yadi,Geidam,Fika,Bade,Gadaka,Jakusko,Machina,Yusufari,Karasuwa,Gujba,Gulani,Tarmuwa,Bursari,Yunusari,Nangere,Fune,Guduram,Kariyari,Makurdi,Gboko,Otukpo"
+  "b": "Potiskum,Gashua,Buni Yadi,Geidam,Fika,Bade,Gadaka,Jakusko,Machina,Yusufari,Karasuwa,Gujba,Gulani,Tarmuwa,Bursari,Yunusari,Nangere,Fune,Guduram,Kariyari,Makurdi,Gboko,Otukpo,Kankan,Nzérékoré,Damaturu,Nguru"
 },
 {
     "name": "Tadaksahak",
@@ -1324,7 +1324,7 @@ window.africaNameBases = [
   "max": 13,
   "d": "lnrt",
   "m": 0,
-  "b": "Katima Mulilo,Rundu,Kongola,Sikona,Muyako,Linyanti,Chinchimane,Sangwali,Sifuha,Kabbe,Masokotwani,Ngoma,Choi,Lisikili,Nyonga,Simungoma,Mashi,Sioma,Sinjembela,Zambezi,Okavango,Chobe,Ngamiland,Makurdi,Gboko,Bondo,Vipingo,Konso,CeyrTabaan,Laasqoray,QansaxDheere,Garsen,Mumias,Malindi,Yavello,Guba,Xaafuun,Lanta,Ozi,Tindinyo,Totelala,Totelama,Totelawa,Totelara,Totelaka,Totelata,Totelabwe,Totelasa,Totelana,Totelafa,Totelaga,Totelaja,Totelada,Totelane,Totelale,Totelare,Totelazi,Totelabo,Totelaki,Totelamu"
+  "b": "Katima Mulilo,Rundu,Kongola,Sikona,Muyako,Linyanti,Chinchimane,Sangwali,Sifuha,Kabbe,Masokotwani,Ngoma,Choi,Lisikili,Nyonga,Simungoma,Mashi,Sioma,Sinjembela,Zambezi,Okavango,Chobe,Makurdi,Gboko,Bondo,Vipingo,Konso,CeyrTabaan,Laasqoray,Garsen,Mumias,Malindi,Yavello,Guba,Xaafuun,Lanta,Ozi,Tindinyo,Totelala,Totelama,Totelawa,Totelara,Totelaka,Totelata,Totelabwe,Totelasa,Totelana,Totelafa,Totelaga,Totelaja,Totelada,Totelane,Totelale,Totelare,Totelazi,Totelabo,Totelaki,Totelamu,Porto-Novo,Ngamiland,QansaxDheere"
 },
 {
   "name": "Lozi",
@@ -1342,7 +1342,7 @@ window.africaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-  "b": "Monrovia,Buchanan,Harper,Greenville,Sanniquellie,Gbarnga,Kakata,Zwedru,Voinjama,Foya,Tubmanburg,Robertsport,Harbel,Paynesville,Ganta,Saniquellie,Bong,Tappita,Maryland,Sinoe,Lofa,Gbarpolu,Mongu,Sesheke,Sioma,Faza,Omorate,Qoton,Afgoi,Beledhawo,Jamia,Siaya,Samburu,Ririba,Galolk,CeelAfweyn,Baidoa,Chara,Webuye,Kipini,Amekfa,Akisra,Amufa,Apikfa,Adedra,Ananma,Aogfa,Apamma,Akonra,Adarra,Akebfa,Anakma,Alirfa,Anosfa,Afogfa,Golala,Golama,Golawa,Golara,Golaka"
+  "b": "Monrovia,Buchanan,Harper,Sanniquellie,Gbarnga,Kakata,Zwedru,Voinjama,Foya,Robertsport,Harbel,Ganta,Saniquellie,Bong,Tappita,Sinoe,Lofa,Gbarpolu,Mongu,Sesheke,Sioma,Faza,Omorate,Qoton,Afgoi,Beledhawo,Jamia,Siaya,Ririba,Galolk,CeelAfweyn,Baidoa,Chara,Webuye,Kipini,Amekfa,Akisra,Amufa,Apikfa,Adedra,Ananma,Aogfa,Apamma,Akonra,Adarra,Akebfa,Anakma,Alirfa,Anosfa,Afogfa,Golala,Golama,Golawa,Golara,Golaka,Parakou,Sokodé,Kara,Cape Coast,Yamoussoukro,Greenville,Tubmanburg,Paynesville,Maryland,Samburu"
 },
 {
     "name": "Sebat Bet Gurage",
@@ -1351,7 +1351,7 @@ window.africaNameBases = [
   "max": 14,
   "d": "lnrt",
   "m": 0,
-  "b": "Addis Ababa,Dire Dawa,Harar,Jijiga,Debub Amhara,Shikute,Shewa,Ankober,Debre Birhan,Ambo,Fiche,Sodo,Bahir Dar,Gondar,Mekele,Weldiya,Kombolcha,Dessie,Debre Markos,Adama,Mongu,Tepi,Awasa,Jimma,Bale,Dhuusamareeb,Garanwa,Jamaame,Berdale,Janaale,Bardhere,Baidoa,Kismayo,Cabudwaaq,Dollo,DusaMarab,Garbahaarrey,Hafun,Wajid,WarCeel,Afikre,Abodwe,Abanke,Abiswe,Afalre,Alokre,Apegwe,Akanke,Autwe,Anure,Alurre,Alamke,Ametwe,Apogre,Afanre,SebatBetGuragele,SebatBetGuragere,SebatBetGuragene,SebatBetGurageke,SebatBetGuragehe"
+  "b": "Addis Ababa,Harar,Jijiga,Debub Amhara,Shikute,Shewa,Ankober,Debre Birhan,Ambo,Fiche,Sodo,Bahir Dar,Gondar,Mekele,Weldiya,Kombolcha,Dessie,Debre Markos,Adama,Mongu,Tepi,Awasa,Jimma,Bale,Dhuusamareeb,Garanwa,Jamaame,Berdale,Janaale,Bardhere,Baidoa,Kismayo,Cabudwaaq,Dollo,DusaMarab,Garbahaarrey,Hafun,Wajid,WarCeel,Afikre,Abodwe,Abanke,Abiswe,Afalre,Alokre,Apegwe,Akanke,Autwe,Anure,Alurre,Alamke,Ametwe,Apogre,Afanre,SebatBetGurageke,SebatBetGuragehe,Dire Dawa,SebatBetGuragele,SebatBetGuragere,SebatBetGuragene"
 },
 {
     "name": "Soninke",
@@ -1405,7 +1405,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Gaya,Malanville,Kamba,Karimama,Dosso,Niamey,Parakou,Kandi,Bembereke,Natitingou,Djougou,Savalou,Bohicon,Abomey,Ouidah,Cotonou,Porto-Novo,Lokossa,Aplahouie,Sakete,Ketou,Bassila,Dassa-Zoume,Save,Glazoué,Tchaourou,Nikki,Foun-Bangou,Kidimu,HomaBay,Kiunga,Kibish,GofKudle,Wanleweyn,Dolow,Gongoni,Bondo,Vipingo,Konso,CeyrTabaan,Laasqoray,QansaxDheere,Garsen,Abobbwe,Aamla,Arula,Aberbwe,Afubbwe,Anomla,Adetna,Alarbwe,Anumbwe,Alugla,Adenna,Amirbwe,Amibla,Apelna,Aobwe,Dendila,Dendima,Dendiwa,Dendira,Dendika"
+  "b": "Gaya,Kamba,Karimama,Dosso,Niamey,Parakou,Kandi,Bembereke,Natitingou,Djougou,Savalou,Bohicon,Abomey,Ouidah,Cotonou,Porto-Novo,Lokossa,Aplahouie,Sakete,Ketou,Bassila,Dassa-Zoume,Save,Glazoué,Tchaourou,Nikki,Foun-Bangou,Kidimu,Kiunga,Kibish,Wanleweyn,Dolow,Gongoni,Bondo,Vipingo,Konso,CeyrTabaan,Laasqoray,Garsen,Abobbwe,Aamla,Arula,Aberbwe,Afubbwe,Anomla,Adetna,Alarbwe,Anumbwe,Alugla,Adenna,Amirbwe,Amibla,Apelna,Aobwe,Dendila,Dendima,Dendiwa,Dendira,Dendika,Dakar,Malanville,HomaBay,GofKudle,QansaxDheere"
 },
 {
     "name": "Jerba Berber",
@@ -1414,7 +1414,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Djerba,Ajim,Houmt Souk,Midoun,Guellala,El May,Mezraya,Sedouikech,Ghar Melh,El Kantaoui,Sousse,Monastir,Mahdia,Sfax,Gabes,Medenine,Zarzis,Tozeur,Gafsa,Kairouan,Tunis,Bizerte,Mongu,Sesheke,Sioma,Aubburg,Apunland,Anogside,Afetburg,Akogland,Amenburg,Anagland,Adanland,Abenburg,Aadland,Aogburg,Apumburg,Adoland,Apilland,Alomburg,JerbaBerbertown,JerbaBerberville,JerbaBerberburg,JerbaBerberview,JerbaBerberside"
+  "b": "Djerba,Ajim,Houmt Souk,Midoun,Guellala,El May,Mezraya,Sedouikech,Ghar Melh,El Kantaoui,Sousse,Monastir,Mahdia,Sfax,Gabes,Medenine,Zarzis,Tozeur,Gafsa,Kairouan,Tunis,Bizerte,Mongu,Sesheke,Sioma,Midelt,Azrou,Ifrane,Khenifra,Imilchil,Tinerhir,Ouarzazate,Zagora,Agadir,Tiznit,Taroudant,Tafraout,Boumalne,Tinghir,Errachidia,Tizi Ouzou,Béjaïa,Sétif,Bouira,Aubburg,Apunland,Anogside,Afetburg,Akogland,Amenburg,Anagland,Adanland,Abenburg,Aadland,Aogburg,Apumburg,Adoland,Apilland,Alomburg,JerbaBerbertown,JerbaBerberville,JerbaBerberburg,JerbaBerberview,JerbaBerberside"
 },
 {
     "name": "South Oran-Figuig Berber",
@@ -1432,7 +1432,7 @@ window.africaNameBases = [
   "max": 14,
   "d": "lnrt",
   "m": 0,
-  "b": "Agadez,Arlit,Tchirozerine,In-Gall,Tahoua,Maradi,Zinder,Dosso,Niamey,Gao,Tombouctou,Timbuktu,Diré,Gourma-Rharous,Rharcuss,Ténenkou,Niafunké,Bourem,Léré,Ansongo,Mongu,Sesheke,Sioma,Kalabo,Lukulu,Abemview,Adagport,Apesview,Abigwood,Alidview,Afanport,Afiview,Afakwood,Akunview,Aobview,Amuwood,Amokview,Adelview,Afikwood,Adadport,Tawellemmettown,Tawellemmetville,Tawellemmetburg,Tawellemmetview,Tawellemmetside"
+  "b": "Agadez,Arlit,Tchirozerine,In-Gall,Tahoua,Maradi,Zinder,Dosso,Niamey,Gao,Tombouctou,Timbuktu,Diré,Gourma-Rharous,Rharcuss,Ténenkou,Niafunké,Bourem,Léré,Ansongo,Mongu,Sesheke,Sioma,Kalabo,Lukulu,Medenine,Tataouine,Beni Mellal,Taza,Al Hoceima,Chefchaouen,Sefrou,Djenné,Ghardaïa,Jijel,Akbou,Midoun,Rissani,Kelaat M'Gouna,Midelt,Azrou,Abemview,Adagport,Apesview,Abigwood,Alidview,Afanport,Afiview,Afakwood,Akunview,Aobview,Amuwood,Amokview,Adelview,Afikwood,Adadport,Tawellemmettown,Tawellemmetville,Tawellemmetburg,Tawellemmetview,Tawellemmetside"
 },
 {
     "name": "Dghwede",
@@ -1441,7 +1441,7 @@ window.africaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-  "b": "Maiduguri,Biu,Mubi,Konduga,Gwoza,Bama,Marte,Monguno,Ngala,Dikwa,Kukawa,Kousseri,Marafa,Waza,Gamboru,Logone-Birni,Hina,Mora,Balda,Makary,Kousséri,Mongu,Sesheke,Sioma,Kalabo,Garsale,Jowhaar,Farlibaax,Pongwe,KenduBay,Faza,Omorate,Qoton,Afgoi,Beledhawo,Jamia,Siaya,Samburu,Ririba,Galolk,Amakbwe,Akidla,Akomna,Apekbwe,Adadla,Afotla,Aigbwe,Anobla,Amombwe,Amogna,Akinla,Adasbwe,Amula,Abila,Alebla,Dghwedela,Dghwedema,Dghwedewa,Dghwedera,Dghwedeka"
+  "b": "Biu,Mubi,Konduga,Gwoza,Bama,Marte,Monguno,Ngala,Dikwa,Kukawa,Kousseri,Marafa,Waza,Gamboru,Logone-Birni,Hina,Mora,Balda,Makary,Kousséri,Mongu,Sesheke,Sioma,Kalabo,Garsale,Jowhaar,Farlibaax,Pongwe,Faza,Omorate,Qoton,Afgoi,Beledhawo,Jamia,Siaya,Ririba,Galolk,Amakbwe,Akidla,Akomna,Apekbwe,Adadla,Afotla,Aigbwe,Anobla,Amombwe,Amogna,Akinla,Adasbwe,Amula,Abila,Alebla,Dghwedela,Dghwedema,Dghwedewa,Dghwedera,Dghwedeka,Bamako,Ouagadougou,Maiduguri,KenduBay,Samburu"
 },
 {
     "name": "Dida",
@@ -1450,7 +1450,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Daloa,Issia,Vavoua,Zuénoula,Bouaflé,Gagnoa,Oumé,Guibéroua,Tiapoumé,Bédiala,Bolgoua,Bazré,Mongu,Sesheke,Sioma,Kalabo,Lukulu,Shangombo,Kwamashi,Limakazo,Namibia,Lukonge,Kazungula,Senanga,Makurdi,Bagula,Iskushuban,Gendershe,Garsen,Ikonge,ElDera,Haraale,Salkaxo,Garowe,Janaale,Kaloleni,Masige,ArchersPost,RasKamboni,Deynile,Akemra,Aditsa,Abugta,Afubra,Amimra,Aatsa,Akugta,Anobra,Aloksa,Anansa,Afugra,Akusta,Adisa,Apadra,Ausa,Didala,Didama,Didawa,Didara,Didaka"
+  "b": "Daloa,Issia,Vavoua,Zuénoula,Bouaflé,Gagnoa,Oumé,Guibéroua,Tiapoumé,Bédiala,Bolgoua,Bazré,Mongu,Sesheke,Sioma,Kalabo,Lukulu,Shangombo,Kwamashi,Limakazo,Namibia,Lukonge,Kazungula,Senanga,Makurdi,Bagula,Iskushuban,Gendershe,Garsen,Ikonge,Haraale,Salkaxo,Garowe,Janaale,Kaloleni,Masige,ArchersPost,RasKamboni,Deynile,Akemra,Aditsa,Abugta,Afubra,Amimra,Aatsa,Akugta,Anobra,Aloksa,Anansa,Afugra,Akusta,Adisa,Apadra,Ausa,Didala,Didama,Didawa,Didara,Didaka,ElDera"
 },
 {
     "name": "Diri",
@@ -1459,7 +1459,7 @@ window.africaNameBases = [
   "max": 13,
   "d": "lnrt",
   "m": 0,
-  "b": "Azare,Katagum,Misau,Ningi,Dass,Tafawa Balewa,Bununu,Lere,Potiskum,Dukku,Kaltungo,Shongom,Akko,Kwami,Billiri,Pindiga,Kumo,Fika,Bara,Deba,Banga,Kaltin,Kushi,Bogoro,Dadin Kowa,Bambam,Waja,Duduble,Galdogob,Dhoobley,Vanga,Suba,Korr,Gurfuudle,Dabare,Runni,Kachoda,Mkokoni,Kehancha,Sibiloi,Waamo,Giohar,Alabma,Akelta,Afokra,Anebma,Amokra,Adidta,Anita,Anorra,Apubta,Adelma,Alokma,Amomra,Abumma,Abotta,Alonta,Dirila,Dirima,Diriwa,Dirira,Dirika"
+  "b": "Azare,Katagum,Misau,Ningi,Dass,Tafawa Balewa,Bununu,Lere,Potiskum,Dukku,Kaltungo,Shongom,Akko,Kwami,Billiri,Pindiga,Kumo,Fika,Bara,Deba,Banga,Kaltin,Kushi,Bogoro,Bambam,Waja,Duduble,Galdogob,Dhoobley,Vanga,Suba,Korr,Gurfuudle,Dabare,Runni,Kachoda,Mkokoni,Kehancha,Sibiloi,Waamo,Giohar,Alabma,Akelta,Afokra,Anebma,Amokra,Adidta,Anita,Anorra,Apubta,Adelma,Alokma,Amomra,Abumma,Abotta,Alonta,Dirila,Dirima,Diriwa,Dirira,Dirika,Dadin Kowa"
 },
 {
   "name": "Dizoid",
@@ -1468,7 +1468,7 @@ window.africaNameBases = [
   "max": 14,
   "d": "lnrt",
   "m": 0,
-   "b": "Bonga,Tepi,Mizan Teferi,Gore,Metu,Jimma,Agaro,Bedele,Sebeta,Durame,Kacha Bira,Wacha,Shishinda,Bench Maji,Meinit,Meinit Goldiya,Keffa,Sheka,Bench Sheko,Tirole,Gatama,Kelafo,Gode,Mustahil,Ferfer,Gawata,Dalocha,Fuchucha,Kachama,Sawena,Bitena,Arjo,Gesuba,Gununo,Bedessa,Dimtu,Arba Minch,Jijiga,Harar,Dire Dawa,Adama,Bahir Dar,Gondar,Lalibela,Mekele,Hawassa,Sodo,Nekemte,Ambo,Woliso,Dilla,Yirgalem,Shashamane,Ziway,Debre Zeit,Mojo,Bishoftu,Debre Markos,Bichena,Finote Selam,Injibara,Dangila,Merawi,Woreta,Butajira,Hosaena,Boditi,Tercha,Dembidolo,Mettu,Bedelle,Bako,Shambu,Debre Tabor,Addis Zemen,Kobo,Alamata,Korem,Maychew,Adigrat,Aksum,Shire,Endaselassie,Humera,Debarq,Sekota,Soqota,Wolda,Dessie,Kombolcha,Bati,Kemise,Dembecha,Asosa,Gambela,Adet,Werabe,Areka,Limmu Genet,Hagere Mariam,Yabello,Mega,Moyale,Negele Borana,Dolo Odo,Kebri Dehar,Werder,Shilavo,Debre Birhan,Fiche,Goha Tsion,Adwa,Enticho,Freweyni,Abiy Addi,Alamata,Mekdela,Menz,Tegulet,Bulga,Moret,Shewa,Jama,Debre Sina,Kelela,Bati,Haik,Kutaber,Tenta,Legambo,Wogera,Dabat,Gonder Zuria,Alefa,Qwara,Wembera,Jawi,Bure,Jabi Tehnan,Aneded,Kudmi,Gulom,Kamashi,Sibu,Bila,Nole,Dale,Loka Abaya,Malga,Sidama,Borena,Guji,Arsi,Bale,Dawa,El Kere,Dollo,Konso,Jinka,Turmi,Karo,Kibish,Hammer,Mursi,Nyangatom,Bena Tsemay,Debub Ari,Benatsemay,Selamago,Gnangatom,Kuraz,Lele Kecha,Teltele,Dire,Moyale,Uraga,Adola,Wadera,Dawe,Kofele,Dodola,Adaba,Goba,Robe,Sinana,Dinsho,Mena,Goro,Berbere,Ginir,Gasera,Golo,Kersa,Gomma,Gera,Seka Chekorsa,Shebe Senbo,Setema,Mana,Tiro,Yeki,Debeka,Gura,Sumale"
+   "b": "Bonga,Tepi,Mizan Teferi,Gore,Metu,Jimma,Agaro,Bedele,Sebeta,Durame,Wacha,Shishinda,Bench Maji,Meinit,Meinit Goldiya,Keffa,Sheka,Bench Sheko,Tirole,Gatama,Kelafo,Gode,Mustahil,Ferfer,Gawata,Dalocha,Fuchucha,Kachama,Sawena,Bitena,Arjo,Gesuba,Gununo,Bedessa,Dimtu,Arba Minch,Jijiga,Harar,Adama,Bahir Dar,Gondar,Lalibela,Mekele,Hawassa,Sodo,Nekemte,Ambo,Woliso,Dilla,Yirgalem,Shashamane,Ziway,Debre Zeit,Mojo,Bishoftu,Debre Markos,Bichena,Finote Selam,Injibara,Dangila,Merawi,Woreta,Butajira,Hosaena,Boditi,Tercha,Dembidolo,Mettu,Bedelle,Bako,Shambu,Debre Tabor,Addis Zemen,Kobo,Alamata,Korem,Maychew,Adigrat,Aksum,Shire,Endaselassie,Humera,Debarq,Sekota,Soqota,Wolda,Dessie,Kombolcha,Bati,Kemise,Dembecha,Asosa,Gambela,Adet,Werabe,Areka,Limmu Genet,Hagere Mariam,Yabello,Mega,Moyale,Negele Borana,Dolo Odo,Kebri Dehar,Werder,Shilavo,Debre Birhan,Fiche,Goha Tsion,Adwa,Enticho,Freweyni,Abiy Addi,Alamata,Mekdela,Menz,Tegulet,Bulga,Moret,Shewa,Jama,Kelela,Bati,Haik,Kutaber,Tenta,Legambo,Wogera,Dabat,Gonder Zuria,Alefa,Qwara,Wembera,Jawi,Bure,Jabi Tehnan,Aneded,Kudmi,Gulom,Kamashi,Sibu,Bila,Nole,Dale,Loka Abaya,Malga,Sidama,Borena,Guji,Arsi,Bale,Dawa,Dollo,Konso,Jinka,Turmi,Karo,Kibish,Hammer,Mursi,Nyangatom,Bena Tsemay,Debub Ari,Benatsemay,Selamago,Gnangatom,Kuraz,Lele Kecha,Teltele,Dire,Moyale,Uraga,Adola,Wadera,Dawe,Kofele,Dodola,Adaba,Goba,Robe,Sinana,Dinsho,Mena,Goro,Berbere,Ginir,Gasera,Golo,Kersa,Gomma,Gera,Seka Chekorsa,Shebe Senbo,Setema,Mana,Tiro,Yeki,Debeka,Gura,Sumale,Kacha Bira,Dire Dawa,Debre Sina,El Kere"
  },
  {
      "name": "Doko",
@@ -1477,7 +1477,7 @@ window.africaNameBases = [
   "max": 13,
   "d": "lnrt",
   "m": 0,
-  "b": "Kinshasa,Kisangani,Lubumbashi,Mbuji-Mayi,Kananga,Likasi,Kolwezi,Kikwit,Mbandaka,Matadi,Boma,Isiro,Bumba,Gemena,Kabinda,Kasongo-Lunda,Kenge,Kasangulu,Mwene-Ditu,Tshikapa,Uvira,Bukavu,Goma,Butembo,Beni,Luozi,Bereeda,Shalambood,Kilifi,Rioma,Habaswein,TulaNaga,Sarweyne,Koorma,Xarardheere,Mariakani,Kisii,Maralal,Liibaan,Duduble,Galdogob,Abemta,Apisfa,Apusa,Afimta,Adokfa,Akanfa,Amista,Abussa,Apilfa,Amekta,Aladta,Aubfa,Akamta,Apetta,Akidfa,Dokola,Dokoma,Dokowa,Dokora,Dokoka"
+  "b": "Kinshasa,Kisangani,Lubumbashi,Mbuji-Mayi,Kananga,Likasi,Kolwezi,Kikwit,Mbandaka,Matadi,Boma,Isiro,Bumba,Gemena,Kabinda,Kasongo-Lunda,Kenge,Kasangulu,Mwene-Ditu,Tshikapa,Uvira,Bukavu,Goma,Butembo,Beni,Luozi,Bereeda,Shalambood,Kilifi,Rioma,Habaswein,Sarweyne,Koorma,Xarardheere,Mariakani,Kisii,Maralal,Liibaan,Duduble,Galdogob,Abemta,Apisfa,Apusa,Afimta,Adokfa,Akanfa,Amista,Abussa,Apilfa,Amekta,Aladta,Aubfa,Akamta,Apetta,Akidfa,Dokola,Dokoma,Dokowa,Dokora,Dokoka,TulaNaga"
 },
 {
     "name": "Dongo",
@@ -1495,7 +1495,7 @@ window.africaNameBases = [
   "max": 13,
   "d": "lnrt",
   "m": 0,
-  "b": "Maroua,Mora,Waza,Balda,Makary,Kousséri,Damboa,Gulak,Madagali,Mokolo,Mayo-Oulo,Hina,Mayo-Maskola,Mayo-Sava,Mayo-Kani,Mayo-Danay,Mayo-Lokoro,Mayo-Binder,Mayo-Zoumaya,Mayo-Manga,Mayo-Tignère,Mayo-Godi,Mayo-Farang,Mayo-Djarendi,Mongu,Pongwe,KenduBay,Faza,Omorate,Qoton,Afgoi,Beledhawo,Jamia,Siaya,Samburu,Ririba,Galolk,CeelAfweyn,Baidoa,Chara,Apabsa,Afanra,Aneksa,Akedra,Afemra,Adetsa,Adigta,Akonsa,Amabra,Abira,Alursa,Abibta,Alodra,Amimsa,Anitta,Dugworla,Dugworma,Dugworwa,Dugworra,Dugworka"
+  "b": "Maroua,Mora,Waza,Balda,Makary,Kousséri,Damboa,Gulak,Madagali,Mokolo,Mayo-Oulo,Hina,Mayo-Maskola,Mayo-Sava,Mayo-Kani,Mayo-Danay,Mayo-Lokoro,Mayo-Binder,Mayo-Zoumaya,Mayo-Manga,Mayo-Tignère,Mayo-Godi,Mayo-Farang,Mayo-Djarendi,Mongu,Pongwe,Faza,Omorate,Qoton,Afgoi,Beledhawo,Jamia,Siaya,Ririba,Galolk,CeelAfweyn,Baidoa,Chara,Apabsa,Afanra,Aneksa,Akedra,Afemra,Adetsa,Adigta,Akonsa,Amabra,Abira,Alursa,Abibta,Alodra,Amimsa,Anitta,Dugworla,Dugworma,Dugworwa,Dugworra,Dugworka,Conakry,KenduBay,Samburu"
 },
 {
     "name": "Duhwa",
@@ -1504,7 +1504,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Jos,Bukuru,Riyom,Mangu,Bokkos,Pankshin,Shendam,Langtang,Wase,Keffi,Lafia,Akwanga,Awe,Keana,Oto,Doma,Obi,Agatu,Otukpo,Ugbokpo,Gboko,Aliade,Vandeikya,Katsina-Ala,Zaki Biam,Ndau,Vihiga,Mariakani,Moyale,SaLul,Erigavo,Baardheere,Bwiti,Bungoma,Lamu,Imi,GeedWeen,Karindoolay,Gamey,Kipini,Akigbwe,Apitwa,Anunka,Afosbwe,Apokwa,Anodbwe,Aatbwe,Adigwa,Abesbwe,Akirbwe,Adebwa,Adalwa,Adurbwe,Afubka,Aakwa,Duhwala,Duhwama,Duhwawa,Duhwara,Duhwaka"
+  "b": "Jos,Riyom,Mangu,Bokkos,Pankshin,Shendam,Langtang,Wase,Keffi,Lafia,Akwanga,Awe,Keana,Oto,Doma,Obi,Agatu,Otukpo,Ugbokpo,Gboko,Aliade,Vandeikya,Katsina-Ala,Zaki Biam,Ndau,Vihiga,Mariakani,Moyale,SaLul,Erigavo,Baardheere,Bwiti,Bungoma,Lamu,Imi,GeedWeen,Karindoolay,Gamey,Kipini,Akigbwe,Apitwa,Anunka,Afosbwe,Apokwa,Anodbwe,Aatbwe,Adigwa,Abesbwe,Akirbwe,Adebwa,Adalwa,Adurbwe,Afubka,Aakwa,Duhwala,Duhwama,Duhwawa,Duhwara,Duhwaka,Accra,Bukuru"
 },
 {
     "name": "Dullay",
@@ -1513,7 +1513,7 @@ window.africaNameBases = [
   "max": 14,
   "d": "lnrt",
   "m": 0,
-  "b": "Bonga,Tepi,Mizan Teferi,Gore,Metu,Jimma,Agaro,Bedele,Sebeta,Durame,Kacha Bira,Wacha,Shishinda,Bench Maji,Meinit,Meinit Goldiya,Keffa,Sheka,Bench Sheko,Mongu,Sesheke,Sioma,Kalabo,Lukulu,Shangombo,Jongole,Kimilili,Garsen,Shilabo,Jasiira,Qardho,Merka,Ngao,Ekerenyo,Garissa,Farlibaax,Dhalwo,Eyl,Goobweyn,Rabai,Abulta,Aetra,Aogta,Aderma,Akubma,Afetra,Arata,Amarma,Akabma,Akalta,Alidta,Amogta,Afenra,Autta,Apoma,Dullayla,Dullayma,Dullaywa,Dullayra,Dullayka"
+  "b": "Bonga,Tepi,Mizan Teferi,Gore,Metu,Jimma,Agaro,Bedele,Sebeta,Durame,Wacha,Shishinda,Bench Maji,Meinit,Meinit Goldiya,Keffa,Sheka,Bench Sheko,Mongu,Sesheke,Sioma,Kalabo,Lukulu,Shangombo,Jongole,Kimilili,Garsen,Shilabo,Jasiira,Qardho,Merka,Ngao,Ekerenyo,Garissa,Farlibaax,Dhalwo,Eyl,Goobweyn,Rabai,Abulta,Aetra,Aogta,Aderma,Akubma,Afetra,Arata,Amarma,Akabma,Akalta,Alidta,Amogta,Afenra,Autta,Apoma,Dullayla,Dullayma,Dullaywa,Dullayra,Dullayka,Kacha Bira"
 },
 {
     "name": "Dinka",
@@ -1522,7 +1522,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Juba,Malakal,Bentiu,Rumbek,Yirol,Wau,Twic,Leer,Panyikang,Gogrial,Aweil,Kapoeta,Torit,Bor,Nimule,Lafon,Pibor,Boma,Mundri,Lainya,Raja,Akobo,Yei,Maridi,Ezo,Rioma,Habaswein,TulaNaga,Sarweyne,Koorma,Xarardheere,Mariakani,Kisii,Maralal,Liibaan,Duduble,Galdogob,Dhoobley,Vanga,Suba,Alalwa,Adodka,Akoswa,Anelwa,Aburbwe,Alodka,Adimbwe,Apiswa,Amobka,Apulbwe,Abekwa,Akodwa,Aambwe,Alotka,Adegbwe,Dinkala,Dinkama,Dinkawa,Dinkara,Dinkaka"
+  "b": "Juba,Malakal,Bentiu,Rumbek,Yirol,Wau,Twic,Leer,Panyikang,Gogrial,Aweil,Kapoeta,Torit,Bor,Nimule,Lafon,Pibor,Boma,Mundri,Lainya,Raja,Akobo,Yei,Maridi,Ezo,Rioma,Habaswein,Sarweyne,Koorma,Xarardheere,Mariakani,Kisii,Maralal,Liibaan,Duduble,Galdogob,Dhoobley,Vanga,Suba,Alalwa,Adodka,Akoswa,Anelwa,Aburbwe,Alodka,Adimbwe,Apiswa,Amobka,Apulbwe,Abekwa,Akodwa,Aambwe,Alotka,Adegbwe,Dinkala,Dinkama,Dinkawa,Dinkara,Dinkaka,TulaNaga"
 },
 {
     "name": "Eastern Berber",
@@ -1531,7 +1531,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Tripoli,Benghazi,Misratah,Sirte,Ajdabiya,Tobruk,Derna,Al Bayda,Marj,Zuwara,Nalut,Ghadames,Sabha,Ghat,Ubari,Murzuq,Tmassah,Dirj,Idri,Al Qaryah,Tawergha,Susa,Mongu,Sesheke,Sioma,Vipingo,Konso,CeyrTabaan,Laasqoray,QansaxDheere,Garsen,Mumias,Malindi,Yavello,Guba,Xaafuun,Lanta,Ozi,Tindinyo,Masalani,Akunsa,Adilfa,Adatma,Afigsa,Amarsa,Alilfa,Anegsa,Amensa,Amifa,Aabsa,Apatma,Ademma,Auksa,Apogsa,Aomma,EasternBerberla,EasternBerberma,EasternBerberwa,EasternBerberra,EasternBerberka"
+  "b": "Tripoli,Benghazi,Misratah,Sirte,Ajdabiya,Tobruk,Derna,Al Bayda,Marj,Zuwara,Nalut,Ghadames,Sabha,Ghat,Ubari,Murzuq,Tmassah,Dirj,Idri,Al Qaryah,Tawergha,Susa,Mongu,Sesheke,Sioma,Vipingo,Konso,CeyrTabaan,Laasqoray,Garsen,Mumias,Malindi,Yavello,Guba,Xaafuun,Lanta,Ozi,Tindinyo,Masalani,Akunsa,Adilfa,Adatma,Afigsa,Amarsa,Alilfa,Anegsa,Amensa,Amifa,Aabsa,Apatma,Ademma,Auksa,Apogsa,Aomma,QansaxDheere,EasternBerberla,EasternBerberma,EasternBerberwa,EasternBerberra,EasternBerberka"
 },
 {
     "name": "Eastern Middle Atlas Berber",
@@ -1540,7 +1540,7 @@ window.africaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Midelt,Ksar Tissouit,Ait Seghrouchen,Imouzzer,Middle Atlas,High Atlas,Talesinnt,Tichikout,Ait Ayache,Zenati,Sehrusheni,Ait Ali ou Yahya,Beni Mellal,Khenifra,Azrou,Timahdite,Aguelmous,El Ksiba,Aghbala,Tizi n'Test,Tadla,Azilal,Ifrane,Meknes,Fes,Errachidia,Rich,Gourrama,Akudwood,Afesbridge,Alogville,Aboswood,Aomville,Ananwood,Akokwood,Anekbridge,Adirwood,Anibville,Adibwood,Adewood,Alolville,Alerwood,Apamwood,EasternMiddleAtlasBerbertown,EasternMiddleAtlasBerberville,EasternMiddleAtlasBerberburg,EasternMiddleAtlasBerberview,EasternMiddleAtlasBerberside"
+  "b": "Midelt,Ksar Tissouit,Ait Seghrouchen,Imouzzer,Middle Atlas,High Atlas,Talesinnt,Tichikout,Ait Ayache,Zenati,Sehrusheni,Ait Ali ou Yahya,Beni Mellal,Khenifra,Azrou,Timahdite,Aguelmous,El Ksiba,Aghbala,Tizi n'Test,Tadla,Azilal,Ifrane,Meknes,Fes,Errachidia,Rich,Gourrama,Akudwood,Aboswood,Ananwood,Akokwood,Adirwood,Adibwood,Adewood,Alerwood,Apamwood,easternmiddleatlasberberHeights,easternmiddleatlasberberFalls,easternmiddleatlasberberBeach,easternmiddleatlasberberPoint,easternmiddleatlasberberBay,easternmiddleatlasberberGrove,Afesbridge,Alogville,Aomville,Anekbridge,Anibville,Alolville,EasternMiddleAtlasBerbertown,EasternMiddleAtlasBerberville,EasternMiddleAtlasBerberburg,EasternMiddleAtlasBerberview,EasternMiddleAtlasBerberside"
 },
 {
     "name": "Eastern Morocco Zenati",
@@ -1552,7 +1552,7 @@ window.africaNameBases = [
   "b": "Oujda,Berkane,Taourirt,Guercif,Figuig,Bouarfa,Nador,Al Hoceima,Taza,Chefchaouen,Ouezzane,Asilah,Larache,Fnideq,Mdiq,Alnif,Rissani,Merzouga,Goulmima,Errachidia,Tineghir,Agdz,Taliouin,Biougra,Taroudannt,Gurfuudle,Dabare,Runni,Kachoda,Mkokoni,Kehancha,Sibiloi,Waamo,Giohar,Guriceel,Selina,Sindo,Galole,Kalokol,Harardera,Akirta,Aditfa,Akata,Amorta,Aebfa,Abukfa,Amunta,Alusfa,Apitfa,Akagsa,Areta,Aanfa,Abassa,Akafa,Adista,EasternMoroccoZenatila,EasternMoroccoZenatima,EasternMoroccoZenatiwa,EasternMoroccoZenatira,EasternMoroccoZenatika"
 },
 {
-    "name": "Fali of Mubi", "i": 1782, "min": 4, "max": 11, "d": "lnrt", "m": 0, "b": "Mubi,Madagali,Gulak,Mayo-Belwa,Yola,Fali,Michika,Song,Gombi,Mandara,Hong,Garkida,Guyaku,Boga,Numan,Demsa,Jimeta,Ganye,Jada,Fufore,Lamurde,Toungo,Shelleng,Maiha,Ngaura,Mumias,Malindi,Yavello,Guba,Xaafuun,Lanta,Ozi,Tindinyo,Masalani,ElKere,Garawe,Bargaal,Afgooye,Sengera,ElBur,Afima,Aborta,Aadra,Adasma,Aloma,Amutma,Akunta,Apokma,Adadma,Animta,Aodta,Apinma,Aanra,Adinta,Abasma,FaliofMubila,FaliofMubima,FaliofMubiwa,FaliofMubira,FaliofMubika"
+    "name": "Fali of Mubi", "i": 1782, "min": 4, "max": 11, "d": "lnrt", "m": 0, "b": "Mubi,Madagali,Gulak,Mayo-Belwa,Yola,Fali,Michika,Song,Gombi,Mandara,Hong,Garkida,Guyaku,Boga,Numan,Demsa,Jimeta,Ganye,Jada,Fufore,Lamurde,Toungo,Shelleng,Maiha,Ngaura,Mumias,Malindi,Yavello,Guba,Xaafuun,Lanta,Ozi,Tindinyo,Masalani,Garawe,Bargaal,Afgooye,Sengera,ElBur,Afima,Aborta,Aadra,Adasma,Aloma,Amutma,Akunta,Apokma,Adadma,Animta,Aodta,Apinma,Aanra,Adinta,Abasma,ElKere,FaliofMubila,FaliofMubima,FaliofMubiwa,FaliofMubira,FaliofMubika"
 },
 {
     "name": "Fang",
@@ -1597,7 +1597,7 @@ window.africaNameBases = [
   "max": 13,
   "d": "lnrt",
   "m": 0,
-  "b": "Maroua,Mora,Waza,Balda,Makary,Kousséri,Damboa,Gulak,Madagali,Mokolo,Mayo-Oulo,Hina,Mayo-Maskola,Mayo-Sava,Mayo-Kani,Mayo-Danay,Mayo-Lokoro,Mayo-Binder,Mayo-Zoumaya,Mayo-Manga,Mayo-Tignère,Mayo-Godi,Mayo-Farang,Mayo-Djarendi,Yola,Wema,Nyaribari,Kotus,SofOmar,Hadud,Bereeda,Shalambood,Kilifi,Rioma,Habaswein,TulaNaga,Sarweyne,Koorma,Xarardheere,Mariakani,Aobwa,Afemwa,Amutbwe,Anirbwe,Adikbwe,Akumbwe,Ameswa,Aogwa,Aboska,Apelbwe,Amolbwe,Anokka,Akulwa,Akedbwe,Aakbwe,Hdila,Hdima,Hdiwa,Hdira,Hdika"
+  "b": "Maroua,Mora,Waza,Balda,Makary,Kousséri,Damboa,Gulak,Madagali,Mokolo,Mayo-Oulo,Hina,Mayo-Maskola,Mayo-Sava,Mayo-Kani,Mayo-Danay,Mayo-Lokoro,Mayo-Binder,Mayo-Zoumaya,Mayo-Manga,Mayo-Tignère,Mayo-Godi,Mayo-Farang,Mayo-Djarendi,Yola,Wema,Nyaribari,Kotus,SofOmar,Hadud,Bereeda,Shalambood,Kilifi,Rioma,Habaswein,Sarweyne,Koorma,Xarardheere,Mariakani,Aobwa,Afemwa,Amutbwe,Anirbwe,Adikbwe,Akumbwe,Ameswa,Aogwa,Aboska,Apelbwe,Amolbwe,Anokka,Akulwa,Akedbwe,Aakbwe,Hdila,Hdima,Hdiwa,Hdira,Hdika,TulaNaga"
 },
 {
     "name": "Igbo",
@@ -1615,7 +1615,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Keffi,Lafia,Akwanga,Awe,Keana,Oto,Doma,Obi,Agatu,Otukpo,Ugbokpo,Gboko,Aliade,Vandeikya,Katsina-Ala,Zaki Biam,Yola,Mubi,Madagali,Michika,Hong,Gombi,Song,Garkida,Guyaku,ShangriLa,DongXuan,GoCongDong,Mohan,DaiLinh,Phayao,ViengPhoukha,TrangBom,SantiSuk,DamHa,BinhPhuoc,ThaSongKorn,TayNinh,BenLuc,Lianghe,Apigpalli,Amabpeta,Anolpur,Alinpur,Aaspeta,Amalpur,Afurpalli,Abubpalli,Abampur,Adigpur,Alonpalli,Akopur,Aarpeta,Amubpur,Alilpalli,GawarBatipur,GawarBatinagar,GawarBatibad,GawarBatikot,GawarBatiwada"
+  "b": "Keffi,Lafia,Akwanga,Awe,Keana,Oto,Doma,Obi,Agatu,Otukpo,Ugbokpo,Gboko,Aliade,Vandeikya,Katsina-Ala,Zaki Biam,Yola,Mubi,Madagali,Michika,Hong,Gombi,Song,Garkida,Guyaku,Kumasi,Abidjan,Lomé,Cotonou,Lagos,Kano,Ibadan,Abuja,Tamale,Bouaké,Saint-Louis,Thiès,Kaolack,Ziguinchor,Touba,Ségou,Sikasso,Mopti,Timbuktu,Gao,ShangriLa,DongXuan,GoCongDong,Mohan,DaiLinh,Phayao,ViengPhoukha,TrangBom,SantiSuk,DamHa,BinhPhuoc,ThaSongKorn,TayNinh,BenLuc,Lianghe,Apigpalli,Amabpeta,Anolpur,Alinpur,Aaspeta,Amalpur,Afurpalli,Abubpalli,Abampur,Adigpur,Alonpalli,Akopur,Aarpeta,Amubpur,Alilpalli,GawarBatipur,GawarBatinagar,GawarBatibad,GawarBatikot,GawarBatiwada"
 },
 {
     "name": "Hausa",
@@ -1624,7 +1624,7 @@ window.africaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-  "b": "Zaria,Katsina,Dutse,Gusau,Birnin Kebbi,Argungu,Daura,Hadejia,Gumel,Maiduguri,Damaturu,Yola,Jimeta,Biu,Mubi,Keffi,Lafia,Akwanga,Awe,Keana,Oto,Doma,Obi,Agatu,Otukpo,Ugbokpo,Gboko,Kipini,Nyakoe,Bura,Wachile,GarasQod,Bacad,BuuloMarer,Mtwapa,Getembe,Habasiwein,Dudun,Toon,Gambol,Harardhere,Bamba,Aasfa,Apilra,Aburma,Afabra,Aorfa,Alagfa,Alumfa,Alutra,Amugma,Aumra,Apafa,Aponfa,Adubma,Adalra,Aderfa,Hausala,Hausama,Hausawa,Hausara,Hausaka"
+  "b": "Zaria,Katsina,Dutse,Gusau,Birnin Kebbi,Argungu,Daura,Hadejia,Gumel,Yola,Jimeta,Biu,Mubi,Keffi,Lafia,Akwanga,Awe,Keana,Oto,Doma,Obi,Agatu,Otukpo,Ugbokpo,Gboko,Kipini,Nyakoe,Bura,Wachile,GarasQod,Bacad,BuuloMarer,Mtwapa,Getembe,Habasiwein,Dudun,Toon,Gambol,Harardhere,Bamba,Aasfa,Apilra,Aburma,Afabra,Aorfa,Alagfa,Alumfa,Alutra,Amugma,Aumra,Apafa,Aponfa,Adubma,Adalra,Aderfa,Hausala,Hausama,Hausawa,Hausara,Hausaka,Casablanca,Marrakesh,Maiduguri,Damaturu"
 },
 {
     "name": "Karekare",
@@ -1633,7 +1633,7 @@ window.africaNameBases = [
   "max": 13,
   "d": "lnrt",
   "m": 0,
-  "b": "Azare,Katagum,Misau,Ningi,Dass,Tafawa Balewa,Bununu,Lere,Potiskum,Dukku,Kaltungo,Shongom,Akko,Kwami,Billiri,Pindiga,Kumo,Fika,Bara,Deba,Banga,Kaltin,Kushi,Bogoro,Dadin Kowa,Bambam,Waja"
+  "b": "Azare,Katagum,Misau,Ningi,Dass,Tafawa Balewa,Bununu,Lere,Potiskum,Dukku,Kaltungo,Shongom,Akko,Kwami,Billiri,Pindiga,Kumo,Fika,Bara,Deba,Banga,Kaltin,Kushi,Bogoro,Bambam,Waja,Dadin Kowa"
 },
 {
     "name": "Kotoko",
@@ -1678,7 +1678,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Jos,Bukuru,Riyom,Mangu,Bokkos,Pankshin,Shendam,Langtang,Wase,Keffi,Lafia,Akwanga,Awe,Keana,Oto,Doma,Obi,Agatu,Otukpo,Ugbokpo,Gboko,Aliade,Vandeikya,Katsina-Ala,Zaki Biam,XamNeua,DaLat,Thaton,DienBien,LaiUyen,BoKluea,SocTrang,ThuanAn,PakLay,TanHiep,TanThanh,Changning,ALuoi,CangLong,Menglian,Abikpeta,Alilwada,Afutpalli,Aperwada,Aduspeta,Aberwada,Amibpeta,Aderpeta,Abuswada,Afarpeta,Akonwada,Aotwada,Abegwada,Aurpalli,Anokwada,Kumbaranpur,Kumbarannagar,Kumbaranbad,Kumbarankot,Kumbaranwada"
+  "b": "Jos,Riyom,Mangu,Bokkos,Pankshin,Shendam,Langtang,Wase,Keffi,Lafia,Akwanga,Awe,Keana,Oto,Doma,Obi,Agatu,Otukpo,Ugbokpo,Gboko,Aliade,Vandeikya,Katsina-Ala,Zaki Biam,PakLay,TanHiep,Menglian,Bobo-Dioulasso,Kindia,Kankan,Nzérékoré,Porto-Novo,Parakou,Sokodé,Kara,Cape Coast,Yamoussoukro,Dakar,Bamako,Ouagadougou,Conakry,Accra,Kumasi,Abidjan,Lomé,Cotonou,Lagos,Kano,Bukuru,XamNeua,DaLat,Thaton,DienBien,LaiUyen,BoKluea,SocTrang,ThuanAn,TanThanh,Changning,ALuoi,CangLong,Abikpeta,Alilwada,Afutpalli,Aperwada,Aduspeta,Aberwada,Amibpeta,Aderpeta,Abuswada,Afarpeta,Akonwada,Aotwada,Abegwada,Aurpalli,Anokwada,Kumbaranpur,Kumbarannagar,Kumbaranbad,Kumbarankot,Kumbaranwada"
 },
 {
     "name": "Tidikelt Berber",
@@ -1705,7 +1705,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Abong,Sardauna,Takum,Ussa,Yangtu,Jibu,Kente,Mbarike,Chan,Ripande,Bete,Kurmi,Geesaley,Gongoni,Lokitaung,Bereeda,Ngao,Borabu,TulaNaga,Liibaan,Yavello,ElDera,SaLul,Masige,Bargaal,Kehancha,Dabare,Apokfa,Amagra,Aminma,Amusra,Apelfa,Aburfa,Akodra,Aimma,Alesra,Afafa,Abarfa,Aebra,Abilma,Adokra,Akudfa,Abonla,Abonma,Abonwa,Abonra,Abonka"
+  "b": "Abong,Sardauna,Takum,Ussa,Yangtu,Jibu,Kente,Mbarike,Chan,Ripande,Bete,Kurmi,Geesaley,Gongoni,Lokitaung,Bereeda,Ngao,Borabu,Liibaan,Yavello,SaLul,Masige,Bargaal,Kehancha,Dabare,Apokfa,Amagra,Aminma,Amusra,Apelfa,Aburfa,Akodra,Aimma,Alesra,Afafa,Abarfa,Aebra,Abilma,Adokra,Akudfa,Abonla,Abonma,Abonwa,Abonra,Abonka,TulaNaga,ElDera"
 },
 {
     "name": "Abron",
@@ -1723,7 +1723,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lomé,Sokodé,Kpalimé,Atakpamé,Bassar,Kara,Notsé,Tchamba,Badou,Aného,Tabligbo,Kpagouda,Kandé,Mango,Sotouboua,Bafilo,Akposso,Agou,Niamtougou,Dapaong,Biankouri,Tandjouaré,Yola,Mubi,Madagali,Sindo,Gurfuudle,AadanYabaal,Hadud,GofKudle,Teltele,Mkunumbi,Garsen,Buulobarde,Hola,Beledhawo,Mahaday,Gaalkacyo,Mumias,Ntimaru,Akara,Adersa,Abobta,Adamsa,Afotra,Amera,Akobta,Abilsa,Anitra,Aligra,Alinsa,Alosta,Anusa,Aerra,Afobra,Ajala,Ajama,Ajawa,Ajara,Ajaka"
+  "b": "Lomé,Sokodé,Kpalimé,Atakpamé,Bassar,Kara,Notsé,Tchamba,Badou,Aného,Tabligbo,Kpagouda,Kandé,Mango,Sotouboua,Bafilo,Akposso,Agou,Niamtougou,Dapaong,Tandjouaré,Yola,Mubi,Madagali,Sindo,Gurfuudle,AadanYabaal,Hadud,Teltele,Mkunumbi,Garsen,Buulobarde,Hola,Beledhawo,Mahaday,Gaalkacyo,Mumias,Ntimaru,Akara,Adersa,Abobta,Adamsa,Afotra,Amera,Akobta,Abilsa,Anitra,Aligra,Alinsa,Alosta,Anusa,Aerra,Afobra,Ajala,Ajama,Ajawa,Ajara,Ajaka,Ibadan,Biankouri,GofKudle"
 },
 {
     "name": "Aka",
@@ -1732,7 +1732,7 @@ window.africaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-  "b": "Bria,Bambari,Bouar,Boda,Carnot,Mbaïki,Yaloke,Bimbo,Bangui,Mbaiki,Sibut,Grimari,Mongoumba,Kaga-Bandoro,Bouca,Yola,Mubi,Madagali,Michika,Hong,Gombi,Song,Garkida,Guyaku,Boga,RasKamboni,Aqable,Hareeri,Sibiloi,Galolk,ElKere,Wema,Fancole,Godinlabe,Buqda,Balad,Gendershe,Eyl,Garbaharey,Galgalo,Aimwa,Anosbwe,Analka,Anikbwe,Apagwa,Adomwa,Alesbwe,Abaka,Amurbwe,Afubwa,Adulwa,Abukbwe,Abagka,Afenbwe,Aloswa,Akala,Akama,Akawa,RaAka,Akaka"
+  "b": "Bria,Bambari,Bouar,Boda,Carnot,Mbaïki,Yaloke,Bimbo,Bangui,Mbaiki,Sibut,Grimari,Mongoumba,Kaga-Bandoro,Bouca,Yola,Mubi,Madagali,Michika,Hong,Gombi,Song,Garkida,Guyaku,Boga,RasKamboni,Aqable,Hareeri,Sibiloi,Galolk,Wema,Fancole,Godinlabe,Buqda,Balad,Gendershe,Eyl,Garbaharey,Galgalo,Aimwa,Anosbwe,Analka,Anikbwe,Apagwa,Adomwa,Alesbwe,Abaka,Amurbwe,Afubwa,Adulwa,Abukbwe,Abagka,Afenbwe,Aloswa,Akala,Akama,Akawa,RaAka,Akaka,ElKere"
 },
 {
     "name": "Ambele",
@@ -1777,7 +1777,7 @@ window.africaNameBases = [
   "max": 14,
   "d": "lnrt",
   "m": 0,
-  "b": "Ouagadougou,Bobo-Dioulasso,Koudougou,Banfora,Ouahigouya,Dédougou,Nouna,Tougan,Djibo,Gorom-Gorom,Marka,Yako,Kongoussi,Kaya,Fada N'Gourma,Gayeri,Leo,Sapouy,Bittou,Garango,Zorgho,Boussé,Kouka,Mogtédo,Rambo,Yargo,Dolow,Gongoni,Bondo,Vipingo,Konso,CeyrTabaan,Laasqoray,QansaxDheere,Garsen,Mumias,Malindi,Yavello,Guba,Xaafuun,Lanta,Anegta,Aesra,Amiksa,Abedta,Akasra,Afara,Adarsa,Amukra,Aedra,Alomsa,Abetta,Amonra,Alisra,Amesa,Aporra,Dogosola,Dogosoma,Dogosowa,Dogosora,Dogosoka"
+  "b": "Ouagadougou,Bobo-Dioulasso,Koudougou,Banfora,Ouahigouya,Dédougou,Nouna,Tougan,Djibo,Gorom-Gorom,Marka,Yako,Kongoussi,Kaya,Fada N'Gourma,Gayeri,Leo,Sapouy,Bittou,Garango,Zorgho,Boussé,Kouka,Mogtédo,Rambo,Yargo,Dolow,Gongoni,Bondo,Vipingo,Konso,CeyrTabaan,Laasqoray,Garsen,Mumias,Malindi,Yavello,Guba,Xaafuun,Lanta,Anegta,Aesra,Amiksa,Abedta,Akasra,Afara,Adarsa,Amukra,Aedra,Alomsa,Abetta,Amonra,Alisra,Amesa,Aporra,Dogosola,Dogosoma,Dogosowa,Dogosora,Dogosoka,QansaxDheere"
 },
 {
     "name": "Evant",
@@ -1822,7 +1822,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Nairobi,Thika,Kerugoya,Sagana,Karatina,Nyeri,Murang'a,Embu,Meru,Isiolo,Marsabit,Lodwar,Kakamega,Kisumu,Siaya,Homa Bay,Migori,Kericho,Nakuru,Nandi,Eldoret,Kapsabet,Nzoia,Trans Nzoia,Marakwet,Keiyo,Baringo,Laikipia,Pongwe,KenduBay,Faza,Omorate,Qoton,Afgoi,Beledhawo,Jamia,Siaya,Samburu,Ririba,Galolk,CeelAfweyn,Baidoa,Chara,Abedbwe,Aomla,Apusna,Aila,Afidbwe,Anenla,Adutna,Apula,Alorbwe,Afukna,Akegla,Aninbwe,Abutbwe,Amila,Adunna,Gikuyula,Gikuyuma,Gikuyuwa,Gikuyura,Gikuyuka"
+  "b": "Nairobi,Thika,Kerugoya,Sagana,Karatina,Nyeri,Murang'a,Embu,Meru,Isiolo,Marsabit,Lodwar,Kakamega,Kisumu,Siaya,Homa Bay,Migori,Kericho,Nakuru,Nandi,Eldoret,Kapsabet,Nzoia,Trans Nzoia,Marakwet,Keiyo,Baringo,Laikipia,Pongwe,Faza,Omorate,Qoton,Afgoi,Beledhawo,Jamia,Samburu,Ririba,Galolk,CeelAfweyn,Baidoa,Chara,Abedbwe,Aomla,Apusna,Aila,Afidbwe,Anenla,Adutna,Apula,Alorbwe,Afukna,Akegla,Aninbwe,Abutbwe,Amila,Adunna,Gikuyula,Gikuyuma,Gikuyuwa,Gikuyura,Gikuyuka,KenduBay"
 },
 {
     "name": "Goundo",
@@ -1840,7 +1840,7 @@ window.africaNameBases = [
   "max": 14,
   "d": "lnrt",
   "m": 0,
-  "b": "Fada N'Gourma,Gayeri,Leo,Sapouy,Bittou,Garango,Zorgho,Boussé,Kouka,Mogtédo,Rambo,Yargo,Ouagadougou,Bobo-Dioulasso,Koudougou,Banfora,Ouahigouya,Dédougou,Nouna,Tougan,Djibo,Gorom-Gorom,Marka,Yako,Kongoussi,Kaya,Jongole,Kimilili,Garsen,Shilabo,Jasiira,Qardho,Merka,Ngao,Ekerenyo,Garissa,Farlibaax,Dhalwo,Eyl,Goobweyn,Rabai,Abatna,Adogka,Apubna,Akolbwe,Aikna,Amigka,Apedka,Afolka,Afodbwe,Abemna,Anugka,Adogna,Akonbwe,Afutna,Alogbwe,Gourmanchla,Gourmanchma,Gourmanchwa,Gourmanchra,Gourmanchka"
+  "b": "Fada N'Gourma,Gayeri,Leo,Sapouy,Bittou,Garango,Zorgho,Boussé,Kouka,Mogtédo,Rambo,Yargo,Ouagadougou,Bobo-Dioulasso,Koudougou,Banfora,Ouahigouya,Dédougou,Nouna,Tougan,Djibo,Gorom-Gorom,Marka,Yako,Kongoussi,Kaya,Jongole,Kimilili,Garsen,Shilabo,Jasiira,Qardho,Merka,Ngao,Ekerenyo,Garissa,Farlibaax,Dhalwo,Eyl,Goobweyn,Rabai,Abatna,Adogka,Apubna,Akolbwe,Aikna,Amigka,Apedka,Afolka,Afodbwe,Abemna,Anugka,Adogna,Akonbwe,Afutna,Alogbwe,Gourmanchla,Gourmanchma,Gourmanchwa,Gourmanchra,Gourmanchka,GourmanchéSprings,GourmanchéCreek,GourmanchéRidge,GourmanchéHeights,GourmanchéFalls,GourmanchéBeach,GourmanchéPoint,GourmanchéBay,GourmanchéGrove,gourmanchSprings,gourmanchCreek,gourmanchRidge,gourmanchHeights,gourmanchFalls,gourmanchBeach,gourmanchPoint,gourmanchBay,gourmanchGrove"
 },
 {
     "name": "Tagwana",
@@ -1849,7 +1849,7 @@ window.africaNameBases = [
   "max": 19,
   "d": "lnrt",
   "m": 0,
-  "b": "Sikasso,Kadiolo,Lobougoula,Niena,Zanférébougou,Blendio,Kolonzo,Loulouni,Nkourala,Kafouziéla,Gongasso,Kignan,Finkolo,Finkolo Ganadougou,Sankarani,Tiémala-Banimonotié,Kouoro,Danderesso,Koumankou,M'Pessoba,Koungoba,Tomoni,N'Golonianasso,Kapolondougou,Sanzana,Vipingo,Konso,CeyrTabaan,Laasqoray,QansaxDheere,Garsen,Mumias,Malindi,Yavello,Guba,Xaafuun,Lanta,Ozi,Tindinyo,Masalani,Tagwanala,Tagwanama,Tagwanawa,Tagwanara,Tagwanaka,Tagwanata,Tagwanabwe,Tagwanasa,Tagwanana,Tagwanafa,Tagwanaga,Tagwanaja,Tagwanada,Tagwanane,Tagwanale,Tagwanare,Tagwanazi,Tagwanabo,Tagwanaki,Tagwanamu"
+  "b": "Sikasso,Kadiolo,Lobougoula,Niena,Zanférébougou,Blendio,Kolonzo,Loulouni,Nkourala,Kafouziéla,Gongasso,Kignan,Finkolo,Finkolo Ganadougou,Sankarani,Tiémala-Banimonotié,Kouoro,Danderesso,Koumankou,M'Pessoba,Koungoba,Tomoni,N'Golonianasso,Kapolondougou,Sanzana,Vipingo,Konso,CeyrTabaan,Laasqoray,Garsen,Mumias,Malindi,Yavello,Guba,Xaafuun,Lanta,Ozi,Tindinyo,Masalani,Tagwanala,Tagwanama,Tagwanawa,Tagwanara,Tagwanaka,Tagwanata,Tagwanabwe,Tagwanasa,Tagwanana,Tagwanafa,Tagwanaga,Tagwanaja,Tagwanada,Tagwanane,Tagwanale,Tagwanare,Tagwanazi,Tagwanabo,Tagwanaki,Tagwanamu,QansaxDheere"
 },
 {
     "name": "Tuwat Berber",
@@ -1867,7 +1867,7 @@ window.africaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Nouakchott,Nouadhibou,Kaédi,Rosso,Boghé,M'Bout,Sélibaby,Maghama,Mederdra,R'Kiz,Tidjikja,Akjoujt,Chami,Tevragh Zeina,Dar Naim,Sebkha,El Mina,Teyarett,Boutilimit,WaRosu,Mbagne,Sori,Mal,Bagondine,Dombo,Bakel,Kidira,Goudiry,Koumpentoum,Bala,Gaffal,Sinthiou Bamambé,Makarou,Sébikotane,Diourbel,Bambey,MBacke,Tivaouane,Kébémer,Linguère,Dahra,Dodji,Richard Toll,Ross Béthio,Dagana,Podor"
+  "b": "Nouakchott,Nouadhibou,Kaédi,Rosso,Boghé,M'Bout,Sélibaby,Maghama,Mederdra,R'Kiz,Tidjikja,Akjoujt,Chami,Tevragh Zeina,Dar Naim,Sebkha,Teyarett,Boutilimit,WaRosu,Mbagne,Sori,Mal,Bagondine,Dombo,Bakel,Kidira,Goudiry,Koumpentoum,Bala,Gaffal,Sinthiou Bamambé,Makarou,Sébikotane,Diourbel,Bambey,MBacke,Tivaouane,Kébémer,Linguère,Dahra,Dodji,Richard Toll,Ross Béthio,Dagana,Podor,El Mina"
 },
 {
     "name": "Vengo",
@@ -1885,10 +1885,10 @@ window.africaNameBases = [
   "max": 14,
   "d": "lnrt",
   "m": 0,
-  "b": "Ouagadougou,Bobo-Dioulasso,Koudougou,Banfora,Ouahigouya,Dédougou,Nouna,Tougan,Djibo,Gorom-Gorom,Marka,Yako,Kongoussi,Kaya,Fada N'Gourma,Gayeri,Leo,Sapouy,Bittou,Garango,Zorgho,Boussé,Kouka,Mogtédo,Rambo,Yargo,Kalokol,Harardera,Mahaday,Yeed,Kidimu,HomaBay,Kiunga,Kibish,GofKudle,Wanleweyn,Dolow,Gongoni,Bondo,Vipingo,Konso,Viemola,Viemoma,Viemowa,Viemora,Viemoka,Viemota,Viemobwe,Viemosa,Viemona,Viemofa,Viemoga,Viemoja,Viemoda,Viemone,Viemole,Viemore,Viemozi,Viemobo,Viemoki,Viemomu"
+  "b": "Ouagadougou,Bobo-Dioulasso,Koudougou,Banfora,Ouahigouya,Dédougou,Nouna,Tougan,Djibo,Gorom-Gorom,Marka,Yako,Kongoussi,Kaya,Fada N'Gourma,Gayeri,Leo,Sapouy,Bittou,Garango,Zorgho,Boussé,Kouka,Mogtédo,Rambo,Yargo,Kalokol,Harardera,Mahaday,Yeed,Kidimu,Kiunga,Kibish,Wanleweyn,Dolow,Gongoni,Bondo,Vipingo,Konso,Viemola,Viemoma,Viemowa,Viemora,Viemoka,Viemota,Viemobwe,Viemosa,Viemona,Viemofa,Viemoga,Viemoja,Viemoda,Viemone,Viemole,Viemore,Viemozi,Viemobo,Viemoki,Viemomu,HomaBay,GofKudle"
 },
 {
-    "name": "Viti", "i": 2060, "min": 4, "max": 12, "d": "lnrt", "m": 0, "b": "Jalingo,Wukari,Karim Lamido,Takum,Suntai,Gembu,Bali,Serti,Donga,Gashaka,Yola,Mubi,Madagali,Michika,Hong,Gombi,Song,Garkida,Guyaku,Boga,Numan,Demsa,Jimeta,Ganye,Jada,Omorate,Qoton,Afgoi,Beledhawo,Jamia,Siaya,Samburu,Ririba,Galolk,CeelAfweyn,Baidoa,Chara,Webuye,Kipini,Mega,Vitila,Vitima,Vitiwa,Vitira,Vitika,Vitita,Vitibwe,Vitisa,Vitina,Vitifa,Vitiga,Vitija,Vitida,Vitine,Vitile,Vitire,Vitizi,Vitibo,Vitiki,Vitimu"
+    "name": "Viti", "i": 2060, "min": 4, "max": 12, "d": "lnrt", "m": 0, "b": "Jalingo,Wukari,Karim Lamido,Takum,Suntai,Gembu,Bali,Serti,Donga,Gashaka,Yola,Mubi,Madagali,Michika,Hong,Gombi,Song,Garkida,Guyaku,Boga,Numan,Demsa,Jimeta,Ganye,Jada,Omorate,Qoton,Afgoi,Beledhawo,Jamia,Siaya,Ririba,Galolk,CeelAfweyn,Baidoa,Chara,Webuye,Kipini,Mega,Vitila,Vitima,Vitiwa,Vitira,Vitika,Vitita,Vitibwe,Vitisa,Vitina,Vitifa,Vitiga,Vitija,Vitida,Vitine,Vitile,Vitire,Vitizi,Vitibo,Vitiki,Vitimu,Abuja,Samburu"
 },
 {
     "name": "Vori",
@@ -1897,7 +1897,7 @@ window.africaNameBases = [
   "max": 13,
   "d": "lnrt",
   "m": 0,
-  "b": "Azare,Katagum,Misau,Ningi,Dass,Tafawa Balewa,Bununu,Lere,Potiskum,Dukku,Kaltungo,Shongom,Akko,Kwami,Billiri,Pindiga,Kumo,Fika,Bara,Deba,Banga,Kaltin,Kushi,Bogoro,Dadin Kowa,Bambam,Waja,Moyale,SaLul,Erigavo,Baardheere,Bwiti,Bungoma,Lamu,Imi,GeedWeen,Karindoolay,Gamey,Kipini,Nyakoe,Bura,Wachile,Vorila,Vorima,Voriwa,Vorira,Vorika,Vorita,Voribwe,Vorisa,Vorina,Vorifa,Voriga,Vorija,Vorida,Vorine,Vorile,Vorire,Vorizi,Voribo,Voriki,Vorimu"
+  "b": "Azare,Katagum,Misau,Ningi,Dass,Tafawa Balewa,Bununu,Lere,Potiskum,Dukku,Kaltungo,Shongom,Akko,Kwami,Billiri,Pindiga,Kumo,Fika,Bara,Deba,Banga,Kaltin,Kushi,Bogoro,Bambam,Waja,Moyale,SaLul,Erigavo,Baardheere,Bwiti,Bungoma,Lamu,Imi,GeedWeen,Karindoolay,Gamey,Kipini,Nyakoe,Bura,Wachile,Vorila,Vorima,Voriwa,Vorira,Vorika,Vorita,Voribwe,Vorisa,Vorina,Vorifa,Voriga,Vorija,Vorida,Vorine,Vorile,Vorire,Vorizi,Voribo,Voriki,Vorimu,Dadin Kowa"
 },
 {
     "name": "Voro",
@@ -1933,7 +1933,7 @@ window.africaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-  "b": "Maiduguri,Damaturu,Biu,Mubi,Konduga,Gwoza,Bama,Marte,Monguno,Ngala,Dikwa,Kukawa,Kousseri,Marafa,Waza,Gamboru,Logone-Birni,Hina,Mora,Balda,Makary,Kousséri,Damboa,Gulak,Madagali,Kiunga,Kibish,GofKudle,Wanleweyn,Dolow,Gongoni,Bondo,Vipingo,Konso,CeyrTabaan,Laasqoray,QansaxDheere,Garsen,Mumias,Malindi,Apamna,Amitwa,Apugla,Adisna,Abina,Aorwa,Adamwa,Aketna,Amiwa,Akarna,Alurla,Amobna,Anelna,Apakwa,Alisna,Kanurila,Kanurima,Kanuriwa,Kanurira,Kanurika"
+  "b": "Biu,Mubi,Konduga,Gwoza,Bama,Marte,Monguno,Ngala,Dikwa,Kukawa,Kousseri,Marafa,Waza,Gamboru,Logone-Birni,Hina,Mora,Balda,Makary,Kousséri,Damboa,Gulak,Madagali,Kiunga,Kibish,Wanleweyn,Dolow,Gongoni,Bondo,Vipingo,Konso,CeyrTabaan,Laasqoray,Garsen,Mumias,Malindi,Apamna,Amitwa,Apugla,Adisna,Abina,Aorwa,Adamwa,Aketna,Amiwa,Akarna,Alurla,Amobna,Anelna,Apakwa,Alisna,Kanurila,Kanurima,Kanuriwa,Kanurira,Kanurika,Algiers,Oran,Maiduguri,Damaturu,GofKudle,QansaxDheere"
 },
 {
     "name": "Kutep",
@@ -1942,7 +1942,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Takum,Ussa,Yangtu,Jibu,Kente,Mbarike,Chan,Ripande,Bete,Kurmi,Gaanda,Doemak,Kpati,Shoo,Manden,Bali,Gashaka,Serti,Donga,Karim Lamido,CangLong,LapVo,Lijiang,TuyAnh,GoCongTay,Mengla,ThuongDuc,Thoeng,MuangSai,XuanLoc,MaeCharim,TienYen,BinhLong,PongPrasat,DongXoai,Anatnagar,Adednagar,Afedghat,Afulnagar,Amaghat,Akebnagar,Adanagar,Aumghat,Anemghat,Amasghat,Amamnagar,Adunghat,Akilnagar,Adolghat,Aakghat,Kumaonipur,Kumaoninagar,Kumaonibad,Kumaonikot,Kumaoniwada"
+  "b": "Takum,Ussa,Yangtu,Jibu,Kente,Mbarike,Chan,Ripande,Bete,Kurmi,Gaanda,Doemak,Kpati,Shoo,Manden,Bali,Gashaka,Serti,Donga,Karim Lamido,Tamale,Bouaké,Saint-Louis,Thiès,Kaolack,Ziguinchor,Touba,Ségou,Sikasso,Mopti,Timbuktu,Gao,Bobo-Dioulasso,Kindia,Kankan,Nzérékoré,Porto-Novo,Parakou,Sokodé,Kara,CangLong,LapVo,Lijiang,TuyAnh,GoCongTay,Mengla,ThuongDuc,Thoeng,MuangSai,XuanLoc,MaeCharim,TienYen,BinhLong,PongPrasat,DongXoai,Anatnagar,Adednagar,Afedghat,Afulnagar,Amaghat,Akebnagar,Adanagar,Aumghat,Anemghat,Amasghat,Amamnagar,Adunghat,Akilnagar,Adolghat,Aakghat,Kumaonipur,Kumaoninagar,Kumaonibad,Kumaonikot,Kumaoniwada"
 },
 {
     "name": "Kuria",
@@ -1951,7 +1951,7 @@ window.africaNameBases = [
   "max": 15,
   "d": "lnrt",
   "m": 0,
-  "b": "Migori,Kisii,Nyamira,Bondo,Siaya,Kisumu,Busia,Vihiga,Kakamega,Bungoma,Trans Nzoia,Elgeyo-Marakwet,Nandi,Uasin Gishu,Baringo,Nakuru,Laikipia,Narok,Kajiado,Machakos,Makueni,Kitui,Embu,Meru,Tharaka-Njiru,Isiolo,Mandera,Marsabit,Turkana,West Pokot,Samburu,Dimeka,Sablaale,Yubbe,Huddur,Mikinduni,Kakamega,Kaloleni,Arero,Cagaaran,Ufeyn,Dinsor,Jongole,Kimilili,Garsen,Shilabo,Afoma,Adidma,Akumsa,Amissa,Abubma,Amunfa,Akursa,Apidma,Aedsa,Aamsa,Aatma,Abudfa,Anassa,Afumsa,Anumfa,Kikuyula,Kikuyuma,Kikuyuwa,Kikuyura,Kikuyuka"
+  "b": "Migori,Kisii,Nyamira,Bondo,Siaya,Kisumu,Busia,Vihiga,Kakamega,Bungoma,Trans Nzoia,Elgeyo-Marakwet,Nandi,Uasin Gishu,Baringo,Laikipia,Narok,Kajiado,Machakos,Makueni,Kitui,Embu,Meru,Tharaka-Njiru,Isiolo,Mandera,Marsabit,Turkana,Dimeka,Sablaale,Yubbe,Huddur,Mikinduni,Kaloleni,Arero,Cagaaran,Ufeyn,Dinsor,Jongole,Kimilili,Garsen,Shilabo,Afoma,Adidma,Akumsa,Amissa,Abubma,Amunfa,Akursa,Apidma,Aedsa,Aamsa,Aatma,Abudfa,Anassa,Afumsa,Anumfa,Kikuyula,Kikuyuma,Kikuyuwa,Kikuyura,Kikuyuka,Cape Coast,Yamoussoukro,Dakar,Nakuru,West Pokot,Samburu"
 },
 {
     "name": "Kurama",
@@ -1960,7 +1960,7 @@ window.africaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-  "b": "Zaria,Katsina,Dutse,Gusau,Birnin Kebbi,Argungu,Daura,Hadejia,Gumel,Maiduguri,Damaturu,Yola,Jimeta,Biu,Mubi,Keffi,Lafia,Akwanga,Awe,Keana,Oto,Doma,Obi,Agatu,Otukpo,Ugbokpo,Gboko,PhanRang,BinhChanh,Long,TraOn,TamNong,Yongsheng,CheoReo,BaTri,Shuangjiang,DucCo,MaeSai,PakLai,CatTien,WiangChai,LangSon,Anabnagar,Alosnagar,Ameknagar,Afadkonda,Adamkonda,Abeguru,Aluskonda,Alimnagar,Ameturu,Amadkonda,Aderuru,Amibkonda,Alinagar,Adudnagar,Anurkonda,KhamniganMongolpur,KhamniganMongolnagar,KhamniganMongolbad,KhamniganMongolkot,KhamniganMongolwada"
+  "b": "Zaria,Katsina,Dutse,Gusau,Birnin Kebbi,Argungu,Daura,Hadejia,Gumel,Yola,Jimeta,Biu,Mubi,Keffi,Lafia,Akwanga,Awe,Keana,Oto,Doma,Obi,Agatu,Otukpo,Ugbokpo,Gboko,Long,Yongsheng,Bamako,Ouagadougou,Conakry,Accra,Kumasi,Abidjan,Lomé,Cotonou,Lagos,Kano,Ibadan,Abuja,Tamale,Bouaké,Saint-Louis,Thiès,Kaolack,Ziguinchor,Touba,Ségou,Sikasso,Mopti,Maiduguri,Damaturu,PhanRang,BinhChanh,TraOn,TamNong,CheoReo,BaTri,Shuangjiang,DucCo,MaeSai,PakLai,CatTien,WiangChai,LangSon,Anabnagar,Alosnagar,Ameknagar,Afadkonda,Adamkonda,Abeguru,Aluskonda,Alimnagar,Ameturu,Amadkonda,Aderuru,Amibkonda,Alinagar,Adudnagar,Anurkonda,KhamniganMongolpur,KhamniganMongolnagar,KhamniganMongolbad,KhamniganMongolkot,KhamniganMongolwada"
 },
 {
     "name": "Mala",
@@ -1969,7 +1969,7 @@ window.africaNameBases = [
   "max": 13,
   "d": "lnrt",
   "m": 0,
-  "b": "Azare,Katagum,Misau,Ningi,Dass,Tafawa Balewa,Bununu,Lere,Potiskum,Dukku,Kaltungo,Shongom,Akko,Kwami,Billiri,Pindiga,Kumo,Fika,Bara,Deba,Banga,Kaltin,Kushi,Bogoro,Dadin Kowa,Bambam,Waja,CanGiuoc,Longling,KienGiang,TraVinh,Gongshan,ChuSe,CaiBe,Udomxai,DonDuong,Santikhiri,PakMong,PhuocAn,Pua,CaMau,ThuDauMot,Monpur,Monnagar,Monbad,Monkot,Monwada,Monghat,Monpalli,Monkonda,Monpeta,Monuru,Monuri,Monooru,Mongiri,NagarMon,Monbari,Monganj,Monbazar,Monbandar,Mongram,PalliMon"
+  "b": "Azare,Katagum,Misau,Ningi,Dass,Tafawa Balewa,Bununu,Lere,Potiskum,Dukku,Kaltungo,Shongom,Akko,Kwami,Billiri,Pindiga,Kumo,Fika,Bara,Deba,Banga,Kaltin,Kushi,Bogoro,Bambam,Waja,Timbuktu,Gao,Bobo-Dioulasso,Kindia,Kankan,Nzérékoré,Porto-Novo,Parakou,Sokodé,Kara,Cape Coast,Yamoussoukro,Dakar,Bamako,Ouagadougou,Conakry,Accra,Dadin Kowa,CanGiuoc,Longling,KienGiang,TraVinh,Gongshan,ChuSe,CaiBe,Udomxai,DonDuong,Santikhiri,PakMong,PhuocAn,Pua,CaMau,ThuDauMot,Monpur,Monnagar,Monbad,Monkot,Monwada,Monghat,Monpalli,Monkonda,Monpeta,Monuru,Monuri,Monooru,Mongiri,NagarMon,Monbari,Monganj,Monbazar,Monbandar,Mongram,PalliMon"
 },
 {
   "name": "Mambila",
@@ -1978,7 +1978,7 @@ window.africaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-  "b": "Gembu,Kakara,Tissa,Mayo-Jeldi,Mayo-Bwa-Ouro,Sonkolong,Pakur,Timliyo,Vonkoila,Kirdiwa,Bakemi,Bangwa,Furu-Awa,Bali-Tona,Mbiti,Mbongko,Misson,Taben,Miyem,Vamende,Dongo-Fan,Jonga,Fatim,Mantiko,Chiluako,Dzandu,Liwai,Nafu,Rosma,Rafang"
+  "b": "Gembu,Kakara,Tissa,Mayo-Jeldi,Mayo-Bwa-Ouro,Sonkolong,Pakur,Timliyo,Vonkoila,Kirdiwa,Bakemi,Bangwa,Furu-Awa,Mbiti,Mbongko,Misson,Taben,Miyem,Vamende,Dongo-Fan,Jonga,Fatim,Mantiko,Chiluako,Dzandu,Liwai,Nafu,Rosma,Rafang,Bali-Tona"
 },
 {
   "name": "Mangbetu",
@@ -1987,7 +1987,7 @@ window.africaNameBases = [
   "max": 13,
   "d": "lnrt",
   "m": 0,
-  "b": "Isiro,Bumba,Gemena,Kabinda,Kasongo-Lunda,Kenge,Kasangulu,Kikwit,Mwene-Ditu,Tshikapa,Uvira,Bukavu,Goma,Butembo,Beni,Luozi,Kamina,Kongolo,Manono,Malemba-Nkulu,Kisangani,Bunia,Watsa,Matadi,Abuku,Andoma,Nangazila,Mongo,Nyerere,Kumba,TanThanh,Changning,ALuoi,CangLong,Menglian,NgocHoi,TanPhuoc,XiengKhouang,Prem,Fang,SonLa,PhuGiao,Sapan,TraVinh,TanUyen,Adidpalli,Akodpalli,Adaspalli,Anekpalli,Adekpur,Afadpeta,Adolpur,Akugpur,Aampeta,Aogpalli,Anumpalli,Akenpalli,Akikpalli,Adopur,Amadpeta,Kumhalipur,Kumhalinagar,Kumhalibad,Kumhalikot,Kumhaliwada"
+  "b": "Isiro,Bumba,Gemena,Kabinda,Kasongo-Lunda,Kenge,Kasangulu,Kikwit,Mwene-Ditu,Tshikapa,Uvira,Bukavu,Goma,Butembo,Beni,Luozi,Kamina,Kongolo,Manono,Malemba-Nkulu,Kisangani,Bunia,Watsa,Matadi,Abuku,Andoma,Nangazila,Mongo,Nyerere,Kumba,Menglian,TanUyen,Kumasi,Abidjan,Lomé,Cotonou,Lagos,Kano,Ibadan,Abuja,Tamale,Bouaké,Saint-Louis,Thiès,Kaolack,Ziguinchor,Touba,Ségou,Sikasso,Mopti,Timbuktu,Gao,TanThanh,Changning,ALuoi,CangLong,NgocHoi,TanPhuoc,XiengKhouang,Prem,Fang,SonLa,PhuGiao,Sapan,TraVinh,Adidpalli,Akodpalli,Adaspalli,Anekpalli,Adekpur,Afadpeta,Adolpur,Akugpur,Aampeta,Aogpalli,Anumpalli,Akenpalli,Akikpalli,Adopur,Amadpeta,Kumhalipur,Kumhalinagar,Kumhalibad,Kumhalikot,Kumhaliwada"
 },
 {
     "name": "Krio",
@@ -1996,7 +1996,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Freetown,Bo,Kenema,Makeni,Koidu,Tonkolili,Waterloo,Port Loko,Moyamba,Boffa,Kissidougou,Labé,Kindia,Mamou,Kankan,Siguiri,Boke,Gueckedou,Lola,Nzérékoré,Youmou,Beyla,Macenta,Dinguiraye,Faranah,Salkaxo,Garowe,Janaale,Kaloleni,Masige,ArchersPost,RasKamboni,Deynile,Hobyo,Kudhaa,Shimba,Tabaka,Marsabit,Murcanyo,Buqda,Aokta,Arara,Ainta,Adagra,Anirma,Analta,Apakra,Ababta,Alelma,Alobta,Abirta,Aabma,Aboma,Anikta,Apesma,Kriola,Krioma,Kriowa,Kriora,Krioka"
+  "b": "Bo,Kenema,Makeni,Koidu,Tonkolili,Waterloo,Port Loko,Moyamba,Boffa,Kissidougou,Labé,Kindia,Mamou,Kankan,Siguiri,Boke,Gueckedou,Lola,Nzérékoré,Youmou,Beyla,Macenta,Dinguiraye,Faranah,Salkaxo,Garowe,Janaale,Kaloleni,Masige,ArchersPost,RasKamboni,Deynile,Hobyo,Kudhaa,Shimba,Tabaka,Marsabit,Murcanyo,Buqda,Aokta,Arara,Ainta,Adagra,Anirma,Analta,Apakra,Ababta,Alelma,Alobta,Abirta,Aabma,Aboma,Anikta,Apesma,Kriola,Krioma,Kriowa,Kriora,Krioka,Bobo-Dioulasso,Freetown"
 },
 {
     "name": "Mankon",
@@ -2005,7 +2005,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bamenda,Nkambe,Wum,Mfundi,Babanki,Kom,Oku,Bafoussam,Bangante,Bandjoun,Baham,Bamendjou,Batcham,Bana,Bafou,Batoufam,Bamougoum,Bamessingue,Bangangté,Bafang,Bangwa,Bamunka,Bambalang,Bambui,Bambili,Bamukumbit,Bamum,Heqing,AyunPa,GiongTrom,Lincang,ChuPro,Tachilek,Sayabury,DaHuoai,PaDaet,CaoBang,BuDang,NaNoi,PhanRang,BinhChanh,Long,Abogghat,Areghat,Apunnagar,Amotghat,Anukot,Anidnagar,Aerghat,Apegghat,Abibnagar,Anebghat,Apalghat,Ababghat,Aunghat,Adurkot,Adogghat,Kumalpur,Kumalnagar,Kumalbad,Kumalkot,Kumalwada"
+  "b": "Bamenda,Nkambe,Wum,Mfundi,Babanki,Kom,Oku,Bafoussam,Bangante,Bandjoun,Baham,Bamendjou,Batcham,Bana,Bafou,Batoufam,Bamougoum,Bamessingue,Bangangté,Bafang,Bangwa,Bamunka,Bambalang,Bambui,Bambili,Bamukumbit,Bamum,Long,Kindia,Kankan,Nzérékoré,Porto-Novo,Parakou,Sokodé,Kara,Cape Coast,Yamoussoukro,Dakar,Bamako,Ouagadougou,Conakry,Accra,Kumasi,Abidjan,Lomé,Cotonou,Lagos,Kano,Heqing,AyunPa,GiongTrom,Lincang,ChuPro,Tachilek,Sayabury,DaHuoai,PaDaet,CaoBang,BuDang,NaNoi,PhanRang,BinhChanh,Abogghat,Areghat,Apunnagar,Amotghat,Anukot,Anidnagar,Aerghat,Apegghat,Abibnagar,Anebghat,Apalghat,Ababghat,Aunghat,Adurkot,Adogghat,Kumalpur,Kumalnagar,Kumalbad,Kumalkot,Kumalwada"
 },
 {
     "name": "Zenati Berber",
@@ -2014,7 +2014,7 @@ window.africaNameBases = [
   "max": 14,
   "d": "lnrt",
   "m": 0,
-  "b": "Oran,Sidi Bel Abbes,Tlemcen,Naama,El Bayadh,Figuig,Béchar,Adrar,Tindouf,Timimoun,Beni Ounif,Aïn Sefra,Mecheria,Bou Saada,M'sila,Biskra,El Oued,Ghardaia,Laghouat,Djelfa,Medea,Blida,Algiers,Constantine,Annaba,Xaafuun,Lanta,Ozi,Tindinyo,Masalani,ElKere,Garawe,Bargaal,Afgooye,Malindi,Sengera,ElBur,AbudWaaq,Kabxan,Gaalkacyo,ZenatiBerberla,ZenatiBerberma,ZenatiBerberwa,ZenatiBerberra,ZenatiBerberka,ZenatiBerberta,ZenatiBerberbwe,ZenatiBerbersa,ZenatiBerberna,ZenatiBerberfa,ZenatiBerberga,ZenatiBerberja,ZenatiBerberda,ZenatiBerberne,ZenatiBerberle,ZenatiBerberre,ZenatiBerberzi,ZenatiBerberbo,ZenatiBerberki,ZenatiBerbermu"
+  "b": "Oran,Sidi Bel Abbes,Tlemcen,Naama,El Bayadh,Figuig,Béchar,Adrar,Tindouf,Timimoun,Beni Ounif,Aïn Sefra,Mecheria,Bou Saada,M'sila,Biskra,El Oued,Ghardaia,Laghouat,Djelfa,Medea,Blida,Algiers,Constantine,Annaba,Xaafuun,Lanta,Ozi,Tindinyo,Masalani,Garawe,Bargaal,Afgooye,Malindi,Sengera,ElBur,AbudWaaq,Kabxan,Gaalkacyo,ElKere,ZenatiBerberla,ZenatiBerberma,ZenatiBerberwa,ZenatiBerberra,ZenatiBerberka,ZenatiBerberta,ZenatiBerberbwe,ZenatiBerbersa,ZenatiBerberna,ZenatiBerberfa,ZenatiBerberga,ZenatiBerberja,ZenatiBerberda,ZenatiBerberne,ZenatiBerberle,ZenatiBerberre,ZenatiBerberzi,ZenatiBerberbo,ZenatiBerberki,ZenatiBerbermu"
 },
 {
     "name": "Wapan",
@@ -2032,7 +2032,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Freetown,Bo,Kenema,Makeni,Koidu,Tonkolili,Waterloo,Port Loko,Moyamba,Boffa,Kissidougou,Labé,Kindia,Mamou,Kankan,Siguiri,Boke,Gueckedou,Lola,Nzérékoré,Youmou,Beyla,Macenta,Dinguiraye,Faranah,Garissa,Farlibaax,Dhalwo,Eyl,Goobweyn,Rabai,Manga,Merti,Hula,Kaxare,Bacadweyn,Burdhubo,Samburu,Ogembo,SouthHorr,Amelna,Apukna,Aninla,Apimla,Akarwa,Adina,Amilwa,Alelna,Amobwa,Aferwa,Anabna,Akana,Abenwa,Anogwa,Adubwa,Limbala,Limbama,Limbawa,Limbara,Limbaka"
+  "b": "Bo,Kenema,Makeni,Koidu,Tonkolili,Waterloo,Port Loko,Moyamba,Boffa,Kissidougou,Labé,Kindia,Mamou,Kankan,Siguiri,Boke,Gueckedou,Lola,Nzérékoré,Youmou,Beyla,Macenta,Dinguiraye,Faranah,Garissa,Farlibaax,Dhalwo,Eyl,Goobweyn,Rabai,Manga,Merti,Hula,Kaxare,Bacadweyn,Burdhubo,Ogembo,SouthHorr,Amelna,Apukna,Aninla,Apimla,Akarwa,Adina,Amilwa,Alelna,Amobwa,Aferwa,Anabna,Akana,Abenwa,Anogwa,Adubwa,Limbala,Limbama,Limbawa,Limbara,Limbaka,Ibadan,Abuja,Freetown,Samburu"
 },
 {
     "name": "Wushi",
@@ -2059,7 +2059,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Jos,Bukuru,Riyom,Mangu,Bokkos,Pankshin,Shendam,Langtang,Wase,Keffi,Lafia,Akwanga,Awe,Keana,Oto,Doma,Obi,Agatu,Otukpo,Ugbokpo,Gboko,Aliade,Vandeikya,Katsina-Ala,Zaki Biam,Mandarintown,Mandarinville,Mandarinburg,Mandarinview,Mandarinside,Mandarinport,Mandarinland,Mandarinwood,Mandarinford,Mandarinbridge,Mandarinfield,Mandaringrove,Mandarinhaven,Mandarinbrook,Mandarinshire,Mandarinstead,Mandarindale,Mandarincrest,Mandarinpoint,Mandarinspring"
+  "b": "Jos,Riyom,Mangu,Bokkos,Pankshin,Shendam,Langtang,Wase,Keffi,Lafia,Akwanga,Awe,Keana,Oto,Doma,Obi,Agatu,Otukpo,Ugbokpo,Gboko,Aliade,Vandeikya,Katsina-Ala,Zaki Biam,Mandarinport,Mandarinford,Mandarinbridge,Mandarinfield,Mandaringrove,Mandarinhaven,Mandarinbrook,Mandarinshire,Mandarinstead,Mandarindale,Mandarincrest,Mandarinpoint,Mandarinspring,Tamale,Bouaké,Saint-Louis,Thiès,Kaolack,Ziguinchor,Touba,Ségou,Bukuru,Mandarintown,Mandarinville,Mandarinburg,Mandarinview,Mandarinside,Mandarinland,Mandarinwood"
 },
 {
     "name": "Air Tamajeq",
@@ -2068,7 +2068,7 @@ window.africaNameBases = [
   "max": 14,
   "d": "lnrt",
   "m": 0,
-  "b": "Agadez,Arlit,Tchirozerine,In-Gall,Tahoua,Maradi,Zinder,Dosso,Niamey,Gao,Tombouctou,Timbuktu,Diré,Gourma-Rharous,Rharcuss,Ténenkou,Niafunké,Bourem,Léré,Ansongo,Kisangani,Bunia,Beni,Butembo,Watsa,Lowarengak,Baardheere,Kaxare,Maraag,KenduBay,Vanga,Ikerege,Gamey,Nyaribari,Dhuusamareeb,Dhalwo,Murcanyo,Mkonumbi,Barich,Harardhere,Amabla,Alelka,Akokwa,Akagka,Amonla,Apebla,Afuka,Anokwa,Afidka,Abimla,Apisla,Apika,Aporwa,Auska,Afella,AirTamajeqla,AirTamajeqma,AirTamajeqwa,AirTamajeqra,AirTamajeqka"
+  "b": "Agadez,Arlit,Tchirozerine,In-Gall,Tahoua,Maradi,Zinder,Dosso,Niamey,Gao,Tombouctou,Timbuktu,Diré,Gourma-Rharous,Rharcuss,Ténenkou,Niafunké,Bourem,Léré,Ansongo,Kisangani,Bunia,Beni,Butembo,Watsa,Lowarengak,Baardheere,Kaxare,Maraag,Vanga,Ikerege,Gamey,Nyaribari,Dhuusamareeb,Dhalwo,Murcanyo,Mkonumbi,Barich,Harardhere,Amabla,Alelka,Akokwa,Akagka,Amonla,Apebla,Afuka,Anokwa,Afidka,Abimla,Apisla,Apika,Aporwa,Auska,Afella,KenduBay,AirTamajeqla,AirTamajeqma,AirTamajeqwa,AirTamajeqra,AirTamajeqka"
 },
 {
     "name": "Nam",
@@ -2077,7 +2077,7 @@ window.africaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-  "b": "Jalingo,Wukari,Karim Lamido,Takum,Suntai,Gembu,Bali,Serti,Donga,Gashaka,Kisangani,Bunia,Beni,Butembo,Watsa,Isiro,Matadi,Boma,Mbandaka,Bumba,Lisala,Basankusu,Bolomba,Bomongo,Ngaoundéré,Namtown,Namville,Namburg,Namview,Namside,Namport,Namland,Namwood,Namford,Nambridge,Namfield,Namgrove,Namhaven,Nambrook,Namshire,Namstead,Namdale,Namcrest,Nampoint,Namspring"
+  "b": "Jalingo,Wukari,Karim Lamido,Takum,Suntai,Gembu,Bali,Serti,Donga,Gashaka,Kisangani,Bunia,Beni,Butembo,Watsa,Isiro,Matadi,Boma,Mbandaka,Bumba,Lisala,Basankusu,Bolomba,Bomongo,Ngaoundéré,Namport,Namford,Nambridge,Namfield,Namgrove,Namhaven,Nambrook,Namshire,Namstead,Namdale,Namcrest,Nampoint,Namspring,Sikasso,Mopti,Timbuktu,Gao,Bobo-Dioulasso,Kindia,Kankan,namSprings,namCreek,namRidge,namHeights,namFalls,namBeach,namPoint,namBay,namGrove,Namtown,Namville,Namburg,Namview,Namside,Namland,Namwood"
 },
 {
     "name": "Mundu",
@@ -2086,7 +2086,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Yambio,Nzara,Tambura,Bangassou,Bria,Doruma,Gambo,Obo,Birao,Bambouti,Dembo,Kapoeta,Torit,Juba,Bor,Nimule,Lafon,Pibor,Boma,Mundri,Lainya,Raja,Akobo,Wau,Yei,Maridi,Ezo,Nagero,Mondzishtown,Mondzishville,Mondzishburg,Mondzishview,Mondzishside,Mondzishport,Mondzishland,Mondzishwood,Mondzishford,Mondzishbridge,Mondzishfield,Mondzishgrove,Mondzishhaven,Mondzishbrook,Mondzishshire,Mondzishstead,Mondzishdale,Mondzishcrest,Mondzishpoint,Mondzishspring"
+  "b": "Yambio,Nzara,Tambura,Bangassou,Bria,Doruma,Gambo,Obo,Birao,Bambouti,Dembo,Kapoeta,Torit,Juba,Bor,Nimule,Lafon,Pibor,Boma,Mundri,Lainya,Raja,Akobo,Wau,Yei,Maridi,Ezo,Nagero,Mondzishport,Mondzishford,Mondzishbridge,Mondzishfield,Mondzishgrove,Mondzishhaven,Mondzishbrook,Mondzishshire,Mondzishstead,Mondzishdale,Mondzishcrest,Mondzishpoint,Mondzishspring,Nzérékoré,Porto-Novo,Parakou,Sokodé,Kara,Cape Coast,Yamoussoukro,Mondzishtown,Mondzishville,Mondzishburg,Mondzishview,Mondzishside,Mondzishland,Mondzishwood"
 },
 {
     "name": "Mandinka",
@@ -2113,7 +2113,7 @@ window.africaNameBases = [
   "max": 14,
   "d": "lnrt",
   "m": 0,
-  "b": "Arba Minch,Bonga,Tepi,Mizan Teferi,Gore,Metu,Jimma,Agaro,Bedele,Sebeta,Durame,Kacha Bira,Wacha,Shishinda,Bench Maji,Meinit,Meinit Goldiya,Keffa,Sheka,Bench Sheko,Kisangani,Bunia,Beni,Butembo,Watsa,Dheer,Mogadishu,Dolow,SuufTogdheer,Mega,Warsheikh,Laascaanood,Goldogob,Baladweyne,Gandarshe,Baydhaba,Abudwaq,Wanlaweyn,Xarardheere,Goobweyn,Afolre,Aegke,Abonwe,Adebre,Alulre,Apitwe,Afegke,Aanwe,Amabre,Alalre,Akakwe,Akedke,Amimwe,Aputre,Adegre,Oromole,Oromore,Oromone,Oromoke,Oromohe"
+  "b": "Arba Minch,Bonga,Tepi,Mizan Teferi,Gore,Metu,Jimma,Agaro,Bedele,Sebeta,Durame,Wacha,Shishinda,Bench Maji,Meinit,Meinit Goldiya,Keffa,Sheka,Bench Sheko,Kisangani,Bunia,Beni,Butembo,Watsa,Dheer,Mogadishu,Dolow,SuufTogdheer,Mega,Warsheikh,Laascaanood,Goldogob,Baladweyne,Gandarshe,Baydhaba,Abudwaq,Wanlaweyn,Xarardheere,Goobweyn,Afolre,Aegke,Abonwe,Adebre,Alulre,Apitwe,Afegke,Aanwe,Amabre,Alalre,Akakwe,Akedke,Amimwe,Aputre,Adegre,Oromole,Oromore,Oromone,Oromoke,Oromohe,Kacha Bira"
 },
 {
     "name": "Gamo-Gofa-Dawro",
@@ -2122,10 +2122,10 @@ window.africaNameBases = [
   "max": 14,
   "d": "lnrt",
   "m": 0,
-  "b": "Arba Minch,Bonga,Tepi,Mizan Teferi,Gore,Metu,Jimma,Agaro,Bedele,Sebeta,Durame,Kacha Bira,Wacha,Shishinda,Bench Maji,Meinit,Meinit Goldiya,Keffa,Sheka,Bench Sheko,Kisangani,Bunia,Beni,Butembo,Watsa"
+  "b": "Arba Minch,Bonga,Tepi,Mizan Teferi,Gore,Metu,Jimma,Agaro,Bedele,Sebeta,Durame,Wacha,Shishinda,Bench Maji,Meinit,Meinit Goldiya,Keffa,Sheka,Bench Sheko,Kisangani,Bunia,Beni,Butembo,Watsa,Kacha Bira"
 },
 {
-    "name": "Nyangatom", "i": 2647, "min": 4, "max": 12, "d": "lnrt", "m": 0, "b":"Konso,Turmi,Jinka,Hamer,Banna,Arbore,Mursi,Surma,Dime,Bench,Sheko,Me'en,Nyangatom,Daasanach,Arba Minch,Hawassa,Dilla,Sodo,Wolaita Sodo,Gamo,Gofa,Bench Maji,Keffa,Sheka,Chencha,Gawwada,Zayse,Kachama,Hozo,Mareqo,Waamo,Giohar,Guriceel,Selina,Sindo,Galole,Kalokol,Harardera,Mahaday,Yeed,Kidimu,HomaBay,Kiunga,Kibish,GofKudle,Aibla,Aolna,Abambwe,Amitla,Afodna,Anumla,Aomna,Adorbwe,Akunbwe,Apadbwe,Afobwe,Akosna,Afirla,Adanla,Afilbwe,Ndebelela,Ndebelema,Ndebelewa,Ndebelera,Ndebeleka"
+    "name": "Nyangatom", "i": 2647, "min": 4, "max": 12, "d": "lnrt", "m": 0, "b": "Konso,Turmi,Jinka,Hamer,Banna,Arbore,Mursi,Surma,Dime,Bench,Sheko,Me'en,Nyangatom,Daasanach,Arba Minch,Hawassa,Dilla,Sodo,Wolaita Sodo,Gamo,Gofa,Bench Maji,Keffa,Sheka,Chencha,Gawwada,Zayse,Kachama,Hozo,Mareqo,Waamo,Giohar,Guriceel,Selina,Sindo,Galole,Kalokol,Harardera,Mahaday,Yeed,Kidimu,Kiunga,Kibish,Aibla,Aolna,Abambwe,Amitla,Afodna,Anumla,Aomna,Adorbwe,Akunbwe,Apadbwe,Afobwe,Akosna,Afirla,Adanla,Afilbwe,Ndebelela,Ndebelema,Ndebelewa,Ndebelera,Ndebeleka,HomaBay,GofKudle"
 },
 {
     "name": "Avikam",
@@ -2143,7 +2143,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Freetown,Bo,Kenema,Makeni,Koidu,Tonkolili,Waterloo,Port Loko,Moyamba,Boffa,Kissidougou,Labé,Kindia,Mamou,Kankan,Siguiri,Boke,Gueckedou,Lola,Nzérékoré,Youmou,Beyla,Macenta,Dinguiraye,Faranah,Kidimu,Tiyeglow,Faza,Ririba,Kibish,CeyrTabaan,Adale,Jalalaqsi,Wangwana,Dimeka,GeedWeen,BuloBurde,Tindinyo,Jowhaar,Loyangalani,Afimka,Abotna,Ababwe,Abirna,Adadka,Alomka,Apesna,Akabwe,Aunna,Amubka,Alulka,Akukna,Akagbwe,Amenna,Aposka,LaAku,Akuma,Akuwa,Akura,Akuka"
+  "b": "Bo,Kenema,Makeni,Koidu,Tonkolili,Waterloo,Port Loko,Moyamba,Boffa,Kissidougou,Labé,Kindia,Mamou,Kankan,Siguiri,Boke,Gueckedou,Lola,Nzérékoré,Youmou,Beyla,Macenta,Dinguiraye,Faranah,Kidimu,Tiyeglow,Faza,Ririba,Kibish,CeyrTabaan,Adale,Jalalaqsi,Wangwana,Dimeka,GeedWeen,BuloBurde,Tindinyo,Jowhaar,Loyangalani,Afimka,Abotna,Ababwe,Abirna,Adadka,Alomka,Apesna,Akabwe,Aunna,Amubka,Alulka,Akukna,Akagbwe,Amenna,Aposka,LaAku,Akuma,Akuwa,Akura,Akuka,Dakar,Freetown"
 },
 {
     "name": "Bete",
@@ -2155,10 +2155,10 @@ window.africaNameBases = [
   "b": "Daloa,Issia,Vavoua,Zuénoula,Bouaflé,Gagnoa,Oumé,Guibéroua,Tiapoumé,Bédiala,Bolgoua,Bazré,Danané,Biankouma,Man,Touba,Odienné,Bouna,Bangolo,Tengréla,Bondoukou,Sandégué,Tanda,Zouan-Hounien,Gbangbégouiné"
 },
 {
-    "name": "Hamer", "i": 3125, "min": 4, "max": 12, "d": "lnrt", "m": 0, "b":"Turmi,Jinka,Hamer,Banna,Arbore,Mursi,Surma,Dime,Bench,Sheko,Me'en,Nyangatom,Daasanach,Arba Minch,Konso,Hawassa,Dilla,Sodo,Wolaita Sodo,Gamo,Gofa,Bench Maji,Keffa,Sheka,Chencha,Gawwada,Zayse,Kachama,Hozo,Mareqo,CeyrTabaan,Laasqoray,QansaxDheere,Garsen,Mumias,Malindi,Yavello,Guba,Xaafuun,Lanta,Ozi,Tindinyo,Masalani,ElKere,Garawe,Abadwa,Abutwa,Alurna,Apodwa,Akimla,Aetwa,Anana,Alarna,Akebwa,Alilla,Apudna,Afemna,Anutwa,Afigla,Abanwa,Hamerla,Hamerma,Hamerwa,Hamerra,Hamerka"
+    "name": "Hamer", "i": 3125, "min": 4, "max": 12, "d": "lnrt", "m": 0, "b": "Turmi,Jinka,Hamer,Banna,Arbore,Mursi,Surma,Dime,Bench,Sheko,Me'en,Nyangatom,Daasanach,Arba Minch,Konso,Hawassa,Dilla,Sodo,Wolaita Sodo,Gamo,Gofa,Bench Maji,Keffa,Sheka,Chencha,Gawwada,Zayse,Kachama,Hozo,Mareqo,CeyrTabaan,Laasqoray,Garsen,Mumias,Malindi,Yavello,Guba,Xaafuun,Lanta,Ozi,Tindinyo,Masalani,Garawe,Abadwa,Abutwa,Alurna,Apodwa,Akimla,Aetwa,Anana,Alarna,Akebwa,Alilla,Apudna,Afemna,Anutwa,Afigla,Abanwa,Hamerla,Hamerma,Hamerwa,Hamerra,Hamerka,QansaxDheere,ElKere"
 },
 {
-    "name": "Anuak", "i": 3126, "min": 3, "max": 12, "d": "lnrt", "m": 0, "b": "Gambela,Anuak,Bure,Dimma,Gog,Jor,Kelafo,Meti,Nginyang,Pochalla,Terkefe,Wanthoa,Abobo,Akobo,Aleper,Anyang,Arba Minch,Jinka,Konso,Turmi,Hawassa,Dilla,Sodo,Wolaita Sodo,Gamo,Xuddur,Caluula,Cabudwaaq,Jannaale,ElBuur,Harardheere,Boocame,Baydhaba,Berdale,Jamaame,Baraawe,DusaMarab,BulaHawa,Salagle,Khasara"
+    "name": "Anuak", "i": 3126, "min": 3, "max": 12, "d": "lnrt", "m": 0, "b": "Gambela,Anuak,Bure,Dimma,Gog,Jor,Kelafo,Meti,Nginyang,Pochalla,Terkefe,Wanthoa,Abobo,Akobo,Aleper,Anyang,Arba Minch,Jinka,Konso,Turmi,Hawassa,Dilla,Sodo,Wolaita Sodo,Gamo,Xuddur,Caluula,Cabudwaaq,Jannaale,ElBuur,Harardheere,Boocame,Baydhaba,Berdale,Jamaame,Baraawe,DusaMarab,Salagle,Khasara,BulaHawa"
 },
 {
     "name": "Angas",
@@ -2167,7 +2167,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Jos,Bukuru,Riyom,Mangu,Bokkos,Pankshin,Shendam,Langtang,Wase,Keffi,Lafia,Akwanga,Awe,Keana,Oto,Doma,Obi,Agatu,Otukpo,Ugbokpo,Gboko,Aliade,Vandeikya,Katsina-Ala,Zaki Biam,Takawiri,Anibsa,Amulma,Alatfa,Alogma,Anarsa,Aossa,Akilma,Akagma,Adumsa,Autsa,Aama,Aarfa,Abibma,Akolsa,Anatsa,Angasla,Angasma,Angaswa,Angasra,Angaska"
+  "b": "Jos,Riyom,Mangu,Bokkos,Pankshin,Shendam,Langtang,Wase,Keffi,Lafia,Akwanga,Awe,Keana,Oto,Doma,Obi,Agatu,Otukpo,Ugbokpo,Gboko,Aliade,Vandeikya,Katsina-Ala,Zaki Biam,Takawiri,Anibsa,Amulma,Alatfa,Alogma,Anarsa,Aossa,Akilma,Akagma,Adumsa,Autsa,Aama,Aarfa,Abibma,Akolsa,Anatsa,Angasla,Angasma,Angaswa,Angasra,Angaska,Bamako,Bukuru"
 },
 {
     "name": "Auyokawa",
@@ -2185,7 +2185,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "El Fasher,Nyala,Kutum,Kabkabiya,El Geneina,Mellit,Tina,Tawila,Kornoi,Um Keddada,Zalingei,Mukjar,Abu Adam,Um Dafuq,Ed Damazin,Al Roseires,Kurmuk,Al Muglad,Al Humr,Babanusah,Dalami,Forok,Furawi,Gelege,Konjara,Bergid,Mkokoni,Kehancha,Sibiloi,Waamo,Giohar,Guriceel,Selina,Sindo,Galole,Kalokol,Harardera,Mahaday,Yeed,Kidimu,HomaBay,Aemta,Anisfa,Anekfa,Apudta,Adimta,Alasfa,Augsa,Amorfa,Afobta,Adolta,Abokfa,Abudsa,Afanfa,Alista,Aruta,Badealiasla,Badealiasma,Badealiaswa,Badealiasra,Badealiaska"
+  "b": "El Fasher,Nyala,Kutum,Kabkabiya,El Geneina,Mellit,Tina,Tawila,Kornoi,Um Keddada,Zalingei,Mukjar,Abu Adam,Um Dafuq,Ed Damazin,Al Roseires,Kurmuk,Al Muglad,Al Humr,Babanusah,Dalami,Forok,Furawi,Gelege,Konjara,Bergid,Mkokoni,Kehancha,Sibiloi,Waamo,Giohar,Guriceel,Selina,Sindo,Galole,Kalokol,Harardera,Mahaday,Yeed,Kidimu,Aemta,Anisfa,Anekfa,Apudta,Adimta,Alasfa,Augsa,Amorfa,Afobta,Adolta,Abokfa,Abudsa,Afanfa,Alista,Aruta,Badealiasla,Badealiasma,Badealiaswa,Badealiasra,Badealiaska,HomaBay"
 },
 {
     "name": "Barein",
@@ -2194,7 +2194,7 @@ window.africaNameBases = [
   "max": 17,
   "d": "lnrt",
   "m": 0,
-  "b": "Abeche,Adre,Am Timan,Ati,Biltine,Bria,Doba,Dourbali,Fada,Faya-Largeau,Goz Beida,Haraze Mangueigne,Koro,Koumra,Lai,Mao,Moundou,N'Djamena,Oum Hadjer,Sarh,Zouar,Arba Minch,Jinka,Konso,Turmi,Karungu,Dida,Kakuma,Garsale,Jowhaar,Farlibaax,Pongwe,KenduBay,Faza,Omorate,Qoton,Afgoi,Beledhawo,Jamia,Siaya,Alokka,Afudna,Afosna,Anukka,Abidna,Amenbwe,Adasna,Aaka,Anakka,Amadna,Anembwe,Apitna,Abudka,Alenka,Aotna,Bareinla,Bareinma,Bareinwa,Bareinra,Bareinka"
+  "b": "Abeche,Adre,Am Timan,Ati,Biltine,Bria,Doba,Dourbali,Fada,Faya-Largeau,Goz Beida,Haraze Mangueigne,Koro,Koumra,Lai,Mao,Moundou,N'Djamena,Oum Hadjer,Sarh,Zouar,Arba Minch,Jinka,Konso,Turmi,Karungu,Dida,Kakuma,Garsale,Jowhaar,Farlibaax,Pongwe,Faza,Omorate,Qoton,Afgoi,Beledhawo,Jamia,Siaya,Alokka,Afudna,Afosna,Anukka,Abidna,Amenbwe,Adasna,Aaka,Anakka,Amadna,Anembwe,Apitna,Abudka,Alenka,Aotna,Bareinla,Bareinma,Bareinwa,Bareinra,Bareinka,KenduBay"
 },
 {
     "name": "Beele",
@@ -2203,7 +2203,7 @@ window.africaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-  "b": "Maiduguri,Biu,Mubi,Konduga,Gwoza,Bama,Marte,Monguno,Ngala,Dikwa,Kukawa,Kousseri,Marafa,Waza,Gamboru,Logone-Birni,Hina,Mora,Balda,Makary,Kousséri,Arba Minch,Jinka,Konso,Turmi,Oyugis,Shella,Turmi,Janaale,LaasGacamey,ElBarde,Ndau,Vihiga,Mariakani,Moyale,SaLul,Erigavo,Baardheere,Bwiti,Bungoma,Ababra,Aelsa,Arasa,Afebra,Anulsa,Adokta,Anigsa,Alinra,Afisra,Afisa,Aforta,Akubsa,Abokra,Alagsa,Apessa,Beelela,Beelema,Beelewa,Beelera,Beeleka"
+  "b": "Biu,Mubi,Konduga,Gwoza,Bama,Marte,Monguno,Ngala,Dikwa,Kukawa,Kousseri,Marafa,Waza,Gamboru,Logone-Birni,Hina,Mora,Balda,Makary,Kousséri,Arba Minch,Jinka,Konso,Turmi,Oyugis,Shella,Janaale,LaasGacamey,ElBarde,Ndau,Vihiga,Mariakani,Moyale,SaLul,Erigavo,Baardheere,Bwiti,Bungoma,Ababra,Aelsa,Arasa,Afebra,Anulsa,Adokta,Anigsa,Alinra,Afisra,Afisa,Aforta,Akubsa,Abokra,Alagsa,Apessa,Beelela,Beelema,Beelewa,Beelera,Beeleka,Ouagadougou,Maiduguri"
 },
 {
     "name": "Anaang",
@@ -2212,7 +2212,7 @@ window.africaNameBases = [
   "max": 14,
   "d": "lnrt",
   "m": 0,
-  "b": "Uyo,Ikot Ekpene,Eket,Oron,Uruan,Afaha,Essien Udim,Abak,Ini,Ikono,Ikot Abasi,Enwang,Udung Ukpo,Itu,Ikot Obio Akpa,Ika,Ekprikpo,Ubium,Esit Eket,Ibeno,Odoro Ikot,Onna,Ikot Ukpa,Ikot Ekpenyong,Ikot Akpan,Ikot Enwang"
+  "b": "Uyo,Ikot Ekpene,Eket,Oron,Uruan,Afaha,Essien Udim,Abak,Ini,Ikono,Ikot Abasi,Enwang,Udung Ukpo,Itu,Ikot Obio Akpa,Ika,Ekprikpo,Ubium,Esit Eket,Ibeno,Onna,Ikot Ukpa,Ikot Ekpenyong,Ikot Akpan,Ikot Enwang,Conakry,Odoro Ikot"
 },
 {
     "name": "Aringa",
@@ -2221,7 +2221,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Arua,Maracha,Koboko,Moyo,Yumbe,Adjumani,Obongi,Rhino Camp,Vurra,Arivu,Ovujo,Kuluba,Okollo,Odramacaku,Bondo,Ogoko,Oluvu,Ajira,Logiri,Ejirimagiri,Omugo,Keriganga,Manibe,Oleba,Odravu,Liria,Omogili,Kachoda,Mkokoni,Kehancha,Sibiloi,Waamo,Giohar,Guriceel,Selina,Sindo,Galole,Kalokol,Harardera,Mahaday,Yeed,Kidimu,Alesta,Akifa,Afursa,Afedfa,Alumta,Anista,Adafa,Adobfa,Aolta,Anotta,Amogfa,Anunsa,Apabfa,Adita,Alurta,Aringala,Aringama,Aringawa,Aringara,Aringaka"
+  "b": "Arua,Maracha,Koboko,Moyo,Yumbe,Adjumani,Obongi,Rhino Camp,Vurra,Arivu,Ovujo,Kuluba,Okollo,Odramacaku,Bondo,Ogoko,Oluvu,Ajira,Omugo,Keriganga,Manibe,Oleba,Odravu,Liria,Omogili,Kachoda,Mkokoni,Kehancha,Sibiloi,Waamo,Giohar,Guriceel,Selina,Sindo,Galole,Kalokol,Harardera,Mahaday,Yeed,Kidimu,Alesta,Akifa,Afursa,Afedfa,Alumta,Anista,Adafa,Adobfa,Aolta,Anotta,Amogfa,Anunsa,Apabfa,Adita,Alurta,Aringala,Aringama,Aringawa,Aringara,Aringaka,Accra,Kumasi,Logiri,Ejirimagiri"
 },
 {
     "name": "Aro",
@@ -2239,7 +2239,7 @@ window.africaNameBases = [
   "max": 14,
   "d": "lnrt",
   "m": 0,
-  "b": "Bonga,Tepi,Mizan Teferi,Gore,Metu,Jimma,Agaro,Bedele,Sebeta,Durame,Kacha Bira,Wacha,Shishinda,Bench Maji,Meinit,Meinit Goldiya,Keffa,Sheka,Bench Sheko,Arba Minch,Jinka,Konso,Turmi,Hawassa,Dilla,ElBarde,Ndau,Vihiga,Mariakani,Moyale,SaLul,Erigavo,Baardheere,Bwiti,Bungoma,Lamu,Imi,GeedWeen,Karindoolay,Gamey,Alidsa,Akumma,Afasfa,Akoma,Anodsa,Adimma,Amasfa,Afama,Anubsa,Anamma,Anatfa,Apigma,Adomsa,Alassa,Aogma,Aroidla,Aroidma,Aroidwa,Aroidra,Aroidka"
+  "b": "Bonga,Tepi,Mizan Teferi,Gore,Metu,Jimma,Agaro,Bedele,Sebeta,Durame,Wacha,Shishinda,Bench Maji,Meinit,Meinit Goldiya,Keffa,Sheka,Bench Sheko,Arba Minch,Jinka,Konso,Turmi,Hawassa,Dilla,ElBarde,Ndau,Vihiga,Mariakani,Moyale,SaLul,Erigavo,Baardheere,Bwiti,Bungoma,Lamu,Imi,GeedWeen,Karindoolay,Gamey,Alidsa,Akumma,Afasfa,Akoma,Anodsa,Adimma,Amasfa,Afama,Anubsa,Anamma,Anatfa,Apigma,Adomsa,Alassa,Aogma,Aroidla,Aroidma,Aroidwa,Aroidra,Aroidka,Kacha Bira"
 },
 {
     "name": "Asoa",
@@ -2257,7 +2257,7 @@ window.africaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-  "b": "Kachia,Kagarko,Kajuru,Kaura,Kauru,Jema'a,Kufana,Kagoma,Karibi,Kpak,Kuyanbaba,Zangon Kataf,Ungwan Rimi,Ungwan Boro,Zonkwa,Fadan Karshe,Kafanchan,Katakata,Katsira,Majinya,Kudaru,Magamiya,Makera,Makwate,Mallam Madori,Mbatula,Miyan Gari,Nandu,Nga,Ngbi,Nggwah"
+  "b": "Kachia,Kagarko,Kaura,Jema,Abidjan,Lomé'a,Kufana,Kagoma,Karibi,Kpak,Kuyanbaba,Zangon Kataf,Ungwan Rimi,Ungwan Boro,Zonkwa,Fadan Karshe,Kafanchan,Katakata,Katsira,Majinya,Kudaru,Magamiya,Makera,Makwate,Mallam Madori,Mbatula,Miyan Gari,Nandu,Nga,Ngbi,Nggwah,Kajuru,Kauru,Jema'a"
 },
 {
     "name": "Bambassi",
@@ -2266,7 +2266,7 @@ window.africaNameBases = [
   "max": 14,
   "d": "lnrt",
   "m": 0,
-  "b": "Bonga,Tepi,Mizan Teferi,Gore,Metu,Jimma,Agaro,Bedele,Sebeta,Durame,Kacha Bira,Wacha,Shishinda,Bench Maji,Meinit,Meinit Goldiya,Keffa,Sheka,Bench Sheko,Arba Minch,Jinka,Konso,Turmi,Hawassa,Dilla,Omaribaya,Yala,Mtwapa,Karamara,Qoryooley,CeelBuux,Tiyeglow,Kau,Butere,Kilifi,Teltele,Wargalo,Xabo,BurAcaba,Bargoni,Amelsa,Akokma,Afudfa,Akinma,Alussa,Apilsa,Adekma,Amudfa,Afumma,Aotsa,Aposa,Anurma,Anubfa,Aelma,Adiksa,Bambassila,Bambassima,Bambassiwa,Bambassira,Bambassika"
+  "b": "Bonga,Tepi,Mizan Teferi,Gore,Metu,Jimma,Agaro,Bedele,Sebeta,Durame,Wacha,Shishinda,Bench Maji,Meinit,Meinit Goldiya,Keffa,Sheka,Bench Sheko,Arba Minch,Jinka,Konso,Turmi,Hawassa,Dilla,Omaribaya,Yala,Mtwapa,Karamara,Qoryooley,CeelBuux,Tiyeglow,Kau,Butere,Kilifi,Teltele,Wargalo,Xabo,BurAcaba,Bargoni,Amelsa,Akokma,Afudfa,Akinma,Alussa,Apilsa,Adekma,Amudfa,Afumma,Aotsa,Aposa,Anurma,Anubfa,Aelma,Adiksa,Bambassila,Bambassima,Bambassiwa,Bambassira,Bambassika,Kacha Bira"
 },
 {
     "name": "Tagoi",
@@ -2275,7 +2275,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kurmuk,Geissan,Yabus,Doka,Debat,Felej,Ulu,Aradeiba,Bambasi,Al Mijlad,Al Radom,Al Fasher,Al Junaynah,Al Ubayyid,Al Rahad,Al Dinder,Al Roseires,Ed Damazin,Arba Minch,Jinka,Konso,Turmi,Hawassa,Dilla,Sodo,Garsen,Mumias,Malindi,Yavello,Guba,Xaafuun,Lanta,Ozi,Tindinyo,Masalani,ElKere,Garawe,Bargaal,Afgooye,Sengera,Tagoila,Tagoima,Tagoiwa,Tagoira,Tagoika,Tagoita,Tagoibwe,Tagoisa,Tagoina,Tagoifa,Tagoiga,Tagoija,Tagoida,Tagoine,Tagoile,Tagoire,Tagoizi,Tagoibo,Tagoiki,Tagoimu"
+  "b": "Kurmuk,Geissan,Yabus,Doka,Debat,Felej,Ulu,Aradeiba,Bambasi,Al Mijlad,Al Radom,Al Fasher,Al Junaynah,Al Ubayyid,Al Rahad,Al Dinder,Al Roseires,Ed Damazin,Arba Minch,Jinka,Konso,Turmi,Hawassa,Dilla,Sodo,Garsen,Mumias,Malindi,Yavello,Guba,Xaafuun,Lanta,Ozi,Tindinyo,Masalani,Garawe,Bargaal,Afgooye,Sengera,Tagoila,Tagoima,Tagoiwa,Tagoira,Tagoika,Tagoita,Tagoibwe,Tagoisa,Tagoina,Tagoifa,Tagoiga,Tagoija,Tagoida,Tagoine,Tagoile,Tagoire,Tagoizi,Tagoibo,Tagoiki,Tagoimu,ElKere"
 },
 {
     "name": "Wali",
@@ -2284,7 +2284,7 @@ window.africaNameBases = [
   "max": 14,
   "d": "lnrt",
   "m": 0,
-  "b": "Khartoum,Omdurman,North Khartoum,Port Sudan,Kassala,Gedaref,El Fasher,Nyala,Kadugli,El Geneina,El Obeid,Dongola,Atbara,Shendi,Wad Medani,Sennar,Ed Damazin,Kurmuk,El Roseires,El Dinder,El Rahad,Arba Minch,Jinka,Konso,Turmi,Wema,Nyaribari,Kotus,SofOmar,Hadud,Bereeda,Shalambood,Kilifi,Rioma,Habaswein,TulaNaga,Sarweyne,Koorma,Xarardheere,Mariakani,WaliSudanla,WaliSudanma,WaliSudanwa,WaliSudanra,WaliSudanka,WaliSudanta,WaliSudanbwe,WaliSudansa,WaliSudanna,WaliSudanfa,WaliSudanga,WaliSudanja,WaliSudanda,WaliSudanne,WaliSudanle,WaliSudanre,WaliSudanzi,WaliSudanbo,WaliSudanki,WaliSudanmu"
+  "b": "Khartoum,Omdurman,North Khartoum,Port Sudan,Kassala,Gedaref,El Fasher,Nyala,Kadugli,El Geneina,El Obeid,Dongola,Atbara,Shendi,Wad Medani,Sennar,Ed Damazin,Kurmuk,El Roseires,El Dinder,El Rahad,Arba Minch,Jinka,Konso,Turmi,Wema,Nyaribari,Kotus,SofOmar,Hadud,Bereeda,Shalambood,Kilifi,Rioma,Habaswein,Sarweyne,Koorma,Xarardheere,Mariakani,TulaNaga,WaliSudanla,WaliSudanma,WaliSudanwa,WaliSudanra,WaliSudanka,WaliSudanta,WaliSudanbwe,WaliSudansa,WaliSudanna,WaliSudanfa,WaliSudanga,WaliSudanja,WaliSudanda,WaliSudanne,WaliSudanle,WaliSudanre,WaliSudanzi,WaliSudanbo,WaliSudanki,WaliSudanmu"
 },
 {
     "name": "Samo",
@@ -2302,7 +2302,7 @@ window.africaNameBases = [
   "max": 13,
   "d": "lnrt",
   "m": 0,
-  "b": "Ghanzi,Maun,Kasane,Francistown,Serowe,Palapye,Mahalapye,Selebi-Phikwe,Bobonong,Tonota,Shoshong,Mmadinare,Orapa,Letlhakane,Jwaneng,Sua,Okavango,Chobe,Ngamiland,Tutume,Kgalagadi,Goodhope,Tshabong,Hukuntsi,Kang"
+  "b": "Ghanzi,Maun,Kasane,Francistown,Serowe,Palapye,Mahalapye,Selebi-Phikwe,Bobonong,Tonota,Shoshong,Mmadinare,Orapa,Letlhakane,Jwaneng,Sua,Okavango,Chobe,Tutume,Kgalagadi,Goodhope,Tshabong,Hukuntsi,Kang,Cotonou,Ngamiland"
 },
 {
     "name": "Kxao-ae",
@@ -2311,7 +2311,7 @@ window.africaNameBases = [
   "max": 13,
   "d": "lnrt",
   "m": 0,
-  "b": "Ghanzi,Maun,Kasane,Francistown,Serowe,Palapye,Mahalapye,Selebi-Phikwe,Bobonong,Tonota,Shoshong,Mmadinare,Orapa,Letlhakane,Jwaneng,Sua,Okavango,Chobe,Ngamiland,Tutume,Kgalagadi,Goodhope,Tshabong,Hukuntsi,Kang"
+  "b": "Ghanzi,Maun,Kasane,Francistown,Serowe,Palapye,Mahalapye,Selebi-Phikwe,Bobonong,Tonota,Shoshong,Mmadinare,Orapa,Letlhakane,Jwaneng,Sua,Okavango,Chobe,Tutume,Kgalagadi,Goodhope,Tshabong,Hukuntsi,Kang,Lagos,Ngamiland"
 },
 {
     "name": "Zarma",
@@ -2320,7 +2320,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Niamey,Dosso,Tahoua,Tillabéri,Agadez,Maradi,Zinder,Gaya,Kandi,Parakou,Savalou,Bohicon,Abomey,Ouidah,Cotonou,Porto-Novo,Lokossa,Aplahouie,Sakete,Ketou,Bassila,Dassa-Zoume,Save,Glazoué,Tchaourou,Nikki,Foun-Bangou,Kehancha,Sibiloi,Waamo,Giohar,Guriceel,Selina,Sindo,Galole,Kalokol,Harardera,Mahaday,Yeed,Kidimu,HomaBay,Kiunga,Zarmala,Zarmama,Zarmawa,Zarmara,Zarmaka,Zarmata,Zarmabwe,Zarmasa,Zarmana,Zarmafa,Zarmaga,Zarmaja,Zarmada,Zarmane,Zarmale,Zarmare,Zarmazi,Zarmabo,Zarmaki,Zarmamu"
+  "b": "Niamey,Dosso,Tahoua,Tillabéri,Agadez,Maradi,Zinder,Gaya,Kandi,Parakou,Savalou,Bohicon,Abomey,Ouidah,Cotonou,Porto-Novo,Lokossa,Aplahouie,Sakete,Ketou,Bassila,Dassa-Zoume,Save,Glazoué,Tchaourou,Nikki,Foun-Bangou,Kehancha,Sibiloi,Waamo,Giohar,Guriceel,Selina,Sindo,Galole,Kalokol,Harardera,Mahaday,Yeed,Kidimu,Kiunga,Zarmala,Zarmama,Zarmawa,Zarmara,Zarmaka,Zarmata,Zarmabwe,Zarmasa,Zarmana,Zarmafa,Zarmaga,Zarmaja,Zarmada,Zarmane,Zarmale,Zarmare,Zarmazi,Zarmabo,Zarmaki,Zarmamu,HomaBay"
 },
 {
     "name": "Seze",
@@ -2329,7 +2329,7 @@ window.africaNameBases = [
   "max": 14,
   "d": "lnrt",
   "m": 0,
-  "b": "Bonga,Tepi,Mizan Teferi,Gore,Metu,Jimma,Agaro,Bedele,Sebeta,Durame,Kacha Bira,Wacha,Shishinda,Bench Maji,Meinit,Meinit Goldiya,Keffa,Sheka,Bench Sheko,Arba Minch,Jinka,Konso,Turmi,Hawassa,Dilla,Dida,Kakuma,Garsale,Jowhaar,Farlibaax,Pongwe,KenduBay,Faza,Omorate,Qoton,Afgoi,Beledhawo,Jamia,Siaya,Samburu,Sezela,Sezema,Sezewa,Sezera,Sezeka,Sezeta,Sezebwe,Sezesa,Sezena,Sezefa,Sezega,Sezeja,Sezeda,Sezene,Sezele,Sezere,Sezezi,Sezebo,Sezeki,Sezemu"
+  "b": "Bonga,Tepi,Mizan Teferi,Gore,Metu,Jimma,Agaro,Bedele,Sebeta,Durame,Wacha,Shishinda,Bench Maji,Meinit,Meinit Goldiya,Keffa,Sheka,Bench Sheko,Arba Minch,Jinka,Konso,Turmi,Hawassa,Dilla,Dida,Kakuma,Garsale,Jowhaar,Farlibaax,Pongwe,Faza,Omorate,Qoton,Afgoi,Beledhawo,Jamia,Siaya,Sezela,Sezema,Sezewa,Sezera,Sezeka,Sezeta,Sezebwe,Sezesa,Sezena,Sezefa,Sezega,Sezeja,Sezeda,Sezene,Sezele,Sezere,Sezezi,Sezebo,Sezeki,Sezemu,Kano,Kacha Bira,KenduBay,Samburu"
 },
 {
     "name": "Sena",
@@ -2338,7 +2338,7 @@ window.africaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-  "b": "Lilongwe,Blantyre,Zomba,Mangochi,Machinga,Balaka,Nkhotakota,Salima,Ntchisi,Dedza,Chikwaka,Thyolo,Mulanje,Chiradzulu,Mwanza,Nsanje,Phalombe,Mzuzu,Karonga,Chitipa,Rumphi,Nkhata Bay,Livingstonia,Mzimba,Arba Minch,Kaloleni,Arero,Cagaaran,Ufeyn,Dinsor,Jongole,Kimilili,Garsen,Shilabo,Jasiira,Qardho,Merka,Ngao,Ekerenyo,Garissa,LaSena,Senama,Senawa,Senara,Senaka,Senata,Senabwe,Senasa,Senana,Senafa,Senaga,Senaja,Senada,Senane,Senale,Senare,Senazi,Senabo,KiSena,Senamu"
+  "b": "Lilongwe,Blantyre,Zomba,Mangochi,Machinga,Balaka,Nkhotakota,Salima,Ntchisi,Dedza,Chikwaka,Thyolo,Mulanje,Chiradzulu,Mwanza,Nsanje,Phalombe,Mzuzu,Karonga,Chitipa,Rumphi,Nkhata Bay,Livingstonia,Mzimba,Arba Minch,Kaloleni,Arero,Cagaaran,Ufeyn,Dinsor,Jongole,Kimilili,Garsen,Shilabo,Jasiira,Qardho,Merka,Ngao,Ekerenyo,Garissa,Senama,Senawa,Senara,Senaka,Senata,Senabwe,Senasa,Senana,Senafa,Senaga,Senaja,Senada,Senane,Senale,Senare,Senazi,Senabo,Senamu,LaSena,KiSena"
 },
 {
     "name": "Tshiluba",
@@ -2347,7 +2347,7 @@ window.africaNameBases = [
   "max": 13,
   "d": "lnrt",
   "m": 0,
-  "b": "Kinshasa,Kisangani,Lubumbashi,Mbuji-Mayi,Kananga,Likasi,Kolwezi,Kikwit,Mbandaka,Matadi,Boma,Isiro,Bumba,Gemena,Kabinda,Kasongo-Lunda,Kenge,Kasangulu,Mwene-Ditu,Tshikapa,Uvira,Bukavu,Goma,Butembo,Beni,Luozi,Hola,Degehabur,Bagula,Iskushuban,Gendershe,Garsen,Ikonge,ElDera,Haraale,Salkaxo,Garowe,Janaale,Kaloleni,Masige,ArchersPost,Tshilubala,Tshilubama,Tshilubawa,Tshilubara,Tshilubaka,Tshilubata,Tshilubabwe,Tshilubasa,Tshilubana,Tshilubafa,Tshilubaga,Tshilubaja,Tshilubada,Tshilubane,Tshilubale,Tshilubare,Tshilubazi,Tshilubabo,Tshilubaki,Tshilubamu"
+  "b": "Kinshasa,Kisangani,Lubumbashi,Mbuji-Mayi,Kananga,Likasi,Kolwezi,Kikwit,Mbandaka,Matadi,Boma,Isiro,Bumba,Gemena,Kabinda,Kasongo-Lunda,Kenge,Kasangulu,Mwene-Ditu,Tshikapa,Uvira,Bukavu,Goma,Butembo,Beni,Luozi,Hola,Degehabur,Bagula,Iskushuban,Gendershe,Garsen,Ikonge,Haraale,Salkaxo,Garowe,Janaale,Kaloleni,Masige,ArchersPost,Tshilubala,Tshilubama,Tshilubawa,Tshilubara,Tshilubaka,Tshilubata,Tshilubabwe,Tshilubasa,Tshilubana,Tshilubafa,Tshilubaga,Tshilubaja,Tshilubada,Tshilubane,Tshilubale,Tshilubare,Tshilubazi,Tshilubabo,Tshilubaki,Tshilubamu,ElDera"
 },
 {
     "name": "Sula",
@@ -2392,7 +2392,7 @@ window.africaNameBases = [
   "max": 13,
   "d": "lnrt",
   "m": 0,
-  "b": "Kisumu,Siaya,Homa Bay,Migori,Kericho,Nakuru,Nandi,Eldoret,Kapsabet,Nzoia,Trans Nzoia,Marakwet,Keiyo,Baringo,Laikipia,Nyeri,Kirinyaga,Embu,Meru,Tharaka-Njiru,Isiolo,Mandera,Marsabit,Turkana,West Pokot,Samburu,Yavello,Guba,Xaafuun,Lanta,Ozi,Tindinyo,Masalani,ElKere,Garawe,Bargaal,Afgooye,Malindi,Sengera,ElBur,AbudWaaq,Subala,Subama,Subawa,Subara,Subaka,Subata,Subabwe,Subasa,Subana,Subafa,Subaga,Subaja,Subada,Subane,Subale,Subare,Subazi,Subabo,Subaki,Subamu"
+  "b": "Kisumu,Siaya,Homa Bay,Migori,Kericho,Nandi,Eldoret,Kapsabet,Nzoia,Trans Nzoia,Marakwet,Keiyo,Baringo,Laikipia,Nyeri,Kirinyaga,Embu,Meru,Tharaka-Njiru,Isiolo,Mandera,Marsabit,Turkana,Yavello,Guba,Xaafuun,Lanta,Ozi,Tindinyo,Masalani,Garawe,Bargaal,Afgooye,Malindi,Sengera,ElBur,AbudWaaq,Subala,Subama,Subawa,Subara,Subaka,Subata,Subabwe,Subasa,Subana,Subafa,Subaga,Subaja,Subada,Subane,Subale,Subare,Subazi,Subabo,Subaki,Subamu,Ibadan,Abuja,Tamale,Nakuru,West Pokot,Samburu,ElKere"
 },
 {
     "name": "Suku",
@@ -2401,7 +2401,7 @@ window.africaNameBases = [
   "max": 13,
   "d": "lnrt",
   "m": 0,
-  "b": "Kinshasa,Kisangani,Lubumbashi,Mbuji-Mayi,Kananga,Likasi,Kolwezi,Kikwit,Mbandaka,Matadi,Boma,Isiro,Bumba,Gemena,Kabinda,Kasongo-Lunda,Kenge,Kasangulu,Mwene-Ditu,Tshikapa,Uvira,Bukavu,Goma,Butembo,Beni,Luozi,SofOmar,Hadud,Bereeda,Shalambood,Kilifi,Rioma,Habaswein,TulaNaga,Sarweyne,Koorma,Xarardheere,Mariakani,Kisii,Maralal,Liibaan,Sukula,Sukuma,Sukuwa,Sukura,Sukuka,Sukuta,Sukubwe,Sukusa,Sukuna,Sukufa,Sukuga,Sukuja,Sukuda,Sukune,Sukule,Sukure,Sukuzi,Sukubo,Sukuki,Sukumu"
+  "b": "Kinshasa,Kisangani,Lubumbashi,Mbuji-Mayi,Kananga,Likasi,Kolwezi,Kikwit,Mbandaka,Matadi,Boma,Isiro,Bumba,Gemena,Kabinda,Kasongo-Lunda,Kenge,Kasangulu,Mwene-Ditu,Tshikapa,Uvira,Bukavu,Goma,Butembo,Beni,Luozi,SofOmar,Hadud,Bereeda,Shalambood,Kilifi,Rioma,Habaswein,Sarweyne,Koorma,Xarardheere,Mariakani,Kisii,Maralal,Liibaan,Sukula,Sukuma,Sukuwa,Sukura,Sukuka,Sukuta,Sukubwe,Sukusa,Sukuna,Sukufa,Sukuga,Sukuja,Sukuda,Sukune,Sukule,Sukure,Sukuzi,Sukubo,Sukuki,Sukumu,TulaNaga"
 },
 {
     "name": "Wongo",
@@ -2467,7 +2467,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Numan,Demsa,Lamurde,Guyuk,Mayobelwa,Bali,Garkida,Mubi,Yola,Jimeta,Ganye,Gombi,Hong,Song,Fufore,Dong,Konkol,Belel,Kiri,Kumo,Bashar,Mongu,Sesheke,Sioma,Kalabo,CeyrTabaan,Laasqoray,QansaxDheere,Garsen,Mumias,Malindi,Yavello,Guba,Xaafuun,Lanta,Ozi,Tindinyo,Masalani,ElKere,Garawe,Apilwa,Amokbwe,Alagka,Aminbwe,Anabwa,Abowa,Akekbwe,Apagka,Alumbwe,Adutwa,Augwa,Aunbwe,Aabka,Adelbwe,Anagwa,Bacamaaliasla,Bacamaaliasma,Bacamaaliaswa,Bacamaaliasra,Bacamaaliaska"
+  "b": "Numan,Demsa,Lamurde,Guyuk,Mayobelwa,Bali,Garkida,Mubi,Yola,Jimeta,Ganye,Gombi,Hong,Song,Fufore,Dong,Konkol,Belel,Kiri,Kumo,Bashar,Mongu,Sesheke,Sioma,Kalabo,CeyrTabaan,Laasqoray,Garsen,Mumias,Malindi,Yavello,Guba,Xaafuun,Lanta,Ozi,Tindinyo,Masalani,Garawe,Apilwa,Amokbwe,Alagka,Aminbwe,Anabwa,Abowa,Akekbwe,Apagka,Alumbwe,Adutwa,Augwa,Aunbwe,Aabka,Adelbwe,Anagwa,Bacamaaliasla,Bacamaaliasma,Bacamaaliaswa,Bacamaaliasra,Bacamaaliaska,QansaxDheere,ElKere"
 },
 {
     "name": "Barambu",
@@ -2503,7 +2503,7 @@ window.africaNameBases = [
   "max": 13,
   "d": "lnrt",
   "m": 0,
-  "b": "Kisumu,Siaya,Homa Bay,Migori,Kericho,Nakuru,Nandi,Eldoret,Kapsabet,Nzoia,Trans Nzoia,Marakwet,Keiyo,Baringo,Laikipia,Nyeri,Kirinyaga,Embu,Meru,Tharaka-Njiru,Isiolo,Mandera,Marsabit,Turkana,West Pokot,Samburu,BilisQoqani,Godinlabe,Moyale,Jalalaqsi,Tayeeglo,Taleex,Yeed,Warshiikh,Saakow,Haraale,Mareerey,Carane,Wanlaweyn,Berdale,Lafaduun,Ademje,Aotke,Aare,Airke,Abubje,Akimje,Aneske,Afare,Apurke,Alobje,Akolje,Afukke,Afagre,Alenke,Anisje,Sahole,Sahore,Sahone,Sahoke,Sahohe"
+  "b": "Kisumu,Siaya,Homa Bay,Migori,Kericho,Nandi,Eldoret,Kapsabet,Nzoia,Trans Nzoia,Marakwet,Keiyo,Baringo,Laikipia,Nyeri,Kirinyaga,Embu,Meru,Tharaka-Njiru,Isiolo,Mandera,Marsabit,Turkana,BilisQoqani,Godinlabe,Moyale,Jalalaqsi,Tayeeglo,Taleex,Yeed,Warshiikh,Saakow,Haraale,Mareerey,Carane,Wanlaweyn,Berdale,Lafaduun,Ademje,Aotke,Aare,Airke,Abubje,Akimje,Aneske,Afare,Apurke,Alobje,Akolje,Afukke,Afagre,Alenke,Anisje,Sahole,Sahore,Sahone,Sahoke,Sahohe,Gulu,Mbarara,Bujumbura,Nakuru,West Pokot,Samburu"
 },
 {
     "name": "Makonde",
@@ -2530,7 +2530,7 @@ window.africaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-  "b": "Maiduguri,Biu,Mubi,Konduga,Gwoza,Bama,Marte,Monguno,Ngala,Dikwa,Kukawa,Kousseri,Marafa,Waza,Gamboru,Logone-Birni,Hina,Mora,Balda,Makary,Kousséri,Mongu,Sesheke,Sioma,Kalabo,Afgooye,Malindi,Sengera,ElBur,AbudWaaq,Kabxan,Gaalkacyo,Maraag,Mackinnon,Nyamira,Wamba,Xato,Sarameer,Rigomane,BilisQoqani,Anulla,Alunka,Afokka,Anigwa,Akenka,Abesla,Aela,Apekka,Abolka,Afatla,Amigla,Adumka,Aniswa,Alaka,Afunla,Duwaila,Duwaima,Duwaiwa,Duwaira,Duwaika"
+  "b": "Biu,Mubi,Konduga,Gwoza,Bama,Marte,Monguno,Ngala,Dikwa,Kukawa,Kousseri,Marafa,Waza,Gamboru,Logone-Birni,Hina,Mora,Balda,Makary,Kousséri,Mongu,Sesheke,Sioma,Kalabo,Afgooye,Malindi,Sengera,ElBur,AbudWaaq,Kabxan,Gaalkacyo,Maraag,Mackinnon,Nyamira,Wamba,Xato,Sarameer,Rigomane,BilisQoqani,Anulla,Alunka,Afokka,Anigwa,Akenka,Abesla,Aela,Apekka,Abolka,Afatla,Amigla,Adumka,Aniswa,Alaka,Afunla,Duwaila,Duwaima,Duwaiwa,Duwaira,Duwaika,Bouaké,Maiduguri"
 },
 {
     "name": "Mooré",
@@ -2566,7 +2566,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bamenda,Nkambe,Wum,Mfundi,Babanki,Kom,Oku,Bafoussam,Bangante,Bandjoun,Baham,Bamendjou,Batcham,Bana,Bafou,Batoufam,Bamougoum,Bamessingue,Bangangté,Bafang,Bangwa,Bamunka,Bambalang,Bambui,Bambili,Bamukumbit,Bamum,Sarweyne,Koorma,Xarardheere,Mariakani,Kisii,Maralal,Liibaan,Duduble,Galdogob,Dhoobley,Vanga,Suba,Korr,Gurfuudle,Dabare,Anomra,Alutsa,Aleta,Aulra,Afitsa,Apeta,Apatsa,Apegta,Anebta,Alusa,Aforra,Adibra,Akekta,Amedsa,Apemta,Dzodinkala,Dzodinkama,Dzodinkawa,Dzodinkara,Dzodinkaka"
+  "b": "Bamenda,Nkambe,Wum,Mfundi,Babanki,Kom,Oku,Bafoussam,Bangante,Bandjoun,Baham,Bamendjou,Batcham,Bana,Bafou,Batoufam,Bamougoum,Bamessingue,Bangangté,Bafang,Bangwa,Bamunka,Bambalang,Bambui,Bambili,Bamukumbit,Bamum,Sarweyne,Koorma,Xarardheere,Mariakani,Kisii,Maralal,Liibaan,Duduble,Galdogob,Dhoobley,Vanga,Suba,Korr,Gurfuudle,Dabare,Anomra,Alutsa,Aleta,Aulra,Afitsa,Apatsa,Apegta,Anebta,Alusa,Aforra,Adibra,Akekta,Amedsa,Apemta,Dzodinkala,Dzodinkama,Dzodinkawa,Dzodinkara,Dzodinkaka,Saint-Louis,Apeta"
 },
 {
     "name": "Ebira",
@@ -2584,7 +2584,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Yaounde,Mbalmayo,Ebolowa,Ambam,Meyo,Eseka,Nanga-Eboko,Monatele,Akonolinga,Obala,Nkongsamba,Douala,Bafoussam,Bamenda,Bertoua,Garoua,Maroua,Ngaoundere,Batouri,Yokadouma,Kribi,Edea,Tiko,Muyuka,Mongu,Aqable,Jariiban,Garbaharey,Geza,Uriri,Bubisa,Kumbare,Sheikh,GalCad,Ngei,Takawiri,Nyangusu,Loyangalani,Caano,CelDheer,Adagfa,Abinra,Abelra,Aparra,Aora,Amikfa,Akomra,Akutma,Amara,Aperfa,Adosfa,Anelra,Afurma,Aibra,Apamfa,Emanla,Emanma,Emanwa,Emanra,Emanka"
+  "b": "Yaounde,Mbalmayo,Ebolowa,Ambam,Meyo,Eseka,Nanga-Eboko,Monatele,Akonolinga,Obala,Nkongsamba,Douala,Bafoussam,Bamenda,Bertoua,Garoua,Maroua,Ngaoundere,Yokadouma,Kribi,Edea,Tiko,Muyuka,Mongu,Aqable,Jariiban,Garbaharey,Geza,Uriri,Bubisa,Kumbare,Sheikh,GalCad,Ngei,Takawiri,Nyangusu,Loyangalani,Caano,CelDheer,Adagfa,Abinra,Abelra,Aparra,Aora,Amikfa,Akomra,Akutma,Amara,Aperfa,Adosfa,Anelra,Afurma,Aibra,Apamfa,Emanla,Emanma,Emanwa,Emanra,Emanka,Thiès,Batouri"
 },
 {
     "name": "Ewe",
@@ -2593,7 +2593,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lomé,Sokodé,Kpalimé,Atakpamé,Bassar,Kara,Notsé,Tchamba,Badou,Aného,Tabligbo,Kpagouda,Kandé,Mango,Sotouboua,Bafilo,Akposso,Agou,Niamtougou,Dapaong,Biankouri,Tandjouaré,Mongu,Sesheke,Sioma,Qoton,Afgoi,Beledhawo,Jamia,Siaya,Samburu,Ririba,Galolk,CeelAfweyn,Baidoa,Chara,Webuye,Kipini,Mega,AadanYabaal,Adota,Aurfa,Apegsa,Aomfa,Akuta,Anikfa,Apanfa,Afarfa,Afebsa,Anukta,Amomfa,Apugfa,Abesfa,Abonfa,Aesta,Ewela,Ewema,Ewewa,Ewera,Eweka"
+  "b": "Lomé,Sokodé,Kpalimé,Atakpamé,Bassar,Kara,Notsé,Tchamba,Badou,Aného,Tabligbo,Kpagouda,Kandé,Mango,Sotouboua,Bafilo,Akposso,Agou,Niamtougou,Dapaong,Tandjouaré,Mongu,Sesheke,Sioma,Qoton,Afgoi,Beledhawo,Jamia,Siaya,Ririba,Galolk,CeelAfweyn,Baidoa,Chara,Webuye,Kipini,Mega,AadanYabaal,Adota,Aurfa,Apegsa,Aomfa,Akuta,Anikfa,Apanfa,Afarfa,Afebsa,Anukta,Amomfa,Apugfa,Abesfa,Abonfa,Aesta,Ewela,Ewema,Ewewa,Ewera,Eweka,Kaolack,Ziguinchor,Biankouri,Samburu"
 },
 {
     "name": "Fanagalo",
@@ -2602,7 +2602,7 @@ window.africaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Johannesburg,Durban,Pretoria,Cape Town,Port Elizabeth,Bloemfontein,East London,Kimberley,Pietermaritzburg,Windhoek,Swakopmund,Walvis Bay,Keetmanshoop,Gobabis,Mariental,Rehoboth,Luderitz,Oranjemund,Rundu,Katima Mulilo,Oshakati,Ondangwa,Tsumeb,Grootfontein,Otjiwarongo,Okahandja,Arroyo,Bayamon,SanJuan,Maricao,SanSebastian,RioGrande,Santalsabel,SantaIsabel,Canovanas,Kralendijk,Utuado,VegaAlta,Yauco,Ciales,Luquillo,Amosport,Amalview,Amikport,Anagville,Abomville,Akesport,Aaview,Alurport,Adubville,Aukport,Aagview,Akikville,Afedville,Adodport,Alulport,Fanagalotown,Fanagaloville,Fanagaloburg,Fanagaloview,Fanagaloside"
+  "b": "Johannesburg,Durban,Pretoria,Cape Town,Port Elizabeth,Bloemfontein,East London,Kimberley,Windhoek,Swakopmund,Walvis Bay,Keetmanshoop,Gobabis,Mariental,Rehoboth,Luderitz,Oranjemund,Rundu,Katima Mulilo,Oshakati,Ondangwa,Tsumeb,Grootfontein,Otjiwarongo,Okahandja,Gweru,Masvingo,Victoria Falls,Mbombela,East London,Stellenbosch,George,Upington,Swakopmund,Walvis Bay,Ndola,Kitwe,Livingstone,Pietermaritzburg,Arroyo,Bayamon,SanJuan,Maricao,SanSebastian,RioGrande,Santalsabel,SantaIsabel,Canovanas,Kralendijk,Utuado,VegaAlta,Yauco,Ciales,Luquillo,Amosport,Amalview,Amikport,Anagville,Abomville,Akesport,Aaview,Alurport,Adubville,Aukport,Aagview,Akikville,Afedville,Adodport,Alulport,Fanagalotown,Fanagaloville,Fanagaloburg,Fanagaloview,Fanagaloside"
 },
 {
   "name": "Nyamwezi",
@@ -2611,7 +2611,7 @@ window.africaNameBases = [
   "max": 13,
   "d": "lnrt",
   "m": 0,
-  "b": "Tabora,Mwanza,Shinyanga,Kigoma,Dodoma,Singida,Manyoni,Dar es Salaam,Arusha,Tanga,Mbeya,Songea,Morogoro,Iringa,Kagera,Ruvuma,Katavi,Uvinza,Mpanda,Sumbawanga,Kasulu,Mongu,Sesheke,Sioma,Kalabo,Kibish,GofKudle,Wanleweyn,Dolow,Gongoni,Bondo,Vipingo,Konso,CeyrTabaan,Laasqoray,QansaxDheere,Garsen,Mumias,Malindi,Yavello,Akukla,Adagka,Aduska,Akilla,Amatla,Aodka,Abeska,Apella,Amekla,Aledka,Amimwa,Apuska,Aliwa,Adarka,Ausla,FangCameroonla,FangCameroonma,FangCameroonwa,FangCameroonra,FangCameroonka"
+  "b": "Tabora,Mwanza,Shinyanga,Kigoma,Dodoma,Singida,Manyoni,Dar es Salaam,Arusha,Tanga,Mbeya,Songea,Morogoro,Iringa,Kagera,Ruvuma,Katavi,Uvinza,Mpanda,Sumbawanga,Kasulu,Mongu,Sesheke,Sioma,Kalabo,Kibish,Wanleweyn,Dolow,Gongoni,Bondo,Vipingo,Konso,CeyrTabaan,Laasqoray,Garsen,Mumias,Malindi,Yavello,Akukla,Adagka,Aduska,Akilla,Amatla,Aodka,Abeska,Apella,Amekla,Aledka,Amimwa,Apuska,Aliwa,Adarka,Ausla,GofKudle,QansaxDheere,FangCameroonla,FangCameroonma,FangCameroonwa,FangCameroonra,FangCameroonka"
 },
 {
     "name": "Yao",
@@ -2647,7 +2647,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Tunis,Sfax,Sousse,Kairouan,Monastir,Mahdia,Bizerte,Gabes,Medenine,Tozeur,Gafsa,Dar es Salaam,Dodoma,Arusha,Mwanza,Tanga,Mbeya,Songea,Kigoma,Tabora,Morogoro,Iringa,Shinyanga,Kagera,Ruvuma,Amogbridge,Abanbridge,Apunport,Amimport,Amibport,Abeswood,Alaport,Amekport,Alidport,Anilport,Afusbridge,Anebbridge,Afeswood,Amutport,Amitbridge,Douirettown,Douiretville,Douiretburg,Douiretview,Douiretside"
+  "b": "Tunis,Sfax,Sousse,Kairouan,Monastir,Mahdia,Bizerte,Gabes,Medenine,Tozeur,Gafsa,Dar es Salaam,Dodoma,Arusha,Mwanza,Tanga,Mbeya,Songea,Kigoma,Tabora,Morogoro,Iringa,Shinyanga,Kagera,Ruvuma,Touba,Ségou,Sikasso,Mopti,Timbuktu,Gao,Bobo-Dioulasso,Amogbridge,Abanbridge,Apunport,Amimport,Amibport,Abeswood,Alaport,Amekport,Alidport,Anilport,Afusbridge,Anebbridge,Afeswood,Amutport,Amitbridge,Douirettown,Douiretville,Douiretburg,Douiretview,Douiretside"
 },
 {
     "name": "Dry",
@@ -2656,7 +2656,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Jos,Bukuru,Riyom,Mangu,Bokkos,Pankshin,Shendam,Langtang,Wase,Keffi,Lafia,Akwanga,Awe,Keana,Oto,Doma,Obi,Agatu,Otukpo,Ugbokpo,Gboko,Aliade,Vandeikya,Katsina-Ala,Zaki Biam"
+  "b": "Jos,Riyom,Mangu,Bokkos,Pankshin,Shendam,Langtang,Wase,Keffi,Lafia,Akwanga,Awe,Keana,Oto,Doma,Obi,Agatu,Otukpo,Ugbokpo,Gboko,Aliade,Vandeikya,Katsina-Ala,Zaki Biam,Kindia,Bukuru"
 },
 {
     "name": "Kwanyama",
@@ -2665,7 +2665,7 @@ window.africaNameBases = [
   "max": 13,
   "d": "lnrt",
   "m": 0,
-  "b": "Oshakati,Ondangwa,Rundu,Katima Mulilo,Omuthiya,Outapi,Oshikuku,Ombalantu,Ongwediva,Oshigambo,Okahao,Oniipa,Dar es Salaam,Dodoma,Arusha,Mwanza,Tanga,Mbeya,Songea,Kigoma,Tabora,Morogoro,Iringa,Shinyanga,Kagera,ElDera,Haraale,Salkaxo,Garowe,Janaale,Kaloleni,Masige,ArchersPost,RasKamboni,Deynile,Hobyo,Kudhaa,Shimba,Tabaka,Marsabit,Afesbwe,Adola,Alisbwe,Akurna,Aubla,Anombwe,Alunna,Amebla,Aibwe,Apegbwe,Apanbwe,Apasla,Audna,Abegbwe,Akutna,Ewondola,Ewondoma,Ewondowa,Ewondora,Ewondoka"
+  "b": "Oshakati,Ondangwa,Rundu,Katima Mulilo,Omuthiya,Outapi,Oshikuku,Ombalantu,Ongwediva,Oshigambo,Okahao,Oniipa,Dar es Salaam,Dodoma,Arusha,Mwanza,Tanga,Mbeya,Songea,Kigoma,Tabora,Morogoro,Iringa,Shinyanga,Kagera,Haraale,Salkaxo,Garowe,Janaale,Kaloleni,Masige,ArchersPost,RasKamboni,Deynile,Hobyo,Kudhaa,Shimba,Tabaka,Marsabit,Afesbwe,Adola,Alisbwe,Akurna,Aubla,Anombwe,Alunna,Amebla,Aibwe,Apegbwe,Apanbwe,Apasla,Audna,Abegbwe,Akutna,Ewondola,Ewondoma,Ewondowa,Ewondora,Ewondoka,ElDera"
 },
 {
     "name": "Ewondo Populaire",
@@ -2674,7 +2674,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Yaoundé,Mbalmayo,Nanga-Eboko,Obala,Sa'a,Mfou,Akonolinga,Bafia,Bafang,Bangangté,Nkongsamba,Ebolowa,Ambam,Ntui,Mbandjock,Bafut,Galim,Bali,Goura,Bélabo,Belabo,Binguela,Bodomo,Boné,Dar es Salaam,Humacao,Orocovis,Mayaguez,Juncos,Maunabo,Castries,Dorado,Arecibo,Jayuya,Aguada,Ceiba,Guayama,Arroyo,Bayamon,SanJuan,Anolbridge,Apetport,Alinbridge,Aeswood,Abadport,Abambridge,Abetwood,Adigbridge,Apebport,Aerwood,Amubbridge,Alolport,Amemwood,Adidport,Afukbridge,EwondoPopulairetown,EwondoPopulaireville,EwondoPopulaireburg,EwondoPopulaireview,EwondoPopulaireside"
+  "b": "Yaoundé,Mbalmayo,Nanga-Eboko,Obala,Sa'a,Mfou,Akonolinga,Bafia,Bafang,Bangangté,Nkongsamba,Ebolowa,Ambam,Ntui,Mbandjock,Bafut,Galim,Bali,Goura,Bélabo,Belabo,Binguela,Bodomo,Boné,Dar es Salaam,Aeswood,Abetwood,Aerwood,Amemwood,ewondopopulaireHeights,ewondopopulaireFalls,ewondopopulaireBeach,ewondopopulairePoint,ewondopopulaireBay,ewondopopulaireGrove,Humacao,Orocovis,Mayaguez,Juncos,Maunabo,Castries,Dorado,Arecibo,Jayuya,Aguada,Ceiba,Guayama,Arroyo,Bayamon,SanJuan,Anolbridge,Apetport,Alinbridge,Abadport,Abambridge,Adigbridge,Apebport,Amubbridge,Alolport,Adidport,Afukbridge,EwondoPopulairetown,EwondoPopulaireville,EwondoPopulaireburg,EwondoPopulaireview,EwondoPopulaireside"
 },
 {
     "name": "Gonga",
@@ -2683,7 +2683,7 @@ window.africaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-  "b": "Bonga,Tepi,Mizan Teferi,Decha,Gesha,Gewata,Ginbo,Adiyo,Chena,Cheta,Deka,Sayilem,Telo,Wacha,Shishinda,Awurada,Bita,Goba,Menjiwo,Dar es Salaam,Dodoma,Arusha,Mwanza,Tanga,Mbeya,Ekerenyo,Garissa,Farlibaax,Dhalwo,Eyl,Goobweyn,Rabai,Manga,Merti,Hula,Kaxare,Bacadweyn,Burdhubo,Samburu,Ogembo,Amilma,Akokta,Afagra,Akinta,Apolma,Afumta,Autma,Apuma,Anurta,Aelta,Adokma,Amasra,Afogta,Abesma,Adata,Gongala,Gongama,Gongawa,Gongara,Gongaka"
+  "b": "Bonga,Tepi,Mizan Teferi,Decha,Gesha,Gewata,Ginbo,Adiyo,Chena,Cheta,Deka,Sayilem,Telo,Wacha,Shishinda,Awurada,Bita,Goba,Menjiwo,Dar es Salaam,Dodoma,Arusha,Mwanza,Tanga,Mbeya,Ekerenyo,Garissa,Farlibaax,Dhalwo,Eyl,Goobweyn,Rabai,Manga,Merti,Hula,Kaxare,Bacadweyn,Burdhubo,Ogembo,Amilma,Akokta,Afagra,Akinta,Apolma,Afumta,Autma,Apuma,Anurta,Aelta,Adokma,Amasra,Afogta,Abesma,Adata,Gongala,Gongama,Gongawa,Gongara,Gongaka,Kankan,Samburu"
 },
 {
     "name": "Geji",
@@ -2692,7 +2692,7 @@ window.africaNameBases = [
   "max": 13,
   "d": "lnrt",
   "m": 0,
-  "b": "Gyaazi,Bichiki,Sakani,Zaranda,Byeru,Haɗobilang,Pakimi,Beddare,Balla,Mәgang,Rauta Geji,Dawa,Gumau,Rishi,Badiko,Tafawa-Balewa,Toro,Bununu,Dass,Kuru,Jos,Dar es Salaam,Dodoma,Arusha,Mwanza"
+  "b": "Gyaazi,Bichiki,Sakani,Zaranda,Byeru,Haɗobilang,Pakimi,Beddare,Balla,Mәgang,Rauta Geji,Dawa,Gumau,Rishi,Badiko,Tafawa-Balewa,Toro,Bununu,Dass,Jos,Dar es Salaam,Dodoma,Arusha,Mwanza,Nzérékoré,Kuru"
 },
 {
     "name": "Fe-fe",
@@ -2719,7 +2719,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Pankshin,Mangu,Bokkos,Daffo,Shagawu,Tambas,Ron,Langtang,Wase,Keffi,Lafia,Akwanga,Shendam,Dar es Salaam,Dodoma,Arusha,Mwanza,Tanga,Mbeya,Songea,Kigoma,Tabora,Morogoro,Iringa,Shinyanga,Kisimani,Ntimaru,Illeret,Jerree,Warshiek,Cadaado,Mgangani,Karungu,Dida,Kakuma,Garsale,Jowhaar,Farlibaax,Pongwe,KenduBay,Akidsa,Abutma,Adirma,Amitma,Apunma,Alisa,Aarma,Alibfa,Afelma,Abursa,Aobsa,Abolma,Adikfa,Apegma,Akatma,Fyerla,Fyerma,Fyerwa,Fyerra,Fyerka"
+  "b": "Pankshin,Mangu,Bokkos,Daffo,Shagawu,Tambas,Ron,Langtang,Wase,Keffi,Lafia,Akwanga,Shendam,Dar es Salaam,Dodoma,Arusha,Mwanza,Tanga,Mbeya,Songea,Kigoma,Tabora,Morogoro,Iringa,Shinyanga,Kisimani,Ntimaru,Illeret,Jerree,Warshiek,Cadaado,Mgangani,Karungu,Dida,Kakuma,Garsale,Jowhaar,Farlibaax,Pongwe,Akidsa,Abutma,Adirma,Amitma,Apunma,Alisa,Aarma,Alibfa,Afelma,Abursa,Aobsa,Abolma,Adikfa,Apegma,Akatma,Fyerla,Fyerma,Fyerwa,Fyerra,Fyerka,KenduBay"
 },
 {
     "name": "Ga'anda", "i": 11238, "min": 3, "max": 11, "d": "lnrt", "m": 0, "b": "Gombi,Song,Mubi,Biu,Guyuk,Hong,Yola,Madagali,Michika,Garkida,Guyaku,Boga,Numan,Demsa,Jimeta,Ganye,Jada,Fufore,Lamurde,Mayo-Belwa,Toungo,Shelleng,Maiha,Ngaura,Pindiga,Rangwe,Takwa,Dimeka,Sablaale,Yubbe,Huddur,Mikinduni,Kakamega,Kaloleni,Arero,Cagaaran,Ufeyn,Dinsor,Jongole,Kimilili,Amobta,Alulfa,Amerta,Afilfa,Anetsa,Afagfa,Apabta,Apalfa,Apeksa,Aibfa,Ametta,Abodfa,Adogta,Akesa,Aista,Gaandala,Gaandama,Gaandawa,Gaandara,Gaandaka"
@@ -2749,7 +2749,7 @@ window.africaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-  "b": "Ndélé,Aliou,Goz Amar II,Bria,Ouadda,Kaga-Bandoro,Bambari,Berbérati,Bossangoa,Bouar,Yola,Mubi,Madagali,Michika,Hong,Gombi,Song,Garkida,Guyaku,Boga,Numan,Demsa,Jimeta,Ganye,Jada,Mgangani,Karungu,Dida,Kakuma,Garsale,Jowhaar,Farlibaax,Pongwe,KenduBay,Faza,Omorate,Qoton,Afgoi,Beledhawo,Jamia,Afigma,Adonta,Afatma,Aenta,Abuta,Anukma,Aludma,Aonma,Afabma,Akakra,Ailma,Apagta,Afatta,Adodma,Akemta,Gemela,Gemema,Gemewa,Gemera,Gemeka"
+  "b": "Ndélé,Aliou,Goz Amar II,Bria,Ouadda,Kaga-Bandoro,Bambari,Berbérati,Bossangoa,Bouar,Yola,Mubi,Madagali,Michika,Hong,Gombi,Song,Garkida,Guyaku,Boga,Numan,Demsa,Jimeta,Ganye,Jada,Mgangani,Karungu,Dida,Kakuma,Garsale,Jowhaar,Farlibaax,Pongwe,Faza,Omorate,Qoton,Afgoi,Beledhawo,Jamia,Afigma,Adonta,Afatma,Aenta,Abuta,Anukma,Aludma,Aonma,Afabma,Akakra,Ailma,Apagta,Afatta,Adodma,Akemta,Gemela,Gemema,Gemewa,Gemera,Gemeka,KenduBay"
 },
 {
     "name": "Gendza",
@@ -2803,7 +2803,7 @@ window.africaNameBases = [
   "max": 13,
   "d": "lnrt",
   "m": 0,
-  "b": "Maseru,Mafeteng,Mohale's Hoek,Qacha's Nek,Quthing,Teyateyaneng,Butha-Buthe,Leribe,Maputsoe,Mazenod,Thaba-Tseka,Katse,Ha Ramabanta,Mokhotlong,Phamong,Sehonghong,Yola,Mubi,Madagali,Michika,Hong,Gombi,Song,Garkida,Guyaku,Aderburg,Alubland,Alasburg,Apoburg,Aomburg,Anoside,Afikland,Anakland,Apedburg,Apubland,Anokside,Amirland,Afasburg,Aasburg,Anosside,Guanchetown,Guancheville,Guancheburg,Guancheview,Guancheside"
+  "b": "Maseru,Mafeteng,Mohale's Hoek,Qacha's Nek,Quthing,Teyateyaneng,Butha-Buthe,Leribe,Maputsoe,Mazenod,Thaba-Tseka,Katse,Ha Ramabanta,Mokhotlong,Phamong,Sehonghong,Yola,Mubi,Madagali,Michika,Hong,Gombi,Song,Garkida,Guyaku,Guanchetown,Guancheville,Guancheburg,Guancheview,Guancheside,Aderburg,Alubland,Alasburg,Apoburg,Aomburg,Anoside,Afikland,Anakland,Apedburg,Apubland,Anokside,Amirland,Afasburg,Aasburg,Anosside"
 },
 {
     "name": "Gude",
@@ -2842,7 +2842,7 @@ window.africaNameBases = [
   "max": 19,
   "d": "lnrt",
   "m": 0,
-  "b": "Timimoun,Adrar,Reggane,Bordj Badji Mokhtar,Tamanrasset,Aoulef,Fenoughil,Metarfa,Tamentit,Charouine,Adghak,Yola,Mubi,Madagali,Michika,Hong,Gombi,Song,Garkida,Guyaku,Boga,Numan,Demsa,Jimeta,Ganye,Akasford,Abatford,Alerside,Abosford,Apetford,Afubford,Apukford,Afadside,Aobside,Apodford,Akakford,Akinford,Ababford,Alodland,Amegside,Guraratown,Guraraville,Guraraburg,Guraraview,Guraraside"
+  "b": "Timimoun,Adrar,Reggane,Bordj Badji Mokhtar,Tamanrasset,Aoulef,Fenoughil,Metarfa,Tamentit,Charouine,Adghak,Yola,Mubi,Madagali,Michika,Hong,Gombi,Song,Garkida,Guyaku,Boga,Numan,Demsa,Jimeta,Ganye,Porto-Novo,Parakou,Sokodé,Kara,Cape Coast,Yamoussoukro,Dakar,Bamako,Ouagadougou,Conakry,Akasford,Abatford,Alerside,Abosford,Apetford,Afubford,Apukford,Afadside,Aobside,Apodford,Akakford,Akinford,Ababford,Alodland,Amegside,Guraratown,Guraraville,Guraraburg,Guraraview,Guraraside"
 },
 {
     "name": "Hina",
@@ -2860,7 +2860,7 @@ window.africaNameBases = [
   "max": 13,
   "d": "lnrt",
   "m": 0,
-  "b": "Chefchaouen,Tetouan,Tangier,Asilah,Larache,Ksar el-Kebir,Al Hoceima,Ouezzane,Rissani,Fnideq,Yola,Mubi,Madagali,Michika,Hong,Gombi,Song,Garkida,Guyaku,Boga,Numan,Demsa,Jimeta,Ganye,Jada,Aolport,Afuport,Amabport,Apemport,Abunport,Abonville,Apurport,Amarview,Anotport,Abagville,Aloville,Aelport,Aurville,Akanville,Adomport,Ghomaratown,Ghomaraville,Ghomaraburg,Ghomaraview,Ghomaraside"
+  "b": "Chefchaouen,Tetouan,Tangier,Asilah,Larache,Ksar el-Kebir,Al Hoceima,Ouezzane,Rissani,Fnideq,Yola,Mubi,Madagali,Michika,Hong,Gombi,Song,Garkida,Guyaku,Boga,Numan,Demsa,Jimeta,Ganye,Jada,Accra,Kumasi,Abidjan,Lomé,Cotonou,Lagos,Kano,Ibadan,Abuja,Tamale,Bouaké,Aolport,Afuport,Amabport,Apemport,Abunport,Abonville,Apurport,Amarview,Anotport,Abagville,Aloville,Aelport,Aurville,Akanville,Adomport,Ghomaratown,Ghomaraville,Ghomaraburg,Ghomaraview,Ghomaraside"
 },
 {
     "name": "Gidar",
@@ -2887,7 +2887,7 @@ window.africaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-  "b": "Mahuta,Fakai,Zuru,Birnin Kebbi,Argungu,Jega,Bunza,Kalgo,Gwandu,Aleiro,Augie,Yola,Mubi,Madagali,Michika,Hong,Gombi,Song,Garkida,Guyaku,Boga,Numan,Demsa,Jimeta,Ganye"
+  "b": "Mahuta,Fakai,Birnin Kebbi,Argungu,Jega,Bunza,Kalgo,Gwandu,Aleiro,Augie,Yola,Mubi,Madagali,Michika,Hong,Gombi,Song,Garkida,Guyaku,Boga,Numan,Demsa,Jimeta,Ganye,Saint-Louis,Zuru"
 },
 {
     "name": "Hwana",
@@ -2896,7 +2896,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Gombi,Song,Mubi,Michika,Hong,Garkida,Guyaku,Boga,Dingai,Ga'Anda,Lala,Tawa,Yang,Yola,Madagali,Numan,Demsa,Jimeta,Ganye,Jada,Fufore,Lamurde,Mayo-Belwa,Toungo,Shelleng,Sarweyne,Koorma,Xarardheere,Mariakani,Kisii,Maralal,Liibaan,Duduble,Galdogob,Dhoobley,Vanga,Suba,Korr,Gurfuudle,Dabare,Apotwa,Alunbwe,Aoska,Amilbwe,Abidwa,Abimbwe,Alerwa,Akalbwe,Aorka,Amedbwe,Alamwa,Akodbwe,Amomka,Anotwa,Anegwa,Hwanala,Hwanama,Hwanawa,Hwanara,Hwanaka"
+  "b": "Gombi,Song,Mubi,Michika,Hong,Garkida,Guyaku,Boga,Dingai,Lala,Tawa,Yang,Yola,Madagali,Numan,Demsa,Jimeta,Ganye,Jada,Fufore,Lamurde,Mayo-Belwa,Toungo,Shelleng,Sarweyne,Koorma,Xarardheere,Mariakani,Kisii,Maralal,Liibaan,Duduble,Galdogob,Dhoobley,Vanga,Suba,Korr,Gurfuudle,Dabare,Apotwa,Alunbwe,Aoska,Amilbwe,Abidwa,Abimbwe,Alerwa,Akalbwe,Aorka,Amedbwe,Alamwa,Akodbwe,Amomka,Anotwa,Anegwa,Hwanala,Hwanama,Hwanawa,Hwanara,Hwanaka,Ga'Anda"
 },
 {
     "name": "Hya",
@@ -2941,7 +2941,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Abuja,New Karshi,Karu,Minna,Bida,Lokoja,Kaduna,Keffi,Lafia,Akwanga,Nasarawa,Yola,Mubi,Madagali,Michika,Hong,Gombi,Song,Garkida,Guyaku,Boga,Numan,Demsa,Jimeta,Ganye,Wanleweyn,Dolow,Gongoni,Bondo,Vipingo,Konso,CeyrTabaan,Laasqoray,QansaxDheere,Garsen,Mumias,Malindi,Yavello,Guba,Xaafuun,Aemsa,Aotfa,Afemsa,Apasfa,Akarta,Akelsa,Alikfa,Anudta,Ademta,Amotfa,Aumfa,Anerfa,Apebsa,Adefa,Afersa,Gwandarala,Gwandarama,Gwandarawa,Gwandarara,Gwandaraka"
+  "b": "Abuja,New Karshi,Karu,Minna,Bida,Lokoja,Kaduna,Keffi,Lafia,Akwanga,Nasarawa,Yola,Mubi,Madagali,Michika,Hong,Gombi,Song,Garkida,Guyaku,Boga,Numan,Demsa,Jimeta,Ganye,Wanleweyn,Dolow,Gongoni,Bondo,Vipingo,Konso,CeyrTabaan,Laasqoray,Garsen,Mumias,Malindi,Yavello,Guba,Xaafuun,Aemsa,Aotfa,Afemsa,Apasfa,Akarta,Akelsa,Alikfa,Anudta,Ademta,Amotfa,Aumfa,Anerfa,Apebsa,Adefa,Afersa,Gwandarala,Gwandarama,Gwandarawa,Gwandarara,Gwandaraka,QansaxDheere"
 },
 {
     "name": "Komo", "i": 11646, "min": 3, "max": 11, "d": "lnrt", "m": 0, "b": "Asosa,Gambella,Kurmuk,Assosa,Penishuba,Yabeldigis,Mao,Komo,Ura,Aftit,Bisha,Guba,Didessa,Omo,Beloj,Dabus,Sherkole,Menge,Durame,Kacha,Bita,Al-Fasher,Al-Junaynah,Al-Ubayyid,Al-Damazin"
@@ -2953,7 +2953,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Serengeti,Mwiba,Makao,Ngorongoro,Maswa,Bukoba,Mwanza,Musoma,Shinyanga,Tabora,Arusha,Dodoma,Manyara,Simanjiro,Kiteto,Babati,Hanang,Handeni,Kilindi,Korogwe,Lushoto,Mkinga,Monduli,Njombe,Rungwe,Shalambood,Kilifi,Rioma,Habaswein,TulaNaga,Sarweyne,Koorma,Xarardheere,Mariakani,Kisii,Maralal,Liibaan,Duduble,Galdogob,Dhoobley,Aesna,Ainka,Anotna,Afigka,Adirna,Amena,Aninka,Anetna,Afirna,Aitka,Abagna,Apolbwe,Abimka,Aasna,Alakka,Omaiola,Omaioma,Omaiowa,Omaiora,Omaioka"
+  "b": "Serengeti,Mwiba,Makao,Ngorongoro,Maswa,Bukoba,Mwanza,Musoma,Shinyanga,Tabora,Arusha,Dodoma,Manyara,Simanjiro,Kiteto,Babati,Hanang,Handeni,Kilindi,Korogwe,Lushoto,Mkinga,Monduli,Njombe,Rungwe,Shalambood,Kilifi,Rioma,Habaswein,Sarweyne,Koorma,Xarardheere,Mariakani,Kisii,Maralal,Liibaan,Duduble,Galdogob,Dhoobley,Aesna,Ainka,Anotna,Afigka,Adirna,Amena,Aninka,Anetna,Afirna,Aitka,Abagna,Apolbwe,Abimka,Aasna,Alakka,Omaiola,Omaioma,Omaiowa,Omaiora,Omaioka,TulaNaga"
 },
 {
     "name": "Ongota", "i": 13340, "min": 4, "max": 12, "d": "lnrt", "m": 0,   "b": "Muts'e,Weyto,Konso,Jinka,Arbore,Ts'amakko,Maale,Aydolle,Benna,Tsemayi,Dime,Arba Minch,Turmi,Hawassa,Dilla,Sodo,Wolaita Sodo,Gamo,Gofa,Bench Maji,Keffa,Sheka,Burji,Sheko,Me'en,Harardhere,Bamba,Keroka,Baragoi,Ddabo,Ragehe,Godinlabe,Afmadow,Jimbo,Suna,Kargi,Geesaley,Dhuusamareeb,Balad,Gerille,Anabra,Augra,Aeksa,Afadsa,Anussa,Aninsa,Afobsa,Adonra,Ameksa,Aludra,Animsa,Apunra,Akegra,Ananta,Adesra,Ongotala,Ongotama,Ongotawa,Ongotara,Ongotaka"
@@ -2965,7 +2965,7 @@ window.africaNameBases = [
   "max": 13,
   "d": "lnrt",
   "m": 0,
-  "b": "Tinghir,Ouijjane,Asaka,Imini,Draa,Demnate,Ait Bou Oulli,Oufrane,Tiznit,Illigh,Al Hoceima,Ouezzane,Rissani,Ksar Sghir,Moulay Bousselham,Sidi Ifni,Tarfaya,Laayoune,Smara,Dakhla,Azrou,Ifrane,Khenifra,Midelt,Azilal,Amatford,Akagford,Amamburg,Amerford,Amanford,Aparford,Alikford,Apiktown,Adosford,Abarford,Aesford,Afesford,Afodford,Afarford,Aagford,JudeoBerbertown,JudeoBerberville,JudeoBerberburg,JudeoBerberview,JudeoBerberside"
+  "b": "Tinghir,Ouijjane,Asaka,Imini,Draa,Demnate,Ait Bou Oulli,Oufrane,Tiznit,Illigh,Al Hoceima,Ouezzane,Rissani,Ksar Sghir,Moulay Bousselham,Sidi Ifni,Tarfaya,Laayoune,Smara,Dakhla,Azrou,Ifrane,Khenifra,Midelt,Azilal,Imilchil,Tinerhir,Ouarzazate,Zagora,Agadir,Amatford,Akagford,Amamburg,Amerford,Amanford,Aparford,Alikford,Apiktown,Adosford,Abarford,Aesford,Afesford,Afodford,Afarford,Aagford,JudeoBerbertown,JudeoBerberville,JudeoBerberburg,JudeoBerberview,JudeoBerberside"
 },
 {
     "name": "Proto-Ron",
@@ -2974,7 +2974,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Pankshin,Mangu,Bokkos,Daffo,Shagawu,Tambas,Ron,Langtang,Wase,Keffi,Lafia,Akwanga,Shendam,Barkin Ladi,Bukuru,Gyel,Jos,Riyom,Kanke,Kanam,Vom,Kagoro,Kajju,Kagarko,Kuru,Jariiban,Garbaharey,Geza,Uriri,Bubisa,Kumbare,Sheikh,GalCad,Ngei,Takawiri,Nyangusu,Loyangalani,Caano,CelDheer,Saakow,Akesna,Akakna,Amoka,Amakka,Akona,Anuska,Aotka,Afalka,Aposna,Afagka,Adadna,Afolna,Amesna,Abona,Amokka,ProtoRonla,ProtoRonma,ProtoRonwa,ProtoRonra,ProtoRonka"
+  "b": "Pankshin,Mangu,Bokkos,Daffo,Shagawu,Tambas,Ron,Langtang,Wase,Keffi,Lafia,Akwanga,Shendam,Barkin Ladi,Gyel,Jos,Riyom,Kanke,Kanam,Vom,Kagoro,Kajju,Kagarko,Jariiban,Garbaharey,Geza,Uriri,Bubisa,Kumbare,Sheikh,GalCad,Ngei,Takawiri,Nyangusu,Loyangalani,Caano,CelDheer,Saakow,Akesna,Akakna,Amoka,Amakka,Akona,Anuska,Aotka,Afalka,Aposna,Afagka,Adadna,Afolna,Amesna,Abona,Amokka,Thiès,Kaolack,Bukuru,Kuru,ProtoRonla,ProtoRonma,ProtoRonwa,ProtoRonra,ProtoRonka"
 },
 {
     "name": "Proto-Warji",
@@ -2992,7 +2992,7 @@ window.africaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-  "b": "Mongu,Sesheke,Sioma,Kalabo,Lukulu,Shangombo,Kwamashi,Limakazo,Kazungula,Senanga,Lealui,Liteta,Nalolo,Imusho,Lufubu,Luena,Lupingu,Ngoma,Nzubo,Watongo,Kabanga,Litenge,Lukonde,Lunge,Mwandi,Goobweyn,Rabai,Manga,Merti,Hula,Kaxare,Bacadweyn,Burdhubo,Samburu,Ogembo,SouthHorr,Dhalwo,Aqable,Jariiban,Garbaharey,Aolwa,Ariwa,Adatla,Alorwa,Abegna,Abutna,Aferna,Alulna,Aabna,Anabla,Aelwa,Aenna,Akewa,Aduwa,Amugwa,NorthBauchila,NorthBauchima,NorthBauchiwa,NorthBauchira,NorthBauchika"
+  "b": "Mongu,Sesheke,Sioma,Kalabo,Lukulu,Shangombo,Kwamashi,Limakazo,Kazungula,Senanga,Lealui,Liteta,Nalolo,Imusho,Lufubu,Luena,Lupingu,Ngoma,Nzubo,Watongo,Kabanga,Litenge,Lukonde,Lunge,Mwandi,Goobweyn,Rabai,Manga,Merti,Hula,Kaxare,Bacadweyn,Burdhubo,Ogembo,SouthHorr,Dhalwo,Aqable,Jariiban,Garbaharey,Aolwa,Ariwa,Adatla,Alorwa,Abegna,Abutna,Aferna,Alulna,Aabna,Anabla,Aelwa,Aenna,Akewa,Aduwa,Amugwa,Ziguinchor,Samburu,NorthBauchila,NorthBauchima,NorthBauchiwa,NorthBauchira,NorthBauchika"
 },
 {
     "name": "Ron",
@@ -3028,7 +3028,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Timbuktu,Gao,Kidal,Agadez,Niamey,Tamanrasset,Ghardaïa,Ouargla,Arlit,In-Gall,Tahoua,Abalak,Akoubounou,Tessalit,Taoudénit,Araouane,Boghassa,Tinzalane,Tin Zaouaten,Azawad,Niafunké,Goundam,Nara,Nioro du Sahel,Sokolo,Cadaado,Mgangani,Karungu,Dida,Kakuma,Garsale,Jowhaar,Farlibaax,Pongwe,KenduBay,Faza,Omorate,Qoton,Afgoi,Beledhawo,TuaregBerberla,TuaregBerberma,TuaregBerberwa,TuaregBerberra,TuaregBerberka,TuaregBerberta,TuaregBerberbwe,TuaregBerbersa,TuaregBerberna,TuaregBerberfa,TuaregBerberga,TuaregBerberja,TuaregBerberda,TuaregBerberne,TuaregBerberle,TuaregBerberre,TuaregBerberzi,TuaregBerberbo,TuaregBerberki,TuaregBerbermu"
+  "b": "Timbuktu,Gao,Kidal,Agadez,Niamey,Tamanrasset,Ghardaïa,Ouargla,Arlit,In-Gall,Tahoua,Abalak,Akoubounou,Tessalit,Taoudénit,Araouane,Boghassa,Tinzalane,Tin Zaouaten,Azawad,Niafunké,Goundam,Nara,Nioro du Sahel,Sokolo,Cadaado,Mgangani,Karungu,Dida,Kakuma,Garsale,Jowhaar,Farlibaax,Pongwe,Faza,Omorate,Qoton,Afgoi,Beledhawo,KenduBay,TuaregBerberla,TuaregBerberma,TuaregBerberwa,TuaregBerberra,TuaregBerberka,TuaregBerberta,TuaregBerberbwe,TuaregBerbersa,TuaregBerberna,TuaregBerberfa,TuaregBerberga,TuaregBerberja,TuaregBerberda,TuaregBerberne,TuaregBerberle,TuaregBerberre,TuaregBerberzi,TuaregBerberbo,TuaregBerberki,TuaregBerbermu"
 },
 {
   "name": "Ndebele",
@@ -3046,7 +3046,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Nyeri,Nanyuki,Embu,Meru,Thika,Murang'a,Kiambu,Gatundu,Karatina,Nairobi,Mombasa,Kisumu,Eldoret,Nakuru,Kitale,Kakamega,Bungoma,Busia,Machakos,Kisii,Nyamira,Siaya,Migori,Kericho,Kikuyu,Githunguri,Kabete,East Wanga Gatundu,BurAcaba,Bargoni,Chwele,Hola,Degehabur,Bagula,Iskushuban,Gendershe,Garsen,Ikonge,ElDera,Haraale,Salkaxo,Garowe,Janaale,WesternBerberla,WesternBerberma,WesternBerberwa,WesternBerberra,WesternBerberka,WesternBerberta,WesternBerberbwe,WesternBerbersa,WesternBerberna,WesternBerberfa,WesternBerberga,WesternBerberja,WesternBerberda,WesternBerberne,WesternBerberle,WesternBerberre,WesternBerberzi,WesternBerberbo,WesternBerberki,WesternBerbermu"
+  "b": "Nyeri,Nanyuki,Embu,Meru,Thika,Murang'a,Kiambu,Gatundu,Karatina,Nairobi,Mombasa,Kisumu,Eldoret,Nakuru,Kitale,Kakamega,Bungoma,Busia,Machakos,Kisii,Nyamira,Siaya,Migori,Kericho,Kikuyu,Githunguri,Kabete,East Wanga Gatundu,BurAcaba,Bargoni,Chwele,Hola,Degehabur,Bagula,Iskushuban,Gendershe,Garsen,Ikonge,Haraale,Salkaxo,Garowe,Janaale,ElDera,WesternBerberla,WesternBerberma,WesternBerberwa,WesternBerberra,WesternBerberka,WesternBerberta,WesternBerberbwe,WesternBerbersa,WesternBerberna,WesternBerberfa,WesternBerberga,WesternBerberja,WesternBerberda,WesternBerberne,WesternBerberle,WesternBerberre,WesternBerberzi,WesternBerberbo,WesternBerberki,WesternBerbermu"
 },
 {
     "name": "Zenaga Berber",
@@ -3055,7 +3055,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Mederdra,Nouakchott,Rosso,Kaédi,Aleg,Kiffa,Atar,Nairobi,Mombasa,Kisumu,Eldoret,Nakuru,Thika,Nyeri,Meru,Embu,Kitale,Kakamega,Bungoma,Busia,Machakos,Kisii,Nyamira,Siaya,Migori,Xarardheere,Mariakani,Kisii,Maralal,Liibaan,Duduble,Galdogob,Dhoobley,Vanga,Suba,Korr,Gurfuudle,Dabare,Runni,Kachoda,ZenagaBerberla,ZenagaBerberma,ZenagaBerberwa,ZenagaBerberra,ZenagaBerberka,ZenagaBerberta,ZenagaBerberbwe,ZenagaBerbersa,ZenagaBerberna,ZenagaBerberfa,ZenagaBerberga,ZenagaBerberja,ZenagaBerberda,ZenagaBerberne,ZenagaBerberle,ZenagaBerberre,ZenagaBerberzi,ZenagaBerberbo,ZenagaBerberki,ZenagaBerbermu"
+  "b": "Mederdra,Nouakchott,Rosso,Kaédi,Aleg,Kiffa,Atar,Nairobi,Mombasa,Kisumu,Eldoret,Thika,Nyeri,Meru,Embu,Kitale,Kakamega,Bungoma,Busia,Machakos,Kisii,Nyamira,Siaya,Migori,Xarardheere,Mariakani,Maralal,Liibaan,Duduble,Galdogob,Dhoobley,Vanga,Suba,Korr,Gurfuudle,Dabare,Runni,Kachoda,Tiznit,Nakuru,ZenagaBerberla,ZenagaBerberma,ZenagaBerberwa,ZenagaBerberra,ZenagaBerberka,ZenagaBerberta,ZenagaBerberbwe,ZenagaBerbersa,ZenagaBerberna,ZenagaBerberfa,ZenagaBerberga,ZenagaBerberja,ZenagaBerberda,ZenagaBerberne,ZenagaBerberle,ZenagaBerberre,ZenagaBerberzi,ZenagaBerberbo,ZenagaBerberki,ZenagaBerbermu"
 },
 {
     "name": "Luo",
@@ -3064,10 +3064,10 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kisumu,Mombasa,Nairobi,Eldoret,Kakamega,Bungoma,Siaya,Homa Bay,Migori,Kisii,Nyamira,Nakuru,Thika,Nyeri,Meru,Embu,Kitale,Busia,Machakos,Kericho,Awendo,Bondo,Kisumu West,Awang,Oyugis,Mathare"
+  "b": "Kisumu,Mombasa,Nairobi,Eldoret,Kakamega,Bungoma,Siaya,Homa Bay,Migori,Kisii,Nyamira,Thika,Nyeri,Meru,Embu,Kitale,Busia,Machakos,Kericho,Awendo,Bondo,Kisumu West,Awang,Oyugis,Mathare,Nakuru"
 },
 {
-    "name": "Makonde", "i": 13663, "min": 4, "max": 18, "d": "lnrt", "m": 0, "b": "Mtwara,Lindi,Masasi,Nachingwea,Ruangwa,Newala,Tunduru,Maputo,Nampula,Beira,Quelimane,Chimoio,Tete,Gondola,Inhambane,Pemba,Lichinga,Angoche,Ilha de Moçambique,Mocímboa da Praia,Negomano,Mueda,Macomia,Mecula,Mecufi,Chiure,Namuno,Nipepe,Nangade,Muidumbe,Meluco,Murrupula,Nhamayabu,Nhangua,Nhassoro,Nioma,Nuoma"
+    "name": "Makonde", "i": 13663, "min": 4, "max": 18, "d": "lnrt", "m": 0, "b": "Mtwara,Lindi,Masasi,Nachingwea,Ruangwa,Newala,Maputo,Nampula,Beira,Quelimane,Chimoio,Tete,Gondola,Inhambane,Pemba,Lichinga,Angoche,Ilha de Moçambique,Mocímboa da Praia,Negomano,Mueda,Macomia,Mecula,Mecufi,Chiure,Namuno,Nipepe,Nangade,Muidumbe,Meluco,Murrupula,Nhamayabu,Nhangua,Nhassoro,Nioma,Nuoma,Touba,Tunduru"
 },
 {
     "name": "Kunda",
@@ -3094,10 +3094,10 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Tarime,Musoma,Mwanza,Rorya,Nyancha,Luo-Imbo,Mongu,Sesheke,Sioma,Kalabo,Lukulu,Shangombo,Kwamashi,Limakazo,Namibia,Lukonge,Kazungula,Senanga,Maputo,Nampula,Beira,Quelimane,Chimoio,Tete,Gondola,Sindo,Galole,Kalokol,Harardera,Mahaday,Yeed,Kidimu,HomaBay,Kiunga,Kibish,GofKudle,Wanleweyn,Dolow,Gongoni,Bondo,SubaSimbitila,SubaSimbitima,SubaSimbitiwa,SubaSimbitira,SubaSimbitika,SubaSimbitita,SubaSimbitibwe,SubaSimbitisa,SubaSimbitina,SubaSimbitifa,SubaSimbitiga,SubaSimbitija,SubaSimbitida,SubaSimbitine,SubaSimbitile,SubaSimbitire,SubaSimbitizi,SubaSimbitibo,SubaSimbitiki,SubaSimbitimu"
+  "b": "Tarime,Musoma,Mwanza,Rorya,Nyancha,Mongu,Sesheke,Sioma,Kalabo,Lukulu,Shangombo,Kwamashi,Limakazo,Namibia,Lukonge,Kazungula,Senanga,Maputo,Nampula,Beira,Quelimane,Chimoio,Tete,Gondola,Sindo,Galole,Kalokol,Harardera,Mahaday,Yeed,Kidimu,Kiunga,Kibish,Wanleweyn,Dolow,Gongoni,Bondo,Luo-Imbo,HomaBay,GofKudle,SubaSimbitila,SubaSimbitima,SubaSimbitiwa,SubaSimbitira,SubaSimbitika,SubaSimbitita,SubaSimbitibwe,SubaSimbitisa,SubaSimbitina,SubaSimbitifa,SubaSimbitiga,SubaSimbitija,SubaSimbitida,SubaSimbitine,SubaSimbitile,SubaSimbitire,SubaSimbitizi,SubaSimbitibo,SubaSimbitiki,SubaSimbitimu"
 },
 {
-    "name": "Kiga", "i": 13743, "min": 4, "max": 11, "d": "lnrt", "m": 0, "b": "Kabale,Kisoro,Rukungiri,Kanungu,Rubanda,Ntungamo,Mbarara,Kampala,Entebbe,Jinja,Gulu,Lira,Mbale,Tororo,Fort Portal,Hoima,Masindi,Soroti,Mityana,Bushenyi,Isingiro,Ibanda,Kamwenge,Kyegegwa,Kiruhura,Mitoma,Mitooma,Rubirizi,Sheema,Garsale,Jowhaar,Farlibaax,Pongwe,KenduBay,Faza,Omorate,Qoton,Afgoi,Beledhawo,Jamia,Siaya,Samburu,Ririba,Galolk,Apugka,Apobka,Adenwa,Anabka,Aloska,Amilla,Amekka,Abelka,Adekwa,Aobka,Aella,Adabla,Alarka,Adigka,Aketla,Kigala,Kigama,Kigawa,Kigara,Kigaka"
+    "name": "Kiga", "i": 13743, "min": 4, "max": 11, "d": "lnrt", "m": 0, "b": "Kabale,Kisoro,Kanungu,Rubanda,Ntungamo,Mbarara,Kampala,Entebbe,Jinja,Gulu,Lira,Mbale,Tororo,Fort Portal,Hoima,Masindi,Soroti,Mityana,Bushenyi,Isingiro,Ibanda,Kamwenge,Kyegegwa,Kiruhura,Mitoma,Mitooma,Rubirizi,Sheema,Garsale,Jowhaar,Farlibaax,Pongwe,Faza,Omorate,Qoton,Afgoi,Beledhawo,Jamia,Siaya,Ririba,Galolk,Apugka,Apobka,Adenwa,Anabka,Aloska,Amilla,Amekka,Abelka,Adekwa,Aobka,Aella,Adabla,Alarka,Adigka,Aketla,Kigala,Kigama,Kigawa,Kigara,Kigaka,Ségou,Sikasso,Rukungiri,KenduBay,Samburu"
 },
 {
     "name": "Moore",
@@ -3124,7 +3124,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bujumbura,Gitega,Muyinga,Ngozi,Ruyigi,Kayanza,Bururi,Muramvya,Makamba,Rumonge,Mwaro,Cankuzo,Karusi,Ntahangwa,Kabizi,Mugendo,Musongati,Mutaho,Nyamurenza,Nzozi,Rubanda,Rugombo,Rutana,Bubanza,Bujumbura Mairie"
+  "b": "Bujumbura,Gitega,Muyinga,Ngozi,Ruyigi,Kayanza,Muramvya,Makamba,Rumonge,Mwaro,Cankuzo,Karusi,Ntahangwa,Kabizi,Mugendo,Musongati,Mutaho,Nyamurenza,Nzozi,Rubanda,Rugombo,Rutana,Bubanza,Bujumbura Mairie,Bahir Dar,Bururi"
 },
 {
     "name": "Kongo",
@@ -3142,7 +3142,7 @@ window.africaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-  "b": "Kinshasa,Brazzaville,Pointe-Noire,Dolisie,Nkayi,Boma,Matadi,Bandundu,Kikwit,Madingou,Mossendjo,Ntamo,Nsaba,Ntemo,Ntima,Ntokou,Ntsila,Ntumba,Nzambi,Nzinga,Owando,Poto-Poto,Yamba,Kindamba,Likasi"
+  "b": "Kinshasa,Pointe-Noire,Dolisie,Nkayi,Boma,Matadi,Bandundu,Kikwit,Madingou,Mossendjo,Ntamo,Nsaba,Ntemo,Ntima,Ntokou,Ntsila,Ntumba,Nzambi,Nzinga,Owando,Poto-Poto,Yamba,Kindamba,Likasi,Mopti,Brazzaville"
 },
 {
     "name": "Kunama",
@@ -3160,10 +3160,10 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Gori,Damtar,Mailao,Bousso,Sarh,N Djamena,Lour,Silo,Bouane,Niaguel,Kouri,Korbol,Kouragwal,Gouam,Doumrao,Moundou,Doba,Koumra,Mongo,Ati,Faya,Biltine,Iriba,Zouar,Ounianga,Mtwapa,Getembe,Habasiwein,Dudun,Toon,Gambol,Harardhere,Bamba,Keroka,Baragoi,Ddabo,Ragehe,Godinlabe,Afmadow,Jimbo,Abukta,Apirsa,Abilta,Adinsa,Anebfa,Alelta,Afekta,Amolta,Apelta,Adogfa,Abelfa,Afotfa,Abumfa,Afibfa,Akarfa,Laalla,Laalma,Laalwa,Laalra,Laalka"
+  "b": "Gori,Damtar,Mailao,Bousso,Sarh,N Djamena,Lour,Silo,Bouane,Niaguel,Korbol,Kouragwal,Gouam,Doumrao,Moundou,Doba,Koumra,Mongo,Ati,Faya,Biltine,Iriba,Zouar,Ounianga,Mtwapa,Getembe,Habasiwein,Dudun,Toon,Gambol,Harardhere,Bamba,Keroka,Baragoi,Ddabo,Ragehe,Godinlabe,Afmadow,Jimbo,Abukta,Apirsa,Abilta,Adinsa,Anebfa,Alelta,Afekta,Amolta,Apelta,Adogfa,Abelfa,Afotfa,Abumfa,Afibfa,Akarfa,Laalla,Laalma,Laalwa,Laalra,Laalka,Timbuktu,Kouri"
 },
 {
-    "name": "Lusoga", "i": 13946, "min": 4, "max": 11, "d": "lnrt", "m": 0, "b":"Jinja,Iganga,Bugiri,Buyende,Kamuli,Luuka,Mayuge,Namayingo,Namutumba,Busembatia,Kampala,Entebbe,Mbarara,Gulu,Lira,Mbale,Tororo,Fort Portal,Hoima,Masindi,Soroti,Kabale,Mityana,Lusoga,Buvuma,Kaliro,Loyangalani,Caano,CelDheer,Saakow,Buni,Ikerege,Mkunumbi,Lodwar,Qorragan,Buulobarde,CeelBarde,Ngomoni,Oyugis,Shella,Turmi,Amolsa,Afegfa,Alebsa,Amegfa,Afenma,Apalsa,Anedfa,Abissa,Alibma,Akorsa,Akebsa,Akogsa,Apubma,Alessa,Apirma,Lusogala,Lusogama,Lusogawa,Lusogara,Lusogaka"
+    "name": "Lusoga", "i": 13946, "min": 4, "max": 11, "d": "lnrt", "m": 0, "b": "Jinja,Iganga,Buyende,Kamuli,Luuka,Mayuge,Namayingo,Namutumba,Busembatia,Kampala,Entebbe,Mbarara,Gulu,Lira,Mbale,Tororo,Fort Portal,Hoima,Masindi,Soroti,Kabale,Mityana,Lusoga,Buvuma,Kaliro,Loyangalani,Caano,CelDheer,Saakow,Buni,Ikerege,Mkunumbi,Lodwar,Qorragan,Buulobarde,CeelBarde,Ngomoni,Oyugis,Shella,Turmi,Amolsa,Afegfa,Alebsa,Amegfa,Afenma,Apalsa,Anedfa,Abissa,Alibma,Akorsa,Akebsa,Akogsa,Apubma,Alessa,Apirma,Lusogala,Lusogama,Lusogawa,Lusogara,Lusogaka,Gao,Bugiri"
 },
 {
     "name": "Tetserret",
@@ -3175,7 +3175,7 @@ window.africaNameBases = [
   "b": "Abalak,Akoubounou,Shadwanka,Agadez,Tahoua,Abada,Abangar Tankossa,Abanguare,Abourmou Gali,Achetaboukoumt,Agada Ibounou,Agada Inazdane,Agada Mouha,Agada Tamkande,Agada Tsoguit,Agakotaf,Akarkar,Akeran Tanah,Akeran Tanchafo,Akoukoulttaguin,Amassa Kolo I,Amassa Kolo II,Anena,Arahen,Assous,Azol"
 },
 {
-    "name": "Berta", "i": 13948, "min": 4, "max": 11, "d": "lnrt", "m": 0, "b": "Kadugli,Mugum,Rashad,Al-Fashir,El-Obeid,Al-Damazin,Berta,Al-Fasher,Al-Junaynah,Al-Ubayyid,El Fasher,Nyala,El Geneina,El Obeid,Dongola,Atbara,Wad Medani,Sennar, Kassala,Dilling,Lagawa,Talodi,Abri,Al-Mijlad,Babanusa"
+    "name": "Berta", "i": 13948, "min": 4, "max": 11, "d": "lnrt", "m": 0, "b": "Kadugli,Mugum,Rashad,Al-Fashir,El-Obeid,Al-Damazin,Berta,Al-Fasher,Al-Junaynah,Al-Ubayyid,El Fasher,Nyala,El Geneina,El Obeid,Dongola,Atbara,Wad Medani,Sennar,Kassala,Dilling,Lagawa,Talodi,Abri,Al-Mijlad,Babanusa"
 },
 {
     "name": "Tasawaq",
@@ -3184,7 +3184,7 @@ window.africaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-  "b": "In-Gall,Teguidda-n-Tessoumt,Agadez,Abalak,Tahoua,Arlit,Tchirozerine,Akoubounou,Shadwanka,Azeye,Tabalak,Tamaya,Mazababu,Tiguirwit,Tofabayogh,Tchin-Tabaredene,Inecal,Ilalo,Kolo,Bouza,Illizi,Bordj,Bouarfa,Tessalit,Araouane,Yavello,Guba,Xaafuun,Lanta,Ozi,Tindinyo,Masalani,ElKere,Garawe,Bargaal,Afgooye,Malindi,Sengera,ElBur,AbudWaaq,Tasawaqla,Tasawaqma,Tasawaqwa,Tasawaqra,Tasawaqka,Tasawaqta,Tasawaqbwe,Tasawaqsa,Tasawaqna,Tasawaqfa,Tasawaqga,Tasawaqja,Tasawaqda,Tasawaqne,Tasawaqle,Tasawaqre,Tasawaqzi,Tasawaqbo,Tasawaqki,Tasawaqmu"
+  "b": "In-Gall,Teguidda-n-Tessoumt,Agadez,Abalak,Tahoua,Arlit,Tchirozerine,Akoubounou,Shadwanka,Azeye,Tabalak,Tamaya,Mazababu,Tiguirwit,Tofabayogh,Tchin-Tabaredene,Inecal,Ilalo,Kolo,Bouza,Illizi,Bordj,Bouarfa,Tessalit,Araouane,Yavello,Guba,Xaafuun,Lanta,Ozi,Tindinyo,Masalani,Garawe,Bargaal,Afgooye,Malindi,Sengera,ElBur,AbudWaaq,Tasawaqla,Tasawaqma,Tasawaqwa,Tasawaqra,Tasawaqka,Tasawaqta,Tasawaqbwe,Tasawaqsa,Tasawaqna,Tasawaqfa,Tasawaqga,Tasawaqja,Tasawaqda,Tasawaqne,Tasawaqle,Tasawaqre,Tasawaqzi,Tasawaqbo,Tasawaqki,Tasawaqmu,ElKere"
 },
 {
     "name": "Tagdal",
@@ -3193,7 +3193,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Abalak,Tahoua,Agadez,Arlit,In-Gall,Tamaya,Mazababu,Tiguirwit,Tofabayogh,Tchin-Tabaredene,Tamatlokko,Kel Amdid,Abargan,Tarbun,Kel Illoko,Ibaroogan,Zinder,Maradi,Niamey,Goure,Doumega,Kolo,Araouane,Bilma,Fachi,SofOmar,Hadud,Bereeda,Shalambood,Kilifi,Rioma,Habaswein,TulaNaga,Sarweyne,Koorma,Xarardheere,Mariakani,Kisii,Maralal,Liibaan,Tagdalla,Tagdalma,Tagdalwa,Tagdalra,Tagdalka,Tagdalta,Tagdalbwe,Tagdalsa,Tagdalna,Tagdalfa,Tagdalga,Tagdalja,Tagdalda,Tagdalne,Tagdalle,Tagdalre,Tagdalzi,Tagdalbo,Tagdalki,Tagdalmu"
+  "b": "Abalak,Tahoua,Agadez,Arlit,In-Gall,Tamaya,Mazababu,Tiguirwit,Tofabayogh,Tchin-Tabaredene,Tamatlokko,Kel Amdid,Abargan,Tarbun,Kel Illoko,Ibaroogan,Zinder,Maradi,Niamey,Goure,Doumega,Kolo,Araouane,Bilma,Fachi,SofOmar,Hadud,Bereeda,Shalambood,Kilifi,Rioma,Habaswein,Sarweyne,Koorma,Xarardheere,Mariakani,Kisii,Maralal,Liibaan,Tagdalla,Tagdalma,Tagdalwa,Tagdalra,Tagdalka,Tagdalta,Tagdalbwe,Tagdalsa,Tagdalna,Tagdalfa,Tagdalga,Tagdalja,Tagdalda,Tagdalne,Tagdalle,Tagdalre,Tagdalzi,Tagdalbo,Tagdalki,Tagdalmu,TulaNaga"
 },
 {
     "name": "Talodi",
@@ -3229,7 +3229,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Katla,Lagawa,Kadugli,Dilling,Talodi,Rashad,Abu Jebha,Tima,Jebel Tima,El Fasher,El Geneina,El Obeid,Wad Medani,Sennar,Kassala,Al-Damazin,Atbara,Dongola,Nyala,Kauda,Kebkabiya,Koltogola,Kurmuk,Lado,Leila,Manawashi,Hareeri,Balcad,Berdaale,Kinarani,Mbita,Bodhai,Kangaten,Holug,BuloBurto,Garbahaarrey,Omaribaya,Yala,Mtwapa,Karamara,Qoryooley,Timala,Timama,Timawa,Timara,KaTima,Timata,Timabwe,Timasa,Timana,Timafa,Timaga,Timaja,Timada,Timane,Timale,Timare,Timazi,Timabo,Timaki,Timamu"
+  "b": "Katla,Lagawa,Kadugli,Dilling,Talodi,Rashad,Abu Jebha,Tima,El Fasher,El Geneina,El Obeid,Wad Medani,Sennar,Kassala,Al-Damazin,Atbara,Dongola,Nyala,Kauda,Kebkabiya,Koltogola,Kurmuk,Lado,Leila,Manawashi,Hareeri,Balcad,Berdaale,Kinarani,Mbita,Bodhai,Kangaten,Holug,BuloBurto,Garbahaarrey,Omaribaya,Yala,Mtwapa,Karamara,Qoryooley,Timala,Timama,Timawa,Timara,Timata,Timabwe,Timasa,Timana,Timafa,Timaga,Timaja,Timada,Timane,Timale,Timare,Timazi,Timabo,Timaki,Timamu,Jebel Tima,KaTima"
 },
 {
     "name": "Tembo",
@@ -3238,7 +3238,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Goma,Bukavu,Masisi,Walikale,Kalehe,Uvira,Rutshuru,Beni,Lubero,Nyamilima,Katabaro,Biriko,Kaseghe,Katirumba,Kiliba,Kilo,Kinmatiza,Lushelo,Lwama,Mabenga,Manombo,Matanda,Mbamba,Mikalayi,Minova,Misisi,Mokambo,Monica,Motombeji,Mudaka Mulumba,Mukenga,Mukwama,Mulamila,Mundu,Mushaki,Mutabana,Mutamba,Mutina,Mutombo"
+  "b": "Goma,Bukavu,Masisi,Walikale,Kalehe,Uvira,Beni,Lubero,Nyamilima,Katabaro,Biriko,Kaseghe,Katirumba,Kiliba,Kilo,Kinmatiza,Lushelo,Lwama,Mabenga,Manombo,Matanda,Mbamba,Mikalayi,Minova,Misisi,Mokambo,Monica,Motombeji,Mudaka Mulumba,Mukenga,Mukwama,Mulamila,Mundu,Mushaki,Mutabana,Mutamba,Mutina,Mutombo,Bobo-Dioulasso,Rutshuru"
 },
 {
     "name": "Tocho",
@@ -3247,7 +3247,7 @@ window.africaNameBases = [
   "max": 17,
   "d": "lnrt",
   "m": 0,
-  "b": "Igije,Imanjela,Thodero,Thoge,Tobaredeng,Tocho Goos,Tocho Saraf Jamus,Toderum,Togero,Togiding,Toriya,Torobang,Tothokrek,Turu,Al-Fasher,Al-Junaynah,Al-Ubayyid,Al-Damazin,El Fasher,Nyala,Kadugli,El Geneina,El Obeid,Dongola,Atbara"
+  "b": "Igije,Imanjela,Thodero,Thoge,Tobaredeng,Tocho Goos,Tocho Saraf Jamus,Toderum,Togero,Togiding,Toriya,Torobang,Tothokrek,Al-Fasher,Al-Junaynah,Al-Ubayyid,Al-Damazin,El Fasher,Nyala,Kadugli,El Geneina,El Obeid,Dongola,Atbara,Kindia,Turu"
 },
 {
     "name": "Tumtum",
@@ -3274,7 +3274,7 @@ window.africaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-  "b": "Monrovia,Buchanan,Gbarnga,Kakata,Harper,Voinjama,Zwedru,Sanniquellie,Robertsport,Greenville,Tubmanburg,Al-Fasher,Al-Junaynah,Al-Ubayyid,Al-Damazin,El Fasher,Nyala,Kadugli,El Geneina,El Obeid,Dongola,Atbara,Wad Medani,Sennar,Kassala,Sengera,ElBur,AbudWaaq,Kabxan,Gaalkacyo,Maraag,Mackinnon,Nyamira,Wamba,Xato,Sarameer,Rigomane,BilisQoqani,Jombo,Kihancha,Abumwa,Apabbwe,Apilka,Apukbwe,Akedwa,Adetbwe,Amimbwe,Aidbwe,Aukbwe,Alelbwe,Afirka,Afawa,Alitbwe,Afarbwe,Aniska,LiberianKreyolla,LiberianKreyolma,LiberianKreyolwa,LiberianKreyolra,LiberianKreyolka"
+  "b": "Monrovia,Buchanan,Gbarnga,Kakata,Harper,Voinjama,Zwedru,Sanniquellie,Robertsport,Al-Fasher,Al-Junaynah,Al-Ubayyid,Al-Damazin,El Fasher,Nyala,Kadugli,El Geneina,El Obeid,Dongola,Atbara,Wad Medani,Sennar,Kassala,Sengera,ElBur,AbudWaaq,Kabxan,Gaalkacyo,Maraag,Mackinnon,Nyamira,Wamba,Xato,Sarameer,Rigomane,BilisQoqani,Jombo,Kihancha,Abumwa,Apabbwe,Apilka,Apukbwe,Akedwa,Adetbwe,Amimbwe,Aidbwe,Aukbwe,Alelbwe,Afirka,Afawa,Alitbwe,Afarbwe,Aniska,Kankan,Nzérékoré,Greenville,Tubmanburg,LiberianKreyolla,LiberianKreyolma,LiberianKreyolwa,LiberianKreyolra,LiberianKreyolka"
 },
 {
     "name": "Libyan Arabic",
@@ -3292,7 +3292,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kinshasa,Brazzaville,Lisala,Mbandaka,Bumba,Boende,Ilebo,Tshikapa,Luebo,Mweka,Bandundu,Kikwit,Bulungu,Masi-Manimba,Bagata,Idiofa,Gungu,Bétou,Kelle,Kintélé,Dolisie,Nkayi,Owando,Madingou,Tumba,Witu,Lokitaung,Baydhabo,Jalalaqsi,Luq,Mafisini,Rangwe,Takwa,Dimeka,Sablaale,Yubbe,Huddur,Mikinduni,Kakamega,Kaloleni,Akenna,Adalla,Adikwa,Aminna,Anodna,Alutwa,Amala,Aisna,Akadla,Apagna,Abatla,Ananna,Aketwa,Alokna,Apomwa,Lingalala,Lingalama,Lingalawa,Lingalara,Lingalaka"
+  "b": "Kinshasa,Lisala,Mbandaka,Bumba,Boende,Ilebo,Tshikapa,Luebo,Mweka,Bandundu,Kikwit,Bulungu,Masi-Manimba,Bagata,Idiofa,Gungu,Bétou,Kelle,Kintélé,Dolisie,Nkayi,Owando,Madingou,Tumba,Witu,Lokitaung,Baydhabo,Jalalaqsi,Luq,Mafisini,Rangwe,Takwa,Dimeka,Sablaale,Yubbe,Huddur,Mikinduni,Kakamega,Kaloleni,Akenna,Adalla,Adikwa,Aminna,Anodna,Alutwa,Amala,Aisna,Akadla,Apagna,Abatla,Ananna,Aketwa,Alokna,Apomwa,Lingalala,Lingalama,Lingalawa,Lingalara,Lingalaka,Porto-Novo,Brazzaville"
 },
 {
     "name": "Tiv", "i": 14073, "min": 3, "max": 11, "d": "lnrt", "m": 0, "b": "Gboko,Makurdi,Katsina-Ala,Vandeikya,Zaki Biam,Otukpo,Ukum,Kwande,Logo,Konshisha,Guma,Buruku,Ushongo,Tarka,Gwer,Lafia,Awe,Doma,Nassarawa,Jalingo,Zing,Numan,Jen,Mayo-Belwa,Karim Lamido,Songo"
@@ -3379,7 +3379,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kampala,Entebbe,Jinja,Masaka,Mbarara,Gulu,Lira,Mbale,Tororo,Kasese,Mityana,Mubende,Kyotera,Bugiri,Lusoga,Mayuge,Buvuma,Namutumba,Kaliro,Iganga,Wakiso,Mukono,Kibaale,Ibanda,Ntungamo,Rukungiri,Geesaley,Dhuusamareeb,Balad,Gerille,Kisimani,Ntimaru,Illeret,Jerree,Warshiek,Cadaado,Mgangani,Karungu,Dida,Kakuma,Garsale,Amugra,Amerma,Afufa,Afulra,Apidra,Alakra,Aigra,Adatfa,Apibfa,Afetma,Afedra,Alelfa,Abutra,Autfa,Akerma,Lugandala,Lugandama,Lugandawa,Lugandara,Lugandaka"
+  "b": "Kampala,Entebbe,Jinja,Masaka,Mbarara,Gulu,Lira,Mbale,Tororo,Kasese,Mityana,Mubende,Kyotera,Lusoga,Mayuge,Buvuma,Namutumba,Kaliro,Iganga,Wakiso,Mukono,Kibaale,Ibanda,Ntungamo,Geesaley,Dhuusamareeb,Balad,Gerille,Kisimani,Ntimaru,Illeret,Jerree,Warshiek,Cadaado,Mgangani,Karungu,Dida,Kakuma,Garsale,Amugra,Amerma,Afufa,Afulra,Apidra,Alakra,Aigra,Adatfa,Apibfa,Afetma,Afedra,Alelfa,Abutra,Autfa,Akerma,Lugandala,Lugandama,Lugandawa,Lugandara,Lugandaka,Gondar,Mekelle,Bugiri,Rukungiri"
 },
 {
     "name": "Sango",
@@ -3388,7 +3388,7 @@ window.africaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-  "b": "Bangui,Bimbo,Berberati,Bambari,Bouar,Bangassou,Mbaiki,Bossangoa,Sibut,Kaga-Bandoro,Nola,Mobaye,Zemio,Ouadda,Alindao,Gambo,Bria,Bakouma,Birao,Carnot,Gamboula,Rafaï,Obo,Berbérati,Boubou,Jowhaar,Farlibaax,Pongwe,KenduBay,Faza,Omorate,Qoton,Afgoi,Beledhawo,Jamia,Siaya,Samburu,Ririba,Galolk,CeelAfweyn,Sangola,Sangoma,Sangowa,Sangora,Sangoka,Sangota,Sangobwe,Sangosa,Sangona,Sangofa,Sangoga,Sangoja,Sangoda,Sangone,Sangole,Sangore,Sangozi,Sangobo,Sangoki,Sangomu"
+  "b": "Bangui,Bimbo,Berberati,Bambari,Bouar,Bangassou,Mbaiki,Bossangoa,Sibut,Kaga-Bandoro,Nola,Mobaye,Zemio,Ouadda,Alindao,Gambo,Bria,Bakouma,Birao,Carnot,Gamboula,Rafaï,Obo,Berbérati,Boubou,Jowhaar,Farlibaax,Pongwe,Faza,Omorate,Qoton,Afgoi,Beledhawo,Jamia,Siaya,Ririba,Galolk,CeelAfweyn,Sangola,Sangoma,Sangowa,Sangora,Sangoka,Sangota,Sangobwe,Sangosa,Sangona,Sangofa,Sangoga,Sangoja,Sangoda,Sangone,Sangole,Sangore,Sangozi,Sangobo,Sangoki,Sangomu,Parakou,KenduBay,Samburu"
 },
 {
     "name": "Ghanaian Pidgin English",
@@ -3406,7 +3406,7 @@ window.africaNameBases = [
   "max": 13,
   "d": "lnrt",
   "m": 0,
-  "b": "Port Harcourt,Warri,Benin City,Calabar,Abuja,Ibadan,Aba,Enugu,Onitsha,Asaba,Ogoja,Yenagoa,Sapele,Effurun,Ughelli,Owerri,Awka,Nsukka,Abakaliki,Umuahia,Ozoro,Okene,Lokoja,Ado-Ekiti,Akure,Ilesha,Ondo,Osogbo,Ikorodu,Epe,Shagamu,Saki,Ogbomoso,Iseyin,Offa,Oyo,Ilorin,Makurdi,Jos,Bauchi,Gombe,Maiduguri,Yola,Damaturu,Sokoto,Birnin Kebbi,Zaria,Kaduna,Kano,Gongoni,Bondo,Vipingo,Konso,CeyrTabaan,Laasqoray,QansaxDheere,Garsen,Mumias,Malindi,Yavello,Guba,Xaafuun,Lanta,Ozi,Abembwe,Afegwa,Amatwa,Aenka,Adegka,Aaswa,Apaswa,Afalwa,Abelbwe,Akisbwe,Alirbwe,Anirwa,Afegbwe,Afolbwe,Apawa,NigerianPidginla,NigerianPidginma,NigerianPidginwa,NigerianPidginra,NigerianPidginka"
+  "b": "Port Harcourt,Warri,Benin City,Calabar,Abuja,Ibadan,Aba,Enugu,Onitsha,Asaba,Ogoja,Yenagoa,Sapele,Effurun,Ughelli,Owerri,Awka,Nsukka,Abakaliki,Umuahia,Ozoro,Okene,Lokoja,Ado-Ekiti,Akure,Ilesha,Ondo,Osogbo,Ikorodu,Epe,Shagamu,Saki,Ogbomoso,Iseyin,Offa,Oyo,Ilorin,Makurdi,Jos,Bauchi,Gombe,Yola,Sokoto,Birnin Kebbi,Zaria,Kaduna,Kano,Gongoni,Bondo,Vipingo,Konso,CeyrTabaan,Laasqoray,Garsen,Mumias,Malindi,Yavello,Guba,Xaafuun,Lanta,Ozi,Abembwe,Afegwa,Amatwa,Aenka,Adegka,Aaswa,Apaswa,Afalwa,Abelbwe,Akisbwe,Alirbwe,Anirwa,Afegbwe,Afolbwe,Apawa,Sokodé,Kara,Maiduguri,Damaturu,QansaxDheere,NigerianPidginla,NigerianPidginma,NigerianPidginwa,NigerianPidginra,NigerianPidginka"
 },
 {
     "name": "Fante",
@@ -3451,7 +3451,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Mongala,Uele,Ituri,Arua,Koboko,Bas-Uele,Bumba,Lisala,Gemena,Budjala,Buta,Businga,Isiro,Likasi,Mbandaka,Luebo,Mweka,Aketi,Bafwasende,Basankusu,Bikoro,Bolomba,Bomongo,Bongandanga,Kisangani,Merti,Hula,Kaxare,Bacadweyn,Burdhubo,Samburu,Ogembo,SouthHorr,Dhalwo,Aqable,Jariiban,Garbaharey,Geza,Uriri,Bubisa,Apodna,Amisla,Anuwa,Apekna,Abubna,Alomwa,Aitla,Amewa,Afarna,Ababna,Abelwa,Abikla,Adodwa,Alumna,Afugwa,Bangalala,Bangalama,Bangalawa,Bangalara,Bangalaka"
+  "b": "Mongala,Uele,Arua,Koboko,Bumba,Lisala,Gemena,Budjala,Buta,Businga,Isiro,Likasi,Mbandaka,Luebo,Mweka,Aketi,Bafwasende,Basankusu,Bikoro,Bolomba,Bomongo,Bongandanga,Kisangani,Merti,Hula,Kaxare,Bacadweyn,Burdhubo,Ogembo,SouthHorr,Dhalwo,Aqable,Jariiban,Garbaharey,Geza,Uriri,Bubisa,Apodna,Amisla,Anuwa,Apekna,Abubna,Alomwa,Aitla,Amewa,Afarna,Ababna,Abelwa,Abikla,Adodwa,Alumna,Afugwa,Bangalala,Bangalama,Bangalawa,Bangalara,Bangalaka,Cape Coast,Yamoussoukro,Ituri,Bas-Uele,Samburu"
 },
 {
     "name": "Cape Verdean Creole",
@@ -3469,7 +3469,7 @@ window.africaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-  "b": "Maridi,Faradje,Mambe,Olo,Avokaya Boma,Tore,Yei,Naam,Yambio,Tambura,Kapoeta,Torit,Bor,Mundri,Rumbek,Ezo,Kaya,Laseru,Obbu,Pibor,Lainya,Tonj,Wau,Yirol,Ibba,Andari,Tumbura,Amadi,Rodho,Nyara"
+  "b": "Maridi,Faradje,Mambe,Olo,Tore,Yei,Naam,Yambio,Tambura,Kapoeta,Torit,Bor,Mundri,Rumbek,Ezo,Kaya,Laseru,Obbu,Pibor,Lainya,Tonj,Wau,Yirol,Ibba,Andari,Tumbura,Amadi,Rodho,Nyara,Avokaya Boma"
 },
 {
     "name": "Hozo",
@@ -3514,7 +3514,7 @@ window.africaNameBases = [
   "max": 13,
   "d": "lnrt",
   "m": 0,
-  "b": "Jebel Mirra,Jebel Kulli,Jebel Toya,Jebel Kunjaro,Jebel Turabu,Jebel Oromba,Jebel Kire,Wadi Salih,Wadi Azum,Dar Fongoro,Zalingei,El Fasher,El Geneina,El Obeid,Wad Medani,Sennar,Kassala,Al-Damazin,Atbara,Dongola,Nyala,Kadugli,Dilling,Lagawa,Rashad"
+  "b": "Jebel Mirra,Jebel Kulli,Jebel Toya,Jebel Kunjaro,Jebel Turabu,Jebel Oromba,Wadi Salih,Wadi Azum,Dar Fongoro,Zalingei,El Fasher,El Geneina,El Obeid,Wad Medani,Sennar,Kassala,Al-Damazin,Atbara,Dongola,Nyala,Kadugli,Dilling,Lagawa,Rashad,Jebel Kire"
 },
 {
     "name": "Berta",
@@ -3523,7 +3523,7 @@ window.africaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-    "b": "Kurmuk,Asosa,Begi,Tongo,Gambela,Bambasi,Undulu,Fwafwate,Daleti,Metehara,Menge,Abay,Blue Nile,Didessa,Sennar,Wetawit,Shangul,Bela Shangul,Fadasi,Komosha,Gizen,Gwdare,Matahara,Sirba Abay,Arjo,Borchore,Gidami,Homosha,Kiltu,Pawi,Tulishi"
+    "b": "Kurmuk,Asosa,Begi,Tongo,Gambela,Bambasi,Undulu,Fwafwate,Daleti,Metehara,Menge,Abay,Didessa,Sennar,Wetawit,Shangul,Bela Shangul,Fadasi,Komosha,Gizen,Gwdare,Matahara,Sirba Abay,Arjo,Borchore,Gidami,Homosha,Kiltu,Pawi,Tulishi,Blue Nile"
 },
 {
     "name": "Mundang",
@@ -3532,7 +3532,7 @@ window.africaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-  "b": "Moundou,Koumra,Léré,Baïbokoum,Mayo-Kani,Mindif,Moulvouday,Kaélé,Mayo-Kebi,Bibemi,Maroua,Mora,Guider,Mokolo,Waza,Kousseri,Logone,Binder,Mayo-Darlé,Mayo-Rey,Yagoua,Hina,Kalfou,Bahir Dar,Gondar,Adjuntas,ToaBaja,Pefiuelas,Villalba,RioGrande,FlyingFish,Aguada,Coamo,Naranjito,Lajas,Morovis,Ceiba,Gustavia,Arecibo,Caguas,Aiport,Abidview,Akanview,Anoswood,Apekwood,Aledview,Akemview,Afigport,Alonwood,Anabview,Adiview,Amurwood,Aalwood,Abidwood,Alomview,Gadaltown,Gadalville,Gadalburg,Gadalview,Gadalside"
+  "b": "Moundou,Koumra,Léré,Baïbokoum,Mayo-Kani,Mindif,Moulvouday,Kaélé,Mayo-Kebi,Bibemi,Maroua,Mora,Guider,Mokolo,Waza,Kousseri,Logone,Binder,Mayo-Darlé,Mayo-Rey,Yagoua,Hina,Kalfou,Bahir Dar,Gondar,Aiport,Dakar,Bamako,Ouagadougou,Conakry,Accra,Kumasi,Abidjan,Lomé,Cotonou,Lagos,Kano,Ibadan,Abuja,Tamale,Bouaké,Saint-Louis,Thiès,Kaolack,Adjuntas,ToaBaja,Pefiuelas,Villalba,RioGrande,FlyingFish,Aguada,Coamo,Naranjito,Lajas,Morovis,Ceiba,Gustavia,Arecibo,Caguas,Abidview,Akanview,Anoswood,Apekwood,Aledview,Akemview,Afigport,Alonwood,Anabview,Adiview,Amurwood,Aalwood,Abidwood,Alomview,Gadaltown,Gadalville,Gadalburg,Gadalview,Gadalside"
 },
 {
     "name": "Nubi",
@@ -3541,7 +3541,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bombo,Kampala,Kibera,Nairobi,Luweero,Jinja,Entebbe,Mombasa,Kisumu,Bondo,Kakuma,Koboko,Lodwar,Tororo,Eldoret,Nakuru,Thika,Nyeri,Meru,Embu,Kitui,Machakos,Kilifi,Maralal,Samburu,Humacao,StGeorges,VegaAlta,Fajardo,Morovis,Anasco,Piedras,Patillas,Guayama,Cataño,Mayaguez,Utuado,Moca,Luquillo,Salinas,Abetview,Aferville,Ailport,Alabville,Alalport,Afetville,Abutport,Aroville,Aferport,Adusville,Amerview,Alegview,Anedview,Adotville,Amorport,Nubitown,Nubiville,Nubiburg,Nubiview,Nubiside"
+  "b": "Bombo,Kampala,Kibera,Nairobi,Luweero,Jinja,Entebbe,Mombasa,Kisumu,Bondo,Kakuma,Koboko,Lodwar,Tororo,Eldoret,Thika,Nyeri,Meru,Embu,Kitui,Machakos,Kilifi,Maralal,Ziguinchor,Touba,Ségou,Sikasso,Mopti,Timbuktu,Gao,Bobo-Dioulasso,Kindia,Kankan,Nzérékoré,Porto-Novo,Parakou,Sokodé,Kara,Cape Coast,Yamoussoukro,Nakuru,Samburu,Humacao,StGeorges,VegaAlta,Fajardo,Morovis,Anasco,Piedras,Patillas,Guayama,Cataño,Mayaguez,Utuado,Moca,Luquillo,Salinas,Abetview,Aferville,Ailport,Alabville,Alalport,Afetville,Abutport,Aroville,Aferport,Adusville,Amerview,Alegview,Anedview,Adotville,Amorport,Nubitown,Nubiville,Nubiburg,Nubiview,Nubiside"
 },
 {
     "name": "Bomboli-Bozaba",
@@ -3577,7 +3577,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Mopti,Djenné,Ségou,Bamako,Diafarabé,Pondori,Kotya,Korondugu,Debo,Ténenkou,Niafunké,Nara,Nioro du Sahel,Sokolo,Bafoulabé,Dévaré,Dogon,Kolokani,Tombouctou,Goundam,Koutiala,Sikasso,Fana,Bougouni,Kati,Faza,Omorate,Qoton,Afgoi,Beledhawo,Jamia,Siaya,Samburu,Ririba,Galolk,CeelAfweyn,Baidoa,Chara,Webuye,Kipini,Akibbwe,Afulla,Adatna,Adogla,Akarbwe,Amobbwe,Abilla,Abagla,Apunbwe,Amusbwe,Amalla,Amakna,Anidla,Abolbwe,Akatbwe,Bozola,Bozoma,Bozowa,Bozora,Bozoka"
+  "b": "Mopti,Djenné,Ségou,Bamako,Diafarabé,Pondori,Kotya,Korondugu,Debo,Ténenkou,Niafunké,Nara,Nioro du Sahel,Sokolo,Bafoulabé,Dévaré,Dogon,Kolokani,Tombouctou,Goundam,Koutiala,Sikasso,Fana,Bougouni,Kati,Faza,Omorate,Qoton,Afgoi,Beledhawo,Jamia,Siaya,Ririba,Galolk,CeelAfweyn,Baidoa,Chara,Webuye,Kipini,Akibbwe,Afulla,Adatna,Adogla,Akarbwe,Amobbwe,Abilla,Abagla,Apunbwe,Amusbwe,Amalla,Amakna,Anidla,Abolbwe,Akatbwe,Bozola,Bozoma,Bozowa,Bozora,Bozoka,Dakar,Samburu"
 },
 {
     "name": "Buu",
@@ -3631,7 +3631,7 @@ window.africaNameBases = [
   "max": 14,
   "d": "lnrt",
   "m": 0,
-  "b": "Kejom Ketinguh,Kejom Keku,Babanki Tungo,Big Babanki,Bamenda,Kom,Bafut,Nso,Oku,Bafoussam,Bangwa,Bali,Bafang,Fontem,Fundong,Mundu,Dschang,Jouni,Kumbo,Menjang,Morom,Ndiop,Awing,Kekpo,Mbiame,Nkwen,Bangwa Fontem,Babanki Ndop,Giohar,Guriceel,Selina,Sindo,Galole,Kalokol,Harardera,Mahaday,Yeed,Kidimu,HomaBay,Kiunga,Kibish,GofKudle,Wanleweyn,Amotwa,Akugbwe,Akerka,Akobbwe,Amemwa,Adigbwe,Anerka,Afabbwe,Anagbwe,Apenka,Aitbwe,Adugwa,Amerwa,Abosbwe,Anelka,Babankila,Babankima,Babankiwa,Babankira,Babankika"
+  "b": "Kejom Ketinguh,Kejom Keku,Babanki Tungo,Big Babanki,Bamenda,Kom,Bafut,Nso,Oku,Bafoussam,Bangwa,Bali,Bafang,Fontem,Fundong,Mundu,Dschang,Jouni,Kumbo,Menjang,Morom,Ndiop,Awing,Kekpo,Mbiame,Nkwen,Bangwa Fontem,Babanki Ndop,Giohar,Guriceel,Selina,Sindo,Galole,Kalokol,Harardera,Mahaday,Yeed,Kidimu,Kiunga,Kibish,Wanleweyn,Amotwa,Akugbwe,Akerka,Akobbwe,Amemwa,Adigbwe,Anerka,Afabbwe,Anagbwe,Apenka,Aitbwe,Adugwa,Amerwa,Abosbwe,Anelka,Babankila,Babankima,Babankiwa,Babankira,Babankika,HomaBay,GofKudle"
 },
 {
     "name": "Amkoe",
@@ -3649,7 +3649,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-    "b": "Bolobo,Yumbi,Bomongo,Cuvette,Mbandaka,Bumba,Lisala,Kinshasa,Brazzaville,Ouesso,Pikounda,Likouala,Sangha,Impfondo,Epena,Makotimpoko,Liranga,Bokuma,Boteka,Bondaka,Bongandanga,Budjala,Djamba,Gemena,Ingende,Kikwit,Kimpese,Chundwa,Mabera,NorthHorr,Jiingadda,Adale,Caabudwaaq,Barich,Mohoro,Borabu,FergusonsGulf,Hareeri,Balcad,Berdaale,Kinarani,Mbita,Alamla,Afetka,Adogwa,Afarka,Akobla,Anemla,Abukka,Alogwa,Adinka,Apibla,Anilla,Amikka,Amodwa,Apumka,Abetla,Bangila,Bangima,Bangiwa,Bangira,Bangika"
+    "b": "Bolobo,Yumbi,Bomongo,Cuvette,Mbandaka,Bumba,Lisala,Kinshasa,Ouesso,Pikounda,Likouala,Sangha,Impfondo,Epena,Makotimpoko,Liranga,Bokuma,Boteka,Bondaka,Bongandanga,Budjala,Djamba,Gemena,Ingende,Kikwit,Kimpese,Chundwa,Mabera,NorthHorr,Jiingadda,Adale,Caabudwaaq,Barich,Mohoro,Borabu,FergusonsGulf,Hareeri,Balcad,Berdaale,Kinarani,Mbita,Alamla,Afetka,Adogwa,Afarka,Akobla,Anemla,Abukka,Alogwa,Adinka,Apibla,Anilla,Amikka,Amodwa,Apumka,Abetla,Bangila,Bangima,Bangiwa,Bangira,Bangika,Bamako,Brazzaville"
 },
 {
     "name": "Bangolan",
@@ -3658,7 +3658,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-    "b": "Bangolan,Ndop,Jakiri,Babessi,Bambalang,Bamun,Nso,Kom,Ngoketunjia,Mendenkye,Bali,Bamenda,Bafanji,Bamunka,Bamban,Bamukumbat,Bangwa,Banyang,Batibo,Bawo,Befang,Bekwa,Belabo,Bibemi,Bifang,Bikom,Bilali,Binan,Binda,Birabi,Bisaa,Bitare,Sindo,Galole,Kalokol,Harardera,Mahaday,Yeed,Kidimu,HomaBay,Kiunga,Kibish,GofKudle,Wanleweyn,Dolow,Gongoni,Bondo,Aberfa,Apodra,Apanma,Apisra,Augfa,Afirfa,Amedra,Adamma,Anutra,Akogfa,Afonfa,Adusra,Afalma,Akekra,Amidfa,Bangolanla,Bangolanma,Bangolanwa,Bangolanra,Bangolanka"
+    "b": "Bangolan,Ndop,Jakiri,Babessi,Bambalang,Bamun,Nso,Kom,Ngoketunjia,Mendenkye,Bali,Bamenda,Bafanji,Bamunka,Bamban,Bamukumbat,Bangwa,Banyang,Batibo,Bawo,Befang,Bekwa,Belabo,Bibemi,Bifang,Bikom,Bilali,Binan,Binda,Birabi,Bisaa,Bitare,Sindo,Galole,Kalokol,Harardera,Mahaday,Yeed,Kidimu,Kiunga,Kibish,Wanleweyn,Dolow,Gongoni,Bondo,Aberfa,Apodra,Apanma,Apisra,Augfa,Afirfa,Amedra,Adamma,Anutra,Akogfa,Afonfa,Adusra,Afalma,Akekra,Amidfa,Bangolanla,Bangolanma,Bangolanwa,Bangolanra,Bangolanka,HomaBay,GofKudle"
 },
 {
     "name": "Bala",
@@ -3667,7 +3667,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-    "b": "Mbandaka,Bumba,Lisala,Kungu,Dongo,Bomongo,Ngombe,Bokala,Bobenge,Bomboli,Bondaka,Bongandanga,Boteka,Budjala,Djamba,Gemena,Ingende,Kikwit,Kimpese,Kisangani,Likasi,Lingwala,Lukolela,Lusambo,Mahagi,Mongala,Bokungu,Bonormala,Iboko,Poko,Likoka,Tanda,CanGio,TalokMuh,TieuCan,CaoLanh,Ninglang,SongCau,ChoGao,Jinghong,PhuNhon,ChiangKhlong,Sing,DinhQuan,Chun,MongCai,DongPhu,Akorbad,Adubpalli,Ademwada,Akebad,Amurbad,Aibpalli,Alemwada,Abatpalli,Amarbad,Alabpalli,Amelwada,Anikpalli,Aubbad,Akembad,Apotpalli,PurBala,Balanagar,Balabad,KotBala,Balawada"
+    "b": "Mbandaka,Bumba,Lisala,Kungu,Dongo,Bomongo,Ngombe,Bokala,Bobenge,Bomboli,Bondaka,Bongandanga,Boteka,Budjala,Djamba,Gemena,Ingende,Kikwit,Kimpese,Kisangani,Likasi,Lingwala,Lukolela,Lusambo,Mahagi,Mongala,Bokungu,Bonormala,Iboko,Poko,Likoka,Tanda,Ouagadougou,Conakry,Accra,Kumasi,Abidjan,Lomé,Cotonou,Lagos,Kano,Ibadan,Abuja,Tamale,Bouaké,Saint-Louis,Thiès,Kaolack,Ziguinchor,Touba,CanGio,TalokMuh,TieuCan,CaoLanh,Ninglang,SongCau,ChoGao,Jinghong,PhuNhon,ChiangKhlong,Sing,DinhQuan,Chun,MongCai,DongPhu,Akorbad,Adubpalli,Ademwada,Akebad,Amurbad,Aibpalli,Alemwada,Abatpalli,Amarbad,Alabpalli,Amelwada,Anikpalli,Aubbad,Akembad,Apotpalli,PurBala,Balanagar,Balabad,KotBala,Balawada"
 },
 {
     "name": "Baldemu",
@@ -3706,7 +3706,7 @@ window.africaNameBases = [
   "b": "Bambalang,Ndop,Bamendjin,Mbissa,Nkeshie,Mbefekhu,Bafanji,Bamali,Bamun,Bangolan,Bangwa,Bafoussam,Bamenda,Batoufam,Baham,Bali,Bana,Bawwa,Befou,Bekwa,Fontem,Fundong,Kumbo,Menjang,Bafang,Nkwen,Caano,CelDheer,Saakow,Buni,Ikerege,Mkunumbi,Lodwar,Qorragan,Buulobarde,CeelBarde,Ngomoni,Oyugis,Shella,Turmi,Janaale,Anakna,Alidwa,Aleswa,Anona,Aerna,Afadwa,Apumla,Akotwa,Abigna,Ainna,Apobwa,Aula,Abakwa,Afedna,Anomna,Bambalangla,Bambalangma,Bambalangwa,Bambalangra,Bambalangka"
 },
 {
-    "name": "Bamum", "i": 20507, "min": 4, "max": 11, "d": "lnrt", "m": 0, "b": "Foumban,Bamoun,Bafoussam,Bamenda,Mbouda,Batié,Bandjoun,Bangangté,Noun,Rifum,Bankim,Mfomben,Deido,Gon Bado,Bapi,Tikar,Shümom,Bafang,Bangante,Baham,Bamendjou,Batcham,Bana,Bali,Bafou,Utuado,Anertown,Amibford,Aluntown,Amiltown,Abedland,Abitford,Adugtown,Alarland,Apibland,Akaltown,Airford,Amedtown,Alulland,Akokland,Akodtown,BambooEnglishtown,BambooEnglishville,BambooEnglishburg,BambooEnglishview,BambooEnglishside"
+    "name": "Bamum", "i": 20507, "min": 4, "max": 11, "d": "lnrt", "m": 0, "b": "Foumban,Bamoun,Bafoussam,Bamenda,Mbouda,Batié,Bandjoun,Bangangté,Noun,Rifum,Bankim,Mfomben,Deido,Gon Bado,Bapi,Tikar,Shümom,Bafang,Bangante,Baham,Bamendjou,Batcham,Bana,Bali,Bafou,Ségou,Sikasso,Mopti,Timbuktu,Gao,Bobo-Dioulasso,Kindia,Kankan,Nzérékoré,Porto-Novo,Parakou,Sokodé,Kara,Cape Coast,Yamoussoukro,Dakar,Bamako,Utuado,Anertown,Amibford,Aluntown,Amiltown,Abedland,Abitford,Adugtown,Alarland,Apibland,Akaltown,Airford,Amedtown,Alulland,Akokland,Akodtown,BambooEnglishtown,BambooEnglishville,BambooEnglishburg,BambooEnglishview,BambooEnglishside"
 },
 {
     "name": "Bamukumbit",
@@ -3760,7 +3760,7 @@ window.africaNameBases = [
   "max": 13,
   "d": "lnrt",
   "m": 0,
-   "b": "Nikki,Parakou,Kandi,Natitingou,Borgu,Baruten,Saki West,Gwanara,Bankubu,Boriya,Ilesha Baruba,Bussa,New Bussa,Kaiama,Cotonou,Djougou,Savé,Sakété,Pobè,Kétou,Abomey,Lokossa,Dassa-Zoumé,Eyl,Goobweyn,Rabai,Manga,Merti,Hula,Kaxare,Bacadweyn,Burdhubo,Samburu,Ogembo,SouthHorr,Dhalwo,Aqable,Jariiban,Anokbwe,Alagla,Alenna,Alusla,Anelbwe,Aurbwe,Afodla,Apenna,Akesla,Adabwe,Aarbwe,Apedla,Aelna,Abokla,Afudbwe,Baribala,Baribama,Baribawa,Baribara,Baribaka"
+   "b": "Nikki,Parakou,Kandi,Natitingou,Borgu,Baruten,Saki West,Gwanara,Bankubu,Boriya,Ilesha Baruba,Bussa,New Bussa,Kaiama,Cotonou,Djougou,Savé,Sakété,Pobè,Kétou,Abomey,Lokossa,Dassa-Zoumé,Eyl,Goobweyn,Rabai,Manga,Merti,Hula,Kaxare,Bacadweyn,Burdhubo,Ogembo,SouthHorr,Dhalwo,Aqable,Jariiban,Anokbwe,Alagla,Alenna,Alusla,Anelbwe,Aurbwe,Afodla,Apenna,Akesla,Adabwe,Aarbwe,Apedla,Aelna,Abokla,Afudbwe,Baribala,Baribama,Baribawa,Baribara,Baribaka,Ouagadougou,Samburu"
 },
 {
     "name": "Bassari",
@@ -3787,7 +3787,7 @@ window.africaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-    "b": "Manda,Amanda-Afi,Kamino,Angwe,Buru,Sardauna,Yola,Ngaoundéré,Banyo,Tibati,Rey,Garoua,Dolo,Mandara,Numan,Song,Fufore,Jimeta,Demsa,Mbororo,Maroua,Guider,Kaélé,Mokolo,Waza,Kousseri,Logone,Binder,Mayo-Darlé,Mayo-Rey,Yagoua,Hina,Kalfou,Guriceel,Selina,Sindo,Galole,Kalokol,Harardera,Mahaday,Yeed,Kidimu,HomaBay,Kiunga,Kibish,GofKudle,Wanleweyn,Dolow,Alumra,Afassa,Afita,Akidra,Ananra,Abotsa,Amita,Apedra,Anemra,Ametsa,Amigta,Aponsa,Abasra,Alira,Alibta,Batula,Batuma,Batuwa,Batura,Batuka"
+    "b": "Manda,Amanda-Afi,Kamino,Angwe,Sardauna,Yola,Ngaoundéré,Banyo,Tibati,Rey,Garoua,Dolo,Mandara,Numan,Song,Fufore,Jimeta,Demsa,Mbororo,Maroua,Guider,Kaélé,Mokolo,Waza,Kousseri,Logone,Binder,Mayo-Darlé,Mayo-Rey,Yagoua,Hina,Kalfou,Guriceel,Selina,Sindo,Galole,Kalokol,Harardera,Mahaday,Yeed,Kidimu,Kiunga,Kibish,Wanleweyn,Dolow,Alumra,Afassa,Afita,Akidra,Ananra,Abotsa,Amita,Apedra,Anemra,Ametsa,Amigta,Aponsa,Abasra,Alira,Alibta,Batula,Batuma,Batuwa,Batura,Batuka,Conakry,Buru,HomaBay,GofKudle"
 },
 {
     "name": "Bayot",
@@ -3814,7 +3814,7 @@ window.africaNameBases = [
   "max": 13,
   "d": "lnrt",
   "m": 0,
-    "b": "Sibiti,Kingoué,Bouenza,Pool,Brazzaville,Dolisie,Pointe-Noire,Lékoumou,Madingou,Komono,Mbinda,Ntamo,Poumou,Yamba,Loandjika,Likombo,Likanou,Linzolo,Londéla-Kayes,Mayoko,Mfilou,Ngamo,Nkabou,Nsatou,Tchibatché"
+    "b": "Sibiti,Kingoué,Bouenza,Pool,Dolisie,Pointe-Noire,Lékoumou,Madingou,Komono,Mbinda,Ntamo,Poumou,Yamba,Loandjika,Likombo,Likanou,Linzolo,Londéla-Kayes,Mayoko,Mfilou,Ngamo,Nkabou,Nsatou,Tchibatché,Accra,Brazzaville"
 },
 {
     "name": "Bembe (DRC)",
@@ -3850,7 +3850,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-   "b": "Mount Frere,Ixopo,Umzimkhulu,Bulwer,Underberg,Mzimkhulu,Harding,Umzinto,Umzumbe,Flagstaff,Mount Ayliff,Mount Frere,Umzimvubu,Mbizana,Tabankulu,Lusikisiki,Flagstaff,Qumbu,Tsolo,Cofimvaba,Engcobo,Idutywa,Willowvale,Butterworth,Centane"
+   "b": "Mount Frere,Ixopo,Umzimkhulu,Bulwer,Underberg,Mzimkhulu,Harding,Umzinto,Umzumbe,Flagstaff,Mount Ayliff,Umzimvubu,Mbizana,Tabankulu,Lusikisiki,Qumbu,Tsolo,Cofimvaba,Engcobo,Idutywa,Willowvale,Butterworth,Centane"
 },
 {
     "name": "Bidiya",
@@ -3868,7 +3868,7 @@ window.africaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-    "b": "Moubi Goz,Kouka Margni,Moubi Zarga,Mangalmé,Abgue,Agrab,Duguri,Biltine,Abéché,Adré,Am Timan,Ati,Baïbokoum,Bardaï,Bébédjia,Béboto,Beinamar,Bénoye,Béré,Bitkine,Bokoro,Bol,Bongor,Bousso,Fada,Faya-Largeau,Fianga,Goré,Goundi,Gounou Gaya,Goz Beïda,Guélengdeng,Guéréda,Haraze,Iriba,Kélo,Koro Toro,Koumra,Kyabé,Afmadow,Jimbo,Suna,Kargi,Geesaley,Dhuusamareeb,Balad,Gerille,Kisimani,Ntimaru,Illeret,Jerree,Warshiek,Cadaado,Mgangani,Aemka,Anubwe,Anekna,Apudka,Adimka,Alasna,Augbwe,Amorna,Afobka,Adolka,Abokna,Abudbwe,Afanna,Aliska,Aruka,Birgitla,Birgitma,Birgitwa,Birgitra,Birgitka"
+    "b": "Moubi Goz,Kouka Margni,Moubi Zarga,Mangalmé,Abgue,Agrab,Biltine,Abéché,Adré,Am Timan,Ati,Baïbokoum,Bardaï,Bébédjia,Béboto,Beinamar,Bénoye,Béré,Bitkine,Bokoro,Bol,Bongor,Bousso,Fada,Faya-Largeau,Fianga,Goré,Goundi,Gounou Gaya,Goz Beïda,Guélengdeng,Guéréda,Haraze,Iriba,Kélo,Koro Toro,Koumra,Kyabé,Afmadow,Jimbo,Suna,Kargi,Geesaley,Dhuusamareeb,Balad,Gerille,Kisimani,Ntimaru,Illeret,Jerree,Warshiek,Cadaado,Mgangani,Aemka,Anubwe,Anekna,Apudka,Adimka,Alasna,Augbwe,Amorna,Afobka,Adolka,Abokna,Abudbwe,Afanna,Aliska,Aruka,Birgitla,Birgitma,Birgitwa,Birgitra,Birgitka,Kumasi,Duguri"
 },
 {
     "name": "Boghom",
@@ -3877,7 +3877,7 @@ window.africaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-    "b": "Kanam,Wase,Jos,Bukuru,Pankshin,Shendam,Langtang,Mangu,Duguri,Bokkos,Daffo,Tambas,Riyom,Du,Kwalla,Gindiri,Mangu Town,Barakin Ladi,Jos Town,Vom,Lamingo,Ngabo,Barkin Ladi,Buruku,Ankpa,Otukpo,Wangwana,Keumbu,Witu,Lokitaung,Baydhabo,Jalalaqsi,Luq,Mafisini,Rangwe,Takwa,Dimeka,Sablaale,Yubbe,Huddur,Mikinduni,Adomka,Apesbwe,Anawa,Amunwa,Amosbwe,Apoka,Abonbwe,Akuswa,Aawa,Alerbwe,Adoska,Aonwa,Aeswa,Abugbwe,Anisbwe,Boghomla,Boghomma,Boghomwa,Boghomra,Boghomka"
+    "b": "Kanam,Wase,Jos,Pankshin,Shendam,Langtang,Mangu,Bokkos,Daffo,Tambas,Riyom,Du,Kwalla,Gindiri,Barakin Ladi,Vom,Lamingo,Ngabo,Barkin Ladi,Buruku,Ankpa,Otukpo,Wangwana,Keumbu,Witu,Lokitaung,Baydhabo,Jalalaqsi,Luq,Mafisini,Rangwe,Takwa,Dimeka,Sablaale,Yubbe,Huddur,Mikinduni,Adomka,Apesbwe,Anawa,Amunwa,Amosbwe,Apoka,Abonbwe,Akuswa,Aawa,Alerbwe,Adoska,Aonwa,Aeswa,Abugbwe,Anisbwe,Boghomla,Boghomma,Boghomwa,Boghomra,Boghomka,Abidjan,Lomé,Cotonou,Lagos,Bukuru,Duguri,Mangu Town,Jos Town"
 },
 {
     "name": "Boor",
@@ -3895,7 +3895,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-   "b": "Bangui,Bambari,Bouar,Berberati,Bossangoa,Bozoum,Carnot,Mbaiki,Boda,Kaga-Bandoro,Paoua,Obo,Zemio,Rafaï,Sibut,Alindao,Bria,Ouadda,Bakouma,Bria,Dékoa,Kaga,Bimbo,Boali,Berbérati,Garsen,Mumias,Malindi,Yavello,Guba,Xaafuun,Lanta,Ozi,Tindinyo,Masalani,ElKere,Garawe,Bargaal,Afgooye,Sengera,Afumla,Abiwa,Aburka,Adidla,Alanla,Akiwa,Aerka,Amedla,Alemla,Aketka,Akigwa,Apabla,Afila,Anurka,Afibwa,BoleChadicla,BoleChadicma,BoleChadicwa,BoleChadicra,BoleChadicka"
+   "b": "Bangui,Bambari,Bouar,Berberati,Bossangoa,Bozoum,Carnot,Mbaiki,Boda,Kaga-Bandoro,Paoua,Obo,Zemio,Rafaï,Sibut,Alindao,Bria,Ouadda,Bakouma,Dékoa,Kaga,Bimbo,Boali,Berbérati,Garsen,Mumias,Malindi,Yavello,Guba,Xaafuun,Lanta,Ozi,Tindinyo,Masalani,Garawe,Bargaal,Afgooye,Sengera,Afumla,Abiwa,Aburka,Adidla,Alanla,Akiwa,Aerka,Amedla,Alemla,Aketka,Akigwa,Apabla,Afila,Anurka,Afibwa,ElKere,BoleChadicla,BoleChadicma,BoleChadicwa,BoleChadicra,BoleChadicka"
 },
 {
     "name": "Binza",
@@ -3904,7 +3904,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-   "b": "Bolongo,Bondongo,Nzenze,Bobaka,Bongoi,Moteki,Liketa,Bonianga,Ngiri,Ubangi,Mongala,Bumba,Lisala,Ingende,Makanza,Businga,Boteka,Bokuma,Djombo,Senge,Bwamanda,Basankusu,Bongandanga,Mbandaka"
+   "b": "Bolongo,Bondongo,Nzenze,Bobaka,Bongoi,Moteki,Liketa,Bonianga,Ubangi,Mongala,Bumba,Lisala,Ingende,Makanza,Businga,Boteka,Bokuma,Djombo,Senge,Bwamanda,Basankusu,Bongandanga,Mbandaka,Kano,Ngiri"
 },
 {
     "name": "Birri",
@@ -3913,7 +3913,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-    "b": "Rafaï,Obo,Deim Zubeir,Mboto,Munga,Bria,Bangassou,Bambari,Yambio,Maridi,Wau,Aweil,Rumbek,Torit,Juba,Yei,Kapoeta,Nimule,Ezo,Bagasi,Duru,Sofe,Sakure,Nzara,Dembia,Mohoro,Borabu,FergusonsGulf,Hareeri,Balcad,Berdaale,Kinarani,Mbita,Bodhai,Kangaten,Holug,BuloBurto,Garbahaarrey,Omaribaya,Yala,Aensa,Aosfa,Adelta,Akukta,Anigfa,Amalta,Afadfa,Anugta,Amosfa,Afesa,Aunfa,Anobta,Anilta,Apedsa,Adelfa,Birrila,Birrima,Birriwa,Birrira,Birrika"
+    "b": "Rafaï,Obo,Deim Zubeir,Mboto,Munga,Bria,Bangassou,Bambari,Yambio,Maridi,Wau,Aweil,Rumbek,Torit,Juba,Yei,Kapoeta,Nimule,Ezo,Bagasi,Sofe,Sakure,Nzara,Dembia,Mohoro,Borabu,FergusonsGulf,Hareeri,Balcad,Berdaale,Kinarani,Mbita,Bodhai,Kangaten,Holug,BuloBurto,Garbahaarrey,Omaribaya,Yala,Aensa,Aosfa,Adelta,Akukta,Anigfa,Amalta,Afadfa,Anugta,Amosfa,Afesa,Aunfa,Anobta,Anilta,Apedsa,Adelfa,Birrila,Birrima,Birriwa,Birrira,Birrika,Ibadan,Duru"
 },
 {
     "name": "Biseni",
@@ -3922,7 +3922,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-   "b": "Biseni,Okordia,Oruma,Yenagoa,Sagbama,Okodia,Kalabari,Nembe,Akassa,Brass,Odi,Kolokuma,Opokuma,Ekeremor,Patani,Warri,Forcados,Burutu,Amassoma,Oloibiri,Gbarantoru,Eleme,Ogu,Bodo,HomaBay,Kiunga,Kibish,GofKudle,Wanleweyn,Dolow,Gongoni,Bondo,Vipingo,Konso,CeyrTabaan,Laasqoray,QansaxDheere,Garsen,Mumias,Anadka,Amemna,Alotbwe,Amana,Anorka,Aebka,Akulna,Apotbwe,Akigna,Aiska,Aina,Aorbwe,Akemka,Anotka,Adagna,Bisenila,Bisenima,Biseniwa,Bisenira,Bisenika"
+   "b": "Biseni,Okordia,Oruma,Yenagoa,Sagbama,Okodia,Kalabari,Nembe,Akassa,Brass,Odi,Kolokuma,Opokuma,Ekeremor,Patani,Warri,Forcados,Burutu,Amassoma,Oloibiri,Gbarantoru,Eleme,Ogu,Bodo,Kiunga,Kibish,Wanleweyn,Dolow,Gongoni,Bondo,Vipingo,Konso,CeyrTabaan,Laasqoray,Garsen,Mumias,Anadka,Amemna,Alotbwe,Amana,Anorka,Aebka,Akulna,Apotbwe,Akigna,Aiska,Aina,Aorbwe,Akemka,Anotka,Adagna,Bisenila,Bisenima,Biseniwa,Bisenira,Bisenika,HomaBay,GofKudle,QansaxDheere"
 },
 {
     "name": "Bissa",
@@ -3961,7 +3961,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-   "b": "Segbana,Kalalé,Borgu,Bagudo,Baruten,Bussa,Illo,Senji,Kenugbe,Kaoje,Demmo,Swalla,Karalé,Borgou,Alibori,Abuja,Nikki,Parakou,Kandi,Natitingou,Djougou,Sakété,Pobè,Kétou,Kehancha,Sibiloi,Waamo,Giohar,Guriceel,Selina,Sindo,Galole,Kalokol,Harardera,Mahaday,Yeed,Kidimu,HomaBay,Kiunga,Afenna,Aboswa,Aballa,Abikwa,Adudna,Alinna,Apebwa,Akalla,Aurwa,Amodna,Alomna,Akutwa,Apibna,Afuna,Anikwa,Bokola,Bokoma,Bokowa,Bokora,Bokoka"
+   "b": "Segbana,Kalalé,Borgu,Bagudo,Baruten,Bussa,Illo,Senji,Kenugbe,Kaoje,Demmo,Swalla,Karalé,Borgou,Alibori,Abuja,Nikki,Parakou,Kandi,Natitingou,Djougou,Sakété,Pobè,Kétou,Kehancha,Sibiloi,Waamo,Giohar,Guriceel,Selina,Sindo,Galole,Kalokol,Harardera,Mahaday,Yeed,Kidimu,Kiunga,Afenna,Aboswa,Aballa,Abikwa,Adudna,Alinna,Apebwa,Akalla,Aurwa,Amodna,Alomna,Akutwa,Apibna,Afuna,Anikwa,Bokola,Bokoma,Bokowa,Bokora,Bokoka,HomaBay"
 },
 {
     "name": "Bongo",
@@ -3970,7 +3970,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-   "b": "Wau,Busere,Tonj,Aguka,Juba,Maridi,Yambio,Rumbek,Aweil,Bentiu,Malakal,Bor,Nimule,Lainya,Pibor,Mundri,Lafon,Panyikang,Gogrial,Twic,Leer,Dida,Kakuma,Garsale,Jowhaar,Farlibaax,Pongwe,KenduBay,Faza,Omorate,Qoton,Afgoi,Beledhawo,Jamia,Siaya,Samburu,Afusma,Aefa,Amakma,Akobsa,Akilsa,Akikma,Aledfa,Apimma,Amodsa,Afamma,Anudma,Anemsa,Anuksa,Apodma,Alekma,BoleNigerCongola,BoleNigerCongoma,BoleNigerCongowa,BoleNigerCongora,BoleNigerCongoka"
+   "b": "Wau,Busere,Tonj,Aguka,Juba,Maridi,Yambio,Rumbek,Aweil,Bentiu,Malakal,Bor,Nimule,Lainya,Pibor,Mundri,Lafon,Panyikang,Gogrial,Twic,Leer,Dida,Kakuma,Garsale,Jowhaar,Farlibaax,Pongwe,Faza,Omorate,Qoton,Afgoi,Beledhawo,Jamia,Siaya,Afusma,Aefa,Amakma,Akobsa,Akilsa,Akikma,Aledfa,Apimma,Amodsa,Afamma,Anudma,Anemsa,Anuksa,Apodma,Alekma,Abuja,KenduBay,Samburu,BoleNigerCongola,BoleNigerCongoma,BoleNigerCongowa,BoleNigerCongora,BoleNigerCongoka"
 },
 {
     "name": "Bolon",
@@ -3988,7 +3988,7 @@ window.africaNameBases = [
   "max": 19,
   "d": "lnrt",
   "m": 0,
-   "b": "Epena,Likouala-aux-Herbes,Impfondo,Ouesso,Enyele,Bondongo,Mbonzo,Dibole,Bongili,Ngondi,Ngiri,Matoki,Leke,Likouala,CAR,Brazzaville,Pointe-Noire,Dolisie,Madingou,Gamboma,Kindamba,Owando,Mossendjo,Mbinda,Makokou,Hola,Degehabur,Bagula,Iskushuban,Gendershe,Garsen,Ikonge,ElDera,Haraale,Salkaxo,Garowe,Janaale,Kaloleni,Masige,ArchersPost,Amunka,Akilbwe,Aligka,Aparka,Adosna,Afekna,Anesna,Apibwe,Aonna,Adabka,Amilka,Aburna,Amidbwe,Akamna,Adukka,Bomitabala,Bomitabama,Bomitabawa,Bomitabara,Bomitabaka"
+   "b": "Epena,Likouala-aux-Herbes,Impfondo,Ouesso,Enyele,Bondongo,Mbonzo,Dibole,Bongili,Ngondi,Matoki,Leke,Likouala,CAR,Pointe-Noire,Dolisie,Madingou,Gamboma,Kindamba,Owando,Mossendjo,Mbinda,Makokou,Hola,Degehabur,Bagula,Iskushuban,Gendershe,Garsen,Ikonge,Haraale,Salkaxo,Garowe,Janaale,Kaloleni,Masige,ArchersPost,Amunka,Akilbwe,Aligka,Aparka,Adosna,Afekna,Anesna,Apibwe,Aonna,Adabka,Amilka,Aburna,Amidbwe,Akamna,Adukka,Bomitabala,Bomitabama,Bomitabawa,Bomitabara,Bomitabaka,Tamale,Bouaké,Ngiri,Brazzaville,ElDera"
 },
 {
     "name": "Bomu",
@@ -4006,7 +4006,7 @@ window.africaNameBases = [
   "max": 17,
   "d": "lnrt",
   "m": 0,
-   "b": "Pikounda,Ouesso,Liouesso,Sangha River,Sangha Department,Likouala,Cuvette,Bomitaba,Ngondi,Ngiri,Bokiba,Bongwili,Mbomotaba,Dibole,Bogongo,Pande,Mbati,Brazzaville,Pointe-Noire,Dolisie,Madingou,Gamboma,Kindamba,Owando,Maralal,Liibaan,Duduble,Galdogob,Dhoobley,Vanga,Suba,Korr,Gurfuudle,Dabare,Runni,Kachoda,Mkokoni,Kehancha,Sibiloi,Anodwa,Amumbwe,Aleska,Amobwe,Anekwa,Aubwa,Akimbwe,Apeska,Alabwe,Aabwa,Aalbwe,Abidbwe,Akumwa,Aneswa,Adogbwe,Bongilila,Bongilima,Bongiliwa,Bongilira,Bongilika"
+   "b": "Pikounda,Ouesso,Liouesso,Sangha River,Sangha Department,Likouala,Cuvette,Bomitaba,Ngondi,Bokiba,Bongwili,Mbomotaba,Dibole,Bogongo,Pande,Mbati,Pointe-Noire,Dolisie,Madingou,Gamboma,Kindamba,Owando,Maralal,Liibaan,Duduble,Galdogob,Dhoobley,Vanga,Suba,Korr,Gurfuudle,Dabare,Runni,Kachoda,Mkokoni,Kehancha,Sibiloi,Anodwa,Amumbwe,Aleska,Amobwe,Anekwa,Aubwa,Akimbwe,Apeska,Alabwe,Aabwa,Aalbwe,Abidbwe,Akumwa,Aneswa,Adogbwe,Bongilila,Bongilima,Bongiliwa,Bongilira,Bongilika,Saint-Louis,Thiès,Ngiri,Brazzaville"
 },
 {
     "name": "Bongo",
@@ -4024,7 +4024,7 @@ window.africaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-   "b": "Impfondo,Likouala,Mbonzo,Bomitaba,Enyele,Bondongo,Ouesso,Sangha,Cuvette,Bokiba,Bongili,Ngondi,Ngiri,Lingala,Bangui,Brazzaville,Pointe-Noire,Dolisie,Madingou,Gamboma,Kindamba,Owando,Mossendjo,Mbinda,Loyangalani,Caano,CelDheer,Saakow,Buni,Ikerege,Mkunumbi,Lodwar,Qorragan,Buulobarde,CeelBarde,Ngomoni,Oyugis,Shella,Turmi,Ainla,Anobka,Anamwa,Anitka,Arala,Alebka,Amukka,Adumla,Abutka,Adawa,Aferka,Alobla,Aalla,Akikka,Aadwa,Bonjola,Bonjoma,Bonjowa,Bonjora,Bonjoka"
+   "b": "Impfondo,Likouala,Mbonzo,Bomitaba,Enyele,Bondongo,Ouesso,Sangha,Cuvette,Bokiba,Bongili,Ngondi,Lingala,Bangui,Pointe-Noire,Dolisie,Madingou,Gamboma,Kindamba,Owando,Mossendjo,Mbinda,Loyangalani,Caano,CelDheer,Saakow,Buni,Ikerege,Mkunumbi,Lodwar,Qorragan,Buulobarde,CeelBarde,Ngomoni,Oyugis,Shella,Turmi,Ainla,Anobka,Anamwa,Anitka,Arala,Alebka,Amukka,Adumla,Abutka,Adawa,Aferka,Alobla,Aalla,Akikka,Aadwa,Bonjola,Bonjoma,Bonjowa,Bonjora,Bonjoka,Kaolack,Ziguinchor,Ngiri,Brazzaville"
 },
 {
     "name": "Bono Ghana-Ivory Coast",
@@ -4036,7 +4036,7 @@ window.africaNameBases = [
    "b": "Sunyani,Techiman,Wenchi,Berekum,Dormaa Ahenkro,Atebubu,Kintampo,Nkoranza,Bondoukou,Bono Manso,Begho,Bamboi,Japekrom,Duayaw Nkwanta,Kwame Danso,Koforidua,Kumasi,Tamale,Bolgatanga,Wa,Sunyani Fiapre,Berekum Odumase"
 },
 {
-    "name": "Bura", "i": 20605, "min": 3, "max": 11, "d": "lnrt", "m": 0, "b": "Biu,Hawul,Kwaya Kusar,Shani,Bayo,Garkida,Damboa,Gulani,Gujba,Maiduguri,Damaturu,Potiskum,Gwoza,Bama,Askira-Uba,Konduga,Monguno,Ngala,Kala-Balge,Marte,Kukawa,Gubio,Magumeri,Abadam,Kaga,Karamara,Qoryooley,CeelBuux,Tiyeglow,Kau,Butere,Kilifi,Teltele,Wargalo,Xabo,BurAcaba,Bargoni,Chwele,Hola,Degehabur,Abadna,Apusla,Aewa,Aborna,Adutla,Apowa,Afibna,Afolwa,Afukla,Akagwa,Anenna,Adunla,Apibwa,Analna,Amurna,BonoNigeriala,BonoNigeriama,BonoNigeriawa,BonoNigeriara,BonoNigeriaka"
+    "name": "Bura", "i": 20605, "min": 3, "max": 11, "d": "lnrt", "m": 0, "b": "Biu,Hawul,Kwaya Kusar,Shani,Bayo,Garkida,Damboa,Gulani,Gujba,Potiskum,Gwoza,Bama,Askira-Uba,Konduga,Monguno,Ngala,Kala-Balge,Marte,Kukawa,Gubio,Magumeri,Abadam,Kaga,Karamara,Qoryooley,CeelBuux,Tiyeglow,Kau,Butere,Kilifi,Teltele,Wargalo,Xabo,BurAcaba,Bargoni,Chwele,Hola,Degehabur,Abadna,Apusla,Aewa,Aborna,Adutla,Apowa,Afibna,Afolwa,Afukla,Akagwa,Anenna,Adunla,Apibwa,Analna,Amurna,Touba,Ségou,Maiduguri,Damaturu,BonoNigeriala,BonoNigeriama,BonoNigeriawa,BonoNigeriara,BonoNigeriaka"
 },
 {
     "name": "Boon",
@@ -4045,7 +4045,7 @@ window.africaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-  "b": "Jilib,Middle Jubba,Kismayo,Mogadishu,Baidoa,Bardhere,Gedo,Lower Jubba,Afgooye,Merka,Barawa,Goobweyn,Sakow,Buulo Mareer,Jamame,Diff,Maiduguri,Damaturu,Potiskum,Biu,Gwoza,Bama,Askira-Uba,Konduga,Monguno,Anilsa,Akagfa,Alonma,Aosa,Afikma,Anagfa,Abutsa,Arusa,Apakma,Apadfa,Afoksa,Adomma,Anasfa,Akugma,Afinsa,Boonla,Boonma,Boonwa,Boonra,Boonka"
+  "b": "Jilib,Middle Jubba,Kismayo,Mogadishu,Baidoa,Bardhere,Gedo,Lower Jubba,Afgooye,Merka,Barawa,Goobweyn,Sakow,Buulo Mareer,Jamame,Diff,Potiskum,Biu,Gwoza,Bama,Askira-Uba,Konduga,Monguno,Anilsa,Akagfa,Alonma,Aosa,Afikma,Anagfa,Abutsa,Arusa,Apakma,Apadfa,Afoksa,Adomma,Anasfa,Akugma,Afinsa,Boonla,Boonma,Boonwa,Boonra,Boonka,Sikasso,Mopti,Maiduguri,Damaturu"
 },
 {
     "name": "Budza",
@@ -4054,7 +4054,7 @@ window.africaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-  "b": "Bumba,Bongandanga,Basoko,Mongala,Tshopo,Yambuli,Lisala,Congo River,Ubangi River,Bosambi,Egbuta,Kwanza,Mbila,Monzamboli,Yaliambi,Yasonjo,Tembo,Kunda,Gbuta,Babale,Maiduguri,Damaturu,Potiskum,Biu,Gwoza"
+  "b": "Bumba,Bongandanga,Basoko,Mongala,Tshopo,Yambuli,Lisala,Congo River,Ubangi River,Bosambi,Egbuta,Kwanza,Mbila,Monzamboli,Yaliambi,Yasonjo,Tembo,Kunda,Gbuta,Babale,Potiskum,Biu,Gwoza,Timbuktu,Gao,Maiduguri,Damaturu"
 },
 {
     "name": "Buli",
@@ -4063,7 +4063,7 @@ window.africaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-    "b": "Sandema,Chuchuliga,Doninga,Fumbisi,Gbedema,Gbedembilisi,Kadema,Kanjarga,Siniensi,Uwasa,Vaari,Wiaga,Wiesi,Navrongo,Bolgatanga,Bawku,Tamale,Kanjaga,Builsa,Paga,Tongo,Zebilla,Binduri,Zuarungu,Bongo,Garu,Nangodi,Pusiga,Tempane"
+    "b": "Sandema,Chuchuliga,Doninga,Fumbisi,Gbedema,Gbedembilisi,Kadema,Kanjarga,Siniensi,Uwasa,Vaari,Wiaga,Wiesi,Navrongo,Bolgatanga,Bawku,Tamale,Kanjaga,Builsa,Paga,Tongo,Zebilla,Zuarungu,Bongo,Garu,Nangodi,Pusiga,Tempane,Bobo-Dioulasso,Binduri"
 },
 {
     "name": "Buru-Angwe",
@@ -4102,7 +4102,7 @@ window.africaNameBases = [
   "max": 18,
   "d": "lnrt",
   "m": 0,
-  "b": "Khénifra,Azrou,Ifrane,Sefrou,El Hajeb,Imouzzer Kandar,Meknes,Fes,Khemiset,Boulemane,Missour,Outat Oulad El Haj,Ribaa,Taza,Taounate,Al Hoceima,Nador,Oujda,Berkane,Figuig,Errachidia,Ouarzazate,Tinghir,Zagora,Tata,Assa,Aulburg,Anusland,Aporburg,Anelburg,Alugland,Apeburg,Apurland,Apunburg,Anadburg,Aputburg,Akadside,Akulburg,Amigland,Adinburg,Amodland,CentralAtlasTamazighttown,CentralAtlasTamazightville,CentralAtlasTamazightburg,CentralAtlasTamazightview,CentralAtlasTamazightside"
+  "b": "Khénifra,Azrou,Ifrane,Sefrou,El Hajeb,Imouzzer Kandar,Meknes,Fes,Khemiset,Boulemane,Missour,Outat Oulad El Haj,Ribaa,Taza,Taounate,Al Hoceima,Nador,Oujda,Berkane,Figuig,Errachidia,Ouarzazate,Tinghir,Zagora,Tata,Assa,Taroudant,Tafraout,Boumalne,Tizi Ouzou,Béjaïa,Sétif,Bouira,Houmt Souk,Medenine,Tataouine,Beni Mellal,Chefchaouen,Djenné,Gao,Ghardaïa,Aulburg,Anusland,Aporburg,Anelburg,Alugland,Apeburg,Apurland,Apunburg,Anadburg,Aputburg,Akadside,Akulburg,Amigland,Adinburg,Amodland,CentralAtlasTamazighttown,CentralAtlasTamazightville,CentralAtlasTamazightburg,CentralAtlasTamazightview,CentralAtlasTamazightside"
 },
 {
     "name": "Chopi",
@@ -4111,7 +4111,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-    "b": "Quissico,Zavala,Inhambane,Maxixe,Inharrime,Chidenguele,Maputo,Zandamela,Manjacaze,Jangamo,Funhalouro,Govuro,Homoine,Inhassoro,Mabote,Massinga,Morrumbene,Panda,Vilanculos,Tofo,Vilankulo,Gaza,Chibuto,Xai-Xai,Limpopo,Matola,Beira,Qoton,Afgoi,Beledhawo,Jamia,Siaya,Samburu,Ririba,Galolk,CeelAfweyn,Baidoa,Chara,Webuye,Kipini,Mega,AadanYabaal,Aduna,Aekwa,Aanwa,Abisna,Akalna,Anukwa,Adodla,Apinwa,Akena,Afirwa,Alulwa,Anatna,Adotla,Arewa,Anunna,Chopila,Chopima,Chopiwa,Chopira,Chopika"
+    "b": "Quissico,Zavala,Inhambane,Maxixe,Inharrime,Chidenguele,Maputo,Zandamela,Manjacaze,Jangamo,Funhalouro,Govuro,Homoine,Inhassoro,Mabote,Massinga,Morrumbene,Panda,Vilanculos,Tofo,Vilankulo,Gaza,Chibuto,Xai-Xai,Limpopo,Matola,Beira,Qoton,Afgoi,Beledhawo,Jamia,Siaya,Ririba,Galolk,CeelAfweyn,Baidoa,Chara,Webuye,Kipini,Mega,AadanYabaal,Aduna,Aekwa,Aanwa,Abisna,Akalna,Anukwa,Adodla,Apinwa,Akena,Afirwa,Alulwa,Anatna,Adotla,Arewa,Anunna,Chopila,Chopima,Chopiwa,Chopira,Chopika,Kindia,Samburu"
 },
 {
     "name": "Tigrinya",
@@ -4129,7 +4129,7 @@ window.africaNameBases = [
   "max": 15,
   "d": "lnrt",
   "m": 0,
-    "b": "Gelegu,Tewodros Ketema,Metemma,Takusa,Alefa,Chilga,Ayikel,Seraba,Wohni,Dembiya,Lay Armachiho,Tach Armachiho,Gondar,Dabat,Debark,Gorgora,Addi Arkay,Beyeda,Jan Amora,Mirab Armachiho,Wegera,Tselemt,Tegeda,Simien,Lasta,Begemder,Dengel Ber,Manu,Uadi Mena,Acsera,Metebiya"
+    "b": "Gelegu,Tewodros Ketema,Metemma,Takusa,Alefa,Chilga,Ayikel,Seraba,Wohni,Dembiya,Lay Armachiho,Tach Armachiho,Gondar,Dabat,Debark,Gorgora,Addi Arkay,Beyeda,Jan Amora,Mirab Armachiho,Wegera,Tselemt,Tegeda,Simien,Lasta,Begemder,Dengel Ber,Manu,Acsera,Metebiya,Uadi Mena"
 },
 {
     "name": "Dangme",
@@ -4147,7 +4147,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Victoria,Beau Vallon,Anse Royale,Praslin,La Digue,Baie Lazare,Takamaka,Port Glaud,Anse aux Pins,Anse Boileau,Anse Etoile,Anse Louis,Anse Volbert,Capucin,Cascade,Cerf,Grand Anse,La Misère,Mont Buxton,Mont Fleuri,Plaine St. Anne,Port Launay,Roche Caiman,Sauzon,St. Louis"
+  "b": "Victoria,Beau Vallon,Anse Royale,Praslin,La Digue,Baie Lazare,Takamaka,Port Glaud,Anse aux Pins,Anse Boileau,Anse Etoile,Anse Louis,Anse Volbert,Capucin,Cascade,Cerf,Grand Anse,La Misère,Mont Buxton,Port Launay,Roche Caiman,Sauzon,St. Louis,Kankan,Mont Fleuri,Plaine St. Anne"
 },
 {
     "name": "Glavda",
@@ -4156,7 +4156,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-    "b": "Ngoshe,Bokwa,Amuda,Arboko,Ashigashiya,Agapalawa,Aganjara,Juburli,Zamga,Atagara,Halaghwa,Gwoza,Maiduguri,Maroua,Koza,Gava,Pulka,Mora,Moskota,Zelidva,Kerawa,Uvagha,Gvoko,Cineni,Wandala,Mafa,Konduga,Dikwa,Monguno,Baga"
+    "b": "Ngoshe,Bokwa,Amuda,Arboko,Ashigashiya,Agapalawa,Aganjara,Juburli,Zamga,Atagara,Halaghwa,Gwoza,Maroua,Koza,Gava,Pulka,Mora,Moskota,Zelidva,Kerawa,Uvagha,Gvoko,Cineni,Wandala,Mafa,Konduga,Dikwa,Monguno,Baga,Nzérékoré,Maiduguri"
 },
 {
     "name": "Simaa",
@@ -4174,7 +4174,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-    "b": "Inhambane,Maxixe,Hlengwe,Dzibi,Dzonga,Mandla,Nhayi,Xai-Xai,Chibuto,Manjacaze,Zavala,Jangamo,Inharrime,Bilene,Chidenguele,Maputo,Matola,Beira,Chimoio,Vilankulo,Massinga,Morrumbene,Panda,Homoine,Funhalouro,Govuro,Inhassoro,Mabote,Vilanculos,Bazaruto,Jamia,Siaya,Samburu,Ririba,Galolk,CeelAfweyn,Baidoa,Chara,Webuye,Kipini,Mega,AadanYabaal,Galgalo,Fancole,Wema,Tshivendala,Tshivendama,Tshivendawa,Tshivendara,Tshivendaka,Tshivendata,Tshivendabwe,Tshivendasa,Tshivendana,Tshivendafa,Tshivendaga,Tshivendaja,Tshivendada,Tshivendane,Tshivendale,Tshivendare,Tshivendazi,Tshivendabo,Tshivendaki,Tshivendamu"
+    "b": "Inhambane,Maxixe,Hlengwe,Dzibi,Dzonga,Mandla,Nhayi,Xai-Xai,Chibuto,Manjacaze,Zavala,Jangamo,Inharrime,Bilene,Chidenguele,Maputo,Matola,Beira,Chimoio,Vilankulo,Massinga,Morrumbene,Panda,Homoine,Funhalouro,Govuro,Inhassoro,Mabote,Vilanculos,Bazaruto,Jamia,Siaya,Ririba,Galolk,CeelAfweyn,Baidoa,Chara,Webuye,Kipini,Mega,AadanYabaal,Galgalo,Fancole,Wema,Tshivendala,Tshivendama,Tshivendawa,Tshivendara,Tshivendaka,Tshivendata,Tshivendabwe,Tshivendasa,Tshivendana,Tshivendafa,Tshivendaga,Tshivendaja,Tshivendada,Tshivendane,Tshivendale,Tshivendare,Tshivendazi,Tshivendabo,Tshivendaki,Tshivendamu,Porto-Novo,Samburu"
 },
 {
     "name": "Goemai",
@@ -4183,7 +4183,7 @@ window.africaNameBases = [
   "max": 14,
   "d": "lnrt",
   "m": 0,
-    "b": "Shendam,Ajikamai,Bakin Kogi,Derlit,Dungba,Garas,Gidan-Adamu,Ilalong,Kato,Kuru wat,Kuruh Lagai,Kwaphur,Kwapkuwa,Lakushi,Lavaba,Lon goebou,Longvel,Naburuk,Nball,Nbet,Nder,Nshar,Ntuer,Pangshom,Peoshie,Poediel,Rajiyam Giwa,Shanlang,Shepwan,Shunkwan,Sohlut,Soklut,Tangzeb,Tinhan,Tsovo,Tukum,Tumbi,Turdung Doruwa,Yelwa,Jos,Pankshin,Mangu,Bokkos,Langtang,Wase,Mikang,Qua'an Pan,Ibi,Riyom"
+    "b": "Shendam,Ajikamai,Bakin Kogi,Derlit,Dungba,Garas,Gidan-Adamu,Ilalong,Kato,Kuru wat,Kuruh Lagai,Kwaphur,Kwapkuwa,Lakushi,Lavaba,Lon goebou,Longvel,Naburuk,Nball,Nbet,Nder,Nshar,Ntuer,Pangshom,Peoshie,Poediel,Shanlang,Shepwan,Shunkwan,Sohlut,Soklut,Tangzeb,Tinhan,Tsovo,Tukum,Tumbi,Turdung Doruwa,Yelwa,Jos,Pankshin,Mangu,Bokkos,Langtang,Wase,Mikang,Qua'an Pan,Ibi,Riyom,Rajiyam Giwa"
 },
 {
     "name": "Goji",
@@ -4210,7 +4210,7 @@ window.africaNameBases = [
   "max": 15,
   "d": "lnrt",
   "m": 0,
-  "b": "Huambo,Bié,Benguela,Lobito,Luanda,Lubango,Saurimo,Cuíto,Malanje,Kuito,Moçâmedes,N'dalatando,Soyo,Cabinda,Uíge,Lucapa,Bailundo,Curoca,Cuangar,Ngiva,Humpata,Mavinga,Cuchi,Matala,Chibia,Caluquembe,Chicomba,Iskushuban,Xuddur,AdanYabaal,Garbaharey,Garbo,Xarardheere,Khasara,Caadale,Yeed,CarroCada,Alduba,Afgooye,Eyl,Galdogob,Bacadweyn,Aburje,Apegke,Aponre,Apabke,Abije,Afakje,Amudke,Adomre,Aniske,Aleje,Aferje,Adibke,Akukke,Amagje,Abimje,Ulbarele,Ulbarere,Ulbarene,Ulbareke,Ulbarehe"
+  "b": "Huambo,Bié,Benguela,Lobito,Luanda,Lubango,Saurimo,Cuíto,Malanje,Kuito,Moçâmedes,N'dalatando,Soyo,Cabinda,Uíge,Lucapa,Bailundo,Curoca,Cuangar,Ngiva,Humpata,Mavinga,Cuchi,Matala,Chibia,Caluquembe,Chicomba,Iskushuban,Xuddur,AdanYabaal,Garbaharey,Garbo,Xarardheere,Khasara,Caadale,Yeed,Alduba,Afgooye,Eyl,Galdogob,Bacadweyn,Aburje,Apegke,Aponre,Apabke,Abije,Afakje,Amudke,Adomre,Aniske,Aleje,Aferje,Adibke,Akukke,Amagje,Abimje,Ulbarele,Ulbarere,Ulbarene,Ulbareke,Ulbarehe,CarroCada"
 },
 {
     "name": "Wolane",
@@ -4246,7 +4246,7 @@ window.africaNameBases = [
   "max": 14,
   "d": "lnrt",
   "m": 0,
-  "b": "Cheha,Ezhana Wolene,Cäzza,Welkite,Addis Ababa,Emdeber,Wolkite,Ezha,Enemorina Ener,Abeshge,Gumer,Joka,Tug Megheccia,Haram Shet,Wink E Shet,Attat,Azer,Gotam,Megecha,Wabe,Metrakat,Luanda,Huambo,Lobito,Benguela,BurDiqda,Akikwe,Adodje,Adante,Adisje,Akalwe,Amokwe,Aedje,Alante,Abutje,Apuwe,Amurwe,Alubje,Amamte,Anetje,Aodwe,Muherle,Muherre,Muherne,Muherke,Muherhe"
+  "b": "Cheha,Ezhana Wolene,Cäzza,Welkite,Addis Ababa,Emdeber,Wolkite,Ezha,Enemorina Ener,Abeshge,Gumer,Joka,Tug Megheccia,Haram Shet,Wink E Shet,Attat,Azer,Gotam,Megecha,Wabe,Metrakat,Luanda,Huambo,Lobito,Benguela,Akikwe,Adodje,Adante,Adisje,Akalwe,Amokwe,Aedje,Alante,Abutje,Apuwe,Amurwe,Alubje,Amamte,Anetje,Aodwe,Muherle,Muherre,Muherne,Muherke,Muherhe,BurDiqda"
 },
 {
     "name": "Inneqor",
@@ -4282,7 +4282,7 @@ window.africaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Kimbi,Bum,Boyo Division,Mbuk,Bebe,Kemezung,Naki,Saari,Noni,Ncane,Mungong,Fio,Bikya,Fang,Koshin,Mundabli,Buu,Mungbam,Missong,Ajumbu,Lung,Luanda,Huambo,Lobito,Benguela,FergusonsGulf,Hareeri,Balcad,Berdaale,Kinarani,Mbita,Bodhai,Kangaten,Holug,BuloBurto,Garbahaarrey,Omaribaya,Yala,Mtwapa,Karamara,Aponka,Amusna,Amelbwe,Anegka,Abumka,Aebwe,Alakna,Abamka,Aatna,Aegbwe,Adinna,Akuska,Apelka,Aforna,Apedbwe,Chungla,Chungma,Chungwa,Chungra,Chungka"
+  "b": "Kimbi,Bum,Boyo Division,Mbuk,Bebe,Kemezung,Naki,Saari,Noni,Ncane,Mungong,Fio,Bikya,Koshin,Mundabli,Buu,Mungbam,Missong,Ajumbu,Lung,Luanda,Huambo,Lobito,Benguela,FergusonsGulf,Hareeri,Balcad,Berdaale,Kinarani,Mbita,Bodhai,Kangaten,Holug,BuloBurto,Garbahaarrey,Omaribaya,Yala,Mtwapa,Karamara,Aponka,Amusna,Amelbwe,Anegka,Abumka,Aebwe,Alakna,Abamka,Aatna,Aegbwe,Adinna,Akuska,Apelka,Aforna,Apedbwe,Chungla,Chungma,Chungwa,Chungra,Chungka,Fang"
 },
 {
     "name": "Dciriku",
@@ -4309,7 +4309,7 @@ window.africaNameBases = [
   "max": 17,
   "d": "lnrt",
   "m": 0,
-  "b": "Bambasi,Asosa,Begi,Hozo,Seze,Ganza,Benishangul-Gumuz,Oromia,Didessa River,Belo Jegonfoy,Kondala,Kwama,Koma,Anfillo,Blue Nile,Luanda,Huambo,Lobito,Benguela,Lubango,Malanje,Kuito,Moçâmedes,N'dalatando,Soyo"
+  "b": "Bambasi,Asosa,Begi,Hozo,Seze,Ganza,Benishangul-Gumuz,Oromia,Didessa River,Belo Jegonfoy,Kondala,Kwama,Koma,Anfillo,Luanda,Huambo,Lobito,Benguela,Lubango,Malanje,Kuito,Moçâmedes,N'dalatando,Soyo,Blue Nile"
 },
 {
     "name": "Kafa",
@@ -4318,7 +4318,7 @@ window.africaNameBases = [
   "max": 14,
   "d": "lnrt",
   "m": 0,
-  "b": "Bonga,Tepi,Mizan Teferi,Gore,Metu,Jimma,Agaro,Bedele,Sebeta,Durame,Kacha Bira,Wacha,Shishinda,Bench Maji,Meinit,Meinit Goldiya,Keffa,Sheka,Bench Sheko,Gojeb River,Omo River,Adiyo,Awurada,Bita,Chena,Cheta,Decha,Deka,Gesha,Gewata,Ginbo,Goba,Menjiwo,Sayilem,Telo,Farlibaax,Dhalwo,Eyl,Goobweyn,Rabai,Manga,Merti,Hula,Kaxare,Bacadweyn,Burdhubo,Samburu,Ogembo,SouthHorr,Aqable,Abudla,Anetla,Audla,Akila,Akirka,Airla,Aditla,Adeka,Afabla,Aolka,Akinka,Adikla,Akedla,Abisla,Afikka,NorthOmoticla,NorthOmoticma,NorthOmoticwa,NorthOmoticra,NorthOmoticka"
+  "b": "Bonga,Tepi,Mizan Teferi,Gore,Metu,Jimma,Agaro,Bedele,Sebeta,Durame,Wacha,Shishinda,Bench Maji,Meinit,Meinit Goldiya,Keffa,Sheka,Bench Sheko,Gojeb River,Omo River,Adiyo,Awurada,Bita,Chena,Cheta,Decha,Deka,Gesha,Gewata,Ginbo,Goba,Menjiwo,Sayilem,Telo,Farlibaax,Dhalwo,Eyl,Goobweyn,Rabai,Manga,Merti,Hula,Kaxare,Bacadweyn,Burdhubo,Ogembo,SouthHorr,Aqable,Abudla,Anetla,Audla,Akila,Akirka,Airla,Aditla,Adeka,Afabla,Aolka,Akinka,Adikla,Akedla,Abisla,Afikka,Kacha Bira,Samburu,NorthOmoticla,NorthOmoticma,NorthOmoticwa,NorthOmoticra,NorthOmoticka"
 },
 {
     "name": "Wolaytta",
@@ -4327,7 +4327,7 @@ window.africaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-  "b": "Wolaita Sodo,Areka,Boditi,Tebela,Bale Hawassa,Gesuba,Gununo,Bedessa,Dimtu,Bitena,Arjo,Dalocha,Fuchucha,Gawata,Kachama,Sawena,Bonga,Tepi,Gore,Metu,Jimma,Agaro,Bedele,Sebeta,Durame,Kacha Bira,RasKamboni,Deynile,Hobyo,Kudhaa,Shimba,Tabaka,Marsabit,Murcanyo,Buqda,Galkacyo,Elwak,Mkonumbi,Isebania,Maikona,Cagare,Aokfa,Apelma,Amamfa,Alosfa,Aferma,Afogra,Ametfa,Arema,Anenra,Alesma,Akolra,Akefa,Amisra,Apufa,Aakfa,Ometola,Ometoma,Ometowa,Ometora,Ometoka"
+  "b": "Wolaita Sodo,Areka,Boditi,Tebela,Bale Hawassa,Gesuba,Gununo,Bedessa,Dimtu,Bitena,Arjo,Dalocha,Fuchucha,Gawata,Kachama,Sawena,Bonga,Tepi,Gore,Metu,Jimma,Agaro,Bedele,Sebeta,Durame,RasKamboni,Deynile,Hobyo,Kudhaa,Shimba,Tabaka,Marsabit,Murcanyo,Buqda,Galkacyo,Elwak,Mkonumbi,Isebania,Maikona,Cagare,Aokfa,Apelma,Amamfa,Alosfa,Aferma,Afogra,Ametfa,Arema,Anenra,Alesma,Akolra,Akefa,Amisra,Apufa,Aakfa,Ometola,Ometoma,Ometowa,Ometora,Ometoka,Kacha Bira"
 },
 {
     "name": "Chichewa",
@@ -4345,7 +4345,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Chibok,Askira,Uba,Damboa,Maiduguri,Bama,Mubi,Gwoza,Konduga,Monguno,Ngala,Kala Balge,Jere,Magumeri,Kaga,Kwaya Kusar,Biu,Shani,Hawul,Kirfi,Bayo,Shaffa,Luanda,Huambo,Lobito,Kabxan,Gaalkacyo,Maraag,Mackinnon,Nyamira,Wamba,Xato,Sarameer,Rigomane,BilisQoqani,Jombo,Kihancha,Laisamis,Koriley,BuloBurde,Aperwa,Amibbwe,Amulka,Ametbwe,Anugwa,Abinwa,Akabbwe,Auka,Alokbwe,Abomwa,Aotbwe,Adarbwe,Akibwa,Apulwa,Afekbwe,Cibakla,Cibakma,Cibakwa,Cibakra,Cibakka"
+  "b": "Chibok,Askira,Uba,Damboa,Bama,Mubi,Gwoza,Konduga,Monguno,Ngala,Kala Balge,Jere,Magumeri,Kaga,Kwaya Kusar,Biu,Shani,Hawul,Kirfi,Bayo,Shaffa,Luanda,Huambo,Lobito,Kabxan,Gaalkacyo,Maraag,Mackinnon,Nyamira,Wamba,Xato,Sarameer,Rigomane,BilisQoqani,Jombo,Kihancha,Laisamis,Koriley,BuloBurde,Aperwa,Amibbwe,Amulka,Ametbwe,Anugwa,Abinwa,Akabbwe,Auka,Alokbwe,Abomwa,Aotbwe,Adarbwe,Akibwa,Apulwa,Afekbwe,Cibakla,Cibakma,Cibakwa,Cibakra,Cibakka,Parakou,Maiduguri"
 },
 {
     "name": "Cineni",
@@ -4354,7 +4354,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Cineni,Gwoza,Pulka,Uba,Mubi,Askira,Damboa,Bama,Maiduguri,Biu,Giriria,Kirawa,Mandara,Gwoza Hills,Ashigashiya,Balangaje,Balazala,Barawa,Bokko,Bulabulin,Duma,Wakane,Sabongari,Shekalam,Hambagda,Mboa"
+  "b": "Cineni,Gwoza,Pulka,Uba,Mubi,Askira,Damboa,Bama,Biu,Giriria,Kirawa,Mandara,Gwoza Hills,Ashigashiya,Balangaje,Balazala,Barawa,Bokko,Bulabulin,Duma,Wakane,Sabongari,Shekalam,Hambagda,Mboa,Sokodé,Maiduguri"
 },
 {
     "name": "Ciwogai",
@@ -4372,7 +4372,7 @@ window.africaNameBases = [
   "max": 15,
   "d": "lnrt",
   "m": 0,
-  "b": "Cairo,Alexandria,Asyut,Luxor,Memphis,Thebes,Faiyum,Oxyrhynchus,Aswan,Minya,Sohag,Qena,El-Arish,Siwa,Damanhur,Tanta,Zagazig,Mansoura,Hurghada,Sharm el-Sheikh,Port Said,Suez,Ismailia,Damietta,Rosetta,Apistown,Alinford,Akigtown,Afobburg,Aduburg,Apamburg,Adimford,Akarburg,Akedford,Adidford,Abidtown,Abotford,Apegburg,Amudford,Adabburg,Coptictown,Copticville,Copticburg,Copticview,Copticside"
+  "b": "Cairo,Alexandria,Asyut,Luxor,Memphis,Thebes,Faiyum,Oxyrhynchus,Aswan,Minya,Sohag,Qena,El-Arish,Siwa,Damanhur,Tanta,Zagazig,Mansoura,Hurghada,Sharm el-Sheikh,Port Said,Suez,Ismailia,Damietta,Rosetta,Tunis,Sfax,Tripoli,Benghazi,Fez,Tangier,Annaba,Constantine,Rabat,Meknes,Apistown,Alinford,Akigtown,Afobburg,Aduburg,Apamburg,Adimford,Akarburg,Akedford,Adidford,Abidtown,Abotford,Apegburg,Amudford,Adabburg,Coptictown,Copticville,Copticburg,Copticview,Copticside"
 },
 {
     "name": "Cuvok",
@@ -4453,7 +4453,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kolmonyi,Kole,Lodja,Dekese,Sankuru,Ileo,Lukenie,Tetela,Dengese,Ndengese,Bonkese,Bonkesse,Ndenkese,Nkutu,Mongo,Luba,Kasai,Luanda,Huambo,Lobito,Benguela,Lubango,Malanje,Kuito,Moçâmedes"
+  "b": "Kolmonyi,Kole,Lodja,Dekese,Ileo,Lukenie,Tetela,Dengese,Ndengese,Bonkese,Bonkesse,Ndenkese,Nkutu,Mongo,Luba,Kasai,Luanda,Huambo,Lobito,Benguela,Lubango,Malanje,Kuito,Moçâmedes,Kara,Sankuru"
 },
 {
     "name": "Deno",
@@ -4471,7 +4471,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Tamesna,Igiliz,Salé,Rabat,Casablanca,Marrakesh,Essaouira,Safi,Azemmour,Agadir,Taroudant,Tiznit,Guelmim,Tan-Tan,Laayoune,Dakhla,Chefchaouen,Ouarzazate,Luanda,Huambo,Lobito,Benguela,Lubango,Malanje,Kuito,Amubridge,Anenport,Afimport,Afetbridge,Akegwood,Abitport,Anigbridge,Abagport,Afalport,Apanbridge,Apalbridge,Aagbridge,Alambridge,Alebwood,Abitbridge,LisanalGharbitown,LisanalGharbiville,LisanalGharbiburg,LisanalGharbiview,LisanalGharbiside"
+  "b": "Tamesna,Igiliz,Salé,Rabat,Casablanca,Marrakesh,Essaouira,Safi,Azemmour,Agadir,Taroudant,Tiznit,Guelmim,Tan-Tan,Laayoune,Dakhla,Chefchaouen,Ouarzazate,Luanda,Huambo,Lobito,Benguela,Lubango,Malanje,Kuito,Beira,Nampula,Tete,Chimoio,Francistown,Maun,Johannesburg,lisanalgharbiSprings,lisanalgharbiCreek,lisanalgharbiRidge,lisanalgharbiHeights,lisanalgharbiFalls,lisanalgharbiBeach,lisanalgharbiPoint,lisanalgharbiBay,lisanalgharbiGrove,Amubridge,Anenport,Afimport,Afetbridge,Akegwood,Abitport,Anigbridge,Abagport,Afalport,Apanbridge,Apalbridge,Aagbridge,Alambridge,Alebwood,Abitbridge,LisanalGharbitown,LisanalGharbiville,LisanalGharbiburg,LisanalGharbiview,LisanalGharbiside"
 },
 {
     "name": "Matmata Berber",
@@ -4507,7 +4507,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Sened,Tmagourt,Majoura,Gafsa,Tozeur,Kebili,Douz,Tataouine,Matmata,Gabès,Sfax,Tunis,Zenati,Berber,Luanda,Huambo,Lobito,Benguela,Lubango,Malanje,Kuito,Moçâmedes,N'dalatando,Soyo,Cabinda,Analport,Amanville,Akasville,Apidville,Amukview,Apotport,Afurview,Afisport,Abiville,Afogport,Amodport,Akasport,Adaport,Aabport,Afugview,Senedtown,Senedville,Senedburg,Senedview,Senedside"
+  "b": "Sened,Tmagourt,Majoura,Gafsa,Tozeur,Kebili,Douz,Tataouine,Matmata,Gabès,Sfax,Tunis,Zenati,Berber,Luanda,Huambo,Lobito,Benguela,Lubango,Malanje,Kuito,Moçâmedes,N'dalatando,Soyo,Cabinda,Senedtown,Senedville,Senedburg,Senedview,Senedside,senedSprings,senedCreek,senedRidge,senedHeights,senedFalls,senedBeach,senedPoint,senedBay,senedGrove,Analport,Amanville,Akasville,Apidville,Amukview,Apotport,Afurview,Afisport,Abiville,Afogport,Amodport,Akasport,Adaport,Aabport,Afugview"
 },
 {
     "name": "Sheliff Basin Berber",
@@ -4516,7 +4516,7 @@ window.africaNameBases = [
   "max": 13,
   "d": "lnrt",
   "m": 0,
-  "b": "Chlef,Sheliff,Dahra,Jebel Chenoua,Tipaza,Cherchell,Beni Menacer,Algiers,Blida,Ouarsenis,Shenwa,Zenati,Sheliff Basin,Tafna,El Amra,Ammi Moussa,Oued Righ,Luanda,Huambo,Lobito,Benguela,Lubango,Malanje,Kuito,Moçâmedes"
+  "b": "Chlef,Sheliff,Dahra,Jebel Chenoua,Tipaza,Cherchell,Beni Menacer,Algiers,Blida,Ouarsenis,Shenwa,Zenati,Sheliff Basin,Tafna,Ammi Moussa,Oued Righ,Luanda,Huambo,Lobito,Benguela,Lubango,Malanje,Kuito,Moçâmedes,El Amra"
 },
 {
     "name": "Sokna",
@@ -4525,7 +4525,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Sokna,Fuqaha,Hun,Waddan,Zella,Tmessa,Tmassa,Fezzan,Jufra,Awjila,Sukna,Sawknah,Tasuknit,Isuknan,Luanda,Huambo,Lobito,Benguela,Lubango,Malanje,Kuito,Moçâmedes,N'dalatando,Soyo,Cabinda,Adibbridge,Aputview,Adakview,Adalbridge,Aiview,Akutview,Akagbridge,Adagview,Anesbridge,Areview,Abiview,Abobbridge,Afarbridge,Alikview,Apeview,Soknatown,Soknaville,Soknaburg,Soknaview,Soknaside"
+  "b": "Sokna,Fuqaha,Hun,Waddan,Zella,Tmessa,Tmassa,Fezzan,Jufra,Awjila,Sukna,Sawknah,Tasuknit,Isuknan,Luanda,Huambo,Lobito,Benguela,Lubango,Malanje,Kuito,Moçâmedes,N'dalatando,Soyo,Cabinda,Aiview,Soknatown,Soknaville,Soknaburg,Soknaview,Soknaside,soknaSprings,soknaCreek,soknaRidge,soknaHeights,soknaFalls,soknaBeach,soknaPoint,soknaBay,soknaGrove,Adibbridge,Aputview,Adakview,Adalbridge,Akutview,Akagbridge,Adagview,Anesbridge,Areview,Abiview,Abobbridge,Afarbridge,Alikview,Apeview"
 },
 {
     "name": "Bimbashi Arabic",
@@ -4534,7 +4534,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Khartoum,Omdurman,Mongalla,Juba,Bor,Wau,Malakal,Nasir,Bentiu,Rumbek,Yei,Torit,Kapoeta,Pibor,Akobo,Gogrial,Aweil,Kuajok,Luanda,Huambo,Lobito,Benguela,Lubango,Malanje,Kuito,LasPiedras,Adolford,Afetside,Alugside,Ainford,Akebland,Alesland,Afebside,Apolford,Aolside,Apegford,Adomside,Afomford,Adudside,Abakside,Alusside,BimbashiArabictown,BimbashiArabicville,BimbashiArabicburg,BimbashiArabicview,BimbashiArabicside"
+  "b": "Khartoum,Omdurman,Mongalla,Juba,Bor,Wau,Malakal,Nasir,Bentiu,Rumbek,Yei,Torit,Kapoeta,Pibor,Akobo,Gogrial,Aweil,Kuajok,Luanda,Huambo,Lobito,Benguela,Lubango,Malanje,Kuito,Essaouira,Tetouan,Oujda,Tlemcen,Béjaïa,Batna,Biskra,Sousse,Kairouan,Bizerte,Gabès,Gafsa,Misrata,Port Said,Suez,LasPiedras,Adolford,Afetside,Alugside,Ainford,Akebland,Alesland,Afebside,Apolford,Aolside,Apegford,Adomside,Afomford,Adudside,Abakside,Alusside,BimbashiArabictown,BimbashiArabicville,BimbashiArabicburg,BimbashiArabicview,BimbashiArabicside"
 },
 {
     "name": "Bongor Arabic",
@@ -4543,7 +4543,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bongor,Mayo-Kebbi,Logone,N'Djamena,Yagoua,Dana,Goulmoun,Ngaina,Bassi,Lama Lama,Masa,French,Turku,Bimbashi,Luanda,Huambo,Lobito,Benguela,Lubango,Malanje,Kuito,Moçâmedes,N'dalatando,Soyo,Cabinda,Dorado,Guánica,Aamview,Anakwood,Apodview,Ademview,Alutwood,Afibview,Abodport,Anelwood,Akubview,Alolwood,Apodwood,Afulview,Apatwood,Amilwood,Abirview,BongorArabictown,BongorArabicville,BongorArabicburg,BongorArabicview,BongorArabicside"
+  "b": "Bongor,Mayo-Kebbi,Logone,N'Djamena,Yagoua,Dana,Goulmoun,Ngaina,Bassi,Masa,French,Turku,Bimbashi,Luanda,Huambo,Lobito,Benguela,Lubango,Malanje,Kuito,Moçâmedes,N'dalatando,Soyo,Cabinda,Guánica,Anakwood,Alutwood,Anelwood,Alolwood,Apodwood,Apatwood,Amilwood,bongorarabicSprings,bongorarabicCreek,bongorarabicRidge,bongorarabicHeights,bongorarabicFalls,bongorarabicBeach,bongorarabicPoint,bongorarabicBay,bongorarabicGrove,Lama Lama,Dorado,Aamview,Apodview,Ademview,Afibview,Abodport,Akubview,Afulview,Abirview,BongorArabictown,BongorArabicville,BongorArabicburg,BongorArabicview,BongorArabicside"
 },
 {
     "name": "Maridi Arabic",
@@ -4552,7 +4552,7 @@ window.africaNameBases = [
   "max": 13,
   "d": "lnrt",
   "m": 0,
-  "b": "Maridi,Upper Nile,Aswan,South Sudan,Wau,Juba,Yambio,Mundri,Tambura,Kozi,Landili,Mambe,Ngamunde,Bahr el Gazal,Blue Nile,Luanda,Huambo,Lobito,Benguela,Lubango,Malanje,Kuito,Moçâmedes,N'dalatando,Soyo,Comerio,Naguabo,Plymouth,Barceloneta,Carolina,Barranquitas,Hormigueros,SanLorenzo,Yabucoa,Kingstown,VegaBaja,Aguadilla,Ciales,Rincon,Arroyo,Alikburg,Afisland,Alalburg,Amanside,Aruburg,Anamside,Apetland,Alalland,Afibburg,Akibland,Abibland,Aonland,Adegburg,Abamland,Aakside,MaridiArabictown,MaridiArabicville,MaridiArabicburg,MaridiArabicview,MaridiArabicside"
+  "b": "Maridi,Aswan,South Sudan,Wau,Juba,Yambio,Mundri,Tambura,Kozi,Landili,Mambe,Ngamunde,Bahr el Gazal,Luanda,Huambo,Lobito,Benguela,Lubango,Malanje,Kuito,Moçâmedes,N'dalatando,Soyo,Upper Nile,Blue Nile,Comerio,Naguabo,Plymouth,Barceloneta,Carolina,Barranquitas,Hormigueros,SanLorenzo,Yabucoa,Kingstown,VegaBaja,Aguadilla,Ciales,Rincon,Arroyo,Alikburg,Afisland,Alalburg,Amanside,Aruburg,Anamside,Apetland,Alalland,Afibburg,Akibland,Abibland,Aonland,Adegburg,Abamland,Aakside,MaridiArabictown,MaridiArabicville,MaridiArabicburg,MaridiArabicview,MaridiArabicside"
 },
 {
     "name": "Turku Arabic",
@@ -4570,7 +4570,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Juba,Yei,Wau,Malakal,Aweil,Kuajok,Nimule,Yambio,Rumbek,Bor,Torit,Abyei,Tonj,Yirol,Bentiu,Renk,Mangalla,Luanda,Huambo,Lobito,Benguela,Lubango,Malanje,Kuito,Moçâmedes,Ponce,Adjuntas,Isabela,Loiza,Coamo,Patillas,Carolina,Philipsburg,Lares,ToaBaja,Pefiuelas,Villalba,RioGrande,FlyingFish,Aguada,Anetown,Alemside,Amuttown,Aritown,Afarside,Anubburg,Akolside,Aboktown,Apusburg,Afemtown,Amutside,Aagtown,Alentown,Amenside,Aluttown,JubaArabictown,JubaArabicville,JubaArabicburg,JubaArabicview,JubaArabicside"
+  "b": "Juba,Yei,Wau,Malakal,Aweil,Kuajok,Nimule,Yambio,Rumbek,Bor,Torit,Abyei,Tonj,Yirol,Bentiu,Renk,Mangalla,Luanda,Huambo,Lobito,Benguela,Lubango,Malanje,Kuito,Moçâmedes,Hurghada,Sharm el-Sheikh,Casablanca,Marrakesh,Algiers,Oran,Tunis,Sfax,Tripoli,Benghazi,Cairo,Alexandria,Luxor,Aswan,Fez,Tangier,Annaba,Constantine,Rabat,Meknes,Essaouira,Ponce,Adjuntas,Isabela,Loiza,Coamo,Patillas,Carolina,Philipsburg,Lares,ToaBaja,Pefiuelas,Villalba,RioGrande,FlyingFish,Aguada,Anetown,Alemside,Amuttown,Aritown,Afarside,Anubburg,Akolside,Aboktown,Apusburg,Afemtown,Amutside,Aagtown,Alentown,Amenside,Aluttown,JubaArabictown,JubaArabicville,JubaArabicburg,JubaArabicview,JubaArabicside"
 },
 {
     "name": "Naro Click (Kalahari East)",
@@ -4615,7 +4615,7 @@ window.africaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-  "b": "Addis Ababa,Bahir Dar,Gondar,Mekelle,Hawassa,Dire Dawa,Adama,Jimma,Dessie,Harar,Lalibela,Axum,Arba Minch,Nekemte,Debre Birhan,Kombolcha,Sodo,Asella,Ambo,Debre Markos,Luanda,Huambo,Lobito,Benguela,Lubango"
+  "b": "Addis Ababa,Bahir Dar,Gondar,Mekelle,Hawassa,Adama,Jimma,Dessie,Harar,Lalibela,Axum,Arba Minch,Nekemte,Debre Birhan,Kombolcha,Sodo,Asella,Ambo,Debre Markos,Luanda,Huambo,Lobito,Benguela,Lubango,Dire Dawa"
 },
 {
     "name": "Bangala",
@@ -4624,7 +4624,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bangala,Ngombe,Lisala,Bumba,Aketa,Bondo,Buta,Basoko,Opala,Isangi,Yangambi,Mongala,Budjala,Bongandanga,Ingende,Haut-Uele,Bas-Uele,Arua,Koboko,Zande,Congo River,Luanda,Huambo,Lobito,Benguela"
+  "b": "Bangala,Ngombe,Lisala,Bumba,Aketa,Bondo,Buta,Basoko,Opala,Isangi,Yangambi,Mongala,Budjala,Bongandanga,Ingende,Arua,Koboko,Zande,Congo River,Luanda,Huambo,Lobito,Benguela,Haut-Uele,Bas-Uele"
 },
 {
     "name": "Ajawa",
@@ -4651,7 +4651,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Gembu,Nguroje,Sardauna,Yerimaru,Yelwa,Wurum-Gora,Warwar,Warkaka,Vakude,Titong,Tamnyar,Njeke,Njawai,Mbu,Mbaso,Mbartule,Mayu,Mayon-Daga,Mayo Sumsum,Mayo Selbe,Mayo Nago,Mai-Samari,Magu,Leme,Lekitaba,Kusuku,Kuma,Kuara-Kuara,Kuai,Kabri,Hainare,Gurgu,Furmi,Dorofi,Bang,Antere,Nca"
+  "b": "Gembu,Nguroje,Sardauna,Yerimaru,Yelwa,Warwar,Warkaka,Vakude,Titong,Tamnyar,Njeke,Njawai,Mbu,Mbaso,Mbartule,Mayu,Mayo Sumsum,Mayo Selbe,Mayo Nago,Mai-Samari,Magu,Leme,Lekitaba,Kusuku,Kuma,Kuara-Kuara,Kuai,Kabri,Hainare,Gurgu,Furmi,Dorofi,Bang,Antere,Nca,ÁncáSprings,ÁncáCreek,ÁncáRidge,ÁncáHeights,ÁncáFalls,ÁncáBeach,ÁncáPoint,ÁncáBay,ÁncáGrove,ncSprings,ncCreek,ncRidge,ncHeights,ncFalls,ncBeach,ncPoint,ncBay,ncGrove,Wurum-Gora,Mayon-Daga"
 },
 {
     "name": "Atlas Berber",
@@ -4669,7 +4669,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bebe-Jama,Bebe-Jatto,Bebe-Kette,Bebe-Kitte,Sabongida,Mayokila,Mayonfon,Bimbua,Bewu,Misaje,Dumbu,Kwei,Nkambé,Akweto,Bansobi,Kamine,Nkanchi,Chako,Kibbo,Mbissa,Mfume,Bem,Chunghe,Mayo-Kila,Sabon-gida,Omaribaya,Yala,Mtwapa,Karamara,Qoryooley,CeelBuux,Tiyeglow,Kau,Butere,Kilifi,Teltele,Wargalo,Xabo,BurAcaba,Bargoni,Afofa,Abakra,Aidma,Abumra,Adesfa,Alufa,Aemra,Akerra,Akibma,Amolra,Apukfa,Adedfa,Anumra,Afitma,Aagra,Bebela,Bebema,Bebewa,Bebera,Bebeka"
+  "b": "Bebe-Jatto,Bebe-Kette,Bebe-Kitte,Sabongida,Mayokila,Mayonfon,Bimbua,Bewu,Misaje,Dumbu,Kwei,Nkambé,Akweto,Bansobi,Kamine,Nkanchi,Chako,Kibbo,Mbissa,Mfume,Bem,Chunghe,Sabon-gida,Omaribaya,Yala,Mtwapa,Karamara,Qoryooley,CeelBuux,Tiyeglow,Kau,Butere,Kilifi,Teltele,Wargalo,Xabo,BurAcaba,Bargoni,Afofa,Abakra,Aidma,Abumra,Adesfa,Alufa,Aemra,Akerra,Akibma,Amolra,Apukfa,Adedfa,Anumra,Afitma,Aagra,Bebela,Bebema,Bebewa,Bebera,Bebeka,Bebe-Jama,Mayo-Kila"
 },
 {
     "name": "Belneng",
@@ -4678,7 +4678,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Langung,Shendam,Panyam,Balong,Dokan Tofa,Jos,Bukuru,Pankshin,Mangu,Kabwir,Gindiri,Riyom,Barkin Ladi,Keffi,Lafia,Akwanga,Karu,Kokona,Awe,Doma,Keana,Obi,Agyaraku,Wamba,Nunku,Assakio,Effium,Ugbokpo,Otukpo,Okpokwu,Adoka,Ankpa,Dekina,Idah,Igalamela,Olamaboro,Omala,Ugwalawo,Umon,Nsukka,Garsen,Mumias,Malindi,Yavello,Guba,Xaafuun,Lanta,Ozi,Tindinyo,Masalani,ElKere,Garawe,Bargaal,Afgooye,Sengera,Aparna,Amibwa,Amulla,Ametwa,Anogna,Abenna,Akabwa,Alokwa,Adidna,Abimna,Aotwa,Augla,Adarwa,Akebna,Apolna,Belnengla,Belnengma,Belnengwa,Belnengra,Belnengka"
+  "b": "Langung,Shendam,Panyam,Balong,Jos,Pankshin,Mangu,Kabwir,Gindiri,Riyom,Barkin Ladi,Keffi,Lafia,Akwanga,Karu,Kokona,Awe,Doma,Keana,Obi,Agyaraku,Wamba,Nunku,Assakio,Effium,Ugbokpo,Otukpo,Okpokwu,Adoka,Ankpa,Dekina,Idah,Igalamela,Olamaboro,Omala,Ugwalawo,Umon,Nsukka,Garsen,Mumias,Malindi,Yavello,Guba,Xaafuun,Lanta,Ozi,Tindinyo,Masalani,Garawe,Bargaal,Afgooye,Sengera,Aparna,Amibwa,Amulla,Ametwa,Anogna,Abenna,Akabwa,Alokwa,Adidna,Abimna,Aotwa,Augla,Adarwa,Akebna,Apolna,Belnengla,Belnengma,Belnengwa,Belnengra,Belnengka,Cape Coast,Dokan Tofa,Bukuru,ElKere"
 },
 {
     "name": "Bembe Congo",
@@ -4687,7 +4687,7 @@ window.africaNameBases = [
   "max": 14,
   "d": "lnrt",
   "m": 0,
-  "b": "Fizi,Baraka,Uvira,Minembwe,Bibogobogo,Kisombe,Lulenge,Itombwe,Mutambala,Ngandja,Tanganyika,Bijombo,Kianjovu,Masango,Galye,Munanira,Kishembwe,Kalonge-Kataka,Kirungu,Kitu,Luemba,Kabambare,Kasongo,Kongolo,Nyunzu,Kasenga,Pweto,Mitwaba,Manono,Kabalo,Lubao,Kalemie,Kiliba,Sange,Runingu,Luvungi,Nemba,Burhale,Kalungu,Kashandama,Itara,Lubarika,Katogota,Kavimvira,Kigongo,Ruzizi,Wema,Nyaribari,Kotus,SofOmar,Hadud,Bereeda,Shalambood,Kilifi,Rioma,Habaswein,TulaNaga,Sarweyne,Koorma,Xarardheere,Mariakani,Akitsa,Adugma,Adarfa,Adobma,Akamsa,Amotsa,Aigma,Alarfa,Ababma,Amuksa,Alagma,Amanfa,Anisma,Aogsa,Apobma,BembeCongola,BembeCongoma,BembeCongowa,BembeCongora,BembeCongoka"
+  "b": "Fizi,Baraka,Uvira,Minembwe,Bibogobogo,Kisombe,Lulenge,Itombwe,Mutambala,Ngandja,Tanganyika,Bijombo,Kianjovu,Masango,Galye,Munanira,Kishembwe,Kalonge-Kataka,Kirungu,Kitu,Luemba,Kabambare,Kasongo,Kongolo,Nyunzu,Kasenga,Pweto,Mitwaba,Manono,Kabalo,Lubao,Kalemie,Kiliba,Sange,Runingu,Luvungi,Nemba,Burhale,Kalungu,Kashandama,Itara,Lubarika,Katogota,Kavimvira,Kigongo,Ruzizi,Wema,Nyaribari,Kotus,SofOmar,Hadud,Bereeda,Shalambood,Kilifi,Rioma,Habaswein,Sarweyne,Koorma,Xarardheere,Mariakani,Akitsa,Adugma,Adarfa,Adobma,Akamsa,Amotsa,Aigma,Alarfa,Ababma,Amuksa,Alagma,Amanfa,Anisma,Aogsa,Apobma,TulaNaga,BembeCongola,BembeCongoma,BembeCongowa,BembeCongora,BembeCongoka"
 },
 {
     "name": "Bembe DRC",
@@ -4705,7 +4705,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Besmé,Bodor,Kélo,Laï,Moundou,Doba,Bongor,Pala,Fianga,Léré,Koumra,Dourbali,Béré,Koro,Tapol,Gounou Gaya,Bébédjia,Béïnamar,Béïssa,Békiri,Béladja,Béssao,Béti,Boumo,Danamadji,Déressia,Djedah,Goré,Goundi,Grégué,Guélengdeng,Kyabé,Ndam,Ngourkosso,Sarh,Samburu,Ogembo,SouthHorr,Dhalwo,Aqable,Jariiban,Garbaharey,Geza,Uriri,Bubisa,Kumbare,Sheikh,GalCad,Ngei,Takawiri,Amelta,Akikfa,Akenfa,Alusta,Apilta,Amudsa,Afomfa,Apota,Anorfa,Aalfa,Adikta,Aludta,Amutsa,Afigfa,Abasta,Besmela,Besmema,Besmewa,Besmera,Besmeka"
+  "b": "Besmé,Bodor,Kélo,Laï,Moundou,Doba,Bongor,Pala,Fianga,Léré,Koumra,Dourbali,Béré,Koro,Tapol,Gounou Gaya,Bébédjia,Béïnamar,Béïssa,Békiri,Béladja,Béssao,Béti,Boumo,Danamadji,Déressia,Djedah,Goré,Goundi,Grégué,Guélengdeng,Kyabé,Ndam,Ngourkosso,Sarh,Ogembo,SouthHorr,Dhalwo,Aqable,Jariiban,Garbaharey,Geza,Uriri,Bubisa,Kumbare,Sheikh,GalCad,Ngei,Takawiri,Amelta,Akikfa,Akenfa,Alusta,Apilta,Amudsa,Afomfa,Apota,Anorfa,Aalfa,Adikta,Aludta,Amutsa,Afigfa,Abasta,Besmela,Besmema,Besmewa,Besmera,Besmeka,Yamoussoukro,Samburu"
 },
 {
     "name": "Bidiyo",
@@ -4714,7 +4714,7 @@ window.africaNameBases = [
   "max": 15,
   "d": "lnrt",
   "m": 0,
-  "b": "Mongo,Bitkine,Melfi,Am Zoer,Bitchotchi,Dourbali,Goundi,Koumra,Kyabé,Mbaïbokoum,Mbaïkoro,Ndam,Ngourkosso,Sarh,Béré,Béladja,Béssao,Danamadji,Déressia,Djedah,Fianga,Goré,Grégué,Guélengdeng,Kélo,Léré,Moundou,Pala,Am Timan,Abou Deïa,Adré,Am Dam,Assinet,Bahaï,Baktchoro,Biltine,Daguessa,Dar Tama,Djourf Al Ahmar,Ennedi,Fada,Iriba,Ounianga,Mkonumbi,Isebania,Maikona,Cagare,WarSheikh,Dhuusamareeb,Janjan,Mfangano,Matiri,Lowarengak,Geedweyne,Cadaado,Bardhere,Wangwana,Keumbu,Adonka,Ausna,Aokna,Abegka,Akunka,Anibna,Afelbwe,Apatna,Afasna,Akebwe,Alirna,Anubka,Adelka,Amokna,Adedbwe,Bidiyola,Bidiyoma,Bidiyowa,Bidiyora,Bidiyoka"
+  "b": "Mongo,Bitkine,Melfi,Am Zoer,Bitchotchi,Dourbali,Goundi,Koumra,Kyabé,Mbaïbokoum,Mbaïkoro,Ndam,Ngourkosso,Sarh,Béré,Béladja,Béssao,Danamadji,Déressia,Djedah,Fianga,Goré,Grégué,Guélengdeng,Kélo,Léré,Moundou,Pala,Am Timan,Abou Deïa,Adré,Am Dam,Assinet,Bahaï,Baktchoro,Biltine,Daguessa,Djourf Al Ahmar,Ennedi,Fada,Iriba,Ounianga,Mkonumbi,Isebania,Maikona,Cagare,WarSheikh,Dhuusamareeb,Janjan,Mfangano,Matiri,Lowarengak,Geedweyne,Cadaado,Bardhere,Wangwana,Keumbu,Adonka,Ausna,Aokna,Abegka,Akunka,Anibna,Afelbwe,Apatna,Afasna,Akebwe,Alirna,Anubka,Adelka,Amokna,Adedbwe,Bidiyola,Bidiyoma,Bidiyowa,Bidiyora,Bidiyoka,Dar Tama"
 },
 {
     "name": "Bina",
@@ -4723,7 +4723,7 @@ window.africaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-  "b": "Saminaka,Lere,Zaria,Kafanchan,Kachia,Kagoro,Kajuru,Kaura,Kauru,Kudan,Makarfi,Sabon Birnin,Sabon Gari,Soba,Turunku,Zangon Kataf,Zonkwa,Ikara,Kubau,Jaba,Jema'a,Kaduna North,Kaduna South,Kagarko,Birnin Gwari,Chikun,Giwa,Igabi"
+  "b": "Saminaka,Lere,Zaria,Kafanchan,Kachia,Kagoro,Kaura,Kudan,Makarfi,Sabon Birnin,Sabon Gari,Soba,Turunku,Zangon Kataf,Zonkwa,Ikara,Kubau,Jaba,Jema,Dakar,Bamako'a,Kaduna North,Kaduna South,Kagarko,Birnin Gwari,Chikun,Giwa,Igabi,Kajuru,Kauru,Jema'a"
 },
 {
     "name": "Biu–Mandara",
@@ -4732,7 +4732,7 @@ window.africaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-  "b": "Biu,Mandaragirau,Gulak,Lasa,Gwoza,Damboa,Askira-Uba,Bama,Gombi,Mubi,Michika,Madagali,Hong,Maiha,Sukur,Damay,Kurang,Kirawa,Kwaya,Miringa,Buratai,Kida,Gur,Gunda,Garubula,Hyema,Vina,Zira,Wuyo,Shani,Shellen,Gasi,Kaltungo,Billiri,Shongom,Akko,Filiya,Gwandum,Gundale,HomaBay,Kiunga,Kibish,GofKudle,Wanleweyn,Dolow,Gongoni,Bondo,Vipingo,Konso,CeyrTabaan,Laasqoray,QansaxDheere,Garsen,Mumias,Afidwa,Adombwe,Abaska,Adibwe,Afakwa,Alodwa,Aembwe,Akaska,Anurwa,Alubwa,Alulbwe,Alatka,Amegbwe,Aomwa,Afaswa,BiuMandarala,BiuMandarama,BiuMandarawa,BiuMandarara,BiuMandaraka"
+  "b": "Biu,Mandaragirau,Gulak,Lasa,Gwoza,Damboa,Askira-Uba,Bama,Gombi,Mubi,Michika,Madagali,Hong,Maiha,Sukur,Damay,Kurang,Kirawa,Kwaya,Miringa,Buratai,Kida,Gur,Gunda,Garubula,Hyema,Vina,Zira,Wuyo,Shani,Shellen,Gasi,Kaltungo,Billiri,Shongom,Akko,Filiya,Gwandum,Gundale,Kiunga,Kibish,Wanleweyn,Dolow,Gongoni,Bondo,Vipingo,Konso,CeyrTabaan,Laasqoray,Garsen,Mumias,Afidwa,Adombwe,Abaska,Adibwe,Afakwa,Alodwa,Aembwe,Akaska,Anurwa,Alubwa,Alulbwe,Alatka,Amegbwe,Aomwa,Afaswa,HomaBay,GofKudle,QansaxDheere,BiuMandarala,BiuMandarama,BiuMandarawa,BiuMandarara,BiuMandaraka"
 },
 {
     "name": "Bole Afroasiatic",
@@ -4759,7 +4759,7 @@ window.africaNameBases = [
   "max": 13,
   "d": "lnrt",
   "m": 0,
-  "b": "Kungu,Dongo,Bomongo,Ngiri,Mwanda,Budjala,Bumba,Lisala,Gemena,Businga,Bolomba,Boso-Nja,Lukolela,Makanza,Mushie,Kwamouth,Yumbi,Bolobo,Kikwit,Masi-Manimba,Bagata,Idiofa,Kenge,Kasongo-Lunda,Kahemba,Popokabaka,Feshi,Kimvula,Kimpese,Lukala,Madimba,Mbanza-Ngungu,Moanda,Tshela,Seke-Banza,Songololo,Luozi,Inkisi,Kasangulu,Kimpoko,Maluku,Ndjili,Ngaliema,Barumbu,Kinshasa"
+  "b": "Kungu,Dongo,Bomongo,Mwanda,Budjala,Bumba,Lisala,Gemena,Businga,Bolomba,Boso-Nja,Lukolela,Makanza,Mushie,Kwamouth,Yumbi,Bolobo,Kikwit,Masi-Manimba,Bagata,Idiofa,Kenge,Kasongo-Lunda,Kahemba,Popokabaka,Feshi,Kimvula,Kimpese,Lukala,Madimba,Mbanza-Ngungu,Moanda,Tshela,Seke-Banza,Songololo,Luozi,Inkisi,Kasangulu,Kimpoko,Maluku,Ndjili,Ngaliema,Barumbu,Kinshasa,Ouagadougou,Ngiri"
 },
 {
     "name": "Bum",
@@ -4768,7 +4768,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Fonfuka,Su-Bum,Kimbi,Buabua,Ngunabum,Sawe,Lagabum,Mbuk,Ngunakimbi,Kichako,Kichambo,Mungong,Saff,Sawi,Lakabum,Fio,Mbamlu,Faat,Mulung,Kichowi,Noni,Fundong,Nkambe,Belo,Wum,Furawa,Misaje,Bansobi,Akweto,Kamine,Nkanchi,Dumbu,Kwei,Chako,Kibbo,Mbissa,Mfume,Bem,Chunghe,Mayo-Kila,Sabon-gida,Bebe-Kete,Bebe-Jato"
+  "b": "Fonfuka,Su-Bum,Kimbi,Buabua,Ngunabum,Sawe,Lagabum,Mbuk,Ngunakimbi,Kichako,Kichambo,Mungong,Saff,Sawi,Lakabum,Fio,Mbamlu,Faat,Mulung,Kichowi,Noni,Fundong,Nkambe,Belo,Wum,Furawa,Misaje,Bansobi,Akweto,Kamine,Nkanchi,Dumbu,Kwei,Chako,Kibbo,Mbissa,Mfume,Bem,Chunghe,Sabon-gida,Bebe-Kete,Bebe-Jato,Mayo-Kila"
 },
 {
     "name": "Buru–Angwe",
@@ -4777,7 +4777,7 @@ window.africaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-  "b": "Angwe,Buru,Baissa,Batu Kamino,Buru Sama,Batu Amanda,Zongo Mata,Gidan Usaini,Gidan Bature,Batu Afi,Awo,Afo,Ndombo Kasa,Akonto,Kan Iyaka,Akoforo,Ndombo Sama,Akabu,Dan Fulani,Musa,Nfa,Akia,Gembu,Nguroje,Sardauna,Yerimaru,Yelwa,Wurum-Gora,Warwar,Warkaka,Vakude,Titong,Tamnyar,Njeke,Njawai,Mbu,Mbaso,Mbartule,Mayu,Mayon-Daga,Mayo Sumsum,Mayo Selbe,Mayo Nago"
+  "b": "Angwe,Baissa,Batu Kamino,Batu Amanda,Gidan Usaini,Gidan Bature,Batu Afi,Awo,Afo,Akonto,Kan Iyaka,Akoforo,Akabu,Dan Fulani,Musa,Nfa,Akia,Gembu,Nguroje,Sardauna,Yerimaru,Yelwa,Warwar,Warkaka,Vakude,Titong,Tamnyar,Njeke,Njawai,Mbu,Mbaso,Mbartule,Mayu,Mayo Sumsum,Mayo Selbe,Mayo Nago,Conakry,Buru,Buru Sama,Zongo Mata,Ndombo Kasa,Ndombo Sama,Wurum-Gora,Mayon-Daga"
 },
 {
     "name": "Chakato",
@@ -4786,7 +4786,7 @@ window.africaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-  "b": "Dokan Tofa,Shendam,Jos,Pankshin,Mangu,Bukuru,Kabwir,Gindiri,Riyom,Barkin Ladi,Langung,Panyam,Balong,Doewmai,Dokan Kasuwa,Keffi,Lafia,Akwanga,Karu,Kokona,Awe,Doma,Keana,Obi,Agyaraku,Wamba,Nunku,Assakio,Effium,Ugbokpo,Otukpo,Okpokwu,Adoka,Ankpa,Dekina,Idah,Igalamela,Olamaboro,Omala,Ugwalawo,Umon,Nsukka,Kehancha,Sibiloi,Waamo,Giohar,Guriceel,Selina,Sindo,Galole,Kalokol,Harardera,Mahaday,Yeed,Kidimu,HomaBay,Kiunga,Aporbwe,Amadla,Amutla,Apebwe,Abunbwe,Aletla,Adagbwe,Abanbwe,Aesla,Abena,Adorla,Apembwe,Apegna,Amanla,Akotbwe,Chakatola,Chakatoma,Chakatowa,Chakatora,Chakatoka"
+  "b": "Shendam,Jos,Pankshin,Mangu,Kabwir,Gindiri,Riyom,Barkin Ladi,Langung,Panyam,Balong,Doewmai,Dokan Kasuwa,Keffi,Lafia,Akwanga,Karu,Kokona,Awe,Doma,Keana,Obi,Agyaraku,Wamba,Nunku,Assakio,Effium,Ugbokpo,Otukpo,Okpokwu,Adoka,Ankpa,Dekina,Idah,Igalamela,Olamaboro,Omala,Ugwalawo,Umon,Nsukka,Kehancha,Sibiloi,Waamo,Giohar,Guriceel,Selina,Sindo,Galole,Kalokol,Harardera,Mahaday,Yeed,Kidimu,Kiunga,Aporbwe,Amadla,Amutla,Apebwe,Abunbwe,Aletla,Adagbwe,Abanbwe,Aesla,Abena,Adorla,Apembwe,Apegna,Amanla,Akotbwe,Chakatola,Chakatoma,Chakatowa,Chakatora,Chakatoka,Accra,Dokan Tofa,Bukuru,HomaBay"
 },
 {
     "name": "Dangaléat",
@@ -4795,7 +4795,7 @@ window.africaNameBases = [
   "max": 15,
   "d": "lnrt",
   "m": 0,
-  "b": "Korbo,Golé,Tyalo-Idéba,Barlo,Koubo Adougoul,Korlongo,Bang-bang,Mongo,Bitkine,Melfi,Abtouyour,Guéra,Batha,Am Timan,Abou Deïa,Adré,Am Dam,Assinet,Bahaï,Baktchoro,Biltine,Daguessa,Dar Tama,Djourf Al Ahmar,Ennedi,Fada,Iriba,Ounianga,Am Zoer,Bitchotchi,Dourbali,Goundi,Koumra,Kyabé,Mbaïbokoum,Mbaïkoro,Ndam,Ngourkosso,Sarh,Béré,Béladja,Béssao,Dida,Kakuma,Garsale,Jowhaar,Farlibaax,Pongwe,KenduBay,Faza,Omorate,Qoton,Afgoi,Beledhawo,Jamia,Siaya,Samburu,Afefa,Adadfa,Akomta,Amesta,Alorsa,Apimta,Amitta,Aligfa,Amonsa,Anusfa,Akorta,Alolsa,Adekfa,Aadta,Aulta,Dangalatla,Dangalatma,Dangalatwa,Dangalatra,Dangalatka"
+  "b": "Korbo,Golé,Tyalo-Idéba,Barlo,Koubo Adougoul,Korlongo,Bang-bang,Mongo,Bitkine,Melfi,Abtouyour,Guéra,Batha,Am Timan,Abou Deïa,Adré,Am Dam,Assinet,Bahaï,Baktchoro,Biltine,Daguessa,Djourf Al Ahmar,Ennedi,Fada,Iriba,Ounianga,Am Zoer,Bitchotchi,Dourbali,Goundi,Koumra,Kyabé,Mbaïbokoum,Mbaïkoro,Ndam,Ngourkosso,Sarh,Béré,Béladja,Béssao,Dida,Kakuma,Garsale,Jowhaar,Farlibaax,Pongwe,Faza,Omorate,Qoton,Afgoi,Beledhawo,Jamia,Siaya,Afefa,Adadfa,Akomta,Amesta,Alorsa,Apimta,Amitta,Aligfa,Amonsa,Anusfa,Akorta,Alolsa,Adekfa,Aadta,Aulta,Dangalatla,Dangalatma,Dangalatwa,Dangalatra,Dangalatka,Kumasi,DangaléatSprings,DangaléatCreek,DangaléatRidge,DangaléatHeights,DangaléatFalls,DangaléatBeach,DangaléatPoint,DangaléatBay,DangaléatGrove,dangalatSprings,dangalatCreek,dangalatRidge,dangalatHeights,dangalatFalls,dangalatBeach,dangalatPoint,dangalatBay,dangalatGrove,Dar Tama,KenduBay,Samburu"
 },
 {
     "name": "Ekoka ǃKung",
@@ -4822,7 +4822,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bafang,Haut-Nkam,Bandjoun,Bafoussam,Bamougoum,Bameka,Bamendjou,Bahouan,Baham,Batie,Bapa,Badenkop,Bayangam,Bansoa,Baleng,Bafounda,Bamenjou,Dschang,Foumbot,Foumban,Bangangté,Bamena,Bazou,Tonga,Bangou,Batié,Bamum,Hola,Degehabur,Bagula,Iskushuban,Gendershe,Garsen,Ikonge,ElDera,Haraale,Salkaxo,Garowe,Janaale,Kaloleni,Masige,ArchersPost,Aderwa,Aibbwe,Aulka,Aetbwe,Abugwa,Akirwa,Anadbwe,Akonwa,Alakbwe,Anidwa,Adudka,Aimbwe,Alarwa,Amibwe,Afotwa,Fefela,Fefema,Fefewa,Fefera,Fefeka"
+  "b": "Bafang,Haut-Nkam,Bandjoun,Bafoussam,Bamougoum,Bameka,Bamendjou,Bahouan,Baham,Batie,Bapa,Badenkop,Bayangam,Bansoa,Baleng,Bafounda,Bamenjou,Dschang,Foumbot,Foumban,Bangangté,Bamena,Bazou,Tonga,Bangou,Batié,Bamum,Hola,Degehabur,Bagula,Iskushuban,Gendershe,Garsen,Ikonge,Haraale,Salkaxo,Garowe,Janaale,Kaloleni,Masige,ArchersPost,Aderwa,Aibbwe,Aulka,Aetbwe,Abugwa,Akirwa,Anadbwe,Akonwa,Alakbwe,Anidwa,Adudka,Aimbwe,Alarwa,Amibwe,Afotwa,Fefela,Fefema,Fefewa,Fefera,Fefeka,ElDera"
 },
 {
     "name": "Fio",
@@ -4876,7 +4876,7 @@ window.africaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-  "b": "Mangola,Yaeda,Dunduhina,Oldeani,Isanzu,Iramba,Mbulu,Masawa,Singida,Manyara,Shinyanga,Sukumaland,Datooga,Iraqw,Tindiga,Kindiga,Kangeju,Wahi,Hazabee,Hazaphii,Hatza,Hatsa,Hazane,Endamagha,Tshimba,Mwangea,Ng'hong'ona,Barazani,Bahi,Chamwino,Mpwapwa,Kongwa,Mtera,Iringa,Njombe,Makambako,Wanging'ombe,Ludewa,Mufindi,Mbeya,Chunya,Mbozi,Ileje,Kyela,Rungwe,Busokelo"
+  "b": "Mangola,Yaeda,Dunduhina,Oldeani,Isanzu,Iramba,Mbulu,Masawa,Singida,Manyara,Shinyanga,Datooga,Iraqw,Tindiga,Kindiga,Kangeju,Wahi,Hazabee,Hazaphii,Hatza,Hatsa,Hazane,Endamagha,Tshimba,Mwangea,Ng,Abidjan'hong'ona,Barazani,Bahi,Chamwino,Mpwapwa,Kongwa,Mtera,Iringa,Njombe,Makambako,Wanging'ombe,Ludewa,Mufindi,Mbeya,Chunya,Mbozi,Ileje,Kyela,Rungwe,Busokelo,Sukumaland,Ng'hong'ona"
 },
 {
     "name": "Hausa–Gwandara",
@@ -4885,7 +4885,7 @@ window.africaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-  "b": "Abuja,Keffi,Lafia,Akwanga,New Karshi,Karu,Suleja,Gurara,Kaura,Riyom,Bwali,Kwai,Gwandara,Gitata,Kyan Kyar,Nimbia,Toni,Koshiya,Sakata,Adaka,Burgami,Giwa,Dala,Gwagwa,Tudun Wada,Dawakin Tofa,Tofa,Rimin Gado,Kura,Daura,Katsina,Dutsi,Kankia,Ingawa,Mani,Bindawa,Mashi,Kaita,Batsari,Safana,Dan Musa"
+  "b": "Abuja,Keffi,Lafia,Akwanga,New Karshi,Karu,Suleja,Gurara,Kaura,Riyom,Bwali,Kwai,Gwandara,Gitata,Kyan Kyar,Nimbia,Toni,Koshiya,Sakata,Adaka,Burgami,Giwa,Dala,Gwagwa,Tofa,Rimin Gado,Kura,Daura,Katsina,Dutsi,Kankia,Ingawa,Mani,Bindawa,Mashi,Kaita,Batsari,Safana,Tudun Wada,Dawakin Tofa,Dan Musa"
 },
 {
     "name": "Holma",
@@ -4912,7 +4912,7 @@ window.africaNameBases = [
   "max": 13,
   "d": "lnrt",
   "m": 0,
-  "b": "Loojaa,Jalaa,Ganjuwa,Kafin Madaki,Soro,Miya,Baben Kasa,Badaromo,Barkaya,Dagale,Deno,Digawa,Dugumi,Gurzumo,Janu,Kariya,Kubi,Nassarawa,Siri,Tafawa,Zibinju,Choogen,Darazo,Toro,Alkaleri,Kirfi,Ningi,Warji,Dass,Tafawa Balewa,Bogoro,Lere,Lame,Rano,Wudil,Dukku,Gamawa,Misau,Jama'are,Katagum,Shira,Giade,Itas,Zaki,Azare,Dhalwo,Aqable,Jariiban,Garbaharey,Geza,Uriri,Bubisa,Kumbare,Sheikh,GalCad,Ngei,Takawiri,Nyangusu,Loyangalani,Caano,Aagwa,Aperbwe,Apambwe,Amunbwe,Akikwa,Afugbwe,Aoswa,Aborka,Anedbwe,Amamwa,Alukwa,Alodbwe,Anomka,Aokbwe,Apanwa,Jalaala,Jalaama,Jalaawa,Jalaara,Jalaaka"
+  "b": "Loojaa,Jalaa,Ganjuwa,Kafin Madaki,Soro,Miya,Badaromo,Barkaya,Dagale,Deno,Digawa,Dugumi,Gurzumo,Janu,Kariya,Kubi,Nassarawa,Siri,Tafawa,Zibinju,Choogen,Darazo,Toro,Alkaleri,Kirfi,Ningi,Warji,Dass,Tafawa Balewa,Bogoro,Lere,Lame,Rano,Wudil,Dukku,Gamawa,Misau,Jama'are,Katagum,Shira,Giade,Itas,Zaki,Azare,Dhalwo,Aqable,Jariiban,Garbaharey,Geza,Uriri,Bubisa,Kumbare,Sheikh,GalCad,Ngei,Takawiri,Nyangusu,Loyangalani,Caano,Aagwa,Aperbwe,Apambwe,Amunbwe,Akikwa,Afugbwe,Aoswa,Aborka,Anedbwe,Amamwa,Alukwa,Alodbwe,Anomka,Aokbwe,Apanwa,Jalaala,Jalaama,Jalaawa,Jalaara,Jalaaka,Baben Kasa"
 },
 {
     "name": "Jara",
@@ -4930,7 +4930,7 @@ window.africaNameBases = [
   "max": 13,
   "d": "lnrt",
   "m": 0,
-  "b": "Jelkung,Darazo,Ganjuwa,Kafin Madaki,Soro,Miya,Baben Kasa,Badaromo,Barkaya,Dagale,Deno,Digawa,Dugumi,Gurzumo,Janu,Kariya,Kubi,Nassarawa,Siri,Tafawa,Zibinju,Choogen,Toro,Alkaleri,Kirfi,Ningi,Warji,Dass,Tafawa Balewa,Bogoro,Lere,Lame,Rano,Wudil,Dukku,Gamawa,Misau,Jama'are,Katagum,Shira,Giade,Itas,Zaki,Azare,Bulkachuwa,Hareeri,Balcad,Berdaale,Kinarani,Mbita,Bodhai,Kangaten,Holug,BuloBurto,Garbahaarrey,Omaribaya,Yala,Mtwapa,Karamara,Qoryooley,Adurla,Autka,Akakla,Anodka,Amela,Akerla,Afebka,Akilwa,Anagla,Adimla,Amutka,Aanka,Anusla,Adika,Aperka,Jelkungla,Jelkungma,Jelkungwa,Jelkungra,Jelkungka"
+  "b": "Jelkung,Darazo,Ganjuwa,Kafin Madaki,Soro,Miya,Badaromo,Barkaya,Dagale,Deno,Digawa,Dugumi,Gurzumo,Janu,Kariya,Kubi,Nassarawa,Siri,Tafawa,Zibinju,Choogen,Toro,Alkaleri,Kirfi,Ningi,Warji,Dass,Tafawa Balewa,Bogoro,Lere,Lame,Rano,Wudil,Dukku,Gamawa,Misau,Jama'are,Katagum,Shira,Giade,Itas,Zaki,Azare,Bulkachuwa,Hareeri,Balcad,Berdaale,Kinarani,Mbita,Bodhai,Kangaten,Holug,BuloBurto,Garbahaarrey,Omaribaya,Yala,Mtwapa,Karamara,Qoryooley,Adurla,Autka,Akakla,Anodka,Amela,Akerla,Afebka,Akilwa,Anagla,Adimla,Amutka,Aanka,Anusla,Adika,Aperka,Jelkungla,Jelkungma,Jelkungwa,Jelkungra,Jelkungka,Baben Kasa"
 },
 {
     "name": "Jibyal",
@@ -4939,7 +4939,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Jibyal,Shendam,Langung,Panyam,Balong,Dokan Tofa,Jos,Bukuru,Pankshin,Mangu,Kabwir,Gindiri,Riyom,Barkin Ladi,Keffi,Lafia,Akwanga,Karu,Kokona,Awe,Doma,Keana,Obi,Agyaraku,Wamba,Nunku,Assakio,Effium,Ugbokpo,Otukpo,Okpokwu,Adoka,Ankpa,Dekina,Idah,Igalamela,Olamaboro,Omala,Ugwalawo,Umon,Nsukka,GofKudle,Wanleweyn,Dolow,Gongoni,Bondo,Vipingo,Konso,CeyrTabaan,Laasqoray,QansaxDheere,Garsen,Mumias,Malindi,Yavello,Guba,Anabfa,Amilra,Alegra,Aesfa,Akalra,Adimfa,Aitfa,Akelfa,Anokfa,Afumfa,Anunra,Abutfa,Apusma,Amonfa,Amesfa,Jibyalla,Jibyalma,Jibyalwa,Jibyalra,Jibyalka"
+  "b": "Jibyal,Shendam,Langung,Panyam,Balong,Jos,Pankshin,Mangu,Kabwir,Gindiri,Riyom,Barkin Ladi,Keffi,Lafia,Akwanga,Karu,Kokona,Awe,Doma,Keana,Obi,Agyaraku,Wamba,Nunku,Assakio,Effium,Ugbokpo,Otukpo,Okpokwu,Adoka,Ankpa,Dekina,Idah,Igalamela,Olamaboro,Omala,Ugwalawo,Umon,Nsukka,Wanleweyn,Dolow,Gongoni,Bondo,Vipingo,Konso,CeyrTabaan,Laasqoray,Garsen,Mumias,Malindi,Yavello,Guba,Anabfa,Amilra,Alegra,Aesfa,Akalra,Adimfa,Aitfa,Akelfa,Anokfa,Afumfa,Anunra,Abutfa,Apusma,Amonfa,Amesfa,Jibyalla,Jibyalma,Jibyalwa,Jibyalra,Jibyalka,Lomé,Dokan Tofa,Bukuru,GofKudle,QansaxDheere"
 },
 {
     "name": "Jilbe",
@@ -4948,7 +4948,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Jilbe,Dikwa,Ngala,Kala-Balge,Mafa,Konduga,Monguno,Marte,Kukawa,Gubio,Magumeri,Gwoza,Bama,Maiduguri,Askira-Uba,Damboa,Abadam,Guzamala,Kaga,Kondunga,Mobar,Nganzai,Gajiganna,Gajiram,Cross Kauwa,Baga,Doron Baga,Kauwa,Rann,Gamboru,Damasak,Wulgo,Chibok,Galolk,CeelAfweyn,Baidoa,Chara,Webuye,Kipini,Mega,AadanYabaal,Galgalo,Fancole,Wema,Nyaribari,Kotus,SofOmar,Hadud,Afigna,Afatna,Alogna,Ainwa,Akebla,Anukna,Aludna,Alanwa,Alesla,Apolwa,Abubwa,Apetna,Abemla,Afetwa,Amegna,Jilbela,Jilbema,Jilbewa,Jilbera,Jilbeka"
+  "b": "Jilbe,Dikwa,Ngala,Kala-Balge,Mafa,Konduga,Monguno,Marte,Kukawa,Gubio,Magumeri,Gwoza,Bama,Askira-Uba,Damboa,Abadam,Guzamala,Kaga,Kondunga,Mobar,Nganzai,Gajiganna,Gajiram,Cross Kauwa,Baga,Kauwa,Rann,Gamboru,Damasak,Wulgo,Chibok,Galolk,CeelAfweyn,Baidoa,Chara,Webuye,Kipini,Mega,AadanYabaal,Galgalo,Fancole,Wema,Nyaribari,Kotus,SofOmar,Hadud,Afigna,Afatna,Alogna,Ainwa,Akebla,Anukna,Aludna,Alanwa,Alesla,Apolwa,Abubwa,Apetna,Abemla,Afetwa,Amegna,Jilbela,Jilbema,Jilbewa,Jilbera,Jilbeka,Cotonou,Maiduguri,Doron Baga"
 },
 {
     "name": "Jimi Cameroon",
@@ -4966,7 +4966,7 @@ window.africaNameBases = [
   "max": 13,
   "d": "lnrt",
   "m": 0,
-  "b": "Jimi,Darazo,Ganjuwa,Kafin Madaki,Soro,Miya,Baben Kasa,Badaromo,Barkaya,Dagale,Deno,Digawa,Dugumi,Gurzumo,Janu,Kariya,Kubi,Nassarawa,Siri,Tafawa,Zibinju,Choogen,Toro,Alkaleri,Kirfi,Ningi,Warji,Dass,Tafawa Balewa,Bogoro,Lere,Lame,Rano,Wudil,Dukku,Gamawa,Misau,Jama'are,Katagum,Shira,Giade,Itas,Zaki,Azare,Bulkachuwa,Dhalwo,Eyl,Goobweyn,Rabai,Manga,Merti,Hula,Kaxare,Bacadweyn,Burdhubo,Samburu,Ogembo,SouthHorr,Aqable,Jariiban,Alekbwe,Afumna,Afisla,Alubwe,Abedla,Amumna,Arobwe,Anorbwe,Amubla,Anulna,Alalla,Aola,Aumla,Anutna,Animbwe,JimiNigeriala,JimiNigeriama,JimiNigeriawa,JimiNigeriara,JimiNigeriaka"
+  "b": "Jimi,Darazo,Ganjuwa,Kafin Madaki,Soro,Miya,Badaromo,Barkaya,Dagale,Deno,Digawa,Dugumi,Gurzumo,Janu,Kariya,Kubi,Nassarawa,Siri,Tafawa,Zibinju,Choogen,Toro,Alkaleri,Kirfi,Ningi,Warji,Dass,Tafawa Balewa,Bogoro,Lere,Lame,Rano,Wudil,Dukku,Gamawa,Misau,Jama'are,Katagum,Shira,Giade,Itas,Zaki,Azare,Bulkachuwa,Dhalwo,Eyl,Goobweyn,Rabai,Manga,Merti,Hula,Kaxare,Bacadweyn,Burdhubo,Samburu,Ogembo,SouthHorr,Aqable,Jariiban,Alekbwe,Afumna,Afisla,Alubwe,Abedla,Amumna,Arobwe,Anorbwe,Amubla,Anulna,Alalla,Aola,Aumla,Anutna,Animbwe,Baben Kasa,JimiNigeriala,JimiNigeriama,JimiNigeriawa,JimiNigeriara,JimiNigeriaka"
 },
 {
     "name": "Jina",
@@ -4984,7 +4984,7 @@ window.africaNameBases = [
   "max": 13,
   "d": "lnrt",
   "m": 0,
-  "b": "Jonkor,Darazo,Ganjuwa,Kafin Madaki,Soro,Miya,Baben Kasa,Badaromo,Barkaya,Dagale,Deno,Digawa,Dugumi,Gurzumo,Janu,Kariya,Kubi,Nassarawa,Siri,Tafawa,Zibinju,Choogen,Toro,Alkaleri,Kirfi,Ningi,Warji,Dass,Tafawa Balewa,Bogoro,Lere,Lame,Rano,Wudil,Dukku,Gamawa,Misau,Jama'are,Katagum,Shira,Giade,Itas,Zaki,Azare,Bulkachuwa,BuloBurde,Guriel,Golbo,Chundwa,Mabera,NorthHorr,Jiingadda,Adale,Caabudwaaq,Barich,Mohoro,Borabu,FergusonsGulf,Hareeri,Balcad,Anaka,Alamna,Afunna,Anobbwe,Akilna,Apigka,Aposbwe,Adalna,Adodna,Akombwe,Amotna,Alanka,Anogbwe,Amanna,Alegka,Jonkorla,Jonkorma,Jonkorwa,Jonkorra,Jonkorka"
+  "b": "Jonkor,Darazo,Ganjuwa,Kafin Madaki,Soro,Miya,Badaromo,Barkaya,Dagale,Deno,Digawa,Dugumi,Gurzumo,Janu,Kariya,Kubi,Nassarawa,Siri,Tafawa,Zibinju,Choogen,Toro,Alkaleri,Kirfi,Ningi,Warji,Dass,Tafawa Balewa,Bogoro,Lere,Lame,Rano,Wudil,Dukku,Gamawa,Misau,Jama'are,Katagum,Shira,Giade,Itas,Zaki,Azare,Bulkachuwa,BuloBurde,Guriel,Golbo,Chundwa,Mabera,NorthHorr,Jiingadda,Adale,Caabudwaaq,Barich,Mohoro,Borabu,FergusonsGulf,Hareeri,Balcad,Anaka,Alamna,Afunna,Anobbwe,Akilna,Apigka,Aposbwe,Adalna,Adodna,Akombwe,Amotna,Alanka,Anogbwe,Amanna,Alegka,Jonkorla,Jonkorma,Jonkorwa,Jonkorra,Jonkorka,Baben Kasa"
 },
 {
     "name": "Ju (Chadic)",
@@ -4993,7 +4993,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ju,Shendam,Langung,Panyam,Balong,Dokan Tofa,Jos,Bukuru,Pankshin,Mangu,Kabwir,Gindiri,Riyom,Barkin Ladi,Keffi,Lafia,Akwanga,Karu,Kokona,Awe,Doma,Keana,Obi,Agyaraku,Wamba,Nunku,Assakio,Effium,Ugbokpo,Otukpo,Okpokwu,Adoka,Ankpa,Dekina,Idah,Igalamela,Olamaboro,Omala,Ugwalawo,Umon,Nsukka,Giohar,Guriceel,Selina,Sindo,Galole,Kalokol,Harardera,Mahaday,Yeed,Kidimu,HomaBay,Kiunga,Kibish,GofKudle,Wanleweyn,Afimra,Abata,Abirsa,Adadra,Alulra,Anirsa,Abosa,Anedra,Aakta,Adadsa,Adolra,Alarta,Akogra,Amanra,Adadta,JuChadicla,JuChadicma,JuChadicwa,JuChadicra,JuChadicka"
+  "b": "Ju,Shendam,Langung,Panyam,Balong,Jos,Pankshin,Mangu,Kabwir,Gindiri,Riyom,Barkin Ladi,Keffi,Lafia,Akwanga,Karu,Kokona,Awe,Doma,Keana,Obi,Agyaraku,Wamba,Nunku,Assakio,Effium,Ugbokpo,Otukpo,Okpokwu,Adoka,Ankpa,Dekina,Idah,Igalamela,Olamaboro,Omala,Ugwalawo,Umon,Nsukka,Giohar,Guriceel,Selina,Sindo,Galole,Kalokol,Harardera,Mahaday,Yeed,Kidimu,Kiunga,Kibish,Wanleweyn,Afimra,Abata,Abirsa,Adadra,Alulra,Anirsa,Abosa,Anedra,Aakta,Adadsa,Adolra,Alarta,Akogra,Amanra,Adadta,Lagos,Dokan Tofa,Bukuru,HomaBay,GofKudle,JuChadicla,JuChadicma,JuChadicwa,JuChadicra,JuChadicka"
 },
 {
     "name": "Juǀʼhoan",
@@ -5002,7 +5002,7 @@ window.africaNameBases = [
   "max": 13,
   "d": "lnrt",
   "m": 0,
-  "b": "Tsumkwe,Grootfontein,Rundu,Nokaneng,Shakawe,Maun,Ghanzi,Dutlwe,Xade,New Xade,Okavango,Gumare,Etsha,Sehithwa,Boteti,Tsodilo,Nxaunxau,Bukalo,Linyanti,Kongola,Sibbinda,Katima Mulilo,Chinchimani,Muyako,Sangwali,Sesheke,Kazungula,Pandamatenga,Nata,Shoshong,Mahalapye,Palapye,Serowe,Francistown,Orapa,Letlhakane,Jwaneng,Kanye,Molepolole,Thamga,Mogoditshane,Gaborone,Jowhaar,Farlibaax,Pongwe,KenduBay,Faza,Omorate,Qoton,Afgoi,Beledhawo,Jamia,Siaya,Samburu,Ririba,Galolk,CeelAfweyn,Apukwa,Amagbwe,Aminka,Aimka,Afewa,Aebbwe,Abilka,Adokbwe,Afutbwe,Amarbwe,Akowa,Alibka,Apilbwe,Amubwa,Airka,Juhoanla,Juhoanma,Juhoanwa,Juhoanra,Juhoanka"
+  "b": "Tsumkwe,Grootfontein,Rundu,Nokaneng,Shakawe,Maun,Ghanzi,Dutlwe,Xade,New Xade,Okavango,Gumare,Etsha,Sehithwa,Boteti,Tsodilo,Nxaunxau,Bukalo,Linyanti,Kongola,Sibbinda,Katima Mulilo,Chinchimani,Muyako,Sangwali,Sesheke,Kazungula,Pandamatenga,Nata,Shoshong,Mahalapye,Palapye,Serowe,Francistown,Orapa,Letlhakane,Jwaneng,Kanye,Molepolole,Thamga,Mogoditshane,Gaborone,Jowhaar,Farlibaax,Pongwe,Faza,Omorate,Qoton,Afgoi,Beledhawo,Jamia,Siaya,Ririba,Galolk,CeelAfweyn,Apukwa,Amagbwe,Aminka,Aimka,Afewa,Aebbwe,Abilka,Adokbwe,Afutbwe,Amarbwe,Akowa,Alibka,Apilbwe,Amubwa,Airka,Juhoanla,Juhoanma,Juhoanwa,Juhoanra,Juhoanka,Kano,KenduBay,Samburu"
 },
 {
     "name": "Kabalai",
@@ -5011,7 +5011,7 @@ window.africaNameBases = [
   "max": 15,
   "d": "lnrt",
   "m": 0,
-  "b": "Kabalai,Mayo-Kebbi,Bongor,Pala,Fianga,Léré,Koumra,Doba,Moundou,Bébédjia,Béïnamar,Béïssa,Békiri,Béladja,Béssao,Béti,Boumo,Danamadji,Déressia,Djedah,Dourbali,Goré,Goundi,Grégué,Guélengdeng,Kélo,Kyabé,Mbaïbokoum,Mbaïkoro,Ndam,Ngourkosso,Sarh,Béré,Biltine,Am Timan,Abou Deïa,Adré,Am Dam,Assinet,Bahaï,Baktchoro,Daguessa,Dar Tama,Djourf Al Ahmar,Ennedi,Fada,Iriba,Ounianga,LaasGacamey,ElBarde,Ndau,Vihiga,Mariakani,Moyale,SaLul,Erigavo,Baardheere,Bwiti,Bungoma,Lamu,Imi,GeedWeen,Karindoolay,Akebma,Afilta,Akunma,Amibma,Alukra,Aponma,Amosma,Amurra,Anadta,Aditta,Aanma,Abugra,Anabma,Afema,Alusra,Kabalaila,Kabalaima,Kabalaiwa,Kabalaira,Kabalaika"
+  "b": "Kabalai,Mayo-Kebbi,Bongor,Pala,Fianga,Léré,Koumra,Doba,Moundou,Bébédjia,Béïnamar,Béïssa,Békiri,Béladja,Béssao,Béti,Boumo,Danamadji,Déressia,Djedah,Dourbali,Goré,Goundi,Grégué,Guélengdeng,Kélo,Kyabé,Mbaïbokoum,Mbaïkoro,Ndam,Ngourkosso,Sarh,Béré,Biltine,Am Timan,Abou Deïa,Adré,Am Dam,Assinet,Bahaï,Baktchoro,Daguessa,Djourf Al Ahmar,Ennedi,Fada,Iriba,Ounianga,LaasGacamey,ElBarde,Ndau,Vihiga,Mariakani,Moyale,SaLul,Erigavo,Baardheere,Bwiti,Bungoma,Lamu,Imi,GeedWeen,Karindoolay,Akebma,Afilta,Akunma,Amibma,Alukra,Aponma,Amosma,Amurra,Anadta,Aditta,Aanma,Abugra,Anabma,Afema,Alusra,Kabalaila,Kabalaima,Kabalaiwa,Kabalaira,Kabalaika,Dar Tama"
 },
 {
     "name": "Kajakse",
@@ -5020,7 +5020,7 @@ window.africaNameBases = [
   "max": 15,
   "d": "lnrt",
   "m": 0,
-  "b": "Kajakse,Guéra,Mongo,Bitkine,Melfi,Abtouyour,Batha,Am Timan,Abou Deïa,Adré,Am Dam,Assinet,Bahaï,Baktchoro,Biltine,Daguessa,Dar Tama,Djourf Al Ahmar,Ennedi,Fada,Iriba,Ounianga,Am Zoer,Bitchotchi,Dourbali,Goundi,Koumra,Kyabé,Mbaïbokoum,Mbaïkoro,Ndam,Ngourkosso,Sarh,Béré,Béladja,Béssao,Danamadji,Déressia,Djedah,Fianga,Goré,Grégué,Guélengdeng,Kélo,Léré,Moundou,Pala,Ufeyn,Dinsor,Jongole,Kimilili,Garsen,Shilabo,Jasiira,Qardho,Merka,Ngao,Ekerenyo,Garissa,Farlibaax,Dhalwo,Eyl,Aogla,Apurka,Anedwa,Aetla,Abebwa,Akatla,Adagla,Adanka,Adeswa,Akika,Alolka,Anudka,Alitla,Aetka,Aponla,Kajaksela,Kajaksema,Kajaksewa,Kajaksera,Kajakseka"
+  "b": "Kajakse,Guéra,Mongo,Bitkine,Melfi,Abtouyour,Batha,Am Timan,Abou Deïa,Adré,Am Dam,Assinet,Bahaï,Baktchoro,Biltine,Daguessa,Djourf Al Ahmar,Ennedi,Fada,Iriba,Ounianga,Am Zoer,Bitchotchi,Dourbali,Goundi,Koumra,Kyabé,Mbaïbokoum,Mbaïkoro,Ndam,Ngourkosso,Sarh,Béré,Béladja,Béssao,Danamadji,Déressia,Djedah,Fianga,Goré,Grégué,Guélengdeng,Kélo,Léré,Moundou,Pala,Ufeyn,Dinsor,Jongole,Kimilili,Garsen,Shilabo,Jasiira,Qardho,Merka,Ngao,Ekerenyo,Garissa,Farlibaax,Dhalwo,Eyl,Aogla,Apurka,Anedwa,Aetla,Abebwa,Akatla,Adagla,Adanka,Adeswa,Akika,Alolka,Anudka,Alitla,Aetka,Aponla,Kajaksela,Kajaksema,Kajaksewa,Kajaksera,Kajakseka,Dar Tama"
 },
 {
     "name": "Kamwe",
@@ -5029,7 +5029,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kamwe,Michika,Mubi,Madagali,Gwoza,Bama,Askira-Uba,Damboa,Konduga,Mafa,Monguno,Ngala,Kala-Balge,Marte,Kukawa,Gubio,Magumeri,Abadam,Guzamala,Kaga,Kondunga,Mobar,Nganzai,Gajiganna,Gajiram,Cross Kauwa,Baga,Doron Baga,Kauwa,Rann,Gamboru,Damasak,Wulgo,Chibok,Hong,Maiha,Gombi,Song,Kwami,Pindiga,Numan,Jimeta,Yola,Ganye,Jada,Sukur,Damay,Kurang,Kirawa,Kwaya,Miringa,Buratai,Kida,Gur,Gunda,Garubula,Iskushuban,Gendershe,Garsen,Ikonge,ElDera,Haraale,Salkaxo,Garowe,Janaale,Kaloleni,Masige,ArchersPost,RasKamboni,Deynile,Hobyo,Alidfa,Adutra,Anoma,Apemfa,Abarra,Amobma,Akelra,Adurfa,Afokma,Aolfa,Akukfa,Alatra,Alamfa,Aimfa,Abomma,Kamwela,Kamwema,Kamwewa,Kamwera,Kamweka"
+  "b": "Kamwe,Michika,Mubi,Madagali,Gwoza,Bama,Askira-Uba,Damboa,Konduga,Mafa,Monguno,Ngala,Kala-Balge,Marte,Kukawa,Gubio,Magumeri,Abadam,Guzamala,Kaga,Kondunga,Mobar,Nganzai,Gajiganna,Gajiram,Cross Kauwa,Baga,Kauwa,Rann,Gamboru,Damasak,Wulgo,Chibok,Hong,Maiha,Gombi,Song,Kwami,Pindiga,Numan,Jimeta,Yola,Ganye,Jada,Sukur,Damay,Kurang,Kirawa,Kwaya,Miringa,Buratai,Kida,Gur,Gunda,Garubula,Iskushuban,Gendershe,Garsen,Ikonge,Haraale,Salkaxo,Garowe,Janaale,Kaloleni,Masige,ArchersPost,RasKamboni,Deynile,Hobyo,Alidfa,Adutra,Anoma,Apemfa,Abarra,Amobma,Akelra,Adurfa,Afokma,Aolfa,Akukfa,Alatra,Alamfa,Aimfa,Abomma,Kamwela,Kamwema,Kamwewa,Kamwera,Kamweka,Doron Baga,ElDera"
 },
 {
     "name": "Kanakuru",
@@ -5038,7 +5038,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kanakuru,Shani,Shellen,Gasi,Dera,Kaltungo,Billiri,Shongom,Akko,Tangale,Ture,Filiya,Gwandum,Gundale,Pero,Dukku,Alkaleri,Darazo,Fika,Kalam,Kwami,Pikka,Potiskum,Nangere,Funakaye,Nafada,Biri,Gerikom,Gabukka,Bolari,Bomala,Bojule,Tappi,Dirri,Jore,Yame,Dawo,Komi,Bele,Bara,Inkil,Kirfi,Toro,Misau,Gamawa,Gaalkacyo,Maraag,Mackinnon,Nyamira,Wamba,Xato,Sarameer,Rigomane,BilisQoqani,Jombo,Kihancha,Laisamis,Koriley,BuloBurde,Guriel,Adekna,Aanla,Aiswa,Akikna,Apuswa,Amona,Akorna,Akamla,Aletwa,Anigna,Adumna,Afala,Anebna,Anakwa,Apadla,Kanakurula,Kanakuruma,Kanakuruwa,Kanakurura,Kanakuruka"
+  "b": "Shani,Shellen,Gasi,Dera,Kaltungo,Billiri,Shongom,Akko,Tangale,Ture,Filiya,Gwandum,Gundale,Pero,Dukku,Alkaleri,Darazo,Fika,Kalam,Kwami,Pikka,Potiskum,Nangere,Funakaye,Nafada,Biri,Gerikom,Gabukka,Bolari,Bomala,Bojule,Tappi,Dirri,Jore,Yame,Dawo,Komi,Bele,Bara,Inkil,Kirfi,Toro,Misau,Gamawa,Gaalkacyo,Maraag,Mackinnon,Nyamira,Wamba,Xato,Sarameer,Rigomane,BilisQoqani,Jombo,Kihancha,Laisamis,Koriley,BuloBurde,Guriel,Adekna,Aanla,Aiswa,Akikna,Apuswa,Amona,Akorna,Akamla,Aletwa,Anigna,Adumna,Afala,Anebna,Anakwa,Apadla,Kanakurula,Kanakuruma,Kanakuruwa,Kanakurura,Kanakuruka,Ibadan,Kanakuru"
 },
 {
     "name": "Karai-karai",
@@ -5056,7 +5056,7 @@ window.africaNameBases = [
   "max": 13,
   "d": "lnrt",
   "m": 0,
-  "b": "Kariya,Darazo,Ganjuwa,Kafin Madaki,Soro,Miya,Baben Kasa,Badaromo,Barkaya,Dagale,Deno,Digawa,Dugumi,Gurzumo,Janu,Kubi,Nassarawa,Siri,Tafawa,Zibinju,Choogen,Toro,Alkaleri,Kirfi,Ningi,Warji,Dass,Tafawa Balewa,Bogoro,Lere,Lame,Rano,Wudil,Dukku,Gamawa,Misau,Jama'are,Katagum,Shira,Giade,Itas,Zaki,Azare,Bulkachuwa,Balad,Gerille,Kisimani,Ntimaru,Illeret,Jerree,Warshiek,Cadaado,Mgangani,Karungu,Dida,Kakuma,Garsale,Jowhaar,Farlibaax,Adirla,Abobna,Ademla,Amebwe,Abolla,Anitbwe,Aligbwe,Alosna,Analla,Aerbwe,Apemla,Akokna,Aputbwe,Abomna,Afutla,Kariyala,Kariyama,Kariyawa,Kariyara,Kariyaka"
+  "b": "Kariya,Darazo,Ganjuwa,Kafin Madaki,Soro,Miya,Badaromo,Barkaya,Dagale,Deno,Digawa,Dugumi,Gurzumo,Janu,Kubi,Nassarawa,Siri,Tafawa,Zibinju,Choogen,Toro,Alkaleri,Kirfi,Ningi,Warji,Dass,Tafawa Balewa,Bogoro,Lere,Lame,Rano,Wudil,Dukku,Gamawa,Misau,Jama'are,Katagum,Shira,Giade,Itas,Zaki,Azare,Bulkachuwa,Balad,Gerille,Kisimani,Ntimaru,Illeret,Jerree,Warshiek,Cadaado,Mgangani,Karungu,Dida,Kakuma,Garsale,Jowhaar,Farlibaax,Adirla,Abobna,Ademla,Amebwe,Abolla,Anitbwe,Aligbwe,Alosna,Analla,Aerbwe,Apemla,Akokna,Aputbwe,Abomna,Afutla,Kariyala,Kariyama,Kariyawa,Kariyara,Kariyaka,Baben Kasa"
 },
 {
     "name": "Kera",
@@ -5065,7 +5065,7 @@ window.africaNameBases = [
   "max": 15,
   "d": "lnrt",
   "m": 0,
-  "b": "Kera,Mayo-Kebbi,Bongor,Pala,Fianga,Léré,Koumra,Doba,Moundou,Bébédjia,Béïnamar,Béïssa,Békiri,Béladja,Béssao,Béti,Boumo,Danamadji,Déressia,Djedah,Dourbali,Goré,Goundi,Grégué,Guélengdeng,Kélo,Kyabé,Mbaïbokoum,Mbaïkoro,Ndam,Ngourkosso,Sarh,Béré,Biltine,Am Timan,Abou Deïa,Adré,Am Dam,Assinet,Bahaï,Baktchoro,Daguessa,Dar Tama,Djourf Al Ahmar,Ennedi,Fada,Iriba,Ounianga,Saakow,Buni,Ikerege,Mkunumbi,Lodwar,Qorragan,Buulobarde,CeelBarde,Ngomoni,Oyugis,Shella,Turmi,Janaale,LaasGacamey,ElBarde,Aimta,Alesfa,Abasa,Afubta,Akirfa,Akedta,Apagfa,Abamsa,Anagta,Apomta,Amubta,Akufa,Abogta,Afanta,Akolfa,LaKera,Kerama,WaKera,Kerara,Keraka"
+  "b": "Kera,Mayo-Kebbi,Bongor,Pala,Fianga,Léré,Koumra,Doba,Moundou,Bébédjia,Béïnamar,Béïssa,Békiri,Béladja,Béssao,Béti,Boumo,Danamadji,Déressia,Djedah,Dourbali,Goré,Goundi,Grégué,Guélengdeng,Kélo,Kyabé,Mbaïbokoum,Mbaïkoro,Ndam,Ngourkosso,Sarh,Béré,Biltine,Am Timan,Abou Deïa,Adré,Am Dam,Assinet,Bahaï,Baktchoro,Daguessa,Djourf Al Ahmar,Ennedi,Fada,Iriba,Ounianga,Saakow,Buni,Ikerege,Mkunumbi,Lodwar,Qorragan,Buulobarde,CeelBarde,Ngomoni,Oyugis,Shella,Turmi,Janaale,LaasGacamey,ElBarde,Aimta,Alesfa,Abasa,Afubta,Akirfa,Akedta,Apagfa,Abamsa,Anagta,Apomta,Amubta,Akufa,Abogta,Afanta,Akolfa,Kerama,Kerara,Keraka,Dar Tama,LaKera,WaKera"
 },
 {
     "name": "Kholok",
@@ -5074,7 +5074,7 @@ window.africaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-  "b": "Kholok,Karim Lamido,Didango,Jalingo,Wukari,Takum,Bali,Gassol,Ibi,Yorro,Zing,Donga,Kurmi,Ussa,Ardo Kola,Gashaka,Lau,Mutum Biyu,Sardauna,Luanda,Huambo,Lobito,Benguela,Lubango,Malanje,Luq,Mafisini,Rangwe,Takwa,Dimeka,Sablaale,Yubbe,Huddur,Mikinduni,Kakamega,Kaloleni,Arero,Cagaaran,Ufeyn,Dinsor,Alukka,Afagna,Alilka,Abodna,Adesna,Anekka,Amedna,Apotna,Autna,Aboka,Adibbwe,Aalna,Amikbwe,Akubna,Akakka,Kholokla,Kholokma,Kholokwa,Kholokra,Kholokka"
+  "b": "Kholok,Karim Lamido,Didango,Jalingo,Wukari,Takum,Bali,Gassol,Ibi,Yorro,Zing,Donga,Kurmi,Ussa,Gashaka,Lau,Mutum Biyu,Sardauna,Luanda,Huambo,Lobito,Benguela,Lubango,Malanje,Luq,Mafisini,Rangwe,Takwa,Dimeka,Sablaale,Yubbe,Huddur,Mikinduni,Kakamega,Kaloleni,Arero,Cagaaran,Ufeyn,Dinsor,Alukka,Afagna,Alilka,Abodna,Adesna,Anekka,Amedna,Apotna,Autna,Aboka,Adibbwe,Aalna,Amikbwe,Akubna,Akakka,Kholokla,Kholokma,Kholokwa,Kholokra,Kholokka,Ardo Kola"
 },
 {
     "name": "Kimré",
@@ -5083,7 +5083,7 @@ window.africaNameBases = [
   "max": 15,
   "d": "lnrt",
   "m": 0,
-  "b": "Kimré,Mayo-Kebbi,Bongor,Pala,Fianga,Léré,Koumra,Doba,Moundou,Bébédjia,Béïnamar,Béïssa,Békiri,Béladja,Béssao,Béti,Boumo,Danamadji,Déressia,Djedah,Dourbali,Goré,Goundi,Grégué,Guélengdeng,Kélo,Kyabé,Mbaïbokoum,Mbaïkoro,Ndam,Ngourkosso,Sarh,Béré,Biltine,Am Timan,Abou Deïa,Adré,Am Dam,Assinet,Bahaï,Baktchoro,Daguessa,Dar Tama,Djourf Al Ahmar,Ennedi,Fada,Iriba,Ounianga,Tiyeglow,Kau,Butere,Kilifi,Teltele,Wargalo,Xabo,BurAcaba,Bargoni,Chwele,Hola,Degehabur,Bagula,Iskushuban,Gendershe,Abebra,Ailsa,Aresa,Afibra,Anamsa,Adukta,Alonra,Afosra,Afosa,Akadsa,Alegsa,Adumta,Apissa,Amussa,Aputa,Kimrla,Kimrma,Kimrwa,Kimrra,Kimrka"
+  "b": "Kimré,Mayo-Kebbi,Bongor,Pala,Fianga,Léré,Koumra,Doba,Moundou,Bébédjia,Béïnamar,Béïssa,Békiri,Béladja,Béssao,Béti,Boumo,Danamadji,Déressia,Djedah,Dourbali,Goré,Goundi,Grégué,Guélengdeng,Kélo,Kyabé,Mbaïbokoum,Mbaïkoro,Ndam,Ngourkosso,Sarh,Béré,Biltine,Am Timan,Abou Deïa,Adré,Am Dam,Assinet,Bahaï,Baktchoro,Daguessa,Djourf Al Ahmar,Ennedi,Fada,Iriba,Ounianga,Tiyeglow,Kau,Butere,Kilifi,Teltele,Wargalo,Xabo,BurAcaba,Bargoni,Chwele,Hola,Degehabur,Bagula,Iskushuban,Gendershe,Abebra,Ailsa,Aresa,Afibra,Anamsa,Adukta,Alonra,Afosra,Afosa,Akadsa,Alegsa,Adumta,Apissa,Amussa,Aputa,Kimrla,Kimrma,Kimrwa,Kimrra,Kimrka,KimréSprings,KimréCreek,KimréRidge,KimréHeights,KimréFalls,KimréBeach,KimréPoint,KimréBay,KimréGrove,kimrSprings,kimrCreek,kimrRidge,kimrHeights,kimrFalls,kimrBeach,kimrPoint,kimrBay,kimrGrove,Dar Tama"
 },
 {
     "name": "Kir-Balar",
@@ -5092,7 +5092,7 @@ window.africaNameBases = [
   "max": 13,
   "d": "lnrt",
   "m": 0,
-  "b": "Kir-Balar,Darazo,Ganjuwa,Kafin Madaki,Soro,Miya,Baben Kasa,Badaromo,Barkaya,Dagale,Deno,Digawa,Dugumi,Gurzumo,Janu,Kariya,Kubi,Nassarawa,Siri,Tafawa,Zibinju,Choogen,Toro,Alkaleri,Kirfi,Ningi,Warji,Dass,Tafawa Balewa,Bogoro,Lere,Lame,Rano,Wudil,Dukku,Gamawa,Misau,Jama'are,Katagum,Shira,Giade,Itas,Zaki,Azare,Bulkachuwa,Lanta,Ozi,Tindinyo,Masalani,ElKere,Garawe,Bargaal,Afgooye,Malindi,Sengera,ElBur,AbudWaaq,Kabxan,Gaalkacyo,Maraag,Anowa,Alurbwe,Alombwe,Afirbwe,Anedka,Akambwe,Aparbwe,Apebka,Abibwe,Adolbwe,Akudbwe,Afomwa,Aditwa,Aigwa,Apeka,KirBalarla,KirBalarma,KirBalarwa,KirBalarra,KirBalarka"
+  "b": "Kir-Balar,Darazo,Ganjuwa,Kafin Madaki,Soro,Miya,Badaromo,Barkaya,Dagale,Deno,Digawa,Dugumi,Gurzumo,Janu,Kariya,Kubi,Nassarawa,Siri,Tafawa,Zibinju,Choogen,Toro,Alkaleri,Kirfi,Ningi,Warji,Dass,Tafawa Balewa,Bogoro,Lere,Lame,Rano,Wudil,Dukku,Gamawa,Misau,Jama'are,Katagum,Shira,Giade,Itas,Zaki,Azare,Bulkachuwa,Lanta,Ozi,Tindinyo,Masalani,Garawe,Bargaal,Afgooye,Malindi,Sengera,ElBur,AbudWaaq,Kabxan,Gaalkacyo,Maraag,Anowa,Alurbwe,Alombwe,Afirbwe,Anedka,Akambwe,Aparbwe,Apebka,Abibwe,Adolbwe,Akudbwe,Afomwa,Aditwa,Aigwa,Apeka,Baben Kasa,ElKere,KirBalarla,KirBalarma,KirBalarwa,KirBalarra,KirBalarka"
 },
 {
     "name": "Kirya-Konzal",
@@ -5101,7 +5101,7 @@ window.africaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-  "b": "Kirya-Konzal,Shendam,Langung,Panyam,Balong,Dokan Tofa,Jos,Bukuru,Pankshin,Mangu,Kabwir,Gindiri,Riyom,Barkin Ladi,Keffi,Lafia,Akwanga,Karu,Kokona,Awe,Doma,Keana,Obi,Agyaraku,Wamba,Nunku,Assakio,Effium,Ugbokpo,Otukpo,Okpokwu,Adoka,Ankpa,Dekina,Idah,Igalamela,Olamaboro,Omala,Ugwalawo,Umon,Nsukka,Shalambood,Kilifi,Rioma,Habaswein,TulaNaga,Sarweyne,Koorma,Xarardheere,Mariakani,Kisii,Maralal,Liibaan,Duduble,Galdogob,Dhoobley,Alimma,Akitta,Aokra,Adodta,Abatma,Adatta,Abodma,Alema,Amonma,Apasta,Adodra,Anonra,Aotra,Alagta,Afolma,KiryaKonzalla,KiryaKonzalma,KiryaKonzalwa,KiryaKonzalra,KiryaKonzalka"
+  "b": "Kirya-Konzal,Shendam,Langung,Panyam,Balong,Jos,Pankshin,Mangu,Kabwir,Gindiri,Riyom,Barkin Ladi,Keffi,Lafia,Akwanga,Karu,Kokona,Awe,Doma,Keana,Obi,Agyaraku,Wamba,Nunku,Assakio,Effium,Ugbokpo,Otukpo,Okpokwu,Adoka,Ankpa,Dekina,Idah,Igalamela,Olamaboro,Omala,Ugwalawo,Umon,Nsukka,Shalambood,Kilifi,Rioma,Habaswein,Sarweyne,Koorma,Xarardheere,Mariakani,Kisii,Maralal,Liibaan,Duduble,Galdogob,Dhoobley,Alimma,Akitta,Aokra,Adodta,Abatma,Adatta,Abodma,Alema,Amonma,Apasta,Adodra,Anonra,Aotra,Alagta,Afolma,Abuja,Dokan Tofa,Bukuru,TulaNaga,KiryaKonzalla,KiryaKonzalma,KiryaKonzalwa,KiryaKonzalra,KiryaKonzalka"
 },
 {
     "name": "Koenoem",
@@ -5110,7 +5110,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Koenoem,Shendam,Langung,Panyam,Balong,Dokan Tofa,Jos,Bukuru,Pankshin,Mangu,Kabwir,Gindiri,Riyom,Barkin Ladi,Keffi,Lafia,Akwanga,Karu,Kokona,Awe,Doma,Keana,Obi,Agyaraku,Wamba,Nunku,Assakio,Effium,Ugbokpo,Otukpo,Okpokwu,Adoka,Ankpa,Dekina,Idah,Igalamela,Olamaboro,Omala,Ugwalawo,Umon,Nsukka,Harardhere,Bamba,Keroka,Baragoi,Ddabo,Ragehe,Godinlabe,Afmadow,Jimbo,Suna,Kargi,Geesaley,Dhuusamareeb,Balad,Gerille,Apitla,Amarwa,Amibka,Akegka,Aubka,Adetka,Akogla,Aparla,Afiska,Apamka,Anidka,Anamla,Alurka,Aegka,Abomla,Koenoemla,Koenoemma,Koenoemwa,Koenoemra,Koenoemka"
+  "b": "Koenoem,Shendam,Langung,Panyam,Balong,Jos,Pankshin,Mangu,Kabwir,Gindiri,Riyom,Barkin Ladi,Keffi,Lafia,Akwanga,Karu,Kokona,Awe,Doma,Keana,Obi,Agyaraku,Wamba,Nunku,Assakio,Effium,Ugbokpo,Otukpo,Okpokwu,Adoka,Ankpa,Dekina,Idah,Igalamela,Olamaboro,Omala,Ugwalawo,Umon,Nsukka,Harardhere,Bamba,Keroka,Baragoi,Ddabo,Ragehe,Godinlabe,Afmadow,Jimbo,Suna,Kargi,Geesaley,Dhuusamareeb,Balad,Gerille,Apitla,Amarwa,Amibka,Akegka,Aubka,Adetka,Akogla,Aparla,Afiska,Apamka,Anidka,Anamla,Alurka,Aegka,Abomla,Koenoemla,Koenoemma,Koenoemwa,Koenoemra,Koenoemka,Tamale,Dokan Tofa,Bukuru"
 },
 {
     "name": "Kubi",
@@ -5119,7 +5119,7 @@ window.africaNameBases = [
   "max": 13,
   "d": "lnrt",
   "m": 0,
-  "b": "Kubi,Darazo,Ganjuwa,Kafin Madaki,Soro,Miya,Baben Kasa,Badaromo,Barkaya,Dagale,Deno,Digawa,Dugumi,Gurzumo,Janu,Kariya,Nassarawa,Siri,Tafawa,Zibinju,Choogen,Toro,Alkaleri,Kirfi,Ningi,Warji,Dass,Tafawa Balewa,Bogoro,Lere,Lame,Rano,Wudil,Dukku,Gamawa,Misau,Jama'are,Katagum,Shira,Giade,Itas,Zaki,Azare,Bulkachuwa,Garbaharey,Geza,Uriri,Bubisa,Kumbare,Sheikh,GalCad,Ngei,Takawiri,Nyangusu,Loyangalani,Caano,CelDheer,Saakow,Buni,Akobfa,Afamra,Aditma,Adugra,Abolra,Alitma,Aparfa,Amelra,Amikma,Abulfa,Aketfa,Ainfa,Aisra,Adima,Akirra,Kubila,Kubima,Kubiwa,Kubira,Kubika"
+  "b": "Kubi,Darazo,Ganjuwa,Kafin Madaki,Soro,Miya,Badaromo,Barkaya,Dagale,Deno,Digawa,Dugumi,Gurzumo,Janu,Kariya,Nassarawa,Siri,Tafawa,Zibinju,Choogen,Toro,Alkaleri,Kirfi,Ningi,Warji,Dass,Tafawa Balewa,Bogoro,Lere,Lame,Rano,Wudil,Dukku,Gamawa,Misau,Jama'are,Katagum,Shira,Giade,Itas,Zaki,Azare,Bulkachuwa,Garbaharey,Geza,Uriri,Bubisa,Kumbare,Sheikh,GalCad,Ngei,Takawiri,Nyangusu,Loyangalani,Caano,CelDheer,Saakow,Buni,Akobfa,Afamra,Aditma,Adugra,Abolra,Alitma,Aparfa,Amelra,Amikma,Abulfa,Aketfa,Ainfa,Aisra,Adima,Akirra,Kubila,Kubima,Kubiwa,Kubira,Kubika,Baben Kasa"
 },
 {
     "name": "Kulere",
@@ -5128,7 +5128,7 @@ window.africaNameBases = [
   "max": 13,
   "d": "lnrt",
   "m": 0,
-  "b": "Kulere,Darazo,Ganjuwa,Kafin Madaki,Soro,Miya,Baben Kasa,Badaromo,Barkaya,Dagale,Deno,Digawa,Dugumi,Gurzumo,Janu,Kariya,Kubi,Nassarawa,Siri,Tafawa,Zibinju,Choogen,Toro,Alkaleri,Kirfi,Ningi,Warji,Dass,Tafawa Balewa,Bogoro,Lere,Lame,Rano,Wudil,Dukku,Gamawa,Misau,Jama'are,Katagum,Shira,Giade,Itas,Zaki,Azare,Bulkachuwa,Janjan,Mfangano,Matiri,Lowarengak,Geedweyne,Cadaado,Bardhere,Wangwana,Keumbu,Witu,Lokitaung,Baydhabo,Jalalaqsi,Luq,Mafisini,Abana,Apikwa,Apenwa,Abubla,Anomwa,Akitna,Adonwa,Adusla,Akalwa,Amekna,Aobna,Alutna,Alugwa,Autwa,Akiswa,Kulerela,Kulerema,Kulerewa,Kulerera,Kulereka"
+  "b": "Kulere,Darazo,Ganjuwa,Kafin Madaki,Soro,Miya,Badaromo,Barkaya,Dagale,Deno,Digawa,Dugumi,Gurzumo,Janu,Kariya,Kubi,Nassarawa,Siri,Tafawa,Zibinju,Choogen,Toro,Alkaleri,Kirfi,Ningi,Warji,Dass,Tafawa Balewa,Bogoro,Lere,Lame,Rano,Wudil,Dukku,Gamawa,Misau,Jama'are,Katagum,Shira,Giade,Itas,Zaki,Azare,Bulkachuwa,Janjan,Mfangano,Matiri,Lowarengak,Geedweyne,Cadaado,Bardhere,Wangwana,Keumbu,Witu,Lokitaung,Baydhabo,Jalalaqsi,Luq,Mafisini,Abana,Apikwa,Apenwa,Abubla,Anomwa,Akitna,Adonwa,Adusla,Akalwa,Amekna,Aobna,Alutna,Alugwa,Autwa,Akiswa,Kulerela,Kulerema,Kulerewa,Kulerera,Kulereka,Baben Kasa"
 },
 {
     "name": "Kulung language (West Chadic)",
@@ -5137,7 +5137,7 @@ window.africaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-  "b": "Kulung,Karim Lamido,Didango,Jalingo,Wukari,Takum,Bali,Gassol,Ibi,Yorro,Zing,Donga,Kurmi,Ussa,Ardo Kola,Gashaka,Lau,Mutum Biyu,Sardauna,Luanda,Huambo,Lobito,Benguela,Lubango,Malanje,Kinarani,Mbita,Bodhai,Kangaten,Holug,BuloBurto,Garbahaarrey,Omaribaya,Yala,Mtwapa,Karamara,Qoryooley,CeelBuux,Tiyeglow,Kau,Aminsa,Akusma,Adisma,Analfa,Aubsa,Anasma,Adossa,Aborma,Amadfa,Akulma,Abedsa,Alegma,Audma,Ananfa,Afubsa,Wurkumla,Wurkumma,Wurkumwa,Wurkumra,Wurkumka"
+  "b": "Kulung,Karim Lamido,Didango,Jalingo,Wukari,Takum,Bali,Gassol,Ibi,Yorro,Zing,Donga,Kurmi,Ussa,Gashaka,Lau,Mutum Biyu,Sardauna,Luanda,Huambo,Lobito,Benguela,Lubango,Malanje,Kinarani,Mbita,Bodhai,Kangaten,Holug,BuloBurto,Garbahaarrey,Omaribaya,Yala,Mtwapa,Karamara,Qoryooley,CeelBuux,Tiyeglow,Kau,Aminsa,Akusma,Adisma,Analfa,Aubsa,Anasma,Adossa,Aborma,Amadfa,Akulma,Abedsa,Alegma,Audma,Ananfa,Afubsa,Wurkumla,Wurkumma,Wurkumwa,Wurkumra,Wurkumka,Ardo Kola"
 },
 {
     "name": "Kutto",
@@ -5146,7 +5146,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kutto,Bajoga,Gujba,Dukku,Alkaleri,Darazo,Fika,Kalam,Kwami,Pikka,Potiskum,Nangere,Funakaye,Nafada,Biri,Gerikom,Gabukka,Bolari,Bomala,Bojule,Tappi,Dirri,Jore,Yame,Dawo,Komi,Bele,Bara,Inkil,Kirfi,Toro,Misau,Gamawa,Jama'are,Katagum,Shira,Giade,Itas,Zaki,Azare,Bulkachuwa,Gongoni,Bondo,Vipingo,Konso,CeyrTabaan,Laasqoray,QansaxDheere,Garsen,Mumias,Malindi,Yavello,Guba,Xaafuun,Lanta,Ozi,Adukbwe,Aegla,Aabla,Adilbwe,Anugla,Afinna,Afidla,Akimna,Alutla,Apabwe,Adinbwe,Aerla,Anubbwe,Anolbwe,Adolla,Kuttola,Kuttoma,Kuttowa,Kuttora,Kuttoka"
+  "b": "Kutto,Bajoga,Gujba,Dukku,Alkaleri,Darazo,Fika,Kalam,Kwami,Pikka,Potiskum,Nangere,Funakaye,Nafada,Biri,Gerikom,Gabukka,Bolari,Bomala,Bojule,Tappi,Dirri,Jore,Yame,Dawo,Komi,Bele,Bara,Inkil,Kirfi,Toro,Misau,Gamawa,Jama'are,Katagum,Shira,Giade,Itas,Zaki,Azare,Bulkachuwa,Gongoni,Bondo,Vipingo,Konso,CeyrTabaan,Laasqoray,Garsen,Mumias,Malindi,Yavello,Guba,Xaafuun,Lanta,Ozi,Adukbwe,Aegla,Aabla,Adilbwe,Anugla,Afinna,Afidla,Akimna,Alutla,Apabwe,Adinbwe,Aerla,Anubbwe,Anolbwe,Adolla,Kuttola,Kuttoma,Kuttowa,Kuttora,Kuttoka,QansaxDheere"
 },
 {
     "name": "Kwaami",
@@ -5164,7 +5164,7 @@ window.africaNameBases = [
   "max": 15,
   "d": "lnrt",
   "m": 0,
-  "b": "Kwang,Mayo-Kebbi,Bongor,Pala,Fianga,Léré,Koumra,Doba,Moundou,Bébédjia,Béïnamar,Béïssa,Békiri,Béladja,Béssao,Béti,Boumo,Danamadji,Déressia,Djedah,Dourbali,Goré,Goundi,Grégué,Guélengdeng,Kélo,Kyabé,Mbaïbokoum,Mbaïkoro,Ndam,Ngourkosso,Sarh,Béré,Biltine,Am Timan,Abou Deïa,Adré,Am Dam,Assinet,Bahaï,Baktchoro,Daguessa,Dar Tama,Djourf Al Ahmar,Ennedi,Fada,Iriba,Ounianga,Kipini,Nyakoe,Bura,Wachile,GarasQod,Bacad,BuuloMarer,Mtwapa,Getembe,Habasiwein,Dudun,Toon,Gambol,Harardhere,Bamba,Akoka,Adurna,Adomna,Afeska,Airna,Anaska,Amaka,Alebbwe,Anilna,Aurka,Afedka,Aketbwe,Abudna,Aomka,Apiska,Kwangla,Kwangma,Kwangwa,Kwangra,Kwangka"
+  "b": "Kwang,Mayo-Kebbi,Bongor,Pala,Fianga,Léré,Koumra,Doba,Moundou,Bébédjia,Béïnamar,Béïssa,Békiri,Béladja,Béssao,Béti,Boumo,Danamadji,Déressia,Djedah,Dourbali,Goré,Goundi,Grégué,Guélengdeng,Kélo,Kyabé,Mbaïbokoum,Mbaïkoro,Ndam,Ngourkosso,Sarh,Béré,Biltine,Am Timan,Abou Deïa,Adré,Am Dam,Assinet,Bahaï,Baktchoro,Daguessa,Djourf Al Ahmar,Ennedi,Fada,Iriba,Ounianga,Kipini,Nyakoe,Bura,Wachile,GarasQod,Bacad,BuuloMarer,Mtwapa,Getembe,Habasiwein,Dudun,Toon,Gambol,Harardhere,Bamba,Akoka,Adurna,Adomna,Afeska,Airna,Anaska,Amaka,Alebbwe,Anilna,Aurka,Afedka,Aketbwe,Abudna,Aomka,Apiska,Kwangla,Kwangma,Kwangwa,Kwangra,Kwangka,Dar Tama"
 },
 {
     "name": "Lagwan",
@@ -5173,7 +5173,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lagwan,Gwoza,Bama,Askira-Uba,Damboa,Konduga,Mafa,Monguno,Ngala,Kala-Balge,Marte,Kukawa,Gubio,Magumeri,Abadam,Guzamala,Kaga,Kondunga,Mobar,Nganzai,Gajiganna,Gajiram,Cross Kauwa,Baga,Doron Baga,Kauwa,Rann,Gamboru,Damasak,Wulgo,Chibok,Michika,Mubi,Madagali,Hong,Maiha,Gombi,Song,Kwami,Pindiga,Numan,Jimeta,Yola,Ganye,Jada,Rabai,Manga,Merti,Hula,Kaxare,Bacadweyn,Burdhubo,Samburu,Ogembo,SouthHorr,Dhalwo,Aqable,Jariiban,Garbaharey,Geza,Anebsa,Apogra,Adimra,Abitsa,Afunsa,Alebra,Amotta,Afumra,Anasra,Abomta,Anogra,Adera,Afonra,Akonta,Akotsa,Lagwanla,Lagwanma,Lagwanwa,Lagwanra,Lagwanka"
+  "b": "Lagwan,Gwoza,Bama,Askira-Uba,Damboa,Konduga,Mafa,Monguno,Ngala,Kala-Balge,Marte,Kukawa,Gubio,Magumeri,Abadam,Guzamala,Kaga,Kondunga,Mobar,Nganzai,Gajiganna,Gajiram,Cross Kauwa,Baga,Kauwa,Rann,Gamboru,Damasak,Wulgo,Chibok,Michika,Mubi,Madagali,Hong,Maiha,Gombi,Song,Kwami,Pindiga,Numan,Jimeta,Yola,Ganye,Jada,Rabai,Manga,Merti,Hula,Kaxare,Bacadweyn,Burdhubo,Ogembo,SouthHorr,Dhalwo,Aqable,Jariiban,Garbaharey,Geza,Anebsa,Apogra,Adimra,Abitsa,Afunsa,Alebra,Amotta,Afumra,Anasra,Abomta,Anogra,Adera,Afonra,Akonta,Akotsa,Lagwanla,Lagwanma,Lagwanwa,Lagwanra,Lagwanka,Bouaké,Doron Baga,Samburu"
 },
 {
     "name": "Lamang",
@@ -5182,7 +5182,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lamang,Gwoza,Bama,Askira-Uba,Damboa,Konduga,Mafa,Monguno,Ngala,Kala-Balge,Marte,Kukawa,Gubio,Magumeri,Abadam,Guzamala,Kaga,Kondunga,Mobar,Nganzai,Gajiganna,Gajiram,Cross Kauwa,Baga,Doron Baga,Kauwa,Rann,Gamboru,Damasak,Wulgo,Chibok,Michika,Mubi,Madagali,Hong,Maiha,Gombi,Song,Kwami,Pindiga,Numan,Jimeta,Yola,Ganye,Jada,Shimba,Tabaka,Marsabit,Murcanyo,Buqda,Galkacyo,Elwak,Mkonumbi,Isebania,Maikona,Cagare,WarSheikh,Dhuusamareeb,Janjan,Mfangano,Alitwa,Afibbwe,Amarka,Adusbwe,Auwa,Ananka,Aisbwe,Aforbwe,Abibwa,Abakbwe,Alambwe,Apetwa,Amatka,Aledbwe,Afuwa,Lamangla,Lamangma,Lamangwa,Lamangra,Lamangka"
+  "b": "Lamang,Gwoza,Bama,Askira-Uba,Damboa,Konduga,Mafa,Monguno,Ngala,Kala-Balge,Marte,Kukawa,Gubio,Magumeri,Abadam,Guzamala,Kaga,Kondunga,Mobar,Nganzai,Gajiganna,Gajiram,Cross Kauwa,Baga,Kauwa,Rann,Gamboru,Damasak,Wulgo,Chibok,Michika,Mubi,Madagali,Hong,Maiha,Gombi,Song,Kwami,Pindiga,Numan,Jimeta,Yola,Ganye,Jada,Shimba,Tabaka,Marsabit,Murcanyo,Buqda,Galkacyo,Elwak,Mkonumbi,Isebania,Maikona,Cagare,WarSheikh,Dhuusamareeb,Janjan,Mfangano,Alitwa,Afibbwe,Amarka,Adusbwe,Auwa,Ananka,Aisbwe,Aforbwe,Abibwa,Abakbwe,Alambwe,Apetwa,Amatka,Aledbwe,Afuwa,Lamangla,Lamangma,Lamangwa,Lamangra,Lamangka,Doron Baga"
 },
 {
     "name": "Lele language (Chad)",
@@ -5191,7 +5191,7 @@ window.africaNameBases = [
   "max": 15,
   "d": "lnrt",
   "m": 0,
-  "b": "Lele,Mayo-Kebbi,Bongor,Pala,Fianga,Léré,Koumra,Doba,Moundou,Bébédjia,Béïnamar,Béïssa,Békiri,Béladja,Béssao,Béti,Boumo,Danamadji,Déressia,Djedah,Dourbali,Goré,Goundi,Grégué,Guélengdeng,Kélo,Kyabé,Mbaïbokoum,Mbaïkoro,Ndam,Ngourkosso,Sarh,Béré,Biltine,Am Timan,Abou Deïa,Adré,Am Dam,Assinet,Bahaï,Baktchoro,Daguessa,Dar Tama,Djourf Al Ahmar,Ennedi,Fada,Iriba,Ounianga,Chundwa,Mabera,NorthHorr,Jiingadda,Adale,Caabudwaaq,Barich,Mohoro,Borabu,FergusonsGulf,Hareeri,Balcad,Berdaale,Kinarani,Mbita,Aamta,Abirma,Afadma,Anomta,Afebma,Afikra,Abitma,Anuma,Amorma,Akobma,Alakta,Afigra,Afomta,Akidma,Abirra,LelelanguageChadla,LelelanguageChadma,LelelanguageChadwa,LelelanguageChadra,LelelanguageChadka"
+  "b": "Lele,Mayo-Kebbi,Bongor,Pala,Fianga,Léré,Koumra,Doba,Moundou,Bébédjia,Béïnamar,Béïssa,Békiri,Béladja,Béssao,Béti,Boumo,Danamadji,Déressia,Djedah,Dourbali,Goré,Goundi,Grégué,Guélengdeng,Kélo,Kyabé,Mbaïbokoum,Mbaïkoro,Ndam,Ngourkosso,Sarh,Béré,Biltine,Am Timan,Abou Deïa,Adré,Am Dam,Assinet,Bahaï,Baktchoro,Daguessa,Djourf Al Ahmar,Ennedi,Fada,Iriba,Ounianga,Chundwa,Mabera,NorthHorr,Jiingadda,Adale,Caabudwaaq,Barich,Mohoro,Borabu,FergusonsGulf,Hareeri,Balcad,Berdaale,Kinarani,Mbita,Aamta,Abirma,Afadma,Anomta,Afebma,Afikra,Abitma,Anuma,Amorma,Akobma,Alakta,Afigra,Afomta,Akidma,Abirra,Dar Tama,LelelanguageChadla,LelelanguageChadma,LelelanguageChadwa,LelelanguageChadra,LelelanguageChadka"
 },
 {
     "name": "Lozi",
@@ -5200,7 +5200,7 @@ window.africaNameBases = [
   "max": 13,
   "d": "lnrt",
   "m": 0,
-  "b": "Mongu,Limulunga,Senanga,Sesheke,Kazungula,Livingstone,Lealui,Nalolo,Sikongo,Kaoma,Mulobezi,Kalabo,Lukulu,Shangombo,Sioma,Gwabo,Mwandi,Chunga,Katima Mulilo,Bukalo,Linyanti,Kongola,Sibbinda,Chinchimani,Muyako,Sangwali,Pandamatenga,Nata,Shoshong,Mahalapye,Palapye,Serowe,Francistown,Orapa,Letlhakane,Jwaneng,Kanye,Molepolole,Thamga,Mogoditshane,Gaborone,Sindo,Galole,Kalokol,Harardera,Mahaday,Yeed,Kidimu,HomaBay,Kiunga,Kibish,GofKudle,Wanleweyn,Dolow,Gongoni,Bondo,Alikka,Afakka,Anudwa,Arola,Aporka,Apubwa,Afikla,Ademka,Adasla,Akunwa,Amuska,Abala,Abiska,Apuwa,Amerka,Lozila,Lozima,Loziwa,Lozira,Lozika"
+  "b": "Mongu,Limulunga,Senanga,Sesheke,Kazungula,Livingstone,Lealui,Nalolo,Sikongo,Kaoma,Mulobezi,Kalabo,Lukulu,Shangombo,Sioma,Gwabo,Mwandi,Chunga,Katima Mulilo,Bukalo,Linyanti,Kongola,Sibbinda,Chinchimani,Muyako,Sangwali,Pandamatenga,Nata,Shoshong,Mahalapye,Palapye,Serowe,Francistown,Orapa,Letlhakane,Jwaneng,Kanye,Molepolole,Thamga,Mogoditshane,Gaborone,Sindo,Galole,Kalokol,Harardera,Mahaday,Yeed,Kidimu,Kiunga,Kibish,Wanleweyn,Dolow,Gongoni,Bondo,Alikka,Afakka,Anudwa,Arola,Aporka,Apubwa,Afikla,Ademka,Adasla,Akunwa,Amuska,Abala,Abiska,Apuwa,Amerka,Lozila,Lozima,Loziwa,Lozira,Lozika,HomaBay,GofKudle"
 },
 {
     "name": "Maaka",
@@ -5209,7 +5209,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Maaka,Gujba,Gulani,Bara,Dadin Kowa,Fika,Potiskum,Nangere,Dukku,Alkaleri,Darazo,Kalam,Kwami,Pikka,Funakaye,Nafada,Biri,Gerikom,Gabukka,Bolari,Bomala,Bojule,Tappi,Dirri,Jore,Yame,Dawo,Komi,Bele,Inkil,Kirfi,Toro,Misau,Gamawa,Jama'are,Katagum,Shira,Giade,Itas,Zaki,Azare,Bulkachuwa,KenduBay,Faza,Omorate,Qoton,Afgoi,Beledhawo,Jamia,Siaya,Samburu,Ririba,Galolk,CeelAfweyn,Baidoa,Chara,Webuye,Afinfa,Abusra,Apibra,Apobfa,Anokra,Abulra,Anegfa,Adegra,Amenfa,Abitfa,Afitra,Adegma,Anerma,Anesra,Apegfa,Maakala,Maakama,Maakawa,Maakara,Maakaka"
+  "b": "Maaka,Gujba,Gulani,Bara,Fika,Potiskum,Nangere,Dukku,Alkaleri,Darazo,Kalam,Kwami,Pikka,Funakaye,Nafada,Biri,Gerikom,Gabukka,Bolari,Bomala,Bojule,Tappi,Dirri,Jore,Yame,Dawo,Komi,Bele,Inkil,Kirfi,Toro,Misau,Gamawa,Jama'are,Katagum,Shira,Giade,Itas,Zaki,Azare,Bulkachuwa,Faza,Omorate,Qoton,Afgoi,Beledhawo,Jamia,Siaya,Samburu,Ririba,Galolk,CeelAfweyn,Baidoa,Chara,Webuye,Afinfa,Abusra,Apibra,Apobfa,Anokra,Abulra,Anegfa,Adegra,Amenfa,Abitfa,Afitra,Adegma,Anerma,Anesra,Apegfa,Maakala,Maakama,Maakawa,Maakara,Maakaka,Dadin Kowa,KenduBay"
 },
 {
     "name": "Mabire",
@@ -5218,7 +5218,7 @@ window.africaNameBases = [
   "max": 15,
   "d": "lnrt",
   "m": 0,
-  "b": "Mabire,Guéra,Mongo,Bitkine,Melfi,Abtouyour,Batha,Am Timan,Abou Deïa,Adré,Am Dam,Assinet,Bahaï,Baktchoro,Biltine,Daguessa,Dar Tama,Djourf Al Ahmar,Ennedi,Fada,Iriba,Ounianga,Am Zoer,Bitchotchi,Dourbali,Goundi,Koumra,Kyabé,Mbaïbokoum,Mbaïkoro,Ndam,Ngourkosso,Sarh,Béré,Béladja,Béssao,Danamadji,Déressia,Djedah,Fianga,Goré,Grégué,Guélengdeng,Kélo,Léré,Moundou,Pala,Vihiga,Mariakani,Moyale,SaLul,Erigavo,Baardheere,Bwiti,Bungoma,Lamu,Imi,GeedWeen,Karindoolay,Gamey,Kipini,Nyakoe,Aputna,Amadwa,Apimna,Akugwa,Afelna,Abekna,Akolna,Alodla,Amudna,Abosla,Abanna,Apomla,Afodwa,Abeswa,Apikna,Mabirela,Mabirema,Mabirewa,Mabirera,Mabireka"
+  "b": "Mabire,Guéra,Mongo,Bitkine,Melfi,Abtouyour,Batha,Am Timan,Abou Deïa,Adré,Am Dam,Assinet,Bahaï,Baktchoro,Biltine,Daguessa,Djourf Al Ahmar,Ennedi,Fada,Iriba,Ounianga,Am Zoer,Bitchotchi,Dourbali,Goundi,Koumra,Kyabé,Mbaïbokoum,Mbaïkoro,Ndam,Ngourkosso,Sarh,Béré,Béladja,Béssao,Danamadji,Déressia,Djedah,Fianga,Goré,Grégué,Guélengdeng,Kélo,Léré,Moundou,Pala,Vihiga,Mariakani,Moyale,SaLul,Erigavo,Baardheere,Bwiti,Bungoma,Lamu,Imi,GeedWeen,Karindoolay,Gamey,Kipini,Nyakoe,Aputna,Amadwa,Apimna,Akugwa,Afelna,Abekna,Akolna,Alodla,Amudna,Abosla,Abanna,Apomla,Afodwa,Abeswa,Apikna,Mabirela,Mabirema,Mabirewa,Mabirera,Mabireka,Dar Tama"
 },
 {
     "name": "Mada",
@@ -5227,7 +5227,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Mada,Keffi,Lafia,Akwanga,Karu,Kokona,Awe,Doma,Keana,Obi,Agyaraku,Wamba,Nunku,Assakio,Effium,Ugbokpo,Otukpo,Okpokwu,Adoka,Ankpa,Dekina,Idah,Igalamela,Olamaboro,Omala,Ugwalawo,Umon,Nsukka,Kabwir,Gindiri,Riyom,Barkin Ladi,Jos,Bukuru,Pankshin,Mangu,Shendam,Langung,Panyam,Balong,Dokan Tofa,Bokkos,Kwalla,Doemak,Mernyang,Bwol,Jipal,Nteng,Kimilili,Garsen,Shilabo,Jasiira,Qardho,Merka,Ngao,Ekerenyo,Garissa,Farlibaax,Dhalwo,Eyl,Goobweyn,Rabai,Manga,Akedsa,Afomma,Adutfa,Amidsa,Abugma,Amobsa,Amukfa,Adosma,Abesa,Aarsa,Adufa,Akakma,Alubfa,Abusma,Amosa,Madala,Madama,Madawa,Madara,Madaka"
+  "b": "Mada,Keffi,Lafia,Akwanga,Karu,Kokona,Awe,Doma,Keana,Obi,Agyaraku,Wamba,Nunku,Assakio,Effium,Ugbokpo,Otukpo,Okpokwu,Adoka,Ankpa,Dekina,Idah,Igalamela,Olamaboro,Omala,Ugwalawo,Umon,Nsukka,Kabwir,Gindiri,Riyom,Barkin Ladi,Jos,Pankshin,Mangu,Shendam,Langung,Panyam,Balong,Bokkos,Kwalla,Doemak,Mernyang,Bwol,Jipal,Nteng,Kimilili,Garsen,Shilabo,Jasiira,Qardho,Merka,Ngao,Ekerenyo,Garissa,Farlibaax,Dhalwo,Eyl,Goobweyn,Rabai,Manga,Akedsa,Afomma,Adutfa,Amidsa,Abugma,Amobsa,Amukfa,Adosma,Abesa,Aarsa,Adufa,Akakma,Alubfa,Abusma,Amosa,Madala,Madama,Madawa,Madara,Madaka,Saint-Louis,Bukuru,Dokan Tofa"
 },
 {
     "name": "Mafa",
@@ -5236,7 +5236,7 @@ window.africaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-  "b": "Mafa,Gwoza,Bama,Askira-Uba,Damboa,Konduga,Monguno,Ngala,Kala-Balge,Marte,Kukawa,Gubio,Magumeri,Abadam,Guzamala,Kaga,Kondunga,Mobar,Nganzai,Gajiganna,Gajiram,Cross Kauwa,Baga,Doron Baga,Kauwa,Rann,Gamboru,Damasak,Wulgo,Chibok,Michika,Mubi,Madagali,Hong,Maiha,Gombi,Song,Kwami,Pindiga,Numan,Jimeta,Yola,Ganye,Jada,Maroua,Mora,Waza,Kousséri,Mokolo,Ikonge,ElDera,Haraale,Salkaxo,Garowe,Janaale,Kaloleni,Masige,ArchersPost,RasKamboni,Deynile,Hobyo,Kudhaa,Shimba,Tabaka,Abobwe,Apatla,Apunla,Aesbwe,Afubwe,Amokla,Abedna,Akasbwe,Afabwe,Adebna,Akolla,Amukbwe,Apala,Amonbwe,Anerna,Mafala,Mafama,Mafawa,Mafara,Mafaka"
+  "b": "Mafa,Gwoza,Bama,Askira-Uba,Damboa,Konduga,Monguno,Ngala,Kala-Balge,Marte,Kukawa,Gubio,Magumeri,Abadam,Guzamala,Kaga,Kondunga,Mobar,Nganzai,Gajiganna,Gajiram,Cross Kauwa,Baga,Kauwa,Rann,Gamboru,Damasak,Wulgo,Chibok,Michika,Mubi,Madagali,Hong,Maiha,Gombi,Song,Kwami,Pindiga,Numan,Jimeta,Yola,Ganye,Jada,Maroua,Mora,Waza,Kousséri,Mokolo,Ikonge,Haraale,Salkaxo,Garowe,Janaale,Kaloleni,Masige,ArchersPost,RasKamboni,Deynile,Hobyo,Kudhaa,Shimba,Tabaka,Abobwe,Apatla,Apunla,Aesbwe,Afubwe,Amokla,Abedna,Akasbwe,Afabwe,Adebna,Akolla,Amukbwe,Apala,Amonbwe,Anerna,Mafala,Mafama,Mafawa,Mafara,Mafaka,Doron Baga,ElDera"
 },
 {
     "name": "Majera",
@@ -5254,7 +5254,7 @@ window.africaNameBases = [
   "max": 15,
   "d": "lnrt",
   "m": 0,
-  "b": "Antananarivo,Toamasina,Antsirabe,Mahajanga,Fianarantsoa,Toliara,Antsiranana,Ambatondrazaka,Ambohimahasoa,Ambositra,Ampanihy,Ankazoabo,Antalaha,Antsohihy,Bealanana,Befandriana,Betsiboka,Brickaville,Farafangana,Ihosy,Ikalamavony,Maevatanana,Manakara,Mananara,Mananjary,Maroantsetra,Moramanga,Morondava,Nosy Be,Sambava,Soanierana,Tsaratanana,Tsiroanomandidy,Vangaindrano,Vatomandry,Vohemar,Suba,Korr,Gurfuudle,Dabare,Runni,Kachoda,Mkokoni,Kehancha,Sibiloi,Waamo,Giohar,Guriceel,Selina,Sindo,Galole,Aditka,Aogna,Adamka,Apena,Akukka,Akanbwe,Amibna,Aorna,Adamna,Aletka,Abokka,Adedna,Adambwe,Adibka,Amagna,Malagasyla,Malagasyma,Malagasywa,Malagasyra,Malagasyka"
+  "b": "Antananarivo,Toamasina,Antsirabe,Mahajanga,Fianarantsoa,Toliara,Antsiranana,Ambatondrazaka,Ambohimahasoa,Ambositra,Ampanihy,Ankazoabo,Antalaha,Antsohihy,Bealanana,Befandriana,Betsiboka,Farafangana,Ihosy,Ikalamavony,Maevatanana,Manakara,Mananara,Mananjary,Maroantsetra,Moramanga,Morondava,Nosy Be,Sambava,Soanierana,Tsaratanana,Tsiroanomandidy,Vangaindrano,Vatomandry,Vohemar,Suba,Korr,Gurfuudle,Dabare,Runni,Kachoda,Mkokoni,Kehancha,Sibiloi,Waamo,Giohar,Guriceel,Selina,Sindo,Galole,Aditka,Aogna,Adamka,Apena,Akukka,Akanbwe,Amibna,Aorna,Adamna,Aletka,Abokka,Adedna,Adambwe,Adibka,Amagna,Malagasyla,Malagasyma,Malagasywa,Malagasyra,Malagasyka,Thiès,Brickaville"
 },
 {
     "name": "Malagasy macro entry",
@@ -5263,7 +5263,7 @@ window.africaNameBases = [
   "max": 15,
   "d": "lnrt",
   "m": 0,
-  "b": "Antananarivo,Toamasina,Antsirabe,Mahajanga,Fianarantsoa,Toliara,Antsiranana,Ambatondrazaka,Ambohimahasoa,Ambositra,Ampanihy,Ankazoabo,Antalaha,Antsohihy,Bealanana,Befandriana,Betsiboka,Brickaville,Farafangana,Ihosy,Ikalamavony,Maevatanana,Manakara,Mananara,Mananjary,Maroantsetra,Moramanga,Morondava,Nosy Be,Sambava,Soanierana,Tsaratanana,Tsiroanomandidy,Vangaindrano,Vatomandry,Vohemar,Ntimaru,Illeret,Jerree,Warshiek,Cadaado,Mgangani,Karungu,Dida,Kakuma,Garsale,Jowhaar,Farlibaax,Pongwe,KenduBay,Faza,Anudra,Amansa,Amusa,Anikra,Akomsa,Alesa,Aderra,Adugsa,Alabsa,Abobra,Adaksa,Apidta,Amikra,Apolsa,Abidra,Malagasymacroentryla,Malagasymacroentryma,Malagasymacroentrywa,Malagasymacroentryra,Malagasymacroentryka"
+  "b": "Antananarivo,Toamasina,Antsirabe,Mahajanga,Fianarantsoa,Toliara,Antsiranana,Ambatondrazaka,Ambohimahasoa,Ambositra,Ampanihy,Ankazoabo,Antalaha,Antsohihy,Bealanana,Befandriana,Betsiboka,Farafangana,Ihosy,Ikalamavony,Maevatanana,Manakara,Mananara,Mananjary,Maroantsetra,Moramanga,Morondava,Nosy Be,Sambava,Soanierana,Tsaratanana,Tsiroanomandidy,Vangaindrano,Vatomandry,Vohemar,Ntimaru,Illeret,Jerree,Warshiek,Cadaado,Mgangani,Karungu,Dida,Kakuma,Garsale,Jowhaar,Farlibaax,Pongwe,Faza,Anudra,Amansa,Amusa,Anikra,Akomsa,Alesa,Aderra,Adugsa,Alabsa,Abobra,Adaksa,Apidta,Amikra,Apolsa,Abidra,Malagasymacroentryla,Malagasymacroentryma,Malagasymacroentrywa,Malagasymacroentryra,Malagasymacroentryka,Kaolack,Brickaville,KenduBay"
 },
 {
     "name": "Malgbe",
@@ -5272,7 +5272,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Malgbe,Gwoza,Bama,Askira-Uba,Damboa,Konduga,Mafa,Monguno,Ngala,Kala-Balge,Marte,Kukawa,Gubio,Magumeri,Abadam,Guzamala,Kaga,Kondunga,Mobar,Nganzai,Gajiganna,Gajiram,Cross Kauwa,Baga,Doron Baga,Kauwa,Rann,Gamboru,Damasak,Wulgo,Chibok,Michika,Mubi,Madagali,Hong,Maiha,Gombi,Song,Kwami,Pindiga,Numan,Jimeta,Yola,Ganye,Jada,Mkunumbi,Lodwar,Qorragan,Buulobarde,CeelBarde,Ngomoni,Oyugis,Shella,Turmi,Janaale,LaasGacamey,ElBarde,Ndau,Vihiga,Mariakani,Adenbwe,Akudka,Alubka,Akutka,Abigbwe,Aenwa,Abunka,Analwa,Anibbwe,Aferbwe,Aduswa,Afiwa,Aogbwe,Alatbwe,Anulwa,Malgbela,Malgbema,Malgbewa,Malgbera,Malgbeka"
+  "b": "Malgbe,Gwoza,Bama,Askira-Uba,Damboa,Konduga,Mafa,Monguno,Ngala,Kala-Balge,Marte,Kukawa,Gubio,Magumeri,Abadam,Guzamala,Kaga,Kondunga,Mobar,Nganzai,Gajiganna,Gajiram,Cross Kauwa,Baga,Kauwa,Rann,Gamboru,Damasak,Wulgo,Chibok,Michika,Mubi,Madagali,Hong,Maiha,Gombi,Song,Kwami,Pindiga,Numan,Jimeta,Yola,Ganye,Jada,Mkunumbi,Lodwar,Qorragan,Buulobarde,CeelBarde,Ngomoni,Oyugis,Shella,Turmi,Janaale,LaasGacamey,ElBarde,Ndau,Vihiga,Mariakani,Adenbwe,Akudka,Alubka,Akutka,Abigbwe,Aenwa,Abunka,Analwa,Anibbwe,Aferbwe,Aduswa,Afiwa,Aogbwe,Alatbwe,Anulwa,Malgbela,Malgbema,Malgbewa,Malgbera,Malgbeka,Doron Baga"
 },
 {
     "name": "Manding",
@@ -5290,7 +5290,7 @@ window.africaNameBases = [
   "max": 13,
   "d": "lnrt",
   "m": 0,
-  "b": "Mantsi,Darazo,Ganjuwa,Kafin Madaki,Soro,Miya,Baben Kasa,Badaromo,Barkaya,Dagale,Deno,Digawa,Dugumi,Gurzumo,Janu,Kariya,Kubi,Nassarawa,Siri,Tafawa,Zibinju,Choogen,Toro,Alkaleri,Kirfi,Ningi,Warji,Dass,Tafawa Balewa,Bogoro,Lere,Lame,Rano,Wudil,Dukku,Gamawa,Misau,Jama'are,Katagum,Shira,Giade,Itas,Zaki,Azare,Bulkachuwa,Kilifi,Teltele,Wargalo,Xabo,BurAcaba,Bargoni,Chwele,Hola,Degehabur,Bagula,Iskushuban,Gendershe,Garsen,Ikonge,ElDera,Alasla,Akeka,Aforwa,Afadka,Alomla,Abugka,Ailla,Anitla,Adela,Amolwa,Afekka,Aputla,Akomla,Aludka,Adikka,MantsilanguageNigeriala,MantsilanguageNigeriama,MantsilanguageNigeriawa,MantsilanguageNigeriara,MantsilanguageNigeriaka"
+  "b": "Mantsi,Darazo,Ganjuwa,Kafin Madaki,Soro,Miya,Badaromo,Barkaya,Dagale,Deno,Digawa,Dugumi,Gurzumo,Janu,Kariya,Kubi,Nassarawa,Siri,Tafawa,Zibinju,Choogen,Toro,Alkaleri,Kirfi,Ningi,Warji,Dass,Tafawa Balewa,Bogoro,Lere,Lame,Rano,Wudil,Dukku,Gamawa,Misau,Jama'are,Katagum,Shira,Giade,Itas,Zaki,Azare,Bulkachuwa,Kilifi,Teltele,Wargalo,Xabo,BurAcaba,Bargoni,Chwele,Hola,Degehabur,Bagula,Iskushuban,Gendershe,Garsen,Ikonge,Alasla,Akeka,Aforwa,Afadka,Alomla,Abugka,Ailla,Anitla,Adela,Amolwa,Afekka,Aputla,Akomla,Aludka,Adikka,Baben Kasa,ElDera,MantsilanguageNigeriala,MantsilanguageNigeriama,MantsilanguageNigeriawa,MantsilanguageNigeriara,MantsilanguageNigeriaka"
 },
 {
     "name": "Mao Omotic",
@@ -5308,7 +5308,7 @@ window.africaNameBases = [
   "max": 15,
   "d": "lnrt",
   "m": 0,
-  "b": "Marba,Mayo-Kebbi,Bongor,Pala,Fianga,Léré,Koumra,Doba,Moundou,Bébédjia,Béïnamar,Béïssa,Békiri,Béladja,Béssao,Béti,Boumo,Danamadji,Déressia,Djedah,Dourbali,Goré,Goundi,Grégué,Guélengdeng,Kélo,Kyabé,Mbaïbokoum,Mbaïkoro,Ndam,Ngourkosso,Sarh,Béré,Biltine,Am Timan,Abou Deïa,Adré,Am Dam,Assinet,Bahaï,Baktchoro,Daguessa,Dar Tama,Djourf Al Ahmar,Ennedi,Fada,Iriba,Ounianga,Habaswein,TulaNaga,Sarweyne,Koorma,Xarardheere,Mariakani,Kisii,Maralal,Liibaan,Duduble,Galdogob,Dhoobley,Vanga,Suba,Korr,Anolna,Alatwa,Akigla,Alunwa,Auna,Afokwa,Anigla,Akenwa,Aana,Apekwa,Apidla,Afonna,Apilla,Amurwa,Alebna,Marbala,Marbama,Marbawa,Marbara,Marbaka"
+  "b": "Marba,Mayo-Kebbi,Bongor,Pala,Fianga,Léré,Koumra,Doba,Moundou,Bébédjia,Béïnamar,Béïssa,Békiri,Béladja,Béssao,Béti,Boumo,Danamadji,Déressia,Djedah,Dourbali,Goré,Goundi,Grégué,Guélengdeng,Kélo,Kyabé,Mbaïbokoum,Mbaïkoro,Ndam,Ngourkosso,Sarh,Béré,Biltine,Am Timan,Abou Deïa,Adré,Am Dam,Assinet,Bahaï,Baktchoro,Daguessa,Djourf Al Ahmar,Ennedi,Fada,Iriba,Ounianga,Habaswein,Sarweyne,Koorma,Xarardheere,Mariakani,Kisii,Maralal,Liibaan,Duduble,Galdogob,Dhoobley,Vanga,Suba,Korr,Anolna,Alatwa,Akigla,Alunwa,Auna,Afokwa,Anigla,Akenwa,Aana,Apekwa,Apidla,Afonna,Apilla,Amurwa,Alebna,Marbala,Marbama,Marbawa,Marbara,Marbaka,Dar Tama,TulaNaga"
 },
 {
     "name": "Margi",
@@ -5335,7 +5335,7 @@ window.africaNameBases = [
   "max": 15,
   "d": "lnrt",
   "m": 0,
-  "b": "Masa,Mayo-Kebbi,Bongor,Pala,Fianga,Léré,Koumra,Doba,Moundou,Bébédjia,Béïnamar,Béïssa,Békiri,Béladja,Béssao,Béti,Boumo,Danamadji,Déressia,Djedah,Dourbali,Goré,Goundi,Grégué,Guélengdeng,Kélo,Kyabé,Mbaïbokoum,Mbaïkoro,Ndam,Ngourkosso,Sarh,Béré,Biltine,Am Timan,Abou Deïa,Adré,Am Dam,Assinet,Bahaï,Baktchoro,Daguessa,Dar Tama,Djourf Al Ahmar,Ennedi,Fada,Iriba,Ounianga,Lowarengak,Geedweyne,Cadaado,Bardhere,Wangwana,Keumbu,Witu,Lokitaung,Baydhabo,Jalalaqsi,Luq,Mafisini,Rangwe,Takwa,Dimeka,Akudta,Akikta,Alissa,Amemfa,Alirsa,Adabfa,Aorta,Afadta,Alolfa,Anigta,Aluta,Apigsa,Ailfa,Anukfa,Akibta,Masamacrola,Masamacroma,Masamacrowa,Masamacrora,Masamacroka"
+  "b": "Masa,Mayo-Kebbi,Bongor,Pala,Fianga,Léré,Koumra,Doba,Moundou,Bébédjia,Béïnamar,Béïssa,Békiri,Béladja,Béssao,Béti,Boumo,Danamadji,Déressia,Djedah,Dourbali,Goré,Goundi,Grégué,Guélengdeng,Kélo,Kyabé,Mbaïbokoum,Mbaïkoro,Ndam,Ngourkosso,Sarh,Béré,Biltine,Am Timan,Abou Deïa,Adré,Am Dam,Assinet,Bahaï,Baktchoro,Daguessa,Djourf Al Ahmar,Ennedi,Fada,Iriba,Ounianga,Lowarengak,Geedweyne,Cadaado,Bardhere,Wangwana,Keumbu,Witu,Lokitaung,Baydhabo,Jalalaqsi,Luq,Mafisini,Rangwe,Takwa,Dimeka,Akudta,Akikta,Alissa,Amemfa,Alirsa,Adabfa,Aorta,Afadta,Alolfa,Anigta,Aluta,Apigsa,Ailfa,Anukfa,Akibta,Masamacrola,Masamacroma,Masamacrowa,Masamacrora,Masamacroka,Dar Tama"
 },
 {
     "name": "Masa North",
@@ -5344,7 +5344,7 @@ window.africaNameBases = [
   "max": 15,
   "d": "lnrt",
   "m": 0,
-  "b": "Masa North,Mayo-Kebbi,Bongor,Pala,Fianga,Léré,Koumra,Doba,Moundou,Bébédjia,Béïnamar,Béïssa,Békiri,Béladja,Béssao,Béti,Boumo,Danamadji,Déressia,Djedah,Dourbali,Goré,Goundi,Grégué,Guélengdeng,Kélo,Kyabé,Mbaïbokoum,Mbaïkoro,Ndam,Ngourkosso,Sarh,Béré,Biltine,Am Timan,Abou Deïa,Adré,Am Dam,Assinet,Bahaï,Baktchoro,Daguessa,Dar Tama,Djourf Al Ahmar,Ennedi,Fada,Iriba,Ounianga,Kangaten,Holug,BuloBurto,Garbahaarrey,Omaribaya,Yala,Mtwapa,Karamara,Qoryooley,CeelBuux,Tiyeglow,Kau,Butere,Kilifi,Teltele,Anugbwe,Aperna,Afilka,Amatna,Anonna,Apina,Anurbwe,Akalka,Akibna,Adubwe,Aika,Abarna,Akogna,Akulka,Ausbwe,MasaNorthla,MasaNorthma,MasaNorthwa,MasaNorthra,MasaNorthka"
+  "b": "Masa North,Mayo-Kebbi,Bongor,Pala,Fianga,Léré,Koumra,Doba,Moundou,Bébédjia,Béïnamar,Béïssa,Békiri,Béladja,Béssao,Béti,Boumo,Danamadji,Déressia,Djedah,Dourbali,Goré,Goundi,Grégué,Guélengdeng,Kélo,Kyabé,Mbaïbokoum,Mbaïkoro,Ndam,Ngourkosso,Sarh,Béré,Biltine,Am Timan,Abou Deïa,Adré,Am Dam,Assinet,Bahaï,Baktchoro,Daguessa,Djourf Al Ahmar,Ennedi,Fada,Iriba,Ounianga,Kangaten,Holug,BuloBurto,Garbahaarrey,Omaribaya,Yala,Mtwapa,Karamara,Qoryooley,CeelBuux,Tiyeglow,Kau,Butere,Kilifi,Teltele,Anugbwe,Aperna,Afilka,Amatna,Anonna,Apina,Anurbwe,Akalka,Akibna,Adubwe,Aika,Abarna,Akogna,Akulka,Ausbwe,Dar Tama,MasaNorthla,MasaNorthma,MasaNorthwa,MasaNorthra,MasaNorthka"
 },
 {
     "name": "Masa South",
@@ -5353,7 +5353,7 @@ window.africaNameBases = [
   "max": 15,
   "d": "lnrt",
   "m": 0,
-  "b": "Masa South,Mayo-Kebbi,Bongor,Pala,Fianga,Léré,Koumra,Doba,Moundou,Bébédjia,Béïnamar,Béïssa,Békiri,Béladja,Béssao,Béti,Boumo,Danamadji,Déressia,Djedah,Dourbali,Goré,Goundi,Grégué,Guélengdeng,Kélo,Kyabé,Mbaïbokoum,Mbaïkoro,Ndam,Ngourkosso,Sarh,Béré,Biltine,Am Timan,Abou Deïa,Adré,Am Dam,Assinet,Bahaï,Baktchoro,Daguessa,Dar Tama,Djourf Al Ahmar,Ennedi,Fada,Iriba,Ounianga,Konso,CeyrTabaan,Laasqoray,QansaxDheere,Garsen,Mumias,Malindi,Yavello,Guba,Xaafuun,Lanta,Ozi,Tindinyo,Masalani,ElKere,Apurra,Adubra,Aboksa,Afesta,Ainra,Alossa,Alera,Alunra,Afansa,Apulra,Ameta,Abessa,Afebta,Amenra,Akukra,MasaSouthla,MasaSouthma,MasaSouthwa,MasaSouthra,MasaSouthka"
+  "b": "Masa South,Mayo-Kebbi,Bongor,Pala,Fianga,Léré,Koumra,Doba,Moundou,Bébédjia,Béïnamar,Béïssa,Békiri,Béladja,Béssao,Béti,Boumo,Danamadji,Déressia,Djedah,Dourbali,Goré,Goundi,Grégué,Guélengdeng,Kélo,Kyabé,Mbaïbokoum,Mbaïkoro,Ndam,Ngourkosso,Sarh,Béré,Biltine,Am Timan,Abou Deïa,Adré,Am Dam,Assinet,Bahaï,Baktchoro,Daguessa,Djourf Al Ahmar,Ennedi,Fada,Iriba,Ounianga,Konso,CeyrTabaan,Laasqoray,Garsen,Mumias,Malindi,Yavello,Guba,Xaafuun,Lanta,Ozi,Tindinyo,Masalani,Apurra,Adubra,Aboksa,Afesta,Ainra,Alossa,Alera,Alunra,Afansa,Apulra,Ameta,Abessa,Afebta,Amenra,Akukra,Dar Tama,QansaxDheere,ElKere,MasaSouthla,MasaSouthma,MasaSouthwa,MasaSouthra,MasaSouthka"
 },
 {
     "name": "Maslam",
@@ -5362,7 +5362,7 @@ window.africaNameBases = [
   "max": 15,
   "d": "lnrt",
   "m": 0,
-  "b": "Maslam,Mayo-Kebbi,Bongor,Pala,Fianga,Léré,Koumra,Doba,Moundou,Bébédjia,Béïnamar,Béïssa,Békiri,Béladja,Béssao,Béti,Boumo,Danamadji,Déressia,Djedah,Dourbali,Goré,Goundi,Grégué,Guélengdeng,Kélo,Kyabé,Mbaïbokoum,Mbaïkoro,Ndam,Ngourkosso,Sarh,Béré,Biltine,Am Timan,Abou Deïa,Adré,Am Dam,Assinet,Bahaï,Baktchoro,Daguessa,Dar Tama,Djourf Al Ahmar,Ennedi,Fada,Iriba,Ounianga,Mega,AadanYabaal,Galgalo,Fancole,Wema,Nyaribari,Kotus,SofOmar,Hadud,Bereeda,Shalambood,Kilifi,Rioma,Habaswein,TulaNaga,Abebwe,Aadbwe,Apubwe,Akitwa,Alusbwe,Apelwa,Aekbwe,Anumwa,Afotka,Abagbwe,Adudbwe,Akobka,Adadwa,Amogbwe,Aroka,Maslamla,Maslamma,Maslamwa,Maslamra,Maslamka"
+  "b": "Maslam,Mayo-Kebbi,Bongor,Pala,Fianga,Léré,Koumra,Doba,Moundou,Bébédjia,Béïnamar,Béïssa,Békiri,Béladja,Béssao,Béti,Boumo,Danamadji,Déressia,Djedah,Dourbali,Goré,Goundi,Grégué,Guélengdeng,Kélo,Kyabé,Mbaïbokoum,Mbaïkoro,Ndam,Ngourkosso,Sarh,Béré,Biltine,Am Timan,Abou Deïa,Adré,Am Dam,Assinet,Bahaï,Baktchoro,Daguessa,Djourf Al Ahmar,Ennedi,Fada,Iriba,Ounianga,Mega,AadanYabaal,Galgalo,Fancole,Wema,Nyaribari,Kotus,SofOmar,Hadud,Bereeda,Shalambood,Kilifi,Rioma,Habaswein,Abebwe,Aadbwe,Apubwe,Akitwa,Alusbwe,Apelwa,Aekbwe,Anumwa,Afotka,Abagbwe,Adudbwe,Akobka,Adadwa,Amogbwe,Aroka,Maslamla,Maslamma,Maslamwa,Maslamra,Maslamka,Dar Tama,TulaNaga"
 },
 {
     "name": "Masmaje",
@@ -5371,7 +5371,7 @@ window.africaNameBases = [
   "max": 15,
   "d": "lnrt",
   "m": 0,
-  "b": "Masmaje,Guéra,Mongo,Bitkine,Melfi,Abtouyour,Batha,Am Timan,Abou Deïa,Adré,Am Dam,Assinet,Bahaï,Baktchoro,Biltine,Daguessa,Dar Tama,Djourf Al Ahmar,Ennedi,Fada,Iriba,Ounianga,Am Zoer,Bitchotchi,Dourbali,Goundi,Koumra,Kyabé,Mbaïbokoum,Mbaïkoro,Ndam,Ngourkosso,Sarh,Béré,Béladja,Béssao,Danamadji,Déressia,Djedah,Fianga,Goré,Grégué,Guélengdeng,Kélo,Léré,Moundou,Pala,Wachile,GarasQod,Bacad,BuuloMarer,Mtwapa,Getembe,Habasiwein,Dudun,Toon,Gambol,Harardhere,Bamba,Keroka,Baragoi,Ddabo,Amonta,Amilta,Aodma,Akenta,Akonma,Afekma,Abedma,Amatma,Amodma,Adusta,Abara,Adobta,Afamta,Akekma,Abikta,Masmajela,Masmajema,Masmajewa,Masmajera,Masmajeka"
+  "b": "Masmaje,Guéra,Mongo,Bitkine,Melfi,Abtouyour,Batha,Am Timan,Abou Deïa,Adré,Am Dam,Assinet,Bahaï,Baktchoro,Biltine,Daguessa,Djourf Al Ahmar,Ennedi,Fada,Iriba,Ounianga,Am Zoer,Bitchotchi,Dourbali,Goundi,Koumra,Kyabé,Mbaïbokoum,Mbaïkoro,Ndam,Ngourkosso,Sarh,Béré,Béladja,Béssao,Danamadji,Déressia,Djedah,Fianga,Goré,Grégué,Guélengdeng,Kélo,Léré,Moundou,Pala,Wachile,GarasQod,Bacad,BuuloMarer,Mtwapa,Getembe,Habasiwein,Dudun,Toon,Gambol,Harardhere,Bamba,Keroka,Baragoi,Ddabo,Amonta,Amilta,Aodma,Akenta,Akonma,Afekma,Abedma,Amatma,Amodma,Adusta,Abara,Adobta,Afamta,Akekma,Abikta,Masmajela,Masmajema,Masmajewa,Masmajera,Masmajeka,Dar Tama"
 },
 {
     "name": "Massa",
@@ -5380,7 +5380,7 @@ window.africaNameBases = [
   "max": 15,
   "d": "lnrt",
   "m": 0,
-  "b": "Massa,Mayo-Kebbi,Bongor,Pala,Fianga,Léré,Koumra,Doba,Moundou,Bébédjia,Béïnamar,Béïssa,Békiri,Béladja,Béssao,Béti,Boumo,Danamadji,Déressia,Djedah,Dourbali,Goré,Goundi,Grégué,Guélengdeng,Kélo,Kyabé,Mbaïbokoum,Mbaïkoro,Ndam,Ngourkosso,Sarh,Béré,Biltine,Am Timan,Abou Deïa,Adré,Am Dam,Assinet,Bahaï,Baktchoro,Daguessa,Dar Tama,Djourf Al Ahmar,Ennedi,Fada,Iriba,Ounianga,Hula,Kaxare,Bacadweyn,Burdhubo,Samburu,Ogembo,SouthHorr,Dhalwo,Aqable,Jariiban,Garbaharey,Geza,Uriri,Bubisa,Kumbare,Akulla,Adatka,Adunka,Amamla,Aokka,Abenka,Amella,Aatla,Apunka,Apobla,Anolla,Afurka,Afalla,Akorka,Abeka,Massala,Massama,WaMassa,Massara,Massaka"
+  "b": "Massa,Mayo-Kebbi,Bongor,Pala,Fianga,Léré,Koumra,Doba,Moundou,Bébédjia,Béïnamar,Béïssa,Békiri,Béladja,Béssao,Béti,Boumo,Danamadji,Déressia,Djedah,Dourbali,Goré,Goundi,Grégué,Guélengdeng,Kélo,Kyabé,Mbaïbokoum,Mbaïkoro,Ndam,Ngourkosso,Sarh,Béré,Biltine,Am Timan,Abou Deïa,Adré,Am Dam,Assinet,Bahaï,Baktchoro,Daguessa,Djourf Al Ahmar,Ennedi,Fada,Iriba,Ounianga,Hula,Kaxare,Bacadweyn,Burdhubo,Ogembo,SouthHorr,Dhalwo,Aqable,Jariiban,Garbaharey,Geza,Uriri,Bubisa,Kumbare,Akulla,Adatka,Adunka,Amamla,Aokka,Abenka,Amella,Aatla,Apunka,Apobla,Anolla,Afurka,Afalla,Akorka,Abeka,Massala,Massama,Massara,Massaka,Ziguinchor,Dar Tama,Samburu,WaMassa"
 },
 {
     "name": "Matal",
@@ -5398,7 +5398,7 @@ window.africaNameBases = [
   "max": 15,
   "d": "lnrt",
   "m": 0,
-  "b": "Mawa,Mayo-Kebbi,Bongor,Pala,Fianga,Léré,Koumra,Doba,Moundou,Bébédjia,Béïnamar,Béïssa,Békiri,Béladja,Béssao,Béti,Boumo,Danamadji,Déressia,Djedah,Dourbali,Goré,Goundi,Grégué,Guélengdeng,Kélo,Kyabé,Mbaïbokoum,Mbaïkoro,Ndam,Ngourkosso,Sarh,Béré,Biltine,Am Timan,Abou Deïa,Adré,Am Dam,Assinet,Bahaï,Baktchoro,Daguessa,Dar Tama,Djourf Al Ahmar,Ennedi,Fada,Iriba,Ounianga,Jiingadda,Adale,Caabudwaaq,Barich,Mohoro,Borabu,FergusonsGulf,Hareeri,Balcad,Berdaale,Kinarani,Mbita,Bodhai,Kangaten,Holug,Anosna,Adona,Amemla,Afukwa,Alenwa,Amesla,Akanna,Akotna,Adatwa,Afulna,Anedla,Anilwa,Apabna,Alidna,Aegwa,Mawala,Mawama,Mawawa,Mawara,Mawaka"
+  "b": "Mawa,Mayo-Kebbi,Bongor,Pala,Fianga,Léré,Koumra,Doba,Moundou,Bébédjia,Béïnamar,Béïssa,Békiri,Béladja,Béssao,Béti,Boumo,Danamadji,Déressia,Djedah,Dourbali,Goré,Goundi,Grégué,Guélengdeng,Kélo,Kyabé,Mbaïbokoum,Mbaïkoro,Ndam,Ngourkosso,Sarh,Béré,Biltine,Am Timan,Abou Deïa,Adré,Am Dam,Assinet,Bahaï,Baktchoro,Daguessa,Djourf Al Ahmar,Ennedi,Fada,Iriba,Ounianga,Jiingadda,Adale,Caabudwaaq,Barich,Mohoro,Borabu,FergusonsGulf,Hareeri,Balcad,Berdaale,Kinarani,Mbita,Bodhai,Kangaten,Holug,Anosna,Adona,Amemla,Afukwa,Alenwa,Amesla,Akanna,Akotna,Adatwa,Afulna,Anedla,Anilwa,Apabna,Alidna,Aegwa,Mawala,Mawama,Mawawa,Mawara,Mawaka,Dar Tama"
 },
 {
     "name": "Mazagway",
@@ -5407,7 +5407,7 @@ window.africaNameBases = [
   "max": 13,
   "d": "lnrt",
   "m": 0,
-  "b": "Mazagway,Mokolo,Mogodé,Gawar,Kortchi,Maroua,Mora,Waza,Kousséri,Mayo-Ouldémé,Mayo-Maskola,Dzigilao,Gawawa,Gawar Lamordé,Gawar Windé,Mafa,Mofu,Hina,Daba,Buwal,Galdala,Gadala,Kapsiki,Cuvok,Bulahay,Matakam,Mogoré,Mouhour,Rhumsiki,Mémé,Mokong,Mofoué,Moulvoudaye,Moutourwa,Moyen Chari,Ngaoundéré,Ngaoundal,Tibati,Banyo,Galim,Tignère,Harardera,Mahaday,Yeed,Kidimu,HomaBay,Kiunga,Kibish,GofKudle,Wanleweyn,Dolow,Gongoni,Bondo,Vipingo,Konso,CeyrTabaan,Abiksa,Afagsa,Anunma,Amalma,Apedma,Amoksa,Aletma,Aadsa,Adusa,Amomma,Apinfa,Aasa,Amibfa,Afonsa,Amudma,Mazagwayla,Mazagwayma,Mazagwaywa,Mazagwayra,Mazagwayka"
+  "b": "Mazagway,Mokolo,Mogodé,Gawar,Kortchi,Maroua,Mora,Waza,Kousséri,Mayo-Ouldémé,Mayo-Maskola,Dzigilao,Gawawa,Gawar Lamordé,Gawar Windé,Mafa,Mofu,Hina,Daba,Buwal,Galdala,Gadala,Kapsiki,Cuvok,Bulahay,Matakam,Mogoré,Mouhour,Rhumsiki,Mémé,Mokong,Mofoué,Moulvoudaye,Moutourwa,Moyen Chari,Ngaoundéré,Ngaoundal,Tibati,Banyo,Galim,Tignère,Harardera,Mahaday,Yeed,Kidimu,Kiunga,Kibish,Wanleweyn,Dolow,Gongoni,Bondo,Vipingo,Konso,CeyrTabaan,Abiksa,Afagsa,Anunma,Amalma,Apedma,Amoksa,Aletma,Aadsa,Adusa,Amomma,Apinfa,Aasa,Amibfa,Afonsa,Amudma,Mazagwayla,Mazagwayma,Mazagwaywa,Mazagwayra,Mazagwayka,HomaBay,GofKudle"
 },
 {
     "name": "Mbara language (Chad)",
@@ -5416,7 +5416,7 @@ window.africaNameBases = [
   "max": 15,
   "d": "lnrt",
   "m": 0,
-  "b": "Mbara,Mayo-Kebbi,Bongor,Pala,Fianga,Léré,Koumra,Doba,Moundou,Bébédjia,Béïnamar,Béïssa,Békiri,Béladja,Béssao,Béti,Boumo,Danamadji,Déressia,Djedah,Dourbali,Goré,Goundi,Grégué,Guélengdeng,Kélo,Kyabé,Mbaïbokoum,Mbaïkoro,Ndam,Ngourkosso,Sarh,Béré,Biltine,Am Timan,Abou Deïa,Adré,Am Dam,Assinet,Bahaï,Baktchoro,Daguessa,Dar Tama,Djourf Al Ahmar,Ennedi,Fada,Iriba,Ounianga,Qoton,Afgoi,Beledhawo,Jamia,Siaya,Samburu,Ririba,Galolk,CeelAfweyn,Baidoa,Chara,Webuye,Kipini,Mega,AadanYabaal,Alotla,Alirla,Amubbwe,Ailbwe,Afetla,Akunla,Afitbwe,Amugbwe,Adinla,Anusna,Alola,Adabbwe,Abalbwe,Apulna,Alubbwe,MbaralanguageChadla,MbaralanguageChadma,MbaralanguageChadwa,MbaralanguageChadra,MbaralanguageChadka"
+  "b": "Mbara,Mayo-Kebbi,Bongor,Pala,Fianga,Léré,Koumra,Doba,Moundou,Bébédjia,Béïnamar,Béïssa,Békiri,Béladja,Béssao,Béti,Boumo,Danamadji,Déressia,Djedah,Dourbali,Goré,Goundi,Grégué,Guélengdeng,Kélo,Kyabé,Mbaïbokoum,Mbaïkoro,Ndam,Ngourkosso,Sarh,Béré,Biltine,Am Timan,Abou Deïa,Adré,Am Dam,Assinet,Bahaï,Baktchoro,Daguessa,Djourf Al Ahmar,Ennedi,Fada,Iriba,Ounianga,Qoton,Afgoi,Beledhawo,Jamia,Siaya,Ririba,Galolk,CeelAfweyn,Baidoa,Chara,Webuye,Kipini,Mega,AadanYabaal,Alotla,Alirla,Amubbwe,Ailbwe,Afetla,Akunla,Afitbwe,Amugbwe,Adinla,Anusna,Alola,Adabbwe,Abalbwe,Apulna,Alubbwe,Touba,Dar Tama,Samburu,MbaralanguageChadla,MbaralanguageChadma,MbaralanguageChadwa,MbaralanguageChadra,MbaralanguageChadka"
 },
 {
     "name": "Mbudum",
@@ -5443,7 +5443,7 @@ window.africaNameBases = [
   "max": 13,
   "d": "lnrt",
   "m": 0,
-  "b": "Mburku,Darazo,Ganjuwa,Kafin Madaki,Soro,Miya,Baben Kasa,Badaromo,Barkaya,Dagale,Deno,Digawa,Dugumi,Gurzumo,Janu,Kariya,Kubi,Nassarawa,Siri,Tafawa,Zibinju,Choogen,Toro,Alkaleri,Kirfi,Ningi,Warji,Dass,Tafawa Balewa,Bogoro,Lere,Lame,Rano,Wudil,Dukku,Gamawa,Misau,Jama'are,Katagum,Shira,Giade,Itas,Zaki,Azare,Bulkachuwa,Salkaxo,Garowe,Janaale,Kaloleni,Masige,ArchersPost,RasKamboni,Deynile,Hobyo,Kudhaa,Shimba,Tabaka,Marsabit,Murcanyo,Buqda,Adabta,Afilsa,Akatra,Amogra,Apukra,Amudra,Adobsa,Adamta,Afodra,Adurra,Amosra,Anosa,Aabta,Anesa,Ametra,Mburkula,Mburkuma,Mburkuwa,Mburkura,Mburkuka"
+  "b": "Mburku,Darazo,Ganjuwa,Kafin Madaki,Soro,Miya,Badaromo,Barkaya,Dagale,Deno,Digawa,Dugumi,Gurzumo,Janu,Kariya,Kubi,Nassarawa,Siri,Tafawa,Zibinju,Choogen,Toro,Alkaleri,Kirfi,Ningi,Warji,Dass,Tafawa Balewa,Bogoro,Lere,Lame,Rano,Wudil,Dukku,Gamawa,Misau,Jama'are,Katagum,Shira,Giade,Itas,Zaki,Azare,Bulkachuwa,Salkaxo,Garowe,Janaale,Kaloleni,Masige,ArchersPost,RasKamboni,Deynile,Hobyo,Kudhaa,Shimba,Tabaka,Marsabit,Murcanyo,Buqda,Adabta,Afilsa,Akatra,Amogra,Apukra,Amudra,Adobsa,Adamta,Afodra,Adurra,Amosra,Anosa,Aabta,Anesa,Ametra,Mburkula,Mburkuma,Mburkuwa,Mburkura,Mburkuka,Baben Kasa"
 },
 {
     "name": "Mefele",
@@ -5461,7 +5461,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bo,Kenema,Makeni,Kailahun,Pujehun,Moyamba,Bonthe,Kono,Kambia,Port Loko,Tonkolili,Koinadugu,Freetown,Waterloo,Lunsar,Kabala,Koindu,Segbwema,Pendembu,Goderich,Lungi,Magburaka,Mattru,Njala,Gbangbatoke,Gberi Bana,Tongo,Zimmi,Blama,Bumpe,Matru,Mano,Giehun,Kpetema,Kpanga,Kunsho,Largo,Manowa,Mofindor,Moselolo,Ngogbebu,Ngiehun,Nimikoro,Nimiyama,Rotifunk,Sembehun,Sumbuya,Tihun,Tombodu,Vaama,Yengema"
+  "b": "Bo,Kenema,Makeni,Kailahun,Pujehun,Moyamba,Bonthe,Kono,Kambia,Port Loko,Tonkolili,Koinadugu,Waterloo,Lunsar,Kabala,Koindu,Segbwema,Pendembu,Goderich,Lungi,Magburaka,Mattru,Njala,Gbangbatoke,Tongo,Zimmi,Blama,Bumpe,Matru,Mano,Giehun,Kpetema,Kpanga,Kunsho,Largo,Manowa,Mofindor,Moselolo,Ngogbebu,Ngiehun,Nimikoro,Nimiyama,Rotifunk,Sembehun,Sumbuya,Tihun,Tombodu,Vaama,Yengema,Ségou,Freetown,Gberi Bana"
 },
 {
     "name": "Merey",
@@ -5470,7 +5470,7 @@ window.africaNameBases = [
   "max": 13,
   "d": "lnrt",
   "m": 0,
-  "b": "Merey,Mokolo,Mogodé,Gawar,Kortchi,Maroua,Mora,Waza,Kousséri,Mayo-Ouldémé,Mayo-Maskola,Dzigilao,Gawawa,Gawar Lamordé,Gawar Windé,Mafa,Mofu,Hina,Daba,Buwal,Galdala,Gadala,Kapsiki,Cuvok,Bulahay,Matakam,Mogoré,Mouhour,Rhumsiki,Mémé,Mokong,Mofoué,Moulvoudaye,Moutourwa,Moyen Chari,Ngaoundéré,Ngaoundal,Tibati,Banyo,Galim,Tignère,Warshiek,Cadaado,Mgangani,Karungu,Dida,Kakuma,Garsale,Jowhaar,Farlibaax,Pongwe,KenduBay,Faza,Omorate,Qoton,Afgoi,Adenla,Aukka,Alisla,Abutla,Akurla,Apinla,Akubka,Alonka,Adetla,Abatka,Afadla,Anetwa,Akibka,Akonla,Apikka,Mereyla,Mereyma,Mereywa,Mereyra,Mereyka"
+  "b": "Merey,Mokolo,Mogodé,Gawar,Kortchi,Maroua,Mora,Waza,Kousséri,Mayo-Ouldémé,Mayo-Maskola,Dzigilao,Gawawa,Gawar Lamordé,Gawar Windé,Mafa,Mofu,Hina,Daba,Buwal,Galdala,Gadala,Kapsiki,Cuvok,Bulahay,Matakam,Mogoré,Mouhour,Rhumsiki,Mémé,Mokong,Mofoué,Moulvoudaye,Moutourwa,Moyen Chari,Ngaoundéré,Ngaoundal,Tibati,Banyo,Galim,Tignère,Warshiek,Cadaado,Mgangani,Karungu,Dida,Kakuma,Garsale,Jowhaar,Farlibaax,Pongwe,Faza,Omorate,Qoton,Afgoi,Adenla,Aukka,Alisla,Abutla,Akurla,Apinla,Akubka,Alonka,Adetla,Abatka,Afadla,Anetwa,Akibka,Akonla,Apikka,Mereyla,Mereyma,Mereywa,Mereyra,Mereyka,KenduBay"
 },
 {
     "name": "Merico",
@@ -5479,7 +5479,7 @@ window.africaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Monrovia,Buchanan,Gbarnga,Kakata,Voinjama,Zwedru,Harper,Greenville,Robertsport,Bomi,Bong,Gbarpolu,Grand Bassa,Grand Cape Mount,Grand Gedeh,Grand Kru,Lofa,Margibi,Maryland,Montserrado,Nimba,River Cess,River Gee,Sinoe,Fish Town,Cestos,Ganta,Sanniquellie,Tappita,Yekepa,Zorzor,Foya,Kolahun,Tubmanburg,Paynesville,Caldwell,Congo Town,Gardnersville,New Georgia,Barnersville,West Point,Logan Town"
+  "b": "Monrovia,Buchanan,Gbarnga,Kakata,Voinjama,Zwedru,Harper,Robertsport,Bomi,Bong,Gbarpolu,Grand Bassa,Grand Cape Mount,Grand Gedeh,Grand Kru,Lofa,Margibi,Montserrado,Nimba,River Cess,River Gee,Sinoe,Fish Town,Cestos,Ganta,Sanniquellie,Tappita,Yekepa,Zorzor,Foya,Kolahun,Caldwell,New Georgia,West Point,Sikasso,Mopti,Timbuktu,Gao,Bobo-Dioulasso,Kindia,Kankan,Nzérékoré,Greenville,Maryland,Tubmanburg,Paynesville,Congo Town,Gardnersville,Barnersville,Logan Town"
 },
 {
     "name": "Mesme",
@@ -5497,7 +5497,7 @@ window.africaNameBases = [
   "max": 15,
   "d": "lnrt",
   "m": 0,
-  "b": "Migaama,Guéra,Mongo,Bitkine,Melfi,Abtouyour,Batha,Am Timan,Abou Deïa,Adré,Am Dam,Assinet,Bahaï,Baktchoro,Biltine,Daguessa,Dar Tama,Djourf Al Ahmar,Ennedi,Fada,Iriba,Ounianga,Am Zoer,Bitchotchi,Dourbali,Goundi,Koumra,Kyabé,Mbaïbokoum,Mbaïkoro,Ndam,Ngourkosso,Sarh,Béré,Béladja,Béssao,Danamadji,Déressia,Djedah,Fianga,Goré,Grégué,Guélengdeng,Kélo,Léré,Moundou,Pala,Xabo,BurAcaba,Bargoni,Chwele,Hola,Degehabur,Bagula,Iskushuban,Gendershe,Garsen,Ikonge,ElDera,Haraale,Salkaxo,Garowe,Anagma,Aesa,Adursa,Amesma,Aludsa,Alirma,Afirsa,Aosma,Anasa,Adetfa,Adulsa,Akekfa,Afuma,Abatsa,Alekfa,Migaamala,Migaamama,Migaamawa,Migaamara,Migaamaka"
+  "b": "Migaama,Guéra,Mongo,Bitkine,Melfi,Abtouyour,Batha,Am Timan,Abou Deïa,Adré,Am Dam,Assinet,Bahaï,Baktchoro,Biltine,Daguessa,Djourf Al Ahmar,Ennedi,Fada,Iriba,Ounianga,Am Zoer,Bitchotchi,Dourbali,Goundi,Koumra,Kyabé,Mbaïbokoum,Mbaïkoro,Ndam,Ngourkosso,Sarh,Béré,Béladja,Béssao,Danamadji,Déressia,Djedah,Fianga,Goré,Grégué,Guélengdeng,Kélo,Léré,Moundou,Pala,Xabo,BurAcaba,Bargoni,Chwele,Hola,Degehabur,Bagula,Iskushuban,Gendershe,Garsen,Ikonge,Haraale,Salkaxo,Garowe,Anagma,Aesa,Adursa,Amesma,Aludsa,Alirma,Afirsa,Aosma,Anasa,Adetfa,Adulsa,Akekfa,Afuma,Abatsa,Alekfa,Migaamala,Migaamama,Migaamawa,Migaamara,Migaamaka,Dar Tama,ElDera"
 },
 {
     "name": "Miler",
@@ -5515,7 +5515,7 @@ window.africaNameBases = [
   "max": 15,
   "d": "lnrt",
   "m": 0,
-  "b": "Miltu,Guéra,Mongo,Bitkine,Melfi,Abtouyour,Batha,Am Timan,Abou Deïa,Adré,Am Dam,Assinet,Bahaï,Baktchoro,Biltine,Daguessa,Dar Tama,Djourf Al Ahmar,Ennedi,Fada,Iriba,Ounianga,Am Zoer,Bitchotchi,Dourbali,Goundi,Koumra,Kyabé,Mbaïbokoum,Mbaïkoro,Ndam,Ngourkosso,Sarh,Béré,Béladja,Béssao,Danamadji,Déressia,Djedah,Fianga,Goré,Grégué,Guélengdeng,Kélo,Léré,Moundou,Pala,Koorma,Xarardheere,Mariakani,Kisii,Maralal,Liibaan,Duduble,Galdogob,Dhoobley,Vanga,Suba,Korr,Gurfuudle,Dabare,Runni,Abigta,Aonfa,Apadsa,Adabsa,Alukta,Anorta,Amilfa,Apodfa,Apansa,Akegta,Alotfa,Abimfa,Apukta,Akalsa,Aparsa,Miltula,Miltuma,Miltuwa,Miltura,Miltuka"
+  "b": "Miltu,Guéra,Mongo,Bitkine,Melfi,Abtouyour,Batha,Am Timan,Abou Deïa,Adré,Am Dam,Assinet,Bahaï,Baktchoro,Biltine,Daguessa,Djourf Al Ahmar,Ennedi,Fada,Iriba,Ounianga,Am Zoer,Bitchotchi,Dourbali,Goundi,Koumra,Kyabé,Mbaïbokoum,Mbaïkoro,Ndam,Ngourkosso,Sarh,Béré,Béladja,Béssao,Danamadji,Déressia,Djedah,Fianga,Goré,Grégué,Guélengdeng,Kélo,Léré,Moundou,Pala,Koorma,Xarardheere,Mariakani,Kisii,Maralal,Liibaan,Duduble,Galdogob,Dhoobley,Vanga,Suba,Korr,Gurfuudle,Dabare,Runni,Abigta,Aonfa,Apadsa,Adabsa,Alukta,Anorta,Amilfa,Apodfa,Apansa,Akegta,Alotfa,Abimfa,Apukta,Akalsa,Aparsa,Miltula,Miltuma,Miltuwa,Miltura,Miltuka,Dar Tama"
 },
 {
     "name": "Mire",
@@ -5524,7 +5524,7 @@ window.africaNameBases = [
   "max": 15,
   "d": "lnrt",
   "m": 0,
-  "b": "Mire,Guéra,Mongo,Bitkine,Melfi,Abtouyour,Batha,Am Timan,Abou Deïa,Adré,Am Dam,Assinet,Bahaï,Baktchoro,Biltine,Daguessa,Dar Tama,Djourf Al Ahmar,Ennedi,Fada,Iriba,Ounianga,Am Zoer,Bitchotchi,Dourbali,Goundi,Koumra,Kyabé,Mbaïbokoum,Mbaïkoro,Ndam,Ngourkosso,Sarh,Béré,Béladja,Béssao,Danamadji,Déressia,Djedah,Fianga,Goré,Grégué,Guélengdeng,Kélo,Léré,Moundou,Pala,Godinlabe,Afmadow,Jimbo,Suna,Kargi,Geesaley,Dhuusamareeb,Balad,Gerille,Kisimani,Ntimaru,Illeret,Jerree,Warshiek,Cadaado,Alibwe,Amidka,Aamka,Afotna,Akerna,Apigbwe,Afaska,Alalna,Akikbwe,Amukna,Alidka,Amamka,Anokna,Akelna,Akebka,Mirela,Mirema,Mirewa,Mirera,Mireka"
+  "b": "Mire,Guéra,Mongo,Bitkine,Melfi,Abtouyour,Batha,Am Timan,Abou Deïa,Adré,Am Dam,Assinet,Bahaï,Baktchoro,Biltine,Daguessa,Djourf Al Ahmar,Ennedi,Fada,Iriba,Ounianga,Am Zoer,Bitchotchi,Dourbali,Goundi,Koumra,Kyabé,Mbaïbokoum,Mbaïkoro,Ndam,Ngourkosso,Sarh,Béré,Béladja,Béssao,Danamadji,Déressia,Djedah,Fianga,Goré,Grégué,Guélengdeng,Kélo,Léré,Moundou,Pala,Godinlabe,Afmadow,Jimbo,Suna,Kargi,Geesaley,Dhuusamareeb,Balad,Gerille,Kisimani,Ntimaru,Illeret,Jerree,Warshiek,Cadaado,Alibwe,Amidka,Aamka,Afotna,Akerna,Apigbwe,Afaska,Alalna,Akikbwe,Amukna,Alidka,Amamka,Anokna,Akelna,Akebka,Mirela,Mirema,Mirewa,Mirera,Mireka,Dar Tama"
 },
 {
     "name": "Miship",
@@ -5533,7 +5533,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Miship,Shendam,Langung,Panyam,Balong,Dokan Tofa,Jos,Bukuru,Pankshin,Mangu,Kabwir,Gindiri,Riyom,Barkin Ladi,Keffi,Lafia,Akwanga,Karu,Kokona,Awe,Doma,Keana,Obi,Agyaraku,Wamba,Nunku,Assakio,Effium,Ugbokpo,Otukpo,Okpokwu,Adoka,Ankpa,Dekina,Idah,Igalamela,Olamaboro,Omala,Ugwalawo,Umon,Nsukka,GalCad,Ngei,Takawiri,Nyangusu,Loyangalani,Caano,CelDheer,Saakow,Buni,Ikerege,Mkunumbi,Lodwar,Qorragan,Buulobarde,CeelBarde,Abumta,Apigra,Afugta,Abinsa,Apalra,Austa,Adura,Afabsa,Amuta,Aonsa,Aogra,Alutta,Alimra,Apaksa,Aimsa,Mishipla,Mishipma,Mishipwa,Mishipra,Mishipka"
+  "b": "Miship,Shendam,Langung,Panyam,Balong,Jos,Pankshin,Mangu,Kabwir,Gindiri,Riyom,Barkin Ladi,Keffi,Lafia,Akwanga,Karu,Kokona,Awe,Doma,Keana,Obi,Agyaraku,Wamba,Nunku,Assakio,Effium,Ugbokpo,Otukpo,Okpokwu,Adoka,Ankpa,Dekina,Idah,Igalamela,Olamaboro,Omala,Ugwalawo,Umon,Nsukka,GalCad,Ngei,Takawiri,Nyangusu,Loyangalani,Caano,CelDheer,Saakow,Buni,Ikerege,Mkunumbi,Lodwar,Qorragan,Buulobarde,CeelBarde,Abumta,Apigra,Afugta,Abinsa,Apalra,Austa,Adura,Afabsa,Amuta,Aonsa,Aogra,Alutta,Alimra,Apaksa,Aimsa,Mishipla,Mishipma,Mishipwa,Mishipra,Mishipka,Porto-Novo,Dokan Tofa,Bukuru"
 },
 {
     "name": "Miya",
@@ -5542,7 +5542,7 @@ window.africaNameBases = [
   "max": 13,
   "d": "lnrt",
   "m": 0,
-  "b": "Miya,Darazo,Ganjuwa,Kafin Madaki,Soro,Baben Kasa,Badaromo,Barkaya,Dagale,Deno,Digawa,Dugumi,Gurzumo,Janu,Kariya,Kubi,Nassarawa,Siri,Tafawa,Zibinju,Choogen,Toro,Alkaleri,Kirfi,Ningi,Warji,Dass,Tafawa Balewa,Bogoro,Lere,Lame,Rano,Wudil,Dukku,Gamawa,Misau,Jama'are,Katagum,Shira,Giade,Itas,Zaki,Azare,Bulkachuwa,Bardhere,Wangwana,Keumbu,Witu,Lokitaung,Baydhabo,Jalalaqsi,Luq,Mafisini,Rangwe,Takwa,Dimeka,Sablaale,Yubbe,Huddur,Ametka,Alilbwe,Ameka,Adiswa,Afunbwe,Apobwe,Abedka,Abilbwe,Apogwa,Abubbwe,Adonbwe,Apeswa,Amudwa,Anasbwe,Abibbwe,Miyala,Miyama,Miyawa,RaMiya,Miyaka"
+  "b": "Miya,Darazo,Ganjuwa,Kafin Madaki,Soro,Badaromo,Barkaya,Dagale,Deno,Digawa,Dugumi,Gurzumo,Janu,Kariya,Kubi,Nassarawa,Siri,Tafawa,Zibinju,Choogen,Toro,Alkaleri,Kirfi,Ningi,Warji,Dass,Tafawa Balewa,Bogoro,Lere,Lame,Rano,Wudil,Dukku,Gamawa,Misau,Jama'are,Katagum,Shira,Giade,Itas,Zaki,Azare,Bulkachuwa,Bardhere,Wangwana,Keumbu,Witu,Lokitaung,Baydhabo,Jalalaqsi,Luq,Mafisini,Rangwe,Takwa,Dimeka,Sablaale,Yubbe,Huddur,Ametka,Alilbwe,Ameka,Adiswa,Afunbwe,Apobwe,Abedka,Abilbwe,Apogwa,Abubbwe,Adonbwe,Apeswa,Amudwa,Anasbwe,Abibbwe,Miyala,Miyama,Miyawa,RaMiya,Miyaka,Baben Kasa"
 },
 {
     "name": "Mofu-Gudur",
@@ -5560,7 +5560,7 @@ window.africaNameBases = [
   "max": 15,
   "d": "lnrt",
   "m": 0,
-  "b": "Mogum,Guéra,Mongo,Bitkine,Melfi,Abtouyour,Batha,Am Timan,Abou Deïa,Adré,Am Dam,Assinet,Bahaï,Baktchoro,Biltine,Daguessa,Dar Tama,Djourf Al Ahmar,Ennedi,Fada,Iriba,Ounianga,Am Zoer,Bitchotchi,Dourbali,Goundi,Koumra,Kyabé,Mbaïbokoum,Mbaïkoro,Ndam,Ngourkosso,Sarh,Béré,Béladja,Béssao,Danamadji,Déressia,Djedah,Fianga,Goré,Grégué,Guélengdeng,Kélo,Léré,Moundou,Pala,QansaxDheere,Garsen,Mumias,Malindi,Yavello,Guba,Xaafuun,Lanta,Ozi,Tindinyo,Masalani,ElKere,Garawe,Bargaal,Afgooye,Apalwa,Akubla,Amosla,Aledla,Anatwa,Akodka,Aikka,Apagla,Abekka,Anubla,Afarwa,Aporla,Amalwa,Afenka,Alogka,Mogumla,Mogumma,Mogumwa,Mogumra,Mogumka"
+  "b": "Mogum,Guéra,Mongo,Bitkine,Melfi,Abtouyour,Batha,Am Timan,Abou Deïa,Adré,Am Dam,Assinet,Bahaï,Baktchoro,Biltine,Daguessa,Djourf Al Ahmar,Ennedi,Fada,Iriba,Ounianga,Am Zoer,Bitchotchi,Dourbali,Goundi,Koumra,Kyabé,Mbaïbokoum,Mbaïkoro,Ndam,Ngourkosso,Sarh,Béré,Béladja,Béssao,Danamadji,Déressia,Djedah,Fianga,Goré,Grégué,Guélengdeng,Kélo,Léré,Moundou,Pala,Garsen,Mumias,Malindi,Yavello,Guba,Xaafuun,Lanta,Ozi,Tindinyo,Masalani,Garawe,Bargaal,Afgooye,Apalwa,Akubla,Amosla,Aledla,Anatwa,Akodka,Aikka,Apagla,Abekka,Anubla,Afarwa,Aporla,Amalwa,Afenka,Alogka,Mogumla,Mogumma,Mogumwa,Mogumra,Mogumka,Dar Tama,QansaxDheere,ElKere"
 },
 {
     "name": "Mokilko",
@@ -5569,7 +5569,7 @@ window.africaNameBases = [
   "max": 15,
   "d": "lnrt",
   "m": 0,
-  "b": "Mokilko,Guéra,Mongo,Bitkine,Melfi,Abtouyour,Batha,Am Timan,Abou Deïa,Adré,Am Dam,Assinet,Bahaï,Baktchoro,Biltine,Daguessa,Dar Tama,Djourf Al Ahmar,Ennedi,Fada,Iriba,Ounianga,Am Zoer,Bitchotchi,Dourbali,Goundi,Koumra,Kyabé,Mbaïbokoum,Mbaïkoro,Ndam,Ngourkosso,Sarh,Béré,Béladja,Béssao,Danamadji,Déressia,Djedah,Fianga,Goré,Grégué,Guélengdeng,Kélo,Léré,Moundou,Pala,Fancole,Wema,Nyaribari,Kotus,SofOmar,Hadud,Bereeda,Shalambood,Kilifi,Rioma,Habaswein,TulaNaga,Sarweyne,Koorma,Xarardheere,Amokfa,Abafa,Adudfa,Akarra,Adifa,Afibma,Airfa,Abalra,Alubra,Aferra,Apisma,Apasra,Apotra,Amumra,Aabfa,Mokilkola,Mokilkoma,Mokilkowa,Mokilkora,Mokilkoka"
+  "b": "Mokilko,Guéra,Mongo,Bitkine,Melfi,Abtouyour,Batha,Am Timan,Abou Deïa,Adré,Am Dam,Assinet,Bahaï,Baktchoro,Biltine,Daguessa,Djourf Al Ahmar,Ennedi,Fada,Iriba,Ounianga,Am Zoer,Bitchotchi,Dourbali,Goundi,Koumra,Kyabé,Mbaïbokoum,Mbaïkoro,Ndam,Ngourkosso,Sarh,Béré,Béladja,Béssao,Danamadji,Déressia,Djedah,Fianga,Goré,Grégué,Guélengdeng,Kélo,Léré,Moundou,Pala,Fancole,Wema,Nyaribari,Kotus,SofOmar,Hadud,Bereeda,Shalambood,Kilifi,Rioma,Habaswein,Sarweyne,Koorma,Xarardheere,Amokfa,Abafa,Adudfa,Akarra,Adifa,Afibma,Airfa,Abalra,Alubra,Aferra,Apisma,Apasra,Apotra,Amumra,Aabfa,Mokilkola,Mokilkoma,Mokilkowa,Mokilkora,Mokilkoka,Dar Tama,TulaNaga"
 },
 {
     "name": "Moloko",
@@ -5587,7 +5587,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Montol,Shendam,Langung,Panyam,Balong,Dokan Tofa,Jos,Bukuru,Pankshin,Mangu,Kabwir,Gindiri,Riyom,Barkin Ladi,Keffi,Lafia,Akwanga,Karu,Kokona,Awe,Doma,Keana,Obi,Agyaraku,Wamba,Nunku,Assakio,Effium,Ugbokpo,Otukpo,Okpokwu,Adoka,Ankpa,Dekina,Idah,Igalamela,Olamaboro,Omala,Ugwalawo,Umon,Nsukka,Burdhubo,Samburu,Ogembo,SouthHorr,Dhalwo,Aqable,Jariiban,Garbaharey,Geza,Uriri,Bubisa,Kumbare,Sheikh,GalCad,Ngei,Apisa,Afetsa,Adutma,Amassa,Amogsa,Aluksa,Abalfa,Abotma,Anagsa,Amagma,Abima,Akorma,Apasma,Alubsa,Afonma,Montolla,Montolma,Montolwa,Montolra,Montolka"
+  "b": "Montol,Shendam,Langung,Panyam,Balong,Jos,Pankshin,Mangu,Kabwir,Gindiri,Riyom,Barkin Ladi,Keffi,Lafia,Akwanga,Karu,Kokona,Awe,Doma,Keana,Obi,Agyaraku,Wamba,Nunku,Assakio,Effium,Ugbokpo,Otukpo,Okpokwu,Adoka,Ankpa,Dekina,Idah,Igalamela,Olamaboro,Omala,Ugwalawo,Umon,Nsukka,Burdhubo,Ogembo,SouthHorr,Dhalwo,Aqable,Jariiban,Garbaharey,Geza,Uriri,Bubisa,Kumbare,Sheikh,GalCad,Ngei,Apisa,Afetsa,Adutma,Amassa,Amogsa,Aluksa,Abalfa,Abotma,Anagsa,Amagma,Abima,Akorma,Apasma,Alubsa,Afonma,Montolla,Montolma,Montolwa,Montolra,Montolka,Parakou,Sokodé,Dokan Tofa,Bukuru,Samburu"
 },
 {
     "name": "Mozabite",
@@ -5605,7 +5605,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Mpade,Ngala,Kala-Balge,Mafa,Konduga,Monguno,Marte,Kukawa,Gubio,Magumeri,Gwoza,Bama,Maiduguri,Askira-Uba,Damboa,Abadam,Guzamala,Kaga,Kondunga,Mobar,Nganzai,Gajiganna,Gajiram,Cross Kauwa,Baga,Doron Baga,Kauwa,Rann,Gamboru,Damasak,Wulgo,Chibok,Barich,Mohoro,Borabu,FergusonsGulf,Hareeri,Balcad,Berdaale,Kinarani,Mbita,Bodhai,Kangaten,Holug,BuloBurto,Garbahaarrey,Omaribaya,Aligta,Alalta,Afakta,Akilfa,Apikta,Anota,Adutsa,Aita,Anubta,Alegfa,Apatta,Afibta,Afugsa,Abofa,Apamta,Mpadela,Mpadema,Mpadewa,Mpadera,Mpadeka"
+  "b": "Mpade,Ngala,Kala-Balge,Mafa,Konduga,Monguno,Marte,Kukawa,Gubio,Magumeri,Gwoza,Bama,Askira-Uba,Damboa,Abadam,Guzamala,Kaga,Kondunga,Mobar,Nganzai,Gajiganna,Gajiram,Cross Kauwa,Baga,Kauwa,Rann,Gamboru,Damasak,Wulgo,Chibok,Barich,Mohoro,Borabu,FergusonsGulf,Hareeri,Balcad,Berdaale,Kinarani,Mbita,Bodhai,Kangaten,Holug,BuloBurto,Garbahaarrey,Omaribaya,Aligta,Alalta,Afakta,Akilfa,Apikta,Anota,Adutsa,Aita,Anubta,Alegfa,Apatta,Afibta,Afugsa,Abofa,Apamta,Mpadela,Mpadema,Mpadewa,Mpadera,Mpadeka,Kara,Maiduguri,Doron Baga"
 },
 {
     "name": "Mpre",
@@ -5614,7 +5614,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Mpre,Shendam,Langung,Panyam,Balong,Dokan Tofa,Jos,Bukuru,Pankshin,Mangu,Kabwir,Gindiri,Riyom,Barkin Ladi,Keffi,Lafia,Akwanga,Karu,Kokona,Awe,Doma,Keana,Obi,Agyaraku,Wamba,Nunku,Assakio,Effium,Ugbokpo,Otukpo,Okpokwu,Adoka,Ankpa,Dekina,Idah,Igalamela,Olamaboro,Omala,Ugwalawo,Umon,Nsukka,Kidimu,HomaBay,Kiunga,Kibish,GofKudle,Wanleweyn,Dolow,Gongoni,Bondo,Vipingo,Konso,CeyrTabaan,Laasqoray,QansaxDheere,Garsen,Adilna,Adulka,Aodna,Abinka,Afebwe,Apibka,Amebbwe,Afanka,Anudna,Akasna,Anidna,Animka,Amudka,Adolna,Abenbwe,Mprela,Mprema,Mprewa,Mprera,Mpreka"
+  "b": "Mpre,Shendam,Langung,Panyam,Balong,Jos,Pankshin,Mangu,Kabwir,Gindiri,Riyom,Barkin Ladi,Keffi,Lafia,Akwanga,Karu,Kokona,Awe,Doma,Keana,Obi,Agyaraku,Wamba,Nunku,Assakio,Effium,Ugbokpo,Otukpo,Okpokwu,Adoka,Ankpa,Dekina,Idah,Igalamela,Olamaboro,Omala,Ugwalawo,Umon,Nsukka,Kidimu,Kiunga,Kibish,Wanleweyn,Dolow,Gongoni,Bondo,Vipingo,Konso,CeyrTabaan,Laasqoray,Garsen,Adilna,Adulka,Aodna,Abinka,Afebwe,Apibka,Amebbwe,Afanka,Anudna,Akasna,Anidna,Animka,Amudka,Adolna,Abenbwe,Mprela,Mprema,Mprewa,Mprera,Mpreka,Cape Coast,Dokan Tofa,Bukuru,HomaBay,GofKudle,QansaxDheere"
 },
 {
     "name": "Mser",
@@ -5623,7 +5623,7 @@ window.africaNameBases = [
   "max": 13,
   "d": "lnrt",
   "m": 0,
-  "b": "Mser,Mokolo,Mogodé,Gawar,Kortchi,Maroua,Mora,Waza,Kousséri,Mayo-Ouldémé,Mayo-Maskola,Dzigilao,Gawawa,Gawar Lamordé,Gawar Windé,Mafa,Mofu,Hina,Daba,Buwal,Galdala,Gadala,Kapsiki,Cuvok,Bulahay,Matakam,Mogoré,Mouhour,Rhumsiki,Mémé,Mokong,Mofoué,Moulvoudaye,Moutourwa,Moyen Chari,Ngaoundéré,Ngaoundal,Tibati,Banyo,Galim,Tignère,Jamia,Siaya,Samburu,Ririba,Galolk,CeelAfweyn,Baidoa,Chara,Webuye,Kipini,Mega,AadanYabaal,Galgalo,Fancole,Wema,Adara,Apodta,Akera,Anursa,Amamsa,Amutra,Akugra,Abansa,Aegra,Apitra,Aporta,Amodta,Akusa,Ababsa,Abetra,Mserla,Mserma,Mserwa,Mserra,Mserka"
+  "b": "Mser,Mokolo,Mogodé,Gawar,Kortchi,Maroua,Mora,Waza,Kousséri,Mayo-Ouldémé,Mayo-Maskola,Dzigilao,Gawawa,Gawar Lamordé,Gawar Windé,Mafa,Mofu,Hina,Daba,Buwal,Galdala,Gadala,Kapsiki,Cuvok,Bulahay,Matakam,Mogoré,Mouhour,Rhumsiki,Mémé,Mokong,Mofoué,Moulvoudaye,Moutourwa,Moyen Chari,Ngaoundéré,Ngaoundal,Tibati,Banyo,Galim,Tignère,Jamia,Siaya,Ririba,Galolk,CeelAfweyn,Baidoa,Chara,Webuye,Kipini,Mega,AadanYabaal,Galgalo,Fancole,Wema,Adara,Apodta,Akera,Anursa,Amamsa,Amutra,Akugra,Abansa,Aegra,Apitra,Aporta,Amodta,Akusa,Ababsa,Abetra,Mserla,Mserma,Mserwa,Mserra,Mserka,Yamoussoukro,Samburu"
 },
 {
     "name": "Mubi",
@@ -5632,7 +5632,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Mubi,Hong,Maiha,Gombi,Michika,Madagali,Gulak,Lasa,Biu,Song,Kwami,Pindiga,Numan,Jimeta,Yola,Ganye,Jada,Gwoza,Bama,Askira-Uba,Damboa,Konduga,Mafa,Monguno,Ngala,Kala-Balge,Marte,Kukawa,Gubio,Magumeri,Abadam,Guzamala,Kaga,Kondunga,Mobar,Nganzai,Gajiganna,Gajiram,Cross Kauwa,Baga,Doron Baga,Kauwa,Rann,Gamboru,Damasak,Wulgo,Chibok,Bwiti,Bungoma,Lamu,Imi,GeedWeen,Karindoolay,Gamey,Kipini,Nyakoe,Bura,Wachile,GarasQod,Bacad,BuuloMarer,Mtwapa,Aulwa,Afoswa,Adirbwe,Adedwa,Akatka,Abemwa,Abodbwe,Apanka,Amitbwe,Alagwa,Amomwa,Akulbwe,Akubwa,Aarka,Apebbwe,Mubila,Mubima,Mubiwa,Mubira,Mubika"
+  "b": "Mubi,Hong,Maiha,Gombi,Michika,Madagali,Gulak,Lasa,Biu,Song,Kwami,Pindiga,Numan,Jimeta,Yola,Ganye,Jada,Gwoza,Bama,Askira-Uba,Damboa,Konduga,Mafa,Monguno,Ngala,Kala-Balge,Marte,Kukawa,Gubio,Magumeri,Abadam,Guzamala,Kaga,Kondunga,Mobar,Nganzai,Gajiganna,Gajiram,Cross Kauwa,Baga,Kauwa,Rann,Gamboru,Damasak,Wulgo,Chibok,Bwiti,Bungoma,Lamu,Imi,GeedWeen,Karindoolay,Gamey,Kipini,Nyakoe,Bura,Wachile,GarasQod,Bacad,BuuloMarer,Mtwapa,Aulwa,Afoswa,Adirbwe,Adedwa,Akatka,Abemwa,Abodbwe,Apanka,Amitbwe,Alagwa,Amomwa,Akulbwe,Akubwa,Aarka,Apebbwe,Mubila,Mubima,Mubiwa,Mubira,Mubika,Doron Baga"
 },
 {
     "name": "Mundat",
@@ -5641,7 +5641,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Mundat,Shendam,Langung,Panyam,Balong,Dokan Tofa,Jos,Bukuru,Pankshin,Mangu,Kabwir,Gindiri,Riyom,Barkin Ladi,Keffi,Lafia,Akwanga,Karu,Kokona,Awe,Doma,Keana,Obi,Agyaraku,Wamba,Nunku,Assakio,Effium,Ugbokpo,Otukpo,Okpokwu,Adoka,Ankpa,Dekina,Idah,Igalamela,Olamaboro,Omala,Ugwalawo,Umon,Nsukka,Ngao,Ekerenyo,Garissa,Farlibaax,Dhalwo,Eyl,Goobweyn,Rabai,Manga,Merti,Hula,Kaxare,Bacadweyn,Burdhubo,Samburu,Afilma,Anusta,Anamta,Akikra,Aerta,Aoma,Afirma,Akesma,Alotta,Amabta,Amedma,Apokta,Aanta,Airra,Anira,Mundatla,Mundatma,Mundatwa,Mundatra,Mundatka"
+  "b": "Mundat,Shendam,Langung,Panyam,Balong,Jos,Pankshin,Mangu,Kabwir,Gindiri,Riyom,Barkin Ladi,Keffi,Lafia,Akwanga,Karu,Kokona,Awe,Doma,Keana,Obi,Agyaraku,Wamba,Nunku,Assakio,Effium,Ugbokpo,Otukpo,Okpokwu,Adoka,Ankpa,Dekina,Idah,Igalamela,Olamaboro,Omala,Ugwalawo,Umon,Nsukka,Ngao,Ekerenyo,Garissa,Farlibaax,Dhalwo,Eyl,Goobweyn,Rabai,Manga,Merti,Hula,Kaxare,Bacadweyn,Burdhubo,Afilma,Anusta,Anamta,Akikra,Aerta,Aoma,Afirma,Akesma,Alotta,Amabta,Amedma,Apokta,Aanta,Airra,Anira,Mundatla,Mundatma,Mundatwa,Mundatra,Mundatka,Dakar,Bamako,Dokan Tofa,Bukuru,Samburu"
 },
 {
     "name": "Musey",
@@ -5650,7 +5650,7 @@ window.africaNameBases = [
   "max": 15,
   "d": "lnrt",
   "m": 0,
-  "b": "Musey,Mayo-Kebbi,Bongor,Pala,Fianga,Léré,Koumra,Doba,Moundou,Bébédjia,Béïnamar,Béïssa,Békiri,Béladja,Béssao,Béti,Boumo,Danamadji,Déressia,Djedah,Dourbali,Goré,Goundi,Grégué,Guélengdeng,Kélo,Kyabé,Mbaïbokoum,Mbaïkoro,Ndam,Ngourkosso,Sarh,Béré,Biltine,Am Timan,Abou Deïa,Adré,Am Dam,Assinet,Bahaï,Baktchoro,Daguessa,Dar Tama,Djourf Al Ahmar,Ennedi,Fada,Iriba,Ounianga,Kaloleni,Masige,ArchersPost,RasKamboni,Deynile,Hobyo,Kudhaa,Shimba,Tabaka,Marsabit,Murcanyo,Buqda,Galkacyo,Elwak,Mkonumbi,Amutwa,Apurla,Alamka,Alimla,Akarla,Auswa,Anurla,Anibla,Abudwa,Adubla,Arela,Alarla,Abidka,Aderka,Aodla,Museyla,Museyma,Museywa,Museyra,Museyka"
+  "b": "Musey,Mayo-Kebbi,Bongor,Pala,Fianga,Léré,Koumra,Doba,Moundou,Bébédjia,Béïnamar,Béïssa,Békiri,Béladja,Béssao,Béti,Boumo,Danamadji,Déressia,Djedah,Dourbali,Goré,Goundi,Grégué,Guélengdeng,Kélo,Kyabé,Mbaïbokoum,Mbaïkoro,Ndam,Ngourkosso,Sarh,Béré,Biltine,Am Timan,Abou Deïa,Adré,Am Dam,Assinet,Bahaï,Baktchoro,Daguessa,Djourf Al Ahmar,Ennedi,Fada,Iriba,Ounianga,Kaloleni,Masige,ArchersPost,RasKamboni,Deynile,Hobyo,Kudhaa,Shimba,Tabaka,Marsabit,Murcanyo,Buqda,Galkacyo,Elwak,Mkonumbi,Amutwa,Apurla,Alamka,Alimla,Akarla,Auswa,Anurla,Anibla,Abudwa,Adubla,Arela,Alarla,Abidka,Aderka,Aodla,Museyla,Museyma,Museywa,Museyra,Museyka,Dar Tama"
 },
 {
     "name": "Musgu",
@@ -5659,7 +5659,7 @@ window.africaNameBases = [
   "max": 15,
   "d": "lnrt",
   "m": 0,
-  "b": "Musgu,Mayo-Kebbi,Bongor,Pala,Fianga,Léré,Koumra,Doba,Moundou,Bébédjia,Béïnamar,Béïssa,Békiri,Béladja,Béssao,Béti,Boumo,Danamadji,Déressia,Djedah,Dourbali,Goré,Goundi,Grégué,Guélengdeng,Kélo,Kyabé,Mbaïbokoum,Mbaïkoro,Ndam,Ngourkosso,Sarh,Béré,Biltine,Am Timan,Abou Deïa,Adré,Am Dam,Assinet,Bahaï,Baktchoro,Daguessa,Dar Tama,Djourf Al Ahmar,Ennedi,Fada,Iriba,Ounianga,Jombo,Kihancha,Laisamis,Koriley,BuloBurde,Guriel,Golbo,Chundwa,Mabera,NorthHorr,Jiingadda,Adale,Caabudwaaq,Barich,Mohoro,Adedma,Anofa,Akadfa,Aolra,Aetfa,Apefa,Abagra,Adukfa,Anemma,Afidfa,Anulra,Anosra,Afolfa,Anilra,Akobra,Musgula,Musguma,Musguwa,Musgura,Musguka"
+  "b": "Musgu,Mayo-Kebbi,Bongor,Pala,Fianga,Léré,Koumra,Doba,Moundou,Bébédjia,Béïnamar,Béïssa,Békiri,Béladja,Béssao,Béti,Boumo,Danamadji,Déressia,Djedah,Dourbali,Goré,Goundi,Grégué,Guélengdeng,Kélo,Kyabé,Mbaïbokoum,Mbaïkoro,Ndam,Ngourkosso,Sarh,Béré,Biltine,Am Timan,Abou Deïa,Adré,Am Dam,Assinet,Bahaï,Baktchoro,Daguessa,Djourf Al Ahmar,Ennedi,Fada,Iriba,Ounianga,Jombo,Kihancha,Laisamis,Koriley,BuloBurde,Guriel,Golbo,Chundwa,Mabera,NorthHorr,Jiingadda,Adale,Caabudwaaq,Barich,Mohoro,Adedma,Anofa,Akadfa,Aolra,Aetfa,Apefa,Abagra,Adukfa,Anemma,Afidfa,Anulra,Anosra,Afolfa,Anilra,Akobra,Musgula,Musguma,Musguwa,Musgura,Musguka,Dar Tama"
 },
 {
     "name": "Muskum",
@@ -5668,7 +5668,7 @@ window.africaNameBases = [
   "max": 15,
   "d": "lnrt",
   "m": 0,
-  "b": "Muskum,Mayo-Kebbi,Bongor,Pala,Fianga,Léré,Koumra,Doba,Moundou,Bébédjia,Béïnamar,Béïssa,Békiri,Béladja,Béssao,Béti,Boumo,Danamadji,Déressia,Djedah,Dourbali,Goré,Goundi,Grégué,Guélengdeng,Kélo,Kyabé,Mbaïbokoum,Mbaïkoro,Ndam,Ngourkosso,Sarh,Béré,Biltine,Am Timan,Abou Deïa,Adré,Am Dam,Assinet,Bahaï,Baktchoro,Daguessa,Dar Tama,Djourf Al Ahmar,Ennedi,Fada,Iriba,Ounianga,Mkokoni,Kehancha,Sibiloi,Waamo,Giohar,Guriceel,Selina,Sindo,Galole,Kalokol,Harardera,Mahaday,Yeed,Kidimu,HomaBay,Apolla,Amuswa,Amabna,Apemwa,Alodna,Aatwa,Apigna,Aamna,Abukwa,Animwa,Afana,Abilna,Amolla,Afunwa,Aadna,Muskumla,Muskumma,Muskumwa,Muskumra,Muskumka"
+  "b": "Muskum,Mayo-Kebbi,Bongor,Pala,Fianga,Léré,Koumra,Doba,Moundou,Bébédjia,Béïnamar,Béïssa,Békiri,Béladja,Béssao,Béti,Boumo,Danamadji,Déressia,Djedah,Dourbali,Goré,Goundi,Grégué,Guélengdeng,Kélo,Kyabé,Mbaïbokoum,Mbaïkoro,Ndam,Ngourkosso,Sarh,Béré,Biltine,Am Timan,Abou Deïa,Adré,Am Dam,Assinet,Bahaï,Baktchoro,Daguessa,Djourf Al Ahmar,Ennedi,Fada,Iriba,Ounianga,Mkokoni,Kehancha,Sibiloi,Waamo,Giohar,Guriceel,Selina,Sindo,Galole,Kalokol,Harardera,Mahaday,Yeed,Kidimu,Apolla,Amuswa,Amabna,Apemwa,Alodna,Aatwa,Apigna,Aamna,Abukwa,Animwa,Afana,Abilna,Amolla,Afunwa,Aadna,Muskumla,Muskumma,Muskumwa,Muskumra,Muskumka,Dar Tama,HomaBay"
 },
 {
     "name": "Muyang",
@@ -5677,7 +5677,7 @@ window.africaNameBases = [
   "max": 13,
   "d": "lnrt",
   "m": 0,
-  "b": "Muyang,Mokolo,Mogodé,Gawar,Kortchi,Maroua,Mora,Waza,Kousséri,Mayo-Ouldémé,Mayo-Maskola,Dzigilao,Gawawa,Gawar Lamordé,Gawar Windé,Mafa,Mofu,Hina,Daba,Buwal,Galdala,Gadala,Kapsiki,Cuvok,Bulahay,Matakam,Mogoré,Mouhour,Rhumsiki,Mémé,Mokong,Mofoué,Moulvoudaye,Moutourwa,Moyen Chari,Ngaoundéré,Ngaoundal,Tibati,Banyo,Galim,Tignère,Karungu,Dida,Kakuma,Garsale,Jowhaar,Farlibaax,Pongwe,KenduBay,Faza,Omorate,Qoton,Afgoi,Beledhawo,Jamia,Siaya,Akunfa,Apoksa,Adalsa,Afubfa,Aaksa,Alulsa,Aliksa,Apinsa,Apabma,Afurfa,Anugfa,Adarma,Apotma,Adubfa,Aledsa,Muyangla,Muyangma,Muyangwa,Muyangra,Muyangka"
+  "b": "Muyang,Mokolo,Mogodé,Gawar,Kortchi,Maroua,Mora,Waza,Kousséri,Mayo-Ouldémé,Mayo-Maskola,Dzigilao,Gawawa,Gawar Lamordé,Gawar Windé,Mafa,Mofu,Hina,Daba,Buwal,Galdala,Gadala,Kapsiki,Cuvok,Bulahay,Matakam,Mogoré,Mouhour,Rhumsiki,Mémé,Mokong,Mofoué,Moulvoudaye,Moutourwa,Moyen Chari,Ngaoundéré,Ngaoundal,Tibati,Banyo,Galim,Tignère,Karungu,Dida,Kakuma,Garsale,Jowhaar,Farlibaax,Pongwe,Faza,Omorate,Qoton,Afgoi,Beledhawo,Jamia,Siaya,Akunfa,Apoksa,Adalsa,Afubfa,Aaksa,Alulsa,Aliksa,Apinsa,Apabma,Afurfa,Anugfa,Adarma,Apotma,Adubfa,Aledsa,Muyangla,Muyangma,Muyangwa,Muyangra,Muyangka,KenduBay"
 },
 {
     "name": "Mwaghavul",
@@ -5686,7 +5686,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Mwaghavul,Shendam,Langung,Panyam,Balong,Dokan Tofa,Jos,Bukuru,Pankshin,Mangu,Kabwir,Gindiri,Riyom,Barkin Ladi,Keffi,Lafia,Akwanga,Karu,Kokona,Awe,Doma,Keana,Obi,Agyaraku,Wamba,Nunku,Assakio,Effium,Ugbokpo,Otukpo,Okpokwu,Adoka,Ankpa,Dekina,Idah,Igalamela,Olamaboro,Omala,Ugwalawo,Umon,Nsukka,Oyugis,Shella,Turmi,Janaale,LaasGacamey,ElBarde,Ndau,Vihiga,Mariakani,Moyale,SaLul,Erigavo,Baardheere,Bwiti,Bungoma,Abamla,Aetna,Aderbwe,Apumbwe,Aasla,Aena,Alibbwe,Afola,Aanbwe,Akagla,Adesbwe,Afagbwe,Akorbwe,Abugla,Adunbwe,Mwaghavulla,Mwaghavulma,Mwaghavulwa,Mwaghavulra,Mwaghavulka"
+  "b": "Mwaghavul,Shendam,Langung,Panyam,Balong,Jos,Pankshin,Mangu,Kabwir,Gindiri,Riyom,Barkin Ladi,Keffi,Lafia,Akwanga,Karu,Kokona,Awe,Doma,Keana,Obi,Agyaraku,Wamba,Nunku,Assakio,Effium,Ugbokpo,Otukpo,Okpokwu,Adoka,Ankpa,Dekina,Idah,Igalamela,Olamaboro,Omala,Ugwalawo,Umon,Nsukka,Oyugis,Shella,Turmi,Janaale,LaasGacamey,ElBarde,Ndau,Vihiga,Mariakani,Moyale,SaLul,Erigavo,Baardheere,Bwiti,Bungoma,Abamla,Aetna,Aderbwe,Apumbwe,Aasla,Aena,Alibbwe,Afola,Aanbwe,Akagla,Adesbwe,Afagbwe,Akorbwe,Abugla,Adunbwe,Mwaghavulla,Mwaghavulma,Mwaghavulwa,Mwaghavulra,Mwaghavulka,Ouagadougou,Dokan Tofa,Bukuru"
 },
 {
     "name": "Mzab–Wargla Berber",
@@ -5704,7 +5704,7 @@ window.africaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Nalut,Jadu,Yefren,Kabaw,Tormeus,Msallata,Zintan,Gharyan,Yafran,Tripoli,Zawiya,Zuwara,Sabratha,Sorman,Jumayl,Al Maya,Aziziyah,Janzur,Tajura,Qasr bin Ghashir,Castelverde,Suq al Jumaa,Ben Gashir,Hay al Andalus,Gergarish,Abu Salim,Ain Zara,Fashloum"
+  "b": "Nalut,Jadu,Yefren,Kabaw,Tormeus,Msallata,Zintan,Gharyan,Yafran,Tripoli,Zawiya,Zuwara,Sabratha,Sorman,Jumayl,Al Maya,Aziziyah,Janzur,Tajura,Qasr bin Ghashir,Castelverde,Suq al Jumaa,Ben Gashir,Hay al Andalus,Gergarish,Abu Salim,Fashloum,Ain Zara"
 },
 {
     "name": "Nama",
@@ -5722,7 +5722,7 @@ window.africaNameBases = [
   "max": 15,
   "d": "lnrt",
   "m": 0,
-  "b": "Nancere,Mayo-Kebbi,Bongor,Pala,Fianga,Léré,Koumra,Doba,Moundou,Bébédjia,Béïnamar,Béïssa,Békiri,Béladja,Béssao,Béti,Boumo,Danamadji,Déressia,Djedah,Dourbali,Goré,Goundi,Grégué,Guélengdeng,Kélo,Kyabé,Mbaïbokoum,Mbaïkoro,Ndam,Ngourkosso,Sarh,Béré,Biltine,Am Timan,Abou Deïa,Adré,Am Dam,Assinet,Bahaï,Baktchoro,Daguessa,Dar Tama,Djourf Al Ahmar,Ennedi,Fada,Iriba,Ounianga,Kisii,Maralal,Liibaan,Duduble,Galdogob,Dhoobley,Vanga,Suba,Korr,Gurfuudle,Dabare,Runni,Kachoda,Mkokoni,Kehancha,Aledwa,Afutka,Alurwa,Abarwa,Amalbwe,Afonwa,Anitwa,Abubwe,Amogwa,Abubka,Apogbwe,Aowa,Ababbwe,Amigwa,Adembwe,Nancerela,Nancerema,Nancerewa,Nancerera,Nancereka"
+  "b": "Nancere,Mayo-Kebbi,Bongor,Pala,Fianga,Léré,Koumra,Doba,Moundou,Bébédjia,Béïnamar,Béïssa,Békiri,Béladja,Béssao,Béti,Boumo,Danamadji,Déressia,Djedah,Dourbali,Goré,Goundi,Grégué,Guélengdeng,Kélo,Kyabé,Mbaïbokoum,Mbaïkoro,Ndam,Ngourkosso,Sarh,Béré,Biltine,Am Timan,Abou Deïa,Adré,Am Dam,Assinet,Bahaï,Baktchoro,Daguessa,Djourf Al Ahmar,Ennedi,Fada,Iriba,Ounianga,Kisii,Maralal,Liibaan,Duduble,Galdogob,Dhoobley,Vanga,Suba,Korr,Gurfuudle,Dabare,Runni,Kachoda,Mkokoni,Kehancha,Aledwa,Afutka,Alurwa,Abarwa,Amalbwe,Afonwa,Anitwa,Abubwe,Amogwa,Abubka,Apogbwe,Aowa,Ababbwe,Amigwa,Adembwe,Nancerela,Nancerema,Nancerewa,Nancerera,Nancereka,Dar Tama"
 },
 {
     "name": "Naro",
@@ -5740,7 +5740,7 @@ window.africaNameBases = [
   "max": 15,
   "d": "lnrt",
   "m": 0,
-  "b": "Ndam,Mayo-Kebbi,Bongor,Pala,Fianga,Léré,Koumra,Doba,Moundou,Bébédjia,Béïnamar,Béïssa,Békiri,Béladja,Béssao,Béti,Boumo,Danamadji,Déressia,Djedah,Dourbali,Goré,Goundi,Grégué,Guélengdeng,Kélo,Kyabé,Mbaïbokoum,Mbaïkoro,Ngourkosso,Sarh,Béré,Biltine,Am Timan,Abou Deïa,Adré,Am Dam,Assinet,Bahaï,Baktchoro,Daguessa,Dar Tama,Djourf Al Ahmar,Ennedi,Fada,Iriba,Ounianga,Nyangusu,Loyangalani,Caano,CelDheer,Saakow,Buni,Ikerege,Mkunumbi,Lodwar,Qorragan,Buulobarde,CeelBarde,Ngomoni,Oyugis,Shella,Anarla,Alolwa,Amogla,Afuska,Aimla,Adudla,Afomka,Amaska,Anutka,Aunka,Abirka,Abitla,Apekla,Afabka,Akelka,Ndamla,Ndamma,Ndamwa,Ndamra,Ndamka"
+  "b": "Ndam,Mayo-Kebbi,Bongor,Pala,Fianga,Léré,Koumra,Doba,Moundou,Bébédjia,Béïnamar,Béïssa,Békiri,Béladja,Béssao,Béti,Boumo,Danamadji,Déressia,Djedah,Dourbali,Goré,Goundi,Grégué,Guélengdeng,Kélo,Kyabé,Mbaïbokoum,Mbaïkoro,Ngourkosso,Sarh,Béré,Biltine,Am Timan,Abou Deïa,Adré,Am Dam,Assinet,Bahaï,Baktchoro,Daguessa,Djourf Al Ahmar,Ennedi,Fada,Iriba,Ounianga,Nyangusu,Loyangalani,Caano,CelDheer,Saakow,Buni,Ikerege,Mkunumbi,Lodwar,Qorragan,Buulobarde,CeelBarde,Ngomoni,Oyugis,Shella,Anarla,Alolwa,Amogla,Afuska,Aimla,Adudla,Afomka,Amaska,Anutka,Aunka,Abirka,Abitla,Apekla,Afabka,Akelka,Ndamla,Ndamma,Ndamwa,Ndamra,Ndamka,Dar Tama"
 },
 {
     "name": "Ngambay",
@@ -5749,7 +5749,7 @@ window.africaNameBases = [
   "max": 15,
   "d": "lnrt",
   "m": 0,
-  "b": "Ngambay,Mayo-Kebbi,Bongor,Pala,Fianga,Léré,Koumra,Doba,Moundou,Bébédjia,Béïnamar,Béïssa,Békiri,Béladja,Béssao,Béti,Boumo,Danamadji,Déressia,Djedah,Dourbali,Goré,Goundi,Grégué,Guélengdeng,Kélo,Kyabé,Mbaïbokoum,Mbaïkoro,Ndam,Ngourkosso,Sarh,Béré,Biltine,Am Timan,Abou Deïa,Adré,Am Dam,Assinet,Bahaï,Baktchoro,Daguessa,Dar Tama,Djourf Al Ahmar,Ennedi,Fada,Iriba,Ounianga,Witu,Lokitaung,Baydhabo,Jalalaqsi,Luq,Mafisini,Rangwe,Takwa,Dimeka,Sablaale,Yubbe,Huddur,Mikinduni,Kakamega,Kaloleni,Aborra,Amatfa,Adidra,Adulfa,Aurra,Anurra,Alinfa,Akosfa,Alemfa,Amodfa,Aonra,Anigra,Adamfa,Adisra,Aledra,Ngambayla,Ngambayma,Ngambaywa,Ngambayra,Ngambayka"
+  "b": "Ngambay,Mayo-Kebbi,Bongor,Pala,Fianga,Léré,Koumra,Doba,Moundou,Bébédjia,Béïnamar,Béïssa,Békiri,Béladja,Béssao,Béti,Boumo,Danamadji,Déressia,Djedah,Dourbali,Goré,Goundi,Grégué,Guélengdeng,Kélo,Kyabé,Mbaïbokoum,Mbaïkoro,Ndam,Ngourkosso,Sarh,Béré,Biltine,Am Timan,Abou Deïa,Adré,Am Dam,Assinet,Bahaï,Baktchoro,Daguessa,Djourf Al Ahmar,Ennedi,Fada,Iriba,Ounianga,Witu,Lokitaung,Baydhabo,Jalalaqsi,Luq,Mafisini,Rangwe,Takwa,Dimeka,Sablaale,Yubbe,Huddur,Mikinduni,Kakamega,Kaloleni,Aborra,Amatfa,Adidra,Adulfa,Aurra,Anurra,Alinfa,Akosfa,Alemfa,Amodfa,Aonra,Anigra,Adamfa,Adisra,Aledra,Ngambayla,Ngambayma,Ngambaywa,Ngambayra,Ngambayka,ngambaySprings,ngambayCreek,ngambayRidge,ngambayHeights,ngambayFalls,ngambayBeach,ngambayPoint,ngambayBay,ngambayGrove,Dar Tama"
 },
 {
     "name": "Ngamo",
@@ -5767,7 +5767,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ngas,Pankshin,Mangu,Bokkos,Kabwir,Gindiri,Riyom,Barkin Ladi,Jos,Bukuru,Shendam,Langung,Panyam,Balong,Dokan Tofa,Keffi,Lafia,Akwanga,Karu,Kokona,Awe,Doma,Keana,Obi,Agyaraku,Wamba,Nunku,Assakio,Effium,Ugbokpo,Otukpo,Okpokwu,Adoka,Ankpa,Dekina,Idah,Igalamela,Olamaboro,Omala,Ugwalawo,Umon,Nsukka,Malindi,Yavello,Guba,Xaafuun,Lanta,Ozi,Tindinyo,Masalani,ElKere,Garawe,Bargaal,Afgooye,Sengera,ElBur,AbudWaaq,Alalsa,Akossa,Abakma,Aemma,Adonfa,Apogma,Alansa,Afogma,Amemsa,Abekma,Abogfa,Alosma,Adidsa,Aerma,Akemma,Ngasla,Ngasma,Ngaswa,Ngasra,Ngaska"
+  "b": "Ngas,Pankshin,Mangu,Bokkos,Kabwir,Gindiri,Riyom,Barkin Ladi,Jos,Shendam,Langung,Panyam,Balong,Keffi,Lafia,Akwanga,Karu,Kokona,Awe,Doma,Keana,Obi,Agyaraku,Wamba,Nunku,Assakio,Effium,Ugbokpo,Otukpo,Okpokwu,Adoka,Ankpa,Dekina,Idah,Igalamela,Olamaboro,Omala,Ugwalawo,Umon,Nsukka,Malindi,Yavello,Guba,Xaafuun,Lanta,Ozi,Tindinyo,Masalani,Garawe,Bargaal,Afgooye,Sengera,ElBur,AbudWaaq,Alalsa,Akossa,Abakma,Aemma,Adonfa,Apogma,Alansa,Afogma,Amemsa,Abekma,Abogfa,Alosma,Adidsa,Aerma,Akemma,Ngasla,Ngasma,Ngaswa,Ngasra,Ngaska,Conakry,Bukuru,Dokan Tofa,ElKere"
 },
 {
     "name": "Ngeté-Herdé",
@@ -5776,7 +5776,7 @@ window.africaNameBases = [
   "max": 15,
   "d": "lnrt",
   "m": 0,
-  "b": "Ngeté-Herdé,Mayo-Kebbi,Bongor,Pala,Fianga,Léré,Koumra,Doba,Moundou,Bébédjia,Béïnamar,Béïssa,Békiri,Béladja,Béssao,Béti,Boumo,Danamadji,Déressia,Djedah,Dourbali,Goré,Goundi,Grégué,Guélengdeng,Kélo,Kyabé,Mbaïbokoum,Mbaïkoro,Ndam,Ngourkosso,Sarh,Béré,Biltine,Am Timan,Abou Deïa,Adré,Am Dam,Assinet,Bahaï,Baktchoro,Daguessa,Dar Tama,Djourf Al Ahmar,Ennedi,Fada,Iriba,Ounianga,Kotus,SofOmar,Hadud,Bereeda,Shalambood,Kilifi,Rioma,Habaswein,TulaNaga,Sarweyne,Koorma,Xarardheere,Mariakani,Kisii,Maralal,Aagbwe,Alokla,Alegbwe,Anasna,Akenbwe,Aombwe,Ananla,Afakna,Abikbwe,Afogla,Amamna,Akutbwe,Aenbwe,Aanna,Alosla,NgetHerdla,NgetHerdma,NgetHerdwa,NgetHerdra,NgetHerdka"
+  "b": "Mayo-Kebbi,Bongor,Pala,Fianga,Léré,Koumra,Doba,Moundou,Bébédjia,Béïnamar,Béïssa,Békiri,Béladja,Béssao,Béti,Boumo,Danamadji,Déressia,Djedah,Dourbali,Goré,Goundi,Grégué,Guélengdeng,Kélo,Kyabé,Mbaïbokoum,Mbaïkoro,Ndam,Ngourkosso,Sarh,Béré,Biltine,Am Timan,Abou Deïa,Adré,Am Dam,Assinet,Bahaï,Baktchoro,Daguessa,Djourf Al Ahmar,Ennedi,Fada,Iriba,Ounianga,Kotus,SofOmar,Hadud,Bereeda,Shalambood,Kilifi,Rioma,Habaswein,Sarweyne,Koorma,Xarardheere,Mariakani,Kisii,Maralal,Aagbwe,Alokla,Alegbwe,Anasna,Akenbwe,Aombwe,Ananla,Afakna,Abikbwe,Afogla,Amamna,Akutbwe,Aenbwe,Aanna,Alosla,NgetéHerdéSprings,NgetéHerdéCreek,NgetéHerdéRidge,NgetéHerdéHeights,NgetéHerdéFalls,NgetéHerdéBeach,NgetéHerdéPoint,NgetéHerdéBay,NgetéHerdéGrove,ngetherdSprings,ngetherdCreek,ngetherdRidge,ngetherdHeights,ngetherdFalls,ngetherdBeach,ngetherdPoint,ngetherdBay,ngetherdGrove,Ngeté-Herdé,Dar Tama,TulaNaga,NgetHerdla,NgetHerdma,NgetHerdwa,NgetHerdra,NgetHerdka"
 },
 {
     "name": "Nggwahyi",
@@ -5785,7 +5785,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Nggwahyi,Askira-Uba,Gwoza,Bama,Damboa,Konduga,Mafa,Monguno,Ngala,Kala-Balge,Marte,Kukawa,Gubio,Magumeri,Abadam,Guzamala,Kaga,Kondunga,Mobar,Nganzai,Gajiganna,Gajiram,Cross Kauwa,Baga,Doron Baga,Kauwa,Rann,Gamboru,Damasak,Wulgo,Chibok,Michika,Mubi,Madagali,Hong,Maiha,Gombi,Song,Kwami,Pindiga,Numan,Jimeta,Yola,Ganye,Jada,Habasiwein,Dudun,Toon,Gambol,Harardhere,Bamba,Keroka,Baragoi,Ddabo,Ragehe,Godinlabe,Afmadow,Jimbo,Suna,Kargi,Akirsa,Amimta,Afidsa,Abamfa,Aludfa,Alatta,Aparta,Amikta,Adirsa,Aposfa,Amamta,Aedta,Anabta,Akidta,Afiksa,Nggwahyila,Nggwahyima,Nggwahyiwa,Nggwahyira,Nggwahyika"
+  "b": "Nggwahyi,Askira-Uba,Gwoza,Bama,Damboa,Konduga,Mafa,Monguno,Ngala,Kala-Balge,Marte,Kukawa,Gubio,Magumeri,Abadam,Guzamala,Kaga,Kondunga,Mobar,Nganzai,Gajiganna,Gajiram,Cross Kauwa,Baga,Kauwa,Rann,Gamboru,Damasak,Wulgo,Chibok,Michika,Mubi,Madagali,Hong,Maiha,Gombi,Song,Kwami,Pindiga,Numan,Jimeta,Yola,Ganye,Jada,Habasiwein,Dudun,Toon,Gambol,Harardhere,Bamba,Keroka,Baragoi,Ddabo,Ragehe,Godinlabe,Afmadow,Jimbo,Suna,Kargi,Akirsa,Amimta,Afidsa,Abamfa,Aludfa,Alatta,Aparta,Amikta,Adirsa,Aposfa,Amamta,Aedta,Anabta,Akidta,Afiksa,Nggwahyila,Nggwahyima,Nggwahyiwa,Nggwahyira,Nggwahyika,Doron Baga"
 },
 {
     "name": "Ngizim",
@@ -5803,10 +5803,10 @@ window.africaNameBases = [
   "max": 13,
   "d": "lnrt",
   "m": 0,
-  "b": "Ngwaba,Darazo,Ganjuwa,Kafin Madaki,Soro,Miya,Baben Kasa,Badaromo,Barkaya,Dagale,Deno,Digawa,Dugumi,Gurzumo,Janu,Kariya,Kubi,Nassarawa,Siri,Tafawa,Zibinju,Choogen,Toro,Alkaleri,Kirfi,Ningi,Warji,Dass,Tafawa Balewa,Bogoro,Lere,Lame,Rano,Wudil,Dukku,Gamawa,Misau,Jama'are,Katagum,Shira,Giade,Itas,Zaki,Azare,Bulkachuwa,Maikona,Cagare,WarSheikh,Dhuusamareeb,Janjan,Mfangano,Matiri,Lowarengak,Geedweyne,Cadaado,Bardhere,Wangwana,Keumbu,Witu,Lokitaung,Apolra,Anebra,Alugsa,Aeta,Aubra,Adelra,Afegta,Aikra,Adekra,Amerra,Akoksa,Akudsa,Alagra,Anelta,Aforsa,Ngwabala,Ngwabama,Ngwabawa,Ngwabara,Ngwabaka"
+  "b": "Ngwaba,Darazo,Ganjuwa,Kafin Madaki,Soro,Miya,Badaromo,Barkaya,Dagale,Deno,Digawa,Dugumi,Gurzumo,Janu,Kariya,Kubi,Nassarawa,Siri,Tafawa,Zibinju,Choogen,Toro,Alkaleri,Kirfi,Ningi,Warji,Dass,Tafawa Balewa,Bogoro,Lere,Lame,Rano,Wudil,Dukku,Gamawa,Misau,Jama'are,Katagum,Shira,Giade,Itas,Zaki,Azare,Bulkachuwa,Maikona,Cagare,WarSheikh,Dhuusamareeb,Janjan,Mfangano,Matiri,Lowarengak,Geedweyne,Cadaado,Bardhere,Wangwana,Keumbu,Witu,Lokitaung,Apolra,Anebra,Alugsa,Aeta,Aubra,Adelra,Afegta,Aikra,Adekra,Amerra,Akoksa,Akudsa,Alagra,Anelta,Aforsa,Ngwabala,Ngwabama,Ngwabawa,Ngwabara,Ngwabaka,Baben Kasa"
 },
 {
-    "name": "Nkore", "i": 200131, "min": 4, "max": 14, "d": "lnrt", "m": 0, "b": "Mbarara,Bushenyi,Ntungamo,Kiruhura,Ibanda,Isingiro,Rukungiri,Buhweju,Mitooma,Sheema,Rubirizi,Kitagwenda,Ankole,Nkore,Runyankole,Kiga,Nyoro,Tooro,Bunyoro-Kitara,Hima,Hororo,Orutagwenda,Kampala,Entebbe,Jinja"
+    "name": "Nkore", "i": 200131, "min": 4, "max": 14, "d": "lnrt", "m": 0, "b": "Mbarara,Bushenyi,Ntungamo,Kiruhura,Ibanda,Isingiro,Buhweju,Mitooma,Sheema,Rubirizi,Kitagwenda,Ankole,Nkore,Runyankole,Kiga,Nyoro,Tooro,Bunyoro-Kitara,Hima,Hororo,Orutagwenda,Kampala,Entebbe,Jinja,Accra,Rukungiri"
 },
 {
     "name": "North Giziga",
@@ -5815,7 +5815,7 @@ window.africaNameBases = [
   "max": 13,
   "d": "lnrt",
   "m": 0,
-  "b": "North Giziga,Mokolo,Mogodé,Gawar,Kortchi,Maroua,Mora,Waza,Kousséri,Mayo-Ouldémé,Mayo-Maskola,Dzigilao,Gawawa,Gawar Lamordé,Gawar Windé,Mafa,Mofu,Hina,Daba,Buwal,Galdala,Gadala,Kapsiki,Cuvok,Bulahay,Matakam,Mogoré,Mouhour,Rhumsiki,Mémé,Mokong,Mofoué,Moulvoudaye,Moutourwa,Moyen Chari,Ngaoundéré,Ngaoundal,Tibati,Banyo,Galim,Tignère,Kibish,GofKudle,Wanleweyn,Dolow,Gongoni,Bondo,Vipingo,Konso,CeyrTabaan,Laasqoray,QansaxDheere,Garsen,Mumias,Malindi,Yavello,Adanra,Alemma,Abatra,Apigta,Amukta,Adabra,Apikma,Afudma,Aluma,Anumta,Adotta,Aobma,Audta,Adudta,Alubta,NorthGizigala,NorthGizigama,NorthGizigawa,NorthGizigara,NorthGizigaka"
+  "b": "North Giziga,Mokolo,Mogodé,Gawar,Kortchi,Maroua,Mora,Waza,Kousséri,Mayo-Ouldémé,Mayo-Maskola,Dzigilao,Gawawa,Gawar Lamordé,Gawar Windé,Mafa,Mofu,Hina,Daba,Buwal,Galdala,Gadala,Kapsiki,Cuvok,Bulahay,Matakam,Mogoré,Mouhour,Rhumsiki,Mémé,Mokong,Mofoué,Moulvoudaye,Moutourwa,Moyen Chari,Ngaoundéré,Ngaoundal,Tibati,Banyo,Galim,Tignère,Kibish,Wanleweyn,Dolow,Gongoni,Bondo,Vipingo,Konso,CeyrTabaan,Laasqoray,Garsen,Mumias,Malindi,Yavello,Adanra,Alemma,Abatra,Apigta,Amukta,Adabra,Apikma,Afudma,Aluma,Anumta,Adotta,Aobma,Audta,Adudta,Alubta,GofKudle,QansaxDheere,NorthGizigala,NorthGizigama,NorthGizigawa,NorthGizigara,NorthGizigaka"
 },
 {
     "name": "North Mofu",
@@ -5842,7 +5842,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Nteng,Shendam,Langung,Panyam,Balong,Dokan Tofa,Jos,Bukuru,Pankshin,Mangu,Kabwir,Gindiri,Riyom,Barkin Ladi,Keffi,Lafia,Akwanga,Karu,Kokona,Awe,Doma,Keana,Obi,Agyaraku,Wamba,Nunku,Assakio,Effium,Ugbokpo,Otukpo,Okpokwu,Adoka,Ankpa,Dekina,Idah,Igalamela,Olamaboro,Omala,Ugwalawo,Umon,Nsukka,Farlibaax,Dhalwo,Eyl,Goobweyn,Rabai,Manga,Merti,Hula,Kaxare,Bacadweyn,Burdhubo,Samburu,Ogembo,SouthHorr,Aqable,Anirna,Aumna,Afobna,Adegna,Amonna,Aekla,Aona,Afemla,Airwa,Anolwa,Apedna,Arina,Apokna,Amerna,Aebwa,Ntengla,Ntengma,Ntengwa,Ntengra,Ntengka"
+  "b": "Nteng,Shendam,Langung,Panyam,Balong,Jos,Pankshin,Mangu,Kabwir,Gindiri,Riyom,Barkin Ladi,Keffi,Lafia,Akwanga,Karu,Kokona,Awe,Doma,Keana,Obi,Agyaraku,Wamba,Nunku,Assakio,Effium,Ugbokpo,Otukpo,Okpokwu,Adoka,Ankpa,Dekina,Idah,Igalamela,Olamaboro,Omala,Ugwalawo,Umon,Nsukka,Farlibaax,Dhalwo,Eyl,Goobweyn,Rabai,Manga,Merti,Hula,Kaxare,Bacadweyn,Burdhubo,Ogembo,SouthHorr,Aqable,Anirna,Aumna,Afobna,Adegna,Amonna,Aekla,Aona,Afemla,Airwa,Anolwa,Apedna,Arina,Apokna,Amerna,Aebwa,Ntengla,Ntengma,Ntengwa,Ntengra,Ntengka,Kumasi,Abidjan,Dokan Tofa,Bukuru,Samburu"
 },
 {
     "name": "Nuer",
@@ -5854,7 +5854,7 @@ window.africaNameBases = [
   "b": "Bentiu,Malakal,Nasir,Akobo,Waat,Leer,Mayom,Guit,Rubkona,Pariang,Panyijar,Nyal,Rumbek,Yirol,Tonj,Wau,Gogrial,Aweil,Kampala,Entebbe,Jinja,Mbarara,Gulu,Lira,Mbale,RasKamboni,Deynile,Hobyo,Kudhaa,Shimba,Tabaka,Marsabit,Murcanyo,Buqda,Galkacyo,Elwak,Mkonumbi,Isebania,Maikona,Cagare,Afutsa,Akigma,Anadma,Apudsa,Aidfa,Anenma,Adagma,Abelsa,Alarsa,Afarma,Amekma,Afamsa,Amegsa,Akabsa,Alobma,Nuerla,Nuerma,Nuerwa,Nuerra,Nuerka"
 },
 {
-    "name": "Nyam", "i": 200137, "min": 3, "max": 12, "d": "lnrt", "m": 0, "b": "Nyam,Karim Lamido,Didango,Jalingo,Wukari,Takum,Bali,Gassol,Ibi,Yorro,Zing,Donga,Kurmi,Ussa,Ardo Kola,Gashaka,Lau,Mutum Biyu,Sardauna,Yola,Mubi,Madagali,Michika,Hong,Gombi,Koriley,BuloBurde,Guriel,Golbo,Chundwa,Mabera,NorthHorr,Jiingadda,Adale,Caabudwaaq,Barich,Mohoro,Borabu,FergusonsGulf,Hareeri,Abugna,Abogla,Apubbwe,Anibwe,Abekbwe,Apikbwe,Alinla,Alubna,Abodla,Apila,Ainbwe,Anonbwe,Apibbwe,Aemla,Anutbwe,Nyamla,Nyamma,Nyamwa,Nyamra,Nyamka"
+    "name": "Nyam", "i": 200137, "min": 3, "max": 12, "d": "lnrt", "m": 0, "b": "Nyam,Karim Lamido,Didango,Jalingo,Wukari,Takum,Bali,Gassol,Ibi,Yorro,Zing,Donga,Kurmi,Ussa,Gashaka,Lau,Mutum Biyu,Sardauna,Yola,Mubi,Madagali,Michika,Hong,Gombi,Koriley,BuloBurde,Guriel,Golbo,Chundwa,Mabera,NorthHorr,Jiingadda,Adale,Caabudwaaq,Barich,Mohoro,Borabu,FergusonsGulf,Hareeri,Abugna,Abogla,Apubbwe,Anibwe,Abekbwe,Apikbwe,Alinla,Alubna,Abodla,Apila,Ainbwe,Anonbwe,Apibbwe,Aemla,Anutbwe,Nyamla,Nyamma,Nyamwa,Nyamra,Nyamka,Ardo Kola"
 },
 {
     "name": "Nzanyi",
@@ -5863,7 +5863,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Nzanyi,Ganye,Jada,Mubi,Hong,Maiha,Gombi,Michika,Madagali,Gulak,Lasa,Biu,Song,Kwami,Pindiga,Numan,Jimeta,Yola,Sanda,Toungo,Mayo Belwa,Garkida,Guyaku,Boga,Demsa,Waamo,Giohar,Guriceel,Selina,Sindo,Galole,Kalokol,Harardera,Mahaday,Yeed,Kidimu,HomaBay,Kiunga,Kibish,GofKudle,Alolta,Akorfa,Abista,Amanta,Akesta,Apakta,Abifa,Amumta,Adesa,Akerta,Anulfa,Alunta,Abetsa,Anakfa,Afedta,Nzanyila,Nzanyima,Nzanyiwa,Nzanyira,Nzanyika"
+  "b": "Nzanyi,Ganye,Jada,Mubi,Hong,Maiha,Gombi,Michika,Madagali,Gulak,Lasa,Biu,Song,Kwami,Pindiga,Numan,Jimeta,Yola,Sanda,Toungo,Mayo Belwa,Garkida,Guyaku,Boga,Demsa,Waamo,Giohar,Guriceel,Selina,Sindo,Galole,Kalokol,Harardera,Mahaday,Yeed,Kidimu,Kiunga,Kibish,Alolta,Akorfa,Abista,Amanta,Akesta,Apakta,Abifa,Amumta,Adesa,Akerta,Anulfa,Alunta,Abetsa,Anakfa,Afedta,Nzanyila,Nzanyima,Nzanyiwa,Nzanyira,Nzanyika,HomaBay,GofKudle"
 },
 {
     "name": "Nǁng",
@@ -5872,7 +5872,7 @@ window.africaNameBases = [
   "max": 15,
   "d": "lnrt",
   "m": 0,
-  "b": "ǁKhauxaǃnas,Koes,Rietfontein,Grootfontein,Upington,Kakamas,Keimoes,Grootdrink,Groblershoop,Marydale,Prieska,Douglas,Campbell,Barkly West,Delportshoop,Ulco,Warrenton,Bloemhof,Christiana,Mahikeng,Zeerust,Sannieshof,Coligny,Delareyville,Ottosdal,Hartbeesfontein,Koster,Rustenburg,Swartruggens,Groot Marico,Vleesbaai,Herbertsdale,Stilbaai,Riversdale,Albertinia,Bredasdorp,Napier,Arniston,Struisbaai,L'Agulhas,Elim"
+  "b": "ǁKhauxaǃnas,Koes,Rietfontein,Grootfontein,Upington,Kakamas,Keimoes,Grootdrink,Groblershoop,Marydale,Prieska,Douglas,Campbell,Barkly West,Delportshoop,Ulco,Warrenton,Bloemhof,Christiana,Mahikeng,Zeerust,Sannieshof,Coligny,Ottosdal,Hartbeesfontein,Koster,Swartruggens,Groot Marico,Vleesbaai,Herbertsdale,Stilbaai,Riversdale,Albertinia,Bredasdorp,Napier,Arniston,Struisbaai,L,Lomé,Cotonou'Agulhas,Elim,Delareyville,Rustenburg,L'Agulhas"
 },
 {
     "name": "Omo–Tana",
@@ -5881,7 +5881,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Moyale,Marsabit,Isiolo,Garissa,Wajir,Mandera,Lokichoggio,Lodwar,Kakuma,Yola,Mubi,Madagali,Michika,Hong,Gombi,Song,Garkida,Guyaku,Boga,Numan,Demsa,Jimeta,Ganye,Jada,Fufore,Janaale,LaasGacamey,ElBarde,Ndau,Vihiga,Mariakani,Moyale,SaLul,Erigavo,Baardheere,Bwiti,Bungoma,Lamu,Imi,GeedWeen,Aputra,Ademra,Anasta,Apadta,Anumsa,Abigsa,Apossa,Ailra,Abalsa,Aagsa,Aarta,Apimra,Akinsa,Amatta,Adumra,OmoTanala,OmoTanama,OmoTanawa,OmoTanara,OmoTanaka"
+  "b": "Moyale,Marsabit,Isiolo,Garissa,Wajir,Mandera,Lokichoggio,Lodwar,Kakuma,Yola,Mubi,Madagali,Michika,Hong,Gombi,Song,Garkida,Guyaku,Boga,Numan,Demsa,Jimeta,Ganye,Jada,Fufore,Janaale,LaasGacamey,ElBarde,Ndau,Vihiga,Mariakani,SaLul,Erigavo,Baardheere,Bwiti,Bungoma,Lamu,Imi,GeedWeen,Aputra,Ademra,Anasta,Apadta,Anumsa,Abigsa,Apossa,Ailra,Abalsa,Aagsa,Aarta,Apimra,Akinsa,Amatta,Adumra,OmoTanala,OmoTanama,OmoTanawa,OmoTanara,OmoTanaka"
 },
 {
     "name": "Oromoid",
@@ -5890,7 +5890,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Addis Ababa,Dire Dawa,Harar,Jimma,Nekemte,Ambo,Adama,Bishoftu,Shashamane,Hawassa,Dilla,Yirgalem,Waliso,Metu,Gore,Dembi Dolo,Gimbi,Yola,Mubi,Madagali,Michika,Hong,Gombi,Song,Garkida,Cagaaran,Ufeyn,Dinsor,Jongole,Kimilili,Garsen,Shilabo,Jasiira,Qardho,Merka,Ngao,Ekerenyo,Garissa,Farlibaax,Dhalwo,Amatbwe,Alukbwe,Anibka,Aminwa,Adakwa,Apidka,Aditbwe,Akiska,Adobwa,Apirka,Adabwa,Analbwe,Afombwe,Amerbwe,Abogbwe,Oromoidla,Oromoidma,Oromoidwa,Oromoidra,Oromoidka"
+  "b": "Addis Ababa,Harar,Jimma,Nekemte,Ambo,Adama,Bishoftu,Shashamane,Hawassa,Dilla,Yirgalem,Waliso,Metu,Gore,Dembi Dolo,Gimbi,Yola,Mubi,Madagali,Michika,Hong,Gombi,Song,Garkida,Cagaaran,Ufeyn,Dinsor,Jongole,Kimilili,Garsen,Shilabo,Jasiira,Qardho,Merka,Ngao,Ekerenyo,Garissa,Farlibaax,Dhalwo,Amatbwe,Alukbwe,Anibka,Aminwa,Adakwa,Apidka,Aditbwe,Akiska,Adobwa,Apirka,Adabwa,Analbwe,Afombwe,Amerbwe,Abogbwe,Oromoidla,Oromoidma,Oromoidwa,Oromoidra,Oromoidka,Dire Dawa"
 },
 {
     "name": "Paa",
@@ -5899,7 +5899,7 @@ window.africaNameBases = [
   "max": 13,
   "d": "lnrt",
   "m": 0,
-  "b": "Paa,Darazo,Ganjuwa,Kafin Madaki,Soro,Miya,Baben Kasa,Badaromo,Barkaya,Dagale,Deno,Digawa,Dugumi,Gurzumo,Janu,Kariya,Kubi,Nassarawa,Siri,Tafawa,Zibinju,Choogen,Toro,Alkaleri,Kirfi,Ningi,Warji,Dass,Tafawa Balewa,Bogoro,Lere,Lame,Rano,Wudil,Dukku,Gamawa,Misau,Jama'are,Katagum,Shira,Giade,Itas,Zaki,Azare,Bulkachuwa,Bagula,Iskushuban,Gendershe,Garsen,Ikonge,ElDera,Haraale,Salkaxo,Garowe,Janaale,Kaloleni,Masige,ArchersPost,RasKamboni,Deynile,Anubma,Adibta,Anekta,Alota,Aebma,Adorma,Anitma,Apitta,Akomma,Aligma,Apenta,Anibta,Afutma,Afagma,Afobma,Paala,Paama,Paawa,Paara,Paaka"
+  "b": "Paa,Darazo,Ganjuwa,Kafin Madaki,Soro,Miya,Badaromo,Barkaya,Dagale,Deno,Digawa,Dugumi,Gurzumo,Janu,Kariya,Kubi,Nassarawa,Siri,Tafawa,Zibinju,Choogen,Toro,Alkaleri,Kirfi,Ningi,Warji,Dass,Tafawa Balewa,Bogoro,Lere,Lame,Rano,Wudil,Dukku,Gamawa,Misau,Jama'are,Katagum,Shira,Giade,Itas,Zaki,Azare,Bulkachuwa,Bagula,Iskushuban,Gendershe,Garsen,Ikonge,Haraale,Salkaxo,Garowe,Janaale,Kaloleni,Masige,ArchersPost,RasKamboni,Deynile,Anubma,Adibta,Anekta,Alota,Aebma,Adorma,Anitma,Apitta,Akomma,Aligma,Apenta,Anibta,Afutma,Afagma,Afobma,Paala,Paama,Paawa,Paara,Paaka,Baben Kasa,ElDera"
 },
 {
     "name": "Pali language (Chadic)",
@@ -5908,7 +5908,7 @@ window.africaNameBases = [
   "max": 13,
   "d": "lnrt",
   "m": 0,
-  "b": "Pali,Darazo,Ganjuwa,Kafin Madaki,Soro,Miya,Baben Kasa,Badaromo,Barkaya,Dagale,Deno,Digawa,Dugumi,Gurzumo,Janu,Kariya,Kubi,Nassarawa,Siri,Tafawa,Zibinju,Choogen,Toro,Alkaleri,Kirfi,Ningi,Warji,Dass,Tafawa Balewa,Bogoro,Lere,Lame,Rano,Wudil,Dukku,Gamawa,Misau,Jama'are,Katagum,Shira,Giade,Itas,Zaki,Azare,Bulkachuwa,Kabxan,Gaalkacyo,Maraag,Mackinnon,Nyamira,Wamba,Xato,Sarameer,Rigomane,BilisQoqani,Jombo,Kihancha,Laisamis,Koriley,BuloBurde,Akela,Amelwa,Afoska,Afela,Abanka,Anoka,Akenla,Akolka,Afugla,Amurka,Akutla,Akabka,Afubla,Amabka,Aatka,PalilanguageChadicla,PalilanguageChadicma,PalilanguageChadicwa,PalilanguageChadicra,PalilanguageChadicka"
+  "b": "Pali,Darazo,Ganjuwa,Kafin Madaki,Soro,Miya,Badaromo,Barkaya,Dagale,Deno,Digawa,Dugumi,Gurzumo,Janu,Kariya,Kubi,Nassarawa,Siri,Tafawa,Zibinju,Choogen,Toro,Alkaleri,Kirfi,Ningi,Warji,Dass,Tafawa Balewa,Bogoro,Lere,Lame,Rano,Wudil,Dukku,Gamawa,Misau,Jama'are,Katagum,Shira,Giade,Itas,Zaki,Azare,Bulkachuwa,Kabxan,Gaalkacyo,Maraag,Mackinnon,Nyamira,Wamba,Xato,Sarameer,Rigomane,BilisQoqani,Jombo,Kihancha,Laisamis,Koriley,BuloBurde,Akela,Amelwa,Afoska,Afela,Abanka,Anoka,Akenla,Akolka,Afugla,Amurka,Akutla,Akabka,Afubla,Amabka,Aatka,Baben Kasa,PalilanguageChadicla,PalilanguageChadicma,PalilanguageChadicwa,PalilanguageChadicra,PalilanguageChadicka"
 },
 {
     "name": "Pan",
@@ -5917,7 +5917,7 @@ window.africaNameBases = [
   "max": 13,
   "d": "lnrt",
   "m": 0,
-  "b": "Pan,Darazo,Ganjuwa,Kafin Madaki,Soro,Miya,Baben Kasa,Badaromo,Barkaya,Dagale,Deno,Digawa,Dugumi,Gurzumo,Janu,Kariya,Kubi,Nassarawa,Siri,Tafawa,Zibinju,Choogen,Toro,Alkaleri,Kirfi,Ningi,Warji,Dass,Tafawa Balewa,Bogoro,Lere,Lame,Rano,Wudil,Dukku,Gamawa,Misau,Jama'are,Katagum,Shira,Giade,Itas,Zaki,Azare,Bulkachuwa,Duduble,Galdogob,Dhoobley,Vanga,Suba,Korr,Gurfuudle,Dabare,Runni,Kachoda,Mkokoni,Kehancha,Sibiloi,Waamo,Giohar,Anokma,Amogma,Aomra,Amitra,Aamfa,Alomma,Apudfa,Amolfa,Abera,Aabra,Anesfa,Alorfa,Akumfa,Alolra,Adebfa,Panla,Panma,Panwa,Panra,Panka"
+  "b": "Pan,Darazo,Ganjuwa,Kafin Madaki,Soro,Miya,Badaromo,Barkaya,Dagale,Deno,Digawa,Dugumi,Gurzumo,Janu,Kariya,Kubi,Nassarawa,Siri,Tafawa,Zibinju,Choogen,Toro,Alkaleri,Kirfi,Ningi,Warji,Dass,Tafawa Balewa,Bogoro,Lere,Lame,Rano,Wudil,Dukku,Gamawa,Misau,Jama'are,Katagum,Shira,Giade,Itas,Zaki,Azare,Bulkachuwa,Duduble,Galdogob,Dhoobley,Vanga,Suba,Korr,Gurfuudle,Dabare,Runni,Kachoda,Mkokoni,Kehancha,Sibiloi,Waamo,Giohar,Anokma,Amogma,Aomra,Amitra,Aamfa,Alomma,Apudfa,Amolfa,Abera,Aabra,Anesfa,Alorfa,Akumfa,Alolra,Adebfa,Panla,Panma,Panwa,Panra,Panka,Baben Kasa"
 },
 {
     "name": "Parkwa",
@@ -5962,7 +5962,7 @@ window.africaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-  "b": "Piya,Karim Lamido,Didango,Jalingo,Wukari,Takum,Bali,Gassol,Ibi,Yorro,Zing,Donga,Kurmi,Ussa,Ardo Kola,Gashaka,Lau,Mutum Biyu,Sardauna,Yola,Mubi,Madagali,Michika,Hong,Gombi,Xaafuun,Lanta,Ozi,Tindinyo,Masalani,ElKere,Garawe,Bargaal,Afgooye,Malindi,Sengera,ElBur,AbudWaaq,Kabxan,Gaalkacyo,Apitka,Aledna,Adukna,Alabna,Apisna,Aalka,Aemna,Ademna,Afesna,Anadna,Akinbwe,Aloka,Amegka,Abadka,Aakna,Piyala,Piyama,Piyawa,Piyara,Piyaka"
+  "b": "Piya,Karim Lamido,Didango,Jalingo,Wukari,Takum,Bali,Gassol,Ibi,Yorro,Zing,Donga,Kurmi,Ussa,Gashaka,Lau,Mutum Biyu,Sardauna,Yola,Mubi,Madagali,Michika,Hong,Gombi,Xaafuun,Lanta,Ozi,Tindinyo,Masalani,Garawe,Bargaal,Afgooye,Malindi,Sengera,ElBur,AbudWaaq,Kabxan,Gaalkacyo,Apitka,Aledna,Adukna,Alabna,Apisna,Aalka,Aemna,Ademna,Afesna,Anadna,Akinbwe,Aloka,Amegka,Abadka,Aakna,Piyala,Piyama,Piyawa,Piyara,Piyaka,Ardo Kola,ElKere"
 },
 {
     "name": "Poki",
@@ -5971,7 +5971,7 @@ window.africaNameBases = [
   "max": 13,
   "d": "lnrt",
   "m": 0,
-  "b": "Poki,Darazo,Ganjuwa,Kafin Madaki,Soro,Miya,Baben Kasa,Badaromo,Barkaya,Dagale,Deno,Digawa,Dugumi,Gurzumo,Janu,Kariya,Kubi,Nassarawa,Siri,Tafawa,Zibinju,Choogen,Toro,Alkaleri,Kirfi,Ningi,Warji,Dass,Tafawa Balewa,Bogoro,Lere,Lame,Rano,Wudil,Dukku,Gamawa,Misau,Jama'are,Katagum,Shira,Giade,Itas,Zaki,Azare,Bulkachuwa,Bereeda,Shalambood,Kilifi,Rioma,Habaswein,TulaNaga,Sarweyne,Koorma,Xarardheere,Mariakani,Kisii,Maralal,Liibaan,Duduble,Galdogob,Akubra,Akussa,Abutta,Alensa,Afolra,Aoksa,Adora,Afaksa,Apomra,Anomsa,Afegra,Aladsa,Pokila,Pokima,Pokiwa,Pokira,Pokika,Pokita,Pokibwe,Pokisa"
+  "b": "Poki,Darazo,Ganjuwa,Kafin Madaki,Soro,Miya,Badaromo,Barkaya,Dagale,Deno,Digawa,Dugumi,Gurzumo,Janu,Kariya,Kubi,Nassarawa,Siri,Tafawa,Zibinju,Choogen,Toro,Alkaleri,Kirfi,Ningi,Warji,Dass,Tafawa Balewa,Bogoro,Lere,Lame,Rano,Wudil,Dukku,Gamawa,Misau,Jama'are,Katagum,Shira,Giade,Itas,Zaki,Azare,Bulkachuwa,Bereeda,Shalambood,Kilifi,Rioma,Habaswein,Sarweyne,Koorma,Xarardheere,Mariakani,Kisii,Maralal,Liibaan,Duduble,Galdogob,Akubra,Akussa,Abutta,Alensa,Afolra,Aoksa,Adora,Afaksa,Apomra,Anomsa,Afegra,Aladsa,Pokila,Pokima,Pokiwa,Pokira,Pokika,Pokita,Pokibwe,Pokisa,Baben Kasa,TulaNaga"
 },
 {
     "name": "Polci",
@@ -5980,7 +5980,7 @@ window.africaNameBases = [
   "max": 13,
   "d": "lnrt",
   "m": 0,
-  "b": "Polci,Darazo,Ganjuwa,Kafin Madaki,Soro,Miya,Baben Kasa,Badaromo,Barkaya,Dagale,Deno,Digawa,Dugumi,Gurzumo,Janu,Kariya,Kubi,Nassarawa,Siri,Tafawa,Zibinju,Choogen,Toro,Alkaleri,Kirfi,Ningi,Warji,Dass,Tafawa Balewa,Bogoro,Lere,Lame,Rano,Wudil,Dukku,Gamawa,Misau,Jama'are,Katagum,Shira,Giade,Itas,Zaki,Azare,Bulkachuwa,Gambol,Harardhere,Bamba,Keroka,Baragoi,Ddabo,Ragehe,Godinlabe,Afmadow,Jimbo,Suna,Kargi,Geesaley,Dhuusamareeb,Balad,Abewa,Aosbwe,Alanbwe,Akobwe,Afowa,Abadbwe,Afogwa,Alutbwe,Adelwa,Amonwa,Anorwa,Akeska,Alegwa,Amawa,Afatwa,Polcila,Polcima,Polciwa,Polcira,Polcika"
+  "b": "Polci,Darazo,Ganjuwa,Kafin Madaki,Soro,Miya,Badaromo,Barkaya,Dagale,Deno,Digawa,Dugumi,Gurzumo,Janu,Kariya,Kubi,Nassarawa,Siri,Tafawa,Zibinju,Choogen,Toro,Alkaleri,Kirfi,Ningi,Warji,Dass,Tafawa Balewa,Bogoro,Lere,Lame,Rano,Wudil,Dukku,Gamawa,Misau,Jama'are,Katagum,Shira,Giade,Itas,Zaki,Azare,Bulkachuwa,Gambol,Harardhere,Bamba,Keroka,Baragoi,Ddabo,Ragehe,Godinlabe,Afmadow,Jimbo,Suna,Kargi,Geesaley,Dhuusamareeb,Balad,Abewa,Aosbwe,Alanbwe,Akobwe,Afowa,Abadbwe,Afogwa,Alutbwe,Adelwa,Amonwa,Anorwa,Akeska,Alegwa,Amawa,Afatwa,Polcila,Polcima,Polciwa,Polcira,Polcika,Baben Kasa"
 },
 {
     "name": "Proto-Berber",
@@ -6016,7 +6016,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Pyapun,Shendam,Langung,Panyam,Balong,Dokan Tofa,Jos,Bukuru,Pankshin,Mangu,Kabwir,Gindiri,Riyom,Barkin Ladi,Keffi,Lafia,Akwanga,Karu,Kokona,Awe,Doma,Keana,Obi,Agyaraku,Wamba,Nunku,Assakio,Effium,Ugbokpo,Otukpo,Okpokwu,Adoka,Ankpa,Dekina,Idah,Igalamela,Olamaboro,Omala,Ugwalawo,Umon,Nsukka,Dolow,Gongoni,Bondo,Vipingo,Konso,CeyrTabaan,Laasqoray,QansaxDheere,Garsen,Mumias,Malindi,Yavello,Guba,Xaafuun,Lanta,Akemwa,Amalna,Aarwa,Aletna,Afurna,Apedwa,Aninna,Apogna,Apunwa,Anemna,Aegna,Apalna,Abitwa,Afisna,Apimwa,Pyapunla,Pyapunma,Pyapunwa,Pyapunra,Pyapunka"
+  "b": "Pyapun,Shendam,Langung,Panyam,Balong,Jos,Pankshin,Mangu,Kabwir,Gindiri,Riyom,Barkin Ladi,Keffi,Lafia,Akwanga,Karu,Kokona,Awe,Doma,Keana,Obi,Agyaraku,Wamba,Nunku,Assakio,Effium,Ugbokpo,Otukpo,Okpokwu,Adoka,Ankpa,Dekina,Idah,Igalamela,Olamaboro,Omala,Ugwalawo,Umon,Nsukka,Dolow,Gongoni,Bondo,Vipingo,Konso,CeyrTabaan,Laasqoray,Garsen,Mumias,Malindi,Yavello,Guba,Xaafuun,Lanta,Akemwa,Amalna,Aarwa,Aletna,Afurna,Apedwa,Aninna,Apogna,Apunwa,Anemna,Aegna,Apalna,Abitwa,Afisna,Apimwa,Pyapunla,Pyapunma,Pyapunwa,Pyapunra,Pyapunka,Lagos,Dokan Tofa,Bukuru,QansaxDheere"
 },
 {
     "name": "Rendille–Boni",
@@ -6034,7 +6034,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ron,Bassa,Jos,Bukuru,Pankshin,Mangu,Kabwir,Gindiri,Riyom,Barkin Ladi,Keffi,Lafia,Akwanga,Karu,Kokona,Awe,Doma,Keana,Obi,Agyaraku,Wamba,Nunku,Assakio,Effium,Ugbokpo,Otukpo,Okpokwu,Adoka,Ankpa,Dekina,Idah,Igalamela,Olamaboro,Omala,Ugwalawo,Umon,Nsukka,Gamey,Kipini,Nyakoe,Bura,Wachile,GarasQod,Bacad,BuuloMarer,Mtwapa,Getembe,Habasiwein,Dudun,Toon,Gambol,Harardhere,Amigna,Akitbwe,Abibna,Amisbwe,Aisla,Adebwe,Abirbwe,Abula,Abekla,Amotla,Apegla,Afakbwe,Alolla,Aberla,Adanbwe,RonChadicla,RonChadicma,RonChadicwa,RonChadicra,RonChadicka"
+  "b": "Ron,Bassa,Jos,Pankshin,Mangu,Kabwir,Gindiri,Riyom,Barkin Ladi,Keffi,Lafia,Akwanga,Karu,Kokona,Awe,Doma,Keana,Obi,Agyaraku,Wamba,Nunku,Assakio,Effium,Ugbokpo,Otukpo,Okpokwu,Adoka,Ankpa,Dekina,Idah,Igalamela,Olamaboro,Omala,Ugwalawo,Umon,Nsukka,Gamey,Kipini,Nyakoe,Bura,Wachile,GarasQod,Bacad,BuuloMarer,Mtwapa,Getembe,Habasiwein,Dudun,Toon,Gambol,Harardhere,Amigna,Akitbwe,Abibna,Amisbwe,Aisla,Adebwe,Abirbwe,Abula,Abekla,Amotla,Apegla,Afakbwe,Alolla,Aberla,Adanbwe,Kano,Bukuru,RonChadicla,RonChadicma,RonChadicwa,RonChadicra,RonChadicka"
 },
 {
     "name": "Saba Chadic",
@@ -6043,7 +6043,7 @@ window.africaNameBases = [
   "max": 15,
   "d": "lnrt",
   "m": 0,
-  "b": "Saba,Mayo-Kebbi,Bongor,Pala,Fianga,Léré,Koumra,Doba,Moundou,Bébédjia,Béïnamar,Béïssa,Békiri,Béladja,Béssao,Béti,Boumo,Danamadji,Déressia,Djedah,Dourbali,Goré,Goundi,Grégué,Guélengdeng,Kélo,Kyabé,Mbaïbokoum,Mbaïkoro,Ndam,Ngourkosso,Sarh,Béré,Biltine,Am Timan,Abou Deïa,Adré,Am Dam,Assinet,Bahaï,Baktchoro,Daguessa,Dar Tama,Djourf Al Ahmar,Ennedi,Fada,Iriba,Ounianga,Goobweyn,Rabai,Manga,Merti,Hula,Kaxare,Bacadweyn,Burdhubo,Samburu,Ogembo,SouthHorr,Dhalwo,Aqable,Jariiban,Garbaharey,Apolta,Alinta,Alodta,Amokta,Alomta,Anirta,Aegta,SabaChadicla,SabaChadicma,SabaChadicwa,SabaChadicra,SabaChadicka,SabaChadicta,SabaChadicbwe,SabaChadicsa,SabaChadicna,SabaChadicfa,SabaChadicga,SabaChadicja,SabaChadicda"
+  "b": "Saba,Mayo-Kebbi,Bongor,Pala,Fianga,Léré,Koumra,Doba,Moundou,Bébédjia,Béïnamar,Béïssa,Békiri,Béladja,Béssao,Béti,Boumo,Danamadji,Déressia,Djedah,Dourbali,Goré,Goundi,Grégué,Guélengdeng,Kélo,Kyabé,Mbaïbokoum,Mbaïkoro,Ndam,Ngourkosso,Sarh,Béré,Biltine,Am Timan,Abou Deïa,Adré,Am Dam,Assinet,Bahaï,Baktchoro,Daguessa,Djourf Al Ahmar,Ennedi,Fada,Iriba,Ounianga,Goobweyn,Rabai,Manga,Merti,Hula,Kaxare,Bacadweyn,Burdhubo,Ogembo,SouthHorr,Dhalwo,Aqable,Jariiban,Garbaharey,Apolta,Alinta,Alodta,Amokta,Alomta,Anirta,Aegta,Ibadan,Dar Tama,Samburu,SabaChadicla,SabaChadicma,SabaChadicwa,SabaChadicra,SabaChadicka,SabaChadicta,SabaChadicbwe,SabaChadicsa,SabaChadicna,SabaChadicfa,SabaChadicga,SabaChadicja,SabaChadicda"
 },
 {
     "name": "Saho–Afar",
@@ -6061,7 +6061,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Sandawe,Kondoa,Mpwapwa,Kongwa,Dodoma,Manyoni,Singida,Babati,Hanang,Mbulu,Karatu,Kiteto,Simanjiro,Meru,Arusha,Moshi,Hai,Siha,Rombo,Mwanga,Same,Lushoto,Korogwe,Muheza,Pangani,Handeni,Kilindi,Mkinga,Tanga,Bagamoyo,Kibaha,Morogoro,Kilosa,Mlimba,Ifakara,Kidodi,Kilombero,Mahenge,Malinyi,Ulanga,Ruvuma,Songea,Namtumbo,Mbinga,Nyasa,Tunduru,Masasi,Nachingwea,Lindi,Kilwa,Ruangwa,Golbo,Chundwa,Mabera,NorthHorr,Jiingadda,Adale,Caabudwaaq,Barich,Mohoro,Borabu,FergusonsGulf,Hareeri,Balcad,Berdaale,Kinarani,Sandawela,Sandawema,Sandawewa,Sandawera,Sandaweka,Sandaweta,Sandawebwe,Sandawesa,Sandawena,Sandawefa,Sandawega,Sandaweja,Sandaweda,Sandawene,Sandawele,Sandawere,Sandawezi,Sandawebo,Sandaweki,Sandawemu"
+  "b": "Sandawe,Kondoa,Mpwapwa,Kongwa,Dodoma,Manyoni,Singida,Babati,Hanang,Mbulu,Karatu,Kiteto,Simanjiro,Meru,Arusha,Moshi,Hai,Siha,Rombo,Mwanga,Same,Lushoto,Korogwe,Muheza,Pangani,Handeni,Kilindi,Mkinga,Tanga,Bagamoyo,Kibaha,Morogoro,Kilosa,Mlimba,Ifakara,Kidodi,Kilombero,Mahenge,Malinyi,Ulanga,Ruvuma,Songea,Namtumbo,Mbinga,Nyasa,Masasi,Nachingwea,Lindi,Kilwa,Ruangwa,Golbo,Chundwa,Mabera,NorthHorr,Jiingadda,Adale,Caabudwaaq,Barich,Mohoro,Borabu,FergusonsGulf,Hareeri,Balcad,Berdaale,Kinarani,Sandawela,Sandawema,Sandawewa,Sandawera,Sandaweka,Sandaweta,Sandawebwe,Sandawesa,Sandawena,Sandawefa,Sandawega,Sandaweja,Sandaweda,Sandawene,Sandawele,Sandawere,Sandawezi,Sandawebo,Sandaweki,Sandawemu,Abuja,Tunduru"
 },
 {
     "name": "Sar",
@@ -6070,7 +6070,7 @@ window.africaNameBases = [
   "max": 15,
   "d": "lnrt",
   "m": 0,
-  "b": "Sar,Mayo-Kebbi,Bongor,Pala,Fianga,Léré,Koumra,Doba,Moundou,Bébédjia,Béïnamar,Béïssa,Békiri,Béladja,Béssao,Béti,Boumo,Danamadji,Déressia,Djedah,Dourbali,Goré,Goundi,Grégué,Guélengdeng,Kélo,Kyabé,Mbaïbokoum,Mbaïkoro,Ndam,Ngourkosso,Sarh,Béré,Biltine,Am Timan,Abou Deïa,Adré,Am Dam,Assinet,Bahaï,Baktchoro,Daguessa,Dar Tama,Djourf Al Ahmar,Ennedi,Fada,Iriba,Ounianga,Selina,Sindo,Galole,Kalokol,Harardera,Mahaday,Yeed,Kidimu,HomaBay,Kiunga,Kibish,GofKudle,Wanleweyn,Dolow,Gongoni,Aluwa,Akakwa,Alewa,Sarla,Sarma,Sarwa,Sarra,Sarka,Sarta,Sarbwe,Sarsa,Sarna,Sarfa,Sarga,Sarja,Sarda,Sarne,Sarle,Sarre,Sarzi"
+  "b": "Sar,Mayo-Kebbi,Bongor,Pala,Fianga,Léré,Koumra,Doba,Moundou,Bébédjia,Béïnamar,Béïssa,Békiri,Béladja,Béssao,Béti,Boumo,Danamadji,Déressia,Djedah,Dourbali,Goré,Goundi,Grégué,Guélengdeng,Kélo,Kyabé,Mbaïbokoum,Mbaïkoro,Ndam,Ngourkosso,Sarh,Béré,Biltine,Am Timan,Abou Deïa,Adré,Am Dam,Assinet,Bahaï,Baktchoro,Daguessa,Djourf Al Ahmar,Ennedi,Fada,Iriba,Ounianga,Selina,Sindo,Galole,Kalokol,Harardera,Mahaday,Yeed,Kidimu,Kiunga,Kibish,Wanleweyn,Dolow,Gongoni,Aluwa,Akakwa,Alewa,Sarla,Sarma,Sarwa,Sarra,Sarka,Sarta,Sarbwe,Sarsa,Sarna,Sarfa,Sarga,Sarja,Sarda,Sarne,Sarle,Sarre,Sarzi,Dar Tama,HomaBay,GofKudle"
 },
 {
     "name": "Sarua",
@@ -6079,7 +6079,7 @@ window.africaNameBases = [
   "max": 13,
   "d": "lnrt",
   "m": 0,
-  "b": "Sarua,Mokolo,Mogodé,Gawar,Kortchi,Maroua,Mora,Waza,Kousséri,Mayo-Ouldémé,Mayo-Maskola,Dzigilao,Gawawa,Gawar Lamordé,Gawar Windé,Mafa,Mofu,Hina,Daba,Buwal,Galdala,Gadala,Kapsiki,Cuvok,Bulahay,Matakam,Mogoré,Mouhour,Rhumsiki,Mémé,Mokong,Mofoué,Moulvoudaye,Moutourwa,Moyen Chari,Ngaoundéré,Ngaoundal,Tibati,Banyo,Galim,Tignère,Pongwe,KenduBay,Faza,Omorate,Qoton,Afgoi,Beledhawo,Jamia,Siaya,Samburu,Ririba,Galolk,CeelAfweyn,Baidoa,Chara,Saruala,Saruama,Saruawa,Saruara,Saruaka,Saruata,Saruabwe,Saruasa,Saruana,Saruafa,Saruaga,Saruaja,Saruada,Saruane,Saruale,Saruare,Saruazi,Saruabo,Saruaki,Saruamu"
+  "b": "Sarua,Mokolo,Mogodé,Gawar,Kortchi,Maroua,Mora,Waza,Kousséri,Mayo-Ouldémé,Mayo-Maskola,Dzigilao,Gawawa,Gawar Lamordé,Gawar Windé,Mafa,Mofu,Hina,Daba,Buwal,Galdala,Gadala,Kapsiki,Cuvok,Bulahay,Matakam,Mogoré,Mouhour,Rhumsiki,Mémé,Mokong,Mofoué,Moulvoudaye,Moutourwa,Moyen Chari,Ngaoundéré,Ngaoundal,Tibati,Banyo,Galim,Tignère,Pongwe,Faza,Omorate,Qoton,Afgoi,Beledhawo,Jamia,Siaya,Ririba,Galolk,CeelAfweyn,Baidoa,Chara,Saruala,Saruama,Saruawa,Saruara,Saruaka,Saruata,Saruabwe,Saruasa,Saruana,Saruafa,Saruaga,Saruaja,Saruada,Saruane,Saruale,Saruare,Saruazi,Saruabo,Saruaki,Saruamu,Tamale,KenduBay,Samburu"
 },
 {
     "name": "Setlôkwa",
@@ -6088,7 +6088,7 @@ window.africaNameBases = [
   "max": 15,
   "d": "lnrt",
   "m": 0,
-  "b": "Setlôkwa,Gaborone,Molepolole,Thamaga,Mogoditshane,Kanye,Moshupa,Ramotswa,Tlokweng,Otse,Gabane,Metsemotlhaba,Kopong,Mmathubudukwane,Oodi,Bokaa,Morwa,Malotwana,Pilane,Mogobane,Lobatse,Mochudi,Yola,Mubi,Madagali,Ndau,Vihiga,Mariakani,Moyale,SaLul,Erigavo,Baardheere,Bwiti,Bungoma,Lamu,Imi,GeedWeen,Karindoolay,Gamey,Kipini,Setlkwala,Setlkwama,Setlkwawa,Setlkwara,Setlkwaka,Setlkwata,Setlkwabwe,Setlkwasa,Setlkwana,Setlkwafa,Setlkwaga,Setlkwaja,Setlkwada,Setlkwane,Setlkwale,Setlkware,Setlkwazi,Setlkwabo,Setlkwaki,Setlkwamu"
+  "b": "Gaborone,Molepolole,Thamaga,Mogoditshane,Kanye,Moshupa,Ramotswa,Tlokweng,Otse,Gabane,Metsemotlhaba,Kopong,Mmathubudukwane,Oodi,Bokaa,Morwa,Malotwana,Pilane,Mogobane,Lobatse,Mochudi,Yola,Mubi,Madagali,Ndau,Vihiga,Mariakani,Moyale,SaLul,Erigavo,Baardheere,Bwiti,Bungoma,Lamu,Imi,GeedWeen,Karindoolay,Gamey,Kipini,Setlkwala,Setlkwama,Setlkwawa,Setlkwara,Setlkwaka,Setlkwata,Setlkwabwe,Setlkwasa,Setlkwana,Setlkwafa,Setlkwaga,Setlkwaja,Setlkwane,Setlkwale,Setlkware,Setlkwazi,Setlkwabo,Setlkwaki,Setlkwamu,Bouaké,SetlôkwaSprings,SetlôkwaCreek,SetlôkwaRidge,SetlôkwaHeights,SetlôkwaFalls,SetlôkwaBeach,SetlôkwaPoint,SetlôkwaBay,SetlôkwaGrove,setlkwaSprings,setlkwaCreek,setlkwaRidge,setlkwaHeights,setlkwaFalls,setlkwaBeach,setlkwaPoint,setlkwaBay,setlkwaGrove,Setlôkwa,Setlkwada"
 },
 {
     "name": "Sha",
@@ -6097,7 +6097,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Sha,Shendam,Langung,Panyam,Balong,Dokan Tofa,Jos,Bukuru,Pankshin,Mangu,Kabwir,Gindiri,Riyom,Barkin Ladi,Keffi,Lafia,Akwanga,Karu,Kokona,Awe,Doma,Keana,Obi,Agyaraku,Wamba,Nunku,Assakio,Effium,Ugbokpo,Otukpo,Okpokwu,Adoka,Ankpa,Dekina,Idah,Igalamela,Olamaboro,Omala,Ugwalawo,Umon,Nsukka,Jongole,Kimilili,Garsen,Shilabo,Jasiira,Qardho,Merka,Ngao,Ekerenyo,Garissa,Farlibaax,Dhalwo,Eyl,Goobweyn,Rabai,Shala,MaSha,Shawa,Shara,Shaka,Shata,Shabwe,Shasa,Shana,Shafa,Shaga,Shaja,Shada,Shane,Shale,Share,Shazi,Shabo,Shakia,Shamu"
+  "b": "Sha,Shendam,Langung,Panyam,Balong,Jos,Pankshin,Mangu,Kabwir,Gindiri,Riyom,Barkin Ladi,Keffi,Lafia,Akwanga,Karu,Kokona,Awe,Doma,Keana,Obi,Agyaraku,Wamba,Nunku,Assakio,Effium,Ugbokpo,Otukpo,Okpokwu,Adoka,Ankpa,Dekina,Idah,Igalamela,Olamaboro,Omala,Ugwalawo,Umon,Nsukka,Jongole,Kimilili,Garsen,Shilabo,Jasiira,Qardho,Merka,Ngao,Ekerenyo,Garissa,Farlibaax,Dhalwo,Eyl,Goobweyn,Rabai,Shala,MaSha,Shawa,Shara,Shaka,Shata,Shabwe,Shasa,Shana,Shafa,Shaga,Shaja,Shada,Shane,Shale,Share,Shazi,Shabo,Shakia,Shamu,Saint-Louis,Dokan Tofa,Bukuru"
 },
 {
     "name": "Sharwa",
@@ -6106,7 +6106,7 @@ window.africaNameBases = [
   "max": 13,
   "d": "lnrt",
   "m": 0,
-  "b": "Sharwa,Mokolo,Mogodé,Gawar,Kortchi,Maroua,Mora,Waza,Kousséri,Mayo-Ouldémé,Mayo-Maskola,Dzigilao,Gawawa,Gawar Lamordé,Gawar Windé,Mafa,Mofu,Hina,Daba,Buwal,Galdala,Gadala,Kapsiki,Cuvok,Bulahay,Matakam,Mogoré,Mouhour,Rhumsiki,Mémé,Mokong,Mofoué,Moulvoudaye,Moutourwa,Moyen Chari,Ngaoundéré,Ngaoundal,Tibati,Banyo,Galim,Tignère,Garsen,Ikonge,ElDera,Haraale,Salkaxo,Garowe,Janaale,Kaloleni,Masige,ArchersPost,RasKamboni,Deynile,Hobyo,Kudhaa,Shimba,Sharwala,Sharwama,Sharwawa,Sharwara,Sharwaka,Sharwata,Sharwabwe,Sharwasa,Sharwana,Sharwafa,Sharwaga,Sharwaja,Sharwada,Sharwane,Sharwale,Sharware,Sharwazi,Sharwabo,Sharwaki,Sharwamu"
+  "b": "Sharwa,Mokolo,Mogodé,Gawar,Kortchi,Maroua,Mora,Waza,Kousséri,Mayo-Ouldémé,Mayo-Maskola,Dzigilao,Gawawa,Gawar Lamordé,Gawar Windé,Mafa,Mofu,Hina,Daba,Buwal,Galdala,Gadala,Kapsiki,Cuvok,Bulahay,Matakam,Mogoré,Mouhour,Rhumsiki,Mémé,Mokong,Mofoué,Moulvoudaye,Moutourwa,Moyen Chari,Ngaoundéré,Ngaoundal,Tibati,Banyo,Galim,Tignère,Garsen,Ikonge,Haraale,Salkaxo,Garowe,Janaale,Kaloleni,Masige,ArchersPost,RasKamboni,Deynile,Hobyo,Kudhaa,Shimba,Sharwala,Sharwama,Sharwawa,Sharwara,Sharwaka,Sharwata,Sharwabwe,Sharwasa,Sharwana,Sharwafa,Sharwaga,Sharwaja,Sharwane,Sharwale,Sharware,Sharwazi,Sharwabo,Sharwaki,Sharwamu,Thiès,ElDera,Sharwada"
 },
 {
     "name": "Shenwa",
@@ -6124,7 +6124,7 @@ window.africaNameBases = [
   "max": 13,
   "d": "lnrt",
   "m": 0,
-  "b": "Siri,Darazo,Ganjuwa,Kafin Madaki,Soro,Miya,Baben Kasa,Badaromo,Barkaya,Dagale,Deno,Digawa,Dugumi,Gurzumo,Janu,Kariya,Kubi,Nassarawa,Tafawa,Zibinju,Choogen,Toro,Alkaleri,Kirfi,Ningi,Warji,Dass,Tafawa Balewa,Bogoro,Lere,Lame,Rano,Wudil,Dukku,Gamawa,Misau,Jama'are,Katagum,Shira,Giade,Itas,Zaki,Azare,Bulkachuwa,Vanga,Suba,Korr,Gurfuudle,Dabare,Runni,Kachoda,Mkokoni,Kehancha,Sibiloi,Waamo,Giohar,Guriceel,Selina,Sindo,SiriChadicla,SiriChadicma,SiriChadicwa,SiriChadicra,SiriChadicka,SiriChadicta,SiriChadicbwe,SiriChadicsa,SiriChadicna,SiriChadicfa,SiriChadicga,SiriChadicja,SiriChadicda,SiriChadicne,SiriChadicle,SiriChadicre,SiriChadiczi,SiriChadicbo,SiriChadicki,SiriChadicmu"
+  "b": "Siri,Darazo,Ganjuwa,Kafin Madaki,Soro,Miya,Badaromo,Barkaya,Dagale,Deno,Digawa,Dugumi,Gurzumo,Janu,Kariya,Kubi,Nassarawa,Tafawa,Zibinju,Choogen,Toro,Alkaleri,Kirfi,Ningi,Warji,Dass,Tafawa Balewa,Bogoro,Lere,Lame,Rano,Wudil,Dukku,Gamawa,Misau,Jama'are,Katagum,Shira,Giade,Itas,Zaki,Azare,Bulkachuwa,Vanga,Suba,Korr,Gurfuudle,Dabare,Runni,Kachoda,Mkokoni,Kehancha,Sibiloi,Waamo,Giohar,Guriceel,Selina,Sindo,Baben Kasa,SiriChadicla,SiriChadicma,SiriChadicwa,SiriChadicra,SiriChadicka,SiriChadicta,SiriChadicbwe,SiriChadicsa,SiriChadicna,SiriChadicfa,SiriChadicga,SiriChadicja,SiriChadicda,SiriChadicne,SiriChadicle,SiriChadicre,SiriChadiczi,SiriChadicbo,SiriChadicki,SiriChadicmu"
 },
 {
     "name": "Siri Chadic",
@@ -6133,7 +6133,7 @@ window.africaNameBases = [
   "max": 13,
   "d": "lnrt",
   "m": 0,
-  "b": "Siri,Darazo,Ganjuwa,Kafin Madaki,Soro,Miya,Baben Kasa,Badaromo,Barkaya,Dagale,Deno,Digawa,Dugumi,Gurzumo,Janu,Kariya,Kubi,Nassarawa,Tafawa,Zibinju,Choogen,Toro,Alkaleri,Kirfi,Ningi,Warji,Dass,Tafawa Balewa,Bogoro,Lere,Lame,Rano,Wudil,Dukku,Gamawa,Misau,Jama'are,Katagum,Shira,Giade,Itas,Zaki,Azare,Bulkachuwa,Kisimani,Ntimaru,Illeret,Jerree,Warshiek,Cadaado,Mgangani,Karungu,Dida,Kakuma,Garsale,Jowhaar,Farlibaax,Pongwe,KenduBay,LaSiriChadic,MaSiriChadic,WaSiriChadic,RaSiriChadic,KaSiriChadic,TaSiriChadic,BweSiriChadic,SaSiriChadic,NaSiriChadic,FaSiriChadic,GaSiriChadic,JaSiriChadic,DaSiriChadic,NeSiriChadic,LeSiriChadic,ReSiriChadic,ZiSiriChadic,BoSiriChadic,KiSiriChadic,MuSiriChadic"
+  "b": "Siri,Darazo,Ganjuwa,Kafin Madaki,Soro,Miya,Badaromo,Barkaya,Dagale,Deno,Digawa,Dugumi,Gurzumo,Janu,Kariya,Kubi,Nassarawa,Tafawa,Zibinju,Choogen,Toro,Alkaleri,Kirfi,Ningi,Warji,Dass,Tafawa Balewa,Bogoro,Lere,Lame,Rano,Wudil,Dukku,Gamawa,Misau,Jama'are,Katagum,Shira,Giade,Itas,Zaki,Azare,Bulkachuwa,Kisimani,Ntimaru,Illeret,Jerree,Warshiek,Cadaado,Mgangani,Karungu,Dida,Kakuma,Garsale,Jowhaar,Farlibaax,Pongwe,LaSiriChadic,MaSiriChadic,WaSiriChadic,RaSiriChadic,KaSiriChadic,TaSiriChadic,BweSiriChadic,SaSiriChadic,NaSiriChadic,FaSiriChadic,GaSiriChadic,JaSiriChadic,DaSiriChadic,NeSiriChadic,LeSiriChadic,ReSiriChadic,ZiSiriChadic,BoSiriChadic,KiSiriChadic,MuSiriChadic,Baben Kasa,KenduBay"
 },
 {
     "name": "Sokoro",
@@ -6142,7 +6142,7 @@ window.africaNameBases = [
   "max": 15,
   "d": "lnrt",
   "m": 0,
-  "b": "Sokoro,Mayo-Kebbi,Bongor,Pala,Fianga,Léré,Koumra,Doba,Moundou,Bébédjia,Béïnamar,Béïssa,Békiri,Béladja,Béssao,Béti,Boumo,Danamadji,Déressia,Djedah,Dourbali,Goré,Goundi,Grégué,Guélengdeng,Kélo,Kyabé,Mbaïbokoum,Mbaïkoro,Ndam,Ngourkosso,Sarh,Béré,Biltine,Am Timan,Abou Deïa,Adré,Am Dam,Assinet,Bahaï,Baktchoro,Daguessa,Dar Tama,Djourf Al Ahmar,Ennedi,Fada,Iriba,Ounianga,Ikerege,Mkunumbi,Lodwar,Qorragan,Buulobarde,CeelBarde,Ngomoni,Oyugis,Shella,Turmi,Janaale,LaasGacamey,ElBarde,Ndau,Vihiga,Sokorola,Sokoroma,Sokorowa,Sokorora,Sokoroka,Sokorota,Sokorobwe,Sokorosa,Sokorona,Sokorofa,Sokoroga,Sokoroja,Sokoroda,Sokorone,Sokorole,Sokorore,Sokorozi,Sokorobo,Sokoroki,Sokoromu"
+  "b": "Sokoro,Mayo-Kebbi,Bongor,Pala,Fianga,Léré,Koumra,Doba,Moundou,Bébédjia,Béïnamar,Béïssa,Békiri,Béladja,Béssao,Béti,Boumo,Danamadji,Déressia,Djedah,Dourbali,Goré,Goundi,Grégué,Guélengdeng,Kélo,Kyabé,Mbaïbokoum,Mbaïkoro,Ndam,Ngourkosso,Sarh,Béré,Biltine,Am Timan,Abou Deïa,Adré,Am Dam,Assinet,Bahaï,Baktchoro,Daguessa,Djourf Al Ahmar,Ennedi,Fada,Iriba,Ounianga,Ikerege,Mkunumbi,Lodwar,Qorragan,Buulobarde,CeelBarde,Ngomoni,Oyugis,Shella,Turmi,Janaale,LaasGacamey,ElBarde,Ndau,Vihiga,Sokorola,Sokoroma,Sokorowa,Sokorora,Sokoroka,Sokorota,Sokorobwe,Sokorosa,Sokorona,Sokorofa,Sokoroga,Sokoroja,Sokoroda,Sokorone,Sokorole,Sokorore,Sokorozi,Sokorobo,Sokoroki,Sokoromu,Dar Tama"
 },
 {
     "name": "Somrai",
@@ -6151,7 +6151,7 @@ window.africaNameBases = [
   "max": 15,
   "d": "lnrt",
   "m": 0,
-  "b": "Somrai,Mayo-Kebbi,Bongor,Pala,Fianga,Léré,Koumra,Doba,Moundou,Bébédjia,Béïnamar,Béïssa,Békiri,Béladja,Béssao,Béti,Boumo,Danamadji,Déressia,Djedah,Dourbali,Goré,Goundi,Grégué,Guélengdeng,Kélo,Kyabé,Mbaïbokoum,Mbaïkoro,Ndam,Ngourkosso,Sarh,Béré,Biltine,Am Timan,Abou Deïa,Adré,Am Dam,Assinet,Bahaï,Baktchoro,Daguessa,Dar Tama,Djourf Al Ahmar,Ennedi,Fada,Iriba,Ounianga,Rangwe,Takwa,Dimeka,Sablaale,Yubbe,Huddur,Mikinduni,Kakamega,Kaloleni,Arero,Cagaaran,Ufeyn,Dinsor,Jongole,Kimilili,Somraila,Somraima,Somraiwa,Somraira,Somraika,Somraita,Somraibwe,Somraisa,Somraina,Somraifa,Somraiga,Somraija,Somraida,Somraine,Somraile,Somraire,Somraizi,Somraibo,Somraiki,Somraimu"
+  "b": "Somrai,Mayo-Kebbi,Bongor,Pala,Fianga,Léré,Koumra,Doba,Moundou,Bébédjia,Béïnamar,Béïssa,Békiri,Béladja,Béssao,Béti,Boumo,Danamadji,Déressia,Djedah,Dourbali,Goré,Goundi,Grégué,Guélengdeng,Kélo,Kyabé,Mbaïbokoum,Mbaïkoro,Ndam,Ngourkosso,Sarh,Béré,Biltine,Am Timan,Abou Deïa,Adré,Am Dam,Assinet,Bahaï,Baktchoro,Daguessa,Djourf Al Ahmar,Ennedi,Fada,Iriba,Ounianga,Rangwe,Takwa,Dimeka,Sablaale,Yubbe,Huddur,Mikinduni,Kakamega,Kaloleni,Arero,Cagaaran,Ufeyn,Dinsor,Jongole,Kimilili,Somraila,Somraima,Somraiwa,Somraira,Somraika,Somraita,Somraibwe,Somraisa,Somraina,Somraifa,Somraiga,Somraija,Somraida,Somraine,Somraile,Somraire,Somraizi,Somraibo,Somraiki,Somraimu,Dar Tama"
 },
 {
     "name": "South Banda",
@@ -6160,7 +6160,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bambari,Bria,Bangassou,Sibut,Alindao,Mobaye,Kembe,Mingala,Bakala,Ippy,Grimari,Ouadda,Ndele,Bakouma,Yola,Mubi,Madagali,Michika,Hong,Gombi,Song,Garkida,Guyaku,Boga,Numan,Butere,Kilifi,Teltele,Wargalo,Xabo,BurAcaba,Bargoni,Chwele,Hola,Degehabur,Bagula,Iskushuban,Gendershe,Garsen,Ikonge,SouthBandala,SouthBandama,SouthBandawa,SouthBandara,SouthBandaka,SouthBandata,SouthBandabwe,SouthBandasa,SouthBandana,SouthBandafa,SouthBandaga,SouthBandaja,SouthBandada,SouthBandane,SouthBandale,SouthBandare,SouthBandazi,SouthBandabo,SouthBandaki,SouthBandamu"
+  "b": "Bambari,Bria,Bangassou,Sibut,Alindao,Mobaye,Kembe,Mingala,Bakala,Ippy,Grimari,Ouadda,Ndele,Bakouma,Yola,Mubi,Madagali,Michika,Hong,Gombi,Song,Garkida,Guyaku,Boga,Numan,Butere,Kilifi,Teltele,Wargalo,Xabo,BurAcaba,Bargoni,Chwele,Hola,Degehabur,Bagula,Iskushuban,Gendershe,Garsen,Ikonge,southbandaSprings,southbandaCreek,southbandaRidge,southbandaHeights,southbandaFalls,southbandaBeach,southbandaPoint,southbandaBay,southbandaGrove,SouthBandala,SouthBandama,SouthBandawa,SouthBandara,SouthBandaka,SouthBandata,SouthBandabwe,SouthBandasa,SouthBandana,SouthBandafa,SouthBandaga,SouthBandaja,SouthBandada,SouthBandane,SouthBandale,SouthBandare,SouthBandazi,SouthBandabo,SouthBandaki,SouthBandamu"
 },
 {
     "name": "South Cushitic",
@@ -6169,7 +6169,7 @@ window.africaNameBases = [
   "max": 17,
   "d": "lnrt",
   "m": 0,
-  "b": "Moshi,Arusha,Hai,Siha,Rombo,Mwanga,Same,Lushoto,Korogwe,Muheza,Pangani,Handeni,Kilindi,Mkinga,Tanga,Bagamoyo,Kibaha,Morogoro,Kilosa,Mlimba,Ifakara,Kidodi,Kilombero,Mahenge,Malinyi,Ulanga,Ruvuma,Songea,Namtumbo,Mbinga,Nyasa,Tunduru,Masasi,Nachingwea,Lindi,Kilwa,Ruangwa,Mtwara,Mikindani,Newala,Tandahimba,Mocímboa,Pemba,Ibo,Quissanga,Macomia,Mueda,Muidumbe,Mocímboa da Praia,Tindinyo,Masalani,ElKere,Garawe,Bargaal,Afgooye,Malindi,Sengera,ElBur,AbudWaaq,Kabxan,Gaalkacyo,Maraag,Mackinnon,Nyamira,SouthCushiticla,SouthCushiticma,SouthCushiticwa,SouthCushiticra,SouthCushiticka,SouthCushiticta,SouthCushiticbwe,SouthCushiticsa,SouthCushiticna,SouthCushiticfa,SouthCushiticga,SouthCushiticja,SouthCushiticda,SouthCushiticne,SouthCushiticle,SouthCushiticre,SouthCushiticzi,SouthCushiticbo,SouthCushiticki,SouthCushiticmu"
+  "b": "Moshi,Arusha,Hai,Siha,Rombo,Mwanga,Same,Lushoto,Korogwe,Muheza,Pangani,Handeni,Kilindi,Mkinga,Tanga,Bagamoyo,Kibaha,Morogoro,Kilosa,Mlimba,Ifakara,Kidodi,Kilombero,Mahenge,Malinyi,Ulanga,Ruvuma,Songea,Namtumbo,Mbinga,Nyasa,Masasi,Nachingwea,Lindi,Kilwa,Ruangwa,Mtwara,Mikindani,Newala,Tandahimba,Mocímboa,Pemba,Ibo,Quissanga,Macomia,Mueda,Muidumbe,Mocímboa da Praia,Tindinyo,Masalani,Garawe,Bargaal,Afgooye,Malindi,Sengera,ElBur,AbudWaaq,Kabxan,Gaalkacyo,Maraag,Mackinnon,Nyamira,Kaolack,Tunduru,ElKere,SouthCushiticla,SouthCushiticma,SouthCushiticwa,SouthCushiticra,SouthCushiticka,SouthCushiticta,SouthCushiticbwe,SouthCushiticsa,SouthCushiticna,SouthCushiticfa,SouthCushiticga,SouthCushiticja,SouthCushiticda,SouthCushiticne,SouthCushiticle,SouthCushiticre,SouthCushiticzi,SouthCushiticbo,SouthCushiticki,SouthCushiticmu"
 },
 {
     "name": "South Giziga",
@@ -6178,7 +6178,7 @@ window.africaNameBases = [
   "max": 13,
   "d": "lnrt",
   "m": 0,
-  "b": "South Giziga,Mokolo,Mogodé,Gawar,Kortchi,Maroua,Mora,Waza,Kousséri,Mayo-Ouldémé,Mayo-Maskola,Dzigilao,Gawawa,Gawar Lamordé,Gawar Windé,Mafa,Mofu,Hina,Daba,Buwal,Galdala,Gadala,Kapsiki,Cuvok,Bulahay,Matakam,Mogoré,Mouhour,Rhumsiki,Mémé,Mokong,Mofoué,Moulvoudaye,Moutourwa,Moyen Chari,Ngaoundéré,Ngaoundal,Tibati,Banyo,Galim,Tignère,Rioma,Habaswein,TulaNaga,Sarweyne,Koorma,Xarardheere,Mariakani,Kisii,Maralal,Liibaan,Duduble,Galdogob,Dhoobley,Vanga,Suba,SouthGizigala,SouthGizigama,SouthGizigawa,SouthGizigara,SouthGizigaka,SouthGizigata,SouthGizigabwe,SouthGizigasa,SouthGizigana,SouthGizigafa,SouthGizigaga,SouthGizigaja,SouthGizigada,SouthGizigane,SouthGizigale,SouthGizigare,SouthGizigazi,SouthGizigabo,SouthGizigaki,SouthGizigamu"
+  "b": "South Giziga,Mokolo,Mogodé,Gawar,Kortchi,Maroua,Mora,Waza,Kousséri,Mayo-Ouldémé,Mayo-Maskola,Dzigilao,Gawawa,Gawar Lamordé,Gawar Windé,Mafa,Mofu,Hina,Daba,Buwal,Galdala,Gadala,Kapsiki,Cuvok,Bulahay,Matakam,Mogoré,Mouhour,Rhumsiki,Mémé,Mokong,Mofoué,Moulvoudaye,Moutourwa,Moyen Chari,Ngaoundéré,Ngaoundal,Tibati,Banyo,Galim,Tignère,Rioma,Habaswein,Sarweyne,Koorma,Xarardheere,Mariakani,Kisii,Maralal,Liibaan,Duduble,Galdogob,Dhoobley,Vanga,Suba,TulaNaga,SouthGizigala,SouthGizigama,SouthGizigawa,SouthGizigara,SouthGizigaka,SouthGizigata,SouthGizigabwe,SouthGizigasa,SouthGizigana,SouthGizigafa,SouthGizigaga,SouthGizigaja,SouthGizigada,SouthGizigane,SouthGizigale,SouthGizigare,SouthGizigazi,SouthGizigabo,SouthGizigaki,SouthGizigamu"
 },
 {
     "name": "Southern Birifor",
@@ -6196,7 +6196,7 @@ window.africaNameBases = [
   "max": 15,
   "d": "lnrt",
   "m": 0,
-  "b": "Southern Gabri,Mayo-Kebbi,Bongor,Pala,Fianga,Léré,Koumra,Doba,Moundou,Bébédjia,Béïnamar,Béïssa,Békiri,Béladja,Béssao,Béti,Boumo,Danamadji,Déressia,Djedah,Dourbali,Goré,Goundi,Grégué,Guélengdeng,Kélo,Kyabé,Mbaïbokoum,Mbaïkoro,Ndam,Ngourkosso,Sarh,Béré,Biltine,Am Timan,Abou Deïa,Adré,Am Dam,Assinet,Bahaï,Baktchoro,Daguessa,Dar Tama,Djourf Al Ahmar,Ennedi,Fada,Iriba,Ounianga,Uriri,Bubisa,Kumbare,Sheikh,GalCad,Ngei,Takawiri,Nyangusu,Loyangalani,Caano,CelDheer,Saakow,Buni,Ikerege,Mkunumbi,SouthernGabrila,SouthernGabrima,SouthernGabriwa,SouthernGabrira,SouthernGabrika,SouthernGabrita,SouthernGabribwe,SouthernGabrisa,SouthernGabrina,SouthernGabrifa,SouthernGabriga,SouthernGabrija,SouthernGabrida,SouthernGabrine,SouthernGabrile,SouthernGabrire,SouthernGabrizi,SouthernGabribo,SouthernGabriki,SouthernGabrimu"
+  "b": "Southern Gabri,Mayo-Kebbi,Bongor,Pala,Fianga,Léré,Koumra,Doba,Moundou,Bébédjia,Béïnamar,Béïssa,Békiri,Béladja,Béssao,Béti,Boumo,Danamadji,Déressia,Djedah,Dourbali,Goré,Goundi,Grégué,Guélengdeng,Kélo,Kyabé,Mbaïbokoum,Mbaïkoro,Ndam,Ngourkosso,Sarh,Béré,Biltine,Am Timan,Abou Deïa,Adré,Am Dam,Assinet,Bahaï,Baktchoro,Daguessa,Djourf Al Ahmar,Ennedi,Fada,Iriba,Ounianga,Uriri,Bubisa,Kumbare,Sheikh,GalCad,Ngei,Takawiri,Nyangusu,Loyangalani,Caano,CelDheer,Saakow,Buni,Ikerege,Mkunumbi,Dar Tama,SouthernGabrila,SouthernGabrima,SouthernGabriwa,SouthernGabrira,SouthernGabrika,SouthernGabrita,SouthernGabribwe,SouthernGabrisa,SouthernGabrina,SouthernGabrifa,SouthernGabriga,SouthernGabrija,SouthernGabrida,SouthernGabrine,SouthernGabrile,SouthernGabrire,SouthernGabrizi,SouthernGabribo,SouthernGabriki,SouthernGabrimu"
 },
 {
     "name": "Standard Algerian Berber",
@@ -6223,7 +6223,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Sukur,Madagali,Michika,Mubi,Hong,Maiha,Gombi,Song,Kwami,Pindiga,Numan,Jimeta,Yola,Ganye,Jada,Damay,Kurang,Kirawa,Kwaya,Miringa,Buratai,Kida,Gur,Gunda,Garubula,Hyema,Vina,Zira,Wuyo,Shani,Shellen,Gasi,Kaltungo,Billiri,Shongom,Akko,Filiya,Gwandum,Gundale,Vipingo,Konso,CeyrTabaan,Laasqoray,QansaxDheere,Garsen,Mumias,Malindi,Yavello,Guba,Xaafuun,Lanta,Ozi,Tindinyo,Masalani,SukurChadicla,SukurChadicma,SukurChadicwa,SukurChadicra,SukurChadicka,SukurChadicta,SukurChadicbwe,SukurChadicsa,SukurChadicna,SukurChadicfa,SukurChadicga,SukurChadicja,SukurChadicda,SukurChadicne,SukurChadicle,SukurChadicre,SukurChadiczi,SukurChadicbo,SukurChadicki,SukurChadicmu"
+  "b": "Sukur,Madagali,Michika,Mubi,Hong,Maiha,Gombi,Song,Kwami,Pindiga,Numan,Jimeta,Yola,Ganye,Jada,Damay,Kurang,Kirawa,Kwaya,Miringa,Buratai,Kida,Gur,Gunda,Garubula,Hyema,Vina,Zira,Wuyo,Shani,Shellen,Gasi,Kaltungo,Billiri,Shongom,Akko,Filiya,Gwandum,Gundale,Vipingo,Konso,CeyrTabaan,Laasqoray,Garsen,Mumias,Malindi,Yavello,Guba,Xaafuun,Lanta,Ozi,Tindinyo,Masalani,QansaxDheere,SukurChadicla,SukurChadicma,SukurChadicwa,SukurChadicra,SukurChadicka,SukurChadicta,SukurChadicbwe,SukurChadicsa,SukurChadicna,SukurChadicfa,SukurChadicga,SukurChadicja,SukurChadicda,SukurChadicne,SukurChadicle,SukurChadicre,SukurChadiczi,SukurChadicbo,SukurChadicki,SukurChadicmu"
 },
 {
     "name": "Taa",
@@ -6250,7 +6250,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Tal,Shendam,Langung,Panyam,Balong,Dokan Tofa,Jos,Bukuru,Pankshin,Mangu,Kabwir,Gindiri,Riyom,Barkin Ladi,Keffi,Lafia,Akwanga,Karu,Kokona,Awe,Doma,Keana,Obi,Agyaraku,Wamba,Nunku,Assakio,Effium,Ugbokpo,Otukpo,Okpokwu,Adoka,Ankpa,Dekina,Idah,Igalamela,Olamaboro,Omala,Ugwalawo,Umon,Nsukka,Merti,Hula,Kaxare,Bacadweyn,Burdhubo,Samburu,Ogembo,SouthHorr,Dhalwo,Aqable,Jariiban,Garbaharey,Geza,Uriri,Bubisa,Talla,Talma,Talwa,Talra,Talka,Talta,Talbwe,Talsa,Talna,Talfa,Talga,Talja,DaTal,Talne,Talle,Talre,Talzi,Talbo,Talki,Talmu"
+  "b": "Tal,Shendam,Langung,Panyam,Balong,Jos,Pankshin,Mangu,Kabwir,Gindiri,Riyom,Barkin Ladi,Keffi,Lafia,Akwanga,Karu,Kokona,Awe,Doma,Keana,Obi,Agyaraku,Wamba,Nunku,Assakio,Effium,Ugbokpo,Otukpo,Okpokwu,Adoka,Ankpa,Dekina,Idah,Igalamela,Olamaboro,Omala,Ugwalawo,Umon,Nsukka,Merti,Hula,Kaxare,Bacadweyn,Burdhubo,Ogembo,SouthHorr,Dhalwo,Aqable,Jariiban,Garbaharey,Geza,Uriri,Bubisa,Talla,Talma,Talwa,Talra,Talka,Talta,Talbwe,Talsa,Talna,Talfa,Talga,Talja,DaTal,Talne,Talle,Talre,Talzi,Talbo,Talki,Talmu,Ziguinchor,Touba,Dokan Tofa,Bukuru,Samburu"
 },
 {
     "name": "Tala",
@@ -6259,7 +6259,7 @@ window.africaNameBases = [
   "max": 13,
   "d": "lnrt",
   "m": 0,
-  "b": "Tala,Darazo,Ganjuwa,Kafin Madaki,Soro,Miya,Baben Kasa,Badaromo,Barkaya,Dagale,Deno,Digawa,Dugumi,Gurzumo,Janu,Kariya,Kubi,Nassarawa,Siri,Tafawa,Zibinju,Choogen,Toro,Alkaleri,Kirfi,Ningi,Warji,Dass,Tafawa Balewa,Bogoro,Lere,Lame,Rano,Wudil,Dukku,Gamawa,Misau,Jama'are,Katagum,Shira,Giade,Itas,Zaki,Azare,Bulkachuwa,Marsabit,Murcanyo,Buqda,Galkacyo,Elwak,Mkonumbi,Isebania,Maikona,Cagare,WarSheikh,Dhuusamareeb,Janjan,Mfangano,Matiri,Lowarengak,Talala,Talama,Talawa,Talara,Talaka,Talata,Talabwe,Talasa,Talana,Talafa,Talaga,Talaja,Talada,Talane,Talale,Talare,Talazi,Talabo,Talaki,Talamu"
+  "b": "Tala,Darazo,Ganjuwa,Kafin Madaki,Soro,Miya,Badaromo,Barkaya,Dagale,Deno,Digawa,Dugumi,Gurzumo,Janu,Kariya,Kubi,Nassarawa,Siri,Tafawa,Zibinju,Choogen,Toro,Alkaleri,Kirfi,Ningi,Warji,Dass,Tafawa Balewa,Bogoro,Lere,Lame,Rano,Wudil,Dukku,Gamawa,Misau,Jama'are,Katagum,Shira,Giade,Itas,Zaki,Azare,Bulkachuwa,Marsabit,Murcanyo,Buqda,Galkacyo,Elwak,Mkonumbi,Isebania,Maikona,Cagare,WarSheikh,Dhuusamareeb,Janjan,Mfangano,Matiri,Lowarengak,Talala,Talama,Talawa,Talara,Talaka,Talata,Talabwe,Talasa,Talana,Talafa,Talaga,Talaja,Talada,Talane,Talale,Talare,Talazi,Talabo,Talaki,Talamu,Baben Kasa"
 },
 {
     "name": "Talni",
@@ -6277,7 +6277,7 @@ window.africaNameBases = [
   "max": 14,
   "d": "lnrt",
   "m": 0,
-  "b": "Tamanrasset,In Salah,Tin Zaouatine,Idlès,Tazrouk,Abalak,Tahoua,Agadez,Arlit,Tchirozerine,In-Gall,Aderbissinat,Tabelot,Keita,Bouza,Madaoua,Konni,Mayahi,Guidan Roumdji,Maradi,Madarounfa,Tessaoua,Sabon Machi,Katsina,Daura,Kazaure,Gumel,Hadejia,Azare,Misau,Katagum,Dutse,Kiyawa,Jama'are,Birnin Kudu,Ringim,Garki,Kalokol,Harardera,Mahaday,Yeed,Kidimu,HomaBay,Kiunga,Kibish,GofKudle,Wanleweyn,Dolow,Gongoni,Bondo,Vipingo,Konso,Tamahaqla,Tamahaqma,Tamahaqwa,Tamahaqra,Tamahaqka,Tamahaqta,Tamahaqbwe,Tamahaqsa,Tamahaqna,Tamahaqfa,Tamahaqga,Tamahaqja,Tamahaqda,Tamahaqne,Tamahaqle,Tamahaqre,Tamahaqzi,Tamahaqbo,Tamahaqki,Tamahaqmu"
+  "b": "Tamanrasset,In Salah,Tin Zaouatine,Idlès,Tazrouk,Abalak,Tahoua,Agadez,Arlit,Tchirozerine,In-Gall,Aderbissinat,Tabelot,Keita,Bouza,Madaoua,Konni,Mayahi,Guidan Roumdji,Maradi,Madarounfa,Tessaoua,Sabon Machi,Katsina,Daura,Kazaure,Gumel,Hadejia,Azare,Misau,Katagum,Dutse,Kiyawa,Jama'are,Birnin Kudu,Ringim,Garki,Kalokol,Harardera,Mahaday,Yeed,Kidimu,Kiunga,Kibish,Wanleweyn,Dolow,Gongoni,Bondo,Vipingo,Konso,Tamahaqla,Tamahaqma,Tamahaqwa,Tamahaqra,Tamahaqka,Tamahaqta,Tamahaqbwe,Tamahaqsa,Tamahaqna,Tamahaqfa,Tamahaqga,Tamahaqja,Tamahaqda,Tamahaqne,Tamahaqle,Tamahaqre,Tamahaqzi,Tamahaqbo,Tamahaqki,Tamahaqmu,HomaBay,GofKudle"
 },
 {
     "name": "Tamasheq",
@@ -6286,7 +6286,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Timbuktu,Gao,Kidal,Ménaka,Taoudénit,Tessalit,Aguelhok,Tin-Ellal,Bourem,Diré,Goundam,Niafunké,Léré,Ber,Niono,Sokolo,Kolokani,Kati,Bamako,Kayes,Sikasso,Ségou,Mopti,Tombouctou,Yola,Omorate,Qoton,Afgoi,Beledhawo,Jamia,Siaya,Samburu,Ririba,Galolk,CeelAfweyn,Baidoa,Chara,Webuye,Kipini,Mega,Tamasheqla,Tamasheqma,Tamasheqwa,Tamasheqra,Tamasheqka,Tamasheqta,Tamasheqbwe,Tamasheqsa,Tamasheqna,Tamasheqfa,Tamasheqga,Tamasheqja,Tamasheqda,Tamasheqne,Tamasheqle,Tamasheqre,Tamasheqzi,Tamasheqbo,Tamasheqki,Tamasheqmu"
+  "b": "Timbuktu,Gao,Kidal,Ménaka,Taoudénit,Tessalit,Aguelhok,Tin-Ellal,Bourem,Diré,Goundam,Niafunké,Léré,Ber,Niono,Sokolo,Kolokani,Kati,Bamako,Kayes,Sikasso,Ségou,Mopti,Tombouctou,Yola,Omorate,Qoton,Afgoi,Beledhawo,Jamia,Siaya,Ririba,Galolk,CeelAfweyn,Baidoa,Chara,Webuye,Kipini,Mega,Tamasheqla,Tamasheqma,Tamasheqwa,Tamasheqra,Tamasheqka,Tamasheqta,Tamasheqbwe,Tamasheqsa,Tamasheqna,Tamasheqfa,Tamasheqga,Tamasheqja,Tamasheqda,Tamasheqne,Tamasheqle,Tamasheqre,Tamasheqzi,Tamasheqbo,Tamasheqki,Tamasheqmu,Jijel,Samburu"
 },
 {
     "name": "Tambas",
@@ -6295,7 +6295,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Tambas,Shendam,Langung,Panyam,Balong,Dokan Tofa,Jos,Bukuru,Pankshin,Mangu,Kabwir,Gindiri,Riyom,Barkin Ladi,Keffi,Lafia,Akwanga,Karu,Kokona,Awe,Doma,Keana,Obi,Agyaraku,Wamba,Nunku,Assakio,Effium,Ugbokpo,Otukpo,Okpokwu,Adoka,Ankpa,Dekina,Idah,Igalamela,Olamaboro,Omala,Ugwalawo,Umon,Nsukka,Moyale,SaLul,Erigavo,Baardheere,Bwiti,Bungoma,Lamu,Imi,GeedWeen,Karindoolay,Gamey,Kipini,Nyakoe,Bura,Wachile,Tambasla,Tambasma,Tambaswa,Tambasra,Tambaska,Tambasta,Tambasbwe,Tambassa,Tambasna,Tambasfa,Tambasga,Tambasja,Tambasda,Tambasne,Tambasle,Tambasre,Tambaszi,Tambasbo,Tambaski,Tambasmu"
+  "b": "Tambas,Shendam,Langung,Panyam,Balong,Jos,Pankshin,Mangu,Kabwir,Gindiri,Riyom,Barkin Ladi,Keffi,Lafia,Akwanga,Karu,Kokona,Awe,Doma,Keana,Obi,Agyaraku,Wamba,Nunku,Assakio,Effium,Ugbokpo,Otukpo,Okpokwu,Adoka,Ankpa,Dekina,Idah,Igalamela,Olamaboro,Omala,Ugwalawo,Umon,Nsukka,Moyale,SaLul,Erigavo,Baardheere,Bwiti,Bungoma,Lamu,Imi,GeedWeen,Karindoolay,Gamey,Kipini,Nyakoe,Bura,Wachile,Tambasla,Tambasma,Tambaswa,Tambasra,Tambaska,Tambasta,Tambasbwe,Tambassa,Tambasna,Tambasfa,Tambasga,Tambasja,Tambasda,Tambasne,Tambasle,Tambasre,Tambaszi,Tambasbo,Tambaski,Tambasmu,Ségou,Dokan Tofa,Bukuru"
 },
 {
     "name": "Tamki",
@@ -6322,7 +6322,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Freetown,Makeni,Kambia,Port Loko,Waterloo,Lunsar,Kabala,Lungi,Magburaka,Goderich,Gberi Bana,Kamakwie,Kamabai,Karina,Binkolo,Masingbi,Kalangba,Mapaki,Masongbon,Kamaranka,Hunduwa,Batkanu,Mateboi,Fintonia,Masiaka,Rokupr,Pepel,Gbinti,Petifu,Mahera,Mange,Songo,Sendugu,Foredugu,Kukuna,Mambolo,Kassiri,Kychom,Yeliboya,Kamassassa,Yele,Matotoka,Mongo,Bendugu,Falaba,Tonko,Moriba,Rokulan,Kamalo,Sanda,Lowoma,Kangbori"
+  "b": "Makeni,Kambia,Port Loko,Waterloo,Lunsar,Kabala,Lungi,Magburaka,Goderich,Kamakwie,Kamabai,Karina,Binkolo,Masingbi,Kalangba,Mapaki,Masongbon,Kamaranka,Hunduwa,Batkanu,Mateboi,Fintonia,Masiaka,Rokupr,Pepel,Gbinti,Petifu,Mahera,Mange,Songo,Sendugu,Foredugu,Kukuna,Mambolo,Kassiri,Kychom,Yeliboya,Kamassassa,Yele,Matotoka,Mongo,Bendugu,Falaba,Tonko,Moriba,Rokulan,Kamalo,Sanda,Lowoma,Kangbori,Sikasso,Freetown,Gberi Bana"
 },
 {
     "name": "Tera",
@@ -6340,7 +6340,7 @@ window.africaNameBases = [
   "max": 17,
   "d": "lnrt",
   "m": 0,
-  "b": "Teshenawa,Kafin Hausa,Kiyawa,Dutse,Birnin Kudu,Ringim,Garki,Bulkachuwa,Auyo,Miga,Jahun,Hadejia,Keffin Hausa,Kwanda,Tsabare,Budur,Bulanguwa,Mai Juma,Sabaru,Dangwanki,Madachi,Dashe,Abayo,Mazawa,Shamaki,Kofar Kafin Hausa,Guri,Guri Ta Kudu,Janbako,Chamo,Marma,Gantsa,Machinawa"
+  "b": "Teshenawa,Kafin Hausa,Kiyawa,Dutse,Birnin Kudu,Ringim,Garki,Bulkachuwa,Auyo,Miga,Jahun,Hadejia,Keffin Hausa,Kwanda,Tsabare,Budur,Bulanguwa,Sabaru,Dangwanki,Madachi,Dashe,Abayo,Mazawa,Shamaki,Kofar Kafin Hausa,Guri Ta Kudu,Janbako,Chamo,Marma,Gantsa,Machinawa,Mopti,Mai Juma,Guri"
 },
 {
     "name": "Tetserret Tuareg Berber",
@@ -6367,7 +6367,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Tiro,Shendam,Langung,Panyam,Balong,Dokan Tofa,Jos,Bukuru,Pankshin,Mangu,Kabwir,Gindiri,Riyom,Barkin Ladi,Lafia,Akwanga,Wamba,Nunku,Assakio,Yelwa,Shimankar,Kagadama,Kurgwi,Kwande,Kwalla,Maiha,Mapo,Dungung,Pyem,Dok-Pai,Kofyar,Namut,Chigwong,Doemak,Manding,Lalok,Bakim,Latong,Kwang,Bong,Chor,Chakfem,Kagoro,Moro'a,Wargalo,Xabo,BurAcaba,Bargoni,Chwele,Hola,Degehabur,Bagula,Iskushuban,Gendershe,Garsen,Ikonge,ElDera,Haraale,Salkaxo,Tirola,Tiroma,Tirowa,Tirora,Tiroka,Tirota,Tirobwe,Tirosa,Tirona,Tirofa,Tiroga,Tiroja,Tiroda,Tirone,Tirole,Tirore,Tirozi,Tirobo,Tiroki,Tiromu"
+  "b": "Tiro,Shendam,Langung,Panyam,Balong,Jos,Pankshin,Mangu,Kabwir,Gindiri,Riyom,Barkin Ladi,Lafia,Akwanga,Wamba,Nunku,Assakio,Yelwa,Shimankar,Kagadama,Kurgwi,Kwande,Kwalla,Maiha,Mapo,Dungung,Pyem,Dok-Pai,Kofyar,Namut,Chigwong,Doemak,Manding,Lalok,Bakim,Latong,Kwang,Bong,Chor,Chakfem,Kagoro,Moro,Timbuktu'a,Wargalo,Xabo,BurAcaba,Bargoni,Chwele,Hola,Degehabur,Bagula,Iskushuban,Gendershe,Garsen,Ikonge,Haraale,Salkaxo,Tirola,Tiroma,Tirowa,Tirora,Tiroka,Tirota,Tirobwe,Tirosa,Tirona,Tirofa,Tiroga,Tiroja,Tiroda,Tirone,Tirole,Tirore,Tirozi,Tirobo,Tiroki,Tiromu,Dokan Tofa,Bukuru,Moro'a,ElDera"
 },
 {
     "name": "Tobanga",
@@ -6412,7 +6412,7 @@ window.africaNameBases = [
   "max": 15,
   "d": "lnrt",
   "m": 0,
-    "b": "Soweto,Sophiatown,Johannesburg,Pretoria,Durban,Cape Town,Khayelitsha,Gugulethu,Tembisa,Soshanguve,Mangaung,Polokwane,Pietersburg,Port Elizabeth,East London,Bloemfontein,Welkom,Vanderbijlpark,Vereeniging,Sasolburg,Kroonstad,Parys,Bothaville,Kimberley,Upington,George,Mossel Bay,Knysna,Plettenberg Bay,Hermanus,Stellenbosch,Paarl,Franschhoek,Robertson,Worcester,Swellendam,Oudtshoorn,Beaufort West,De Aar,Aliwal North,Barkly East,Cradock,Queenstown,Grahamstown,Makhanda,Somerset East,Uitenhage,Fort Beaufort"
+    "b": "Soweto,Johannesburg,Pretoria,Durban,Cape Town,Khayelitsha,Gugulethu,Tembisa,Soshanguve,Mangaung,Polokwane,Port Elizabeth,East London,Bloemfontein,Welkom,Vanderbijlpark,Vereeniging,Kroonstad,Parys,Kimberley,Upington,George,Mossel Bay,Knysna,Plettenberg Bay,Hermanus,Stellenbosch,Paarl,Franschhoek,Robertson,Worcester,Swellendam,Oudtshoorn,Beaufort West,De Aar,Aliwal North,Barkly East,Cradock,Makhanda,Somerset East,Uitenhage,Fort Beaufort,Windhoek,Gaborone,Harare,Sophiatown,Pietersburg,Sasolburg,Bothaville,Queenstown,Grahamstown"
 },
 {
     "name": "Tsuvan",
@@ -6424,7 +6424,7 @@ window.africaNameBases = [
   "b": "Tsuvan,Mokolo,Mogodé,Gawar,Kortchi,Maroua,Mora,Waza,Kousséri,Dzigilao,Gawawa,Mafa,Mofu,Hina,Daba,Buwal,Galdala,Gadala,Kapsiki,Cuvok,Bulahay,Matakam,Mogoré,Mouhour,Rhumsiki,Mémé,Mokong,Mofoué,Moulvoudaye,Moutourwa,BuloBurto,Garbahaarrey,Omaribaya,Yala,Mtwapa,Karamara,Qoryooley,CeelBuux,Tiyeglow,Kau,Butere,Kilifi,Teltele,Wargalo,Xabo,Tsuvanla,Tsuvanma,Tsuvanwa,Tsuvanra,Tsuvanka,Tsuvanta,Tsuvanbwe,Tsuvansa,Tsuvanna,Tsuvanfa,Tsuvanga,Tsuvanja,Tsuvanda,Tsuvanne,Tsuvanle,Tsuvanre,Tsuvanzi,Tsuvanbo,Tsuvanki,Tsuvanmu"
 },
 {
-    "name": "Tswa", "i": 200201, "min": 4, "max": 13, "d": "lnrt", "m": 0, "b": "Maputo,Xai-Xai,Chibuto,Manjacaze,Chókwè,Guijá,Chicumbane,Mabalane,Massingir,Chokwe,Matola,Boane,Namaacha,Moamba,Magude,Manhiça,Marracuene,Matutuine,Ponta do Ouro,Bela Vista,Inhambane,Maxixe,Quissico,Zavala,Nampula,Laasqoray,QansaxDheere,Garsen,Mumias,Malindi,Yavello,Guba,Xaafuun,Lanta,Ozi,Tindinyo,Masalani,ElKere,Garawe,Bargaal,Tswala,Tswama,Tswawa,Tswara,Tswaka,Tswata,Tswabwe,Tswasa,Tswana,Tswafa,Tswaga,Tswaja,Tswada,Tswane,Tswale,Tsware,Tswazi,Tswabo,Tswaki,Tswamu"
+    "name": "Tswa", "i": 200201, "min": 4, "max": 13, "d": "lnrt", "m": 0, "b": "Maputo,Xai-Xai,Chibuto,Manjacaze,Chókwè,Guijá,Chicumbane,Mabalane,Massingir,Chokwe,Matola,Boane,Namaacha,Moamba,Magude,Manhiça,Marracuene,Matutuine,Ponta do Ouro,Bela Vista,Inhambane,Maxixe,Quissico,Zavala,Nampula,Laasqoray,Garsen,Mumias,Malindi,Yavello,Guba,Xaafuun,Lanta,Ozi,Tindinyo,Masalani,Garawe,Bargaal,Tswala,Tswama,Tswawa,Tswara,Tswaka,Tswata,Tswabwe,Tswasa,Tswana,Tswafa,Tswaga,Tswaja,Tswane,Tswale,Tsware,Tswazi,Tswabo,Tswaki,Tswamu,Gao,QansaxDheere,ElKere,Tswada"
 },
 {
     "name": "Tumak",
@@ -6433,7 +6433,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Tumak,Bongor,Pala,Fianga,Léré,Koumra,Doba,Moundou,Bébédjia,Béïnamar,Béïssa,Békiri,Béladja,Béssao,Béti,Boumo,Danamadji,Déressia,Djedah,Dourbali,Goré,Goundi,Grégué,Guélengdeng,Kélo,Kyabé,Mbaïbokoum,Mbaïkoro,Ndam,Ngourkosso,Sarh,Béré,Am Timan,Abou Deïa,Adré,Am Dam,Fada,Iriba,Ounianga,Laï,Galgalo,Fancole,Wema,Nyaribari,Kotus,SofOmar,Hadud,Bereeda,Shalambood,Kilifi,Rioma,Habaswein,TulaNaga,Sarweyne,Koorma,Tumakla,Tumakma,Tumakwa,Tumakra,Tumakka,Tumakta,Tumakbwe,Tumaksa,Tumakna,Tumakfa,Tumakga,Tumakja,Tumakda,Tumakne,Tumakle,Tumakre,Tumakzi,Tumakbo,Tumakki,Tumakmu"
+  "b": "Tumak,Bongor,Pala,Fianga,Léré,Koumra,Doba,Moundou,Bébédjia,Béïnamar,Béïssa,Békiri,Béladja,Béssao,Béti,Boumo,Danamadji,Déressia,Djedah,Dourbali,Goré,Goundi,Grégué,Guélengdeng,Kélo,Kyabé,Mbaïbokoum,Mbaïkoro,Ndam,Ngourkosso,Sarh,Béré,Am Timan,Abou Deïa,Adré,Am Dam,Fada,Iriba,Ounianga,Laï,Galgalo,Fancole,Wema,Nyaribari,Kotus,SofOmar,Hadud,Bereeda,Shalambood,Kilifi,Rioma,Habaswein,Sarweyne,Koorma,Tumakla,Tumakma,Tumakwa,Tumakra,Tumakka,Tumakta,Tumakbwe,Tumaksa,Tumakna,Tumakfa,Tumakga,Tumakja,Tumakda,Tumakne,Tumakle,Tumakre,Tumakzi,Tumakbo,Tumakki,Tumakmu,TulaNaga"
 },
 {
     "name": "Tunisian Arabic",
@@ -6451,7 +6451,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kumasi,Accra,Cape Coast,Koforidua,Bekwae,Goaso,Nsuta,Kwamo,Oforikrom,Bohyen,Buokrom,Bantama,Breman,Aduaben,Bompata,Kodie,Krofrom,Manso,Nante,Beposo,Adansi,Konongo,Offinso,Adanwomase,Bonwire,Kokofu,Asokwa,Wenchi,Nkoranza,Aputuogya,Ntotroso,Kukuom,Gyapekrom,Kwadaso,Nhyaieso,Asenua,Banda,Manhyia,Bacadweyn,Burdhubo,Samburu,Ogembo,SouthHorr,Dhalwo,Aqable,Jariiban,Garbaharey,Geza,Uriri,Bubisa,Kumbare,Sheikh,GalCad,Twila,Twima,Twiwa,Twira,Twika,Twita,Twibwe,Twisa,Twina,Twifa,Twiga,Twija,Twida,Twine,Twile,Twire,Twizi,Twibo,Twiki,Twimu"
+  "b": "Kumasi,Accra,Cape Coast,Koforidua,Bekwae,Goaso,Nsuta,Kwamo,Oforikrom,Bohyen,Buokrom,Bantama,Breman,Aduaben,Bompata,Kodie,Krofrom,Manso,Nante,Beposo,Adansi,Konongo,Offinso,Adanwomase,Bonwire,Kokofu,Asokwa,Wenchi,Nkoranza,Aputuogya,Ntotroso,Kukuom,Gyapekrom,Kwadaso,Nhyaieso,Asenua,Banda,Manhyia,Bacadweyn,Burdhubo,Ogembo,SouthHorr,Dhalwo,Aqable,Jariiban,Garbaharey,Geza,Uriri,Bubisa,Kumbare,Sheikh,GalCad,Twila,Twima,Twiwa,Twira,Twika,Twita,Twibwe,Twisa,Twina,Twifa,Twiga,Twija,Twida,Twine,Twile,Twire,Twizi,Twibo,Twiki,Twimu,Bobo-Dioulasso,Samburu"
 },
 {
     "name": "Ubi",
@@ -6469,7 +6469,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Vame,Gwoza,Bama,Askira-Uba,Damboa,Konduga,Mafa,Monguno,Ngala,Kala-Balge,Marte,Kukawa,Gubio,Magumeri,Abadam,Guzamala,Kaga,Kondunga,Mobar,Nganzai,Gajiganna,Gajiram,Cross Kauwa,Baga,Doron Baga,Kauwa,Rann,Gamboru,Damasak,Wulgo,Chibok,Michika,Mubi,Madagali,Maiduguri,Caabudwaaq,Barich,Mohoro,Borabu,FergusonsGulf,Hareeri,Balcad,Berdaale,Kinarani,Mbita,Bodhai,Kangaten,Holug,BuloBurto,Garbahaarrey,Vamela,Vamema,Vamewa,Vamera,Vameka,Vameta,Vamebwe,Vamesa,Vamena,Vamefa,Vamega,Vameja,Vameda,Vamene,Vamele,Vamere,Vamezi,Vamebo,Vameki,Vamemu"
+  "b": "Vame,Gwoza,Bama,Askira-Uba,Damboa,Konduga,Mafa,Monguno,Ngala,Kala-Balge,Marte,Kukawa,Gubio,Magumeri,Abadam,Guzamala,Kaga,Kondunga,Mobar,Nganzai,Gajiganna,Gajiram,Cross Kauwa,Baga,Kauwa,Rann,Gamboru,Damasak,Wulgo,Chibok,Michika,Mubi,Madagali,Caabudwaaq,Barich,Mohoro,Borabu,FergusonsGulf,Hareeri,Balcad,Berdaale,Kinarani,Mbita,Bodhai,Kangaten,Holug,BuloBurto,Garbahaarrey,Vamela,Vamema,Vamewa,Vamera,Vameka,Vameta,Vamebwe,Vamesa,Vamena,Vamefa,Vamega,Vameja,Vameda,Vamene,Vamele,Vamere,Vamezi,Vamebo,Vameki,Vamemu,Kindia,Doron Baga,Maiduguri"
 },
 {
     "name": "Vemgo-Mabas",
@@ -6478,7 +6478,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Vemgo,Mabas,Gwoza,Bama,Askira-Uba,Damboa,Konduga,Mafa,Monguno,Ngala,Kala-Balge,Marte,Kukawa,Gubio,Magumeri,Abadam,Guzamala,Kaga,Kondunga,Mobar,Nganzai,Gajiganna,Gajiram,Baga,Doron Baga,Kauwa,Rann,Gamboru,Damasak,Wulgo,Chibok,Michika,Madagali,Hong,Maiha,Mubi,Yeed,Kidimu,HomaBay,Kiunga,Kibish,GofKudle,Wanleweyn,Dolow,Gongoni,Bondo,Vipingo,Konso,CeyrTabaan,Laasqoray,QansaxDheere,VemgoMabasla,VemgoMabasma,VemgoMabaswa,VemgoMabasra,VemgoMabaska,VemgoMabasta,VemgoMabasbwe,VemgoMabassa,VemgoMabasna,VemgoMabasfa,VemgoMabasga,VemgoMabasja,VemgoMabasda,VemgoMabasne,VemgoMabasle,VemgoMabasre,VemgoMabaszi,VemgoMabasbo,VemgoMabaski,VemgoMabasmu"
+  "b": "Vemgo,Mabas,Gwoza,Bama,Askira-Uba,Damboa,Konduga,Mafa,Monguno,Ngala,Kala-Balge,Marte,Kukawa,Gubio,Magumeri,Abadam,Guzamala,Kaga,Kondunga,Mobar,Nganzai,Gajiganna,Gajiram,Baga,Kauwa,Rann,Gamboru,Damasak,Wulgo,Chibok,Michika,Madagali,Hong,Maiha,Mubi,Yeed,Kidimu,Kiunga,Kibish,Wanleweyn,Dolow,Gongoni,Bondo,Vipingo,Konso,CeyrTabaan,Laasqoray,Doron Baga,HomaBay,GofKudle,QansaxDheere,VemgoMabasla,VemgoMabasma,VemgoMabaswa,VemgoMabasra,VemgoMabaska,VemgoMabasta,VemgoMabasbwe,VemgoMabassa,VemgoMabasna,VemgoMabasfa,VemgoMabasga,VemgoMabasja,VemgoMabasda,VemgoMabasne,VemgoMabasle,VemgoMabasre,VemgoMabaszi,VemgoMabasbo,VemgoMabaski,VemgoMabasmu"
 },
 {
     "name": "Wandala",
@@ -6487,7 +6487,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Wandala,Gwoza,Bama,Askira-Uba,Damboa,Konduga,Mafa,Monguno,Ngala,Kala-Balge,Marte,Kukawa,Gubio,Magumeri,Abadam,Guzamala,Kaga,Kondunga,Mobar,Nganzai,Gajiganna,Gajiram,Baga,Doron Baga,Kauwa,Rann,Gamboru,Damasak,Wulgo,Chibok,Michika,Madagali,Maiha,Mora,Maroua,Kousséri,Mokolo,Beledhawo,Jamia,Siaya,Samburu,Ririba,Galolk,CeelAfweyn,Baidoa,Chara,Webuye,Kipini,Mega,AadanYabaal,Galgalo,Fancole,Wandalala,Wandalama,Wandalawa,Wandalara,Wandalaka,Wandalata,Wandalabwe,Wandalasa,Wandalana,Wandalafa,Wandalaga,Wandalaja,Wandalada,Wandalane,Wandalale,Wandalare,Wandalazi,Wandalabo,Wandalaki,Wandalamu"
+  "b": "Wandala,Gwoza,Bama,Askira-Uba,Damboa,Konduga,Mafa,Monguno,Ngala,Kala-Balge,Marte,Kukawa,Gubio,Magumeri,Abadam,Guzamala,Kaga,Kondunga,Mobar,Nganzai,Gajiganna,Gajiram,Baga,Kauwa,Rann,Gamboru,Damasak,Wulgo,Chibok,Michika,Madagali,Maiha,Mora,Maroua,Kousséri,Mokolo,Beledhawo,Jamia,Siaya,Ririba,Galolk,CeelAfweyn,Baidoa,Chara,Webuye,Kipini,Mega,AadanYabaal,Galgalo,Fancole,Wandalala,Wandalama,Wandalawa,Wandalara,Wandalaka,Wandalata,Wandalabwe,Wandalasa,Wandalana,Wandalafa,Wandalaga,Wandalaja,Wandalada,Wandalane,Wandalale,Wandalare,Wandalazi,Wandalabo,Wandalaki,Wandalamu,Kankan,Doron Baga,Samburu"
 },
 {
     "name": "Warji",
@@ -6496,7 +6496,7 @@ window.africaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-  "b": "Warji,Darazo,Ganjuwa,Soro,Miya,Baben Kasa,Badaromo,Barkaya,Dagale,Deno,Digawa,Dugumi,Gurzumo,Janu,Kariya,Kubi,Nassarawa,Siri,Tafawa,Zibinju,Choogen,Toro,Alkaleri,Kirfi,Ningi,Dass,Bogoro,Lere,Lame,Rano,Gamawa,Shira,Giade,Itas,Zaki,Bulkachuwa,Kafin Madaki,Maina,Burga,Kudaru,Tuli,Chame,Kafin,Chine,Bagumba,Barmawa,Kafin Sugai,Baardheere,Bwiti,Bungoma,Lamu,Imi,GeedWeen,Karindoolay,Gamey,Kipini,Nyakoe,Bura,Wachile,GarasQod,Bacad,BuuloMarer,Warjila,Warjima,Warjiwa,Warjira,Warjika,Warjita,Warjibwe,Warjisa,Warjina,Warjifa,Warjiga,Warjija,Warjida,Warjine,Warjile,Warjire,Warjizi,Warjibo,Warjiki,Warjimu"
+  "b": "Warji,Darazo,Ganjuwa,Soro,Miya,Badaromo,Barkaya,Dagale,Deno,Digawa,Dugumi,Gurzumo,Janu,Kariya,Kubi,Nassarawa,Siri,Tafawa,Zibinju,Choogen,Toro,Alkaleri,Kirfi,Ningi,Dass,Bogoro,Lere,Lame,Rano,Gamawa,Shira,Giade,Itas,Zaki,Bulkachuwa,Kafin Madaki,Maina,Burga,Kudaru,Tuli,Chame,Kafin,Chine,Bagumba,Barmawa,Kafin Sugai,Baardheere,Bwiti,Bungoma,Lamu,Imi,GeedWeen,Karindoolay,Gamey,Kipini,Nyakoe,Bura,Wachile,GarasQod,Bacad,BuuloMarer,Warjila,Warjima,Warjiwa,Warjira,Warjika,Warjita,Warjibwe,Warjisa,Warjina,Warjifa,Warjiga,Warjija,Warjida,Warjine,Warjile,Warjire,Warjizi,Warjibo,Warjiki,Warjimu,Baben Kasa"
 },
 {
     "name": "Weh",
@@ -6505,7 +6505,7 @@ window.africaNameBases = [
   "max": 14,
   "d": "lnrt",
   "m": 0,
-  "b": "Weh,Shendam,Langung,Panyam,Balong,Dokan Tofa,Jos,Bukuru,Pankshin,Mangu,Kabwir,Gindiri,Riyom,Barkin Ladi,Lafia,Akwanga,Wamba,Nunku,Assakio,Kagoro,Moro'a,Zang,Kwallak,Kafanchan,Sanga,Ninzam,Fadan Kamantan,Attakar,Bajju,Mado,Kachia,Kagarko,Jere,Kwoi,Badu,Chori,Gidan Waya,Kurmin,Jagindi,Kubacha,Chawai,Riban,Zaman Dabo"
+  "b": "Weh,Shendam,Langung,Panyam,Balong,Jos,Pankshin,Mangu,Kabwir,Gindiri,Riyom,Barkin Ladi,Lafia,Akwanga,Wamba,Nunku,Assakio,Kagoro,Moro,Nzérékoré'a,Zang,Kwallak,Kafanchan,Sanga,Ninzam,Fadan Kamantan,Attakar,Bajju,Mado,Kachia,Kagarko,Jere,Kwoi,Badu,Chori,Gidan Waya,Kurmin,Jagindi,Kubacha,Chawai,Riban,Dokan Tofa,Bukuru,Moro'a,Zaman Dabo"
 },
 {
     "name": "West Banda",
@@ -6514,7 +6514,7 @@ window.africaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-  "b": "West Banda,Bambari,Bria,Bangassou,Ippy,Kouango,Alindao,Mobaye,Kaga-Bandoro,Sibut,Dekoa,Bouca,Batangafo,Bossangoa,Bouar,Bozoum,Paoua,Markounda,Baboua,Betoko,Kabo,Kongbo,Bangui,Bimbo,Boali,Damara,Mbaiki,Mongoumba,Nola,Boda,Bossembele,Bocaranga,Janaale,Kaloleni,Masige,ArchersPost,RasKamboni,Deynile,Hobyo,Kudhaa,Shimba,Tabaka,Marsabit,Murcanyo,Buqda,Galkacyo,Elwak,WestBandala,WestBandama,WestBandawa,WestBandara,WestBandaka,WestBandata,WestBandabwe,WestBandasa,WestBandana,WestBandafa,WestBandaga,WestBandaja,WestBandada,WestBandane,WestBandale,WestBandare,WestBandazi,WestBandabo,WestBandaki,WestBandamu"
+  "b": "Bambari,Bria,Bangassou,Ippy,Kouango,Alindao,Mobaye,Kaga-Bandoro,Sibut,Dekoa,Bouca,Batangafo,Bossangoa,Bouar,Bozoum,Paoua,Markounda,Baboua,Betoko,Kabo,Kongbo,Bangui,Bimbo,Boali,Damara,Mbaiki,Mongoumba,Nola,Boda,Bossembele,Bocaranga,Janaale,Kaloleni,Masige,ArchersPost,RasKamboni,Deynile,Hobyo,Kudhaa,Shimba,Tabaka,Marsabit,Murcanyo,Buqda,Galkacyo,Elwak,westbandaSprings,westbandaCreek,westbandaRidge,westbandaHeights,westbandaFalls,westbandaBeach,westbandaPoint,westbandaBay,westbandaGrove,West Banda,WestBandala,WestBandama,WestBandawa,WestBandara,WestBandaka,WestBandata,WestBandabwe,WestBandasa,WestBandana,WestBandafa,WestBandaga,WestBandaja,WestBandada,WestBandane,WestBandale,WestBandare,WestBandazi,WestBandabo,WestBandaki,WestBandamu"
 },
 {
     "name": "Western Somali",
@@ -6523,7 +6523,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Jijiga,Dire Dawa,Harar,Kebri Dehar,Gode,Shilabo,Kelafo,Fik,Degehabur,Aware,Bokh,Imi,Danan,Aysha,Shinile,Erigavo,Borama,Baki,Lughaya,Zeila,Lawyacado,Saylac,Hargeisa,Burao,Berbera,Gabiley,Gebiley,Togdheer,Las Anod,Galkayo,Beledweyne,Dhusamareb,Oddur,Luug,El Waq,Dolo,Mandera"
+  "b": "Jijiga,Harar,Kebri Dehar,Gode,Shilabo,Kelafo,Fik,Degehabur,Aware,Bokh,Imi,Danan,Aysha,Shinile,Erigavo,Borama,Baki,Lughaya,Zeila,Lawyacado,Saylac,Hargeisa,Burao,Berbera,Gabiley,Gebiley,Togdheer,Las Anod,Galkayo,Beledweyne,Dhusamareb,Oddur,Luug,El Waq,Dolo,Mandera,Dire Dawa"
 },
 {
     "name": "Wuzlam",
@@ -6541,7 +6541,7 @@ window.africaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-  "b": "Yangere,Bambari,Bria,Bangassou,Ippy,Kouango,Alindao,Mobaye,Kaga-Bandoro,Sibut,Dekoa,Bouca,Batangafo,Bossangoa,Bouar,Bozoum,Paoua,Markounda,Baboua,Betoko,Kabo,Kongbo,Bangui,Bimbo,Boali,Damara,Mbaiki,Mongoumba,Nola,Boda,Bossembele,Bocaranga,Koundjou,Yaloké,Mboki,Gambo,Gamoula,Zémio,Rafaï,Obo,Mgangani,Karungu,Dida,Kakuma,Garsale,Jowhaar,Farlibaax,Pongwe,KenduBay,Faza,Omorate,Qoton,Afgoi,Beledhawo,Jamia,Yangerela,Yangerema,Yangerewa,Yangerera,Yangereka,Yangereta,Yangerebwe,Yangeresa,Yangerena,Yangerefa,Yangerega,Yangereja,Yangereda,Yangerene,Yangerele,Yangerere,Yangerezi,Yangerebo,Yangereki,Yangeremu"
+  "b": "Yangere,Bambari,Bria,Bangassou,Ippy,Kouango,Alindao,Mobaye,Kaga-Bandoro,Sibut,Dekoa,Bouca,Batangafo,Bossangoa,Bouar,Bozoum,Paoua,Markounda,Baboua,Betoko,Kabo,Kongbo,Bangui,Bimbo,Boali,Damara,Mbaiki,Mongoumba,Nola,Boda,Bossembele,Bocaranga,Koundjou,Yaloké,Mboki,Gambo,Gamoula,Zémio,Rafaï,Obo,Mgangani,Karungu,Dida,Kakuma,Garsale,Jowhaar,Farlibaax,Pongwe,Faza,Omorate,Qoton,Afgoi,Beledhawo,Jamia,Yangerela,Yangerema,Yangerewa,Yangerera,Yangereka,Yangereta,Yangerebwe,Yangeresa,Yangerena,Yangerefa,Yangerega,Yangereja,Yangereda,Yangerene,Yangerele,Yangerere,Yangerezi,Yangerebo,Yangereki,Yangeremu,KenduBay"
 },
 {
     "name": "Yedina",
@@ -6550,7 +6550,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Yedina,Baga,Doron Baga,Kauwa,Monguno,Marte,Kukawa,Gubio,Magumeri,Abadam,Guzamala,Kaga,Kondunga,Mobar,Nganzai,Gajiganna,Gajiram,Rann,Gamboru,Damasak,Wulgo,Chibok,Damboa,Gwoza,Bama,Maiduguri,Askira-Uba,Konduga,Mafa,Ngala,Kala-Balge,Cross Kauwa,Baga Sola,Bol,Bol Berim,Ngomoni,Oyugis,Shella,Turmi,Janaale,LaasGacamey,ElBarde,Ndau,Vihiga,Mariakani,Moyale,SaLul,Erigavo,Baardheere,Bwiti,Yedinala,Yedinama,Yedinawa,Yedinara,Yedinaka,Yedinata,Yedinabwe,Yedinasa,Yedinana,Yedinafa,Yedinaga,Yedinaja,Yedinada,Yedinane,Yedinale,Yedinare,Yedinazi,Yedinabo,Yedinaki,Yedinamu"
+  "b": "Yedina,Baga,Kauwa,Monguno,Marte,Kukawa,Gubio,Magumeri,Abadam,Guzamala,Kaga,Kondunga,Mobar,Nganzai,Gajiganna,Gajiram,Rann,Gamboru,Damasak,Wulgo,Chibok,Damboa,Gwoza,Bama,Askira-Uba,Konduga,Mafa,Ngala,Kala-Balge,Cross Kauwa,Bol,Bol Berim,Ngomoni,Oyugis,Shella,Turmi,Janaale,LaasGacamey,ElBarde,Ndau,Vihiga,Mariakani,Moyale,SaLul,Erigavo,Baardheere,Bwiti,Yedinala,Yedinama,Yedinawa,Yedinara,Yedinaka,Yedinata,Yedinabwe,Yedinasa,Yedinana,Yedinafa,Yedinaga,Yedinaja,Yedinada,Yedinane,Yedinale,Yedinare,Yedinazi,Yedinabo,Yedinaki,Yedinamu,Porto-Novo,Doron Baga,Maiduguri,Baga Sola"
 },
 {
     "name": "Yeyi",
@@ -6568,7 +6568,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Yiwom,Shendam,Langung,Panyam,Balong,Dokan Tofa,Jos,Bukuru,Pankshin,Mangu,Kabwir,Gindiri,Riyom,Barkin Ladi,Goechim,Mapen,Dok,Kamu,Kurgwi,Kwande,Kwallak,Nafuta,Namut,Lankon,Shimankar,Kagadama,Kagoro,Moro'a,Chigwong,Pyem,Dok-Pai,Kofyar,Chakfem,Bwong,Chor,Yelwa,Bargoni,Chwele,Hola,Degehabur,Bagula,Iskushuban,Gendershe,Garsen,Ikonge,ElDera,Haraale,Salkaxo,Garowe,Janaale,Kaloleni,Yiwomla,Yiwomma,Yiwomwa,Yiwomra,Yiwomka,Yiwomta,Yiwombwe,Yiwomsa,Yiwomna,Yiwomfa,Yiwomga,Yiwomja,Yiwomda,Yiwomne,Yiwomle,Yiwomre,Yiwomzi,Yiwombo,Yiwomki,Yiwommu"
+  "b": "Yiwom,Shendam,Langung,Panyam,Balong,Jos,Pankshin,Mangu,Kabwir,Gindiri,Riyom,Barkin Ladi,Goechim,Mapen,Dok,Kamu,Kurgwi,Kwande,Kwallak,Nafuta,Namut,Lankon,Shimankar,Kagadama,Kagoro,Moro,Parakou'a,Chigwong,Pyem,Dok-Pai,Kofyar,Chakfem,Bwong,Chor,Yelwa,Bargoni,Chwele,Hola,Degehabur,Bagula,Iskushuban,Gendershe,Garsen,Ikonge,Haraale,Salkaxo,Garowe,Janaale,Kaloleni,Yiwomla,Yiwomma,Yiwomwa,Yiwomra,Yiwomka,Yiwomta,Yiwombwe,Yiwomsa,Yiwomna,Yiwomfa,Yiwomga,Yiwomja,Yiwomda,Yiwomne,Yiwomle,Yiwomre,Yiwomzi,Yiwombo,Yiwomki,Yiwommu,Dokan Tofa,Bukuru,Moro'a,ElDera"
 },
 {
     "name": "Yoruba alt code",
@@ -6577,7 +6577,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ibadan,Abeokuta,Oshogbo,Ilorin,Ile-Ife,Ado-Ekiti,Akure,Ogbomosho,Ilaro,Ede,Iwo,Eruwa,Iperu,Ota,Ifo,Sango-Otta,Ikorodu,Epe,Shagamu,Osogbo,Ilesa,Ife,Ijebu Ode,Sagamu,Badagry,Apomu,Gbongan,Ikirun,Ila Orangun,Okuku,Issyin,Okeho,Igbo Ora,Idoani,Idanre,Emure,Ir,Ise,Otun,Arigidi,Ilave"
+  "b": "Ibadan,Abeokuta,Oshogbo,Ilorin,Ile-Ife,Ado-Ekiti,Akure,Ogbomosho,Ilaro,Ede,Iwo,Eruwa,Iperu,Ota,Ifo,Ikorodu,Epe,Shagamu,Osogbo,Ilesa,Ife,Ijebu Ode,Sagamu,Badagry,Apomu,Gbongan,Ikirun,Ila Orangun,Okuku,Issyin,Okeho,Igbo Ora,Idoani,Idanre,Emure,Ir,Ise,Otun,Arigidi,Ilave,Sango-Otta"
 },
 {
     "name": "Zaghawa",
@@ -6586,7 +6586,7 @@ window.africaNameBases = [
   "max": 15,
   "d": "lnrt",
   "m": 0,
-  "b": "Zaghawa,El Fasher,Kutum,Kabkabiya,Saraf Omra,Um Kadada,Mellit,Al Malha,Al Tina,Beida,Birao,Tissi,Am Dafok,Bahaï,Kornoi,Iriba,Guéréda,Adré,Am Zoer,Biltine,Ounianga,Fada,Abéché,Am Timan,Goz Beida,Koukou Angarana,Mangalmé,Guelengdeng,Dagana,Bahai,Kobé,Mourdi,Ourda,Mariakani,Kisii,Maralal,Liibaan,Duduble,Galdogob,Dhoobley,Vanga,Suba,Korr,Gurfuudle,Dabare,Runni,Kachoda,Mkokoni,Zaghawala,Zaghawama,Zaghawawa,Zaghawara,Zaghawaka,Zaghawata,Zaghawabwe,Zaghawasa,Zaghawana,Zaghawafa,Zaghawaga,Zaghawaja,Zaghawada,Zaghawane,Zaghawale,Zaghaware,Zaghawazi,Zaghawabo,Zaghawaki,Zaghawamu"
+  "b": "Zaghawa,El Fasher,Kutum,Kabkabiya,Um Kadada,Mellit,Al Malha,Beida,Birao,Tissi,Am Dafok,Bahaï,Kornoi,Iriba,Guéréda,Adré,Am Zoer,Biltine,Ounianga,Fada,Abéché,Am Timan,Goz Beida,Koukou Angarana,Mangalmé,Guelengdeng,Dagana,Bahai,Kobé,Mourdi,Ourda,Mariakani,Kisii,Maralal,Liibaan,Duduble,Galdogob,Dhoobley,Vanga,Suba,Korr,Gurfuudle,Dabare,Runni,Kachoda,Mkokoni,Zaghawala,Zaghawama,Zaghawawa,Zaghawara,Zaghawaka,Zaghawata,Zaghawabwe,Zaghawasa,Zaghawana,Zaghawafa,Zaghawaga,Zaghawaja,Zaghawane,Zaghawale,Zaghaware,Zaghawazi,Zaghawabo,Zaghawaki,Zaghawamu,Sokodé,Saraf Omra,Al Tina,Zaghawada"
 },
 {
     "name": "Zari",
@@ -6595,7 +6595,7 @@ window.africaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-  "b": "Zari,Darazo,Ganjuwa,Soro,Miya,Baben Kasa,Badaromo,Barkaya,Dagale,Deno,Digawa,Dugumi,Gurzumo,Janu,Kariya,Kubi,Nassarawa,Siri,Tafawa,Zibinju,Choogen,Toro,Alkaleri,Kirfi,Ningi,Dass,Bogoro,Lere,Lame,Rano,Gamawa,Shira,Giade,Itas,Zaki,Bulkachuwa,Kafin Madaki,Bununu,Tapshin,Bula,Kardam,Dull,Ball,Zungur,Galambi,Durum,Kundum,Jimbo,Suna,Kargi,Geesaley,Dhuusamareeb,Balad,Gerille,Kisimani,Ntimaru,Illeret,Jerree,Warshiek,Cadaado,Mgangani,Karungu,Zarila,Zarima,Zariwa,Zarira,Zarika,Zarita,Zaribwe,Zarisa,Zarina,Zarifa,Zariga,Zarija,Zarida,Zarine,Zarile,Zarire,Zarizi,Zaribo,Zariki,Zarimu"
+  "b": "Zari,Darazo,Ganjuwa,Soro,Miya,Badaromo,Barkaya,Dagale,Deno,Digawa,Dugumi,Gurzumo,Janu,Kariya,Kubi,Nassarawa,Siri,Tafawa,Zibinju,Choogen,Toro,Alkaleri,Kirfi,Ningi,Dass,Bogoro,Lere,Lame,Rano,Gamawa,Shira,Giade,Itas,Zaki,Bulkachuwa,Kafin Madaki,Bununu,Tapshin,Bula,Kardam,Dull,Ball,Zungur,Galambi,Durum,Kundum,Jimbo,Suna,Kargi,Geesaley,Dhuusamareeb,Balad,Gerille,Kisimani,Ntimaru,Illeret,Jerree,Warshiek,Cadaado,Mgangani,Karungu,Zarila,Zarima,Zariwa,Zarira,Zarika,Zarita,Zaribwe,Zarisa,Zarina,Zarifa,Zariga,Zarija,Zarida,Zarine,Zarile,Zarire,Zarizi,Zaribo,Zariki,Zarimu,Baben Kasa"
 },
 {
     "name": "Zeem",
@@ -6604,7 +6604,7 @@ window.africaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-  "b": "Zeem,Darazo,Ganjuwa,Soro,Miya,Baben Kasa,Badaromo,Barkaya,Dagale,Deno,Digawa,Dugumi,Gurzumo,Janu,Kariya,Kubi,Nassarawa,Siri,Tafawa,Zibinju,Choogen,Toro,Alkaleri,Kirfi,Ningi,Dass,Bogoro,Lere,Lame,Rano,Gamawa,Shira,Giade,Itas,Zaki,Bulkachuwa,Kafin Madaki,Bununu,Tapshin,Bula,Kardam,Dull,Ball,Zungur,Galambi,Durum,Kundum,Takawiri,Nyangusu,Loyangalani,Caano,CelDheer,Saakow,Buni,Ikerege,Mkunumbi,Lodwar,Qorragan,Buulobarde,CeelBarde,Ngomoni,Oyugis,Zeemla,Zeemma,Zeemwa,Zeemra,Zeemka,Zeemta,Zeembwe,Zeemsa,Zeemna,Zeemfa,Zeemga,Zeemja,Zeemda,Zeemne,Zeemle,Zeemre,Zeemzi,Zeembo,Zeemki,Zeemmu"
+  "b": "Zeem,Darazo,Ganjuwa,Soro,Miya,Badaromo,Barkaya,Dagale,Deno,Digawa,Dugumi,Gurzumo,Janu,Kariya,Kubi,Nassarawa,Siri,Tafawa,Zibinju,Choogen,Toro,Alkaleri,Kirfi,Ningi,Dass,Bogoro,Lere,Lame,Rano,Gamawa,Shira,Giade,Itas,Zaki,Bulkachuwa,Kafin Madaki,Bununu,Tapshin,Bula,Kardam,Dull,Ball,Zungur,Galambi,Durum,Kundum,Takawiri,Nyangusu,Loyangalani,Caano,CelDheer,Saakow,Buni,Ikerege,Mkunumbi,Lodwar,Qorragan,Buulobarde,CeelBarde,Ngomoni,Oyugis,Zeemla,Zeemma,Zeemwa,Zeemra,Zeemka,Zeemta,Zeembwe,Zeemsa,Zeemna,Zeemfa,Zeemga,Zeemja,Zeemda,Zeemne,Zeemle,Zeemre,Zeemzi,Zeembo,Zeemki,Zeemmu,Baben Kasa"
 },
 {
     "name": "Zemba",
@@ -6631,7 +6631,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Zirenkel,Bongor,Pala,Fianga,Léré,Koumra,Doba,Moundou,Bébédjia,Béïnamar,Béïssa,Békiri,Béladja,Béssao,Béti,Boumo,Danamadji,Déressia,Djedah,Dourbali,Goré,Goundi,Grégué,Guélengdeng,Kélo,Kyabé,Mbaïbokoum,Mbaïkoro,Ndam,Ngourkosso,Sarh,Béré,Am Timan,Abou Deïa,Adré,Am Dam,Assinet,Bahaï,Baktchoro,Daguessa,Fada,Iriba,Ounianga,Dagana,Kobé,Mourdi,Mumias,Malindi,Yavello,Guba,Xaafuun,Lanta,Ozi,Tindinyo,Masalani,ElKere,Garawe,Bargaal,Afgooye,Sengera,ElBur,Zirenkella,Zirenkelma,Zirenkelwa,Zirenkelra,Zirenkelka,Zirenkelta,Zirenkelbwe,Zirenkelsa,Zirenkelna,Zirenkelfa,Zirenkelga,Zirenkelja,Zirenkelda,Zirenkelne,Zirenkelle,Zirenkelre,Zirenkelzi,Zirenkelbo,Zirenkelki,Zirenkelmu"
+  "b": "Zirenkel,Bongor,Pala,Fianga,Léré,Koumra,Doba,Moundou,Bébédjia,Béïnamar,Béïssa,Békiri,Béladja,Béssao,Béti,Boumo,Danamadji,Déressia,Djedah,Dourbali,Goré,Goundi,Grégué,Guélengdeng,Kélo,Kyabé,Mbaïbokoum,Mbaïkoro,Ndam,Ngourkosso,Sarh,Béré,Am Timan,Abou Deïa,Adré,Am Dam,Assinet,Bahaï,Baktchoro,Daguessa,Fada,Iriba,Ounianga,Dagana,Kobé,Mourdi,Mumias,Malindi,Yavello,Guba,Xaafuun,Lanta,Ozi,Tindinyo,Masalani,Garawe,Bargaal,Afgooye,Sengera,ElBur,Zirenkella,Zirenkelma,Zirenkelwa,Zirenkelra,Zirenkelka,Zirenkelta,Zirenkelbwe,Zirenkelsa,Zirenkelna,Zirenkelfa,Zirenkelga,Zirenkelja,Zirenkelda,Zirenkelne,Zirenkelle,Zirenkelre,Zirenkelzi,Zirenkelbo,Zirenkelki,Zirenkelmu,ElKere"
 },
 {
     "name": "Zizilivakan",
@@ -6640,7 +6640,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Zizilivakan,Mokolo,Mogodé,Gawar,Kortchi,Maroua,Mora,Waza,Kousséri,Dzigilao,Gawawa,Mafa,Mofu,Hina,Daba,Buwal,Galdala,Gadala,Kapsiki,Cuvok,Bulahay,Matakam,Mogoré,Mouhour,Rhumsiki,Mémé,Mokong,Mofoué,Moulvoudaye,Moutourwa,Ngaoundéré,Ngaoundal,Tibati,Banyo,Galim,Tignère,Kaele,Yagoua,Méri,Nyaribari,Kotus,SofOmar,Hadud,Bereeda,Shalambood,Kilifi,Rioma,Habaswein,TulaNaga,Sarweyne,Koorma,Xarardheere,Mariakani,Kisii,Zizilivakanla,Zizilivakanma,Zizilivakanwa,Zizilivakanra,Zizilivakanka,Zizilivakanta,Zizilivakanbwe,Zizilivakansa,Zizilivakanna,Zizilivakanfa,Zizilivakanga,Zizilivakanja,Zizilivakanda,Zizilivakanne,Zizilivakanle,Zizilivakanre,Zizilivakanzi,Zizilivakanbo,Zizilivakanki,Zizilivakanmu"
+  "b": "Zizilivakan,Mokolo,Mogodé,Gawar,Kortchi,Maroua,Mora,Waza,Kousséri,Dzigilao,Gawawa,Mafa,Mofu,Hina,Daba,Buwal,Galdala,Gadala,Kapsiki,Cuvok,Bulahay,Matakam,Mogoré,Mouhour,Rhumsiki,Mémé,Mokong,Mofoué,Moulvoudaye,Moutourwa,Ngaoundéré,Ngaoundal,Tibati,Banyo,Galim,Tignère,Kaele,Yagoua,Méri,Nyaribari,Kotus,SofOmar,Hadud,Bereeda,Shalambood,Kilifi,Rioma,Habaswein,Sarweyne,Koorma,Xarardheere,Mariakani,Kisii,Zizilivakanla,Zizilivakanma,Zizilivakanwa,Zizilivakanra,Zizilivakanka,Zizilivakanta,Zizilivakanbwe,Zizilivakansa,Zizilivakanna,Zizilivakanfa,Zizilivakanga,Zizilivakanja,Zizilivakanda,Zizilivakanne,Zizilivakanle,Zizilivakanre,Zizilivakanzi,Zizilivakanbo,Zizilivakanki,Zizilivakanmu,TulaNaga"
 },
 {
     "name": "Zulgo-Gemzek",
@@ -6667,7 +6667,7 @@ window.africaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-  "b": "Zumbun,Darazo,Ganjuwa,Soro,Miya,Baben Kasa,Badaromo,Barkaya,Dagale,Deno,Digawa,Dugumi,Gurzumo,Janu,Kariya,Kubi,Nassarawa,Siri,Tafawa,Zibinju,Choogen,Toro,Alkaleri,Kirfi,Ningi,Dass,Bogoro,Lere,Lame,Rano,Gamawa,Shira,Giade,Itas,Zaki,Bulkachuwa,Kafin Madaki,Bununu,Tapshin,Bula,Kardam,Dull,Ball,Zungur,Galambi,Durum,Kundum,Isebania,Maikona,Cagare,WarSheikh,Dhuusamareeb,Janjan,Mfangano,Matiri,Lowarengak,Geedweyne,Cadaado,Bardhere,Wangwana,Keumbu,Witu,Zumbunla,Zumbunma,Zumbunwa,Zumbunra,Zumbunka,Zumbunta,Zumbunbwe,Zumbunsa,Zumbunna,Zumbunfa,Zumbunga,Zumbunja,Zumbunda,Zumbunne,Zumbunle,Zumbunre,Zumbunzi,Zumbunbo,Zumbunki,Zumbunmu"
+  "b": "Zumbun,Darazo,Ganjuwa,Soro,Miya,Badaromo,Barkaya,Dagale,Deno,Digawa,Dugumi,Gurzumo,Janu,Kariya,Kubi,Nassarawa,Siri,Tafawa,Zibinju,Choogen,Toro,Alkaleri,Kirfi,Ningi,Dass,Bogoro,Lere,Lame,Rano,Gamawa,Shira,Giade,Itas,Zaki,Bulkachuwa,Kafin Madaki,Bununu,Tapshin,Bula,Kardam,Dull,Ball,Zungur,Galambi,Durum,Kundum,Isebania,Maikona,Cagare,WarSheikh,Dhuusamareeb,Janjan,Mfangano,Matiri,Lowarengak,Geedweyne,Cadaado,Bardhere,Wangwana,Keumbu,Witu,Zumbunla,Zumbunma,Zumbunwa,Zumbunra,Zumbunka,Zumbunta,Zumbunbwe,Zumbunsa,Zumbunna,Zumbunfa,Zumbunga,Zumbunja,Zumbunda,Zumbunne,Zumbunle,Zumbunre,Zumbunzi,Zumbunbo,Zumbunki,Zumbunmu,Baben Kasa"
 },
 {
     "name": "ǂKxʼaoǁʼae",
@@ -6685,7 +6685,7 @@ window.africaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-  "b": "ǂʼAmkoe,Ghanzi,Dutlwe,Xade,New Xade,Maun,Shakawe,Nokaneng,Tsodilo,Nxaunxau,Gumare,Etsha,Sehithwa,Serowe,Palapye,Mahalapye,Shoshong,Letlhakane,Kanye,Molepolole,Mogoditshane,Gaborone,Lobatse,Mochudi,Tlokweng,Ramotswa,Otse,Kopong,Orapa,Jwaneng,Kgalagadi,Kuis,Kang,Ncojane,Hukuntsi,Kalkfontein,Laotshe,Kiunga,Kibish,GofKudle,Wanleweyn,Dolow,Gongoni,Bondo,Vipingo,Konso,CeyrTabaan,Laasqoray,QansaxDheere,Garsen,Mumias,Malindi,Amkoela,Amkoema,Amkoewa,Amkoera,Amkoeka,Amkoeta,Amkoebwe,Amkoesa,Amkoena,Amkoefa,Amkoega,Amkoeja,Amkoeda,Amkoene,Amkoele,Amkoere,Amkoezi,Amkoebo,Amkoeki,Amkoemu"
+  "b": "ǂʼAmkoe,Ghanzi,Dutlwe,Xade,New Xade,Maun,Shakawe,Nokaneng,Tsodilo,Nxaunxau,Gumare,Etsha,Sehithwa,Serowe,Palapye,Mahalapye,Shoshong,Letlhakane,Kanye,Molepolole,Mogoditshane,Gaborone,Lobatse,Mochudi,Tlokweng,Ramotswa,Otse,Kopong,Orapa,Jwaneng,Kgalagadi,Kuis,Kang,Ncojane,Hukuntsi,Kalkfontein,Laotshe,Kiunga,Kibish,Wanleweyn,Dolow,Gongoni,Bondo,Vipingo,Konso,CeyrTabaan,Laasqoray,Garsen,Mumias,Malindi,Amkoela,Amkoema,Amkoewa,Amkoera,Amkoeka,Amkoeta,Amkoebwe,Amkoesa,Amkoena,Amkoefa,Amkoega,Amkoeja,Amkoeda,Amkoene,Amkoele,Amkoere,Amkoezi,Amkoebo,Amkoeki,Amkoemu,GofKudle,QansaxDheere"
 },
 {
     "name": "Forro Creole",
@@ -6712,7 +6712,7 @@ window.africaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-  "b": "Argobba,Dire Dawa,Harar,Jijiga,Shinile,Aysha,Danan,Erer,Babile,Aweday,Fafan,Jarar,Kore,Kurfachelle,Anchar,Bejima,Ataye,Kemise,Debre Berhan,Shola Gebeya,Arerti,Menz,Shewa Robit,Majete,Chacha,Debre Sina,Angersa Gota,Bati,Albo,Meta Robi,Sheno,Gudo Bere,Dejen"
+  "b": "Argobba,Harar,Jijiga,Shinile,Aysha,Danan,Erer,Babile,Aweday,Fafan,Jarar,Kore,Kurfachelle,Anchar,Bejima,Ataye,Kemise,Debre Berhan,Shola Gebeya,Arerti,Menz,Shewa Robit,Majete,Chacha,Bati,Albo,Meta Robi,Sheno,Dejen,Dire Dawa,Debre Sina,Angersa Gota,Gudo Bere"
 },
 {
     "name": "Harari",
@@ -6721,7 +6721,7 @@ window.africaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-  "b": "Harar,Dire Dawa,Jijiga,Shinile,Aysha,Danan,Erer,Babile,Aweday,Fafan,Jarar,Kore,Kurfachelle,Anchar,Kombolcha,Mile,Asebe Teferi,Grawa,Chinaksen,Fedis,Girawa,Meta,Kersa,Jarso,Bedeno,Funyan Bira,BuloMarer,Shalambod,GalCadey,Warshiikh,Gashamo,Dhobley,Waajid,Caadale,Marere,Tayaglow,DusaMarreb,Bokol,Jicib,Gumbur,CeelDheer"
+  "b": "Harar,Jijiga,Shinile,Aysha,Danan,Erer,Babile,Aweday,Fafan,Jarar,Kore,Kurfachelle,Anchar,Kombolcha,Mile,Asebe Teferi,Grawa,Chinaksen,Fedis,Girawa,Meta,Kersa,Jarso,Bedeno,BuloMarer,Shalambod,GalCadey,Warshiikh,Gashamo,Dhobley,Waajid,Caadale,Marere,Tayaglow,DusaMarreb,Bokol,Jicib,Gumbur,CeelDheer,Dire Dawa,Funyan Bira"
 },
 {
     "name": "Chagossian Creole",
@@ -6730,7 +6730,7 @@ window.africaNameBases = [
   "max": 18,
   "d": "lnrt",
   "m": 0,
-  "b": "Diego Garcia,Peros Banhos,Salomon,Six Îles,Three Brothers,Eagle Island,Île Boddam,Île Anglaise,Île du Coin,Île Fouquet,Île Poule,Île Vache Marine,Île Yeye,Île Mapou,Île Diable,Île Parasol,Île Longue,Île Bois Mangue,Île Manoël,Île Animaux,Île Lubine,Île Cipaye,Île Carpathe,Île Crabe,Île aux Vaches,Île aux Rats,Île aux Fous,Île aux Goëlettes,Île aux Coco,Île aux Sables,Île aux Bois,Île aux Souimangas,Île aux Frégates,Île aux Mouettes,Île aux Sternes,Île aux Phaetons,Île aux Albatros,Île aux Fouquets,Île aux Moustiques,Île aux Pintades,Île aux Canards,Île aux Sarcelles,Île aux Hérons,Île aux Aigrettes,Île aux Flamants,Île aux Pélicans,Île aux Cormorans,Île aux Frigates"
+  "b": "Diego Garcia,Peros Banhos,Salomon,Six Îles,Three Brothers,Île Boddam,Île Anglaise,Île du Coin,Île Fouquet,Île Poule,Île Vache Marine,Île Yeye,Île Mapou,Île Diable,Île Parasol,Île Longue,Île Bois Mangue,Île Manoël,Île Animaux,Île Lubine,Île Cipaye,Île Carpathe,Île Crabe,Île aux Vaches,Île aux Rats,Île aux Fous,Île aux Goëlettes,Île aux Coco,Île aux Sables,Île aux Bois,Île aux Souimangas,Île aux Frégates,Île aux Mouettes,Île aux Sternes,Île aux Phaetons,Île aux Albatros,Île aux Fouquets,Île aux Moustiques,Île aux Pintades,Île aux Canards,Île aux Sarcelles,Île aux Hérons,Île aux Aigrettes,Île aux Flamants,Île aux Pélicans,Île aux Cormorans,Île aux Frigates,Kara,Eagle Island"
 },
 {
     "name": "Mauritian Creole",
@@ -6739,7 +6739,7 @@ window.africaNameBases = [
   "max": 18,
   "d": "lnrt",
   "m": 0,
-  "b": "Port Louis,Curepipe,Vacoas,Quatre Bornes,Beau Bassin,Rose Hill,Flacq,Mahebourg,Souillac,Pamplemousses,Triolet,Goodlands,Rivière du Rempart,Flic en Flac,Tamarin,Grand Baie,Pereybère,Cap Malheureux,Rose Belle,Nouvelle France,Chemin Grenier,Surinam,Saint Hubert,Bambous,Saint Pierre,Moka,Phoenix,Albion,Baie du Tombeau,Balaclava,Belle Mare,Bois Chéri,Britannia,Case Noyale"
+  "b": "Port Louis,Curepipe,Vacoas,Quatre Bornes,Beau Bassin,Rose Hill,Flacq,Mahebourg,Souillac,Pamplemousses,Triolet,Goodlands,Rivière du Rempart,Flic en Flac,Tamarin,Grand Baie,Pereybère,Cap Malheureux,Rose Belle,Nouvelle France,Chemin Grenier,Surinam,Saint Hubert,Bambous,Saint Pierre,Moka,Phoenix,Albion,Baie du Tombeau,Balaclava,Bois Chéri,Britannia,Case Noyale,Belle Mare"
 },
 {
     "name": "Rodriguan Creole",
@@ -6757,7 +6757,7 @@ window.africaNameBases = [
   "max": 15,
   "d": "lnrt",
   "m": 0,
-  "b": "Saint-Louis,La Conception,Mission Saint-Louis,Plum,Le Mont-Dore,Nouméa,Saint-Michel,Boulari,Cimetière de Saint-Louis,Plateau sportif de Saint-Louis,Ferme de la Coulée,Yahoué,Pirogues Bay,Grande Terre,Cèmuhi,Drubea,Xârâcuu,Numèè,Wêê,Païta,Yaté,La Foa,Bourail,Poindimié,Koné"
+  "b": "Saint-Louis,La Conception,Mission Saint-Louis,Plum,Nouméa,Saint-Michel,Boulari,Cimetière de Saint-Louis,Plateau sportif de Saint-Louis,Ferme de la Coulée,Yahoué,Pirogues Bay,Grande Terre,Cèmuhi,Drubea,Xârâcuu,Numèè,Wêê,Païta,Yaté,La Foa,Bourail,Poindimié,Koné,Le Mont-Dore"
 },
 {
     "name": "Beni Snous dialect",
@@ -6766,7 +6766,7 @@ window.africaNameBases = [
   "max": 17,
   "d": "lnrt",
   "m": 0,
-  "b": "Beni Snous,Tlemcen,Maghnia,Hammam Boughrana,Bab El Assa,Souahlia,Dar Yaghmouracene,Ouled Mimoun,Remchi,Sabra,Nedroma,Ghazaouet,Marsa Ben M'Hidi,Honaine,Béni Saf,Sidi Abdellah,Sidi Medjahed,Sidi Djillali,Sidi Bel Abbès,Oujda,El Aricha,Mascara,Saida,Aflou,Mecheria,Naâma,Aïn Sefra,Abombridge,Apilville,Amosview,Akadbridge,Amusbridge,Akagview,Aulbridge,Abokview,Anadbridge,Amidbridge,Abelbridge,Afonview,Augview,Animville,Akukbridge,BeniSnousdialecttown,BeniSnousdialectville,BeniSnousdialectburg,BeniSnousdialectview,BeniSnousdialectside"
+  "b": "Beni Snous,Tlemcen,Maghnia,Hammam Boughrana,Souahlia,Dar Yaghmouracene,Ouled Mimoun,Remchi,Sabra,Nedroma,Ghazaouet,Marsa Ben M'Hidi,Honaine,Béni Saf,Sidi Abdellah,Sidi Medjahed,Sidi Djillali,Sidi Bel Abbès,Oujda,El Aricha,Mascara,Saida,Aflou,Mecheria,Naâma,Aïn Sefra,benisnousdialectSprings,benisnousdialectCreek,benisnousdialectRidge,benisnousdialectHeights,benisnousdialectFalls,benisnousdialectBeach,benisnousdialectPoint,benisnousdialectBay,benisnousdialectGrove,Bab El Assa,Abombridge,Apilville,Amosview,Akadbridge,Amusbridge,Akagview,Aulbridge,Abokview,Anadbridge,Amidbridge,Abelbridge,Afonview,Augview,Animville,Akukbridge,BeniSnousdialecttown,BeniSnousdialectville,BeniSnousdialectburg,BeniSnousdialectview,BeniSnousdialectside"
 },
 {
     "name": "Ghadames",
@@ -6820,7 +6820,7 @@ window.africaNameBases = [
   "max": 19,
   "d": "lnrt",
   "m": 0,
-  "b": "Siwi,Siwa,Shali,Aghurmi,Abou Shrouf,Bahariya,El Dakhla,El Kharga,Farafra,El Qara,Gara,Maraqi,Zeitun,Khamisa,Taghaghien,Deir Ali,Barmah,Siwa Oasis,Gabal El Shaybah,Egma,Ballana,Bait Sar,Biwayid,Bawiti,El Hayez,Darb Siwa,Qarat Umm el-Saghir,Qasr Farafra"
+  "b": "Siwi,Siwa,Shali,Aghurmi,Abou Shrouf,Bahariya,El Dakhla,El Kharga,Farafra,Gara,Maraqi,Zeitun,Khamisa,Taghaghien,Deir Ali,Barmah,Siwa Oasis,Gabal El Shaybah,Egma,Ballana,Bait Sar,Biwayid,Bawiti,El Hayez,Qarat Umm el-Saghir,Qasr Farafra,El Qara,Darb Siwa"
 },
 {
     "name": "South Oran and Figuig Berber",
@@ -6847,7 +6847,7 @@ window.africaNameBases = [
   "max": 14,
   "d": "lnrt",
   "m": 0,
-  "b": "Tidikelt,Timmimoun,Adrar,In Salah,Aoulef,Reggane,Akabli,Ouled Said,Tit,Touat,Charouine,Fenoughil,Tamantit,Zaouiet Kounta,Saada,Tamentit,Timekten,In Belbel,Aougrout,Metarfa,Timi,Tinerkouk,Ouled Brahim,In Ghar,Sali,Bouda,Apukside,Alasside,Alemtown,Aurburg,Anuburg,Alunburg,Alitside,Afugtown,Adigtown,Anuktown,Abogtown,Akumtown,Apostown,Apugside,Abemside,Tidikelttown,Tidikeltville,Tidikeltburg,Tidikeltview,Tidikeltside"
+  "b": "Tidikelt,Timmimoun,Adrar,In Salah,Aoulef,Reggane,Akabli,Ouled Said,Tit,Touat,Charouine,Fenoughil,Tamantit,Zaouiet Kounta,Saada,Tamentit,Timekten,In Belbel,Aougrout,Metarfa,Timi,Tinerkouk,Ouled Brahim,In Ghar,Sali,Bouda,Cape Coast,Yamoussoukro,Dakar,Bamako,Ouagadougou,Conakry,Accra,Kumasi,Abidjan,Lomé,Cotonou,Lagos,Kano,Ibadan,Abuja,Tamale,Bouaké,Saint-Louis,Thiès,Kaolack,Apukside,Alasside,Alemtown,Aurburg,Anuburg,Alunburg,Alitside,Afugtown,Adigtown,Anuktown,Abogtown,Akumtown,Apostown,Apugside,Abemside,Tidikelttown,Tidikeltville,Tidikeltburg,Tidikeltview,Tidikeltside"
 },
 {
     "name": "Tuareg Tamasheq",
@@ -6865,7 +6865,7 @@ window.africaNameBases = [
   "max": 13,
   "d": "lnrt",
   "m": 0,
-  "b": "Tugurt,Touggourt,El Oued,Tebesbest,Nezla,Tamacine,Blidet Amor,Sidi Slimane,Taleb Larbi,Temacine,Bayada,El Ogla,Belaiba,Hassi Khelifa,Debila,Ourmes,Magrane,Robbah,Kouinine,Guemar,Reguiba,Still,El M'Ghair,Djamaa,Khobna,Oum Touyour,Trifaoui"
+  "b": "Tugurt,Touggourt,El Oued,Tebesbest,Nezla,Tamacine,Blidet Amor,Sidi Slimane,Taleb Larbi,Temacine,Bayada,Belaiba,Hassi Khelifa,Debila,Ourmes,Magrane,Robbah,Kouinine,Guemar,Reguiba,Still,El M'Ghair,Djamaa,Khobna,Oum Touyour,Trifaoui,El Ogla"
 },
 {
     "name": "Tuwat",
@@ -6883,7 +6883,7 @@ window.africaNameBases = [
   "max": 17,
   "d": "lnrt",
   "m": 0,
-  "b": "Oran,Sidi Bel Abbes,Ain Temouchent,Mascara,Relizane,Mostaganem,Saida,Mecheria,Tlemcen,Maghnia,Nedroma,Ghazaouet,Beni Saf,Remchi,Ouled Mimoun,Sabra,Hammam Boughrana,Bab El Assa,Souahlia,Dar Yaghmouracene,Ain Fekan,Ain El Turk,Misserghin,Boutlelis,Gdyel,Bir El Djir,Abustown,Abamtown,Aludtown,Afektown,Apebford,Afekford,Abudtown,Apastown,Alenland,Anumland,Analand,Aebford,Abegtown,Alebtown,Abektown,WesternAlgerianZenaticdialectstown,WesternAlgerianZenaticdialectsville,WesternAlgerianZenaticdialectsburg,WesternAlgerianZenaticdialectsview,WesternAlgerianZenaticdialectsside"
+  "b": "Oran,Sidi Bel Abbes,Ain Temouchent,Mascara,Relizane,Mostaganem,Saida,Mecheria,Tlemcen,Maghnia,Nedroma,Ghazaouet,Beni Saf,Remchi,Ouled Mimoun,Sabra,Hammam Boughrana,Souahlia,Dar Yaghmouracene,Ain Fekan,Ain El Turk,Misserghin,Boutlelis,Gdyel,Bir El Djir,Ziguinchor,Touba,Ségou,Sikasso,Mopti,Timbuktu,Gao,Bobo-Dioulasso,Kindia,Kankan,Nzérékoré,Porto-Novo,Parakou,Sokodé,Kara,Cape Coast,Yamoussoukro,Bab El Assa,Abustown,Abamtown,Aludtown,Afektown,Apebford,Afekford,Abudtown,Apastown,Alenland,Anumland,Analand,Aebford,Abegtown,Alebtown,Abektown,WesternAlgerianZenaticdialectstown,WesternAlgerianZenaticdialectsville,WesternAlgerianZenaticdialectsburg,WesternAlgerianZenaticdialectsview,WesternAlgerianZenaticdialectsside"
 },
 {
     "name": "Zurg",
@@ -6892,7 +6892,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Tarfaya,Laayoune,Smara,Dakhla,Azrou,Ifrane,Khenifra,Midelt,Azilal,Chichaoua,Taroudant,Tata,Guelmim,Sidi Bennour,Oualidia,Asilah,Larache,Chefchaouen,Tetouan,Fnideq,Ouezzane,Rissani,Ksar Sghir,Moulay Bousselham,Sidi Ifni,Agadir,Al Hoceima,Nador,Ouarzazate,Zagora,Moulay Abdellah,Boujdour,Tiznit,Aowood,Aborport,Akogwood,Aketport,Adosport,Akudbridge,Aputbridge,Afegport,Afirbridge,Akotwood,Afimbridge,Aponwood,Afomport,Ademport,Akoswood,Zurgtown,Zurgville,Zurgburg,Zurgview,Zurgside"
+  "b": "Tarfaya,Laayoune,Smara,Dakhla,Azrou,Ifrane,Khenifra,Midelt,Azilal,Chichaoua,Taroudant,Tata,Guelmim,Sidi Bennour,Oualidia,Asilah,Larache,Chefchaouen,Tetouan,Fnideq,Ouezzane,Rissani,Ksar Sghir,Moulay Bousselham,Sidi Ifni,Agadir,Al Hoceima,Nador,Ouarzazate,Zagora,Moulay Abdellah,Boujdour,Tiznit,Dakar,Bamako,Ouagadougou,Conakry,Accra,Kumasi,Abidjan,Lomé,Cotonou,Lagos,zurgSprings,zurgCreek,zurgRidge,zurgHeights,zurgFalls,zurgBeach,zurgPoint,zurgBay,zurgGrove,Aowood,Aborport,Akogwood,Aketport,Adosport,Akudbridge,Aputbridge,Afegport,Afirbridge,Akotwood,Afimbridge,Aponwood,Afomport,Ademport,Akoswood,Zurgtown,Zurgville,Zurgburg,Zurgview,Zurgside"
 },
 {
     "name": "Zuwara Berber",
@@ -6919,7 +6919,7 @@ window.africaNameBases = [
   "max": 15,
   "d": "lnrt",
   "m": 0,
-  "b": "Porto Novo,Ribeira Grande,Ponta do Sol,Pombas,Paul,Sinagoga,Espongeiro,Vale do Paúl,Tope de Coroa,Monte Tomé,Gudo de Cavaleiro,Moroços,Pico da Cruz,Ribeira de Alto Mira,Ribeira da Garça,Ribeira da Janela,Ribeira do Paul,Ribeira da Torre,Ribeira da Cruz,Ribeira das Patas,Santo António das Pombas,São João Baptista,Santo André,Nossa Senhora do Rosário,Nossa Senhora do Livramento,Santo Crucifixo,São Pedro Apóstolo,Canal de São Vicente,Ilhéu dos Pássaros"
+  "b": "Porto Novo,Ribeira Grande,Ponta do Sol,Pombas,Paul,Sinagoga,Espongeiro,Vale do Paúl,Tope de Coroa,Monte Tomé,Gudo de Cavaleiro,Moroços,Pico da Cruz,Ribeira da Garça,Ribeira da Janela,Ribeira do Paul,Ribeira da Torre,Ribeira da Cruz,Ribeira das Patas,Santo António das Pombas,São João Baptista,Santo André,Nossa Senhora do Rosário,Nossa Senhora do Livramento,Santo Crucifixo,São Pedro Apóstolo,Canal de São Vicente,Ilhéu dos Pássaros,santoantocreoleSprings,santoantocreoleCreek,santoantocreoleRidge,santoantocreoleHeights,santoantocreoleFalls,santoantocreoleBeach,santoantocreolePoint,santoantocreoleBay,santoantocreoleGrove,Ribeira de Alto Mira"
 },
 {
     "name": "São Nicolau Creole",
@@ -6928,16 +6928,69 @@ window.africaNameBases = [
   "max": 15,
   "d": "lnrt",
   "m": 0,
-  "b": "Ribeira Brava,Tarrafal de São Nicolau,Preguiça,Monte Gordo,Monte Bissau,Pico de Alberto,Covoada,Estância de Brás,Fajã de Baixo,Queimadas,Ribeira Funda,Belém,Cachaço,Caleijão,Carriçal,Carvoeiros,Juncalinho,Morro Brás,Talho,Cabeçalinho,Fragata,Hortelã,Palhal,Praia Branca,Ribeira dos Calhaus,Ribeira Prata,Nossa Senhora da Lapa,Nossa Senhora do Rosário,São Francisco de Assis,Baía de São Jorge,Ponta do Barril"
+  "b": "Ribeira Brava,Tarrafal de São Nicolau,Preguiça,Monte Gordo,Monte Bissau,Pico de Alberto,Covoada,Estância de Brás,Fajã de Baixo,Queimadas,Ribeira Funda,Belém,Cachaço,Caleijão,Carriçal,Carvoeiros,Juncalinho,Morro Brás,Talho,Cabeçalinho,Fragata,Hortelã,Palhal,Praia Branca,Ribeira dos Calhaus,Ribeira Prata,Nossa Senhora da Lapa,Nossa Senhora do Rosário,São Francisco de Assis,Baía de São Jorge,Ponta do Barril,sonicolaucreoleSprings,sonicolaucreoleCreek,sonicolaucreoleRidge,sonicolaucreoleHeights,sonicolaucreoleFalls,sonicolaucreoleBeach,sonicolaucreolePoint,sonicolaucreoleBay,sonicolaucreoleGrove"
 },
 {
-    "name": "São Vicente Creole",
-  "i": 201367,
+    "name": "Algerian Arabic",
+  "i": 267,
   "min": 4,
-  "max": 18,
-  "d": "lnrt",
+  "max": 11,
+  "d": "nic-GH",
   "m": 0,
-  "b": "Mindelo,São Pedro,Calhau,Salamansa,Baía das Gatas,Lameira,Ribeira de Julião,Monte Verde,Morro Branco,Preguiça,Sinagoga,Ribeira Bote,Ribeira da Vinha,Viana,Madeiral,Caixa,Monte Cara,Porto Grande,Ilhéu dos Pássaros,Mindelo Baía,Laginha,Mata,Cais de Alfândega,Ponta Bica,Aldeia,Monte Sossego"
+  "b": "Algiers,Oran,Constantine,Annaba,Blida,Setif,Batna,Bejaia,Tlemcen,Skikda,Mostaganem,Tizi Ouzou,Kalaleh,GilanGharb,SarabBahar,Zangeneh,ShahrBabak,ShahinDej,Kabudarahang,Noor,Divandarreh,Taleqan,Langarud,Badreh,Buegian,Bairian,Boegian,Ceudian,Avibian,Aikian,Aburian,Buerian,AbadAlgerianArabic,AlgerianArabican,AlgerianArabician,Tetouan,Oujda,Béjaïa,Biskra,Sousse,Kairouan,Bizerte,Gabès,Gafsa"
 },
-
+{
+    "name": "Algerian Saharan Arabic",
+  "i": 268,
+  "min": 4,
+  "max": 11,
+  "d": "nic-GH",
+  "m": 0,
+  "b": "Ghardaia,Ouargla,Tamanrasset,Adrar,In Salah,In Guezzam,El Oued,Laghouat,Biskra,Tindouf,Illizi,Timimoun,Galikash,Zarandieh,Anzali,Gomishan,Sardrud,Bafq,Harsin,Malekan,Meybod,Karand,PolDokhtar,Neka,Kangavar,Chalsara,Asekan,Amureh,Akegeh,Aligan,Arekan,Baokeh,Abuneh,Avuran,Buoreh,Baoneh,Axiban,Azusan,Bouleh,Aboreh,Aregan,AbadAlgerianSaharanArabic,AlgerianSaharanArabican,AlgerianSaharanArabician,Algabada,Misrata,Port Said"
+},
+{
+    "name": "Cairene Arabic",
+  "i": 314,
+  "min": 4,
+  "max": 11,
+  "d": "nic-GH",
+  "m": 0,
+  "b": "Cairo,Giza,Hilwan,Shubra El-Kheima,Maadi,Nasr City,Imbaba,Old Cairo,Abbasiya,Zamalek,Al-Marg,Al-Matariya,Dehgolan,Abarkuh,Aqqala,Anzali,Abuolhasani,Maku,Omidiyeh,Kabudarahang,Biyarjomand,Ramian,Shaft,ChaghaKabol,ShahinDej,TorbatJam,Nur,Anuleh,Afolan,Adaseh,Amuleh,Caoban,Aaeh,Beilan,Avian,Asakeh,Atireh,Azodan,Caidan,Amuteh,Biaseh,Cauneh,AbadCaireneArabic,CaireneArabican,CaireneArabician,Suez,Hurghada"
+},
+{
+    "name": "Egyptian Arabic",
+  "i": 322,
+  "min": 4,
+  "max": 11,
+  "d": "nic-GH",
+  "m": 0,
+  "b": "Cairo,Alexandria,Giza,Shubra El Kheima,Port Said,Suez,Luxor,Mansoura,El Mahalla El Kubra,Tanta,Asyut,Ismailia,Fayyum,Zagazig,Aswan,Damietta,Damanhur,Minya,Beni Suef,Qena,Sohag,Hurghada,Kafr El Sheikh,Mallawi,Fooman,Chalsara,Takab,Tonekabon,Amol,Behshahr,Dozain,Shabestar,Ivan,Razhan,Kharanaq,Gorgan,Lashteneshahr,Yalfan,Samandaryan,Chireh,Beodan,Biodeh,Ceireh,Axenan,Abaseh,Baomeh,Akatan,Adogeh,Afageh,Aneran,Axaran,Ceideh,Asoleh,Biean,AbadEgyptianArabic,EgyptianArabican,EgyptianArabician,Sharm el-Sheikh,Casablanca"
+},
+{
+    "name": "Fyer",
+  "i": 1857,
+  "min": 4,
+  "max": 11,
+  "d": "nic-GH",
+  "m": 0,
+  "b": "Fyer,Mubi,Bama,Gwoza,Kukawa,Adamawa State,Nigeria,North East,Coya,Chanchamayo,Picota,Huamachuco,Yauca,Velille,Vilavila,Progreso,Amantani,Machacamarca,Tiquina,Calacoto,Checacupe,Machupicchu,Apetgo,Apargo,Amukgo,Aningo,Adirgo,Abungo,Akiggo,Amakgo,Afabgo,Anukgo,Arigo,Aisgo,Aadgo,Anoggo,Afeggo,UruguayanSpanishgo,UruguayanSpanishgu,UruguayanSpanishcu,UruguayanSpanishzu"
+},
+{
+    "name": "Buwal",
+  "i": 238,
+  "min": 4,
+  "max": 11,
+  "d": "nic-GH",
+  "m": 0,
+  "b": "Mokolo,Mora,Koza,Meri,Bourrha,Kalfou,Limani,Kolofata,Tokombere,Kerawa,Ziver,Hitawa,Buwal,Gadala,Bourha,Maroua,Gazawa,Fotokol,Chucuito,Oruro,Patacamaya,Charana,Yanaoca,Quillabamba,RioTamboSantaMaria,Ambo,Celendin,Cajatambo,Chuquibambilla,Llalli,Cabanillas,Juli,Aenpa,Abempa,Aepa,Aledpa,Aekpa,Adelpa,Abespa,Apempa,Afetpa,Alegpa,Akelpa,Alekpa,Afepa,Anetpa,Aegpa,Tacanago,Tacanagu,Tacanacu,Tacanazu,Tacanala,Kano"
+},
+{
+    "name": "Cakfem-Mushere",
+  "i": 239,
+  "min": 4,
+  "max": 11,
+  "d": "nic-GH",
+  "m": 0,
+  "b": "Pankshin,Mangu,Bokkos,Kanke,Barkin Ladi,Riyom,Shendam,Langtang,Wase,Panyam,Kanam,Dengi,Huarina,SantiagoDeMachaca,Sicuani,Urubamba,Shimaa,CodoDelPozuzo,Jaen,Huaura,Antabamba,Pichigua,Ayaviri,Conima,Pichacani,Poopo,Laja,Wiwago,Wiwagu,Wiwacu,Wiwazu,Wiwala,Wiwana,Wiwama,Wiwapa,Wiwara,Wiwasa,Wiwata,Wiwaca,Wiwaba,Wiwafa,Wiwaga,Wiwaha,Wiwaja,Wiwaka,Wiwalla,Ibadan"
+}
 ];

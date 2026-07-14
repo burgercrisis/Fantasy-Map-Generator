@@ -139,7 +139,8 @@ function checkFailures() {
     "namebases-oceania.js",
     "namebases-southAmerica.js",
     "namebases-unknown.js",
-    "namebases-fantasy.js"
+    "namebases-fantasy.js",
+    "namebases-dedicated.js"
   ];
   const validBaseIndices = new Set();
   const re = /"i":\s*(\d+)/g;
