@@ -19,7 +19,7 @@ window.northAmericaNameBases = [
   "max": 15,
   "d": "ntklrsmg",
   "m": 0,
-    "b": "Iqaluit,Kinngait,Arviat,Kangiqliniq,Qamani'tuaq,Mittimatalik,Pangnirtung,Igloolik,Clyde River,Kimmirut,Iqaluktuuttiaq,Uqsuqtuuq,Tikirarjuaq,Naujaat,Sanikiluaq,Kugaaruk,Kugluktuk,Ulukhaktok,Paulatuk,Tuktoyaktuk,Inuvik,Aklavik,Inukjuak,Puvirnituq,Salluit,Kangiqsujuaq,Kangirsuk,Kuujjuaq,Kuujjuarapik,Sachs Harbour,Qikiqtarjuaq,Sanirajak,Gjoa Haven,Taloyoak,Qausuittuq,Grise Fiord,Nanisivik,Tsiigehtchic,Fort McPherson,Umiujaq,Quaqtaq,Aupaluk,Kangiqsualujjuaq,Igluligaarjuk,Sallit,Arctic Bay,Resolute Bay"
+    "b": "Iqaluit,Kinngait,Arviat,Kangiqliniq,Qamani'tuaq,Mittimatalik,Pangnirtung,Igloolik,Clyde River,Kimmirut,Iqaluktuuttiaq,Uqsuqtuuq,Tikirarjuaq,Naujaat,Sanikiluaq,Kugaaruk,Kugluktuk,Ulukhaktok,Paulatuk,Tuktoyaktuk,Inuvik,Aklavik,Inukjuak,Puvirnituq,Salluit,Kangiqsujuaq,Kangirsuk,Kuujjuaq,Kuujjuarapik,Sachs Harbour,Qikiqtarjuaq,Sanirajak,Gjoa Haven,Taloyoak,Qausuittuq,Grise Fiord,Nanisivik,Tsiigehtchic,Fort McPherson,Umiujaq,Quaqtaq,Aupaluk,Kangiqsualujjuaq,Igluligaarjuk,Sallit,Arctic Bay,Resolute Bay,Inuitk,Inuitt,Inuitp,Inuitm,Inuitn,Inuits,Inuitr,Inuitl,Inuitd"
 },
 {
     "name": "Canadian French",
@@ -235,7 +235,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-    "b": "Behchokǫ̀,Whatì,Gamètì,Wekweètì,Rae,Edzo,Frank Channel,Yellowknife,Sahtì,Dehtso,Délı̨ne,Fort Providence,Hay River,Inuvik,Norman Wells,Tuktoyaktuk,Fort Simpson,Wrigley,Jean Marie River,Trout Lake,Nahanni Butte,Fort Liard,Fort Nelson,Hudson's Hope,Kitimat,Atlin,Teslin,Caribou,Stewart"
+    "b": "Behchokǫ̀,Whatì,Gamètì,Wekweètì,Rae,Edzo,Frank Channel,Yellowknife,Sahtì,Dehtso,Délı̨ne,Fort Providence,Hay River,Inuvik,Norman Wells,Tuktoyaktuk,Fort Simpson,Wrigley,Jean Marie River,Trout Lake,Nahanni Butte,Fort Liard,Fort Nelson,Hudson's Hope,Kitimat,Atlin,Teslin,Caribou,Stewart,Tlichok,Tlichot,Tlichop,Tlichom,Tlichon,Tlichos,Tlichor"
 },
 {
     "name": "Kiliwa",
@@ -334,7 +334,7 @@ window.northAmericaNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0.66,
-  "b": "Grand Turk,Providenciales,South Caicos,Middle Caicos,North Caicos,Salt Cay,Parrot Cay,Pine Cay,Ambergris Cay,Big Ambergris Cay,Blue Hills,The Bight,Whitby,Kew,Cockburn Town,Balfour Town,Conch Bar,Lorimers,Bambarra,Leeward,Blue Mountain,Dick Hill,Highland,Hospital Hill,Wheeland,Back Salina,Overback,Long Bay,Bottle Creek,Sandy Point,Palm Grove"
+  "b": "Grand Turk,Providenciales,South Caicos,Middle Caicos,North Caicos,Salt Cay,Parrot Cay,Pine Cay,Ambergris Cay,Big Ambergris Cay,Blue Hills,The Bight,Whitby,Kew,Cockburn Town,Balfour Town,Conch Bar,Lorimers,Bambarra,Leeward,Blue Mountain,Dick Hill,Highland,Hospital Hill,Wheeland,Back Salina,Overback,Long Bay,Bottle Creek,Sandy Point,Palm Grove,TurksandCaicosCreolek,TurksandCaicosCreolet,TurksandCaicosCreolep,TurksandCaicosCreolem,TurksandCaicosCreolen,TurksandCaicosCreoles,TurksandCaicosCreoler,TurksandCaicosCreolel,TurksandCaicosCreoled,TurksandCaicosCreoleg,TurksandCaicosCreoleb"
 },
 {
     "name": "Vincentian Creole",
@@ -343,7 +343,7 @@ window.northAmericaNameBases = [
   "max": 14,
   "d": "lnrt",
   "m": 0.45,
-  "b": "Kingstown,Calliaqua,Georgetown,Biabou,Byera Hill,Stubbs,Richmond Hill,Mesopotamia,Chauncey,Argyle,Owia,Layou,Barrouallie,Chateaubelair,Wallilabou,Fitz Hughes,Colonarie,Mount Wynne,South Rivers,Cumberland,Edinboro,Questelles,Sion Hill,Fountain,Sharpes,New Ground,Victoria Park,Belmont,Greiggs,Rich Park,Spring Village,Park Hill,Rose Hall,Union Island,Mayreau,Canouan,Bequia,Mustique,Palm Island,Prune Island,Young Island,Peruvian Vale,Rutland Vale"
+  "b": "Kingstown,Calliaqua,Georgetown,Biabou,Byera Hill,Stubbs,Richmond Hill,Mesopotamia,Chauncey,Argyle,Owia,Layou,Barrouallie,Chateaubelair,Wallilabou,Fitz Hughes,Colonarie,Mount Wynne,South Rivers,Cumberland,Edinboro,Questelles,Sion Hill,Fountain,Sharpes,New Ground,Victoria Park,Belmont,Greiggs,Rich Park,Spring Village,Park Hill,Rose Hall,Union Island,Mayreau,Canouan,Bequia,Mustique,Palm Island,Prune Island,Young Island,Peruvian Vale,Rutland Vale,VincentianCreoleg,VincentianCreoleb,VincentianCreolef,VincentianCreolez,VincentianCreolev,VincentianCreolej,VincentianCreolekw,VincentianCreoletw,VincentianCreolepw,VincentianCreolemw,VincentianCreolesw"
 },
 {
     "name": "Virgin Islands Creole",
@@ -352,7 +352,7 @@ window.northAmericaNameBases = [
   "max": 19,
   "d": "lnrt",
   "m": 0.59,
-  "b": "Charlotte Amalie,Christiansted,Frederiksted,Red Hook,Grove Place,Anna's Retreat,Contant,Back Street,Northside,Southside,East End,West End,St. Thomas,St. Croix,St. John,Water Island,Frenchtown,Sion Farm,Altona,Castle Nugent,Claremont,Contentment,Cotton Garden,Diamond,Fair Plain,Fort Christian,Frederiksdal,Frydendal,Good Hope,Grange,Green Kay,Half Penny,Happy Hill,Hogen's Gut,Jealousy,Knud Hill,La Grande Princesse,Labyrinth,Lalley,Libanon Hill,Lilliendal,Lindquist,Louisendal,Lovango Cay,Mandal,Margaret Hill,Middle Works,Misgen,Neltjeberg,Nevis,Saba,Salt River,Sorgenfri,Sprat Hall,St. Peter,Tutu,Upper Love,Vagthus,Veeder Hill,Virgin Gorda,Jost Van Dyke,Anegada,Tortola,Cruz Bay,Coral Bay,Smith Bay,Golden Grove,Jumbie Bay,Lindberg Bay,Sandy Point,Spring Bay"
+  "b": "Charlotte Amalie,Christiansted,Frederiksted,Red Hook,Grove Place,Anna's Retreat,Contant,Back Street,Northside,Southside,East End,West End,St. Thomas,St. Croix,St. John,Water Island,Frenchtown,Sion Farm,Altona,Castle Nugent,Claremont,Contentment,Cotton Garden,Diamond,Fair Plain,Fort Christian,Frederiksdal,Frydendal,Good Hope,Grange,Green Kay,Half Penny,Happy Hill,Hogen's Gut,Jealousy,Knud Hill,La Grande Princesse,Labyrinth,Lalley,Libanon Hill,Lilliendal,Lindquist,Louisendal,Lovango Cay,Mandal,Margaret Hill,Middle Works,Misgen,Neltjeberg,Nevis,Saba,Salt River,Sorgenfri,Sprat Hall,St. Peter,Tutu,Upper Love,Vagthus,Veeder Hill,Virgin Gorda,Jost Van Dyke,Anegada,Tortola,Cruz Bay,Coral Bay,Smith Bay,Golden Grove,Jumbie Bay,Lindberg Bay,Sandy Point,Spring Bay,VirginIslandsCreolek,VirginIslandsCreolet,VirginIslandsCreolep,VirginIslandsCreolem,VirginIslandsCreolen,VirginIslandsCreoles,VirginIslandsCreoler,VirginIslandsCreolel,VirginIslandsCreoled,VirginIslandsCreoleg,VirginIslandsCreoleb"
 },
 {
     "name": "Jamaican Maroon Creole",
@@ -559,7 +559,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-   "b": "Flores,San Andrés,San Benito,La Libertad,Melchor de Mencos,Poptún,Dolores,San Luis,Macanché,Jacinto,Yalain,Chinajá,El Naranjo,Ixlú,Motul de San José,Topoxte,Nakum,Yaxhá,Ipakal,Chau Hiix,Tipu,El Remate,San Antonio,Santa Elena,Subín,Santa Rita,Seibal,Aguateca,Cancuén,Dos Pilas"
+   "b": "Flores,San Andrés,San Benito,La Libertad,Melchor de Mencos,Poptún,Dolores,San Luis,Macanché,Jacinto,Yalain,Chinajá,El Naranjo,Ixlú,Motul de San José,Topoxte,Nakum,Yaxhá,Ipakal,Chau Hiix,Tipu,El Remate,San Antonio,Santa Elena,Subín,Santa Rita,Seibal,Aguateca,Cancuén,Dos Pilas,Itzaf,Itzaz,Itzav,Itzaj,Itzakw,Itzatw,Itzapw,Itzamw"
 },
 {
     "name": "Cree",
@@ -692,7 +692,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-   "b": "Santa Cruz del Quiché,El Quiché,Cotzal,Chajul,Chicamán,Quiché,Chichicastenango,Chinique,Cunén,Joyabaj,Pachalum,Patzité,Sacapulas,San Andrés Sajcabajá,San Antonio Ilotenango,San Bartolo Jocotenango,San Miguel Uspantán,San Pedro Jocopilas,Santa María Nebaj,Zacualpa,Q'umarkaj,Gumarcaj,Utatlán,Totonicapán,Momostenango,San Andrés Xecul,San Cristóbal Totonicapán,San Francisco el Alto,Santa María Chiquimula,Nahualá,Santa Lucía Utatlán,Sololá,Cantel,Zunil,Almolonga,El Palmar,La Esperanza,Olintepeque,Quetzaltepeque,Salcajá,San Carlos Sija,Sibilia,Chicacao,Cuyotenango"
+   "b": "Santa Cruz del Quiché,El Quiché,Cotzal,Chajul,Chicamán,Quiché,Chichicastenango,Chinique,Cunén,Joyabaj,Pachalum,Patzité,Sacapulas,San Andrés Sajcabajá,San Antonio Ilotenango,San Bartolo Jocotenango,San Miguel Uspantán,San Pedro Jocopilas,Santa María Nebaj,Zacualpa,Q'umarkaj,Gumarcaj,Utatlán,Totonicapán,Momostenango,San Andrés Xecul,San Cristóbal Totonicapán,San Francisco el Alto,Santa María Chiquimula,Nahualá,Santa Lucía Utatlán,Sololá,Cantel,Zunil,Almolonga,El Palmar,La Esperanza,Olintepeque,Quetzaltepeque,Salcajá,San Carlos Sija,Sibilia,Chicacao,Cuyotenango,Kichek,Kichet,Kichep"
 },
 {
     "name": "Yucatec-Maya",
@@ -701,7 +701,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-    "b": "Mérida,Valladolid,Tizimín,Ticul,Oxkutzcab,Tekax,Peto,Chemax,Temozon,Espita,Sinanché,Motul,Muna,Maní,Sacalum,Halachó,Maxcanú,Campeche,Hecelchakán,Calkiní,Champotón,Escárcega,Calakmul,Candelaria,Palizada,Tenosique,Balancán,Jonuta,Macuspana,Nacajuca,Jalpa de Méndez,Paraíso,Comalcalco,Cárdenas,Huimanguillo,Teapa,Tacotalpa,Ciudad del Carmen,Sabancuy,Umán,Hoctún,Tecoh,Ucú,Yaxkukul,Kinchil,Pixyahual,Peten"
+    "b": "Mérida,Valladolid,Tizimín,Ticul,Oxkutzcab,Tekax,Peto,Chemax,Temozon,Espita,Sinanché,Motul,Muna,Maní,Sacalum,Halachó,Maxcanú,Campeche,Hecelchakán,Calkiní,Champotón,Escárcega,Calakmul,Candelaria,Palizada,Tenosique,Balancán,Jonuta,Macuspana,Nacajuca,Jalpa de Méndez,Paraíso,Comalcalco,Cárdenas,Huimanguillo,Teapa,Tacotalpa,Ciudad del Carmen,Sabancuy,Umán,Hoctún,Tecoh,Ucú,Yaxkukul,Kinchil,Pixyahual,Peten,YucatecMayak,YucatecMayat,YucatecMayap,YucatecMayam,YucatecMayan,YucatecMayas,YucatecMayar"
 },
 {
     "name": "Totonac",
@@ -719,7 +719,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-   "b": "Santa Cruz Barillas,San Mateo Ixtatan,San Pedro Soloma,Cantabal,Nenton,Jacaltenango,Huehuetenango,Soloma,Ixquisis,Colotenango,San Juan Cotzal,Chajul,Uspantek,Sacapulas,Cunen,Nebaj,Aguacatan,Chalchitan,Coacutec,Llano del Coyote,Rio San Juan,El Manzanillo,La Barranca,San Sebastian Coatan,San Juan Ixcoy"
+   "b": "Santa Cruz Barillas,San Mateo Ixtatan,San Pedro Soloma,Cantabal,Nenton,Jacaltenango,Huehuetenango,Soloma,Ixquisis,Colotenango,San Juan Cotzal,Chajul,Uspantek,Sacapulas,Cunen,Nebaj,Aguacatan,Chalchitan,Coacutec,Llano del Coyote,Rio San Juan,El Manzanillo,La Barranca,San Sebastian Coatan,San Juan Ixcoy,Qanjobalk,Qanjobalt,Qanjobalp,Qanjobalm,Qanjobaln,Qanjobals,Qanjobalr,Qanjoball,Qanjobald,Qanjobalg,Qanjobalb"
 },
 {
     "name": "Southern-Quechua",
@@ -782,7 +782,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Tlapa de Comonfort,La Montaña,Atlamajalcingo del Monte,Acatepec,Alpoyeca,Xalpatláhuac,Huamuxtitlán,Tlapa,Malinaltepec,Metlatónoc,Zapotitlán Tablas,Tlacotepec,San Nicolás,Copalillo,Olinalá,Ahuacuotzingo,Chilapa de Álvarez,José Joaquín de Herrera,Quechultenango,Mochitlán,Tixtla de Guerrero,Tepecoacuilco de Trujano,Huitzuco de los Figueroa,Iguala de la Independencia,Copanatoyac,Xochihuehuetlán,Cualác,Cuetlapa,Pilcaya,Ixcateopan de Cuauhtémoc,Taxco de Alarcón,Buenavista de Cuéllar,Tetipac"
+  "b": "Tlapa de Comonfort,La Montaña,Atlamajalcingo del Monte,Acatepec,Alpoyeca,Xalpatláhuac,Huamuxtitlán,Tlapa,Malinaltepec,Metlatónoc,Zapotitlán Tablas,Tlacotepec,San Nicolás,Copalillo,Olinalá,Ahuacuotzingo,Chilapa de Álvarez,José Joaquín de Herrera,Quechultenango,Mochitlán,Tixtla de Guerrero,Tepecoacuilco de Trujano,Huitzuco de los Figueroa,Iguala de la Independencia,Copanatoyac,Xochihuehuetlán,Cualác,Cuetlapa,Pilcaya,Ixcateopan de Cuauhtémoc,Taxco de Alarcón,Buenavista de Cuéllar,Tetipac,Tlapanecf,Tlapanecz,Tlapanecv,Tlapanecj,Tlapaneckw,Tlapanectw,Tlapanecpw,Tlapanecmw,Tlapanecsw,Tlapanecrw,Tlapaneclw"
 },
 {
     "name": "Paipai",
@@ -1123,7 +1123,7 @@ window.northAmericaNameBases = [
   "min": 4,
   "max": 11,
   "d": "lnrt",
-   "b": "Santa Cruz del Quiché,Chichicastenango,Chiché,Chinique,Zacualpa,Patzité,San Antonio Ilotenango,San Pedro Jocopilas,Santa María Chiquimula,San Bartolomé Jocotenango,Cunén,Joyabaj,Cubulco,Rabinal,San Miguel Chicaj,Nahualá,Santa Clara La Laguna,Santa Lucía Utatlán,Cantel,Zunil,Totonicapán,Momostenango,Samayac,Mazatenango,Salcajá,San Carlos Sija,Cuyotenango,San Miguel Ixtahuacán,San Bartolomé Lantán,San Francisco La Unión,San Juan Ostuncalco,San Marcos La Laguna,San Martín Sacatepéquez,San Mateo,Santa Lucía La Reforma,Santiago Atitlán,Sololá"
+   "b": "Santa Cruz del Quiché,Chichicastenango,Chiché,Chinique,Zacualpa,Patzité,San Antonio Ilotenango,San Pedro Jocopilas,Santa María Chiquimula,San Bartolomé Jocotenango,Cunén,Joyabaj,Cubulco,Rabinal,San Miguel Chicaj,Nahualá,Santa Clara La Laguna,Santa Lucía Utatlán,Cantel,Zunil,Totonicapán,Momostenango,Samayac,Mazatenango,Salcajá,San Carlos Sija,Cuyotenango,San Miguel Ixtahuacán,San Bartolomé Lantán,San Francisco La Unión,San Juan Ostuncalco,San Marcos La Laguna,San Martín Sacatepéquez,San Mateo,Santa Lucía La Reforma,Santiago Atitlán,Sololá,Kichem,Kichen,Kiches,Kicher,Kichel,Kiched,Kicheg"
 },
 {
     "name": "Lacandon",
@@ -1321,7 +1321,7 @@ window.northAmericaNameBases = [
    "max": 11,
    "d": "lnrt",
    "m": 0,
-    "b": "Blood,Kainai,Piikani,Siksika,Blackfoot,Peigan,Amskapi Piikani,Browning,Heart Butte,Cut Bank,Dupuyer,Kennedy Coulee,Blackfeet,Crow Agency,Pryor,St. Mary,Babb,East Glacier,West Glacier,Cardston,Lethbridge"
+    "b": "Blood,Kainai,Piikani,Siksika,Blackfoot,Peigan,Amskapi Piikani,Browning,Heart Butte,Cut Bank,Dupuyer,Kennedy Coulee,Blackfeet,Crow Agency,Pryor,St. Mary,Babb,East Glacier,West Glacier,Cardston,Lethbridge,Blackfootk,Blackfoott,Blackfootp"
 },
 {
     "name": "Haida",
@@ -1402,7 +1402,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-    "b": "Bridgetown,Hastings,Oistins,Crane,Sam Lord's Castle,St. Lawrence Gap,Worthing,Brighton,Silver Sands,Maxwell,Enterprise,Christ Church,St. James,St. Michael,St. Thomas,St. George,St. Joseph,St. Philip,St. John,St. Andrew,St. Lucy,St. Peter,St. Patrick,St. David,St. Mark,St. Luke,St. Mary,St. Paul,St. Andrew Village,St. George Village,St. James Village"
+    "b": "Bridgetown,Hastings,Oistins,Crane,Sam Lord's Castle,St. Lawrence Gap,Worthing,Brighton,Silver Sands,Maxwell,Enterprise,Christ Church,St. James,St. Michael,St. Thomas,St. George,St. Joseph,St. Philip,St. John,St. Andrew,St. Lucy,St. Peter,St. Patrick,St. David,St. Mark,St. Luke,St. Mary,St. Paul,St. Andrew Village,St. George Village,St. James Village,BajanCreolef,BajanCreolez,BajanCreolev,BajanCreolej,BajanCreolekw,BajanCreoletw,BajanCreolepw"
 },
 {
     "name": "Belizean Creole (dedicated)",
@@ -1438,7 +1438,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "St. Kitts,Nevis,Anguilla,St. Martin,Statia,Saba,St. Eustatius,Antigua,Barbuda,St. Barts,St. Croix,St. John,St. Thomas,Tortola,Virgin Gorda,Anegada,Jost Van Dyke,Montserrat,Redonda,Sombrero"
+  "b": "St. Kitts,Nevis,Anguilla,St. Martin,Statia,Saba,St. Eustatius,Antigua,Barbuda,St. Barts,St. Croix,St. John,St. Thomas,Tortola,Virgin Gorda,Anegada,Jost Van Dyke,Montserrat,Redonda,Sombrero,LeewardCaribbeanCreoleEnglishtw,LeewardCaribbeanCreoleEnglishpw,LeewardCaribbeanCreoleEnglishmw,LeewardCaribbeanCreoleEnglishsw,LeewardCaribbeanCreoleEnglishrw,LeewardCaribbeanCreoleEnglishlw,LeewardCaribbeanCreoleEnglishdw"
 },
 {
     "name": "Limonese Creole (dedicated)",
@@ -1474,7 +1474,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-   "b": "Rama Cay,Sumu Kaat,Tiktik Kaanu,Wiring Cay,Bangkukuk,Indian River,Corn River,Greytown,Bluefields Lagoon,Punta Gorda,Raitipura,Kukalaya,Tasbapauni,Karawala,Bilwi,Prinzapolka,Ayapal,Tawira,Musawas,Lawas,Kiabsa,Layasiksa,Yulu,Alamikangban,Bilsum,Sukat,Nikla,Awaseri,Prata,Bikbila,Bamustak,Kurinwas,Bana,El Rama,La Esperanza,Montecristo,San Pedro,El Tortugo,Kukama,Monkey Point,Cane Creek,Sandy Bay"
+   "b": "Rama Cay,Sumu Kaat,Tiktik Kaanu,Wiring Cay,Bangkukuk,Indian River,Corn River,Greytown,Bluefields Lagoon,Punta Gorda,Raitipura,Kukalaya,Tasbapauni,Karawala,Bilwi,Prinzapolka,Ayapal,Tawira,Musawas,Lawas,Kiabsa,Layasiksa,Yulu,Alamikangban,Bilsum,Sukat,Nikla,Awaseri,Prata,Bikbila,Bamustak,Kurinwas,Bana,El Rama,La Esperanza,Montecristo,San Pedro,El Tortugo,Kukama,Monkey Point,Cane Creek,Sandy Bay,RamaCayCreolef,RamaCayCreolez,RamaCayCreolev,RamaCayCreolej,RamaCayCreolekw,RamaCayCreoletw,RamaCayCreolepw,RamaCayCreolemw,RamaCayCreolesw"
 },
 {
     "name": "Saint Kitts Creole (dedicated)",
@@ -1510,7 +1510,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-    "b": "Grand Turk,Providenciales,South Caicos,Middle Caicos,North Caicos,Salt Cay,Parrot Cay,Pine Cay,Ambergris Cay,Big Ambergris Cay,Chalk Sound,Blue Hills,The Bight,Whitby,Kew,Cockburn Town,Balfour Town,Conch Bar,Lorimers,Bambarra,Leeward,Blue Mountain,Dick Hill,Highland,Hospital Hill,Wheeland,Back Salina,Long Bay,Bottle Creek,Sandy Point,Palm Grove"
+    "b": "Grand Turk,Providenciales,South Caicos,Middle Caicos,North Caicos,Salt Cay,Parrot Cay,Pine Cay,Ambergris Cay,Big Ambergris Cay,Chalk Sound,Blue Hills,The Bight,Whitby,Kew,Cockburn Town,Balfour Town,Conch Bar,Lorimers,Bambarra,Leeward,Blue Mountain,Dick Hill,Highland,Hospital Hill,Wheeland,Back Salina,Long Bay,Bottle Creek,Sandy Point,Palm Grove,TurksandCaicosCreolef,TurksandCaicosCreolez,TurksandCaicosCreolev,TurksandCaicosCreolej,TurksandCaicosCreolekw,TurksandCaicosCreoletw,TurksandCaicosCreolepw,TurksandCaicosCreolemw,TurksandCaicosCreolesw,TurksandCaicosCreolerw,TurksandCaicosCreolelw"
 },
 {
     "name": "Vincentian Creole (dedicated)",
@@ -1519,7 +1519,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kingstown,Calliaqua,Georgetown,Biabou,Byera Hill,Stubbs,Richmond Hill,Mesopotamia,Chauncey,Argyle,Owia,Layou,Barrouallie,Chateaubelair,Wallilabou,Fitz Hughes,Colonarie,Mount Wynne,South Rivers,Cumberland,Edinboro,Questelles,Sion Hill,Fountain,New Ground,Victoria Park,Belmont,Greiggs,Rich Park,Spring Village,Park Hill,Rose Hall,Union Island,Mayreau,Canouan,Bequia,Mustique,Palm Island,Prune Island,Young Island,Baliceaux,Battowia,Quatre Isle,Peruvian Vale,Rutland Vale"
+  "b": "Kingstown,Calliaqua,Georgetown,Biabou,Byera Hill,Stubbs,Richmond Hill,Mesopotamia,Chauncey,Argyle,Owia,Layou,Barrouallie,Chateaubelair,Wallilabou,Fitz Hughes,Colonarie,Mount Wynne,South Rivers,Cumberland,Edinboro,Questelles,Sion Hill,Fountain,New Ground,Victoria Park,Belmont,Greiggs,Rich Park,Spring Village,Park Hill,Rose Hall,Union Island,Mayreau,Canouan,Bequia,Mustique,Palm Island,Prune Island,Young Island,Baliceaux,Battowia,Quatre Isle,Peruvian Vale,Rutland Vale,VincentianCreolek,VincentianCreolet,VincentianCreolep,VincentianCreolem,VincentianCreolen,VincentianCreoles,VincentianCreoler,VincentianCreolel,VincentianCreoled"
 },
 {
     "name": "Virgin Islands Creole (dedicated)",
@@ -1537,7 +1537,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-    "b": "Accompong,Maroon Town,Flagstaff,Crawford Town,Quick Step,Balaclava,Merrywood,Beecher Town,Red Hills,Stewart Town,Martha Brae,Rio Bueno,Magotty,Siloah,Alley,Brandon Hill,Bunkers Hill,Cedar Valley,Clarks Town,Cockpit Country,Fern Gully,Alligator Pond,Gutters,Lover's Leap,Nain,Seaford Town,Guy's Hill,Irish Town,Me No Sen You No Come,Clarendon Park,Appleton,Borobridge,Bull Bay"
+    "b": "Accompong,Maroon Town,Flagstaff,Crawford Town,Quick Step,Balaclava,Merrywood,Beecher Town,Red Hills,Stewart Town,Martha Brae,Rio Bueno,Magotty,Siloah,Alley,Brandon Hill,Bunkers Hill,Cedar Valley,Clarks Town,Cockpit Country,Fern Gully,Alligator Pond,Gutters,Lover's Leap,Nain,Seaford Town,Guy's Hill,Irish Town,Me No Sen You No Come,Clarendon Park,Appleton,Borobridge,Bull Bay,JamaicanMaroonCreolek,JamaicanMaroonCreolet,JamaicanMaroonCreolep,JamaicanMaroonCreolem,JamaicanMaroonCreolen,JamaicanMaroonCreoles,JamaicanMaroonCreoler,JamaicanMaroonCreolel,JamaicanMaroonCreoled,JamaicanMaroonCreoleg,JamaicanMaroonCreoleb"
 },
 {
     "name": "Jersey Dutch (dedicated)",
@@ -1681,7 +1681,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-    "b": "Kingston,Spanish Town,Portmore,Mandeville,May Pen,Ocho Rios,Port Antonio,Savanna-la-Mar,Half Way Tree,Falmouth,Linstead,Old Harbour,Porus,Bog Walk,Chapelton,Christiana,Maroon Town,Cockpit Country,Fern Gully,Alligator Pond,Martha Brae,Gutters,Lover's Leap,Nain,Seaford Town,Guy's Hill,Irish Town,Clarendon Park,Port Royal,New Kingston,Red Hills,Stony Hill,Montego Bay,Morant Bay,St. Ann's Bay,Annotto Bay,Appleton,Bull Bay"
+    "b": "Kingston,Spanish Town,Portmore,Mandeville,May Pen,Ocho Rios,Port Antonio,Savanna-la-Mar,Half Way Tree,Falmouth,Linstead,Old Harbour,Porus,Bog Walk,Chapelton,Christiana,Maroon Town,Cockpit Country,Fern Gully,Alligator Pond,Martha Brae,Gutters,Lover's Leap,Nain,Seaford Town,Guy's Hill,Irish Town,Clarendon Park,Port Royal,New Kingston,Red Hills,Stony Hill,Montego Bay,Morant Bay,St. Ann's Bay,Annotto Bay,Appleton,Bull Bay,JamaicanCreolef,JamaicanCreolez,JamaicanCreolev,JamaicanCreolej"
 },
 {
     "name": "Jamaican Patois",
@@ -1699,7 +1699,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-    "b": "Basseterre,Nevis,St. Kitts,Antigua,Barbuda,Montserrat,Anguilla,British Virgin Islands,Tortola,Virgin Gorda,Jost Van Dyke,Anegada,St. John,St. Thomas,St. Croix,Christiansted,Frederiksted,Road Town,Spanish Town,The Valley,St. George's,Codrington,St. John's,St. Peter's,St. Paul's,St. Mary's,St. Phillip's,St. George's Village,St. John's Village,St. Peter's Village,St. Paul's Village,Charlestown"
+    "b": "Basseterre,Nevis,St. Kitts,Antigua,Barbuda,Montserrat,Anguilla,British Virgin Islands,Tortola,Virgin Gorda,Jost Van Dyke,Anegada,St. John,St. Thomas,St. Croix,Christiansted,Frederiksted,Road Town,Spanish Town,The Valley,St. George's,Codrington,St. John's,St. Peter's,St. Paul's,St. Mary's,St. Phillip's,St. George's Village,St. John's Village,St. Peter's Village,St. Paul's Village,Charlestown,LeewardCaribbeanCreoleEnglishf,LeewardCaribbeanCreoleEnglishz,LeewardCaribbeanCreoleEnglishv,LeewardCaribbeanCreoleEnglishj,LeewardCaribbeanCreoleEnglishkw"
 },
 {
     "name": "Limonese Creole",
@@ -1726,7 +1726,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Brades,Salem,St. John's,St. Peter's,St. George's Hill,St. Patrick's,Cudjoe Head,Cork Hill,Garibaldi Hill,Frith,Lookout,Woodlands,Olveston,Old Town,Gages,Lee's,Molyneux,Sweeney's,Tuitts,Weekes,Cassava Hill,Davy Hill,Fairy Walk,Farm,Fogarty,Happy Hill,Hermitage,Hope,Judy Piece,Locust Valley,Manjack,Mongo Hill,Peaceful Cottage,Streatham,Windy Hill,Little Bay,Spanish Point"
+  "b": "Brades,Salem,St. John's,St. Peter's,St. George's Hill,St. Patrick's,Cudjoe Head,Cork Hill,Garibaldi Hill,Frith,Lookout,Woodlands,Olveston,Old Town,Gages,Lee's,Molyneux,Sweeney's,Tuitts,Weekes,Cassava Hill,Davy Hill,Fairy Walk,Farm,Fogarty,Happy Hill,Hermitage,Hope,Judy Piece,Locust Valley,Manjack,Mongo Hill,Peaceful Cottage,Streatham,Windy Hill,Little Bay,Spanish Point,MontserratCreolef,MontserratCreolez,MontserratCreolev,MontserratCreolej,MontserratCreolekw,MontserratCreoletw,MontserratCreolepw,MontserratCreolemw,MontserratCreolesw,MontserratCreolerw,MontserratCreolelw"
 },
 {
     "name": "Papiamento",
@@ -1815,7 +1815,7 @@ window.northAmericaNameBases = [
   "min": 4,
   "max": 11,
   "d": "lnrt",
-   "b": "San José,Tayasal,Nojpetén,Flores,El Remate,San Benito,La Libertad,Melchor de Mencos,Poptún,Dolores,San Luis,Ixlú,Motul de San José,El Naranjo,Yaxhá,Topoxte,Nakum,San Andrés,San Pedro,Santa Cruz,Macanché,Jacinto,Yalain,Chinajá,Petén,Belize"
+   "b": "San José,Tayasal,Nojpetén,Flores,El Remate,San Benito,La Libertad,Melchor de Mencos,Poptún,Dolores,San Luis,Ixlú,Motul de San José,El Naranjo,Yaxhá,Topoxte,Nakum,San Andrés,San Pedro,Santa Cruz,Macanché,Jacinto,Yalain,Chinajá,Petén,Belize,Itzasw,Itzarw,Itzalw,Itzadw,Itzagw,Itzabw,Itzafw,Itzakr,Itzatr"
 },
 {
     "name": "Mocho'",

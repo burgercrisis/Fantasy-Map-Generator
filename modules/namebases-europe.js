@@ -37,7 +37,7 @@ window.europeNameBases = [
   "max": 20,
   "d": "lnrt",
   "m": 0,
-   "b": "Madrid,Barcelona,Valencia,Sevilla,Zaragoza,Málaga,Murcia,Palma,Bilbao,Alicante,Córdoba,Valladolid,Vigo,Gijón,La Coruña,Oviedo,Santander,Tarragona,Granada,Salamanca,Burgos,León,Pamplona,Logroño,Santiago,Toledo,Segovia,Cáceres,Cuenca,Huesca,Almería,Cádiz,Huelva,Jaén,Guadalajara,Teruel,Soria,Ávila,Ciudad Real,Badajoz,Albacete,San Sebastián,Irun,Éibar,Vitoria-Gasteiz,Tudela,Estella,Tafalla,Sangüesa,Jaca,Barbastro,Monzón,Fraga,Tarazona,Calatayud,Daroca,Alcañiz,Andorra,Calamocha,Caspe,Albarracín,Mora de Rubielos,Villarrobledo,Almansa,Hellín,Yeste,Puertollano,Alcázar de San Juan,Tomelloso,Socuéllamos,Valdepeñas,Bolaños de Calatrava,Moral de Calatrava,Daimiel,Manzanares,Miguelturra,Piedrabuena,Algeciras,Marbella,Antequera,Jerez de la Frontera"
+   "b": "Madrid,Barcelona,Valencia,Sevilla,Zaragoza,Málaga,Murcia,Palma,Bilbao,Alicante,Córdoba,Valladolid,Vigo,Gijón,La Coruña,Oviedo,Santander,Tarragona,Granada,Salamanca,Burgos,León,Pamplona,Logroño,Santiago,Toledo,Segovia,Cáceres,Cuenca,Huesca,Almería,Cádiz,Huelva,Jaén,Guadalajara,Teruel,Soria,Ávila,Ciudad Real,Badajoz,Albacete,San Sebastián,Irun,Éibar,Vitoria-Gasteiz,Tudela,Estella,Tafalla,Sangüesa,Jaca,Barbastro,Monzón,Fraga,Tarazona,Calatayud,Daroca,Alcañiz,Andorra,Calamocha,Caspe,Albarracín,Mora de Rubielos,Villarrobledo,Almansa,Hellín,Yeste,Puertollano,Alcázar de San Juan,Tomelloso,Socuéllamos,Valdepeñas,Bolaños de Calatrava,Moral de Calatrava,Daimiel,Manzanares,Miguelturra,Piedrabuena,Algeciras,Marbella,Antequera,Jerez de la Frontera,Castilliank,Castilliant,Castillianp,Castillianm,Castilliann,Castillians,Castillianr"
 },
 {
     "name": "Nordic",
@@ -64,7 +64,7 @@ window.europeNameBases = [
   "max": 18,
   "d": "lnrstpkmbdfg",
   "m": 0,
-   "b": "Roma,Ostia,Tivoli,Alba Longa,Lavinium,Ardea,Aricia,Tusculum,Lanuvium,Laurentum,Praeneste,Velitrae,Nomentum,Fidenae,Crustumerium,Satricum,Antemnae,Collatia,Apiolae,Gabii,Cora,Norba,Setia,Circeii,Tarracina,Privernum,Cerveteri,Tarquinia,Veii,Volsinii,Perusia,Arretium,Volaterrae,Luna,Pisae,Genua,Mediolanium,Augusta Taurinorum,Placentia,Cremona,Mutina,Bononia,Ravenna,Ariminum,Capua,Syracusae,Agrigentum,Lilybaeum,Panormus,Messana,Tarentum,Brundisium,Ancona,Spoletium,Narnia,Interamna,Reate,Forum Iulii,Aquileia,Pola,Iulia Concordia,Altinum,Patavium,Atria,Parma"
+   "b": "Roma,Ostia,Tivoli,Alba Longa,Lavinium,Ardea,Aricia,Tusculum,Lanuvium,Laurentum,Praeneste,Velitrae,Nomentum,Fidenae,Crustumerium,Satricum,Antemnae,Collatia,Apiolae,Gabii,Cora,Norba,Setia,Circeii,Tarracina,Privernum,Cerveteri,Tarquinia,Veii,Volsinii,Perusia,Arretium,Volaterrae,Luna,Pisae,Genua,Mediolanium,Augusta Taurinorum,Placentia,Cremona,Mutina,Bononia,Ravenna,Ariminum,Capua,Syracusae,Agrigentum,Lilybaeum,Panormus,Messana,Tarentum,Brundisium,Ancona,Spoletium,Narnia,Interamna,Reate,Forum Iulii,Aquileia,Pola,Iulia Concordia,Altinum,Patavium,Atria,Parma,Romank,Romant,Romanp,Romanm,Romann,Romans,Romanr,Romanl,Romand,Romang,Romanb"
 },
 {
    "name": "Finnic",
@@ -1033,7 +1033,7 @@ window.europeNameBases = [
   "max": 18,
   "d": "lnrt",
   "m": 0,
-  "b": "Monza,Lecco,Seregno,Desio,Cinisello Balsamo,Sesto San Giovanni,Muggiò,Lissone,Vimercate,Agrate Brianza,Carate Brianza,Seveso,Meda,Lentate sul Seveso,Mariano Comense,Cantù,Inverigo,Cermenate,Lurago Marinone,Arosio,Albiate,Briosco,Giussano,Carugo,Verano Brianza,Como,Sondrio,Erba,Lurate Caccivio,Fino Mornasco"
+  "b": "Monza,Lecco,Seregno,Desio,Cinisello Balsamo,Sesto San Giovanni,Muggiò,Lissone,Vimercate,Agrate Brianza,Carate Brianza,Seveso,Meda,Lentate sul Seveso,Mariano Comense,Cantù,Inverigo,Cermenate,Lurago Marinone,Arosio,Albiate,Briosco,Giussano,Carugo,Verano Brianza,Como,Sondrio,Erba,Lurate Caccivio,Fino Mornasco,Brianzook,Brianzoot,Brianzoop,Brianzoom,Brianzoon,Brianzoos,Brianzoor,Brianzool,Brianzood,Brianzoog"
 },
 {
     "name": "Brigasc",
@@ -1240,7 +1240,7 @@ window.europeNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Lisboa,Setúbal,Santarém,Leiria,Caldas da Rainha,Torres Vedras,Mafra,Sintra,Cascais,Oeiras,Amadora,Almada,Barreiro,Moita,Seixal,Montijo,Alcochete,Palmela,Sesimbra,Coimbra,Aveiro,Viseu,Guarda,Castelo Branco,Portalegre"
+  "b": "Lisboa,Setúbal,Santarém,Leiria,Caldas da Rainha,Torres Vedras,Mafra,Sintra,Cascais,Oeiras,Amadora,Almada,Barreiro,Moita,Seixal,Montijo,Alcochete,Palmela,Sesimbra,Coimbra,Aveiro,Viseu,Guarda,Castelo Branco,Portalegre,Estremenhok,Estremenhot,Estremenhop"
 },
 {
     "name": "European Portuguese",
@@ -1348,7 +1348,7 @@ window.europeNameBases = [
   "max": 24,
   "d": "lnrt",
   "m": 0,
-  "b": "Genève,Lausanne,Sion,Brig,Fribourg,Neuchâtel,Aoste,Annecy,Chambéry,Bourg-en-Bresse,Thonon-les-Bains,Évian-les-Bains,Sallanches,Annemasse,Saint-Julien-en-Genevois,Martigny,Monthey,Sierre,Vevey,Montreux,Yverdon-les-Bains,La Chaux-de-Fonds,Le Locle,Delémont,Porrentruy,Bienne,Cully,Lavaux"
+  "b": "Genève,Lausanne,Sion,Brig,Fribourg,Neuchâtel,Aoste,Annecy,Chambéry,Bourg-en-Bresse,Thonon-les-Bains,Évian-les-Bains,Sallanches,Annemasse,Saint-Julien-en-Genevois,Martigny,Monthey,Sierre,Vevey,Montreux,Yverdon-les-Bains,La Chaux-de-Fonds,Le Locle,Delémont,Porrentruy,Bienne,Cully,Lavaux,FrancoProvenalk,Fknal,FrancoProvenalt"
 },
 {
     "name": "Galician",
@@ -1618,7 +1618,7 @@ window.europeNameBases = [
   "max": 17,
   "d": "lnrt",
   "m": 0,
-  "b": "Valletta,Sliema,Birkirkara,Mosta,Qormi,Żabbar,Senglea,Cospicua,Vittoriosa,Floriana,Gżira,Gudja,Għaxaq,Mqabba,Safi,Kirkop,Żurrieq,Siggiewi,Luqa,Naxxar,San Pawl il-Baħar,Mellieħa,Rabat,Għargħur,Żebbuġ"
+  "b": "Valletta,Sliema,Birkirkara,Mosta,Qormi,Żabbar,Senglea,Cospicua,Vittoriosa,Floriana,Gżira,Gudja,Għaxaq,Mqabba,Safi,Kirkop,Żurrieq,Siggiewi,Luqa,Naxxar,San Pawl il-Baħar,Mellieħa,Rabat,Għargħur,Żebbuġ,MalteseItalianj,MalteseItaliankw,MalteseItaliantw,MalteseItalianpw,MalteseItalianmw,MalteseItaliansw,MalteseItalianrw,MalteseItalianlw,MalteseItaliandw,MalteseItaliangw,MalteseItalianbw"
 },
 {
     "name": "Manduriano",
@@ -1672,7 +1672,7 @@ window.europeNameBases = [
   "max": 29,
   "d": "lnrt",
   "m": 0,
-  "b": "Milano,Monza,Seregno,Desio,Cinisello Balsamo,Sesto San Giovanni,Muggiò,Lissone,Vimercate,Agrate Brianza,Carate Brianza,Seveso,Meda,Lentate sul Seveso,Mariano Comense,Cantù,Inverigo,Cermenate,Lurago d'Erba,Lurago Marinone,Arosio,Albavilla,Alzate Brianza,Ambivere,Arcene,Ardesio,Averara,Bagnatica,Barbata,Boltiere,Brembate,Brembate di Sopra,Brignano Gera d'Adda,Calcinate,Calcio,Calusco d'Adda,Calvenzano,Camerata Cornello,Canonica d'Adda,Capizzone,Capriate San Gervasio,Caprino Bergamasco,Caravaggio,Carobbio degli Angeli,Carona,Carvico,Casazza,Casirate d'Adda,Casnigo,Cellatica,Cenate Sopra,Cenate Sotto,Cene,Chiuduno,Cisano Bergamasco,Ciserano,Cividate al Piano,Clusone,Colere,Colzate,Cologno al Serio,Comun Nuovo,Covo,Credaro,Curno,Cusio,Dalmine,Fara Gera d'Adda,Fino del Monte,Fontanella,Fonteno,Foppolo,Fuipiano Valle Imagna,Gandellino,Gandino,Ghisalba,Gorlago,Gorle,Gorno,Grumello del Monte,Isola di Fondra,Lallio,Leffe,Lenna,Levate,Lovere,Lurano,Luzzana,Madone,Martinengo,Medolago,Mezzoldi,Misano Gera d'Adda,Moio de'Calzi,Molteno,Monasterolo del Castello,Montello,Mornico al Serio,Mozzanica,Mulino di Minde,Montegrosso Pian Latte,Nembro,Oltre il Colle,Oltressenda Alta,Oneta,Onore,Orio al Serio,Ornica,Osio Sopra,Osio Sotto,Pagazzano,Paladina,Parzanica,Pedrengo,Piazzatorre,Piazzolo,Presezzo,Pumenengo,Ranica,Ranzanico,Riva di Solto,Rogno,Rovetta,San Giovanni Bianco,San Paolo d'Argon,San Pellegrino Terme,Santa Brigida,Sarnico,Scanzorosciate,Schilpario,Sedrina,Selvino,Seriate,Serina,Solto Collina,Solza,Songavazzo,Sorisole,Sotto il Monte Giovanni XXIII,Spinone al Lago,Spirano,Stezzano,Suisio,Taleggio,Tavernola Bergamasca,Terno d'Isola,Torre Boldone,Treviolo,Ubiale Clanezzo,Urgnano,Valbondione,Valbrembo,Valgoglio,Valleve,Valtorta,Vedeseta,Vertemate con Minoprio,Vigolo,Vilminore di Scalve,Zandobbio,Zanica,Zogno"
+  "b": "Milano,Monza,Seregno,Desio,Cinisello Balsamo,Sesto San Giovanni,Muggiò,Lissone,Vimercate,Agrate Brianza,Carate Brianza,Seveso,Meda,Lentate sul Seveso,Mariano Comense,Cantù,Inverigo,Cermenate,Lurago d'Erba,Lurago Marinone,Arosio,Albavilla,Alzate Brianza,Ambivere,Arcene,Ardesio,Averara,Bagnatica,Barbata,Boltiere,Brembate,Brembate di Sopra,Brignano Gera d'Adda,Calcinate,Calcio,Calusco d'Adda,Calvenzano,Camerata Cornello,Canonica d'Adda,Capizzone,Capriate San Gervasio,Caprino Bergamasco,Caravaggio,Carobbio degli Angeli,Carona,Carvico,Casazza,Casirate d'Adda,Casnigo,Cellatica,Cenate Sopra,Cenate Sotto,Cene,Chiuduno,Cisano Bergamasco,Ciserano,Cividate al Piano,Clusone,Colere,Colzate,Cologno al Serio,Comun Nuovo,Covo,Credaro,Curno,Cusio,Dalmine,Fara Gera d'Adda,Fino del Monte,Fontanella,Fonteno,Foppolo,Fuipiano Valle Imagna,Gandellino,Gandino,Ghisalba,Gorlago,Gorle,Gorno,Grumello del Monte,Isola di Fondra,Lallio,Leffe,Lenna,Levate,Lovere,Lurano,Luzzana,Madone,Martinengo,Medolago,Mezzoldi,Misano Gera d'Adda,Moio de'Calzi,Molteno,Monasterolo del Castello,Montello,Mornico al Serio,Mozzanica,Mulino di Minde,Montegrosso Pian Latte,Nembro,Oltre il Colle,Oltressenda Alta,Oneta,Onore,Orio al Serio,Ornica,Osio Sopra,Osio Sotto,Pagazzano,Paladina,Parzanica,Pedrengo,Piazzatorre,Piazzolo,Presezzo,Pumenengo,Ranica,Ranzanico,Riva di Solto,Rogno,Rovetta,San Giovanni Bianco,San Paolo d'Argon,San Pellegrino Terme,Santa Brigida,Sarnico,Scanzorosciate,Schilpario,Sedrina,Selvino,Seriate,Serina,Solto Collina,Solza,Songavazzo,Sorisole,Sotto il Monte Giovanni XXIII,Spinone al Lago,Spirano,Stezzano,Suisio,Taleggio,Tavernola Bergamasca,Terno d'Isola,Torre Boldone,Treviolo,Ubiale Clanezzo,Urgnano,Valbondione,Valbrembo,Valgoglio,Valleve,Valtorta,Vedeseta,Vertemate con Minoprio,Vigolo,Vilminore di Scalve,Zandobbio,Zanica,Zogno,Milanesek,Milaneset,Milanesep,Milanesem,Milanesen,Milaneses,Milaneser,Milanesel,Milanesed,Milaneseg"
 },
 {
     "name": "Minderico",
@@ -1897,7 +1897,7 @@ window.europeNameBases = [
   "max": 21,
   "d": "lnrt",
   "m": 0,
-  "b": "Palafrugell,Girona,Barcelona,Lleida,Tarragona,Sabadell,Terrassa,Mataró,Manresa,Vic,Olot,Puigcerdà,La Seu d'Urgell,Solsona,Balaguer,Tàrrega,Cervera,Palamós,Calella,Blanes,Sant Feliu de Guíxols,Tossa de Mar,Begur,Pals,Calonge"
+  "b": "Palafrugell,Girona,Barcelona,Lleida,Tarragona,Sabadell,Terrassa,Mataró,Manresa,Vic,Olot,Puigcerdà,La Seu d'Urgell,Solsona,Balaguer,Tàrrega,Cervera,Palamós,Calella,Blanes,Sant Feliu de Guíxols,Tossa de Mar,Begur,Pals,Calonge,Palafrugusk,Palafrugust,Palafrugusp,Palafrugusm,Palafrugusn,Palafruguss,Palafrugusr,Palafrugusl,Palafrugusd,Palafrugusg"
 },
 {
    "name": "Palra",
@@ -2617,7 +2617,7 @@ window.europeNameBases = [
   "max": 20,
   "d": "lnrt",
   "m": 0,
-  "b": "Aosta,Gressan,Courmayeur,Chamois,Valtournenche,Champdepraz,Morgex,Saint-Vincent,Chatillon,Arvier,Fénis,Saint-Pierre,Verrès,Issogne,Arnad,Donnas,Pont-Saint-Martin,Allein,Saint-Christophe,Pollein,Quart,Nus,Valpelline,Oyace,Roisan,Gignod,Sarre,La Thuile,Pré-Saint-Didier,Villeneuve,Rhemes-Saint-Georges,Rhemes-Notre-Dame,Gaby,Issime,Gressoney-Saint-Jean,Gressoney-La-Trinité,Alagna Valsesia"
+  "b": "Aosta,Gressan,Courmayeur,Chamois,Valtournenche,Champdepraz,Morgex,Saint-Vincent,Chatillon,Arvier,Fénis,Saint-Pierre,Verrès,Issogne,Arnad,Donnas,Pont-Saint-Martin,Allein,Saint-Christophe,Pollein,Quart,Nus,Valpelline,Oyace,Roisan,Gignod,Sarre,La Thuile,Pré-Saint-Didier,Villeneuve,Rhemes-Saint-Georges,Rhemes-Notre-Dame,Gaby,Issime,Gressoney-Saint-Jean,Gressoney-La-Trinité,Alagna Valsesia,Valdk,Valdt,Valdp,Valdm,Valdn,Valdr,Valdl"
 },
 {
     "name": "Valencian",
@@ -2977,7 +2977,7 @@ window.europeNameBases = [
   "max": 20,
    "d": "lnrt",
    "m": 0,
-   "b": "Hannover,Hamburg,Bremen,Braunschweig,Oldenburg,Osnabrück,Wolfsburg,Göttingen,Salzgitter,Wilhelmshaven,Lübeck,Kiel,Flensburg,Emden,Cuxhaven,Stade,Lüneburg,Celle,Hildesheim,Delmenhorst,Schwerin,Rostock,Stralsund,Wismar,Neumünster,Mönchengladbach"
+   "b": "Hannover,Hamburg,Bremen,Braunschweig,Oldenburg,Osnabrück,Wolfsburg,Göttingen,Salzgitter,Wilhelmshaven,Lübeck,Kiel,Flensburg,Emden,Cuxhaven,Stade,Lüneburg,Celle,Hildesheim,Delmenhorst,Schwerin,Rostock,Stralsund,Wismar,Neumünster,Mönchengladbach,LowGermank,Lkman,LowGermant,Ltman,LowGermanp,Lpman,LowGermanm,Lmman,LowGermann"
 },
 {
   "name": "Mainfränkisch",
@@ -3877,7 +3877,7 @@ window.europeNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-  "b": "Żejtun,Mdina,Valletta,Birgu,Senglea,Cospicua,Rabat,Naxxar,Mosta,Birkirkara,Sliema,Gżira,Swieqi,San Ġwann,Pembroke,St. Julian's,Santa Venera,Hamrun,Qormi,Żabbar,Gudja,Għaxaq,Mqabba,Safi,Kirkop"
+  "b": "Żejtun,Mdina,Valletta,Birgu,Senglea,Cospicua,Rabat,Naxxar,Mosta,Birkirkara,Sliema,Gżira,Swieqi,San Ġwann,Pembroke,St. Julian's,Santa Venera,Hamrun,Qormi,Żabbar,Gudja,Għaxaq,Mqabba,Safi,Kirkop,EjtunDialectk,EjtunDialectt,EjtunDialectp,EjtunDialectm,EjtunDialectn,EjtunDialects,EjtunDialectr,EjtunDialectl,EjtunDialectd"
 },
 {
     "name": "Aas Whistled",
@@ -4273,7 +4273,7 @@ window.europeNameBases = [
   "max": 16,
   "d": "lnrt",
   "m": 0,
-  "b": "Warszawa,Kraków,Wrocław,Poznań,Gdańsk,Szczecin,Łódź,Bytom,Katowice,Lublin,Białystok,Częstochowa,Radom,Sosnowiec,Tychy,Dąbrowa Górnicza,Kielce,Rzeszów,Gdynia,Zabrze,Opole,Olsztyn,Toruń,Gliwice,Zielona Góra,Sopot,Bydgoszcz,Kalisz,Płock,Elbląg"
+  "b": "Warszawa,Kraków,Wrocław,Poznań,Gdańsk,Szczecin,Łódź,Bytom,Katowice,Lublin,Białystok,Częstochowa,Radom,Sosnowiec,Tychy,Dąbrowa Górnicza,Kielce,Rzeszów,Gdynia,Zabrze,Opole,Olsztyn,Toruń,Gliwice,Zielona Góra,Sopot,Bydgoszcz,Kalisz,Płock,Elbląg,Polishk,Polisht,Polishp,Polishm,Polishn,Polishs"
 },
 {
      "name": "Kashubian",
@@ -4327,7 +4327,7 @@ window.europeNameBases = [
   "max": 27,
   "d": "lnrt",
   "m": 0,
-  "b": "Ljubljana,Maribor,Kranj,Celje,Velenje,Novo Mesto,Koper,Ptuj,Murska Sobota,Dravograd,Ravne na Koroškem,Jesenice,Sežana,Postojna,Ajdovščina,Logatec,Litija,Gornja Radgona"
+  "b": "Ljubljana,Maribor,Kranj,Celje,Velenje,Novo Mesto,Koper,Ptuj,Murska Sobota,Dravograd,Ravne na Koroškem,Jesenice,Sežana,Postojna,Ajdovščina,Logatec,Litija,Gornja Radgona,Slovenek,Slovenet,Slovenep,Slovenem,Slovenen"
 },
 {
     "name": "Dutch",
@@ -4363,7 +4363,7 @@ window.europeNameBases = [
   "max": 17,
   "d": "lnrt",
   "m": 0,
-  "b": "Zürich,Basel,Bern,Luzern,St. Gallen,Aarau,Biel,Solothurn,Fribourg,Chur,Zug,Schwyz,Sion,Neuchâtel,La Chaux-de-Fonds,Schaffhausen,Herisau,Appenzell,Glarus,Sarnen,Stans,Altdorf,Bülach,Winterthur,Thun"
+  "b": "Zürich,Basel,Bern,Luzern,St. Gallen,Aarau,Biel,Solothurn,Fribourg,Chur,Zug,Schwyz,Sion,Neuchâtel,La Chaux-de-Fonds,Schaffhausen,Herisau,Appenzell,Glarus,Sarnen,Stans,Altdorf,Bülach,Winterthur,Thun,SwissGermank,Skman,SwissGermant"
 },
 {
     "name": "Scots",
@@ -4495,7 +4495,7 @@ window.europeNameBases = [
   "max": 15,
   "d": "lnrt",
   "m": 0,
-  "b": "Benasque,Campo,Graus,Estadilla,Capella,Fonz,Monzón,Barbastro,Almudévar,Tierz,La Sotonera,Robres,Monflorite,Lupiñén-Ortilla,Albero Alto,Nueno,Puertolas,El Grado,Arén,Secastilla,Sopeira,Chía,Peraltilla,Laspuña,Chistau"
+  "b": "Benasque,Campo,Graus,Estadilla,Capella,Fonz,Monzón,Barbastro,Almudévar,Tierz,La Sotonera,Robres,Monflorite,Lupiñén-Ortilla,Albero Alto,Nueno,Puertolas,El Grado,Arén,Secastilla,Sopeira,Chía,Peraltilla,Laspuña,Chistau,Benasquesek,Benasqueset,Benasquesep,Benasquesem,Benasquesen,Benasqueses,Benasqueser,Benasquesel,Benasquesed,Benasqueseg"
 },
 {
     "name": "Judeo-Italian (Standard)",
@@ -4522,7 +4522,7 @@ window.europeNameBases = [
   "max": 17,
   "d": "lnrt",
   "m": 0,
-  "b": "Torino,Asti,Alessandria,Novara,Cuneo,Vercelli,Biella,Verbania,Domodossola,Borgosesia,Arona,Stresa,Omegna,Borgomanero,Ghemme,Acqui Terme,Casale Monferrato,Fossano,Saluzzo,Bra,Alba,Moncalieri,Rivoli,Collegno,Nichelino,Settimo Torinese,Chieri,Carmagnola,Ivrea,Aosta,Piedmontese,Giudeo,Pinerolo,Rivarolo"
+  "b": "Torino,Asti,Alessandria,Novara,Cuneo,Vercelli,Biella,Verbania,Domodossola,Borgosesia,Arona,Stresa,Omegna,Borgomanero,Ghemme,Acqui Terme,Casale Monferrato,Fossano,Saluzzo,Bra,Alba,Moncalieri,Rivoli,Collegno,Nichelino,Settimo Torinese,Chieri,Carmagnola,Ivrea,Aosta,Piedmontese,Giudeo,Pinerolo,Rivarolo,JudeoPiedmontesek,Jkese,JudeoPiedmonteset,Jtese,JudeoPiedmontesep,Jpese,JudeoPiedmontesem,Jmese"
 },
 {
     "name": "Molisan (Molise)",
@@ -4549,7 +4549,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Chișinău,Bălți,Tiraspol,Bender,Cahul,Ungheni,Soroca,Orhei,Dubăsari,Călărași,Hîncești,Nisporeni,Căușeni,Strășeni,Ialoveni,Edineț,Briceni,Ocnița,Dondușeni,Drochia,Fălești,Glodeni,Rîșcani,Sîngerei,Telenești"
+  "b": "Chișinău,Bălți,Tiraspol,Bender,Cahul,Ungheni,Soroca,Orhei,Dubăsari,Călărași,Hîncești,Nisporeni,Căușeni,Strășeni,Ialoveni,Edineț,Briceni,Ocnița,Dondușeni,Drochia,Fălești,Glodeni,Rîșcani,Sîngerei,Telenești,Moldaviank,Moldaviant,Moldavianp,Moldavianm,Moldaviann,Moldavians,Moldavianr,Moldavianl,Moldaviand,Moldaviang,Moldavianb"
 },
 {
     "name": "Judeo-Aragonese (Aragon)",
@@ -4576,7 +4576,7 @@ window.europeNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-  "b": "Stockholm,Göteborg,Malmö,Uppsala,Västerås,Örebro,Linköping,Norrköping,Helsingborg,Jönköping,Borås,Sundsvall,Umeå,Gävle,Halmstad,Karlstad,Växjö,Luleå,Östersund,Kristianstad,Kalmar,Skellefteå,Uddevalla,Motala,Piteå,Ljungby,Värnamo,Falun"
+  "b": "Stockholm,Göteborg,Malmö,Uppsala,Västerås,Örebro,Linköping,Norrköping,Helsingborg,Jönköping,Borås,Sundsvall,Umeå,Gävle,Halmstad,Karlstad,Växjö,Luleå,Östersund,Kristianstad,Kalmar,Skellefteå,Uddevalla,Motala,Piteå,Ljungby,Värnamo,Falun,Swedishf,Swedishz,Swedishv,Swedishj,Swedishkw,Swedishtw,Swedishpw,Swedishmw,Swedishsw,Swedishrw"
 },
 {
     "name": "Rusyn",
@@ -4675,7 +4675,7 @@ window.europeNameBases = [
   "max": 14,
   "d": "lnrt",
   "m": 0,
-  "b": "Praha,Brno,Ostrava,Plzeň,Liberec,Olomouc,Ústí nad Labem,Hradec Králové,Pardubice,Zlín,Havířov,Opava,Kladno,Most,Karviná,Frýdek-Místek,Jihlava,Teplice,Chomutov,Děčín,Sokolov,Cheb,Trutnov,Náchod,Kolín,Mladá Boleslav,Písek,Pelhřimov,Břeclav,Hodonín,Vyškov,Znojmo,Kroměříž,Prostějov"
+  "b": "Praha,Brno,Ostrava,Plzeň,Liberec,Olomouc,Ústí nad Labem,Hradec Králové,Pardubice,Zlín,Havířov,Opava,Kladno,Most,Karviná,Frýdek-Místek,Jihlava,Teplice,Chomutov,Děčín,Sokolov,Cheb,Trutnov,Náchod,Kolín,Mladá Boleslav,Písek,Pelhřimov,Břeclav,Hodonín,Vyškov,Znojmo,Kroměříž,Prostějov,Czechk,Czecht,Czechp,Czechm,Czechn,Czechs,Czechr,Czechl,Czechd,Czechg"
 },
 {
     "name": "Austrian German",
@@ -4909,7 +4909,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kiruna,Gällivare,Jokkmokk,Pajala,Karesuando,Jukkasjärvi,Tärnaby,Överkalix,Kalix,Haparanda,Boden,Lule,Pite,Arjeplog,Arvidsjaur,Lycksele,Vilhelmina,Strmsund,Dorotea,Sele,Sorsele,Malå,Norsjö,Skellefte,Byske,Lvanger,Burtrsk,Jrn,Bastutrsk,Vännäs,Umeå,Holmsund,Tfte,Svar,Robertsfors,Bure,Boliden"
+  "b": "Kiruna,Gällivare,Jokkmokk,Pajala,Karesuando,Jukkasjärvi,Tärnaby,Överkalix,Kalix,Haparanda,Boden,Lule,Pite,Arjeplog,Arvidsjaur,Lycksele,Vilhelmina,Strmsund,Dorotea,Sele,Sorsele,Malå,Norsjö,Skellefte,Byske,Lvanger,Burtrsk,Jrn,Bastutrsk,Vännäs,Umeå,Holmsund,Tfte,Svar,Robertsfors,Bure,Boliden,Jllivaaraf,Jllivaaraz,Jllivaarav,Jllivaaraj"
 },
 {
     "name": "Jugan",
@@ -6115,7 +6115,7 @@ window.europeNameBases = [
    "max": 15,
    "d": "lnrt",
    "m": 0,
-   "b": "Valletta,Sliema,Birkirkara,Mosta,Qormi,Żabbar,San Ġwann,Ħamrun,Naxxar,Marsaskala,Żejtun,Mgarr,Gżira,Paola,Luqa,Birżebbuġa,Mellieħa,Ta' Xbiex,Floriana,Victoria,Cospicua,Senglea,Santa Venera,Marsaxlokk,Siġġiewi,Dingli,Rabat,Gudja,Mtarfa,Safi,Kerċem,Munxar,Xagħra,Żurrieq,Nadur"
+   "b": "Valletta,Sliema,Birkirkara,Mosta,Qormi,Żabbar,San Ġwann,Ħamrun,Naxxar,Marsaskala,Żejtun,Mgarr,Gżira,Paola,Luqa,Birżebbuġa,Mellieħa,Ta' Xbiex,Floriana,Victoria,Cospicua,Senglea,Santa Venera,Marsaxlokk,Siġġiewi,Dingli,Rabat,Gudja,Mtarfa,Safi,Kerċem,Munxar,Xagħra,Żurrieq,Nadur,MalteseItalianf,MalteseItalianz,MalteseItalianv"
 },
 {
     "name": "Moldavian",
@@ -6178,7 +6178,7 @@ window.europeNameBases = [
    "max": 26,
    "d": "lnrt",
    "m": 0,
-   "b": "Orléans,Blois,Tours,Bourges,Chartres,Châteauroux,Montargis,Pithiviers,Gien,Vierzon,Amboise,Chinon,Loches,Vendôme,Romorantin-Lanthenay,Le Château,Issoudun,Le Blanc,Buzannes,Selles-sur-Cher,Saint-Aignan,Contres,Mareau-aux-Prés,Meung-sur-Loire,Patay,Saint-Privé-Saint-Mesmin,Saint-Jean-de-la-Ruelle,Saint-Jean-de-Braye,Saint-Jean-le-Blanc,Olivet,Saint-Hilaire-Saint-Mesmin,Ingré,Artenay,Chaingy,La Chapelle-Saint-Mesmin,Saint-Ay,Saint-Denis-en-Val"
+   "b": "Orléans,Blois,Tours,Bourges,Chartres,Châteauroux,Montargis,Pithiviers,Gien,Vierzon,Amboise,Chinon,Loches,Vendôme,Romorantin-Lanthenay,Le Château,Issoudun,Le Blanc,Buzannes,Selles-sur-Cher,Saint-Aignan,Contres,Mareau-aux-Prés,Meung-sur-Loire,Patay,Saint-Privé-Saint-Mesmin,Saint-Jean-de-la-Ruelle,Saint-Jean-de-Braye,Saint-Jean-le-Blanc,Olivet,Saint-Hilaire-Saint-Mesmin,Ingré,Artenay,Chaingy,La Chapelle-Saint-Mesmin,Saint-Ay,Saint-Denis-en-Val,Orlanaisf,Orlanaisz,Orlanaisv"
 },
 {
     "name": "Paḷḷuezu",
