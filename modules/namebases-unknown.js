@@ -109,7 +109,7 @@ window.unknownNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "PortMoresby,Lae,Madang,Wewak,Vanimo,Kavieng,Rabaul,Kimbe,Goroka,MtHagen,Kundiawa,Mendi,Tari,Popondetta,Alotau,Daru,Kiunga,Tabubil,Buka,Arawa,Kieta,Lorengau,Kokopo,Namatanai,Kandrian,Finschhafen,Salamaua,Bulolo,Wau,Menyamya,Okapa,Kainantu,London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Cidra,SanGerman,AguasBuenas,LasPiedras,Brades,Manati,Humacao,Orocovis,Mayaguez,Juncos,Maunabo,Castries,Dorado,Arecibo,Jayuya,Apusport,Afubbridge,Amatbridge,Akomport,Apinbridge,Adotport,Amugport,Afanbridge,Adisport,Apudport,Aebport,Apenbridge,Apurbridge,Adebbridge,Akotbridge,PidginOnintown,PidginOninville,PidginOninburg,PidginOninview,PidginOninside,Aguada,Ceiba,Guayama,Arroyo,Bayamon,SanJuan,Maricao,SanSebastian,RioGrande,Santalsabel,SantaIsabel,Canovanas,Alorwood,Akadport,Amasview,Aferwood,Anadport,Akulwood,Apugview,Apunwood,Apabport,Aforview,Akodwood,Afimview,Alinview,Abotwood,Apaport,DuvleWanoPidgintown,DuvleWanoPidginville,DuvleWanoPidginburg,DuvleWanoPidginview,DuvleWanoPidginside"
+  "b": "PortMoresby,Lae,Madang,Wewak,Vanimo,Kavieng,Rabaul,Kimbe,Goroka,MtHagen,Kundiawa,Mendi,Tari,Popondetta,Alotau,Daru,Kiunga,Tabubil,Buka,Arawa,Kieta,Lorengau,Kokopo,Namatanai,Kandrian,Finschhafen,Salamaua,Bulolo,Wau,Menyamya,Okapa,Kainantu,London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Cidra,SanGerman,AguasBuenas,LasPiedras,Brades,Manati,Humacao,Orocovis,Mayaguez,Juncos,Maunabo,Castries,Dorado,Arecibo,Jayuya,Apusport,Afubbridge,Amatbridge,Akomport,Apinbridge,Adotport,Amugport,Afanbridge,Adisport,Apudport,Aebport,Apenbridge,Apurbridge,Adebbridge,Akotbridge,PidginOnintown,PidginOninville,PidginOninburg,PidginOninview,PidginOninside,Aguada,Ceiba,Guayama,Arroyo,Bayamon,SanJuan,Maricao,SanSebastian,RioGrande,Santalsabel,SantaIsabel,Canovanas,Alorwood,Akadport,Amasview,Aferwood,Anadport,Akulwood,Apugview,Apunwood,Apabport,Aforview,Akodwood,Afimview,Alinview,Abotwood,Apaport,DuvleWanoPidgintown,DuvleWanoPidginville,DuvleWanoPidginburg,DuvleWanoPidginview,DuvleWanoPidginside,Duvle,Wano,DuvleWano,Kanggup,Balingga,Talitoli,Dangua,Tariku,VanDaalen,Hulu,Kisor"
 },
 {
     "name": "Français Tirailleur",
@@ -163,7 +163,7 @@ window.unknownNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Jakarta,Surabaya,Bandung,Semarang,Yogyakarta,Solo,Malang,Denpasar,Kupang,Medan,Palembang,Pontianak,Banjarmasin,Makassar,Manado,Padang,Pekanbaru,Jambi,Bengkulu,Lampung,Cilegon,Bogor,Depok,Tangerang,Bekasi,Tasikmalaya,Cirebon,Pekalongan,Tegal,Magelang,Madiun,London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,CaboRojo,Gurabo,Humacao,StGeorges,VegaAlta,Fajardo,Morovis,Anasco,Piedras,Patillas,Guayama,Cataño,Mayaguez,Utuado,Moca,Amugview,Afokview,Apasbridge,Aomview,Akigview,Akumbridge,Alanville,Alukbridge,Aogbridge,Alumview,Anebview,Alirview,Apubview,Amibbridge,Abonview,Petjotown,Petjoville,Petjoburg,Petjoview,Petjoside,Adjuntas,ToaBaja,Pefiuelas,Villalba,RioGrande,FlyingFish,Aguada,Coamo,Naranjito,Lajas,Ceiba,Gustavia,Arecibo,Caguas,Aagville,Aenbridge,Adelwood,Akukwood,Afenbridge,Apebville,Akembridge,Alotville,Afebridge,Aarville,Anilwood,Afabwood,Aletwood,Anudville,Adelbridge,Javindotown,Javindoville,Javindoburg,Javindoview,Javindoside"
+  "b": "Jakarta,Surabaya,Bandung,Semarang,Yogyakarta,Solo,Malang,Denpasar,Kupang,Medan,Palembang,Pontianak,Banjarmasin,Makassar,Manado,Padang,Pekanbaru,Jambi,Bengkulu,Lampung,Cilegon,Bogor,Depok,Tangerang,Bekasi,Tasikmalaya,Cirebon,Pekalongan,Tegal,Magelang,Madiun,London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,CaboRojo,Gurabo,Humacao,StGeorges,VegaAlta,Fajardo,Morovis,Anasco,Piedras,Patillas,Guayama,Cataño,Mayaguez,Utuado,Moca,Amugview,Afokview,Apasbridge,Aomview,Akigview,Akumbridge,Alanville,Alukbridge,Aogbridge,Alumview,Anebview,Alirview,Apubview,Amibbridge,Abonview,Petjotown,Petjoville,Petjoburg,Petjoview,Petjoside,Adjuntas,ToaBaja,Pefiuelas,Villalba,RioGrande,FlyingFish,Aguada,Coamo,Naranjito,Lajas,Ceiba,Gustavia,Arecibo,Caguas,Aagville,Aenbridge,Adelwood,Akukwood,Afenbridge,Apebville,Akembridge,Alotville,Afebridge,Aarville,Anilwood,Afabwood,Aletwood,Anudville,Adelbridge,Javindotown,Javindoville,Javindoburg,Javindoview,Javindoside,Javindo,JavaneseDutch,Indo,Tugu,Gado,Sinjo,Kromo,NYoni,Temboro"
 },
 {
     "name": "Jersey Dutch",
@@ -181,7 +181,7 @@ window.unknownNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Honiara,Gizo,Munda,Noro,Auki,Buala,Kirakira,Lata,Tulagi,Marau,Taro,Faisi,Seghe,Viru,Rendova,Pavuvu,Mbambanakira,Kolombangara,Shortlands,Choiseul,VellaLavella,Guadalcanal,Malaita,Ulawa,Temotu,SantaCruz,Vangunu,Simbo,Ranongga,Roviana,Marovo,Tetepare,Uepi,Gatokae,London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Humacao,StGeorges,VegaAlta,Fajardo,Morovis,Anasco,Piedras,Patillas,Guayama,Cataño,Mayaguez,Utuado,Moca,Luquillo,Salinas,Adorbridge,Abadwood,Afasport,Amoport,Aerbridge,Abulbridge,Alabwood,Anelbridge,Aorport,Apimbridge,Akatwood,Apesport,Afasbridge,Adinport,Anosbridge,KiKARtown,KiKARville,KiKARburg,KiKARview,KiKARside"
+  "b": "Honiara,Gizo,Munda,Noro,Auki,Lata,Tulagi,Marau,Taro,Faisi,Seghe,Viru,Rendova,Pavuvu,Mbambanakira,Kolombangara,Shortlands,Choiseul,VellaLavella,Guadalcanal,Malaita,Ulawa,Temotu,SantaCruz,Vangunu,Simbo,Ranongga,Roviana,Marovo,Tetepare,Uepi,Gatokae,London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Humacao,StGeorges,VegaAlta,Fajardo,Morovis,Anasco,Piedras,Patillas,Guayama,Cataño,Mayaguez,Utuado,Moca,Luquillo,Salinas,Adorbridge,Abadwood,Afasport,Amoport,Aerbridge,Abulbridge,Alabwood,Anelbridge,Aorport,Apimbridge,Akatwood,Apesport,Afasbridge,Adinport,Anosbridge,KiKARtown,KiKARville,KiKARburg,KiKARview,KiKARside"
 },
 {
     "name": "Labrador Inuit Pidgin French",
@@ -226,7 +226,7 @@ window.unknownNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Apia,Salelologa,Asau,Safotu,Faleula,Siumu,Poutasi,Lotofaga,Papeete,Faaa,Punaauia,Pirae,Arue,Mahina,Taiarapu,TevaIuta,Paea,Papara,NukuAlofa,Neiafu,Pangai,Havelu,Vaitupu,MataUtu,Leava,Vele,Alofi,Hakupu,Niue,Avarua,Arutanga,Amuri,Atiu,Mitiaro,London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Castries,Dorado,Arecibo,Jayuya,Aguada,Ceiba,Guayama,Arroyo,Bayamon,SanJuan,Maricao,SanSebastian,RioGrande,Santalsabel,SantaIsabel,Afintown,Abosside,Abalburg,Apebside,Alumtown,Apobtown,Adagside,Abittown,Amogside,Aditside,Abagtown,Aubtown,Amartown,Apisside,Afiktown,MaritimePolynesianPidgintown,MaritimePolynesianPidginville,MaritimePolynesianPidginburg,MaritimePolynesianPidginview,MaritimePolynesianPidginside"
+  "b": "Apia,Salelologa,Asau,Safotu,Faleula,Siumu,Poutasi,Lotofaga,Papeete,Faaa,Punaauia,Pirae,Arue,Mahina,Taiarapu,TevaIuta,Paea,Papara,NukuAlofa,Pangai,Havelu,Vaitupu,MataUtu,Leava,Vele,Alofi,Hakupu,Niue,Avarua,Arutanga,Amuri,Atiu,Mitiaro,London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Castries,Dorado,Arecibo,Jayuya,Aguada,Ceiba,Guayama,Arroyo,Bayamon,SanJuan,Maricao,SanSebastian,RioGrande,Santalsabel,SantaIsabel,Afintown,Abosside,Abalburg,Apebside,Alumtown,Apobtown,Adagside,Abittown,Amogside,Aditside,Abagtown,Aubtown,Amartown,Apisside,Afiktown,MaritimePolynesianPidgintown,MaritimePolynesianPidginville,MaritimePolynesianPidginburg,MaritimePolynesianPidginview,MaritimePolynesianPidginside"
 },
 {
     "name": "Mbugu",
@@ -262,7 +262,7 @@ window.unknownNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "PortMoresby,Lae,Madang,Wewak,Vanimo,Kavieng,Rabaul,Kimbe,Goroka,MtHagen,Kundiawa,Mendi,Tari,Popondetta,Alotau,Daru,Kiunga,Tabubil,Buka,Arawa,Kieta,Lorengau,Kokopo,Namatanai,Kandrian,Finschhafen,Salamaua,Bulolo,Wau,Menyamya,Okapa,Kainantu,London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix,Coamo,Naranjito,Lajas,Morovis,Ceiba,Gustavia,Arecibo,Caguas,Aibonito,CaboRojo,Gurabo,Humacao,StGeorges,VegaAlta,Fajardo,Aartown,Alubside,Anenside,Akugtown,Aroside,Apabside,Apertown,Autside,Afortown,Akosside,Amobburg,Afaside,Anettown,Abiktown,Ariside,PapuanPidginEnglishtown,PapuanPidginEnglishville,PapuanPidginEnglishburg,PapuanPidginEnglishview,PapuanPidginEnglishside,Yabucoa,Kingstown,VegaBaja,Aguadilla,Ciales,Rincon,Naguabo,Arroyo,Maunabo,Guaynabo,Ponce,Adjuntas,Isabela,Loiza,Akebtown,Akilford,Aparland,Akemtown,Afitford,Alogtown,Aegtown,Alastown,Apikford,Apektown,Afisford,Apurtown,Alattown,Abimford,Aetland,Mekeopidginstown,Mekeopidginsville,Mekeopidginsburg,Mekeopidginsview,Mekeopidginsside"
+  "b": "PortMoresby,Lae,Madang,Wewak,Vanimo,Kavieng,Rabaul,Kimbe,Goroka,MtHagen,Kundiawa,Mendi,Tari,Popondetta,Alotau,Daru,Kiunga,Tabubil,Buka,Arawa,Kieta,Lorengau,Kokopo,Namatanai,Kandrian,Finschhafen,Salamaua,Bulolo,Wau,Menyamya,Okapa,Kainantu,London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix,Coamo,Naranjito,Lajas,Morovis,Ceiba,Gustavia,Arecibo,Caguas,Aibonito,CaboRojo,Gurabo,Humacao,StGeorges,VegaAlta,Fajardo,Aartown,Alubside,Anenside,Akugtown,Aroside,Apabside,Apertown,Autside,Afortown,Akosside,Amobburg,Afaside,Anettown,Abiktown,Ariside,PapuanPidginEnglishtown,PapuanPidginEnglishville,PapuanPidginEnglishburg,PapuanPidginEnglishview,PapuanPidginEnglishside,Yabucoa,Kingstown,VegaBaja,Aguadilla,Ciales,Rincon,Naguabo,Arroyo,Maunabo,Guaynabo,Ponce,Adjuntas,Isabela,Loiza,Akebtown,Akilford,Aparland,Akemtown,Afitford,Alogtown,Aegtown,Alastown,Apikford,Apektown,Afisford,Apurtown,Alattown,Abimford,Aetland,Mekeopidginstown,Mekeopidginsville,Mekeopidginsburg,Mekeopidginsview,Mekeopidginsside,Mekeo,Inao,Kuni,Roro,Kabadi,Lala,Aroma,Sinaugoro,Kairuku,Hula,Kapakapa"
 },
 {
     "name": "Michif",
@@ -307,7 +307,7 @@ window.unknownNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guwahati,Dibrugarh,Tinsukia,Jorhat,Sibsagar,Tezpur,Nagaon,Dimapur,Kohima,Mokokchung,Tuensang,Wokha,Phek,Zunheboto,Mon,Itanagar,Naharlagun,Pasighat,Tawang,Bomdila,Silchar,Haflong,Diphu,Jowai,Shillong,Tura,Barpeta,Goalpara,Umling,Boko,Rangia,London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Maunabo,Castries,Dorado,Arecibo,Jayuya,Aguada,Ceiba,Guayama,Arroyo,Bayamon,SanJuan,Maricao,SanSebastian,RioGrande,Santalsabel,Amurbridge,Aleville,Audville,Aubridge,Amokville,Apanville,Amegwood,Afomville,Anitwood,Apegville,Apumbridge,Akarville,Afutbridge,Anekwood,Abosville,Nefamesetown,Nefameseville,Nefameseburg,Nefameseview,Nefameseside,Cataño,Mayaguez,Utuado,Moca,Luquillo,Salinas,Yabucoa,TrujilloAlto,TheBottom,LasMarias,Lares,ToaAlta,Ponce,Loiza,Akaport,Afirview,Anasville,Abogport,Amilview,Alimport,Aamport,Akudport,Alodport,Adekport,Apisville,Alimview,Aitview,Akurville,Anabport,Nagamesetown,Nagameseville,Nagameseburg,Nagameseview,Nagameseside"
+  "b": "Guwahati,Dibrugarh,Tinsukia,Jorhat,Sibsagar,Tezpur,Nagaon,Dimapur,Kohima,Mokokchung,Tuensang,Wokha,Phek,Zunheboto,Mon,Itanagar,Naharlagun,Pasighat,Tawang,Bomdila,Silchar,Haflong,Diphu,Jowai,Shillong,Tura,Barpeta,Goalpara,Umling,Boko,Rangia,London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Maunabo,Castries,Dorado,Arecibo,Jayuya,Aguada,Ceiba,Guayama,Arroyo,Bayamon,SanJuan,Maricao,SanSebastian,RioGrande,Santalsabel,Amurbridge,Aleville,Audville,Aubridge,Amokville,Apanville,Amegwood,Afomville,Anitwood,Apegville,Apumbridge,Akarville,Afutbridge,Anekwood,Abosville,Nefamesetown,Nefameseville,Nefameseburg,Nefameseview,Nefameseside,Cataño,Mayaguez,Utuado,Moca,Luquillo,Salinas,Yabucoa,TrujilloAlto,TheBottom,LasMarias,Lares,ToaAlta,Ponce,Loiza,Akaport,Afirview,Anasville,Abogport,Amilview,Alimport,Aamport,Akudport,Alodport,Adekport,Apisville,Alimview,Aitview,Akurville,Anabport,Nagamesetown,Nagameseville,Nagameseburg,Nagameseview,Nagameseside,Nagamese,Naga,Assamese"
 },
 {
     "name": "Namibian Black German",
@@ -343,7 +343,7 @@ window.unknownNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guwahati,Dibrugarh,Tinsukia,Jorhat,Sibsagar,Tezpur,Nagaon,Dimapur,Kohima,Mokokchung,Tuensang,Wokha,Phek,Zunheboto,Mon,Itanagar,Naharlagun,Pasighat,Tawang,Bomdila,Silchar,Haflong,Diphu,Jowai,Shillong,Tura,Barpeta,Goalpara,Umling,Boko,Rangia,London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Guayama,Cataño,Mayaguez,Utuado,Moca,Luquillo,Salinas,Yabucoa,TrujilloAlto,TheBottom,LasMarias,Lares,ToaAlta,Ponce,Loiza,Akaport,Afirview,Anasville,Abogport,Amilview,Alimport,Aamport,Akudport,Alodport,Adekport,Apisville,Alimview,Aitview,Akurville,Anabport,Nagamesetown,Nagameseville,Nagameseburg,Nagameseview,Nagameseside,Maunabo,Castries,Dorado,Arecibo,Jayuya,Aguada,Ceiba,Arroyo,Bayamon,SanJuan,Maricao,SanSebastian,RioGrande,Santalsabel,Amurbridge,Aleville,Audville,Aubridge,Amokville,Apanville,Amegwood,Afomville,Anitwood,Apegville,Apumbridge,Akarville,Afutbridge,Anekwood,Abosville,Nefamesetown,Nefameseville,Nefameseburg,Nefameseview,Nefameseside"
+  "b": "Guwahati,Dibrugarh,Tinsukia,Jorhat,Sibsagar,Tezpur,Nagaon,Dimapur,Kohima,Mokokchung,Tuensang,Wokha,Phek,Zunheboto,Mon,Itanagar,Naharlagun,Pasighat,Tawang,Bomdila,Silchar,Haflong,Diphu,Jowai,Shillong,Tura,Barpeta,Goalpara,Umling,Boko,Rangia,London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Guayama,Cataño,Mayaguez,Utuado,Moca,Luquillo,Salinas,Yabucoa,TrujilloAlto,TheBottom,LasMarias,Lares,ToaAlta,Ponce,Loiza,Akaport,Afirview,Anasville,Abogport,Amilview,Alimport,Aamport,Akudport,Alodport,Adekport,Apisville,Alimview,Aitview,Akurville,Anabport,Nagamesetown,Nagameseville,Nagameseburg,Nagameseview,Nagameseside,Maunabo,Castries,Dorado,Arecibo,Jayuya,Aguada,Ceiba,Arroyo,Bayamon,SanJuan,Maricao,SanSebastian,RioGrande,Santalsabel,Amurbridge,Aleville,Audville,Aubridge,Amokville,Apanville,Amegwood,Afomville,Anitwood,Apegville,Apumbridge,Akarville,Afutbridge,Anekwood,Abosville,Nefamesetown,Nefameseville,Nefameseburg,Nefameseview,Nefameseside,Nefamese,Nefa,Arunachali,Along,Roing,Ziro,Seijosa"
 },
 {
     "name": "Negerhollands",
@@ -379,7 +379,7 @@ window.unknownNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Pretoria,Johannesburg,CapeTown,Durban,Bloemfontein,PortElizabeth,EastLondon,Kimberley,Pietermaritzburg,Nelspruit,Mafikeng,Polokwane,Thohoyandou,Lebowakgomo,Middelburg,Witbank,Bethal,Ermelo,Standerton,PietRetief,Volksrust,Newcastle,Ladysmith,Kokstad,Queenstown,Grahamstown,Worcester,Paarl,Stellenbosch,Swellendam,George,Oudtshoorn,Riversdale,Caledon,London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Kralendijk,SanSebastian,Utuado,VegaAlta,Yauco,Ciales,Luquillo,Cockburn,Quebradillas,Cayey,Comerio,SabanaGrande,Naguabo,Plymouth,Barceloneta,Akenland,Abugburg,Aunburg,Alerburg,Apemburg,Amoside,Aaland,Aisburg,Afanburg,Akinland,Alorside,Alosburg,Alegland,Amolland,Apomside,PretoriaSothotown,PretoriaSothoville,PretoriaSothoburg,PretoriaSothoview,PretoriaSothoside,SanLorenzo,Yabucoa,Kingstown,VegaBaja,Aguadilla,Rincon,Arroyo,Maunabo,Guaynabo,Ponce,Adjuntas,Isabela,Loiza,Airport,Apowood,Aakwood,Apigport,Alotview,Amanwood,Adodwood,Anirwood,Amisport,Apomview,Akabwood,Ariport,Aabview,Aneview,Anikport,OorlamsCreoletown,OorlamsCreoleville,OorlamsCreoleburg,OorlamsCreoleview,OorlamsCreoleside"
+  "b": "Pretoria,Johannesburg,CapeTown,Durban,Bloemfontein,PortElizabeth,EastLondon,Kimberley,Pietermaritzburg,Nelspruit,Mafikeng,Polokwane,Thohoyandou,Lebowakgomo,Middelburg,Witbank,Bethal,Ermelo,Standerton,PietRetief,Volksrust,Newcastle,Ladysmith,Kokstad,Queenstown,Grahamstown,Worcester,Paarl,Stellenbosch,Swellendam,George,Oudtshoorn,Riversdale,Caledon,London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Kralendijk,SanSebastian,Utuado,VegaAlta,Yauco,Ciales,Luquillo,Cockburn,Quebradillas,Cayey,Comerio,SabanaGrande,Naguabo,Plymouth,Barceloneta,Akenland,Abugburg,Aunburg,Alerburg,Apemburg,Amoside,Aaland,Aisburg,Afanburg,Akinland,Alorside,Alosburg,Alegland,Amolland,Apomside,PretoriaSothotown,PretoriaSothoville,PretoriaSothoburg,PretoriaSothoview,PretoriaSothoside,SanLorenzo,Yabucoa,Kingstown,VegaBaja,Aguadilla,Rincon,Arroyo,Maunabo,Guaynabo,Ponce,Adjuntas,Isabela,Loiza,Airport,Apowood,Aakwood,Apigport,Alotview,Amanwood,Adodwood,Anirwood,Amisport,Apomview,Akabwood,Ariport,Aabview,Aneview,Anikport,OorlamsCreoletown,OorlamsCreoleville,OorlamsCreoleburg,OorlamsCreoleview,OorlamsCreoleside,Oorlams,Afrikaans,Khoi,IJssel,Fishhoek,Hantam,Karoo,Samoa,Korana,Kleinsee,Soebatsfontein"
 },
 {
     "name": "Palenquero",
@@ -388,7 +388,7 @@ window.unknownNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Cartagena,Barranquilla,SantaMarta,Valledupar,Sincelejo,Monteria,Cucuta,Bucaramanga,Bogota,Medellin,Cali,Pasto,Popayan,Ipiales,Tumaco,Quibdo,Turbo,Apartado,Chigorodo,SanAntero,Lorica,Tolu,Covenas,ElCarmen,Ovejas,Zambrano,Plato,Maganque,Chimichagua,Curumani,Riohacha,Maicao,Uribia,London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Maunabo,Guaynabo,Ponce,Adjuntas,Isabela,Loiza,Coamo,Patillas,Carolina,Philipsburg,Lares,ToaBaja,Pefiuelas,Villalba,RioGrande,Alibland,Afakburg,Alulside,Amemburg,Adikland,Anemland,Amidburg,Akobland,Afutland,Akakburg,Abekland,Afomburg,Afusside,Aagland,Anesland,Palenquerotown,Palenqueroville,Palenqueroburg,Palenqueroview,Palenqueroside"
+  "b": "Cartagena,Barranquilla,SantaMarta,Valledupar,Sincelejo,Monteria,Cucuta,Bucaramanga,Medellin,Cali,Pasto,Popayan,Ipiales,Tumaco,Quibdo,Turbo,Apartado,Chigorodo,SanAntero,Lorica,Tolu,Covenas,ElCarmen,Ovejas,Zambrano,Plato,Maganque,Chimichagua,Curumani,Riohacha,Maicao,Uribia,London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Maunabo,Guaynabo,Ponce,Adjuntas,Isabela,Loiza,Coamo,Patillas,Carolina,Philipsburg,Lares,ToaBaja,Pefiuelas,Villalba,RioGrande,Alibland,Afakburg,Alulside,Amemburg,Adikland,Anemland,Amidburg,Akobland,Afutland,Akakburg,Abekland,Afomburg,Afusside,Aagland,Anesland,Palenquerotown,Palenqueroville,Palenqueroburg,Palenqueroview,Palenqueroside"
 },
 {
     "name": "Papua New Guinea Pidgin",
@@ -406,7 +406,7 @@ window.unknownNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "PortMoresby,Lae,Madang,Wewak,Vanimo,Kavieng,Rabaul,Kimbe,Goroka,MtHagen,Kundiawa,Mendi,Tari,Popondetta,Alotau,Daru,Kiunga,Tabubil,Buka,Arawa,Kieta,Lorengau,Kokopo,Namatanai,Kandrian,Finschhafen,Salamaua,Bulolo,Wau,Menyamya,Okapa,Kainantu,London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Yabucoa,Kingstown,VegaBaja,Aguadilla,Ciales,Rincon,Naguabo,Arroyo,Maunabo,Guaynabo,Ponce,Adjuntas,Isabela,Loiza,Coamo,Akebtown,Akilford,Aparland,Akemtown,Afitford,Alogtown,Aegtown,Alastown,Apikford,Apektown,Afisford,Apurtown,Alattown,Abimford,Aetland,Mekeopidginstown,Mekeopidginsville,Mekeopidginsburg,Mekeopidginsview,Mekeopidginsside,Washington,Los Angeles,Chicago,Houston,Phoenix,Naranjito,Lajas,Morovis,Ceiba,Gustavia,Arecibo,Caguas,Aibonito,CaboRojo,Gurabo,Humacao,StGeorges,VegaAlta,Fajardo,Aartown,Alubside,Anenside,Akugtown,Aroside,Apabside,Apertown,Autside,Afortown,Akosside,Amobburg,Afaside,Anettown,Abiktown,Ariside,PapuanPidginEnglishtown,PapuanPidginEnglishville,PapuanPidginEnglishburg,PapuanPidginEnglishview,PapuanPidginEnglishside"
+  "b": "PortMoresby,Lae,Madang,Wewak,Vanimo,Kavieng,Rabaul,Kimbe,Goroka,MtHagen,Kundiawa,Mendi,Tari,Popondetta,Alotau,Daru,Kiunga,Tabubil,Buka,Arawa,Kieta,Lorengau,Kokopo,Namatanai,Kandrian,Finschhafen,Salamaua,Bulolo,Wau,Menyamya,Okapa,Kainantu,London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Yabucoa,Kingstown,VegaBaja,Aguadilla,Ciales,Rincon,Naguabo,Arroyo,Maunabo,Guaynabo,Ponce,Adjuntas,Isabela,Loiza,Coamo,Akebtown,Akilford,Aparland,Akemtown,Afitford,Alogtown,Aegtown,Alastown,Apikford,Apektown,Afisford,Apurtown,Alattown,Abimford,Aetland,Mekeopidginstown,Mekeopidginsville,Mekeopidginsburg,Mekeopidginsview,Mekeopidginsside,Washington,Los Angeles,Chicago,Houston,Phoenix,Naranjito,Lajas,Morovis,Ceiba,Gustavia,Arecibo,Caguas,Aibonito,CaboRojo,Gurabo,Humacao,StGeorges,VegaAlta,Fajardo,Aartown,Alubside,Anenside,Akugtown,Aroside,Apabside,Apertown,Autside,Afortown,Akosside,Amobburg,Afaside,Anettown,Abiktown,Ariside,PapuanPidginEnglishtown,PapuanPidginEnglishville,PapuanPidginEnglishburg,PapuanPidginEnglishview,PapuanPidginEnglishside,PapuanPidgin,TokPisin,Pisin,Wantok,Sios,Saint,Morobe,Ward,Lotu,Buluminsky,Papuan"
 },
 {
     "name": "Petjo",
@@ -415,7 +415,7 @@ window.unknownNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Jakarta,Surabaya,Bandung,Semarang,Yogyakarta,Solo,Malang,Denpasar,Kupang,Medan,Palembang,Pontianak,Banjarmasin,Makassar,Manado,Padang,Pekanbaru,Jambi,Bengkulu,Lampung,Cilegon,Bogor,Depok,Tangerang,Bekasi,Tasikmalaya,Cirebon,Pekalongan,Tegal,Magelang,Madiun,London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Adjuntas,ToaBaja,Pefiuelas,Villalba,RioGrande,FlyingFish,Aguada,Coamo,Naranjito,Lajas,Morovis,Ceiba,Gustavia,Arecibo,Caguas,Aagville,Aenbridge,Adelwood,Akukwood,Afenbridge,Apebville,Akembridge,Alotville,Afebridge,Aarville,Anilwood,Afabwood,Aletwood,Anudville,Adelbridge,Javindotown,Javindoville,Javindoburg,Javindoview,Javindoside,CaboRojo,Gurabo,Humacao,StGeorges,VegaAlta,Fajardo,Anasco,Piedras,Patillas,Guayama,Cataño,Mayaguez,Utuado,Moca,Amugview,Afokview,Apasbridge,Aomview,Akigview,Akumbridge,Alanville,Alukbridge,Aogbridge,Alumview,Anebview,Alirview,Apubview,Amibbridge,Abonview,Petjotown,Petjoville,Petjoburg,Petjoview,Petjoside"
+  "b": "Jakarta,Surabaya,Bandung,Semarang,Yogyakarta,Solo,Malang,Denpasar,Kupang,Medan,Palembang,Pontianak,Banjarmasin,Makassar,Manado,Padang,Pekanbaru,Jambi,Bengkulu,Lampung,Cilegon,Bogor,Depok,Tangerang,Bekasi,Tasikmalaya,Cirebon,Pekalongan,Tegal,Magelang,Madiun,London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Adjuntas,ToaBaja,Pefiuelas,Villalba,RioGrande,FlyingFish,Aguada,Coamo,Naranjito,Lajas,Morovis,Ceiba,Gustavia,Arecibo,Caguas,Aagville,Aenbridge,Adelwood,Akukwood,Afenbridge,Apebville,Akembridge,Alotville,Afebridge,Aarville,Anilwood,Afabwood,Aletwood,Anudville,Adelbridge,Javindotown,Javindoville,Javindoburg,Javindoview,Javindoside,CaboRojo,Gurabo,Humacao,StGeorges,VegaAlta,Fajardo,Anasco,Piedras,Patillas,Guayama,Cataño,Mayaguez,Utuado,Moca,Amugview,Afokview,Apasbridge,Aomview,Akigview,Akumbridge,Alanville,Alukbridge,Aogbridge,Alumview,Anebview,Alirview,Apubview,Amibbridge,Abonview,Petjotown,Petjoville,Petjoburg,Petjoview,Petjoside,Petjo,Petojo,Betawi,DutchCreole,Gado,Tugu,Kelapa,Dermaga,Pasar,Senen,Gambir"
 },
 {
     "name": "Pidgin Hawaiian",
@@ -451,7 +451,7 @@ window.unknownNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "PortMoresby,Lae,Madang,Wewak,Vanimo,Kavieng,Rabaul,Kimbe,Goroka,MtHagen,Kundiawa,Mendi,Tari,Popondetta,Alotau,Daru,Kiunga,Tabubil,Buka,Arawa,Kieta,Lorengau,Kokopo,Namatanai,Kandrian,Finschhafen,Salamaua,Bulolo,Wau,Menyamya,Okapa,Kainantu,London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Dorado,Arecibo,Jayuya,Aguada,Ceiba,Guayama,Arroyo,Bayamon,SanJuan,Maricao,SanSebastian,RioGrande,Santalsabel,SantaIsabel,Canovanas,Alorwood,Akadport,Amasview,Aferwood,Anadport,Akulwood,Apugview,Apunwood,Apabport,Aforview,Akodwood,Afimview,Alinview,Abotwood,Apaport,DuvleWanoPidgintown,DuvleWanoPidginville,DuvleWanoPidginburg,DuvleWanoPidginview,DuvleWanoPidginside,Cidra,SanGerman,AguasBuenas,LasPiedras,Brades,Manati,Humacao,Orocovis,Mayaguez,Juncos,Maunabo,Castries,Apusport,Afubbridge,Amatbridge,Akomport,Apinbridge,Adotport,Amugport,Afanbridge,Adisport,Apudport,Aebport,Apenbridge,Apurbridge,Adebbridge,Akotbridge,PidginOnintown,PidginOninville,PidginOninburg,PidginOninview,PidginOninside"
+  "b": "PortMoresby,Lae,Madang,Wewak,Vanimo,Kavieng,Rabaul,Kimbe,Goroka,MtHagen,Kundiawa,Mendi,Tari,Popondetta,Alotau,Daru,Kiunga,Tabubil,Buka,Arawa,Kieta,Lorengau,Kokopo,Namatanai,Kandrian,Finschhafen,Salamaua,Bulolo,Wau,Menyamya,Okapa,Kainantu,London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Dorado,Arecibo,Jayuya,Aguada,Ceiba,Guayama,Arroyo,Bayamon,SanJuan,Maricao,SanSebastian,RioGrande,Santalsabel,SantaIsabel,Canovanas,Alorwood,Akadport,Amasview,Aferwood,Anadport,Akulwood,Apugview,Apunwood,Apabport,Aforview,Akodwood,Afimview,Alinview,Abotwood,Apaport,DuvleWanoPidgintown,DuvleWanoPidginville,DuvleWanoPidginburg,DuvleWanoPidginview,DuvleWanoPidginside,Cidra,SanGerman,AguasBuenas,LasPiedras,Brades,Manati,Humacao,Orocovis,Mayaguez,Juncos,Maunabo,Castries,Apusport,Afubbridge,Amatbridge,Akomport,Apinbridge,Adotport,Amugport,Afanbridge,Adisport,Apudport,Aebport,Apenbridge,Apurbridge,Adebbridge,Akotbridge,PidginOnintown,PidginOninville,PidginOninburg,PidginOninview,PidginOninside,Onin,OninPidgin,Rumbati,Patin,Fakfak,Kokas,Babo,Kaimana,Kambuaya,Tembuni,Arguni"
 },
 {
     "name": "Pidgin Wolof",
@@ -478,7 +478,7 @@ window.unknownNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Pretoria,Johannesburg,CapeTown,Durban,Bloemfontein,PortElizabeth,EastLondon,Kimberley,Pietermaritzburg,Nelspruit,Mafikeng,Polokwane,Thohoyandou,Lebowakgomo,Middelburg,Witbank,Bethal,Ermelo,Standerton,PietRetief,Volksrust,Newcastle,Ladysmith,Kokstad,Queenstown,Grahamstown,Worcester,Paarl,Stellenbosch,Swellendam,George,Oudtshoorn,Riversdale,Caledon,London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,SanLorenzo,Yabucoa,Kingstown,VegaBaja,Aguadilla,Ciales,Rincon,Naguabo,Arroyo,Maunabo,Guaynabo,Ponce,Adjuntas,Isabela,Loiza,Airport,Apowood,Aakwood,Apigport,Alotview,Amanwood,Adodwood,Anirwood,Amisport,Apomview,Akabwood,Ariport,Aabview,Aneview,Anikport,OorlamsCreoletown,OorlamsCreoleville,OorlamsCreoleburg,OorlamsCreoleview,OorlamsCreoleside,Kralendijk,SanSebastian,Utuado,VegaAlta,Yauco,Luquillo,Cockburn,Quebradillas,Cayey,Comerio,SabanaGrande,Plymouth,Barceloneta,Akenland,Abugburg,Aunburg,Alerburg,Apemburg,Amoside,Aaland,Aisburg,Afanburg,Akinland,Alorside,Alosburg,Alegland,Amolland,Apomside,PretoriaSothotown,PretoriaSothoville,PretoriaSothoburg,PretoriaSothoview,PretoriaSothoside"
+  "b": "Pretoria,Johannesburg,CapeTown,Durban,Bloemfontein,PortElizabeth,EastLondon,Kimberley,Pietermaritzburg,Nelspruit,Mafikeng,Polokwane,Thohoyandou,Lebowakgomo,Middelburg,Witbank,Bethal,Ermelo,Standerton,PietRetief,Volksrust,Newcastle,Ladysmith,Kokstad,Queenstown,Grahamstown,Worcester,Paarl,Stellenbosch,Swellendam,George,Oudtshoorn,Riversdale,Caledon,London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,SanLorenzo,Yabucoa,Kingstown,VegaBaja,Aguadilla,Ciales,Rincon,Naguabo,Arroyo,Maunabo,Guaynabo,Ponce,Adjuntas,Isabela,Loiza,Airport,Apowood,Aakwood,Apigport,Alotview,Amanwood,Adodwood,Anirwood,Amisport,Apomview,Akabwood,Ariport,Aabview,Aneview,Anikport,OorlamsCreoletown,OorlamsCreoleville,OorlamsCreoleburg,OorlamsCreoleview,OorlamsCreoleside,Kralendijk,SanSebastian,Utuado,VegaAlta,Yauco,Luquillo,Cockburn,Quebradillas,Cayey,Comerio,SabanaGrande,Plymouth,Barceloneta,Akenland,Abugburg,Aunburg,Alerburg,Apemburg,Amoside,Aaland,Aisburg,Afanburg,Akinland,Alorside,Alosburg,Alegland,Amolland,Apomside,PretoriaSothotown,PretoriaSothoville,PretoriaSothoburg,PretoriaSothoview,PretoriaSothoside,PretoriaSotho,Sotho,Pedi,Seso,Gauteng,Mamelodi,Fountains,Voortrekker,Magalies,Apies"
 },
 {
     "name": "Qoqmoncaq",
@@ -523,7 +523,7 @@ window.unknownNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Apia,Salelologa,Asau,Safotu,Faleula,Siumu,Poutasi,Lotofaga,Papeete,Faaa,Punaauia,Pirae,Arue,Mahina,Taiarapu,TevaIuta,Paea,Papara,NukuAlofa,Neiafu,Pangai,Havelu,Vaitupu,MataUtu,Leava,Vele,Alofi,Hakupu,Lakepa,Mutalau,Niue,Avarua,Arutanga,Amuri,Atiu,London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Aguada,Coamo,Naranjito,Lajas,Morovis,Ceiba,Gustavia,Arecibo,Caguas,Aibonito,CaboRojo,Gurabo,Humacao,StGeorges,VegaAlta,Aluswood,Afikbridge,Aduville,Aadville,Alonville,Aenville,Afemwood,Anidbridge,Aogville,Adomwood,Anedville,Afibridge,Aparville,Alitwood,Amedwood,SamoanPlantationPidgintown,SamoanPlantationPidginville,SamoanPlantationPidginburg,SamoanPlantationPidginview,SamoanPlantationPidginside"
+  "b": "Apia,Salelologa,Asau,Safotu,Faleula,Siumu,Poutasi,Lotofaga,Papeete,Faaa,Punaauia,Pirae,Arue,Mahina,Taiarapu,TevaIuta,Paea,Papara,NukuAlofa,Pangai,Havelu,Vaitupu,MataUtu,Leava,Vele,Alofi,Hakupu,Lakepa,Mutalau,Niue,Avarua,Arutanga,Amuri,Atiu,London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Aguada,Coamo,Naranjito,Lajas,Morovis,Ceiba,Gustavia,Arecibo,Caguas,Aibonito,CaboRojo,Gurabo,Humacao,StGeorges,VegaAlta,Aluswood,Afikbridge,Aduville,Aadville,Alonville,Aenville,Afemwood,Anidbridge,Aogville,Adomwood,Anedville,Afibridge,Aparville,Alitwood,Amedwood,SamoanPlantationPidgintown,SamoanPlantationPidginville,SamoanPlantationPidginburg,SamoanPlantationPidginview,SamoanPlantationPidginside"
 },
 {
     "name": "Settler Swahili",
@@ -577,7 +577,7 @@ window.unknownNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Honiara,Gizo,Munda,Noro,Auki,Buala,Kirakira,Lata,Tulagi,Marau,Taro,Faisi,Seghe,Viru,Rendova,Pavuvu,Mbambanakira,Kolombangara,Shortlands,Choiseul,VellaLavella,Guadalcanal,Malaita,Ulawa,Temotu,SantaCruz,Vangunu,Simbo,Ranongga,Roviana,Marovo,Tetepare,Uepi,Gatokae,Nggatokae,London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Mayaguez,Juncos,Maunabo,Castries,Dorado,Arecibo,Jayuya,Aguada,Ceiba,Guayama,Arroyo,Bayamon,SanJuan,Maricao,SanSebastian,Abemville,Apuview,Afimville,Amasport,Alerport,Aladville,Aubport,Akidport,Apudville,Anolport,Anobville,Afunview,Adigville,Alukport,Afedport,SolomonIslandsPijintown,SolomonIslandsPijinville,SolomonIslandsPijinburg,SolomonIslandsPijinview,SolomonIslandsPijinside"
+  "b": "Honiara,Gizo,Munda,Noro,Auki,Lata,Tulagi,Marau,Taro,Faisi,Seghe,Viru,Rendova,Pavuvu,Mbambanakira,Kolombangara,Shortlands,Choiseul,VellaLavella,Guadalcanal,Malaita,Ulawa,Temotu,SantaCruz,Vangunu,Simbo,Ranongga,Roviana,Marovo,Tetepare,Uepi,Gatokae,Nggatokae,London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Mayaguez,Juncos,Maunabo,Castries,Dorado,Arecibo,Jayuya,Aguada,Ceiba,Guayama,Arroyo,Bayamon,SanJuan,Maricao,SanSebastian,Abemville,Apuview,Afimville,Amasport,Alerport,Aladville,Aubport,Akidport,Apudville,Anolport,Anobville,Afunview,Adigville,Alukport,Afedport,SolomonIslandsPijintown,SolomonIslandsPijinville,SolomonIslandsPijinburg,SolomonIslandsPijinview,SolomonIslandsPijinside"
 },
 {
     "name": "Taimyr Pidgin Russian",
@@ -685,7 +685,7 @@ window.unknownNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Namhsan,Mantong,Kyaukme,Hsipaw,Lashio,Muse,Laukkaing,Taunggyi,Kengtung,Mongmit,Kunlong,Hsenwi,Mongmao,Hopang,LangSon,BuDop,ThaPlatak,PhanThiet,NhaBe,AoLuang,CauKe,ThanhBinh,Huaping,PhuThien,ChoLach,Puer,Pleiku,ChiangSaen,ThongMySai,Palaungpur,Palaungnagar,Palaungbad,Palaungkot,Palaungwada,Palaungghat,Palaungpalli,Palaungkonda,Palaungpeta,Palaunguru,Palaunguri,Palaungooru,Palaunggiri,NagarPalaung,Palaungbari,Palaungganj,Palaungbazar,Palaungbandar,Palaunggram,PalliPalaung"
+    "b": "Namhsan,Mantong,Kyaukme,Hsipaw,Lashio,Muse,Laukkaing,Taunggyi,Kengtung,Mongmit,Kunlong,Hsenwi,Mongmao,Hopang,LangSon,BuDop,ThaPlatak,PhanThiet,NhaBe,AoLuang,CauKe,ThanhBinh,Huaping,PhuThien,ChoLach,Puer,Pleiku,ChiangSaen,ThongMySai,Palaungpur,Palaungnagar,Palaungbad,Palaungkot,Palaungwada,Palaungghat,Palaungpalli,Palaungkonda,Palaungpeta,Palaungooru,Palaunggiri,NagarPalaung,Palaungbari,Palaungganj,Palaungbazar,Palaungbandar,Palaunggram,PalliPalaung"
   },
   {
     "name": "Buwal",
@@ -694,7 +694,7 @@ window.unknownNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Mokolo,Mora,Koza,Meri,Bourrha,Kalfou,Limani,Kolofata,Tokombere,Kerawa,Ziver,Hitawa,Buwal,Gadala,Bourha,Maroua,Gazawa,Fotokol,Chucuito,Oruro,Patacamaya,Charana,Yanaoca,Quillabamba,RioTamboSantaMaria,Ambo,Celendin,Cajatambo,Chuquibambilla,Yauri,Llalli,Cabanillas,Juli,Aenpa,Abempa,Aepa,Aledpa,Aekpa,Adelpa,Abespa,Apempa,Afetpa,Alegpa,Akelpa,Alekpa,Afepa,Anetpa,Aegpa,Tacanago,Tacanagu,Tacanacu,Tacanazu,Tacanala"
+    "b": "Mokolo,Mora,Koza,Meri,Bourrha,Kalfou,Limani,Kolofata,Tokombere,Kerawa,Ziver,Hitawa,Buwal,Gadala,Bourha,Maroua,Gazawa,Fotokol,Chucuito,Oruro,Patacamaya,Charana,Yanaoca,Quillabamba,RioTamboSantaMaria,Ambo,Celendin,Cajatambo,Chuquibambilla,Yauri,Llalli,Cabanillas,Juli,Aenpa,Abempa,Aepa,Aledpa,Aekpa,Adelpa,Abespa,Apempa,Afetpa,Alegpa,Akelpa,Alekpa,Afepa,Anetpa,Aegpa,Tacanacu,Tacanazu,Tacanala"
   },
   {
     "name": "Cakfem-Mushere",
@@ -703,7 +703,7 @@ window.unknownNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Pankshin,Mangu,Bokkos,Kanke,Barkin Ladi,Riyom,Shendam,Langtang,Wase,Panyam,Kanam,Dengi,Huarina,SantiagoDeMachaca,Sicuani,Urubamba,Shimaa,CodoDelPozuzo,Jaen,Huaura,Antabamba,Pichigua,Ayaviri,Conima,Pichacani,Poopo,Laja,Wiwago,Wiwagu,Wiwacu,Wiwazu,Wiwala,Wiwana,Wiwama,Wiwapa,Wiwara,Wiwasa,Wiwata,Wiwaca,Wiwaba,Wiwada,Wiwafa,Wiwaga,Wiwaha,Wiwaja,Wiwaka,Wiwalla"
+    "b": "Pankshin,Mangu,Bokkos,Kanke,Barkin Ladi,Riyom,Shendam,Langtang,Wase,Panyam,Kanam,Dengi,Huarina,SantiagoDeMachaca,Sicuani,Urubamba,Shimaa,CodoDelPozuzo,Jaen,Huaura,Antabamba,Pichigua,Ayaviri,Conima,Pichacani,Poopo,Laja,Wiwazu,Wiwala,Wiwana,Wiwama,Wiwapa,Wiwara,Wiwasa,Wiwata,Wiwaba,Wiwada,Wiwafa,Wiwaha,Wiwaja,Wiwaka,Wiwalla"
   },
   {
     "name": "Yaeyama",
@@ -712,7 +712,7 @@ window.unknownNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Ishigaki,Taketomi,Iriomote,Kohama,Hateruma,Hatoma,Kuroshima,Aragusuku,Yubujima,Shiraho,Kabira,Ohama,Miyara,Yonehara,Fusaki,Hirae,Ibaruma,Oohama,ChuSe,CaiBe,Udomxai,DonDuong,Santikhiri,PakMong,PhuocAn,Pua,CaMau,ThuDauMot,Srinagarindra,ChauDoc,TanTru,Shidian,DongHa,Yaeyamapur,Yaeyamanagar,Yaeyamabad,Yaeyamakot,Yaeyamawada,Yaeyamaghat,Yaeyamapalli,Yaeyamakonda,Yaeyamapeta,Yaeyamauru,Yaeyamauri,Yaeyamaooru,Yaeyamagiri,NagarYaeyama,Yaeyamabari,Yaeyamaganj,Yaeyamabazar,Yaeyamabandar,Yaeyamagram,PalliYaeyama"
+    "b": "Ishigaki,Taketomi,Iriomote,Kohama,Hateruma,Hatoma,Kuroshima,Aragusuku,Yubujima,Shiraho,Kabira,Ohama,Miyara,Yonehara,Fusaki,Hirae,Ibaruma,Oohama,ChuSe,CaiBe,Udomxai,DonDuong,Santikhiri,PakMong,PhuocAn,Pua,CaMau,ThuDauMot,Srinagarindra,ChauDoc,TanTru,Shidian,DongHa,Yaeyamapur,Yaeyamanagar,Yaeyamabad,Yaeyamakot,Yaeyamawada,Yaeyamaghat,Yaeyamapalli,Yaeyamakonda,Yaeyamapeta,Yaeyamaooru,Yaeyamagiri,NagarYaeyama,Yaeyamabari,Yaeyamaganj,Yaeyamabazar,Yaeyamabandar,Yaeyamagram,PalliYaeyama"
   },
   {
     "name": "Yonaguni",
@@ -748,7 +748,7 @@ window.unknownNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Tokyo,Yokohama,Kanagawa,Negishi,Honmoku,Yamate,Naka,Kawasaki,Sagamihara,Fujisawa,Odawara,Chigasaki,Kamakura,Hiratsuka,Yokosuka,Zushi,Miura,Hayama,Oiso,Isehara,Atsugi,Yamato,Ebina,Minamiashigara,Hadano,Shonan,Motomachi,Sakuragicho,Minato Mirai,Shinagawa,Ofuna"
+    "b": "Tokyo,Yokohama,Kanagawa,Negishi,Honmoku,Naka,Kawasaki,Sagamihara,Fujisawa,Odawara,Chigasaki,Kamakura,Hiratsuka,Yokosuka,Zushi,Miura,Hayama,Oiso,Isehara,Atsugi,Ebina,Minamiashigara,Hadano,Shonan,Motomachi,Sakuragicho,Minato Mirai,Shinagawa,Ofuna"
   },
   {
     "name": "Adeni Arabic",
@@ -856,7 +856,7 @@ window.unknownNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Wadomari,China,Kunigami,Inoha,Serikaku,Nishime,Shinjo,Yashichi,Kamisato,Shoryu,Izena,Okinoerabu,BinhLong,PongPrasat,DongXoai,DucHue,Yongchang,ViThanh,SaDec,ShangriLa,DongXuan,GoCongDong,Mohan,DaiLinh,Phayao,ViengPhoukha,TrangBom,Okinoerabupur,Okinoerabunagar,Okinoerabubad,Okinoerabukot,Okinoerabuwada,Okinoerabughat,Okinoerabupalli,Okinoerabukonda,Okinoerabupeta,Okinoerabuuru,Okinoerabuuri,Okinoerabuooru,Okinoerabugiri,NagarOkinoerabu,Okinoerabubari,Okinoerabuganj,Okinoerabubazar,Okinoerabubandar,Okinoerabugram,PalliOkinoerabu"
+    "b": "Wadomari,China,Kunigami,Inoha,Serikaku,Nishime,Shinjo,Yashichi,Kamisato,Shoryu,Izena,Okinoerabu,BinhLong,PongPrasat,DongXoai,DucHue,Yongchang,ViThanh,SaDec,ShangriLa,DongXuan,GoCongDong,Mohan,DaiLinh,Phayao,ViengPhoukha,TrangBom,Okinoerabupur,Okinoerabunagar,Okinoerabubad,Okinoerabukot,Okinoerabuwada,Okinoerabughat,Okinoerabupalli,Okinoerabukonda,Okinoerabupeta,Okinoerabuooru,Okinoerabugiri,NagarOkinoerabu,Okinoerabubari,Okinoerabuganj,Okinoerabubazar,Okinoerabubandar,Okinoerabugram,PalliOkinoerabu"
   },
   {
     "name": "Tokunoshima",
@@ -1018,7 +1018,7 @@ window.unknownNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Okinawa,Naha,Shuri,Amami,Miyako,Yaeyama,Yonaguni,Tokunoshima,Okinoerabu,Kikai,Kunigami,Ishigaki,Nago,Itoman,Urasoe,Ginowan,Chatan,Uruma,Nakijin,Motobu,Ryukyu,Phonsavan,Dran,ChaiPrakarn,LaiChau,BauBang,Sangkha,BenTre,BenCat,KoKha,CaiBe,TanChau,Eryuan,Pleiku,Cangyuan,IaGrai,Ryukyuanpur,Ryukyuannagar,Ryukyuanbad,Ryukyuankot,Ryukyuanwada,Ryukyuanghat,Ryukyuanpalli,Ryukyuankonda,Ryukyuanpeta,Ryukyuanuru,Ryukyuanuri,Ryukyuanooru,Ryukyuangiri,NagarRyukyuan,Ryukyuanbari,Ryukyuanganj,Ryukyuanbazar,Ryukyuanbandar,Ryukyuangram,PalliRyukyuan"
+    "b": "Okinawa,Naha,Shuri,Amami,Miyako,Yaeyama,Yonaguni,Tokunoshima,Okinoerabu,Kikai,Kunigami,Ishigaki,Nago,Itoman,Urasoe,Ginowan,Chatan,Uruma,Nakijin,Motobu,Ryukyu,Phonsavan,Dran,ChaiPrakarn,LaiChau,BauBang,Sangkha,BenTre,BenCat,KoKha,CaiBe,TanChau,Eryuan,Pleiku,Cangyuan,IaGrai,Ryukyuanpur,Ryukyuannagar,Ryukyuanbad,Ryukyuankot,Ryukyuanwada,Ryukyuanghat,Ryukyuanpalli,Ryukyuankonda,Ryukyuanpeta,Ryukyuanooru,Ryukyuangiri,NagarRyukyuan,Ryukyuanbari,Ryukyuanganj,Ryukyuanbazar,Ryukyuanbandar,Ryukyuangram,PalliRyukyuan"
   },
   {
     "name": "Egyptian Arabic",
@@ -1063,7 +1063,7 @@ window.unknownNameBases = [
     "max": 11,
     "d": "es-ES",
     "m": 0,
-    "b": "Barbastro,MonzÃ³n,BinÃ©far,Graus,Tamarite de Litera,AlquÃ©zar,Abizanda,Adahuesca,Albalate de Cinca,Alberuela de Tubo,Alcampell,Alcolea de Cinca,Abancay,BajoPichigua,Ocuviri,Moho,Acora,Toledo,SicaSica,Comanche,Tinta,Echarate,Tsanquiato,Huanuco,Cajamarca,Oyon,Espinar,Amarcu,Alibgo,Amulcu,Apibgo,Afucu,Aladcu,Alimgo,Anitcu,Adatcu,Apiggo,Anumcu,Apomcu,Akedcu,Aoncu,Adiggo,Tsimango,Tsimangu,Tsimancu,Tsimanzu,Tsimanla"
+    "b": "Barbastro,MonzÃ³n,BinÃ©far,Graus,Tamarite de Litera,AlquÃ©zar,Abizanda,Adahuesca,Albalate de Cinca,Alberuela de Tubo,Alcampell,Alcolea de Cinca,Abancay,BajoPichigua,Ocuviri,Moho,Acora,Toledo,SicaSica,Comanche,Tinta,Echarate,Tsanquiato,Huanuco,Cajamarca,Oyon,Espinar,Amarcu,Alibgo,Amulcu,Apibgo,Afucu,Aladcu,Alimgo,Anitcu,Adatcu,Apiggo,Anumcu,Apomcu,Akedcu,Aoncu,Adiggo,Tsimancu,Tsimanzu,Tsimanla"
   },
   {
     "name": "Venezuelan Spanish",
@@ -1081,7 +1081,7 @@ window.unknownNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "PuertoGaitan,PuertoCarreno,Inirida,Mitu,SanJoseDelGuaviare,Villavicencio,Yopal,Arauca,Leticia,Florencia,Mocoa,Popayan,Puerto GaitÃ¡n,Puerto CarreÃ±o,InÃ­rida,MitÃº,San JosÃ© del Guaviare,PopayÃ¡n,Contumaza,SantiagoDeMachaca,Vilavila,Tocache,Tisco,Chincha,Bagua,Huanuco,CodoDelPozuzo,Bambamarca,Coracora,Cabana,Guarachi,Livitaca,Celendin,Abetzu,Aoggu,Abarzu,Aputzu,Afoggu,Ainzu,Akikzu,Akodgu,Amumzu,Anarzu,Afosgu,Abezu,Apolzu,Aorgu,Adobzu,Achaguago,Achaguagu,Achaguacu,Achaguazu,Achaguala"
+    "b": "PuertoGaitan,PuertoCarreno,Inirida,Mitu,SanJoseDelGuaviare,Villavicencio,Yopal,Arauca,Leticia,Florencia,Mocoa,Popayan,Puerto GaitÃ¡n,Puerto CarreÃ±o,InÃ­rida,MitÃº,San JosÃ© del Guaviare,PopayÃ¡n,Contumaza,SantiagoDeMachaca,Vilavila,Tocache,Tisco,Chincha,Bagua,Huanuco,CodoDelPozuzo,Bambamarca,Coracora,Cabana,Guarachi,Livitaca,Celendin,Abetzu,Aoggu,Abarzu,Aputzu,Afoggu,Ainzu,Akikzu,Akodgu,Amumzu,Anarzu,Afosgu,Abezu,Apolzu,Aorgu,Adobzu,Achaguacu,Achaguazu,Achaguala"
   },
   {
     "name": "Ahirani ",
@@ -1117,7 +1117,7 @@ window.unknownNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Sankhuwasabha,Khandbari,Chainpur,Num,Sabha,Madi,Tamku,Panchkhapan,Barmaga,Makalu,Tumlingtar,Hattisar,CanGio,TalokMuh,TieuCan,CaoLanh,Ninglang,SongCau,ChoGao,Jinghong,PhuNhon,ChiangKhlong,Sing,DinhQuan,Chun,MongCai,DongPhu,Mewahangpur,Mewahangnagar,Mewahangbad,Mewahangkot,Mewahangwada,Mewahangghat,Mewahangpalli,Mewahangkonda,Mewahangpeta,Mewahanguru,Mewahanguri,Mewahangooru,Mewahanggiri,NagarMewahang,Mewahangbari,Mewahangganj,Mewahangbazar,Mewahangbandar,Mewahanggram,PalliMewahang"
+    "b": "Sankhuwasabha,Khandbari,Chainpur,Num,Sabha,Madi,Tamku,Panchkhapan,Barmaga,Makalu,Tumlingtar,Hattisar,CanGio,TalokMuh,TieuCan,CaoLanh,Ninglang,SongCau,ChoGao,Jinghong,PhuNhon,ChiangKhlong,Sing,DinhQuan,Chun,MongCai,DongPhu,Mewahangpur,Mewahangnagar,Mewahangbad,Mewahangkot,Mewahangwada,Mewahangghat,Mewahangpalli,Mewahangkonda,Mewahangpeta,Mewahangooru,Mewahanggiri,NagarMewahang,Mewahangbari,Mewahangganj,Mewahangbazar,Mewahangbandar,Mewahanggram,PalliMewahang"
   },
   {
     "name": "Jerung (Jero) ",
@@ -1153,7 +1153,7 @@ window.unknownNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Sindhuli,Sindhulimadhi,Kamalamai,Mahadevsthan,Tinkanya,Kapilakasturi,Bahuntilpung,Jalkanya,Ranichauri,Bhimeshwor,Hetauda,Gorkha,GoCongTay,Mengla,ThuongDuc,Thoeng,MuangSai,XuanLoc,MaeCharim,TienYen,BinhLong,PongPrasat,DongXoai,DucHue,Yongchang,ViThanh,SaDec,Pumapur,Pumanagar,Pumabad,Pumakot,Pumawada,Pumaghat,Pumapalli,Pumakonda,Pumapeta,Pumauru,Pumauri,Pumaooru,Pumagiri,NagarPuma,Pumabari,Pumaganj,Pumabazar,Pumabandar,Pumagram,PalliPuma"
+    "b": "Sindhuli,Sindhulimadhi,Kamalamai,Mahadevsthan,Tinkanya,Kapilakasturi,Bahuntilpung,Jalkanya,Ranichauri,Bhimeshwor,Hetauda,Gorkha,GoCongTay,Mengla,ThuongDuc,Thoeng,MuangSai,XuanLoc,MaeCharim,TienYen,BinhLong,PongPrasat,DongXoai,DucHue,Yongchang,ViThanh,SaDec,Pumapur,Pumanagar,Pumabad,Pumakot,Pumawada,Pumaghat,Pumapalli,Pumakonda,Pumapeta,Pumaooru,Pumagiri,NagarPuma,Pumabari,Pumaganj,Pumabazar,Pumabandar,Pumagram,PalliPuma"
   },
   {
     "name": "Dungmali ",
@@ -1171,7 +1171,7 @@ window.unknownNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Ilam,Suryodaya,Panchthar,Phidim,Phungling,Yangwarak,Aathrai,Miklajung,Tumbewa,Prithvinagar,Amarpur,Jorpokhari,ThuanAn,PakLay,TanHiep,TanThanh,Changning,ALuoi,CangLong,Menglian,NgocHoi,TanPhuoc,XiengKhouang,Prem,Fang,SonLa,PhuGiao,Saampur,Saamnagar,Saambad,Saamkot,Saamwada,Saamghat,Saampalli,Saamkonda,Saampeta,Saamuru,Saamuri,Saamooru,Saamgiri,NagarSaam,Saambari,Saamganj,Saambazar,Saambandar,Saamgram,PalliSaam"
+    "b": "Ilam,Suryodaya,Panchthar,Phidim,Phungling,Yangwarak,Aathrai,Miklajung,Tumbewa,Prithvinagar,Amarpur,Jorpokhari,ThuanAn,PakLay,TanHiep,TanThanh,Changning,ALuoi,CangLong,Menglian,NgocHoi,TanPhuoc,XiengKhouang,Prem,Fang,SonLa,PhuGiao,Saampur,Saamnagar,Saambad,Saamkot,Saamwada,Saamghat,Saampalli,Saamkonda,Saampeta,Saamooru,Saamgiri,NagarSaam,Saambari,Saamganj,Saambazar,Saambandar,Saamgram,PalliSaam"
   },
   {
     "name": "Chantyal ",
@@ -1306,7 +1306,7 @@ window.unknownNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Kano,Katsina,Dutse,Hadejia,Ringim,Gumel,Bauchi,Jos,Maiduguri,Potiskum,Azare,Mubi,Yola,Numan,Jalingo,Gwarzo,Rano,TudunWada,Gaya,Albasu,Danbatta,Makoda,TingoMaria,Bambamarca,Yauyos,Tambobamba,Coporaque,Antauta,Nicasio,Pomata,Caracollo,Pucarani,Huarina,Taray,Palmapampa,Tambo,Bellavista,Afedcu,Amasgo,Apukgo,Adedgo,Afetcu,Apongo,Anisgo,Aencu,Abongo,Akecu,Alescu,Akango,Aatgo,Alemcu,Akubgo,Mineirogo,Mineirogu,Mineirocu,Mineirozu,Mineirola"
+    "b": "Kano,Katsina,Dutse,Hadejia,Ringim,Gumel,Bauchi,Jos,Maiduguri,Potiskum,Azare,Mubi,Yola,Numan,Jalingo,Gwarzo,Rano,TudunWada,Gaya,Albasu,Danbatta,Makoda,TingoMaria,Bambamarca,Yauyos,Tambobamba,Coporaque,Antauta,Nicasio,Pomata,Caracollo,Pucarani,Huarina,Taray,Palmapampa,Tambo,Bellavista,Afedcu,Amasgo,Apukgo,Adedgo,Afetcu,Apongo,Anisgo,Aencu,Abongo,Akecu,Alescu,Akango,Aatgo,Alemcu,Akubgo,Mineirocu,Mineirozu,Mineirola"
   },
   {
     "name": "Aramaic ",
@@ -1414,7 +1414,7 @@ window.unknownNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Bariji,Papua New Guinea,Kundiawa,Mendi,Murua,Ialibu,Porgera,Mount Hagen,Goroka,Wabag,Lae,Tokelau,Epi,Faleula,Fuaamotu,Amouli,Kitu,Amaua,Leulumoega,Lufilufi,Vaotu,Puapua,Senala,Lata,Taga,Aboua,Apato,Apuno,Aesua,Afuua,Amoko,Abide,Aneno,Akasua,Afaua,Adero,Adibe,Akolo,Amukua,Aedua,Barijia,Barijie,Barijii,Barijio,Barijiu,Luganville"
+    "b": "Bariji,Papua New Guinea,Kundiawa,Mendi,Murua,Ialibu,Porgera,Mount Hagen,Goroka,Wabag,Lae,Tokelau,Epi,Faleula,Fuaamotu,Amouli,Kitu,Amaua,Leulumoega,Lufilufi,Vaotu,Puapua,Senala,Lata,Taga,Aboua,Apato,Apuno,Aesua,Afuua,Amoko,Abide,Aneno,Akasua,Afaua,Adero,Adibe,Akolo,Amukua,Aedua,Luganville"
   },
   {
     "name": "Bhaya ",
@@ -1459,7 +1459,7 @@ window.unknownNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Gobasi,Western Province,Kiunga,Papua New Guinea,Fly River,Oceania,Coastal,Nui,Pavaiai,Asau,Norsup,Lauli,Kolofoou,Ofu,Kongo,Norfolk,Satupaitea,Ohonua,Nu'uuli,Makaunga,Leusoalii,Teafua,Abodi,Abisi,Afuoa,Alikoa,Auti,Anooa,Aloroa,Akubi,Ameti,Afumoa,Aboni,Apeboa,Apaloa,Apaki,Afali,Gobasia,Gobasie,Gobasii,Gobasio,Gobasiu"
+    "b": "Gobasi,Western Province,Kiunga,Papua New Guinea,Fly River,Oceania,Coastal,Nui,Asau,Norsup,Lauli,Kolofoou,Ofu,Kongo,Norfolk,Satupaitea,Ohonua,Nu'uuli,Makaunga,Leusoalii,Teafua,Abodi,Abisi,Afuoa,Alikoa,Auti,Anooa,Aloroa,Akubi,Ameti,Afumoa,Aboni,Apeboa,Apaloa,Apaki,Afali"
   },
   {
     "name": "Chamdo ",
@@ -1477,7 +1477,7 @@ window.unknownNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Kavalan,Su'ao,Yilan,Taiwan,East Coast,East Asia,Vaitogi,Fualopa,Buala,Salailua,Neiafu,Mapusaga,Navutoka,Siufaga,Pyrenees,Ambae,Sataua,Vaini,Tula,Lifuka,Lauli,Apakei,Amomoa,Apoei,Aberei,Akada,Adigei,Abinei,Abooa,Akasei,Afugei,Alosoa,Apua,Adunei,Amabei,Aonoa,Kavalana,Kavalane,Kavalani,Kavalano,Kavalanu"
+    "b": "Kavalan,Su'ao,Yilan,Taiwan,East Coast,East Asia,Mapusaga,Navutoka,Siufaga,Pyrenees,Ambae,Sataua,Vaini,Tula,Lifuka,Lauli,Apakei,Amomoa,Apoei,Aberei,Akada,Adigei,Abinei,Abooa,Akasei,Afugei,Alosoa,Apua,Adunei,Amabei,Aonoa"
   },
   {
     "name": "Daga ",
@@ -1486,7 +1486,7 @@ window.unknownNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Daga,Mendi,Mount Hagen,Papua New Guinea,Highlands Region,Oceania,Salailua,Neiafu,Mapusaga,Navutoka,Siufaga,Pyrenees,Ambae,Sataua,Vaini,Tula,Lifuka,Lauli,FenuaFala,Aniwa,Manono,Adokoa,Aagi,Ausi,Adeloa,Akukoa,Apebi,Amaloa,Akakoa,Afedi,Anugoa,Adenoa,Amusi,Afia,Aari,Anoboa,Dagaa,Dagae,IDaga,Dagao,Dagau"
+    "b": "Daga,Mendi,Mount Hagen,Papua New Guinea,Highlands Region,Oceania,Mapusaga,Navutoka,Siufaga,Pyrenees,Ambae,Sataua,Vaini,Tula,Lifuka,Lauli,FenuaFala,Aniwa,Manono,Adokoa,Aagi,Ausi,Adeloa,Akukoa,Apebi,Amaloa,Akakoa,Afedi,Anugoa,Adenoa,Amusi,Afia,Aari,Anoboa,IDaga"
   },
   {
     "name": "Dai Zhuang ",
@@ -1504,7 +1504,7 @@ window.unknownNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Dano,Mendi,Mount Hagen,Papua New Guinea,Highlands Region,Oceania,Manono,Taunga,Malaeloa,Vaitupu,Pagai,Sasina,Lakatoro,Lotopa,Lapaha,Olosenga,Lafanga,Aneityum,Gautavai,Havelu,PagoPago,Anali,Alekei,Amosi,Areli,Afurei,Apirei,Apobu,Abuei,Afeki,Amodi,Adamei,Anotu,Akegei,Afani,Aduti,Danoa,Danoe,Danoi,Danoo,Danou"
+    "b": "Dano,Mendi,Mount Hagen,Papua New Guinea,Highlands Region,Oceania,Manono,Taunga,Malaeloa,Vaitupu,Pagai,Sasina,Lakatoro,Lotopa,Lapaha,Olosenga,Lafanga,Aneityum,Gautavai,Havelu,PagoPago,Anali,Alekei,Amosi,Areli,Afurei,Apirei,Apobu,Abuei,Afeki,Amodi,Adamei,Anotu,Akegei,Afani,Aduti"
   },
   {
     "name": "Domaaki ",
@@ -1522,7 +1522,7 @@ window.unknownNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Simbu,Kundiawa,Mari-Mari,Gembogl,Papua New Guinea,Simbu Province,Highlands Region,Oceania,Aneityum,Gautavai,Havelu,PagoPago,Ngaloa,Amalau,Tokelau,Epi,Faleula,Fuaamotu,Amouli,Kitu,Amaua,Leulumoega,Aogau,Apake,Anedua,Aetau,Abebua,Akatau,Adagau,Adene,Akoe,Amurau,Aebau,Alule,Abekua,Amomau,Alitau,Golina,Goline,Golini,Golino,Golinu,Luganville"
+    "b": "Simbu,Kundiawa,Mari-Mari,Gembogl,Papua New Guinea,Simbu Province,Highlands Region,Oceania,Aneityum,Gautavai,Havelu,PagoPago,Ngaloa,Amalau,Tokelau,Epi,Faleula,Fuaamotu,Amouli,Kitu,Amaua,Leulumoega,Aogau,Apake,Anedua,Aetau,Abebua,Akatau,Adagau,Adene,Akoe,Amurau,Aebau,Alule,Abekua,Amomau,Alitau,Luganville"
   },
   {
     "name": "Fuyug ",
@@ -1558,7 +1558,7 @@ window.unknownNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "LuangPrabang,Oudomxay,Phongsaly,Sayaboury,Bokeo,LuangNamtha,DienBienPhu,SonLa,LaiChau,YenBai,XamNeua,Luang Prabang,Luang Namtha,Dien Bien Phu,Son La,Lai Chau,Yen Bai,ThuDauMot,Srinagarindra,ChauDoc,TanTru,Shidian,DongHa,CauKe,Fugong,DakDoa,CaiLay,Phongsali,DucTrong,MaeFaLuang,ChiangHai,LaiThieu,Apomnagar,Amimkonda,Afegkonda,Akutnagar,Apogkonda,Adirnagar,Alauru,Anaruru,Aatnagar,Abomkonda,Aderkonda,Amaguru,Abalkonda,Alednagar,Aedkonda,Khmupur,Khmunagar,Khmubad,Khmukot,Khmuwada"
+    "b": "LuangPrabang,Oudomxay,Phongsaly,Sayaboury,Bokeo,LuangNamtha,DienBienPhu,SonLa,LaiChau,YenBai,XamNeua,Luang Prabang,Luang Namtha,Dien Bien Phu,Son La,Lai Chau,Yen Bai,ThuDauMot,Srinagarindra,ChauDoc,TanTru,Shidian,DongHa,CauKe,Fugong,DakDoa,CaiLay,DucTrong,MaeFaLuang,ChiangHai,LaiThieu,Apomnagar,Amimkonda,Afegkonda,Akutnagar,Apogkonda,Adirnagar,Alauru,Anaruru,Aatnagar,Abomkonda,Aderkonda,Amaguru,Abalkonda,Alednagar,Aedkonda,Khmupur,Khmunagar,Khmubad,Khmukot,Khmuwada"
   },
   {
     "name": "Proto Tibeto Burman ",
@@ -1585,7 +1585,7 @@ window.unknownNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Tanah Merah,Kouh,Bomakia,Mandobo,Yaniruma,Wanggom,Kombai,Korowai,Citak,Mitak,Auyu,Asmat,Buala,Salailua,Neiafu,Mapusaga,Navutoka,Siufaga,Pyrenees,Ambae,Sataua,Vaini,Tula,Lifuka,Lauli,FenuaFala,Aniwa,Amasu,Apesu,Anorei,Abilu,Anigoa,Aponei,Amoru,Ababoa,Anolei,Akekoa,Adadu,Afodei,Akagu,Alagoa,Alomu,Kopkakaa,Kopkakae,Kopkakai,Kopkakao,Kopkakau"
+    "b": "Tanah Merah,Kouh,Bomakia,Mandobo,Yaniruma,Wanggom,Kombai,Korowai,Citak,Mitak,Auyu,Asmat,Mapusaga,Navutoka,Siufaga,Pyrenees,Ambae,Sataua,Vaini,Tula,Lifuka,Lauli,FenuaFala,Aniwa,Amasu,Apesu,Anorei,Abilu,Anigoa,Aponei,Amoru,Ababoa,Anolei,Akekoa,Adadu,Afodei,Akagu,Alagoa,Alomu"
   },
   {
     "name": "Korafe ",
@@ -1594,7 +1594,7 @@ window.unknownNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Tufi,Oro Bay,Popondetta,Kokoda,Afore,Ioma,Kira,Safia,Sangara,Sairope,Gona,Buna,Letogo,Kolomotu,Vatia,Funaota,Tulagi,Sili,Pangai,Tafuna,Tufumahina,Maia,Temotu,Maewo,Vaiala,Longoteme,Sailele,Apuli,Aligu,Anibi,Abali,Akokei,Apigu,Abei,Aerei,Aibu,Adolei,Anigi,Afumei,Amaei,Akuni,Akiei,Korafea,Korafee,Korafei,Korafeo,Korafeu"
+    "b": "Tufi,Oro Bay,Popondetta,Kokoda,Afore,Ioma,Kira,Safia,Sangara,Sairope,Gona,Buna,Letogo,Kolomotu,Vatia,Funaota,Tulagi,Sili,Pangai,Tafuna,Tufumahina,Maia,Temotu,Maewo,Vaiala,Longoteme,Sailele,Apuli,Aligu,Anibi,Abali,Akokei,Apigu,Abei,Aerei,Aibu,Adolei,Anigi,Afumei,Amaei,Akuni,Akiei"
   },
   {
     "name": "Korowai ",
@@ -1603,7 +1603,7 @@ window.unknownNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Yaniruma,MabÃ¼l,KhafalÃ¼o,MyanÃ¼,Dayo,Baigon,Manggel,Wanggom,Kombai,Korowai,Citak,Mitak,Tafuna,Tufumahina,Maia,Temotu,Maewo,Vaiala,Longoteme,Sailele,Foa,Masefau,Fagaloa,Tafea,Apolima,Mataika,Leone,Aludua,Afose,Anagua,Anote,Apugo,Afebo,Aborua,Aloko,Apodua,Akulua,Akikua,Adibo,Anelua,Aferua,Apoe,Korowaia,Korowaie,Korowaii,Korowaio,Korowaiu"
+    "b": "Yaniruma,MabÃ¼l,KhafalÃ¼o,MyanÃ¼,Dayo,Baigon,Manggel,Wanggom,Kombai,Korowai,Citak,Mitak,Tafuna,Tufumahina,Maia,Temotu,Maewo,Vaiala,Longoteme,Sailele,Foa,Masefau,Fagaloa,Tafea,Apolima,Mataika,Leone,Aludua,Afose,Anagua,Anote,Apugo,Afebo,Aborua,Aloko,Apodua,Akulua,Akikua,Adibo,Anelua,Aferua,Apoe"
   },
   {
     "name": "Kosraean ",
@@ -1621,7 +1621,7 @@ window.unknownNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Okapa,Kainantu,Lufa,Henganofi,Obura-Wonenara,Goroka,Unggai-Bena,Daulo,Yonkki,Arona,Purosa,Tarabo,Sailele,Foa,Masefau,Fagaloa,Tafea,Apolima,Mataika,Leone,Nukufetau,Auki,Saleaula,Ringdove,Fagali,Talasiu,Ta'u,Afasei,Animei,Alonoa,Amaba,Aneda,Apumei,Aodoa,Amutei,Abagei,Akotoa,Adomei,Afaga,Akidei,Abilei,Alerei,Kosenaa,Kosenae,Kosenai,Kosenao,Kosenau"
+    "b": "Okapa,Kainantu,Lufa,Henganofi,Obura-Wonenara,Goroka,Unggai-Bena,Daulo,Yonkki,Arona,Purosa,Tarabo,Sailele,Foa,Masefau,Fagaloa,Tafea,Apolima,Mataika,Leone,Nukufetau,Auki,Saleaula,Ringdove,Fagali,Talasiu,Ta'u,Afasei,Animei,Alonoa,Amaba,Aneda,Apumei,Aodoa,Amutei,Abagei,Akotoa,Adomei,Afaga,Akidei,Abilei,Alerei"
   },
   {
     "name": "Kovojab ",
@@ -1630,7 +1630,7 @@ window.unknownNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Madang,Karkar,Bagabag,Alexishafen,Amele,Bel,Gum,Isumrud,Mugil,Rempi,Sek,Yabob,Lakatoro,Lotopa,Lapaha,Olosenga,Lafanga,Aneityum,Gautavai,Havelu,PagoPago,Ngaloa,Amalau,Tokelau,Epi,Faleula,Fuaamotu,Apigai,Amabau,Alenua,Aasau,Amuua,Afurai,Abubai,Abulua,Abatau,Amobua,Alilai,Amamau,Adedai,Animai,Aadau,Kovojaba,Kovojabe,Kovojabi,Kovojabo,Kovojabu"
+    "b": "Madang,Karkar,Bagabag,Alexishafen,Amele,Bel,Gum,Isumrud,Mugil,Rempi,Sek,Yabob,Lakatoro,Lotopa,Lapaha,Olosenga,Lafanga,Aneityum,Gautavai,Havelu,PagoPago,Ngaloa,Amalau,Tokelau,Epi,Faleula,Fuaamotu,Apigai,Amabau,Alenua,Aasau,Amuua,Afurai,Abubai,Abulua,Abatau,Amobua,Alilai,Amamau,Adedai,Animai,Aadau"
   },
   {
     "name": "Kula ",
@@ -1639,7 +1639,7 @@ window.unknownNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Kalabahi,Moru,Lantoka,Mebung,Baranusa,Kabir,Pura,Ternate,Pantar,Alor,Abang,Aitui,Taumeasina,Tokomololo,Vaitogi,Fualopa,Buala,Salailua,Neiafu,Mapusaga,Navutoka,Siufaga,Pyrenees,Ambae,Sataua,Vaini,Tula,Adigua,Abolo,Adatua,Akogua,Apiro,Afebe,Akano,Amio,Aporua,Afeke,Anego,Aeme,Adeto,Alegua,Abimua,Kulaa,Kulae,IKula,Kulao,Kulau"
+    "b": "Kalabahi,Moru,Lantoka,Mebung,Baranusa,Kabir,Pura,Ternate,Pantar,Alor,Abang,Aitui,Mapusaga,Navutoka,Siufaga,Pyrenees,Ambae,Sataua,Vaini,Tula,Adigua,Abolo,Adatua,Akogua,Apiro,Afebe,Akano,Amio,Aporua,Afeke,Anego,Aeme,Adeto,Alegua,Abimua,IKula"
   },
   {
     "name": "Aromanian",
@@ -1702,7 +1702,7 @@ window.unknownNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Istanbul,Sofia,Thessaloniki,Sarajevo,Belgrade,Bucharest,Jerusalem,TelAviv,Safed,Tiberias,Haifa,Acre,Izmir,Edirne,Plovdiv,Bitola,Skopje,Split,Dubrovnik,Zagreb,Alexandria,Cairo,Tangier,Fez,Marrakesh,Tel Aviv,Gaza,Jaffa,Ramla,BajoPichigua,Chucuito,Occo,Pativilca,Tambobamba,Atuncolla,Conima,Nazca,LaConvencion,Munani,Condoroma,Antauta,Mañazo,Echarate,Amotgu,Akerzu,Amemgu,Aputgu,Anerzu,Abalgu,Apatgu,Apenzu,Aduggu,Amergu,Anelzu,Adobgu,Adilgu,Aikgu,Anetzu,Arawakgo,Arawakgu,Arawakcu,Arawakzu,Arawakla"
+    "b": "Istanbul,Sofia,Thessaloniki,Sarajevo,Belgrade,Bucharest,Jerusalem,TelAviv,Safed,Tiberias,Haifa,Acre,Izmir,Edirne,Plovdiv,Bitola,Skopje,Split,Dubrovnik,Zagreb,Alexandria,Cairo,Tangier,Fez,Marrakesh,Tel Aviv,Gaza,Jaffa,Ramla,BajoPichigua,Chucuito,Occo,Pativilca,Tambobamba,Atuncolla,Conima,Nazca,LaConvencion,Munani,Condoroma,Antauta,Mañazo,Echarate,Amotgu,Akerzu,Amemgu,Aputgu,Anerzu,Abalgu,Apatgu,Apenzu,Aduggu,Amergu,Anelzu,Adobgu,Adilgu,Aikgu,Anetzu,Arawakcu,Arawakzu,Arawakla"
   },
   {
     "name": "Sranan",
@@ -1711,7 +1711,7 @@ window.unknownNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Paramaribo,NieuwNickerie,Lelydorp,Moengo,Albina,NieuwAmsterdam,Brownsweg,Groningen,Wageningen,Totness,Onverwacht,Brokopondo,Tamanredjo,Domburg,Meerzorg,Nieuw Nickerie,Nieuw Amsterdam,Saramacca,Coronie,Commewijne,Marowijne,Brokopondo Centrum,Tisco,Arapa,Mañazo,Huaqui,AyoAyo,Desaguadero,Ayaviri,Yucay,Putucusi,Oxapampa,Moyobamba,Quiruvilca,Coracora,AltoPichigua,Occo,Adalzu,Abikgu,Abudzu,Aozu,Akikgu,Aedzu,Alirgu,Amobzu,Abatzu,Apiszu,Aiggu,Akisgu,Adugzu,Aetzu,Alidgu,Sranango,Sranangu,Sranancu,Srananzu,Srananla"
+    "b": "Paramaribo,NieuwNickerie,Lelydorp,Moengo,Albina,NieuwAmsterdam,Brownsweg,Groningen,Wageningen,Totness,Onverwacht,Brokopondo,Tamanredjo,Domburg,Meerzorg,Nieuw Nickerie,Nieuw Amsterdam,Saramacca,Coronie,Commewijne,Marowijne,Brokopondo Centrum,Tisco,Arapa,Mañazo,Huaqui,AyoAyo,Desaguadero,Ayaviri,Yucay,Putucusi,Oxapampa,Moyobamba,Quiruvilca,Coracora,AltoPichigua,Occo,Adalzu,Abikgu,Abudzu,Aozu,Akikgu,Aedzu,Alirgu,Amobzu,Abatzu,Apiszu,Aiggu,Akisgu,Adugzu,Aetzu,Alidgu,Sranancu,Srananzu,Srananla"
   },
   {
     "name": "Aluku",
@@ -1720,7 +1720,7 @@ window.unknownNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Cottica,Moiwana,Langatabiki,Stoelmans,Eilanden,Anapaike,Palumeu,Apetina,Sipaliwini,Kaur,Benzdorp,Antino,Kawemhakan,Papaichton,Camopi,Maripasoula,Kawina,Saül,Taluen,Nassau,GranSanti,Vlacha,Aymaraes,Chamaca,Ollantaytambo,Soracachi,Pomata,Suyckutambo,Pantaleon,Quehue,Ulloma,Andahuaylas,Moho,Saylla,Llalli,Juanjui,Anukpa,Aburpa,Adunpa,Abulpa,Amugpa,Abutpa,Afumpa,Adubpa,Aumpa,Akuspa,Anupa,Anunpa,Alukpa,Aluspa,Akutpa,Alukugo,Alukugu,Alukucu,Alukuzu,Alukula"
+    "b": "Cottica,Moiwana,Langatabiki,Stoelmans,Eilanden,Anapaike,Palumeu,Apetina,Sipaliwini,Kaur,Benzdorp,Antino,Kawemhakan,Papaichton,Camopi,Maripasoula,Kawina,Saül,Taluen,Nassau,GranSanti,Vlacha,Aymaraes,Chamaca,Ollantaytambo,Soracachi,Pomata,Suyckutambo,Pantaleon,Quehue,Ulloma,Andahuaylas,Moho,Saylla,Llalli,Juanjui,Anukpa,Aburpa,Adunpa,Abulpa,Amugpa,Abutpa,Afumpa,Adubpa,Aumpa,Akuspa,Anupa,Anunpa,Alukpa,Aluspa,Akutpa,Alukucu,Alukuzu,Alukula"
   },
   {
     "name": "Ashaninka",
@@ -1729,7 +1729,7 @@ window.unknownNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Satipo,PuertoOcopa,Tambo,Mazamari,RioNegro,Kivinaki,Pichari,Kepashiato,Sivaki,Ayacucho,Pangoa,Tsanquiato,Samaniato,Shimaa,Putucusi,Kiteni,RioTamboSantaMaria,Churingaveni,Unini,Mirallegro,Palmapampa,Ashaninkago,Ashaninkagu,Ashaninkacu,Ashaninkazu,Ashaninkala,Ashaninkana,Ashaninkama,Ashaninkapa,Ashaninkara,Ashaninkasa,Ashaninkata,Ashaninkaca,Ashaninkaba,Ashaninkada,Ashaninkafa,Ashaninkaga,Ashaninkaha,Ashaninkaja,Ashaninkaka,Ashaninkalla"
+    "b": "Satipo,PuertoOcopa,Tambo,Mazamari,RioNegro,Kivinaki,Pichari,Kepashiato,Sivaki,Ayacucho,Pangoa,Tsanquiato,Samaniato,Shimaa,Putucusi,Kiteni,RioTamboSantaMaria,Churingaveni,Unini,Mirallegro,Palmapampa,Ashaninkazu,Ashaninkala,Ashaninkana,Ashaninkama,Ashaninkapa,Ashaninkara,Ashaninkasa,Ashaninkata,Ashaninkaba,Ashaninkada,Ashaninkafa,Ashaninkaha,Ashaninkaja,Ashaninkaka,Ashaninkalla"
   },
   {
     "name": "Aymara",
@@ -1738,7 +1738,7 @@ window.unknownNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "ElAlto,Viacha,Achacachi,Warisata,Huarina,Desaguadero,Guaqui,Tiwanaku,Laja,SicaSica,Patacamaya,Calamarca,Colquencha,Collana,Batallas,Pucarani,Huatajata,Tiquina,Copacabana,Yunguyo,Juli,Ilave,Puno,Acora,Guaquí,Ventilla,Anomzu,Alutpa,Alorpa,Amedzu,Aulzu,Afitpa,Akarpa,Ababzu,Aalzu,Apatpa,Abimpa,Afutzu,Anezu,Adonpa,Alupa,Aymarago,Aymaragu,Aymaracu,Aymarazu,Aymarala"
+    "b": "ElAlto,Viacha,Achacachi,Warisata,Huarina,Desaguadero,Tiwanaku,Laja,SicaSica,Patacamaya,Calamarca,Colquencha,Collana,Batallas,Pucarani,Huatajata,Tiquina,Copacabana,Yunguyo,Juli,Ilave,Puno,Acora,Guaquí,Ventilla,Anomzu,Alutpa,Alorpa,Amedzu,Aulzu,Afitpa,Akarpa,Ababzu,Aalzu,Apatpa,Abimpa,Afutzu,Anezu,Adonpa,Alupa,Aymaracu,Aymarazu,Aymarala"
   },
   {
     "name": "Berbice",
@@ -1747,7 +1747,7 @@ window.unknownNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "NewAmsterdam,RoseHall,Skeldon,Corriverton,Ituni,Kwakwani,Kurupukari,FairMaiden,BerbiceRiver,Number43,BlackBushPunt,Temple,SistersVillage,MolesonCreek,CrabwoodCreek,CaneGrove,SheetAnchor,PlegtAnker"
+    "b": "NewAmsterdam,RoseHall,Skeldon,Corriverton,Ituni,Kwakwani,Kurupukari,FairMaiden,BerbiceRiver,Number43,BlackBushPunt,Temple,SistersVillage,MolesonCreek,CrabwoodCreek,CaneGrove,SheetAnchor,PlegtAnker,Berbice,Canje,Berbician,DutchCreole,FortNassau,Peereboom,Maria,Maboen,StLucian,NewBee"
   },
   {
     "name": "Macaguán (Hitnü)",
@@ -1756,7 +1756,7 @@ window.unknownNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Arauca,PuertoRondon,CravoNorte,PazDeAriporo,Trinidad,SanLuisDePalenque,Orocue,Pore,Nunchia,Gameza,LaSalina,Sacama,Aguaclara,Cumaral,Sabanalarga,Monterrey,Villanueva,Tauramena,Aguazul,Yopal,PuertoRondón,Orocué,Nunchía,Chámeza,Tilali,Plateria,Challacollo,Calamarca,Pomata,Livitaca,Pichari,Kivinaki,TingoMaria,Bambamarca,Yauyos,Tambobamba,Coporaque,Antauta,Nicasio,Alebgo,Afukcu,Alungo,Anibgo,Anosgo,Adilgo,Alukgo,Abeggo,Abango,Adugcu,Apabgo,Akungo,Akisgo,Apuncu,Afomgo,MacagunHitngo,MacagunHitngu,MacagunHitncu,MacagunHitnzu,MacagunHitnla"
+    "b": "Arauca,PuertoRondon,CravoNorte,PazDeAriporo,Trinidad,SanLuisDePalenque,Pore,Nunchia,Gameza,LaSalina,Sacama,Aguaclara,Cumaral,Sabanalarga,Monterrey,Villanueva,Tauramena,Aguazul,Yopal,PuertoRondón,Orocué,Nunchía,Chámeza,Tilali,Plateria,Challacollo,Calamarca,Pomata,Livitaca,Pichari,Kivinaki,TingoMaria,Bambamarca,Yauyos,Tambobamba,Coporaque,Antauta,Nicasio,Alebgo,Afukcu,Alungo,Anibgo,Anosgo,Adilgo,Alukgo,Abeggo,Abango,Adugcu,Apabgo,Akungo,Akisgo,Apuncu,Afomgo,MacagunHitngo,MacagunHitngu,MacagunHitncu,MacagunHitnzu,MacagunHitnla"
   },
   {
     "name": "Minica Huitoto",
@@ -1765,7 +1765,7 @@ window.unknownNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "LaChorrera,PuertoArica,ElEncanto,SanRafael,VillaAndrea,Comeyafu,Araracuara,Mitu,Pacoa,Tarapaca,LaPedrera,Yavarate,Monforth,Acaricuara,Mitú,Tarapacá,SanFelipe,Cacahual,PanaPana,SanLuis,PuertoColombia,Tiquie,Tiwanaku,Pucara,Pisac,Samaniato,PuertoBermudez,NuevaCajamarca,Barranca,Andahuaylas,MosocCancha,Cabana,Tilali,Plateria,Challacollo,Calamarca,Pomata,Alakcu,Afutcu,Akircu,Apoggo,Adarcu,Anobgo,Alelcu,Afolcu,Akokgo,Amodcu,Anukcu,Aobgo,Akilcu,Aongo,Afatcu,MinicaHuitotogo,MinicaHuitotogu,MinicaHuitotocu,MinicaHuitotozu,MinicaHuitotola"
+    "b": "LaChorrera,PuertoArica,ElEncanto,SanRafael,VillaAndrea,Comeyafu,Araracuara,Mitu,Pacoa,LaPedrera,Yavarate,Monforth,Acaricuara,Mitú,Tarapacá,SanFelipe,Cacahual,PanaPana,SanLuis,PuertoColombia,Tiquie,Tiwanaku,Pucara,Pisac,Samaniato,PuertoBermudez,NuevaCajamarca,Barranca,Andahuaylas,MosocCancha,Cabana,Tilali,Plateria,Challacollo,Calamarca,Pomata,Alakcu,Afutcu,Akircu,Apoggo,Adarcu,Anobgo,Alelcu,Afolcu,Akokgo,Amodcu,Anukcu,Aobgo,Akilcu,Aongo,Afatcu,MinicaHuitotogo,MinicaHuitotogu,MinicaHuitotocu,MinicaHuitotozu,MinicaHuitotola,Huitoto,Minica,Amoya,Caraparana,Igara,Parana"
   },
   {
     "name": "Muinane",
@@ -1774,7 +1774,7 @@ window.unknownNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "LaChorrera,PuertoArica,ElEncanto,SanRafael,VillaAndrea,Comeyafu,Araracuara,Mitu,Pacoa,Tarapaca,LaPedrera,Yavarate,Monforth,Pana,Mitú,Tarapacá,SanFelipe,Cacahual,PanaPana,SanLuis,PuertoColombia,LaZulia,SanMiguel,Huayllabamba,VillaVirgen,Pichanaqui,Tarapoto,SantiagoDeChuco,Puquio,Condoroma,Umachiri,Taraco,Taquile,Corocoro,Achacachi,Ulloma,Combapata,SantaTeresa,Abodgu,Afupa,Alikpa,Autgu,Anopa,Apigpa,Anisgu,Abongu,Apebpa,Apalpa,Abebpa,Anolgu,Adirpa,Afebgu,Aungu,Muinanego,Muinanegu,Muinanecu,Muinanezu,Muinanela"
+    "b": "LaChorrera,PuertoArica,ElEncanto,SanRafael,VillaAndrea,Comeyafu,Araracuara,Mitu,Pacoa,LaPedrera,Yavarate,Monforth,Pana,Mitú,Tarapacá,SanFelipe,Cacahual,PanaPana,SanLuis,PuertoColombia,LaZulia,SanMiguel,Huayllabamba,VillaVirgen,Pichanaqui,Tarapoto,SantiagoDeChuco,Puquio,Condoroma,Umachiri,Taraco,Taquile,Corocoro,Achacachi,Ulloma,Combapata,SantaTeresa,Abodgu,Afupa,Alikpa,Autgu,Anopa,Apigpa,Anisgu,Abongu,Apebpa,Apalpa,Abebpa,Anolgu,Adirpa,Afebgu,Aungu,Muinanecu,Muinanezu,Muinanela"
   },
   {
     "name": "Nukak",
@@ -1792,7 +1792,7 @@ window.unknownNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Barreirinha,Parintins,Maués,BoaVistaDoRamos,NovaOlindaDoNorte,Itacoatiara,Urucurituba,SaoSebastiao,Uatuma,Silves,Itapiranga,Nhamunda,Faro,TerraSanta,Obidos,Oriximina,Juruti,Alenquer,MonteAlegre,Prainha,Almeirim,SãoSebastião,Uatumã,Nhamundá,Óbidos,Oriximiná,SanMiguel,Chilca,Andamarca,Ccapi,Pucara,Cabana,Desaguadero,SicaSica,Tiquina,Azangaro,Huayllabamba,VillaVirgen,Pichanaqui,Tarapoto,SantiagoDeChuco,Adobpa,Alokpa,Adompa,Alogpa,Anotpa,Anolpa,Adotpa,Aobpa,Aokpa,Apokpa,Afogpa,Amorpa,Amobpa,Abompa,Akorpa,SaterMawgo,SaterMawgu,SaterMawcu,SaterMawzu,SaterMawla"
+    "b": "Barreirinha,Parintins,Maués,BoaVistaDoRamos,NovaOlindaDoNorte,Itacoatiara,Urucurituba,SaoSebastiao,Silves,Itapiranga,Faro,TerraSanta,Obidos,Juruti,Alenquer,MonteAlegre,Prainha,Almeirim,SãoSebastião,Uatumã,Nhamundá,Óbidos,Oriximiná,SanMiguel,Chilca,Andamarca,Ccapi,Pucara,Cabana,Desaguadero,SicaSica,Tiquina,Azangaro,Huayllabamba,VillaVirgen,Pichanaqui,Tarapoto,SantiagoDeChuco,Adobpa,Alokpa,Adompa,Alogpa,Anotpa,Anolpa,Adotpa,Aobpa,Aokpa,Apokpa,Afogpa,Amorpa,Amobpa,Abompa,Akorpa,SaterMawgo,SaterMawgu,SaterMawcu,SaterMawzu,SaterMawla"
   },
   {
     "name": "Tenetehára",
@@ -1801,7 +1801,7 @@ window.unknownNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "SantaLuzia,BarraDoCorda,Grajau,Imperatriz,Araguaina,Colinas,SaoJoaoDosPatos,Sucupira,Riachao,Balsas,Carolina,AltoParnaiba,Paraopeba,PassagemFranca,FortalezaDoNorte,Pinheiro,Carutapera,Turiacu,ZeDoca,Grajaú,Araguaína,SãoJoãoDosPatos,Riachão,GodofredoViana,Turiaçu,ZéDoca,CandidoMendes,Echarate,Espinar,Cupi,Lampa,Ilave,Pantaleon,Batallas,Yunguyo,Oropesa,LaConvencion,RioNegro,Juanjui,Cascas,Nazca,Colquemarca,Tenetehrago,Tenetehragu,Tenetehracu,Tenetehrazu,Tenetehrala,Tenetehrana,Tenetehrama,Tenetehrapa,Tenetehrara,Tenetehrasa,Tenetehrata,Tenetehraca,Tenetehraba,Tenetehrada,Tenetehrafa,Tenetehraga,Tenetehraha,Tenetehraja,Tenetehraka,Tenetehralla"
+    "b": "SantaLuzia,BarraDoCorda,Imperatriz,Araguaina,Colinas,SaoJoaoDosPatos,Sucupira,Riachao,Balsas,Carolina,AltoParnaiba,Paraopeba,PassagemFranca,FortalezaDoNorte,Pinheiro,Carutapera,Turiacu,ZeDoca,Grajaú,Araguaína,SãoJoãoDosPatos,Riachão,GodofredoViana,Turiaçu,ZéDoca,CandidoMendes,Echarate,Espinar,Cupi,Lampa,Ilave,Pantaleon,Batallas,Yunguyo,Oropesa,LaConvencion,RioNegro,Juanjui,Cascas,Nazca,Colquemarca,Tenetehrazu,Tenetehrala,Tenetehrana,Tenetehrama,Tenetehrapa,Tenetehrara,Tenetehrasa,Tenetehrata,Tenetehraba,Tenetehrada,Tenetehrafa,Tenetehraha,Tenetehraja,Tenetehraka,Tenetehralla"
   },
   {
     "name": "Trinitario",
@@ -1810,7 +1810,7 @@ window.unknownNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Trinidad,Loreto,SanIgnacio,Concepcion,SanJavier,SanRamon,SanJoaquin,Magdalena,BellaVista,SanMiguel,SanMatias,Robore,SanJose,PuertoSuarez,SantaAna,Moxos,Concepción,SanRamón,SanMatías,Roboré,SanJosé,PuertoSuárez,SanCarlos,SanPedro,SanLuis,Santiago,Lampa,Ollantaytambo,Unini,VillaRica,Rioja,Pativilca,Abancay,BajoPichigua,Ocuviri,Moho,Acora,Toledo,SicaSica,Comanche,Tinta,Adocu,Afodgo,Amimgo,Alogcu,Akobcu,Apudgo,Abokcu,Anumgo,Amorcu,Abusgo,Aubgo,Afalgo,Abotcu,Akolgo,Adergo,Trinitariogo,Trinitariogu,Trinitariocu,Trinitariozu,Trinitariola"
+    "b": "Trinidad,Loreto,SanIgnacio,Concepcion,SanJavier,SanRamon,SanJoaquin,Magdalena,BellaVista,SanMiguel,SanMatias,SanJose,PuertoSuarez,SantaAna,Moxos,Concepción,SanRamón,SanMatías,Roboré,SanJosé,PuertoSuárez,SanCarlos,SanPedro,SanLuis,Santiago,Lampa,Ollantaytambo,Unini,VillaRica,Rioja,Pativilca,Abancay,BajoPichigua,Ocuviri,Moho,Acora,Toledo,SicaSica,Comanche,Tinta,Adocu,Afodgo,Amimgo,Alogcu,Akobcu,Apudgo,Abokcu,Anumgo,Amorcu,Abusgo,Aubgo,Afalgo,Abotcu,Akolgo,Adergo,Trinitariocu,Trinitariozu,Trinitariola"
   },
   {
     "name": "Reyesano (Maropa)",
@@ -1828,7 +1828,7 @@ window.unknownNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Rurrenabaque,Reyes,SantaRosa,SanBorja,Yucumo,Riberalta,Cobija,Guayaramerin,Porvenir,PuertoRico,Sarry,SanIgnacioDeMoxos,Guayaramerín,Trinidad,Concepción,SanJavier,SanRamón,SanJoaquin,Magdalena,BellaVista,SantaAna,Saposoa,Contumaza,Ica,SantoTomas,Ocoruro,Chupa,Tiquillaca,Tiwanacu,Calamarca,Guaqui,Lampa,Ollantaytambo,Unini,VillaRica,Rioja,Adolcu,Amitgo,Apodcu,Amingo,Abiscu,Amocu,Adescu,Aniggo,Anomcu,Aascu,Abikcu,Abicu,Anagcu,Apurcu,Afirgo,Toromonago,Toromonagu,Toromonacu,Toromonazu,Toromonala"
+    "b": "Rurrenabaque,Reyes,SantaRosa,SanBorja,Yucumo,Riberalta,Cobija,Guayaramerin,Porvenir,PuertoRico,Sarry,SanIgnacioDeMoxos,Guayaramerín,Trinidad,Concepción,SanJavier,SanRamón,SanJoaquin,Magdalena,BellaVista,SantaAna,Saposoa,Contumaza,Ica,SantoTomas,Ocoruro,Chupa,Tiquillaca,Tiwanacu,Calamarca,Guaqui,Lampa,Ollantaytambo,Unini,VillaRica,Rioja,Adolcu,Amitgo,Apodcu,Amingo,Abiscu,Amocu,Adescu,Aniggo,Anomcu,Aascu,Abikcu,Abicu,Anagcu,Apurcu,Afirgo,Toromonacu,Toromonazu,Toromonala,Toromona,Heath,Lanza,Maddi,Mamuripi,Tumupasa"
   },
   {
     "name": "Wichí Lhamtés Nocten (Weenhayek)",
@@ -1837,7 +1837,7 @@ window.unknownNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Tartagal,Embarcacion,SalvadorMazza,Aguaray,CampoDuran,GeneralMosconi,Ballivian,Pocitos,Yacuiba,VillaMontes,EntreRios,PalosBlancos,Carapari,Boyuibe,Camiri,Embarcación,ProfesorSalvadorMazza,CampoDurán,Ballivián,EntreRíos,Creaux,Villamontes,Caraparí,SanFrancisco,ElPalmar,Mala,Kinsachata,Suyckutambo,Japurin,Atuncolla,Yunguyo,Patacamaya,Huatajata,Huancane,Coya,SantaRosa,Chanchamayo,Picota,Huamachuco,Yauca,Aemgu,Abotpa,Anakgu,Alitpa,Afigpa,Afongu,Alalgu,Abobpa,Ananpa,Amutpa,Abutgu,Adangu,Anoggu,Apitpa,Afakgu,WichLhamtsNoctenWeenhayekgo,WichLhamtsNoctenWeenhayekgu,WichLhamtsNoctenWeenhayekcu,WichLhamtsNoctenWeenhayekzu,WichLhamtsNoctenWeenhayekla"
+    "b": "Tartagal,Embarcacion,SalvadorMazza,Aguaray,CampoDuran,GeneralMosconi,Ballivian,Pocitos,Yacuiba,VillaMontes,EntreRios,PalosBlancos,Boyuibe,Camiri,Embarcación,ProfesorSalvadorMazza,CampoDurán,Ballivián,EntreRíos,Creaux,Villamontes,Caraparí,SanFrancisco,ElPalmar,Mala,Kinsachata,Suyckutambo,Japurin,Atuncolla,Yunguyo,Patacamaya,Huatajata,Huancane,Coya,SantaRosa,Chanchamayo,Picota,Huamachuco,Yauca,Aemgu,Abotpa,Anakgu,Alitpa,Afigpa,Afongu,Alalgu,Abobpa,Ananpa,Amutpa,Abutgu,Adangu,Anoggu,Apitpa,Afakgu,WichLhamtsNoctenWeenhayekgo,WichLhamtsNoctenWeenhayekgu,WichLhamtsNoctenWeenhayekcu,WichLhamtsNoctenWeenhayekzu,WichLhamtsNoctenWeenhayekla"
   },
   {
     "name": "Wichí Lhamtés Vejoz",
@@ -1846,7 +1846,7 @@ window.unknownNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Tartagal,Embarcacion,SalvadorMazza,Aguaray,CampoDuran,GeneralMosconi,Ballivian,Pocitos,Yacuiba,VillaMontes,EntreRios,MonteQuemado,PampaDeLosGuanacos,SantiagoDelEstero,Embarcación,CampoDurán,Ballivián,EntreRíos,PalosBlancos,Villamontes,Caraparí,SanFrancisco,Boyuibe,Camiri,Yauri,Llalli,Cabanillas,Juli,Eucaliptus,Ventilla,Ilave,Saylla,SantaAna,Satipo,Saposoa,Contumaza,Ica,SantoTomas,Ocoruro,Alusgo,Alokgo,Afisgo,Alulgo,Abudgo,Akamgo,Adalgo,Afotgo,Adetgo,Aungo,Aodgo,Amamgo,Amaggo,Aingo,Alelgo,WichLhamtsVejozgo,WichLhamtsVejozgu,WichLhamtsVejozcu,WichLhamtsVejozzu,WichLhamtsVejozla"
+    "b": "Tartagal,Embarcacion,SalvadorMazza,Aguaray,CampoDuran,GeneralMosconi,Ballivian,Pocitos,Yacuiba,VillaMontes,EntreRios,MonteQuemado,PampaDeLosGuanacos,SantiagoDelEstero,Embarcación,CampoDurán,Ballivián,EntreRíos,PalosBlancos,Villamontes,Caraparí,SanFrancisco,Boyuibe,Camiri,Yauri,Llalli,Cabanillas,Juli,Eucaliptus,Ventilla,Ilave,Saylla,SantaAna,Satipo,Saposoa,Contumaza,Ica,SantoTomas,Ocoruro,Alusgo,Alokgo,Afisgo,Alulgo,Abudgo,Akamgo,Adalgo,Afotgo,Adetgo,Aungo,Aodgo,Amamgo,Amaggo,Aingo,Alelgo,WichLhamtsVejozgo,WichLhamtsVejozgu,WichLhamtsVejozcu,WichLhamtsVejozzu,WichLhamtsVejozla,Wichi,Vejo,VillaRosa,Algarrobal,SaenzPena"
   },
   {
     "name": "Tiriyó",
@@ -1855,7 +1855,7 @@ window.unknownNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Paramaribo,Atjoni,Pokigron,Botopasi,Djumu,Palumeu,Apetina,Kawemhakan,Papaichton,Camopi,Maripasoula,Sipaliwini,Antino,Benzdorp,Kaur,Anapaike,Langatabiki,Stoelmans,Saül,Albina,Yucay,Putucusi,Oxapampa,Moyobamba,Quiruvilca,Coracora,AltoPichigua,Occo,Camjata,Chucuito,Oruro,Patacamaya,Charana,Yanaoca,Quillabamba,Abancu,Aodcu,Akidcu,Afimcu,Amebcu,Aludcu,Akumcu,Apascu,Apogcu,Anidcu,Afecu,Abakcu,Amudcu,Aalcu,Apekcu,Tiriygo,Tiriygu,Tiriycu,Tiriyzu,Tiriyla"
+    "b": "Paramaribo,Atjoni,Pokigron,Botopasi,Djumu,Palumeu,Apetina,Kawemhakan,Papaichton,Camopi,Maripasoula,Sipaliwini,Antino,Benzdorp,Kaur,Anapaike,Langatabiki,Stoelmans,Saül,Albina,Yucay,Putucusi,Oxapampa,Moyobamba,Quiruvilca,Coracora,AltoPichigua,Occo,Camjata,Chucuito,Oruro,Patacamaya,Charana,Yanaoca,Quillabamba,Abancu,Aodcu,Akidcu,Afimcu,Amebcu,Aludcu,Akumcu,Apascu,Apogcu,Anidcu,Afecu,Abakcu,Amudcu,Aalcu,Apekcu,Tiriycu,Tiriyzu,Tiriyla"
   },
   {
     "name": "Xavante",
@@ -1873,7 +1873,7 @@ window.unknownNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Tocantinia,Cristalandia,Pium,Miracema,Miranorte,Palmas,Paraiso,PortoNacional,Guarai,Colinas,Araguaina,Araguatins,Xambioa,Taguatinga,Arraias,Dianopolis,Natividade,Peixe,Tocantínia,Cristalândia,DoisIrmãos,Paraíso,Guaraí,Araguaína,Xambioá,Dianópolis,Almas"
+    "b": "Tocantinia,Cristalandia,Pium,Miracema,Miranorte,Palmas,Paraiso,PortoNacional,Colinas,Araguaina,Araguatins,Taguatinga,Arraias,Dianopolis,Natividade,Peixe,Tocantínia,Cristalândia,DoisIrmãos,Paraíso,Guaraí,Araguaína,Xambioá,Dianópolis,Almas"
   },
   {
     "name": "Língua Geral Amazônica",
@@ -1882,7 +1882,7 @@ window.unknownNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "SaoGabrielDaCachoeira,SantaIsabel,RioNegro,Barcelos,SaoJoaquim,Manaus,Parintins,Itacoatiara,Coari,Tefe,BocaDoAcre,Envira,Pauini,BenjaminConstant,Tabatinga,SaoPauloDeOlivenca,Amatura,Tonantins,FonteBoa,Japura,SãoGabrielDaCachoeira,SãoJoaquim,Turi,SãoPauloDeOlivença,Amaturá,Japurá,Bayamon,SanJuan,Maricao,SanSebastian,RioGrande,Santalsabel,Canovanas,Kralendijk,Utuado,VegaAlta,Yauco,Ciales,Luquillo,Cockburn,Abenland,Alilburg,Apuland,Amalburg,Aderland,Adusside,Aniland,Anulside,Aurside,Adugburg,Aakland,Abogland,Akomburg,Anokburg,Alamland,LnguaGeralAmaznicatown,LnguaGeralAmaznicaville,LnguaGeralAmaznicaburg,LnguaGeralAmaznicaview,LnguaGeralAmaznicaside"
+    "b": "SaoGabrielDaCachoeira,SantaIsabel,RioNegro,Barcelos,SaoJoaquim,Manaus,Parintins,Itacoatiara,Coari,Tefe,BocaDoAcre,Envira,Pauini,BenjaminConstant,Tabatinga,SaoPauloDeOlivenca,Tonantins,FonteBoa,SãoGabrielDaCachoeira,SãoJoaquim,Turi,SãoPauloDeOlivença,Amaturá,Japurá,Bayamon,SanJuan,Maricao,SanSebastian,RioGrande,Santalsabel,Canovanas,Kralendijk,Utuado,VegaAlta,Yauco,Ciales,Luquillo,Cockburn,Abenland,Alilburg,Apuland,Amalburg,Aderland,Adusside,Aniland,Anulside,Aurside,Adugburg,Aakland,Abogland,Akomburg,Anokburg,Alamland,LnguaGeralAmaznicatown,LnguaGeralAmaznicaville,LnguaGeralAmaznicaburg,LnguaGeralAmaznicaview,LnguaGeralAmaznicaside"
   },
   {
     "name": "Macuna",
@@ -1891,7 +1891,7 @@ window.unknownNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Mitu,Pacoa,Papua,Acaricuara,Monforth,SanFelipe,Yavarate,PuertoColombia,LaPedrera,PanaPana,Cacahual,Tiquie,Caruru,Tarapaca,SanRafael,VillaAndrea,Araracuara,Mitú,Papúa,Carurú,Tarapacá,Comeyafu,SanLuis,PuertoNariño,Batallas,Yunguyo,Oropesa,LaConvencion,RioNegro,Juanjui,Cascas,Nazca,Colquemarca,Tahuapalca,Samane,Paucarcolla,Laja,Vlacha,Tiwanaku,Aimgo,Analcu,Apaggo,Adomgo,Abacu,Afubgo,Adulgo,Abagcu,Aabcu,Alikgo,Afemgo,Anitgo,Abamcu,Adadcu,Aburgo,Macunago,Macunagu,Macunacu,Macunazu,Macunala"
+    "b": "Mitu,Pacoa,Papua,Acaricuara,Monforth,SanFelipe,Yavarate,PuertoColombia,LaPedrera,PanaPana,Cacahual,Tiquie,SanRafael,VillaAndrea,Araracuara,Mitú,Papúa,Carurú,Tarapacá,Comeyafu,SanLuis,PuertoNariño,Batallas,Yunguyo,Oropesa,LaConvencion,RioNegro,Juanjui,Cascas,Nazca,Colquemarca,Tahuapalca,Samane,Paucarcolla,Laja,Vlacha,Tiwanaku,Aimgo,Analcu,Apaggo,Adomgo,Abacu,Afubgo,Adulgo,Abagcu,Aabcu,Alikgo,Afemgo,Anitgo,Abamcu,Adadcu,Aburgo,Macunacu,Macunazu,Macunala"
   },
   {
     "name": "Cubeo",
@@ -1900,7 +1900,7 @@ window.unknownNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Mitu,Pacoa,Papua,Acaricuara,Monforth,SanFelipe,Yavarate,PuertoColombia,LaPedrera,PanaPana,Cacahual,PuertoNarino,Araracuara,Tarapaca,Caruru,Tiquie,Mitú,Papúa,PuertoNariño,SanRafael,VillaAndrea,Comeyafu,SanLuis,Tarapacá,Carurú,SanMiguel,Mosoc,Sangobatea,Mazamari,Uchiza,Chilca,Andamarca,Ccapi,Pucara,Cabana,Desaguadero,SicaSica,Tiquina,Azangaro,Huayllabamba,Afagzu,Afuszu,Abodzu,Amingu,Adeszu,Animgu,Autzu,Afarzu,Abirzu,Adibgu,Alilzu,Amikgu,Akubzu,Alobzu,Apilgu,Cubeogo,Cubeogu,Cubeocu,Cubeozu,Cubeola"
+    "b": "Mitu,Pacoa,Papua,Acaricuara,Monforth,SanFelipe,Yavarate,PuertoColombia,LaPedrera,PanaPana,Cacahual,PuertoNarino,Araracuara,Tiquie,Mitú,Papúa,PuertoNariño,SanRafael,VillaAndrea,Comeyafu,SanLuis,Tarapacá,Carurú,SanMiguel,Mosoc,Sangobatea,Mazamari,Uchiza,Chilca,Andamarca,Ccapi,Pucara,Cabana,Desaguadero,SicaSica,Tiquina,Azangaro,Huayllabamba,Afagzu,Afuszu,Abodzu,Amingu,Adeszu,Animgu,Autzu,Afarzu,Abirzu,Adibgu,Alilzu,Amikgu,Akubzu,Alobzu,Apilgu,Cubeocu,Cubeozu,Cubeola"
   },
   {
     "name": "Desano",
@@ -1909,7 +1909,7 @@ window.unknownNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Mitu,Pacoa,Papua,Acaricuara,Monforth,SanFelipe,Yavarate,PuertoColombia,LaPedrera,PanaPana,Cacahual,PuertoNarino,Tarapaca,Tiquie,Caruru,Mitú,Papúa,PuertoNariño,Araracuara,SanRafael,VillaAndrea,Comeyafu,SanLuis,Tarapacá,Carurú,SanMiguel,Machupicchu,Ocuviri,Caracollo,Ailcu,Arecu,Anamcu,Adukgo,Anogcu,Afocu,Afurgo,Alegcu,Adumgo,Apiscu,Amuscu,Abuncu,Alircu,Adusgo,Abecu,Desanogo,Desanogu,Desanocu,Desanozu,Desanola"
+    "b": "Mitu,Pacoa,Papua,Acaricuara,Monforth,SanFelipe,Yavarate,PuertoColombia,LaPedrera,PanaPana,Cacahual,PuertoNarino,Tiquie,Mitú,Papúa,PuertoNariño,Araracuara,SanRafael,VillaAndrea,Comeyafu,SanLuis,Tarapacá,Carurú,SanMiguel,Machupicchu,Ocuviri,Caracollo,Ailcu,Arecu,Anamcu,Adukgo,Anogcu,Afocu,Afurgo,Alegcu,Adumgo,Apiscu,Amuscu,Abuncu,Alircu,Adusgo,Abecu,Desanocu,Desanozu,Desanola"
   },
   {
     "name": "Itene",
@@ -1918,7 +1918,7 @@ window.unknownNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "GuajaraMirim,CostaMarques,Pimenteiras,Cerejeiras,Colorado,Vilhena,PortoVelho,Ariquemes,JiParana,AltoAlegre,NovaMamore,CampoNovo,PimentaBueno,Cacoal,NovoHorizonte,GuajaráMirim,JiParaná,NovaMamoré,Theobroma,OuroPreto,SantaLuzia,SãoFrancisco,AltoParaíso,Bagua,Huacho,Aymaraes,Yanaoca,Munani,Juliaca,Puno,Huari,Collana,Mosoc,Sangobatea,Mazamari,Uchiza,SanMiguel,Chilca,Anipa,Alurgu,Alomgu,Amaspa,Aropa,Afirgu,Akamgu,Abukpa,Apugpa,Apargu,Aforpa,Amadpa,Adolgu,Akudgu,Afimpa,Itenego,Itenegu,Itenecu,Itenezu,Itenela"
+    "b": "GuajaraMirim,CostaMarques,Pimenteiras,Cerejeiras,Colorado,Vilhena,PortoVelho,Ariquemes,JiParana,AltoAlegre,NovaMamore,CampoNovo,PimentaBueno,Cacoal,NovoHorizonte,GuajaráMirim,JiParaná,NovaMamoré,Theobroma,OuroPreto,SantaLuzia,SãoFrancisco,AltoParaíso,Bagua,Huacho,Aymaraes,Yanaoca,Munani,Juliaca,Puno,Huari,Collana,Mosoc,Sangobatea,Mazamari,Uchiza,SanMiguel,Chilca,Anipa,Alurgu,Alomgu,Amaspa,Aropa,Afirgu,Akamgu,Abukpa,Apugpa,Apargu,Aforpa,Amadpa,Adolgu,Akudgu,Afimpa,Itenecu,Itenezu,Itenela"
   },
   {
     "name": "Hupdë",
@@ -1927,7 +1927,7 @@ window.unknownNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Mitu,Pacoa,Papua,Acaricuara,Monforth,SanFelipe,Yavarate,PuertoColombia,LaPedrera,Cacahual,Tiquie,Caruru,Tarapaca,SanRafael,VillaAndrea,Araracuara,Mitú,Papúa,Carurú,Tarapacá,Comeyafu,PanaPana,SanLuis,Abancay,BajoPichigua,Ocuviri,Moho,Acora,Toledo,SicaSica,Comanche,Tinta,Echarate,Tsanquiato,Huanuco,Cajamarca,Oyon,Espinar,Abakgo,Apusgo,Airgo,Akitgo,Amungo,Anakgo,Abelgo,Apomgo,Ameggo,Adatgo,Afukgo,Ailgo,Anilgo,Akusgo,Apasgo,Hupdgo,Hupdgu,Hupdcu,Hupdzu,Hupdla"
+    "b": "Mitu,Pacoa,Papua,Acaricuara,Monforth,SanFelipe,Yavarate,PuertoColombia,LaPedrera,Cacahual,Tiquie,SanRafael,VillaAndrea,Araracuara,Mitú,Papúa,Carurú,Tarapacá,Comeyafu,PanaPana,SanLuis,Abancay,BajoPichigua,Ocuviri,Moho,Acora,Toledo,SicaSica,Comanche,Tinta,Echarate,Tsanquiato,Huanuco,Cajamarca,Oyon,Espinar,Abakgo,Apusgo,Airgo,Akitgo,Amungo,Anakgo,Abelgo,Apomgo,Ameggo,Adatgo,Afukgo,Ailgo,Anilgo,Akusgo,Apasgo,Hupdcu,Hupdzu,Hupdla,Hupda,Yuhup,Daw,Cabari,Vaupes,Traira,Icana,Uaracu,Uapes,Santana"
   },
   {
     "name": "Koreguaje",
@@ -1936,7 +1936,7 @@ window.unknownNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Mocoa,PuertoGuzman,PuertoCaicedo,VillaGarzon,PuertoAsis,Orito,SanMiguel,LaDorada,Sibundoy,Santiago,Colon,SanFrancisco,Piamonte,Sucre,PuertoGuzmán,PuertoAsís,Colón,ValleDelGuamuez,SanBernardo,MagüíPayán,ElTambo,LaCruz,Buesaco,Vilavila,Progreso,Amantani,Machacamarca,Tiquina,Calacoto,Checacupe,Machupicchu,Churingaveni,Pozuzo,Bagua,Huacho,Aymaraes,Yanaoca,Munani,Alubpa,Aurpa,Adupa,Apulpa,Afukpa,Amulpa,Akunpa,Afurpa,Alurpa,Adugpa,Abumpa,Akubpa,Anugpa,Apupa,Apudpa,Koreguajego,Koreguajegu,Koreguajecu,Koreguajezu,Koreguajela"
+    "b": "Mocoa,PuertoGuzman,PuertoCaicedo,VillaGarzon,PuertoAsis,Orito,SanMiguel,LaDorada,Sibundoy,Santiago,Colon,SanFrancisco,Piamonte,Sucre,PuertoGuzmán,PuertoAsís,Colón,ValleDelGuamuez,SanBernardo,MagüíPayán,ElTambo,LaCruz,Buesaco,Vilavila,Progreso,Amantani,Machacamarca,Tiquina,Calacoto,Checacupe,Machupicchu,Churingaveni,Pozuzo,Bagua,Huacho,Aymaraes,Yanaoca,Munani,Alubpa,Aurpa,Adupa,Apulpa,Afukpa,Amulpa,Akunpa,Afurpa,Alurpa,Adugpa,Abumpa,Akubpa,Anugpa,Apupa,Apudpa,Koreguajecu,Koreguajezu,Koreguajela,Koreguaje,Churuyaco,Peneya,Rumiyaco,Pescado,Churuyo,Mandur,Caqueta,Fragua,Bruselas"
   },
   {
     "name": "Tukano",
@@ -1945,7 +1945,7 @@ window.unknownNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Mitu,Pacoa,Papua,Acaricuara,Monforth,SanFelipe,Yavarate,PuertoColombia,LaPedrera,PanaPana,Cacahual,Tiquie,Caruru,Tarapaca,PuertoNarino,Mitú,Papúa,Carurú,Tarapacá,SanRafael,VillaAndrea,Araracuara,Comeyafu,SanLuis,PuertoNariño,Tiquillaca,Tiwanacu,Calamarca,Guaqui,Lampa,Ollantaytambo,Unini,VillaRica,Rioja,Pativilca,Abancay,BajoPichigua,Ocuviri,Moho,Acora,Tukanogo,Tukanogu,Tukanocu,Tukanozu,Tukanola,Tukanona,Tukanoma,Tukanopa,Tukanora,Tukanosa,Tukanota,Tukanoca,Tukanoba,Tukanoda,Tukanofa,Tukanoga,Tukanoha,Tukanoja,Tukanoka,Tukanolla"
+    "b": "Mitu,Pacoa,Papua,Acaricuara,Monforth,SanFelipe,Yavarate,PuertoColombia,LaPedrera,PanaPana,Cacahual,Tiquie,PuertoNarino,Mitú,Papúa,Carurú,Tarapacá,SanRafael,VillaAndrea,Araracuara,Comeyafu,SanLuis,PuertoNariño,Tiquillaca,Tiwanacu,Calamarca,Guaqui,Lampa,Ollantaytambo,Unini,VillaRica,Rioja,Pativilca,Abancay,BajoPichigua,Ocuviri,Moho,Acora,Tukanozu,Tukanola,Tukanona,Tukanoma,Tukanopa,Tukanora,Tukanosa,Tukanota,Tukanoba,Tukanoda,Tukanofa,Tukanoha,Tukanoja,Tukanoka,Tukanolla,Tukano,Uaupes,Tapuya,Santos,Gabriel,Jacare,Santana,Cururu,Tuiuca,Tuna,Travira"
   },
   {
     "name": "Wanano",
@@ -1954,7 +1954,7 @@ window.unknownNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Mitu,Pacoa,Papua,Tarapaca,Acaricuara,Monforth,SanFelipe,Yavarate,PuertoColombia,LaPedrera,PanaPana,Cacahual,PuertoNarino,Tiquie,Caruru,Mitú,Papúa,Tarapacá,PuertoNariño,Araracuara,SanRafael,VillaAndrea,Carurú,Comeyafu,SanLuis,Patacamaya,Huatajata,Huancane,Coya,SantaRosa,Chanchamayo,Picota,Huamachuco,Yauca,Velille,Vilavila,Progreso,Amantani,Machacamarca,Tiquina,Abazu,Apekpa,Apanpa,Aotzu,Afezu,Animpa,Akitzu,Adigzu,Adinpa,Amekzu,Aobzu,Alampa,Anegpa,Alutzu,Aotpa,Wananogo,Wananogu,Wananocu,Wananozu,Wananola"
+    "b": "Mitu,Pacoa,Papua,Acaricuara,Monforth,SanFelipe,Yavarate,PuertoColombia,LaPedrera,PanaPana,Cacahual,PuertoNarino,Tiquie,Mitú,Papúa,Tarapacá,PuertoNariño,Araracuara,SanRafael,VillaAndrea,Carurú,Comeyafu,SanLuis,Patacamaya,Huatajata,Huancane,Coya,SantaRosa,Chanchamayo,Picota,Huamachuco,Yauca,Velille,Vilavila,Progreso,Amantani,Machacamarca,Tiquina,Abazu,Apekpa,Apanpa,Aotzu,Afezu,Animpa,Akitzu,Adigzu,Adinpa,Amekzu,Aobzu,Alampa,Anegpa,Alutzu,Aotpa,Wananocu,Wananozu,Wananola,Wanano,Piratapuya,Pira,Macu,Stella,Cururu,Icana,Cachoeira,Jacare,Santana,Tunui"
   },
   {
     "name": "Tatuyo",
@@ -1963,7 +1963,7 @@ window.unknownNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Mitu,Pacoa,Papua,Acaricuara,Monforth,SanFelipe,Yavarate,PuertoColombia,LaPedrera,PanaPana,Cacahual,Tiquie,Caruru,Tarapaca,SanRafael,Mitú,Papúa,Carurú,Tarapacá,VillaAndrea,Araracuara,Comeyafu,SanLuis,PuertoNariño,Ilave,Saylla,SantaAna,Satipo,Saposoa,Contumaza,Ica,SantoTomas,Ocoruro,Chupa,Tiquillaca,Tiwanacu,Calamarca,Guaqui,Lampa,Amincu,Alagcu,Aponcu,Aubcu,Apumcu,Adoscu,Amalcu,Adikcu,Akitcu,Akagcu,Alomcu,Afubcu,Apocu,Aancu,Amikcu,Tatuyogo,Tatuyogu,Tatuyocu,Tatuyozu,Tatuyola"
+    "b": "Mitu,Pacoa,Papua,Acaricuara,Monforth,SanFelipe,Yavarate,PuertoColombia,LaPedrera,PanaPana,Cacahual,Tiquie,SanRafael,Mitú,Papúa,Carurú,Tarapacá,VillaAndrea,Araracuara,Comeyafu,SanLuis,PuertoNariño,Ilave,Saylla,SantaAna,Satipo,Saposoa,Contumaza,Ica,SantoTomas,Ocoruro,Chupa,Tiquillaca,Tiwanacu,Calamarca,Guaqui,Lampa,Amincu,Alagcu,Aponcu,Aubcu,Apumcu,Adoscu,Amalcu,Adikcu,Akitcu,Akagcu,Alomcu,Afubcu,Apocu,Aancu,Amikcu,Tatuyocu,Tatuyozu,Tatuyola,Tatuyo,Yuna,Paca,Wacara,Piratapuya,Macu,Monfort,Piracuara,Mituse"
   },
   {
     "name": "Siriano",
@@ -1972,7 +1972,7 @@ window.unknownNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Mitu,Pacoa,Papua,Acaricuara,Monforth,SanFelipe,Yavarate,PuertoColombia,LaPedrera,PanaPana,Cacahual,Tiquie,Caruru,Tarapaca,PuertoNarino,Mitú,Papúa,Carurú,Tarapacá,SanRafael,VillaAndrea,Araracuara,Comeyafu,SanLuis,PuertoNariño,Kepashiato,Pangoa,Tocache,Hualgayoc,Mala,Kinsachata,Suyckutambo,Japurin,Atuncolla,Yunguyo,Patacamaya,Huatajata,Huancane,Coya,SantaRosa,Akatgu,Afinzu,Akekgu,Akimzu,Adingu,Afizu,Anubgu,Afikzu,Abilgu,Akangu,Alitgu,Adusgu,Arogu,Amitzu,Apolgu,Sirianogo,Sirianogu,Sirianocu,Sirianozu,Sirianola"
+    "b": "Mitu,Pacoa,Papua,Acaricuara,Monforth,SanFelipe,Yavarate,PuertoColombia,LaPedrera,PanaPana,Cacahual,Tiquie,PuertoNarino,Mitú,Papúa,Carurú,Tarapacá,SanRafael,VillaAndrea,Araracuara,Comeyafu,SanLuis,PuertoNariño,Kepashiato,Pangoa,Tocache,Hualgayoc,Mala,Kinsachata,Suyckutambo,Japurin,Atuncolla,Yunguyo,Patacamaya,Huatajata,Huancane,Coya,SantaRosa,Akatgu,Afinzu,Akekgu,Akimzu,Adingu,Afizu,Anubgu,Afikzu,Abilgu,Akangu,Alitgu,Adusgu,Arogu,Amitzu,Apolgu,Sirianocu,Sirianozu,Sirianola,Siriano,Pacu,Tuiuka,Caruru,Tara,Yacare,Sacaca,Japurura,Trovador,Amane,Cocoa"
   },
   {
     "name": "Siona",
@@ -1981,7 +1981,7 @@ window.unknownNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "PuertoAsis,PuertoCaicedo,Orito,SanMiguel,LaDorada,Sibundoy,Santiago,Colon,SanFrancisco,Piamonte,Sucre,ValleDelGuamuez,Mocoa,VillaGarzon,PuertoAsís,Colón,PuertoGuzmán,MagüíPayán,ElTambo,LaCruz,Buesaco,SanBernardo,Ambo,Celendin,Cajatambo,Chuquibambilla,Yauri,Llalli,Cabanillas,Juli,Eucaliptus,Ventilla,Ilave,Saylla,SantaAna,Satipo,Saposoa,Anedgo,Anurgo,Aibgo,Aputcu,Adongo,Aosgo,Akimgo,Apubcu,Amibgo,Audcu,Aikgo,Abubgo,Apego,Adubcu,Amesgo,Sionago,Sionagu,Sionacu,Sionazu,Sionala"
+    "b": "PuertoAsis,PuertoCaicedo,Orito,SanMiguel,LaDorada,Sibundoy,Santiago,Colon,SanFrancisco,Piamonte,Sucre,ValleDelGuamuez,Mocoa,VillaGarzon,PuertoAsís,Colón,PuertoGuzmán,MagüíPayán,ElTambo,LaCruz,Buesaco,SanBernardo,Ambo,Celendin,Cajatambo,Chuquibambilla,Yauri,Llalli,Cabanillas,Juli,Eucaliptus,Ventilla,Ilave,Saylla,SantaAna,Satipo,Saposoa,Anedgo,Anurgo,Aibgo,Aputcu,Adongo,Aosgo,Akimgo,Apubcu,Amibgo,Audcu,Aikgo,Abubgo,Apego,Adubcu,Amesgo,Sionacu,Sionazu,Sionala,Siona,Pinuna,Blanco,Cofan,Guamu,Cuembi,Yasuni,Aguarico,Enokay,Piaguaje,Sionero"
   },
   {
     "name": "Rama",
@@ -1999,7 +1999,7 @@ window.unknownNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "SantaMarta,Valledupar,Fonseca,SanJuanDelCesar,Barrancas,Hatonuevo,Albania,Manaure,Riohacha,Maicao,Uribia,Dibulla,Mingueo,Dorada,PuebloViejo,Guachaca,DonDiego,Tamarindo,Palomino,Cañas,Chamaca,Palca,Asillo,Capachica,Guarachi,Huarina,SantiagoDeMachaca,Sicuani,Urubamba,Shimaa,CodoDelPozuzo,Jaen,Huaura,Antabamba,Pichigua,Aebpa,Aunpa,Amuggu,Akonpa,Adospa,Amimpa,Aukpa,Akiggu,Anosgu,Amepa,Alarpa,Alabgu,Aargu,Afabpa,Apelpa,Chimilago,Chimilagu,Chimilacu,Chimilazu,Chimilala"
+    "b": "SantaMarta,Valledupar,Fonseca,SanJuanDelCesar,Barrancas,Hatonuevo,Albania,Manaure,Riohacha,Maicao,Uribia,Dibulla,Mingueo,Dorada,PuebloViejo,Guachaca,DonDiego,Tamarindo,Palomino,Cañas,Chamaca,Palca,Asillo,Capachica,Guarachi,Huarina,SantiagoDeMachaca,Sicuani,Urubamba,Shimaa,CodoDelPozuzo,Jaen,Huaura,Antabamba,Pichigua,Aebpa,Aunpa,Amuggu,Akonpa,Adospa,Amimpa,Aukpa,Akiggu,Anosgu,Amepa,Alarpa,Alabgu,Aargu,Afabpa,Apelpa,Chimilacu,Chimilazu,Chimilala"
   },
   {
     "name": "Piaroa",
@@ -2008,7 +2008,7 @@ window.unknownNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "PuertoAyacucho,LaEsmeralda,Maroa,SanFernandoDeAtabapo,SanCarlosDelRioNegro,SanSimon,Cacahual,PanaPana,Monforth,Mavaca,Ocamo,Platanal,Maipures,SanCarlosDelRíoNegro,SanSimón,Sipapo,Guarinuma,PuertoPáez,ElBurro,Pararuma,Morichito,Yavaraté,Arapa,Mañazo,Huaqui,AyoAyo,Desaguadero,Ayaviri,Yucay,Putucusi,Oxapampa,Moyobamba,Quiruvilca,Coracora,AltoPichigua,Occo,Camjata,Akakgo,Akumgo,Adorgo,Anergo,Abulgo,Afaggo,Abiggo,Aasgo,Amongo,Adeggo,Aedgo,Anokgo,Adungo,Aaggo,Abibgo,Piaroago,Piaroagu,Piaroacu,Piaroazu,Piaroala"
+    "b": "PuertoAyacucho,LaEsmeralda,Maroa,SanFernandoDeAtabapo,SanCarlosDelRioNegro,SanSimon,Cacahual,PanaPana,Monforth,Mavaca,Ocamo,Platanal,Maipures,SanCarlosDelRíoNegro,SanSimón,Sipapo,Guarinuma,PuertoPáez,ElBurro,Pararuma,Morichito,Yavaraté,Arapa,Mañazo,Huaqui,AyoAyo,Desaguadero,Ayaviri,Yucay,Putucusi,Oxapampa,Moyobamba,Quiruvilca,Coracora,AltoPichigua,Occo,Camjata,Akakgo,Akumgo,Adorgo,Anergo,Abulgo,Afaggo,Abiggo,Aasgo,Amongo,Adeggo,Aedgo,Anokgo,Adungo,Aaggo,Abibgo,Piaroacu,Piaroazu,Piaroala"
   },
   {
     "name": "Toba",
@@ -2026,7 +2026,7 @@ window.unknownNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Maicao,Uribia,Manaure,Riohacha,Albania,Hatonuevo,Barrancas,Fonseca,SanJuanDelCesar,Distraccion,ElMolino,Villanueva,Dibulla,Camarones,PuertoEstrella,Nazaret,Distracción,LaJaguaDelPilar,Urumita,Mingueo,PuertoLópez,Uchiza,SanMiguel,Chilca,Andamarca,Ccapi,Pucara,Cabana,Desaguadero,SicaSica,Tiquina,Azangaro,Huayllabamba,VillaVirgen,Pichanaqui,Tarapoto,Wayuugo,Wayuugu,Wayuucu,Wayuuzu,Wayuula,Wayuuna,Wayuuma,Wayuupa,Wayuura,Wayuusa,Wayuuta,Wayuuca,Wayuuba,Wayuuda,Wayuufa,Wayuuga,Wayuuha,Wayuuja,Wayuuka,Wayuulla"
+    "b": "Maicao,Uribia,Manaure,Riohacha,Albania,Hatonuevo,Barrancas,Fonseca,SanJuanDelCesar,Distraccion,ElMolino,Villanueva,Dibulla,Camarones,PuertoEstrella,Nazaret,Distracción,LaJaguaDelPilar,Urumita,Mingueo,PuertoLópez,Uchiza,SanMiguel,Chilca,Andamarca,Ccapi,Pucara,Cabana,Desaguadero,SicaSica,Tiquina,Azangaro,Huayllabamba,VillaVirgen,Pichanaqui,Tarapoto,Wayuuzu,Wayuula,Wayuuna,Wayuuma,Wayuupa,Wayuura,Wayuusa,Wayuuta,Wayuuba,Wayuuda,Wayuufa,Wayuuha,Wayuuja,Wayuuka,Wayuulla"
   },
   {
     "name": "Barí",
@@ -2053,7 +2053,7 @@ window.unknownNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Cochabamba,VillaTunari,Shinahota,EntreRios,Colomi,Sacaba,Tiquipaya,Vinto,Quillacollo,PuertoVillarroel,Chimore,Ivirgarzama,PuertoSanFrancisco,ValleGrande,Mairana,Samaipata,BuloBulo,Chimoré,Shinahuata,Pucara,Totora"
+    "b": "Cochabamba,VillaTunari,Shinahota,EntreRios,Colomi,Sacaba,Tiquipaya,Vinto,Quillacollo,PuertoVillarroel,Ivirgarzama,PuertoSanFrancisco,ValleGrande,Mairana,Samaipata,BuloBulo,Chimoré,Shinahuata,Pucara,Totora"
   },
   {
     "name": "Guambiano",
@@ -2062,7 +2062,7 @@ window.unknownNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Popayan,Silvia,Jambalo,Toribio,Caloto,SantaderDeQuilichao,Piendama,Caldas,BuenosAires,Morales,Suarez,SanSebastian,Argelia,ElTambo,PuertoTejada,Padilla,Guachene,VillaRica,Miranda,Corinto,Popayán,Jambaló,Toribío,Piendamá,Suárez,SanSebastián,Guachené,Andahuaylas,MosocCancha,Cabana,Tilali,Plateria,Challacollo,Calamarca,Pomata,Livitaca,Pichari,Kivinaki,TingoMaria,Bambamarca,Yauyos,Tambobamba,Apezu,Amirpa,Amempa,Anutzu,Aigzu,Alolpa,Adokzu,Aodzu,Aompa,Adapa,Akirzu,Anubzu,Afelpa,Alidpa,Akemzu,Guambianogo,Guambianogu,Guambianocu,Guambianozu,Guambianola"
+    "b": "Popayan,Silvia,Toribio,Caloto,SantaderDeQuilichao,Caldas,BuenosAires,Morales,Suarez,SanSebastian,Argelia,ElTambo,PuertoTejada,Padilla,VillaRica,Miranda,Corinto,Popayán,Jambaló,Toribío,Piendamá,Suárez,SanSebastián,Guachené,Andahuaylas,MosocCancha,Cabana,Tilali,Plateria,Challacollo,Calamarca,Pomata,Livitaca,Pichari,Kivinaki,TingoMaria,Bambamarca,Yauyos,Tambobamba,Apezu,Amirpa,Amempa,Anutzu,Aigzu,Alolpa,Adokzu,Aodzu,Aompa,Adapa,Akirzu,Anubzu,Afelpa,Alidpa,Akemzu,Guambianocu,Guambianozu,Guambianola"
   },
   {
     "name": "Awa Pit",
@@ -2080,7 +2080,7 @@ window.unknownNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Iquitos,Pebas,SanPablo,TresFronteras,Caballococha,RamonCastilla,PuertoAlegria,SantaRosa,PuertoPrado,Orellana,JenaroHerrera,Requena,Lagunas,Contamana,Saquin,PampaHermosa,PuertoSánchez,SanPedro,ColoniaAngamos,Bellavista,Caracoto,Yauca,Taraco,Apanzu,Amespa,Amakpa,Anodzu,Abemzu,Alirpa,Adibzu,Abilzu,Aikpa,Adumpa,Akeszu,Apozu,Afarpa,Amelpa,Akakzu,Borago,Boragu,Boracu,Borazu,Borala"
+    "b": "Iquitos,Pebas,SanPablo,TresFronteras,Caballococha,RamonCastilla,PuertoAlegria,SantaRosa,PuertoPrado,Orellana,JenaroHerrera,Requena,Lagunas,Contamana,Saquin,PampaHermosa,PuertoSánchez,SanPedro,ColoniaAngamos,Bellavista,Caracoto,Yauca,Taraco,Apanzu,Amespa,Amakpa,Anodzu,Abemzu,Alirpa,Adibzu,Abilzu,Aikpa,Adumpa,Akeszu,Apozu,Afarpa,Amelpa,Akakzu,Boracu,Borazu,Borala"
   },
   {
     "name": "Bauré",
@@ -2089,7 +2089,7 @@ window.unknownNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Trinidad,Loreto,SanIgnacio,Concepcion,SanJavier,SanRamon,SanJoaquin,Magdalena,BellaVista,SanMiguel,SanMatias,Robore,SanJose,PuertoSuarez,SantaAna,Moxos,Concepción,SanMatías,Roboré,SanJosé,PuertoSuárez,SanCarlos,SanPedro,SanLuis,Santiago,Taquile,Cajamarca,Samane,Quiruvilca,Calacoto,Machacamarca,Arapa,Cupi,Tiquillaca,Huari,Tinta,Yauyos,Challacollo,Saposoa,Kinsachata,Baurgo,Baurgu,Baurcu,Baurzu,Baurla,Baurna,Baurma,Baurpa,Baurra,Baursa,Baurta,Baurca,Baurba,Baurda,Baurfa,Baurga,Baurha,Baurja,Baurka,Baurlla"
+    "b": "Trinidad,Loreto,SanIgnacio,Concepcion,SanJavier,SanRamon,SanJoaquin,Magdalena,BellaVista,SanMiguel,SanMatias,SanJose,PuertoSuarez,SantaAna,Moxos,Concepción,SanMatías,Roboré,SanJosé,PuertoSuárez,SanCarlos,SanPedro,SanLuis,Santiago,Taquile,Cajamarca,Samane,Quiruvilca,Calacoto,Machacamarca,Arapa,Cupi,Tiquillaca,Huari,Tinta,Yauyos,Challacollo,Saposoa,Kinsachata,Baurzu,Baurla,Baurna,Baurma,Baurpa,Baurra,Baursa,Baurta,Baurba,Baurda,Baurfa,Baurha,Baurja,Baurka,Baurlla,Baure,AltoOllero,Santisimon,SantoCorazon,BuenaVista,Palmarito,Belen,MonteCristo"
   },
   {
     "name": "Enlhet",
@@ -2107,7 +2107,7 @@ window.unknownNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Jutai,SantoAntonioDoIca,Amatura,Tonantins,FonteBoa,Japura,Maraa,Tefe,Alvaraes,Uarini,Coari,Codajas,Anori,Carauari,Itamarati,Pauini,Envira,Eirunepe,BenjaminConstant,Tabatinga,Jutaí,SantoAntonioDoIça,Amaturá,Japurá,JapuráRiver,Tefé,Alvarães,Codajás,Eirunepé,SãoPauloDeOlivença,Sicuani,Urubamba,Shimaa,CodoDelPozuzo,Jaen,Huaura,Antabamba,Pichigua,Ayaviri,Conima,Pichacani,Poopo,Laja,Acora,Layo,Apuscu,Apincu,Abascu,Afemcu,Abetcu,Alalcu,Apikcu,Akudcu,Akomcu,Adotcu,Amugcu,Anincu,Anascu,Aedcu,Amemcu,Kanamarigo,Kanamarigu,Kanamaricu,Kanamarizu,Kanamarila"
+    "b": "SantoAntonioDoIca,Tonantins,FonteBoa,Maraa,Tefe,Alvaraes,Uarini,Coari,Codajas,Anori,Carauari,Itamarati,Pauini,Envira,BenjaminConstant,Tabatinga,Jutaí,SantoAntonioDoIça,Amaturá,Japurá,JapuráRiver,Tefé,Alvarães,Codajás,Eirunepé,SãoPauloDeOlivença,Sicuani,Urubamba,Shimaa,CodoDelPozuzo,Jaen,Huaura,Antabamba,Pichigua,Ayaviri,Conima,Pichacani,Poopo,Laja,Acora,Layo,Apuscu,Apincu,Abascu,Afemcu,Abetcu,Alalcu,Apikcu,Akudcu,Akomcu,Adotcu,Amugcu,Anincu,Anascu,Aedcu,Amemcu,Kanamaricu,Kanamarizu,Kanamarila"
   },
   {
     "name": "Mocoví",
@@ -2116,7 +2116,7 @@ window.unknownNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Reconquista,Vera,LasToscas,Avellaneda,Malabrigo,BernardoDeIrigoyen,SanCristobal,Rafaela,Sunchales,Tostado,Ceres,Anatuya,Quimili,MonteQuemado,SantiagoDelEstero,LaBanda,SanCristóbal,SanJusto,Añatuya,Quimilí,PampaDeLosGuanacos,TermasDeRíoHondo,Frías"
+    "b": "Reconquista,Vera,LasToscas,Avellaneda,Malabrigo,BernardoDeIrigoyen,SanCristobal,Rafaela,Sunchales,Tostado,Ceres,Anatuya,MonteQuemado,SantiagoDelEstero,LaBanda,SanCristóbal,SanJusto,Añatuya,Quimilí,PampaDeLosGuanacos,TermasDeRíoHondo,Frías"
   },
   {
     "name": "Wounaan",
@@ -2143,7 +2143,7 @@ window.unknownNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "RioGrande,Tolhuin,Porvenir,Cameron,PuertoWilliams,PuntaArenas,PuertoNatales,Ushuaia,SanSebastian,CaletaOlivia,CerroSombrero,LagoFagnano,Ewan,Lapataia,LagoEscondido,RíoGrande,PampaGuanaco,EstanciaVicuña,Onaisin,BahiaInutil,Coporaque,Antauta,Nicasio,Pomata,Caracollo,Pucarani,Huarina,Taray,Palmapampa,Tambo,Bellavista,Otuzco,Acari,Chamaca,Palca,Abocu,Aakgo,Aidcu,Apelcu,Afakgo,Apudcu,Afugcu,Akargo,Alebcu,Amidcu,Afamgo,Aokcu,Arago,Adancu,Amoncu,Onago,Onagu,Onacu,Onazu,Onala"
+    "b": "RioGrande,Tolhuin,Porvenir,Cameron,PuertoWilliams,PuntaArenas,PuertoNatales,Ushuaia,SanSebastian,CaletaOlivia,CerroSombrero,LagoFagnano,Ewan,Lapataia,LagoEscondido,RíoGrande,PampaGuanaco,EstanciaVicuña,Onaisin,BahiaInutil,Coporaque,Antauta,Nicasio,Pomata,Caracollo,Pucarani,Huarina,Taray,Palmapampa,Tambo,Bellavista,Otuzco,Acari,Chamaca,Palca,Abocu,Aakgo,Aidcu,Apelcu,Afakgo,Apudcu,Afugcu,Akargo,Alebcu,Amidcu,Afamgo,Aokcu,Arago,Adancu,Amoncu,Onacu,Onazu,Onala"
   },
   {
     "name": "Yahgan",
@@ -2152,7 +2152,7 @@ window.unknownNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "PuertoWilliams,CaletaOlivia,PuntaArenas,Porvenir,Cameron,SanSebastian,RioGrande,Tolhuin,Ushuaia,EstanciaVicuna,LagoFagnano,Ewan,Lapataia,LagoEscondido,RíoGrande,EstanciaVicuña,Onaisin,BahiaInutil,CerroSombrero,PampaGuanaco,Almanza,Caracoto,SanAntonio,Soracachi,Colquencha,Juli,Pitumarca,SanMiguel,PuertoOcopa,Chazuta,SanPablo,Chincha,Pomacanchi,Tisco,Arapa,Mañazo,Anogpa,Amargu,Amulgu,Akongu,Alelgu,Adakpa,Aadpa,Aboggu,Anebpa,Aladgu,Akolpa,Afikpa,Afidgu,Anitgu,Abidpa,Yahgango,Yahgangu,Yahgancu,Yahganzu,Yahganla"
+    "b": "PuertoWilliams,CaletaOlivia,PuntaArenas,Porvenir,Cameron,SanSebastian,RioGrande,Tolhuin,Ushuaia,EstanciaVicuna,LagoFagnano,Ewan,Lapataia,LagoEscondido,RíoGrande,EstanciaVicuña,Onaisin,BahiaInutil,CerroSombrero,PampaGuanaco,Almanza,Caracoto,SanAntonio,Soracachi,Colquencha,Juli,Pitumarca,SanMiguel,PuertoOcopa,Chazuta,SanPablo,Chincha,Pomacanchi,Tisco,Arapa,Mañazo,Anogpa,Amargu,Amulgu,Akongu,Alelgu,Adakpa,Aadpa,Aboggu,Anebpa,Aladgu,Akolpa,Afikpa,Afidgu,Anitgu,Abidpa,Yahgancu,Yahganzu,Yahganla"
   },
   {
     "name": "Cabiyari",
@@ -2161,7 +2161,7 @@ window.unknownNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Mitu,Pacoa,Papua,Acaricuara,Monforth,SanFelipe,Yavarate,PuertoColombia,LaPedrera,PanaPana,Cacahual,Tiquie,Caruru,PuertoNarino,Tarapaca,SanRafael,Araracuara,Mitú,Papúa,Carurú,PuertoNariño,LaChorrera,VillaAndrea,Yavaraté,Tarapacá,Patacamaya,Huatajata,Huancane,Coya,SantaRosa,Chanchamayo,Picota,Huamachuco,Yauca,Velille,Vilavila,Progreso,Amantani,Machacamarca,Tiquina,Amaggu,Akoszu,Amokgu,Apeggu,Anoszu,Abirgu,Apotzu,Afengu,Amosgu,Anorzu,Afalgu,Akolzu,Aubgu,Alamgu,Alokgu,Cabiyarigo,Cabiyarigu,Cabiyaricu,Cabiyarizu,Cabiyarila"
+    "b": "Mitu,Pacoa,Papua,Acaricuara,Monforth,SanFelipe,PuertoColombia,LaPedrera,PanaPana,Cacahual,Tiquie,PuertoNarino,SanRafael,Araracuara,Mitú,Papúa,Carurú,PuertoNariño,LaChorrera,VillaAndrea,Yavaraté,Tarapacá,Patacamaya,Huatajata,Huancane,Coya,SantaRosa,Chanchamayo,Picota,Huamachuco,Yauca,Velille,Vilavila,Progreso,Amantani,Machacamarca,Tiquina,Amaggu,Akoszu,Amokgu,Apeggu,Anoszu,Abirgu,Apotzu,Afengu,Amosgu,Anorzu,Afalgu,Akolzu,Aubgu,Alamgu,Alokgu,Cabiyaricu,Cabiyarizu,Cabiyarila,Cabiyari,Cuduyari,Umuar,Querari,Pacu,Yararaca,Caparu,Iauna,Trocha,Morroco,Miriti"
   },
   {
     "name": "Carijona",
@@ -2170,7 +2170,7 @@ window.unknownNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "PuertoAyacucho,LaEsmeralda,Maroa,SanFernandoDeAtabapo,SanCarlosDelRioNegro,SanSimon,Cacahual,Yavarate,PanaPana,Monforth,Mavaca,Ocamo,Platanal,Maipures,Sipapo,SanCarlosDelRíoNegro,SanSimón,Guarinuma,PuertoPáez,ElBurro,Pararuma,Morichito,Huacho,Pitumarca,Ocoruro,VillaVirgen,Afilgo,Aagcu,Adabgo,Alolgo,Amusgo,Akadcu,Apotgo,Adaggo,Afascu,Apirgo,Anebgo,Aarcu,Amelgo,Abirgo,Ababgo,Carijonago,Carijonagu,Carijonacu,Carijonazu,Carijonala"
+    "b": "PuertoAyacucho,LaEsmeralda,Maroa,SanFernandoDeAtabapo,SanCarlosDelRioNegro,SanSimon,Cacahual,Yavarate,PanaPana,Monforth,Mavaca,Ocamo,Platanal,Maipures,Sipapo,SanCarlosDelRíoNegro,SanSimón,Guarinuma,PuertoPáez,ElBurro,Pararuma,Morichito,Huacho,Pitumarca,Ocoruro,VillaVirgen,Afilgo,Aagcu,Adabgo,Alolgo,Amusgo,Akadcu,Apotgo,Adaggo,Afascu,Apirgo,Anebgo,Aarcu,Amelgo,Abirgo,Ababgo,Carijonacu,Carijonazu,Carijonala,Carijona,Yari,Yaguara,LaJulia,PuertoSantander,Chaira,Sabana,Aceitico,Mesetas,Lejanias,VistaHermosa"
   },
   {
     "name": "Kakwa (Cacua)",
@@ -2179,7 +2179,7 @@ window.unknownNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Mitu,Papua,Acaricuara,Monforth,SanFelipe,Pacoa,Yavarate,PuertoColombia,LaPedrera,PanaPana,Cacahual,Tiquie,Caruru,Tarapaca,SanRafael,VillaAndrea,Araracuara,Mitú,Papúa,Carurú,Tarapacá,Comeyafu,SanLuis,PuertoNariño,Kepashiato,Pangoa,Tocache,Hualgayoc,Mala,Kinsachata,Suyckutambo,Japurin,Atuncolla,Yunguyo,Patacamaya,Huatajata,Huancane,Coya,SantaRosa,Amadzu,Amimgu,Amutzu,Akobzu,Ailgu,Aletzu,Adorzu,Afukzu,Apiggu,Amanzu,Akinzu,Alisgu,Apizu,Afazu,Anuszu,KakwaCacuago,KakwaCacuagu,KakwaCacuacu,KakwaCacuazu,KakwaCacuala"
+    "b": "Mitu,Papua,Acaricuara,Monforth,SanFelipe,Pacoa,Yavarate,PuertoColombia,LaPedrera,PanaPana,Cacahual,Tiquie,SanRafael,VillaAndrea,Araracuara,Mitú,Papúa,Carurú,Tarapacá,Comeyafu,SanLuis,PuertoNariño,Kepashiato,Pangoa,Tocache,Hualgayoc,Mala,Kinsachata,Suyckutambo,Japurin,Atuncolla,Yunguyo,Patacamaya,Huatajata,Huancane,Coya,SantaRosa,Amadzu,Amimgu,Amutzu,Akobzu,Ailgu,Aletzu,Adorzu,Afukzu,Apiggu,Amanzu,Akinzu,Alisgu,Apizu,Afazu,Anuszu,KakwaCacuago,KakwaCacuagu,KakwaCacuacu,KakwaCacuazu,KakwaCacuala,Kakwa,Cacua,Wacara,Trocha,Tunel,SantaMaria,Morichal"
   },
   {
     "name": "Cuiba",
@@ -2188,7 +2188,7 @@ window.unknownNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "PuertoCarreno,LaPrimavera,SantaRosalia,PuertoGaitan,NuevaAntioquia,SantaBarbara,ElPorvenir,SanLuisDePalenque,Orocue,Trinidad,PazDeAriporo,Pore,Yopal,Aguazul,Tauramena,Villanueva,Monterrey,Mani,Sabanalarga,Nunchia,PuertoCarreño,SantaRosalía,PuertoGaitán,SantaBárbara,Orocué,Maní,Nunchía,Asillo,Capachica,Guarachi,Huarina,SantiagoDeMachaca,Sicuani,Urubamba,Shimaa,CodoDelPozuzo,Jaen,Huaura,Antabamba,Pichigua,Ayaviri,Conima,Aulpa,Afulpa,Akupa,Adudpa,Afunpa,Akugpa,Akukpa,Amurpa,Apubpa,Arupa,Anumpa,Anurpa,Amunpa,Apunpa,Aludpa,Cuibago,Cuibagu,Cuibacu,Cuibazu,Cuibala"
+    "b": "PuertoCarreno,LaPrimavera,SantaRosalia,PuertoGaitan,NuevaAntioquia,SantaBarbara,ElPorvenir,SanLuisDePalenque,Trinidad,PazDeAriporo,Pore,Yopal,Aguazul,Tauramena,Villanueva,Monterrey,Mani,Sabanalarga,Nunchia,PuertoCarreño,SantaRosalía,PuertoGaitán,SantaBárbara,Orocué,Maní,Nunchía,Asillo,Capachica,Guarachi,Huarina,SantiagoDeMachaca,Sicuani,Urubamba,Shimaa,CodoDelPozuzo,Jaen,Huaura,Antabamba,Pichigua,Ayaviri,Conima,Aulpa,Afulpa,Akupa,Adudpa,Afunpa,Akugpa,Akukpa,Amurpa,Apubpa,Arupa,Anumpa,Anurpa,Amunpa,Apunpa,Aludpa,Cuibacu,Cuibazu,Cuibala,Cuiba,Guanapalo,Ariporo,Casanare,Pauto,Cravo,Guachiria,Chire,Capanaparo,RioMeta,Cinaruco"
   },
   {
     "name": "Cayuvava",
@@ -2197,7 +2197,7 @@ window.unknownNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "SantaAnaDeYacuma,SanIgnacio,SanJoaquin,Magdalena,Trinidad,Loreto,SanRamon,SanPedro,SanCarlos,SanMiguel,SanLuis,SanJose,Santiago,Concepcion,SanJavier,Robore,SanMatias,PuertoSuarez,BellaVista,SantaRosa,SanRamón,SanJosé,Concepción,Roboré,SanMatías,PuertoSuárez,Cabana,Tilali,Plateria,Challacollo,Calamarca,Pomata,Livitaca,Pichari,Kivinaki,TingoMaria,Bambamarca,Yauyos,Tambobamba,Coporaque,Antauta,Alaszu,Akepa,Alomzu,Aneszu,Abugpa,Adibpa,Ailzu,Anitzu,Amigpa,Apuspa,Adezu,Alorzu,Aabpa,Afekpa,Abadzu,Cayuvavago,Cayuvavagu,Cayuvavacu,Cayuvavazu,Cayuvavala"
+    "b": "SantaAnaDeYacuma,SanIgnacio,SanJoaquin,Magdalena,Trinidad,Loreto,SanRamon,SanPedro,SanCarlos,SanMiguel,SanLuis,SanJose,Santiago,Concepcion,SanJavier,SanMatias,PuertoSuarez,BellaVista,SantaRosa,SanRamón,SanJosé,Concepción,Roboré,SanMatías,PuertoSuárez,Cabana,Tilali,Plateria,Challacollo,Calamarca,Pomata,Livitaca,Pichari,Kivinaki,TingoMaria,Bambamarca,Yauyos,Tambobamba,Coporaque,Antauta,Alaszu,Akepa,Alomzu,Aneszu,Abugpa,Adibpa,Ailzu,Anitzu,Amigpa,Apuspa,Adezu,Alorzu,Aabpa,Afekpa,Abadzu,Cayuvavacu,Cayuvavazu,Cayuvavala,Cayuvava,Exaltacion,SantaAna,Yacuma,Mamore,Ibare,Apere,Matos,Tijera,Guapoy,Versalles"
   },
   {
     "name": "Guarani",
@@ -2215,7 +2215,7 @@ window.unknownNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "PuertoCarreno,LaPrimavera,SantaRosalia,PuertoGaitan,ElPorvenir,SanLuisDePalenque,Orocue,Trinidad,PazDeAriporo,Yopal,Aguazul,Tauramena,Villanueva,Monterrey,Mani,Nunchia,Gameza,Sacama,Cumaral,PuertoCarreño,SantaRosalía,PuertoGaitán,Orocué,Maní,Nunchía,Chámeza,LaSalina,Aguaclara,Azangaro,Huayllabamba,VillaVirgen,Pichanaqui,Tarapoto,SantiagoDeChuco,Puquio,Condoroma,Umachiri,Taraco,Taquile,Corocoro,Achacachi,Ulloma,Combapata,Aduggo,Alirgo,Akulcu,Amoggo,Alongo,Alucu,Apidgo,Afulgo,Afudcu,Apesgo,Amargo,Abesgo,Akuncu,Abuggo,Adingo,GuahiboSikuanigo,GuahiboSikuanigu,GuahiboSikuanicu,GuahiboSikuanizu,GuahiboSikuanila"
+    "b": "PuertoCarreno,LaPrimavera,SantaRosalia,PuertoGaitan,ElPorvenir,SanLuisDePalenque,Trinidad,PazDeAriporo,Yopal,Aguazul,Tauramena,Villanueva,Monterrey,Mani,Nunchia,Gameza,Sacama,Cumaral,PuertoCarreño,SantaRosalía,PuertoGaitán,Orocué,Maní,Nunchía,Chámeza,LaSalina,Aguaclara,Azangaro,Huayllabamba,VillaVirgen,Pichanaqui,Tarapoto,SantiagoDeChuco,Puquio,Condoroma,Umachiri,Taraco,Taquile,Corocoro,Achacachi,Ulloma,Combapata,Aduggo,Alirgo,Akulcu,Amoggo,Alongo,Alucu,Apidgo,Afulgo,Afudcu,Apesgo,Amargo,Abesgo,Akuncu,Abuggo,Adingo,GuahiboSikuanigo,GuahiboSikuanigu,GuahiboSikuanicu,GuahiboSikuanizu,GuahiboSikuanila,Guahibo,Sikuani,Ariporo,Tuparro,Tomar,Tillava,Capertia,Sivapure,Guaripa,Paravare,Cupil"
   },
   {
     "name": "Guayabero",
@@ -2224,7 +2224,7 @@ window.unknownNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "PuertoCarreno,LaPrimavera,SantaRosalia,PuertoGaitan,ElPorvenir,SanLuisDePalenque,Orocue,Trinidad,PazDeAriporo,Yopal,Aguazul,Villanueva,Monterrey,Sabanalarga,Nunchia,PuertoCarreño,SantaRosalía,PuertoGaitán,Orocué,Nunchía,Chámeza,LaSalina,Sacama,Pore,SantaBárbara,LaConvencion,RioNegro,Juanjui,Cascas,Nazca,Colquemarca,Tahuapalca,Samane,Paucarcolla,Laja,Vlacha,Tiwanaku,Pucara,Pisac,Samaniato,Anuzu,Amekgu,Amodzu,Alizu,Aergu,Aladzu,Abengu,Adiszu,Afobzu,Aelgu,Amukzu,Aketzu,Aleggu,Afumzu,Apigzu,Guayaberogo,Guayaberogu,Guayaberocu,Guayaberozu,Guayaberola"
+    "b": "PuertoCarreno,LaPrimavera,SantaRosalia,PuertoGaitan,ElPorvenir,SanLuisDePalenque,Trinidad,PazDeAriporo,Yopal,Aguazul,Villanueva,Monterrey,Sabanalarga,Nunchia,PuertoCarreño,SantaRosalía,PuertoGaitán,Orocué,Nunchía,Chámeza,LaSalina,Sacama,Pore,SantaBárbara,LaConvencion,RioNegro,Juanjui,Cascas,Nazca,Colquemarca,Tahuapalca,Samane,Paucarcolla,Laja,Vlacha,Tiwanaku,Pucara,Pisac,Samaniato,Anuzu,Amekgu,Amodzu,Alizu,Aergu,Aladzu,Abengu,Adiszu,Afobzu,Aelgu,Amukzu,Aketzu,Aleggu,Afumzu,Apigzu,Guayaberocu,Guayaberozu,Guayaberola,Guayabero,Ariari,Duda,Guejar,Caquetania,Macarena,LaJulia,Sabana,VistaHermosa,Lejanias,Mesetas"
   },
   {
     "name": "Guajá",
@@ -2233,7 +2233,7 @@ window.unknownNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "SantaLuzia,Pinheiro,Carutapera,GodofredoViana,Turiacu,CandidoMendes,ZeDoca,AltoParnaiba,Balsas,Carolina,Imperatriz,Araguaina,Paraopeba,Grajau,BarraDoCorda,Colinas,SaoJoaoDosPatos,Turiaçu,ZéDoca,Araguaína,Grajaú,SãoJoãoDosPatos,PassagemFranca,Sucupira,Riachão,Tinajani,Afencu,Adosgo,Afalcu,Abumcu,Alosgo,Adicu,Amotgo,Anugcu,Aacu,Alorgo,Adebcu,Adolgo,Akokcu,Apetcu,Alodgo,Guajgo,Guajgu,Guajcu,Guajzu,Guajla"
+    "b": "SantaLuzia,Pinheiro,Carutapera,GodofredoViana,Turiacu,CandidoMendes,ZeDoca,AltoParnaiba,Balsas,Carolina,Imperatriz,Araguaina,Paraopeba,BarraDoCorda,Colinas,SaoJoaoDosPatos,Turiaçu,ZéDoca,Araguaína,Grajaú,SãoJoãoDosPatos,PassagemFranca,Sucupira,Riachão,Tinajani,Afencu,Adosgo,Afalcu,Abumcu,Alosgo,Adicu,Amotgo,Anugcu,Aacu,Alorgo,Adebcu,Adolgo,Akokcu,Apetcu,Alodgo,Guajcu,Guajzu,Guajla"
   },
   {
     "name": "Guarayu",
@@ -2242,7 +2242,7 @@ window.unknownNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "SantaCruz,Montero,Warnes,Cotoca,Portachuelo,OkinawaUno,SanIgnacio,SanJavier,Concepcion,SanRamon,SanJoaquin,Magdalena,Ascencion,Robore,SanMatias,PuertoSuarez,SantaAna,BellaVista,Concepción,SanRamón,Ascención,Roboré,SanMatías,PuertoSuárez,SanPedro,SanCarlos,Oyon,Echarate,Espinar,Cupi,Lampa,Ilave,Pantaleon,Batallas,Yunguyo,Oropesa,LaConvencion,RioNegro,Juanjui,Cascas,Nazca,Apotgu,Auspa,Afilpa,Ametgu,Anungu,Akospa,Afopa,Akemgu,Amitpa,Audpa,Alingu,Amerpa,Alabpa,Amalgu,Aabgu,Guarayugo,Guarayugu,Guarayucu,Guarayuzu,Guarayula"
+    "b": "SantaCruz,Montero,Warnes,Cotoca,Portachuelo,OkinawaUno,SanIgnacio,SanJavier,Concepcion,SanRamon,SanJoaquin,Magdalena,Ascencion,SanMatias,PuertoSuarez,SantaAna,BellaVista,Concepción,SanRamón,Ascención,Roboré,SanMatías,PuertoSuárez,SanPedro,SanCarlos,Oyon,Echarate,Espinar,Cupi,Lampa,Ilave,Pantaleon,Batallas,Yunguyo,Oropesa,LaConvencion,RioNegro,Juanjui,Cascas,Nazca,Apotgu,Auspa,Afilpa,Ametgu,Anungu,Akospa,Afopa,Akemgu,Amitpa,Audpa,Alingu,Amerpa,Alabpa,Amalgu,Aabgu,Guarayucu,Guarayuzu,Guarayula"
   },
   {
     "name": "Macushi",
@@ -2251,7 +2251,7 @@ window.unknownNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Lethem,Bonfim,Norman,Annai,Karasabai,Aishalton,StIgnatius,Kumaka,Surama,Apoteri,Paramakatoi,Toka,Orinduik,Kako,Maruru,CampoDosPapagaio,Uiramutã,Pacaraima,BoaVista,SãoMarcos,Tabatinga,Acora,Toledo,SicaSica,Comanche,Tinta,Echarate,Tsanquiato,Huanuco,Cajamarca,Oyon,Espinar,Cupi,Lampa,Ilave,Pantaleon,Afidcu,Afumgo,Afescu,Amumgo,Apatcu,Aetcu,Aluggo,Afincu,Aicu,Amurgo,Akebcu,Alabcu,Adoncu,Aomcu,Anutgo,Macushigo,Macushigu,Macushicu,Macushizu,Macushila"
+    "b": "Lethem,Bonfim,Norman,Annai,Karasabai,Aishalton,StIgnatius,Kumaka,Surama,Apoteri,Paramakatoi,Toka,Orinduik,Kako,Maruru,CampoDosPapagaio,Uiramutã,Pacaraima,BoaVista,SãoMarcos,Tabatinga,Acora,Toledo,SicaSica,Comanche,Tinta,Echarate,Tsanquiato,Huanuco,Cajamarca,Oyon,Espinar,Cupi,Lampa,Ilave,Pantaleon,Afidcu,Afumgo,Afescu,Amumgo,Apatcu,Aetcu,Aluggo,Afincu,Aicu,Amurgo,Akebcu,Alabcu,Adoncu,Aomcu,Anutgo,Macushicu,Macushizu,Macushila"
   },
   {
     "name": "Waiwai",
@@ -2260,7 +2260,7 @@ window.unknownNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Lethem,Kumaka,Surama,Apoteri,Paramakatoi,Karasabai,Aishalton,StIgnatius,Bonfim,Uiramuta,Pacaraima,BoaVista,SaoMarcos,Tabatinga,Uiramutã,SãoMarcos,SãoJoão,Anauá,RioMau,Apiyau,WaiWaiVillage,Kanapang,Yawong,Masakenari,ShepherdVillage,KarasabaiVillage,Tiquina,Calacoto,Checacupe,Machupicchu,Churingaveni,Pozuzo,Bagua,Huacho,Aymaraes,Yanaoca,Munani,Juliaca,Puno,Huari,Collana,Abispa,Apoggu,Abanpa,Anaggu,Alumpa,Afutpa,Akibgu,Abakpa,Alodgu,Amenpa,Amesgu,Akespa,Aripa,Alungu,Aanpa,Waiwaigo,Waiwaigu,Waiwaicu,Waiwaizu,Waiwaila"
+    "b": "Lethem,Kumaka,Surama,Apoteri,Paramakatoi,Karasabai,Aishalton,StIgnatius,Bonfim,Pacaraima,BoaVista,SaoMarcos,Tabatinga,Uiramutã,SãoMarcos,SãoJoão,Anauá,RioMau,Apiyau,WaiWaiVillage,Kanapang,Yawong,Masakenari,ShepherdVillage,KarasabaiVillage,Tiquina,Calacoto,Checacupe,Machupicchu,Churingaveni,Pozuzo,Bagua,Huacho,Aymaraes,Yanaoca,Munani,Juliaca,Puno,Huari,Collana,Abispa,Apoggu,Abanpa,Anaggu,Alumpa,Afutpa,Akibgu,Abakpa,Alodgu,Amenpa,Amesgu,Akespa,Aripa,Alungu,Aanpa,Waiwaicu,Waiwaizu,Waiwaila"
   },
   {
     "name": "Yukpa",
@@ -2278,7 +2278,7 @@ window.unknownNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "PuertoAyacucho,Maroa,SanFernandoDeAtabapo,SanCarlosDelRioNegro,LaEsmeralda,SanSimon,Cacahual,Yavarate,PanaPana,Monforth,SanCarlosDelRíoNegro,SanSimón,Mavaca,Ocamo,Platanal,Sipapo,Guarinuma,PuertoPáez,Yavaraté,PuertoColombia,VillaAndrea,SanFelipe,Tarapacá,Unini,VillaRica,Rioja,Pativilca,Abancay,BajoPichigua,Ocuviri,Moho,Acora,Toledo,SicaSica,Comanche,Tinta,Echarate,Tsanquiato,Alisgo,Afakcu,Alango,Aulgo,Anarcu,Alakgo,Amamcu,Abidgo,Abemgo,Adagcu,Afiggo,Amascu,Akotgo,Apancu,Amudgo,Piapocogo,Piapocogu,Piapococu,Piapocozu,Piapocola"
+    "b": "PuertoAyacucho,Maroa,SanFernandoDeAtabapo,SanCarlosDelRioNegro,LaEsmeralda,SanSimon,Cacahual,PanaPana,Monforth,SanCarlosDelRíoNegro,SanSimón,Mavaca,Ocamo,Platanal,Sipapo,Guarinuma,PuertoPáez,Yavaraté,PuertoColombia,VillaAndrea,SanFelipe,Tarapacá,Unini,VillaRica,Rioja,Pativilca,Abancay,BajoPichigua,Ocuviri,Moho,Acora,Toledo,SicaSica,Comanche,Tinta,Echarate,Tsanquiato,Alisgo,Afakcu,Alango,Aulgo,Anarcu,Alakgo,Amamcu,Abidgo,Abemgo,Adagcu,Afiggo,Amascu,Akotgo,Apancu,Amudgo"
   },
   {
     "name": "Wapishana",
@@ -2287,7 +2287,7 @@ window.unknownNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Lethem,Bonfim,Norman,Annai,Karasabai,Aishalton,StIgnatius,Kumaka,Surama,Apoteri,Paramakatoi,Toka,BoaVista,Orinduik,Kako,Maruru,SãoMarcos,Uiramutã,Pacaraima,Tabatinga,Yawong,Ica,SantoTomas,Ocoruro,Chupa,Tiquillaca,Tiwanacu,Calamarca,Guaqui,Lampa,Ollantaytambo,Unini,VillaRica,Rioja,Pativilca,Abancay,Alitcu,Akuggo,Alercu,Apokcu,Adencu,Anusgo,Alicu,Amubcu,Abibcu,Amekcu,Ausgo,Akocu,Aumgo,Afekcu,Amubgo,Wapishanago,Wapishanagu,Wapishanacu,Wapishanazu,Wapishanala"
+    "b": "Lethem,Bonfim,Norman,Annai,Karasabai,Aishalton,StIgnatius,Kumaka,Surama,Apoteri,Paramakatoi,Toka,BoaVista,Orinduik,Kako,Maruru,SãoMarcos,Uiramutã,Pacaraima,Tabatinga,Yawong,Ica,SantoTomas,Ocoruro,Chupa,Tiquillaca,Tiwanacu,Calamarca,Guaqui,Lampa,Ollantaytambo,Unini,VillaRica,Rioja,Pativilca,Abancay,Alitcu,Akuggo,Alercu,Apokcu,Adencu,Anusgo,Alicu,Amubcu,Abibcu,Amekcu,Ausgo,Akocu,Aumgo,Afekcu,Amubgo,Wapishanacu,Wapishanazu,Wapishanala,Wapishana,Takutu,Rupununi,Kanuku"
   },
   {
     "name": "Northern Formosan",
@@ -2305,7 +2305,7 @@ window.unknownNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "PortMoresby,Lae,Madang,Wewak,Vanimo,Kavieng,Rabaul,Kimbe,Goroka,MtHagen,Kundiawa,Mendi,Tari,Popondetta,Alotau,Daru,Kiunga,Tabubil,Buka,Arawa,Kieta,Lorengau,Kokopo,NukuAlofa,Suva,Funafuti,Alofi,Noumea,Papeete,Honiara,Apia,PortVila,Palikir,Avarua,Faleula,Fuaamotu,Amouli,Kitu,Amaua,Leulumoega,Luganville,Lufilufi,Vaotu,Puapua,Senala,Lata,Taga,Faleniu,Anoai,Alurua,Akedau,Amesai,Afirua,Araai,Aparua,Apebau,Akenau,Abutua,Alesai,Alugai,Afagua,Akatai,Abadua,Nedebanga,Nedebange,Nedebangi,Nedebango,Nedebangu"
+    "b": "PortMoresby,Lae,Madang,Wewak,Vanimo,Kavieng,Rabaul,Kimbe,Goroka,MtHagen,Kundiawa,Mendi,Tari,Popondetta,Alotau,Daru,Kiunga,Tabubil,Buka,Arawa,Kieta,Lorengau,Kokopo,NukuAlofa,Suva,Alofi,Noumea,Papeete,Honiara,Apia,PortVila,Palikir,Avarua,Faleula,Fuaamotu,Amouli,Kitu,Amaua,Leulumoega,Luganville,Lufilufi,Vaotu,Puapua,Senala,Lata,Taga,Faleniu,Anoai,Alurua,Akedau,Amesai,Afirua,Araai,Aparua,Apebau,Akenau,Abutua,Alesai,Alugai,Afagua,Akatai,Abadua"
   },
   {
     "name": "Nemi",
@@ -2314,7 +2314,7 @@ window.unknownNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "PortMoresby,Lae,Madang,Wewak,Vanimo,Kavieng,Rabaul,Kimbe,Goroka,MtHagen,Kundiawa,Mendi,Tari,Popondetta,Alotau,Daru,Kiunga,Tabubil,Buka,Arawa,Kieta,Lorengau,Kokopo,Funafuti,Alofi,Noumea,Papeete,Honiara,Apia,PortVila,Palikir,Avarua,NukuAlofa,Suva,Kirakira,Savaii,Saratamata,Malaeola,Halaano,Faleasao,Motufoua,Santo,Papa,Kolonga,Utulei,Nomuka,Aoloau,Fakaofo,Efate,Afanu,Abesoa,Abakoa,Apusoa,Akoei,Amidu,Apebu,Afobei,Anudu,Aokei,Akomei,Adatoa,Ademu,Afukoa,Ailoa,Nemia,Nemie,Nemii,Nemio,Nemiu"
+    "b": "PortMoresby,Lae,Madang,Wewak,Vanimo,Kavieng,Rabaul,Kimbe,Goroka,MtHagen,Kundiawa,Mendi,Tari,Popondetta,Alotau,Daru,Kiunga,Tabubil,Buka,Arawa,Kieta,Lorengau,Kokopo,Alofi,Noumea,Papeete,Honiara,Apia,PortVila,Palikir,Avarua,NukuAlofa,Suva,Utulei,Nomuka,Aoloau,Fakaofo,Afanu,Abesoa,Abakoa,Apusoa,Akoei,Amidu,Apebu,Afobei,Anudu,Aokei,Akomei,Adatoa,Ademu,Afukoa,Ailoa"
   },
   {
     "name": "Ngatikese Creole",
@@ -2323,7 +2323,7 @@ window.unknownNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Palikir,Kolonia,Weno,Tonoas,Pohnpei,Yap,Colonia,Kosrae,Tofol,Majuro,Ebeye,Jabor,Tarawa,Bairiki,Bikenibeu,Betio,Nauru,PortMoresby,NukuAlofa,Suva,Funafuti,Alofi,Noumea,Papeete,Honiara,Apia,PortVila,Avarua,Santo,Papa,Kolonga,Utulei,Nomuka,Aoloau,Fakaofo,Efate,Afulilo,Haveluloto,Avaio,Nanumea,Ulea,Safotulafai,Sarotamata,Abee,Anudo,Apenai,Amakai,Akote,Adoge,Adonai,Aduso,Akalai,Amike,Anigai,Anuno,Akisai,Abugo,Aenai,NgatikeseCreolea,NgatikeseCreolee,NgatikeseCreolei,NgatikeseCreoleo,NgatikeseCreoleu"
+    "b": "Palikir,Kolonia,Weno,Tonoas,Pohnpei,Yap,Colonia,Kosrae,Tofol,Majuro,Ebeye,Jabor,Tarawa,Bairiki,Bikenibeu,Betio,Nauru,PortMoresby,NukuAlofa,Suva,Alofi,Noumea,Papeete,Honiara,Apia,PortVila,Avarua,Utulei,Nomuka,Aoloau,Fakaofo,Abee,Anudo,Apenai,Amakai,Akote,Adoge,Adonai,Aduso,Akalai,Amike,Anigai,Anuno,Akisai,Abugo,Aenai,NgatikeseCreolea,NgatikeseCreolee,NgatikeseCreolei,NgatikeseCreoleo,NgatikeseCreoleu"
   },
   {
     "name": "Nuaulu",
@@ -2332,7 +2332,7 @@ window.unknownNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "PortMoresby,Lae,Madang,Wewak,Vanimo,Kavieng,Rabaul,Kimbe,Goroka,MtHagen,Kundiawa,Mendi,Tari,Popondetta,Alotau,Daru,Kiunga,Tabubil,Buka,Arawa,Kieta,Lorengau,Kokopo,Papeete,Honiara,Apia,PortVila,Palikir,Avarua,NukuAlofa,Suva,Funafuti,Alofi,Noumea,Sarotamata,Taumeasina,Tokomololo,Vaitogi,Fualopa,Buala,Salailua,Neiafu,Mapusaga,Navutoka,Siufaga,Pyrenees,Ambae,Sataua,Vaini,Alitai,Afogua,Afarau,Alamai,Auai,Ananau,Apesua,Alarai,Aisua,Abibai,Abakua,Adadau,Apetai,Aolua,Akidua,Nuaulua,Nuaulue,Nuaului,Nuauluo,Nuauluu"
+    "b": "PortMoresby,Lae,Madang,Wewak,Vanimo,Kavieng,Rabaul,Kimbe,Goroka,MtHagen,Kundiawa,Mendi,Tari,Popondetta,Alotau,Daru,Kiunga,Tabubil,Buka,Arawa,Kieta,Lorengau,Kokopo,Papeete,Honiara,Apia,PortVila,Palikir,Avarua,NukuAlofa,Suva,Alofi,Noumea,Mapusaga,Navutoka,Siufaga,Pyrenees,Ambae,Sataua,Vaini,Alitai,Afogua,Afarau,Alamai,Auai,Ananau,Apesua,Alarai,Aisua,Abibai,Abakua,Adadau,Apetai,Aolua,Akidua"
   },
   {
     "name": "Pa",
@@ -2341,6 +2341,6 @@ window.unknownNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Funafuti,Alofi,Noumea,Papeete,Honiara,Apia,PortVila,Palikir,Avarua,PortMoresby,NukuAlofa,Suva,Masefau,Fagaloa,Tafea,Apolima,Mataika,Leone,Nukufetau,Auki,Saleaula,Ringdove,Fagali,Talasiu,Ta'u,Matangia,Tanna,Aonu,Anuboa,Areu,Aliboa,Afagu,Adanu,Adeei,Alubu,Akigu,Amesei,Afinu,Afugoa,Aitoa,Amagu,Aoku,APa,Pae,Pai,OPa,UPa"
+    "b": "Alofi,Noumea,Papeete,Honiara,Apia,PortVila,Palikir,Avarua,PortMoresby,NukuAlofa,Suva,Masefau,Fagaloa,Tafea,Apolima,Mataika,Leone,Nukufetau,Auki,Saleaula,Ringdove,Fagali,Talasiu,Ta'u,Matangia,Tanna,Aonu,Anuboa,Areu,Aliboa,Afagu,Adanu,Adeei,Alubu,Akigu,Amesei,Afinu,Afugoa,Aitoa,Amagu,Aoku,APa,Pae,Pai,OPa,UPa"
   }
 ];

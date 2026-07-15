@@ -415,7 +415,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-   "b": "Tila,Tumbalá,Ocosingo,Bachajón,Chilón,Palenque,Chivalito,Limar,Vicente Guerrero,Sabanilla,Misijá,Chivalita,Salto de Agua,Yajalón,Libertad,El Sibal,San Jerónimo,Lacandón,Chilá,Nueva Palestina,El Triunfo,Chulumani,San Antonio,El Calvario,Limár,Chabón,Santa Rosa,San Miguel,El Rosario,Choltenango"
+   "b": "Tila,Tumbalá,Ocosingo,Bachajón,Chilón,Palenque,Limar,Vicente Guerrero,Sabanilla,Misijá,Salto de Agua,Yajalón,Libertad,El Sibal,San Jerónimo,Lacandón,Chilá,Nueva Palestina,El Triunfo,Chulumani,San Antonio,El Calvario,Limár,Chabón,Santa Rosa,San Miguel,El Rosario,Choltenango"
 },
 {
     "name": "Cahuilla",

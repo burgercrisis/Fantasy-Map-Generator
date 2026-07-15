@@ -55,7 +55,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Belneng,Levuka,Yap,Kone,Kiunga,Kimbe,Nanumea,Abaiang,Kolonia,Denigomodu,Leulumoega,Punaauia,Palau,Munda,Alotau,Kairuku,Sogeri,Tiga,Baiti,Peleliu,Yaren,Ok Tedi,Tarawa,Kosrae,Tabiteuea,Whangarei,Minna,Alkaleri,Natitingou,Wukari,Kumasi,Conakry,Korhogo,Kaduna,Freetown,Kayes,Parakou,Buea,Bobo-Dioulasso,Kankan,Mopti,Lomé,Ziguinchor,Daloa,Wa,Sokodé,Praia,Kaolack,Tema,Basse,Yola,Yamoussoukro,Nzérékoré,Jos,Ebebiyín"
+  "b": "Belneng,Levuka,Yap,Kone,Kiunga,Kimbe,Abaiang,Kolonia,Denigomodu,Leulumoega,Punaauia,Palau,Munda,Alotau,Kairuku,Sogeri,Tiga,Baiti,Peleliu,Yaren,Ok Tedi,Tarawa,Kosrae,Tabiteuea,Whangarei,Minna,Alkaleri,Natitingou,Wukari,Kumasi,Conakry,Korhogo,Kaduna,Freetown,Kayes,Parakou,Buea,Bobo-Dioulasso,Kankan,Mopti,Lomé,Ziguinchor,Daloa,Wa,Sokodé,Praia,Kaolack,Tema,Basse,Yola,Yamoussoukro,Nzérékoré,Jos,Ebebiyín"
 },
 {
     "name": "Bembe Congo",
@@ -442,7 +442,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kera,Savusavu,Kimbe,Lorengau,Abaiang,Funafuti,Butaritari,Denigomodu,Townsville,Pohnpei,Salelologa,Koumac,Kairuku,Gizo,Rabaul,Baiti,Sogeri,Kone,Ok Tedi,Koror,Nanumea,Pangai,Arno,Kolonia,Yap,Palmerston North,Maroua,Ouidah,Gbarnga,Kaduna,Ebebiyín,Kankan,Accra,Conakry,Bertoua,Kaolack,Koudougou,Korhogo,Porto-Novo,Kumasi,Mopti,Kara,Man,Tema,Maiduguri,Praia,Sunyani,Bouaké,Thiès,Gusau,Banjul,Saint-Louis,Assomada,Jos,Nzérékoré"
+  "b": "Kera,Savusavu,Kimbe,Lorengau,Abaiang,Butaritari,Denigomodu,Townsville,Pohnpei,Salelologa,Koumac,Kairuku,Gizo,Rabaul,Baiti,Sogeri,Kone,Ok Tedi,Koror,Pangai,Arno,Kolonia,Yap,Palmerston North,Maroua,Ouidah,Gbarnga,Kaduna,Ebebiyín,Kankan,Accra,Conakry,Bertoua,Kaolack,Koudougou,Korhogo,Porto-Novo,Kumasi,Mopti,Kara,Man,Tema,Maiduguri,Praia,Sunyani,Bouaké,Thiès,Gusau,Banjul,Saint-Louis,Assomada,Jos,Nzérékoré"
 },
 {
     "name": "Kholok",
@@ -469,7 +469,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kir-Balar,Ebeye,Mare,Nibok,Airai,Nui,Kimbe,Wotje,Pohnpei,Abaiang,New Plymouth,Païta,Rabaul,Moorea,Ok Tedi,Kairuku,Kavieng,Ngerulmud,Baiti,Vava'u,Bikenibeu,Neiafu,Darwin,Yendi,Tafawa Balewa,Gusau,Lokossa,Sarh,Ségou,Conakry,Yamoussoukro,Sokodé,Kankan,Bamako,Timbuktu,Bissau,Daloa,Freetown,Dakar,Kaolack,Man,Kara,Lomé,Niamey,Accra,Bamenda,Parakou,Ouagadougou,Bobo-Dioulasso,Maiduguri,Thiès,Porto-Novo,Banfora,Sunyani,Bata"
+  "b": "Kir-Balar,Ebeye,Mare,Nibok,Airai,Nui,Kimbe,Wotje,Pohnpei,Abaiang,New Plymouth,Païta,Rabaul,Moorea,Ok Tedi,Kairuku,Kavieng,Ngerulmud,Baiti,Vava'u,Bikenibeu,Darwin,Yendi,Tafawa Balewa,Gusau,Lokossa,Sarh,Ségou,Conakry,Yamoussoukro,Sokodé,Kankan,Bamako,Timbuktu,Bissau,Daloa,Freetown,Dakar,Kaolack,Man,Kara,Lomé,Niamey,Accra,Bamenda,Parakou,Ouagadougou,Bobo-Dioulasso,Maiduguri,Thiès,Porto-Novo,Banfora,Sunyani,Bata"
 },
 {
     "name": "Kirya-Konzal",
@@ -1225,7 +1225,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Nteng,Ba,Buna,Pohnpei,Lae,Uaboe,Leulumoega,Abaiang,Kwajalein,Denigomodu,Napier,Rabaul,Papeete,Ambrym,Nibok,Vanimo,Palikir,Mont Dore,Ouvea,Tabubil,Ok Tedi,Nukulaelae,Neiafu,Sogeri,Chuuk,Newcastle,Yaren,Bolama,Bolt,Kaduna,Cotonou,Lomé,Kaolack,Banjul,Ségou,Nouakchott,Abidjan,Koidu,Bissau,Kankan,Ziguinchor,Praia,Tema,Parakou,Basse,Koudougou,Wa,Tamale,Maiduguri,Lafia,Cacheu,Monrovia,Bauchi,Bamenda,Bertoua"
+  "b": "Nteng,Ba,Buna,Pohnpei,Lae,Uaboe,Leulumoega,Abaiang,Kwajalein,Denigomodu,Napier,Rabaul,Papeete,Ambrym,Nibok,Vanimo,Palikir,Mont Dore,Ouvea,Tabubil,Ok Tedi,Nukulaelae,Sogeri,Chuuk,Newcastle,Yaren,Bolama,Bolt,Kaduna,Cotonou,Lomé,Kaolack,Banjul,Ségou,Nouakchott,Abidjan,Koidu,Bissau,Kankan,Ziguinchor,Praia,Tema,Parakou,Basse,Koudougou,Wa,Tamale,Maiduguri,Lafia,Cacheu,Monrovia,Bauchi,Bamenda,Bertoua"
 },
 {
     "name": "Nuer",
@@ -1387,7 +1387,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Psikye dialect,Goroka,Ba,Kavieng,Manus,Lae,Tabiteuea,Asau,Abaiang,Nibok,Palikir,Kosrae,Vaitele,Papeete,Munda,Kirakira,Vanimo,Denigomodu,Kairuku,Ouvea,Rabaul,Melekeok,Nukulaelae,Ohonua,Mili,Chuuk,Majuro,Evinayong,Accra,Kankan,Bissau,Conakry,Niamey,Freetown,Korhogo,Abidjan,Dakar,Basse,Lafia,Koidu,Banjul,Daloa,Monrovia,Maiduguri,Saint-Louis,Thiès,Tema,Gbarnga,Tenkodogo,Mindelo,Wa,Jalingo,Zaria,Jos,Sokodé"
+  "b": "Psikye dialect,Goroka,Ba,Kavieng,Manus,Lae,Tabiteuea,Asau,Abaiang,Nibok,Palikir,Kosrae,Vaitele,Papeete,Munda,Vanimo,Denigomodu,Kairuku,Ouvea,Rabaul,Melekeok,Nukulaelae,Ohonua,Mili,Chuuk,Majuro,Evinayong,Accra,Kankan,Bissau,Conakry,Niamey,Freetown,Korhogo,Abidjan,Dakar,Basse,Lafia,Koidu,Banjul,Daloa,Monrovia,Maiduguri,Saint-Louis,Thiès,Tema,Gbarnga,Tenkodogo,Mindelo,Wa,Jalingo,Zaria,Jos,Sokodé"
 },
 {
     "name": "Putai",
@@ -2026,7 +2026,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Zirenkel,Navua,Kairuku,Nibok,Tabubil,Melekeok,Palau,Neiafu,Mili,Ebeye,Newcastle,Rotorua,Denigomodu,Bora-Bora,Dumbea,Rabaul,Kavieng,Samamea,Tabiteuea,Belep,Kimbe,Baiti,Havelu,Ok Tedi,Yap,Hobart,Sogeri,Kaolack,Sokodé,Praia,Kano,Dakar,Lomé,Bobo-Dioulasso,Nouakchott,Banjul,Katsina,Bertoua,Timbuktu,Gusau,Daloa,Kara,Garoua,Man,Bauchi,Koudougou,Bouaké,Conakry,Ouagadougou,Wa,Tema,Monrovia,Nzérékoré,Cacheu,Maroua"
+  "b": "Zirenkel,Navua,Kairuku,Nibok,Tabubil,Melekeok,Palau,Mili,Ebeye,Newcastle,Rotorua,Denigomodu,Bora-Bora,Dumbea,Rabaul,Kavieng,Samamea,Tabiteuea,Belep,Kimbe,Baiti,Havelu,Ok Tedi,Yap,Hobart,Sogeri,Kaolack,Sokodé,Praia,Kano,Dakar,Lomé,Bobo-Dioulasso,Nouakchott,Banjul,Katsina,Bertoua,Timbuktu,Gusau,Daloa,Kara,Garoua,Man,Bauchi,Koudougou,Bouaké,Conakry,Ouagadougou,Wa,Tema,Monrovia,Nzérékoré,Cacheu,Maroua"
 },
 {
     "name": "Zizilivakan",
@@ -2170,7 +2170,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ambonese Malay,Lhokseumawe,Ben Tre,Bacolod,Can Tho,Padang Panjang,Pasir Ris,Putao,Lao Cai,Serang,Quy Nhon,Khon Kaen,Bandung,Ternate,Kratie,Bogor,Thanh Hoa,Kandal,Yogyakarta,Quezon City,Poipet,Champasak,Battambang,Baguio,Balikpapan,Bago,Loikaw,Bandar Seri Begawan,Jakarta,Semarang,Bangar,Jaluit,Ba,Santo,Denpasar,Davao,Muara,George Town,Malekula,Ambrym,Rabaul,Kota Kinabalu,Pentecost,Nadi,Malacca,Port Moresby,Singapore,Kuching,Munda,Buala,Kuala Belait,Sonsorol,Epi"
+  "b": "Ambonese Malay,Lhokseumawe,Ben Tre,Bacolod,Can Tho,Padang Panjang,Pasir Ris,Putao,Lao Cai,Serang,Quy Nhon,Khon Kaen,Bandung,Ternate,Kratie,Bogor,Thanh Hoa,Kandal,Yogyakarta,Quezon City,Poipet,Champasak,Battambang,Baguio,Balikpapan,Bago,Loikaw,Bandar Seri Begawan,Jakarta,Semarang,Bangar,Jaluit,Ba,Denpasar,Davao,Muara,George Town,Malekula,Ambrym,Rabaul,Kota Kinabalu,Pentecost,Nadi,Malacca,Port Moresby,Singapore,Kuching,Munda,Kuala Belait,Sonsorol,Epi"
 },
 {
     "name": "Angika",
@@ -2206,7 +2206,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Baba Malay,Padang Panjang,Ca Mau,Chumphon,Hanoi,Serang,Singapore,Ha Giang,Ben Tre,Ternate,Can Tho,Bogor,Pasir Ris,Pakse,Lao Cai,Quezon City,Quy Nhon,Mandalay,Bandung,Baguio,Kratie,Lashio,Thanh Hoa,Bandar Seri Begawan,Yogyakarta,Malacca,Poipet,Baucau,Jakarta,Semarang,Palikir,Medan,Johor Bahru,Santo,Malekula,George Town,Surabaya,Port Vila,Bangar,Zamboanga,Tulagi,Pentecost,Nadi,Makassar,Davao,Munda,Kuching,Luganville,Buala,Tanna,Honiara,Iloilo City"
+  "b": "Baba Malay,Padang Panjang,Ca Mau,Chumphon,Hanoi,Serang,Singapore,Ha Giang,Ben Tre,Ternate,Can Tho,Bogor,Pasir Ris,Pakse,Lao Cai,Quezon City,Quy Nhon,Mandalay,Bandung,Baguio,Kratie,Lashio,Thanh Hoa,Bandar Seri Begawan,Yogyakarta,Malacca,Poipet,Baucau,Jakarta,Semarang,Palikir,Medan,Johor Bahru,Malekula,George Town,Surabaya,Port Vila,Bangar,Zamboanga,Tulagi,Pentecost,Nadi,Makassar,Davao,Munda,Kuching,Luganville,Tanna,Honiara,Iloilo City"
 },
 {
     "name": "Bagheli",
@@ -2260,7 +2260,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Balinese Malay,Lhokseumawe,Ben Tre,Bacolod,Can Tho,Padang Panjang,Pasir Ris,Putao,Lao Cai,Serang,Quy Nhon,Khon Kaen,Bandung,Ternate,Kratie,Bogor,Thanh Hoa,Kandal,Yogyakarta,Quezon City,Poipet,Champasak,Battambang,Baguio,Balikpapan,Bago,Loikaw,Bandar Seri Begawan,Sonsorol,Jaluit,Makassar,Denpasar,Lautoka,Manila,Kuching,Davao,Singapore,Kavieng,Cebu City,Epi,Malekula,Seria,Malacca,Nadi,Sigatoka,Ambrym,Kirakira,Shah Alam,Buala,Port Moresby,Babeldaob,Suva,Savusavu"
+  "b": "Balinese Malay,Lhokseumawe,Ben Tre,Bacolod,Can Tho,Padang Panjang,Pasir Ris,Putao,Lao Cai,Serang,Quy Nhon,Khon Kaen,Bandung,Ternate,Kratie,Bogor,Thanh Hoa,Kandal,Yogyakarta,Quezon City,Poipet,Champasak,Battambang,Baguio,Balikpapan,Bago,Loikaw,Bandar Seri Begawan,Sonsorol,Jaluit,Makassar,Denpasar,Lautoka,Manila,Kuching,Davao,Singapore,Kavieng,Cebu City,Epi,Malekula,Seria,Malacca,Nadi,Sigatoka,Ambrym,Shah Alam,Port Moresby,Babeldaob,Suva,Savusavu"
 },
 {
     "name": "Banda Malay",
@@ -2485,7 +2485,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Dili Malay,Padang Panjang,Ca Mau,Chumphon,Hanoi,Serang,Singapore,Ha Giang,Ben Tre,Ternate,Can Tho,Bogor,Pasir Ris,Pakse,Lao Cai,Quezon City,Quy Nhon,Mandalay,Bandung,Baguio,Kratie,Lashio,Thanh Hoa,Bandar Seri Begawan,Yogyakarta,Malacca,Poipet,Baucau,Jakarta,Zamboanga,Ipoh,Semarang,Muara,Palembang,Davao,Johor Bahru,Cagayan de Oro,George Town,Kuala Lumpur,Kuala Belait,Manila,Auki,Malekula,Seria,Ba,Pentecost,Port Vila,Suva,Ngerulmud,Munda,Santo,Kuching"
+  "b": "Dili Malay,Padang Panjang,Ca Mau,Chumphon,Hanoi,Serang,Singapore,Ha Giang,Ben Tre,Ternate,Can Tho,Bogor,Pasir Ris,Pakse,Lao Cai,Quezon City,Quy Nhon,Mandalay,Bandung,Baguio,Kratie,Lashio,Thanh Hoa,Bandar Seri Begawan,Yogyakarta,Malacca,Poipet,Baucau,Jakarta,Zamboanga,Ipoh,Semarang,Muara,Palembang,Davao,Johor Bahru,Cagayan de Oro,George Town,Kuala Lumpur,Kuala Belait,Manila,Auki,Malekula,Seria,Ba,Pentecost,Port Vila,Suva,Ngerulmud,Munda,Kuching"
 },
 {
     "name": "Diu",
@@ -2656,7 +2656,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Hokkaido dialects,Vanimo,Navua,Majuro,Ouvea,Tabubil,Kavieng,Nukulaelae,Neiafu,Tabiteuea,Chuuk,Newcastle,Nibok,Samamea,Bora-Bora,Koror,Norfolk,Kairuku,Belep,Denigomodu,Angaur,Baiti,Rabaul,Betio,Yap,Osaka,Guangzhou,Haeju,Sendai,Tokyo,Kawasaki,Fukuoka,Saitama,Furano,Wakkanai,Sagamihara,Matsudo,Nago,Chiba,Setagaya,Okayama,Ishigaki,Fukuyama,Itabashi,Okinawa,Gifu,Naha,Kushiro,Nemuro,Nayoro,Kagoshima,Matsue,Aomori,Matsuyama,Toyama"
+  "b": "Hokkaido dialects,Vanimo,Navua,Majuro,Ouvea,Tabubil,Kavieng,Nukulaelae,Tabiteuea,Chuuk,Newcastle,Nibok,Samamea,Bora-Bora,Koror,Norfolk,Kairuku,Belep,Denigomodu,Angaur,Baiti,Rabaul,Betio,Yap,Osaka,Guangzhou,Haeju,Sendai,Tokyo,Kawasaki,Fukuoka,Saitama,Furano,Wakkanai,Sagamihara,Matsudo,Nago,Chiba,Setagaya,Okayama,Ishigaki,Fukuyama,Itabashi,Okinawa,Gifu,Naha,Kushiro,Nemuro,Nayoro,Kagoshima,Matsue,Aomori,Matsuyama,Toyama"
 },
 {
     "name": "Hre",
@@ -2827,7 +2827,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kaloeng,Levuka,Yap,Kone,Kiunga,Kimbe,Nanumea,Abaiang,Kolonia,Denigomodu,Leulumoega,Punaauia,Palau,Munda,Alotau,Kairuku,Sogeri,Tiga,Baiti,Peleliu,Yaren,Ok Tedi,Tarawa,Kosrae,Tabiteuea,Whangarei,Sialkot,Pune,Katsina,Koudougou,Accra,Gbarnga,Banjul,Dakar,Freetown,Kara,Kayes,Sokodé,Nzérékoré,Daloa,Mopti,Kumasi,Maroua,Parakou,Ouahigouya,Bissau,Yamoussoukro,Koidu,Bolama,Brikama,Praia,Porto-Novo,Maiduguri,Jos,Warri"
+  "b": "Kaloeng,Levuka,Yap,Kone,Kiunga,Kimbe,Abaiang,Kolonia,Denigomodu,Leulumoega,Punaauia,Palau,Munda,Alotau,Kairuku,Sogeri,Tiga,Baiti,Peleliu,Yaren,Ok Tedi,Tarawa,Kosrae,Tabiteuea,Whangarei,Sialkot,Pune,Katsina,Koudougou,Accra,Gbarnga,Banjul,Dakar,Freetown,Kara,Kayes,Sokodé,Nzérékoré,Daloa,Mopti,Kumasi,Maroua,Parakou,Ouahigouya,Bissau,Yamoussoukro,Koidu,Bolama,Brikama,Praia,Porto-Novo,Maiduguri,Jos,Warri"
 },
 {
     "name": "Kam Dong",
@@ -2908,7 +2908,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kewarat,Levuka,Yap,Kone,Kiunga,Kimbe,Nanumea,Abaiang,Kolonia,Denigomodu,Leulumoega,Punaauia,Palau,Munda,Alotau,Kairuku,Sogeri,Tiga,Baiti,Peleliu,Yaren,Ok Tedi,Tarawa,Kosrae,Tabiteuea,Whangarei,Paro,Jaipur,Kankan,Banjul,Wa,Bissau,Conakry,Sunyani,Accra,Daloa,Freetown,Ouagadougou,Porto-Novo,Maiduguri,Niamey,Cotonou,Yola,Korhogo,Malabo,Sikasso,Kayes,Parakou,Nouakchott,Koudougou,Yamoussoukro,Zinder,Mopti,Banfora,Kumba"
+  "b": "Kewarat,Levuka,Yap,Kone,Kiunga,Kimbe,Abaiang,Kolonia,Denigomodu,Leulumoega,Punaauia,Palau,Munda,Alotau,Kairuku,Sogeri,Tiga,Baiti,Peleliu,Yaren,Ok Tedi,Tarawa,Kosrae,Tabiteuea,Whangarei,Paro,Jaipur,Kankan,Banjul,Wa,Bissau,Conakry,Sunyani,Accra,Daloa,Freetown,Ouagadougou,Porto-Novo,Maiduguri,Niamey,Cotonou,Yola,Korhogo,Malabo,Sikasso,Kayes,Parakou,Nouakchott,Koudougou,Yamoussoukro,Zinder,Mopti,Banfora,Kumba"
 },
 {
     "name": "Khalkha Mongolian",
@@ -3034,7 +3034,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Larantuka Malay,Hai Phong,Ben Tre,Tampines,Payakumbuh,Ha Giang,Angeles,Da Lat,Bandar Lampung,Surabaya,Hpa-An,Hoa Binh,Tomohon,Thai Binh,Surat Thani,Makassar,Nakhon Si Thammarat,Sisophon,Samarinda,Siem Reap,Vientiane,Manado,Zamboanga,Putao,Phongsali,Kampot,General Santos,Pekanbaru,Davao,Tulagi,Denpasar,Quezon City,Bandung,Santo,Majuro,Munda,Kolonia,Bangar,Muara,Jaluit,Cebu City,Palikir,Kota Kinabalu,Kuching,Ipoh,Singapore,Shah Alam,Rabaul,Ba,Tutong,Jerudong,Ngerulmud,Buala"
+  "b": "Larantuka Malay,Hai Phong,Ben Tre,Tampines,Payakumbuh,Ha Giang,Angeles,Da Lat,Bandar Lampung,Surabaya,Hpa-An,Hoa Binh,Tomohon,Thai Binh,Surat Thani,Makassar,Nakhon Si Thammarat,Sisophon,Samarinda,Siem Reap,Vientiane,Manado,Zamboanga,Putao,Phongsali,Kampot,General Santos,Pekanbaru,Davao,Tulagi,Denpasar,Quezon City,Bandung,Majuro,Munda,Kolonia,Bangar,Muara,Jaluit,Cebu City,Palikir,Kota Kinabalu,Kuching,Ipoh,Singapore,Shah Alam,Rabaul,Ba,Tutong,Jerudong,Ngerulmud"
 },
 {
     "name": "Lasi",
@@ -3115,7 +3115,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Magar (Dhut),Neiafu,Labasa,Trobriand,Kirakira,Ngerulmud,Denigomodu,Nibok,Bikenibeu,Majuro,Kimbe,Hamilton,Abaiang,Lifou,Santo,Ohonua,Auki,Vava'u,Rabaul,Noumea,Popondetta,Kairuku,Vaitupu,Tabiteuea,Baiti,Weno,Sittwe,Siem Reap,Lhasa,Shigatse,Lhokha,Daofu,Kangding,Nagqu,Jowai,Chengdu,Zhaotong,Melli,Trongsa,Singtam,Kunming,Batang,Lijiang,Trashigang,Punakha,Cherrapunji,Thimphu,Rhenock,Zhongdian,Pu'er,Samdrup Jongkhar,Jorthang,Shillong,Rangpo"
+  "b": "Magar (Dhut),Labasa,Trobriand,Ngerulmud,Denigomodu,Nibok,Bikenibeu,Majuro,Kimbe,Hamilton,Abaiang,Lifou,Ohonua,Auki,Vava'u,Rabaul,Noumea,Popondetta,Kairuku,Vaitupu,Tabiteuea,Baiti,Weno,Sittwe,Siem Reap,Lhasa,Shigatse,Lhokha,Daofu,Kangding,Nagqu,Jowai,Chengdu,Zhaotong,Melli,Trongsa,Singtam,Kunming,Batang,Lijiang,Trashigang,Punakha,Cherrapunji,Thimphu,Rhenock,Zhongdian,Pu'er,Samdrup Jongkhar,Jorthang,Shillong,Rangpo"
 },
 {
     "name": "Magar Kham",
@@ -3124,7 +3124,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Magar Kham,Lae,Tabiteuea,Tiga,Rabaul,Kirakira,Yaren,Ohonua,Kimbe,Kosrae,Wollongong,Abaiang,Raiatea,Denigomodu,Luganville,Mendi,Neiafu,Peleliu,Misima,Kairuku,Nibok,Baiti,Butaritari,Ebeye,Ok Tedi,Naypyidaw,Balikpapan,Quy Nhon,Shigatse,Zhongdian,Kunming,Chamdo,Barkam,Batang,Deqin,Lijiang,Dali,Kangding,Gangtok,Dalton Ganj,Sarchu,Padum,Melli,Nainital,Leshan,Rhenock,Rangpo,Jakar,Paro,Lincang,Baoshan,Tura,Cherrapunji,Samdrup Jongkhar"
+  "b": "Magar Kham,Lae,Tabiteuea,Tiga,Rabaul,Yaren,Ohonua,Kimbe,Kosrae,Wollongong,Abaiang,Raiatea,Denigomodu,Luganville,Mendi,Peleliu,Misima,Kairuku,Nibok,Baiti,Butaritari,Ebeye,Ok Tedi,Naypyidaw,Balikpapan,Quy Nhon,Shigatse,Zhongdian,Kunming,Chamdo,Barkam,Batang,Deqin,Lijiang,Dali,Kangding,Gangtok,Dalton Ganj,Sarchu,Padum,Melli,Nainital,Leshan,Rhenock,Rangpo,Jakar,Paro,Lincang,Baoshan,Tura,Cherrapunji,Samdrup Jongkhar"
 },
 {
     "name": "Maithili",
@@ -3250,7 +3250,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Mankiyali,Ebeye,Mare,Nibok,Airai,Nui,Kimbe,Wotje,Pohnpei,Abaiang,New Plymouth,Païta,Rabaul,Moorea,Ok Tedi,Kairuku,Kavieng,Ngerulmud,Baiti,Vava'u,Bikenibeu,Neiafu,Darwin,Kochi,Nagpur,Dera Ghazi Khan,Galle,Bahawalpur,Goroka,Kainantu,Kokopo,Wewak,Lae,Olsobip,Popondetta,Aseki,Ramu,Tari,Vanimo,Wau,Wapenamanda,Balimo,Kundiawa,Menyamya,Kerema,Kiunga,Ialibu,Tabubil,Kikori,Morehead,Daru,Komo,Bogia"
+  "b": "Mankiyali,Ebeye,Mare,Nibok,Airai,Nui,Kimbe,Wotje,Pohnpei,Abaiang,New Plymouth,Païta,Rabaul,Moorea,Ok Tedi,Kairuku,Kavieng,Ngerulmud,Baiti,Vava'u,Bikenibeu,Darwin,Kochi,Nagpur,Dera Ghazi Khan,Galle,Bahawalpur,Goroka,Kainantu,Kokopo,Wewak,Lae,Olsobip,Popondetta,Aseki,Ramu,Tari,Vanimo,Wau,Wapenamanda,Balimo,Kundiawa,Menyamya,Kerema,Kiunga,Ialibu,Tabubil,Kikori,Morehead,Daru,Komo,Bogia"
 },
 {
     "name": "Maonan",
@@ -3286,7 +3286,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Maumere Malay,Ho Chi Minh City,Payakumbuh,Jurong,Poipet,Tra Vinh,Bandar Lampung,Hue,Phuket,Ang Mo Kio,Tomohon,Son La,Tebing Tinggi,Vinh,Kratie,Medan,Samarinda,Lomphat,Pakse,Ha Long,Zamboanga,Denpasar,Mandalay,Lashio,General Santos,Sihanoukville,Banjarmasin,Bangar,Jakarta,Semarang,Ba,Iloilo City,Honiara,Suva,Cebu City,Ngerulmud,Malacca,Cagayan de Oro,Malekula,Majuro,Muara,Port Vila,Bandar Seri Begawan,Kota Kinabalu,Jaluit,Pentecost,Kuching,Auki,Buala,Levuka,Lorengau,Angaur"
+  "b": "Maumere Malay,Ho Chi Minh City,Payakumbuh,Jurong,Poipet,Tra Vinh,Bandar Lampung,Hue,Phuket,Ang Mo Kio,Tomohon,Son La,Tebing Tinggi,Vinh,Kratie,Medan,Samarinda,Lomphat,Pakse,Ha Long,Zamboanga,Denpasar,Mandalay,Lashio,General Santos,Sihanoukville,Banjarmasin,Bangar,Jakarta,Semarang,Ba,Iloilo City,Honiara,Suva,Cebu City,Ngerulmud,Malacca,Cagayan de Oro,Malekula,Majuro,Muara,Port Vila,Bandar Seri Begawan,Kota Kinabalu,Jaluit,Pentecost,Kuching,Auki,Levuka,Lorengau,Angaur"
 },
 {
     "name": "Megam",
@@ -3628,7 +3628,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "North Moluccan Malay,Aileu,Dien Bien Phu,Narathiwat,Nam Dinh,Alor Setar,Semarang,Lhokseumawe,Senmonorom,Soc Trang,Phnom Penh,Padang Panjang,Palembang,Thai Binh,Bhamo,Serang,Kampong Cham,Putao,Padang,Ternate,Hpa-An,Bogor,Takeo,Nakhon Si Thammarat,Solo,Quezon City,Krabi,Kandal,Kirakira,Denpasar,Davao,Manila,Cebu City,Makassar,Muara,George Town,Bandung,Bacolod,Bandar Seri Begawan,Port Vila,Malacca,Bangar,Jerudong,Tulagi,Kuala Belait,Kolonia,Kuching,Shah Alam,Iloilo City,Lae,Tutong,Lautoka,Labasa,Savusavu"
+  "b": "North Moluccan Malay,Aileu,Dien Bien Phu,Narathiwat,Nam Dinh,Alor Setar,Semarang,Lhokseumawe,Senmonorom,Soc Trang,Phnom Penh,Padang Panjang,Palembang,Thai Binh,Bhamo,Serang,Kampong Cham,Putao,Padang,Ternate,Hpa-An,Bogor,Takeo,Nakhon Si Thammarat,Solo,Quezon City,Krabi,Kandal,Denpasar,Davao,Manila,Cebu City,Makassar,Muara,George Town,Bandung,Bacolod,Bandar Seri Begawan,Port Vila,Malacca,Bangar,Jerudong,Tulagi,Kuala Belait,Kolonia,Kuching,Shah Alam,Iloilo City,Lae,Tutong,Lautoka,Labasa,Savusavu"
 },
 {
     "name": "Northern Khalkha",
@@ -3799,7 +3799,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Oroch,Ba,Buna,Pohnpei,Lae,Uaboe,Leulumoega,Abaiang,Kwajalein,Denigomodu,Napier,Rabaul,Papeete,Ambrym,Nibok,Vanimo,Palikir,Mont Dore,Ouvea,Tabubil,Ok Tedi,Nukulaelae,Neiafu,Sogeri,Chuuk,Newcastle,Yaren,Pyongyang,Anadyr,Suntar,Saskylakh,Zhigansk,Magadan,Novosibirsk,Norilsk,Khatanga,Beringovsky,Tigil,Olyokminsk,Romanovka,Provideniya,Uelen,Barguzin,Khandyga,Parabel,Myaundzha,Verkhoyansk,Yelizovo,Yakutsk,Esso,Susuman,Klyuchi,Pevek"
+  "b": "Oroch,Ba,Buna,Pohnpei,Lae,Uaboe,Leulumoega,Abaiang,Kwajalein,Denigomodu,Napier,Rabaul,Papeete,Ambrym,Nibok,Vanimo,Palikir,Mont Dore,Ouvea,Tabubil,Ok Tedi,Nukulaelae,Sogeri,Chuuk,Newcastle,Yaren,Pyongyang,Anadyr,Suntar,Saskylakh,Zhigansk,Magadan,Novosibirsk,Norilsk,Khatanga,Beringovsky,Tigil,Olyokminsk,Romanovka,Provideniya,Uelen,Barguzin,Khandyga,Parabel,Myaundzha,Verkhoyansk,Yelizovo,Yakutsk,Esso,Susuman,Klyuchi,Pevek"
 },
 {
     "name": "Orok",
@@ -3808,7 +3808,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Orok,Savusavu,Kimbe,Lorengau,Abaiang,Funafuti,Butaritari,Denigomodu,Townsville,Pohnpei,Salelologa,Koumac,Kairuku,Gizo,Rabaul,Baiti,Sogeri,Kone,Ok Tedi,Koror,Nanumea,Pangai,Arno,Kolonia,Yap,Palmerston North,Pyongyang,Shenzhen,Magadan,Norilsk,Barguzin,Anadyr,Oymyakon,Petropavlovsk-Kamchatsky,Saskylakh,Kozyrevsk,Olyokminsk,Chokurdakh,Klyuchi,Khandyga,Provideniya,Kadykchan,Tigil,Suntar,Kolpashevo,Bagdarin,Bilibino,Ust-Nera,Lavrentiya,Yelizovo,Dudinka,Kargasok,Igarka"
+  "b": "Orok,Savusavu,Kimbe,Lorengau,Abaiang,Butaritari,Denigomodu,Townsville,Pohnpei,Salelologa,Koumac,Kairuku,Gizo,Rabaul,Baiti,Sogeri,Kone,Ok Tedi,Koror,Pangai,Arno,Kolonia,Yap,Palmerston North,Pyongyang,Shenzhen,Magadan,Norilsk,Barguzin,Anadyr,Oymyakon,Petropavlovsk-Kamchatsky,Saskylakh,Kozyrevsk,Olyokminsk,Chokurdakh,Klyuchi,Khandyga,Provideniya,Kadykchan,Tigil,Suntar,Kolpashevo,Bagdarin,Bilibino,Ust-Nera,Lavrentiya,Yelizovo,Dudinka,Kargasok,Igarka"
 },
 {
     "name": "Paha",
@@ -4015,7 +4015,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Proto-KraDai,Neiafu,Labasa,Trobriand,Kirakira,Ngerulmud,Denigomodu,Nibok,Bikenibeu,Majuro,Kimbe,Hamilton,Abaiang,Lifou,Santo,Ohonua,Auki,Vava'u,Rabaul,Noumea,Popondetta,Kairuku,Vaitupu,Tabiteuea,Baiti,Weno,Jeonju,Sendai,Accra,Kankan,Bissau,Bouaké,Man,Conakry,Koudougou,Dakar,Niamey,Kaolack,Zaria,Kayes,Korhogo,Ngaoundéré,Nzérékoré,Wa,Sunyani,Cacheu,Gabú,Tamale,Bobo-Dioulasso,Natitingou,Mopti,Tema,Kaduna,Parakou,Bafatá"
+  "b": "Proto-KraDai,Labasa,Trobriand,Ngerulmud,Denigomodu,Nibok,Bikenibeu,Majuro,Kimbe,Hamilton,Abaiang,Lifou,Ohonua,Auki,Vava'u,Rabaul,Noumea,Popondetta,Kairuku,Vaitupu,Tabiteuea,Baiti,Weno,Jeonju,Sendai,Accra,Kankan,Bissau,Bouaké,Man,Conakry,Koudougou,Dakar,Niamey,Kaolack,Zaria,Kayes,Korhogo,Ngaoundéré,Nzérékoré,Wa,Sunyani,Cacheu,Gabú,Tamale,Bobo-Dioulasso,Natitingou,Mopti,Tema,Kaduna,Parakou,Bafatá"
 },
 {
     "name": "Proto-Mongolic",
@@ -4411,7 +4411,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Shirongol,Ebeye,Mare,Nibok,Airai,Nui,Kimbe,Wotje,Pohnpei,Abaiang,New Plymouth,Païta,Rabaul,Moorea,Ok Tedi,Kairuku,Kavieng,Ngerulmud,Baiti,Vava'u,Bikenibeu,Neiafu,Darwin,Lalitpur,Hubli,Tiruchirappalli,Mardan,Chandigarh,Ouagadougou,Banjul,Dakar,Conakry,Accra,Cotonou,Nouakchott,Bamako,Kayes,Freetown,Kankan,Katsina,Kara,Ebebiyín,Lomé,Man,Bertoua,Kaduna,Sunyani,Nzérékoré,Thiès,Mopti,Korhogo,Niamey,Bafatá,Wa,Sikasso"
+  "b": "Shirongol,Ebeye,Mare,Nibok,Airai,Nui,Kimbe,Wotje,Pohnpei,Abaiang,New Plymouth,Païta,Rabaul,Moorea,Ok Tedi,Kairuku,Kavieng,Ngerulmud,Baiti,Vava'u,Bikenibeu,Darwin,Lalitpur,Hubli,Tiruchirappalli,Mardan,Chandigarh,Ouagadougou,Banjul,Dakar,Conakry,Accra,Cotonou,Nouakchott,Bamako,Kayes,Freetown,Kankan,Katsina,Kara,Ebebiyín,Lomé,Man,Bertoua,Kaduna,Sunyani,Nzérékoré,Thiès,Mopti,Korhogo,Niamey,Bafatá,Wa,Sikasso"
 },
 {
     "name": "Shirwi",
@@ -4573,7 +4573,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Sundanese native-speakers subset,Tawau,Hpa-An,Lomphat,Takeo,Denpasar,Solo,Putao,Krabi,Khon Kaen,Vientiane,Chumphon,Manila,Bacolod,Pattani,Narathiwat,Thakhek,Bangkok,Zamboanga,Lhokseumawe,Tebing Tinggi,Aileu,Oudomxay,Padang Panjang,Angeles,Lashio,Banda Aceh,Serang,Iloilo City,Malekula,Kuala Lumpur,Bangar,Johor Bahru,Kirakira,Bandar Seri Begawan,Palembang,Kota Kinabalu,Port Vila,Suva,Kuching,Tulagi,Ambrym,Davao,Kuala Belait,Bandung,Shah Alam,Alotau,Babeldaob,Seria,Levuka,Santo,Lorengau"
+  "b": "Sundanese native-speakers subset,Tawau,Hpa-An,Lomphat,Takeo,Denpasar,Solo,Putao,Krabi,Khon Kaen,Vientiane,Chumphon,Manila,Bacolod,Pattani,Narathiwat,Thakhek,Bangkok,Zamboanga,Lhokseumawe,Tebing Tinggi,Aileu,Oudomxay,Padang Panjang,Angeles,Lashio,Banda Aceh,Serang,Iloilo City,Malekula,Kuala Lumpur,Bangar,Johor Bahru,Bandar Seri Begawan,Palembang,Kota Kinabalu,Port Vila,Suva,Kuching,Tulagi,Ambrym,Davao,Kuala Belait,Bandung,Shah Alam,Alotau,Babeldaob,Seria,Levuka,Lorengau"
 },
 {
     "name": "Suoy",
@@ -4609,7 +4609,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Sylheti,Vadodara,Visakhapatnam,Sylhet,Lucknow,Rajahmundry,Chennai,Khanewal,Dinajpur,Amritsar,Thiruvananthapuram,Hyderabad,Guntur,Karachi,Jamshedpur,Ghaziabad,Thatta,Siliguri,Rawalpindi,Tirupati,Kolkata,Dhanbad,Rangpur,Bhubaneswar,Kozhikode,Warangal,Butwal,Gulbarga,Katsina,Koidu,Ziguinchor,Bouaké,Bissau,Lomé,Conakry,Kumasi,Koudougou,Gbarnga,Porto-Novo,Bobo-Dioulasso,Praia,Niamey,Kaolack,Korhogo,Abidjan,Maiduguri,Sunyani,Gusau,Kano,Sokodé,Banfora,Monrovia,Jalingo,Parakou,Saint-Louis"
+  "b": "Vadodara,Visakhapatnam,Sylhet,Lucknow,Rajahmundry,Chennai,Khanewal,Dinajpur,Amritsar,Thiruvananthapuram,Hyderabad,Guntur,Karachi,Jamshedpur,Ghaziabad,Thatta,Siliguri,Rawalpindi,Tirupati,Kolkata,Dhanbad,Rangpur,Bhubaneswar,Kozhikode,Warangal,Butwal,Gulbarga,Katsina,Koidu,Ziguinchor,Bouaké,Bissau,Lomé,Conakry,Kumasi,Koudougou,Gbarnga,Porto-Novo,Bobo-Dioulasso,Praia,Niamey,Kaolack,Korhogo,Abidjan,Maiduguri,Sunyani,Gusau,Kano,Sokodé,Banfora,Monrovia,Jalingo,Parakou,Saint-Louis"
 },
 {
     "name": "Tabghach",
@@ -5383,7 +5383,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kuku Yalanji,Mapoon,Milingimbi,Oodnadatta,Bamaga,Morawa,Woomera,Horn Island,Carnarvon,Warburton,Birdsville,Carnamah,Wiluna,Mintabie,Port Hedland,Uluru,Amaroo,Elliott,Mullewa,Lake Grace,Cairns,Innamincka,Brewarrina,Borroloola,Hyden,Geraldton,Watarrka,Indulkana,Kavieng,Bandung,Medan,Davao,George Town,Malekula,Jakarta,Cagayan de Oro,Semarang,Ba,Johor Bahru,Iloilo City,Bandar Seri Begawan,Muara,Epi,Rabaul,Singapore,Luganville,Manila,Seria,Auki,Port Vila,Kirakira,Kayangel,Angaur,Ngerulmud,Ipoh"
+  "b": "Kuku Yalanji,Mapoon,Milingimbi,Oodnadatta,Bamaga,Morawa,Woomera,Horn Island,Carnarvon,Warburton,Birdsville,Carnamah,Wiluna,Mintabie,Port Hedland,Uluru,Amaroo,Elliott,Mullewa,Lake Grace,Cairns,Innamincka,Brewarrina,Borroloola,Hyden,Geraldton,Watarrka,Indulkana,Kavieng,Bandung,Medan,Davao,George Town,Malekula,Jakarta,Cagayan de Oro,Semarang,Ba,Johor Bahru,Iloilo City,Bandar Seri Begawan,Muara,Epi,Rabaul,Singapore,Luganville,Manila,Seria,Auki,Port Vila,Kayangel,Angaur,Ngerulmud,Ipoh"
 },
 {
     "name": "Kungarakany",
@@ -5473,7 +5473,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ngaanyatjarra,Uluru,Bamaga,Cooktown,Indulkana,Kowanyama,Karratha,Walgett,Kalgoorlie,Lake Grace,Amaroo,Elliott,Papunya,Hermannsburg,Port Hedland,Fregon,Warburton Ranges,Lockhart River,Thursday Island,Maningrida,Wilcannia,Mintabie,Dampier,Onslow,Winton,Brewarrina,Oodnadatta,Derby,Angaur,Manila,Kuala Lumpur,Makassar,Quezon City,Davao,Denpasar,Palikir,Jerudong,Levuka,Majuro,Malacca,Surabaya,Cagayan de Oro,Kota Kinabalu,Epi,Nadi,Kuala Belait,Tanna,Shah Alam,Gizo,Santo,Buala,Seria,George Town,Kirakira,Savusavu"
+  "b": "Ngaanyatjarra,Uluru,Bamaga,Cooktown,Indulkana,Kowanyama,Karratha,Walgett,Kalgoorlie,Lake Grace,Amaroo,Elliott,Papunya,Hermannsburg,Port Hedland,Fregon,Warburton Ranges,Lockhart River,Thursday Island,Maningrida,Wilcannia,Mintabie,Dampier,Onslow,Winton,Brewarrina,Oodnadatta,Derby,Angaur,Manila,Kuala Lumpur,Makassar,Quezon City,Davao,Denpasar,Palikir,Jerudong,Levuka,Majuro,Malacca,Surabaya,Cagayan de Oro,Kota Kinabalu,Epi,Nadi,Kuala Belait,Tanna,Shah Alam,Gizo,Seria,George Town,Savusavu"
 },
 {
     "name": "Ngarrindjeri",
@@ -5509,7 +5509,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "palawa kani,Alyangula,Indulkana,Thursday Island,Menindee,Kununurra,Hopetoun,Amaroo,Morawa,Karratha,Borroloola,Winton,Mimili,Warburton Ranges,Docker River,Papunya,Kowanyama,Wilcannia,Mapoon,Roxby Downs,Watarrka,Exmouth,Brewarrina,Bedourie,Pormpuraaw,Port Augusta,Nampo,Goyang,Levuka,Medan,Surabaya,Savusavu,Quezon City,Palembang,Jaluit,Cagayan de Oro,Iloilo City,Munda,Sonsorol,Bangar,Ngerulmud,George Town,Melekeok,Jerudong,Kuching,Shah Alam,Makassar,Zamboanga,Tutong,Port Moresby,Angaur,Tanna,Honiara,Kavieng,Kirakira"
+  "b": "palawa kani,Alyangula,Indulkana,Thursday Island,Menindee,Kununurra,Hopetoun,Amaroo,Morawa,Karratha,Borroloola,Winton,Mimili,Warburton Ranges,Docker River,Papunya,Kowanyama,Wilcannia,Mapoon,Roxby Downs,Watarrka,Exmouth,Brewarrina,Bedourie,Pormpuraaw,Port Augusta,Nampo,Goyang,Levuka,Medan,Surabaya,Savusavu,Quezon City,Palembang,Jaluit,Cagayan de Oro,Iloilo City,Munda,Sonsorol,Bangar,Ngerulmud,George Town,Melekeok,Jerudong,Kuching,Shah Alam,Makassar,Zamboanga,Tutong,Port Moresby,Angaur,Tanna,Honiara,Kavieng"
 },
 {
     "name": "Panyjima",
@@ -5527,7 +5527,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Umbugarla,Weipa,Ti Tree,Kununurra,Cobar,Amaroo,Norseman,Watarrka,Carnamah,Broome,Santa Teresa,Warburton Ranges,Amata,Karratha,Warburton,Wilcannia,Gapuwiyak,Horn Island,Papunya,Tom Price,Brewarrina,Longreach,Pormpuraaw,Innamincka,Kalgoorlie,Borroloola,Bourke,Elliott,Adelaide,Wyndham,Brisbane,Townsville,Sydney,Cairns,Oodnadatta,Hobart,Wollongong,Newcastle,Yuendumu,Nhulunbuy,Geraldton,Cooktown,Port Hedland,Canberra,Normanton,Katherine,Derby,Port Lincoln,Maningrida,Fitzroy Crossing,Esperance,Pine Creek"
+  "b": "Umbugarla,Weipa,Ti Tree,Kununurra,Cobar,Amaroo,Norseman,Watarrka,Carnamah,Broome,Santa Teresa,Warburton Ranges,Amata,Karratha,Warburton,Wilcannia,Gapuwiyak,Horn Island,Papunya,Tom Price,Brewarrina,Longreach,Pormpuraaw,Innamincka,Kalgoorlie,Borroloola,Bourke,Elliott,Adelaide,Wyndham,Brisbane,Townsville,Sydney,Cairns,Oodnadatta,Hobart,Wollongong,Newcastle,Yuendumu,Nhulunbuy,Geraldton,Cooktown,Port Hedland,Canberra,Normanton,Katherine,Derby,Port Lincoln,Maningrida,Fitzroy Crossing,Esperance,Pine Creek,Warlayirti,Warlpiri,Gurindji,Kalkaringi,Daguragu,Kajirri,Billiluna,Balgo,Wirrimanu,Kintore"
 },
 {
     "name": "Upper Arrernte",
@@ -5554,7 +5554,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Wagiman,Cooktown,Mapoon,Amaroo,Walgett,Ti Tree,Lake Grace,Elliott,Warburton Ranges,Hermannsburg,Innamincka,Fregon,Wilcannia,Lockhart River,Maningrida,Karratha,Mintabie,Brewarrina,Dampier,Pormpuraaw,Winton,Papunya,Oodnadatta,Bourke,Carnamah,Coober Pedy,Exmouth,Tom Price,Cunnamulla,Melbourne,Adelaide,Cairns,Gold Coast,Canberra,Fitzroy Crossing,Broken Hill,Newcastle,Darwin,Kununurra,Wollongong,Geelong,Barkly,Broome,Bunbury,Ceduna,Kalgoorlie,Pine Creek,Katherine,Albany,Derby,Daly River,Nhulunbuy,Wyndham,Marree"
+  "b": "Wagiman,Cooktown,Mapoon,Amaroo,Walgett,Ti Tree,Lake Grace,Elliott,Warburton Ranges,Hermannsburg,Innamincka,Fregon,Wilcannia,Lockhart River,Maningrida,Karratha,Mintabie,Brewarrina,Dampier,Pormpuraaw,Winton,Papunya,Oodnadatta,Bourke,Carnamah,Coober Pedy,Exmouth,Tom Price,Cunnamulla,Melbourne,Adelaide,Cairns,Gold Coast,Canberra,Fitzroy Crossing,Broken Hill,Newcastle,Darwin,Kununurra,Wollongong,Geelong,Barkly,Broome,Bunbury,Ceduna,Kalgoorlie,Pine Creek,Katherine,Albany,Derby,Daly River,Nhulunbuy,Wyndham,Marree,Daly,PineCreek,Wagait,Belyuen,Cox,FogBay,Anson,PortKeats"
 },
 {
     "name": "Wajarri",
@@ -5581,7 +5581,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Wangkatha,Weipa,Ti Tree,Kununurra,Cobar,Amaroo,Norseman,Watarrka,Carnamah,Broome,Santa Teresa,Warburton Ranges,Amata,Karratha,Warburton,Wilcannia,Gapuwiyak,Horn Island,Papunya,Tom Price,Brewarrina,Longreach,Pormpuraaw,Innamincka,Kalgoorlie,Borroloola,Uluru,Winton,Bandung,Kuala Lumpur,Zamboanga,Iloilo City,Epi,Manila,Tulagi,Cagayan de Oro,George Town,Kota Kinabalu,Suva,Quezon City,Bangar,Ipoh,Palembang,Jaluit,Auki,Kuching,Ba,Surabaya,Palikir,Santo,Tutong,Nadi,Munda,Muara,Ambrym"
+  "b": "Wangkatha,Weipa,Ti Tree,Kununurra,Cobar,Amaroo,Norseman,Watarrka,Carnamah,Broome,Santa Teresa,Warburton Ranges,Amata,Karratha,Warburton,Wilcannia,Gapuwiyak,Horn Island,Papunya,Tom Price,Brewarrina,Longreach,Pormpuraaw,Innamincka,Kalgoorlie,Borroloola,Uluru,Winton,Bandung,Kuala Lumpur,Zamboanga,Iloilo City,Epi,Manila,Tulagi,Cagayan de Oro,George Town,Kota Kinabalu,Suva,Quezon City,Bangar,Ipoh,Palembang,Jaluit,Auki,Kuching,Ba,Surabaya,Palikir,Tutong,Nadi,Munda,Muara,Ambrym"
 },
 {
     "name": "Warumungu",
@@ -5599,7 +5599,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Wik Mungkan,Alyangula,Indulkana,Thursday Island,Menindee,Kununurra,Hopetoun,Amaroo,Morawa,Karratha,Borroloola,Winton,Mimili,Warburton Ranges,Docker River,Papunya,Kowanyama,Wilcannia,Mapoon,Roxby Downs,Watarrka,Exmouth,Brewarrina,Bedourie,Pormpuraaw,Port Augusta,Yulara,Mullewa,Muara,Singapore,Bandung,Denpasar,Quezon City,Palikir,Palembang,Cagayan de Oro,Iloilo City,Sonsorol,Davao,Makassar,Bandar Seri Begawan,Kota Kinabalu,Kirakira,Kavieng,Zamboanga,Pentecost,Semarang,Suva,Ipoh,Munda,Weno,Malekula,Johor Bahru,Bangar,Kuala Belait"
+  "b": "Wik Mungkan,Alyangula,Indulkana,Thursday Island,Menindee,Kununurra,Hopetoun,Amaroo,Morawa,Karratha,Borroloola,Winton,Mimili,Warburton Ranges,Docker River,Papunya,Kowanyama,Wilcannia,Mapoon,Roxby Downs,Watarrka,Exmouth,Brewarrina,Bedourie,Pormpuraaw,Port Augusta,Yulara,Mullewa,Muara,Singapore,Bandung,Denpasar,Quezon City,Palikir,Palembang,Cagayan de Oro,Iloilo City,Sonsorol,Davao,Makassar,Bandar Seri Begawan,Kota Kinabalu,Kavieng,Zamboanga,Pentecost,Semarang,Suva,Ipoh,Munda,Weno,Malekula,Johor Bahru,Bangar,Kuala Belait"
 },
 {
     "name": "Yankunytjatjara",
@@ -5608,7 +5608,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Yankunytjatjara,Kings Canyon,Karratha,Weipa,Broome,Maningrida,Indulkana,Cobar,Papunya,Norseman,Port Hedland,Carnamah,Amaroo,Santa Teresa,Bedourie,Amata,Warburton,Warburton Ranges,Gapuwiyak,Onslow,Horn Island,Wilcannia,Tom Price,Longreach,Numbulwar,Innamincka,Elliott,Roxby Downs,Bandung,Ipoh,Semarang,Manila,Iloilo City,Denpasar,Quezon City,George Town,Palembang,Davao,Sonsorol,Shah Alam,Bacolod,Malacca,Ba,Tulagi,Gizo,Port Vila,Suva,Seria,Munda,Muara,Kuala Lumpur,Medan,Weno,Santo,Singapore"
+  "b": "Yankunytjatjara,Kings Canyon,Karratha,Weipa,Broome,Maningrida,Indulkana,Cobar,Papunya,Norseman,Port Hedland,Carnamah,Amaroo,Santa Teresa,Bedourie,Amata,Warburton,Warburton Ranges,Gapuwiyak,Onslow,Horn Island,Wilcannia,Tom Price,Longreach,Numbulwar,Innamincka,Elliott,Roxby Downs,Bandung,Ipoh,Semarang,Manila,Iloilo City,Denpasar,Quezon City,George Town,Palembang,Davao,Sonsorol,Shah Alam,Bacolod,Malacca,Ba,Tulagi,Gizo,Port Vila,Suva,Seria,Munda,Muara,Kuala Lumpur,Medan,Weno,Singapore"
 },
 {
     "name": "Yinjibarndi",
@@ -6994,7 +6994,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Orodezhi,Navua,Kairuku,Nibok,Tabubil,Melekeok,Palau,Neiafu,Mili,Ebeye,Newcastle,Rotorua,Denigomodu,Bora-Bora,Dumbea,Rabaul,Kavieng,Samamea,Tabiteuea,Belep,Kimbe,Baiti,Havelu,Ok Tedi,Yap,Hobart,Sogeri,Pécs,Bissau,Bamenda,Gbarnga,Banjul,Koidu,Cotonou,Koudougou,Conakry,Ebebiyín,Monrovia,Lomé,Freetown,Ziguinchor,Kano,Katsina,Sunyani,Kumasi,Yamoussoukro,Ségou,Man,Bamako,Porto-Novo,Bouaké,Mopti,Kaduna,Nouakchott,Sokodé"
+  "b": "Orodezhi,Navua,Kairuku,Nibok,Tabubil,Melekeok,Palau,Mili,Ebeye,Newcastle,Rotorua,Denigomodu,Bora-Bora,Dumbea,Rabaul,Kavieng,Samamea,Tabiteuea,Belep,Kimbe,Baiti,Havelu,Ok Tedi,Yap,Hobart,Sogeri,Pécs,Bissau,Bamenda,Gbarnga,Banjul,Koidu,Cotonou,Koudougou,Conakry,Ebebiyín,Monrovia,Lomé,Freetown,Ziguinchor,Kano,Katsina,Sunyani,Kumasi,Yamoussoukro,Ségou,Man,Bamako,Porto-Novo,Bouaké,Mopti,Kaduna,Nouakchott,Sokodé"
 },
 {
     "name": "Päijänne Tavastia",
@@ -7111,7 +7111,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Sernur-Morkin,Wewak,Kavieng,Misima,Lorengau,Tabiteuea,Nibok,Funafuti,Ebeye,Townsville,Kimbe,Tauranga,Salelologa,Abaiang,Malekula,Gizo,Denigomodu,Butaritari,Sogeri,Canala,Kiunga,Koror,Kairuku,Arno,Baiti,Hannover,Kharkiv,Paris,Bamako,Bertoua,Cotonou,Bouaké,Bobo-Dioulasso,Bamenda,Nouakchott,Kayes,Abidjan,Lomé,Ziguinchor,Praia,Garoua,Sikasso,Kara,Korhogo,Kaolack,Ouagadougou,Bissau,Man,Monrovia,Bolt,Bata,Tema,Sunyani,Jos,Ségou"
+  "b": "Sernur-Morkin,Wewak,Kavieng,Misima,Lorengau,Tabiteuea,Nibok,Ebeye,Townsville,Kimbe,Tauranga,Salelologa,Abaiang,Malekula,Gizo,Denigomodu,Butaritari,Sogeri,Canala,Kiunga,Koror,Kairuku,Arno,Baiti,Hannover,Kharkiv,Paris,Bamako,Bertoua,Cotonou,Bouaké,Bobo-Dioulasso,Bamenda,Nouakchott,Kayes,Abidjan,Lomé,Ziguinchor,Praia,Garoua,Sikasso,Kara,Korhogo,Kaolack,Ouagadougou,Bissau,Man,Monrovia,Bolt,Bata,Tema,Sunyani,Jos,Ségou"
 },
 {
     "name": "Serri",
@@ -7174,7 +7174,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Soikkola,Navua,Kairuku,Nibok,Tabubil,Melekeok,Palau,Neiafu,Mili,Ebeye,Newcastle,Rotorua,Denigomodu,Bora-Bora,Dumbea,Rabaul,Kavieng,Samamea,Tabiteuea,Belep,Kimbe,Baiti,Havelu,Ok Tedi,Yap,Hobart,Sogeri,Nottingham,Lomé,Bamako,Ziguinchor,Bobo-Dioulasso,Dakar,Conakry,Kankan,Kayes,Daloa,Bolama,Kumasi,Zaria,Freetown,Niamey,Nouakchott,Korhogo,Monrovia,Wa,Saint-Louis,Kumba,Nzérékoré,Ouahigouya,Tema,Abidjan,Maiduguri,Parakou,Minna"
+  "b": "Soikkola,Navua,Kairuku,Nibok,Tabubil,Melekeok,Palau,Mili,Ebeye,Newcastle,Rotorua,Denigomodu,Bora-Bora,Dumbea,Rabaul,Kavieng,Samamea,Tabiteuea,Belep,Kimbe,Baiti,Havelu,Ok Tedi,Yap,Hobart,Sogeri,Nottingham,Lomé,Bamako,Ziguinchor,Bobo-Dioulasso,Dakar,Conakry,Kankan,Kayes,Daloa,Bolama,Kumasi,Zaria,Freetown,Niamey,Nouakchott,Korhogo,Monrovia,Wa,Saint-Louis,Kumba,Nzérékoré,Ouahigouya,Tema,Abidjan,Maiduguri,Parakou,Minna"
 },
 {
     "name": "Sörkaitum",
@@ -7237,7 +7237,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Southern Karelian,Dundee,Podgorica,Liepāja,Soroca,Ioannina,Antwerp,Vantaa,Daugavpils,Trieste,Subotica,Dubrovnik,Dijon,Minsk,Szeged,Maribor,Varna,Liberec,Gothenburg,Lille,Kópavogur,Dudelange,Akureyri,Valletta,Aberdeen,Leeds,Chișinău,Aalborg,Weno,Bandung,Medan,Santo,Suva,Lautoka,Denpasar,Manila,Cebu City,Palikir,Singapore,Honiara,Makassar,Cagayan de Oro,Luganville,George Town,Bacolod,Tulagi,Kota Kinabalu,Ambrym,Shah Alam,Ipoh,Lorengau,Tutong,Peleliu,Epi,Quezon City"
+  "b": "Southern Karelian,Dundee,Podgorica,Liepāja,Soroca,Ioannina,Antwerp,Vantaa,Daugavpils,Trieste,Subotica,Dubrovnik,Dijon,Minsk,Szeged,Maribor,Varna,Liberec,Gothenburg,Lille,Kópavogur,Dudelange,Akureyri,Valletta,Aberdeen,Leeds,Chișinău,Aalborg,Weno,Bandung,Medan,Suva,Lautoka,Denpasar,Manila,Cebu City,Palikir,Singapore,Honiara,Makassar,Cagayan de Oro,Luganville,George Town,Bacolod,Tulagi,Kota Kinabalu,Ambrym,Shah Alam,Ipoh,Lorengau,Tutong,Peleliu,Epi,Quezon City"
 },
 {
     "name": "Southern Mansi",
@@ -7300,7 +7300,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Székely,Levuka,Yap,Kone,Kiunga,Kimbe,Nanumea,Abaiang,Kolonia,Denigomodu,Leulumoega,Punaauia,Palau,Munda,Alotau,Kairuku,Sogeri,Tiga,Baiti,Peleliu,Yaren,Ok Tedi,Tarawa,Kosrae,Tabiteuea,Whangarei,Ohrid,Nuremberg,Banjul,Abidjan,Bobo-Dioulasso,Nouakchott,Cotonou,Ségou,Niamey,Lomé,Kaolack,Tamale,Mindelo,Wa,Yola,Nzérékoré,Warri,Kayes,Man,Maiduguri,Garoua,Bouaké,Saint-Louis,Malabo,Jalingo,Sunyani,Zaria,Koudougou,Cacheu"
+  "b": "Székely,Levuka,Yap,Kone,Kiunga,Kimbe,Abaiang,Kolonia,Denigomodu,Leulumoega,Punaauia,Palau,Munda,Alotau,Kairuku,Sogeri,Tiga,Baiti,Peleliu,Yaren,Ok Tedi,Tarawa,Kosrae,Tabiteuea,Whangarei,Ohrid,Nuremberg,Banjul,Abidjan,Bobo-Dioulasso,Nouakchott,Cotonou,Ségou,Niamey,Lomé,Kaolack,Tamale,Mindelo,Wa,Yola,Nzérékoré,Warri,Kayes,Man,Maiduguri,Garoua,Bouaké,Saint-Louis,Malabo,Jalingo,Sunyani,Zaria,Koudougou,Cacheu"
 },
 {
     "name": "Tagil",
@@ -7777,7 +7777,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Italo-Australian,Rabaul,Uaboe,Sogeri,Kone,Kavieng,Koror,Nanumea,Tabiteuea,Arno,Kolonia,Majuro,Palmerston North,Leulumoega,Kimbe,Noumén,Munda,Abaiang,Levuka,Denigomodu,Peleliu,Ohonua,Tarawa,Kairuku,Wollongong,Whangarei,Manchester,Niš,Sydney,Melbourne,Brisbane,Canberra,Fitzroy Crossing,Oodnadatta,Hobart,Wyndham,Mount Isa,Esperance,Newcastle,Geelong,Daly River,Gold Coast,Sunshine Coast,Derby,Kununurra,Karratha,Geraldton,Bunbury,Leigh Creek,Kalkarindji,Albany,Adelaide,Wadeye,Elcho Island"
+  "b": "Italo-Australian,Rabaul,Uaboe,Sogeri,Kone,Kavieng,Koror,Tabiteuea,Arno,Kolonia,Majuro,Palmerston North,Leulumoega,Kimbe,Noumén,Munda,Abaiang,Levuka,Denigomodu,Peleliu,Ohonua,Tarawa,Kairuku,Wollongong,Whangarei,Manchester,Niš,Sydney,Melbourne,Brisbane,Canberra,Fitzroy Crossing,Oodnadatta,Hobart,Wyndham,Mount Isa,Esperance,Newcastle,Geelong,Daly River,Gold Coast,Sunshine Coast,Derby,Kununurra,Karratha,Geraldton,Bunbury,Leigh Creek,Kalkarindji,Albany,Adelaide,Wadeye,Elcho Island"
 },
 {
     "name": "Judeo-Aragonese",
@@ -8101,7 +8101,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Harari,Asmara,Nimule,Dila,Eldoret,Siaya,Borama,Kisumu,Nachingwea,Port Sudan,Soroti,Djibouti City,Esna,Garsen,Garissa,Garoowe,Massawa,Sennar,Harar,Kakamega,Cyangugu,Newala,Lodwar,Arusha,Dodoma,Kapeta,Omdurman,Gitega,Banjul,Dakar,Bafatá,Gbarnga,Niamey,Freetown,Kankan,Nzérékoré,Ouahigouya,Minna,Zinder,Wa,Mopti,Abidjan,Man,Mindelo,Kara,Bertoua,Yola,Ngaoundéré,Sokodé,Cotonou,Bata,Daloa,Natitingou,Koudougou,Sikasso"
+  "b": "Asmara,Nimule,Dila,Eldoret,Siaya,Borama,Kisumu,Nachingwea,Port Sudan,Soroti,Djibouti City,Esna,Garsen,Garissa,Garoowe,Massawa,Sennar,Harar,Kakamega,Cyangugu,Newala,Lodwar,Arusha,Dodoma,Kapeta,Omdurman,Gitega,Banjul,Dakar,Bafatá,Gbarnga,Niamey,Freetown,Kankan,Nzérékoré,Ouahigouya,Minna,Zinder,Wa,Mopti,Abidjan,Man,Mindelo,Kara,Bertoua,Yola,Ngaoundéré,Sokodé,Cotonou,Bata,Daloa,Natitingou,Koudougou,Sikasso"
 },
 {
     "name": "Chagossian Creole",
@@ -8191,7 +8191,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Sierra Juarez Zapotec,Tuxpan,Iximché,Zempoala,Tutupec,Caral,Tibes,Aguada Fénix,Pisac,Quiotepec,Pátzcuaro,Coquimbo,Paquimé,Tikal,Xochitécatl,Malinalco,Tenochtitlan,Texcoco,Coyoacán,Chapultepec,Xochicalco,Xochimilco,Tlaxcala,Cholula,Teotihuacán,Tula,Tajín,Las Labradas,Makassar,Tanna,Kavieng,Muara,Nadi,Majuro,Bacolod,Port Moresby,Kuching,Singapore,Malacca,Shah Alam,George Town,Tutong,Lae,Kuala Lumpur,Kota Kinabalu,Bandar Seri Begawan,Auki,Jerudong,Kuala Belait,Johor Bahru,Cagayan de Oro,Semarang,Sonsorol,Buala,Suva"
+  "b": "Sierra Juarez Zapotec,Tuxpan,Iximché,Zempoala,Tutupec,Caral,Tibes,Aguada Fénix,Pisac,Quiotepec,Pátzcuaro,Coquimbo,Paquimé,Tikal,Xochitécatl,Malinalco,Tenochtitlan,Texcoco,Coyoacán,Chapultepec,Xochicalco,Xochimilco,Tlaxcala,Cholula,Teotihuacán,Tula,Tajín,Las Labradas,Makassar,Tanna,Kavieng,Muara,Nadi,Majuro,Bacolod,Port Moresby,Kuching,Singapore,Malacca,Shah Alam,George Town,Tutong,Lae,Kuala Lumpur,Kota Kinabalu,Bandar Seri Begawan,Auki,Jerudong,Kuala Belait,Johor Bahru,Cagayan de Oro,Semarang,Sonsorol,Suva"
 },
 {
     "name": "Tlapanec (Meꞌphaa)",
@@ -8299,7 +8299,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Western Hilali dialects,Goroka,Lorengau,Buna,Manus,Uaboe,Asau,Kwajalein,Palikir,Kavieng,Napier,Vaitele,Tabiteuea,Ambrym,Kirakira,Nibok,Abaiang,Kairuku,Lifou,Tabubil,Melekeok,Neiafu,Mili,Denigomodu,Nasiriyah,Ranya,Beersheba,Eskişehir,Abidjan,Banjul,Bamako,Daloa,Brikama,Bouaké,Sokodé,Cotonou,Freetown,Gusau,Bertoua,Katsina,Man,Lomé,Warri,Parakou,Ouagadougou,Jalingo,Sunyani,Bamenda,Kano,Wa,Mopti,Garoua,Lafia,Tambacounda,Niamey"
+  "b": "Western Hilali dialects,Goroka,Lorengau,Buna,Manus,Uaboe,Asau,Kwajalein,Palikir,Kavieng,Napier,Vaitele,Tabiteuea,Ambrym,Nibok,Abaiang,Kairuku,Lifou,Tabubil,Melekeok,Mili,Denigomodu,Nasiriyah,Ranya,Beersheba,Eskişehir,Abidjan,Banjul,Bamako,Daloa,Brikama,Bouaké,Sokodé,Cotonou,Freetown,Gusau,Bertoua,Katsina,Man,Lomé,Warri,Parakou,Ouagadougou,Jalingo,Sunyani,Bamenda,Kano,Wa,Mopti,Garoua,Lafia,Tambacounda,Niamey"
 },
 {
     "name": "Western Middle Aramaic",
@@ -8317,7 +8317,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Western pre-Hilali dialects,Neiafu,Daru,Ebeye,Mare,Ok Tedi,Lorengau,Nui,Pangai,Pohnpei,Canberra,Uaboe,Moorea,Melekeok,Kundiawa,Luganville,Tulagi,Trobriand,Nibok,Ngerulmud,Denigomodu,Kimbe,Bikenibeu,Majuro,Tartus,Irbid,Manama,Jerusalem,Basse,Accra,Bissau,Katsina,Cotonou,Bobo-Dioulasso,Bouaké,Lomé,Ziguinchor,Gbarnga,Koidu,Nzérékoré,Korhogo,Kankan,Jalingo,Kumasi,Praia,Maiduguri,Sunyani,Ebebiyín,Bauchi,Maroua,Daloa,Malabo,Nouakchott,Kaduna,Tambacounda"
+  "b": "Western pre-Hilali dialects,Daru,Ebeye,Mare,Ok Tedi,Lorengau,Nui,Pangai,Pohnpei,Canberra,Uaboe,Moorea,Melekeok,Kundiawa,Luganville,Tulagi,Trobriand,Nibok,Ngerulmud,Denigomodu,Kimbe,Bikenibeu,Majuro,Tartus,Irbid,Manama,Jerusalem,Basse,Accra,Bissau,Katsina,Cotonou,Bobo-Dioulasso,Bouaké,Lomé,Ziguinchor,Gbarnga,Koidu,Nzérékoré,Korhogo,Kankan,Jalingo,Kumasi,Praia,Maiduguri,Sunyani,Ebebiyín,Bauchi,Maroua,Daloa,Malabo,Nouakchott,Kaduna,Tambacounda"
 },
 {
     "name": "Yafi'i Arabic",
@@ -8344,7 +8344,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Zabidi dialect,Goroka,Ba,Kavieng,Manus,Lae,Tabiteuea,Asau,Abaiang,Nibok,Palikir,Kosrae,Vaitele,Papeete,Munda,Kirakira,Vanimo,Denigomodu,Kairuku,Ouvea,Rabaul,Melekeok,Nukulaelae,Ohonua,Mili,Chuuk,Majuro,Aswan,Kankan,Katsina,Ebebiyín,Dakar,Accra,Conakry,Praia,Koidu,Jos,Korhogo,Kumasi,Niamey,Bertoua,Wa,Man,Daloa,Kara,Malabo,Buea,Bouaké,Kumba,Abidjan,Yamoussoukro,Ziguinchor,Nouakchott,Bissau,Maiduguri"
+  "b": "Zabidi dialect,Goroka,Ba,Kavieng,Manus,Lae,Tabiteuea,Asau,Abaiang,Nibok,Palikir,Kosrae,Vaitele,Papeete,Munda,Vanimo,Denigomodu,Kairuku,Ouvea,Rabaul,Melekeok,Nukulaelae,Ohonua,Mili,Chuuk,Majuro,Aswan,Kankan,Katsina,Ebebiyín,Dakar,Accra,Conakry,Praia,Koidu,Jos,Korhogo,Kumasi,Niamey,Bertoua,Wa,Man,Daloa,Kara,Malabo,Buea,Bouaké,Kumba,Abidjan,Yamoussoukro,Ziguinchor,Nouakchott,Bissau,Maiduguri"
 },
 {
     "name": "Zakho",
@@ -8371,7 +8371,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "ˀAzd dialect,Neiafu,Labasa,Trobriand,Kirakira,Ngerulmud,Denigomodu,Nibok,Bikenibeu,Majuro,Kimbe,Hamilton,Abaiang,Lifou,Santo,Ohonua,Auki,Vava'u,Rabaul,Noumea,Popondetta,Kairuku,Vaitupu,Tabiteuea,Baiti,Weno,Manus,Raiatea,Accra,Bissau,Dakar,Maroua,Lomé,Niamey,Zaria,Daloa,Bobo-Dioulasso,Sikasso,Kara,Kayes,Bata,Koidu,Korhogo,Kumasi,Gusau,Yamoussoukro,Yola,Bertoua,Bafatá,Wa,Man,Nzérékoré,Banjul,Ebebiyín,Sokodé"
+  "b": "ˀAzd dialect,Labasa,Trobriand,Ngerulmud,Denigomodu,Nibok,Bikenibeu,Majuro,Kimbe,Hamilton,Abaiang,Lifou,Ohonua,Auki,Vava'u,Rabaul,Noumea,Popondetta,Kairuku,Vaitupu,Tabiteuea,Baiti,Weno,Manus,Raiatea,Accra,Bissau,Dakar,Maroua,Lomé,Niamey,Zaria,Daloa,Bobo-Dioulasso,Sikasso,Kara,Kayes,Bata,Koidu,Korhogo,Kumasi,Gusau,Yamoussoukro,Yola,Bertoua,Bafatá,Wa,Man,Nzérékoré,Banjul,Ebebiyín,Sokodé"
 },
 {
     "name": "Algonquian-Basque pidgin",
@@ -8470,7 +8470,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Duvle-Wano Pidgin,Vanimo,Navua,Majuro,Ouvea,Tabubil,Kavieng,Nukulaelae,Neiafu,Tabiteuea,Chuuk,Newcastle,Nibok,Samamea,Bora-Bora,Koror,Norfolk,Kairuku,Belep,Denigomodu,Angaur,Baiti,Rabaul,Betio,Yap,Pangai,Dumbéa,Kokopo,Cul de Sac,Maho Reef,Cockburn Town,Ocho Ríos,Bridgetown,Falmouth,Saint-Marc,Port-au-Prince,Oistins,Marsh Harbour,Crane,Freeport,Speightstown,Harbour Island,Point Fortin,Santa Cruz,San Fernando,Dunmore Town,Chaguanas,Hastings,Arima,Holguín,Cienfuegos,Bathsheba,Camagüey,Gonaïves,Scarborough"
+  "b": "Duvle-Wano Pidgin,Vanimo,Navua,Majuro,Ouvea,Tabubil,Kavieng,Nukulaelae,Tabiteuea,Chuuk,Newcastle,Nibok,Samamea,Bora-Bora,Koror,Norfolk,Kairuku,Belep,Denigomodu,Angaur,Baiti,Rabaul,Betio,Yap,Pangai,Dumbéa,Kokopo,Cul de Sac,Maho Reef,Cockburn Town,Ocho Ríos,Bridgetown,Falmouth,Saint-Marc,Port-au-Prince,Oistins,Marsh Harbour,Crane,Freeport,Speightstown,Harbour Island,Point Fortin,Santa Cruz,San Fernando,Dunmore Town,Chaguanas,Hastings,Arima,Holguín,Cienfuegos,Bathsheba,Camagüey,Gonaïves,Scarborough,Duvle,Wano,DuvleWano,Kanggup,Balingga,Talitoli,Dangua,Tariku,VanDaalen,Hulu,Kisor"
 },
 {
     "name": "Français Tirailleur",
@@ -8524,7 +8524,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Javindo,Tchibanga,Conakry,Parakou,Fatick,Jalingo,Gashua,Koulikoro,Tougué,Dapaong,Kontagora,Tahoua,Wa,Franceville,Luba,Umuahia,Faranah,Zaria,Lafia,Nkongsamba,Yamoussoukro,Moundou,Porto-Novo,Ségou,Ife,Timbuktu,Farafenni,Lomé,Christ Church,Mandeville,Portmore,Cockburn Town,Cap-Haïtien,Port Antonio,Falmouth,Gonaïves,Marsh Harbour,Kingston,Freeport,Alice Town,Holguín,Tera Cora,Holetown,Basseterre,Crane,Gustavia,Saveta,Speightstown,Montaña,Tortola,Cienfuegos,Oistins,Tunapuna,Bridgetown,Paradera"
+  "b": "Javindo,Tchibanga,Conakry,Parakou,Fatick,Jalingo,Gashua,Koulikoro,Tougué,Dapaong,Kontagora,Tahoua,Wa,Franceville,Luba,Umuahia,Faranah,Zaria,Lafia,Nkongsamba,Yamoussoukro,Moundou,Porto-Novo,Ségou,Ife,Timbuktu,Farafenni,Lomé,Christ Church,Mandeville,Portmore,Cockburn Town,Cap-Haïtien,Port Antonio,Falmouth,Gonaïves,Marsh Harbour,Kingston,Freeport,Alice Town,Holguín,Tera Cora,Holetown,Basseterre,Crane,Gustavia,Saveta,Speightstown,Montaña,Tortola,Cienfuegos,Oistins,Tunapuna,Bridgetown,Paradera,JavaneseDutch,Indo,Tugu,Gado,Sinjo,Kromo,Semarang,Surabaya,NYoni,Temboro"
 },
 {
     "name": "Jersey Dutch",
@@ -8587,7 +8587,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Maritime Polynesian Pidgin,Kirakira,Vanimo,Palau,Kairuku,Ouvea,Lorengau,Melekeok,Nukulaelae,Mili,Chuuk,Ebeye,Rotorua,Samamea,Kavieng,Dumbea,Norfolk,Tabiteuea,Newcastle,Navua,Nibok,Kimbe,Angaur,Havelu,Betio,Jaluit,Misima,Auki,Joensuu,Chamzinka,Berezniki,Kuopio,Tartu,Jyväskylä,Kotka,Ruzaevka,Cherdyn,Pärnu,Tampere,Mikkeli,Vorkuta,Tallinn,Kovylkino,Monchegorsk,Atemar,Budapest,Sernur,Rovaniemi,Kortkeros,Saransk,Kirovsk,Kecskemét,Yusva,Haapsalu,Aikino"
+  "b": "Maritime Polynesian Pidgin,Vanimo,Palau,Kairuku,Ouvea,Lorengau,Melekeok,Nukulaelae,Mili,Chuuk,Ebeye,Rotorua,Samamea,Kavieng,Dumbea,Norfolk,Tabiteuea,Newcastle,Navua,Nibok,Kimbe,Angaur,Havelu,Betio,Jaluit,Misima,Auki,Joensuu,Chamzinka,Berezniki,Kuopio,Tartu,Jyväskylä,Kotka,Ruzaevka,Cherdyn,Pärnu,Tampere,Mikkeli,Vorkuta,Tallinn,Kovylkino,Monchegorsk,Atemar,Budapest,Sernur,Rovaniemi,Kortkeros,Saransk,Kirovsk,Kecskemét,Yusva,Haapsalu,Aikino"
 },
 {
     "name": "Mbugu",
@@ -8605,7 +8605,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Media Lengua,Neiafu,Labasa,Trobriand,Kirakira,Ngerulmud,Denigomodu,Nibok,Bikenibeu,Majuro,Kimbe,Hamilton,Abaiang,Lifou,Santo,Ohonua,Auki,Vava'u,Rabaul,Noumea,Popondetta,Kairuku,Vaitupu,Tabiteuea,Baiti,Weno,Punaauia,Wewak,Bouaké,Ziguinchor,Bissau,Banjul,Man,Bobo-Dioulasso,Kano,Daloa,Kumba,Basse,Nouakchott,Nzérékoré,Lafia,Bafatá,Gusau,Koidu,Katsina,Thiès,Bamenda,Niamey,Kaolack,Dakar,Malabo,Tema,Lomé,Mopti,Porto-Novo"
+  "b": "Media Lengua,Labasa,Trobriand,Ngerulmud,Denigomodu,Nibok,Bikenibeu,Majuro,Kimbe,Hamilton,Abaiang,Lifou,Ohonua,Auki,Vava'u,Rabaul,Noumea,Popondetta,Kairuku,Vaitupu,Tabiteuea,Baiti,Weno,Punaauia,Wewak,Bouaké,Ziguinchor,Bissau,Banjul,Man,Bobo-Dioulasso,Kano,Daloa,Kumba,Basse,Nouakchott,Nzérékoré,Lafia,Bafatá,Gusau,Koidu,Katsina,Thiès,Bamenda,Niamey,Kaolack,Dakar,Malabo,Tema,Lomé,Mopti,Porto-Novo"
 },
 {
     "name": "Mediterranean Lingua Franca",
@@ -8614,7 +8614,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Mediterranean Lingua Franca,Neiafu,Daru,Ebeye,Mare,Ok Tedi,Lorengau,Nui,Pangai,Pohnpei,Canberra,Uaboe,Moorea,Melekeok,Kundiawa,Luganville,Tulagi,Trobriand,Nibok,Ngerulmud,Denigomodu,Kimbe,Bikenibeu,Majuro,Avarua,Auckland,Asau,Punaauia,Spanish Town,Saveta,Port-au-Prince,Montego Bay,Nassau,Cul de Sac,Andros Town,Ocho Ríos,Port Antonio,Fort-Liberté,Maho Reef,West End,Havana,Falmouth,Bathsheba,Marsh Harbour,Harbour Island,Holetown,Speightstown,Bridgetown,Kingston,Matanzas,Guantánamo,Oistins,Christ Church,Couva,Tera Cora"
+  "b": "Mediterranean Lingua Franca,Daru,Ebeye,Mare,Ok Tedi,Lorengau,Nui,Pangai,Pohnpei,Canberra,Uaboe,Moorea,Melekeok,Kundiawa,Luganville,Tulagi,Trobriand,Nibok,Ngerulmud,Denigomodu,Kimbe,Bikenibeu,Majuro,Avarua,Auckland,Asau,Punaauia,Spanish Town,Saveta,Port-au-Prince,Montego Bay,Nassau,Cul de Sac,Andros Town,Ocho Ríos,Port Antonio,Fort-Liberté,Maho Reef,West End,Havana,Falmouth,Bathsheba,Marsh Harbour,Harbour Island,Holetown,Speightstown,Bridgetown,Kingston,Matanzas,Guantánamo,Oistins,Christ Church,Couva,Tera Cora"
 },
 {
     "name": "Mekeo pidgins",
@@ -8623,7 +8623,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Mekeo pidgins,Wewak,Kavieng,Misima,Lorengau,Tabiteuea,Nibok,Funafuti,Ebeye,Townsville,Kimbe,Tauranga,Salelologa,Abaiang,Malekula,Gizo,Denigomodu,Butaritari,Sogeri,Canala,Kiunga,Koror,Kairuku,Arno,Baiti,Nadi,Punaauia,Port Moresby,George Town,Jakarta,Surabaya,Sonsorol,Cebu City,Alotau,Tutong,Cagayan de Oro,Kuala Belait,Bacolod,Makassar,Shah Alam,Ngerulmud,Singapore,Luganville,Bandung,Medan,Muara,Daru,Tulagi,Seria,Suva,Buala,Bangar,Weno,Auki,Denpasar"
+  "b": "Mekeo pidgins,Wewak,Kavieng,Misima,Lorengau,Tabiteuea,Nibok,Ebeye,Townsville,Kimbe,Tauranga,Salelologa,Abaiang,Malekula,Gizo,Denigomodu,Butaritari,Sogeri,Canala,Kiunga,Koror,Kairuku,Arno,Baiti,Nadi,Punaauia,Port Moresby,George Town,Jakarta,Surabaya,Sonsorol,Cebu City,Alotau,Tutong,Cagayan de Oro,Kuala Belait,Bacolod,Makassar,Shah Alam,Ngerulmud,Singapore,Luganville,Bandung,Medan,Muara,Daru,Tulagi,Seria,Suva,Bangar,Weno,Auki,Denpasar,Mekeo,Inao,Kuni,Roro,Kabadi,Lala,Aroma,Sinaugoro,Hula,Kapakapa"
 },
 {
     "name": "Michif",
@@ -8668,7 +8668,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Nagamese,Agra,Mymensingh,Visakhapatnam,Madurai,Lucknow,Jhang,Thinadhoo,Agartala,Karachi,Sialkot,Trincomalee,Hyderabad,Aurangabad,Mumbai,Chennai,Panaji,Ghaziabad,Chandigarh,Shikarpur,Imphal,Rajahmundry,Dhanbad,Varanasi,Bhubaneswar,Haridwar,Warangal,Nashik,Chamdo,Nyingchi,Weixi,Mangan,Zhongdian,Dali,Trashigang,Xichang,Deqin,Haldwani,Ngari,Mawlai,Litang,Rhenock,Rishikesh,Jakar,Nainital,Singtam,Dalton Ganj,Samdrup Jongkhar,Pithoragarh,Pu'er,Umroi,Yibin,Shigatse"
+  "b": "Nagamese,Agra,Mymensingh,Visakhapatnam,Madurai,Lucknow,Jhang,Thinadhoo,Agartala,Karachi,Sialkot,Trincomalee,Hyderabad,Aurangabad,Mumbai,Chennai,Panaji,Ghaziabad,Chandigarh,Shikarpur,Imphal,Rajahmundry,Dhanbad,Varanasi,Bhubaneswar,Haridwar,Warangal,Nashik,Chamdo,Nyingchi,Weixi,Mangan,Zhongdian,Dali,Trashigang,Xichang,Deqin,Haldwani,Ngari,Mawlai,Litang,Rhenock,Rishikesh,Jakar,Nainital,Singtam,Dalton Ganj,Samdrup Jongkhar,Pithoragarh,Pu'er,Umroi,Yibin,Shigatse,Naga,Assamese,Dimapur,Kohima,Mokokchung,Wokha,Phek,Tuensang,Zunheboto,Mon"
 },
 {
     "name": "Namibian Black German",
@@ -8704,7 +8704,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Nefamese,Owerri,Sokoto,Aba,Parakou,Thiès,Ebolowa,Kaduna,Louga,Ughelli,Kindia,Ambam,Tahoua,Wa,Okigwe,Gao,Awka,Faranah,Bida,Aksum,Ségou,Yamoussoukro,Moundou,Enugu,Sesheke,Zaria,Timbuktu,Douala,Nouakchott,Daloa,Katsina,Tema,Kaolack,Cotonou,Bafatá,Bobo-Dioulasso,Korhogo,Koidu,Freetown,Bafoussam,Man,Malabo,Kankan,Bauchi,Monrovia,Mopti,Kayes,Abidjan,Gusau,Koudougou,Lafia,Bamenda,Banfora"
+  "b": "Nefamese,Owerri,Sokoto,Aba,Parakou,Thiès,Ebolowa,Kaduna,Louga,Ughelli,Kindia,Ambam,Tahoua,Wa,Okigwe,Gao,Awka,Faranah,Bida,Aksum,Ségou,Yamoussoukro,Moundou,Enugu,Sesheke,Zaria,Timbuktu,Douala,Nouakchott,Daloa,Katsina,Tema,Kaolack,Cotonou,Bafatá,Bobo-Dioulasso,Korhogo,Koidu,Freetown,Bafoussam,Man,Malabo,Kankan,Bauchi,Monrovia,Mopti,Kayes,Abidjan,Gusau,Koudougou,Lafia,Bamenda,Banfora,Nefa,Arunachali,Itanagar,Bomdila,Tawang,Along,Pasighat,Roing,Ziro,Seijosa"
 },
 {
     "name": "Negerhollands",
@@ -8740,7 +8740,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Oorlams Creole,Charlestown,Road Town,Anegada,Freeport,English Harbour,Five Cays,North Side,Santa Rosa,Dennery,Plymouth,Bellem,Jost Van Dyke,Portsmouth,St. George's,Saint James,Marigot,Arima,Hillsborough,Liberta,Virgin Gorda,Kew,Micoud,Basseterre,Santiago,Santo Domingo,Cockburn Harbour,Havana,Montego Bay,Spanish Town,Christ Church,Holetown,Port-au-Prince,Cap-Haïtien,Alice Town,Mandeville,Nassau,Les Cayes,Falmouth,Fort-Liberté,Santa Clara,Marsh Harbour,Saint-Marc,Cockburn Town,Bathsheba,Dunmore Town,Harbour Island,Montaña,Oistins,Sint Nicolaas,Couva,Scarborough"
+  "b": "Oorlams Creole,Charlestown,Road Town,Anegada,Freeport,English Harbour,Five Cays,North Side,Santa Rosa,Dennery,Plymouth,Bellem,Jost Van Dyke,Portsmouth,St. George's,Saint James,Marigot,Arima,Hillsborough,Liberta,Virgin Gorda,Kew,Micoud,Basseterre,Santiago,Santo Domingo,Cockburn Harbour,Havana,Montego Bay,Spanish Town,Christ Church,Holetown,Port-au-Prince,Cap-Haïtien,Alice Town,Mandeville,Nassau,Les Cayes,Falmouth,Fort-Liberté,Santa Clara,Marsh Harbour,Saint-Marc,Cockburn Town,Bathsheba,Dunmore Town,Harbour Island,Montaña,Oistins,Sint Nicolaas,Couva,Scarborough,Oorlams,Afrikaans,Khoi,IJssel,Fishhoek,Hantam,Karoo,Samoa,Korana,Kleinsee,Soebatsfontein"
 },
 {
     "name": "Palenquero",
@@ -8749,7 +8749,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Palenquero,Lae,Tabiteuea,Tiga,Rabaul,Kirakira,Yaren,Ohonua,Kimbe,Kosrae,Wollongong,Abaiang,Raiatea,Denigomodu,Luganville,Mendi,Neiafu,Peleliu,Misima,Kairuku,Nibok,Baiti,Butaritari,Ebeye,Ok Tedi,Tauranga,Santo,Nuku'alofa,Kingston,Camagüey,Noord,Jacmel,Willemstad,Hastings,Spanish Town,Andros Town,Freeport,Saint-Marc,Harbour Island,Gonaïves,Jérémie,Arima,Mandeville,Cul de Sac,Santiago de Cuba,Montego Bay,Santa Cruz,Soto,Nassau,Holguín,Cienfuegos,Port of Spain,Bridgetown,Christ Church,Bathsheba"
+  "b": "Palenquero,Lae,Tabiteuea,Tiga,Rabaul,Yaren,Ohonua,Kimbe,Kosrae,Wollongong,Abaiang,Raiatea,Denigomodu,Luganville,Mendi,Peleliu,Misima,Kairuku,Nibok,Baiti,Butaritari,Ebeye,Ok Tedi,Tauranga,Nuku'alofa,Kingston,Camagüey,Noord,Jacmel,Willemstad,Hastings,Spanish Town,Andros Town,Freeport,Saint-Marc,Harbour Island,Gonaïves,Jérémie,Arima,Mandeville,Cul de Sac,Santiago de Cuba,Montego Bay,Santa Cruz,Soto,Nassau,Holguín,Cienfuegos,Port of Spain,Bridgetown,Christ Church,Bathsheba"
 },
 {
     "name": "Papua New Guinea Pidgin",
@@ -8767,7 +8767,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Papuan Pidgin English,Vinh,Satun,Medan,Mae Hong Son,Lomphat,Tebing Tinggi,Ha Long,Sandakan,Denpasar,Payakumbuh,Lashio,Ben Tre,Sihanoukville,Bandar Lampung,Banjarmasin,Phnom Penh,Karem,Tomohon,Pursat,Hpa-An,Bogor,Quy Nhon,Chumphon,Samarinda,Ratanakiri,Hanoi,Ambon,Mount Hagen,Nomad,Port Moresby,Kokopo,Kavieng,Lorengau,Bulolo,Wewak,Kundiawa,Saidor,Goroka,Madang,Kimbe,Kieta,Wau,Ialibu,Arawa,Morehead,Pangia,Oksapmin,Komo,Wapenamanda,Alotau,Tambul,Nipa,Muglamp,Ramu"
+  "b": "Papuan Pidgin English,Vinh,Satun,Medan,Mae Hong Son,Lomphat,Tebing Tinggi,Ha Long,Sandakan,Denpasar,Payakumbuh,Lashio,Ben Tre,Sihanoukville,Bandar Lampung,Banjarmasin,Phnom Penh,Karem,Tomohon,Pursat,Hpa-An,Bogor,Quy Nhon,Chumphon,Samarinda,Ratanakiri,Hanoi,Ambon,Mount Hagen,Nomad,Port Moresby,Kokopo,Kavieng,Lorengau,Bulolo,Wewak,Kundiawa,Saidor,Goroka,Madang,Kimbe,Kieta,Wau,Ialibu,Arawa,Morehead,Pangia,Oksapmin,Komo,Wapenamanda,Alotau,Tambul,Nipa,Muglamp,Ramu,PapuanPidgin,TokPisin,Pisin,Wantok,Sios,Saint,Morobe,Ward,Lotu,Buluminsky,Papuan"
 },
 {
     "name": "Petjo",
@@ -8776,7 +8776,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Petjo,Parakou,Lafia,Rijau,Kumasi,Louga,Ouagadougou,Ségou,Ambam,Kaolack,Wa,Cape Coast,Yaoundé,Awka,Faranah,Ibadan,Tamale,Gabú,Yamoussoukro,Moundou,Baga,Sarh,Ife,Timbuktu,Kenema,Mongu,Kumba,Harper,Port Antonio,Port of Spain,Port-au-Prince,Harbour Island,Falmouth,Les Cayes,Crane,Jérémie,Kingston,Point Fortin,Arima,Marsh Harbour,Mandeville,Speightstown,Nassau,Barber,Brievengat,Couva,Maho Reef,Camagüey,Holetown,Philipsburg,Jacmel,Guantánamo,Tunapuna,Charlestown,Oistins"
+  "b": "Petjo,Parakou,Lafia,Rijau,Kumasi,Louga,Ouagadougou,Ségou,Ambam,Kaolack,Wa,Cape Coast,Yaoundé,Awka,Faranah,Ibadan,Tamale,Gabú,Yamoussoukro,Moundou,Baga,Sarh,Ife,Timbuktu,Kenema,Mongu,Kumba,Harper,Port Antonio,Port of Spain,Port-au-Prince,Harbour Island,Falmouth,Les Cayes,Crane,Jérémie,Kingston,Point Fortin,Arima,Marsh Harbour,Mandeville,Speightstown,Nassau,Barber,Brievengat,Couva,Maho Reef,Camagüey,Holetown,Philipsburg,Jacmel,Guantánamo,Tunapuna,Charlestown,Oistins,Petojo,Betawi,DutchCreole,Gado,Tugu,Kelapa,Dermaga,Pasar,Senen,Gambir"
 },
 {
     "name": "Pidgin Hawaiian",
@@ -8785,7 +8785,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Pidgin Hawaiian,Uaboe,Sigatoka,Kokoda,Kosrae,Popondetta,Palau,Samamea,Tabiteuea,Jaluit,Nibok,Dunedin,Kimbe,Faaa,Pentecost,Abaiang,Daru,Weno,Canala,Mare,Ok Tedi,Rabaul,Nui,Pangai,Kairuku,Pohnpei,Canberra,Neiafu,Montego Bay,Port Antonio,Mandeville,Ocho Ríos,Marsh Harbour,Falmouth,Saveta,Port of Spain,Cap-Haïtien,Andros Town,Hato,Jérémie,Speightstown,Havana,Nassau,Dunmore Town,Hastings,Montaña,Portmore,Cockburn Town,Oistins,Matanzas,Chaguanas,Basseterre,Christ Church,Gonaïves,Bathsheba"
+  "b": "Pidgin Hawaiian,Uaboe,Sigatoka,Kokoda,Kosrae,Popondetta,Palau,Samamea,Tabiteuea,Jaluit,Nibok,Dunedin,Kimbe,Faaa,Pentecost,Abaiang,Daru,Weno,Canala,Mare,Ok Tedi,Rabaul,Nui,Pangai,Kairuku,Pohnpei,Canberra,Montego Bay,Port Antonio,Mandeville,Ocho Ríos,Marsh Harbour,Falmouth,Saveta,Port of Spain,Cap-Haïtien,Andros Town,Hato,Jérémie,Speightstown,Havana,Nassau,Dunmore Town,Hastings,Montaña,Portmore,Cockburn Town,Oistins,Matanzas,Chaguanas,Basseterre,Christ Church,Gonaïves,Bathsheba"
 },
 {
     "name": "Pidgin Iha",
@@ -8794,7 +8794,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Pidgin Iha,Lae,Tabiteuea,Tiga,Rabaul,Kirakira,Yaren,Ohonua,Kimbe,Kosrae,Wollongong,Abaiang,Raiatea,Denigomodu,Luganville,Mendi,Neiafu,Peleliu,Misima,Kairuku,Nibok,Baiti,Butaritari,Ebeye,Ok Tedi,Pago Pago,Levuka,Pohnpei,Matanzas,Brievengat,Falmouth,Jérémie,Cap-Haïtien,Camagüey,Saint-Marc,Nassau,Tera Cora,Gonaïves,Tortola,Cul de Sac,Havana,Crane,Barber,West End,San Fernando,Santiago de Cuba,Harbour Island,Oistins,Freeport,Sint Willibrordus,Basseterre,Port of Spain,Christ Church,Philipsburg,Saveta"
+  "b": "Pidgin Iha,Lae,Tabiteuea,Tiga,Rabaul,Yaren,Ohonua,Kimbe,Kosrae,Wollongong,Abaiang,Raiatea,Denigomodu,Luganville,Mendi,Peleliu,Misima,Kairuku,Nibok,Baiti,Butaritari,Ebeye,Ok Tedi,Pago Pago,Levuka,Pohnpei,Matanzas,Brievengat,Falmouth,Jérémie,Cap-Haïtien,Camagüey,Saint-Marc,Nassau,Tera Cora,Gonaïves,Tortola,Cul de Sac,Havana,Crane,Barber,West End,San Fernando,Santiago de Cuba,Harbour Island,Oistins,Freeport,Sint Willibrordus,Basseterre,Port of Spain,Christ Church,Philipsburg,Saveta"
 },
 {
     "name": "Pidgin Ngarluma",
@@ -8812,7 +8812,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Pidgin Onin,Mount Hagen,Nadi,Tabiteuea,Kimbe,Angaur,Nibok,Havelu,Betio,Ebeye,Hobart,Huahine,Canala,Denigomodu,Tanna,Rabaul,Buna,Manus,Kavieng,Uaboe,Asau,Ohonua,Kwajalein,Palikir,Ok Tedi,Nu'uuli,Nuku'alofa,Wewak,Montego Bay,Kingston,Gonaïves,Cul de Sac,Cockburn Town,Cap-Haïtien,Christ Church,Port Antonio,Oistins,Andros Town,Speightstown,Jérémie,Portmore,Crane,Marsh Harbour,Chaguanas,Alice Town,Dunmore Town,Holetown,Couva,Les Cayes,Arima,Road Town,Scarborough,Tunapuna,Nassau,Oranjestad"
+  "b": "Pidgin Onin,Mount Hagen,Nadi,Tabiteuea,Kimbe,Angaur,Nibok,Havelu,Betio,Ebeye,Hobart,Huahine,Canala,Denigomodu,Tanna,Rabaul,Buna,Manus,Kavieng,Uaboe,Asau,Ohonua,Kwajalein,Palikir,Ok Tedi,Nu'uuli,Nuku'alofa,Wewak,Montego Bay,Kingston,Gonaïves,Cul de Sac,Cockburn Town,Cap-Haïtien,Christ Church,Port Antonio,Oistins,Andros Town,Speightstown,Jérémie,Portmore,Crane,Marsh Harbour,Chaguanas,Alice Town,Dunmore Town,Holetown,Couva,Les Cayes,Arima,Road Town,Scarborough,Tunapuna,Nassau,Oranjestad,Onin,OninPidgin,Rumbati,Patin,Fakfak,Kokas,Babo,Kaimana,Kambuaya,Tembuni,Arguni"
 },
 {
     "name": "Pidgin Wolof",
@@ -8821,7 +8821,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Pidgin Wolof,Neiafu,Labasa,Trobriand,Kirakira,Ngerulmud,Denigomodu,Nibok,Bikenibeu,Majuro,Kimbe,Hamilton,Abaiang,Lifou,Santo,Ohonua,Auki,Vava'u,Rabaul,Noumea,Popondetta,Kairuku,Vaitupu,Tabiteuea,Baiti,Weno,Tamuning,Peleliu,Saveta,Spanish Town,Harbour Island,Crane,Kingston,Port Antonio,Port-au-Prince,Fort-Liberté,Les Cayes,Holetown,Tanki Leendert,Arima,Friar's Bay,Freeport,West End,Dunmore Town,Cul de Sac,Santa Cruz,Bridgetown,Tunapuna,Camagüey,Matanzas,George Town,Brievengat,Santa Clara,Couva,Paradera"
+  "b": "Pidgin Wolof,Labasa,Trobriand,Ngerulmud,Denigomodu,Nibok,Bikenibeu,Majuro,Kimbe,Hamilton,Abaiang,Lifou,Ohonua,Auki,Vava'u,Rabaul,Noumea,Popondetta,Kairuku,Vaitupu,Tabiteuea,Baiti,Weno,Tamuning,Peleliu,Saveta,Spanish Town,Harbour Island,Crane,Kingston,Port Antonio,Port-au-Prince,Fort-Liberté,Les Cayes,Holetown,Tanki Leendert,Arima,Friar's Bay,Freeport,West End,Dunmore Town,Cul de Sac,Santa Cruz,Bridgetown,Tunapuna,Camagüey,Matanzas,George Town,Brievengat,Santa Clara,Couva,Paradera"
 },
 {
     "name": "Port Jackson Pidgin English",
@@ -8839,7 +8839,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Pretoria Sotho,Lhokseumawe,Ben Tre,Bacolod,Can Tho,Padang Panjang,Pasir Ris,Putao,Lao Cai,Serang,Quy Nhon,Khon Kaen,Bandung,Ternate,Kratie,Bogor,Thanh Hoa,Kandal,Yogyakarta,Quezon City,Poipet,Champasak,Battambang,Baguio,Balikpapan,Bago,Loikaw,Bandar Seri Begawan,Kisumu,Dila,Gambela,Addis Ababa,Dessie,Harar,Masaka,Yei,Debre Markos,Gondar,Wau,Woldia,Khartoum,Arua,Arba Minch,Nyeri,Lira,Yabelo,Bahir Dar,Mizan Teferi,Jinja,Nakuru,Port Sudan,Gulu,Mbale,Kericho,Rumbek"
+  "b": "Pretoria Sotho,Lhokseumawe,Ben Tre,Bacolod,Can Tho,Padang Panjang,Pasir Ris,Putao,Lao Cai,Serang,Quy Nhon,Khon Kaen,Bandung,Ternate,Kratie,Bogor,Thanh Hoa,Kandal,Yogyakarta,Quezon City,Poipet,Champasak,Battambang,Baguio,Balikpapan,Bago,Loikaw,Bandar Seri Begawan,Kisumu,Dila,Gambela,Addis Ababa,Dessie,Harar,Masaka,Yei,Debre Markos,Gondar,Wau,Woldia,Khartoum,Arua,Arba Minch,Nyeri,Lira,Yabelo,Bahir Dar,Mizan Teferi,Jinja,Nakuru,Port Sudan,Gulu,Mbale,Kericho,Rumbek,PretoriaSotho,Sotho,Pedi,Seso,Gauteng,Pretoria,Mamelodi,Fountains,Voortrekker,Magalies,Apies"
 },
 {
     "name": "Qoqmoncaq",
@@ -9001,7 +9001,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Unserdeutsch,Saminaka,Diffa,Bafatá,Yola,Foumban,Tchibanga,Gagnoa,Parakou,Cape Coast,Mutengene,Gashua,Louga,Natitingou,Tamale,Geidam,Tahoua,Wa,Bamenda,Sarh,Awka,Faranah,Dédougou,Gao,Kumba,Yamoussoukro,Moundou,Cacheu,Mahina,Leone,Bairiki,Saratamata,Avarua,Majuro,Tanaea,Betio,Ebeye,Bikenibeu,Mili,Faleniu,Vaitogi,Kitti,Kwajalein,Jaluit,Vaiaku,Fakaifou,Honolulu,Rongelap,Madolenihmw,Funafuti,Kralendijk,Hilo,Alia,Lelu,Muʻa"
+  "b": "Unserdeutsch,Saminaka,Diffa,Bafatá,Yola,Foumban,Tchibanga,Gagnoa,Parakou,Cape Coast,Mutengene,Gashua,Louga,Natitingou,Tamale,Geidam,Tahoua,Wa,Bamenda,Sarh,Awka,Faranah,Dédougou,Gao,Kumba,Yamoussoukro,Moundou,Cacheu,Mahina,Leone,Bairiki,Avarua,Majuro,Tanaea,Betio,Ebeye,Bikenibeu,Mili,Faleniu,Kitti,Kwajalein,Jaluit,Vaiaku,Fakaifou,Honolulu,Rongelap,Madolenihmw,Kralendijk,Hilo,Alia,Lelu,Muʻa"
 },
 {
     "name": "Vedda",
@@ -9127,7 +9127,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Tidikelt,Navua,Kairuku,Nibok,Tabubil,Melekeok,Palau,Neiafu,Mili,Ebeye,Newcastle,Rotorua,Denigomodu,Bora-Bora,Dumbea,Rabaul,Kavieng,Samamea,Tabiteuea,Belep,Kimbe,Baiti,Havelu,Ok Tedi,Yap,Hobart,Sogeri,Kénitra,Oran,Houmt Souk,Erfoud,Meknès,Midelt,Fès,Tunis,Constantine,Béchar,Rabat,Taza,Bizerte,Casablanca,Batna,Boujdour,Tétouan,Ghardaïa,Sétif,Saïda,Sousse,Médéa,Mascara,Ouarzazate,Chlef,Aïn Sefra,Essaouira,Sfax"
+  "b": "Tidikelt,Navua,Kairuku,Nibok,Tabubil,Melekeok,Palau,Mili,Ebeye,Newcastle,Rotorua,Denigomodu,Bora-Bora,Dumbea,Rabaul,Kavieng,Samamea,Tabiteuea,Belep,Kimbe,Baiti,Havelu,Ok Tedi,Yap,Hobart,Sogeri,Kénitra,Oran,Houmt Souk,Erfoud,Meknès,Midelt,Fès,Tunis,Constantine,Béchar,Rabat,Taza,Bizerte,Casablanca,Batna,Boujdour,Tétouan,Ghardaïa,Sétif,Saïda,Sousse,Médéa,Mascara,Ouarzazate,Chlef,Aïn Sefra,Essaouira,Sfax"
 },
 {
     "name": "Tuareg Tamasheq",
@@ -9343,7 +9343,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Alekano,Levuka,Yap,Kone,Kiunga,Kimbe,Nanumea,Abaiang,Kolonia,Denigomodu,Leulumoega,Punaauia,Palau,Munda,Alotau,Kairuku,Sogeri,Tiga,Baiti,Peleliu,Yaren,Ok Tedi,Tarawa,Kosrae,Tabiteuea,Whangarei,Lae,Trobriand,Daloa,Banjul,Bobo-Dioulasso,Conakry,Maroua,Kankan,Kaduna,Koudougou,Maiduguri,Bissau,Freetown,Katsina,Ebebiyín,Cotonou,Monrovia,Bertoua,Saint-Louis,Abidjan,Kayes,Kaolack,Kara,Tema,Malabo,Jalingo,Tarrafal,Bamenda,Yamoussoukro"
+  "b": "Alekano,Levuka,Yap,Kone,Kiunga,Kimbe,Abaiang,Kolonia,Denigomodu,Leulumoega,Punaauia,Palau,Munda,Alotau,Kairuku,Sogeri,Tiga,Baiti,Peleliu,Yaren,Ok Tedi,Tarawa,Kosrae,Tabiteuea,Whangarei,Lae,Trobriand,Daloa,Banjul,Bobo-Dioulasso,Conakry,Maroua,Kankan,Kaduna,Koudougou,Maiduguri,Bissau,Freetown,Katsina,Ebebiyín,Cotonou,Monrovia,Bertoua,Saint-Louis,Abidjan,Kayes,Kaolack,Kara,Tema,Malabo,Jalingo,Tarrafal,Bamenda,Yamoussoukro,Gahuku,Goroka,Asaro,Bena,Uheto,Seigu,Gamusi,Famu,Lamate,Nemani"
 },
 {
     "name": "Aneme Wake",
@@ -9352,7 +9352,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Aneme Wake,Lae,Tabiteuea,Tiga,Rabaul,Kirakira,Yaren,Ohonua,Kimbe,Kosrae,Wollongong,Abaiang,Raiatea,Denigomodu,Luganville,Mendi,Neiafu,Peleliu,Misima,Kairuku,Nibok,Baiti,Butaritari,Ebeye,Ok Tedi,Tauranga,Honiara,Koror,Lafia,Conakry,Bissau,Accra,Gbarnga,Basse,Kaduna,Nouakchott,Kaolack,Korhogo,Porto-Novo,Maiduguri,Cotonou,Katsina,Man,Garoua,Tenkodogo,Sokodé,Ségou,Wukari,Saint-Louis,Sokoto,Bamako,Zinder,Monrovia,Bafatá,Warri"
+  "b": "Aneme Wake,Lae,Tabiteuea,Tiga,Rabaul,Yaren,Ohonua,Kimbe,Kosrae,Wollongong,Abaiang,Raiatea,Denigomodu,Luganville,Mendi,Peleliu,Misima,Kairuku,Nibok,Baiti,Butaritari,Ebeye,Ok Tedi,Tauranga,Honiara,Koror,Lafia,Conakry,Bissau,Accra,Gbarnga,Basse,Kaduna,Nouakchott,Kaolack,Korhogo,Porto-Novo,Maiduguri,Cotonou,Katsina,Man,Garoua,Tenkodogo,Sokodé,Ségou,Wukari,Saint-Louis,Sokoto,Bamako,Zinder,Monrovia,Bafatá,Warri"
 },
 {
     "name": "Ankave",
@@ -9379,7 +9379,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Asmat–Kamoro,Neiafu,Labasa,Trobriand,Kirakira,Ngerulmud,Denigomodu,Nibok,Bikenibeu,Majuro,Kimbe,Hamilton,Abaiang,Lifou,Santo,Ohonua,Auki,Vava'u,Rabaul,Noumea,Popondetta,Kairuku,Vaitupu,Tabiteuea,Baiti,Weno,Wollongong,Suva,Port Moresby,Kokopo,Alotau,Mendi,Mount Hagen,Madang,Buka,Kundiawa,Wewak,Kiunga,Wau,Kaintiba,Wapenamanda,Komo,Kerema,Kieta,Telefomin,Arawa,Nuku,Bulolo,Tari,Morehead,Finschhafen,Ramu"
+  "b": "Asmat–Kamoro,Labasa,Trobriand,Ngerulmud,Denigomodu,Nibok,Bikenibeu,Majuro,Kimbe,Hamilton,Abaiang,Lifou,Ohonua,Auki,Vava'u,Rabaul,Noumea,Popondetta,Kairuku,Vaitupu,Tabiteuea,Baiti,Weno,Wollongong,Suva,Port Moresby,Kokopo,Alotau,Mendi,Mount Hagen,Madang,Buka,Kundiawa,Wewak,Kiunga,Wau,Kaintiba,Wapenamanda,Komo,Kerema,Kieta,Telefomin,Arawa,Nuku,Bulolo,Tari,Morehead,Finschhafen,Ramu"
 },
 {
     "name": "Atayal",
@@ -9406,7 +9406,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Australian Kriol,Rabaul,Uaboe,Sogeri,Kone,Kavieng,Koror,Nanumea,Tabiteuea,Arno,Kolonia,Majuro,Palmerston North,Leulumoega,Kimbe,Noumén,Munda,Abaiang,Levuka,Denigomodu,Peleliu,Ohonua,Tarawa,Kairuku,Wollongong,Whangarei,Kosrae,Kokopo,Melbourne,Canberra,Cairns,Sydney,Katherine,Broken Hill,Hobart,Geelong,Pine Creek,Weipa,Yuendumu,Cooktown,Sunshine Coast,Geraldton,Wadeye,Derby,Elcho Island,Tennant Creek,Nhulunbuy,Newcastle,Daly River,Mount Isa,Milingimbi,Perth,Normanton,Darwin"
+  "b": "Australian Kriol,Rabaul,Uaboe,Sogeri,Kone,Kavieng,Koror,Tabiteuea,Arno,Kolonia,Majuro,Palmerston North,Leulumoega,Kimbe,Noumén,Munda,Abaiang,Levuka,Denigomodu,Peleliu,Ohonua,Tarawa,Kairuku,Wollongong,Whangarei,Kosrae,Kokopo,Melbourne,Canberra,Cairns,Sydney,Katherine,Broken Hill,Hobart,Geelong,Pine Creek,Weipa,Yuendumu,Cooktown,Sunshine Coast,Geraldton,Wadeye,Derby,Elcho Island,Tennant Creek,Nhulunbuy,Newcastle,Daly River,Mount Isa,Milingimbi,Perth,Normanton,Darwin"
 },
 {
     "name": "Auye",
@@ -9433,7 +9433,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Budai-Labuan-Taromak Rukai,Kirakira,Vanimo,Palau,Kairuku,Ouvea,Lorengau,Melekeok,Nukulaelae,Mili,Chuuk,Ebeye,Rotorua,Samamea,Kavieng,Dumbea,Norfolk,Tabiteuea,Newcastle,Navua,Nibok,Kimbe,Angaur,Havelu,Betio,Jaluit,Jeju,Takamatsu,Bissau,Zaria,Kayes,Conakry,Daloa,Dakar,Man,Lomé,Bobo-Dioulasso,Ouagadougou,Gusau,Kara,Kankan,Koudougou,Koidu,Nzérékoré,Saint-Louis,Basse,Timbuktu,Niamey,Mopti,Wa,Maroua,Parakou,Kumasi,Tambacounda,Bafoussam"
+  "b": "Budai-Labuan-Taromak Rukai,Vanimo,Palau,Kairuku,Ouvea,Lorengau,Melekeok,Nukulaelae,Mili,Chuuk,Ebeye,Rotorua,Samamea,Kavieng,Dumbea,Norfolk,Tabiteuea,Newcastle,Navua,Nibok,Kimbe,Angaur,Havelu,Betio,Jaluit,Jeju,Takamatsu,Bissau,Zaria,Kayes,Conakry,Daloa,Dakar,Man,Lomé,Bobo-Dioulasso,Ouagadougou,Gusau,Kara,Kankan,Koudougou,Koidu,Nzérékoré,Saint-Louis,Basse,Timbuktu,Niamey,Mopti,Wa,Maroua,Parakou,Kumasi,Tambacounda,Bafoussam"
 },
 {
     "name": "Cèmuhî",
@@ -9451,7 +9451,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Cheke Holo,Lae,Tabiteuea,Tiga,Rabaul,Kirakira,Yaren,Ohonua,Kimbe,Kosrae,Wollongong,Abaiang,Raiatea,Denigomodu,Luganville,Mendi,Neiafu,Peleliu,Misima,Kairuku,Nibok,Baiti,Butaritari,Ebeye,Ok Tedi,Gold Coast,Labasa,Papeete,Man,Bamako,Banjul,Bissau,Bobo-Dioulasso,Kankan,Abidjan,Cotonou,Katsina,Freetown,Ouagadougou,Jalingo,Monrovia,Koudougou,Kara,Lafia,Bauchi,Korhogo,Kano,Mopti,Maroua,Lomé,Wa,Garoua,Bouaké,Maiduguri,Tambacounda"
+  "b": "Cheke Holo,Lae,Tabiteuea,Tiga,Rabaul,Yaren,Ohonua,Kimbe,Kosrae,Wollongong,Abaiang,Raiatea,Denigomodu,Luganville,Mendi,Peleliu,Misima,Kairuku,Nibok,Baiti,Butaritari,Ebeye,Ok Tedi,Gold Coast,Labasa,Papeete,Man,Bamako,Banjul,Bissau,Bobo-Dioulasso,Kankan,Abidjan,Cotonou,Katsina,Freetown,Ouagadougou,Jalingo,Monrovia,Koudougou,Kara,Lafia,Bauchi,Korhogo,Kano,Mopti,Maroua,Lomé,Wa,Garoua,Bouaké,Maiduguri,Tambacounda"
 },
 {
     "name": "Ese Ömie",
@@ -9469,7 +9469,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Hagen,Ba,Buna,Pohnpei,Lae,Uaboe,Leulumoega,Abaiang,Kwajalein,Denigomodu,Napier,Rabaul,Papeete,Ambrym,Nibok,Vanimo,Palikir,Mont Dore,Ouvea,Tabubil,Ok Tedi,Nukulaelae,Neiafu,Sogeri,Chuuk,Newcastle,Yaren,Brisbane,Lorengau,Goroka,Olsobip,Balimo,Oksapmin,Kavieng,Kieta,Kimbe,Popondetta,Kainantu,Madang,Mendi,Wau,Ambunti,Menyamya,Telefomin,Pangia,Lake Kopiago,Minj,Wapenamanda,Nomad,Ramu,Wewak,Saidor,Bogia"
+  "b": "Hagen,Ba,Buna,Pohnpei,Lae,Uaboe,Leulumoega,Abaiang,Kwajalein,Denigomodu,Napier,Rabaul,Papeete,Ambrym,Nibok,Vanimo,Palikir,Mont Dore,Ouvea,Tabubil,Ok Tedi,Nukulaelae,Sogeri,Chuuk,Newcastle,Yaren,Brisbane,Lorengau,Goroka,Olsobip,Balimo,Oksapmin,Kavieng,Kieta,Kimbe,Popondetta,Kainantu,Madang,Mendi,Wau,Ambunti,Menyamya,Telefomin,Pangia,Lake Kopiago,Minj,Wapenamanda,Nomad,Ramu,Wewak,Saidor,Bogia"
 },
 {
     "name": "Hoanya",
@@ -9496,7 +9496,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Isbukun Bunun,Wewak,Kavieng,Misima,Lorengau,Tabiteuea,Nibok,Funafuti,Ebeye,Townsville,Kimbe,Tauranga,Salelologa,Abaiang,Malekula,Gizo,Denigomodu,Butaritari,Sogeri,Canala,Kiunga,Koror,Kairuku,Arno,Baiti,Weno,Kokopo,Manus,Chiang Mai,Bangkok,Hanoi,Nha Trang,Vientiane,Shantou,Hai Phong,Sam Neua,Hue,Quy Nhon,Phan Thiet,Chiang Rai,Bago,Savannakhet,Yangon,Phongsali,Surat Thani,Pakse,My Tho,Mandalay,Danzhou,Fangchenggang,Beihai,Kampot,Khon Kaen,Chiềng Mai,Sanya"
+  "b": "Isbukun Bunun,Wewak,Kavieng,Misima,Lorengau,Tabiteuea,Nibok,Ebeye,Townsville,Kimbe,Tauranga,Salelologa,Abaiang,Malekula,Gizo,Denigomodu,Butaritari,Sogeri,Canala,Kiunga,Koror,Kairuku,Arno,Baiti,Weno,Kokopo,Manus,Chiang Mai,Bangkok,Hanoi,Nha Trang,Vientiane,Shantou,Hai Phong,Sam Neua,Hue,Quy Nhon,Phan Thiet,Chiang Rai,Bago,Savannakhet,Yangon,Phongsali,Surat Thani,Pakse,My Tho,Mandalay,Danzhou,Fangchenggang,Beihai,Kampot,Khon Kaen,Chiềng Mai,Sanya"
 },
 {
     "name": "Javanese macro entry",
@@ -9505,7 +9505,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Javanese macro entry,Derbent,Abovyan,Khashuri,Tskhinvali,Ashtarak,Gagra,Naftalan,Ijevan,Qonagkend,Khachmaz,Vladimir,Goris,Tikhoretsk,Quba,Anapa,Stepanakert,Khasavyurt,Hrazdan,Shamakhi,Lahij,Yevlakh,Kwajalein,Newcastle,Darwin,Kone,Malekula,Kirakira,Makassar,Luganville,George Town,Cagayan de Oro,Kota Kinabalu,Sonsorol,Munda,Jakarta,Iloilo City,Bandung,Cebu City,Bacolod,Quezon City,Kuching,Jerudong,Tofol,Nadi,Shah Alam,Medan,Malacca,Tutong,Buala,Kuala Belait,Seria,Tanna,Kudus,Demak,Jepara,Rembang,Tuban,Lamongan,Gresik,Sidoarjo,Mojokerto,Jombang,Nganjuk,Madiun,Ngawi,Ponorogo,Trenggalek,Tulungagung,Blitar,Kediri,Pasuruan,Probolinggo,Lumajang,Jember,Banyuwangi,Bondowoso,Situbondo,Bangkalan,Sampang,Pamekasan,Sumenep,Indramayu,Cirebon,Kuningan,Majalengka,Subang,Purwakarta,Karawang,Bekasi,Tangerang,Serang,Pandeglang,Lebak,Bogor,Sukabumi,Cianjur,Garut,Tasikmalaya,Ciamis,Pangandaran,Banjar,Cilacap,Kebumen,Purworejo,Magelang,Temanggung,Wonosobo,Salatiga,Sragen,Karanganyar,Sukoharjo,Wonogiri,Boyolali,Klaten,Gunung Kidul,Sleman,Bantul,Kulon Progo,Pekalongan,Batang,Pemalang,Tegal,Brebes,Slawi,Weleri,Kendal,Purwodadi,Grobogan,Blora,Pati,Rembang,Jepara"
+  "b": "Javanese macro entry,Derbent,Abovyan,Khashuri,Tskhinvali,Ashtarak,Gagra,Naftalan,Ijevan,Qonagkend,Khachmaz,Vladimir,Goris,Tikhoretsk,Quba,Anapa,Stepanakert,Khasavyurt,Hrazdan,Shamakhi,Lahij,Yevlakh,Kwajalein,Newcastle,Darwin,Kone,Malekula,Makassar,Luganville,George Town,Cagayan de Oro,Kota Kinabalu,Sonsorol,Munda,Jakarta,Iloilo City,Bandung,Cebu City,Bacolod,Quezon City,Kuching,Jerudong,Tofol,Nadi,Shah Alam,Medan,Malacca,Tutong,Kuala Belait,Seria,Tanna,Kudus,Demak,Jepara,Rembang,Tuban,Lamongan,Gresik,Sidoarjo,Mojokerto,Jombang,Nganjuk,Madiun,Ngawi,Ponorogo,Trenggalek,Tulungagung,Blitar,Kediri,Pasuruan,Probolinggo,Lumajang,Jember,Banyuwangi,Bondowoso,Situbondo,Bangkalan,Sampang,Pamekasan,Sumenep,Indramayu,Cirebon,Kuningan,Majalengka,Subang,Purwakarta,Karawang,Bekasi,Tangerang,Serang,Pandeglang,Lebak,Bogor,Sukabumi,Cianjur,Garut,Tasikmalaya,Ciamis,Pangandaran,Banjar,Cilacap,Kebumen,Purworejo,Magelang,Temanggung,Wonosobo,Salatiga,Sragen,Karanganyar,Sukoharjo,Wonogiri,Boyolali,Klaten,Gunung Kidul,Sleman,Bantul,Kulon Progo,Pekalongan,Batang,Pemalang,Tegal,Brebes,Slawi,Weleri,Kendal,Purwodadi,Grobogan,Blora,Pati,Rembang,Jepara"
 },
 {
     "name": "Kaera",
@@ -9541,7 +9541,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kainantu,Navua,Kairuku,Nibok,Tabubil,Melekeok,Palau,Neiafu,Mili,Ebeye,Newcastle,Rotorua,Denigomodu,Bora-Bora,Dumbea,Rabaul,Kavieng,Samamea,Tabiteuea,Belep,Kimbe,Baiti,Havelu,Ok Tedi,Yap,Hobart,Sogeri,Weno,Madang,Kokopo,Oksapmin,Kieta,Nipa,Tari,Daru,Buka,Port Moresby,Alotau,Kundiawa,Kiunga,Bulolo,Pangia,Arawa,Lorengau,Telefomin,Salamaua,Minj,Lae,Wapenamanda,Aseki,Morehead,Maprik,Ningerum,Kikori"
+  "b": "Kainantu,Navua,Kairuku,Nibok,Tabubil,Melekeok,Palau,Mili,Ebeye,Newcastle,Rotorua,Denigomodu,Bora-Bora,Dumbea,Rabaul,Kavieng,Samamea,Tabiteuea,Belep,Kimbe,Baiti,Havelu,Ok Tedi,Yap,Hobart,Sogeri,Weno,Madang,Kokopo,Oksapmin,Kieta,Nipa,Tari,Daru,Buka,Port Moresby,Alotau,Kundiawa,Kiunga,Bulolo,Pangia,Arawa,Lorengau,Telefomin,Salamaua,Minj,Lae,Wapenamanda,Aseki,Morehead,Maprik,Ningerum,Kikori,Agarabe,Owenia,Marawaka,Bilimoia,Yonki,Arona,Onga,Waisa,Ubarina,Yafuria"
 },
 {
     "name": "Kalamian",
@@ -9550,7 +9550,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kalamian,Navua,Kairuku,Nibok,Tabubil,Melekeok,Palau,Neiafu,Mili,Ebeye,Newcastle,Rotorua,Denigomodu,Bora-Bora,Dumbea,Rabaul,Kavieng,Samamea,Tabiteuea,Belep,Kimbe,Baiti,Havelu,Ok Tedi,Yap,Hobart,Sogeri,Brisbane,Man,Gbarnga,Basse,Bouaké,Timbuktu,Conakry,Bertoua,Kankan,Bamako,Korhogo,Lomé,Kara,Niamey,Tema,Saint-Louis,Jalingo,Abidjan,Monrovia,Koidu,Accra,Sikasso,Praia,Gusau,Bolama,Ebebiyín,Ziguinchor,Porto-Novo"
+  "b": "Kalamian,Navua,Kairuku,Nibok,Tabubil,Melekeok,Palau,Mili,Ebeye,Newcastle,Rotorua,Denigomodu,Bora-Bora,Dumbea,Rabaul,Kavieng,Samamea,Tabiteuea,Belep,Kimbe,Baiti,Havelu,Ok Tedi,Yap,Hobart,Sogeri,Brisbane,Man,Gbarnga,Basse,Bouaké,Timbuktu,Conakry,Bertoua,Kankan,Bamako,Korhogo,Lomé,Kara,Niamey,Tema,Saint-Louis,Jalingo,Abidjan,Monrovia,Koidu,Accra,Sikasso,Praia,Gusau,Bolama,Ebebiyín,Ziguinchor,Porto-Novo"
 },
 {
     "name": "Kanakanavu",
@@ -9586,7 +9586,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ke’yagana,Ebeye,Mare,Nibok,Airai,Nui,Kimbe,Wotje,Pohnpei,Abaiang,New Plymouth,Païta,Rabaul,Moorea,Ok Tedi,Kairuku,Kavieng,Ngerulmud,Baiti,Vava'u,Bikenibeu,Neiafu,Darwin,Hagåtña,Levuka,Mount Hagen,Faaa,Angaur,Beijing,Wonsan,Cheongju,New Taipei,Changwon,Tumen,Lanzhou,Incheon,Shanghai,Ulsan,Kaohsiung,Yanji,Guangzhou,Suzhou,Taipei,Xi'an,Taichung,Hangzhou,Suwon,Zhuhai,Xiamen,Zibo,Yongin,Seoul,Shenyang,Hsinchu,Qingdao"
+  "b": "Ke’yagana,Ebeye,Mare,Nibok,Airai,Nui,Kimbe,Wotje,Pohnpei,Abaiang,New Plymouth,Païta,Rabaul,Moorea,Ok Tedi,Kairuku,Kavieng,Ngerulmud,Baiti,Vava'u,Bikenibeu,Darwin,Hagåtña,Levuka,Mount Hagen,Faaa,Angaur,Beijing,Wonsan,Cheongju,New Taipei,Changwon,Tumen,Lanzhou,Incheon,Shanghai,Ulsan,Kaohsiung,Yanji,Guangzhou,Suzhou,Taipei,Xi'an,Taichung,Hangzhou,Suwon,Zhuhai,Xiamen,Zibo,Yongin,Seoul,Shenyang,Hsinchu,Qingdao,Keyagana,Yagaria,Kamira,Hua,Kamano,Moke,Yagusa,Dumelo,Brigada,Hagana,Kosena"
 },
 {
     "name": "Ketagalan",
@@ -9595,7 +9595,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ketagalan,Ebeye,Mare,Nibok,Airai,Nui,Kimbe,Wotje,Pohnpei,Abaiang,New Plymouth,Païta,Rabaul,Moorea,Ok Tedi,Kairuku,Kavieng,Ngerulmud,Baiti,Vava'u,Bikenibeu,Neiafu,Darwin,Daru,Dededo,Malekula,Weno,Hamilton,Snezhnogorsk,Anadyr,Kozyrevsk,Palana,Petropavlovsk-Kamchatsky,Krivosheino,Chersky,Magadan,Mirny,Zhigansk,Yakutsk,Kadykchan,Novosibirsk,Kargasok,Saskylakh,Seymchan,Molchanovo,Tigil,Myaundzha,Dudinka,Egvekinot,Ust-Kamchatsk,Yelizovo,Bilibino,Turukhansk,Talnakh"
+  "b": "Ketagalan,Ebeye,Mare,Nibok,Airai,Nui,Kimbe,Wotje,Pohnpei,Abaiang,New Plymouth,Païta,Rabaul,Moorea,Ok Tedi,Kairuku,Kavieng,Ngerulmud,Baiti,Vava'u,Bikenibeu,Darwin,Daru,Dededo,Malekula,Weno,Hamilton,Snezhnogorsk,Anadyr,Kozyrevsk,Palana,Petropavlovsk-Kamchatsky,Krivosheino,Chersky,Magadan,Mirny,Zhigansk,Yakutsk,Kadykchan,Novosibirsk,Kargasok,Saskylakh,Seymchan,Molchanovo,Tigil,Myaundzha,Dudinka,Egvekinot,Ust-Kamchatsk,Yelizovo,Bilibino,Turukhansk,Talnakh"
 },
 {
     "name": "Kilivila",
@@ -9604,7 +9604,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kilivila,Navua,Kairuku,Nibok,Tabubil,Melekeok,Palau,Neiafu,Mili,Ebeye,Newcastle,Rotorua,Denigomodu,Bora-Bora,Dumbea,Rabaul,Kavieng,Samamea,Tabiteuea,Belep,Kimbe,Baiti,Havelu,Ok Tedi,Yap,Hobart,Sogeri,Daru,Semarang,Jakarta,Peleliu,Kuala Lumpur,Labasa,Cagayan de Oro,Medan,Bacolod,Honiara,Kota Kinabalu,Quezon City,Bandung,Ba,Tutong,Cebu City,Bangar,Johor Bahru,Bandar Seri Begawan,Nadi,Pentecost,Seria,Port Vila,Shah Alam,Buala,Surabaya,Gizo,Kwajalein"
+  "b": "Kilivila,Navua,Kairuku,Nibok,Tabubil,Melekeok,Palau,Mili,Ebeye,Newcastle,Rotorua,Denigomodu,Bora-Bora,Dumbea,Rabaul,Kavieng,Samamea,Tabiteuea,Belep,Kimbe,Baiti,Havelu,Ok Tedi,Yap,Hobart,Sogeri,Daru,Semarang,Jakarta,Peleliu,Kuala Lumpur,Labasa,Cagayan de Oro,Medan,Bacolod,Honiara,Kota Kinabalu,Quezon City,Bandung,Ba,Tutong,Cebu City,Bangar,Johor Bahru,Bandar Seri Begawan,Nadi,Pentecost,Seria,Port Vila,Shah Alam,Surabaya,Gizo,Kwajalein"
 },
 {
     "name": "Kimaama (Kimaghama)",
@@ -9613,7 +9613,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kimaama (Kimaghama),Alotau,Kwajalein,Lae,Tiga,Uaboe,Peleliu,Yaren,Kavieng,Tarawa,Kosrae,Tabiteuea,Whangarei,Mont Dore,Luganville,Kimbe,Raiatea,Rabaul,Abaiang,Lorengau,Denigomodu,Funafuti,Butaritari,Pangai,Townsville,Apia,Kirakira,Koror,Katsina,Bouaké,Bamako,Lomé,Abidjan,Man,Kankan,Conakry,Tema,Ebebiyín,Bissau,Jalingo,Nouakchott,Ouagadougou,Kayes,Korhogo,Tenkodogo,Bertoua,Gbarnga,Kumasi,Kano,Saint-Louis,Zaria,Wukari,Assomada,Tambacounda,Thiès"
+  "b": "Kimaama (Kimaghama),Alotau,Kwajalein,Lae,Tiga,Uaboe,Peleliu,Yaren,Kavieng,Tarawa,Kosrae,Tabiteuea,Whangarei,Mont Dore,Luganville,Kimbe,Raiatea,Rabaul,Abaiang,Lorengau,Denigomodu,Butaritari,Pangai,Townsville,Apia,Koror,Katsina,Bouaké,Bamako,Lomé,Abidjan,Man,Kankan,Conakry,Tema,Ebebiyín,Bissau,Jalingo,Nouakchott,Ouagadougou,Kayes,Korhogo,Tenkodogo,Bertoua,Gbarnga,Kumasi,Kano,Saint-Louis,Zaria,Wukari,Assomada,Tambacounda,Thiès"
 },
 {
     "name": "Kombai–Wanggom",
@@ -9640,7 +9640,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kulon,Ba,Buna,Pohnpei,Lae,Uaboe,Leulumoega,Abaiang,Kwajalein,Denigomodu,Napier,Rabaul,Papeete,Ambrym,Nibok,Vanimo,Palikir,Mont Dore,Ouvea,Tabubil,Ok Tedi,Nukulaelae,Neiafu,Sogeri,Chuuk,Newcastle,Yaren,Darwin,Freetown,Koidu,Accra,Conakry,Jos,Sokodé,Porto-Novo,Kara,Saint-Louis,Abidjan,Warri,Ziguinchor,Bolt,Bafatá,Korhogo,Parakou,Thiès,Bissau,Malabo,Maiduguri,Gabú,Monrovia,Maroua,Nzérékoré,Bobo-Dioulasso,Tambacounda,Sikasso"
+  "b": "Kulon,Ba,Buna,Pohnpei,Lae,Uaboe,Leulumoega,Abaiang,Kwajalein,Denigomodu,Napier,Rabaul,Papeete,Ambrym,Nibok,Vanimo,Palikir,Mont Dore,Ouvea,Tabubil,Ok Tedi,Nukulaelae,Sogeri,Chuuk,Newcastle,Yaren,Darwin,Freetown,Koidu,Accra,Conakry,Jos,Sokodé,Porto-Novo,Kara,Saint-Louis,Abidjan,Warri,Ziguinchor,Bolt,Bafatá,Korhogo,Parakou,Thiès,Bissau,Malabo,Maiduguri,Gabú,Monrovia,Maroua,Nzérékoré,Bobo-Dioulasso,Tambacounda,Sikasso"
 },
 {
     "name": "Kunimaipa",
@@ -9649,7 +9649,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kunimaipa,Ebeye,Mare,Nibok,Airai,Nui,Kimbe,Wotje,Pohnpei,Abaiang,New Plymouth,Païta,Rabaul,Moorea,Ok Tedi,Kairuku,Kavieng,Ngerulmud,Baiti,Vava'u,Bikenibeu,Neiafu,Darwin,Nuku'alofa,Melekeok,Ouvea,Chuuk,Kundiawa,Praia,Kumasi,Banjul,Ebebiyín,Katsina,Gusau,Accra,Freetown,Kayes,Man,Conakry,Niamey,Ziguinchor,Sokoto,Basse,Sokodé,Dakar,Malabo,Kaduna,Tamale,Thiès,Wa,Yamoussoukro,Mopti,Zaria,Parakou,Nouakchott"
+  "b": "Kunimaipa,Ebeye,Mare,Nibok,Airai,Nui,Kimbe,Wotje,Pohnpei,Abaiang,New Plymouth,Païta,Rabaul,Moorea,Ok Tedi,Kairuku,Kavieng,Ngerulmud,Baiti,Vava'u,Bikenibeu,Darwin,Nuku'alofa,Melekeok,Ouvea,Chuuk,Kundiawa,Praia,Kumasi,Banjul,Ebebiyín,Katsina,Gusau,Accra,Freetown,Kayes,Man,Conakry,Niamey,Ziguinchor,Sokoto,Basse,Sokodé,Dakar,Malabo,Kaduna,Tamale,Thiès,Wa,Yamoussoukro,Mopti,Zaria,Parakou,Nouakchott"
 },
 {
     "name": "Lowland Iwur",
@@ -9658,7 +9658,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lowland Iwur,Saminaka,Diffa,Bafatá,Yola,Foumban,Tchibanga,Gagnoa,Parakou,Cape Coast,Mutengene,Gashua,Louga,Natitingou,Tamale,Geidam,Tahoua,Wa,Bamenda,Sarh,Awka,Faranah,Dédougou,Gao,Kumba,Yamoussoukro,Moundou,Cacheu,Chongjin,Tianjin,Chongqing,Seoul,Lhasa,Xi'an,Suzhou,Nanning,Zhengzhou,New Taipei,Harbin,Nanjing,Xiamen,Tainan,Changwon,Fuzhou,Ürümqi,Seongnam,Suwon,Zhongshan,Wonsan,Kaohsiung,Chengdu,Yongin,Guangzhou,Danchon,Jinan"
+  "b": "Lowland Iwur,Saminaka,Diffa,Bafatá,Yola,Foumban,Tchibanga,Gagnoa,Parakou,Cape Coast,Mutengene,Gashua,Louga,Natitingou,Tamale,Geidam,Tahoua,Wa,Bamenda,Sarh,Awka,Faranah,Dédougou,Gao,Kumba,Yamoussoukro,Moundou,Cacheu,Chongjin,Tianjin,Chongqing,Seoul,Lhasa,Xi'an,Suzhou,Nanning,Zhengzhou,New Taipei,Harbin,Nanjing,Xiamen,Tainan,Changwon,Fuzhou,Ürümqi,Seongnam,Suwon,Zhongshan,Wonsan,Kaohsiung,Chengdu,Yongin,Guangzhou,Danchon,Jinan,Iwur,Okaba,Beam,Kimaam,Muting,Kumbe,Ulilin,Erambu,Bupul,TanahMerah,Merauke"
 },
 {
     "name": "Madurese macro entry",
@@ -9667,7 +9667,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Madurese macro entry,Aileu,Dien Bien Phu,Narathiwat,Nam Dinh,Alor Setar,Semarang,Lhokseumawe,Senmonorom,Soc Trang,Phnom Penh,Padang Panjang,Palembang,Thai Binh,Bhamo,Serang,Kampong Cham,Putao,Padang,Ternate,Hpa-An,Bogor,Takeo,Nakhon Si Thammarat,Solo,Quezon City,Krabi,Kandal,Jakarta,Zamboanga,Iloilo City,Denpasar,Ipoh,Kuching,Cagayan de Oro,Bangar,Bandung,Malekula,Suva,Makassar,Singapore,Manila,Jerudong,Kota Kinabalu,Muara,Rabaul,Pentecost,Ambrym,Levuka,Bandar Seri Begawan,Santo,Tutong,Honiara"
+  "b": "Madurese macro entry,Aileu,Dien Bien Phu,Narathiwat,Nam Dinh,Alor Setar,Semarang,Lhokseumawe,Senmonorom,Soc Trang,Phnom Penh,Padang Panjang,Palembang,Thai Binh,Bhamo,Serang,Kampong Cham,Putao,Padang,Ternate,Hpa-An,Bogor,Takeo,Nakhon Si Thammarat,Solo,Quezon City,Krabi,Kandal,Jakarta,Zamboanga,Iloilo City,Denpasar,Ipoh,Kuching,Cagayan de Oro,Bangar,Bandung,Malekula,Suva,Makassar,Singapore,Manila,Jerudong,Kota Kinabalu,Muara,Rabaul,Pentecost,Ambrym,Levuka,Bandar Seri Begawan,Tutong,Honiara"
 },
 {
     "name": "Maga-Tona Rukai",
@@ -9685,7 +9685,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Mailu,Ba,Buna,Pohnpei,Lae,Uaboe,Leulumoega,Abaiang,Kwajalein,Denigomodu,Napier,Rabaul,Papeete,Ambrym,Nibok,Vanimo,Palikir,Mont Dore,Ouvea,Tabubil,Ok Tedi,Nukulaelae,Neiafu,Sogeri,Chuuk,Newcastle,Yaren,Nuku'alofa,Kaduna,Ziguinchor,Kaolack,Nouakchott,Daloa,Bouaké,Kankan,Katsina,Bamako,Niamey,Gbarnga,Kayes,Kumasi,Porto-Novo,Ouagadougou,Koidu,Jalingo,Lomé,Sunyani,Tenkodogo,Bauchi,Mopti,Monrovia,Praia,Assomada,Dakar,Bafatá"
+  "b": "Mailu,Ba,Buna,Pohnpei,Lae,Uaboe,Leulumoega,Abaiang,Kwajalein,Denigomodu,Napier,Rabaul,Papeete,Ambrym,Nibok,Vanimo,Palikir,Mont Dore,Ouvea,Tabubil,Ok Tedi,Nukulaelae,Sogeri,Chuuk,Newcastle,Yaren,Nuku'alofa,Kaduna,Ziguinchor,Kaolack,Nouakchott,Daloa,Bouaké,Kankan,Katsina,Bamako,Niamey,Gbarnga,Kayes,Kumasi,Porto-Novo,Ouagadougou,Koidu,Jalingo,Lomé,Sunyani,Tenkodogo,Bauchi,Mopti,Monrovia,Praia,Assomada,Dakar,Bafatá"
 },
 {
     "name": "Maiwa",
@@ -9703,7 +9703,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Makalero,Navua,Kairuku,Nibok,Tabubil,Melekeok,Palau,Neiafu,Mili,Ebeye,Newcastle,Rotorua,Denigomodu,Bora-Bora,Dumbea,Rabaul,Kavieng,Samamea,Tabiteuea,Belep,Kimbe,Baiti,Havelu,Ok Tedi,Yap,Hobart,Sogeri,Nuku'alofa,Naples,Strasbourg,Palermo,Stuttgart,Västerås,Toulouse,Zaragoza,Málaga,Malmö,Dundalk,London,Cologne,Berlin,Milan,Frankfurt,Vienna,Krakow,Uppsala,Bregenz,Aalborg,Manchester,Warsaw,Venice,Glasgow,Brno,Tampere,Bydgoszcz"
+  "b": "Makalero,Navua,Kairuku,Nibok,Tabubil,Melekeok,Palau,Mili,Ebeye,Newcastle,Rotorua,Denigomodu,Bora-Bora,Dumbea,Rabaul,Kavieng,Samamea,Tabiteuea,Belep,Kimbe,Baiti,Havelu,Ok Tedi,Yap,Hobart,Sogeri,Nuku'alofa,Naples,Strasbourg,Palermo,Stuttgart,Västerås,Toulouse,Zaragoza,Málaga,Malmö,Dundalk,London,Cologne,Berlin,Milan,Frankfurt,Vienna,Krakow,Uppsala,Bregenz,Aalborg,Manchester,Warsaw,Venice,Glasgow,Brno,Tampere,Bydgoszcz"
 },
 {
     "name": "Makasae",
@@ -9712,7 +9712,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Makasae,Levuka,Yap,Kone,Kiunga,Kimbe,Nanumea,Abaiang,Kolonia,Denigomodu,Leulumoega,Punaauia,Palau,Munda,Alotau,Kairuku,Sogeri,Tiga,Baiti,Peleliu,Yaren,Ok Tedi,Tarawa,Kosrae,Tabiteuea,Whangarei,Nuku'alofa,Wellington,Daloa,Bamako,Banjul,Saint-Louis,Katsina,Cotonou,Kankan,Ziguinchor,Dakar,Kumasi,Accra,Kaolack,Jalingo,Zinder,Kayes,Bissau,Tenkodogo,Ngaoundéré,Tema,Sunyani,Thiès,Ebebiyín,Gusau,Kaduna,Bolama,Tambacounda,Ouagadougou,Baucau,Venilale,Lospalos,Lautem,Leuro,Fuiloro,Lore,Iliomar,Com,Laivai,Moro,Luro,Sorel,Baguia,Letemumo,Uatolari,Uatocarbau,Ossu,Soibada,Manatuto,Laclubar,Natarbora,Lacluta,Dili,Cristo Rei,Nain Feto,Vera Cruz,Dom Aleixo,Becora,Hera,Metinaro,Atauro,Tibar,Maubara,Mau-Lafa,Liquica,Bazartete,Ermera,Ainaro,Hato Builico,Maubisse,Turiscai,Fatuberliu,Same,Beto Tauri,Fohorem,Fatululic,Zumalai,Aituto,Cassaitolo,Dare,Viqueque"
+  "b": "Makasae,Levuka,Yap,Kone,Kiunga,Kimbe,Abaiang,Kolonia,Denigomodu,Leulumoega,Punaauia,Palau,Munda,Alotau,Kairuku,Sogeri,Tiga,Baiti,Peleliu,Yaren,Ok Tedi,Tarawa,Kosrae,Tabiteuea,Whangarei,Nuku'alofa,Wellington,Daloa,Bamako,Banjul,Saint-Louis,Katsina,Cotonou,Kankan,Ziguinchor,Dakar,Kumasi,Accra,Kaolack,Jalingo,Zinder,Kayes,Bissau,Tenkodogo,Ngaoundéré,Tema,Sunyani,Thiès,Ebebiyín,Gusau,Kaduna,Bolama,Tambacounda,Ouagadougou,Baucau,Venilale,Lospalos,Lautem,Leuro,Fuiloro,Lore,Iliomar,Com,Laivai,Moro,Luro,Sorel,Baguia,Letemumo,Uatolari,Uatocarbau,Ossu,Soibada,Manatuto,Laclubar,Natarbora,Lacluta,Dili,Cristo Rei,Nain Feto,Vera Cruz,Dom Aleixo,Becora,Hera,Metinaro,Atauro,Tibar,Maubara,Mau-Lafa,Liquica,Bazartete,Ermera,Ainaro,Hato Builico,Maubisse,Turiscai,Fatuberliu,Same,Beto Tauri,Fohorem,Fatululic,Zumalai,Aituto,Cassaitolo,Dare,Viqueque"
 },
 {
     "name": "Makassar",
@@ -9721,7 +9721,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Makassar,Soc Trang,Rayong,Serang,Pattaya,Lhokseumawe,Sandakan,Ternate,Vinh Long,Bogor,Da Nang,Champasak,Woodlands,Quezon City,Lang Son,Bago,Nha Trang,Baguio,Jakarta,Pathein,Dien Bien Phu,Bandar Seri Begawan,Nam Dinh,Shah Alam,Semarang,Baucau,Senmonorom,Khon Kaen,Jerudong,Ba,Ipoh,Johor Bahru,Tutong,Manila,Sonsorol,Davao,Muara,Cagayan de Oro,Iloilo City,Palembang,Kuala Lumpur,Zamboanga,Lorengau,Kota Kinabalu,Port Moresby,Malacca,Alotau,Angaur,Buala,Honiara,Seria"
+  "b": "Makassar,Soc Trang,Rayong,Serang,Pattaya,Lhokseumawe,Sandakan,Ternate,Vinh Long,Bogor,Da Nang,Champasak,Woodlands,Quezon City,Lang Son,Bago,Nha Trang,Baguio,Jakarta,Pathein,Dien Bien Phu,Bandar Seri Begawan,Nam Dinh,Shah Alam,Semarang,Baucau,Senmonorom,Khon Kaen,Jerudong,Ba,Ipoh,Johor Bahru,Tutong,Manila,Sonsorol,Davao,Muara,Cagayan de Oro,Iloilo City,Palembang,Kuala Lumpur,Zamboanga,Lorengau,Kota Kinabalu,Port Moresby,Malacca,Alotau,Angaur,Honiara,Seria"
 },
 {
     "name": "Makayam",
@@ -9739,7 +9739,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Mandobo,Levuka,Yap,Kone,Kiunga,Kimbe,Nanumea,Abaiang,Kolonia,Denigomodu,Leulumoega,Punaauia,Palau,Munda,Alotau,Kairuku,Sogeri,Tiga,Baiti,Peleliu,Yaren,Ok Tedi,Tarawa,Kosrae,Tabiteuea,Whangarei,Rabaul,Lautoka,Port Moresby,Lae,Tari,Madang,Kundiawa,Nipa,Aitape,Kavieng,Komo,Nomad,Kieta,Goroka,Popondetta,Mendi,Olsobip,Kerema,Okapa,Maprik,Wau,Tambul,Mount Hagen,Tabubil,Kaintiba,Ambunti"
+  "b": "Mandobo,Levuka,Yap,Kone,Kiunga,Kimbe,Abaiang,Kolonia,Denigomodu,Leulumoega,Punaauia,Palau,Munda,Alotau,Kairuku,Sogeri,Tiga,Baiti,Peleliu,Yaren,Ok Tedi,Tarawa,Kosrae,Tabiteuea,Whangarei,Rabaul,Lautoka,Port Moresby,Lae,Tari,Madang,Kundiawa,Nipa,Aitape,Kavieng,Komo,Nomad,Kieta,Goroka,Popondetta,Mendi,Olsobip,Kerema,Okapa,Maprik,Wau,Tambul,Mount Hagen,Tabubil,Kaintiba,Ambunti"
 },
 {
     "name": "Mantauran Rukai",
@@ -9802,7 +9802,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Melanesian Pidgin,Vanimo,Navua,Majuro,Ouvea,Tabubil,Kavieng,Nukulaelae,Neiafu,Tabiteuea,Chuuk,Newcastle,Nibok,Samamea,Bora-Bora,Koror,Norfolk,Kairuku,Belep,Denigomodu,Angaur,Baiti,Rabaul,Betio,Yap,Buna,Hagåtña,Hobart,Kingston,Montego Bay,Nassau,Falmouth,Port Antonio,Ocho Ríos,Bridgetown,Portmore,Holetown,Cul de Sac,Saveta,Saint-Marc,Couva,Jérémie,Fort-Liberté,Freeport,Gonaïves,Harbour Island,Jacmel,Lower Prince's Quarter,Dunmore Town,Santa Cruz,Port of Spain,Cienfuegos,Philipsburg,Alice Town,Crane"
+  "b": "Melanesian Pidgin,Vanimo,Navua,Majuro,Ouvea,Tabubil,Kavieng,Nukulaelae,Tabiteuea,Chuuk,Newcastle,Nibok,Samamea,Bora-Bora,Koror,Norfolk,Kairuku,Belep,Denigomodu,Angaur,Baiti,Rabaul,Betio,Yap,Buna,Hagåtña,Hobart,Kingston,Montego Bay,Nassau,Falmouth,Port Antonio,Ocho Ríos,Bridgetown,Portmore,Holetown,Cul de Sac,Saveta,Saint-Marc,Couva,Jérémie,Fort-Liberté,Freeport,Gonaïves,Harbour Island,Jacmel,Lower Prince's Quarter,Dunmore Town,Santa Cruz,Port of Spain,Cienfuegos,Philipsburg,Alice Town,Crane"
 },
 {
     "name": "Menya",
@@ -9820,7 +9820,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Mian,Kaolack,Rijau,Bolgatanga,Louga,Giwa,Bouaké,Ambam,Kumasi,Wa,Kissidougou,Buchanan,Awka,Abéché,Gwoza,Aksum,Makeni,Yamoussoukro,Buea,Hadejia,Sesheke,Gabú,Timbuktu,Ngaoundéré,Okigwe,Tiko,Brikama,Banjul,Banfora,Abidjan,Gbarnga,Conakry,Porto-Novo,Nzérékoré,Katsina,Sokodé,Monrovia,Basse,Ebebiyín,Dakar,Niamey,Bafoussam,Saint-Louis,Mopti,Tamale,Bolama,Man,Bauchi,Maiduguri,Sunyani,Accra"
+  "b": "Mian,Kaolack,Rijau,Bolgatanga,Louga,Giwa,Bouaké,Ambam,Kumasi,Wa,Kissidougou,Buchanan,Awka,Abéché,Gwoza,Aksum,Makeni,Yamoussoukro,Buea,Hadejia,Sesheke,Gabú,Timbuktu,Ngaoundéré,Okigwe,Tiko,Brikama,Banjul,Banfora,Abidjan,Gbarnga,Conakry,Porto-Novo,Nzérékoré,Katsina,Sokodé,Monrovia,Basse,Ebebiyín,Dakar,Niamey,Bafoussam,Saint-Louis,Mopti,Tamale,Bolama,Man,Bauchi,Maiduguri,Sunyani,Accra,Apsokok,Tumok,Dubum,Fakfak,Teleng,Sibil,Bokar,Warkar,Ninati,Abenaho"
 },
 {
     "name": "Moikodi",
@@ -9874,7 +9874,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Moraori,Levuka,Yap,Kone,Kiunga,Kimbe,Nanumea,Abaiang,Kolonia,Denigomodu,Leulumoega,Punaauia,Palau,Munda,Alotau,Kairuku,Sogeri,Tiga,Baiti,Peleliu,Yaren,Ok Tedi,Tarawa,Kosrae,Tabiteuea,Whangarei,Trobriand,Muri,Koidu,Banjul,Bouaké,Tema,Kara,Kaolack,Sikasso,Warri,Bafoussam,Bamako,Basse,Maiduguri,Kayes,Niamey,Conakry,Korhogo,Saint-Louis,Ouagadougou,Bobo-Dioulasso,Porto-Novo,Ebebiyín,Ngaoundéré,Jos,Bissau,Nzérékoré,Monrovia,Tambacounda"
+  "b": "Moraori,Levuka,Yap,Kone,Kiunga,Kimbe,Abaiang,Kolonia,Denigomodu,Leulumoega,Punaauia,Palau,Munda,Alotau,Kairuku,Sogeri,Tiga,Baiti,Peleliu,Yaren,Ok Tedi,Tarawa,Kosrae,Tabiteuea,Whangarei,Trobriand,Muri,Koidu,Banjul,Bouaké,Tema,Kara,Kaolack,Sikasso,Warri,Bafoussam,Bamako,Basse,Maiduguri,Kayes,Niamey,Conakry,Korhogo,Saint-Louis,Ouagadougou,Bobo-Dioulasso,Porto-Novo,Ebebiyín,Ngaoundéré,Jos,Bissau,Nzérékoré,Monrovia,Tambacounda"
 },
 {
     "name": "Morawa",
@@ -9892,7 +9892,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Morigi,Nibok,Kokoda,Noumea,Kimbe,Palau,Vaitupu,Abaiang,Jaluit,Weno,Yap,Dunedin,Asau,Rabaul,Pentecost,Tulagi,Kairuku,Sigatoka,Baiti,Ok Tedi,Airai,Pangai,Wotje,Sogeri,Canberra,New Plymouth,Misima,Santo,Accra,Banjul,Bissau,Sokoto,Gbarnga,Bertoua,Conakry,Freetown,Bauchi,Korhogo,Kaolack,Kano,Man,Wa,Kayes,Ségou,Tema,Tenkodogo,Ziguinchor,Daloa,Jalingo,Nzérékoré,Malabo,Kumba,Lafia,Nouakchott,Cacheu"
+  "b": "Morigi,Nibok,Kokoda,Noumea,Kimbe,Palau,Vaitupu,Abaiang,Jaluit,Weno,Yap,Dunedin,Asau,Rabaul,Pentecost,Tulagi,Kairuku,Sigatoka,Baiti,Ok Tedi,Airai,Pangai,Wotje,Sogeri,Canberra,New Plymouth,Misima,Accra,Banjul,Bissau,Sokoto,Gbarnga,Bertoua,Conakry,Freetown,Bauchi,Korhogo,Kaolack,Kano,Man,Wa,Kayes,Ségou,Tema,Tenkodogo,Ziguinchor,Daloa,Jalingo,Nzérékoré,Malabo,Kumba,Lafia,Nouakchott,Cacheu"
 },
 {
     "name": "Mountain",
@@ -9901,7 +9901,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Mountain,Owerri,Sokoto,Aba,Parakou,Thiès,Ebolowa,Kaduna,Louga,Ughelli,Kindia,Ambam,Tahoua,Wa,Okigwe,Gao,Awka,Faranah,Bida,Aksum,Ségou,Yamoussoukro,Moundou,Enugu,Sesheke,Zaria,Timbuktu,Douala,Sam Neua,Chiang Rai,Hai Phong,Kunming,Rach Gia,Vinh,Fangchenggang,My Tho,Vientiane,Pakse,Chiềng Rạ,Bangkok,Naypyidaw,Luang Prabang,Hanoi,Kampot,Siem Reap,Sihanoukville,Myitkyina,Nha Trang,Battambang,Da Lat,Chiang Mai,Liuzhou,Xieng Khouang,Taunggyi,Mawlamyine"
+  "b": "Mountain,Owerri,Sokoto,Aba,Parakou,Thiès,Ebolowa,Kaduna,Louga,Ughelli,Kindia,Ambam,Tahoua,Wa,Okigwe,Gao,Awka,Faranah,Bida,Aksum,Ségou,Yamoussoukro,Moundou,Enugu,Sesheke,Zaria,Timbuktu,Douala,Sam Neua,Chiang Rai,Hai Phong,Kunming,Rach Gia,Vinh,Fangchenggang,My Tho,Vientiane,Pakse,Chiềng Rạ,Bangkok,Naypyidaw,Luang Prabang,Hanoi,Kampot,Siem Reap,Sihanoukville,Myitkyina,Nha Trang,Battambang,Da Lat,Chiang Mai,Liuzhou,Xieng Khouang,Taunggyi,Mawlamyine,Teleng,Bok,Abra,Werima,Sibil,Yuok,Astrolabe,Karawari,Sepik,Warahau,Okbab"
 },
 {
     "name": "Mountain Koiari",
@@ -9937,7 +9937,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Muna,Savusavu,Kimbe,Lorengau,Abaiang,Funafuti,Butaritari,Denigomodu,Townsville,Pohnpei,Salelologa,Koumac,Kairuku,Gizo,Rabaul,Baiti,Sogeri,Kone,Ok Tedi,Koror,Nanumea,Pangai,Arno,Kolonia,Yap,Palmerston North,Kokopo,Nadi,Praia,Banjul,Accra,Bobo-Dioulasso,Gabú,Cotonou,Assomada,Freetown,Bamenda,Kankan,Kumasi,Maiduguri,Timbuktu,Gusau,Warri,Lomé,Saint-Louis,Monrovia,Sunyani,Niamey,Garoua,Bouaké,Yamoussoukro,Ouagadougou,Tamale,Nzérékoré,Sikasso"
+  "b": "Muna,Savusavu,Kimbe,Lorengau,Abaiang,Butaritari,Denigomodu,Townsville,Pohnpei,Salelologa,Koumac,Kairuku,Gizo,Rabaul,Baiti,Sogeri,Kone,Ok Tedi,Koror,Pangai,Arno,Kolonia,Yap,Palmerston North,Kokopo,Nadi,Praia,Banjul,Accra,Bobo-Dioulasso,Gabú,Cotonou,Assomada,Freetown,Bamenda,Kankan,Kumasi,Maiduguri,Timbuktu,Gusau,Warri,Lomé,Saint-Louis,Monrovia,Sunyani,Niamey,Garoua,Bouaké,Yamoussoukro,Ouagadougou,Tamale,Nzérékoré,Sikasso"
 },
 {
     "name": "Muyu",
@@ -9946,7 +9946,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Muyu,Savusavu,Kimbe,Lorengau,Abaiang,Funafuti,Butaritari,Denigomodu,Townsville,Pohnpei,Salelologa,Koumac,Kairuku,Gizo,Rabaul,Baiti,Sogeri,Kone,Ok Tedi,Koror,Nanumea,Pangai,Arno,Kolonia,Yap,Palmerston North,Tanna,Mount Hagen,Port Moresby,Madang,Arawa,Kavieng,Aitape,Nipa,Popondetta,Bulolo,Goroka,Tambul,Kikori,Kundiawa,Balimo,Angoram,Nomad,Kainantu,Alotau,Okapa,Mendi,Vanimo,Morehead,Komo,Ramu,Wewak,Kaintiba"
+  "b": "Muyu,Savusavu,Kimbe,Lorengau,Abaiang,Butaritari,Denigomodu,Townsville,Pohnpei,Salelologa,Koumac,Kairuku,Gizo,Rabaul,Baiti,Sogeri,Kone,Ok Tedi,Koror,Pangai,Arno,Kolonia,Yap,Palmerston North,Tanna,Mount Hagen,Port Moresby,Madang,Arawa,Kavieng,Aitape,Nipa,Popondetta,Bulolo,Goroka,Tambul,Kikori,Kundiawa,Balimo,Angoram,Nomad,Kainantu,Alotau,Okapa,Mendi,Vanimo,Morehead,Komo,Ramu,Wewak,Kaintiba,Kawet,Kaut,Murup,Terau,Wangbe,Kepi,Bade,Edera,Oba,Bamgi"
 },
 {
     "name": "Nakai",
@@ -9955,7 +9955,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Nakai,Parakou,Lafia,Rijau,Kumasi,Louga,Ouagadougou,Ségou,Ambam,Kaolack,Wa,Cape Coast,Yaoundé,Awka,Faranah,Ibadan,Tamale,Gabú,Yamoussoukro,Moundou,Baga,Sarh,Ife,Timbuktu,Kenema,Mongu,Kumba,Harper,Bamako,Bissau,Bafatá,Conakry,Bobo-Dioulasso,Freetown,Kara,Monrovia,Ziguinchor,Brikama,Tema,Tambacounda,Lomé,Koudougou,Sokodé,Man,Kankan,Bertoua,Warri,Sikasso,Kaduna,Korhogo,Abidjan"
+  "b": "Nakai,Parakou,Lafia,Rijau,Kumasi,Louga,Ouagadougou,Ségou,Ambam,Kaolack,Wa,Cape Coast,Yaoundé,Awka,Faranah,Ibadan,Tamale,Gabú,Yamoussoukro,Moundou,Baga,Sarh,Ife,Timbuktu,Kenema,Mongu,Kumba,Harper,Bamako,Bissau,Bafatá,Conakry,Bobo-Dioulasso,Freetown,Kara,Monrovia,Ziguinchor,Brikama,Tema,Tambacounda,Lomé,Koudougou,Sokodé,Man,Kankan,Bertoua,Warri,Sikasso,Kaduna,Korhogo,Abidjan,Borme,Abenaho,Angguruk,Nalca,Yalime,Yale,Kosarek,Okhika,Apalahapsili,Langda"
 },
 {
     "name": "Namiae",
@@ -10018,7 +10018,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Nduga,Ba,Buna,Pohnpei,Lae,Uaboe,Leulumoega,Abaiang,Kwajalein,Denigomodu,Napier,Rabaul,Papeete,Ambrym,Nibok,Vanimo,Palikir,Mont Dore,Ouvea,Tabubil,Ok Tedi,Nukulaelae,Neiafu,Sogeri,Chuuk,Newcastle,Yaren,Wollongong,Port Moresby,Alotau,Kokopo,Tari,Wewak,Daru,Wapenamanda,Oksapmin,Kiunga,Popondetta,Mendi,Wau,Kieta,Kimbe,Olsobip,Menyamya,Lorengau,Ialibu,Angoram,Madang,Kikori,Saidor,Arawa,Kaintiba"
+  "b": "Nduga,Ba,Buna,Pohnpei,Lae,Uaboe,Leulumoega,Abaiang,Kwajalein,Denigomodu,Napier,Rabaul,Papeete,Ambrym,Nibok,Vanimo,Palikir,Mont Dore,Ouvea,Tabubil,Ok Tedi,Nukulaelae,Sogeri,Chuuk,Newcastle,Yaren,Wollongong,Port Moresby,Alotau,Kokopo,Tari,Wewak,Daru,Wapenamanda,Oksapmin,Kiunga,Popondetta,Mendi,Wau,Kieta,Kimbe,Olsobip,Menyamya,Lorengau,Ialibu,Angoram,Madang,Kikori,Saidor,Arawa,Kaintiba"
 },
 {
     "name": "Nedebang",
@@ -10090,7 +10090,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ninggerum,Yola,Aplahoué,Bissau,Aba,Minna,Umuahia,Rijau,Tambacounda,Louga,Bimbila,Sapele,Ambam,Kaolack,Wa,Maiduguri,Nsukka,Awka,Labé,Praia,Aksum,Takum,Yamoussoukro,Moundou,Neves,Sesheke,Okene,Timbuktu,Cotonou,Bobo-Dioulasso,Lomé,Conakry,Koidu,Banjul,Bamako,Jalingo,Bouaké,Kumasi,Porto-Novo,Kankan,Mindelo,Katsina,Kayes,Sokodé,Lafia,Tema,Bauchi,Koudougou,Kaduna,Freetown,Daloa,Nouakchott,Bertoua,Kumba,Sokoto"
+  "b": "Ninggerum,Yola,Aplahoué,Bissau,Aba,Minna,Umuahia,Rijau,Tambacounda,Louga,Bimbila,Sapele,Ambam,Kaolack,Wa,Maiduguri,Nsukka,Awka,Labé,Praia,Aksum,Takum,Yamoussoukro,Moundou,Neves,Sesheke,Okene,Timbuktu,Cotonou,Bobo-Dioulasso,Lomé,Conakry,Koidu,Banjul,Bamako,Jalingo,Bouaké,Kumasi,Porto-Novo,Kankan,Mindelo,Katsina,Kayes,Sokodé,Lafia,Tema,Bauchi,Koudougou,Kaduna,Freetown,Daloa,Nouakchott,Bertoua,Kumba,Sokoto,Wangbe,Bat,Boven,Okaba,Erambu,Ulilin,Kawet,Kumbe,Muting,TanahMerah"
 },
 {
     "name": "Nomane",
@@ -10108,7 +10108,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Northern and Central Bunun,Kirakira,Vanimo,Palau,Kairuku,Ouvea,Lorengau,Melekeok,Nukulaelae,Mili,Chuuk,Ebeye,Rotorua,Samamea,Kavieng,Dumbea,Norfolk,Tabiteuea,Newcastle,Navua,Nibok,Kimbe,Angaur,Havelu,Betio,Jaluit,Tinian,Wellington,Da Nang,Bago,Hanoi,Haikou,Yangon,Nha Trang,Pursat,Can Tho,My Tho,Quy Nhon,Pattaya,Savannakhet,Hat Yai,Phongsali,Siem Reap,Xieng Khouang,Guilin,Mawlamyine,Kampong Cham,Phnom Penh,Ho Chi Minh City,Vinh,Rach Gia,Wuzhou,Sihanoukville,Myitkyina,Liuzhou"
+  "b": "Northern and Central Bunun,Vanimo,Palau,Kairuku,Ouvea,Lorengau,Melekeok,Nukulaelae,Mili,Chuuk,Ebeye,Rotorua,Samamea,Kavieng,Dumbea,Norfolk,Tabiteuea,Newcastle,Navua,Nibok,Kimbe,Angaur,Havelu,Betio,Jaluit,Tinian,Wellington,Da Nang,Bago,Hanoi,Haikou,Yangon,Nha Trang,Pursat,Can Tho,My Tho,Quy Nhon,Pattaya,Savannakhet,Hat Yai,Phongsali,Siem Reap,Xieng Khouang,Guilin,Mawlamyine,Kampong Cham,Phnom Penh,Ho Chi Minh City,Vinh,Rach Gia,Wuzhou,Sihanoukville,Myitkyina,Liuzhou"
 },
 {
     "name": "Nuaulu",
@@ -10153,7 +10153,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Oksapmin,Ölgii,Kawasaki,Kaifeng,Kanazawa,Changwon,Taitung,Miaoli,Sariwon,Choibalsan,Mörön,Tai Po,Luoyang,Chiba,Baotou,Darwin,Wellington,Avarua,Tauranga,Rotorua,Tiga,Alotau,Kavieng,Muri,Mount Hagen,Raiatea,Perth,Saipan,Bouaké,Ziguinchor,Porto-Novo,Accra,Bissau,Banjul,Bamako,Gbarnga,Abidjan,Tema,Maiduguri,Jalingo,Ouagadougou,Kaolack,Nouakchott,Mopti,Timbuktu,Korhogo,Cotonou,Koudougou,Man,Cacheu,Katsina,Parakou,Monrovia,Bolt,Ebebiyín"
+  "b": "Oksapmin,Ölgii,Kawasaki,Kaifeng,Kanazawa,Changwon,Taitung,Miaoli,Sariwon,Choibalsan,Mörön,Tai Po,Luoyang,Chiba,Baotou,Darwin,Wellington,Avarua,Tauranga,Rotorua,Tiga,Alotau,Kavieng,Muri,Mount Hagen,Raiatea,Perth,Saipan,Bouaké,Ziguinchor,Porto-Novo,Accra,Bissau,Banjul,Bamako,Gbarnga,Abidjan,Tema,Maiduguri,Jalingo,Ouagadougou,Kaolack,Nouakchott,Mopti,Timbuktu,Korhogo,Cotonou,Koudougou,Man,Cacheu,Katsina,Parakou,Monrovia,Bolt,Ebebiyín,Borme,Notelepsop,Dei,Telefomin,Baktamin,Eliptaman,Feramin,Kiunga,Olsobip,Ningerum"
 },
 {
     "name": "Omati",
@@ -10171,7 +10171,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Onjob,Parakou,Lafia,Rijau,Kumasi,Louga,Ouagadougou,Ségou,Ambam,Kaolack,Wa,Cape Coast,Yaoundé,Awka,Faranah,Ibadan,Tamale,Gabú,Yamoussoukro,Moundou,Baga,Sarh,Ife,Timbuktu,Kenema,Mongu,Kumba,Harper,Jakarta,Ipoh,Bandung,Davao,Quezon City,Epi,Zamboanga,Denpasar,George Town,Kuala Lumpur,Semarang,Cebu City,Singapore,Malekula,Manila,Malacca,Ambrym,Ngerulmud,Melekeok,Luganville,Munda,Bangar,Buala,Seria,Johor Bahru,Honiara,Iloilo City"
+  "b": "Onjob,Parakou,Lafia,Rijau,Kumasi,Louga,Ouagadougou,Ségou,Ambam,Kaolack,Wa,Cape Coast,Yaoundé,Awka,Faranah,Ibadan,Tamale,Gabú,Yamoussoukro,Moundou,Baga,Sarh,Ife,Timbuktu,Kenema,Mongu,Kumba,Harper,Jakarta,Ipoh,Bandung,Davao,Quezon City,Epi,Zamboanga,Denpasar,George Town,Kuala Lumpur,Semarang,Cebu City,Singapore,Malekula,Manila,Malacca,Ambrym,Ngerulmud,Melekeok,Luganville,Munda,Bangar,Seria,Johor Bahru,Honiara,Iloilo City"
 },
 {
     "name": "Onobasulu",
@@ -10189,7 +10189,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ontenu,Aba,Parakou,Tsévié,Fada N'Gourma,Gashua,Louga,Koulamoutou,Mekelle,Zaria,Tahoua,Wa,Kumasi,Luba,Cotonou,Faranah,Nzérékoré,Kaolack,Nkongsamba,Sekondi,Moundou,Yendi,Korhogo,Ife,Tema,Oyo,Kurfi,Kakata,Accra,Katsina,Kankan,Lomé,Bobo-Dioulasso,Dakar,Kaduna,Farafenni,Man,Jos,Bolama,Sikasso,Mopti,Kayes,Tambacounda,Bolt,Bissau,Bauchi,Koidu,Lafia,Koudougou,Banfora"
+  "b": "Ontenu,Aba,Parakou,Tsévié,Fada N'Gourma,Gashua,Louga,Koulamoutou,Mekelle,Zaria,Tahoua,Wa,Kumasi,Luba,Cotonou,Faranah,Nzérékoré,Kaolack,Nkongsamba,Sekondi,Moundou,Yendi,Korhogo,Ife,Tema,Oyo,Kurfi,Kakata,Accra,Katsina,Kankan,Lomé,Bobo-Dioulasso,Dakar,Kaduna,Farafenni,Man,Jos,Bolama,Sikasso,Mopti,Kayes,Tambacounda,Bolt,Bissau,Bauchi,Koidu,Lafia,Koudougou,Banfora,Eipomek,Taylor,Okbab,Nalca,Yalimo,Apalahapsili,Sopkorop,Kwiyawagi,Abenaho,Angguruk"
 },
 {
     "name": "Orokaiva",
@@ -10198,7 +10198,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Orokaiva,Navua,Kairuku,Nibok,Tabubil,Melekeok,Palau,Neiafu,Mili,Ebeye,Newcastle,Rotorua,Denigomodu,Bora-Bora,Dumbea,Rabaul,Kavieng,Samamea,Tabiteuea,Belep,Kimbe,Baiti,Havelu,Ok Tedi,Yap,Hobart,Sogeri,Ulsan,Semarang,Kuala Lumpur,Jakarta,Makassar,Davao,Quezon City,Manila,Cebu City,Nadi,Levuka,Cagayan de Oro,Jaluit,Malacca,Port Vila,George Town,Ipoh,Palikir,Honiara,Lautoka,Alotau,Majuro,Bangar,Kuala Belait,Epi,Ba,Auki"
+  "b": "Orokaiva,Navua,Kairuku,Nibok,Tabubil,Melekeok,Palau,Mili,Ebeye,Newcastle,Rotorua,Denigomodu,Bora-Bora,Dumbea,Rabaul,Kavieng,Samamea,Tabiteuea,Belep,Kimbe,Baiti,Havelu,Ok Tedi,Yap,Hobart,Sogeri,Ulsan,Semarang,Kuala Lumpur,Jakarta,Makassar,Davao,Quezon City,Manila,Cebu City,Nadi,Levuka,Cagayan de Oro,Jaluit,Malacca,Port Vila,George Town,Ipoh,Palikir,Honiara,Lautoka,Alotau,Majuro,Bangar,Kuala Belait,Epi,Ba,Auki"
 },
 {
     "name": "Oweina",
@@ -10252,7 +10252,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Papora-Hoanya,Wewak,Kavieng,Misima,Lorengau,Tabiteuea,Nibok,Funafuti,Ebeye,Townsville,Kimbe,Tauranga,Salelologa,Abaiang,Malekula,Gizo,Denigomodu,Butaritari,Sogeri,Canala,Kiunga,Koror,Kairuku,Arno,Baiti,Muri,Neiafu,Lifou,Bamako,Accra,Bissau,Kayes,Bouaké,Praia,Porto-Novo,Sokodé,Kaolack,Bobo-Dioulasso,Nouakchott,Monrovia,Saint-Louis,Ngaoundéré,Koudougou,Sokoto,Cotonou,Dakar,Sunyani,Parakou,Ségou,Lafia,Malabo,Tambacounda,Nzérékoré,Jos,Cacheu"
+  "b": "Papora-Hoanya,Wewak,Kavieng,Misima,Lorengau,Tabiteuea,Nibok,Ebeye,Townsville,Kimbe,Tauranga,Salelologa,Abaiang,Malekula,Gizo,Denigomodu,Butaritari,Sogeri,Canala,Kiunga,Koror,Kairuku,Arno,Baiti,Muri,Lifou,Bamako,Accra,Bissau,Kayes,Bouaké,Praia,Porto-Novo,Sokodé,Kaolack,Bobo-Dioulasso,Nouakchott,Monrovia,Saint-Louis,Ngaoundéré,Koudougou,Sokoto,Cotonou,Dakar,Sunyani,Parakou,Ségou,Lafia,Malabo,Tambacounda,Nzérékoré,Jos,Cacheu"
 },
 {
     "name": "Papuan Tip",
@@ -10261,7 +10261,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Papuan Tip,Lae,Tabiteuea,Tiga,Rabaul,Kirakira,Yaren,Ohonua,Kimbe,Kosrae,Wollongong,Abaiang,Raiatea,Denigomodu,Luganville,Mendi,Neiafu,Peleliu,Misima,Kairuku,Nibok,Baiti,Butaritari,Ebeye,Ok Tedi,Port Vila,Savusavu,Auckland,Alotau,Wau,Okapa,Vanimo,Kundiawa,Ambunti,Telefomin,Wewak,Port Moresby,Aseki,Kerema,Kainantu,Menyamya,Wapenamanda,Mount Hagen,Salamaua,Kaintiba,Kokopo,Kieta,Banz,Morehead,Ialibu,Aitape"
+  "b": "Papuan Tip,Lae,Tabiteuea,Tiga,Rabaul,Yaren,Ohonua,Kimbe,Kosrae,Wollongong,Abaiang,Raiatea,Denigomodu,Luganville,Mendi,Peleliu,Misima,Kairuku,Nibok,Baiti,Butaritari,Ebeye,Ok Tedi,Port Vila,Savusavu,Auckland,Alotau,Wau,Okapa,Vanimo,Kundiawa,Ambunti,Telefomin,Wewak,Port Moresby,Aseki,Kerema,Kainantu,Menyamya,Wapenamanda,Mount Hagen,Salamaua,Kaintiba,Kokopo,Kieta,Banz,Morehead,Ialibu,Aitape"
 },
 {
     "name": "Pazeh",
@@ -10270,7 +10270,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Pazeh,Ba,Buna,Pohnpei,Lae,Uaboe,Leulumoega,Abaiang,Kwajalein,Denigomodu,Napier,Rabaul,Papeete,Ambrym,Nibok,Vanimo,Palikir,Mont Dore,Ouvea,Tabubil,Ok Tedi,Nukulaelae,Neiafu,Sogeri,Chuuk,Newcastle,Yaren,Canberra,Abidjan,Bafatá,Kaolack,Lomé,Nouakchott,Kaduna,Dakar,Daloa,Jalingo,Kara,Garoua,Kumasi,Koidu,Katsina,Cotonou,Korhogo,Kano,Monrovia,Gbarnga,Yola,Timbuktu,Maroua,Minna,Porto-Novo,Saint-Louis,Jos,Ouagadougou"
+  "b": "Pazeh,Ba,Buna,Pohnpei,Lae,Uaboe,Leulumoega,Abaiang,Kwajalein,Denigomodu,Napier,Rabaul,Papeete,Ambrym,Nibok,Vanimo,Palikir,Mont Dore,Ouvea,Tabubil,Ok Tedi,Nukulaelae,Sogeri,Chuuk,Newcastle,Yaren,Canberra,Abidjan,Bafatá,Kaolack,Lomé,Nouakchott,Kaduna,Dakar,Daloa,Jalingo,Kara,Garoua,Kumasi,Koidu,Katsina,Cotonou,Korhogo,Kano,Monrovia,Gbarnga,Yola,Timbuktu,Maroua,Minna,Porto-Novo,Saint-Louis,Jos,Ouagadougou"
 },
 {
     "name": "Pisa",
@@ -10288,7 +10288,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Pitcairn-Norfolk,Bissau,Bida,Minna,Nnewi,Saminaka,Tambacounda,Bafatá,Yola,Garoua,Tchibanga,Tema,Parakou,Maiduguri,Mopti,Gashua,Labé,Kete Krachi,Dapaong,Bolama,Tahoua,Wa,Kontagora,Luba,Okene,Faranah,Sikasso,Geidam,Arno,Fagatogo,Bikenibeu,Mesepa,Eita,Hilo,Saratamata,Kitti,Majuro,Pangai,Funafuti,Jaluit,Pago Pago,Fakaifou,Tarawa,Alapi,Mahina,Kwajalein,Port Vila,Muʻa,Nett,Kolonia,Wotje,Kaneohe,Senala,Windwardside,Madolenihmw"
+  "b": "Pitcairn-Norfolk,Bissau,Bida,Minna,Nnewi,Saminaka,Tambacounda,Bafatá,Yola,Garoua,Tchibanga,Tema,Parakou,Maiduguri,Mopti,Gashua,Labé,Kete Krachi,Dapaong,Bolama,Tahoua,Wa,Kontagora,Luba,Okene,Faranah,Sikasso,Geidam,Arno,Fagatogo,Bikenibeu,Mesepa,Eita,Hilo,Kitti,Majuro,Pangai,Jaluit,Pago Pago,Fakaifou,Tarawa,Alapi,Mahina,Kwajalein,Port Vila,Muʻa,Nett,Kolonia,Wotje,Kaneohe,Senala,Windwardside,Madolenihmw"
 },
 {
     "name": "Pitkern",
@@ -10297,7 +10297,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Pitkern,Levuka,Yap,Kone,Kiunga,Kimbe,Nanumea,Abaiang,Kolonia,Denigomodu,Leulumoega,Punaauia,Palau,Munda,Alotau,Kairuku,Sogeri,Tiga,Baiti,Peleliu,Yaren,Ok Tedi,Tarawa,Kosrae,Tabiteuea,Whangarei,Gold Coast,Lae,Leone,Faleniu,Nuʻuuli,Mesepa,Betio,Paea,The Bottom,Kahului,Ebeye,Saratamata,Uh,Muʻa,Alapi,Nett,Kwajalein,Kitti,Vaiaku,Fagatogo,Eita,Rongelap,Jaluit,Mili,Tatakamotonga,Madolenihmw,Fakaifou,Senala,Teone"
+  "b": "Pitkern,Levuka,Yap,Kone,Kiunga,Kimbe,Abaiang,Kolonia,Denigomodu,Leulumoega,Punaauia,Palau,Munda,Alotau,Kairuku,Sogeri,Tiga,Baiti,Peleliu,Yaren,Ok Tedi,Tarawa,Kosrae,Tabiteuea,Whangarei,Gold Coast,Lae,Leone,Faleniu,Nuʻuuli,Mesepa,Betio,Paea,The Bottom,Kahului,Ebeye,Uh,Muʻa,Alapi,Nett,Kwajalein,Kitti,Vaiaku,Fagatogo,Eita,Rongelap,Jaluit,Mili,Tatakamotonga,Madolenihmw,Fakaifou,Senala,Teone"
 },
 {
     "name": "Pogaya",
@@ -10315,7 +10315,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Puyuma,Nibok,Kokoda,Noumea,Kimbe,Palau,Vaitupu,Abaiang,Jaluit,Weno,Yap,Dunedin,Asau,Rabaul,Pentecost,Tulagi,Kairuku,Sigatoka,Baiti,Ok Tedi,Airai,Pangai,Wotje,Sogeri,Canberra,New Plymouth,Muri,Neiafu,Tarrafal,Kankan,Porto-Novo,Bolt,Bobo-Dioulasso,Conakry,Jos,Kara,Katsina,Saint-Louis,Kumasi,Kaolack,Lafia,Brikama,Jalingo,Parakou,Bauchi,Ziguinchor,Freetown,Maiduguri,Monrovia,Bouaké,Bafatá,Niamey,Nzérékoré,Tambacounda,Thiès"
+  "b": "Puyuma,Nibok,Kokoda,Noumea,Kimbe,Palau,Vaitupu,Abaiang,Jaluit,Weno,Yap,Dunedin,Asau,Rabaul,Pentecost,Tulagi,Kairuku,Sigatoka,Baiti,Ok Tedi,Airai,Pangai,Wotje,Sogeri,Canberra,New Plymouth,Muri,Tarrafal,Kankan,Porto-Novo,Bolt,Bobo-Dioulasso,Conakry,Jos,Kara,Katsina,Saint-Louis,Kumasi,Kaolack,Lafia,Brikama,Jalingo,Parakou,Bauchi,Ziguinchor,Freetown,Maiduguri,Monrovia,Bouaké,Bafatá,Niamey,Nzérékoré,Tambacounda,Thiès"
 },
 {
     "name": "Rapa Nui",
@@ -10324,7 +10324,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Rapa Nui,Navua,Kairuku,Nibok,Tabubil,Melekeok,Palau,Neiafu,Mili,Ebeye,Newcastle,Rotorua,Denigomodu,Bora-Bora,Dumbea,Rabaul,Kavieng,Samamea,Tabiteuea,Belep,Kimbe,Baiti,Havelu,Ok Tedi,Yap,Hobart,Sogeri,Luganville,Pago Pago,Nuʻuuli,Majuro,Fagatogo,Mesepa,Bikenibeu,Faleniu,Wotje,Hilo,Eita,Rongelap,Mahina,Palikir,Tarawa,Jaluit,Honolulu,Uh,Buota,Vaiaku,Sokehs,Paea,Tatakamotonga,Fakaifou,Lofeagai,Kolonia,Avarua"
+  "b": "Rapa Nui,Navua,Kairuku,Nibok,Tabubil,Melekeok,Palau,Mili,Ebeye,Newcastle,Rotorua,Denigomodu,Bora-Bora,Dumbea,Rabaul,Kavieng,Samamea,Tabiteuea,Belep,Kimbe,Baiti,Havelu,Ok Tedi,Yap,Hobart,Sogeri,Luganville,Pago Pago,Nuʻuuli,Majuro,Fagatogo,Mesepa,Bikenibeu,Faleniu,Wotje,Hilo,Eita,Rongelap,Mahina,Palikir,Tarawa,Jaluit,Honolulu,Uh,Buota,Vaiaku,Sokehs,Paea,Tatakamotonga,Fakaifou,Lofeagai,Kolonia,Avarua"
 },
 {
     "name": "Retta",
@@ -10360,7 +10360,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Rukai,Ba,Buna,Pohnpei,Lae,Uaboe,Leulumoega,Abaiang,Kwajalein,Denigomodu,Napier,Rabaul,Papeete,Ambrym,Nibok,Vanimo,Palikir,Mont Dore,Ouvea,Tabubil,Ok Tedi,Nukulaelae,Neiafu,Sogeri,Chuuk,Newcastle,Yaren,Bikenibeu,Bissau,Bobo-Dioulasso,Lomé,Freetown,Daloa,Koidu,Koudougou,Kaolack,Abidjan,Conakry,Porto-Novo,Tema,Nouakchott,Bamenda,Bauchi,Mopti,Cacheu,Maiduguri,Sunyani,Yamoussoukro,Kano,Nzérékoré,Cotonou,Monrovia,Malabo,Jos,Sikasso"
+  "b": "Rukai,Ba,Buna,Pohnpei,Lae,Uaboe,Leulumoega,Abaiang,Kwajalein,Denigomodu,Napier,Rabaul,Papeete,Ambrym,Nibok,Vanimo,Palikir,Mont Dore,Ouvea,Tabubil,Ok Tedi,Nukulaelae,Sogeri,Chuuk,Newcastle,Yaren,Bikenibeu,Bissau,Bobo-Dioulasso,Lomé,Freetown,Daloa,Koidu,Koudougou,Kaolack,Abidjan,Conakry,Porto-Novo,Tema,Nouakchott,Bamenda,Bauchi,Mopti,Cacheu,Maiduguri,Sunyani,Yamoussoukro,Kano,Nzérékoré,Cotonou,Monrovia,Malabo,Jos,Sikasso,Taromak,Labuan,Budai,Tona,Maga,Mantauran,Haocha,Pingtong,Wutai,Yanping"
 },
 {
     "name": "Rumu",
@@ -10396,7 +10396,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Sabakor,Levuka,Yap,Kone,Kiunga,Kimbe,Nanumea,Abaiang,Kolonia,Denigomodu,Leulumoega,Punaauia,Palau,Munda,Alotau,Kairuku,Sogeri,Tiga,Baiti,Peleliu,Yaren,Ok Tedi,Tarawa,Kosrae,Tabiteuea,Whangarei,Nadi,Wewak,Bouaké,Bamako,Kankan,Bissau,Bobo-Dioulasso,Assomada,Accra,Timbuktu,Monrovia,Freetown,Saint-Louis,Nouakchott,Tambacounda,Kaduna,Katsina,Korhogo,Koidu,Mopti,Warri,Maiduguri,Sunyani,Man,Bamenda,Ebebiyín,Zaria,Lomé,Cacheu"
+  "b": "Sabakor,Levuka,Yap,Kone,Kiunga,Kimbe,Abaiang,Kolonia,Denigomodu,Leulumoega,Punaauia,Palau,Munda,Alotau,Kairuku,Sogeri,Tiga,Baiti,Peleliu,Yaren,Ok Tedi,Tarawa,Kosrae,Tabiteuea,Whangarei,Nadi,Wewak,Bouaké,Bamako,Kankan,Bissau,Bobo-Dioulasso,Assomada,Accra,Timbuktu,Monrovia,Freetown,Saint-Louis,Nouakchott,Tambacounda,Kaduna,Katsina,Korhogo,Koidu,Mopti,Warri,Maiduguri,Sunyani,Man,Bamenda,Ebebiyín,Zaria,Lomé,Cacheu"
 },
 {
     "name": "Safeyoka",
@@ -10414,7 +10414,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Saisiyat,Navua,Kairuku,Nibok,Tabubil,Melekeok,Palau,Neiafu,Mili,Ebeye,Newcastle,Rotorua,Denigomodu,Bora-Bora,Dumbea,Rabaul,Kavieng,Samamea,Tabiteuea,Belep,Kimbe,Baiti,Havelu,Ok Tedi,Yap,Hobart,Sogeri,Darwin,Bamako,Banjul,Bobo-Dioulasso,Ziguinchor,Kaolack,Tambacounda,Warri,Cotonou,Daloa,Bouaké,Praia,Kayes,Korhogo,Niamey,Koidu,Gbarnga,Lafia,Ségou,Mopti,Kumba,Kano,Maiduguri,Nzérékoré,Porto-Novo,Bata,Jos,Sokoto"
+  "b": "Saisiyat,Navua,Kairuku,Nibok,Tabubil,Melekeok,Palau,Mili,Ebeye,Newcastle,Rotorua,Denigomodu,Bora-Bora,Dumbea,Rabaul,Kavieng,Samamea,Tabiteuea,Belep,Kimbe,Baiti,Havelu,Ok Tedi,Yap,Hobart,Sogeri,Darwin,Bamako,Banjul,Bobo-Dioulasso,Ziguinchor,Kaolack,Tambacounda,Warri,Cotonou,Daloa,Bouaké,Praia,Kayes,Korhogo,Niamey,Koidu,Gbarnga,Lafia,Ségou,Mopti,Kumba,Kano,Maiduguri,Nzérékoré,Porto-Novo,Bata,Jos,Sokoto"
 },
 {
     "name": "Sakizaya",
@@ -10495,7 +10495,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Setaman,Tchibanga,Conakry,Parakou,Fatick,Jalingo,Gashua,Koulikoro,Tougué,Dapaong,Kontagora,Tahoua,Wa,Franceville,Luba,Umuahia,Faranah,Zaria,Lafia,Nkongsamba,Yamoussoukro,Moundou,Porto-Novo,Ségou,Ife,Timbuktu,Farafenni,Lomé,Ebebiyín,Kayes,Daloa,Bamako,Nzérékoré,Koidu,Bafatá,Freetown,Banjul,Praia,Bobo-Dioulasso,Mopti,Sokoto,Dakar,Maiduguri,Koudougou,Kaduna,Saint-Louis,Katsina,Malabo,Korhogo,Cotonou"
+  "b": "Setaman,Tchibanga,Conakry,Parakou,Fatick,Jalingo,Gashua,Koulikoro,Tougué,Dapaong,Kontagora,Tahoua,Wa,Franceville,Luba,Umuahia,Faranah,Zaria,Lafia,Nkongsamba,Yamoussoukro,Moundou,Porto-Novo,Ségou,Ife,Timbuktu,Farafenni,Lomé,Ebebiyín,Kayes,Daloa,Bamako,Nzérékoré,Koidu,Bafatá,Freetown,Banjul,Praia,Bobo-Dioulasso,Mopti,Sokoto,Dakar,Maiduguri,Koudougou,Kaduna,Saint-Louis,Katsina,Malabo,Korhogo,Cotonou,Borme,Okbibab,Kabolan,Okbab,Abenaho,Angguruk,Nalca,Yalimo,Apalahapsili,Telefomin"
 },
 {
     "name": "Shiaxa",
@@ -10513,7 +10513,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Siane,Ba,Buna,Pohnpei,Lae,Uaboe,Leulumoega,Abaiang,Kwajalein,Denigomodu,Napier,Rabaul,Papeete,Ambrym,Nibok,Vanimo,Palikir,Mont Dore,Ouvea,Tabubil,Ok Tedi,Nukulaelae,Neiafu,Sogeri,Chuuk,Newcastle,Yaren,Hamilton,Ségou,Accra,Nouakchott,Tema,Daloa,Koidu,Bamako,Kumasi,Bafatá,Bobo-Dioulasso,Kaolack,Gbarnga,Kayes,Man,Porto-Novo,Niamey,Sokoto,Bamenda,Kano,Nzérékoré,Thiès,Wa,Zaria,Ziguinchor,Koudougou,Parakou,Kaduna"
+  "b": "Siane,Ba,Buna,Pohnpei,Lae,Uaboe,Leulumoega,Abaiang,Kwajalein,Denigomodu,Napier,Rabaul,Papeete,Ambrym,Nibok,Vanimo,Palikir,Mont Dore,Ouvea,Tabubil,Ok Tedi,Nukulaelae,Sogeri,Chuuk,Newcastle,Yaren,Hamilton,Ségou,Accra,Nouakchott,Tema,Daloa,Koidu,Bamako,Kumasi,Bafatá,Bobo-Dioulasso,Kaolack,Gbarnga,Kayes,Man,Porto-Novo,Niamey,Sokoto,Bamenda,Kano,Nzérékoré,Thiès,Wa,Zaria,Ziguinchor,Koudougou,Parakou,Kaduna"
 },
 {
     "name": "Silimo",
@@ -10540,7 +10540,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Sinasina,Navua,Kairuku,Nibok,Tabubil,Melekeok,Palau,Neiafu,Mili,Ebeye,Newcastle,Rotorua,Denigomodu,Bora-Bora,Dumbea,Rabaul,Kavieng,Samamea,Tabiteuea,Belep,Kimbe,Baiti,Havelu,Ok Tedi,Yap,Hobart,Sogeri,Betio,Bafatá,Cotonou,Abidjan,Bamenda,Man,Dakar,Brikama,Warri,Monrovia,Parakou,Nouakchott,Mopti,Bissau,Accra,Gbarnga,Kumasi,Basse,Ségou,Kaolack,Conakry,Bertoua,Maiduguri,Tambacounda,Porto-Novo,Bamako,Lafia,Cacheu"
+  "b": "Sinasina,Navua,Kairuku,Nibok,Tabubil,Melekeok,Palau,Mili,Ebeye,Newcastle,Rotorua,Denigomodu,Bora-Bora,Dumbea,Rabaul,Kavieng,Samamea,Tabiteuea,Belep,Kimbe,Baiti,Havelu,Ok Tedi,Yap,Hobart,Sogeri,Betio,Bafatá,Cotonou,Abidjan,Bamenda,Man,Dakar,Brikama,Warri,Monrovia,Parakou,Nouakchott,Mopti,Bissau,Accra,Gbarnga,Kumasi,Basse,Ségou,Kaolack,Conakry,Bertoua,Maiduguri,Tambacounda,Porto-Novo,Bamako,Lafia,Cacheu"
 },
 {
     "name": "Singlish",
@@ -10594,7 +10594,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Squliq Atayal,Wewak,Kavieng,Misima,Lorengau,Tabiteuea,Nibok,Funafuti,Ebeye,Townsville,Kimbe,Tauranga,Salelologa,Abaiang,Malekula,Gizo,Denigomodu,Butaritari,Sogeri,Canala,Kiunga,Koror,Kairuku,Arno,Baiti,Daru,Saipan,Asau,Gbarnga,Bamako,Timbuktu,Bobo-Dioulasso,Mopti,Conakry,Farafenni,Freetown,Daloa,Kara,Kayes,Bamenda,Accra,Tambacounda,Monrovia,Korhogo,Koudougou,Bafatá,Warri,Parakou,Nzérékoré,Yamoussoukro,Cacheu,Abidjan,Ziguinchor,Kaolack,Wa"
+  "b": "Squliq Atayal,Wewak,Kavieng,Misima,Lorengau,Tabiteuea,Nibok,Ebeye,Townsville,Kimbe,Tauranga,Salelologa,Abaiang,Malekula,Gizo,Denigomodu,Butaritari,Sogeri,Canala,Kiunga,Koror,Kairuku,Arno,Baiti,Daru,Saipan,Asau,Gbarnga,Bamako,Timbuktu,Bobo-Dioulasso,Mopti,Conakry,Farafenni,Freetown,Daloa,Kara,Kayes,Bamenda,Accra,Tambacounda,Monrovia,Korhogo,Koudougou,Bafatá,Warri,Parakou,Nzérékoré,Yamoussoukro,Cacheu,Abidjan,Ziguinchor,Kaolack,Wa"
 },
 {
     "name": "Suena",
@@ -10612,7 +10612,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Suganga,Tchibanga,Conakry,Parakou,Fatick,Jalingo,Gashua,Koulikoro,Tougué,Dapaong,Kontagora,Tahoua,Wa,Franceville,Luba,Umuahia,Faranah,Zaria,Lafia,Nkongsamba,Yamoussoukro,Moundou,Porto-Novo,Ségou,Ife,Timbuktu,Farafenni,Lomé,Dalian,Jinan,Tianjin,Changsha,Chengdu,Shenyang,Suzhou,Seoul,Xi'an,Nanchang,Zhengzhou,Ürümqi,Wuxi,Tainan,New Taipei,Fuzhou,Qingdao,Cheongju,Changwon,Wuhan,Beijing,Ulsan,Harbin,Yongin,Seongnam,Hsinchu,Zhuhai"
+  "b": "Suganga,Tchibanga,Conakry,Parakou,Fatick,Jalingo,Gashua,Koulikoro,Tougué,Dapaong,Kontagora,Tahoua,Wa,Franceville,Luba,Umuahia,Faranah,Zaria,Lafia,Nkongsamba,Yamoussoukro,Moundou,Porto-Novo,Ségou,Ife,Timbuktu,Farafenni,Lomé,Dalian,Jinan,Tianjin,Changsha,Chengdu,Shenyang,Suzhou,Seoul,Xi'an,Nanchang,Zhengzhou,Ürümqi,Wuxi,Tainan,New Taipei,Fuzhou,Qingdao,Cheongju,Changwon,Wuhan,Beijing,Ulsan,Harbin,Yongin,Seongnam,Hsinchu,Zhuhai,Okbab,Kabolan,Waroh,Okhika,Teleng,Warkar,Borme,Sibil,Kiunga,Baktamin"
 },
 {
     "name": "Suki",
@@ -10648,7 +10648,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Tairoa,Aba,Parakou,Tsévié,Fada N'Gourma,Gashua,Louga,Koulamoutou,Mekelle,Zaria,Tahoua,Wa,Kumasi,Luba,Cotonou,Faranah,Nzérékoré,Kaolack,Nkongsamba,Sekondi,Moundou,Yendi,Korhogo,Ife,Tema,Oyo,Kurfi,Kakata,Pursat,Ho Chi Minh City,Hanoi,Da Nang,Chiang Rai,My Tho,Phan Thiet,Nha Trang,Lạng Sơn,Naypyidaw,Fangchenggang,Vientiane,Rach Gia,Sihanoukville,Sanya,Can Tho,Hat Yai,Phongsali,Phnom Penh,Kampong Cham,Siem Reap,Xieng Khouang,Thakhek,Yangon,Sam Neua,Bago,Guiyang"
+  "b": "Tairoa,Aba,Parakou,Tsévié,Fada N'Gourma,Gashua,Louga,Koulamoutou,Mekelle,Zaria,Tahoua,Wa,Kumasi,Luba,Cotonou,Faranah,Nzérékoré,Kaolack,Nkongsamba,Sekondi,Moundou,Yendi,Korhogo,Ife,Tema,Oyo,Kurfi,Kakata,Pursat,Ho Chi Minh City,Hanoi,Da Nang,Chiang Rai,My Tho,Phan Thiet,Nha Trang,Lạng Sơn,Naypyidaw,Fangchenggang,Vientiane,Rach Gia,Sihanoukville,Sanya,Can Tho,Hat Yai,Phongsali,Phnom Penh,Kampong Cham,Siem Reap,Xieng Khouang,Thakhek,Yangon,Sam Neua,Bago,Guiyang,Inanwatan,Segar,Teminabuan,Arandai,Kais,Babo,Kuri,Weriagar,Kokas,Fakfak"
 },
 {
     "name": "Tairora",
@@ -10666,7 +10666,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Tamagario,Ebeye,Mare,Nibok,Airai,Nui,Kimbe,Wotje,Pohnpei,Abaiang,New Plymouth,Païta,Rabaul,Moorea,Ok Tedi,Kairuku,Kavieng,Ngerulmud,Baiti,Vava'u,Bikenibeu,Neiafu,Darwin,Kolonia,Kundiawa,Kosrae,Lae,Chuuk,Kangding,Lhasa,Nagqu,Chamdo,Dali,Nainital,Singtam,Xichang,Punakha,Melli,Shillong,Zhongdian,Nongstoin,Rangpo,Namchi,Deqin,Dalton Ganj,Thimphu,Rhenock,Umroi,Trongsa,Yuánmóu,Tso Kar,Jorthang,Paro,Jakar,Jowai"
+  "b": "Tamagario,Ebeye,Mare,Nibok,Airai,Nui,Kimbe,Wotje,Pohnpei,Abaiang,New Plymouth,Païta,Rabaul,Moorea,Ok Tedi,Kairuku,Kavieng,Ngerulmud,Baiti,Vava'u,Bikenibeu,Darwin,Kolonia,Kundiawa,Kosrae,Lae,Chuuk,Kangding,Lhasa,Nagqu,Chamdo,Dali,Nainital,Singtam,Xichang,Punakha,Melli,Shillong,Zhongdian,Nongstoin,Rangpo,Namchi,Deqin,Dalton Ganj,Thimphu,Rhenock,Umroi,Trongsa,Yuánmóu,Tso Kar,Jorthang,Paro,Jakar,Jowai"
 },
 {
     "name": "Tangko",
@@ -10675,7 +10675,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Tangko,Aba,Parakou,Tsévié,Fada N'Gourma,Gashua,Louga,Koulamoutou,Mekelle,Zaria,Tahoua,Wa,Kumasi,Luba,Cotonou,Faranah,Nzérékoré,Kaolack,Nkongsamba,Sekondi,Moundou,Yendi,Korhogo,Ife,Tema,Oyo,Kurfi,Kakata,Koidu,Monrovia,Abidjan,Bissau,Katsina,Daloa,Bamako,Sokodé,Kankan,Ziguinchor,Gusau,Praia,Sunyani,Koudougou,Porto-Novo,Jalingo,Saint-Louis,Kaduna,Garoua,Bamenda,Lomé,Nouakchott,Tambacounda,Accra,Cacheu"
+  "b": "Tangko,Aba,Parakou,Tsévié,Fada N'Gourma,Gashua,Louga,Koulamoutou,Mekelle,Zaria,Tahoua,Wa,Kumasi,Luba,Cotonou,Faranah,Nzérékoré,Kaolack,Nkongsamba,Sekondi,Moundou,Yendi,Korhogo,Ife,Tema,Oyo,Kurfi,Kakata,Koidu,Monrovia,Abidjan,Bissau,Katsina,Daloa,Bamako,Sokodé,Kankan,Ziguinchor,Gusau,Praia,Sunyani,Koudougou,Porto-Novo,Jalingo,Saint-Louis,Kaduna,Garoua,Bamenda,Lomé,Nouakchott,Tambacounda,Accra,Cacheu,Okbab,Borme,Abenaho,Angguruk,Nalca,Yalimo,Kosarek,Yale,Okhika,Ninati"
 },
 {
     "name": "Taokas",
@@ -10711,7 +10711,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Telefol,Tchibanga,Conakry,Parakou,Fatick,Jalingo,Gashua,Koulikoro,Tougué,Dapaong,Kontagora,Tahoua,Wa,Franceville,Luba,Umuahia,Faranah,Zaria,Lafia,Nkongsamba,Yamoussoukro,Moundou,Porto-Novo,Ségou,Ife,Timbuktu,Farafenni,Lomé,Bissau,Ziguinchor,Sikasso,Man,Mindelo,Dakar,Tema,Freetown,Tambacounda,Kankan,Mopti,Kaolack,Korhogo,Nouakchott,Ebebiyín,Gbarnga,Maiduguri,Bertoua,Sunyani,Accra,Assomada,Banjul"
+  "b": "Telefol,Tchibanga,Conakry,Parakou,Fatick,Jalingo,Gashua,Koulikoro,Tougué,Dapaong,Kontagora,Tahoua,Wa,Franceville,Luba,Umuahia,Faranah,Zaria,Lafia,Nkongsamba,Yamoussoukro,Moundou,Porto-Novo,Ségou,Ife,Timbuktu,Farafenni,Lomé,Bissau,Ziguinchor,Sikasso,Man,Mindelo,Dakar,Tema,Freetown,Tambacounda,Kankan,Mopti,Kaolack,Korhogo,Nouakchott,Ebebiyín,Gbarnga,Maiduguri,Bertoua,Sunyani,Accra,Assomada,Banjul,Feramin,Dem,Baktamin,Eliptaman,Tifal,Mian,Bimin,Faiwol,Yonggom,Kiunga"
 },
 {
     "name": "Tembagla",
@@ -10738,7 +10738,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Tifal,Ba,Buna,Pohnpei,Lae,Uaboe,Leulumoega,Abaiang,Kwajalein,Denigomodu,Napier,Rabaul,Papeete,Ambrym,Nibok,Vanimo,Palikir,Mont Dore,Ouvea,Tabubil,Ok Tedi,Nukulaelae,Neiafu,Sogeri,Chuuk,Newcastle,Yaren,Yap,Bamako,Koudougou,Bissau,Accra,Cotonou,Daloa,Conakry,Freetown,Lomé,Katsina,Maiduguri,Kayes,Ebebiyín,Wa,Man,Timbuktu,Koidu,Sikasso,Parakou,Bolama,Kaduna,Porto-Novo,Kaolack,Nouakchott,Bafatá,Korhogo,Jalingo"
+  "b": "Tifal,Ba,Buna,Pohnpei,Lae,Uaboe,Leulumoega,Abaiang,Kwajalein,Denigomodu,Napier,Rabaul,Papeete,Ambrym,Nibok,Vanimo,Palikir,Mont Dore,Ouvea,Tabubil,Ok Tedi,Nukulaelae,Sogeri,Chuuk,Newcastle,Yaren,Yap,Bamako,Koudougou,Bissau,Accra,Cotonou,Daloa,Conakry,Freetown,Lomé,Katsina,Maiduguri,Kayes,Ebebiyín,Wa,Man,Timbuktu,Koidu,Sikasso,Parakou,Bolama,Kaduna,Porto-Novo,Kaolack,Nouakchott,Bafatá,Korhogo,Jalingo,Kontal,More,Tuk,Molbang,Telefomin,Baktamin,Feramin,Anguganak,Yapsiei,Arso"
 },
 {
     "name": "Timor–Alor–Pantar",
@@ -10747,7 +10747,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Timor–Alor–Pantar,Vanimo,Navua,Majuro,Ouvea,Tabubil,Kavieng,Nukulaelae,Neiafu,Tabiteuea,Chuuk,Newcastle,Nibok,Samamea,Bora-Bora,Koror,Norfolk,Kairuku,Belep,Denigomodu,Angaur,Baiti,Rabaul,Betio,Yap,Santo,Tinian,Luganville,Surabaya,Palembang,Palikir,Lae,Malacca,Johor Bahru,Sigatoka,Ambrym,Tulagi,Kota Kinabalu,Iloilo City,Manila,Melekeok,Ipoh,Tutong,Jerudong,Quezon City,Bandar Seri Begawan,Tofol,Jakarta,George Town,Auki,Sonsorol,Port Vila,Gizo"
+  "b": "Timor–Alor–Pantar,Vanimo,Navua,Majuro,Ouvea,Tabubil,Kavieng,Nukulaelae,Tabiteuea,Chuuk,Newcastle,Nibok,Samamea,Bora-Bora,Koror,Norfolk,Kairuku,Belep,Denigomodu,Angaur,Baiti,Rabaul,Betio,Yap,Tinian,Luganville,Surabaya,Palembang,Palikir,Lae,Malacca,Johor Bahru,Sigatoka,Ambrym,Tulagi,Kota Kinabalu,Iloilo City,Manila,Melekeok,Ipoh,Tutong,Jerudong,Quezon City,Bandar Seri Begawan,Tofol,Jakarta,George Town,Auki,Sonsorol,Port Vila,Gizo"
 },
 {
     "name": "Tirio (Lower Fly)",
@@ -10774,7 +10774,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Tokano,Nibok,Kokoda,Noumea,Kimbe,Palau,Vaitupu,Abaiang,Jaluit,Weno,Yap,Dunedin,Asau,Rabaul,Pentecost,Tulagi,Kairuku,Sigatoka,Baiti,Ok Tedi,Airai,Pangai,Wotje,Sogeri,Canberra,New Plymouth,Betio,Butaritari,Lomé,Ziguinchor,Tema,Gbarnga,Man,Accra,Bamako,Cotonou,Koidu,Bobo-Dioulasso,Kaolack,Ségou,Monrovia,Koudougou,Porto-Novo,Timbuktu,Saint-Louis,Yamoussoukro,Cacheu,Buea,Tambacounda,Kumasi,Bamenda,Nouakchott,Abidjan,Sokodé,Nzérékoré"
+  "b": "Tokano,Nibok,Kokoda,Noumea,Kimbe,Palau,Vaitupu,Abaiang,Jaluit,Weno,Yap,Dunedin,Asau,Rabaul,Pentecost,Tulagi,Kairuku,Sigatoka,Baiti,Ok Tedi,Airai,Pangai,Wotje,Sogeri,Canberra,New Plymouth,Betio,Butaritari,Lomé,Ziguinchor,Tema,Gbarnga,Man,Accra,Bamako,Cotonou,Koidu,Bobo-Dioulasso,Kaolack,Ségou,Monrovia,Koudougou,Porto-Novo,Timbuktu,Saint-Louis,Yamoussoukro,Cacheu,Buea,Tambacounda,Kumasi,Bamenda,Nouakchott,Abidjan,Sokodé,Nzérékoré,Kafe,Yagaria"
 },
 {
     "name": "Torres Strait Creole",
@@ -10792,7 +10792,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ts'ole' Atayal,Goroka,Ba,Kavieng,Manus,Lae,Tabiteuea,Asau,Abaiang,Nibok,Palikir,Kosrae,Vaitele,Papeete,Munda,Kirakira,Vanimo,Denigomodu,Kairuku,Ouvea,Rabaul,Melekeok,Nukulaelae,Ohonua,Mili,Chuuk,Majuro,Suva,Korhogo,Banjul,Bissau,Bamenda,Koidu,Timbuktu,Kankan,Ziguinchor,Bobo-Dioulasso,Bertoua,Kumasi,Monrovia,Ebebiyín,Parakou,Nzérékoré,Lomé,Saint-Louis,Mopti,Garoua,Gbarnga,Ségou,Daloa,Yamoussoukro,Cotonou,Conakry,Tambacounda,Jos"
+  "b": "Ts'ole' Atayal,Goroka,Ba,Kavieng,Manus,Lae,Tabiteuea,Asau,Abaiang,Nibok,Palikir,Kosrae,Vaitele,Papeete,Munda,Vanimo,Denigomodu,Kairuku,Ouvea,Rabaul,Melekeok,Nukulaelae,Ohonua,Mili,Chuuk,Majuro,Suva,Korhogo,Banjul,Bissau,Bamenda,Koidu,Timbuktu,Kankan,Ziguinchor,Bobo-Dioulasso,Bertoua,Kumasi,Monrovia,Ebebiyín,Parakou,Nzérékoré,Lomé,Saint-Louis,Mopti,Garoua,Gbarnga,Ségou,Daloa,Yamoussoukro,Cotonou,Conakry,Tambacounda,Jos"
 },
 {
     "name": "Tsaukambo",
@@ -10810,7 +10810,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Tsou,Savusavu,Kimbe,Lorengau,Abaiang,Funafuti,Butaritari,Denigomodu,Townsville,Pohnpei,Salelologa,Koumac,Kairuku,Gizo,Rabaul,Baiti,Sogeri,Kone,Ok Tedi,Koror,Nanumea,Pangai,Arno,Kolonia,Yap,Palmerston North,Christchurch,Madang,Daloa,Banjul,Conakry,Bamenda,Accra,Abidjan,Bobo-Dioulasso,Cotonou,Dakar,Niamey,Kumasi,Kaolack,Mopti,Praia,Koidu,Kayes,Maroua,Nouakchott,Porto-Novo,Timbuktu,Lafia,Bissau,Maiduguri,Nzérékoré,Freetown,Jos,Tema"
+  "b": "Tsou,Savusavu,Kimbe,Lorengau,Abaiang,Butaritari,Denigomodu,Townsville,Pohnpei,Salelologa,Koumac,Kairuku,Gizo,Rabaul,Baiti,Sogeri,Kone,Ok Tedi,Koror,Pangai,Arno,Kolonia,Yap,Palmerston North,Christchurch,Madang,Daloa,Banjul,Conakry,Bamenda,Accra,Abidjan,Bobo-Dioulasso,Cotonou,Dakar,Niamey,Kumasi,Kaolack,Mopti,Praia,Koidu,Kayes,Maroua,Nouakchott,Porto-Novo,Timbuktu,Lafia,Bissau,Maiduguri,Nzérékoré,Freetown,Jos,Tema"
 },
 {
     "name": "Turaka",
@@ -10837,7 +10837,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Uab Meto,Owerri,Sokoto,Aba,Parakou,Thiès,Ebolowa,Kaduna,Louga,Ughelli,Kindia,Ambam,Tahoua,Wa,Okigwe,Gao,Awka,Faranah,Bida,Aksum,Ségou,Yamoussoukro,Moundou,Enugu,Sesheke,Zaria,Timbuktu,Douala,Port Vila,Jakarta,Kavieng,Lorengau,Labasa,Manila,Suva,Quezon City,Sonsorol,Johor Bahru,Kirakira,Davao,Medan,Zamboanga,Surabaya,Iloilo City,Shah Alam,Semarang,Kuching,Gizo,Kota Kinabalu,Auki,Kayangel,Palikir,Port Moresby,Seria,Tanna"
+  "b": "Uab Meto,Owerri,Sokoto,Aba,Parakou,Thiès,Ebolowa,Kaduna,Louga,Ughelli,Kindia,Ambam,Tahoua,Wa,Okigwe,Gao,Awka,Faranah,Bida,Aksum,Ségou,Yamoussoukro,Moundou,Enugu,Sesheke,Zaria,Timbuktu,Douala,Port Vila,Jakarta,Kavieng,Lorengau,Labasa,Manila,Suva,Quezon City,Sonsorol,Johor Bahru,Davao,Medan,Zamboanga,Surabaya,Iloilo City,Shah Alam,Semarang,Kuching,Gizo,Kota Kinabalu,Auki,Kayangel,Palikir,Port Moresby,Seria,Tanna"
 },
 {
     "name": "Uare",
@@ -10864,7 +10864,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Urapmin,Kanggye,Keelung,Kaifeng,Dongguan,Ulaanbaatar,Yamagata,Kowloon,Nantou,Saitama,Khovd,Luoyang,Hualien,Zhuhai,Miaoli,Seongnam,Mörön,Yuen Long,Papeete,Nouméa,Pago Pago,Newcastle,Dumbéa,Daru,Labasa,Melbourne,Wollongong,Tiga,Abidjan,Bouaké,Bamako,Gbarnga,Katsina,Bobo-Dioulasso,Kankan,Niamey,Daloa,Kumasi,Kaolack,Freetown,Koidu,Praia,Lomé,Ouagadougou,Zaria,Kano,Ziguinchor,Banjul,Man,Yamoussoukro,Malabo,Tema,Porto-Novo,Tambacounda,Bauchi"
+  "b": "Urapmin,Kanggye,Keelung,Kaifeng,Dongguan,Ulaanbaatar,Yamagata,Kowloon,Nantou,Saitama,Khovd,Luoyang,Hualien,Zhuhai,Miaoli,Seongnam,Mörön,Yuen Long,Papeete,Nouméa,Pago Pago,Newcastle,Dumbéa,Daru,Labasa,Melbourne,Wollongong,Tiga,Abidjan,Bouaké,Bamako,Gbarnga,Katsina,Bobo-Dioulasso,Kankan,Niamey,Daloa,Kumasi,Kaolack,Freetown,Koidu,Praia,Lomé,Ouagadougou,Zaria,Kano,Ziguinchor,Banjul,Man,Yamoussoukro,Malabo,Tema,Porto-Novo,Tambacounda,Bauchi,Borme,Angguruk,Abenaho,Nalca,Yalimo,Sibil,Okhika,Warkar,Teleng,Kiunga"
 },
 {
     "name": "Usarufa",
@@ -10873,7 +10873,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Usarufa,Tchibanga,Conakry,Parakou,Fatick,Jalingo,Gashua,Koulikoro,Tougué,Dapaong,Kontagora,Tahoua,Wa,Franceville,Luba,Umuahia,Faranah,Zaria,Lafia,Nkongsamba,Yamoussoukro,Moundou,Porto-Novo,Ségou,Ife,Timbuktu,Farafenni,Lomé,Praia,Bissau,Korhogo,Daloa,Dakar,Abidjan,Kankan,Kaolack,Cotonou,Bafatá,Tambacounda,Warri,Sikasso,Accra,Koudougou,Freetown,Kumasi,Niamey,Man,Kayes,Nzérékoré,Maiduguri,Sokodé,Thiès"
+  "b": "Usarufa,Tchibanga,Conakry,Parakou,Fatick,Jalingo,Gashua,Koulikoro,Tougué,Dapaong,Kontagora,Tahoua,Wa,Franceville,Luba,Umuahia,Faranah,Zaria,Lafia,Nkongsamba,Yamoussoukro,Moundou,Porto-Novo,Ségou,Ife,Timbuktu,Farafenni,Lomé,Praia,Bissau,Korhogo,Daloa,Dakar,Abidjan,Kankan,Kaolack,Cotonou,Bafatá,Tambacounda,Warri,Sikasso,Accra,Koudougou,Freetown,Kumasi,Niamey,Man,Kayes,Nzérékoré,Maiduguri,Sokodé,Thiès,Yagaria,Kafe,Henganofi"
 },
 {
     "name": "Vaeakau-Taumako",
@@ -10900,7 +10900,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Waffa,Parakou,Lafia,Rijau,Kumasi,Louga,Ouagadougou,Ségou,Ambam,Kaolack,Wa,Cape Coast,Yaoundé,Awka,Faranah,Ibadan,Tamale,Gabú,Yamoussoukro,Moundou,Baga,Sarh,Ife,Timbuktu,Kenema,Mongu,Kumba,Harper,Bamako,Banjul,Daloa,Zinder,Bobo-Dioulasso,Kankan,Koudougou,Abidjan,Dakar,Gbarnga,Maiduguri,Freetown,Bolama,Koidu,Niamey,Tambacounda,Ebebiyín,Kayes,Mopti,Monrovia,Saint-Louis,Malabo,Katsina,Porto-Novo,Thiès"
+  "b": "Waffa,Parakou,Lafia,Rijau,Kumasi,Louga,Ouagadougou,Ségou,Ambam,Kaolack,Wa,Cape Coast,Yaoundé,Awka,Faranah,Ibadan,Tamale,Gabú,Yamoussoukro,Moundou,Baga,Sarh,Ife,Timbuktu,Kenema,Mongu,Kumba,Harper,Bamako,Banjul,Daloa,Zinder,Bobo-Dioulasso,Kankan,Koudougou,Abidjan,Dakar,Gbarnga,Maiduguri,Freetown,Bolama,Koidu,Niamey,Tambacounda,Ebebiyín,Kayes,Mopti,Monrovia,Saint-Louis,Malabo,Katsina,Porto-Novo,Thiès,Tairora"
 },
 {
     "name": "Wahgi",
@@ -10945,7 +10945,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Wano,Savusavu,Kimbe,Lorengau,Abaiang,Funafuti,Butaritari,Denigomodu,Townsville,Pohnpei,Salelologa,Koumac,Kairuku,Gizo,Rabaul,Baiti,Sogeri,Kone,Ok Tedi,Koror,Nanumea,Pangai,Arno,Kolonia,Yap,Palmerston North,Apia,Tanna,Accra,Bertoua,Wa,Abidjan,Jalingo,Bamako,Kankan,Dakar,Freetown,Korhogo,Banjul,Katsina,Bolama,Bouaké,Nouakchott,Tema,Kayes,Lomé,Garoua,Tamale,Maiduguri,Nzérékoré,Saint-Louis,Mopti,Sunyani,Niamey,Cacheu"
+  "b": "Wano,Savusavu,Kimbe,Lorengau,Abaiang,Butaritari,Denigomodu,Townsville,Pohnpei,Salelologa,Koumac,Kairuku,Gizo,Rabaul,Baiti,Sogeri,Kone,Ok Tedi,Koror,Pangai,Arno,Kolonia,Yap,Palmerston North,Apia,Tanna,Accra,Bertoua,Wa,Abidjan,Jalingo,Bamako,Kankan,Dakar,Freetown,Korhogo,Banjul,Katsina,Bolama,Bouaké,Nouakchott,Tema,Kayes,Lomé,Garoua,Tamale,Maiduguri,Nzérékoré,Saint-Louis,Mopti,Sunyani,Niamey,Cacheu,Mapnduma"
 },
 {
     "name": "Waruna",
@@ -11008,7 +11008,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Western,Tchibanga,Conakry,Parakou,Fatick,Jalingo,Gashua,Koulikoro,Tougué,Dapaong,Kontagora,Tahoua,Wa,Franceville,Luba,Umuahia,Faranah,Zaria,Lafia,Nkongsamba,Yamoussoukro,Moundou,Porto-Novo,Ségou,Ife,Timbuktu,Farafenni,Lomé,Bouaké,Accra,Abidjan,Bobo-Dioulasso,Ziguinchor,Cotonou,Bamako,Katsina,Daloa,Kankan,Kayes,Koidu,Kaduna,Sokodé,Monrovia,Sikasso,Kaolack,Tambacounda,Kumasi,Tema,Ouahigouya,Bauchi"
+  "b": "Western,Tchibanga,Conakry,Parakou,Fatick,Jalingo,Gashua,Koulikoro,Tougué,Dapaong,Kontagora,Tahoua,Wa,Franceville,Luba,Umuahia,Faranah,Zaria,Lafia,Nkongsamba,Yamoussoukro,Moundou,Porto-Novo,Ségou,Ife,Timbuktu,Farafenni,Lomé,Bouaké,Accra,Abidjan,Bobo-Dioulasso,Ziguinchor,Cotonou,Bamako,Katsina,Daloa,Kankan,Kayes,Koidu,Kaduna,Sokodé,Monrovia,Sikasso,Kaolack,Tambacounda,Kumasi,Tema,Ouahigouya,Bauchi,Kiwai,Darai,Bamu,Turama,Kikori,Porome,Berau,Purari,Baroi,Gogodala,Panama"
 },
 {
     "name": "Western Dani",
@@ -11017,7 +11017,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Western Dani,Neiafu,Labasa,Trobriand,Kirakira,Ngerulmud,Denigomodu,Nibok,Bikenibeu,Majuro,Kimbe,Hamilton,Abaiang,Lifou,Santo,Ohonua,Auki,Vava'u,Rabaul,Noumea,Popondetta,Kairuku,Vaitupu,Tabiteuea,Baiti,Weno,Kanazawa,Kōbe,Nipa,Lake Kopiago,Arawa,Goroka,Wewak,Mount Hagen,Kieta,Vanimo,Kaintiba,Buka,Wapenamanda,Kundiawa,Wau,Kiunga,Mendi,Olsobip,Bulolo,Saidor,Morehead,Oksapmin,Menyamya,Kerema,Banz,Chuave,Kainantu"
+  "b": "Western Dani,Labasa,Trobriand,Ngerulmud,Denigomodu,Nibok,Bikenibeu,Majuro,Kimbe,Hamilton,Abaiang,Lifou,Ohonua,Auki,Vava'u,Rabaul,Noumea,Popondetta,Kairuku,Vaitupu,Tabiteuea,Baiti,Weno,Kanazawa,Kōbe,Nipa,Lake Kopiago,Arawa,Goroka,Wewak,Mount Hagen,Kieta,Vanimo,Kaintiba,Buka,Wapenamanda,Kundiawa,Wau,Kiunga,Mendi,Olsobip,Bulolo,Saidor,Morehead,Oksapmin,Menyamya,Kerema,Banz,Chuave,Kainantu"
 },
 {
     "name": "Western Pantar",
@@ -11053,7 +11053,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Wolio,Ba,Buna,Pohnpei,Lae,Uaboe,Leulumoega,Abaiang,Kwajalein,Denigomodu,Napier,Rabaul,Papeete,Ambrym,Nibok,Vanimo,Palikir,Mont Dore,Ouvea,Tabubil,Ok Tedi,Nukulaelae,Neiafu,Sogeri,Chuuk,Newcastle,Yaren,Christchurch,Ziguinchor,Bissau,Bamako,Conakry,Bouaké,Koudougou,Dakar,Bamenda,Kayes,Kankan,Gbarnga,Assomada,Bafatá,Lomé,Parakou,Korhogo,Daloa,Ouagadougou,Sunyani,Timbuktu,Cotonou,Mopti,Man,Tambacounda,Ségou,Kano,Porto-Novo"
+  "b": "Wolio,Ba,Buna,Pohnpei,Lae,Uaboe,Leulumoega,Abaiang,Kwajalein,Denigomodu,Napier,Rabaul,Papeete,Ambrym,Nibok,Vanimo,Palikir,Mont Dore,Ouvea,Tabubil,Ok Tedi,Nukulaelae,Sogeri,Chuuk,Newcastle,Yaren,Christchurch,Ziguinchor,Bissau,Bamako,Conakry,Bouaké,Koudougou,Dakar,Bamenda,Kayes,Kankan,Gbarnga,Assomada,Bafatá,Lomé,Parakou,Korhogo,Daloa,Ouagadougou,Sunyani,Timbuktu,Cotonou,Mopti,Man,Tambacounda,Ségou,Kano,Porto-Novo"
 },
 {
     "name": "Yagaria",
@@ -11080,7 +11080,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Yali,Savusavu,Kimbe,Lorengau,Abaiang,Funafuti,Butaritari,Denigomodu,Townsville,Pohnpei,Salelologa,Koumac,Kairuku,Gizo,Rabaul,Baiti,Sogeri,Kone,Ok Tedi,Koror,Nanumea,Pangai,Arno,Kolonia,Yap,Palmerston North,Melbourne,Lautoka,Lae,Port Moresby,Goroka,Kavieng,Madang,Tari,Arawa,Buka,Angoram,Mount Hagen,Wewak,Vanimo,Bogia,Balimo,Kerema,Telefomin,Okapa,Menyamya,Wapenamanda,Ningerum,Kiunga,Kainantu,Aseki,Tambul,Ambunti"
+  "b": "Yali,Savusavu,Kimbe,Lorengau,Abaiang,Butaritari,Denigomodu,Townsville,Pohnpei,Salelologa,Koumac,Kairuku,Gizo,Rabaul,Baiti,Sogeri,Kone,Ok Tedi,Koror,Pangai,Arno,Kolonia,Yap,Palmerston North,Melbourne,Lautoka,Lae,Port Moresby,Goroka,Kavieng,Madang,Tari,Arawa,Buka,Angoram,Mount Hagen,Wewak,Vanimo,Bogia,Balimo,Kerema,Telefomin,Okapa,Menyamya,Wapenamanda,Ningerum,Kiunga,Kainantu,Aseki,Tambul,Ambunti"
 },
 {
     "name": "Yaqay",
@@ -11134,7 +11134,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Yogo (Tamagario),Rabaul,Uaboe,Sogeri,Kone,Kavieng,Koror,Nanumea,Tabiteuea,Arno,Kolonia,Majuro,Palmerston North,Leulumoega,Kimbe,Noumén,Munda,Abaiang,Levuka,Denigomodu,Peleliu,Ohonua,Tarawa,Kairuku,Wollongong,Whangarei,Pohnpei,Port Blair,Deqin,Chamdo,Xichang,Lijiang,Lhasa,Shigatse,Kangding,Rhenock,Rangpo,Thimphu,Chengdu,Mangan,Singtam,Pu'er,Trashigang,Nyingchi,Padum,Mawlai,Dalton Ganj,Pithoragarh,Sarchu,Lhokha,Baoshan,Rishikesh,Lincang,Jorthang"
+  "b": "Yogo (Tamagario),Rabaul,Uaboe,Sogeri,Kone,Kavieng,Koror,Tabiteuea,Arno,Kolonia,Majuro,Palmerston North,Leulumoega,Kimbe,Noumén,Munda,Abaiang,Levuka,Denigomodu,Peleliu,Ohonua,Tarawa,Kairuku,Wollongong,Whangarei,Pohnpei,Port Blair,Deqin,Chamdo,Xichang,Lijiang,Lhasa,Shigatse,Kangding,Rhenock,Rangpo,Thimphu,Chengdu,Mangan,Singtam,Pu'er,Trashigang,Nyingchi,Padum,Mawlai,Dalton Ganj,Pithoragarh,Sarchu,Lhokha,Baoshan,Rishikesh,Lincang,Jorthang"
 },
 {
     "name": "Yonggom",
@@ -11143,7 +11143,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Yonggom,Levuka,Yap,Kone,Kiunga,Kimbe,Nanumea,Abaiang,Kolonia,Denigomodu,Leulumoega,Punaauia,Palau,Munda,Alotau,Kairuku,Sogeri,Tiga,Baiti,Peleliu,Yaren,Ok Tedi,Tarawa,Kosrae,Tabiteuea,Whangarei,Nouméa,Rarotonga,Sokodé,Gbarnga,Cotonou,Man,Dakar,Praia,Bertoua,Lomé,Nouakchott,Accra,Kumasi,Ebebiyín,Bissau,Jalingo,Koudougou,Koidu,Bauchi,Korhogo,Mindelo,Lafia,Mopti,Porto-Novo,Kano,Ngaoundéré,Bouaké,Kumba,Nzérékoré"
+  "b": "Yonggom,Levuka,Yap,Kone,Kiunga,Kimbe,Abaiang,Kolonia,Denigomodu,Leulumoega,Punaauia,Palau,Munda,Alotau,Kairuku,Sogeri,Tiga,Baiti,Peleliu,Yaren,Ok Tedi,Tarawa,Kosrae,Tabiteuea,Whangarei,Nouméa,Rarotonga,Sokodé,Gbarnga,Cotonou,Man,Dakar,Praia,Bertoua,Lomé,Nouakchott,Accra,Kumasi,Ebebiyín,Bissau,Jalingo,Koudougou,Koidu,Bauchi,Korhogo,Mindelo,Lafia,Mopti,Porto-Novo,Kano,Ngaoundéré,Bouaké,Kumba,Nzérékoré"
 },
 {
     "name": "Zia",
@@ -11170,7 +11170,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "ꞌAreꞌare,Owerri,Sokoto,Aba,Parakou,Thiès,Ebolowa,Kaduna,Louga,Ughelli,Kindia,Ambam,Tahoua,Wa,Okigwe,Gao,Awka,Faranah,Bida,Aksum,Ségou,Yamoussoukro,Moundou,Enugu,Sesheke,Zaria,Timbuktu,Douala,Jakarta,Bandung,Kuala Lumpur,Makassar,Kavieng,Ipoh,Kuala Belait,Manila,Cebu City,Bandar Seri Begawan,Zamboanga,Port Vila,Majuro,Kuching,Semarang,Malekula,Luganville,Shah Alam,Malacca,Kokopo,Honiara,Jerudong,Labasa,Tanna,Iloilo City,Tulagi,Davao"
+  "b": "ꞌAreꞌare,Owerri,Sokoto,Aba,Parakou,Thiès,Ebolowa,Kaduna,Louga,Ughelli,Kindia,Ambam,Tahoua,Wa,Okigwe,Gao,Awka,Faranah,Bida,Aksum,Ségou,Yamoussoukro,Moundou,Enugu,Sesheke,Zaria,Timbuktu,Douala,Jakarta,Bandung,Kuala Lumpur,Makassar,Kavieng,Ipoh,Kuala Belait,Manila,Cebu City,Bandar Seri Begawan,Zamboanga,Port Vila,Majuro,Kuching,Semarang,Malekula,Luganville,Shah Alam,Malacca,Kokopo,Honiara,Jerudong,Labasa,Tanna,Iloilo City,Tulagi,Davao,Areare,Hau,Sisi,Makiriki,Maara,Tawainapa,Waiapu,Totoro,Hakairo,Raupara,Uapa"
 },
 {
     "name": "Arin",
@@ -11341,7 +11341,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Idu Taraon,Lae,Tabiteuea,Tiga,Rabaul,Kirakira,Yaren,Ohonua,Kimbe,Kosrae,Wollongong,Abaiang,Raiatea,Denigomodu,Luganville,Mendi,Neiafu,Peleliu,Misima,Kairuku,Nibok,Baiti,Butaritari,Ebeye,Ok Tedi,Qingdao,Hsinchu,Nanjing,Accra,Banjul,Bissau,Nouakchott,Kankan,Maroua,Jos,Garoua,Korhogo,Kaolack,Freetown,Bafoussam,Lomé,Bafatá,Nzérékoré,Parakou,Kayes,Tambacounda,Mindelo,Tamale,Thiès,Porto-Novo,Maiduguri,Yamoussoukro,Warri,Sunyani,Zaria"
+  "b": "Idu Taraon,Lae,Tabiteuea,Tiga,Rabaul,Yaren,Ohonua,Kimbe,Kosrae,Wollongong,Abaiang,Raiatea,Denigomodu,Luganville,Mendi,Peleliu,Misima,Kairuku,Nibok,Baiti,Butaritari,Ebeye,Ok Tedi,Qingdao,Hsinchu,Nanjing,Accra,Banjul,Bissau,Nouakchott,Kankan,Maroua,Jos,Garoua,Korhogo,Kaolack,Freetown,Bafoussam,Lomé,Bafatá,Nzérékoré,Parakou,Kayes,Tambacounda,Mindelo,Tamale,Thiès,Porto-Novo,Maiduguri,Yamoussoukro,Warri,Sunyani,Zaria"
 },
 {
     "name": "Jingpho",
@@ -11908,7 +11908,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Munduruku,Ebeye,Mare,Nibok,Airai,Nui,Kimbe,Wotje,Pohnpei,Abaiang,New Plymouth,Païta,Rabaul,Moorea,Ok Tedi,Kairuku,Kavieng,Ngerulmud,Baiti,Vava'u,Bikenibeu,Neiafu,Darwin,Bartica,Manaus,Trinidad,Pucallpa,Cáceres,Bangui,Lisala,Malabo,Pointe-Noire,Mbalmayo,Mbaïki,Berbérati,Bouar,Carnot,Bata,Ebolowa,Nkayi,Makokou,Ouesso,Oyem,Gamboma,Kribi,Port-Gentil,Bafia,Mbandaka,Mouila,Bunia,Kimongo,Koulamoutou,Yaoundé,Tchibanga,Muramvya"
+  "b": "Munduruku,Ebeye,Mare,Nibok,Airai,Nui,Kimbe,Wotje,Pohnpei,Abaiang,New Plymouth,Païta,Rabaul,Moorea,Ok Tedi,Kairuku,Kavieng,Ngerulmud,Baiti,Vava'u,Bikenibeu,Darwin,Bartica,Manaus,Trinidad,Pucallpa,Cáceres,Bangui,Lisala,Malabo,Pointe-Noire,Mbalmayo,Mbaïki,Berbérati,Bouar,Carnot,Bata,Ebolowa,Nkayi,Makokou,Ouesso,Oyem,Gamboma,Kribi,Port-Gentil,Bafia,Mbandaka,Mouila,Bunia,Kimongo,Koulamoutou,Yaoundé,Tchibanga,Muramvya"
 },
 {
     "name": "Ndyuka",
@@ -11926,7 +11926,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Nheengatu,Ebeye,Mare,Nibok,Airai,Nui,Kimbe,Wotje,Pohnpei,Abaiang,New Plymouth,Païta,Rabaul,Moorea,Ok Tedi,Kairuku,Kavieng,Ngerulmud,Baiti,Vava'u,Bikenibeu,Neiafu,Darwin,San José del Guaviare,Ikitus,Piwra,Georgetown,Uaupés,Medellín,Quito,Bucaramanga,Cúcuta,Trujillo,Arequipa,Ambato,Pedro Juan Caballero,Barranquilla,Cartagena,Paysandú,Macas,El Alto,Piura,Guayaquil,Cali,Salto,Mendoza,Puyo,Loja,Santa Cruz,San Ignacio,Talca,Concepción,Francisco de Orellana,Caacupé,San Miguel de Tucumán"
+  "b": "Nheengatu,Ebeye,Mare,Nibok,Airai,Nui,Kimbe,Wotje,Pohnpei,Abaiang,New Plymouth,Païta,Rabaul,Moorea,Ok Tedi,Kairuku,Kavieng,Ngerulmud,Baiti,Vava'u,Bikenibeu,Darwin,San José del Guaviare,Ikitus,Piwra,Georgetown,Uaupés,Medellín,Quito,Bucaramanga,Cúcuta,Trujillo,Arequipa,Ambato,Pedro Juan Caballero,Barranquilla,Cartagena,Paysandú,Macas,El Alto,Piura,Guayaquil,Cali,Salto,Mendoza,Puyo,Loja,Santa Cruz,San Ignacio,Talca,Concepción,Francisco de Orellana,Caacupé,San Miguel de Tucumán"
 },
 {
     "name": "Nivaclé",
@@ -12034,7 +12034,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Warao,Trinidad,Moyobamba,Waras,Rumiqullqa,Qancha,Santarém,Tefé,Alta Floresta,Mitu,Nueva Loja,Lethem,São Gabriel da Cachoeira,Riberalta,Mocoa,Manaus,Qusqu,Tena,Maués,Maripasoula,San José del Guaviare,Truhillu,Camiri,Florencia,Uaupés,Pucallpa,Pukallpa,Apurimaq,Bissau,Bamako,Dakar,Bouaké,Lafia,Ouagadougou,Kankan,Freetown,Kaolack,Bobo-Dioulasso,Bafatá,Monrovia,Kayes,Nouakchott,Man,Sokodé,Lomé,Kumasi,Cotonou,Tamale,Ségou,Nzérékoré,Bolama,Saint-Louis,Assomada,Timbuktu,Sikasso"
+  "b": "Trinidad,Moyobamba,Waras,Rumiqullqa,Qancha,Santarém,Tefé,Alta Floresta,Mitu,Nueva Loja,Lethem,São Gabriel da Cachoeira,Riberalta,Mocoa,Manaus,Qusqu,Tena,Maués,Maripasoula,San José del Guaviare,Truhillu,Camiri,Florencia,Uaupés,Pucallpa,Pukallpa,Apurimaq,Bissau,Bamako,Dakar,Bouaké,Lafia,Ouagadougou,Kankan,Freetown,Kaolack,Bobo-Dioulasso,Bafatá,Monrovia,Kayes,Nouakchott,Man,Sokodé,Lomé,Kumasi,Cotonou,Tamale,Ségou,Nzérékoré,Bolama,Saint-Louis,Assomada,Timbuktu,Sikasso"
 },
 {
     "name": "Warázu",
@@ -12097,7 +12097,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Enggano,Levuka,Yap,Kone,Kiunga,Kimbe,Nanumea,Abaiang,Kolonia,Denigomodu,Leulumoega,Punaauia,Palau,Munda,Alotau,Kairuku,Sogeri,Tiga,Baiti,Peleliu,Yaren,Ok Tedi,Tarawa,Kosrae,Tabiteuea,Whangarei,Pakse,Lang Son,Changsha,Suwon,Nanning,Tianjin,Cheongju,Hunchun,Hangzhou,Taoyuan,Shanghai,Nanchang,Fuzhou,Guangzhou,Nanjing,Shenzhen,Wuxi,Zhengzhou,Taichung,Beijing,Lanzhou,Gaecheon,Ulsan,Qingdao,Gwangju,Zibo,Kaohsiung,Zhongshan,Taipei"
+  "b": "Enggano,Levuka,Yap,Kone,Kiunga,Kimbe,Abaiang,Kolonia,Denigomodu,Leulumoega,Punaauia,Palau,Munda,Alotau,Kairuku,Sogeri,Tiga,Baiti,Peleliu,Yaren,Ok Tedi,Tarawa,Kosrae,Tabiteuea,Whangarei,Pakse,Lang Son,Changsha,Suwon,Nanning,Tianjin,Cheongju,Hunchun,Hangzhou,Taoyuan,Shanghai,Nanchang,Fuzhou,Guangzhou,Nanjing,Shenzhen,Wuxi,Zhengzhou,Taichung,Beijing,Lanzhou,Gaecheon,Ulsan,Qingdao,Gwangju,Zibo,Kaohsiung,Zhongshan,Taipei"
 },
 {
     "name": "Filipino",
@@ -12160,7 +12160,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Makassarese,Chonburi,Alor Setar,Tawau,Bandar Lampung,My Tho,Satun,Hai Phong,Tomohon,Tampines,Dien Bien Phu,Ha Giang,Kandal,Da Lat,Samarinda,Surabaya,Champasak,Hoa Binh,Zamboanga,Thai Binh,Bago,Makassar,General Santos,Sisophon,Pathein,Siem Reap,Bangar,Manado,Suva,Bandung,Medan,Semarang,Manila,Davao,Jaluit,Pentecost,Levuka,Melekeok,Johor Bahru,Iloilo City,Port Vila,Buala,Singapore,Denpasar,Ba,Honiara,Tutong,Kavieng,Jakarta,Angaur,Kirakira,Epi,Tanna"
+  "b": "Makassarese,Chonburi,Alor Setar,Tawau,Bandar Lampung,My Tho,Satun,Hai Phong,Tomohon,Tampines,Dien Bien Phu,Ha Giang,Kandal,Da Lat,Samarinda,Surabaya,Champasak,Hoa Binh,Zamboanga,Thai Binh,Bago,Makassar,General Santos,Sisophon,Pathein,Siem Reap,Bangar,Manado,Suva,Bandung,Medan,Semarang,Manila,Davao,Jaluit,Pentecost,Levuka,Melekeok,Johor Bahru,Iloilo City,Port Vila,Singapore,Denpasar,Ba,Honiara,Tutong,Kavieng,Jakarta,Angaur,Epi,Tanna"
 },
 {
     "name": "Malaysian Malay",
@@ -12169,7 +12169,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Malaysian Malay,Hai Phong,Ben Tre,Tampines,Payakumbuh,Ha Giang,Angeles,Da Lat,Bandar Lampung,Surabaya,Hpa-An,Hoa Binh,Tomohon,Thai Binh,Surat Thani,Makassar,Nakhon Si Thammarat,Sisophon,Samarinda,Siem Reap,Vientiane,Manado,Zamboanga,Putao,Phongsali,Kampot,General Santos,Pekanbaru,Bangar,Ipoh,Jakarta,Davao,Palembang,Cebu City,Luganville,Bacolod,Cagayan de Oro,Tutong,Manila,Daru,Tulagi,Kota Kinabalu,Muara,Munda,Ambrym,Rabaul,Buala,Johor Bahru,Medan,Tanna,Lautoka,Port Vila,Port Moresby"
+  "b": "Malaysian Malay,Hai Phong,Ben Tre,Tampines,Payakumbuh,Ha Giang,Angeles,Da Lat,Bandar Lampung,Surabaya,Hpa-An,Hoa Binh,Tomohon,Thai Binh,Surat Thani,Makassar,Nakhon Si Thammarat,Sisophon,Samarinda,Siem Reap,Vientiane,Manado,Zamboanga,Putao,Phongsali,Kampot,General Santos,Pekanbaru,Bangar,Ipoh,Jakarta,Davao,Palembang,Cebu City,Luganville,Bacolod,Cagayan de Oro,Tutong,Manila,Daru,Tulagi,Kota Kinabalu,Muara,Munda,Ambrym,Rabaul,Johor Bahru,Medan,Tanna,Lautoka,Port Vila,Port Moresby"
 },
 {
     "name": "Maranao",

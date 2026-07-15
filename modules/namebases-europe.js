@@ -1429,7 +1429,7 @@ window.europeNameBases = [
   "max": 14,
   "d": "lnrt",
   "m": 0,
-  "b": "Genova,Savona,La Spezia,Imperia,Sanremo,Ventimiglia,Rapallo,Chiavari,Lerici,Porto Venere,Sestri Levante,Levanto,Albenga,Loano,Finale Ligure,Alassio,Corniglia,Manarola,Riomaggiore,Portovenere,Varazze,Arenzano,Cogoleto,Bogliasco,Pegli,Loann,Diano Marina,Ceriale,Busalla,Ronco Scrivia,Karula,KilingiNomme,Vahastu,Yaagupi,Urvaste,ParnuJaagupi,Ollepa,Tudulinna,Ülenurme,Sauga,Pirgu,Illuka,Anilow,Amokis,Amegow,Aponen,Abesen,Alalow,Aoris,Alodow,Afimen,Abiten,Aogow,Abonis,Adabow,Alelen,Apoken,Genoeseow,Genoeseitz,Genoeseek,Genoeseov,Genoeseak,Avinurme,Kilingi,Surju"
+  "b": "Genova,Savona,La Spezia,Imperia,Sanremo,Ventimiglia,Rapallo,Chiavari,Lerici,Porto Venere,Sestri Levante,Levanto,Albenga,Finale Ligure,Alassio,Corniglia,Manarola,Riomaggiore,Portovenere,Varazze,Arenzano,Cogoleto,Bogliasco,Pegli,Loann,Diano Marina,Ceriale,Busalla,Ronco Scrivia,Karula,KilingiNomme,Vahastu,Yaagupi,Urvaste,ParnuJaagupi,Ollepa,Tudulinna,Ülenurme,Sauga,Pirgu,Illuka,Anilow,Amokis,Amegow,Aponen,Abesen,Alalow,Aoris,Alodow,Afimen,Abiten,Aogow,Abonis,Adabow,Alelen,Apoken,Genoeseow,Genoeseitz,Genoeseek,Genoeseov,Genoeseak,Avinurme,Kilingi,Surju"
 },
 {
     "name": "Grossetano",
@@ -1537,7 +1537,7 @@ window.europeNameBases = [
   "max": 14,
   "d": "lnrt",
   "m": 0,
-  "b": "Genova,Savona,La Spezia,Imperia,Sanremo,Ventimiglia,Rapallo,Chiavari,Lerici,Porto Venere,Sestri Levante,Levanto,Albenga,Loano,Finale Ligure,Alassio,Corniglia,Manarola,Riomaggiore,Portovenere,Varazze,Arenzano,Cogoleto,Bogliasco,Pegli,Loann,Diano Marina,Ceriale,Busalla,Ronco Scrivia,Puide,Rakvere,Turba,Korvekula,Afukov,Abagan,Abusan,Afilov,Alatov,Akinin,Aesan,Anelov,Akedan,Alimin,Amotan,Araov,Afinov,Akiin,Abaran,Ligurianow,Ligurianitz,Ligurianek,Ligurianov,Ligurianak,Maasi,Kallaste,Tartu,Leisi,Riisipere,Rapina,Kabala,Peipsiaare,Saaremaa,Nissi,Polva"
+  "b": "Genova,Savona,La Spezia,Imperia,Sanremo,Ventimiglia,Rapallo,Chiavari,Lerici,Porto Venere,Sestri Levante,Levanto,Albenga,Finale Ligure,Alassio,Corniglia,Manarola,Riomaggiore,Portovenere,Varazze,Arenzano,Cogoleto,Bogliasco,Pegli,Loann,Diano Marina,Ceriale,Busalla,Ronco Scrivia,Puide,Rakvere,Turba,Korvekula,Afukov,Abagan,Abusan,Afilov,Alatov,Akinin,Aesan,Anelov,Akedan,Alimin,Amotan,Araov,Afinov,Akiin,Abaran,Ligurianow,Ligurianitz,Ligurianek,Ligurianov,Ligurianak,Maasi,Kallaste,Tartu,Leisi,Riisipere,Rapina,Kabala,Peipsiaare,Saaremaa,Nissi,Polva"
 },
 {
     "name": "Limousin",
@@ -1681,7 +1681,7 @@ window.europeNameBases = [
   "max": 24,
   "d": "lnrt",
   "m": 0,
-  "b": "Mindério,Conca,Fórno,Trovão,Alcaria,Alfarim,Azenha,Besteiros,Cabroeira,Cardal,Carvoeira,Chão,Cimo,Coelheira,Cortiçada,Courela,Donaria,Escusa,Fache,Foz,Freixeira,Gestosa,Lameira,Levegada,Louredo,Marmeleira,Matos,Mouriscas,Outeiro,Pedreira,Pinheiro,Pisão,Poeira,Pomares,Portela,Pouso,Quinta,Quintã,Raposa,Rebolo,Ribeira,Rochas,Rodrigo,Ruilheira,Salgueira,Sobreira,Talho,Tilhós,Tojeira,Torre,Tronco,Vale,Várzea,Venda,Vilar,Violante,Zimbreira"
+  "b": "Mindério,Conca,Fórno,Trovão,Alcaria,Alfarim,Azenha,Besteiros,Cabroeira,Cardal,Carvoeira,Chão,Cimo,Coelheira,Cortiçada,Courela,Donaria,Escusa,Fache,Foz,Freixeira,Gestosa,Lameira,Levegada,Louredo,Marmeleira,Matos,Mouriscas,Outeiro,Pedreira,Pinheiro,Pisão,Poeira,Pomares,Portela,Pouso,Quintã,Raposa,Rebolo,Ribeira,Rochas,Rodrigo,Ruilheira,Salgueira,Sobreira,Talho,Tilhós,Tojeira,Torre,Tronco,Vale,Várzea,Venda,Vilar,Violante,Zimbreira"
 },
 {
     "name": "Mirandese",
@@ -1996,7 +1996,7 @@ window.europeNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-  "b": "Kalevala,Pohjola,Askalainen,Sarajas,Jukajärvi,Suursuo,Luode,Kainuu,Pohjanlahti,Laatokka,Ääninen,Väinämöinen,Sampo,Tapiola,Hiisi,Louhi,Ukko,Ahti,Otava,Kaleva,Seitä,Taivas,Järvi,Nurmes,Pielinen,Maaninka,Konnevesi,Kallavesi,Koli,Tahko,Hirvensalmi,Puumala,Sulkava,Liperi,Polvijärvi,Juuka,Rautavaara,Valtimo,Juojärvi,Saarijärvi,Pyhäjärvi,Pielavesi,Viitasaari,Kannonkoski,Kyyjärvi,Kinnula,Kivijärvi,Toivakka,Hankasalmi,Jyväskylän,Päijänne,Sysmi,Sysmä,Kuhmo,Suomussalmi,Hyrynsalmi,Puolanka,Paltamo,Utajärvi,Säkylä,Eura"
+  "b": "Kalevala,Pohjola,Askalainen,Sarajas,Jukajärvi,Suursuo,Luode,Kainuu,Pohjanlahti,Laatokka,Ääninen,Väinämöinen,Sampo,Tapiola,Hiisi,Louhi,Ukko,Ahti,Otava,Kaleva,Seitä,Taivas,Järvi,Nurmes,Pielinen,Maaninka,Konnevesi,Kallavesi,Koli,Tahko,Hirvensalmi,Puumala,Sulkava,Liperi,Polvijärvi,Juuka,Rautavaara,Valtimo,Juojärvi,Saarijärvi,Pyhäjärvi,Pielavesi,Viitasaari,Kannonkoski,Kyyjärvi,Kinnula,Kivijärvi,Toivakka,Hankasalmi,Jyväskylän,Päijänne,Sysmä,Kuhmo,Suomussalmi,Hyrynsalmi,Puolanka,Paltamo,Utajärvi,Säkylä,Eura"
 },
 {
     "name": "Proto-Karelian",
@@ -2203,7 +2203,7 @@ window.europeNameBases = [
   "max": 18,
   "d": "lnrt",
   "m": 0,
-  "b": "Latium,Roma,Tiberis,Italia,Romaniae,Latina,Falisci,Latini,Marrucini,Paeligni,Vestini,Samnites,Osca,Aurunci,Volsci,Umbri,Sabini,Sabelli,Piceni,Sallentini,Calabri,Iapyges,Siculi,Sicani,Tribus,Romani,Patres,Plebs,Gens,Curia,Campus,Forum,Basilica,Templum,Via,Porta,Pons,Aqua,Insula,Domus,Villa,Oppidum,Nova,Rus,Ager,Lucus,Fundus,Palatium,Quirinalis,Viminalis,Esquilinus,Capitolium,Aventinus,Suburra,Campania,Bruttium,Apulia,Venetia,Transpadana,Sannio,Valeria,Picenum,Flaminia,Aemilia,Liguria,Cispadana,Histria,Noricum"
+  "b": "Latium,Roma,Tiberis,Italia,Romaniae,Falisci,Marrucini,Paeligni,Vestini,Samnites,Osca,Aurunci,Volsci,Umbri,Sabini,Sabelli,Piceni,Sallentini,Calabri,Iapyges,Siculi,Sicani,Tribus,Romani,Patres,Plebs,Gens,Curia,Campus,Forum,Basilica,Templum,Via,Porta,Pons,Aqua,Insula,Domus,Villa,Oppidum,Nova,Rus,Ager,Lucus,Fundus,Palatium,Quirinalis,Viminalis,Esquilinus,Capitolium,Aventinus,Suburra,Campania,Bruttium,Apulia,Venetia,Transpadana,Sannio,Valeria,Picenum,Flaminia,Aemilia,Liguria,Cispadana,Histria,Noricum"
 },
 {
     "name": "Provençal",
@@ -4522,7 +4522,7 @@ window.europeNameBases = [
   "max": 17,
   "d": "lnrt",
   "m": 0,
-  "b": "Torino,Asti,Alessandria,Novara,Cuneo,Vercelli,Biella,Verbania,Domodossola,Borgosesia,Arona,Stresa,Omegna,Borgomanero,Ghemme,Acqui Terme,Casale Monferrato,Fossano,Saluzzo,Bra,Alba,Moncalieri,Rivoli,Collegno,Nichelino,Settimo Torinese,Chieri,Carmagnola,Ivrea,Aosta"
+  "b": "Torino,Asti,Alessandria,Novara,Cuneo,Vercelli,Biella,Verbania,Domodossola,Borgosesia,Arona,Stresa,Omegna,Borgomanero,Ghemme,Acqui Terme,Casale Monferrato,Fossano,Saluzzo,Bra,Alba,Moncalieri,Rivoli,Collegno,Nichelino,Settimo Torinese,Chieri,Carmagnola,Ivrea,Aosta,Piedmontese,Giudeo,Pinerolo,Rivarolo"
 },
 {
     "name": "Molisan (Molise)",
@@ -4765,7 +4765,7 @@ window.europeNameBases = [
   "max": 18,
   "d": "lnrt",
   "m": 0,
-  "b": "Kaitag,Urkarakh,Kara-Kureysh,Madzhalis,Basly,Derbent,Mamedkala,Dagestanskiye Ogni,Tabasaran,Khuchni,Turag,Khurik,Mezhgyul,Kondik,Tinit,Sirtich,Khanag,Eteg,Dureb,Shilyagi,Kirki,Turaga,Mugarty,Chakhimakhi,Gdym,Tsirkhe,Kala,Mukrakari,Khamam,Gimi,Kullar,Kasumkent,Sulevkent,Chinar,Rukel,Karbuchimakhi,Gergemli,Zizik,Adibport,Abolbridge,Aatwood,Aigbridge,Adarport,Akobport,Apembridge,Afatwood,Apugbridge,Amunport,Akusport,Akakwood,Apomport,Adatport,Amigbridge,Kaitagtown,Kaitagville,Kaitagburg,Kaitagview,Kaitagside"
+  "b": "Kaitag,Urkarakh,Kara-Kureysh,Madzhalis,Basly,Derbent,Mamedkala,Dagestanskiye Ogni,Tabasaran,Khuchni,Turag,Khurik,Mezhgyul,Kondik,Tinit,Sirtich,Khanag,Eteg,Dureb,Shilyagi,Kirki,Mugarty,Chakhimakhi,Gdym,Tsirkhe,Kala,Mukrakari,Khamam,Gimi,Kullar,Kasumkent,Sulevkent,Chinar,Rukel,Karbuchimakhi,Gergemli,Zizik,Adibport,Abolbridge,Aatwood,Aigbridge,Adarport,Akobport,Apembridge,Afatwood,Apugbridge,Amunport,Akusport,Akakwood,Apomport,Adatport,Amigbridge,Kaitagtown,Kaitagville,Kaitagburg,Kaitagview,Kaitagside"
 },
 {
     "name": "Kubachi",
@@ -4774,7 +4774,7 @@ window.europeNameBases = [
   "max": 18,
   "d": "lnrt",
   "m": 0,
-  "b": "Kubachi,Amuzgi,Shari,Sulevkent,Derbent,Mamedkala,Dagestanskiye Ogni,Tabasaran,Khuchni,Turag,Khurik,Mezhgyul,Kondik,Tinit,Sirtich,Khanag,Eteg,Dureb,Shilyagi,Kirki,Turaga,Mugarty,Chakhimakhi,Gdym,Tsirkhe,Kala,Mukrakari,Khamam,Gimi,Kullar,Kasumkent,Chinar,Rukel,Karbuchimakhi,Gergemli,Zizik,Urkarakh,Madzhalis,Basly,Apuside,Amakford,Alidland,Amumford,Anisside,Abaside,Akorford,Apidland,Alemford,Adetside,Aegside,Aisland,Adoford,Anidside,Apitland,Kubachitown,Kubachiville,Kubachiburg,Kubachiview,Kubachiside"
+  "b": "Kubachi,Amuzgi,Shari,Sulevkent,Derbent,Mamedkala,Dagestanskiye Ogni,Tabasaran,Khuchni,Turag,Khurik,Mezhgyul,Kondik,Tinit,Sirtich,Khanag,Eteg,Dureb,Shilyagi,Kirki,Mugarty,Chakhimakhi,Gdym,Tsirkhe,Kala,Mukrakari,Khamam,Gimi,Kullar,Kasumkent,Chinar,Rukel,Karbuchimakhi,Gergemli,Zizik,Urkarakh,Madzhalis,Basly,Apuside,Amakford,Alidland,Amumford,Anisside,Abaside,Akorford,Apidland,Alemford,Adetside,Aegside,Aisland,Adoford,Anidside,Apitland,Kubachitown,Kubachiville,Kubachiburg,Kubachiview,Kubachiside"
 },
 {
     "name": "Mingrelian",
@@ -4819,7 +4819,7 @@ window.europeNameBases = [
   "max": 18,
   "d": "lnrt",
   "m": 0,
-  "b": "Khuchni,Turag,Khurik,Mezhgyul,Kondik,Tinit,Sirtich,Khanag,Eteg,Dureb,Shilyagi,Kirki,Turaga,Mugarty,Chakhimakhi,Gdym,Tsirkhe,Kala,Mukrakari,Khamam,Gimi,Kullar,Kasumkent,Sulevkent,Chinar,Rukel,Karbuchimakhi,Gergemli,Zizik,Urkarakh,Madzhalis,Basly,Derbent,Mamedkala,Dagestanskiye Ogni,Arkit,Rushvil,Tsanak,Zidyan,Rukala,Kuraka,Vechrik,Khvog-ratsar,Myakhlar,Zilgi"
+  "b": "Khuchni,Turag,Khurik,Mezhgyul,Kondik,Tinit,Sirtich,Khanag,Eteg,Dureb,Shilyagi,Kirki,Mugarty,Chakhimakhi,Gdym,Tsirkhe,Kala,Mukrakari,Khamam,Gimi,Kullar,Kasumkent,Sulevkent,Chinar,Rukel,Karbuchimakhi,Gergemli,Zizik,Urkarakh,Madzhalis,Basly,Derbent,Mamedkala,Dagestanskiye Ogni,Arkit,Rushvil,Tsanak,Zidyan,Rukala,Kuraka,Vechrik,Khvog-ratsar,Myakhlar,Zilgi"
 },
 {
     "name": "Tat",
