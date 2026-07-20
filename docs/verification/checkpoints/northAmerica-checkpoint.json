@@ -2,49 +2,1226 @@
   "continent": "North America",
   "file": "namebases-northAmerica.js",
   "totalEntries": 232,
-  "currentIndex": 2550,
-  "lastProcessedEntry": "North American wave: Cree/Ojibwe/Yupik/Cherokee/Apache/Navajo/Lakota + Kiche/Yucatec-Maya/Akatek",
+  "currentIndex": 20213,
+  "lastProcessedEntry": "Final waves: Meso/Central leftovers + Caribbean creoles + cover-term/dup reconciliation",
   "started": "2026-06-30",
   "lastUpdated": "2026-07-20",
   "status": "IN_PROGRESS_REVERIFICATION",
   "method": "Subagent research pipeline: research subagents produce per-name-sourced JSON in docs/verification/data/<i>-<slug>.json (prefer webfetch on authoritative URLs to avoid rate limits); validated + applied via tools/verification/apply-verified.js (rejects COMPLETE<25, missing source URLs, duplicates). Per-language logs auto-written to docs/verification/research/by-language/. Guardrails run after each batch (node tools/mixer-core/check-language-mixer-guardrails.js).",
   "warning": "The PRIOR checkpoint (currentIndex 232, PARTIALLY_COMPLETE) was UNRELIABLE: it claimed all 232 entries done and cover terms cleared, but the file still contained fabricated placeholder padding and full b: data for supposedly-cleared cover terms. Do NOT trust prior 'complete' claims. Re-verify entry by entry.",
   "verifiedAndApplied": [
-    {"i": 46, "name": "Inuit", "status": "COMPLETE", "names": 42},
-    {"i": 728, "name": "Inuktitut", "status": "COMPLETE", "names": 40},
-    {"i": 787, "name": "Brayon", "status": "COMPLETE", "names": 34},
-    {"i": 1193, "name": "Deg Xinag", "status": "WAITING", "names": 6},
-    {"i": 1198, "name": "Tlicho", "status": "WAITING", "names": 7},
-    {"i": 1207, "name": "Mohawk", "status": "COMPLETE", "names": 25},
-    {"i": 1208, "name": "Cayuga", "status": "WAITING", "names": 14},
-    {"i": 1209, "name": "Oneida", "status": "COMPLETE", "names": 25},
-    {"i": 1210, "name": "Onondaga", "status": "WAITING", "names": 4},
-    {"i": 1211, "name": "Seneca", "status": "COMPLETE", "names": 26},
-    {"i": 2223, "name": "Achi", "status": "WAITING", "names": 5},
-    {"i": 8129, "name": "Kaqchikel", "status": "COMPLETE", "names": 50},
-    {"i": 8130, "name": "Ixil", "status": "WAITING", "names": 27},
-    {"i": 8131, "name": "Jakaltek", "status": "COMPLETE", "names": 44},
-    {"i": 8132, "name": "K'iche'", "status": "COMPLETE", "names": 40},
-    {"i": 8134, "name": "Mam", "status": "COMPLETE", "names": 33},
-    {"i": 8137, "name": "Poqomchi'", "status": "WAITING", "names": 11},
-    {"i": 236, "name": "Chuj", "status": "COMPLETE", "names": 71},
-    {"i": 914, "name": "Ch'orti'", "status": "COMPLETE", "names": 29},
-    {"i": 8125, "name": "Q'eqchi'", "status": "COMPLETE", "names": 25},
-    {"i": 8126, "name": "Tzeltal", "status": "COMPLETE", "names": 32},
-    {"i": 8127, "name": "Tzotzil", "status": "COMPLETE", "names": 41},
-    {"i": 6626, "name": "Q'anjob'al", "status": "COMPLETE", "names": 31},
-    {"i": 2548, "name": "Qeqchi", "status": "DUPLICATE", "duplicateOf": 8125, "names": 25, "note": "Duplicate of canonical Q'eqchi' (i=8125); data left but points to canonical."},
-    {"i": 2561, "name": "Qanjobal", "status": "DUPLICATE", "duplicateOf": 6626, "names": 31, "note": "Duplicate of canonical Q'anjob'al (i=6626); data left but points to canonical."},
-    {"i": 2249, "name": "Akatek", "status": "COMPLETE", "names": 28},
-    {"i": 2069, "name": "Cree", "status": "COMPLETE", "names": 70},
-    {"i": 2070, "name": "Ojibwe", "status": "COMPLETE", "names": 69},
-    {"i": 2071, "name": "Yupik", "status": "COMPLETE", "names": 63},
-    {"i": 2073, "name": "Cherokee", "status": "COMPLETE", "names": 74},
-    {"i": 2074, "name": "Apache", "status": "COMPLETE", "names": 27},
-    {"i": 2076, "name": "Navajo", "status": "COMPLETE", "names": 53},
-    {"i": 2316, "name": "Lakota", "status": "COMPLETE", "names": 30},
-    {"i": 2549, "name": "Kiche", "status": "COMPLETE", "names": 38},
-    {"i": 2550, "name": "Yucatec-Maya", "status": "COMPLETE", "names": 43}
+    {
+      "i": 13,
+      "name": "Nahuatl",
+      "status": "COMPLETE",
+      "names": 125
+    },
+    {
+      "i": 46,
+      "name": "Inuit",
+      "status": "COMPLETE",
+      "names": 42
+    },
+    {
+      "i": 68,
+      "name": "Canadian French",
+      "status": "COMPLETE",
+      "names": 121
+    },
+    {
+      "i": 71,
+      "name": "Chipilo",
+      "status": "COMPLETE",
+      "names": 29
+    },
+    {
+      "i": 72,
+      "name": "New England French",
+      "status": "COMPLETE",
+      "names": 31
+    },
+    {
+      "i": 73,
+      "name": "Newfoundland French",
+      "status": "COMPLETE",
+      "names": 30
+    },
+    {
+      "i": 74,
+      "name": "Afro-Seminole Creole",
+      "status": "COMPLETE",
+      "names": 62
+    },
+    {
+      "i": 75,
+      "name": "Awakatek",
+      "status": "WAITING",
+      "names": 6
+    },
+    {
+      "i": 82,
+      "name": "Franco-Ontarian",
+      "status": "COMPLETE",
+      "names": 47
+    },
+    {
+      "i": 84,
+      "name": "Frenchville French",
+      "status": "COMPLETE",
+      "names": 68
+    },
+    {
+      "i": 86,
+      "name": "Louisiana French",
+      "status": "COMPLETE",
+      "names": 45
+    },
+    {
+      "i": 236,
+      "name": "Chuj",
+      "status": "COMPLETE",
+      "names": 71
+    },
+    {
+      "i": 396,
+      "name": "Seri",
+      "status": "WAITING",
+      "names": 3
+    },
+    {
+      "i": 728,
+      "name": "Inuktitut",
+      "status": "COMPLETE",
+      "names": 40
+    },
+    {
+      "i": 765,
+      "name": "Acadian",
+      "status": "COMPLETE",
+      "names": 56
+    },
+    {
+      "i": 787,
+      "name": "Brayon",
+      "status": "COMPLETE",
+      "names": 34
+    },
+    {
+      "i": 796,
+      "name": "American Finnish",
+      "status": "WAITING",
+      "names": 40
+    },
+    {
+      "i": 882,
+      "name": "Magoua",
+      "status": "COMPLETE",
+      "names": 45
+    },
+    {
+      "i": 890,
+      "name": "Mexican Spanish",
+      "status": "COMPLETE",
+      "names": 84
+    },
+    {
+      "i": 895,
+      "name": "Missouri French",
+      "status": "COMPLETE",
+      "names": 25
+    },
+    {
+      "i": 900,
+      "name": "Muskrat French",
+      "status": "COMPLETE",
+      "names": 42
+    },
+    {
+      "i": 914,
+      "name": "Ch'orti'",
+      "status": "COMPLETE",
+      "names": 29
+    },
+    {
+      "i": 1187,
+      "name": "Cauque Mayan language",
+      "status": "WAITING",
+      "names": 0
+    },
+    {
+      "i": 1189,
+      "name": "Pidgin Delaware",
+      "status": "WAITING",
+      "names": 0
+    },
+    {
+      "i": 1193,
+      "name": "Deg Xinag",
+      "status": "WAITING",
+      "names": 6
+    },
+    {
+      "i": 1198,
+      "name": "Tlicho",
+      "status": "WAITING",
+      "names": 7
+    },
+    {
+      "i": 1201,
+      "name": "Kiliwa",
+      "status": "COMPLETE",
+      "names": 44
+    },
+    {
+      "i": 1203,
+      "name": "Quechan",
+      "status": "COMPLETE",
+      "names": 32
+    },
+    {
+      "i": 1204,
+      "name": "Cochimi",
+      "status": "COMPLETE",
+      "names": 35
+    },
+    {
+      "i": 1206,
+      "name": "Yavapai",
+      "status": "COMPLETE",
+      "names": 33
+    },
+    {
+      "i": 1207,
+      "name": "Mohawk",
+      "status": "COMPLETE",
+      "names": 25
+    },
+    {
+      "i": 1208,
+      "name": "Cayuga",
+      "status": "WAITING",
+      "names": 14
+    },
+    {
+      "i": 1209,
+      "name": "Oneida",
+      "status": "COMPLETE",
+      "names": 25
+    },
+    {
+      "i": 1210,
+      "name": "Onondaga",
+      "status": "WAITING",
+      "names": 4
+    },
+    {
+      "i": 1211,
+      "name": "Seneca",
+      "status": "COMPLETE",
+      "names": 26
+    },
+    {
+      "i": 1212,
+      "name": "Tuscarora",
+      "status": "COMPLETE",
+      "names": 35
+    },
+    {
+      "i": 1293,
+      "name": "Turks and Caicos Creole",
+      "status": "COMPLETE",
+      "names": 31
+    },
+    {
+      "i": 1294,
+      "name": "Vincentian Creole",
+      "status": "COMPLETE",
+      "names": 43
+    },
+    {
+      "i": 1295,
+      "name": "Virgin Islands Creole",
+      "status": "COMPLETE",
+      "names": 71
+    },
+    {
+      "i": 1296,
+      "name": "Jamaican Maroon Creole",
+      "status": "COMPLETE",
+      "names": 43
+    },
+    {
+      "i": 1304,
+      "name": "Aleut",
+      "status": "COMPLETE",
+      "names": 41
+    },
+    {
+      "i": 1340,
+      "name": "Quebec French",
+      "status": "COMPLETE",
+      "names": 98
+    },
+    {
+      "i": 1372,
+      "name": "Kumeyaay",
+      "status": "COMPLETE",
+      "names": 48
+    },
+    {
+      "i": 1379,
+      "name": "Broken Oghibbeway",
+      "status": "WAITING",
+      "names": 0
+    },
+    {
+      "i": 1380,
+      "name": "Broken Slavey",
+      "status": "COMPLETE",
+      "names": 37
+    },
+    {
+      "i": 1412,
+      "name": "Chol",
+      "status": "COMPLETE",
+      "names": 26
+    },
+    {
+      "i": 1417,
+      "name": "Cahuilla",
+      "status": "COMPLETE",
+      "names": 47
+    },
+    {
+      "i": 1428,
+      "name": "Huastec",
+      "status": "COMPLETE",
+      "names": 39
+    },
+    {
+      "i": 1492,
+      "name": "Central Zapotec",
+      "status": "COMPLETE",
+      "names": 60
+    },
+    {
+      "i": 1499,
+      "name": "Mazatec",
+      "status": "COMPLETE",
+      "names": 29
+    },
+    {
+      "i": 1588,
+      "name": "Chinantec",
+      "status": "COMPLETE",
+      "names": 33
+    },
+    {
+      "i": 1592,
+      "name": "Chinook Jargon",
+      "status": "WAITING",
+      "names": 0
+    },
+    {
+      "i": 1595,
+      "name": "Cholti Classic",
+      "status": "WAITING",
+      "names": 1
+    },
+    {
+      "i": 1604,
+      "name": "Chorotega",
+      "status": "WAITING",
+      "names": 1
+    },
+    {
+      "i": 1630,
+      "name": "Chicomuceltec",
+      "status": "WAITING",
+      "names": 3
+    },
+    {
+      "i": 1640,
+      "name": "Coxoh",
+      "status": "WAITING",
+      "names": 1
+    },
+    {
+      "i": 1774,
+      "name": "Eskimo Trade Jargon",
+      "status": "WAITING",
+      "names": 0
+    },
+    {
+      "i": 1829,
+      "name": "Greenlandic",
+      "status": "COMPLETE",
+      "names": 33
+    },
+    {
+      "i": 1879,
+      "name": "Gullah",
+      "status": "COMPLETE",
+      "names": 133
+    },
+    {
+      "i": 1951,
+      "name": "Inuktitut-English Pidgin",
+      "status": "WAITING",
+      "names": 0
+    },
+    {
+      "i": 1984,
+      "name": "Isthmus Zapotec",
+      "status": "COMPLETE",
+      "names": 35
+    },
+    {
+      "i": 1988,
+      "name": "Itza",
+      "status": "WAITING",
+      "names": 11
+    },
+    {
+      "i": 2069,
+      "name": "Cree",
+      "status": "COMPLETE",
+      "names": 70
+    },
+    {
+      "i": 2070,
+      "name": "Ojibwe",
+      "status": "COMPLETE",
+      "names": 69
+    },
+    {
+      "i": 2071,
+      "name": "Yupik",
+      "status": "COMPLETE",
+      "names": 63
+    },
+    {
+      "i": 2073,
+      "name": "Cherokee",
+      "status": "COMPLETE",
+      "names": 74
+    },
+    {
+      "i": 2074,
+      "name": "Apache",
+      "status": "COMPLETE",
+      "names": 27
+    },
+    {
+      "i": 2075,
+      "name": "Athabaskan",
+      "status": "WAITING",
+      "names": 86
+    },
+    {
+      "i": 2076,
+      "name": "Navajo",
+      "status": "COMPLETE",
+      "names": 53
+    },
+    {
+      "i": 2223,
+      "name": "Achi",
+      "status": "WAITING",
+      "names": 5
+    },
+    {
+      "i": 2249,
+      "name": "Akatek",
+      "status": "COMPLETE",
+      "names": 28
+    },
+    {
+      "i": 2311,
+      "name": "Labrador Inuit Pidgin French",
+      "status": "WAITING",
+      "names": 0
+    },
+    {
+      "i": 2316,
+      "name": "Lakota",
+      "status": "COMPLETE",
+      "names": 30
+    },
+    {
+      "i": 2439,
+      "name": "Cuicatec",
+      "status": "COMPLETE",
+      "names": 26
+    },
+    {
+      "i": 2470,
+      "name": "Ahtna",
+      "status": "WAITING",
+      "names": 21
+    },
+    {
+      "i": 2549,
+      "name": "Kiche",
+      "status": "COMPLETE",
+      "names": 38
+    },
+    {
+      "i": 2550,
+      "name": "Yucatec-Maya",
+      "status": "COMPLETE",
+      "names": 43
+    },
+    {
+      "i": 2558,
+      "name": "Totonac",
+      "status": "COMPLETE",
+      "names": 81
+    },
+    {
+      "i": 2565,
+      "name": "Southern-Quechua",
+      "status": "WAITING",
+      "names": 66
+    },
+    {
+      "i": 2611,
+      "name": "Tlingit",
+      "status": "COMPLETE",
+      "names": 30
+    },
+    {
+      "i": 2613,
+      "name": "Salish",
+      "status": "COMPLETE",
+      "names": 62
+    },
+    {
+      "i": 2662,
+      "name": "Innu",
+      "status": "COMPLETE",
+      "names": 29
+    },
+    {
+      "i": 3330,
+      "name": "Amuzgo",
+      "status": "COMPLETE",
+      "names": 25
+    },
+    {
+      "i": 5828,
+      "name": "Sierra Popoluca",
+      "status": "WAITING",
+      "names": 11
+    },
+    {
+      "i": 5829,
+      "name": "Tlapanec (Me'phaa)",
+      "status": "COMPLETE",
+      "names": 33
+    },
+    {
+      "i": 5830,
+      "name": "Paipai",
+      "status": "COMPLETE",
+      "names": 33
+    },
+    {
+      "i": 5832,
+      "name": "Coast Tsimshian (Sm'algyax)",
+      "status": "COMPLETE",
+      "names": 31
+    },
+    {
+      "i": 6110,
+      "name": "Dakota",
+      "status": "COMPLETE",
+      "names": 46
+    },
+    {
+      "i": 6111,
+      "name": "Crow",
+      "status": "COMPLETE",
+      "names": 30
+    },
+    {
+      "i": 6622,
+      "name": "Mixe",
+      "status": "COMPLETE",
+      "names": 31
+    },
+    {
+      "i": 6623,
+      "name": "Tabasco Zoque",
+      "status": "WAITING",
+      "names": 18
+    },
+    {
+      "i": 6624,
+      "name": "Chochotec",
+      "status": "COMPLETE",
+      "names": 26
+    },
+    {
+      "i": 6625,
+      "name": "Ixcatec",
+      "status": "COMPLETE",
+      "names": 29
+    },
+    {
+      "i": 6626,
+      "name": "Q'anjob'al",
+      "status": "COMPLETE",
+      "names": 31
+    },
+    {
+      "i": 6630,
+      "name": "Eyak",
+      "status": "WAITING",
+      "names": 5
+    },
+    {
+      "i": 6631,
+      "name": "Dena'ina",
+      "status": "WAITING",
+      "names": 14
+    },
+    {
+      "i": 6632,
+      "name": "Chipewyan",
+      "status": "COMPLETE",
+      "names": 35
+    },
+    {
+      "i": 6636,
+      "name": "Holikachuk",
+      "status": "WAITING",
+      "names": 5
+    },
+    {
+      "i": 6637,
+      "name": "Koyukon",
+      "status": "WAITING",
+      "names": 11
+    },
+    {
+      "i": 6639,
+      "name": "Upper Kuskokwim",
+      "status": "WAITING",
+      "names": 3
+    },
+    {
+      "i": 6640,
+      "name": "Upper Tanana",
+      "status": "WAITING",
+      "names": 6
+    },
+    {
+      "i": 7242,
+      "name": "Kiowa",
+      "status": "COMPLETE",
+      "names": 36
+    },
+    {
+      "i": 7243,
+      "name": "Tewa",
+      "status": "COMPLETE",
+      "names": 31
+    },
+    {
+      "i": 7365,
+      "name": "Choctaw",
+      "status": "COMPLETE",
+      "names": 35
+    },
+    {
+      "i": 7366,
+      "name": "Muscogee",
+      "status": "COMPLETE",
+      "names": 26
+    },
+    {
+      "i": 7367,
+      "name": "Mikasuki",
+      "status": "COMPLETE",
+      "names": 51
+    },
+    {
+      "i": 7835,
+      "name": "Comanche",
+      "status": "COMPLETE",
+      "names": 37
+    },
+    {
+      "i": 7836,
+      "name": "Hopi",
+      "status": "WAITING",
+      "names": 23
+    },
+    {
+      "i": 7837,
+      "name": "Shoshoni",
+      "status": "COMPLETE",
+      "names": 26
+    },
+    {
+      "i": 8055,
+      "name": "Chontal Maya",
+      "status": "WAITING",
+      "names": 7
+    },
+    {
+      "i": 8057,
+      "name": "Cora",
+      "status": "WAITING",
+      "names": 20
+    },
+    {
+      "i": 8111,
+      "name": "Alutiiq",
+      "status": "COMPLETE",
+      "names": 28
+    },
+    {
+      "i": 8118,
+      "name": "Huichol",
+      "status": "WAITING",
+      "names": 5
+    },
+    {
+      "i": 8119,
+      "name": "Inuinnaqtun",
+      "status": "WAITING",
+      "names": 1
+    },
+    {
+      "i": 8125,
+      "name": "Q'eqchi'",
+      "status": "COMPLETE",
+      "names": 25
+    },
+    {
+      "i": 8126,
+      "name": "Tzeltal",
+      "status": "COMPLETE",
+      "names": 32
+    },
+    {
+      "i": 8127,
+      "name": "Tzotzil",
+      "status": "COMPLETE",
+      "names": 41
+    },
+    {
+      "i": 8129,
+      "name": "Kaqchikel",
+      "status": "COMPLETE",
+      "names": 50
+    },
+    {
+      "i": 8130,
+      "name": "Ixil",
+      "status": "WAITING",
+      "names": 27
+    },
+    {
+      "i": 8131,
+      "name": "Jakaltek",
+      "status": "COMPLETE",
+      "names": 44
+    },
+    {
+      "i": 8132,
+      "name": "K'iche'",
+      "status": "COMPLETE",
+      "names": 40
+    },
+    {
+      "i": 8133,
+      "name": "Lacandon",
+      "status": "WAITING",
+      "names": 4
+    },
+    {
+      "i": 8134,
+      "name": "Mam",
+      "status": "COMPLETE",
+      "names": 33
+    },
+    {
+      "i": 8136,
+      "name": "Poqomam",
+      "status": "WAITING",
+      "names": 6
+    },
+    {
+      "i": 8137,
+      "name": "Poqomchi'",
+      "status": "WAITING",
+      "names": 11
+    },
+    {
+      "i": 8139,
+      "name": "Tz'utujil",
+      "status": "WAITING",
+      "names": 6
+    },
+    {
+      "i": 8141,
+      "name": "Sakapultek",
+      "status": "WAITING",
+      "names": 1
+    },
+    {
+      "i": 8142,
+      "name": "Sipakapense",
+      "status": "WAITING",
+      "names": 1
+    },
+    {
+      "i": 8143,
+      "name": "Tektitek",
+      "status": "WAITING",
+      "names": 5
+    },
+    {
+      "i": 8425,
+      "name": "Matlatzinca",
+      "status": "COMPLETE",
+      "names": 25
+    },
+    {
+      "i": 8426,
+      "name": "Mazahua",
+      "status": "COMPLETE",
+      "names": 30
+    },
+    {
+      "i": 8428,
+      "name": "Mixtec",
+      "status": "COMPLETE",
+      "names": 57
+    },
+    {
+      "i": 8429,
+      "name": "Otomi",
+      "status": "COMPLETE",
+      "names": 27
+    },
+    {
+      "i": 8481,
+      "name": "Mayo",
+      "status": "WAITING",
+      "names": 24
+    },
+    {
+      "i": 8483,
+      "name": "O'odham",
+      "status": "WAITING",
+      "names": 7
+    },
+    {
+      "i": 8484,
+      "name": "Pima Bajo",
+      "status": "COMPLETE",
+      "names": 27
+    },
+    {
+      "i": 8485,
+      "name": "Tarahumara",
+      "status": "COMPLETE",
+      "names": 25
+    },
+    {
+      "i": 8486,
+      "name": "Huarijio",
+      "status": "COMPLETE",
+      "names": 25
+    },
+    {
+      "i": 8487,
+      "name": "Yaqui",
+      "status": "COMPLETE",
+      "names": 25
+    },
+    {
+      "i": 13194,
+      "name": "Iñupiaq",
+      "status": "COMPLETE",
+      "names": 29
+    },
+    {
+      "i": 13195,
+      "name": "Inuvialuktun",
+      "status": "WAITING",
+      "names": 6
+    },
+    {
+      "i": 13243,
+      "name": "Blackfoot",
+      "status": "WAITING",
+      "names": 19
+    },
+    {
+      "i": 13539,
+      "name": "Haida",
+      "status": "COMPLETE",
+      "names": 38
+    },
+    {
+      "i": 13716,
+      "name": "Garifuna",
+      "status": "COMPLETE",
+      "names": 38
+    },
+    {
+      "i": 13856,
+      "name": "Keresan",
+      "status": "COMPLETE",
+      "names": 32
+    },
+    {
+      "i": 20074,
+      "name": "Algonquian-Basque pidgin",
+      "status": "WAITING",
+      "names": 0
+    },
+    {
+      "i": 20076,
+      "name": "Almosan",
+      "status": "WAITING",
+      "names": 71
+    },
+    {
+      "i": 20101,
+      "name": "American Indian Pidgin English",
+      "status": "WAITING",
+      "names": 0
+    },
+    {
+      "i": 20213,
+      "name": "Jersey Dutch",
+      "status": "COMPLETE",
+      "names": 34
+    },
+    {
+      "i": 20219,
+      "name": "Spanglish (dedicated)",
+      "status": "COMPLETE",
+      "names": 41
+    },
+    {
+      "i": 21001,
+      "name": "Purépecha",
+      "status": "COMPLETE",
+      "names": 50
+    },
+    {
+      "i": 21002,
+      "name": "Huave",
+      "status": "COMPLETE",
+      "names": 40
+    },
+    {
+      "i": 21006,
+      "name": "Joual",
+      "status": "COMPLETE",
+      "names": 91
+    },
+    {
+      "i": 21114,
+      "name": "Cocopa",
+      "status": "COMPLETE",
+      "names": 26
+    },
+    {
+      "i": 21117,
+      "name": "Chiac",
+      "status": "COMPLETE",
+      "names": 54
+    },
+    {
+      "i": 200625,
+      "name": "Anguillian Creole",
+      "status": "COMPLETE",
+      "names": 38
+    },
+    {
+      "i": 200626,
+      "name": "Bahamian Creole",
+      "status": "COMPLETE",
+      "names": 27
+    },
+    {
+      "i": 200627,
+      "name": "Bajan Creole",
+      "status": "COMPLETE",
+      "names": 27
+    },
+    {
+      "i": 200628,
+      "name": "Belizean Creole",
+      "status": "COMPLETE",
+      "names": 38
+    },
+    {
+      "i": 200629,
+      "name": "Bocas del Toro Creole",
+      "status": "WAITING",
+      "names": 16
+    },
+    {
+      "i": 200630,
+      "name": "Grenadian Creole",
+      "status": "COMPLETE",
+      "names": 33
+    },
+    {
+      "i": 200631,
+      "name": "Haitian Creole",
+      "status": "COMPLETE",
+      "names": 37
+    },
+    {
+      "i": 200632,
+      "name": "Jamaican Creole",
+      "status": "COMPLETE",
+      "names": 32
+    },
+    {
+      "i": 200634,
+      "name": "Leeward Caribbean Creole",
+      "status": "COMPLETE",
+      "names": 29
+    },
+    {
+      "i": 200635,
+      "name": "Limonese Creole",
+      "status": "COMPLETE",
+      "names": 37
+    },
+    {
+      "i": 200636,
+      "name": "Miskito Coast Creole",
+      "status": "COMPLETE",
+      "names": 32
+    },
+    {
+      "i": 200637,
+      "name": "Montserrat Creole",
+      "status": "COMPLETE",
+      "names": 36
+    },
+    {
+      "i": 200638,
+      "name": "Papiamento",
+      "status": "COMPLETE",
+      "names": 36
+    },
+    {
+      "i": 200639,
+      "name": "Rama Cay Creole",
+      "status": "COMPLETE",
+      "names": 33
+    },
+    {
+      "i": 200640,
+      "name": "Saint Kitts Creole",
+      "status": "WAITING",
+      "names": 24
+    },
+    {
+      "i": 200641,
+      "name": "San Andrés-Providencia Creole",
+      "status": "COMPLETE",
+      "names": 29
+    },
+    {
+      "i": 200642,
+      "name": "Tobagonian Creole",
+      "status": "COMPLETE",
+      "names": 33
+    },
+    {
+      "i": 200643,
+      "name": "Trinidadian Creole",
+      "status": "COMPLETE",
+      "names": 35
+    },
+    {
+      "i": 200658,
+      "name": "Pipil (Nawat)",
+      "status": "WAITING",
+      "names": 14
+    },
+    {
+      "i": 200905,
+      "name": "Ch'olti'",
+      "status": "WAITING",
+      "names": 0
+    },
+    {
+      "i": 200907,
+      "name": "Mocho'",
+      "status": "WAITING",
+      "names": 2
+    },
+    {
+      "i": 200908,
+      "name": "Mopan",
+      "status": "WAITING",
+      "names": 5
+    },
+    {
+      "i": 200909,
+      "name": "Sierra Juarez Zapotec",
+      "status": "COMPLETE",
+      "names": 28
+    },
+    {
+      "i": 200911,
+      "name": "Tojol-ab'al",
+      "status": "WAITING",
+      "names": 5
+    },
+    {
+      "i": 200912,
+      "name": "Trique",
+      "status": "COMPLETE",
+      "names": 28
+    },
+    {
+      "i": 200913,
+      "name": "Uspantek",
+      "status": "WAITING",
+      "names": 2
+    },
+    {
+      "i": 201020,
+      "name": "Arapaho",
+      "status": "COMPLETE",
+      "names": 31
+    },
+    {
+      "i": 201023,
+      "name": "Gwich'in",
+      "status": "WAITING",
+      "names": 10
+    },
+    {
+      "i": 201024,
+      "name": "Hän",
+      "status": "WAITING",
+      "names": 5
+    },
+    {
+      "i": 201025,
+      "name": "Métis French",
+      "status": "COMPLETE",
+      "names": 37
+    },
+    {
+      "i": 201026,
+      "name": "Mi'kmaq",
+      "status": "COMPLETE",
+      "names": 34
+    },
+    {
+      "i": 201027,
+      "name": "Mohave",
+      "status": "COMPLETE",
+      "names": 29
+    },
+    {
+      "i": 201028,
+      "name": "Dene",
+      "status": "WAITING",
+      "names": 0
+    },
+    {
+      "i": 201029,
+      "name": "Occaneechi",
+      "status": "WAITING",
+      "names": 0
+    },
+    {
+      "i": 201030,
+      "name": "Southern Tepehuan",
+      "status": "COMPLETE",
+      "names": 26
+    },
+    {
+      "i": 201031,
+      "name": "Tanacross",
+      "status": "WAITING",
+      "names": 7
+    },
+    {
+      "i": 201032,
+      "name": "Tłįchǫ",
+      "status": "WAITING",
+      "names": 6
+    },
+    {
+      "i": 201033,
+      "name": "Ute",
+      "status": "COMPLETE",
+      "names": 44
+    },
+    {
+      "i": 201034,
+      "name": "Wiyot",
+      "status": "COMPLETE",
+      "names": 32
+    },
+    {
+      "i": 201035,
+      "name": "Yurok",
+      "status": "COMPLETE",
+      "names": 28
+    },
+    {
+      "i": 201036,
+      "name": "Zuni",
+      "status": "COMPLETE",
+      "names": 28
+    },
+    {
+      "i": 201358,
+      "name": "Dominican Creole French",
+      "status": "COMPLETE",
+      "names": 33
+    },
+    {
+      "i": 201359,
+      "name": "French Guianese Creole",
+      "status": "COMPLETE",
+      "names": 30
+    },
+    {
+      "i": 201360,
+      "name": "Grenadian Creole French",
+      "status": "COMPLETE",
+      "names": 34
+    },
+    {
+      "i": 201361,
+      "name": "Karipúna French Creole",
+      "status": "COMPLETE",
+      "names": 37
+    },
+    {
+      "i": 201362,
+      "name": "Louisiana Creole",
+      "status": "COMPLETE",
+      "names": 33
+    },
+    {
+      "i": 201363,
+      "name": "Saint Lucian Creole",
+      "status": "COMPLETE",
+      "names": 32
+    }
   ],
   "fabricatedGarbageRemoved": "977 + 41 tokens removed earlier across all entries. Note: some LangName+letter placeholders persist where stem != display name (e.g. K'iche' had Kichem/Kichen/etc, removed during Mayan wave). Watch for these per entry.",
   "guardrails": "PASS (map=3425 catalog=3526)",
@@ -53,5 +1230,187 @@
     "Mark cover terms WAITING/COVER_TERM: Cauque Mayan i=1187, Athabaskan i=2075, Southern-Quechua i=2565, Salish i=2613, Almosan i=20076, Dene i=201028; resolve duplicate Kalaallisut i=8050 vs Greenlandic i=1829, and many other dupe pairs (Cochimi 1204/201022, Yucatec-Maya 2550/8128, Qanjobal 2561/6626, Ch'ol 1412/200904, dedicated-vs-non-dedicated creoles, Spanglish 20219/200231).",
     "QC lesson: subagents tend to (a) pad with spelling variants of the same place, (b) keep bare ethnonyms/organization/band-government names, (c) keep colonial-label town names justified only by a historical village list, (d) over-pad small languages with generic Spanish aldea names from one source, (e) use lowercase status like 'complete'. Always run a QC pass + dry-run before applying.",
     "apply-verified.js auto-recomputes min/max/m from actual name lengths."
+  ],
+  "duplicateEntries": [
+    {
+      "i": 2548,
+      "name": "Qeqchi",
+      "duplicateOf": 8125,
+      "names": 52
+    },
+    {
+      "i": 2561,
+      "name": "Qanjobal",
+      "duplicateOf": 6626,
+      "names": 13
+    },
+    {
+      "i": 8050,
+      "name": "Kalaallisut",
+      "names": 0,
+      "duplicateOf": 1829
+    },
+    {
+      "i": 8128,
+      "name": "Yucatec Maya",
+      "duplicateOf": 2550,
+      "names": 55
+    },
+    {
+      "i": 8430,
+      "name": "Zapotec",
+      "names": 5,
+      "duplicateOf": 1492
+    },
+    {
+      "i": 20106,
+      "name": "Anguillian Creole (dedicated)",
+      "duplicateOf": 200625,
+      "names": 38
+    },
+    {
+      "i": 20107,
+      "name": "Bahamian Creole (dedicated)",
+      "duplicateOf": 200626,
+      "names": 35
+    },
+    {
+      "i": 20108,
+      "name": "Bajan Creole (dedicated)",
+      "duplicateOf": 200627,
+      "names": 38
+    },
+    {
+      "i": 20109,
+      "name": "Belizean Creole (dedicated)",
+      "duplicateOf": 200628,
+      "names": 38
+    },
+    {
+      "i": 20110,
+      "name": "Bocas del Toro Creole (dedicated)",
+      "duplicateOf": 200629,
+      "names": 36
+    },
+    {
+      "i": 20175,
+      "name": "Grenadian Creole English (dedicated)",
+      "duplicateOf": 200630,
+      "names": 30
+    },
+    {
+      "i": 20176,
+      "name": "Leeward Caribbean Creole English (dedicated)",
+      "duplicateOf": 200634,
+      "names": 27
+    },
+    {
+      "i": 20177,
+      "name": "Limonese Creole (dedicated)",
+      "duplicateOf": 200635,
+      "names": 37
+    },
+    {
+      "i": 20178,
+      "name": "Miskito Coast Creole (dedicated)",
+      "duplicateOf": 200636,
+      "names": 32
+    },
+    {
+      "i": 20179,
+      "name": "Montserrat Creole (dedicated)",
+      "duplicateOf": 200637,
+      "names": 36
+    },
+    {
+      "i": 20180,
+      "name": "Rama Cay Creole (dedicated)",
+      "duplicateOf": 200639,
+      "names": 51
+    },
+    {
+      "i": 20181,
+      "name": "Saint Kitts Creole (dedicated)",
+      "duplicateOf": 200640,
+      "names": 31
+    },
+    {
+      "i": 20183,
+      "name": "Tobagonian Creole (dedicated)",
+      "duplicateOf": 200642,
+      "names": 35
+    },
+    {
+      "i": 20184,
+      "name": "Trinidadian Creole (dedicated)",
+      "duplicateOf": 200643,
+      "names": 35
+    },
+    {
+      "i": 20185,
+      "name": "Turks and Caicos Creole (dedicated)",
+      "duplicateOf": 1293,
+      "names": 42
+    },
+    {
+      "i": 20186,
+      "name": "Vincentian Creole (dedicated)",
+      "duplicateOf": 1294,
+      "names": 45
+    },
+    {
+      "i": 20187,
+      "name": "Virgin Islands Creole (dedicated)",
+      "duplicateOf": 1295,
+      "names": 90
+    },
+    {
+      "i": 20188,
+      "name": "Jamaican Maroon Creole (dedicated)",
+      "duplicateOf": 1296,
+      "names": 32
+    },
+    {
+      "i": 200231,
+      "name": "Spanglish",
+      "duplicateOf": 20219,
+      "names": 0
+    },
+    {
+      "i": 200633,
+      "name": "Jamaican Patois",
+      "duplicateOf": 200632,
+      "names": 36
+    },
+    {
+      "i": 200904,
+      "name": "Ch'ol",
+      "duplicateOf": 1412,
+      "names": 0
+    },
+    {
+      "i": 200906,
+      "name": "Itza'",
+      "duplicateOf": 1988,
+      "names": 0
+    },
+    {
+      "i": 200910,
+      "name": "Tlapanec (Me'phaa)",
+      "duplicateOf": 5829,
+      "names": 0
+    },
+    {
+      "i": 201021,
+      "name": "Coast Tsimshian (Sm'algya̱x) [DUPLICATE]",
+      "names": 0,
+      "duplicateOf": 5832
+    },
+    {
+      "i": 201022,
+      "name": "Cochimi",
+      "duplicateOf": 1204,
+      "names": 0
+    }
   ]
 }
