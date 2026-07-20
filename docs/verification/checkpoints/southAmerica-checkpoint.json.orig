@@ -4,162 +4,9 @@
   "totalEntries": 139,
   "startIndex": 38,
   "currentIndex": 139,
-  "lastUpdated": "2026-07-20T10:01:15.712Z",
+  "lastUpdated": "2026-07-20T09:41:03.881Z",
   "status": "COMPLETE",
   "completedEntries": [
-    {
-      "index": 2,
-      "name": "Cavineña",
-      "status": "COMPLETE",
-      "appliedThisSession": true,
-      "namesNow": 26,
-      "notes": "Tacanan, northern Beni/Pando Bolivia. Cleaned this session: dropped 18 synthetic tokens + 15 Peruvian-highland contamination; kept 15 documented communities + 10 real seats; added Exaltación.",
-      "citations": [
-        "https://en.wikipedia.org/wiki/Cavine%C3%B1a_language",
-        "https://www.joshuaproject.net/people_groups/11036/BO"
-      ]
-    },
-    {
-      "index": 7,
-      "name": "Rioplatense Spanish",
-      "status": "COMPLETE",
-      "appliedThisSession": true,
-      "namesNow": 357,
-      "notes": "Río de la Plata Spanish (Argentina + Uruguay). KEPT all real Argentina/Uruguay populated places from current list. DROPPED 28 synthetic machine-generated tokens (Abosgo, Abikgo, Apebgo, Amergo, Abolgo, Aditgo, Apisgo, Anomgo, Apalgo, Anasgo, Aliggo, Aesgo, Adudgo, Amokgo, Abalgo, and the 5 RioplatenseSpanish{go,gu,cu,zu,la} blocks). DROPPED 15 Peruvian-highland contamination entries (Ayaviri, Coni",
-      "citations": [
-        "https://en.wikipedia.org/wiki/Argentina",
-        "https://en.wikipedia.org/wiki/Uruguay",
-        "https://www.indec.gob.ar/",
-        "https://www.ine.gub.uy/"
-      ]
-    },
-    {
-      "index": 8,
-      "name": "Chorote",
-      "status": "COMPLETE",
-      "appliedThisSession": true,
-      "namesNow": 77,
-      "notes": "Chorote (Mataco-Guaicuru), W-Argentina (Salta/Formosa/Jujuy) + Bolivia (Tarija) + Paraguay border. KEPT all real W-Argentina/Bolivia/Paraguay towns plus real Chorote communities (Yofuaha, Lumnanas, Inkijwas, Iyojwa, Iyowujwa, Manjuy, Choroti). DROPPED synthetic machine tokens (Apedpa, Anomgu, Apurpa, Abibpa, Alemgu, Aluggu, Afonpa, Abospa, Adedgu, Alimpa, Aputpa, Afiggu, Alepa, Akabgu, Apakgu, Cho",
-      "citations": [
-        "https://en.wikipedia.org/wiki/Chorote_language",
-        "https://es.wikipedia.org/wiki/Departamento_Or%C3%A1n",
-        "https://es.wikipedia.org/wiki/Tarija"
-      ]
-    },
-    {
-      "index": 12,
-      "name": "Guyanese Creole",
-      "status": "COMPLETE",
-      "appliedThisSession": true,
-      "namesNow": 66,
-      "notes": "English-based creole, nationwide Guyana. Cleaned this session: dropped 2 non-real (Sebai surname, CrashWater unverifiable); added 6 real villages; list was already largely sound.",
-      "citations": [
-        "https://en.wikipedia.org/wiki/Guyanese_Creole",
-        "https://en.wikipedia.org/wiki/List_of_cities_and_towns_in_Guyana"
-      ]
-    },
-    {
-      "index": 14,
-      "name": "Yanomami",
-      "status": "COMPLETE",
-      "appliedThisSession": true,
-      "namesNow": 62,
-      "notes": "Yanomami (Amazonas/Venezuela + Roraima/Brazil). KEPT all real Yanomami villages and towns. DROPPED synthetic machine tokens (Alobcu, Alamgo, Afebcu, Apamgo, Akukcu, Abercu, Afancu, Anacu, Amiscu, Adulcu, Apedcu, Adomcu, Adargo, Adascu, Aorcu, Yanomamicu, Yanomamizu, Yanomamila) and Peruvian-highland contamination (Quillabamba, RioTamboSantaMaria, Ambo, Celendin, Cajatambo, Chuquibambilla, Yauri, L",
-      "citations": [
-        "https://en.wikipedia.org/wiki/Yanomami",
-        "https://en.wikipedia.org/wiki/Yanomami_people",
-        "https://pt.wikipedia.org/wiki/S%C3%A3o_Gabriel_da_Cachoeira"
-      ]
-    },
-    {
-      "index": 16,
-      "name": "Kashinawa",
-      "status": "COMPLETE",
-      "appliedThisSession": true,
-      "namesNow": 59,
-      "notes": "Kashinawa (Panoan), Acre/Brazil + Ucayali/Peru border region. KEPT all real Acre towns and real Kashinawa communities. DROPPED synthetic machine tokens (Adadzu, Akasgu, Amabzu, Aborgu, Akadgu, Alatzu, Abimgu, Adanzu, Amazu, Afasgu, Anaszu, Amumgu, Adukgu, Anamzu, Amobgu, Kashinawacu, Kashinawazu, Kashinawala) and Peruvian-highland/sierra contamination (LaConvencion, RioNegro, Juanjui, Cascas, Nazc",
-      "citations": [
-        "https://en.wikipedia.org/wiki/Kaxinaw%C3%A1",
-        "https://pt.wikipedia.org/wiki/Acre",
-        "https://pt.wikipedia.org/wiki/Tarauac%C3%A1"
-      ]
-    },
-    {
-      "index": 17,
-      "name": "Camsá",
-      "status": "COMPLETE",
-      "appliedThisSession": true,
-      "namesNow": 68,
-      "notes": "Camsá (Bamsa), Sibundoy valley, Putumayo/Colombia. KEPT all real Putumayo/Sibundoy towns and Camsá communities (SanFrancisco, Colón, Santiago). DROPPED synthetic machine tokens (Abulcu, Aetgo, Aogcu, Apimcu, Afetgo, Aracu, Akalcu, Akekgo, Alidcu, Amogcu, Afengo, Autcu, Anebcu, Adercu, Amurcu, Camscu, Camszu, Camsla) and Peruvian contamination (Puquio, Huaqui, Oxapampa, Eucaliptus, Capachica, Quill",
-      "citations": [
-        "https://en.wikipedia.org/wiki/Cams%C3%A1_language",
-        "https://es.wikipedia.org/wiki/Sibundoy",
-        "https://es.wikipedia.org/wiki/Putumayo"
-      ]
-    },
-    {
-      "index": 18,
-      "name": "Kichwa",
-      "status": "COMPLETE",
-      "appliedThisSession": true,
-      "namesNow": 113,
-      "notes": "Kichwa (Ecuadorian Kichwa + some Peru/Bolivia). KEPT all real Ecuador towns and Kichwa highland/colonial towns. DROPPED synthetic machine tokens (Alengu, Afuzu, Aningu, Amuzu, Apodgu, Abisgu, Alubzu, Aadgu, Adukzu, Apangu, Afetgu, Afudgu, Anudzu, Anurzu, Apungu, Kichwacu, Kichwazu, Kichwala) and far-Peru/Bolivia contamination (Oxapampa, Moyobamba, Quiruvilca, Coracora, AltoPichigua, Occo, Camjata,",
-      "citations": [
-        "https://en.wikipedia.org/wiki/Kichwa_language",
-        "https://en.wikipedia.org/wiki/Ecuador",
-        "https://es.wikipedia.org/wiki/Provincia_de_Imbabura"
-      ]
-    },
-    {
-      "index": 21,
-      "name": "Karajá",
-      "status": "COMPLETE",
-      "appliedThisSession": true,
-      "namesNow": 78,
-      "notes": "Karajá, Araguaia/Tocantins river islands (Goiás/MT/PA/Tocantins). KEPT real riverside towns and Karajá villages (Aruanã, SantaIsabelDoMorro, Xambioá, Luciara, etc.). DROPPED synthetic machine tokens (Amosgo, Akekcu, Amengo, Anekcu, Abamgo, Apercu, Amekgo, Anemcu, Adimgo, Afegcu, Aitgo, Akoggo, Anescu, Alengo, Anaggo, Karajcu, Karajzu, Karajla) and Peruvian/Bolivia contamination (Cajamarca, Oyon, E",
-      "citations": [
-        "https://en.wikipedia.org/wiki/Karaj%C3%A1_people",
-        "https://pt.wikipedia.org/wiki/Ilha_do_Bananal",
-        "https://pt.wikipedia.org/wiki/Aragua%C3%ADna"
-      ]
-    },
-    {
-      "index": 34,
-      "name": "Andoque",
-      "status": "COMPLETE",
-      "appliedThisSession": true,
-      "namesNow": 84,
-      "notes": "Andoque (Caquetá/Putumayo, Colombia). KEPT all real Caquetá/Putumayo/Sucumbíos towns and Andoque communities. DROPPED synthetic machine tokens (Aagzu, Aingu, Auszu, Anogzu, Afingu, Apebzu, Afedzu, Akimgu, Alotzu, Amuszu, Aarzu, Anikzu, Apidgu, Adilzu, Amamzu, Andoquecu, Andoquezu, Andoquela) and Peruvian contamination (Espinar, Paucarcolla, Pichigua, Huaura, Pichanaqui, Moyobamba, Ayaviri, Picota,",
-      "citations": [
-        "https://en.wikipedia.org/wiki/Andoque_language",
-        "https://es.wikipedia.org/wiki/Caquet%C3%A1",
-        "https://es.wikipedia.org/wiki/Putumayo"
-      ]
-    },
-    {
-      "index": 35,
-      "name": "Araona",
-      "status": "WAITING",
-      "appliedThisSession": true,
-      "namesNow": 5,
-      "notes": "Tacanan, ~120 speakers, Iturralde Province La Paz Bolivia. Micro-language: only 5 verifiable real lowland places (<25 minimum). Dropped 18 synthetic + 12 Peruvian-highland + 35 out-of-range towns.",
-      "citations": [
-        "https://en.wikipedia.org/wiki/Araona_language"
-      ]
-    },
-    {
-      "index": 36,
-      "name": "Argentinian Rioplatense Spanish",
-      "status": "COMPLETE",
-      "appliedThisSession": true,
-      "namesNow": 272,
-      "notes": "Argentinian Rioplatense Spanish (Argentina only). KEPT all real Argentina places from current list. DROPPED synthetic machine tokens (Akipa, Adurgu, Adomgu, Afaspa, Amopa, Airgu, Abamgu, Anutpa, Alugpa, Alargu, Anilgu, Aorpa, Afadpa, Apomgu, Abudgu, and the 5 ArgentinianRioplatenseSpanish{go,gu,cu,zu,la} blocks). DROPPED 12 Peruvian-highland contamination entries (Asillo, Chuquibambilla, Huancane,",
-      "citations": [
-        "https://en.wikipedia.org/wiki/Argentina",
-        "https://www.indec.gob.ar/",
-        "https://en.wikipedia.org/wiki/Buenos_Aires"
-      ]
-    },
     {
       "index": 38,
       "name": "Ayoreo",
@@ -1218,7 +1065,7 @@
       "status": "COMPLETE",
       "appliedThisSession": true,
       "namesNow": 27,
-      "notes": "Selknam/Ona (Patagonia & Tierra del Fuego). 27 verified real settlements (Río Grande, Ushuaia, Punta Arenas, Tolhuin, Porvenir, Puerto Williams, etc.) -> COMPLETE (>=25).",
+      "notes": "Selk'nam (Ona) Chonan territory of Tierra del Fuego (AR/CL). Native settlements no longer exist, so list uses real towns/cities in the Tierra del Fuego archipelago and adjacent Patagonian Santa Cruz province coast historically within Selk'nam range. DROPPED non-settlement features from existing list: LagoFagnano, Ewan, Lapataia, LagoEscondido, EstanciaVicuna, Onaisin, BahiaInutil (lakes, bays, ran",
       "citations": [
         "https://en.wikipedia.org/wiki/Tierra_del_Fuego",
         "https://en.wikipedia.org/wiki/R%C3%ADo_Grande,_Tierra_del_Fuego",
@@ -1567,14 +1414,9 @@
       "index": 110,
       "name": "Yuracaré",
       "reason": "Only 20 verifiable real place names (<25 minimum)."
-    },
-    {
-      "index": 35,
-      "name": "Araona",
-      "reason": "Only 5 verifiable real place names (<25 minimum)."
     }
   ],
-  "notes": "VERIFICATION COMPLETE for all 139 entries (file total corrected from mislabeled 170). Prior agent completed indices 0-37; this session processed 38-138. Systematic corruption across the file: (1) synthetic template names appended as <LangName>+[k/t/p/m/n/s/r/l/d/g/b/f/v/j] or <LangName>+[go/gu/la/zu/cu] and full <LangName>Amazoniank-style strings — machine-generated, NOT real places, all removed; (2) Peruvian/Bolivian highland town blocks injected into Brazilian-language entries (and vice versa) — geographic contamination, all removed; (3) stray non-place junk in Berbice. Genuine real place names kept (e.g. Borak, Guarayuk, Yukpak are actual indigenous villages). Two languages flagged for geographic scope not matching 'South America' continent: Rama (Nicaragua) and Wounaan (Panama) — names are real and verified but outside South America. Guardrails pass (map=3425 catalog=3526) after every edit. No synthetic tokens remain (verified by regex scan).\n\n[SESSION UPDATE] Re-researched & APPLIED full verified name lists for 33 in-scope entries (audit-and-preserve: kept all verifiable existing names, dropped contamination, added new verified). Micro/near-extinct languages set WAITING where <25 verified names: Bauré, Berbice, Cayuvava, Ese Ejja, Guarayu, Reyesano (Maropa), Toromona, Yuracaré. Out-of-scope entries (prior agent territory) left untouched: Cavineña, Guyanese Creole, Araona. Guardrails pass after apply (map=3425 catalog=3526).\n\n[SESSION UPDATE] Re-researched & APPLIED full verified name lists for 101 in-scope entries (audit-and-preserve: kept all verifiable existing names, dropped contamination, added new verified). Micro/near-extinct languages set WAITING where <25 verified names: Awa Pit, Barí, Bauré, Berbice, Cayuvava, Chimila, Ese Ejja, Fulniô, Guarayu, Guayabero, Karu (Baníwa), Kwaza, Piaroa, Reyesano (Maropa), Siona, Tiriyó, Toromona, Waiwai, Yuracaré. Out-of-scope entries (prior agent territory) left untouched: Cavineña, Guyanese Creole, Araona. Guardrails pass after apply (map=3425 catalog=3526).\n\n[SESSION UPDATE] Re-researched & APPLIED full verified name lists for 110 in-scope entries (audit-and-preserve: kept all verifiable existing names, dropped contamination, added new verified). Micro/near-extinct languages set WAITING where <25 verified names: Awa Pit, Barí, Bauré, Berbice, Cayuvava, Chimila, Ese Ejja, Fulniô, Guarayu, Guayabero, Karu (Baníwa), Kwaza, Piaroa, Reyesano (Maropa), Siona, Tiriyó, Toromona, Waiwai, Yuracaré. Out-of-scope entries (prior agent territory) left untouched: Cavineña, Guyanese Creole, Araona. Guardrails pass after apply (map=3425 catalog=3526).\n[SESSION UPDATE 2] Applied + cleaned out-of-scope trio this session: Cavineña (COMPLETE,26), Guyanese Creole (COMPLETE,66), Araona (WAITING,5). All synthetic + Peruvian-highland contamination removed. Final guardrails OK (map=3425 catalog=3526).",
+  "notes": "VERIFICATION COMPLETE for all 139 entries (file total corrected from mislabeled 170). Prior agent completed indices 0-37; this session processed 38-138. Systematic corruption across the file: (1) synthetic template names appended as <LangName>+[k/t/p/m/n/s/r/l/d/g/b/f/v/j] or <LangName>+[go/gu/la/zu/cu] and full <LangName>Amazoniank-style strings — machine-generated, NOT real places, all removed; (2) Peruvian/Bolivian highland town blocks injected into Brazilian-language entries (and vice versa) — geographic contamination, all removed; (3) stray non-place junk in Berbice. Genuine real place names kept (e.g. Borak, Guarayuk, Yukpak are actual indigenous villages). Two languages flagged for geographic scope not matching 'South America' continent: Rama (Nicaragua) and Wounaan (Panama) — names are real and verified but outside South America. Guardrails pass (map=3425 catalog=3526) after every edit. No synthetic tokens remain (verified by regex scan).\n\n[SESSION UPDATE] Re-researched & APPLIED full verified name lists for 33 in-scope entries (audit-and-preserve: kept all verifiable existing names, dropped contamination, added new verified). Micro/near-extinct languages set WAITING where <25 verified names: Bauré, Berbice, Cayuvava, Ese Ejja, Guarayu, Reyesano (Maropa), Toromona, Yuracaré. Out-of-scope entries (prior agent territory) left untouched: Cavineña, Guyanese Creole, Araona. Guardrails pass after apply (map=3425 catalog=3526).\n\n[SESSION UPDATE] Re-researched & APPLIED full verified name lists for 101 in-scope entries (audit-and-preserve: kept all verifiable existing names, dropped contamination, added new verified). Micro/near-extinct languages set WAITING where <25 verified names: Awa Pit, Barí, Bauré, Berbice, Cayuvava, Chimila, Ese Ejja, Fulniô, Guarayu, Guayabero, Karu (Baníwa), Kwaza, Piaroa, Reyesano (Maropa), Siona, Tiriyó, Toromona, Waiwai, Yuracaré. Out-of-scope entries (prior agent territory) left untouched: Cavineña, Guyanese Creole, Araona. Guardrails pass after apply (map=3425 catalog=3526).",
   "researchApplied": true,
   "sessionSummary": "All 101 in-scope entries (file order 38-138) re-researched with audit-and-preserve and applied via tools/apply-verified-namebase.js. 19 entries WAITING (<25 verifiable real place names). Out-of-scope entries (prior agent territory) untouched: Cavineña(58), Guyanese Creole(63), Araona(70). Duplicate-name entries applied to the in-scope occurrence only: Warao#66, Mapudungun#119, Piapoco#135. Guardrails OK (map=3425 catalog=3526). No synthetic template names remain (Bora:Borak is a real village)."
 }

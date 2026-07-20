@@ -40,6 +40,23 @@
       "Acheron (i=545)": "WAITING - 3 (micro Nuba)",
       "Adara (i=546)": "COMPLETE - 30",
       "Aghem (i=566)": "WAITING - 1 (one-town micro)"
+    },
+    "wave2_i580_i611": {
+      "Aiki (i=580)": "WAITING - 15 (Maban/Runga; below 25)",
+      "Amdang (i=581)": "WAITING - 6 (micro, E Chad)",
+      "Doghose (i=582)": "WAITING - 2 (Sindou/Sideredougou only)",
+      "Eton (i=583)": "COMPLETE - 46 (Lekie dept, Cameroon)",
+      "Afade (i=584)": "WAITING - 16 (Kotoko; below 25)",
+      "Afar (i=585)": "COMPLETE - 41",
+      "Bura (i=586)": "COMPLETE - 25 (Biu Plateau)",
+      "Bure (i=587)": "WAITING - 1 (micro, Kirfi LGA)",
+      "Buwal (i=588)": "WAITING - 1 (micro, Gadala only)",
+      "Cakfem-Mushere (i=589)": "WAITING - 3 (Cakfem/Mushere/Tim)",
+      "Bukusu (i=590)": "COMPLETE - 44 (Bungoma, Kenya)",
+      "Afrikaans (i=596)": "COMPLETE - 73 (ZA/NA)",
+      "Agaw (i=608)": "WAITING - cover term (Central Cushitic family); verdict quarantined to pending/, NOT applied. Recommend split into Awngi/Bilen/Xamtanga/Qimant.",
+      "Yemba (i=610)": "COMPLETE - 30 (Dschang/Menoua, Cameroon)",
+      "Zande (i=611)": "COMPLETE - 49 (DRC/CAR/SS)"
     }
   },
   "patternsIdentified": {
@@ -47,9 +64,9 @@
     "microLanguage": "Many small Nigerian Plateau/Kainji, Cameroon Grassfields, Sudan Kordofanian, and Gulf-of-Guinea creole entries cannot reach 25 verified names -> WAITING.",
     "coverTerms": "Branches/families (East Chadic, Bauchi Chadic, West African English Creole, Judeo-Arabic Maghrebi) marked WAITING per Rule 4."
   },
-  "nextStep": "Continue subagent pipeline from Aiki (i just after 566). Read next batch of entries from modules/namebases-africa.js, dispatch one subagent per entry, apply verdicts, run guardrails, archive.",
+  "nextStep": "Continue subagent pipeline from entries after Zande (i=611). Read next batch from modules/namebases-africa.js, dispatch one subagent per entry, apply verdicts, run guardrails, archive.",
   "resumePosition": {
-    "entryName": "Aiki",
-    "note": "Next unprocessed entry after Aghem (i=566). Read the file after the Aghem entry to get exact i values for the next batch."
+    "entryName": "Zande (i=611)",
+    "note": "Next unprocessed entries follow Zande. Read the file after the Zande entry to get exact i values for the next batch. Agaw (i=608) left WAITING/cover-term, quarantined to pending/."
   }
 }

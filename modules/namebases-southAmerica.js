@@ -28,7 +28,7 @@ window.southAmericaNameBases = [
   "max": 19,
   "d": "",
   "m": 0,
-    "b": "PuertoCavinas,Cavinas,Riberalta,Reyes,Baqueti,Bolívar,Candelaria,Natividad,Paraíso,SantaCatalina,ElChoro,PeñaGuarayo,Galilea,Rurrenabaque,SantaRosa,Cobija,Guayaramerín,Porvenir,PuertoRico,SanBorja,Yucumo,SanJuan,SanJosé,SanMiguel,Francia,Andamarca,Ccapi,Pucara,Cabana,Desaguadero,SicaSica,Tiquina,Azangaro,Huayllabamba,VillaVirgen,Pichanaqui,Tarapoto,SantiagoDeChuco,Puquio,Condoroma,Abuszu,Abelgu,Abokzu,Apibzu,Akelgu,Aakzu,Akaszu,Amirzu,Anokzu,Afedgu,Abulzu,Aetgu,Adegzu,Amugzu,Akengu,Cavineacu,Cavineazu,Cavineala"
+    "b": "PuertoCavinas,Cavinas,Baqueti,Bolívar,Candelaria,Natividad,Paraíso,SantaCatalina,ElChoro,PeñaGuarayo,Galilea,SanJuan,SanJosé,SanMiguel,Francia,Riberalta,Reyes,Rurrenabaque,SantaRosa,Cobija,Guayaramerín,Porvenir,PuertoRico,SanBorja,Yucumo,Exaltación"
 },
 {
     "name": "Chilean Spanish",
@@ -73,7 +73,7 @@ window.southAmericaNameBases = [
   "max": 21,
   "d": "lnrt",
   "m": 0,
-  "b": "BuenosAires,LaPlata,MarDelPlata,Rosario,Córdoba,Mendoza,SanJuan,SanRafael,SanLuis,SanMartín,Tandil,Necochea,BahíaBlanca,Quilmes,Lanús,Avellaneda,LomasDeZamora,SanIsidro,SanFernando,VicenteLópez,SanNicolás,Pergamino,Junín,Chivilcoy,Bragado,Pehuajó,Carhué,TresArroyos,CoronelDorrego,CoronelPringles,Rauch,Balcarce,Miramar,Chascomús,Cañuelas,Lobos,Navarro,Saladillo,Rojas,Gualeguaychú,Gualeguay,Paraná,Colón,SantaFe,Rafaela,Sunchales,Casilda,SanLorenzo,VenadoTuerto,Firmat,SanFrancisco,VillaConstitución,Salto,SanPedro,Baradero,Zárate,SanAntonioDeAreco,Luján,Mercedes,Chacabuco,VillaDolores,LaCarlota,RíoCuarto,VillaMaría,SanCarlos,MinaClavero,SanJavier,Arrecifes,TrenqueLauquen,GeneralMadariaga,Pinamar,VillaGesell,MarChiquita,MonteHermoso,CoronelSuárez,GeneralRoca,VillaCarlosPaz,LaFalda,CapillaDelMonte,AltaGracia,Cosquín,VillaGeneralBelgrano,Montevideo,ColoniaDelSacramento,Paysandú,Salto,PuntaDelEste,Maldonado,Rivera,Tacuarembó,Mercedes,Trinidad,Durazno,Florida,Minas,Rocha,Artigas,FrayBentos,NuevaHelvecia,Carmelo,NuevaPalmira,GeneralAlvear,GeneralVillegas,GeneralLamadrid,Claromecó,GeneralBelgrano,GeneralPueyrredón,SanCayetano,Castelli,Monte,Lincoln,ConcepciónDelUruguay,SanJosé,SantoTomé,SanJusto,SanGuillermo,JuanBautistaAlberdi,ArroyoSeco,GeneralPinto,GeneralViamonte,Ameghino,JustoDaract,Nono,SanCipriano,CarmenDeAreco,Salliqueló,GeneralLavalle,Lezama,Piedritas,RíoCeballos,LaCumbrecita,SanIgnacio,Ayaviri,Conima,Pichacani,Poopo,Laja,Acora,Layo,Kepashiato,Pangoa,Tocache,Hualgayoc,Mala,Kinsachata,Suyckutambo,Japurin,Abosgo,Abikgo,Apebgo,Amergo,Abolgo,Aditgo,Apisgo,Anomgo,Apalgo,Anasgo,Aliggo,Aesgo,Adudgo,Amokgo,Abalgo,RioplatenseSpanishgo,RioplatenseSpanishgu,RioplatenseSpanishcu,RioplatenseSpanishzu,RioplatenseSpanishla"
+  "b": "BuenosAires,LaPlata,MarDelPlata,Rosario,Córdoba,Mendoza,SanJuan,SanRafael,SanLuis,SanMartín,Tandil,Necochea,BahíaBlanca,Quilmes,Lanús,Avellaneda,LomasDeZamora,SanIsidro,SanFernando,VicenteLópez,SanNicolás,Pergamino,Junín,Chivilcoy,Bragado,Pehuajó,Carhué,TresArroyos,CoronelDorrego,CoronelPringles,Rauch,Balcarce,Miramar,Chascomús,Cañuelas,Lobos,Navarro,Saladillo,Rojas,Gualeguaychú,Gualeguay,Paraná,Colón,SantaFe,Rafaela,Sunchales,Casilda,SanLorenzo,VenadoTuerto,Firmat,SanFrancisco,VillaConstitución,Salto,SanPedro,Baradero,Zárate,SanAntonioDeAreco,Luján,Mercedes,Chacabuco,VillaDolores,LaCarlota,RíoCuarto,VillaMaría,SanCarlos,MinaClavero,SanJavier,Arrecifes,TrenqueLauquen,GeneralMadariaga,Pinamar,VillaGesell,MarChiquita,MonteHermoso,CoronelSuárez,GeneralRoca,VillaCarlosPaz,LaFalda,CapillaDelMonte,AltaGracia,Cosquín,VillaGeneralBelgrano,RíoCeballos,LaCumbrecita,SanIgnacio,GeneralAlvear,GeneralVillegas,GeneralLamadrid,Claromecó,GeneralBelgrano,GeneralPueyrredón,SanCayetano,Castelli,Monte,Lincoln,ConcepciónDelUruguay,SanJosé,SantoTomé,SanJusto,SanGuillermo,JuanBautistaAlberdi,ArroyoSeco,GeneralPinto,GeneralViamonte,Ameghino,JustoDaract,Nono,SanCipriano,CarmenDeAreco,Salliqueló,GeneralLavalle,Lezama,Piedritas,EntreRíos,Corrientes,Misiones,Posadas,Resistencia,Formosa,Neuquén,RíoNegro,Bariloche,SanCarlosDeBariloche,Viedma,Cipolletti,Concordia,Goya,MonteCaseros,PasodeLosLibres,BellaVista,Esquina,CuruzúCuatiá,LaRioja,Catamarca,SantiagoDelEstero,Tucumán,Salta,SanMiguelDeTucumán,Jujuy,SanSalvadorDeJujuy,Tartagal,Orán,Metán,Chamical,VillaUnión,RíoTercero,Oncativo,Laborde,MarcosJuárez,Leones,VillaNueva,GeneralCabrera,MonteMaíz,SantaRosa,GeneralPico,IntendenteAlvear,Realicó,Telén,Toay,EduardoCastex,Victoria,SanRoque,LasVarillas,Morteros,BellVille,CruzDelEje,DeánFunes,SanFranciscoDelChañar,JesusMaría,ColoniaCaroya,CapillaDelSeñor,Campana,Escobar,Pilar,SanMiguel,Moreno,Merlo,Ituzaingó,Hurlingham,Tigre,SanMiguelDelMonte,GeneralRodríguez,Dolores,Maipú,Ayacucho,Olavarría,SierrasBayas,Azul,Tapalqué,BenitoJuárez,AdolfoGonzálesChaves,SanAndrésDeGiles,CarmenDePatagones,GeneralConesa,RíoColorado,ChoeleChoel,LuisBeltrán,IngenieroJacobacci,ElBolsón,SanMartínDeLosAndes,JunínDeLosAndes,Aluminé,Zapala,CutralCó,Plottier,Centenario,Allen,GeneralFernándezOro,CincoSaltos,VillaRegina,Chichinales,IngenieroHuergo,Mainqué,ComodoroRivadavia,PuertoMadryn,Trelew,Rawson,Esquel,PuertoSanJulían,CaletaOlivia,SanAntonioOeste,LasHeras,Malargüe,Tupungato,GodoyCruz,LujánDeCuyo,LaPaz,VillaMercedes,LaPunta,PotreroDeLosFunes,Atuel,Montevideo,ColoniaDelSacramento,Paysandú,PuntaDelEste,Maldonado,Rivera,Tacuarembó,Trinidad,Durazno,Florida,Minas,Rocha,Artigas,FrayBentos,NuevaHelvecia,Carmelo,NuevaPalmira,Young,Canelones,LasPiedras,Pando,Progreso,SantaLucía,SanRamón,SanBautista,Salinas,Atlántida,LaPaloma,LaPedrera,Castillos,Chuy,LagunaRincon,TreintaYTres,Vergara,SantaClaraDeOlimar,Melo,RíoBranco,LagoMerín,FraileMuerto,Aceguá,PanDeAzúcar,Piriápolis,Solís,LaFloresta,ParqueDelPlata,CiudadDelPlata,JuanLacaze,ColoniaValdense,Conchillas,Tarariras,Cerrillos,LaSierra,Guichón,PiedrasColoradas,ChacrasDePaysandú,Tambores,Quebracho,Constitución,Belén,Daymán,Arapey,SanAntonio,Biassini,Vichadero,MinasDeCorrales,Tranqueras,Lapuán,Masoller,PasoDeLosToros,Ansina,Curtina,LasToscas,SarandíDelYí,VillaDelCarmen,Carolina,SantaBernardina,CerroChato,FrayMarcos,CapillaDelSauce,Aiguá,JoséPedroVarela,Mariscala,OmbúesDeLavalle,CuchillaAlta,Kilómetro28,Gerona,Velázquez,FlorencioSánchez,RosarioDelSauce,BrisasDelPleamar"
 },
 {
     "name": "Chorote",
@@ -82,7 +82,7 @@ window.southAmericaNameBases = [
   "max": 34,
   "d": "",
   "m": 0,
-    "b": "Tartagal,ColoniaPedroPPena,VillaMontes,Yofuaha,Lumnanas,Inkijwas,Iyojwa,Iyowujwa,Manjuy,Choroti,SalvadorMazza,Aguaray,Embarcación,GeneralMosconi,Ballivián,Pocitos,Yacuiba,Carapari,Boyuibe,SantaVictoria,LaQuiaca,Llalli,Cabanillas,Juli,Eucaliptus,Ventilla,Ilave,Saylla,SantaAna,Satipo,Saposoa,Contumaza,Ica,SantoTomas,Ocoruro,Chupa,Apedpa,Anomgu,Apurpa,Abibpa,Alemgu,Aluggu,Afonpa,Abospa,Adedgu,Alimpa,Aputpa,Afiggu,Alepa,Akabgu,Apakgu,Chorotecu,Chorotezu,Chorotela"
+    "b": "Tartagal,ColoniaPedroPPena,VillaMontes,Yofuaha,Lumnanas,Inkijwas,Iyojwa,Iyowujwa,Manjuy,Choroti,SalvadorMazza,Aguaray,Embarcación,GeneralMosconi,Ballivián,Pocitos,Yacuiba,Carapari,Boyuibe,SantaVictoria,LaQuiaca,MisiónLaPaz,PaloSanto,GeneralBallivián,Drago,ProfesorSalvadorMazza,SanRamónDeLaNuevaOrán,Orán,Piquirenda,AbraPampa,Humahuaca,Tilcara,SanPedroDeJujuy,LibertadorGeneralSanMartín,Calilegua,Ledesma,Yuto,Purmamarca,TafíViejo,AguasBlancas,Iruya,SantaVictoriaEste,SantaVictoriaOeste,MisiónChaquenho,PadreLozano,ElCruce,RíoGrande,CañadaDeGómez,Formosa,Clorinda,Pirané,ElColorado,GeneralGüemes,LasLomitas,ComandanteFontana,SantiagoDelEstero,LaCruz,Carandayty,Caiguá,EntreRíos,PadreColl,Bermejo,PalosBlancos,Magariños,Tarija,SanLorenzo,Iscayachi,Uriondo,ValleDelVírrey,SanJoséDeChiquitos"
 },
 {
     "name": "Mapudungun",
@@ -118,7 +118,7 @@ window.southAmericaNameBases = [
   "max": 18,
   "d": "lnrt",
   "m": 0,
-   "b": "Georgetown,Linden,NewAmsterdam,Bartica,Lethem,Mahaica,Rosignol,Annai,Karasabai,Surama,Apoteri,Kumaka,Kwakwani,Ituni,Orealla,Arakaka,PortKaituma,Mabaruma,Charity,VreedEnHoop,Parika,Paradise,Melville,Beterverwagting,Enmore,Bath,Blairmont,CrabwoodCreek,Skeldon,Corriverton,MolesonCreek,FortWellington,Uitvlugt,Leonora,Stewartville,LaPenitence,Mahdia,AnnaRegina,RoseHall,PortMourant,Canje,Wowetta,Orinduik,GoodHope,Soesdyke,MetenMeerzorg,Weldaad,Zeburg,Buxton,Friendship,Haslington,NonPareil,Plaisance,Wakapau,Aishalton,CrashWater,Sebai,GoedFortuin,BetterHope,Diamond,DenHeuvel,MonRepos,LaGrange"
+   "b": "Georgetown,Linden,NewAmsterdam,Bartica,Lethem,Mahaica,Rosignol,Annai,Karasabai,Surama,Apoteri,Kumaka,Kwakwani,Ituni,Orealla,Arakaka,PortKaituma,Mabaruma,Charity,VreedEnHoop,Parika,Paradise,Melville,Beterverwagting,Enmore,Bath,Blairmont,CrabwoodCreek,Skeldon,Corriverton,MolesonCreek,FortWellington,Uitvlugt,Leonora,Stewartville,LaPenitence,Mahdia,AnnaRegina,RoseHall,PortMourant,Canje,Wowetta,Orinduik,GoodHope,Soesdyke,MetenMeerzorg,Weldaad,Zeburg,Buxton,Friendship,Haslington,NonPareil,Plaisance,Wakapau,Aishalton,GoedFortuin,BetterHope,Diamond,DenHeuvel,MonRepos,LaGrange,Timehri,Victoria,Lusignan,Enterprise,Providence,StIgnatius"
 },
 {
     "name": "Puinave",
@@ -136,7 +136,7 @@ window.southAmericaNameBases = [
   "max": 22,
   "d": "",
   "m": 0,
-   "b": "Toototobi,Parawa,Auaris,Surucucus,MissãoCatrimani,Uraricoera,Amajari,SãoGabrielDaCachoeira,SãoJoãoBaliza,SãoFelipe,SantaRitaDoWea,SãoPedro,Marauiá,Aracaçá,Demini,Haximú,Maturacá,Watoriki,Xamatauteri,Catrimani,Balawaú,Cauaburi,Padamo,Ocamo,Mavaca,Waiká,Homoxi,Hekura,SãoPauloDeOlivença,Quillabamba,RioTamboSantaMaria,Ambo,Celendin,Cajatambo,Chuquibambilla,Yauri,Llalli,Cabanillas,Juli,Eucaliptus,Ventilla,Ilave,Saylla,SantaAna,Alobcu,Alamgo,Afebcu,Apamgo,Akukcu,Abercu,Afancu,Anacu,Amiscu,Adulcu,Apedcu,Adomcu,Adargo,Adascu,Aorcu,Yanomamicu,Yanomamizu,Yanomamila"
+   "b": "Toototobi,Parawa,Auaris,Surucucus,MissãoCatrimani,Uraricoera,Amajari,SãoGabrielDaCachoeira,SãoJoãoBaliza,SãoFelipe,SantaRitaDoWea,SãoPedro,Marauiá,Aracaçá,Demini,Haximú,Maturacá,Watoriki,Xamatauteri,Catrimani,Balawaú,Cauaburi,Padamo,Ocamo,Mavaca,Waiká,Homoxi,Hekura,SãoPauloDeOlivença,LaEsmeralda,Platanal,Parima,SantaMariaDeCaparu,Iguarán,Ashidowa,Kayamá,Parú,Marabitanas,Waracabá,PicoDaNeblina,Mucajai,AltoAlegre,BoaVista,Pacaraima,Normandia,Uiramutã,Canta,Barcelos,SantaIsabelDoRioNegro,Jajau,Paracachoeira,Iracema,MundoNovodeRoraima,VistaAlegreDoLοeste,Caracaraí,Cujubim,SãoLuizDoAnauá,BomIntento,Yanomami,Phelp"
 },
 {
     "name": "Italo-Paulista",
@@ -154,7 +154,7 @@ window.southAmericaNameBases = [
   "max": 17,
   "d": "",
   "m": 0,
-    "b": "Tarauacá,Jordão,Breu,Muru,Envira,Humaitá,Feijó,ManoelUrbanes,SantaRosa,Moema,NovaAliança,Fronteira,VistaAlegre,Triunfo,SenaMadureira,Brasiléia,Xapuri,RioBranco,SenadorGuionard,Capixaba,Epitaciolândia,AssisBrasil,PortoAcre,CanaRecreio,Humaitã,LaConvencion,RioNegro,Juanjui,Cascas,Nazca,Colquemarca,Tahuapalca,Samane,Paucarcolla,Laja,Vlacha,Tiwanaku,Pucara,Pisac,Samaniato,Adadzu,Akasgu,Amabzu,Aborgu,Akadgu,Alatzu,Abimgu,Adanzu,Amazu,Afasgu,Anaszu,Amumgu,Adukgu,Anamzu,Amobgu,Kashinawacu,Kashinawazu,Kashinawala"
+    "b": "Tarauacá,Jordão,Breu,Muru,Envira,Humaitá,Feijó,ManoelUrbanes,SantaRosa,Moema,NovaAliança,Fronteira,VistaAlegre,Triunfo,SenaMadureira,Brasiléia,Xapuri,RioBranco,SenadorGuionard,Capixaba,Epitaciolândia,AssisBrasil,PortoAcre,CanaRecreio,Humaitã,MâncioLima,MarechalThaumaturgo,CruzeiroDoSul,PortoWalter,RodriguesAlves,SãoFrancisco,Porangaba,SantaRosaDoSPurus,NovaVeneza,Alvarães,Tefé,Pauini,Lábrea,Tapauá,BocaDoAcre,Manicoré,Canutama,Marcação,FozDoRioEnvira,Gregório,NovoTempo,BoaEsperança,GetulioVargas,PedroSampaio,Isol,Poyanawa,NovoHorizonte,SeteEstrelas,Vitória,Juazeiro,Acuraua,JoaquimLapa"
 },
 {
     "name": "Camsá",
@@ -163,7 +163,7 @@ window.southAmericaNameBases = [
   "max": 21,
   "d": "",
   "m": 0,
-    "b": "Sibundoy,SanFrancisco,Colón,Santiago,Mocoa,Orito,SanMiguel,VillaGarzón,PuertoAsís,Villagarzón,PuertoLeguízamo,ValleDelGuamuez,PuertoCaicedo,PuertoGuzmán,LaHormiga,ElPaujil,SanBernardo,Piamonte,Sucre,LaCruz,ElTambo,Buesaco,PuertoLeguizamo,Puquio,Huaqui,Oxapampa,Eucaliptus,Capachica,Quillabamba,Tilali,Antabamba,TingoMaria,Cabanillas,Umachiri,Charana,Abulcu,Aetgo,Aogcu,Apimcu,Afetgo,Aracu,Akalcu,Akekgo,Alidcu,Amogcu,Afengo,Autcu,Anebcu,Adercu,Amurcu,Camscu,Camszu,Camsla"
+    "b": "Sibundoy,SanFrancisco,Colón,Santiago,Mocoa,Orito,SanMiguel,VillaGarzón,PuertoAsís,PuertoLeguízamo,ValleDelGuamuez,PuertoCaicedo,PuertoGuzmán,LaHormiga,ElPaujil,SanBernardo,Piamonte,Sucre,LaCruz,ElTambo,Buesaco,PuertoLeguizamo,LaTebaida,SantiagoDeCali,Pasto,Tumaco,Ipiales,Tulcán,Santacruz,SanAndrésDeTumaco,Barbacoas,Magüi,Policarpa,RobertoPayan,Cumbitara,Leiva,SanLorenzo,Consacá,Pupiales,Córdoba,Cuaspud,Carchi,Aldana,Gualmatán,Iles,Contadero,Ricaurte,Sandoná,LaUnion,SanPablo,Tangua,Yacuanquer,Ancuya,Providencia,Arboleda,Tabano,ElTablón,LaFlorida,CambaCamba,Resina,Yunguillo,PerlaAmazónica"
 },
 {
     "name": "Kichwa",
@@ -172,7 +172,7 @@ window.southAmericaNameBases = [
   "max": 27,
   "d": "",
   "m": 0,
-   "b": "Quito,Guayaquil,Cuenca,Ambato,Machala,Esmeraldas,Portoviejo,Riobamba,Loja,Ibarra,Quevedo,Babahoyo,Latacunga,Tulcán,SantoDomingoDeLosColorados,Otavalo,Cayambe,Pujilí,Chunchi,Alausí,Guaranda,Azogues,Cañar,Macas,Gualaceo,Sigsig,Tena,Puyo,Archidona,Baeza,PuertoFranciscoDeOrellana,Loreto,Coca,Shushufindi,NuevaLoja,Zamora,Yantzaza,Gualaquiza,Logroño,Sucúa,LaLatacunga,SanGabriel,Quijos,SevillaDeOro,LaBonita,CentinelaDelCóndor,Putucusi,Oxapampa,Moyobamba,Quiruvilca,Coracora,AltoPichigua,Occo,Camjata,Chucuito,Oruro,Patacamaya,Charana,Yanaoca,Quillabamba,RioTamboSantaMaria,Alengu,Afuzu,Aningu,Amuzu,Apodgu,Abisgu,Alubzu,Aadgu,Adukzu,Apangu,Afetgu,Afudgu,Anudzu,Anurzu,Apungu,Kichwacu,Kichwazu,Kichwala"
+   "b": "Quito,Guayaquil,Cuenca,Ambato,Machala,Esmeraldas,Portoviejo,Riobamba,Loja,Ibarra,Quevedo,Babahoyo,Latacunga,Tulcán,SantoDomingoDeLosColorados,Otavalo,Cayambe,Pujilí,Chunchi,Alausí,Guaranda,Azogues,Cañar,Macas,Gualaceo,Sigsig,Tena,Puyo,Archidona,Baeza,PuertoFranciscoDeOrellana,Loreto,Coca,Shushufindi,NuevaLoja,Zamora,Yantzaza,Gualaquiza,Logroño,Sucúa,LaLatacunga,SanGabriel,Quijos,SevillaDeOro,LaBonita,CentinelaDelCóndor,Putucusi,Salcedo,Pelileo,Píllaro,Cevallos,Mocha,Quero,Tisaleo,Cajabamba,Chambo,Guano,Colta,Cumandá,Pallatanga,Simiatug,Salasaca,Chimborazo,Saquisilí,Sigchos,Mulaló,Isinliví,Pangua,ElCorazón,LaMana,Pichincha,SanMiguelDeLosBancos,Machachi,Sangolquí,Tabacundo,PedroVicenteMaldonado,ElQuiché,Cotacachi,Imbabura,Atuntaqui,Pimampiro,Urcuquí,AntonioAnte,Napo,CarlosJulioArosemenaTola,ElChaco,Aguarico,FranciscoDeOrellana,Joyijoyi,Rucullacta,Saraguro,Sarasara,Paquisha,Yacuambi,Nangaritza,Chinchipe,Palora,Mera,SantaClara,Arajuno,Pastaza,TenienteNuñez,Veracruz,SantaInés"
 },
 {
     "name": "Kaiwá",
@@ -199,7 +199,7 @@ window.southAmericaNameBases = [
   "max": 21,
   "d": "",
   "m": 0,
-    "b": "Aruanã,SantaIsabelDoMorro,Xambioá,Luciara,SantanaDoAraguaia,Itajá,Fontoura,Macacúba,SãoRaimundo,Buridina,Mirindiba,SãoDomingos,SãoFélixDoAraguaia,AltoAraguaia,Aragarças,BarraDoGarças,NovaXavantina,ÁguaBoa,Canarana,Cajamarca,Oyon,Echarate,Espinar,Cupi,Lampa,Ilave,Pantaleon,Batallas,Yunguyo,Oropesa,LaConvencion,RioNegro,Juanjui,Cascas,Amosgo,Akekcu,Amengo,Anekcu,Abamgo,Apercu,Amekgo,Anemcu,Adimgo,Afegcu,Aitgo,Akoggo,Anescu,Alengo,Anaggo,Karajcu,Karajzu,Karajla"
+    "b": "Aruanã,SantaIsabelDoMorro,Xambioá,Luciara,SantanaDoAraguaia,Itajá,Fontoura,Macacúba,SãoRaimundo,Buridina,Mirindiba,SãoDomingos,SãoFélixDoAraguaia,AltoAraguaia,Aragarças,BarraDoGarças,NovaXavantina,ÁguaBoa,Canarana,Javaés,Bananal,Macaúbas,Cocalinho,SantaMariaDasBarreiras,Bannach,Formoso,Crixás,SãoJoãoDaLagoa,Itaberaí,LuizAlves,Araguatins,Tocantinópolis,Augustinópolis,SãoBentoDoTocantins,PraiaNorta,Sampaio,Lizarda,Mateiros,RioDosBois,Pium,SantaRitaDoTocantins,Combinado,Peixe,Alvorada,ConceiçãoDoTocantins,Dianópolis,Natividade,Paranã,AuroraDoTocantins,PortoNacional,Gurupi,FormosoDoAraguaia,Sandolândia,Dueré,JaúDoTocantins,BrejinhoDeNazaré,ColinasDoTocantins,Guaraí,PedroAfonso,Tupirama,SantaMariaDaSerra,ChapadaDaNatividade,CoutoMagalhães,SantaTerezaDoTocantins,Caseara,Abreulândia,Piraquê,BomJesusDoTocantins,Itacajá,Goianorte,Tupiratins,SantaFéDoAraguaia,Cristalândia,ParaísoDoTocantins,Figueirópolis,Palmeirópolis,Silvanópolis"
 },
 {
     "name": "Língua Geral Paulista",
@@ -316,7 +316,7 @@ window.southAmericaNameBases = [
   "max": 26,
   "d": "",
   "m": 0,
-   "b": "SanJoséDeSaramuro,NuevaEsperanza,Remanso,Cothué,PuertoBahía,PuertoCórdoba,PuertoTriunfo,PuertoLimón,Dureno,Zábalo,Sinangué,Villanueva,SantaRosaDeSucumbíos,Orito,Guamuez,Aguarico,Napo,Putumayo,PuertoAsís,Sibundoy,Mocoa,Villagarzón,LaTagua,PuertoIndio,Dovuno,Yarinal,SanAntonio,BocanasDelLuzón,Diviso,LaRivera,SanMiguel,LagoAgrio,Jambelí,Cascales,ElDorado,Cuyabeno,LaBonita,Bermejo,Tablero,ElHacha,NuevaGranada,BuenaVista,PiñaBlanca,Espinar,Paucarcolla,Pichigua,Huaura,Pichanaqui,Moyobamba,Ayaviri,Picota,Oyon,AyoAyo,Otuzco,Andamarca,Tiwanacu,Taray,Amantani,Aagzu,Aingu,Auszu,Anogzu,Afingu,Apebzu,Afedzu,Akimgu,Alotzu,Amuszu,Aarzu,Anikzu,Apidgu,Adilzu,Amamzu,Andoquecu,Andoquezu,Andoquela"
+   "b": "SanJoséDeSaramuro,NuevaEsperanza,Remanso,Cothué,PuertoBahía,PuertoCórdoba,PuertoTriunfo,PuertoLimón,Dureno,Zábalo,Sinangué,Villanueva,SantaRosaDeSucumbíos,Orito,Guamuez,Aguarico,Napo,PuertoAsís,Sibundoy,Mocoa,Villagarzón,LaTagua,PuertoIndio,Dovuno,Yarinal,SanAntonio,BocanasDelLuzón,Diviso,LaRivera,SanMiguel,LagoAgrio,Jambelí,Cascales,ElDorado,Cuyabeno,LaBonita,Bermejo,Tablero,ElHacha,NuevaGranada,BuenaVista,PiñaBlanca,Florencia,PuertoLópez,PuertoRico,SanVicenteDelCaguán,Curillo,Solano,CartagenaDelChairá,SanJoséDelFragua,ElDoncello,Morelia,BelénDeLosAndaquíes,TresEsquinas,PuertoCaicedo,PuertoGuzmán,PuertoLeguízamo,ValleDelGuamuez,LaHormiga,Milán,Cumaral,Restrepo,Granada,VistaHermosa,LaMacarena,Mesetas,SanJuanDeArama,ElCastillo,Maní,SanMartín,Coyaima,Ortega,Prado,Ataco,Rioblanco,Chaparral,Saldaña,Suárez,Cunday,Espinal,Flandes,Melgar"
 },
 {
     "name": "Araona",
@@ -325,7 +325,7 @@ window.southAmericaNameBases = [
   "max": 20,
   "d": "",
   "m": 0,
-  "b": "Riberalta,Cobija,Reyes,BuenaVista,SanBorja,ElCarmen,SanMiguelDeVelasco,SanRafaelDeVelasco,SantaAnaDeYacuma,Roboré,SantaCruzDeLaSierra,Montero,PuertoSuárez,SanIgnacio,Trinidad,Rurrenabaque,Guayaramerín,Porvenir,PuertoRico,SanJavier,SanAntonioDeLomerío,SanJuanDeDios,SantaRoca,SantiagoDeChiquitos,PortoSuárez,PuertoQuijarro,CarmenRiveroTorres,SanJoséDeChiquitos,SanJuanBautista,Mineros,LaGuardia,ElTorno,Pailón,SanJulián,SanRamón,Moxos,Concepción,Layo,Juliaca,Huamachuco,Camjata,AltoPichigua,Chilca,Cascas,Hualgayoc,Acari,Yauri,Nicasio,Ica,Pichacani,Sangobatea,Yanaoca,Amimcu,Alutgo,Amecu,Akamcu,Aputgo,Akogcu,Aocu,Aurgo,Abadcu,Adegcu,Apungo,Aliscu,Afuscu,Alugo,Anurcu,Araonacu,Araonazu,Araonala"
+  "b": "Riberalta,Cobija,Reyes,Rurrenabaque,Ixiamas"
 },
 {
     "name": "Argentinian Rioplatense Spanish",
@@ -334,7 +334,7 @@ window.southAmericaNameBases = [
   "max": 21,
   "d": "lnrt",
   "m": 0,
-  "b": "BuenosAires,Córdoba,Rosario,Mendoza,LaPlata,MarDelPlata,SantaFe,SanJuan,SanLuis,Tandil,Necochea,BahíaBlanca,Quilmes,Lanús,Avellaneda,SanIsidro,SanNicolás,Pergamino,Junín,Chivilcoy,Bragado,Pehuajó,TresArroyos,CoronelDorrego,Rauch,Balcarce,Miramar,Chascomús,Cañuelas,Lobos,Gualeguaychú,Paraná,Colón,SantaFe,Rafaela,Casilda,SanLorenzo,VenadoTuerto,Salto,SanPedro,Luján,Mercedes,VillaMaría,RíoCuarto,VillaCarlosPaz,LaFalda,AltaGracia,Cosquín,Pinamar,VillaGesell,MarChiquita,MonteHermoso,GeneralRoca,SanCarlosDeBariloche,GeneralPueyrredón,Claromecó,SanCayetano,Castelli,SanRafael,SanFernando,VicenteLópez,Carhué,GeneralLamadrid,GeneralBelgrano,Monte,Navarro,Saladillo,Rojas,Lincoln,GeneralVillegas,CoronelPringles,ConcepciónDelUruguay,Gualeguay,SanJosé,SantoTomé,SanJusto,Sunchales,Firmat,SanGuillermo,JuanBautistaAlberdi,SanFrancisco,VillaConstitución,ArroyoSeco,Baradero,Zárate,SanAntonioDeAreco,Chacabuco,GeneralPinto,GeneralViamonte,Ameghino,VillaDolores,JustoDaract,LaCarlota,SanCarlos,MinaClavero,Nono,SanJavier,SanCipriano,Arrecifes,CarmenDeAreco,Salliqueló,TrenqueLauquen,GeneralMadariaga,GeneralLavalle,Lezama,CoronelSuárez,Piedritas,CapillaDelMonte,RíoCeballos,VillaGeneralBelgrano,LaCumbrecita,SanIgnacio,Asillo,Chuquibambilla,Huancane,Mosoc,NuevaCajamarca,Plateria,Corocoro,Yanahuanca,Akipa,Adurgu,Adomgu,Afaspa,Amopa,Airgu,Abamgu,Anutpa,Alugpa,Alargu,Anilgu,Aorpa,Afadpa,Apomgu,Abudgu,ArgentinianRioplatenseSpanishgo,ArgentinianRioplatenseSpanishgu,ArgentinianRioplatenseSpanishcu,ArgentinianRioplatenseSpanishzu,ArgentinianRioplatenseSpanishla"
+  "b": "BuenosAires,Córdoba,Rosario,Mendoza,LaPlata,MarDelPlata,SantaFe,SanJuan,SanLuis,Tandil,Necochea,BahíaBlanca,Quilmes,Lanús,Avellaneda,SanIsidro,SanNicolás,Pergamino,Junín,Chivilcoy,Bragado,Pehuajó,TresArroyos,CoronelDorrego,Rauch,Balcarce,Miramar,Chascomús,Cañuelas,Lobos,Gualeguaychú,Paraná,Colón,Rafaela,Casilda,SanLorenzo,VenadoTuerto,Salto,SanPedro,Luján,Mercedes,VillaMaría,RíoCuarto,VillaCarlosPaz,LaFalda,AltaGracia,Cosquín,Pinamar,VillaGesell,MarChiquita,MonteHermoso,GeneralRoca,SanCarlosDeBariloche,GeneralPueyrredón,Claromecó,SanCayetano,Castelli,SanRafael,SanFernando,VicenteLópez,Carhué,GeneralLamadrid,GeneralBelgrano,Monte,Navarro,Saladillo,Rojas,Lincoln,GeneralVillegas,CoronelPringles,ConcepciónDelUruguay,Gualeguay,SanJosé,SantoTomé,SanJusto,Sunchales,Firmat,SanGuillermo,JuanBautistaAlberdi,SanFrancisco,VillaConstitución,ArroyoSeco,Baradero,Zárate,SanAntonioDeAreco,Chacabuco,GeneralPinto,GeneralViamonte,Ameghino,VillaDolores,JustoDaract,LaCarlota,SanCarlos,MinaClavero,Nono,SanJavier,SanCipriano,Arrecifes,CarmenDeAreco,Salliqueló,TrenqueLauquen,GeneralMadariaga,GeneralLavalle,Lezama,CoronelSuárez,Piedritas,CapillaDelMonte,RíoCeballos,VillaGeneralBelgrano,LaCumbrecita,SanIgnacio,EntreRíos,Corrientes,Misiones,Posadas,Resistencia,Formosa,Neuquén,RíoNegro,Bariloche,Viedma,Cipolletti,ComodoroRivadavia,PuertoMadryn,Trelew,Rawson,Esquel,CaletaOlivia,SanAntonioOeste,GeneralConesa,ChoeleChoel,CincoSaltos,VillaRegina,Allen,CutralCó,Zapala,SanMartínDeLosAndes,JunínDeLosAndes,ElBolsón,Malargüe,GodoyCruz,Maipú,LujánDeCuyo,Tupungato,GeneralAlvear,VillaMercedes,LaPunta,Merlo,Jujuy,Salta,SanMiguelDeTucumán,SantiagoDelEstero,LaRioja,Catamarca,Tartagal,Orán,SanSalvadorDeJujuy,LibertadorGeneralSanMartín,Palpalá,Concordia,Goya,MonteCaseros,PasodeLosLibres,CuruzúCuatiá,BellaVista,Esquina,Victoria,Diamante,Nogoyá,Villaguay,Federal,LaPaz,SantaRosa,GeneralPico,Realicó,IntendenteAlvear,Telén,Toay,EduardoCastex,Azul,Olavarría,BenitoJuárez,Tapalqué,AdolfoGonzálesChaves,Ayacucho,Dolores,SanAndrésDeGiles,CarmenDePatagones,RíoColorado,IngenieroHuergo,Mainqué,Cervantes,Chichinales,GeneralFernándezOro,ContralmiranteCordero,Campana,Escobar,Pilar,SanMiguel,Moreno,Ituzaingó,Hurlingham,Tigre,SanMiguelDelMonte,GeneralRodríguez,SanVicente,PresidentePerón,Ezeiza,EstebanEcheverría,AlmiranteBrown,Berazategui,FlorencioVarela,Ensenada,Berisso,Magdalena,PuntaIndio,Ramallo,Rufino,Canals,VillaAscasubi,MonteMaíz,GeneralCabrera,SantaEufemia,Washington,Sampacho,PasoDeLasCarretas,VillaHuidobro,Saira,Devoto,QuebrachoHerrado,LagunaLarga,VillaDelTotoral,Ticino,VillaNueva,Unquillo,Mendiolaza,HuertaGrande,ValleHermoso,CasaGrande,SanEsteban,Ascochinga,LaCumbre,VillaGiardino,Tanti,SantaMaríaDePunilla,BialetMassé,SanAntonioDeArredondo,CuestaBlanca,VillaCuraBrochero,LasRabonas"
 },
 {
     "name": "Arhuaco (Ikʉ)",
@@ -352,7 +352,7 @@ window.southAmericaNameBases = [
    "max": 18,
    "d": "",
    "m": 0,
-   "b": "CampoLoro,Ebetogué,Tunucojnai,Gaai,Esquina,Jesudi,Jogasui,Ijnapui,Arocojnadí,Chaidi,Cucaani,IslaAlta,GuidaiIchai,Tiogai,Atapi,PalmarDeLasIslas,AguaDulce,Chovoreca,DefensoresDelChaco,MédanosDelChaco,Otuquis,CarmeloPeralta,PozoColorado,MariscalEstigarribia,Filadelfia,LomaPlata,PuertoPinasco,Punta,PuertoBahía,PuertoCórdoba,PuertoTriunfo,PuertoLimón,PuertoIndio,Dureno,Zábalo,Sinangué,Dovuno,Villanueva,SantaRosaDeSucumbíos,Yarinal,SanAntonio,BocanasDelLuzón,Diviso,LaRivera"
+   "b": "CampoLoro,Ebetogué,Tunucojnai,Gaai,Jesudi,Jogasui,Ijnapui,Arocojnadí,Chaidi,Cucaani,GuidaiIchai,Tiogai,Atapi,PalmarDeLasIslas,Chovoreca,DefensoresDelChaco,MédanosDelChaco,CarmeloPeralta,PozoColorado,MariscalEstigarribia,Filadelfia,LomaPlata,PuertoPinasco,IslaAlta,Esquina,AguaDulce,Djocoidai,Guiqué,Pojejhai,Tubtudi"
 },
 {
     "name": "Cofán",
@@ -361,7 +361,7 @@ window.southAmericaNameBases = [
    "max": 22,
    "d": "",
    "m": 0,
-    "b": "SantaRosaDeSucumbíos,Yarinal,Afilador,BocanasDelLuzón,Dureno,Zábalo,Sinangué,Villanueva,UkumariKankhe,Tssenene,NuevaIsla,Orito,PuertoAsís,ValleDelGuamuez,SanMiguel,Mocoa,Sibundoy,Villagarzón,PuertoCaicedo,PuertoGuzmán,Aguarico,LagoAgrio,Cascales,ElDorado,Cuyabeno,LaBonita,LaHormiga,Dovuno,LaTagua,ElPlacer,PuertoRodríguez,LaFlorida,PuertoUmbría,PuertoBolívar,PuertoCórdoba,Diviso,LaRivera,Guamuez,Napo,Putumayo,Jambelí,Bermejo,Tablero,ElHacha,NuevaGranada,BuenaVista,PiñaBlanca"
+    "b": "Dureno,Zábalo,Sinangué,Dovuno,Yarinal,UkumariKankhe,Tssenene,LagoAgrio,PuertoAsís,ValleDelGuamuez,SanMiguel,SantaRosaDelGuamuez,Orito,Mocoa,Sibundoy,Villagarzón,PuertoCaicedo,PuertoGuzmán,LaHormiga,Cuyabeno,LaBonita,Cascales,ElDorado,BocanasDelLuzón,Diviso,LaRivera,Guamuez,Afilador,NuevaIsla,Villanueva,BuenaVista,PuertoRodríguez,ElPlacer,LaFlorida,PuertoUmbría,SantaRosaDeSucumbíos"
 },
 {
     "name": "Cogui",
@@ -370,7 +370,7 @@ window.southAmericaNameBases = [
    "max": 16,
    "d": "",
    "m": 0,
-    "b": "SanMiguel,Guatapurí,Mamu,Poteca,Mechinguche,Mamarongo,Nabá,Teykú,Kívgi,Nabusimake,Palomino,DonDiego,Guachaca,Minca,PuebloBello,Chonchacala,Cañaveral"
+    "b": "SanMiguel,Guatapurí,Mamu,Poteca,Mechinguche,Mamarongo,Nabá,Teykú,Kívgi,Nabusimake,Palomino,DonDiego,Guachaca,Minca,PuebloBello,Chonchacala,Cañaveral,SantaRosa,Taminaka,PuebloViejo,Dibulla"
 },
 {
     "name": "Fulniô",
@@ -379,7 +379,7 @@ window.southAmericaNameBases = [
   "max": 23,
   "d": "",
   "m": 0,
-    "b": "ÁguasBelas,Ipanema,Garanhuns,Ouricuri,Buíque,Pesqueira"
+    "b": "ÁguasBelas,Ipanema,Buíque,Itaíba,Iati,Pedra"
 },
 {
     "name": "Guajajara (Tenetehara)",
@@ -388,7 +388,7 @@ window.southAmericaNameBases = [
   "max": 17,
   "d": "",
   "m": 0,
-    "b": "Araribóia,Bacurizinho,CanaBrava,Caru,Governador,Krikatí,LagoaComprida,MorroBranco,RioPindaré,Rodeador,UrucuJuruá,Pindaré,Grajaú,Mearim,Zutiua,Gurupi,Amarante,SantaLuzia,BarraDoCorda,BomJardim,MontesAltos,SítioNovo,Tembé,Araguaina,Imperatriz,Caxias,Codo,Coroatá,Chapadinha,Pinheiro,Bacabal,ItapecuruMirim,PaçoDoLumiar,Viana,Pedreiras,Timbiras,Timon,PresidenteDutra,SãoJoséDeRibamar,Raposa"
+    "b": "Araribóia,Bacurizinho,CanaBrava,Caru,Governador,LagoaComprida,MorroBranco,Rodeador,UrucuJuruá,Pindaré,Grajaú,Mearim,Zutiua,Gurupi,Amarante,SantaLuzia,BarraDoCorda,BomJardim,MontesAltos,SítioNovo,Araguaina,Imperatriz,Caxias,Codo,Coroatá,Chapadinha,Pinheiro,Bacabal,ItapecuruMirim,PaçoDoLumiar,Viana,Pedreiras,Timbiras,Timon,PresidenteDutra,SãoJoséDeRibamar,Raposa,AmaranteDoMaranhão,BomJesusDasSelvas,Buriticupu,SantaLuziaDoParuá,Araguanã,CentroNovoDoMaranhão,Maranhãozinho,ZéDoca,GovernadorNewtonBello,JenipapoDosVieiras,BarãoDeGrajaú,ItaipavaDoGrajaú,FernandoFalcão,UrbanoSantos"
 },
 {
     "name": "Itonama",
@@ -397,7 +397,7 @@ window.southAmericaNameBases = [
   "max": 19,
   "d": "",
   "m": 0,
-    "b": "Magdalena,Huacaraje,SanRamón,SanJavier,Reyes,Riberalta,Cobija,BuenaVista,SanBorja,ElCarmen,SantaAnaDeYacuma,Trinidad,SanIgnacio,Rurrenabaque,SanMiguelDeVelasco,SanRafaelDeVelasco,Roboré,Concepción,SanJoséDeChiquitos,SantaRoca,SanJoaquín,SanCarlos,Magda,PortoSuárez,PuertoQuijarro,SantiagoDeChiquitos,SanJuanBautista,Loreto,CarmenRiveroTorres,Moxos,SanJoaquin,AltoPichigua,Occo,Camjata,Chucuito,Oruro,Patacamaya,Charana,Yanaoca,Quillabamba"
+    "b": "Magdalena,Huacaraje,SanRamón,SanJavier,Reyes,Riberalta,Cobija,BuenaVista,SanBorja,SantaAnaDeYacuma,Trinidad,SanIgnacio,Rurrenabaque,SantaRoca,SanMiguelDeVelasco,SanRafaelDeVelasco,Roboré,Concepción,SanJoséDeChiquitos,SantaRosaDeLaRoca,SanJoaquín,SanCarlos,PuertoSuárez,PuertoQuijarro,SantiagoDeChiquitos,SanJuanBautista,CarmenRiveroTorres,Loreto,Moxos,Magda"
 },
 {
     "name": "Ka'apor",
@@ -406,7 +406,7 @@ window.southAmericaNameBases = [
   "max": 17,
   "d": "",
   "m": 0,
-    "b": "Gurupi,AltoTuriaçu,Araribóia,Caru,Governador,RioPindaré,UrucuJuruá,Amarante,SantaLuzia,BarraDoCorda,BomJardim,MontesAltos,SítioNovo,Tembé,Araguaina,Imperatriz,Timon,Caxias,Codo,Coroatá,Chapadinha,Pinheiro,Bacabal,PresidenteDutra,ItapecuruMirim,SãoJoséDeRibamar,PaçoDoLumiar,Raposa,Viana,Grajaú,Mearim,Zutiua"
+    "b": "Gurupi,AltoTuriaçu,Araribóia,Caru,Governador,RioPindaré,UrucuJuruá,Amarante,SantaLuzia,BarraDoCorda,BomJardim,MontesAltos,SítioNovo,Tembé,Araguaina,Imperatriz,Timon,Caxias,Codo,Coroatá,Chapadinha,Pinheiro,Bacabal,PresidenteDutra,ItapecuruMirim,SãoJoséDeRibamar,PaçoDoLumiar,Raposa,Viana,Grajaú,Mearim,Zutiua,SantaLuziaDoParuá,Araguanã,CentroNovoDoMaranhão,Maranhãozinho,ZéDoca,CentroDoGuilherme,GovernadorNewtonBello,AltoRioGuamá"
 },
 {
     "name": "Karu (Baníwa)",
@@ -415,7 +415,7 @@ window.southAmericaNameBases = [
   "max": 23,
   "d": "",
   "m": 0,
-  "b": "SãoGabrielDaCachoeira,Içana,Uaupés,Tiquié,Aiari,Cumati,Aracaçá,PariCachoeira,Cucuí,Maturacá,Igapo,CaiuryCaiury,Papuri,Yauareté,Taracuá,SãoJoaquim,Campalaú,Caruru,Marabitana,Barcelos,SantaIsabelDoRioNegro,Carvoeiro,Piraiauara,Yukutaninha,Cauichuari,Lauarete,Guariba,Yurupari,Cabari,Paricachoeira"
+  "b": "SãoGabrielDaCachoeira,Içana,PariCachoeira,Cucuí,Yauareté,Taracuá,SãoJoaquim,Caruru,Marabitana,Barcelos,SantaIsabelDoRioNegro,Carvoeiro,Tunuí,Assunção,Tucumã,Juvitera,UapuiCachoeira,Tamanduá,Jerusalém"
 },
 {
     "name": "Kayapo",
@@ -424,7 +424,7 @@ window.southAmericaNameBases = [
   "max": 24,
   "d": "",
   "m": 0,
-  "b": "Altamira,SãoFélixDoXingu,OurilândiaDoNorte,Tucumã,Marabá,SantanaDoAraguaia,Redenção,Tucuruí,Pacajá,Iriri,Parauapebas,CanãaDosCarajás,Curionópolis,NovoRepartimento,SãoJoãoDoAraguaia,RondonDoPará,Anapu,PortoDeMoz,Itaituba,Aveiro,Rurópolis,Trairão,Jacareacanga,SantaMariaDasBarreiras,RibeirãoCascalheira,CumaruDoNorte,Itupiranga,AbelFigueiredo,BomJesusDoTocantins,SãoGeraldoTocantins,SãoJoãoDoPiauí,SãoMiguelDoAraguaia,SãoSebastiãoDaBoaVista,SenadorJoséPorfírio,Souzel,Tailândia,VilaDoConde"
+  "b": "Altamira,SãoFélixDoXingu,OurilândiaDoNorte,Tucumã,Marabá,SantanaDoAraguaia,Redenção,Tucuruí,Pacajá,Iriri,Parauapebas,CanãaDosCarajás,Curionópolis,NovoRepartimento,SãoJoãoDoAraguaia,RondonDoPará,Anapu,PortoDeMoz,Itaituba,Aveiro,Rurópolis,Trairão,Jacareacanga,SantaMariaDasBarreiras,RibeirãoCascalheira,CumaruDoNorte,Itupiranga,AbelFigueiredo,BomJesusDoTocantins,SãoGeraldoTocantins,SãoMiguelDoAraguaia,SãoSebastiãoDaBoaVista,SenadorJoséPorfírio,Souzel,Tailândia,VilaDoConde,Mekrãgnotí,Baú,Kayapó,Tenharim,PauDArco,Bannach"
 },
 {
     "name": "Kulina",
@@ -433,7 +433,7 @@ window.southAmericaNameBases = [
   "max": 20,
   "d": "",
   "m": 0,
-    "b": "RioBranco,Tapauá,Canutama,Carauari,Envira,Eirunepé,Ipixuna,Humaitá,Lábrea,Pauini,Uarini,Alvarães,Tefé,Coari,Codajás,Beruri,Juruá,Jutaí,Itacoatiara,Maraã,FonteBoa,BenjaminConstant,Tabatinga,Feijó,SenaMadureira,ManoelUrbanes,VilaBittencourt,PortoWalter,Caapiranga,Anori,Anamã,Manacapuru,Silves,Urucurituba,Parintins,Barcelos,NovoAirão,PresidenteFigueiredo"
+    "b": "RioBranco,Tapauá,Canutama,Carauari,Envira,Eirunepé,Ipixuna,Humaitá,Lábrea,Pauini,Uarini,Alvarães,Tefé,Coari,Codajás,Beruri,Juruá,Jutaí,Itacoatiara,Maraã,FonteBoa,BenjaminConstant,Tabatinga,Feijó,SenaMadureira,ManoelUrbanes,VilaBittencourt,BocaDoAcre,SantaRosaDoPurus,ManoelUrbano,MarceloDias,SãoFelipe,Cunhuã"
 },
 {
     "name": "Kwaza",
@@ -442,7 +442,7 @@ window.southAmericaNameBases = [
    "max": 22,
    "d": "",
    "m": 0,
-    "b": "TubarãoLatundê,Chupinguaia,KwazáDoRioSãoPedro,PimentaBueno,Cacaulândia,JiParaná,PortoVelho,Vilhena,ColoradoDoOeste,Cerejeiras,PimenteirasDoOeste,Guaporé,Roosevelt,Mequéns,Zoró,IgarapéLeite,Cacoal,Theobroma,Castanheiras,NovaMamoré,AltoParaíso,Seringueiras,SãoFranciscoDoGuaporé,SeteDeSetembro,IgarapéLourdes,Carlifornia,Riozinho"
+    "b": "Chupinguaia,PimentaBueno,Cacoal,ColoradoDoOeste,Corumbiara,Cerejeiras,Cabixi,Vilhena,RolimDeMoura,AltaFlorestaDOeste,SãoMiguelDoGuaporé,NovaMamoré,CostaMarques,GuajaráMirim,Tubarão,Latundê,Aikanã,Sabanê,Mamaindê"
 },
 {
     "name": "Kwinti",
@@ -478,7 +478,7 @@ window.southAmericaNameBases = [
   "max": 17,
   "d": "",
   "m": 0,
-  "b": "Jacareacanga,Itaituba,Santarém,Belterra,Rurópolis,AltaFloresta,Cururu,Canumã,Placas,Trairão,Aveiro,Itupiranga,Parauapebas,Marabá,TerraPreta,Óbidos,Juruti,Alenquer,Oriximiná,Barcarena,Abaetetuba,NovoProgresso,CasteloDeSonhos,Rurópia,TelesPires,Uruará,Parauá,Aruri,SãoJosé,Barreira,Tauri,Muiraquita,Prainha,NovaJacareacanga,Caracol"
+  "b": "Jacareacanga,Itaituba,Santarém,Belterra,Rurópolis,AltaFloresta,Cururu,Canumã,Placas,Trairão,Aveiro,Itupiranga,Parauapebas,Marabá,TerraPreta,Óbidos,Juruti,Alenquer,Oriximiná,Barcarena,Abaetetuba,NovoProgresso,CasteloDeSonhos,Rurópia,TelesPires,Uruará,Parauá,Aruri,SãoJosé,Barreira,Tauri,Muiraquita,Prainha,NovaJacareacanga,Caracol,SawréMuybu,SaiCinza,CachoeiraSeca,PraiaDoÍndio,MontanhaMunduruku,SãoLuísDoTapajós,ItaporãDoTapajós"
 },
 {
     "name": "Ndyuka",
@@ -496,7 +496,7 @@ window.southAmericaNameBases = [
   "max": 23,
   "d": "",
   "m": 0,
-    "b": "SãoGabrielDaCachoeira,Barcelos,SantaIsabelDoRioNegro,Cucuí,Içana,Tiquié,Uaupés,SantoAntônioDoIçá,PariCachoeira,SãoJoaquim,Campalaú,Caruru,Manaus,Parintins,NovoAirão,PresidenteFigueiredo,Itacoatiara,FonteBoa,Maraã,Coari,Tefé,BenjaminConstant,Tabatinga,SãoPauloDeOlivença,Amaturá,Tonantins,Japurá,Urucará,Barrinha,IlhaDeSernambi,Camanaus,Marabitana,Guariba,Urucurituba,Silves,Codajás,RioNegro"
+    "b": "SãoGabrielDaCachoeira,SantaIsabelDoRioNegro,Barcelos,Iauaretê,Içana,Cucuí,PariCachoeira,Tiquié,Uaupés,SantoAntônioDoIçá,Camanaús,Marabitana,Manaus,Parintins,NovoAirão,PresidenteFigueiredo,Itacoatiara,FonteBoa,Maraã,Coari,Tefé,BenjaminConstant,Tabatinga,SãoPauloDeOlivença,Amaturá,Tonantins,Japurá,Urucará,Silves,Codajás,Caruru,Jutaí,AtalaiaDoNorte,SãoJoaquim"
 },
 {
     "name": "Nivaclé",
@@ -505,7 +505,7 @@ window.southAmericaNameBases = [
   "max": 24,
   "d": "",
   "m": 0,
-  "b": "Filadelfia,Neuland,LomaPlata,MariscalEstigarribia,GeneralDiaz,PozoColorado,Boquerón,McalEstigarribia,CarmeloPeralta,FortínTorres,Madrejón,PuertoPinasco,BenjamínAceval,VillaHayes,Nanawa,Edelira,MayorOtaño,TteIrala,LaVictoria,CruePioneros,LagunaPora,TteEnciso,FortínBoquerón,Mcalister,ColoniaMenno,TenienteIralaFernández,FuerteOlimpo,BenjaminAceval,PresidenciaDeLaSierra,GeneralEugenioAGaray,PedroPPeña,Ingenio,Marangarú,Independencia,FortínGralDíaz,CapitánBado,JuandeZalazar,PuertoCasado,BahíaNegra,ColoniaFernheim,ColoniaNeuland,ColoniaMennoSur,ColoniaLomaPlata,ColoniaMennoNorte,ColoniaFernheimNorte"
+  "b": "Filadelfia,Neuland,LomaPlata,MariscalEstigarribia,GeneralDiaz,PozoColorado,CarmeloPeralta,FortínTorres,Madrejón,PuertoPinasco,BenjamínAceval,VillaHayes,Nanawa,TenienteIralaFernández,FuerteOlimpo,PresidenciaDeLaSierra,GeneralEugenioAGaray,PedroPPeña,Marangarú,CapitánBado,JuandeZalazar,PuertoCasado,BahíaNegra,ColoniaFernheim,ColoniaNeuland,ColoniaMenno,ColoniaLomaPlata,FortínBoquerón,TteEnciso,LagunaPora,CruePioneros,LaVictoria,Ingenio,Independencia,FortínGralDíaz,Embarcación,Tartagal,SalvadorMazza,Aguaray"
 },
 {
     "name": "Páez",
@@ -514,7 +514,7 @@ window.southAmericaNameBases = [
   "max": 21,
   "d": "",
   "m": 0,
-  "b": "Totoró,Jambaló,Puracé,Coconuco,Belalcázar,Silvia,Inzá,Toribío,Tunía,Mosoco,Tumbichucue,Caldono,Santiago,Pancitará,Guachicono,Popayán,Poblazón,Tacueyó,SantanderDeQuilichao,PuertoTejada,Caloto,Miranda,Corinto,Padilla,Piendamó,Morales,ElTambo,BuenosAires,Suárez,Torres,SantaRosa,SanAntonio,Vitoncó,Bolívar"
+  "b": "Totoró,Jambaló,Puracé,Coconuco,Belalcázar,Silvia,Inzá,Toribío,Tunía,Mosoco,Tumbichucue,Caldono,Santiago,Pancitará,Guachicono,Popayán,Poblazón,Tacueyó,SantanderDeQuilichao,PuertoTejada,Caloto,Miranda,Corinto,Padilla,Piendamó,Morales,ElTambo,BuenosAires,Suárez,SantaRosa,SanAntonio,Vitoncó,Bolívar,Tálaga,Tóez,Lame,Togoima,Avirama,Cohetando,Wila,Riochiquito,Itaibe,SanAndrésDePisimbalá"
 },
 {
     "name": "Pirahã",
@@ -523,7 +523,7 @@ window.southAmericaNameBases = [
   "max": 23,
   "d": "",
   "m": 0,
-    "b": "Humaitá,Manicoré,Autazes,Borba,Beruri,Tapauá,Canutama,Lábrea,Coari,Tefé,NovoAripuanã,Barcelos,Maués,Santarém,Itaituba,Jacareacanga,PortoVelho,RioMadeira,Manaus,NovoOlinda,Apui,Parintins,Itacoatiara,Silves,Urucará,PresidenteFigueiredo,SãoGabrielDaCachoeira,Nhamundá,Faro,Óbidos,Juruti,Alenquer,Aveiro,Rurópolis,Trairão"
+    "b": "Humaitá,Manicoré,Autazes,Borba,Beruri,Tapauá,Canutama,Lábrea,Coari,Tefé,NovoAripuanã,Barcelos,Maués,Santarém,Itaituba,Jacareacanga,PortoVelho,Manaus,NovoOlinda,Apui,Parintins,Itacoatiara,Silves,Urucará,PresidenteFigueiredo,SãoGabrielDaCachoeira,Nhamundá,Faro,Óbidos,Juruti,Alenquer,Aveiro,Rurópolis,Trairão,Maici,Marmelos,CunhãSapucaia,NovaOlindaDoSoledade"
 },
 {
     "name": "Sanöma (Sanumá)",
@@ -532,7 +532,7 @@ window.southAmericaNameBases = [
   "max": 22,
   "d": "",
   "m": 0,
-  "b": "Caura,Ventuari,Auari,Roraima,BoaVista,Caracaraí,Mucajaí,Iracema,Normandia,SãoGabrielDaCachoeira,Marauiá,Toototobi,Parawa,Auaris,Surucucus,Ajarani,Xamatauteri,Catrimani,Demini,Aracaçá,Balawaú,Uataca,Waiká,AltoOrinoco,Padamo,Ocamo,Mavaca,Cantá,Anauá,Amaturá,Cucuí,Marauá,Balawaque,Ye'kuana,Erebato,Aracacá,Inukuxi,Homoxi,Hekura,Tamau,Iauitata,Wathau,SerraDosSurucucus"
+  "b": "Auaris,Kolulu,Sikoi,Kadimani,Aracaçá,Hokomawä,Demini,Toototobi,Parawa,Surucucus,Padamo,Ocamo,Mavaca,Catrimani,Balawaú,Xamatauteri,Auari,Maturacá,Watoriki,Haximú,Waiká,Cauaburi,MissãoCatrimani,SãoGabrielDaCachoeira,BoaVista,AltoOrinoco,Caura,Ventuari,Erebato"
 },
 {
     "name": "Saramaccan",
@@ -550,7 +550,7 @@ window.southAmericaNameBases = [
   "max": 19,
   "d": "",
   "m": 0,
-    "b": "Pucallpa,Contamana,Masisea,Yarinacocha,Aguaytía,Tournavista,PuertoInca,SanAlejandro,Caimito,NuevaRequena,Campoverde,Manantay,Shanshococha,SantaClara,RamónCastilla,Neshuya,Sarayacu,Iparia,Panaillo,Nauta,Calleria,Honoria,CampoVerde,Callsao,Maquía,Lagunas,Jeberos,SantaRosaDePichan,Chazuta,Requena,Tahuayo,VillaTierraBlanca,Parinari"
+    "b": "Pucallpa,Contamana,Masisea,Yarinacocha,Aguaytía,Tournavista,PuertoInca,SanAlejandro,Caimito,NuevaRequena,Campoverde,Manantay,SantaClara,RamónCastilla,Neshuya,Sarayacu,Iparia,Panaillo,Nauta,Calleria,Honoria,Lagunas,Jeberos,SantaRosaDePichan,Chazuta,Requena,Tahuayo,VillaTierraBlanca,Parinari,SanFrancisco,Paoyhan,NuevoSaposoa,Maquía,Atalaya,Tahuanía,Sepahua,Inahuaya,Curimaná,Raymondi,PuertoEsperanza,Orellana"
 },
 {
     "name": "Shuar",
@@ -559,7 +559,7 @@ window.southAmericaNameBases = [
   "max": 13,
   "d": "",
   "m": 0,
-  "b": "Sucúa,Gualaquiza,Logroño,Mendez,Santiago,Patuca,Taisha,Huamboya,Macas,Limón,Palora,PabloSexto,Zamora,Yantzaza,ElPangui,Indanza,Chiguaza,Cuchillas,SevillaDeOro,Aguarico,Sangay,NuevaTarqui,Gualaceo,Sigsig,GeneralProaño,Morona,Tumbez,BuenaFe,Tiwintza,Upano,Chupiankas,SantaRosa,Chunchi"
+  "b": "Sucúa,Gualaquiza,Logroño,Mendez,Taisha,Huamboya,Macas,Limón,Palora,PabloSexto,Zamora,Yantzaza,ElPangui,Indanza,Chiguaza,Cuchillas,SevillaDeOro,NuevaTarqui,Gualaceo,GeneralProaño,BuenaFe,Tiwintza,SantaRosa,SantiagoDeMéndez,CentroShuar,Papanku,Kuankus,Tutinza,Yaupi,PuertoMorona,Wampuikis,Kunap,Chuya,Banderas,Guamar,Spanish"
 },
 {
     "name": "Sirionó",
@@ -577,7 +577,7 @@ window.southAmericaNameBases = [
   "max": 16,
   "d": "",
   "m": 0,
-   "b": "Cusco,Arequipa,Puno,Huancavelica,Ayacucho,Abancay,Urubamba,Pisac,Chinchero,Maras,Yucay,Combapata,Checacupe,Pomacanchi,Huancapi,VilcasHuamán,Huanta,Cangallo,Tambo,Quinua,Acocro,Acobamba,Izcuchaca,Pichari,Kimbiri,SantaAna,Ccatca,Lucre,Andahuaylillas,Urcos,Oropesa,Chinchaypujio,Ocongate,Tinta,Sicuani,Espinar,Yauri,Chuquibambilla,Antabamba,Aymaraes,Andahuaylas,Sangarará,TupacAmaru,VilcasHuamang,Acocora,Huancarani,Huancaray"
+   "b": "Cusco,Arequipa,Puno,Huancavelica,Ayacucho,Abancay,Urubamba,Pisac,Chinchero,Maras,Yucay,Combapata,Checacupe,Pomacanchi,Huancapi,VilcasHuamán,Huanta,Cangallo,Quinua,Acobamba,Izcuchaca,Pichari,Kimbiri,SantaAna,Ccatca,Lucre,Andahuaylillas,Urcos,Oropesa,Chinchaypujio,Ocongate,Tinta,Sicuani,Espinar,Yauri,Chuquibambilla,Antabamba,Aymaraes,Andahuaylas,Sangarará,Acocora,Huancarani,Huancaray,Juliaca,Ilave,Ayaviri,Azángaro,Lampa,Cabana,Potosí,Sucre,Cochabamba,Quillacollo,Sacaba,Tarija,Tumibamba"
 },
 {
     "name": "Sranan Tongo",
@@ -595,7 +595,7 @@ window.southAmericaNameBases = [
   "max": 24,
   "d": "",
   "m": 0,
-   "b": "Niterói,Tijuca,Ipanema,Copacabana,Jacarepaguá,Piracicaba,Sorocaba,Bertioga,Ubatuba,Itanhaém,Paranaguá,Itapecerica,Pindamonhangaba,Botucatu,Jacareí,Taubaté,Guaratinguetá,Mauá,Guarulhos,Curitiba,MogiDasCruzes,Osasco,Itu,Jundiaí,Limeira,Tatuí,Marília,Franca,Araras,Penápolis,Itapira,PousoAlegre,Varginha,Guarapuava,Cascavel,FozDoIguaçu,Itajaí,Tubarão,Pelotas,SantanaDoLivramento,Bagé,RioGrande,CaxiasDoSul,Canela,Gramado,BalneárioCamboriú,Itapema,RioDeJaneiro,Santos,SãoVicente,AngraDosReis,Macaé,CaboFrio,Búzios,CamposDosGoytacazes,IguabaGrande,Saquarema,Araruama,SãoPedroDaAldeia,Guanabara,SãoJoséDosCampos,Suzano,Itapeva,Cerquilho,Ourinhos,SãoCarlos,Jaboticabal,Dracena,SãoManuel,PoçosDeCaldas,CamposDoJordão,Chapecó,Lages,Uruguaiana,Vacaria,SantaCruzDoSul,Santiago,SãoBorja,Alegrete,SãoGabriel,Ijuí,PassoFundo,Erechim,Okaranti,Jabebiracica,Karióka,Akaray,Itaóka,Sarapoy,Irajá,Inhaúma,Pindobuçu,Cairuçu,Uruçumirim,Paranapucu,Iperoig,Arariboia,CaieirasVelhas,Comboios,Amarelo,Guaxindiba,Cantagalo,Araribá,BraçoMorto,Areal,Sauê,Piranema,Potiri,SahyPequeno,Batinga,SantaJoana,CórregoDoMorcego,Goitacá,Tamoio,Tupinambá,Tupiniquim,Maracajá,Anhangapuca,Cunhambebe,Aimberê,Guayxará,Koaquira,Piratininga,Paraguaçu,Sepetiba,Resende,BarraMansa,VoltaRedonda,RioDasOstras,SãoJoãoDaBarra,Quissamã,Carapebus,SilvaJardim,ArraialDoCabo,Maracanã,Gávea,Laranjeiras,Flamengo,Botafogo,Leblon,BarraDaTijuca,RecreioDosBandeirantes,Anápolis"
+   "b": "Niterói,Tijuca,Ipanema,Copacabana,Jacarepaguá,Piracicaba,Sorocaba,Bertioga,Ubatuba,Itanhaém,Paranaguá,Itapecerica,Pindamonhangaba,Botucatu,Jacareí,Taubaté,Guaratinguetá,Mauá,Guarulhos,Curitiba,MogiDasCruzes,Osasco,Itu,Jundiaí,Limeira,Tatuí,Marília,Franca,Araras,Penápolis,Itapira,PousoAlegre,Varginha,Guarapuava,Cascavel,FozDoIguaçu,Itajaí,Tubarão,Pelotas,SantanaDoLivramento,Bagé,RioGrande,CaxiasDoSul,Canela,Gramado,BalneárioCamboriú,Itapema,RioDeJaneiro,Santos,SãoVicente,AngraDosReis,Macaé,CaboFrio,Búzios,CamposDosGoytacazes,IguabaGrande,Saquarema,Araruama,SãoPedroDaAldeia,Guanabara,SãoJoséDosCampos,Suzano,Itapeva,Cerquilho,Ourinhos,SãoCarlos,Jaboticabal,Dracena,SãoManuel,PoçosDeCaldas,CamposDoJordão,Lages,Uruguaiana,Vacaria,SantaCruzDoSul,Santiago,SãoBorja,Alegrete,SãoGabriel,Ijuí,PassoFundo,Erechim,Irajá,Inhaúma,Pindobuçu,Cairuçu,Uruçumirim,Paranapucu,Iperoig,Arariboia,CaieirasVelhas,Comboios,Amarelo,Guaxindiba,Cantagalo,Araribá,BraçoMorto,Areal,Sauê,Piranema,Potiri,SahyPequeno,Batinga,SantaJoana,CórregoDoMorcego,Maracajá,Anhangapuca,Cunhambebe,Aimberê,Guayxará,Koaquira,Piratininga,Paraguaçu,Sepetiba,Resende,BarraMansa,VoltaRedonda,RioDasOstras,SãoJoãoDaBarra,Quissamã,Carapebus,SilvaJardim,ArraialDoCabo,Maracanã,Gávea,Laranjeiras,Flamengo,Botafogo,Leblon,BarraDaTijuca,RecreioDosBandeirantes,Anápolis,Itaquaquecetuba,Pindorama,Tietê,Pirajá,Ipiranga,Piratuba,Iguape,Cananéia,Igaratá,JundiaíMirim,EmbuDasArtes,Ituverava"
 },
 {
     "name": "Warao",
@@ -604,7 +604,7 @@ window.southAmericaNameBases = [
   "max": 22,
   "d": "",
   "m": 0,
-  "b": "Tucupita,Pedernales,BarrancasDelOrinoco,Mariusa,Jobure,Curiapo,Manamo,Ajíes,Morichalito,SantaIsabelDeUtucual,CañoGuara,BocaGrande,CañoMontero,Cascajal,SanRafaelDeMay,LaHorqueta,CañoVenado,Winare,Manuare,Corozal,LosGallitos,Guayamure,Volcán,LaTortuga,BocaDeSerpiente,Tucupido,Yaguaraparo,Claret,Guiniquina,AntonioDiaz,CañoChigüire"
+  "b": "Tucupita,Pedernales,BarrancasDelOrinoco,Curiapo,Winikina,Winare,Manuare,AntonioDiaz,Yaguaraparo,SantaIsabelDeUtucual,Guayo,Mariusa,Jobure,Manamo,Ajíes,SanRafaelDeMay,LaHorqueta,Cascajal,BocaGrande,Guiniquina,Claret,CañoGuara,CañoMontero,CañoVenado,CañoChigüire,Morichalito,Tucupido,Voladora,Nabaruto,SantaCatalina,SanRafael,Araguabisi,Barranquita,ElTriunfo,Macareo,Manacal,Paloma,PasoNuevo,Soledad,Yanamo,Corozal,LaTortuga"
 },
 {
     "name": "Warázu",
@@ -613,7 +613,7 @@ window.southAmericaNameBases = [
   "max": 24,
   "d": "",
   "m": 0,
-    "b": "PimenteirasDoOeste,Cerejeiras,ColoradoDoOeste,Vilhena,PortoVelho,Ariquemes,JiParaná,SãoMiguelDoGuaporé,NovaMamoré,Buritis,CampoNovo,Corumbiara,Cacaulândia,Theobroma,Castanheiras,Chupinguaia,PimentaBueno,OuroPretoDoOeste,Cacoal,AltoAlegreDosParecis,SãoFranciscoDoGuaporé,GuajaráMirim,CostaMarques,AltoAlegre,GovernadorJorgeTeixeira,MinistroAndreazza,NovoHorizonteDoOeste,SantaLuziaDOeste,Jaru,MachadinhoDOeste"
+    "b": "PimenteirasDoOeste,Cerejeiras,ColoradoDoOeste,Vilhena,PortoVelho,Ariquemes,JiParaná,SãoMiguelDoGuaporé,NovaMamoré,Buritis,CampoNovo,Corumbiara,Cacaulândia,Theobroma,Castanheiras,Chupinguaia,PimentaBueno,OuroPretoDoOeste,Cacoal,AltoAlegreDosParecis,SãoFranciscoDoGuaporé,GuajaráMirim,CostaMarques,AltoAlegre,GovernadorJorgeTeixeira,MinistroAndreazza,NovoHorizonteDoOeste,SantaLuziaDOeste,Jaru,MachadinhoDOeste,Cabixi,RolimDeMoura,AltaFlorestaDOeste,Seringueiras,Teixeirópolis"
 },
 {
     "name": "Wariʼ",
@@ -622,7 +622,7 @@ window.southAmericaNameBases = [
   "max": 24,
   "d": "",
   "m": 0,
-    "b": "OuroPretoDoOeste,PacaásNovos,GuajaráMirim,PortoVelho,JiParaná,Ariquemes,Buritis,CampoNovo,Corumbiara,Cacaulândia,Theobroma,GovernadorJorgeTeixeira,MinistroAndreazza,Castanheiras,Chupinguaia,PimentaBueno,NovaMamoré,AltoAlegreDosParecis,Cacoal,SantaLuziaDOeste,NovoHorizonteDoOeste,Vilhena,AltoParaíso,Carlifornia,Riozinho,Seringueiras,Teixeirópolis,ValeDoAnari,ValeDoParaíso,MachadinhoDOeste"
+    "b": "OuroPretoDoOeste,PacaásNovos,GuajaráMirim,PortoVelho,JiParaná,Ariquemes,Buritis,CampoNovo,Corumbiara,Cacaulândia,Theobroma,GovernadorJorgeTeixeira,MinistroAndreazza,Castanheiras,Chupinguaia,PimentaBueno,NovaMamoré,AltoAlegreDosParecis,Cacoal,SantaLuziaDOeste,NovoHorizonteDoOeste,Vilhena,AltoParaíso,Riozinho,Seringueiras,Teixeirópolis,ValeDoAnari,ValeDoParaíso,Sagarana,Lage,JardimDoOuro,Tanjão"
 },
 {
     "name": "Xocó",
@@ -631,7 +631,7 @@ window.southAmericaNameBases = [
   "max": 23,
   "d": "",
   "m": 0,
-  "b": "PortoRealDoColégio,PalmeiraDosÍndios,Propriá,Aracaju,CanindéDeSãoFrancisco,Piranhas,DelmiroGouveia,OlhoDÁguaDoCasado,PoçoRedondo,SantanaDoSãoFrancisco,Traipu,SãoBrás,NossaSenhoraDeLourdes,CampoGrande,Monteirópolis,FeiraGrande,Batalha,JacaréDosHomens,Penedo,SãoMiguelDosCampos,Maceió,RioLargo,MarechalDeodoro,DelmiroGoveia,CedroDeSãoJoão,Itabi,Gararu,MajorIsidoro,SantoAntônio,BeloMonte,Cumbe,Entremontes,Itaoca,Carneiros"
+  "b": "PortoDaFolha,IlhaDeSãoPedro,Caiçara,CanindéDeSãoFrancisco,Propriá,SantanaDoSãoFrancisco,NossaSenhoraDeLourdes,PoçoRedondo,Gararu,Itabi,CedroDeSãoJoão,Telha,Neópolis,AmparoDeSãoFrancisco,BrejoGrande,Aracaju,Penedo,SãoMiguelDosCampos,MarechalDeodoro,RioLargo,DelmiroGouveia,OlhoDÁguaDoCasado,Traipu,Piranhas,Maceió,PortoRealDoColégio,PalmeiraDosÍndios,SãoBrás,BeloMonte,Cumbe,Entremontes,Itaoca,Carneiros,Monteirópolis,FeiraGrande,Batalha,JacaréDosHomens,CampoGrande,MajorIsidoro,SantoAntônio"
 },
 {
     "name": "Yaminawa",
@@ -640,7 +640,7 @@ window.southAmericaNameBases = [
   "max": 17,
   "d": "",
   "m": 0,
-    "b": "Pucallpa,Iñapari,PuertoMaldonado,Sepahua,Contamana,Masisea,Requena,Tahuayo,Iparia,Tapiche,Mansoa,SargentoLores,Lagunas,Barranca,Breu,Atalaya,Purus,Juruá,Envira,Eirunepé,Humaitá,Lábrea,Tapauá,Canutama,Carauari,SantaRosa,Fronteira,NovaAliança,Orellana,Balta,Ipixuna,Guajará,Maraã,SanMiguel,PuertoOcopa,Chazuta,SanPablo"
+    "b": "Pucallpa,Iñapari,PuertoMaldonado,Sepahua,Contamana,Masisea,Requena,Tahuayo,Iparia,Tapiche,Mansoa,SargentoLores,Lagunas,Barranca,Breu,Atalaya,Purus,Juruá,Envira,Eirunepé,Humaitá,Lábrea,Tapauá,Canutama,Carauari,SantaRosa,Fronteira,NovaAliança,Orellana,Balta,Ipixuna,Guajará,Maraã,SanMiguel,PuertoOcopa,Chazuta,SanPablo,NovaAliançaDoMamoré,SantaRosaDoPurus,ManoelUrbano"
 },
 
 {
@@ -650,7 +650,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "es-VE",
   "m": 0,
-    "b": "Caracas,Maracaibo,Valencia,Barquisimeto,Maracay,CiudadGuayana,Barcelona,Maturín,Barinas,Cumaná,Mérida,SanCristóbal,Coro,PuertoLaCruz,Turmero,LosTeques,PuntoFijo,Guarenas,Cabimas,Acarigua,PuertoCabello,Calabozo,ValleDeLaPascua,SantaRita,SantaTeresa,SanFelipe,ElTigre,LaVictoria,Guanare,Tinaquillo,SanCarlos,Nirgua,Quibor,Guigue,Ocumare,Tacarigua,Cagua,VillaDeCura,Upata,Guasdualito,Elorza,Barinitas,LaGrita,SanAntonio,Tovar,ColoniaTovar,LosAngeles,Delicias"
+    "b": "Caracas,Maracaibo,Valencia,Barquisimeto,Maracay,CiudadGuayana,Barcelona,Maturin,Barinas,Cumana,Merida,SanCristobal,Coro,PuertoLaCruz,Turmero,LosTeques,PuntoFijo,Guarenas,Cabimas,Acarigua,PuertoCabello,Calabozo,ValleDeLaPascua,SantaRita,SantaTeresa,SanFelipe,ElTigre,LaVictoria,Guanare,Tinaquillo,SanCarlos,Nirgua,Quibor,Guigue,Ocumare,Tacarigua,Cagua,VillaDeCura,Upata,Guasdualito,Elorza,Barinitas,LaGrita,SanAntonio,Tovar,ColoniaTovar,LosAngeles,Delicias,CiudadBolivar,SanFernandoDeApure,Cumanacoa,Carupano,CatiaLaMar,Guatire,Chacao,ElHatillo,SanJuanDeLosMorros,Araure,Zaraza,Caucagua,OcumareDelTuy,Charallave,Guacara,Mariara,Moron,PuertoOrdaz,SanFelix"
 },
 {
     "name": "Peruvian Ribereño",
@@ -659,7 +659,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "es-PE",
   "m": 0,
-    "b": "Iquitos,Pucallpa,Yurimaguas,Requena,Contamana,LaMerced,PuertoMaldonado,Nauta,Tamshiyacu,Indiana,Punchana,Belen,Yarinacocha,Campoverde,Manantay,Aguaytia,Tournavista,PuertoInca,SanAlejandro,NuevaRequena,Jeberos,PuertoBermudez,SanRamon,Perene,Palmapampa,Tambo,Aguaytía,Reyes"
+    "b": "Iquitos,Pucallpa,Yurimaguas,Requena,Contamana,LaMerced,PuertoMaldonado,Nauta,Tamshiyacu,Indiana,Punchana,Belén,Yarinacocha,Campoverde,Manantay,Aguaytía,Tournavista,PuertoInca,SanAlejandro,NuevaRequena,Jeberos,PuertoBermudez,SanRamón,Perené,Palmapampa,Caballococha,Mazán,Atalaya,Masisea,JenaroHerrera,RamónCastilla,Sarayacu,Lagunas,Chazuta,SantaRosa,SanPablo,Barranca,Tahuayo,Pebas"
 },
 {
     "name": "Achagua",
@@ -668,7 +668,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "nic-GH",
   "m": 0,
-    "b": "Villavicencio,Yopal,Arauca,PuertoCarreno,PuertoGaitan,PuertoLopez,Acacias,SanMartin,Granada,FuenteDeOro,ElDorado,Lejanias,Mesetas,LaUribe,VistaHermosa,SanJuanDeArama,PuertoRico,PuertoLleras,Mapiripan,LaMacarena,ElRetorno,SanJoseDelGuaviare,Inirida,BarrancoMinas,LaPedrera,Aguazul,HatoCorozal,Maní,Monterrey,Nunchía,Orocué,PazDeAriporo,Pore,Tauramena,Trinidad,Arauquita,CravoNorte"
+    "b": "Villavicencio,PuertoLopez,PuertoGaitan,Acacias,Granada,SanMartin,FuenteDeOro,ElDorado,Lejanias,Mesetas,VistaHermosa,SanJuanDeArama,PuertoRico,PuertoLleras,Mapiripan,LaMacarena,Cumaral,Restrepo,Yopal,Orocué,Aguazul,HatoCorozal,Maní,Monterrey,Nunchía,PazDeAriporo,Pore,Tauramena,Trinidad,Umapo"
 },
 {
     "name": "Ashaninka",
@@ -677,7 +677,7 @@ window.southAmericaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-    "b": "Satipo,PuertoOcopa,Tambo,RíoNegro,Kivinaki,Pichari,Kepashiato,Sivaki,Ayacucho,Pangoa,Tsanquiato,Samaniato,Shimaa,Putucusi,Kiteni,Palmapampa,SanMiguel,Mazamari,Uchiza,Tocache,Campanilla,SanMartínDePangoa,RíoTamboSantaMaria,LaMerced,Oxapampa,VillaRica,PuertoBermúdez"
+    "b": "Satipo,PuertoOcopa,Tambo,RíoNegro,Kivinaki,Pichari,Kepashiato,Sivaki,Pangoa,Tsanquiato,Samaniato,Shimaa,Kiteni,Palmapampa,SanMiguel,Mazamari,Uchiza,Tocache,Campanilla,SanMartínDePangoa,LaMerced,Oxapampa,VillaRica,PuertoBermúdez,Pichanaki,RíoTambo,Perené,SantaAna,Rivera,PuertoPrado,Quimbiri,Anapati,Pósohue,Tsiriari,Cutivireni,Cañete"
 },
 {
     "name": "Aymara",
@@ -686,7 +686,7 @@ window.southAmericaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-    "b": "LaPaz,ElAlto,Cochabamba,Oruro,Potosí,Sucre,Tarija,SantaCruz,Quillacollo,Sacaba,Vinto,Tiquipaya,Colomi,Patacamaya,Viacha,Achacachi,Warisata,Huarina,Desaguadero,Guaqui,Tiwanaku,Laja,SicaSica,Calamarca,Colquencha,Collana,Batallas,Pucarani,Copacabana,Yunguyo,Juli,Ilave,Puno,Acora,Chucuito,Huancané,Moho,Conima,Tilali,Juliaca"
+    "b": "LaPaz,ElAlto,Cochabamba,Oruro,Potosí,Sucre,Tarija,Quillacollo,Sacaba,Vinto,Tiquipaya,Colomi,Patacamaya,Viacha,Achacachi,Warisata,Huarina,Desaguadero,Guaqui,Tiwanaku,Laja,SicaSica,Calamarca,Colquencha,Collana,Batallas,Pucarani,Copacabana,Yunguyo,Juli,Ilave,Puno,Acora,Chucuito,Huancané,Moho,Conima,Tilali,Juliaca,Arica,Putina,Ayaviri,Azángaro,Lampa"
 },
 {
     "name": "Berbice",
@@ -704,7 +704,7 @@ window.southAmericaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-    "b": "Arauca,PuertoRondón,CravoNorte,PazDeAriporo,Trinidad,SanLuisDePalenque,Orocué,Pore,Nunchía,Chameza,LaSalina,Sácama,Aguaclara,Sabanalarga,Monterrey,Villanueva,Tauramena,Aguazul,Yopal,Cumaral,HatoCorozal,Maní,Arauquita,Saravena"
+    "b": "Arauca,Tame,Fortul,Saravena,Arauquita,PuertoRondón,CravoNorte,HatoCorozal,PazDeAriporo,Trinidad,SanLuisDePalenque,Orocué,Pore,Nunchía,Chameza,LaSalina,Sácama,Aguaclara,Sabanalarga,Monterrey,Villanueva,Tauramena,Aguazul,Yopal,Maní"
 },
 {
     "name": "Minica Huitoto",
@@ -740,7 +740,7 @@ window.southAmericaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-    "b": "Barreirinha,Parintins,Maues,BoaVistaDoRamos,NovaOlindaDoNorte,Itacoatiara,Urucurituba,SaoSebastiao,Uatuma,Silves,Itapiranga,Nhamunda,Faro,TerraSanta,Obidos,Oriximina,Juruti,Alenquer,MonteAlegre,Prainha,Almeirim,Altamira,São Félix do Xingu,Ourilândia do Norte,Tucumã,Marabá,Parauapebas,Redenção,Conceição do Araguaia,Santana do Araguaia,Itaituba,Santarém,Óbidos,Monte Alegre,Porto de Moz,Anapu,Pacajá,Senador José Porfírio,Maués,Boa Vista do Ramos,Nova Olinda do Norte,Jutaí,Santo Antônio do Içá,Amaturá,Tonantins,Fonte Boa,Pinheiro,Carutapera,Godofredo Viana"
+    "b": "Barreirinha,Parintins,Maues,BoaVistaDoRamos,NovaOlindaDoNorte,Itacoatiara,Urucurituba,SaoSebastiao,Uatuma,Silves,Itapiranga,Nhamunda,Faro,TerraSanta,Obidos,Oriximina,Juruti,Alenquer,MonteAlegre,Prainha,Almeirim,Altamira,SãoFélixDoXingu,OurilândiaDoNorte,Tucumã,Marabá,Parauapebas,Redenção,ConceiçãoDoAraguaia,SantanaDoAraguaia,Itaituba,Santarém,PortoDeMoz,Anapu,Pacajá,SenadorJoséPorfírio,Andirá,Marau,SãoSebastiãoDoUatumã,Cametá,IgarapéMiri"
 },
 {
     "name": "Tenetehára",
@@ -749,7 +749,7 @@ window.southAmericaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-    "b": "SantaLuzia,BarraDoCorda,Grajaú,Imperatriz,Araguaína,Colinas,SãoJoãoDosPatos,Sucupira,Riachão,Balsas,Carolina,AltoParnaíba,Pinheiro,Carutapera,GodofredoViana,Turiaçu,ZéDoca,Chapadinha,Timon,Caxias,Codó,Coroatá,Bacabal,PresidenteDutra,ItapecuruMirim,Viana,Pedreiras,Pindaré"
+    "b": "SantaLuzia,BarraDoCorda,Grajaú,Imperatriz,Araguaína,Colinas,SãoJoãoDosPatos,Sucupira,Riachão,Balsas,Carolina,AltoParnaíba,Pinheiro,Carutapera,GodofredoViana,ZéDoca,Amarante,Caxias,Codo,Coroatá,Chapadinha,Bacabal,ItapecuruMirim,Timon,Timbiras,Pedreiras,Viana,PresidenteDutra,AmaranteDoMaranhão,BomJesusDasSelvas,Buriticupu,SantaLuziaDoParuá,CentroNovoDoMaranhão,Maranhãozinho,GovernadorNewtonBello,JenipapoDosVieiras,BarãoDeGrajaú,ItaipavaDoGrajaú,FernandoFalcão,UrbanoSantos"
 },
 {
     "name": "Trinitario",
@@ -785,7 +785,7 @@ window.southAmericaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-    "b": "Embarcacion,SalvadorMazza,CampoDuran,GeneralMosconi,Ballivian,Pocitos,Yacuiba,VillaMontes,EntreRios,PalosBlancos,Villamontes,Carapari,SanFrancisco,ElPalmar,Boyuibe"
+    "b": "VillaMontes,Yacuiba,Carapari,Boyuibe,SanFrancisco,ElPalmar,PalosBlancos,EntreRios,Camiri,Pocitos,Ballivián,GeneralMosconi,Embarcación,SalvadorMazza,Aguaray,Tartagal,BuenosAires,DOrbigny,YacuibaNueva"
 },
 {
     "name": "Wichí Lhamtés Vejoz",
@@ -794,7 +794,7 @@ window.southAmericaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-    "b": "Embarcacion,SalvadorMazza,CampoDuran,GeneralMosconi,Ballivian,Pocitos,Yacuiba,VillaMontes,EntreRios,PalosBlancos,Villamontes,Carapari,SanFrancisco,Boyuibe,MonteQuemado,PampaDeLosGuanacos,SantiagoDelEstero,SantaAna,VillaRosa,Aguaray,Algarrobal,SaenzPena"
+    "b": "Embarcación,SalvadorMazza,CampoDuran,GeneralMosconi,Ballivian,Pocitos,Yacuiba,VillaMontes,EntreRios,PalosBlancos,Carapari,SanFrancisco,Boyuibe,MonteQuemado,PampaDeLosGuanacos,SantaAna,Aguaray,Algarrobal,SaenzPeña,Tartagal,IngenieroJuárez,LasLomitas,GeneralPinedo,LaLeonesa,TacoPozo"
 },
 {
     "name": "Tiriyó",
@@ -803,7 +803,7 @@ window.southAmericaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-    "b": "Paramaribo,Lelydorp,NieuwNickerie,Moengo,Albina,Wageningen,Groningen,Brownsweg,Brokopondo,Paloemeu,Kwamalasamutu,Sipaliwini,Apetina,Tepoe,GranRio,SãoJoãoDaBaliza,SãoLuiz,Caroebe,BoaVista,Roraima,Japurá"
+    "b": "Kwamalasamutu,Paloemeu,Apetina,Tepoe,GranRio,Sipaliwini,PeleluTepu,Alalapadu,Amatopo,Kasuela,Kuruni,Sakuru,VierGebroeders,SãoJoãoDaBaliza"
 },
 {
     "name": "Xavante",
@@ -812,7 +812,7 @@ window.southAmericaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-    "b": "BarraDoGarças,ÁguaBoa,NovaXavantina,Cocalinho,Araguaiana,Campinápolis,GeneralCarneiro,Poxoréo,PrimaveraDoLeste,Paranatinga,GaúchaDoNorte,NovaNazaré,SantoAntônioDoLeste,NovaBrasilândia,PlanaltoDaSerra,Canarana,RibeirãoCascalheira,Querência,PortoAlegreDoNorte"
+    "b": "BarraDoGarças,ÁguaBoa,NovaXavantina,Cocalinho,Araguaiana,Campinápolis,GeneralCarneiro,Poxoréo,PrimaveraDoLeste,Paranatinga,GaúchaDoNorte,NovaNazaré,SantoAntônioDoLeste,NovaBrasilândia,PlanaltoDaSerra,Canarana,RibeirãoCascalheira,Querência,PortoAlegreDoNorte,AltoGarças,PontalDoAraguaia,Torixoréu,SantaTerezinha,VilaRica,SãoFélixDoAraguaia,Luciara,AltoBoaVista,NovoSãoJoaquim"
 },
 {
     "name": "Xerente",
@@ -821,7 +821,7 @@ window.southAmericaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-    "b": "Tocantínia,Cristalândia,Pium,Miracema,Miranorte,Palmas,Paraíso,PortoNacional,Guaraí,Xambioá,Taguatinga,Arraias,Dianópolis,Natividade,Peixe,FormosoAraguaia,Araguaçu,Itaporã,Crixás"
+    "b": "Tocantínia,Cristalândia,Pium,MiracemaDoTocantins,Miranorte,Palmas,ParaísoDoTocantins,PortoNacional,Guaraí,Xambioá,Taguatinga,Arraias,Dianópolis,Natividade,Peixe,FormosoDoAraguaia,Araguaçu,Itaporã,Crixás,Lajeado,RioSono,Presidente,MonteSantoDoTocantins,PedroAfonso,ColinasDoTocantins,Gurupi,Almas,SantaRosaDoTocantins,ChapadaDaNatividade"
 },
 {
     "name": "Língua Geral Amazônica",
@@ -830,7 +830,7 @@ window.southAmericaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-    "b": "SãoGabrielDaCachoeira,SantaIsabel,RioNegro,Barcelos,Manaus,Parintins,Itacoatiara,Coari,Tefé,BenjaminConstant,Tabatinga,SãoPauloDeOlivença,Amaturá,Tonantins,FonteBoa,Japurá,SantoAntônioDoIçá,Cucuí,PariCachoeira,Caruá,Marabitana,Içana,Tiquié,Uaupés,SãoJoaquim,Turí,Envira,Pauini"
+    "b": "SãoGabrielDaCachoeira,SantaIsabelDoRioNegro,Barcelos,Manaus,Parintins,Itacoatiara,Coari,Tefé,BenjaminConstant,Tabatinga,SãoPauloDeOlivença,Amaturá,Tonantins,FonteBoa,Japurá,SantoAntônioDoIçá,Cucuí,PariCachoeira,Caruá,Marabitana,Içana,Tiquié,Uaupés,SãoJoaquim,Turí,Envira,Pauini,Moura,Carvoeiro,Codajás,Urucará,Silves,NovoAirão,PresidenteFigueiredo,Jutaí,AtalaiaDoNorte"
 },
 {
     "name": "Macuna",
@@ -929,7 +929,7 @@ window.southAmericaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-    "b": "PuertoAsís,PuertoCaicedo,Orito,SanMiguel,Sibundoy,Santiago,Colón,SanFrancisco,Piamonte,Sucre,ValleDelGuamuez,Mocoa,VillaGarzon,PuertoGuzmán,MagüíPayán,ElTambo,LaCruz,SantaRosaDeSucumbíos,Aguarico,LagoAgrio,Cascales,Cuyabeno,Siona,Pinuna,Blanco,Cofan,Guamu,Cuembi,Yasuni,Enokay,Piaguaje"
+    "b": "PuertoAsís,PuertoLeguízamo,PuertoCaicedo,Orito,SanMiguel,ValleDelGuamuez,Mocoa,VillaGarzón,PuertoGuzmán,Buenavista,PiñuñaBlanco,SantaCruzDePiñuñaBlanco,SanDiego,Cuembí,LaHormiga,LagoAgrio,Cascales,Cuyabeno,Aguarico,SantaRosaDeSucumbíos,PuertoBolívar,Biaña,Orahuëaya,TarapuyTansiaya"
 },
 {
     "name": "Rama",
@@ -938,7 +938,7 @@ window.southAmericaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-    "b": "Bluefields,RamaCay,ElBluff,KukraHill,Karawala,Tasbapauni,Haulover,Waspam,PuertoCabezas,Bilwi,Prinzapolka,Siuna,Rosita,Bonanza,LagunaDePerlas,Mulukukú,Waslala,LaDesembocadura"
+    "b": "Bluefields,RamaCay,ElBluff,KukraHill,Karawala,Tasbapauni,Haulover,Waspam,PuertoCabezas,Bilwi,Prinzapolka,Siuna,Rosita,Bonanza,LagunaDePerlas,Mulukuku,Waslala,LaDesembocadura,CornIsland,BigCornIsland,PearlLagoon,Kukra,SetNet,Awas"
 },
 {
     "name": "Chimila",
@@ -947,7 +947,7 @@ window.southAmericaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-    "b": "Maicao,Uribia,Manaure,Riohacha,Albania,Hatonuevo,Barrancas,Fonseca,SanJuanDelCesar,Distracción,ElMolino,LaJaguaDelPilar,Villanueva,Urumita,Mingueo,Dibulla,Camarones,PuertoEstrella,Nazaret,Paraguachón,Carraipía,Cuestecitas,Mayapo,Aremasain,Taroa"
+    "b": "SabanasDeSanÁngel,ElCopey,ElDifícil,PlatoBolívar,Tamalameque,Chimichagua,Valledupar,Pivijay,Curumaní,Chiriguaná,Bosconia,SanDiego,SabanaDeTorres,RepublicaDeVenezuela,LomaDeCiego,IssaOristunna,EtteButeriya,SanÁngel,ElRetén,Aguachica,LosRoblesLaPaz"
 },
 {
     "name": "Piaroa",
@@ -956,7 +956,7 @@ window.southAmericaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-    "b": "PuertoAyacucho,LaEsmeralda,Maroa,SanFernandoDeAtabapo,SanCarlosDelRioNegro,Mavaca,Ocamo,Platanal,Maipures,Sipapo,Guarinuma,PuertoPaez,ElBurro,Pararuma,Morichito,Cacahual,Yavarate,SanFelipe,Mitú,Tiquie,Inírida"
+    "b": "PuertoAyacucho,SanFernandoDeAtabapo,IslaRatón,Sipapo,Maipures,PuertoPaez,ElBurro,Pararuma,Morichito,Cacahual,Guarinuma,SanJuanDeManapiare,Pendare,CañoGrulla,BetaniaDeTopocho,Sardi,Cumaribo,Gavilán,Coromoto,PuertoColombia"
 },
 {
     "name": "Toba",
@@ -965,7 +965,7 @@ window.southAmericaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-    "b": "Resistencia,Fontana,Barranqueras,PuertoTirol,LasBreñas,Charata,VillaÁngela,SanBernardo,Castelli,ComandanciaFrias,SaenzPeña,Quitilipi,VillaBerthet,LaLeonesa,GeneralPinedo,TacoPozo,MonteQuemado,PampaDeLosGuanacos,ElImpenetrable,Miraflores,LagunaLimpia,Formosa,Clorinda,Pirane,Ibarreta,LagunaBlanca,LasLomitas,IngenieroJuárez"
+    "b": "Resistencia,Fontana,Barranqueras,PuertoTirol,LasBreñas,Charata,VillaÁngela,SanBernardo,Castelli,ComandanciaFrias,SaenzPeña,Quitilipi,VillaBerthet,LaLeonesa,GeneralPinedo,TacoPozo,MonteQuemado,PampaDeLosGuanacos,LagunaLimpia,Clorinda,Pirane,Ibarreta,LagunaBlanca,LasLomitas,IngenieroJuárez,Formosa,MisiónTacaaglé,SanFranciscoDeLaishí,Tartagal,Embarcación,VillaRíoBermejito,Napalpí"
 },
 {
     "name": "Wayuu",
@@ -974,7 +974,7 @@ window.southAmericaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-    "b": "Maicao,Uribia,Manaure,Riohacha,Albania,Hatonuevo,Barrancas,Fonseca,SanJuanDelCesar,Distracción,ElMolino,LaJaguaDelPilar,Villanueva,Urumita,Mingueo,Dibulla,Camarones,PuertoEstrella,Nazaret,PuertoLópez,Paraguachón,Carraipía,Mayapo,Aremasain,Taroa,Sinamaica,Paraguaipoa,Guarero,Cojoro"
+    "b": "Maicao,Uribia,Manaure,Riohacha,Albania,Hatonuevo,Barrancas,Fonseca,SanJuanDelCesar,Distracción,ElMolino,LaJaguaDelPilar,Villanueva,Urumita,Mingueo,Dibulla,Camarones,PuertoEstrella,Nazaret,PuertoLópez,Paraguachón,Carraipía,Mayapo,Aremasain,Taroa,Sinamaica,Paraguaipoa,Guarero,Cojoro,CaboDeLaVela,Jalaala,Robe,Karraipía,Maracaibo"
 },
 {
     "name": "Barí",
@@ -983,7 +983,7 @@ window.southAmericaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-    "b": "Ocaña,Ábrego,LaPlaya,SanCalixto,Hacarí,SanMartín,RíoDeOro,Catatumbo,ElTarra,Tibú,Convención,Teorama,ElCarmen,VillaDelRosario,SanCayetano"
+    "b": "Tibú,Convención,Teorama,ElCarmen,ElTarra,SanCalixto,Hacarí,Ábrego,Ocaña,Bridicayra,Ishtana,CañoBandó,Saphadana,LaPlaya,SanMartín,RíoDeOro,VillaDelRosario,SanCayetano,Catatumbo"
 },
 {
     "name": "Ese Ejja",
@@ -1010,7 +1010,7 @@ window.southAmericaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-    "b": "Popayán,Silvia,Jambaló,Toribío,Caloto,SantanderDeQuilichao,Piendamó,Caldas,BuenosAires,Morales,Suárez,Argelia,PuertoTejada,Padilla,VillaRica,Miranda,Corinto,Guapi,Timbiquí,ElTambo,Tunía,Mosoco"
+    "b": "Silvia,Piendamó,Totoró,Caldono,Morales,Popayán,Jambaló,Toribío,Caloto,SantanderDeQuilichao,BuenosAires,Suárez,PuertoTejada,Padilla,VillaRica,Miranda,Corinto,ElTambo,Tunía,Mosoco,Guambía,Kisgó,Ambaló,Pitayó,Quichaya,Tumburao,Usenda,LaPlata,LaArgentina"
 },
 {
     "name": "Awa Pit",
@@ -1019,7 +1019,7 @@ window.southAmericaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-    "b": "Pasto,Imués,Pupiales,Gualmatán,Guachucal,Cumbal,Chiles,Mayasquer,Potosí,Iles,Aldana,Cuaspud,Carlosama,Maldonado,Túquerres,Ipiales,ElContadero,Puerres,Córdoba,Tangua,Yacuanquer,Sapuyes,Ospina"
+    "b": "Ricaurte,Barbacoas,Tumaco,Samaniego,Mallama,Piedrancha,Cumbal,Túquerres,Ipiales,Chiles,Mayasquer,Tulcán,Maldonado,ElChical,TobarDonoso,Altaquer,Guachavés,SantaCruzDeGuachavés,LlorenteTumaco,Junín,ElDiviso"
 },
 {
     "name": "Bora",
@@ -1028,7 +1028,7 @@ window.southAmericaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-    "b": "Iquitos,Pebas,SanPablo,Caballococha,RamónCastilla,PuertoAlegría,SantaRosa,JenaroHerrera,Requena,Leticia,PuertoAsís,Tarapacá,LaChorrera,ElEncanto,PuertoArica,Comeyafu,Borak"
+    "b": "Pebas,BrilloNuevo,AncónColonia,LaChorrera,Providencia,Borak,Iquitos,SanPablo,Caballococha,RamónCastilla,SantaRosa,JenaroHerrera,Requena,Leticia,PuertoAsís,Tarapacá,ElEncanto,PuertoArica,Comeyafu,PuertoNariño,SantaCruzDelRíoTapiche,Nauta,Indiana,Mazán,Tamshiyacu,Yagua"
 },
 {
     "name": "Bauré",
@@ -1046,7 +1046,7 @@ window.southAmericaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-    "b": "Filadelfia,Neuland,LomaPlana,Boquerón,PozoColorado,MariscalEstigarribia,GeneralDíaz,CarmeloPeralta,NuevaAsunción,FortínTorres,Madrejón,CrucePioneros,FortínBoquerón,LagunaPora,PuertoPinasco,BenjamínAceval,VillaHayes,TteIrala,LaVictoria"
+    "b": "Filadelfia,Neuland,LomaPlata,PozoColorado,MariscalEstigarribia,GeneralDíaz,CarmeloPeralta,NuevaAsunción,FortínTorres,Madrejón,CrucePioneros,FortínBoquerón,LagunaPora,PuertoPinasco,BenjamínAceval,VillaHayes,TteIrala,LaVictoria,CampoLoro,Ebetogué,ColoniaFernheim,ColoniaNeuland"
 },
 {
     "name": "Kanamari",
@@ -1055,7 +1055,7 @@ window.southAmericaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-    "b": "Jutaí,SantoAntônioDoIçá,Amaturá,Tonantins,FonteBoa,Japurá,Maraã,Tefé,Alvarães,Uarini,Coari,Codajás,Carauari,Pauini,Envira,Eirunepé,BenjaminConstant,Tabatinga,SãoPauloDeOlivença,PortoWalter,VilaBitencourt"
+    "b": "Jutaí,SantoAntônioDoIçá,Amaturá,Tonantins,FonteBoa,Japurá,Maraã,Tefé,Alvarães,Uarini,Coari,Codajás,Carauari,Pauini,Envira,Eirunepé,BenjaminConstant,Tabatinga,SãoPauloDeOlivença,PortoWalter,VilaBitencourt,Mawetek,Kanamari,ValeDoJavari,AtalaiaDoNorte,SãoJoãoDOeste,CruzeiroDoSul,RodriguesAlves,MâncioLima,PortoAcre"
 },
 {
     "name": "Mocoví",
@@ -1064,7 +1064,7 @@ window.southAmericaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-    "b": "Reconquista,Vera,LasToscas,Avellaneda,Malabrigo,BernardoDeIrigoyen,SanCristóbal,Rafaela,Sunchales,SanJusto,Tostado,Ceres,Añatuya,Quimilí,MonteQuemado,SantiagoDelEstero,LaBanda,TermasDeRíoHondo,Frias,CoronelDuGraty,VillaÁngela,LasBreñas,Charata,GeneralPinedo"
+    "b": "Reconquista,Vera,LasToscas,Avellaneda,Malabrigo,BernardoDeIrigoyen,SanCristóbal,Rafaela,Sunchales,SanJusto,Tostado,Ceres,Añatuya,Quimilí,MonteQuemado,LaBanda,TermasDeRíoHondo,Frias,CoronelDuGraty,VillaÁngela,LasBreñas,Charata,GeneralPinedo,Resistencia,Fontana,Barranqueras,PuertoTirol,Castelli,SaenzPeña,Quitilipi,VillaBerthet,LaLeonesa,TacoPozo,PampaDeLosGuanacos"
 },
 {
     "name": "Wounaan",
@@ -1073,7 +1073,7 @@ window.southAmericaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-    "b": "PuertoObaldía,Mulatupo,PuertoArdilla,PlayónChico,Narganá,Alijgandi,Achutupo,Tigoneria,Ustupo,Cartí,Mamartupo,LaMiel,CerroAlgodón,Carreto,Jaqué,SantaFe,Yaviza,Cana"
+    "b": "PuertoObaldia,Mulatupo,PuertoArdilla,PlayonChico,Nargana,Alijgandi,Achutupo,Ustupo,Mamartupo,LaMiel,CerroAlgodon,Carreto,Jaque,SantaFe,Yaviza,Cana,Carti,Tigre,Pinas,BocaChica,Sambu,LaPalma"
 },
 {
     "name": "Mapudungun",
@@ -1082,7 +1082,7 @@ window.southAmericaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-    "b": "Temuco,Pucon,Villarrica,Valdivia,Osorno,Angol,Collipulli,Ercilla,Traiguen,Victoria,Lautaro,NuevaImperial,Carahue,Gorbea,Loncoche,Pitrufquen,Freire,Cunco,Melipeuco,Curarrehue,Nacimiento,Contulmo,Saavedra,Perquenco,Galvarino,Cholchol,Tolten,TeodoroSchmidt,PuertoSaavedra,Panguipulli,Liquiñe,Coñaripe,Mariquina,Lanco,Paillaco"
+    "b": "Temuco,PadreLasCasas,NuevaImperial,Carahue,Villarrica,Pucón,Curarrehue,Caburgua,Cholchol,Saavedra,TeodoroSchmidt,PuertoSaavedra,Angol,Collipulli,Ercilla,Victoria,Traiguén,Nacimiento,Loncoche,Gorbea,Freire,Pitrufquén,Cunco,Melipeuco,Perquenco,Galvarino,Lautaro,Toltén,Vilcún,Cañete,Tirúa,Lonquimay,Coyhaique,Panguipulli,Coñaripe,Liquiñe,Neltume,Futrono,LosLagos,Paillaco,Máfil,Mariquina,Mehuín,Valdivia,Osorno,Lanco,Contulmo,JunínDeLosAndes,SanMartínDeLosAndes,Aluminé,Zapala,VillaPehuenia"
 },
 {
     "name": "Ona",
@@ -1091,7 +1091,7 @@ window.southAmericaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-    "b": "RioGrande,Tolhuin,Porvenir,Cameron,PuertoWilliams,PuntaArenas,PuertoNatales,Ushuaia,SanSebastian,CaletaOlivia,CerroSombrero,LagoFagnano,Ewan,Lapataia,LagoEscondido,Almanza,EstanciaVicuna,Onaisin,BahiaInutil,RioGallegos,PuertoSantaCruz"
+    "b": "RioGrande,Tolhuin,Porvenir,Cameron,PuertoWilliams,PuntaArenas,PuertoNatales,Ushuaia,SanSebastian,CaletaOlivia,CerroSombrero,RioGallegos,PuertoSantaCruz,RioVerde,Timaukel,VeintiochoDeNoviembre,RioTurbio,ElCalafate,ElChalten,GobernadorGregores,SanJulian,TresLagos,LosAntiguos,PeritoMoreno,PuertoDeseado,PiedraBuena,ComandanteLuisPiedraBuena"
 },
 {
     "name": "Yahgan",
@@ -1100,7 +1100,7 @@ window.southAmericaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-    "b": "PuertoWilliams,PuntaArenas,PuertoNatales,Porvenir,Cameron,RioGrande,Tolhuin,Ushuaia,LagoFagnano,BahiaInutil,Lapataia,LagoEscondido,Almanza,CaboDeHornos,IslaNavarino,CaletaOlivia"
+    "b": "PuertoWilliams,PuntaArenas,PuertoNatales,Porvenir,Cameron,RioGrande,Tolhuin,Ushuaia,CaletaOlivia,CaboDeHornos,VillaUkika,PuertoToros,Wulaia,BahiaDouglas,Mejillones,RioGallegos,PuertoSantaCruz,CerroSombrero,Timaukel,RioVerde"
 },
 {
     "name": "Cabiyari",
@@ -1136,7 +1136,7 @@ window.southAmericaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-    "b": "PuertoCarreño,LaPrimavera,SantaRosalía,PuertoGaitán,SanLuisDePalenque,Orocué,Trinidad,PazDeAriporo,Pore,Yopal,Aguazul,Tauramena,Villanueva,Monterrey,Maní,Nunchía,Sabanalarga,Arauca,Cuiba,Guanapalo,Ariporo,Casanare,Pauto,Cravo,Guachiria,Chire,Capanaparo,RioMeta,Cinaruco"
+    "b": "PuertoCarreño,LaPrimavera,SantaRosalía,PuertoGaitán,SanLuisDePalenque,Orocué,Trinidad,PazDeAriporo,Pore,Yopal,Aguazul,Tauramena,Villanueva,Monterrey,Maní,Nunchía,Sabanalarga,Arauca,HatoCorozal,CravoNorte,CañoMochuelo,Elorza,Guasdualito,SanFernandoDeApure,Mantecal"
 },
 {
     "name": "Cayuvava",
@@ -1154,7 +1154,7 @@ window.southAmericaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-    "b": "Asunción,Encarnación,CiudadDelEste,Caaguazú,SanLorenzo,Lambaré,Capiatá,Itauguá,Luque,Areguá,Ypacaraí,SanBernardino,Itá,Paraguarí,Villarrica,Concepción,SanPedro,Caazapá,Pilar,Yuty,SanIgnacio,SantaRosa,Santiago,CoronelBogado,Hohenau,Obligado,BellaVista,Ayolas,CarmenDelParaná"
+    "b": "Asunción,Encarnación,CiudadDelEste,Caaguazú,SanLorenzo,Lambaré,Capiatá,Itauguá,Luque,Areguá,Ypacaraí,SanBernardino,Itá,Paraguarí,Villarrica,Concepción,SanPedro,Caazapá,Pilar,Yuty,SanIgnacio,SantaRosa,Santiago,CoronelBogado,Hohenau,Obligado,BellaVista,Ayolas,CarmenDelParaná,CoronelOviedo,Caacupé,Piribebuy,Yaguarón,Quiindy,SanJuanBautista,VillaHayes,PedroJuanCaballero,SaltoDelGuairá,Hernandarias"
 },
 {
     "name": "Guahibo (Sikuani)",
@@ -1163,7 +1163,7 @@ window.southAmericaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-    "b": "PuertoCarreño,LaPrimavera,SantaRosalía,PuertoGaitán,SanLuisDePalenque,Orocué,Trinidad,PazDeAriporo,Yopal,Aguazul,Tauramena,Villanueva,Monterrey,Maní,Nunchía,Chameza,LaSalina,Sácama,Cumaral,Arauca,CravoNorte,Guahibo,Sikuani,Ariporo,Tuparro,Tomar,Tillava,Capertia,Sivapure,Guaripa,Paravare,Cupil"
+    "b": "PuertoGaitán,Cumaribo,PuertoCarreño,LaPrimavera,SantaRosalía,Inírida,Mapiripán,PuertoLleras,PuertoConcordia,SanLuisDePalenque,Orocué,Trinidad,PazDeAriporo,Yopal,Aguazul,Tauramena,Villanueva,Monterrey,Maní,Nunchía,Cumaral,Arauca,CravoNorte,BarrancoMinas,PuertoAyacucho,SanFernandoDeAtabapo"
 },
 {
     "name": "Guayabero",
@@ -1172,7 +1172,7 @@ window.southAmericaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-    "b": "PuertoCarreño,LaPrimavera,SantaRosalía,PuertoGaitán,SanLuisDePalenque,Orocué,Trinidad,PazDeAriporo,Yopal,Aguazul,Villanueva,Monterrey,Sabanalarga,Nunchía,Pore,SanJoséDelGuaviare,ElRetorno,Miraflores,LaMacarena,Guayabero,Ariari,Duda,Guejar,Caquetania,Macarena,LaJulia,Sabana,VistaHermosa,Lejanias,Mesetas"
+    "b": "SanJoséDelGuaviare,ElRetorno,Calamar,Miraflores,LaMacarena,Mapiripán,PuertoConcordia,VistaHermosa,Lejanias,Mesetas,PuertoRico,Uribe,LaJulia,PuertoLleras,FuenteDeOro,Granada,Barrancón,LaFuga,BarrancoColorado"
 },
 {
     "name": "Guajá",
@@ -1181,7 +1181,7 @@ window.southAmericaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-    "b": "SantaLuzia,Pinheiro,Carutapera,GodofredoViana,Turiaçu,CândidoMendes,ZéDoca,AltoParnaíba,Balsas,Carolina,Imperatriz,Araguaina,BarraDoCorda,Chapadinha,SãoLuís,Bacabal,Pedreiras,Viana"
+    "b": "SantaLuzia,Pinheiro,Carutapera,GodofredoViana,Turiaçu,CândidoMendes,ZéDoca,AltoParnaíba,Balsas,Carolina,Imperatriz,Araguaina,BarraDoCorda,Chapadinha,SãoLuís,Bacabal,Pedreiras,Viana,Awá,Caru,AltoTuriaçu,CentroNovoDoMaranhão,Maranhãozinho,SantaLuziaDoParuá,Araguanã,BomJesusDasSelvas,Buriticupu,GovernadorNewtonBello,Zutiua"
 },
 {
     "name": "Guarayu",
@@ -1199,7 +1199,7 @@ window.southAmericaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-    "b": "Lethem,Bonfim,Norman,Annai,Karasabai,Aishalton,StIgnatius,Kumaka,Surama,Apoteri,Paramakatoi,Toka,Orinduik,Kako,Maruru,Uiramutã,Pacaraima,BoaVista,SãoMarcos,Roraima"
+    "b": "Lethem,Bonfim,Annai,Karasabai,Aishalton,StIgnatius,Surama,Apoteri,Paramakatoi,Toka,Orinduik,Kako,Maruru,Uiramutã,Pacaraima,BoaVista,SãoMarcos,Normandia,Cantá,Amajari,AltoAlegre,Maturuca,Surumu,Kwatamang,Rewa,Yupukari,MocoMoco,Aranaputa,Massara,Karanambo,Wowetta,Kwaimatta,Yakarinta,Nappi,Parishara,Kumu"
 },
 {
     "name": "Waiwai",
@@ -1208,7 +1208,7 @@ window.southAmericaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-    "b": "Lethem,Kumaka,Surama,Apoteri,Paramakatoi,Karasabai,Aishalton,Bonfim,Uiramutã,BoaVista,SãoMarcos,Tabatinga,Masakenari,Kanapang,Yawong,WaiWaiVillage"
+    "b": "Masakenari,Kanashen,Erepoimo,Akotopono,Mapuera,Jatapuzinho,Kanapang,Yawong,Lethem,Apoteri,Surama,Kumaka,Karasabai,Aishalton,Paramakatoi,Bonfim,Uiramutã,BoaVista,SãoMarcos"
 },
 {
     "name": "Yukpa",
@@ -1217,7 +1217,7 @@ window.southAmericaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-    "b": "Maicao,Uribia,Manaure,Riohacha,Codazzi,LaPaz,SanJoséDePerijá,Machiques,VillaDelRosario,SanCristóbal,Lobatera,Michelena,LaGrita,SanAntonio,Táriba,Capacho,Ureña,Abejales,Yukpak,Yukpat,Yukpap"
+    "b": "Codazzi,AgustínCodazzi,LaPaz,Becerril,ManaureCesar,SanDiego,Socorpa,Iroka,Menkue,ElCoso,ElRosarioCesar,CañoPadilla,Toromo,Tinacoa,Aroy,Yurmuto,Machiques,SanJoséDePerijá,Sirapta"
 },
 {
     "name": "Piapoco",
@@ -1235,7 +1235,7 @@ window.southAmericaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-    "b": "Lethem,Bonfim,Norman,Annai,Karasabai,Aishalton,StIgnatius,Kumaka,Surama,Apoteri,Paramakatoi,Toka,Orinduik,BoaVista,SãoMarcos,Uiramutã,Pacaraima,Roraima,Yawong,Wapishana,Takutu,Rupununi,Kanuku"
+    "b": "Lethem,Bonfim,Annai,Karasabai,Aishalton,StIgnatius,Surama,Apoteri,Paramakatoi,Toka,Orinduik,BoaVista,SãoMarcos,Uiramutã,Pacaraima,Shulinab,SandCreek,Karaudarnau,Maruranau,Awarewaunau,Sawariwau,Katoonarib,Achiwib,Dadanawa,Wichabai,Shea,Hiawa,Yupukari,Nappi,Parishara,Rewa,Tipuru,Yakarinta,Kwaimatta"
 },
 {
     "name": "Brazilian Portuguese",
@@ -1244,7 +1244,7 @@ window.southAmericaNameBases = [
   "max": 14,
   "d": "lnrt",
   "m": 0,
-  "b": "Rio de Janeiro,Salvador,Fortaleza,Belo Horizonte,Manaus,Recife,Porto Alegre,Belém,Curitiba,São Luís,Natal,Teresina,João Pessoa,Campo Grande,Goiânia,Macapá,Palmas,Vitória,Porto Velho,Rio Branco,Florianópolis,Maceió,Aracaju,Cuiabá,Uberlândia,Petrolina,Campinas,Santos,Ilhéus,Porto Seguro,Cabo Frio,Angra dos Reis,Paraty,Ouro Preto,Diamantina,Lençóis,Barreirinhas,São Miguel dos Milagres,Maragogi,Canela,Gramado,Pirenópolis,Alter do Chão,Santarém,Parintins"
+  "b": "SãoPaulo,RioDeJaneiro,Brasília,Salvador,Fortaleza,BeloHorizonte,Manaus,Curitiba,Recife,PortoAlegre,Belém,Goiânia,Guarulhos,Campinas,SãoLuís,Natal,Teresina,JoãoPessoa,CampoGrande,Macapá,Palmas,Vitória,PortoVelho,RioBranco,Florianópolis,Maceió,Aracaju,Cuiabá,Uberlândia,Petrolina,Santos,Ilhéus,PortoSeguro,CaboFrio,AngraDosReis,Paraty,OuroPreto,Diamantina,Lençóis,Barreirinhas,SãoMiguelDosMilagres,Maragogi,Canela,Gramado,Pirenópolis,AlterDoChão,Santarém,Parintins,SãoGonçalo,DuqueDeCaxias,NovaIguaçu,SãoBernardoDoCampo,Osasco,JaboatãoDosGuararapes,Contagem,FeiraDeSantana,Joinville,SãoJoséDosCampos,Londrina,Maringá,RibeirãoPreto,Sorocaba,Niterói,Búzios,Paranaguá,FozDoIguaçu,PontaGrossa,Blumenau,Cascavel,Uberaba,Anápolis,AparecidaDeGoiânia,Macaé,VoltaRedonda,JuizDeFora"
 },
 {
     "name": "Uruguayan Portuguese",
@@ -1253,6 +1253,6 @@ window.southAmericaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-    "b": "Montevideo,Salto,Paysandú,Ciudad de la Costa,Rivera,Maldonado,Tacuarembó,Melo,Mercedes,Artigas,Minas,Durazno,San José de Mayo,Treinta y Tres,Rocha,Fray Bentos,Trinidad,La Paloma,Punta del Este,Colonia del Sacramento,Nueva Palmira,Carmelo,Nueva Helvecia,Chuy,Río Branco,Vichadero,Minas de Corrales,Young,Nuevo Berlín,Castillos"
+    "b": "Rivera,Artigas,Chuy,Melo,RioBranco,Tacuarembó,BellaUnión,Salto,Paysandú,TreintaYTres,CerroLargo,Montevideo,Maldonado,CiudadDeLaCosta,SanJoséDeMayo,Minas,Durazno,FrayBentos,Trinidad,LaPaloma,PuntaDelEste,ColoniaDelSacramento,NuevaPalmira,Carmelo,NuevaHelvecia,Vichadero,MinasDeCorrales,Young,NuevoBerlín,Castillos,Rocha,Mercedes,Salina,Livramento,SantanaDoLivramento,Aceguá,Quaraí,Masoller,SantaAna,Tranqueras,Valentines,FraileMuerto,Cerrillos"
 },
 ];

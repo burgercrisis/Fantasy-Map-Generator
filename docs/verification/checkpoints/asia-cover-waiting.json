@@ -1,0 +1,202 @@
+{
+  "generated": "2026-07-20T09:43:26.994Z",
+  "note": "Cover/family/proto/macro entries. Per verification-protocol.md these should be WAITING (b: not filled with real toponyms). Their current b: contains synthetic placeholders and needs an integrator decision (empty b breaks generation; filling is prohibited). NOT auto-edited.",
+  "count": 39,
+  "entries": [
+    {
+      "i": 127,
+      "name": "Nicobarese (macro)",
+      "bcount": 42
+    },
+    {
+      "i": 888,
+      "name": "Proto-Karenic",
+      "bcount": 78
+    },
+    {
+      "i": 1171,
+      "name": "Northwestern Tai",
+      "bcount": 62
+    },
+    {
+      "i": 1172,
+      "name": "Southwestern Tai",
+      "bcount": 67
+    },
+    {
+      "i": 1176,
+      "name": "northern-tai",
+      "bcount": 35
+    },
+    {
+      "i": 1486,
+      "name": "Central Tai",
+      "bcount": 45
+    },
+    {
+      "i": 1561,
+      "name": "Western Himalayas",
+      "bcount": 55
+    },
+    {
+      "i": 1563,
+      "name": "Greater Magaric",
+      "bcount": 53
+    },
+    {
+      "i": 1739,
+      "name": "Eastern Himalayas",
+      "bcount": 73
+    },
+    {
+      "i": 1830,
+      "name": "Greater Siangic",
+      "bcount": 40
+    },
+    {
+      "i": 2081,
+      "name": "Proto-Georgian-Zan",
+      "bcount": 32
+    },
+    {
+      "i": 2082,
+      "name": "Proto-Kartvelian",
+      "bcount": 39
+    },
+    {
+      "i": 2083,
+      "name": "Zan languages",
+      "bcount": 34
+    },
+    {
+      "i": 2088,
+      "name": "Kartvelian languages",
+      "bcount": 17
+    },
+    {
+      "i": 2129,
+      "name": "Proto-Kra",
+      "bcount": 54
+    },
+    {
+      "i": 2159,
+      "name": "Aslian languages",
+      "bcount": 14
+    },
+    {
+      "i": 200301,
+      "name": "Japanese macro entry",
+      "bcount": 61
+    },
+    {
+      "i": 200343,
+      "name": "Macro-Zhuang",
+      "bcount": 68
+    },
+    {
+      "i": 200405,
+      "name": "Northern Tai",
+      "bcount": 79
+    },
+    {
+      "i": 200441,
+      "name": "Proto-Ainu",
+      "bcount": 66
+    },
+    {
+      "i": 200442,
+      "name": "Proto-Austroasiatic",
+      "bcount": 55
+    },
+    {
+      "i": 200443,
+      "name": "Proto-Hlai",
+      "bcount": 62
+    },
+    {
+      "i": 200444,
+      "name": "Proto-Hokkaido-Kuril",
+      "bcount": 55
+    },
+    {
+      "i": 200445,
+      "name": "Proto-KamSui",
+      "bcount": 55
+    },
+    {
+      "i": 200446,
+      "name": "Proto-KraDai",
+      "bcount": 50
+    },
+    {
+      "i": 200447,
+      "name": "Proto-Mongolic",
+      "bcount": 70
+    },
+    {
+      "i": 200448,
+      "name": "Proto-Sakhalin",
+      "bcount": 61
+    },
+    {
+      "i": 200449,
+      "name": "Proto-Tai",
+      "bcount": 54
+    },
+    {
+      "i": 200484,
+      "name": "Shan macro entry",
+      "bcount": 74
+    },
+    {
+      "i": 200499,
+      "name": "Southern Tai",
+      "bcount": 47
+    },
+    {
+      "i": 200543,
+      "name": "Tharu languages",
+      "bcount": 63
+    },
+    {
+      "i": 200670,
+      "name": "Hmong macro entry",
+      "bcount": 64
+    },
+    {
+      "i": 200696,
+      "name": "Proto-Hmong-Mien",
+      "bcount": 80
+    },
+    {
+      "i": 200697,
+      "name": "Proto-Hmongic",
+      "bcount": 77
+    },
+    {
+      "i": 200698,
+      "name": "Proto-Koreanic",
+      "bcount": 79
+    },
+    {
+      "i": 200699,
+      "name": "Proto-Mienic",
+      "bcount": 80
+    },
+    {
+      "i": 201267,
+      "name": "Macro Bai",
+      "bcount": 47
+    },
+    {
+      "i": 201269,
+      "name": "Meitei macro entry",
+      "bcount": 56
+    },
+    {
+      "i": 280,
+      "name": "Macro-Yaeyama",
+      "bcount": 35
+    }
+  ]
+}

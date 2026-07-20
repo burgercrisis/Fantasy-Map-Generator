@@ -3642,11 +3642,11 @@ window.asiaNameBases = [
 {
     "name": "Hani",
   "i": 1933,
-  "min": 4,
-  "max": 11,
+  "min": 3,
+  "max": 14,
   "d": "",
   "m": 0,
-  "b": "Mojiang,Ning'er,Jiangcheng,Pu'er,China,Laos,Vietnam,Myanmar,Loloish,Hanitown,Haniville,Haniburg,Haniview,Haniside,Haniland,Haniwood,Shigatse,Gyantse,Nagqu,Nyingchi,Chamdo,Kangding,Shangri La,Tawang,Bomdila,Along,Yingkiong,Basar,Kokrajhar,Guwahati,Dibrugarh,Tinsukia,Honghe,Yuanyang,Luchun,Zhenyuan,Yuxi,Kunming,Yunnan,Haniport,Haniford,Hanibridge,Hanifield,Hanigrove,Hanihaven,Hanibrook,Hanishire,Hanistead,Hanidale,Hanicrest,Hanipoint,Hanispring"
+  "b": "Xinjie,Panzhihua,Duoyishu,Bada,Niujiaozhai,Ganiang,Ezha,Shalatuo,Huangcaoling,Huangmaoling,Fengchunling,Daping,Majie,Xiaoxinjie,Shangxincheng,Luchun,Mojiang,Jiangcheng,Ning'er,Zhenyuan,Yuanjiang,Laomeng,Aichun,Shengcun,Qingkou,Paozhuzhai,Laohuzui,Menpin,Jianshui,Gejiu,Honghe,Mengzi,Jinping,SinhThau,ALu,YTy,ChungChai,MuCa,KaLang,ThuLum,Phongsaly,MuongTe,BatXat"
 },
 {
     "name": "Armenian (Hayeren)",
@@ -4731,11 +4731,11 @@ window.asiaNameBases = [
 {
     "name": "Lahu",
   "i": 2314,
-  "min": 4,
-  "max": 30,
+  "min": 3,
+  "max": 14,
   "d": "",
   "m": 0,
-  "b": "Simao,China,Myanmar,Laos,Mường Tè,Lai Châu,Vietnam,Lahu Na,Lahu Phu,Lahu Nyi,Lahu Shi,Shigatse,Gyantse,Nagqu,Nyingchi,Chamdo,Kangding,Shangri La,Tawang,Bomdila,Along,Yingkiong,Basar,Kokrajhar,Guwahati,Dibrugarh,Tinsukia,Dimapur,Kohima,Mokokchung,Imphal,Ukhrul,Menglian,Shuangjiang,Lincang,Yunnan,Kengtung,Chiang Mai,Chiang Rai,Mae Hong Son,Kamphaeng Phet,Yala,Thailand,Bokeo,Luang Namtha,Lahutown,Lahuville,Lahuburg,Lahuview,Lahuside,Lahuport,Lahuland,Lahuwood,Lahuford,Lahubridge,Lahufield,Lahugrove,Lahuhaven,Lahubrook,Lahushire,Lahustead,Lahudale,Lahucrest,Lahupoint,Lahuspring"
+  "b": "Menglang,Shangyun,Nuozhadu,Huimin,Donghui,Nuofu,Donghe,Dashan,Nanling,Mujia,Laba,Zhutang,Fubang,Fudong,Menglian,Ximeng,Zhenyuan,Jinggu,Ning'er,Simao,Lincang,Shuangjiang,Cangyuan,Menghai,MuangTe,LaiChau,Kengtung,Hsenwi,Hopang,MongYang,Myitkyina,ChiangRai,ChiangMai,MaeHongSon,Fang,MaeSalong,WiangPapao,Bokeo,LuangNamtha,Phongsaly,MuangSing,TonPheung"
 },
 {
     "name": "Lanping Bai dialect",
@@ -5172,11 +5172,11 @@ window.asiaNameBases = [
 {
     "name": "Gan",
   "i": 2458,
-  "min": 4,
-  "max": 11,
+  "min": 3,
+  "max": 14,
   "d": "",
   "m": 0,
-  "b": "Nanchang,Yichun,Daye,Ji'an,Ganzhou,Fuzhou,Jiujiang,Shangrao,Xinyu,Pingxiang,Jingdezhen,Gantown,Ganville,Ganburg,Ganview,Ganside,Ganland,Ganwood,Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Nanjing,Wuhan,Hangzhou,Xi'an,Changsha,Xiamen,Kunming,Guiyang,Lanzhou,Taiyuan,Shijiazhuang,Changchun,Yingtan,Ganport,Ganford,Ganbridge,Ganfield,Gangrove,Ganhaven,Ganbrook,Ganshire,Ganstead,Gandale,Gancrest,Ganpoint,Ganspring"
+  "b": "Nanchang,Jiujiang,Yichun,Jian,Xinyu,Pingxiang,Yingtan,Fuzhou,Jingdezhen,Shangrao,Ganzhou,Fengcheng,Zhangshu,Gaoan,Linchuan,Nancheng,Le'an,Dexing,Ruichang,Duchang,Wuning,Xiushui,Fenyi,Guixi,Daye,Xianning,Xingan,Taihe,Xiajiang,Anfu,Jishui,Suichuan,Wanzai,Shanggao,Yifeng,Fengxin,Jingan,Tonggu,Leping,Yongxiu,De'an,Hukou,Pengze,Yujiang,Jinxi,Chongren,Yihuang,Lichuan,Zixi,Nanfeng,Dongxiang,Jinxian,Yiyang,Hengfeng,Yugan,Wannian,Poyang,Lianhua,Xingzi,Anyi,Xinjian,Jinggangshan,Pingjiang,Liuyang,Liling,Youxian,Chaling,Leiyang,Changning,Zixing,Huaining,Yuexi,Qianshan,Taihu,Wangjiang,Susong,Dongzhi,Shitai,Guichi,Jianning,Taining,Yangxin,Tongshan,Chongyang,Tongcheng,Jiayu,Puqi,Linxiang,Yueyang"
 },
 {
     "name": "Min",
@@ -5199,20 +5199,20 @@ window.asiaNameBases = [
 {
     "name": "Xiang",
   "i": 2461,
-  "min": 4,
-  "max": 13,
+  "min": 3,
+  "max": 14,
   "d": "",
   "m": 0,
-  "b": "Changsha,Zhuzhou,Yiyang,Loudi,Hengyang,Shaoyang,Yueyang,Changde,Zhangjiajie,Xiangxi,Chenzhou,Luoyang,Hefei,Suzhou,Wuxi,Ningbo,Wenzhou,Guiyang,Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Nanjing,Wuhan,Hangzhou,Xi'an,Nanchang,Fuzhou,Xiamen,Kunming,Lanzhou,Taiyuan,Shijiazhuang,Changchun,Xiangtan,Xiangtown,Xiangville,Xiangburg,Xiangview,Xiangside,Xiangport,Xiangland,Xiangwood,Xiangford,Xiangbridge,Xiangfield,Xianggrove,Xianghaven,Xiangbrook,Xiangshire,Xiangstead,Xiangdale,Xiangcrest,Xiangpoint,Xiangspring"
+  "b": "Changsha,Ningxiang,Liuyang,Zhuzhou,Xiangtan,Xiangyin,Miluo,Yiyang,Yuanjiang,Taojiang,Anhua,Yueyang,Loudi,Hengshan,Lianyuan,Lengshuijiang,Xinhua,Shaoyang,Wugang,Shaodong,Xinshao,Longhui,Xinning,Chengbu,Suining,Huitong,Hengyang,Hengnan,Hengdong,Nanyue,Chenxi,Xupu,Luxi,Jishou,Baojing,Huayuan,Yuanling,Yongzhou,Dong'an,Qiyang,Qidong,Jiangyong,Daoxian,Jianghua,Xintian,Quanzhou,Xing'an,Guanyang,Ziyuan,Longsheng,Shaoshan,Shuangfeng,Xiangxiang"
 },
 {
     "name": "Jin",
   "i": 2462,
-  "min": 4,
+  "min": 3,
   "max": 14,
   "d": "",
   "m": 0,
-  "b": "Datong,Changzhi,Jinzhong,Yuncheng,Xinzhou,Lüliang,Linfen,Pingyao,Kunming,Chongqing,Lanzhou,Ürümqi,Lhasa,Kashgar,Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Nanjing,Wuhan,Hangzhou,Xi'an,Changsha,Nanchang,Fuzhou,Xiamen,Guiyang,Taiyuan,Shijiazhuang,Changchun,Zhengzhou,Hefei,Ningbo,Yangquan,Jintown,Jinville,Jinburg,Jinview,Jinside,Jinport,Jinland,Jinwood,Jinford,Jinbridge,Jinfield,Jingrove,Jinhaven,Jinbrook,Jinshire,Jinstead,Jindale,Jincrest,Jinpoint,Jinspring"
+  "b": "Taiyuan,Datong,Yangquan,Changzhi,Jincheng,Xinzhou,Lüliang,Jinzhong,Xiaoyi,Fenyang,Jiexiu,Yuci,Gujiao,Huozhou,Hongtong,Qinshui,Gaoping,Lucheng,Zhangzhi,Yuanping,Dingxiang,Wutai,Fanshi,Ningwu,Shuozhou,Huairen,Yingxian,Zuoyun,Hunyuan,Guangling,Lingqiu,Pianguan,Hequ,Baode,Kelan,Lanxian,Xingxian,Linxian,Liulin,Zhongyang,Fangshan,Wenshui,Qixian,Pingyao,Taigu,Yushe,Zuoquan,Heshun,Xiyang,Pingding,Shouyang,Hohhot,Baotou,Wuhai,Jining,Fengzhen,Ulanqab,Dongsheng,Linhe,Yulin,Suide,Mizhi,Jiaxian,Shenmu,Fugu,Qingjian,Zizhou,Wubu,Zhangjiakou,Xuanhua,Yu County,Weixian,Anyang,Hebi,Jiaozuo,Xinxiang"
 },
 {
     "name": "Hui",
@@ -5226,11 +5226,11 @@ window.asiaNameBases = [
 {
     "name": "Pinghua",
   "i": 2464,
-  "min": 4,
-  "max": 11,
+  "min": 3,
+  "max": 14,
   "d": "",
   "m": 0,
-  "b": "Guilin,Hezhou,Nanning,Liuzhou,Hechi,Yulin,Baise,Laibin,Hengzhou,Yongfu,Gongcheng,Xi'an,Changsha,Nanchang,Fuzhou,Xiamen,Quanzhou,Chaozhou,Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Nanjing,Wuhan,Hangzhou,Kunming,Guiyang,Lanzhou,Taiyuan,Shijiazhuang,Changchun,Zhengzhou,Hefei,Lingchuan,Pingnan,Pinghuatown,Pinghuaville,Pinghuaburg,Pinghuaview,Pinghuaside,Pinghuaport,Pinghualand,Pinghuawood,Pinghuaford,Pinghuabridge,Pinghuafield,Pinghuagrove,Pinghuahaven,Pinghuabrook,Pinghuashire,Pinghuastead,Pinghuadale,Pinghuacrest,Pinghuapoint,Pinghuaspring"
+  "b": "Lingchuan,Lingui,Yongfu,Lipu,Yangshuo,Pingle,Xing'an,Guanyang,Gongcheng,Ziyuan,Longsheng,Quanzhou,Hengzhou,Binyang,Shanglin,Mashan,Yongning,Pumiao,Wuming,Long'an,Guiping,Pingnan,Guigang,Baise,Pingguo,Tianyang,Longzhou,Chongzuo,Fusui,Ningming,Youjiang,Laibin,Xingbin,Xiangzhou,Heshan,Hezhou,Babu,Zhongshan,Fuchuan,Pinggui,Liucheng,Luzhai,Rong'an,Sanjiang,Tongdao"
 },
 {
     "name": "Hakka",
@@ -5244,11 +5244,11 @@ window.asiaNameBases = [
 {
     "name": "Magar",
   "i": 2466,
-  "min": 4,
+  "min": 3,
   "max": 14,
   "d": "",
   "m": 0,
-  "b": "Palpa,Syangja,Tanahun,Gulmi,Arghakhanchi,Rolpa,Rukum,Baglung,Myagdi,Parbat,Magarat,Bahra Magarat,Athara Magarat,Biratnagar,Bharatpur,Butwal,Dhangadhi,Nepalganj,Thimphu,Paro,Punakha,Shigatse,Gyantse,Nagqu,Nyingchi,Chamdo,Kangding,Shangri La,Tawang,Bomdila,Along,Yingkiong,Pyuthan,Nawalpur,Magarbroadtown,Magarbroadville,Magarbroadburg,Magarbroadview,Magarbroadside,Magarbroadport,Magarbroadland,Magarbroadwood,Magarbroadford,Magarbroadbridge,Magarbroadfield,Magarbroadgrove,Magarbroadhaven,Magarbroadbrook,Magarbroadshire,Magarbroadstead,Magarbroaddale,Magarbroadcrest,Magarbroadpoint,Magarbroadspring"
+  "b": "Tansen,Rampur,Rainadevi Chhahara,Mathagadi,Tinau,Tamghas,Resunga,Musikot,Chandrakot,Isma,Madane,Sandhikharka,Bhumikasthan,Panini,Sitganga,Chhatradev,Putalibazar,Waling,Chapakot,Kaligandaki,Biruwa,Aandhikhola,Phedikhola,Vyas,Shuklagandaki,Bhanu,Ghiring,Myrung,Rishing,Baglung,Dhorpatan,Galkot,Jaimini,Bareng,Tamankhola,Nisikhola,Badigad,Kathekhola,Beni,Mangala,Annapurna,Raghuganga,Malika,Liwang,Tribeni,Lungri,Madi,Thawang,Aathbiskot,Rukumkot,Salle,Bhume,Pyuthan,Swargadwari,Mandavi,Mallarani,Gaumukhi,Naubahini,Jhimruk,Kawasoti,Gaindakot,Devachuli,Madhyabindu,Binayi Tribeni,Hupsekot,Kusma,Phalebas,Mahashila,Paiyun,Salyan,Sharada,Bangad Kupinde,Chhatreshwari,Kalimati,Kapurkot,Baphukhola"
 },
 {
     "name": "Kham",
@@ -10231,11 +10231,11 @@ window.asiaNameBases = [
 {
     "name": "Jingpho",
   "i": 201260,
-  "min": 4,
-  "max": 11,
-  "d": "lnrt",
+  "min": 3,
+  "max": 14,
+  "d": "",
   "m": 0,
-  "b": "Myitkyina,Bhamo,Mohnyin,Simao,Lanping,Shuanglang,Lashio,Ruili,Tengchong,Baoshan,Dali,Kunming,Jinghong,Mengla,Lincang,Puer,Dehong,Nujiang,Gongshan,Fugong,Weixi,Zhongdian,Deqin,Shangri-La,Lijiang,Heqing,Jianchuan,Eryuan,Binchuan,Jingphotown,Jingphoville,Jingphoburg,Jingphoview,Jingphoside,Jingphoport,Jingpholand,Jingphowood,Jingphoford,Jingphobridge,Jingphofield,Jingphogrove,Jingphohaven,Jingphobrook,Jingphoshire,Jingphostead,Jingphodale,Jingphocrest,Jingphopoint,Jingphospring"
+  "b": "Myitkyina,Bhamo,Waingmaw,Mansi,Momauk,Sadon,Sumprabum,Putao,Chipwi,Injangyang,Tanai,Hpakan,Mogaung,Shwegu,Mohnyin,Kutkai,Muse,Namhkam,Kunlong,Lashio,Mangshi,Ruili,Yingjiang,Lianghe,Longchuan,Zhangfeng,Nabang,Tengchong,Baoshan,Luxi,Hopin,Namyung,Sinhku,Wetle"
 },
 {
     "name": "Jingpho Luish",
