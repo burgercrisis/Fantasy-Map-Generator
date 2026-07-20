@@ -1,7 +1,7 @@
 {
   "blockers": ["Many remaining entries are micro-languages or cover terms that cannot reach 25 verified names (marked WAITING). Subagent research pipeline now in use: one subagent per entry -> JSON verdict in docs/verification/verdicts/ -> applied via docs/verification/apply-verdicts.js --write -> guardrails. Note: web search was rate-limited (429) for several subagents; WAITING micro-language entries with sparse toponymy may deserve a later re-pass."],
-  "lastUpdate": "2026-07-20T01:15:00Z",
-  "completedEntries": 60,
+  "lastUpdate": "2026-07-20T02:15:00Z",
+  "completedEntries": 76,
   "protocolVersion": "2.0-bulletproof",
   "startedAt": "2026-06-30T02:30:00Z",
   "totalEntries": 790,
@@ -9,7 +9,7 @@
   "status": "IN_PROGRESS",
   "progress": {
     "structuralFixes": "completed",
-    "perNameVerification": "60 entries processed (7.6%). Manual: through i=490. Subagent pipeline batch: i=492,494,500,501,510,511,526,530,543,544,545,546,566."
+    "perNameVerification": "76 entries processed (9.6%). Manual: through i=490. Subagent batches: i=492,494,500,501,510,511,526,530,543,544,545,546,566, then wave i=580,581,582,583,584,585,586,587,588,589,590,596,608,610,611."
   },
   "pipeline": {
     "method": "One subagent per entry does real per-name web verification and writes a verdict JSON to docs/verification/verdicts/<i>-<name>.json. Reviewer trims any WAITING entries padded with regionally-inferred names, then applies all at once with `node docs/verification/apply-verdicts.js --write` (mechanical file-write only; keeps protocol Rule 9 intact) and runs `node tools/mixer-core/check-language-mixer-guardrails.js`. Applied verdicts archived to docs/verification/verdicts/applied/.",

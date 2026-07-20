@@ -376,10 +376,10 @@ window.asiaNameBases = [
     "name": "Acehnese",
   "i": 176,
   "min": 4,
-  "max": 14,
+  "max": 18,
   "d": "",
-  "m": 0,
-  "b": "Banda Aceh,Sabang,Lhokseumawe,Langsa,Aceh Besar,Pidie,Pidie Jaya,Bireuen,North Aceh,East Aceh,Aceh Jaya,West Aceh,Nagan Raya,Southwest Aceh,South Aceh,Aceh Tamiang,Gayo Lues,Simeulue,Aceh Singkil,Subulussalam,Jantho,Meulaboh,Sinabang,Calang,Takengon,Kutacane,Idi Rayeuk,Simpang Jernih,Peunaron,Serba Jadi"
+  "m": 0.1,
+  "b": "Banda Aceh,Lhokseumawe,Langsa,Sabang,Sigli,Meulaboh,Bireuen,Calang,Blangpidie,Kuala Simpang,Idi Rayeuk,Lhoksukon,Peureulak,Matangglumpangdua,Jeunieb,Samalanga,Beureunuen,Grong-Grong,Meureudu,Ulee Kareng,Jantho,Lambaro,Indrapuri,Seulimeum,Lhoknga,Lhoong,Krueng Raya,Susoh,Manggeng,Labuhanhaji,Suka Makmue,Jeuram,Teunom,Lamno,Sampoiniet,Bakongan,Panton Labu,Tanah Jambo Aye,Simpang Ulim,Julok,Nurussalam,Bagok,Sungai Raya,Karang Baru,Kejuruan Muda,Rantau,Manyak Payed,Seruway,Darussalam,Kuta Baro,Peukan Bada,Montasik,Krueng Sabee,Panga,Woyla,Meureubo,Samatiga,Johan Pahlawan,Kaway XVI,Peudada,Peusangan,Matang Kuli,Nisam,Dewantara,Muara Dua,Baktiya,Cot Girek,Pandrah,Makmur,Peulimbang,Ganda Pura,Kota Juang,Jangka,Bandar Dua,Bandar Dua-Ulee Glee,Ulim,Trienggadeng,Panteraja,Peureuadang,Geulumpang Sulu,Kuala Batee,Tapak Tuan,Kluet Utara,Simeulue,Sinabang,Takengon,Kutacane"
 },
 {
     "name": "Madurese",
@@ -402,20 +402,20 @@ window.asiaNameBases = [
 {
     "name": "Barlavento Creoles",
   "i": 181,
-  "min": 3,
-  "max": 17,
+  "min": 4,
+  "max": 18,
   "d": "",
-  "m": 0,
-   "b": "Jakarta,Surabaya,Bandung,Medan,Palembang,Makassar,Semarang,Yogyakarta,Denpasar,Batam,Pekanbaru,Padang,Malang,Samarinda,Banjarmasin,Balikpapan,Manado,Mataram,Kupang,Ambon,Ternate,Jayapura,Sorong,Kuala Lumpur,Kuching,Kota Kinabalu,Sandakan,Miri,Sibu,Johor Bahru,Ipoh,Penang,George Town,Malacca,Singapore,Santo Antao,Sao Vicente,Santa Luzia,Sao Nicolau,Sal,Boa Vista,Mindelo,Ribeira Grande,Ponta do Sol,Porto Novo,Espargos,Santa Maria,Mosteiros,Sao Jorge,Patim,Relva,Ribeira do Ilheu,Atalaia,BarlaventoCreolesk,BarlaventoCreolest,BarlaventoCreolesp,BarlaventoCreolesm,BarlaventoCreolesn,BarlaventoCreoless,BarlaventoCreolesr,BarlaventoCreolesl,BarlaventoCreolesd,BarlaventoCreolesg"
+  "m": 0.1,
+   "b": "Ribeira Grande,Ponta do Sol,Porto Novo,Paul,Pombas,Mindelo,Calhau,Salamansa,São Pedro,Baía das Gatas,Ribeira da Vinha,Ribeira Brava,Tarrafal de São Nicolau,Preguiça,Juncalinho,Caleijão,Carriçal,Espargos,Santa Maria,Palmeira,Pedra de Lume,Terra Boa,Murdeira,Sal Rei,Rabil,Povoação Velha,Fundo das Figueiras,João Galego,Bofarreira,Estância de Baixo,Cabeça dos Tarrafes,Coculi,Corda,Chã de Pedras,Figueiras,Chã de Igreja,Ribeira Alta,Lajedo,Alto Mira,Monte Trigo,Tarrafal de Monte Trigo,Janela,Eito,Fontainhas,Sinagoga,Xoxo,Lombo Santa,Covoada,Fajã de Baixo,Queimadas,Talho,Belém,Cachaço,Praia Branca,Ribeira Prata,Carvoeiros,Morro Brás,Fragata,Hortelã,Cabeçalinho,Ribeira dos Calhaus,Lameirão,Ribeira de Calhau,Ribeira Julião"
 },
 {
     "name": "Fogo Creole",
   "i": 182,
-  "min": 3,
-  "max": 22,
+  "min": 4,
+  "max": 18,
   "d": "",
-  "m": 0,
-   "b": "Jakarta,Surabaya,Bandung,Medan,Palembang,Makassar,Semarang,Yogyakarta,Denpasar,Batam,Pekanbaru,Padang,Malang,Samarinda,Banjarmasin,Balikpapan,Manado,Mataram,Kupang,Ambon,Ternate,Jayapura,Sorong,Kuala Lumpur,Kuching,Kota Kinabalu,Sandakan,Miri,Sibu,Johor Bahru,Ipoh,Penang,George Town,Malacca,Singapore,Sao Filipe,Mosteiros,Cova Figueira,Cha das Caldeiras,Portela,Bangaleira,Pico do Fogo,Santa Catarina do Fogo,Patim,Relva,Ribeira do Ilheu,Atalaia,Monte Grande,Curral Grande,Galinheiro,Campanas Baixo,Sao Jorge,Nova Sintra,FogoCreolek,FogoCreolet,FogoCreolep,FogoCreolem"
+  "m": 0.1,
+   "b": "Sao Filipe,Mosteiros,Cova Figueira,Ponta Verde,Patim,Cha das Caldeiras,Portela,Bangaeira,Achada Grande,Atalaia,Fajazinha,Relva,Ribeira do Ilheu,Campanas Baixo,Curral Grande,Galinheiro,Lomba,Monte Grande,Sao Jorge,Achada Furna,Estancia Roque,Figueira Pavao,Fonte Aleixo,Monte Vermelho,Tinteira,Salto"
 },
 {
     "name": "Maguindanao",
@@ -430,19 +430,19 @@ window.asiaNameBases = [
     "name": "Sotavento Creoles",
   "i": 189,
   "min": 4,
-  "max": 21,
+  "max": 20,
   "d": "",
-  "m": 0,
-   "b": "São Filipe,Porto Inglês,São Miguel,Santa Catarina,São Domingos,São Salvador do Mundo,Jakarta,Surabaya,Bandung,Medan,Palembang,Makassar,Semarang,Yogyakarta,Denpasar,Batam,Pekanbaru,Padang,Malang,Samarinda,Banjarmasin,Balikpapan,Manado,Mataram,Kupang,Ambon,Ternate,Jayapura,Sorong,Kuala Lumpur,Kuching,Kota Kinabalu,Sandakan,Miri,Sibu,Praia,Assomada,Mosteiros,Nova Sintra,Furna,Cova Figueira,Brava,Maio,Santiago,Fogo,Tarrafal,SotaventoCreolesk,SotaventoCreolest,SotaventoCreolesp,SotaventoCreolesm,SotaventoCreolesn,SotaventoCreoless,SotaventoCreolesr,SotaventoCreolesl,SotaventoCreolesd,SotaventoCreolesg,SotaventoCreolesb"
+  "m": 0.1,
+   "b": "Praia,Assomada,Tarrafal,Pedra Badejo,Cidade Velha,Calheta de São Miguel,São Domingos,São Jorge dos Órgãos,Picos,Achada Falcão,Rui Vaz,João Teves,Santa Cruz,Ribeira da Barca,Chão Bom,Achada Grande,Palmarejo,Achada Santo António,Fazenda,Ponta d'Água,Vila Nova,São Francisco,Renque Purga,Fundura,Milho Branco,Vila do Maio,Calheta,Morro,Ribeira Dom João,Cascabulho,Figueira da Horta,Alcatraz,Pilão Cão,Pedro Vaz,Nova Sintra,Furna,Nossa Senhora do Monte,Cova Rodela,Fajã de Água,Cachaço,Sorno,São Filipe,Cova Figueira,Mosteiros"
 },
 {
     "name": "Mardijker Creole",
   "i": 191,
   "min": 4,
-  "max": 14,
+  "max": 18,
   "d": "",
-  "m": 0,
-  "b": "Jakarta,Kampung Tugu,Roa Malacca,Kali Besar,Glodok,Petak Sembilan,Angke,Kebon Jeruk,Tanjung Priok,Ancol,Cempaka Putih,Jatinegara,Duren Sawit,Cakung,Pulo Gadung,Cengkareng,Kalideres,Grogol,Kebayoran Lama,Kebayoran Baru,Tebet,Setiabudi,Mampang,Manggarai,Batu Ceper,Tangerang,Bekasi,Depok,Bogor,Surabaya,Bandung,Medan,Palembang,Makassar,Semarang,Kemayoran,Matraman,Pesanggrahan,Pancoran"
+  "m": 0.1,
+  "b": "Kampung Tugu,Batavia,Jakarta,Old Batavia,Roa Malacca,Kali Besar,Kampung Bandan,Glodok,Pinangsia,Depok,Weltevreden,Petak Sembilan"
 },
 {
     "name": "Tetum",
@@ -1395,8 +1395,8 @@ window.asiaNameBases = [
   "min": 4,
   "max": 17,
   "d": "",
-  "m": 0,
-  "b": "Parapat,Onan Runggu,Simanindo,Harianja,Sianjur Mula-mula,Lumban Julu,Balige,Laguboti,Porsea,Ajibata,Sigapiton,Binjai,Stabat,Tanjung Pura,Tanjung Balai,Rantau Prapat,Tebing Tinggi,Pematangsiantar,Padang Sidempuan,Pangururan,Medan,Asahan,Kisaran"
+  "m": 0.1,
+  "b": "Balige,Laguboti,Porsea,Parapat,Pangururan,Tarutung,Siborongborong,Simanindo,Tomok,Tuktuk Siadong,Ambarita,Onan Runggu,Nainggolan,Palipi,Bakkara,Dolok Sanggul,Muara,Sipoholon,Pahae,Garoga,Adiankoting,Ajibata,Sianjur Mulamula,Lintong Nihuta,Lumban Julu,Pangaloan,Sipinggan,Harian,Sitinjak,Silimalombu,Hatoguan,Pardomuan Nauli,Tipang,Simangulampe,Paniaran,Sitabotabo,Sitoluama,Pintu Bosi,Patane,Lumban Gurning,Siantar Narumonda,Sigumpar,Ronggur Nihuta,Sitiotio,Pahae Julu,Pangaribuan,Pollung,Pakkat,Sigapiton,Habinsaran,Borbor,Parmaksian,Tampahan,Uluan,Nassau,Silaen"
 },
 {
     "name": "Bugan",
@@ -11070,11 +11070,11 @@ window.asiaNameBases = [
 {
     "name": "Chepang",
   "i": 273,
-  "min": 4,
-  "max": 11,
-  "d": "nic-GH",
+  "min": 3,
+  "max": 14,
+  "d": "",
   "m": 0,
-  "b": "Dhading,Gorkha,Tanahun,Lamjung,Kaski,Syangja,Palpa,Gulmi,Arghakhanchi,Kapilvastu,Chepang-Chitwan,Chepang-Dhading,Chepang-Gorkha,Chepang-Tanahun,Chepang-Lamjung,Chepang-Kaski,Chepang-Syangja,Chepang-Palpa,Chepang-Gulmi,Chepang-Arghakhanchi,Chepang-Kapilvastu,Shaktikhor,Manahari,RaptiRiver,Darjeeling,Kalimpong,Shigatse,Gyantse,Nagqu,Nyingchi,Chamdo,Kangding"
+  "b": "Shaktikhor,Kaule,Dahakhani,Siddi,Lothar,Korak,Handikhola,Jogimara,Sirtung,Salyantar,Salyankot,Salang,Dhola,Semjong,Kumpur,Darkha,Jharlang,Raksirang,Khaniyabas,Gajuri,Benighat,Dhusha,Mahadevsthan,Galchhi,Thakre,Phulkharka,Marpak,Katunje,Gumdi,Baseri,Jyamaruk,Khalte,Darechok"
 },
 
 {

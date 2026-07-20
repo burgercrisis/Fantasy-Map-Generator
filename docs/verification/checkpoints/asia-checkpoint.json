@@ -1,16 +1,16 @@
 {
   "blockers": [],
-  "lastUpdate": "2026-07-20T01:20:00-07:00",
-  "verifiedEntriesThisSession": 41,
-  "lastVerifiedEntry": "Santali (i=193), Kim Mun (i=2167)",
+  "lastUpdate": "2026-07-20T02:00:00-07:00",
+  "verifiedEntriesThisSession": 55,
+  "lastVerifiedEntry": "Toba Batak (i=1146), Sotavento Creoles (i=189)",
   "totalEntries": 1270,
   "continent": "asia",
   "status": "in_progress",
   "pipeline": "subagent JSON research -> tools/verify_apply.js (auto-dedup, refuses empty b) -> guardrails",
-  "waiting": ["Semai(i=118,20)","Semaq Beri(i=119,6)","Chaura Nicobarese(i=124,9)","Orang Pulo(i=127,13)","Shompen(i=129,19)","Katchal Nicobarese(i=132,13)","Kenaboi(i=133,EMPTY-extinct-unclassified-left-unchanged)"],
+  "waiting": ["Semai(i=118,20)","Semaq Beri(i=119,6)","Chaura Nicobarese(i=124,9)","Orang Pulo(i=127,13)","Shompen(i=129,19)","Katchal Nicobarese(i=132,13)","Kenaboi(i=133,EMPTY-left-unchanged)","Mardijker Creole(i=191,12-extinct)"],
   "entriesDone": [
-    "Japanese(i=11)","Turkish(i=15)","Arabic(i=17)","Mesopotamian(i=23)","Iranian(i=24)","Kannada(i=25)","Vietnamese(i=28)","Cantonese(i=29)","Eastern Indonesian(i=52)","Koya-Konda-Manda-Pengo(i=61)","Archi(i=95)","Iban(i=97)","Sarawakian Malay(i=98)","Standard Malay(i=103)","Kupang Malay(i=105)","Malaccan Creole Malay(i=108)","Manado Malay(i=109)","Dura-Tandrange(i=110)","Papuan Malay(i=112)","Serui Malay(i=113)","Sula Malay(i=115)","Batek(i=116)","Mah Meri(i=117)","Semai(i=118)","Semaq Beri(i=119)","Semelai(i=120)","Camorta Nicobarese(i=122)","Chaura Nicobarese(i=124)","Nancowry Nicobarese(i=125)","Nicobarese (macro)(i=126)","Orang Pulo(i=127)","Peranakan(i=128)","Shompen(i=129)","Southern Nicobarese(i=130)","Katchal Nicobarese(i=132)","Minangkabau(i=134)","Santali(i=193)","Kim Mun(i=2167)"
+    "Japanese(i=11)","Turkish(i=15)","Arabic(i=17)","Mesopotamian(i=23)","Iranian(i=24)","Kannada(i=25)","Vietnamese(i=28)","Cantonese(i=29)","Eastern Indonesian(i=52)","Koya-Konda-Manda-Pengo(i=61)","Archi(i=95)","Iban(i=97)","Sarawakian Malay(i=98)","Standard Malay(i=103)","Kupang Malay(i=105)","Malaccan Creole Malay(i=108)","Manado Malay(i=109)","Dura-Tandrange(i=110)","Papuan Malay(i=112)","Serui Malay(i=113)","Sula Malay(i=115)","Batek(i=116)","Mah Meri(i=117)","Semai(i=118)","Semaq Beri(i=119)","Semelai(i=120)","Camorta Nicobarese(i=122)","Chaura Nicobarese(i=124)","Nancowry Nicobarese(i=125)","Nicobarese (macro)(i=126)","Orang Pulo(i=127)","Peranakan(i=128)","Shompen(i=129)","Southern Nicobarese(i=130)","Katchal Nicobarese(i=132)","Minangkabau(i=134)","Alor Malay(i=169)","Malaysian Mandarin(i=171)","Singaporean Mandarin(i=175)","Acehnese(i=176)","Madurese(i=177)","South Halmahera(i=180)","Maguindanao(i=188)","Tetum(i=192)","Santali(i=193)","Kim Mun(i=2167)","Barlavento Creoles(i=181)","Fogo Creole(i=182)","Sotavento Creoles(i=189)","Mardijker Creole(i=191)","Chepang(i=273)","Toba Batak(i=1146)"
   ],
-  "nextEntry": "Alor Malay (i=169) + batch",
-  "notes": "Kenaboi (i=133) extinct/unclassified with no toponymy -> WAITING, JSON has empty b, LEFT UNCHANGED in file (still has old synthetic names) pending human decision. Guardrails OK (map=3425 catalog=3526)."
+  "nextEntry": "Next: scan file for remaining synthetic/foreign-contaminated entries; ~1215 entries remain.",
+  "notes": "55 entries done overall. Kenaboi(133) empty->left unchanged; Mardijker(191) extinct WAITING with 12 verified Batavia/Tugu localities. Cape Verde creoles (Barlavento/Fogo/Sotavento) were misfiled in Asia file but cleaned to authentic Cape Verde toponyms. Guardrails OK (map=3425 catalog=3526)."
 }
