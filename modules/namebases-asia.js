@@ -222,92 +222,92 @@ window.asiaNameBases = [
 {
     "name": "Semai",
   "i": 118,
-  "min": 4,
-  "max": 33,
+  "min": 3,
+  "max": 14,
   "d": "",
-  "m": 0,
-   "b": "Kampong Kuala Bot,Suak Padi,Chenderiang,Kampung Chinggung,Kampung Ulu Geruntum,Kampung Batu Berangkai,Kampung Orang Asli Redang Punggor,Kawasan Bandar Runding,Pos Gedong,Kampung Orang Asli Kuala Senta,Rancangan Penempatan Semula Betau,Sungai Ruil,Kampung Harong,Kampung Jentil,Lanai,Kampung Pantos,Kuala Medang,Kampung Orang Asli Sungai Semalin,Tapah,Kampar,Grik,Lenggong,Behrang Ulu,Jakarta,Surabaya,Bandung,Medan,Palembang,Makassar,Semarang,Yogyakarta,Denpasar,Batam,Pekanbaru,Padang"
+  "m": 0.1,
+   "b": "Kampong Kuala Bot,Suak Padi,Chenderiang,Batu 6,Batu 7,Batu 8,Kampung Chinggung,Kampung Ulu Geruntum,Kampung Batu Berangkai,Kampung Orang Asli Redang Punggor,Kawasan Bandar Runding,Pos Gedong,Kampung Orang Asli Kuala Senta,Rancangan Penempatan Semula Betau,Sungai Ruil,Kampung Harong,Kampung Jentil,Lanai,Kampung Pantos,Kuala Medang"
 },
 {
     "name": "Semaq Beri",
   "i": 119,
-  "min": 4,
-  "max": 31,
+  "min": 3,
+  "max": 12,
   "d": "",
   "m": 0,
-   "b": "Kuala Berang,Ajil,Dungun,Chukai,Paka,Bukit Besi,Kijal,Kampung Orang Asli Sungai Berua,Kampung Sungai Sayap,XiengKhouang,Prem,SopPrap,SemaqBeribari,PalliSemaqBeri,Jakarta,Surabaya,Bandung,Medan,Palembang,Makassar,Semarang,Yogyakarta,Denpasar,Batam,Pekanbaru,Padang,Malang,Samarinda,Banjarmasin,Balikpapan,Manado,Mataram,Kupang,Ambon,Ternate,Kemaman,ALuoi,CangLong,Menglian,NgocHoi,TanPhuoc,Fang,SonLa,PhuGiao,Sapan,TraVinh,TanUyen,CaiLay,SemaqBeripur,SemaqBerinagar,SemaqBeribad,SemaqBerikot,SemaqBeriwada,SemaqBerighat,SemaqBeripalli,SemaqBerikonda,SemaqBeripeta,SemaqBeriuru,SemaqBeriuri,SemaqBeriooru,SemaqBerigiri,NagarSemaqBeri,SemaqBeriganj,SemaqBeribazar,SemaqBeribandar,SemaqBerigram"
+   "b": "Sungai Berua,Sungai Pergam,Sungai Sayap,Kg Gol,Sungai Tiang,Sungai Tekal"
 },
 {
     "name": "Semelai",
   "i": 120,
   "min": 4,
-  "max": 21,
+  "max": 19,
   "d": "",
   "m": 0,
-   "b": "Kampung Sungai Sampo,Kampung Sungai Lui,Pos Iskandar,Kampung Bukit Rok,Kampung Ibam,Kampung Bukit Gemuroh,Bongkok,Tasek Bera,Jempol,Bahau,Bera,Teriang,Muadzam Shah,Rompin,Gambang,Jakarta,Surabaya,Bandung,Medan,Palembang,Makassar,Semarang,Yogyakarta,Denpasar,Batam,Pekanbaru,Padang,Malang,Samarinda,Banjarmasin,Balikpapan,Manado,Mataram,Kupang,Ambon,Pekan"
+   "b": "Sungai Sampo,Sungai Lui,Panchor,Pos Iskandar,Kampung Bukit Rok,Kampung Ibam,Kampung Bukit Gemuroh,Bongkok,Tasek Bera,Jelawat,Putat,Serting,Muar,Bera,Teriang,Jempol,Bukit Chermingat,Penarikan,Kuala Bera,Sungai Bera,Sungai Serting,Sungai Triang,Triang,Bukit Rok,Tasik,Gemuroh"
 },
 {
     "name": "Camorta Nicobarese",
   "i": 122,
-  "min": 4,
+  "min": 3,
   "max": 14,
   "d": "",
   "m": 0,
-  "b": "Camorta,Kinlaka,Rakab,Sanënyö,Chowra,Trinket,Pilo Pagar,Kapanga,Laful,Pulo Milo,Kafu,Tilanchong,Pulo Babe,Pulo Kunji,Kakana,Arong,Kondul,Chuckchow,Kabra,Menicurry,SonHoa,LuangNamtha,DiLinh,DokKhamtai,Nateuy,BanLuang,Jakarta,Surabaya,Bandung,Medan,Palembang,Makassar,Semarang,Yogyakarta,Denpasar,Along,BenLuc,Lianghe,NgaBay,ChauThanh,Deqin,TanPhuoc,LongKhanh,HaTien,BinhDuong,Adonagar,Aurghat,Apegkot,Aomghat,Abesnagar,Akunagar,Anikghat,Adedkot,Apanghat,Alasnagar,Anuknagar,Abednagar,Amomghat,Adetkot,Apugghat,CamortaNicobaresepur,CamortaNicobaresenagar,CamortaNicobaresebad,CamortaNicobaresekot,CamortaNicobaresewada"
+  "b": "Kamorta,Champin,Malacca,Kakana,Tapong,Munak,Upper Katchal,Tillangchong,Al-Hit-Touch,Alhiat,Aloorang,Altheak,Alukian,Banderkari,Berainak,Chanel,Changua,Chongkamong,Chota Inak,Chukmachi,Daring,Enam,Hinnunga,Hintona,Inroak Chinlak,Itoi,Jhoola,Kalasi,Kanahinot,Knot,Kuitasuk,Luxi,Minyuk,Payuha,Pilpilow,Raihion,Ramzoo,Tahaila"
 },
 {
     "name": "Chaura Nicobarese",
   "i": 124,
-  "min": 4,
+  "min": 3,
   "max": 14,
   "d": "",
   "m": 0,
-  "b": "Chaura,Teressa,Taih-Long,Luröö,Tutet,Sanënyö,Katchal,Nancowry,Great Nicobar,Little Nicobar,Kondul,Pulo Milo,Laful,Tilanchong,Pulo Babe,Pulo Kunji,Kakana,Arong,Chowra,Trinket,ChaiPrakarn,BauBang,BenCat,KoKha,CaiBe,IaGrai,MongLa,Jakarta,Surabaya,Bandung,Medan,Palembang,Makassar,Semarang,Yogyakarta,Campbell Bay,Dran,LaiChau,Sangkha,BenTre,TanChau,Eryuan,Pleiku,Cangyuan,Afeturu,Abogkot,Abarnagar,Abibkot,Afuluru,Alituru,Arekot,Akarnagar,Auskot,Anoluru,Ameskot,Anibkot,Akalnagar,Aborkot,Apeduru,ChauraNicobaresepur,ChauraNicobaresenagar,ChauraNicobaresebad,ChauraNicobaresekot,ChauraNicobaresewada"
+  "b": "Chowra,Chaura,Tahaila,Chongkamong,Alhiat,Kuitasuk,Raihion,Tillangchong,Tillang Chong"
 },
 {
     "name": "Nancowry Nicobarese",
   "i": 125,
-  "min": 4,
+  "min": 3,
   "max": 14,
   "d": "",
-  "m": 0,
-  "b": "Nancowry,Mūöt,Camorta,Katchal,Tehnu,Trinkat,Laful,Kondul,Pulo Milo,Pulo Babe,Pulo Kunji,Kakana,Arong,Chowra,Kabra,Menicurry,Tilanchong,Pilo Pagar,Kapanga,NaNoi,Long,TamNong,CheoReo,BaTri,DucCo,MaeSai,PakLai,CatTien,WiangChai,NancowryNicobaresebari,PalliNancowryNicobarese,Nang-kauri,Campbell Bay,PhanRang,BinhChanh,TraOn,Yongsheng,Shuangjiang,NancowryNicobaresepur,NancowryNicobaresenagar,NancowryNicobaresebad,NancowryNicobaresekot,NancowryNicobaresewada,NancowryNicobareseghat,NancowryNicobaresepalli,NancowryNicobaresekonda,NancowryNicobaresepeta,NancowryNicobareseuru,NancowryNicobareseuri,NancowryNicobareseooru,NancowryNicobaresegiri,NagarNancowryNicobarese,NancowryNicobareseganj,NancowryNicobaresebazar,NancowryNicobaresebandar,NancowryNicobaresegram"
+  "m": 0.1,
+  "b": "Nancowry,Mūöt,Alhiat,Aloorang,Altheak,Alukian,Banderkari,Berainak,Champin,Chanel,Changua,Chongkamong,Chota Inak,Chukmachi,Daring,Enam,Hinnunga,Hintona,Inroak Chinlak,Itoi,Jhoola,Kakana,Kalasi,Kamorta,Kanahinot,Knot,Kuitasuk,Luxi,Malacca,Mildera,Minyuk,Munak,Payuha,Pilpilow,Raihion,Ramzoo,Tahaila,Tapong,Tilanchong,Upper Katchal"
 },
 {
     "name": "Nicobarese (macro)",
   "i": 126,
-  "min": 4,
+  "min": 3,
   "max": 14,
   "d": "",
   "m": 0,
-  "b": "Car Nicobar,Chaura,Teressa,Nancowry,Camorta,Katchal,Great Nicobar,Little Nicobar,Kamorta,Kondul,Trinkat,Pulo Milo,Laful,Tilanchong,Pulo Babe,Pulo Kunji,Kakana,Arong,Chowra,Kabra,Menicurry,Jakarta,Surabaya,Bandung,Medan,Palembang,Makassar,Semarang,Yogyakarta,Denpasar,Batam,Pekanbaru,Padang,Malang,Samarinda,Campbell Bay"
+  "b": "Car Nicobar,Mus,Perka,Malacca,Sawai,Tamaloo,Kinyuka,Kakana,Arong,Kimois,Kinmai,Chowra,Raiheon,Kuitasuk,Chongamong,Teressa,Bengali,Enam,Luxi,Chukmachi,Minyuk,Bompoka,Katchal,Kapanga,Mildera,Upper Katchal,Jhoola,Sanaya,Kamorta,Nancowry,Trinket,Kondul,Pulo Milo,Tillangchong,Little Nicobar,Great Nicobar,Campbell Bay,Laxmi Nagar,Kabra,Pulo Babe,Pulo Kunji,Menicurry"
 },
 {
     "name": "Orang Pulo",
   "i": 127,
   "min": 3,
-  "max": 17,
+  "max": 14,
   "d": "",
   "m": 0,
-   "b": "Panggang,Pramuka,Kelapa,Tidung,Untung Jawa,Pari,Sebira,Kotok,Ayer,Bidadari,Bokor,Bira,Bulat,Bundar,Burung,Cipir,Damar,Cina,Dua,Genteng,Gosong,Gudus,Gundul,Hantu,Layang,Melintang,Melinjo,Nyamuk,Onrust,Pantara,Pelangi,Petir,Pulau H,Rambut,Sepa,Seraya,Sepang,Tanjung,Tidung Kecil,Untung Jawa Kecil,Wanara,Harapan,Dapur"
+   "b": "Panggang,Pramuka,Kelapa,Kelapa Dua,Tidung,Tidung Kecil,Untung Jawa,Pari,Sebira,Harapan,Lancang,Payung,Karya"
 },
 {
     "name": "Peranakan",
   "i": 128,
   "min": 4,
-  "max": 16,
+  "max": 14,
   "d": "",
   "m": 0,
-   "b": "Singapore,Malacca,Penang,Surabaya,Jakarta,Melaka,Georgetown,Ipoh,Tanjong Pagar,Kampong Glam,Orchard Road,Kallang,Katong,XiengKhouang,Peranakanbari,Bandung,Medan,Palembang,Makassar,Semarang,Yogyakarta,Denpasar,Batam,Pekanbaru,Padang,Malang,Samarinda,Banjarmasin,Balikpapan,Manado,Mataram,Kupang,Ambon,Ternate,Jayapura,Phuket,Kuala Lumpur,Ho Chi Minh City,DienBien,LaiUyen,BoKluea,SocTrang,ThuanAn,PakLay,TanHiep,TanThanh,Changning,ALuoi,CangLong,Menglian,NgocHoi,TanPhuoc,Peranakanpur,Peranakannagar,Peranakanbad,Peranakankot,Peranakanwada,Peranakanghat,Peranakanpalli,Peranakankonda,Peranakanpeta,Peranakanooru,Peranakangiri,NagarPeranakan,Peranakanganj,Peranakanbazar,Peranakanbandar,Peranakangram,PalliPeranakan"
+   "b": "Singapore,Malacca,Melaka,Penang,George Town,Tangerang,Jakarta,Surabaya,Kelantan,Terengganu,Phuket,Trang,Phang Nga,Ranong,Bandung,Semarang,Yogyakarta,Cirebon,Medan,Ipoh,Malang,Kota Tinggi,Muar,Teluknaga,Karawaci,Batuceper,Panongan,Sepatan,Kudus,Lasem"
 },
 {
     "name": "Shompen",
   "i": 129,
-  "min": 4,
-  "max": 17,
+  "min": 3,
+  "max": 14,
   "d": "",
   "m": 0,
-  "b": "Shompen Village A,Shompen Village B,Dakade,Puithey,Tataiya,Pulo-babi,Pulo-kunyi,Great Nicobar,WangNuea,AnKhe,MoCay,ChuPah,KengTung,DaTeh,MaeSuay,HaGiang,LocNinh,Shompenbari,PalliShompen,Jakarta,Surabaya,Bandung,Medan,Palembang,Makassar,Semarang,Yogyakarta,Denpasar,Batam,Pekanbaru,Padang,Malang,Samarinda,Banjarmasin,Balikpapan,CuChi,VinhLong,AnPhu,Jianchuan,Gengma,Xaisomboun,Shompenpur,Shompennagar,Shompenbad,Shompenkot,Shompenwada,Shompenghat,Shompenpalli,Shompenkonda,Shompenpeta,Shompenooru,Shompengiri,NagarShompen,Shompenganj,Shompenbazar,Shompenbandar,Shompengram"
+  "b": "Shompen Village-A,Shompen Village-B,Shompen hut,Great Nicobar,Makhahu,Anul,Bewai,Katahu,Kokeon,Lanaya,Patisang,Pattia,Pitayo,Pulloullo,Pulobha,Pulomilo,Pulopanja,Lawful,Afra Bay"
 },
 {
     "name": "Southern Nicobarese",
@@ -316,16 +316,16 @@ window.asiaNameBases = [
   "max": 14,
   "d": "",
   "m": 0,
-   "b": "Great Nicobar,Little Nicobar,Sambelong,Kondul,Pulo Milo,Pulo Babe,Pulo Kunji,Lamôngsĕ,Tökahāṅilāhngö,Kabra,Menicurry,ChiangSaen,ThongMySai,TanPhu,QuangNinh,PhuocLong,RongKwang,DaLat,CanGio,TalokMuh,SouthernNicobaresebari,PalliSouthernNicobarese,Jakarta,Surabaya,Bandung,Medan,Palembang,Makassar,Semarang,Yogyakarta,Denpasar,Batam,Pekanbaru,Padang,Malang,Campbell Bay,Huaping,PhuThien,ChoLach,Puer,Pleiku,ChiangMuan,SouthernNicobaresepur,SouthernNicobaresenagar,SouthernNicobaresebad,SouthernNicobaresekot,SouthernNicobaresewada,SouthernNicobareseghat,SouthernNicobaresepalli,SouthernNicobaresekonda,SouthernNicobaresepeta,SouthernNicobareseuru,SouthernNicobareseuri,SouthernNicobareseooru,SouthernNicobaresegiri,NagarSouthernNicobarese,SouthernNicobareseganj,SouthernNicobaresebazar,SouthernNicobaresebandar,SouthernNicobaresegram"
+   "b": "Batadiya,Chinge,Ehengloy,Kakaiyu,Kashindon,Kopenhaiyen,Koye,Pulobabi,Pulobaha,Pulokunyi,Pulopucca,Lamongse,Tokahangila,Kondul,Pulomilo,Tamengshe,Mayaiya,Campbell Bay,Govinda Nagar,Chingen,Pattia,Puloulo,Pulopanja,Pulobha,Makhahu,Afra Bay,Laxmi Nagar,Joginder Nagar,Shastri Nagar,Vijoy Nagar,Katahu,Lanaya,Anul,Bewai,Kuwak,Lawful,Patisang,Pitayo"
 },
 {
     "name": "Katchal Nicobarese",
   "i": 132,
-  "min": 4,
+  "min": 3,
   "max": 14,
   "d": "",
   "m": 0,
-  "b": "Katchal,Nancowry,Car Nicobar,Teressa,Bamboo Flat,Malacca,Kondul,Chuckchow,Kabra,Menicurry,Pulo Milo,Kafu,Laful,Tilanchong,Pulo Babe,Pulo Kunji,Kakana,Arong,Chowra,Trinket,Pilo Pagar,Kapanga,Shompen,Great Nicobar,Little Nicobar,Kamorta,Pua,DucTrong,MaeFaLuang,Jakarta,Surabaya,Bandung,Medan,Palembang,Makassar,Campbell Bay,CaMau,ThuDauMot,Srinagarindra,ChauDoc,TanTru,Shidian,DongHa,CauKe,Fugong,DakDoa,CaiLay,Phongsali,Akulnagar,Abudghat,Alidnagar,Alemnagar,Aamghat,Abatkot,Apigghat,Aedghat,Afamkot,Abubnagar,Aligghat,Amemnagar,Aneghat,Aninagar,Ademnagar,KatchalNicobaresepur,KatchalNicobaresenagar,KatchalNicobaresebad,KatchalNicobaresekot,KatchalNicobaresewada"
+  "b": "Mildera,Upper Katchal,E-Wall,Japan Tikri,Japan Tikrey,Meenakshi Ram Nagar,Sallo Tikrey,Nirma Nagar,Trinket,Safebalu,Tapiang,Hockcook,Laful"
 },
 {
     "name": "Kenaboi",
@@ -340,37 +340,37 @@ window.asiaNameBases = [
     "name": "Minangkabau",
   "i": 134,
   "min": 4,
-  "max": 15,
+  "max": 16,
   "d": "",
   "m": 0,
-  "b": "Aatrat,Aonnakhon,Abudrat,Akitnakhon,Aperkhiri,Afemsaen,Arumthani,Aminthong,Akikthong,Afubthani,Akimrat,Aporthani,Adalkhiri,Minangkabaunakhon,Minangkabauthani,Minangkabaurat,Mandalay,Naypyidaw,Kuala Lumpur,Jakarta,Surabaya,Bandung,Medan,Palembang,Makassar,Semarang,Yogyakarta,Denpasar,Batam,Pekanbaru,Padang,Malang,Samarinda,Banjarmasin,Balikpapan,Luang Prabang,Oudomxay,Bokeo,Phongsali,Luang Namtha,Sainyabuli,Xieng Khouang,Khammouane,Nape,Muang Xai,Namtha,Phonhong,Houayxay,Muang Long,Muang Kasi,Muang San,Muang Khua,Muang Nga,Muang Pak-Ou,Muang Boun,Muang Houn,Muang Pong,Muang Xon,Arugburi,Alibburi,Minangkabauburi,BuriMinangkabau"
+  "b": "Padang,Bukittinggi,Payakumbuh,Padang Panjang,Solok,Sawahlunto,Pariaman,Batusangkar,Lubuk Sikaping,Painan,Lubuk Basung,Sarilamak,Arosuka,Padang Aro,Pulau Punjung,Muaro Sijunjung,Simpang Ampek,Parit Malintang,Tuapejat,Pagaruyung,Batipuh,Pandai Sikek,Koto Baru,Air Angek,Sumpur Kudus,Silungkang,Talawi,Lembah Segar,Koto Tangah,Kuranji,Batuhampar,Mungka,Simalanggang,Harau,Baso,Matur,Maninjau,Tanjung Raya,Canduang,IV Koto,X Koto,XI Koto,Lima Puluh Koto,Tanah Datar,Agam,Bonjol,Rao,Mapat Tunggul,Muaro Sungai Lolo,Pariangan,Sungayang,Padang Pariaman,Bayang,Kambang,Sangir,Muaro Kalaban,Sijunjung,Koto VII,Pancung Soal,Kotobaru,Karanganyar,Pangkalan,Lubuk Alai,Sungai Bendung Air,Seremban,Seri Menanti,Rembau,Kuala Pilah"
 },
 {
     "name": "Alor Malay",
   "i": 169,
   "min": 4,
-  "max": 15,
+  "max": 14,
   "d": "",
   "m": 0,
-   "b": "Kalabahi,Pulau Pura,Pulau Tereweng,Pulau Kepa,Pulau Buaya,Pulau Kangge,Pulau Rusa,Pulau Kambing,Pulau Sika,Pulau Lapang,Pulau Watu Manu,Pulau Batang,Pulau Nubu,Pulau Kura,Pulau Bulat,Pulau Bundar,Pulau Burung,Pulau Cipir,Pulau Cina,Pulau Dua,Pulau Genteng,Pulau Gosong,Pulau Gundul,Pulau Hantu,George Town,Johor Bahru,Kota Kinabalu,Jakarta,Surabaya,Bandung,Medan,Palembang,Makassar,Semarang,Yogyakarta,Alor Island,Pantar Island,Pulau Dapur"
+   "b": "Kalabahi,Moru,Kalunan,Tribur,Apui,Maritaing,Bukapiting,Peitoko,Wolibang,Kokar,Alim Mebung,Alemba,Bolamelang,Binongko,Nusa Kenari,Welai Barat,Welai Timur,Mutiara,Wetabua,Lendola,Fanating,Motongbang,Air Kenari,Teluk Kenari,Adang Buom,Baranusa,Kabir,Bakalang,Marisa,Maliang"
 },
 {
     "name": "Malaysian Mandarin",
   "i": 171,
   "min": 4,
   "max": 16,
-  "d": "",
+  "d": "klmnprstbdgjwhcfy",
   "m": 0,
-  "b": "Penang,Johor Bahru,Ipoh,Shah Alam,Kota Kinabalu,Kuching,Miri,Tawau,Malacca,Alor Setar,Kota Bharu,Kuala Terengganu,Batu Pahat,Muar,Bentong,Raub,Temerloh,Kuala Lipis,Sabah,Sarawak,Xi'an,Changsha,Nanchang,Fuzhou,Xiamen,Quanzhou,Chaozhou,Shantou,Zhuhai,Shenyang,Harbin,Qingdao,Luoyang,Hefei,Suzhou,Wuxi,Ningbo,Wenzhou,Guiyang,Kunming,Kuala Lumpur,Sandakan,Seremban,George Town,Kuantan,Labuan,Alunside,Alebland,Anulburg,Aikburg,Afagland,Akosland,Adoburg,Apodland,Aulside,Anunburg,Adesland,Alirland,Afebburg,Afalburg,Afurland,MalaysianMandarintown,MalaysianMandarinville,MalaysianMandarinburg,MalaysianMandarinview,MalaysianMandarinside"
+  "b": "Kuala Lumpur,George Town,Ipoh,Johor Bahru,Klang,Seremban,Petaling Jaya,Shah Alam,Subang Jaya,Puchong,Kajang,Ampang,Cheras,Rawang,Selayang,Kuching,Sibu,Miri,Kota Kinabalu,Sandakan,Tawau,Labuan,Melaka,Alor Setar,Sungai Petani,Kulim,Butterworth,Bukit Mertajam,Nibong Tebal,Batu Pahat,Muar,Kluang,Segamat,Pontian,Kota Tinggi,Tangkak,Jasin,Taiping,Teluk Intan,Sitiawan,Kampar,Lumut,Parit Buntar,Kuala Kangsar,Bentong,Raub,Temerloh,Kuala Lipis,Kuantan,Mentakab,Jerantut,Kota Bharu,Kuala Terengganu,Kemaman,Besut,Pasir Mas,Kangar,Arau,Cameron Highlands,Tanah Rata,Port Dickson,Bahau,Banting,Kuala Selangor,Tanjung Malim,Sungai Buloh"
 },
 {
     "name": "Singaporean Mandarin",
   "i": 175,
   "min": 4,
-  "max": 13,
+  "max": 16,
   "d": "",
   "m": 0,
-  "b": "Singapore,Jurong,Tampines,Woodlands,Ang Mo Kio,Bedok,Toa Payoh,Yishun,Sengkang,Punggol,Hougang,Bukit Timah,Orchard,Changi,Joo Chiat,Katong,Serangoon,Pasir Ris,Sembawang,Canberra,Yio Chu Kang,Lorong Chuan,Braddell,Thomson,MacRitchie,Upper Thomson,Chongqing,Lanzhou,Ürümqi,Lhasa,Kashgar,Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Nanjing,Hangzhou,Bishan,Marina Bay,Kovan,Fernvale,Abokford,Araburg,Apirtown,Apubburg,Abelford,Afukford,Amogburg,Alalford,Afakford,Adedburg,Afimtown,Amugford,Abenford,Alusburg,Apakburg,SingaporeanMandarintown,SingaporeanMandarinville,SingaporeanMandarinburg,SingaporeanMandarinview,SingaporeanMandarinside"
+  "b": "Singapore,Jurong,Tampines,Woodlands,Ang Mo Kio,Bedok,Toa Payoh,Yishun,Sengkang,Punggol,Hougang,Bukit Timah,Orchard,Changi,Joo Chiat,Katong,Serangoon,Pasir Ris,Sembawang,Canberra,Yio Chu Kang,Lorong Chuan,Braddell,Thomson,MacRitchie,Upper Thomson,Bishan,Marina Bay,Kovan,Fernvale,Clementi,Bukit Batok,Geylang,Choa Chu Kang,Bukit Panjang,Paya Lebar,Queenstown,Kallang,Novena,Outram,River Valley,Rochor,Tanglin,Marine Parade,Boon Lay,Tuas,Pioneer,Tengah,Jurong East,Jurong West"
 },
 {
     "name": "Acehnese",
@@ -385,10 +385,10 @@ window.asiaNameBases = [
     "name": "Madurese",
   "i": 177,
   "min": 4,
-  "max": 11,
+  "max": 16,
   "d": "",
   "m": 0,
-  "b": "Sampang,Sumenep,Sapudi,Giliraja,Raas,Masalembu,Surabaya,Probolinggo,Situbondo,Bondowoso,Jember,Lumajang,Banyuwangi,Malang,Gresik,Sidoarjo,Mojokerto,Jombang,Bojonegoro,Nganjuk,Madiun,Ngawi,Ponorogo,Trenggalek,Tulungagung,Blitar,Kediri,Lumphat,LomSak,ChomThong,StuengSaen,RongKwang,SiemReap,PhaYao,KampongSpueu,HuayXai,Aferthani,Abitsaen,Aagpitek,Abarchai,Adegsaen,Alutchai,Arorpitek,Akumthani,Aemnakhon,Anarnakhon,Alatnakhon,Akedthong,Alumsaen,Amubkhiri,Arakthong,Maduresenakhon,Maduresethani,Madureserat,Kuching,Bangkalan,Pamekasan,Bawean,Kangean,Pasuruan,Lamongan,Tuban,Magetan,Pacitan,Nyani,Phichai,Kawa,Thoeng,Chaungzon,Fang,Madureseburi,BuriMadurese"
+  "b": "Bangkalan,Sampang,Pamekasan,Sumenep,Kamal,Arosbaya,Ketapang,Sotabar,Pragaan,Bluto,Saronggi,Gapura,Ambunten,Dungkek,Ganding,Lenteng,Rubaru,Dasuk,Manding,Batuputih,Pasongsongan,Giligenteng,Gayam,Raas,Nonggunong,Sapeken,Arjasa,Kangayan,Masalembu,Batuan,Kalianget,Besuki,Panarukan,Situbondo,Bondowoso,Probolinggo,Jember,Kangean,Sapudi,Bawean,Giliraja,Tonduk,Sepanjang,Paliat,Sonok,Brakas,Kalikatak,Bangsalsari,Talango,Grujugan,Tamanan,Wonosari,Tenggarang,Maesan,Pakem,Wringin,Curahdami,Tapen,Prajekan,Tlogosari,Jatibanteng,Banyuglugur,Suboh,Mlandingan,Bungatan,Kendit,Mangaran,Panji,Kapongan,ArjasaSitubondo,Jangkar,Asembagus,Banyuputih,Sumbermalang"
 },
 {
     "name": "South Halmahera",
@@ -397,7 +397,7 @@ window.asiaNameBases = [
   "max": 14,
   "d": "",
   "m": 0,
-  "b": "Ternate,Tidore,Jailolo,Patani,Sofifi,Halmahera,Obi,Mandioli,Gane,Mare,Kayoa,Gebe,Taba,Weda,Kao,Tobelo,Galela,Loloda,Maba,Gorua,Morotai,Patani Timur,Patani Utara,Patani Barat,Patani Selatan,Jakarta,Surabaya,Bandung,Medan,Palembang,Makassar,Semarang,Yogyakarta,Denpasar,Batam,Bacan,Makian,Weda Bay"
+  "b": "Patani,Maba,Buli,Gebe,Makian,Kayoa,Taba,Gane,Sawai,Weda,Labuha,Teluk Buli,Geltoli,Gamesan,Kacepi,Sanafi,Yam,Umera,Waykion,Waigitang,Sebelei,Gurup,Rabutdaio,Guruapin,Laluin,Busua,Bajo,Buli Bay"
 },
 {
     "name": "Barlavento Creoles",
@@ -420,11 +420,11 @@ window.asiaNameBases = [
 {
     "name": "Maguindanao",
   "i": 188,
-  "min": 3,
-  "max": 25,
+  "min": 4,
+  "max": 18,
   "d": "",
   "m": 0,
-  "b": "Gen S K Datu Odin Sinsuat,Maganao,Maguindanao del Norte,Maguindanao del Sur,Jakarta,Surabaya,Bandung,Medan,Palembang,Makassar,Semarang,Yogyakarta,Denpasar,Batam,Pekanbaru,Padang,Malang,Samarinda,Banjarmasin,Balikpapan,Manado,Mataram,Kupang,Ambon,Ternate,Jayapura,Sorong,Kuala Lumpur,Kuching,Kota Kinabalu,Sandakan,Miri,Sibu,Johor Bahru,Ipoh,Cotabato City,Shariff Aguak,Buluan,Sultan Kudarat,Datu Odin Sinsuat,Parang,Sultan Mastura,Barira,Upi,Matanog,Buldon,Sultan sa Barompi,Paglat,Pagayawan,Balabagan,Tubaran,Masiu,Lumbayanague,Bayang,Butig,Calanogas,Unayan,Dalumangcob"
+  "b": "Cotabato City,Datu Odin Sinsuat,Sultan Kudarat,Buluan,Datu Piang,Shariff Aguak,Datu Paglas,Buldon,Parang,Sultan sa Barongis,Talayan,Guindulungan,Ampatuan,Mamasapano,Pagalungan,Barira,Upi,Matanog,Sultan Mastura,Kabuntalan,Northern Kabuntalan,Talitay,Datu Blah T. Sinsuat,Datu Abdullah Sangki,Datu Anggal Midtimbang,Datu Hoffer Ampatuan,Datu Montawal,Datu Salibo,Datu Saudi Ampatuan,Datu Unsay,General Salipada K. Pendatun,Mangudadatu,Paglat,Pandag,Rajah Buayan,Shariff Saydona Mustapha,South Upi,Dinaig,Nuling,Dulawan,Maganoy,Lambayong,Pagagawan,Kabacan,Midsayap,Pikit,Tulunan,Alamada,Matalam,Isulan,Lutayan,Sultan Kudarat (Sultan Kudarat Province),Tacurong,Pigcawayan,Aleosan,Carmen,Banisilan,Libungan,Mlang,Tantangan,Senator Ninoy Aquino,Lambayong (Sultan Kudarat Province),Columbio,Pres. Quirino,Esperanza,Kiamba,Maasim,Glan"
 },
 {
     "name": "Sotavento Creoles",
@@ -448,19 +448,19 @@ window.asiaNameBases = [
     "name": "Tetum",
   "i": 192,
   "min": 4,
-  "max": 11,
+  "max": 16,
   "d": "",
   "m": 0,
-  "b": "Dili,Baucau,Lospalos,Viqueque,Manatuto,Aileu,Ainaro,Ermera,Liquica,Covalima,Suai,Maucatar,Bazartete,Atabae,Bobonaro,Maliana,Hatubuilico,Letefoho,Atsabe,Turiscai,Fatuberliu,Soibada,Laclubar,Natarbora,Lacluta,SanKamphaeng,Kawkareik,PreyVeng,Ngao,ChaiPrakarn,Oyadav,Ale,PrasatBalang,PhouPiang,Sawankhalok,Kyaikhto,Oecusse,Maubara,Laelia,Venilale,Gleno,Atauro,Hato Udo,Tibar,Manleuana,Bidau,Santa Cruz,Becora,Fatuahi,Colmera,Lahane,Metinaro,Remexio,Marabia,Darulete,Tasi Tolu,Motael,Kuluhun,Aitarak,Balibar,Loes,Maubisse,Hatu Builico,Turia,Fatubessi,Leo-Hatu,Uato Lari,Barique,Fuiloro,Fatumean,Udomxai,Sanasomboum,Mimot,ChaiBad,BuriTetum"
+  "b": "Dili,Baucau,Maliana,Suai,Same,Aileu,Ainaro,Manatuto,Liquica,Gleno,Viqueque,Lospalos,Oecusse,Pante Macassar,Balibo,Atambua,Betun,Atapupu,Ermera,Maubara,Maubisse,Atsabe,Venilale,Atabae,Bobonaro,Lolotoe,Hato-Udo,Hato-Builico,Bazartete,Laclubar,Laleia,Metinaro,Fatuberlio,Turiscai,Letefoho,Lacluta,Ossu,Uato-Lari,Fuiloro,Iliomar,Luro,Tutuala,Nitibe,Passabe,Tilomar,Zumalai,Maucatar,Fohoren,Alas,Baguia,Laga,Quelicai,Remexio,Soibada,Atauro,Vemasse"
 },
 {
     "name": "Santali",
   "i": 193,
   "min": 4,
-  "max": 15,
-  "d": "",
+  "max": 16,
+  "d": "mktsprn",
   "m": 0,
-  "b": "Ranchi,Dumka,Hazaribagh,Giridih,Bokaro,Deoghar,Gumla,Simdega,Lohardaga,Pakur,Godda,Seraikela,Khunti,Chatra,Latehar,Palamu,Singhbhum,East Singhbhum,West Singhbhum,Santhal Pargana,Bankura,Purulia,Mayurbhanj,MongLa,MuangKham,DanSim,WiangPaPao,WangNuea,AnKhe,MoCay,Santalibari,PalliSantali,Dehradun,Shimla,Guwahati,Shillong,Imphal,Aizawl,Kohima,Gangtok,Darjeeling,Jamshedpur,Ranchi,Bhubaneswar,Visakhapatnam,Thiruvananthapuram,Madurai,Mysore,Mangalore,Nagpur,Indore,Bhopal,Dhanbad,Sahebganj,Jhargram,LaoCai,ChonThanh,NamPat,MyTho,CuChi,VinhLong,AnPhu,Jianchuan,Santalipur,Santalinagar,Santalibad,Santalikot,Santaliwada,Santalighat,Santalipalli,Santalikonda,Santalipeta,Santaliooru,Santaligiri,NagarSantali,Santaliganj,Santalibazar,Santalibandar,Santaligram"
+  "b": "Dumka,Deoghar,Godda,Jamtara,Sahibganj,Pakur,Rajmahal,Barharwa,Borio,Madhupur,Jasidih,Mahagama,Basukinath,Litipara,Maheshpur,Hiranpur,Amrapara,Pathna,Taljhari,Udhwa,Bhognadih,Barhait,Berhait Santali,Tin Pahar,Raghunandanpur,Kumarpur,Sagarmpur,Jamshedpur,Ghatshila,Chaibasa,Chakradharpur,Seraikela,Kharsawan,Ranchi,Bokaro,Giridih,Dhanbad,Ramgarh,Hazaribagh,Chatra,Jhargram,Bankura,Purulia,Bishnupur,Salboni,Garhbeta,Midnapore,Rampurhat,Suri,Bolpur,Sainthia,Nalhati,Murarai,Dubrajpur,Labpur,Nanoor,Rajnagar,Ilambazar,Mohammad Bazar,Mayureswar,Baripada,Rairangpur,Karanjia,Udala,Bangriposi,Jashipur,Saraskana,Khiching,Morada,Bahalda,Gorumahisani,Balasore,Kendujhar,Jaleswar,Nilgiri,Gopiballavpur,Nayagram,Bhagalpur,Banka,Purnia,Katihar,Kishanganj,Morang,Jhapa,Biratnagar,Rajshahi,Rangpur"
 },
 {
     "name": "Palaung",
@@ -4272,11 +4272,11 @@ window.asiaNameBases = [
 {
     "name": "Kim Mun",
   "i": 2167,
-  "min": 4,
-  "max": 11,
+  "min": 3,
+  "max": 14,
   "d": "",
   "m": 0,
-  "b": "Shizong,Jiangcheng,Mojiang,Lüchun,Xilin,Lingyun,Napo,Tianlin,Lipu,Pingle,Jinxiu,Yongfu,Luzhai,Fangcheng,Shangsi,Qiongzhong,Baoting,Qionghai,Tunchang,Ledong,Wanning,Sanya,Hekou,Malipo,Maguan,Xichou,Qiubei,Guangnan,Funing,Yanshan,Yuanyang,Jinping,Mengla,Jinghong,Fengshan,Bama,Mengshan,Aodland,Anebford,Aekland,Adudland,Amontown,Abesford,Aneltown,Akakland,Adadland,Adetford,Afogtown,Amunland,Aesland,Alutown,Anadtown,KimMuntown,KimMunville,KimMunburg,KimMunview,KimMunside"
+  "b": "Jinxiu,Tongmu,Toupai,Sanjiao,Zhongliang,Luoxiang,Changdong,Dazhang,Liuxiang,Sanjiang,Yaoshan,Xincai,Nanxi,Laofanzhai,Lianhuatan,Tansan,Natong,Fangcheng,Dajing,Humaling,Xinhua,Fuchuan,Dongshan,Bama,Suolue,Xishan,VanBan,LaoCai,HaGiang,YenBai,QuangNinh,TuyenQuang,BacGiang,MuangSing,LuangNamtha,Oudomxai,Bokeo,BanNamDi"
 },
 {
     "name": "Khasi",

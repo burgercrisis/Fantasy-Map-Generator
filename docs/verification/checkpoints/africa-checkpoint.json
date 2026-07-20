@@ -1,7 +1,7 @@
 {
-  "blockers": ["Khoisan entries (Sekele, Taa, Ju/'hoan, Hadza) and Bantu entries with southern Angola names (Luvale) have many wrong-region names removed. Micro-languages need additional sources."],
-  "lastUpdate": "2026-06-30T03:15:00Z",
-  "completedEntries": 20,
+  "blockers": ["Many remaining entries are micro-languages or cover terms that cannot reach 25 verified names (marked WAITING). Subagent research pipeline now in use: one subagent per entry -> JSON verdict in docs/verification/verdicts/ -> applied via docs/verification/apply-verdicts.js --write -> guardrails. Note: web search was rate-limited (429) for several subagents; WAITING micro-language entries with sparse toponymy may deserve a later re-pass."],
+  "lastUpdate": "2026-07-20T01:15:00Z",
+  "completedEntries": 60,
   "protocolVersion": "2.0-bulletproof",
   "startedAt": "2026-06-30T02:30:00Z",
   "totalEntries": 790,
@@ -9,44 +9,47 @@
   "status": "IN_PROGRESS",
   "progress": {
     "structuralFixes": "completed",
-    "perNameVerification": "20 entries processed (2.5%)"
+    "perNameVerification": "60 entries processed (7.6%). Manual: through i=490. Subagent pipeline batch: i=492,494,500,501,510,511,526,530,543,544,545,546,566."
+  },
+  "pipeline": {
+    "method": "One subagent per entry does real per-name web verification and writes a verdict JSON to docs/verification/verdicts/<i>-<name>.json. Reviewer trims any WAITING entries padded with regionally-inferred names, then applies all at once with `node docs/verification/apply-verdicts.js --write` (mechanical file-write only; keeps protocol Rule 9 intact) and runs `node tools/mixer-core/check-language-mixer-guardrails.js`. Applied verdicts archived to docs/verification/verdicts/applied/.",
+    "applierScript": "docs/verification/apply-verdicts.js"
   },
   "sessionResults": {
-    "entriesCompletedThisSession": {
-      "Berber (i=16)": "WAITING - cover term/language family",
-      "Ijaw (i=20)": "COMPLETE - 47 names verified",
-      "Swahili (i=27)": "COMPLETE - 25 names verified",
-      "Gurage (i=31)": "WAITING - language cluster",
-      "Berber (Maghreb) (i=37)": "WAITING - regional language group",
-      "Sekele (i=39)": "WAITING - 8 names verified (micro-language)",
-      "Taa Click (i=41)": "WAITING - 8 names verified (wrong-region names removed)",
-      "Ju/'hoan Click (i=47)": "WAITING - 12 names verified (wrong-region names removed)",
-      "Hadza (i=48)": "WAITING - 11 names verified (micro-language)",
-      "Sandawe Click (i=49)": "COMPLETE - 23 names verified (6 ethnic group names removed)",
-      "Bemba (i=62)": "COMPLETE - 25 names verified (prior session)",
-      "Bilen (i=66)": "COMPLETE - 22 names verified (6 wrong-region names removed)",
-      "Mandara Chadic (i=67)": "WAITING - language sub-family",
-      "Nubian (i=85)": "WAITING - language family",
-      "Comorian (i=91)": "COMPLETE - 26 names verified (1 duplicate removed)",
-      "Arabic Maghrebi (i=92)": "WAITING - regional dialect group",
-      "Tsonga (i=100)": "COMPLETE - 19 names verified (6 wrong-region names removed)",
-      "Luvale (i=107)": "WAITING - 14 names verified (19 wrong-region names removed)",
-      "Lugbara (i=121)": "NOT_STARTED",
-      "Berta (i=137)": "NOT_STARTED",
-      "Lunda (i=155)": "NOT_STARTED",
-      "Bamileke (i=184)": "WAITING - language cluster (not processed this session)"
+    "manualBatch_i386_i490": {
+      "East Chadic (i=386)": "WAITING - branch/cover term",
+      "Shabo (i=398)": "WAITING - isolate, 3 villages",
+      "Angolar Creole (i=437)": "WAITING - micro-language, 9",
+      "Annobonese (i=454)": "WAITING - micro-language, 8",
+      "Judeo-Arabic Maghrebi (i=462)": "WAITING - cover term",
+      "Forro Creole (i=475)": "COMPLETE - 27",
+      "Principense (i=479)": "WAITING - moribund, 14",
+      "Equatoguinean Spanish (i=490)": "COMPLETE - 25"
+    },
+    "subagentBatch": {
+      "Baka (i=492)": "COMPLETE - 28",
+      "Bassa (i=494)": "COMPLETE - 30",
+      "Shilluk (i=500)": "COMPLETE - 37",
+      "Saharan Spanish (i=501)": "COMPLETE - 31",
+      "Werni (i=510)": "WAITING - 1 (micro, Kordofanian)",
+      "Zhire (i=511)": "WAITING - 12 (micro)",
+      "Zhoa (i=526)": "WAITING - 1 (micro Grassfields)",
+      "Nara (i=530)": "WAITING - 4 (trimmed from 25 regional)",
+      "Sucite (i=543)": "COMPLETE - 30",
+      "Suwu (i=544)": "WAITING - 6 (micro Isubu/Bimbia)",
+      "Acheron (i=545)": "WAITING - 3 (micro Nuba)",
+      "Adara (i=546)": "COMPLETE - 30",
+      "Aghem (i=566)": "WAITING - 1 (one-town micro)"
     }
   },
   "patternsIdentified": {
-    "wrongRegionContamination": "Many entries had names from completely wrong regions (e.g., Luvale had 19 names from southern Angola/Huíla Province; Taa had names from northern Namibia; Ju/'hoan had names from southern Namibia). This is the same contamination pattern identified by prior sessions.",
-    "microLanguageChallenge": "Khoisan languages (Sekele, Taa, Ju/'hoan, Hadza) have few documented place names online. Wikipedia articles only name a handful of settlements.",
-    "ethnicGroupVsPlace": "Some entries included ethnic group names (Burunge, Rangi, Alagwa, Datooga, Nyaturu, Gogo in Sandawe) rather than place names."
+    "contamination": "Entries contain Vietnamese/Thai, Malaysian Temiar, Somali/Kenya/Ethiopia, wrong-country capitals, and fabricated 'LanguageX'+suffix and 'A*'+suffix names. All removed.",
+    "microLanguage": "Many small Nigerian Plateau/Kainji, Cameroon Grassfields, Sudan Kordofanian, and Gulf-of-Guinea creole entries cannot reach 25 verified names -> WAITING.",
+    "coverTerms": "Branches/families (East Chadic, Bauchi Chadic, West African English Creole, Judeo-Arabic Maghrebi) marked WAITING per Rule 4."
   },
-  "nextStep": "Continue from entry 19 (Lugbara, i=121).",
+  "nextStep": "Continue subagent pipeline from Aiki (i just after 566). Read next batch of entries from modules/namebases-africa.js, dispatch one subagent per entry, apply verdicts, run guardrails, archive.",
   "resumePosition": {
-    "entryIndex": 19,
-    "entryName": "Lugbara",
-    "entryI": 121,
-    "note": "Next unprocessed entry is Lugbara (i=121), a Central Sudanic language spoken in Uganda/DRC."
+    "entryName": "Aiki",
+    "note": "Next unprocessed entry after Aghem (i=566). Read the file after the Aghem entry to get exact i values for the next batch."
   }
 }

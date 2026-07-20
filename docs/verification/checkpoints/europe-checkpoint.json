@@ -1,22 +1,25 @@
 {
   "blockers": [],
-  "lastUpdate": "2026-06-30T03:00:00-07:00",
-  "completedEntries": 2,
-  "totalIssuesFixed": 63,
+  "lastUpdate": "2026-07-19T23:49:00-07:00",
+  "completedEntries": 3,
+  "totalIssuesFixed": 941,
   "totalEntries": 719,
   "continent": "europe",
-  "status": "IN_PROGRESS — Phase 1 complete (63 cover terms cleared). Phase 2: verifying actual language entries. 2 entries fully verified (English, French).",
-  "currentEntry": 3,
-  "currentName": "Italian (i=3) — names verified against Wikipedia List of Cities in Italy",
+  "status": "IN_PROGRESS — Bulk de-contamination of unambiguous synthetic tokens COMPLETE (two passes). Per-entry verification of remaining foreign-pool dumps NOT yet done. Italian (i=3) fully verified & logged.",
+  "currentEntry": 4,
+  "currentName": "Castillian (i=4)",
   "honestAssessment": {
-    "entriesWithFullProperVerification": 2,
+    "entriesWithFullProperVerification": 3,
     "entriesClearedAsCoverTerms": 63,
-    "entriesRemainingToVerify": 654,
-    "note": "Cleared all cover terms, language families, proto-languages, regions, and contaminated entries. Now working through actual language entries to verify their names. Italian (i=3) verified against Wikipedia List of Cities in Italy."
+    "entriesWithSyntheticContaminationRemoved": 225,
+    "syntheticTokensRemovedTotal": 941,
+    "entriesRemainingWithForeignPoolDumps": 225,
+    "note": "Two safe bulk passes removed 941 provably-fake tokens: (1) machine-generated <Lang>+suffix placeholders (ow/itz/ek/ov/ak/um/in/ev/sk/vsk/ovsk/insk/ensk/single-consonant etc.) and (2) real Estonian place names wrongly injected into non-Uralic entries. A whitelist protects real places that embed language-name fragments (Latina, Tuscania, Romanengo, Sicilia, Romania, Kemi, Keminmaa, Liguria, Gallocanta, Akureyri, Argentan, Andoain, Aalborg, etc.) and the entire Roman/Latin entry (Arretium, Ariminum, Agrigentum, Altinum...). A corruption bug (doubled \"b\": prefix) was introduced and FIXED. Guardrails pass; 0 empty entries; 0 structually-bad lines. 225 entries STILL contain Finnish/Russian/Kyrgyz place-name dumps from the same injection event; these require careful per-entry verification (NOT bulk removal, to avoid deleting legitimate Uralic/Slavic names) and are NOT marked COMPLETE."
   },
   "properlyVerifiedSoFar": {
-    "English (i=1)": "187 names verified against Wikipedia List of Towns in England + List of Cities in the UK",
-    "French (i=2)": "105 names verified against Wikipedia List of Communes in France"
+    "English (i=1)": "187 names — prior agent; RE-CHECK advised (may still contain dumps)",
+    "French (i=2)": "113 names after cleanup — prior agent; RE-CHECK advised",
+    "Italian (i=3)": "87 names verified against Wikipedia List of Cities in Italy + individual Sicilian comune pages; synthetic + Estonian-dump removed"
   },
-  "notes": "Phase 1 complete. Phase 2 in progress. Next entries: Italian (i=3), Castillian (i=4), Greek (i=6), Roman (i=7), Estonian (i=9), Portuguese (i=12), Hungarian (i=14), Basque (i=19), Czech (i=35), Slovak (i=38), etc."
+  "notes": "Bulk synthetic removal is COMPLETE and safe. The dominant remaining work (225 entries polluted with Finnish/Russian/Kyrgyz dumps, plus sub-25 entries like Italo-Australian=9) requires per-entry web verification per the protocol. That is a large, multi-session effort and is intentionally NOT auto-removed to prevent false deletion of real Uralic/Slavic places."
 }
