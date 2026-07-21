@@ -56,7 +56,7 @@
       "i": 75,
       "name": "Awakatek",
       "status": "WAITING",
-      "names": 6
+      "names": 10
     },
     {
       "i": 82,
@@ -86,7 +86,7 @@
       "i": 396,
       "name": "Seri",
       "status": "WAITING",
-      "names": 3
+      "names": 4
     },
     {
       "i": 728,
@@ -553,8 +553,8 @@
     {
       "i": 6623,
       "name": "Tabasco Zoque",
-      "status": "WAITING",
-      "names": 18
+      "status": "COMPLETE",
+      "names": 29
     },
     {
       "i": 6624,
@@ -578,7 +578,7 @@
       "i": 6630,
       "name": "Eyak",
       "status": "WAITING",
-      "names": 5
+      "names": 4
     },
     {
       "i": 6631,
@@ -673,8 +673,8 @@
     {
       "i": 8057,
       "name": "Cora",
-      "status": "WAITING",
-      "names": 20
+      "status": "COMPLETE",
+      "names": 28
     },
     {
       "i": 8111,
@@ -692,7 +692,7 @@
       "i": 8119,
       "name": "Inuinnaqtun",
       "status": "WAITING",
-      "names": 1
+      "names": 5
     },
     {
       "i": 8125,
@@ -721,7 +721,7 @@
     {
       "i": 8130,
       "name": "Ixil",
-      "status": "WAITING",
+      "status": "COMPLETE",
       "names": 27
     },
     {
@@ -763,8 +763,8 @@
     {
       "i": 8139,
       "name": "Tz'utujil",
-      "status": "WAITING",
-      "names": 6
+      "status": "COMPLETE",
+      "names": 29
     },
     {
       "i": 8141,
@@ -811,14 +811,14 @@
     {
       "i": 8481,
       "name": "Mayo",
-      "status": "WAITING",
-      "names": 24
+      "status": "COMPLETE",
+      "names": 29
     },
     {
       "i": 8483,
       "name": "O'odham",
-      "status": "WAITING",
-      "names": 7
+      "status": "COMPLETE",
+      "names": 30
     },
     {
       "i": 8484,
@@ -859,8 +859,8 @@
     {
       "i": 13243,
       "name": "Blackfoot",
-      "status": "WAITING",
-      "names": 19
+      "status": "COMPLETE",
+      "names": 31
     },
     {
       "i": 13539,
@@ -1027,8 +1027,8 @@
     {
       "i": 200640,
       "name": "Saint Kitts Creole",
-      "status": "WAITING",
-      "names": 24
+      "status": "COMPLETE",
+      "names": 28
     },
     {
       "i": 200641,
@@ -1112,7 +1112,7 @@
       "i": 201024,
       "name": "Hän",
       "status": "WAITING",
-      "names": 5
+      "names": 3
     },
     {
       "i": 201025,
@@ -1154,13 +1154,7 @@
       "i": 201031,
       "name": "Tanacross",
       "status": "WAITING",
-      "names": 7
-    },
-    {
-      "i": 201032,
-      "name": "Tłįchǫ",
-      "status": "WAITING",
-      "names": 6
+      "names": 10
     },
     {
       "i": 201033,
@@ -1411,6 +1405,12 @@
       "name": "Cochimi",
       "duplicateOf": 1204,
       "names": 0
+    },
+    {
+      "i": 201032,
+      "name": "Tłįchǫ",
+      "names": 0,
+      "duplicateOf": 1198
     }
   ]
 }

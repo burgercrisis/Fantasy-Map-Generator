@@ -1716,7 +1716,7 @@ window.europeNameBases = [
     "max": 15,
     "d": "lnrt",
     "m": 0,
-    "b": "Pamplona,Tudela,Estella,Tafalla,Sangüesa,Olite,Lumbier,Isaba,Roncal,Urzainqui,Burguete,Valcarlos,Roncesvalles,Auritz-Burguete,Larrasoaña,Villava,Arre,Ororbia,Huarte,Berriozar,Zizur Mayor,Noáin,Barañáin,Azagra,Aoiz,Lekunberri,Elizondo, Doneztebe,Baztan,Lesaka,Vera de Bidasoa,Irurita,Goizueta"
+    "b": "Pamplona,Tudela,Estella,Tafalla,Sangüesa,Olite,Lumbier,Isaba,Roncal,Urzainqui,Burguete,Valcarlos,Roncesvalles,Villava,Huarte,Berriozar,Zizur Mayor,Noáin,Barañáin,Azagra,Aoiz,Lekunberri,Doneztebe,Baztan,Lesaka,Vera de Bidasoa,Goizueta,Corella,Cintruénigo,Cascante,Peralta,Lodosa,Viana"
   },
   {
     "name": "Navarro-Aragonese",
@@ -2517,7 +2517,7 @@ window.europeNameBases = [
     "max": 23,
     "d": "lnrt",
     "m": 0,
-    "b": "Scuol,Guard,Ardez,Ftan,Tarasp,Vulpera,Lavin,Cinuos-chel,Zernez,Susch,Condrau,Gurlain,Chasa,Chantun,S-chanf,Madulain,Zuoz,La Punt,Pontresina,Celerina,Samedan,Celerina,S-chanf,Zuoz,Lavin,Susch,Zernez,Ardez,Guarda,Scuol,Ftan,Tarasp"
+    "b": "Ardez,Bever,Celerina,Chamues-ch,Champfèr,Ftan,Guarda,La Punt,Lavin,Madulain,Martina,Pontresina,Ramosch,S-chanf,Samedan,Scuol,Sent,Sils,Silvaplana,St. Moritz,Susch,Tarasp-Vulpera,Tschlin,Zernez,Zuoz,Cinuos-chel,Vulpera"
   },
   {
     "name": "Standard French",
@@ -3282,7 +3282,7 @@ window.europeNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Tallinn,Pärnu,Kohtla-Järve,Maardu,Sillamäe,Võru,Jõhvi,Põltsamaa,Türi,Kärdla,Pärnu-Jaagupi,Antsla,Jõgeva,Keila-Joa,Elva,Triigi,Viljandi,Rakvere,Kuressaare,Valga,Paide,Tapa,Kivilõnnu,Kehra,Loksa,Mustvee,Suure-Jaani,Abja-Paluoja,Karksi-Nuia,Võhma,Räpina,Otepää,Kunda,Tõrva"
+    "b": "Tallinn,Pärnu,Kohtla-Järve,Maardu,Sillamäe,Võru,Jõhvi,Põltsamaa,Türi,Kärdla,Pärnu-Jaagupi,Antsla,Jõgeva,Keila-Joa,Elva,Triigi,Viljandi,Rakvere,Kuressaare,Valga,Paide,Tapa,Kehra,Loksa,Mustvee,Suure-Jaani,Abja-Paluoja,Karksi-Nuia,Võhma,Räpina,Otepää,Kunda,Tõrva"
   },
   {
     "name": "Central Finland",
@@ -4191,7 +4191,7 @@ window.europeNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Yoshkar-Ola,Kozmodemyansk,Volzhsk,Zvenigovo,Sernur,Orshanka,Kilemary,Kuzhener,Novy Toryal,Medvedevo,Kiknur,Tonshaevo,Tuzha,Yaransk,Birsk,Mishkino,Neftekamsk,Belebey,Karaidel,Kaltasy,Nurimanovo,Yanaul,Dyurtyuli,Agidel,Sovetsky,Morki,Paranga,Yurino,Krasnooktyabrsky"
+    "b": "Yoshkar-Ola,Kozmodemyansk,Volzhsk,Zvenigovo,Arino,Kilemary,Krasnogorsky,Krasnooktyabrsky,Kuzhener,Mari-Turek,Medvedevo,Morki,Novy Toryal,Orshanka,Paranga,Privolzhsky,Sernur,Sovetsky,Suslonger,Yurino,Kokshaysk,Kosolapovo,Yaransk,Birsk,Mariinsky Posad"
   },
   {
     "name": "Erzya",
@@ -5837,15 +5837,6 @@ window.europeNameBases = [
     "b": "Khanty-Mansiysk,Surgut,Nizhnevartovsk,Nefteyugansk,Langepas,Megion,Raduzhny,Uray,Nyagan,Kogalym,Pyt-Yakh,Pokachi,Igrim,Beryozovo,Shuryshkary,Oktyabrskoye,Kondinskoye,Mortka,Saranpaul,Nyaksimvol,Vanzhil,Vysoky,Polnovat,Tegi,Kazymsky,Syktyvkar,Yekaterinburg,Tyumen,Tobolsk,Tomsk,Omsk,Novosibirsk,Barnaul,Kemerovo,Novokuznetsk,Abakan,Kyzyl,Minusinsk,Achinsk,Krasnoyarsk,Verkhneuralsk,Alekseyevka,Amebensk,Apodsk,Aromsk,Salekhard,Labytnangi,Muravlenko,Nadym,Noyabrsk,Novy Urengoy,Tarko-Sale,Pangody,Gubkinsky,Beloyarsky,Yugorsk,Synya,Vagay,Tabory,Konda,Sosva,Lozva,Kazym,Pim,Trom,Ljamin,Ljapin,Sherkaly,Muzhi,Igrym,Kushchiy,Lokosovo,Agirisk,Lempiño,Pitlyar,Vam-Yugan,Vishera,Krasnovishersk,Solikamsk,Berezniki,Chusovoy,Gremyachinsk,Alexandrovsk,Kizel,Gubakha"
   },
   {
-    "name": "Mari",
-    "i": 200837,
-    "min": 5,
-    "max": 16,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Yoshkar-Ola,Kozmodemyansk,Volzhsk,Zvenigovo,Sernur,Orshanka,Kilemary,Sovetsky,Morki,Paranga,Yurino,Kuzhener,Novy Toryal,Medvedevo,Krasnooktyabrsky,Kiknur,Tonshaevo,Tuzha,Yaransk,Kozlan,Yunger,Lipsha,Yaran,Kozymodemyan,Sernur-Morkin,AkTal,OrtoTokoi,Svetly,Yurgamysh,Karaygayevo,Zhalanash,Kant,Shchuchye"
-  },
-  {
     "name": "Vym",
     "i": 200838,
     "min": 4,
@@ -6338,7 +6329,7 @@ window.europeNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Brussels,Namur,Rosiere,Luxemburg,Champion,Dyckesville,Green Bay,Kewaunee,Algoma,Sturgeon Bay,Egg Harbor,Fish Creek,Sister Bay,Door County,Brown County,Kewaunee County,Sheboygan,Casco,Forestville,New Franken,Tonet,Maplewood,Gardner,Walloon,New Denmark"
+    "b": "Brussels,Namur,Rosiere,Luxemburg,Champion,Dyckesville,Green Bay,Kewaunee,Algoma,Sturgeon Bay,Egg Harbor,Fish Creek,Sister Bay,Sheboygan,Casco,Forestville,New Franken,Maplewood,Gardner,New Denmark,Baileys Harbor,Ephraim,Liberty Grove,Jacksonport,Ellison Bay,Gills Rock,Valmy,Institute,Carlsville,Juddville,Northport,Washington Island,Peninsula Center,Rowleys Bay,North Bay"
   },
   {
     "name": "Wymysorys",
