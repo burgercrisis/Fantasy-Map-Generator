@@ -2034,13 +2034,6 @@
     "family": "Chadic"
   },
   {
-    "name": "Kulung language (West Chadic)",
-    "iso": "kulung-west-chadic-language",
-    "region": "Africa",
-    "category": "Afroasiatic",
-    "family": "Chadic"
-  },
-  {
     "name": "Kunama",
     "iso": "kunama",
     "region": "Africa",
@@ -3047,14 +3040,6 @@
     "family": "Niger-Congo"
   },
   {
-    "name": "Samo (Burkina)",
-    "iso": "samo-burkina",
-    "region": "Africa",
-    "category": "Niger-Congo",
-    "wikipedia": "https://en.wikipedia.org/wiki/Samo_language_(Burkina)",
-    "family": "Mande"
-  },
-  {
     "name": "Samwe",
     "iso": "samwe",
     "region": "Africa",
@@ -3382,6 +3367,14 @@
     "region": "Africa",
     "category": "Niger-Congo",
     "family": "Niger-Congo"
+  },
+  {
+    "name": "Southern Samo",
+    "iso": "samo-burkina",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "wikipedia": "https://en.wikipedia.org/wiki/Samo_language_(Burkina)",
+    "family": "Mande"
   },
   {
     "name": "Standard Algerian Berber",
@@ -4145,6 +4138,13 @@
     "region": "Africa",
     "category": "Niger-Congo",
     "family": "Niger-Congo"
+  },
+  {
+    "name": "Wurkum",
+    "iso": "kulung-west-chadic-language",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Chadic"
   },
   {
     "name": "Wushi",
@@ -5465,7 +5465,7 @@
     "family": "South-Central Dravidian"
   },
   {
-    "name": "Chepang (ISO)",
+    "name": "Chepang",
     "iso": "cdm",
     "region": "Asia",
     "category": "Sino-Tibetan",
@@ -5888,6 +5888,13 @@
     "lexifier": "Malay"
   },
   {
+    "name": "Eastern Magar",
+    "iso": "mgp",
+    "region": "Asia",
+    "category": "Sino-Tibetan",
+    "family": "Magaric"
+  },
+  {
     "iso": "eastern-yugur",
     "name": "Eastern Yugur",
     "region": "Asia",
@@ -6213,7 +6220,7 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Ho_language"
   },
   {
-    "name": "Ho (Munda)",
+    "name": "Ho-Munda",
     "iso": "ho-munda",
     "region": "Asia",
     "category": "Austroasiatic",
@@ -7106,11 +7113,21 @@
     "family": "South-Central Dravidian"
   },
   {
-    "name": "Kulung",
+    "name": "Kulung (Kiranti)",
     "iso": "kle",
     "region": "Asia",
     "category": "Sino-Tibetan",
     "family": "Kiranti"
+  },
+  {
+    "name": "Kumal",
+    "iso": "kumhali",
+    "region": "Asia",
+    "category": "Indo-Aryan",
+    "family": "Indo-Aryan",
+    "tags": [
+      "alias"
+    ]
   },
   {
     "name": "Kumaoni",
@@ -7132,16 +7149,6 @@
     "region": "Asia",
     "category": "Indo-Aryan",
     "family": "Indo-Aryan"
-  },
-  {
-    "name": "Kumhali (alias)",
-    "iso": "kumhali",
-    "region": "Asia",
-    "category": "Indo-Aryan",
-    "family": "Indo-Aryan",
-    "tags": [
-      "alias"
-    ]
   },
   {
     "name": "Kundal Shahi",
@@ -7442,13 +7449,6 @@
     "category": "Indo-Aryan",
     "wikipedia": "https://en.wikipedia.org/wiki/Magahi_language",
     "family": "Bihari"
-  },
-  {
-    "name": "Magar (Dhut)",
-    "iso": "mgp",
-    "region": "Asia",
-    "category": "Sino-Tibetan",
-    "family": "Magaric"
   },
   {
     "name": "Magar Kham",
@@ -24115,7 +24115,7 @@
     "family": "Engan"
   },
   {
-    "name": "Samo",
+    "name": "Samo (Papua New Guinea)",
     "iso": "samo",
     "region": "Pacific",
     "category": "Papuan",
@@ -25298,13 +25298,6 @@
     "family": "Burmish"
   },
   {
-    "name": "Chepang",
-    "iso": "chepang",
-    "region": "Sino-Tibetan region",
-    "category": "Sino-Tibetan",
-    "family": "Sino-Tibetan"
-  },
-  {
     "name": "Chepangic",
     "iso": "chepangic",
     "region": "Sino-Tibetan region",
@@ -25417,6 +25410,13 @@
     "region": "Sino-Tibetan region",
     "category": "Sino-Tibetan",
     "wikipedia": "https://en.wikipedia.org/wiki/Gongduk_language",
+    "family": "Sino-Tibetan"
+  },
+  {
+    "name": "Greater Chepang",
+    "iso": "chepang",
+    "region": "Sino-Tibetan region",
+    "category": "Sino-Tibetan",
     "family": "Sino-Tibetan"
   },
   {
@@ -25710,7 +25710,7 @@
     "family": "Sino-Tibetan"
   },
   {
-    "name": "Magar",
+    "name": "Magar (broad)",
     "iso": "magar",
     "region": "Sino-Tibetan region",
     "category": "Sino-Tibetan",

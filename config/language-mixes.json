@@ -1,64 +1,5 @@
 [
   {
-    "name": "Damal",
-    "iso": "uhn",
-    "region": "Pacific",
-    "category": "Papuan",
-    "family": "Trans-New Guinea",
-    "wikipedia": "https://en.wikipedia.org/wiki/Damal_language"
-  },
-  {
-    "name": "Dem",
-    "iso": "dem",
-    "region": "Pacific",
-    "category": "Papuan",
-    "family": "Trans-New Guinea",
-    "wikipedia": "https://en.wikipedia.org/wiki/Dem_language"
-  },
-  {
-    "name": "Dibiyaso",
-    "iso": "dby",
-    "region": "Pacific",
-    "category": "Papuan",
-    "family": "Bosavi",
-    "wikipedia": "https://en.wikipedia.org/wiki/Dibiyaso_language"
-  },
-  {
-    "name": "Guriaso",
-    "iso": "grx",
-    "region": "Pacific",
-    "category": "Papuan",
-    "family": "Kwomtari",
-    "wikipedia": "https://en.wikipedia.org/wiki/Guriaso_language"
-  },
-  {
-    "name": "Kaki Ae",
-    "iso": "tbd",
-    "region": "Pacific",
-    "category": "Papuan",
-    "family": "Eleman",
-    "wikipedia": "https://en.wikipedia.org/wiki/Kaki_Ae_language"
-  },
-  {
-    "name": "Karami",
-    "iso": "xar",
-    "region": "Pacific",
-    "category": "Papuan",
-    "family": "Lengu",
-    "wikipedia": "https://en.wikipedia.org/wiki/Karami_language",
-    "tags": [
-      "extinct"
-    ]
-  },
-  {
-    "name": "Kehu",
-    "iso": "khh",
-    "region": "Pacific",
-    "category": "Papuan",
-    "family": "Language Isolate",
-    "wikipedia": "https://en.wikipedia.org/wiki/Kehu_language"
-  },
-  {
     "name": "Abon",
     "iso": "abon",
     "region": "Africa",
@@ -2088,13 +2029,6 @@
     "family": "Chadic"
   },
   {
-    "name": "Wurkum",
-    "iso": "kulung-west-chadic-language",
-    "region": "Africa",
-    "category": "Afroasiatic",
-    "family": "Chadic"
-  },
-  {
     "name": "Kunama",
     "iso": "kunama",
     "region": "Africa",
@@ -3101,14 +3035,6 @@
     "family": "Niger-Congo"
   },
   {
-    "name": "Southern Samo",
-    "iso": "samo-burkina",
-    "region": "Africa",
-    "category": "Niger-Congo",
-    "wikipedia": "https://en.wikipedia.org/wiki/Samo_language_(Burkina)",
-    "family": "Mande"
-  },
-  {
     "name": "Samwe",
     "iso": "samwe",
     "region": "Africa",
@@ -3436,6 +3362,14 @@
     "region": "Africa",
     "category": "Niger-Congo",
     "family": "Niger-Congo"
+  },
+  {
+    "name": "Southern Samo",
+    "iso": "samo-burkina",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "wikipedia": "https://en.wikipedia.org/wiki/Samo_language_(Burkina)",
+    "family": "Mande"
   },
   {
     "name": "Standard Algerian Berber",
@@ -4199,6 +4133,13 @@
     "region": "Africa",
     "category": "Niger-Congo",
     "family": "Niger-Congo"
+  },
+  {
+    "name": "Wurkum",
+    "iso": "kulung-west-chadic-language",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Chadic"
   },
   {
     "name": "Wushi",
@@ -5942,6 +5883,13 @@
     "lexifier": "Malay"
   },
   {
+    "name": "Eastern Magar",
+    "iso": "mgp",
+    "region": "Asia",
+    "category": "Sino-Tibetan",
+    "family": "Magaric"
+  },
+  {
     "iso": "eastern-yugur",
     "name": "Eastern Yugur",
     "region": "Asia",
@@ -7167,6 +7115,16 @@
     "family": "Kiranti"
   },
   {
+    "name": "Kumal",
+    "iso": "kumhali",
+    "region": "Asia",
+    "category": "Indo-Aryan",
+    "family": "Indo-Aryan",
+    "tags": [
+      "alias"
+    ]
+  },
+  {
     "name": "Kumaoni",
     "iso": "kfy",
     "region": "Asia",
@@ -7186,16 +7144,6 @@
     "region": "Asia",
     "category": "Indo-Aryan",
     "family": "Indo-Aryan"
-  },
-  {
-    "name": "Kumal",
-    "iso": "kumhali",
-    "region": "Asia",
-    "category": "Indo-Aryan",
-    "family": "Indo-Aryan",
-    "tags": [
-      "alias"
-    ]
   },
   {
     "name": "Kundal Shahi",
@@ -7496,13 +7444,6 @@
     "category": "Indo-Aryan",
     "wikipedia": "https://en.wikipedia.org/wiki/Magahi_language",
     "family": "Bihari"
-  },
-  {
-    "name": "Eastern Magar",
-    "iso": "mgp",
-    "region": "Asia",
-    "category": "Sino-Tibetan",
-    "family": "Magaric"
   },
   {
     "name": "Magar Kham",
@@ -16852,6 +16793,13 @@
     "family": "Western South Slavic"
   },
   {
+    "name": "Sercquiais",
+    "iso": "sercquiais",
+    "category": "Unclassified",
+    "family": "Unclassified",
+    "region": "Europe"
+  },
+  {
     "name": "Sicilian",
     "iso": "sicilian",
     "region": "Europe",
@@ -21221,11 +21169,27 @@
     "family": "Kainantu–Goroka"
   },
   {
+    "name": "Abinomn",
+    "iso": "bsa",
+    "region": "Pacific",
+    "category": "Papuan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Abinomn_language",
+    "family": "Isolate"
+  },
+  {
     "name": "Abui",
     "iso": "abui",
     "region": "Pacific",
     "category": "Papuan",
     "family": "Alor–Pantar"
+  },
+  {
+    "name": "Abun",
+    "iso": "kgr",
+    "region": "Pacific",
+    "category": "Papuan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Abun_language",
+    "family": "Isolate"
   },
   {
     "name": "Adang",
@@ -21290,12 +21254,28 @@
     ]
   },
   {
+    "name": "Ambakich",
+    "iso": "aab",
+    "region": "Pacific",
+    "category": "Papuan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ambakich_language",
+    "family": "Sepik"
+  },
+  {
     "name": "Amis",
     "iso": "ami",
     "region": "Pacific",
     "category": "Austronesian",
     "family": "Formosan",
     "wikipedia": "https://en.wikipedia.org/wiki/Amis_language"
+  },
+  {
+    "name": "Anem",
+    "iso": "anz",
+    "region": "Pacific",
+    "category": "Papuan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Anem_language",
+    "family": "Isolate"
   },
   {
     "name": "Aneme Wake",
@@ -21336,6 +21316,14 @@
     "family": "Angan"
   },
   {
+    "name": "Ap Ma",
+    "iso": "kbx",
+    "region": "Pacific",
+    "category": "Papuan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ap_Ma_language",
+    "family": "Keram"
+  },
+  {
     "name": "Ari",
     "iso": "ari",
     "region": "Pacific",
@@ -21351,6 +21339,14 @@
     "tags": [
       "family"
     ]
+  },
+  {
+    "name": "Asabano",
+    "iso": "saj",
+    "region": "Pacific",
+    "category": "Papuan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Asabano_language",
+    "family": "Isolate"
   },
   {
     "name": "Asmat",
@@ -21602,6 +21598,14 @@
     "family": "Goilalan"
   },
   {
+    "name": "Bilua",
+    "iso": "blb",
+    "region": "Pacific",
+    "category": "Papuan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Bilua_language",
+    "family": "Central Solomons"
+  },
+  {
     "name": "Bima",
     "iso": "bima",
     "region": "Pacific",
@@ -21708,6 +21712,14 @@
     "family": "Anim"
   },
   {
+    "name": "Bogaya",
+    "iso": "boq",
+    "region": "Pacific",
+    "category": "Papuan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Bogaya_language",
+    "family": "Isolate"
+  },
+  {
     "name": "Bonin English",
     "iso": "bonin-english",
     "region": "Pacific",
@@ -21766,6 +21778,14 @@
     "region": "Pacific",
     "category": "Austronesian",
     "family": "Austronesian"
+  },
+  {
+    "name": "Burmeso",
+    "iso": "bmu",
+    "region": "Pacific",
+    "category": "Papuan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Burmeso_language",
+    "family": "Isolate"
   },
   {
     "name": "Burumakok",
@@ -21936,6 +21956,14 @@
     "family": "Southeast Papuan"
   },
   {
+    "name": "Damal",
+    "iso": "uhn",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Trans-New Guinea",
+    "wikipedia": "https://en.wikipedia.org/wiki/Damal_language"
+  },
+  {
     "name": "Dani",
     "iso": "dani",
     "region": "Pacific",
@@ -21950,11 +21978,27 @@
     "family": "Kainantu–Goroka"
   },
   {
+    "name": "Dem",
+    "iso": "dem",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Trans-New Guinea",
+    "wikipedia": "https://en.wikipedia.org/wiki/Dem_language"
+  },
+  {
     "name": "Densar",
     "iso": "densar",
     "region": "Pacific",
     "category": "Papuan",
     "family": "Bayono–Awbono"
+  },
+  {
+    "name": "Dibiyaso",
+    "iso": "dby",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Bosavi",
+    "wikipedia": "https://en.wikipedia.org/wiki/Dibiyaso_language"
   },
   {
     "name": "Dima",
@@ -22054,6 +22098,14 @@
     "region": "Pacific",
     "category": "Papuan",
     "family": "Paniai Lakes"
+  },
+  {
+    "name": "Elseng",
+    "iso": "mrf",
+    "region": "Pacific",
+    "category": "Papuan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Elseng_language",
+    "family": "Isolate"
   },
   {
     "name": "Enga",
@@ -22348,6 +22400,14 @@
     ]
   },
   {
+    "name": "Guriaso",
+    "iso": "grx",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Kwomtari",
+    "wikipedia": "https://en.wikipedia.org/wiki/Guriaso_language"
+  },
+  {
     "name": "Hagen",
     "iso": "hagen",
     "region": "Pacific",
@@ -22564,6 +22624,14 @@
     ]
   },
   {
+    "name": "Kaki Ae",
+    "iso": "tbd",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Eleman",
+    "wikipedia": "https://en.wikipedia.org/wiki/Kaki_Ae_language"
+  },
+  {
     "name": "Kalamian",
     "iso": "kalamian",
     "region": "Pacific",
@@ -22657,6 +22725,25 @@
     "family": "Kainantu–Goroka"
   },
   {
+    "name": "Kapauri",
+    "iso": "khp",
+    "region": "Pacific",
+    "category": "Papuan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Kapori_language",
+    "family": "Kwerbic"
+  },
+  {
+    "name": "Karami",
+    "iso": "xar",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Lengu",
+    "wikipedia": "https://en.wikipedia.org/wiki/Karami_language",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
     "name": "Karas",
     "iso": "karas",
     "region": "Pacific",
@@ -22715,6 +22802,14 @@
     "region": "Pacific",
     "category": "Papuan",
     "family": "Kainantu–Goroka"
+  },
+  {
+    "name": "Kehu",
+    "iso": "khh",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Language Isolate",
+    "wikipedia": "https://en.wikipedia.org/wiki/Kehu_language"
   },
   {
     "name": "Kei-Tanimbar",
@@ -22962,6 +23057,14 @@
     "family": "Goilalan"
   },
   {
+    "name": "Kuot",
+    "iso": "kto",
+    "region": "Pacific",
+    "category": "Papuan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Kuot_language",
+    "family": "Isolate"
+  },
+  {
     "name": "Kutubuan languages",
     "iso": "kutubuan-languages",
     "region": "Pacific",
@@ -23057,6 +23160,14 @@
     "region": "Pacific",
     "category": "Austronesian",
     "family": "Formosan"
+  },
+  {
+    "name": "Maibrat",
+    "iso": "ayz",
+    "region": "Pacific",
+    "category": "Papuan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Maibrat_language",
+    "family": "West Papuan"
   },
   {
     "name": "Mailu",
@@ -23308,6 +23419,14 @@
     "family": "Paniai Lakes"
   },
   {
+    "name": "Mor",
+    "iso": "mhz",
+    "region": "Pacific",
+    "category": "Papuan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Mor_language_(Papuan)",
+    "family": "Trans-New Guinea"
+  },
+  {
     "name": "Moraori",
     "iso": "moraori",
     "region": "Pacific",
@@ -23349,6 +23468,14 @@
     "region": "Pacific",
     "category": "Papuan",
     "family": "Southeast Papuan"
+  },
+  {
+    "name": "Mpur",
+    "iso": "akc",
+    "region": "Pacific",
+    "category": "Papuan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Mpur_language",
+    "family": "West Papuan"
   },
   {
     "name": "Mubami",
@@ -24809,13 +24936,6 @@
     "family": "Austronesian"
   },
   {
-    "name": "Sercquiais",
-    "iso": "sercquiais",
-    "category": "Unclassified",
-    "family": "Unclassified",
-    "region": "Europe"
-  },
-  {
     "name": "Alyutor",
     "iso": "alyutor",
     "region": "Siberia",
@@ -25173,13 +25293,6 @@
     "family": "Burmish"
   },
   {
-    "name": "Greater Chepang",
-    "iso": "chepang",
-    "region": "Sino-Tibetan region",
-    "category": "Sino-Tibetan",
-    "family": "Sino-Tibetan"
-  },
-  {
     "name": "Chepangic",
     "iso": "chepangic",
     "region": "Sino-Tibetan region",
@@ -25292,6 +25405,13 @@
     "region": "Sino-Tibetan region",
     "category": "Sino-Tibetan",
     "wikipedia": "https://en.wikipedia.org/wiki/Gongduk_language",
+    "family": "Sino-Tibetan"
+  },
+  {
+    "name": "Greater Chepang",
+    "iso": "chepang",
+    "region": "Sino-Tibetan region",
+    "category": "Sino-Tibetan",
     "family": "Sino-Tibetan"
   },
   {
@@ -27838,125 +27958,5 @@
     "category": "Iranian",
     "wikipedia": "https://en.wikipedia.org/wiki/Persian_language",
     "family": "Iranian"
-  },
-  {
-    "name": "Abinomn",
-    "iso": "bsa",
-    "region": "Pacific",
-    "category": "Papuan",
-    "wikipedia": "https://en.wikipedia.org/wiki/Abinomn_language",
-    "family": "Isolate"
-  },
-  {
-    "name": "Abun",
-    "iso": "kgr",
-    "region": "Pacific",
-    "category": "Papuan",
-    "wikipedia": "https://en.wikipedia.org/wiki/Abun_language",
-    "family": "Isolate"
-  },
-  {
-    "name": "Anem",
-    "iso": "anz",
-    "region": "Pacific",
-    "category": "Papuan",
-    "wikipedia": "https://en.wikipedia.org/wiki/Anem_language",
-    "family": "Isolate"
-  },
-  {
-    "name": "Bilua",
-    "iso": "blb",
-    "region": "Pacific",
-    "category": "Papuan",
-    "wikipedia": "https://en.wikipedia.org/wiki/Bilua_language",
-    "family": "Central Solomons"
-  },
-  {
-    "name": "Kuot",
-    "iso": "kto",
-    "region": "Pacific",
-    "category": "Papuan",
-    "wikipedia": "https://en.wikipedia.org/wiki/Kuot_language",
-    "family": "Isolate"
-  },
-  {
-    "name": "Ambakich",
-    "iso": "aab",
-    "region": "Pacific",
-    "category": "Papuan",
-    "wikipedia": "https://en.wikipedia.org/wiki/Ambakich_language",
-    "family": "Sepik"
-  },
-  {
-    "name": "Ap Ma",
-    "iso": "kbx",
-    "region": "Pacific",
-    "category": "Papuan",
-    "wikipedia": "https://en.wikipedia.org/wiki/Ap_Ma_language",
-    "family": "Keram"
-  },
-  {
-    "name": "Asabano",
-    "iso": "saj",
-    "region": "Pacific",
-    "category": "Papuan",
-    "wikipedia": "https://en.wikipedia.org/wiki/Asabano_language",
-    "family": "Isolate"
-  },
-  {
-    "name": "Bogaya",
-    "iso": "boq",
-    "region": "Pacific",
-    "category": "Papuan",
-    "wikipedia": "https://en.wikipedia.org/wiki/Bogaya_language",
-    "family": "Isolate"
-  },
-  {
-    "name": "Burmeso",
-    "iso": "bmu",
-    "region": "Pacific",
-    "category": "Papuan",
-    "wikipedia": "https://en.wikipedia.org/wiki/Burmeso_language",
-    "family": "Isolate"
-  },
-  {
-    "name": "Mpur",
-    "iso": "akc",
-    "region": "Pacific",
-    "category": "Papuan",
-    "wikipedia": "https://en.wikipedia.org/wiki/Mpur_language",
-    "family": "West Papuan"
-  },
-  {
-    "name": "Maibrat",
-    "iso": "ayz",
-    "region": "Pacific",
-    "category": "Papuan",
-    "wikipedia": "https://en.wikipedia.org/wiki/Maibrat_language",
-    "family": "West Papuan"
-  },
-  {
-    "name": "Mor",
-    "iso": "mhz",
-    "region": "Pacific",
-    "category": "Papuan",
-    "wikipedia": "https://en.wikipedia.org/wiki/Mor_language_(Papuan)",
-    "family": "Trans-New Guinea"
-  },
-  {
-    "name": "Elseng",
-    "iso": "mrf",
-    "region": "Pacific",
-    "category": "Papuan",
-    "wikipedia": "https://en.wikipedia.org/wiki/Elseng_language",
-    "family": "Isolate"
-  },
-  {
-    "name": "Kapauri",
-    "iso": "khp",
-    "region": "Pacific",
-    "category": "Papuan",
-    "wikipedia": "https://en.wikipedia.org/wiki/Kapori_language",
-    "family": "Kwerbic"
   }
 ]

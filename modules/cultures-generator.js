@@ -159,15 +159,14 @@ window.Cultures = (function () {
       const config = window.languageMixerCultureSets && window.languageMixerCultureSets[cultureSet];
       if (!config) return catalog.filter(l => l && l.iso && !(l.tags && l.tags.includes("family")));
 
-      const { categories, families, regions } = config;
-      const hasFilter = (categories && categories.length) || (families && families.length) || (regions && regions.length);
+      const { categories, families } = config;
+      const hasFilter = (categories && categories.length) || (families && families.length);
 
       // No filters = full catalog (world, random)
       if (!hasFilter) return catalog.filter(l => l && l.iso && !(l.tags && l.tags.includes("family")));
 
       const catSet = new Set((categories || []).map(c => c.toLowerCase()));
       const famSet = new Set((families || []).map(f => f.toLowerCase()));
-      const regSet = new Set((regions || []).map(r => r.toLowerCase()));
 
       return catalog.filter(l => {
         if (!l || !l.iso) return false;
@@ -175,11 +174,9 @@ window.Cultures = (function () {
 
         const cat = (l.category || "").toLowerCase();
         const fam = (l.family || "").toLowerCase();
-        const reg = (l.region || "").toLowerCase();
 
         if (catSet.size && catSet.has(cat)) return true;
         if (famSet.size && famSet.has(fam)) return true;
-        if (regSet.size && regSet.has(reg)) return true;
         return false;
       });
     };
