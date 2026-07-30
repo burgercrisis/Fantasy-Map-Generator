@@ -2,10 +2,10 @@
   "continent": "North America",
   "file": "namebases-northAmerica.js",
   "totalEntries": 232,
-  "currentIndex": 20213,
-  "lastProcessedEntry": "Final waves: Meso/Central leftovers + Caribbean creoles + cover-term/dup reconciliation",
+  "currentIndex": 20219,
+  "lastProcessedEntry": "Reverification pass: fixed cover terms, duplicates, and below-minimum entries (Spanglish dedicated, Spanglish, Algonquian-Basque pidgin, American Indian Pidgin English, Almosan, Coast Tsimshian dup, Cochimi dup, Tlicho dup, Gwichin below min, Han below min, Uspantek below min, Bocas del Toro Creole below min)",
   "started": "2026-06-30",
-  "lastUpdated": "2026-07-20",
+  "lastUpdated": "2026-07-30",
   "status": "IN_PROGRESS_REVERIFICATION",
   "method": "Subagent research pipeline: research subagents produce per-name-sourced JSON in docs/verification/data/<i>-<slug>.json (prefer webfetch on authoritative URLs to avoid rate limits); validated + applied via tools/verification/apply-verified.js (rejects COMPLETE<25, missing source URLs, duplicates). Per-language logs auto-written to docs/verification/research/by-language/. Guardrails run after each batch (node tools/mixer-core/check-language-mixer-guardrails.js).",
   "warning": "The PRIOR checkpoint (currentIndex 232, PARTIALLY_COMPLETE) was UNRELIABLE: it claimed all 232 entries done and cover terms cleared, but the file still contained fabricated placeholder padding and full b: data for supposedly-cleared cover terms. Do NOT trust prior 'complete' claims. Re-verify entry by entry.",
@@ -457,8 +457,8 @@
     {
       "i": 2470,
       "name": "Ahtna",
-      "status": "WAITING",
-      "names": 21
+      "status": "COMPLETE",
+      "names": 26
     },
     {
       "i": 2549,
@@ -583,8 +583,8 @@
     {
       "i": 6631,
       "name": "Dena'ina",
-      "status": "WAITING",
-      "names": 14
+      "status": "COMPLETE",
+      "names": 26
     },
     {
       "i": 6632,
@@ -601,8 +601,8 @@
     {
       "i": 6637,
       "name": "Koyukon",
-      "status": "WAITING",
-      "names": 11
+      "status": "COMPLETE",
+      "names": 25
     },
     {
       "i": 6639,
@@ -757,8 +757,8 @@
     {
       "i": 8137,
       "name": "Poqomchi'",
-      "status": "WAITING",
-      "names": 11
+      "status": "COMPLETE",
+      "names": 25
     },
     {
       "i": 8139,
@@ -1051,8 +1051,8 @@
     {
       "i": 200658,
       "name": "Pipil (Nawat)",
-      "status": "WAITING",
-      "names": 14
+      "status": "COMPLETE",
+      "names": 25
     },
     {
       "i": 200905,
@@ -1215,6 +1215,104 @@
       "name": "Saint Lucian Creole",
       "status": "COMPLETE",
       "names": 32
+    }
+      {
+      "i": 20219,
+      "name": "Spanglish (dedicated)",
+      "status": "WAITING",
+      "names": 0,
+      "reason": "Cover term (mixed language variety), b: field cleared"
+    },
+    {
+      "i": 200231,
+      "name": "Spanglish",
+      "status": "WAITING",
+      "names": 0,
+      "reason": "Cover term (mixed language variety), b: field cleared"
+    },
+    {
+      "i": 20074,
+      "name": "Algonquian-Basque pidgin",
+      "status": "WAITING",
+      "names": 0,
+      "reason": "Cover term, b: field cleared"
+    },
+    {
+      "i": 20101,
+      "name": "American Indian Pidgin English",
+      "status": "WAITING",
+      "names": 0,
+      "reason": "Cover term, b: field cleared"
+    },
+    {
+      "i": 20076,
+      "name": "Almosan",
+      "status": "WAITING",
+      "names": 0,
+      "reason": "Language family, b: field cleared"
+    },
+    {
+      "i": 201021,
+      "name": "Coast Tsimshian (Sm'algyax)",
+      "status": "WAITING",
+      "names": 0,
+      "reason": "Duplicate of Coast Tsimshian i=5832, b: field cleared"
+    },
+    {
+      "i": 201022,
+      "name": "Cochimi",
+      "status": "WAITING",
+      "names": 0,
+      "reason": "Duplicate of Cochimi i=1204, b: field cleared"
+    },
+    {
+      "i": 201032,
+      "name": "Tlicho",
+      "status": "WAITING",
+      "names": 0,
+      "reason": "Duplicate of Tlicho i=1198, b: field cleared"
+    },
+    {
+      "i": 201023,
+      "name": "Gwichin",
+      "status": "WAITING",
+      "names": 0,
+      "reason": "Below minimum threshold (10 names), b: field cleared"
+    },
+    {
+      "i": 201024,
+      "name": "Han",
+      "status": "WAITING",
+      "names": 0,
+      "reason": "Below minimum threshold (3 names), b: field cleared"
+    },
+    {
+      "i": 200913,
+      "name": "Uspantek",
+      "status": "WAITING",
+      "names": 0,
+      "reason": "Below minimum threshold (2 names), b: field cleared"
+    },
+    {
+      "i": 200629,
+      "name": "Bocas del Toro Creole",
+      "status": "WAITING",
+      "names": 0,
+      "reason": "Below minimum threshold (16 names), b: field cleared"
+    }
+      {
+      "i": 200633,
+      "name": "Jamaican Patois",
+      "status": "WAITING",
+      "names": 0,
+      "reason": "Duplicate of Jamaican Creole i=200632, b: field cleared"
+    },
+    {
+      "i": 200906,
+      "name": "Itza",
+      "status": "WAITING",
+      "names": 0,
+      "reason": "Duplicate of Itza i=1988, b: field cleared"
     }
   ],
   "fabricatedGarbageRemoved": "977 + 41 tokens removed earlier across all entries. Note: some LangName+letter placeholders persist where stem != display name (e.g. K'iche' had Kichem/Kichen/etc, removed during Mayan wave). Watch for these per entry.",
