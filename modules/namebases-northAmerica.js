@@ -1649,10 +1649,10 @@ window.northAmericaNameBases = [
     "name": "Bocas del Toro Creole",
     "i": 200629,
     "min": 4,
-    "max": 12,
+    "max": 15,
     "d": "lnrt",
     "m": 0,
-    "b": "Bocas Town,Almirante,Changuinola,Isla Colón,Isla Bastimentos,Carenero,Old Bank,Isla Popa,Isla Solarte,Bahá,Cacao Abajo,Cacao Arriba,Ojo de Agua,La Milpa,Big Creek,Colon"
+    "b": "Bocas Town,Almirante,Changuinola,Isla Colon,Isla Bastimentos,Carenero,Old Bank,Isla Popa,Isla Solarte,Ojo de Agua"
   },
   {
     "name": "Grenadian Creole English",
@@ -1784,10 +1784,10 @@ window.northAmericaNameBases = [
     "name": "Pipil (Nawat)",
     "i": 200658,
     "min": 4,
-    "max": 14,
+    "max": 22,
     "d": "lnrt",
     "m": 0.1,
-    "b": "Sonsonate,Ahuachapan,Santa Ana,Cojutepeque,Tacuba,Panchimalco,Ilopango,Soyapango,Mejicanos,San Salvador,San Martin,Opico,Quezaltepeque,Armenia,Metapan,Chalchuapa,Cihuatec,Joya de Cerren,Tazumal,San Vicente,Usulutan,Berlin,Jiquilisco,Puerto El Triunfo,Acajutla"
+    "b": "Sonsonate,Ahuachapan,Santa Ana,Tacuba,Panchimalco,Acajutla,Nahuizalco,Izalco,Cuisnahuat,Santo Domingo de Guzman,Jicalapa,Teotepeque,Caluco,Nahulingo,Metapan,Chalchuapa"
   },
   {
     "name": "Ch'ol",
@@ -1858,7 +1858,7 @@ window.northAmericaNameBases = [
     "max": 14,
     "d": "",
     "m": 0,
-    "b": "Las Margaritas,Comitan,La Trinitaria,La Independencia,Las Rosas"
+    "b": "Las Margaritas,Comitan,La Trinitaria,La Independencia"
   },
   {
     "name": "Trique",
@@ -1984,7 +1984,7 @@ window.northAmericaNameBases = [
     "max": 14,
     "d": "lnrt",
     "m": 0,
-    "b": "Tanacross,Tok,Dot Lake,Healy Lake,Northway,Nabesna,Dihthâad,Saages Cheeg,Mendees Cheeg,Kelt'aaddh Menn'"
+    "b": "Tanacross,Tok,Dot Lake,Healy Lake,Dihthâad,Saages Cheeg,Mendees Cheeg,Kelt'aaddh Menn'"
   },
   {
     "name": "Tłįchǫ",
@@ -2002,7 +2002,7 @@ window.northAmericaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Uintah,Ouray,Fort Duchesne,Roosevelt,Myton,Vernal,Moab,Price,Delta,Richfield,Braddock,Ephraim,Colorado,Navajo,Paiute,Goshute,Shoshone,Bannock,Comanche,Kiowa,Apache,Cheyenne,Arapaho,Wind River,White Mesa,Blanding,Monticello,Bluff,Aneth,Mexican Hat,Navajo Mountain,Kayenta,Chinle,Tuba City,Page,Kanab,Cedar City,St. George,Whiterocks,Randlett,Towaoc,Ignacio,Mancos,Durango"
+    "b": "Uintah,Ouray,Fort Duchesne,Roosevelt,Myton,Vernal,Moab,Price,Delta,Richfield,Braddock,Ephraim,White Mesa,Blanding,Monticello,Bluff,Aneth,Mexican Hat,Whiterocks,Randlett,Towaoc,Ignacio,Mancos"
   },
   {
     "name": "Wiyot",
@@ -2011,7 +2011,7 @@ window.northAmericaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Tuluwat,Bear River,Blue Lake,Fields Landing,Samoa,Mad River,Elk River,Freshwater,Van Duzen River,Mattole,Shelter Cove,Briceland,Weitchpec,Hoopa,Algula,Olague,Ke'pel,Tsurai,Erner,Rekwoi,O'men,Tsupu,Sregon,Wohkro,Hookton,Salt River,Indianola,Humboldt Bay,Francis Creek,Loleta,Table Bluff,Eureka"
+    "b": "Tuluwat,Bear River,Blue Lake,Fields Landing,Samoa,Mad River,Elk River,Freshwater,Van Duzen River,Shelter Cove,Briceland,Weitchpec,Algula,Olague,Ke'pel,Tsurai,Erner,Rekwoi,O'men,Tsupu,Sregon,Wohkro,Hookton,Salt River,Indianola,Humboldt Bay,Francis Creek,Loleta,Table Bluff,Eureka"
   },
   {
     "name": "Yurok",
@@ -2020,7 +2020,7 @@ window.northAmericaNameBases = [
     "max": 10,
     "d": "lnrt",
     "m": 0,
-    "b": "Klamath,Weitchpec,Hoopa,Trinidad,Orick,Requa,Ke'pel,Meta,Turip,Tsupu,Sregon,Wohkro,Erner,Rekwoi,O'men,Tsurai,Klerkel,Loleta,Table Bluff,Blue Lake,Widelpa,De-No-To,Kenek,Wa'tec,Opunyshan,Biago,Klamath River,Pecwan"
+    "b": "Weitchpec,Trinidad,Orick,Requa,Ke'pel,Meta,Turip,Tsupu,Sregon,Wohkro,Erner,Rekwoi,O'men,Tsurai,Klerkel,Loleta,Table Bluff,Blue Lake,Widelpa,De-No-To,Kenek,Wa'tec,Opunyshan,Biago,Pecwan"
   },
   {
     "name": "Zuni",
@@ -2029,7 +2029,7 @@ window.northAmericaNameBases = [
     "max": 15,
     "d": "lnrt",
     "m": 0,
-    "b": "Zuni,Black Rock,Ramah,Nutria,Pescado,Ojo Caliente,Bluewater,Fence Lake,Corn Mountain,Dowa Yalanne,Taaiyalone,Kolhu/wala:wa,Ahayu:da,Heshoda Yala:wat,Halona:wa,Kyakima,Binanne:wa,Bebilapitya,Kemna,Matsaki,Shopakia,He'nachi,Tekanthisa,Shupinna,Detsak,Thibede,Leyaladenkya,Pine Springs"
+    "b": "Zuni,Black Rock,Nutria,Pescado,Ojo Caliente,Bluewater,Corn Mountain,Dowa Yalanne,Taaiyalone,Kolhu/wala:wa,Ahayu:da,Heshoda Yala:wat,Halona:wa,Kyakima,Binanne:wa,Bebilapitya,Kemna,Matsaki,Shopakia,He'nachi,Tekanthisa,Shupinna,Detsak,Thibede,Leyaladenkya,Pine Springs"
   },
   {
     "name": "Dominican Creole French",
@@ -2065,7 +2065,7 @@ window.northAmericaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Clevelândia do Norte,Manga,Santa Cruz,Tartarugalzinho,Macapá,Santana,Mazagão,Ponta Pedras,Porto Grande,Serra Navio,Bailique,Curipi,Gurupá,Pracuúba,Arauanã,Mutum,Tiriyó,Amapá,Calçoene,Oiapoque,São José,Sucuriju,Munguba,Pirativa,São Francisco,Itamaraty,Anauerapucu,ESPERANTINA do Norte,São Joaquim,Trairão,Senador José Porfírio,Vitória do Jari,Laranjal do Jari,Aporema,Carmo,Cachoeirinha,Santa Irene"
+    "b": "Clevelândia do Norte,Manga,Santa Cruz,Tartarugalzinho,Macapá,Santana,Mazagão,Ponta Pedras,Porto Grande,Serra Navio,Bailique,Curipi,Gurupá,Pracuúba,Arauanã,Mutum,Amapá,Calçoene,Oiapoque,São José,Sucuriju,Munguba,Pirativa,São Francisco,Itamaraty,Anauerapucu,ESPERANTINA do Norte,São Joaquim,Vitória do Jari,Laranjal do Jari,Aporema,Carmo,Cachoeirinha,Santa Irene"
   },
   {
     "name": "Louisiana Creole",

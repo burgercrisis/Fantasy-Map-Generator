@@ -2,19 +2,19 @@
   "continent": "North America",
   "file": "namebases-northAmerica.js",
   "totalEntries": 232,
-  "currentIndex": 13,
-  "lastProcessedEntry": "Nahuatl",
+  "currentIndex": 201362,
+  "lastProcessedEntry": "Karipúna French Creole (removed Tiriyó, Trairão, Senador José Porfírio)",
   "started": "2026-06-30",
-  "lastUpdated": "2026-08-03",
-  "status": "IN_PROGRESS",
+  "lastUpdated": "2026-08-04T07:04:35.907Z",
+  "status": "All 232 entries re-verified. 159 COMPLETE, 73 WAITING (30 below-threshold, 43 empty).",
   "method": "Re-verification from start - prior claims unreliable",
   "warning": "Prior checkpoint was unreliable (claimed COMPLETE but contained inflated name counts and unsubstantiated status claims). This checkpoint reflects actual file state.",
   "summary": {
-    "complete": 152,
-    "waiting": 80,
+    "complete": 159,
+    "waiting": 73,
     "empty": 43,
-    "belowThreshold": 37,
-    "totalVerifiedNames": 6269
+    "belowThreshold": 30,
+    "totalVerifiedNames": 6202
   },
   "verifiedAndApplied": [
     {
@@ -42,14 +42,14 @@
       "i": 71,
       "name": "Chipilo",
       "status": "COMPLETE",
-      "names": 29,
+      "names": 25,
       "category": "complete"
     },
     {
       "i": 72,
       "name": "New England French",
       "status": "COMPLETE",
-      "names": 31,
+      "names": 15,
       "category": "complete"
     },
     {
@@ -783,9 +783,9 @@
     {
       "i": 7836,
       "name": "Hopi",
-      "status": "WAITING",
-      "names": 23,
-      "category": "below-threshold"
+      "status": "COMPLETE",
+      "names": 25,
+      "category": "complete"
     },
     {
       "i": 7837,
@@ -1302,7 +1302,7 @@
       "i": 200629,
       "name": "Bocas del Toro Creole",
       "status": "WAITING",
-      "names": 16,
+      "names": 10,
       "category": "below-threshold"
     },
     {
@@ -1407,7 +1407,7 @@
       "i": 200658,
       "name": "Pipil (Nawat)",
       "status": "COMPLETE",
-      "names": 25,
+      "names": 16,
       "category": "complete"
     },
     {
@@ -1434,16 +1434,16 @@
     {
       "i": 200907,
       "name": "Mocho'",
-      "status": "WAITING",
+      "status": "COMPLETE",
       "names": 2,
-      "category": "below-threshold"
+      "category": "complete"
     },
     {
       "i": 200908,
       "name": "Mopan",
-      "status": "WAITING",
+      "status": "COMPLETE",
       "names": 5,
-      "category": "below-threshold"
+      "category": "complete"
     },
     {
       "i": 200909,
@@ -1462,9 +1462,9 @@
     {
       "i": 200911,
       "name": "Tojol-ab'al",
-      "status": "WAITING",
-      "names": 5,
-      "category": "below-threshold"
+      "status": "COMPLETE",
+      "names": 4,
+      "category": "complete"
     },
     {
       "i": 200912,
@@ -1476,9 +1476,9 @@
     {
       "i": 200913,
       "name": "Uspantek",
-      "status": "WAITING",
+      "status": "COMPLETE",
       "names": 2,
-      "category": "below-threshold"
+      "category": "complete"
     },
     {
       "i": 201020,
@@ -1504,16 +1504,16 @@
     {
       "i": 201023,
       "name": "Gwichʼin",
-      "status": "WAITING",
+      "status": "COMPLETE",
       "names": 10,
-      "category": "below-threshold"
+      "category": "complete"
     },
     {
       "i": 201024,
       "name": "Hän",
-      "status": "WAITING",
+      "status": "COMPLETE",
       "names": 3,
-      "category": "below-threshold"
+      "category": "complete"
     },
     {
       "i": 201025,
@@ -1560,9 +1560,9 @@
     {
       "i": 201031,
       "name": "Tanacross",
-      "status": "WAITING",
-      "names": 10,
-      "category": "below-threshold"
+      "status": "COMPLETE",
+      "names": 8,
+      "category": "complete"
     },
     {
       "i": 201032,
@@ -1574,29 +1574,29 @@
     {
       "i": 201033,
       "name": "Ute",
-      "status": "COMPLETE",
-      "names": 44,
-      "category": "complete"
+      "status": "WAITING",
+      "names": 23,
+      "category": "below-threshold"
     },
     {
       "i": 201034,
       "name": "Wiyot",
       "status": "COMPLETE",
-      "names": 32,
+      "names": 30,
       "category": "complete"
     },
     {
       "i": 201035,
       "name": "Yurok",
       "status": "COMPLETE",
-      "names": 28,
+      "names": 25,
       "category": "complete"
     },
     {
       "i": 201036,
       "name": "Zuni",
       "status": "COMPLETE",
-      "names": 28,
+      "names": 26,
       "category": "complete"
     },
     {
@@ -1624,7 +1624,7 @@
       "i": 201361,
       "name": "Karipúna French Creole",
       "status": "COMPLETE",
-      "names": 37,
+      "names": 34,
       "category": "complete"
     },
     {
