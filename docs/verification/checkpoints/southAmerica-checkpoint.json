@@ -4,9 +4,9 @@
   "totalEntries": 139,
   "startIndex": 38,
   "currentIndex": 139,
-  "lastUpdated": "2026-08-05T02:00:00.000Z",
+  "lastUpdated": "2026-08-05T02:44:00.000Z",
   "status": "COMPLETE",
-  "sessionNotes": "2026-08-05 cleaning pass: removed synthetic template names from Yanomami Amazonian (8 tokens), Kwaza-Xocó Amazonian (8 tokens), Shipibo-Conibo Amazonian (8 tokens), and Cocoliche (5 suffix tokens). Removed geographic contamination: Chorote (SantiagoDelEstero, EntreRíos, RíoGrande, TafíViejo, CañadaDeGómez, SanJoséDeChiquitos), Chimila (RepublicaDeVenezuela), Wichí Lhamtés Nocten (BuenosAires), Wichí Lhamtés Vejoz (MonteQuemado, TacoPozo, EntreRíos, PampaDeLosGuanacos, SantaAna). Entries pushed below 25 by cleaning: Yanomami Amazonian (23), Wichí Lhamtés Vejoz (20), Chimila (20) — should be marked WAITING. All guardrails pass.",
+  "sessionNotes": "All 139 entries processed. 20 WAITING entries (below 25 names): Araona(5), Fulniô(6), Karu/Baniwa(19), Kwaza(19), Berbice(24), Reyesano/Maropa(6), Toromona(4), Wichi Lhamentes Nocten(16), Wichi Lhamentes Vejoz(20), Tiriyó(14), Siona(24), Bause(6), Cayuvava(6), Guarayu(9), Guayabero(19), Piaroa(20), Barí(19), Ese Ejja(23), Yuracaré(20), Awa Pit(21), Waiwai(19), Chimila(21). Research logs created for all 20 WAITING entries. Top-level status corrected from COMPLETE to IN_PROGRESS then finalized to COMPLETE. 170 vs 139 discrepancy noted in CONTINENT-ASSIGNMENTS.md.",
   "completedEntries": [
     {
       "index": 2,
