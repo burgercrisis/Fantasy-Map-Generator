@@ -4,8 +4,9 @@
   "totalEntries": 139,
   "startIndex": 38,
   "currentIndex": 139,
-  "lastUpdated": "2026-07-20T10:01:15.712Z",
+  "lastUpdated": "2026-08-05T02:00:00.000Z",
   "status": "COMPLETE",
+  "sessionNotes": "2026-08-05 cleaning pass: removed synthetic template names from Yanomami Amazonian (8 tokens), Kwaza-Xocó Amazonian (8 tokens), Shipibo-Conibo Amazonian (8 tokens), and Cocoliche (5 suffix tokens). Removed geographic contamination: Chorote (SantiagoDelEstero, EntreRíos, RíoGrande, TafíViejo, CañadaDeGómez, SanJoséDeChiquitos), Chimila (RepublicaDeVenezuela), Wichí Lhamtés Nocten (BuenosAires), Wichí Lhamtés Vejoz (MonteQuemado, TacoPozo, EntreRíos, PampaDeLosGuanacos, SantaAna). Entries pushed below 25 by cleaning: Yanomami Amazonian (23), Wichí Lhamtés Vejoz (20), Chimila (20) — should be marked WAITING. All guardrails pass.",
   "completedEntries": [
     {
       "index": 2,
@@ -36,10 +37,10 @@
     {
       "index": 8,
       "name": "Chorote",
-      "status": "COMPLETE",
+      "status": "WAITING",
       "appliedThisSession": true,
-      "namesNow": 77,
-      "notes": "Chorote (Mataco-Guaicuru), W-Argentina (Salta/Formosa/Jujuy) + Bolivia (Tarija) + Paraguay border. KEPT all real W-Argentina/Bolivia/Paraguay towns plus real Chorote communities (Yofuaha, Lumnanas, Inkijwas, Iyojwa, Iyowujwa, Manjuy, Choroti). DROPPED synthetic machine tokens (Apedpa, Anomgu, Apurpa, Abibpa, Alemgu, Aluggu, Afonpa, Abospa, Adedgu, Alimpa, Aputpa, Afiggu, Alepa, Akabgu, Apakgu, Cho",
+      "namesNow": 55,
+      "notes": "Chorote (Mataco-Guaicuru), W-Argentina (Salta/Formosa/Jujuy) + Bolivia (Tarija) + Paraguay border. 2026-08-05 cleaning: removed Peruvian/Santiago del Estero/Tucumán contamination (TafíViejo, CañadaDeGómez, SantiagoDelEstero, EntreRíos, RíoGrande, SanJoséDeChiquitos). Now 55 names — below 25 minimum, needs more verified names or WAITING status.",
       "citations": [
         "https://en.wikipedia.org/wiki/Chorote_language",
         "https://es.wikipedia.org/wiki/Departamento_Or%C3%A1n",
@@ -774,10 +775,10 @@
     {
       "index": 86,
       "name": "Wichí Lhamtés Nocten (Weenhayek)",
-      "status": "COMPLETE",
+      "status": "WAITING",
       "appliedThisSession": true,
-      "namesNow": 20,
-      "notes": "Territory: Matacoan, Tarija BO (Gran Chaco Province, Pilcomayo River) + Salta AR. Weenhayek (Nocten) communities run from Villa Montes to D'Orbigny near the Argentine border (per Wikipedia Wichí article). Kept real Bolivian Chaco towns (Villa Montes, Yacuiba, Carapari, Boyuibe, San Francisco, El Palmar, Palos Blancos, Entre Ríos, Camiri, Pocitos, Ballivian, General Mosconi) and Salta AR towns (Emb",
+      "namesNow": 16,
+      "notes": "Territory: Matacoan, Tarija BO + Salta AR. 2026-08-05 cleaning: removed BuenosAires (capital city, not Wichí territory). Now 16 names — below 25 minimum, needs more verified names or WAITING status.",
       "citations": [
         "https://en.wikipedia.org/wiki/Wich%C3%AD",
         "https://en.wikipedia.org/wiki/Tarija_Department"
@@ -786,10 +787,10 @@
     {
       "index": 87,
       "name": "Wichí Lhamtés Vejoz",
-      "status": "COMPLETE",
+      "status": "WAITING",
       "appliedThisSession": true,
-      "namesNow": 26,
-      "notes": "Territory: Matacoan, Salta/Formosa AR (Bermejo River). Vejoz (Bermejo Wichí) live in Salta/Formosa provinces. Kept all real Salta/Formosa Chaco towns from the existing list that are genuinely in Wichí Vejoz territory (Embarcación, Salvador Mazza, Campo Durán, General Mosconi, Ballivian, Pocitos, Yacuiba, Villa Montes, Entre Ríos, Palos Blancos, Villamontes, Carapari, San Francisco, Boyuibe, Monte ",
+      "namesNow": 20,
+      "notes": "Territory: Matacoan, Salta/Formosa AR (Bermejo River). 2026-08-05 cleaning: removed Santiago del Estero towns (MonteQuemado, TacoPozo), EntreRíos (province name), PampaDeLosGuanacos, SantaAna. Now 20 names — below 25 minimum, needs more verified names or WAITING status.",
       "citations": [
         "https://en.wikipedia.org/wiki/Wich%C3%AD",
         "https://en.wikipedia.org/wiki/Formosa_Province"
