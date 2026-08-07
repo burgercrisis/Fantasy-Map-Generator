@@ -1,7 +1,7 @@
 {
-  "blockers": ["Many remaining entries are micro-languages or cover terms that cannot reach 25 verified names (marked WAITING). Subagent research pipeline now in use: one subagent per entry -> JSON verdict in docs/verification/verdicts/ -> applied via docs/verification/apply-verdicts.js --write -> guardrails. Note: web search was rate-limited (429) for several subagents; WAITING micro-language entries with sparse toponymy may deserve a later re-pass."],
-  "lastUpdate": "2026-08-06T17:15:00Z",
-  "completedEntries": 159,
+  "blockers": ["Many remaining entries are micro-languages or cover terms that cannot reach 25 verified names (marked WAITING). Subagent research pipeline now in use: one subagent per entry -> JSON verdict in docs/verification/verdicts/ -> applied via docs/verification/apply-verdicts.js --write -> guardrails. Cover terms (WAITING with empty b) are cleared via docs/verification/clear-entry.js (apply-verdicts skips WAITING+empty). 543 worklist entries remain after waves 1-10."],
+  "lastUpdate": "2026-08-07T01:45:00Z",
+  "completedEntries": 179,
   "protocolVersion": "2.0-bulletproof",
   "startedAt": "2026-06-30T02:30:00Z",
   "totalEntries": 790,
@@ -9,11 +9,12 @@
   "status": "IN_PROGRESS",
   "progress": {
     "structuralFixes": "completed",
-    "perNameVerification": "112 entries processed. Manual: through i=490. Subagent batches: i=492,494,500,501,510,511,526,530,543,544,545,546,566, then wave i=580,581,582,583,584,585,586,587,588,589,590,596,608,610,611. Wave3 (this session): i=612,613,614,615,630,631,632,633,634,666 dispatched as subagents + 26 pre-existing verdicts (i=1983..i=2473) applied in the same run. NOTE: 4 pre-existing verdict files were broken (3 UTF-8 BOM, 1 misfiled reviewer-verdict schema) and were fixed/moved before the apply run succeeded."
+    "perNameVerification": "203 verdicts applied to date (183 pre-existing at session start + 20 in waves 9-10 this session). Pipeline: one subagent per entry does real per-name web verification and returns a verdict JSON; COMPLETE/WAITING-with-names applied via apply-verdicts.js --write; cover terms (WAITING empty) cleared via clear-entry.js. Guardrails green after every wave. Reformat helper note: clear-entry.js and the whole-file reformat must keep 2-space multi-line JSON or apply-verdicts' line-based entry parser breaks."
   },
   "pipeline": {
-    "method": "One subagent per entry does real per-name web verification and writes a verdict JSON to docs/verification/verdicts/<i>-<name>.json. Reviewer trims any WAITING entries padded with regionally-inferred names, then applies all at once with `node docs/verification/apply-verdicts.js --write` (mechanical file-write only; keeps protocol Rule 9 intact) and runs `node tools/mixer-core/check-language-mixer-guardrails.js`. Applied verdicts archived to docs/verification/verdicts/applied/.",
-    "applierScript": "docs/verification/apply-verdicts.js"
+    "method": "One subagent per entry does real per-name web verification and writes a verdict JSON to docs/verification/verdicts/<i>-<name>.json. Reviewer trims any WAITING entries padded with regionally-inferred names, then applies all at once with `node docs/verification/apply-verdicts.js --write` (mechanical file-write only; keeps protocol Rule 9 intact) and runs `node tools/mixer-core/check-language-mixer-guardrails.js`. Applied verdicts archived to docs/verification/verdicts/applied/. Cover terms (WAITING, empty b) are cleared with `node docs/verification/clear-entry.js <i>` and documented in applied/.",
+    "applierScript": "docs/verification/apply-verdicts.js",
+    "clearScript": "docs/verification/clear-entry.js"
   },
   "sessionResults": {
     "manualBatch_i386_i490": {
@@ -125,6 +126,30 @@
       "Tuwat Berber (i=2054)": "COMPLETE - 56 (Zenati Touat oases Algeria; removed 8 N Algerian + 19 E-Africa + 20 TuwatBerber fabrications, expanded Gourara/Touat/Tidikelt/Saoura ksour)",
       "Viti (i=2060)": "COMPLETE - 42 (Mambilla Plateau SE Taraba Nigeria, Viti=Biti/Antere; removed 14 E-Africa + 10 Viti* fabrications + Abuja/Samburu + Adamawa block, kept Gembu/Serti + Mambilla settlements)"
     },
+    "wave9_i2061_i2499": {
+      "Vori (i=2061)": "WAITING - 7 (Vori/Surubu, East Kainji Kauru Kaduna; 51 removed: 27 wrong-region Bauchi/Gombe/Yobe, 15 E-Africa cross-continent, 10 Vori* fabrications; only 7 verified, cannot reach 25)",
+      "Wali (i=2063)": "COMPLETE - 30 (Waali, Upper West Ghana; kept Wa, removed 20 WaliGhana* fabrications + Somalia/Kenya cross-continent + wrong-language Ghana towns, added 29 Wa-area settlements)",
+      "Soli (i=2096)": "COMPLETE - 35 (Bantu Lusaka Province Zambia; removed 49: Copperbelt/Bemba towns, Nigeria/Somalia/Kenya contamination, Soli* fabrications; kept Lusaka, added 34 Soli-chiefdom settlements)",
+      "Kutep (i=2142)": "COMPLETE - 36 (Kuteb Jukunoid Takum/Ussa Taraba; kept Takum/Ussa, removed admin units, West African cities, SE-Asia names, suffix fabrications; added 34 heartland villages)",
+      "Mangbetu (i=2277)": "COMPLETE - 52 (Central Sudanic Bas-Uele DRC; kept Isiro/Watsa, removed fabrications/W-Africa/SE-Asia/non-Mangbetu DRC cities; added 50 dialect-attested villages)",
+      "Krio (i=2282)": "COMPLETE - 52 (Sierra Leone creole; kept 8 SL towns, removed Guinea/Somalia/Kenya contamination + fabrications; added Freetown-peninsula + provincial towns)",
+      "Limba (i=2425)": "COMPLETE - 56 (Bombali/Karene Sierra Leone; full rebuild: removed 62 incl. fabrications/Somalia/Guinea/non-Limba; added 56 verified Limba heartland settlements)",
+      "Aso (i=2457)": "WAITING - cleared (ambiguous: ISO aso=DANO Papua New Guinea; Wikipedia Aso=Asho Chin Myanmar; no Nigerian 'Aso' language; all 60 removed)",
+      "Nam (i=2487)": "WAITING - cleared (catalog 'Nam' = extinct Sino-Tibetan of Central Asia, NOT Jukunoid; all 60 removed as contamination)",
+      "Mundu (i=2499)": "WAITING - 20 (Ubangian Mündü, Maridi/Yei/DRC Faradje; removed 56 incl. Mondzish* fabrications/W-Africa/Zande towns; only 20 verified)"
+    },
+    "wave10_i2509_i3126": {
+      "Mandinka (i=2509)": "COMPLETE - 81 (Gambia/Senegal/Guinea-Bissau/Casamance; removed 20 fabrications + 15 Somalia/Kenya + 18 non-Mandinka Senegal towns; added 72)",
+      "Ga (i=2512)": "COMPLETE - 64 (Greater Accra Ghana; kept 9, removed 20 fabrications + DRC/Somalia + non-Ga Ghana towns; added 55 Ga-area settlements)",
+      "Gamo (i=2522)": "COMPLETE - 55 (Omotic Gamo Zone Ethiopia; kept Arba Minch/Wacha, removed 20 fabrications + DRC/Somalia + wrong-zone Ethiopia towns; added 53)",
+      "Gamo-Gofa-Dawro (i=2535)": "WAITING - cleared (cover term: 3 languages Gamo/Gofa/Dawro; b emptied, individual Gamo at i=2522)",
+      "Nyangatom (i=2647)": "COMPLETE - 30 (Nilotic South Omo Ethiopia; removed 70 incl. neighbours/W-Africa/fabrications; kept Kibish, added 28 verified)",
+      "Avikam (i=2701)": "COMPLETE - 30 (Lagoon Côte d'Ivoire Grand-Lahou; kept Grand-Lahou/Abidjan, removed Ethiopia + interior Bété + coastal Kru; added 28)",
+      "Aku (i=2719)": "WAITING - cleared (ambiguous/duplicate of Krio; Gambian Aku=Krio dialect, Akum=5 villages; all 61 removed)",
+      "Bete (i=2722)": "COMPLETE - 56 (Kru Côte d'Ivoire Haut-Sassandra/Gôh/Nawa; removed Bete* fabrications + non-Bété Ivorian towns; added 53)",
+      "Hamer (i=3125)": "COMPLETE - 29 (South Omotic Hamer woreda Ethiopia; kept Turmi, removed 62 incl. neighbours/W-Africa/fabrications; added 28 kebeles)",
+      "Anuak (i=3126)": "COMPLETE - 55 (Nilo-Saharan Gambela Ethiopia + Pochalla SS; removed 30 incl. Somalia/SNNPR contamination; added 48 Anywaa settlements)"
+    },
     "preExistingVerdictsApplied_i1983_i2473": {
       "Tidikelt Berber (i=1983)": "WAITING - 21",
       "Juk (i=1996)": "WAITING - 15",
@@ -159,9 +184,9 @@
     "microLanguage": "Many small Nigerian Plateau/Kainji, Cameroon Grassfields, Sudan Kordofanian, and Gulf-of-Guinea creole entries cannot reach 25 verified names -> WAITING.",
     "coverTerms": "Branches/families (East Chadic, Bauchi Chadic, West African English Creole, Judeo-Arabic Maghrebi) marked WAITING per Rule 4."
   },
-  "nextStep": "Continue subagent pipeline from the next unprocessed worklist entry. After wave8 (i=2004..i=2060), the next unprocessed worklist entries are i=2061 Vori, i=2063 Wali, i=2096 Soli, i=2142 Kutep, i=2277 Mangbetu, i=2282 Krio, i=2425 Limba, i=2457 Aso, i=2487 Nam, i=2499 Mundu (worklist has 573 entries remaining; 173 already applied). Each entry: dispatch one subagent, verify every name, remove fabrications/cross-continent contamination, apply verdicts, run guardrails, archive.",
+  "nextStep": "Continue subagent pipeline from the next unprocessed worklist entry. After waves 9-10 (i=2061..i=3126), the next unprocessed worklist entries are i=3256 Angas, i=3257 Auyokawa, i=3258 Barga, i=3259 Barein, i=3260 Beele, i=3331 Anaang, i=5258 Aringa, i=5260 Aro, i=5306 Aroid, i=5310 Asoa (worklist has 543 entries remaining). Each entry: dispatch one subagent, verify every name, remove fabrications/cross-continent contamination, apply verdicts, run guardrails, archive. Cover terms cleared via clear-entry.js.",
   "resumePosition": {
-    "entryName": "Vori (i=2061)",
-    "note": "Wave8 applied (i=2004 Abon, 2005 Abron, 2027 Dagbani, 2033 Fongoro [WAITING], 2036 Ghomala', 2037 Gikuyu, 2038 Goundo [WAITING], 2039 Gourmanché, 2054 Tuwat Berber, 2060 Viti). Next entry is i=2061 Vori per worklist. Dispatch one subagent per entry, verify every name, remove fabrications/wrong-country, apply verdicts, run guardrails, archive."
+    "entryName": "Angas (i=3256)",
+    "note": "Waves 9-10 applied (Vori WAITING/7, Wali 30, Soli 35, Kutep 36, Mangbetu 52, Krio 52, Limba 56, Aso WAITING/cleared, Nam WAITING/cleared, Mundu WAITING/20, Mandinka 81, Ga 64, Gamo 55, Gamo-Gofa-Dawro WAITING/cleared, Nyangatom 30, Avikam 30, Aku WAITING/cleared, Bete 56, Hamer 29, Anuak 55). Next entry is i=3256 Angas per worklist. 543 entries remain."
   }
 }
