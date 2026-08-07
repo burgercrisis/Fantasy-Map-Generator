@@ -1,7 +1,7 @@
 {
   "blockers": ["Many remaining entries are micro-languages or cover terms that cannot reach 25 verified names (marked WAITING). Subagent research pipeline now in use: one subagent per entry -> JSON verdict in docs/verification/verdicts/ -> applied via docs/verification/apply-verdicts.js --write -> guardrails. Note: web search was rate-limited (429) for several subagents; WAITING micro-language entries with sparse toponymy may deserve a later re-pass."],
-  "lastUpdate": "2026-07-20T02:15:00Z",
-  "completedEntries": 76,
+  "lastUpdate": "2026-08-06T17:15:00Z",
+  "completedEntries": 159,
   "protocolVersion": "2.0-bulletproof",
   "startedAt": "2026-06-30T02:30:00Z",
   "totalEntries": 790,
@@ -9,7 +9,7 @@
   "status": "IN_PROGRESS",
   "progress": {
     "structuralFixes": "completed",
-    "perNameVerification": "76 entries processed (9.6%). Manual: through i=490. Subagent batches: i=492,494,500,501,510,511,526,530,543,544,545,546,566, then wave i=580,581,582,583,584,585,586,587,588,589,590,596,608,610,611."
+    "perNameVerification": "112 entries processed. Manual: through i=490. Subagent batches: i=492,494,500,501,510,511,526,530,543,544,545,546,566, then wave i=580,581,582,583,584,585,586,587,588,589,590,596,608,610,611. Wave3 (this session): i=612,613,614,615,630,631,632,633,634,666 dispatched as subagents + 26 pre-existing verdicts (i=1983..i=2473) applied in the same run. NOTE: 4 pre-existing verdict files were broken (3 UTF-8 BOM, 1 misfiled reviewer-verdict schema) and were fixed/moved before the apply run succeeded."
   },
   "pipeline": {
     "method": "One subagent per entry does real per-name web verification and writes a verdict JSON to docs/verification/verdicts/<i>-<name>.json. Reviewer trims any WAITING entries padded with regionally-inferred names, then applies all at once with `node docs/verification/apply-verdicts.js --write` (mechanical file-write only; keeps protocol Rule 9 intact) and runs `node tools/mixer-core/check-language-mixer-guardrails.js`. Applied verdicts archived to docs/verification/verdicts/applied/.",
@@ -57,6 +57,101 @@
       "Agaw (i=608)": "WAITING - cover term (Central Cushitic family); verdict quarantined to pending/, NOT applied. Recommend split into Awngi/Bilen/Xamtanga/Qimant.",
       "Yemba (i=610)": "COMPLETE - 30 (Dschang/Menoua, Cameroon)",
       "Zande (i=611)": "COMPLETE - 49 (DRC/CAR/SS)"
+    },
+    "wave3_i612_i666": {
+      "Wannu (i=612)": "COMPLETE - 31 (Jukunoid, Benue/Taraba, Nigeria)",
+      "Yalunka (i=613)": "COMPLETE - 37 (Mande, Guinea/Sierra Leone)",
+      "Yamba (i=614)": "COMPLETE - 36 (Grassfields, Nwa/Donga-Mantung, Cameroon)",
+      "Yela-Kela (i=615)": "COMPLETE - 41 (Bantu C.74/C.75, DRC; rebuilt from scratch, all 20 YelaKela* fabrications + 24 wrong-region DRC + 16 wrong-country names removed)",
+      "Nung (i=630)": "COMPLETE - 47 (Nungu/Ninzic, Wamba LGA Nasarawa, Nigeria; 'Lang Son' Vietnam homonym removed)",
+      "Nama (i=631)": "COMPLETE - 39 (Khoekhoe, Namibia/Namaqualand; all verified)",
+      "Naro (i=632)": "COMPLETE - 27 (Khoe, Ghanzi District Botswana; 10 added)",
+      "Gui (i=633)": "COMPLETE - 27 (G|ui Khoe, CKGR/Kweneng Botswana; 22 added)",
+      "Kwadi (i=634)": "WAITING - 3 (extinct Khoe-Kwadi, Angola; no toponymy to reach 25)",
+      "Kru Pidgin English (i=666)": "COMPLETE - 38 (Liberia/Kru Coast; 57 removed: 5 KruPidginEnglish* fabrications, 15 A*wood/ville placeholders, 15 Caribbean/Puerto Rico wrong-continent, 18 inland West-Africa, 3 county names, 1 dup)"
+    },
+    "wave4_i667_i708": {
+      "Liberian Pidgin English (i=667)": "COMPLETE - 46 (Liberia; Konimbo removed, Voinjami->Voinjama corrected)",
+      "Fur (i=696)": "COMPLETE - 33 (Darfur, Sudan; Forok/Gelege/Bergid ethnonyms removed)",
+      "Gumuz (i=701)": "COMPLETE - 30 (Benishangul-Gumuz Ethiopia + Blue Nile Sudan; 9 removed incl. Bulandi fabricated, 10 added)",
+      "Gwari (i=702)": "COMPLETE - 33 (Gbagyi, FCT/Niger/Kaduna Nigeria; all verified, no change)",
+      "Gyong (i=703)": "COMPLETE - 25 (Kaduna Nigeria; 5 Gyong* fabrications + Kuyanbaba removed, 12 added)",
+      "Hakaona (i=704)": "COMPLETE - 41 (Herero dialect, S Angola/N Namibia; 15 removed incl. admin units/province names, 30 added)",
+      "Hanga (i=705)": "COMPLETE - 30 (Upper West Ghana; 15 out-of-region + Sisala ethnonym removed, 21 added)",
+      "Saari (i=706)": "COMPLETE - 27 (Eastern Beboid, Misaje/Donga-Mantung Cameroon; all 24 major-city contaminations removed, rebuilt from Besaa villages)",
+      "Samwe (i=707)": "COMPLETE - 49 (Samo/Sanan, Burkina Faso; Marka ethnonym removed, 17 out-of-area + 41 added)",
+      "Shwai (i=708)": "COMPLETE - 30 (Heiban Kordofanian, Nuba Mountains Sudan; 5 dialect/alternate-name labels + Salara well + El Obeid removed, 24 GeoNames villages added)"
+    },
+    "wave5_i709_i872": {
+      "Sighu (i=709)": "WAITING - 7 (moribund B.20, Ogooue-Lolo Gabon; Lastoursville->Mandji indigenous, only 4 villages documented, cannot reach 25)",
+      "Siwu (i=710)": "COMPLETE - 26 (Ghana Volta Region; 6 Akpafu-Lolobi/Guan villages added)",
+      "Southeast Ijo (i=711)": "COMPLETE - 26 (Bayelsa Nigeria; 4 removed: Okrika/Akugbene/Obotebe out-of-Bayelsa, Opuma unverifiable; 10 added)",
+      "Susu (i=713)": "COMPLETE - 44 (coastal Lower Guinea Guinea/Sierra Leone; 17 inland/Fouta Djallon/Forest + Krio/Temne removed, 37 added)",
+      "Tamashek (i=767)": "COMPLETE - 29 (Mali/Niger Tuareg; 17 Libya names removed, 23 added)",
+      "Yoruba (i=772)": "COMPLETE - 80 (SW Nigeria; 2 dup spellings removed, 51 added to reach major-language target)",
+      "Ait Seghrouchen Berber (i=791)": "COMPLETE - 39 (Middle Atlas Morocco; 2 mountain ranges + pass + 5 fabrications/ethnonyms removed, 19 added)",
+      "Aizi (i=814)": "COMPLETE - 25 (Cote d'Ivoire lagoon; Grand-Bassam + Tiapoume wrong-area removed, 21 added)",
+      "Bari (i=836)": "COMPLETE - 25 (Central/Western Equatoria SS; 5 Eastern Equatoria removed, 17 added)",
+      "Amharic (i=872)": "COMPLETE - 31 (Ethiopia; 3 dup spelling-pairs collapsed)"
+    },
+    "wave6_i873_i979": {
+      "Argobba (i=873)": "COMPLETE - 30 (Ethiopia Argobba enclaves; 19 removed incl. highland cities/province, 28 added)",
+      "Bube (i=942)": "COMPLETE - 28 (Bioko Island Eq.Guinea; 12 mainland Fang towns + Pico Basile peak removed, 22 Bioko Bube villages added)",
+      "Saya (i=946)": "COMPLETE - 44 (Bauchi Nigeria; 57 removed: 15 Somalia/Kenya wrong-continent, 20 A*/Bub* fabrications, 18 Gombe/Yobe out-of-state, 4 wrong-Bauchi; 39 added from Bogoro/Tafawa Balewa/Dass wards)",
+      "Sidamo (i=947)": "COMPLETE - 39 (Sidama Zone Ethiopia; 9 out-of-zone + Hawassa dup removed, 27 added)",
+      "Wolayta (i=957)": "COMPLETE - 34 (Wolayita Zone Ethiopia; 23 out-of-zone/other-region + dup removed, rebuilt from 34 zone urban centers)",
+      "Wolof (i=969)": "COMPLETE - 27 (Senegal/Gambia; all verified, no change)",
+      "Sesotho (i=970)": "COMPLETE - 25 (Lesotho/Free State; Liphofung cave removed, 2 added)",
+      "Tswana (i=971)": "COMPLETE - 25 (Botswana; 5 district-only names removed, 3 towns added)",
+      "Shona (i=974)": "COMPLETE - 29 (Zimbabwe; all verified, no change)",
+      "Tumbuka (i=979)": "COMPLETE - 39 (Northern/Central Malawi + Zambia; 14 southern/central out-of-region removed, 29 added)"
+    },
+    "wave7_i980_i990": {
+      "Sakata (i=980)": "COMPLETE - 40 (Mai-Ndombe DRC; all 51 originals removed: 26 wrong-province DRC cities, 15 Somalia/Kenya cross-continent, 10 Sakata* fabrications; 40 GeoNames Mai-Ndombe villages added)",
+      "Zulu (i=986)": "COMPLETE - 28 (KwaZulu-Natal; East London + Mbombela removed as out-of-region, 1 dup; 2 added)",
+      "Southern Ndebele (i=988)": "COMPLETE - 33 (Gauteng/Mpumalanga/Limpopo; Stellenbosch/George/Upington WC/NC removed, Witbank/Emalahleni dup collapsed, 8 KwaNdebele towns added)",
+      "Sumayela Ndebele (i=989)": "COMPLETE - 30 (Limpopo/Gauteng; 11 Mpumalanga out-of-region removed, 15 Limpopo Sumayela-heartland added)",
+      "Pedi (i=990)": "COMPLETE - 40 (Capricorn/Sekhukhune Limpopo; all 12 verified, 28 added)"
+    },
+    "wave8_i2004_i2060": {
+      "Abon (i=2004)": "COMPLETE - 65 (Tivoid, Kurmi LGA Taraba Nigeria; 13 E-Africa cross-continent + 22 fabrication/ethnonym + 3 admin units removed, expanded from Kurmi/Sardauna/Abong villages)",
+      "Abron (i=2005)": "COMPLETE - 50 (Bono/Brong Ghana + Ivory Coast Gyaman; kept Sunyani/Techiman, removed other-ethnic Ghana towns + 15 E-Africa + 20 fabrications, expanded Bono/Bono-East/Ahafo + Ivorian Gyaman)",
+      "Dagbani (i=2027)": "COMPLETE - 53 (Kingdom of Dagbon, Northern Region Ghana; kept 9 Dagomba towns, removed Upper-East/West towns + Sisala ethnonym + 15 E-Africa + 20 fabrications, expanded from MMDA/district lists)",
+      "Fongoro (i=2033)": "WAITING - 22 (micro Adamawa/Nilo-Saharan, Sila c. Fongoro SE Chad; removed generic-Chad + 19 E-Africa + 20 fabrications, kept 22 verified canton installations; cannot reach 25)",
+      "Ghomala' (i=2036)": "COMPLETE - 26 (Bamileke West Region Cameroon; kept 6, removed 11 NW-Region + 8 other-Bamileke + Mfundi(=Mfoundi dept), added 20 in-territory communes)",
+      "Gikuyu (i=2037)": "COMPLETE - 63 (Central/Kiambu/Nyeri/Kirinyaga/Murang'a Kenya; kept 8, removed 21 other-people Kenya + 13 Horn + 20 fabrications, expanded across 5 Kikuyu-majority counties)",
+      "Goundo (i=2038)": "WAITING - 6 (micro Kim-group, Tandjilé Chad; removed generic-Chad + 19 E-Africa + 20 fabrications, kept 6 Ethnologue/Hamm villages; cannot reach 25)",
+      "Gourmanché (i=2039)": "COMPLETE - 56 (Gurma E Burkina Faso + Niger/Benin/Togo; removed 15 E-Africa + fabrication blocks + Marka ethnonym, expanded Est Region + cross-border Gurma towns)",
+      "Tuwat Berber (i=2054)": "COMPLETE - 56 (Zenati Touat oases Algeria; removed 8 N Algerian + 19 E-Africa + 20 TuwatBerber fabrications, expanded Gourara/Touat/Tidikelt/Saoura ksour)",
+      "Viti (i=2060)": "COMPLETE - 42 (Mambilla Plateau SE Taraba Nigeria, Viti=Biti/Antere; removed 14 E-Africa + 10 Viti* fabrications + Abuja/Samburu + Adamawa block, kept Gembu/Serti + Mambilla settlements)"
+    },
+    "preExistingVerdictsApplied_i1983_i2473": {
+      "Tidikelt Berber (i=1983)": "WAITING - 21",
+      "Juk (i=1996)": "WAITING - 15",
+      "Aja (i=2010)": "WAITING - 22",
+      "Aka (i=2011)": "WAITING - 14",
+      "Ambele (i=2012)": "WAITING - 15",
+      "Ambo (i=2013)": "COMPLETE - 26",
+      "Djimini (i=2028)": "COMPLETE - 25",
+      "Dogoso (i=2030)": "COMPLETE - 26",
+      "Evant (i=2032)": "WAITING - 12",
+      "Fungor (i=2034)": "WAITING - 20",
+      "Tagwana (i=2053)": "WAITING - 23",
+      "Western Berber (i=2056)": "COMPLETE - 35",
+      "Vengo (i=2058)": "COMPLETE - 27",
+      "Viemo (i=2059)": "COMPLETE - 35",
+      "Voro (i=2062)": "WAITING - 16",
+      "Kanuri (i=2105)": "COMPLETE - 25",
+      "Kuria (i=2166)": "WAITING - 18",
+      "Kurama (i=2196)": "WAITING - 24",
+      "Mala (i=2244)": "COMPLETE - 37",
+      "Mambila (i=2245)": "WAITING - 3",
+      "Mankon (i=2292)": "COMPLETE - 27",
+      "Zenati Berber (i=2341)": "COMPLETE - 25",
+      "Wapan (i=2424)": "WAITING - 16",
+      "Wushi (i=2426)": "COMPLETE - 27",
+      "Yulu (i=2434)": "COMPLETE - 28",
+      "Air Tamajeq (i=2473)": "WAITING - 19"
     }
   },
   "patternsIdentified": {
@@ -64,9 +159,9 @@
     "microLanguage": "Many small Nigerian Plateau/Kainji, Cameroon Grassfields, Sudan Kordofanian, and Gulf-of-Guinea creole entries cannot reach 25 verified names -> WAITING.",
     "coverTerms": "Branches/families (East Chadic, Bauchi Chadic, West African English Creole, Judeo-Arabic Maghrebi) marked WAITING per Rule 4."
   },
-  "nextStep": "Continue subagent pipeline from entries after Zande (i=611). Read next batch from modules/namebases-africa.js, dispatch one subagent per entry, apply verdicts, run guardrails, archive.",
+  "nextStep": "Continue subagent pipeline from the next unprocessed worklist entry. After wave8 (i=2004..i=2060), the next unprocessed worklist entries are i=2061 Vori, i=2063 Wali, i=2096 Soli, i=2142 Kutep, i=2277 Mangbetu, i=2282 Krio, i=2425 Limba, i=2457 Aso, i=2487 Nam, i=2499 Mundu (worklist has 573 entries remaining; 173 already applied). Each entry: dispatch one subagent, verify every name, remove fabrications/cross-continent contamination, apply verdicts, run guardrails, archive.",
   "resumePosition": {
-    "entryName": "Zande (i=611)",
-    "note": "Next unprocessed entries follow Zande. Read the file after the Zande entry to get exact i values for the next batch. Agaw (i=608) left WAITING/cover-term, quarantined to pending/."
+    "entryName": "Vori (i=2061)",
+    "note": "Wave8 applied (i=2004 Abon, 2005 Abron, 2027 Dagbani, 2033 Fongoro [WAITING], 2036 Ghomala', 2037 Gikuyu, 2038 Goundo [WAITING], 2039 Gourmanché, 2054 Tuwat Berber, 2060 Viti). Next entry is i=2061 Vori per worklist. Dispatch one subagent per entry, verify every name, remove fabrications/wrong-country, apply verdicts, run guardrails, archive."
   }
 }
