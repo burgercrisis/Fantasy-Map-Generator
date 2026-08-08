@@ -2,7 +2,7 @@
   "blockers": [
     "Many remaining entries are micro-languages or cover terms that cannot reach 25 verified names (marked WAITING). SYSTEMIC ISSUE FOUND 2026-08-07: some entries' name fields are corrupt and disagree with the mixer binding, and some mixer bindings point at an unrelated language. See docs/verification/reports/africa-integrator-flags.md. Detector: node docs/verification/name-audit.js. 514 worklist entries remain after waves 1-12. RE-VERIFICATION wave13 (2026-08-07): the 4 exact-duplicate placeholder pairs (Bauchi Chadic/Karekare 385+1935; Bambara/Soninke 1103+1549; Vengo/Mankon 2058+2292) and Zenati Berber 2341 were rebuilt from scratch with real per-language settlement lists (30-66 names each) and re-applied; guardrails green. 286-entry near-duplicate contamination (dup-audit.js --overlap) across the 200000-block and scattered others remains OPEN - those COMPLETE markings from waves 1-12 are untrusted until re-checked. Wave-14 (2026-08-07): re-verified 27 Chadic entries that carried the forbidden region token Mayo-Kebbi (or were in 60%+ overlap pairs) - all rebuilt from scratch with real per-language village lists (13 COMPLETE, 14 WAITING). Guardrails green. Remaining 200xxx contamination: ~127 entries still in 60%+ overlap pairs (the core generated-pool block) need re-verification; plus Tayo Creole (200903) is a New Caledonia creole misplaced in Africa and should move to an Oceania namebase. Wave-15 (2026-08-07): re-verified 85 entries across 4 Chadic/Adamawa cluster batches (Mandara pool, W.Chadic-B pool, Cameroon Mofu pool, Plateau/Adamawa Nigeria pool). 11 COMPLETE, 74 WAITING. Many entries found MISPLACED: several are Bauchi State not Adamawa (Galambu, Gera, Geruma, Giiwo, Guruntum, Tala, Jimi Nigeria, Kir-Balar, Polci, Jibyal); several are CHAD not Cameroon (Tamki, Mesme, Peve, Sarua, Jonkor, Gadang); Geme=CAR, Gendza=DRC Bantu, Omo-Tana=Cushitic family-node (retire); Miler=Plateau Nigeria not Cameroon; Juk=Jukunoid Taraba. 200xxx overlap block fell 127->62. Guardrails green."
   ],
-  "lastUpdate": "2026-08-08T03:40",
+  "lastUpdate": "2026-08-08T13:05",
   "completedEntries": 795,
   "protocolVersion": "2.0-bulletproof",
   "startedAt": "2026-06-30T02:30:00Z",
@@ -399,6 +399,34 @@
       "200019 Ekoka Kung": "WAITING 5 - Kx'a !Kung, Namibia Ohangwena; 76 removed (Botswana/Zambia, Tsumkwe/Grootfontein other dialects, Horn-of-Africa, synthetic)",
       "200020 Esimbi": "WAITING 16 - Tivoid, Cameroon NW; 81 removed (Grassfields cover dump, Horn-of-Africa, Esimbi* tokens), 15 added"
     },
-    "remaining_note": "398 worklist entries lacked applied verdict JSONs at start; 24 now archived (6 clears + 6 slice1 + 6 slice2 + 6 slice3). 165 of the 398 are 200xxx needing re-check; rest are pre-verified needing log backfill. Next: continue 200xxx re-verify slice from 200021 onward (Fe'fe', Fulani...)."
+    "reverified_slice_4": {
+      "200021 Fe'fe'": "WAITING 22 - Bamileke West Region Cameroon; 39 removed (Horn-of-Africa, A*/Fefe* fabrications)",
+      "200022 Fio": "WAITING 17 - Eastern Beboid (Bum subdivision, Boyo); 28 removed",
+      "200023 Fut": "WAITING 2 - actually Bafut/Ngemba Eastern Grassfields; 80 removed; only Bafut+Njinteh verified",
+      "200024 Gawar": "COMPLETE 28 - Biu-Mandara (gou), Mayo-Tsanaga Cameroon; 6 dropped (admin/other-zone)",
+      "200025 Ghomala'": "WAITING 20 - Bamileke West Region; DUPLICATE of i=2036 (clean 26-name list); 39 removed (Horn, Ghomala* tokens)",
+      "200026 G|ui": "WAITING 9 - Khoe, Botswana Kalahari/Ghanzi; 71 removed (Horn-of-Africa, Gui* tokens, wrong-region Botswana)"
+    },
+    "reverified_slice_5": {
+      "200027 Hadza": "WAITING 7 - isolate, Lake Eyasi Tanzania; 41 removed as contamination",
+      "200028 Hausa-Gwandara": "WAITING 15 - West Chadic, Nasarawa Nigeria; 26 removed (18 Hausa Kano/Katsina towns, admin)",
+      "200029 Holma": "WAITING 22 - Nzanyic (not Bura-Angwe), Sarau ward Maiha LGA; 24 removed, 22 added",
+      "200030 Huba": "WAITING 1 - hbb, Hong LGA only; 77 removed (neighbouring non-Huba areas, Horn, Huba* tokens)",
+      "200031 Jalaa": "WAITING 1 - isolate, sole village Loojaa (Balanga LGA Gombe); min/max corrected 5/5->6/6",
+      "200032 Jara": "WAITING 2 - Chadic Tera (jaf), Biu/Akko Nigeria; 77 removed (Horn, Jara* tokens, other-language towns)"
+    },
+    "reverified_slice_6": {
+      "200035 Jilbe": "WAITING 1 - W Chadic micro (Bauchi), only Jilbe village documented; 68 removed (synthetic Jilbe* tokens, Borno/Kanuri block, Horn-of-Africa)",
+      "200036 Jimi Cameroon": "WAITING 7 - Biu-Mandara (Mora/Mokolo area); 21 removed, 2 added from Michika/Mokolo-area villages",
+      "200037 Jimi Nigeria": "WAITING 1 - distinct micro W Chadic (Bauchi, ~120 spk); only Jimi village; 3 removed",
+      "200041 Ju|ʼhoan": "COMPLETE 29 - Kx'a !Kung Namibia/Botswana; 76 removed (Juhoan* fabrications, Horn-of-Africa cross-continent)",
+      "200043 Kajakse": "COMPLETE 25 - Chadic Guera/Ouaddai Chad; 82 removed (Kajakse* fabrications, Horn-of-Africa cross-continent)",
+      "200044 Kamwe": "COMPLETE 63 - Vecemwe/Higi, Michika LGA Adamawa + Kapsiki Cameroon; 90 removed (Kamwe* fabrications, Kanuri/Borno block, Horn-of-Africa, A* placeholders); ~45 added from Adamawa-State village list (Rule 3 caveat - single-source, LGA is Kamwe-majority so defensible; flagged for re-narrowing)",
+      "200045 Kanakuru": "COMPLETE 61 - Dera, Adamawa/Gombe Nigeria; 78 removed (Kanakuru* fabrications, Horn-of-Africa); single-source additions flagged per Rule 3 caveat",
+      "200046 Karai-karai": "COMPLETE 31 - Karekare W Chadic, Yobe/Bauchi; 71 removed (Karaikarai* fabrications, Horn-of-Africa); 21 added",
+      "200047 Kariya": "WAITING 5 - micro W Chadic Bauchi; Kariya/Kariya Gyada/Tulu/Sabon Kariya/Sabon Tulu kept",
+      "200049 Kholok": "WAITING 3 - W Chadic Taraba; 60 removed (Kholok* fabrications, Angola/Namibia/Horn cross-continent, admin units); only 3 Kode* verified"
+    },
+    "remaining_note": "Remaining=359. 165 200xxx entries are the untrusted contamination block; re-verified slices 200000-200049 so far (200011 Biu-Mandara + 200152/200172/200070 covers cleared earlier). Slice-6 COMPLETE entries (Kamwe/Kanakuru/Kajakse/Karai-karai/Juhoan) used large single-source village-list additions - flagged Rule-3 caveat, acceptable for majority-LGA languages but candidates for re-narrowing. Rest of 359 are pre-verified entries needing research-log backfill + remaining 200xxx. Next: continue 200xxx re-verify from 200050 onward (skip already-done Kera/200048, Kimré/200050 WAITING, Kwang/200059, Lele/200062, Kabalai/200042, Jina/200038, Jonkor/200039 empty)."
   }
 }
