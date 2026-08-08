@@ -5862,4 +5862,14 @@ window.oceaniaNameBases = [
     "m": 0,
     "b": "Upovia,Buseki,Boimbulavu,Nago,Maka,Magipopo,Usukof No. 1,Usokof No. 2,Kapikam,Dimu,Pangoa,Tagum,Miwa No. 1,Miwa No. 2,Kusikina,Kuem,Mipan,Manda,Bosset No. 1,Bosset No. 2,Wangawanga No. 1,Wangawanga No. 2,Komovai,Kaviananga No. 1,Kaviananga No. 2,Boikmava,Levame,Lake Murray Station"
   }
+,
+  {
+    "name": "Tayo Creole",
+    "i": 200903,
+    "min": 3,
+    "max": 17,
+    "d": "crp",
+    "m": 0.1,
+    "b": "Saint-Louis,Mont-Dore,La Conception,Yahoué,Païta,Bouloupari,Dumbéa,Nouméa,Touho,Île Ouen,Saint-Paul,Saint-Thomas,Saint-Jean,Saint-Tarcisius,Wahouné,Nékita,Ave Maria,Pont des Français,Thy,Yaté,La Foa,Poindimié,Okonié"
+  }
 ];
