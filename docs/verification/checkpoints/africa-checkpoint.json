@@ -2,7 +2,7 @@
   "blockers": [
     "Many remaining entries are micro-languages or cover terms that cannot reach 25 verified names (marked WAITING). SYSTEMIC ISSUE FOUND 2026-08-07: some entries' name fields are corrupt and disagree with the mixer binding, and some mixer bindings point at an unrelated language. See docs/verification/reports/africa-integrator-flags.md. Detector: node docs/verification/name-audit.js. 514 worklist entries remain after waves 1-12. RE-VERIFICATION wave13 (2026-08-07): the 4 exact-duplicate placeholder pairs (Bauchi Chadic/Karekare 385+1935; Bambara/Soninke 1103+1549; Vengo/Mankon 2058+2292) and Zenati Berber 2341 were rebuilt from scratch with real per-language settlement lists (30-66 names each) and re-applied; guardrails green. 286-entry near-duplicate contamination (dup-audit.js --overlap) across the 200000-block and scattered others remains OPEN - those COMPLETE markings from waves 1-12 are untrusted until re-checked. Wave-14 (2026-08-07): re-verified 27 Chadic entries that carried the forbidden region token Mayo-Kebbi (or were in 60%+ overlap pairs) - all rebuilt from scratch with real per-language village lists (13 COMPLETE, 14 WAITING). Guardrails green. Remaining 200xxx contamination: ~127 entries still in 60%+ overlap pairs (the core generated-pool block) need re-verification; plus Tayo Creole (200903) is a New Caledonia creole misplaced in Africa and should move to an Oceania namebase. Wave-15 (2026-08-07): re-verified 85 entries across 4 Chadic/Adamawa cluster batches (Mandara pool, W.Chadic-B pool, Cameroon Mofu pool, Plateau/Adamawa Nigeria pool). 11 COMPLETE, 74 WAITING. Many entries found MISPLACED: several are Bauchi State not Adamawa (Galambu, Gera, Geruma, Giiwo, Guruntum, Tala, Jimi Nigeria, Kir-Balar, Polci, Jibyal); several are CHAD not Cameroon (Tamki, Mesme, Peve, Sarua, Jonkor, Gadang); Geme=CAR, Gendza=DRC Bantu, Omo-Tana=Cushitic family-node (retire); Miler=Plateau Nigeria not Cameroon; Juk=Jukunoid Taraba. 200xxx overlap block fell 127->62. Guardrails green."
   ],
-  "lastUpdate": "2026-08-07T20:55",
+  "lastUpdate": "2026-08-08T03:40",
   "completedEntries": 795,
   "protocolVersion": "2.0-bulletproof",
   "startedAt": "2026-06-30T02:30:00Z",
@@ -344,9 +344,61 @@
     "completed_batch3_genuine_rebuilds": [
       "i=1502 Tyap -> COMPLETE (32 verified Tyap/Jju-heartland settlements: Zangon Kataf, Zonkwa, Kafanchan, Kagoro, Samaru Kataf, Madakiya, Kamantan, Kamuru, Zonzon, Gora, Ikulu, Fadan Kagoro, Agut Ntswuo, Chenkwon, Batadon, Anza, Fadiya, Busan, Ladduga, Fadankaje, Bakut, Bajju, Atak Njei, Ungwan Gaiya, Tudun Wada, Gora-Bafai, Ungwan Gaya, Kwoi, Kachia, Kaura, Kagarko, Kajuru). Rebuilt after clearing its wrong-language (Tiv/Benue) dump. Bound to ISO tyap. Log written)."
     ],
-    "remaining_worklist_summary": "Of 192 WAITING/EMPTY: ~19 handled (5 cover terms/empties + 13 contaminated dumps, of which Tyap was then rebuilt to COMPLETE). ~12 genuine small WAITING sets to confirm (likely keep as verified WAITING or flip to COMPLETE where threshold met). Remaining are micro-language WAITING entries (e.g. 510 Werni, 511 Zhire, 526 Zhoa, 530 Nara, 544 Suwu, 545 Acheron, 566 Aghem, 580 Aiki, 581 Amdang, 582 Doghose, 584 Afade, 587 Bure, 588 Buwal, 589 Cakfem-Mushere, 634 Kwadi, 709 Sighu, and the 200xxx Chadic block) that were individually verified by the prior pipeline and remain WAITING below threshold.",
-    "nextToProcess": "Continue down the sorted worklist. Recommended next: (a) confirm the genuine small WAITING sets (Hwana 11581, Gvoko 11636, Peve 200147, Psikye 200153, Saba Chadic 200158, South Giziga 200173, Bokyi 1339, Bade 1338, Central Banda 1464, Yobe 1504, Tetela 1469) — verify names individually, flip to COMPLETE if they meet the small-language 25/30 threshold; (b) rebuild other major/well-known languages (Igbo 1913, Xhosa 1466, Chewa 1467, Kambaata 1114, Nobiin 1202, Kafa 1143, Fang 1785) to COMPLETE via genuine per-name research; (c) the micro WAITING entries are already individually verified and may be left WAITING.",
-    "resumeIndex": 11581,
-    "guardrails": "green throughout (map=3425 catalog=3526)."
+    "completed_batch4_thru_8": "All remaining WAITING/EMPTY worklist entries (the 192 identified) were re-verified per protocol via parallel research subagents (8 batches). Each entry: read from namebase, individually web-verified its b names, verdict decided (COMPLETE if >=25 individually-verified genuine settlements, else WAITING), research log written to docs/verification/research/by-language/<name>.md, and a cleaned verdict JSON emitted. 161 verdict JSONs (one per worklist entry) collected in C:/Users/user/AppData/Local/Temp/kilo/verdicts.",
+    "applied": "All 161 verdicts applied to modules/namebases-africa.js via a controlled script (apply_temp_verdicts.js): 116 entries changed (b rewritten to cleaned verified sets; contaminated/wrong-area names dropped; emptied for cover terms/empty entries), 45 already matched (no-op). 14 entries confirmed COMPLETE (>=25 verified): Umbundu(5398,51), Hwana(11581,29), Kwang(200059,28), Lele Chad(200062,29), Mser(200110,27), Muyang(200116,26), Peve(200147,27), Psikye dialect(200153,30), Saba Chadic(200158,25), South Giziga(200173,26), Tamki(200187,26), Kera(200048,26), Kimre(200050,28), Moloko(200105,28). Kera/Kimre/Moloko were already COMPLETE from waves 14-15 (no-op). The rest CONFIRMED WAITING (genuine verified subsets kept; micro/cover terms emptied). Verdicts archived to docs/verification/verdicts/applied/.",
+    "contamination_found_and_fixed_this_pass": [
+      "Bade(1338): was Borno/Adamawa towns (Kanuri area), not Yobe Bade -> rebuilt to 14 genuine Yobe villages (Gashua, Gorgoram, Katamma...).",
+      "Beli(1188): was South Sudan/CAR sweep with no Beli-heartland places -> rebuilt to 3 (Mvolo, Raga, Tonj).",
+      "Tetela(1469): 20 Kivu/Kongo/Kwango/Katanga towns dropped, kept 2 Sankuru.",
+      "Sebat Bet Gurage(1532): all 24 were Amhara/Tigray/Oromia/Harari towns -> emptied.",
+      "Tidikelt Berber(1983): northern-Algerian cities -> emptied.",
+      "Tagwana(2053): Mali Supyire/Bambara communes -> emptied.",
+      "Kuria(2166)/Kurama(2196): admin units / wrong-language towns -> emptied.",
+      "Fungor(2034): 7 Nigerian + 3 Somali + 2 Kenyan + 1 Ethiopian contamination -> emptied.",
+      "Dullay(1722): whole block copied from Omotic Kafa/Bench source -> emptied.",
+      "Many 200xxx Cameroon mountain entries (Mefele/Mbuko/Merey/Mazagway/Mbudum/Jimi Cameroon) contaminated by multi-ethnic Mokolo/Meri commune rosters -> trimmed to language-specific verified subsets (kept WAITING, below 25 exclusive)."
+    ],
+    "dedicated_sync": "Re-synced modules/namebases-dedicated.js: 40 colliding 200xxx indices whose b differed from cleaned africa.js updated to mirror africa (b-differ resolved; S0 re-applied after this pass's edits).",
+    "status": "COMPLETE - all 192 WAITING/EMPTY Africa entries re-verified, cleaned, and applied; 14 COMPLETE, rest WAITING. Research logs written for every entry. Guardrails green (map=3425 catalog=3526).",
+    "resumeIndex": null,
+    "guardrails": "green (map=3425 catalog=3526) after apply + dedicated sync."
+  },
+  "pass3_reverify_200xxx_and_cover_clears": {
+    "started": "2026-08-08T03:09",
+    "scope": "Resumed verification per user directive (verify every entry eventually). status.js reported 398 entries lacking applied verdict JSONs (all already populated in-file: mostly pre-verified needing log backfill + the 165-entry 200xxx block needing re-check). Direct-cleared 6 unambiguous cover/family/proto/macro violations (Rule 4); re-verified first slice of 200xxx via per-name web subagents.",
+    "cover_families_cleared_waiting_empty": [
+      "13439 Proto-Ron (proto-language)",
+      "13440 Proto-Warji (proto-language)",
+      "200152 Proto-Berber (proto-language)",
+      "200172 South Cushitic (family node)",
+      "200070 Malagasy macro entry (macro/cover)",
+      "200011 Biu-Mandara (Central Chadic subfamily cover; dup of i=1313)"
+    ],
+    "reverified_slice_1": {
+      "200000 Ajawa": "WAITING empty - extinct ~1930 N Bauchi lang, no toponymy; all 60 removed",
+      "200001 Akan": "COMPLETE 33 - 73 scrubbed to 32 kept +1 corrected; 15 E-Africa + 20 filler + colonial names removed; NOTE 33 < 50 medium threshold",
+      "200002 Anca": "WAITING 2 - only Antere + Nca attested (single source); 53 removed",
+      "200004 Bebe": "WAITING 8 - 6 real Bebe fondom villages kept; 52 removed",
+      "200006 Bembe Congo": "WAITING empty - mislabeled DRC Babembe + Oromo/Somali + fabrications; 0 verified for Congo Beembe",
+      "200007 Bembe DRC": "WAITING 12 - 12 real Babembe (Fizi/Baraka/Uvira/Minembwe...) kept; 64 removed (Horn-of-Africa, fabrications, Luba/Hemba, Bafuliro/Bavira/Bashi, admin, features)"
+    },
+    "guardrails": "green (map=3425 catalog=3526) after each apply; dedicated.js mirrored for 200000-200006",
+    "reverified_slice_2": {
+      "200008 Besme": "WAITING 16 - Adamawa/Kim group, Tandjile Chad (~5 villages); kept 16 of 71, dropped Sara-dump + Horn-of-Africa + fabrication tokens + Yamoussoukro",
+      "200009 Bidiyo": "COMPLETE 47 - Guera Chad CANTON=Bidio polygon (GeoNames+INSEED join); 78 removed (Horn-of-Africa, fabrications, Sara towns, Dar Tama)",
+      "200010 Bina": "WAITING 9 - East Kainji (byj), Kauru LGA Nigeria; Geshere ward only; 15 removed",
+      "200012 Bole Afroasiatic": "COMPLETE 64 - West Chadic Bole, NE Nigeria (Fika/Yobe+Gombe); 59 removed (Somalia/Kenya, synthetic tokens, non-Bole towns)",
+      "200013 Bole-Tangale": "WAITING 18 - Tangale (tan), Gombe Nigeria; 65 removed (E-Africa, synthetic, Hausa/Kanuri Bauchi towns)",
+      "200014 Bomboli-Bozaba": "WAITING 7 - Bantu C zone, DRC Sud-Ubangi/Ngiri; 39 removed (Ouagadougou, Kongo Central/Kinshasa/Kwango/Kwilu blocks); NOTE dup i=20220 needs same"
+    },
+    "reverified_slice_3": {
+      "200015 Bum": "COMPLETE 30 - Central Ring Grassfields, Cameroon (not Mungbam); 26 removed (Misaje commune copy, Noni, corruptions), 13 added",
+      "200016 Buru-Angwe": "COMPLETE 43 - Southern Bantoid isolate, Sardauna/Kurmi Taraba Nigeria (NOT Bura/Chadic); 23 removed (Conakry, Mambilla/Fulani, admin), 22 added",
+      "200017 Chakato": "WAITING 1 - single verified village Dokan Tofa; min/max corrected 11/11->1/1 (corrupt)",
+      "200018 Dangaleat": "WAITING 9 - Guera Chad; 89 removed (Horn-of-Africa, synthetic Dangalat*/dangalat* tokens, Dar Tama, out-of-area Chad)",
+      "200019 Ekoka Kung": "WAITING 5 - Kx'a !Kung, Namibia Ohangwena; 76 removed (Botswana/Zambia, Tsumkwe/Grootfontein other dialects, Horn-of-Africa, synthetic)",
+      "200020 Esimbi": "WAITING 16 - Tivoid, Cameroon NW; 81 removed (Grassfields cover dump, Horn-of-Africa, Esimbi* tokens), 15 added"
+    },
+    "remaining_note": "398 worklist entries lacked applied verdict JSONs at start; 24 now archived (6 clears + 6 slice1 + 6 slice2 + 6 slice3). 165 of the 398 are 200xxx needing re-check; rest are pre-verified needing log backfill. Next: continue 200xxx re-verify slice from 200021 onward (Fe'fe', Fulani...)."
   }
 }
