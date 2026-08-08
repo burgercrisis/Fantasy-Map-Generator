@@ -1,9 +1,9 @@
 {
   "blockers": [
-    "Many remaining entries are micro-languages or cover terms that cannot reach 25 verified names (marked WAITING). SYSTEMIC ISSUE FOUND 2026-08-07: some entries' name fields are corrupt and disagree with the mixer binding, and some mixer bindings point at an unrelated language. See docs/verification/reports/africa-integrator-flags.md. Detector: node docs/verification/name-audit.js. 514 worklist entries remain after waves 1-12."
+    "Many remaining entries are micro-languages or cover terms that cannot reach 25 verified names (marked WAITING). SYSTEMIC ISSUE FOUND 2026-08-07: some entries' name fields are corrupt and disagree with the mixer binding, and some mixer bindings point at an unrelated language. See docs/verification/reports/africa-integrator-flags.md. Detector: node docs/verification/name-audit.js. 514 worklist entries remain after waves 1-12. RE-VERIFICATION wave13 (2026-08-07): the 4 exact-duplicate placeholder pairs (Bauchi Chadic/Karekare 385+1935; Bambara/Soninke 1103+1549; Vengo/Mankon 2058+2292) and Zenati Berber 2341 were rebuilt from scratch with real per-language settlement lists (30-66 names each) and re-applied; guardrails green. 286-entry near-duplicate contamination (dup-audit.js --overlap) across the 200000-block and scattered others remains OPEN - those COMPLETE markings from waves 1-12 are untrusted until re-checked. Wave-14 (2026-08-07): re-verified 27 Chadic entries that carried the forbidden region token Mayo-Kebbi (or were in 60%+ overlap pairs) - all rebuilt from scratch with real per-language village lists (13 COMPLETE, 14 WAITING). Guardrails green. Remaining 200xxx contamination: ~127 entries still in 60%+ overlap pairs (the core generated-pool block) need re-verification; plus Tayo Creole (200903) is a New Caledonia creole misplaced in Africa and should move to an Oceania namebase."
   ],
-  "lastUpdate": "2026-08-07T13:10:00Z",
-  "completedEntries": 202,
+  "lastUpdate": "2026-08-07",
+  "completedEntries": 236,
   "protocolVersion": "2.0-bulletproof",
   "startedAt": "2026-06-30T02:30:00Z",
   "totalEntries": 790,
@@ -202,6 +202,44 @@
       "Wushi (i=2426)": "COMPLETE - 27",
       "Yulu (i=2434)": "COMPLETE - 28",
       "Air Tamajeq (i=2473)": "WAITING - 19"
+    },
+    "wave13ReopenContaminated": {
+      "Bauchi Chadic (i=385)": "COMPLETE - 66 (rebuilt from South Bauchi/Barawa cluster; was generic Yobe/Bauchi town dump)",
+      "Karekare (i=1935)": "COMPLETE - 50 (rebuilt; Yobe/Bauchi/Gombe; was dump)",
+      "Bambara (i=1103)": "COMPLETE - 40 (rebuilt from Segu/Koulikoro heartland; was Mali-cities dump)",
+      "Soninke (i=1549)": "COMPLETE - 40 (rebuilt from Soninke village tables; was Mali-cities dump)",
+      "Vengo (i=2058)": "COMPLETE - 30 (rebuilt as Babungo quarters; was Grassfields fondom dump)",
+      "Mankon (i=2292)": "COMPLETE - 46 (rebuilt as Mankon/Ngemba quarters; was fondom dump)",
+      "Zenati Berber (i=2341)": "COMPLETE - 34 (rebuilt from Mzab/Ouargla/Tugurt/South-Oran/Beni-Snous; was Algeria-cities dump)"
+    },
+    "wave14ChadicMayoKebbiReopen": {
+      "Bina (200010)": "WAITING 24 (East Kainji, not Chadic; Nigeria)",
+      "Kabalai (200042)": "WAITING 20 (Tandjile not Mayo-Kebbi)",
+      "Kera (200048)": "WAITING 26",
+      "Kimre (200050)": "WAITING 28 (Tandjile)",
+      "Kwang (200059)": "WAITING 29 (Chad not Cameroon)",
+      "Lele Chad (200062)": "WAITING 29 (Tandjile Ouest)",
+      "Marba (200075)": "COMPLETE 35",
+      "Masa macro (200078)": "COMPLETE 32",
+      "Masa North (200079)": "COMPLETE 30",
+      "Masa South (200080)": "COMPLETE 39",
+      "Maslam (200081)": "WAITING 10 (Kotoko, Cameroon)",
+      "Massa (200083)": "COMPLETE 32",
+      "Mawa (200085)": "WAITING 4 (Guera Chad)",
+      "Mbara Chad (200087)": "WAITING 8",
+      "Musey (200113)": "COMPLETE 51",
+      "Musgu (200114)": "COMPLETE 52",
+      "Muskum (200115)": "WAITING 18 (extinct)",
+      "Nancere (200121)": "COMPLETE 46",
+      "Ndam (200123)": "WAITING 24",
+      "Ngambay (200124)": "COMPLETE 57",
+      "Ngete-Herde (200127)": "WAITING 25",
+      "Saba (200158)": "WAITING 30 (East Chadic Guera, not Bauchi)",
+      "Sar (200161)": "COMPLETE 34 (Central Sudanic)",
+      "Sokoro (200169)": "COMPLETE 34 (Guera)",
+      "Somrai (200170)": "COMPLETE 45",
+      "Southern Gabri (200175)": "COMPLETE 36",
+      "Tayo Creole (200903)": "WAITING 23 (NEW CALEDONIA - misplaced, relocate)"
     }
   },
   "patternsIdentified": {
