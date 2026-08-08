@@ -546,20 +546,20 @@ window.dedicatedNameBases = [
 {
     "name": "Lagwan",
   "i": 200060,
-  "min": 4,
-  "max": 11,
+  "min": 3,
+  "max": 12,
   "d": "lnrt",
   "m": 0,
-  "b": "Lagwan,Gwoza,Bama,Askira-Uba,Damboa,Konduga,Mafa,Monguno,Ngala,Kala-Balge,Marte,Kukawa,Gubio,Magumeri,Abadam,Guzamala,Kaga,Kondunga,Mobar,Nganzai,Gajiganna,Gajiram,Cross Kauwa,Baga,Kauwa,Rann,Gamboru,Damasak,Wulgo,Chibok,Michika,Mubi,Madagali,Hong,Maiha,Gombi,Song,Kwami,Pindiga,Numan,Jimeta,Yola,Ganye,Jada,Rabai,Manga,Merti,Hula,Kaxare,Bacadweyn,Burdhubo,Ogembo,SouthHorr,Dhalwo,Aqable,Jariiban,Garbaharey,Geza,Anebsa,Apogra,Adimra,Abitsa,Afunsa,Alebra,Amotta,Afumra,Anasra,Abomta,Anogra,Adera,Afonra,Akonta,Akotsa,Lagwanla,Lagwanma,Lagwanwa,Lagwanra,Lagwanka,Bouaké,Doron Baga,Samburu"
+  "b": "Logone-Birni, Logone-Gana, Mré, Kabela"
 },
 {
     "name": "Lamang",
   "i": 200061,
   "min": 4,
-  "max": 11,
+  "max": 9,
   "d": "lnrt",
   "m": 0,
-  "b": "Lamang,Gwoza,Bama,Askira-Uba,Damboa,Konduga,Mafa,Monguno,Ngala,Kala-Balge,Marte,Kukawa,Gubio,Magumeri,Abadam,Guzamala,Kaga,Kondunga,Mobar,Nganzai,Gajiganna,Gajiram,Cross Kauwa,Baga,Kauwa,Rann,Gamboru,Damasak,Wulgo,Chibok,Michika,Mubi,Madagali,Hong,Maiha,Gombi,Song,Kwami,Pindiga,Numan,Jimeta,Yola,Ganye,Jada,Shimba,Tabaka,Marsabit,Murcanyo,Buqda,Galkacyo,Elwak,Mkonumbi,Isebania,Maikona,Cagare,WarSheikh,Dhuusamareeb,Janjan,Mfangano,Alitwa,Afibbwe,Amarka,Adusbwe,Auwa,Ananka,Aisbwe,Aforbwe,Abibwa,Abakbwe,Alambwe,Apetwa,Amatka,Aledbwe,Afuwa,Lamangla,Lamangma,Lamangwa,Lamangra,Lamangka,Doron Baga"
+  "b": "Gwoza, Wakane, Hidkala, Vile, Hambagda, Hudugum, Luvua, Uvagha, Limankara, Waga, Wala, Fachikwe, Divili"
 },
 {
     "name": "Lele language (Chad)",
@@ -574,28 +574,28 @@ window.dedicatedNameBases = [
     "name": "Lozi",
   "i": 200063,
   "min": 4,
-  "max": 11,
+  "max": 13,
   "d": "lnrt",
   "m": 0,
-  "b": "Mongu,Limulunga,Senanga,Sesheke,Kazungula,Livingstone,Lealui,Nalolo,Sikongo,Kaoma,Mulobezi,Kalabo,Lukulu,Shangombo,Sioma,Gwabo,Mwandi,Chunga,Katima Mulilo,Bukalo,Linyanti,Kongola,Sibbinda,Chinchimani,Muyako,Sangwali,Pandamatenga,Nata,Shoshong,Mahalapye,Palapye,Serowe,Francistown,Orapa,Letlhakane,Jwaneng,Kanye,Molepolole,Thamga,Mogoditshane,Gaborone,Sindo,Galole,Kalokol,Harardera,Mahaday,Yeed,Kidimu,Kiunga,Kibish,Wanleweyn,Dolow,Gongoni,Bondo,Alikka,Afakka,Anudwa,Arola,Aporka,Apubwa,Afikla,Ademka,Adasla,Akunwa,Amuska,Abala,Abiska,Apuwa,Amerka,Lozila,Lozima,Loziwa,Lozira,Lozika,HomaBay,GofKudle"
+  "b": "Mongu, Limulunga, Lealui, Nalolo, Senanga, Sesheke, Kalabo, Lukulu, Kaoma, Mulobezi, Mwandi, Sikongo, Shangombo, Sioma, Libonda, Namushakende, Nangweshi, Sefula, Watopa, Sichili, Kalongola, Sitoti, Kazungula, Katima Mulilo, Bukalo, Kongola, Sibbinda, Chinchimani, Muyako, Linyanti, Sangwali, Ngoma, Ibbu, Luhonono"
 },
 {
     "name": "Maaka",
   "i": 200064,
   "min": 4,
-  "max": 11,
+  "max": 6,
   "d": "lnrt",
   "m": 0,
-  "b": "Maaka,Gujba,Gulani,Bara,Fika,Potiskum,Nangere,Dukku,Alkaleri,Darazo,Kalam,Kwami,Pikka,Funakaye,Nafada,Biri,Gerikom,Gabukka,Bolari,Bomala,Bojule,Tappi,Dirri,Jore,Yame,Dawo,Komi,Bele,Inkil,Kirfi,Toro,Misau,Gamawa,Jama'are,Katagum,Shira,Giade,Itas,Zaki,Azare,Bulkachuwa,Faza,Omorate,Qoton,Afgoi,Beledhawo,Jamia,Siaya,Samburu,Ririba,Galolk,CeelAfweyn,Baidoa,Chara,Webuye,Afinfa,Abusra,Apibra,Apobfa,Anokra,Abulra,Anegfa,Adegra,Amenfa,Abitfa,Afitra,Adegma,Anerma,Anesra,Apegfa,Maakala,Maakama,Maakawa,Maakara,Maakaka,Dadin Kowa,KenduBay"
+  "b": "Gulani, Bara"
 },
 {
     "name": "Mabire",
   "i": 200065,
   "min": 4,
-  "max": 11,
+  "max": 9,
   "d": "lnrt",
   "m": 0,
-  "b": "Mabire,Guéra,Mongo,Bitkine,Melfi,Abtouyour,Batha,Am Timan,Abou Deïa,Adré,Am Dam,Assinet,Bahaï,Baktchoro,Biltine,Daguessa,Djourf Al Ahmar,Ennedi,Fada,Iriba,Ounianga,Am Zoer,Bitchotchi,Dourbali,Goundi,Koumra,Kyabé,Mbaïbokoum,Mbaïkoro,Ndam,Ngourkosso,Sarh,Béré,Béladja,Béssao,Danamadji,Déressia,Djedah,Fianga,Goré,Grégué,Guélengdeng,Kélo,Léré,Moundou,Pala,Vihiga,Mariakani,Moyale,SaLul,Erigavo,Baardheere,Bwiti,Bungoma,Lamu,Imi,GeedWeen,Karindoolay,Gamey,Kipini,Nyakoe,Aputna,Amadwa,Apimna,Akugwa,Afelna,Abekna,Akolna,Alodla,Amudna,Abosla,Abanna,Apomla,Afodwa,Abeswa,Apikna,Mabirela,Mabirema,Mabirewa,Mabirera,Mabireka,Dar Tama"
+  "b": "Oulek, Katch, Amdjaména, Arga, Mambire"
 },
 {
     "name": "Mada",
