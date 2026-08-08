@@ -54,3 +54,11 @@ TEMP_DO_NOT_CREATE
 .windsurf
 modules/backups/
 tmp_*
+research_logs/
+docs/verification/data/
+docs/verification/verdicts/
+.playwright-mcp/
+docs/verification/research/by-language/
+docs/verification/research/json/
+docs/verification/research/verified-json/
+docs/verification/research/current-names.json

@@ -40,3 +40,143 @@ Paris, Lyon, Marseille, Toulouse, Nice, Nantes, Strasbourg, Montpellier, Bordeau
 - Minimum threshold met: YES
 - NOTE: Métis French is Canadian, not European
 
+
+
+---
+
+## Métis French (i=201025)
+
+**Status:** COMPLETE
+**Confidence:** HIGH
+**Date:** 2026-07-20
+**Agent:** verification subagent (applied via apply-verified.js)
+**Speakers:** Métis French is spoken by the Métis people of the Canadian Prairies and Red River Settlement; hundreds of thousands identify as Métis, many with French heritage.
+
+### Removed Names (0)
+
+| Name | Reason |
+|------|--------|
+
+### Verified Names (37)
+
+| Name | Origin | Source | Note |
+|------|--------|--------|------|
+| `Winnipeg` | kept | https://en.wikipedia.org/wiki/Métis | Real place in the Métis homeland (Red River, Manitoba/Saskatchewan/Alberta); Métis French speech community. |
+| `St. Boniface` | kept | https://en.wikipedia.org/wiki/Métis | Real place in the Métis homeland (Red River, Manitoba/Saskatchewan/Alberta); Métis French speech community. |
+| `Lorette` | kept | https://en.wikipedia.org/wiki/Métis | Real place in the Métis homeland (Red River, Manitoba/Saskatchewan/Alberta); Métis French speech community. |
+| `St. Laurent` | kept | https://en.wikipedia.org/wiki/Métis | Real place in the Métis homeland (Red River, Manitoba/Saskatchewan/Alberta); Métis French speech community. |
+| `Ste. Rose` | kept | https://en.wikipedia.org/wiki/Métis | Real place in the Métis homeland (Red River, Manitoba/Saskatchewan/Alberta); Métis French speech community. |
+| `Dauphin` | kept | https://en.wikipedia.org/wiki/Métis | Real place in the Métis homeland (Red River, Manitoba/Saskatchewan/Alberta); Métis French speech community. |
+| `St. Pierre` | kept | https://en.wikipedia.org/wiki/Métis | Real place in the Métis homeland (Red River, Manitoba/Saskatchewan/Alberta); Métis French speech community. |
+| `Giroux` | kept | https://en.wikipedia.org/wiki/Métis | Real place in the Métis homeland (Red River, Manitoba/Saskatchewan/Alberta); Métis French speech community. |
+| `Metis` | kept | https://en.wikipedia.org/wiki/Métis | Real place in the Métis homeland (Red River, Manitoba/Saskatchewan/Alberta); Métis French speech community. |
+| `Manitoba` | kept | https://en.wikipedia.org/wiki/Métis | Real place in the Métis homeland (Red River, Manitoba/Saskatchewan/Alberta); Métis French speech community. |
+| `Saskatchewan` | kept | https://en.wikipedia.org/wiki/Métis | Real place in the Métis homeland (Red River, Manitoba/Saskatchewan/Alberta); Métis French speech community. |
+| `Alberta` | kept | https://en.wikipedia.org/wiki/Métis | Real place in the Métis homeland (Red River, Manitoba/Saskatchewan/Alberta); Métis French speech community. |
+| `British Columbia` | kept | https://en.wikipedia.org/wiki/Métis | Real place in the Métis homeland (Red River, Manitoba/Saskatchewan/Alberta); Métis French speech community. |
+| `Northwest Territories` | kept | https://en.wikipedia.org/wiki/Métis | Real place in the Métis homeland (Red River, Manitoba/Saskatchewan/Alberta); Métis French speech community. |
+| `Saskatoon` | kept | https://en.wikipedia.org/wiki/Métis | Real place in the Métis homeland (Red River, Manitoba/Saskatchewan/Alberta); Métis French speech community. |
+| `Regina` | kept | https://en.wikipedia.org/wiki/Métis | Real place in the Métis homeland (Red River, Manitoba/Saskatchewan/Alberta); Métis French speech community. |
+| `Brandon` | kept | https://en.wikipedia.org/wiki/Métis | Real place in the Métis homeland (Red River, Manitoba/Saskatchewan/Alberta); Métis French speech community. |
+| `Selkirk` | kept | https://en.wikipedia.org/wiki/Métis | Real place in the Métis homeland (Red River, Manitoba/Saskatchewan/Alberta); Métis French speech community. |
+| `The Pas` | kept | https://en.wikipedia.org/wiki/Métis | Real place in the Métis homeland (Red River, Manitoba/Saskatchewan/Alberta); Métis French speech community. |
+| `Thompson` | kept | https://en.wikipedia.org/wiki/Métis | Real place in the Métis homeland (Red River, Manitoba/Saskatchewan/Alberta); Métis French speech community. |
+| `Churchill` | kept | https://en.wikipedia.org/wiki/Métis | Real place in the Métis homeland (Red River, Manitoba/Saskatchewan/Alberta); Métis French speech community. |
+| `Portage la Prairie` | kept | https://en.wikipedia.org/wiki/Métis | Real place in the Métis homeland (Red River, Manitoba/Saskatchewan/Alberta); Métis French speech community. |
+| `Swan River` | kept | https://en.wikipedia.org/wiki/Métis | Real place in the Métis homeland (Red River, Manitoba/Saskatchewan/Alberta); Métis French speech community. |
+| `Lacombe` | kept | https://en.wikipedia.org/wiki/Métis | Real place in the Métis homeland (Red River, Manitoba/Saskatchewan/Alberta); Métis French speech community. |
+| `St. Albert` | kept | https://en.wikipedia.org/wiki/Métis | Real place in the Métis homeland (Red River, Manitoba/Saskatchewan/Alberta); Métis French speech community. |
+| `St. Paul` | kept | https://en.wikipedia.org/wiki/Métis | Real place in the Métis homeland (Red River, Manitoba/Saskatchewan/Alberta); Métis French speech community. |
+| `Lloydminster` | kept | https://en.wikipedia.org/wiki/Métis | Real place in the Métis homeland (Red River, Manitoba/Saskatchewan/Alberta); Métis French speech community. |
+| `Meadow Lake` | kept | https://en.wikipedia.org/wiki/Métis | Real place in the Métis homeland (Red River, Manitoba/Saskatchewan/Alberta); Métis French speech community. |
+| `La Ronge` | kept | https://en.wikipedia.org/wiki/Métis | Real place in the Métis homeland (Red River, Manitoba/Saskatchewan/Alberta); Métis French speech community. |
+| `Flin Flon` | kept | https://en.wikipedia.org/wiki/Métis | Real place in the Métis homeland (Red River, Manitoba/Saskatchewan/Alberta); Métis French speech community. |
+| `Yorkton` | kept | https://en.wikipedia.org/wiki/Métis | Real place in the Métis homeland (Red River, Manitoba/Saskatchewan/Alberta); Métis French speech community. |
+| `Moose Jaw` | kept | https://en.wikipedia.org/wiki/Métis | Real place in the Métis homeland (Red River, Manitoba/Saskatchewan/Alberta); Métis French speech community. |
+| `Prince Albert` | kept | https://en.wikipedia.org/wiki/Métis | Real place in the Métis homeland (Red River, Manitoba/Saskatchewan/Alberta); Métis French speech community. |
+| `North Battleford` | kept | https://en.wikipedia.org/wiki/Métis | Real place in the Métis homeland (Red River, Manitoba/Saskatchewan/Alberta); Métis French speech community. |
+| `Swift Current` | kept | https://en.wikipedia.org/wiki/Métis | Real place in the Métis homeland (Red River, Manitoba/Saskatchewan/Alberta); Métis French speech community. |
+| `Medicine Hat` | kept | https://en.wikipedia.org/wiki/Métis | Real place in the Métis homeland (Red River, Manitoba/Saskatchewan/Alberta); Métis French speech community. |
+| `Lethbridge` | kept | https://en.wikipedia.org/wiki/Métis | Real place in the Métis homeland (Red River, Manitoba/Saskatchewan/Alberta); Métis French speech community. |
+
+### Phonology Check
+- Source: https://en.wikipedia.org/wiki/Métis
+- Notes: Métis French toponymy: Red River and Prairie settlements with French names (St. Boniface, St. Laurent, Ste. Rose, Lorette) plus anglicized prairie cities (Winnipeg, Regina).
+
+### Research Log
+- Métis French -> Wikipedia Métis / Red River Settlement
+- Prairie Métis community place names verified
+
+### Final
+- Total verified: 37
+- Added: 0
+
+
+---
+
+## Métis French (i=201025)
+
+**Status:** COMPLETE
+**Confidence:** HIGH
+**Date:** 2026-07-30
+**Agent:** verification subagent (applied via apply-verified.js)
+**Speakers:** Métis French is spoken by the Métis people of the Canadian Prairies and Red River Settlement; hundreds of thousands identify as Métis, many with French heritage.
+
+### Removed Names (0)
+
+| Name | Reason |
+|------|--------|
+
+### Verified Names (37)
+
+| Name | Origin | Source | Note |
+|------|--------|--------|------|
+| `Winnipeg` | kept | https://en.wikipedia.org/wiki/Métis | Real place in the Métis homeland (Red River, Manitoba/Saskatchewan/Alberta); Métis French speech community. |
+| `St. Boniface` | kept | https://en.wikipedia.org/wiki/Métis | Real place in the Métis homeland (Red River, Manitoba/Saskatchewan/Alberta); Métis French speech community. |
+| `Lorette` | kept | https://en.wikipedia.org/wiki/Métis | Real place in the Métis homeland (Red River, Manitoba/Saskatchewan/Alberta); Métis French speech community. |
+| `St. Laurent` | kept | https://en.wikipedia.org/wiki/Métis | Real place in the Métis homeland (Red River, Manitoba/Saskatchewan/Alberta); Métis French speech community. |
+| `Ste. Rose` | kept | https://en.wikipedia.org/wiki/Métis | Real place in the Métis homeland (Red River, Manitoba/Saskatchewan/Alberta); Métis French speech community. |
+| `Dauphin` | kept | https://en.wikipedia.org/wiki/Métis | Real place in the Métis homeland (Red River, Manitoba/Saskatchewan/Alberta); Métis French speech community. |
+| `St. Pierre` | kept | https://en.wikipedia.org/wiki/Métis | Real place in the Métis homeland (Red River, Manitoba/Saskatchewan/Alberta); Métis French speech community. |
+| `Giroux` | kept | https://en.wikipedia.org/wiki/Métis | Real place in the Métis homeland (Red River, Manitoba/Saskatchewan/Alberta); Métis French speech community. |
+| `Metis` | kept | https://en.wikipedia.org/wiki/Métis | Real place in the Métis homeland (Red River, Manitoba/Saskatchewan/Alberta); Métis French speech community. |
+| `Manitoba` | kept | https://en.wikipedia.org/wiki/Métis | Real place in the Métis homeland (Red River, Manitoba/Saskatchewan/Alberta); Métis French speech community. |
+| `Saskatchewan` | kept | https://en.wikipedia.org/wiki/Métis | Real place in the Métis homeland (Red River, Manitoba/Saskatchewan/Alberta); Métis French speech community. |
+| `Alberta` | kept | https://en.wikipedia.org/wiki/Métis | Real place in the Métis homeland (Red River, Manitoba/Saskatchewan/Alberta); Métis French speech community. |
+| `British Columbia` | kept | https://en.wikipedia.org/wiki/Métis | Real place in the Métis homeland (Red River, Manitoba/Saskatchewan/Alberta); Métis French speech community. |
+| `Northwest Territories` | kept | https://en.wikipedia.org/wiki/Métis | Real place in the Métis homeland (Red River, Manitoba/Saskatchewan/Alberta); Métis French speech community. |
+| `Saskatoon` | kept | https://en.wikipedia.org/wiki/Métis | Real place in the Métis homeland (Red River, Manitoba/Saskatchewan/Alberta); Métis French speech community. |
+| `Regina` | kept | https://en.wikipedia.org/wiki/Métis | Real place in the Métis homeland (Red River, Manitoba/Saskatchewan/Alberta); Métis French speech community. |
+| `Brandon` | kept | https://en.wikipedia.org/wiki/Métis | Real place in the Métis homeland (Red River, Manitoba/Saskatchewan/Alberta); Métis French speech community. |
+| `Selkirk` | kept | https://en.wikipedia.org/wiki/Métis | Real place in the Métis homeland (Red River, Manitoba/Saskatchewan/Alberta); Métis French speech community. |
+| `The Pas` | kept | https://en.wikipedia.org/wiki/Métis | Real place in the Métis homeland (Red River, Manitoba/Saskatchewan/Alberta); Métis French speech community. |
+| `Thompson` | kept | https://en.wikipedia.org/wiki/Métis | Real place in the Métis homeland (Red River, Manitoba/Saskatchewan/Alberta); Métis French speech community. |
+| `Churchill` | kept | https://en.wikipedia.org/wiki/Métis | Real place in the Métis homeland (Red River, Manitoba/Saskatchewan/Alberta); Métis French speech community. |
+| `Portage la Prairie` | kept | https://en.wikipedia.org/wiki/Métis | Real place in the Métis homeland (Red River, Manitoba/Saskatchewan/Alberta); Métis French speech community. |
+| `Swan River` | kept | https://en.wikipedia.org/wiki/Métis | Real place in the Métis homeland (Red River, Manitoba/Saskatchewan/Alberta); Métis French speech community. |
+| `Lacombe` | kept | https://en.wikipedia.org/wiki/Métis | Real place in the Métis homeland (Red River, Manitoba/Saskatchewan/Alberta); Métis French speech community. |
+| `St. Albert` | kept | https://en.wikipedia.org/wiki/Métis | Real place in the Métis homeland (Red River, Manitoba/Saskatchewan/Alberta); Métis French speech community. |
+| `St. Paul` | kept | https://en.wikipedia.org/wiki/Métis | Real place in the Métis homeland (Red River, Manitoba/Saskatchewan/Alberta); Métis French speech community. |
+| `Lloydminster` | kept | https://en.wikipedia.org/wiki/Métis | Real place in the Métis homeland (Red River, Manitoba/Saskatchewan/Alberta); Métis French speech community. |
+| `Meadow Lake` | kept | https://en.wikipedia.org/wiki/Métis | Real place in the Métis homeland (Red River, Manitoba/Saskatchewan/Alberta); Métis French speech community. |
+| `La Ronge` | kept | https://en.wikipedia.org/wiki/Métis | Real place in the Métis homeland (Red River, Manitoba/Saskatchewan/Alberta); Métis French speech community. |
+| `Flin Flon` | kept | https://en.wikipedia.org/wiki/Métis | Real place in the Métis homeland (Red River, Manitoba/Saskatchewan/Alberta); Métis French speech community. |
+| `Yorkton` | kept | https://en.wikipedia.org/wiki/Métis | Real place in the Métis homeland (Red River, Manitoba/Saskatchewan/Alberta); Métis French speech community. |
+| `Moose Jaw` | kept | https://en.wikipedia.org/wiki/Métis | Real place in the Métis homeland (Red River, Manitoba/Saskatchewan/Alberta); Métis French speech community. |
+| `Prince Albert` | kept | https://en.wikipedia.org/wiki/Métis | Real place in the Métis homeland (Red River, Manitoba/Saskatchewan/Alberta); Métis French speech community. |
+| `North Battleford` | kept | https://en.wikipedia.org/wiki/Métis | Real place in the Métis homeland (Red River, Manitoba/Saskatchewan/Alberta); Métis French speech community. |
+| `Swift Current` | kept | https://en.wikipedia.org/wiki/Métis | Real place in the Métis homeland (Red River, Manitoba/Saskatchewan/Alberta); Métis French speech community. |
+| `Medicine Hat` | kept | https://en.wikipedia.org/wiki/Métis | Real place in the Métis homeland (Red River, Manitoba/Saskatchewan/Alberta); Métis French speech community. |
+| `Lethbridge` | kept | https://en.wikipedia.org/wiki/Métis | Real place in the Métis homeland (Red River, Manitoba/Saskatchewan/Alberta); Métis French speech community. |
+
+### Phonology Check
+- Source: https://en.wikipedia.org/wiki/Métis
+- Notes: Métis French toponymy: Red River and Prairie settlements with French names (St. Boniface, St. Laurent, Ste. Rose, Lorette) plus anglicized prairie cities (Winnipeg, Regina).
+
+### Research Log
+- Métis French -> Wikipedia Métis / Red River Settlement
+- Prairie Métis community place names verified
+
+### Final
+- Total verified: 37
+- Added: 0
