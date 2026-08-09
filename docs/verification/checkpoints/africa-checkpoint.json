@@ -2,7 +2,7 @@
   "blockers": [
     "Many remaining entries are micro-languages or cover terms that cannot reach 25 verified names (marked WAITING). SYSTEMIC ISSUE FOUND 2026-08-07: some entries' name fields are corrupt and disagree with the mixer binding, and some mixer bindings point at an unrelated language. See docs/verification/reports/africa-integrator-flags.md. Detector: node docs/verification/name-audit.js. 514 worklist entries remain after waves 1-12. RE-VERIFICATION wave13 (2026-08-07): the 4 exact-duplicate placeholder pairs (Bauchi Chadic/Karekare 385+1935; Bambara/Soninke 1103+1549; Vengo/Mankon 2058+2292) and Zenati Berber 2341 were rebuilt from scratch with real per-language settlement lists (30-66 names each) and re-applied; guardrails green. 286-entry near-duplicate contamination (dup-audit.js --overlap) across the 200000-block and scattered others remains OPEN - those COMPLETE markings from waves 1-12 are untrusted until re-checked. Wave-14 (2026-08-07): re-verified 27 Chadic entries that carried the forbidden region token Mayo-Kebbi (or were in 60%+ overlap pairs) - all rebuilt from scratch with real per-language village lists (13 COMPLETE, 14 WAITING). Guardrails green. Remaining 200xxx contamination: ~127 entries still in 60%+ overlap pairs (the core generated-pool block) need re-verification; plus Tayo Creole (200903) is a New Caledonia creole misplaced in Africa and should move to an Oceania namebase. Wave-15 (2026-08-07): re-verified 85 entries across 4 Chadic/Adamawa cluster batches (Mandara pool, W.Chadic-B pool, Cameroon Mofu pool, Plateau/Adamawa Nigeria pool). 11 COMPLETE, 74 WAITING. Many entries found MISPLACED: several are Bauchi State not Adamawa (Galambu, Gera, Geruma, Giiwo, Guruntum, Tala, Jimi Nigeria, Kir-Balar, Polci, Jibyal); several are CHAD not Cameroon (Tamki, Mesme, Peve, Sarua, Jonkor, Gadang); Geme=CAR, Gendza=DRC Bantu, Omo-Tana=Cushitic family-node (retire); Miler=Plateau Nigeria not Cameroon; Juk=Jukunoid Taraba. 200xxx overlap block fell 127->62. Guardrails green."
   ],
-  "lastUpdate": "2026-08-08T13:30",
+  "lastUpdate": "2026-08-08T19:45",
   "completedEntries": 795,
   "protocolVersion": "2.0-bulletproof",
   "startedAt": "2026-06-30T02:30:00Z",
@@ -443,5 +443,41 @@
       "200065 Mabire": "WAITING 5 (EXTINCT E Chadic Dangla, Guera Chad ~3 spk 2001; all 82 removed, 5 Mabire-specific villages kept)"
     },
     "remaining_note": "Remaining=351. 165 200xxx entries are the untrusted contamination block; re-verified slices 200000-200065 so far (200011 Biu-Mandara + 200152/200172/200070 covers cleared earlier; also verified-in-waves Kera/200048, Kimre/200050, Kwang/200059, Lele/200062, Kabalai/200042, Jina/200038, Jonkor/200039 empty). Slice COMPLETE entries (Kamwe/Kanakuru/Kajakse/Karai-karai/Juhoan/Kulere/Kwaami/Lozi) used some large single-source village-list additions - flagged Rule-3 caveat, acceptable for majority-LGA languages but candidates for re-narrowing. Rest of 351 are pre-verified entries needing research-log backfill + remaining 200xxx (200066 onward). NOTE: Lagwan (200060) was found to be Kotoko-Logone of Logone-Birni CHAD, NOT the Borno Lamang - the prior Borno block was contamination. Next: continue 200xxx re-verify from 200066 onward."
+  },
+  "pass4_continue_200xxx": {
+    "started": "2026-08-08T15:40",
+    "scope": "Continue re-verification of 200xxx contamination block from 200066 onward (200000-200065 done in prior session slices 1-7). Genuine per-name web verification via research subagents; verdict JSONs applied via Edit tool to namebases-africa.js and mirrored to namebases-dedicated.js.",
+    "applied": {
+      "200064 Maaka": "WAITING 2 - no-op (file already held Gulani,Bara; Yobe State Maaka, not Nasarawa Mada; both verified)",
+      "200066 Mada": "COMPLETE 30 - Plateau Ninzic (Nasarawa); Kokona/Gburmwa/Keffi removed (admin/feature/out-of-area), 28 added from Mada Dictionary + Chiefdom districts",
+      "200067 Mafa": "COMPLETE 111 - Central Chadic Mokolo/Koza Cameroon; 83 removed (Borno LGAs, Somalia/Kenya cross-continent, Mafa*/-bwe fabrications), rebuilt from fr.wikipedia commune lists + mandaras.info",
+      "200068 Majera": "WAITING 3 - IDENTITY FIX: not Mokolo Mafa but Mida'a/Kotoko-South Logone-et-Chari; 74 removed, kept Majera + added Mazera + Dogwea",
+      "200069 Malagasy": "COMPLETE 99 - Madagascar settlements; 41 removed (Markov strings, Kenya/Somalia/Senegal cross-continent, colonial forms), 68 added; d fixed lnrt->\"\" (Austronesian), m->0.1",
+      "200071 Malgbe": "WAITING 40 - IDENTITY FIX: Kotoko/Mandage (Goulfey Logone-et-Chari), not Mokolo Mafa; 80 removed (Borno LGAs, Kenya/Somalia, Malgbe* fabrications), 40 Goulfey-commune villages added (indigenous Malgbwe kept over colonial Goulfey)",
+      "200072 Manding": "COMPLETE 74 - Mande continuum (Mali/Guinea/Senegal/CI/Burkina/Gambia); 27 removed (Saharan Songhay/Tuareg/Fula/Dogon + Manding* pads), 51 added; d lnrt->\"\" (Mande), m->0.1",
+      "200073 Mantsi": "WAITING 2 - South Bauchi (Bauchi, not Plateau); Mantsi label removed, kept Mangas+Dungulbi (GeoNames confirmed)",
+      "200074 Mao Omotic": "WAITING 8 - Northern Mao/Bambassi (Benishangul); 24 removed (Gambela Anuak/Nuer + MaoOmotic* fabrications), 8 verified; d lnrt->\"\"",
+      "200075 Marba": "COMPLETE 48 - North Masa (Tandjilé Chad); 5 removed (ethnonyms Mésmé/Dogou/Léo/Leou/Nangda Kandji), 18 added from GeoNames Marba clan territories",
+      "200076 Margi": "COMPLETE 53 - Biu-Mandara (Askira/Uba + Madagali LGAs, Nigeria); 73 removed (cross-continent Kenya/Somalia, Margi*/A* fabrications, Tera/Gombe towns), 44 added from Borno village lists",
+      "200077 Margi South": "WAITING 2 - mfm (Askira-Uba/Hong LGAs); 79 removed, kept Hildi+Wamdiu (Blench/GRN/Vaughan converge on just 2)",
+      "200078 Masa (macro)": "WAITING empty - COVER TERM (Masa branch of Biu-Mandara), not Massa proper; b emptied per Rule 4",
+      "200079 Masa North": "COMPLETE 29 - Massa (Mayo-Danay Cameroon); Danay (dept admin) removed",
+      "200080 Masa South": "COMPLETE 28 - Massa (Guéré/Wina Cameroon); 11 removed (Toupouri/Mafa villages, unattested), 2 added",
+      "200081 Maslam": "WAITING 2 - North Kotoko (2 villages NW Kousséri); 8 removed",
+      "200082 Masmaje": "WAITING 3 - IDENTITY FIX: East Chadic Mubi group of CHAD (Batha-Est), not Mokolo Cameroon; 82 removed",
+      "200083 Massa": "COMPLETE 53 - Masana (Mayo-Danay Cameroon); 12 removed (dialect labels + Toupouri/Mousgoum villages), 33 added from ORSTOM Mayo-Danai village dict",
+      "200084 Matal": "WAITING 20 - IDENTITY FIX: Mouktélé/Muktele, Zouelva/Baldama cantons (Mora), not Mokolo; 20 removed (Kolofata/Wandala plain), 8 added",
+      "200085 Mawa": "WAITING 2 - IDENTITY FIX: Chad Mawa (mcw, Guéra), not extinct Nigerian wma; kept Mahoua+Gourara",
+      "200086 Mazagway": "WAITING 12 - Central Chadic Daba dkx (Guider), not Chadian Masmaje; 14 Hina-roster removed (no Mazagway attestation)",
+      "200087 Mbara Chad": "WAITING 1 - only Guélengdeng verified (single-town language, mpk)",
+      "200088 Mbudum": "WAITING 2 - single-village language (Boudoum); 24 removed, no padding",
+      "200089 Mbuko": "WAITING 20 - Meri/Diamaré cantons; 4 removed (Serawa/Mbokou area), 20 kept"
+    },
+    "guardrails": "green (map=3425 catalog=3526) after applying 200066-200069 + mirrored to dedicated.js",
+    "resumeIndex": 200090,
+    "resumeEntry": "Mburku (i=200090)",
+    "guardrails2": "green (map=3425 catalog=3526) after applying 200071-200075 + mirrored to dedicated.js",
+    "guardrails3": "green (map=3425 catalog=3526) after applying 200076-200082 + mirrored 200080-082 to dedicated.js (200076-079 absent from dedicated shadow)",
+    "guardrails4": "green (map=3425 catalog=3526) after applying 200083-200089 + mirrored to dedicated.js (all 7 present)"
   }
 }

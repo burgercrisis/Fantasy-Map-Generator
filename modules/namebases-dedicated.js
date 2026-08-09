@@ -601,37 +601,37 @@ window.dedicatedNameBases = [
     "name": "Mada",
   "i": 200066,
   "min": 4,
-  "max": 11,
+  "max": 8,
   "d": "lnrt",
   "m": 0,
-  "b": "Akwanga,Kokona,Gburmwa,Nunku,Keffi"
+  "b": "Akwanga,Kagba,Rija,Gbin,Ancho,Ncacun,Anjagwa,Gbugyar,Bohar,Ningo,Nunku,Nunkucun,Anjida,Andaha,Numa,Nidan,Mante,Nighaan,Gwanje,Gbuncu,Kambre,Mochu,Katanza,Gwadi,Kwandar,Ntsakpe,Goho,Gbaja,Gbumkpan,Nzan"
 },
 {
     "name": "Mafa",
   "i": 200067,
   "min": 4,
-  "max": 11,
+  "max": 14,
   "d": "lnrt",
-  "m": 0,
-  "b": "Mafa,Gwoza,Bama,Askira-Uba,Damboa,Konduga,Monguno,Ngala,Kala-Balge,Marte,Kukawa,Gubio,Magumeri,Abadam,Guzamala,Kaga,Kondunga,Mobar,Nganzai,Gajiganna,Gajiram,Cross Kauwa,Baga,Kauwa,Rann,Gamboru,Damasak,Wulgo,Chibok,Michika,Mubi,Madagali,Hong,Maiha,Gombi,Song,Kwami,Pindiga,Numan,Jimeta,Yola,Ganye,Jada,Maroua,Mora,Waza,Kousséri,Mokolo,Ikonge,Haraale,Salkaxo,Garowe,Janaale,Kaloleni,Masige,ArchersPost,RasKamboni,Deynile,Hobyo,Kudhaa,Shimba,Tabaka,Abobwe,Apatla,Apunla,Aesbwe,Afubwe,Amokla,Abedna,Akasbwe,Afabwe,Adebna,Akolla,Amukbwe,Apala,Amonbwe,Anerna,Mafala,Mafama,Mafawa,Mafara,Mafaka,Doron Baga,ElDera"
+  "m": 0.1,
+  "b": "Mokolo,Mokola,Magoumaz,Mavoumaï,Matazak,Ziver,Zouvol,Zidim,Zileng,Zamai,Zamalao,Zekio,Woundahai,Wafango,Tourou,Toudourou,Tchouvouk,Tchoumpel,Tchougoulé,Tchakadjam,Tsoukefs,Sirak,Sahalay,Sandjo Hanbalé,Pomla,Parwaï,Ouro-Mansour,Mouhour,Mosso,Momboi,Mokong,Mingliya,Mbikon Guilewa,Mayo-Laddé,Mawo,Maskaï,Maraf,Mandaka,Makssi,Ldland,Ldibam,Ldama,Lamordé,Kilwo,Katamsa,Houfel,Hossom,Hidoua,Gouloua,Goudour,Gochi,Gnibango,Gawar Windé,Gawar Lamordé,Gadalao,Gadala,Dourloum,Djimeta,Djamdoudi,Djalingo,Dinguilind,Damtsak,Batawoya,Banguel,Koza,Gaboua,Gouzda,Djingliya,Mawa,Ziler,Hirché,Guedjélé,Galdala,Houva,Kilda,Makandai,Maltamaya,Mbardam,Modoko,Morgoa,Moulaï,Moutchikar,Ngjengué,Oulad,Tendéo,Gaivoukida,Gabass,Mouzoua,Zlama,Woula,Mazay,Mtskar,Ldamtsai,Ouzal,Moskota,Mavoumay,Roua,Soulede,Kughum"
 },
 {
     "name": "Majera",
   "i": 200068,
-  "min": 4,
-  "max": 11,
+  "min": 5,
+  "max": 7,
   "d": "lnrt",
   "m": 0,
-  "b": "Majera,Mokolo,Mogodé,Gawar,Kortchi,Maroua,Mora,Waza,Kousséri,Mayo-Ouldémé,Mayo-Maskola,Dzigilao,Gawawa,Gawar Lamordé,Gawar Windé,Mafa,Mofu,Hina,Daba,Buwal,Galdala,Gadala,Kapsiki,Cuvok,Bulahay,Matakam,Mogoré,Mouhour,Rhumsiki,Mémé,Mokong,Mofoué,Moulvoudaye,Moutourwa,Ngaoundéré,Ngaoundal,Tibati,Banyo,Galim,Tignère,Nyamira,Wamba,Xato,Sarameer,Rigomane,BilisQoqani,Jombo,Kihancha,Laisamis,Koriley,BuloBurde,Guriel,Golbo,Chundwa,Mabera,Amarta,Akatfa,Alogta,Anolsa,Aidta,Abakfa,Abudta,Afotsa,Alogfa,Aumta,Aegfa,Anonsa,Akogta,Alenta,Amutfa,Majerala,Majerama,Majerawa,Majerara,Majeraka"
+  "b": "Majera,Mazera,Dogwea"
 },
 {
     "name": "Malagasy",
   "i": 200069,
-  "min": 4,
-  "max": 11,
-  "d": "lnrt",
-  "m": 0,
-  "b": "Antananarivo,Toamasina,Antsirabe,Mahajanga,Fianarantsoa,Toliara,Antsiranana,Ambatondrazaka,Ambohimahasoa,Ambositra,Ampanihy,Ankazoabo,Antalaha,Antsohihy,Bealanana,Befandriana,Betsiboka,Farafangana,Ihosy,Ikalamavony,Maevatanana,Manakara,Mananara,Mananjary,Maroantsetra,Moramanga,Morondava,Nosy Be,Sambava,Soanierana,Tsaratanana,Tsiroanomandidy,Vangaindrano,Vatomandry,Vohemar,Suba,Korr,Gurfuudle,Dabare,Runni,Kachoda,Mkokoni,Kehancha,Sibiloi,Waamo,Giohar,Guriceel,Selina,Sindo,Galole,Aditka,Aogna,Adamka,Apena,Akukka,Akanbwe,Amibna,Aorna,Adamna,Aletka,Abokka,Adedna,Adambwe,Adibka,Amagna,Malagasyla,Malagasyma,Malagasywa,Malagasyra,Malagasyka,Thiès,Brickaville"
+  "min": 5,
+  "max": 18,
+  "d": "",
+  "m": 0.1,
+  "b": "Ambalavao,Ambanja,Ambatoboeny,Ambatofinandrahana,Ambatolampy,Ambatomainty,Ambatondrazaka,Ambenja,Ambilobe,Amboasary,Ambohidratrimo,Ambohimahamasina,Ambohimahasoa,Ambositra,Ambovombe,Ampanihy,Amparafaravola,Ampasimanolotra,Analalava,Andapa,Andilamena,Andoany,Andramasina,Anjozorobe,Ankazoabo,Ankazobe,Antalaha,Antananarivo,Antanifotsy,Antsalova,Antsirabe,Antsirambazaha,Antsiranana,Antsohihy,Arivonimamo,Bealanana,Befandriana,Befotaka,Bekily,Beloha,Benenitra,Beroroha,Besalampy,Betafo,Betioky,Betroka,Boriziny,Fandriana,Farafangana,Faratsiho,Fenoarivobe,Fianarantsoa,Iakora,Ifanadiana,Iharana,Ihosy,Ikalamavony,Ikongo,Ivohibe,Kandreho,Maevatanana,Mahabo,Mahajanga,Mahanoro,Maintirano,Mampikony,Manakara,Manandriana,Mananara,Mananjary,Mandritsara,Manja,Manjakandriana,Maroantsetra,Marolambo,Marovoay,Miandrivazo,Miarinarivo,Mitsinjo,Morafenobe,Moramanga,Morombe,Morondava,Sakaraha,Sambava,Soalala,Soavinandriana,Toamasina,Tôlanaro,Toliara,Tsaratanana,Tsiombe,Tsiroanomandidy,Vangaindrano,Vatomandry,Vavatenina,Vohibinany,Vohipeno,Vondrozo"
 },
 {
     "name": "Malagasy macro entry",
@@ -645,47 +645,47 @@ window.dedicatedNameBases = [
 {
     "name": "Malgbe",
   "i": 200071,
-  "min": 4,
+  "min": 3,
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Malgbe,Gwoza,Bama,Askira-Uba,Damboa,Konduga,Mafa,Monguno,Ngala,Kala-Balge,Marte,Kukawa,Gubio,Magumeri,Abadam,Guzamala,Kaga,Kondunga,Mobar,Nganzai,Gajiganna,Gajiram,Cross Kauwa,Baga,Kauwa,Rann,Gamboru,Damasak,Wulgo,Chibok,Michika,Mubi,Madagali,Hong,Maiha,Gombi,Song,Kwami,Pindiga,Numan,Jimeta,Yola,Ganye,Jada,Mkunumbi,Lodwar,Qorragan,Buulobarde,CeelBarde,Ngomoni,Oyugis,Shella,Turmi,Janaale,LaasGacamey,ElBarde,Ndau,Vihiga,Mariakani,Adenbwe,Akudka,Alubka,Akutka,Abigbwe,Aenwa,Abunka,Analwa,Anibbwe,Aferbwe,Aduswa,Afiwa,Aogbwe,Alatbwe,Anulwa,Malgbela,Malgbema,Malgbewa,Malgbera,Malgbeka,Doron Baga"
+  "b": "Malgbwé,Mara,Douguia,Droh,Walia,Sao,Douban,Mahaya,Bagassa,Boumbouma,Choloba,Douelou,Dougmaya,Forfoya,Gley,Gleygo,Gret,Kagley,Kignagna,Kineboya,Krenek,Labado,Mitch Mitch,Molodia,Mougalam,Mougda,Moulouang,Mour,Nabagaya,Nadji,Ngoulou,Nigué,Nimia,Siguet,Soukaré,Takoulwébé,Tchor,Tiyous,Toulous,Wakaltou"
 },
 {
     "name": "Manding",
   "i": 200072,
-  "min": 4,
-  "max": 11,
-  "d": "lnrt",
-  "m": 0,
-  "b": "Bamako,Sikasso,Kayes,Koulikoro,Ségou,Mopti,Tombouctou,Gao,Kidal,Bafoulabé,Kita,Kati,Djenné,Timbuktu,Ménaka,Taoudénit,Koutiala,San,Bla,Yanfolila,Kangaba,Narena,Kolokani,Barouéli,Macina,Niono,Bandiagara,Bankass,Douentza,Ténenkou,Youwarou,Koro,Mourdiah,Nara,Nioro,Bougouni,Kolondiéba,Kadiolo,Sévaré,Ber,Léré,Niafunké,Diré,Goundam,Bourem,Ansongo,Mandingk,Mandingt,Mandingp,Mandingm"
+  "min": 3,
+  "max": 14,
+  "d": "",
+  "m": 0.1,
+  "b": "Bamako,Kati,Kalabancoro,Koulikoro,Nyamina,Banamba,Kolokani,Mourdiah,Nara,Kangaba,Narena,Siby,Bancoumana,Ouélessébougou,Sanankoroba,Dioïla,Fana,Ségou,Markala,Barouéli,Niono,Bla,San,Koutiala,Yorosso,Sikasso,Kadiolo,Kolondiéba,Bougouni,Yanfolila,Sélingué,Kayes,Kita,Bafoulabé,Kéniéba,Diéma,Nioro,Kankan,Siguiri,Kintinian,Doko,Norassoba,Kouroussa,Baro,Sanguiana,Mandiana,Kérouané,Beyla,Faranah,Dabola,Dinguiraye,Kissidougou,Tambacounda,Koussanar,Kédougou,Saraya,Brikama,Janjanbureh,Mansakonko,Basse,Odienné,Madinani,Samatiguila,Séguélon,Minignan,Tienko,Kaniasso,Goulia,Séguéla,Kani,Mankono,Touba,Bobo-Dioulasso,Banfora"
 },
 {
     "name": "Mantsi language (Nigeria)",
   "i": 200073,
-  "min": 4,
-  "max": 11,
+  "min": 6,
+  "max": 8,
   "d": "lnrt",
   "m": 0,
-  "b": "Mantsi"
+  "b": "Mangas,Dungulbi"
 },
 {
     "name": "Mao Omotic",
   "i": 200074,
   "min": 4,
-  "max": 11,
-  "d": "lnrt",
+  "max": 8,
+  "d": "",
   "m": 0,
-  "b": "Mao,Gambela,Itang,Jikaw,Lare,Gog,Abobo,Dimma,Meti,Bure,Mendi,Kumbi,Kola,Tergol,Wenbera,Assosa,Kurmuk,Sherkole,Komesha,Menge,Oda,Bambasi,Dibate,Guba,Mao-Komo,Bulen,Dangur,Mandura,MaoOmotick,MaoOmotict,MaoOmoticp,MaoOmoticm"
+  "b": "Bambassi,Diddesa,Mutsa,Wamba,Gome,Yaku,Shewara,Kusa"
 },
 {
     "name": "Marba",
   "i": 200075,
-  "min": 4,
-  "max": 11,
+  "min": 5,
+  "max": 17,
   "d": "lnrt",
-  "m": 0,
-  "b": "Baktchoro,Bakchoro,Marba Bakchoro,Marba Gogor,Marba Damdou,Marba Mander,Tchiré,Tchiré Gogor,Tchire Andam,Tchiré Seména,Tchiré Mouséï,Tchire Mandjojo,Kolobey,Méguéné,Méguéné Bagaye,Méguéné Ngolo,Bagaye Tchilang,Bagay Toua,Bagay Déoué,Kandja,Nangda Kandji,Kolon,Kolon Kaséré,Kolonbagay Balo,Mésmé,Dogou,Bologo,Dadji,Massang,Kouroup,Léo,Leou,Marbelem,Marbelem Pindjing,Mangsé"
+  "m": 0.1,
+  "b": "Baktchoro,Bakchoro,Marba Bakchoro,Marba Gogor,Marba Damdou,Marba Mander,Marba Kakrao,Marba Ganane,Marba Gana,Domo Marba,Tchiré,Tchiré Gogor,Tchire Andam,Tchiré Seména,Tchiré Mouséï,Tchire Mandjojo,Tchiré Wowora,Kolobey,Méguéné,Méguéné Bagaye,Méguéné Ngolo,Bagaye Tchilang,Bagay Toua,Bagay Déoué,Kandja,Kolon,Kolon Kaséré,Kolonbagay Balo,Bezmé Kolon,Bologo,Bologo Madang,Dadji,Massang,Kouroup,Marbelem,Marbelem Pindjing,Marbélem Lamgué,Marbelem Kokro,Mangsé,Mangsé Bembok,Damdou Mbasa,Léo Mbassa,Léo Gono,Léo Moro,Léo Bidim,Léo Koré,Léo Baktano,Léo Mbaya"
 },
 {
     "name": "Margi",
@@ -727,28 +727,28 @@ window.dedicatedNameBases = [
     "name": "Masa South",
   "i": 200080,
   "min": 4,
-  "max": 11,
+  "max": 10,
   "d": "lnrt",
   "m": 0,
-  "b": "Guéré,Djongdong,Hougno,Massi,Bigdi,Bosgoye,Dirim,Djanga,Djawar,Djengreng,Guidoua,Kamargui,Karmaye,Kounou,Mahaouda,Rouane,Souaye,Vaidou,Arkouna,Bangana,Dahao,Dangabissi,Danigue,Djedel,Djougoumta,Doussaye,Fourgana,Gaoyanga,Gounouda,Gouroum,Kononay,Moutang,Nahaïdé,Ngaïna,Nguering,Noulda,Pourhana,Souana,Warkalak"
+  "b": "Guéré,Arkouna,Bangana,Dahao,Dangabissi,Danigue,Djedel,Djougoumta,Doussaye,Fourgana,Gaoyanga,Gounouda,Gouroum,Kononay,Loko,Mouka,Moutang,Nahaïdé,Ngaïna,Nguering,Noulda,Pourhana,Souana,Warkalak,Karmaye,Rouane,Souaye,Vaidou"
 },
 {
     "name": "Maslam",
   "i": 200081,
-  "min": 4,
-  "max": 11,
+  "min": 3,
+  "max": 6,
   "d": "lnrt",
   "m": 0,
-  "b": "Maltam,Saho,Sahu,Makari,Goulfey,Kousséri,Miskini,Blabli,Mandage,Mendage"
+  "b": "Maltam,Sao"
 },
 {
     "name": "Masmaje",
   "i": 200082,
-  "min": 4,
-  "max": 11,
+  "min": 7,
+  "max": 15,
   "d": "lnrt",
   "m": 0,
-  "b": "Masmaje,Guéra,Mongo,Bitkine,Melfi,Abtouyour,Batha,Am Timan,Abou Deïa,Adré,Am Dam,Assinet,Bahaï,Baktchoro,Biltine,Daguessa,Djourf Al Ahmar,Ennedi,Fada,Iriba,Ounianga,Am Zoer,Bitchotchi,Dourbali,Goundi,Koumra,Kyabé,Mbaïbokoum,Mbaïkoro,Ndam,Ngourkosso,Sarh,Béré,Béladja,Béssao,Danamadji,Déressia,Djedah,Fianga,Goré,Grégué,Guélengdeng,Kélo,Léré,Moundou,Pala,Wachile,GarasQod,Bacad,BuuloMarer,Mtwapa,Getembe,Habasiwein,Dudun,Toon,Gambol,Harardhere,Bamba,Keroka,Baragoi,Ddabo,Amonta,Amilta,Aodma,Akenta,Akonma,Afekma,Abedma,Amatma,Amodma,Adusta,Abara,Adobta,Afamta,Akekma,Abikta,Masmajela,Masmajema,Masmajewa,Masmajera,Masmajeka,Dar Tama"
+  "b": "Assafik,Amlaména Hilélé,Mesmédjé"
 },
 {
     "name": "Massa",
@@ -757,61 +757,61 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Yagoua,Domo,Walya,Buguëum,Gizey,Gumay,Ham,Vélé,Guéré,Djongdong,Hougno,Massi,Widigué,Guéméré,Agolla,Yaraye,Kartoua,Douang,Guia,Dabaye,Vounaloum,Vormounoun,Tcherféké,Kirsidi,Masgaya,Miogoye,Zoulla,Toukou,Hounou,Ngaya,Bosgoye,Djengreng"
+  "b": "Yagoua,Domo,Dana,Djokoydi,Kalak,Miogoye,Mouri,Toukou,Vormounoun,Vounaloum,Zoulla,Zébé,Yrdeng,Kirsidi,Masgaya,Hounou,Ngaya,Bagarao,Guémé,Vélé,Widigué,Guéméré,Agolla,Yaraye,Kartoua,Douang,Dabaye,Gandjam,Kouromokdei,Guéré,Ardaf,Bangana,Dahao,Dangabissi,Danigue,Djedel,Doussaye,Gaoyanga,Gouroum,Guibi,Holom,Kononay,Nahaïdé,Ngaïna,Nguering,Noulda,Pourhana,Souana,Warkalak,Rouane,Souaye,Vaidou,Karmaye"
 },
 {
     "name": "Matal",
   "i": 200084,
-  "min": 4,
-  "max": 11,
+  "min": 5,
+  "max": 10,
   "d": "lnrt",
   "m": 0,
-  "b": "Zouelva,Baldama,Mokol,Gaimasseg,Gouchekala,Katoua,Kotseréhé,Galdmats,Koulang,Golda,Houdmouka,Segay,Gaitsihé,Tima,Gaiboudam,Kassayo,Dadala,Mena,Moya,Mbreche,Walassa,Inougou,Gansé,Chéripouri,Yégoua,Doulo,Magdémé,Kourgui,Mahoula,Tolkomari,Gadero,Gréa"
+  "b": "Zouelva,Baldama,Golda,Katoua,Koulang,Kotseréhé,Segay,Mokol,Gouchekala,Gaiboudam,Gaimasseg,Dadala,TalaMokolo,Malika,Gamnaga,Mokoulbé,Dzala,Goujimdélé,Kolguine,Gaikour"
 },
 {
     "name": "Mawa",
   "i": 200085,
-  "min": 4,
-  "max": 11,
+  "min": 6,
+  "max": 7,
   "d": "lnrt",
   "m": 0,
-  "b": "Mahoua,Mahwa,Maaw,Bitkine"
+  "b": "Mahoua,Gourara"
 },
 {
     "name": "Mazagway",
   "i": 200086,
   "min": 4,
-  "max": 11,
+  "max": 13,
   "d": "lnrt",
-  "m": 0,
-  "b": "Mazagway,Mayo-Laddé,Zouvoul,Dagaï,Mousgoy,Baïla,Boula Ibbi,Tam Djidde,Gonozo,Kaftaka,Panaka,Palva,Mouldar,Djoumdjoum,Gamdougoum,Bassara,Bamguel,Madama,Bereng,Djoho-Dagai,Panaï,Zagua Mousgoy,Mbirdif,Melemdem"
+  "m": 0.1,
+  "b": "Baïla,Boula Ibbi,Tam Djidde,Zouvoul,Mayo-Laddé,Dagaï,Dagaï Kola,Kola,Mousgoy,Zagua Mousgoy,Mbirdif,Melemdem"
 },
 {
     "name": "Mbara language (Chad)",
   "i": 200087,
-  "min": 4,
-  "max": 11,
+  "min": 10,
+  "max": 12,
   "d": "lnrt",
   "m": 0,
-  "b": "Mbara,Guélengdeng,Katoa,Nanguigoto,Gkelendeg,Kargu,Budugur,Moulkou"
+  "b": "Guélengdeng"
 },
 {
     "name": "Mbudum",
   "i": 200088,
-  "min": 4,
-  "max": 11,
+  "min": 7,
+  "max": 15,
   "d": "lnrt",
   "m": 0,
-  "b": "Zidim,Mbever,Mbalda,Mowo,Tsembi,Singomabara,Ldarbak,Moudal,Mbanane,Kokom,Motso,Migaza,Kide,Thadang,Goutokoi,Walamai,Mossérak,Zemdek,Ribidis,Mingliao,Metcheked,Risga Mogom,Maza Guendewa,Boumdji"
+  "b": "Boudoum,Boudoum Hosséré"
 },
 {
     "name": "Mbuko",
   "i": 200089,
   "min": 4,
-  "max": 11,
+  "max": 12,
   "d": "lnrt",
-  "m": 0,
-  "b": "Doulek,Doulek Centre,Mbalak,Manzala,Ngassa,Mayak,Ndoloko,Maldang,Gadagalao,Wele,Menguer,Mikiri,Dalbaye,Dakatak,Kodjing,Goli,Kilwo,Markaba,Katchounga,Dougour,Djatar,Serawa,Mokolopo,Gadoua,Kotraba"
+  "m": 0.1,
+  "b": "Doulek Centre,Mbalak,Manzala,Ngassa,Mayak,Ndoloko,Maldang,Gadagalao,Wele,Menguer,Mikiri,Dalbaye,Dakatak,Kodjing,Goli,Kilwo,Markaba,Katchounga,Dougour,Djatar"
 },
 {
     "name": "Mburku",
