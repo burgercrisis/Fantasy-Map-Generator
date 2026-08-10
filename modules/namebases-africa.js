@@ -18,16 +18,18 @@ window.africaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Brass,Nembe,Okrika,Opobo,Abonnema,Buguma,Yenagoa,Odi,Kolokuma,Patani,Warri,Forcados,Burutu,Ogulagha,Obioku,Opuama,Edegbene,Oporoza,Okpokunu,Agoloma,Ofoni,Bassambiri,Ogbia,Amassoma,Oloibiri,Gbarantoru,Ogbinobi,Eleme,Ogu,Bodo,Opuokutu,Akugbene,Olodiama,Obotebe,Okumbiri,Okolo,Epie,Atissa,Agbura,Okirika,Ogbogolo,Okaraja,Ikodi,Ogbe-Ijaw,Amakalakala"
+    "b": "Brass,Nembe,Okrika,Opobo,Abonnema,Buguma,Yenagoa,Odi,Kolokuma,Patani,Warri,Forcados,Burutu,Ogulagha,Obioku,Opuama,Edegbene,Oporoza,Okpokunu,Agoloma,Ofoni,Bassambiri,Ogbia,Amassoma,Oloibiri,Gbarantoru,Ogbinobi,Ogu,Opuokutu,Akugbene,Olodiama,Obotebe,Okumbiri,Okolo,Epie,Atissa,Agbura,Okirika,Ogbogolo,Okaraja,Ikodi,Ogbe-Ijaw,Amakalakala",
+    "status": "COMPLETE"
   },
-  {
+{
     "name": "Swahili",
     "i": 27,
     "min": 4,
     "max": 13,
     "d": "",
     "m": 0,
-    "b": "Zanzibar,Mombasa,Dar es Salaam,Nairobi,Kigali,Kampala,Dodoma,Arusha,Mwanza,Tanga,Lamu,Malindi,Pemba,Kilwa,Gedi,Shanga,Manda,Songo Mnara,Pate,Bagamojo,Mogadishu,Barawa,Kismayu,Merca,Lindi,Mtwara,Garbaharey,Geza,Uriri,Bubisa,Kumbare,Sheikh,GalCad,Ngei,Takawiri,Nyangusu,Loyangalani,Caano,CelDheer,Saakow,Buni,Swahiliwa,Swahilita,Swahilibwe,Swahilisa,Swahilifa,Swahiliga,Swahilija,Swahilida,Swahilizi,Swahilibo"
+    "b": "Zanzibar,Mombasa,Dar es Salaam,Nairobi,Kigali,Kampala,Dodoma,Arusha,Mwanza,Tanga,Lamu,Malindi,Pemba,Kilwa,Gedi,Shanga,Manda,Songo Mnara,Pate,Bagamoyo,Mogadishu,Barawa,Kismayu,Merca,Lindi,Mtwara,Garbaharey,Loyangalani,CelDheer,Saakow",
+    "status": "COMPLETE"
   },
   {
     "name": "Gurage",
