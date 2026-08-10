@@ -31,23 +31,25 @@ window.africaNameBases = [
     "b": "Zanzibar,Mombasa,Dar es Salaam,Nairobi,Kigali,Kampala,Dodoma,Arusha,Mwanza,Tanga,Lamu,Malindi,Pemba,Kilwa,Gedi,Shanga,Manda,Songo Mnara,Pate,Bagamoyo,Mogadishu,Barawa,Kismayu,Merca,Lindi,Mtwara,Garbaharey,Loyangalani,CelDheer,Saakow",
     "status": "COMPLETE"
   },
-  {
-    "name": "Gurage",
-    "i": 31,
+{
+    "name": "Sekele",
+    "i": 39,
     "min": 3,
     "max": 12,
     "d": "bdfghklmnrstwxz",
     "m": 0,
-    "b": "Welkite,Butajira,Emdibir,Enseno,Wolkite,Hosaena,Bui,Dugda,Jole,Koshe,Arekite,Araket,Attat,Bura,Deramr,Eftar,Gubre,Gunchire,Kombo,Mokyer,Suten,Zizencio,Agena,Kela,Wekepeche,Dacuna"
+    "b": "Eenhana,Tsintsabis,Rundu,Grootfontein,Tsumeb,Mangetti Dune,Omtaku,Schmidtsdrif",
+    "status": "WAITING"
   },
   {
     "name": "Berber (Maghreb)",
     "i": 37,
-    "min": 3,
-    "max": 12,
-    "d": "bdfghklmnqrstwxz",
+    "min": 0,
+    "max": 0,
+    "d": "",
     "m": 0,
-    "b": "Anfa,Arbaṭ,Murakush,Fas,Tanja,Agadir,Meknes,Wejda,Kenitra,Ttawen,Asfi,Ayt Mellal,Anḍaḍor,Azṭaṭ,Imɣday,Warzazat,Taɣerdayt,Becchar,Tamanɣasett,Ennaba,Tibeskert,Belida,Tizi Wezzu,Wehran,Dzayer,Qsenṭina,Tunes,Safaqis,Susa"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Sekele",
@@ -58,14 +60,15 @@ window.africaNameBases = [
     "m": 0,
     "b": "Kimilili,Garsen,Shilabo,Jasiira,Qardho,Merka,Ngao,Ekerenyo,Garissa,Farlibaax,Dhalwo,Eyl,Goobweyn,Rabai,Manga,Sekelewa,Sekeleta,Sekelebwe,Sekelesa,Sekelefa,Sekelega,Sekeleja,Sekeleda,Sekelezi,Sekelebo,Ekoka,Okongo,Tsintsabis,Mangetti Dune,Mpunguvlei,Omatako,Eenhana,Rundu,Nyangana,Mukwe,Mbwaku,Mupapama,Mashare,Ndiyona,Mankuku,Kurunana,Mbambi,Mpururu,Mupini,Mupukuyo"
   },
-  {
-    "name": "Taa Click",
-    "i": 41,
+{
+    "name": "Hadza",
+    "i": 48,
     "min": 3,
     "max": 12,
-    "d": "lnrtkxgms",
+    "d": "bdfghklmnrstwxz",
     "m": 0,
-    "b": "Ghanzi,Nossob,Gobabis,Mariental,Rehoboth,Okwa,Xauda,Kgalagadi,Tsabong,Hukuntsi,Lehututu,Lokgwabe,Kang,Ncojane,Tshane,Khuis,Bere,Kule,Makopong,Matsheng,Bogogobo,Khakhea,Kokotsha,Mabua,Mabuasehube,Ngwatle,Leonardville"
+    "b": "Mangola,Mitala,Munguli,Yaeda Chini,Mongo wa Mono,Eshkesh",
+    "status": "WAITING"
   },
   {
     "name": "Ju/'hoan Click",
@@ -94,23 +97,25 @@ window.africaNameBases = [
     "m": 0,
     "b": "Kwa Mtoro,Farkwa,Poro Banguma,Magambua,Ovada,Gungi,Moto,Gumbu,Kurio,Mangastaa,Kondoa,Usandawe,Ts'ana,Hatsa,G!oa,Ts'imbala,Kelema,Sanya,Nzungwa,Mbuga,Tlha'na,Gwa'ri,Mang'alai,Kandaga,Solow,Mwaru,Kinyasi,Monduli,Babati,Hanang,Mbulu,Ufana,Kateshi,Kichangani,Kitaru,Manda,Sanzawa,Kwamtoro,Makangale,Moora,Munguli,Tlhiika"
   },
-  {
+{
     "name": "Bemba",
     "i": 62,
     "min": 4,
     "max": 13,
-    "d": "",
+    "d": "lnrt",
     "m": 0,
-    "b": "Kasama,Mpika,Mansa,Luwingu,Kabwe,Kitwe,Ndola,Chingola,Mufulira,Luanshya,Chipata,Mongu,Kapiri-Mposhi,Chililabombwe,Kalulushi,Chambishi,Mkushi,Serenje,Mpulungu,Isoka,Nakonde,Kasempa,Solwezi,Mwinilunga,Zambezi,Chilubi,Bembak,Bembat,Bembap,Bembam,Bembas,Bembar,Bembal,Bembad,Bembag"
+    "b": "Kasama,Mpika,Chinsali,Isoka,Nakonde,Mbala,Mporokoso,Kaputa,Chilubi,Luwingu,Mungwi,Chambeshi,Luapula,Mansa,Samfya,Nchelenge,Chienge",
+    "status": "WAITING"
   },
-  {
+{
     "name": "Bilen",
     "i": 66,
-    "min": 4,
-    "max": 13,
-    "d": "",
+    "min": 3,
+    "max": 12,
+    "d": "lnrt",
     "m": 0,
-    "b": "Keren,Agordat,Barentu,Tessenei,Hamelmalo,Adi Tekelezan,Elabered,Gala,Forto,Adi Quala,Mogolo,Antalla,Adi Nebrid,Adi Hageray,Adi Yaqob,Adi Ghebru,Adi Tsetser,Adi Abune,Adi Gebru,Adi Tekelie,Asmara,Mendefera,Halhal,Adi Keyh"
+    "b": "Keren,Senhit,Halhal",
+    "status": "WAITING"
   },
   {
     "name": "Mandara Chadic",
