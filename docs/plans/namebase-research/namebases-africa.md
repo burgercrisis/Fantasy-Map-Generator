@@ -1057,9 +1057,10 @@
 
 ## Totela (i:1517)
 
-- Seeds: **8** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: Sokaraja, Srono, Srandakan, Sragen, Soreang
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+- Seeds: **8** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [Crane 2011, _Beyond Time_ (UC Berkeley dissertation), https://escholarship.org/uc/item/3r21g7bf](https://escholarship.org/uc/item/3r21g7bf); cross-checked against OpenStreetMap / GeoNames for real-world existence
+- Sample (verified Totela-speaking settlements): Nakwenda, Likemwa, Nawinda, Samisisi, Malabwe, Makusi, Kachansi, Sikubi
+- [x] Name  [x] Seeds authentic  [x] Seed count  [x] D  [x] M  [x] Min/Max  [x] Continent  [x] Encoding  [x] Placeholder  [x] Done
+- Notes: Totela (Bantu K.41/K.411, ISO 639-3 `ttl`) is a highly endangered language spoken in Zambia's Western Province (Sesheke district, along the Kweemba river) and Namibia's Zambezi Region (Caprivi). Crane's field sites name these communities: Zambia — Nakwenda, Likemwa, Nawinda (near), Samisisi, Malabwe; Namibia — Makusi, Kachansi, Sikubi (Caprivi Strip). Malabwe, Makusi, Sikubi, Nawinda are independently confirmed as real villages/hamlets in OSM/GeoNames. Only these 8 settlements are documented in published sources as Totela-speaking; no further expansion without regional estimation (per review rules). Replaced empty `b` / wrong placeholder (Indonesian) sample.
 
 
 ## Venda (i:1519)
