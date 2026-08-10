@@ -1,54 +1,51 @@
 ---
-## Comorian (i=91)
-**Status:** COMPLETE
-**Confidence:** HIGH
-**Date:** 2026-06-30
-**Agent:** Africa
 
-### Removed Names (1)
+## Comorian (i=91)
+
+**Status:** WAITING
+**Confidence:** HIGH
+**Date:** 2026-08-10
+**Agent:** Africa verification agent
+
+### Removed Names (12)
 | Name | Reason |
 |------|--------|
-| Moya (second occurrence) | Duplicate — same name appears twice in entry |
+| `Shimaore` | Dialect/language name (Mayotte), not a settlement |
+| `Shingazidja` | Dialect/language name (Grande Comore), not a settlement |
+| `Shimwali` | Dialect/language name (Moheli), not a settlement |
+| `Shindzwani` | Dialect/language name (Anjouan), not a settlement |
+| `Ngazidja` | Island name (Grande Comore), not a settlement |
+| `Ndzwani` | Island name (Anjouan), not a settlement |
+| `Mwali` | Island name (Moheli), not a settlement |
+| `Maore` | Island name (Mayotte), not a settlement |
+| `Anjouan` | Island name (Ndzwani), not a settlement |
+| `Moheli` | Island name (Mwali), not a settlement |
+| `Grande Comore` | Island name (Ngazidja), not a settlement |
+| `Mayotte` | Island name (Maore), not a settlement |
 
-### Verified Names (16 explicitly confirmed)
-From "List of cities in the Comoros" Wikipedia and individual Wikipedia articles:
-1. Moroni ✅ (national capital, Ngazidja/Grande Comore)
-2. Mutsamudu ✅ (Anjouan capital)
-3. Fomboni ✅ (Mohéli capital)
-4. Domoni ✅ (Anjouan, second-largest city)
-5. Ouani ✅ (Anjouan, has airport)
-6. Sima ✅ (Comoros)
-7. Miringoni ✅ (Mohéli)
-8. Moya ✅ (Comoros)
-9. Itsandra ✅ (near Moroni, Ngazidja)
-10. Iconi ✅ (near Moroni, Ngazidja)
-11. Bambao ✅ (Anjouan)
-12. Salimani ✅ (Comoros)
-13. Hahaya ✅ (near Moroni)
-14. Barakani ✅ (Mwali/Mohéli)
-15. Koni-Djodjo ✅ (Anjouan)
-16. Nioumachoua ✅ (Mohéli)
-
-Additional plausible Comorian places (in correct country):
-Mbeni, Chandra, Chézani, Bambadjani, Bougoueni, Fassi, Hantsindzi, Gnadomboeni, Ivoini, Mrémani, Mramani
+### Added Names (0)
+| Name | Source | Language Connection |
+|------|--------|---------------------|
+| (none - cover term per Rule 4) | | |
 
 ### Research Log
-- Search 1: "List of cities in the Comoros" Wikipedia → Confirmed major cities
-- Search 2: "Mutsamudu" Wikipedia → Confirmed Anjouan capital
-- Search 3: "Domoni" Wikipedia → Confirmed Anjouan city
-- Search 4: "Fomboni" Wikipedia → Confirmed Mohéli capital
-- Search 5: "Moroni, Comoros" Wikipedia → Confirmed national capital
-- Sources consulted: 5
+- Search 1: "Comorian language Comoros settlements villages" → Wikipedia Comorian languages, Languages of the Comoros, Britannica Comoros - confirmed Comorian is a group of four Bantu languages (Shingazidja, Shindzwani, Shimwali, Shimaore) spoken in the Comoros Islands, not a single language
+- Search 2: "Comorian languages Comoros settlements" → Wikipedia Comorian languages, Grokipedia Comorian languages - confirmed four principal dialects: Shingazidja (Grande Comore), Shindzwani (Anjouan), Shimwali (Moheli), Shimaore (Mayotte); total ~860,000 speakers
+- Search 3: "Comorian language Comoros settlements" → Britannica Comoros, 33travels - confirmed Comorian is a group of four Bantu languages, not a single language
+- Sources consulted: 6 (Wikipedia Comorian languages, Wikipedia Languages of the Comoros, Britannica Comoros, Grokipedia Comorian languages, 33travels, StudyCountry)
 
 ### Phonology Check
-- Source: Wikipedia Comorian languages article
-- Key patterns: Bantu phonology, CV structure, 5 vowels, prenasalized stops
-- Names flagged: None violate phonotactics
+- N/A - cover term entry, b field emptied per Rule 4
 
 ### Mixer Map Check
-- Index 91 referenced by: [need to check config/language-mixer-map.json]
+- Index `i=91` referenced by: `iso: "swb" → [91]` (from language-mixer-map.json)
+- All references intentional: NEEDS VERIFICATION - `swb` is ISO 639-3 for Maore Comorian/Shimaore (Mayotte dialect), but the entry covers all four Comorian languages. This may be a misbinding - individual dialects have their own ISO 639-3 codes: Ngazidja `zdj`, Ndzwani `wni`, Mwali `wlc`, Maore `swb`.
+- Issues: Potential misbinding - index 91 uses `swb` (Maore/Shimaore) but entry covers all four Comorian languages.
 
 ### Final Verification
-- Total verified names: 26 unique (16 confirmed + 10 plausible)
-- Minimum threshold met: YES
-- NO names added without individual verification: YES
+- Total verified names: 0 (cover term, b emptied per Rule 4)
+- Minimum threshold met: N/A (cover term)
+- Status: WAITING (per Rule 4: cover terms/families/regions → WAITING, empty b)
+- Note: "Comorian" entry represents a language cluster (four Bantu languages: Shingazidja, Shindzwani, Shimwali, Shimaore), not a single language. Per protocol Rule 4, marked WAITING with empty b. Individual dialects (Shingazidja, Shindzwani, Shimwali, Shimaore) should have their own entries if not already present.
+
+---
