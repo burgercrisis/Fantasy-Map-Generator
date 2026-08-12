@@ -7,9575 +7,9575 @@
 
 ## Ajawa (i:200000)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Soir, Koaki, Alilotl, Deeg, Diedx
+- Seeds: **0** | Min/Max: **0/0** | m=**0** | d=**** — N/A
+- Sample: 
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Akan (i:200001)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Akan_language](https://en.wikipedia.org/wiki/Akan_language)
-- Sample: Olonilg, Doam, Seist, Guutetes, Nout
+- Seeds: **33** | Min/Max: **5/10** | m=**0** | d=**** — N/A
+- Sample: Kumasi | Koforidua | Bekwae | Goaso | Nsuta
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Áncá (i:200002)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Samora, Retasami, Numumba, Natemuri, Kobi
+- Seeds: **2** | Min/Max: **3/6** | m=**0** | d=**** — N/A
+- Sample: Antere | Nca
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Atlas Berber (i:200003)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Ziik, Searo, Guitonll, Jies, Koelxx
+- Seeds: **72** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Imlil | Aroumd | Megdaz | Asni | Setti Fatma
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Bebe (i:200004)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Rebandi, Polipo, Wuge, Nabewa, Melolindo
+- Seeds: **8** | Min/Max: **4/10** | m=**0** | d=**** — N/A
+- Sample: Bebe-Jatto | Bebe-Kette | Bebe-Jama | Sabongida | Mayokila
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Belneng (i:200005)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Hoom, Koud, Alerutgg, Sii, Diattt
+- Seeds: **1** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Langung
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Bembe Congo (i:200006)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Aledus, Olonilu, Suam, Seisol, Guutety
+- Seeds: **0** | Min/Max: **0/0** | m=**0** | d=**** — N/A
+- Sample: 
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Bembe DRC (i:200007)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Inik, Alarun, Olitonrr, Sues, Seel
+- Seeds: **12** | Min/Max: **4/10** | m=**0** | d=**** — N/A
+- Sample: Fizi | Baraka | Uvira | Minembwe | Bibogobogo
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Besme (i:200008)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Negu, Magongo, Lepamanko, Boyo, Guguti
+- Seeds: **16** | Min/Max: **3/11** | m=**0** | d=**** — N/A
+- Sample: Besmé | Bodor | Boumo | Boumou | Draï Ngolo
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Bidiyo (i:200009)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Enos, Olusi, Diegul, Onik, Guarx
+- Seeds: **47** | Min/Max: **4/12** | m=**0** | d=**** — N/A
+- Sample: Niergui | Zerli | Tchakor | Tounkoul | Kofilo
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Bina (i:200010)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Bowimu, Agupeya, Gedu, Woworu, Tukalasa
+- Seeds: **9** | Min/Max: **5/11** | m=**0** | d=**** — N/A
+- Sample: Binawa | Karkun Kasa | Karkun Biba | Kabene | Tunkuri
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Biu–Mandara (i:200011)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Guolinll, Kual, Koitxx, Alugeret, Veus
+- Seeds: **0** | Min/Max: **0/0** | m=**0** | d=**** — N/A
+- Sample: 
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Bole Afroasiatic (i:200012)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Alutetdd, Tuut, Diolss, Seasaras, Erol
+- Seeds: **64** | Min/Max: **4/8** | m=**0** | d=**** — N/A
+- Sample: Fika | Pikka | Potiskum | Nangere | Dukku
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Bole–Tangale (i:200013)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Seikogdd, Vaer, Voesss, Koodimas, Foas
+- Seeds: **18** | Min/Max: **4/8** | m=**0** | d=**** — N/A
+- Sample: Kaltungo | Billiri | Shongom | Akko | Ture
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Bomboli–Bozaba (i:200014)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Suseruno, Leki, Remandi, Posimo, Wube
+- Seeds: **7** | Min/Max: **4/13** | m=**0** | d=**** — N/A
+- Sample: Kungu | Dongo | Bomongo | Budjala | Gemena
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Bum (i:200015)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Peromba, Nobabari, Nepo, Maruwu, Lebesumbe
+- Seeds: **30** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Fonfuka | Su-Bum | Kimbi | Buabua | Ngunabum
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Buru–Angwe (i:200016)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Yamini, Wesuyeto, Yonu, Sumo, Satasano
+- Seeds: **43** | Min/Max: **3/12** | m=**0** | d=**** — N/A
+- Sample: Buru | Buru Sama | Angwe | Batu Kamino | Batu Amanda
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Chakato (i:200017)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Gaal, Diit, Seugerdd, Quus, Voorss
+- Seeds: **1** | Min/Max: **1/1** | m=**0** | d=**** — N/A
+- Sample: Dokan Tofa
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Dangaléat (i:200018)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Diates, Seiore, Neen, Voemal, Koosisww
+- Seeds: **9** | Min/Max: **4/14** | m=**0** | d=**** — N/A
+- Sample: Korbo | Golé | Tyalo-Idéba | Barlo | Koubo Adougoul
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Ekoka ǃKung (i:200019)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Neut, Voolim, Koasar, Yool, Oluner
+- Seeds: **5** | Min/Max: **5/10** | m=**0** | d=**** — N/A
+- Sample: Ekoka | Tsintsabis | Eenhana | Okongo | Rundu
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Esimbi (i:200020)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Tene, Wukeyo, Waporinka, Loka, Sokiso
+- Seeds: **16** | Min/Max: **4/9** | m=**0** | d=**** — N/A
+- Sample: Benakuma | Benatidi | Benabinge | Benade | Benagudi
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Feʼfeʼ (i:200021)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Dutu, Sarolo, Rebabasu, Sepo, Nurunki
+- Seeds: **22** | Min/Max: **4/10** | m=**0** | d=**** — N/A
+- Sample: Bafang | Bandjoun | Bafoussam | Bamougoum | Bameka
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Fio (i:200022)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Rubawu, Ralipombe, Nobemu, Muloliya, Ruya
+- Seeds: **17** | Min/Max: **2/12** | m=**0** | d=**** — N/A
+- Sample: Fio | Fonfuka | Subum | Kimbi | Bum
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Fut (i:200023)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Miit, Seam, Guikogol, Wuer, Koesit
+- Seeds: **2** | Min/Max: **5/9** | m=**0** | d=**** — N/A
+- Sample: Bafut | Njinteh
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Gawar (i:200024)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Seerutin, Yui, Voatem, Koiorzz, Olemar
+- Seeds: **28** | Min/Max: **4/10** | m=**0** | d=**** — N/A
+- Sample: Gawar | Kortchi | Gadala | Gadalao | Gnibango
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Ghomalaʼ (i:200025)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Apa, Yeniwu, Wotusembe, Peku, Tanomu
+- Seeds: **20** | Min/Max: **4/10** | m=**0** | d=**** — N/A
+- Sample: Bandjoun | Bafoussam | Bamougoum | Bameka | Bamendjou
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Gǀui (i:200026)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Joik, Searrr, Guitonom, Ules, Koelg
+- Seeds: **9** | Min/Max: **4/15** | m=**0** | d=**** — N/A
+- Sample: Ghanzi | Xade | New Xade | Dutlwe | Molepolole
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Hadza (i:200027)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Seunekol, Seur, Vooit, Koalasin, Cuos
+- Seeds: **7** | Min/Max: **4/12** | m=**0** | d=**** — N/A
+- Sample: Mangola | Yaeda | Dunduhina | Endamagha | Oldeani
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Hausa–Gwandara (i:200028)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Voitem, Kougerzz, Isus, Olorar, Diadags
+- Seeds: **15** | Min/Max: **4/12** | m=**0** | d=**** — N/A
+- Sample: Abuja | Keffi | Lafia | Akwanga | New Karshi
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Holma (i:200029)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Moos, Alusl, Oleguel, Yaik, Searat
+- Seeds: **22** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Holma | Sarau | Bafere | Dagchere | Jababa
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Huba (i:200030)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Koomidem, Loan, Oligd, Diurelar, Waun
+- Seeds: **1** | Min/Max: **4/8** | m=**0** | d=**** — N/A
+- Sample: Hong
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Jalaa (i:200031)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Vaam, Voisas, Kouteta, Fout, Ololur
+- Seeds: **1** | Min/Max: **6/6** | m=**0** | d=**** — N/A
+- Sample: Loojaa
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Jara (i:200032)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Goos, Alusen, Olegun, Riik, Searz
+- Seeds: **2** | Min/Max: **3/11** | m=**0** | d=**** — N/A
+- Sample: Biu | Akko
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Jelkung (i:200033)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Voemor, Koosistt, Wead, Oliri, Diunekl
+- Seeds: **0** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: 
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Jibyal (i:200034)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Koesel, Alodimx, Diinan, Seusemm, Vookyy
+- Seeds: **0** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: 
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Jilbe (i:200035)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Jaur, Vooel, Koalasx, Tios, Olusan
+- Seeds: **1** | Min/Max: **4/6** | m=**0** | d=**** — N/A
+- Sample: Jilbe
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Jimi Cameroon (i:200036)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Guigo, Vourelll, Taun, Alotxx, Olanatet
+- Seeds: **7** | Min/Max: **5/8** | m=**0** | d=**** — N/A
+- Sample: Bourrah | Djimi | Mbola | Mitchimi | Gamboura
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Jimi Nigeria (i:200037)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Seirosin, Neet, Voenem, Koolinzz, Yoal
+- Seeds: **1** | Min/Max: **4/4** | m=**0** | d=**** — N/A
+- Sample: Jimi
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Jina (i:200038)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Voitonal, Lees, Alelus, Olomidu, Voan
+- Seeds: **38** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Zina | Zoumouzi | Oudio | Daboulao | Dieguere
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Jonkor (i:200039)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Seodimmm, Luas, Voinyy, Kouseot, Weug
+- Seeds: **0** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: 
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Ju (Chadic) (i:200040)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Liad, Guirdd, Vouneker, Vuur, Aloas
+- Seeds: **0** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: 
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Juǀʼhoan (i:200041)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Oluser, Dieguss, Guara, Voitonk, Alelw
+- Seeds: **29** | Min/Max: **3/13** | m=**0** | d=**** — N/A
+- Sample: Tsumkwe | Nokaneng | Nyae Nyae | Gam | ≠Om!o!o
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Kabalai (i:200042)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Seigkk, Guurelal, Kuun, Kootus, Alanatu
+- Seeds: **20** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Laï | Noungou | Taba | Tagbian | Draye Ngolo
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Kajakse (i:200043)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Voikogl, Vuer, Alesx, Olodimat, Gias
+- Seeds: **25** | Min/Max: **3/11** | m=**0** | d=**** — N/A
+- Sample: Abdourta | Alilé | Alo | Amkachawaye | Amtalata
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Kamwe (i:200044)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Alismm, Olutetul, Miut, Seolot, Guasaron
+- Seeds: **63** | Min/Max: **3/10** | m=**0** | d=**** — N/A
+- Sample: Michika | Mwecika | Nkafa | Nkafamiya | Bazza
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Kanakuru (i:200045)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Koiser, Alutetss, Kout, Diola, Seasark
+- Seeds: **61** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Shani | Shellen | Gasi | Kiri | Kubo
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Karai-karai (i:200046)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Guous, Voalasu, Alusol, Oleguy, Searin
+- Seeds: **31** | Min/Max: **4/9** | m=**0** | d=**** — N/A
+- Sample: Jalam | Shira | Kalam | Gooya | Potiskum
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Kariya (i:200047)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Alasar, Diunir, Seenurt, Voae, Koikogkk
+- Seeds: **5** | Min/Max: **4/12** | m=**0** | d=**** — N/A
+- Sample: Kariya | Kariya Gyada | Tulu | Sabon Kariya | Sabon Tulu
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Kera (i:200048)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Keom, Oludi, Dierutl, Usi, Guatx
+- Seeds: **26** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Kéra | Koupor | Tikem | Illi | Faria
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Kholok (i:200049)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Loom, Oludww, Dierutus, Wai, Guatm
+- Seeds: **3** | Min/Max: **10/12** | m=**0** | d=**** — N/A
+- Sample: Kode Dutse | Kode Menung | Kode Saliya
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Kimré (i:200050)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Guugerz, Sous, Koorun, Aladagrr, Deon
+- Seeds: **28** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Kimré | Nangda | Kaboradi | Marou | Dimèdou
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Kir-Balar (i:200051)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Gualasnn, Asos, Kouszz, Alegud, Koik
+- Seeds: **3** | Min/Max: **3/13** | m=**0** | d=**** — N/A
+- Sample: Kir | Kir Bengbet | Kir Bajang'le
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Kirya-Konzal (i:200052)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Kootw, Alanatos, Otod, Diumll, Seetukil
+- Seeds: **2** | Min/Max: **5/7** | m=**0** | d=**** — N/A
+- Sample: Kirya | Mijilu
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Koenoem (i:200053)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Foer, Diodimg, Poas, Guint, Vousees
+- Seeds: **16** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Lifidi | Nwoop | Koezam | Kumshimak | Koemu
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Kubi (i:200054)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Laod, Seumin, Guetuknn, Viil, Koalzz
+- Seeds: **1** | Min/Max: **4/4** | m=**0** | d=**** — N/A
+- Sample: Kubi
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Kulere (i:200055)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Gualww, Voirosus, Alenm, Ololinol, Unal
+- Seeds: **27** | Min/Max: **4/8** | m=**0** | d=**** — N/A
+- Sample: Toff | Kwarka | Tudu | Tamoso | Dashid
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Kulung language (West Chadic) (i:200056)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Voolinz, Cial, Alitun, Olugerrr, Mius
+- Seeds: **16** | Min/Max: **5/7** | m=**0** | d=**** — N/A
+- Sample: Bambur | Balasa | Banyam | Kirim | Bangai
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Kutto (i:200057)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Voanatnn, Rood, Alumzz, Oletukd, Ceil
+- Seeds: **2** | Min/Max: **5/10** | m=**0** | d=**** — N/A
+- Sample: Kupto | Kupto Gana
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Kwaami (i:200058)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Olitone, Seelal, Guomidww, Koigu, Alurelm
+- Seeds: **41** | Min/Max: **4/9** | m=**0** | d=**** — N/A
+- Sample: Kwami | Kafarati | Dolli | Bojude | Bomala
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Kwang (i:200059)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Guugerrr, Koor, Aladagg, Diult, Seesules
+- Seeds: **28** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Mobou | Mogo | Ngam | Mindéra | Aloua
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Lagwan (i:200060)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Seen, Voemss, Koosisas, Cuad, Olirk
+- Seeds: **4** | Min/Max: **3/12** | m=**0** | d=**** — N/A
+- Sample: Logone-Birni | Logone-Gana | Mré | Kabela
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Lamang (i:200061)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Uteg, Fiam, Guisl, Voutetel, Piut
+- Seeds: **13** | Min/Max: **4/9** | m=**0** | d=**** — N/A
+- Sample: Gwoza | Wakane | Hidkala | Vile | Hambagda
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Lele language (Chad) (i:200062)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Seatgg, Guioror, Paen, Koemis, Alosisi
+- Seeds: **29** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Krim-Krim | Bémangra | Bologo | Dafra | Tchérébaouel
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Lozi (i:200063)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Lozi_language](https://en.wikipedia.org/wiki/Lozi_language)
-- Sample: Alakg, Olilotir, Uneg, Seedes, Guonile
+- Seeds: **34** | Min/Max: **4/13** | m=**0** | d=**** — N/A
+- Sample: Mongu | Limulunga | Lealui | Nalolo | Senanga
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Maaka (i:200064)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Olodimur, Ceas, Seinos, Guuseo, Meug
+- Seeds: **2** | Min/Max: **4/6** | m=**0** | d=**** — N/A
+- Sample: Gulani | Bara
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Mabire (i:200065)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Seulin, Guesulnn, Meir, Koakzz, Alilotd
+- Seeds: **5** | Min/Max: **4/9** | m=**0** | d=**** — N/A
+- Sample: Oulek | Katch | Amdjaména | Arga | Mambire
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Mada (i:200066)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Koegua, Puik, Olarur, Diitonw, Bees
+- Seeds: **30** | Min/Max: **4/8** | m=**0** | d=**** — N/A
+- Sample: Akwanga | Kagba | Rija | Gbin | Ancho
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Mafa (i:200067)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Alunekum, Siur, Diogg, Sealasor, Daos
+- Seeds: **99** | Min/Max: **4/14** | m=**0.1** | d=**** — N/A
+- Sample: Mokolo | Mokola | Magoumaz | Mavoumaï | Matazak
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Majera (i:200068)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Voetukx, Leil, Alalan, Olirosmm, Voet
+- Seeds: **3** | Min/Max: **5/7** | m=**0** | d=**** — N/A
+- Sample: Majera | Mazera | Dogwea
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Malagasy (i:200069)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Malagasy_language](https://en.wikipedia.org/wiki/Malagasy_language)
-- Sample: Kiir, Voakll, Koilotil, Oledet, Dionilen
+- Seeds: **99** | Min/Max: **5/18** | m=**0.1** | d=**** — N/A
+- Sample: Ambalavao | Ambanja | Ambatoboeny | Ambatofinandrahana | Ambatolampy
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Malagasy macro entry (i:200070)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Malagasy_language](https://en.wikipedia.org/wiki/Malagasy_language)
-- Sample: Jeik, Diaras, Seitona, Toes, Voelur
+- Seeds: **0** | Min/Max: **0/0** | m=**0** | d=**** — N/A
+- Sample: 
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Malgbe (i:200071)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Diitoner, Coes, Guelas, Voomida, Moan
+- Seeds: **40** | Min/Max: **3/11** | m=**0** | d=**** — N/A
+- Sample: Malgbwé | Mara | Douguia | Droh | Walia
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Manding (i:200072)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Manding_languages](https://en.wikipedia.org/wiki/Manding_languages)
-- Sample: Voanatrr, Alum, Oletukg, Sealt, Guiroses
+- Seeds: **74** | Min/Max: **3/14** | m=**0.1** | d=**** — N/A
+- Sample: Bamako | Kati | Kalabancoro | Koulikoro | Nyamina
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Mantsi language (Nigeria) (i:200073)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Huol, Seunet, Guenuren, Soit, Koaam
+- Seeds: **2** | Min/Max: **6/8** | m=**0** | d=**** — N/A
+- Sample: Mangas | Dungulbi
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Mao Omotic (i:200074)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Diatx, Seiorat, Voemmm, Koosisul, Tiad
+- Seeds: **8** | Min/Max: **4/8** | m=**0** | d=**** — N/A
+- Sample: Bambassi | Diddesa | Mutsa | Wamba | Gome
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Marba (i:200075)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Koutettt, Enut, Ololi, Diasarl, Onol
+- Seeds: **48** | Min/Max: **5/17** | m=**0.1** | d=**** — N/A
+- Sample: Baktchoro | Bakchoro | Marba Bakchoro | Marba Gogor | Marba Damdou
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Margi (i:200076)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Diudot, Seeruton, Voatim, Koior, Olemer
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+- Seeds: **82** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Margi | Askira-Uba | Damboa | Gulak | Lasa
+- [x] Name  [x] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done — WAITING
 
 
 ## Margi South (i:200077)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Voakot, Koiloton, Saeg, Oledim, Dionil
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+- Seeds: **81** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Margi South | Askira-Uba | Damboa | Gulak | Lasa
+- [x] Name  [x] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done — WAITING
 
 
 ## Masa (macro) (i:200078)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Voalasim, Zoos, Alusdd, Oleguer, Searas
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+- Seeds: **32** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Yagoua | Vélé | Guéré | Domo | Djongdong
+- [x] Name  [x] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done — WAITING
 
 
 ## Masa North (i:200079)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Faol, Seunyy, Guenurot, Pait, Koar
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+- Seeds: **30** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Vélé | Guémé | Guéméré | Agolla | Yaraye
+- [x] Name  [x] Seeds authentic  [x] Seed count  [x] D  [x] M  [x] Min/Max  [x] Continent  [x] Encoding  [x] Placeholder  [x] Done
 
 
 ## Masa South (i:200080)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Seonilet, Wiam, Voisn, Koutetam, Haut
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+- Seeds: **28** | Min/Max: **4/10** | m=**0** | d=**** — N/A
+- Sample: Guéré | Arkouna | Bangana | Dahao | Dangabissi
+- [x] Name  [x] Seeds authentic  [x] Seed count  [x] D  [x] M  [x] Min/Max  [x] Continent  [x] Encoding  [x] Placeholder  [x] Done
 
 
 ## Maslam (i:200081)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Alosisxx, Diiren, Seunekn, Vooz, Koalasut
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+- Seeds: **2** | Min/Max: **3/6** | m=**0** | d=**** — N/A
+- Sample: Maltam | Sao
+- [x] Name  [x] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done — WAITING
 
 
 ## Masmaje (i:200082)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Alinul, Oluseyy, Joug, Seokon, Guamanr
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+- Seeds: **3** | Min/Max: **7/15** | m=**0** | d=**** — N/A
+- Sample: Assafik | Amlaména Hilélé | Mesmédjé
+- [x] Name  [x] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done — WAITING
 
 
 ## Massa (i:200083)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Voonil, Zoam, Alisor, Olutettt, Jout
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+- Seeds: **53** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Yagoua | Domo | Dana | Djokoydi | Kalak
+- [x] Name  [x] Seeds authentic  [x] Seed count  [x] D  [x] M  [x] Min/Max  [x] Continent  [x] Encoding  [x] Placeholder  [x] Done
 
 
 ## Matal (i:200084)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Guakgg, Voilotor, Cieg, Aledis, Olonili
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+- Seeds: **20** | Min/Max: **5/10** | m=**0** | d=**** — N/A
+- Sample: Zouelva | Baldama | Golda | Katoua | Koulang
+- [x] Name  [x] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done — WAITING
 
 
 ## Mawa (i:200085)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Koirosit, Biet, Olennn, Diolinem, Lial
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+- Seeds: **2** | Min/Max: **6/7** | m=**0** | d=**** — N/A
+- Sample: Mahoua | Gourara
+- [x] Name  [x] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done — WAITING
 
 
 ## Mazagway (i:200086)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Voumur, Koetukw, Cuil, Olalo, Diirosll
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+- Seeds: **12** | Min/Max: **4/13** | m=**0.1** | d=**** — N/A
+- Sample: Baïla | Boula Ibbi | Tam Djidde | Zouvoul | Mayo-Laddé
+- [x] Name  [x] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done — WAITING
 
 
 ## Mbara language (Chad) (i:200087)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Onir, Guakn, Voilotam, Zoeg, Aledut
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+- Seeds: **1** | Min/Max: **10/12** | m=**0** | d=**** — N/A
+- Sample: Guélengdeng
+- [x] Name  [x] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done — WAITING
 
 
 ## Mbudum (i:200088)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Koumg, Aletukir, Zail, Diales, Seirose
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+- Seeds: **2** | Min/Max: **7/15** | m=**0** | d=**** — N/A
+- Sample: Boudoum | Boudoum Hosséré
+- [x] Name  [x] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done — WAITING
 
 
 ## Mbuko (i:200089)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Seundd, Guenurer, Koaas, Alikoga, Diesur
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+- Seeds: **20** | Min/Max: **4/12** | m=**0.1** | d=**** — N/A
+- Sample: Doulek Centre | Mbalak | Manzala | Ngassa | Mayak
+- [x] Name  [x] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done — WAITING
 
 
 ## Mburku (i:200090)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Diirosw, Iret, Gueno, Voolinll, Taal
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+- Seeds: **1** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Burku
+- [x] Name  [x] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done — WAITING
 
 
 ## Mefele (i:200091)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Seigas, Guurela, Kootur, Alanatw, Diumo
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+- Seeds: **6** | Min/Max: **4/9** | m=**0** | d=**** — N/A
+- Sample: Mouhour | Sirak | Mofouélé | Doray | Ldilang
+- [x] Name  [x] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done — WAITING
 
 
 ## Mende (i:200092)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Mende_language](https://en.wikipedia.org/wiki/Mende_language)
-- Sample: Anes, Voelus, Koomidu, Kean, Oligol
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+- Seeds: **27** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Bo | Kenema | Kailahun | Pujehun | Moyamba
+- [x] Name  [x] Seeds authentic  [x] Seed count  [x] D  [x] M  [x] Min/Max  [x] Continent  [x] Encoding  [x] Placeholder  [x] Done
 
 
 ## Merey (i:200093)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Voanatin, Taod, Alumem, Oletukzz, Doil
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+- Seeds: **10** | Min/Max: **4/10** | m=**0** | d=**** — N/A
+- Sample: Meri | Meri Guema | Dalkondo | Foula | Guirmedeo
+- [x] Name  [x] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done — WAITING
 
 
 ## Merico (i:200094)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Seegui, Jaik, Voarel, Koitonx, Ties
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+- Seeds: **27** | Min/Max: **4/16** | m=**0.1** | d=**** — N/A
+- Sample: Monrovia | Buchanan | Gbarnga | Kakata | Voinjama
+- [x] Name  [x] Seeds authentic  [x] Seed count  [x] D  [x] M  [x] Min/Max  [x] Continent  [x] Encoding  [x] Placeholder  [x] Done
 
 
 ## Mesme (i:200095)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Boeg, Voedg, Koonilir, Loam, Olises
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+- Seeds: **15** | Min/Max: **3/13** | m=**0** | d=**** — N/A
+- Sample: Kelo | Kasbang | Guelmasé | Tchiré | Tchagra
+- [x] Name  [x] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done — WAITING
 
 
 ## Migaama (i:200096)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Koamanss, Saom, Oluda, Dierutk, Coi
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+- Seeds: **31** | Min/Max: **4/12** | m=**0** | d=**** — N/A
+- Sample: Baro | Sisi | Mala | Tabo | Mormo
+- [x] Name  [x] Seeds authentic  [x] Seed count  [x] D  [x] M  [x] Min/Max  [x] Continent  [x] Encoding  [x] Placeholder  [x] Done
 
 
 ## Miler (i:200097)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Alenurgg, Tuit, Diatt, Seikogis, Voesl
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+- Seeds: **8** | Min/Max: **4/9** | m=**0** | d=**** — N/A
+- Sample: Pankshin | Kwanka | Fier | Jibilik | Wuseli
+- [x] Name  [x] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done — WAITING
 
 
 ## Miltu (i:200098)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Koatyy, Aliorot, Jeen, Diemr, Seosisim
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+- Seeds: **5** | Min/Max: **4/9** | m=**0** | d=**** — N/A
+- Sample: Miltu | Goumoul | Galigne | Tongour | Bolo
+- [x] Name  [x] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done — WAITING
 
 
 ## Mire (i:200099)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Cuir, Mueg, Yeam, Huut, Seolww
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+- Seeds: **0** | Min/Max: **4/15** | m=**0** | d=**** — N/A
+- Sample: 
+- [x] Name  [x] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done — WAITING
 
 
 ## Miship (i:200100)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Hion, Diulrr, Seesulom, Seir, Voakg
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+- Seeds: **8** | Min/Max: **5/11** | m=**0** | d=**** — N/A
+- Sample: Pankshin | Kwala | Jibam | Kapil | Mugulum
+- [x] Name  [x] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done — WAITING
 
 
 ## Miya (i:200101)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Weit, Oladd, Diikoger, Guer, Guesas
+- Seeds: **0** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: 
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Mofu-Gudur (i:200102)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Koutetyy, Puut, Ololon, Diasarr, Beol
+- Seeds: **29** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Mokong | Goudour | Zidim | Gouloua | Katamsa
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Mogum (i:200103)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Oluneken, Faur, Seoam, Gualasz, Paos
+- Seeds: **5** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Mogum | Mogom | Koffa | Benabo | Ouloum
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Mokilko (i:200104)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Pair, Koakxx, Alilotet, Areg, Diedn
+- Seeds: **6** | Min/Max: **4/12** | m=**0** | d=**** — N/A
+- Sample: Mokoulou | Séguine | Doli | Morgué | Djarkatché
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Moloko (i:200105)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Koakr, Alilotim, Dieddd, Seoniler, Kuas
+- Seeds: **27** | Min/Max: **4/12** | m=**0.1** | d=**** — N/A
+- Sample: Makilingaye | Mokolopo | Gadoua | Kotraba | Chirem
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Montol (i:200106)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Guugerir, Koores, Aladage, Diulal, Seesulww
+- Seeds: **47** | Min/Max: **3/11** | m=**0** | d=**** — N/A
+- Sample: Tunkus | Baltep | Lalin | Talme | Kongwan
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Mozabite (i:200107)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Koirosd, Naet, Olens, Diolinum, Yial
+- Seeds: **17** | Min/Max: **4/12** | m=**0.1** | d=**** — N/A
+- Sample: Ghardaïa | Taghardaït | Beni Isguen | At Isdjen | Melika
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Mpade (i:200108)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Vounekkk, Feur, Aloww, Olalasus, Peos
+- Seeds: **29** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Makary | Woulki | Bodo | Biamo | Digam
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Mpre (i:200109)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Huir, Seakit, Guilotin, Soeg, Koedem
+- Seeds: **0** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: 
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Mser (i:200110)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Olugerat, Seormm, Guadagul, Koulot, Alesulon
+- Seeds: **27** | Min/Max: **4/15** | m=**0** | d=**** — N/A
+- Sample: Kousséri | Naga | Ndjagaré | Ngamadja | Wadang
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Mubi (i:200111)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Olamanas, Seudk, Guerutur, Cai, Koatos
+- Seeds: **73** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Mubi | Vimtim | Muchalla | Bagira | Bahuli
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Mundat (i:200112)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Voirosyy, Piet, Alenon, Ololinr, Atal
+- Seeds: **0** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: 
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Musey (i:200113)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Seunekss, Osur, Vooa, Koalask, Alos
+- Seeds: **31** | Min/Max: **4/14** | m=**0.1** | d=**** — N/A
+- Sample: Gounou Gaya | Gaskala | Makadi | Tamboursou | Waraye
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Musgu (i:200114)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Koiorum, Cuen, Olemgg, Diosisor, Muad
+- Seeds: **51** | Min/Max: **3/11** | m=**0.1** | d=**** — N/A
+- Sample: Pouss | Katoa | Guirvidig | Mogroum | Kaikai
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Muskum (i:200115)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Raer, Seodimor, Boas, Voinis, Kousei
+- Seeds: **1** | Min/Max: **4/10** | m=**0** | d=**** — N/A
+- Sample: Mouskoun
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Muyang (i:200116)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Olinol, Diusey, Guug, Guokin, Voamannn
+- Seeds: **14** | Min/Max: **4/13** | m=**0.1** | d=**** — N/A
+- Sample: Mouyengué | Palbara | Baka | Chiga | Goulon-Goulon
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Mwaghavul (i:200117)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Olem, Diosisdd, Usad, Guirss, Vounekas
+- Seeds: **35** | Min/Max: **4/8** | m=**0** | d=**** — N/A
+- Sample: Mangu | Panyam | Kerang | Ampang | Mangun
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Mzab–Wargla Berber (i:200118)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Guigun, Vourelrr, Ciun, Alot, Olanatg
+- Seeds: **0** | Min/Max: **4/14** | m=**0** | d=**** — N/A
+- Sample: 
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Nafusi (i:200119)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Gualr, Voirosim, Vuet, Alendd, Ololiner
+- Seeds: **28** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Nalut | Jadu | Yefren | Kabaw | Tormeus
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Nama (i:200120)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Voirl, Kounekel, Biur, Oloat, Dialasan
+- Seeds: **41** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Windhoek | Swakopmund | Walvis Bay | Rundu | Katima Mulilo
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Nancere (i:200121)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Diins, Seuseum, Osug, Vookgg, Koamanor
+- Seeds: **46** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Bere | Ann-kassere | Babre | Bani | Biang-andah
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Naro (i:200122)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Guunon, Voenurr, Juit, Olikogdd, Uner
+- Seeds: **81** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Naro | Ghanzi | Dutlwe | Xade | New Xade
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Ndam (i:200123)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Vourelis, Urun, Alotl, Olanatel, Faod
+- Seeds: **6** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Ndam | Dik | Tarkemadji | Maloum | Mailao
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Ngambay (i:200124)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Ngambay_language](https://en.wikipedia.org/wiki/Ngambay_language)
-- Sample: Jair, Voaks, Koilotum, Tieg, Oledgg
+- Seeds: **57** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Moundou | Benoye | Bebalem | Mbalkabra | Beinamar
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Ngamo (i:200125)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Seureld, Kiun, Voots, Koanatum, Utod
+- Seeds: **77** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Ngamo | Fika | Darazo | Dukku | Nafada
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Ngas (i:200126)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Hout, Kooln, Alasaram, Siol, Diunut
+- Seeds: **8** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Pankshin | Ampang | Amper | Kabwir | Kor
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Ngeté-Herdé (i:200127)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Diulz, Seesulut, Dair, Voakrr, Koilotom
+- Seeds: **7** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Ngolo | Korio | Bourou | Moundou | Guélendeng
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Nggwahyi (i:200128)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Piur, Aloit, Olalasin, Atos, Seusem
+- Seeds: **80** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Nggwahyi | Askira-Uba | Gwoza | Bama | Damboa
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Ngizim (i:200129)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Kourelin, Orun, Olotem, Dianatzz, Zuod
+- Seeds: **77** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Ngizim | Fika | Potiskum | Nangere | Darazo
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Ngwaba (i:200130)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Zaur, Jaos, Tiik, Eles, Olan
+- Seeds: **0** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: 
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Nkore (i:200131)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Nkore_language](https://en.wikipedia.org/wiki/Nkore_language)
-- Sample: Zaeg, Diedr, Seonilim, Jaam, Voisdd
+- Seeds: **26** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Mbarara | Bushenyi | Ntungamo | Kiruhura | Ibanda
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## North Giziga (i:200132)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Koonilzz, Naam, Olisar, Diutets, Yiut
+- Seeds: **12** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Tchéré | Mogazang | Dogba | Douvangar | Godola Hossere
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## North Mofu (i:200133)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Seudum, Guerut, Koator, Aliortt, Woen
+- Seeds: **15** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Douvangar | Ouazzang | Douroum | Meri | Mogazang
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Northern Berber (i:200134)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Olenyy, Diolinot, Poal, Guitr, Vougerim
+- Seeds: **73** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Tizi Ouzou | Bejaia | Constantine | Algiers | Oran
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Nteng (i:200135)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Seols, Guasarum, Koungg, Alenuror, Gait
+- Seeds: **14** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Nteng | Geer | Gyeer | Ɗok | Ɗoop
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Nuer (i:200136)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Biik, Lies, Vuan, Giun, Reod
+- Seeds: **60** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Bentiu | Malakal | Nasir | Akobo | Waat
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Nyam (i:200137)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Dioryy, Seadagot, Daon, Voulr, Koesulim
+- Seeds: **60** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Nyam | Karim Lamido | Didango | Jalingo | Wukari
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Nzanyi (i:200138)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Kounon, Alenurr, Rait, Boer, Loas
+- Seeds: **50** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Nzanyi | Njanyi | Rogede | Mutidi | Magara
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Nǁng (i:200139)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Diarn, Seitonam, Boes, Voelut, Koomidun
+- Seeds: **44** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: ǁKhauxaǃnas | Koes | Rietfontein | Grootfontein | Upington
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Omo–Tana (i:200140)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Heet, Voenor, Koolintt, Saal, Oliti
+- Seeds: **0** | Min/Max: **0/0** | m=**0** | d=**** — N/A
+- Sample: 
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Oromoid (i:200141)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Olelat, Diomidan, Zuan, Guigul, Vourelyy
+- Seeds: **60** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Addis Ababa | Harar | Jimma | Nekemte | Ambo
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Paa (i:200142)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Diisss, Seutetas, Jaut, Voolk, Koasarur
+- Seeds: **0** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: 
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Pali language (Chadic) (i:200143)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Voilotus, Ineg, Aledm, Olonilol, Seisit
+- Seeds: **0** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: 
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Pan (i:200144)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Koolinr, Enal, Diugerdd, Onus, Guorss
+- Seeds: **48** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Kofyar | Bwall | Kwalla | Lanong | Kwong
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Parkwa (i:200145)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Goes, Alelam, Olomidz, Rian, Seigun
+- Seeds: **32** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Oudjila | Godigong | Namba | Dakwada | Méjè
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Pero (i:200146)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Olorol, Diadagy, Muon, Guulin, Voesulnn
+- Seeds: **79** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Pero | Shongom | Filiya | Gwandum | Gundale
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Peve (i:200147)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Aletuk, Woil, Dialer, Seirosss, Voena
+- Seeds: **27** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Lamé | Douffin | Doudja | Dougon | Guidjiba
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Pichinglis (i:200148)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Olosiset, Seirn, Guunekam, Koout, Alalasun
+- Seeds: **34** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Malabo | Luba | Bata | Sampaca | Fiston
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Piya (i:200149)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Alirel, Olunekx, Suur, Seoan, Gualasmm
+- Seeds: **60** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Piya | Karim Lamido | Didango | Jalingo | Wukari
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Poki (i:200150)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Voikogtt, Moer, Alesi, Olodiml, Yaas
+- Seeds: **0** | Min/Max: **4/4** | m=**0** | d=**** — N/A
+- Sample: 
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Polci (i:200151)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Olanatzz, Ceod, Seumar, Guetuks, Meil
+- Seeds: **28** | Min/Max: **3/18** | m=**0.1** | d=**** — N/A
+- Sample: Angwan Kur | Dem | Gauri | Gollafa | Jambil
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Proto-Berber (i:200152)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Uson, Guulon, Voesulr, Feir, Olilotdd
+- Seeds: **0** | Min/Max: **0/0** | m=**0** | d=**** — N/A
+- Sample: 
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Psikye dialect (i:200153)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Koign, Alurelam, Diotut, Seanatun, Voumom
+- Seeds: **26** | Min/Max: **3/14** | m=**0.1** | d=**** — N/A
+- Sample: Mogode | Kortchi | Rhumsiki | Rhoumzou | Sirakouti
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Putai (i:200154)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Coit, Guaot, Voikogon, Alesim, Olodim
+- Seeds: **24** | Min/Max: **4/14** | m=**0** | d=**** — N/A
+- Sample: Damboa | Ajigin | Azir | Garjan | Gumsuri
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Pyapun (i:200155)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Guuda, Voerutk, Alatw, Olioros, Laen
+- Seeds: **16** | Min/Max: **5/9** | m=**0** | d=**** — N/A
+- Sample: Gotlong | Koetes | Longbis | Pangjiem | Piaber
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Rendille–Boni (i:200156)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Daad, Naur, Dialasum, Yios, Guusgg
+- Seeds: **20** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Marsabit | Laisamis | Logologo | Loyangalani | Korr
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Ron Chadic (i:200157)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Seusam, Gueguz, Viik, Koarun, Alitonrr
+- Seeds: **0** | Min/Max: **0/0** | m=**0** | d=**** — N/A
+- Sample: 
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Saba Chadic (i:200158)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Olakmm, Diilotul, Fieg, Guedot, Voonilon
+- Seeds: **18** | Min/Max: **3/11** | m=**0.1** | d=**** — N/A
+- Sample: Goboro | Goboro-Bara | Sala | Ohi | Mak
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Saho–Afar (i:200159)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Naol, Olunel, Dienurx, Yiit, Guaan
+- Seeds: **0** | Min/Max: **0/0** | m=**0** | d=**** — N/A
+- Sample: 
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Sandawe (i:200160)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Diolinss, Guita, Vougerk, Gous, Alorw
+- Seeds: **25** | Min/Max: **4/9** | m=**0** | d=**** — N/A
+- Sample: Sanzawa | Ovada | Gungi | Kurio | Farkwa
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Sar (i:200161)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Sar_language](https://en.wikipedia.org/wiki/Sar_language)
-- Sample: Oreg, Zuam, Juut, Unol, Etit
+- Seeds: **25** | Min/Max: **5/10** | m=**0** | d=**** — N/A
+- Sample: Bédaya | Balimba | Koumogo | Bessada | Djoli
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Sarua (i:200162)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Vounun, Koenurrr, Ola, Diikogg, Guest
+- Seeds: **16** | Min/Max: **4/10** | m=**0** | d=**** — N/A
+- Sample: Bousso | Nara | Bilamtou | Djoumour | Delban
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Setlôkwa (i:200163)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Nosuyengu, Nenu, Mamoni, Letasato, Gumu
+- Seeds: **27** | Min/Max: **5/11** | m=**0** | d=**** — N/A
+- Sample: Botlokwa | Matoks | Machaka | Mphakane | Ramokgopa
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Sha (i:200164)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Koikogur, Weer, Olesos, Diodimo, Guas
+- Seeds: **10** | Min/Max: **3/9** | m=**0** | d=**** — N/A
+- Sample: Sha | Tasha | Tagon | Takau | Bakel
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Sharwa (i:200165)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Wual, Hius, Seon, Voamangg, Taom
+- Seeds: **6** | Min/Max: **4/10** | m=**0** | d=**** — N/A
+- Sample: Djeki | Movoy | Duva | Tchevi | Guijiguiji
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Shenwa (i:200166)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Alilotir, Diedes, Seonile, Voisal, Koutetww
+- Seeds: **32** | Min/Max: **4/17** | m=**0.1** | d=**** — N/A
+- Sample: Chenoua | Menaceur | Fadjana | Tidaf | Beni Abdallah
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Siri (Chadic) (i:200167)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Siri_language](https://en.wikipedia.org/wiki/Siri_language)
-- Sample: Dialu, Seirosm, Voeny, Koolinit, Loal
+- Seeds: **2** | Min/Max: **10/12** | m=**0.1** | d=**** — N/A
+- Sample: Siri Babba | Siri Nassara
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Siri Chadic (i:200168)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Siri_language](https://en.wikipedia.org/wiki/Siri_language)
-- Sample: Seomidmm, Voigyy, Kourelot, Youn, Olotr
+- Seeds: **0** | Min/Max: **0/0** | m=**0** | d=**** — N/A
+- Sample: 
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Sokoro (i:200169)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Roes, Alelz, Olomidut, Cean, Seigrr
+- Seeds: **31** | Min/Max: **4/9** | m=**0** | d=**** — N/A
+- Sample: Buɗiya | Daagile | Daasinge | Daaƴer | Dulpi
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Somrai (i:200170)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Guegukk, Paik, Koarww, Alitonus, Ares
+- Seeds: **43** | Min/Max: **4/12** | m=**0** | d=**** — N/A
+- Sample: Doumougou | Domogou | Koblagué | Toumgou | Poumgou
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## South Banda (i:200171)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Voemg, Koosisir, Olires, Diuneke, Guoal
+- Seeds: **8** | Min/Max: **5/7** | m=**0** | d=**** — N/A
+- Sample: Alindao | Mobaye | Kembé | Mingala | Zangba
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## South Cushitic (i:200172)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Guirr, Vounekim, Olur, Alodd, Olalaser
+- Seeds: **0** | Min/Max: **0/0** | m=**0** | d=**** — N/A
+- Sample: 
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## South Giziga (i:200173)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Cuod, Muil, Yeet, Hual, Guugert
+- Seeds: **32** | Min/Max: **4/10** | m=**0** | d=**** — N/A
+- Sample: Bipaing | Bissélé | Boboyo | Bololo | Dardao
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Southern Birifor (i:200174)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Southern_Birifor_language](https://en.wikipedia.org/wiki/Southern_Birifor_language)
-- Sample: Momepusu, Bugi, Ladanki, Kemilolu, Reye
+- Seeds: **0** | Min/Max: **0/0** | m=**0** | d=**** — N/A
+- Sample: 
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Southern Gabri (i:200175)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Zous, Aloren, Oladagn, Joon, Seulz
+- Seeds: **32** | Min/Max: **4/14** | m=**0.1** | d=**** — N/A
+- Sample: Darbé | Dormo | Dormo Baguidja | Magnan | Bourmaye
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Standard Algerian Berber (i:200176)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Voikogr, Duer, Ales, Olodimdd, Nuas
+- Seeds: **0** | Min/Max: **0/0** | m=**0** | d=**** — N/A
+- Sample: 
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Standard Moroccan Amazigh (i:200177)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Dient, Seolines, Lual, Voitkk, Kougeral
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+- Seeds: **31** | Min/Max: **4/15** | m=**0** | d=**** — N/A
+- Sample: Imlil | Aroumd | Megdaz | Asni | Setti Fatma
+- [x] Name  [x] Seeds authentic  [x] Seed count  [x] D  [x] M  [x] Min/Max  [x] Continent  [x] Encoding  [x] Placeholder  [x] Done
 
 
 ## Sukur Chadic (i:200178)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Koeskk, Alodimal, Diinus, Seuseu, Vaug
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+- Seeds: **39** | Min/Max: **3/8** | m=**0** | d=**** — N/A
+- Sample: Sukur | Madagali | Michika | Mubi | Hong
+- [x] Name  [x] Seeds authentic  [x] Seed count  [x] D  [x] M  [x] Min/Max  [x] Continent  [x] Encoding  [x] Placeholder  [x] Done
 
 
 ## Taa (i:200179)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Voomidd, Aligs, Olurelum, Seotgg, Guanator
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+- Seeds: **41** | Min/Max: **4/15** | m=**0** | d=**** — N/A
+- Sample: Ghanzi | Dutlwe | Xade | New Xade | Maun
+- [x] Name  [x] Seeds authentic  [x] Seed count  [x] D  [x] M  [x] Min/Max  [x] Continent  [x] Encoding  [x] Placeholder  [x] Done
 
 
 ## Tagdal Tuareg Berber (i:200180)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Koegut, Orik, Olare, Diitonkk, Zues
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+- Seeds: **68** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Tagdal | Agadez | Arlit | Tchirozerine | In-Gall
+- [x] Name  [x] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done — WAITING
 
 
 ## Tal (i:200181)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Guesy, Voodimit, Alinnn, Oluseem, Seokd
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+- Seeds: **0** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: 
+- [x] Name  [x] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done — WAITING
 
 
 ## Tala (i:200182)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Alemim, Olosis, Unad, Seirer, Guunekss
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+- Seeds: **2** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Kafin Chiri | Kafin Madaki
+- [x] Name  [x] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done — WAITING
 
 
 ## Talni (i:200183)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Talni_language](https://en.wikipedia.org/wiki/Talni_language)
-- Sample: Benombombu, Yuwanala, Pobo, Wenuyo, Towegunka
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+- Seeds: **50** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Talni | Tamale | Bolgatanga | Navrongo | Bawku
+- [x] Name  [x] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done — WAITING
 
 
 ## Tamahaq (i:200184)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Diulos, Seesulo, Voakil, Koilotxx, Oleden
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+- Seeds: **62** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Tamanrasset | In Salah | Tin Zaouatine | Idlès | Tazrouk
+- [x] Name  [x] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done — WAITING
 
 
 ## Tamasheq (i:200185)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Beon, Leir, Voeg, Geam, Raut
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+- Seeds: **51** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Timbuktu | Gao | Kidal | Ménaka | Taoudénit
+- [x] Name  [x] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done — WAITING
 
 
 ## Tambas (i:200186)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Voiorn, Leen, Alemz, Olosisut, Voad
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+- Seeds: **0** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: 
+- [x] Name  [x] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done — WAITING
 
 
 ## Tamki (i:200187)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Veil, Dialll, Seirosil, Fuet, Voenet
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+- Seeds: **26** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Tamki | Temki | Ouroumi | Toukdia | Karfisso
+- [x] Name  [x] Seeds authentic  [x] Seed count  [x] D  [x] M  [x] Min/Max  [x] Continent  [x] Encoding  [x] Placeholder  [x] Done
 
 
 ## Tawellemmet Berber (i:200188)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Tawellemmet_language](https://en.wikipedia.org/wiki/Tawellemmet_language)
-- Sample: Seamand, Erom, Vouds, Koerutum, Ori
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+- Seeds: **68** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Tawellemmet | Agadez | Arlit | Tchirozerine | In-Gall
+- [x] Name  [x] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done — WAITING
 
 
 ## Temne (i:200189)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Temne_language](https://en.wikipedia.org/wiki/Temne_language)
-- Sample: Seatss, Guioras, Koemk, Alosisur, Diiros
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+- Seeds: **53** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Makeni | Kambia | Port Loko | Waterloo | Lunsar
+- [x] Name  [x] Seeds authentic  [x] Seed count  [x] D  [x] M  [x] Min/Max  [x] Continent  [x] Encoding  [x] Placeholder  [x] Done
 
 
 ## Tera (i:200190)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Diirosxx, Guenen, Voolinn, Alitz, Olugerut
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+- Seeds: **62** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Tera | Deba | Hinna | Pidlimdi | Kaltungo
+- [x] Name  [x] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done — WAITING
 
 
 ## Teshenawa (i:200191)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Usil, Gualmm, Voirosul, Feet, Alenot
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+- Seeds: **34** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Teshenawa | Kafin Hausa | Kiyawa | Dutse | Birnin Kudu
+- [x] Name  [x] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done — WAITING
 
 
 ## Tetserret Tuareg Berber (i:200192)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Voalasol, Alusit, Oleguin, Searem, Guitonzz
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+- Seeds: **37** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Tetserret | Agadez | Arlit | Tchirozerine | In-Gall
+- [x] Name  [x] Seeds authentic  [x] Seed count  [x] D  [x] M  [x] Min/Max  [x] Continent  [x] Encoding  [x] Placeholder  [x] Done
 
 
 ## Tikar (i:200193)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Tikar_language](https://en.wikipedia.org/wiki/Tikar_language)
-- Sample: Pukitonka, Neyeso, Mokopiyu, Layilo, Kekulesu
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+- Seeds: **35** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Bamenda | Bafut | Bali | Bandjoun | Bafoussam
+- [x] Name  [x] Seeds authentic  [x] Seed count  [x] D  [x] M  [x] Min/Max  [x] Continent  [x] Encoding  [x] Placeholder  [x] Done
 
 
 ## Tiro (i:200194)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Tiro_language](https://en.wikipedia.org/wiki/Tiro_language)
-- Sample: Yurirono, Poke, Welendi, Toromi, Duba
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+- Seeds: **71** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Tiro | Shendam | Langung | Panyam | Balong
+- [x] Name  [x] Seeds authentic  [x] Seed count  [x] D  [x] M  [x] Min/Max  [x] Continent  [x] Encoding  [x] Placeholder  [x] Done
 
 
 ## Tobanga (i:200195)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Aletukt, Diale, Seiroskk, Voenww, Koolinus
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Tobanga | Bongor | Pala | Fianga | Léré
+- [x] Name  [x] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done — WAITING
 
 
 ## Tonga Mozambique (i:200196)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Gukoso, Garagayu, Bokulo, Arewusu, Geni
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+- Seeds: **31** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Tete | Zumbo | Cahora Bassa | Songo | Changara
+- [x] Name  [x] Seeds authentic  [x] Seed count  [x] D  [x] M  [x] Min/Max  [x] Continent  [x] Encoding  [x] Placeholder  [x] Done
 
 
 ## Tonga Zimbabwe Zambia Mozambique (i:200197)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Mebubengu, Kusoni, Kadatato, Dosu, Budenuno
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+- Seeds: **27** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Kariba | Binga | Siavonga | Gwembe | Sinazongwe
+- [x] Name  [x] Seeds authentic  [x] Seed count  [x] D  [x] M  [x] Min/Max  [x] Continent  [x] Encoding  [x] Placeholder  [x] Done
 
 
 ## Toram (i:200198)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Seesulnn, Yuir, Voakzz, Koilotd, Iseg
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+- Seeds: **63** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Toram | Mongo | Bitkine | Melfi | Abtouyour
+- [x] Name  [x] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done — WAITING
 
 
 ## Tsotsitaal and Camtho, aka Iscamtho (i:200199)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Pebinonka, Kude, Museso, Mabokiyu, Wewa
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+- Seeds: **51** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Soweto | Johannesburg | Pretoria | Durban | Cape Town
+- [x] Name  [x] Seeds authentic  [x] Seed count  [x] D  [x] M  [x] Min/Max  [x] Continent  [x] Encoding  [x] Placeholder  [x] Done
 
 
 ## Tsuvan (i:200200)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Guadagu, Vion, Koulol, Alesuly, Gair
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+- Seeds: **55** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Tsuvan | Mokolo | Mogodé | Gawar | Kortchi
+- [x] Name  [x] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done — WAITING
 
 
 ## Tswa (i:200201)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Ayuni, Yeletuto, Talipono, Yege, Robendi
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+- Seeds: **51** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Maputo | Xai-Xai | Chibuto | Manjacaze | Chókwè
+- [x] Name  [x] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done — WAITING
 
 
 ## Tumak (i:200202)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Baam, Laut, Olinet, Diuseen, Guokam
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Tumak | Bongor | Pala | Fianga | Léré
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Tunisian Arabic (i:200203)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Tunisian_Arabic](https://en.wikipedia.org/wiki/Tunisian_Arabic)
-- Sample: Zoas, Alinu, Seoky, Guamanit, Koudnn
+- Seeds: **60** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Tunis | Sfax | Bizerte | Sousse | Kairouan
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Twi (i:200204)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Weyemu, Tokopiya, Duga, Sayiru, Rekulesa
+- Seeds: **64** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Kumasi | Accra | Cape Coast | Koforidua | Bekwae
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Ubi (i:200205)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Olisem, Diutetzz, Ruut, Guolar, Voasars
+- Seeds: **63** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Ubi | Mokolo | Mogodé | Gawar | Kortchi
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Vame (i:200206)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Seotir, Guanatt, Wuod, Koume, Aletukkk
+- Seeds: **61** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Vame | Gwoza | Bama | Askira-Uba | Damboa
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Vemgo-Mabas (i:200207)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Enam, Onut, Zool, Joit, Sead
+- Seeds: **71** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Vemgo | Mabas | Gwoza | Bama | Askira-Uba
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Wandala (i:200208)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Diad, Koirol, Aluneky, Niur, Dioin
+- Seeds: **63** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Wandala | Gwoza | Bama | Askira-Uba | Damboa
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Warji (i:200209)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Jous, Ulon, Esir, Oseg, Alam
+- Seeds: **72** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Warji | Darazo | Ganjuwa | Soro | Miya
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Weh (i:200210)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Babiso, Yoludeyu, Yuru, Wabolo, Temawasu
+- Seeds: **45** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Weh | Shendam | Langung | Panyam | Balong
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## West Banda (i:200211)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Arom, Diudd, Seerutar, Kii, Voatum
+- Seeds: **76** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Bambari | Bria | Bangassou | Ippy | Kouango
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Western Somali (i:200212)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Olesw, Diodimos, Guinll, Vouseil, Aloket
+- Seeds: **40** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Jijiga | Harar | Kebri Dehar | Gode | Shilabo
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Wuzlam (i:200213)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Koorir, Aladagt, Diule, Seesulkk, Voakww
+- Seeds: **62** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Wuzlam | Mokolo | Mogodé | Gawar | Kortchi
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Yangere (i:200214)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Guolinom, Koitg, Alugerir, Diores, Seadage
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Yangere | Bambari | Bria | Bangassou | Ippy
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Yedina (i:200215)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Kousu, Alegum, Diary, Seitonit, Voelnn
+- Seeds: **61** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Yedina | Baga | Kauwa | Monguno | Marte
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Yeyi (i:200216)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Rago, Boduso, Aneluyu, Geyi, Wogalo
+- Seeds: **69** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Yeyi | Ghanzi | Dutlwe | Xade | New Xade
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Yiwom (i:200217)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Siir, Daeg, Tei, Duen, Nuad
+- Seeds: **63** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Yiwom | Shendam | Langung | Panyam | Balong
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Yoruba alt code (i:200218)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Yoruba_language](https://en.wikipedia.org/wiki/Yoruba_language)
-- Sample: Guayy, Voikogot, Alesr, Olodimim, Seindd
+- Seeds: **41** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Ibadan | Abeokuta | Oshogbo | Ilorin | Ile-Ife
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Zaghawa (i:200219)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Dialasx, Guusan, Voegumm, Duik, Alaryy
+- Seeds: **58** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Zaghawa | El Fasher | Kutum | Kabkabiya | Um Kadada
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Zari (i:200220)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Diodimes, Lias, Guinkk, Vouseal, Vuug
+- Seeds: **72** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Zari | Darazo | Ganjuwa | Soro | Miya
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Zeem (i:200221)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Koarw, Alitonos, Maes, Dielll, Seomidil
+- Seeds: **72** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Zeem | Darazo | Ganjuwa | Soro | Miya
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Zemba (i:200222)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Morayo, Luyisonka, Kereso, Goyoniyu, Tuda
+- Seeds: **36** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Zemba | Huambo | Benguela | Lubango | Namibe
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Zenaga (i:200223)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Zenaga_language](https://en.wikipedia.org/wiki/Zenaga_language)
-- Sample: Dianatdd, Kaod, Guumss, Voetukas, Uril
+- Seeds: **35** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Zenaga | Nouakchott | Nouadhibou | Rosso | Kaédi
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Zirenkel (i:200224)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Ulus, Kooror, Aladagtt, Eson, Diuli
+- Seeds: **71** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Zirenkel | Bongor | Pala | Fianga | Léré
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Zizilivakan (i:200225)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Otad, Anur, Keos, Usik, Fees
+- Seeds: **64** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Zizilivakan | Mokolo | Mogodé | Gawar | Kortchi
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Zulgo-Gemzek (i:200226)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Sealasir, Osos, Vouses, Koegue, Alik
+- Seeds: **76** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Zulgo | Gemzek | Mokolo | Mogodé | Gawar
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Zumaya (i:200227)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Vooniles, Uram, Aliskk, Olutetal, Faut
+- Seeds: **62** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Zumaya | Mokolo | Mogodé | Gawar | Kortchi
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Zumbun (i:200228)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Diegukk, Liik, Guarww, Voitonus, Vues
+- Seeds: **0** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: 
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## ǂKxʼaoǁʼae (i:200229)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Yaet, Seenkk, Guolinal, Hoal, Koitus
+- Seeds: **32** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Gobabis | Epako | Skoonheid | Drimiopsis | Otjinene
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## ǂʼAmkoe (i:200230)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Zout, Alolnn, Olasarem, Jool, Seund
+- Seeds: **62** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: ǂʼAmkoe | Ghanzi | Dutlwe | Xade | New Xade
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Spanglish (i:200231)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Voesulil, Bair, Alaket, Oliloten, Laeg
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Spanglish | Nakhon Si Thammarat | Bandar Lampung | Miri | Ben Tre
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Naukan (i:200232)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Voetuky, Alalin, Olirosnn, Seenzz, Guolind
+- Seeds: **55** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Naukan | Aba | Parakou | Tsévié | Fada N'Gourma
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Sirenik (i:200233)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Diin, Seusegg, Vooktt, Koamanis, Oludl
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Sirenik | Tchibanga | Conakry | Parakou | Fatick
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Yuit (i:200234)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Diedi, Seonill, Voisx, Koutetat, Ololmm
+- Seeds: **62** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Yuit | Kaolack | Rijau | Bolgatanga | Louga
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## A'Tong (i:200235)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Oledz, Dionilut, Guisrr, Voutetom, Alolg
+- Seeds: **62** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: A'Tong | Aba | Parakou | Tsévié | Fada N'Gourma
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Achhami (Doteli) (i:200236)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Alater, Oliorss, Seema, Guosisk, Koirw
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Achhami (Doteli) | Yuen Long | Nagasaki | Kanazawa | Kanggye
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Alak (i:200237)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Aludz, Olerutut, Zii, Seatrr, Guiorom
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Alak | Quba | Qonagkend | Vladimir | Naftalan
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Alchuka (i:200238)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Guiros, Koenor, Alolintt, Diiti, Seugerl
+- Seeds: **63** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Alchuka | Tchibanga | Conakry | Parakou | Fatick
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Allar (i:200239)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Reau, Joogam, Niauouu, Joid, Booki
+- Seeds: **52** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Allar | Parakou | Lafia | Rijau | Kumasi
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Ambonese Malay (i:200240)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Vourelss, Roun, Alota, Olanatk, Seumw
+- Seeds: **62** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Ambonese Malay | Lhokseumawe | Ben Tre | Bacolod | Can Tho
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Angika (i:200241)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Alatot, Olioron, Faen, Seemim, Paad
+- Seeds: **61** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Angika | Aba | Parakou | Tsévié | Fada N'Gourma
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Attapady Kurumba (i:200242)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Deung, Ruoroi, Yiekeei, Maosul, Roengisur
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Attapady Kurumba | Vijayawada | Amritsar | Mangalore | Bangalore
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Awadhi (i:200243)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Awadhi_language](https://en.wikipedia.org/wiki/Awadhi_language)
-- Sample: Olisd, Diutetar, Guolum, Voasar, Alunor
+- Seeds: **61** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Awadhi | Visakhapatnam | Rishikesh | Lucknow | Jhang
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Baba Malay (i:200244)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Voonn, Koalasem, Naos, Olusd, Dieguar
+- Seeds: **61** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Baba Malay | Padang Panjang | Ca Mau | Chumphon | Hanoi
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Bagheli (i:200245)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Bagheli_language](https://en.wikipedia.org/wiki/Bagheli_language)
-- Sample: Olanati, Nuod, Seumel, Guetukx, Zeil
+- Seeds: **63** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Bagheli | Tchibanga | Conakry | Parakou | Fatick
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Baitadeli (Doteli) (i:200246)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Guugerl, Koorx, Aladagat, Diulmm, Seesulul
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Baitadeli (Doteli) | Takamatsu | Yuen Long | Rason | Zhuhai
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Bajhangi (Doteli) (i:200247)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Voesx, Koodimat, Olinmm, Diuseul, Guokot
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Bajhangi (Doteli) | Dongguan | Kanggye | Arvaikheer | Kimchaek
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Bajjika (i:200248)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Guioran, Koemul, Alosisyy, Diiron, Seunekr
+- Seeds: **61** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Bajjika | Tchibanga | Conakry | Parakou | Fatick
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Bajureli (Doteli) (i:200249)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Puus, Oloril, Diadagxx, Guulen, Voesuln
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Bajureli (Doteli) | Dongguan | Kanggye | Arvaikheer | Kimchaek
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Balinese Malay (i:200250)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Guaw, Voikogos, Feer, Alesll, Olodimil
+- Seeds: **62** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Balinese Malay | Lhokseumawe | Ben Tre | Bacolod | Can Tho
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Banda Malay (i:200251)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Guitondd, Koelss, Alomidas, Diigk, Seurelur
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Banda Malay | Chonburi | Alor Setar | Tawau | Bandar Lampung
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Bankariya (i:200252)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Guigzz, Voureld, Alots, Olanatum, Seumgg
+- Seeds: **63** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Bankariya | Yola | Aplahoué | Bissau | Aba
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Be-Jizhao (i:200253)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Paom, Koudes, Alerute, Diatal, Seiorww
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Be-Jizhao | Nakhon Si Thammarat | Bandar Lampung | Miri | Ben Tre
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Betawi (i:200254)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Voori, Koadagl, Olulx, Diesulat, Guakmm
+- Seeds: **55** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Betawi | Serang | Loei | Nong Khai | Surat Thani
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Bhojpuri (i:200255)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Bhojpuri_language](https://en.wikipedia.org/wiki/Bhojpuri_language)
-- Sample: Seok, Guamangg, Geom, Koudtt, Alerutis
+- Seeds: **59** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Bhojpuri | Agra | Mymensingh | Visakhapatnam | Madurai
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Biao Kam Sui (i:200256)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Koum, Aletukgg, Dialtt, Seirosis, Voenl
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Biao Kam Sui | Chiba | Ölgii | Baotou | Saitama
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Byangsi (i:200257)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Iset, Diolinar, Teal, Guitum, Vouger
+- Seeds: **55** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Byangsi | Kanggye | Keelung | Kaifeng | Dongguan
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Cao Lan (i:200258)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Olakol, Diiloty, Guedin, Voonilnn, Aliszz
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Cao Lan | Vadodara | Visakhapatnam | Sylhet | Lucknow
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Cao Miao (i:200259)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Alitoni, Sies, Dielel, Seomidx, Daan
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Cao Miao | Agra | Mymensingh | Visakhapatnam | Madurai
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Car Nicobarese (i:200260)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Olosisen, Seiram, Guunekz, Kooun, Alalasrr
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Car Nicobarese | Koudougou | Oussouye | Abidjan | Gwoza
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Chakhar Mongol (i:200261)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Guulom, Voesul, Alakir, Olilott, Seede
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Chakhar Mongol | Yuen Long | Niigata | Haeju | Ölgii
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Chamling (i:200262)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Guoniles, Hoam, Koiskk, Alutetal, Siut
+- Seeds: **52** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Chamling | Owerri | Sokoto | Aba | Parakou
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Chepang (ISO) (i:200263)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Olesis, Diodimi, Coas, Guinel, Vousex
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Chepang (ISO) | Pingtung | Taitung | Rason | Ölgii
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Chrau (i:200264)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Keal, Olites, Diugere, Usus, Guoral
+- Seeds: **63** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Chrau | Khon Kaen | Tomohon | Kuala Terengganu | Bandar Lampung
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Classical Tibetan (i:200265)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Esun, Osod, Alil, Kaet, Faus
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Classical Tibetan | Dongguan | Kanggye | Arvaikheer | Kimchaek
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Dadeldhuri (Doteli) (i:200266)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Vookan, Koamanmm, Oludyy, Dierutot, Guatr
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Dadeldhuri (Doteli) | Dongguan | Anyang | Bayanhongor | Sükhbaatar
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Daman (i:200267)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Koasarz, Utol, Olunun, Dienurrr, Fiit
+- Seeds: **53** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Daman | Parakou | Lafia | Rijau | Kumasi
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Danuwar (i:200268)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Deom, Diudg, Seerutir, Nei, Voates
+- Seeds: **62** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Danuwar | Tchibanga | Conakry | Parakou | Fatick
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Darchuleli (Doteli) (i:200269)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Dieguem, Guard, Voitonar, Alelum, Olomid
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Darchuleli (Doteli) | Dongguan | Anyang | Bayanhongor | Sükhbaatar
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Darkhad Mongolian (i:200270)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Kougerg, Olort, Diadages, Kaon, Guulkk
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Darkhad Mongolian | Dongguan | Kanggye | Arvaikheer | Kimchaek
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Daur / Dagur (i:200271)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Diugerar, Guorum, Voadag, Alulor, Olesultt
+- Seeds: **64** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Daur / Dagur | Saminaka | Diffa | Bafatá | Yola
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Dehwari (i:200272)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Yaal, Seitx, Guugerat, Hous, Koormm
+- Seeds: **61** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Dehwari | Tchibanga | Conakry | Parakou | Fatick
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Dhatki (i:200273)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Koula, Alesulk, Koir, Diakw, Seilotos
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Dhatki | Visakhapatnam | Rishikesh | Lucknow | Jhang
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Dhundari (i:200274)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Dhundhari_language](https://en.wikipedia.org/wiki/Dhundhari_language)
-- Sample: Osal, Guulk, Voesulur, Alakos, Oliloto
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Dhundari | Agra | Mymensingh | Visakhapatnam | Madurai
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Dili Malay (i:200275)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Oli, Zien, Jiad, Tuur, Sealaset
+- Seeds: **62** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Dili Malay | Padang Panjang | Ca Mau | Chumphon | Hanoi
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Diu (i:200276)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Guonili, Koisel, Alutetx, Diolan, Seasarmm
+- Seeds: **51** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Diu | Oyo | Gashua | Louga | Harper
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Done (i:200277)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Piom, Kuen, Vead, Fuur, Puos
+- Seeds: **63** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Done | Kaolack | Rijau | Bolgatanga | Louga
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Dura (i:200278)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Guamanon, Koudim, Diater, Seiorss, Voema
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Dura | Kaolack | Rijau | Bolgatanga | Louga
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Ekhirit-Bulagat Buryat (i:200279)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Voinon, Kouser, Olok, Diamandd, Guudss
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Ekhirit-Bulagat Buryat | Thiès | Mongu | Kaduna | Kenema
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Ghera (i:200280)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Reon, Buir, Lueg, Guut, Rool
+- Seeds: **61** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Ghera | Parakou | Lafia | Rijau | Kumasi
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Ha Em (i:200281)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Voedww, Koonilus, Olism, Diutetol, Guolit
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Ha Em | Parakou | Lafia | Rijau | Kumasi
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Hagei (i:200282)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Asen, Koemol, Alosisy, Koad, Diirin
+- Seeds: **61** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Hagei | Parakou | Lafia | Rijau | Kumasi
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Hailar Dagur (i:200283)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Seular, Guesuls, Koak, Alilotgg, Diedtt
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Hailar Dagur | Saminaka | Diffa | Bafatá | Yola
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Hajong (i:200284)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Dieses, Seodime, Yuas, Voinal, Kouseww
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Hajong | Visakhapatnam | Rishikesh | Lucknow | Jhang
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Halang (i:200285)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Ziad, Seirtt, Guunekis, Jiur, Kool
+- Seeds: **55** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Halang | Serang | Loei | Nong Khai | Surat Thani
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Halbi (i:200286)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/ISO_639:hlb](https://en.wikipedia.org/wiki/ISO_639:hlb)
-- Sample: Guot, Voanatdd, Olod, Alumss, Oletukas
+- Seeds: **63** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Halbi | Parakou | Lafia | Rijau | Kumasi
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Harauti (i:200287)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Harauti_language](https://en.wikipedia.org/wiki/Harauti_language)
-- Sample: Unut, Seolos, Guasaro, Etol, Kounil
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Harauti | Vadodara | Visakhapatnam | Sylhet | Lucknow
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Hazaragi (i:200288)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Etan, Koiger, Alurelss, Otun, Diota
+- Seeds: **63** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Hazaragi | Owerri | Sokoto | Aba | Parakou
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Hindko, Southern (i:200289)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Guenurdd, Reit, Koass, Alikogas, Buer
+- Seeds: **62** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Hindko | Bissau | Bida | Minna | Nnewi
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Ho (i:200290)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Ho_language](https://en.wikipedia.org/wiki/Ho_language)
-- Sample: Huun, Seotan, Guanatmm, Sood, Koumyy
+- Seeds: **51** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Ho | Gashua | Yaoundé | Yendi | Dapaong
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Ho (Munda) (i:200291)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Ho_language](https://en.wikipedia.org/wiki/Ho_language)
-- Sample: Gaan, Diigtt, Seurelis, Quun, Vootl
+- Seeds: **59** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Ho (Munda) | Dehradun | Nagpur | Agra | Mymensingh
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Hokchiu (i:200292)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Fuqing_dialect](https://en.wikipedia.org/wiki/Fuqing_dialect)
-- Sample: Zaos, Diusor, Seegutt, Voari, Koitonl
+- Seeds: **61** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Hokchiu | Tchibanga | Conakry | Parakou | Fatick
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Hokkaido Ainu (i:200293)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Guugero, Wuus, Kooril, Aladagxx, Diulen
+- Seeds: **63** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Hokkaido Ainu | Pingtung | Taitung | Rason | Ölgii
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Hokkaido dialects (i:200294)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Seeguy, Voarin, Koitonnn, Olelzz, Diomidd
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Hokkaido dialects | Vanimo | Navua | Majuro | Ouvea
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Hre (i:200295)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Olalxx, Diiroset, Guenn, Voolinam, Alitut
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Hre | Oyo | Gashua | Louga | Harper
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Hyolmo (Yolmo) (i:200296)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Otur, Diodd, Sealaser, Anos, Vousas
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Hyolmo (Yolmo) | Koudougou | Oussouye | Abidjan | Gwoza
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Indus Kohistani (i:200297)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Olelar, Diomids, Fian, Vourelgg, Piun
+- Seeds: **55** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Indus Kohistani | Uaboe | Sigatoka | Kokoda | Kosrae
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Jadgali (i:200298)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Olelom, Diomid, Guigir, Vourelt, Alote
+- Seeds: **64** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Jadgali | Tchibanga | Conakry | Parakou | Fatick
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Jandavra (i:200299)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Seanatis, Quod, Vouml, Koetukel, Biil
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Jandavra | Agra | Mymensingh | Visakhapatnam | Madurai
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Japanese macro entry (i:200300)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Japanese_language](https://en.wikipedia.org/wiki/Japanese_language)
-- Sample: Buus, Luon, Vouln, Koesulam, Weir
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Japanese macro entry | Haeju | Chiayi | Yamagata | Foshan
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Jarawa (i:200301)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Jarawa_language_(Andaman_Islands)](https://en.wikipedia.org/wiki/Jarawa_language_(Andaman_Islands))
-- Sample: Wair, Guaky, Voilotit, Goeg, Alednn
+- Seeds: **52** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Jarawa | Aba | Parakou | Tsévié | Fada N'Gourma
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Jeh (i:200302)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Kooin, Alalasnn, Diuszz, Seegud, Voars
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Jeh | Ayutthaya | Payakumbuh | Klang | Phongsali
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Jiamao (i:200303)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Oliorul, Seemot, Guosison, Read, Koirim
+- Seeds: **62** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Jiamao | Aba | Parakou | Tsévié | Fada N'Gourma
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Jizhao (i:200304)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Alaun, Olikogrr, Guodimg, Koint, Alusees
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Jizhao | Serang | Loei | Nong Khai | Surat Thani
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Jogi (i:200305)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Guela, Voomidk, Aligw, Olurelos, Seotll
+- Seeds: **61** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Jogi | Kaolack | Rijau | Bolgatanga | Louga
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Jru' (i:200306)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Diak, Seikogur, Jaer, Voesos, Koodimo
+- Seeds: **55** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Jru' | Kaolack | Rijau | Bolgatanga | Louga
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Jumli (i:200307)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Keut, Usol, Feit, Peer, Asas
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Jumli | Kaifeng | Hsinchu | Matsuyama | Yamagata
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Jurchenic (i:200308)
 
-- Seeds: **15** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Voerutul, Jui, Unen, Etad, Aligam
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Jurchenic | Rason | Hualien | Kanggye | Kaifeng
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Kaco' (i:200309)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Zeen, Koem, Alosisgg, Jead, Diirtt
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Kaco' | Khon Kaen | Tomohon | Kuala Terengganu | Bandar Lampung
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Kadar (i:200310)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Paar, Tounor, Deitirel, Hoa, Nuumil
+- Seeds: **55** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Kadar | Sylhet | Lucknow | Hubli | Mumbai
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Kagate (Syuba) (i:200311)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Guakat, Voilotan, Jueg, Aledul, Olonilyy
+- Seeds: **63** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Kagate (Syuba) | Koudougou | Oussouye | Abidjan | Gwoza
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Kalkoti (i:200312)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Olokor, Diamantt, Onom, Guudi, Voerutl
+- Seeds: **64** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Kalkoti | Tchibanga | Conakry | Parakou | Fatick
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Kaloeng (i:200313)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Niir, Yueg, Isam, Teut, Duol
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Kaloeng | Levuka | Yap | Kone | Kiunga
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Kam Dong (i:200314)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Voeguur, Urik, Alaros, Olitono, Faes
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Kam Dong | Owerri | Sokoto | Aba | Parakou
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Kam Sui (i:200315)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Alurelk, Veun, Diotw, Seanatos, Fuod
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Kam Sui | Kanggye | Keelung | Kaifeng | Dongguan
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Kamviri (i:200316)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Diolinas, Mual, Guitk, Vougerur, Yeus
+- Seeds: **63** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Kamviri | Tchibanga | Conakry | Parakou | Fatick
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Kangri (i:200317)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/ISO_639:xnr](https://en.wikipedia.org/wiki/ISO_639:xnr)
-- Sample: Alilotum, Diedgg, Seonilor, Voisis, Kouteti
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Kangri | Visakhapatnam | Rishikesh | Lucknow | Jhang
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Kasong (i:200318)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Olegui, Giik, Searel, Guitonx, Rees
+- Seeds: **63** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Kasong | Aba | Parakou | Tsévié | Fada N'Gourma
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Katu (i:200319)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Oletuker, Guirosa, Koenur, Alolinw, Diito
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Katu | Padang Panjang | Sakon Nakhon | Ternate | Udon Thani
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Katua (i:200320)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Diodimyy, Onas, Guinon, Zoug, Olamandd
+- Seeds: **64** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Katua | Khon Kaen | Tomohon | Kuala Terengganu | Bandar Lampung
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Kayong (i:200321)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Dieguer, Guaras, Voitona, Alelur, Olomidw
+- Seeds: **54** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Kayong | Aba | Parakou | Tsévié | Fada N'Gourma
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Kewarat (i:200322)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Niit, Yuer, Isas, Teug, Duom
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Kewarat | Levuka | Yap | Kone | Kiunga
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Khalkha Mongolian (i:200323)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Kead, Usur, Feos, Peik, Ases
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Khalkha Mongolian | Dongguan | Kanggye | Arvaikheer | Kimchaek
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Kharchin / Khorchin Mongol (i:200324)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Alalkk, Olirosal, Seenus, Guolinu, Koitol
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Kharchin / Khorchin Mongol | Ashtarak | Ijevan | Derbent | Tskhinvali
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Khetrani (i:200325)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Koisu, Alutetm, Niut, Dioly, Seasarit
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Khetrani | Agra | Mymensingh | Visakhapatnam | Madurai
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Khorchin Mongol (i:200326)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Guiroso, Geet, Koenil, Alolinxx, Raal
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Khorchin Mongol | Dongguan | Changwon | Nantou | Uliastai
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Khorchin Mongol alias (i:200327)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Dien, Niad, Diirk, Seunekur, Yuur
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Khorchin Mongol alias | Bayanhongor | Gwangju | Jeju | Dongguan
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Khoton (i:200328)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Koarul, Alitonyy, Dielon, Seomidr, Voig
+- Seeds: **49** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Khoton | Aba | Parakou | Tsévié | Fada N'Gourma
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Kili (i:200329)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Buam, Diisat, Seutetan, Luut, Voolul
+- Seeds: **50** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Kili | Kaolack | Rijau | Bolgatanga | Louga
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Kisan (Kurukh dialect) (i:200330)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/ISO_639:xis](https://en.wikipedia.org/wiki/ISO_639:xis)
-- Sample: Liaaan, Rauluam, Goaio, Leurati, Luoo
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Kisan (Kurukh dialect) | Ahmedabad | Trashigang | Cuttack | Darjeeling
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Kundal Shahi (i:200331)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Alurelat, Koun, Diotmm, Seanatul, Vaod
+- Seeds: **64** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Kundal Shahi | Saminaka | Diffa | Bafatá | Yola
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Kurumba (i:200332)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Pain, Toiial, Deerunar, Hoig, Nueiam
+- Seeds: **55** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Kurumba | Vadodara | Visakhapatnam | Sylhet | Lucknow
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Lakkia Kam Sui (i:200333)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Seitt, Guugeres, Nous, Koorkk, Aladagal
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Lakkia Kam Sui | Naftalan | Gagra | Hrazdan | Khachmaz
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Lambadi (i:200334)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/ISO_639:lmn](https://en.wikipedia.org/wiki/ISO_639:lmn)
-- Sample: Kounekos, Isur, Ololl, Dialasil, Guuset
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Lambadi | Vadodara | Visakhapatnam | Sylhet | Lucknow
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Lao-Phutai (i:200335)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Alomidel, Vean, Diigat, Seurelan, Fuun
+- Seeds: **63** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Lao-Phutai | Padang Panjang | Ca Mau | Chumphon | Hanoi
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Larantuka Malay (i:200336)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Olesa, Diodimk, Guinw, Vouseos, Alokll
+- Seeds: **62** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Larantuka Malay | Hai Phong | Ben Tre | Tampines | Payakumbuh
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Lasi (i:200337)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Oril, Olalen, Diirosn, Zuet, Guenz
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Lasi | Lucknow | Jhang | Chennai | Kolhapur
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Lhowa (Lhopa) (i:200338)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Diunekk, Guow, Voalasos, Alusll, Oleguil
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Lhowa (Lhopa) | Pingtung | Taitung | Rason | Ölgii
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Loarki (i:200339)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Alemen, Olosisn, Cead, Seirz, Guunekut
+- Seeds: **63** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Loarki | Aba | Parakou | Tsévié | Fada N'Gourma
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Longsang Zhuang (i:200340)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Dienurer, Guaas, Voikoga, Alesur, Olodimw
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Longsang Zhuang | Dongguan | Changwon | Nantou | Uliastai
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Lower Uda Buryat (i:200341)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Guoor, Voalastt, Alusi, Olegul, Searx
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Lower Uda Buryat | Bissau | Bida | Minna | Nnewi
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Macro-Zhuang (i:200342)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Voosisat, Zoad, Alirmm, Olunekul, Jour
+- Seeds: **63** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Macro-Zhuang | Chiba | Ölgii | Baotou | Saitama
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Madiya (i:200343)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Jeotir, Naeiiul, Yiet, Baodal, Jaeeotar
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Madiya | Visakhapatnam | Rishikesh | Lucknow | Jhang
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Magahi (i:200344)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Magahi_language](https://en.wikipedia.org/wiki/Magahi_language)
-- Sample: Alonilor, Raam, Diisis, Seuteti, Bout
+- Seeds: **63** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Magahi | Visakhapatnam | Rishikesh | Lucknow | Jhang
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Magar (Dhut) (i:200345)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Dialss, Seirosas, Voenk, Koolinur, Olitos
+- Seeds: **62** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Magar (Dhut) | Labasa | Trobriand | Ngerulmud | Denigomodu
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Magar Kham (i:200346)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Kounin, Alenurnn, Diazz, Seikogd, Voess
+- Seeds: **63** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Magar Kham | Lae | Tabiteuea | Tiga | Rabaul
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Maithili (i:200347)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Maithili_language](https://en.wikipedia.org/wiki/Maithili_language)
-- Sample: Cuon, Olulen, Diesuln, Muir, Guakz
+- Seeds: **59** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Maithili | Agra | Mymensingh | Visakhapatnam | Madurai
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Majhi (i:200348)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Hoos, Kousl, Aleguel, Siik, Diarat
+- Seeds: **62** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Majhi | Parakou | Lafia | Rijau | Kumasi
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Mak Kam Sui (i:200349)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Diot, Seanatdd, Voumss, Koetukas, Olalk
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Mak Kam Sui | Nagasaki | Miaoli | Rason | Taitung
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Mala Malasar (i:200350)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Saik, Yoenitou, Vaai, Meingui, Ruemeioi
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Mala Malasar | Kochi | Ranchi | Dehradun | Vadodara
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Malankuravan (i:200351)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Moei, Sealete, Touu, Huee, Miarau
+- Seeds: **55** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Malankuravan | Naftalan | Tskhinvali | Khachmaz | Gagra
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Malapandaram (i:200352)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Peasido, Geen, Duine, Kiatona, Tuim
+- Seeds: **63** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Malapandaram | Saminaka | Diffa | Bafatá | Yola
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Malasar (i:200353)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Koogad, Yaou, Uasau, Duokenui, Noud
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Malasar | Vadodara | Visakhapatnam | Sylhet | Lucknow
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Malpande (i:200354)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Diatom, Seior, Voemir, Koosist, Olire
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Malpande | Owerri | Sokoto | Aba | Parakou
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Malto (i:200355)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Malto_language](https://en.wikipedia.org/wiki/Malto_language)
-- Sample: Hoei, Nuutil, Tiianir, Juudur, Noiiagal
+- Seeds: **55** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Malto | Parakou | Lafia | Rijau | Kumasi
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Malvi (i:200356)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/ISO_639:mup](https://en.wikipedia.org/wiki/ISO_639:mup)
-- Sample: Guakes, Voilote, Aledal, Olonilww, Seisu
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Malvi | Sylhet | Lucknow | Hubli | Mumbai
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Manda (i:200357)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Goegero, Huung, Puore, Viekea, Uas
+- Seeds: **55** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Manda | Sylhet | Lucknow | Hubli | Mumbai
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Mangghuer (i:200358)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Voaldd, Koiroser, Olenas, Diolina, Guitur
+- Seeds: **60** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Mangghuer | Yola | Aplahoué | Bissau | Aba
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Manglish (i:200359)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Alatem, Oliorzz, Seemar, Guosiss, Alunekgg
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Manglish | Soc Trang | Rayong | Serang | Pattaya
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Mankiyali (i:200360)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Guaro, Voitonll, Alelxx, Olomidet, Seign
+- Seeds: **63** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Mankiyali | Ebeye | Mare | Nibok | Airai
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Maonan (i:200361)
 
-- Seeds: **13** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Kounss, Alenuras, Seetuktt, Voali, Koirosl
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Maonan | Serang | Loei | Nong Khai | Surat Thani
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Mara (i:200362)
 
-- Seeds: **10** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Seokgg, Guamanor, Koudis, Aleruti, Diatel
+- Seeds: **55** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Mara | Kaolack | Rijau | Bolgatanga | Louga
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Marwari (i:200363)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Guarrr, Voitonom, Alelg, Olomidir, Seiges
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Marwari | Vadodara | Visakhapatnam | Sylhet | Lucknow
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Maumere Malay (i:200364)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Alikogir, Tiug, Elom, Dioor, Sealastt
+- Seeds: **62** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Maumere Malay | Ho Chi Minh City | Payakumbuh | Jurong | Poipet
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Megam (i:200365)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Alunin, Olenurnn, Seazz, Guikogd, Koess
+- Seeds: **62** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Megam | Parakou | Lafia | Rijau | Kumasi
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Mel-Khaonh (i:200366)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Quen, Voemis, Koosisi, Biad, Olirel
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Mel-Khaonh | Padang Panjang | Ca Mau | Chumphon | Hanoi
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Memoni (i:200367)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Alamanr, Diud, Seerutdd, Voatss, Koioras
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Memoni | Visakhapatnam | Rishikesh | Lucknow | Jhang
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Mewari (i:200368)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/ISO_639:mtr](https://en.wikipedia.org/wiki/ISO_639:mtr)
-- Sample: Seeln, Guomidam, Koigut, Alurelun, Diotom
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Mewari | Visakhapatnam | Rishikesh | Lucknow | Jhang
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Mewati (i:200369)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Guotll, Voanatil, Alumet, Oletuken, Sealam
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Mewati | Visakhapatnam | Rishikesh | Lucknow | Jhang
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Middle Mongol (i:200370)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Alurelgg, Woun, Diottt, Heod, Sail
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Middle Mongol | Pingtung | Taitung | Rason | Ölgii
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Min Zhuang (i:200371)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Kooknn, Alamanem, Yaos, Hoik, Kourelss
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Min Zhuang | Pingtung | Ölgii | Miaoli | Taiyuan
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Mnong (i:200372)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Seomm, Gualasul, Kousot, Aleguon, Diarim
+- Seeds: **64** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Mnong | Khon Kaen | Tomohon | Kuala Terengganu | Bandar Lampung
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Moghol / Mogholi (i:200373)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Seude, Guerutkk, Dii, Koatww, Aliorus
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Moghol / Mogholi | Bissau | Bida | Minna | Nnewi
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Mogholi (i:200374)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Mogholi_language](https://en.wikipedia.org/wiki/Mogholi_language)
-- Sample: Woer, Heas, Saug, Coom, Moi
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Mogholi | Tchibanga | Conakry | Parakou | Fatick
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Mongghul (i:200375)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Pues, Olelos, Diomido, Bean, Guigil
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Mongghul | Owerri | Sokoto | Aba | Parakou
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Mongghuor (i:200376)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Tiun, Elod, Olil, Alall, Olirosel
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Mongghuor | Yola | Aplahoué | Bissau | Aba
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Monguor (i:200377)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Alalss, Olirosas, Seenk, Guolinur, Koitos
+- Seeds: **55** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Monguor | Tchibanga | Conakry | Parakou | Fatick
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Monom (i:200378)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Voalot, Koiroson, Olenim, Guiter, Vougerss
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Monom | Parakou | Lafia | Rijau | Kumasi
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Moyfaw (i:200379)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Alenes, Ololine, Seital, Guugerww, Kooru
+- Seeds: **61** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Moyfaw | Aba | Parakou | Tsévié | Fada N'Gourma
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Muduga (i:200380)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Veisur, Gaangarol, Viong, Piitel, Vaaaer
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Muduga | Visakhapatnam | Rishikesh | Lucknow | Jhang
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Mugom–Karmarong (i:200381)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Alenar, Ololins, Guugergg, Koortt, Aladagis
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Mugom–Karmarong | Dongguan | Changwon | Nantou | Uliastai
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Mullu Kurumba (i:200382)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Sainud, Raon, Hoongau, Meimamui, Jiog
+- Seeds: **67** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Mullu Kurumba | Hyderabad | Kochi | Pune | Dehradun
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Mundari (i:200383)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Mundari_language](https://en.wikipedia.org/wiki/Mundari_language)
-- Sample: Kooyy, Alalasot, Diusr, Seeguim, Voardd
+- Seeds: **61** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Mundari | Vadodara | Visakhapatnam | Sylhet | Lucknow
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Muong (i:200384)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Muong_language](https://en.wikipedia.org/wiki/Muong_language)
-- Sample: Voenurd, Urit, Olikogum, Faer, Seesgg
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Muong | Parakou | Lafia | Rijau | Kumasi
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Muria (i:200385)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Loio, Reelodi, Yuin, Guiia, Lierun
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Muria | Sylhet | Lucknow | Hubli | Mumbai
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Muthuvan (i:200386)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Toangaral, Baong, Kaitan, Nuaaam, Daido
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Muthuvan | Soc Trang | Rayong | Serang | Pattaya
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Myang Zhuang (i:200387)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Voasarrr, Olenurg, Guikoges, Reer, Buas
+- Seeds: **64** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Myang Zhuang | Chiba | Ölgii | Baotou | Saitama
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Mymensinghi Bengali (i:200388)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Dietukil, Gualet, Voirosen, Alenam, Ololinz
+- Seeds: **60** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Mymensinghi Bengali | Thimphu | Aurangabad | Tirupati | Tiruchirappalli
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Nachhiring (i:200389)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Kooto, Alanatll, Diumxx, Seetuket, Voaln
+- Seeds: **64** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Nachhiring | Bafatá | Yola | N'Djamena | Bolgatanga
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Nagpuri (i:200390)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Nagpuri_language](https://en.wikipedia.org/wiki/Nagpuri_language)
-- Sample: Diaket, Seiloten, Voedam, Koonilz, Olisun
+- Seeds: **64** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Nagpuri | Tchibanga | Conakry | Parakou | Fatick
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Naiki (i:200391)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Yoesou, Houkomau, Deek, Ruetoi, Yiungokei
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Naiki | Sylhet | Lucknow | Hubli | Mumbai
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Nanaic (i:200392)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Voeguul, Alarot, Olitonon, Seelim, Guomid
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Nanaic | Ölgii | Pohang | Thetford Mines | Changwon
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Nantoq Baoan (i:200393)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Seomidk, Voigw, Kourelos, Olotll, Dianatil
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Nantoq Baoan | Saminaka | Diffa | Bafatá | Yola
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Nar Phu (i:200394)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Voirtt, Kounekis, Four, Dialasel, Poos
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Nar Phu | Hat Yai | Tebing Tinggi | Alor Setar | Tomohon
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Negidal (i:200395)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Koemun, Alosisrr, Seunekg, Koalases, Oluskk
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Negidal | Tchibanga | Conakry | Parakou | Fatick
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Nepalese English (i:200396)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Nepalese_English](https://en.wikipedia.org/wiki/Nepalese_English)
-- Sample: Erug, Vookdd, Koamaner, Orom, Oludas
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Nepalese English | Chonburi | Lang Son | Lhokseumawe | Nha Trang
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Nihali (i:200397)
 
-- Seeds: **19** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Nihali_language](https://en.wikipedia.org/wiki/Nihali_language)
-- Sample: Voulun, Koesulrr, Olak, Diilotg, Kaeg
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Nihali | Aba | Parakou | Tsévié | Fada N'Gourma
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Nimadi (i:200398)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Nimadi_language](https://en.wikipedia.org/wiki/Nimadi_language)
-- Sample: Guiso, Voutetll, Alolxx, Olasaret, Seunn
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Nimadi | Visakhapatnam | Rishikesh | Lucknow | Jhang
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Noakhailla (i:200399)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Olakrr, Diilotom, Guedg, Voonilir, Alises
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Noakhailla | Dehradun | Nagpur | Agra | Mymensingh
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Nong Zhuang (i:200400)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Voindd, Kouseer, Olokas, Diamana, Guudur
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Nong Zhuang | Nagasaki | Miaoli | Rason | Taitung
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Nonni Dagur (i:200401)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Jood, Seumen, Guetukn, Ulil, Koalz
+- Seeds: **62** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Nonni Dagur | Bolgatanga | Bafatá | Yola | Bouaké
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## North Moluccan Malay (i:200402)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Seerutel, Voatat, Koioran, Olemul, Diosisyy
+- Seeds: **64** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: North Moluccan Malay | Aileu | Dien Bien Phu | Narathiwat | Nam Dinh
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Northern Khalkha (i:200403)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Alit, Olaz, Diikogut, Kaer, Guesrr
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Northern Khalkha | Bissau | Bida | Minna | Nnewi
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Northern Tai (i:200404)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Caos, Kousit, Aleguin, Maik, Diarem
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Northern Tai | Saminaka | Diffa | Bafatá | Yola
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Northern Thai (i:200405)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Vouseet, Urug, Alokn, Olamanam, Faom
+- Seeds: **62** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Northern Thai | Ho Chi Minh City | Payakumbuh | Jurong | Poipet
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Northern Tungusic (i:200406)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Atug, Guamano, Kuom, Koudil, Alerutxx
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Northern Tungusic | Dongguan | Kanggye | Arvaikheer | Kimchaek
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Nung Tai (i:200407)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Kouler, Alesulss, Diaka, Seilotk, Voedw
+- Seeds: **63** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Nung Tai | Soc Trang | Rayong | Serang | Pattaya
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Nyah Kur (i:200408)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Seirll, Guunekil, Nour, Kooet, Alalasen
+- Seeds: **64** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Nyah Kur | Owerri | Sokoto | Aba | Parakou
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Nyaheun (i:200409)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Guiset, Vouteten, Alolam, Olasarz, Seunun
+- Seeds: **59** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Nyaheun | Tchibanga | Conakry | Parakou | Fatick
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Oadki (i:200410)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Ololem, Diasarzz, Guunar, Voenurs, Olikoggg
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Oadki | Sylhet | Lucknow | Hubli | Mumbai
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Odia (i:200411)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Odia_language](https://en.wikipedia.org/wiki/Odia_language)
-- Sample: Voes, Koodimg, Haas, Olint, Diusees
+- Seeds: **61** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Odia | Lucknow | Jhang | Chennai | Kolhapur
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Oeld (i:200412)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Olesil, Diodimxx, Guinen, Vousen, Alokz
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Oeld | Kaolack | Rijau | Bolgatanga | Louga
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Oi (i:200413)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Elil, Olet, Ololinkk, Zial, Seitww
+- Seeds: **64** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Oi | Gashua | Yaoundé | Yendi | Dapaong
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Oirat Mongolian (i:200414)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Oirat_language](https://en.wikipedia.org/wiki/Oirat_language)
-- Sample: Guior, Koemir, Alosist, Diire, Seunekkk
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Oirat Mongolian | Dongguan | Changwon | Nantou | Uliastai
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Old Khitan (i:200415)
 
-- Seeds: **11** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Siet, Daal, Naus, Yion, Inir
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Old Khitan | Pingtung | Ölgii | Miaoli | Taiyuan
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Old Serbi (i:200416)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Yeom, Aludir, Olerutt, Hui, Seate
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Old Serbi | Leicester | Daugavpils | Tromsø | Tallinn
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Ollari (i:200417)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Suuuan, Beororam, Nie, Naano, Soosoi
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Ollari | Visakhapatnam | Rishikesh | Lucknow | Jhang
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Önge (i:200418)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/%C3%96nge_language](https://en.wikipedia.org/wiki/%C3%96nge_language)
-- Sample: Guatos, Voioro, Alemil, Olosisxx, Seiren
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Önge | Kaolack | Rijau | Bolgatanga | Louga
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Ordos Mongol (i:200419)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Koirosir, Olenes, Dioline, Guital, Vougerww
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Ordos Mongol | Chiba | Ölgii | Baotou | Saitama
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Ormuri (i:200420)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Dierutu, Guatol, Voiory, Alemin, Olosisnn
+- Seeds: **63** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Ormuri | Khorog | Taraz | Tursunzoda | Istaravshan
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Oroch (i:200421)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Guelg, Voomidir, Aliges, Olurele, Seotal
+- Seeds: **63** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Oroch | Ba | Buna | Pohnpei | Lae
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Orok (i:200422)
 
-- Seeds: **18** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Uilta_language](https://en.wikipedia.org/wiki/Uilta_language)
-- Sample: Kourelim, Olotdd, Dianater, Guumas, Voetuka
+- Seeds: **62** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Orok | Savusavu | Kimbe | Lorengau | Abaiang
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Paha (i:200423)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Koorom, Aladag, Nion, Diulir, Seesult
+- Seeds: **51** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Paha | Kaolack | Rijau | Bolgatanga | Louga
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Pahari (Sino-Tibetan) (i:200424)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Voolinar, Inal, Alitum, Oluger, Suus
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Pahari (Sino-Tibetan) | Bayanhongor | Gwangju | Jeju | Dongguan
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Pahari-Pothwari (i:200425)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Koonilas, Olisk, Diutetur, Cout, Guolos
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Pahari-Pothwari | Bida | Koudougou | Tema | Kara
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Pakistani English (i:200426)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Pakistani_English](https://en.wikipedia.org/wiki/Pakistani_English)
-- Sample: Alemis, Olosisi, Seirel, Guunekx, Kooan
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Pakistani English | Hue | Tebing Tinggi | Ang Mo Kio | Da Nang
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Paliyan (i:200427)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Nuekeil, Daosul, Juengisur, Jaaa, Teotar
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Paliyan | Vadodara | Visakhapatnam | Sylhet | Lucknow
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Palula (i:200428)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Voesulen, Alakam, Olilotz, Seedun, Guonilrr
+- Seeds: **61** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Palula | Aba | Parakou | Tsévié | Fada N'Gourma
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Pangasinan (i:200429)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Pangasinan_language](https://en.wikipedia.org/wiki/Pangasinan_language)
-- Sample: Rulanit, Wiganidou, Vusun, Maakka, Roadtunlo
+- Seeds: **55** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Pangasinan | Padang Panjang | Ca Mau | Chumphon | Hanoi
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Pangkhua (i:200430)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Coeg, Guedxx, Voonilet, Moam, Alisn
+- Seeds: **61** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Pangkhua | Owerri | Sokoto | Aba | Parakou
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Pashto, Northern (i:200431)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Guungg, Voenuror, Alais, Olikogi, Seesel
+- Seeds: **62** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Pashto | Tokmok | Kostanay | Rasht | Jizzakh
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Pashto, Southern (i:200432)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: les Escaldes, Andorra, Andorra la Vella, Warīsān, United Arab Emirates
+- Seeds: **54** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Pashto | Tokmok | Kostanay | Rasht | Jizzakh
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Pattapu (i:200433)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Yuusaiar, Miemam, Sautedu, Raan, Hoeli
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Pattapu | Vadodara | Visakhapatnam | Sylhet | Lucknow
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Pear (i:200434)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Olokam, Diamanz, Guudun, Voerutrr, Oliorg
+- Seeds: **63** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Pear | Kaolack | Rijau | Bolgatanga | Louga
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Pengo (i:200435)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Daaieeo, Buat, Noike, Teenita, Reai
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Pengo | Sylhet | Lucknow | Hubli | Mumbai
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Phake (i:200436)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Oluneks, Huur, Seo, Gualasgg, Soos
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Phake | Khon Kaen | Tomohon | Kuala Terengganu | Bandar Lampung
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Phu Thai (i:200437)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Seitonar, Hees, Voelum, Koomid, Saan
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Phu Thai | Soc Trang | Rayong | Serang | Pattaya
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Phuan (i:200438)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Siun, Diotal, Seanatww, Daod, Voumu
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Phuan | Khon Kaen | Tomohon | Kuala Terengganu | Bandar Lampung
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Portugis (i:200439)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Sein, Guusegg, Kooktt, Alamanis, Diudl
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Portugis | Soc Trang | Rayong | Serang | Pattaya
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Proto-Ainu (i:200440)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Koitonis, Olell, Diomidel, Guigat, Vourelan
+- Seeds: **63** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Proto-Ainu | Pingtung | Ölgii | Miaoli | Taiyuan
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Proto-Austroasiatic (i:200441)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Guuseol, Ulug, Kookit, Alamanin, Esom
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Proto-Austroasiatic | Kenema | Ngaoundéré | San-Pédro | Praia
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Proto-Hlai (i:200442)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Proto-Hlai_language](https://en.wikipedia.org/wiki/Proto-Hlai_language)
-- Sample: Alokam, Olamanz, Unom, Seudun, Guerutrr
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Proto-Hlai | Bafatá | Yola | N'Djamena | Bolgatanga
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Proto-Hokkaido-Kuril (i:200443)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Diikoggg, Guestt, Voodimis, Alinl, Oluseel
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Proto-Hokkaido-Kuril | Yusufari | Kenema | Ngaoundéré | Abomey
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Proto-KamSui (i:200444)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Proto-Kam%E2%80%93Sui_language](https://en.wikipedia.org/wiki/Proto-Kam%E2%80%93Sui_language)
-- Sample: Diiroszz, Guenar, Voolins, Olugergg, Seortt
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Proto-KamSui | Saminaka | Diffa | Bafatá | Yola
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Proto-KraDai (i:200445)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Proto-Kra%E2%80%93Dai_language](https://en.wikipedia.org/wiki/Proto-Kra%E2%80%93Dai_language)
-- Sample: Koulzz, Alesuld, Diaks, Seilotum, Voedgg
+- Seeds: **63** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Proto-KraDai | Labasa | Trobriand | Ngerulmud | Denigomodu
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Proto-Mongolic (i:200446)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Diesulg, Guakt, Voilotes, Aledkk, Olonilal
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Proto-Mongolic | Yuen Long | Niigata | Haeju | Ölgii
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Proto-Sakhalin (i:200447)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Koalasal, Olusus, Dieguu, Guarol, Voitony
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Proto-Sakhalin | Lhokseumawe | Ben Tre | Bacolod | Can Tho
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Proto-Tai (i:200448)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Proto-Tai_language](https://en.wikipedia.org/wiki/Proto-Tai_language)
-- Sample: Sealasa, Vousur, Koeguw, Olaro, Diitonll
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Proto-Tai | Yola | Aplahoué | Bissau | Aba
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Pyang Zhuang (i:200449)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Zhuang_languages](https://en.wikipedia.org/wiki/Zhuang_languages)
-- Sample: Koadagim, Oluldd, Diesuler, Guakas, Voilota
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Pyang Zhuang | Chiba | Ölgii | Baotou | Saitama
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Qifu (i:200450)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Diumis, Seetuki, Neil, Voalel, Koirosx
+- Seeds: **63** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Qifu | Kaolack | Rijau | Bolgatanga | Louga
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Ra'ong (i:200451)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Olait, Diikogin, Guesem, Voodimzz, Alinar
+- Seeds: **64** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Ra'ong | Aba | Parakou | Tsévié | Fada N'Gourma
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Rabha (i:200452)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/ISO_639:rah](https://en.wikipedia.org/wiki/ISO_639:rah)
-- Sample: Voadagut, Alulrr, Olesulom, Seakg, Guilotir
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Rabha | Parakou | Lafia | Rijau | Kumasi
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Rajasthani (i:200453)
 
-- Seeds: **19** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Rajasthani_languages](https://en.wikipedia.org/wiki/Rajasthani_languages)
-- Sample: Koemer, Alosisss, Diira, Seunekk, Voow
+- Seeds: **61** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Rajasthani | Dehradun | Nagpur | Agra | Mymensingh
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Rajbanshi (i:200454)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Alenurer, Diaas, Seikoga, Voesur, Koodimw
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Rajbanshi | Ahmedabad | Agra | Srinagar | Visakhapatnam
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Rana Tharu (i:200455)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Vousee, Alokal, Olamanww, Seudu, Guerutm
+- Seeds: **63** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Rana Tharu | Bafatá | Yola | N'Djamena | Bolgatanga
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Rangpuri (i:200456)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Vootus, Koanatu, Olumol, Dietuky, Gualin
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Rangpuri | Agra | Mymensingh | Visakhapatnam | Madurai
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Raute (i:200457)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Seesul, Voakor, Koilottt, Oledi, Dionill
+- Seeds: **64** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Raute | Xochimilco | Chuquisaca | Tingambato | Monte Albán
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Ravula (i:200458)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Jaogadoi, Oou, Siasai, Aokenul, Hiud
+- Seeds: **51** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Ravula | Aba | Parakou | Tsévié | Fada N'Gourma
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Rengao (i:200459)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Voalul, Koirosyy, Olenon, Diolinr, Vougerdd
+- Seeds: **55** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Rengao | Nibok | Kokoda | Noumea | Kimbe
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Riang (i:200460)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Peet, Asal, Koitur, Alugerw, Kous
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Riang | Khon Kaen | Tomohon | Kuala Terengganu | Bandar Lampung
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Rohingya (i:200461)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Rohingya_language](https://en.wikipedia.org/wiki/Rohingya_language)
-- Sample: Mean, Voolinnn, Alitzz, Olugerd, Seors
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Rohingya | Agra | Mymensingh | Visakhapatnam | Madurai
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Rouran (i:200462)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Feol, Peit, Aser, Koest, Alodimes
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Rouran | Aba | Parakou | Tsévié | Fada N'Gourma
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Sa-och (i:200463)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Koutetnn, Ololzz, Diasard, Guuns, Voenurum
+- Seeds: **61** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Sa-och | Aba | Parakou | Tsévié | Fada N'Gourma
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Sadri (i:200464)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Laet, Vial, Gaus, Quon, Biir
+- Seeds: **63** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Sadri | Parakou | Lafia | Rijau | Kumasi
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Saek (i:200465)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Diutetkk, Guolww, Voasarus, Alunm, Olenurol
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Saek | Padang Panjang | Sakon Nakhon | Ternate | Udon Thani
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Sakhalin Ainu (i:200466)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Diorom, Seadag, Voulir, Koesult, Olake
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Sakhalin Ainu | Pingtung | Taitung | Rason | Ölgii
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Sakhalin dialects (i:200467)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Sealasot, Vousr, Koeguim, Olardd, Viod
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Sakhalin dialects | Hue | Tebing Tinggi | Ang Mo Kio | Da Nang
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Sambalpuri (i:200468)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Sambalpuri_language](https://en.wikipedia.org/wiki/Sambalpuri_language)
-- Sample: Guuneku, Koool, Alalasy, Diusin, Seegunn
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Sambalpuri | Dehradun | Nagpur | Agra | Mymensingh
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Samre (i:200469)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Vooron, Koadagr, Olul, Diesuldd, Guakss
+- Seeds: **61** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Samre | Parakou | Lafia | Rijau | Kumasi
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Sanskrit (i:200470)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Sanskrit](https://en.wikipedia.org/wiki/Sanskrit)
-- Sample: Diatkk, Seioral, Yuen, Voemus, Koosisu
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Sanskrit | Owerri | Sokoto | Aba | Parakou
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Santa / Sarta (Dongxiang) (i:200471)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Voinnn, Kouseem, Olokd, Diamanar, Guudum
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Santa / Sarta (Dongxiang) | Kaoma | Kumasi | Sikasso | Tenkodogo
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Santa Mongol (i:200472)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Santa_language](https://en.wikipedia.org/wiki/Santa_language)
-- Sample: Olail, Diikogxx, Guesen, Voodimn, Alinz
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Santa Mongol | Chiba | Ölgii | Baotou | Saitama
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Santa Sijiaji (i:200473)
 
-- Seeds: **19** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Voomidum, Aliggg, Olurelor, Atun, Seotis
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Santa Sijiaji | Okigwe | Fada N'Gourma | Gwoza | Bafatá
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Santa Suonanba (i:200474)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Olasaron, Giol, Seunim, Koaer, Alikogss
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Santa Suonanba | Koudougou | Oussouye | Abidjan | Gwoza
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Santa Wangjiaji (i:200475)
 
-- Seeds: **16** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Seodimim, Aligww, Olurelus, Seotm, Guanatol
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Santa Wangjiaji | Bida | Koudougou | Tema | Kara
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Sapa (i:200476)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Kouseis, Olokl, Diamanel, Guudat, Voerutan
+- Seeds: **51** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Sapa | Kaolack | Rijau | Bolgatanga | Louga
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Sapuan (i:200477)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Haus, Ruon, Ciir, Mieg, Wuam
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Sapuan | Serang | Loei | Nong Khai | Surat Thani
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Saraiki (i:200478)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Koumy, Aletukit, Jeil, Dialnn, Seirosem
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Saraiki | Vadodara | Visakhapatnam | Sylhet | Lucknow
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Sart Kalmyk (i:200479)
 
-- Seeds: **18** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Guugerss, Koora, Aladagk, Diulw, Seesulos
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Sart Kalmyk | Bolgatanga | Bafatá | Yola | Bouaké
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Sauria Paharia (i:200480)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Sooneki, Jaunga, Muomil, Taang, Au
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Sauria Paharia | Koudougou | Oussouye | Abidjan | Gwoza
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Savi (i:200481)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Alasarm, Diuny, Seenurit, Voann, Koikogem
+- Seeds: **64** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Savi | Kaolack | Rijau | Bolgatanga | Louga
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Sedang (i:200482)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Oloral, Diadagww, Guulu, Voesulm, Alaky
+- Seeds: **53** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Sedang | Serang | Loei | Nong Khai | Surat Thani
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Shan macro entry (i:200483)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Vousea, Alokur, Olamanw, Seudo, Guerutll
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Shan macro entry | Palenque | Kawésqar | Teopanzolco | Xalapa
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Sherpa (i:200484)
 
-- Seeds: **10** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Alasard, Diuns, Seenurum, Voagg, Koikogor
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Sherpa | Ölgii | Pohang | Thetford Mines | Changwon
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Shilingol / Xilingol Khalkha (i:200485)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Diinm, Seuseol, Vookit, Koamanin, Oludem
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Shilingol / Xilingol Khalkha | Koulikoro | Douala | Hohoe | Kontagora
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Shina (i:200486)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Guitir, Vougert, Juus, Alore, Oladagkk
+- Seeds: **51** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Shina | Parakou | Lafia | Rijau | Kumasi
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Shina, Kohistani (i:200487)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Oliren, Diunekn, Guoz, Voalasut, Alusrr
+- Seeds: **63** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Shina | Bissau | Bida | Minna | Nnewi
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Shira Yugur (i:200488)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Olalin, Diirosnn, Guenzz, Voolind, Pial
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Shira Yugur | Nagasaki | Miaoli | Rason | Taitung
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Shirongol (i:200489)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Shirongolic_languages](https://en.wikipedia.org/wiki/Shirongolic_languages)
-- Sample: Dieguy, Guarin, Voitonnn, Alelzz, Olomidd
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Shirongol | Ebeye | Mare | Nibok | Airai
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Shirwi (i:200490)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Koemtt, Alosisis, Siad, Diirl, Seunekel
+- Seeds: **62** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Shirwi | Aba | Parakou | Tsévié | Fada N'Gourma
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Sholaga (i:200491)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Juak, Eag, Koooik, Yael, Uakau
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Sholaga | Vadodara | Visakhapatnam | Sylhet | Lucknow
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Sikkimese (i:200492)
 
-- Seeds: **12** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Sikkimese_language](https://en.wikipedia.org/wiki/Sikkimese_language)
-- Sample: Guolom, Alunir, Olenurt, Seae, Guikogkk
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Sikkimese | Yola | Aplahoué | Bissau | Aba
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Sindhi Bhil (i:200493)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Aron, Voinx, Kouseat, Olokmm, Diamanul
+- Seeds: **60** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Sindhi Bhil | Bangalore | Dehradun | Rangpur | Agra
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Somray (i:200494)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Dibba Al-Hisn, Dayrah, Ar Ruways, Al Ain City, Ajman
+- Seeds: **61** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Somray | Aba | Parakou | Tsévié | Fada N'Gourma
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Sonha (i:200495)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Alaal, Olikogww, Seesu, Guodimm, Koiny
+- Seeds: **64** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Sonha | Parakou | Lafia | Rijau | Kumasi
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Sonid Mongol (i:200496)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Zeeg, Koeder, Alonilss, Jeam, Diisa
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Sonid Mongol | Chiba | Ölgii | Baotou | Saitama
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Southern Khalkha (i:200497)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Olutetnn, Seolzz, Guasard, Kouns, Alenurum
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Southern Khalkha | Bissau | Bida | Minna | Nnewi
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Southern Tai (i:200498)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Diudum, Jai, Voator, Koiortt, Tien
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Southern Tai | Saminaka | Diffa | Bafatá | Yola
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Southern Thai (i:200499)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Guak, Voilotg, Aledt, Oloniles, Seiskk
+- Seeds: **64** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Southern Thai | Ho Chi Minh City | Payakumbuh | Jurong | Poipet
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Southern Tungusic (i:200500)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Kousar, Alegus, Seitongg, Voeltt, Koomidis
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Southern Tungusic | Dongguan | Kanggye | Arvaikheer | Kimchaek
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Sri Lankan English (i:200501)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Sri_Lankan_English](https://en.wikipedia.org/wiki/Sri_Lankan_English)
-- Sample: Koirosom, Oleng, Diolinir, Guites, Vougere
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Sri Lankan English | Narathiwat | Lao Cai | Nong Khai | Quy Nhon
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Sri Lankan Portuguese Creole (i:200502)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Oloka, Diamank, Guudw, Voerutos, Alatll
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Sri Lankan Portuguese Creole | Spanish Town | Chaguanas | Tunapuna | Micoud
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Standard Tibetan (i:200503)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Standard_Tibetan](https://en.wikipedia.org/wiki/Standard_Tibetan)
-- Sample: Diesx, Seodimat, Voinmm, Kouseul, Olokot
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Standard Tibetan | Yuen Long | Nagasaki | Kanazawa | Kanggye
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Standard Zhuang (i:200504)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Seikogun, Wier, Voesom, Koodim, Olinir
+- Seeds: **64** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Standard Zhuang | Dongguan | Changwon | Nantou | Uliastai
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Stieng (i:200505)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Alitnn, Olugerem, Seord, Guadagar, Koulum
+- Seeds: **63** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Stieng | Serang | Loei | Nong Khai | Surat Thani
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Su' (i:200506)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Voosisxx, Yead, Aliren, Olunekn, Seoz
+- Seeds: **52** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Su' | Oyo | Gashua | Louga | Harper
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Sundanese native-speakers subset (i:200507)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Sundanese_language](https://en.wikipedia.org/wiki/Sundanese_language)
-- Sample: Sayun, Howunge, Nesunuku, Kidin, Yimunpa
+- Seeds: **61** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Sundanese native-speakers subset | Tawau | Hpa-An | Lomphat | Takeo
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Suoy (i:200508)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Keir, Useg, Feam, Peut, Asol
+- Seeds: **64** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Suoy | Kaolack | Rijau | Bolgatanga | Louga
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Surgujia (i:200509)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/ISO_639:sgj](https://en.wikipedia.org/wiki/ISO_639:sgj)
-- Sample: Seudul, Guerutyy, Koaton, Aliorr, Seosisdd
+- Seeds: **64** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Surgujia | Owerri | Sokoto | Aba | Parakou
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Surjapuri (i:200510)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Surjapuri_language](https://en.wikipedia.org/wiki/Surjapuri_language)
-- Sample: Voarww, Koitonus, Naes, Olelm, Diomidol
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Surjapuri | Ahmedabad | Agra | Srinagar | Visakhapatnam
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Sylheti (i:200511)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Alalasxx, Diusen, Seegun, Voarz, Koitonut
+- Seeds: **54** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Vadodara | Visakhapatnam | Sylhet | Lucknow | Rajahmundry
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Tabghach (i:200512)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Sealen, Guirosn, Paet, Koenz, Alolinut
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Tabghach | Owerri | Sokoto | Aba | Parakou
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Tai (i:200513)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Inet, Ololinw, Sual, Seito, Guugerll
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Tai | Oyo | Gashua | Louga | Harper
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Tai Daeng (i:200514)
 
-- Seeds: **14** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Alinem, Olusezz, Huug, Seokar, Guamans
+- Seeds: **64** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Tai Daeng | Nakhon Si Thammarat | Bandar Lampung | Miri | Ben Tre
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Tai Don (i:200515)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Guod, Guumx, Voetukat, Alalmm, Olirosul
+- Seeds: **64** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Tai Don | Hat Yai | Tebing Tinggi | Alor Setar | Tomohon
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Tai Hang Tong (i:200516)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Guinir, Aloke, Olamankk, Seudww, Guerutus
+- Seeds: **63** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Tai Hang Tong | Ho Chi Minh City | Payakumbuh | Jurong | Poipet
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Tai Khang (i:200517)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Voiss, Koutetum, Ololgg, Diasaror, Guunis
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Tai Khang | Nakhon Si Thammarat | Bandar Lampung | Miri | Ben Tre
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Tai Laing (i:200518)
 
-- Seeds: **10** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Koata, Aliork, Diemw, Seosisos, Voirll
+- Seeds: **61** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Tai Laing | Nakhon Si Thammarat | Bandar Lampung | Miri | Ben Tre
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Tai Long (i:200519)
 
-- Seeds: **11** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Olorll, Diadagil, Guulet, Wout, Heol
+- Seeds: **64** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Tai Long | Soc Trang | Rayong | Serang | Pattaya
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Tai Lue (i:200520)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Aībak, Rustāq, Kunduz, Pul-e Khumrī, Baghlan
+- Seeds: **62** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Tai Lue | Hat Yai | Tebing Tinggi | Alor Setar | Tomohon
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Tai Nuea (i:200521)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Koeg, Quom, Voudur, Koerutw, Bii
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Tai Nuea | Soc Trang | Rayong | Serang | Pattaya
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Tai Pao (i:200522)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Voilot, Aledor, Oloniltt, Seisi, Guutetl
+- Seeds: **64** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Tai Pao | Hat Yai | Tebing Tinggi | Alor Setar | Tomohon
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Tai Song (i:200523)
 
-- Seeds: **19** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Dieguus, Guarm, Voitonol, Alelit, Olomidin
+- Seeds: **63** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Tai Song | Soc Trang | Rayong | Serang | Pattaya
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Tai Thanh (i:200524)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Koanaten, Olumam, Dietukz, Gualun, Voirosrr
+- Seeds: **63** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Tai Thanh | Nakhon Si Thammarat | Bandar Lampung | Miri | Ben Tre
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Tai Yao (i:200525)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Voakam, Koilotz, Oledun, Dionilrr, Voutetg
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Tai Yao | Hat Yai | Tebing Tinggi | Alor Setar | Tomohon
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Tai Yo (Nyaw) (i:200526)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Dienzz, Seolind, Voits, Kougerum, Olorgg
+- Seeds: **63** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Tai Yo (Nyaw) | Ho Chi Minh City | Payakumbuh | Jurong | Poipet
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Takua (i:200527)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Olomidyy, Seigon, Guurelr, Alanatdd, Diumss
+- Seeds: **51** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Takua | Parakou | Lafia | Rijau | Kumasi
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Tamang (i:200528)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Dietuktt, Guali, Voirosl, Alenx, Ololinat
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Tamang | Ölgii | Pohang | Thetford Mines | Changwon
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Tampuan (i:200529)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Gualaskk, Meos, Kousww, Aleguus, Woik
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Tampuan | Hat Yai | Tebing Tinggi | Alor Setar | Tomohon
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Tanchangya (i:200530)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Seesur, Guodimw, Koino, Alusell, Diokxx
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Tanchangya | Dehradun | Nagpur | Agra | Mymensingh
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Tangut (i:200531)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Voikogul, Alesot, Olodimon, Seinim, Guuse
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Tangut | Ölgii | Pohang | Thetford Mines | Changwon
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Tariang (i:200532)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Olioror, Seemis, Guosisi, Koirel, Alunekx
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Tariang | Hat Yai | Tebing Tinggi | Alor Setar | Tomohon
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Tay (Tai) (i:200533)
 
-- Seeds: **19** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Diesull, Yiir, Guakx, Voilotat, Aledmm
+- Seeds: **62** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Tay (Tai) | Nakhon Si Thammarat | Bandar Lampung | Miri | Ben Tre
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Tay Tac (i:200534)
 
-- Seeds: **10** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Elos, Olik, Zies, Tuun, Erod
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Tay Tac | Hat Yai | Tebing Tinggi | Alor Setar | Tomohon
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Tenyidie (i:200535)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Tenyidie_language](https://en.wikipedia.org/wiki/Tenyidie_language)
-- Sample: Diitonk, Guelw, Voomidos, Aligll, Olurelil
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Tenyidie | Owerri | Sokoto | Aba | Parakou
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Teressa Nicobarese (i:200536)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Geer, Raas, Boug, Koamanir, Oludes
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Teressa Nicobarese | Ngaoundéré | Bouaké | Praia | Kumasi
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Thachanadan (i:200537)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Yoororur, Vae, Meanor, Ruosoel, Mois
+- Seeds: **52** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Thachanadan | Bolgatanga | Bafatá | Yola | Bouaké
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Thai Siamese (i:200538)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Seumum, Cail, Koalor, Alirostt, Maet
+- Seeds: **63** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Thai Siamese | Lomphat | Vinh Long | Padang Panjang | Da Nang
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Thakali (i:200539)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Seiroset, Voenn, Koolinam, Olitut, Diugerun
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Thakali | Kanggye | Keelung | Kaifeng | Dongguan
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Thangmi (Thami) (i:200540)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Seorr, Gualasom, Kousg, Aleguir, Diares
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Thangmi (Thami) | Dongguan | Changwon | Nantou | Uliastai
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Thar (i:200541)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Koenurm, Olay, Diikogit, Guesnn, Voodimem
+- Seeds: **53** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Thar | Kaolack | Rijau | Bolgatanga | Louga
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Tharu languages (i:200542)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Seosisul, Voirot, Kounekon, Oloim, Guuser
+- Seeds: **63** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Tharu languages | Bida | Koudougou | Tema | Kara
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Thmon (i:200543)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Koudur, Alerutw, Diato, Seiorll, Voemxx
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Thmon | Parakou | Lafia | Rijau | Kumasi
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Tichurong (i:200544)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Moom, Aludt, Olerutes, Yai, Seatkk
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Tichurong | Tula | Coquimbo | Paquimé | Quiotepec
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Toda (i:200545)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Keekeou, Toosui, Deengisoi, Hoaa, Nuotai
+- Seeds: **51** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Toda | Kaolack | Rijau | Bolgatanga | Louga
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Todrah (i:200546)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Seamantt, Voudi, Koerutl, Tii, Olatx
+- Seeds: **61** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Todrah | Aba | Parakou | Tsévié | Fada N'Gourma
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Tongren Bonan (i:200547)
 
-- Seeds: **16** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Guoam, Voalasz, Alusun, Olegurr, Guitong
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Tongren Bonan | Okigwe | Fada N'Gourma | Gwoza | Bafatá
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Torwali (i:200548)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Nangarhar, Badghis, Ghazni, Gardez, Paktia
+- Seeds: **52** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Torwali | Tchibanga | Conakry | Parakou | Fatick
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Transitional Bonan-Kangjia (i:200549)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Guokdd, Voamaner, Aludas, Oleruta, Seatur
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Transitional Bonan-Kangjia | Foumban | Kaoma | Gagnoa | Sikasso
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Tripuri (i:200550)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Tripuri_language](https://en.wikipedia.org/wiki/Tripuri_language)
-- Sample: Rouawu, Niungunglu, Reiu, Jauoxue, Fuaiiaqiu
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Tripuri | Vadodara | Visakhapatnam | Sylhet | Lucknow
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Tsun-Lao (i:200551)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Diinin, Seusenn, Vookzz, Koamand, Oluds
+- Seeds: **63** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Tsun-Lao | Soc Trang | Rayong | Serang | Pattaya
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Tulu (i:200552)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Tulu_language](https://en.wikipedia.org/wiki/Tulu_language)
-- Sample: Roosul, Yeengisur, Neaa, Luotar, Rieiian
+- Seeds: **49** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Tulu | Lucknow | Jhang | Chennai | Kolhapur
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Turung (i:200553)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Peqin, Fier, Berat, Kapan, Armenia
+- Seeds: **55** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Turung | Aba | Parakou | Tsévié | Fada N'Gourma
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Tuyuhun (i:200554)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Seom, Voudy, Koerutit, Cui, Olatnn
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Tuyuhun | Tchibanga | Conakry | Parakou | Fatick
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Udege (i:200555)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Olioret, Seemn, Guosisam, Koirut, Alunekun
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Udege | Parakou | Lafia | Rijau | Kumasi
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Udegheic (i:200556)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Alemss, Olosisas, Seirk, Guunekur, Kooos
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Udegheic | Owerri | Sokoto | Aba | Parakou
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Uilta (i:200557)
 
-- Seeds: **10** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Seulum, Guesul, Koakor, Alilottt, Voudll
+- Seeds: **62** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Uilta | Parakou | Lafia | Rijau | Kumasi
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Ulaanchab Mongol (i:200558)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Koirem, Alunekzz, Dioar, Sealass, Koegugg
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Ulaanchab Mongol | Yuen Long | Nagasaki | Kanazawa | Kanggye
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Ulch (i:200559)
 
-- Seeds: **14** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Olisus, Diutetu, Guolol, Voasary, Diusas
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Ulch | Kaolack | Rijau | Bolgatanga | Louga
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Ushojo (i:200560)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Seamanil, Voudet, Koeruten, Olatam, Diiorz
+- Seeds: **62** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Ushojo | Aba | Parakou | Tsévié | Fada N'Gourma
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Vaghri (i:200561)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Aloom, Olalas, Seusir, Guegut, Koare
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Vaghri | Visakhapatnam | Rishikesh | Lucknow | Jhang
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Varendri (i:200562)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Koeguor, Olaris, Diitoni, Guelel, Voomidx
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Varendri | Owerri | Sokoto | Aba | Parakou
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Vayu (i:200563)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Onil, Zoet, Kooret, Aladagen, Diulam
+- Seeds: **64** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Vayu | Kaolack | Rijau | Bolgatanga | Louga
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Vietnamese Central (i:200564)
 
-- Seeds: **19** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Diunekdd, Guoss, Voalasas, Alusk, Oleguur
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
-
-
-## Vietnamese China (i:200565)
-
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Diodimgg, Guintt, Vouseis, Alokl, Olamanel
+- Seeds: **63** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Vietnamese Central | Narathiwat | Lao Cai | Nong Khai | Quy Nhon
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Vietnamese Hue (i:200566)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Raes, Dielom, Boan, Voigir, Kourelt
+- Seeds: **63** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Vietnamese Hue | Lhokseumawe | Ben Tre | Bacolod | Can Tho
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Vietnamese Northern (i:200567)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Alulel, Olesulx, Seakan, Guilotmm, Koedyy
+- Seeds: **62** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Vietnamese Northern | Da Lat | Kota Bharu | Surabaya | Tebing Tinggi
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Vietnamese Southern (i:200568)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Kotayk, Gyumri, Dilijan, Ashtarak, Abovyan
+- Seeds: **64** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Vietnamese Southern | Da Lat | Kota Bharu | Surabaya | Tebing Tinggi
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Vietnamese US (i:200569)
 
-- Seeds: **19** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Guismm, Voutetul, Alolot, Vouskk, Koegual
+- Seeds: **60** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Vietnamese US | Ho Chi Minh City | Payakumbuh | Jurong | Poipet
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Vishavan (i:200570)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Niul, Taigosou, Muee, Jiurui, Neikoooi
+- Seeds: **55** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Vishavan | Khachmaz | Zugdidi | Quba | Qonagkend
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Wadiyara Koli (i:200571)
 
-- Seeds: **12** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Kounum, Diaor, Seikogtt, Voesi, Koodiml
+- Seeds: **61** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Wadiyara Koli | Hyderabad | Kochi | Pune | Dehradun
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Wagdi (i:200572)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Wagdi_language](https://en.wikipedia.org/wiki/Wagdi_language)
-- Sample: Seulon, Guesulr, Alilotdd, Diedss, Seonilas
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Wagdi | Sylhet | Lucknow | Hubli | Mumbai
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Walungge (i:200573)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Sealit, Guirosin, Koenem, Alolinzz, Diitar
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Walungge | Ölgii | Kawasaki | Kaifeng | Kanazawa
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Wambule (i:200574)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Seotam, Guanatz, Koumun, Aletukrr, Seirosg
+- Seeds: **61** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Wambule | Tchibanga | Conakry | Parakou | Fatick
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Wayanad Chetti (i:200575)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Lealur, Puoduual, Puot, Gearan, Laogadam
+- Seeds: **64** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Wayanad Chetti | Koudougou | Oussouye | Abidjan | Gwoza
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Waziri (i:200576)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Guoum, Alusor, Olegutt, Seari, Guitonl
+- Seeds: **62** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Waziri | Aba | Parakou | Tsévié | Fada N'Gourma
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Western Khmer (i:200577)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Voaril, Koitonxx, Cues, Olelen, Diomidn
+- Seeds: **63** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Western Khmer | Ho Chi Minh City | Payakumbuh | Jurong | Poipet
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Yadgha (i:200578)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Koenal, Alolinww, Diitu, Seugerm, Voory
+- Seeds: **64** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Yadgha | Aba | Parakou | Tsévié | Fada N'Gourma
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Yakut (i:200579)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Yakut_language](https://en.wikipedia.org/wiki/Yakut_language)
-- Sample: Zoureldur, Beondar, Daanakpir, Esuknor, Kiekum
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Yakut | Kaifeng | Hsinchu | Matsuyama | Yamagata
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Yang Zhuang (i:200580)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Aleguor, Veik, Diaris, Seitoni, Fues
+- Seeds: **64** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Yang Zhuang | Nagasaki | Miaoli | Rason | Taitung
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Yei Zhuang (i:200581)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Alail, Olikogxx, Seesen, Guodimn, Koinz
+- Seeds: **63** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Yei Zhuang | Pingtung | Ölgii | Miaoli | Taiyuan
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Yong (i:200582)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Alitur, Olugerw, Seoro, Guadagll, Koulxx
+- Seeds: **62** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Yong | Kaolack | Rijau | Bolgatanga | Louga
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Yoy (i:200583)
 
-- Seeds: **17** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Voirel, Kounekx, Oloan, Dialasmm, Guusyy
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Yoy | Ayutthaya | Payakumbuh | Klang | Phongsali
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Zakhchin (i:200584)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Guitx, Vougerat, Alormm, Oladagul, Seulot
+- Seeds: **54** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Zakhchin | Owerri | Sokoto | Aba | Parakou
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Zandui (i:200585)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Oloror, Diadagtt, Guuli, Voesull, Alakx
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Zandui | Nibok | Kokoda | Noumea | Kimbe
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Zhangzhung (i:200586)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Gualasol, Koenul, Alolinyy, Seugerr, Koadagdd
+- Seeds: **52** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Zhangzhung | Bafatá | Yola | N'Djamena | Bolgatanga
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Burarra (i:200587)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Burarra_language](https://en.wikipedia.org/wiki/Burarra_language)
-- Sample: Diikogss, Irer, Guesa, Voodimk, Taas
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Burarra | Cooktown | Mapoon | Amaroo | Walgett
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Dhuwal (i:200588)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Dhuwal_language](https://en.wikipedia.org/wiki/Dhuwal_language)
-- Sample: Anug, Guats, Voiorum, Alemgg, Olosisor
+- Seeds: **60** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Dhuwal | Horn Island | Bamaga | Lockhart River | Woomera
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Djaru (i:200589)
 
-- Seeds: **15** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Djaru_language](https://en.wikipedia.org/wiki/Djaru_language)
-- Sample: Oluseom, Seokg, Guamanir, Koelor, Alomidtt
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Djaru | Amaroo | Menindee | Carnarvon | Hopetoun
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Djinang (i:200590)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Djinang_language](https://en.wikipedia.org/wiki/Djinang_language)
-- Sample: Olakg, Diilotir, Guedes, Voonile, Alisal
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Djinang | Cooktown | Mapoon | Amaroo | Walgett
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Gaagudju (i:200591)
 
-- Seeds: **19** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Gaagudju_language](https://en.wikipedia.org/wiki/Gaagudju_language)
-- Sample: Diotit, Seanatin, Voumem, Koetukzz, Olalar
+- Seeds: **63** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Gaagudju | Morawa | Aurukun | Horn Island | Andamooka
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Githabul (i:200592)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Githabul_language](https://en.wikipedia.org/wiki/Githabul_language)
-- Sample: Seusul, Gueguyy, Koaron, Alitonr, Seomiddd
+- Seeds: **62** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Githabul | Morawa | Aurukun | Horn Island | Andamooka
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Iwaidja (i:200593)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Iwaidja_language](https://en.wikipedia.org/wiki/Iwaidja_language)
-- Sample: Olamanur, Voom, Seudos, Gueruto, Gei
+- Seeds: **55** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Iwaidja | Cooktown | Mapoon | Amaroo | Walgett
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Kaytetye (i:200594)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Kaytetye_language](https://en.wikipedia.org/wiki/Kaytetye_language)
-- Sample: Ucuma, Sumbe, Ondjiva, Menongue, Luena
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Kaytetye | Morawa | Aurukun | Horn Island | Andamooka
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Kija (i:200595)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Gija_language](https://en.wikipedia.org/wiki/Gija_language)
-- Sample: Guosisat, Koirmm, Alunekul, Dioot, Sealason
+- Seeds: **63** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Kija | Port Augusta | Thursday Island | Carnamah | Onslow
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Kukatja (i:200596)
 
-- Seeds: **13** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Kukatja_(Western_Australia)](https://en.wikipedia.org/wiki/Kukatja_(Western_Australia))
-- Sample: Alirz, Olunekut, Liun, Vuod, Giil
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Kukatja | Cooktown | Mapoon | Amaroo | Walgett
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Kuku Yalanji (i:200597)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Guugu_Yalandji_language](https://en.wikipedia.org/wiki/Guugu_Yalandji_language)
-- Sample: Olorom, Diadag, Guulir, Voesult, Alake
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Kuku Yalanji | Mapoon | Milingimbi | Oodnadatta | Bamaga
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Kungarakany (i:200598)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Kungarakany_language](https://en.wikipedia.org/wiki/Kungarakany_language)
-- Sample: Uadruabr, Iagngoo, Yongodr, Flountouv, Pruelhiu
+- Seeds: **55** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Kungarakany | Bolgatanga | Bafatá | Yola | Bouaké
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Kunwinjku (i:200599)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Kunwinjku_dialect](https://en.wikipedia.org/wiki/Kunwinjku_dialect)
-- Sample: Dieman, Seosismm, Fuad, Voiryy, Kounekot
+- Seeds: **50** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Kunwinjku | Weipa | Ti Tree | Kununurra | Cobar
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Kuuk Thaayore (i:200600)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Kuuk_Thaayorre_language](https://en.wikipedia.org/wiki/Kuuk_Thaayorre_language)
-- Sample: Bead, Guirar, Vouneks, Leur, Olalasgg
+- Seeds: **62** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Kuuk Thaayore | Okigwe | Fada N'Gourma | Gwoza | Bafatá
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Laragia (i:200601)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Laragiya_language](https://en.wikipedia.org/wiki/Laragiya_language)
-- Sample: Alonilel, Viug, Gaom, Qui, Voaten
+- Seeds: **54** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Laragia | Cooktown | Mapoon | Amaroo | Walgett
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Luritja (i:200602)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Luritja_dialect](https://en.wikipedia.org/wiki/Luritja_dialect)
-- Sample: Vooam, Koalasz, Olusun, Diegurr, Guar
+- Seeds: **64** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Luritja | Cooktown | Mapoon | Amaroo | Walgett
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Manytjilyitjarra (i:200603)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Manyjilyjarra_dialect](https://en.wikipedia.org/wiki/Manyjilyjarra_dialect)
-- Sample: Voenx, Koolinat, Haal, Olitmm, Diugerul
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Manytjilyitjarra | Warburton | Lake Grace | Ramingining | Mapoon
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Martu Wangka (i:200604)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Martu_Wangka_dialect](https://en.wikipedia.org/wiki/Martu_Wangka_dialect)
-- Sample: Alemar, Olosiss, Guunekgg, Koott, Alalasis
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Martu Wangka | Mapoon | Milingimbi | Oodnadatta | Bamaga
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Maung (i:200605)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Maung_language](https://en.wikipedia.org/wiki/Maung_language)
-- Sample: Voikoges, Aleskk, Olodimal, Seinus, Guuseu
+- Seeds: **50** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Maung | Amaroo | Menindee | Carnarvon | Hopetoun
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Murrinh Patha (i:200606)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Murrinh-patha_language](https://en.wikipedia.org/wiki/Murrinh-patha_language)
-- Sample: Vougerd, Alors, Oladagum, Seulgg, Guesulor
+- Seeds: **62** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Murrinh Patha | Uluru | Bamaga | Cooktown | Indulkana
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Ngaanyatjarra (i:200607)
 
-- Seeds: **18** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Ngaanyatjarra_dialect](https://en.wikipedia.org/wiki/Ngaanyatjarra_dialect)
-- Sample: Guemzz, Voosisd, Alirs, Olunekum, Seogg
+- Seeds: **63** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Ngaanyatjarra | Uluru | Bamaga | Cooktown | Indulkana
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Ngarrindjeri (i:200608)
 
-- Seeds: **16** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Ngarrindjeri_language](https://en.wikipedia.org/wiki/Ngarrindjeri_language)
-- Sample: Guadagkk, Jion, Koulww, Alesulus, Tuir
+- Seeds: **62** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Ngarrindjeri | Mapoon | Milingimbi | Oodnadatta | Bamaga
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Nunggubuyu (i:200609)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Nunggubuyu_language](https://en.wikipedia.org/wiki/Nunggubuyu_language)
-- Sample: Ubrhua, Shuumuusm, Lueiedr, Jouflre, Mpohomb
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Nunggubuyu | Port Hedland | Ramingining | Morawa | Thursday Island
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Nyangumarta (i:200610)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Nyangumarta_language](https://en.wikipedia.org/wiki/Nyangumarta_language)
-- Sample: Koikoges, Oleskk, Diodimal, Guinus, Vouseu
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Nyangumarta | Alyangula | Indulkana | Thursday Island | Menindee
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## palawa kani (i:200611)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Palawa_kani](https://en.wikipedia.org/wiki/Palawa_kani)
-- Sample: Alatur, Oliorw, Seemo, Guosisll, Koirxx
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: palawa kani | Alyangula | Indulkana | Thursday Island | Menindee
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Panyjima (i:200612)
 
-- Seeds: **18** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Panyjima_language](https://en.wikipedia.org/wiki/Panyjima_language)
-- Sample: Alonilam, Diisut, Seutetun, Voolom, Haol
+- Seeds: **63** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Panyjima | Morawa | Aurukun | Horn Island | Andamooka
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Umbugarla (i:200613)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Umbugarla_language](https://en.wikipedia.org/wiki/Umbugarla_language)
-- Sample: Diist, Seutetes, Voolkk, Koasaral, Cuol
+- Seeds: **72** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Umbugarla | Weipa | Ti Tree | Kununurra | Cobar
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Upper Arrernte (i:200614)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Arrernte_language](https://en.wikipedia.org/wiki/Arrernte_language)
-- Sample: Olinzz, Diused, Guoks, Voamanum, Aludgg
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Upper Arrernte | Koudougou | Oussouye | Abidjan | Gwoza
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Wadjiginy (i:200615)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Wadjiginy_language](https://en.wikipedia.org/wiki/Wadjiginy_language)
-- Sample: Seadagtt, Vouli, Koesull, Enir, Olakx
+- Seeds: **52** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Wadjiginy | Weipa | Ti Tree | Kununurra | Cobar
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Wagiman (i:200616)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Wagiman_language](https://en.wikipedia.org/wiki/Wagiman_language)
-- Sample: Voitil, Kougerxx, Lous, Oloren, Diadagn
+- Seeds: **73** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Wagiman | Cooktown | Mapoon | Amaroo | Walgett
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Wajarri (i:200617)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Wajarri_language](https://en.wikipedia.org/wiki/Wajarri_language)
-- Sample: Tigre, Tandil, San Vicente, Corrientes, Santa Elena
+- Seeds: **63** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Wajarri | Cooktown | Mapoon | Amaroo | Walgett
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Walmatjarri (i:200618)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Walmajarri_language](https://en.wikipedia.org/wiki/Walmajarri_language)
-- Sample: Guiror, Vounektt, Aloi, Olalasl, Seusx
+- Seeds: **64** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Walmatjarri | Alyangula | Indulkana | Thursday Island | Menindee
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Wangkatha (i:200619)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Wangkatha](https://en.wikipedia.org/wiki/Wangkatha)
-- Sample: Montecarlo, Merlo, Mercedes, Mar del Plata, Luján
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Wangkatha | Weipa | Ti Tree | Kununurra | Cobar
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Warumungu (i:200620)
 
-- Seeds: **12** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Warumungu_language](https://en.wikipedia.org/wiki/Warumungu_language)
-- Sample: Urom, Alelun, Olomidrr, Guurelg, Alanates
+- Seeds: **55** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Warumungu | Weipa | Ti Tree | Kununurra | Cobar
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Wik Mungkan (i:200621)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Wik_Mungkan_language](https://en.wikipedia.org/wiki/Wik_Mungkan_language)
-- Sample: Geol, Voaman, Aludor, Oleruttt, Seati
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Wik Mungkan | Alyangula | Indulkana | Thursday Island | Menindee
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Yankunytjatjara (i:200622)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Yankunytjatjara_dialect](https://en.wikipedia.org/wiki/Yankunytjatjara_dialect)
-- Sample: Voalll, Koirosil, Tiet, Olenet, Diolinen
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Yankunytjatjara | Kings Canyon | Karratha | Weipa | Broome
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Yinjibarndi (i:200623)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Yinjibarndi_language](https://en.wikipedia.org/wiki/Yinjibarndi_language)
-- Sample: Olusgg, Dieguor, Guaris, Voitoni, Alelel
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Yinjibarndi | Alyangula | Indulkana | Thursday Island | Menindee
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Yugambeh (i:200624)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Yugambeh_language](https://en.wikipedia.org/wiki/Yugambeh_language)
-- Sample: Guoes, Voalase, Alusal, Oleguww, Searu
+- Seeds: **55** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Yugambeh | Morawa | Aurukun | Horn Island | Andamooka
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Anguillian Creole (i:200625)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Dialasww, Guusu, Voegum, Alary, Olitonit
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Anguillian Creole | Road Town | Liberta | All Saints | Marigot
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Bahamian Creole (i:200626)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Guakil, Voilotxx, Aleden, Oloniln, Seisz
+- Seeds: **63** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Bahamian Creole | Holetown | Les Cayes | St. John's | Marigot
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Bajan Creole (i:200627)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Voumww, Koetukus, Olalm, Diirosol, Guenit
+- Seeds: **63** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Bajan Creole | Anegada | Kew | Arima | Micoud
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Belizean Creole (i:200628)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Aloim, Seuser, Gueguss, Alitonk, Dielw
+- Seeds: **63** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Belizean Creole | Holetown | Les Cayes | St. John's | Marigot
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Bocas del Toro Creole (i:200629)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Seingg, Guuseor, Kookis, Alamani, Diudel
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Bocas del Toro Creole | Governor's Harbour | All Saints | Charlestown | English Harbour
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Grenadian Creole English (i:200630)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Diiorul, Guemot, Voosison, Fead, Alirim
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Grenadian Creole English | Vieux Fort | Brades | St. John's | Five Cays
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Haitian Creole (i:200631)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Haitian_Creole](https://en.wikipedia.org/wiki/Haitian_Creole)
-- Sample: Olisn, Diutetam, Guolut, Voasarun, Alunom
+- Seeds: **64** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Haitian Creole | Charlestown | Road Town | Anegada | Freeport
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Jamaican Creole (i:200632)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Jamaican_Patois](https://en.wikipedia.org/wiki/Jamaican_Patois)
-- Sample: Usod, Guumi, Voetukl, Feil, Alalx
+- Seeds: **63** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Jamaican Creole | Holetown | Les Cayes | St. John's | Marigot
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Jamaican Patois (i:200633)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Mair, Diakos, Seiloto, Wieg, Voedil
+- Seeds: **61** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Jamaican Patois | Holetown | Les Cayes | St. John's | Marigot
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Leeward Caribbean Creole English (i:200634)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Seusom, Guegu, Koarir, Alitont, Zaes
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Leeward Caribbean Creole English | Grenville | Cockburn Harbour | Oistins | Soufrière
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Limonese Creole (i:200635)
 
-- Seeds: **19** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Orad, Zuur, Juos, Unik, Etes
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Limonese Creole | Holetown | Les Cayes | St. John's | Marigot
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Miskito Coast Creole (i:200636)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Villa Nueva, Cordoba, Villa Carlos Paz, Victoria, Ushuaia
+- Seeds: **63** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Miskito Coast Creole | Five Cays | Sandy Ground | Governor's Harbour | Soufrière
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Montserrat Creole (i:200637)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Vounen, Koenurn, Voalasar, Alusum, Searor
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Montserrat Creole | Road Town | Liberta | All Saints | Marigot
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Papiamento (i:200638)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Papiamento](https://en.wikipedia.org/wiki/Papiamento)
-- Sample: Guilotg, Koedt, Aloniles, Diiskk, Seutetal
+- Seeds: **64** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Papiamento | Sangre Grande | Cockburn Harbour | St. John's | Oistins
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Rama Cay Creole (i:200639)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Salto, Rosario, Río Grande, Santa Cruz, Pergamino
+- Seeds: **61** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Rama Cay Creole | Holetown | Les Cayes | St. John's | Marigot
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Saint Kitts Creole (i:200640)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Seurelom, Vootg, Koanatir, Olumes, Dietuke
+- Seeds: **63** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Saint Kitts Creole | Jost Van Dyke | Hillsborough | Castries | Charlestown
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## San Andrés-Providencia Creole (i:200641)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Alalaszz, Diusar, Seegus, Koitongg, Oleltt
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: San Andrés-Providencia Creole | San Fernando | Soufrière | Marigot | Cap-Haïtien
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Tobagonian Creole (i:200642)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Loer, Waas, Goug, Olamanit, Seudnn
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Tobagonian Creole | Road Town | Liberta | All Saints | Marigot
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Trinidadian Creole (i:200643)
 
-- Seeds: **16** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Voamanat, Aludmm, Olerutul, Seatot, Guioron
+- Seeds: **63** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Trinidadian Creole | Jost Van Dyke | Hillsborough | Castries | Charlestown
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Andi (i:200644)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Orer, Zuas, Juug, Seelzz, Guomidd
+- Seeds: **52** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Andi | Quba | Qonagkend | Vladimir | Naftalan
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Bezhta (i:200645)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Koswshui, Uithphi, Mbueiedz, Nkeekwee, Tsoueist
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Bezhta | Zugdidi | Quba | Xinaliq | Salekhard
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Botlikh (i:200646)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Koiron, Alunekr, Dio, Sealasdd, Vousss
+- Seeds: **53** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Botlikh | Telavi | Gabala | Naftalan | Yevlakh
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Kabardian (i:200647)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Kabardian_language](https://en.wikipedia.org/wiki/Kabardian_language)
-- Sample: Voudgg, Koerutor, Olatis, Diiori, Guemel
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Kabardian | Gabala | Telavi | Lahij | Yevlakh
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Kaitag (i:200648)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Seioret, Voemn, Koosisam, Olirut, Diunekun
+- Seeds: **53** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Kaitag | Zugdidi | Quba | Xinaliq | Salekhard
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Kubachi (i:200649)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Kroucouw, Ikhaun, Gruesmueg, Aubriph, Dosozh
+- Seeds: **52** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Kubachi | Telavi | Gabala | Naftalan | Yevlakh
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Mingrelian (i:200650)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Mingrelian_language](https://en.wikipedia.org/wiki/Mingrelian_language)
-- Sample: Koair, Alikogt, Diese, Seodimkk, Voinww
+- Seeds: **63** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Mingrelian | Gagra | Khachmaz | Zugdidi | Tskhinvali
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Proto-Georgian–Zan (i:200651)
 
-- Seeds: **18** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Georgian%E2%80%93Zan_languages](https://en.wikipedia.org/wiki/Georgian%E2%80%93Zan_languages)
-- Sample: Mail, Wiet, Voadagn, Alulz, Olesulut
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Proto-Georgian–Zan | Hrazdan | Abovyan | Gagra | Naftalan
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Rutul (i:200652)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Arroyo Seco, Arroyito, Arrecifes, Añatuya, Alta Gracia
+- Seeds: **52** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Rutul | Yevlakh | Lahij | Laryak | Gabala
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Svan (i:200653)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Svan_language](https://en.wikipedia.org/wiki/Svan_language)
-- Sample: Seots, Guanatum, Koumgg, Aletukor, Dialis
+- Seeds: **62** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Svan | Quba | Qonagkend | Vladimir | Naftalan
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Tabasaran (i:200654)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Tabasaran_language](https://en.wikipedia.org/wiki/Tabasaran_language)
-- Sample: Olurelal, Seotus, Guanatu, Koumol, Aletuky
+- Seeds: **55** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Tabasaran | Gabala | Telavi | Lahij | Yevlakh
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Tat (i:200655)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Voudw, Koerutos, Olatll, Diioril, Guemet
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Tat | Yevlakh | Naftalan | Mahačkala | Krasnodar
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Tindi (i:200656)
 
-- Seeds: **13** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Guosisy, Koirin, Aluneknn, Diozz, Sealasd
+- Seeds: **51** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Tindi | Yevlakh | Lahij | Laryak | Gabala
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Ubykh (i:200657)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Seanatom, Bood, Voumg, Koetukir, Loil
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Ubykh | Yevlakh | Lahij | Laryak | Gabala
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Pipil (Nawat) (i:200658)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Nawat_language_(typological_overview)](https://en.wikipedia.org/wiki/Nawat_language_(typological_overview))
-- Sample: Koadagun, Olulom, Guakir, Voilott, Alede
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Pipil (Nawat) | Uxmal | Quiotepec | Xochicalco | Huauchinango
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Sarikoli (i:200659)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Olisxx, Diutetet, Guoln, Voasaram, Alunut
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Sarikoli | Kyzylorda | Andijan | Naryn | Atyrau
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Sogdian (i:200660)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Sogdian_language](https://en.wikipedia.org/wiki/Sogdian_language)
-- Sample: Diuseem, Guokd, Voamanar, Inom, Aludum
+- Seeds: **61** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Sogdian | Kostanay | Andijan | Naryn | Turkmenbashi
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Wakhi (i:200661)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Koirosg, Olent, Diolines, Guitkk, Vougeral
+- Seeds: **60** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Wakhi | Andijan | Naryn | Puli Khumri | Tursunzoda
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Big Flowery (i:200662)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Alalor, Olirostt, Seeni, Guolinl, Koitx
+- Seeds: **63** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Big Flowery | Bolgatanga | Bafatá | Yola | Bouaké
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Gangwon Korean (i:200663)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Wiener Neustadt, Vienna, Wels, Villach, Traun
+- Seeds: **63** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Gangwon Korean | Yuen Long | Niigata | Haeju | Ölgii
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Gyeonggi / Seoul Korean (i:200664)
 
-- Seeds: **17** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Guatul, Voioryy, Alemon, Olosisr, Guunekdd
+- Seeds: **64** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Gyeonggi / Seoul Korean | Nantou | Saitama | Bayanhongor | Taitung
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Gyeongsang Korean (i:200665)
 
-- Seeds: **11** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Kooon, Alalasr, Seegudd, Voarss, Koitonas
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Gyeongsang Korean | Dongguan | Kanggye | Arvaikheer | Kimchaek
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Hamgyŏng Korean (i:200666)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Feldkirch, Essling, Eggenberg, Dornbirn, Bregenz
+- Seeds: **61** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Hamgyŏng Korean | Dongguan | Changwon | Nantou | Uliastai
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Han (Samhan) (i:200667)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Guemur, Voosisw, Aliro, Olunekll, Ceur
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Han (Samhan) | Zempoala | Valdivia | Tutupec | Teotitlán
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Hm Nai (i:200668)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Hiik, Diaram, Seitonz, Voelun, Koomidrr
+- Seeds: **63** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Hm Nai | Aba | Parakou | Tsévié | Fada N'Gourma
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Hmong macro entry (i:200669)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Mount Isa, Queensland, Mount Barker, South Australia, Mandurah
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Hmong macro entry | Dongguan | Kanggye | Arvaikheer | Kimchaek
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Hmu (i:200670)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Guula, Voesulk, Piir, Alakw, Olilotos
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Hmu | Oyo | Gashua | Louga | Harper
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Huishui (i:200671)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Eni, Onen, Seitont, Voele, Koomidkk
+- Seeds: **55** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Huishui | Tchibanga | Conakry | Parakou | Fatick
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Hwanghae Korean (i:200672)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Koolinl, Olitx, Diugerat, Guormm, Voadagul
+- Seeds: **60** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Hwanghae Korean | Dongguan | Changwon | Nantou | Uliastai
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Jeju (i:200673)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Rour, Ceos, Guegug, Meik, Koart
+- Seeds: **52** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Jeju | Kimchaek | Changwon | Tsetserleg | Rason
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Jeolla Korean (i:200674)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Uashuadr, Dzuuzhfii, Koswokr, Aithphau, Uikhvi
+- Seeds: **62** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Jeolla Korean | Pingtung | Taitung | Rason | Ölgii
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Jiaoliao Mandarin (i:200675)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Sydney, Seaford, Richmond, Preston, Orange
+- Seeds: **64** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Jiaoliao Mandarin | Dongguan | Kanggye | Arvaikheer | Kimchaek
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Jilu Mandarin (i:200676)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Diomidt, Guige, Vourelkk, Alotww, Olanatus
+- Seeds: **62** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Jilu Mandarin | Pingtung | Taitung | Rason | Ölgii
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Kiong Nai (i:200677)
 
-- Seeds: **16** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Alirun, Olunekrr, Gualasg, Koust, Alegues
+- Seeds: **63** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Kiong Nai | Yola | Aplahoué | Bissau | Aba
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Luobohe (i:200678)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Hawthorn South, Hawthorn, Hampton Park, Gympie, Griffith
+- Seeds: **61** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Luobohe | Tchibanga | Conakry | Parakou | Fatick
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Mahan Korean (i:200679)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Koitondd, Olelss, Diomidas, Guigk, Vourelur
+- Seeds: **64** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Mahan Korean | Chiba | Ölgii | Baotou | Saitama
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Maojia (i:200680)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Croydon, Cranbourne, Craigieburn, Corio, Coorparoo
+- Seeds: **61** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Maojia | Aba | Parakou | Tsévié | Fada N'Gourma
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Mashan (i:200681)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Koesulir, Olakes, Diilote, Guedal, Voonilww
+- Seeds: **55** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Mashan | Aba | Parakou | Tsévié | Fada N'Gourma
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Middle Korean (i:200682)
 
-- Seeds: **17** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Voesyy, Koodimot, Olinr, Diuseim, Diumm
+- Seeds: **63** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Middle Korean | Pingtung | Taitung | Rason | Ölgii
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Mo Piu (i:200683)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Camberwell, Caloundra, Cairns, Broken Hill, Brisbane
+- Seeds: **64** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Mo Piu | Aba | Parakou | Tsévié | Fada N'Gourma
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Modern Korean (i:200684)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Seosisel, Voirat, Kounekan, Oloul, Dialasyy
+- Seeds: **62** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Modern Korean | Pingtung | Taitung | Rason | Ölgii
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Munhwaŏ (Standard North Korean) (i:200685)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Monop, Uindnki, Aundimb, Ngounkmbe, Tsueyueh
+- Seeds: **61** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Munhwaŏ (Standard North Korean) | Nara | Tai Po | Kimchaek | Bayanhongor
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Ná-Meo (i:200686)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Gualol, Voirosy, Alenin, Ololinnn, Seitzz
+- Seeds: **63** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Ná-Meo | Aba | Parakou | Tsévié | Fada N'Gourma
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Nao Klao (i:200687)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Voedar, Koonils, Diutetgg, Guoltt, Voasaris
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Nao Klao | Agra | Mymensingh | Visakhapatnam | Madurai
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## North Korean (i:200688)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Koorl, Aladagel, Diulat, Seesulan, Voakul
+- Seeds: **63** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: North Korean | Chiba | Ölgii | Baotou | Saitama
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Northern Min (i:200689)
 
-- Seeds: **17** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Alugerk, Diorw, Seadagos, Voulll, Koesulil
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Northern Min | Chiba | Ölgii | Baotou | Saitama
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Numao (i:200690)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Punchbowl, Parafield Gardens, Hillside, St Clair, Kirwan
+- Seeds: **63** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Numao | Parakou | Lafia | Rijau | Kumasi
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Old Korean (i:200691)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Oledas, Dionila, Guisur, Voutetw, Alolo
+- Seeds: **64** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Old Korean | Pingtung | Ölgii | Miaoli | Taiyuan
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Pa Na (i:200692)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Guegum, Koary, Alitonit, Dielnn, Seomidem
+- Seeds: **64** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Pa Na | Parakou | Lafia | Rijau | Kumasi
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Pa-Hng (i:200693)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Diitz, Seugerut, Voorrr, Koadagom, Olulg
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Pa-Hng | Aba | Parakou | Tsévié | Fada N'Gourma
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Pingtang (i:200694)
 
-- Seeds: **10** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Alindd, Oluseer, Seokas, Guamana, Olumit
+- Seeds: **55** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Pingtang | Owerri | Sokoto | Aba | Parakou
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Proto-Hmong-Mien (i:200695)
 
-- Seeds: **11** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Heom, Voudar, Koeruts, Sai, Olat
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Proto-Hmong-Mien | Yuen Long | Nagasaki | Kanazawa | Kanggye
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Proto-Hmongic (i:200696)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Shamakhi, Quba, Mingachevir, Ganja, Barda
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Proto-Hmongic | Pingtung | Taitung | Rason | Ölgii
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Proto-Koreanic (i:200697)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Bugojno, Brčko, Bosanska Krupa, Bijeljina, Bihać
+- Seeds: **63** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Proto-Koreanic | Yuen Long | Niigata | Haeju | Ölgii
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Proto-Mienic (i:200698)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Patiya, Narayanganj, Mymensingh, Comilla, Rangpur
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Proto-Mienic | Saminaka | Diffa | Bafatá | Yola
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Pu–Xian Min (i:200699)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Voitu, Kougerm, Olory, Diadagit, Guulnn
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Pu–Xian Min | Nagasaki | Miaoli | Rason | Taitung
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Puyŏ (i:200700)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Dienu, Seolinm, Voity, Kougerit, Olornn
+- Seeds: **60** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Puyŏ | Kaolack | Rijau | Bolgatanga | Louga
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Pyojuneo (Standard Korean) (i:200701)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Sātkania, Cox’s Bāzār, Khulna, Bhola, Rangamati
+- Seeds: **62** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Pyojuneo (Standard Korean) | Nantou | Hualien | Gwangju | Kimchaek
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Pyongan Korean (i:200702)
 
-- Seeds: **15** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Guorol, Voadagy, Alulin, Olesulnn, Seakzz
+- Seeds: **60** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Pyongan Korean | Yuen Long | Niigata | Haeju | Ölgii
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Raojia (i:200703)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Oligr, Diurelim, Guotdd, Voanater, Alumas
+- Seeds: **61** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Raojia | Aba | Parakou | Tsévié | Fada N'Gourma
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Sanqiao (i:200704)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Voelu, Koomidm, Wean, Oligy, Diurelit
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Sanqiao | Tchibanga | Conakry | Parakou | Fatick
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Shanghainese (i:200705)
 
-- Seeds: **19** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Diedal, Seonilww, Voisu, Koutetm, Ololy
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Shanghainese | Chiba | Ölgii | Baotou | Saitama
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Shao–Jiang Min (i:200706)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Voalo, Koirosll, Olenxx, Diolinet, Guitn
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Shao–Jiang Min | Yuen Long | Niigata | Haeju | Ölgii
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## She (i:200707)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Hieg, Koutetll, Cuut, Ololxx, Diasaret
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: She | Oyo | Gashua | Louga | Harper
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## She Chinese (i:200708)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Seutetm, Vooly, Koasarit, Olunnn, Dienurem
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: She Chinese | Nagasaki | Miaoli | Rason | Taitung
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Silla Korean (i:200709)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Guomidk, Koigw, Alurelos, Diotll, Seanatil
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Silla Korean | Chiba | Ölgii | Baotou | Saitama
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Small Flowery (i:200710)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Seiru, Guunekm, Kooy, Alalasit, Diusnn
+- Seeds: **63** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Small Flowery | Okigwe | Fada N'Gourma | Gwoza | Bafatá
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## South Korean (i:200711)
 
-- Seeds: **18** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Seox, Gualasat, Kousmm, Aleguul, Diarot
+- Seeds: **63** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: South Korean | Chiba | Ölgii | Baotou | Saitama
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Southern Min (i:200712)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Oladagl, Seulx, Guesulat, Koakmm, Alilotul
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Southern Min | Chiba | Ölgii | Baotou | Saitama
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Suzhounese (i:200713)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Verviers, Tournai, Tongeren, Tielt, Soignies
+- Seeds: **62** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Suzhounese | Pingtung | Ölgii | Miaoli | Taiyuan
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Taiwanese Mandarin (i:200714)
 
-- Seeds: **14** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Dioldd, Seasarer, Vounas, Koenura, Olaur
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Taiwanese Mandarin | Takamatsu | Yuen Long | Rason | Zhuhai
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Wenzhounese (i:200715)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Alelal, Olomidww, Seigu, Guurelm, Kooty
+- Seeds: **63** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Wenzhounese | Nagasaki | Miaoli | Rason | Taitung
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Xixiu (i:200716)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Aliga, Olurelk, Seotw, Guanatos, Koumll
+- Seeds: **64** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Xixiu | Parakou | Lafia | Rijau | Kumasi
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Xong (i:200717)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Olunekes, Riur, Seokk, Gualasal, Kousus
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Xong | Kaolack | Rijau | Bolgatanga | Louga
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Yangchun Pai Yao (i:200718)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Voigk, Kourelur, Olotos, Dianato, Guumil
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Yangchun Pai Yao | Bissau | Bida | Minna | Nnewi
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Ye-Maek (i:200719)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Seesulun, Voakom, Oledir, Dionilt, Guise
+- Seeds: **62** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Ye-Maek | Tchibanga | Conakry | Parakou | Fatick
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Yeheni (i:200720)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Leuven, La Louvière, Kortrijk, Jumet, Ieper
+- Seeds: **62** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Yeheni | Aba | Parakou | Tsévié | Fada N'Gourma
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Yeongdong Korean (i:200721)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Guuteter, Koolas, Alasara, Diunur, Seenurw
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Yeongdong Korean | Yuen Long | Nagasaki | Kanazawa | Kanggye
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Yeongseo Korean (i:200722)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Diaon, Seikogr, Koodimdd, Olinss, Diuseas
+- Seeds: **62** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Yeongseo Korean | Dongguan | Changwon | Nantou | Uliastai
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Younian (i:200723)
 
-- Seeds: **19** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Tui, Dietukal, Gualus, Voirosu, Alenol
+- Seeds: **62** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Younian | Tchibanga | Conakry | Parakou | Fatick
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Younuo (i:200724)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Diitel, Seugerx, Vooran, Koadagmm, Olulyy
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Younuo | Aba | Parakou | Tsévié | Fada N'Gourma
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Yukjin Korean (i:200725)
 
-- Seeds: **16** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Olosisel, Seirat, Guunekan, Kooul, Alalasyy
+- Seeds: **60** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Yukjin Korean | Pingtung | Taitung | Rason | Ölgii
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Zainichi Korean (i:200726)
 
-- Seeds: **13** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Dout, Nool, Zait, Guoket, Voamanen
+- Seeds: **64** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Zainichi Korean | Dongguan | Changwon | Nantou | Uliastai
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Almosan (i:200727)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Gwuuaafl, Smopbrui, Zoudzousn, Swoithoi, Ianttwoo
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Almosan | Tchibanga | Conakry | Parakou | Fatick
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Bjarmian Sámi (i:200728)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Koetuknn, Olalzz, Diirosd, Guens, Voolinum
+- Seeds: **61** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Bjarmian Sámi | Okigwe | Fada N'Gourma | Gwoza | Bafatá
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Cingali (i:200729)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Dieln, Seomidam, Voigut, Kourelun, Olotom
+- Seeds: **62** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Cingali | Tchibanga | Conakry | Parakou | Fatick
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Csángó (i:200730)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Uakual, Nkoukwouy, Krocsmui, Truubrthii, Nduegruesk
+- Seeds: **61** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Csángó | Aba | Parakou | Tsévié | Fada N'Gourma
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Dené-Yeniseian (i:200731)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Diigis, Seureli, Vootel, Koanatx, Oluman
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Dené-Yeniseian | Plzeň | Glasgow | Viseu | Mogilev
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Jåkkåkaska (i:200732)
 
-- Seeds: **14** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Kouserr, Diamang, Guudt, Voerutes, Alatkk
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Jåkkåkaska | El Tajín | Mapuche | Casas Grandes | Palenque
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Jällivaara (i:200733)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Beir, Guakim, Leeg, Aleder, Olonilss
+- Seeds: **62** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Jällivaara | Bafatá | Yola | N'Djamena | Bolgatanga
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Jugan (i:200734)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Guolem, Voasarzz, Alunar, Olenurs, Guikoggg
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Jugan | Parakou | Lafia | Rijau | Kumasi
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Jukonda (i:200735)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Diadagar, Guulum, Alakor, Olilottt, Seedi
+- Seeds: **63** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Jukonda | Tchibanga | Conakry | Parakou | Fatick
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Kainuu (i:200736)
 
-- Seeds: **10** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Diulum, Kousek, Olokw, Diamanos, Guudll
+- Seeds: **62** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Kainuu | Ölgii | Pohang | Thetford Mines | Changwon
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Kamassian proper (i:200737)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Seitl, Guugerel, Koorat, Aladagan, Diulul
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Kamassian proper | Panevėžys | České Budějovice | Rotterdam | Espoo
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Kazym (i:200738)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Dioat, Sealasan, Vousul, Koeguyy, Olaron
+- Seeds: **53** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Kazym | Parakou | Lafia | Rijau | Kumasi
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Kiknur (i:200739)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Olunekil, Seoet, Gualasen, Kousam, Aleguz
+- Seeds: **54** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Kiknur | Aba | Parakou | Tsévié | Fada N'Gourma
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Komi-Yodzyak (i:200740)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Olilotem, Seedd, Guonilar, Koisum, Alutet
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Komi-Yodzyak | Grodno | Brno | Mogilev | Évora
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Komi-Zyryan (i:200741)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Komi-Zyrian_language](https://en.wikipedia.org/wiki/Komi-Zyrian_language)
-- Sample: Guesel, Voodimx, Alinan, Olusemm, Seokyy
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Komi-Zyryan | Oxford | Utrecht | Daugavpils | Narva
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Kosa-Kama (i:200742)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Koow, Alalasos, Diusll, Seeguil, Voaret
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Kosa-Kama | Yola | Aplahoué | Bissau | Aba
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Kozymodemyan (i:200743)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Alesmm, Olodimul, Seinot, Guuseon, Kookim
+- Seeds: **52** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Kozymodemyan | Saminaka | Diffa | Bafatá | Yola
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Kuuďärv Ludic (i:200744)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Diudon, Seerutr, Koiordd, Olemss, Diosisas
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Kuuďärv Ludic | Canterbury | Soroca | The Hague | Viljandi
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Likrisovskoe (i:200745)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Burkina Faso, Ziniaré, Tougan, Toma, Tenkodogo
+- Seeds: **62** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Likrisovskoe | Saminaka | Diffa | Bafatá | Yola
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Lipsha (i:200746)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Voinil, Kousexx, Oloken, Diamann, Guudz
+- Seeds: **51** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Lipsha | Aba | Parakou | Tsévié | Fada N'Gourma
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Lower Demjanka (i:200747)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Koesulis, Olakl, Diilotel, Guedat, Voonilan
+- Seeds: **64** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Lower Demjanka | Koudougou | Oussouye | Abidjan | Gwoza
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Lower Konda (i:200748)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Diitona, Guelur, Voomidw, Aligo, Olurelll
+- Seeds: **61** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Lower Konda | Bolgatanga | Bafatá | Yola | Bouaké
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Lower Lozva (i:200749)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Alodimdd, Diinss, Seuseas, Koamanur, Oludos
+- Seeds: **62** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Lower Lozva | Bolgatanga | Bafatá | Yola | Bouaké
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Lower Luga (i:200750)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Wuit, Hier, Cuug, Muom, Huen
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Lower Luga | Bafatá | Yola | N'Djamena | Bolgatanga
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Lower Vychegda (i:200751)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Ceekee, Twuumbuus, Umchua, Oomboont, Uswzhua
+- Seeds: **64** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Lower Vychegda | Koudougou | Oussouye | Abidjan | Gwoza
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Ludza (i:200752)
 
-- Seeds: **19** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Guend, Koesw, Alodimos, Diinll, Seuseil
+- Seeds: **52** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Ludza | Parakou | Lafia | Rijau | Kumasi
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Luokta-Mávas (i:200753)
 
-- Seeds: **11** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Alaas, Olikoga, Suer, Dias, Niug
+- Seeds: **63** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Luokta-Mávas | Saminaka | Diffa | Bafatá | Yola
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Luza-Letka (i:200754)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Alarit, Olitonin, Seelem, Guomidzz, Koigar
+- Seeds: **63** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Luza-Letka | Bafatá | Yola | N'Djamena | Bolgatanga
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Merya (i:200755)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Olismm, Diutetul, Guolot, Voasaron, Alunim
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Merya | Sheffield | Dubrovnik | Charleroi | Elbasan
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Meshcherian (i:200756)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Seale, Guiroskk, Koenww, Alolinus, Diitm
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Meshcherian | Oxford | Utrecht | Daugavpils | Narva
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Middle Botnian (i:200757)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Keol, Usit, Olalasnn, Seuszz, Guegud
+- Seeds: **64** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Middle Botnian | Koudougou | Oussouye | Abidjan | Gwoza
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Middle Konda (i:200758)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Olalgg, Diirosor, Elet, Guenis, Voolini
+- Seeds: **63** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Middle Konda | Saminaka | Diffa | Bafatá | Yola
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Middle Lozva (i:200759)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Voinot, Kouseon, Olokim, Diaman, Guuder
+- Seeds: **63** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Middle Lozva | Saminaka | Diffa | Bafatá | Yola
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Mulgi (i:200760)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Seugerun, Voorom, Koadag, Olulir, Diesult
+- Seeds: **55** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Mulgi | Sheffield | Dubrovnik | Charleroi | Elbasan
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Muromian (i:200761)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Gao, Fada N'gourma, Sahel, Diapaga, Dédougou
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Muromian | Swansea | Poznań | Prilep | Porto
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Mysy (i:200762)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Diisun, Seutetrr, Koasarg, Olunt, Dienures
+- Seeds: **61** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Mysy | Kaolack | Rijau | Bolgatanga | Louga
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Nerdva (i:200763)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Guumd, Voetukar, Alalum, Seenor, Guolintt
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Nerdva | Aba | Parakou | Tsévié | Fada N'Gourma
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## North Vagilsk (i:200764)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Lovech, Dobrich, Svishtov, Haskovo, Stara Zagora
+- Seeds: **61** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: North Vagilsk | Okigwe | Fada N'Gourma | Gwoza | Bafatá
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Northeast Hungary (i:200765)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Koenit, Alolinin, Diitem, Seugerzz, Voorar
+- Seeds: **62** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Northeast Hungary | N'Djamena | Mubi | Bida | Koudougou
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Northeastern coastal Estonian (i:200766)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Aliret, Alumol, Oletuky, Sealin, Guirosnn
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Northeastern coastal Estonian | Lisburn | Kharkiv | Mosta | Groningen
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Northern Botnian (i:200767)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Panagyurishte, Montana, Kardzhali, Kazanlak, Burgas
+- Seeds: **62** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Northern Botnian | Bissau | Bida | Minna | Nnewi
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Northern Ludic (i:200768)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Cankuzo, Bubanza, Mpanda, Cibitoke, Ngozi
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Northern Ludic | Plzeň | Glasgow | Viseu | Mogilev
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Northern Savonian (i:200769)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Shoueigw, Uisnji, Houeid, Zhoiphoi, Lafa
+- Seeds: **63** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Northern Savonian | N'Djamena | Mubi | Bida | Koudougou
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Northern Veps (i:200770)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Guosisww, Koiru, Alunekm, Dioy, Sealasit
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Northern Veps | Canterbury | Soroca | The Hague | Viljandi
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Ob Mansi (i:200771)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Olatt, Diiores, Guemkk, Voosisal, Alirus
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Ob Mansi | Swansea | Poznań | Prilep | Porto
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Obdorsk (i:200772)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Olitel, Diugerx, Guoran, Voadagmm, Alulyy
+- Seeds: **52** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Obdorsk | Tchibanga | Conakry | Parakou | Fatick
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Old Hungarian (i:200773)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Olunal, Dienurww, Guau, Voikogm, Alesy
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Old Hungarian | Canterbury | Soroca | The Hague | Viljandi
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Old Komi (i:200774)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Olumin, Dietuknn, Gualzz, Voirosd, Alens
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Old Komi | Swansea | Poznań | Prilep | Porto
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## On (i:200775)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Olusis, Diegui, Guarel, Voitonx, Alelan
+- Seeds: **64** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: On | Gashua | Yaoundé | Yendi | Dapaong
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Orodezhi (i:200776)
 
-- Seeds: **16** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Koesuls, Diilotgg, Guedtt, Voonilis, Alisl
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Orodezhi | Navua | Kairuku | Nibok | Tabubil
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Päijänne Tavastia (i:200777)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Guumon, Voetukr, Olirosdd, Seenss, Guolinas
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Päijänne Tavastia | Hrazdan | Balakan | Abovyan | Telavi
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Pechora (i:200778)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Ixaur, Sneexee, Gwioskio, Gwouskfle, Pouot
+- Seeds: **50** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Pechora | Tchibanga | Conakry | Parakou | Fatick
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Pelym (i:200779)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Seesam, Guodimz, Koinun, Aluserr, Diok
+- Seeds: **48** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Pelym | Parakou | Lafia | Rijau | Kumasi
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Pim (i:200780)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Alosisit, Diirnn, Seunekem, Koalasar, Olusum
+- Seeds: **51** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Pim | Oyo | Gashua | Louga | Harper
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Pite Sami (i:200781)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Pite_Sami_language](https://en.wikipedia.org/wiki/Pite_Sami_language)
-- Sample: Jofloth, Iatdroo, Phueduedz, Nouwge, Xouopr
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Pite Sami | Leicester | Daugavpils | Tromsø | Tallinn
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Porvoo (i:200782)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Seunas, Guenura, Koaur, Alikogw, Dieso
+- Seeds: **52** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Porvoo | Aba | Parakou | Tsévié | Fada N'Gourma
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Proto-Hungarian (i:200783)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Ndali, Lokossa, Kouandé, Kandi, Kalalé
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Proto-Hungarian | Glasgow | Soroca | Riga | Larissa
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Proto-Mordvinic (i:200784)
 
-- Seeds: **15** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Nios, Yuik, Ises, Tean, Duun
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Proto-Mordvinic | Glasgow | Soroca | Riga | Larissa
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Ruija (i:200785)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Koigim, Alurel, Dioter, Seanatss, Vouma
+- Seeds: **64** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Ruija | Parakou | Lafia | Rijau | Kumasi
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Salaca Livonian (i:200786)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Olola, Diasark, Guunw, Voenuros, Olikogil
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Salaca Livonian | Glasgow | Soroca | Riga | Larissa
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Sea Sami (i:200787)
 
-- Seeds: **17** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Olodimg, Seint, Guusees, Kookkk, Alamanal
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Sea Sami | Swansea | Poznań | Prilep | Porto
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Semisjaur-Njarg (i:200788)
 
-- Seeds: **21** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Kuala Belait, Liang, Serasa, Sengkurong, Mentiri
+- Seeds: **63** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Semisjaur-Njarg | Bida | Koudougou | Tema | Kara
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Sernur-Morkin (i:200789)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Voalx, Koirosat, Olenmm, Diolinul, Guitot
+- Seeds: **54** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Sernur-Morkin | Wewak | Kavieng | Misima | Lorengau
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Serri (i:200790)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Voisy, Koutetit, Ololnn, Diasarem, Guund
+- Seeds: **61** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Serri | Parakou | Lafia | Rijau | Kumasi
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Seto (i:200791)
 
-- Seeds: **19** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Olentt, Diolinis, Guitl, Vougerel, Alorat
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Seto | Barcelona | Málaga | Nantes | Kilkenny
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Siberian Finnish (i:200792)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Koala, Alirosk, Dienw, Seolinos, Voitll
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Siberian Finnish | Bissau | Bida | Minna | Nnewi
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Siberian Ingrian Finnish (i:200793)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Caol, Mait, Seikogam, Voesut, Koodimun
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Siberian Ingrian Finnish | Calabar | Sikasso | Maradi | Bamenda
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Sirkas (i:200794)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Guemon, Voosisr, Olunekdd, Seoss, Gualasas
+- Seeds: **61** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Sirkas | Aba | Parakou | Tsévié | Fada N'Gourma
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Skolt Sami (i:200795)
 
-- Seeds: **14** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Skolt_Sami](https://en.wikipedia.org/wiki/Skolt_Sami)
-- Sample: Guulm, Voesulol, Alakit, Olilotin, Seedem
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Skolt Sami | Mogilev | Szczecin | Liège | Braga
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Soikkola (i:200796)
 
-- Seeds: **21** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Oruro, Montero, Laja, Guayaramerín, Cobija
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Soikkola | Navua | Kairuku | Nibok | Tabubil
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Sörkaitum (i:200797)
 
-- Seeds: **11** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Voole, Koasarkk, Puol, Olunww, Dienurus
+- Seeds: **60** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Sörkaitum | Yola | Aplahoué | Bissau | Aba
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## South Estonian (i:200798)
 
-- Seeds: **19** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Vootdd, Koanater, Olumas, Dietuka, Gualur
+- Seeds: **64** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: South Estonian | Plzeň | Glasgow | Viseu | Mogilev
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## South Vagilsk (i:200799)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Guelem, Voomidzz, Aligar, Olurels, Guanatgg
+- Seeds: **62** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: South Vagilsk | Okigwe | Fada N'Gourma | Gwoza | Bafatá
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Southeastern Finnish (i:200800)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Voass, Koikogas, Olesk, Diodimur, Guinos
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Southeastern Finnish | Ioannina | Salzburg | Timișoara | Groningen
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Southeastern Tavastian (i:200801)
 
-- Seeds: **18** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Guenyy, Voolinot, Alitr, Olugerim, Seordd
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Southeastern Tavastian | Abovyan | Derbent | Ashtarak | Gagra
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Southern Botnian (i:200802)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Tocantinópolis, Tocantins, Teresina, Sapé, São Miguel
+- Seeds: **63** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Southern Botnian | Bissau | Bida | Minna | Nnewi
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Southern Karelian (i:200803)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Parintins, Palmares, Ouricuri, Oriximiná, Óbidos
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Southern Karelian | Dundee | Podgorica | Liepāja | Soroca
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Southern Mansi (i:200804)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Voetuk, Alalir, Olirost, Seene, Guolinkk
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Southern Mansi | Plzeň | Glasgow | Viseu | Mogilev
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Southern Savonian (i:200805)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Kousekk, Olokww, Diamanus, Guudm, Voerutol
+- Seeds: **62** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Southern Savonian | N'Djamena | Mubi | Bida | Koudougou
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Southern Tavastian (i:200806)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Guudes, Voerute, Alatal, Oliorww, Seemu
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Southern Tavastian | Hrazdan | Abovyan | Gagra | Naftalan
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Southern Veps (i:200807)
 
-- Seeds: **19** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Diisos, Seuteto, Voolil, Koasarxx, Olunen
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Southern Veps | Canterbury | Soroca | The Hague | Viljandi
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Svaipa (i:200808)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Voitonw, Alelo, Olomidll, Seigxx, Guurelet
+- Seeds: **62** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Svaipa | Aba | Parakou | Tsévié | Fada N'Gourma
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Sygva (i:200809)
 
-- Seeds: **11** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Olurelim, Seotdd, Guanater, Koumas, Aletuka
+- Seeds: **63** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Sygva | Parakou | Lafia | Rijau | Kumasi
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Székely (i:200810)
 
-- Seeds: **12** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Alald, Olirosar, Joet, Seenum, Koitor
+- Seeds: **64** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Székely | Levuka | Yap | Kone | Kiunga
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Tagil (i:200811)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Voenxx, Koolinet, Olitn, Diugeram, Guorut
+- Seeds: **62** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Tagil | Parakou | Lafia | Rijau | Kumasi
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Tartu (i:200812)
 
-- Seeds: **14** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Aligl, Olurelel, Seotat, Guanatan, Koumul
+- Seeds: **51** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Tartu | Parakou | Lafia | Rijau | Kumasi
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Tavda (i:200813)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Monte Alegre, Monsenhor Tabosa, Monção, Mombaça, Moju
+- Seeds: **52** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Tavda | Parakou | Lafia | Rijau | Kumasi
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Taygi (i:200814)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Juruti, Jupi, Junqueiro, Jucurutu, Jucás
+- Seeds: **63** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Taygi | Parakou | Lafia | Rijau | Kumasi
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Ter Sami (i:200815)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Ter_Sami_language](https://en.wikipedia.org/wiki/Ter_Sami_language)
-- Sample: Oligk, Diurelur, Guotos, Voanato, Alumil
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Ter Sami | Swansea | Poznań | Prilep | Porto
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Tisza-Körös (i:200816)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Seerutz, Voatun, Koiorrr, Diosisg, Guirt
+- Seeds: **63** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Tisza-Körös | Bolgatanga | Bafatá | Yola | Bouaké
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Tonshaevo (i:200817)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Voanata, Alumur, Oletukw, Sealo, Guirosll
+- Seeds: **51** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Tonshaevo | Yola | Aplahoué | Bissau | Aba
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Torne Valley (i:200818)
 
-- Seeds: **12** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Aliner, Olusess, Seoka, Guamank, Koudw
+- Seeds: **64** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Torne Valley | Saminaka | Diffa | Bafatá | Yola
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Tundra Enets (i:200819)
 
-- Seeds: **13** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Guedk, Voonilur, Alisos, Oluteto, Seolil
+- Seeds: **62** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Tundra Enets | Grodno | Brno | Mogilev | Évora
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Tuorpon (i:200820)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Diomidzz, Guigar, Vourels, Olanatgg, Seumtt
+- Seeds: **61** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Tuorpon | Tchibanga | Conakry | Parakou | Fatick
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Turku highlands (i:200821)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Seelom, Koigir, Alurelt, Diote, Seanatkk
+- Seeds: **63** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Turku highlands | Bida | Koudougou | Tema | Kara
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Tuzha (i:200822)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Aimchau, Kwuuprmpii, Poshogr, Skaga, Broitoi
+- Seeds: **50** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Tuzha | Parakou | Lafia | Rijau | Kumasi
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Tysfjord (i:200823)
 
-- Seeds: **11** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Uron, Fair, Paeg, Koedum, Diisor
+- Seeds: **52** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Tysfjord | Owerri | Sokoto | Aba | Parakou
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Ume Sami (i:200824)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Ume_Sami_language](https://en.wikipedia.org/wiki/Ume_Sami_language)
-- Sample: Alitin, Olugernn, Seorzz, Guadagd, Kouls
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Ume Sami | Swansea | Poznań | Prilep | Porto
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Upper Konda (i:200825)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Irituia, Irauçuba, Ipueiras, Ipubi, Ipu
+- Seeds: **63** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Upper Konda | Bolgatanga | Bafatá | Yola | Bouaké
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Upper Lozva (i:200826)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Seelu, Guomidm, Koigy, Alurelit, Diotnn
+- Seeds: **62** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Upper Lozva | Bolgatanga | Bafatá | Yola | Bouaké
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Upper Lupya (i:200827)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Gondogw, Uamuats, Pruulhii, Gwuuskuubr, Auswif
+- Seeds: **64** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Upper Lupya | Bolgatanga | Bafatá | Yola | Bouaké
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Upper Sysola (i:200828)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Ibiapina, Iati, Humberto de Campos, Horizonte, Hidrolândia
+- Seeds: **62** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Upper Sysola | Saminaka | Diffa | Bafatá | Yola
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Uralic-Yukaghir (i:200829)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Pei, Seatz, Guiorut, Koemrr, Alosisom
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Uralic-Yukaghir | Glasgow | Soroca | Riga | Larissa
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Uralo-Siberian (i:200830)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Seadaga, Voulur, Koesulw, Olako, Diilotll
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Uralo-Siberian | Koudougou | Oussouye | Abidjan | Gwoza
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Vakh (i:200831)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Delmiro Gouveia, Coreaú, Condado, Conceição do Araguaia, Conceição
+- Seeds: **64** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Vakh | Kaolack | Rijau | Bolgatanga | Louga
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Värmland Savonian (i:200832)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Diinil, Seusexx, Vooken, Koamann, Oludz
+- Seeds: **62** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Värmland Savonian | N'Djamena | Mubi | Bida | Koudougou
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Vartovskoe (i:200833)
 
-- Seeds: **10** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Alerutk, Bui, Diatw, Seioros, Luen
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Vartovskoe | Bafatá | Yola | N'Djamena | Bolgatanga
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Vasjugan (i:200834)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Oluseu, Seokol, Guamany, Koudin, Alerutnn
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Vasjugan | Owerri | Sokoto | Aba | Parakou
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Verkhne-Kalimsk (i:200835)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Ooswoof, Luefuekw, Dzuuaaf, Ibrauph, Hiodrio
+- Seeds: **60** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Verkhne-Kalimsk | Bida | Koudougou | Tema | Kara
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Vishera (i:200836)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Castelo do Piauí, Castanhal, Cascavel, Casa Nova, Caruaru
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
-
-
-## Volga (i:200837)
-
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Voudzz, Koerutd, Olats, Diiorum, Guemgg
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Vishera | Tchibanga | Conakry | Parakou | Fatick
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Vym (i:200838)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Seik, Voarnn, Koitonem, Oleld, Diomidar
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Vym | Oyo | Gashua | Louga | Harper
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Western Transdanubian (i:200839)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Cien, Miad, Guunekxx, Wuur, Kooen
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Western Transdanubian | Jalingo | Yusufari | Koulikoro | Ngaoundéré
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Western Uusimaa (i:200840)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Alomidum, Diiggg, Seurelor, Vootis, Koanati
+- Seeds: **61** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Western Uusimaa | Bida | Koudougou | Tema | Kara
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Western Votic (i:200841)
 
-- Seeds: **18** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Diatir, Seiort, Voeme, Koosiskk, Olirww
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Western Votic | Canterbury | Soroca | The Hague | Viljandi
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Yaran (i:200842)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Guuteten, Koolam, Alasarz, Diunun, Seenurrr
+- Seeds: **51** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Yaran | Parakou | Lafia | Rijau | Kumasi
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Yaransk (i:200843)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Guodimus, Koinm, Aluseol, Diokit, Seamanin
+- Seeds: **52** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Yaransk | Tchibanga | Conakry | Parakou | Fatick
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Yazva (i:200844)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Oludy, Dierutit, Guatnn, Voiorem, Alemd
+- Seeds: **63** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Yazva | Parakou | Lafia | Rijau | Kumasi
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Ylä-Satakunta (i:200845)
 
-- Seeds: **18** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Voemw, Koosisos, Olirll, Diunekil, Guoet
+- Seeds: **62** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Ylä-Satakunta | Okigwe | Fada N'Gourma | Gwoza | Bafatá
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Yoshkar-Olin (i:200846)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Olokat, Diamanan, Guudul, Voerutyy, Alaton
+- Seeds: **64** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Yoshkar-Olin | Saminaka | Diffa | Bafatá | Yola
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Yurats (i:200847)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Koaros, Alitono, Dielil, Seomidxx, Voigen
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Yurats | Aba | Parakou | Tsévié | Fada N'Gourma
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Zyuzdino (i:200848)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Olas, Alinzz, Olused, Ziug, Seoks
+- Seeds: **63** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Zyuzdino | Owerri | Sokoto | Aba | Parakou
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Aas whistled (i:200849)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Aas,_Pyr%C3%A9n%C3%A9es-Atlantiques#Whistled_language](https://en.wikipedia.org/wiki/Aas,_Pyr%C3%A9n%C3%A9es-Atlantiques#Whistled_language)
-- Sample: Seakur, Guilotw, Koedo, Alonilll, Diisxx
+- Seeds: **63** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Aas whistled | Saminaka | Diffa | Bafatá | Yola
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Andalusian Spanish (i:200850)
 
-- Seeds: **14** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Andalusian_Spanish](https://en.wikipedia.org/wiki/Andalusian_Spanish)
-- Sample: Diamanur, Guudos, Voeruto, Alatil, Oliorxx
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Andalusian Spanish | Timișoara | Graz | Utrecht | Saint-Étienne
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Anglo-Norman (i:200851)
 
-- Seeds: **15** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Voetukw, Alalo, Olirosll, Seenxx, Guolinet
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Anglo-Norman | Woliso | Luxor | Maralal | Kitale
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Béarnese (i:200852)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/B%C3%A9arnese_dialect](https://en.wikipedia.org/wiki/B%C3%A9arnese_dialect)
-- Sample: Zoueil, Youeitw, Uismpri, Snouxkwe, Mbouqdze
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Béarnese | Swansea | Poznań | Prilep | Porto
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Brianzöö (i:200853)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Borba, Boqueirão, Bonito, Bom Jesus, Bom Jardim
+- Seeds: **64** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Brianzöö | Owerri | Sokoto | Aba | Parakou
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Canzés (i:200854)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Swouthouc, Aiqndau, Floueikr, Swuethuec, Buuaab
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Canzés | Prilep | Łódź | Cork | Zaragoza
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Castilian Spanish (i:200855)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Castilian_Spanish](https://en.wikipedia.org/wiki/Castilian_Spanish)
-- Sample: Batalha, Barro, Barreiros, Barreirinhas, Barreira
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Castilian Spanish | Dundee | Podgorica | Liepāja | Soroca
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Castúo (i:200856)
 
-- Seeds: **19** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Olalasut, Seusrr, Gueguom, Koarg, Alitonir
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Castúo | Prilep | Łódź | Cork | Zaragoza
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Cremunés (i:200857)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Augusto Corrêa, Atalaia, Assaré, Aroeiras, Areia Branca
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Cremunés | Swansea | Poznań | Prilep | Porto
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Crișana (i:200858)
 
-- Seeds: **14** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Romanian_dialects](https://en.wikipedia.org/wiki/Romanian_dialects)
-- Sample: Guutetz, Koolun, Alasarrr, Seenurg, Olitonmm
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Crișana | Newcastle | Aveiro | Zugdidi | Dubrovnik
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Franglish (i:200859)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Uichswi, Aurink, Suustsnii, Touoj, Uastuaj
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Franglish | Nakhon Si Thammarat | Bandar Lampung | Miri | Ben Tre
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## German (i:200860)
 
-- Seeds: **18** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Guatyy, Voiorot, Alemr, Olosisim, Seirdd
+- Seeds: **54** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: German | Prilep | Łódź | Cork | Zaragoza
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Icelandic (i:200861)
 
-- Seeds: **13** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Icelandic_language](https://en.wikipedia.org/wiki/Icelandic_language)
-- Sample: Voinzz, Koused, Oloks, Diamanum, Guudgg
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Icelandic | Gabala | Telavi | Lahij | Yevlakh
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Irish (i:200862)
 
-- Seeds: **10** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Guotom, Alumir, Oletukt, Seenuran, Voaul
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Irish | Sheffield | Dubrovnik | Charleroi | Elbasan
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Italo-Australian (i:200863)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: São João do Rio do Peixe, Ananindeua, Anajatuba, Anajás, Amontada
+- Seeds: **64** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Italo-Australian | Rabaul | Uaboe | Sogeri | Kone
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Judeo-Aragonese (i:200864)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Água Branca, Agrestina, Afuá, Afrânio, Afogados da Ingazeira
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Judeo-Aragonese | Bida | Koudougou | Tema | Kara
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Lower Sorbian (i:200865)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Lower_Sorbian_language](https://en.wikipedia.org/wiki/Lower_Sorbian_language)
-- Sample: Votorantim, Volta Redonda, Rio de Janeiro, Vitória da Conquista, Vitória
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Lower Sorbian | Canterbury | Soroca | The Hague | Viljandi
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Maltese Italian (i:200866)
 
-- Seeds: **11** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Guumom, Alenurel, Diaat, Seikogan, Koodimyy
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Maltese Italian | Glasgow | Soroca | Riga | Larissa
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Moldavian (i:200867)
 
-- Seeds: **12** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Romanian_dialects](https://en.wikipedia.org/wiki/Romanian_dialects)
-- Sample: Guiorat, Koemmm, Alosisul, Diirot, Seunekon
+- Seeds: **108** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Moldavian | Leicester | Daugavpils | Tromsø | Tallinn
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Molisan (i:200868)
 
-- Seeds: **12** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Alakut, Olilotun, Seedom, Koisir, Alutett
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Molisan | Newcastle | Aveiro | Zugdidi | Dubrovnik
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Monégasque (i:200869)
 
-- Seeds: **13** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Esil, Oset, Kaus, Diisus, Seutetu
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Monégasque | Mogilev | Szczecin | Liège | Braga
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Moselle Romance (i:200870)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Voonilx, Alisan, Olutetmm, Seolyy, Guasarot
+- Seeds: **64** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Moselle Romance | Glasgow | Soroca | Riga | Larissa
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Old Church Slavonic (i:200871)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Old_Church_Slavonic](https://en.wikipedia.org/wiki/Old_Church_Slavonic)
-- Sample: Voiru, Kounekm, Oloy, Dialasit, Guusnn
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Old Church Slavonic | Stirling | Omagh | Podgorica | Jūrmala
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Old Prussian (i:200872)
 
-- Seeds: **13** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Old_Prussian_language](https://en.wikipedia.org/wiki/Old_Prussian_language)
-- Sample: Oladagot, Seulr, Guesulim, Koakdd, Aliloter
+- Seeds: **64** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Old Prussian | Grodno | Brno | Mogilev | Évora
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Orléanais (i:200873)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Vassouras, Varzelândia, Várzea Paulista, Várzea Grande, Mato Grosso
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Orléanais | Leicester | Daugavpils | Tromsø | Tallinn
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Paḷḷuezu (i:200874)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Koudll, Alerutil, Diatet, Seioren, Voemam
+- Seeds: **63** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Paḷḷuezu | Owerri | Sokoto | Aba | Parakou
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Podlachian (i:200875)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Podlachian_dialects](https://en.wikipedia.org/wiki/Podlachian_dialects)
-- Sample: Olalasss, Seusa, Gueguk, Duil, Nuet
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Podlachian | Mogilev | Szczecin | Liège | Braga
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Polabian (i:200876)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Polabian_language](https://en.wikipedia.org/wiki/Polabian_language)
-- Sample: Ololn, Diasaram, Guunut, Voenurun, Alaom
+- Seeds: **62** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Polabian | Swansea | Poznań | Prilep | Porto
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Pomeranian (i:200877)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Pomeranian_language](https://en.wikipedia.org/wiki/Pomeranian_language)
-- Sample: Ugwtsua, Snaxa, Spuesluefl, Oogwoos, Guendspiu
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Pomeranian | Mogilev | Szczecin | Liège | Braga
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Ripuarian (Platt) (i:200878)
 
-- Seeds: **18** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Ripuarian_languages](https://en.wikipedia.org/wiki/Ripuarian_languages)
-- Sample: Seamanel, Voudat, Koerutan, Olatul, Diioryy
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Ripuarian (Platt) | N'Djamena | Mubi | Bida | Koudougou
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Romani (i:200879)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Romani_language](https://en.wikipedia.org/wiki/Romani_language)
-- Sample: Vookd, Koamanar, Oludum, Guator, Voiortt
+- Seeds: **54** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Romani | Prilep | Łódź | Cork | Zaragoza
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Serbo-Croatian (i:200880)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Serbo-Croatian](https://en.wikipedia.org/wiki/Serbo-Croatian)
-- Sample: Urandi, União da Vitória, Unaí, Una, Umuarama
+- Seeds: **64** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Serbo-Croatian | Plzeň | Glasgow | Viseu | Mogilev
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Silesian German (i:200881)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Silesian_German](https://en.wikipedia.org/wiki/Silesian_German)
-- Sample: Tucano, Tubarão, Triunfo, Três Rios, Três Pontas
+- Seeds: **63** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Silesian German | Glasgow | Soroca | Riga | Larissa
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Slovincian (i:200882)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Slovincian_language](https://en.wikipedia.org/wiki/Slovincian_language)
-- Sample: Diodimon, Guinim, Aloker, Olamanss, Seuda
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Slovincian | Mogilev | Szczecin | Liège | Braga
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Spanish (i:200883)
 
-- Seeds: **11** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Spanish_language](https://en.wikipedia.org/wiki/Spanish_language)
-- Sample: Diedat, Seonilan, Voisul, Vouden, Koerutn
+- Seeds: **64** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Spanish | Newcastle | Aveiro | Zugdidi | Dubrovnik
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Standard Swedish (i:200884)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Swedish_language](https://en.wikipedia.org/wiki/Swedish_language)
-- Sample: Timbó, Tijucas do Sul, Tijucas, Tietê, Tibagi
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Standard Swedish | Panevėžys | České Budějovice | Rotterdam | Espoo
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Swabian German (i:200885)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Swabian_German](https://en.wikipedia.org/wiki/Swabian_German)
-- Sample: Alula, Olesulk, Seakw, Guilotos, Eteg
+- Seeds: **62** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Swabian German | Plzeň | Glasgow | Viseu | Mogilev
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Swedish (native-speakers subset) (i:200886)
 
-- Seeds: **14** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Olao, Diikogll, Guesxx, Voodimet, Alinn
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Swedish (native-speakers subset) | Miskolc | Cluj-Napoca | Tromsø | Viljandi
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Upper Saxon (i:200887)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Olamani, Seudel, Guerutx, Koatan, Aliormm
+- Seeds: **64** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Upper Saxon | Oxford | Utrecht | Daugavpils | Narva
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Urum (i:200888)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Urum_language](https://en.wikipedia.org/wiki/Urum_language)
-- Sample: Siedut, Meis, Ulattor, Utisorkir, Ziemdor
+- Seeds: **67** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Urum | Barcelona | Málaga | Nantes | Kilkenny
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Valdôtain (i:200889)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Sluetruent, Nueieg, Ibaub, Sostsnui, Ootsoot
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Valdôtain | Yola | Aplahoué | Bissau | Aba
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Walser German (i:200890)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Walser_German](https://en.wikipedia.org/wiki/Walser_German)
-- Sample: Alomiddd, Diigss, Seurelas, Vootk, Koanatur
+- Seeds: **64** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Walser German | Canterbury | Soroca | The Hague | Viljandi
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## West Polesian (i:200891)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/West_Polesian_microlanguage](https://en.wikipedia.org/wiki/West_Polesian_microlanguage)
-- Sample: Kookun, Alamanrr, Seerutg, Voatt, Koiores
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: West Polesian | Okigwe | Fada N'Gourma | Gwoza | Bafatá
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Wisconsin Walloon (i:200892)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Taperoá, Tapejara, Tanque Novo, Tanhaçu, Tanguá
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Wisconsin Walloon | Dundee | Podgorica | Liepāja | Soroca
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Wymysorys (i:200893)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Guese, Voodimkk, Alinww, Oluseus, Seokm
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Wymysorys | Leicester | Daugavpils | Tromsø | Tallinn
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Yenish (i:200894)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Alemam, Olosisz, Seirun, Guunekrr, Alalasg
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Yenish | Prilep | Łódź | Cork | Zaragoza
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Zeelandic (i:200895)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Simão Dias, Silvânia, Silva Jardim, Sidrolândia, Sete Lagoas
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Zeelandic | Gabala | Telavi | Lahij | Yevlakh
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Forro Creole (i:200896)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Forro_language](https://en.wikipedia.org/wiki/Forro_language)
-- Sample: Alotdd, Olanater, Seumas, Guetuka, Koalur
+- Seeds: **41** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: São Tomé | Príncipe | Neves | Santana | Trindade
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Principense Creole (i:200897)
 
-- Seeds: **14** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Principense_language](https://en.wikipedia.org/wiki/Principense_language)
-- Sample: Alaru, Olitonm, Seely, Guomidit, Koignn
+- Seeds: **33** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Santo António | Sundy | Porto Real | Neves Ferreira | Ribeira Izé
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Argobba (i:200898)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Argobba_language](https://en.wikipedia.org/wiki/Argobba_language)
-- Sample: Sátiro Dias, Sarzedo, Sarandi, Saquarema, Sapucaia do Sul
+- Seeds: **33** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Argobba | Harar | Jijiga | Shinile | Aysha
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Harari (i:200899)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Harari_language](https://en.wikipedia.org/wiki/Harari_language)
-- Sample: São Miguel do Araguaia, São Miguel Arcanjo, São Mateus do Sul, São Mateus, São Marcos
+- Seeds: **41** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Harar | Jijiga | Shinile | Aysha | Danan
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Chagossian Creole (i:200900)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Alenun, Ololinrr, Guugerg, Koort, Aladages
+- Seeds: **49** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Diego Garcia | Peros Banhos | Salomon | Six Îles | Three Brothers
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Mauritian Creole (i:200901)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Mauritian_Creole](https://en.wikipedia.org/wiki/Mauritian_Creole)
-- Sample: Olorir, Diadagt, Guule, Voesulkk, Tair
+- Seeds: **34** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Port Louis | Curepipe | Vacoas | Quatre Bornes | Beau Bassin
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Rodriguan Creole (i:200902)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: São Joaquim de Bicas, São Joaquim da Barra, São Joaquim, São João Nepomuceno, São João Evangelista
+- Seeds: **30** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Port Mathurin | Cascade Victoire | Baie Topaze | Grande Montagne | Anse aux Anglais
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Tayo Creole (i:200903)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: São Francisco de Assis, São Francisco, São Felipe, São Fidélis, São Domingos do Prata
+- Seeds: **0** | Min/Max: **0/0** | m=**0** | d=**** — N/A
+- Sample: 
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Ch'ol (i:200904)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Ch'ol_language](https://en.wikipedia.org/wiki/Ch'ol_language)
-- Sample: Autid, Fochtsui, Iamchoo, Flointoi, Swatha
+- Seeds: **64** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Ch'ol | Parakou | Lafia | Rijau | Kumasi
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Ch'olti' (i:200905)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Classic_Maya_language](https://en.wikipedia.org/wiki/Classic_Maya_language)
-- Sample: Olisy, Diutetit, Guolnn, Voasarem, Alund
+- Seeds: **63** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Ch'olti' | Owerri | Sokoto | Aba | Parakou
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Itza' (i:200906)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Itza'_language](https://en.wikipedia.org/wiki/Itza'_language)
-- Sample: Vojwui, Bruutvii, Oozookr, Swothoc, Fruekhngiu
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Itza' | Xochimilco | Chuquisaca | Tingambato | Monte Albán
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Mocho' (i:200907)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Santo Antônio de Posse, Santo Antônio de Pádua, Santo Antônio de Jesus, Santo Antônio da Platina, Santo Antônio da Patrulha
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Mocho' | Tibes | Ixtlán del Río | Mitla | Valdivia
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Mopan (i:200908)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Santa Maria da Vitória, Santa Maria, Santa Margarida, Santaluz, Santa Juliana
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Mopan | Xochimilco | Chuquisaca | Tingambato | Monte Albán
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Sierra Juarez Zapotec (i:200909)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Sierra_Ju%C3%A1rez_Zapotec](https://en.wikipedia.org/wiki/Sierra_Ju%C3%A1rez_Zapotec)
-- Sample: Salesópolis, Sacramento, Sabará, Ruy Barbosa, Rubiataba
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Sierra Juarez Zapotec | Tuxpan | Iximché | Zempoala | Tutupec
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Tlapanec (Meꞌphaa) (i:200910)
 
-- Seeds: **12** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/ISO_639:tpx](https://en.wikipedia.org/wiki/ISO_639:tpx)
-- Sample: Alisy, Olutetit, Seolnn, Guasarem, Kound
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Tlapanec (Meꞌphaa) | Zempoala | Xochitécatl | Cuzco | Mixco Viejo
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Tojol-ab'al (i:200911)
 
-- Seeds: **18** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Seetuku, Voalol, Koirosy, Olenin, Diolinnn
+- Seeds: **62** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Tojol-ab'al | Bolgatanga | Bafatá | Yola | Bouaké
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Trique (i:200912)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Trique_language](https://en.wikipedia.org/wiki/Trique_language)
-- Sample: Rio das Ostras, Wenceslau Guimarães, Rio Claro, Rio Brilhante, Rio Branco do Sul
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Trique | Tibes | Ixtlán del Río | Mitla | Valdivia
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Uspantek (i:200913)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Alolinx, Diitan, Seugermm, Vooryy, Koadagot
+- Seeds: **59** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Uspantek | Teotihuacán | Tafí del Valle | Tibes | Chichén Itzá
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Assyrian Neo Aramaic (i:200914)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Porto Nacional, Porto Alegre, Ponta Porã, Piedade, Penha
+- Seeds: **63** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Assyrian Neo Aramaic | Deir ez-Zor | Giza | Şanlıurfa | Adana
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Awsānian (i:200915)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Marília, Maricá, Mariana, Marialva, Marechal Floriano
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Awsānian | Owerri | Sokoto | Aba | Parakou
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Baṭḥari (i:200916)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Fuechuepr, Zhapha, Doueikh, Uambuant, Groueitr
+- Seeds: **60** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Baṭḥari | Tchibanga | Conakry | Parakou | Fatick
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Maghrebi Arabic (i:200917)
 
-- Seeds: **18** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Kootos, Alanato, Diumil, Seetukxx, Voalen
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Maghrebi Arabic | Uaboe | Sigatoka | Kokoda | Kosrae
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Turoyo (i:200918)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Guutetet, Guerutol, Koatit, Aliorin, Diemem
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Turoyo | Siirt | Duhok | Mersin | Farwaniya
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Ugaritic (i:200919)
 
-- Seeds: **11** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Diosisit, Guirnn, Vounekem, Olalasar, Seusum
+- Seeds: **64** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Ugaritic | Damietta | Chalghat | Siirt | Sana'a
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Western Egyptian Bedawi Arabic (i:200920)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Uitwski, Jouflouth, Qiompio, Tsuuystii, Thovok
+- Seeds: **60** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Western Egyptian Bedawi Arabic | Raniya | Assiut | Dali | Malatya
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Western Hilali dialects (i:200921)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Yuunguudr, Ubbua, Nkoueiq, Ntouoc, Flountkre
+- Seeds: **63** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Western Hilali dialects | Goroka | Lorengau | Buna | Manus
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Western Middle Aramaic (i:200922)
 
-- Seeds: **19** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Diedem, Seonilzz, Voisar, Koutets, Diasargg
+- Seeds: **58** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Western Middle Aramaic | Tartus | Aswan | Çorum | Konya
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Western pre-Hilali dialects (i:200923)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Diomiddd, Guigss, Vourelas, Alotk, Olanatur
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Western pre-Hilali dialects | Daru | Ebeye | Mare | Ok Tedi
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Yafi'i Arabic (i:200924)
 
-- Seeds: **14** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Alemun, Olosisrr, Guunekg, Alalases, Diuskk
+- Seeds: **64** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Yafi'i Arabic | Sohag | Halabja | Erzurum | Mukalla
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Yemeni Arabic (i:200925)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Trobrosp, Ntospcui, Hadra, Toueij, Igrauq
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Yemeni Arabic | Sohag | Halabja | Erzurum | Mukalla
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Zabidi dialect (i:200926)
 
-- Seeds: **18** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Voosisir, Alires, Oluneke, Dour, Seoal
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Zabidi dialect | Goroka | Ba | Kavieng | Manus
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Zakho (i:200927)
 
-- Seeds: **19** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Alaret, Olitonen, Seelam, Guomidz, Koigun
+- Seeds: **55** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Zakho | Suez | Tokat | Antalya | Ahmadi
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Zay (i:200928)
 
-- Seeds: **15** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Olodimww, Seinu, Guusem, Kooky, Alamanit
+- Seeds: **55** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Zay | Gondar | Machakos | Gitarama | Merca
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## ˀAzd dialect (i:200929)
 
-- Seeds: **10** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Guenuri, Koael, Alikogx, Diesan, Voenit
+- Seeds: **63** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: ˀAzd dialect | Labasa | Trobriand | Ngerulmud | Denigomodu
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Algonquian-Basque pidgin (i:200930)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Malhada, Malacacheta, Mairiporã, Mairinque, Mairi
+- Seeds: **63** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Algonquian-Basque pidgin | Ioannina | Nova Gorica | Bruges | Bremen
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## American Indian Pidgin English (i:200931)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Koatut, Aliorun, Diemom, Voirir, Kounekt
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: American Indian Pidgin English | Lomphat | Loikaw | Balikpapan | Kratie
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Andaman Creole Hindi (i:200932)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Ookhoon, Groismoi, Qampa, Giondio, Loufoukw
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Andaman Creole Hindi | Five Cays | Sandy Ground | Governor's Harbour | Soufrière
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Arabic-Javanese of Klego (i:200933)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Koasarn, Olunz, Dienurut, Voikogom, Alesg
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Arabic-Javanese of Klego | Hrazdan | Derbent | Khashuri | Ijevan
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Bolze (i:200934)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Kougerrr, Diadagg, Guult, Voesules, Alakkk
+- Seeds: **64** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Bolze | Parakou | Lafia | Rijau | Kumasi
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Borgarmålet (i:200935)
 
-- Seeds: **10** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Olutetus, Seolm, Guasarol, Kounit, Alenurin
+- Seeds: **63** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Borgarmålet | Bolgatanga | Bafatá | Yola | Bouaké
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Bozal Spanish (i:200936)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Koinrr, Aluseom, Diokg, Seamanir, Voudes
+- Seeds: **64** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Bozal Spanish | Canterbury | Soroca | The Hague | Viljandi
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Cappadocian Greek (i:200937)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Guena, Voolink, Alitw, Olugeros, Seorll
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Cappadocian Greek | Dundee | Podgorica | Liepāja | Soroca
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Cauque Mayan (i:200938)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Seanatan, Voumul, Koetukyy, Olalon, Diirosr
+- Seeds: **64** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Cauque Mayan | Zempoala | Valdivia | Tutupec | Teotitlán
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Cypriot Maronite-Arabic (i:200939)
 
-- Seeds: **13** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Enug, Seotkk, Guanatal, Koumus, Aletuku
+- Seeds: **64** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Cypriot Maronite-Arabic | Al-Hasakah | Suez | Tokat | Antalya
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Duvle-Wano Pidgin (i:200940)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Guoir, Voalast, Olegukk, Voik, Searww
+- Seeds: **68** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Duvle-Wano Pidgin | Vanimo | Navua | Majuro | Ouvea
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Français Tirailleur (i:200941)
 
-- Seeds: **10** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Alirosar, Dienum, Voitor, Kougertt, Olori
+- Seeds: **61** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Français Tirailleur | Kenema | Ngaoundéré | San-Pédro | Praia
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Haflong Hindi (i:200942)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Ipatinga, Gurupi, Guarulhos, Guarapuava, Governador Valadares
+- Seeds: **61** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Haflong Hindi | Hyderabad | Kochi | Pune | Dehradun
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Hawaiian Pidgin English (i:200943)
 
-- Seeds: **16** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Diemet, Seosisen, Voiram, Kounekz, Oloun
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Hawaiian Pidgin English | Thai Binh | Kuala Belait | Makassar | Satun
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Inuktitut-English Pidgin (i:200944)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Alumut, Oletukun, Sealom, Koenir, Alolint
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Inuktitut-English Pidgin | Kandal | Senmonorom | Chumphon | Phnom Penh
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Italian Eritrean (i:200945)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Forquilhinha, Formoso do Araguaia, Formosa do Rio Preto, Formiga, Florianópolis
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Italian Eritrean | Panevėžys | České Budějovice | Rotterdam | Espoo
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Javindo (i:200946)
 
-- Seeds: **14** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Alutetem, Diold, Seasarar, Vounum, Olaor
+- Seeds: **70** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Javindo | Tchibanga | Conakry | Parakou | Fatick
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Jersey Dutch (i:200947)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Chapecó, Central, Caxias do Sul, Castro, Carlos Barbosa
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Jersey Dutch | Grodno | Brno | Mogilev | Évora
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## KiKAR (i:200948)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Iaploo, Ngounkouts, Uikrxi, Koueish, Droueis
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: KiKAR | Parakou | Lafia | Rijau | Kumasi
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Labrador Inuit Pidgin French (i:200949)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Olumzz, Dietukd, Guals, Voirosum, Alengg
+- Seeds: **63** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Labrador Inuit Pidgin French | Rijeka | Pécs | Klaipėda | Bonn
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Loucheux Jargon (i:200950)
 
-- Seeds: **13** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Koesas, Alodima, Diinur, Seusew, Vooko
+- Seeds: **63** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Loucheux Jargon | Bida | Koudougou | Tema | Kara
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Macanese Patois (i:200951)
 
-- Seeds: **18** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Etug, Otom, Keen, Olotes, Dianate
+- Seeds: **62** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Macanese Patois | Holetown | Les Cayes | St. John's | Marigot
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Madras Bashai (i:200952)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Cees, Seelgg, Guomidor, Koigis, Alureli
+- Seeds: **62** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Madras Bashai | Okigwe | Fada N'Gourma | Gwoza | Bafatá
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Maritime Polynesian Pidgin (i:200953)
 
-- Seeds: **13** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Koorus, Aladagu, Diulol, Seesuly, Voakin
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Maritime Polynesian Pidgin | Vanimo | Palau | Kairuku | Ouvea
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Mbugu (i:200954)
 
-- Seeds: **12** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Koattt, Alioris, Dieml, Nead, Your
+- Seeds: **61** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Mbugu | Parakou | Lafia | Rijau | Kumasi
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Media Lengua (i:200955)
 
-- Seeds: **11** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Diiter, Seugerss, Voora, Koadagk, Olulw
+- Seeds: **63** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Media Lengua | Labasa | Trobriand | Ngerulmud | Denigomodu
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Mediterranean Lingua Franca (i:200956)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Kwouprmpe, Uiprkri, Roukrgre, Oochoosh, Uagruaq
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Mediterranean Lingua Franca | Daru | Ebeye | Mare | Ok Tedi
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Mekeo pidgins (i:200957)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Seotos, Guanato, Koumil, Aletukxx, Dialen
+- Seeds: **72** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Mekeo pidgins | Wewak | Kavieng | Misima | Lorengau
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Michif (i:200958)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Bela Vista, Barra, Bambuí, Bagé, Astorga
+- Seeds: **62** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Michif | Aba | Parakou | Tsévié | Fada N'Gourma
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Micronesian Pidgin English (i:200959)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Aiymau, Queiezh, Thuuvuuk, Greesmee, Shuuaagw
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Micronesian Pidgin English | Putao | Poipet | Bacolod | Battambang
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Missingsch (i:200960)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Voiti, Kougerl, Olorx, Diadagat, Guulmm
+- Seeds: **63** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Missingsch | Bafatá | Yola | N'Djamena | Bolgatanga
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Mohawk Dutch (i:200961)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Krouosm, Zhiophio, Troubrousp, Ujsua, Fuuaats
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Mohawk Dutch | Grodno | Brno | Mogilev | Évora
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Nagamese (i:200962)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Seens, Guolinum, Koitgg, Alugeror, Dioris
+- Seeds: **73** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Nagamese | Agra | Mymensingh | Visakhapatnam | Madurai
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Namibian Black German (i:200963)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Apiaí, Aparecida do Taboado, Aparecida, Antonina, Anicuns
+- Seeds: **63** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Namibian Black German | Cardiff | Belgrade | Lyon | Vilnius
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Nauru Pidgin English (i:200964)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Spoisloi, Vojosw, Ruukruun, Viojio, Smeepee
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Nauru Pidgin English | Aileu | Dien Bien Phu | Narathiwat | Nam Dinh
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Ndyuka-Tiriyó Pidgin (i:200965)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Auxir, Suestsniu, Phoudoudz, Utrmpua, Skougout
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Ndyuka-Tiriyó Pidgin | Kavieng | Mount Hagen | Belep | Kimbe
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Nefamese (i:200966)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Koasaror, Olunis, Dienuri, Guael, Voikogx
+- Seeds: **71** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Nefamese | Owerri | Sokoto | Aba | Parakou
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Negerhollands (i:200967)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Vound, Koenurar, Olaum, Guesor, Voodimtt
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Negerhollands | Okigwe | Fada N'Gourma | Gwoza | Bafatá
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Negro Dutch (i:200968)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Olunss, Dienuras, Voikogur, Alesos, Olodimo
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Negro Dutch | Oxford | Utrecht | Daugavpils | Narva
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Nootka Jargon (i:200969)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Guindd, Vouseer, Alokas, Olamana, Seudur
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Nootka Jargon | Uxmal | Quiotepec | Xochicalco | Huauchinango
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Oorlams Creole (i:200970)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Voinel, Kousex, Olokan, Diamanmm, Guudyy
+- Seeds: **63** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Oorlams Creole | Charlestown | Road Town | Anegada | Freeport
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Palenquero (i:200971)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Dianats, Voetukgg, Alaltt, Olirosis, Seenl
+- Seeds: **63** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Palenquero | Lae | Tabiteuea | Tiga | Rabaul
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Papua New Guinea Pidgin (i:200972)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Alanater, Diumas, Seetuka, Voalur, Koirosw
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Papua New Guinea Pidgin | Minna | Nnewi | Kaita | Tambacounda
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Papuan Pidgin English (i:200973)
 
-- Seeds: **14** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Huet, Soal, Deus, Neon, Yoir
+- Seeds: **69** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Papuan Pidgin English | Vinh | Satun | Medan | Mae Hong Son
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Petjo (i:200974)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Amargosa, Amambai, Alvinópolis, Álvares Machado, Altônia
+- Seeds: **71** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Petjo | Parakou | Lafia | Rijau | Kumasi
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Pidgin Hawaiian (i:200975)
 
-- Seeds: **16** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Guamanen, Koudam, Alerutz, Diatun, Seiorrr
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Pidgin Hawaiian | Uaboe | Sigatoka | Kokoda | Kosrae
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Pidgin Iha (i:200976)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Guelrr, Voomidom, Zoan, Aligg, Olurelir
+- Seeds: **64** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Pidgin Iha | Lae | Tabiteuea | Tiga | Rabaul
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Pidgin Ngarluma (i:200977)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Aleruta, Diatur, Seiorw, Voemo, Koosisll
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Pidgin Ngarluma | Uaboe | Sigatoka | Kokoda | Kosrae
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Pidgin Onin (i:200978)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: São Gabriel da Cachoeira, Santo Antônio do Içá, Rio Branco, Porto Velho, Porto Acre
+- Seeds: **72** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Pidgin Onin | Mount Hagen | Nadi | Tabiteuea | Kimbe
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Pidgin Wolof (i:200979)
 
-- Seeds: **19** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Voerutar, Alatum, Seemor, Guosistt, Koiri
+- Seeds: **62** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Pidgin Wolof | Labasa | Trobriand | Ngerulmud | Denigomodu
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Port Jackson Pidgin English (i:200980)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Vounekos, Aloll, Olalasil, Seuset, Gueguen
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Port Jackson Pidgin English | Siem Reap | Hue | Manado | Hpa-An
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Pretoria Sotho (i:200981)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Urer, Faas, Guusezz, Paug, Kookar
+- Seeds: **69** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Pretoria Sotho | Lhokseumawe | Ben Tre | Bacolod | Can Tho
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Qoqmoncaq (i:200982)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Ariquemes, Anori, Alvarães, Vilhena, Jaru
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Qoqmoncaq | Yola | Aplahoué | Bissau | Aba
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Queensland Kanaka English (i:200983)
 
-- Seeds: **17** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Seolinnn, Voitzz, Kougerd, Olors, Diadagum
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Queensland Kanaka English | Ha Long | Hpa-An | Denpasar | Vientiane
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Roquetas Pidgin Spanish (i:200984)
 
-- Seeds: **18** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Olemdd, Diosiser, Guiras, Vouneka, Alour
+- Seeds: **63** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Roquetas Pidgin Spanish | Newport | Charleroi | Belgrade | Klaipėda
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Russenorsk (i:200985)
 
-- Seeds: **13** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Alasartt, Diuni, Seenurl, Voax, Koikogat
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Russenorsk | Bafatá | Yola | N'Djamena | Bolgatanga
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Samoan Plantation Pidgin (i:200986)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Diilotal, Guedus, Voonilu, Alisol, Olutety
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Samoan Plantation Pidgin | Hrazdan | Derbent | Khashuri | Ijevan
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Settler Swahili (i:200987)
 
-- Seeds: **17** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Seutety, Koasarnn, Olunzz, Dienurd, Voikogum
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Settler Swahili | Bida | Koudougou | Tema | Kara
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Simplified Italian of Libya (i:200988)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Itaim Paulista, Itaobim, Itaquiraí, Itatim, Itinga do Maranhão
+- Seeds: **64** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Simplified Italian of Libya | Belfast | Celje | Birkirkara | Shkodër
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Simplified Italian of Somalia (i:200989)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Paranatinga, Parauapebas, Pedra Preta, Planalto, Santa Bárbara do Pará
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Simplified Italian of Somalia | Kaduna | Zwedru | Douala | Kindia
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Skepi Dutch Creole (i:200990)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Sento Sé, Simões Filho, Sinop, Sítio Novo, Iguatemi
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Skepi Dutch Creole | Jost Van Dyke | Hillsborough | Castries | Charlestown
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Solombala-English (i:200991)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Thamaga, Serowe, Selebi-Phikwe, Ramotswa, Palapye
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Solombala-English | Hue | Tebing Tinggi | Ang Mo Kio | Da Nang
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Solomon Islands Pijin (i:200992)
 
-- Seeds: **15** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Seudal, Guerutww, Koatu, Aliorm, Diemy
+- Seeds: **61** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Solomon Islands Pijin | Vinh | Satun | Medan | Mae Hong Son
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Taimyr Pidgin Russian (i:200993)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Aluddd, Oleruter, Seatas, Guiora, Koemur
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Taimyr Pidgin Russian | Cardiff | Belgrade | Lyon | Vilnius
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Tangwang (i:200994)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Tseeyee, Iswauf, Zhouphche, Uiflsti, Ookool
+- Seeds: **52** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Tangwang | Owerri | Sokoto | Aba | Parakou
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Tansi (i:200995)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Drouos, Yuenguedr, Iaczoo, Audribr, Aujikh
+- Seeds: **63** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Tansi | Parakou | Lafia | Rijau | Kumasi
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Te Parau Tinito (i:200996)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Guonilun, Koisom, Diolir, Seasart, Voune
+- Seeds: **62** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Te Parau Tinito | Bida | Koudougou | Tema | Kara
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Tinglish (i:200997)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Koain, Alikognn, Dieszz, Seodimd, Voins
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Tinglish | Soc Trang | Rayong | Serang | Pattaya
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Tsotsitaal (i:200998)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Olulus, Diesulu, Guakol, Voiloty, Aledin
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Tsotsitaal | Bafatá | Yola | N'Djamena | Bolgatanga
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Unserdeutsch (i:200999)
 
-- Seeds: **11** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Alusedd, Diokss, Seamanas, Voudk, Koerutur
+- Seeds: **62** | Min/Max: **4/11** | m=**0** | d=**** — N/A
+- Sample: Unserdeutsch | Saminaka | Diffa | Bafatá | Yola
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Vedda (i:201000)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Dianatd, Guums, Voetukum, Alalgg, Olirosor
+- Seeds: **62** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Vedda | Parakou | Lafia | Rijau | Kumasi
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Waxiang (i:201001)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Zhlobin, Vitebsk, Svetlogorsk, Slutsk, Slonim
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Waxiang | Tchibanga | Conakry | Parakou | Fatick
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## West Greenlandic Pidgin (i:201002)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Olaker, Diilotss, Gueda, Voonilk, Alisw
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: West Greenlandic Pidgin | Abovyan | Ashtarak | Khasavyurt | Ijevan
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Xieheyu (i:201003)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Aletukd, Dials, Seirosum, Voengg, Koolinor
+- Seeds: **61** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Xieheyu | Tchibanga | Conakry | Parakou | Fatick
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Beni Snous dialect (i:201004)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Abbotsford, Canada, Ontario, Quebec, Baie-Comeau
+- Seeds: **56** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Beni Snous | Tlemcen | Maghnia | Hammam Boughrana | Souahlia
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Ghadames (i:201005)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Ghadam%C3%A8s_language](https://en.wikipedia.org/wiki/Ghadam%C3%A8s_language)
-- Sample: Delta, Dieppe, New Brunswick, Drummondville, Duncan
+- Seeds: **27** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Ghadames | Derj | Sinawin | Nalut | Wazin
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Iznasen (i:201006)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Milton, Mimico, Mirabel, Miramichi, Mission
+- Seeds: **26** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Iznasen | Oujda | Berkane | Taourirt | Ahfir
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Kabyle (i:201007)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Kabyle_language](https://en.wikipedia.org/wiki/Kabyle_language)
-- Sample: Niagara-on-the-Lake, Norfolk County, North Battleford, North Bay, North Cowichan
+- Seeds: **33** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Kabyle | Tizi Ouzou | Bejaia | Bouira | Boumerdes
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Shawiya (i:201008)
 
-- Seeds: **12** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Seiora, Voemur, Koosisw, Oliro, Diunekll
+- Seeds: **30** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Shawiya | Batna | Khenchela | Oum El Bouaghi | Tazoult
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Shilha (i:201009)
 
-- Seeds: **12** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Shilha_language](https://en.wikipedia.org/wiki/Shilha_language)
-- Sample: Olalase, Seusal, Gueguww, Koaru, Alitonm
+- Seeds: **29** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Shilha | Agadir | Taroudant | Tiznit | Ouarzazate
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Siwi (i:201010)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Siwi_language](https://en.wikipedia.org/wiki/Siwi_language)
-- Sample: Seusea, Vookur, Koamanw, Oludo, Dierutll
+- Seeds: **28** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Siwi | Siwa | Shali | Aghurmi | Abou Shrouf
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## South Oran and Figuig Berber (i:201011)
 
-- Seeds: **17** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Seolinor, Voitis, Kougeri, Olorel, Diadagx
+- Seeds: **26** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Bechar | Kenadsa | Abadla | Figuig | Beni Ounif
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Tarifit (i:201012)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Tarifit](https://en.wikipedia.org/wiki/Tarifit)
-- Sample: Koalasgg, Olustt, Dieguis, Guarl, Voitonel
+- Seeds: **27** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Tarifit | Nador | Al Hoceima | Driouch | Midar
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Tidikelt (i:201013)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Mboueidz, Zhuephchiu, Spasla, Yoingoi, Phuedfriu
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Tidikelt | Timmimoun | Adrar | In Salah | Aoulef
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Tuareg Tamasheq (i:201014)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Tamasheq_language](https://en.wikipedia.org/wiki/Tamasheq_language)
-- Sample: Panorama Hills, Paradise, Penticton, Petawawa, Peterborough
+- Seeds: **45** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Timbuktu | Kidal | Gao | Agadez | Tamanrasset
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Tugurt (i:201015)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Repentigny, Richmond Hill, Riverview, Rock Forest, Rouge
+- Seeds: **27** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Tugurt | Touggourt | El Oued | Tebesbest | Nezla
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Tuwat (i:201016)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Saint John West, Saint-Lazare, Saint-Léonard, Saint-Lin-Laurentides, Saint-Louis-de-Terrebonne
+- Seeds: **27** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Tuwat | Adrar | Timmimoun | Reggane | Aoulef
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Western Algerian Zenatic dialects (i:201017)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: St. Catharines, Steeles, Steinbach, Stittsville, Stoney Creek
+- Seeds: **63** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Oran | Sidi Bel Abbes | Ain Temouchent | Mascara | Relizane
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Zurg (i:201018)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: The Beaches, Thorold, Thunder Bay, Tillsonburg, Timmins
+- Seeds: **72** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Tarfaya | Laayoune | Smara | Dakhla | Azrou
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Zuwara Berber (i:201019)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Victoriaville, Wasaga Beach, Waterdown, Welland, West End
+- Seeds: **25** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Zuwara | Zanzur | Sabratha | Sorman | Ajaylat
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Arapaho (i:201020)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Arapaho_language](https://en.wikipedia.org/wiki/Arapaho_language)
-- Sample: Yorkton, Halifax, St. John's, Beauport, Charlesbourg
+- Seeds: **54** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Arapaho | Cholula | Tibes | Alta Vista | Uxmal
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Coast Tsimshian (Sm’algya̱x) (i:201021)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/ISO_639:tsi](https://en.wikipedia.org/wiki/ISO_639:tsi)
-- Sample: Seitss, Guugeras, Koork, Aladagur, Oloky
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Coast Tsimshian (Sm’algya̱x) | Sacsayhuamán | Chan Chan | Jacana | Loja
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Cochimí (i:201022)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Cochim%C3%AD_language](https://en.wikipedia.org/wiki/Cochim%C3%AD_language)
-- Sample: Koisw, Alutetos, Diolll, Seasaril, Vounet
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Cochimí | Cholula | Tibes | Alta Vista | Uxmal
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Gwichʼin (i:201023)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Gwich%CA%BCin_language](https://en.wikipedia.org/wiki/Gwich%CA%BCin_language)
-- Sample: Guenurut, Koarr, Alikogom, Diesg, Seodimir
+- Seeds: **64** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Gwichʼin | Owerri | Sokoto | Aba | Parakou
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Hän (i:201024)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/H%C3%A4n_language](https://en.wikipedia.org/wiki/H%C3%A4n_language)
-- Sample: Steveston, Walnut Grove, Willoughby, Evanston, Moss Park
+- Seeds: **64** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Hän | Oyo | Gashua | Louga | Harper
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Métis French (i:201025)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Uakruakw, Ihautr, Uislqi, Twueiez, Ruukrgrii
+- Seeds: **64** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Métis French | Grodno | Brno | Mogilev | Évora
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Mi'kmaq (i:201026)
 
-- Seeds: **11** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Mi%27kmaq_language](https://en.wikipedia.org/wiki/Mi%27kmaq_language)
-- Sample: Guodimal, Koinus, Aluseu, Diokol, Seamany
+- Seeds: **55** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Mi'kmaq | Cholula | Tibes | Alta Vista | Uxmal
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Mohave (i:201027)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Mohave_language](https://en.wikipedia.org/wiki/Mohave_language)
-- Sample: Voikogu, Alesol, Olodimy, Seinin, Guusenn
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
-
-
-## Na-Dene (i:201028)
-
-- Seeds: **18** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Aludin, Olerutnn, Seatzz, Guiord, Koems
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Mohave | Tibes | Ixtlán del Río | Mitla | Valdivia
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Occaneechi (i:201029)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Occaneechi_language](https://en.wikipedia.org/wiki/Occaneechi_language)
-- Sample: Chuefruel, Voujwe, Kwueprueng, Iafrthoo, Uanguask
+- Seeds: **62** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Occaneechi | Bafatá | Yola | N'Djamena | Bolgatanga
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Southern Tepehuan (i:201030)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Tepehu%C3%A1n_language](https://en.wikipedia.org/wiki/Tepehu%C3%A1n_language)
-- Sample: Snuuxuufr, Uiznti, Zhuuphuuz, Ooroonk, Unkwua
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Southern Tepehuan | N'Djamena | Mubi | Bida | Koudougou
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Tanacross (i:201031)
 
-- Seeds: **11** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Tanacross_language](https://en.wikipedia.org/wiki/Tanacross_language)
-- Sample: Ololim, Guuner, Voenurss, Alaa, Olikogk
+- Seeds: **55** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Tanacross | Tula | Coquimbo | Paquimé | Quiotepec
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Tłįchǫ (i:201032)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: La Haute-Saint-Charles, Neufchâtel-Est–Lebourgneuf, Downtown Vancouver, Chinatown, Fallingbrook
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Tłįchǫ | Tibes | Ixtlán del Río | Mitla | Valdivia
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Ute (i:201033)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Ute_dialect](https://en.wikipedia.org/wiki/Ute_dialect)
-- Sample: Skueient, Iatsshoo, Zhophoz, Soueisn, Smuepuend
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Ute | Chapultepec | Pátzcuaro | Xochicalco | Coquimbo
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Wiyot (i:201034)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Wiyot_language](https://en.wikipedia.org/wiki/Wiyot_language)
-- Sample: Ookrookw, Ikwaund, Guunduugw, Aiwkhau, Frokhngui
+- Seeds: **64** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Wiyot | Xochimilco | Chuquisaca | Tingambato | Monte Albán
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Yurok (i:201035)
 
-- Seeds: **19** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Yurok_language](https://en.wikipedia.org/wiki/Yurok_language)
-- Sample: Voeguzz, Alarar, Olitons, Guomidgg, Koigtt
+- Seeds: **63** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Yurok | Xochimilco | Chuquisaca | Tingambato | Monte Albán
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Zuni (i:201036)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Zuni_language](https://en.wikipedia.org/wiki/Zuni_language)
-- Sample: Guour, Voalasw, Aluso, Olegull, Searxx
+- Seeds: **64** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Zuni | Tlatelolco | Ihuatzio | El Tajín | Xochicalco
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Alekano (i:201037)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Alorl, Oladagel, Seulat, Guesulan, Koakul
+- Seeds: **71** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Alekano | Levuka | Yap | Kone | Kiunga
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Aneme Wake (i:201038)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Dovercourt-Wallace Emerson-Junction, Edenbridge-Humber Valley, Newtonbrook East, Newtonbrook West, L'Amoreaux
+- Seeds: **53** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Aneme Wake | Lae | Tabiteuea | Tiga | Rabaul
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Ankave (i:201039)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Victoria Village, Wexford/Maryvale, Westminster-Branson, Willowdale East, Willowridge-Martingrove-Richview
+- Seeds: **64** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Ankave | Aba | Parakou | Tsévié | Fada N'Gourma
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Ari (i:201040)
 
-- Seeds: **19** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Searll, Guitonil, Koelet, Alomiden, Diigam
+- Seeds: **53** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Ari | Oyo | Gashua | Louga | Harper
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Asmat–Kamoro (i:201041)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Diemol, Seosisy, Voirin, Kouneknn, Olozz
+- Seeds: **60** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Asmat–Kamoro | Labasa | Trobriand | Ngerulmud | Denigomodu
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Atayal (i:201042)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Atayal_language](https://en.wikipedia.org/wiki/Atayal_language)
-- Sample: Jueflriu, Aidbrau, Aufrim, Uatwuafl, Uijsi
+- Seeds: **55** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Atayal | Nibok | Kokoda | Noumea | Kimbe
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Atohwaim (Kaugat) (i:201043)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Guuldd, Voesuler, Alakas, Olilota, Seedur
+- Seeds: **62** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Atohwaim (Kaugat) | N'Djamena | Mubi | Bida | Koudougou
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Australian Kriol (i:201044)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Xeezee, Itsaut, Oosoov, Aukrikw, Aigwtsau
+- Seeds: **64** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Australian Kriol | Rabaul | Uaboe | Sogeri | Kone
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Auye (i:201045)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Statwa, Uizhsli, Nkoikwoi, Unfrua, Chuufruul
+- Seeds: **52** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Auye | Kaolack | Rijau | Bolgatanga | Louga
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Becking–Dawi (i:201046)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: High Park-Swansea, Kingsview Village-The Westway, L'Île-Bizard–Sainte-Geneviève, Ville-Émard, Snowdon
+- Seeds: **62** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Becking–Dawi | Saminaka | Diffa | Bafatá | Yola
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Budai-Labuan-Taromak Rukai (i:201047)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Victoria-Downtown, Carey, Lougheed, Harewood, Central Lonsdale
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Budai-Labuan-Taromak Rukai | Vanimo | Palau | Kairuku | Ouvea
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Cèmuhî (i:201048)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Hobinum, Neiktenir, Yiisui, Hiilukda, Woyen
+- Seeds: **64** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Cèmuhî | Aba | Parakou | Tsévié | Fada N'Gourma
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Cheke Holo (i:201049)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Bogenda, Kibeningo, Wukun, Tuedmu, Beeslunpi
+- Seeds: **64** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Cheke Holo | Lae | Tabiteuea | Tiga | Rabaul
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Ese Ömie (i:201050)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Alaka, Olilotk, Seedw, Guonilos, Koisll
+- Seeds: **64** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Ese Ömie | Owerri | Sokoto | Aba | Parakou
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Hagen (i:201051)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Montréal-Nord, Pierrefonds-Roxboro, Rivière-des-Prairies–Pointe-aux-Trembles, Rosemont–La Petite-Patrie, Villeray–Saint-Michel–Parc-Extension
+- Seeds: **52** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Hagen | Ba | Buna | Pohnpei | Lae
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Hoanya (i:201052)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Seutetd, Vools, Koasarum, Olungg, Dienuror
+- Seeds: **55** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Hoanya | Nibok | Kokoda | Noumea | Kimbe
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Hoia Hoia (i:201053)
 
-- Seeds: **10** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Seumut, Guetukun, Koalom, Aliros, Dienir
+- Seeds: **63** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Hoia Hoia | Yola | Aplahoué | Bissau | Aba
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Isbukun Bunun (i:201054)
 
-- Seeds: **21** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Dewdney East, Fredericton Northside, Clayton Park West, West Island, Yangambi
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Isbukun Bunun | Wewak | Kavieng | Misima | Lorengau
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Javanese macro entry (i:201055)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Ugenwu, Bobenin, Sukun, Paedal, Tueslunor
+- Seeds: **131** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Javanese macro entry | Derbent | Abovyan | Khashuri | Tskhinvali
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Kaera (i:201056)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Voonilll, Alisxx, Olutetet, Seoln, Guasaram
+- Seeds: **52** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Kaera | Parakou | Lafia | Rijau | Kumasi
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Kafoa (i:201057)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Mweka, Mulongo, Mangbwalu, Baudhuinville, Miabi
+- Seeds: **51** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Kafoa | Parakou | Lafia | Rijau | Kumasi
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Kaguel (i:201058)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Kirumba, Kipamba, Kindu, Maniema, Kayna
+- Seeds: **63** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Kaguel | Aba | Parakou | Tsévié | Fada N'Gourma
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Kainantu (i:201059)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Phuuduudz, Uachuash, Facha, Ooboob, Cueiep
+- Seeds: **74** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Kainantu | Navua | Kairuku | Nibok | Tabubil
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Kalamian (i:201060)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Basenosbu, Luran, Numenla, Tikensanmo, Aod
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Kalamian | Navua | Kairuku | Nibok | Tabubil
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Kanakanavu (i:201061)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Kanakanavu_language](https://en.wikipedia.org/wiki/Kanakanavu_language)
-- Sample: Voolem, Koasarzz, Olunar, Dienurs, Voikoggg
+- Seeds: **64** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Kanakanavu | Bafatá | Yola | N'Djamena | Bolgatanga
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Kawacha (i:201062)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Guusut, Voeguun, Alarom, Seelir, Guomidt
+- Seeds: **59** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Kawacha | Tchibanga | Conakry | Parakou | Fatick
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Kayagar (Kaygir) (i:201063)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Nkuuaaq, Ziodzio, Sluetrswiu, Uinttwi, Smoipoi
+- Seeds: **64** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Kayagar (Kaygir) | Bissau | Bida | Minna | Nnewi
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Ke’yagana (i:201064)
 
-- Seeds: **17** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Alolx, Olasarat, Seunmm, Guenurul, Koaot
+- Seeds: **73** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Ke’yagana | Ebeye | Mare | Nibok | Airai
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Ketagalan (i:201065)
 
-- Seeds: **11** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Luilang_language](https://en.wikipedia.org/wiki/Luilang_language)
-- Sample: Voalos, Koiroso, Olenil, Diolinxx, Guiten
+- Seeds: **53** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Ketagalan | Ebeye | Mare | Nibok | Airai
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Kilivila (i:201066)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Kudoni, Piongagam, Netin, Buotes, Koorwinut
+- Seeds: **53** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Kilivila | Navua | Kairuku | Nibok | Tabubil
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Kimaama (Kimaghama) (i:201067)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Goma, Gbadolite, Nord-Ubangi, Gandajika, Djugu
+- Seeds: **64** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Kimaama (Kimaghama) | Alotau | Kwajalein | Lae | Tiga
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Kombai–Wanggom (i:201068)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Aru, Aketi, Lualaba, Mokambo, Malemba
+- Seeds: **64** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Kombai–Wanggom | Yuen Long | Niigata | Haeju | Ölgii
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Kowiai (i:201069)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Oigin, Toitomal, Guman, Kaimet, Nuaunanau
+- Seeds: **61** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Kowiai | Aba | Parakou | Tsévié | Fada N'Gourma
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Kulon (i:201070)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Kulon_language](https://en.wikipedia.org/wiki/Kulon_language)
-- Sample: Olindd, Diuseer, Guokas, Voamana, Aludur
+- Seeds: **54** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Kulon | Ba | Buna | Pohnpei | Lae
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Kunimaipa (i:201071)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Seoas, Gualasa, Kousur, Aleguw, Diaro
+- Seeds: **54** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Kunimaipa | Ebeye | Mare | Nibok | Airai
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Lowland Iwur (i:201072)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Koudem, Alerutzz, Diatar, Seiors, Koosisgg
+- Seeds: **76** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Lowland Iwur | Saminaka | Diffa | Bafatá | Yola
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Madurese macro entry (i:201073)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Monendundo, Tuau, Wugenlu, Gubeninni, Mekun
+- Seeds: **63** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Madurese macro entry | Aileu | Dien Bien Phu | Narathiwat | Nam Dinh
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Maga-Tona Rukai (i:201074)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Stoueix, Houod, Stoutwxe, Xozokh, Stotwod
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Maga-Tona Rukai | Uaboe | Sigatoka | Kokoda | Kosrae
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Mailu (i:201075)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Voiorm, Alemy, Olosisit, Seirnn, Guunekem
+- Seeds: **54** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Mailu | Ba | Buna | Pohnpei | Lae
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Maiwa (i:201076)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Aismprau, Zouol, Uspmbua, Aibrhau, Fluuaakr
+- Seeds: **51** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Maiwa | Parakou | Lafia | Rijau | Kumasi
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Makalero (i:201077)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Seagg, Guikogor, Koesis, Alodimi, Diinel
+- Seeds: **54** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Makalero | Navua | Kairuku | Nibok | Tabubil
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Makasae (i:201078)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Alenure, Diaal, Seikogww, Voesu, Koodimm
+- Seeds: **106** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Makasae | Levuka | Yap | Kone | Kiunga
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Makassar (i:201079)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Nausekur, Ewon, Yeunou, Heooyondi, Teben
+- Seeds: **50** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Makassar | Soc Trang | Rayong | Serang | Pattaya
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Makayam (i:201080)
 
-- Seeds: **14** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Diedww, Seonilus, Voism, Koutetol, Ololit
+- Seeds: **55** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Makayam | Tchibanga | Conakry | Parakou | Fatick
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Mandobo (i:201081)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Matadi, Masi-Manimba, Libenge, Kutu, Kinshasa
+- Seeds: **51** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Mandobo | Levuka | Yap | Kone | Kiunga
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Mantauran Rukai (i:201082)
 
-- Seeds: **11** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Guomidil, Koiget, Alurelen, Diotam, Seanatz
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Mantauran Rukai | Uaboe | Sigatoka | Kokoda | Kosrae
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Māori (i:201083)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/M%C4%81ori_language](https://en.wikipedia.org/wiki/M%C4%81ori_language)
-- Sample: Bandundu Province, Masina, Hyosha, Mwene, Kituku
+- Seeds: **50** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Māori | Parakou | Lafia | Rijau | Kumasi
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Mapena (i:201084)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Mbaïki, Kouango, Kaga-Bandoro, Kabo, Dekoa
+- Seeds: **50** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Mapena | Aba | Parakou | Tsévié | Fada N'Gourma
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Maria (i:201085)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Uanduamb, Uigngi, Pueshuegr, Uibbi, Thouon
+- Seeds: **55** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Maria | Parakou | Lafia | Rijau | Kumasi
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Marind (i:201086)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Iagrkwoo, Nkuekwqiu, Iavdoo, Quempzhiu, Uistgwi
+- Seeds: **54** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Marind | Nibok | Kokoda | Noumea | Kimbe
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Maring (i:201087)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Shueiegw, Iaphtroo, Cuekpiu, Truubruusp, Tsuuyuuh
+- Seeds: **55** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Maring | Visakhapatnam | Rishikesh | Lucknow | Jhang
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Melanesian Pidgin (i:201088)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Pointe-Noire, Owando, Ouesso, Mossendjo, Mossaka
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Melanesian Pidgin | Vanimo | Navua | Majuro | Ouvea
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Menya (i:201089)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Oyo, Nkayi, Zürich, Switzerland, Zug
+- Seeds: **54** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Menya | Parakou | Lafia | Rijau | Kumasi
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Mian (i:201090)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Schwyz, Schaffhausen, Sankt Gallen, Renens, Rapperswil
+- Seeds: **69** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Mian | Kaolack | Rijau | Bolgatanga | Louga
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Moikodi (i:201091)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Lugano, Locarno, Littau, La Chaux-de-Fonds, Kriens
+- Seeds: **51** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Moikodi | Tchibanga | Conakry | Parakou | Fatick
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Mombum (i:201092)
 
-- Seeds: **12** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Alirosu, Dienol, Seoliny, Voitin, Kougernn
+- Seeds: **53** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Mombum | Nibok | Kokoda | Noumea | Kimbe
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Momina (i:201093)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Chur, Cham, Carouge, Burgdorf, Bulle
+- Seeds: **55** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Momina | Ölgii | Pohang | Thetford Mines | Changwon
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Momuna (i:201094)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Yongtwui, Iasnjoo, Qompotw, Bouboub, Skuugntii
+- Seeds: **55** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Momuna | Nibok | Kokoda | Noumea | Kimbe
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Moni (i:201095)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Zürich (Kreis 9) / Albisrieden, Zürich (Kreis 9) / Altstetten, Stadt Winterthur (Kreis 1), Zürich (Kreis 12), Seen (Kreis 3)
+- Seeds: **55** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Moni | Kaolack | Rijau | Bolgatanga | Louga
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Moraori (i:201096)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Zaïbo, Zagné, Yamoussoukro, Yabayo, Vavoua
+- Seeds: **54** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Moraori | Levuka | Yap | Kone | Kiunga
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Morawa (i:201097)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Olulum, Guakor, Voilottt, Aledi, Olonill
+- Seeds: **55** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Morawa | Nibok | Kokoda | Noumea | Kimbe
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Morigi (i:201098)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Pélézi, Oupoyo, Ouangolodougou, Okrouyo, Okromodou
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Morigi | Nibok | Kokoda | Noumea | Kimbe
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Mountain (i:201099)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Wueiend, Ntuuspuuj, Swouom, Mbioqio, Smueiebr
+- Seeds: **75** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Mountain | Owerri | Sokoto | Aba | Parakou
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Mountain Koiari (i:201100)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Lofdrui, Uabruaph, Stueiex, Zadza, Troueith
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Mountain Koiari | Bida | Koudougou | Tema | Kara
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Mubami (i:201101)
 
-- Seeds: **19** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Alenum, Seitor, Guugertt, Koori, Aladagl
+- Seeds: **62** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Mubami | Aba | Parakou | Tsévié | Fada N'Gourma
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Mulaha (i:201102)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Ustgwua, Ufrthua, Shouogw, Aijsau, Ainfrau
+- Seeds: **53** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Mulaha | Aba | Parakou | Tsévié | Fada N'Gourma
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Muna (i:201103)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Toor, Vowenka, Dosenoslo, Maran, Pumenpu
+- Seeds: **53** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Muna | Savusavu | Kimbe | Lorengau | Abaiang
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Muyu (i:201104)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Guusek, Kookw, Alamanos, Diudll, Seerutil
+- Seeds: **67** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Muyu | Savusavu | Kimbe | Lorengau | Abaiang
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Nakai (i:201105)
 
-- Seeds: **19** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Guitis, Vougeri, Alorel, Oladagx, Seulan
+- Seeds: **72** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Nakai | Parakou | Lafia | Rijau | Kumasi
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Namiae (i:201106)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Dasa, Mbuuaadz, Huedrdiu, Tuugwuutr, Qompzhui
+- Seeds: **62** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Namiae | Aba | Parakou | Tsévié | Fada N'Gourma
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Namumi (i:201107)
 
-- Seeds: **19** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Aledgg, Olonilor, Seisis, Guuteti, Koolel
+- Seeds: **52** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Namumi | Aba | Parakou | Tsévié | Fada N'Gourma
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Narak (i:201108)
 
-- Seeds: **16** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Diakas, Seilota, Voedur, Koonilw, Oliso
+- Seeds: **55** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Narak | Parakou | Lafia | Rijau | Kumasi
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Narom (i:201109)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Iben, Tatonol, Yorondenes, Waoo, Nelonbe
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Narom | Keetmanshoop | N'dalatando | Bloemfontein | Katima Mulilo
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Nawaru (i:201110)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Duuaakh, Jueier, Xueiepr, Gwueiefl, Auprigr
+- Seeds: **52** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Nawaru | Aba | Parakou | Tsévié | Fada N'Gourma
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Ndom (i:201111)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Mahapleu, Maféré, Mabéhiri, Luénoufla, Logoualé
+- Seeds: **50** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Ndom | Kaolack | Rijau | Bolgatanga | Louga
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Nduga (i:201112)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Olorem, Diadagzz, Guular, Voesuls, Olilotgg
+- Seeds: **51** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Nduga | Ba | Buna | Pohnpei | Lae
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Nedebang (i:201113)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Frokhof, Cheefree, Ikaul, Trobrthui, Kweepree
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Nedebang | Owerri | Sokoto | Aba | Parakou
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Nemi (i:201114)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Niar, Gaoar, Luwonasos, Dupin, Waponbo
+- Seeds: **64** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Nemi | Kaolack | Rijau | Bolgatanga | Louga
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## New Zealand Pidgin English (i:201115)
 
-- Seeds: **12** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Guiorul, Koemot, Alosison, Diirim, Seunek
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: New Zealand Pidgin English | Putao | Poipet | Bacolod | Battambang
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Ngalum (i:201116)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Ciam, Olutetas, Seolk, Guasarur, Kounos
+- Seeds: **55** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Ngalum | Nibok | Kokoda | Noumea | Kimbe
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Ngatikese Creole (i:201117)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Khosnnkui, Twombzui, Mpuuhuumb, Mionio, Dzoueif
+- Seeds: **63** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Ngatikese Creole | Virgin Gorda | Charlestown | Marsh Harbour | Anegada
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Nggem (i:201118)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Guézon, Guéyo, Guéssabo, Guépaouo, Grand-Lahou
+- Seeds: **52** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Nggem | Parakou | Lafia | Rijau | Kumasi
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Nii (i:201119)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Koiner, Alusess, Dioka, Seamank, Alumin
+- Seeds: **64** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Nii | Oyo | Gashua | Louga | Harper
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Ninggerum (i:201120)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Searis, Guitoni, Koelel, Alomidx, Diigan
+- Seeds: **76** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Ninggerum | Yola | Aplahoué | Bissau | Aba
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Nomane (i:201121)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Dignago, Dimbokro, Dikodougou, Diégonéfla, Diawala
+- Seeds: **54** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Nomane | Aba | Parakou | Tsévié | Fada N'Gourma
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Northern and Central Bunun (i:201122)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Guesulk, Koakw, Alilotos, Diedll, Seonilil
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Northern and Central Bunun | Vanimo | Palau | Kairuku | Ouvea
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Nuaulu (i:201123)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Retonet, Vurondenau, Lioo, Lilongu, Ragonouli
+- Seeds: **61** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Nuaulu | Aba | Parakou | Tsévié | Fada N'Gourma
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Odoodee (i:201124)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Boboniessoko, Bloléquin, Bingerville, Biéby, Bianouan
+- Seeds: **53** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Odoodee | Tchibanga | Conakry | Parakou | Fatick
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Oirata (i:201125)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Koakem, Alilotzz, Diedar, Seonils, Koutetgg
+- Seeds: **55** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Oirata | Nibok | Kokoda | Noumea | Kimbe
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Ok–Oksapmin (i:201126)
 
-- Seeds: **17** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Udrpua, Droutsse, Istauj, Xiozio, Uthphua
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Ok–Oksapmin | Nagasaki | Miaoli | Rason | Taitung
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Oksapmin (i:201127)
 
-- Seeds: **19** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Guurelus, Kootm, Alanatol, Diumit, Seetukin
+- Seeds: **76** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Oksapmin | Ölgii | Kawasaki | Kaifeng | Kanazawa
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Omati (i:201128)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Koisur, Alutetw, Diolo, Seasarll, Vounxx
+- Seeds: **54** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Omati | Parakou | Lafia | Rijau | Kumasi
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Onjob (i:201129)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Poueit, Juufluuth, Iabboo, Steetwee, Iasmproo
+- Seeds: **54** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Onjob | Parakou | Lafia | Rijau | Kumasi
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Onobasulu (i:201130)
 
-- Seeds: **13** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Diiordd, Guemss, Voosisas, Alirk, Olunekur
+- Seeds: **53** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Onobasulu | Yola | Aplahoué | Bissau | Aba
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Ontenu (i:201131)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Aledon, Olonilr, Seis, Guutetdd, Koolss
+- Seeds: **69** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Ontenu | Aba | Parakou | Tsévié | Fada N'Gourma
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Orokaiva (i:201132)
 
-- Seeds: **16** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Iachswoo, Ooshoodr, Ianfroo, Chueiey, Togwjui
+- Seeds: **53** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Orokaiva | Navua | Kairuku | Nibok | Tabubil
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Oweina (i:201133)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Akoupé, Agnibilékrou, Agboville, Adzopé, Adiaké
+- Seeds: **64** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Oweina | Aba | Parakou | Tsévié | Fada N'Gourma
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Pa (i:201134)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Voorul, Koadagyy, Olulon, Diesulr, Voilotdd
+- Seeds: **62** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Pa | Gashua | Yaoundé | Yendi | Dapaong
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Paiwan (i:201135)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Yanendunom, Loau, Mogenus, Sebeninoi, Yukun
+- Seeds: **61** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Paiwan | Aba | Parakou | Tsévié | Fada N'Gourma
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Paniai Lakes (i:201136)
 
-- Seeds: **13** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Guedll, Voonilil, Aliset, Oluteten, Seolam
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Paniai Lakes | Naftalan | Tskhinvali | Khachmaz | Gagra
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Papora (i:201137)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Aleguum, Diargg, Seitonor, Voelis, Koomidi
+- Seeds: **55** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Papora | Nibok | Kokoda | Noumea | Kimbe
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Papora-Hoanya (i:201138)
 
-- Seeds: **12** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Papora%E2%80%93Hoanya_language](https://en.wikipedia.org/wiki/Papora%E2%80%93Hoanya_language)
-- Sample: Prolhui, Duusuuzh, Drotssui, Iaskyoo, Thovnui
+- Seeds: **64** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Papora-Hoanya | Wewak | Kavieng | Misima | Lorengau
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Papuan Tip (i:201139)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Niyenesu, Nabun, Yoren, Honendunan, Deau
+- Seeds: **60** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Papuan Tip | Lae | Tabiteuea | Tiga | Rabaul
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Pazeh (i:201140)
 
-- Seeds: **17** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Pazeh_language](https://en.wikipedia.org/wiki/Pazeh_language)
-- Sample: Olesur, Diodimw, Guino, Vousell, Alokxx
+- Seeds: **54** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Pazeh | Ba | Buna | Pohnpei | Lae
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Pisa (i:201141)
 
-- Seeds: **12** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Wuuruum, Snouxoufr, Mbaqa, Khuesnnkiu, Sliotrio
+- Seeds: **51** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Pisa | Kaolack | Rijau | Bolgatanga | Louga
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Pitcairn-Norfolk (i:201142)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Bonon, Grand-Zattry, Loboville, Nzianouan, Méagui
+- Seeds: **63** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Pitcairn-Norfolk | Bissau | Bida | Minna | Nnewi
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Pitkern (i:201143)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Pitkern](https://en.wikipedia.org/wiki/Pitkern)
-- Sample: Gagny, Gbolouville, Vrouo, Bognonzra, Flakièdougou
+- Seeds: **64** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Pitkern | Levuka | Yap | Kone | Kiunga
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Pogaya (i:201144)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Tiltil, Santiago Metropolitan, Teodoro Schmidt, Temuco, Talcahuano
+- Seeds: **52** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Pogaya | Aba | Parakou | Tsévié | Fada N'Gourma
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Puyuma (i:201145)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Oegogre, Yiwan, Baerwi, Kaemyan, Puong
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Puyuma | Nibok | Kokoda | Noumea | Kimbe
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Rapa Nui (i:201146)
 
-- Seeds: **11** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Rapa_Nui_language](https://en.wikipedia.org/wiki/Rapa_Nui_language)
-- Sample: Alenural, Diaus, Seikogu, Voesol, Koodimy
+- Seeds: **64** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Rapa Nui | Navua | Kairuku | Nibok | Tabubil
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Retta (i:201147)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Rancagua, Quintero, Quilpué, Quillota, Quillón
+- Seeds: **51** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Retta | Parakou | Lafia | Rijau | Kumasi
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Riantana (i:201148)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Eunkuegm, Uachampoug, Khauveun, Gloesmgmao, Ooprzmio
+- Seeds: **53** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Riantana | Owerri | Sokoto | Aba | Parakou
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Rotokas (i:201149)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Rotokas_language](https://en.wikipedia.org/wiki/Rotokas_language)
-- Sample: Peñalolén, Peñaflor, Parral, Paine, Paillaco
+- Seeds: **64** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Rotokas | Tchibanga | Conakry | Parakou | Fatick
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Rukai (i:201150)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Maigno, Roitomre, Niman, Gaimwi, Luaunan
+- Seeds: **69** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Rukai | Ba | Buna | Pohnpei | Lae
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Rumu (i:201151)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Los Andes, Los Álamos, Longaví, Loncoche, Llanquihue
+- Seeds: **55** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Rumu | Kaolack | Rijau | Bolgatanga | Louga
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Rusenu (i:201152)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: El Monte, Curicó, Curanilahue, Cunco, Coronel
+- Seeds: **52** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Rusenu | Aba | Parakou | Tsévié | Fada N'Gourma
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Saaroa (i:201153)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Eezlsnou, Dmoangfuu, Zhuuen, Pmuisnoonk, Beubuebii
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Saaroa | Nibok | Kokoda | Noumea | Kimbe
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Sabakor (i:201154)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Casablanca, Cartagena, Cañete, Caldera, Calbuco
+- Seeds: **54** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Sabakor | Levuka | Yap | Kone | Kiunga
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Safeyoka (i:201155)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Kweuquefl, Pmiosnou, Aklathac, Xiaauzl, Oufakl
+- Seeds: **64** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Safeyoka | Owerri | Sokoto | Aba | Parakou
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Saisiyat (i:201156)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Saisiyat_language](https://en.wikipedia.org/wiki/Saisiyat_language)
-- Sample: Koelen, Alomidn, Diigz, Seurelut, Vootrr
+- Seeds: **54** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Saisiyat | Navua | Kairuku | Nibok | Tabubil
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Sakizaya (i:201157)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Sakizaya_language](https://en.wikipedia.org/wiki/Sakizaya_language)
-- Sample: Muidme, Jaeuepm, Uenguenkuut, Ienkauxeim, Luoglyio
+- Seeds: **63** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Sakizaya | Aswan | Maridi | Asmara | Nyeri
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Salt-Yui (i:201158)
 
-- Seeds: **18** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Diinyy, Seuseot, Vookr, Koamanim, Oluddd
+- Seeds: **51** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Salt-Yui | Owerri | Sokoto | Aba | Parakou
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Samberigi (i:201159)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Cameroon, East, Yaoundé, Yagoua, Wum
+- Seeds: **50** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Samberigi | Yola | Aplahoué | Bissau | Aba
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Samo (i:201160)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Voodimum, Alingg, Oluseor, Seokis, Guamani
+- Seeds: **52** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Samo | Kaolack | Rijau | Bolgatanga | Louga
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Sawi (i:201161)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Okoa, Obala, Nkoteng, Nkongsamba, Nkambe
+- Seeds: **51** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Sawi | Kaolack | Rijau | Bolgatanga | Louga
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Saʼban (i:201162)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Viiktenet, Laisde, Poilukgu, Royen, Daeena
+- Seeds: **63** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Saʼban | Aba | Parakou | Tsévié | Fada N'Gourma
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Seediq (i:201163)
 
-- Seeds: **18** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Seediq_language](https://en.wikipedia.org/wiki/Seediq_language)
-- Sample: Diitone, Guelal, Voomidww, Aligu, Olurelm
+- Seeds: **55** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Seediq | Nibok | Kokoda | Noumea | Kimbe
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Sempan (i:201164)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Mamfe, Magba, Maga, Loum, Limbe
+- Seeds: **51** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Sempan | Aba | Parakou | Tsévié | Fada N'Gourma
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Setaman (i:201165)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Ekondo Titi, Edéa, Ébolowa, Dschang, Douala
+- Seeds: **60** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Setaman | Tchibanga | Conakry | Parakou | Fatick
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Shiaxa (i:201166)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Alurelon, Diotim, Voumer, Koetukss, Olala
+- Seeds: **51** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Shiaxa | Aba | Parakou | Tsévié | Fada N'Gourma
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Siane (i:201167)
 
-- Seeds: **17** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Voolll, Koasaril, Olunet, Dienuren, Guaam
+- Seeds: **54** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Siane | Ba | Buna | Pohnpei | Lae
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Silimo (i:201168)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Ambam, Akonolinga, Abong Mbang, Ngaoundal, Blangwa
+- Seeds: **51** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Silimo | Aba | Parakou | Tsévié | Fada N'Gourma
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Simbari (i:201169)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Oukliidiosm, Uosnsloo, Cluotsea, Yugmobrei, Ruekhiamp
+- Seeds: **62** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Simbari | Tchibanga | Conakry | Parakou | Fatick
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Sinasina (i:201170)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Klocleikw, Shueaukl, Glousmgmee, Uaqauchoust, Oechacl
+- Seeds: **54** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Sinasina | Navua | Kairuku | Nibok | Tabubil
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Singlish (i:201171)
 
-- Seeds: **14** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Alirxx, Oluneket, Gualasam, Kousut, Aleguun
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Singlish | Soc Trang | Rayong | Serang | Pattaya
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Somahai (i:201172)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Alenit, Ololinin, Seitem, Guugerzz, Koorar
+- Seeds: **54** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Somahai | Tchibanga | Conakry | Parakou | Fatick
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Some (i:201173)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Gar, Shigu, Shangyun, Shangpa, Shache
+- Seeds: **52** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Some | Kaolack | Rijau | Bolgatanga | Louga
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Sonia (i:201174)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Atamapr, Qutdmoa, Tweuiivm, Kwiaqoifluu, Staipraots
+- Seeds: **52** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Sonia | Parakou | Lafia | Rijau | Kumasi
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Sonsorolese (i:201175)
 
-- Seeds: **13** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Sonsorolese_language](https://en.wikipedia.org/wiki/Sonsorolese_language)
-- Sample: Guato, Voiorll, Alemxx, Dienar, Seolins
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Sonsorolese | Mount Hagen | Nadi | Tabiteuea | Kimbe
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Squliq Atayal (i:201176)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Eojaukh, Dreukrue, Eemchou, Mbuoweadi, Ntoakmuimb
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Squliq Atayal | Wewak | Kavieng | Misima | Lorengau
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Suena (i:201177)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Qiutuoxea, Moedmaasn, Aoclagraik, Qaadm, Truieukw
+- Seeds: **50** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Suena | Parakou | Lafia | Rijau | Kumasi
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Suganga (i:201178)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Uisheukm, Iupmvui, Chumopm, Bmuirtwiu, Uecldzue
+- Seeds: **76** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Suganga | Tchibanga | Conakry | Parakou | Fatick
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Suki (i:201179)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Qinghai, Lop, Longshan, Liuku, Lhasa
+- Seeds: **54** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Suki | Kaolack | Rijau | Bolgatanga | Louga
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Susuami (i:201180)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Uopmvoo, Oadmdlu, Treestui, Khouvuan, Gmiadzoig
+- Seeds: **61** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Susuami | Tchibanga | Conakry | Parakou | Fatick
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Tainae (i:201181)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Voetukan, Alalul, Olirosyy, Seenon, Guolinr
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Tainae | Aba | Parakou | Tsévié | Fada N'Gourma
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Tairoa (i:201182)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Yushu, Gudong, Elixku, Dêqên, Dagzê
+- Seeds: **73** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Tairoa | Aba | Parakou | Tsévié | Fada N'Gourma
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Tairora (i:201183)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Duoskhio, Aotrabraisl, Truostea, Uekliith, Luiiiy
+- Seeds: **55** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Tairora | Tchibanga | Conakry | Parakou | Fatick
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Tamagario (i:201184)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Voumdd, Koetuker, Diirosa, Voolinw, Alito
+- Seeds: **54** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Tamagario | Ebeye | Mare | Nibok | Airai
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Tangko (i:201185)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Diugerer, Guoras, Voadaga, Alulur, Olesulw
+- Seeds: **63** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Tangko | Aba | Parakou | Tsévié | Fada N'Gourma
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Taokas (i:201186)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Karamay, Ghulja, Hami, Dunhuang, Jiangsu
+- Seeds: **55** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Taokas | Nibok | Kokoda | Noumea | Kimbe
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Tauade (i:201187)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Kiaswoikh, Bruegzho, Ieclaugr, Uefliicmeul, Iprauheas
+- Seeds: **55** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Tauade | Nibok | Kokoda | Noumea | Kimbe
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Teiwa (i:201188)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Voerutet, Alatn, Olioram, Seemut, Guosisun
+- Seeds: **52** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Teiwa | Parakou | Lafia | Rijau | Kumasi
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Telefol (i:201189)
 
-- Seeds: **13** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Guigem, Vourelzz, Alotar, Olanats, Guetukgg
+- Seeds: **60** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Telefol | Tchibanga | Conakry | Parakou | Fatick
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Tembagla (i:201190)
 
-- Seeds: **16** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Voelem, Koomidzz, Oligar, Diurels, Voanatgg
+- Seeds: **62** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Tembagla | Owerri | Sokoto | Aba | Parakou
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Thao (i:201191)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Ujeukh, Oupmiipliogw, Groigwuuvm, Deuskheu, Kmuifruiwoo
+- Seeds: **55** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Thao | Padang Panjang | Sakon Nakhon | Ternate | Udon Thani
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Tifal (i:201192)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Zhenxi, Zhenjiang, Zhengzhou, Hebei, Shanxi
+- Seeds: **72** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Tifal | Ba | Buna | Pohnpei | Lae
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Timor–Alor–Pantar (i:201193)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Meedmuisn, Dmiangoizluu, Uocluesiubl, Flioxsnoo, Snouzlstee
+- Seeds: **63** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Timor–Alor–Pantar | Vanimo | Navua | Majuro | Ouvea
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Tirio (Lower Fly) (i:201194)
 
-- Seeds: **15** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Voesulo, Alakil, Olilotxx, Seeden, Guoniln
+- Seeds: **61** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Tirio (Lower Fly) | N'Djamena | Mubi | Bida | Koudougou
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Tobian (i:201195)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Tobian_language](https://en.wikipedia.org/wiki/Tobian_language)
-- Sample: Ngoieuch, Pmoosneenk, Iotuembaecm, Ngoukwuajae, Fuuchuepria
+- Seeds: **64** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Tobian | Aba | Parakou | Tsévié | Fada N'Gourma
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Tokano (i:201196)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Guangxi, Yuexi, Yuanyang, Heyuan, Yongchuan
+- Seeds: **57** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Tokano | Nibok | Kokoda | Noumea | Kimbe
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Torres Strait Creole (i:201197)
 
-- Seeds: **10** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Voeson, Koodimr, Diusedd, Guokss, Voamanas
+- Seeds: **64** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Torres Strait Creole | Five Cays | Sandy Ground | Governor's Harbour | Soufrière
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Ts'ole' Atayal (i:201198)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Xinyang, Xining, Xingren, Xindian, Xinyi
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Ts'ole' Atayal | Goroka | Ba | Kavieng | Manus
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Tsaukambo (i:201199)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Changde, Wuhan, Wuhai, Inner Mongolia, Wenzhou
+- Seeds: **54** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Tsaukambo | Yola | Aplahoué | Bissau | Aba
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Tsou (i:201200)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Tsou_language](https://en.wikipedia.org/wiki/Tsou_language)
-- Sample: Suizhou, Suixi, Suining, Songjiang, Sishui
+- Seeds: **64** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Tsou | Savusavu | Kimbe | Lorengau | Abaiang
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Turaka (i:201201)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Oejast, Kwuuuem, Ruakhhaa, Snuzlof, Staiprao
+- Seeds: **55** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Turaka | Aba | Parakou | Tsévié | Fada N'Gourma
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Turama-Kikorian (i:201202)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Olemm, Diosisol, Guirit, Vounekin, Aloem
+- Seeds: **63** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Turama-Kikorian | Bida | Koudougou | Tema | Kara
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Uab Meto (i:201203)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Alulgg, Olesulor, Seakis, Guiloti, Koedel
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Uab Meto | Owerri | Sokoto | Aba | Parakou
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Uare (i:201204)
 
-- Seeds: **13** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Aleln, Olomidam, Seigut, Guurelun, Kootom
+- Seeds: **55** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Uare | Kaolack | Rijau | Bolgatanga | Louga
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Umanakaina (i:201205)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Eaxiisluon, Iomspuo, Gmoodzee, Ntaekmiombou, Mbiowkoo
+- Seeds: **54** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Umanakaina | Bafatá | Yola | N'Djamena | Bolgatanga
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Urapmin (i:201206)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Cmoezaa, Smaabloevl, Oujzlea, Zhiispaucmeu, Zuidrue
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Urapmin | Kanggye | Keelung | Kaifeng | Dongguan
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Usarufa (i:201207)
 
-- Seeds: **17** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Alorit, Oladagin, Seulem, Guesulzz, Koakar
+- Seeds: **55** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Usarufa | Tchibanga | Conakry | Parakou | Fatick
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Vaeakau-Taumako (i:201208)
 
-- Seeds: **18** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Koonilur, Olisos, Diuteto, Guolil, Voasarxx
+- Seeds: **63** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Vaeakau-Taumako | Bida | Koudougou | Tema | Kara
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Waboda (i:201209)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Sanming, Sanjiang, Sanhui, Sanhe, Changsha
+- Seeds: **52** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Waboda | Aba | Parakou | Tsévié | Fada N'Gourma
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Waffa (i:201210)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Pingxiang, Pingshan, Pingliang, Panlong, Pan’an
+- Seeds: **54** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Waffa | Parakou | Lafia | Rijau | Kumasi
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Wahgi (i:201211)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Chimshua, Kluacloukw, Aenkeugm, Klaoclaikw, Dmiunguo
+- Seeds: **55** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Wahgi | Parakou | Lafia | Rijau | Kumasi
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Waimoa (i:201212)
 
-- Seeds: **16** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Voesulzz, Alakar, Olilots, Guonilgg, Koistt
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Waimoa | Aba | Parakou | Tsévié | Fada N'Gourma
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Walak (i:201213)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Mengla, Meizhou, Meishan, Wuchuan, Mapo
+- Seeds: **55** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Walak | Yevlakh | Lahij | Laryak | Gabala
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Wambon (i:201214)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Lixian, Puning, Liuzhou, Linyi, Linping
+- Seeds: **55** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Wambon | Nibok | Kokoda | Noumea | Kimbe
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Wano (i:201215)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Kunming, Kaiyuan, Kaili, Kaihua, Kaifeng
+- Seeds: **54** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Wano | Savusavu | Kimbe | Lorengau | Abaiang
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Waruna (i:201216)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Ningde, Jianshan, Jian’ou, Jiangyan, Jianguang
+- Seeds: **63** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Waruna | Aba | Parakou | Tsévié | Fada N'Gourma
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Wayan (i:201217)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Togon, Vodanka, Doangkonlo, Maem, Puatpu
+- Seeds: **61** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Wayan | Parakou | Lafia | Rijau | Kumasi
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Were (i:201218)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Iukwtwui, Uiclpo, Fouchua, Uoquevm, Ufleuv
+- Seeds: **53** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Were | Kaolack | Rijau | Bolgatanga | Louga
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Weri (i:201219)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Voetuke, Alalal, Olirosww, Seenu, Guolinm
+- Seeds: **53** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Weri | Kaolack | Rijau | Bolgatanga | Louga
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Wersing (i:201220)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Eexiipmoots, Aungeunk, Briogougrua, Fooiits, Koosweekhui
+- Seeds: **50** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Wersing | Tchibanga | Conakry | Parakou | Fatick
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## West Bomberai (i:201221)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Hutang, Cixi, Huoqiu Chengguanzhen, Huolu, Huizhou
+- Seeds: **49** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: West Bomberai | Okigwe | Fada N'Gourma | Gwoza | Bafatá
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Western (i:201222)
 
-- Seeds: **14** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Guitoner, Koelas, Alomida, Diigur, Seurelw
+- Seeds: **70** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Western | Tchibanga | Conakry | Parakou | Fatick
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Western Dani (i:201223)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Hefei, Hanzhong, Hangzhou, Hangu, Changzhi
+- Seeds: **50** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Western Dani | Labasa | Trobriand | Ngerulmud | Denigomodu
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Western Pantar (i:201224)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Fleoxsnoi, Outriidmiopm, Sluithook, Eoklausn, Oasneuteofl
+- Seeds: **55** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Western Pantar | Koudougou | Oussouye | Abidjan | Gwoza
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Wiru (i:201225)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Qingyang, Fuling, Foshan, Fengyi, Fenggang
+- Seeds: **52** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Wiru | Kaolack | Rijau | Bolgatanga | Louga
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Wolani (i:201226)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Dazhou, Datong, Dalu, Dalian, Dali
+- Seeds: **51** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Wolani | Aba | Parakou | Tsévié | Fada N'Gourma
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Wolio (i:201227)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Motinpentu, Wunini, Gulinutam, Mesen, Sabines
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Wolio | Ba | Buna | Pohnpei | Lae
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Yagaria (i:201228)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Bishan, Binzhou, Bijie, Beihai, Bayan Hot
+- Seeds: **51** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Yagaria | Tchibanga | Conakry | Parakou | Fatick
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Yagwoia (i:201229)
 
-- Seeds: **17** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Diirar, Seuneks, Seulen, Guesuln, Koakz
+- Seeds: **52** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Yagwoia | Tchibanga | Conakry | Parakou | Fatick
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Yali (i:201230)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Truiiikw, Tristiucluo, Oeflacmaal, Truastaeclio, Dmounguazlae
+- Seeds: **51** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Yali | Savusavu | Kimbe | Lorengau | Abaiang
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Yaqay (i:201231)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Guanshan, Wutan, Zhaoxing, Jinshan, Yongping
+- Seeds: **54** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Yaqay | Parakou | Lafia | Rijau | Kumasi
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Yareba (i:201232)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Yilan, Yanji, Yakeshi, Xuanhua, Xifeng
+- Seeds: **55** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Yareba | Aba | Parakou | Tsévié | Fada N'Gourma
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Yaweyuha (i:201233)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Guirosat, Koenmm, Alolinul, Diitot, Seugeron
+- Seeds: **52** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Yaweyuha | Owerri | Sokoto | Aba | Parakou
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Yekora (i:201234)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Nenjiang, Nehe, Mudanjiang, Mishan, Antu
+- Seeds: **60** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Yekora | Aba | Parakou | Tsévié | Fada N'Gourma
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Yipma (i:201235)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Xikliung, Kwiuqmae, Yuuued, Eujuestaukl, Oepmprou
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Yipma | Parakou | Lafia | Rijau | Kumasi
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Yogo (Tamagario) (i:201236)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Harbin, Hailin, Hailar, Gongzhuling, Genhe
+- Seeds: **64** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Yogo (Tamagario) | Rabaul | Uaboe | Sogeri | Kone
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Yonggom (i:201237)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Vounekot, Olalasim, Seusdd, Gueguer, Koaras
+- Seeds: **54** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Yonggom | Levuka | Yap | Kone | Kiunga
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Zia (i:201238)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Baoqing, Anshan, Aihui, Shilin, Panzhihua
+- Seeds: **52** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Zia | Oyo | Gashua | Louga | Harper
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Zimakani (i:201239)
 
-- Seeds: **19** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Guetuky, Koalin, Alirosnn, Guesur, Voodimw
+- Seeds: **52** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Zimakani | Owerri | Sokoto | Aba | Parakou
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## ꞌAreꞌare (i:201240)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Haranpunel, Selanit, Wuganidou, Miakka, Saadtunlo
+- Seeds: **68** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: ꞌAreꞌare | Owerri | Sokoto | Aba | Parakou
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Arin (i:201241)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Fengping, Qinglian, Heqian, Maliu, Heyan
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Arin | Kaolack | Rijau | Bolgatanga | Louga
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Assan (i:201242)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Zhoujiaba, Taibai, Gaoliang, Zhonggulou, Jiuchi
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Assan | Parakou | Lafia | Rijau | Kumasi
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Jie (i:201243)
 
-- Seeds: **19** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Dioon, Sealasr, Koegudd, Olarss, Diitonas
+- Seeds: **62** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Jie | Oyo | Gashua | Louga | Harper
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Nivkh (i:201244)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Vuisluicoo, Eapmiiquoj, Voiikr, Yuagmae, Uisteunguisn
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Nivkh | Parakou | Lafia | Rijau | Kumasi
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Omok (i:201245)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Voudrr, Koerutom, Olatg, Diiorir, Guemes
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Omok | Kaolack | Rijau | Bolgatanga | Louga
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Pumpokol (i:201246)
 
-- Seeds: **15** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Diugerus, Guorm, Voadagol, Alulit, Olesulin
+- Seeds: **64** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Pumpokol | Owerri | Sokoto | Aba | Parakou
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Southern Itelmen (i:201247)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Cmaozaismao, Ntookmee, Uatamboucm, Ntuikme, Phapha
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Southern Itelmen | Bissau | Bida | Minna | Nnewi
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Southern Yukaghir (i:201248)
 
-- Seeds: **15** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Sealase, Vousal, Koeguww, Olaru, Diitonm
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Southern Yukaghir | Dundee | Podgorica | Liepāja | Soroca
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Tundra Yukaghir (i:201249)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Haodraikmao, Uakwazhouvl, Fruipe, Smiieudz, Aqaspazm
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Tundra Yukaghir | Glasgow | Soroca | Riga | Larissa
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Western Itelmen (i:201250)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Changlong, Pushun, Gangjia, Baijia, Yinping
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Western Itelmen | Bida | Koudougou | Tema | Kara
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Yeniseian (i:201251)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Alird, Olunekar, Seoum, Kousor, Alegutt
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Yeniseian | Leicester | Daugavpils | Tromsø | Tallinn
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Yugh (i:201252)
 
-- Seeds: **15** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Guirz, Vounekut, Olalasom, Seusg, Gueguir
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Yugh | Kaolack | Rijau | Bolgatanga | Louga
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Angami Pochuri (i:201253)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Dauoingling, Muia, Woenxu, Siiauaqi, Mainyou
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Angami Pochuri | Tiruchirappalli | Trincomalee | Kochi | Chittagong
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Bijiang Bai (i:201254)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Voatir, Koiort, Oleme, Diosiskk, Guirww
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Bijiang Bai | Nagasaki | Miaoli | Rason | Taitung
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Boro Garo (i:201255)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Boro%E2%80%93Garo_languages](https://en.wikipedia.org/wiki/Boro%E2%80%93Garo_languages)
-- Sample: Kriavloipuu, Fraapgrai, Oukliisn, Astagath, Iafliivuemp
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Boro Garo | Ahmedabad | Agra | Srinagar | Visakhapatnam
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Dali Bai (i:201256)
 
-- Seeds: **18** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Guinww, Vouseus, Alokm, Olamanol, Seudit
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Dali Bai | Ölgii | Kawasaki | Kaifeng | Kanazawa
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Digaro Mishmi (i:201257)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Weu, Faiuzhen, Buaoixi, Toai, Reouongxun
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Digaro Mishmi | Hyderabad | Kochi | Pune | Dehradun
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Heqing Bai dialect (i:201258)
 
-- Seeds: **11** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Koesy, Alodimit, Diinnn, Seuseem, Seumll
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Heqing Bai dialect | Daru | Uaboe | Ok Tedi | Airai
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Idu Taraon (i:201259)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Hoonucun, Siui, Cheaoshui, Zaunaijiang, Roouwei
+- Seeds: **64** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Idu Taraon | Lae | Tabiteuea | Tiga | Rabaul
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Jingpho (i:201260)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Rauezheng, Muongoxia, Hiua, Feungungyan, Haiu
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Jingpho | Vadodara | Visakhapatnam | Sylhet | Lucknow
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Jingpho Luish (i:201261)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Muuioudian, Hou, Hiiusi, Feaoijiao, Haai
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Jingpho Luish | Hyderabad | Kochi | Pune | Dehradun
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Jino (i:201262)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Zianlong, Weuoingzu, Nuenqiao, Loiauaguang, Geintian
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Jino | Kaolack | Rijau | Bolgatanga | Louga
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Lolo Burmese (i:201263)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Pouoinghuang, Kiia, Keentu, Haiaualan, Boinxin
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Lolo Burmese | Lomphat | Vinh Long | Padang Panjang | Da Nang
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Longjia Luren (i:201264)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Suaiyun, Poenangtu, Kiua, Keeizhu, Hainiexin
+- Seeds: **63** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Longjia Luren | Okigwe | Fada N'Gourma | Gwoza | Bafatá
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Lotha (i:201265)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/ISO_639:njh](https://en.wikipedia.org/wiki/ISO_639:njh)
-- Sample: Dietukw, Gualo, Voirosll, Alenxx, Ololinet
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Lotha | Sylhet | Lucknow | Hubli | Mumbai
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Macro Bai (i:201266)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Chuinxin, Zoioenning, Chiou, Seonyin, Paiuuisi
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Macro Bai | Rason | Hualien | Kanggye | Kaifeng
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Mahakiranti (i:201267)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Jeo, Rau, Muuaeyang, Houng, Hianji
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Mahakiranti | Bolgatanga | Bafatá | Yola | Bouaké
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Meitei macro entry (i:201268)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Daioentang, Woonzheng, Siiuuixia, Juaayan, Dianghuang
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Meitei macro entry | Ludhiana | Dharan | Vijayawada | Peshawar
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Miju (i:201269)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Hiojing, Feueaozheng, Hao, Yuumen, Touae
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Miju | Lucknow | Jhang | Chennai | Kolhapur
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Miju Meyor (i:201270)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Giiuuotu, Anizhu, Wuieinxin, Zoiu, Piodian
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Miju Meyor | Dehradun | Nagpur | Agra | Mymensingh
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Milang (i:201271)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Moeixing, Kiinieping, Fauiying, Buonusong, Toui
+- Seeds: **54** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Milang | Aba | Parakou | Tsévié | Fada N'Gourma
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Mongsen Ao (i:201272)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Doengunzhuang, Yiue, Yeieping, Taingiudong, Mouesong
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Mongsen Ao | Bafatá | Yola | N'Djamena | Bolgatanga
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Mruic (i:201273)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Buingiudong, Tiuesong, Reongojie, Taei, Kuuawu
+- Seeds: **64** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Mruic | Parakou | Lafia | Rijau | Kumasi
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Naxi (i:201274)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Tiung, Reaniuxun, Taing, Kuaihu, Hoenangyue
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Naxi | Kimchaek | Changwon | Tsetserleg | Rason
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Newaric (i:201275)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Newaric_languages](https://en.wikipedia.org/wiki/Newaric_languages)
-- Sample: Chuanlong, Zouoingzu, Chiia, Seenqiao, Paiauaguang
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Newaric | Kanggye | Keelung | Kaifeng | Dongguan
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Nishi (i:201276)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/ISO_639:dap](https://en.wikipedia.org/wiki/ISO_639:dap)
-- Sample: Wanmu, Apengjiang, Zhoubai, Dianshui, Longshe
+- Seeds: **64** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Nishi | Parakou | Lafia | Rijau | Kumasi
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Northern Qiang (i:201277)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Shuangfengqiao, Huixing, Cuiyun, Wangjia, Fuxing
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Northern Qiang | Yuen Long | Niigata | Haeju | Ölgii
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Nu (i:201278)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Kuuayang, Houngungsheng, Cheuozai, Zaaiiawan, Roiazhuang
+- Seeds: **64** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Nu | Gashua | Yaoundé | Yendi | Dapaong
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Nung (i:201279)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Buung, Joanshan, Giuoinghuang, Baia, Anentu
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Nung | Padang Panjang | Sakon Nakhon | Ternate | Udon Thani
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Nungish (i:201280)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Nungish_languages](https://en.wikipedia.org/wiki/Nungish_languages)
-- Sample: Zoei, Piualun, Meungung, Zaiu, Guuoquan
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Nungish | Hat Yai | Tebing Tinggi | Alor Setar | Tomohon
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Nusu (i:201281)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Kuoushan, Hoangiohuang, Cheiutu, Zaengunlan, Roiexin
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Nusu | Kaolack | Rijau | Bolgatanga | Louga
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Phom (i:201282)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/ISO_639:nph](https://en.wikipedia.org/wiki/ISO_639:nph)
-- Sample: Voalasm, Alusy, Oleguit, Searnn, Guitonem
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Phom | Lucknow | Jhang | Chennai | Kolhapur
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Proto Hakka (i:201283)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Pioulong, Meangiozu, Zaeng, Guiuqiao, Doengunguang
+- Seeds: **61** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Proto Hakka | Nagasaki | Miaoli | Rason | Taitung
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Proto Loloish (i:201284)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Nuioxiao, Louiounan, Geiuyi, Daaoishui, Woaze
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Proto Loloish | Ho Chi Minh City | Payakumbuh | Jurong | Poipet
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Proto Min (i:201285)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Jeiu, Rauozu, Muaiiaxuan, Hoang, Hiiaguang
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Proto Min | Rason | Hualien | Kanggye | Kaifeng
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Proto Sino Tibetan (i:201286)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Loo, Diuye, Bauaeshi, Laung, Suanzang
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Proto Sino Tibetan | Takamatsu | Yuen Long | Rason | Zhuhai
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Puroik (i:201287)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Foungyan, Chianiushan, Feing, Waaiyun, Ruenangtu
+- Seeds: **55** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Puroik | Ölgii | Pohang | Thetford Mines | Changwon
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Pyu (i:201288)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Buenangyue, Toua, Tieikou, Reiniezhou, Kuuinan
+- Seeds: **51** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Pyu | Oyo | Gashua | Louga | Harper
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Qiang (i:201289)
 
-- Seeds: **10** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Diiortt, Guemi, Voosisl, Alirx, Olunekat
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Qiang | Kaifeng | Hsinchu | Matsuyama | Yamagata
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Raji Raute (i:201290)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Ziunyang, Weaasheng, Paong, Nuangzai, Loeengwan
+- Seeds: **63** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Raji Raute | El Tajín | Mapuche | Casas Grandes | Palenque
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Rouruo (i:201291)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Yuenxu, Toiauaqi, Neinyou, Laioentang, Foonzheng
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Rouruo | Aba | Parakou | Tsévié | Fada N'Gourma
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Rung (i:201292)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Buio, Joeyun, Kuunyang, Hoaasheng, Siong
+- Seeds: **62** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Rung | Kaolack | Rijau | Bolgatanga | Louga
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Shaozhou Tuhua (i:201293)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Seatd, Guiorar, Koemum, Diiror, Seunektt
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Shaozhou Tuhua | Lhokseumawe | Ben Tre | Bacolod | Can Tho
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Southern Qiang (i:201294)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Guchang, Shenglilu, Nandajie, Shaoyun, Jianlong
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Southern Qiang | Yuen Long | Niigata | Haeju | Ölgii
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Sümi (i:201295)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/ISO_639:nsm](https://en.wikipedia.org/wiki/ISO_639:nsm)
-- Sample: Bageqi, Tawakule, Han’airike, Ying’awati, Rizhao
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Sümi | Kaolack | Rijau | Bolgatanga | Louga
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Thadou (i:201296)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/ISO_639:tcz](https://en.wikipedia.org/wiki/ISO_639:tcz)
-- Sample: Eaqndee, Guaeusp, Houdruakmou, Dzuampou, Nuecia
+- Seeds: **55** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Thadou | Visakhapatnam | Rishikesh | Lucknow | Jhang
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Tibetic (i:201297)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Giaa, Anangquan, Wueenghu, Piengtou, Meiuekou
+- Seeds: **62** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Tibetic | Tchibanga | Conakry | Parakou | Fatick
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Tibeto Kanauri (i:201298)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Toeng, Tiiuhe, Reengunyuan, Taue, Kuiejun
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Tibeto Kanauri | Yuen Long | Niigata | Haeju | Ölgii
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Xiangnan Tuhua (i:201299)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Uotuedliuv, Oushiiy, Pruipmooshee, Twouhua, Jaefliomou
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Xiangnan Tuhua | Koudougou | Oussouye | Abidjan | Gwoza
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Yitdut Bai (i:201300)
 
-- Seeds: **19** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Alend, Ololinar, Seitum, Alikogk, Diesw
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Yitdut Bai | Pingtung | Ölgii | Miaoli | Taiyuan
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Yitdut Bai lect (i:201301)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Guulww, Voesulus, Alakm, Olilotol, Seedit
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Yitdut Bai lect | Dongguan | Changwon | Nantou | Uliastai
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Zakhring (i:201302)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Chuiatou, Zoeionkou, Chiie, Seioxiao, Pauiounan
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Zakhring | Owerri | Sokoto | Aba | Parakou
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Zho (i:201303)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Moumen, Kiuae, Weung, Faanshan, Buuoinghuang
+- Seeds: **63** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Zho | Oyo | Gashua | Louga | Harper
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Andoque (i:201304)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Andoque_language](https://en.wikipedia.org/wiki/Andoque_language)
-- Sample: Aoshayaivm, Ntuieusl, Nkaafoestaa, Laeglio, Druokrea
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Andoque | Sinop | Willka Wanka | Ciudad Bolívar | Qullaw
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Araona (i:201305)
 
-- Seeds: **17** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Araona_language](https://en.wikipedia.org/wiki/Araona_language)
-- Sample: Koerutus, Olatm, Diiorol, Guemit, Voosisin
+- Seeds: **64** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Araona | Aba | Parakou | Tsévié | Fada N'Gourma
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Argentinian Rioplatense Spanish (i:201306)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Rioplatense_Spanish](https://en.wikipedia.org/wiki/Rioplatense_Spanish)
-- Sample: Seunekas, Koalasur, Olusos, Dieguo, Guaril
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Argentinian Rioplatense Spanish | Newry | Porto | Rabat | Kharkiv
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Arhuaco (Ikʉ) (i:201307)
 
-- Seeds: **14** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Arhuaco_language](https://en.wikipedia.org/wiki/Arhuaco_language)
-- Sample: Alesxx, Olodimet, Seinn, Guuseam, Kookut
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Arhuaco (Ikʉ) | Mato Grosso | Willka Wanka | Ciudad Bolívar | Qullaw
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Ayoreo (i:201308)
 
-- Seeds: **10** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Ayoreo_language](https://en.wikipedia.org/wiki/Ayoreo_language)
-- Sample: Diudxx, Seerutet, Voatn, Koioram, Olemut
+- Seeds: **62** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Ayoreo | Aba | Parakou | Tsévié | Fada N'Gourma
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Cofán (i:201309)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Cof%C3%A1n_language](https://en.wikipedia.org/wiki/Cof%C3%A1n_language)
-- Sample: Dionilgg, Guistt, Voutetis, Olasarel, Seunat
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Cofán | Trinidad | Moyobamba | Waras | Rumiqullqa
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Cogui (i:201310)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Cogui_language](https://en.wikipedia.org/wiki/Cogui_language)
-- Sample: Voitongg, Aleltt, Olomidis, Seigl, Guurelel
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Cogui | Trinidad | Moyobamba | Waras | Rumiqullqa
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Fulniô (i:201311)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Fulni%C3%B4_language](https://en.wikipedia.org/wiki/Fulni%C3%B4_language)
-- Sample: Panjin, Rugao, Jinzhong, Baoji, Qipan
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Fulniô | Sinop | Camiri | Jaén | Pachakamaq
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Guajajara (Tenetehara) (i:201312)
 
-- Seeds: **18** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Tenetehara_language](https://en.wikipedia.org/wiki/Tenetehara_language)
-- Sample: Seerutus, Voatm, Koiorol, Olemit, Diosisin
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Guajajara (Tenetehara) | Antawaylla | Lurin | Brokopondo | Corumbá
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Itonama (i:201313)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Itonama_language](https://en.wikipedia.org/wiki/Itonama_language)
-- Sample: Ouchacl, Eufljeu, Ntokmei, Nkeafclou, Oenkshou
+- Seeds: **64** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Itonama | Lüderitz | Pemba | Maseru | N'dalatando
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Ka'apor (i:201314)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Ka%27apor_language](https://en.wikipedia.org/wiki/Ka%27apor_language)
-- Sample: Koudzz, Alerutd, Diats, Seiorum, Voemgg
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Ka'apor | Sinop | Willka Wanka | Ciudad Bolívar | Qullaw
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Karu (Baníwa) (i:201315)
 
-- Seeds: **10** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Karu_language](https://en.wikipedia.org/wiki/Karu_language)
-- Sample: Oluneko, Seoil, Gualasxx, Alegun, Diarz
+- Seeds: **62** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Karu (Baníwa) | Okigwe | Fada N'Gourma | Gwoza | Bafatá
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Kayapo (i:201316)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Kayapo_language](https://en.wikipedia.org/wiki/Kayapo_language)
-- Sample: Seoit, Gualasin, Aleguzz, Diarar, Seitons
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Kayapo | Nibok | Kokoda | Noumea | Kimbe
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Kulina (i:201317)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Kulina_language](https://en.wikipedia.org/wiki/Kulina_language)
-- Sample: Piuluoh, Sountuasp, Phaiphskua, Gluosmgmio, Oufliipr
+- Seeds: **64** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Kulina | Aba | Parakou | Tsévié | Fada N'Gourma
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Kwaza (i:201318)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Cmazasm, Vleizmie, Atpla, Ntuoiisl, Kmaiath
+- Seeds: **63** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Kwaza | Parakou | Lafia | Rijau | Kumasi
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Kwinti (i:201319)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Koiori, Olemel, Diosisx, Guiran, Vounekmm
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Kwinti | Aba | Parakou | Tsévié | Fada N'Gourma
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Leco (i:201320)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Leco_language](https://en.wikipedia.org/wiki/Leco_language)
-- Sample: Zhaespiocmou, Zhaan, Oajgru, Ukleuth, Zmeeaupl
+- Seeds: **63** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Leco | Kaolack | Rijau | Bolgatanga | Louga
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Matawai (i:201321)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Guolkk, Voasaral, Alunus, Olenuru, Seaol
+- Seeds: **64** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Matawai | Sinop | Willka Wanka | Ciudad Bolívar | Qullaw
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Munduruku (i:201322)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Munduruku_language](https://en.wikipedia.org/wiki/Munduruku_language)
-- Sample: Paeuegw, Suinte, Etqei, Pooleehui, Laugleudr
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Munduruku | Ebeye | Mare | Nibok | Airai
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Ndyuka (i:201323)
 
-- Seeds: **14** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Olesulo, Seakil, Guilotxx, Koeden, Aloniln
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Ndyuka | Aba | Parakou | Tsévié | Fada N'Gourma
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Nheengatu (i:201324)
 
-- Seeds: **19** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Nheengatu](https://en.wikipedia.org/wiki/Nheengatu)
-- Sample: Voorkk, Koadagal, Seudr, Guerutim, Koatdd
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Nheengatu | Ebeye | Mare | Nibok | Airai
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Nivaclé (i:201325)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Nivacl%C3%A9_language](https://en.wikipedia.org/wiki/Nivacl%C3%A9_language)
-- Sample: Juifloomee, Faichaopr, Uocluegriuk, Fluixui, Otuedluv
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Nivaclé | Sinop | Willka Wanka | Ciudad Bolívar | Qullaw
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Páez (i:201326)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Coikuu, Aiflacm, Akwga, Uezluevluufr, Tsoushuatou
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Páez | Guayaramerín | Puerto Maldonado | Antawaylla | Lurin
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Pirahã (i:201327)
 
-- Seeds: **17** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Pirah%C3%A3_language](https://en.wikipedia.org/wiki/Pirah%C3%A3_language)
-- Sample: Guelss, Voomidas, Aligk, Olurelur, Voolnn
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Pirahã | Sinop | Camiri | Jaén | Pachakamaq
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Sanöma (Sanumá) (i:201328)
 
-- Seeds: **16** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/ISO_639:xsu](https://en.wikipedia.org/wiki/ISO_639:xsu)
-- Sample: Seusw, Gueguos, Koarll, Alitonil, Dielet
+- Seeds: **64** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Sanöma (Sanumá) | Apurimaq | Macas | Urupampa | Mato Grosso
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Saramaccan (i:201329)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Woitwuus, Gloosmgmuo, Xiuuezl, Uikwtwua, Iexauslein
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Saramaccan | Bafatá | Yola | N'Djamena | Bolgatanga
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Shipibo-Conibo (i:201330)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Shipibo_language](https://en.wikipedia.org/wiki/Shipibo_language)
-- Sample: Yinqiao Zhen, Wanqiao Zhen, Shuangtang, Dapeng, Daxu
+- Seeds: **62** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Shipibo-Conibo | Tena | Corumbá | Santa Elena de Uairén | Qispi Llaqta
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Shuar (i:201331)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Shuar_language](https://en.wikipedia.org/wiki/Shuar_language)
-- Sample: Koikogir, Oleses, Diodime, Guinal, Vouseww
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Shuar | Trinidad | Moyobamba | Waras | Rumiqullqa
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Sirionó (i:201332)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Guatz, Voiorut, Alemrr, Olosisom, Seirg
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Sirionó | Sinop | Willka Wanka | Ciudad Bolívar | Qullaw
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Southern Quechua (i:201333)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Southern_Quechua](https://en.wikipedia.org/wiki/Southern_Quechua)
-- Sample: Utreuw, Oungiibliokr, Xuekliang, Pleubmweu, Roukhhoe
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Southern Quechua | Wankayu | Antawaylla | Mato Grosso | Brokopondo
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Sranan Tongo (i:201334)
 
-- Seeds: **15** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Koent, Alolines, Diitkk, Seugeral, Voorus
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Sranan Tongo | Saminaka | Diffa | Bafatá | Yola
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Tupi (i:201335)
 
-- Seeds: **14** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Tupi_language](https://en.wikipedia.org/wiki/Tupi_language)
-- Sample: Koirun, Alunekrr, Sealasg, Voust, Koegues
+- Seeds: **55** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Tupi | Guayaramerín | Puerto Maldonado | Antawaylla | Lurin
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Warao (i:201336)
 
-- Seeds: **16** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Warao_language](https://en.wikipedia.org/wiki/Warao_language)
-- Sample: Seanatam, Voumut, Koetukun, Olalom, Guenir
+- Seeds: **54** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Trinidad | Moyobamba | Waras | Rumiqullqa | Qancha
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Warázu (i:201337)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/ISO_639:psm](https://en.wikipedia.org/wiki/ISO_639:psm)
-- Sample: Eejiizmoop, Auteumb, Vliozmoulua, Thigriu, Khooiidr
+- Seeds: **63** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Warázu | Aba | Parakou | Tsévié | Fada N'Gourma
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Wariʼ (i:201338)
 
-- Seeds: **17** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/ISO_639:pav](https://en.wikipedia.org/wiki/ISO_639:pav)
-- Sample: Seusein, Vookem, Koamanzz, Oludar, Dieruts
+- Seeds: **60** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Wariʼ | Parakou | Lafia | Rijau | Kumasi
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Xocó (i:201339)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Voarer, Koitonss, Olela, Diomidk, Guigw
+- Seeds: **63** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Xocó | Kaolack | Rijau | Bolgatanga | Louga
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Yaminawa (i:201340)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Yaminawa_language](https://en.wikipedia.org/wiki/Yaminawa_language)
-- Sample: Yidu, Dongxia, Heguan, Miaozi, Mihe
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Yaminawa | Ölgii | Kawasaki | Kaifeng | Kanazawa
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Mizo (i:201341)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Mizo_language](https://en.wikipedia.org/wiki/Mizo_language)
-- Sample: Ololinan, Seitul, Guugeryy, Kooron, Aladagr
+- Seeds: **54** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Mizo | Lucknow | Jhang | Chennai | Kolhapur
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Berau Malay (i:201342)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Berau_Malay](https://en.wikipedia.org/wiki/Berau_Malay)
-- Sample: Thuigre, Coukua, Oesnpmou, Uejuezmuup, Shuonkklio
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Berau Malay | Chonburi | Alor Setar | Tawau | Bandar Lampung
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Enggano (i:201343)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Howonases, Depin, Suponbe, Yimonrindu, Nadonma
+- Seeds: **54** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Enggano | Levuka | Yap | Kone | Kiunga
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Filipino (i:201344)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Filipino_language](https://en.wikipedia.org/wiki/Filipino_language)
-- Sample: Dzempntia, Eedmiismoodr, Drookreefr, Gmuiiis, Breaauzh
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Filipino | Soc Trang | Rayong | Serang | Pattaya
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Hmong (i:201345)
 
-- Seeds: **17** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Hmong_language](https://en.wikipedia.org/wiki/Hmong_language)
-- Sample: Voamans, Olerutgg, Seattt, Guioris, Koeml
+- Seeds: **55** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Hmong | Kaifeng | Hsinchu | Matsuyama | Yamagata
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Kachin (i:201346)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Kachin_language](https://en.wikipedia.org/wiki/Kachin_language)
-- Sample: Oipmauqiaj, Uklxuu, Peleo, Qaetdmui, Sneizlste
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Kachin | Aba | Parakou | Tsévié | Fada N'Gourma
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Karen (i:201347)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Karen_languages](https://en.wikipedia.org/wiki/Karen_languages)
-- Sample: Mueng, Woiutu, Siengunlan, Meue, Maiexin
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Karen | Khon Kaen | Tomohon | Kuala Terengganu | Bandar Lampung
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Kasiguranin (i:201348)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Kasiguranin_language](https://en.wikipedia.org/wiki/Kasiguranin_language)
-- Sample: Souav, Aoxasl, Nduiplmbi, Uinksmae, Raokhaimpao
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Kasiguranin | Chonburi | Alor Setar | Tawau | Bandar Lampung
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Kayah (i:201349)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Kayah_Li_language](https://en.wikipedia.org/wiki/Kayah_Li_language)
-- Sample: Oetsantaazh, Gmaedzsui, Dmeengui, Dzempeondoa, Groegwcmao
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Kayah | Khon Kaen | Tomohon | Kuala Terengganu | Bandar Lampung
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Makassarese (i:201350)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Makassarese_language](https://en.wikipedia.org/wiki/Makassarese_language)
-- Sample: Xihu, Shangchong, Sankeshu, Hechi, Xingdaohu
+- Seeds: **62** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Makassarese | Chonburi | Alor Setar | Tawau | Bandar Lampung
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Malaysian Malay (i:201351)
 
-- Seeds: **16** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Malaysian_Malay](https://en.wikipedia.org/wiki/Malaysian_Malay)
-- Sample: Guoem, Voalaszz, Alusar, Olegus, Guitongg
+- Seeds: **63** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Malaysian Malay | Hai Phong | Ben Tre | Tampines | Payakumbuh
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Maranao (i:201352)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Maranao_language](https://en.wikipedia.org/wiki/Maranao_language)
-- Sample: Greogwoavm, Dzompei, Oenkaxaam, Gouasp, Brieuzh
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Maranao | Hat Yai | Tebing Tinggi | Alor Setar | Tomohon
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Mien (i:201353)
 
-- Seeds: **10** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Mien_language](https://en.wikipedia.org/wiki/Mien_language)
-- Sample: Guegui, Koarel, Alitonx, Dielan, Seikogol
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Mien | Kaolack | Rijau | Bolgatanga | Louga
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Mon native-speakers subset (i:201354)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Mon_language](https://en.wikipedia.org/wiki/Mon_language)
-- Sample: Xinhua, Miaojie, Yongjian, Yousuo, Sanchuan
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Mon native-speakers subset | Putao | Poipet | Bacolod | Battambang
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Rakhine (i:201355)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Rakhine_language](https://en.wikipedia.org/wiki/Rakhine_language)
-- Sample: Uifeup, Dzaumpeu, Druakrbrui, Mpuunueplia, Kuiswuikhoo
+- Seeds: **55** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Rakhine | Hat Yai | Tebing Tinggi | Alor Setar | Tomohon
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Tausug (i:201356)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Taus%C5%ABg_language](https://en.wikipedia.org/wiki/Taus%C5%ABg_language)
-- Sample: Kaungat, Nuugamui, Ulin, Aurgo, Iumminle
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Tausug | Serang | Loei | Nong Khai | Surat Thani
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Waray (i:201357)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Waray_language](https://en.wikipedia.org/wiki/Waray_language)
-- Sample: Vliieund, Phaephioph, Eufluepraucl, Vleazmiliu, Kmuafrthui
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Waray | Khon Kaen | Tomohon | Kuala Terengganu | Bandar Lampung
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Dominican Creole French (i:201358)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Keiaul, Breuguegr, Eeshiiyoovm, Koeswaakhoe, Rekhhia
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Dominican Creole French | Gros Islet | Cayon | Plymouth | English Harbour
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## French Guianese Creole (i:201359)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Uabphai, Eumuenaund, Shuankaetrio, Phuuuesk, Zmuieupl
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: French Guianese Creole | St. John's | North Side | Five Cays | Dennery
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Grenadian Creole French (i:201360)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Quankou, Alamaiti, Arele, Awati, Azhatebage
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Grenadian Creole French | Gros Islet | Cayon | Plymouth | English Harbour
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Karipúna French Creole (i:201361)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Alitus, Olugeru, Seorol, Guadagy, Koulin
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Karipúna French Creole | St. John's | North Side | Five Cays | Dennery
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Louisiana Creole (i:201362)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Awuliya, Daxing’anling, Samuyuzi, Weiwu'eryuqiwen, Jiayi
+- Seeds: **63** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Louisiana Creole | Virgin Gorda | Charlestown | Marsh Harbour | Anegada
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Saint Lucian Creole (i:201363)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Voanatyy, Alumon, Oletukr, Guirosdd, Koenss
+- Seeds: **63** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Saint Lucian Creole | West End | English Harbour | Old Road | Road Town
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Santiago Creole (i:201364)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Uixuepmoats, Uengiink, Keiswle, Juoflea, Foauets
+- Seeds: **29** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Praia | Cidade Velha | Assomada | Tarrafal | Pedra Badejo
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Santo Antão Creole (i:201365)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Mpeonoapl, Eoshnie, Outrbmao, Oangeuk, Dlubrothei
+- Seeds: **38** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Porto Novo | Ribeira Grande | Ponta do Sol | Pombas | Paul
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## São Nicolau Creole (i:201366)
 
-- Seeds: **22** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Dianzi, Dongwenquan, Qitang, Shuanglonghu, Jiaping
+- Seeds: **40** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Ribeira Brava | Tarrafal de São Nicolau | Preguiça | Monte Gordo | Monte Bissau
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## São Vicente Creole (i:201367)
 
-- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Xeeklzlea, Pmaesnionk, Iklauth, Kloauej, Oquevmukh
+- Seeds: **58** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: São Vicente Creole | Montego Bay | Maho Reef | Mandeville | Freeport
+- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+
+
+## Vietnamese China (i:201380)
+
+- Seeds: **64** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Vietnamese China | Chonburi | Lang Son | Lhokseumawe | Nha Trang
+- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+
+
+## Volga (i:201381)
+
+- Seeds: **52** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Volga | Parakou | Lafia | Rijau | Kumasi
+- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+
+
+## Na-Dene (i:201382)
+
+- Seeds: **65** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Na-Dene | Cholula | Tibes | Alta Vista | Uxmal
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done

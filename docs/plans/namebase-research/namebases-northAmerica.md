@@ -7,1623 +7,1623 @@
 
 ## Nahuatl (i:13)
 
-- Seeds: **11** | Min/Max: **6/13** | m=**0** | d=**l** — [https://en.wikipedia.org/wiki/Nahuatl](https://en.wikipedia.org/wiki/Nahuatl)
-- Sample: Patos Fshat, Fier County, Patos, Lushnjë, Lezhë
+- Seeds: **116** | Min/Max: **4/16** | m=**0** | d=**lmtnxzc** — N/A
+- Sample: Tenochtitlan | Mexihco | Texcoco | Xochimilco | Tlaxcallan
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Inuit (i:46)
 
-- Seeds: **7** | Min/Max: **5/15** | m=**0** | d=**alutsn** — N/A
-- Sample: Boedo, Berazategui, Belgrano, Barranqueras, Barracas
+- Seeds: **42** | Min/Max: **6/16** | m=**0** | d=**ntklrsmg** — N/A
+- Sample: Iqaluit | Kinngait | Arviat | Kangiqliniq | Qamani'tuaq
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Canadian French (i:68)
 
-- Seeds: **6** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: Morphett Vale, Kwinana, Gosnells, Gawler, Byford
+- Seeds: **117** | Min/Max: **4/23** | m=**0** | d=**lnrm** — N/A
+- Sample: Montreal | Trois-Rivieres | Sherbrooke | Gatineau | Saguenay
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Chipilo (i:71)
 
-- Seeds: **8** | Min/Max: **4/11** | m=**0** | d=**cltr** — N/A
-- Sample: Thomastown, Templestowe, Tarneit, Taree, Surry Hills
+- Seeds: **25** | Min/Max: **3/22** | m=**0.35** | d=**cltr** — N/A
+- Sample: Chipilo | Segusino | Treviso | Belluno | Quero
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## New England French (i:72)
 
-- Seeds: **9** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/New_England_French](https://en.wikipedia.org/wiki/New_England_French)
-- Sample: Springvale, South Yarra, Southport, Shepparton, Seven Hills
+- Seeds: **15** | Min/Max: **4/20** | m=**0.42** | d=**lnrm** — N/A
+- Sample: Lewiston | Madawaska | Fort Kent | Van Buren | Grand Isle
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Newfoundland French (i:73)
 
-- Seeds: **9** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Newfoundland_French](https://en.wikipedia.org/wiki/Newfoundland_French)
-- Sample: Rowville, Rockhampton, Rockdale, Ringwood, Reservoir
+- Seeds: **29** | Min/Max: **4/16** | m=**0.6** | d=**lnrm** — N/A
+- Sample: Placentia | Plaisance | Port au Port | Cape St. George | Black Duck Brook
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Afro-Seminole Creole (i:74)
 
-- Seeds: **9** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: Pascoe Vale, Palm Beach, Pakenham, Officer, North Melbourne
+- Seeds: **4** | Min/Max: **4/22** | m=**0.29** | d=**lnrt** — N/A
+- Sample: Brackettville | Fort Clark | Seminole | Wewoka
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Awakatek (i:75)
 
-- Seeds: **10** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: Narangba, Muswellbrook, Mulgrave, Mount Waverley, Mount Martha
+- Seeds: **10** | Min/Max: **4/17** | m=**0.3** | d=**kpt** — N/A
+- Sample: Aguacatan | Chex | Llano Coyote | Rio San Juan | Las Pilas
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Franco-Ontarian (i:82)
 
-- Seeds: **5** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Franco-Ontarians](https://en.wikipedia.org/wiki/Franco-Ontarians)
-- Sample: Frankston, Footscray, Fairfield, Essendon, Epping
+- Seeds: **46** | Min/Max: **4/21** | m=**0.36** | d=**lnrm** — N/A
+- Sample: Ottawa | Orléans | Sudbury | Timmins | Pembroke
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Frenchville French (i:84)
 
-- Seeds: **8** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Frenchville_French](https://en.wikipedia.org/wiki/Frenchville_French)
-- Sample: Engadine, Eltham, Eight Mile Plains, Echuca, Eastwood
+- Seeds: **68** | Min/Max: **4/12** | m=**0** | d=**lnrm** — N/A
+- Sample: Kersey | Ridgway | Force | Weedville | Benezette
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Louisiana French (i:86)
 
-- Seeds: **4** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Louisiana_French](https://en.wikipedia.org/wiki/Louisiana_French)
-- Sample: Caboolture, Burwood, Burnie, Bundaberg
+- Seeds: **45** | Min/Max: **4/14** | m=**0.32** | d=**lnrm** — N/A
+- Sample: New Orleans | Lafayette | Baton Rouge | Lake Charles | Houma
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Chuj (i:236)
 
-- Seeds: **0** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: 
+- Seeds: **71** | Min/Max: **3/19** | m=**0.18** | d=**** — N/A
+- Sample: San Mateo Ixtatan | San Sebastian Coatan | Nenton | Yalanhuitz | Yulchen
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Seri (i:396)
 
-- Seeds: **9** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Seri_language](https://en.wikipedia.org/wiki/Seri_language)
-- Sample: Calgary, Camrose, Candiac, Cariboo, Cartierville
+- Seeds: **4** | Min/Max: **5/12** | m=**0.25** | d=**lnrt** — N/A
+- Sample: Socaaix | Haxol Iihom | Tahejoc | Cofteecol
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Inuktitut (i:728)
 
-- Seeds: **0** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Inuktitut](https://en.wikipedia.org/wiki/Inuktitut)
-- Sample: 
+- Seeds: **40** | Min/Max: **4/16** | m=**0.02** | d=**lnrt** — N/A
+- Sample: Iqaluit | Arviat | Qamani'tuaq | Iqaluktuuttiaq | Ikpiarjuk
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Acadian (i:765)
 
-- Seeds: **10** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: Velbert, Vegesack, Vechta, Vechelde, Vaterstetten
+- Seeds: **56** | Min/Max: **4/23** | m=**0.18** | d=**lnrt** — N/A
+- Sample: Caraquet | Bas-Caraquet | Shediac | Cocagne | Memramcook
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Brayon (i:787)
 
-- Seeds: **9** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: Steglitz, Staßfurt, Stadtlohn, Stadthagen, Stadtallendorf
+- Seeds: **34** | Min/Max: **4/26** | m=**0.32** | d=**lnrt** — N/A
+- Sample: Edmundston | Saint-Basile | Saint-Léolin | Rivière-Verte | Lac-Baker
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## American Finnish (i:796)
 
-- Seeds: **10** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: Schmalkalden, Schlüchtern, Schleswig, Schkeuditz, Schiffweiler
+- Seeds: **40** | Min/Max: **4/12** | m=**0.12** | d=**lnrt** — N/A
+- Sample: Hancock | Calumet | Ishpeming | Negaunee | Tapiola
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Magoua (i:882)
 
-- Seeds: **10** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Magoua_dialect](https://en.wikipedia.org/wiki/Magoua_dialect)
-- Sample: Bobingen, Blomberg, Blieskastel, Blasewitz, Blankenburg
+- Seeds: **45** | Min/Max: **4/28** | m=**0** | d=**lnrt** — N/A
+- Sample: Trois-Rivières | Shawinigan | Maskinongé | La Tuque | Notre-Dame-du-Mont-Carmel
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Mexican Spanish (i:890)
 
-- Seeds: **10** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Mexican_Spanish](https://en.wikipedia.org/wiki/Mexican_Spanish)
-- Sample: Bad Salzuflen, Bad Säckingen, Bad Reichenhall, Bad Rappenau, Bad Pyrmont
+- Seeds: **84** | Min/Max: **4/27** | m=**0.15** | d=**lnrt** — N/A
+- Sample: Mexico City | Guadalajara | Monterrey | Puebla | Tijuana
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Missouri French (i:895)
 
-- Seeds: **9** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Missouri_French](https://en.wikipedia.org/wiki/Missouri_French)
-- Sample: Aue, Attendorn, Aschersleben, Ascheberg, Bad Arolsen
+- Seeds: **25** | Min/Max: **4/17** | m=**0.57** | d=**lnrt** — N/A
+- Sample: Ste. Genevieve | Old Mines | Cinque Hommes | St. Louis | Carondelet
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Muskrat French (i:900)
 
-- Seeds: **10** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Muskrat_French](https://en.wikipedia.org/wiki/Muskrat_French)
-- Sample: Filderstadt, Ostfildern, Rodgau, Gropiusstadt, Seeheim-Jugenheim
+- Seeds: **42** | Min/Max: **4/19** | m=**0.48** | d=**lnrt** — N/A
+- Sample: Detroit | Grosse Pointe | Pointe Mouillee | River Rouge | Ecorse
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Ch'orti' (i:914)
 
-- Seeds: **10** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Ch%27orti%27_language](https://en.wikipedia.org/wiki/Ch%27orti%27_language)
-- Sample: Helsingør, Hedensted, Haderslev, Greve, Glostrup
+- Seeds: **29** | Min/Max: **5/15** | m=**0.15** | d=**jkmnstw'** — N/A
+- Sample: Jocotan | Camotan | Olopa | San Juan Ermita | Chinam Murak
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Cauque Mayan language (i:1187)
 
-- Seeds: **9** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: Fontaine, Floirac, Fleury-les-Aubrais, Firminy, Fécamp
+- Seeds: **0** | Min/Max: **4/25** | m=**0.45** | d=**lnrt** — N/A
+- Sample: 
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Pidgin Delaware (i:1189)
 
-- Seeds: **9** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: Élancourt, Écully, Échirolles, Eaubonne, Dunkirk
+- Seeds: **0** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: 
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Deg Xinag (i:1193)
 
-- Seeds: **7** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Deg_Xinag_language](https://en.wikipedia.org/wiki/Deg_Xinag_language)
-- Sample: Deuil-la-Barre, Denain, Décines-Charpieu, Dammarie-les-Lys, Cugnaux
+- Seeds: **6** | Min/Max: **4/15** | m=**0** | d=**lnrt** — N/A
+- Sample: Anvik | Shageluk | Grayling | Holy Cross | Xeyeghelinghdi
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
-## Tâ”¼Ã©â”€Â»châ•ŸÂ½ (i:1198)
+## Tlicho (i:1198)
 
-- Seeds: **10** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: Crépy-en-Valois, Creil, Cran-Gevrier, Courbevoie, Coulommiers
+- Seeds: **7** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Behchokǫ̀ | Whatì | Gamètì | Wekweètì | Edzo
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Kiliwa (i:1201)
 
-- Seeds: **9** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Kiliwa_language](https://en.wikipedia.org/wiki/Kiliwa_language)
-- Sample: Compiègne, Combs-la-Ville, Pontault-Combault, Colomiers, Colombes
+- Seeds: **44** | Min/Max: **4/17** | m=**0.1** | d=**lnrt** — N/A
+- Sample: Ajantequedo | Amuwey | Casilepe | Chipaja | Chuwiluetai
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Quechan (i:1203)
 
-- Seeds: **7** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Quechan_language](https://en.wikipedia.org/wiki/Quechan_language)
-- Sample: Chaumont, Chatou, Châtenay-Malabry, Châteaudun, Charenton-le-Pont
+- Seeds: **32** | Min/Max: **4/16** | m=**0** | d=**lnrt** — N/A
+- Sample: Yuma | Fort Yuma | Winterhaven | Bard | Somerton
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
-## Cochimâ”œÂ¡ (i:1204)
+## Cochimí (i:1204)
 
-- Seeds: **7** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: Challans, Cestas, Cesson-Sévigné, Cergy, Cenon
+- Seeds: **35** | Min/Max: **5/37** | m=**0** | d=**lnrt** — N/A
+- Sample: San Borja | Santa Gertrudis | Loreto | Mulege | Comondu
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Yavapai (i:1206)
 
-- Seeds: **7** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: Carrières-sous-Poissy, Carquefou, Canteleu, Caluire-et-Cuire, Calais
+- Seeds: **33** | Min/Max: **4/16** | m=**0** | d=**lnrt** — N/A
+- Sample: Prescott | Fort McDowell | Camp Verde | Mazatzal | Verde
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Mohawk (i:1207)
 
-- Seeds: **10** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Mohawk_language](https://en.wikipedia.org/wiki/Mohawk_language)
-- Sample: Cachan, Paris 19 Buttes-Chaumont, Paris 18 Buttes-Montmartre, Bry-sur-Marne, Brunoy
+- Seeds: **25** | Min/Max: **7/13** | m=**0.62** | d=**ahiknorswty':** — N/A
+- Sample: Kahnawà:ke | Kanehsatà:ke | Ahkwesáhsne | Kawehnò:ke | Kaná:takon
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Cayuga (i:1208)
 
-- Seeds: **8** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Cayuga_language](https://en.wikipedia.org/wiki/Cayuga_language)
-- Sample: Paris 02 Bourse, Bourg-lès-Valence, Bourg-la-Reine, Bourg-en-Bresse, Boulogne-sur-Mer
+- Seeds: **14** | Min/Max: **6/13** | m=**0** | d=**lnrt** — N/A
+- Sample: Goiogouen | Tiohero | Chonodote | Onnontare | Ganogeh
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Oneida (i:1209)
 
-- Seeds: **8** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Oneida_language](https://en.wikipedia.org/wiki/Oneida_language)
-- Sample: Bondy, Boissy-Saint-Léger, Bois-Colombes, Bobigny, Blanquefort
+- Seeds: **25** | Min/Max: **5/27** | m=**0.15** | d=**lnrt** — N/A
+- Sample: Oneida Castle | Kanawalohale | Old Oneida | Oriska | Nichols Pond
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Onondaga (i:1210)
 
-- Seeds: **5** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Onondaga_language](https://en.wikipedia.org/wiki/Onondaga_language)
-- Sample: Berck, Berck-Plage, Bègles, Paris 17 Batignolles-Monceau, Balma
+- Seeds: **4** | Min/Max: **6/19** | m=**0** | d=**lnrt** — N/A
+- Sample: Onondaga Castle | Nedrow | Ganakdagweniyogeh | Ohsweken
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Seneca (i:1211)
 
-- Seeds: **7** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Seneca_language](https://en.wikipedia.org/wiki/Seneca_language)
-- Sample: Bagnols-sur-Cèze, Bagnolet, Bagneux, Avon, Avion
+- Seeds: **26** | Min/Max: **5/16** | m=**0.2** | d=**lnrt** — N/A
+- Sample: Canawaugus | Salamanca | Genesee Castle | Irving | Gowanda
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Tuscarora (i:1212)
 
-- Seeds: **8** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Tuscarora_language](https://en.wikipedia.org/wiki/Tuscarora_language)
-- Sample: Athis-Mons, Asnières-sur-Seine, Armentières, Argenteuil, Arcueil
+- Seeds: **35** | Min/Max: **4/18** | m=**0** | d=**lnrt** — N/A
+- Sample: Tuscarora Reservation | Lewiston | Buffalo | Indian Woods | Prospect
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Turks and Caicos Creole (i:1293)
 
-- Seeds: **8** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: Hazel Grove, Haywards Heath, Hayes, Haydock, Hawarden
+- Seeds: **31** | Min/Max: **4/16** | m=**0.66** | d=**lnrt** — N/A
+- Sample: Grand Turk | Providenciales | South Caicos | Middle Caicos | North Caicos
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Vincentian Creole (i:1294)
 
-- Seeds: **10** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: Haslemere, Harwich, Hartley, Hartlepool, Harrow
+- Seeds: **43** | Min/Max: **4/14** | m=**0.45** | d=**lnrt** — N/A
+- Sample: Kingstown | Calliaqua | Georgetown | Biabou | Byera Hill
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Virgin Islands Creole (i:1295)
 
-- Seeds: **6** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: Halewood, Hailsham, Hadleigh, Guiseley, Guisborough
+- Seeds: **71** | Min/Max: **4/19** | m=**0.59** | d=**lnrt** — N/A
+- Sample: Charlotte Amalie | Christiansted | Frederiksted | Red Hook | Grove Place
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Jamaican Maroon Creole (i:1296)
 
-- Seeds: **10** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: Greenford, Great Yarmouth, Great Wyrley, Great Sankey, Great Malvern
+- Seeds: **43** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Accompong | Maroon Town | Flagstaff | Crawford Town | Quick Step
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Aleut (i:1304)
 
-- Seeds: **9** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Aleut_language](https://en.wikipedia.org/wiki/Aleut_language)
-- Sample: Folkestone, Flint, Fleet, Finchley, Feltham
+- Seeds: **41** | Min/Max: **4/11** | m=**0.1** | d=**lnrt** — N/A
+- Sample: Atka | Adak | Attu | Akutan | False Pass
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Quebec French (i:1340)
 
-- Seeds: **8** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Quebec_French](https://en.wikipedia.org/wiki/Quebec_French)
-- Sample: Ashton-under-Lyne, Ashton in Makerfield, Ashington, Ascot, Arnold
+- Seeds: **98** | Min/Max: **4/28** | m=**0** | d=**lnrt** — N/A
+- Sample: Quebec City | Trois-Rivières | Sherbrooke | Saguenay | Lévis
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Kumeyaay (i:1372)
 
-- Seeds: **8** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Kumeyaay_language](https://en.wikipedia.org/wiki/Kumeyaay_language)
-- Sample: Samtskhe-Javakheti, Stantsiya Novyy Afon, French Guiana, Guyane, Rémire-Montjoly
+- Seeds: **48** | Min/Max: **4/14** | m=**0** | d=**lnrt** — N/A
+- Sample: Hamul | Sekwan | Ewiiaapaayp | Snyaawkwatun | Amai'tu
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Broken Oghibbeway (i:1379)
 
-- Seeds: **1** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: Western North
+- Seeds: **0** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: 
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Broken Slavey (i:1380)
 
-- Seeds: **1** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: Aflao
+- Seeds: **37** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Fort Simpson | Fort Liard | Fort Nelson | Fort St. John | Fort Vermilion
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Chol (i:1412)
 
-- Seeds: **1** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: San Pedro Ayampuc
+- Seeds: **26** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Tila | Tumbala | Sabanilla | Salto de Agua | Bachajon
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Cahuilla (i:1417)
 
-- Seeds: **1** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Cahuilla_language](https://en.wikipedia.org/wiki/Cahuilla_language)
-- Sample: Izabal Department
+- Seeds: **47** | Min/Max: **4/13** | m=**0** | d=**lnrt** — N/A
+- Sample: Sec-he | Tahquitz | Kíš čáwal | Pàl téwet | Telmuva
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Huastec (i:1428)
 
-- Seeds: **7** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Wastek_language](https://en.wikipedia.org/wiki/Wastek_language)
-- Sample: Barberena, Asunción Mita, Amatitlán, Alotenango, Tamuning-Tumon-Harmon Village
+- Seeds: **39** | Min/Max: **5/22** | m=**0** | d=**lnrt** — N/A
+- Sample: Tantoyuca | Chicontepec de Tejeda | Tempoal | Tantima | Amatlan
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Central Zapotec (i:1492)
 
-- Seeds: **7** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Central_Zapotec](https://en.wikipedia.org/wiki/Central_Zapotec)
-- Sample: Naphegy, Mosonmagyaróvár, Mátyásföld, Lágymányos, Kőbánya
+- Seeds: **60** | Min/Max: **4/26** | m=**0.92** | d=**lnrt** — N/A
+- Sample: Oaxaca de Juarez | Santa Cruz Xoxocotlan | San Antonio de la Cal | San Bartolo Coyotepec | San Juan Bautista Tlacoatzintepec
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Mazatec (i:1499)
 
-- Seeds: **10** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Mazatec_language](https://en.wikipedia.org/wiki/Mazatec_language)
-- Sample: Budapest XXI. kerület, Budapest XX. kerület, Budapest XVII. kerület, Budapest III. kerület, Budapest II. kerület
+- Seeds: **29** | Min/Max: **4/30** | m=**0.9** | d=**lnrt** — N/A
+- Sample: Huautla de Jimenez | Jalapa de Diaz | San Jose Tenango | San Lucas Ojitlan | San Juan Bautista Atatlahuca
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Chinantec (i:1588)
 
-- Seeds: **9** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Chinantecan_languages](https://en.wikipedia.org/wiki/Chinantecan_languages)
-- Sample: Sandyford, Donaghmede, South Dublin, Giv`at H̱ananya, Modi‘in Makkabbim Re‘ut
+- Seeds: **33** | Min/Max: **4/30** | m=**0.9** | d=**lnrt** — N/A
+- Sample: San Juan Bautista Tuxtepec | Valle Nacional | San Felipe Usila | Santiago Choapam | Santa Maria Chilchotla
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Chinook Jargon (i:1592)
 
-- Seeds: **9** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Chinook_Jargon](https://en.wikipedia.org/wiki/Chinook_Jargon)
-- Sample: Ofaqim, Netivot, Ness Ziona, Nesher, Naẕerat ‘Illit
+- Seeds: **0** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: 
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Cholti Classic (i:1595)
 
-- Seeds: **9** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: Er Reina, Eilat, Dimona, Daliyat al Karmel, Binyamina-Giv‘at ‘Ada
+- Seeds: **1** | Min/Max: **4/16** | m=**0** | d=**lnrt** — N/A
+- Sample: Manche Chol
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Chorotega (i:1604)
 
-- Seeds: **9** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Chorotega_language](https://en.wikipedia.org/wiki/Chorotega_language)
-- Sample: Vellakkovil, Vejalpur, Vedaraniyam, Vayalār, Vattalkundu
+- Seeds: **1** | Min/Max: **4/16** | m=**0** | d=**lnrt** — N/A
+- Sample: Nicoya
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Chicomuceltec (i:1630)
 
-- Seeds: **9** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: Sopur, Sonkach, Sonīpat, Songadh, Sonpet
+- Seeds: **3** | Min/Max: **7/23** | m=**0** | d=**** — N/A
+- Sample: Chicomuselo | Mazapa de Madero | Amatenango de la Frontera
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Coxoh (i:1640)
 
-- Seeds: **9** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: Sheohar, Sheoganj, Shenkottai, Shehera, Shegaon
+- Seeds: **1** | Min/Max: **10/10** | m=**0** | d=**** — N/A
+- Sample: Valle Coxoh
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Eskimo Trade Jargon (i:1774)
 
-- Seeds: **9** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: Khatauli, Khārupatia, Kharsia, Kharkhauda, Kharhiāl
+- Seeds: **0** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: 
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Greenlandic (i:1829)
 
-- Seeds: **9** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Greenlandic_language](https://en.wikipedia.org/wiki/Greenlandic_language)
-- Sample: Jadcherla, Etmadpur, Itārsi, Islāmpur, Islāmnagar
+- Seeds: **33** | Min/Max: **4/16** | m=**0.05** | d=**lnrtk** — N/A
+- Sample: Nuuk | Sisimiut | Ilulissat | Qeqertarsuaq | Kangerlussuaq
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Gullah (i:1879)
 
-- Seeds: **8** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: Denkanikota, Delhi Cantonment, Davorlim, Davangere, Daund
+- Seeds: **133** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Sapelo Island | Hog Hammock | Hogg Hummock | Raccoon Bluff | Long Tabby
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Inuktitut-English Pidgin (dedicated) (i:1951)
 
-- Seeds: **6** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: Amarpātan, Ambarnath, Amalāpuram, Alwaye, Allinagaram
+- Seeds: **0** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: 
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Isthmus Zapotec (i:1984)
 
-- Seeds: **9** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Isthmus_Zapotec](https://en.wikipedia.org/wiki/Isthmus_Zapotec)
-- Sample: Karjan, Jalandhar Cantonment, Kagaznāgār, Prāntij, Kirandul
+- Seeds: **35** | Min/Max: **4/24** | m=**0.9** | d=**lnrt** — N/A
+- Sample: Juchitan de Zaragoza | Tehuantepec | Salina Cruz | Matias Romero Avendaño | San Blas Atempa
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Itza (i:1988)
 
-- Seeds: **9** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: Lateri, V.S.K.Valasai (Dindigul-Dist.), Dhamanagar, Joda, Kadodara
+- Seeds: **11** | Min/Max: **6/17** | m=**0.27** | d=**** — N/A
+- Sample: Flores | San Andres | San Benito | La Libertad | Melchor de Mencos
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Cree (i:2069)
 
-- Seeds: **5** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Cree_language](https://en.wikipedia.org/wiki/Cree_language)
-- Sample: Babil, Ṟuwandiz, Rānyah, Al Qā’im, Al-Hamdaniya
+- Seeds: **70** | Min/Max: **3/15** | m=**0.28** | d=**** — N/A
+- Sample: Waskaganish | Chisasibi | Mistissini | Ouje-Bougoumou | Waswanipi
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Ojibwe (i:2070)
 
-- Seeds: **10** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Ojibwe_language](https://en.wikipedia.org/wiki/Ojibwe_language)
-- Sample: Qal‘at Sukkar, Dhi Qar, Qal‘at Şāliḩ, Maysan, Qeładizê
+- Seeds: **69** | Min/Max: **5/30** | m=**0.42** | d=**abcdefghijkmnopswxyz'** — N/A
+- Sample: Gichi-gami | Misi-zaaga'igan | Naadowewi-gichigami | Wiinibiigoo-zaaga'igan | Aabitibiiwi-zaaga'igan
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Yupik (i:2071)
 
-- Seeds: **9** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Yupik_languages](https://en.wikipedia.org/wiki/Yupik_languages)
-- Sample: Hīt, Ḩarir, Ḩadīthah, Soran, Dihok
+- Seeds: **63** | Min/Max: **4/14** | m=**0.18** | d=**kk** — N/A
+- Sample: Bethel | Akiachak | Akiak | Atmautluak | Eek
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Cherokee (i:2073)
 
-- Seeds: **9** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Cherokee_language](https://en.wikipedia.org/wiki/Cherokee_language)
-- Sample: Ash Shāmīyah, Ar Ruţbah, Ar Rumaythah, ‘Aqrah, An Nu‘mānīyah
+- Seeds: **74** | Min/Max: **6/17** | m=**0.28** | d=**lnrt** — N/A
+- Sample: Tahlequah | Qualla | Oconaluftee | Tuckaseegee | Nantahala
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Apache (i:2074)
 
-- Seeds: **4** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Apache_languages](https://en.wikipedia.org/wiki/Apache_languages)
-- Sample: Al Mishkhāb, Al Miqdādīyah, Al Mawşil al Jadīdah, Al Maḩāwīl
+- Seeds: **27** | Min/Max: **7/15** | m=**0.23** | d=**** — N/A
+- Sample: Fort Apache | Whiteriver | Cibecue | Carrizo | McNary
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Athabaskan (i:2075)
 
-- Seeds: **4** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: Al Başrah al Qadīmah, Khasnahzān, Khalīfān, Hajiawa
+- Seeds: **86** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Fort Yukon | Chalkyitsik | Arctic Village | Venetie | Fort McPherson
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Navajo (i:2076)
 
-- Seeds: **10** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Navajo_language](https://en.wikipedia.org/wiki/Navajo_language)
-- Sample: ‘Anah, Simele, Shūrash, Abū al-Kahṣīb, Iran
+- Seeds: **53** | Min/Max: **6/17** | m=**0.35** | d=**abchddeghijklmnopstwxyzhłʼáéíóąęǫ ** — N/A
+- Sample: Tségháhoodzání | Tsé Bitʼaʼí | Tó Naneesdizí | Kayenta | Tsééhí
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Achi (i:2223)
 
-- Seeds: **0** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: 
+- Seeds: **5** | Min/Max: **6/16** | m=**0.4** | d=**** — N/A
+- Sample: Rabinal | Cubulco | San Miguel Chicaj | Salamá | Santa Cruz El Chol
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Akatek (i:2249)
 
-- Seeds: **0** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: 
+- Seeds: **28** | Min/Max: **20/35** | m=**2** | d=**null** — N/A
+- Sample: San Miguel Acatán | San Rafael La Independencia | Cheche | Chenichám I | Chimbán
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Labrador Inuit Pidgin French (dedicated) (i:2311)
 
-- Seeds: **10** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: Savannakhet Province, Champasak Province, Loungnamtha, Muang Phônsavan, Xiangkhoang
+- Seeds: **0** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: 
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Lakota (i:2316)
 
-- Seeds: **1** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Lakota_language](https://en.wikipedia.org/wiki/Lakota_language)
-- Sample: Uva Province
+- Seeds: **30** | Min/Max: **5/18** | m=**0.38** | d=**abcdefghijklmnopqrstuvwxyz 'ȟǧáéíóúŋABCDEF... (Lakota Latin alphabet plus ȟ ǧ ʼ and acute/nasal diacritics)** — N/A
+- Sample: Rosebud | Cheyenne River | Standing Rock | Flandreau | Lower Brule
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Cuicatec (i:2439)
 
-- Seeds: **1** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Cuicatec_language](https://en.wikipedia.org/wiki/Cuicatec_language)
-- Sample: Reforma
+- Seeds: **26** | Min/Max: **4/28** | m=**0.9** | d=**lnrt** — N/A
+- Sample: San Juan Bautista Cuicatlan | San Pedro Tepeuxila | Santa Maria Pápalo | Santiago Nacaltepec | Santo Tomas Tepeuxila
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Ahtna (i:2470)
 
-- Seeds: **5** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Ahtna_language](https://en.wikipedia.org/wiki/Ahtna_language)
-- Sample: Madera, Los Reyes de Salgado, Los Mochis, León de los Aldama, Las Pintas de Arriba
+- Seeds: **26** | Min/Max: **4/14** | m=**0** | d=**lnrt** — N/A
+- Sample: Mentasta | Tetlin | Gakona | Chistochina | Gulkana
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Qeqchi (i:2548)
 
-- Seeds: **6** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Putra Heights, Bukit Bintang, Bandar Sunway, Bandar Puncak Alam, Kota Damansara
+- Seeds: **0** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: 
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Kiche (i:2549)
 
-- Seeds: **9** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Bandar Sri Damansara, Taman Petaling, Denai Alam, Tropicana Indah, Taman Greenwood
+- Seeds: **38** | Min/Max: **25/40** | m=**2** | d=**lnrt** — N/A
+- Sample: Santa Cruz del Quiché | El Quiché | Chichicastenango | Chinique | Cunén
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Yucatec-Maya (i:2550)
 
-- Seeds: **5** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Mont Kiara, Taman OUG, Taman Tun Dr Ismail, Bangsar, Seremban 2
+- Seeds: **43** | Min/Max: **35/50** | m=**2** | d=**lnrt** — N/A
+- Sample: Mérida | Valladolid | Tizimín | Ticul | Oxkutzcab
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Totonac (i:2558)
 
-- Seeds: **5** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Totonac_language](https://en.wikipedia.org/wiki/Totonac_language)
-- Sample: Bandar Country Homes, Alam Damai, SS2, Sungai Jawi, Bandar Saujana Utama
+- Seeds: **81** | Min/Max: **4/17** | m=**0** | d=**lnrt** — N/A
+- Sample: Papantla | Pantepec | Coyutla | Coahuitlan | Zozocolco
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Qanjobal (i:2561)
 
-- Seeds: **10** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Bukit Rahman Putra, Setia Tropika, Bandar Tasik Puteri, Desa Petaling, Bukit Kerinchi
+- Seeds: **0** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: 
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Southern-Quechua (i:2565)
 
-- Seeds: **8** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: FELDA Chini, Bandar Baru Salak Tinggi, Bandar Utama, Bukit Jalil, Taman Desa
+- Seeds: **66** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Apurímac | Santo Tomás | La Convención | Tipón | Písac
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Tlingit (i:2611)
 
-- Seeds: **3** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Tlingit_language](https://en.wikipedia.org/wiki/Tlingit_language)
-- Sample: Ebute Ikorodu, Dutsen Wai, Burutu
+- Seeds: **30** | Min/Max: **4/13** | m=**0** | d=**lnrt** — N/A
+- Sample: Angoon | Hoonah | Kake | Pelican | Sitka
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Salish (i:2613)
 
-- Seeds: **6** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Salishan_languages](https://en.wikipedia.org/wiki/Salishan_languages)
-- Sample: Buguma, Bode Saadu, Birnin Kudu, Sofo-Birnin-Gwari, Biliri
+- Seeds: **62** | Min/Max: **4/16** | m=**0** | d=**lnrt** — N/A
+- Sample: Vancouver | Victoria | Seattle | Portland | Bellingham
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Innu (i:2662)
 
-- Seeds: **10** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Innu_language](https://en.wikipedia.org/wiki/Innu_language)
-- Sample: Nelson Region, Rolleston, Tasman District, Pukekohe East, Palmerston North
+- Seeds: **29** | Min/Max: **4/18** | m=**0** | d=**lnrt** — N/A
+- Sample: Mashteuiatsh | Pessamit | Betsiamites | Ekuanitshit | Natashquan
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Amuzgo (i:3330)
 
-- Seeds: **8** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Amuzgo_language](https://en.wikipedia.org/wiki/Amuzgo_language)
-- Sample: Ayala Alabang, Banco Filipino Homes, General Salipada K. Pendatun, Bagong Silang, Al-Barka
+- Seeds: **25** | Min/Max: **6/19** | m=**0** | d=**lnrt** — N/A
+- Sample: Xochistlahuaca | Tlacoachistlahuaca | Ometepec | Cosuyoapan | Zacoalpa
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Sierra Popoluca (i:5828)
 
-- Seeds: **10** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/ISO_639:poi](https://en.wikipedia.org/wiki/ISO_639:poi)
-- Sample: Świerczewo, Osiedle Kosmonautów, Rejon placu Grunwaldzkiego, Rejon ulicy Traugutta, Kozanów
+- Seeds: **11** | Min/Max: **5/18** | m=**0** | d=**lnrt** — N/A
+- Sample: Soteapan | Tatahuicapan | Hueyapan de Ocampo | Catemaco | Piedra Labrada
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
-## Tlapanec (MeÎ©â‚§Ã®phaa) (i:5829)
+## Tlapanec (Me'phaa) (i:5829)
 
-- Seeds: **9** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: Pitcairn, Aguadilla, Arecibo, Barceloneta, Bayamón
+- Seeds: **33** | Min/Max: **5/26** | m=**0** | d=**lnrt** — N/A
+- Sample: Tlapa de Comonfort | La Montana | Atlamajalcingo del Monte | Acatepec | Alpoyeca
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Paipai (i:5830)
 
-- Seeds: **6** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/ISO_639:ppi](https://en.wikipedia.org/wiki/ISO_639:ppi)
-- Sample: Fajardo, Guayama, Manati, Mayagueez, Palestine
+- Seeds: **33** | Min/Max: **6/29** | m=**0** | d=**lnrt** — N/A
+- Sample: Santa Catarina | San Isidoro | El Alamo | Valle de la Trinidad | Rincon de Santa Catarina
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
-## Coast Tsimshian (SmÎ“Ã‡Ã–algyaâ• â–’x) (i:5832)
+## Coast Tsimshian (Sm'algyax) (i:5832)
 
-- Seeds: **9** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: Ma‘ale Adummim, Janīn, Idhnā, Ḩalḩūl, Dūrā
+- Seeds: **31** | Min/Max: **4/16** | m=**0** | d=**lnrt** — N/A
+- Sample: Lax Kwalaams | Port Simpson | Kitsumkalum | Terrace | Prince Rupert
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Dakota (i:6110)
 
-- Seeds: **1** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Dakota_language](https://en.wikipedia.org/wiki/Dakota_language)
-- Sample: Quelfes
+- Seeds: **46** | Min/Max: **4/18** | m=**0.3** | d=**lnrt** — N/A
+- Sample: Iyakton | Mni Wakan | Bde Maka Ska | Imnižaska Othuŋwe | Kȟaȟpakhpa
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Crow (i:6111)
 
-- Seeds: **4** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Crow_language](https://en.wikipedia.org/wiki/Crow_language)
-- Sample: Lumiar, Loures, Loulé, Linda-a-Velha
+- Seeds: **30** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
+- Sample: Crow Agency | Lodge Grass | Pryor | Wyola | St. Xavier
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Mixe (i:6622)
 
-- Seeds: **8** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Mixe_language](https://en.wikipedia.org/wiki/Mixe_language)
-- Sample: São Mamede de Infesta, São João da Madeira, Santo Ovídio, Santo António dos Olivais, Ribeira de Frades
+- Seeds: **31** | Min/Max: **11/28** | m=**0** | d=**lnrt** — N/A
+- Sample: Totontepec Villa de Morelos | Tlahuitoltepec | San Pedro y San Pablo Ayutla | Tamazulapan | Santa Maria Tlahuitoltepec
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Tabasco Zoque (i:6623)
 
-- Seeds: **6** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Tabasco_Zoque_language](https://en.wikipedia.org/wiki/Tabasco_Zoque_language)
-- Sample: Ovar, Oliveira do Douro, Lordelo do Ouro, Leça do Bailio, Leça da Palmeira
+- Seeds: **29** | Min/Max: **4/16** | m=**0** | d=**lnrt** — N/A
+- Sample: Huimanguillo | Cardenas | Comalcalco | Cunduacan | Paraiso
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Chochotec (i:6624)
 
-- Seeds: **2** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Chochotec_language](https://en.wikipedia.org/wiki/Chochotec_language)
-- Sample: Fânzeres, Fafe
+- Seeds: **26** | Min/Max: **4/30** | m=**0.9** | d=**lnrt** — N/A
+- Sample: San Juan Bautista Tuxtepec | Valle Nacional | San Felipe Usila | Santiago Choapam | Santa Maria Chilchotla
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Ixcatec (i:6625)
 
-- Seeds: **4** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Ixcatec_language](https://en.wikipedia.org/wiki/Ixcatec_language)
-- Sample: Alfragide, Alvalade, Azores, São Jorge de Arroios
+- Seeds: **29** | Min/Max: **4/30** | m=**0.9** | d=**lnrt** — N/A
+- Sample: Santa Maria Ixcatlan | Huautla de Jimenez | Jalapa de Diaz | San Jose Tenango | San Lucas Ojitlan
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Q'anjob'al (i:6626)
 
-- Seeds: **8** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Q'anjob'al_language](https://en.wikipedia.org/wiki/Q'anjob'al_language)
-- Sample: Azeitão, Parque das Nações, Cidade Universitária, Campo De Ourique, Yby Yaú
+- Seeds: **31** | Min/Max: **5/18** | m=**0.47** | d=**abcdefghijklmnopqrstuvwxyz' ** — N/A
+- Sample: Santa Eulalia | Jolom Konob' | San Pedro Soloma | Tz'uluma' | San Juan Ixcoy
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Eyak (i:6630)
 
-- Seeds: **8** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: Presidente Franco, Alto Parana Department, Neembucu Department, Amambay Department, Boqueron Department
+- Seeds: **4** | Min/Max: **0/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Cordova | Alaganik | Tatitlek | Yakutat
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Dena'ina (i:6631)
 
-- Seeds: **7** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Dena%27ina_language](https://en.wikipedia.org/wiki/Dena%27ina_language)
-- Sample: Caaguazu Department, Caazapá, Cordillera Department, Al ‘Unayzah, Baladiyat ad Dawhah
+- Seeds: **14** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Eklutna | Knik | Tyonek | Susitna | Talkeetna
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Chipewyan (i:6632)
 
-- Seeds: **10** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Chipewyan_language](https://en.wikipedia.org/wiki/Chipewyan_language)
-- Sample: Nu‘ayjah, Mu‘aydhir Rawḑat Rāshid, Baladiyat ar Rayyan, Madīnat Khalīfah, Az̧ Z̧a‘āyin
+- Seeds: **35** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Fort McMurray | Fort McKay | Fort Chipewyan | Lac La Biche | Cold Lake
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Holikachuk (i:6636)
 
-- Seeds: **3** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Holikachuk_language](https://en.wikipedia.org/wiki/Holikachuk_language)
-- Sample: Farīj al Amīr, Réunion, Piton Saint-Leu
+- Seeds: **5** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Holikachuk | Grayling | Anvik | Shageluk | Holy Cross
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Koyukon (i:6637)
 
-- Seeds: **12** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Koyukon_language](https://en.wikipedia.org/wiki/Koyukon_language)
-- Sample: Romania, Teleorman County, Zărnești, Brasov County, Salaj County
+- Seeds: **25** | Min/Max: **4/14** | m=**0** | d=**lnrt** — N/A
+- Sample: Koyukuk | Galena | Nulato | Huslia | Hughes
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Upper Kuskokwim (i:6639)
 
-- Seeds: **10** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: Ialomita County, Cluj County, Tulcea County, Târnăveni, Mures County
+- Seeds: **3** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Nikolai | Telida | McGrath
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Upper Tanana (i:6640)
 
-- Seeds: **8** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: Timis County, Galati County, Olt, Sibiu County, Alba County
+- Seeds: **6** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Northway | Tetlin | Tok | Nabesna | Beaver Creek
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Kiowa (i:7242)
 
-- Seeds: **10** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Kiowa_language](https://en.wikipedia.org/wiki/Kiowa_language)
-- Sample: Zelenchukskaya, Karachayevo-Cherkesiya Republic, Zavolzh’ye, Zavety Il’icha, Zarechnyy
+- Seeds: **36** | Min/Max: **4/20** | m=**0** | d=**lnrt** — N/A
+- Sample: Cache | Carnegie | Elgin | Lawton | Anadarko
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Tewa (i:7243)
 
-- Seeds: **11** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Tewa_language](https://en.wikipedia.org/wiki/Tewa_language)
-- Sample: Yur’yev-Pol’skiy, Vladimir Oblast, Mariy-El Republic, Yeysk, Yessentukskaya
+- Seeds: **31** | Min/Max: **4/18** | m=**0** | d=**lnrt** — N/A
+- Sample: Nambe Pueblo | Pojoaque Pueblo | San Ildefonso Pueblo | Ohkay Owingeh | Santa Clara Pueblo
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Choctaw (i:7365)
 
-- Seeds: **9** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Choctaw_language](https://en.wikipedia.org/wiki/Choctaw_language)
-- Sample: Vol’sk, Volokolamsk, Vologda, Vologda Oblast, Nagornyy
+- Seeds: **35** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
+- Sample: Bokchito | Bokoshe | Keota | Kinta | Pocola
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Muscogee (i:7366)
 
-- Seeds: **10** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Muscogee_language](https://en.wikipedia.org/wiki/Muscogee_language)
-- Sample: North Ossetia-Alania, Vidnoye, Vichuga, Ivanovo Oblast, Veshnyaki
+- Seeds: **26** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Okmulgee | Muskogee | Sapulpa | Henryetta | Wetumka
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Mikasuki (i:7367)
 
-- Seeds: **10** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: Valuyki, Valday, Novgorod Oblast, Vagonoremont, Uzlovaya
+- Seeds: **51** | Min/Max: **4/14** | m=**0** | d=**lnrt** — N/A
+- Sample: Miccosukee | Immokalee | Ahfachokee | Ochopee | Clewiston
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Comanche (i:7835)
 
-- Seeds: **4** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Comanche_language](https://en.wikipedia.org/wiki/Comanche_language)
-- Sample: Severnyy, Setun’, Sestroretsk, Sertolovo
+- Seeds: **37** | Min/Max: **4/18** | m=**0** | d=**lnrt** — N/A
+- Sample: Lawton | Fletcher | Apache | Cyril | Indiahoma
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Hopi (i:7836)
 
-- Seeds: **1** | Min/Max: **4/11** | m=**0** | d=**y** — [https://en.wikipedia.org/wiki/Hopi_language](https://en.wikipedia.org/wiki/Hopi_language)
-- Sample: Mordoviya Republic
+- Seeds: **25** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
+- Sample: Tuba City | Moenave | Hotevilla | Bacavi | Old Oraibi
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Shoshoni (i:7837)
 
-- Seeds: **0** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Shoshoni_language](https://en.wikipedia.org/wiki/Shoshoni_language)
-- Sample: 
+- Seeds: **26** | Min/Max: **4/15** | m=**0** | d=**lnrt** — N/A
+- Sample: Wells | Elko | Lamoille | North Fork | Tuscarora
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Kalaallisut (i:8050)
 
-- Seeds: **9** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Greenlandic_language](https://en.wikipedia.org/wiki/Greenlandic_language)
-- Sample: Novaya Usman’, Novaya Derevnya, Noginsk, Nizhnyaya Tura, Nizhny Tagil
+- Seeds: **53** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Nuuk | Sisimiut | Ilulissat | Qaqortoq | Maniitsoq
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Chontal Maya (i:8055)
 
-- Seeds: **8** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: Manturovo, Yaroslavskiy, Maloyaroslavets, Malakhovka, Magnitogorsk
+- Seeds: **7** | Min/Max: **7/11** | m=**0** | d=**** — N/A
+- Sample: Nacajuca | Centla | Jonuta | Macuspana | Balancan
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Cora (i:8057)
 
-- Seeds: **9** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Cora_language](https://en.wikipedia.org/wiki/Cora_language)
-- Sample: Lytkarino, Lys’va, Luzhniki, Lukhovitsy, Losino-Petrovskiy
+- Seeds: **28** | Min/Max: **4/22** | m=**0** | d=**lnrt** — N/A
+- Sample: Jesus Maria de Oro | Mesa del Nayar | Santa Teresa | San Francisco | San Juan Corapan
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Alutiiq (i:8111)
 
-- Seeds: **7** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Alutiiq_language](https://en.wikipedia.org/wiki/Alutiiq_language)
-- Sample: Kurchatov, Kupchino, Kuntsevo, Kukmor, Kudrovo
+- Seeds: **28** | Min/Max: **4/13** | m=**0.1** | d=**lnrtk** — N/A
+- Sample: Kodiak | Chignik | Port Lions | Old Harbor | Alitak
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Huichol (i:8118)
 
-- Seeds: **9** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Huichol_language](https://en.wikipedia.org/wiki/Huichol_language)
-- Sample: Kholmskiy, Khimki, Kharabali, Khadyzhensk, Katav-Ivanovsk
+- Seeds: **5** | Min/Max: **16/28** | m=**0** | d=**lnrt** — N/A
+- Sample: San Andres Cohamiata | Santa Maria de Ocotan | San Sebastian Teponahuastlan | San Miguel Huaixtita | San Juan Ocotlan
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Inuinnaqtun (i:8119)
 
-- Seeds: **8** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Inuinnaqtun](https://en.wikipedia.org/wiki/Inuinnaqtun)
-- Sample: Karachev, Karabanovo, Kapotnya, Kantyshevo, Kanevskaya
+- Seeds: **5** | Min/Max: **6/12** | m=**0** | d=**lnrtk** — N/A
+- Sample: Ulukhaktok | Cambridge Bay | Kugluktuk | Bathurst Inlet | Umingmaktok
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Q'eqchi' (i:8125)
 
-- Seeds: **9** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Q'eqchi'_language](https://en.wikipedia.org/wiki/Q'eqchi'_language)
-- Sample: Kamenka, Kaluga, Kalininsk, Korolev, Kalach-na-Donu
+- Seeds: **25** | Min/Max: **5/17** | m=**0.52** | d=**lnrt** — N/A
+- Sample: Coban | San Pedro Carcha | San Juan Chamelco | Cahabon | Senahu
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Tzeltal (i:8126)
 
-- Seeds: **7** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Tzeltal_language](https://en.wikipedia.org/wiki/Tzeltal_language)
-- Sample: Izmaylovo, Ivanteyevka, Istra, Ipatovo, Inozemtsevo
+- Seeds: **32** | Min/Max: **5/19** | m=**0.27** | d=**** — N/A
+- Sample: Ocosingo | Altamirano | Huixtan | Tenejapa | Yajalon
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Tzotzil (i:8127)
 
-- Seeds: **8** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Tzotzil_language](https://en.wikipedia.org/wiki/Tzotzil_language)
-- Sample: Gusev, Gul’kevichi, Gukovo, Gubkin, Gubakha
+- Seeds: **41** | Min/Max: **4/21** | m=**0.18** | d=**** — N/A
+- Sample: Chamula | Zinacantán | San Andrés Larráinzar | Chenalhó | Huixtán
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Yucatec Maya (i:8128)
 
-- Seeds: **0** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Yucatec_Maya_language](https://en.wikipedia.org/wiki/Yucatec_Maya_language)
+- Seeds: **0** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
 - Sample: 
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Kaqchikel (i:8129)
 
-- Seeds: **1** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Kaqchikel_language](https://en.wikipedia.org/wiki/Kaqchikel_language)
-- Sample: Kalmykiya Republic
+- Seeds: **50** | Min/Max: **6/25** | m=**0.7** | d=**Kaqchikel (use the language's own documented toponyms and Spanish-saint municipio names; glottalized consonants bʼ qʼ tzʼ tʼ chʼ kʼ and x=ʃ are distinctive)** — N/A
+- Sample: Tecpán | Patzún | Patzicía | San José Poaquil | San Martín Jilotepeque
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Ixil (i:8130)
 
-- Seeds: **4** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: Davydkovo, Dankov, Danilov, Dachnoye
+- Seeds: **27** | Min/Max: **3/14** | m=**0** | d=**** — N/A
+- Sample: Nebaj | Chajul | Cotzal | Santa Avelina | Acul
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Jakaltek (i:8131)
 
-- Seeds: **7** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: Chudovo, Chernyanka, Chernyakhovsk, Chernogolovka, Cherepovets
+- Seeds: **44** | Min/Max: **4/21** | m=**0.18** | d=**** — N/A
+- Sample: Jacaltenango | Concepcion Huista | San Antonio Huista | Santa Ana Huista | Aqoma
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## K'iche' (i:8132)
 
-- Seeds: **8** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/K'iche'_language](https://en.wikipedia.org/wiki/K'iche'_language)
-- Sample: Chaykovskiy, Chapayevsk, Buzuluk, Buy, Buturlinovka
+- Seeds: **40** | Min/Max: **6/22** | m=**0.45** | d=**K'iche' place names draw from Spanish saint-compound municipios (multi-word, e.g. San Antonio Ilotenango, Santa María Chiquimula) and short K'iche' autonyms (Q'umarkaj, Nawala', Xelajú, Cantel, Zunil). Multi-word Spanish names raise m above 0.** — N/A
+- Sample: Santa Cruz del Quiché | Chichicastenango | Chiché | Chinique | Zacualpa
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Lacandon (i:8133)
 
-- Seeds: **9** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: Bryansk, Bronnitsy, Brateyevo, Borovichi, Borisoglebsk
+- Seeds: **4** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Naha | Betel | Lacanja San Quintin | Metzaboc
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Mam (i:8134)
 
-- Seeds: **8** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Mam_language](https://en.wikipedia.org/wiki/Mam_language)
-- Sample: Bogorodsk, Bogoroditsk, Bobrov, Blagodarnyy, Biryulëvo
+- Seeds: **33** | Min/Max: **6/23** | m=**0.62** | d=**** — N/A
+- Sample: Todos Santos Cuchumatán | San Juan Atitán | Colotenango | San Pedro Necta | San Gaspar Ixchil
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Poqomam (i:8136)
 
-- Seeds: **0** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Poqomam_language](https://en.wikipedia.org/wiki/Poqomam_language)
-- Sample: 
+- Seeds: **6** | Min/Max: **4/11** | m=**0.2** | d=**lnrt** — N/A
+- Sample: Chinautla | Mixco | San Luis Jilotepeque | San Pedro Pinula | San Carlos Alzatate
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Poqomchi' (i:8137)
 
-- Seeds: **1** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Poqomchi'_language](https://en.wikipedia.org/wiki/Poqomchi'_language)
-- Sample: Aleksandrovsk
+- Seeds: **25** | Min/Max: **4/18** | m=**0.1** | d=**** — N/A
+- Sample: San Cristobal Verapaz | Tactic | Tamahu | Tucuru | Santa Cruz Verapaz
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Tz'utujil (i:8139)
 
-- Seeds: **9** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: Dagomys, Gorod Shebekino, Belidzhi, Lesnoy, Trëkhgornyy
+- Seeds: **29** | Min/Max: **4/18** | m=**0.1** | d=**** — N/A
+- Sample: Santiago Atitlan | San Pedro La Laguna | San Juan La Laguna | San Marcos La Laguna | Santa Cruz La Laguna
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Sakapultek (i:8141)
 
-- Seeds: **9** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: Obukhovo, Staryy Malgobek, Zavodoukovsk, Altai Krai, Yuzhnyy
+- Seeds: **1** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Sacapulas
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Sipakapense (i:8142)
 
-- Seeds: **8** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Sipakapense_language](https://en.wikipedia.org/wiki/Sipakapense_language)
-- Sample: Yemanzhelinsk, Yashkino, Yalutorovsk, Vorgashor, Verkhnyaya Salda
+- Seeds: **1** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Sipacapa
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Tektitek (i:8143)
 
-- Seeds: **7** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: Topki, Toguchin, Novosibirsk Oblast, Irkutsk Oblast, Tayga
+- Seeds: **5** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Tectitan | Cuilco | Amatenango de la Frontera | Frontera Comalapa | Mazapa de Madero
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Matlatzinca (i:8425)
 
-- Seeds: **2** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Matlatzinca_language](https://en.wikipedia.org/wiki/Matlatzinca_language)
-- Sample: Khakasiya Republic, Polevskoy
+- Seeds: **25** | Min/Max: **6/24** | m=**0** | d=**lnrt** — N/A
+- Sample: San Francisco Oxtotilpan | Temascaltepec | San Felipe del Progreso | San Lucas Ocotepec | Temoaya
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Mazahua (i:8426)
 
-- Seeds: **1** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Mazahua_language](https://en.wikipedia.org/wiki/Mazahua_language)
-- Sample: Myski
+- Seeds: **30** | Min/Max: **6/23** | m=**0** | d=**lnrt** — N/A
+- Sample: San Felipe del Progreso | San Lucas Ocotepec | Temoaya | San Antonio la Isla | Toluca
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Mixtec (i:8428)
 
-- Seeds: **8** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Mixtec_language](https://en.wikipedia.org/wiki/Mixtec_language)
-- Sample: Miass, Mezhdurechensk, Mariinsk, Linëvo, Leninsk-Kuznetsky
+- Seeds: **57** | Min/Max: **4/34** | m=**0.93** | d=**lnrt** — N/A
+- Sample: Tlaxiaco | Juxtlahuaca | San Juan Mixtepec | Santa Maria Peñoles | San Miguel el Grande
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Otomi (i:8429)
 
-- Seeds: **8** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Otomi_languages](https://en.wikipedia.org/wiki/Otomi_languages)
-- Sample: Kurtamysh, Kurgan, Kupino, Krasnoural’sk, Krasnoturinsk
+- Seeds: **27** | Min/Max: **4/18** | m=**0.33** | d=**kpt** — N/A
+- Sample: San Juan Bautista Ixtenco | Santiago Tlazoyaltepec | San Jeronimo Acazulco | San Pedro Atlapulco | Santiago Tilapa
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Zapotec (i:8430)
 
-- Seeds: **4** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Zapotec_languages](https://en.wikipedia.org/wiki/Zapotec_languages)
-- Sample: Kodinsk, Kochenëvo, Kiselëvsk, Kirovgrad
+- Seeds: **0** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: 
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Mayo (i:8481)
 
-- Seeds: **0** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Mayo_language](https://en.wikipedia.org/wiki/Mayo_language)
-- Sample: 
+- Seeds: **29** | Min/Max: **4/21** | m=**0.15** | d=**lnrt** — N/A
+- Sample: Navojoa | Huatabampo | Etchojoa | Alamos | Quiriego
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## O'odham (i:8483)
 
-- Seeds: **8** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/O%27odham_language](https://en.wikipedia.org/wiki/O%27odham_language)
-- Sample: Chebarkul’, Borovskiy, Bolotnoye, Bogdanovich, Beryozovsky
+- Seeds: **30** | Min/Max: **4/17** | m=**0.1** | d=**lnrt** — N/A
+- Sample: Sells | Topawa | Gu Vo | Chukson | Ali Chuk
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Pima Bajo (i:8484)
 
-- Seeds: **9** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Pima_Bajo_language](https://en.wikipedia.org/wiki/Pima_Bajo_language)
-- Sample: Belyy Yar, Belovo, Barabinsk, Asino, Asbest
+- Seeds: **27** | Min/Max: **4/21** | m=**0** | d=**lnrt** — N/A
+- Sample: Yepachic | Maycoba | Yecora | Oquitoa | Atil
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Tarahumara (i:8485)
 
-- Seeds: **3** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Tarahumara_language](https://en.wikipedia.org/wiki/Tarahumara_language)
-- Sample: Akademgorodok, Snezhinsk, Ozersk
+- Seeds: **25** | Min/Max: **5/13** | m=**0** | d=**lnrt** — N/A
+- Sample: Creel | Batopilas | Guachochi | Norogachi | Temosachi
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Huarijio (i:8486)
 
-- Seeds: **2** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Huarijio_language](https://en.wikipedia.org/wiki/Huarijio_language)
-- Sample: Primorye, Buryatiya Republic
+- Seeds: **25** | Min/Max: **5/18** | m=**0** | d=**lnrt** — N/A
+- Sample: Alamos | Uruachi | Chinipas | Maguarichi | Guazapares
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Yaqui (i:8487)
 
-- Seeds: **6** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Yaqui_language](https://en.wikipedia.org/wiki/Yaqui_language)
-- Sample: Petrovsk-Zabaykal’skiy, Zabaykalskiy (Transbaikal) Kray, Partizansk, Neryungri, Luchegorsk
+- Seeds: **25** | Min/Max: **5/21** | m=**0** | d=**lnrt** — N/A
+- Sample: Guaymas | San Carlos | Bahia Kino | Puerto Lobos | Punta Tepopa
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Iñupiaq (i:13194)
 
-- Seeds: **5** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/I%C3%B1upiaq_language](https://en.wikipedia.org/wiki/I%C3%B1upiaq_language)
-- Sample: Ennedi-Ouest, Ouadai, Mayo-Kebbi Ouest, Barh el Gazel, Logone Occidental
+- Seeds: **29** | Min/Max: **4/12** | m=**0.08** | d=**lnrtk** — N/A
+- Sample: Utqiaġvik | Wainwright | Tikiġaq | Point Lay | Kivalina
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Inuvialuktun (i:13195)
 
-- Seeds: **4** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Inuvialuktun](https://en.wikipedia.org/wiki/Inuvialuktun)
-- Sample: Moïssala, Hadjer-Lamis, Tandjile, Mayo-Kebbi Est
+- Seeds: **6** | Min/Max: **5/11** | m=**0** | d=**lnrtk** — N/A
+- Sample: Inuvik | Tuktoyaktuk | Aklavik | Paulatuk | Sachs Harbour
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Blackfoot (i:13243)
 
-- Seeds: **3** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Blackfoot_language](https://en.wikipedia.org/wiki/Blackfoot_language)
-- Sample: Ennedi-Est, French Southern Territories, Kerguelen
+- Seeds: **31** | Min/Max: **4/16** | m=**0** | d=**lnrt** — N/A
+- Sample: Siksika | Stand Off | Brocket | Cardston | Glenwood
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Haida (i:13539)
 
-- Seeds: **8** | Min/Max: **4/12** | m=**0** | d=**nr** — [https://en.wikipedia.org/wiki/Haida_language](https://en.wikipedia.org/wiki/Haida_language)
-- Sample: Lom Sak, Laem Sing, Laem Ngop, Kut Chap, Kuchinarai
+- Seeds: **38** | Min/Max: **4/14** | m=**0** | d=**lnrt** — N/A
+- Sample: Hydaburg | Kasaan | Prince of Wales | Masset | Skidegate
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Garifuna (i:13716)
 
-- Seeds: **10** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Garifuna_language](https://en.wikipedia.org/wiki/Garifuna_language)
-- Sample: Khetsamsenok, Chorakhe Bua, Chan Kasem, Khwaeng Bang Plat, Khlong Sam Wa
+- Seeds: **38** | Min/Max: **4/14** | m=**0** | d=**lnrt** — N/A
+- Sample: Dangriga | Hopkins | Placentia | Punta Gorda | Livingston
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Keresan (i:13856)
 
-- Seeds: **9** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Keres_language](https://en.wikipedia.org/wiki/Keres_language)
-- Sample: Sbeitla, Siliana, Siliana Governorate, Sidi Bouzid, Sidi Bouzid Governorate
+- Seeds: **32** | Min/Max: **4/13** | m=**0** | d=**lnrt** — N/A
+- Sample: Acoma | Laguna | Cochiti | Santo Domingo | San Felipe
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
-## Algonquian-Basque pidgin (dedicated) (i:20074)
+## Algonquian-Basque pidgin (i:20074)
 
-- Seeds: **9** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: Sultanbeyli, Sancaktepe, Karabağlar, İncirli, Oba
+- Seeds: **0** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: 
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
-## Almosan (dedicated) (i:20076)
+## Almosan (i:20076)
 
-- Seeds: **9** | Min/Max: **4/11** | m=**0** | d=**l** — N/A
-- Sample: Şemikler, Nilüfer, Merkezefendi, Altınşehir, Trinidad and Tobago
+- Seeds: **0** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: 
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
-## American Indian Pidgin English (dedicated) (i:20101)
+## American Indian Pidgin English (i:20101)
 
-- Seeds: **7** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: Citong, Donggang, Caotun, Toufen, Tianwei
+- Seeds: **0** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: 
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Anguillian Creole (dedicated) (i:20106)
 
-- Seeds: **6** | Min/Max: **4/11** | m=**0** | d=**a** — N/A
-- Sample: Jinhu, Fukien, Xiluo, Erlin, Zhudong
+- Seeds: **0** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: 
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Bahamian Creole (dedicated) (i:20107)
 
-- Seeds: **11** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: Zhongxing New Village, New Taipei City, Tanzania, United Republic of, Zanzibar Urban/West
+- Seeds: **0** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: 
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Bajan Creole (dedicated) (i:20108)
 
-- Seeds: **9** | Min/Max: **4/11** | m=**0** | d=**l** — N/A
-- Sample: Uvinza, Utengule, Ushirombo, Usevia, Usangi
+- Seeds: **0** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: 
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Belizean Creole (dedicated) (i:20109)
 
-- Seeds: **9** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: Tukuyu, Tinde, Rukwa, Songwa, Somanda
+- Seeds: **0** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: 
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Bocas del Toro Creole (dedicated) (i:20110)
 
-- Seeds: **9** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: Sikonge, Shelui, Shanwa, Sepuka, Sengerema
+- Seeds: **0** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: 
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Grenadian Creole English (dedicated) (i:20175)
 
-- Seeds: **9** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: Telychka, Siverskodonetsk, Svitlovodsk, Dovzhansk, Svatove
+- Seeds: **0** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: 
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Leeward Caribbean Creole English (dedicated) (i:20176)
 
-- Seeds: **10** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: Starokostyantyniv, Starobilsk, Stara Darnytsya, Kadiyivka, Sotsmisto
+- Seeds: **0** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: 
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Limonese Creole (dedicated) (i:20177)
 
-- Seeds: **10** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: Skvyra, Skadovsk, Synelnykove, Simferopol, Sykhiv
+- Seeds: **0** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: 
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Miskito Coast Creole (dedicated) (i:20178)
 
-- Seeds: **8** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: Selydove, Sarny, Sambir, Rubizhne, Rozdilna
+- Seeds: **0** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: 
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Montserrat Creole (dedicated) (i:20179)
 
-- Seeds: **9** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: Radomyshl, Pyatykhatky, Pryluky, Chernihiv Oblast, Popasna
+- Seeds: **0** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: 
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Rama Cay Creole (dedicated) (i:20180)
 
-- Seeds: **0** | Min/Max: **4/11** | m=**0** | d=**n** — N/A
+- Seeds: **0** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
 - Sample: 
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Saint Kitts Creole (dedicated) (i:20181)
 
-- Seeds: **7** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: Netishyn, Nadvirna, Mykolayiv, Mostyska, Otamanivka
+- Seeds: **0** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: 
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Tobagonian Creole (dedicated) (i:20183)
 
-- Seeds: **8** | Min/Max: **4/11** | m=**0** | d=**y** — N/A
-- Sample: Merefa, Masany, Marhanets, Malyn, Makiyivka
+- Seeds: **0** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: 
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Trinidadian Creole (dedicated) (i:20184)
 
-- Seeds: **4** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: Lozova, Lysychansk, Ladyzhyn, Kupyansk
+- Seeds: **0** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: 
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Turks and Caicos Creole (dedicated) (i:20185)
 
-- Seeds: **4** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: Kostyantynivka, Slobozhanske, Kolomyia, Khrestivka
+- Seeds: **0** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: 
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Vincentian Creole (dedicated) (i:20186)
 
-- Seeds: **8** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: Holubivka, Kropyvnytskyi, Kiliya, Khmilnyk, Khartsyzk
+- Seeds: **0** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: 
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Virgin Islands Creole (dedicated) (i:20187)
 
-- Seeds: **9** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: Kaniv, Kamyanets-Podilskyi, Kalush, Kalynivka, Kakhovka
+- Seeds: **0** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: 
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Jamaican Maroon Creole (dedicated) (i:20188)
 
-- Seeds: **10** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: Inhulets, Ilovays’k, Chornomors’k, Horodok, Horlivka
+- Seeds: **0** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: 
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Jersey Dutch (dedicated) (i:20213)
 
-- Seeds: **5** | Min/Max: **4/11** | m=**0** | d=**g** — N/A
-- Sample: Rutoma, Western Region, Nyahuka, Nyachera, Namayumba
+- Seeds: **34** | Min/Max: **4/15** | m=**0.26** | d=**lnrt** — N/A
+- Sample: Jersey City | Hoboken | Newark | Paterson | Trenton
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Spanglish (dedicated) (i:20219)
 
-- Seeds: **7** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Katabi, Kasozi, Kasanje, Kasangati, Kasanda
+- Seeds: **41** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: San Antonio | El Paso | Laredo | McAllen | Corpus Christi
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Purépecha (i:21001)
 
-- Seeds: **3** | Min/Max: **5/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Pur%C3%A9pecha_language](https://en.wikipedia.org/wiki/Pur%C3%A9pecha_language)
-- Sample: Dolton, Downers Grove, East Garfield Park
+- Seeds: **50** | Min/Max: **6/24** | m=**0** | d=**lnrt** — N/A
+- Sample: Patzcuaro | Uruapan | Zamora | Jiquilpan | Zitacuaro
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Huave (i:21002)
 
-- Seeds: **8** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Huave_language](https://en.wikipedia.org/wiki/Huave_language)
-- Sample: East Moline, East Peoria, Elk Grove Village, Elmhurst, Elmwood Park
+- Seeds: **40** | Min/Max: **7/23** | m=**0** | d=**lnrt** — N/A
+- Sample: San Mateo del Mar | San Dionisio del Mar | San Francisco del Mar | Santa Maria del Mar | Guazontlan
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Joual (i:21006)
 
-- Seeds: **9** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: Logan Square, Lombard, Loves Park, Lower West Side, Machesney Park
+- Seeds: **91** | Min/Max: **4/28** | m=**0** | d=**lnrt** — N/A
+- Sample: Montreal | Quebec City | Trois-Rivières | Sherbrooke | Saguenay
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Cocopa (i:21114)
 
-- Seeds: **8** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Cocopah_language](https://en.wikipedia.org/wiki/Cocopah_language)
-- Sample: Holtsville, Howard Beach, Huntington Station, Hunts Point, Irondequoit
+- Seeds: **26** | Min/Max: **4/21** | m=**0** | d=**lnrt** — N/A
+- Sample: Cocopa | Yuma | Somerton | Poston | Winterhaven
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Chiac (i:21117)
 
-- Seeds: **8** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Chiac](https://en.wikipedia.org/wiki/Chiac)
-- Sample: Kew Gardens, Kings Bridge, Kings Park, Kiryas Joel, Lackawanna
+- Seeds: **54** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Chiac | Moncton | Dieppe | Shediac | Bouctouche
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Spanglish (i:200231)
 
-- Seeds: **32** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: El Cenizo, La Joya, Los Fresnos, Hidalgo, Laredo
+- Seeds: **0** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: 
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Anguillian Creole (i:200625)
 
-- Seeds: **38** | Min/Max: **5/14** | m=**0** | d=**lr** — N/A
-- Sample: The Valley, Blowing Point, The Quarter, North Hill, South Hill
+- Seeds: **38** | Min/Max: **4/16** | m=**0** | d=**lnrt** — N/A
+- Sample: The Valley | The Quarter | North Hill | South Hill | Stoney Ground
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Bahamian Creole (i:200626)
 
-- Seeds: **35** | Min/Max: **5/14** | m=**0** | d=**belnrt** — N/A
-- Sample: Nassau, Freeport, West End, Lucaya, Eight Mile Rock
+- Seeds: **27** | Min/Max: **4/16** | m=**0.27** | d=**lnrt** — N/A
+- Sample: Nassau | Freeport | West End | Lucaya | Eight Mile Rock
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Bajan Creole (i:200627)
 
-- Seeds: **41** | Min/Max: **4/14** | m=**0** | d=**elnost** — N/A
-- Sample: Bridgetown, Speightstown, Holetown, Oistins, Crab Hill
+- Seeds: **27** | Min/Max: **4/16** | m=**0.27** | d=**lnrt** — N/A
+- Sample: Bridgetown | Holetown | Oistins | Speightstown | Warrens
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Belizean Creole (i:200628)
 
-- Seeds: **38** | Min/Max: **5/16** | m=**0** | d=**beflmst** — N/A
-- Sample: Belize City, Belmopan, San Ignacio, Orange Walk Town, Corozal Town
+- Seeds: **38** | Min/Max: **4/23** | m=**0.34** | d=**lnrt** — N/A
+- Sample: Belize City | Belmopan | San Ignacio | Orange Walk Town | Corozal Town
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Bocas del Toro Creole (i:200629)
 
-- Seeds: **36** | Min/Max: **5/16** | m=**0** | d=**celoprst** — N/A
-- Sample: Bocas Town, Almirante, Changuinola, Isla Colón, Isla Bastimentos
+- Seeds: **10** | Min/Max: **4/15** | m=**0** | d=**lnrt** — N/A
+- Sample: Bocas Town | Almirante | Changuinola | Isla Colon | Isla Bastimentos
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Grenadian Creole English (i:200630)
 
-- Seeds: **40** | Min/Max: **4/14** | m=**0** | d=**elmr** — N/A
-- Sample: St. George's, Gouyave, Grenville, Victoria, Sauteurs
+- Seeds: **33** | Min/Max: **4/16** | m=**0.09** | d=**lnrt** — N/A
+- Sample: St. George's | Gouyave | Grenville | Sauteurs | Victoria
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Haitian Creole (i:200631)
 
-- Seeds: **37** | Min/Max: **4/14** | m=**0** | d=**lprs** — [https://en.wikipedia.org/wiki/Haitian_Creole](https://en.wikipedia.org/wiki/Haitian_Creole)
-- Sample: Port-au-Prince, Cap-Haïtien, Gonaïves, Les Cayes, Jacmel
+- Seeds: **37** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Port-au-Prince | Cap-Haïtien | Gonaïves | Les Cayes | Jacmel
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Jamaican Creole (i:200632)
 
-- Seeds: **36** | Min/Max: **4/16** | m=**0** | d=**flrt** — [https://en.wikipedia.org/wiki/Jamaican_Patois](https://en.wikipedia.org/wiki/Jamaican_Patois)
-- Sample: Kingston, Montego Bay, Spanish Town, Portmore, Mandeville
+- Seeds: **32** | Min/Max: **4/14** | m=**0.19** | d=**lnrt** — N/A
+- Sample: Kingston | Spanish Town | Portmore | Mandeville | May Pen
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Jamaican Patois (i:200633)
 
-- Seeds: **36** | Min/Max: **4/14** | m=**0** | d=**elnopt** — N/A
-- Sample: Kingston, Montego Bay, Spanish Town, Portmore, Mandeville
+- Seeds: **0** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: 
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Leeward Caribbean Creole English (i:200634)
 
-- Seeds: **34** | Min/Max: **5/16** | m=**0** | d=**lns** — N/A
-- Sample: St. John's, Basseterre, Charlestown, Brades, The Valley
+- Seeds: **29** | Min/Max: **4/17** | m=**0.43** | d=**lnrt** — N/A
+- Sample: Basseterre | Nevis | St. Kitts | Antigua | Barbuda
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Limonese Creole (i:200635)
 
-- Seeds: **37** | Min/Max: **5/14** | m=**0** | d=**defglprst** — N/A
-- Sample: Puerto Limón, Siquirres, Guápiles, Cahuita, Puerto Viejo
+- Seeds: **37** | Min/Max: **4/13** | m=**0.29** | d=**lnrt** — N/A
+- Sample: Puerto Limón | Siquirres | Guápiles | Cahuita | Puerto Viejo
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Miskito Coast Creole (i:200636)
 
-- Seeds: **32** | Min/Max: **4/12** | m=**0** | d=**eflopr** — N/A
-- Sample: Bluefields, Bilwi, Prinzapolka, Pearl Lagoon, Corn Islands
+- Seeds: **32** | Min/Max: **4/15** | m=**0.07** | d=**lnrt** — N/A
+- Sample: Bluefields | Bilwi | Prinzapolka | Pearl Lagoon | Corn Islands
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Montserrat Creole (i:200637)
 
-- Seeds: **37** | Min/Max: **5/16** | m=**0** | d=**o** — N/A
-- Sample: Brades, Salem, St. John's, St. Peter's, St. George's Hill
+- Seeds: **36** | Min/Max: **4/15** | m=**0.27** | d=**lnrt** — N/A
+- Sample: Brades | Salem | St. John's | St. Peter's | St. George's Hill
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Papiamento (i:200638)
 
-- Seeds: **36** | Min/Max: **5/14** | m=**0** | d=**elopst** — [https://en.wikipedia.org/wiki/Papiamento](https://en.wikipedia.org/wiki/Papiamento)
-- Sample: Oranjestad, Noord, San Nicolas, Santa Cruz, Savaneta
+- Seeds: **36** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Oranjestad | Noord | San Nicolas | Santa Cruz | Savaneta
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Rama Cay Creole (i:200639)
 
-- Seeds: **36** | Min/Max: **5/14** | m=**0** | d=**aemo** — N/A
-- Sample: Rama Cay, Sumu Kaat, Tiktik Kaanu, Wiring Cay, Bangkukuk
+- Seeds: **33** | Min/Max: **4/15** | m=**0.16** | d=**lnrt** — N/A
+- Sample: Rama Cay | Sumu Kaat | Tiktik Kaanu | Wiring Cay | Bangkukuk
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Saint Kitts Creole (i:200640)
 
-- Seeds: **31** | Min/Max: **6/20** | m=**0** | d=**aeo** — N/A
-- Sample: Basseterre, Sandy Point, St. Paul Capesterre, St. John Capesterre, St. Anne Sandy Point
+- Seeds: **28** | Min/Max: **4/24** | m=**0.74** | d=**lnrt** — N/A
+- Sample: Basseterre | Sandy Point Town | Charlestown | Cayon | Dieppe Bay Town
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## San Andrés-Providencia Creole (i:200641)
 
-- Seeds: **30** | Min/Max: **5/20** | m=**0** | d=**delnrst** — N/A
-- Sample: San Andrés, San Andrés El Centro, La Loma, North End, South End
+- Seeds: **29** | Min/Max: **4/18** | m=**0.46** | d=**lnrt** — N/A
+- Sample: San Andrés | San Andrés El Centro | La Loma | North End | South End
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Tobagonian Creole (i:200642)
 
-- Seeds: **35** | Min/Max: **5/16** | m=**0** | d=**ilnt** — N/A
-- Sample: Scarborough, Roxborough, Charlotteville, Castara, Parlatuvier
+- Seeds: **33** | Min/Max: **4/16** | m=**0.25** | d=**lnrt** — N/A
+- Sample: Scarborough | Roxborough | Castara | Parlatuvier | Speyside
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Trinidadian Creole (i:200643)
 
-- Seeds: **35** | Min/Max: **5/16** | m=**0** | d=**acelot** — N/A
-- Sample: Port of Spain, San Fernando, Chaguanas, Arima, Point Fortin
+- Seeds: **35** | Min/Max: **4/15** | m=**0.29** | d=**lnrt** — N/A
+- Sample: Port of Spain | San Fernando | Chaguanas | Arima | Point Fortin
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Pipil (Nawat) (i:200658)
 
-- Seeds: **37** | Min/Max: **6/16** | m=**0** | d=**lrst** — [https://en.wikipedia.org/wiki/Nawat_language_(typological_overview)](https://en.wikipedia.org/wiki/Nawat_language_(typological_overview))
-- Sample: Santo Domingo de Guzmán, Cuisnahuat, Nahuizalco, Izalco, Juayua
+- Seeds: **16** | Min/Max: **4/22** | m=**0.1** | d=**lnrt** — N/A
+- Sample: Sonsonate | Ahuachapan | Santa Ana | Tacuba | Panchimalco
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Ch'ol (i:200904)
 
-- Seeds: **33** | Min/Max: **5/16** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Ch'ol_language](https://en.wikipedia.org/wiki/Ch'ol_language)
-- Sample: Tumbalá, Tila, Sabanilla, Salto de Agua, Palenque
+- Seeds: **0** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: 
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Ch'olti' (i:200905)
 
-- Seeds: **34** | Min/Max: **5/12** | m=**0** | d=**l** — [https://en.wikipedia.org/wiki/Classic_Maya_language](https://en.wikipedia.org/wiki/Classic_Maya_language)
-- Sample: Copán, Quiriguá, Piedras Negras, Yaxchilán, Bonampak
+- Seeds: **0** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: 
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Itza' (i:200906)
 
-- Seeds: **35** | Min/Max: **5/16** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Itza'_language](https://en.wikipedia.org/wiki/Itza'_language)
-- Sample: San José, Petén, Tayasal, Nojpetén, San Andrés
+- Seeds: **0** | Min/Max: **4/11** | m=**null** | d=**lnrt** — N/A
+- Sample: 
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Mocho' (i:200907)
 
-- Seeds: **32** | Min/Max: **6/18** | m=**0** | d=**ei** — N/A
-- Sample: Motozintla, Tuzantán, Tapachula, Cacahoatán, Huixtla
+- Seeds: **2** | Min/Max: **9/9** | m=**0** | d=**** — N/A
+- Sample: Motozintla | Tuzantan
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Mopan (i:200908)
 
-- Seeds: **33** | Min/Max: **5/14** | m=**0** | d=**r** — N/A
-- Sample: San Luis, Poptún, Melchor de Mencos, Dolores, San Antonio
+- Seeds: **5** | Min/Max: **4/11** | m=**0.2** | d=**lnrt** — N/A
+- Sample: San Luis | Poptun | Melchor de Mencos | Dolores | San Antonio
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Sierra Juarez Zapotec (i:200909)
 
-- Seeds: **30** | Min/Max: **6/20** | m=**0** | d=**cdelost** — [https://en.wikipedia.org/wiki/Sierra_Ju%C3%A1rez_Zapotec](https://en.wikipedia.org/wiki/Sierra_Ju%C3%A1rez_Zapotec)
-- Sample: Ixtlán de Juárez, San Juan Yagila, Santa Cruz Yagavila, Santa María Yahuiche, Santa María Zoogochi
+- Seeds: **28** | Min/Max: **4/22** | m=**0.88** | d=**lnrt** — N/A
+- Sample: Ixtlan de Juarez | San Pablo Macuiltianguis | San Juan Yaehe | San Miguel Yaxhuahi | Santa Catarina Yaxhui
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
-## Tlapanec (Meꞌphaa) (i:200910)
+## Tlapanec (Me'phaa) (i:200910)
 
-- Seeds: **34** | Min/Max: **6/18** | m=**0** | d=**alo** — [https://en.wikipedia.org/wiki/ISO_639:tpx](https://en.wikipedia.org/wiki/ISO_639:tpx)
-- Sample: Tlapa de Comonfort, La Montaña, Atlamajalcingo del Monte, Acatepec, Alpoyeca
+- Seeds: **0** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: 
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Tojol-ab'al (i:200911)
 
-- Seeds: **33** | Min/Max: **5/14** | m=**0** | d=**lr** — N/A
-- Sample: Margaritas, Pakal, San Mateo, Nuevo Lomas, Maravilla Tenejapa
+- Seeds: **4** | Min/Max: **7/14** | m=**0** | d=**** — N/A
+- Sample: Las Margaritas | Comitan | La Trinitaria | La Independencia
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Trique (i:200912)
 
-- Seeds: **31** | Min/Max: **6/20** | m=**0** | d=**lr** — [https://en.wikipedia.org/wiki/Trique_language](https://en.wikipedia.org/wiki/Trique_language)
-- Sample: San Juan Copola, San Martín Itunyoso, Putla Villa de Guerrero, Constancia del Rosario, San Andrés Yutatío
+- Seeds: **28** | Min/Max: **4/26** | m=**0.9** | d=**lnrt** — N/A
+- Sample: Copala Trique | San Martin Itunyoso | Putla Villa de Guerrero | Constancia del Rosario | San Andres Chicahuaxtla
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Uspantek (i:200913)
 
-- Seeds: **32** | Min/Max: **5/14** | m=**0** | d=**lor** — N/A
-- Sample: Uspantán, San Miguel Uspantán, Sacpulub, Chojolom, Chimatzat
+- Seeds: **2** | Min/Max: **8/19** | m=**0** | d=**** — N/A
+- Sample: Uspantan | Playa Grande Ixcan
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Arapaho (i:201020)
 
-- Seeds: **32** | Min/Max: **4/14** | m=**0** | d=**l** — [https://en.wikipedia.org/wiki/Arapaho_language](https://en.wikipedia.org/wiki/Arapaho_language)
-- Sample: Boulder, Wyoming, Ethete, Arapahoe, Wind River
+- Seeds: **31** | Min/Max: **4/18** | m=**0** | d=**lnrt** — N/A
+- Sample: Wind River Reservation | Arapahoe | Fremont | Thermopolis | Cody
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
-## Coast Tsimshian (Sm’algya̱x) (i:201021)
+## Coast Tsimshian (Sm'algyax) (i:201021)
 
-- Seeds: **33** | Min/Max: **5/14** | m=**0** | d=**efns** — [https://en.wikipedia.org/wiki/ISO_639:tsi](https://en.wikipedia.org/wiki/ISO_639:tsi)
-- Sample: Lax Kw'alaams, Metlakatla, Terrace, Prince Rupert, Port Simpson
+- Seeds: **0** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: 
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Cochimí (i:201022)
 
-- Seeds: **32** | Min/Max: **5/16** | m=**0** | d=**aelors** — [https://en.wikipedia.org/wiki/Cochim%C3%AD_language](https://en.wikipedia.org/wiki/Cochim%C3%AD_language)
-- Sample: San Fernando, El Rosario, San Javier, San Ignacio, Mulegé
+- Seeds: **0** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: 
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Gwichʼin (i:201023)
 
-- Seeds: **32** | Min/Max: **5/14** | m=**0** | d=**r** — [https://en.wikipedia.org/wiki/Gwich%CA%BCin_language](https://en.wikipedia.org/wiki/Gwich%CA%BCin_language)
-- Sample: Arctic Village, Fort Yukon, Venetie, Chalkyitsik, Birch Creek
+- Seeds: **10** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Arctic Village | Fort Yukon | Venetie | Chalkyitsik | Birch Creek
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Hän (i:201024)
 
-- Seeds: **32** | Min/Max: **4/14** | m=**0** | d=**eilo** — [https://en.wikipedia.org/wiki/H%C3%A4n_language](https://en.wikipedia.org/wiki/H%C3%A4n_language)
-- Sample: Eagle, Dawson City, Moosehide, Tr'ondëk Hwëch'in, Fortymile
+- Seeds: **3** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Eagle | Dawson City | Moosehide
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Métis French (i:201025)
 
-- Seeds: **33** | Min/Max: **5/16** | m=**0** | d=**elost** — N/A
-- Sample: Batoche, Lac Ste. Anne, St. Laurent, St. Louis, St. Boniface
+- Seeds: **37** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Winnipeg | St. Boniface | Lorette | St. Laurent | Ste. Rose
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Mi'kmaq (i:201026)
 
-- Seeds: **34** | Min/Max: **5/14** | m=**0** | d=**lnpst** — [https://en.wikipedia.org/wiki/Mi%27kmaq_language](https://en.wikipedia.org/wiki/Mi%27kmaq_language)
-- Sample: Eskasoni, Membertou, Pnipon, Chapel Island, Truro
+- Seeds: **34** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
+- Sample: Eskasoni | Membertou | Pnipon | Chapel Island | Truro
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Mohave (i:201027)
 
-- Seeds: **33** | Min/Max: **5/14** | m=**0** | d=**elo** — [https://en.wikipedia.org/wiki/Mohave_language](https://en.wikipedia.org/wiki/Mohave_language)
-- Sample: Mohave, Needles, Fort Mojave, Bullhead City, Kingman
+- Seeds: **29** | Min/Max: **4/13** | m=**0** | d=**lnrt** — N/A
+- Sample: Yuma | Winterhaven | Bard | Poston | Somerton
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
-## Na-Dene (i:201028)
+## Dene (i:201028)
 
-- Seeds: **33** | Min/Max: **5/12** | m=**0** | d=**elrs** — N/A
-- Sample: Tlingit, Haida, Tsimshian, Tahltan, Kaska
+- Seeds: **0** | Min/Max: **0/0** | m=**0** | d=**** — N/A
+- Sample: 
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Occaneechi (i:201029)
 
-- Seeds: **33** | Min/Max: **5/14** | m=**0** | d=**eklorsu** — [https://en.wikipedia.org/wiki/Occaneechi_language](https://en.wikipedia.org/wiki/Occaneechi_language)
-- Sample: Occoneechee, Hillsborough, Burlington, Eno, Durham
+- Seeds: **0** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: 
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Southern Tepehuan (i:201030)
 
-- Seeds: **32** | Min/Max: **5/16** | m=**0** | d=**celnrt** — [https://en.wikipedia.org/wiki/Tepehu%C3%A1n_language](https://en.wikipedia.org/wiki/Tepehu%C3%A1n_language)
-- Sample: Guadalupe y Calvo, Balleza, Batopilas, Chínipas, Guazapares
+- Seeds: **26** | Min/Max: **4/18** | m=**0** | d=**lnrt** — N/A
+- Sample: Mezquital | Pueblo Nuevo | Tepehuanes | El Mezquital | Santa Maria Ocotan
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Tanacross (i:201031)
 
-- Seeds: **33** | Min/Max: **5/14** | m=**0** | d=**l** — [https://en.wikipedia.org/wiki/Tanacross_language](https://en.wikipedia.org/wiki/Tanacross_language)
-- Sample: Tanacross, Tok, Dot Lake, Northway, Nabesna
+- Seeds: **8** | Min/Max: **4/14** | m=**0** | d=**lnrt** — N/A
+- Sample: Tanacross | Tok | Dot Lake | Healy Lake | Dihthâad
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Tłįchǫ (i:201032)
 
-- Seeds: **31** | Min/Max: **5/14** | m=**0** | d=**elnpst** — N/A
-- Sample: Behchokǫ̀, Gamètì, Wekweètì, Whatì, Yellowknife
+- Seeds: **0** | Min/Max: **5/11** | m=**0** | d=**lnrt** — N/A
+- Sample: 
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Ute (i:201033)
 
-- Seeds: **33** | Min/Max: **5/14** | m=**0** | d=**ilopt** — [https://en.wikipedia.org/wiki/Ute_dialect](https://en.wikipedia.org/wiki/Ute_dialect)
-- Sample: Uintah, Ouray, Fort Duchesne, Roosevelt, Vernal
+- Seeds: **23** | Min/Max: **4/13** | m=**0** | d=**lnrt** — N/A
+- Sample: Uintah | Ouray | Fort Duchesne | Roosevelt | Myton
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Wiyot (i:201034)
 
-- Seeds: **33** | Min/Max: **5/14** | m=**0** | d=**elo** — [https://en.wikipedia.org/wiki/Wiyot_language](https://en.wikipedia.org/wiki/Wiyot_language)
-- Sample: Eureka, Arcata, Loleta, Table Bluff, Tuluwat
+- Seeds: **30** | Min/Max: **4/13** | m=**0** | d=**lnrt** — N/A
+- Sample: Tuluwat | Bear River | Blue Lake | Fields Landing | Samoa
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Yurok (i:201035)
 
-- Seeds: **34** | Min/Max: **4/12** | m=**0** | d=**eflot** — [https://en.wikipedia.org/wiki/Yurok_language](https://en.wikipedia.org/wiki/Yurok_language)
-- Sample: Klamath, Weitchpec, Hoopa, Trinidad, Orick
+- Seeds: **25** | Min/Max: **4/10** | m=**0** | d=**lnrt** — N/A
+- Sample: Weitchpec | Trinidad | Orick | Requa | Ke'pel
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Zuni (i:201036)
 
-- Seeds: **32** | Min/Max: **5/12** | m=**0** | d=**efo** — [https://en.wikipedia.org/wiki/Zuni_language](https://en.wikipedia.org/wiki/Zuni_language)
-- Sample: Zuni, Black Rock, Ramah, Nutria, Pescado
+- Seeds: **26** | Min/Max: **4/15** | m=**0** | d=**lnrt** — N/A
+- Sample: Zuni | Black Rock | Nutria | Pescado | Ojo Caliente
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Dominican Creole French (i:201358)
 
-- Seeds: **32** | Min/Max: **5/14** | m=**0** | d=**an** — N/A
-- Sample: Roseau, Portsmouth, Marigot, Berekua, Salybia
+- Seeds: **33** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Roseau | Portsmouth | Marigot | Berekua | La Plaine
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## French Guianese Creole (i:201359)
 
-- Seeds: **34** | Min/Max: **5/14** | m=**0** | d=**lnor** — N/A
-- Sample: Cayenne, Kourou, Saint-Laurent-du-Maroni, Matoury, Remire-Montjoly
+- Seeds: **30** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Cayenne | Kourou | Saint-Laurent-du-Maroni | Matoury | Remire-Montjoly
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Grenadian Creole French (i:201360)
 
-- Seeds: **32** | Min/Max: **5/14** | m=**0** | d=**ln** — N/A
-- Sample: St. George's, Gouyave, Grenville, Sauteurs, Victoria
+- Seeds: **34** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: St. George's | Gouyave | Grenville | Sauteurs | Victoria
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Karipúna French Creole (i:201361)
 
-- Seeds: **32** | Min/Max: **5/14** | m=**0** | d=**lr** — N/A
-- Sample: Galibi, Karipuna, São José dos Galibi, Uaça, Manga
+- Seeds: **34** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Clevelândia do Norte | Manga | Santa Cruz | Tartarugalzinho | Macapá
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Louisiana Creole (i:201362)
 
-- Seeds: **33** | Min/Max: **5/14** | m=**0** | d=**r** — N/A
-- Sample: New Orleans, Baton Rouge, Lafayette, Shreveport, Natchitoches
+- Seeds: **33** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: New Orleans | Baton Rouge | Lafayette | Shreveport | Natchitoches
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Saint Lucian Creole (i:201363)
 
-- Seeds: **33** | Min/Max: **5/14** | m=**0** | d=**lnst** — N/A
-- Sample: Castries, Gros Islet, Micoud, Vieux Fort, Soufrière
+- Seeds: **32** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Castries | Gros Islet | Micoud | Vieux Fort | Soufrière
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done

@@ -14,8 +14,6 @@ const NAMEBASE_FILES = [
   "modules/namebases-dedicated.js"
 ];
 
-const path = require("path");
-const fs = require("fs");
 const ROOT = path.resolve(__dirname, "..");
 const CATALOG_PATH = path.join(ROOT, "config/language-mixes.json");
 const OUTPUT_DIR = path.join(ROOT, "docs/plans/namebase-research");
@@ -157,18 +155,21 @@ function extractEntries(content, filename) {
     if (!mM) mM = block.match(/m:\s*([\d.]+)/);
     let bM = block.match(/"b":\s*"([^"]*)"/);
     if (!bM) bM = block.match(/b:\s*"([^"]*)"/);
+    let statusM = block.match(/"status":\s*"([^"]*)"/);
+    if (!statusM) statusM = block.match(/status:\s*"([^"]*)"/);
 
     const min = minM ? parseInt(minM[1]) : null;
     const max = maxM ? parseInt(maxM[1]) : null;
     const d = dM ? dM[1] : null;
     const m = mM ? parseFloat(mM[1]) : null;
     const bField = bM ? bM[1] : "";
+    const status = statusM ? statusM[1] : null;
     const tokens = bField.split(",").map(s => s.trim()).filter(Boolean);
     const nameTokens = tokens.filter(t => !/^\d+$/.test(t));
     const numericTokens = tokens.filter(t => /^\d+$/.test(t));
 
     entries.push({
-      name, i: idx, min, max, d, m, bField, filename,
+      name, i: idx, min, max, d, m, bField, filename, status,
       seedCount: nameTokens.length,
       numericCount: numericTokens.length,
       totalTokens: tokens.length,

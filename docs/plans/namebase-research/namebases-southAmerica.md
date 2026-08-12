@@ -1,4 +1,4 @@
-# namebases-southAmerica.js — Manual Review (170 languages)
+# namebases-southAmerica.js — Manual Review (139 languages)
 
 > Every entry is **unverified by default**. An entry becomes valid only when sufficient evidence supports it.
 
@@ -7,1189 +7,972 @@
 
 ## Quechua (i:26)
 
-- Seeds: **9** | Min/Max: **6/12** | m=**0** | d=**l** — [https://en.wikipedia.org/wiki/Quechuan_languages](https://en.wikipedia.org/wiki/Quechuan_languages)
-- Sample: Londuimbali, Lobito, Cuíto, Catchiungo, Humbe
+- Seeds: **51** | Min/Max: **3/20** | m=**0** | d=**** — N/A
+- Sample: Qusqu | Ariqipa | Limaq | Kitu | Chuqiyapu
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Yanomami Amazonian (i:63)
 
-- Seeds: **8** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Simmering, Sankt Peter, Sankt Martin, State of Salzburg, Saalfelden am Steinernen Meer
+- Seeds: **23** | Min/Max: **4/19** | m=**0** | d=**** — N/A
+- Sample: Papiu | Demini | Haximú | Balaú | Auaris
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Cavineña (i:64)
 
-- Seeds: **5** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Cavine%C3%B1a_language](https://en.wikipedia.org/wiki/Cavine%C3%B1a_language)
-- Sample: Mödling, Meidling, Lustenau, Vorarlberg, Klosterneuburg
+- Seeds: **26** | Min/Max: **4/19** | m=**0** | d=**** — N/A
+- Sample: PuertoCavinas | Cavinas | Baqueti | Bolívar | Candelaria
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Chilean Spanish (i:69)
 
-- Seeds: **8** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Chilean_Spanish](https://en.wikipedia.org/wiki/Chilean_Spanish)
-- Sample: Yarraville, Wollert, Wodonga, Wheelers Hill, Westmead
+- Seeds: **135** | Min/Max: **4/21** | m=**0** | d=**lr** — N/A
+- Sample: Santiago | Valparaiso | Concepcion | Temuco | Antofagasta
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Chilote (i:70)
 
-- Seeds: **10** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: Wantirna South, Wangaratta, Wallan, Wahroonga, Upper Coomera
+- Seeds: **45** | Min/Max: **4/20** | m=**0** | d=**lr** — N/A
+- Sample: Castro | Ancud | Quellon | Dalcahue | Queilen
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Sanöma (i:78)
 
-- Seeds: **3** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: Langwarrin, Lalor, Lakemba
+- Seeds: **18** | Min/Max: **5/24** | m=**0** | d=**** — N/A
+- Sample: Auaris | Aracaçá | Hokomawä | Demini | Toototobi
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Terêna (i:131)
 
-- Seeds: **9** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Ter%C3%AAna_language](https://en.wikipedia.org/wiki/Ter%C3%AAna_language)
-- Sample: Tessenderlo, Tervuren, Temse, Stekene, Stabroek
+- Seeds: **46** | Min/Max: **5/24** | m=**0** | d=**** — N/A
+- Sample: Cachoeirinha | Bananal | Ipegue | Lagoinha | ÁguaBranca
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Rioplatense Spanish (i:237)
 
-- Seeds: **0** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Rioplatense_Spanish](https://en.wikipedia.org/wiki/Rioplatense_Spanish)
-- Sample: 
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
-
-
-## Tacana (i:238)
-
-- Seeds: **0** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Tacana_language](https://en.wikipedia.org/wiki/Tacana_language)
-- Sample: 
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
-
-
-## Wiwa (i:239)
-
-- Seeds: **0** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Wiwa_language](https://en.wikipedia.org/wiki/Wiwa_language)
-- Sample: 
+- Seeds: **320** | Min/Max: **4/21** | m=**0** | d=**lnrt** — N/A
+- Sample: BuenosAires | LaPlata | MarDelPlata | Rosario | Córdoba
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Peruvian Ribereño (i:529)
 
-- Seeds: **8** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Peruvian_Spanish](https://en.wikipedia.org/wiki/Peruvian_Spanish)
-- Sample: Sangzhe, Runing, Ronglong, Fuqing, Rizhuang
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
-
-
-## Tsimané (i:625)
-
-- Seeds: **9** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Tsiman%C3%A9_language](https://en.wikipedia.org/wiki/Tsiman%C3%A9_language)
-- Sample: Paosha, Xigaoshan, Luoyu, Shili, Luhe
+- Seeds: **39** | Min/Max: **4/11** | m=**0** | d=**es-PE** — N/A
+- Sample: Iquitos | Pucallpa | Yurimaguas | Requena | Contamana
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Venezuelan Spanish (i:657)
 
-- Seeds: **7** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Venezuelan_Spanish](https://en.wikipedia.org/wiki/Venezuelan_Spanish)
-- Sample: Boyaca, Sucre Department, Cauca Department, Huila Department, Tame
+- Seeds: **67** | Min/Max: **4/11** | m=**0** | d=**es-VE** — N/A
+- Sample: Caracas | Maracaibo | Valencia | Barquisimeto | Maracay
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Achagua (i:744)
 
-- Seeds: **8** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Achawa_language](https://en.wikipedia.org/wiki/Achawa_language)
-- Sample: Kolín, Kobylisy, Klatovy, Karviná, Kadaň
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
-
-
-## Bolivian Spanish (i:785)
-
-- Seeds: **8** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Bolivian_Spanish](https://en.wikipedia.org/wiki/Bolivian_Spanish)
-- Sample: Strausberg, Straelen, Stockelsdorf, Stockach, Stellingen
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
-
-
-## Brazilian Portuguese (i:788)
-
-- Seeds: **10** | Min/Max: **4/11** | m=**0** | d=**lrs** — [https://en.wikipedia.org/wiki/Brazilian_Portuguese](https://en.wikipedia.org/wiki/Brazilian_Portuguese)
-- Sample: Spenge, Sonthofen, Sonneberg, Sondershausen, Sömmerda
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
-
-
-## Colombian Spanish (i:800)
-
-- Seeds: **9** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Colombian_Spanish](https://en.wikipedia.org/wiki/Colombian_Spanish)
-- Sample: Rheine, Rheinberg, Rhede, Rheda-Wiedenbrück, Reutlingen
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
-
-
-## Mineiro (i:893)
-
-- Seeds: **10** | Min/Max: **4/11** | m=**0** | d=**lrs** — N/A
-- Sample: Baden-Baden, Bad Dürkheim, Bad Driburg, Bad Berleburg, Bad Bentheim
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
-
-
-## Paraguayan Spanish (i:929)
-
-- Seeds: **7** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Paraguayan_Spanish](https://en.wikipedia.org/wiki/Paraguayan_Spanish)
-- Sample: Oued el Abtal, N’Gaous, Nedroma, Naciria, Mouzaïa
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
-
-
-## Peruvian Spanish (i:933)
-
-- Seeds: **10** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Peruvian_Spanish](https://en.wikipedia.org/wiki/Peruvian_Spanish)
-- Sample: Metlili Chaamba, Messaad, Meskiana, Mers el Kebir, Merouana
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
-
-
-## Uruguayan Portuguese (i:1856)
-
-- Seeds: **7** | Min/Max: **4/11** | m=**0** | d=**lrs** — [https://en.wikipedia.org/wiki/Uruguayan_Portuguese](https://en.wikipedia.org/wiki/Uruguayan_Portuguese)
-- Sample: Erraguntla, Erāttupetta, Emmiganūr, Elumalai, Ellenabad
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
-
-
-## Uruguayan Spanish (i:1857)
-
-- Seeds: **7** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Uruguayan_Spanish](https://en.wikipedia.org/wiki/Uruguayan_Spanish)
-- Sample: Edappāl, Ganj Dundwāra, Dumraon, Dumra, Dum Duma
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
-
-
-## Movima (i:2435)
-
-- Seeds: **3** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Movima_language](https://en.wikipedia.org/wiki/Movima_language)
-- Sample: Tequisquiapan, Cuautitlán Izcalli, Tepotzotlán
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
-
-
-## Nonuya (i:2436)
-
-- Seeds: **4** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Nonuya_language](https://en.wikipedia.org/wiki/Nonuya_language)
-- Sample: Moyotzingo, Santa María Chimalhuacán, Santa María Atzompa, Heroica Ciudad de Tlaxiaco
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
-
-
-## Ocaina (i:2437)
-
-- Seeds: **10** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Ocaina_language](https://en.wikipedia.org/wiki/Ocaina_language)
-- Sample: Santa Cruz Xoxocotlán, Tecámac, Santa Ana Chiautempan, Zinacatepec, San Salvador El Seco
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
-
-
-## Guna (i:2440)
-
-- Seeds: **6** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Guna_language](https://en.wikipedia.org/wiki/Guna_language)
-- Sample: San Pablo Oztotepec, Oxkutzkab, Orizaba, Ocozocoautla de Espinosa, Ocoyoacac
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
-
-
-## Miskito (i:2576)
-
-- Seeds: **9** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Miskito_language](https://en.wikipedia.org/wiki/Miskito_language)
-- Sample: Catandica, Boane, Angoche, Alto Molocue, Mutuáli
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
-
-
-## Tikuna (i:2580)
-
-- Seeds: **6** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Ticuna_language](https://en.wikipedia.org/wiki/Ticuna_language)
-- Sample: Malema, Messica, Ribáuè, Xilembene, Ndiyona
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
-
-
-## Arawak (i:2622)
-
-- Seeds: **7** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Arawak_language](https://en.wikipedia.org/wiki/Arawak_language)
-- Sample: Waddinxveen, Waalwijk, North Brabant, Vught, Voorschoten
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
-
-
-## Sranan (i:2654)
-
-- Seeds: **6** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Sranan_Tongo](https://en.wikipedia.org/wiki/Sranan_Tongo)
-- Sample: Buskerud, Harstad, Halden, Grimstad, Gjøvik
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
-
-
-## Aluku (i:3008)
-
-- Seeds: **8** | Min/Max: **4/11** | m=**0** | d=**adeo** — N/A
-- Sample: Burauen, Bunawan, Bulaon, Bulan, Bulacan
+- Seeds: **30** | Min/Max: **4/11** | m=**0** | d=**nic-GH** — N/A
+- Sample: Villavicencio | PuertoLopez | PuertoGaitan | Acacias | Granada
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Ashaninka (i:5309)
 
-- Seeds: **7** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Ashaninka_language](https://en.wikipedia.org/wiki/Ashaninka_language)
-- Sample: Nok Kundi, New Mirpur City, Naushahro Firoz, Naushahra Virkan, Naudero
+- Seeds: **36** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
+- Sample: Satipo | PuertoOcopa | Tambo | RíoNegro | Kivinaki
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Aymara (i:5630)
 
-- Seeds: **7** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Aymara_language](https://en.wikipedia.org/wiki/Aymara_language)
-- Sample: Radzyń Podlaski, Pułtusk, Puławy, Przeworsk, Przasnysz
+- Seeds: **44** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
+- Sample: LaPaz | ElAlto | Cochabamba | Oruro | Potosí
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Berbice (i:5812)
 
-- Seeds: **10** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: Wałcz, West Pomerania, Wałbrzych, Wągrowiec, Wadowice
+- Seeds: **24** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
+- Sample: NewAmsterdam | Lethem | Bartica | Linden | Georgetown
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Macaguán (Hitnü) (i:5813)
 
-- Seeds: **8** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Macagu%C3%A1n_language](https://en.wikipedia.org/wiki/Macagu%C3%A1n_language)
-- Sample: Tarnowskie Góry, Szczecinek, Szamotuły, Świnoujście, Świętochłowice
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
-
-
-## Arhuaco (Ikë) (i:5814)
-
-- Seeds: **10** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: Świdwin, Świdnica, Swarzędz, Sulechów, Strzelce Opolskie
+- Seeds: **25** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
+- Sample: Arauca | Tame | Fortul | Saravena | Arauquita
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Minica Huitoto (i:5815)
 
-- Seeds: **8** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/ISO_639:hto](https://en.wikipedia.org/wiki/ISO_639:hto)
-- Sample: Solec Kujawski, Słubice, Skawina, Sierpc, Sieradz
+- Seeds: **37** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
+- Sample: LaChorrera | PuertoArica | ElEncanto | Comeyafu | Araracuara
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Muinane (i:5816)
 
-- Seeds: **10** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/ISO_639:bmr](https://en.wikipedia.org/wiki/ISO_639:bmr)
-- Sample: Rumia, Reda, Rawicz, Radzionków, Radomsko
+- Seeds: **40** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
+- Sample: LaChorrera | PuertoArica | ElEncanto | Comeyafu | Araracuara
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Nukak (i:5817)
 
-- Seeds: **9** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/ISO_639:mbr](https://en.wikipedia.org/wiki/ISO_639:mbr)
-- Sample: Prudnik, Polkowice, Police, Płock, Pleszew
+- Seeds: **36** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
+- Sample: SanJoséDelGuaviare | ElRetorno | Calamar | Miraflores | LaMacarena
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Sateré-Mawé (i:5818)
 
-- Seeds: **9** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/ISO_639:mav](https://en.wikipedia.org/wiki/ISO_639:mav)
-- Sample: Oświęcim, Ostrów Wielkopolski, Ostróda, Osowa, Orzesze
+- Seeds: **41** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
+- Sample: Barreirinha | Parintins | Maues | BoaVistaDoRamos | NovaOlindaDoNorte
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Tenetehára (i:5819)
 
-- Seeds: **9** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/ISO_639:tqb](https://en.wikipedia.org/wiki/ISO_639:tqb)
-- Sample: Nowy Tomyśl, Nowogard, Nowa Sól, Nowa Ruda, Namysłów
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
-
-
-## Warízu (i:5820)
-
-- Seeds: **0** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: 
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
-
-
-## Wari' (i:5821)
-
-- Seeds: **0** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: 
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
-
-
-## Sanumá (i:5822)
-
-- Seeds: **0** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: 
+- Seeds: **40** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
+- Sample: SantaLuzia | BarraDoCorda | Grajaú | Imperatriz | Araguaína
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Trinitario (i:5823)
 
-- Seeds: **3** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/ISO_639:trn](https://en.wikipedia.org/wiki/ISO_639:trn)
-- Sample: Choszczno, Chodzież, Chełmża
+- Seeds: **26** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
+- Sample: Trinidad | Loreto | SanIgnacio | Concepción | SanJavier
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Reyesano (Maropa) (i:5824)
 
-- Seeds: **8** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/ISO_639:rey](https://en.wikipedia.org/wiki/ISO_639:rey)
-- Sample: Chełmno, Brzeg, Brodnica, Braniewo, Bolesławiec
+- Seeds: **6** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
+- Sample: Rurrenabaque | Reyes | SantaRosa | Yucumo | SanBorja
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Toromona (i:5825)
 
-- Seeds: **9** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/ISO_639:tno](https://en.wikipedia.org/wiki/ISO_639:tno)
-- Sample: Bielawa, Bełchatów, Andrychów, Aleksandrów Łódzki, Ursynów
+- Seeds: **4** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
+- Sample: Madidi | Tumupasa | Heath | Manuripi
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Wichí Lhamtés Nocten (Weenhayek) (i:5826)
 
-- Seeds: **10** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/ISO_639:mtp](https://en.wikipedia.org/wiki/ISO_639:mtp)
-- Sample: Gądów-Popowice Południowe, Pilczyce-Kozanów-Popowice Północne, Gaj, Huby, Krzyki-Partynice
+- Seeds: **16** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
+- Sample: VillaMontes | Yacuiba | Carapari | Boyuibe | SanFrancisco
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Wichí Lhamtés Vejoz (i:5827)
 
-- Seeds: **9** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/ISO_639:wlv](https://en.wikipedia.org/wiki/ISO_639:wlv)
-- Sample: Biskupin-Sępolno-Dąbie-Bartoszowice, Nadodrze, Ołbin, Piecki-Migowo, Przymorze Wielkie
+- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
+- Sample: Embarcación | SalvadorMazza | CampoDuran | GeneralMosconi | Ballivian
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Tiriyó (i:5831)
 
-- Seeds: **4** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/ISO_639:slj](https://en.wikipedia.org/wiki/ISO_639:slj)
-- Sample: Surif City, Shu‘fāţ, Qalqīlyah, Qabāţīyah
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
-
-
-## Palikur (i:6002)
-
-- Seeds: **9** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: Sete Rios, São Martinho, Madeira, São João da Talha, São Domingos de Rana
+- Seeds: **14** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
+- Sample: Kwamalasamutu | Paloemeu | Apetina | Tepoe | GranRio
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Xavante (i:6112)
 
-- Seeds: **8** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Xavante_language](https://en.wikipedia.org/wiki/Xavante_language)
-- Sample: Lavradio, Laranjeiro, Falagueira, Estoril, Entroncamento
+- Seeds: **28** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
+- Sample: BarraDoGarças | ÁguaBoa | NovaXavantina | Cocalinho | Araguaiana
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Xerente (i:6113)
 
-- Seeds: **7** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Xerente_language](https://en.wikipedia.org/wiki/Xerente_language)
-- Sample: Carnide, Carnaxide, Carcavelos, Caparica, Caniço
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
-
-
-## Guajajara (i:6620)
-
-- Seeds: **0** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: 
+- Seeds: **29** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
+- Sample: Tocantínia | Cristalândia | Pium | MiracemaDoTocantins | Miranorte
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Língua Geral Amazônica (i:6621)
 
-- Seeds: **4** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: São Tiago de Custoias, São Pedro da Cova, São Paulo de Frades, São Martinho do Bispo
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
-
-
-## Gwich'in (i:6634)
-
-- Seeds: **10** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: Al Hilāl al Gharbīyah, Al Hilāl ash Sharqīyah, Al Ghānim, As Sadd, Umm Lakhbā
+- Seeds: **36** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
+- Sample: SãoGabrielDaCachoeira | SantaIsabelDoRioNegro | Barcelos | Manaus | Parintins
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Macuna (i:6653)
 
-- Seeds: **7** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Macuna_language](https://en.wikipedia.org/wiki/Macuna_language)
-- Sample: Roșiorii de Vede, Râşnov, Valcea County, Buzau County, Caras-Severin County
+- Seeds: **45** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
+- Sample: Mitú | Pacoa | Acaricuara | Monfort | PuertoColombia
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Cubeo (i:6654)
 
-- Seeds: **4** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Cubeo_language](https://en.wikipedia.org/wiki/Cubeo_language)
-- Sample: Calarasi County, Harghita County, Constanta County, Bacau County
+- Seeds: **35** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
+- Sample: Mitú | Pacoa | Acaricuara | Monfort | PuertoColombia
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Desano (i:6655)
 
-- Seeds: **6** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Desano_language](https://en.wikipedia.org/wiki/Desano_language)
-- Sample: Iasi County, Giurgiu County, Gheorgheni, Găeşti, Vrancea
+- Seeds: **30** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
+- Sample: Mitú | Pacoa | Acaricuara | Monfort | PuertoColombia
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Itene (i:6656)
 
-- Seeds: **5** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Itene_language](https://en.wikipedia.org/wiki/Itene_language)
-- Sample: Fetești-Gară, Mehedinti County, Botosani County, Cugir, Comăneşti
+- Seeds: **26** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
+- Sample: PortoVelho | JiParaná | Ariquemes | Cacoal | Vilhena
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Hupdë (i:6657)
 
-- Seeds: **6** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Hup_language](https://en.wikipedia.org/wiki/Hup_language)
-- Sample: Codlea, Cisnădie, Câmpia Turzii, Cernavodă, Buhuşi
+- Seeds: **32** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
+- Sample: Mitú | Pacoa | Acaricuara | Monfort | PuertoColombia
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Koreguaje (i:6658)
 
-- Seeds: **6** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Koreguaje_language](https://en.wikipedia.org/wiki/Koreguaje_language)
-- Sample: Braila County, Brad, Blaj, Bistrita-Nasaud County, Balş
+- Seeds: **46** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
+- Sample: Mocoa | PuertoGuzmán | PuertoCaicedo | VillaGarzon | PuertoAsís
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Tukano (i:6659)
 
-- Seeds: **6** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: Arad County, Aiud, Mioveni, Sighișoara, Sector 1
+- Seeds: **30** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
+- Sample: Mitú | Pacoa | Acaricuara | Monfort | PuertoColombia
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Wanano (i:6660)
 
-- Seeds: **9** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: Sector 3, Sector 4, Sector 5, Sector 6, Serbia
+- Seeds: **39** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
+- Sample: Mitú | Pacoa | Acaricuara | Monfort | PuertoColombia
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Tatuyo (i:6661)
 
-- Seeds: **3** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: Sremčica, Obrenovac, Nova Pazova
+- Seeds: **26** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
+- Sample: Mitú | Pacoa | Acaricuara | Monfort | PuertoColombia
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Siriano (i:6662)
 
-- Seeds: **0** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: 
+- Seeds: **38** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
+- Sample: Mitú | Pacoa | Acaricuara | Monfort | PuertoColombia
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Siona (i:6663)
 
-- Seeds: **10** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: Futog, Bačka Topola, Apatin, Udomlya, Russian Federation
+- Seeds: **24** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
+- Sample: PuertoAsís | PuertoLeguízamo | PuertoCaicedo | Orito | SanMiguel
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Rama (i:7070)
 
-- Seeds: **12** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: Zherdevka, Tambov Oblast, Zheleznovodsk, Stavropol Kray, Zheleznogorsk
+- Seeds: **24** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
+- Sample: Bluefields | RamaCay | ElBluff | KukraHill | Karawala
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Chimila (i:7316)
 
-- Seeds: **10** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Chimila_language](https://en.wikipedia.org/wiki/Chimila_language)
-- Sample: Yelan’, Yegor’yevsk, Yegorlykskaya, Yefremov, Tula Oblast
+- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
+- Sample: SabanasDeSanÁngel | ElCopey | ElDifícil | PlatoBolívar | Tamalameque
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Piaroa (i:7317)
 
-- Seeds: **11** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Piaroa_language](https://en.wikipedia.org/wiki/Piaroa_language)
-- Sample: Kirov Oblast, Bashkortostan Republic, Yagry, Arkhangelskaya, Yablonovskiy
+- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
+- Sample: PuertoAyacucho | SanFernandoDeAtabapo | IslaRatón | Sipapo | Maipures
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Toba (i:7318)
 
-- Seeds: **8** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Toba_Qom_language](https://en.wikipedia.org/wiki/Toba_Qom_language)
-- Sample: Vyaz’ma, Vsevolozhsk, Udmurtiya Republic, Vostryakovo, Voskresensk
+- Seeds: **32** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
+- Sample: Resistencia | Fontana | Barranqueras | PuertoTirol | LasBreñas
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Wayuu (i:7419)
 
-- Seeds: **7** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Wayuu_language](https://en.wikipedia.org/wiki/Wayuu_language)
-- Sample: Uritsk, Unecha, Uglich, Uchkeken, Kabardino-Balkariya Republic
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
-
-
-## Cogui/Kogi (i:7420)
-
-- Seeds: **9** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: Tuchkovo, Tuapse, Tsimlyansk, Trubchevsk, Troparëvo
+- Seeds: **34** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
+- Sample: Maicao | Uribia | Manaure | Riohacha | Albania
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Barí (i:7421)
 
-- Seeds: **10** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Bar%C3%AD_language](https://en.wikipedia.org/wiki/Bar%C3%AD_language)
-- Sample: Tomilino, Timashyovsk, Tikhvin, Tikhoretsk, Teykovo
+- Seeds: **19** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
+- Sample: Tibú | Convención | Teorama | ElCarmen | ElTarra
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Ese Ejja (i:7515)
 
-- Seeds: **6** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Ese_Ejja_language](https://en.wikipedia.org/wiki/Ese_Ejja_language)
-- Sample: Tambov, Agidel’, Taganrog, Taganskiy, Syzran
+- Seeds: **23** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
+- Sample: Riberalta | PuertoMaldonado | Iñapari | Iberia | GonzaloMoreno
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Yuracaré (i:7516)
 
-- Seeds: **2** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Yuracar%C3%A9_language](https://en.wikipedia.org/wiki/Yuracar%C3%A9_language)
-- Sample: Staraya Derevnya, Sovetsk
+- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
+- Sample: VillaTunari | Shinahota | EntreRíos | Chimoré | Ivirgarzama
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Guambiano (i:7600)
 
-- Seeds: **8** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Guambiano_language](https://en.wikipedia.org/wiki/Guambiano_language)
-- Sample: Sosnovyy Bor, Sosnovaya Polyana, Sorochinsk, Solntsevo, Solnechnogorsk
+- Seeds: **29** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
+- Sample: Silvia | Piendamó | Totoró | Caldono | Morales
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Awa Pit (i:7601)
 
-- Seeds: **8** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Awa_Pit_language](https://en.wikipedia.org/wiki/Awa_Pit_language)
-- Sample: Sofrino, Sochi, Sobinka, Smolensk, Slobodka
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
-
-
-## Paez (i:7602)
-
-- Seeds: **10** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: Shuya, Shushary, Mikhaylovsk, Shilovo, Sheksna
+- Seeds: **21** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
+- Sample: Ricaurte | Barbacoas | Tumaco | Samaniego | Mallama
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Bora (i:7660)
 
-- Seeds: **9** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Bora_language](https://en.wikipedia.org/wiki/Bora_language)
-- Sample: Shchëkino, Shatura, Shar’ya, Shakhun’ya, Shakhty
+- Seeds: **26** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
+- Sample: Pebas | BrilloNuevo | AncónColonia | LaChorrera | Providencia
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Bauré (i:7879)
 
-- Seeds: **9** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Baure_language](https://en.wikipedia.org/wiki/Baure_language)
-- Sample: Proletarsk, Prokhladnyy, Priyutovo, Privolzhskiy, Privolzhsk
+- Seeds: **6** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
+- Sample: Baures | Huacaraje | Magdalena | ElCarmen | CarmenRiveroTorres
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Enlhet (i:7940)
 
-- Seeds: **10** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Enlhet_language](https://en.wikipedia.org/wiki/Enlhet_language)
-- Sample: Kotlovka, Annino, Polyarnyye Zori, Polyarnyy, Pokrovskoye-Streshnëvo
+- Seeds: **22** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
+- Sample: Filadelfia | Neuland | LomaPlata | PozoColorado | MariscalEstigarribia
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Kanamari (i:7941)
 
-- Seeds: **9** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Kanamari_language](https://en.wikipedia.org/wiki/Kanamari_language)
-- Sample: Plavsk, Pikalëvo, Petushki, Petrovskaya, Petrovsk
+- Seeds: **30** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
+- Sample: Jutaí | SantoAntônioDoIçá | Amaturá | Tonantins | FonteBoa
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Mocoví (i:7942)
 
-- Seeds: **7** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Mocov%C3%AD_language](https://en.wikipedia.org/wiki/Mocov%C3%AD_language)
-- Sample: Pereslavl’-Zalesskiy, Novo-Peredelkino, Pavlovskiy Posad, Pavlovskaya, Pashkovskiy
+- Seeds: **34** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
+- Sample: Reconquista | Vera | LasToscas | Avellaneda | Malabrigo
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Wounaan (i:7943)
 
-- Seeds: **4** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Wounaan_language](https://en.wikipedia.org/wiki/Wounaan_language)
-- Sample: Otradnyy, Otradnoye, Otradnaya, Oryol oblast
+- Seeds: **22** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
+- Sample: PuertoObaldia | Mulatupo | PuertoArdilla | PlayonChico | Nargana
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Mapudungun (i:7944)
 
-- Seeds: **3** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Mapuche_language](https://en.wikipedia.org/wiki/Mapuche_language)
-- Sample: Onega, Novozybkov, Novovoronezh
+- Seeds: **52** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
+- Sample: Temuco | PadreLasCasas | NuevaImperial | Carahue | Villarrica
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Ona (i:7945)
 
-- Seeds: **10** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: Novouzensk, Novoul’yanovsk, Novotroitsk, Novotitarovskaya, Novoshakhtinsk
+- Seeds: **27** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
+- Sample: RioGrande | Tolhuin | Porvenir | Cameron | PuertoWilliams
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Yahgan (i:7946)
 
-- Seeds: **9** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Yahgan_language](https://en.wikipedia.org/wiki/Yahgan_language)
-- Sample: Novokuz’minki, Novokuybyshevsk, Novokubansk, Novokhovrino, Novogireyevo
+- Seeds: **20** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
+- Sample: PuertoWilliams | PuntaArenas | PuertoNatales | Porvenir | Cameron
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Cabiyari (i:8052)
 
-- Seeds: **8** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Cabiyari_language](https://en.wikipedia.org/wiki/Cabiyari_language)
-- Sample: Nikol’sk, Nikel, Nezlobnaya, Nevinnomyssk, Nevel’
+- Seeds: **35** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
+- Sample: Mitú | Pacoa | Acaricuara | Monfort | PuertoColombia
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Carijona (i:8053)
 
-- Seeds: **2** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Carijona_language](https://en.wikipedia.org/wiki/Carijona_language)
-- Sample: Nartkala, Naro-Fominsk
+- Seeds: **36** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
+- Sample: PuertoAyacucho | LaEsmeralda | Maroa | SanFernandoDeAtabapo | SanCarlosDelRioNegro
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Kakwa (Cacua) (i:8054)
 
-- Seeds: **2** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Kakwa_language](https://en.wikipedia.org/wiki/Kakwa_language)
-- Sample: Matveyevskoye, Marks
+- Seeds: **30** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
+- Sample: Mitú | Pacoa | Acaricuara | Monfort | PuertoColombia
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Cuiba (i:8058)
 
-- Seeds: **10** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Cuiba_language](https://en.wikipedia.org/wiki/Cuiba_language)
-- Sample: Liski, Likino-Dulevo, Likhobory, Lianozovo, L’govskiy
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
-
-
-## Culina (i:8059)
-
-- Seeds: **9** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: Tsaritsyno, Yubileyny, Lefortovo, Lebedyan’, Lazarevskoye
+- Seeds: **25** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
+- Sample: PuertoCarreño | LaPrimavera | SantaRosalía | PuertoGaitán | SanLuisDePalenque
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Cayuvava (i:8110)
 
-- Seeds: **9** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Cayubaba_language](https://en.wikipedia.org/wiki/Cayubaba_language)
-- Sample: Kuz’minki, Kuvandyk, Kuskovo, Kushva, Kushchyovskaya
+- Seeds: **6** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
+- Sample: SantaAnaDeYacuma | Exaltacion | SantaAna | Yacuma | Apere
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Guarani (i:8112)
 
-- Seeds: **7** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Guarani_language](https://en.wikipedia.org/wiki/Guarani_language)
-- Sample: Krymsk, Kropotkin, Kronstadt, Krasnyy Sulin, Biryulëvo Zapadnoye
+- Seeds: **39** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
+- Sample: Asunción | Encarnación | CiudadDelEste | Caaguazú | SanLorenzo
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Guahibo (Sikuani) (i:8113)
 
-- Seeds: **1** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Guahibo_language](https://en.wikipedia.org/wiki/Guahibo_language)
-- Sample: Kovdor
+- Seeds: **26** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
+- Sample: PuertoGaitán | Cumaribo | PuertoCarreño | LaPrimavera | SantaRosalía
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Guayabero (i:8114)
 
-- Seeds: **7** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Guayabero_language](https://en.wikipedia.org/wiki/Guayabero_language)
-- Sample: Kolpino, Kolomyagi, Kolomna, Kolomenskoye, Kol’chugino
+- Seeds: **19** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
+- Sample: SanJoséDelGuaviare | ElRetorno | Calamar | Miraflores | LaMacarena
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Guajá (i:8115)
 
-- Seeds: **7** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Guaj%C3%A1_language](https://en.wikipedia.org/wiki/Guaj%C3%A1_language)
-- Sample: Klimovsk, Kizel, Kislovodsk, Kirzhach, Kirsanov
+- Seeds: **29** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
+- Sample: SantaLuzia | Pinheiro | Carutapera | GodofredoViana | Turiaçu
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Guarayu (i:8116)
 
-- Seeds: **9** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Guarayu_language](https://en.wikipedia.org/wiki/Guarayu_language)
-- Sample: Kireyevsk, Kineshma, Kinel’-Cherkassy, Kinel’, Kimry
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
-
-
-## Mopán (i:8135)
-
-- Seeds: **3** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: Belorechensk, Beloozyorskiy, Belgorod
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
-
-
-## Tojolab'al (i:8138)
-
-- Seeds: **8** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: Afipskiy, Adler, Abinsk, Abdulino, Vasil’yevo
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
-
-
-## Uspanteko (i:8144)
-
-- Seeds: **6** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: Yamalo-Nenets, Omsk Oblast, Tal’menka, Talitsa, Sysert’
+- Seeds: **9** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
+- Sample: Ascensión | Urubichá | Yaguarú | Salvatierra | ElPuente
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Macushi (i:8605)
 
-- Seeds: **8** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Macushi_language](https://en.wikipedia.org/wiki/Macushi_language)
-- Sample: Krasnokamensk, Komsomolsk-on-Amur, Kavalerovo, Dalnerechensk, Chigiri
+- Seeds: **36** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
+- Sample: Lethem | Bonfim | Annai | Karasabai | Aishalton
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Waiwai (i:8606)
 
-- Seeds: **7** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Waiwai_language](https://en.wikipedia.org/wiki/Waiwai_language)
-- Sample: Jewish Autonomous Oblast, Bikin, Baykal’sk, Aykhal, Artëm
+- Seeds: **19** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
+- Sample: Masakenari | Kanashen | Erepoimo | Akotopono | Mapuera
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Yukpa (i:8607)
 
-- Seeds: **4** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Yukpa_language](https://en.wikipedia.org/wiki/Yukpa_language)
-- Sample: Dalnegorsk, Khabarovsk Vtoroy, Sakhalin Oblast, Magadan Oblast
+- Seeds: **19** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
+- Sample: Codazzi | AgustínCodazzi | LaPaz | Becerril | ManaureCesar
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Piapoco (i:8653)
 
-- Seeds: **0** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Piapoco_language](https://en.wikipedia.org/wiki/Piapoco_language)
-- Sample: 
+- Seeds: **43** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
+- Sample: PuertoAyacucho | Maroa | SanFernandoDeAtabapo | SanCarlosDelRioNegro | Mavaca
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Wapishana (i:8655)
 
-- Seeds: **0** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Wapishana_language](https://en.wikipedia.org/wiki/Wapishana_language)
-- Sample: 
+- Seeds: **34** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
+- Sample: Lethem | Bonfim | Annai | Karasabai | Aishalton
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Chorote (i:8866)
 
-- Seeds: **6** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Chorote_language](https://en.wikipedia.org/wiki/Chorote_language)
-- Sample: Bushekeri, Busogo, Bugarama, Rangiro, Gitesi
+- Seeds: **55** | Min/Max: **4/34** | m=**0** | d=**** — N/A
+- Sample: Tartagal | ColoniaPedroPPena | VillaMontes | Yofuaha | Lumnanas
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
-## Choshuenco (i:8868)
+## Mapudungun (i:8868)
 
-- Seeds: **9** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://es.wikipedia.org/wiki/Idioma_huilliche](https://es.wikipedia.org/wiki/Idioma_huilliche)
-- Sample: Mukingo, Kayonza, Macuba, Karambi, Kagano
+- Seeds: **52** | Min/Max: **4/21** | m=**0** | d=**** — N/A
+- Sample: Panguipulli | Coñaripe | Liquiñe | Neltume | Carirriñe
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Cocoliche (i:9165)
 
-- Seeds: **11** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: Gihombo, Mahembe, Bugaragara, Kamuhanda / Ruyenzi, Umutara
+- Seeds: **123** | Min/Max: **4/21** | m=**0** | d=**lnrt** — N/A
+- Sample: BuenosAires | LaPlata | MarDelPlata | Rosario | Córdoba
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Huilliche (i:11534)
 
-- Seeds: **9** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Huilliche_language](https://en.wikipedia.org/wiki/Huilliche_language)
-- Sample: Santa Tecla, Metapán, Mejicanos, Izalco, Ilopango
+- Seeds: **41** | Min/Max: **4/17** | m=**0** | d=**** — N/A
+- Sample: Valdivia | LaUnion | Corral | Osorno | PuertoMontt
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Guyanese Creole (i:11635)
 
-- Seeds: **6** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: Ḩalfāyā, Dayr Ḩāfir, Ad Darbāsīyah, Burj Islām, Binnish
+- Seeds: **67** | Min/Max: **4/18** | m=**0** | d=**lnrt** — N/A
+- Sample: Georgetown | Linden | NewAmsterdam | Bartica | Lethem
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Puinave (i:13341)
 
-- Seeds: **1** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Puinave_language](https://en.wikipedia.org/wiki/Puinave_language)
-- Sample: Ranong province
+- Seeds: **31** | Min/Max: **4/16** | m=**0** | d=**** — N/A
+- Sample: Zancudo | Venado | LaCeiba | Paloma | Bellavista
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Yanomami (i:13345)
 
-- Seeds: **5** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Yanomami_language](https://en.wikipedia.org/wiki/Yanomami_language)
-- Sample: Chumphon, Khanu Woralaksaburi, Huai Yot, Dok Kham Tai, Damnoen Saduak
+- Seeds: **60** | Min/Max: **4/22** | m=**0** | d=**** — N/A
+- Sample: Toototobi | Parawa | Auaris | Surucucus | MissãoCatrimani
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Italo-Paulista (i:13366)
 
-- Seeds: **8** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: Chom Bueng, Cha-am, Ban Tak, Ko Samui, Ban Ko Sire
+- Seeds: **81** | Min/Max: **3/23** | m=**0** | d=**lnrt** — N/A
+- Sample: SãoPaulo | SãoCaetanoDoSantoAndré | SãoBernardoDoCampo | Guarulhos | Santos
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Kashinawa (i:13682)
 
-- Seeds: **10** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Kashinawa_language](https://en.wikipedia.org/wiki/Kashinawa_language)
-- Sample: Thawi Watthana, Thung Khru, Wang Thonglang, Watthana, Ban Chalong
+- Seeds: **57** | Min/Max: **4/17** | m=**0** | d=**** — N/A
+- Sample: Tarauacá | Jordão | Breu | Muru | Envira
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Camsá (i:13685)
 
-- Seeds: **10** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Cams%C3%A1_language](https://en.wikipedia.org/wiki/Cams%C3%A1_language)
-- Sample: Erawan, Ban Aranyik, Bang Bon, Phra Nakhon, Sathorn
+- Seeds: **61** | Min/Max: **4/21** | m=**0** | d=**** — N/A
+- Sample: Sibundoy | SanFrancisco | Colón | Santiago | Mocoa
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Kichwa (i:13742)
 
-- Seeds: **10** | Min/Max: **4/11** | m=**0** | d=**l** — [https://en.wikipedia.org/wiki/Kichwa_language](https://en.wikipedia.org/wiki/Kichwa_language)
-- Sample: Tha Raeng, Anusawari, Bang Kho Laem subdistrict, Bang O, Bang Yi Khan
+- Seeds: **104** | Min/Max: **4/27** | m=**0** | d=**** — N/A
+- Sample: Quito | Guayaquil | Cuenca | Ambato | Machala
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Kaiwá (i:13804)
 
-- Seeds: **7** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Kaiw%C3%A1_language](https://en.wikipedia.org/wiki/Kaiw%C3%A1_language)
-- Sample: Türkmengala, Saýat, Lebap, Sarahs, Hojambaz
+- Seeds: **31** | Min/Max: **3/22** | m=**0** | d=**** — N/A
+- Sample: Dourados | CampoGrande | Corumbá | PontaPorã | Naviraí
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Kaingang (i:13805)
 
-- Seeds: **10** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Kaingang_language](https://en.wikipedia.org/wiki/Kaingang_language)
-- Sample: Zaouiet Sousse, Sousse Governorate, Zaghouan Governorate, Oued Lill, Moularès
+- Seeds: **34** | Min/Max: **4/22** | m=**0** | d=**** — N/A
+- Sample: Xapecó | Mangueirinha | Guarita | Inhacorá | Ivai
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Karajá (i:13893)
 
-- Seeds: **3** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Karaj%C3%A1_language](https://en.wikipedia.org/wiki/Karaj%C3%A1_language)
-- Sample: Kebili, Kebili Governorate, Medenine Governorate
+- Seeds: **77** | Min/Max: **4/21** | m=**0** | d=**** — N/A
+- Sample: Aruanã | SantaIsabelDoMorro | Xambioá | Luciara | SantanaDoAraguaia
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Língua Geral Paulista (i:13927)
 
-- Seeds: **5** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: Beni Khiar, Beni Khalled, Zouila, Zeramedine, Sejoumi
+- Seeds: **113** | Min/Max: **4/22** | m=**0** | d=**lnrt** — N/A
+- Sample: SãoPaulo | Santos | SãoVicente | Cubatão | Guarujá
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Latin American Spanish (i:14025)
 
-- Seeds: **6** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Spanish_language_in_the_Americas](https://en.wikipedia.org/wiki/Spanish_language_in_the_Americas)
-- Sample: Kireçocağı, Keskin, Kemalpaşa, Karşıyaka, Karapınar
+- Seeds: **118** | Min/Max: **4/26** | m=**0** | d=**lnrt** — N/A
+- Sample: BuenosAires | Santiago | Lima | Bogotá | Caracas
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
-## Pintupi (dedicated) (i:20077)
+## Warao (i:20077)
 
-- Seeds: **8** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Mon Repos, San Juan/Laventille, Diego Martin Regional Corporation, Borough of Arima, Douliu
+- Seeds: **36** | Min/Max: **4/16** | m=**0** | d=**** — N/A
+- Sample: Tucupita | AntonioDiaz | Nabaruto | Jobure | Guayo
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Cofán (dedicated) (i:20189)
 
-- Seeds: **9** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: Feodosiya, Fastiv, Enerhodar, Dzhankoy, Toretsk
+- Seeds: **51** | Min/Max: **4/21** | m=**0** | d=**** — N/A
+- Sample: SantaRosaDeSucumbíos | Yarinal | SanAntonio | BocanasDelLuzón | Diviso
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
-## Fulnio (dedicated) (i:20190)
+## Fulniô (dedicated) (i:20190)
 
-- Seeds: **10** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: Dolynska, Dokuchayevsk, Dobropillia, Kamyanske, Dniprorudne
+- Seeds: **47** | Min/Max: **3/23** | m=**0** | d=**** — N/A
+- Sample: ÁguasBelas | Ouricuri | SerraDoCommunati | Carnijó | Carijó
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Itonama (dedicated) (i:20191)
 
-- Seeds: **7** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: Voznesenivka, Sheptytskyi, Bucha, Bryanka, Boyarka
+- Seeds: **31** | Min/Max: **4/20** | m=**0** | d=**** — N/A
+- Sample: Magdalena | Huacaraje | SanRamón | SanJavier | Reyes
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Leco (dedicated) (i:20192)
 
-- Seeds: **9** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: Bolhrad, Bohuslav, Bohuniya, Bohodukhiv, Bilhorod-Dnistrovskyi
+- Seeds: **43** | Min/Max: **4/16** | m=**0** | d=**** — N/A
+- Sample: Apolo | Mapiri | Aten | Guanay | Tipuani
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Nivaclé (dedicated) (i:20193)
 
-- Seeds: **9** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: Bilopillia, Bilohirsk, Bilohorodka, Bilychi, Balta
+- Seeds: **44** | Min/Max: **5/24** | m=**0** | d=**** — N/A
+- Sample: Embarcación | Salta | Jujuy | Tartagal | Pichanal
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Kwaza-Xocó Amazonian (i:21000)
 
-- Seeds: **2** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Blue Island, Burbank
+- Seeds: **30** | Min/Max: **4/22** | m=**0** | d=**** — N/A
+- Sample: TubarãoLatundê | Chupinguaia | KwazáDoRioSãoPedro | PortoDaFolha | Caiçara
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Shipibo-Conibo Amazonian (i:21004)
 
-- Seeds: **9** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Highland Park, Hinsdale, Hoffman Estates, Homer Glen, Huntley
+- Seeds: **31** | Min/Max: **4/20** | m=**0** | d=**** — N/A
+- Sample: Pucallpa | Yarinacocha | Requena | Contamana | NuevaRequena
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Kallawaya (i:21005)
 
-- Seeds: **10** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Kallawaya_language](https://en.wikipedia.org/wiki/Kallawaya_language)
-- Sample: Kenwood, Lake Forest, Lake Zurich, Lake in the Hills, Lansing
+- Seeds: **35** | Min/Max: **4/15** | m=**0** | d=**** — N/A
+- Sample: Charazani | Curva | Chajaya | Chari | Kaata
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Chiquitano (i:21016)
 
-- Seeds: **7** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Chiquitano_language](https://en.wikipedia.org/wiki/Chiquitano_language)
-- Sample: West Lafayette, Westfield, Abington, Agawam, Allston
+- Seeds: **31** | Min/Max: **4/26** | m=**0** | d=**** — N/A
+- Sample: Concepción | SanJavier | SanMiguelDeVelasco | SanIgnacioDeVelasco | SantaAnaDeVelasco
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Andoque (i:201304)
 
-- Seeds: **24** | Min/Max: **5/14** | m=**0** | d=**l** — [https://en.wikipedia.org/wiki/Andoque_language](https://en.wikipedia.org/wiki/Andoque_language)
-- Sample: Aduche, Araracuara, Puerto Santander, Solano, Caquetá
+- Seeds: **82** | Min/Max: **4/26** | m=**0** | d=**** — N/A
+- Sample: SanJoséDeSaramuro | NuevaEsperanza | Remanso | Cothué | PuertoBahía
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Araona (i:201305)
 
-- Seeds: **24** | Min/Max: **5/14** | m=**0** | d=**lr** — [https://en.wikipedia.org/wiki/Araona_language](https://en.wikipedia.org/wiki/Araona_language)
-- Sample: Puerto Araona, Manupare, Manurimi, Ixiamas, La Paz
+- Seeds: **5** | Min/Max: **4/20** | m=**0** | d=**** — N/A
+- Sample: Riberalta | Cobija | Reyes | Rurrenabaque | Ixiamas
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Argentinian Rioplatense Spanish (i:201306)
 
-- Seeds: **34** | Min/Max: **6/18** | m=**0** | d=**jr** — [https://en.wikipedia.org/wiki/Rioplatense_Spanish](https://en.wikipedia.org/wiki/Rioplatense_Spanish)
-- Sample: Buenos Aires, Rosario, Córdoba, Mendoza, Tandil
+- Seeds: **249** | Min/Max: **4/21** | m=**0** | d=**lnrt** — N/A
+- Sample: BuenosAires | Córdoba | Rosario | Mendoza | LaPlata
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Arhuaco (Ikʉ) (i:201307)
 
-- Seeds: **36** | Min/Max: **5/18** | m=**0** | d=**lr** — [https://en.wikipedia.org/wiki/Arhuaco_language](https://en.wikipedia.org/wiki/Arhuaco_language)
-- Sample: Nabusímake, Pueblo Bello, Valledupar, Fundación, Aracataca
+- Seeds: **41** | Min/Max: **5/23** | m=**0** | d=**** — N/A
+- Sample: Nabusímake | Pueblo Bello | Valledupar | Fundación | Aracataca
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Ayoreo (i:201308)
 
-- Seeds: **31** | Min/Max: **5/16** | m=**0** | d=**l** — [https://en.wikipedia.org/wiki/Ayoreo_language](https://en.wikipedia.org/wiki/Ayoreo_language)
-- Sample: Campo Loro, Ebetogué, Tunucojnai, Gaai, Esquina
+- Seeds: **30** | Min/Max: **4/18** | m=**0** | d=**** — N/A
+- Sample: CampoLoro | Ebetogué | Tunucojnai | Gaai | Jesudi
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Cofán (i:201309)
 
-- Seeds: **31** | Min/Max: **5/14** | m=**0** | d=**a** — [https://en.wikipedia.org/wiki/Cof%C3%A1n_language](https://en.wikipedia.org/wiki/Cof%C3%A1n_language)
-- Sample: Dureno, Zábalo, Sinangué, Dovuno, Villanueva
+- Seeds: **36** | Min/Max: **4/22** | m=**0** | d=**** — N/A
+- Sample: Dureno | Zábalo | Sinangué | Dovuno | Yarinal
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Cogui (i:201310)
 
-- Seeds: **30** | Min/Max: **5/14** | m=**0** | d=**l** — [https://en.wikipedia.org/wiki/Cogui_language](https://en.wikipedia.org/wiki/Cogui_language)
-- Sample: San Miguel, Poteca, Mechinguche, Mamu, Kívgi
+- Seeds: **21** | Min/Max: **3/16** | m=**0** | d=**** — N/A
+- Sample: SanMiguel | Guatapurí | Mamu | Poteca | Mechinguche
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Fulniô (i:201311)
 
-- Seeds: **28** | Min/Max: **5/14** | m=**0** | d=**gr** — [https://en.wikipedia.org/wiki/Fulni%C3%B4_language](https://en.wikipedia.org/wiki/Fulni%C3%B4_language)
-- Sample: Águas Belas, Ipanema, Pernambuco, Recife, Sertão
+- Seeds: **6** | Min/Max: **3/23** | m=**0** | d=**** — N/A
+- Sample: ÁguasBelas | Ipanema | Buíque | Itaíba | Iati
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Guajajara (Tenetehara) (i:201312)
 
-- Seeds: **35** | Min/Max: **5/14** | m=**0** | d=**a** — [https://en.wikipedia.org/wiki/Tenetehara_language](https://en.wikipedia.org/wiki/Tenetehara_language)
-- Sample: Araribóia, Bacurizinho, Cana-Brava, Caru, Governador
+- Seeds: **51** | Min/Max: **3/17** | m=**0** | d=**** — N/A
+- Sample: Araribóia | Bacurizinho | CanaBrava | Caru | Governador
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Itonama (i:201313)
 
-- Seeds: **29** | Min/Max: **5/12** | m=**0** | d=**r** — [https://en.wikipedia.org/wiki/Itonama_language](https://en.wikipedia.org/wiki/Itonama_language)
-- Sample: Magdalena, Itonamas, Beni, Huacaraje, San Ramón
+- Seeds: **30** | Min/Max: **4/19** | m=**0** | d=**** — N/A
+- Sample: Magdalena | Huacaraje | SanRamón | SanJavier | Reyes
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Ka'apor (i:201314)
 
-- Seeds: **26** | Min/Max: **5/14** | m=**0** | d=**l** — [https://en.wikipedia.org/wiki/Ka%27apor_language](https://en.wikipedia.org/wiki/Ka%27apor_language)
-- Sample: Ka'apor, Maranhão, Gurupi, Alto Turiaçu, Araribóia
+- Seeds: **40** | Min/Max: **3/17** | m=**0** | d=**** — N/A
+- Sample: Gurupi | AltoTuriaçu | Araribóia | Caru | Governador
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Karu (Baníwa) (i:201315)
 
-- Seeds: **31** | Min/Max: **5/14** | m=**0** | d=**s** — [https://en.wikipedia.org/wiki/Karu_language](https://en.wikipedia.org/wiki/Karu_language)
-- Sample: São Gabriel da Cachoeira, Rio Negro, Içana, Uaupés, Tiquié
+- Seeds: **19** | Min/Max: **5/23** | m=**0** | d=**** — N/A
+- Sample: SãoGabrielDaCachoeira | Içana | PariCachoeira | Cucuí | Yauareté
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Kayapo (i:201316)
 
-- Seeds: **31** | Min/Max: **5/14** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Kayapo_language](https://en.wikipedia.org/wiki/Kayapo_language)
-- Sample: Gorotire, Kuben Kran Kegnte, Krẽhí, Baú, Arara
+- Seeds: **42** | Min/Max: **3/24** | m=**0** | d=**** — N/A
+- Sample: Altamira | SãoFélixDoXingu | OurilândiaDoNorte | Tucumã | Marabá
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Kulina (i:201317)
 
-- Seeds: **33** | Min/Max: **5/12** | m=**0** | d=**r** — [https://en.wikipedia.org/wiki/Kulina_language](https://en.wikipedia.org/wiki/Kulina_language)
-- Sample: Kulina, Rio Branco, Amazonas, Tapauá, Canutama
+- Seeds: **33** | Min/Max: **4/20** | m=**0** | d=**** — N/A
+- Sample: RioBranco | Tapauá | Canutama | Carauari | Envira
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Kwaza (i:201318)
 
-- Seeds: **31** | Min/Max: **5/18** | m=**0** | d=**a** — N/A
-- Sample: Aikanã, Kwaza, Rondônia, Pimenteiras do Oeste, Cerejeiras
+- Seeds: **19** | Min/Max: **4/22** | m=**0** | d=**** — N/A
+- Sample: Chupinguaia | PimentaBueno | Cacoal | ColoradoDoOeste | Corumbiara
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Kwinti (i:201319)
 
-- Seeds: **33** | Min/Max: **6/14** | m=**0** | d=**z** — N/A
-- Sample: Witagron, Kwinti, Saramacca, Paramaribo, Langa Tabiki
+- Seeds: **25** | Min/Max: **5/18** | m=**0** | d=**lnrt** — N/A
+- Sample: Witagron | Bitagron | Kaaimanston | Heidoti | LangaTabiki
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Leco (i:201320)
 
-- Seeds: **32** | Min/Max: **4/12** | m=**0** | d=**acdekt** — [https://en.wikipedia.org/wiki/Leco_language](https://en.wikipedia.org/wiki/Leco_language)
-- Sample: Mapiri, Atén, Santa Ana de Alto Beni, Guanay, Turupoa
+- Seeds: **33** | Min/Max: **4/20** | m=**0** | d=**** — N/A
+- Sample: Apolo | Mapiri | Aten | Atén | Guanay
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Matawai (i:201321)
 
-- Seeds: **32** | Min/Max: **5/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Nieuw Lombé, Matawai, Paramaribo, Sara Creek, Misidjan
+- Seeds: **32** | Min/Max: **5/16** | m=**0** | d=**lnrt** — N/A
+- Sample: NieuwLombé | Misidjan | Kwakoegron | Poesoegroenoe | Pokigron
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Munduruku (i:201322)
 
-- Seeds: **35** | Min/Max: **5/14** | m=**0** | d=**acdekt** — [https://en.wikipedia.org/wiki/Munduruku_language](https://en.wikipedia.org/wiki/Munduruku_language)
-- Sample: Munduruku, Jacareacanga, Itaituba, Santarém, Belterra
+- Seeds: **42** | Min/Max: **4/17** | m=**0** | d=**** — N/A
+- Sample: Jacareacanga | Itaituba | Santarém | Belterra | Rurópolis
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Ndyuka (i:201323)
 
-- Seeds: **32** | Min/Max: **5/14** | m=**0** | d=**r** — N/A
-- Sample: Maroni, Albina, Moengo, Patamacca, Paramaribo
+- Seeds: **39** | Min/Max: **5/17** | m=**0** | d=**lnrt** — N/A
+- Sample: Albina | Moengo | Patamacca | Paramaribo | LangaTabiki
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Nheengatu (i:201324)
 
-- Seeds: **32** | Min/Max: **6/16** | m=**0** | d=**acdert** — [https://en.wikipedia.org/wiki/Nheengatu](https://en.wikipedia.org/wiki/Nheengatu)
-- Sample: São Gabriel da Cachoeira, Rio Negro, Barcelos, Santa Isabel, Barrinha
+- Seeds: **34** | Min/Max: **4/23** | m=**0** | d=**** — N/A
+- Sample: SãoGabrielDaCachoeira | SantaIsabelDoRioNegro | Barcelos | Iauaretê | Içana
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Nivaclé (i:201325)
 
-- Seeds: **33** | Min/Max: **5/16** | m=**0** | d=**r** — [https://en.wikipedia.org/wiki/Nivacl%C3%A9_language](https://en.wikipedia.org/wiki/Nivacl%C3%A9_language)
-- Sample: Filadelfia, Mcalister, Neuland, Loma Plata, Colonia Menno
+- Seeds: **39** | Min/Max: **5/24** | m=**0** | d=**** — N/A
+- Sample: Filadelfia | Neuland | LomaPlata | MariscalEstigarribia | GeneralDiaz
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Páez (i:201326)
 
-- Seeds: **33** | Min/Max: **4/12** | m=**0** | d=**lnr** — N/A
-- Sample: Totoró, Jambaló, Puracé, Coconuco, Páez
+- Seeds: **43** | Min/Max: **4/21** | m=**0** | d=**** — N/A
+- Sample: Totoró | Jambaló | Puracé | Coconuco | Belalcázar
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Pirahã (i:201327)
 
-- Seeds: **39** | Min/Max: **5/14** | m=**0** | d=**r** — [https://en.wikipedia.org/wiki/Pirah%C3%A3_language](https://en.wikipedia.org/wiki/Pirah%C3%A3_language)
-- Sample: Pirahã, Humaitá, Amazonas, Manicoré, Rio Purus
+- Seeds: **38** | Min/Max: **4/23** | m=**0** | d=**** — N/A
+- Sample: Humaitá | Manicoré | Autazes | Borba | Beruri
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Sanöma (Sanumá) (i:201328)
 
-- Seeds: **30** | Min/Max: **5/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/ISO_639:xsu](https://en.wikipedia.org/wiki/ISO_639:xsu)
-- Sample: Yanomami, Toototobi, Parawa, Auaris, Surucucus
+- Seeds: **29** | Min/Max: **5/22** | m=**0** | d=**** — N/A
+- Sample: Auaris | Kolulu | Sikoi | Kadimani | Aracaçá
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Saramaccan (i:201329)
 
-- Seeds: **32** | Min/Max: **5/14** | m=**0** | d=**or** — N/A
-- Sample: Saramacca, Paramaribo, Groningen, Koemakronie, Pakka-Pakka
+- Seeds: **47** | Min/Max: **5/17** | m=**0** | d=**lnrt** — N/A
+- Sample: Paramaribo | Groningen | PakkaPakka | LangaTabiki | Wittikamba
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Shipibo-Conibo (i:201330)
 
-- Seeds: **32** | Min/Max: **5/14** | m=**0** | d=**acdekrt** — [https://en.wikipedia.org/wiki/Shipibo_language](https://en.wikipedia.org/wiki/Shipibo_language)
-- Sample: Pucallpa, Contamana, Masisea, Yarinacocha, Aguaytía
+- Seeds: **41** | Min/Max: **5/19** | m=**0** | d=**** — N/A
+- Sample: Pucallpa | Contamana | Masisea | Yarinacocha | Aguaytía
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Shuar (i:201331)
 
-- Seeds: **31** | Min/Max: **5/12** | m=**0** | d=**l** — [https://en.wikipedia.org/wiki/Shuar_language](https://en.wikipedia.org/wiki/Shuar_language)
-- Sample: Sucúa, Gualaquiza, Logroño, Mendez, Santiago
+- Seeds: **36** | Min/Max: **5/13** | m=**0** | d=**** — N/A
+- Sample: Sucúa | Gualaquiza | Logroño | Mendez | Taisha
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Sirionó (i:201332)
 
-- Seeds: **30** | Min/Max: **6/14** | m=**0** | d=**l** — N/A
-- Sample: Sirionó, Beni, Santa Cruz, Ibiato, Bella Vista
+- Seeds: **28** | Min/Max: **4/19** | m=**0** | d=**** — N/A
+- Sample: Ibiato | Ibiare | BellaVista | PuertoVarador | SanMartín
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Southern Quechua (i:201333)
 
-- Seeds: **40** | Min/Max: **5/14** | m=**0** | d=**lr** — [https://en.wikipedia.org/wiki/Southern_Quechua](https://en.wikipedia.org/wiki/Southern_Quechua)
-- Sample: Cusco, Arequipa, Puno, Huancavelica, Ayacucho
+- Seeds: **56** | Min/Max: **4/16** | m=**0** | d=**** — N/A
+- Sample: Cusco | Arequipa | Puno | Huancavelica | Ayacucho
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Sranan Tongo (i:201334)
 
-- Seeds: **33** | Min/Max: **5/14** | m=**0** | d=**cl** — N/A
-- Sample: Paramaribo, Lelydorp, Nieuw Nickerie, Moengo, Albina
+- Seeds: **45** | Min/Max: **5/16** | m=**0** | d=**lnrt** — N/A
+- Sample: Paramaribo | Lelydorp | NieuwNickerie | Moengo | Albina
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Tupi (i:201335)
 
-- Seeds: **33** | Min/Max: **4/12** | m=**0** | d=**celnost** — [https://en.wikipedia.org/wiki/Tupi_language](https://en.wikipedia.org/wiki/Tupi_language)
-- Sample: São Vicente, São Paulo, Paranaguá, Rio de Janeiro, Salvador
+- Seeds: **144** | Min/Max: **3/24** | m=**0** | d=**** — N/A
+- Sample: Niterói | Tijuca | Ipanema | Copacabana | Jacarepaguá
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Warao (i:201336)
 
-- Seeds: **31** | Min/Max: **5/16** | m=**0** | d=**s** — [https://en.wikipedia.org/wiki/Warao_language](https://en.wikipedia.org/wiki/Warao_language)
-- Sample: Tucupita, Pedernales, Barrancas del Orinoco, Warao, Orinoco
+- Seeds: **42** | Min/Max: **5/22** | m=**0** | d=**** — N/A
+- Sample: Tucupita | Pedernales | BarrancasDelOrinoco | Curiapo | Winikina
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Warázu (i:201337)
 
-- Seeds: **31** | Min/Max: **6/16** | m=**0** | d=**lr** — [https://en.wikipedia.org/wiki/ISO_639:psm](https://en.wikipedia.org/wiki/ISO_639:psm)
-- Sample: Warázu, Guaporé, Rondônia, Pimenteiras do Oeste, Cerejeiras
+- Seeds: **35** | Min/Max: **4/24** | m=**0** | d=**** — N/A
+- Sample: PimenteirasDoOeste | Cerejeiras | ColoradoDoOeste | Vilhena | PortoVelho
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Wariʼ (i:201338)
 
-- Seeds: **33** | Min/Max: **5/14** | m=**0** | d=**z** — [https://en.wikipedia.org/wiki/ISO_639:pav](https://en.wikipedia.org/wiki/ISO_639:pav)
-- Sample: Wari', Ouro Preto do Oeste, Rondônia, Pacaás Novos, Guajará-Mirim
+- Seeds: **32** | Min/Max: **5/24** | m=**0** | d=**** — N/A
+- Sample: OuroPretoDoOeste | PacaásNovos | GuajaráMirim | PortoVelho | JiParaná
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Xocó (i:201339)
 
-- Seeds: **31** | Min/Max: **4/14** | m=**0** | d=**z** — N/A
-- Sample: Xocó, Porto Real do Colégio, Palmeira dos Índios, Alagoas, Propriá
+- Seeds: **40** | Min/Max: **4/23** | m=**0** | d=**** — N/A
+- Sample: PortoDaFolha | IlhaDeSãoPedro | Caiçara | CanindéDeSãoFrancisco | Propriá
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
 
 
 ## Yaminawa (i:201340)
 
-- Seeds: **35** | Min/Max: **5/12** | m=**0** | d=**s** — [https://en.wikipedia.org/wiki/Yaminawa_language](https://en.wikipedia.org/wiki/Yaminawa_language)
-- Sample: Yaminawa, Acre, Pucallpa, Iñapari, Puerto Maldonado
+- Seeds: **40** | Min/Max: **4/17** | m=**0** | d=**** — N/A
+- Sample: Pucallpa | Iñapari | PuertoMaldonado | Sepahua | Contamana
+- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+
+
+## Brazilian Portuguese (i:201495)
+
+- Seeds: **75** | Min/Max: **4/14** | m=**0** | d=**lnrt** — N/A
+- Sample: SãoPaulo | RioDeJaneiro | Brasília | Salvador | Fortaleza
+- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+
+
+## Uruguayan Portuguese (i:201496)
+
+- Seeds: **43** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
+- Sample: Rivera | Artigas | Chuy | Melo | RioBranco
 - [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done

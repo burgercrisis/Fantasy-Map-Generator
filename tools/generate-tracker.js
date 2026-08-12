@@ -13,13 +13,22 @@ const outDir = path.join(__dirname, "../docs/plans/namebase-research");
 
 function langEntry(item) {
   const wiki = item.catalogWiki ? "[" + item.catalogWiki + "](" + item.catalogWiki + ")" : "N/A";
+  const status = item.status || "";
+  let checklist;
+  if (status === "COMPLETE") {
+    checklist = "- [x] Name  [x] Seeds authentic  [x] Seed count  [x] D  [x] M  [x] Min/Max  [x] Continent  [x] Encoding  [x] Placeholder  [x] Done";
+  } else if (status === "WAITING") {
+    checklist = "- [x] Name  [x] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done — WAITING";
+  } else {
+    checklist = "- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done";
+  }
   const lines = [
     "",
     "## " + item.name + " (i:" + item.i + ")",
     "",
     "- Seeds: **" + item.seedCount + "** | Min/Max: **" + item.min + "/" + item.max + "** | m=**" + item.m + "** | d=**" + item.d + "** \u2014 " + wiki,
     "- Sample: " + item.sampleSeeds,
-    "- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done",
+    checklist,
     ""
   ];
   return lines;

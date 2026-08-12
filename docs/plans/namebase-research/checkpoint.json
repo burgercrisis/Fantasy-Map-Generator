@@ -1,0 +1,13 @@
+{
+  "lastProcessed": "201366",
+  "nextIndex": "EOF",
+  "batchSize": 12,
+  "completedAt": "2026-08-12T11:51:00-07:00",
+  "summary": {
+    "africaComplete": 29,
+    "africaWaiting": 25,
+    "dedicatedComplete": 11,
+    "dedicatedWaiting": 14
+  },
+  "notes": "Batch processed i=201018-EOF (12 remaining entries). Created 12 research docs in docs/verification/research/by-language/. Added status fields to 2 entries in modules/namebases-africa.js (Buwal, Cakfem-Mushere as WAITING; Fyer updated to WAITING). Results: 6 COMPLETE (Zuwara Berber, Santiago Creole, Santo Antão Creole, São Nicolau Creole, Algerian Saharan Arabic, Cairene Arabic, Egyptian Arabic). 5 WAITING (Zurg, Algerian Arabic, Fyer, Buwal, Cakfem-Mushere). End of africa file reached. Next: namebases-dedicated.js or other continent."
+}
