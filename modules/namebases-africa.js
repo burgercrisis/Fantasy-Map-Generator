@@ -1652,7 +1652,8 @@ window.africaNameBases = [
     "max": 14,
     "d": "lnrt",
     "m": 0,
-    "b": "Bonga,Tepi,Mizan Teferi,Gore,Metu,Jimma,Agaro,Bedele,Sebeta,Durame,Wacha,Shishinda,Bench Maji,Meinit,Meinit Goldiya,Keffa,Sheka,Bench Sheko,Tirole,Gatama,Kelafo,Gode,Mustahil,Ferfer,Gawata,Dalocha,Fuchucha,Kachama,Sawena,Bitena,Arjo,Gesuba,Gununo,Bedessa,Dimtu,Arba Minch,Jijiga,Harar,Adama,Bahir Dar,Gondar,Lalibela,Mekele,Hawassa,Sodo,Nekemte,Ambo,Woliso,Dilla,Yirgalem,Shashamane,Ziway,Debre Zeit,Mojo,Bishoftu,Debre Markos,Bichena,Finote Selam,Injibara,Dangila,Merawi,Woreta,Butajira,Hosaena,Boditi,Tercha,Dembidolo,Mettu,Bedelle,Bako,Shambu,Debre Tabor,Addis Zemen,Kobo,Alamata,Korem,Maychew,Adigrat,Aksum,Shire,Endaselassie,Humera,Debarq,Sekota,Soqota,Wolda,Dessie,Kombolcha,Bati,Kemise,Dembecha,Asosa,Gambela,Adet,Werabe,Areka,Limmu Genet,Hagere Mariam,Yabello,Mega,Moyale,Negele Borana,Dolo Odo,Kebri Dehar,Werder,Shilavo,Debre Birhan,Fiche,Goha Tsion,Adwa,Enticho,Freweyni,Abiy Addi,Alamata,Mekdela,Menz,Tegulet,Bulga,Moret,Shewa,Jama,Kelela,Bati,Haik,Kutaber,Tenta,Legambo,Wogera,Dabat,Gonder Zuria,Alefa,Qwara,Wembera,Jawi,Bure,Jabi Tehnan,Aneded,Kudmi,Gulom,Kamashi,Sibu,Bila,Nole,Dale,Loka Abaya,Malga,Sidama,Borena,Guji,Arsi,Bale,Dawa,Dollo,Konso,Jinka,Turmi,Karo,Kibish,Hammer,Mursi,Nyangatom,Bena Tsemay,Debub Ari,Benatsemay,Selamago,Gnangatom,Kuraz,Lele Kecha,Teltele,Dire,Moyale,Uraga,Adola,Wadera,Dawe,Kofele,Dodola,Adaba,Goba,Robe,Sinana,Dinsho,Mena,Goro,Berbere,Ginir,Gasera,Golo,Kersa,Gomma,Gera,Seka Chekorsa,Shebe Senbo,Setema,Mana,Tiro,Yeki,Debeka,Gura,Sumale,Kacha Bira,Dire Dawa,Debre Sina,El Kere"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Doko",
@@ -1681,7 +1682,8 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Maroua"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Duhwa",
@@ -1710,7 +1712,8 @@ window.africaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Juba,Malakal,Bentiu,Rumbek,Yirol,Wau,Twic,Leer,Panyikang,Gogrial,Aweil,Kapoeta,Torit,Bor,Nimule,Lafon,Pibor,Boma,Mundri,Lainya,Raja,Akobo,Yei,Maridi,Ezo"
+    "b": "Rumbek,Yirol,Gogrial,Aweil,Bor,Twic,Bentiu",
+    "status": "COMPLETE"
   },
   {
     "name": "Eastern Berber",
@@ -1719,7 +1722,8 @@ window.africaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Ghadames,Nalut,Zuwara,Tmassah"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Eastern Middle Atlas Berber",
@@ -1728,7 +1732,8 @@ window.africaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Midelt,Ksar Tissouit,Ait Seghrouchen,Imouzzer,Middle Atlas,High Atlas,Talesinnt,Tichikout,Ait Ayache,Ait Ali ou Yahya,Beni Mellal,Khenifra,Azrou,Timahdite,Aguelmous,El Ksiba,Aghbala,Tizi n'Test,Tadla,Azilal,Ifrane,Meknes,Fes,Errachidia,Rich,Gourrama"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Eastern Morocco Zenati",
@@ -1737,7 +1742,8 @@ window.africaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Oujda,Berkane,Taourirt,Guercif,Figuig,Bouarfa,Nador,Al Hoceima,Taza"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Fali of Mubi",
@@ -1746,7 +1752,8 @@ window.africaNameBases = [
     "max": 8,
     "d": "lnrt",
     "m": 0,
-    "b": "Vimtim,Muchalla,Bagira,Bahuli,Muvudi,Mbamba,Kwaskine,Maskoka,Mukta,Muvur,Mujilu,Kapoli,Kiriya,Kamnda,Gyumbula,Chabul,Pawi,Ribawa,Wudivi,Miza,Duda,Koma,Mitira"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Fang",
@@ -1755,7 +1762,8 @@ window.africaNameBases = [
     "max": 17,
     "d": "lnrt",
     "m": 0,
-    "b": "Bata,Ebebiyin,Mongomo,Evinayong,Aconibe,Micomeseng,Bitica,Cogo,Rio Campo,Acurenam,Ayene,Niefang"
+    "b": "Bata,Ebebiyin,Mongomo,Evinayong,Aconibe,Micomeseng,Bitica,Cogo,Rio Campo,Acurenam,Ayene,Niefang",
+    "status": "COMPLETE"
   },
   {
     "name": "Tetuani",
@@ -1764,7 +1772,8 @@ window.africaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Tetouan,Oujda,Berkane,Taourirt,Guercif,Figuig,Bouarfa,Nador,Al Hoceima,Taza,Chefchaouen,Ouezzane,Asilah,Larache,Fnideq,Mdiq,Alnif,Rissani,Merzouga,Goulmima,Errachidia,Tineghir,Agdz,Biougra,Taroudannt"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Fula",
@@ -1773,7 +1782,8 @@ window.africaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Dakar,Saint-Louis,Kaolack,Tivaouane,Thiès,Mbour,Rufisque,Ziguinchor,Kolda,Sédhiou,Diourbel,Bambey,Louga,Gossas,Dagana,Podor,Matam,Kanel,Niayes,Bamako,Sikasso,Ségou,Mopti,Gao,Timbuktu,Kayes,Kita,Koutiala,Niono,San,Fulala"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Furu",
@@ -1792,7 +1802,8 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Maroua,Mora,Waza,Balda,Makary,Kousséri,Mokolo,Mayo-Oulo,Hina,Mayo-Sava,Mayo-Kani,Mayo-Danay,Mayo-Binder,Mayo-Tignère,Mayo-Godi,Mayo-Djarendi,Mayo-Maskola,Mayo-Lokoro,Mayo-Zoumaya,Mayo-Manga,Mayo-Farang"
+    "b": "Tourou",
+    "status": "WAITING"
   },
   {
     "name": "Igbo",
@@ -1801,7 +1812,8 @@ window.africaNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Onitsha,Aba,Abakaliki,Awka,Owerri,Umuahia,Asaba,Nsukka,Abiriba,Arochukwu,Ohafia,Bende,Okigwe,Orlu,Oguta,Nkwerre"
+    "b": "Onitsha,Aba,Abakaliki,Awka,Owerri,Umuahia,Asaba,Nsukka,Abiriba,Arochukwu,Ohafia,Bende,Okigwe,Orlu,Oguta,Nkwerre",
+    "status": "COMPLETE"
   },
   {
     "name": "Gwandara",
@@ -1810,7 +1822,8 @@ window.africaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Keffi,Lafia,Akwanga,Awe,Keana,Oto,Doma,Obi,Agatu,Otukpo,Ugbokpo,Gboko,Aliade,Vandeikya,Katsina-Ala,Zaki Biam,Yola,Mubi,Madagali,Michika,Hong,Gombi,Song,Garkida,Guyaku,Lagos,Kano,Ibadan,Abuja"
+    "b": "Keffi,Lafia,Akwanga,Awe,Keana,Doma,Obi,Abuja",
+    "status": "WAITING"
   },
   {
     "name": "Hausa",
@@ -1819,7 +1832,8 @@ window.africaNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Zaria,Katsina,Dutse,Gusau,Birnin Kebbi,Argungu,Daura,Hadejia,Gumel,Yola,Jimeta,Biu,Mubi,Keffi,Lafia,Akwanga,Awe,Keana,Doma,Obi,Agatu,Otukpo,Ugbokpo,Gboko,Bura,Maiduguri,Damaturu"
+    "b": "Zaria,Katsina,Dutse,Gusau,Birnin Kebbi,Argungu,Daura,Hadejia,Gumel",
+    "status": "COMPLETE"
   },
   {
     "name": "Karekare",
@@ -1828,7 +1842,8 @@ window.africaNameBases = [
     "max": 10,
     "d": "lnrt",
     "m": 0,
-    "b": "Jalam,Nangere,Tikau,Damagum,Daniski,Gudi,Bara,Jangasiri,Jangadole,Kukargadu,Dagare,Maje,Biriri,Degubi,Dazigau,Pakarau,Chilariye,Dawasa,Tarajim,Mamudo,Dakasko,Fune,Ngalda,Gadaka,Chana,Daya,Dozi,Godowoli,Lewe,Turmi,Maluri,Dumbulwa,Jajere,Chinade,Duddaye,Kolere,Kayeri,Ngelzarma,Gabarun,Challino,Dagazirwa,Buraman,Kukuri,Chiromari,Bulturi,Siminti,Dazigal,Alaraba,Zadawa,Gagidiba"
+    "b": "Jalam,Nangere,Tikau,Damagum,Daniski,Gudi,Bara,Jangasiri,Jangadole,Kukargadu,Dagare,Maje,Biriri,Degubi,Dazigau,Pakarau,Chilariye,Dawasa,Tarajim,Mamudo,Dakasko,Fune,Ngalda,Gadaka,Chana,Daya,Dozi,Godowoli,Lewe,Turmi,Maluri,Dumbulwa,Jajere,Chinade,Duddaye,Kolere,Kayeri,Ngelzarma,Gabarun,Challino,Dagazirwa,Buraman,Kukuri,Chiromari,Bulturi,Siminti,Dazigal,Alaraba,Zadawa,Gagidiba",
+    "status": "COMPLETE"
   },
   {
     "name": "Kotoko",
@@ -1837,7 +1852,8 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Makary,Kousséri,Waza"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Kuo",
@@ -1856,7 +1872,8 @@ window.africaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Bawku,Garu"
+    "b": "Bawku,Garu,Pusiga,Binduri,Tempane,Zabugu,Missiga,Zawse,Zor,Yuiga,Bieung",
+    "status": "COMPLETE"
   },
   {
     "name": "Kota",
@@ -1865,7 +1882,8 @@ window.africaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Makokou,Mékambo,Ovan,Booué,Kelle,Mbomo"
+    "b": "Makokou,Mékambo,Ovan,Booué,Kelle,Mbomo",
+    "status": "COMPLETE"
   },
   {
     "name": "Kuturmi",
@@ -1874,7 +1892,8 @@ window.africaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Jos,Riyom,Mangu,Bokkos,Pankshin,Shendam,Langtang,Wase,Keffi,Lafia,Akwanga,Awe,Keana,Oto,Doma,Obi,Agatu,Otukpo,Ugbokpo,Gboko,Aliade,Vandeikya,Katsina-Ala,Zaki Biam,Bukuru,Lagos,Kano"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Tidikelt Berber",
@@ -1893,7 +1912,8 @@ window.africaNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Wukari,Abinsi,Dampar,Wase"
+    "b": "Wukari,Abinsi,Dampar,Wase",
+    "status": "COMPLETE"
   },
   {
     "name": "Abon",
@@ -1902,7 +1922,8 @@ window.africaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Abong,Abonyere,Akumbo,Chon,Mbissa,Yaboro,Baissa,Bissaula,Ashuku,Adobe,Ambwe,Njuwande,Bente,Galea,Gatari,Nyido,Tosso,Tigon,Akoferi,Karanuwa,Gwanda,Bangara,Sunkuru,Zongomata,Batuamada,Akwento,Boko,Ngbashi,Kpwola,Ndaforo,Asha,Bafum,Daubelli,Namagangere,Zabe,Tsakwa,Shenjuah,Gembu,Nguroje,Kakara,Dorofi,Kabri,Warwar,Titong,Mbamnga,Kusuku,Magu,Takum,Bete,Chanchanji,Lupwe,Kashimbila,Kumbo,Yongtu,Mbiya,Likam,Ussa,Lissam,Kpambo,Fikyu,Lumbu,Rufu,Kwesati,Donga,Kente"
+    "b": "Abong",
+    "status": "WAITING"
   },
   {
     "name": "Abron",
@@ -1911,7 +1932,8 @@ window.africaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Sunyani,Berekum,Wenchi,Drobo,Japekrom,Sampa,Jinijini,Nsawkaw,Odumase,Wamfie,Nkrankwanta,Chiraa,Fiapre,Abesim,Nsuatre,Atronie,Kwatire,Techiman,Kintampo,Nkoranza,Jema,Busunya,Atebubu,Amantin,Yeji,Prang,Tuobodom,Offuman,Buoyem,Tanoboase,Aworowa,Tanoso,Goaso,Bechem,Mim,Kukuom,Kenyasi,Hwidiem,Techimantia,Yamfo,Ntotroso,Sankore,Akrodie,Bondoukou,Tanda,Transua,Assuefry,Sandegue,Sorobango,Tabagne"
+    "b": "Sunyani,Berekum,Wenchi,Drobo,Japekrom,Sampa,Jinijini,Nsawkaw,Odumase,Wamfie,Nkrankwanta,Chiraa,Fiapre,Abesim,Nsuatre,Atronie,Kwatire,Techiman,Kintampo,Nkoranza,Jema,Busunya,Atebubu,Amantin,Yeji,Prang,Tuobodom,Offuman,Buoyem,Tanoboase,Aworowa,Tanoso,Goaso,Bechem,Mim,Kukuom,Kenyasi,Hwidiem,Techimantia,Yamfo,Ntotroso,Sankore,Akrodie,Bondoukou,Tanda,Transua,Assuefry,Sandegue,Sorobango,Tabagne",
+    "status": "COMPLETE"
   },
   {
     "name": "Aja",
@@ -1921,7 +1943,7 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Lomé,Sokodé,Kpalimé,Atakpamé,Bassar,Kara,Notsé,Tchamba,Badou,Aného,Tabligbo,Kpagouda,Kandé,Mango,Sotouboua,Bafilo,Akposso,Agou,Niamtougou,Dapaong,Tandjouaré,Biankouri",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
   {
     "name": "Aka",
@@ -1930,7 +1952,8 @@ window.africaNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Mbaïki,Mongoumba,Boda"
+    "b": "Mbaïki,Mongoumba,Boda",
+    "status": "WAITING"
   },
   {
     "name": "Ambele",
@@ -1939,7 +1962,8 @@ window.africaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Widikum"
+    "b": "Widikum",
+    "status": "WAITING"
   },
   {
     "name": "Ambo",
@@ -1948,7 +1972,8 @@ window.africaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Dodoma,Singida,Manyoni,Tabora,Shinyanga,Mwanza,Kigoma,Morogoro,Yola,Mubi,Madagali,Michika,Hong,Gombi,Song,Numan,Demsa,Jimeta,Ganye,Jada,Fufore,Lamurde,Luuq,Galole,Habaswein,Dolow"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Dagbani",
@@ -1957,7 +1982,8 @@ window.africaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Tamale,Yendi,Bimbilla,Saboba,Chereponi,Zabzugu,Kumbungu,Savelugu,Kpandai,Karaga,Tolon,Nanton,Gushegu,Wulensi,Sang,Tatale,Sagnerigu,Nyankpala,Dalun,Gbullung,Voggu,Kasuliyili,Tali,Lungbunga,Tingoli,Diare,Moglaa,Tampion,Nabogu,Libga,Tibali,Dipale,Langa,Kpatinga,Nabuli,Zinindo,Wantugu,Galwei,Nawuhugu,Zanteli,Gbambu,Katani,Pishigu,Sung,Adibo,Gbungbaliga,Sunson,Nakpachei,Gnani,Chamba,Bakpaba,Lamashegu,Zogbeli"
+    "b": "Tamale,Yendi,Bimbilla,Saboba,Chereponi,Zabzugu,Kumbungu,Savelugu,Kpandai,Karaga,Tolon,Nanton,Gushegu,Wulensi,Sang,Tatale,Sagnerigu,Nyankpala,Dalun,Gbullung,Voggu,Kasuliyili,Tali,Lungbunga,Tingoli,Diare,Moglaa,Tampion,Nabogu,Libga,Tibali,Dipale,Langa,Kpatinga,Nabuli,Zinindo,Wantugu,Galwei,Nawuhugu,Zanteli,Gbambu,Katani,Pishigu,Sung,Adibo,Gbungbaliga,Sunson,Nakpachei,Gnani,Chamba,Bakpaba,Lamashegu,Zogbeli",
+    "status": "COMPLETE"
   },
   {
     "name": "Djimini",
@@ -1966,7 +1992,8 @@ window.africaNameBases = [
     "max": 19,
     "d": "lnrt",
     "m": 0,
-    "b": "Sikasso,Kadiolo,Lobougoula,Niena,Zanférébougou,Blendio,Kolonzo,Loulouni,Nkoura,Kafouziéla,Gongasso,Kignan,Finkolo,Finkolo Ganadougou,Sankarani,Tiémala-Banimonotié,Kouoro,Danderesso,Koumankou,M'Pessoba,Koungoba,Tomoni,N'Golonianasso,Kapolondougou,Sanzana"
+    "b": "Sikasso,Kadiolo,Lobougoula,Niena,Zanférébougou,Blendio,Kolonzo,Loulouni,Nkoura,Kafouziéla,Gongasso,Kignan,Finkolo,Finkolo Ganadougou,Sankarani,Tiémala-Banimonotié,Kouoro,Danderesso,Koumankou,M'Pessoba,Koungoba,Tomoni,N'Golonianasso,Kapolondougou,Sanzana",
+    "status": "COMPLETE"
   },
   {
     "name": "Dogoso",
@@ -1975,7 +2002,8 @@ window.africaNameBases = [
     "max": 14,
     "d": "lnrt",
     "m": 0,
-    "b": "Ouagadougou,Bobo-Dioulasso,Koudougou,Banfora,Ouahigouya,Dédougou,Nouna,Tougan,Djibo,Gorom-Gorom,Marka,Yako,Kongoussi,Kaya,Fada N'Gourma,Gayeri,Leo,Sapouy,Bittou,Garango,Zorgho,Boussé,Kouka,Mogtédo,Yargo,Bondo"
+    "b": "Dandougou,Torokoro,Sokoura,Bondokoro,Tolandougou,Sakédougou",
+    "status": "WAITING"
   },
   {
     "name": "Evant",
@@ -1994,7 +2022,8 @@ window.africaNameBases = [
     "max": 14,
     "d": "lnrt",
     "m": 0.1,
-    "b": "Saraf Bourgou,Gadar,Bir Nahal,Bolong Kibed,Chinguila,Birkit Tamassi,Keded,Bolong Dagal,Goza,Goza Mimi,Haraza,Tangorchele,Kele,Abgadam,Armawaha,Tissi,Routrout,Ladja,Moudef,Bourtoutou,Bolom,Mogororo"
+    "b": "Saraf Bourgou,Gadar,Bir Nahal,Bolong Kibed,Chinguila,Birkit Tamassi,Keded,Bolong Dagal,Goza,Goza Mimi,Haraza,Tangorchele,Kele,Abgadam,Armawaha,Tissi,Routrout,Ladja,Moudef,Bourtoutou,Bolom,Mogororo",
+    "status": "WAITING"
   },
   {
     "name": "Fungor",
@@ -2013,7 +2042,8 @@ window.africaNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Bafoussam,Baleng,Bamougoum,Bamendzi,Bapi,Nkwabang,Bandjoun,Bayangam,Batoufam,Bandrefam,Demdeng,Baham,Bamendjou,Bameka,Bahouan,Bangam,Batie,Bangou,Bapa,Bandenkop,Baloumgou,Meudjieu,Bametchetcha,Bansoa,Baloum,Bafounda"
+    "b": "Bafoussam,Baleng,Bamougoum,Bamendzi,Bapi,Nkwabang,Bandjoun,Bayangam,Batoufam,Bandrefam,Demdeng,Baham,Bamendjou,Bameka,Bahouan,Bangam,Batie,Bangou,Bapa,Bandenkop,Baloumgou,Meudjieu,Bametchetcha,Bansoa,Baloum,Bafounda",
+    "status": "COMPLETE"
   },
   {
     "name": "Gikuyu",
@@ -2022,7 +2052,8 @@ window.africaNameBases = [
     "max": 10,
     "d": "lnrt",
     "m": 0,
-    "b": "Nairobi,Thika,Kiambu,Ruiru,Juja,Limuru,Kikuyu,Karuri,Githunguri,Gatundu,Kabete,Lari,Kijabe,Ndumberi,Tigoni,Kinoo,Uthiru,Muguga,Ruaka,Ngecha,Githurai,Kamwangi,Gatuanyaga,Nyathuna,Ndenderu,Komothai,Githiga,Ndeiya,Murang'a,Maragua,Kangema,Kandara,Kigumo,Kenol,Kabati,Makuyu,Sabasaba,Kangari,Kirwara,Gatanga,Gatura,Kiriaini,Nyeri,Karatina,Othaya,Mukurweini,Mweiga,Naromoru,Chaka,Endarasha,Wamagana,Kiganjo,Kagumo,Kerugoya,Kutus,Sagana,Baricho,Kianyaga,Wanguru,Njabini,Ndaragwa,Mirangine,Embu"
+    "b": "Nairobi,Thika,Kiambu,Ruiru,Juja,Limuru,Kikuyu,Karuri,Githunguri,Gatundu,Kabete,Lari,Kijabe,Ndumberi,Tigoni,Kinoo,Uthiru,Muguga,Ruaka,Ngecha,Githurai,Kamwangi,Gatuanyaga,Nyathuna,Ndenderu,Komothai,Githiga,Ndeiya,Murang'a,Maragua,Kangema,Kandara,Kigumo,Kenol,Kabati,Makuyu,Sabasaba,Kangari,Kirwara,Gatanga,Gatura,Kiriaini,Nyeri,Karatina,Othaya,Mukurweini,Mweiga,Naromoru,Chaka,Endarasha,Wamagana,Kiganjo,Kagumo,Kerugoya,Kutus,Sagana,Baricho,Kianyaga,Wanguru,Njabini,Ndaragwa,Mirangine,Embu",
+    "status": "COMPLETE"
   },
   {
     "name": "Goundo",
@@ -2031,7 +2062,8 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0.1,
-    "b": "Goundo,Goundo Bengli,Goundo Nongom,Goundo Ylla"
+    "b": "Goundo,Goundo Bengli,Goundo Nongom,Goundo Ylla",
+    "status": "WAITING"
   },
   {
     "name": "Gourmanché",
@@ -2040,7 +2072,8 @@ window.africaNameBases = [
     "max": 14,
     "d": "lnrt",
     "m": 0.1,
-    "b": "Fada N'Gourma,Gayéri,Diapaga,Matiacoali,Bogandé,Tibga,Partiaga,Kantchari,Coalla,Kompienga,Pama,Piéla,Manni,Bilanga,Diabo,Diapangou,Botou,Namounou,Tambaga,Tansarga,Logobou,Liptougou,Madjoari,Foutouri,Bartiébougou,Thion,Yamba,Solhan,Sebba,Bittou,Garango,Zorgho,Mogtédo,Yargo,Leo,Sapouy,Boussé,Kouka,Rambo,Yako,Kongoussi,Kaya,Djibo,Gorom-Gorom,Ouagadougou,Koudougou,Ouahigouya,Dédougou,Nouna,Tougan,Banfora,Bobo-Dioulasso,Torodi,Makalondi,Karimama,Mandouri"
+    "b": "Fada N'Gourma,Gayéri,Diapaga,Matiacoali,Bogandé,Tibga,Partiaga,Kantchari,Coalla,Kompienga,Pama,Piéla,Manni,Bilanga,Diabo,Diapangou,Botou,Namounou,Tambaga,Tansarga,Logobou,Liptougou,Madjoari,Foutouri,Bartiébougou,Thion,Yamba,Solhan,Sebba,Bittou,Garango,Zorgho,Mogtédo,Yargo,Leo,Sapouy,Boussé,Kouka,Rambo,Yako,Kongoussi,Kaya",
+    "status": "COMPLETE"
   },
   {
     "name": "Tagwana",
@@ -2059,7 +2092,8 @@ window.africaNameBases = [
     "max": 17,
     "d": "lnrt",
     "m": 0.1,
-    "b": "Tamanrasset,In Guezzam,Adrar,Tindouf,Timimoun,Metlili,El Golea,El Ouata,Ghardaia,Laghouat,Djelfa,Naama,El Bayadh,Tamentit,Zaouiet Kounta,Reggane,Fenoughil,Bouda,Tamest,Tsabit,Sebaa,Sali,In Zghmir,Ouled Ahmed Timmi,Aoulef,Akabli,Timokten,Tit,In Salah,In Ghar,Foggaret Ezzoua,Aougrout,Charouine,Deldoul,Ksar Kaddour,Metarfa,Ouled Aissa,Ouled Said,Talmine,Tinerkouk,Tabelkouza,Taantast,Beni Abbes,Kerzaz,Timoudi,Igli,Ouled Khoudir,Ksabi,Beni Ikhlef,Ougarta,Guerzim,Tamtert,Taghit,Bechar,Kenadsa,Abadla"
+    "b": "Tamentit,Tittaf",
+    "status": "WAITING"
   },
   {
     "name": "Western Berber",
@@ -2068,7 +2102,8 @@ window.africaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Nouakchott,Nouadhibou,Kaédi,Rosso,Boghé,M'Bout,Sélibaby,Maghama,Mederdra,R'Kiz,Tidjikja,Akjoujt,Tevragh Zeina,Dar Naim,Sebkha,Teyarett,Boutilimit,Mbagne,Bakel,Kidira,Goudiry,Koumpentoum,Bala,Sébikotane,Diourbel,Bambey,Tivaouane,Linguère,Dahra,Dodji,Richard Toll,Ross Béthio,Dagana,Podor,El Mina"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Vengo",
@@ -2077,7 +2112,8 @@ window.africaNameBases = [
     "max": 10,
     "d": "lnrt",
     "m": 0,
-    "b": "Vengo,Babungo,Finkwi,Finteng,Moukang,Mbuakam,Mbuakang,Mbenje,Mbenjeng,Mbele,Mbelung,Mbemu,Mbukong,Ngole,Ngineh,Vebui,Vending,Tondoh,Tighan,Ekwindoh,Ebua,Ebia,Njumendui,Nkung,Langkebweo,Forghai,Iyung,Nturr,Ndobo,Nkunse"
+    "b": "Vengo,Babungo,Finkwi,Finteng,Moukang,Mbuakam,Mbuakang,Mbenje,Mbenjeng,Mbele,Mbelung,Mbemu,Mbukong,Ngole,Ngineh,Vebui,Vending,Tondoh,Tighan,Ekwindoh,Ebua,Ebia,Njumendui,Nkung,Langkebweo,Forghai,Iyung,Nturr,Ndobo,Nkunse",
+    "status": "WAITING"
   },
   {
     "name": "Viemo",
@@ -2086,7 +2122,8 @@ window.africaNameBases = [
     "max": 14,
     "d": "lnrt",
     "m": 0,
-    "b": "Ouagadougou,Bobo-Dioulasso,Koudougou,Banfora,Ouahigouya,Dédougou,Nouna,Tougan,Djibo,Gorom-Gorom,Marka,Yako,Kongoussi,Kaya,Fada N'Gourma,Gayeri,Sapouy,Bittou,Garango,Zorgho,Boussé,Kouka,Mogtédo,Rambo,Yargo,Kalokol,Harardera,Mahaday,Yeed,Kidimu,Kiunga,Dolow,Bondo,Konso,HomaBay"
+    "b": "Karankasso-Vigué",
+    "status": "WAITING"
   },
   {
     "name": "Viti",
