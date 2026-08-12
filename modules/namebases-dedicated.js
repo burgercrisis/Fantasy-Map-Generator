@@ -1329,7 +1329,7 @@ window.dedicatedNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Kofyar,Bwall,Kwalla,Lanong,Kwong,Doemak,Kwande,Pai,Bwarat,Gana Ropp,Daffo,Bokkos,Fobur,Mabatado,Kophe,Wamba,Kwali,Gongong,Kwak,Bwalla,Pankan,Bwalla Kwalla,Bwarat Kwari,Gongong Bwall,Kwong Daffo,Kofyar Doemak,Bwall Kwong,Pankan Kwalla,Kwali Fobur,Gana Ropp Daffo,Kofyar Bwall,Bwarat Pankan,Kwong Kophe,Doemak Kwali,Bwall Gana,Kwak Fobur,Daffo Bokkos,Kofyar Lanong,Pai Kwong,Bwarat Kong,Gongong Kwalla,Kwong Gana,Bwall Pankan,Kwali Doemak,Kofyar Kwong,Bwarat Kwak,Pankan Kwong,Kwali Bwall"
+    "b": "Kofyar,Bwall,Kwalla,Doemak,Kwande,Kwong,Kwang,Kwali,Pai,Bwarat,Gana Ropp,Daffo,Bokkos,Fobur,Lankaku,Kopfogon,Shangfup,Nakum,Dokan Tofa,Gorom,Koffiar,Kaper,Bwal Goechim,Bwal Goepil,Bong,Dimmuk,Geochim,Latok"
   },
   {
     "name": "Parkwa",
