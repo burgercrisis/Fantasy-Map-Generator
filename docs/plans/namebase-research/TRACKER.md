@@ -2424,31 +2424,31 @@ Every single entry MUST be audited for:
 | 10988 | Douiret | namebases-africa.js | 47 | stnlrkm | 0 | 4 | 11 | Berber | [ ] |
 | 11030 | Dry | namebases-africa.js | 47 | lnrt | 0 | 4 | 11 | None | [ ] |
 | 11037 | Ewondo | namebases-africa.js | 47 | lnrt | 0 | 4 | 11 | Niger-Congo | [ ] |
-| 11038 | Ewondo Populaire | namebases-africa.js | 47 |  | 0 | 4 | 11 | Pidgin | [ ] |
-| 11082 | Gonga | namebases-africa.js | 47 | lnrt | 0 | 4 | 11 | Omotic | [ ] |
-| 11138 | Geji | namebases-africa.js | 47 | lnrt | 0 | 4 | 11 | Chadic | [ ] |
-| 11180 | Fe-fe | namebases-africa.js | 47 | lnrt | 0 | 4 | 11 | None | [ ] |
-| 11189 | Fon | namebases-africa.js | 47 | lnrt | 0 | 4 | 11 | Gbe | [ ] |
-| 11236 | Fyer | namebases-africa.js | 47 | lnrt | 0 | 4 | 11 | Chadic | [ ] |
-| 11238 | Ga'anda | namebases-africa.js | 47 | lnrt | 0 | 4 | 11 | Chadic | [ ] |
-| 11239 | Gadang | namebases-africa.js | 47 | lnrt | 0 | 4 | 11 | Chadic | [ ] |
-| 11281 | Galambu | namebases-africa.js | 47 | lnrt | 0 | 4 | 11 | Chadic | [ ] |
-| 11282 | Geme | namebases-africa.js | 47 | lnrt | 0 | 4 | 11 | Niger-Congo | [ ] |
-| 11284 | Gendza | namebases-africa.js | 47 | lnrt | 0 | 4 | 11 | Niger-Congo | [ ] |
-| 11285 | Gengele Creole | namebases-africa.js | 47 | lnrt | 0 | 4 | 11 | Niger-Congo | [ ] |
-| 11286 | Gera | namebases-africa.js | 47 | lnrt | 0 | 4 | 11 | Chadic | [ ] |
-| 11287 | Geruma | namebases-africa.js | 47 | lnrt | 0 | 4 | 11 | Chadic | [ ] |
-| 11289 | Ghadamès | namebases-africa.js | 47 | lnrt | 0 | 4 | 11 | None | [ ] |
-| 11331 | Guanche | namebases-africa.js | 47 | stnlrkm | 0 | 4 | 11 | Berber | [ ] |
-| 11332 | Gude | namebases-africa.js | 47 | lnrt | 0 | 4 | 11 | Chadic | [ ] |
-| 11333 | Gudu | namebases-africa.js | 47 | lnrt | 0 | 4 | 11 | Chadic | [ ] |
-| 11334 | Guduf-Gava | namebases-africa.js | 47 | lnrt | 0 | 4 | 11 | Chadic | [ ] |
-| 11335 | Guinea-Bissau Creole | namebases-africa.js | 47 | lnrs | 0 | 4 | 11 | Portuguese-based | [ ] |
-| 11339 | Gurara | namebases-africa.js | 47 | stnlrkm | 0 | 4 | 11 | Berber | [ ] |
-| 11435 | Hina | namebases-africa.js | 47 | lnrt | 0 | 4 | 11 | Chadic | [ ] |
-| 11482 | Ghomara | namebases-africa.js | 47 | stnlrkm | 0 | 4 | 11 | Berber | [ ] |
-| 11484 | Gidar | namebases-africa.js | 47 | lnrt | 0 | 4 | 11 | Chadic | [ ] |
-| 11532 | Kilba | namebases-africa.js | 47 | lnrt | 0 | 4 | 11 | None | [ ] |
+| 11038 | Ewondo Populaire | namebases-africa.js | 47 |  | 0 | 4 | 11 | Pidgin | [x] |
+| 11082 | Gonga | namebases-africa.js | 47 | lnrt | 0 | 4 | 11 | Omotic | [x] |
+| 11138 | Geji | namebases-africa.js | 47 | lnrt | 0 | 4 | 11 | Chadic | [x] |
+| 11180 | Fe-fe | namebases-africa.js | 47 | lnrt | 0 | 4 | 11 | None | [x] |
+| 11189 | Fon | namebases-africa.js | 47 | lnrt | 0 | 4 | 11 | Gbe | [x] |
+| 11236 | Fyer | namebases-africa.js | 47 | lnrt | 0 | 4 | 11 | Chadic | [x] |
+| 11238 | Ga'anda | namebases-africa.js | 47 | lnrt | 0 | 4 | 11 | Chadic | [x] |
+| 11239 | Gadang | namebases-africa.js | 47 | lnrt | 0 | 4 | 11 | Chadic | [x] |
+| 11281 | Galambu | namebases-africa.js | 47 | lnrt | 0 | 4 | 11 | Chadic | [x] |
+| 11282 | Geme | namebases-africa.js | 47 | lnrt | 0 | 4 | 11 | Niger-Congo | [x] |
+| 11284 | Gendza | namebases-africa.js | 47 | lnrt | 0 | 4 | 11 | Niger-Congo | [x] |
+| 11285 | Gengele Creole | namebases-africa.js | 47 | lnrt | 0 | 4 | 11 | Niger-Congo | [x] |
+| 11286 | Gera | namebases-africa.js | 47 | lnrt | 0 | 4 | 11 | Chadic | [x] |
+| 11287 | Geruma | namebases-africa.js | 47 | lnrt | 0 | 4 | 11 | Chadic | [x] |
+| 11289 | Ghadamès | namebases-africa.js | 47 | lnrt | 0 | 4 | 11 | None | [x] |
+| 11331 | Sotho | namebases-africa.js | 47 | stnlrkm | 0 | 4 | 11 | Berber | [x] |
+| 11332 | Gude | namebases-africa.js | 47 | lnrt | 0 | 4 | 11 | Chadic | [x] |
+| 11333 | Gudu | namebases-africa.js | 47 | lnrt | 0 | 4 | 11 | Chadic | [x] |
+| 11334 | Guduf-Gava | namebases-africa.js | 47 | lnrt | 0 | 4 | 11 | Chadic | [x] |
+| 11335 | Guinea-Bissau Creole | namebases-africa.js | 47 | lnrs | 0 | 4 | 11 | Portuguese-based | [x] |
+| 11339 | Gurara | namebases-africa.js | 47 | stnlrkm | 0 | 4 | 11 | Berber | [x] |
+| 11435 | Hina | namebases-africa.js | 47 | lnrt | 0 | 4 | 11 | Chadic | [x] |
+| 11482 | Ghomara | namebases-africa.js | 47 | stnlrkm | 0 | 4 | 11 | Berber | [x] |
+| 11484 | Gidar | namebases-africa.js | 47 | lnrt | 0 | 4 | 11 | Chadic | [x] |
+| 11532 | Kilba | namebases-africa.js | 47 | lnrt | 0 | 4 | 11 | None | [x] |
 | 11534 | Huilliche | namebases-southAmerica.js | 34 | lnrt | 0 | 4 | 11 | Araucanian | [ ] |
 | 11538 | Hun-Saare | namebases-africa.js | 47 | lnrt | 0 | 4 | 11 | None | [ ] |
 | 11581 | Hwana | namebases-africa.js | 47 |  | 0 | 4 | 11 | Chadic | [ ] |

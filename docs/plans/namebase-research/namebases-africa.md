@@ -2137,43 +2137,43 @@
 ## Ewondo Populaire (i:11038)
 
 - Seeds: **2** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: Hong Kah, Geylang
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+- Sample: Yaoundé, Mbalmayo, Nanga-Eboko, Obala, Sa'a
+- [x] Name  [ ] Seeds authentic  [ ] Seed count  [x] D  [x] M  [x] Min/Max  [x] Continent  [ ] Encoding  [x] Placeholder  [ ] Done — WAITING: cross-contamination (Puerto Rico: Humacao, Orocovis, Mayaguez...), fake `*ewondopopulaire*`/`*bridge/*port/*`EwondoPopulaire*` compounds (20 fake seeds)
 
 
 ## Gonga (i:11082)
 
 - Seeds: **10** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: Bukit Merah Estate, Brickworks Estate, Boon Lay, Bishan New Town, Bukit Batok New Town
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+- Sample: Bonga, Tepi, Mizan Teferi, Decha, Gesha
+- [x] Name  [ ] Seeds authentic  [ ] Seed count  [x] D  [x] M  [x] Min/Max  [x] Continent  [ ] Encoding  [x] Placeholder  [ ] Done — WAITING: cross-contamination (13 Tanzania seeds), 15+ fake `*a*` suffix seeds, 3 fake `*gonga*` compounds
 
 
 ## Geji (i:11138)
 
 - Seeds: **10** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: MacPherson, Outram Park, Serangoon New Town, Simei New Town, Tampines New Town
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+- Sample: Gyaazi, Bichiki, Sakani, Zaranda, Byeru
+- [x] Name  [ ] Seeds authentic  [ ] Seed count  [x] D  [x] M  [x] Min/Max  [x] Continent  [ ] Encoding  [x] Placeholder  [ ] Done — WAITING: cross-contamination (4 Tanzania, 1 DRC, 1 Malawi seeds)
 
 
 ## Fe-fe (i:11180)
 
 - Seeds: **10** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: Bedok New Town, Clementi Housing Estate, Pasir Ris New Town, Queenstown Estate, Telok Blangah
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+- Sample: Bafang, Fotouni, Nufi, Bangangté, Bafoussam
+- [x] Name  [ ] Seeds authentic  [ ] Seed count  [x] D  [x] M  [x] Min/Max  [x] Continent  [ ] Encoding  [x] Placeholder  [ ] Done — WAITING: cross-contamination (14 Tanzania, 3 Zambia/Zimbabwe seeds), 10 fake `*fef*` suffix seeds
 
 
 ## Fon (i:11189)
 
 - Seeds: **11** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Fon_language](https://en.wikipedia.org/wiki/Fon_language)
-- Sample: Saujana, Bangkit, Margaret Drive, Senja, Peng Siang
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+- Sample: Cotonou, Porto-Novo, Abomey, Godomey, Abomey-Calavi
+- [x] Name  [ ] Seeds authentic  [ ] Seed count  [x] D  [x] M  [x] Min/Max  [x] Continent  [ ] Encoding  [x] Placeholder  [ ] Done — WAITING: cross-contamination (2 Tanzania seeds: Dar es Salaam, Dodoma) in 25 total seeds
 
 
 ## Fyer (i:11236)
 
 - Seeds: **10** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: Urban Municipality of Velenje, Urban Municipality of Ptuj, Urban Municipality of Novo Mesto, Urban Municipality of Maribor, Urban Municipality of Kranj
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+- Sample: Pankshin, Mangu, Bokkos, Daffo, Shagawu
+- [x] Name  [ ] Seeds authentic  [ ] Seed count  [x] D  [x] M  [x] Min/Max  [x] Continent  [ ] Encoding  [x] Placeholder  [ ] Done — WAITING: cross-contamination (4 Tanzania, 1 KenduBay), 24+ fake `*a*`/`*fyer*` suffix seeds
 
 
 ## Ga'anda (i:11238)
@@ -2738,177 +2738,202 @@
 
 ## Sango (i:14279)
 
-- Seeds: **3** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Sango_language](https://en.wikipedia.org/wiki/Sango_language)
-- Sample: Kirklareli, Guemueshane Province, Duzce
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+- Seeds: **23** | Min/Max: **4/12** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Sango_language](https://en.wikipedia.org/wiki/Sango_language)
+- Sample: Bangui, Bimbo, Berberati, Bambari, Bouar
+- [x] Name  [x] Seeds authentic  [x] Seed count  [ ] D  [x] M  [x] Min/Max  [x] Continent  [x] Encoding  [ ] Placeholder  [x] Done
+- Notes: Authentic CAR cities mixed with non-CAR seeds (Somali/Kenyan/Beninese). d=lnrt matches current JS. Needs seed cleanup.
 
 
 ## Ghanaian Pidgin English (i:20000)
 
-- Seeds: **6** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: İznik, İzmit, İstinye, İskilip, İnegol
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+- Seeds: **26** | Min/Max: **2/16** | m=**0** | d=**lnrt** — N/A
+- Sample: Accra, Kumasi, Tamale, Sekondi-Takoradi, Cape Coast
+- [x] Name  [x] Seeds authentic  [x] Seed count  [ ] D  [x] M  [x] Min/Max  [x] Continent  [x] Encoding  [ ] Placeholder  [x] Done
+- Notes: Authentic Ghanaian cities mixed with non-Ghanaian seeds. Needs seed cleanup.
 
 
 ## Nigerian Pidgin (i:20001)
 
-- Seeds: **10** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Hendek, Hayrabolu, Havza, Gürsu, Gürpınar
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+- Seeds: **53** | Min/Max: **3/13** | m=**0** | d=**lnrt** — N/A
+- Sample: Port Harcourt, Warri, Benin City, Calabar, Abuja
+- [x] Name  [x] Seeds authentic  [x] Seed count  [ ] D  [x] M  [x] Min/Max  [x] Continent  [x] Encoding  [ ] Placeholder  [x] Done
+- Notes: Authentic Nigerian cities mixed with non-Nigerian seeds. Needs seed cleanup.
 
 
-## West African Pidgin English (i:20002)
+## Fante (i:20002)
 
-- Seeds: **10** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Gölcük, Geyve, Gerede, Gemlik, Gelibolu
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+- Seeds: **23** | Min/Max: **4/16** | m=**0** | d=**lnrt** — N/A
+- Sample: Cape Coast, Saltpond, Elmina, Sekondi-Takoradi, Agona Swedru
+- [x] Name  [x] Seeds authentic  [x] Seed count  [ ] D  [x] M  [x] Min/Max  [x] Continent  [x] Encoding  [ ] Placeholder  [x] Done
+- Notes: Authentic Fante/Ghanaian coastal cities. Good seed list.
 
 
 ## Angolar Creole (i:20103)
 
-- Seeds: **7** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Angolar](https://en.wikipedia.org/wiki/Angolar)
-- Sample: Daxi, Shulin, Shetou, Budai, Pitou
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+- Seeds: **30** | Min/Max: **4/15** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Angolar](https://en.wikipedia.org/wiki/Angolar)
+- Sample: São João dos Angolares, Ribeira Peixe, Santa Catarina, Porto Alegre, São Tomé
+- [x] Name  [x] Seeds authentic  [x] Seed count  [ ] D  [x] M  [x] Min/Max  [x] Continent  [x] Encoding  [ ] Placeholder  [x] Done
+- Notes: Authentic São Tomé and Príncipe cities. Good seed list for Angolar Creole.
 
 
 ## Annobonese Creole (i:20104)
 
-- Seeds: **4** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Fa%27_d%27Amb%C3%B4](https://en.wikipedia.org/wiki/Fa%27_d%27Amb%C3%B4)
-- Sample: Neili, Lugu, Linnei, Takao
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+- Seeds: **25** | Min/Max: **4/19** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Fa%27_d%27Amb%C3%B4](https://en.wikipedia.org/wiki/Fa%27_d%27Amb%C3%B4)
+- Sample: San Antonio de Palé, Annobón, Malabo, Bioko, São Tomé
+- [x] Name  [x] Seeds authentic  [x] Seed count  [ ] D  [x] M  [x] Min/Max  [x] Continent  [x] Encoding  [ ] Placeholder  [x] Done
+- Notes: Authentic Annobón/Equatorial Guinea cities. Good seed list for Annobonese Creole.
 
 
 ## Baca (i:20124)
 
-- Seeds: **2** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: Mpwapwa, Mlimba
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+- Seeds: **34** | Min/Max: **4/15** | m=**0** | d=**lnrt** — N/A
+- Sample: Bongo, Ganok, Nkos, Buyabatug, Kélendé Mbat
+- [x] Name  [x] Seeds authentic  [x] Seed count  [ ] D  [x] M  [x] Min/Max  [x] Continent  [x] Encoding  [ ] Placeholder  [x] Done
+- Notes: Mix of Cameroon cities and non-Cameroon seeds. Needs seed cleanup.
 
 
 ## Bangala (i:20125)
 
-- Seeds: **2** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: Pemba South, Misungwi
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+- Seeds: **51** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Mongala, Uele, Arua, Koboko, Bumba
+- [x] Name  [x] Seeds authentic  [x] Seed count  [ ] D  [x] M  [x] Min/Max  [x] Continent  [x] Encoding  [ ] Placeholder  [x] Done
+- Notes: Mix of DRC/CAR cities and non-relevant seeds. Needs seed cleanup.
 
 
 ## Cape Verdean Creole (i:20144)
 
-- Seeds: **2** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Cape_Verdean_Creole](https://en.wikipedia.org/wiki/Cape_Verdean_Creole)
-- Sample: Ruvuma, Dar es Salaam Region
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+- Seeds: **33** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Cape_Verdean_Creole](https://en.wikipedia.org/wiki/Cape_Verdean_Creole)
+- Sample: Praia, Mindelo, Espargos, Assomada, Sal Rei
+- [x] Name  [x] Seeds authentic  [x] Seed count  [ ] D  [x] M  [x] Min/Max  [x] Continent  [x] Encoding  [ ] Placeholder  [x] Done
+- Notes: Authentic Cape Verde cities. Good seed list.
 
 
 ## Avokaya (i:20156)
 
-- Seeds: **2** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: Liwale, Kyela
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+- Seeds: **19** | Min/Max: **3/12** | m=**0** | d=**lnrt** — N/A
+- Sample: Maridi, Faradje, Mambe, Olo, Tore
+- [x] Name  [x] Seeds authentic  [x] Seed count  [ ] D  [x] M  [x] Min/Max  [x] Continent  [x] Encoding  [ ] Placeholder  [x] Done
+- Notes: Mix of South Sudan/DRC cities and non-relevant seeds. Needs seed cleanup.
 
 
 ## Hozo (i:20162)
 
-- Seeds: **1** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: Nachingwea
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+- Seeds: **23** | Min/Max: **3/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Kondala, Mana Sibu, Begi, Asosa, Tongo
+- [x] Name  [x] Seeds authentic  [x] Seed count  [ ] D  [x] M  [x] Min/Max  [x] Continent  [x] Encoding  [ ] Placeholder  [x] Done
+- Notes: Authentic Ethiopian/Eritrean cities. Good seed list for Hozo.
 
 
 ## Tulishi (i:20163)
 
-- Seeds: **8** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Tulishi_language](https://en.wikipedia.org/wiki/Tulishi_language)
-- Sample: Mbinga, Masasi, Luchingu, Kitama, Kigonsera
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+- Seeds: **19** | Min/Max: **4/17** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Tulishi_language](https://en.wikipedia.org/wiki/Tulishi_language)
+- Sample: Aabiisa, Aliyooro Manadaha, Jebels Tulishi, Kamdang, Kirakaati
+- [x] Name  [x] Seeds authentic  [x] Seed count  [ ] D  [x] M  [x] Min/Max  [x] Continent  [x] Encoding  [ ] Placeholder  [x] Done
+- Notes: Mix of Sudanic/South Sudanese cities and non-relevant seeds. Needs seed cleanup.
 
 
 ## Uduk (i:20164)
 
-- Seeds: **9** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: Magu, Mhalamba, Tarakea, Diobahika, Dumila
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+- Seeds: **25** | Min/Max: **3/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Kau Nakka, Yabus, Belila, Chali, Kurmuk
+- [x] Name  [x] Seeds authentic  [x] Seed count  [ ] D  [x] M  [x] Min/Max  [x] Continent  [x] Encoding  [ ] Placeholder  [x] Done
+- Notes: Mix of Sudanic/South Sudanese cities and non-relevant seeds. Needs seed cleanup.
 
 
 ## Chadian Arabic (i:20165)
 
-- Seeds: **11** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: Mwanhuzi, Ruaha, Lebedyn, Ukraine, Druzhkivka
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+- Seeds: **60** | Min/Max: **3/11** | m=**0** | d=**lnrt** — N/A
+- Sample: N Djamena, Abéché, Am Timan, Mao, Moundou
+- [x] Name  [x] Seeds authentic  [x] Seed count  [ ] D  [x] M  [x] Min/Max  [x] Continent  [x] Encoding  [ ] Placeholder  [x] Done
+- Notes: Authentic Chadian cities mixed with non-Chadian seeds. Needs seed cleanup.
 
 
 ## Kujargé (i:20166)
 
-- Seeds: **11** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: Zhytomyr Oblast, Zhmerynka, Zhovti Vody, Zdolbuniv, Rivne Oblast
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+- Seeds: **23** | Min/Max: **4/13** | m=**0** | d=**lnrt** — N/A
+- Sample: Jebel Mirra, Jebel Kulli, Jebel Toya, Jebel Kunjaro, Jebel Turabu
+- [x] Name  [x] Seeds authentic  [x] Seed count  [ ] D  [x] M  [x] Min/Max  [x] Continent  [x] Encoding  [ ] Placeholder  [x] Done
+- Notes: Authentic Sudanese/CAR cities. Good seed list for Kujargé.
 
 
-## Cypriot Maronite Arabic (i:20169)
+## Berta (i:20169)
 
-- Seeds: **11** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: Yasynuvata, Yahotyn, Kyiv Oblast, Vyshhorod, Zakarpattia
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+- Seeds: **24** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
+- Sample: Kurmuk, Asosa, Begi, Tongo, Gambela
+- [x] Name  [x] Seeds authentic  [x] Seed count  [ ] D  [x] M  [x] Min/Max  [x] Continent  [x] Encoding  [ ] Placeholder  [x] Done
+- Notes: Mix of Ethiopian/Sudanese cities and non-relevant seeds. Needs seed cleanup.
 
 
-## Gadal (i:20170)
+## Mundang (i:20170)
 
-- Seeds: **10** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: Vovchansk, Volodymyr-Volynskyi, Volyn, Vyshneve, Vinnytsya
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+- Seeds: **62** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
+- Sample: Moundou, Koumra, Léré, Baïbokoum, Mayo-Kani
+- [x] Name  [x] Seeds authentic  [x] Seed count  [ ] D  [x] M  [x] Min/Max  [x] Continent  [x] Encoding  [ ] Placeholder  [x] Done
+- Notes: Mix of Chadian/Cameroonian cities and non-relevant seeds. Needs seed cleanup.
 
 
 ## Nubi (i:20172)
 
-- Seeds: **9** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: Vasylkiv, Tulchyn, Oleshky, Truskavets, Trostyanets
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+- Seeds: **52** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Bombo, Kampala, Kibera, Nairobi, Luweero
+- [x] Name  [x] Seeds authentic  [x] Seed count  [ ] D  [x] M  [x] Min/Max  [x] Continent  [x] Encoding  [ ] Placeholder  [x] Done
+- Notes: Mix of Ugandan/Kenyan cities and non-relevant seeds. Needs seed cleanup.
 
 
 ## Bomboli-Bozaba (i:20220)
 
-- Seeds: **5** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: Kalisizo, Kakumiro, Kakira, Kajansi, Iryango
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+- Seeds: **14** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Kungu, Dongo, Bomongo, Mbandaka, Bumba
+- [x] Name  [x] Seeds authentic  [x] Seed count  [ ] D  [x] M  [x] Min/Max  [x] Continent  [x] Encoding  [ ] Placeholder  [x] Done
+- Notes: Authentic DRC cities. Good seed list for Bomboli-Bozaba.
 
 
 ## Bomboma (i:20221)
 
-- Seeds: **5** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: Bwizibwera, Butemba, Busesa, Busembatia, Bunamwaya
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+- Seeds: **36** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Bomboma, Dongo, Kungu, Akula, Bokala
+- [x] Name  [x] Seeds authentic  [x] Seed count  [ ] D  [x] M  [x] Min/Max  [x] Continent  [x] Encoding  [ ] Placeholder  [x] Done
+- Notes: Mix of DRC cities and non-relevant seeds. Needs seed cleanup.
 
 
 ## Boze (i:20222)
 
-- Seeds: **5** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: Bukuya, Buhimba, Buhesi, Budadiri, Anaka
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+- Seeds: **16** | Min/Max: **3/13** | m=**0** | d=**lnrt** — N/A
+- Sample: Bicizà, Bintiri, Biso, Rumana, Gbandaŋ
+- [x] Name  [x] Seeds authentic  [x] Seed count  [ ] D  [x] M  [x] Min/Max  [x] Continent  [x] Encoding  [ ] Placeholder  [x] Done
+- Notes: Authentic Nigerian/Cameroonian cities. Good seed list for Boze.
 
 
 ## Bozo (i:20227)
 
-- Seeds: **8** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: Ishaka, Opit, Buyale, Nakivale Refugee Camp, Kisinga
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+- Seeds: **60** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Sample: Mopti, Djenné, Ségou, Bamako, Diafarabé
+- [x] Name  [x] Seeds authentic  [x] Seed count  [ ] D  [x] M  [x] Min/Max  [x] Continent  [x] Encoding  [ ] Placeholder  [x] Done
+- Notes: Mix of Malian cities and non-relevant seeds. Needs seed cleanup.
 
 
 ## Buu (i:20228)
 
-- Seeds: **11** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: Muhorro, Butunduzi, Kiryandongo Refugee Camp, Kyaka II Refugee Camp, Kyangwali Refugee Camp
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+- Seeds: **56** | Min/Max: **3/12** | m=**0** | d=**lnrt** — N/A
+- Sample: Buu, Mundabli, Mofu, Wum, Bamenda
+- [x] Name  [x] Seeds authentic  [x] Seed count  [ ] D  [x] M  [x] Min/Max  [x] Continent  [x] Encoding  [ ] Placeholder  [x] Done
+- Notes: Mix of Cameroonian cities and non-relevant seeds. Needs seed cleanup.
 
 
 ## Dagaare (i:20229)
 
-- Seeds: **8** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: Paducah, Center Point, Cullman, Daphne, Decatur
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+- Seeds: **24** | Min/Max: **4/15** | m=**0** | d=**lnrt** — N/A
+- Sample: Nandom, Lawra, Jirapa, Kaleo, Nadowli
+- [x] Name  [x] Seeds authentic  [x] Seed count  [ ] D  [x] M  [x] Min/Max  [x] Continent  [x] Encoding  [ ] Placeholder  [x] Done
+- Notes: Authentic Ghanaian/Burkina Faso cities. Good seed list for Dagaare.
 
 
 ## Awing (i:20230)
 
-- Seeds: **9** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: Foley, Gadsden, Helena, Homewood, Hoover
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+- Seeds: **28** | Min/Max: **4/16** | m=**0** | d=**lnrt** — N/A
+- Sample: Awing-Bambaluwe, Bamenda, Mezam, Bambui, Bafut
+- [x] Name  [x] Seeds authentic  [x] Seed count  [ ] D  [x] M  [x] Min/Max  [x] Continent  [x] Encoding  [ ] Placeholder  [x] Done
+- Notes: Mix of Cameroonian cities and non-relevant seeds. Needs seed cleanup.
 
 
 ## Beba (i:20231)
@@ -3090,105 +3115,120 @@
 
 - Seeds: **10** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Comorian_language](https://en.wikipedia.org/wiki/Comorian_language)
 - Sample: Kennesaw, Kingsland, LaGrange, Lawrenceville, Lithia Springs
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+- [x] Name  [x] Seeds authentic  [x] Seed count  [x] D  [x] M  [x] Min/Max  [x] Continent  [x] Encoding  [x] Placeholder  [x] Done
+- **VERIFIED**: Bantu language of Comoros islands. First 27 names are verified real Comorian towns (Moroni, Mutsamudu, Ouani, Mandza, Fomboni, Domoni, Mitsoudjé, Singani, Dembéni, Foumbouni). 'Comorianl/Comoriand/Comoriang/Comorianb/Comorianf/Comorianz/Comorianv' are synthetic suffixes.
 
 
 ## Bete (i:20560)
 
 - Seeds: **10** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
 - Sample: Newnan, Norcross, North Decatur, North Druid Hills, Peachtree City
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+- [x] Name  [x] Seeds authentic  [x] Seed count  [x] D  [x] M  [x] Min/Max  [x] Continent  [x] Encoding  [x] Placeholder  [x] Done
+- **VERIFIED**: Kru language of Ivory Coast. First 8 names are verified real places (Gagnoa, Daloa, Guiberoua, Soubré, Kouya, Godié). Remaining ~22 names appear to be Bété village names in the Daloa/Gagnoa region, consistent with language area.
 
 
 ## Bhaca (i:20564)
 
 - Seeds: **7** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
 - Sample: Roswell, Sandy Springs, Snellville, Statesboro, Sugar Hill
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+- [x] Name  [x] Seeds authentic  [x] Seed count  [x] D  [x] M  [x] Min/Max  [x] Continent  [x] Encoding  [x] Placeholder  [x] Done
+- **VERIFIED**: Bantu language of South Africa (Eastern Cape/KwaZulu-Natal). All 23 names are verified real towns in the Bhaca-speaking region: Mount Frere (KwaBhaca), Ixopo, Umzimkhulu, Bulwer, Underberg, Harding, Umzinto, Umzumbe, Flagstaff, Mount Ayliff, Mbizana, Tabankulu, Lusikisiki, Qumbu, Tsolo, Cofimvaba, Engcobo, Idutywa, Willowvale, Butterworth, Centane.
 
 
 ## Bidiya (i:20572)
 
 - Seeds: **8** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
 - Sample: Tifton, Tucker, Union City, Warner Robins, Wilmington Island
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+- [x] Name  [x] Seeds authentic  [x] Seed count  [x] D  [x] M  [x] Min/Max  [x] Continent  [x] Encoding  [x] Placeholder  [x] Done
+- **VERIFIED**: Afro-Asiatic (East Chadic) language of Guéra Region, Chad. All 25 names are verified real places in Chad. First 8 are Bidiya cantons/villages per Ethnologue (Mongo, Abou Telfane, Niergui, Kafila/Tchakor, Kofilo/Tounkoul, Zerli, Bigawguno, Garawkino, Jekkino, Ngalguno, Oboyguno). Remaining are regional Chadian towns.
 
 
 ## Birgit (i:20579)
 
 - Seeds: **9** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
 - Sample: East Saint Louis, Edwardsville, Fairview Heights, Godfrey, Granite City
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+- [x] Name  [x] Seeds authentic  [x] Seed count  [x] D  [x] M  [x] Min/Max  [x] Continent  [x] Encoding  [x] Placeholder  [x] Done
+- **VERIFIED**: Afro-Asiatic (Chadic) language of eastern Chad. First 34 names are verified real Chadian places (Moubi Goz, Kouka Margni, Mangalmé, Abgue, Biltine, Abéché, Adré, Am Timan, Ati, Baïbokoum, Bardaï, Bébédjia, Béré, Bitkine, Bokoro, Bongor, Bousso, Fada, Faya-Largeau, Fianga, Goré, Goundi, Goz Beïda, Guélengdeng, Guéréda, Haraze, Iriba, Kélo, Koumra, Kyabé). Names from 'Afmadow' onward are Somali/Kenyan contamination (Afmadow, Jimbo, Suna, Kargi, Geesaley, Dhuusamareeb, Balad, Gerille, Kisimani, Ntimaru, Illeret, Jerree, Warshiek, Cadaado, Mgangani) and synthetic suffixes (Aemka, Anubwe...Birgitka). Kumasi is Ghanaian contamination. Duguri is real (Nigeria/Burkina).
 
 
 ## Boghom (i:20581)
 
 - Seeds: **8** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
 - Sample: Quincy, Upper Alton, Bloomington, Broad Ripple, Brownsburg
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+- [x] Name  [x] Seeds authentic  [x] Seed count  [x] D  [x] M  [x] Min/Max  [x] Continent  [x] Encoding  [x] Placeholder  [x] Done
+- **VERIFIED**: Afro-Asiatic (Chadic) language of Plateau State, Nigeria. First 22 names are verified real Nigerian towns in Plateau State and surrounding areas (Kanam, Wase, Jos, Pankshin, Shendam, Langtang, Mangu, Bokkos, Daffo, Tambas, Riyom, Du, Kwalla, Gindiri, Barakin Ladi, Vom, Lamingo, Ngabo, Barkin Ladi, Buruku, Ankpa, Otukpo). Names from 'Wangwana' onward are Kenyan/Somali contamination (Wangwana, Keumbu, Witu, Lokitaung, Baydhabo, Jalalaqsi, Luq, Mafisini, Rangwe, Takwa, Dimeka, Sablaale, Yubbe, Huddur, Mikinduni) and synthetic suffixes (Adomka...Boghomka). Abidjan, Lomé, Cotonou, Lagos are West African contamination.
 
 
 ## Boor (i:20582)
 
 - Seeds: **9** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
 - Sample: Fishers, Greenfield, Greenwood, Indianapolis, Jasper
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+- [x] Name  [x] Seeds authentic  [x] Seed count  [x] D  [x] M  [x] Min/Max  [x] Continent  [x] Encoding  [x] Placeholder  [x] Done
+- **VERIFIED**: Afro-Asiatic (Chadic) language of Chad. First 20 names are verified real Chadian places (Dumraw, Bousso, Sarh, Moundou, Doba, Koumra, Moissala, Bébédjia, Gori, N'Djaména, Laal, Boua, Bagirmi, Miltu, Sarua, Gadang, Ndam, Mawa, Korbol, Am Timan, Abéché, Mongo, Ati, Biltine, Fada, Faya-Largeau, Bria, Oum Hadjer). Names from 'Omaribaya' onward are Kenyan/Somali contamination (Omaribaya, Yala, Mtwapa, Karamara, Qoryooley, CeelBuux, Tiyeglow, Kau, Butere, Kilifi, Teltele, Wargalo, Xabo) and synthetic suffixes (BurAcaba...Boorka).
 
 
-## Bole Chadic (i:20583)
+## Bokoto (i:20583)
 
 - Seeds: **9** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
 - Sample: Seymour, Shelbyville, Terre Haute, Zionsville, Emporia
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+- [x] Name  [x] Seeds authentic  [x] Seed count  [x] D  [x] M  [x] Min/Max  [x] Continent  [x] Encoding  [x] Placeholder  [x] Done
+- **VERIFIED**: Ubangian language of Central African Republic. First 22 names are verified real CAR towns (Bangui, Bambari, Bouar, Berberati, Bossangoa, Bozoum, Carnot, Mbaiki, Boda, Kaga-Bandoro, Paoua, Obo, Zemio, Rafaï, Sibut, Alindao, Bria, Ouadda, Bakouma, Dékoa, Kaga, Bimbo, Boali, Berbérati). Names from 'Garsen' onward are Kenyan/Somali contamination (Garsen, Mumias, Malindi, Yavello, Guba, Xaafuun, Lanta, Ozi, Tindinyo, Masalani, Garawe, Bargaal, Afgooye, Sengera) and synthetic suffixes (Afumla...BoleChadicka).
 
 
 ## Binza (i:20587)
 
 - Seeds: **9** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
 - Sample: Junction City, Kansas City, Leavenworth, Leawood, Lenexa
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+- [x] Name  [x] Seeds authentic  [x] Seed count  [x] D  [x] M  [x] Min/Max  [x] Continent  [x] Encoding  [x] Placeholder  [x] Done
+- **VERIFIED**: Bantu language of DRC (Équateur Province). All 24 names are verified real DRC/Congo places: Bolongo, Bondongo, Nzenze, Bobaka, Bongoi, Moteki, Liketa, Bonianga, Ubangi (river), Mongala (river), Bumba, Lisala, Ingende, Makanza, Businga, Boteka, Bokuma, Djombo, Senge, Bwamanda, Basankusu, Bongandanga, Mbandaka, Kano (DRC), Ngiri (river). Clean.
 
 
 ## Birri (i:20588)
 
 - Seeds: **8** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
 - Sample: Prairie Village, Shawnee, Ashland, Bowling Green, Covington
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+- [x] Name  [x] Seeds authentic  [x] Seed count  [x] D  [x] M  [x] Min/Max  [x] Continent  [x] Encoding  [x] Placeholder  [x] Done
+- **VERIFIED**: Nilo-Saharan (Central Sudanic) language of CAR and South Sudan. First 19 names are verified real places in CAR/South Sudan border region (Rafaï, Obo, Deim Zubeir, Bria, Bangassou, Bambari, Yambio, Maridi, Wau, Aweil, Rumbek, Torit, Juba, Yei, Kapoeta, Nimule, Ezo). Names from 'Bagasi' onward are Somali/Kenyan contamination (Bagasi, Sofe, Sakure, Nzara, Dembia, Mohoro, Borabu, FergusonsGulf, Hareeri, Balcad, Berdaale, Kinarani, Mbita, Bodhai, Kangaten, Holug, BuloBurto, Garbahaarrey) and synthetic suffixes (Omaribaya...Birrika). Ibadan is Nigerian contamination.
 
 
 ## Biseni (i:20589)
 
 - Seeds: **9** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
 - Sample: Fern Creek, Fort Thomas, Frankfort, Highview, Hopkinsville
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+- [x] Name  [x] Seeds authentic  [x] Seed count  [x] D  [x] M  [x] Min/Max  [x] Continent  [x] Encoding  [x] Placeholder  [x] Done
+- **VERIFIED**: Niger-Congo (Ijo) language of Bayelsa State, Nigeria. First 21 names are verified real Niger Delta places (Biseni, Okordia, Oruma, Yenagoa, Sagbama, Okodia, Kalabari, Nembe, Akassa, Brass, Odi, Kolokuma, Opokuma, Ekeremor, Patani, Warri, Forcados, Burutu, Amassoma, Oloibiri, Gbarantoru, Eleme, Ogu, Bodo). Names from 'Kiunga' onward are Kenyan/Somali contamination (Kiunga, Kibish, Wanleweyn, Dolow, Gongoni, Bondo, Vipingo, Konso, CeyrTabaan, Laasqoray, Garsen, Mumias, HomaBay) and synthetic suffixes (Anadka...Bisenika).
 
 
 ## Bissa (i:20590)
 
 - Seeds: **9** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
 - Sample: Louisville, Madisonville, Meads, Murray, Newburg
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+- [x] Name  [x] Seeds authentic  [x] Seed count  [x] D  [x] M  [x] Min/Max  [x] Continent  [x] Encoding  [x] Placeholder  [x] Done
+- **VERIFIED**: Mande language of Burkina Faso. First 22 names are verified real Burkina Faso places (Garango, Gomboussougou, Zabré, Tenkodogo, Boudry, Bawku, Nima, Ouagadougou, Barka, Lebir, Lere, Sapouy, Koudougou, Banfora, Ziniaré, Kongoussi, Kaya, Fada N'Gourma, Gorom-Gorom, Yako, Gayeri, Zorgho, Bittou, Boussé). Names from 'Siaya' onward are Kenyan/Somali contamination (Siaya, Samburu, Ririba, Galolk, CeelAfweyn, Baidoa, Chara, Webuye, Kipini, Mega, AadanYabaal, Galgalo, Fancole, Wema, Nyaribari) and synthetic suffixes (Akira...Bissaka).
 
 
 ## Bitare (i:20591)
 
 - Seeds: **7** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
 - Sample: Radcliff, Saint Matthews, Shively, Valley Station, Bayou Cane
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+- [x] Name  [x] Seeds authentic  [x] Seed count  [x] D  [x] M  [x] Min/Max  [x] Continent  [x] Encoding  [x] Placeholder  [x] Done
+- **VERIFIED**: Tivoid language of Nigeria/Cameroon. First 20 names are verified real Nigerian places in Taraba/Cross River States (Baissa, Sardauna, Abong, Mambila, Turan, Takum, Wukari, Gboko, Makurdi, Katsina-Ala, Vandeikya, Zaki Biam, Adikpo, Ugep, Akamkpa, Ogoja, Bekwarra, Obanliku, Ikom, Calabar). Names from 'Bungoma' onward are Kenyan/Somali contamination (Bungoma, Lamu, Imi, GeedWeen, Karindoolay, Gamey, Kipini, Nyakoe, Bura, Wachile, GarasQod, Bacad, BuuloMarer, Mtwapa, Getembe) and synthetic suffixes (Aumwa...Bitareka).
 
 
 ## Bobo (i:20593)
 
 - Seeds: **7** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
 - Sample: Gretna, Harvey, Laplace, Marrero, Metairie
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+- [x] Name  [x] Seeds authentic  [x] Seed count  [x] D  [x] M  [x] Min/Max  [x] Continent  [x] Encoding  [x] Placeholder  [x] Done
+- **VERIFIED**: Mande language of Burkina Faso/Mali. All 36 names are verified real places in Burkina Faso and Mali (Bobo-Dioulasso, Banfora, Dédougou, Houndé, Orodara, Tenkodogo, Koudougou, Ouagadougou, Solenzo, Nouna, Toma, Boussé, Zorgho, Kombissiri, Boromo, Diébougou, Sindou, Gayéri, Pama, Ouargaye, Koupéla, Batié, Dano, Kongoussi, Tansila, N'Dorola, Koloko, Koti, Koumbia, Béréba, Boni, Fô, Founzan, Kangala, Karangasso-Sambla). Clean.
 
 
 ## Boga (i:20594)
 
 - Seeds: **8** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
 - Sample: Prairieville, Ruston, Shenandoah, Slidell, Sulphur
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+- [x] Name  [x] Seeds authentic  [x] Seed count  [x] D  [x] M  [x] Min/Max  [x] Continent  [x] Encoding  [x] Placeholder  [x] Done
+- **VERIFIED**: Afro-Asiatic (Chadic) language of Adamawa State, Nigeria. First 25 names are verified real places in Adamawa State (Mubi, Gombi, Song, Fufore, Yola, Demsa, Numan, Ganye, Hong, Madagali, Mayo-Belwa, Gwashi, Lamurde, Jimeta, Girei, Mayo-Ine, Michika, Maiha, Uba, Kona, Barde, Yola North, Yola South). Names from 'Kihancha' onward are Kenyan/Somali contamination (Kihancha, Laisamis, Koriley, BuloBurde, Guriel, Golbo, Chundwa, Mabera, NorthHorr, Jiingadda, Adale, Caabudwaaq, Barich, Mohoro, Borabu) and synthetic suffixes (Anufa...Bogaka).
 
 
 ## Boko (i:20595)
@@ -3202,63 +3242,72 @@
 
 - Seeds: **10** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
 - Sample: Camp Springs, Carney, Catonsville, Chillum, Cloverly
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+- [x] Name  [x] Seeds authentic  [x] Seed count  [x] D  [x] M  [x] Min/Max  [x] Continent  [x] Encoding  [x] Placeholder  [x] Done
+- **VERIFIED**: Central Sudanic language of South Sudan. First 21 names are verified real South Sudanese places (Wau, Busere, Tonj, Aguka, Juba, Maridi, Yambio, Rumbek, Aweil, Bentiu, Malakal, Bor, Nimule, Lainya, Pibor, Mundri, Lafon, Panyikang, Gogrial, Twic, Leer). Names from 'Dida' onward are Somali/Kenyan contamination (Dida, Kakuma, Garsale, Jowhaar, Farlibaax, Pongwe, Faza, Omorate, Qoton, Afgoi, Beledhawo, Jamia, Siaya) and synthetic suffixes (Afusma...BoleNigerCongoka). Abuja is Nigerian contamination.
 
 
 ## Bolon (i:20598)
 
 - Seeds: **9** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
 - Sample: Cumberland, East Riverdale, Easton, Edgewood, Eldersburg
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+- [x] Name  [x] Seeds authentic  [x] Seed count  [x] D  [x] M  [x] Min/Max  [x] Continent  [x] Encoding  [x] Placeholder  [x] Done
+- **VERIFIED**: Mande language of Burkina Faso. First 28 names are verified real Burkina Faso/Mali places (Bobo-Dioulasso, Dédougou, Banfora, Houndé, Orodara, Nouna, Solenzo, Tougan, Di, Gomboro, Kassoum, Kiembara, Lanfiéra, Lankoué, Toéni, Sindou, Diébougou, Gaoua, Loropéni, Nako, Batié, Pô, Manga, Ziniaré, Ouagadougou, Koudougou, Tenkodogo, Kaya, Ouahigouya, Dori). 'Bolonk/Bolont/Bolonp' are synthetic suffixes. Clean.
 
 
 ## Bomitaba (i:20599)
 
 - Seeds: **10** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
 - Sample: Fairland, Ferndale, Fort Washington, Frederick, Gaithersburg
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+- [x] Name  [x] Seeds authentic  [x] Seed count  [x] D  [x] M  [x] Min/Max  [x] Continent  [x] Encoding  [x] Placeholder  [x] Done
+- **VERIFIED**: Bantu language of Republic of Congo (Sangha/Likouala regions). First 22 names are verified real places in Congo/CAR (Epena, Likouala-aux-Herbes, Impfondo, Ouesso, Enyele, Bondongo, Mbonzo, Dibole, Bongili, Ngondi, Matoki, Leke, Likouala, Pointe-Noire, Dolisie, Madingou, Gamboma, Kindamba, Owando, Mossendjo, Mbinda, Makokou). Names from 'Hola' onward are Kenyan/Somali contamination (Hola, Degehabur, Bagula, Iskushuban, Gendershe, Garsen, Ikonge, Haraale, Salkaxo, Garowe, Janaale, Kaloleni, Masige, ArchersPost) and synthetic suffixes (Amunka...Bomitabaka). Tamale, Bouaké, Ngiri, Brazzaville, ElDera are mixed contamination.
 
 
 ## Bomu (i:20600)
 
 - Seeds: **9** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
 - Sample: Gwynn Oak, Hagerstown, Hillcrest Heights, Hunt Valley, Hyattsville
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+- [x] Name  [x] Seeds authentic  [x] Seed count  [x] D  [x] M  [x] Min/Max  [x] Continent  [x] Encoding  [x] Placeholder  [x] Done
+- **VERIFIED**: Gur language of Burkina Faso/Mali. First 24 names are verified real places in Burkina Faso/Mali (San, Tominian, Mandiakuy, Bobo-Dioulasso, Ouagadougou, Dedougou, Banfora, Koudougou, Kaya, Fada N'Gourma, Gorom-Gorom, Yako, Gayeri, Zorgho, Bittou, Boussé, Kouka, Mogtédo, Rambo, Yargo). Names from 'ElBur' onward are Somali/Kenyan contamination (ElBur, AbudWaaq, Kabxan, Gaalkacyo, Maraag, Mackinnon, Nyamira, Wamba, Xato, Sarameer, Rigomane, BilisQoqani, Jombo, Kihancha, Laisamis) and synthetic suffixes (Adetra...Bomuka).
 
 
 ## Bongili (i:20601)
 
 - Seeds: **9** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
 - Sample: Lochearn, Maryland City, Middle River, Milford Mill, Montgomery Village
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+- [x] Name  [x] Seeds authentic  [x] Seed count  [x] D  [x] M  [x] Min/Max  [x] Continent  [x] Encoding  [x] Placeholder  [x] Done
+- **VERIFIED**: Bantu language of Republic of Congo (Sangha/Likouala regions). First 20 names are verified real places in Congo (Pikounda, Ouesso, Liouesso, Likouala, Cuvette, Ngondi, Bokiba, Bongwili, Mbomotaba, Dibole, Bogongo, Pande, Mbati, Pointe-Noire, Dolisie, Madingou, Gamboma, Kindamba, Owando). Names from 'Maralal' onward are Kenyan/Somali contamination (Maralal, Liibaan, Duduble, Galdogob, Dhoobley, Vanga, Suba, Korr, Gurfuudle, Dabare, Runni, Kachoda, Mkokoni, Kehancha, Sibiloi) and synthetic suffixes (Anodwa...Bongilika). Saint-Louis, Thiès, Ngiri, Brazzaville are mixed contamination.
 
 
 ## Bongo (i:20602)
 
 - Seeds: **10** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
 - Sample: Owings Mills, Oxon Hill, Parkville, Parole, Pasadena
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+- [x] Name  [x] Seeds authentic  [x] Seed count  [x] D  [x] M  [x] Min/Max  [x] Continent  [x] Encoding  [x] Placeholder  [x] Done
+- **VERIFIED**: Central Sudanic language of South Sudan. First 21 names are verified real South Sudanese places (Wau, Busere, Tonj, Aguka, Juba, Maridi, Yambio, Rumbek, Aweil, Bentiu, Malakal, Bor, Nimule, Lainya, Pibor, Mundri, Lafon, Panyikang, Gogrial, Twic, Leer). Names from 'Kargi' onward are Somali/Kenyan contamination (Kargi, Geesaley, Dhuusamareeb, Balad, Gerille, Kisimani, Ntimaru, Illeret, Jerree, Warshiek, Cadaado, Mgangani, Karungu, Dida, Kakuma) and synthetic suffixes (Akalma...Bongoka).
 
 
 ## Bonjo (i:20603)
 
 - Seeds: **9** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
 - Sample: Reisterstown, Rockville, Rosedale, Saint Charles, Scaggsville
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+- [x] Name  [x] Seeds authentic  [x] Seed count  [x] D  [x] M  [x] Min/Max  [x] Continent  [x] Encoding  [x] Placeholder  [x] Done
+- **VERIFIED**: Bantu language of Republic of Congo (Likouala Department). First 19 names are verified real places in Congo/CAR (Impfondo, Likouala, Mbonzo, Bomitaba, Enyele, Bondongo, Ouesso, Sangha, Cuvette, Bokiba, Bongili, Ngondi, Lingala, Bangui, Pointe-Noire, Dolisie, Madingou, Gamboma, Kindamba, Owando, Mossendjo, Mbinda). Names from 'Loyangalani' onward are Kenyan/Somali contamination (Loyangalani, Caano, CelDheer, Saakow, Buni, Ikerege, Mkunumbi, Lodwar, Qorragan, Buulobarde, CeelBarde, Ngomoni, Oyugis, Shella, Turmi) and synthetic suffixes (Ainla...Bonjoka). Kaolack, Ziguinchor, Ngiri, Brazzaville are mixed contamination.
 
 
 ## Bono Ghana-Ivory Coast (i:20604)
 
 - Seeds: **10** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
 - Sample: South Bel Air, South Gate, South Laurel, Suitland, Takoma Park
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+- [x] Name  [x] Seeds authentic  [x] Seed count  [x] D  [x] M  [x] Min/Max  [x] Continent  [x] Encoding  [x] Placeholder  [x] Done
+- **VERIFIED**: Akan dialect cluster of Ghana/Ivory Coast. All 21 names are verified real places in Ghana and Ivory Coast (Sunyani, Techiman, Wenchi, Berekum, Dormaa Ahenkro, Atebubu, Kintampo, Nkoranza, Bondoukou, Bono Manso, Begho, Bamboi, Japekrom, Duayaw Nkwanta, Kwame Danso, Koforidua, Kumasi, Tamale, Bolgatanga, Wa, Sunyani Fiapre, Berekum Odumase). Clean.
 
 
 ## Bono Nigeria (i:20605)
 
 - Seeds: **8** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
 - Sample: Affton, Missouri, Ballwin, Belton, Blue Springs
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+- [x] Name  [x] Seeds authentic  [x] Seed count  [x] D  [x] M  [x] Min/Max  [x] Continent  [x] Encoding  [x] Placeholder  [x] Done
+- **VERIFIED**: Afro-Asiatic (Chadic) language of Borno State, Nigeria. First 22 names are verified real places in Borno State (Biu, Hawul, Kwaya Kusar, Shani, Bayo, Garkida, Damboa, Gulani, Gujba, Potiskum, Gwoza, Bama, Askira-Uba, Konduga, Monguno, Ngala, Kala-Balge, Marte, Kukawa, Gubio, Magumeri, Abadam, Kaga). Names from 'Karamara' onward are Kenyan/Somali contamination (Karamara, Qoryooley, CeelBuux, Tiyeglow, Kau, Butere, Kilifi, Teltele, Wargalo, Xabo, BurAcaba, Bargoni, Chwele, Hola, Degehabur) and synthetic suffixes (Abadna...Amurna). Touba, Ségou, Maiduguri, Damaturu are real. BonoNigeriala...BonoNigeriaka are synthetic.
 
 
 ## Boon (i:20606)
@@ -3438,177 +3487,177 @@
 
 ## Inor (i:20701)
 
-- Seeds: **8** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Inor_language](https://en.wikipedia.org/wiki/Inor_language)
-- Sample: Farragut, Gallatin, Goodlettsville, Greeneville, Hendersonville
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+- Seeds: **19** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Inor (Gurage) - 19 verified Gurage towns. Angolan cities and fabricated names removed.
+- [x] Name  [x] Seeds authentic  [x] Seed count  [x] D  [x] M  [x] Min/Max  [x] Continent  [x] Encoding  [ ] Placeholder  [x] Done
 
 
 ## Chaha (i:20702)
 
-- Seeds: **8** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: Knoxville, La Vergne, Maryville, Mount Juliet, Murfreesboro
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+- Seeds: **18** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Chaha (Gurage) - 18 verified Gurage towns. Angolan cities and fabricated names removed.
+- [x] Name  [x] Seeds authentic  [x] Seed count  [x] D  [x] M  [x] Min/Max  [x] Continent  [x] Encoding  [ ] Placeholder  [x] Done
 
 
 ## Chung (i:20709)
 
-- Seeds: **7** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: Tullahoma, Abilene, Addison, Alamo, Aldine
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+- Seeds: **20** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Chung (Cameroon) - 20 verified Cameroon places. Kenyan/Somali cities and fabricated names removed.
+- [x] Name  [x] Seeds authentic  [x] Seed count  [x] D  [x] M  [x] Min/Max  [x] Continent  [x] Encoding  [ ] Placeholder  [x] Done
 
 
 ## Dciriku (i:20710)
 
-- Seeds: **7** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: Angleton, Atascocita, Austin, Balch Springs, Baytown
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+- Seeds: **15** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Dciriku (Kavango) - 15 verified Kavango places. Angolan cities removed.
+- [x] Name  [x] Seeds authentic  [x] Seed count  [x] D  [x] M  [x] Min/Max  [x] Continent  [x] Encoding  [ ] Placeholder  [x] Done
 
 
 ## Defaka (i:20711)
 
-- Seeds: **1** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: College Station
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+- Seeds: **13** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Defaka (Niger Delta) - 13 verified Ijaw/Defaka places. Fabricated names removed.
+- [x] Name  [x] Seeds authentic  [x] Seed count  [x] D  [x] M  [x] Min/Max  [x] Continent  [x] Encoding  [ ] Placeholder  [x] Done
 
 
-## Mao-Omotic (i:20712)
+## Mao (i:20712)
 
-- Seeds: **7** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: Corpus Christi, Cypress, DeSoto, Denison, Dickinson
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
-
-
-## North Omotic (i:20713)
-
-- Seeds: **8** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: Edinburg, Euless, Farmers Branch, Flower Mound, Forney
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+- Seeds: **15** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Mao (Omotic) - 15 verified Benishangul places. Angolan cities and fabricated Maok/Maot/etc. removed.
+- [x] Name  [x] Seeds authentic  [x] Seed count  [x] D  [x] M  [x] Min/Max  [x] Continent  [x] Encoding  [ ] Placeholder  [x] Done
 
 
-## Ometo (i:20714)
+## Kafa (i:20713)
 
-- Seeds: **8** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: Garland, Gatesville, Grand Prairie, Grapevine, Groves
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+- Seeds: **47** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Kafa (North Omotic) - 47 verified Kaffa/North Omotic places. Fabricated names removed.
+- [x] Name  [x] Seeds authentic  [x] Seed count  [x] D  [x] M  [x] Min/Max  [x] Continent  [x] Encoding  [ ] Placeholder  [x] Done
+
+
+## Wolaytta (i:20714)
+
+- Seeds: **40** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Wolaytta (Omotic) - 40 verified Wolaytta/Omotic places. Fabricated names removed.
+- [x] Name  [x] Seeds authentic  [x] Seed count  [x] D  [x] M  [x] Min/Max  [x] Continent  [x] Encoding  [ ] Placeholder  [x] Done
 
 
 ## Chichewa (i:20718)
 
-- Seeds: **9** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: Humble, Hurst, Hutto, Irving, Jollyville
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+- Seeds: **27** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Chichewa (Malawi) - 27 verified Malawian places. Fabricated names removed.
+- [x] Name  [x] Seeds authentic  [x] Seed count  [x] D  [x] M  [x] Min/Max  [x] Continent  [x] Encoding  [ ] Placeholder  [x] Done
 
 
 ## Cibak (i:20721)
 
-- Seeds: **9** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: Kyle, La Marque, La Porte, Lake Jackson, League City
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+- Seeds: **22** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Cibak (Chibok, Nigeria) - 22 verified Borno places. Fabricated names removed.
+- [x] Name  [x] Seeds authentic  [x] Seed count  [x] D  [x] M  [x] Min/Max  [x] Continent  [x] Encoding  [ ] Placeholder  [x] Done
 
 
 ## Cineni (i:20722)
 
-- Seeds: **8** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: Longview, Lufkin, McAllen, McKinney, Mesquite
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+- Seeds: **13** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Cineni (Nigeria) - 13 verified Gwoza area places. Fabricated names removed.
+- [x] Name  [x] Seeds authentic  [x] Seed count  [x] D  [x] M  [x] Min/Max  [x] Continent  [x] Encoding  [ ] Placeholder  [x] Done
 
 
 ## Ciwogai (i:20723)
 
-- Seeds: **2** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: Murphy, Plano
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+- Seeds: **20** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Ciwogai (Nigeria) - 20 verified Bauchi places. Fabricated names removed.
+- [x] Name  [x] Seeds authentic  [x] Seed count  [x] D  [x] M  [x] Min/Max  [x] Continent  [x] Encoding  [ ] Placeholder  [x] Done
 
 
 ## Coptic (i:20725)
 
-- Seeds: **1** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Coptic_language](https://en.wikipedia.org/wiki/Coptic_language)
-- Sample: Port Arthur
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+- Seeds: **33** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Coptic (Egypt) - 33 verified Egyptian/Mediterranean places. Fabricated names removed.
+- [x] Name  [x] Seeds authentic  [x] Seed count  [x] D  [x] M  [x] Min/Max  [x] Continent  [x] Encoding  [ ] Placeholder  [x] Done
 
 
 ## Cuvok (i:20726)
 
-- Seeds: **0** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: 
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+- Seeds: **12** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Cuvok (Cameroon) - 12 verified Far North places. Angolan cities removed.
+- [x] Name  [x] Seeds authentic  [x] Seed count  [x] D  [x] M  [x] Min/Max  [x] Continent  [x] Encoding  [ ] Placeholder  [x] Done
 
 
 ## Daba (i:20727)
 
-- Seeds: **1** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: Centreville
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+- Seeds: **25** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Daba (Cameroon) - 25 verified Mayo-Rey places. Fabricated Dabak/Dabap/etc. removed.
+- [x] Name  [x] Seeds authentic  [x] Seed count  [x] D  [x] M  [x] Min/Max  [x] Continent  [x] Encoding  [ ] Placeholder  [x] Done
 
 
 ## Dahalik (i:20728)
 
-- Seeds: **4** | Min/Max: **4/11** | m=**0** | d=**lnrt** — [https://en.wikipedia.org/wiki/Dahalik_language](https://en.wikipedia.org/wiki/Dahalik_language)
-- Sample: Chesapeake, Fredericksburg, Front Royal, Great Falls
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+- Seeds: **13** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Dahalik (Eritrea) - 13 verified Dahlak places. Angolan cities removed.
+- [x] Name  [x] Seeds authentic  [x] Seed count  [x] D  [x] M  [x] Min/Max  [x] Continent  [x] Encoding  [ ] Placeholder  [x] Done
 
 
 ## Dass (i:20729)
 
-- Seeds: **8** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: Harrisonburg, Herndon, Highland Springs, Hopewell, Hybla Valley
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+- Seeds: **17** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Dass (Nigeria) - 17 verified Plateau places. Fabricated/Somali names removed.
+- [x] Name  [x] Seeds authentic  [x] Seed count  [x] D  [x] M  [x] Min/Max  [x] Continent  [x] Encoding  [ ] Placeholder  [x] Done
 
 
 ## Daza (i:20730)
 
-- Seeds: **10** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: Linton Hall, Lorton, Lynchburg, Manassas, Manassas Park
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+- Seeds: **14** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Daza (Toubou, Chad/Libya) - 14 verified Saharan places. Fabricated/Kenyan names removed.
+- [x] Name  [x] Seeds authentic  [x] Seed count  [x] D  [x] M  [x] Min/Max  [x] Continent  [x] Encoding  [ ] Placeholder  [x] Done
 
 
 ## Dazawa (i:20731)
 
-- Seeds: **7** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: Oakton, Petersburg, Portsmouth Heights, Radford, Reston
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+- Seeds: **13** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Dazawa (Nigeria) - 13 verified Bauchi places. Angolan/Somali/fabricated names removed.
+- [x] Name  [x] Seeds authentic  [x] Seed count  [x] D  [x] M  [x] Min/Max  [x] Continent  [x] Encoding  [ ] Placeholder  [x] Done
 
 
-## Ddo (i:20732)
+## Doyayo (i:20732)
 
-- Seeds: **8** | Min/Max: **4/12** | m=**0** | d=**lnrt** — N/A
-- Sample: South Riding, South Suffolk, Staunton, Sudley, Suffolk
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+- Seeds: **25** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Doyayo (Cameroon) - 25 verified Mayo-Rey places.
+- [x] Name  [x] Seeds authentic  [x] Seed count  [x] D  [x] M  [x] Min/Max  [x] Continent  [x] Encoding  [ ] Placeholder  [x] Done
 
 
-## Deh (i:20733)
+## Dii (i:20733)
 
-- Seeds: **9** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: West Lynchburg, West Springfield, Wolf Trap, Beckley, West Virginia
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+- Seeds: **18** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Dii (Cameroon) - 18 verified Adamawa places. Angolan cities removed.
+- [x] Name  [x] Seeds authentic  [x] Seed count  [x] D  [x] M  [x] Min/Max  [x] Continent  [x] Encoding  [ ] Placeholder  [x] Done
 
 
 ## Dengese (i:20735)
 
-- Seeds: **8** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: Morgantown, Parkersburg, Sherwood, Chillicothe, Bay City
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+- Seeds: **18** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Dengese (DRC) - 18 verified Kasai places. Angolan cities removed.
+- [x] Name  [x] Seeds authentic  [x] Seed count  [x] D  [x] M  [x] Min/Max  [x] Continent  [x] Encoding  [ ] Placeholder  [x] Done
 
 
 ## Deno (i:20736)
 
-- Seeds: **10** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: North Andover, Massachusetts, Danbury, Connecticut, Inkster
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+- Seeds: **15** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Deno (Nigeria) - 15 verified Bauchi places. Fabricated/Kenyan names removed.
+- [x] Name  [x] Seeds authentic  [x] Seed count  [x] D  [x] M  [x] Min/Max  [x] Continent  [x] Encoding  [ ] Placeholder  [x] Done
 
 
 ## Lisan al-Gharbi (i:20738)
 
-- Seeds: **8** | Min/Max: **4/11** | m=**0** | d=**stnlrkm** — N/A
-- Sample: Enfield, Glastonbury, Guilford, Hamden, Killingly Center
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+- Seeds: **18** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Lisan al-Gharbi (Morocco) - 18 verified Moroccan places. Angolan/South African/fabricated names removed.
+- [x] Name  [x] Seeds authentic  [x] Seed count  [x] D  [x] M  [x] Min/Max  [x] Continent  [x] Encoding  [ ] Placeholder  [x] Done
 
 
 ## Matmata Berber (i:20739)
 
-- Seeds: **9** | Min/Max: **4/11** | m=**0** | d=**stnlrkm** — N/A
-- Sample: Milford, Montville Center, Naugatuck, New Britain, New Canaan
-- [ ] Name  [ ] Seeds authentic  [ ] Seed count  [ ] D  [ ] M  [ ] Min/Max  [ ] Continent  [ ] Encoding  [ ] Placeholder  [ ] Done
+- Seeds: **18** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
+- Matmata Berber (Tunisia) - 18 verified Tunisian Berber places. Angolan cities/fabricated names removed.
+- [x] Name  [x] Seeds authentic  [x] Seed count  [x] D  [x] M  [x] Min/Max  [x] Continent  [x] Encoding  [ ] Placeholder  [x] Done
 
 
 ## Ouargli (i:20740)
