@@ -2047,8 +2047,9 @@ every language namebase entry. Each entry must be validated across multiple dime
 ## Tsamai (i:5872)
 
 - Seeds: **50** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
-- Sample: Konso | Turmi | Jinka | Hamer | Banna
+- Sample: Weyto | Key Afer | Luqa | Diziaman | Sitemba
 - [x] Name  [x] Seeds authentic  [x] Seed count  [x] D  [x] M  [x] Min/Max  [x] Continent  [x] Encoding  [x] Placeholder  [x] Done
+- **Note**: All 50 names replaced with verified Tsamai village/kebele names from Bena-Tsemay woreda (Lower Omo Valley, Ethiopia). Removed 50 invalid names (neighboring ethnic groups, Zambian towns, Somali/Kenyan towns, fabricated names).
 
 
 ## Luo (i:5874)
@@ -2126,6 +2127,7 @@ every language namebase entry. Each entry must be validated across multiple dime
 - Seeds: **62** | Min/Max: **4/11** | m=**0** | d=**lnrt** — N/A
 - Sample: Lomé | Sokodé | Kpalimé | Atakpamé | Bassar
 - [x] Name  [x] Seeds authentic  [x] Seed count  [x] D  [x] M  [x] Min/Max  [x] Continent  [x] Encoding  [x] Placeholder  [x] Done
+- **Note**: 42 invalid names replaced with verified Ewe towns from Togo (31 prefecture capitals) and Ghana Volta Region (11 towns). Removed Zambian towns, Somali/Kenyan towns, Senegalese towns, Kenyan towns, and fabricated names.
 
 
 ## Fanagalo (i:10882)

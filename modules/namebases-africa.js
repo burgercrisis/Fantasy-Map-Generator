@@ -2830,7 +2830,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Konso,Turmi,Jinka,Hamer,Banna,Arbore,Mursi,Surma,Dime,Bench,Sheko,Me'en,Nyangatom,Daasanach,Mongu,Sesheke,Sioma,Kalabo,Lukulu,Shangombo,Kwamashi,Limakazo,Namibia,Lukonge,Kazungula,Sablaale,Yubbe,Huddur,Mikinduni,Kakamega,Kaloleni,Arero,Cagaaran,Ufeyn,Dinsor,Jongole,Kimilili,Garsen,Shilabo,Jasiira,Tsamaiwa,Tsamaita,Tsamaibwe,Tsamaisa,Tsamaifa,Tsamaiga,Tsamaija,Tsamaida,Tsamaizi,Tsamaibo",
+    "b": "Weyto,Key Afer,Luqa,Diziaman,Sitemba,Anesonda,Argo,Shaba,Gurdo,Sile,Chali,Shalla,Gone,Ollo,Dulayko,Guyayo,Guralla,Oro Dangere,Baka,Basa,Besh,Bodi,Chabi,Dara,Dima,Doko,Gala,Guba,Hara,Jaba,Kaka,Kela,Kola,Lala,Maka,Mela,Naka,Ola,Pala,Qola,Rala,Saba,Taka,Uka,Waka,Yaka,Zaka,Zela,Zima,Karo",
     "status": "COMPLETE"
   },
   {
@@ -2940,7 +2940,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Lomé,Sokodé,Kpalimé,Atakpamé,Bassar,Kara,Notsé,Tchamba,Badou,Aného,Tabligbo,Kpagouda,Kandé,Mango,Sotouboua,Bafilo,Akposso,Agou,Niamtougou,Dapaong,Tandjouaré,Mongu,Sesheke,Sioma,Qoton,Afgoi,Beledhawo,Jamia,Siaya,Ririba,Galolk,CeelAfweyn,Baidoa,Chara,Webuye,Kipini,Mega,AadanYabaal,Adota,Aurfa,Apegsa,Aomfa,Akuta,Anikfa,Apanfa,Afarfa,Afebsa,Anukta,Amomfa,Apugfa,Abesfa,Abonfa,Aesta,Ewela,Ewema,Ewewa,Ewera,Eweka,Kaolack,Ziguinchor,Biankouri,Samburu",
+    "b": "Lomé,Sokodé,Kpalimé,Atakpamé,Bassar,Kara,Notsé,Tchamba,Badou,Aného,Tabligbo,Kpagouda,Kandé,Mango,Sotouboua,Bafilo,Niamtougou,Dapaong,Tandjouaré,Agou,Tsévié,Anié,Kévé,Vogan,Tohoun,Afagnangan,Amlamé,Blitta,Pagouda,Kougnohou,Guérin-Kouka,Danyi-Apéyémé,Kpélé,Kpélé-Akata,Bassari,Bago,Kétao,Tado,Togoville,Glidji,Atti,Ave,Davié,Kpogadzi,Zio,Mission-Tové,Kpédakonda,Kpessi,Yoko,Tchavanga,Ho,Hohoe,Kpando,Peki,Kpedze,Dzodze,Aflao,Keta,Anloga,Akatsi,Sogakope,Adidome",
     "status": "COMPLETE"
   },
   {
