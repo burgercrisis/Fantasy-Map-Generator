@@ -928,12 +928,12 @@ window.asiaNameBases = [
   {
     "name": "Sunuwar",
     "i": 841,
-    "min": 3,
-    "max": 14,
+    "min": 4,
+    "max": 17,
     "d": "",
     "m": 0,
-    "b": "KhijiChandeshwari,Kubukasthali,Saipu,Kubhu",
-    "status": "COMPLETE"
+    "b": "Pahare,Kubukasthali,Vacul,Saipu,KhijiChandeshwari,Kubhu,Sukhajor,Silu,Gelu,Ramechhap,Manthali,Doramba,Bethan,Kuntadevi,Rakha,Patale,Bamrang,Chisapani,Madhavpur,Katunje,Bhuttar,Baruneshwor,Thulo Pokhara,Suntale,Phulbari,Kalibote,Salleri,Khurkot,Patle,Talung,Basa,Rampur,Moli,Halesi,Jyamire,Charikot,Jiri,Suri,Lamabagar,Lamidanda,Bhimeshwor,Jugal,Gaurishankar,Lapilang,Sailung,Japhe",
+    "status": "WAITING"
   },
   {
     "name": "Thulung",
@@ -3138,12 +3138,12 @@ window.asiaNameBases = [
   {
     "name": "Kodava",
     "i": 1680,
-    "min": 3,
+    "min": 5,
     "max": 14,
     "d": "",
     "m": 0,
-    "b": "Madikeri,Virajpet,Somwarpet,Ponnampet,Kushalanagar,Gonikoppal,Bhagamandala,Talakaveri,Siddapur,Napoklu,Ammathi,Hunsur,Shanivarsanthe,Suntikoppa,Pollibetta,Bittangala",
-    "status": "COMPLETE"
+    "b": "Madikeri,Virajpet,Kushalnagar,Gonikoppal,Somvarpet,Ponnampet,Bhagamandala,Talakaveri,Siddapur,Napoklu,Ammathi,Hunsur,Shanivarsanthe,Suntikoppa,Pollibetta,Bittangala,Kutta",
+    "status": "WAITING"
   },
   {
     "name": "Derung",
@@ -3662,11 +3662,11 @@ window.asiaNameBases = [
   {
     "name": "Gurung",
     "i": 1923,
-    "min": 3,
-    "max": 14,
+    "min": 4,
+    "max": 13,
     "d": "",
     "m": 0,
-    "b": "Ghandruk,Ghalegaun,Pasgaun,Bhujung,Ghanpokhara,Dhampus,Lwangghale,Hemja,Begnas,Pokhara",
+    "b": "Ghandruk,Ghalegaun,Pasgaun,Bhujung,Ghanpokhara,Dhampus,Lwangghale,Hemja,Begnas,Pokhara,Khuldi,Siurung,Khasur,Rainaskot,Kaulepani,Ilampokhari,Nalma,Chapamimpra,Bhusme,Ghermu,Gorkha,Gorkha Bazaar,Liglig,Kurintar,Abu Khaireni,Damauli,Bhimad,Bandipur,Bhanu,Shisha Ghat,Syangja,Putalibazar,Waling,Biruwa,Kyauja,Kushma,Pang,Deurali,Khurkot,Tilahar,Baglung,Burtibang,Narayansthan,Malma,Chame,Manang,Pisang,Braga,Hongde,Jomsom,Kagbeni,Muktinath,Marpha,Tukuche,Phedi,Sarangkot,Naudanda,Kande",
     "status": "COMPLETE"
   },
   {
@@ -4577,11 +4577,11 @@ window.asiaNameBases = [
   {
     "name": "Konkani",
     "i": 2262,
-    "min": 3,
-    "max": 14,
+    "min": 4,
+    "max": 13,
     "d": "",
     "m": 0,
-    "b": "Panaji,Margao,Vasco da Gama,Mapusa,Ponda,Bicholim,Cuncolim,Curchorem,Pernem,Canacona,Siolim,Assolna,Loutolim,Chandor,Quepem,Sanquelim,Mangalore,Karwar,Malvan,Vengurla,Ratnagiri",
+    "b": "Panaji,Margao,Vasco da Gama,Mapusa,Ponda,Bicholim,Cuncolim,Curchorem,Pernem,Canacona,Siolim,Assolna,Loutolim,Chandor,Quepem,Sanquelim,Mangalore,Karwar,Udupi,Kundapura,Karkala,Moodabidri,Puttur,Sullia,Bantwal,Mulki,Kaup,Surathkal,Padubidri,Belthangady,Hebri,Brahmavar,Kasaragod,Manjeshwar,Kanhangad,Malvan,Vengurla,Ratnagiri,Sindhudurg,Raigad,Alibag,Dapoli,Chiplun,Khed,Rajapur,Kankavli,Sawantwadi,Kudal",
     "status": "COMPLETE"
   },
   {
@@ -6288,11 +6288,11 @@ window.asiaNameBases = [
   {
     "name": "Newar",
     "i": 50034,
-    "min": 3,
-    "max": 14,
+    "min": 4,
+    "max": 13,
     "d": "",
     "m": 0,
-    "b": "Kathmandu,Lalitpur,Bhaktapur,Madhyapur Thimi,Bode,Kirtipur,Bungamati,Khokana,Sankhu,Thecho,Chapagaun,Panauti,Banepa",
+    "b": "Kathmandu,Lalitpur,Bhaktapur,Kirtipur,Thimi,Banepa,Panauti,Dhulikhel,Sankhu,Changunarayan,Nagarkot,Khokana,Bungamati,Chapagaun,Imadol,Harisiddhi,Godavari,Naikap,Pharping,Suryabinayak,Gokarna,Dakshinkali,Lele,Bhattedanda,Satungal,Tokha,Thamel,Chabahil,Boudha",
     "status": "COMPLETE"
   },
   {
@@ -9028,11 +9028,11 @@ window.asiaNameBases = [
   {
     "name": "Tamang",
     "i": 200528,
-    "min": 3,
-    "max": 14,
+    "min": 4,
+    "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Syabrubesi,Dhunche,Gatlang,Timure,Thuman,Briddim,Chitlang,Goljung,Gosaikunda",
+    "b": "Syabrubesi,Gatlang,Goljung,Chilime,Tatopani,Nagthali,Thuman,Briddim,Timure,Rasuwagadhi,Chyamthang,Golung,Ghattekhola,Laharepauwa,Dhunche,Bethan,Bidur,Trishuli,Bhadratar,Kakani,Kispang,Samundratar,Taruka,Thaprek,Urleni,Haku,Parbati,Ramche,Bhorle,Langtang,Kyanjin,Mundu,Thulo Syafru",
     "status": "COMPLETE"
   },
   {
@@ -9128,11 +9128,11 @@ window.asiaNameBases = [
   {
     "name": "Thakali",
     "i": 200539,
-    "min": 3,
-    "max": 14,
+    "min": 4,
+    "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Jomsom,Marpha,Tukuche,Kagbeni,Lete,Tatopani,Dana,Thini,Syang,Chimang",
+    "b": "Tukuche,Khanti,Kobang,Larjung,Dampu,Naurikot,Bhurjungkot,Nakung,Tithi,Kunjo,Taglung,Lete,Ghansa,Naprungkhung,Titi,Dhumpu,Ghasa,Jomsom,Marpha,Kagbeni,Tatopani,Dana,Thini,Syang,Chimang,Tangbe,Tetang,Chuksang,Chaile,Gyakar",
     "status": "COMPLETE"
   },
   {
@@ -9249,11 +9249,11 @@ window.asiaNameBases = [
   {
     "name": "Tulu",
     "i": 200552,
-    "min": 3,
-    "max": 14,
+    "min": 4,
+    "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Mangalore,Udupi,Manipal,Kundapura,Karkala,Moodabidri,Puttur,Sullia,Bantwal,Mulki,Kaup,Surathkal,Padubidri,Belthangady,Hebri,Brahmavar,Kasaragod,Manjeshwar,Kanhangad,Vittal,Venur,Dharmasthala,Subrahmanya",
+    "b": "Mangalore,Udupi,Manipal,Kundapura,Karkala,Moodabidri,Hebri,Brahmavar,Puttur,Sullia,Bantwal,Mulki,Kaup,Surathkal,Padubidri,Belthangady,Kasaragod,Manjeshwar,Kanhangad,Vittal,Venur,Dharmasthala,Subrahmanya,Barkur,Baindur,Byndoor",
     "status": "COMPLETE"
   },
   {
