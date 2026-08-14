@@ -1,13 +1,14 @@
 {
   "continent": "africa",
-  "status": "VERIFICATION COMPLETE - all 793 entries in modules/namebases-africa.js processed",
-  "lastProcessedIndex": 200229,
+  "status": "VERIFICATION COMPLETE - all 784 entries in modules/namebases-africa.js processed (9 duplicates removed)",
+  "lastProcessedIndex": 201017,
   "nextIndex": null,
-  "totalEntries": 793,
-  "entriesCompleted": 227,
-  "entriesWaiting": 566,
+  "totalEntries": 784,
+  "entriesCompleted": 473,
+  "entriesWaiting": 311,
+  "emptyBEntries": 86,
   "allEntriesProcessed": true,
-  "lastUpdate": "2026-08-12",
-  "lastVerifiedName": "ǂKxʼaoǁʼae",
-  "notes": "All 793 entries now have status fields. 227 COMPLETE (>=25 individually verified names, major languages). 566 WAITING (verified subsets below 25-name threshold, or empty per Rule 4 for cover/family/ambiguous/mis-filed entries). Cross-regional contamination (Kenyan/Somali/Angolan/Puerto Rican cities) and synthetic fabricated names (language-name + suffix patterns, -town/-ville/-burg patterns) removed from all processed entries. Guardrails pass: map=3425 catalog=3526."
+  "lastUpdate": "2026-08-13",
+  "lastVerifiedName": "Western Algerian Zenatic dialects",
+  "notes": "All 784 entries have status fields. 473 COMPLETE (>=25 individually verified names, major/medium languages). 311 WAITING: 86 cover terms/families with empty b (Rule 4), 225 micro-languages with verified subsets below 25-name threshold (Rule 5). Cross-regional contamination (Kenyan/Somali/Angolan/Puerto Rican cities), synthetic fabricated names (language-name + suffix patterns, -town/-ville/-burg patterns), and 9 duplicate entries removed. Guardrails pass: map=3425 catalog=3526."
 }
