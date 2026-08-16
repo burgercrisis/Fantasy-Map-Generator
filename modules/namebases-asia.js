@@ -7771,7 +7771,8 @@ window.asiaNameBases = [
     "max": 14,
     "d": "lnrt",
     "m": 0,
-    "b": "Herat,Kunduz,Balkh,Kabul,Ghazni,Samarkand,Tashkent,Sar-e Pol,Maymana,Mazar-i-Sharif,Khost,Puli Khumri,Charikar,Yakawlang,Doshi,MaeSuay,HaGiang,LocNinh,AyunPa,ChuPro,MogholMogholibari,Ulaanbaatar,Erdenet,Darkhan,Choibalsan,Khovd,Bayan-Olgii,Bulgan,Murun,Ulaangom,Altai,Bayanhongor,Mandalgovi,Dalanzadgad,Kharkhorin,Andijan,Sheberghan,Baghlan,Parwan,Bamiyan,ThungChang,GoCong,HocMon,SobPrab,TamBinh,HongNgu,Heqing,GiongTrom,Lincang,Tachilek,Aledwada,MogholMogholipur,MogholMogholinagar,MogholMogholibad,MogholMogholikot,MogholMogholiwada,MogholMogholighat,MogholMogholipalli,MogholMogholikonda,MogholMogholipeta,MogholMogholiuru,MogholMogholiuri,MogholMogholiooru,MogholMogholigiri,NagarMogholMogholi,MogholMogholiganj,MogholMogholibazar,MogholMogholibandar,MogholMogholigram"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Mogholi",
@@ -7780,7 +7781,8 @@ window.asiaNameBases = [
     "max": 14,
     "d": "lnrt",
     "m": 0,
-    "b": "Herat,Kunduz,Balkh,Kabul,Ghazni,Samarkand,Sar-e Pol,Maymana,Mazar-i-Sharif,Puli Khumri,Charikar,Yakawlang,Doshi,Behsud,DaLat,CanGio,TalokMuh,ChiangKhlong,Sing,Mogholibari,PalliMogholi,Ulaanbaatar,Erdenet,Darkhan,Choibalsan,Khovd,Bayan-Olgii,Bulgan,Murun,Ulaangom,Altai,Bayanhongor,Mandalgovi,Dalanzadgad,Kharkhorin,Andijan,Sheberghan,Baghlan,Parwan,Bamiyan,Kajran,TieuCan,CaoLanh,Ninglang,SongCau,ChoGao,Jinghong,PhuNhon,DinhQuan,Chun,MongCai,Mogholipur,Mogholinagar,Mogholibad,Mogholikot,Mogholiwada,Mogholighat,Mogholipalli,Mogholikonda,Mogholipeta,Mogholiooru,Mogholigiri,NagarMogholi,Mogholiganj,Mogholibazar,Mogholibandar,Mogholigram"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Mongghul",
@@ -7789,7 +7791,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Huzhu,Ledu,Minhe,Hualong,Xunhua,Jianzha,Zeku,Tongde,Xinghai,Guide,Chaka,Da Qaidam,SonHoa,LuangNamtha,DiLinh,DokKhamtai,Nateuy,BanLuang,Mongghulbari,PalliMongghul,Ulaanbaatar,Erdenet,Darkhan,Choibalsan,Khovd,Bayan-Olgii,Bulgan,Murun,Ulaangom,Altai,Bayanhongor,Mandalgovi,Dalanzadgad,Kharkhorin,Ulan-Ude,Datong,Pingan,Xining,Huangyuan,Tongren,Golmud,Dulan,Delingha,ChauThanh,Deqin,TanPhuoc,LongKhanh,HaTien,BinhDuong,PhuKamYao,TanAn,CanDuoc,Mongghulpur,Mongghulnagar,Mongghulbad,Mongghulkot,Mongghulwada,Mongghulghat,Mongghulpalli,Mongghulkonda,Mongghulpeta,Mongghulooru,Mongghulgiri,NagarMongghul,Mongghulganj,Mongghulbazar,Mongghulbandar,Mongghulgram"
+    "b": "Huzhu,Ledu,Minhe,Hualong,Xunhua,Jianzha,Zeku,Tongde,Xinghai,Guide,Chaka,Da Qaidam,Datong,Pingan,Xining,Huangyuan,Tongren,Golmud,Dulan,Delingha,Tianzhu,Yongjing,Linxia,Hezuo,Maqu,Luqu,Xiahe,Zoige,Hongyuan,Ruoergai,Aba",
+    "status": "COMPLETE"
   },
   {
     "name": "Mongghuor",
@@ -7798,7 +7801,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Huzhu,Ledu,Minhe,Hualong,Xunhua,Jianzha,Zeku,Tongde,Xinghai,Guide,Chaka,Da Qaidam,DucTrong,MaeFaLuang,ChiangHai,BanKok,Mongghuorbari,PalliMongghuor,Ulaanbaatar,Erdenet,Darkhan,Choibalsan,Khovd,Bayan-Olgii,Bulgan,Murun,Ulaangom,Altai,Bayanhongor,Mandalgovi,Dalanzadgad,Kharkhorin,Ulan-Ude,Irkutsk,Kyakhta,Datong,Pingan,Xining,Huangyuan,Tongren,Golmud,Dulan,Delingha,Phongsali,LaiThieu,ThaWangPha,BacLieu,DiAn,TanChau,ChauThanh,Baoshan,QuangTri,TieuCan,Lushui,Mongghuorpur,Mongghuornagar,Mongghuorbad,Mongghuorkot,Mongghuorwada,Mongghuorghat,Mongghuorpalli,Mongghuorkonda,Mongghuorpeta,Mongghuorooru,Mongghuorgiri,NagarMongghuor,Mongghuorganj,Mongghuorbazar,Mongghuorbandar,Mongghuorgram"
+    "b": "Huzhu,Ledu,Minhe,Hualong,Xunhua,Jianzha,Zeku,Tongde,Xinghai,Guide,Chaka,Da Qaidam,Datong,Pingan,Xining,Huangyuan,Tongren,Golmud,Dulan,Delingha,Tianzhu,Yongjing,Linxia,Hezuo,Maqu,Luqu,Xiahe,Zoige,Hongyuan,Ruoergai,Aba",
+    "status": "COMPLETE"
   },
   {
     "name": "Monguor",
@@ -7807,7 +7811,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Huzhu,Ledu,Minhe,Hualong,Xunhua,Jianzha,Zeku,Tongde,Xinghai,Guide,Chaka,Da Qaidam,BauBang,BenCat,KoKha,CaiBe,IaGrai,MongLa,MuangKham,DanSim,WiangPaPao,Monguorbari,PalliMonguor,Shymkent,Karaganda,Aktobe,Taraz,Tashkent,Samarkand,Bukhara,Fergana,Ashgabat,Mary,Turkmenabat,Dashoguz,Bishkek,Osh,Jalal-Abad,Datong,Pingan,Xining,Huangyuan,Tongren,Golmud,Dulan,Delingha,Sangkha,BenTre,TanChau,Eryuan,Pleiku,Cangyuan,Monguorpur,Monguornagar,Monguorbad,Monguorkot,Monguorwada,Monguorghat,Monguorpalli,Monguorkonda,Monguorpeta,Monguorooru,Monguorgiri,NagarMonguor,Monguorganj,Monguorbazar,Monguorbandar,Monguorgram"
+    "b": "Huzhu,Ledu,Minhe,Hualong,Xunhua,Jianzha,Zeku,Tongde,Xinghai,Guide,Chaka,Da Qaidam,Datong,Pingan,Xining,Huangyuan,Tongren,Golmud,Dulan,Delingha,Tianzhu,Yongjing,Linxia,Hezuo,Maqu,Luqu,Xiahe,Zoige,Hongyuan,Ruoergai,Aba",
+    "status": "COMPLETE"
   },
   {
     "name": "Monom",
@@ -7816,7 +7821,8 @@ window.asiaNameBases = [
     "max": 10,
     "d": "lnrt",
     "m": 0,
-    "b": "Krong Pa,Ayun Pa,Ia Pa,Phu Thien,Dak Doa,Mang Buk,Ia Grai,Dak Po,Kbang,Song Hinh,Son Hoa,Phu Hoa,Tuy An,Dong Hoa,Long,TamNong,CheoReo,BaTri,DucCo,MaeSai,PakLai,CatTien,WiangChai,LangSon,Monombari,PalliMonom,Phnom Penh,Battambang,Kampong Cham,Kampot,Takeo,Kratie,Stung Treng,Sihanoukville,Pleiku,Kon Tum,An Khe,Chu Se,Chu Prong,Dong Xuan,TraOn,Yongsheng,Shuangjiang,BuDop,ThaPlatak,Monompur,Monomnagar,Monombad,Monomkot,Monomwada,Monomghat,Monompalli,Monomkonda,Monompeta,Monomooru,Monomgiri,NagarMonom,Monomganj,Monombazar,Monombandar,Monomgram"
+    "b": "Krong Pa,Ayun Pa,Ia Pa,Phu Thien,Dak Doa,Mang Buk,Ia Grai,Dak Po,Kbang,Song Hinh,Son Hoa,Phu Hoa,Tuy An,Dong Hoa,Tam Nong,Cheo Reo,Ba Tri,Duc Co,Chu Se,Chu Prong,Kon Tum,Pleiku,An Khe,Phuoc An,Dak Song,Dak Rlap,Dak Mil",
+    "status": "COMPLETE"
   },
   {
     "name": "Moyfaw",
@@ -7825,7 +7831,8 @@ window.asiaNameBases = [
     "max": 10,
     "d": "lnrt",
     "m": 0,
-    "b": "Ziyun,Wangmo,Ceheng,Xingren,Pu'an,Qinglong,Anlong,Zhenfeng,Guiding,Changshun,MuangSai,MaeCharim,TienYen,BinhLong,PongPrasat,DongXoai,Moyfawpur,Moyfawnagar,Moyfawbad,Moyfawkot,Moyfawwada,Moyfawghat,Moyfawpalli,Moyfawkonda,Moyfawpeta,Moyfawooru,Moyfawgiri,Moyfawbari,Moyfawganj,Moyfawbazar,Moyfawbandar,Moyfawgram,PalliMoyfaw,Luodian,Huishui,Pingtang,Dushan,Duyun,Sandu,Libo,Rongjiang,Congjiang,Jinping,TuyAnh,GoCongTay,Mengla,ThuongDuc,Thoeng,XuanLoc,DucHue,Yongchang,ViThanh,NagarMoyfaw"
+    "b": "Ziyun,Wangmo,Ceheng,Xingren,Pu'an,Qinglong,Anlong,Zhenfeng,Guiding,Changshun,Luodian,Huishui,Pingtang,Dushan,Duyun,Sandu,Libo,Rongjiang,Congjiang,Jinping,Tian'e,Hechi,Yizhou,Nandan,Donglan,Bama,Du'an,Fengshan",
+    "status": "COMPLETE"
   },
   {
     "name": "Muduga",
@@ -7834,7 +7841,8 @@ window.asiaNameBases = [
     "max": 14,
     "d": "lnrt",
     "m": 0,
-    "b": "Attapadi,Agali,Mannarkkad,Palakkad,Chittur,Alathur,Ottapalam,Perinthalmanna,Nilambur,Wandoor,Edakkara,Maniyur,Thrissur,Kodungallur,Kunnamkulam,Valanchery,Ponnani,Tirur,Kottakkal,Malappuram,NamBak,SongKhwae,RachGia,BienHoa,SiNakharin,LongXuyen,Longling,ChuSe,CaiBe,Mudugabari,PalliMuduga,Pong,NhonTrach,CanGiuoc,KienGiang,TraVinh,Gongshan,Mudugapur,Muduganagar,Mudugabad,Mudugakot,Mudugawada,Mudugaghat,Mudugapalli,Mudugakonda,Mudugapeta,Mudugaooru,Mudugagiri,NagarMuduga,Mudugaganj,Mudugabazar,Mudugabandar,Mudugagram"
+    "b": "Attapadi,Agali,Mannarkkad,Palakkad,Chittur,Alathur,Ottapalam,Perinthalmanna,Nilambur,Wandoor,Edakkara,Maniyur,Thrissur,Kodungallur,Kunnamkulam,Valanchery,Ponnani,Tirur,Kottakkal,Malappuram,Cherpulassery,Pattambi,Shoranur,Kuttippuram,Tiruvegappura,Vengara,Kondotty,Areekode,Manjeri",
+    "status": "COMPLETE"
   },
   {
     "name": "Mugom–Karmarong",
@@ -7843,7 +7851,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Jumla,Mugu,Humla,Rara,Purang,Nyalam,Kyirong,Lo Manthang,Mustang,Tingri,Zanda,Tsum,Muktinath,XiengKhouang,Prem,MugomKarmarongbari,PalliMugomKarmarong,Shigatse,Gyantse,Nagqu,Nyingchi,Chamdo,Kangding,Shangri La,Tawang,Bomdila,Along,Yingkiong,Basar,Kokrajhar,Simikot,Kalikot,Taklakot,Pulan,Saga,SocTrang,ThuanAn,PakLay,TanHiep,TanThanh,Changning,ALuoi,CangLong,Menglian,NgocHoi,TanPhuoc,Fang,SonLa,MugomKarmarongpur,MugomKarmarongnagar,MugomKarmarongbad,MugomKarmarongkot,MugomKarmarongwada,MugomKarmarongghat,MugomKarmarongpalli,MugomKarmarongkonda,MugomKarmarongpeta,MugomKarmaronguru,MugomKarmaronguri,MugomKarmarongooru,MugomKarmaronggiri,NagarMugomKarmarong,MugomKarmarongganj,MugomKarmarongbazar,MugomKarmarongbandar,MugomKarmaronggram"
+    "b": "Jumla,Mugu,Humla,Rara,Purang,Nyalam,Kyirong,Lo Manthang,Mustang,Tingri,Zanda,Tsum,Muktinath,Simikot,Kalikot,Taklakot,Pulan,Saga,Dolpa,Chharka,Tinje,Saldang,Dho,Phoksundo,Kagbeni,Jomsom,Marpha,Tukuche,Lete,Ghasa,Tatopani,Beni,Ghandruk",
+    "status": "COMPLETE"
   },
   {
     "name": "Mullu Kurumba",
@@ -7852,7 +7861,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Gudalur,Pandalur,Nilgiris,Ooty,Coonoor,Nelliyalam,Masinagudi,Mukurthi,Theppakadu,Moyar,Kargudi,Mudumalai,Singara,Kadanad,Kurumba,Kattakeri,Cherambadi,Devabetta,Nedugula,Chennai,Coimbatore,Madurai,Tiruchirappalli,Salem,Tirunelveli,Vellore,Thoothukudi,Kanchipuram,Thanjavur,Mysore,Mangalore,Hubballi,Belagavi,Davangere,Shivamogga,Kotagiri"
+    "b": "Gudalur,Pandalur,Nilgiris,Ooty,Coonoor,Nelliyalam,Masinagudi,Mukurthi,Theppakadu,Moyar,Kargudi,Mudumalai,Singara,Kadanad,Kurumba,Kattakeri,Cherambadi,Devabetta,Nedugula,Kotagiri,Bikkatty,Denad,Kil Kotagiri,Kullan,Kunjapanai,Mekkudi,Mullu Kurumba,Gudalur Taluk",
+    "status": "COMPLETE"
   },
   {
     "name": "Mundari",
@@ -7861,7 +7871,7 @@ window.asiaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Chaibasa,Latehar,Khunti,Jamtara,Noamundi,ChiangSaen,ThongMySai,TanPhu,QuangNinh,PhuocLong,RongKwang,DaLat,CanGio,TalokMuh,Mundaribari,PalliMundari,Haifa,Riyadh,Jeddah,Mecca,Medina,Dammam,Sana'a,Aden,Taiz,Manama,Doha,Muscat,Salalah,Nizwa,Dubai,Abu Dhabi,Sharjah,Kuwait City,Cairo,Alexandria,Luxor,Ranchi,Jamshedpur,Bokaro,Dhanbad,Deoghar,Giridih,Hazaribagh,Dumka,Simdega,Gumla,Pakur,Godda,Sahebganj,Saraikela,Chakradharpur,Puer,Pleiku,ChiangMuan,TieuCan,CaoLanh,Ninglang,Mundaripur,Mundarinagar,Mundaribad,Mundarikot,Mundariwada,Mundarighat,Mundaripalli,Mundarikonda,Mundaripeta,Mundariooru,Mundarigiri,NagarMundari,Mundariganj,Mundaribazar,Mundaribandar,Mundarigram",
+    "b": "Chaibasa,Latehar,Khunti,Jamtara,Noamundi,Ranchi,Jamshedpur,Bokaro,Dhanbad,Deoghar,Giridih,Hazaribagh,Dumka,Simdega,Gumla,Pakur,Godda,Sahebganj,Saraikela,Chakradharpur,Torpa,Karar,Kolebira,Bano,Kamdara,Basia,Palkot,Raidih,Chainpur,Bharno,Bishunpur,Ghaghra,Sisai,Bero,Angara,Namkum,Ormanjhi,Kanke,Bundu,Sonahatu,Rahe,Tamar",
     "status": "COMPLETE"
   },
   {
@@ -7871,7 +7881,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Hoa Binh,Tan Lac,Da Bac,Luong Son,Kim Boi,Ky Son,Thanh Ha,Yen Thuy,Lac Thuy,Thach Thanh,Canh Nang,Nga Son,Nhu Xuan,Nhu Thanh,Lang Chanh,Ngoc Lac,Tho Xuan,Thuong Xuan,Quan Hoa,Ba Thuoc"
+    "b": "Hoa Binh,Tan Lac,Da Bac,Luong Son,Kim Boi,Ky Son,Thanh Ha,Yen Thuy,Lac Thuy,Thach Thanh,Canh Nang,Nga Son,Nhu Xuan,Nhu Thanh,Lang Chanh,Ngoc Lac,Tho Xuan,Thuong Xuan,Quan Hoa,Ba Thuoc",
+    "status": "COMPLETE"
   },
   {
     "name": "Muria",
@@ -7880,7 +7891,7 @@ window.asiaNameBases = [
     "max": 14,
     "d": "lnrt",
     "m": 0,
-    "b": "Kondagaon,Antagarh,Sukma,Konta,Kanker,Pakhanjore,Chhote Dongar,Kutru,Orchha,Tongpal,Barsur,Bhopalpatnam,Garamur,Mariyang,DucTrong,MaeFaLuang,ChiangHai,Muriabari,PalliMuria,Jagdalpur,Narayanpur,Bijapur,Dantewada,Bhanupratappur,Katekalyan,Srinagarindra,ChauDoc,TanTru,Shidian,DongHa,CauKe,Fugong,DakDoa,CaiLay,Phongsali,LaiThieu,ThaWangPha,Muriapur,Murianagar,Muriabad,Muriakot,Muriawada,Muriaghat,Muriapalli,Muriakonda,Muriapeta,Muriaooru,Muriagiri,NagarMuria,Muriaganj,Muriabazar,Muriabandar,Muriagram",
+    "b": "Kondagaon,Antagarh,Sukma,Konta,Kanker,Pakhanjore,Chhote Dongar,Kutru,Orchha,Tongpal,Barsur,Bhopalpatnam,Garamur,Mariyang,Jagdalpur,Narayanpur,Bijapur,Dantewada,Bhanupratappur,Katekalyan,Narayanpur,Bijapur,Dantewada,Keskal,Makdi,Baderajpur,Faragaon,Kodenar,Kokeri,Kolanar,Kudur,Madhota",
     "status": "COMPLETE"
   },
   {
@@ -7890,7 +7901,8 @@ window.asiaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Idukki,Thodupuzha,Devikulam,Peerumedu,Udumbanchola,Kattappana,Kumily,Vandiperiyar,Chinnar,Marayoor,Munnar,Rajakkad,Santhanpara,Kanthalloor,Vattavada,Anakara,Adimali,Chithirapuram,Pallivasal,Munnar Colony,Chennai,Coimbatore,Madurai,Tiruchirappalli,Salem,Tirunelveli,Vellore,Thoothukudi,Kanchipuram,Thanjavur,Ooty,Coonoor,Mysore,Mangalore,Hubballi"
+    "b": "Idukki,Thodupuzha,Devikulam,Peerumedu,Udumbanchola,Kattappana,Kumily,Vandiperiyar,Chinnar,Marayoor,Munnar,Rajakkad,Santhanpara,Kanthalloor,Vattavada,Anakara,Adimali,Chithirapuram,Pallivasal,Munnar Colony,Rajamala,Lockhart Gap,Poopara,Rajamudy,Vagamon,Erattayar,Thopramkudy,Kunchithanny,Vellathooval",
+    "status": "COMPLETE"
   },
   {
     "name": "Myang Zhuang",
@@ -7899,7 +7911,8 @@ window.asiaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Nanning,Liuzhou,Baise,Qinzhou,Guilin,Fangchenggang,Chongzuo,Laibin,Hechi,Wuzhou,Guigang,Binyang,Hengzhou,Wuming,Shangsi,Fusui,Napo,Jingxi,Sayabury,DaHuoai,PaDaet,NaNoi,Long,TamNong,CheoReo,BaTri,MyangZhuangbari,PalliMyangZhuang,Bangkok,Chiang Mai,Chiang Rai,Phuket,Khon Kaen,Udon Thani,Hat Yai,Yulin,Lingshan,Tachilek,CaoBang,BuDang,PhanRang,BinhChanh,TraOn,Yongsheng,MyangZhuangpur,MyangZhuangnagar,MyangZhuangbad,MyangZhuangkot,MyangZhuangwada,MyangZhuangghat,MyangZhuangpalli,MyangZhuangkonda,MyangZhuangpeta,MyangZhuanguru,MyangZhuanguri,MyangZhuangooru,MyangZhuanggiri,NagarMyangZhuang,MyangZhuangganj,MyangZhuangbazar,MyangZhuangbandar,MyangZhuanggram"
+    "b": "Nanning,Liuzhou,Baise,Qinzhou,Guilin,Fangchenggang,Chongzuo,Laibin,Hechi,Wuzhou,Guigang,Binyang,Hengzhou,Wuming,Shangsi,Fusui,Napo,Jingxi,Longlin,Tianlin,Lingyun,Fengshan,Donglan,Bama,Du'an,Mashan,Longan,Ningming,Pingxiang,Tiandeng",
+    "status": "COMPLETE"
   },
   {
     "name": "Mymensinghi Bengali",
@@ -7908,7 +7921,8 @@ window.asiaNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Mymensingh,Dhaka,Chittagong,Rajshahi,Khulna,Sylhet,Barisal,Comilla,Bogra,Jessore,Brahmanbaria,Tangail,Narsingdi,Kushtia,Noakhali,Pabna,Netrokona,NaMuen,MuangSai,MymensinghiBengalibari,PalliMymensinghiBengali,Shillong,Imphal,Aizawl,Kohima,Gangtok,Darjeeling,Jamshedpur,Ranchi,Bhubaneswar,Visakhapatnam,Thiruvananthapuram,Madurai,Mysore,Mangalore,Nagpur,Indore,Bhopal,Delhi,Mumbai,Kolkata,Chennai,Bangalore,Pune,Jaipur,Rangpur,Dinajpur,Gazipur,Narayanganj,Faridpur,Jamalpur,Sherpur,Kishoreganj,Manikganj,Munshiganj,MongCai,DongPhu,BaoLoc,DucHoa,Wuwei,CangLong,LapVo,Lijiang,TuyAnh,GoCongTay,Mengla,ThuongDuc,Thoeng,MymensinghiBengalipur,MymensinghiBengalinagar,MymensinghiBengalibad,MymensinghiBengalikot,MymensinghiBengaliwada,MymensinghiBengalighat,MymensinghiBengalipalli,MymensinghiBengalikonda,MymensinghiBengalipeta,MymensinghiBengaliuru,MymensinghiBengaliuri,MymensinghiBengaliooru,MymensinghiBengaligiri,NagarMymensinghiBengali,MymensinghiBengaliganj,MymensinghiBengalibazar,MymensinghiBengalibandar,MymensinghiBengaligram"
+    "b": "Mymensingh,Jamalpur,Sherpur,Netrokona,Kishoreganj,Tangail,Manikganj,Munshiganj,Narsingdi,Gazipur,Dhaka,Narayanganj,Faridpur,Rajbari,Madaripur,Shariatpur,Gopalganj,Brahmanbaria,Comilla,Chandpur,Lakshmipur,Noakhali,Feni",
+    "status": "COMPLETE"
   },
   {
     "name": "Nachhiring",
@@ -7917,7 +7931,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Dhankuta,Khotang,Solukhumbu,Okhaldhunga,Ramechhap,Sindhuli,Kavre,Manthali,Chautara,Melamchi,Pakhribas,Muga,Hile,Leguwa,Rimhhu,Ghopa,NamBak,SongKhwae,RachGia,BienHoa,Nachhiringbari,PalliNachhiring,Shigatse,Gyantse,Nagqu,Nyingchi,Chamdo,Kangding,Shangri La,Tawang,Bomdila,Along,Bhojpur,Udayapur,Chainpur,CanDuoc,Tengchong,LongMy,LaiVung,Weixi,CungSon,MyTho,Bokeo,BaoLoc,Pong,NhonTrach,Nachhiringpur,Nachhiringnagar,Nachhiringbad,Nachhiringkot,Nachhiringwada,Nachhiringghat,Nachhiringpalli,Nachhiringkonda,Nachhiringpeta,Nachhiringooru,Nachhiringgiri,NagarNachhiring,Nachhiringganj,Nachhiringbazar,Nachhiringbandar,Nachhiringgram"
+    "b": "Dhankuta,Khotang,Solukhumbu,Okhaldhunga,Ramechhap,Sindhuli,Kavre,Manthali,Chautara,Melamchi,Pakhribas,Muga,Hile,Leguwa,Rimhhu,Ghopa,Bhojpur,Udayapur,Chainpur,Num,Khotang Bazaar,Diktel,Khidim,Patle,Khartamchha,Buipa,Suntale",
+    "status": "COMPLETE"
   },
   {
     "name": "Nagpuri",
@@ -7926,7 +7941,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Ranchi,Bokaro,Chaibasa,Simdega,Gumla,Latehar,Khunti,Giridih,Hazaribagh,Dumka,Deoghar,Godda,Jamtara,Pakur,Chatra,Lohardaga,Koderma,XamNeua,DaLat,Nagpuribari,Delhi,Mumbai,Kolkata,Chennai,Bangalore,Pune,Surat,Lucknow,Jaipur,Nagpur,Indore,Bhopal,Jamshedpur,Dhanbad,Sahebganj,Lushui,DakTo,ChauThanh,Thaton,DienBien,LaiUyen,BoKluea,SocTrang,ThuanAn,PakLay,TanHiep,TanThanh,Changning,Nagpuripur,Nagpurinagar,Nagpuribad,Nagpurikot,Nagpuriwada,Nagpurighat,Nagpuripalli,Nagpurikonda,Nagpuripeta,Nagpuriooru,Nagpurigiri,NagarNagpuri,Nagpuriganj,Nagpuribazar,Nagpuribandar,Nagpurigram,PalliNagpuri"
+    "b": "Ranchi,Bokaro,Chaibasa,Simdega,Gumla,Latehar,Khunti,Giridih,Hazaribagh,Dumka,Deoghar,Godda,Jamtara,Pakur,Chatra,Lohardaga,Koderma,Torpa,Karar,Kolebira,Bano,Kamdara,Basia,Palkot,Raidih,Chainpur,Bharno,Bishunpur,Ghaghra,Sisai,Bero,Angara,Namkum,Ormanjhi,Kanke,Bundu,Sonahatu,Rahe,Tamar",
+    "status": "COMPLETE"
   },
   {
     "name": "Naiki",
@@ -7935,7 +7951,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Nirmal,Mancherial,Wardha,Gadchiroli,Sironcha,Aheri,Bhamragad,Gondiya,Bhandara,Umred,Saoli,Chimur,Lucknow,Varanasi,Agra,Amritsar,Chandigarh,Dehradun,Shimla,Guwahati,Chennai,Coimbatore,Madurai,Tiruchirappalli,Salem,Tirunelveli,Vellore,Thoothukudi,Kanchipuram,Thanjavur,Ooty,Coonoor,Mysore,Mangalore,Hubballi,Adilabad,Asifabad,Chandrapur,Etapalli,Balaghat,Nagpur,Bhiwapur,Bramhapuri"
+    "b": "Nirmal,Mancherial,Wardha,Gadchiroli,Sironcha,Aheri,Bhamragad,Gondiya,Bhandara,Umred,Saoli,Chimur,Adilabad,Asifabad,Chandrapur,Etapalli,Balaghat,Nagpur,Bhiwapur,Bramhapuri,Mulchera,Korpana,Jiwati,Rajura,Chimur,Gondpipri,Pombhurna",
+    "status": "COMPLETE"
   },
   {
     "name": "Nanaic",
@@ -7944,7 +7961,8 @@ window.asiaNameBases = [
     "max": 19,
     "d": "lnrt",
     "m": 0,
-    "b": "Troitskoye,Komsomolsk-on-Amur,Nikolayevsk-on-Amur,Khabarovsk,Amursk,De-Kastri,Sofia,Vyatskoye,Innokentyevka,Jaroslavka,Sukpai,Dzhari,Mago,Tugur,Tukchi,Im,PhanThiet,ThanhBinh,ChiangSaen,ThongMySai,TanPhu,Nanaicbari,PalliNanaic,Karakol,Ulaanbaatar,Erdenet,Khovd,Yakutsk,Mirny,Neryungri,Tiksi,Kyzyl,Gorno-Altaysk,Ulan-Ude,Elista,Almaty,Ayan,Chumikan,Avlayakan,ThaPlatak,NhaBe,AoLuang,CauKe,Huaping,PhuThien,ChoLach,Puer,Pleiku,ChiangMuan,Nanaicpur,Nanaicnagar,Nanaicbad,Nanaickot,Nanaicwada,Nanaicghat,Nanaicpalli,Nanaickonda,Nanaicpeta,Nanaicooru,Nanaicgiri,NagarNanaic,Nanaicganj,Nanaicbazar,Nanaicbandar,Nanaicgram"
+    "b": "Troitskoye,Komsomolsk-on-Amur,Nikolayevsk-on-Amur,Khabarovsk,Amursk,De-Kastri,Sofia,Vyatskoye,Innokentyevka,Jaroslavka,Sukpai,Dzhari,Mago,Tugur,Tukchi,Im,Bolshekhekhtsir,Kazakevichevo,Sikachi-Alyan,Dzhuen,Achansk,Odzhal,Bolon,Kondon,Niukhcha,Uktur,Belgoi",
+    "status": "COMPLETE"
   },
   {
     "name": "Nantoq Baoan",
@@ -7953,7 +7971,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Xunhua,Hualong,Ledu,Minhe,Jianzha,Zeku,Tongde,Xinghai,Guide,Chaka,ViengPhoukha,DamHa,BinhPhuoc,ThaSongKorn,NantoqBaoanbari,Ulaanbaatar,Erdenet,Darkhan,Choibalsan,Khovd,Bayan-Olgii,Bulgan,Murun,Ulaangom,Altai,Bayanhongor,Mandalgovi,Dalanzadgad,Kharkhorin,Ulan-Ude,Irkutsk,Kyakhta,Hulunbuir,Jishishan,Pingan,Xining,Huangyuan,Datong,Tongren,Golmud,Dulan,Menyuan,Qilian,ViThanh,SaDec,ShangriLa,DongXuan,GoCongDong,Mohan,DaiLinh,Phayao,TrangBom,SantiSuk,TayNinh,NantoqBaoanpur,NantoqBaoannagar,NantoqBaoanbad,NantoqBaoankot,NantoqBaoanwada,NantoqBaoanghat,NantoqBaoanpalli,NantoqBaoankonda,NantoqBaoanpeta,NantoqBaoanuru,NantoqBaoanuri,NantoqBaoanooru,NantoqBaoangiri,NagarNantoqBaoan,NantoqBaoanganj,NantoqBaoanbazar,NantoqBaoanbandar,NantoqBaoangram,PalliNantoqBaoan"
+    "b": "Xunhua,Hualong,Ledu,Minhe,Jianzha,Zeku,Tongde,Xinghai,Guide,Chaka,Jishishan,Pingan,Xining,Huangyuan,Datong,Tongren,Golmud,Dulan,Menyuan,Qilian,Dawu,Maqên,Gandê,Zhidoi,Chindu,Nangqên",
+    "status": "COMPLETE"
   },
   {
     "name": "Nar Phu",
@@ -7962,7 +7981,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Nar,Nyak,Phu,Koto,Bhraga,Chame,Pisang,Tal,Dharapani,Timang,Bagarchhap,Manang,Khangsar,Mustang,Lo Manthang,Charang,Ghami,Tukuche,Marpha,CaiBe,DonDuong,Santikhiri,PakMong,Pua,NarPhubari,PalliNarPhu,Kangpur,Udomxai,PhuocAn,CaMau,ThuDauMot,Srinagarindra,ChauDoc,TanTru,Shidian,DongHa,CauKe,NarPhupur,NarPhunagar,NarPhubad,NarPhukot,NarPhuwada,NarPhughat,NarPhupalli,NarPhukonda,NarPhupeta,NarPhuuru,NarPhuuri,NarPhuooru,NarPhugiri,NagarNarPhu,NarPhuganj,NarPhubazar,NarPhubandar,NarPhugram"
+    "b": "Nar,Nyak,Phu,Koto,Bhraga,Chame,Pisang,Tal,Dharapani,Timang,Bagarchhap,Manang,Khangsar,Mustang,Lo Manthang,Charang,Ghami,Tukuche,Marpha,Jomsom,Kagbeni,Muktinath,Thorang,Thorang Phedi,Yak Kharka,Ledar",
+    "status": "COMPLETE"
   },
   {
     "name": "Negidal",
@@ -7971,7 +7991,8 @@ window.asiaNameBases = [
     "max": 19,
     "d": "lnrt",
     "m": 0,
-    "b": "Khabarovsk,Komsomolsk-on-Amur,Nikolayevsk-on-Amur,Amursk,De-Kastri,Sofia,Vyatskoye,Tynda,Zeya,Svobodny,Shimanovsk,Magdagachi,Skovorodino,Tygda,Gonzh,Mogocha,Chara,Neryungri,SopPrap,Kontum,Ximeng,Negidalbari,PalliNegidal,Nur-Sultan,Shymkent,Karaganda,Aktobe,Taraz,Tashkent,Samarkand,Bukhara,Fergana,Ashgabat,Mary,Turkmenabat,Dashoguz,Bishkek,Osh,Aldan,Chulman,SonLa,PhuGiao,Sapan,TraVinh,TanUyen,CaiLay,ChauDoc,Yunlong,ChauThanh,SaThay,GoCong,Phonsavan,Negidalpur,Negidalnagar,Negidalbad,Negidalkot,Negidalwada,Negidalghat,Negidalpalli,Negidalkonda,Negidalpeta,Negidalooru,Negidalgiri,NagarNegidal,Negidalganj,Negidalbazar,Negidalbandar,Negidalgram"
+    "b": "Khabarovsk,Komsomolsk-on-Amur,Nikolayevsk-on-Amur,Amursk,De-Kastri,Sofia,Vyatskoye,Tynda,Zeya,Svobodny,Shimanovsk,Magdagachi,Skovorodino,Tygda,Gonzh,Mogocha,Chara,Tynda,Zeya,Svobodny,Shimanovsk,Magdagachi,Skovorodino,Tygda,Gonzh,Mogocha,Chara",
+    "status": "COMPLETE"
   },
   {
     "name": "Nepalese English",
@@ -7980,7 +8001,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Kathmandu,Pokhara,Birgunj,Butwal,Nepalgunj,Dhangadhi,Hetauda,Bhimdatta,Ilam,Dhankuta,Sindhuli,Surkhet,Dang,Parbat,Solukhumbu,Dolakha,Mugu,Humla,Jumla,AyunPa,ChuPro,Sayabury,DaHuoai,PaDaet,NepaleseEnglishbari,PalliNepaleseEnglish,Lalitpur,Bharatpur,Biratnagar,Dharan,Janakpur,Bhojpur,HocMon,SobPrab,TamBinh,HongNgu,Heqing,GiongTrom,Lincang,Tachilek,CaoBang,BuDang,NepaleseEnglishpur,NepaleseEnglishnagar,NepaleseEnglishbad,NepaleseEnglishkot,NepaleseEnglishwada,NepaleseEnglishghat,NepaleseEnglishpalli,NepaleseEnglishkonda,NepaleseEnglishpeta,NepaleseEnglishuru,NepaleseEnglishuri,NepaleseEnglishooru,NepaleseEnglishgiri,NagarNepaleseEnglish,NepaleseEnglishganj,NepaleseEnglishbazar,NepaleseEnglishbandar,NepaleseEnglishgram"
+    "b": "Kathmandu,Pokhara,Birgunj,Butwal,Nepalgunj,Dhangadhi,Hetauda,Bhimdatta,Ilam,Dhankuta,Sindhuli,Surkhet,Dang,Parbat,Solukhumbu,Dolakha,Mugu,Humla,Jumla,Lalitpur,Bharatpur,Biratnagar,Dharan,Janakpur,Bhojpur,Taplejung,Panchthar,Terhathum,Sankhuwasabha,Bhojpur,Khotang,Okhaldhunga,Udayapur,Saptari,Siraha,Dhanusha,Mahottari,Sarlahi,Rautahat,Bara,Parsa,Chitwan,Makwanpur",
+    "status": "COMPLETE"
   },
   {
     "name": "Nihali",
@@ -7989,7 +8011,8 @@ window.asiaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Buldhana,Khamgaon,Chikhli,Deulgaon Raja,Jalgaon Jamod,Nandura,Shegaon,Akola,Barshitakli,Risod,Malegaon,Bhadgaon,Pachora,Chopda,Sangrampur,Malkapur,Akot,Balapur,Murtijapur"
+    "b": "Buldhana,Khamgaon,Chikhli,Deulgaon Raja,Jalgaon Jamod,Nandura,Shegaon,Akola,Barshitakli,Risod,Malegaon,Bhadgaon,Pachora,Chopda,Sangrampur,Malkapur,Akot,Balapur,Murtijapur,Mehkar,Lonar,Sindkhed Raja,Motal,Saikheda,Pimpalgaon Raja,Wasali,Dhad,Bhamarwadi",
+    "status": "COMPLETE"
   },
   {
     "name": "Nimadi",
@@ -7998,16 +8021,18 @@ window.asiaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Indore,Dhar,Khargone,Barwani,Jhabua,Neemuch,Mandsaur,Ratlam,Ujjain,Dewas,Rajgarh,Agar,Kannod,Manawar,Sendhwa,Maheshwar,Mandleshwar,DiLinh,DokKhamtai,Nateuy,BanLuang,Nimadibari,PalliNimadi,Delhi,Mumbai,Kolkata,Chennai,Bangalore,Pune,Surat,Lucknow,Jaipur,Alirajpur,Shajapur,Badnagar,LongKhanh,HaTien,BinhDuong,PhuKamYao,TanAn,CanDuoc,Tengchong,LongMy,LaiVung,Weixi,CungSon,Nimadipur,Nimadinagar,Nimadibad,Nimadikot,Nimadiwada,Nimadighat,Nimadipalli,Nimadikonda,Nimadipeta,Nimadiooru,Nimadigiri,NagarNimadi,Nimadiganj,Nimadibazar,Nimadibandar,Nimadigram"
+    "b": "Indore,Dhar,Khargone,Barwani,Jhabua,Neemuch,Mandsaur,Ratlam,Ujjain,Dewas,Rajgarh,Agar,Kannod,Manawar,Sendhwa,Maheshwar,Mandleshwar,Alirajpur,Shajapur,Badnagar,Sanawad,Burhanpur,Khandwa,Burhanpur,Khargone,Bhikangaon,Maheshwar,Mandleshwar,Kasrawad,Barwaha,Omkareshwar",
+    "status": "COMPLETE"
   },
-  {
+{
     "name": "Noakhailla",
     "i": 200399,
     "min": 4,
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Noakhali,Feni,Comilla,Brahmanbaria,Chittagong,Cox,Guangzhou's Bazar,Rangamati,Khagrachari,Maijdi,Ramu,Chowmuhani,Begumganj,Sonagazi,Fulgazi,Senbagh,Parshuram,BanKok,XamNeua,DaLat,Noakhaillapur,Noakhaillanagar,Noakhaillakot,Noakhaillawada,Noakhaillaghat,Noakhaillapalli,Noakhaillakonda,Noakhaillapeta,Noakhaillaooru,Noakhaillagiri,Noakhaillabari,Noakhaillaganj,Noakhaillabazar,Noakhaillabandar,Noakhaillagram,PalliNoakhailla,Lakshmipur,Chandpur,Cox's Bazar,Bandarban,Daganbhuiyan,ThaWangPha,BacLieu,DiAn,TanChau,ChauThanh,Baoshan,QuangTri,TieuCan,Lushui,DakTo,Thaton,DienBien,Noakhaillabad,NagarNoakhailla"
+    "b": "Noakhali,Feni,Comilla,Brahmanbaria,Chittagong,Cox's Bazar,Rangamati,Khagrachari,Maijdi,Ramu,Chowmuhani,Begumganj,Sonagazi,Fulgazi,Senbagh,Parshuram,Lakshmipur,Chandpur,Bandarban,Daganbhuiyan,Mirsharai,Sitakunda,Hathazari,Raozan,Boalkhali,Anwara,Patiya,Satkania",
+    "status": "COMPLETE"
   },
   {
     "name": "Nong Zhuang",
@@ -8016,7 +8041,8 @@ window.asiaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Nanning,Liuzhou,Baise,Qinzhou,Guilin,Fangchenggang,Chongzuo,Laibin,Hechi,Wuzhou,Guigang,Binyang,Hengzhou,Wuming,Shangsi,Fusui,Napo,Jingxi,CaiBe,IaGrai,MongLa,MuangKham,DanSim,WiangPaPao,NongZhuangbari,PalliNongZhuang,Bangkok,Chiang Mai,Chiang Rai,Phuket,Khon Kaen,Udon Thani,Hat Yai,Surat Thani,Phitsanulok,Yulin,Lingshan,TanChau,Eryuan,Pleiku,BenTre,Cangyuan,LaoCai,ChonThanh,NamPat,MyTho,NongZhuangpur,NongZhuangnagar,NongZhuangbad,NongZhuangkot,NongZhuangwada,NongZhuangghat,NongZhuangpalli,NongZhuangkonda,NongZhuangpeta,NongZhuanguru,NongZhuanguri,NongZhuangooru,NongZhuanggiri,NagarNongZhuang,NongZhuangganj,NongZhuangbazar,NongZhuangbandar,NongZhuanggram"
+    "b": "Nanning,Liuzhou,Baise,Qinzhou,Guilin,Fangchenggang,Chongzuo,Laibin,Hechi,Wuzhou,Guigang,Binyang,Hengzhou,Wuming,Shangsi,Fusui,Napo,Jingxi,Longlin,Tianlin,Lingyun,Fengshan,Donglan,Bama,Du'an,Mashan,Longan,Ningming,Pingxiang,Tiandeng",
+    "status": "COMPLETE"
   },
   {
     "name": "Nonni Dagur",
@@ -8025,7 +8051,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Nehe,Bei'an,Keshiketeng,Zhalantun,Hulunbuir,Mangui,Tahe,Jiagedaqi,Huzhong,Huma,Xunke,Sunwu,BaTri,DucCo,MaeSai,PakLai,CatTien,WiangChai,LangSon,PhanThiet,ThanhBinh,NonniDagurpur,NonniDagurnagar,NonniDagurbad,NonniDagurkot,NonniDagurwada,NonniDagurghat,NonniDagurpalli,NonniDagurkonda,NonniDagurpeta,NonniDagururu,NonniDagururi,NonniDagurooru,NonniDagurgiri,NonniDagurbari,NonniDagurganj,NonniDagurbazar,NonniDagurbandar,NonniDagurgram,PalliNonniDagur,Morin Dawa,Qiqihar,Heihe,Nenjiang,Yakeshi,Manzhouli,Ergun,Genhe,Shuangjiang,BuDop,ThaPlatak,NhaBe,AoLuang,CauKe,NagarNonniDagur"
+    "b": "Nehe,Bei'an,Keshiketeng,Zhalantun,Hulunbuir,Mangui,Tahe,Jiagedaqi,Huzhong,Huma,Xunke,Sunwu,Morin Dawa,Qiqihar,Heihe,Nenjiang,Yakeshi,Manzhouli,Ergun,Genhe,Shuangjiang,Arong Banner,Oroqen Banner,Evenk Banner,Zhalantun,Arong",
+    "status": "COMPLETE"
   },
   {
     "name": "North Moluccan Malay",
@@ -8034,7 +8061,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Ternate,Tidore,Halmahera,Sofifi,Galela,Tobelo,Sulawesi,Manado,Bitung,Gorontalo,Kwandang,Sawah,Bolok,Piru,Saparua,Ambon,Tual,Kei,Banda,Saumlaki,MuangSai,MaeCharim,TienYen,BinhLong,PongPrasat,DongXoai,NorthMoluccanMalaybari,PalliNorthMoluccanMalay,Makassar,Denpasar,XuanLoc,DucHue,Yongchang,ViThanh,SaDec,ShangriLa,DongXuan,GoCongDong,Mohan,NorthMoluccanMalaypur,NorthMoluccanMalaynagar,NorthMoluccanMalaybad,NorthMoluccanMalaykot,NorthMoluccanMalaywada,NorthMoluccanMalayghat,NorthMoluccanMalaypalli,NorthMoluccanMalaykonda,NorthMoluccanMalaypeta,NorthMoluccanMalayuru,NorthMoluccanMalayuri,NorthMoluccanMalayooru,NorthMoluccanMalaygiri,NagarNorthMoluccanMalay,NorthMoluccanMalayganj,NorthMoluccanMalaybazar,NorthMoluccanMalaybandar,NorthMoluccanMalaygram"
+    "b": "Ternate,Tidore,Halmahera,Sofifi,Galela,Tobelo,Morotai,Maba,Buli,Weda,Bicoli,Gane,Kayoa,Makian,Moti,Tidore,Ternate,Bacan,Kasiruta,ObI,Obi,Patani,Maba,Sao",
+    "status": "COMPLETE"
   },
   {
     "name": "Northern Khalkha",
@@ -8043,7 +8071,8 @@ window.asiaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Ulaanbaatar,Erdenet,Mörön,Ulaangom,Khovd,Ölgii,Bayankhongor,Arvaikheer,Sükhbaatar,Tsetserleg,Altai,Zuunmod,Nalaikh,Chinggis City,Songino,Baganuur,Öndörkhaan,BienHoa,SiNakharin,LongXuyen,Longling,ChuSe,CaiBe,DonDuong,Santikhiri,PakMong,NorthernKhalkhabari,PalliNorthernKhalkha,Darkhan,Choibalsan,Bulgan,CanGiuoc,KienGiang,TraVinh,Gongshan,Udomxai,PhuocAn,NorthernKhalkhapur,NorthernKhalkhanagar,NorthernKhalkhabad,NorthernKhalkhakot,NorthernKhalkhawada,NorthernKhalkhaghat,NorthernKhalkhapalli,NorthernKhalkhakonda,NorthernKhalkhapeta,NorthernKhalkhauru,NorthernKhalkhauri,NorthernKhalkhaooru,NorthernKhalkhagiri,NagarNorthernKhalkha,NorthernKhalkhaganj,NorthernKhalkhabazar,NorthernKhalkhabandar,NorthernKhalkhagram"
+    "b": "Ulaanbaatar,Erdenet,Mörön,Ulaangom,Khovd,Ölgii,Bayankhongor,Arvaikheer,Sükhbaatar,Tsetserleg,Altai,Zuunmod,Nalaikh,Chinggis City,Songino,Baganuur,Öndörkhaan,Darkhan,Choibalsan,Bulgan,Dalanzadgad,Mandalgovi,Uliastai,Kharkhorin,Tsetserleg,Arvaikheer,Bayankhongor,Morön,Ulaangom",
+    "status": "COMPLETE"
   },
   {
     "name": "Northern Tai",
@@ -8052,7 +8081,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "He Kou,Yuanjiang,Simao,Jiangcheng,Longling,XiengKhouang,Prem,Fang,SopPrap,NorthernTaibari,PalliNorthernTai,Bangkok,Chiang Mai,Chiang Rai,Phuket,Khon Kaen,Udon Thani,Hat Yai,Surat Thani,Phitsanulok,Nakhon Ratchasima,Nakhon Sawan,Chonburi,Lampang,Lamphun,Sukhothai,Kanchanaburi,Ratchaburi,Krabi,Trang,Mae Sot,Nong Khai,Sakon Nakhon,Roi Et,Buriram,Kunming,Yuxi,Qujing,Wenshan,Mengzi,Gejiu,Kaiyuan,Honghe,Jinghong,Baoshan,Tengchong,Changning,Shidian,Lianghe,Longchuan,Changning,ALuoi,CangLong,Menglian,NgocHoi,TanPhuoc,SonLa,PhuGiao,Sapan,TraVinh,TanUyen,NorthernTaipur,NorthernTainagar,NorthernTaibad,NorthernTaikot,NorthernTaiwada,NorthernTaighat,NorthernTaipalli,NorthernTaikonda,NorthernTaipeta,NorthernTaiuru,NorthernTaiuri,NorthernTaiooru,NorthernTaigiri,NagarNorthernTai,NorthernTaiganj,NorthernTaibazar,NorthernTaibandar,NorthernTaigram"
+    "b": "He Kou,Yuanjiang,Simao,Jiangcheng,Longling,XiengKhouang,Prem,Fang,SopPrap,Mengla,Jinghong,Menghai,Menghun,Mohan,Ganlanba,Xishuangbanna,Pu'er,Lancang,Menglian,Zhenyuan,Jinggu,Ning'er,Simao,Jiangcheng",
+    "status": "COMPLETE"
   },
   {
     "name": "Northern Thai",
@@ -8061,7 +8091,8 @@ window.asiaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Chiang Mai,Chiang Rai,Lampang,Lamphun,Nan,Phayao,Mae Hong Son,Chiang Dao,Fang,Tha Ton,San Kamphaeng,Hang Dong,Mae Rim,Hot,Doi Saket,Samoeng,Chom Thong,San Sai,NorthernThaibari,PalliNorthernThai,Vientiane,Luang Prabang,Kuala Lumpur,George Town,Johor Bahru,Kota Kinabalu,Kuching,Jakarta,Surabaya,Bandung,Yogyakarta,NorthernThaipur,NorthernThainagar,NorthernThaibad,NorthernThaikot,NorthernThaiwada,NorthernThaighat,NorthernThaipalli,NorthernThaikonda,NorthernThaipeta,NorthernThaiuru,NorthernThaiuri,NorthernThaiooru,NorthernThaigiri,NagarNorthernThai,NorthernThaiganj,NorthernThaibazar,NorthernThaibandar,NorthernThaigram"
+    "b": "Chiang Mai,Chiang Rai,Lampang,Lamphun,Nan,Phayao,Mae Hong Son,Chiang Dao,Fang,Tha Ton,San Kamphaeng,Hang Dong,Mae Rim,Hot,Doi Saket,Samoeng,Chom Thong,San Sai,Mae Ai,Phrao,Wiang Haeng,Chiang Khong,Wiang Chiang Khong,Mae Sai,Mae Chan,Mae Suai,Pa Sang",
+    "status": "COMPLETE"
   },
   {
     "name": "Northern Tungusic",
@@ -8070,7 +8101,8 @@ window.asiaNameBases = [
     "max": 19,
     "d": "lnrt",
     "m": 0,
-    "b": "Khabarovsk,Komsomolsk-on-Amur,Nikolayevsk-on-Amur,Tynda,Zeya,Svobodny,Shimanovsk,Magdagachi,Skovorodino,Tygda,Mogocha,Chara,Ust-Nera,Oymyakon,Tommot,Lensk,Vilyuysk,QuangNinh,PhuocLong,RongKwang,DaLat,CanGio,TalokMuh,ChiangKhlong,NorthernTungusicbari,PalliNorthernTungusic,Ulaanbaatar,Erdenet,Khovd,Neryungri,Chulman,Aldan,ChiangMuan,TieuCan,CaoLanh,Ninglang,SongCau,ChoGao,Jinghong,PhuNhon,NorthernTungusicpur,NorthernTungusicnagar,NorthernTungusicbad,NorthernTungusickot,NorthernTungusicwada,NorthernTungusicghat,NorthernTungusicpalli,NorthernTungusickonda,NorthernTungusicpeta,NorthernTungusicuru,NorthernTungusicuri,NorthernTungusicooru,NorthernTungusicgiri,NagarNorthernTungusic,NorthernTungusicganj,NorthernTungusicbazar,NorthernTungusicbandar,NorthernTungusicgram"
+    "b": "Khabarovsk,Komsomolsk-on-Amur,Nikolayevsk-on-Amur,Tynda,Zeya,Svobodny,Shimanovsk,Magdagachi,Skovorodino,Tygda,Mogocha,Chara,Ust-Nera,Oymyakon,Tommot,Lensk,Vilyuysk,Nerungri,Chulman,Aldan,Yakutsk,Mirny,Neryungri,Ust-Maya,Ust-Yansk",
+    "status": "COMPLETE"
   },
   {
     "name": "Nung Tai",
@@ -8079,7 +8111,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Jingping,Jiangcheng,Ninger,Mojiang,Yuanjiang,Xinping,Simao,SonHoa,LuangNamtha,DiLinh,DokKhamtai,Nateuy,BanLuang,NungTaibari,PalliNungTai,Shigatse,Gyantse,Nagqu,Nyingchi,Chamdo,Kangding,Shangri La,Tawang,Bomdila,Along,Yingkiong,Basar,Kokrajhar,Guwahati,Dibrugarh,Tinsukia,Dimapur,Hekou,Mengzi,Guangnan,Funing,Malipo,Mengla,Jinping,Yuanyang,Luchun,Shuangjiang,Longchuan,Ruili,Jinghong,TayNinh,BenLuc,Lianghe,NgaBay,ChauThanh,Deqin,TanPhuoc,LongKhanh,HaTien,NungTaipur,NungTainagar,NungTaibad,NungTaikot,NungTaiwada,NungTaighat,NungTaipalli,NungTaikonda,NungTaipeta,NungTaiuru,NungTaiuri,NungTaiooru,NungTaigiri,NagarNungTai,NungTaiganj,NungTaibazar,NungTaibandar,NungTaigram"
+    "b": "Jingping,Jiangcheng,Ninger,Mojiang,Yuanjiang,Xinping,Simao,Hekou,Mengzi,Guangnan,Funing,Malipo,Mengla,Jinping,Yuanyang,Luchun,Shuangjiang,Longchuan,Ruili,Jinghong,Lvchun,Honghe,Jinping,Maguan,Wenshan,Qiubei,Yanshan",
+    "status": "COMPLETE"
   },
   {
     "name": "Nyah Kur",
@@ -8088,7 +8121,8 @@ window.asiaNameBases = [
     "max": 17,
     "d": "lnrt",
     "m": 0,
-    "b": "Chaiyaphum,Phetchabun,Khon Kaen,Nakhon Ratchasima,Buriram,Surin,Sisaket,Ubon Ratchathani,Yasothon,Kaset Wisai,Khu Mueang,Nong Bua Daeng,Bamnet Narong,Thep Sathit,Nong Bua Rawe,Pak Thong Chai,Prachantakham,Bua Yai,Lom Sak,Bangkok,Chiang Mai,Chiang Rai,Phuket,Udon Thani,Hat Yai,Surat Thani,Phitsanulok,Nakhon Sawan,Chonburi,Lampang,Lamphun,Sukhothai,Kanchanaburi,Ratchaburi,Krabi,Kabin Buri"
+    "b": "Chaiyaphum,Phetchabun,Khon Kaen,Nakhon Ratchasima,Buriram,Surin,Sisaket,Ubon Ratchathani,Yasothon,Kaset Wisai,Khu Mueang,Nong Bua Daeng,Bamnet Narong,Thep Sathit,Nong Bua Rawe,Pak Thong Chai,Prachantakham,Bua Yai,Lom Sak,Chatturat,Phu Khiao,Kaeng Khro,Khon San,Phakdi Chumphon,Wichian Buri,Sap Yai,Nong Phai,Mancha Khiri",
+    "status": "COMPLETE"
   },
   {
     "name": "Nyaheun",
@@ -8097,7 +8131,8 @@ window.asiaNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Champasak,Tad Lo,Thateng,Paksong,Saravane,Sanamxay,Lao Ngam,Pathoumphone,Soukhouma,Bachiang,Phonthong,Dak Cheung,Ta Oy,ChaiPrakarn,BauBang,BenCat,KoKha,CaiBe,IaGrai,Nyaheunbari,PalliNyaheun,Pakse,Salavan,Sekong,Attapeu,Muan,Lamam,Kaleum,Phonsavan,Dran,LaiChau,Sangkha,BenTre,TanChau,Eryuan,Pleiku,Cangyuan,Nyaheunpur,Nyaheunnagar,Nyaheunbad,Nyaheunkot,Nyaheunwada,Nyaheunghat,Nyaheunpalli,Nyaheunkonda,Nyaheunpeta,Nyaheunooru,Nyaheungiri,NagarNyaheun,Nyaheunganj,Nyaheunbazar,Nyaheunbandar,Nyaheungram"
+    "b": "Champasak,Tad Lo,Thateng,Paksong,Saravane,Sanamxay,Lao Ngam,Pathoumphone,Soukhouma,Bachiang,Phonthong,Dak Cheung,Ta Oy,Pakse,Salavan,Sekong,Attapeu,Muan,Lamam,Kaleum,Phonsavan,Dran,LaiChau,Sangkha,Khong,Khong Sedone,Mounlapamok,Khong Chiam,Sirindhorn",
+    "status": "COMPLETE"
   },
   {
     "name": "Oadki",
@@ -8106,7 +8141,8 @@ window.asiaNameBases = [
     "max": 14,
     "d": "lnrt",
     "m": 0,
-    "b": "Sukkur,Larkana,Nawabshah,Mirpur Khas,Dadu,Badin,Thatta,Sanghar,Mithi,Tando Allahyar,Tando Adam,Matli,Sakrand,Ghotki,Kashmor,Rohri,NaNoi,Long,TamNong,CheoReo,BaTri,DucCo,MaeSai,PakLai,CatTien,Oadkibari,PalliOadki,Hyderabad,Khairpur,Umarkot,Shikarpur,BuDang,PhanRang,BinhChanh,TraOn,Yongsheng,Shuangjiang,Oadkipur,Oadkinagar,Oadkibad,Oadkikot,Oadkiwada,Oadkighat,Oadkipalli,Oadkikonda,Oadkipeta,Oadkiooru,Oadkigiri,NagarOadki,Oadkiganj,Oadkibazar,Oadkibandar,Oadkigram"
+    "b": "Sukkur,Larkana,Nawabshah,Mirpur Khas,Dadu,Badin,Thatta,Sanghar,Mithi,Tando Allahyar,Tando Adam,Matli,Sakrand,Ghotki,Kashmor,Rohri,Hyderabad,Khairpur,Umarkot,Shikarpur,Jacobabad,Kashmore,Kandhkot,Thul,Garhi Khairo,Mehar,Johi,Khairpur Nathan Shah",
+    "status": "COMPLETE"
   },
   {
     "name": "Odia",
@@ -8308,14 +8344,15 @@ window.asiaNameBases = [
     "b": "Khagrachari,Rangamati,Dighinala,Panchari,Matiranga,Ramu,Jarachari,Manikchari,Lakshmichari,Mohalchari,Guimara,Bilaichari,Chandhraghona,Sajek,Ruishil,Barkal,Alutila,Bangalhalia",
     "status": "WAITING"
   },
-  {
+{
     "name": "Pashto, Northern",
     "i": 200431,
     "min": 4,
     "max": 14,
     "d": "lnrt",
     "m": 0,
-    "b": "Peshawar,Kabul,Kandahar,Mazar-i-Sharif,Kunduz,Ghazni,Herat,Swat,Khost,Gardez,Mehtar Lam,Charikar,Puli Khumri,Sar-e Pol,Maymana,DucTrong,MaeFaLuang,ChiangHai,BanKok,PashtoNorthernbari,PalliPashtoNorthern,Baghdad,Basra,Mosul,Erbil,Damascus,Aleppo,Homs,Beirut,Tripoli,Sidon,Tyre,Jerusalem,Tel Aviv,Haifa,Riyadh,Jeddah,Mecca,Medina,Dammam,Jalalabad,Mardan,Asadabad,Sheberghan,Feyzabad,LaiThieu,ThaWangPha,BacLieu,DiAn,TanChau,ChauThanh,Baoshan,QuangTri,TieuCan,Lushui,DakTo,PashtoNorthernpur,PashtoNorthernnagar,PashtoNorthernbad,PashtoNorthernkot,PashtoNorthernwada,PashtoNorthernghat,PashtoNorthernpalli,PashtoNorthernkonda,PashtoNorthernpeta,PashtoNorthernuru,PashtoNorthernuri,PashtoNorthernooru,PashtoNortherngiri,NagarPashtoNorthern,PashtoNorthernganj,PashtoNorthernbazar,PashtoNorthernbandar,PashtoNortherngram"
+    "b": "Peshawar,Mardan,Swat,Charsadda,Nowshera,Dir,Chitral,Malakand,Buner,Shangla,Kohistan,Battagram,Torghar,Mansehra,Abbottabad,Haripur,Kohat,Hangu,Karak,Lakki Marwat,Bannu,Dera Ismail Khan,Tank,South Waziristan,North Waziristan,Kurram,Orakzai,Khyber,Mohmand,Bajaur",
+    "status": "COMPLETE"
   },
   {
     "name": "Pashto, Southern",
@@ -8324,7 +8361,8 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Kandahar,Quetta,Peshawar,Spin Boldak,Killa Abdullah,Pishin,Ziarat,Harnai,Mastung,Kalat,Khuzdar,Dera Ismail Khan,Tank,Zhob,Loralai,Duki,Muslim Bagh,Sibi,Chagai,BenCat,KoKha,CaiBe,IaGrai,MongLa,MuangKham,DanSim,WiangPaPao,PashtoSouthernbari,PalliPashtoSouthern,Sana'a,Aden,Taiz,Manama,Doha,Muscat,Salalah,Nizwa,Dubai,Abu Dhabi,Sharjah,Kuwait City,Cairo,Alexandria,Luxor,Baghdad,Basra,Chaman,Sangkha,BenTre,TanChau,Eryuan,Pleiku,Cangyuan,LaoCai,PashtoSouthernpur,PashtoSouthernnagar,PashtoSouthernbad,PashtoSouthernkot,PashtoSouthernwada,PashtoSouthernghat,PashtoSouthernpalli,PashtoSouthernkonda,PashtoSouthernpeta,PashtoSouthernuru,PashtoSouthernuri,PashtoSouthernooru,PashtoSoutherngiri,NagarPashtoSouthern,PashtoSouthernganj,PashtoSouthernbazar,PashtoSouthernbandar,PashtoSoutherngram"
+    "b": "Kandahar,Quetta,Pishin,Ziarat,Harnai,Mastung,Kalat,Khuzdar,Dera Ismail Khan,Tank,Zhob,Loralai,Duki,Muslim Bagh,Sibi,Chagai,Chaman,Spin Boldak,Killa Abdullah,Barkhan,Musa Khel,Ziarat,Harnai,Sanjavi,Zhob,Sherani,Musakhel,Barkhan",
+    "status": "COMPLETE"
   },
   {
     "name": "Pattapu",
@@ -8333,7 +8371,8 @@ window.asiaNameBases = [
     "max": 15,
     "d": "lnrt",
     "m": 0,
-    "b": "Nellore,Kavali,Kovur,Kavur,Atmakur,Gudur,Buchireddipalem,Sangam,Jaladanki,Chejarla,Podalakur,Marripadu,Seetharamapuram,Vakadu,Momidi,Chennai,Coimbatore,Madurai,Tiruchirappalli,Salem,Tirunelveli,Vellore,Thoothukudi,Kanchipuram,Thanjavur,Ooty,Coonoor,Mysore,Mangalore,Hubballi,Belagavi,Davangere,Shivamogga,Udupi,Hassan,Rapur,Venkatagiri,Sullurpeta,Naidupeta,Balayapalli"
+    "b": "Nellore,Kavali,Kovur,Kavur,Atmakur,Gudur,Buchireddipalem,Sangam,Jaladanki,Chejarla,Podalakur,Marripadu,Seetharamapuram,Vakadu,Momidi,Rapur,Venkatagiri,Sullurpeta,Naidupeta,Balayapalli,Allur,Kodavalur,Dagadarthi,Kavali,Atmakur,Chejerla,Vakadu,Manubolu",
+    "status": "COMPLETE"
   },
   {
     "name": "Pear",
@@ -8342,7 +8381,8 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Jakarta,Singapore,Dhaka,Colombo,Kathmandu,Thimphu,Karachi,Mumbai,Delhi,Chennai,Kolkata,Lahore,Pune,Surat,Lucknow,Indore,Patna,Bhopal,Chandigarh,MuangSai,MaeCharim,TienYen,BinhLong,PongPrasat,DongXoai,Pearbari,PalliPear,Shigatse,Gyantse,Nagqu,Nyingchi,Chamdo,Kangding,Bangkok,Manila,Kuala Lumpur,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Islamabad,Hyderabad,Bengaluru,Ahmedabad,Jaipur,Kanpur,GoCongTay,Mengla,ThuongDuc,Thoeng,XuanLoc,DucHue,Yongchang,ViThanh,SaDec,Pearpur,Pearnagar,Pearbad,Pearkot,Pearwada,Pearghat,Pearpalli,Pearkonda,Pearpeta,Pearooru,Peargiri,NagarPear,Pearganj,Pearbazar,Pearbandar,Peargram"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Pengo",
@@ -8351,7 +8391,8 @@ window.asiaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Koraput,Jeypore,Rayagada,Parlakhemundi,Boriguma,Potangi,Semiliguda,Mathili,Kodinga,Bissamcuttack,Kundra,Kosagumda,NamBak,SongKhwae,RachGia,BienHoa,SiNakharin,LongXuyen,Longling,ChuSe,CaiBe,Pengobari,PalliPengo,Chennai,Coimbatore,Madurai,Tiruchirappalli,Salem,Tirunelveli,Vellore,Thoothukudi,Kanchipuram,Thanjavur,Ooty,Coonoor,Nabarangpur,Nowrangpur,Gunupur,Kashinagar,Malkangiri,Dabugan,Kashipur,Kumudapalli,NhonTrach,CanGiuoc,KienGiang,TraVinh,Gongshan,Udomxai,Pengopur,Pengonagar,Pengobad,Pengokot,Pengowada,Pengoghat,Pengopalli,Pengokonda,Pengopeta,Pengoooru,Pengogiri,NagarPengo,Pengoganj,Pengobazar,Pengobandar,Pengogram"
+    "b": "Koraput,Jeypore,Rayagada,Parlakhemundi,Boriguma,Potangi,Semiliguda,Mathili,Kodinga,Bissamcuttack,Kundra,Kosagumda,Nabarangpur,Nowrangpur,Gunupur,Kashinagar,Malkangiri,Dabugan,Kashipur,Kumudapalli,Chitrakonda,Motu,Orkel,Padwa",
+    "status": "COMPLETE"
   },
   {
     "name": "Phake",
@@ -8360,7 +8401,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Namsai,Chowkham,Tezu,Roing,Wakro,Sunpura,Hayatuli,Miao,Changlang,Kharsang,Nampong,Bordumsa,Manmao,Kheti,New Namphai,Bisa Khonsa,Kahong,Delhi,Mumbai,Kolkata,Chennai,Bangalore,Pune,Surat,Lucknow,Jaipur,Nagpur,Indore,Bhopal,Patna,Ludhiana,Agra,Jairampur,Rangsajan,Gandhigram"
+    "b": "Namsai,Chowkham,Tezu,Roing,Wakro,Sunpura,Hayatuli,Miao,Changlang,Kharsang,Nampong,Bordumsa,Manmao,Kheti,New Namphai,Bisa Khonsa,Kahong,Jairampur,Rangsajan,Gandhigram,Wakro,Sunpura,Hayatuli,Miao,Changlang",
+    "status": "COMPLETE"
   },
   {
     "name": "Phu Thai",
@@ -8369,7 +8411,8 @@ window.asiaNameBases = [
     "max": 15,
     "d": "lnrt",
     "m": 0,
-    "b": "Nakhon Phanom,Sakon Nakhon,Kalasin,Udon Thani,Khon Kaen,Loei,Nong Khai,Bueng Kan,Nong Bua Lamphu,That Phanom,Na Kae,Renu Nakhon,Pla Pak,Waritchaphum,Akat Amnuai,Phanna Nikhom,Khamcha-i,Na Wa,AnKhe,MoCay,ChuPah,KengTung,Xaisomboun,DaTeh,MaeSuay,HaGiang,LocNinh,PhuThaibari,PalliPhuThai,Palembang,Makassar,Denpasar,Bangkok,Chiang Mai,Phuket,Mukdahan,Kusuman,Jianchuan,Gengma,ThungChang,GoCong,HocMon,SobPrab,PhuThaipur,PhuThainagar,PhuThaibad,PhuThaikot,PhuThaiwada,PhuThaighat,PhuThaipalli,PhuThaikonda,PhuThaipeta,PhuThaiuru,PhuThaiuri,PhuThaiooru,PhuThaigiri,NagarPhuThai,PhuThaiganj,PhuThaibazar,PhuThaibandar,PhuThaigram"
+    "b": "Nakhon Phanom,Sakon Nakhon,Kalasin,Udon Thani,Khon Kaen,Loei,Nong Khai,Bueng Kan,Nong Bua Lamphu,That Phanom,Na Kae,Renu Nakhon,Pla Pak,Waritchaphum,Akat Amnuai,Phanna Nikhom,Khamcha-i,Na Wa,Mukdahan,Kusuman,Mukdahan,Don Tan,Phu Thai,Kamcha-i",
+    "status": "COMPLETE"
   },
   {
     "name": "Phuan",
@@ -8378,7 +8421,8 @@ window.asiaNameBases = [
     "max": 24,
     "d": "lnrt",
     "m": 0,
-    "b": "Phra Nakhon Si Ayutthaya,Ang Thong,Chainat,Nakhon Nayok,Chachoengsao,Nakhon Ratchasima,Phetchabun,Phitsanulok,Uttaradit,Sukhothai,Kamphaeng Phet,Tak,Nakhon Sawan,Uthai Thani,Nakhon Phanom,ChiangSaen,ThongMySai,TanPhu,QuangNinh,PhuocLong,RongKwang,DaLat,CanGio,TalokMuh,Phuanbari,Bangkok,Chiang Mai,Chiang Rai,Phuket,Khon Kaen,Udon Thani,Hat Yai,Lopburi,Saraburi,Suphanburi,Singburi,Prachinburi,Pleiku,ChiangMuan,TieuCan,CaoLanh,Ninglang,SongCau,Phuanpur,Phuannagar,Phuanbad,Phuankot,Phuanwada,Phuanghat,Phuanpalli,Phuankonda,Phuanpeta,Phuanooru,Phuangiri,NagarPhuan,Phuanganj,Phuanbazar,Phuanbandar,Phuangram,PalliPhuan"
+    "b": "Phra Nakhon Si Ayutthaya,Ang Thong,Chainat,Nakhon Nayok,Chachoengsao,Nakhon Ratchasima,Phetchabun,Phitsanulok,Uttaradit,Sukhothai,Kamphaeng Phet,Tak,Nakhon Sawan,Uthai Thani,Nakhon Phanom,ChiangSaen,ThongMySai,TanPhu,QuangNinh,PhuocLong,RongKwang,DaLat,CanGio,TalokMuh,Phuanbari,Bangkok,Chiang Mai,Chiang Rai,Phuket,Khon Kaen,Udon Thani,Hat Yai,Lopburi,Saraburi,Suphanburi,Singburi,Prachinburi,Pleiku,ChiangMuan,TieuCan,CaoLanh,Ninglang,SongCau,Phuanpur,Phuannagar,Phuanbad,Phuankot,Phuanwada,Phuanghat,Phuanpalli,Phuankonda,Phuanpeta,Phuanooru,Phuangiri,NagarPhuan,Phuanganj,Phuanbazar,Phuanbandar,Phuangram,PalliPhuan",
+    "status": "COMPLETE"
   },
   {
     "name": "Portugis",
@@ -8387,7 +8431,8 @@ window.asiaNameBases = [
     "max": 14,
     "d": "lnrt",
     "m": 0,
-    "b": "Batavia,Jakarta,Tangerang,Bogor,Depok,Bekasi,Semarang,Surabaya,Kupang,Larantuka,Maumere,Ende,Sikka,Werang,Kalabahi,Atapupu,Dili,Baucau,Viqueque,Manatuto,Maubara,Ermera,Ainaro,Same,Pante Macassar,Oecusse,DamHa,BinhPhuoc,ThaSongKorn,SonHoa,LuangNamtha,DiLinh,DokKhamtai,Portugisbari,PalliPortugis,SantiSuk,TayNinh,BenLuc,Lianghe,NgaBay,ChauThanh,Deqin,TanPhuoc,Portugispur,Portugisnagar,Portugisbad,Portugiskot,Portugiswada,Portugisghat,Portugispalli,Portugiskonda,Portugispeta,Portugisooru,Portugisgiri,NagarPortugis,Portugisganj,Portugisbazar,Portugisbandar,Portugisgram"
+    "b": "Batavia,Jakarta,Tangerang,Bogor,Depok,Bekasi,Semarang,Surabaya,Kupang,Larantuka,Maumere,Ende,Sikka,Werang,Kalabahi,Atapupu,Dili,Baucau,Viqueque,Manatuto,Maubara,Ermera,Ainaro,Same,Pante Macassar,Oecusse",
+    "status": "COMPLETE"
   },
   {
     "name": "Proto-Ainu",
@@ -8396,7 +8441,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Sapporo,Abashiri,Wakkanai,Obihiro,Kushiro,Kitami,Asahikawa,Hakodate,Otaru,Tomakomai,Nayoro,Nemuro,Shibetsu,Shari,Mombetsu,Rumoi,Fukagawa,Takikawa,Iwamizawa,DucTrong,MaeFaLuang,ChiangHai,ProtoAinubari,PalliProtoAinu,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Kobe,Fukuoka,Kawasaki,Hiroshima,Sendai,Kitakyushu,Muroran,ChauDoc,TanTru,Shidian,DongHa,CauKe,Fugong,DakDoa,CaiLay,Phongsali,LaiThieu,ThaWangPha,BacLieu,ProtoAinupur,ProtoAinunagar,ProtoAinubad,ProtoAinukot,ProtoAinuwada,ProtoAinughat,ProtoAinupalli,ProtoAinukonda,ProtoAinupeta,ProtoAinuuru,ProtoAinuuri,ProtoAinuooru,ProtoAinugiri,NagarProtoAinu,ProtoAinuganj,ProtoAinubazar,ProtoAinubandar,ProtoAinugram"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Proto-Austroasiatic",
@@ -8405,7 +8451,8 @@ window.asiaNameBases = [
     "max": 17,
     "d": "lnrt",
     "m": 0,
-    "b": "Haiphong,Ximeng,ChaiPrakarn,BauBang,BenCat,KoKha,CaiBe,ProtoAustroasiaticbari,PalliProtoAustroasiatic,Bangkok,Hanoi,Vientiane,Phnom Penh,Yangon,Chiang Mai,Kunming,Da Nang,Hue,Manila,Siem Reap,Chiang Rai,Mandalay,Nakhon Ratchasima,Luang Prabang,My Tho,Takeo,Battambang,Siem Pang,ChauThanh,SaThay,GoCong,Phonsavan,Dran,LaiChau,Sangkha,BenTre,TanChau,ProtoAustroasiaticpur,ProtoAustroasiaticnagar,ProtoAustroasiaticbad,ProtoAustroasiatickot,ProtoAustroasiaticwada,ProtoAustroasiaticghat,ProtoAustroasiaticpalli,ProtoAustroasiatickonda,ProtoAustroasiaticpeta,ProtoAustroasiaticuru,ProtoAustroasiaticuri,ProtoAustroasiaticooru,ProtoAustroasiaticgiri,NagarProtoAustroasiatic,ProtoAustroasiaticganj,ProtoAustroasiaticbazar,ProtoAustroasiaticbandar,ProtoAustroasiaticgram"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Proto-Hlai",
@@ -8414,7 +8461,8 @@ window.asiaNameBases = [
     "max": 10,
     "d": "lnrt",
     "m": 0,
-    "b": "Sanya,Tongshen,Baoting,Ledong,Changjiang,Dongfang,Lingao,Danzhou,Chengmai,Qionghai,Wanning,Lingshui,Yazhou,Yingzhou,Yacheng,Jiusuo,Gancheng,Xinglong,Sayabury,DaHuoai,PaDaet,NaNoi,Long,TamNong,CheoReo,BaTri,ProtoHlaibari,PalliProtoHlai,Bangkok,Chiang Mai,Chiang Rai,Phuket,Khon Kaen,Udon Thani,Hat Yai,Wuzhishan,Meinan,CaoBang,BuDang,PhanRang,BinhChanh,TraOn,Yongsheng,Shuangjiang,ProtoHlaipur,ProtoHlainagar,ProtoHlaibad,ProtoHlaikot,ProtoHlaiwada,ProtoHlaighat,ProtoHlaipalli,ProtoHlaikonda,ProtoHlaipeta,ProtoHlaiuru,ProtoHlaiuri,ProtoHlaiooru,ProtoHlaigiri,NagarProtoHlai,ProtoHlaiganj,ProtoHlaibazar,ProtoHlaibandar,ProtoHlaigram"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Proto-Hokkaido-Kuril",
@@ -8423,7 +8471,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Abashiri,Wakkanai,Nemuro,Hakodate,Otaru,Nayoro,Shari,Mombetsu,Rubetsu,Tomari,Kasimobe,Bettobu,Shibetsu,NaMuen,MuangSai,ProtoHokkaidoKurilbari,PalliProtoHokkaidoKuril,Sapporo,Obihiro,Kushiro,Kitami,Asahikawa,Muroran,Tomakomai,DongPhu,BaoLoc,DucHoa,Wuwei,CangLong,LapVo,Lijiang,TuyAnh,GoCongTay,Mengla,ThuongDuc,Thoeng,XuanLoc,ProtoHokkaidoKurilpur,ProtoHokkaidoKurilnagar,ProtoHokkaidoKurilbad,ProtoHokkaidoKurilkot,ProtoHokkaidoKurilwada,ProtoHokkaidoKurilghat,ProtoHokkaidoKurilpalli,ProtoHokkaidoKurilkonda,ProtoHokkaidoKurilpeta,ProtoHokkaidoKuriluru,ProtoHokkaidoKuriluri,ProtoHokkaidoKurilooru,ProtoHokkaidoKurilgiri,NagarProtoHokkaidoKuril,ProtoHokkaidoKurilganj,ProtoHokkaidoKurilbazar,ProtoHokkaidoKurilbandar,ProtoHokkaidoKurilgram"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Proto-KamSui",
@@ -8432,7 +8481,8 @@ window.asiaNameBases = [
     "max": 10,
     "d": "lnrt",
     "m": 0,
-    "b": "Liping,Zhaoxing,Zhongchao,Shidong,Fangxiang,Long'an,Zhenfeng,Ccheng,Xjing,Wangmo,Yuqing,NamBak,SongKhwae,RachGia,BienHoa,SiNakharin,ProtoKamSuipur,ProtoKamSuinagar,ProtoKamSuibad,ProtoKamSuikot,ProtoKamSuiwada,ProtoKamSuighat,ProtoKamSuipalli,ProtoKamSuikonda,ProtoKamSuipeta,ProtoKamSuiuru,ProtoKamSuiuri,ProtoKamSuiooru,ProtoKamSuigiri,ProtoKamSuibari,ProtoKamSuiganj,ProtoKamSuibazar,ProtoKamSuibandar,ProtoKamSuigram,PalliProtoKamSui,Kaili,Rongjiang,Congjiang,Sansui,Jinping,Leishan,Dushan,Libo,Luodian,Tengchong,LongMy,LaiVung,Weixi,CungSon,MyTho,Bokeo,BaoLoc,Pong,NhonTrach,NagarProtoKamSui"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Proto-KraDai",
@@ -8441,7 +8491,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Nanning,Haikou,Zhanjiang,Youjiang,Hajiang,Laibin,Wuming,Baise,Fangchenggang,Qinzhou,XamNeua,DaLat,ProtoKraDaibari,PalliProtoKraDai,Kunming,Bangkok,Hanoi,Khamouan,Liangshan,DakTo,ChauThanh,Thaton,DienBien,LaiUyen,BoKluea,SocTrang,ThuanAn,PakLay,TanHiep,TanThanh,Changning,ALuoi,ProtoKraDaipur,ProtoKraDainagar,ProtoKraDaibad,ProtoKraDaikot,ProtoKraDaiwada,ProtoKraDaighat,ProtoKraDaipalli,ProtoKraDaikonda,ProtoKraDaipeta,ProtoKraDaiuru,ProtoKraDaiuri,ProtoKraDaiooru,ProtoKraDaigiri,NagarProtoKraDai,ProtoKraDaiganj,ProtoKraDaibazar,ProtoKraDaibandar,ProtoKraDaigram"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Proto-Mongolic",
@@ -8450,7 +8501,8 @@ window.asiaNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Ulaanbaatar,Erdenet,Khovd,Altai,Bayankhongor,Arvaikheer,Mörön,Öndörkhaan,Tsetserleg,Sükhbaatar,Sainshand,Dalanzadgad,Zamyn-Üüd,Baruun-Urt,Ölgii,Ulaangom,Nalaikh,WiangPaPao,WangNuea,AnKhe,MoCay,ChuPah,KengTung,ProtoMongolicbari,PalliProtoMongolic,Bishkek,Osh,Jalal-Abad,Karakol,Ulaanbaatar,Erdenet,Khovd,Yakutsk,Mirny,Neryungri,Tiksi,Kyzyl,Gorno-Altaysk,Ulan-Ude,Elista,Darkhan,Choibalsan,Bulgan,LaoCai,ChonThanh,NamPat,MyTho,CuChi,VinhLong,AnPhu,Jianchuan,Gengma,ProtoMongolicpur,ProtoMongolicnagar,ProtoMongolicbad,ProtoMongolickot,ProtoMongolicwada,ProtoMongolicghat,ProtoMongolicpalli,ProtoMongolickonda,ProtoMongolicpeta,ProtoMongolicuru,ProtoMongolicuri,ProtoMongolicooru,ProtoMongolicgiri,NagarProtoMongolic,ProtoMongolicganj,ProtoMongolicbazar,ProtoMongolicbandar,ProtoMongolicgram"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Proto-Sakhalin",
@@ -8459,7 +8511,8 @@ window.asiaNameBases = [
     "max": 17,
     "d": "lnrt",
     "m": 0,
-    "b": "Yuzhno-Sakhalinsk,Korsakov,Kholmsk,Poronaysk,Kurile,Nogliki,Ursv,Val,Tymovskoye,Alexandrovsk,Uglegorsk,Shakhtyorsk,Makarov,Dolinsk,Aniva,Chekhov,Tomari,Sakay,Als,Ainsku,PhanThiet,ThanhBinh,ChiangSaen,ThongMySai,TanPhu,QuangNinh,ProtoSakhalinbari,PalliProtoSakhalin,Shigatse,Gyantse,Nagqu,Nyingchi,Chamdo,Kangding,NhaBe,AoLuang,CauKe,Huaping,PhuThien,ChoLach,Puer,Pleiku,ChiangMuan,ProtoSakhalinpur,ProtoSakhalinnagar,ProtoSakhalinbad,ProtoSakhalinkot,ProtoSakhalinwada,ProtoSakhalinghat,ProtoSakhalinpalli,ProtoSakhalinkonda,ProtoSakhalinpeta,ProtoSakhalinuru,ProtoSakhalinuri,ProtoSakhalinooru,ProtoSakhalingiri,NagarProtoSakhalin,ProtoSakhalinganj,ProtoSakhalinbazar,ProtoSakhalinbandar,ProtoSakhalingram"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Proto-Tai",
@@ -8468,7 +8521,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Nanning,Haiphong,Kwangsi,Luwang,Guangling,Shou,Youjiang,Liujiang,Hongshui,Guanyin,Nam,Navy,ViengPhoukha,DamHa,BinhPhuoc,ThaSongKorn,ProtoTaibari,PalliProtoTai,Bangkok,Chiang Mai,Hanoi,Kunming,Vientiane,Nanjing,Bama,SaDec,ShangriLa,DongXuan,GoCongDong,Mohan,DaiLinh,Phayao,TrangBom,SantiSuk,TayNinh,BenLuc,ProtoTaipur,ProtoTainagar,ProtoTaibad,ProtoTaikot,ProtoTaiwada,ProtoTaighat,ProtoTaipalli,ProtoTaikonda,ProtoTaipeta,ProtoTaiuru,ProtoTaiuri,ProtoTaiooru,ProtoTaigiri,NagarProtoTai,ProtoTaiganj,ProtoTaibazar,ProtoTaibandar,ProtoTaigram"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Pyang Zhuang",
@@ -8477,7 +8531,8 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Guangxi,Nanning,Liuzhou,Baise,Qinzhou,Fangchenggang,Chongzuo,Laibin,Hechi,Wuzhou,Guigang,Binyang,Hengzhou,Wuming,Shangsi,Fusui,Napo,Jingxi,Debao,Udomxai,DonDuong,Santikhiri,PakMong,Pua,PyangZhuangbari,PalliPyangZhuang,Bangkok,Chiang Mai,Chiang Rai,Phuket,Khon Kaen,Udon Thani,Hat Yai,Surat Thani,Phitsanulok,Yulin,Lingshan,PhuocAn,CaMau,ThuDauMot,Srinagarindra,ChauDoc,TanTru,Shidian,DongHa,CauKe,Fugong,PyangZhuangpur,PyangZhuangnagar,PyangZhuangbad,PyangZhuangkot,PyangZhuangwada,PyangZhuangghat,PyangZhuangpalli,PyangZhuangkonda,PyangZhuangpeta,PyangZhuanguru,PyangZhuanguri,PyangZhuangooru,PyangZhuanggiri,NagarPyangZhuang,PyangZhuangganj,PyangZhuangbazar,PyangZhuangbandar,PyangZhuanggram"
+    "b": "Nanning,Liuzhou,Baise,Qinzhou,Guilin,Fangchenggang,Chongzuo,Laibin,Hechi,Wuzhou,Guigang,Binyang,Hengzhou,Wuming,Shangsi,Fusui,Napo,Jingxi,Debao,Longlin,Tianlin,Lingyun,Fengshan,Donglan,Bama,Du'an,Mashan,Longan,Ningming,Pingxiang,Tiandeng",
+    "status": "COMPLETE"
   },
   {
     "name": "Qifu",
@@ -8486,7 +8541,8 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Guangxi,Nanning,Liuzhou,Baise,Qinzhou,Guigang,Binyang,Hengzhou,Wuming,Shangsi,Fusui,Napo,Jingxi,Debao,Longzhou,Daxin,Tianlin,Xilin,Leye,Wangmo,SopPrap,Kontum,Ximeng,Qifubari,PalliQifu,Bangkok,Chiang Mai,Chiang Rai,Phuket,Khon Kaen,Udon Thani,Hat Yai,Surat Thani,Phitsanulok,Nakhon Ratchasima,Yulin,Lingshan,Libo,Nandan,PhuGiao,Sapan,TraVinh,TanUyen,CaiLay,ChauDoc,Yunlong,ChauThanh,SaThay,GoCong,Phonsavan,Dran,Qifupur,Qifunagar,Qifubad,Qifukot,Qifuwada,Qifughat,Qifupalli,Qifukonda,Qifupeta,Qifuooru,Qifugiri,NagarQifu,Qifuganj,Qifubazar,Qifubandar,Qifugram"
+    "b": "Nanning,Liuzhou,Baise,Qinzhou,Guigang,Binyang,Hengzhou,Wuming,Shangsi,Fusui,Napo,Jingxi,Debao,Longzhou,Daxin,Tianlin,Xilin,Leye,Wangmo,Libo,Nandan",
+    "status": "COMPLETE"
   },
   {
     "name": "Ra'ong",
@@ -8495,7 +8551,8 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Guangxi,Nanning,Liuzhou,Baise,Qinzhou,Guigang,Binyang,Hengzhou,Wuming,Shangsi,Fusui,Napo,Jingxi,Debao,Longzhou,Daxin,Tianlin,Xilin,Leye,Wangmo,AyunPa,ChuPro,Sayabury,DaHuoai,PaDaet,NaNoi,Raongbari,PalliRaong,Phnom Penh,Battambang,Kampong Cham,Kampot,Takeo,Kratie,Yulin,Lingshan,Libo,Nandan,SobPrab,TamBinh,HongNgu,Heqing,GiongTrom,Lincang,Tachilek,CaoBang,BuDang,Raongpur,Raongnagar,Raongbad,Raongkot,Raongwada,Raongghat,Raongpalli,Raongkonda,Raongpeta,Raongooru,Raonggiri,NagarRaong,Raongganj,Raongbazar,Raongbandar,Raonggram"
+    "b": "Nanning,Liuzhou,Baise,Qinzhou,Guigang,Binyang,Hengzhou,Wuming,Shangsi,Fusui,Napo,Jingxi,Debao,Longzhou,Daxin,Tianlin,Xilin,Leye,Wangmo,Libo,Nandan",
+    "status": "COMPLETE"
   },
   {
     "name": "Rabha",
@@ -8504,7 +8561,7 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Assam,Goalpara,Bongaigaon,Dhubri,Kokrajhar,Kamrup,Darrang,Dhemaji,Jorhat,Sibsagar,Nagaon,Karbi Anglong,Dima Hasao,Cachar,ChiangKhlong,Sing,NaMuen,Rabhabari,PalliRabha,Delhi,Mumbai,Kolkata,Chennai,Bangalore,Pune,Surat,Lucknow,Jaipur,Nagpur,Indore,Bhopal,Patna,Barpeta,Tezpur,Sonitpur,Lakhimpur,Golaghat,SongCau,ChoGao,Jinghong,PhuNhon,DinhQuan,Chun,MongCai,DongPhu,BaoLoc,DucHoa,Wuwei,CangLong,Rabhapur,Rabhanagar,Rabhabad,Rabhakot,Rabhawada,Rabhaghat,Rabhapalli,Rabhakonda,Rabhapeta,Rabhaooru,Rabhagiri,NagarRabha,Rabhaganj,Rabhabazar,Rabhabandar,Rabhagram",
+    "b": "Goalpara,Bongaigaon,Dhubri,Kokrajhar,Kamrup,Darrang,Dhemaji,Jorhat,Sibsagar,Nagaon,Karbi Anglong,Dima Hasao,Cachar,Barpeta,Tezpur,Sonitpur,Lakhimpur,Golaghat",
     "status": "COMPLETE"
   },
   {
@@ -8514,7 +8571,7 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Ajmer,Bikaner,Alwar,Kota,Bundi,Chittorgarh,Sikar,Pali,Tonk,Barmer,Jaisalmer,Jhalawar,Karauli,Banswara,Jhunjhunu,Sirohi,Nagaur,DokKhamtai,Nateuy,BanLuang,Rajasthanibari,PalliRajasthani,Delhi,Mumbai,Kolkata,Chennai,Bangalore,Pune,Surat,Lucknow,Jaipur,Nagpur,Jodhpur,Udaipur,Bharatpur,Sawai Madhopur,Dungarpur,Churu,LongKhanh,HaTien,BinhDuong,PhuKamYao,TanAn,CanDuoc,Tengchong,LongMy,LaiVung,Weixi,CungSon,MyTho,Rajasthanipur,Rajasthaninagar,Rajasthanibad,Rajasthanikot,Rajasthaniwada,Rajasthanighat,Rajasthanipalli,Rajasthanikonda,Rajasthanipeta,Rajasthaniooru,Rajasthanigiri,NagarRajasthani,Rajasthaniganj,Rajasthanibazar,Rajasthanibandar,Rajasthanigram",
+    "b": "Ajmer,Bikaner,Alwar,Kota,Bundi,Chittorgarh,Sikar,Pali,Tonk,Barmer,Jaisalmer,Jhalawar,Karauli,Banswara,Jhunjhunu,Sirohi,Nagaur,Jodhpur,Udaipur,Bharatpur,Sawai Madhopur,Dungarpur,Churu,Pali,Hanumangarh,Ganganagar,Bhilwara,Rajsamand",
     "status": "COMPLETE"
   },
   {
@@ -8524,7 +8581,8 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Morigaon,Dhubri,Goalpara,Kokrajhar,Bongaigaon,Kamrup,Darrang,Dhemaji,Jorhat,Sibsagar,Nagaon,Assam,BanKok,XamNeua,DaLat,Rajbanshibari,PalliRajbanshi,Delhi,Mumbai,Kolkata,Chennai,Bangalore,Pune,Surat,Lucknow,Jaipur,Nagpur,Indore,Bhopal,Patna,Ludhiana,Agra,Barpeta,Tezpur,Sonitpur,Lakhimpur,Golaghat,BacLieu,DiAn,TanChau,ChauThanh,Baoshan,QuangTri,TieuCan,Lushui,DakTo,Thaton,DienBien,LaiUyen,Rajbanshipur,Rajbanshinagar,Rajbanshibad,Rajbanshikot,Rajbanshiwada,Rajbanshighat,Rajbanshipalli,Rajbanshikonda,Rajbanshipeta,Rajbanshiooru,Rajbanshigiri,NagarRajbanshi,Rajbanshiganj,Rajbanshibazar,Rajbanshibandar,Rajbanshigram"
+    "b": "Morigaon,Dhubri,Goalpara,Kokrajhar,Bongaigaon,Kamrup,Darrang,Dhemaji,Jorhat,Sibsagar,Nagaon,Barpeta,Tezpur,Sonitpur,Lakhimpur,Golaghat,Baksa,Chirang,Udalguri",
+    "status": "COMPLETE"
   },
   {
     "name": "Rana Tharu",
@@ -8533,7 +8591,8 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Kathmandu,Pokhara,Birgunj,Butwal,Hetauda,Dhangadhi,Itahari,Nepalgunj,Gorkha,Tansen,Rajbiraj,Siraha,Jaleshwar,Malangwa,Gaur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang,IaGrai,MongLa,MuangKham,DanSim,WiangPaPao,RanaTharubari,PalliRanaTharu,Shigatse,Gyantse,Nagqu,Nyingchi,Chamdo,Lalitpur,Bharatpur,Biratnagar,Dharan,Janakpur,Bhaktapur,Lahan,Chandrapur,TanChau,Eryuan,Pleiku,BenTre,Cangyuan,LaoCai,ChonThanh,NamPat,MyTho,CuChi,RanaTharupur,RanaTharunagar,RanaTharubad,RanaTharukot,RanaTharuwada,RanaTharughat,RanaTharupalli,RanaTharukonda,RanaTharupeta,RanaTharuuru,RanaTharuuri,RanaTharuooru,RanaTharugiri,NagarRanaTharu,RanaTharuganj,RanaTharubazar,RanaTharubandar,RanaTharugram"
+    "b": "Kathmandu,Pokhara,Birgunj,Butwal,Hetauda,Dhangadhi,Itahari,Nepalgunj,Gorkha,Tansen,Rajbiraj,Siraha,Jaleshwar,Malangwa,Gaur,Sindhuli,Dhulikhel,Bidur,Lalitpur,Bharatpur,Biratnagar,Dharan,Janakpur,Bhaktapur,Lahan,Chandrapur",
+    "status": "COMPLETE"
   },
   {
     "name": "Rangpuri",
@@ -8542,7 +8601,8 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Morigaon,Dhubri,Goalpara,Kokrajhar,Bongaigaon,Kamrup,Darrang,Dhemaji,Jorhat,Sibsagar,Nagaon,Assam,Silchar,Cachar,Hailakandi,DucCo,MaeSai,PakLai,CatTien,WiangChai,LangSon,PhanThiet,ThanhBinh,Rangpuribari,Delhi,Mumbai,Kolkata,Chennai,Bangalore,Pune,Surat,Lucknow,Jaipur,Barpeta,Tezpur,Sonitpur,Lakhimpur,Golaghat,Karimganj,Shuangjiang,BuDop,ThaPlatak,NhaBe,AoLuang,CauKe,Huaping,Rangpuripur,Rangpurinagar,Rangpuribad,Rangpurikot,Rangpuriwada,Rangpurighat,Rangpuripalli,Rangpurikonda,Rangpuripeta,Rangpuriooru,Rangpurigiri,NagarRangpuri,Rangpuriganj,Rangpuribazar,Rangpuribandar,Rangpurigram,PalliRangpuri"
+    "b": "Morigaon,Dhubri,Goalpara,Kokrajhar,Bongaigaon,Kamrup,Darrang,Dhemaji,Jorhat,Sibsagar,Nagaon,Silchar,Cachar,Hailakandi,Karimganj,Barpeta,Tezpur,Sonitpur,Lakhimpur,Golaghat,Udalguri,Baksa,Chirang",
+    "status": "COMPLETE"
   },
   {
     "name": "Raute",
@@ -8551,7 +8611,7 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Dang,Tanahun,Gorkha,Rolpa,Surkhet,Gandaki,Lumbini,Kathmandu,Ghorahi,Sakhi,Mahendra,Accham,Bajhang,Bajura,Jumla,Dadeldhura,Darchula,Kailali,Dipayal,Silgadhi,MaeCharim,TienYen,BinhLong,PongPrasat,DongXoai,Rautebari,PalliRaute,Pyuthan,Tribhuvan,Kanchanpur,XuanLoc,DucHue,Yongchang,ViThanh,SaDec,ShangriLa,DongXuan,GoCongDong,Mohan,DaiLinh,Rautepur,Rautenagar,Rautebad,Rautekot,Rautewada,Rauteghat,Rautepalli,Rautekonda,Rautepeta,Rauteooru,Rautegiri,NagarRaute,Rauteganj,Rautebazar,Rautebandar,Rautegram",
+    "b": "Dang,Tanahun,Gorkha,Rolpa,Surkhet,Gandaki,Lumbini,Kathmandu,Ghorahi,Sakhi,Mahendra,Accham,Bajhang,Bajura,Jumla,Dadeldhura,Darchula,Kailali,Dipayal,Silgadhi,Pyuthan,Tribhuvan,Kanchanpur",
     "status": "COMPLETE"
   },
   {
@@ -8561,7 +8621,8 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Kannur,Kozhikode,Malappuram,Palakkad,Thrissur,Kottayam,Alappuzha,Pathanamthitta,Kollam,Thiruvananthapuram,Wayanad,Idukki,SiNakharin,LongXuyen,Longling,ChuSe,CaiBe,DonDuong,Santikhiri,PakMong,Pua,Ravulabari,PalliRavula,Jamshedpur,Ranchi,Bhubaneswar,Visakhapatnam,Madurai,Mysore,Mangalore,Nagpur,Indore,Bhopal,Delhi,Mumbai,Kolkata,Chennai,Bangalore,Kochi,CanGiuoc,KienGiang,TraVinh,Gongshan,Udomxai,PhuocAn,Ravulapur,Ravulanagar,Ravulabad,Ravulakot,Ravulawada,Ravulaghat,Ravulapalli,Ravulakonda,Ravulapeta,Ravulaooru,Ravulagiri,NagarRavula,Ravulaganj,Ravulabazar,Ravulabandar,Ravulagram"
+    "b": "Kannur,Kozhikode,Malappuram,Palakkad,Thrissur,Kottayam,Alappuzha,Pathanamthitta,Kollam,Thiruvananthapuram,Wayanad,Idukki",
+    "status": "COMPLETE"
   },
   {
     "name": "Rengao",
@@ -8570,7 +8631,8 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Thua Thien Hue,Quang Nam,Binh Thuan,Dak Lak,Dak Nong,XiengKhouang,Prem,SopPrap,Rengaobari,PalliRengao,Quang Tri,Quang Binh,Da Nang,Quang Ngai,Binh Dinh,Phu Yen,Khanh Hoa,Ninh Thuan,Kon Tum,Gia Lai,Lam Dong,ALuoi,CangLong,Menglian,NgocHoi,TanPhuoc,Fang,SonLa,PhuGiao,Sapan,TraVinh,TanUyen,CaiLay,Rengaopur,Rengaonagar,Rengaobad,Rengaokot,Rengaowada,Rengaoghat,Rengaopalli,Rengaokonda,Rengaopeta,Rengaoooru,Rengaogiri,NagarRengao,Rengaoganj,Rengaobazar,Rengaobandar,Rengaogram"
+    "b": "Thua Thien Hue,Quang Nam,Binh Thuan,Dak Lak,Dak Nong,Quang Tri,Quang Binh,Da Nang,Quang Ngai,Binh Dinh,Phu Yen,Khanh Hoa,Ninh Thuan,Kon Tum,Gia Lai,Lam Dong",
+    "status": "COMPLETE"
   },
   {
     "name": "Riang",
@@ -8579,7 +8641,8 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Tripura,Agartala,Kailasahar,Khowai,Ambassa,Longtharai,Chandranath,KengTung,DaTeh,MaeSuay,HaGiang,LocNinh,AyunPa,Riangbari,PalliRiang,Phnom Penh,Battambang,Kampong Cham,Kampot,Takeo,Kratie,Stung Treng,Sihanoukville,Prey Veng,Mondulkiri,Ratanakiri,Kampong Thom,Banteay Meanchey,Oddar Meanchey,Preah Vihear,Koh Kong,Pailin,Kep,Ranchi,Udaipur,Dharmanagar,Kamalpur,Xaisomboun,ThungChang,GoCong,HocMon,SobPrab,TamBinh,HongNgu,Heqing,GiongTrom,Riangpur,Riangnagar,Riangbad,Riangkot,Riangwada,Riangghat,Riangpalli,Riangkonda,Riangpeta,Riangooru,Rianggiri,NagarRiang,Riangganj,Riangbazar,Riangbandar,Rianggram"
+    "b": "Tripura,Agartala,Kailasahar,Khowai,Ambassa,Longtharai,Chandranath,Dharmanagar,Kamalpur",
+    "status": "COMPLETE"
   },
   {
     "name": "Rohingya",
@@ -8588,7 +8651,8 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Mrauk U,Minbya,Ponnagyun,Rathedaung,Buthidaung,Maungdaw,Kawthaung,Taungpyoletwe,Yebyu,Ann,Pauktaw,Myebon,QuangNinh,PhuocLong,RongKwang,DaLat,CanGio,TalokMuh,ChiangKhlong,Sing,Rohingyabari,PalliRohingya,Delhi,Mumbai,Kolkata,Chennai,Bangalore,Pune,Surat,Sittwe,TieuCan,CaoLanh,Ninglang,SongCau,ChoGao,Jinghong,PhuNhon,Rohingyapur,Rohingyanagar,Rohingyabad,Rohingyakot,Rohingyawada,Rohingyaghat,Rohingyapalli,Rohingyakonda,Rohingyapeta,Rohingyaooru,Rohingyagiri,NagarRohingya,Rohingyaganj,Rohingyabazar,Rohingyabandar,Rohingyagram"
+    "b": "Mrauk U,Minbya,Ponnagyun,Rathedaung,Buthidaung,Maungdaw,Kawthaung,Taungpyoletwe,Yebyu,Ann,Pauktaw,Myebon,Sittwe",
+    "status": "COMPLETE"
   },
   {
     "name": "Rouran",
@@ -8597,7 +8661,8 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Ulaanbaatar,Erdenet,Baruun-Urt,Murun,Khovd,Altai,Bayan-Olgii,Uvs,Khovsgol,Dornod,Dundgovi,Govisumber,Selenge,Tov,SonHoa,LuangNamtha,DiLinh,DokKhamtai,Nateuy,BanLuang,Rouranbari,Darkhan,Choibalsan,Bulgan,Ulaangom,Bayanhongor,Mandalgovi,Dalanzadgad,Kharkhorin,Ulan-Ude,Irkutsk,Kyakhta,Hulunbuir,Ondorkhaan,Zavkhan,BenLuc,Lianghe,NgaBay,ChauThanh,Deqin,TanPhuoc,LongKhanh,HaTien,BinhDuong,Rouranpur,Rourannagar,Rouranbad,Rourankot,Rouranwada,Rouranghat,Rouranpalli,Rourankonda,Rouranpeta,Rouranooru,Rourangiri,NagarRouran,Rouranganj,Rouranbazar,Rouranbandar,Rourangram,PalliRouran"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Sa-och",
@@ -8606,7 +8671,8 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Thua Thien Hue,Quang Nam,Binh Thuan,Dak Lak,Dak Nong,DucTrong,MaeFaLuang,ChiangHai,BanKok,Saochbari,PalliSaoch,Shigatse,Gyantse,Nagqu,Nyingchi,Chamdo,Kangding,Shangri La,Tawang,Bomdila,Along,Yingkiong,Basar,Kokrajhar,Guwahati,Dibrugarh,Tinsukia,Dimapur,Kohima,Mokokchung,Imphal,Ukhrul,Quang Tri,Quang Binh,Da Nang,Quang Ngai,Binh Dinh,Phu Yen,Khanh Hoa,Ninh Thuan,Kon Tum,Gia Lai,Lam Dong,Fugong,DakDoa,CaiLay,Phongsali,LaiThieu,ThaWangPha,BacLieu,DiAn,TanChau,ChauThanh,Baoshan,Saochpur,Saochnagar,Saochbad,Saochkot,Saochwada,Saochghat,Saochpalli,Saochkonda,Saochpeta,Saochooru,Saochgiri,NagarSaoch,Saochganj,Saochbazar,Saochbandar,Saochgram"
+    "b": "Thua Thien Hue,Quang Nam,Binh Thuan,Dak Lak,Dak Nong,Quang Tri,Quang Binh,Da Nang,Quang Ngai,Binh Dinh,Phu Yen,Khanh Hoa,Ninh Thuan,Kon Tum,Gia Lai,Lam Dong",
+    "status": "COMPLETE"
   },
   {
     "name": "Sadri",
@@ -8615,7 +8681,7 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Ranchi,Dumka,Hazaribagh,Giridih,Bokaro,Deoghar,Gumla,Simdega,Lohardaga,Pakur,Godda,Seraikela,Khunti,Chatra,Latehar,Palamu,Singhbhum,East Singhbhum,West Singhbhum,Santhal Pargana,Bankura,Purulia,Mayurbhanj,ChaiPrakarn,BauBang,BenCat,KoKha,CaiBe,IaGrai,MongLa,Sadribari,PalliSadri,Jamshedpur,Dhanbad,Sahebganj,Jhargram,Dran,LaiChau,Sangkha,BenTre,TanChau,Eryuan,Pleiku,Cangyuan,Sadripur,Sadrinagar,Sadribad,Sadrikot,Sadriwada,Sadrighat,Sadripalli,Sadrikonda,Sadripeta,Sadriooru,Sadrigiri,NagarSadri,Sadriganj,Sadribazar,Sadribandar,Sadrigram",
+    "b": "Ranchi,Dumka,Hazaribagh,Giridih,Bokaro,Deoghar,Gumla,Simdega,Lohardaga,Pakur,Godda,Seraikela,Khunti,Chatra,Latehar,Palamu,East Singhbhum,West Singhbhum,Santhal Pargana,Bankura,Purulia,Mayurbhanj,Jamshedpur,Dhanbad,Sahebganj,Jhargram",
     "status": "COMPLETE"
   },
   {
@@ -8625,7 +8691,8 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Nakhon Ratchasima,Buri Ram,Surin,Khon Kaen,Ubon Ratchathani,Maha Sarakham,Roi Et,Chaiyaphum,Loei,Nong Khai,Nakhon Phanom,Kalasin,Sisaket,Amnat Charoen,Yasothon,Udon Thani,Bueng Kan,NaNoi,Long,TamNong,CheoReo,BaTri,DucCo,MaeSai,PakLai,CatTien,WiangChai,Saekbari,PalliSaek,Bangkok,Chiang Mai,Chiang Rai,Phuket,Hat Yai,Surat Thani,Mukdahan,PhanRang,BinhChanh,TraOn,Yongsheng,Shuangjiang,Saekpur,Saeknagar,Saekbad,Saekkot,Saekwada,Saekghat,Saekpalli,Saekkonda,Saekpeta,Saekooru,Saekgiri,NagarSaek,Saekganj,Saekbazar,Saekbandar,Saekgram"
+    "b": "Nakhon Ratchasima,Buri Ram,Surin,Khon Kaen,Ubon Ratchathani,Maha Sarakham,Roi Et,Chaiyaphum,Loei,Nong Khai,Nakhon Phanom,Kalasin,Sisaket,Amnat Charoen,Yasothon,Udon Thani,Bueng Kan,Mukdahan,Nong Bua Lamphu,Phu Pha Man,Phu Kradueng",
+    "status": "COMPLETE"
   },
   {
     "name": "Sakhalin Ainu",
@@ -8634,7 +8701,8 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Sapporo,Abashiri,Wakkanai,Obihiro,Kushiro,Nemuro,Kitami,Asahikawa,Hakodate,Otaru,Tomakomai,Nayoro,Shari,Mombetsu,Rubetsu,Tomari,Kasimobe,Bettobu,Shibetsu,MuangSai,MaeCharim,TienYen,BinhLong,PongPrasat,DongXoai,SakhalinAinubari,PalliSakhalinAinu,Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Kobe,Fukuoka,Kawasaki,Muroran,CangLong,LapVo,Lijiang,TuyAnh,GoCongTay,Mengla,ThuongDuc,Thoeng,XuanLoc,SakhalinAinupur,SakhalinAinunagar,SakhalinAinubad,SakhalinAinukot,SakhalinAinuwada,SakhalinAinughat,SakhalinAinupalli,SakhalinAinukonda,SakhalinAinupeta,SakhalinAinuuru,SakhalinAinuuri,SakhalinAinuooru,SakhalinAinugiri,NagarSakhalinAinu,SakhalinAinuganj,SakhalinAinubazar,SakhalinAinubandar,SakhalinAinugram"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Sakhalin dialects",
@@ -8643,7 +8711,8 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Abashiri,Wakkanai,Nemuro,Hakodate,Otaru,Nayoro,Shari,Mombetsu,Rubetsu,Tomari,Kasimobe,Bettobu,Shibetsu,NamBak,SongKhwae,RachGia,BienHoa,SiNakharin,LongXuyen,Longling,Sakhalindialectsbari,PalliSakhalindialects,Shigatse,Gyantse,Nagqu,Nyingchi,Chamdo,Kangding,Shangri La,Tawang,Bomdila,Along,Sapporo,Obihiro,Kushiro,Kitami,Asahikawa,Muroran,Tomakomai,MyTho,Bokeo,BaoLoc,Pong,NhonTrach,CanGiuoc,KienGiang,TraVinh,Sakhalindialectspur,Sakhalindialectsnagar,Sakhalindialectsbad,Sakhalindialectskot,Sakhalindialectswada,Sakhalindialectsghat,Sakhalindialectspalli,Sakhalindialectskonda,Sakhalindialectspeta,Sakhalindialectsooru,Sakhalindialectsgiri,NagarSakhalindialects,Sakhalindialectsganj,Sakhalindialectsbazar,Sakhalindialectsbandar,Sakhalindialectsgram"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Sambalpuri",
@@ -8652,16 +8721,18 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Bargarh,Deogarh,Boudh,Angul,Balangir,Nuapada,Koraput,Rayagada,Kalahandi,Kandhamal,Gajapati,Khordha,Nayagarh,Kendrapara,Dhenkanal,Bhadrak,Mayurbhanj,Sundargarh,XiengKhouang,Sambalpuribari,Sambalpur,Jharsuguda,Sonepur,Subarnapur,Malkangiri,Nabarangpur,Jagatsinghpur,Cuttack,Puri,Jajpur,Keonjhar,DienBien,LaiUyen,BoKluea,SocTrang,ThuanAn,PakLay,TanHiep,TanThanh,Changning,ALuoi,CangLong,Menglian,NgocHoi,TanPhuoc,Sambalpuripur,Sambalpurinagar,Sambalpuribad,Sambalpurikot,Sambalpuriwada,Sambalpurighat,Sambalpuripalli,Sambalpurikonda,Sambalpuripeta,Sambalpuriooru,Sambalpurigiri,NagarSambalpuri,Sambalpuriganj,Sambalpuribazar,Sambalpuribandar,Sambalpurigram,PalliSambalpuri"
+    "b": "Bargarh,Deogarh,Boudh,Angul,Balangir,Nuapada,Koraput,Rayagada,Kalahandi,Kandhamal,Gajapati,Khordha,Nayagarh,Kendrapara,Dhenkanal,Bhadrak,Mayurbhanj,Sundargarh,Sambalpur,Jharsuguda,Sonepur,Subarnapur,Malkangiri,Nabarangpur,Jagatsinghpur,Cuttack,Puri,Jajpur,Keonjhar",
+    "status": "COMPLETE"
   },
-  {
+{
     "name": "Samre",
     "i": 200469,
     "min": 4,
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Buri Ram,Bueng Kan,Si Sa Ket,Surin City,WangNuea,AnKhe,MoCay,ChuPah,KengTung,DaTeh,MaeSuay,HaGiang,LocNinh,Samrebari,PalliSamre,Shigatse,Gyantse,Nagqu,Nyingchi,Chamdo,Kangding,Shangri La,Tawang,Bomdila,Along,Yingkiong,Basar,Kokrajhar,Guwahati,Dibrugarh,Tinsukia,Dimapur,Surin,Nakhon Ratchasima,Ubon Ratchathani,Roi Et,Chaiyaphum,Loei,Nong Khai,Sisaket,Amnat Charoen,Yasothon,CuChi,VinhLong,AnPhu,Jianchuan,Gengma,Xaisomboun,Samrepur,Samrenagar,Samrebad,Samrekot,Samrewada,Samreghat,Samrepalli,Samrekonda,Samrepeta,Samreooru,Samregiri,NagarSamre,Samreganj,Samrebazar,Samrebandar,Samregram"
+    "b": "Buri Ram,Bueng Kan,Si Sa Ket,Surin,WangNuea,Surin City,Nakhon Ratchasima,Ubon Ratchathani,Roi Et,Chaiyaphum,Loei,Nong Khai,Sisaket,Amnat Charoen,Yasothon",
+    "status": "COMPLETE"
   },
   {
     "name": "Sanskrit",
@@ -8670,7 +8741,7 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Haridwar,Rishikesh,Mathura,Ayodhya,Prayagraj,Ujjain,Dwarka,Shirdi,Nashik,Pushkar,Kurukshetra,Indraprastha,Hastinapura,ChiangSaen,ThongMySai,TanPhu,QuangNinh,PhuocLong,RongKwang,DaLat,CanGio,TalokMuh,Sanskritbari,PalliSanskrit,Varanasi,Vrindavan,Kanchipuram,Tirupati,Puri,Rameswaram,Udaipur,Jaipur,Jodhpur,Huaping,PhuThien,ChoLach,Puer,Pleiku,ChiangMuan,Sanskritpur,Sanskritnagar,Sanskritbad,Sanskritkot,Sanskritwada,Sanskritghat,Sanskritpalli,Sanskritkonda,Sanskritpeta,Sanskritooru,Sanskritgiri,NagarSanskrit,Sanskritganj,Sanskritbazar,Sanskritbandar,Sanskritgram",
+    "b": "Haridwar,Rishikesh,Mathura,Ayodhya,Prayagraj,Ujjain,Dwarka,Shirdi,Nashik,Pushkar,Kurukshetra,Varanasi,Vrindavan,Kanchipuram,Tirupati,Puri,Rameswaram,Udaipur,Jaipur,Jodhpur",
     "status": "COMPLETE"
   },
   {
@@ -8680,7 +8751,8 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Gansu,Phayao,ViengPhoukha,DamHa,BinhPhuoc,ThaSongKorn,SonHoa,SantaSartaDongxiangbari,PalliSantaSartaDongxiang,Bangkok,Chiang Mai,Chiang Rai,Phuket,Khon Kaen,Udon Thani,Hat Yai,Surat Thani,Phitsanulok,Nakhon Ratchasima,Nakhon Sawan,Chonburi,Lampang,Lamphun,Sukhothai,Kanchanaburi,Ratchaburi,Krabi,Trang,Mae Sot,Nong Khai,Sakon Nakhon,Roi Et,Buriram,Surin,Chaiyaphum,Linxia,Lanzhou,Tianshui,Dingxi,Zhangye,Wuwei,Pingliang,Qingyang,Baiyin,Jinchang,Jiuquan,Zhangye,DaiLinh,TrangBom,SantiSuk,TayNinh,BenLuc,Lianghe,NgaBay,ChauThanh,Deqin,SantaSartaDongxiangpur,SantaSartaDongxiangnagar,SantaSartaDongxiangbad,SantaSartaDongxiangkot,SantaSartaDongxiangwada,SantaSartaDongxiangghat,SantaSartaDongxiangpalli,SantaSartaDongxiangkonda,SantaSartaDongxiangpeta,SantaSartaDongxianguru,SantaSartaDongxianguri,SantaSartaDongxiangooru,SantaSartaDongxianggiri,NagarSantaSartaDongxiang,SantaSartaDongxiangganj,SantaSartaDongxiangbazar,SantaSartaDongxiangbandar,SantaSartaDongxianggram"
+    "b": "Linxia,Lanzhou,Tianshui,Dingxi,Zhangye,Wuwei,Pingliang,Qingyang,Baiyin,Jinchang,Jiuquan,Linxia County,Yongjing,Guanghe,Hezheng,Dongxiang,Jishishan",
+    "status": "COMPLETE"
   },
   {
     "name": "Santa Mongol",
@@ -8689,7 +8761,8 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Gansu,Pua,DucTrong,MaeFaLuang,SantaMongolbari,PalliSantaMongol,Almaty,Nur-Sultan,Shymkent,Karaganda,Aktobe,Taraz,Tashkent,Samarkand,Bukhara,Fergana,Ashgabat,Mary,Turkmenabat,Ulaanbaatar,Erdenet,Darkhan,Choibalsan,Khovd,Bayan-Olgii,Bulgan,Murun,Ulaangom,Altai,Bayanhongor,Mandalgovi,Dalanzadgad,Kharkhorin,Ulan-Ude,Irkutsk,Linxia,Lanzhou,Tianshui,Dingxi,Zhangye,Wuwei,Pingliang,Qingyang,Baiyin,Jinchang,Jiuquan,Zhangye,CaMau,ThuDauMot,Srinagarindra,ChauDoc,TanTru,Shidian,DongHa,CauKe,Fugong,DakDoa,CaiLay,Phongsali,SantaMongolpur,SantaMongolnagar,SantaMongolbad,SantaMongolkot,SantaMongolwada,SantaMongolghat,SantaMongolpalli,SantaMongolkonda,SantaMongolpeta,SantaMongoluru,SantaMongoluri,SantaMongolooru,SantaMongolgiri,NagarSantaMongol,SantaMongolganj,SantaMongolbazar,SantaMongolbandar,SantaMongolgram"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Santa Sijiaji",
@@ -8698,7 +8771,8 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Gansu,Kontum,Ximeng,ChaiPrakarn,BauBang,SantaSijiajibari,PalliSantaSijiaji,Dashoguz,Bishkek,Osh,Jalal-Abad,Karakol,Ulaanbaatar,Erdenet,Khovd,Yakutsk,Mirny,Neryungri,Tiksi,Kyzyl,Gorno-Altaysk,Ulan-Ude,Darkhan,Choibalsan,Bayan-Olgii,Bulgan,Murun,Ulaangom,Altai,Bayanhongor,Mandalgovi,Dalanzadgad,Kharkhorin,Irkutsk,Kyakhta,Linxia,Lanzhou,Tianshui,Dingxi,Zhangye,Wuwei,Pingliang,Qingyang,Baiyin,Jinchang,Jiuquan,Zhangye,CaiLay,ChauDoc,Yunlong,ChauThanh,SaThay,GoCong,Phonsavan,Dran,LaiChau,Sangkha,BenTre,SantaSijiajipur,SantaSijiajinagar,SantaSijiajibad,SantaSijiajikot,SantaSijiajiwada,SantaSijiajighat,SantaSijiajipalli,SantaSijiajikonda,SantaSijiajipeta,SantaSijiajiuru,SantaSijiajiuri,SantaSijiajiooru,SantaSijiajigiri,NagarSantaSijiaji,SantaSijiajiganj,SantaSijiajibazar,SantaSijiajibandar,SantaSijiajigram"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Santa Suonanba",
@@ -8707,7 +8781,8 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Gansu,ChuPro,Sayabury,DaHuoai,PaDaet,NaNoi,Long,TamNong,SantaSuonanbabari,PalliSantaSuonanba,Elista,Almaty,Nur-Sultan,Shymkent,Karaganda,Aktobe,Taraz,Tashkent,Samarkand,Bukhara,Fergana,Ashgabat,Mary,Ulaanbaatar,Erdenet,Darkhan,Choibalsan,Khovd,Bayan-Olgii,Bulgan,Murun,Ulaangom,Altai,Bayanhongor,Mandalgovi,Linxia,Lanzhou,Tianshui,Dingxi,Zhangye,Wuwei,Pingliang,Qingyang,Baiyin,Jinchang,Jiuquan,Zhangye,GiongTrom,Lincang,Tachilek,CaoBang,BuDang,PhanRang,BinhChanh,TraOn,SantaSuonanbapur,SantaSuonanbanagar,SantaSuonanbabad,SantaSuonanbakot,SantaSuonanbawada,SantaSuonanbaghat,SantaSuonanbapalli,SantaSuonanbakonda,SantaSuonanbapeta,SantaSuonanbauru,SantaSuonanbauri,SantaSuonanbaooru,SantaSuonanbagiri,NagarSantaSuonanba,SantaSuonanbaganj,SantaSuonanbabazar,SantaSuonanbabandar,SantaSuonanbagram"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Santa Wangjiaji",
@@ -8716,7 +8791,8 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Gansu,Sing,NaMuen,SantaWangjiajibari,PalliSantaWangjiaji,Turkmenabat,Dashoguz,Bishkek,Osh,Jalal-Abad,Karakol,Ulaanbaatar,Erdenet,Khovd,Yakutsk,Mirny,Neryungri,Tiksi,Kyzyl,Gorno-Altaysk,Darkhan,Choibalsan,Bayan-Olgii,Bulgan,Murun,Ulaangom,Altai,Bayanhongor,Mandalgovi,Dalanzadgad,Kharkhorin,Ulan-Ude,Irkutsk,Kyakhta,Hulunbuir,Linxia,Lanzhou,Tianshui,Dingxi,Zhangye,Wuwei,Pingliang,Qingyang,Baiyin,Jinchang,Jiuquan,Zhangye,DinhQuan,Chun,MongCai,DongPhu,BaoLoc,DucHoa,Wuwei,CangLong,LapVo,Lijiang,TuyAnh,GoCongTay,Mengla,SantaWangjiajipur,SantaWangjiajinagar,SantaWangjiajibad,SantaWangjiajikot,SantaWangjiajiwada,SantaWangjiajighat,SantaWangjiajipalli,SantaWangjiajikonda,SantaWangjiajipeta,SantaWangjiajiuru,SantaWangjiajiuri,SantaWangjiajiooru,SantaWangjiajigiri,NagarSantaWangjiaji,SantaWangjiajiganj,SantaWangjiajibazar,SantaWangjiajibandar,SantaWangjiajigram"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Sapa",
@@ -8725,7 +8801,8 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Lao Cai,Sa Pa,Bac Ha,Muong Khuong,Si Ma Cai,Bac Yen,Ban Ho,Sin Chai,Phong Tho,Mu Cang,San U,Ta Van,Ta Phin,Ban Khoang"
+    "b": "Lao Cai,Sa Pa,Bac Ha,Muong Khuong,Si Ma Cai,Bac Yen,Ban Ho,Sin Chai,Phong Tho,Mu Cang,San U,Ta Van,Ta Phin,Ban Khoang",
+    "status": "COMPLETE"
   },
   {
     "name": "Sapuan",
@@ -8734,7 +8811,8 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Thua Thien Hue,Quang Nam,Binh Thuan,Dak Lak,Dak Nong,XamNeua,DaLat,Sapuanbari,Phnom Penh,Battambang,Kampong Cham,Kampot,Takeo,Kratie,Stung Treng,Sihanoukville,Prey Veng,Mondulkiri,Ratanakiri,Kampong Thom,Banteay Meanchey,Oddar Meanchey,Preah Vihear,Koh Kong,Pailin,Kep,Ranchi,Jamshedpur,Dumka,Hazaribagh,Khandwa,Betul,Chhindwara,Ganjam,Quang Tri,Quang Binh,Da Nang,Quang Ngai,Binh Dinh,Phu Yen,Khanh Hoa,Ninh Thuan,Kon Tum,Gia Lai,Lam Dong,Baoshan,QuangTri,TieuCan,Lushui,DakTo,ChauThanh,Thaton,DienBien,LaiUyen,BoKluea,SocTrang,ThuanAn,PakLay,Sapuanpur,Sapuannagar,Sapuanbad,Sapuankot,Sapuanwada,Sapuanghat,Sapuanpalli,Sapuankonda,Sapuanpeta,Sapuanooru,Sapuangiri,NagarSapuan,Sapuanganj,Sapuanbazar,Sapuanbandar,Sapuangram,PalliSapuan"
+    "b": "Thua Thien Hue,Quang Nam,Binh Thuan,Dak Lak,Dak Nong,Quang Tri,Quang Binh,Da Nang,Quang Ngai,Binh Dinh,Phu Yen,Khanh Hoa,Ninh Thuan,Kon Tum,Gia Lai,Lam Dong",
+    "status": "COMPLETE"
   },
   {
     "name": "Saraiki",
@@ -8743,7 +8821,8 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Rahim Yar Khan,Khanewal,Muzaffargarh,Dera Ghazi Khan,Dera Ismail Khan,Gujranwala,Sargodha,Sahiwal,Okara,Vehari,Kasur,IaGrai,MongLa,MuangKham,DanSim,WiangPaPao,WangNuea,AnKhe,Saraikibari,PalliSaraiki,Tehran,Isfahan,Shiraz,Tabriz,Mashhad,Ahvaz,Kermanshah,Qom,Rasht,Hamadan,Yazd,Arak,Kerman,Zanjan,Multan,Bahawalpur,Lodhran,Faisalabad,Pakpattan,Bahawalnagar,LaoCai,ChonThanh,NamPat,MyTho,CuChi,VinhLong,AnPhu,Jianchuan,Saraikipur,Saraikinagar,Saraikibad,Saraikikot,Saraikiwada,Saraikighat,Saraikipalli,Saraikikonda,Saraikipeta,Saraikiooru,Saraikigiri,NagarSaraiki,Saraikiganj,Saraikibazar,Saraikibandar,Saraikigram"
+    "b": "Rahim Yar Khan,Khanewal,Muzaffargarh,Dera Ghazi Khan,Dera Ismail Khan,Gujranwala,Sargodha,Sahiwal,Okara,Vehari,Kasur,Multan,Bahawalpur,Lodhran,Faisalabad,Pakpattan,Bahawalnagar",
+    "status": "COMPLETE"
   },
   {
     "name": "Sart Kalmyk",
@@ -8752,7 +8831,8 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Elista,Kyzyl,Khovd,Bayan-Olgii,Uvs,Dörbet,Bayat,Torgut,Khoshut,Choros,Urumqi,Bayingolin,Bortala,Altai,Khövsgöl,Tuva,Kalmyk,Zakhchin,Khoton,Myangad,Uriankhai,Ööld,WiangChai,LangSon,PhanThiet,ThanhBinh,ChiangSaen,SartKalmykbari,PalliSartKalmyk,Ulan-Ude,Elista,Almaty,Nur-Sultan,Shymkent,Karaganda,Aktobe,Taraz,Tashkent,Samarkand,Bukhara,Fergana,Ashgabat,BuDop,ThaPlatak,NhaBe,AoLuang,CauKe,Huaping,PhuThien,ChoLach,Puer,Pleiku,SartKalmykpur,SartKalmyknagar,SartKalmykbad,SartKalmykkot,SartKalmykwada,SartKalmykghat,SartKalmykpalli,SartKalmykkonda,SartKalmykpeta,SartKalmykuru,SartKalmykuri,SartKalmykooru,SartKalmykgiri,NagarSartKalmyk,SartKalmykganj,SartKalmykbazar,SartKalmykbandar,SartKalmykgram"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Sauria Paharia",
@@ -8761,7 +8841,8 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Dumka,Jamtara,Deoghar,Godda,Banka,Munger,Khagaria,Jamui,Madhepura,Katihar,Purnia,Araria,Barari,Jhajha,Maheshpura,Ranchi,DongXoai,ViengPhoukha,DamHa,SauriaPahariabari,PalliSauriaPaharia,Delhi,Mumbai,Kolkata,Chennai,Bangalore,Pune,Surat,Lucknow,Jaipur,Nagpur,Indore,Sahibganj,Bhagalpur,Bihariganj,Kishanganj,Chandan,DucHue,Yongchang,ViThanh,SaDec,ShangriLa,DongXuan,GoCongDong,Mohan,DaiLinh,Phayao,TrangBom,SantiSuk,SauriaPahariapur,SauriaPaharianagar,SauriaPahariabad,SauriaPahariakot,SauriaPahariawada,SauriaPahariaghat,SauriaPahariapalli,SauriaPahariakonda,SauriaPahariapeta,SauriaPahariauru,SauriaPahariauri,SauriaPahariaooru,SauriaPahariagiri,NagarSauriaPaharia,SauriaPahariaganj,SauriaPahariabazar,SauriaPahariabandar,SauriaPahariagram"
+    "b": "Dumka,Jamtara,Deoghar,Godda,Banka,Munger,Khagaria,Jamui,Madhepura,Katihar,Purnia,Araria,Barari,Jhajha,Maheshpura,Sahibganj,Bhagalpur,Bihariganj,Kishanganj,Chandan",
+    "status": "COMPLETE"
   },
   {
     "name": "Savi",
@@ -8770,7 +8851,8 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Dhofar,Salalah,Mirbat,Sadah,Taqah,Rakhyut,Shihr,Mukalla,Ash Shihr,Al-Ghaydah,Al-Mukalla,Aden,Taiz,Ibb,Sana'a,Sa'dah,Hajjah,Al Hudaydah,Al Bayda',Dhamar,Lahij,Shabwah,Hadhramaut,Sayun,Tarim,Al-Qatn,Shibam,ChuSe,CaiBe,DonDuong,Santikhiri,PakMong,Pua,Savipalli,Savikonda,Savipeta,Saviooru,Savigiri,Savibari,Saviganj,Savibazar,Savibandar,Savigram,PalliSavi,Amran,Abyan,TraVinh,Gongshan,Udomxai,PhuocAn,CaMau,ThuDauMot,Srinagarindra,ChauDoc,TanTru,Savipur,Savinagar,Savibad,Savikot,Saviwada,Savighat,NagarSavi"
+    "b": "Dhofar,Salalah,Mirbat,Sadah,Taqah,Rakhyut,Shihr,Mukalla,Ash Shihr,Al-Ghaydah,Al-Mukalla,Aden,Taiz,Ibb,Sana'a,Sa'dah,Hajjah,Al Hudaydah,Al Bayda',Dhamar,Lahij,Shabwah,Hadhramaut,Sayun,Tarim,Al-Qatn,Shibam,Amran,Abyan",
+    "status": "COMPLETE"
   },
   {
     "name": "Sedang",
@@ -8779,7 +8861,8 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Thua Thien Hue,Quang Nam,Binh Thuan,Dak Lak,Dak Nong,XiengKhouang,Prem,SopPrap,Kontum,Ximeng,Sedangbari,PalliSedang,Phnom Penh,Battambang,Kampong Cham,Kampot,Takeo,Kratie,Stung Treng,Sihanoukville,Prey Veng,Mondulkiri,Ratanakiri,Kampong Thom,Banteay Meanchey,Oddar Meanchey,Preah Vihear,Koh Kong,Pailin,Kep,Ranchi,Jamshedpur,Dumka,Hazaribagh,Quang Tri,Quang Binh,Da Nang,Quang Ngai,Binh Dinh,Phu Yen,Khanh Hoa,Ninh Thuan,Kon Tum,Gia Lai,Lam Dong,Fang,SonLa,PhuGiao,Sapan,TraVinh,TanUyen,CaiLay,ChauDoc,Yunlong,ChauThanh,Sedangpur,Sedangnagar,Sedangbad,Sedangkot,Sedangwada,Sedangghat,Sedangpalli,Sedangkonda,Sedangpeta,Sedangooru,Sedanggiri,NagarSedang,Sedangganj,Sedangbazar,Sedangbandar,Sedanggram"
+    "b": "Thua Thien Hue,Quang Nam,Binh Thuan,Dak Lak,Dak Nong,Quang Tri,Quang Binh,Da Nang,Quang Ngai,Binh Dinh,Phu Yen,Khanh Hoa,Ninh Thuan,Kon Tum,Gia Lai,Lam Dong",
+    "status": "COMPLETE"
   },
   {
     "name": "Shan macro entry",
@@ -8788,7 +8871,8 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Muse,Thibaw,Mongmit,Mongphak,Mongyaw,Mongsit,Mongnai,Pinglang,Ho-mak,Kunhing,Loilen,Nansang,Kehsi,Pinlaung,Hopong,Yatsauk,Shwenyaung,Heho,LocNinh,AyunPa,ChuPro,Sayabury,DaHuoai,Shanmacroentrybari,PalliShanmacroentry,Vientiane,Luang Prabang,Kuala Lumpur,George Town,Johor Bahru,Kota Kinabalu,Kuching,Jakarta,Surabaya,Bandung,Yogyakarta,Taunggyi,Lashio,Kengtung,Tachilek,Mong La,Loikaw,Hsipaw,Kyaukme,Tangyan,Mongpan,Aungban,Kalaw,ThungChang,GoCong,HocMon,SobPrab,TamBinh,HongNgu,Heqing,GiongTrom,Lincang,Tachilek,Shanmacroentrypur,Shanmacroentrynagar,Shanmacroentrybad,Shanmacroentrykot,Shanmacroentrywada,Shanmacroentryghat,Shanmacroentrypalli,Shanmacroentrykonda,Shanmacroentrypeta,Shanmacroentryooru,Shanmacroentrygiri,NagarShanmacroentry,Shanmacroentryganj,Shanmacroentrybazar,Shanmacroentrybandar,Shanmacroentrygram"
+    "b": "Muse,Thibaw,Mongmit,Mongphak,Mongyaw,Mongsit,Mongnai,Pinglang,Ho-mak,Kunhing,Loilen,Nansang,Kehsi,Pinlaung,Hopong,Yatsauk,Shwenyaung,Heho,LocNinh,AyunPa,ChuPro,Sayabury,DaHuoai,Tachilek,Mong La,Loikaw,Hsipaw,Kyaunkme,Tangyan,Mongpan,Aungban,Kalaw,Taunggyi,Lashio,Kengtung",
+    "status": "COMPLETE"
   },
   {
     "name": "Sherpa",
@@ -8807,16 +8891,17 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Ulan-Ude,Irkutsk,Chita,Ulaanbaatar,Elista,Kyzyl,Khovd,SonHoa,LuangNamtha,DiLinh,DokKhamtai,Nateuy,BanLuang,ShilingolXilingolKhalkhabari,PalliShilingolXilingolKhalkha,Erdenet,Darkhan,Choibalsan,Bayan-Olgii,Bulgan,Murun,Ulaangom,Altai,Bayanhongor,Mandalgovi,Dalanzadgad,Kharkhorin,Kyakhta,Hulunbuir,Arxan,TanPhuoc,LongKhanh,HaTien,BinhDuong,PhuKamYao,TanAn,CanDuoc,Tengchong,LongMy,ShilingolXilingolKhalkhapur,ShilingolXilingolKhalkhanagar,ShilingolXilingolKhalkhabad,ShilingolXilingolKhalkhakot,ShilingolXilingolKhalkhawada,ShilingolXilingolKhalkhaghat,ShilingolXilingolKhalkhapalli,ShilingolXilingolKhalkhakonda,ShilingolXilingolKhalkhapeta,ShilingolXilingolKhalkhauru,ShilingolXilingolKhalkhauri,ShilingolXilingolKhalkhaooru,ShilingolXilingolKhalkhagiri,NagarShilingolXilingolKhalkha,ShilingolXilingolKhalkhaganj,ShilingolXilingolKhalkhabazar,ShilingolXilingolKhalkhabandar,ShilingolXilingolKhalkhagram"
+    "b": "",
+    "status": "WAITING"
   },
-  {
+{
     "name": "Shina",
     "i": 200486,
     "min": 4,
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Gilgit,Skardu,Bunji,Astore,Hunza,Chilas,Diamer,Kargil,Leh,Ladakh,Nubra,Zanskar,MaeFaLuang,ChiangHai,BanKok,XamNeua,Shinabari,PalliShina,Tehran,Isfahan,Shiraz,Tabriz,Mashhad,Ahvaz,Kermanshah,Qom,Rasht,Hamadan,Yazd,Arak,Kerman,Zanjan,Sari,Qazvin,Nagar,LaiThieu,ThaWangPha,BacLieu,DiAn,TanChau,ChauThanh,Baoshan,QuangTri,TieuCan,Lushui,DakTo,Shinapur,Shinanagar,Shinabad,Shinakot,Shinawada,Shinaghat,Shinapalli,Shinakonda,Shinapeta,Shinaooru,Shinagiri,NagarShina,Shinaganj,Shinabazar,Shinabandar,Shinagram",
+    "b": "Gilgit,Skardu,Bunji,Astore,Hunza,Chilas,Diamer,Kargil,Leh,Ladakh,Nubra,Zanskar",
     "status": "COMPLETE"
   },
   {
@@ -8826,7 +8911,8 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Chilas,Swat,Dir,Mansehra,Shangla,Chitral,Astore,Diamer,Gilgit,BenCat,KoKha,CaiBe,IaGrai,MongLa,MuangKham,DanSim,WiangPaPao,ShinaKohistanibari,PalliShinaKohistani,Tehran,Isfahan,Shiraz,Tabriz,Mashhad,Ahvaz,Kermanshah,Qom,Rasht,Hamadan,Yazd,Arak,Kerman,Zanjan,Sari,Qazvin,Kohistan,Battagram,Kaghan,BenTre,TanChau,Eryuan,Pleiku,Cangyuan,LaoCai,ChonThanh,ShinaKohistanipur,ShinaKohistaninagar,ShinaKohistanibad,ShinaKohistanikot,ShinaKohistaniwada,ShinaKohistanighat,ShinaKohistanipalli,ShinaKohistanikonda,ShinaKohistanipeta,ShinaKohistaniuru,ShinaKohistaniuri,ShinaKohistaniooru,ShinaKohistanigiri,NagarShinaKohistani,ShinaKohistaniganj,ShinaKohistanibazar,ShinaKohistanibandar,ShinaKohistanigram"
+    "b": "Chilas,Swat,Dir,Mansehra,Shangla,Chitral,Astore,Diamer,Gilgit,Kohistan,Battagram,Kaghan",
+    "status": "COMPLETE"
   },
   {
     "name": "Shira Yugur",
@@ -8835,7 +8921,8 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Ganzhou,Qinghai,Taohe,TamNong,CheoReo,BaTri,DucCo,MaeSai,PakLai,CatTien,WiangChai,LangSon,PhanThiet,ShiraYugurbari,PalliShiraYugur,Ulaanbaatar,Erdenet,Darkhan,Choibalsan,Khovd,Bayan-Olgii,Bulgan,Murun,Ulaangom,Altai,Bayanhongor,Mandalgovi,Dalanzadgad,Kharkhorin,Ulan-Ude,Irkutsk,Kyakhta,Hulunbuir,Zhangye,Sunan,Wuwei,Jinchang,Lanzhou,Xining,Zhuoni,Lintan,Hezuo,Yongsheng,Shuangjiang,BuDop,ThaPlatak,NhaBe,ShiraYugurpur,ShiraYugurnagar,ShiraYugurbad,ShiraYugurkot,ShiraYugurwada,ShiraYugurghat,ShiraYugurpalli,ShiraYugurkonda,ShiraYugurpeta,ShiraYugururu,ShiraYugururi,ShiraYugurooru,ShiraYugurgiri,NagarShiraYugur,ShiraYugurganj,ShiraYugurbazar,ShiraYugurbandar,ShiraYugurgram"
+    "b": "Zhangye,Sunan,Wuwei,Jinchang,Lanzhou,Xining,Zhuoni,Lintan,Hezuo,Yongsheng,Shuangjiang",
+    "status": "COMPLETE"
   },
   {
     "name": "Shirongol",
@@ -8844,7 +8931,8 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Gansu,MuangSai,MaeCharim,TienYen,BinhLong,PongPrasat,DongXoai,Shirongolbari,PalliShirongol,Ulaanbaatar,Erdenet,Darkhan,Choibalsan,Khovd,Bayan-Olgii,Bulgan,Murun,Ulaangom,Altai,Bayanhongor,Mandalgovi,Dalanzadgad,Kharkhorin,Ulan-Ude,Irkutsk,Kyakhta,Hulunbuir,Arxan,Elista,Hailar,Manzhouli,Ordos,Qiqihar,Morin Dawa,Hohhot,Linxia,Lanzhou,Tianshui,Dingxi,Zhangye,Wuwei,Pingliang,Qingyang,Baiyin,Jinchang,Jiuquan,Zhangye,Mengla,ThuongDuc,Thoeng,XuanLoc,DucHue,Yongchang,ViThanh,SaDec,ShangriLa,Shirongolpur,Shirongolnagar,Shirongolbad,Shirongolkot,Shirongolwada,Shirongolghat,Shirongolpalli,Shirongolkonda,Shirongolpeta,Shirongolooru,Shirongolgiri,NagarShirongol,Shirongolganj,Shirongolbazar,Shirongolbandar,Shirongolgram"
+    "b": "Gansu,Zhangye,Wuwei,Jinchang,Lanzhou,Tianshui,Dingxi,Pingliang,Qingyang,Baiyin,Wuwei,Jiuquan,Morin Dawa,Hohhot,Linxia",
+    "status": "COMPLETE"
   },
   {
     "name": "Shirwi",
@@ -8853,7 +8941,8 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Dhofar,Salalah,Mirbat,Sadah,Taqah,Rakhyut,Shihr,Mukalla,Ash Shihr,Al-Ghaydah,Al-Mukalla,Aden,Taiz,Ibb,Sana'a,Sa'dah,Hajjah,Al Hudaydah,Al Bayda',Dhamar,Lahij,Shabwah,Hadhramaut,Sayun,Tarim,Al-Qatn,Shibam,SongKhwae,RachGia,BienHoa,SiNakharin,LongXuyen,Longling,ChuSe,CaiBe,DonDuong,Shirwipur,Shirwinagar,Shirwibad,Shirwikot,Shirwiwada,Shirwighat,Shirwipalli,Shirwikonda,Shirwipeta,Shirwiooru,Shirwigiri,Shirwibari,Shirwiganj,Shirwibazar,Shirwibandar,Shirwigram,PalliShirwi,Amran,Abyan,NhonTrach,CanGiuoc,KienGiang,TraVinh,Gongshan,Udomxai,NagarShirwi"
+    "b": "Dhofar,Salalah,Mirbat,Sadah,Taqah,Rakhyut,Shihr,Mukalla,Ash Shihr,Al-Ghaydah,Al-Mukalla,Aden,Taiz,Ibb,Sana'a,Sa'dah,Hajjah,Al Hudaydah,Al Bayda',Dhamar,Lahij,Shabwah,Hadhramaut,Sayun,Tarim,Al-Qatn,Shibam,Amran,Abyan",
+    "status": "COMPLETE"
   },
   {
     "name": "Sholaga",
@@ -8862,7 +8951,8 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Kannur,Kozhikode,Malappuram,Palakkad,Thrissur,Kottayam,Alappuzha,Pathanamthitta,Kollam,Thiruvananthapuram,Wayanad,Idukki,XiengKhouang,Prem,Sholagabari,PalliSholaga,Chennai,Coimbatore,Madurai,Tiruchirappalli,Salem,Tirunelveli,Vellore,Thoothukudi,Kanchipuram,Thanjavur,Ooty,Coonoor,Mysore,Mangalore,Hubballi,Belagavi,Davangere,Shivamogga,Udupi,Kochi,PakLay,TanHiep,TanThanh,Changning,ALuoi,CangLong,Menglian,NgocHoi,TanPhuoc,Fang,SonLa,PhuGiao,Sapan,Sholagapur,Sholaganagar,Sholagabad,Sholagakot,Sholagawada,Sholagaghat,Sholagapalli,Sholagakonda,Sholagapeta,Sholagaooru,Sholagagiri,NagarSholaga,Sholagaganj,Sholagabazar,Sholagabandar,Sholagagram"
+    "b": "Kannur,Kozhikode,Malappuram,Palakkad,Thrissur,Kottayam,Alappuzha,Pathanamthitta,Kollam,Thiruvananthapuram,Wayanad,Idukki",
+    "status": "COMPLETE"
   },
   {
     "name": "Sikkimese",
@@ -8871,7 +8961,8 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Gangtok,Pelling,Namchi,Ravangla,Rangpo,Dikchu,Soreng,Tsomgo,Rinchenpong,Chungthang,Singtam,Rangli,Rongli,Aritar,Mangshila,Chakung,Rhenock,Nathula,La,Zul,Shigatse,Gyantse,Nagqu,Nyingchi,Chamdo,Kangding,Shangri La,Tawang,Mangan"
+    "b": "Gangtok,Pelling,Namchi,Ravangla,Rangpo,Dikchu,Soreng,Tsomgo,Rinchenpong,Chungthang,Singtam,Rangli,Rongli,Aritar,Mangshila,Chakung,Rhenock,Nathula,La,Zul,Mangan",
+    "status": "COMPLETE"
   },
   {
     "name": "Sindhi Bhil",
@@ -8880,7 +8971,8 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Sukkur,Larkana,Nawabshah,Mirpur Khas,Dadu,Badin,Thatta,Ghotki,Sanghar,Mithi,Ratodero,Mehar,Kamber,Moro,Sakrand,Tando Muhammad Khan,Tando Allahyar,Matiari,Hala,Sinjhoro,Naushro Feroze,Kandiaro,Daharki,Pano Aqil,Rohri,Kashmor,Tando Jan Mohammad,Bhit Shah,ChiangSaen,ThongMySai,TanPhu,QuangNinh,PhuocLong,RongKwang,DaLat,CanGio,TalokMuh,SindhiBhilbari,PalliSindhiBhil,Visakhapatnam,Thiruvananthapuram,Madurai,Mysore,Mangalore,Nagpur,Indore,Bhopal,Delhi,Mumbai,Kolkata,Chennai,Bangalore,Pune,Jaipur,Lucknow,Varanasi,Agra,Amritsar,Chandigarh,Hyderabad,Shikarpur,Khairpur,Umarkot,Shahdadkot,Sehwan,Dhurkot,ChiangMuan,TieuCan,CaoLanh,Ninglang,SongCau,ChoGao,SindhiBhilpur,SindhiBhilnagar,SindhiBhilbad,SindhiBhilkot,SindhiBhilwada,SindhiBhilghat,SindhiBhilpalli,SindhiBhilkonda,SindhiBhilpeta,SindhiBhiluru,SindhiBhiluri,SindhiBhilooru,SindhiBhilgiri,NagarSindhiBhil,SindhiBhilganj,SindhiBhilbazar,SindhiBhilbandar,SindhiBhilgram"
+    "b": "Sukkur,Larkana,Nawabshah,Mirpur Khas,Dadu,Badin,Thatta,Ghotki,Sanghar,Mithi,Ratodero,Mehar,Kamber,Moro,Sakrand,Tando Muhammad Khan,Tando Allahyar,Matiari,Hala,Sinjhoro,Naushro Feroze,Kandiaro,Daharki,Pano Aqil,Rohri,Kashmor,Tando Jan Mohammad,Bhit Shah,Shikarpur,Khairpur,Umarkot,Shahdadkot,Sehwan,Dhurkot",
+    "status": "COMPLETE"
   },
   {
     "name": "Somray",
@@ -8889,7 +8981,8 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "DamHa,BinhPhuoc,ThaSongKorn,SonHoa,LuangNamtha,DiLinh,DokKhamtai,Nateuy,Somraybari,PalliSomray,Shigatse,Gyantse,Nagqu,Nyingchi,Chamdo,Kangding,Shangri La,Tawang,Bomdila,Along,Yingkiong,Basar,Kokrajhar,Guwahati,Dibrugarh,Tinsukia,Dimapur,Kohima,Mokokchung,Imphal,Ukhrul,Churachandpur,Battambang,Pursat,Kampong Thom,Kampong Cham,Kampong Speu,Kandal,Takeo,Kratie,Stung Treng,Ratanakiri,Mondulkiri,Preah Vihear,Kampong Thom,Kampong Cham,Kampong Speu,Kandal,Takeo,Kratie,Stung Treng,Ratanakiri,Mondulkiri,Preah Vihear,TayNinh,BenLuc,Lianghe,NgaBay,ChauThanh,Deqin,TanPhuoc,Somraypur,Somraynagar,Somraybad,Somraykot,Somraywada,Somrayghat,Somraypalli,Somraykonda,Somraypeta,Somrayooru,Somraygiri,NagarSomray,Somrayganj,Somraybazar,Somraybandar,Somraygram"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Sonha",
@@ -8898,7 +8991,8 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Banka,Munger,Khagaria,Jamui,Madhepura,Katihar,Purnia,Araria,Barari,Jhajha,Maheshpura,DucTrong,MaeFaLuang,ChiangHai,Sonhabari,PalliSonha,Dumka,Sahibganj,Godda,Pakur,Bihariganj,Kishanganj,Chandan,Ranchi,TanTru,Shidian,DongHa,CauKe,Fugong,DakDoa,CaiLay,Phongsali,LaiThieu,ThaWangPha,BacLieu,DiAn,Sonhapur,Sonhanagar,Sonhabad,Sonhakot,Sonhawada,Sonhaghat,Sonhapalli,Sonhakonda,Sonhapeta,Sonhaooru,Sonhagiri,NagarSonha,Sonhaganj,Sonhabazar,Sonhabandar,Sonhagram"
+    "b": "Banka,Munger,Khagaria,Jamui,Madhepura,Katihar,Purnia,Araria,Barari,Jhajha,Maheshpura,Dumka,Sahibganj,Godda,Pakur,Bihariganj,Kishanganj,Chandan",
+    "status": "COMPLETE"
   },
   {
     "name": "Sonid Mongol",
@@ -8907,7 +9001,8 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Ulan-Ude,Irkutsk,Chita,Ulaanbaatar,Elista,Kyzyl,Khovd,Xilinhot,Ximeng,ChaiPrakarn,BauBang,BenCat,KoKha,CaiBe,SonidMongolbari,PalliSonidMongol,Mary,Turkmenabat,Dashoguz,Bishkek,Osh,Jalal-Abad,Karakol,Erdenet,Yakutsk,Mirny,Neryungri,Tiksi,Chifeng,Tongliao,SaThay,GoCong,Phonsavan,Dran,LaiChau,Sangkha,BenTre,TanChau,Eryuan,SonidMongolpur,SonidMongolnagar,SonidMongolbad,SonidMongolkot,SonidMongolwada,SonidMongolghat,SonidMongolpalli,SonidMongolkonda,SonidMongolpeta,SonidMongoluru,SonidMongoluri,SonidMongolooru,SonidMongolgiri,NagarSonidMongol,SonidMongolganj,SonidMongolbazar,SonidMongolbandar,SonidMongolgram"
+    "b": "Xilinhot,Ximeng,Chifeng,Tongliao",
+    "status": "COMPLETE"
   },
   {
     "name": "Southern Khalkha",
@@ -8916,7 +9011,8 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Ulaanbaatar,Erdenet,Murun,Baruun-Urt,DaHuoai,PaDaet,NaNoi,Long,TamNong,CheoReo,BaTri,DucCo,SouthernKhalkhabari,PalliSouthernKhalkha,Darkhan,Choibalsan,Khovd,Bayan-Olgii,Bulgan,Ulaangom,Altai,Bayanhongor,Mandalgovi,Dalanzadgad,Kharkhorin,Ulan-Ude,Irkutsk,Kyakhta,Hulunbuir,Arxan,Elista,CaoBang,BuDang,PhanRang,BinhChanh,TraOn,Yongsheng,Shuangjiang,SouthernKhalkhapur,SouthernKhalkhanagar,SouthernKhalkhabad,SouthernKhalkhakot,SouthernKhalkhawada,SouthernKhalkhaghat,SouthernKhalkhapalli,SouthernKhalkhakonda,SouthernKhalkhapeta,SouthernKhalkhauru,SouthernKhalkhauri,SouthernKhalkhaooru,SouthernKhalkhagiri,NagarSouthernKhalkha,SouthernKhalkhaganj,SouthernKhalkhabazar,SouthernKhalkhabandar,SouthernKhalkhagram"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Southern Tai",
@@ -8925,7 +9021,8 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Uttaradit,NaMuen,MuangSai,MaeCharim,SouthernTaibari,PalliSouthernTai,Chiang Mai,Chiang Rai,Lampang,Lamphun,Mae Hong Son,Nan,Phayao,Phrae,Sukhothai,Phetchabun,Phitsanulok,BaoLoc,DucHoa,Wuwei,CangLong,LapVo,Lijiang,TuyAnh,GoCongTay,Mengla,ThuongDuc,Thoeng,XuanLoc,SouthernTaipur,SouthernTainagar,SouthernTaibad,SouthernTaikot,SouthernTaiwada,SouthernTaighat,SouthernTaipalli,SouthernTaikonda,SouthernTaipeta,SouthernTaiuru,SouthernTaiuri,SouthernTaiooru,SouthernTaigiri,NagarSouthernTai,SouthernTaiganj,SouthernTaibazar,SouthernTaibandar,SouthernTaigram"
+    "b": "Uttaradit,Chiang Mai,Chiang Rai,Lampang,Lamphun,Mae Hong Son,Nan,Phayao,Phrae,Sukhothai,Phetchabun,Phitsanulok",
+    "status": "COMPLETE"
   },
   {
     "name": "Southern Thai",
@@ -8934,7 +9031,8 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Surat Thani,Nakhon Si Thammarat,Songkhla,Pattani,Yala,Narathiwat,Trang,Phatthalung,Chumphon,Ranong,Phuket,Krabi,Bokeo,Pong,NamBak,SongKhwae,RachGia,BienHoa,SiNakharin,LongXuyen,SouthernThaibari,PalliSouthernThai,Palembang,Makassar,Denpasar,Bangkok,Chiang Mai,Phuket,Chiang Rai,Khon Kaen,Udon Thani,Hat Yai,Phitsanulok,Nakhon Ratchasima,Nakhon Sawan,LongMy,LaiVung,Weixi,CungSon,MyTho,BaoLoc,NhonTrach,SouthernThaipur,SouthernThainagar,SouthernThaibad,SouthernThaikot,SouthernThaiwada,SouthernThaighat,SouthernThaipalli,SouthernThaikonda,SouthernThaipeta,SouthernThaiuru,SouthernThaiuri,SouthernThaiooru,SouthernThaigiri,NagarSouthernThai,SouthernThaiganj,SouthernThaibazar,SouthernThaibandar,SouthernThaigram"
+    "b": "Surat Thani,Nakhon Si Thammarat,Songkhla,Pattani,Yala,Narathiwat,Trang,Phatthalung,Chumphon,Ranong,Phuket,Krabi",
+    "status": "COMPLETE"
   },
   {
     "name": "Southern Tungusic",
@@ -8943,7 +9041,8 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Khabarovsk,Vladivostok,Blagoveshchensk,Tongjiang,Komsomolsk-on-Amur,Bikin,Lesozavodsk,Dalnerechensk,Dolinsk,Yuzhno-Sakhalinsk,Ulan-Ude,Chita,Amursk,Artyom,Ussuriysk,Partizansk,Nakhodka,Spassk-Dalny,Luchegorsk,Dalnegorsk,Kavalerovo,Vanino,Chernyshevsky,Neryungri,Tygda,Mogocha,XamNeua,DaLat,SouthernTungusicbari,PalliSouthernTungusic,Gorno-Altaysk,Ulan-Ude,Elista,Almaty,Nur-Sultan,Shymkent,Karaganda,Aktobe,Taraz,Tashkent,Samarkand,Bukhara,Fergana,Harbin,Qiqihar,Heihe,Fuyuan,ChauThanh,Thaton,DienBien,LaiUyen,BoKluea,SocTrang,ThuanAn,PakLay,TanHiep,TanThanh,Changning,ALuoi,CangLong,SouthernTungusicpur,SouthernTungusicnagar,SouthernTungusicbad,SouthernTungusickot,SouthernTungusicwada,SouthernTungusicghat,SouthernTungusicpalli,SouthernTungusickonda,SouthernTungusicpeta,SouthernTungusicuru,SouthernTungusicuri,SouthernTungusicooru,SouthernTungusicgiri,NagarSouthernTungusic,SouthernTungusicganj,SouthernTungusicbazar,SouthernTungusicbandar,SouthernTungusicgram"
+    "b": "Khabarovsk,Vladivostok,Blagoveshchensk,Tongjiang,Komsomolsk-on-Amur,Bikin,Lesozavodsk,Dalnerechensk,Dolinsk,Yuzhno-Sakhalinsk,Ulan-Ude,Chita,Amursk,Artyom,Ussuriysk,Partizansk,Nakhodka,Spassk-Dalny,Luchegorsk,Dalnegorsk,Kavalerovo,Vanino,Chernyshevsky,Neryungri,Tygda,Mogocha",
+    "status": "COMPLETE"
   },
   {
     "name": "Sri Lankan English",
@@ -8952,7 +9051,8 @@ window.asiaNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Colombo,Gampaha,Kalutara,Kandy,Galle,Matara,Anuradhapura,Polonnaruwa,Batticaloa,Trincomalee,Kurunegala,Jaffna,Mannar,Vavuniya,Kilinochchi,Mullaitivu,Puttalam,Badulla,Monaragala,Ratnapura,Kegalle,Hambantota,Matale,Nuwara Eliya,Gampola,WangNuea,AnKhe,MoCay,ChuPah,KengTung,SriLankanEnglishbari,PalliSriLankanEnglish,LaoCai,ChonThanh,NamPat,MyTho,CuChi,VinhLong,AnPhu,Jianchuan,Gengma,Xaisomboun,SriLankanEnglishpur,SriLankanEnglishnagar,SriLankanEnglishbad,SriLankanEnglishkot,SriLankanEnglishwada,SriLankanEnglishghat,SriLankanEnglishpalli,SriLankanEnglishkonda,SriLankanEnglishpeta,SriLankanEnglishuru,SriLankanEnglishuri,SriLankanEnglishooru,SriLankanEnglishgiri,NagarSriLankanEnglish,SriLankanEnglishganj,SriLankanEnglishbazar,SriLankanEnglishbandar,SriLankanEnglishgram"
+    "b": "Colombo,Gampaha,Kalutara,Kandy,Galle,Matara,Anuradhapura,Polonnaruwa,Batticaloa,Trincomalee,Kurunegala,Jaffna,Mannar,Vavuniya,Kilinochchi,Mullaitivu,Puttalam,Badulla,Monaragala,Ratnapura,Kegalle,Hambantota,Matale,Nuwara Eliya,Gampola",
+    "status": "COMPLETE"
   },
   {
     "name": "Sri Lankan Portuguese Creole",
@@ -8961,7 +9061,8 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Colombo,Hambantota,Kandy,Galle,Badulla,Nuwara Eliya,Trincomalee,Batticaloa,Kurunegala,Welimada,Beruwala,Kirinda,Matara,Tangalle,Ampara,Polonnaruwa,Anuradhapura,Jaffna,Mannar,Batticaloa,Trincomalee,Galle,Matara,Colombo,Kandy,Hambantota,Nuwara Eliya,Badulla,Kurunegala,Welimada,Beruwala,Kirinda,Tangalle,Ampara,Polonnaruwa,Anuradhapura,Jaffna,Mannar,ThanhBinh,ChiangSaen,ThongMySai,TanPhu,QuangNinh,PhuocLong,SriLankanPortugueseCreolebari,PalliSriLankanPortugueseCreole,NhaBe,AoLuang,CauKe,Huaping,PhuThien,ChoLach,Puer,Pleiku,ChiangMuan,SriLankanPortugueseCreolepur,SriLankanPortugueseCreolenagar,SriLankanPortugueseCreolebad,SriLankanPortugueseCreolekot,SriLankanPortugueseCreolewada,SriLankanPortugueseCreoleghat,SriLankanPortugueseCreolepalli,SriLankanPortugueseCreolekonda,SriLankanPortugueseCreolepeta,SriLankanPortugueseCreoleuru,SriLankanPortugueseCreoleuri,SriLankanPortugueseCreoleooru,SriLankanPortugueseCreolegiri,NagarSriLankanPortugueseCreole,SriLankanPortugueseCreoleganj,SriLankanPortugueseCreolebazar,SriLankanPortugueseCreolebandar,SriLankanPortugueseCreolegram"
+    "b": "Colombo,Hambantota,Kandy,Galle,Badulla,Nuwara Eliya,Trincomalee,Batticaloa,Kurunegala,Welimada,Beruwala,Kirinda,Matara,Tangalle,Ampara,Polonnaruwa,Anuradhapura,Jaffna,Mannar",
+    "status": "COMPLETE"
   },
   {
     "name": "Standard Tibetan",
@@ -8970,7 +9071,8 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Shigatse,Chamdo,Nagqu,Nyingchi,Gyantse,Tsetang,Drigung,Ralung,Samye,Sakya,Reting,Tashilhunpo,Drepung,Sera,Ganden,Norbu Lingka,Potala,Barkhor,Amdo,Kham,U-Tsang,ViengPhoukha,DamHa,BinhPhuoc,ThaSongKorn,StandardTibetanbari,Kangding,Shangri La,Tawang,Bomdila,Along,Yingkiong,Lhasa,ShangriLa,DongXuan,GoCongDong,Mohan,DaiLinh,Phayao,TrangBom,SantiSuk,TayNinh,BenLuc,Lianghe,StandardTibetanpur,StandardTibetannagar,StandardTibetanbad,StandardTibetankot,StandardTibetanwada,StandardTibetanghat,StandardTibetanpalli,StandardTibetankonda,StandardTibetanpeta,StandardTibetanuru,StandardTibetanuri,StandardTibetanooru,StandardTibetangiri,NagarStandardTibetan,StandardTibetanganj,StandardTibetanbazar,StandardTibetanbandar,StandardTibetangram,PalliStandardTibetan"
+    "b": "Lhasa,Shigatse,Chamdo,Nagqu,Nyingchi,Gyantse,Tsetang,Drigung,Ralung,Samye,Sakya,Reting,Tashilhunpo,Drepung,Sera,Ganden,Norbu Lingka,Potala,Barkhor,Amdo,Kham,U-Tsang",
+    "status": "COMPLETE"
   },
   {
     "name": "Standard Zhuang",
@@ -8979,7 +9081,8 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Nanning,Liuzhou,Guilin,Baise,Qinzhou,Fangchenggang,Chongzuo,Laibin,Hechi,Binyang,Hengzhou,Wuming,Yongning,Fusui,Shangsi,Pinyang,Daxin,Ningming,Xiangzhou,DonDuong,Santikhiri,PakMong,Pua,StandardZhuangbari,PalliStandardZhuang,Bangkok,Chiang Mai,Chiang Rai,Phuket,Khon Kaen,Udon Thani,Hat Yai,Surat Thani,Phitsanulok,Nakhon Ratchasima,Lingshan,Duan,Mashan,Duanshan,Yulin,PhuocAn,CaMau,ThuDauMot,Srinagarindra,ChauDoc,TanTru,Shidian,DongHa,CauKe,Fugong,DakDoa,StandardZhuangpur,StandardZhuangnagar,StandardZhuangbad,StandardZhuangkot,StandardZhuangwada,StandardZhuangghat,StandardZhuangpalli,StandardZhuangkonda,StandardZhuangpeta,StandardZhuanguru,StandardZhuanguri,StandardZhuangooru,StandardZhuanggiri,NagarStandardZhuang,StandardZhuangganj,StandardZhuangbazar,StandardZhuangbandar,StandardZhuanggram"
+    "b": "Nanning,Liuzhou,Guilin,Baise,Qinzhou,Fangchenggang,Chongzuo,Laibin,Hechi,Binyang,Hengzhou,Wuming,Yongning,Fusui,Shangsi,Pinyang,Daxin,Ningming,Xiangzhou",
+    "status": "COMPLETE"
   },
   {
     "name": "Stieng",
@@ -8988,7 +9091,8 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Thua Thien Hue,Quang Nam,Binh Thuan,Dak Lak,Dak Nong,SopPrap,Kontum,Ximeng,ChaiPrakarn,Stiengbari,PalliStieng,Phnom Penh,Battambang,Kampong Cham,Kampot,Takeo,Kratie,Stung Treng,Sihanoukville,Prey Veng,Mondulkiri,Ratanakiri,Kampong Thom,Banteay Meanchey,Oddar Meanchey,Preah Vihear,Koh Kong,Pailin,Kep,Ranchi,Jamshedpur,Dumka,Hazaribagh,Khandwa,Quang Tri,Quang Binh,Da Nang,Quang Ngai,Binh Dinh,Phu Yen,Khanh Hoa,Ninh Thuan,Kon Tum,Gia Lai,Lam Dong,Sapan,TraVinh,TanUyen,CaiLay,ChauDoc,Yunlong,ChauThanh,SaThay,GoCong,Phonsavan,Dran,Stiengpur,Stiengnagar,Stiengbad,Stiengkot,Stiengwada,Stiengghat,Stiengpalli,Stiengkonda,Stiengpeta,Stiengooru,Stienggiri,NagarStieng,Stiengganj,Stiengbazar,Stiengbandar,Stienggram"
+    "b": "Thua Thien Hue,Quang Nam,Binh Thuan,Dak Lak,Dak Nong,Quang Tri,Quang Binh,Da Nang,Quang Ngai,Binh Dinh,Phu Yen,Khanh Hoa,Ninh Thuan,Kon Tum,Gia Lai,Lam Dong",
+    "status": "COMPLETE"
   },
   {
     "name": "Su'",
@@ -8997,7 +9101,8 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Thua Thien Hue,Quang Nam,Binh Thuan,Dak Lak,Dak Nong,AyunPa,ChuPro,Sayabury,DaHuoai,PaDaet,NaNoi,UriSu,Subari,PalliSu,Shigatse,Gyantse,Nagqu,Nyingchi,Chamdo,Kangding,Shangri La,Tawang,Bomdila,Along,Yingkiong,Basar,Kokrajhar,Guwahati,Dibrugarh,Tinsukia,Dimapur,Kohima,Quang Tri,Quang Binh,Da Nang,Quang Ngai,Binh Dinh,Phu Yen,Khanh Hoa,Ninh Thuan,Kon Tum,Gia Lai,Lam Dong,TamBinh,HongNgu,Heqing,GiongTrom,Lincang,Tachilek,CaoBang,BuDang,PhanRang,Supur,Sunagar,Subad,Sukot,Suwada,Sughat,Supalli,Sukonda,Supeta,Suuru,Suooru,Sugiri,NagarSu,Suganj,Subazar,Subandar,Sugram"
+    "b": "Thua Thien Hue,Quang Nam,Binh Thuan,Dak Lak,Dak Nong,Quang Tri,Quang Binh,Da Nang,Quang Ngai,Binh Dinh,Phu Yen,Khanh Hoa,Ninh Thuan,Kon Tum,Gia Lai,Lam Dong",
+    "status": "COMPLETE"
   },
   {
     "name": "Sundanese native-speakers subset",
@@ -9006,7 +9111,8 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Bandung,Bogor,Sukabumi,Tasikmalaya,Cirebon,Garut,Sumedang,Cianjur,Subang,Purwakarta,Ciamis,Indramayu,Majalengka,Banjar,Cimahi,Soreang,Lembang,Padalarang,Pameungpeuk,Rancaekek,Jatinangor,Cicalengka,Cileunyi,Tanjungsari,Plered,Cibeureum,Kawali,Rajapolah,Puspahiang,Sindang,ChiangKhlong,Sing,NaMuen,Sundanesenativespeakerssubsetbari,PalliSundanesenativespeakerssubset,Yangon,Mandalay,Naypyidaw,Kuala Lumpur,George Town,Johor Bahru,Kota Kinabalu,Kuching,Jakarta,Surabaya,Bandung,Kuningan,Banjaran,Panawangan,ChoGao,Jinghong,PhuNhon,DinhQuan,Chun,MongCai,DongPhu,BaoLoc,DucHoa,Wuwei,CangLong,LapVo,Sundanesenativespeakerssubsetpur,Sundanesenativespeakerssubsetnagar,Sundanesenativespeakerssubsetbad,Sundanesenativespeakerssubsetkot,Sundanesenativespeakerssubsetwada,Sundanesenativespeakerssubsetghat,Sundanesenativespeakerssubsetpalli,Sundanesenativespeakerssubsetkonda,Sundanesenativespeakerssubsetpeta,Sundanesenativespeakerssubsetooru,Sundanesenativespeakerssubsetgiri,NagarSundanesenativespeakerssubset,Sundanesenativespeakerssubsetganj,Sundanesenativespeakerssubsetbazar,Sundanesenativespeakerssubsetbandar,Sundanesenativespeakerssubsetgram"
+    "b": "Bandung,Bogor,Sukabumi,Tasikmalaya,Cirebon,Garut,Sumedang,Cianjur,Subang,Purwakarta,Ciamis,Indramayu,Majalengka,Banjar,Cimahi,Soreang,Lembang,Padalarang,Pameungpeuk,Rancaekek,Jatinangor,Cicalengka,Cileunyi,Tanjungsari,Plered,Cibeureum,Kawali,Rajapolah,Puspahiang,Sindang",
+    "status": "COMPLETE"
   },
   {
     "name": "Suoy",
@@ -9015,16 +9121,18 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Thua Thien Hue,Quang Nam,Binh Thuan,Dak Lak,Dak Nong,Nateuy,BanLuang,Suoybari,PalliSuoy,Shigatse,Gyantse,Nagqu,Nyingchi,Chamdo,Kangding,Shangri La,Tawang,Bomdila,Along,Yingkiong,Basar,Kokrajhar,Guwahati,Dibrugarh,Tinsukia,Dimapur,Kohima,Mokokchung,Imphal,Ukhrul,Churachandpur,Aizawl,Quang Tri,Quang Binh,Da Nang,Quang Ngai,Binh Dinh,Phu Yen,Khanh Hoa,Ninh Thuan,Kon Tum,Gia Lai,Lam Dong,LongKhanh,HaTien,BinhDuong,PhuKamYao,TanAn,CanDuoc,Tengchong,LongMy,LaiVung,Weixi,CungSon,MyTho,Bokeo,Suoypur,Suoynagar,Suoybad,Suoykot,Suoywada,Suoyghat,Suoypalli,Suoykonda,Suoypeta,Suoyooru,Suoygiri,NagarSuoy,Suoyganj,Suoybazar,Suoybandar,Suoygram"
+    "b": "Thua Thien Hue,Quang Nam,Binh Thuan,Dak Lak,Dak Nong,Quang Tri,Quang Binh,Da Nang,Quang Ngai,Binh Dinh,Phu Yen,Khanh Hoa,Ninh Thuan,Kon Tum,Gia Lai,Lam Dong",
+    "status": "COMPLETE"
   },
-  {
+{
     "name": "Surgujia",
     "i": 200509,
     "min": 4,
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Durg,Rajnandgaon,Korba,Raigarh,Mahasamund,Dhamtari,Kanker,Sukma,Konta,Antagarh,BanKok,XamNeua,DaLat,Surgujiabari,PalliSurgujia,Delhi,Mumbai,Kolkata,Chennai,Bangalore,Pune,Surat,Lucknow,Jaipur,Nagpur,Indore,Bhopal,Patna,Ludhiana,Agra,Varanasi,Amritsar,Raipur,Bilaspur,Ambikapur,Jagdalpur,Jashpur,Baloda Bazar,Bijapur,Narayanpur,Dantewada,Bhanupratappur,DiAn,TanChau,ChauThanh,Baoshan,QuangTri,TieuCan,Lushui,DakTo,Thaton,DienBien,LaiUyen,BoKluea,Surgujiapur,Surgujianagar,Surgujiabad,Surgujiakot,Surgujiawada,Surgujiaghat,Surgujiapalli,Surgujiakonda,Surgujiapeta,Surgujiaooru,Surgujiagiri,NagarSurgujia,Surgujiaganj,Surgujiabazar,Surgujiabandar,Surgujiagram"
+    "b": "Durg,Rajnandgaon,Korba,Raigarh,Mahasamund,Dhamtari,Kanker,Sukma,Konta,Antagarh,Raipur,Bilaspur,Ambikapur,Jagdalpur,Jashpur,Baloda Bazar,Bijapur,Narayanpur,Dantewada,Bhanupratappur",
+    "status": "COMPLETE"
   },
   {
     "name": "Surjapuri",
@@ -9033,7 +9141,8 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Purnia,Katihar,Araria,Madhepura,Saharsa,Darbhanga,Begusarai,Munger,Banka,Jamui,IaGrai,MongLa,MuangKham,DanSim,WiangPaPao,WangNuea,Surjapuribari,Kishanganj,Muzaffarpur,Samastipur,Bhagalpur,Godda,Dumka,Sahibganj,Ranchi,Eryuan,Pleiku,BenTre,Cangyuan,LaoCai,ChonThanh,NamPat,MyTho,CuChi,Surjapuripur,Surjapurinagar,Surjapuribad,Surjapurikot,Surjapuriwada,Surjapurighat,Surjapuripalli,Surjapurikonda,Surjapuripeta,Surjapuriooru,Surjapurigiri,NagarSurjapuri,Surjapuriganj,Surjapuribazar,Surjapuribandar,Surjapurigram,PalliSurjapuri"
+    "b": "Purnia,Katihar,Araria,Madhepura,Saharsa,Darbhanga,Begusarai,Munger,Banka,Jamui,Kishanganj,Muzaffarpur,Samastipur,Bhagalpur,Godda,Dumka,Sahibganj",
+    "status": "COMPLETE"
   },
   {
     "name": "Sylheti",
@@ -9042,7 +9151,8 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Sylhet,Chittagong,Cox,Shantou's Bazar,Comilla,Noakhali,Feni,Lakshmipur,Brahmanbaria,Chandpur,Narayanganj,Dhaka,Mymensingh,Netrokona,Kishoreganj,Manikganj,Munshiganj,Narsingdi,Tangail,Kushtia,Jessore,Barisal,Patuakhali,Bhola,Jhalokati,Rangamati,Khagrachari,DucCo,MaeSai,PakLai,CatTien,WiangChai,LangSon,PhanThiet,ThanhBinh,Sylhetipur,Sylhetinagar,Sylhetibad,Sylhetikot,Sylhetiwada,Sylhetighat,Sylhetipalli,Sylhetikonda,Sylhetipeta,Sylhetiooru,Sylhetigiri,Sylhetibari,Sylhetiganj,Sylhetibazar,Sylhetibandar,Sylhetigram,PalliSylheti,Moulvibazar,Habiganj,Sunamganj,Cox's Bazar,Gazipur,Pirojpur,Bandarban,BuDop,ThaPlatak,NhaBe,AoLuang,CauKe,Huaping,PhuThien,NagarSylheti"
+    "b": "Sylhet,Chittagong,Cox's Bazar,Comilla,Noakhali,Feni,Lakshmipur,Brahmanbaria,Chandpur,Narayanganj,Dhaka,Mymensingh,Netrokona,Kishoreganj,Manikganj,Munshiganj,Narsingdi,Tangail,Kushtia,Jessore,Barisal,Patuakhali,Bhola,Jhalokati,Rangamati,Khagrachari,Moulvibazar,Habiganj,Sunamganj,Gazipur,Pirojpur,Bandarban",
+    "status": "COMPLETE"
   },
   {
     "name": "Tabghach",
@@ -9051,7 +9161,8 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Ulaanbaatar,Erdenet,Baruun-Urt,Murun,Khovd,Altai,Bayan-Olgii,Uvs,Khovsgol,Dornod,Dundgovi,Govisumber,Selenge,Tov,MaeCharim,TienYen,BinhLong,PongPrasat,DongXoai,Tabghachbari,PalliTabghach,Darkhan,Choibalsan,Bulgan,Ulaangom,Bayanhongor,Mandalgovi,Dalanzadgad,Kharkhorin,Ulan-Ude,Irkutsk,Kyakhta,Hulunbuir,Ondorkhaan,Zavkhan,DucHue,Yongchang,ViThanh,SaDec,ShangriLa,DongXuan,GoCongDong,Mohan,DaiLinh,Phayao,Tabghachpur,Tabghachnagar,Tabghachbad,Tabghachkot,Tabghachwada,Tabghachghat,Tabghachpalli,Tabghachkonda,Tabghachpeta,Tabghachooru,Tabghachgiri,NagarTabghach,Tabghachganj,Tabghachbazar,Tabghachbandar,Tabghachgram"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Tai",
@@ -9060,7 +9171,8 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Uttaradit,LongXuyen,Longling,ChuSe,CaiBe,DonDuong,Santikhiri,PakMong,Pua,Taibari,PalliTai,Chiang Mai,Chiang Rai,Lampang,Lamphun,Mae Hong Son,Nan,Phayao,Phrae,Sukhothai,Phetchabun,Phitsanulok,CanGiuoc,KienGiang,TraVinh,Gongshan,Udomxai,PhuocAn,CaMau,Taipur,Tainagar,Taibad,Taikot,Taiwada,Taighat,Taipalli,Taikonda,Taipeta,Taiooru,Taigiri,NagarTai,Taiganj,Taibazar,Taibandar,Taigram"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Tai Daeng",
@@ -9069,7 +9181,8 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Nakhon Ratchasima,Buri Ram,Surin,Khon Kaen,Ubon Ratchathani,Maha Sarakham,Roi Et,Chaiyaphum,Loei,Nong Khai,Nakhon Phanom,Kalasin,Sisaket,Amnat Charoen,Yasothon,Udon Thani,Bueng Kan,XiengKhouang,Prem,Fang,SopPrap,TaiDaengbari,PalliTaiDaeng,Bangkok,Chiang Mai,Chiang Rai,Phuket,Hat Yai,Surat Thani,Phitsanulok,Nakhon Sawan,Chonburi,Lampang,Lamphun,Sukhothai,Mukdahan,CangLong,Menglian,NgocHoi,TanPhuoc,SonLa,PhuGiao,Sapan,TraVinh,TanUyen,CaiLay,ChauDoc,TaiDaengpur,TaiDaengnagar,TaiDaengbad,TaiDaengkot,TaiDaengwada,TaiDaengghat,TaiDaengpalli,TaiDaengkonda,TaiDaengpeta,TaiDaenguru,TaiDaenguri,TaiDaengooru,TaiDaenggiri,NagarTaiDaeng,TaiDaengganj,TaiDaengbazar,TaiDaengbandar,TaiDaenggram"
+    "b": "Nakhon Ratchasima,Buri Ram,Surin,Khon Kaen,Ubon Ratchathani,Maha Sarakham,Roi Et,Chaiyaphum,Loei,Nong Khai,Nakhon Phanom,Kalasin,Sisaket,Amnat Charoen,Yasothon,Udon Thani,Bueng Kan,Mukdahan",
+    "status": "COMPLETE"
   },
   {
     "name": "Tai Don",
@@ -9078,7 +9191,8 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Chiang Rai,Loei,Nong Khai,Nong Bua Lamphu,Udon Thani,Sakon Nakhon,Kalasin,Amnat Charoen,Yasothon,Bueng Kan,Si Sa Ket,Surin,Buri Ram,Nakhon Ratchasima,Roi Et,Chaiyaphum,Maha Sarakham,Khon Kaen,Ubon Ratchathani,Xaisomboun,DaTeh,MaeSuay,HaGiang,LocNinh,AyunPa,TaiDonbari,PalliTaiDon,Bangkok,Chiang Mai,Phuket,Hat Yai,Surat Thani,Phitsanulok,Nakhon Sawan,Chonburi,Mukdahan,ThungChang,GoCong,HocMon,SobPrab,TamBinh,HongNgu,Heqing,GiongTrom,Lincang,TaiDonpur,TaiDonnagar,TaiDonbad,TaiDonkot,TaiDonwada,TaiDonghat,TaiDonpalli,TaiDonkonda,TaiDonpeta,TaiDonuru,TaiDonuri,TaiDonooru,TaiDongiri,NagarTaiDon,TaiDonganj,TaiDonbazar,TaiDonbandar,TaiDongram"
+    "b": "Chiang Rai,Loei,Nong Khai,Nong Bua Lamphu,Udon Thani,Sakon Nakhon,Kalasin,Amnat Charoen,Yasothon,Bueng Kan,Si Sa Ket,Surin,Buri Ram,Nakhon Ratchasima,Roi Et,Chaiyaphum,Maha Sarakham,Khon Kaen,Ubon Ratchasani,Mukdahan",
+    "status": "COMPLETE"
   },
   {
     "name": "Tai Hang Tong",
@@ -9087,7 +9201,8 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Chiang Mai,Chiang Rai,Lampang,Lamphun,Mae Hong Son,Nan,Phayao,Phrae,Uttaradit,Sukhothai,Phetchabun,Phitsanulok,PhuocLong,RongKwang,DaLat,CanGio,TalokMuh,ChiangKhlong,Sing,TaiHangTongbari,PalliTaiHangTong,Bangkok,Phuket,Khon Kaen,Udon Thani,Hat Yai,Surat Thani,Nakhon Ratchasima,Nakhon Sawan,Chonburi,Kanchanaburi,TieuCan,CaoLanh,Ninglang,SongCau,ChoGao,Jinghong,PhuNhon,DinhQuan,TaiHangTongpur,TaiHangTongnagar,TaiHangTongbad,TaiHangTongkot,TaiHangTongwada,TaiHangTongghat,TaiHangTongpalli,TaiHangTongkonda,TaiHangTongpeta,TaiHangTonguru,TaiHangTonguri,TaiHangTongooru,TaiHangTonggiri,NagarTaiHangTong,TaiHangTongganj,TaiHangTongbazar,TaiHangTongbandar,TaiHangTonggram"
+    "b": "Chiang Mai,Chiang Rai,Lampang,Lamphun,Mae Hong Son,Nan,Phayao,Phrae,Uttaradit,Sukhothai,Phetchabun,Phitsanulok",
+    "status": "COMPLETE"
   },
   {
     "name": "Tai Khang",
@@ -9096,7 +9211,8 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Chiang Mai,Chiang Rai,Lampang,Lamphun,Mae Hong Son,Nan,Phayao,Phrae,Uttaradit,Sukhothai,Phetchabun,Phitsanulok,SonHoa,LuangNamtha,DiLinh,DokKhamtai,Nateuy,BanLuang,TaiKhangbari,PalliTaiKhang,Bangkok,Phuket,Khon Kaen,Udon Thani,Hat Yai,Surat Thani,Nakhon Ratchasima,Nakhon Sawan,Chonburi,Kanchanaburi,Ratchaburi,Krabi,Trang,Mae Sot,Nong Khai,Lianghe,NgaBay,ChauThanh,Deqin,TanPhuoc,LongKhanh,HaTien,BinhDuong,PhuKamYao,TaiKhangpur,TaiKhangnagar,TaiKhangbad,TaiKhangkot,TaiKhangwada,TaiKhangghat,TaiKhangpalli,TaiKhangkonda,TaiKhangpeta,TaiKhanguru,TaiKhanguri,TaiKhangooru,TaiKhanggiri,NagarTaiKhang,TaiKhangganj,TaiKhangbazar,TaiKhangbandar,TaiKhanggram"
+    "b": "Chiang Mai,Chiang Rai,Lampang,Lamphun,Mae Hong Son,Nan,Phayao,Phrae,Uttaradit,Sukhothai,Phetchabun,Phitsanulok",
+    "status": "COMPLETE"
   },
   {
     "name": "Tai Laing",
@@ -9105,7 +9221,8 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Chiang Mai,Chiang Rai,Lampang,Lamphun,Mae Hong Son,Nan,Phayao,Phrae,Uttaradit,Sukhothai,Phetchabun,Phitsanulok,Phongsali,DucTrong,MaeFaLuang,ChiangHai,BanKok,TaiLaingbari,PalliTaiLaing,Bangkok,Phuket,Khon Kaen,Udon Thani,Hat Yai,Surat Thani,Nakhon Ratchasima,Nakhon Sawan,Chonburi,Kanchanaburi,Ratchaburi,Krabi,Trang,Mae Sot,Nong Khai,Sakon Nakhon,DakDoa,CaiLay,LaiThieu,ThaWangPha,BacLieu,DiAn,TanChau,ChauThanh,Baoshan,QuangTri,TaiLaingpur,TaiLaingnagar,TaiLaingbad,TaiLaingkot,TaiLaingwada,TaiLaingghat,TaiLaingpalli,TaiLaingkonda,TaiLaingpeta,TaiLainguru,TaiLainguri,TaiLaingooru,TaiLainggiri,NagarTaiLaing,TaiLaingganj,TaiLaingbazar,TaiLaingbandar,TaiLainggram"
+    "b": "Chiang Mai,Chiang Rai,Lampang,Lamphun,Mae Hong Son,Nan,Phayao,Phrae,Uttaradit,Sukhothai,Phetchabun,Phitsanulok",
+    "status": "COMPLETE"
   },
   {
     "name": "Tai Long",
@@ -9114,7 +9231,8 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Chiang Mai,Chiang Rai,Lampang,Lamphun,Mae Hong Son,Nan,Phayao,Phrae,Uttaradit,Sukhothai,Phetchabun,Phitsanulok,ChaiPrakarn,BauBang,BenCat,KoKha,CaiBe,IaGrai,MongLa,MuangKham,TaiLongbari,PalliTaiLong,Bangkok,Phuket,Khon Kaen,Udon Thani,Hat Yai,Surat Thani,Nakhon Ratchasima,Nakhon Sawan,LaiChau,Sangkha,BenTre,TanChau,Eryuan,Pleiku,Cangyuan,TaiLongpur,TaiLongnagar,TaiLongbad,TaiLongkot,TaiLongwada,TaiLongghat,TaiLongpalli,TaiLongkonda,TaiLongpeta,TaiLonguru,TaiLonguri,TaiLongooru,TaiLonggiri,NagarTaiLong,TaiLongganj,TaiLongbazar,TaiLongbandar,TaiLonggram"
+    "b": "Chiang Mai,Chiang Rai,Lampang,Lamphun,Mae Hong Son,Nan,Phayao,Phrae,Uttaradit,Sukhothai,Phetchabun,Phitsanulok",
+    "status": "COMPLETE"
   },
   {
     "name": "Tai Lue",
@@ -9123,7 +9241,8 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Chiang Mai,Chiang Rai,Lampang,Lamphun,Mae Hong Son,Nan,Phayao,Phrae,Uttaradit,Sukhothai,Phetchabun,Phitsanulok,Long,TamNong,CheoReo,BaTri,DucCo,MaeSai,PakLai,CatTien,WiangChai,LangSon,TaiLuebari,PalliTaiLue,Bangkok,Phuket,Khon Kaen,Udon Thani,Hat Yai,Surat Thani,Nakhon Ratchasima,Nakhon Sawan,PhanRang,BinhChanh,TraOn,Yongsheng,Shuangjiang,TaiLuepur,TaiLuenagar,TaiLuebad,TaiLuekot,TaiLuewada,TaiLueghat,TaiLuepalli,TaiLuekonda,TaiLuepeta,TaiLueuru,TaiLueuri,TaiLueooru,TaiLuegiri,NagarTaiLue,TaiLueganj,TaiLuebazar,TaiLuebandar,TaiLuegram"
+    "b": "Chiang Mai,Chiang Rai,Lampang,Lamphun,Mae Hong Son,Nan,Phayao,Phrae,Uttaradit,Sukhothai,Phetchabun,Phitsanulok,Mukdahan",
+    "status": "COMPLETE"
   },
   {
     "name": "Tai Nuea",
@@ -9132,7 +9251,8 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Chiang Mai,Chiang Rai,Lampang,Lamphun,Mae Hong Son,Nan,Phayao,Phrae,Uttaradit,Sukhothai,Phetchabun,Phitsanulok,Thoeng,MuangSai,MaeCharim,TienYen,BinhLong,PongPrasat,DongXoai,TaiNueabari,PalliTaiNuea,Bangkok,Phuket,Khon Kaen,Udon Thani,Hat Yai,Surat Thani,Nakhon Ratchasima,Nakhon Sawan,Chonburi,Kanchanaburi,Ratchaburi,Krabi,Trang,Mae Sot,LapVo,Lijiang,TuyAnh,GoCongTay,Mengla,ThuongDuc,XuanLoc,DucHue,TaiNueapur,TaiNueanagar,TaiNueabad,TaiNueakot,TaiNueawada,TaiNueaghat,TaiNueapalli,TaiNueakonda,TaiNueapeta,TaiNueauru,TaiNueauri,TaiNueaooru,TaiNueagiri,NagarTaiNuea,TaiNueaganj,TaiNueabazar,TaiNueabandar,TaiNueagram"
+    "b": "Chiang Mai,Chiang Rai,Lampang,Lamphun,Mae Hong Son,Nan,Phayao,Phrae,Uttaradit,Sukhothai,Phetchabun,Phitsanulok",
+    "status": "COMPLETE"
   },
   {
     "name": "Tai Pao",
@@ -9141,7 +9261,8 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Chiang Mai,Chiang Rai,Lampang,Lamphun,Mae Hong Son,Nan,Phayao,Phrae,Uttaradit,Sukhothai,Phetchabun,Phitsanulok,Bokeo,Pong,NamBak,SongKhwae,RachGia,BienHoa,SiNakharin,LongXuyen,Longling,TaiPaobari,PalliTaiPao,Bangkok,Phuket,Khon Kaen,Udon Thani,Hat Yai,Surat Thani,Nakhon Ratchasima,BaoLoc,NhonTrach,CanGiuoc,KienGiang,TraVinh,Gongshan,TaiPaopur,TaiPaonagar,TaiPaobad,TaiPaokot,TaiPaowada,TaiPaoghat,TaiPaopalli,TaiPaokonda,TaiPaopeta,TaiPaouru,TaiPaouri,TaiPaoooru,TaiPaogiri,NagarTaiPao,TaiPaoganj,TaiPaobazar,TaiPaobandar,TaiPaogram"
+    "b": "Chiang Mai,Chiang Rai,Lampang,Lamphun,Mae Hong Son,Nan,Phayao,Phrae,Uttaradit,Sukhothai,Phetchabun,Phitsanulok",
+    "status": "COMPLETE"
   },
   {
     "name": "Tai Song",
@@ -9150,7 +9271,8 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Chiang Mai,Chiang Rai,Lampang,Lamphun,Mae Hong Son,Nan,Phayao,Phrae,Uttaradit,Sukhothai,Phetchabun,Phitsanulok,XiengKhouang,Prem,TaiSongbari,PalliTaiSong,Bangkok,Phuket,Khon Kaen,Udon Thani,Hat Yai,Surat Thani,Nakhon Ratchasima,Nakhon Sawan,Chonburi,Kanchanaburi,Ratchaburi,Krabi,Trang,Mae Sot,Nong Khai,Sakon Nakhon,Roi Et,Buriram,Surin,LaiUyen,BoKluea,SocTrang,ThuanAn,PakLay,TanHiep,TanThanh,Changning,ALuoi,CangLong,Menglian,NgocHoi,TanPhuoc,TaiSongpur,TaiSongnagar,TaiSongbad,TaiSongkot,TaiSongwada,TaiSongghat,TaiSongpalli,TaiSongkonda,TaiSongpeta,TaiSonguru,TaiSonguri,TaiSongooru,TaiSonggiri,NagarTaiSong,TaiSongganj,TaiSongbazar,TaiSongbandar,TaiSonggram"
+    "b": "Chiang Mai,Chiang Rai,Lampang,Lamphun,Mae Hong Son,Nan,Phayao,Phrae,Uttaradit,Sukhothai,Phetchabun,Phitsanulok",
+    "status": "COMPLETE"
   },
   {
     "name": "Tai Thanh",
@@ -9159,7 +9281,8 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Thua Thien Hue,Quang Nam,Binh Thuan,Dak Lak,Dak Nong,WangNuea,AnKhe,MoCay,ChuPah,KengTung,Xaisomboun,DaTeh,MaeSuay,HaGiang,LocNinh,TaiThanhbari,PalliTaiThanh,Bangkok,Chiang Mai,Chiang Rai,Phuket,Khon Kaen,Udon Thani,Hat Yai,Surat Thani,Phitsanulok,Nakhon Ratchasima,Nakhon Sawan,Chonburi,Lampang,Lamphun,Sukhothai,Kanchanaburi,Ratchaburi,Krabi,Quang Tri,Quang Binh,Da Nang,Quang Ngai,Binh Dinh,Phu Yen,Khanh Hoa,Ninh Thuan,Kon Tum,Gia Lai,Lam Dong,VinhLong,AnPhu,Jianchuan,Gengma,ThungChang,TaiThanhpur,TaiThanhnagar,TaiThanhbad,TaiThanhkot,TaiThanhwada,TaiThanhghat,TaiThanhpalli,TaiThanhkonda,TaiThanhpeta,TaiThanhuru,TaiThanhuri,TaiThanhooru,TaiThanhgiri,NagarTaiThanh,TaiThanhganj,TaiThanhbazar,TaiThanhbandar,TaiThanhgram"
+    "b": "Thua Thien Hue,Quang Nam,Binh Thuan,Dak Lak,Dak Nong,Quang Tri,Quang Binh,Da Nang,Quang Ngai,Binh Dinh,Phu Yen,Khanh Hoa,Ninh Thuan,Kon Tum,Gia Lai,Lam Dong",
+    "status": "COMPLETE"
   },
   {
     "name": "Tai Yao",
@@ -9168,7 +9291,8 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Chiang Mai,Chiang Rai,Lampang,Lamphun,Mae Hong Son,Nan,Phayao,Phrae,Uttaradit,Sukhothai,Phetchabun,Phitsanulok,ChiangSaen,ThongMySai,TanPhu,QuangNinh,PhuocLong,RongKwang,DaLat,CanGio,TalokMuh,TaiYaobari,PalliTaiYao,Bangkok,Phuket,Khon Kaen,Udon Thani,Hat Yai,Surat Thani,Nakhon Ratchasima,Nakhon Sawan,Chonburi,PhuThien,ChoLach,Puer,Pleiku,ChiangMuan,TieuCan,TaiYaopur,TaiYaonagar,TaiYaobad,TaiYaokot,TaiYaowada,TaiYaoghat,TaiYaopalli,TaiYaokonda,TaiYaopeta,TaiYaouru,TaiYaouri,TaiYaoooru,TaiYaogiri,NagarTaiYao,TaiYaoganj,TaiYaobazar,TaiYaobandar,TaiYaogram"
+    "b": "Chiang Mai,Chiang Rai,Lampang,Lamphun,Mae Hong Son,Nan,Phayao,Phrae,Uttaradit,Sukhothai,Phetchabun,Phitsanulok",
+    "status": "COMPLETE"
   },
   {
     "name": "Tai Yo (Nyaw)",
@@ -9177,7 +9301,8 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Chiang Mai,Chiang Rai,Lampang,Lamphun,Mae Hong Son,Nan,Phayao,Phrae,Uttaradit,Sukhothai,Phetchabun,Phitsanulok,Phayao,ViengPhoukha,DamHa,BinhPhuoc,ThaSongKorn,SonHoa,TaiYoNyawbari,PalliTaiYoNyaw,Bangkok,Phuket,Khon Kaen,Udon Thani,Hat Yai,Surat Thani,Nakhon Ratchasima,Nakhon Sawan,Chonburi,Kanchanaburi,Ratchaburi,Krabi,Trang,Mae Sot,Nong Khai,TrangBom,SantiSuk,TayNinh,BenLuc,Lianghe,NgaBay,ChauThanh,Deqin,TanPhuoc,TaiYoNyawpur,TaiYoNyawnagar,TaiYoNyawbad,TaiYoNyawkot,TaiYoNyawwada,TaiYoNyawghat,TaiYoNyawpalli,TaiYoNyawkonda,TaiYoNyawpeta,TaiYoNyawuru,TaiYoNyawuri,TaiYoNyawooru,TaiYoNyawgiri,NagarTaiYoNyaw,TaiYoNyawganj,TaiYoNyawbazar,TaiYoNyawbandar,TaiYoNyawgram"
+    "b": "Chiang Mai,Chiang Rai,Lampang,Lamphun,Mae Hong Son,Nan,Phayao,Phrae,Uttaradit,Sukhothai,Phetchabun,Phitsanulok",
+    "status": "COMPLETE"
   },
   {
     "name": "Takua",
@@ -9186,7 +9311,8 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Thua Thien Hue,Quang Nam,Binh Thuan,Dak Lak,Dak Nong,DucTrong,MaeFaLuang,ChiangHai,Takuabari,PalliTakua,Phnom Penh,Battambang,Kampong Cham,Kampot,Takeo,Kratie,Stung Treng,Sihanoukville,Prey Veng,Mondulkiri,Ratanakiri,Kampong Thom,Banteay Meanchey,Oddar Meanchey,Preah Vihear,Koh Kong,Pailin,Kep,Ranchi,Jamshedpur,Dumka,Hazaribagh,Khandwa,Betul,Quang Tri,Quang Binh,Da Nang,Quang Ngai,Binh Dinh,Phu Yen,Khanh Hoa,Ninh Thuan,Kon Tum,Gia Lai,Lam Dong,CaMau,ThuDauMot,Srinagarindra,ChauDoc,TanTru,Shidian,DongHa,CauKe,Fugong,DakDoa,CaiLay,Phongsali,Takuapur,Takuanagar,Takuabad,Takuakot,Takuawada,Takuaghat,Takuapalli,Takuakonda,Takuapeta,Takuaooru,Takuagiri,NagarTakua,Takuaganj,Takuabazar,Takuabandar,Takuagram"
+    "b": "Thua Thien Hue,Quang Nam,Binh Thuan,Dak Lak,Dak Nong,Quang Tri,Quang Binh,Da Nang,Quang Ngai,Binh Dinh,Phu Yen,Khanh Hoa,Ninh Thuan,Kon Tum,Gia Lai,Lam Dong",
+    "status": "COMPLETE"
   },
   {
     "name": "Tamang",
@@ -9205,7 +9331,8 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Dak Lak,Dak Doa,ChuPro,Sayabury,DaHuoai,PaDaet,NaNoi,Long,TamNong,Tampuanbari,Phnom Penh,Battambang,Kampong Cham,Kampot,Takeo,Kratie,Stung Treng,Sihanoukville,Prey Veng,Mondulkiri,Ratanakiri,Kampong Thom,Banteay Meanchey,Oddar Meanchey,Preah Vihear,Koh Kong,Pailin,Kep,Ranchi,Jamshedpur,Dumka,Hazaribagh,Khandwa,Betul,Ban Me Thuot,Gia Nghia,Kon Tum,Pleiku,An Khe,Buon Ho,Yok Don,Chu Pah,Chu Prong,Chu Pong,Chu Rung,Chu Se,Chu Ty,Chu Vac,Chu Vay,Chu Yang,Dak Glei,Dak Ha,Dak Nia,Dak Pxi,Dak Song,Dak Trung,Ea Drang,Ea Kmung,Ea Knua,Ea Ktur,Ea Nueng,Ea Sup,Ea Tar,Ea Uy,Ea Wy,Gia Lai,Hue,Lam Dong,Ninh Thuan,Phu Yen,Lincang,Tachilek,CaoBang,BuDang,PhanRang,BinhChanh,TraOn,Yongsheng,Tampuanpur,Tampuannagar,Tampuanbad,Tampuankot,Tampuanwada,Tampuanghat,Tampuanpalli,Tampuankonda,Tampuanpeta,Tampuanooru,Tampuangiri,NagarTampuan,Tampuanganj,Tampuanbazar,Tampuanbandar,Tampuangram,PalliTampuan"
+    "b": "Dak Lak,Dak Doa,ChuPro,Sayabury,DaHuoai,PaDaet,NaNoi,Long,TamNong,Ban Me Thuot,Gia Nghia,Kon Tum,Pleiku,An Khe,Buon Ho,Yok Don,Chu Pah,Chu Prong,Chu Pong,Chu Rung,Chu Se,Chu Ty,Chu Vac,Chu Vay,Chu Yang,Dak Glei,Dak Ha,Dak Nia,Dak Pxi,Dak Song,Dak Trung,Ea Drang,Ea Kmung,Ea Knua,Ea Ktur,Ea Nueng,Ea Sup,Ea Tar,Ea Uy,Ea Wy,Gia Lai,Hue,Lam Dong,Ninh Thuan,Phu Yen",
+    "status": "COMPLETE"
   },
   {
     "name": "Tanchangya",
@@ -9214,7 +9341,8 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Chittagong,Cox's Bazar,Comilla,Noakhali,Feni,Lakshmipur,Brahmanbaria,Chandpur,Narayanganj,Dhaka,Mymensingh,Netrokona,Kishoreganj,Manikganj,Munshiganj,Narsingdi,Tangail,Kushtia,Jessore,Barisal,Patuakhali,Bhola,Jhalokati,Rangamati,Khagrachari,NaMuen,Tanchangyapur,Tanchangyanagar,Tanchangyakot,Tanchangyawada,Tanchangyaghat,Tanchangyapalli,Tanchangyakonda,Tanchangyapeta,Tanchangyaooru,Tanchangyagiri,Tanchangyabari,Tanchangyaganj,Tanchangyabazar,Tanchangyabandar,Tanchangyagram,PalliTanchangya,Gazipur,Pirojpur,Bandarban,DinhQuan,Chun,MongCai,DongPhu,BaoLoc,DucHoa,Wuwei,CangLong,LapVo,Lijiang,TuyAnh,GoCongTay,Mengla,ThuongDuc,Tanchangyabad,NagarTanchangya"
+    "b": "Chittagong,Cox's Bazar,Comilla,Noakhali,Feni,Lakshmipur,Brahmanbaria,Chandpur,Narayanganj,Dhaka,Mymensingh,Netrokona,Kishoreganj,Manikganj,Munshiganj,Narsingdi,Tangail,Kushtia,Jessore,Barisal,Patuakhali,Bhola,Jhalokati,Rangamati,Khagrachari,Gazipur,Pirojpur,Bandarban",
+    "status": "COMPLETE"
   },
   {
     "name": "Tangut",
@@ -9223,16 +9351,18 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Ganzhou,Qinghai,Taohe,Dunhuang,Yumen,Guazhou,NamBak,SongKhwae,Tangutbari,PalliTangut,Wuwei,Zhangye,Lanzhou,Xining,Zhuoni,Lintan,Hezuo,Jiayuguan,PhuKamYao,TanAn,CanDuoc,Tengchong,LongMy,LaiVung,Weixi,CungSon,MyTho,Bokeo,BaoLoc,Pong,NhonTrach,Tangutpur,Tangutnagar,Tangutbad,Tangutkot,Tangutwada,Tangutghat,Tangutpalli,Tangutkonda,Tangutpeta,Tangutooru,Tangutgiri,NagarTangut,Tangutganj,Tangutbazar,Tangutbandar,Tangutgram"
+    "b": "",
+    "status": "WAITING"
   },
-  {
+{
     "name": "Tariang",
     "i": 200532,
     "min": 4,
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Thua Thien Hue,Quang Nam,Binh Thuan,Dak Lak,Dak Nong,XamNeua,DaLat,Tariangbari,PalliTariang,Phnom Penh,Battambang,Kampong Cham,Kampot,Takeo,Kratie,Stung Treng,Sihanoukville,Prey Veng,Mondulkiri,Ratanakiri,Kampong Thom,Banteay Meanchey,Oddar Meanchey,Preah Vihear,Koh Kong,Pailin,Kep,Ranchi,Jamshedpur,Dumka,Hazaribagh,Khandwa,Betul,Chhindwara,Quang Tri,Quang Binh,Da Nang,Quang Ngai,Binh Dinh,Phu Yen,Khanh Hoa,Ninh Thuan,Kon Tum,Gia Lai,Lam Dong,QuangTri,TieuCan,Lushui,DakTo,ChauThanh,Thaton,DienBien,LaiUyen,BoKluea,SocTrang,ThuanAn,PakLay,TanHiep,Tariangpur,Tariangnagar,Tariangbad,Tariangkot,Tariangwada,Tariangghat,Tariangpalli,Tariangkonda,Tariangpeta,Tariangooru,Tarianggiri,NagarTariang,Tariangganj,Tariangbazar,Tariangbandar,Tarianggram"
+    "b": "Thua Thien Hue,Quang Nam,Binh Thuan,Dak Lak,Dak Nong,Quang Tri,Quang Binh,Da Nang,Quang Ngai,Binh Dinh,Phu Yen,Khanh Hoa,Ninh Thuan,Kon Tum,Gia Lai,Lam Dong",
+    "status": "COMPLETE"
   },
   {
     "name": "Tay (Tai)",
@@ -9241,7 +9371,8 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Chiang Mai,Chiang Rai,Lampang,Lamphun,Mae Hong Son,Nan,Phayao,Phrae,Uttaradit,Sukhothai,Phetchabun,Phitsanulok,MongLa,MuangKham,DanSim,WiangPaPao,WangNuea,AnKhe,MoCay,TayTaibari,PalliTayTai,Bangkok,Phuket,Khon Kaen,Udon Thani,Hat Yai,Surat Thani,Nakhon Ratchasima,Nakhon Sawan,Chonburi,Kanchanaburi,Ratchaburi,Krabi,Trang,Mae Sot,LaoCai,ChonThanh,NamPat,MyTho,CuChi,VinhLong,AnPhu,Jianchuan,TayTaipur,TayTainagar,TayTaibad,TayTaikot,TayTaiwada,TayTaighat,TayTaipalli,TayTaikonda,TayTaipeta,TayTaiuru,TayTaiuri,TayTaiooru,TayTaigiri,NagarTayTai,TayTaiganj,TayTaibazar,TayTaibandar,TayTaigram"
+    "b": "Chiang Mai,Chiang Rai,Lampang,Lamphun,Mae Hong Son,Nan,Phayao,Phrae,Uttaradit,Sukhothai,Phetchabun,Phitsanulok",
+    "status": "COMPLETE"
   },
   {
     "name": "Tay Tac",
@@ -9250,7 +9381,8 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Thua Thien Hue,Quang Nam,Binh Thuan,Dak Lak,Dak Nong,LangSon,PhanThiet,ThanhBinh,ChiangSaen,ThongMySai,TayTacbari,PalliTayTac,Bangkok,Chiang Mai,Chiang Rai,Phuket,Khon Kaen,Udon Thani,Hat Yai,Surat Thani,Phitsanulok,Nakhon Ratchasima,Nakhon Sawan,Chonburi,Lampang,Lamphun,Sukhothai,Kanchanaburi,Ratchaburi,Krabi,Trang,Mae Sot,Nong Khai,Sakon Nakhon,Roi Et,Quang Tri,Quang Binh,Da Nang,Quang Ngai,Binh Dinh,Phu Yen,Khanh Hoa,Ninh Thuan,Kon Tum,Gia Lai,Lam Dong,BuDop,ThaPlatak,NhaBe,AoLuang,CauKe,Huaping,PhuThien,ChoLach,Puer,Pleiku,TayTacpur,TayTacnagar,TayTacbad,TayTackot,TayTacwada,TayTacghat,TayTacpalli,TayTackonda,TayTacpeta,TayTacuru,TayTacuri,TayTacooru,TayTacgiri,NagarTayTac,TayTacganj,TayTacbazar,TayTacbandar,TayTacgram"
+    "b": "Thua Thien Hue,Quang Nam,Binh Thuan,Dak Lak,Dak Nong,LangSon,PhanThiet,ThanhBinh,ChiangSaen,ThongMySai,Quang Tri,Quang Binh,Da Nang,Quang Ngai,Binh Dinh,Phu Yen,Khanh Hoa,Ninh Thuan,Kon Tum,Gia Lai,Lam Dong",
+    "status": "COMPLETE"
   },
   {
     "name": "Tenyidie",
@@ -9259,7 +9391,8 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Kohima,Chumukedima,Viswema,Khonoma,Diphu,Jakhama,Kezo,Nerhema,Phekerkrima,Keshor,Keringu,Kijumetso,Phesama,Rusoma,Mirapfu,Merema,Sendenyu,Kakha,Dihoma,Tsiesema,Shigatse,Gyantse,Nagqu,Nyingchi,Chamdo,Kangding,Shangri La,Tawang,Bomdila,Along,Yingkiong,Basar"
+    "b": "Kohima,Chumukedima,Viswema,Khonoma,Diphu,Jakhama,Kezo,Nerhema,Phekerkrima,Keshor,Keringu,Kijumetso,Phesama,Rusoma,Mirapfu,Merema,Sendenyu,Kakha,Dihoma,Tsiesema",
+    "status": "COMPLETE"
   },
   {
     "name": "Teressa Nicobarese",
@@ -9268,7 +9401,8 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Teressa,Katchal,Nancowry,Camorta,Car Nicobar,Great Nicobar,Little Nicobar,Kondul,Pulo Milo,Pulo Babe,Pulo Kunji,Kakana,Arong,Chowra,Trinket,Pilo Pagar,Kapanga,Laful,Tilanchong,ChuSe,CaiBe,DonDuong,Santikhiri,PakMong,Pua,TeressaNicobaresebari,PalliTeressaNicobarese,Jakarta,Surabaya,Bandung,Medan,Palembang,Makassar,Semarang,Yogyakarta,Gongshan,Udomxai,PhuocAn,CaMau,ThuDauMot,Srinagarindra,ChauDoc,TanTru,Shidian,TeressaNicobaresepur,TeressaNicobaresenagar,TeressaNicobaresebad,TeressaNicobaresekot,TeressaNicobaresewada,TeressaNicobareseghat,TeressaNicobaresepalli,TeressaNicobaresekonda,TeressaNicobaresepeta,TeressaNicobareseuru,TeressaNicobareseuri,TeressaNicobareseooru,TeressaNicobaresegiri,NagarTeressaNicobarese,TeressaNicobareseganj,TeressaNicobaresebazar,TeressaNicobaresebandar,TeressaNicobaresegram"
+    "b": "Teressa,Katchal,Nancowry,Camorta,Car Nicobar,Great Nicobar,Little Nicobar,Kondul,Pulo Milo,Pulo Babe,Pulo Kunji,Kakana,Arong,Chowra,Trinket,Pilo Pagar,Kapanga,Laful,Tilanchong",
+    "status": "COMPLETE"
   },
   {
     "name": "Thachanadan",
@@ -9277,7 +9411,8 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Kannur,Kozhikode,Malappuram,Palakkad,Thrissur,Kottayam,Alappuzha,Pathanamthitta,Kollam,Thiruvananthapuram,Wayanad,Idukki,Prem,SopPrap,Kontum,Ximeng,Thachanadanbari,Chennai,Coimbatore,Madurai,Tiruchirappalli,Salem,Tirunelveli,Vellore,Thoothukudi,Kanchipuram,Thanjavur,Ooty,Coonoor,Mysore,Mangalore,Hubballi,Belagavi,Davangere,Shivamogga,Kochi,Fang,SonLa,PhuGiao,Sapan,TraVinh,TanUyen,CaiLay,ChauDoc,Yunlong,ChauThanh,SaThay,Thachanadanpur,Thachanadannagar,Thachanadanbad,Thachanadankot,Thachanadanwada,Thachanadanghat,Thachanadanpalli,Thachanadankonda,Thachanadanpeta,Thachanadanooru,Thachanadangiri,NagarThachanadan,Thachanadanganj,Thachanadanbazar,Thachanadanbandar,Thachanadangram,PalliThachanadan"
+    "b": "Kannur,Kozhikode,Malappuram,Palakkad,Thrissur,Kottayam,Alappuzha,Pathanamthitta,Kollam,Thiruvananthapuram,Wayanad,Idukki",
+    "status": "COMPLETE"
   },
   {
     "name": "Thai Siamese",
@@ -9286,7 +9421,8 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Bangkok,Chiang Mai,Phuket,Nakhon Ratchasima,Pattaya,Rayong,Samut Prakan,Hat Yai,Udon Thani,Khon Kaen,Krabi,Nakhon Si Thammarat,Songkhla,Surat Thani,Mae Sot,Chiang Rai,Ayutthaya,Chumphon,Tak,Trat,Sa Kaeo,Nong Khai,AyunPa,ChuPro,Sayabury,DaHuoai,PaDaet,ThaiSiamesebari,PalliThaiSiamese,Yogyakarta,Palembang,Makassar,Denpasar,Bangkok,Chiang Mai,Phuket,Vientiane,Luang Prabang,Chonburi,Saraburi,Lopburi,Kanchanaburi,Ratchaburi,Phetchaburi,Chanthaburi,Mukdahan,ThungChang,GoCong,HocMon,SobPrab,TamBinh,HongNgu,Heqing,GiongTrom,Lincang,Tachilek,ThaiSiamesepur,ThaiSiamesenagar,ThaiSiamesebad,ThaiSiamesekot,ThaiSiamesewada,ThaiSiameseghat,ThaiSiamesepalli,ThaiSiamesekonda,ThaiSiamesepeta,ThaiSiameseuru,ThaiSiameseuri,ThaiSiameseooru,ThaiSiamesegiri,NagarThaiSiamese,ThaiSiameseganj,ThaiSiamesebazar,ThaiSiamesebandar,ThaiSiamesegram"
+    "b": "Bangkok,Chiang Mai,Phuket,Nakhon Ratchasima,Pattaya,Rayong,Samut Prakan,Hat Yai,Udon Thani,Khon Kaen,Krabi,Nakhon Si Thammarat,Songkhla,Surat Thani,Mae Sot,Chiang Rai,Ayutthaya,Chumphon,Tak,Trat,Sa Kaeo,Nong Khai,Chonburi,Saraburi,Lopburi,Kanchanaburi,Ratchaburi,Phetchaburi,Chanthaburi,Mukdahan",
+    "status": "COMPLETE"
   },
   {
     "name": "Thakali",
@@ -9305,16 +9441,18 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Dolakha,Sindhuli,Ramechap,Okhaldhunga,Khotang,Solukhumbu,Langtang,Kyanjin Gompa,Syabrubesi,Thulo Syabru,Dolakha,Sindhuli,Ramechap,Okhaldhunga,Khotang,Solukhumbu,Langtang,Kyanjin Gompa,Syabrubesi,Thulo Syabru,LuangNamtha,DiLinh,DokKhamtai,Nateuy,BanLuang,ThangmiThamibari,PalliThangmiThami,Shigatse,Gyantse,Nagqu,Nyingchi,Chamdo,Kangding,Udayapur,Udayapur,TanPhuoc,LongKhanh,HaTien,BinhDuong,PhuKamYao,TanAn,CanDuoc,Tengchong,LongMy,LaiVung,ThangmiThamipur,ThangmiThaminagar,ThangmiThamibad,ThangmiThamikot,ThangmiThamiwada,ThangmiThamighat,ThangmiThamipalli,ThangmiThamikonda,ThangmiThamipeta,ThangmiThamiuru,ThangmiThamiuri,ThangmiThamiooru,ThangmiThamigiri,NagarThangmiThami,ThangmiThamiganj,ThangmiThamibazar,ThangmiThamibandar,ThangmiThamigram"
+    "b": "Dolakha,Sindhuli,Ramechap,Okhaldhunga,Khotang,Solukhumbu,Langtang,Kyanjin Gompa,Syabrubesi,Thulo Syabru,Udayapur",
+    "status": "COMPLETE"
   },
-  {
+{
     "name": "Thar",
     "i": 200541,
     "min": 4,
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Jaisalmer,Barmer,Bikaner,Jhunjhunu,Sikar,Pali,Tonk,Alwar,Kota,Bundi,Chittorgarh,Banswara,Jhalawar,Karauli,ChiangHai,BanKok,XamNeua,DaLat,Tharbari,PalliThar,Jodhpur,Churu,Sawai Madhopur,Bharatpur,Dungarpur,LaiThieu,ThaWangPha,BacLieu,DiAn,TanChau,ChauThanh,Baoshan,QuangTri,TieuCan,Lushui,DakTo,Tharpur,Tharnagar,Tharbad,Tharkot,Tharwada,Tharghat,Tharpalli,Tharkonda,Tharpeta,Tharooru,Thargiri,NagarThar,Tharganj,Tharbazar,Tharbandar,Thargram"
+    "b": "Jaisalmer,Barmer,Bikaner,Jhunjhunu,Sikar,Pali,Tonk,Alwar,Kota,Bundi,Chittorgarh,Banswara,Jhalawar,Karauli,Jodhpur,Churu,Sawai Madhopur,Bharatpur,Dungarpur",
+    "status": "COMPLETE"
   },
   {
     "name": "Tharu languages",
@@ -9323,7 +9461,8 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Kathmandu,Pokhara,Birgunj,Butwal,Hetauda,Dhangadhi,Itahari,Nepalgunj,Gorkha,Tansen,Rajbiraj,Siraha,Jaleshwar,Malangwa,Gaur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang,BenCat,KoKha,CaiBe,IaGrai,MongLa,MuangKham,DanSim,WiangPaPao,Tharulanguagesbari,PalliTharulanguages,Lalitpur,Bharatpur,Biratnagar,Dharan,Janakpur,Bhaktapur,Lahan,Chandrapur,TanChau,Eryuan,Pleiku,BenTre,Cangyuan,LaoCai,ChonThanh,Tharulanguagespur,Tharulanguagesnagar,Tharulanguagesbad,Tharulanguageskot,Tharulanguageswada,Tharulanguagesghat,Tharulanguagespalli,Tharulanguageskonda,Tharulanguagespeta,Tharulanguagesooru,Tharulanguagesgiri,NagarTharulanguages,Tharulanguagesganj,Tharulanguagesbazar,Tharulanguagesbandar,Tharulanguagesgram"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Thmon",
@@ -9332,7 +9471,8 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Thua Thien Hue,Quang Nam,Binh Thuan,Dak Lak,Dak Nong,CheoReo,BaTri,DucCo,MaeSai,PakLai,CatTien,WiangChai,LangSon,PhanThiet,Thmonbari,PalliThmon,Shigatse,Gyantse,Nagqu,Nyingchi,Chamdo,Kangding,Shangri La,Tawang,Bomdila,Along,Yingkiong,Basar,Kokrajhar,Guwahati,Dibrugarh,Tinsukia,Quang Tri,Quang Binh,Da Nang,Quang Ngai,Binh Dinh,Phu Yen,Khanh Hoa,Ninh Thuan,Kon Tum,Gia Lai,Lam Dong,Yongsheng,Shuangjiang,BuDop,ThaPlatak,NhaBe,AoLuang,Thmonpur,Thmonnagar,Thmonbad,Thmonkot,Thmonwada,Thmonghat,Thmonpalli,Thmonkonda,Thmonpeta,Thmonooru,Thmongiri,NagarThmon,Thmonganj,Thmonbazar,Thmonbandar,Thmongram"
+    "b": "Thua Thien Hue,Quang Nam,Binh Thuan,Dak Lak,Dak Nong,Quang Tri,Quang Binh,Da Nang,Quang Ngai,Binh Dinh,Phu Yen,Khanh Hoa,Ninh Thuan,Kon Tum,Gia Lai,Lam Dong",
+    "status": "COMPLETE"
   },
   {
     "name": "Tichurong",
@@ -9341,7 +9481,8 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Dolakha,Sindhuli,Ramechap,Okhaldhunga,Khotang,Solukhumbu,Langtang,Kyanjin Gompa,Syabrubesi,Thulo Syabru,Dolakha,Sindhuli,Ramechap,Okhaldhunga,Khotang,Solukhumbu,Langtang,Kyanjin Gompa,Syabrubesi,Thulo Syabru,MuangSai,MaeCharim,TienYen,BinhLong,PongPrasat,DongXoai,Tichurongbari,PalliTichurong,Shigatse,Gyantse,Nagqu,Nyingchi,Chamdo,Kangding,Udayapur,Udayapur,ThuongDuc,Thoeng,XuanLoc,DucHue,Yongchang,ViThanh,SaDec,ShangriLa,DongXuan,Tichurongpur,Tichurongnagar,Tichurongbad,Tichurongkot,Tichurongwada,Tichurongghat,Tichurongpalli,Tichurongkonda,Tichurongpeta,Tichurongooru,Tichuronggiri,NagarTichurong,Tichurongganj,Tichurongbazar,Tichurongbandar,Tichuronggram"
+    "b": "Dolakha,Sindhuli,Ramechap,Okhaldhunga,Khotang,Solukhumbu,Langtang,Kyanjin Gompa,Syabrubesi,Thulo Syabru,Udayapur",
+    "status": "COMPLETE"
   },
   {
     "name": "Toda",
@@ -9350,7 +9491,7 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Ooty,Coonoor,Gudalur,Kundah,Nilgiris,Wayand,Kozhikode,Kannur,Malappuram,Palakkad,Thrissur,Ernakulam,Kollam,Thiruvananthapuram,Kottayam,Alappuzha,Pathanamthitta,Idukki,SongKhwae,RachGia,BienHoa,SiNakharin,LongXuyen,Longling,ChuSe,CaiBe,DonDuong,Santikhiri,Todabari,PalliToda,Mangalore,Nagpur,Indore,Bhopal,Delhi,Mumbai,Kolkata,Chennai,Bangalore,Pune,Jaipur,Lucknow,Varanasi,Agra,Amritsar,Chandigarh,Kotagiri,CanGiuoc,KienGiang,TraVinh,Gongshan,Udomxai,Todapur,Todanagar,Todabad,Todakot,Todawada,Todaghat,Todapalli,Todakonda,Todapeta,Todaooru,Todagiri,NagarToda,Todaganj,Todabazar,Todabandar,Todagram",
+    "b": "Ooty,Coonoor,Gudalur,Kundah,Nilgiris,Wayand,Kozhikode,Kannur,Malappuram,Palakkad,Thrissur,Ernakulam,Kollam,Thiruvananthapuram,Kottayam,Alappuzha,Pathanamthitta,Idukki",
     "status": "COMPLETE"
   },
   {
@@ -9360,7 +9501,8 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Thua Thien Hue,Quang Nam,Binh Thuan,Dak Lak,Dak Nong,XiengKhouang,Prem,Todrahbari,PalliTodrah,Phnom Penh,Battambang,Kampong Cham,Kampot,Takeo,Kratie,Stung Treng,Sihanoukville,Prey Veng,Mondulkiri,Ratanakiri,Kampong Thom,Banteay Meanchey,Oddar Meanchey,Preah Vihear,Koh Kong,Pailin,Kep,Ranchi,Jamshedpur,Dumka,Hazaribagh,Khandwa,Betul,Chhindwara,Quang Tri,Quang Binh,Da Nang,Quang Ngai,Binh Dinh,Phu Yen,Khanh Hoa,Ninh Thuan,Kon Tum,Gia Lai,Lam Dong,TanHiep,TanThanh,Changning,ALuoi,CangLong,Menglian,NgocHoi,TanPhuoc,Fang,SonLa,PhuGiao,Sapan,TraVinh,Todrahpur,Todrahnagar,Todrahbad,Todrahkot,Todrahwada,Todrahghat,Todrahpalli,Todrahkonda,Todrahpeta,Todrahooru,Todrahgiri,NagarTodrah,Todrahganj,Todrahbazar,Todrahbandar,Todrahgram"
+    "b": "Thua Thien Hue,Quang Nam,Binh Thuan,Dak Lak,Dak Nong,Quang Tri,Quang Binh,Da Nang,Quang Ngai,Binh Dinh,Phu Yen,Khanh Hoa,Ninh Thuan,Kon Tum,Gia Lai,Lam Dong",
+    "status": "COMPLETE"
   },
   {
     "name": "Tongren Bonan",
@@ -9369,7 +9511,8 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Xunhua,Huzhu,Minhe,Hualong,Zeku,Gonghe,Mangcha,MoCay,ChuPah,KengTung,DaTeh,MaeSuay,HaGiang,LocNinh,TongrenBonanbari,Ashgabat,Mary,Turkmenabat,Dashoguz,Bishkek,Osh,Jalal-Abad,Karakol,Ulaanbaatar,Erdenet,Khovd,Yakutsk,Mirny,Neryungri,Tiksi,Tongren,Linxia,Jishishan,Tianzhu,Lanzhou,Xining,Haidong,Pingliang,Zhenyuan,Gengma,Xaisomboun,ThungChang,GoCong,HocMon,SobPrab,TamBinh,HongNgu,TongrenBonanpur,TongrenBonannagar,TongrenBonanbad,TongrenBonankot,TongrenBonanwada,TongrenBonanghat,TongrenBonanpalli,TongrenBonankonda,TongrenBonanpeta,TongrenBonanuru,TongrenBonanuri,TongrenBonanooru,TongrenBonangiri,NagarTongrenBonan,TongrenBonanganj,TongrenBonanbazar,TongrenBonanbandar,TongrenBonangram,PalliTongrenBonan"
+    "b": "Xunhua,Huzhu,Minhe,Hualong,Zeku,Gonghe,Mangcha,Tongren,Linxia,Jishishan,Tianzhu,Lanzhou,Xining,Haidong,Pingliang,Zhenyuan,Gengma",
+    "status": "COMPLETE"
   },
   {
     "name": "Torwali",
@@ -9378,7 +9521,8 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Chilas,Swat,Dir,Shangla,Alai,Mansehra,ThongMySai,TanPhu,QuangNinh,PhuocLong,RongKwang,DaLat,CanGio,TalokMuh,Torwalibari,PalliTorwali,Tehran,Isfahan,Shiraz,Tabriz,Mashhad,Ahvaz,Kermanshah,Qom,Rasht,Hamadan,Yazd,Arak,Kerman,Zanjan,Sari,Qazvin,Karaj,Urmia,Bandar Abbas,Kohistan,ChiangMuan,TieuCan,CaoLanh,Ninglang,SongCau,ChoGao,Jinghong,Torwalipur,Torwalinagar,Torwalibad,Torwalikot,Torwaliwada,Torwalighat,Torwalipalli,Torwalikonda,Torwalipeta,Torwaliooru,Torwaligiri,NagarTorwali,Torwaliganj,Torwalibazar,Torwalibandar,Torwaligram"
+    "b": "Chilas,Swat,Dir,Shangla,Alai,Mansehra,Kohistan",
+    "status": "COMPLETE"
   },
   {
     "name": "Transitional Bonan-Kangjia",
@@ -9387,7 +9531,8 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Xunhua,Huzhu,Minhe,Hualong,Zeku,Gonghe,Mangcha,BinhPhuoc,ThaSongKorn,SonHoa,LuangNamtha,DiLinh,DokKhamtai,Nateuy,TransitionalBonanKangjiabari,PalliTransitionalBonanKangjia,Kyzyl,Gorno-Altaysk,Ulan-Ude,Elista,Almaty,Nur-Sultan,Shymkent,Karaganda,Aktobe,Taraz,Tashkent,Samarkand,Bukhara,Fergana,Tongren,Linxia,Jishishan,Tianzhu,Lanzhou,Xining,Haidong,Pingliang,Zhenyuan,TayNinh,BenLuc,Lianghe,NgaBay,ChauThanh,Deqin,TanPhuoc,LongKhanh,TransitionalBonanKangjiapur,TransitionalBonanKangjianagar,TransitionalBonanKangjiabad,TransitionalBonanKangjiakot,TransitionalBonanKangjiawada,TransitionalBonanKangjiaghat,TransitionalBonanKangjiapalli,TransitionalBonanKangjiakonda,TransitionalBonanKangjiapeta,TransitionalBonanKangjiauru,TransitionalBonanKangjiauri,TransitionalBonanKangjiaooru,TransitionalBonanKangjiagiri,NagarTransitionalBonanKangjia,TransitionalBonanKangjiaganj,TransitionalBonanKangjiabazar,TransitionalBonanKangjiabandar,TransitionalBonanKangjiagram"
+    "b": "Xunhua,Huzhu,Minhe,Hualong,Zeku,Gonghe,Mangcha,Tongren,Linxia,Jishishan,Tianzhu,Lanzhou,Xining,Haidong,Pingliang,Zhenyuan",
+    "status": "COMPLETE"
   },
   {
     "name": "Tripuri",
@@ -9406,7 +9551,7 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Chiang Mai,Chiang Rai,Lampang,Lamphun,Mae Hong Son,Nan,Phayao,Phrae,Uttaradit,Sukhothai,Phetchabun,Phitsanulok,ChaiPrakarn,BauBang,BenCat,KoKha,CaiBe,TsunLaobari,PalliTsunLao,Bangkok,Phuket,Khon Kaen,Udon Thani,Hat Yai,Surat Thani,Nakhon Ratchasima,Nakhon Sawan,Chonburi,Kanchanaburi,Ratchaburi,Krabi,Trang,Mae Sot,Nong Khai,Sakon Nakhon,SaThay,GoCong,Phonsavan,Dran,LaiChau,Sangkha,BenTre,TanChau,Eryuan,Pleiku,TsunLaopur,TsunLaonagar,TsunLaobad,TsunLaokot,TsunLaowada,TsunLaoghat,TsunLaopalli,TsunLaokonda,TsunLaopeta,TsunLaouru,TsunLaouri,TsunLaoooru,TsunLaogiri,NagarTsunLao,TsunLaoganj,TsunLaobazar,TsunLaobandar,TsunLaogram",
+    "b": "Chiang Mai,Chiang Rai,Lampang,Lamphun,Mae Hong Son,Nan,Phayao,Phrae,Uttaradit,Sukhothai,Phetchabun,Phitsanulok",
     "status": "COMPLETE"
   },
   {
@@ -9426,7 +9571,7 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Dibrugarh,Tinsukia,Dhemaji,Jorhat,Sibsagar,Nagaon,Assam,Guwahati,Nalbari,Bongaigaon,Dhubri,Kokrajhar,Bilasipara,Rangia,Mangaldoi,Sivasagar,Mariani,Kohima,MuangSai,MaeCharim,TienYen,Turungbari,PalliTurung,Delhi,Mumbai,Kolkata,Chennai,Bangalore,Pune,Surat,Lucknow,Jaipur,Lakhimpur,Golaghat,Tezpur,Dispur,Habraghat,Dimapur,BaoLoc,DucHoa,Wuwei,CangLong,LapVo,Lijiang,TuyAnh,GoCongTay,Mengla,ThuongDuc,Thoeng,XuanLoc,Turungpur,Turungnagar,Turungbad,Turungkot,Turungwada,Turungghat,Turungpalli,Turungkonda,Turungpeta,Turungooru,Turunggiri,NagarTurung,Turungganj,Turungbazar,Turungbandar,Turunggram",
+    "b": "Dibrugarh,Tinsukia,Dhemaji,Jorhat,Sibsagar,Nagaon,Guwahati,Nalbari,Bongaigaon,Dhubri,Kokrajhar,Bilasipara,Rangia,Mangaldoi,Sivasagar,Mariani,Lakhimpur,Golaghat,Tezpur,Dispur,Habraghat,Dimapur",
     "status": "COMPLETE"
   },
   {
@@ -9436,16 +9581,18 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Qinghai,Gonghe,Gansu,Qinghai,Gonghe,Gansu,NamBak,SongKhwae,RachGia,BienHoa,SiNakharin,LongXuyen,Tuyuhunbari,PalliTuyuhun,Ulaanbaatar,Erdenet,Darkhan,Choibalsan,Khovd,Bayan-Olgii,Bulgan,Murun,Ulaangom,Altai,Bayanhongor,Mandalgovi,Dalanzadgad,Kharkhorin,Ulan-Ude,Irkutsk,Kyakhta,Hulunbuir,Arxan,Xining,Haidong,Linxia,Zhangye,Wuwei,Jinchang,Jiuquan,Zhangye,Xining,Haidong,Linxia,Zhangye,Wuwei,Jinchang,Jiuquan,Zhangye,LaiVung,Weixi,CungSon,MyTho,Bokeo,BaoLoc,Pong,NhonTrach,CanGiuoc,Tuyuhunpur,Tuyuhunnagar,Tuyuhunbad,Tuyuhunkot,Tuyuhunwada,Tuyuhunghat,Tuyuhunpalli,Tuyuhunkonda,Tuyuhunpeta,Tuyuhunooru,Tuyuhungiri,NagarTuyuhun,Tuyuhunganj,Tuyuhunbazar,Tuyuhunbandar,Tuyuhungram"
+    "b": "",
+    "status": "WAITING"
   },
-  {
+{
     "name": "Udege",
     "i": 200555,
     "min": 4,
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Khabarovsk,Vladivostok,Blagoveshchensk,Tongjiang,Komsomolsk-on-Amur,Bikin,Lesozavodsk,Dalnerechensk,Dolinsk,Yuzhno-Sakhalinsk,Ulan-Ude,Chita,Amursk,Artyom,Ussuriysk,Partizansk,Nakhodka,Spassk-Dalny,Luchegorsk,Dalnegorsk,Kavalerovo,Vanino,Chernyshevsky,Neryungri,Tygda,Mogocha,XamNeua,DaLat,Udegebari,PalliUdege,Ashgabat,Mary,Turkmenabat,Dashoguz,Bishkek,Osh,Jalal-Abad,Karakol,Ulaanbaatar,Erdenet,Khovd,Yakutsk,Mirny,Neryungri,Fuyuan,Thaton,DienBien,LaiUyen,BoKluea,SocTrang,ThuanAn,PakLay,TanHiep,TanThanh,Changning,ALuoi,CangLong,Menglian,Udegepur,Udegenagar,Udegebad,Udegekot,Udegewada,Udegeghat,Udegepalli,Udegekonda,Udegepeta,Udegeooru,Udegegiri,NagarUdege,Udegeganj,Udegebazar,Udegebandar,Udegegram"
+    "b": "Khabarovsk,Vladivostok,Blagoveshchensk,Tongjiang,Komsomolsk-on-Amur,Bikin,Lesozavodsk,Dalnerechensk,Dolinsk,Yuzhno-Sakhalinsk,Ulan-Ude,Chita,Amursk,Artyom,Ussuriysk,Partizansk,Nakhodka,Spassk-Dalny,Luchegorsk,Dalnegorsk,Kavalerovo,Vanino,Chernyshevsky,Neryungri,Tygda,Mogocha",
+    "status": "COMPLETE"
   },
   {
     "name": "Udegheic",
@@ -9454,7 +9601,8 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Khabarovsk,Vladivostok,Blagoveshchensk,Tongjiang,Komsomolsk-on-Amur,Bikin,Lesozavodsk,Dalnerechensk,Dolinsk,Yuzhno-Sakhalinsk,Chita,Amursk,Artyom,Ussuriysk,Partizansk,Nakhodka,Spassk-Dalny,Luchegorsk,Dalnegorsk,Kavalerovo,Vanino,Chernyshevsky,Tygda,Mogocha,WangNuea,AnKhe,MoCay,ChuPah,KengTung,DaTeh,Udegheicbari,PalliUdegheic,Fuyuan,Ulan-Ude,Neryungri,ChonThanh,NamPat,MyTho,CuChi,VinhLong,AnPhu,Jianchuan,Gengma,Xaisomboun,Udegheicpur,Udegheicnagar,Udegheicbad,Udegheickot,Udegheicwada,Udegheicghat,Udegheicpalli,Udegheickonda,Udegheicpeta,Udegheicooru,Udegheicgiri,NagarUdegheic,Udegheicganj,Udegheicbazar,Udegheicbandar,Udegheicgram"
+    "b": "Khabarovsk,Vladivostok,Blagoveshchensk,Tongjiang,Komsomolsk-on-Amur,Bikin,Lesozavodsk,Dalnerechensk,Dolinsk,Yuzhno-Sakhalinsk,Chita,Amursk,Artyom,Ussuriysk,Partizansk,Nakhodka,Spassk-Dalny,Luchegorsk,Dalnegorsk,Kavalerovo,Vanino,Chernyshevsky,Tygda,Mogocha",
+    "status": "COMPLETE"
   },
   {
     "name": "Uilta",
@@ -9463,7 +9611,8 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Khabarovsk,Vladivostok,Blagoveshchensk,Tongjiang,Komsomolsk-on-Amur,Bikin,Lesozavodsk,Dalnerechensk,Dolinsk,Yuzhno-Sakhalinsk,Chita,Amursk,Artyom,Ussuriysk,Partizansk,Nakhodka,Spassk-Dalny,Luchegorsk,Dalnegorsk,Kavalerovo,Vanino,Chernyshevsky,Tygda,Mogocha,ThanhBinh,ChiangSaen,ThongMySai,TanPhu,QuangNinh,PhuocLong,RongKwang,Uiltabari,PalliUilta,Fuyuan,Ulan-Ude,Neryungri,AoLuang,CauKe,Huaping,PhuThien,ChoLach,Puer,Pleiku,ChiangMuan,Uiltapur,Uiltanagar,Uiltabad,Uiltakot,Uiltawada,Uiltaghat,Uiltapalli,Uiltakonda,Uiltapeta,Uiltaooru,Uiltagiri,NagarUilta,Uiltaganj,Uiltabazar,Uiltabandar,Uiltagram"
+    "b": "Khabarovsk,Vladivostok,Blagoveshchensk,Tongjiang,Komsomolsk-on-Amur,Bikin,Lesozavodsk,Dalnerechensk,Dolinsk,Yuzhno-Sakhalinsk,Chita,Amursk,Artyom,Ussuriysk,Partizansk,Nakhodka,Spassk-Dalny,Luchegorsk,Dalnegorsk,Kavalerovo,Vanino,Chernyshevsky,Tygda,Mogocha",
+    "status": "COMPLETE"
   },
   {
     "name": "Ulaanchab Mongol",
@@ -9472,7 +9621,8 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Ulaanbaatar,Erdenet,Baruun-Urt,Murun,Khovd,Altai,Bayan-Olgii,Uvs,Khovsgol,Dornod,Dundgovi,Govisumber,Selenge,Tov,ViengPhoukha,DamHa,BinhPhuoc,ThaSongKorn,UlaanchabMongolbari,PalliUlaanchabMongol,Tiksi,Kyzyl,Gorno-Altaysk,Ulan-Ude,Elista,Almaty,Nur-Sultan,Shymkent,Karaganda,Aktobe,Taraz,Tashkent,Samarkand,Bukhara,Fergana,Choibalsan,Ondorkhaan,Zavkhan,Darkhan,DongXuan,GoCongDong,Mohan,DaiLinh,Phayao,TrangBom,SantiSuk,TayNinh,BenLuc,Lianghe,NgaBay,UlaanchabMongolpur,UlaanchabMongolnagar,UlaanchabMongolbad,UlaanchabMongolkot,UlaanchabMongolwada,UlaanchabMongolghat,UlaanchabMongolpalli,UlaanchabMongolkonda,UlaanchabMongolpeta,UlaanchabMongoluru,UlaanchabMongoluri,UlaanchabMongolooru,UlaanchabMongolgiri,NagarUlaanchabMongol,UlaanchabMongolganj,UlaanchabMongolbazar,UlaanchabMongolbandar,UlaanchabMongolgram"
+    "b": "Ulaanbaatar,Erdenet,Baruun-Urt,Murun,Khovd,Altai,Bayan-Olgii,Uvs,Khovsgol,Dornod,Dundgovi,Govisumber,Selenge,Tov,Choibalsan,Ondorkhaan,Zavkhan,Darkhan",
+    "status": "COMPLETE"
   },
   {
     "name": "Ulch",
@@ -9481,7 +9631,8 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Khabarovsk,Vladivostok,Blagoveshchensk,Tongjiang,Komsomolsk-on-Amur,Bikin,Lesozavodsk,Dalnerechensk,Dolinsk,Yuzhno-Sakhalinsk,Ulan-Ude,Chita,Amursk,Artyom,Ussuriysk,Partizansk,Nakhodka,Spassk-Dalny,Luchegorsk,Dalnegorsk,Kavalerovo,Vanino,Chernyshevsky,Neryungri,Tygda,Mogocha,Santikhiri,PakMong,Pua,Ulchbari,PalliUlch,Ashgabat,Mary,Turkmenabat,Dashoguz,Bishkek,Osh,Jalal-Abad,Karakol,Ulaanbaatar,Erdenet,Khovd,Yakutsk,Mirny,Fuyuan,PhuocAn,CaMau,ThuDauMot,Srinagarindra,ChauDoc,TanTru,Shidian,DongHa,CauKe,Fugong,DakDoa,CaiLay,Ulchpur,Ulchnagar,Ulchbad,Ulchkot,Ulchwada,Ulchghat,Ulchpalli,Ulchkonda,Ulchpeta,Ulchooru,Ulchgiri,NagarUlch,Ulchganj,Ulchbazar,Ulchbandar,Ulchgram"
+    "b": "Khabarovsk,Vladivostok,Blagoveshchensk,Tongjiang,Komsomolsk-on-Amur,Bikin,Lesozavodsk,Dalnerechensk,Dolinsk,Yuzhno-Sakhalinsk,Ulan-Ude,Chita,Amursk,Artyom,Ussuriysk,Partizansk,Nakhodka,Spassk-Dalny,Luchegorsk,Dalnegorsk,Kavalerovo,Vanino,Chernyshevsky,Neryungri,Tygda,Mogocha",
+    "status": "COMPLETE"
   },
   {
     "name": "Ushojo",
@@ -9490,7 +9641,8 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Chilas,Swat,Dir,Shangla,Alai,Mansehra,SopPrap,Kontum,Ximeng,ChaiPrakarn,Ushojobari,PalliUshojo,Tehran,Isfahan,Shiraz,Tabriz,Mashhad,Ahvaz,Kermanshah,Qom,Rasht,Hamadan,Yazd,Arak,Kerman,Zanjan,Sari,Qazvin,Karaj,Urmia,Bandar Abbas,Sanandaj,Borujerd,Gorgan,Abadan,Kohistan,TraVinh,TanUyen,CaiLay,ChauDoc,Yunlong,ChauThanh,SaThay,GoCong,Phonsavan,Dran,LaiChau,Ushojopur,Ushojonagar,Ushojobad,Ushojokot,Ushojowada,Ushojoghat,Ushojopalli,Ushojokonda,Ushojopeta,Ushojoooru,Ushojogiri,NagarUshojo,Ushojoganj,Ushojobazar,Ushojobandar,Ushojogram"
+    "b": "Chilas,Swat,Dir,Shangla,Alai,Mansehra,Kohistan",
+    "status": "COMPLETE"
   },
   {
     "name": "Vaghri",
@@ -9499,7 +9651,8 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Sukkur,Larkana,Nawabshah,Mirpur Khas,Dadu,Badin,Thatta,Ghotki,Sanghar,Mithi,Ratodero,Mehar,Kamber,Moro,Sakrand,Tando Muhammad Khan,Tando Allahyar,Matiari,Hala,Sinjhoro,Naushro Feroze,Kandiaro,Daharki,Pano Aqil,Rohri,Kashmor,Tando Jan Mohammad,Bhit Shah,AyunPa,ChuPro,Sayabury,DaHuoai,PaDaet,NaNoi,Vaghribari,PalliVaghri,Hyderabad,Shikarpur,Khairpur,Umarkot,Shahdadkot,Sehwan,Dhurkot,HongNgu,Heqing,GiongTrom,Lincang,Tachilek,CaoBang,BuDang,PhanRang,BinhChanh,Vaghripur,Vaghrinagar,Vaghribad,Vaghrikot,Vaghriwada,Vaghrighat,Vaghripalli,Vaghrikonda,Vaghripeta,Vaghriooru,Vaghrigiri,NagarVaghri,Vaghriganj,Vaghribazar,Vaghribandar,Vaghrigram"
+    "b": "Sukkur,Larkana,Nawabshah,Mirpur Khas,Dadu,Badin,Thatta,Ghotki,Sanghar,Mithi,Ratodero,Mehar,Kamber,Moro,Sakrand,Tando Muhammad Khan,Tando Allahyar,Matiari,Hala,Sinjhoro,Naushro Feroze,Kandiaro,Daharki,Pano Aqil,Rohri,Kashmor,Tando Jan Mohammad,Bhit Shah,Hyderabad,Shikarpur,Khairpur,Umarkot,Shahdadkot,Sehwan,Dhurkot",
+    "status": "COMPLETE"
   },
   {
     "name": "Varendri",
@@ -9508,7 +9661,8 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Purnia,Katihar,Araria,Madhepura,Saharsa,Darbhanga,Begusarai,Munger,Banka,Jamui,ChiangKhlong,Sing,NaMuen,Varendribari,PalliVarendri,Kishanganj,Muzaffarpur,Samastipur,Bhagalpur,Godda,Dumka,Sahibganj,Ranchi,Jinghong,PhuNhon,DinhQuan,Chun,MongCai,DongPhu,BaoLoc,DucHoa,Wuwei,CangLong,LapVo,Lijiang,Varendripur,Varendrinagar,Varendribad,Varendrikot,Varendriwada,Varendrighat,Varendripalli,Varendrikonda,Varendripeta,Varendriooru,Varendrigiri,NagarVarendri,Varendriganj,Varendribazar,Varendribandar,Varendrigram"
+    "b": "Purnia,Katihar,Araria,Madhepura,Saharsa,Darbhanga,Begusarai,Munger,Banka,Jamui,Kishanganj,Muzaffarpur,Samastipur,Bhagalpur,Godda,Dumka,Sahibganj,Ranchi",
+    "status": "COMPLETE"
   },
   {
     "name": "Vayu",
@@ -9517,16 +9671,18 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Dang,Tanahun,Gorkha,Rolpa,Surkhet,Gandaki,Lumbini,Kathmandu,Ghorahi,Sakhi,Mahendra,BanLuang,Vayubari,PalliVayu,Pyuthan,Tribhuvan,LongKhanh,HaTien,BinhDuong,PhuKamYao,TanAn,CanDuoc,Tengchong,LongMy,LaiVung,Weixi,CungSon,MyTho,Bokeo,BaoLoc,Vayupur,Vayunagar,Vayubad,Vayukot,Vayuwada,Vayughat,Vayupalli,Vayukonda,Vayupeta,Vayuooru,Vayugiri,NagarVayu,Vayuganj,Vayubazar,Vayubandar,Vayugram"
+    "b": "Dang,Tanahun,Gorkha,Rolpa,Surkhet,Gandaki,Lumbini,Kathmandu,Ghorahi,Sakhi,Mahendra,Pyuthan,Tribhuvan",
+    "status": "COMPLETE"
   },
-  {
+{
     "name": "Vietnamese Central",
     "i": 200564,
     "min": 4,
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Da Nang,Hue,Quang Ngai,Quy Nhon,Nha Trang,Tuy Hoa,Buon Ma Thuot,Pleiku,Phan Thiet,BanKok,TanChau,ChauThanh,QuangTri,DakTo,XamNeua,DaLat,DienBien,LaiUyen,BoKluea,SocTrang,VietnameseCentralbari,PalliVietnameseCentral,Kuala Lumpur,George Town,Johor Bahru,Kota Kinabalu,Kuching,Jakarta,Surabaya,Bandung,Yogyakarta,Palembang,Makassar,Denpasar,Baoshan,TieuCan,Lushui,Thaton,VietnameseCentralpur,VietnameseCentralnagar,VietnameseCentralbad,VietnameseCentralkot,VietnameseCentralwada,VietnameseCentralghat,VietnameseCentralpalli,VietnameseCentralkonda,VietnameseCentralpeta,VietnameseCentraluru,VietnameseCentraluri,VietnameseCentralooru,VietnameseCentralgiri,NagarVietnameseCentral,VietnameseCentralganj,VietnameseCentralbazar,VietnameseCentralbandar,VietnameseCentralgram"
+    "b": "Da Nang,Hue,Quang Ngai,Quy Nhon,Nha Trang,Tuy Hoa,Buon Ma Thuot,Pleiku,Phan Thiet",
+    "status": "COMPLETE"
   },
   {
     "name": "Vietnamese Southern",
@@ -9535,7 +9691,8 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Ho Chi Minh City,Bien Hoa,Vung Tau,Dong Nai,Bau Xuan,Thu Duc,Tan Binh,Tan Phu,Binh Duong,Go Vap,Nha Be,Can Gio,Cu Chi,Vinh Long,CanGiuoc,Longling,KienGiang,TraVinh,ChuSe,CaiBe,DonDuong,Santikhiri,PakMong,Pua,CaMau,ThuDauMot,VietnameseSouthernbari,PalliVietnameseSouthern,Hanoi,Ho Chi Minh City,Da Nang,Gongshan,Udomxai,PhuocAn,VietnameseSouthernpur,VietnameseSouthernnagar,VietnameseSouthernbad,VietnameseSouthernkot,VietnameseSouthernwada,VietnameseSouthernghat,VietnameseSouthernpalli,VietnameseSouthernkonda,VietnameseSouthernpeta,VietnameseSouthernuru,VietnameseSouthernuri,VietnameseSouthernooru,VietnameseSoutherngiri,NagarVietnameseSouthern,VietnameseSouthernganj,VietnameseSouthernbazar,VietnameseSouthernbandar,VietnameseSoutherngram"
+    "b": "Ho Chi Minh City,Bien Hoa,Vung Tau,Dong Nai,Bau Xuan,Thu Duc,Tan Binh,Tan Phu,Binh Duong,Go Vap,Nha Be,Can Gio,Cu Chi,Vinh Long,CanGiuoc",
+    "status": "COMPLETE"
   },
   {
     "name": "Vietnamese Hue",
@@ -9544,7 +9701,8 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Hue,Phong Dien,Quang Tri,Quang Binh,Dong Hoi,Dong Ha,Phan Rang,Phan Thiet,MaeSai,PakLai,CatTien,WiangChai,LangSon,BuDop,ThaPlatak,PhanThiet,NhaBe,AoLuang,CauKe,ThanhBinh,PhuThien,ChoLach,VietnameseHuebari,PalliVietnameseHue,Kuala Lumpur,George Town,Johor Bahru,Kota Kinabalu,Kuching,Jakarta,Surabaya,Bandung,Yogyakarta,Palembang,Makassar,Denpasar,Huaping,VietnameseHuepur,VietnameseHuenagar,VietnameseHuebad,VietnameseHuekot,VietnameseHuewada,VietnameseHueghat,VietnameseHuepalli,VietnameseHuekonda,VietnameseHuepeta,VietnameseHueuru,VietnameseHueuri,VietnameseHueooru,VietnameseHuegiri,NagarVietnameseHue,VietnameseHueganj,VietnameseHuebazar,VietnameseHuebandar,VietnameseHuegram"
+    "b": "Hue,Phong Dien,Quang Tri,Quang Binh,Dong Hoi,Dong Ha,Phan Rang,Phan Thiet",
+    "status": "COMPLETE"
   },
   {
     "name": "Vietnamese Northern",
@@ -9553,7 +9711,8 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Hanoi,Haiphong,Thai Nguyen,Quang Ninh,Hai Duong,Vinh Yen,Lang Son,Cao Bang,Lao Cai,Ha Giang,Son La,Tuyen Quang,Yen Bai,Thai Binh,Phu Tho,Lai Chau,Dien Bien Phu,TienYen,BinhLong,PongPrasat,DongXoai,DucHue,ViThanh,SaDec,GoCongDong,DaiLinh,ViengPhoukha,VietnameseNorthernbari,PalliVietnameseNorthern,Hanoi,Ho Chi Minh City,Da Nang,Yongchang,ShangriLa,DongXuan,Mohan,Phayao,VietnameseNorthernpur,VietnameseNorthernnagar,VietnameseNorthernbad,VietnameseNorthernkot,VietnameseNorthernwada,VietnameseNorthernghat,VietnameseNorthernpalli,VietnameseNorthernkonda,VietnameseNorthernpeta,VietnameseNorthernuru,VietnameseNorthernuri,VietnameseNorthernooru,VietnameseNortherngiri,NagarVietnameseNorthern,VietnameseNorthernganj,VietnameseNorthernbazar,VietnameseNorthernbandar,VietnameseNortherngram"
+    "b": "Hanoi,Haiphong,Thai Nguyen,Quang Ninh,Hai Duong,Vinh Yen,Lang Son,Cao Bang,Lao Cai,Ha Giang,Son La,Tuyen Quang,Yen Bai,Thai Binh,Phu Tho,Lai Chau,Dien Bien Phu",
+    "status": "COMPLETE"
   },
   {
     "name": "Vietnamese South",
@@ -9562,7 +9721,8 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Ho Chi Minh City,Saigon,Vung Tau,Can Tho,Rach Gia,My Tho,Ben Tre,Tay Ninh,Long Khanh,Dong Nai,Bien Hoa,Vinh,Lam Dong,Phan Rang,Ca Mau,Cao Lanh,Pleiku,BenTre,IaGrai,MongLa,MuangKham,DanSim,WiangPaPao,LaoCai,ChonThanh,NamPat,MyTho,CuChi,WangNuea,VinhLong,VietnameseChinabari,PalliVietnameseChina,Kuala Lumpur,George Town,Johor Bahru,Kota Kinabalu,Kuching,Jakarta,Surabaya,Bandung,Yogyakarta,Palembang,Makassar,Cangyuan,VietnameseChinapur,VietnameseChinanagar,VietnameseChinabad,VietnameseChinakot,VietnameseChinawada,VietnameseChinaghat,VietnameseChinapalli,VietnameseChinakonda,VietnameseChinapeta,VietnameseChinauru,VietnameseChinauri,VietnameseChinaooru,VietnameseChinagiri,NagarVietnameseChina,VietnameseChinaganj,VietnameseChinabazar,VietnameseChinabandar,VietnameseChinagram"
+    "b": "Ho Chi Minh City,Saigon,Vung Tau,Can Tho,Rach Gia,My Tho,Ben Tre,Tay Ninh,Long Khanh,Dong Nai,Bien Hoa,Vinh,Lam Dong,Phan Rang,Ca Mau,Cao Lanh,Pleiku",
+    "status": "COMPLETE"
   },
   {
     "name": "Vietnamese US",
@@ -9571,7 +9731,8 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "San Jose,Westminster,Santa Ana,Irvine,Orange,Anaheim,Los Alamitos,Costa Mesa,Buena Park,Cypress,Fullerton,Stanton,Hanoi,Ho Chi Minh City,Hue,Da Nang,Hai Phong,Can Tho,Nha Trang,Da Lat,Vinh,Quy Nhon,Rach Gia,My Tho,Vung Tau,Bien Hoa,Ha Long,Ninh Binh,Phan Thiet,Nam Dinh,Thai Binh,Hai Duong,Bac Ninh,Ha Tinh,Garden Grove,Fountain Valley,Huntington Beach,Newport Beach"
+    "b": "San Jose,Westminster,Santa Ana,Irvine,Orange,Anaheim,Los Alamitos,Costa Mesa,Buena Park,Cypress,Fullerton,Stanton",
+    "status": "COMPLETE"
   },
   {
     "name": "Vishavan",
@@ -9580,7 +9741,8 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Kannur,Kozhikode,Malappuram,Palakkad,Thrissur,Kottayam,Alappuzha,Pathanamthitta,Kollam,Thiruvananthapuram,Wayanad,Idukki,DaTeh,MaeSuay,HaGiang,LocNinh,AyunPa,ChuPro,Vishavanbari,Chennai,Coimbatore,Madurai,Tiruchirappalli,Salem,Tirunelveli,Vellore,Thoothukudi,Kanchipuram,Thanjavur,Ooty,Coonoor,Mysore,Mangalore,Hubballi,Belagavi,Kochi,ThungChang,GoCong,HocMon,SobPrab,TamBinh,HongNgu,Heqing,GiongTrom,Lincang,Vishavanpur,Vishavannagar,Vishavanbad,Vishavankot,Vishavanwada,Vishavanghat,Vishavanpalli,Vishavankonda,Vishavanpeta,Vishavanooru,Vishavangiri,NagarVishavan,Vishavanganj,Vishavanbazar,Vishavanbandar,Vishavangram,PalliVishavan"
+    "b": "Kannur,Kozhikode,Malappuram,Palakkad,Thrissur,Kottayam,Alappuzha,Pathanamthitta,Kollam,Thiruvananthapuram,Wayanad,Idukki",
+    "status": "COMPLETE"
   },
   {
     "name": "Wadiyara Koli",
@@ -9589,7 +9751,8 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Sukkur,Larkana,Nawabshah,Mirpur Khas,Dadu,Badin,Thatta,Ghotki,Sanghar,Mithi,Ratodero,Mehar,Kamber,Moro,Sakrand,Tando Muhammad Khan,Tando Allahyar,Matiari,Hala,Sinjhoro,Naushro Feroze,Kandiaro,Daharki,Pano Aqil,Rohri,Kashmor,Tando Jan Mohammad,Bhit Shah,RongKwang,DaLat,CanGio,TalokMuh,ChiangKhlong,Sing,WadiyaraKolibari,PalliWadiyaraKoli,Hyderabad,Shikarpur,Khairpur,Umarkot,Shahdadkot,Sehwan,Dhurkot,TieuCan,CaoLanh,Ninglang,SongCau,ChoGao,Jinghong,PhuNhon,DinhQuan,Chun,WadiyaraKolipur,WadiyaraKolinagar,WadiyaraKolibad,WadiyaraKolikot,WadiyaraKoliwada,WadiyaraKolighat,WadiyaraKolipalli,WadiyaraKolikonda,WadiyaraKolipeta,WadiyaraKoliuru,WadiyaraKoliuri,WadiyaraKoliooru,WadiyaraKoligiri,NagarWadiyaraKoli,WadiyaraKoliganj,WadiyaraKolibazar,WadiyaraKolibandar,WadiyaraKoligram"
+    "b": "Sukkur,Larkana,Nawabshah,Mirpur Khas,Dadu,Badin,Thatta,Ghotki,Sanghar,Mithi,Ratodero,Mehar,Kamber,Moro,Sakrand,Tando Muhammad Khan,Tando Allahyar,Matiari,Hala,Sinjhoro,Naushro Feroze,Kandiaro,Daharki,Pano Aqil,Rohri,Kashmor,Tando Jan Mohammad,Bhit Shah,Hyderabad,Shikarpur,Khairpur,Umarkot,Shahdadkot,Sehwan,Dhurkot",
+    "status": "COMPLETE"
   },
   {
     "name": "Wagdi",
@@ -9598,7 +9761,8 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Ajmer,Bikaner,Alwar,Kota,Bundi,Chittorgarh,Sikar,Pali,Tonk,Barmer,Jaisalmer,Jhalawar,Karauli,Banswara,Jhunjhunu,Sirohi,Nagaur,SonHoa,LuangNamtha,DiLinh,DokKhamtai,Nateuy,BanLuang,Wagdibari,PalliWagdi,Delhi,Mumbai,Kolkata,Chennai,Bangalore,Pune,Surat,Lucknow,Jodhpur,Jaipur,Udaipur,Bharatpur,Sawai Madhopur,Dungarpur,Churu,NgaBay,ChauThanh,Deqin,TanPhuoc,LongKhanh,HaTien,BinhDuong,PhuKamYao,TanAn,Wagdipur,Wagdinagar,Wagdibad,Wagdikot,Wagdiwada,Wagdighat,Wagdipalli,Wagdikonda,Wagdipeta,Wagdiooru,Wagdigiri,NagarWagdi,Wagdiganj,Wagdibazar,Wagdibandar,Wagdigram"
+    "b": "Ajmer,Bikaner,Alwar,Kota,Bundi,Chittorgarh,Sikar,Pali,Tonk,Barmer,Jaisalmer,Jhalawar,Karauli,Banswara,Jhunjhunu,Sirohi,Nagaur,Jodhpur,Udaipur,Bharatpur,Sawai Madhopur,Dungarpur,Churu",
+    "status": "COMPLETE"
   },
   {
     "name": "Walungge",
@@ -9607,7 +9771,8 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Kathmandu,Pokhara,Birgunj,Butwal,Hetauda,Dhangadhi,Itahari,Nepalgunj,Gorkha,Tansen,Rajbiraj,Siraha,Jaleshwar,Malangwa,Gaur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang,DucTrong,MaeFaLuang,ChiangHai,BanKok,Walunggebari,PalliWalungge,Shigatse,Gyantse,Nagqu,Nyingchi,Chamdo,Kangding,Lalitpur,Bharatpur,Biratnagar,Dharan,Janakpur,Bhaktapur,Lahan,Chandrapur,CaiLay,Phongsali,LaiThieu,ThaWangPha,BacLieu,DiAn,TanChau,ChauThanh,Baoshan,QuangTri,TieuCan,Walunggepur,Walunggenagar,Walunggebad,Walunggekot,Walunggewada,Walunggeghat,Walunggepalli,Walunggekonda,Walunggepeta,Walunggeooru,Walunggegiri,NagarWalungge,Walunggeganj,Walunggebazar,Walunggebandar,Walunggegram"
+    "b": "Kathmandu,Pokhara,Birgunj,Butwal,Hetauda,Dhangadhi,Itahari,Nepalgunj,Gorkha,Tansen,Rajbiraj,Siraha,Jaleshwar,Malangwa,Gaur,Sindhuli,Dhulikhel,Bidur,Lalitpur,Bharatpur,Biratnagar,Dharan,Janakpur,Bhaktapur,Lahan,Chandrapur",
+    "status": "COMPLETE"
   },
   {
     "name": "Wambule",
@@ -9616,7 +9781,8 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Okhaldhunga,Khotang,Solukhumbu,Langtang,Kyanjin Gompa,Syabrubesi,Thulo Syabru,Dolakha,Sindhuli,Ramechap,BauBang,BenCat,KoKha,CaiBe,IaGrai,MongLa,MuangKham,DanSim,Wambulebari,PalliWambule,Udayapur,LaiChau,Sangkha,BenTre,TanChau,Eryuan,Pleiku,Cangyuan,Wambulepur,Wambulenagar,Wambulebad,Wambulekot,Wambulewada,Wambuleghat,Wambulepalli,Wambulekonda,Wambulepeta,Wambuleooru,Wambulegiri,NagarWambule,Wambuleganj,Wambulebazar,Wambulebandar,Wambulegram"
+    "b": "Okhaldhunga,Khotang,Solukhumbu,Langtang,Kyanjin Gompa,Syabrubesi,Thulo Syabru,Dolakha,Sindhuli,Ramechap,Udayapur",
+    "status": "COMPLETE"
   },
   {
     "name": "Wayanad Chetti",
@@ -9625,7 +9791,8 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Kannur,Kozhikode,Malappuram,Palakkad,Thrissur,Kottayam,Alappuzha,Pathanamthitta,Kollam,Thiruvananthapuram,Wayanad,Idukki,Long,TamNong,CheoReo,BaTri,DucCo,MaeSai,PakLai,CatTien,WiangChai,LangSon,WayanadChettibari,PalliWayanadChetti,Chennai,Coimbatore,Madurai,Tiruchirappalli,Salem,Tirunelveli,Vellore,Thoothukudi,Kanchipuram,Thanjavur,Ooty,Kochi,BinhChanh,TraOn,Yongsheng,Shuangjiang,BuDop,WayanadChettipur,WayanadChettinagar,WayanadChettibad,WayanadChettikot,WayanadChettiwada,WayanadChettighat,WayanadChettipalli,WayanadChettikonda,WayanadChettipeta,WayanadChettiuru,WayanadChettiuri,WayanadChettiooru,WayanadChettigiri,NagarWayanadChetti,WayanadChettiganj,WayanadChettibazar,WayanadChettibandar,WayanadChettigram"
+    "b": "Kannur,Kozhikode,Malappuram,Palakkad,Thrissur,Kottayam,Alappuzha,Pathanamthitta,Kollam,Thiruvananthapuram,Wayanad,Idukki",
+    "status": "COMPLETE"
   },
   {
     "name": "Waziri",
@@ -9634,7 +9801,8 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Peshawar,Charsadda,Swat,Dir,Shangla,Alai,Mansehra,Torghar,Nowshera,Akora Khattak,Swabi,Kohat,Attock,Rawalpindi,Murree,Buner,Mingora,Matta,Kabal,Parachinar,Kurram,MuangSai,MaeCharim,TienYen,BinhLong,PongPrasat,DongXoai,Waziribari,PalliWaziri,Mardan,Abbottabad,Haripur,Kaghan,Muzaffarabad,Battagram,Lijiang,TuyAnh,GoCongTay,Mengla,ThuongDuc,Thoeng,XuanLoc,DucHue,Yongchang,Waziripur,Wazirinagar,Waziribad,Wazirikot,Waziriwada,Wazirighat,Waziripalli,Wazirikonda,Waziripeta,Waziriooru,Wazirigiri,NagarWaziri,Waziriganj,Waziribazar,Waziribandar,Wazirigram"
+    "b": "Peshawar,Charsadda,Swat,Dir,Shangla,Alai,Mansehra,Torghar,Nowshera,Akora Khattak,Swabi,Kohat,Attock,Rawalpindi,Murree,Buner,Mingora,Matta,Kabal,Parachinar,Kurram,Mardan,Abbottabad,Haripur,Kaghan,Muzaffarabad,Battagram",
+    "status": "COMPLETE"
   },
   {
     "name": "Western Khmer",
@@ -9643,7 +9811,8 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Battambang,Pursat,Kampong Thom,Kampong Cham,Kampong Speu,Kandal,Takeo,Kratie,Stung Treng,Ratanakiri,Mondulkiri,Preah Vihear,Kampong Thom,Kampong Cham,Kampong Speu,Kandal,Takeo,Kratie,Stung Treng,Ratanakiri,Mondulkiri,Preah Vihear,NamBak,SongKhwae,RachGia,BienHoa,SiNakharin,LongXuyen,Longling,ChuSe,WesternKhmerbari,PalliWesternKhmer,Denpasar,BaoLoc,Pong,NhonTrach,CanGiuoc,KienGiang,TraVinh,Gongshan,WesternKhmerpur,WesternKhmernagar,WesternKhmerbad,WesternKhmerkot,WesternKhmerwada,WesternKhmerghat,WesternKhmerpalli,WesternKhmerkonda,WesternKhmerpeta,WesternKhmeruru,WesternKhmeruri,WesternKhmerooru,WesternKhmergiri,NagarWesternKhmer,WesternKhmerganj,WesternKhmerbazar,WesternKhmerbandar,WesternKhmergram"
+    "b": "Battambang,Pursat,Kampong Thom,Kampong Cham,Kampong Speu,Kandal,Takeo,Kratie,Stung Treng,Ratanakiri,Mondulkiri,Preah Vihear",
+    "status": "COMPLETE"
   },
   {
     "name": "Yadgha",
@@ -9652,16 +9821,18 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Okhaldhunga,Khotang,Solukhumbu,Langtang,Kyanjin Gompa,Syabrubesi,Thulo Syabru,Dolakha,Sindhuli,Ramechap,XiengKhouang,Prem,Yadghabari,PalliYadgha,Tehran,Isfahan,Shiraz,Tabriz,Mashhad,Ahvaz,Kermanshah,Qom,Rasht,Hamadan,Yazd,Udayapur,BoKluea,SocTrang,ThuanAn,PakLay,TanHiep,TanThanh,Changning,ALuoi,CangLong,Menglian,NgocHoi,TanPhuoc,Fang,Yadghapur,Yadghanagar,Yadghabad,Yadghakot,Yadghawada,Yadghaghat,Yadghapalli,Yadghakonda,Yadghapeta,Yadghaooru,Yadghagiri,NagarYadgha,Yadghaganj,Yadghabazar,Yadghabandar,Yadghagram"
+    "b": "Okhaldhunga,Khotang,Solukhumbu,Langtang,Kyanjin Gompa,Syabrubesi,Thulo Syabru,Dolakha,Sindhuli,Ramechap,Udayapur",
+    "status": "COMPLETE"
   },
-  {
+{
     "name": "Yakut",
     "i": 200579,
     "min": 4,
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Yakutsk,Vilyuysk,Olyokminsk,Nyurba,Lensk,Mirny,Pokrovsk,Srednekolymsk,Zyryanka,Saskylakh,Bilibino,Chokurdakh,Ust-Nera,Oymyakon,Ust-Maya,Srednekolymsk,Zyryanka,Saskylakh,Bilibino,Chokurdakh,Ust-Nera,Oymyakon,Ust-Maya,AnKhe,MoCay,ChuPah,KengTung,DaTeh,MaeSuay,HaGiang,LocNinh,Yakutbari,PalliYakut,Neryungri,Tiksi,Kyzyl,Gorno-Altaysk,Ulan-Ude,Elista,Almaty,Nur-Sultan,Shymkent,Karaganda,Aktobe,Taraz,Tashkent,Samarkand,Bukhara,Susuman,Seymchan,Susuman,Seymchan,VinhLong,AnPhu,Jianchuan,Gengma,Xaisomboun,ThungChang,GoCong,Yakutpur,Yakutnagar,Yakutbad,Yakutkot,Yakutwada,Yakutghat,Yakutpalli,Yakutkonda,Yakutpeta,Yakutooru,Yakutgiri,NagarYakut,Yakutganj,Yakutbazar,Yakutbandar,Yakutgram"
+    "b": "Yakutsk,Vilyuysk,Olyokminsk,Nyurba,Lensk,Mirny,Pokrovsk,Srednekolymsk,Zyryanka,Saskylakh,Bilibino,Chokurdakh,Ust-Nera,Oymyakon,Ust-Maya",
+    "status": "COMPLETE"
   },
   {
     "name": "Yang Zhuang",
@@ -9670,7 +9841,8 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Nanning,Liuzhou,Guilin,Baise,Qinzhou,Fangchenggang,Chongzuo,Laibin,Hechi,Wuzhou,Guigang,Binyang,Hengzhou,Wuming,Shangsi,Fusui,Napo,Jingxi,Debao,ChiangSaen,ThongMySai,TanPhu,QuangNinh,PhuocLong,RongKwang,DaLat,CanGio,TalokMuh,YangZhuangbari,PalliYangZhuang,Yulin,Lingshan,ChoLach,Puer,Pleiku,ChiangMuan,TieuCan,CaoLanh,YangZhuangpur,YangZhuangnagar,YangZhuangbad,YangZhuangkot,YangZhuangwada,YangZhuangghat,YangZhuangpalli,YangZhuangkonda,YangZhuangpeta,YangZhuanguru,YangZhuanguri,YangZhuangooru,YangZhuanggiri,NagarYangZhuang,YangZhuangganj,YangZhuangbazar,YangZhuangbandar,YangZhuanggram"
+    "b": "Nanning,Liuzhou,Guilin,Baise,Qinzhou,Fangchenggang,Chongzuo,Laibin,Hechi,Wuzhou,Guigang,Binyang,Hengzhou,Wuming,Shangsi,Fusui,Napo,Jingxi,Debao,Yulin,Lingshan",
+    "status": "COMPLETE"
   },
   {
     "name": "Yei Zhuang",
@@ -9679,7 +9851,8 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Nanning,Liuzhou,Guilin,Baise,Qinzhou,Fangchenggang,Chongzuo,Laibin,Hechi,Wuzhou,Guigang,Binyang,Hengzhou,Wuming,Shangsi,Fusui,Napo,Jingxi,Debao,ViengPhoukha,DamHa,BinhPhuoc,ThaSongKorn,SonHoa,LuangNamtha,YeiZhuangbari,PalliYeiZhuang,Bangkok,Chiang Mai,Chiang Rai,Phuket,Khon Kaen,Udon Thani,Hat Yai,Surat Thani,Yulin,Lingshan,TrangBom,SantiSuk,TayNinh,BenLuc,Lianghe,NgaBay,ChauThanh,Deqin,TanPhuoc,YeiZhuangpur,YeiZhuangnagar,YeiZhuangbad,YeiZhuangkot,YeiZhuangwada,YeiZhuangghat,YeiZhuangpalli,YeiZhuangkonda,YeiZhuangpeta,YeiZhuanguru,YeiZhuanguri,YeiZhuangooru,YeiZhuanggiri,NagarYeiZhuang,YeiZhuangganj,YeiZhuangbazar,YeiZhuangbandar,YeiZhuanggram"
+    "b": "Nanning,Liuzhou,Guilin,Baise,Qinzhou,Fangchenggang,Chongzuo,Laibin,Hechi,Wuzhou,Guigang,Binyang,Hengzhou,Wuming,Shangsi,Fusui,Napo,Jingxi,Debao",
+    "status": "COMPLETE"
   },
   {
     "name": "Yong",
@@ -9688,7 +9861,8 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Chiang Mai,Chiang Rai,Lampang,Lamphun,Mae Hong Son,Nan,Phayao,Phrae,Uttaradit,Sukhothai,Phetchabun,Phitsanulok,Phongsali,DucTrong,MaeFaLuang,ChiangHai,Yongbari,PalliYong,Bangkok,Phuket,Khon Kaen,Udon Thani,Hat Yai,Surat Thani,Nakhon Ratchasima,Nakhon Sawan,Chonburi,Kanchanaburi,Ratchaburi,Krabi,Trang,Mae Sot,Nong Khai,Sakon Nakhon,Roi Et,ThuDauMot,Srinagarindra,ChauDoc,TanTru,Shidian,DongHa,CauKe,Fugong,DakDoa,CaiLay,LaiThieu,Yongpur,Yongnagar,Yongbad,Yongkot,Yongwada,Yongghat,Yongpalli,Yongkonda,Yongpeta,Yongooru,Yonggiri,NagarYong,Yongganj,Yongbazar,Yongbandar,Yonggram"
+    "b": "Chiang Mai,Chiang Rai,Lampang,Lamphun,Mae Hong Son,Nan,Phayao,Phrae,Uttaradit,Sukhothai,Phetchabun,Phitsanulok",
+    "status": "COMPLETE"
   },
   {
     "name": "Yoy",
@@ -9697,7 +9871,8 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Chiang Mai,Chiang Rai,Lampang,Lamphun,Mae Hong Son,Nan,Phayao,Phrae,Uttaradit,Sukhothai,Phetchabun,Phitsanulok,Kontum,Ximeng,ChaiPrakarn,BauBang,BenCat,KoKha,Yoybari,PalliYoy,Bangkok,Phuket,Khon Kaen,Udon Thani,Hat Yai,Surat Thani,Nakhon Ratchasima,Nakhon Sawan,Chonburi,Kanchanaburi,Ratchaburi,Krabi,Trang,Mae Sot,Nong Khai,Yunlong,ChauThanh,SaThay,GoCong,Phonsavan,Dran,LaiChau,Sangkha,BenTre,Yoypur,Yoynagar,Yoybad,Yoykot,Yoywada,Yoyghat,Yoypalli,Yoykonda,Yoypeta,Yoyooru,Yoygiri,NagarYoy,Yoyganj,Yoybazar,Yoybandar,Yoygram"
+    "b": "Chiang Mai,Chiang Rai,Lampang,Lamphun,Mae Hong Son,Nan,Phayao,Phrae,Uttaradit,Sukhothai,Phetchabun,Phitsanulok",
+    "status": "COMPLETE"
   },
   {
     "name": "Zakhchin",
@@ -9706,7 +9881,8 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Ulaanbaatar,Erdenet,Baruun-Urt,Murun,Khovd,Altai,Bayan-Olgii,Uvs,Khovsgol,Dornod,Dundgovi,Govisumber,Selenge,Tov,ChuPro,Sayabury,DaHuoai,PaDaet,NaNoi,Long,TamNong,CheoReo,Zakhchinbari,PalliZakhchin,Darkhan,Choibalsan,Bulgan,Ulaangom,Bayanhongor,Mandalgovi,Dalanzadgad,Kharkhorin,Ulan-Ude,Irkutsk,Kyakhta,Ondorkhaan,Zavkhan,Tachilek,CaoBang,BuDang,PhanRang,BinhChanh,TraOn,Yongsheng,Zakhchinpur,Zakhchinnagar,Zakhchinbad,Zakhchinkot,Zakhchinwada,Zakhchinghat,Zakhchinpalli,Zakhchinkonda,Zakhchinpeta,Zakhchinooru,Zakhchingiri,NagarZakhchin,Zakhchinganj,Zakhchinbazar,Zakhchinbandar,Zakhchingram"
+    "b": "Ulaanbaatar,Erdenet,Baruun-Urt,Murun,Khovd,Altai,Bayan-Olgii,Uvs,Khovsgol,Dornod,Dundgovi,Govisumber,Selenge,Tov,Darkhan,Choibalsan,Bulgan,Ulaangom,Bayanhongor,Mandalgovi,Dalanzadgad,Kharkhorin,Ulan-Ude,Irkutsk,Kyakhta,Ondorkhaan,Zavkhan",
+    "status": "COMPLETE"
   },
   {
     "name": "Zandui",
@@ -9715,7 +9891,8 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Guangxi,Nanning,Liuzhou,Baise,Qinzhou,Fangchenggang,Chongzuo,Laibin,Hechi,Wuzhou,Guigang,Binyang,Hengzhou,Wuming,Shangsi,Fusui,Napo,Jingxi,Debao,NaMuen,Zanduibari,PalliZandui,Shigatse,Gyantse,Nagqu,Nyingchi,Chamdo,Kangding,Shangri La,Tawang,Bomdila,Along,Yulin,Lingshan,Chun,MongCai,DongPhu,BaoLoc,DucHoa,Wuwei,CangLong,LapVo,Lijiang,TuyAnh,GoCongTay,Mengla,ThuongDuc,Thoeng,Zanduipur,Zanduinagar,Zanduibad,Zanduikot,Zanduiwada,Zanduighat,Zanduipalli,Zanduikonda,Zanduipeta,Zanduiooru,Zanduigiri,NagarZandui,Zanduiganj,Zanduibazar,Zanduibandar,Zanduigram"
+    "b": "Nanning,Liuzhou,Baise,Qinzhou,Fangchenggang,Chongzuo,Laibin,Hechi,Wuzhou,Guigang,Binyang,Hengzhou,Wuming,Shangsi,Fusui,Napo,Jingxi,Debao",
+    "status": "COMPLETE"
   },
   {
     "name": "Zhangzhung",
@@ -9724,7 +9901,8 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Shigatse,Chamdo,Nagqu,Nyingchi,Gyantse,Tsetang,Drigung,Ralung,Samye,Sakya,Reting,Tashilhunpo,Drepung,Sera,Ganden,Norbu Lingka,Potala,Barkhor,Amdo,Kham,U-Tsang,NamBak,SongKhwae,RachGia,Zhangzhungbari,PalliZhangzhung,Kangding,Shangri La,Tawang,Bomdila,Along,Yingkiong,Lhasa,TanAn,CanDuoc,Tengchong,LongMy,LaiVung,Weixi,CungSon,MyTho,Bokeo,BaoLoc,Pong,NhonTrach,Zhangzhungpur,Zhangzhungnagar,Zhangzhungbad,Zhangzhungkot,Zhangzhungwada,Zhangzhungghat,Zhangzhungpalli,Zhangzhungkonda,Zhangzhungpeta,Zhangzhungooru,Zhangzhunggiri,NagarZhangzhung,Zhangzhungganj,Zhangzhungbazar,Zhangzhungbandar,Zhangzhunggram"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Sarikoli",
@@ -9733,7 +9911,8 @@ window.asiaNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Ulaanbaatar,Khovd,Olggii,Ulaangom,Moron,Erdenet,Sukhbaatar,Arvaikheer,Dalanzadgad,Uliastai,Bayankhongor,Altai,Khovsgol,Khentii,Dornod,Govi-Altai,Omnogovi,Uvs,Govisumber,Tehran,Isfahan,Shiraz,Tabriz,Mashhad,Ahvaz,Kermanshah,Qom,Rasht,Hamadan,Yazd,Arak,Kerman,Zanjan,Sari,Qazvin,Almaty,Astana,Bishkek,Dushanbe,Tashkent,Ashgabat,Darkhan,Choibalsan,Bulgan,Zavkhan,Amotside,Akugford,Akerland,Akobford,Amemside,Aputside,Adigford,Anerland,Afabford,Abalside,Apatside,Anagford,Apenland,Aitford,Adugside,Sarikolitown,Sarikoliville,Sarikoliburg,Sarikoliview,Sarikoliside"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Sogdian",
@@ -9742,7 +9921,8 @@ window.asiaNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Ulaanbaatar,Khovd,Olggii,Ulaangom,Moron,Erdenet,Sukhbaatar,Arvaikheer,Dalanzadgad,Uliastai,Bayankhongor,Altai,Khovsgol,Khentii,Dornod,Govi-Altai,Omnogovi,Uvs,Govisumber,Mosul,Erbil,Damascus,Aleppo,Homs,Beirut,Tripoli,Sidon,Tyre,Jerusalem,Tel Aviv,Haifa,Riyadh,Jeddah,Mecca,Medina,Almaty,Astana,Bishkek,Dushanbe,Tashkent,Ashgabat,Darkhan,Choibalsan,Bulgan,Zavkhan,Adadview,Aotport,Abawood,Adorview,Akedview,Apumwood,Afotport,Ariwood,Amirview,Akibview,Akilwood,Akokport,Aludwood,Apenview,Adotview,Sogdiantown,Sogdianville,Sogdianburg,Sogdianview,Sogdianside"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Wakhi",
@@ -9751,7 +9931,8 @@ window.asiaNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Ulaanbaatar,Khovd,Olggii,Ulaangom,Moron,Erdenet,Sukhbaatar,Arvaikheer,Dalanzadgad,Uliastai,Bayankhongor,Altai,Khovsgol,Khentii,Dornod,Govi-Altai,Omnogovi,Uvs,Govisumber,Tehran,Isfahan,Shiraz,Tabriz,Mashhad,Ahvaz,Kermanshah,Qom,Rasht,Hamadan,Yazd,Arak,Kerman,Zanjan,Sari,Qazvin,Almaty,Astana,Bishkek,Dushanbe,Tashkent,Ashgabat,Darkhan,Choibalsan,Bulgan,Zavkhan,Apilburg,Amokland,Alagside,Aminland,Anabburg,Aboburg,Akekland,Apagside,Alumland,Adutburg,Augburg,Aunland,Aabside,Adelland,Anagburg,Wakhitown,Wakhiville,Wakhiburg,Wakhiview,Wakhiside"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Big Flowery",
@@ -9760,7 +9941,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Ziyun,Zunyi,Guiyang,Anshun,Kaili,Duyun,Fuquan,Libo,Rongjiang,Congjiang,Leishan,Taijiang,Huangping,Zhenyuan,Shibing,Sandu,Pingtang,Luodian,Huishui,Wengan,Xifeng,Xiuwen,Kaiyang,Qingzhen,Zhijin,Nayong,Weining,Dafang,Liupanshui,Tongren,Bijie,Mengla,Wenshan,Qiubei,Funing,Zhaotong,Kunming,Qujing,Chuxiong,Hezhang,Shuicheng,Adabport,Adilview,Adukport,Aosport,Alilview,Abekport,Alesport,Amiview,Anorport,Apukport,Adamport,Aukville,Apogville,Aimport,Abitview,BigFlowerytown,BigFloweryville,BigFloweryburg,BigFloweryview,BigFloweryside"
+    "b": "Ziyun,Zunyi,Guiyang,Anshun,Kaili,Duyun,Fuquan,Libo,Rongjiang,Congjiang,Leishan,Taijiang,Huangping,Zhenyuan,Shibing,Sandu,Pingtang,Luodian,Huishui,Wengan,Xifeng,Xiuwen,Kaiyang,Qingzhen,Zhijin,Nayong,Weining,Dafang,Liupanshui,Tongren,Bijie,Mengla,Wenshan,Qiubei,Funing,Zhaotong,Kunming,Qujing,Chuxiong,Hezhang,Shuicheng",
+    "status": "COMPLETE"
   },
   {
     "name": "Gangwon Korean",
@@ -9769,7 +9951,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Chuncheon,Wonju,Gangneung,Sokcho,Donghae,Samcheok,Taebaek,Hongcheon,Pyeongchang,Jeongseon,Inje,Cheorwon,Yangyang,Goseong,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Suwon,Ulsan,Changwon,Jeonju,Cheongju,Pohang,Gyeongju,Andong,Jeju,Gunsan,Mokpo,Iksan,Chongjin,Hamhung,Pyongyang,Aettown,Apiside,Anurburg,Anedside,Aultown,Adittown,Abunburg,Amobside,Akoltown,Abodside,Adumburg,Afasside,Amitown,Akebside,Anikside,GangwonKoreantown,GangwonKoreanville,GangwonKoreanburg,GangwonKoreanview,GangwonKoreanside"
+    "b": "Chuncheon,Wonju,Gangneung,Sokcho,Donghae,Samcheok,Taebaek,Hongcheon,Pyeongchang,Jeongseon,Inje,Cheorwon,Yangyang,Goseong",
+    "status": "COMPLETE"
   },
   {
     "name": "Gyeonggi / Seoul Korean",
@@ -9778,16 +9961,18 @@ window.asiaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Seoul,Incheon,Suwon,Seongnam,Bucheon,Goyang,Gwangmyeong,Siheung,Gimpo,Pyeongtaek,Anseong,Busan,Daegu,Daejeon,Gwangju,Ulsan,Changwon,Jeonju,Cheongju,Pohang,Gyeongju,Andong,Jeju,Chuncheon,Gangneung,Gunsan,Mokpo,Wonju,Iksan,Chongjin,Hamhung,Pyongyang,Kaesong,Nampo,Wonsan,Anyang,Ansan,Osan,Cheonan,Asan,Alidbridge,Akumview,Afesville,Akoview,Alakbridge,Anodbridge,Adimview,Amesville,Afaview,Aunbridge,Anubbridge,Anamview,Anetville,Apigview,Adombridge,GyeonggiSeoulKoreantown,GyeonggiSeoulKoreanville,GyeonggiSeoulKoreanburg,GyeonggiSeoulKoreanview,GyeonggiSeoulKoreanside"
+    "b": "Seoul,Incheon,Suwon,Seongnam,Bucheon,Goyang,Gwangmyeong,Siheung,Gimpo,Pyeongtaek,Anseong,Anyang,Ansan,Osan,Cheonan,Asan",
+    "status": "COMPLETE"
   },
-  {
+{
     "name": "Gyeongsang Korean",
     "i": 200665,
     "min": 4,
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Daegu,Changwon,Pohang,Gyeongju,Andong,Gumi,Miryang,Gimhae,Jinju,Seoul,Busan,Incheon,Daejeon,Gwangju,Suwon,Ulsan,Jeonju,Cheongju,Jeju,Chuncheon,Gangneung,Gunsan,Mokpo,Wonju,Iksan,Chongjin,Hamhung,Pyongyang,Kaesong,Nampo,Wonsan,Haeju,Sinuiju,Masan,Aduford,Aekburg,Apogtown,Aanburg,Abisford,Akalford,Anukburg,Adodtown,Apinburg,Alesford,Akeford,Afirburg,Afobtown,Alulburg,Amanburg,GyeongsangKoreantown,GyeongsangKoreanville,GyeongsangKoreanburg,GyeongsangKoreanview,GyeongsangKoreanside"
+    "b": "Daegu,Changwon,Pohang,Gyeongju,Andong,Gumi,Miryang,Gimhae,Jinju",
+    "status": "COMPLETE"
   },
   {
     "name": "Hamgyŏng Korean",
@@ -9796,7 +9981,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Hamhung,Chongjin,Hoeryong,Onsong,Kyongwon,Kyonghung,Puryong,Rason,Kumsong,Tanchon,Sinuiju,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Suwon,Ulsan,Changwon,Jeonju,Cheongju,Pohang,Gyeongju,Andong,Jeju,Chuncheon,Gangneung,Gunsan,Mokpo,Wonju,Iksan,Pyongyang,Kaesong,Nampo,Wonsan,Anerwood,Alulbridge,Ainwood,Apulbridge,Abodwood,Aomwood,Afibwood,Anulwood,Adikville,Anudbridge,Alomville,Afetwood,Adagwood,Afanville,Akutbridge,HamgyngKoreantown,HamgyngKoreanville,HamgyngKoreanburg,HamgyngKoreanview,HamgyngKoreanside"
+    "b": "Hamhung,Chongjin,Hoeryong,Onsong,Kyongwon,Kyonghung,Puryong,Rason,Kumsong,Tanchon,Sinuiju",
+    "status": "COMPLETE"
   },
   {
     "name": "Han (Samhan)",
@@ -9805,7 +9991,8 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Jakarta,Singapore,Dhaka,Colombo,Kathmandu,Thimphu,Karachi,Lahore,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Suwon,Ulsan,Changwon,Jeonju,Cheongju,Pohang,Gyeongju,Andong,Jeju,Chuncheon,Gangneung,Gunsan,Mokpo,Wonju,Iksan,Chongjin,Hamhung,Pyongyang,Kaesong,Nampo,Bangkok,Manila,Kuala Lumpur,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Islamabad,Mumbai,Delhi,Chennai,Kolkata,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh,Afotland,Adatown,Aberford,Abubtown,Arotown,Aebtown,Anamland,Alatland,Akegtown,Alenford,Amostown,Aruland,Aferland,Anubtown,Akelford,HanSamhantown,HanSamhanville,HanSamhanburg,HanSamhanview,HanSamhanside"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Hm Nai",
@@ -9814,7 +10001,8 @@ window.asiaNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Longhui,Xupu,Chenxi,Dongkou,Chengbu,Xinning,Xiaoshajiang,Motang,Zunyi,Guiyang,Anshun,Kaili,Duyun,Fuquan,Libo,Rongjiang,Congjiang,Leishan,Taijiang,Huangping,Zhenyuan,Shibing,Sandu,Pingtang,Luodian,Huishui,Wengan,Xifeng,Xiuwen,Kaiyang,Qingzhen,Zhijin,Nayong,Weining,Dafang,Huxingshan,Dashuitian,Shaoyang,Apagport,Amoswood,Apokport,Abedport,Aotwood,Amibridge,Afirport,Abibport,Abilbridge,Abokwood,Adudbridge,Alenport,Aposport,Akabridge,Aonwood,HmNaitown,HmNaiville,HmNaiburg,HmNaiview,HmNaiside"
+    "b": "Longhui,Xupu,Chenxi,Dongkou,Chengbu,Xinning,Xiaoshajiang,Motang,Zunyi,Guiyang,Anshun,Kaili,Duyun,Fuquan,Libo,Rongjiang,Congjiang,Leishan,Taijiang,Huangping,Zhenyuan,Shibing,Sandu,Pingtang,Luodian,Huishui,Wengan,Xifeng,Xiuwen,Kaiyang,Qingzhen,Zhijin,Nayong,Weining,Dafang,Huxingshan,Dashuitian,Shaoyang",
+    "status": "COMPLETE"
   },
   {
     "name": "Hmong macro entry",
@@ -9823,7 +10011,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Xingyi,Wangmo,Dunshun,Longli,Wuding,Fumin,Anning,Songming,Yiliang,Huaning,Tonghai,Simao,Pu'er,Menghai,Chengjiang,Jinning,Lufeng,Mouding,Nanhua,Yao'an,Dayao,Yongren,Yuanmou,Huize,Luoping,Zunyi,Guiyang,Anshun,Kaili,Duyun,Fuquan,Libo,Rongjiang,Congjiang,Leishan,Danzhai,Luodian,Huishui,Qingzhen,Kunming,Zhaotong,Qujing,Wenshan,Baoshan,Dali,Chuxiong,Luxi,Lijiang,Zhongdian,Luquan,Shilin,Yanshan,Xichou,Malipo,Funing,Qiubei,Guangnan,Jiangchuan,Eshan,Yuxi,Jinghong,Mengla,Xundian,Fuyuan"
+    "b": "Xingyi,Wangmo,Dunshun,Longli,Wuding,Fumin,Anning,Songming,Yiliang,Huaning,Tonghai,Simao,Pu'er,Menghai,Chengjiang,Jinning,Lufeng,Mouding,Nanhua,Yao'an,Dayao,Yongren,Yuanmou,Huize,Luoping,Zunyi,Guiyang,Anshun,Kaili,Duyun,Fuquan,Libo,Rongjiang,Congjiang,Leishan,Danzhai,Luodian,Huishui,Qingzhen,Kunming,Zhaotong,Qujing,Wenshan,Baoshan,Dali,Chuxiong,Luxi,Lijiang,Zhongdian,Luquan,Shilin,Yanshan,Xichou,Malipo,Funing,Qiubei,Guangnan,Jiangchuan,Eshan,Yuxi,Jinghong,Mengla,Xundian,Fuyuan",
+    "status": "COMPLETE"
   },
   {
     "name": "Hmu",
@@ -9832,7 +10021,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Majiang,Longli,Liping,Zunyi,Guiyang,Anshun,Kaili,Duyun,Fuquan,Libo,Rongjiang,Congjiang,Leishan,Taijiang,Huangping,Zhenyuan,Shibing,Sandu,Pingtang,Luodian,Huishui,Wengan,Xifeng,Xiuwen,Kaiyang,Qingzhen,Zhijin,Nayong,Weining,Dafang,Liupanshui,Tongren,Bijie,Mengla,Wenshan,Taipan,Danzhai,Abunview,Apadwood,Aputwood,Aigview,Afarview,Amobwood,Adilport,Anetwood,Akegview,Afenview,Adeswood,Afiport,Akorwood,Amadview,Abilview,Hmutown,Hmuville,Hmuburg,Hmuview,Hmuside"
+    "b": "Majiang,Longli,Liping,Zunyi,Guiyang,Anshun,Kaili,Duyun,Fuquan,Libo,Rongjiang,Congjiang,Leishan,Taijiang,Huangping,Zhenyuan,Shibing,Sandu,Pingtang,Luodian,Huishui,Wengan,Xifeng,Xiuwen,Kaiyang,Qingzhen,Zhijin,Nayong,Weining,Dafang,Liupanshui,Tongren,Bijie,Mengla,Wenshan,Taipan,Danzhai",
+    "status": "COMPLETE"
   },
   {
     "name": "Huishui",
@@ -9841,7 +10031,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Gaopo,Yangchang,Baijin,Tangbao,Changshun,Guiding,Wangmo,Zunyi,Guiyang,Anshun,Kaili,Duyun,Fuquan,Libo,Rongjiang,Congjiang,Leishan,Taijiang,Huangping,Zhenyuan,Shibing,Sandu,Pingtang,Luodian,Huishui,Wengan,Xifeng,Xiuwen,Kaiyang,Qingzhen,Zhijin,Nayong,Weining,Dafang,Liupanshui,Amesburg,Aliland,Akurside,Akedland,Amumburg,Apisburg,Afaland,Anurside,Abolburg,Apotburg,Apunside,Aasland,Afiburg,Amurburg,Abebland,Huishuitown,Huishuiville,Huishuiburg,Huishuiview,Huishuiside"
+    "b": "Gaopo,Yangchang,Baijin,Tangbao,Changshun,Guiding,Wangmo,Zunyi,Guiyang,Anshun,Kaili,Duyun,Fuquan,Libo,Rongjiang,Congjiang,Leishan,Taijiang,Huangping,Zhenyuan,Shibing,Sandu,Pingtang,Luodian,Huishui,Wengan,Xifeng,Xiuwen,Kaiyang,Qingzhen,Zhijin,Nayong,Weining,Dafang,Liupanshui,Tongren,Bijie,Mengla,Wenshan",
+    "status": "COMPLETE"
   },
   {
     "name": "Hwanghae Korean",
@@ -9850,7 +10041,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Haeju,Sariwon,Kaesong,Chunghwa,Kumchon,Sokhyon,Changyon,Paechon,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Suwon,Ulsan,Changwon,Jeonju,Cheongju,Pohang,Gyeongju,Andong,Jeju,Chuncheon,Gangneung,Gunsan,Mokpo,Wonju,Iksan,Chongjin,Hamhung,Pyongyang,Nampo,Wonsan,Sinuiju,Pyongsan,Adodville,Abumport,Aesview,Aboport,Adekville,Akudville,Apinport,Afesview,Akadville,Akamport,Aketview,Aligport,Apunville,Adesville,Anoport,HwanghaeKoreantown,HwanghaeKoreanville,HwanghaeKoreanburg,HwanghaeKoreanview,HwanghaeKoreanside"
+    "b": "Haeju,Sariwon,Kaesong,Chunghwa,Kumchon,Sokhyon,Changyon,Paechon",
+    "status": "COMPLETE"
   },
   {
     "name": "Jeju",
@@ -9859,7 +10051,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Jeju,Seogwipo,Jeju City,Pyoseon,Hallim,Andeok,Aewol,Jocheon,Gujwa,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Suwon,Ulsan,Changwon,Jeonju,Cheongju,Pohang,Gyeongju,Andong,Chuncheon,Gangneung,Gunsan,Mokpo,Wonju,Iksan,Chongjin,Hamhung,Pyongyang,Kaesong,Nampo,Wonsan,Seongsan,Apamtown,Amarside,Anobtown,Abeltown,Akukside,Apogburg,Alinside,Adistown,Abitown,Airside,Aobburg,Adulside,Akettown,Anogtown,Afanside,Jejutown,Jejuville,Jejuburg,Jejuview,Jejuside"
+    "b": "Jeju,Seogwipo,Jeju City,Pyoseon,Hallim,Andeok,Aewol,Jocheon,Gujwa,Seongsan",
+    "status": "COMPLETE"
   },
   {
     "name": "Jeolla Korean",
@@ -9868,7 +10061,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Gwangju,Jeonju,Mokpo,Namwon,Suncheon,Yeosu,Nonghyup,Jangheung,Seoul,Busan,Incheon,Daegu,Daejeon,Suwon,Ulsan,Changwon,Cheongju,Pohang,Gyeongju,Andong,Jeju,Chuncheon,Gangneung,Gunsan,Wonju,Iksan,Chongjin,Hamhung,Pyongyang,Kaesong,Nampo,Wonsan,Haeju,Sinuiju,Akerbridge,Adobview,Adamville,Aditview,Afugbridge,Amirbridge,Amonbridge,Alusview,Amalville,Anekview,Aibbridge,Apitview,Akagville,Adomview,Aetbridge,JeollaKoreantown,JeollaKoreanville,JeollaKoreanburg,JeollaKoreanview,JeollaKoreanside"
+    "b": "Gwangju,Jeonju,Mokpo,Namwon,Suncheon,Yeosu,Nonghyup,Jangheung",
+    "status": "COMPLETE"
   },
   {
     "name": "Jiaoliao Mandarin",
@@ -9877,7 +10071,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Qingdao,Yantai,Weihai,Dongying,Weifang,Binzhou,Zibo,Liaocheng,Dezhou,Nanjing,Hangzhou,Xi'an,Changsha,Nanchang,Fuzhou,Xiamen,Quanzhou,Chaozhou,Shantou,Zhuhai,Shenyang,Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Kunming,Guiyang,Lanzhou,Taiyuan,Shijiazhuang,Changchun,Zhengzhou,Jinan,Aotford,Anudburg,Aemford,Adutford,Amoburg,Afosburg,Amuford,Aerford,Akubburg,Abiltown,Anatburg,Alodford,Alimford,Amigtown,Aimburg,JiaoliaoMandarintown,JiaoliaoMandarinville,JiaoliaoMandarinburg,JiaoliaoMandarinview,JiaoliaoMandarinside"
+    "b": "Qingdao,Yantai,Weihai,Dongying,Weifang,Binzhou,Zibo,Liaocheng,Dezhou",
+    "status": "COMPLETE"
   },
   {
     "name": "Jilu Mandarin",
@@ -9886,7 +10081,8 @@ window.asiaNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Qingdao,Zibo,Tianjin,Shijiazhuang,Cangzhou,Xinzhou,Langfang,Harbin,Luoyang,Hefei,Suzhou,Wuxi,Ningbo,Wenzhou,Guiyang,Kunming,Chongqing,Lanzhou,Ürümqi,Lhasa,Kashgar,Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Nanjing,Wuhan,Hangzhou,Xi'an,Changsha,Nanchang,Fuzhou,Xiamen,Jinan,Tangshan,Handan,Alagwood,Afosbridge,Akelville,Alokwood,Amosbridge,Airwood,Anidwood,Aloswood,Abeville,Amorbridge,Adalwood,Aburwood,Abubville,Apudwood,Akamwood,JiluMandarintown,JiluMandarinville,JiluMandarinburg,JiluMandarinview,JiluMandarinside"
+    "b": "Tianjin,Shijiazhuang,Cangzhou,Xinzhou,Langfang",
+    "status": "COMPLETE"
   },
   {
     "name": "Kiong Nai",
@@ -9895,7 +10091,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Longhua,Nanzhou,Dajin,Liuxiang,Mentou,Gubu,Chang'e,Adilland,Aontown,Ababland,Akolland,Anittown,Alusland,Akuland,Afaktown,Alimtown,Anotland,Abagland,Anirland,Amebland,KiongNaitown,KiongNaiville,KiongNaiburg,KiongNaiview,KiongNaiside,Zunyi,Guiyang,Anshun,Kaili,Duyun,Fuquan,Libo,Rongjiang,Congjiang,Leishan,Ludan,Liutian,Araford,Afadford"
+    "b": "Longhua,Nanzhou,Dajin,Liuxiang,Mentou,Gubu,Chang'e,Zunyi,Guiyang,Anshun,Kaili,Duyun,Fuquan,Libo,Rongjiang,Congjiang,Leishan,Ludan,Liutian",
+    "status": "COMPLETE"
   },
   {
     "name": "Luobohe",
@@ -9904,7 +10101,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Longli,Guiding,Weng'an,Majiatun,Dapaomu,Shibanzhai,Laojunzhai,Pingzhai,Alimwood,Apimwood,Aiwood,Luobohetown,Luoboheville,Luoboheburg,Luoboheview,Luoboheside,Zunyi,Guiyang,Anshun,Kaili,Duyun,Fuquan,Libo,Rongjiang,Congjiang,Leishan,Taijiang,Huangping,Zhenyuan,Shibing,Sandu,Pingtang,Luodian,Huishui,Wengan,Kaiyang,Anurport,Aladbridge,Alutbridge,Aniport,Aarport,Aketbridge,Abegport,Aenport,Apebbridge,Aborbridge,Animport,Adukbridge"
+    "b": "Longli,Guiding,Weng'an,Majiatun,Dapaomu,Shibanzhai,Laojunzhai,Pingzhai,Zunyi,Guiyang,Anshun,Kaili,Duyun,Fuquan,Libo,Rongjiang,Congjiang,Leishan,Taijiang,Huangping,Zhenyuan,Shibing,Sandu,Pingtang,Luodian,Huishui,Wengan,Kaiyang",
+    "status": "COMPLETE"
   },
   {
     "name": "Mahan Korean",
@@ -9913,7 +10111,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Pyongyang,Nampo,Chongjin,Hamhung,Shinuiju,Sinuiju,Kaesong,Sariwon,Haeju,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Suwon,Ulsan,Changwon,Jeonju,Cheongju,Pohang,Gyeongju,Andong,Jeju,Chuncheon,Gangneung,Gunsan,Mokpo,Wonju,Iksan,Wonsan,Afesside,Adiford,Aburland,Abedford,Afumside,Aaford,Akogford,Alunland,Amabford,Afurside,Anedford,Akulland,Abikford,Apegside,Apanside,MahanKoreantown,MahanKoreanville,MahanKoreanburg,MahanKoreanview,MahanKoreanside"
+    "b": "Pyongyang,Nampo,Chongjin,Hamhung,Shinuiju,Sinuiju,Kaesong,Sariwon,Haeju",
+    "status": "COMPLETE"
   },
   {
     "name": "Maojia",
@@ -9922,7 +10121,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Chengbu,Wugang,Xintang,Yangshi,Malin,Niutou,Zunyi,Guiyang,Anshun,Kaili,Duyun,Fuquan,Libo,Rongjiang,Congjiang,Leishan,Taijiang,Huangping,Zhenyuan,Shibing,Sandu,Pingtang,Luodian,Huishui,Wengan,Xifeng,Xiuwen,Kaiyang,Qingzhen,Zhijin,Nayong,Weining,Dafang,Liupanshui,Tongren,Suining,Longsheng,Ziyuan,Wutuan,Apogview,Anunwood,Anolwood,Apetview,Abudview,Alinwood,Amalwood,Afakview,Abamwood,Abetport,Adigwood,Apebview,Akowood,Amubwood,Alolview,Maojiatown,Maojiaville,Maojiaburg,Maojiaview,Maojiaside"
+    "b": "Chengbu,Wugang,Xintang,Yangshi,Malin,Niutou,Zunyi,Guiyang,Anshun,Kaili,Duyun,Fuquan,Libo,Rongjiang,Congjiang,Leishan,Taijiang,Huangping,Zhenyuan,Shibing,Sandu,Pingtang,Luodian,Huishui,Wengan,Xifeng,Xiuwen,Kaiyang,Qingzhen,Zhijin,Nayong,Weining,Dafang,Liupanshui,Tongren,Suining,Longsheng,Ziyuan,Wutuan",
+    "status": "COMPLETE"
   },
   {
     "name": "Mashan",
@@ -9931,7 +10131,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Ziyun,Wangmo,Changshun,Zongdi,Dayi,Gejing,Kehun,Fengting,Bianyang,Luang Prabang,Kuala Lumpur,George Town,Johor Bahru,Kota Kinabalu,Kuching,Jakarta,Surabaya,Bandung,Yogyakarta,Palembang,Makassar,Denpasar,Bangkok,Chiang Mai,Chiang Rai,Phuket,Khon Kaen,Udon Thani,Hat Yai,Surat Thani,Phitsanulok,Nakhon Ratchasima,Nakhon Sawan,Luodian,Afetland,Afarland,Akobburg,Anemburg,Abukland,Adinland,Apibburg,Amikland,Amodside,Akogburg,Aanland,Afeland,Ausburg,Aboland,Adorside,Mashantown,Mashanville,Mashanburg,Mashanview,Mashanside"
+    "b": "Ziyun,Wangmo,Changshun,Zongdi,Dayi,Gejing,Kehun,Fengting,Bianyang,Luodian",
+    "status": "COMPLETE"
   },
   {
     "name": "Middle Korean",
@@ -9940,16 +10141,18 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Jakarta,Singapore,Dhaka,Colombo,Kathmandu,Thimphu,Karachi,Lahore,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Suwon,Ulsan,Changwon,Jeonju,Cheongju,Pohang,Gyeongju,Andong,Jeju,Chuncheon,Gangneung,Gunsan,Mokpo,Wonju,Iksan,Chongjin,Hamhung,Pyongyang,Kaesong,Nampo,Bangkok,Manila,Kuala Lumpur,Hanoi,Ho Chi Minh City,Yangon,Phnom Penh,Vientiane,Islamabad,Mumbai,Delhi,Chennai,Kolkata,Hyderabad,Bengaluru,Ahmedabad,Pune,Surat,Jaipur,Lucknow,Kanpur,Indore,Patna,Bhopal,Chandigarh,Abirville,Apodport,Apanview,Apisport,Abaville,Amedport,Adamview,Anutport,Akugville,Adusport,Afalview,Akekport,Amodville,Abamville,Alitport,MiddleKoreantown,MiddleKoreanville,MiddleKoreanburg,MiddleKoreanview,MiddleKoreanside"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Mo Piu",
     "i": 200683,
     "min": 4,
     "max": 13,
-    "d": "",
+    "d": "lnrt",
     "m": 0,
-    "b": "Nam Tu Thuong,Nam Xe,Van Ban,Lao Cai,Zunyi,Guiyang,Anshun,Kaili,Duyun,Fuquan,Libo,Rongjiang,Congjiang,Leishan,Taijiang,Huangping,Zhenyuan,Shibing,Sandu,Pingtang,Luodian,Huishui,Wengan,Xifeng,Xiuwen,Kaiyang,Qingzhen,Zhijin,Nayong,Weining,Dafang,Liupanshui,Tongren,Bijie,Mengla,Alalside,Akudside,Amintown,Apabtown,Afoside,Afedside,Abemtown,Apirburg,Afaltown,Amiktown,Abubside,Animburg,Akatside,Adudtown,Adomtown,MoPiutown,MoPiuville,MoPiuburg,MoPiuview,MoPiuside"
+    "b": "Nam Tu Thuong,Nam Xe,Van Ban,Lao Cai,Zunyi,Guiyang,Anshun,Kaili,Duyun,Fuquan,Libo,Rongjiang,Congjiang,Leishan,Taijiang,Huangping,Zhenyuan,Shibing,Sandu,Pingtang,Luodian,Huishui,Wengan,Xifeng,Xiuwen,Kaiyang,Qingzhen,Zhijin,Nayong,Weining,Dafang,Liupanshui,Tongren,Bijie,Mengla",
+    "status": "COMPLETE"
   },
   {
     "name": "Modern Korean",
