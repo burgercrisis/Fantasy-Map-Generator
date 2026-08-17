@@ -7052,7 +7052,7 @@ window.asiaNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "Ha Em",
+    "name": "Hagei",
     "i": 200281,
     "min": 4,
     "max": 11,
@@ -7068,8 +7068,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Guanling,Qinglong,Zhenfeng,Longlin,Sanchong",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Hailar Dagur",
@@ -7088,8 +7088,8 @@ window.asiaNameBases = [
     "max": 15,
     "d": "lnrt",
     "m": 0,
-    "b": "Goalpara,Dhubri,Kokrajhar,WestGaroHills,EastGaroHills,SouthGaroHills,NorthGaroHills,SouthWestGaroHills,Mymensingh,Sherpur,Netrokona,Sunamganj,Sylhet",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Halang",
@@ -7098,8 +7098,8 @@ window.asiaNameBases = [
     "max": 10,
     "d": "lnrt",
     "m": 0,
-    "b": "KonTum,DakTo,NgocHoi,DakHa,SaThay,DakGlei,MangBuk,TuMoRong,Sanxai,Attapu,Dakchung,Sekong",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Halbi",
@@ -7108,8 +7108,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Jagdalpur,Kondagaon,Narayanpur,Dantewada,Bijapur,Sukma,Kanker,Antagarh,Gariaband,Dhamtari,Balod,Bemetara,Rajnandgaon,Raigarh,Kawardha,Durg,Korba,Bhilai,Raipur,Kabirdham,Janjgir,Champa,Mahasamund,Goreaband",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Harauti",
@@ -7118,8 +7118,8 @@ window.asiaNameBases = [
     "max": 14,
     "d": "lnrt",
     "m": 0,
-    "b": "Kota,Bundi,Baran,Jhalawar,Ramgarh,Jhalarapatan,GagronFort,BhawaniMandi,KotaCity,BundiCity,BaranCity,JhalawarCity,Mandsaur,Neemuch",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Hazaragi",
@@ -7128,8 +7128,8 @@ window.asiaNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Bamyan,Daykundi,Ghazni,Uruzgan,Wardak,Parwan,Baghlan,Samangan,Quetta,Mashhad",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Hindko, Southern",
@@ -7138,8 +7138,8 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Peshawar,Nowshera,Swabi,Kohat,Attock,Rawalpindi,Charsadda,Dera Ismail Khan,Topi,Akora Khattak,Shaidu,Pabbi,Tordher,Mardan",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
 {
     "name": "Ho",

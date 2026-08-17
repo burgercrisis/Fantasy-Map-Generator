@@ -1,15 +1,15 @@
 {
 "blockers": [],
   "lastUpdate": "2026-08-14T19:15:00-07:00",
-  "verifiedEntriesThisSession": 222,
-  "lastVerifiedEntry": "Daur / Dagur (i=200271) - marked WAITING with 7 verified names (need 25 minimum); removed Butha (dialect area) and Nonni (river)",
+  "verifiedEntriesThisSession": 240,
+  "lastVerifiedEntry": "Hindko, Southern (i=200289) - marked WAITING (14 names, below 25 minimum); Harauti (i=200287) marked WAITING (15 names, below 25); Halbi (i=200286) marked WAITING (24 names, below 25); Halang (i=200285) marked WAITING (12 names, below 25); Hajong (i=200284) marked WAITING (13 names, below 25); Hagei (i=200282) marked WAITING (5 names, below 25); Ha Em (i=200281) already WAITING",
   "totalEntries": 1267,
   "continent": "asia",
   "status": "in_progress",
   "pipeline": "Manual verification per protocol -> guardrails",
-  "lastEntry": "Daur / Dagur",
-  "lastIndex": "200271",
-  "nextEntry": "Dehwari (i=200272) - COMPLETE with 8 names, needs verification",
+  "lastEntry": "Hindko, Southern",
+  "lastIndex": "200289",
+  "nextEntry": "Ho (i=200290) - COMPLETE with names, needs verification",
   "waiting": [
     "Semai(i=118,20)",
     "Semaq Beri(i=119,6)",
@@ -190,3 +190,5 @@
   "lastEntry": "Classical Tibetan",
   "lastIndex": "200265"
 }
+
+
