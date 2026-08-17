@@ -1,12 +1,15 @@
 {
 "blockers": [],
   "lastUpdate": "2026-08-14T19:15:00-07:00",
-  "verifiedEntriesThisSession": 218,
-  "lastVerifiedEntry": "Classical Tibetan (i=200265) - marked WAITING as cover term/historical literary language with no current native speakers in specific locations; cleared b: field",
+  "verifiedEntriesThisSession": 222,
+  "lastVerifiedEntry": "Daur / Dagur (i=200271) - marked WAITING with 7 verified names (need 25 minimum); removed Butha (dialect area) and Nonni (river)",
   "totalEntries": 1267,
   "continent": "asia",
   "status": "in_progress",
   "pipeline": "Manual verification per protocol -> guardrails",
+  "lastEntry": "Daur / Dagur",
+  "lastIndex": "200271",
+  "nextEntry": "Dehwari (i=200272) - COMPLETE with 8 names, needs verification",
   "waiting": [
     "Semai(i=118,20)",
     "Semaq Beri(i=119,6)",
