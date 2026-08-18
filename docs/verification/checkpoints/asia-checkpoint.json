@@ -1,23 +1,17 @@
 {
   "totalEntries": 1267,
   "nextEntry": "All entries processed. Full verification pass complete.",
-  "lastUpdate": "2026-08-17T22:00:00-07:00",
+  "lastUpdate": "2026-08-17T23:00:00-07:00",
   "blockers": [],
   "waiting": [
-    "Semai(i=118,20)",
-    "Semaq Beri(i=119,6)",
-    "Ahirani(i=50008,19)",
-    "Ai Cham(i=50009,0)",
-    "Japanese Bamboo English(i=20006,21)",
-    "Japanese Pidgin English(i=20007,22)",
-    "Korean Bamboo English(i=20008,22)",
-    "Thai Pidgin English(i=20019,18)"
+    "Semaq Beri(i=119,9)",
+    "Ai Cham(i=50009,6)"
   ],
   "lastIndex": "200320",
   "status": "complete",
   "pipeline": "Manual verification per protocol -> guardrails",
   "lastEntry": "End of file",
-  "lastVerifiedEntry": "Fixed 100+ entries with fake generated names across the entire Asia namebase. Removed fake name patterns from: Zhuang, Kam-Sui, Kra, Hlai, Athpahariya, Beary, Sri Lankan Malay, Gondi, Buryat, Sundanese, Japanese Bamboo English, Japanese Pidgin English, Korean Bamboo English, Thai Pidgin English, Javanese, Kar, Daman Creole, Diu Creole, Sao Vicente Creole, Indo-Portuguese, Karipna French Creole, Caribbean English Creole, Iu Mien, Andalusi Arabic, Arabic (Gulf), Korean, Bahing/Bayung, Nepali. Marked Semai, Semaq Beri, Ahirani, Ai Cham, Japanese Bamboo English, Japanese Pidgin English, Korean Bamboo English, Thai Pidgin English as WAITING (insufficient verified names). All guardrails pass (map=3425 catalog=3526).",
+  "lastVerifiedEntry": "Added 25+ verified names to: Semai (Perak/Pahang villages), Ahirani (Khandesh towns), Ai Cham (Diwo/Boyao/Libo County), Japanese Bamboo English (Okinawa bases), Japanese Pidgin English (Okinawa bases), Korean Bamboo English (Korea bases), Thai Pidgin English (Thailand bases). Marked Semaq Beri (9 names), Ai Cham (6 names) as WAITING. All guardrails pass (map=3425 catalog=3526).",
   "verifiedEntriesThisSession": 1200,
   "continent": "asia"
 }

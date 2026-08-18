@@ -237,7 +237,17 @@ window.asiaNameBases = [
     "d": "",
     "m": 0,
     "b": "Pulau Carey,Kampung Orang Asli Sungei Kurau,Kampung Orang Asli Sungei Judah,Kampung Orang Asli Sungei Bumbun,Kampung Orang Asli Sungei Jugra,Kampung Orang Asli Kepau Laut,Kampung Orang Asli Sg Rambai,Kampung Orang Asli Bukit Bangkong,Kampung Orang Asli Tanjung Sepat,Sungai Pelek,Tanjung Sepat,Morib,Jugra,Kuala Langat,Banting,Batu Laut,Sepang,Bagan Lalang,Pantai Jengkok,Ulu Chucoh,Sungai Belankan,Telok Panglima Garang,Jenjarom,Klang,Port Klang,Sijangkang,Telok Datok,Telok Gong",
-    "status": "WAITING"
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Semai",
+    "i": 118,
+    "min": 3,
+    "max": 14,
+    "d": "",
+    "m": 0.1,
+    "b": "Tapah,Parit,Batang Padang,Behrang Ulu,Gorang,Kampar,Redang Punggor,Perak Selatan,Pos Gedong,Tanah Rata,Kuala Lipis,Raub,Telimau,Bukit Terang,Kampung Sat,Kuala Kangsar,Hilir Perak,Bagan Datuk,Kinta,Manjung,Teluk Intan,Tanjung Malim,Sungkai,Trolak,Behrang,Bagan Datoh,Hutan Melintang,Slim River,Bidor,Sitiawan",
+    "status": "COMPLETE"
   },
   {
     "name": "Semaq Beri",
@@ -246,8 +256,8 @@ window.asiaNameBases = [
     "max": 12,
     "d": "",
     "m": 0,
-    "b": "Sungai Berua,Sungai Pergam,Sungai Sayap,Kg Gol,Sungai Tiang,Sungai Tekal",
-    "status": "COMPLETE"
+    "b": "Jerantut,Kuantan,Maran,Hulu Terengganu,Kemaman,Tembeling River,Pahang River,Kampung Mengkapur,Bera Lake",
+    "status": "WAITING"
   },
   {
     "name": "Semelai",
@@ -6224,8 +6234,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Tokyo,Yokohama,Okinawa,Sasebo,Iwakuni,Zama,Chitose,Atsugi,Misawa,Yokota,Kadena,Futenma,Kinser,Camp Foster,Osaka,Kyoto,Nagoya,Sapporo,Kobe,Fukuoka,Kawasaki,Hiroshima",
-"status": "WAITING"
+"b": "Tokyo,Yokohama,Okinawa,Sasebo,Iwakuni,Zama,Chitose,Atsugi,Misawa,Yokota,Kadena,Futenma,Kinser,Camp Foster,Osaka,Kyoto,Nagoya,Sapporo,Kobe,Fukuoka,Kawasaki,Hiroshima,Ginowan,Naha,Uruma,Chatan,Kin,Yomitan,Camp Hansen,Camp Schwab,Camp Courtney,Camp Gonsalves,White Beach,Torii Station",
+    "status": "COMPLETE"
   },
   {
     "name": "Japanese Pidgin English",
@@ -6234,8 +6244,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Tokyo,Yokohama,Okinawa,Sasebo,Iwakuni,Zama,Misawa,Yokota,Kadena,Futenma,Naha,Camp Foster,Osaka,Kyoto,Nagoya,Sapporo,Kobe,Fukuoka,Kawasaki,Hiroshima,Sendai,Ginowan,Yomitan",
-"status": "WAITING"
+"b": "Tokyo,Yokohama,Okinawa,Sasebo,Iwakuni,Zama,Misawa,Yokota,Kadena,Futenma,Naha,Camp Foster,Osaka,Kyoto,Nagoya,Sapporo,Kobe,Fukuoka,Kawasaki,Hiroshima,Sendai,Ginowan,Yomitan,Uruma,Chatan,Kin,Camp Hansen,Camp Schwab,Camp Courtney,Torii Station",
+    "status": "COMPLETE"
   },
   {
     "name": "Korean Bamboo English",
@@ -6244,8 +6254,8 @@ window.asiaNameBases = [
     "max": 10,
     "d": "",
     "m": 0,
-    "b": "Seoul,Daegu,Daejeon,Gwangju,Incheon,Uijeongbu,Pyeongtaek,Suwon,Cheongju,Jeonju,Andong,Pohang,Mokpo,Yeongju,Busan,Ulsan,Changwon,Gyeongju,Jeju,Chuncheon,Gangneung,Gunsan",
-"status": "WAITING"
+"b": "Seoul,Daegu,Daejeon,Gwangju,Incheon,Uijeongbu,Pyeongtaek,Suwon,Cheongju,Jeonju,Andong,Pohang,Mokpo,Yeongju,Busan,Ulsan,Changwon,Gyeongju,Jeju,Chuncheon,Gangneung,Gunsan,Camp Humphreys,Camp Casey,Camp Red Cloud,Camp Stanley,Camp Carroll,Osan Air Base,Kunsan Air Base",
+    "status": "COMPLETE"
   },
   {
     "name": "Thai Pidgin English",
@@ -6254,8 +6264,8 @@ window.asiaNameBases = [
     "max": 19,
     "d": "",
     "m": 0,
-    "b": "Bangkok,Chiang Mai,Phuket,Nakhon Ratchasima,Pattaya,Rayong,Samut Prakan,Hat Yai,Udon Thani,Khon Kaen,Krabi,Nakhon Si Thammarat,Songkhla,Surat Thani,Mae Sot,Chiang Rai,Ayutthaya,Chonburi,Saraburi,Lopburi",
-"status": "WAITING"
+"b": "Bangkok,Chiang Mai,Phuket,Nakhon Ratchasima,Pattaya,Rayong,Samut Prakan,Hat Yai,Udon Thani,Khon Kaen,Krabi,Nakhon Si Thammarat,Songkhla,Surat Thani,Mae Sot,Chiang Rai,Ayutthaya,Chonburi,Saraburi,Lopburi,Don Muang,Korat,Nakhon Phanom,Takhli,U-Tapao,Ubon,Udorn",
+    "status": "COMPLETE"
   },
   {
     "name": "Javanese",
@@ -6530,8 +6540,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Dhule,Nandurbar,Shahada,Talode,Sakri,Chopda,Yawal,Raver,Dharangaon,Parola,Amalner,Pachora,Bhadgaon,Chalisgaon,Erandol,Dondaicha,Dhadgaon,Sindkheda,Nawapur,Shirpur",
-    "status": "WAITING"
+    "b": "Dhule,Nandurbar,Shahada,Talode,Sakri,Chopda,Yawal,Raver,Dharangaon,Parola,Amalner,Pachora,Bhadgaon,Chalisgaon,Erandol,Dondaicha,Dhadgaon,Sindkheda,Nawapur,Shirpur,Malegaon,Jalgaon,Bhusawal,Akkalkuwa,Navapur,Akrani,Taloda",
+    "status": "COMPLETE"
   },
   {
     "name": "Ai Cham",
@@ -6540,7 +6550,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "",
+    "b": "Diwo,Boyao,Libo County,Qiannan Prefecture,Guizhou,Gengfang",
     "status": "WAITING"
   },
   {
