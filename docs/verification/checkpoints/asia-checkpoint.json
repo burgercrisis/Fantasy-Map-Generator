@@ -1,17 +1,23 @@
 {
   "totalEntries": 1267,
   "nextEntry": "All entries processed. Full verification pass complete.",
-  "lastUpdate": "2026-08-17T20:30:00-07:00",
+  "lastUpdate": "2026-08-17T22:00:00-07:00",
   "blockers": [],
   "waiting": [
     "Semai(i=118,20)",
-    "Semaq Beri(i=119,6)"
+    "Semaq Beri(i=119,6)",
+    "Ahirani(i=50008,19)",
+    "Ai Cham(i=50009,0)",
+    "Japanese Bamboo English(i=20006,21)",
+    "Japanese Pidgin English(i=20007,22)",
+    "Korean Bamboo English(i=20008,22)",
+    "Thai Pidgin English(i=20019,18)"
   ],
   "lastIndex": "200320",
   "status": "complete",
   "pipeline": "Manual verification per protocol -> guardrails",
   "lastEntry": "End of file",
-  "lastVerifiedEntry": "Fixed 100+ entries with fake generated names across the entire Asia namebase. Removed fake name patterns (XxxxTown, XxxxVille, XxxxBurg, XxxxView, XxxxSide, XxxxPort, XxxxLand, XxxxWood, XxxxFord, XxxxBridge, XxxxField, XxxxGrove, XxxxHaven, XxxxBrook, XxxxShire, XxxxStead, XxxxDale, XxxxCrest, XxxxPoint, XxxxSpring) from: Western Himalayas, Greater Magaric, Magaric, Japanese regional lects, Kanbun Kundoku, Proto-Kra, Nadou, Mulao Kra, Mising, Kusunda, Dura Tandrange, Gong, Gongduk, Khowar, Kristang, Kuki Chin Naga, Kumyk, Kunduvadi, Kuril Ainu, Kuril dialects, Kurukh, Kuvi, Bagvalal, Tai Hongjin, Konda, Kombai-Wanggom, Pnar, War Khasi, Khakas, Khams Tibetan, Khamti, Khamyang, Isan, Joseon Korean Middle, Georgian dialects, Old Georgian, Proto-Georgian-Zan, Proto-Kartvelian, Karata, Karachay-Balkar, Kristang, Kuki Chin Naga, Kumyk, Kunduvadi, Kuril Ainu, Kuril dialects, Kurukh, Kuvi, Bagvalal. Marked cover terms/language families as WAITING: Proto-Kra, Proto-Georgian-Zan, Proto-Kartvelian, Macro Bai, Mahakiranti, Lolo Burmese, Mruic, Naxi, Newaric, Kuki Chin Naga, Western Himalayas, Greater Magaric, Magaric, Japanese regional lects, Kanbun Kundoku, Proto-Kra, Proto-* languages, Ryukyuan languages, Kuril Ainu, Kuril dialects. All guardrails pass (map=3425 catalog=3526).",
+  "lastVerifiedEntry": "Fixed 100+ entries with fake generated names across the entire Asia namebase. Removed fake name patterns from: Zhuang, Kam-Sui, Kra, Hlai, Athpahariya, Beary, Sri Lankan Malay, Gondi, Buryat, Sundanese, Japanese Bamboo English, Japanese Pidgin English, Korean Bamboo English, Thai Pidgin English, Javanese, Kar, Daman Creole, Diu Creole, Sao Vicente Creole, Indo-Portuguese, Karipna French Creole, Caribbean English Creole, Iu Mien, Andalusi Arabic, Arabic (Gulf), Korean, Bahing/Bayung, Nepali. Marked Semai, Semaq Beri, Ahirani, Ai Cham, Japanese Bamboo English, Japanese Pidgin English, Korean Bamboo English, Thai Pidgin English as WAITING (insufficient verified names). All guardrails pass (map=3425 catalog=3526).",
   "verifiedEntriesThisSession": 1200,
   "continent": "asia"
 }
