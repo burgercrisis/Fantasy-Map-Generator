@@ -1345,8 +1345,8 @@ window.africaNameBases = [{
     "max": 14,
     "d": "lnrt",
     "m": 0,
-    "b": "Gashua,Gorgoram,Katamma,Katangana,Amshi,Dagona,Tagali,Madamuwa,Kumariya,Dogona,Gabaruwa,Azam,Gapchia,Garinkur",
-    "status": "WAITING"
+    "b": "Gashua,Kumariya,Amshi,Dogona,Gabaruwa,Azam,Gapchia,Garinkur,Dagona",
+    "status": "COMPLETE"
   },
 {
     "name": "Bokyi",
@@ -1365,7 +1365,7 @@ window.africaNameBases = [{
     "d": "lnrt",
     "m": 0,
     "b": "Bria,Bambari,Sibut,Grimari,Kaga-Bandoro",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
 {
     "name": "Xhosa",
@@ -1375,7 +1375,7 @@ window.africaNameBases = [{
     "d": "lnrt",
     "m": 0,
     "b": "East London,Port Elizabeth,Uitenhage,Cradock,Stutterheim,Alice,Fort Beaufort,Mdantsane,Mthatha,Lusikisiki,Flagstaff,Tabankulu,Cofimvaba,Elliotdale,Butterworth,Nqamakwe,Willowvale,Queenstown,Grahamstown,King William's Town",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
 {
     "name": "Chewa",
@@ -1385,7 +1385,7 @@ window.africaNameBases = [{
     "d": "lnrt",
     "m": 0,
     "b": "Lilongwe,Blantyre,Zomba,Mangochi,Machinga,Balaka,Nkhotakota,Salima,Ntchisi,Dedza,Thyolo,Mulanje,Chiradzulu,Nsanje,Phalombe",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
 {
     "name": "Tetela",
@@ -1395,7 +1395,7 @@ window.africaNameBases = [{
     "d": "lnrt",
     "m": 0,
     "b": "Lodja,Lomela",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
 {
     "name": "Syer-Tenyer",
@@ -1405,7 +1405,7 @@ window.africaNameBases = [{
     "d": "",
     "m": 0,
     "b": "Tengréla,Tiékouna,Sitiéna,Karfiguéla,Kiribina,Diongolo,Siniéna",
-      "status": "WAITING"
+    "status": "COMPLETE"
   },
 {
     "name": "Tiv",
@@ -1443,8 +1443,8 @@ window.africaNameBases = [{
     "max": 14,
     "d": "lnrt",
     "m": 0,
-    "b": "Ansongo",
-    "status": "WAITING"
+    "b": "Ansongo,Talataye,Ménaka,Gao",
+    "status": "COMPLETE"
   },
 {
     "name": "Tonga Malawi",
@@ -1453,8 +1453,8 @@ window.africaNameBases = [{
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Nkhotakota",
-    "status": "WAITING"
+    "b": "Nkhotakota,Nkhata Bay,Mzimba,Rumphi,Likoma,Mangochi,Salima",
+    "status": "COMPLETE"
   },
 {
     "name": "Totela",

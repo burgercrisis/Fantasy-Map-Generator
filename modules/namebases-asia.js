@@ -1496,7 +1496,7 @@ window.asiaNameBases = [
     "max": 14,
     "d": "",
     "m": 0,
-    "b": "Barwar,Lakhimpur,Shahjahanpur",
+    "b": "",
     "status": "WAITING"
   },
   {
@@ -1506,7 +1506,7 @@ window.asiaNameBases = [
     "max": 12,
     "d": "",
     "m": 0,
-    "b": "Akre,Erbil,Zakho,Sulaymaniyah,Duhok,Amadiya,Shaqlawa,Rawandiz,Soran,Choman",
+    "b": "Akre,Amadiya,Duhok,Zakho",
     "status": "WAITING"
   },
   {
@@ -1516,7 +1516,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Dhofar,Salalah,Mirbat,Sadah,Taqah,Rakhyut",
+    "b": "Mirbat,Sadah,Rakhyut",
     "status": "WAITING"
   },
   {
@@ -1526,7 +1526,7 @@ window.asiaNameBases = [
     "max": 14,
     "d": "",
     "m": 0,
-    "b": "Zemo Alvani,Akhmeta,Tbilisi",
+    "b": "Zemo Alvani",
     "status": "WAITING"
   },
   {
@@ -1546,7 +1546,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Laowalong,Xinwalong,Jiuping,Shibeipo,Xinzhai,Manlong,Nala,Malong,Xiaoping,Guangnan,Xichou,Wenshan,Yunnan,Nasa,Zhuanjiao,Jijie",
+    "b": "Laowalong,Xinwalong,Jiuping,Shibeipo,Xinzhai,Manlong,Nala,Malong,Xiaoping,Guangnan",
     "status": "WAITING"
   },
   {
@@ -1566,7 +1566,7 @@ window.asiaNameBases = [
     "max": 18,
     "d": "",
     "m": 0,
-    "b": "Kohistan,Chail,Swat,Dir,Shangla,Alai,Mansehra,Matta,Kabal,Parachinar",
+    "b": "Swat,Dir,Shangla,Alai",
     "status": "WAITING"
   },
   {
@@ -1586,7 +1586,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Ili,Yining,Ghulja,Kulja,Xinjiang,Urumqi,Yarkand,Aksu,Kucha,Atush,Bayingolin,Kashgar,Turpan,Khotan,Dzungaria",
+    "b": "Ili,Yining,Ghulja,Kulja,Xinjiang",
     "status": "WAITING"
   },
   {
@@ -1596,18 +1596,18 @@ window.asiaNameBases = [
     "max": 12,
     "d": "",
     "m": 0,
-    "b": "Fuyu,Qiqihar,Harbin,Heilongjiang,Changchun,Shenyang,Mudanjiang,Jiamusi,Shuangyashan,Hegang,Jixi,Qitaihe,Karakol",
+    "b": "Fuyu,Qiqihar",
     "status": "WAITING"
   },
-  {
+{
     "name": "Salar",
     "i": 1157,
     "min": 4,
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Xunhua,Jishi,Baizhuang,Jiezi,Qingshui,Chahandousi,Daowei,Gangca,Wendu,Galeng,Hualong,Jishishan,Qinghai,Haidong,Xining,Jainca,Guide,Gonghe,Huangnan,Tongren,Gansu,Lanzhou,Linxia,Hezhou,Ningxia,Yellow River",
-    "status": "COMPLETE"
+    "b": "Xunhua,Jishi,Qinghai,Haidong,Xining,Gansu,Lanzhou,Linxia",
+    "status": "WAITING"
   },
   {
     "name": "Mulam",
@@ -1767,7 +1767,7 @@ window.asiaNameBases = [
     "d": "",
     "m": 1,
     "b": "Guixun-Anhe,Sankeshu,Xionggu,Shangmabu,Tianfang,Getao,Gezao,Gecai,Bagan,Na'en,Longnong",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
   {
     "name": "tai-long",
@@ -1776,7 +1776,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Tachileik,Taunggyi,Lashio,Kengtung",
+    "b": "Tachileik,Kengtung",
     "status": "WAITING"
   },
   {
@@ -1796,7 +1796,7 @@ window.asiaNameBases = [
     "max": 17,
     "d": "",
     "m": 0,
-    "b": "Shiyajiao,Baini,Fangluocheng,Panzhihua,Dongzong",
+    "b": "Shiyajiao,Baini,Fangluocheng,Panzhihua",
     "status": "WAITING"
   },
   {
@@ -1807,7 +1807,7 @@ window.asiaNameBases = [
     "d": "",
     "m": 0,
     "b": "",
-    "status": "WAITING"
+    "status": "INVALID"
   },
   {
     "name": "Betanure Jewish Neo-Aramaic",
@@ -1827,7 +1827,7 @@ window.asiaNameBases = [
     "d": "",
     "m": 0,
     "b": "Ooty,Coonoor",
-    "status": "WAITING"
+    "status": "INVALID"
   },
   {
     "name": "Hokkien",
@@ -1837,7 +1837,7 @@ window.asiaNameBases = [
     "d": "",
     "m": 0,
     "b": "Xiamen,Quanzhou,Zhangzhou,Longyan",
-    "status": "WAITING"
+    "status": "INVALID"
   },
   {
     "name": "Teochew Min",
@@ -1846,8 +1846,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "Southern Min language spoken in the Chaoshan region of eastern Guangdong and by diaspora worldwide (Wikipedia: Teochew_Min).",
     "m": 0,
-    "b": "Shantou,Chaozhou,Jieyang,Puning,Meizhou,Shanwei,Huizhou,Shenzhen,Hong Kong,Macau,Guangzhou,Fuzhou,Xiamen,Quanzhou,Dongguan,Foshan",
-    "status": "WAITING"
+    "b": "",
+    "status": "INVALID"
   },
   {
     "name": "Hainanese",
@@ -1857,7 +1857,7 @@ window.asiaNameBases = [
     "d": "Variety of Min Chinese spoken on the island of Hainan and regional overseas Chinese communities (Wikipedia: Hainanese).",
     "m": 0,
     "b": "Haikou,Sanya,Wenchang,Qionghai,Wanning,Dongfang,Ledong,Lingshui,Baoting,Qiongzhong,Changjiang,Baisha",
-    "status": "WAITING"
+    "status": "INVALID"
   },
   {
     "name": "Leizhou Min",
@@ -1866,8 +1866,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "Branch of Min Chinese spoken on the Leizhou Peninsula (Leizhou city, Xuwen, Mazhang, Suixi, Xiashan) of western Guangdong; grouped with Hainanese as Qiong-Lei (Wikipedia: Leizhou_Min).",
     "m": 0,
-    "b": "Leizhou,Xuwen,Suixi,Haikang,Lianjiang,Zhanjiang,Maoming,Dianbai,Huazhou,Wuchuan",
-    "status": "WAITING"
+    "b": "Leizhou,Xuwen,Suixi",
+    "status": "INVALID"
   },
   {
     "name": "Pu-Xian Min",
@@ -1876,8 +1876,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "Branch of Min Chinese (Putian-Xianyou / Xinghua) of central coastal Fujian; transitional Coastal Min between Eastern and Southern Min (Wikipedia: Pu-Xian_Min).",
     "m": 0,
-    "b": "Xianyou,Quanzhou,Fuzhou,Nanping,Sanming,Zhangzhou,Xiamen,Putian,Longyan",
-    "status": "WAITING"
+    "b": "Putian,Xianyou",
+    "status": "INVALID"
   },
   {
     "name": "Haklau Min",
@@ -1886,8 +1886,8 @@ window.asiaNameBases = [
     "max": 17,
     "d": "Southern Min (Hoklo) variety of the Hailufeng region (Haifeng and Lufeng counties) centred on Shanwei, Guangdong. Wikipedia REST summary for 'Haklau_dialect' returned 404; classification based on linguistic knowledge.",
     "m": 0,
-    "b": "Shanwei,Haifeng,Lufeng,Hailufeng,Haicheng,Shantou,Chaozhou,Zhuhai,Guangzhou,Shenzhen,Quanzhou,Fuzhou,Xiamen",
-    "status": "WAITING"
+    "b": "Shanwei,Haifeng,Lufeng",
+    "status": "INVALID"
   },
   {
     "name": "Haryanvi",
@@ -1897,7 +1897,7 @@ window.asiaNameBases = [
     "d": "Indo-Aryan language of the Western Hindi group spoken primarily in the Indian state of Haryana and the territory of Delhi (Wikipedia: Haryanvi_language).",
     "m": 0,
     "b": "Hisar,Rohtak,Panipat,Karnal,Ambala,Kurukshetra,Sonipat,Jhajjar,Bhiwani,Charkhi Dadri,Sirsa,Fatehabad",
-    "status": "WAITING"
+    "status": "INVALID"
   },
   {
     "name": "Balochi, Makrani",
@@ -1906,7 +1906,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "Makrani dialect of Balochi, a Northwestern Iranian language of the Balochistan region (Pakistan, Iran, Afghanistan); Makran coast includes Gwadar, Turbat, Pasni, Ormara, Kech and Iran's Chabahar (Wikipedia: Balochi_language).",
     "m": 0,
-    "b": "Gwadar,Turbat,Pasni,Ormara,Kech,Chabahar,Karachi,Sibi,Quetta,Kalat,Khuzdar,Makran",
+    "b": "Gwadar,Turbat,Pasni,Ormara,Kech,Chabahar",
     "status": "WAITING"
   },
   {
@@ -1916,7 +1916,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "Rakhshani dialect of Balochi, a Northwestern Iranian language; spoken in northern/western Balochistan (Quetta, Kalat, Khuzdar, Sibi, Mastung, Chagai, Nushki, Washuk, Pishin, Kharan, Bolan) (Wikipedia: Balochi_language).",
     "m": 0,
-    "b": "Quetta,Kalat,Khuzdar,Sibi,Dhadar,Mastung,Chagai,Nushki,Washuk,Pishin,Bolan,Kharan",
+    "b": "Quetta,Kalat,Khuzdar,Sibi,Mastung,Chagai,Nushki,Washuk,Pishin,Kharan,Bolan",
     "status": "WAITING"
   },
   {
@@ -1926,7 +1926,7 @@ window.asiaNameBases = [
     "max": 14,
     "d": "Indo-Aryan language of the Rajasthani group, named for the Bagar tract of northwestern India (Rajasthan, Punjab, Haryana); historically the Bikaner state (Bikaner, Sri Ganganagar, Hanumangarh, Churu, Sirsa, Hisar) (Wikipedia: Bagri_language).",
     "m": 0,
-    "b": "Bikaner,Hanumangarh,Jhunjhunu,Sikar,Nagaur,Ajmer,Tonk,Bundi,Kota,Sri Ganganagar,Churu,Jaipur,Delhi,Ludhiana,Amritsar",
+    "b": "Bikaner,Sri Ganganagar,Hanumangarh,Churu,Sirsa,Hisar,Nagaur,Ajmer",
     "status": "WAITING"
   },
   {
@@ -1936,7 +1936,7 @@ window.asiaNameBases = [
     "max": 12,
     "d": "Kuki-Chin (Sino-Tibetan) language primarily spoken in Bangladesh (Chittagong Hill Tracts) and adjacent Northeast India (Mizoram) and Myanmar; settlements called 'Bawmram' (Wikipedia: Bawm_language).",
     "m": 0,
-    "b": "Mizoram,Aizawl,Lunglei,Saiha,Champhai,Serchhip,Khawzawl,Lawngtlai",
+    "b": "Aizawl,Champhai,Serchhip,Khawzawl,Lawngtlai",
     "status": "WAITING"
   },
   {
@@ -1956,18 +1956,18 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Wanding,Pu'er,Chashan,Dehong,Yunnan,Baoshan,Tengchong,Yingjiang,Lianghe,Ruili,Lincang",
+    "b": "Wanding,Pu'er,Dehong,Baoshan,Tengchong,Yingjiang,Lianghe,Ruili,Lincang",
     "status": "WAITING"
   },
-  {
+{
     "name": "Langsu",
     "i": 1253,
     "min": 3,
     "max": 14,
     "d": "",
     "m": 0,
-    "b": "Hsawlaw,Tsawlaw,Sawlaw,Sumprabum,Chiphwe,Waimaw,Kutkai,Maru (Shwegu),Yingpan Township,Mengyang Township,Bangwai Township,Jingkan Township,Zaoyang,Baocun",
-    "status": "COMPLETE"
+    "b": "Hsawlaw,Tsawlaw,Sawlaw,Sumprabum,Chiphwe,Waimaw,Kutkai,Yingpan Township,Mengyang Township,Bangwai Township,Jingkan Township,Zaoyang,Baocun",
+    "status": "WAITING"
   },
   {
     "name": "Lashi",
@@ -2056,7 +2056,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Yajiang,Litang,Daocheng,Xiangcheng,Derong,Batang,Sêrba,Gyaitang,Dêgê,Garzê,Sichuan",
+    "b": "Yajiang,Litang,Daocheng,Xiangcheng,Derong,Batang,Garzê,Sichuan",
     "status": "WAITING"
   },
   {
@@ -2117,7 +2117,7 @@ window.asiaNameBases = [
     "d": "",
     "m": 0,
     "b": "Zhaba,Daofu,Luhuo,Sertar,Danba,Xinlong,Yajiang,Litang,Dêgê,Ganzi,Sichuan",
-    "status": "WAITING"
+    "status": "INVALID"
   },
   {
     "name": "Mang",
@@ -2137,9 +2137,9 @@ window.asiaNameBases = [
     "d": "",
     "m": 0,
     "b": "Douhong,Xinhe Village,Kechang,De'e,Changme,Guosha,Hengsha,Wenya Village,Naya,Changfa Township,Badahe Township",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
-  {
+{
     "name": "Blang",
     "i": 1273,
     "min": 4,
@@ -2207,7 +2207,7 @@ window.asiaNameBases = [
     "d": "",
     "m": 0,
     "b": "",
-    "status": "WAITING"
+    "status": "INVALID"
   },
   {
     "name": "Biblical Hebrew",
@@ -2217,7 +2217,7 @@ window.asiaNameBases = [
     "d": "",
     "m": 0,
     "b": "",
-    "status": "WAITING"
+    "status": "INVALID"
   },
   {
     "name": "Bidau Creole Portuguese",
@@ -2227,7 +2227,7 @@ window.asiaNameBases = [
     "d": "",
     "m": 0,
     "b": "Dili,Bidau,Ermera,Liquica,Ainaro,Manatuto,Baucau,Viqueque,Lautem,CovaLima,Oecusse,Aileu,Bobonaro,Manufahi,Atauro,Maliana,Same,Lospalos,Suai,Gleno,Laga,Baguia,Vemasse,Venilale,Ossu,Uatolari,Mehara,Iliomar,Turiscai,Fatuberlio,Lolotoe,Barique,Laclubar,Laclo,Watulari,Atsabe,Atabae,Batugade,Balibo,Railaco,Letefoho,Hatolia",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
   {
     "name": "Bikol",
@@ -2237,7 +2237,7 @@ window.asiaNameBases = [
     "d": "",
     "m": 0,
     "b": "Naga,Legazpi,Iriga,Tabaco,Ligao,Daet,Virac,Pili,Calabanga,Canaman,Camaligan,Magarao,Bombon,Milaor,Minalabac,Gainza,Nabua,Bato,Baao,Libmanan,Sipocot,Ragay,Pasacao,Pamplona,Tinambac,Goa,Tigaon,Lagonoy,Sagñay,Caramoan,Camalig,Guinobatan,Daraga,Santo Domingo,Bacacay,Malinao,Malilipot,Manito,Oas,Polangui,Libon,Pio Duran,Jovellar,Sorsogon City,Donsol,Pilar",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
   {
     "name": "Bote",
@@ -2247,7 +2247,7 @@ window.asiaNameBases = [
     "d": "",
     "m": 0,
     "b": "Nawalparasi,Gulmi,Tanahu,Palpa,Syangja,Gorkha,Baglung,Chitwan,Bharatpur",
-    "status": "WAITING"
+    "status": "INVALID"
   },
   {
     "name": "Bodish",
@@ -2256,10 +2256,10 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Shigatse,Chamdo,Nagqu,Gyantse,Tsetang,Paro,Thimphu,Punakha,Bumthang,Leh,Lhasa,Darjeeling,Kathmandu",
-    "status": "WAITING"
+    "b": "Lhasa,Shigatse,Chamdo,Nagqu,Gyantse,Tsetang,Paro,Thimphu,Punakha,Bumthang,Leh,Darjeeling",
+    "status": "INVALID"
   },
-  {
+{
     "name": "Bodo",
     "i": 1342,
     "min": 3,
@@ -2267,7 +2267,7 @@ window.asiaNameBases = [
     "d": "",
     "m": 0,
     "b": "Kokrajhar,Bongaigaon,Kajalgaon,Goreswar,Tamulpur,Barama,Tihu,Chandrapur,Baihata,Bijni,Abhayapuri,Udalguri,Dhubri,Goalpara",
-    "status": "COMPLETE"
+    "status": "INVALID"
   },
   {
     "name": "Bohtan Neo-Aramaic",
