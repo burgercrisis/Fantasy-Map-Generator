@@ -1663,8 +1663,8 @@ window.africaNameBases = [{
     "max": 6,
     "d": "",
     "m": 0,
-    "b": "Karfa,Ahum,Tisheu",
-      "status": "WAITING"
+    "b": "Karfa,Manguna,Bokkos,Nasarawa State,Plateau State",
+    "status": "COMPLETE"
   },
 {
     "name": "Dullay",
@@ -1823,8 +1823,8 @@ window.africaNameBases = [{
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Logone-Birni,Makari,Fotokol,Hilé Alifa,Goulfey,Kousseri,Afade,Maltam,Zina,Muxule,Douguia,Dro,Walia,Kousséri,Sahu,Sao,Chari River,Logone River,Lake Chad,Far North Region",
+    "status": "COMPLETE"
   },
 {
     "name": "Kuo",
@@ -1833,8 +1833,8 @@ window.africaNameBases = [{
     "max": 8,
     "d": "lnrt",
     "m": 0,
-    "b": "Sorombéo",
-      "status": "WAITING"
+    "b": "Sorombéo,Mbe,Ngaoundéré,Meiganga,Garoua-Boulaï,Bétaré-Oya,Vina,Mbere,Lom-et-Djerem,Adamawa Region,East Region",
+    "status": "COMPLETE"
   },
 {
     "name": "Kusasi",
@@ -1863,8 +1863,8 @@ window.africaNameBases = [{
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Kachia LGA,Antara,Kaduna State",
+    "status": "COMPLETE"
   },
 {
     "name": "Tidikelt Berber",
@@ -1873,8 +1873,8 @@ window.africaNameBases = [{
     "max": 14,
     "d": "lnrt",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "In Salah,Tidikelt region,Tit South,Ksar Laarab,Ksar Lemrabtine,Deghamcha,El Barka,Igostène,Hassi Lahdjar,Sahla Tahtania,Sahla Fougania,Tadjemout,Western Sahara,Morocco,Tunisia",
+    "status": "COMPLETE"
   },
 {
     "name": "Juk",
@@ -1893,8 +1893,8 @@ window.africaNameBases = [{
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Abong",
-    "status": "WAITING"
+    "b": "Abong,Sardauna LGA,Taraba State,Baissa",
+    "status": "COMPLETE"
   },
 {
     "name": "Abron",
@@ -1923,8 +1923,8 @@ window.africaNameBases = [{
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Mbaïki,Mongoumba,Boda",
-    "status": "WAITING"
+    "b": "Mbaïki,Mongoumba,Boda,Bagandu,Bagandou,Lobaye Prefecture,Sangha-Mbaéré Prefecture,Likouala Department,Ubangi River,Sangha River,Central African Republic,Republic of Congo",
+    "status": "COMPLETE"
   },
 {
     "name": "Ambele",
@@ -1933,8 +1933,8 @@ window.africaNameBases = [{
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Widikum",
-    "status": "WAITING"
+    "b": "Widikum,Widikum-Menka Subdivision,Momo Division,North West Region,Olorunti,Busam,Lamboin,Ekagha",
+    "status": "COMPLETE"
   },
 {
     "name": "Ambo",
@@ -1974,7 +1974,7 @@ window.africaNameBases = [{
     "d": "lnrt",
     "m": 0,
     "b": "Dandougou,Torokoro,Sokoura,Bondokoro,Tolandougou,Sakédougou",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
 {
     "name": "Evant",
@@ -1983,8 +1983,8 @@ window.africaNameBases = [{
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Belegete,Oshonikpa,Akwekia,Nzosor,Elumsor,Ekemini,Ojoniya,Umbuli,Akornyapeni,Matene,Atolo,Magbe",
-      "status": "WAITING"
+    "b": "Belegete,Atolo,Matene",
+    "status": "COMPLETE"
   },
 {
     "name": "Fongoro",
@@ -1993,8 +1993,8 @@ window.africaNameBases = [{
     "max": 14,
     "d": "lnrt",
     "m": 0.1,
-    "b": "Saraf Bourgou,Gadar,Bir Nahal,Bolong Kibed,Chinguila,Birkit Tamassi,Keded,Bolong Dagal,Goza,Goza Mimi,Haraza,Tangorchele,Kele,Abgadam,Armawaha,Tissi,Routrout,Ladja,Moudef,Bourtoutou,Bolom,Mogororo",
-    "status": "WAITING"
+    "b": "Dar Fongoro,Fongoro Canton,Sila Region,Bir Nahal,Ghadar,Ouaddaï Region",
+    "status": "COMPLETE"
   },
 {
     "name": "Fungor",
@@ -2003,8 +2003,8 @@ window.africaNameBases = [{
     "max": 6,
     "d": "",
     "m": 0,
-    "b": "Kau,Nyaro,Fungor",
-      "status": "WAITING"
+    "b": "Kau,Nyaro,Fungor,South Kordofan,Nuba Mountains,Talodi,White Nile",
+    "status": "COMPLETE"
   },
 {
     "name": "Ghomala'",
@@ -2033,8 +2033,8 @@ window.africaNameBases = [{
     "max": 13,
     "d": "lnrt",
     "m": 0.1,
-    "b": "Goundo,Goundo Bengli,Goundo Nongom,Goundo Ylla",
-    "status": "WAITING"
+    "b": "Goundo-Bengli,Goundo-Nangom,Goundo-Yila,Kélo Subprefecture,Lai Subprefecture,Tandjilé Region,Logone River,Messéré Canton,Laï-Rural Canton,Kabalay Area",
+    "status": "COMPLETE"
   },
 {
     "name": "Gourmanché",
@@ -2063,8 +2063,8 @@ window.africaNameBases = [{
     "max": 17,
     "d": "lnrt",
     "m": 0.1,
-    "b": "Tamentit,Tittaf",
-    "status": "WAITING"
+    "b": "Tamentit,Tittaf,Tuat Region,Adrar,Fenoughil,Zaouiet Kounta,Reggane,Bouda,Tamest,Touat Intebou,Sidi Ahmed Timmi",
+    "status": "COMPLETE"
   },
 {
     "name": "Western Berber",
@@ -2093,8 +2093,8 @@ window.africaNameBases = [{
     "max": 14,
     "d": "lnrt",
     "m": 0,
-    "b": "Karankasso-Vigué",
-    "status": "WAITING"
+    "b": "Karangasso-Vigué,Klesso,Dérégouan,Dan,Houet Province,Hauts-Bassins Region,Comoé Province,Cascades Region,Bougouriba Province,Sud-Ouest Region",
+    "status": "COMPLETE"
   },
 {
     "name": "Viti",
@@ -2103,8 +2103,8 @@ window.africaNameBases = [{
     "max": 10,
     "d": "lnrt",
     "m": 0,
-    "b": "Antere",
-    "status": "WAITING"
+    "b": "Antere,Sardauna LGA,Taraba State,Mambilla Plateau",
+    "status": "COMPLETE"
   },
 {
     "name": "Vori",
@@ -2113,8 +2113,8 @@ window.africaNameBases = [{
     "max": 9,
     "d": "lnrt",
     "m": 0,
-    "b": "Geshere,Kusheka,Kumana,Kitanda,Kugauta,Kabene,Surubunda",
-    "status": "WAITING"
+    "b": "Geshere,Kusheka,Kumana,Kitanda,Kugauta,Kabene,Surubunda,Kauru LGA,Kaduna State,Kauru Chiefdom,Kumana Chiefdom,Chawai Chiefdom",
+    "status": "COMPLETE"
   },
 {
     "name": "Voro",
@@ -2303,8 +2303,8 @@ window.africaNameBases = [{
     "max": 14,
     "d": "lnrt",
     "m": 0,
-    "b": "Agadez,Arlit,Tchirozerine,In-Gall",
-      "status": "WAITING"
+    "b": "Agadez,Arlit,Tchirozerine,In-Gall,Aïr Mountains,Agadez Region,Zinder Region,Tahoua Region,Maradi Region",
+    "status": "COMPLETE"
   },
 {
     "name": "Nam",
@@ -2514,7 +2514,7 @@ window.africaNameBases = [{
     "d": "klmnst",
     "m": 0,
     "b": "Labuk,Dus,Korcho,Gero,Us'a,Gerfa,Genc'ire,Gec'a,Irk'a",
-      "status": "WAITING"
+    "status": "COMPLETE"
   },
 {
     "name": "Asoa",
@@ -2542,8 +2542,8 @@ window.africaNameBases = [{
     "max": 10,
     "d": "lnrt",
     "m": 0.1,
-    "b": "Bambassi,Mutsa,Mutsa Mado,Dimtu",
-    "status": "WAITING"
+    "b": "Bambassi,Bambasi,Diddesa Valley,Didessa Valley,Muts'a,Mutsa,Muts'a Mado,Mus'a Mado,Dimtu,Dimt'u,Asosa",
+    "status": "COMPLETE"
   },
 {
     "name": "Tagoi",
@@ -2552,8 +2552,8 @@ window.africaNameBases = [{
     "max": 7,
     "d": "lnrt",
     "m": 0,
-    "b": "Moreb,Tagoi,Tuling,Tumale,Turjok,Turum",
-    "status": "WAITING"
+    "b": "Moreb,Tagoi,Tuling,Tumale,Turjok,Turum,Tukum",
+    "status": "COMPLETE"
   },
 {
     "name": "Wali",
@@ -2562,8 +2562,8 @@ window.africaNameBases = [{
     "max": 15,
     "d": "lnrt",
     "m": 0.1,
-    "b": "Wali,Wali Bubay,Wali Karandu,Wali Abu Saeeda,Wali al-Suq,Wali Umm Karam",
-      "status": "WAITING"
+    "b": "Wali Massif,Northwestern Nuba Mountains,South Kordofan State,Katla Region",
+    "status": "COMPLETE"
   },
 {
     "name": "Samo",
@@ -2582,8 +2582,8 @@ window.africaNameBases = [{
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Ekoka,Okongo,Omukukutu,Eendobe,Omauni,Okanyandi,Omundaungilo,Tsintsabis,Mpungu,Mukekete,Etunda,Onamatadiva,Oshanashiwa,Onane",
-    "status": "WAITING"
+    "b": "Tsintsabis,Eenhana,Okongo,Omukukutu,Eendobe,Omauni,Okanyandi,Omundaungilo,Mpungu,Mukekete,Etunda,Onamatadiva,Oshanashiwa,Onane",
+    "status": "COMPLETE"
   },
 {
     "name": "Kxao-ae",
@@ -4864,14 +4864,13 @@ window.africaNameBases = [{
   },
 {
     "name": "Dciriku",
-    "i": 20710,
-    "min": 3,
-    "max": 14,
+    "i": 20711,
+    "min": 4,
+    "max": 17,
     "d": "lnrt",
     "m": 0,
     "b": "Rundu,Ndiyona,Andara,Kavango East,Kavango West,Okavango River,Mamono,Rutco,Shambyu,Mashi,Kavango Delta,Mbukushu,Kwangali,Fwe,Subiya,Totela",
-    "status": "WAITING",
-    "note": "Dciriku (Kavango) - 15 verified Kavango places. Angolan cities removed."
+    "status": "COMPLETE"
   },
 {
     "name": "Defaka",
@@ -4880,9 +4879,8 @@ window.africaNameBases = [{
     "max": 17,
     "d": "lnrt",
     "m": 0,
-    "b": "Nkoro,Opobo,Abuloma,Degema,Engenni,Bodo,Ogoni,Andoni,Okrika,Kolokuma,Brass,Eleme,Bille",
-    "status": "WAITING",
-    "note": "Defaka (Niger Delta) - 13 verified Ijaw/Defaka places. Fabricated names removed."
+    "b": "Nkoro,Ịwọma Nkọrọ,Iwoama Nkoro,Opobo-Nkoro LGA,Rivers State",
+    "status": "COMPLETE"
   },
 {
     "name": "Mao",
@@ -4892,8 +4890,7 @@ window.africaNameBases = [{
     "d": "lnrt",
     "m": 0,
     "b": "Bambasi,Asosa,Begi,Hozo,Seze,Ganza,Benishangul-Gumuz,Oromia,Didessa River,Belo Jegonfoy,Kondala,Kwama,Koma,Anfillo,Blue Nile",
-    "status": "WAITING",
-    "note": "Mao (Omotic) - 15 verified Benishangul places. Angolan cities and fabricated Maok/Maot/etc. removed."
+    "status": "COMPLETE"
   },
 {
     "name": "Kafa",
@@ -4935,9 +4932,8 @@ window.africaNameBases = [{
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Chibok,Askira,Uba,Damboa,Bama,Mubi,Gwoza,Konduga,Monguno,Ngala,Kala Balge,Jere,Magumeri,Kaga,Kwaya Kusar,Biu,Shani,Hawul,Kirfi,Bayo,Shaffa,Maiduguri",
-    "status": "WAITING",
-    "note": "Cibak (Chibok, Nigeria) - 22 verified Borno places. Fabricated names removed."
+    "b": "Chibok,Askira-Uba,Damboa,Borno State",
+    "status": "COMPLETE"
   },
 {
     "name": "Cineni",
@@ -4946,9 +4942,8 @@ window.africaNameBases = [{
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Cineni,Gwoza,Pulka,Uba,Mubi,Askira,Damboa,Bama,Biu,Giriria,Kirawa,Mandara,Maiduguri",
-    "status": "WAITING",
-    "note": "Cineni (Nigeria) - 13 verified Gwoza area places. Fabricated names removed."
+    "b": "Cineni village,Gwoza LGA,Borno State",
+    "status": "COMPLETE"
   },
 {
     "name": "Ciwogai",
@@ -4957,9 +4952,8 @@ window.africaNameBases = [{
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Tsagu,Kudawa,Kampani,Koliya,Kawa,Laya,Dangulam,Ganjuwa,Bauchi State,Warji,Bade,Pa'a,Diri,Kariya,Mburku,Miya,Siri,Ningi,Toro,Dass",
-    "status": "WAITING",
-    "note": "Ciwogai (Nigeria) - 20 verified Bauchi places. Fabricated names removed."
+    "b": "Tsagu,Kudawa,Kampani,Koliya,Nabolke,Kawa,Laya,Dangulam,Ganjuwa LGA,Bauchi State,Gwaram LGA,Jigawa State,Ningi LGA,Darazo LGA",
+    "status": "COMPLETE"
   },
 {
     "name": "Coptic",
@@ -4979,9 +4973,8 @@ window.africaNameBases = [{
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Tchouvok,Mokolo,Zamay,Maroua,Makelek,Bilyak,Gadaka,Maram,Médéré,Mofu,Mafa,Mefele",
-    "status": "WAITING",
-    "note": "Cuvok (Cameroon) - 12 verified Far North places. Angolan cities removed."
+    "b": "Tchouvouk,Zamai,Mokolo,Mayo-Tsanaga,Far North Region",
+    "status": "COMPLETE"
   },
 {
     "name": "Daba",
@@ -5001,9 +4994,8 @@ window.africaNameBases = [{
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Dahlak Kebir,Nora,Dehil,Durrubishet,Dasquo,Massawa,Dahlak,Dissei,Shumma,Dohul,Harat,Kebir,Arqiyo,Salamona",
-    "status": "WAITING",
-    "note": "Dahalik (Eritrea) - 13 verified Dahlak places. Angolan cities removed."
+    "b": "Dahlak Kebir,Nora,Dehil,Durrubishet,Dasquo,Dahlak,Dissei,Shumma,Dohul,Harat",
+    "status": "COMPLETE"
   },
 {
     "name": "Dass",
@@ -5012,9 +5004,8 @@ window.africaNameBases = [{
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Dass,Boghom,Zaar,Polchi,Zari,Zeem,Jimi,Mangas,Ju,Tsagu,Miya,Kariya,Mburku,Diri,Warji,Jos,Rimi",
-    "status": "WAITING",
-    "note": "Dass (Nigeria) - 17 verified Plateau places. Fabricated/Somali names removed."
+    "b": "Toro,Dass,Lukshi,Durr,Baraza,Zumbul,Wandi,Dot,Bauchi State,Plateau State",
+    "status": "COMPLETE"
   },
 {
     "name": "Daza",
@@ -5023,9 +5014,8 @@ window.africaNameBases = [{
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Faya-Largeau,Tibesti,Borkou,Kanem,Djurab,N'guigmi,Omdurman,Sabha,Kufra,Tazirbu,Jalu,Awjila,Ennedi,Bahr el Gazel",
-    "status": "WAITING",
-    "note": "Daza (Toubou, Chad/Libya) - 14 verified Saharan places. Fabricated/Kenyan names removed."
+    "b": "Borkou Region,Faya-Largeau,Tibesti Mountains,Tibesti Region,Djurab Desert,Kanem Region,Bahr el Gazel Region,Ennedi Plateau,Ennedi Region,N'guigmi,Diffa Region,Zinder Region,Sabha,Kufra,Tazirbu,Jalu,Awjila,Omdurman",
+    "status": "COMPLETE"
   },
 {
     "name": "Dazawa",
@@ -5034,9 +5024,8 @@ window.africaNameBases = [{
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Darazo,Azare,Jama'are,Katagum,Misau,Dass,Ningi,Toro,Ganjuwa,Kirfi,Bogoro,Miwa,Zalanga",
-    "status": "WAITING",
-    "note": "Dazawa (Nigeria) - 13 verified Bauchi places. Angolan/Somali/fabricated names removed."
+    "b": "Darazo LGA,Bauchi State",
+    "status": "COMPLETE"
   },
 {
     "name": "Doyayo",
@@ -5100,9 +5089,8 @@ window.africaNameBases = [{
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Matmata,Taoujout,Tamezret,Zrawa,Gabès,Douz,Medenine,Tataouine,Tozeur,Kebili,Dahar,Imatmaten,Tmaziɣṯ,Eddwi nna,Shelha,Jbali,Nafusi,Zenati",
-    "status": "WAITING",
-    "note": "Matmata Berber (Tunisia) - 18 verified Tunisian Berber places. Angolan cities/fabricated names removed."
+    "b": "Matmata,Tamezret,Zrawa,Taoujout",
+    "status": "COMPLETE"
   },
 {
     "name": "Ouargli",
@@ -5141,8 +5129,8 @@ window.africaNameBases = [{
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Chlef,Sheliff,Dahra,Jebel Chenoua,Tipaza,Cherchell,Beni Menacer,Algiers,Blida,Ouarsenis,Shenwa,Zenati,Sheliff Basin,Tafna,Ammi Moussa,Oued Righ,El Amra",
-    "status": "WAITING"
+    "b": "Chlef,Tipaza,Cherchell,Jebel Chenoua,Beni Menacer,Beni Haoua,Ouarsenis,Blida,Medea,Miliana,Chelif River",
+    "status": "COMPLETE"
   },
 {
     "name": "Sokna",
@@ -5151,8 +5139,8 @@ window.africaNameBases = [{
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Sokna,Fuqaha,Hun,Waddan,Zella,Tmessa,Tmassa,Fezzan,Jufra,Awjila,Sukna,Sawknah,Tasuknit,Isuknan",
-    "status": "WAITING"
+    "b": "Sokna,Fuqaha,Tmassa,Fezzan,Jufra District",
+    "status": "COMPLETE"
   },
 {
     "name": "Bimbashi Arabic",
@@ -5161,8 +5149,8 @@ window.africaNameBases = [{
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Khartoum,Omdurman,Mongalla,Juba,Bor,Wau,Malakal,Nasir,Bentiu,Rumbek,Yei,Torit,Kapoeta,Pibor,Akobo,Gogrial,Aweil,Kuajok",
-    "status": "WAITING"
+    "b": "Juba,Yei,Equatoria Region,Mongalla",
+    "status": "COMPLETE"
   },
 {
     "name": "Bongor Arabic",
@@ -5175,14 +5163,14 @@ window.africaNameBases = [{
     "status": "WAITING"
   },
 {
-    "name": "Maridi Arabic",
+    "name": "Mundu",
     "i": 21111,
     "min": 3,
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Maridi,Aswan,Wau,Juba,Yambio,Mundri,Tambura,Kozi,Landili,Mambe,Ngamunde,Bahr el Gazal",
-    "status": "WAITING"
+    "b": "Maridi,Mundri,Tambura,Kozi,Landili,Mambe,Ngamunde,Western Equatoria,Bahr el Ghazal",
+    "status": "COMPLETE"
   },
 {
     "name": "Turku Arabic",
@@ -5191,7 +5179,7 @@ window.africaNameBases = [{
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "N'Djamena,Moundou,Sarh,Abéché,Bongor,Mongo,Am Timan,Faya-Largeau,Doba,Kélo,Pala,Bol,Ati,Mao,Bitkine,Biltine,Fada",
+    "b": "Chari-Baguirmi Region,Massenya,Bousso,N'Djamena",
     "status": "WAITING"
   },
 {
@@ -5201,8 +5189,8 @@ window.africaNameBases = [{
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Juba,Yei,Wau,Malakal,Aweil,Kuajok,Nimule,Yambio,Rumbek,Bor,Torit,Abyei,Tonj,Yirol,Bentiu,Renk,Mangalla",
-    "status": "WAITING"
+    "b": "Juba,Yei,Nimule,Yambio,Torit,Mangalla,Equatoria Region",
+    "status": "COMPLETE"
   },
 {
     "name": "Naro Click (Kalahari East)",
@@ -5251,8 +5239,8 @@ window.africaNameBases = [{
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Addis Ababa,Bahir Dar,Gondar,Mekelle,Hawassa,Adama,Jimma,Dessie,Harar,Lalibela,Axum,Arba Minch,Nekemte,Debre Birhan,Kombolcha,Sodo,Asella,Ambo,Debre Markos,Dire Dawa",
-    "status": "WAITING"
+    "b": "Addis Ababa,Bahir Dar,Gondar,Mekelle,Hawassa,Adama,Jimma,Dessie,Harar,Lalibela,Axum,Arba Minch,Nekemte,Debre Birhan,Kombolcha,Sodo,Asella,Ambo,Debre Markos,Dire Dawa",
+    "status": "COMPLETE"
   },
 {
     "name": "Bangala",

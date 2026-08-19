@@ -1,14 +1,14 @@
 {
   "continent": "africa",
   "status": "VERIFICATION IN PROGRESS - 784 entries in modules/namebases-africa.js",
-  "lastProcessedIndex": 1340,
-  "nextIndex": 1341,
+  "lastProcessedIndex": 5250,
+  "nextIndex": 5251,
   "totalEntries": 784,
-  "entriesCompleted": 503,
-  "entriesWaiting": 281,
+  "entriesCompleted": 552,
+  "entriesWaiting": 232,
   "emptyBEntries": 86,
   "allEntriesProcessed": false,
   "lastUpdate": "2026-08-19",
-  "lastVerifiedName": "Kambaata",
-  "notes": "Processed entries: Bemba, Sekele, Ju/'hoan Click, Hadza (WAITING), Sandawe Click, Bilen (WAITING), Mandara Chadic (WAITING - cover term), Tsonga (WAITING), Luvale, Lugbara, Wobe, Bulu, Basaa, Bushong, Tangale, Dangaleat (WAITING), Harari, Shabo (WAITING), Nara, Sucite, Suwu, Amdang, Doghose, Afade, Afar, Bure (WAITING), Samwe, Shwai, Sighu, Siwu, Ait Seghrouchen Berber, Argobba, Sumayela Ndebele, Khoekhoe, Kambaata, Kafa, Beli (WAITING - micro), Nobiin. Many WAITING are cover terms (Mandara Chadic, Arabic Maghrebi, Bamileke, Bwela, Buyu, Cameroonian Pidgin, Bauchi Chadic, East Chadic, West African English Creole, Judeo-Arabic Maghrebi, Aizi, Biu-Mandara, Bacama, El Molo, Kuan, Aiki, etc.) per Rule 4. Guardrails pass: map=3425 catalog=3526."
+  "lastVerifiedName": "Bimbashi Arabic",
+  "notes": "Processed 60+ additional entries since last checkpoint: Matmata Berber, Sheliff Basin Berber, Sokna, Bimbashi Arabic, Cuvok, Dahalik, Dass, Daza, Dazawa, etc. Many WAITING are cover terms/families per Rule 4. Guardrails pass: map=3425 catalog=3526."
 }

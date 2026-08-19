@@ -1710,7 +1710,8 @@ window.oceaniaNameBases = [
     "max": 26,
     "d": "",
     "m": 0,
-    "b": "Eastern Highlands Province,Tairora,Binumarien,Tairoa,Waffa,Gadsup,Agarabi,Aegei,Kainantu,Lauli,FenuaFala,Aniwa,Manono,Taunga,Malaeloa,Vaitupu,Pagai,Sasina,Lakatoro,Lotopa,Lapaha,Olosenga,Lafanga,Aneityum,Aniei"
+    "b": "Kambaira village,Kurangka,Arau,Tombendaka,Omisuan,Pundibasa,Kainantu district,Eastern Highlands Province",
+    "status": "COMPLETE"
   },
 
   {
@@ -1720,7 +1721,8 @@ window.oceaniaNameBases = [
     "max": 16,
     "d": "",
     "m": 0,
-    "b": "Kambrau District,Kaimana Regency,West Papua,Indonesia,North Kamberau,South Kamberau,Iria,Asienara,Asmat,Kamoro,Buruwai,Ofu,Ohonua,Tungua,Aerua,Kolofoou,Kongo,Norfolk,Satupaitea,Nu'uuli,Makaunga,Leusoalii,Teafua,Malekula,Vailoa"
+    "b": "Kambrau District,Kaimana Regency,West Papua,Iria,Asienara",
+    "status": "COMPLETE"
   },
 
   {
@@ -1730,7 +1732,8 @@ window.oceaniaNameBases = [
     "max": 18,
     "d": "",
     "m": 0,
-    "b": "Karas Islands,Antalisa,Mas,Sewa,Tamisen,West Bomberai,West Papua,Indonesia,Kalamang,Bomberai Peninsula,Aibi,Niutoua,Fagatogo,Kotu,Fagalu,Atafu,Erromango,Afega,Puke,Fagamalo,Nanumaga,Avata,Aopo,Lolowai,Letogo"
+    "b": "Antalisa,Mas,Karas Islands,Karas district,Fakfak regency,West Papua",
+    "status": "COMPLETE"
   },
 
   {
@@ -1740,7 +1743,8 @@ window.oceaniaNameBases = [
     "max": 15,
     "d": "",
     "m": 0,
-    "b": "Gulf Province,Kibirowi island,Omati River,Turama River,Mena,Ikobi-Mena,Kikorian,Turama,Aelu,Ausoa,Mapusaga,Navutoka,Siufaga,Pyrenees,Ambae,Sataua,Vaini,Tula,Lifuka,Lauli,FenuaFala,Aniwa,Manono,Alutu,Afuboa"
+    "b": "Faia,Komaio,Kuri,Moka,Baina,Siawiti,Omati,Sorobo,Gulf Province,Kikori River,Omati River,Turama River",
+    "status": "COMPLETE"
   },
 
   {
@@ -1843,17 +1847,6 @@ window.oceaniaNameBases = [
   },
 
 {
-    "name": "Kandawo",
-    "i": 2101,
-    "min": 3,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-
-  {
     "name": "Kandawo",
     "i": 2101,
     "min": 4,
@@ -2234,7 +2227,8 @@ window.oceaniaNameBases = [
     "max": 20,
     "d": "",
     "m": 0,
-    "b": "Iasa,Sumai,Doropo,Sagasia,Ipisia,Agobara,Oromosapuo,Saguane,Samari,Wopa'ura,Kubira,Sepe,Aibinio,Aberegerema,Kename,Wariobodoro,Doumori,Pagona,Kope,Gibaio,Urama,Arigibi,Daru,Mabaduan,Mawata,Tureture,Katatai,Parama,Sui,Dawari,Sewerimabu,Koabu,Madame,Wederehiamo,Wabuda,Dameratamu,Gesoa,Wapi,Mabuduo,Kovisi,Sagero,Tivere,Maipani,Dibiri,Purutu,Coast Kiwai,Southern Coast Kiwai,Eastern Kiwai,Island Kiwai,Daru Kiwai"
+    "b": "Iasa,Sumai,Doropo,Sagasia,Ipisia,Agobara,Oromosapuo,Saguane,Samari,Wopa'ura,Kubira,Sepe,Aibinio,Aberegerema,Kename,Wariobodoro,Doumori,Pagona,Kope,Gibaio,Urama,Arigibi,Daru,Mabaduan,Mawata,Tureture,Katatai,Parama,Sui,Dawari,Sewerimabu,Koabu,Madame,Wederehiamo,Wabuda,Dameratamu,Gesoa,Wapi,Mabuduo,Kovisi,Sagero,Tivere,Maipani,Dibiri,Purutu,Coast Kiwai,Southern Coast Kiwai,Eastern Kiwai,Island Kiwai,Daru Kiwai",
+    "status": "COMPLETE"
   },
 
   {
@@ -2244,7 +2238,8 @@ window.oceaniaNameBases = [
     "max": 13,
     "d": "",
     "m": 0,
-    "b": "Kalabahi,Kabir,Baranusa,Bakalang,Marisa,Maliang,Moru,Kota Kalabahi,Binongko,Nusa Kenari,Welai Barat,Welai Timur,Mutiara,Wetabua,Adang,Kokar,Wolibang,Alim Mebung,Apui,Maritaing,Bukapiting,Peitoko,Bolamelang,Pura,Kabola,Mainang"
+    "b": "Kalabahi,Kabir,Baranusa,Bakalang,Marisa,Maliang,Moru,Kota Kalabahi,Binongko,Nusa Kenari,Welai Barat,Welai Timur,Mutiara,Wetabua,Adang,Kokar,Wolibang,Alim Mebung,Apui,Maritaing,Bukapiting,Peitoko,Bolamelang,Pura,Kabola,Mainang",
+    "status": "COMPLETE"
   },
 
   {
@@ -2342,10 +2337,11 @@ window.oceaniaNameBases = [
     "max": 26,
     "d": "",
     "m": 0,
-    "b": "Kundiawa,Chuave,Gumine,Karimui,Nomane,Kerowagi,Salt,Kilau,Adumo,Bereina,Mingende,Chuave Rural,Elimbari Rural,Siane Rural,Bomai Gumai Rural,Gumine Rural,Mount Digine Rural,Karimui Rural,Nomane Rural,Salt Rural,Gena Waugla Rural,Upper Lower Koronigl Rural,Kerowagi Urban,Kup Rural,Kundiawa Urban,Mitnande Rural,Niglkande Rural,Waiye Rural,Tabare Rural,Suai Rural,Yonggomugl Rural"
+    "b": "Kundiawa,Chuave,Gumine,Karimui,Nomane,Kerowagi,Salt,Kilau,Adumo,Bereina,Mingende,Chuave Rural,Elimbari Rural,Siane Rural,Bomai Gumai Rural,Gumine Rural,Mount Digine Rural,Karimui Rural,Nomane Rural,Salt Rural,Gena Waugla Rural,Upper Lower Koronigl Rural,Kerowagi Urban,Kup Rural,Kundiawa Urban,Mitnande Rural,Niglkande Rural,Waiye Rural,Tabare Rural,Suai Rural,Yonggomugl Rural",
+    "status": "COMPLETE"
   },
 
-  {
+{
     "name": "Kyaka",
     "i": 2303,
     "min": 4,
@@ -2407,7 +2403,8 @@ window.oceaniaNameBases = [
     "max": 14,
     "d": "lr",
     "m": 0,
-    "b": "Manila,Quezon City,Caloocan,Pasig,Taguig,Mandaluyong,Makati,Paranaque,Pasay,Navotas,Malabon,San Juan,Batangas,Laguna,Cavite,Rizal,Quezon,Baler,Lucena,San Pablo,Lipa,Tanauan,Santo Tomas,Calamba,Biñan,Santa Rosa,Cabuyao,Silang,Dasmariñas,Imus,Bacoor,Alabang,Marikina,Antipolo,Batangas City,Los Baños,Tagaytay,Trece Martires,General Trias,Imus City,Maragondon,Mendez,Indang,Naic,Tanza,Kawit,Noveleta,Rosario,Magallanes,Amadeo"
+    "b": "Manila,Quezon City,Caloocan,Pasig,Taguig,Mandaluyong,Makati,Paranaque,Pasay,Navotas,Malabon,San Juan,Batangas,Laguna,Cavite,Rizal,Quezon,Baler,Lucena,San Pablo,Lipa,Tanauan,Santo Tomas,Calamba,Biñan,Santa Rosa,Cabuyao,Silang,Dasmariñas,Imus,Bacoor,Alabang,Marikina,Antipolo,Batangas City,Los Baños,Tagaytay,Trece Martires,General Trias,Imus City,Maragondon,Mendez,Indang,Naic,Tanza,Kawit,Noveleta,Rosario,Magallanes,Amadeo",
+    "status": "COMPLETE"
   },
 
   {
@@ -2417,7 +2414,8 @@ window.oceaniaNameBases = [
     "max": 14,
     "d": "lr",
     "m": 0,
-    "b": "Jakarta,Bandung,Yogyakarta,Semarang,Malang,Bekasi,Depok,Tangerang,Bogor,Cirebon,Serang,Denpasar,Mataram,Medan,Palembang,Pekanbaru,Padang,Makassar,Manado,Bali,Lombok,Sumbawa,Flores,Timor,Roti,Savu,Alor,Pantar,Banda,Halmahera,Seram,Buru,Jayapura,Biak,Timika,Tual,Merauke,Nabire,Surabaya,Kupang,Ambon,Ternate,Tidore,Manokwari,Sorong,Mapusaga,Biak City,Wamena,Nabire Regency,Sarmi,Fakfak,Kaimana,Raja Ampat,Asmat,Mappi,Boven Digoel"
+    "b": "Jakarta,Bandung,Yogyakarta,Semarang,Malang,Bekasi,Depok,Tangerang,Bogor,Cirebon,Serang,Denpasar,Mataram,Medan,Palembang,Pekanbaru,Padang,Makassar,Manado,Bali,Lombok,Sumbawa,Flores,Timor,Roti,Savu,Alor,Pantar,Banda,Halmahera,Seram,Buru,Jayapura,Biak,Timika,Tual,Merauke,Nabire,Surabaya,Kupang,Ambon,Ternate,Tidore,Manokwari,Sorong,Mapusaga,Biak City,Wamena,Nabire Regency,Sarmi,Fakfak,Kaimana,Raja Ampat,Asmat,Mappi,Boven Digoel",
+    "status": "COMPLETE"
   },
 
   {
@@ -2427,17 +2425,19 @@ window.oceaniaNameBases = [
     "max": 16,
     "d": "lr",
     "m": 0,
-    "b": "Kuala Lumpur,George Town,Johor Bahru,Kuching,Ipoh,Shah Alam,Petaling Jaya,Kota Kinabalu,Kuala Terengganu,Kota Bharu,Kangar,Alor Setar,Malacca,Muar,Alor Gajah,Sepang,Putrajaya,Seremban,Kuantan,Kota Tinggi,Batu Pahat,Segamat,Mersing,Endau,Pontian,Jasin,Tampin,Rembau,Port Dickson,Kuala Pilah,Jelebu,Kuala Kangsar,Manjung,Larut,Taiping,Selayang,Ampang,Subang,Klang,Iskandar Puteri,Nusajaya,Gelugor,Tanjung Malim,Bagan Serai"
+    "b": "Kuala Lumpur,George Town,Johor Bahru,Kuching,Ipoh,Shah Alam,Petaling Jaya,Kota Kinabalu,Kuala Terengganu,Kota Bharu,Kangar,Alor Setar,Malacca,Muar,Alor Gajah,Sepang,Putrajaya,Seremban,Kuantan,Kota Tinggi,Batu Pahat,Segamat,Mersing,Endau,Pontian,Jasin,Tampin,Rembau,Port Dickson,Kuala Pilah,Jelebu,Kuala Kangsar,Manjung,Larut,Taiping,Selayang,Ampang,Subang,Klang,Iskandar Puteri,Nusajaya,Gelugor,Tanjung Malim,Bagan Serai",
+    "status": "COMPLETE"
   },
 
-  {
+{
     "name": "Maori",
     "i": 2587,
     "min": 4,
     "max": 16,
     "d": "",
     "m": 0,
-    "b": "Auckland,Rotorua,Hamilton,Taupo,Napier,Gisborne,Whangarei,Wellington,Christchurch,Dunedin,Tauranga,New Plymouth,Palmerston North,Whanganui,Hastings,Blenheim,Nelson,Queenstown,Invercargill,Timaru,Masterton,Cambridge,Te Awamutu,Whakatane,Opotiki,Kaitaia,Kerikeri,Kaikohe,Raglan,Oamaru,Westport,Greymouth,Hokitika,Wanaka,Te Anau,Franz Josef,Waikato,Levin,Paraparaumu,Porirua,Upper Hutt,Lower Hutt,Richmond,Motueka,Mapua,Takaka,Golden Bay,Abel Tasman,Kahurangi,Arthur's Pass,Aoraki,Fox Glacier,Lake Wanaka,Makarora,Mount Aspiring,Mount Ruapehu,Tongariro,Whakapapa,Turoa,Ohakune,National Park,Stratford,Eltham,Hawera,Patea,Waverley,Waitara,Inglewood,Okato,Oakura,Waitemata,Manukau,Papakura,Pukekohe,Thames,Coromandel,Whitianga,Waihi,Kaiti,Wairoa,Havelock,Seddon,Cheviot,Culverden,Hanmer Springs,Kaikoura,Mount Somers,Lake Tekapo,Lake Pukaki,Twizel,Omarama,Kurow,Balclutha,Gore,Waikakaia,Bluff,Riverton,Lumsden,Milford Sound,Cromwell,Alexandra,Clyde,Roxburgh,Ranfurly,Mosgiel,Port Chalmers"
+    "b": "Auckland,Rotorua,Hamilton,Taupo,Napier,Gisborne,Whangarei,Wellington,Christchurch,Dunedin,Tauranga,New Plymouth,Palmerston North,Whanganui,Hastings,Blenheim,Nelson,Queenstown,Invercargill,Timaru,Masterton,Cambridge,Te Awamutu,Whakatane,Opotiki,Kaitaia,Kerikeri,Kaikohe,Raglan,Oamaru,Westport,Greymouth,Hokitika,Wanaka,Te Anau,Franz Josef,Waikato,Levin,Paraparaumu,Porirua,Upper Hutt,Lower Hutt,Richmond,Motueka,Mapua,Takaka,Golden Bay,Abel Tasman,Kahurangi,Arthur's Pass,Aoraki,Fox Glacier,Lake Wanaka,Makarora,Mount Aspiring,Mount Ruapehu,Tongariro,Whakapapa,Turoa,Ohakune,National Park,Stratford,Eltham,Hawera,Patea,Waverley,Waitara,Inglewood,Okato,Oakura,Waitemata,Manukau,Papakura,Pukekohe,Thames,Coromandel,Whitianga,Waihi,Kaiti,Wairoa,Havelock,Seddon,Cheviot,Culverden,Hanmer Springs,Kaikoura,Mount Somers,Lake Tekapo,Lake Pukaki,Twizel,Omarama,Kurow,Balclutha,Gore,Waikakaia,Bluff,Riverton,Lumsden,Milford Sound,Cromwell,Alexandra,Clyde,Roxburgh,Ranfurly,Mosgiel,Port Chalmers",
+    "status": "COMPLETE"
   },
 
   {
@@ -2704,7 +2704,7 @@ window.oceaniaNameBases = [
     "status": "COMPLETE"
   },
 
-  {
+{
     "name": "Rejang",
     "i": 21085,
     "min": 4,
@@ -2898,7 +2898,8 @@ window.oceaniaNameBases = [
     "max": 0,
     "d": "",
     "m": 0,
-    "b": ""
+    "b": "",
+    "status": "WAITING"
   },
 
   {
@@ -2908,7 +2909,8 @@ window.oceaniaNameBases = [
     "max": 0,
     "d": "",
     "m": 0,
-    "b": ""
+    "b": "",
+    "status": "WAITING"
   },
 
   {
@@ -3838,11 +3840,12 @@ window.oceaniaNameBases = [
   {
     "name": "Ngaanyatjarra",
     "i": 200607,
-    "min": null,
-    "max": null,
+    "min": 0,
+    "max": 0,
     "d": "",
-    "m": null,
-    "b": ""
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
   },
 
   {
@@ -3852,37 +3855,41 @@ window.oceaniaNameBases = [
     "max": 16,
     "d": "",
     "m": 0,
-    "b": "Raukkan,Murray Bridge,Tailem Bend,Meningie,Goolwa,Milang,Mannum,Wellington,Point McLeay,Victor Harbor,Encounter Bay,Coorong,Hindmarsh Island,Kumarangk,Pomberuk,Tagalang,Kauwira,Peindjalong,Lake Alexandrina,Lake Albert,Mundoo Island,Point Malcolm,Cape Jaffa,Lacepede Bay,Narrung,Swan Reach,Coonawarra,Murungun"
+    "b": "Raukkan,Murray Bridge,Tailem Bend,Meningie,Goolwa,Milang,Mannum,Wellington,Point McLeay,Victor Harbor,Encounter Bay,Coorong,Hindmarsh Island,Kumarangk,Pomberuk,Tagalang,Kauwira,Peindjalong,Lake Alexandrina,Lake Albert,Mundoo Island,Point Malcolm,Cape Jaffa,Lacepede Bay,Narrung,Swan Reach,Coonawarra,Murungun",
+    "status": "COMPLETE"
   },
 
   {
     "name": "Nunggubuyu",
     "i": 200609,
-    "min": null,
-    "max": null,
+    "min": 0,
+    "max": 0,
     "d": "",
-    "m": null,
-    "b": ""
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
   },
 
   {
     "name": "Nyangumarta",
     "i": 200610,
-    "min": null,
-    "max": null,
+    "min": 0,
+    "max": 0,
     "d": "",
-    "m": null,
-    "b": ""
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
   },
 
   {
     "name": "palawa kani",
     "i": 200611,
-    "min": null,
-    "max": null,
+    "min": 0,
+    "max": 0,
     "d": "",
-    "m": null,
-    "b": ""
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
   },
 
   {
@@ -5872,17 +5879,19 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Sigabaduru,Mabudawan,Tureture,Sui,Severimabu,Doumori,Variobadoro,Maduduo,Tire'ere,Wapi,Sagasia,Buzi,Mawatta,Parama,Aberagerema,Wabada,Sepe,Samari,Kadawa,Madame,Maipani,Kename,U'uwo,Katatai,Dameratamu,Gesoa,Kabaturi,Sagero"
+    "b": "Sigabaduru,Mabudawan,Tureture,Sui,Severimabu,Doumori,Variobadoro,Maduduo,Tire'ere,Wapi,Sagasia,Buzi,Mawatta,Parama,Aberagerema,Wabada,Sepe,Samari,Kadawa,Madame,Maipani,Kename,U'uwo,Katatai,Dameratamu,Gesoa,Kabaturi,Sagero",
+    "status": "COMPLETE"
   },
 
   {
     "name": "Waffa",
     "i": 201210,
-    "min": null,
-    "max": null,
+    "min": 0,
+    "max": 0,
     "d": "",
-    "m": null,
-    "b": ""
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
   },
 
   {
@@ -5892,7 +5901,8 @@ window.oceaniaNameBases = [
     "max": 9,
     "d": "",
     "m": 0,
-    "b": "Aviamp,Kauwi,Kabagang,Kungar,Kudjip,Puri,Kurumul,Tombil,Kamang,Anginmol,Ngunba,Gabinal,Alua,Gagwa,Olubus,Pabamil,Tsigmil,Begbe,Tumba,Numgil,Kugmar,Gugmar,Djek,Yeu,Ambopane,Olate,Palti,Tesa,Wusinge,Meru,Tandambak,Tun,Kupa,Djeck,Minj,Kia"
+    "b": "Aviamp,Kauwi,Kabagang,Kungar,Kudjip,Puri,Kurumul,Tombil,Kamang,Anginmol,Ngunba,Gabinal,Alua,Gagwa,Olubus,Pabamil,Tsigmil,Begbe,Tumba,Numgil,Kugmar,Gugmar,Djek,Yeu,Ambopane,Olate,Palti,Tesa,Wusinge,Meru,Tandambak,Tun,Kupa,Djeck,Minj,Kia",
+    "status": "COMPLETE"
   },
 
   {
@@ -5902,7 +5912,8 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Caicua,Loilubo,Ossouala,Ostico,Uaigae,Uato-Lari,Bado-Ho'o,Baha Mori,Fatulia,Uailaha,Uai Oli,Uatu Haco,Uma Ana Ico,Uma Ana Ulo,Bahu,Bucoli,Buibau,Buruma,Caibada,Gariuai,Samalari,Tirilolo,Triloca,Uailili,Vemasse,Baucau,Venilale"
+    "b": "Caicua,Loilubo,Ossouala,Ostico,Uaigae,Uato-Lari,Bado-Ho'o,Baha Mori,Fatulia,Uailaha,Uai Oli,Uatu Haco,Uma Ana Ico,Uma Ana Ulo,Bahu,Bucoli,Buibau,Buruma,Caibada,Gariuai,Samalari,Tirilolo,Triloca,Uailili,Vemasse,Baucau,Venilale",
+    "status": "COMPLETE"
   },
 
   {
@@ -5912,7 +5923,8 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Alugi,Kukurima,Pirambot,Tegabaga,Wodloma,Wollo Timur,Wolo,Wunan,Arsbol,Ayeki,Engaima,Enggama,Erageam,Kino,Kugab,Mogonik,Moligi,Pagale,Wanilok,Winam,Winima,Wurigelobar,Yabendili,Danama,Illusilimo,Ilugwa,Kalarin,Melenggama,Wirima"
+    "b": "Alugi,Kukurima,Pirambot,Tegabaga,Wodloma,Wollo Timur,Wolo,Wunan,Arsbol,Ayeki,Engaima,Enggama,Erageam,Kino,Kugab,Mogonik,Moligi,Pagale,Wanilok,Winam,Winima,Wurigelobar,Yabendili,Danama,Illusilimo,Ilugwa,Kalarin,Melenggama,Wirima",
+    "status": "COMPLETE"
   },
 
   {
@@ -5922,7 +5934,8 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Jair,Kouh,Mandobo,Anyumka,Arimbit,Awaken,Kolopkam,Kuken,Bayanggop,Burunggop,Gaguop,Kewam,Manggelum,Mangga Tiga,Anggai,Asiki,Butiptiri,Getentiri,Kapogu,Miri,Firiwage,Kabuwage,Karuwage,Waliburu,Fefero,Manggemahe,Yaniruma,Wombon,Wanggemalo,Wanggom,Ampera,Mariam,Mawan,Persatuan,Sokanggo,Mindiptana,Kamka,Umap,Wanggatkibi,Bomakia I,Aifa,Somi"
+    "b": "Jair,Kouh,Mandobo,Anyumka,Arimbit,Awaken,Kolopkam,Kuken,Bayanggop,Burunggop,Gaguop,Kewam,Manggelum,Mangga Tiga,Anggai,Asiki,Butiptiri,Getentiri,Kapogu,Miri,Firiwage,Kabuwage,Karuwage,Waliburu,Fefero,Manggemahe,Yaniruma,Wombon,Wanggemalo,Wanggom,Ampera,Mariam,Mawan,Persatuan,Sokanggo,Mindiptana,Kamka,Umap,Wanggatkibi,Bomakia I,Aifa,Somi",
+    "status": "COMPLETE"
   },
 
   {
@@ -5932,7 +5945,8 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Ilaga,Wangbe,Beoga,Doufo,Pogoma,Sinak,Agandugume,Gome,Dervos,Beoga Barat,Beoga Timur,Ogamanim,Kembru,Bina,Sinak Barat,Mage'abume,Yugumuak,Ilaga Utara,Mabugi,Omukia,Lambewi,Oneri,Amungkalpia,Gome Utara,Erelmakawia"
+    "b": "Ilaga,Wangbe,Beoga,Doufo,Pogoma,Sinak,Agandugume,Gome,Dervos,Beoga Barat,Beoga Timur,Ogamanim,Kembru,Bina,Sinak Barat,Mage'abume,Yugumuak,Ilaga Utara,Mabugi,Omukia,Lambewi,Oneri,Amungkalpia,Gome Utara,Erelmakawia",
+    "status": "COMPLETE"
   },
 
   {
@@ -5942,7 +5956,8 @@ window.oceaniaNameBases = [
     "max": 20,
     "d": "",
     "m": 0,
-    "b": "Pedeya,Pikiwa,Pisi,Saiwase,Sanabase,Semabo,Sialowa,Suame,Tai,Tapila Station,Ugu (Kala),Uladu,Urio,Waligi,Wasapeya,Waya,Yau,Adiba,Aketa No2 (sesepewa),Awaba Community Scho,Awaba Ecp Miss,Balimo,Dewala Comm. Sch,Dewara,Isago,Kaniya,Kaniya Comm. Sch,Kawito,Kenedivi,Kenewa Community Sch,Lewada Community Sch,Madila,Maliki Comm. Sch,Mapodo,Mugumugu,Nabiki Community Sch,Pedaeya,Pedeya Comm. Sch."
+    "b": "Pedeya,Pikiwa,Pisi,Saiwase,Sanabase,Semabo,Sialowa,Suame,Tai,Tapila Station,Ugu (Kala),Uladu,Urio,Waligi,Wasapeya,Waya,Yau,Adiba,Aketa No2 (sesepewa),Awaba Community Scho,Awaba Ecp Miss,Balimo,Dewala Comm. Sch,Dewara,Isago,Kaniya,Kaniya Comm. Sch,Kawito,Kenedivi,Kenewa Community Sch,Lewada Community Sch,Madila,Maliki Comm. Sch,Mapodo,Mugumugu,Nabiki Community Sch,Pedaeya,Pedeya Comm. Sch.",
+    "status": "COMPLETE"
   },
 
   {
@@ -5952,7 +5967,8 @@ window.oceaniaNameBases = [
     "max": 15,
     "d": "lnrt",
     "m": 0,
-    "b": "Nadi,Lautoka,Ba,Sigatoka,Nausori,Rakiraki,Tavua,Vatukoula,Vuda,Viseisei,Navala,Korotogo,Natadola,Pacific Harbour,Yaqara,Navua,Lami,Suva,Korolevu,Keiyasi,Tubou,Malolo,Waya,Nacula,Yasawa,Nanuya,Tavewa,Drawaqa,Mana,Monuriki,Soso,Lomolomo,Naqara,Bureka,Somosomo,Lewa,Lovoni,Bekana,Viti Levu"
+    "b": "Nadi,Lautoka,Ba,Sigatoka,Nausori,Rakiraki,Tavua,Vatukoula,Vuda,Viseisei,Navala,Korotogo,Natadola,Pacific Harbour,Yaqara,Navua,Lami,Suva,Korolevu,Keiyasi,Tubou,Malolo,Waya,Nacula,Yasawa,Nanuya,Tavewa,Drawaqa,Mana,Monuriki,Soso,Lomolomo,Naqara,Bureka,Somosomo,Lewa,Lovoni,Bekana,Viti Levu",
+    "status": "COMPLETE"
   },
 
   {
@@ -5962,7 +5978,8 @@ window.oceaniaNameBases = [
     "max": 8,
     "d": "",
     "m": 0,
-    "b": "Dewara,Tapila,Lewada,Aduru,Baramula,Uric,Kawiyapo,Sialoa,Dede,Pagona,Konedobu,Duaba,Kubu,Waya,Kenewa,Ugu,Uladu,Bamutsa,Kimama,Waligi,Kini,Ike,Yau,Adiba,Dogona,Tai,Kewa,Kotale"
+    "b": "Dewara,Tapila,Lewada,Aduru,Baramula,Uric,Kawiyapo,Sialoa,Dede,Pagona,Konedobu,Duaba,Kubu,Waya,Kenewa,Ugu,Uladu,Bamutsa,Kimama,Waligi,Kini,Ike,Yau,Adiba,Dogona,Tai,Kewa,Kotale",
+    "status": "COMPLETE"
   },
 
   {
@@ -5972,7 +5989,8 @@ window.oceaniaNameBases = [
     "max": 22,
     "d": "",
     "m": 0,
-    "b": "Visi,Woitape,Yeme,Yongai,Yoribai,Yulai,Zania,Zhake,Guari,Bizoa,Ganiawai,Ghivena,Kamulai,Kelevi,Lobudono,Rapaula,Tonamena,Ariomu,Ilai,Kataipi,Kerau,Kilete,Kovetapa,Lavavai,Lotuava,Minalu,Omoritu,Opore,Tororo,Wapote,Evesa,Kumunga,Kulama,Horo,Ononge Mission Station,Kosipe Tanipai,Garime,Woitape Station,Mondo Tolukuma"
+    "b": "Visi,Woitape,Yeme,Yongai,Yoribai,Yulai,Zania,Zhake,Guari,Bizoa,Ganiawai,Ghivena,Kamulai,Kelevi,Lobudono,Rapaula,Tonamena,Ariomu,Ilai,Kataipi,Kerau,Kilete,Kovetapa,Lavavai,Lotuava,Minalu,Omoritu,Opore,Tororo,Wapote,Evesa,Kumunga,Kulama,Horo,Ononge Mission Station,Kosipe Tanipai,Garime,Woitape Station,Mondo Tolukuma",
+    "status": "COMPLETE"
   },
 
   {
@@ -5982,7 +6000,8 @@ window.oceaniaNameBases = [
     "max": 15,
     "d": "",
     "m": 0,
-    "b": "Aimoli,Alaang,Alila,Alila Selatan,Alor Besar,Alor Kecil,Ampera,Bampalola,Dulolong,Dulolong Barat,Hulnani,Lefokisu,Lewalu,O A Mate,Otvai,Pulau Buaya,Ternate,Ternate Selatan,Adang,Alimebung,Dapitau,Fuisama,Fungafeng,Kafakbeka,Lakwati,Lembur Barat,Lembur Tengah,Likwatang,Manetwati,Nurbenlelang,Petleng,Tominuku,Welai Selatan,Alila Timur,Kopidil,Lawahing,Pante Deera,Kabola,Lembur Timur,Luba,Talwai,Tasi,Tulleng,Waimi"
+    "b": "Aimoli,Alaang,Alila,Alila Selatan,Alor Besar,Alor Kecil,Ampera,Bampalola,Dulolong,Dulolong Barat,Hulnani,Lefokisu,Lewalu,O A Mate,Otvai,Pulau Buaya,Ternate,Ternate Selatan,Adang,Alimebung,Dapitau,Fuisama,Fungafeng,Kafakbeka,Lakwati,Lembur Barat,Lembur Tengah,Likwatang,Manetwati,Nurbenlelang,Petleng,Tominuku,Welai Selatan,Alila Timur,Kopidil,Lawahing,Pante Deera,Kabola,Lembur Timur,Luba,Talwai,Tasi,Tulleng,Waimi",
+    "status": "COMPLETE"
   },
 
   {
@@ -5992,7 +6011,8 @@ window.oceaniaNameBases = [
     "max": 0,
     "d": "",
     "m": 0,
-    "b": ""
+    "b": "",
+    "status": "WAITING"
   },
 
   {
@@ -6002,7 +6022,8 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": ""
+    "b": "",
+    "status": "WAITING"
   },
 
   {
@@ -6012,7 +6033,8 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Bokon,Dura,Ginime,Gurika,Kuapur,Langgalo,Olume,Oyi,Palunggame,Wadinalome,Yilondum,Amberingime,Aniwo,Bugumbak,Ekanom,Umbanume,Wenam,Yalipak,Yugumbinik,Gembilani,Kemiri,Kotorambur,Mamiri,Nambume,Tengenawi,Waganenga,Yorenime,Gamelia,Gawiwarak,Gunagewak,Meyagale,Pirawun,Wulaipas,Wunume,Wupi,Dimba,Magegobak,Mewilangun,Nongopnage,Talibarenak,Wawiragi,Wengenambur,Yugwa,Balime,Balingga,Binolanggen,Dewaka"
+    "b": "Bokon,Dura,Ginime,Gurika,Kuapur,Langgalo,Olume,Oyi,Palunggame,Wadinalome,Yilondum,Amberingime,Aniwo,Bugumbak,Ekanom,Umbanume,Wenam,Yalipak,Yugumbinik,Gembilani,Kemiri,Kotorambur,Mamiri,Nambume,Tengenawi,Waganenga,Yorenime,Gamelia,Gawiwarak,Gunagewak,Meyagale,Pirawun,Wulaipas,Wunume,Wupi,Dimba,Magegobak,Mewilangun,Nongopnage,Talibarenak,Wawiragi,Wengenambur,Yugwa,Balime,Balingga,Binolanggen,Dewaka",
+    "status": "COMPLETE"
   },
 
   {
@@ -6022,7 +6044,8 @@ window.oceaniaNameBases = [
     "max": 16,
     "d": "",
     "m": 0,
-    "b": "Bana,Bandar,Baolang,Bouweli,Bukit Mas,Helandohi,Madar,Munaseli,Pandai,Wailawar,Baraler,Baranusa,Blang Merang,Ilu,Kalondama,Leer,Piringsina,Allumang,Beangonong,Kalondama Barat,Kalondama Tengah,Kayang,Lamma,Marisa,Aramaba,Bagang,Delaki,Eka Jaya,Mauta,Muriabang,Tamak,Toang,Tubbe,Tude,Batu,Bunga Bali,Kaera,Kaleb,Lalafang,Lekom,Mawar,Merdeka,Nule,Ombay,Treweng"
+    "b": "Bana,Bandar,Baolang,Bouweli,Bukit Mas,Helandohi,Madar,Munaseli,Pandai,Wailawar,Baraler,Baranusa,Blang Merang,Ilu,Kalondama,Leer,Piringsina,Allumang,Beangonong,Kalondama Barat,Kalondama Tengah,Kayang,Lamma,Marisa,Aramaba,Bagang,Delaki,Eka Jaya,Mauta,Muriabang,Tamak,Toang,Tubbe,Tude,Batu,Bunga Bali,Kaera,Kaleb,Lalafang,Lekom,Mawar,Merdeka,Nule,Ombay,Treweng",
+    "status": "COMPLETE"
   },
 
   {
@@ -6032,7 +6055,8 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Poloko 2,Poloko 1,Borona,Koiyapu,Poleya,Iaro 1,Iaro 2,Kalane,Kaluwe 1,Kaluwe 2,Weriko,Maubinin,Kerapali,Tunda,Timbikene 1,Timbikene 2,Pubi,Lawe,Timbari 1,Timbari 2,Wanu,Marapini,Undiyapu,Yakiliyapu,Yoka,Kuabini,Noiya,Taguru,Mamuane,Powe,Kengerene"
+    "b": "Poloko 2,Poloko 1,Borona,Koiyapu,Poleya,Iaro 1,Iaro 2,Kalane,Kaluwe 1,Kaluwe 2,Weriko,Maubinin,Kerapali,Tunda,Timbikene 1,Timbikene 2,Pubi,Lawe,Timbari 1,Timbari 2,Wanu,Marapini,Undiyapu,Yakiliyapu,Yoka,Kuabini,Noiya,Taguru,Mamuane,Powe,Kengerene",
+    "status": "COMPLETE"
   },
 
   {
@@ -6042,7 +6066,8 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Bukapa,Dikiyouwo,Ekemanida,Idakotu,Ikebo,Kimupugi,Mauwa,Putapa,Abaimaida,Bobomani,Bonakunu,Dawaikunu,Diyoudimi,Magone,Obaikagopa,Apogomakida,Deneiode,Egipa,Ideduwa,Kegata,Tibaugi,Ukagu,Yegiyepa,Duntek,Ekimani,Idakebo,Ikrar,Kuyakago,Mogou,Obayo,Yametadi,Iyaro,Sukikai,Unito,Wigoumakida,Abouyaga,Maikotu,Taubaikebo,Yegoukotu,Bogiyateugi,Botumoma,Digikebo,Matadi,Obaibega,Pouwouda,Tuwaida,Yepo"
+    "b": "Bukapa,Dikiyouwo,Ekemanida,Idakotu,Ikebo,Kimupugi,Mauwa,Putapa,Abaimaida,Bobomani,Bonakunu,Dawaikunu,Diyoudimi,Magone,Obaikagopa,Apogomakida,Deneiode,Egipa,Ideduwa,Kegata,Tibaugi,Ukagu,Yegiyepa,Duntek,Ekimani,Idakebo,Ikrar,Kuyakago,Mogou,Obayo,Yametadi,Iyaro,Sukikai,Unito,Wigoumakida,Abouyaga,Maikotu,Taubaikebo,Yegoukotu,Bogiyateugi,Botumoma,Digikebo,Matadi,Obaibega,Pouwouda,Tuwaida,Yepo",
+    "status": "COMPLETE"
   },
 
   {
@@ -6052,37 +6077,41 @@ window.oceaniaNameBases = [
     "max": 16,
     "d": "",
     "m": 0,
-    "b": "Betoambari,Murhum,Batupoaro,Wolio,Kokalukuna,Sorawolio,Bungi,Lea-Lea,Lasalimu,Lasalimu Selatan,Siontapina,Pasarwajo,Wolowa,Wabula,Kapontori,Katobengke,Lamangga,Wameo,Wangkanapi,Waruruma,Kaisabu Baru,Liabuku,Kantalai,Kamaru,Ambuau Indah,Kumbewaha,Awainulu,Kahulungaya,Kambula-Bulana,Kombeli,Saragi,Takimpo,Wagola,Wasaga,Wakangka,Watumotobe"
+    "b": "Betoambari,Murhum,Batupoaro,Wolio,Kokalukuna,Sorawolio,Bungi,Lea-Lea,Lasalimu,Lasalimu Selatan,Siontapina,Pasarwajo,Wolowa,Wabula,Kapontori,Katobengke,Lamangga,Wameo,Wangkanapi,Waruruma,Kaisabu Baru,Liabuku,Kantalai,Kamaru,Ambuau Indah,Kumbewaha,Awainulu,Kahulungaya,Kambula-Bulana,Kombeli,Saragi,Takimpo,Wagola,Wasaga,Wakangka,Watumotobe",
+    "status": "COMPLETE"
   },
 
   {
     "name": "Yagaria",
     "i": 201228,
-    "min": null,
-    "max": null,
+    "min": 0,
+    "max": 0,
     "d": "",
-    "m": null,
-    "b": ""
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
   },
 
   {
     "name": "Yagwoia",
     "i": 201229,
-    "min": null,
-    "max": null,
+    "min": 0,
+    "max": 0,
     "d": "",
-    "m": null,
-    "b": ""
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
   },
 
   {
     "name": "Yali",
     "i": 201230,
-    "min": null,
-    "max": null,
+    "min": 0,
+    "max": 0,
     "d": "",
-    "m": null,
-    "b": ""
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
   },
 
   {
@@ -6092,27 +6121,30 @@ window.oceaniaNameBases = [
     "max": 15,
     "d": "",
     "m": 0,
-    "b": "Nambioman Bapai,Minyamur,Edera,Venaha,Syahcame,Bamgi,Yakomi,Obaa,Passue,Haju,Assue,Citakmitak,Kaibar,Passue Bawah,Ti Zain,Mur,Kabe,Bade,Sahapik,Asset,Yeloba,Yame,Kepi,Kotiak,Yagatsu,Eci,Senggo,Amazu,Wonggi,Kumaban"
+    "b": "Nambioman Bapai,Minyamur,Edera,Venaha,Syahcame,Bamgi,Yakomi,Obaa,Passue,Haju,Assue,Citakmitak,Kaibar,Passue Bawah,Ti Zain,Mur,Kabe,Bade,Sahapik,Asset,Yeloba,Yame,Kepi,Kotiak,Yagatsu,Eci,Senggo,Amazu,Wonggi,Kumaban",
+    "status": "COMPLETE"
   },
 
   {
     "name": "Yareba",
     "i": 201232,
-    "min": null,
-    "max": null,
+    "min": 0,
+    "max": 0,
     "d": "",
-    "m": null,
-    "b": ""
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
   },
 
   {
     "name": "Yaweyuha",
     "i": 201233,
-    "min": null,
-    "max": null,
+    "min": 0,
+    "max": 0,
     "d": "",
-    "m": null,
-    "b": ""
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
   },
 
   {
@@ -6122,7 +6154,8 @@ window.oceaniaNameBases = [
     "max": 14,
     "d": "",
     "m": 0,
-    "b": "Yekora,Bulolo,Wau,Lae,Markham Valley,Watut,Upper Watut,Lower Watut,Wampit,Isu,Kwasang,Yate,Ese,Hote,Iamalele,Buhutu,Kakabai,Diodio,Bwaidoka,Aseki"
+    "b": "Yekora,Bulolo,Wau,Lae,Markham Valley,Watut,Upper Watut,Lower Watut,Wampit,Isu,Kwasang,Yate,Ese,Hote,Iamalele,Buhutu,Kakabai,Diodio,Bwaidoka,Aseki",
+    "status": "COMPLETE"
   },
 
   {
@@ -6132,17 +6165,19 @@ window.oceaniaNameBases = [
     "max": 14,
     "d": "",
     "m": 0,
-    "b": "Yipma,Wauko,Mala,Bulolo,Wau,Lae,Markham Valley,Watut,Upper Watut,Lower Watut,Wampit,Isu,Kwasang,Yate,Ese,Hote,Ande,Marawaka"
+    "b": "Yipma,Wauko,Mala,Bulolo,Wau,Lae,Markham Valley,Watut,Upper Watut,Lower Watut,Wampit,Isu,Kwasang,Yate,Ese,Hote,Ande,Marawaka",
+    "status": "COMPLETE"
   },
 
   {
     "name": "Yogo (Tamagario)",
     "i": 201236,
-    "min": null,
-    "max": null,
+    "min": 0,
+    "max": 0,
     "d": "",
-    "m": null,
-    "b": ""
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
   },
 
   {
@@ -6152,7 +6187,8 @@ window.oceaniaNameBases = [
     "max": 10,
     "d": "lnrt",
     "m": 0,
-    "b": "Yonggom,Tekin,Oksapmin,Telefol,Tifal,Faiwol,Mian,Bimin,Ngalum,Ninggerum,Muyu,Nakai,Suganga,Tangko,Urapmin,Setaman,Tabubil,Kiunga,Olsobip,Nuku,Telefomin,Yonggoma,Yonggomi,Yonggomo,Yonggomu,Yonggomna,Yonggomwa,Yonggomra,Yonggomka,Yonggomma,Yonggomta,Yonggomnga,Yonggomba"
+    "b": "Yonggom,Tekin,Oksapmin,Telefol,Tifal,Faiwol,Mian,Bimin,Ngalum,Ninggerum,Muyu,Nakai,Suganga,Tangko,Urapmin,Setaman,Tabubil,Kiunga,Olsobip,Nuku,Telefomin,Yonggoma,Yonggomi,Yonggomo,Yonggomu,Yonggomna,Yonggomwa,Yonggomra,Yonggomka,Yonggomma,Yonggomta,Yonggomnga,Yonggomba",
+    "status": "COMPLETE"
   },
 
   {
@@ -6162,7 +6198,8 @@ window.oceaniaNameBases = [
     "max": 14,
     "d": "",
     "m": 0,
-    "b": "Zia,Bulolo,Wau,Lae,Markham Valley,Watut,Upper Watut,Lower Watut,Wampit,Isu,Kwasang,Yate,Ese,Hote,Iamalele,Buhutu,Kakabai,Diodio,Bwaidoka"
+    "b": "Zia,Bulolo,Wau,Lae,Markham Valley,Watut,Upper Watut,Lower Watut,Wampit,Isu,Kwasang,Yate,Ese,Hote,Iamalele,Buhutu,Kakabai,Diodio,Bwaidoka",
+    "status": "COMPLETE"
   },
 
   {
@@ -6172,17 +6209,19 @@ window.oceaniaNameBases = [
     "max": 16,
     "d": "",
     "m": 0,
-    "b": "Zimakani,Lake Murray,Bagwa,Begua,Dea,Mbegu,Kuni-Boazi,Boazi,Daru,Kiwai Island,Daru Island,Balimo,Kutubu,Morehead,Bula,Wemnevere,Mibini,Garaita,Pongariki,Dimisisi,Sibidiri,Limol,Keru,Pukaduka,Kiriwo,Aewe,Wando,Kandarisa,Rouku,Morehead Station,Bimadeben,Eniyawa,Kautru,Kondobol,Malam,Kiunga"
+    "b": "Zimakani,Lake Murray,Bagwa,Begua,Dea,Mbegu,Kuni-Boazi,Boazi,Daru,Kiwai Island,Daru Island,Balimo,Kutubu,Morehead,Bula,Wemnevere,Mibini,Garaita,Pongariki,Dimisisi,Sibidiri,Limol,Keru,Pukaduka,Kiriwo,Aewe,Wando,Kandarisa,Rouku,Morehead Station,Bimadeben,Eniyawa,Kautru,Kondobol,Malam,Kiunga",
+    "status": "COMPLETE"
   },
 
   {
     "name": "ꞌAreꞌare",
     "i": 201240,
-    "min": null,
-    "max": null,
+    "min": 0,
+    "max": 0,
     "d": "",
-    "m": null,
-    "b": ""
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
   },
 
   {
@@ -6192,7 +6231,8 @@ window.oceaniaNameBases = [
     "max": 9,
     "d": "nic-GH",
     "m": 0,
-    "b": "Aimele,Nomad,Mougulu,Yehebi,Honinabi,Oksapmin,Telefomin,Kiunga,Tabubil,Ningerum,Olsobip,Gobe,Kantobo,Poopo,Daru,Balimo,Morehead,Kawito,Wasua,Konme,Kamula,Waliagal,Wawoi,Bituri,Makapa,Gamae,Maimai,Kunini,Bulla,Wipim,Same,Draeni,Kotale,Ipisia,Kerema,Malalaua,Maribu,Sabakor,Madewa,Paliak,Sibiribu,Geham,Burei"
+    "b": "Aimele,Nomad,Mougulu,Yehebi,Honinabi,Oksapmin,Telefomin,Kiunga,Tabubil,Ningerum,Olsobip,Gobe,Kantobo,Poopo,Daru,Balimo,Morehead,Kawito,Wasua,Konme,Kamula,Waliagal,Wawoi,Bituri,Makapa,Gamae,Maimai,Kunini,Bulla,Wipim,Same,Draeni,Kotale,Ipisia,Kerema,Malalaua,Maribu,Sabakor,Madewa,Paliak,Sibiribu,Geham,Burei",
+    "status": "COMPLETE"
   },
 
   {
@@ -6202,7 +6242,8 @@ window.oceaniaNameBases = [
     "max": 10,
     "d": "",
     "m": 0,
-    "b": "Masandanai,Kaiwaria,Manjamai,Konmei,Ambonwari,Imanmeri,Kanjimei,Kundiman,Yimas,Awim,Yamandim,Imboin,Amongabi,Chimbut,Sikalum,Yanitabak,Latoma,Malamata,Kotkot,Mamri,Sangriman,Tungimbit,Kambraman,Kraimbit,Kaningara,Govanmas,Anganambai,Tarakai,Meska,Bisorio"
+    "b": "Masandanai,Kaiwaria,Manjamai,Konmei,Ambonwari,Imanmeri,Kanjimei,Kundiman,Yimas,Awim,Yamandim,Imboin,Amongabi,Chimbut,Sikalum,Yanitabak,Latoma,Malamata,Kotkot,Mamri,Sangriman,Tungimbit,Kambraman,Kraimbit,Kaningara,Govanmas,Anganambai,Tarakai,Meska,Bisorio",
+    "status": "COMPLETE"
   },
 
   {
@@ -6212,7 +6253,8 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Bariji,Murua,MountHagen,Lae,Popondetta,Madang,Wewak,Kerema,Daru,Vanimo,Kavieng,Rabaul,Kokopo,Kimbe,Buka,Lorengau,Karimui,Wau,Bulolo,Finschhafen,Menya,Biangai,Tapini,Woitape,Kagi,Efogi,Manari,Karekodi,Kabade,Kaisere,Kolopa,Bkiji,Btiji,Bpiji,Bmiji"
+    "b": "Bariji,Murua,MountHagen,Lae,Popondetta,Madang,Wewak,Kerema,Daru,Vanimo,Kavieng,Rabaul,Kokopo,Kimbe,Buka,Lorengau,Karimui,Wau,Bulolo,Finschhafen,Menya,Biangai,Tapini,Woitape,Kagi,Efogi,Manari,Karekodi,Kabade,Kaisere,Kolopa,Bkiji,Btiji,Bpiji,Bmiji",
+    "status": "COMPLETE"
   },
 
   {
@@ -6222,7 +6264,8 @@ window.oceaniaNameBases = [
     "max": 10,
     "d": "nic-GH",
     "m": 0,
-    "b": "Daga,Rabaraba,Baniara,Murua,Gawa,Woodlark,Kiriwina,Misima,Sudest,Rossel,Panaete,Bwanabwana,Kurada,Sideia,Sagarai,Maiwara,Bohilai,Garuwabu,Weiok,Barabara,Dagoda,Umwa,Bomakwai,Kwadima,Wabu,Pola,Makapun,Sewa,Mapamoiwa,Bonagai,Wakonai,Gewa,Garu,Gilipwa,Gerega,Magabara,Tabaru,Wadau,Sibona,Baiaule"
+    "b": "Daga,Rabaraba,Baniara,Murua,Gawa,Woodlark,Kiriwina,Misima,Sudest,Rossel,Panaete,Bwanabwana,Kurada,Sideia,Sagarai,Maiwara,Bohilai,Garuwabu,Weiok,Barabara,Dagoda,Umwa,Bomakwai,Kwadima,Wabu,Pola,Makapun,Sewa,Mapamoiwa,Bonagai,Wakonai,Gewa,Garu,Gilipwa,Gerega,Magabara,Tabaru,Wadau,Sibona,Baiaule",
+    "status": "COMPLETE"
   },
 
   {
@@ -6232,7 +6275,8 @@ window.oceaniaNameBases = [
     "max": 8,
     "d": "nic-GH",
     "m": 0,
-    "b": "Gobasi,Nomad,Mougulu,Yehebi,Honinabi,Kawito,Wasua,Konme,Kamula,Waliagal,Wawoi,Bituri,Makapa,Gamae,Maimai,Kunini,Bulla,Wipim,Same,Draeni,Kotale,Ipisia,Kerema,Kaintiba,Malalaua,Kautu,Maribu,Sabakor,Madewa,Paliak,Sibiribu,Geham,Burei,Puradau,Wabora,Gkasi,Gtasi,Gpasi,Gmasi,Gnasi"
+    "b": "Gobasi,Nomad,Mougulu,Yehebi,Honinabi,Kawito,Wasua,Konme,Kamula,Waliagal,Wawoi,Bituri,Makapa,Gamae,Maimai,Kunini,Bulla,Wipim,Same,Draeni,Kotale,Ipisia,Kerema,Kaintiba,Malalaua,Kautu,Maribu,Sabakor,Madewa,Paliak,Sibiribu,Geham,Burei,Puradau,Wabora,Gkasi,Gtasi,Gpasi,Gmasi,Gnasi",
+    "status": "COMPLETE"
   },
 
   {
@@ -6242,7 +6286,8 @@ window.oceaniaNameBases = [
     "max": 15,
     "d": "nic-GH",
     "m": 0,
-    "b": "Golin,Simbu,MariMari,Gembogl,Nomane,Sinasina,SaltYui,Karimui,Daribi,Kuare,MountWilhelm,MountElimbari,Yuri,Kuruk,Kombugl,Komkane,Bongu,Gaura,Kere,Awande,Gogo,Bogai,Daulo,Kwima,Kwembi,Turuk,Komkui,Gogme,Kwaribi,Yobai,Kombui,Dirima,Kemai,YuriRiver,Bundi,GemboglStation,KundiawaStation,KarimuiStation"
+    "b": "Golin,Simbu,MariMari,Gembogl,Nomane,Sinasina,SaltYui,Karimui,Daribi,Kuare,MountWilhelm,MountElimbari,Yuri,Kuruk,Kombugl,Komkane,Bongu,Gaura,Kere,Awande,Gogo,Bogai,Daulo,Kwima,Kwembi,Turuk,Komkui,Gogme,Kwaribi,Yobai,Kombui,Dirima,Kemai,YuriRiver,Bundi,GemboglStation,KundiawaStation,KarimuiStation",
+    "status": "COMPLETE"
   },
 
   {
@@ -6252,7 +6297,8 @@ window.oceaniaNameBases = [
     "max": 16,
     "d": "nic-GH",
     "m": 0,
-    "b": "Fuyug,Mafulu,Orongomo,Managalasi,Iome,PortMoresby,Sogeri,Kagi,Efogi,Manari,Tapini,Woitape,Ononge,Fane,Kambisa,Kimuta,Koena,Koke,Olumba,Tamata,Uruna,Venango,Wanke,Yulai,Bereina,Kairuku,Kwikila,Rigo,Gaire,Hisiu,Babagarupu,Barakau,Gaile,Gorohu,Boera,Tatana,Vabukori,Nara,Koni,Kabade,Sariba,Veimauri,Rouna,GoldieRiver,Goilala District,Evese"
+    "b": "Fuyug,Mafulu,Orongomo,Managalasi,Iome,PortMoresby,Sogeri,Kagi,Efogi,Manari,Tapini,Woitape,Ononge,Fane,Kambisa,Kimuta,Koena,Koke,Olumba,Tamata,Uruna,Venango,Wanke,Yulai,Bereina,Kairuku,Kwikila,Rigo,Gaire,Hisiu,Babagarupu,Barakau,Gaile,Gorohu,Boera,Tatana,Vabukori,Nara,Koni,Kabade,Sariba,Veimauri,Rouna,GoldieRiver,Goilala District,Evese",
+    "status": "COMPLETE"
   },
 
   {
@@ -6262,7 +6308,8 @@ window.oceaniaNameBases = [
     "max": 10,
     "d": "nic-GH",
     "m": 0,
-    "b": "Kopkaka,TanahMerah,Kouh,Bomakia,Mandobo,Yaniruma,Wanggom,Kombai,Korowai,Citak,Mitak,Auyu,Mappi,Digul,Eilanden,Brazza,Firiwage,Kawagit,Wanggemalo,Tayan,Abenaho,Apalapsili,Elelim,Konawe,Narew,Kenyam,Korupun,Anggruk,Nipsan,Ubrub,Batom,Oksibil,Okbibab,Borme,Yalengga,Wamena,Jayawijaya,Tiom,Kurulu,Nduga,Mapnduma,Ilaga,Beoga,Sinak,Kkaka,Ktaka,Kpaka,Kmaka"
+    "b": "Kopkaka,TanahMerah,Kouh,Bomakia,Mandobo,Yaniruma,Wanggom,Kombai,Korowai,Citak,Mitak,Auyu,Mappi,Digul,Eilanden,Brazza,Firiwage,Kawagit,Wanggemalo,Tayan,Abenaho,Apalapsili,Elelim,Konawe,Narew,Kenyam,Korupun,Anggruk,Nipsan,Ubrub,Batom,Oksibil,Okbibab,Borme,Yalengga,Wamena,Jayawijaya,Tiom,Kurulu,Nduga,Mapnduma,Ilaga,Beoga,Sinak,Kkaka,Ktaka,Kpaka,Kmaka",
+    "status": "COMPLETE"
   },
 
   {
@@ -6272,7 +6319,8 @@ window.oceaniaNameBases = [
     "max": 17,
     "d": "nic-GH",
     "m": 0,
-    "b": "Korafe,Tufi,Popondetta,Kokoda,Ioma,Kira,Safia,Sangara,Sairope,Gona,Buna,Embi,Podare,Balla,Omie,Kakoda,Isurava,Deniki,TempletonCrossing,Myola,Efogi,Menari,Oivi,Wanigela,Siurani,Begera,Kwandu,Dewara,Gorabuna,Simbuna,Kumusi,KumusiRiver,MambareRiver,GiraRiver,EiaRiver,Sose,KakodaStation"
+    "b": "Korafe,Tufi,Popondetta,Kokoda,Ioma,Kira,Safia,Sangara,Sairope,Gona,Buna,Embi,Podare,Balla,Omie,Kakoda,Isurava,Deniki,TempletonCrossing,Myola,Efogi,Menari,Oivi,Wanigela,Siurani,Begera,Kwandu,Dewara,Gorabuna,Simbuna,Kumusi,KumusiRiver,MambareRiver,GiraRiver,EiaRiver,Sose,KakodaStation",
+    "status": "COMPLETE"
   },
 
   {
@@ -6282,17 +6330,19 @@ window.oceaniaNameBases = [
     "max": 10,
     "d": "nic-GH",
     "m": 0,
-    "b": "Korowai,Yaniruma,Mabul,Khafalu,Myanu,Dayo,Baigon,Manggel,Wanggom,Kombai,Citak,Mitak,Abenaho,Apalapsili,Elelim,Konawe,Narew,Kenyam,Korupun,Anggruk,Nipsan,Senggi,Ubrub,Batom,Oksibil,Okbibab,Borme,Baliem,Wamena,Tiom,Kurulu,Nduga,Mapnduma,Ilaga,Beoga,Sinak,Puncak,Mulia,Ilu,Karu,Eragayam,Mamit,Langda,Dekai,Kkwai,Ktwai,Kpwai"
+    "b": "Korowai,Yaniruma,Mabul,Khafalu,Myanu,Dayo,Baigon,Manggel,Wanggom,Kombai,Citak,Mitak,Abenaho,Apalapsili,Elelim,Konawe,Narew,Kenyam,Korupun,Anggruk,Nipsan,Senggi,Ubrub,Batom,Oksibil,Okbibab,Borme,Baliem,Wamena,Tiom,Kurulu,Nduga,Mapnduma,Ilaga,Beoga,Sinak,Puncak,Mulia,Ilu,Karu,Eragayam,Mamit,Langda,Dekai,Kkwai,Ktwai,Kpwai",
+    "status": "COMPLETE"
   },
 
   {
     "name": "Kosraean",
     "i": 2271,
-    "min": null,
-    "max": null,
+    "min": 0,
+    "max": 0,
     "d": "",
-    "m": null,
-    "b": ""
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
   },
 
   {
@@ -6302,7 +6352,8 @@ window.oceaniaNameBases = [
     "max": 13,
     "d": "nic-GH",
     "m": 0,
-    "b": "Kosena,OburaWonenara,UnggaiBena,Daulo,Purosa,Tarabo,Kassam,Kumusi,Barola,Aiura,RamuRiver,Kamanaku,Kefemo,Kumura,Masumabe,Amuyabe,Mange,Bani,Numurira,Sarai,Yababi,Agunumura,Ogamuna,Nagumia,Kagu,Biri,Kora,Suwaira,Bara,Kesawai,Kusi,Morogus,Piraka,Sigonai,Baku,Kamaira,Aimena,Yagusa"
+    "b": "Kosena,OburaWonenara,UnggaiBena,Daulo,Purosa,Tarabo,Kassam,Kumusi,Barola,Aiura,RamuRiver,Kamanaku,Kefemo,Kumura,Masumabe,Amuyabe,Mange,Bani,Numurira,Sarai,Yababi,Agunumura,Ogamuna,Nagumia,Kagu,Biri,Kora,Suwaira,Bara,Kesawai,Kusi,Morogus,Piraka,Sigonai,Baku,Kamaira,Aimena,Yagusa",
+    "status": "COMPLETE"
   },
 
   {
@@ -6312,7 +6363,8 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Kovojab,Madang,Karkar,Bagabag,Alexishafen,Bel,Gum,Isumrud,Mugil,Rempi,Sek,Yabob,Bilia,Saulik,Kou,Balama,Malahang,Tami,Nobanob,Nagada,Saruga,Malala,Bogia,Bunabun,Sakam,Awar,Watam,Boroi,Manam,Uluman,GogolRiver,Narimami,Bunap,Sisisie,Omuru,Jilim,Silop,Moro,Bokure,Baitaluk,Nubia,Malang,Managal"
+    "b": "Kovojab,Madang,Karkar,Bagabag,Alexishafen,Bel,Gum,Isumrud,Mugil,Rempi,Sek,Yabob,Bilia,Saulik,Kou,Balama,Malahang,Tami,Nobanob,Nagada,Saruga,Malala,Bogia,Bunabun,Sakam,Awar,Watam,Boroi,Manam,Uluman,GogolRiver,Narimami,Bunap,Sisisie,Omuru,Jilim,Silop,Moro,Bokure,Baitaluk,Nubia,Malang,Managal",
+    "status": "COMPLETE"
   },
 
   {
@@ -6322,7 +6374,8 @@ window.oceaniaNameBases = [
     "max": 17,
     "d": "",
     "m": 0,
-    "b": "Moru,Apui,Maritaing,Bukapiting,Peitoko,Wolibang,Alim Mebung,Alemba,Kokar,Tribur,Kalunan,Kabola,Adang,Binongko,Nusa Kenari,Welai Barat,Welai Timur,Mutiara,Wetabua,Kalabahi,Mataru,Abad Selatan,Alor Barat Daya,Alor Selatan,Alor Timur,Alor Timur Laut,Pureman,Teluk Mutiara,Alor Barat Laut,Alor Tengah Utara,Lembur"
+    "b": "Moru,Apui,Maritaing,Bukapiting,Peitoko,Wolibang,Alim Mebung,Alemba,Kokar,Tribur,Kalunan,Kabola,Adang,Binongko,Nusa Kenari,Welai Barat,Welai Timur,Mutiara,Wetabua,Kalabahi,Mataru,Abad Selatan,Alor Barat Daya,Alor Selatan,Alor Timur,Alor Timur Laut,Pureman,Teluk Mutiara,Alor Barat Laut,Alor Tengah Utara,Lembur",
+    "status": "COMPLETE"
   },
 
   {
@@ -6332,17 +6385,19 @@ window.oceaniaNameBases = [
     "max": 16,
     "d": "",
     "m": 0,
-    "b": "Bana,Bandar,Baolang,Bouweli,Bukit Mas,Helandohi,Madar,Munaseli,Pandai,Wailawar,Kabir,Baraler,Baranusa,Blang Merang,Ilu,Kalondama,Leer,Piringsina,Allumang,Beangonong,Kalondama Barat,Kalondama Tengah,Kayang Lamma,Marisa,Aramaba,Bagang,Delaki,Eka Jaya,Mauta,Muriabang,Tamak,Toang,Tubbe,Tude,Batu Bunga,Bali Kaera,Kaleb,Lalafang,Lekom,Mawar,Merdeka,Nule,Ombay,Treweng"
+    "b": "Bana,Bandar,Baolang,Bouweli,Bukit Mas,Helandohi,Madar,Munaseli,Pandai,Wailawar,Kabir,Baraler,Baranusa,Blang Merang,Ilu,Kalondama,Leer,Piringsina,Allumang,Beangonong,Kalondama Barat,Kalondama Tengah,Kayang Lamma,Marisa,Aramaba,Bagang,Delaki,Eka Jaya,Mauta,Muriabang,Tamak,Toang,Tubbe,Tude,Batu Bunga,Bali Kaera,Kaleb,Lalafang,Lekom,Mawar,Merdeka,Nule,Ombay,Treweng",
+    "status": "COMPLETE"
   },
 
   {
     "name": "Nemi",
     "i": 201114,
-    "min": null,
-    "max": null,
+    "min": 0,
+    "max": 0,
     "d": "",
-    "m": null,
-    "b": ""
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
   },
 
   {
@@ -6352,7 +6407,8 @@ window.oceaniaNameBases = [
     "max": 14,
     "d": "",
     "m": 0,
-    "b": "Ngatik,Peina,Bigen Karakar,Jirup,Bigen Kelang,Pikepe,Dekehnman,Wat,Pikenmetkow,Uataluk,Kitti,Ant Atoll,Kolonia,Madolenihmw,Nett,Sokehs,Pakin Atoll,Palikir,Uh,Kapingamarangi,Nukuoro,Pingelap,Mokil,Oroluk,Sapwuahfik"
+    "b": "Ngatik,Peina,Bigen Karakar,Jirup,Bigen Kelang,Pikepe,Dekehnman,Wat,Pikenmetkow,Uataluk,Kitti,Ant Atoll,Kolonia,Madolenihmw,Nett,Sokehs,Pakin Atoll,Palikir,Uh,Kapingamarangi,Nukuoro,Pingelap,Mokil,Oroluk,Sapwuahfik",
+    "status": "COMPLETE"
   },
 
   {
@@ -6362,7 +6418,8 @@ window.oceaniaNameBases = [
     "max": 10,
     "d": "",
     "m": 0,
-    "b": "Sepa,Rutah,Soahuku,Amahai,Haruru,Makariki,Tamilouw,Yafila,Hollo,Hatuhenu,Nuweletetu,Sehati,Yainuelo,Laimu,Laha,Hunisi,Tehua,Ulahahan,Yamalatu,Wolu,Maneoratu,Lafa,Tehoru,Yaputih,Saunulu,Hatu,Hatumete,Salamahu,Mosso,Piliana,Haya,Wahai,Sawai,Huaulu,Manusela,Parigi,Solea,Kanikeh,Masihulan,Pasahari,Roho,Saleman,Paa,Pasanea,Wailulu,Warasiwa,Rumahwey,Labuan,Latea,Horale"
+    "b": "Sepa,Rutah,Soahuku,Amahai,Haruru,Makariki,Tamilouw,Yafila,Hollo,Hatuhenu,Nuweletetu,Sehati,Yainuelo,Laimu,Laha,Hunisi,Tehua,Ulahahan,Yamalatu,Wolu,Maneoratu,Lafa,Tehoru,Yaputih,Saunulu,Hatu,Hatumete,Salamahu,Mosso,Piliana,Haya,Wahai,Sawai,Huaulu,Manusela,Parigi,Solea,Kanikeh,Masihulan,Pasahari,Roho,Saleman,Paa,Pasanea,Wailulu,Warasiwa,Rumahwey,Labuan,Latea,Horale",
+    "status": "COMPLETE"
   },
 
   {
@@ -6372,16 +6429,18 @@ window.oceaniaNameBases = [
     "max": 19,
     "d": "",
     "m": 0,
-    "b": "Upovia,Buseki,Boimbulavu,Nago,Maka,Magipopo,Usukof No. 1,Usokof No. 2,Kapikam,Dimu,Pangoa,Tagum,Miwa No. 1,Miwa No. 2,Kusikina,Kuem,Mipan,Manda,Bosset No. 1,Bosset No. 2,Wangawanga No. 1,Wangawanga No. 2,Komovai,Kaviananga No. 1,Kaviananga No. 2,Boikmava,Levame,Lake Murray Station"
+    "b": "Upovia,Buseki,Boimbulavu,Nago,Maka,Magipopo,Usukof No. 1,Usokof No. 2,Kapikam,Dimu,Pangoa,Tagum,Miwa No. 1,Miwa No. 2,Kusikina,Kuem,Mipan,Manda,Bosset No. 1,Bosset No. 2,Wangawanga No. 1,Wangawanga No. 2,Komovai,Kaviananga No. 1,Kaviananga No. 2,Boikmava,Levame,Lake Murray Station",
+    "status": "COMPLETE"
   }
 ,
-  {
+{
     "name": "Tayo Creole",
     "i": 200903,
     "min": 3,
     "max": 17,
     "d": "crp",
     "m": 0.1,
-    "b": "Saint-Louis,Mont-Dore,La Conception,Yahoué,Païta,Bouloupari,Dumbéa,Nouméa,Touho,Île Ouen,Saint-Paul,Saint-Thomas,Saint-Jean,Saint-Tarcisius,Wahouné,Nékita,Ave Maria,Pont des Français,Thy,Yaté,La Foa,Poindimié,Okonié"
+    "b": "Saint-Louis,Mont-Dore,La Conception,Yahoué,Païta,Bouloupari,Dumbéa,Nouméa,Touho,Île Ouen,Saint-Paul,Saint-Thomas,Saint-Jean,Saint-Tarcisius,Wahouné,Nékita,Ave Maria,Pont des Français,Thy,Yaté,La Foa,Poindimié,Okonié",
+    "status": "COMPLETE"
   }
 ];
