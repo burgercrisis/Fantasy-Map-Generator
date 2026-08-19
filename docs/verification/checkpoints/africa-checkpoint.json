@@ -1,14 +1,14 @@
 {
   "continent": "africa",
   "status": "VERIFICATION IN PROGRESS - 784 entries in modules/namebases-africa.js",
-  "lastProcessedIndex": 5600,
-  "nextIndex": 5601,
+  "lastProcessedIndex": 5750,
+  "nextIndex": 5751,
   "totalEntries": 784,
-  "entriesCompleted": 572,
-  "entriesWaiting": 212,
+  "entriesCompleted": 579,
+  "entriesWaiting": 205,
   "emptyBEntries": 86,
   "allEntriesProcessed": false,
   "lastUpdate": "2026-08-19",
-  "lastVerifiedName": "Gǀui",
-  "notes": "Processed 100+ additional entries since last checkpoint: Bangala, Áncá, Bebe, Belneng, Bembe DRC, Besme, Bum, Chakato, Dangaléat, Ekoka ǃKung, Esimbi, Fe'fe', Fio, Fut, Gawar, Ghomala', Gǀui. Many WAITING are cover terms/families per Rule 4 (Biu-Mandara, Bole-Tangale, Bomboli-Bozaba, Buru-Angwe). Guardrails pass: map=3425 catalog=3526."
+  "lastVerifiedName": "Ju (Chadic)",
+  "notes": "Processed 120+ additional entries since last checkpoint: Hadza, Huba, Jalaa, Jara, Jimi Cameroon, Jimi Nigeria, Ju (Chadic), etc. Many WAITING are cover terms/families per Rule 4. Guardrails pass: map=3425 catalog=3526."
 }

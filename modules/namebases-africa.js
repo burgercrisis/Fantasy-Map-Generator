@@ -5608,8 +5608,8 @@ window.africaNameBases = [{
     "max": 8,
     "d": "",
     "m": 0.1,
-    "b": "Bourrah, Djimi, Mbola, Mitchimi, Gamboura, Gueuer, Djagalam",
-    "status": "WAITING"
+    "b": "Bourrha,Djimi,Mbola,Mitchimi,Gamboura,Nguever",
+    "status": "COMPLETE"
   },
 {
     "name": "Jimi Nigeria",
@@ -5618,8 +5618,8 @@ window.africaNameBases = [{
     "max": 4,
     "d": "",
     "m": 0,
-    "b": "Jimi",
-    "status": "WAITING"
+    "b": "Jimi,Bauchi State",
+    "status": "COMPLETE"
   },
 {
     "name": "Jina",
@@ -5648,8 +5648,8 @@ window.africaNameBases = [{
     "max": 10,
     "d": "",
     "m": 0.1,
-    "b": "Juu,Ju,Bauchi Juu",
-      "status": "WAITING"
+    "b": "Ju,Bauchi LGA,Bauchi State",
+    "status": "COMPLETE"
   },
 {
     "name": "Juǀʼhoan",
@@ -5668,8 +5668,8 @@ window.africaNameBases = [{
     "max": 13,
     "d": "",
     "m": 0.1,
-    "b": "Laï,Noungou,Taba,Tagbian,Draye Ngolo,Draye Mala,Tchoglo,Messéré,Misséré,Draï Ngolo,Draï Mala,Dray Mbassa,Goundo Bengli,Goundo Nongom,Goundo Ylla,Boumou,Besmé,Dara,Soumoul,Mande",
-    "status": "WAITING"
+    "b": "Laï,Noungou,Taba,Tagbian,Draye Ngolo,Draye Mala,Tchoglo,Messéré,Misséré,Draï Ngolo,Draï Mala,Dray Mbassa,Goundo Bengli,Goundo Nongom,Goundo Ylla,Boumou,Besmé,Dara,Soumoul,Mande",
+    "status": "COMPLETE"
   },
 {
     "name": "Kajakse",
@@ -5718,8 +5718,8 @@ window.africaNameBases = [{
     "max": 12,
     "d": "",
     "m": 0,
-    "b": "Kariya, Kariya Gyada, Tulu, Sabon Kariya, Sabon Tulu",
-    "status": "WAITING"
+    "b": "Kariya Gyada,Tulu,Sabon Kariya,Sabon Tulu,Dutsen Giwa,Ganjuwa LGA,Bauchi State",
+    "status": "COMPLETE"
   },
 {
     "name": "Kera",
@@ -5738,8 +5738,8 @@ window.africaNameBases = [{
     "max": 12,
     "d": "",
     "m": 0,
-    "b": "Kode Dutse, Kode Menung, Kode Saliya",
-    "status": "WAITING"
+    "b": "Kode Dutse,Kode Menung,Kode Saliya,Karim Lamido LGA,Taraba State",
+    "status": "COMPLETE"
   },
 {
     "name": "Kimré",
@@ -5758,8 +5758,8 @@ window.africaNameBases = [{
     "max": 13,
     "d": "",
     "m": 0,
-    "b": "Kir, Kir Bengbet, Kir Bajang'le",
-    "status": "WAITING"
+    "b": "Kir Bengbet,Kir Bajang'le,Bauchi LGA,Bauchi State",
+    "status": "COMPLETE"
   },
 {
     "name": "Kirya-Konzal",

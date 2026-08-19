@@ -1329,7 +1329,7 @@ window.oceaniaNameBases = [
     "max": 9,
     "d": "",
     "m": 0,
-    "b": "",
+    "b": "Enarotali,Moanemani",
     "status": "WAITING"
   },
 
@@ -1395,7 +1395,7 @@ window.oceaniaNameBases = [
     "max": 8,
     "d": "",
     "m": 0,
-    "b": "",
+    "b": "Lospalos,Fuiloro,Tutuala,Lautém",
     "status": "WAITING"
   },
 

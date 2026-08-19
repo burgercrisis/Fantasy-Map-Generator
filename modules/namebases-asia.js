@@ -3326,7 +3326,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Nilgiris,Ooty,Coimbatore,Salem,Vellore,Tirupattur,Erode,Krishnagiri,Dharmapuri,Mysore,Wayanad,Palakkad,Malappuram,Kozhikode,Nilambur,Gudalur,Kotagiri,Coonoor,Mettupalayam,Tiruppur,Dindigul,Karur,Namakkal,Attur,Harur,Gundlupet,Bandipur,Mudumalai,Sathyamangalam,Kollegal,Chamarajanagar,Thrissur,Idukki"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Jeseri",
@@ -3335,7 +3336,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Kavaratti,Agatti,Amini,Kadmat,Kalpeni,Andrott,Bitra,Kiltan,Chetlat,Minicoy,Lakshadweep"
+    "b": "Kavaratti,Agatti,Amini,Kadmat,Kalpeni,Andrott,Bitra,Kiltan,Chetlat,Minicoy",
+    "status": "WAITING"
   },
   {
     "name": "Kadar Dravidian",
@@ -3344,7 +3346,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Palakkad,Thrissur,Malappuram,Idukki,Ernakulam,Kozhikode,Wayanad,Kannur,Kasaragod,Alathur,Chittur,Ottapalam,Mannarkkad,Perinthalmanna,Ponnani,Tirur,Vadakara,Parambikulam,Attappady,Coimbatore,Anaimalai,Kodaikanal,Dindigul,Pollachi,Udumalaipettai,Valparai,Munnar,Theni,Palani,Erode,Tirupur"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Kaikadi",
@@ -3353,7 +3356,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Nashik,Sangli,Dhule,Jalgaon,Pune,Ahmednagar,Solapur,Kolhapur"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Kakkala",
@@ -3362,7 +3366,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Malabar,Kasaragod,Kozhikode,Kannur,Wayanad,Palakkad,Thrissur"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Kalanadi",
@@ -3371,7 +3376,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Ernakulam,Palakkad,Thrissur,Malappuram,Kozhikode,Wayanad,Idukki"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Kanikkaran",
@@ -3380,7 +3386,8 @@ window.asiaNameBases = [
     "max": 18,
     "d": "",
     "m": 0,
-    "b": "Kanyakumari,Tirunelveli,Nagercoil,Thiruvananthapuram,Kollam,Pathanamthitta"
+    "b": "Kanyakumari,Tirunelveli,Nagercoil,Thiruvananthapuram,Kollam,Pathanamthitta",
+    "status": "WAITING"
   },
   {
     "name": "Khirwar",
@@ -3389,7 +3396,8 @@ window.asiaNameBases = [
     "max": 12,
     "d": "",
     "m": 0,
-    "b": "Raigarh,Surguja,Korba,Ranchi,Rourkela,Bilaspur"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Kodava",
@@ -3399,7 +3407,7 @@ window.asiaNameBases = [
     "d": "",
     "m": 0,
     "b": "Madikeri,Virajpet,Kushalnagar,Gonikoppal,Somvarpet,Ponnampet,Bhagamandala,Talakaveri,Siddapur,Napoklu,Ammathi,Hunsur,Shanivarsanthe,Suntikoppa,Pollibetta,Bittangala,Kutta",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
   {
     "name": "Derung",
@@ -3408,7 +3416,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Dulongjiang,Lanping,Yongde,Gongshan,Tengchong,Fugong,Lushui,Weixi"
+    "b": "Dulongjiang,Lanping,Yongde,Gongshan,Tengchong,Fugong,Lushui,Weixi",
+    "status": "WAITING"
   },
   {
     "name": "Dhakaiya Kutti Bengali",
@@ -3417,7 +3426,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Dhaka,Tangail,Narsingdi,Narayanganj,Gazipur,Munshiganj,Manikganj,Kishoreganj"
+    "b": "Dhaka,Tangail,Narsingdi,Narayanganj,Gazipur,Munshiganj,Manikganj,Kishoreganj",
+    "status": "WAITING"
   },
   {
     "name": "Dhivehi",
@@ -3426,7 +3436,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Male,Addu City,Fuvahmulah,Hithadhoo,Feydhoo,Gan,Maafushi,Hulhule"
+    "b": "Male,Addu City,Fuvahmulah,Hithadhoo,Feydhoo,Gan,Maafushi,Hulhule",
+    "status": "COMPLETE"
   },
   {
     "name": "Dimasa",
@@ -3435,7 +3446,8 @@ window.asiaNameBases = [
     "max": 13,
     "d": "",
     "m": 0,
-    "b": "Dima Hasao,Nagaon,Karbi Anglong,Hojai,Diphu,Maibang,Haflong"
+    "b": "Dima Hasao,Nagaon,Karbi Anglong,Hojai,Diphu,Maibang,Haflong",
+    "status": "WAITING"
   },
   {
     "name": "Domaaki",
@@ -3444,7 +3456,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Gilgit,Skardu,Astore,Hunza,Shigar,Gupis,Baltistan,Nagar"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Dameli",
@@ -3453,7 +3466,8 @@ window.asiaNameBases = [
     "max": 13,
     "d": "",
     "m": 0,
-    "b": "Chitral,Drosh"
+    "b": "Chitral,Drosh",
+    "status": "WAITING"
   },
   {
     "name": "Dorbet Oirat",
@@ -3462,7 +3476,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Khovd,Bayan-Olgii,Uvs,Xinjiang,Qinghai,Gansu,Mongolia,BenCat,KoKha,CaiBe,IaGrai,MongLa,MuangKham,DanSim,WiangPaPao,Yakutsk,Mirny,Neryungri,Tiksi,Kyzyl,Gorno-Altaysk,Ulan-Ude,Elista,Almaty,Nur-Sultan,Shymkent,Karaganda,Aktobe,Taraz,Tashkent,Samarkand,TanChau,Eryuan,Pleiku,BenTre,Cangyuan,LaoCai,ChonThanh,Aliburu,Afetnagar,Afogkot,Alaruru,Adilkot,Aumuru,Anusuru,Analkot,Adoluru,Alaturu,Aodkot,Amennagar,Afenagar,Amebnagar,Alokot,DorbetOiratpur,DorbetOiratnagar,DorbetOiratbad,DorbetOiratkot,DorbetOiratwada"
+    "b": "Khovd,Bayan-Olgii,Uvs,Xinjiang,Qinghai,Gansu,Mongolia",
+    "status": "WAITING"
   },
   {
     "name": "Dolpo",
