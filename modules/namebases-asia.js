@@ -3096,7 +3096,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Rangamati,Khagrachari,Chittagong,Cox's Bazar,Akyab,Bandarban,Sittwe"
+    "b": "Rangamati,Khagrachari,Bandarban",
+    "status": "WAITING"
   },
   {
     "name": "Classical Arabic",
@@ -3105,7 +3106,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Mecca,Medina,Damascus,Baghdad,Cairo,Kufa,Basra,Jerusalem,Abarkuh,Aqqala,Anzali,Abuolhasani,Maku,Omidiyeh,Kabudarahang,Biyarjomand,Shaft,ChaghaKabol,ShahinDej,TorbatJam,Nur,Dammam,Sana'a,Aden,Taiz,Manama,Doha,Muscat,Salalah,Nizwa,Dehgolan,Ramian,Atitian,Anetabad,Amoabad,Anoian,Adekabad,Axatian,Akorian,Caatabad,Beakabad,Azodian,Buenabad,Adatabad,Atiian,Choian,Avodabad,ClassicalArabicabad,AbadClassicalArabic,ClassicalArabican,ClassicalArabician,Clasabad"
+    "b": "Mecca,Medina,Damascus,Baghdad,Cairo,Kufa,Basra,Jerusalem",
+    "status": "WAITING"
   },
   {
     "name": "Classical Syriac",
@@ -3114,7 +3116,8 @@ window.asiaNameBases = [
     "max": 18,
     "d": "",
     "m": 0,
-    "b": "Edessa,Antioch,Nisibis,Seleucia-Ctesiphon,Urhai,Amid,Mardin,Tur Abdin,Kelardasht,Hashtrud,Kangavar,Qorveh,Marvast,Siahkal,Poldasht,PolDokhtar,Avaj,Meyami,AqQala,Claabada,Shoghan,BandarTorkaman,Ardakan,Fooman,Bairabad,Atarian,Aridian,Asodabad,Amanian,Biarabad,Apomabad,Abutian,Caumian,Boosabad,Buasabad,Aarian,Amunian,Azidabad,Afolabad,ClassicalSyriacabad,AbadClassicalSyriac,ClassicalSyriacan,ClassicalSyriacian"
+    "b": "Edessa,Antioch,Nisibis,Seleucia-Ctesiphon,Urhai,Amid,Mardin,Tur Abdin",
+    "status": "WAITING"
   },
   {
     "name": "Chilisso",
@@ -3123,7 +3126,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Diamer,Chilas,Gilgit,Skardu,Astore,Hunza,Baltistan,Nagar"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Idu Mishmi",
@@ -3132,7 +3136,8 @@ window.asiaNameBases = [
     "max": 13,
     "d": "",
     "m": 0,
-    "b": "Lower Dibang,Anini,Roing,Mayodia,Hunli,Athunli,Dibang Valley,Nyingchi"
+    "b": "Lower Dibang,Anini,Roing,Mayodia,Hunli,Athunli",
+    "status": "WAITING"
   },
   {
     "name": "Haka",
@@ -3141,7 +3146,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Hakha,Tonzang,Thantlang,Rihkhawdar,Zokhua,Mizoram,Falam,Tiddim,Kalay"
+    "b": "Hakha,Tonzang,Thantlang,Rihkhawdar,Zokhua",
+    "status": "WAITING"
   },
   {
     "name": "Khumi",
@@ -3150,7 +3156,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Paletwa,Matupi,Kyauktaw,Lamoitong,Tuirong"
+    "b": "Paletwa,Matupi,Kyauktaw,Lamoitong,Tuirong",
+    "status": "WAITING"
   },
   {
     "name": "Cochin Portuguese Creole",
@@ -3159,7 +3166,8 @@ window.asiaNameBases = [
     "max": 14,
     "d": "",
     "m": 0,
-    "b": "Cochin,Kochi"
+    "b": "Cochin,Kochi",
+    "status": "WAITING"
   },
   {
     "name": "Corfiot Maltese",
@@ -3168,7 +3176,8 @@ window.asiaNameBases = [
     "max": 14,
     "d": "",
     "m": 0,
-    "b": "Corfu"
+    "b": "",
+    "status": "INVALID"
   },
   {
     "name": "Cottonera Dialect",
@@ -3177,7 +3186,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Cospicua,Senglea,Vittoriosa,Birgu,Kalkara"
+    "b": "",
+    "status": "INVALID"
   },
   {
     "name": "Asho",
@@ -3186,7 +3196,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Minbu,Ngape,Minhla,Mindon,Ann,Mrauk-U,Minbya,Myebon,Kyaukphyu,Sittwe,Thandwe,Magway,Thayetmyo,Bago,Mandalay"
+    "b": "Minbu,Ngape,Minhla,Mindon,Ann,Mrauk-U,Minbya,Myebon,Kyaukphyu,Sittwe,Thandwe",
+    "status": "WAITING"
   },
   {
     "name": "Cua",
@@ -3195,7 +3206,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Quang Nam,Dak Lak,Pua,DucTrong,MaeFaLuang,Binh Dinh,Quang Ngai,Phu Yen,Kon Tum,Gia Lai,CaMau,ThuDauMot,Srinagarindra,ChauDoc,TanTru,Shidian,DongHa,CauKe,Fugong,DakDoa,CaiLay,Phongsali,Alerkot,Akobnagar,Arauru,Abekuru,Apinkot,Augkot,Anoknagar,Akedkot,Adokuru,Akomnagar,Amotkot,Aoduru,Abetkot,Anognagar,Amankot,Cuapur,Cuanagar,Cuabad,Cuakot,Cuawada"
+    "b": "Quang Nam,Dak Lak,Pua,DucTrong,MaeFaLuang,Binh Dinh,Quang Ngai,Phu Yen,Kon Tum,Gia Lai",
+    "status": "WAITING"
   },
   {
     "name": "Cun Hlai",
@@ -3204,7 +3216,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Changjiang,Dongfang"
+    "b": "Changjiang,Dongfang",
+    "status": "WAITING"
   },
   {
     "name": "Cypriot Arabic",
@@ -3213,7 +3226,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Kormakitis,Nicosia,Limassol,Larnaca"
+    "b": "",
+    "status": "INVALID"
   },
   {
     "name": "Dadanitic",
@@ -3222,7 +3236,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Dedan,Al-Ula"
+    "b": "Dedan,Al-Ula",
+    "status": "WAITING"
   },
   {
     "name": "Dagur",
@@ -3231,7 +3246,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Qiqihar,Hailar,Heihe,Nenjiang,Tacheng,Morin Dawa,Meilisi,Longjiang,Fuyu"
+    "b": "Qiqihar,Hailar,Heihe,Nenjiang,Tacheng,Morin Dawa,Meilisi,Longjiang,Fuyu",
+    "status": "WAITING"
   },
   {
     "name": "Dai Zhuang",
@@ -3240,7 +3256,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Wenshan,Malipo,Guangnan,Yanshan,Funing,Qiubei,Maguan"
+    "b": "Wenshan,Malipo,Guangnan,Yanshan,Funing,Qiubei,Maguan",
+    "status": "WAITING"
   },
   {
     "name": "Damu",
@@ -3249,7 +3266,8 @@ window.asiaNameBases = [
     "max": 15,
     "d": "",
     "m": 0,
-    "b": "Nyingchi,Shigatse,Chamdo,Kangding,Shangri La,West Siang,East Siang,Upper Subansiri,Lower Subansiri,Tawang,Bomdila,Along"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Dao",
@@ -3258,7 +3276,8 @@ window.asiaNameBases = [
     "max": 13,
     "d": "",
     "m": 0,
-    "b": "Lanyu,Orchid Island,Taitung,Taiwan"
+    "b": "Lanyu,Orchid Island,Taitung",
+    "status": "WAITING"
   },
   {
     "name": "Dargwa",
@@ -3267,7 +3286,8 @@ window.asiaNameBases = [
     "max": 13,
     "d": "",
     "m": 0,
-    "b": "Akusha,Urakhi,Kubachi,Gubden,Kayakent,Urkarakh,Suleiman-Stal,Khasavyurt,Makhachkala,Derbent,Buynaksk,Izberbash,Kaspiysk,Kizilyurt,Levashi,Sergokala,Mekegi,Tsudaqar,Kadar,Mugi,Gapshima,Butri,Ashti,Amuzgi,Shiri,Sanakari,Chakhrizhi,Dakhadayurt,Novolakskoye,Aknada"
+    "b": "Akusha,Urakhi,Kubachi,Gubden,Kayakent,Urkarakh,Suleiman-Stal,Khasavyurt,Makhachkala,Derbent,Buynaksk,Izberbash,Kaspiysk,Kizilyurt,Levashi,Sergokala,Mekegi,Tsudaqar,Kadar,Mugi,Gapshima,Butri,Ashti,Amuzgi,Shiri,Sanakari,Chakhrizhi,Dakhadayurt,Novolakskoye,Aknada",
+    "status": "COMPLETE"
   },
   {
     "name": "Dari",
@@ -3276,7 +3296,8 @@ window.asiaNameBases = [
     "max": 14,
     "d": "",
     "m": 0,
-    "b": "Kabul,Herat,Kandahar,Mazar-i-Sharif,Kunduz,Balkh,Farah,Bamiyan,Ghazni,Zaranj,Lashkar Gah,Gardez,Fayzabad,Panjshir,Badakhshan,Baghlan,Samangan,Takhar,Parwan,Badghis,Ghor,Kapisa,Logar,Wardak,Paktia,Paktika,Khost,Nangarhar,Laghman,Kunar,Nuristan,Bamyan,Daykundi,Uruzgan,Zabul,Helmand,Nimruz,Faryab,Jowzjan,Sar-e-Pul"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Darkhad",
@@ -3285,7 +3306,8 @@ window.asiaNameBases = [
     "max": 12,
     "d": "",
     "m": 0,
-    "b": "Khovsgol,Bayanzurkh,Ulaan-Uul,Renchinlkhumbe,Moron,Ulaanbaatar"
+    "b": "Khovsgol,Bayanzurkh,Ulaan-Uul,Renchinlkhumbe,Moron",
+    "status": "WAITING"
   },
   {
     "name": "Holiya",
@@ -3294,7 +3316,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Nagpur,Bhandara,Seoni,Balaghat,Bellary,Koppal,Raichur,Gulbarga,Bidar,Hyderabad,Kurnool,Anantapur"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Irula",

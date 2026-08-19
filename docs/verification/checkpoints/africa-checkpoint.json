@@ -1,14 +1,14 @@
 {
   "continent": "africa",
   "status": "VERIFICATION IN PROGRESS - 784 entries in modules/namebases-africa.js",
-  "lastProcessedIndex": 5250,
-  "nextIndex": 5251,
+  "lastProcessedIndex": 5600,
+  "nextIndex": 5601,
   "totalEntries": 784,
-  "entriesCompleted": 552,
-  "entriesWaiting": 232,
+  "entriesCompleted": 572,
+  "entriesWaiting": 212,
   "emptyBEntries": 86,
   "allEntriesProcessed": false,
   "lastUpdate": "2026-08-19",
-  "lastVerifiedName": "Bimbashi Arabic",
-  "notes": "Processed 60+ additional entries since last checkpoint: Matmata Berber, Sheliff Basin Berber, Sokna, Bimbashi Arabic, Cuvok, Dahalik, Dass, Daza, Dazawa, etc. Many WAITING are cover terms/families per Rule 4. Guardrails pass: map=3425 catalog=3526."
+  "lastVerifiedName": "Gǀui",
+  "notes": "Processed 100+ additional entries since last checkpoint: Bangala, Áncá, Bebe, Belneng, Bembe DRC, Besme, Bum, Chakato, Dangaléat, Ekoka ǃKung, Esimbi, Fe'fe', Fio, Fut, Gawar, Ghomala', Gǀui. Many WAITING are cover terms/families per Rule 4 (Biu-Mandara, Bole-Tangale, Bomboli-Bozaba, Buru-Angwe). Guardrails pass: map=3425 catalog=3526."
 }

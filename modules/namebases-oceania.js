@@ -479,12 +479,12 @@ window.oceaniaNameBases = [
   {
     "name": "Tiwi",
     "i": 186,
-    "min": null,
-    "max": null,
+    "min": 4,
+    "max": 13,
     "d": "",
-    "m": null,
-    "b": "",
-    "status": "WAITING"
+    "m": 0.1,
+    "b": "Wurrumiyanga,Pirlangimpi,Milikapiti,Wurankuwu,Paru,Pickataramoor,Taracumbi,Yimpinari,Takampirmili,Pitjimirra,Four Mile",
+    "status": "COMPLETE"
   },
 
   {
@@ -567,12 +567,12 @@ window.oceaniaNameBases = [
   {
     "name": "Gahuku",
     "i": 204,
-    "min": null,
-    "max": null,
+    "min": 4,
+    "max": 13,
     "d": "",
-    "m": null,
-    "b": "",
-    "status": "WAITING"
+    "m": 0.1,
+    "b": "Upper Yaukave,Lower Yaukave,Kami-Seigu,Kama,Fimito,Kotuni,Gahuku,Gehamo,Orumba,Numurapoka,Ginipauka,Masiga,Kami,Seigu,Gotegemazuha,Magamizuha,Nagamize,Asarozuha,Anapayufa,Wanima,Masi",
+    "status": "COMPLETE"
   },
 
   {
@@ -600,12 +600,12 @@ window.oceaniaNameBases = [
   {
     "name": "Kasua",
     "i": 207,
-    "min": null,
-    "max": null,
+    "min": 5,
+    "max": 12,
     "d": "",
-    "m": null,
-    "b": "",
-    "status": "WAITING"
+    "m": 0,
+    "b": "Fokomaiyu,Talesou,Siane Falls,Musula,Iwatupu,Welio,Ikisalopo",
+    "status": "COMPLETE"
   },
 
   {
@@ -633,12 +633,12 @@ window.oceaniaNameBases = [
   {
     "name": "Kenati",
     "i": 210,
-    "min": null,
-    "max": null,
+    "min": 6,
+    "max": 9,
     "d": "",
-    "m": null,
-    "b": "",
-    "status": "WAITING"
+    "m": 0,
+    "b": "Yabuiara,Oropina,Arabunkara",
+    "status": "COMPLETE"
   },
 
   {
@@ -808,12 +808,12 @@ window.oceaniaNameBases = [
   {
     "name": "Aghu",
     "i": 764,
-    "min": 3,
-    "max": 11,
+    "min": 4,
+    "max": 9,
     "d": "",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Getentiri,Anggai,Butiptiri,Asiki,Kapogu,Miri",
+    "status": "COMPLETE"
   },
 
   {

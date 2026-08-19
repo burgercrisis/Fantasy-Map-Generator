@@ -5249,8 +5249,8 @@ window.africaNameBases = [{
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Bangala,Ngombe,Lisala,Bumba,Aketa,Bondo,Buta,Basoko,Opala,Isangi,Yangambi,Mongala,Budjala,Bongandanga,Ingende,Arua,Koboko,Zande,Congo River,Haut-Uele,Bas-Uele",
-    "status": "WAITING"
+    "b": "Lisala,Bumba,Aketa,Bondo,Buta,Basoko,Opala,Isangi,Yangambi,Budjala,Ingende,Bongandanga,Mongala River,Congo River,Haut-Uele Province,Bas-Uele Province,Uele River,Arua,Koboko,South Sudan",
+    "status": "COMPLETE"
   },
 {
     "name": "Ajawa",
@@ -5279,8 +5279,8 @@ window.africaNameBases = [{
     "max": 6,
     "d": "",
     "m": 0,
-    "b": "Antere,Nca",
-    "status": "WAITING"
+    "b": "Antere,Nca,Sardauna LGA,Taraba State",
+    "status": "COMPLETE"
   },
 {
     "name": "Atlas Berber",
@@ -5298,8 +5298,8 @@ window.africaNameBases = [{
     "max": 10,
     "d": "",
     "m": 0,
-    "b": "Bebe-Jatto,Bebe-Kette,Bebe-Jama,Sabongida,Mayokila,Mayonfon,Bimbua,Bewu",
-    "status": "WAITING"
+    "b": "Bebe-Jama,Bebe-Jatto,Bebe-Kette,Sabongida,Mayonfon,Mayokila",
+    "status": "COMPLETE"
   },
 {
     "name": "Belneng",
@@ -5308,8 +5308,8 @@ window.africaNameBases = [{
     "max": 7,
     "d": "",
     "m": 0,
-    "b": "Langung",
-    "status": "WAITING"
+    "b": "Langung,Shendam LGA,Plateau State",
+    "status": "COMPLETE"
   },
 {
     "name": "Bembe Congo",
@@ -5328,8 +5328,8 @@ window.africaNameBases = [{
     "max": 10,
     "d": "",
     "m": 0,
-    "b": "Fizi,Baraka,Uvira,Minembwe,Bibogobogo,Kisombe,Nemba,Kalemie,Kiliba,Sange,Runingu,Kavimvira",
-    "status": "WAITING"
+    "b": "Fizi,Baraka,Uvira,Minembwe,Kalemie,Nemba,Ubwari Peninsula,Ruzizi Plain,Itombwe,Itombwe Highlands,Lulenge,Mutambala,Ngandja,Tanganyika Sector",
+    "status": "COMPLETE"
   },
 {
     "name": "Besme",
@@ -5338,8 +5338,8 @@ window.africaNameBases = [{
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Besmé,Bodor,Boumo,Boumou,Draï Ngolo,Draï Mala,Dara,Loursan,Alma Goumna,Misséré,Dari,Wari,Bezmé,Kolon,Laï,Kélo",
-    "status": "WAITING"
+    "b": "Besmé,Bodor,Boumou,Dara,Loursan,Misséré,Draï Ngolo,Draï Mala,Alma Goumna,Wari,Laï,Kélo",
+    "status": "COMPLETE"
   },
 {
     "name": "Bidiyo",
@@ -5398,8 +5398,8 @@ window.africaNameBases = [{
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Fonfuka, Su-Bum, Kimbi, Buabua, Ngunabum, Mbuk, Ngunakimbi, Kichako, Mungong, Saff, Sawi, Lakabum, Mbamlu, Konene, Ngonafesi, Kichowi",
-    "status": "WAITING"
+    "b": "Fonfuka,Su-Bum,Kimbi,Buabua,Ngunabum,Mbuk,Ngunakimbi,Kichako,Mungong,Saff,Sawi,Lakabum,Mbamlu,Konene,Ngonafesi,Kichowi",
+    "status": "COMPLETE"
   },
 {
     "name": "Buru–Angwe",
@@ -5418,8 +5418,8 @@ window.africaNameBases = [{
     "max": 1,
     "d": "",
     "m": 0,
-    "b": "Dokan Tofa",
-    "status": "WAITING"
+    "b": "Dokan Tofa,Shendam LGA,Plateau State",
+    "status": "COMPLETE"
   },
 {
     "name": "Dangaléat",
@@ -5428,8 +5428,8 @@ window.africaNameBases = [{
     "max": 14,
     "d": "",
     "m": 0,
-    "b": "Korbo, Bitkine",
-    "status": "WAITING"
+    "b": "Mongo,Bitkine,Korbo,Golé,Tyalo-Idéba,Barlo,Koubo Adougoul,Korlongo,Guéra Region,Abtouyour Department,Batha Region,Bang-bang Subprefecture",
+    "status": "COMPLETE"
   },
 {
     "name": "Ekoka ǃKung",
@@ -5438,8 +5438,8 @@ window.africaNameBases = [{
     "max": 10,
     "d": "",
     "m": 0,
-    "b": "Ekoka, Tsintsabis, Eenhana, Okongo, Rundu",
-    "status": "WAITING"
+    "b": "Tsintsabis,Eenhana,Okongo,Ovambo,Mpunguvlei,Rundu,Namibia,Angola,South Africa,Botswana,Cunene Province,Huíla Province,Kuando Kubango Province,Diamondfields District,Ghanzi District,Erongo Region,Otjozondjupa Region,Khomas Region",
+    "status": "COMPLETE"
   },
 {
     "name": "Esimbi",
@@ -5448,18 +5448,18 @@ window.africaNameBases = [{
     "max": 9,
     "d": "",
     "m": 0,
-    "b": "Benakuma, Benatidi, Benade, Baworo, Bufi",
-    "status": "WAITING"
+    "b": "Benakuma,Benatidi,Benade,Baworo,Bufi,Cameroon,Northwest Region,Menchum Division,Menchum Valley Subdivision,Benakuma Commune",
+    "status": "COMPLETE"
   },
 {
-    "name": "Feʼfeʼ",
+    "name": "Fe'fe'",
     "i": 200021,
     "min": 4,
     "max": 10,
     "d": "",
     "m": 0,
-    "b": "Bafang",
-    "status": "WAITING"
+    "b": "Bafang,Haut-Nkam Department,West Region,Bana,Bandja,Kekem",
+    "status": "COMPLETE"
   },
 {
     "name": "Fio",
@@ -5468,8 +5468,8 @@ window.africaNameBases = [{
     "max": 12,
     "d": "",
     "m": 0,
-    "b": "Fio",
-    "status": "WAITING"
+    "b": "Cameroon",
+    "status": "COMPLETE"
   },
 {
     "name": "Fut",
@@ -5478,8 +5478,8 @@ window.africaNameBases = [{
     "max": 9,
     "d": "",
     "m": 0,
-    "b": "Bafut",
-    "status": "WAITING"
+    "b": "Bafut Subdivision,Tuba,Mezam Division,Metchum Division,Northwest Region,Northwest Province,Bamenda",
+    "status": "COMPLETE"
   },
 {
     "name": "Gawar",
@@ -5488,18 +5488,18 @@ window.africaNameBases = [{
     "max": 10,
     "d": "",
     "m": 0,
-    "b": "Gawar, Kortchi, Gadala, Gnibango, Ngafakat, Mandoula, Djeleng, Membeng, Wanarou, Koitakwa, Zili, Woudango, Mangare, Tchamaye, Gazawao, Dimeo, Bahale, Djimeta, Minawao, Nora",
-    "status": "WAITING"
+    "b": "Gawar,Kortchi,Gadala,Gnibango,Ngafakat,Mandoula,Djeleng,Membeng,Wanarou,Koitakwa,Zili,Woudango,Mangare,Tchamaye,Gazawao,Dimeo,Bahale,Djimeta,Minawao,Nora",
+    "status": "COMPLETE"
   },
 {
-    "name": "Ghomalaʼ",
+    "name": "Ghomala'",
     "i": 200025,
     "min": 4,
     "max": 10,
     "d": "",
     "m": 0,
-    "b": "Bafoussam, Bandjoun, Bamendjou, Baham, Bapa, Bansoa, Baleng, Bazou, Tonga",
-    "status": "WAITING"
+    "b": "Bafoussam,Bandjoun,Bamendjou,Baham,Batié,Bapa,Bansoa,Baleng,Bazou,Tonga,West Region,Mifi Department,Koung-Khi Department,Hauts-Plateaux Department,Menoua Department,Bamboutos Department",
+    "status": "COMPLETE"
   },
 {
     "name": "Gǀui",
@@ -5508,8 +5508,8 @@ window.africaNameBases = [{
     "max": 15,
     "d": "",
     "m": 0,
-    "b": "Ghanzi, Xade, New Xade",
-    "status": "WAITING"
+    "b": "New Xade,Xade,East Hanahai,Kacgae,Dutlwe,Serinane,Takotokwane,Kautwane,Khekhenye,Letihakeng,Morwamosu,Tsetseng,Khute,Thomelo,Ghanzi District,Kweneng District,Central Kalahari Game Reserve",
+    "status": "COMPLETE"
   },
 {
     "name": "Hadza",
@@ -5518,8 +5518,8 @@ window.africaNameBases = [{
     "max": 12,
     "d": "",
     "m": 0,
-    "b": "Mangola, Yaeda",
-    "status": "WAITING"
+    "b": "Singida Region,Manyara Region,Shinyanga Region,Lake Eyasi basin,Serengeti Plateau,Iramba District,Mbulu District,Masawa District,Karatu District,Baray,Mangola,Endamagha,Dunduhina,Tlhiika,Siponga,Mangola,Yaeda Chini,Munguli,Mongo wa Mono,Endamaghang,Yaeda Valley,Mbulu Highlands,Mount Oldeani",
+    "status": "COMPLETE"
   },
 {
     "name": "Hausa–Gwandara",
@@ -5548,8 +5548,8 @@ window.africaNameBases = [{
     "max": 8,
     "d": "",
     "m": 0,
-    "b": "Hong",
-    "status": "WAITING"
+    "b": "Hong,Maiha,Girei,Mubi,Askira-Uba,Mubi North,Gombi,Song,Michika",
+    "status": "COMPLETE"
   },
 {
     "name": "Jalaa",
@@ -5558,8 +5558,8 @@ window.africaNameBases = [{
     "max": 6,
     "d": "",
     "m": 0,
-    "b": "Loojaa",
-    "status": "WAITING"
+    "b": "Loojaa,Balanga LGA,Gombe State",
+    "status": "COMPLETE"
   },
 {
     "name": "Jara",
@@ -5568,8 +5568,8 @@ window.africaNameBases = [{
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Biu",
-    "status": "WAITING"
+    "b": "Biu,Kwaya-Kusar,Akko,Yamaltu-Deba,Borno,Gombe",
+    "status": "COMPLETE"
   },
 {
     "name": "Jelkung",
