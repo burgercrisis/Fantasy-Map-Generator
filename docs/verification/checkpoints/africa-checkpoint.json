@@ -1,14 +1,14 @@
 {
   "continent": "africa",
-  "status": "VERIFICATION COMPLETE - all 784 entries in modules/namebases-africa.js processed (9 duplicates removed)",
-  "lastProcessedIndex": 201017,
-  "nextIndex": null,
+  "status": "VERIFICATION IN PROGRESS - 784 entries in modules/namebases-africa.js",
+  "lastProcessedIndex": 1340,
+  "nextIndex": 1341,
   "totalEntries": 784,
-  "entriesCompleted": 473,
-  "entriesWaiting": 311,
+  "entriesCompleted": 503,
+  "entriesWaiting": 281,
   "emptyBEntries": 86,
-  "allEntriesProcessed": true,
-  "lastUpdate": "2026-08-13",
-  "lastVerifiedName": "Western Algerian Zenatic dialects",
-  "notes": "All 784 entries have status fields. 473 COMPLETE (>=25 individually verified names, major/medium languages). 311 WAITING: 86 cover terms/families with empty b (Rule 4), 225 micro-languages with verified subsets below 25-name threshold (Rule 5). Cross-regional contamination (Kenyan/Somali/Angolan/Puerto Rican cities), synthetic fabricated names (language-name + suffix patterns, -town/-ville/-burg patterns), and 9 duplicate entries removed. Guardrails pass: map=3425 catalog=3526."
+  "allEntriesProcessed": false,
+  "lastUpdate": "2026-08-19",
+  "lastVerifiedName": "Kambaata",
+  "notes": "Processed entries: Bemba, Sekele, Ju/'hoan Click, Hadza (WAITING), Sandawe Click, Bilen (WAITING), Mandara Chadic (WAITING - cover term), Tsonga (WAITING), Luvale, Lugbara, Wobe, Bulu, Basaa, Bushong, Tangale, Dangaleat (WAITING), Harari, Shabo (WAITING), Nara, Sucite, Suwu, Amdang, Doghose, Afade, Afar, Bure (WAITING), Samwe, Shwai, Sighu, Siwu, Ait Seghrouchen Berber, Argobba, Sumayela Ndebele, Khoekhoe, Kambaata, Kafa, Beli (WAITING - micro), Nobiin. Many WAITING are cover terms (Mandara Chadic, Arabic Maghrebi, Bamileke, Bwela, Buyu, Cameroonian Pidgin, Bauchi Chadic, East Chadic, West African English Creole, Judeo-Arabic Maghrebi, Aizi, Biu-Mandara, Bacama, El Molo, Kuan, Aiki, etc.) per Rule 4. Guardrails pass: map=3425 catalog=3526."
 }

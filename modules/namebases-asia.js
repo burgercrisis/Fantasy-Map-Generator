@@ -1476,7 +1476,7 @@ window.asiaNameBases = [
     "max": 22,
     "d": "",
     "m": 0,
-    "b": "Hulunbuir,Hailar,Manzhouli,Yakeshi,Genhe,Ergun",
+    "b": "Hulunbuir,Hailar,Manzhouli,Yakeshi,Genhe,Ergun,Chen Barag,Oroqen Autonomous Banner,Morin Dawa Daur Autonomous Banner,Zhalantun,Arun",
     "status": "WAITING"
   },
   {
@@ -1486,7 +1486,7 @@ window.asiaNameBases = [
     "max": 22,
     "d": "",
     "m": 0,
-    "b": "Hulunbuir,Hailar,Manzhouli,Yakeshi,Genhe,Ergun,Barguzin",
+    "b": "Hulunbuir,Hailar,Manzhouli,Yakeshi,Genhe,Ergun,Barguzin,Kurumkan,Khorinsk,Ivolga,Ulan-Ude,Selenga,Zakamensk,Kyakhta,Gusinoozyorsk,Severobaykalsk",
     "status": "WAITING"
   },
   {

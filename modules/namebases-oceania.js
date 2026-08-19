@@ -4596,37 +4596,41 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": ""
+    "b": "",
+    "status": "WAITING"
   },
 
   {
     "name": "Menya",
     "i": 201089,
-    "min": null,
-    "max": null,
+    "min": 0,
+    "max": 0,
     "d": "",
-    "m": null,
-    "b": ""
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
   },
 
   {
     "name": "Mian",
     "i": 201090,
-    "min": null,
-    "max": null,
+    "min": 0,
+    "max": 0,
     "d": "",
-    "m": null,
-    "b": ""
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
   },
 
   {
     "name": "Moikodi",
     "i": 201091,
-    "min": null,
-    "max": null,
+    "min": 0,
+    "max": 0,
     "d": "",
-    "m": null,
-    "b": ""
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
   },
 
   {
@@ -4636,17 +4640,19 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Kimaam,Komolom,Kumbis,Kalilan,Teri,Mambum,Kiworo,Woner,Deka,Turiram,Purawanderu,Umanderu,Webu,Kalilam,Iromoro,Konjombando,Suam,Tabonji,Wanggambi,Yamuka,Yeraha,Dafnawanga,Kladar,Konorau,Sabon,Tor,Waan,Bibikem,Wanam,Wogekel"
+    "b": "Kimaam,Komolom,Kumbis,Kalilan,Teri,Mambum,Kiworo,Woner,Deka,Turiram,Purawanderu,Umanderu,Webu,Kalilam,Iromoro,Konjombando,Suam,Tabonji,Wanggambi,Yamuka,Yeraha,Dafnawanga,Kladar,Konorau,Sabon,Tor,Waan,Bibikem,Wanam,Wogekel",
+    "status": "COMPLETE"
   },
 
   {
     "name": "Momina",
     "i": 201093,
-    "min": null,
-    "max": null,
+    "min": 0,
+    "max": 0,
     "d": "",
-    "m": null,
-    "b": ""
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
   },
 
   {
@@ -4656,7 +4662,8 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Ajin,Asgun,Berimono,Besika,Dumaten,Hom-hom,Hulam,Katalina,Kebikduk,Korobuk,Laluk,Linduk,Obio,Salbik,See,Suru-suru,Tomor,Walase,Binamsain,Auban,Butukatnau,Patipi,Pepera,Pirabanak,Ulakin,Woutu Brasa,Woutu Kolof"
+    "b": "Ajin,Asgun,Berimono,Besika,Dumaten,Hom-hom,Hulam,Katalina,Kebikduk,Korobuk,Laluk,Linduk,Obio,Salbik,See,Suru-suru,Tomor,Walase,Binamsain,Auban,Butukatnau,Patipi,Pepera,Pirabanak,Ulakin,Woutu Brasa,Woutu Kolof",
+    "status": "COMPLETE"
   },
 
   {
@@ -4666,27 +4673,30 @@ window.oceaniaNameBases = [
     "max": 10,
     "d": "",
     "m": 0,
-    "b": "Sugapa,Bilogai,Eknemba,Emondi,Mamba,Mindau,Puyagiya,Titigi,Yalai,Yokatapa,Yoparu,Homeyo,Agapa,Degesiga,Engganenga,Kendetapa,Kobae,Mapa,Maya,Pogapa,Selemama,Zombandoga,Hitadipa,Balamai,Janamba,Kulapa,Pugisiga,Wabui,Biandoga,Bugalaga,Danggatadi,Kalawa,Yagaito,Yanei,Wandai,Sabisa,Agisiga,Danggoa,Mbamogo,Tousiga,Unabundaga"
+    "b": "Sugapa,Bilogai,Eknemba,Emondi,Mamba,Mindau,Puyagiya,Titigi,Yalai,Yokatapa,Yoparu,Homeyo,Agapa,Degesiga,Engganenga,Kendetapa,Kobae,Mapa,Maya,Pogapa,Selemama,Zombandoga,Hitadipa,Balamai,Janamba,Kulapa,Pugisiga,Wabui,Biandoga,Bugalaga,Danggatadi,Kalawa,Yagaito,Yanei,Wandai,Sabisa,Agisiga,Danggoa,Mbamogo,Tousiga,Unabundaga",
+    "status": "COMPLETE"
   },
 
   {
     "name": "Moraori",
     "i": 201096,
-    "min": null,
-    "max": null,
+    "min": 0,
+    "max": 0,
     "d": "",
-    "m": null,
-    "b": ""
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
   },
 
   {
     "name": "Morawa",
     "i": 201097,
-    "min": null,
-    "max": null,
+    "min": 0,
+    "max": 0,
     "d": "",
-    "m": null,
-    "b": ""
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
   },
 
   {
@@ -4696,7 +4706,8 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Sigabaduru,Mabudawan,Tureture,Sui,Severimabu,Doumori,Variobadoro,Maduduo,Tire'ere,Wapi,Sagasia,Buzi,Mawatta,Parama,Aberagerema,Wabada,Sepe,Samari,Kadawa,Madame,Maipani,Kename,U'uwo,Katatai,Saguane,Iasa,Sumai,Doropo,Ipisia,Agobara,Oromosapuo"
+    "b": "Sigabaduru,Mabudawan,Tureture,Sui,Severimabu,Doumori,Variobadoro,Maduduo,Tire'ere,Wapi,Sagasia,Buzi,Mawatta,Parama,Aberagerema,Wabada,Sepe,Samari,Kadawa,Madame,Maipani,Kename,U'uwo,Katatai,Saguane,Iasa,Sumai,Doropo,Ipisia,Agobara,Oromosapuo",
+    "status": "COMPLETE"
   },
 
   {
@@ -4706,7 +4717,8 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": ""
+    "b": "",
+    "status": "WAITING"
   },
 
   {
@@ -4716,7 +4728,8 @@ window.oceaniaNameBases = [
     "max": 10,
     "d": "",
     "m": 0,
-    "b": "Osabewai,Mesime,Vaiagai,Furimuti,Depo,Mageri,Vesilogo,Bereadabu,Kailaki,Doe,Ogotana,Kahitana,Berebei,Varutanumu,Suria,Kotoi,Boridi,Kagi,Efogi,Manari,Edevu,Sogeri,Goldie,Isurava,Naduri,Menari,Eora,Kokoda"
+    "b": "Osabewai,Mesime,Vaiagai,Furimuti,Depo,Mageri,Vesilogo,Bereadabu,Kailaki,Doe,Ogotana,Kahitana,Berebei,Varutanumu,Suria,Kotoi,Boridi,Kagi,Efogi,Manari,Edevu,Sogeri,Goldie,Isurava,Naduri,Menari,Eora,Kokoda",
+    "status": "COMPLETE"
   },
 
   {
@@ -4726,7 +4739,8 @@ window.oceaniaNameBases = [
     "max": 12,
     "d": "",
     "m": 0,
-    "b": "Samakopa,Kawalasi,Kamusi,Parieme,Bibisa,Gagori,Iowa,Garu,Miruwo,Wakau/Sogere,Asaramio,Bina,Sisiam,Torobina,Bamio,Pirupiru,Ukusi,Nemeti,Ibuo,Diwami,Kubeai,Paueme,Sogae,Ugu,Waliho"
+    "b": "Samakopa,Kawalasi,Kamusi,Parieme,Bibisa,Gagori,Iowa,Garu,Miruwo,Wakau/Sogere,Asaramio,Bina,Sisiam,Torobina,Bamio,Pirupiru,Ukusi,Nemeti,Ibuo,Diwami,Kubeai,Paueme,Sogae,Ugu,Waliho",
+    "status": "COMPLETE"
   },
 
   {
@@ -4736,7 +4750,8 @@ window.oceaniaNameBases = [
     "max": 19,
     "d": "",
     "m": 0,
-    "b": "Gabagaba,Ginigolo,Gunuga,Gabone,Tauruba,Gamoga,Kemabolo,Bonanamo,Walai,Galomarupu,Riwalirupu,Gemo,Babagarubu,kalo,Babaka,Kamali,Makerupu,Irupara,Alewai,Hula,Keapara,Alukuni,Karawa,Golupu,Upper Maria,Central Maria,East Maria,West Maria,Ormand East,Ormand Central,Ormand West,Upper Mt. Brown,Central Mt. Brown,Lower Mt. Brown,Upper Boku/Doromu,Central Boku/Doromu,Lower Boku/Doromu,Upper Mt. Obree,Central Mt. Obree,Lower Mt. Obree"
+    "b": "Gabagaba,Ginigolo,Gunuga,Gabone,Tauruba,Gamoga,Kemabolo,Bonanamo,Walai,Galomarupu,Riwalirupu,Gemo,Babagarubu,kalo,Babaka,Kamali,Makerupu,Irupara,Alewai,Hula,Keapara,Alukuni,Karawa,Golupu,Upper Maria,Central Maria,East Maria,West Maria,Ormand East,Ormand Central,Ormand West,Upper Mt. Brown,Central Mt. Brown,Lower Mt. Brown,Upper Boku/Doromu,Central Boku/Doromu,Lower Boku/Doromu,Upper Mt. Obree,Central Mt. Obree,Lower Mt. Obree",
+    "status": "COMPLETE"
   },
 
   {
@@ -4746,7 +4761,8 @@ window.oceaniaNameBases = [
     "max": 14,
     "d": "",
     "m": 0,
-    "b": "Batalaiworu,Wakorambu,Wawesa,Laiworu,Sidodadi,Batukara,Baluara,Bone Bone,Lanobake,Moolo,Bone,Bone Lolibu,Bone Tondo,Bone Kacintala,Oelongko,Matombura,Duruka,Banggai,Ghonebhalano,Ghonsume,Lagasa,Lasunapa,Palangga,Wapunto,Kabangka,Komba Komba,Lakandito,Lupia,Oensuli,Sarimulyo,Wakobalu Agung,Wansugi,Wataliku,Kabawo,Bea,Bente,Kambawuna,Kasaka,Kawite Wite,Kontumere,Lamanu,Lamaeo,Rangka,Wantiworo,Laimpi,Katobu,Butung Butung,Foo Kuni,Laende,Raha I,Raha II,Raha III,Wamponiki,Watonea,Kontu Kowuna"
+    "b": "Batalaiworu,Wakorambu,Wawesa,Laiworu,Sidodadi,Batukara,Baluara,Bone Bone,Lanobake,Moolo,Bone,Bone Lolibu,Bone Tondo,Bone Kacintala,Oelongko,Matombura,Duruka,Banggai,Ghonebhalano,Ghonsume,Lagasa,Lasunapa,Palangga,Wapunto,Kabangka,Komba Komba,Lakandito,Lupia,Oensuli,Sarimulyo,Wakobalu Agung,Wansugi,Wataliku,Kabawo,Bea,Bente,Kambawuna,Kasaka,Kawite Wite,Kontumere,Lamanu,Lamaeo,Rangka,Wantiworo,Laimpi,Katobu,Butung Butung,Foo Kuni,Laende,Raha I,Raha II,Raha III,Wamponiki,Watonea,Kontu Kowuna",
+    "status": "COMPLETE"
   },
 
   {
@@ -4756,7 +4772,8 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Mandobo,Tanah Merah,Ampera,Mariam,Mawan,Persatuan,Sokanggo,Mindiptana,Andobit,Anggumbit,Awayanka,Epsembit,Imko,Kakuna,Kamka,Niyimbang,Osso,Tinggam,Umap,Wanggatkibi,Waropko,Woropko,Ikcan,Inggembit,Upyetetko,Kanggewot,Upkim,Wametkapa,Winiktit,Wombon,Kouh,Jair,Getentiri,Anggai,Asiki,Butiptiri,Kapogu,Miri,Bomakia,Bomakia I,Aifa,Bomakia II,Somi,Uni,Kombut,Amuan,Kawangtet,Moukbiran,Iniyandit,Langgoan,Autriop,Ogenatan,Tetop,Wariktop,Arimop"
+    "b": "Mandobo,Tanah Merah,Ampera,Mariam,Mawan,Persatuan,Sokanggo,Mindiptana,Andobit,Anggumbit,Awayanka,Epsembit,Imko,Kakuna,Kamka,Niyimbang,Osso,Tinggam,Umap,Wanggatkibi,Waropko,Woropko,Ikcan,Inggembit,Upyetetko,Kanggewot,Upkim,Wametkapa,Winiktit,Wombon,Kouh,Jair,Getentiri,Anggai,Asiki,Butiptiri,Kapogu,Miri,Bomakia,Bomakia I,Aifa,Bomakia II,Somi,Uni,Kombut,Amuan,Kawangtet,Moukbiran,Iniyandit,Langgoan,Autriop,Ogenatan,Tetop,Wariktop,Arimop",
+    "status": "COMPLETE"
   },
 
   {
@@ -4766,27 +4783,30 @@ window.oceaniaNameBases = [
     "max": 13,
     "d": "",
     "m": 0,
-    "b": "Merauke,Mandala,Bokem,Buti,Nasem,Nggolar,Wasur,Bambu Pemali,Kamahedoga,Kamundu,Karang Indah,Kelapa Lima,Maro,Muli,Rimba Jaya,Samkai,Seringgu Jaya,Muting,Andaito,Boha,Efkab Makmur,Enggol Jaya,Kolam,Manway Bop,Pachas,Seed Agung,Selauw,Sigabel Jaya,Wan,Okaba,Alaku,Alatep,Dufmiraf,Es Wambi,Iwol,Makaling,Sanggase,Wambi,Kimaam,Deka,Kalilam,Kiworo,Komolom,Kumbis,Mambum,Purawanderu,Teri,Turiram,Umanderu,Webu,Woner,Semangga,Muram Sari,Kuper,Kuprik"
+    "b": "Merauke,Mandala,Bokem,Buti,Nasem,Nggolar,Wasur,Bambu Pemali,Kamahedoga,Kamundu,Karang Indah,Kelapa Lima,Maro,Muli,Rimba Jaya,Samkai,Seringgu Jaya,Muting,Andaito,Boha,Efkab Makmur,Enggol Jaya,Kolam,Manway Bop,Pachas,Seed Agung,Selauw,Sigabel Jaya,Wan,Okaba,Alaku,Alatep,Dufmiraf,Es Wambi,Iwol,Makaling,Sanggase,Wambi,Kimaam,Deka,Kalilam,Kiworo,Komolom,Kumbis,Mambum,Purawanderu,Teri,Turiram,Umanderu,Webu,Woner,Semangga,Muram Sari,Kuper,Kuprik",
+    "status": "COMPLETE"
   },
 
   {
     "name": "Namiae",
     "i": 201106,
-    "min": null,
-    "max": null,
+    "min": 0,
+    "max": 0,
     "d": "",
-    "m": null,
-    "b": ""
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
   },
 
   {
     "name": "Namumi",
     "i": 201107,
-    "min": null,
-    "max": null,
+    "min": 0,
+    "max": 0,
     "d": "",
-    "m": null,
-    "b": ""
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
   },
 
   {
@@ -4796,7 +4816,8 @@ window.oceaniaNameBases = [
     "max": 10,
     "d": "",
     "m": 0,
-    "b": "Mogini,Koriom,Kwiop,Togoban,Kwima,Kupeng,Kompiai,Tswenkai,Bokopai,Yumbigema,Koinambe,Kandabiamb,Tsembant,Gunjiji,Gondobend,Waim,Tsarep,Marent,Tsendiap,Tumbunki,Runimp,Wum,Tsenga,Maikmol,Toli,Ongolmol,Kaul,Karap,Manemp,Magin,Korenju,Tabibuga,Tsingoropa,Kwipun,Telta,Menjim 2"
+    "b": "Mogini,Koriom,Kwiop,Togoban,Kwima,Kupeng,Kompiai,Tswenkai,Bokopai,Yumbigema,Koinambe,Kandabiamb,Tsembant,Gunjiji,Gondobend,Waim,Tsarep,Marent,Tsendiap,Tumbunki,Runimp,Wum,Tsenga,Maikmol,Toli,Ongolmol,Kaul,Karap,Manemp,Magin,Korenju,Tabibuga,Tsingoropa,Kwipun,Telta,Menjim 2",
+    "status": "COMPLETE"
   },
 
   {
@@ -4806,17 +4827,19 @@ window.oceaniaNameBases = [
     "max": 12,
     "d": "",
     "m": 0,
-    "b": "Miri,Marudi,Subis,Beluru,Telang Usan,Lutong,Bekenu,Batu Niah,Long Lama,Kemena,Samalaju,Lambir,Sibuti,Baram,Ulu Baram,Baram Delta,Batang Baram,Gunung Mulu,Loagan Bunut,Niah,Pulong Tau,Usun Apau,Miri-Sibuti,Kelabit,Bario,Pa Umor,Kelapang,Tutoh,Tinjar,Akah,Dappur,Arang,Silat,Moh,Selaan,Serungo,Pelutan"
+    "b": "Miri,Marudi,Subis,Beluru,Telang Usan,Lutong,Bekenu,Batu Niah,Long Lama,Kemena,Samalaju,Lambir,Sibuti,Baram,Ulu Baram,Baram Delta,Batang Baram,Gunung Mulu,Loagan Bunut,Niah,Pulong Tau,Usun Apau,Miri-Sibuti,Kelabit,Bario,Pa Umor,Kelapang,Tutoh,Tinjar,Akah,Dappur,Arang,Silat,Moh,Selaan,Serungo,Pelutan",
+    "status": "COMPLETE"
   },
 
   {
     "name": "Nawaru",
     "i": 201110,
-    "min": null,
-    "max": null,
+    "min": 0,
+    "max": 0,
     "d": "",
-    "m": null,
-    "b": ""
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
   },
 
 {
@@ -4837,7 +4860,8 @@ window.oceaniaNameBases = [
     "max": 12,
     "d": "",
     "m": 0,
-    "b": "Wosak,Moba,Pija,Kora,Kenyam,Krepkuri,Embetpem,Geselma,Kilmid,Yenggelo,Alama,Meborok,Mapenduma,Koroptak,Paro,Kegayem,Mugi,Yal,Mam,Yigi,Dal,Nirkuri,Inikgal,Mbuwa,Iniye,Wutpaga,Nenggeangin,Gearek,Wusi,Mbulmu Yalma,Pilini,Paris,Merorok,Kroptak,Biripem,Uburu"
+    "b": "Wosak,Moba,Pija,Kora,Kenyam,Krepkuri,Embetpem,Geselma,Kilmid,Yenggelo,Alama,Meborok,Mapenduma,Koroptak,Paro,Kegayem,Mugi,Yal,Mam,Yigi,Dal,Nirkuri,Inikgal,Mbuwa,Iniye,Wutpaga,Nenggeangin,Gearek,Wusi,Mbulmu Yalma,Pilini,Paris,Merorok,Kroptak,Biripem,Uburu",
+    "status": "COMPLETE"
   },
 
   {
