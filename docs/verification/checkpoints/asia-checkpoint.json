@@ -1,7 +1,7 @@
 {
   "totalEntries": 1267,
-  "nextEntry": "Continuing from line ~1200 (after Sora/Savara) - processed multiple WAITING entries",
-  "lastUpdate": "2026-08-19T17:00:00-07:00",
+  "nextEntry": "Continuing from line ~1340 (after Bengali Portuguese Creole) - processed multiple WAITING entries",
+  "lastUpdate": "2026-08-19T19:00:00-07:00",
   "blockers": [],
   "waiting": [
     "Semaq Beri(i=119,9)",
@@ -27,12 +27,25 @@
     "Amorite(i=898,9)",
     "Daur(i=959,26)",
     "Korku(i=996,22)",
-    "Sora (Savara)(i=999,60) - COMPLETE"
+    "Sora (Savara)(i=999,60) - COMPLETE",
+    "Chinese(i=1000) - COMPLETE",
+    "Man Met (Kemie)(i=1011,5)",
+    "Hu (Angku, Kon Keu)(i=1012,1)",
+    "U (Pouma)(i=1013,9)",
+    "Babylonian(i=1016,18)",
+    "Badaga(i=1018,36)",
+    "Baoan(i=1019,10)",
+    "Baoanic(i=1020,0) - WAITING (cover term)",
+    "Baoting Hlai(i=1021,6)",
+    "Badong Yao(i=1024,3)",
+    "Baekje Korean(i=1025,7)",
+    "Bahnar(i=1028,10)",
+    "Bengali Portuguese Creole(i=1030,8)"
   ],
-  "lastIndex": "999",
+  "lastIndex": "1030",
   "status": "in_progress",
   "pipeline": "Manual verification per protocol -> guardrails",
-  "lastEntry": "Sora (Savara) at line ~1209",
-  "verifiedEntriesThisSession": 25,
+  "lastEntry": "Bengali Portuguese Creole at line ~1340",
+  "verifiedEntriesThisSession": 32,
   "continent": "asia"
 }

@@ -1226,7 +1226,7 @@ window.asiaNameBases = [
     "max": 13,
     "d": "angkuic austroasiatic",
     "m": 1,
-    "b": "Xiaomanmi,Damanmi,Jiangtou Manmi,Manmi,Sanjia,Jinghong,Xishuangbanna,Mengyang,Gadong",
+    "b": "Xiaomanmi,Damanmi,Jiangtou Manmi,Manmi,Sanjia",
     "status": "WAITING"
   },
   {
@@ -1236,7 +1236,7 @@ window.asiaNameBases = [
     "max": 12,
     "d": "Hu (also Kongge / Kun'ge / Kon Keu) is a language of the Angkuic branch of Austroasiatic (Palaungic), spoken in Yunnan (China) and adjacent northern Myanmar (Shan State).",
     "m": 0,
-    "b": "",
+    "b": "Na Huipa",
     "status": "WAITING"
   },
   {
@@ -1246,7 +1246,7 @@ window.asiaNameBases = [
     "max": 13,
     "d": "U is an Angkuic (Palaungic/Austroasiatic) language (endonym P'uman) of Yunnan and northern Myanmar. The parenthetical 'Pouma' also points to Poumai Naga (Poula, Angami-Pochuri/Sino-Tibetan) of Manipur/Nagaland; the source entry conflates the two real languages. Retained as valid on the U (Angkuic) base.",
     "m": 0,
-    "b": "",
+    "b": "Pengpan,Pangpin,Bangbing,Pã Xep,Paa Xep,Gantang,Hazhai,Avala,Auva",
     "status": "WAITING"
   },
   {
@@ -1256,7 +1256,7 @@ window.asiaNameBases = [
     "max": 12,
     "d": "Babylonian is the southern dialect of Akkadian, an extinct East Semitic language of ancient Mesopotamia (c. 2600 BC – AD 100). Attested in cuneiform from the Old Babylonian period through Late Babylonian.",
     "m": 0,
-    "b": "",
+    "b": "Babylon,Borsippa,Sippar,Nippur,Ur,Uruk,Larsa,Isin,Kish,Dilbat,Kutha,Marad,Adab,Shuruppak,Umma,Eridu,Lagash,Agade,Akkad",
     "status": "WAITING"
   },
   {
@@ -1266,7 +1266,7 @@ window.asiaNameBases = [
     "max": 18,
     "d": "Badaga is a Southern Dravidian language (Kannada-Badaga subgroup) spoken by the Badaga people of the Nilgiris district, Tamil Nadu, India. Closely related to Kannada with Tamil influence.",
     "m": 0,
-    "b": "Ooty,Coonoor,Kotagiri,Nilgiris,Mysore,Bangalore,Chennai,Madurai,Coimbatore,Kozhikode",
+    "b": "Ooty,Coonoor,Kotagiri,Kundah,Gudalur,Pandalur,Kukal,Kadanad,Ithalar,Nundala,Meluru,Hulical,Athikaratty,Melkunda,Kilkundha,Ketti,Thanthanadu,Milidenu,Nandatti,Jakkanari,Aravenu,Thinniyoor,Iyooru,Kannerimukku,Beragany,Pethuva,Jakkatha,Thuneri,Doddabetta,Kattabetu,Kodanadu",
     "status": "WAITING"
   },
   {
@@ -1276,7 +1276,7 @@ window.asiaNameBases = [
     "max": 12,
     "d": "Baoan (Bonan) is a Southern Mongolic language of the Shirongol (Baoanic) group, spoken by the Bonan people of Gansu and Qinghai, China. Endonym Manikacha; heavily influenced by Chinese and Amdo Tibetan.",
     "m": 0,
-    "b": "Xunhua,Huzhu,Minhe,Tongren,Linxia,Jishishan,Tianzhu,Lanzhou,Xining",
+    "b": "Nianduhu,Guomare,Gasare,Baoan Xiazhuang,Ganhetan,Dadun,Meipo,Gaoli,Dahejia,Liuji",
     "status": "WAITING"
   },
   {
@@ -1296,7 +1296,7 @@ window.asiaNameBases = [
     "max": 12,
     "d": "Baoting Hlai is a variety of the Hlai (Li) languages, a Kra-Dai family of Hainan, China. The Bǎotíng (保亭) dialect is one of the recognized Hlai varieties (~24,000 speakers).",
     "m": 0,
-    "b": "Baoting,Sanya,Lingshui,Qiongzhong,Dongfang,Baisha,Changjiang,Wuzhishan",
+    "b": "Baocheng,Shiling,Jiamao,Xiangshui,Xinzheng,Shangeng",
     "status": "WAITING"
   },
   {
@@ -1306,7 +1306,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "",
+    "b": "Huangyandong,Malindong,Dazhendong",
     "status": "WAITING"
   },
   {
@@ -1316,17 +1316,17 @@ window.asiaNameBases = [
     "max": 11,
     "d": "Baekje Korean refers to the Koreanic language spoken in the Baekje (Paekche) kingdom of southwestern Korea (18 BCE-660 CE). Per the Paekche article, the common language was 'Baekje' (Koreanic), with Classical Chinese as the literary language.",
     "m": 0,
-    "b": "Gongju,Buyeo,Daejeon,Seoul,Jeonju,Gwangju,Nonsan,Busan,Cheongju,Chongjin",
+    "b": "Wirye,Ungjin,Sabi,Hanseong,Gongju,Buyeo,Iksan",
     "status": "WAITING"
   },
-  {
+{
     "name": "Bahnar",
     "i": 1028,
     "min": 3,
     "max": 12,
-    "d": "Bahnar (Ba-Na) is a North Bahnaric (Austroasiatic) language of Vietnam's Central Highlands, with numerous subgroups centered on Kon Tum and Gia Lai provinces. ~160,000 speakers (1999).",
+    "d": "",
     "m": 0,
-    "b": "Kon Tum,Pleiku,Gia Lai,An Khe,K'Bang,Kong Chro,Mang Yang,Dak Lak,Ban Me Thuot,Hue",
+    "b": "Kon Tum,Kon Rẫy,Đắk Hà,Đắk Tô,Mang Yang,An Khê,Kông Chro,K'Bang,Gia Lai,Pleiku",
     "status": "WAITING"
   },
   {
@@ -1336,7 +1336,7 @@ window.asiaNameBases = [
     "max": 12,
     "d": "",
     "m": 0,
-    "b": "Chittagong,Dhaka,Cox's Bazar",
+    "b": "Calcutta,Dacca,Chittagong,Hooghly,Balasore,Pipli,Chandernagore,Midnapore",
     "status": "WAITING"
   },
   {
@@ -1346,8 +1346,8 @@ window.asiaNameBases = [
     "max": 13,
     "d": "",
     "m": 0,
-    "b": "Prince Rupert,Port Edward,Metlakatla,Lax Kw'alaams,Kitsault,Kispiox,Hazelton,Smithers,Terrace,Kitimat,Stewart",
-    "status": "WAITING"
+    "b": "",
+    "status": "INVALID"
   },
   {
     "name": "Gelao",
@@ -1396,8 +1396,8 @@ window.asiaNameBases = [
     "max": 12,
     "d": "",
     "m": 0,
-    "b": "Sanya,Baoting,Lingshui,Tunchang,Qiongzhong,Dongfang,Danzhou,Ledong,Baisha,Changjiang,Lingao,Chengmai,Tongshi,Yinggehai,Jianfang,Qionghai,Wanning,Hebao,Mutang,Yazhou,Wuzhishan,Dingan",
-    "status": "COMPLETE"
+    "b": "Na Khê,Bạch Đích,Fanpo",
+    "status": "WAITING"
   },
   {
     "name": "Waneci",
@@ -1406,7 +1406,7 @@ window.asiaNameBases = [
     "max": 18,
     "d": "",
     "m": 0,
-    "b": "Tobah-Kakar,Chagai,Kohlu,Dera Bugti,Loralai,Zhob,Pishin,Killa Abdullah,Quetta,Washuk,Kalat,Mastung,Kharan,Barkhan,Chaman,Taftan,Rakhshan",
+    "b": "Harnai,Sibi,Ziarat,Loralai,Musakhel,Barkhan,Kohlu,Dera Bugti",
     "status": "WAITING"
   },
   {
@@ -1426,7 +1426,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Ternate,Tidore,Halmahera,Bacan,Ambon",
+    "b": "Bobaneigo,Nusa Ambu,Sondo-Sondo,Nusa Jaya,Talaga Jaya,Ekor,Saramaake,Daruba,Galo-Galo,Waringin,Pilowo",
     "status": "WAITING"
   },
   {
@@ -1436,7 +1436,7 @@ window.asiaNameBases = [
     "max": 9,
     "d": "",
     "m": 1,
-    "b": "Denpasar,Kuta,Ubud,Gianyar,Tabanan,Sanur,Singaraja,Seminyak,Canggu,Nusa Dua,Lovina,Amed",
+    "b": "Denpasar,Kuta,Ubud,Gianyar,Tabanan,Sanur,Singaraja,Seminyak,Canggu,Nusa Dua,Lovina,Amed,Ubud,Penglipuran,Tenganan,Celuk,Mas,Batuan,Sidemen,Tigawasa,Pedawa,Trunyan,Pemuteran,Lovina Beach,Munduk,Bedugul,Amed,Padang Bai,Candidasa,Seririt,Gilimanuk,Nusa Penida",
     "status": "WAITING"
   },
   {
@@ -1446,8 +1446,8 @@ window.asiaNameBases = [
     "max": 12,
     "d": "",
     "m": 1,
-    "b": "Dhaka,Chittagong,Khulna,Rajshahi,Sylhet,Narayanganj,Gazipur,Tangail,Manikganj,Munshiganj,Cox's Bazar,Brahmanbaria,Chandpur,Feni,Lakshmipur",
-    "status": "WAITING"
+    "b": "",
+    "status": "INVALID"
   },
   {
     "name": "Banjar",
@@ -1456,7 +1456,7 @@ window.asiaNameBases = [
     "max": 13,
     "d": "",
     "m": 0,
-    "b": "Banjarmasin,Banjarbaru,Martapura,Amuntai,Barabai,Kandangan,Rantau",
+    "b": "Banjarmasin,Banjarbaru,Martapura,Amuntai,Barabai,Kandangan,Rantau,Alabio,Tanah Laut,Pelaihari,Marabahan,Belandean,Berakat,Tambang Ulang,Pematang Panjang,Pulau Laut",
     "status": "WAITING"
   },
   {
@@ -1466,7 +1466,7 @@ window.asiaNameBases = [
     "max": 14,
     "d": "",
     "m": 0,
-    "b": "Bareq,Abha,Bisha,Khamis Mushait",
+    "b": "Bareq,Abha,Bisha,Khamis Mushait,Muhayil,Tathlith,Al Namas,Baljurashi,Balqarn,Mahayil",
     "status": "WAITING"
   },
   {
