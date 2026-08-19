@@ -5768,8 +5768,8 @@ window.africaNameBases = [{
     "max": 7,
     "d": "",
     "m": 0,
-    "b": "Kirya, Mijilu",
-    "status": "WAITING"
+    "b": "Kirya,Mijilu,Adamawa State",
+    "status": "COMPLETE"
   },
 {
     "name": "Koenoem",
@@ -5778,8 +5778,8 @@ window.africaNameBases = [{
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Lifidi, Nwoop, Koezam, Kumshimak, Koemu, Zamder, Pangsot, Pangshot, Zomo, Lifin, Koesalak, Tingyilshen, Kongya, Kongbozuk, Tingzam, Lamer",
-    "status": "WAITING"
+    "b": "Lifidi,Nwoop,Koezam,Kumshimak,Koemu,Zamder,Pangsot,Pangshot,Zomo,Lifin,Tingyilshen,Kongya,Kongbozuk,Tingzam,Lamer,Koenoem District,Mikang LGA,Plateau State",
+    "status": "COMPLETE"
   },
 {
     "name": "Kubi",
@@ -5788,8 +5788,8 @@ window.africaNameBases = [{
     "max": 4,
     "d": "",
     "m": 0,
-    "b": "Kubi",
-    "status": "WAITING"
+    "b": "Kubi,Bauchi State,Darazo LGA,Ganjuwa LGA",
+    "status": "COMPLETE"
   },
 {
     "name": "Kulere",
@@ -5807,8 +5807,8 @@ window.africaNameBases = [{
     "max": 7,
     "d": "",
     "m": 0,
-    "b": "Bambur, Balasa, Banyam, Kirim, Bangai, Worom, Darofai, Materum, Didango, Zailani, Kalanko, Kagon, Lawau, Baraia, Ndalang, Gerere",
-    "status": "WAITING"
+    "b": "Karim Lamido LGA,Taraba State,Darofai,Balasa,Banyam,Materum,Didango,Zailani,Kirim,Bambuka",
+    "status": "COMPLETE"
   },
 {
     "name": "Kutto",
@@ -5817,8 +5817,8 @@ window.africaNameBases = [{
     "max": 10,
     "d": "",
     "m": 0,
-    "b": "Kupto, Kupto Gana",
-    "status": "WAITING"
+    "b": "Kupto,Bauchi State,Nigeria",
+    "status": "COMPLETE"
   },
 {
     "name": "Kwaami",
@@ -5846,8 +5846,8 @@ window.africaNameBases = [{
     "max": 12,
     "d": "",
     "m": 0,
-    "b": "Logone-Birni, Logone-Gana, Mré, Kabela",
-    "status": "WAITING"
+    "b": "Logone-Birni,Mré,Kabela,Hinale,Mboudoufka,Kalkoussam,Goudjari,Zigue,Goulouadma,Ngame,Houzoume,Mdaga,Waza,Baram,Ngazi,Ble,Mbehche,Zigague,Logone-Gana,Douvoul,Aouri,Gwafa,Mezil,Mandalia,Kraska,Gazalfoul",
+    "status": "COMPLETE"
   },
 {
     "name": "Lamang",
@@ -5856,8 +5856,8 @@ window.africaNameBases = [{
     "max": 9,
     "d": "",
     "m": 0,
-    "b": "Gwoza, Wakane, Hidkala, Vile, Hambagda, Hudugum, Luvua, Uvagha, Limankara, Waga, Wala, Fachikwe, Divili",
-    "status": "WAITING"
+    "b": "Gwoza,Wakane,Hidkala,Vile,Hambagda,Hudugum,Luvua,Uvagha,Limankara,Waga,Wala,Fachikwe",
+    "status": "COMPLETE"
   },
 {
     "name": "Lele language (Chad)",
@@ -5885,8 +5885,8 @@ window.africaNameBases = [{
     "max": 6,
     "d": "",
     "m": 0,
-    "b": "Gulani, Bara",
-    "status": "WAITING"
+    "b": "Gulani,Bara,Yobe State",
+    "status": "COMPLETE"
   },
 {
     "name": "Mabire",
@@ -5895,8 +5895,8 @@ window.africaNameBases = [{
     "max": 9,
     "d": "",
     "m": 0,
-    "b": "Oulek, Katch, Amdjaména, Arga, Mambire",
-    "status": "WAITING"
+    "b": "Oulek,Katch,Amdjaména,Arga,Mambire,Guéra Province",
+    "status": "COMPLETE"
   },
 {
     "name": "Mada",
@@ -5924,8 +5924,8 @@ window.africaNameBases = [{
     "max": 7,
     "d": "",
     "m": 0,
-    "b": "Majera,Mazera,Dogwea",
-    "status": "WAITING"
+    "b": "Majéra,Logone-Birni,Zina,Logone-et-Chari,Far North Region,Cameroon,Mayo-Kebbi,Chad",
+    "status": "COMPLETE"
   },
 {
     "name": "Malagasy",
@@ -5974,8 +5974,8 @@ window.africaNameBases = [{
     "max": 8,
     "d": "",
     "m": 0,
-    "b": "Mangas,Dungulbi",
-    "status": "WAITING"
+    "b": "Mangas,Mantsi village,Bauchi State,Bauchi LGA,Bayera,Dungulbi,Bashirgal,Rumsa",
+    "status": "COMPLETE"
   },
 {
     "name": "Mao Omotic",
@@ -5984,8 +5984,8 @@ window.africaNameBases = [{
     "max": 8,
     "d": "",
     "m": 0,
-    "b": "Bambassi,Diddesa,Mutsa,Wamba,Gome,Yaku,Shewara,Kusa",
-    "status": "WAITING"
+    "b": "Bambassi,Diddesa,Muts'a,Wamba,Gome,Kash Mendo,Asosa,Dimt'u,Metahara,Benishangul-Gumuz,Oromia",
+    "status": "COMPLETE"
   },
 {
     "name": "Marba",
@@ -6004,8 +6004,8 @@ window.africaNameBases = [{
     "max": 7,
     "d": "",
     "m": 0,
-    "b": "Hildi,Wamdiu",
-    "status": "WAITING"
+    "b": "Hildi,Wamdiu,Borno State,Adamawa State,Nigeria",
+    "status": "COMPLETE"
   },
 {
     "name": "Masa (macro)",

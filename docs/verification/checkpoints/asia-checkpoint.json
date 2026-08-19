@@ -1,7 +1,7 @@
 {
   "totalEntries": 1267,
-  "nextEntry": "Continuing from line ~3475 (after Dorbet Oirat) - processed multiple WAITING entries",
-  "lastUpdate": "2026-08-19T12:00:00-07:00",
+  "nextEntry": "Continuing from line ~3635 (after Ekherit Bulagat Buryat) - processed multiple WAITING entries",
+  "lastUpdate": "2026-08-19T13:45:00-07:00",
   "blockers": [],
   "waiting": [
     "Semaq Beri(i=119,9)",
@@ -254,12 +254,28 @@
     "Dimasa(i=1703,7)",
     "Domaaki(i=1704,0) - WAITING",
     "Dameli(i=1706,2)",
-    "Dorbet Oirat(i=1714,7)"
+    "Dorbet Oirat(i=1714,7)",
+    "Dolpo(i=1717,8) - COMPLETE",
+    "Darai(i=1718,12)",
+    "Duan(i=1719,0) - WAITING",
+    "Duruwa(i=1724,4)",
+    "E mixed(i=1726,0) - INVALID",
+    "Early Modern Korean(i=1727,0) - WAITING",
+    "East Bodish(i=1728,8) - WAITING (cover term)",
+    "Duan Bahnaric(i=1732,0) - WAITING (cover term)",
+    "Eastern Himalayas(i=1738,0) - WAITING (region)",
+    "Eastern Itelmen(i=1739,8) - COMPLETE",
+    "Arh(i=1741,0) - INVALID",
+    "Bmr(i=1742,0) - INVALID",
+    "Dzao Min(i=1745,11)",
+    "Eastern Min(i=1747,12)",
+    "Eastern Yugur(i=1753,4)",
+    "Ekherit Bulagat Buryat(i=1758,6)"
   ],
-  "lastIndex": "1714",
+  "lastIndex": "1758",
   "status": "in_progress",
   "pipeline": "Manual verification per protocol -> guardrails",
-  "lastEntry": "Dorbet Oirat at line ~3475",
-  "verifiedEntriesThisSession": 147,
+  "lastEntry": "Ekherit Bulagat Buryat at line ~3635",
+  "verifiedEntriesThisSession": 153,
   "continent": "asia"
 }

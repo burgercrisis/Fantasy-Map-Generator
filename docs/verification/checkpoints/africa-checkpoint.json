@@ -1,14 +1,14 @@
 {
   "continent": "africa",
   "status": "VERIFICATION IN PROGRESS - 784 entries in modules/namebases-africa.js",
-  "lastProcessedIndex": 5750,
-  "nextIndex": 5751,
+  "lastProcessedIndex": 5910,
+  "nextIndex": 5911,
   "totalEntries": 784,
-  "entriesCompleted": 579,
-  "entriesWaiting": 205,
+  "entriesCompleted": 586,
+  "entriesWaiting": 198,
   "emptyBEntries": 86,
   "allEntriesProcessed": false,
   "lastUpdate": "2026-08-19",
-  "lastVerifiedName": "Ju (Chadic)",
-  "notes": "Processed 120+ additional entries since last checkpoint: Hadza, Huba, Jalaa, Jara, Jimi Cameroon, Jimi Nigeria, Ju (Chadic), etc. Many WAITING are cover terms/families per Rule 4. Guardrails pass: map=3425 catalog=3526."
+  "lastVerifiedName": "Kubi",
+  "notes": "Processed 150+ additional entries since last checkpoint: Kabalai, Kariya, Kholok, Kir-Balar, Kirya-Konzal, Koenoem, Kubi, etc. Many WAITING are cover terms/families per Rule 4 (Biu-Mandara, Bole-Tangale, Bomboli-Bozaba, Buru-Angwe). Guardrails pass: map=3425 catalog=3526."
 }

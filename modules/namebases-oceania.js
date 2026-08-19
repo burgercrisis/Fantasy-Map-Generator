@@ -648,7 +648,8 @@ window.oceaniaNameBases = [
     "max": 10,
     "d": "",
     "m": 0,
-    "b": "Tannan,Deli,Shuanglong,Tungpu,Tongfu,Shenmu,Wangmei,Luona,Xinxiang,Zijiang,Aiguo,Mingde,Renhe,Fengqiu,Hongye,Luanshan,Taoyuan,Wuling,Yongkang,Jiana,Kanding,Haiduan,Guangyuan,Wulu,Lidao"
+    "b": "Tannan,Deli,Shuanglong,Tungpu,Tongfu,Shenmu,Wangmei,Luona,Xinxiang,Zijiang,Aiguo,Mingde,Renhe,Fengqiu,Hongye,Luanshan,Taoyuan,Wuling,Yongkang,Jiana,Kanding,Haiduan,Guangyuan,Wulu,Lidao",
+    "status": "WAITING"
   },
 
   {
@@ -1670,7 +1671,8 @@ window.oceaniaNameBases = [
     "max": 13,
     "d": "",
     "m": 0,
-    "b": "Mbilua,Vella Lavella,Biluale,Kolekole,Singeri,Doveli,Soma,Vongu,Poko,Gege,Gamukama,Kosap,Kurimudi,Piliva,Nukunonu"
+    "b": "Mbilua,Vella Lavella,Biluale,Kolekole,Singeri,Doveli,Soma,Vongu,Poko,Gege,Gamukama,Kosap,Kurimudi,Piliva,Nukunonu",
+    "status": "WAITING"
   },
 
   {
@@ -1680,7 +1682,8 @@ window.oceaniaNameBases = [
     "max": 10,
     "d": "",
     "m": 0,
-    "b": "Panaras,Kama,Nur,Nurata,Panapompom,Natsale,Natnalai,Simbiri,Katendan,Buer,Lamalaua,Kuot,Vatia,Funaota,Tulagi,Sili,Pangai,Tafuna,Tufumahina,Maia,Temotu,Maewo,Vaiala,Longoteme,Sailele"
+    "b": "Panaras,Kama,Nur,Nurata,Panapompom,Natsale,Natnalai,Simbiri,Katendan,Buer,Lamalaua,Kuot,Vatia,Funaota,Tulagi,Sili,Pangai,Tafuna,Tufumahina,Maia,Temotu,Maewo,Vaiala,Longoteme,Sailele",
+    "status": "WAITING"
   },
 
   {
@@ -1690,7 +1693,8 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Alor Island,Woisika,Lembur,Sibo,Tiayai,Watang,Kamana,Aemua,Aabe,Langdur,Siufaga,Pyrenees,Ambae,Sataua,Vaini,Tula,Lifuka,Aniwa,Manono,Taunga,Malaeloa,Vaitupu,Pagai,Anoso,Anale"
+    "b": "Alor Island,Woisika,Lembur,Sibo,Tiayai,Watang,Kamana,Aemua,Aabe,Langdur,Siufaga,Pyrenees,Ambae,Sataua,Vaini,Tula,Lifuka,Aniwa,Manono,Taunga,Malaeloa,Vaitupu,Pagai,Anoso,Anale",
+    "status": "WAITING"
   },
 
   {
@@ -1700,7 +1704,8 @@ window.oceaniaNameBases = [
     "max": 15,
     "d": "",
     "m": 0,
-    "b": "Katsiong,Morobe Province,Tsewi ward,Kome Rural LLG,Menyamya,Angan,Hamtai,Kawatsa,Pangaimotu,Nui,Ofu,Ohonua,Fagasa,Asau,Norsup,Lauli,Kolofoou,Kongo,Norfolk,Satupaitea,Nu'uuli,Makaunga,Alokoa,Afagi,Anukoa"
+    "b": "Katsiong,Morobe Province,Tsewi ward,Kome Rural LLG,Menyamya,Angan,Hamtai,Kawatsa,Pangaimotu,Nui,Ofu,Ohonua,Fagasa,Asau,Norsup,Lauli,Kolofoou,Kongo,Norfolk,Satupaitea,Nu'uuli,Makaunga,Alokoa,Afagi,Anukoa",
+    "status": "WAITING"
   },
 
   {
@@ -6084,11 +6089,11 @@ window.oceaniaNameBases = [
   {
     "name": "Yagaria",
     "i": 201228,
-    "min": 0,
-    "max": 0,
+    "min": 4,
+    "max": 9,
     "d": "",
     "m": 0,
-    "b": "",
+    "b": "Higivavi,Oliguti,Kami,Forapi No. 1,Litipinaga,Gotomi,Lufugu,Kiseveroka,Kogoraipa,Daginava,Nupuru",
     "status": "WAITING"
   },
 

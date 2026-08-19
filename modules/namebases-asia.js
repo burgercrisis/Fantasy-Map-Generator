@@ -3486,7 +3486,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Dolpa,Dunai,Juphal,Tinje,Saldang,Kaigaon,Majphal,Bhijer"
+    "b": "Dolpa,Dunai,Juphal,Tinje,Saldang,Kaigaon,Majphal,Bhijer",
+    "status": "COMPLETE"
   },
   {
     "name": "Darai",
@@ -3495,7 +3496,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Tanahun,Nawalparasi,Gorkha,Kathar,Narayani,XiengKhouang,Prem,Chitwan,Bharatpur,Chainpur,Mangalpur,Gajarkot,Saranghat,Gaindakot,TanHiep,TanThanh,Changning,ALuoi,CangLong,Menglian,NgocHoi,TanPhuoc,Fang,SonLa,PhuGiao,Sapan,TraVinh,Anauru,Abebghat,Aliguru,Abisghat,Abiuru,Aborkonda,Aduburu,Alemghat,Aomkonda,Amesuru,Akunghat,Akosuru,Amokonda,Adusghat,Anorghat,Daraipur,Darainagar,Daraibad,Daraikot,Daraiwada"
+    "b": "Tanahun,Nawalparasi,Gorkha,Kathar,Narayani,Chitwan,Bharatpur,Chainpur,Mangalpur,Gajarkot,Saranghat,Gaindakot",
+    "status": "WAITING"
   },
   {
     "name": "Duan",
@@ -3504,7 +3506,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Sanamxay,Sedang,Xơ Đăng,Cua,Lang,Mo Rai,Takua,Kayong,Halang,Rengao,MoCay,ChuPah,KengTung,DaTeh,MaeSuay,HaGiang,LocNinh,Kon Tum,Attapeu,Gengma,Xaisomboun,ThungChang,GoCong,HocMon,SobPrab,TamBinh,HongNgu,Aliwada,Adadpalli,Akaswada,Aberpeta,Aputwada,Amugwada,Amabpalli,Apelpeta,Aborwada,Ailpeta,Alatpalli,Aetwada,Aagpeta,Adanpalli,Akaspeta,Duanpur,Duannagar,Duanbad,Duankot,Duanwada"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Duruwa",
@@ -3513,7 +3516,8 @@ window.asiaNameBases = [
     "max": 12,
     "d": "",
     "m": 0,
-    "b": "Tiriya,Nethanar,Dharba,Kukanar"
+    "b": "Tiriya,Nethanar,Dharba,Kukanar",
+    "status": "WAITING"
   },
   {
     "name": "E mixed",
@@ -3522,7 +3526,8 @@ window.asiaNameBases = [
     "max": 15,
     "d": "",
     "m": 0,
-    "b": "Guangxi,Simo,Xinglong,Yongle,Northern Zhuang,Mulam,Kam,Moca,Luquillo,Salinas,Yabucoa,TrujilloAlto,TheBottom,LasMarias,Lares,ToaAlta,Loiza,Oranjestad,Yauco,Corozal,Guánica,Rongshui,Luocheng,Xiatan,Ponce,Aladwood,Afotbridge,Akeville,Anibwood,Apagville,Aegville,Adawood,Abunwood,Abusville,Alurville,Akalwood,Amobbridge,Akebwood,Afinwood,Aotville,Emixedtown,Emixedville,Emixedburg,Emixedview,Emixedside"
+    "b": "",
+    "status": "INVALID"
   },
   {
     "name": "Early Modern Korean",
@@ -3531,7 +3536,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Seoul,Incheon,Daegu,Daejeon,Gwangju,Suwon,Changwon,Goyang,Yongin,Seongnam,Busan,Ulsan,Jeonju,Cheongju,Pohang,Gyeongju,Andong,Jeju,Chuncheon,Gangneung,Gunsan,Mokpo,Wonju,Iksan,Chongjin,Hamhung,Pyongyang,Kaesong,Nampo,Wonsan,Haeju,Sinuiju,Adiland,Aurtown,Aomtown,Abasland,Akoland,Aniktown,Adadford,Apantown,Alutland,Afugland,Afartown,Aliltown,Anokland,Amomtown,Adatford,EarlyModernKoreantown,EarlyModernKoreanville,EarlyModernKoreanburg,EarlyModernKoreanview,EarlyModernKoreanside"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "East Bodish",
@@ -3540,7 +3546,8 @@ window.asiaNameBases = [
     "max": 13,
     "d": "",
     "m": 0,
-    "b": "Bumthang,Kheng,Kurtöp,Dakpa,Dzala,Chali,Nyen,Tawang"
+    "b": "Bumthang,Kheng,Kurtöp,Dakpa,Dzala,Chali,Nyen,Tawang",
+    "status": "WAITING"
   },
   {
     "name": "Duan Bahnaric",
@@ -3549,7 +3556,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Bahnar,Takua,Kayong,Halang,Rengao,SopPrap,Kontum,Ximeng,ChaiPrakarn,Attapeu,Sekong,Savannakhet,Kon Tum,Pleiku,Gia Lai,Doan,TraVinh,TanUyen,CaiLay,ChauDoc,Yunlong,ChauThanh,SaThay,GoCong,Phonsavan,Dran,LaiChau,Apitghat,Aagnagar,Afonnagar,Adutghat,Akerghat,Amobnagar,Apomghat,Amitnagar,Alegnagar,Amanghat,Anaskot,Akennagar,Aitghat,Aranagar,Afagkot,DuanBahnaricpur,DuanBahnaricnagar,DuanBahnaricbad,DuanBahnarickot,DuanBahnaricwada"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Eastern Himalayas",
@@ -3558,7 +3566,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Thimphu,Paro,Punakha,Wangdue,Trongsa,Bumthang,Mongar,Lhuntse,Gezing,Pelling,Kalimpong,Mawsynram,Alipurduar,Haflong,Diphu,Gangtok,Rangpo,Namchi,Darjeeling,Itanagar,Tawang,Bomdila,Ziro,Shillong,Cherrapunji,Aizawl,Kohima,Imphal,Agartala,Siliguri,Jalpaiguri,Baghmara,Nongstoin"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Eastern Itelmen",
@@ -3567,7 +3576,8 @@ window.asiaNameBases = [
     "max": 24,
     "d": "",
     "m": 2,
-    "b": "Petropavlovsk-Kamchatsky,Elizovo,Klyuchi,Ust-Kamchatsk,Palana,Ossora,Manily,Kovran"
+    "b": "Petropavlovsk-Kamchatsky,Elizovo,Klyuchi,Ust-Kamchatsk,Palana,Ossora,Manily,Kovran",
+    "status": "COMPLETE"
   },
   {
     "name": "Arh",
@@ -3576,7 +3586,8 @@ window.asiaNameBases = [
     "max": 28,
     "d": "",
     "m": 1,
-    "b": "Valledupar,Riohacha,Aguachica,San Juan del Cesar"
+    "b": "",
+    "status": "INVALID"
   },
   {
     "name": "Bmr",
@@ -3585,7 +3596,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Mocoa,Solano"
+    "b": "",
+    "status": "INVALID"
   },
   {
     "name": "Dzao Min",
@@ -3594,7 +3606,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Yizhang,Bapai,Daping,Junliao,Nan'gang,Panshi,Youling,Liannan,Yangshan,Mangshan,Ruyuan"
+    "b": "Yizhang,Bapai,Daping,Junliao,Nan'gang,Panshi,Youling,Liannan,Yangshan,Mangshan,Ruyuan",
+    "status": "WAITING"
   },
   {
     "name": "Eastern Min",
@@ -3603,7 +3616,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Ningde,Fuzhou,Fuqing,Changle,Minhou,Lianjiang,Luoyuan,Minqing,Pingnan,Gutian,Pingtan,Yongtai"
+    "b": "Ningde,Fuzhou,Fuqing,Changle,Minhou,Lianjiang,Luoyuan,Minqing,Pingnan,Gutian,Pingtan,Yongtai",
+    "status": "WAITING"
   },
   {
     "name": "Eastern Yugur",
@@ -3612,7 +3626,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Sunan,Zhangye,Dunhuang,Ganzhou"
+    "b": "Sunan,Zhangye,Dunhuang,Ganzhou",
+    "status": "WAITING"
   },
   {
     "name": "Ekherit Bulagat Buryat",
@@ -3621,7 +3636,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 2,
-    "b": "Ust-Orda,Irkutsk,Barguzin,Khorinsk,Ulan-Ude,Buryatia"
+    "b": "Ust-Orda,Irkutsk,Barguzin,Khorinsk,Ulan-Ude,Buryatia",
+    "status": "WAITING"
   },
   {
     "name": "Ekhirit Bulagat Buryat",
@@ -3630,7 +3646,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 2,
-    "b": "Ust-Orda,Irkutsk,Barguzin,Khorinsk,Ulan-Ude,Buryatia"
+    "b": "Ust-Orda,Irkutsk,Barguzin,Khorinsk,Ulan-Ude,Buryatia",
+    "status": "INVALID"
   },
   {
     "name": "Eravallan",
@@ -3639,7 +3656,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Chittur,Ernakulam,Kasaragod,Palakkad,Thrissur,Idukki,Wayanad,Kozhikode,Malappuram,Coimbatore,Salem,Dharmapuri,Tirupur,Erode,Kannur"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Even",
@@ -3648,7 +3666,8 @@ window.asiaNameBases = [
     "max": 14,
     "d": "",
     "m": 0,
-    "b": "Evensk,Bilibino,Esso,Ola,Chersky,Deputatsky,Sebyan-Kyuyol,Berezovka,Andryushkino,Russkoye Ustye,Anadyr,Aldan,Magadan"
+    "b": "Evensk,Bilibino,Esso,Ola,Chersky,Deputatsky,Sebyan-Kyuyol,Berezovka,Andryushkino,Russkoye Ustye,Anadyr,Aldan,Magadan",
+    "status": "COMPLETE"
   },
   {
     "name": "Ewenic",
@@ -3657,7 +3676,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Chukotka,Kamchatka,Kolyma,Indigirka,Lena,Yana,Okhotsk,Anadyr,Bilibino,Esso,Ola,Evensk,Chersky,Deputatsky,Dudinka,Vanavara,Kuyumba,Poligus,MuangSai,MaeCharim,TienYen,BinhLong,Magadan,Aldan,Tura,DucHoa,Wuwei,CangLong,LapVo,Lijiang,TuyAnh,GoCongTay,Mengla,ThuongDuc,Thoeng,XuanLoc,Abelkot,Afukkot,Amigkonda,Adenghat,Anabkonda,Alalkot,Afemghat,Akitkonda,Amugkot,Abenkot,Aloskonda,Adeghat,Amilkot,Abelkonda,Akikkot,Ewenicpur,Ewenicnagar,Ewenicbad,Ewenickot,Ewenicwada"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Dogri",
@@ -3666,7 +3686,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Jammu,Kathua,Samba,Reasi,Poonch,Doda,Kishtwar,Chamba,Kangra,Mandi,Kullu,Una,Shakargarh,Udhampur,Rajouri,Ramban,Bilaspur,Solan,Hamirpur,Pathankot,Gurdaspur,Hoshiarpur"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Dongjia",
@@ -3675,7 +3696,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Majiang,Liubao,Xingshan"
+    "b": "Majiang,Liubao,Xingshan",
+    "status": "WAITING"
   },
   {
     "name": "Dongxiang",
@@ -3684,7 +3706,8 @@ window.asiaNameBases = [
     "max": 12,
     "d": "",
     "m": 0,
-    "b": "Linxia,Lanzhou,Dingxi,Hezheng,Tangwang"
+    "b": "Linxia,Lanzhou,Dingxi,Hezheng,Tangwang",
+    "status": "WAITING"
   },
   {
     "name": "Tsez",
@@ -3693,7 +3716,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Tsunta,Kidero,Gudatl,Azilta,Shaitl,Asakh,Retlob,Shapikh,Hupri,Sagada,Mitluda,Tsebari,Mokok"
+    "b": "Tsunta,Kidero,Gudatl,Azilta,Shaitl,Asakh,Retlob,Shapikh,Hupri,Sagada,Mitluda,Tsebari,Mokok",
+    "status": "COMPLETE"
   },
   {
     "name": "Dzongkha",
@@ -3702,7 +3726,8 @@ window.asiaNameBases = [
     "max": 16,
     "d": "",
     "m": 0,
-    "b": "Thimphu,Paro,Punakha,WangduePhodrang,Wangdue,Trongsa,Bumthang,Mongar,Lhuntse,Gelephu,Phuntsholing,SamdrupJongkhar,Tsirang,Dagana,Sarpang,Zhemgang,Trashigang,Samtse,Chukha,Haa,Pemagatshel,Trashiyangtse,Gasa,Laya,Lunana,Jakar,Phuentsholing"
+    "b": "Thimphu,Paro,Punakha,WangduePhodrang,Trongsa,Bumthang,Mongar,Lhuntse,Gelephu,Phuntsholing,SamdrupJongkhar,Tsirang,Dagana,Sarpang,Zhemgang,Trashigang,Samtse,Chukha,Haa,Pemagatshel,Trashiyangtse,Gasa,Laya,Lunana,Jakar,Phuentsholing",
+    "status": "COMPLETE"
   },
   {
     "name": "Goryeo Korean",
@@ -3741,7 +3766,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Goseong,Chuncheon,Gangneung,Donghae,Samcheok,Sokcho,Pyeongchang,Jeongseon,Yeongwol,Hongcheon,Cheorwon,Hwacheon,Yanggu,Inje,Yangyang,Taebaek"
+    "b": "Goseong,Chuncheon,Gangneung,Donghae,Samcheok,Sokcho,Pyeongchang,Jeongseon,Yeongwol,Hongcheon,Cheorwon,Hwacheon,Yanggu,Inje,Yangyang,Taebaek",
+    "status": "WAITING"
   },
   {
     "name": "Gaya Korean",
@@ -3750,7 +3776,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Goryeong,Gimhae,Changwon,Jinju,Tongyeong,Gyeongju,Daegu,Busan,Seoul,Andong,Miryang"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Garhwali",
@@ -3759,7 +3786,8 @@ window.asiaNameBases = [
     "max": 14,
     "d": "",
     "m": 0,
-    "b": "Tehri,Uttarkashi,Chamoli,Rudraprayag,Mussoorie,Rishikesh,Joshimath,Badrinath,Kedarnath,Pauri,Gairsain,Devprayag,Kotdwara"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Godoberi",
@@ -3777,7 +3805,8 @@ window.asiaNameBases = [
     "max": 47,
     "d": "",
     "m": 0,
-    "b": "Matang Gejia Village,Wangba Village,Fengxiang Village,Kaili City,Chongxing Township"
+    "b": "Matang Gejia Village,Wangba Village,Fengxiang Village,Kaili City,Chongxing Township",
+    "status": "WAITING"
   },
   {
     "name": "Gurgula",
@@ -3786,16 +3815,18 @@ window.asiaNameBases = [
     "max": 21,
     "d": "",
     "m": 0,
-    "b": "Karachi,Hyderabad,Sukkur,Larkana,Nawabshah,Thatta,Tando Allahyar,Tando Muhammad Khan,Matli,Badin,Mirpur Khas,Tharparkar,Sanghar,Naushahro Feroze,Dadu,Kashmore,Ghotki,Rohri,Pano Aqil,Khairpur,Umerkot"
+    "b": "",
+    "status": "WAITING"
   },
-  {
+{
     "name": "Gta",
     "i": 1871,
     "min": 4,
     "max": 29,
     "d": "",
     "m": 0,
-    "b": "Brazil,Paraguay,Bolivia,Mato Grosso do Sul,Mato Grosso,Pantanal,Cuiabá,Campo Grande,Corumbá,Ladário,Poconé,Barão de Melgaço,Cáceres,Chapada dos Guimarães,Nobres,Planalto da Serra,São Félix do Araguaia,Serra do Cachimbo,Serra da Bodoquena,Serra do Amolar,Serra do Urubu,Serra do Cipo,Serra do Lacerda,Serra do Salitre,Serra do Tapirapuã,Serra do Urucum,Serra dos Caiuás,Serra dos Martírios,Serra dos Parecis,Serra dos Tinguis,Serra dos Urupes,Serra do Abunã,Serra do Anauá,Serra do Aracá,Serra do Arari,Serra do Aripuanã,Serra do Bom Futuro,Serra do Bonito,Serra do Buriti,Serra do Cachoeira,Serra do Cajú,Serra do Cametá,Serra do Canaã,Serra do Cantá,Serra do Caracaraí,Serra do Carajá,Serra do Castanheira,Serra do Caxias,Serra do Cipó,Serra do Coari,Serra do Codajás,Serra do Cotriguaçu,Serra do Curuçá,Serra do Cutias,Serra do Divino,Serra do Divinolândia,Serra do Dom Aquino,Serra do Espigão d'Oeste,Serra do Forte,Serra do Gavião,Serra do Guajará,Serra do Guajará-Mirim,Serra do Icó,Serra do Iguatemi,Serra do Ipixuna,Serra do Itaituba,Serra do Itaporanga,Serra do Itu,Serra do Japurá,Serra do Jirau,Serra do Juruena,Serra do Jutaí,Serra do Lábrea,Serra do Macapá,Serra do Maracá,Serra do Maranhão,Serra do Maués,Serra do Mucajaí,Serra do Mutum,Serra do Nhamundá,Serra do Novo Airão,Serra do Novo Horizonte,Serra do Pacaraima,Serra do Pará,Serra do Parintins,Serra do Pau d'Arco,Serra do Peixe,Serra do Pelotas,Serra do Pimenta Bueno,Serra do Pindorama,Serra do Piracicaba,Serra do Piracuruca,Serra do Piranheira,Serra do Pitanga,Serra do Prainha,Serra do Quilombo,Serra do Rio Branco,Serra do Rio Negro,Serra do Rondônia,Serra do Roraima,Serra do Salgado,Serra do Santa Isabel,Serra do Santa Maria,Serra do Santa Tereza,Serra do Santarém,Serra do São Félix,Serra do São Gabriel,Serra do São João,Serra do São José,Serra do São Luís,Serra do São Miguel,Serra do São Paulo,Serra do São Pedro,Serra do São Sebastião,Serra do Sapucaí,Serra do Tapajós,Serra do Tapirapé,Serra do Tefé,Serra do Teresina,Serra do Tocantins,Serra do Tonantins,Serra do Toritama,Serra do Tucumã,Serra do Tucuruí,Serra do Turilândia,Serra do Ubatuba,Serra do Uberlândia,Serra do Umuarama,Serra do Uniflor,Serra do Uruburetama,Serra do Uruana,Serra do Urucuia,Serra do Uruguaiana,Serra do Vacaria,Serra do Valença,Serra do Vargem Grande,Serra do Várzea Grande,Serra do Venda Nova,Serra do Vera Cruz,Serra do Vespasiano,Serra do Viçosa,Serra do Vila Velha,Serra do Vinhedo,Serra do Virgem da Lapa,Serra do Vista Alegre,Serra do Vitória,Serra do Vitória da Conquista,Serra do Volta Redonda,Serra do Votorantim,Serra do Votuporanga,Serra do Xanxerê,Serra do Xingu,Serra do Xique-Xique,Serra do Zabelê,Serra do Zacarias,Serra do Zé Doca,Serra do Zé Gomes,Serra do Zé Maria,Serra do Zé Mota,Serra do Zé Rui,Serra do Zeca,Serra do Zeferino,Serra do Zenóbio,Serra do Zilda,Serra do Ziraldo,Serra do Zita,Serra do Ziza,Serra do Zizi,Serra do Zoca,Serra do Zorra,Serra do Zumbi"
+    "b": "",
+    "status": "INVALID"
   },
   {
     "name": "Guiyang",
@@ -3804,7 +3835,8 @@ window.asiaNameBases = [
     "max": 14,
     "d": "",
     "m": 0,
-    "b": "Guiyang,Kaili,Anshun,Qingzhen,Xifeng,Xiuwen,Huaxi,Qingyan,Nanming,Pingba,Ziyun,Changshun,Longli,Huangping"
+    "b": "Guiyang,Kaili,Anshun,Qingzhen,Xifeng,Xiuwen,Huaxi,Qingyan,Nanming,Pingba,Ziyun,Changshun,Longli,Huangping",
+    "status": "WAITING"
   },
   {
     "name": "Hezhang Buyi",
@@ -3813,7 +3845,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Hezhang,Weining,Zhijin,Shuicheng,Anshun,Xingyi,Pingba,Libo,Zunyi,Qiannan,Qianxinan"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Hezhou",
@@ -3822,7 +3855,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Hezhou,Linxia,Xunhua,Guanghe,Jishishan,Dongxiang,Tangwang,Zhongwang"
+    "b": "Hezhou,Linxia,Xunhua,Guanghe,Jishishan,Dongxiang,Tangwang,Zhongwang",
+    "status": "WAITING"
   },
   {
     "name": "Hiligaynon",
@@ -3831,7 +3865,8 @@ window.asiaNameBases = [
     "max": 14,
     "d": "",
     "m": 0,
-    "b": "Iloilo City,Bacolod,Roxas,Kabankalan,San Carlos,Silay,Talisay,Bago,Cadiz,Sagay,Escalante,Victorias,La Carlota,Himamaylan,Sipalay,Passi,Oton,Pototan,Pavia,Santa Barbara,Cabatuan,Janiuay,Miagao,Guimbal,Tigbauan,Leon,Dumangas,Barotac Nuevo,Banate,Anilao,Dingle,Dueñas,Calinog,Lambunao,Jordan,Buenavista,Nueva Valencia,Koronadal,Isabela,San Miguel,Leganes"
+    "b": "Iloilo City,Bacolod,Roxas,Kabankalan,San Carlos,Silay,Talisay,Bago,Cadiz,Sagay,Escalante,Victorias,La Carlota,Himamaylan,Sipalay,Passi,Oton,Pototan,Pavia,Santa Barbara,Cabatuan,Janiuay,Miagao,Guimbal,Tigbauan,Leon,Dumangas,Barotac Nuevo,Banate,Anilao,Dingle,Dueñas,Calinog,Lambunao,Jordan,Buenavista,Nueva Valencia,Koronadal,Isabela,San Miguel,Leganes",
+    "status": "COMPLETE"
   },
   {
     "name": "Hindustani",
@@ -3840,7 +3875,8 @@ window.asiaNameBases = [
     "max": 13,
     "d": "",
     "m": 0,
-    "b": "Delhi,Mumbai,Kolkata,Chennai,Bangalore,Hyderabad,Ahmedabad,Pune,Jaipur,Lucknow,Kanpur,Patna,Varanasi"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Hkongso",
@@ -3849,7 +3885,8 @@ window.asiaNameBases = [
     "max": 12,
     "d": "",
     "m": 0,
-    "b": "Paletwa,Bahungtong,Halawa,Kanlawa,Lakinwa,Likkung,Pahang,Pawa,Phongphai,Ringrong,Singkangkung,Tengwa,Tuikinwa,Vadengkung,Youngwa,Lamoitong,Tuirong,Anu,Kasang,Khumi,Mru,Chin,Myanmar,Kanan"
+    "b": "Paletwa,Bahungtong,Halawa,Kanlawa,Lakinwa,Likkung,Pahang,Pawa,Phongphai,Ringrong,Singkangkung,Tengwa,Tuikinwa,Vadengkung,Youngwa,Lamoitong,Tuirong,Anu,Kasang,Khumi,Mru,Chin,Myanmar,Kanan",
+    "status": "WAITING"
   },
   {
     "name": "Halabi",
@@ -3858,7 +3895,8 @@ window.asiaNameBases = [
     "max": 14,
     "d": "",
     "m": 0,
-    "b": "Bastari,Halba,Halvas,Halvi,Bhunjia,Chandari,Gachikolo,Govari,Kawari,Kunbi,Mahari,Sundi,Chhattisgarh,Odisha,Andhra Pradesh,Maharashtra,Warangal,Adkuri,Muri,Balaghat,Bilaspur,Raipur,Jagdalpur,Durgapur,Visakhapatnam,Vijayawada,Hyderabad"
+    "b": "Bastari,Halba,Halvas,Halvi,Bhunjia,Chandari,Gachikolo,Govari,Kawari,Kunbi,Mahari,Sundi",
+    "status": "WAITING"
   },
   {
     "name": "Southern Ghale",
@@ -3867,7 +3905,8 @@ window.asiaNameBases = [
     "max": 14,
     "d": "",
     "m": 0,
-    "b": "Barpak,Kyaura,Laprak,Gorkha,Lamjung,Swara,Nepal,Macha Khola,Buri Gandaki,Daraundi Khola,Manaslu,Annapurna,Himalaya,Gurung,Lila Ke,NamBak,SongKhwae,RachGia,BienHoa,SiNakharin,LongXuyen,Longling,SouthernGhalebari,PalliSouthernGhale,Shigatse,Gyantse,Nagqu,Nyingchi,Chamdo,Kangding,Shangri La,Tawang,Tibetan,MyTho,Bokeo,BaoLoc,Pong,NhonTrach,CanGiuoc,KienGiang,TraVinh,SouthernGhalepur,SouthernGhalenagar,SouthernGhalebad,SouthernGhalekot,SouthernGhalewada,SouthernGhaleghat,SouthernGhalepalli,SouthernGhalekonda,SouthernGhalepeta,SouthernGhaleuru,SouthernGhaleuri,SouthernGhaleooru,SouthernGhalegiri,NagarSouthernGhale,SouthernGhaleganj,SouthernGhalebazar,SouthernGhalebandar,SouthernGhalegram"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Northern Ghale",
