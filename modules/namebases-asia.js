@@ -2277,7 +2277,7 @@ window.asiaNameBases = [
     "d": "",
     "m": 0,
     "b": "Hakkari,Van,Barwari,Urmia,Mosul,Kirkuk,Erbil,Duhok,Alqosh,Tel Keppe,Bartella,Karamles,Bohtan",
-    "status": "WAITING"
+    "status": "INVALID"
   },
   {
     "name": "Bokar",
@@ -2296,7 +2296,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Gansu,Xunhua,Qinghai,Tongren,Jishishan,Linxia,Gannan",
+    "b": "Jishishan,Tongren",
     "status": "WAITING"
   },
   {
@@ -2306,7 +2306,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Gansu,Xunhua,Qinghai,Xining,Linxia,Hezuo,Tongren,Jishishan,Gannan",
+    "b": "",
     "status": "WAITING"
   },
   {
@@ -2316,7 +2316,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Gansu,Xunhua,Qinghai,Tongren,Jishishan,Linxia,Gannan",
+    "b": "",
     "status": "WAITING"
   },
   {
@@ -2327,7 +2327,7 @@ window.asiaNameBases = [
     "d": "",
     "m": 0,
     "b": "Xunhua,Dadun,Lijiacun,Dahejia,Nianduhu,Guomare,Gasare,Baoan Xiazhuang,Longwu,Rebgong,Gansu,Qinghai,Tongren,Baoan,Jishishan,Linxia,Ganhetan,Huangnan",
-    "status": "WAITING"
+    "status": "INVALID"
   },
   {
     "name": "Bouhin",
@@ -2347,7 +2347,7 @@ window.asiaNameBases = [
     "d": "n",
     "m": 0,
     "b": "Saint-Denis,Saint-Paul,Saint-Pierre,Le Tampon,Saint-André,Saint-Joseph,Sainte-Suzanne,Sainte-Marie,Le Port,Saint-Louis",
-    "status": "WAITING"
+    "status": "INVALID"
   },
   {
     "name": "Bishnupriya Manipuri",

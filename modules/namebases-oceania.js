@@ -5707,27 +5707,30 @@ window.oceaniaNameBases = [
     "max": 14,
     "d": "",
     "m": 0,
-    "b": "Ali,Isago,Pisi,Semabo,Awaba,Dadi,Aketa,Kawito Station,Kotale,Kewa,Tai,Dogona,Adiba,Yau,Ike,Kini,Waligi,Kimama,Uladu,Ugu,Kenewa,Waya,Kubu,Duaba,Konedobu,Pagona,Dede,Sialoa,Kawiyapo,Uric"
+    "b": "Ali,Isago,Pisi,Semabo,Awaba,Dadi,Aketa,Kawito Station,Kotale,Kewa,Tai,Dogona,Adiba,Yau,Ike,Kini,Waligi,Kimama,Uladu,Ugu,Kenewa,Waya,Kubu,Duaba,Konedobu,Pagona,Dede,Sialoa,Kawiyapo,Uric",
+    "status": "COMPLETE"
   },
 
   {
     "name": "Tobian",
     "i": 201195,
-    "min": null,
-    "max": null,
+    "min": 0,
+    "max": 0,
     "d": "",
-    "m": null,
-    "b": ""
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
   },
 
   {
     "name": "Tokano",
     "i": 201196,
-    "min": null,
-    "max": null,
+    "min": 0,
+    "max": 0,
     "d": "",
-    "m": null,
-    "b": ""
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
   },
 
   {
@@ -5737,7 +5740,8 @@ window.oceaniaNameBases = [
     "max": 18,
     "d": "",
     "m": 0,
-    "b": "Aipus Island,Albany Island,Allison Islet,Anchor Cay,Arden Island,Aubussi Island,Aukane Islet,Aureed Island,Badu Island,Barn Island,Barney Island,Belle Vue Islands,Bet Islet,Boigu Island,Bond Island,Booby Island,Bourke Island,Bramble Cay,Brewis Island,Browne Island,Bush Islet,Campbell Island,Canoe Cay,Canoe Island,Cap Islet,Castle Island,Channel Island,Cheropo Island,Clarke Island,Coconut Island,Crab Island,Dalrymple Islet,Darnley Island,Daua Island,Dauan Island,Dayman Island,Deliverance Island,Dove Islet,Dugong Islet,Dumaralug Island,Duncan Islands,East Cay,East Strait Island,Eborac Island,Entrance Island"
+    "b": "Aipus Island,Albany Island,Allison Islet,Anchor Cay,Arden Island,Aubussi Island,Aukane Islet,Aureed Island,Badu Island,Barn Island,Barney Island,Belle Vue Islands,Bet Islet,Boigu Island,Bond Island,Booby Island,Bourke Island,Bramble Cay,Brewis Island,Browne Island,Bush Islet,Campbell Island,Canoe Cay,Canoe Island,Cap Islet,Castle Island,Channel Island,Cheropo Island,Clarke Island,Coconut Island,Crab Island,Dalrymple Islet,Darnley Island,Daua Island,Dauan Island,Dayman Island,Deliverance Island,Dove Islet,Dugong Islet,Dumaralug Island,Duncan Islands,East Cay,East Strait Island,Eborac Island,Entrance Island",
+    "status": "COMPLETE"
   },
 
   {
@@ -5747,17 +5751,19 @@ window.oceaniaNameBases = [
     "max": 10,
     "d": "lnrt",
     "m": 0,
-    "b": "Wulai,Jianshi,Hsinchu,Tai'an,Miaoli,Heping,Taichung,Ren'ai,Nantou,Datong,Yilan,Ulay,Fuxing,Pyasan,Squliq,C'uli',Ts'ole',Matuuwal,Mayrinax,Skikun,Plngawan,Klesan,S'uli,Matu'aw,Pyahaw,Ropoy,Buta,Iyu,Kengyan,Sasi,Qing'an,Jinshui,Maymaralas,Matabalay"
+    "b": "Wulai,Jianshi,Hsinchu,Tai'an,Miaoli,Heping,Taichung,Ren'ai,Nantou,Datong,Yilan,Ulay,Fuxing,Pyasan,Squliq,C'uli',Ts'ole',Matuuwal,Mayrinax,Skikun,Plngawan,Klesan,S'uli,Matu'aw,Pyahaw,Ropoy,Buta,Iyu,Kengyan,Sasi,Qing'an,Jinshui,Maymaralas,Matabalay",
+    "status": "COMPLETE"
   },
 
   {
     "name": "Tsaukambo",
     "i": 201199,
-    "min": null,
-    "max": null,
+    "min": 0,
+    "max": 0,
     "d": "",
-    "m": null,
-    "b": ""
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
   },
 
   {
@@ -5767,17 +5773,19 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Alishan,Chiayi,Nantou,Tapangu,Dabang,Tfuya,Duhtu,Iimcu,Mamahavana,Jiumei,Luhdu,Xinyi,Nehunpu,Psoseongana,Shanmei,Chashan,Tanganua,Manga,Takanua,Namasia,Nangisalu,Maya,Ruili,Ruifeng,Xiding,Fenqihu,Meishan,Zhuqi,Fanlu"
+    "b": "Alishan,Chiayi,Nantou,Tapangu,Dabang,Tfuya,Duhtu,Iimcu,Mamahavana,Jiumei,Luhdu,Xinyi,Nehunpu,Psoseongana,Shanmei,Chashan,Tanganua,Manga,Takanua,Namasia,Nangisalu,Maya,Ruili,Ruifeng,Xiding,Fenqihu,Meishan,Zhuqi,Fanlu",
+    "status": "COMPLETE"
   },
 
   {
     "name": "Turaka",
     "i": 201201,
-    "min": null,
-    "max": null,
+    "min": 0,
+    "max": 0,
     "d": "",
-    "m": null,
-    "b": ""
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
   },
 
   {
@@ -5787,7 +5795,8 @@ window.oceaniaNameBases = [
     "max": 14,
     "d": "",
     "m": 0,
-    "b": "Negebare,Tobare,Sera,Omo,Kabarau,Irimuku,Morere,Ero,Veraibari,Kivaumai,Morovamu,Wowoubo,Waitari,Nahoromere,Era Maipua,Gauri,Tovei,Haivaro,Moka,Komaio,Masusu,Gibu,Ekeirau,Kibeni,Omati-Gihiteri,Kaiam,Baina,Kemei,Dopima,Babaguina,Apeawa,Doibo,Kopi,Kikori Urban"
+    "b": "Negebare,Tobare,Sera,Omo,Kabarau,Irimuku,Morere,Ero,Veraibari,Kivaumai,Morovamu,Wowoubo,Waitari,Nahoromere,Era Maipua,Gauri,Tovei,Haivaro,Moka,Komaio,Masusu,Gibu,Ekeirau,Kibeni,Omati-Gihiteri,Kaiam,Baina,Kemei,Dopima,Babaguina,Apeawa,Doibo,Kopi,Kikori Urban",
+    "status": "COMPLETE"
   },
 
   {
@@ -5797,27 +5806,30 @@ window.oceaniaNameBases = [
     "max": 12,
     "d": "",
     "m": 0,
-    "b": "Uab Meto,Amarasi,Kotos,Rois,Tais Nonof,Hero,Kopa,Nekmese,Buraen,Kevas,Tun Hiut,Oelbubuk,Fatuleu,Tuakau,West Fatuleu,Oelmasi,Teunbaun,Nekbaun,Merbaun,Erbaun,Tunbaun,Soba,Niukbaun,Toobaun,Amanuban,Amanatun,Amfoan,Ketun,Biboki,Insana,Kusa,Manlea,Molo,Miomafo,Manea,Termanu,Ba'a,Loleh,Thie,Oenale,Delha,Landu,Ringgou,Bofai,Korbaffo"
+    "b": "Uab Meto,Amarasi,Kotos,Rois,Tais Nonof,Hero,Kopa,Nekmese,Buraen,Kevas,Tun Hiut,Oelbubuk,Fatuleu,Tuakau,West Fatuleu,Oelmasi,Teunbaun,Nekbaun,Merbaun,Erbaun,Tunbaun,Soba,Niukbaun,Toobaun,Amanuban,Amanatun,Amfoan,Ketun,Biboki,Insana,Kusa,Manlea,Molo,Miomafo,Manea,Termanu,Ba'a,Loleh,Thie,Oenale,Delha,Landu,Ringgou,Bofai,Korbaffo",
+    "status": "COMPLETE"
   },
 
   {
     "name": "Uare",
     "i": 201204,
-    "min": null,
-    "max": null,
+    "min": 0,
+    "max": 0,
     "d": "",
-    "m": null,
-    "b": ""
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
   },
 
   {
     "name": "Umanakaina",
     "i": 201205,
-    "min": null,
-    "max": null,
+    "min": 0,
+    "max": 0,
     "d": "",
-    "m": null,
-    "b": ""
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
   },
 
   {
@@ -5827,7 +5839,8 @@ window.oceaniaNameBases = [
     "max": 21,
     "d": "",
     "m": 0,
-    "b": "Dekwenga,Dimiduvip,Divanap,Dongbil,Drolengam,Duban,Dukadang,ekap,Famukmin,Fiamok,Fitengtigin,Framtigin,Fumenavip,Fungal,Gaua,Haus Kona,Iborio,Iginfumavip,Ileis,Imalbil,imin,Imnai 1,Imnai 2,Inantingin,Inemtaman,Ivatigin,Ivikmin,Iwani,Kareimin No.1,Kareimin No.2,Kialikman/Framin,Kimiasomin,Kobrenmin (Eliptamin),Kobrenmin (Telefomin),Kobrenmin (Urapmin),Kobrenmin(Framin),Komduvip,Urapmin"
+    "b": "Dekwenga,Dimiduvip,Divanap,Dongbil,Drolengam,Duban,Dukadang,ekap,Famukmin,Fiamok,Fitengtigin,Framtigin,Fumenavip,Fungal,Gaua,Haus Kona,Iborio,Iginfumavip,Ileis,Imalbil,imin,Imnai 1,Imnai 2,Inantingin,Inemtaman,Ivatigin,Ivikmin,Iwani,Kareimin No.1,Kareimin No.2,Kialikman/Framin,Kimiasomin,Kobrenmin (Eliptamin),Kobrenmin (Telefomin),Kobrenmin (Urapmin),Kobrenmin(Framin),Komduvip,Urapmin",
+    "status": "COMPLETE"
   },
 
   {
@@ -5837,7 +5850,8 @@ window.oceaniaNameBases = [
     "max": 13,
     "d": "",
     "m": 0,
-    "b": "Purosa,Awarosa,Orie,Umasa,Yagareba,Paegatasa,Oma-Kasoru,Yasubi,Yagusa,Ibusa,Kasoru,Ofafina,Okapa Station,Kawaina,Avia,Asempa,Sefuna,Iwaki,Kemiu,Kokopi,Wayoepa,Tarabo,Ke'efu,Yagana,Haga"
+    "b": "Purosa,Awarosa,Orie,Umasa,Yagareba,Paegatasa,Oma-Kasoru,Yasubi,Yagusa,Ibusa,Kasoru,Ofafina,Okapa Station,Kawaina,Avia,Asempa,Sefuna,Iwaki,Kemiu,Kokopi,Wayoepa,Tarabo,Ke'efu,Yagana,Haga",
+    "status": "COMPLETE"
   },
 
   {
@@ -5847,7 +5861,8 @@ window.oceaniaNameBases = [
     "max": 14,
     "d": "lnrt",
     "m": 0,
-    "b": "Nifiloli,Nukapu,Nukulaelae,Fakaofo,Nukunonu,Taumako,Duff,Tikopia,Rennell,Bellona,Ontong Java,Sikaiana,Luangiua,Nukumanu,Takuu,Nukuria,Kapingamarangi,Nukuoro,Pileni,Lata,Santa Cruz,Vanikoro,Utupua,Nendö,Atafu,Anuta,Graciosa Bay"
+    "b": "Nifiloli,Nukapu,Nukulaelae,Fakaofo,Nukunonu,Taumako,Duff,Tikopia,Rennell,Bellona,Ontong Java,Sikaiana,Luangiua,Nukumanu,Takuu,Nukuria,Kapingamarangi,Nukuoro,Pileni,Lata,Santa Cruz,Vanikoro,Utupua,Nendö,Atafu,Anuta,Graciosa Bay",
+    "status": "COMPLETE"
   },
 
   {

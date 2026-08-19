@@ -1463,8 +1463,8 @@ window.africaNameBases = [{
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Nakwenda,Kwemba,Likemwa,Samisisi,Malabwe,Sesheke,Kazungula,Makusi,Kachansi,Imukusi,Katima Mulilo,Lubuta,Kachikau,Parakarungu,Satau,Kavimba",
+    "status": "COMPLETE"
   },
 {
     "name": "Lozi",
@@ -1603,8 +1603,8 @@ window.africaNameBases = [{
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Divo,Lakota,Guitry,Yocoboué,Lauzoua,Zikisso",
+    "status": "COMPLETE"
   },
 {
     "name": "Diri",
@@ -1613,8 +1613,8 @@ window.africaNameBases = [{
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Ningi",
-    "status": "WAITING"
+    "b": "Dir Village,Ningi,Darazo,Baram Dutse,Dingis,Toro,Bauchi",
+    "status": "COMPLETE"
   },
 {
     "name": "Dizoid",
