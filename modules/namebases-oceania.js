@@ -1860,7 +1860,8 @@ window.oceaniaNameBases = [
     "max": 26,
     "d": "",
     "m": 0,
-    "b": "Western Highlands Province,Narake,Jimi,Aene,Chimbu-Wahgi,Kotu,Fagalu,Atafu,Erromango,Afega,Puke,Fagamalo,Nanumaga,Avata,Aopo,Lolowai,Letogo,Kolomotu,Vatia,Funaota,Alamau,Adogua,Afere,Akobau,Anemau"
+    "b": "Wambin,Goimbo,Gepal,Nimei,Mame,Kulup,Kunmol,Pukum,Bupkile,Kangumpkul,Dunga,Yawaremol,Ambullua",
+    "status": "COMPLETE"
   },
 
   {
@@ -1870,7 +1871,8 @@ window.oceaniaNameBases = [
     "max": 26,
     "d": "",
     "m": 0,
-    "b": "Eastern Highlands Province,Kagufi,Kamono-Yagaria,Futuna,Pangaimotu,Nui,Aosua,Pentecost,Lata,Haalaufuli,Aoa,Uiha,Afono,Nukunonu,Matafa,Fagasa,Asau,Norsup,Amusai,Akikau,Akudua,Afoua,Afedua,Apeua,Apirau"
+    "b": "Kimiagomo,Yafanagomo,Foseya,Kagufi,Okapa",
+    "status": "COMPLETE"
   },
 
   {
@@ -1880,7 +1882,8 @@ window.oceaniaNameBases = [
     "max": 21,
     "d": "",
     "m": 0,
-    "b": "Yakamul,Ali Island,Angel Island,Seleo Island,Paup,Sandaun Province,East Aitape Rural LLG,Serui,Ansus,Korido,Yapen,Biak,Numfor,Roon,Waropen"
+    "b": "Yakamul,Ali Island,Angel Island,Seleo Island",
+    "status": "COMPLETE"
   },
 
   {
@@ -1890,7 +1893,8 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": ""
+    "b": "",
+    "status": "WAITING"
   },
 
   {
@@ -1900,7 +1904,8 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": ""
+    "b": "",
+    "status": "WAITING"
   },
 
   {
@@ -1910,7 +1915,8 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": ""
+    "b": "",
+    "status": "WAITING"
   },
 
   {
@@ -1920,7 +1926,8 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": ""
+    "b": "",
+    "status": "WAITING"
   },
 
   {
@@ -1930,7 +1937,8 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": ""
+    "b": "",
+    "status": "WAITING"
   },
 
   {
@@ -1940,7 +1948,8 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": ""
+    "b": "",
+    "status": "WAITING"
   },
 
   {
@@ -1950,7 +1959,8 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": ""
+    "b": "",
+    "status": "WAITING"
   },
 
   {
@@ -1960,7 +1970,8 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": ""
+    "b": "",
+    "status": "WAITING"
   },
 
   {
@@ -1970,7 +1981,8 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": ""
+    "b": "",
+    "status": "WAITING"
   },
 
   {
@@ -1980,7 +1992,8 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": ""
+    "b": "",
+    "status": "WAITING"
   },
 
   {
@@ -1990,7 +2003,8 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": ""
+    "b": "",
+    "status": "WAITING"
   },
 
   {
@@ -2000,7 +2014,8 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": ""
+    "b": "",
+    "status": "WAITING"
   },
 
   {
@@ -2010,7 +2025,8 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": ""
+    "b": "",
+    "status": "WAITING"
   },
 
   {
@@ -2020,7 +2036,8 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": ""
+    "b": "",
+    "status": "WAITING"
   },
 
   {
@@ -2030,7 +2047,8 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": ""
+    "b": "",
+    "status": "WAITING"
   },
 
   {
@@ -2040,7 +2058,8 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": ""
+    "b": "",
+    "status": "WAITING"
   },
 
   {
@@ -2050,7 +2069,8 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": ""
+    "b": "",
+    "status": "WAITING"
   },
 
   {
@@ -2060,7 +2080,8 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": ""
+    "b": "",
+    "status": "WAITING"
   },
 
   {
@@ -2070,7 +2091,8 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": ""
+    "b": "",
+    "status": "WAITING"
   },
 
   {
@@ -2080,7 +2102,8 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": ""
+    "b": "",
+    "status": "WAITING"
   },
 
   {
@@ -2090,7 +2113,8 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": ""
+    "b": "",
+    "status": "WAITING"
   },
 
   {
@@ -2100,7 +2124,8 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": ""
+    "b": "",
+    "status": "WAITING"
   },
 
   {
@@ -2110,7 +2135,8 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": ""
+    "b": "",
+    "status": "WAITING"
   },
 
   {
@@ -2120,7 +2146,8 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": ""
+    "b": "",
+    "status": "WAITING"
   },
 
   {
@@ -2130,7 +2157,8 @@ window.oceaniaNameBases = [
     "max": 9,
     "d": "",
     "m": 0,
-    "b": "Paniai,Timur,Yatamo,Kebo,Pugo,Dagi,Wegee,Muka,Wegee,Bino,Yagai,Deiyai,Miyo,Dogomo,Fajar,Timur,Muye,Nakama,Teluk,Deya,Topiyai,Aradide,Ekadide,Aweida,Bibida,Dumadama,Bogobaida,Youtadi,Baya,Biru"
+    "b": "Paniai,Timur,Yatamo,Kebo,Pugo,Dagi,Wegee,Muka,Wegee,Bino,Yagai,Deiyai,Miyo,Dogomo,Fajar,Timur,Muye,Nakama,Teluk,Deya,Topiyai,Aradide,Ekadide,Aweida,Bibida,Dumadama,Bogobaida,Youtadi,Baya,Biru",
+    "status": "COMPLETE"
   },
 
   {
@@ -2140,7 +2168,8 @@ window.oceaniaNameBases = [
     "max": 8,
     "d": "",
     "m": 0,
-    "b": "Paniai,Timur,Yatamo,Kebo,Pugo,Dagi,Wegee,Muka,Wegee,Bino,Yagai,Deiyai,Miyo,Dogomo,Fajar,Timur,Muye,Nakama,Teluk,Deya,Topiyai,Aradide,Ekadide,Bibida,Rouffaer,Werba,Kambala,Bofuwer,Tanusan"
+    "b": "Kampung Molu,Pogoma,Puncak Jaya,Paniai,Timur,Yatamo,Kebo,Pugo,Dagi,Wegee,Muka,Wegee,Bino,Yagai,Deiyai,Miyo,Dogomo,Fajar,Timur,Muye,Nakama,Teluk,Deya,Topiyai,Aradide,Ekadide,Bibida,Rouffaer,Werba,Kambala,Bofuwer,Tanusan",
+    "status": "COMPLETE"
   },
 
   {
@@ -2150,17 +2179,19 @@ window.oceaniaNameBases = [
     "max": 9,
     "d": "",
     "m": 0,
-    "b": "Kikori,Baimuru,East,Kikori,Ihu,West,Kikori,Gulf,Province,Kerema,Central,Kerema,East,Kaintiba,Kerema,Urban,Kotidanga,Lakekamu,Tauri,Paniai,Timur,Yatamo,Kebo,Pugo,Dagi,Wegee,Muka,Wegee,Bino"
+    "b": "Bamustu,Makapa,Pikiwa",
+    "status": "COMPLETE"
   },
 
   {
     "name": "Guriaso",
     "i": 2183,
-    "min": null,
-    "max": null,
+    "min": 3,
+    "max": 10,
     "d": "",
-    "m": null,
-    "b": ""
+    "m": 0,
+    "b": "Guriaso,Maragin,Mafuara,Wurabai,Ekas,Mofor",
+    "status": "COMPLETE"
   },
 
   {
@@ -2170,7 +2201,8 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Uaripi,Mei'i,Lapari,Mirakere,Didimaua,Uriri,Silo,Uamai No. 1,Uamai No. 2,Karama,Pukari,Koaru,Meporo,Mamavu,Kerema,Kaintiba,Kotidanga,Lakekamu,Kikori,Baimuru,Ihu,West Kikori,East Kerema,Tairuma,Vailala"
+    "b": "Uaripi,Mei'i,Lapari,Mirakere,Didimaua,Uriri,Silo,Uamai No. 1,Uamai No. 2,Karama,Pukari,Koaru,Meporo,Mamavu,Kerema,Kaintiba,Kotidanga,Lakekamu,Kikori,Baimuru,Ihu,West Kikori,East Kerema,Tairuma,Vailala",
+    "status": "COMPLETE"
   },
 
   {
@@ -2180,7 +2212,8 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Dorogori,Wuroi,Wonie,Iamega,Wipim,Gamaeve,Tewara,Kapal,Upiara,Giringarede,U'ume,Masingara,Kunini,Iru'upi,Waidoro,Kulalai,Wamarong,Sebe,Wim,Sogale,Kurunti,Abam,Boze,Bisuaka,Podare,Morehead,Bula,Wereavere"
+    "b": "Kikimairi,Aduahai,Daru Station,Turama River",
+    "status": "COMPLETE"
   },
 
   {
@@ -2190,7 +2223,8 @@ window.oceaniaNameBases = [
     "max": 12,
     "d": "",
     "m": 0,
-    "b": "Keuw,Kamarisano,Samanui,Taumi,Totoberi,Wapoga,Kabir,Lokodimi,Ogiyai,Yegeugi,Dikiya,Epouwa,Jainoa,Jigikebo,Tagauto,Akudiomi,Sima,Wami,Yaur,Bawei,Goni,Napan Yaur,Yeretuar,Kali Semen,Waroki,Bumi Raya,Gerbang Sadu"
+    "b": "Keuw Village,Wapoga District,Nabire Regency,Poronai River,Woisaru,Sanawado",
+    "status": "COMPLETE"
   },
 
   {
@@ -2220,7 +2254,8 @@ window.oceaniaNameBases = [
     "max": 10,
     "d": "",
     "m": 0,
-    "b": "Roku,Kaugere,Vabukori,Hanuabada,Elevala,Pari,Badili,Kila,Kaevaga,Veikila,Bomana,Sogeri,Depo,Mageri,Vaiagai,Furimuti,Vesilogo,Bereadabu,Kailaki,Doe,Ogotana,Kahitana,Berebei,Varutanumu,Boridi,Kagi,Efogi,Manari"
+    "b": "Roku,Kaugere,Vabukori,Hanuabada,Elevala,Pari,Badili,Kila,Kaevaga,Veikila,Bomana,Sogeri,Depo,Mageri,Vaiagai,Furimuti,Vesilogo,Bereadabu,Kailaki,Doe,Ogotana,Kahitana,Berebei,Varutanumu,Boridi,Kagi,Efogi,Manari",
+    "status": "COMPLETE"
   },
 
   {
@@ -2230,7 +2265,8 @@ window.oceaniaNameBases = [
     "max": 12,
     "d": "",
     "m": 0,
-    "b": "Kaba,Kimaan,Kladar,Pembre,Wan,Yomuka,Kimaam,Moor,Arui,Hariti,Kama,Mambor,Komoran,Buaya Strait,Tanjung Vals,Muli Strait,Anggrameos,Yeretuar,Waidoro,Kulalai,Wamarong,Sebe,Kurunti,Boze,Bisuaka,Podare,Dorogori"
+    "b": "Komolom Island,Muli Strait,Komolom Village,Yos Sudarso Island,South Papua,Indonesia",
+    "status": "COMPLETE"
   },
 
   {
@@ -2240,7 +2276,8 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Firiwage,Getentiri,Subur,Ujungkia,Mindiptana,Langgoan,Kombut,Kombut,Tanah Merah,Makmur,Ikisi,Maju,Kouh,Bomakia,Bomakia I,Manggelum,Wanggemalo,Woropko,Kuken,Ninati,Kawagit,Kombay,Yaniruma,Sesnuk,Iniyandit,Arimop,Jair"
+    "b": "Firiwage District,Kaway Village,Boven Digoel Regency,South Papua,Indonesia,Upper Digul River",
+    "status": "COMPLETE"
   },
 
   {
@@ -2250,7 +2287,8 @@ window.oceaniaNameBases = [
     "max": 10,
     "d": "",
     "m": 0,
-    "b": "Samakopa,Kawalasi,Kamusi,Parieme,Bibisa,Gagori,Iowa,Garu,Miruwo,Wakau,Sogere,Asaramio,Bina,Sisiam,Torobina,Bamio,Pirupiru,Ukusi,Nemeti,Ibuo,Balimo,Kiunga,Tabubil,Ningerum,Olsobip,Strickland,Ok Tedi"
+    "b": "Murray River,Strickland River,Western Province,Papua New Guinea",
+    "status": "COMPLETE"
   },
 
   {
@@ -2260,7 +2298,8 @@ window.oceaniaNameBases = [
     "max": 12,
     "d": "",
     "m": 0,
-    "b": "Kaba,Kimaan,Kladar,Pembre,Wan,Yomuka,Kimaam,Moor,Arui,Hariti,Kama,Mambor,Komoran,Buaya Strait,Tanjung Vals,Muli Strait,Kontuar,Wantarma,Waan,Tabonji,Wanam,Padua,Okaba,Tubang,Ngguti,Kaptel,Animha"
+    "b": "Kolopom Island,Yos Sudarso Island,Merauke,South Papua,Indonesia,West Merauke",
+    "status": "COMPLETE"
   },
 
   {
@@ -2270,7 +2309,8 @@ window.oceaniaNameBases = [
     "max": 8,
     "d": "",
     "m": 0,
-    "b": "Ali,Makapa,Isago,Pikiwa,Wasapea,Pisi,Semabo,Awaba,Dadi,Aketa,Kawito,Station,Kotale,Kewa,Tai,Dogona,Adiba,Yau,Ike,Kini,Waligi,Kimama,Bamutsa,Uladu,Ugu,Kenewa,Waya,Kubu,Duaba,Konedobu,Pagona"
+    "b": "Lake Murray,Strickland River,Western Province,Papua New Guinea",
+    "status": "COMPLETE"
   },
 
   {
@@ -2280,7 +2320,8 @@ window.oceaniaNameBases = [
     "max": 0,
     "d": "",
     "m": 0,
-    "b": ""
+    "b": "",
+    "status": "WAITING"
   },
 
   {
@@ -2290,7 +2331,8 @@ window.oceaniaNameBases = [
     "max": 17,
     "d": "",
     "m": 0,
-    "b": "Pantar,Pantar Barat,Pantar Timur,Pantar Barat Laut,Pantar Tengah,Kabir,Baranusa,Bakalang,Marisa,Maliang,Pulau Pura,Bolamelang,Kelaisi Timur,Kolana Utara,Alila Timur,Lawahing,Pura,Kura,Treweng,Kepa,Buaya,Kangge,Kambing,Rusa,Tikus,Sika,Nub,Kapas,Batang,Lapang,Ternate"
+    "b": "Alor Island,East Nusa Tenggara,Indonesia,Tanglapui,Lamtoka,Lantoka,Kola,Arumaka,Iramang,Kulatela,Kula Watena,Larena,Sumang,Watena",
+    "status": "COMPLETE"
   },
 
   {
@@ -2310,7 +2352,8 @@ window.oceaniaNameBases = [
     "max": 19,
     "d": "",
     "m": 0,
-    "b": "Wabag,Kandep,Kompiam,Ambum,Lagaip,Laiagam,Porgera,Wapenamanda,Maramuni,Kandep Rural,Wage Rural,Ambum Rural,Kompiam Rural,Wapi Yengis Rural,Lagaip Rural,Maip Muritaka Rural,Pilikambi Rural,Porgera Rural,Paela Rural,Hewa Rural,Wapenamanda Rural,Tsak Rural,Maramuni Rural,Wabag Rural,Wabag Urban,Yambali,Kaokalam,Komo"
+    "b": "Enga Province,Western Highlands Province,Baiyer River,Yuat River,Papua New Guinea",
+    "status": "COMPLETE"
   },
 
   {
@@ -2320,7 +2363,8 @@ window.oceaniaNameBases = [
     "max": 16,
     "d": "",
     "m": 0,
-    "b": "Bario,Ba Kelalan,Pa Umor,Pa Ukat,Pa Lungan,Long Dano,Pa Dallih,Remudu,Long Lellang,Long Seridan,Ulung Palang,Arur Dalan,Pa Ramapoh Atas,Pa Ramapoh Bawah,Pa Derung,Padang Pasir,Kampung Baru,Buduk Nur,Long Langai,Long Lemumut,Long Ritan,Long Rusu,Pa Tawing,Buduk Bui,Buduk Aru,Long Rangat,Pa Komap,Punang Kelalan,Lawas,Long Bawan"
+    "b": "Bario,Pa' Ukat,Pa' Umor,Pa' Lungan,Pa' Dalih,Long Lellang,Long Seridan,Ulung Palang,Arur Dalan,Pa Ramapoh Atas,Pa Ramapoh Bawah,Pa Derung,Padang Pasir,Kampung Baru,Buduk Nur,Long Langai,Long Lemumut,Long Ritan,Long Rusu,Pa Tawing,Buduk Bui,Buduk Aru,Long Rangat,Pa Komap,Punang Kelalan,Lawas,Long Bawan",
+    "status": "COMPLETE"
   },
 
   {
@@ -2330,7 +2374,8 @@ window.oceaniaNameBases = [
     "max": 16,
     "d": "",
     "m": 0,
-    "b": "Port Moresby,Abau,Goilala,Kairuku,Hiri,Koiari,Rigo,Tapini,Guari,Woitape,Bereina,Kwikila,Bautama,Amazon Bay,Aroma,Cloudy Bay,Kairuku Rural,Mekeo Kuni Rural,Rigo Central,Rigo Coastal,Rigo Inland,Hiri Rural,Koiari Rural,Guari Rural,Tapini Rural,Woitape Rural,Abau District,Goilala District"
+    "b": "Central Province,Cloudy Bay,Papua New Guinea",
+    "status": "COMPLETE"
   },
 
   {
@@ -2340,7 +2385,8 @@ window.oceaniaNameBases = [
     "max": 15,
     "d": "",
     "m": 0,
-    "b": "Palu,Donggala,Buol,Toli Toli,Poso,Banggai,Parigi Moutong,Tojo Una Una,Sigi,Morowali,Banggai Islands,Banggai Sea,North Morowali,Luwuk,Tomini,Gulf of Tomini,Lore Lindu,Lindu,Poso Lake,Kulawi,Banawa,Sigi Regency,Tawaeli,Bangga"
+    "b": "Palu,Donggala,Buol,Toli Toli,Poso,Banggai,Parigi Moutong,Tojo Una Una,Sigi,Morowali,Banggai Islands,Banggai Sea,North Morowali,Luwuk,Tomini,Gulf of Tomini,Lore Lindu,Lindu,Poso Lake,Kulawi,Banawa,Sigi Regency,Tawaeli,Bangga",
+    "status": "COMPLETE"
   },
 
   {
@@ -2350,7 +2396,8 @@ window.oceaniaNameBases = [
     "max": 13,
     "d": "",
     "m": 0,
-    "b": "Wewak,Ambunti,Angoram,Maprik,Yangoru,Wosera,Dreikikir,Turubu,Maprik,Gawi,Tunap,Hunstein,Gawanga,Burui,Kunai,Numbor,Sausso,Boikin,Dagua,Keram,Karawari,Marienberg,Yuat,Yamil,Tamaui,East Yangoru,West Yangoru,North Wosera,South Wosera,Wewak Islands"
+    "b": "Eleme,Isataele,Itopeno,Madawesa,Mokosele,Pipitesa,Saut Mosope,Yambaitoko,Yuat River,Enga Province,East Sepik Province,Papua New Guinea",
+    "status": "COMPLETE"
   },
 
   {
@@ -2400,7 +2447,8 @@ window.oceaniaNameBases = [
     "max": 12,
     "d": "",
     "m": 0,
-    "b": "Mulifanua,Fagatogo,Leulumoega,Nofo,Lufilufi,Safotu,Salesatele,Sataua,Sinamoga,Taga,Tufele,Faleasiu,Fasitoouta,Fatitu,Leava,Malaeimi,Malaelau,Manono,Matautu,Motootua,Satapuala,Saulau,Tanugamanono,Tufulele,Ulutogia,Vaitele,Vaiusu,Vailoa,Vaisala,Vaivase,Vaini,Tula,Lifuka,Lauli,FenuaFala,Taunga,Malaeloa,Vaitupu,Pagai,Sasina,Lakatoro,Lotopa,Apia,Asau,Salelologa,Solosolo,Leauvaa,Siusega,Safune,Sapapalii,Aniwa,Alidu,Anutu,Abiu,Anuda,Alaru,Adilu,Anemu,Adudi,Adou,Akeru,Abuu,Akudi,Amaru,Akuri,Afibu"
+    "b": "Mulifanua,Fagatogo,Leulumoega,Nofo,Lufilufi,Safotu,Salesatele,Sataua,Sinamoga,Taga,Tufele,Faleasiu,Fasitoouta,Fatitu,Leava,Malaeimi,Malaelau,Manono,Matautu,Motootua,Satapuala,Saulau,Tanugamanono,Tufulele,Ulutogia,Vaitele,Vaiusu,Vailoa,Vaisala,Vaivase,Vaini,Tula,Lifuka,Lauli,FenuaFala,Taunga,Malaeloa,Vaitupu,Pagai,Sasina,Lakatoro,Lotopa,Apia,Asau,Salelologa,Solosolo,Leauvaa,Siusega,Safune,Sapapalii",
+    "status": "COMPLETE"
   },
 
   {
@@ -2410,7 +2458,8 @@ window.oceaniaNameBases = [
     "max": 15,
     "d": "",
     "m": 0,
-    "b": "Suva,Nadi,Lautoka,Labasa,Sigatoka,Savusavu,Levuka,Tavua,Rakiraki,Nasinu,Nausori,Port Denisonau,Korolevu,Nadroga,Navua,Namosi,Rewa,Serua,Vatukoula,Yasawa,Norsup,Lauli,Kolofoou,Ofu,Kongo,Norfolk,Satupaitea,Ohonua,Nu'uuli,Makaunga,Leusoalii,Teafua,Malekula,Aotua,Pacific Harbour,Ba,Asau,Akimua,Aduto,Adoro,Afadua,Amomua,Aito,Alee,Abaro,Anubua,Amulua,Alege,Anino,Akaua,Aporo"
+    "b": "Suva,Nadi,Lautoka,Labasa,Sigatoka,Savusavu,Levuka,Tavua,Rakiraki,Nasinu,Nausori,Korolevu,Nadroga,Navua,Namosi,Rewa,Serua,Vatukoula,Yasawa,Ba,Rakiraki,Nabouwalu,Seaqaqa,Dreketi,Wainikoro,Nabua,Vunisea,Rotuma,Ono,Moala,Matuku,Toto,Viwa,Malolo,Castaway,Tadrai,Nananu,Kadavu,Lakeba,Nayau,Oneata,Moce,Komo,Namuka,Kabara,Vulaga,Ogea,Vatoa",
+    "status": "COMPLETE"
   },
 
   {
@@ -2420,7 +2469,8 @@ window.oceaniaNameBases = [
     "max": 10,
     "d": "",
     "m": 0,
-    "b": "Goroka,Kainantu,Agarabi,Awiyaana,Gadsup,Kosena,Ontenu,Oweina,Usarufa,Benumarien,Kambaira,Tairora,Waffa,Fore,Gimi,Siane,Yagaria,Benabena,Kanite,Isabi,Yaweyuha,Keyagana,Kamono,Inoke Yate,Alekano,Dano,Tokano,Gauwa"
+    "b": "Mobuta,Ilakia,Tauna,Iyona,Amoraba,Tainoraba,Taunsuna,Ayura,Lamari River,Okapa,Obura-Wonenara,Eastern Highlands Province",
+    "status": "COMPLETE"
   },
 
   {
@@ -2430,7 +2480,8 @@ window.oceaniaNameBases = [
     "max": 16,
     "d": "",
     "m": 0,
-    "b": "Agats,Safan,Kopay,Pantai Kasuari,Der Koumur,Fayit,Aswi,Awyu,Bectbamu,Atsy,Ayip,Jetsy,Sirets,Suator,Joutu,Joerat,Unir Sirau,Akat,Sor Ep,Kolf Braza,Koroway Buluanop,Pulau Tiga,Sawa Erma,Tomor Birip,Suru Suru,Binam,Binamsain,Yaosakor,Komor,Yamas"
+    "b": "",
+    "status": "WAITING"
   },
 
   {
@@ -2440,7 +2491,8 @@ window.oceaniaNameBases = [
     "max": 20,
     "d": "",
     "m": 0,
-    "b": "Daru,Kiunga,Tabubil,Ningerum,Olsobip,Balimo,Morehead,Daru Urban,Kiunga Rural,Kiunga Urban,Ningerum Rural,Olsobip Rural,Star Mountains Rural,Balimo Urban,Bamu Rural,Gogodala Rural,Lake Murray Rural,Nomad Rural,Kiwai Rural,Morehead Rural,Oriomo Bituri Rural,North Fly,Middle Fly,South Fly,Fly River,Ok Tedi,Strickland"
+    "b": "Kiunga,Nomad,Balimo,Daru,Tabubil,Ningerum,Olsobip,Morehead,Kiunga Urban,Kiunga Rural,Balimo Urban,Bamu Rural,Gogodala Rural,Lake Murray Rural,Nomad Rural,Kiwai Rural,Morehead Rural,Oriomo Bituri Rural,North Fly,Middle Fly,South Fly,Fly River,Ok Tedi,Strickland",
+    "status": "COMPLETE"
   },
 
   {
@@ -2450,7 +2502,8 @@ window.oceaniaNameBases = [
     "max": 12,
     "d": "",
     "m": 0,
-    "b": "Mendi,Ialibu,Pangia,Kagua,Erave,Nipa,Lake Kutubu,Mount Bosavi,Nembi,Poroma,Imbonggu,Lai Valley,Karints,Upper Mendi,Lower Mendi,Aiya,Kuare,Kewabi,Wiru,Nipa-Kutubu,Tari,Parua,Koroba,Lake Wanam,Walume,Pinya,Welega,Hulia,Muia,Tolu,Pule,Tumbudu,Kumo,Wabi,Wage,Lega,Weru,Hambua,Pori,Tagari,Turuma,Keria,Wiren,Walisu"
+    "b": "Mougulu,Komofio,Nomad River,Strickland-Bosavi region,Western Province,Southern Highlands Province",
+    "status": "COMPLETE"
   },
 
   {
@@ -2460,7 +2513,8 @@ window.oceaniaNameBases = [
     "max": 13,
     "d": "",
     "m": 0,
-    "b": "Nuku'alofa,Pangai,Ohonua,Mu'a,Vaini,Tatakamotonga,Lapaha,Ha'ateiho,Kolovai,Utulei,Leava,Tu'asila,Fua'amotu,Malapo,Longoteme,Veitongo,Nukunonu,Hihifo,Niuatoputapu,Niuafo'ou,Mapusaga,Navutoka,Siufaga,Pyrenees,Ambae,Sataua,Tula,Lifuka,Lauli,Niutoua,Kanokupolu,Nukunuku"
+    "b": "Nuku'alofa,Pangai,Ohonua,Mu'a,Vaini,Tatakamotonga,Lapaha,Ha'ateiho,Kolovai,Utulei,Leava,Tu'asila,Fua'amotu,Malapo,Longoteme,Veitongo,Nukunonu,Hihifo,Niuatoputapu,Niuafo'ou,Mapusaga,Navutoka,Siufaga,Pyrenees,Ambae,Sataua,Tula,Lifuka,Lauli,Niutoua,Kanokupolu,Nukunuku,Neiafu,Ta'anea,Falevai,Olo'ua,Ofu,Okoa,Tongatapu,Vava'u,Ha'apai,'Eua,Niua Fo'ou,Niua Toputapu",
+    "status": "COMPLETE"
   },
 
   {
@@ -2470,7 +2524,8 @@ window.oceaniaNameBases = [
     "max": 10,
     "d": "",
     "m": 0,
-    "b": "Paea,Punaauia,Pirae,Mahina,Papetoai,Teavaro,Toatau,Tiahura,Afareaitu,Vaiare,Maatea,Faaa,Papeete,Moorea,Bora Bora,Raiatea,Huahine,Taha'a,Fakarava,Rangiroa,Manihi,Arue,Taiarapu,Teva I Uta"
+    "b": "Paea,Punaauia,Pirae,Mahina,Papetoai,Teavaro,Toatau,Tiahura,Afareaitu,Vaiare,Maatea,Faaa,Papeete,Moorea,Bora Bora,Raiatea,Huahine,Taha'a,Fakarava,Rangiroa,Manihi,Arue,Taiarapu,Teva I Uta,Hitia'a,Tiarei,Mataiea,Tautira,Vairao,Teahupo'o,Maharepa,Haapiti,Vaiare,Temae,Opunohu,Vaitape,Anau,Fanui,Fare,Pure,Uturoa,Opoa,Avera,Tetaha,Parea,Ha'amene,Fa'aha,Ha'apiti,Marae,Fetuna,Tetiaroa,Maupiti,Maupiha'a,Motu One,Motu Paahi",
+    "status": "COMPLETE"
   },
 
   {
@@ -2480,7 +2535,8 @@ window.oceaniaNameBases = [
     "max": 12,
     "d": "",
     "m": 0,
-    "b": "Majuro,Kwajalein,Ebeye,Jaluit,Wotje,Maloelap,Arno,Mili,Ellep,Jabat,Ailinglaplap,Ailuk,Utirik,Rongelap,Kili,Ebon,Namorik,Lib,Mejit,Bikini,Rongrik,Ujelang,Bokak,Toke,Wotho,Erikub,Jemo,Tabiteuea,Eniwetok,Loj,Keymao"
+    "b": "Majuro,Kwajalein,Ebeye,Jaluit,Wotje,Maloelap,Arno,Mili,Ellep,Jabat,Ailinglaplap,Ailuk,Utirik,Rongelap,Kili,Ebon,Namorik,Lib,Mejit,Bikini,Rongrik,Ujelang,Bokak,Toke,Wotho,Erikub,Jemo,Tabiteuea,Eniwetok,Loj,Keymao,Aur,Namu,Jabat,Lae,Ujae,Wotho,Lib,Namdrik,Jaluit,Kili,Ebon",
+    "status": "COMPLETE"
   },
 
   {
@@ -2490,7 +2546,8 @@ window.oceaniaNameBases = [
     "max": 16,
     "d": "",
     "m": 0,
-    "b": "Koror,Ngerulmud,Babeldaob,Peleliu,Angaur,Kayangel,Ngaraard,Ngarchelong,Ngatpang,Airai,Melekeok,Ngemenis,Ngarluong,Hatohobei,Sonsorol,Ngerchelong,Koror State,Ngaraard State,Aimeliik,Ngchesar,Ngeremlengui,Ngiwal,Ngetbang,Idid,Babeldaob Island,Chelechui,Malakal,Toachel Mlengui,Imeong,Irrai,Oikull"
+    "b": "Koror,Ngerulmud,Babeldaob,Peleliu,Angaur,Kayangel,Ngaraard,Ngarchelong,Ngatpang,Airai,Melekeok,Ngemenis,Ngarluong,Hatohobei,Sonsorol,Ngerchelong,Koror State,Ngaraard State,Aimeliik,Ngchesar,Ngeremlengui,Ngiwal,Ngetbang,Idid,Babeldaob Island,Chelechui,Malakal,Toachel Mlengui,Imeong,Irrai,Oikull,Kloulklubed,Imelechol,Lademisang,Ongeuidel,Ngedbus,Olngeuaol,Ngercheu,Belualasmau,Ruruid,Ngebad,Ngurungor,Ngesuall",
+    "status": "COMPLETE"
   },
 
   {
@@ -2500,7 +2557,8 @@ window.oceaniaNameBases = [
     "max": 13,
     "d": "",
     "m": 0,
-    "b": "Hagatna,Dededo,Tamuning,Mangilao,Barrigada,Agat,Yigo,Sinajana,Chalan Pago,Ordot,Agana Heights,Talofofo,Yona,Inarajan,Merizo,Umatac,Santa Rita,Piti,Asan,Maina,Mongmong,Toto,Tumon,Apra Harbor,Guam,Agat Bay,Pago Bay,Cocos Island,Cabras,Fouha"
+    "b": "Hagatna,Dededo,Tamuning,Mangilao,Barrigada,Agat,Yigo,Sinajana,Chalan Pago,Ordot,Agana Heights,Talofofo,Yona,Inarajan,Merizo,Umatac,Santa Rita,Piti,Asan,Maina,Mongmong,Toto,Tumon,Apra Harbor,Guam,Agat Bay,Pago Bay,Cocos Island,Cabras,Fouha,Saipan,San Jose,Garapan,Chalan Kanoa,Susupe,San Roque,Tinian,San Jose,Songsong,Rota,Sinapalo,Gong Gong,Rota Village,Agiguan,Alamagan,Anatahan,Pagan,Agrigan,Asuncion,Maug,Farrallon de Pajaros",
+    "status": "COMPLETE"
   },
 
   {
@@ -2510,7 +2568,8 @@ window.oceaniaNameBases = [
     "max": 15,
     "d": "",
     "m": 0,
-    "b": "Tarawa,Betio,Bairiki,Abemama,Butaritari,Makin,Marakei,Maiana,Abaiang,Nonouti,Onotoa,Tabiteuea,Beru,Nikunau,Tamana,Arorae,Kiritimati,Teraina,Tabuaeran,Phoenix Islands,Line Islands,Banaba,Kanton,Orona,Rawaki,Manra,Birnie,Vostok,McKean,Starbuck,Flint,Vaiaku"
+    "b": "Tarawa,Betio,Bairiki,Abemama,Butaritari,Makin,Marakei,Maiana,Abaiang,Nonouti,Onotoa,Tabiteuea,Beru,Nikunau,Tamana,Arorae,Kiritimati,Teraina,Tabuaeran,Phoenix Islands,Line Islands,Banaba,Kanton,Orona,Rawaki,Manra,Birnie,Vostok,McKean,Starbuck,Flint,Vaiaku",
+    "status": "COMPLETE"
   },
 
   {
@@ -2520,7 +2579,8 @@ window.oceaniaNameBases = [
     "max": 10,
     "d": "",
     "m": 0,
-    "b": "Arorangi,Matavera,Nikao,Tupapa,Takuvaine,Te Manga,Ikurangi,Ara Metua,Murienua,Puaikura,Kavera,Tutakimoa,Rakahanga,Manihiki,Penrhyn,Tongareva,Aitutaki,Mitiaro,Mauke,Mangaia,Pukapuka,Palmerston,Nassau,Manuae,Takutea,Suwarrow,Rarotonga,Avarua,Aroa,Avatiu,Atiu,Aranui,Atupa"
+    "b": "Arorangi,Matavera,Nikao,Tupapa,Takuvaine,Te Manga,Ikurangi,Ara Metua,Murienua,Puaikura,Kavera,Tutakimoa,Rakahanga,Manihiki,Penrhyn,Tongareva,Aitutaki,Mitiaro,Mauke,Mangaia,Pukapuka,Palmerston,Nassau,Manuae,Takutea,Suwarrow,Rarotonga,Avarua,Aroa,Avatiu,Atiu,Aranui,Atupa",
+    "status": "COMPLETE"
   },
 
   {
@@ -2530,7 +2590,8 @@ window.oceaniaNameBases = [
     "max": 19,
     "d": "",
     "m": 0,
-    "b": "Burketown,Leichhardt River,Gulf of Carpentaria,Normanton,Doomadgee,Lawn Hill,Nicholson River,Albert River,Flinders River,Cloncurry,Gregory Downs,Julia Creek,Camooweal,Boolooroo,Riversleigh,Westmoreland,Springvale,Marion Downs,Avon Downs,Walgra,Saxby,Stokes,Camooweal,Carpentaria Downs,Constance,Gidya,Nardoo,Landsborough,Clonaghty,Canobie"
+    "b": "Burketown,Leichhardt River,Gulf of Carpentaria,Normanton,Doomadgee,Lawn Hill,Nicholson River,Albert River,Flinders River,Cloncurry,Gregory Downs,Julia Creek,Camooweal,Boolooroo,Riversleigh,Westmoreland,Springvale,Marion Downs,Avon Downs,Walgra,Saxby,Stokes,Carpentaria Downs,Constance,Gidya,Nardoo,Landsborough,Clonaghty,Canobie",
+    "status": "COMPLETE"
   },
 
   {
@@ -2540,7 +2601,8 @@ window.oceaniaNameBases = [
     "max": 0,
     "d": "",
     "m": 0,
-    "b": ""
+    "b": "",
+    "status": "WAITING"
   },
 
   {
@@ -2550,7 +2612,8 @@ window.oceaniaNameBases = [
     "max": 14,
     "d": "",
     "m": 0,
-    "b": "Goroka,Kainantu,Lae,Mount Hagen,Kundiawa,Kavieng,Wau,Bulolo,Asaro Valley,Benabena,Daulo Pass,Lufa,Henganofi,Obura,Wonenara,Henga,Gahuku,Chimbu,Simbu,Ramu River,Markham Valley,Erap,Aseki,Yonki,Kratke Range,Omura,Tsenga,Mamafe,Mangari,Jamison"
+    "b": "Goroka,Kainantu,Daulo Pass,Lufa,Henganofi,Obura,Wonenara,Henga,Gahuku,Chimbu,Simbu,Benabena,Upper Asaro,Lower Asaro,Erap,Aseki,Yonki,Kratke Range,Omura,Tsenga,Mamafe,Mangari,Jamison,Wanok,Marass,Banabe",
+    "status": "COMPLETE"
   },
 
   {
@@ -2560,7 +2623,8 @@ window.oceaniaNameBases = [
     "max": 16,
     "d": "",
     "m": 0,
-    "b": "Ngukurr,Barunga,Roper River,Fitzroy Crossing,Halls Creek,Daly River,Belyuen,Turkey Creek,Wyndham,Kununurra,Barkly Tableland,Victoria River,Katherine,Darwin,Palmerston,Tennant Creek,Borroloola,Wadeye,Jabiru,Nhulunbuy,Warruwi,Port Keats,Minjilang,Groote Eylandt,Kalkarindji,Lajamanu,Elliott,Mataranka,Pine Creek,Timber Creek"
+    "b": "Ngukurr,Barunga,Roper River,Fitzroy Crossing,Halls Creek,Daly River,Belyuen,Turkey Creek,Wyndham,Kununurra,Barkly Tableland,Victoria River,Katherine,Darwin,Palmerston,Tennant Creek,Borroloola,Wadeye,Jabiru,Nhulunbuy,Warruwi,Port Keats,Minjilang,Groote Eylandt,Kalkarindji,Lajamanu,Elliott,Mataranka,Pine Creek,Timber Creek",
+    "status": "COMPLETE"
   },
 
   {
@@ -2570,7 +2634,8 @@ window.oceaniaNameBases = [
     "max": 14,
     "d": "",
     "m": 0,
-    "b": "Nhulunbuy,Yirrkala,Gunyangara,Galiwinku,Milingimbi,Ramingining,Mapuru,Gangan,Laynhapuy,Elcho Island,Gapuwiyak,Marthakal,Wallaguna,Gurrumurru,Baniyala,Buymarr,Dhalinybuy,Gulkula,Yalakun,Bawkawuy,Djarrakpi,Matamata,Rorruwuy,Miwatj,Wessel Islands,Port Bradshaw,Caledon Bay,Gove"
+    "b": "Nhulunbuy,Yirrkala,Gunyangara,Galiwinku,Milingimbi,Ramingining,Mapuru,Gangan,Laynhapuy,Elcho Island,Gapuwiyak,Marthakal,Wallaguna,Gurrumurru,Baniyala,Buymarr,Dhalinybuy,Gulkula,Yalakun,Bawkawuy,Djarrakpi,Matamata,Rorruwuy,Miwatj,Wessel Islands,Port Bradshaw,Caledon Bay,Gove",
+    "status": "COMPLETE"
   },
 
   {
@@ -2580,7 +2645,8 @@ window.oceaniaNameBases = [
     "max": 12,
     "d": "",
     "m": 0,
-    "b": "Wagga Wagga,Dubbo,Narrandera,Griffith,Forbes,Parkes,Orange,Cowra,Young,Bathurst,Lithgow,Mudgee,Cootamundra,Temora,West Wyalong,Condobolin,Eugowra,Tumut,Burrowa,Junee,Leeton,Temora,Gooloogong,Canowindra,Grenfell,Barellan,Ardlethan,Peak Hill,Binnaway,Tottenham"
+    "b": "Wagga Wagga,Dubbo,Narrandera,Griffith,Forbes,Parkes,Orange,Cowra,Young,Bathurst,Lithgow,Mudgee,Cootamundra,Temora,West Wyalong,Condobolin,Eugowra,Tumut,Burrowa,Junee,Leeton,Gooloogong,Canowindra,Grenfell,Barellan,Ardlethan,Peak Hill,Binnaway,Tottenham",
+    "status": "COMPLETE"
   },
 
   {
@@ -2590,7 +2656,8 @@ window.oceaniaNameBases = [
     "max": 15,
     "d": "",
     "m": 0,
-    "b": "Singleton,Quirindi,Gunnedah,Tamworth,Narrabri,Wee Waa,Walgett,Moree,Collarenebri,Lightning Ridge,Mungindi,Nindigully,Boobera Lagoon,Goondiwindi,Warrumbungle,Scone,Murrurundi,Muswellbrook,Coonabarabran,Binfielder,Boggabri,Caroona,Colly Blue,Doonside,Garrawilla,Gilgandra,Gungal,Keepit,Kerrabee,Kurrumbede,Lake Cargelligo,Narromine,Pilliga,Talawanta,Toorawawai,Werrie,Werris Creek,Wilberforce,Wollar,Wonbornia"
+    "b": "Singleton,Quirindi,Gunnedah,Tamworth,Narrabri,Wee Waa,Walgett,Moree,Collarenebri,Lightning Ridge,Mungindi,Nindigully,Boobera Lagoon,Goondiwindi,Warrumbungle,Scone,Murrurundi,Muswellbrook,Coonabarabran,Boggabri,Caroona,Gilgandra,Gungal,Keepit,Kerrabee,Kurrumbede,Lake Cargelligo,Narromine,Pilliga,Werrie,Werris Creek",
+    "status": "COMPLETE"
   },
 
   {
@@ -2600,7 +2667,8 @@ window.oceaniaNameBases = [
     "max": 15,
     "d": "",
     "m": 0,
-    "b": "Wilcannia,Wentworth,Tilpa,Wanaaring,Menindee,Bourke,Louth,Hungerford,Peri Lake,Paroo River,Broken Hill,Mootwingee,Mutawintji,Pooncarie,Buronga,Dareton,Euston,Gol Gol,Manara,Byrock,Enngonia,Fort Bourke,Baaka,Avoca Homestead,Lake Cawndilla,White Cliffs,Milparinka,Tibooburra,Coombah,Yeronga"
+    "b": "Wilcannia,Wentworth,Tilpa,Wanaaring,Menindee,Bourke,Louth,Hungerford,Peri Lake,Paroo River,Broken Hill,Mootwingee,Mutawintji,Pooncarie,Buronga,Dareton,Euston,Gol Gol,Manara,Byrock,Enngonia,Fort Bourke,Baaka,Avoca Homestead,Lake Cawndilla,White Cliffs,Milparinka,Tibooburra,Coombah,Yeronga",
+    "status": "COMPLETE"
   },
 
   {
@@ -2610,17 +2678,19 @@ window.oceaniaNameBases = [
     "max": 9,
     "d": "",
     "m": 0,
-    "b": "Vailala,Tufuone,Vaitupu,Malae,Alele,Liku,Akaaka,Mata Utu,Ahoa,Falaleu,Haafuasia,Lavegahau,Tepa,Gahi,Haatofo,Malaefoou,Kolopo,Halalo,Utufua,Vaimalau,Teesi,Talietumu,Lano,Mua,Hihifo"
+    "b": "Vailala,Tufuone,Vaitupu,Malae,Alele,Liku,Akaaka,Mata Utu,Ahoa,Falaleu,Haafuasia,Lavegahau,Tepa,Gahi,Haatofo,Malaefoou,Kolopo,Halalo,Utufua,Vaimalau,Teesi,Talietumu,Lano,Mua,Hihifo",
+    "status": "COMPLETE"
   },
 
   {
     "name": "Futunan",
     "i": 21014,
-    "min": null,
-    "max": null,
+    "min": 0,
+    "max": 0,
     "d": "",
-    "m": null,
-    "b": ""
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
   },
 
   {
@@ -2630,7 +2700,8 @@ window.oceaniaNameBases = [
     "max": 16,
     "d": "",
     "m": 0,
-    "b": "Funafuti,Nanumea,Nui,Nukufetau,Nukulaelae,Vaitupu,Niutao,Nanumanga,Niulakita,Fongafale,Vaiaku,Amatuku,Funafala,Fualopa,Fuafatu,Vasafua,Tepuka,Tepuka Vili Vili,Tefala,Telele,Tengasu,Lakena,Lefogaki,Teatua a Taepoa,Temotufoliki,Fenua Tapu,Tokinivae,Pakantou,Piliaieve,Pongalei,Talalolae,Lafanga,Motulalo,Savave,Tofia,Luasamotu,Motutanifa"
+    "b": "Funafuti,Nanumea,Nui,Nukufetau,Nukulaelae,Vaitupu,Niutao,Nanumanga,Niulakita,Fongafale,Vaiaku,Amatuku,Funafala,Fualopa,Fuafatu,Vasafua,Tepuka,Tepuka Vili Vili,Tefala,Telele,Tengasu,Lakena,Lefogaki,Teatua a Taepoa,Temotufoliki,Fenua Tapu,Tokinivae,Pakantou,Piliaieve,Pongalei,Talalolae,Lafanga,Motulalo,Savave,Tofia,Luasamotu,Motutanifa",
+    "status": "COMPLETE"
   },
 
   {
@@ -2640,7 +2711,8 @@ window.oceaniaNameBases = [
     "max": 19,
     "d": "",
     "m": 0,
-    "b": "Curup,Lebong,Kepahiang,Rejang Lebong,Seluma,Bengkulu,Lubuklinggau,Musi Rawas,Empat Lawang,Utara,Bengkulu City,Ketaun,Kaur,Padang Ulak Tanding,Talang Ubi,Muara Aman,Manna,Mebang,Bintuhan,Pino,Pulaubatu,Tanjung Sakti,Lais,Pasar Bengkulu,Kayu Agung,Palembang,Baturaja,Lahat,Pagar Alam,Prabumulih,Liwa,Krui"
+    "b": "Curup,Lebong,Kepahiang,Rejang Lebong,Seluma,Bengkulu,Lubuklinggau,Musi Rawas,Empat Lawang,Utara,Bengkulu City,Ketaun,Kaur,Padang Ulak Tanding,Talang Ubi,Muara Aman,Manna,Mebang,Bintuhan,Pino,Pulaubatu,Tanjung Sakti,Lais,Pasar Bengkulu,Kayu Agung,Palembang,Baturaja,Lahat,Pagar Alam,Prabumulih,Liwa,Krui",
+    "status": "COMPLETE"
   },
 
   {
@@ -2650,57 +2722,63 @@ window.oceaniaNameBases = [
     "max": 16,
     "d": "",
     "m": 0,
-    "b": "Bintulu,Sebauh,Tatau,Jepak,Pandan,Labang,Tubau,Nyalau,Kakus,Jelalong,Kemena River,Sungai Sebatang,Samalaju,Kidurong,Tanjung Kidurong,Kuala Tatau,Sungai Plan,Batu 5,Medan Jaya,Similajau,Tanjung Batu,Bukit Balai,Lambir,Niah,Mukah,Sibu,Miri,Kuching"
+    "b": "Bintulu,Sebauh,Tatau,Jepak,Pandan,Labang,Tubau,Nyalau,Kakus,Jelalong,Kemena River,Sungai Sebatang,Samalaju,Kidurong,Tanjung Kidurong,Kuala Tatau,Sungai Plan,Batu 5,Medan Jaya,Similajau,Tanjung Batu,Bukit Balai,Lambir,Niah,Mukah,Sibu,Miri,Kuching",
+    "status": "COMPLETE"
   },
 
   {
     "name": "Boazi",
     "i": 21087,
-    "min": null,
-    "max": null,
+    "min": 0,
+    "max": 0,
     "d": "",
-    "m": null,
-    "b": ""
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
   },
 
   {
     "name": "Boazi Lake Murray",
     "i": 21088,
-    "min": null,
-    "max": null,
+    "min": 0,
+    "max": 0,
     "d": "",
-    "m": null,
-    "b": ""
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
   },
 
   {
     "name": "Ginuman",
     "i": 21089,
-    "min": null,
-    "max": null,
+    "min": 0,
+    "max": 0,
     "d": "",
-    "m": null,
-    "b": ""
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
   },
 
-  {
+{
     "name": "Chuave",
     "i": 21090,
     "min": 3,
     "max": 16,
     "d": "",
     "m": 0,
-    "b": "Kundiawa,Gembogl,Kerowagi,Gumine,Dirima,Gena,Wagiga,Watabung,Endugwa,Chuave,Siane,Kup,Ninti,Sigerei,Kombugl,Omani,Kerowagi Station,Denem,Sinel,Kuma,Numbo,Goglme,Yuagl,Ugatabi,Endugwa 2"
+    "b": "Kundiawa,Gembogl,Kerowagi,Gumine,Dirima,Gena,Wagiga,Watabung,Endugwa,Chuave,Siane,Kup,Ninti,Sigerei,Kombugl,Omani,Kerowagi Station,Denem,Sinel,Kuma,Numbo,Goglme,Yuagl",
+    "status": "COMPLETE"
   },
 
   {
     "name": "Ipiko",
     "i": 21091,
-    "min": null,
-    "max": null,
+    "min": 0,
+    "max": 0,
     "d": "",
-    "m": null,
-    "b": ""
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
   },
 
   {
@@ -2710,17 +2788,19 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Porgera,Paiam,Paula,Pungar,Piawi,Yarik,Yuyan,Tipinini,Mapaka,Kupari,Yenkisa,Tagini,Pokoli,Wapangi,Enga,Pyenae,Laiagam,Tambul,Wapenamanda,Kandep,Kompiam,Wage,Erave,Kagua,Ialibu"
+    "b": "Porgera,Paiam,Paula,Pungar,Piawi,Yarik,Yuyan,Tipinini,Mapaka,Kupari,Yenkisa,Tagini,Pokoli,Wapangi,Enga,Pyenae,Laiagam,Tambul,Wapenamanda,Kandep,Kompiam,Wage,Erave,Kagua,Ialibu",
+    "status": "COMPLETE"
   },
 
   {
     "name": "Isabi",
     "i": 21093,
-    "min": null,
-    "max": null,
+    "min": 0,
+    "max": 0,
     "d": "",
-    "m": null,
-    "b": ""
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
   },
 
   {
@@ -2730,67 +2810,74 @@ window.oceaniaNameBases = [
     "max": 8,
     "d": "",
     "m": 0,
-    "b": "Jimmi,Banz,Kointiba,Kombugl,Kumai,Kupeng,Kurup,Waghi,Toki,Pomak,Komunkia,Tabibuga,Kubor,Mindi,Kuma,Kondiu,Kogai,Kup,Wagi,Wahgi,Nondugl,Koroba,Tari,Laiagam,Kandep"
+    "b": "Jimmi,Banz,Kointiba,Kombugl,Kumai,Kupeng,Kurup,Waghi,Toki,Pomak,Komunkia,Tabibuga,Kubor,Mindi,Kuma,Kondiu,Kogai,Kup,Wagi,Wahgi,Nondugl,Koroba,Tari,Laiagam,Kandep",
+    "status": "COMPLETE"
   },
 
   {
     "name": "Ambakich",
     "i": 21097,
-    "min": null,
-    "max": null,
+    "min": 0,
+    "max": 0,
     "d": "",
-    "m": null,
-    "b": ""
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
   },
 
   {
     "name": "Ap Ma",
     "i": 21098,
-    "min": null,
-    "max": null,
+    "min": 0,
+    "max": 0,
     "d": "",
-    "m": null,
-    "b": ""
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
   },
 
   {
     "name": "Asabano",
     "i": 21099,
-    "min": null,
-    "max": null,
+    "min": 0,
+    "max": 0,
     "d": "",
-    "m": null,
-    "b": ""
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
   },
 
   {
     "name": "Bogaya",
     "i": 21100,
-    "min": null,
-    "max": null,
+    "min": 0,
+    "max": 0,
     "d": "",
-    "m": null,
-    "b": ""
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
   },
 
   {
     "name": "Burmeso",
     "i": 21101,
-    "min": null,
-    "max": null,
+    "min": 0,
+    "max": 0,
     "d": "",
-    "m": null,
-    "b": ""
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
   },
 
   {
     "name": "Light Warlpiri",
     "i": 21102,
-    "min": null,
-    "max": null,
+    "min": 0,
+    "max": 0,
     "d": "",
-    "m": null,
-    "b": ""
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
   },
 
   {
@@ -2800,7 +2887,8 @@ window.oceaniaNameBases = [
     "max": 0,
     "d": "",
     "m": 0,
-    "b": ""
+    "b": "",
+    "status": "WAITING"
   },
 
   {

@@ -626,7 +626,7 @@ window.asiaNameBases = [
     "max": 13,
     "d": "",
     "m": 0,
-    "b": "",
+    "b": "Xintian,Shawo,Lannigou,Longjia,Jindi,Bigong,Maocaozhai,Hongfeng,Huashi,Yanger,Xinkaitian,Tiele,Dengming,Huangni",
     "status": "WAITING"
   },
   {
@@ -637,7 +637,7 @@ window.asiaNameBases = [
     "d": "",
     "m": 0,
     "b": "",
-    "status": "WAITING"
+    "status": "INVALID"
   },
   {
     "name": "Achang",

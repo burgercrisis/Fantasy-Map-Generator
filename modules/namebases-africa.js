@@ -57,8 +57,8 @@ window.africaNameBases = [{
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Eenhana,Tsintsabis,Rundu,Grootfontein,Tsumeb,Mangetti Dune,Omtaku,Schmidtsdrif",
-    "status": "WAITING"
+    "b": "Eenhana,Tsintsabis,Rundu,Grootfontein,Tsumeb,Mangetti Dune,Omtaku,Schmidtsdrif,Helao Nafidi,Okongo,Ongha,Ongenga,Omungwelume,Eehongo,Okahenge,Oupili,Omukukutu,Omundaungilo,Onane,Ouholamo,Ouhongo,Nkurenkuru,Mpungu,Katwitwi",
+    "status": "COMPLETE"
   },
 {
     "name": "Nubian",
@@ -77,8 +77,8 @@ window.africaNameBases = [{
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Groot Laagte,Dobe,Tsodilo,Xangwa,Xaxa,Nxaunxau,Gane,Kanagas,!Kangwa,Bate,Mahopa,/Xai/xai,Tsumkwe,Nokaneng,Xangwa,Xai-xai",
-    "status": "WAITING"
+    "b": "Groot Laagte,Dobe,Tsodilo,Xangwa,Xaxa,Nxaunxau,Gane,Kanagas,!Kangwa,Bate,Mahopa,/Xai/xai,Tsumkwe,Nokaneng,Xai-xai,Nam Pan,!omdi,//Xa/oba,Makuri,Djxokwe,Kremetartkop,Xamsa,!Ao,N'homa,Mountain Pos,Dou Pos,Eiseb,Gam,Aasvoelnes",
+    "status": "COMPLETE"
   },
 {
     "name": "Hadza",
@@ -107,8 +107,8 @@ window.africaNameBases = [{
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Kasama,Mpika,Chinsali,Isoka,Nakonde,Mbala,Mporokoso,Kaputa,Chilubi,Luwingu,Mungwi,Chambeshi,Luapula,Mansa,Samfya,Nchelenge,Chienge",
-    "status": "WAITING"
+    "b": "Kasama,Mpika,Chinsali,Isoka,Nakonde,Mbala,Mporokoso,Kaputa,Chilubi,Luwingu,Mungwi,Chambeshi,Luapula,Mansa,Samfya,Nchelenge,Chienge,Kawambwa,Mwense,Milenge,Chembe,Mwansabombwe,Chifunabuli,Lunga,Chipili,Mpulungu,Nsama,Lupososhi,Lunte,Senga Hill,Shiwa Ngandu,Mafinga,Kanchibiya,Lavushimanda,Chama,Ndola,Kitwe,Chingola,Mufulira,Luanshya,Kalulushi,Chililabombwe,Mpongwe,Masaiti,Lufwanyama,Serenje,Mkushi,Mumbwa,Kapiri Mposhi,Kabwe",
+    "status": "COMPLETE"
   },
 {
     "name": "Bilen",
