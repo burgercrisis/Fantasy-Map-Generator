@@ -87,7 +87,7 @@ window.africaNameBases = [{
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Mangola,Mitala,Munguli,Yaeda Chini,Mongo wa Mono,Eshkesh",
+    "b": "Mangola,Mitala,Munguli,Yaeda Chini,Mongo wa Mono,Endamagha",
     "status": "WAITING"
   },
 {
@@ -97,8 +97,8 @@ window.africaNameBases = [{
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Farkwa,Poro Banguma,Kwa Mtoro,Magambua,Ovada,Gungi,Moto,Gumbu,Sanzawa,Kurio,Pendo",
-    "status": "WAITING"
+    "b": "Farkwa,Poro Banguma,Kwa Mtoro,Magambua,Ovada,Gungi,Moto,Gumbu,Sanzawa,Kurio,Pendo,Kinyamshindo,Mengu,Baaba,Jogolo,Tarkwa,Dinae,Manantu,Wairo,Ilasee,Ndoroboni,Bubutole,Mombose,Donse,Bugenika,Gonga,Tumbakose,Khubunko,Makorongo,Maziwa,Chase,Babayu,Mangasta,Kurio",
+    "status": "COMPLETE"
   },
 {
     "name": "Bemba",
@@ -117,7 +117,7 @@ window.africaNameBases = [{
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Keren,Senhit,Halhal",
+    "b": "Keren,Senhit,Halhal,Elabered,Geleb,Hagaz,Habero,Kerkebet,Sela,Adi Tekelezan,Asmat",
     "status": "WAITING"
   },
 {

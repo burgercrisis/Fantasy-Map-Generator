@@ -319,15 +319,15 @@ window.asiaNameBases = [
     "b": "Panggang,Pramuka,Kelapa,Kelapa Dua,Tidung,Tidung Kecil,Untung Jawa,Pari,Sebira,Harapan,Lancang,Payung,Karya",
     "status": "COMPLETE"
   },
-  {
+{
     "name": "Peranakan",
     "i": 128,
     "min": 4,
     "max": 14,
     "d": "",
     "m": 0,
-    "b": "Singapore,Malacca,Melaka,Penang,George Town,Tangerang,Jakarta,Surabaya,Kelantan,Terengganu,Phuket,Trang,Phang Nga,Ranong,Bandung,Semarang,Yogyakarta,Cirebon,Medan,Ipoh,Malang,Kota Tinggi,Muar,Teluknaga,Karawaci,Batuceper,Panongan,Sepatan,Kudus,Lasem",
-"status": "WAITING"
+    "b": "",
+    "status": "INVALID"
   },
   {
     "name": "Southern Nicobarese",
@@ -356,7 +356,7 @@ window.asiaNameBases = [
     "max": 15,
     "d": "",
     "m": 0,
-    "b": "",
+    "b": "Kenaboi River Valley,Jelebu District",
     "status": "WAITING"
   },
   {
@@ -686,7 +686,7 @@ window.asiaNameBases = [
     "max": 16,
     "d": "",
     "m": 0.85,
-    "b": "",
+    "b": "Vingt Cinq,La Fourche,Ste Rita,La Grande Case",
     "status": "WAITING"
   },
   {
@@ -736,7 +736,7 @@ window.asiaNameBases = [
     "max": 14,
     "d": "",
     "m": 0,
-    "b": "",
+    "b": "Strait Village,Sound Island,North Andaman",
     "status": "WAITING"
   },
   {
@@ -746,7 +746,7 @@ window.asiaNameBases = [
     "max": 13,
     "d": "",
     "m": 0.1,
-    "b": "",
+    "b": "Akkad,Babylon,Nineveh,Assur,Uruk,Ur,Nippur,Kish,Lagash,Eridu,Mari,Ebla,Sippar,Borsippa,Isin,Adab,Shuruppak,Girsu,Marad,Umma,Dilbat,Zabalam,Karkar,Puzrish-Dagan,Harran,Nimrud,Kalhu,Dur-Kurigalzu,Nuzi,Eshnunna,Tutub,Khafajah,Bad-tibira,Larak,Kuara,Nina,Der,Gasur,Shaduppum,Kutha,Khorsabad,Tell-Brak,Tuttul,Terqa,Emar,Arrapha,Ekallatum",
     "status": "WAITING"
   },
   {
@@ -756,7 +756,7 @@ window.asiaNameBases = [
     "max": 17,
     "d": "",
     "m": 0,
-    "b": "",
+    "b": "North Andaman,North Reef Island",
     "status": "WAITING"
   },
   {
@@ -776,7 +776,7 @@ window.asiaNameBases = [
     "max": 7,
     "d": "",
     "m": 0,
-    "b": "Sekong,Salavan,Attapeu,Pakse,Harak",
+    "b": "Ban Hangyang,Ban Paktai,Ban Khiang Tadsoung,Lamam,Kaleum,Dakchung",
     "status": "WAITING"
   },
   {
@@ -966,7 +966,7 @@ window.asiaNameBases = [
     "max": 17,
     "d": "",
     "m": 0,
-    "b": "Pahare,Kubukasthali,Vacul,Saipu,KhijiChandeshwari,Kubhu,Sukhajor,Silu,Gelu,Ramechhap,Manthali,Doramba,Bethan,Kuntadevi,Rakha,Patale,Bamrang,Chisapani,Madhavpur,Katunje,Bhuttar,Baruneshwor,Thulo Pokhara,Suntale,Phulbari,Kalibote,Salleri,Khurkot,Patle,Talung,Basa,Rampur,Moli,Halesi,Jyamire,Charikot,Jiri,Suri,Lamabagar,Lamidanda,Bhimeshwor,Jugal,Gaurishankar,Lapilang,Sailung,Japhe",
+    "b": "Pahare,Kubukasthali,Vacul,Saipu,Khiji Chandeshwari,Kubhu,Sukhajor,Silu,Gelu,Ramechhap,Manthali,Doramba,Bethan,Kuntadevi,Rakha,Patale,Bamrang,Chisapani,Madhavpur,Katunje,Bhuttar,Baruneshwor,Thulo Pokhara,Suntale,Phulbari,Kalibote,Salleri,Khurkot,Patle,Talung,Basa,Rampur,Moli,Halesi,Jyamire,Charikot,Jiri,Suri,Lamabagar,Lamidanda,Bhimeshwor,Jugal,Gaurishankar,Lapilang,Sailung,Japhe",
     "status": "WAITING"
   },
   {
@@ -1006,7 +1006,7 @@ window.asiaNameBases = [
     "max": 13,
     "d": "",
     "m": 0,
-    "b": "",
+    "b": "Prok,Lho,Sama,Samagaun,Chumling,Chhokangparo,Nile,Lar,Gho,Gap,Chyak,Philim,Deng,Num,Bihi,Chumchet",
     "status": "WAITING"
   },
   {
@@ -1066,7 +1066,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "",
+    "b": "Amman,Rabbah,Amman Citadel,Heshbon,Tell Hesban,Tell el-Mazar,Tell Siren",
     "status": "WAITING"
   },
   {
@@ -1076,7 +1076,7 @@ window.asiaNameBases = [
     "max": 13,
     "d": "",
     "m": 0,
-    "b": "",
+    "b": "Mari,Alalakh,Tell Harmal,Khafajah,Babylon,Mesopotamia,Syria,Ugarit,Mount Hermon",
     "status": "WAITING"
   },
   {
@@ -1126,7 +1126,7 @@ window.asiaNameBases = [
     "max": 12,
     "d": "",
     "m": 2,
-    "b": "Morin Dawa,Qiqihar,Hailar,Nenjiang,Heihe,Tacheng,Hulunbuir,Longjiang,Fuyu,Meilisi,Butha",
+    "b": "Morin Dawa,Qiqihar,Hailar,Nenjiang,Heihe,Tacheng,Hulunbuir,Longjiang,Fuyu,Meilisi,Butha,Aihui,Hulan,Nehe,Oroqen,Ewenki,Arongqi,Xinbaerhuqi,Zhalantun,Yakeshi,Ergun,Genhe,Mohe,Jagedaqi,Jiayin,Tangwanghe",
     "status": "WAITING"
   },
   {
@@ -1167,7 +1167,7 @@ window.asiaNameBases = [
     "d": "",
     "m": 0,
     "b": "",
-    "status": "WAITING"
+    "status": "INVALID"
   },
   {
     "name": "Hindko, Northern",
@@ -1187,7 +1187,7 @@ window.asiaNameBases = [
     "d": "",
     "m": 0,
     "b": "",
-    "status": "WAITING"
+    "status": "INVALID"
   },
   {
     "name": "Korku",
@@ -1196,7 +1196,7 @@ window.asiaNameBases = [
     "max": 12,
     "d": "north munda",
     "m": 1,
-    "b": "Khandwa,Harda,Betul,Narmadapuram,Chhindwara,Amravati,Buldana,Akola,Melghat,Chandrapur,Korpana,Gadchandur",
+    "b": "Khandwa,Harda,Betul,Narmadapuram,Chhindwara,Amravati,Buldana,Akola,Melghat,Chandrapur,Korpana,Gadchandur,Seoni,Dewas,Hoshangabad,Rajura,Manikgarh,Yavatmal,Washim,Akola,Chikhaldara,Dharni,Burhanpur,Narmadapuram",
     "status": "WAITING"
   },
   {
