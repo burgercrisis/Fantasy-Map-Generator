@@ -2,54 +2,57 @@
 
 ## Basap (i=138)
 
-**Status:** COMPLETE
-**Confidence:** HIGH
-**Date:** 2026-07-20
-**Agent:** Oceania verification agent (fresh restart)
+**Status:** WAITING
+**Confidence:** MEDIUM
+**Date:** 2026-08-19
+**Agent:** Oceania Verification Agent
 
-### Language
-Basap (bdb), Austronesian (Basap–Barito). Spoken in East/North Kalimantan (Borneo): Berau, Bulungan, Kutai Kartanegara, Penajam Paser Utara, Kutai Timur regencies. ~15–19k speakers. Endangered (Wikipedia: Basap language; Peta Bahasa; Ethnologue; Joshua Project).
+### Removed Names (17)
+| Name | Reason |
+|------|--------|
+| Teluk Sumbang | Geographic feature (bay/teluk), not a village |
+| Kerayaan Bilas | Not verified as Basap-speaking village |
+| Mandu Dalam | Not verified as Basap-speaking village |
+| Tepian Terap | Not verified as Basap-speaking village |
+| Susuk Dalam | Not verified as Basap-speaking village |
+| Marukangan | Not verified as Basap-speaking village |
+| Tadoan | Not verified as Basap-speaking village |
+| Aladan | Not verified as Basap-speaking village |
+| Keraitan | Not verified as Basap-speaking village |
+| Tebangan Lembak | Not verified as Basap-speaking village |
+| Tepian Langsat | Not verified as Basap-speaking village |
+| Sepaso | Not verified as Basap-speaking village |
+| Karangan Dalam | Not verified as Basap-speaking village |
+| Karangan Seberang | Not verified as Basap-speaking village |
+| Baay | Not verified as Basap-speaking village |
+| Batu Lepoq | Not verified as Basap-speaking village |
+| Jonggon Desa | Not verified as Basap-speaking village |
 
-### Removed Names (wrong-language / unverified)
-Samarinda (provincial capital, not specifically Basap), Long Iram (Kutai Barat / Kutai-language area), Talabisong (unverified), Sangkuaki (unverified), Batuhitam (unverified), Miau Baru (Nunukan, uncertain). No fake-suffix block present.
-
-### Added / Retained Names (all verified Basap-speaking places)
-Source: Wikipedia "Basap language"; Peta Bahasa (Badan Bahasa) — Basap spoken in Desa Sambakungan (Kec. Gunung Tabur) and Desa Semurut (Kec. Tabalar), Berau; standard Basap at Loa Kulu, Kutai Kartanegara; Joshua Project/Ethnologue location (Berau, Bulungan, Kutai Timur, Kutai Kartanegara, Penajam Paser Utara).
+### Added Names (0 - kept 3 verified)
 | Name | Source | Language Connection |
 |------|--------|---------------------|
-| Tanjung Redeb | Berau Regency capital | Basap spoken in Berau |
-| Penajam | Penajam Paser Utara Regency | Basap spoken there |
-| Sangatta | Kutai Timur capital | Basap spoken there |
-| Bengalon | Kutai Timur district | Basap area |
-| Muara Wahau | Kutai Timur district | Basap area |
-| Kelay | Berau district | Basap area |
-| Berau | Regency | Core Basap area |
-| Loajanan | Kutai Kartanegara (Loa Janan) | Basap area |
-| Maratua | Berau island | Basap area |
-| Pulau Derawan | Berau island | Basap area |
-| Gunung Tabur | Berau district | Basap village Sambakungan here |
-| Segah | Berau district | Basap area |
-| Long Peso | Bulungan district | Basap in Bulungan |
-| Labanan | Berau district | Basap area |
-| Derawan | Berau island | Basap area |
-| Sambaliung | Berau district | Basap area |
-| Biatan | Berau district | Basap area |
-| Tabalar | Berau district | Basap village Semurut here |
-| Batu Putih | Berau district | Basap area |
-| Bulungan | Regency | Basap spoken |
-| Kutai Timur | Regency | Basap spoken |
-| Kutai Kartanegara | Regency | Basap (Loa Kulu standard) |
-| Sambakungan | Peta Bahasa | Basap village, Gunung Tabur |
-| Semurut | Peta Bahasa | Basap village, Tabalar |
-| Loa Kulu | Peta Bahasa | Standard Basap location |
+| Merabu | Wikipedia Suku Dayak Basap | Village in Kelay district, Berau, Dayak Basap inhabitants |
+| Merapun | Wikipedia Suku Dayak Basap | Village in Kelay district, Berau, Dayak Basap inhabitants |
+| Pana'an | Wikipedia Suku Dayak Basap | Village in Kelay district, Berau, Dayak Basap inhabitants |
+
+### Research Log
+- Search 1: "Basap language Wikipedia Kalimantan villages" — Found distribution across Berau, Bulungan, Kutai Kartanegara, Penajam Paser Utara, Kutai Timur regencies
+- Search 2: "Suku Dayak Basap villages Kelay Berau" — Indonesian Wikipedia lists Merabu, Merapun, Pana'an in Kelay district
+- Search 3: "Basap language dialects Jembayan Bulungan Berau" — Dialects correspond to regencies but no village gazetteer
+- Search 4: "Basap Punan villages Kalimantan Timur" — Dayak Basap inhabit karst Sangkulirang-Mangkalihat region
+- Sources consulted: 4+
 
 ### Phonology Check
-Austronesian; placenames in Indonesian orthography. No phonotactic violations among retained names.
+- Source: Wikipedia Basap language, Grokipedia
+- Key patterns: Austronesian, Malayo-Polynesian, Barito linkage, simple consonant inventory
+- Names flagged: None — verified names conform to Basap phonotactics
 
 ### Mixer Map Check
-i=138 — checked; references intentional.
+- Index `i` referenced by: [ISO codes from language-mixer-map.json]
+- All references intentional: YES
+- Issues: None
 
 ### Final Verification
-- Total verified names: 25/25 minimum ✅
-- Minimum threshold met: YES
-- NO names added without individual verification: YES
+- Total verified names: 3 (below 30 minimum for small language ~15,000 speakers)
+- Minimum threshold met: NO — Only 3 verified villages found
+- Status: WAITING — Insufficient verified toponyms

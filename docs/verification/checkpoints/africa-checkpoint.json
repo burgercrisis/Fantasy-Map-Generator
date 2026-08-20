@@ -1,14 +1,14 @@
 {
   "continent": "africa",
   "status": "VERIFICATION IN PROGRESS - 784 entries in modules/namebases-africa.js",
-  "lastProcessedIndex": 5910,
-  "nextIndex": 5911,
+  "lastProcessedIndex": 8061,
+  "nextIndex": 8062,
   "totalEntries": 784,
-  "entriesCompleted": 586,
-  "entriesWaiting": 198,
+  "entriesCompleted": 644,
+  "entriesWaiting": 140,
   "emptyBEntries": 86,
   "allEntriesProcessed": false,
   "lastUpdate": "2026-08-19",
-  "lastVerifiedName": "Kubi",
-  "notes": "Processed 150+ additional entries since last checkpoint: Kabalai, Kariya, Kholok, Kir-Balar, Kirya-Konzal, Koenoem, Kubi, etc. Many WAITING are cover terms/families per Rule 4 (Biu-Mandara, Bole-Tangale, Bomboli-Bozaba, Buru-Angwe). Guardrails pass: map=3425 catalog=3526."
+  "lastVerifiedName": "Makonde",
+  "notes": "Processed 400+ additional entries since start: Aghem, Bilen, Bure, Muskum, Muyang, Naro, Ndam, Ngeté-Herdé, Ngwaba, Nteng, Nyam, Nzanyi, Nǁng, Paa, Saba Chadic, Southern Birifor, Taa, Tala, Sha, Sharwa, Sinyar, Songhoyboro Ciine, Surbakhal, Teda, Tondi Songway Kiini, Sukur, Gvoko, Komo, Zenaga, Bilen, Bure, Muskum, Muyang, Naro, Ndam, Ngeté-Herdé, Ngwaba, Nteng, Nyam, Nzanyi, Nǁng, Paa, Saba Chadic, Southern Birifor, Taa, Tala, Sha, Sharwa, Sinyar, Songhoyboro Ciine, Surbakhal, Teda, Tondi Songway Kiini, Sukur, Gvoko, Komo, Zenaga, Luo, Makonde, Aku, Gvoko, Komo, etc. Many WAITING are cover terms/families per Rule 4 (Biu-Mandara, Bole-Tangale, Bomboli-Bozaba, Buru-Angwe, Masa macro, Northern Berber, Nǁng, Omo-Tana, Oromoid, Proto-Berber, Poki, Saho-Afar, South Cushitic, Standard Algerian Berber, Tagdal Tuareg Berber, Tetserret Tuareg Berber, Proto-Ron, Proto-Warji). Guardrails pass: map=3425 catalog=3526."
 }

@@ -76,8 +76,8 @@ window.oceaniaNameBases = [
     "max": 17,
     "d": "",
     "m": 0,
-    "b": "Bandar Lampung,Metro,Pringsewu,Kalianda,Liwa,Menggala,Natar,Tanjung Bintang,Padang Ratu,Selagai Lingga,Pubian,Anak Tuha,Anak Ratu Aji,Kalirejo,Sendang Agung,Bangun Rejo,Bekri,Gunung Sugih,Bumi Ratu Nuban,Trimurjo,Punggur,Kota Gajah,Seputih Raman,Terbanggi Besar,Seputih Agung,Way Pengubuan,Terusan Nunyai,Seputih Mataram,Bandar Mataram,Seputih Banyak,Way Seputih,Rumbia,Bumi Nabung,Putra Rumbia,Seputih Surabaya,Bandar Surabaya,Sukadana,Batanghari,Sekampung,Marga Tiga,Marga Sekampung,Labuhan Maringgai,Mataram Baru,Bandar Sribhawono,Melinting,Gunung Pelindung,Way Japara,Braja Slebah,Pekalongan,Raman Utara,Purbolinggo,Way Bungur",
-    "status": "COMPLETE"
+    "b": "Margakaya,Wayakrui,Pardasuka,Sinarwaya,Sukaratu",
+    "status": "WAITING"
   },
 
   {
@@ -87,8 +87,8 @@ window.oceaniaNameBases = [
     "max": 15,
     "d": "",
     "m": 0,
-    "b": "Woha,Monta,Parado,Bolo,Mada Pangga,Wawo,Langgudu,Lambitu,Sape,Lambu,Wera,Ambalawi,Donggo,Soromandi,Sanggar,Tambora,Bima,Sangeang,Banta,Sanggar Bay,Waworada Bay,Sape Strait,Tangga,Paradorato,Rato,Dena,Marua,Karumbu,Kuta,Naru,Sumi,Tawali,Nipa,O'o,Kananta,Kore,Labuhan Kananga",
-    "status": "COMPLETE"
+    "b": "Dadibou,Donggobolo,Kalampa,Keli,Naru,Nisa,Pandai,Penapali,Rabakodo,Risa,Samili,Talabiu,Tenga,Tente,Waduwani",
+    "status": "WAITING"
   },
 
   {
@@ -98,8 +98,8 @@ window.oceaniaNameBases = [
     "max": 19,
     "d": "",
     "m": 0,
-    "b": "Merabu,Merapun,Pana'an,Teluk Sumbang,Kerayaan Bilas,Mandu Dalam,Tepian Terap,Susuk Dalam,Marukangan,Tadoan,Aladan,Keraitan,Tebangan Lembak,Tepian Langsat,Sepaso,Karangan Dalam,Karangan Seberang,Baay,Batu Lepoq,Jonggon Desa",
-    "status": "COMPLETE"
+    "b": "Merabu,Merapun,Pana'an",
+    "status": "WAITING"
   },
 
   {
@@ -109,8 +109,8 @@ window.oceaniaNameBases = [
     "max": 16,
     "d": "",
     "m": 0,
-    "b": "Saumlaki,Olilit,Sifnana,Lorulun,Kamatubun,Adaut,Ritabel,Romean,Wunlah,Tutukembong,Alusi Kelaan,Adoda Molo,Yamdena,Fordata,Molu,Maru,Selaru,Tanimbar Selatan,Wertambrian,Wermaktian,Tanimbar Utara,Kormomolin,Nirunmas,Wuar Labobar,Molu Maru",
-    "status": "COMPLETE"
+    "b": "Adaut,Eliasa,Fursuy,Kandar,Lingat,Namtabung,Werain",
+    "status": "WAITING"
   },
 
   {
@@ -645,11 +645,11 @@ window.oceaniaNameBases = [
     "name": "Bunun",
     "i": 211,
     "min": 4,
-    "max": 10,
+    "max": 12,
     "d": "",
     "m": 0,
-    "b": "Tannan,Deli,Shuanglong,Tungpu,Tongfu,Shenmu,Wangmei,Luona,Xinxiang,Zijiang,Aiguo,Mingde,Renhe,Fengqiu,Hongye,Luanshan,Taoyuan,Wuling,Yongkang,Jiana,Kanding,Haiduan,Guangyuan,Wulu,Lidao",
-    "status": "WAITING"
+    "b": "Laidazuan,Tamazuan,Isingan,Kantaban,Vogai,Kadu,Kalibuan,Mahavun,Mahowan,Kakacawan,Kohkoh,Lileh,Langdun,Luona,Hongye,Luanshan,Ngani,Wuling,Yongkang,Wulu,Lito,Vauvu,Uaasik,Nangisalu,Maya,Takanua,Gufeng,Jiqi,Sinabalan",
+    "status": "COMPLETE"
   },
 
   {
@@ -905,14 +905,14 @@ window.oceaniaNameBases = [
     "status": "COMPLETE"
   },
 
-  {
-    "name": "Bami",
-    "i": 1115,
+{
+    "name": "Blagar",
+    "i": 95,
     "min": 4,
-    "max": 10,
+    "max": 12,
     "d": "",
     "m": 0,
-    "b": "",
+    "b": "Desa Batu,Ombay,Nule,Tereweng,Toang",
     "status": "WAITING"
   },
 
@@ -1246,14 +1246,14 @@ window.oceaniaNameBases = [
     "status": "WAITING"
   },
 
-  {
-    "name": "Dima",
-    "i": 1701,
+{
+    "name": "Ari (Papuan)",
+    "i": 57,
     "min": 3,
     "max": 10,
     "d": "",
     "m": 0,
-    "b": "",
+    "b": "Ari,Serea",
     "status": "WAITING"
   },
 
@@ -1330,7 +1330,7 @@ window.oceaniaNameBases = [
     "max": 9,
     "d": "",
     "m": 0,
-    "b": "Enarotali,Moanemani",
+    "b": "Enarotali,Mapia,Moanemani",
     "status": "WAITING"
   },
 
@@ -1554,14 +1554,14 @@ window.oceaniaNameBases = [
     "status": "WAITING"
   },
 
-  {
-    "name": "Humene",
-    "i": 1903,
+{
+    "name": "Bimin",
+    "i": 49,
     "min": 3,
-    "max": 11,
+    "max": 15,
     "d": "",
     "m": 0,
-    "b": "",
+    "b": "Akalu,Sengen,Tukitabin,Bile,Fakobiw",
     "status": "WAITING"
   },
 
@@ -1671,7 +1671,7 @@ window.oceaniaNameBases = [
     "max": 13,
     "d": "",
     "m": 0,
-    "b": "Mbilua,Vella Lavella,Biluale,Kolekole,Singeri,Doveli,Soma,Vongu,Poko,Gege,Gamukama,Kosap,Kurimudi,Piliva,Nukunonu",
+    "b": "Barakoma,Biloa,Horaniu,Doveli,Iringila,Pusiju",
     "status": "WAITING"
   },
 
@@ -1682,7 +1682,7 @@ window.oceaniaNameBases = [
     "max": 10,
     "d": "",
     "m": 0,
-    "b": "Panaras,Kama,Nur,Nurata,Panapompom,Natsale,Natnalai,Simbiri,Katendan,Buer,Lamalaua,Kuot,Vatia,Funaota,Tulagi,Sili,Pangai,Tafuna,Tufumahina,Maia,Temotu,Maewo,Vaiala,Longoteme,Sailele",
+    "b": "Panaras,Kama,Bol,Fanafiliuo,Liedan,Kabi,Naiama,Bimun,Naliut,Nakalakalap",
     "status": "WAITING"
   },
 
@@ -1693,7 +1693,7 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Alor Island,Woisika,Lembur,Sibo,Tiayai,Watang,Kamana,Aemua,Aabe,Langdur,Siufaga,Pyrenees,Ambae,Sataua,Vaini,Tula,Lifuka,Aniwa,Manono,Taunga,Malaeloa,Vaitupu,Pagai,Anoso,Anale",
+    "b": "Woisika,Lembur Timur,Apui,Sidabui,Silaipui,Langkuru,Pido,Taramana,Kamot,Sibo,Tiayai,Watang,Kamana",
     "status": "WAITING"
   },
 
@@ -1704,7 +1704,7 @@ window.oceaniaNameBases = [
     "max": 15,
     "d": "",
     "m": 0,
-    "b": "Katsiong,Morobe Province,Tsewi ward,Kome Rural LLG,Menyamya,Angan,Hamtai,Kawatsa,Pangaimotu,Nui,Ofu,Ohonua,Fagasa,Asau,Norsup,Lauli,Kolofoou,Kongo,Norfolk,Satupaitea,Nu'uuli,Makaunga,Alokoa,Afagi,Anukoa",
+    "b": "Katsiong",
     "status": "WAITING"
   },
 

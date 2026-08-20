@@ -3915,7 +3915,8 @@ window.asiaNameBases = [
     "max": 14,
     "d": "",
     "m": 0,
-    "b": "Khorla,Uiya,Jagat,Philim,Nyak,Gorkha,Buri Gandaki,Daraundi Khola,Manaslu,Annapurna,Himalaya,Gurung,Lila Ke,Nepal,XiengKhouang,NorthernGhalebari,PalliNorthernGhale,Tibetan,DienBien,LaiUyen,BoKluea,SocTrang,ThuanAn,PakLay,TanHiep,TanThanh,Changning,ALuoi,CangLong,Menglian,NgocHoi,TanPhuoc,NorthernGhalepur,NorthernGhalenagar,NorthernGhalebad,NorthernGhalekot,NorthernGhalewada,NorthernGhaleghat,NorthernGhalepalli,NorthernGhalekonda,NorthernGhalepeta,NorthernGhaleuru,NorthernGhaleuri,NorthernGhaleooru,NorthernGhalegiri,NagarNorthernGhale,NorthernGhaleganj,NorthernGhalebazar,NorthernGhalebandar,NorthernGhalegram"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Huizhou Chinese",
@@ -3924,7 +3925,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Huizhou,Huicheng,Huiyang,Boluo,Huidong,Longmen,Luofu,Xunliao,Nankun,Pinghai,Meizhou,Guangzhou,Shenzhen,Shanwei,Zhuhai,Beijing,Shanghai,Chengdu,Nanjing,Wuhan,Hangzhou,Xi'an,Changsha,Nanchang,Fuzhou,Xiamen,Kunming,Guiyang,Lanzhou,Taiyuan,Shijiazhuang,Changchun,Zhengzhou,Hefei,Dongguan,Heyuan,Chaoshan,Zhongshan,HuizhouChinesek,HuizhouChineset,HuizhouChinesep,HuizhouChinesem,HuizhouChinesen"
+    "b": "Huizhou,Huicheng,Huiyang,Boluo,Huidong,Longmen,Luofu,Xunliao,Nankun,Pinghai,Meizhou,Guangzhou,Shenzhen,Shanwei,Zhuhai",
+    "status": "WAITING"
   },
   {
     "name": "Huishui Miao",
@@ -3933,7 +3935,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Yashui,Doudi,Duansha,Baitang,Zhongguo,Changshun,Guizhou,Miao,Hmong,Pingba,Xingren,Wangmo,Zunyi,Guiyang,Anshun,Kaili,Duyun,Fuquan,Libo,Rongjiang,Congjiang,Leishan,Taijiang,Huangping,Zhenyuan,Shibing,Sandu,Pingtang,Luodian,Huishui,Wengan,Xifeng,Xiuwen,Kaiyang,Qingzhen,Qiannan,HuishuiMiaok,HuishuiMiaot,HuishuiMiaop,HuishuiMiaom,HuishuiMiaon,HuishuiMiaos,HuishuiMiaor"
+    "b": "Yashui,Doudi,Duansha,Baitang,Zhongguo,Changshun",
+    "status": "WAITING"
   },
   {
     "name": "Hunzib",
@@ -3942,7 +3945,8 @@ window.asiaNameBases = [
     "max": 12,
     "d": "",
     "m": 0,
-    "b": "Garbutl,Gunzib,Nakhada,Gelo,Khelada,Novo Garbutl,Rodor,Todor,Saruso,Khaladukh,Tsuntinsky,Kizilyurt,Georgia,Tbilisi,Kutaisi,Batumi,Rustavi,Gori,Zugdidi,Poti,Telavi,Akhaltsikhe,Mtskheta,Sukhumi,Yerevan,Gyumri,Vanadzor,Ejmiatsin,Armavir,Kapan,Goris,Stepanakert,Makhachkala,Derbent,Grozny,Dagestan"
+    "b": "Garbutl,Gunzib,Nakhada,Gelo,Khelada,Novo Garbutl,Rodor,Todor,Saruso,Khaladukh,Tsuntinsky,Kizilyurt",
+    "status": "COMPLETE"
   },
   {
     "name": "Hwanghae",
@@ -3951,7 +3955,8 @@ window.asiaNameBases = [
     "max": 14,
     "d": "",
     "m": 0,
-    "b": "Haeju,Kaesong,Sariwon,Sinchon,Ongjin,Baengnyeongdo,Yeonpyeongdo,Daecheongdo,North Hwanghae,South Hwanghae,Gyeonggi,Incheon,Ganghwa,Seoul,Busan,Daegu,Daejeon,Gwangju,Suwon,Ulsan,Changwon,Jeonju,Cheongju,Pohang,Gyeongju,Andong,Jeju,Chuncheon,Gangneung,Gunsan,Mokpo,Wonju,Iksan,Chongjin,Hamhung,Hwanghaek,Hwanghaet,Hwanghaep,Hwanghaem"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Ibanag",
@@ -3960,7 +3965,8 @@ window.asiaNameBases = [
     "max": 14,
     "d": "",
     "m": 0,
-    "b": "Tuguegarao,Solana,Abulug,Lal-lo,Tumauini,San Pablo,Santo Tomas,Nueva Vizcayan,Luzon,Philippines,BenCat,KoKha,CaiBe,IaGrai,MongLa,MuangKham,DanSim,WiangPaPao,Yangon,Mandalay,Naypyidaw,Kuala Lumpur,George Town,Johor Bahru,Kota Kinabalu,Kuching,Jakarta,Surabaya,Bandung,Yogyakarta,Camalaniugan,Cabagan,Santa Maria,Ilagan,Cagayan,Isabela,BenTre,TanChau,Eryuan,Pleiku,Cangyuan,LaoCai,ChonThanh,Akipalli,Anodbad,Amaswada,Adugpalli,Anubbad,Anulpalli,Anatwada,Apegpalli,Adombad,Aberbad,Afalwada,Apedbad,Akilbad,Aorpalli,Amadwada,Ibanagpur,Ibanagnagar,Ibanagbad,Ibanagkot,Ibanagwada"
+    "b": "Tuguegarao,Solana,Abulug,Lal-lo,Tumauini,San Pablo,Santo Tomas,Cabagan,Santa Maria,Ilagan,Cagayan,Isabela",
+    "status": "WAITING"
   },
   {
     "name": "Goaria",
@@ -3969,7 +3975,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Larkana,Sukkur,Moro,Badin,Tharparkar,Mirpurkhas,Sindh,Hin,Umerkot,Goariak,Goariat,Goariap,Goariam,Goarian,Goarias,Goariar,Goarial,Goariad,Goariag,Goariab"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Gurung",
@@ -3988,7 +3995,8 @@ window.asiaNameBases = [
     "max": 18,
     "d": "",
     "m": 0,
-    "b": "Kalam,Usho,Utror,Swat,Dir,Biar,Thal,Lamuti,Kumrat,Torwali,Indus Kohistani,Bateri,Chilisso,Gawro,Khyber Pakhtunkhwa,Barikot,Rajakot,Kalkot,Pakistan"
+    "b": "Kalam,Usho,Utror,Biar,Thal,Lamuti,Matiltan,Barikot,Rajkot,Kalkot,Birikot",
+    "status": "COMPLETE"
   },
   {
     "name": "Gowro",
@@ -3997,7 +4005,8 @@ window.asiaNameBases = [
     "max": 18,
     "d": "",
     "m": 0,
-    "b": "Mahrin,Helo,Tawa,Jabri,Besham,Indus,Gabar Khel,Shina,Dardic,Khyber Pakhtunkhwa,ThanhBinh,ChiangSaen,ThongMySai,TanPhu,QuangNinh,PhuocLong,Kohistan,Pakistan,NhaBe,AoLuang,CauKe,Huaping,PhuThien,ChoLach,Puer,Pleiku,ChiangMuan,Afaskonda,Aboruru,Afomkonda,Aanagar,Alitkonda,Akognagar,Amabnagar,Aekonda,Aforkonda,Anednagar,Akoluru,Apagkonda,Apumkonda,Aputnagar,Amutkonda,Gowropur,Gowronagar,Gowrobad,Gowrokot,Gowrowada"
+    "b": "Mahrin,Pato,Bhimkot",
+    "status": "WAITING"
   },
   {
     "name": "Gyeonggi-Seoul",
@@ -4006,7 +4015,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Seoul,Incheon,Gyeonggi,Suwon,Yongin,Goyang,Seongnam,Icheon,Siheung,Gwangmyeong,Bucheon,Gwangju,Pyeongtaek,Hwaseong,Gimpo,Yangju,Gunpo,Uijeongbu,Namyangju,Seongju,Gimhae,Changwon,Busan,Daegu,Daejeon,Ulsan,Jeonju,Cheongju,Pohang,Gyeongju,Andong,Jeju,Chuncheon,Gangneung,Gunsan,Ansan,Anyang,Osan,Cheonan,Asan,Guri,GyeonggiSeoulk,GyeonggiSeoult,GyeonggiSeoulp,GyeonggiSeoulm,GyeonggiSeouln,GyeonggiSeouls"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Gyeongsang",
@@ -4015,7 +4025,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Daegu,Gyeongju,Andong,Sangju,Gimcheon,Miryang,Gimhae,Changwon,Jinju,Yeongju,Pohang,Gumi,Yeosu,Tongyeong,Uljin,Sacheon,Geoje,Cheongju,Seoul,Busan,Incheon,Daejeon,Gwangju,Suwon,Ulsan,Jeonju,Jeju,Chuncheon,Gangneung,Gunsan,Mokpo,Wonju,Iksan,Chongjin,Hamhung,Masan,Yangsan,Gyeongsangk,Gyeongsangt,Gyeongsangp,Gyeongsangm,Gyeongsangn,Gyeongsangs,Gyeongsangr,Gyeongsangl,Gyeongsangd,Gyeongsangg"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Hani",
@@ -4034,7 +4045,8 @@ window.asiaNameBases = [
     "max": 12,
     "d": "",
     "m": 0,
-    "b": "Gyumri,Vanadzor,Vagharshapat,Armavir,Masis,Artashat,Gavar,Artik,Goris,Ararat,Ashtarak,Spitak,Tbilisi,Kutaisi,Batumi,Rustavi,Gori,Zugdidi,Poti,Telavi,Akhaltsikhe,Mtskheta,Sukhumi,Yerevan,Ejmiatsin,Kapan,Stepanakert,Makhachkala,Derbent,Grozny,Nazran,Cherkessk,Nalchik,Vladikavkaz,Maikop,Abovyan,Hrazdan,Charentsavan,Sevan,Ijevan,Dilijan,Sisian"
+    "b": "Gyumri,Vanadzor,Vagharshapat,Armavir,Masis,Artashat,Gavar,Artik,Goris,Ararat,Ashtarak,Spitak,Tbilisi,Kutaisi,Batumi,Rustavi,Gori,Zugdidi,Poti,Telavi,Akhaltsikhe,Mtskheta,Sukhumi,Yerevan,Ejmiatsin,Kapan,Stepanakert,Makhachkala,Derbent,Grozny,Nazran,Cherkessk,Nalchik,Vladikavkaz,Maikop,Abovyan,Hrazdan,Charentsavan,Sevan,Ijevan,Dilijan,Sisian",
+    "status": "COMPLETE"
   },
   {
     "name": "Armenian Dialect",
@@ -4043,7 +4055,8 @@ window.asiaNameBases = [
     "max": 12,
     "d": "",
     "m": 0,
-    "b": "Gyumri,Vanadzor,Vagharshapat,Armavir,Masis,Artashat,Gavar,Artik,Goris,Ararat,Ashtarak,Spitak,Tbilisi,Kutaisi,Batumi,Rustavi,Gori,Zugdidi,Poti,Telavi,Akhaltsikhe,Mtskheta,Sukhumi,Yerevan,Ejmiatsin,Kapan,Stepanakert,Makhachkala,Derbent,Grozny,Nazran,Cherkessk,Nalchik,Vladikavkaz,Maikop,Abovyan,Hrazdan,Charentsavan,Sevan,Ijevan,Dilijan,Sisian"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Old Armenian",
@@ -4052,7 +4065,8 @@ window.asiaNameBases = [
     "max": 12,
     "d": "",
     "m": 0,
-    "b": "Gyumri,Vanadzor,Vagharshapat,Armavir,Masis,Artashat,Gavar,Artik,Goris,Ararat,Ashtarak,Spitak,Tbilisi,Kutaisi,Batumi,Rustavi,Gori,Zugdidi,Poti,Telavi,Akhaltsikhe,Mtskheta,Sukhumi,Yerevan,Ejmiatsin,Kapan,Stepanakert,Makhachkala,Derbent,Grozny,Nazran,Cherkessk,Nalchik,Vladikavkaz,Maikop,Abovyan,Hrazdan,Charentsavan,Sevan,Ijevan,Dilijan,Sisian"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Old Cilician Armenian",
