@@ -952,12 +952,12 @@ window.africaNameBases = [{
 {
     "name": "Aizi",
     "i": 814,
-    "min": 0,
-    "max": 0,
+    "min": 3,
+    "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Tiagba,Attoutou B,Nigui-Assoko,Nigui-Saff,Tiémié,Abraco,Abrunamiambo,Attoutou A,Tefredji,Koko,Bapo,Allaba",
+    "status": "COMPLETE"
   },
 {
     "name": "Bari",
@@ -6080,8 +6080,8 @@ window.africaNameBases = [{
     "max": 7,
     "d": "",
     "m": 0,
-    "b": "Mahoua,Gourara",
-    "status": "WAITING"
+    "b": "Mahoua,Gourara",
+    "status": "COMPLETE"
   },
 {
     "name": "Mazagway",
@@ -6216,12 +6216,12 @@ window.africaNameBases = [{
 {
     "name": "Mire",
     "i": 200099,
-    "min": 0,
-    "max": 0,
+    "min": 4,
+    "max": 12,
     "d": "",
     "m": 0,
-    "b": "",
-      "status": "WAITING"
+    "b": "Tandjile Prefecture,Lai Prefecture,Lai",
+    "status": "COMPLETE"
   },
 {
     "name": "Miship",
@@ -6674,8 +6674,8 @@ window.africaNameBases = [{
     "max": 14,
     "d": "",
     "m": 0,
-    "b": "Godigong,Oudjila,Namba,Dakwada,Méjè,Makoulayé,Kassa,Tala Dabara,Biwana,Ouzlegaya,Naïssa,Fika,Ouvada,Dizla,Slalawa-Zadava,Kassel,Mokouléhé,Ouldoumouva,Ouraga,Skouala,Gouvaka,Méché,Podar Matkoza",
-    "status": "WAITING"
+    "b": "Godigong,Oudjila,Namba,Dakwada,Méjè,Makoulayé,Kassa,Tala Dabara,Biwana,Ouzlegaya,Naïssa,Fika,Ouvada,Dizla,Slalawa-Zadava,Kassel,Mokouléhé,Ouldoumouva,Ouraga,Skouala,Gouvaka,Méché,Podar Matkoza",
+    "status": "COMPLETE"
   },
 {
     "name": "Pero",

@@ -87,7 +87,7 @@ window.oceaniaNameBases = [
     "max": 15,
     "d": "",
     "m": 0,
-    "b": "Dadibou,Donggobolo,Kalampa,Keli,Naru,Nisa,Pandai,Penapali,Rabakodo,Risa,Samili,Talabiu,Tenga,Tente,Waduwani",
+    "b": "Dadibou,Donggobolo,Kalampa,Keli,Naru,Nisa,Pandai,Penapali,Rabakodo,Risa,Samili,Talabiu,Tenga,Tente,Waduwani,Kala,Mbawa,Padende,Tarlawi,Kuta,Sambori,Teta,Kalodu,Kolo,Bumi Pajo,Doridungga,Mpili,Ndano Na'e",
     "status": "WAITING"
   },
 
@@ -3739,7 +3739,7 @@ window.oceaniaNameBases = [
     "max": 12,
     "d": "",
     "m": 0,
-    "b": "Mossman,Mossman Gorge,Daintree,Daintree Village,Cape Tribulation,Wujal Wujal,China Camp,Maytown,Palmer,Port Douglas,Cooktown,Shiptons Flat,Ayton,Degarra",
+    "b": "Mossman,Mossman Gorge,Daintree Village,Cape Tribulation,Wujal Wujal,Shiptons Flat,Diwan,Cow Bay,Thornton Beach,Bloomfield",
     "status": "WAITING"
   },
 
@@ -4993,7 +4993,7 @@ window.oceaniaNameBases = [
     "max": 12,
     "d": "",
     "m": 0,
-    "b": "Ranimap,Betianap,Divanap,Kuiva,Kusanap,Mitaganap,Tekap,Teranap,Tomianap,Seremty,Oksapmin,Bimin,Daburap,Duban,Kweptanap,Sungtem,Umanap,Akiapmin,Lembana,Monduban,Tomware",
+    "b": "Ranimap,Betianap,Divanap,Tomianap,Oksapmin,Tekin,Gaua,Waulup",
     "status": "WAITING"
   },
 
@@ -5235,7 +5235,7 @@ window.oceaniaNameBases = [
     "max": 12,
     "d": "",
     "m": 0,
-    "b": "Tunghsin,Tawu,Chinye,Wutai,Haocha,Ali,Chiamu,Chulu,Maolin,Tona,Wanshan,Dona",
+    "b": "Tunghsin,Tawu,Chinye,Wutai,Haocha,Ali,Chiamu,Chulu,Maolin,Tona,Wanshan,Dona,Kucapungane,Adiri,Jilu,Shenshan,Dawu,Jiamu,Guchuan,Dongxin",
     "status": "WAITING"
   },
 

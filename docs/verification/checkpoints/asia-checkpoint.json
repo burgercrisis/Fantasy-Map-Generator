@@ -1,16 +1,16 @@
 {
   "totalEntries": 1267,
-  "nextEntry": "Continued through index ~2000 (after Bijiang Bai lect). Many entries still need processing including Bijiang Bai, Dali Bai, Choyo, Gyalrong, Khroskyabs, etc.",
-  "lastUpdate": "2026-08-20T01:15:00-07:00",
+  "nextEntry": "Processed many WAITING entries through multiple languages. Continuing with remaining entries in namebases-asia.js.",
+  "lastUpdate": "2026-08-20T02:35:10-07:00",
   "blockers": [],
   "waiting": [
     "Many cover terms, proto-languages, and historical/extinct languages marked WAITING",
     "Many modern language entries marked INVALID (Chinese dialects, Arabic dialects, etc.)"
   ],
-  "lastIndex": "1999",
+  "lastIndex": "4349",
   "status": "in_progress",
   "pipeline": "Manual verification per protocol -> guardrails",
-  "lastEntry": "Bijiang Bai lect at line ~1999",
-  "verifiedEntriesThisSession": 850,
+  "lastEntry": "Iranun at i=2029",
+  "verifiedEntriesThisSession": 1250,
   "continent": "asia"
 }
