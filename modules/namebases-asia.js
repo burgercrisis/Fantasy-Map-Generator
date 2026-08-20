@@ -1996,8 +1996,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Tuoluo,Gongxing,Enqi,Jinman,Ega",
+    "status": "COMPLETE"
   },
   {
     "name": "Bijiang Bai language",
@@ -2006,8 +2006,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Tuoluo,Gongxing,Enqi,Jinman,Ega",
+    "status": "COMPLETE"
   },
   {
     "name": "Dali Bai lect",
@@ -2016,8 +2016,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Xizhou,Dali Town,Xiaguan,Shuanglang,Shangguan,Wase,Haidong,Fengyi,Wanqiao,Yinqiao,Jinxing,Dashi,Zhoucheng,Shaxi,Dengchuan,Cibihu,Yunhe,Xintun,Songgui,Huangping,Caohai,Xiyi,Longkaikou,Jinhua,Laojunshan,Diannan,Madeng",
+    "status": "COMPLETE"
   },
   {
     "name": "Dali Bai language",
@@ -2026,8 +2026,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Xizhou,Dali Town,Xiaguan,Shuanglang,Shangguan,Wase,Haidong,Fengyi,Wanqiao,Yinqiao,Jinxing,Dashi,Zhoucheng,Shaxi,Dengchuan,Cibihu,Yunhe,Xintun,Songgui,Huangping,Caohai,Xiyi,Longkaikou,Jinhua,Laojunshan,Diannan,Madeng",
+    "status": "COMPLETE"
   },
   {
     "name": "Heqing Bai lect",
@@ -2036,8 +2036,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Dashi,Yunhe,Xintun,Caohai,Songgui,Xiyi,Huangping,Longkaikou,Jindun,Xinhua,Bianchui",
+    "status": "COMPLETE"
   },
   {
     "name": "Xiangyun Bai dialect",
@@ -2046,8 +2046,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Hedian,Xingshi Yi,Daxin Yi,Da'ai,Xiangcheng,Shalong,Yunnanyi,Xiazhuang,Pupeng,Liuchang,Midian,Luming",
+    "status": "COMPLETE"
   },
   {
     "name": "Choyo",
@@ -2056,8 +2056,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Yajiang,Litang,Daocheng,Xiangcheng,Derong,Batang,Garzê,Sichuan",
-    "status": "WAITING"
+    "b": "Gala Town,Pubarong,Suoyi,Xiala,Youlaxi,gYanglagshis,Rongba,Rimda,Keyi,Gaocheng,Tage,Tagong,Xiya,Shang Baisang",
+    "status": "COMPLETE"
   },
   {
     "name": "Gyalrong",
@@ -2126,8 +2126,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Gongdaniu,Luowuzhai,Pinghe,Xiazhai,Zhongzhai,Shangzhai,Hetouzhai,Guanmuzhai,Naxizhai,Bianjiezhai,Longshuzhai,Caoguoping,Nanke,Xinzhai,Longfeng,Niuchangping,Mang New Village,Huoi Va,Nam Sap,Pa Bon,Pa Dan,Pa Sap,Nam Voi,Nam Sao,Nam No,Nam O,Hua Pang,Nam Tan Xa,Huoi Cum,Huoi Coong,Nam Song,Nam Xe,Nam Nhe,Pa Cheo,Nam Nge,Nam Xao,Nam Ban,Nam No,Hua Pang,Danh Tang,Pa Bon,Pa Sap,Nam Sap",
+    "status": "COMPLETE"
   },
   {
     "name": "Bolyu",
@@ -2306,8 +2306,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Shalimu,Zongzila,Xiangdao,Kangyang",
+    "status": "COMPLETE"
   },
   {
     "name": "Bonan Manegacha",
@@ -2316,8 +2316,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Xiazhuang,Gaser,Gomar,Nyenthoq,Nyantok,Tojya",
+    "status": "COMPLETE"
   },
   {
     "name": "Bonan Manegacha lect",
@@ -2459,15 +2459,15 @@ window.asiaNameBases = [
     "b": "",
     "status": "WAITING"
   },
-  {
-    "name": "Buyang",
-    "i": 1393,
+{
+    "name": "Bonan",
+    "i": 1353,
     "min": 4,
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Ganhetan,Meipo,Dadun,Gaoli,Dahejia,Liuji,Nianduhu,Guomare,Gasare,Bao'an Xiazhuang,Bao'an Town",
+    "status": "COMPLETE"
   },
   {
     "name": "Buyeo Korean",

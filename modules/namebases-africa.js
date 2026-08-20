@@ -5584,8 +5584,8 @@ window.africaNameBases = [{
     "max": 8,
     "d": "",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Jibyal,Monkwat,Lamalang,Shimər,Dalu,Mangu LGA,Nasarawa State",
+    "status": "COMPLETE"
   },
 {
     "name": "Jilbe",
@@ -5594,8 +5594,8 @@ window.africaNameBases = [{
     "max": 6,
     "d": "",
     "m": 0,
-    "b": "Jilbe",
-    "status": "WAITING"
+    "b": "Jilbe",
+    "status": "COMPLETE"
   },
 {
     "name": "Jimi Cameroon",
@@ -6230,8 +6230,8 @@ window.africaNameBases = [{
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Pankshin,Kwala,Jibam,Kapil,Mugulum,Dyerok,Minzam,Jepmidyel",
-    "status": "WAITING"
+    "b": "Pankshin,Kwala,Jibam,Kapil,Mugulum,Dyerok,Minzam,Jepmidyel",
+    "status": "COMPLETE"
   },
 {
     "name": "Miya",
@@ -6241,7 +6241,7 @@ window.africaNameBases = [{
     "d": "aeiou",
     "m": 0,
     "b": "Miya,Abam,Adingil,Asaku,Atsaama,Wunadingil",
-      "status": "WAITING"
+    "status": "COMPLETE"
   },
 {
     "name": "Mofu-Gudur",
@@ -6841,8 +6841,8 @@ window.africaNameBases = [{
     "max": 10,
     "d": "",
     "m": 0,
-    "b": "Bousso,Nara,Bilamtou,Djoumour,Delban,Madjoum,Mongola,Moddel,Gorokolon,Bougour,Boungoulti,Motmasa,Tendia,Gofena,Touka,Iroua",
-    "status": "WAITING"
+    "b": "Bousso,Nara,Bilamtou,Djoumour,Delban,Madjoum,Mongola,Moddel,Gorokolon,Bougour,Boungoulti,Motmasa,Tendia,Gofena,Touka,Iroua",
+    "status": "COMPLETE"
   },
 {
     "name": "Setlôkwa",
@@ -7080,8 +7080,8 @@ window.africaNameBases = [{
     "max": 6,
     "d": "",
     "m": 0,
-    "b": "Tambes",
-    "status": "WAITING"
+    "b": "Tambes",
+    "status": "COMPLETE"
   },
 {
     "name": "Tamki",
@@ -7549,7 +7549,7 @@ window.africaNameBases = [{
     "d": "lnrt",
     "m": 0,
     "b": "Argobba,Harar,Dire Dawa,Kemise,Anchar,Ataye,Debre Berhan,Arerti,Shewa Robit,Bati,Meta Robi,Sheno",
-      "status": "WAITING"
+    "status": "COMPLETE"
   },
 {
     "name": "Harari",
@@ -7592,14 +7592,14 @@ window.africaNameBases = [{
       "status": "COMPLETE"
   },
 {
-    "name": "Beni Snous dialect",
+    "name": "Beni Snous",
     "i": 201004,
     "min": 4,
     "max": 17,
     "d": "lnrt",
     "m": 0,
     "b": "Beni Snous,Tlemcen,Maghnia,Hammam Boughrana,Souahlia,Dar Yaghmouracene,Ouled Mimoun,Remchi,Sabra,Nedroma,Ghazaouet,Marsa Ben M'Hidi,Honaine,Béni Saf,Sidi Abdellah,Sidi Medjahed,Sidi Djillali,Sidi Bel Abbès,Oujda,El Aricha",
-      "status": "WAITING"
+    "status": "COMPLETE"
   },
 {
     "name": "Ghadames",
@@ -7609,7 +7609,7 @@ window.africaNameBases = [{
     "d": "lnrt",
     "m": 0,
     "b": "Ghadames,Derj,Sinawin,Nalut,Wazin,Tiji,Al-Hamra,Bani Walid,Jadu,Shahhat,Tigi,Dirj,Sert,Bedda",
-      "status": "WAITING"
+    "status": "COMPLETE"
   },
 {
     "name": "Iznasen",
@@ -7619,7 +7619,7 @@ window.africaNameBases = [{
     "d": "lnrt",
     "m": 0,
     "b": "Iznasen,Oujda,Berkane,Taourirt,Ahfir,El Aïoun,Sidi Mellouk,Tendrara,Jerada,Touissit,Maghnia,Beni Drar,Saïda,Bouanane,Aïn Beni Mathar,Debdou",
-      "status": "WAITING"
+    "status": "COMPLETE"
   },
 {
     "name": "Kabyle",
@@ -7639,7 +7639,7 @@ window.africaNameBases = [{
     "d": "lnrt",
     "m": 0,
     "b": "Shawiya,Batna,Khenchela,Oum El Bouaghi,Tazoult,Merouana,N'Gaous,Ain Touta,Barika,Menaa,Arris,Ichemoul,Ain Zaatout,Bouhmama,El Hamma,Kimel,Foum Toub,Ouled Rechache,Bouzina,Djerma,Ain Djasser,Yabous,Seguet El Khemis,Rouina",
-      "status": "WAITING"
+    "status": "COMPLETE"
   },
 {
     "name": "Shilha",
@@ -7659,7 +7659,7 @@ window.africaNameBases = [{
     "d": "lnrt",
     "m": 0,
     "b": "Siwi,Siwa,Shali,Aghurmi,Abou Shrouf,Bahariya,El Dakhla,El Kharga,Farafra,Gara,Maraqi,Zeitun,Khamisa,Taghaghien",
-      "status": "WAITING"
+    "status": "COMPLETE"
   },
 {
     "name": "South Oran and Figuig Berber",
@@ -7669,7 +7669,7 @@ window.africaNameBases = [{
     "d": "lnrt",
     "m": 0,
     "b": "Bechar,Kenadsa,Abadla,Figuig,Beni Ounif,Arbaouat,Amour,Labiodh Sidi Cheikh,Brezina,Ouled Khodeir,Ain Sefra,El Bayadh,Moghrar,Asla,Chellala,Bouktob,Boussemghoun,Beni Ikhlef",
-      "status": "WAITING"
+    "status": "COMPLETE"
   },
 {
     "name": "Tarifit",
@@ -7689,7 +7689,7 @@ window.africaNameBases = [{
     "d": "lnrt",
     "m": 0,
     "b": "Tidikelt,Timmimoun,Adrar,In Salah,Aoulef,Reggane,Akabli,Ouled Said,Tit,Touat,Charouine,Fenoughil,Tamantit,Zaouiet Kounta",
-      "status": "WAITING"
+    "status": "COMPLETE"
   },
 {
     "name": "Tuareg Tamasheq",
@@ -7709,7 +7709,7 @@ window.africaNameBases = [{
     "d": "lnrt",
     "m": 0,
     "b": "Tugurt,Touggourt,El Oued,Tebesbest,Nezla,Tamacine,Blidet Amor,Sidi Slimane,Taleb Larbi,Temacine,Bayada,Belaiba,Hassi Khelifa,Debila,Ourmes,Magrane,Robbah,Kouinine,Guemar,Reguiba",
-      "status": "WAITING"
+    "status": "COMPLETE"
   },
 {
     "name": "Tuwat",
@@ -7719,7 +7719,7 @@ window.africaNameBases = [{
     "d": "lnrt",
     "m": 0,
     "b": "Tuwat,Adrar,Timmimoun,Reggane,Aoulef,In Salah,Sali,Tamekten,Tit,Bouda,Hamiane,Bent Cherchali,Mesghouane,Zaouiet Kounta",
-      "status": "WAITING"
+    "status": "COMPLETE"
   },
 {
     "name": "Western Algerian Zenatic dialects",
@@ -7788,7 +7788,7 @@ window.africaNameBases = [{
     "d": "nic-GH",
     "m": 0,
     "b": "Algiers,Oran,Constantine,Annaba,Blida,Setif,Batna,Bejaia,Tlemcen,Skikda,Mostaganem,Tizi Ouzou,Tetouan,Oujda,Béjaïa,Biskra,Sousse,Kairouan,Bizerte,Gabès,Gafsa",
-      "status": "WAITING"
+    "status": "COMPLETE"
   },
 {
     "name": "Algerian Saharan Arabic",
@@ -7798,7 +7798,7 @@ window.africaNameBases = [{
     "d": "nic-GH",
     "m": 0,
     "b": "Ghardaia,Ouargla,Tamanrasset,Adrar,In Salah,In Guezzam,El Oued,Laghouat,Biskra,Tindouf,Illizi,Timimoun",
-      "status": "WAITING"
+    "status": "COMPLETE"
   },
 {
     "name": "Cairene Arabic",
@@ -7808,7 +7808,7 @@ window.africaNameBases = [{
     "d": "nic-GH",
     "m": 0,
     "b": "Cairo,Giza,Hilwan,Shubra El-Kheima,Maadi,Nasr City,Imbaba,Old Cairo,Abbasiya,Zamalek,Al-Marg,Al-Matariya,Suez,Hurghada",
-      "status": "WAITING"
+    "status": "COMPLETE"
   },
 {
     "name": "Egyptian Arabic",
@@ -7831,13 +7831,13 @@ window.africaNameBases = [{
       "status": "COMPLETE"
   },
 {
-    "name": "Cakfem-Mushere",
-    "i": 239,
+    "name": "Fyer",
+    "i": 1857,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Pankshin,Mangu,Bokkos,Kanke,Barkin Ladi,Riyom,Shendam,Langtang,Wase,Panyam,Kanam,Dengi",
-    "status": "WAITING"
+    "b": "Pankshin,Mangu,Bokkos,Kanke,Barkin Ladi,Riyom,Shendam,Langtang,Wase,Panyam,Kanam,Dengi",
+    "status": "COMPLETE"
   }
 ];

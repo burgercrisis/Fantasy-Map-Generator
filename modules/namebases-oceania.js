@@ -2738,7 +2738,7 @@ window.oceaniaNameBases = [
     "max": 12,
     "d": "",
     "m": 0,
-    "b": "Iakrimas,Suam,Mava,Kibi,Aewa,Boemburavu,Uisokov,Demu,Taugum,Lake Murray Patrol Post,Pangoa,Boboa Island,Bokisa,Bweiuse,Wapil,Usokof,Zarit,Gubiatta,Miwa,Venavena,Asoatutuma",
+    "b": "Iakrimas,Suam,Mava,Kibi,Lake Murray Patrol Post,Pangoa,Boboa Island,Usokof,Miwa,Maka",
     "status": "WAITING"
   },
 
@@ -3541,7 +3541,7 @@ window.oceaniaNameBases = [
     "max": 12,
     "d": "",
     "m": 0,
-    "b": "Ardyaloon,Djarindjin,Lombadina,Cygnet Bay,Cape Leveque,Beagle Bay,Kooljaman,One Arm Point,Pender Bay,Banana Well,Gnylmarung,Goombaragin,Mercedes Cove,Chile Creek,Oolin Sunday Island,Borrgoron Coast",
+    "b": "Ardyaloon,Djarindjin,Lombadina,Cygnet Bay,Beagle Bay,Kooljaman,One Arm Point",
     "status": "WAITING"
   },
 
@@ -3739,7 +3739,7 @@ window.oceaniaNameBases = [
     "max": 12,
     "d": "",
     "m": 0,
-    "b": "Mossman,Mossman Gorge,Daintree,Daintree Village,Cape Tribulation,Bloomfield River,Wujal Wujal,China Camp,Maytown,Palmer,Annan River,Port Douglas,Julaymba,Daintree Rainforest,Cooktown,Shiptons Flat,Ayton,Degarra",
+    "b": "Mossman,Mossman Gorge,Daintree,Daintree Village,Cape Tribulation,Wujal Wujal,China Camp,Maytown,Palmer,Port Douglas,Cooktown,Shiptons Flat,Ayton,Degarra",
     "status": "WAITING"
   },
 
@@ -4806,7 +4806,7 @@ window.oceaniaNameBases = [
     "max": 12,
     "d": "",
     "m": 0,
-    "b": "Kokoro,Kuae,Sorefuna,Tahama,Ubuvara,Managalas Plateau,Serepuna,Naukanane,Itokama,Naokanane,Anatua,Naukuanane,Emo Riva,Farairo,Tama,Umbuwara",
+    "b": "Kokoro,Kuae,Sorefuna,Tahama,Ubuvara",
     "status": "WAITING"
   },
 

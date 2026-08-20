@@ -4,11 +4,11 @@
   "lastProcessedIndex": 8061,
   "nextIndex": 8061,
   "totalEntries": 784,
-  "entriesCompleted": 711,
-  "entriesWaiting": 73,
-  "emptyBEntries": 42,
+  "entriesCompleted": 731,
+  "entriesWaiting": 53,
+  "emptyBEntries": 32,
   "allEntriesProcessed": false,
-  "lastUpdate": "2026-08-19",
-  "lastVerifiedName": "Zumbun",
-  "notes": "Processed 238+ additional entries since start: Aghem, Bilen, Bure, Muskum, Muyang, Naro, Ndam, Ngeté-Herdé, Ngwaba, Nteng, Nyam, Nzanyi, Nǁng, Paa, Saba Chadic, Southern Birifor, Taa, Tala, Sha, Sharwa, Sinyar, Songhoyboro Ciine, Surbakhal, Teda, Tondi Songway Kiini, Sukur, Gvoko, Komo, Zenaga, Bilen, Bure, Muskum, Muyang, Naro, Ndam, Ngeté-Herdé, Ngwaba, Nteng, Nyam, Nzanyi, Nǁng, Paa, Saba Chadic, Southern Birifor, Taa, Tala, Sha, Sharwa, Sinyar, Songhoyboro Ciine, Surbakhal, Teda, Tondi Songway Kiini, Sukur, Gvoko, Komo, Zenaga, Luo, Makonde, Aku, Hadza, Tsonga, Aiki, Bacama, Tasawaq, Tagdal, Talodi, Tegali, Tegem, Tima, Tembo, Tocho, Ongota, Kunda, Shanjo, Chung, Tulishi, Bongor Arabic, Turku Arabic, Bassari, Beja, Bwamu, Simaa, Chung, Inor, Chaha, Tulishi, Nggwahyi, Piya, Putai, Pyapun, Rendille-Boni, Siri, Siri Chadic, South Banda, Tikar, Tobanga, Toram, Tsuvan, Tumak, Ubi, Vame, Vemgo-Mabas, Wandala, Warji, Weh, West Banda, Zeem, Zemba, Zenaga, Zirenkel, Zizilivakan, Zulgo-Gemzek, Zumaya, Zumbun, etc. Many WAITING are cover terms/families per Rule 4 (Biu-Mandara, Bole-Tangale, Bomboli-Bozaba, Buru-Angwe, Masa macro, Northern Berber, Nǁng, Omo-Tana, Oromoid, Proto-Berber, Poki, Saho-Afar, South Cushitic, Standard Algerian Berber, Tagdal Tuareg Berber, Tetserret Tuareg Berber, Proto-Ron, Proto-Warji, Gamo-Gofa-Dawro, Kxao-ae, Nam, Yobe, Ajawa, etc.). Guardrails pass: map=3425 catalog=3526."
+  "lastUpdate": "2026-08-20",
+  "lastVerifiedName": "Jilbe",
+  "notes": "Processed 258+ additional entries since start. Recently verified: Tambas (Tambes village, Plateau State Nigeria), Jibyal (Jibyal, Monkwat, Lamalang, Shimər, Dalu in Mangu LGA Nasarawa State), Jilbe (Jilbe town, Borno State Nigeria). Remaining WAITING entries are primarily: language families/cover terms (Berber, Nubian, Mandara Chadic, Arabic Maghrebi, Bamileke, Biu-Mandara, Bole-Tangale, Bomboli-Bozaba, Buru-Angwe, Masa macro, Proto-Ron, Proto-Warji, Northern Berber, Omo-Tana, Oromoid, Proto-Berber, Poki, Saho-Afar, South Cushitic, Standard Algerian Berber, Tagdal Tuareg Berber, Tetserret Tuareg Berber, Ron Chadic, Gamo-Gofa-Dawro, Malagasy macro, Masa (macro), Mire, Western Berber, Dizoid, Hausa-Gwandara, Tsotsitaal), extinct languages (Ajawa, Holma, Teshenawa), and specific languages with insufficient documentation (Aizi, Kuan, Yobe, Aso, Nam, Dullay, Mawa, Kxao-ae, Chagossian Creole, Jelkung, Jibyal [updated], Jilbe [updated], Pali Chadic, Poki). Guardrails pass: map=3425 catalog=3526."
 }
