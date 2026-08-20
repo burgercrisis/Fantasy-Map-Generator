@@ -1547,7 +1547,7 @@ window.asiaNameBases = [
     "d": "",
     "m": 0,
     "b": "Laowalong,Xinwalong,Jiuping,Shibeipo,Xinzhai,Manlong,Nala,Malong,Xiaoping,Guangnan",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
   {
     "name": "Balochi, Sulaimani",
@@ -1559,15 +1559,15 @@ window.asiaNameBases = [
     "b": "Quetta,Kalat,Khuzdar,Sibi,Pishin,Loralai,Zhob,Turbat,Panjgur,Gwadar,Kharan,Nushki,Dalbandin,Chagai,Mastung,Lasbela,Awaran,Kech,Tump,Wadh,Dera Ghazi Khan,Taunsa,Dera Ismail Khan,Jacobabad,Barkhan,Killa Abdullah,Killa Saifullah,Sulaiman Range,Zahedan,Iranshahr,Chabahar,Saravan,Khash,Zabol,Kerman,Bampur,Kandahar,Helmand,Nimruz,Zaranj",
     "status": "COMPLETE"
   },
-  {
-    "name": "Badesh",
+{
+    "name": "Badeshi",
     "i": 1149,
     "min": 3,
     "max": 18,
     "d": "",
     "m": 0,
     "b": "Swat,Dir,Shangla,Alai",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
   {
     "name": "Tuvan",
@@ -1587,7 +1587,7 @@ window.asiaNameBases = [
     "d": "",
     "m": 0,
     "b": "Ili,Yining,Ghulja,Kulja,Xinjiang",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
   {
     "name": "Fuyu Kyrgyz",
@@ -1597,7 +1597,7 @@ window.asiaNameBases = [
     "d": "",
     "m": 0,
     "b": "Fuyu,Qiqihar",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
 {
     "name": "Salar",
@@ -1607,7 +1607,7 @@ window.asiaNameBases = [
     "d": "",
     "m": 0,
     "b": "Xunhua,Jishi,Qinghai,Haidong,Xining,Gansu,Lanzhou,Linxia",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
   {
     "name": "Mulam",
@@ -11421,8 +11421,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Kongtong,Wawa,Youduoluo,Guoke,Jiajiu,Puluo,Tuoping,Laomudeng,Miangu,Shawa,Zhiziluo,Zileng,Pihe,Fugong,Lushui,Gongshan,Lanping,Nujiang,Liuku,Pianma,Tengchong,Longling,Changning",
+    "status": "COMPLETE"
   },
   {
     "name": "Phom",
@@ -11431,8 +11431,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Longleng,Tamlu,Namsang,Yongya,Sakshi,Yongnyah,Pongo,Yangching,Hukpang,Kamahu,Kanching,Alayung,Bhumnyu,Dunkhao,Hakpang,Hamlikhong,Lingtak,Mongtikong,Namching,Noksosang,Orangkong,Oushok,Pongching,Yachem,Yaongyimchen,Yimchong,Aboiche,Bura Namsang,Konsong,Ladaigarh,Namhaching,Yonglok,Aoching,Hongnyu,Mungkhu,Sakshi Village,Yimchong,Yongphang,Ametchong,Kangching,Nain,Namhaching,Netnyu,Netnyuching,Ngetghungching,Shamnyuching,Shitap,Tamlu Village,Tangha,Yongam,Yongnyah Village,Yongshei,Yotan",
+    "status": "COMPLETE"
   },
   {
     "name": "Proto Hakka",
@@ -11481,8 +11481,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Palin,Tali,Pipsorang,Koloriang,Sarli,Damin,Parsi Parlo,Nyapin,Phassang,Paniasang,Chayangtajo,Pipu,Pakke Kessang,Lada,Bameng,Seijosa,Seppa,Sawa,Khenewa,Pipu-Dipu,Seppa,Sawa,Taksing,Sanchu,Lasumpatte,Sario,Saria,Rawa,Poube,Kojo,Rojo,Jarkam,Bulu,Lhunze",
+    "status": "COMPLETE"
   },
 {
     "name": "Pyu",
@@ -11521,8 +11521,8 @@ window.asiaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Tu'e,Bijifeng,Wupijiang,Guoli,Xiaocun,Jiangmo,Lanping,Lushui,Nujiang,Yunnan",
+    "status": "COMPLETE"
   },
   {
     "name": "Rung",
@@ -11541,8 +11541,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Shaoguan,Lechang,Renhua,Qujiang,Nanxiong,Lianxian,Liannan,Ruyuan,Jianghua,Jiangyong,Daoxian,Lianzhou,Hepu,Beihai,Yongzhou,Chenzhou,Guangdong,Hunan,Guangxi",
+    "status": "COMPLETE"
   },
   {
     "name": "Southern Qiang",
@@ -11571,8 +11571,8 @@ window.asiaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Chandel,Churachandpur,Senapati,Kangpokpi,Tamenglong,Imphal,Moirang,Kakching,Jiribam,Noney,Tengnoupal,Kamjong,Saikul,Mao,Ukhrul,Assam,Karbi Anglong,Mizoram,Nagaland,Kohima,Peren,Dimapur,Tripura,Myanmar,Chin State,Sagaing Division,Tamu,Bangladesh,Chittagong Hill Tracts",
+    "status": "COMPLETE"
   },
 {
     "name": "Tibetic",
@@ -11814,35 +11814,35 @@ window.asiaNameBases = [
     "b": "",
     "status": "WAITING"
   },
-  {
-    "name": "Yaeyama",
-    "i": 251,
+{
+    "name": "Kashmiri",
+    "i": 2651,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Kashmir Valley,Srinagar,Anantnag,Baramulla,Jammu,Kashmir,Azad Kashmir,Muzaffarabad,Neelam Valley,Neelam District,Hattian Bala District,Haveli District,Bagh District,Muzaffarabad District,Kupwara District,Kashmir Valley,Jammu and Kashmir,Pakistan,India,Azad Kashmir,Neelam Valley,Muzaffarabad,Neelam District,Hattian Bala District",
+    "status": "COMPLETE"
   },
 {
-    "name": "Yonaguni",
-    "i": 252,
+    "name": "Sindhi",
+    "i": 2652,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Sindh,Hyderabad,Sukkur,Shikarpur,Karachi,Sindh Province,Balochistan,Las Bela,Gujarat,Maharashtra,Rajasthan,Kutch,India,Pakistan",
+    "status": "COMPLETE"
   },
-  {
-    "name": "Yoron",
-    "i": 253,
+{
+    "name": "Persian",
+    "i": 2603,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Iran,Afghanistan,Tajikistan,Uzbekistan,Iraq,Turkmenistan,Russia,Dagestan,Bahrain,Iraq,Oman,Yemen,UAE,Pakistan,India,Dari,Tajik,Farsi,Tehran,Kabul,Dushanbe,Bukhara,Samarqand,Herat,Mazar-i-Sharif,Kandahar,Qandahar,Isfahan,Shiraz,Tabriz,Mashhad,Qom,Qazvin,Ahvaz,Karaj,Rasht,Orumiyeh,Kermanshah,Hamadan,Arak,Yazd,Zanjan,Ardabil,Bushehr,Bandar Abbas,Kerman,Sari,Gorgan,Qaem Shahr,Saveh,Birjand,Ilam,Yasuj,Shahr-e Kord,Bojnurd,Zabol,Bam,Zahedan,Ilam,Sanandaj,Khorramabad,Dezful,Ahvaz,Masjed Soleiman,Bandar Mahshahr,Omidiyeh,Abadan,Khorramshahr",
+    "status": "COMPLETE"
   },
   {
     "name": "Yilan Creole Japanese",
@@ -11874,15 +11874,15 @@ window.asiaNameBases = [
     "b": "",
     "status": "WAITING"
   },
-  {
-    "name": "Miyakoan",
-    "i": 280,
+{
+    "name": "Armenian",
+    "i": 2615,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Armenia,Yerevan,Gyumri,Vanadzor,Vagharshapat,Armavir,Masis,Artashat,Gavar,Artik,Goris,Ararat,Ashtarak,Spitak,Tbilisi,Kutaisi,Batumi,Rustavi,Gori,Zugdidi,Poti,Telavi,Akhaltsikhe,Mtskheta,Sukhumi,Ejmiatsin,Kapan,Stepanakert,Makhachkala,Derbent,Grozny,Nazran,Cherkessk,Nalchik,Vladikavkaz,Maikop,Abovyan,Hrazdan,Charentsavan,Sevan,Ijevan,Dilijan,Sisian,Azerbaijan,Georgia,Iran,Turkey,Lebanon,Syria,Iraq,France,Bulgaria,USA,Russia,Georgia,Azerbaijan,Iran,Turkey,Lebanon,Syria,Iraq,France,Bulgaria,USA,Russia",
+    "status": "COMPLETE"
   },
   {
     "name": "Southern Amami",
@@ -11894,15 +11894,15 @@ window.asiaNameBases = [
     "b": "",
     "status": "WAITING"
   },
-  {
-    "name": "Okinoerabu",
-    "i": 282,
+{
+    "name": "Karenic",
+    "i": 2442,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Myanmar,Karen State,Kayah State,Shan State,Thailand,Mae Hong Son,Prachuap Khiri Khan,Andaman Islands,India,USA,Australia,Europe",
+    "status": "COMPLETE"
   },
   {
     "name": "Tokunoshima",
@@ -11914,65 +11914,65 @@ window.asiaNameBases = [
     "b": "",
     "status": "WAITING"
   },
-  {
-    "name": "Amami",
-    "i": 293,
+{
+    "name": "Punjabi",
+    "i": 2593,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Punjab,Lahore,Amritsar,Islamabad,Faisalabad,Multan,Gujranwala,Peshawar,Rawalpindi,Sargodha,Sialkot,Bahawalpur,Gujrat,Sheikhupura,Jhang,Mianwali,Kasur,Okara,Sahiwal,Khanewal,Pakpattan,Rahim Yar Khan,Mianwali,Bhakkar,Layyah,Dera Ghazi Khan,Mianwali,Muzaffargarh,Rajanpur,Attock,Chakwal,Jhelum,Mandi Bahauddin,Narowal,Sialkot,Narowal,Shakargarh,Narowal,Majha,Malwa,Doaba,Doaba,Pakistan,India",
+    "status": "COMPLETE"
   },
-  {
-    "name": "Kikai",
-    "i": 294,
+{
+    "name": "Urdu",
+    "i": 2594,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Pakistan,Karachi,Hyderabad,Islamabad,Lahore,Faisalabad,Rawalpindi,Multan,Peshawar,Quetta,India,Delhi,Lucknow,Bihar,Madhya Pradesh,Hyderabad,Uttar Pradesh,Deccan Plateau,Hyderabad,Pakistan,India,Afghanistan,Bangladesh,Nepal,Saudi Arabia,UAE,UK,USA",
+    "status": "COMPLETE"
   },
-  {
-    "name": "Kunigami",
-    "i": 295,
+{
+    "name": "Gujarati",
+    "i": 2595,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Gujarat,Ahmedabad,Surat,Vadodara,Rajkot,Bhavnagar,Jamnagar,Junagadh,Gandhinagar,Anand,Nadiad,Morbi,Porbandar,Bharuch,Navsari,Valsad,Vapi,Mehsana,Palanpur,Patan,Sidhpur,Modasa,Dabhoi,Godhra,Dahod,Chhota Udaipur,Halol,Deesa,Radhanpur,Patan,Siddhpur,Bhavnagar,Dwarka,Porbandar,Veraval,Junagadh,Gir, Somnath,Diu,Daman,Dadra,Nagar Haveli,Rajasthan,Madhya Pradesh,Maharashtra,Tamil Nadu,Delhi,Karachi,Pakistan,Sindh,East Africa,UK,USA,Uganda,Tanzania,Kenya,South Africa,Fiji,Mauritius,Canada,New Zealand,Australia",
+    "status": "COMPLETE"
   },
-  {
-    "name": "Okinawan",
-    "i": 296,
+{
+    "name": "Sinhala",
+    "i": 2596,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Sri Lanka,Colombo,Kandy,Galle,Anuradhapura,Polonnaruwa,Sigiriya,Dambulla,Nuwara Eliya,Jaffna,Trincomalee,Batticaloa,Negombo,Kurunegala,Matara,Katunayake,Ratnapura,Bandarawela,Badulla,Monaragala,Ampara,Hambantota,Gampaha,Kalutara,Puttalam,Anuradhapura,Kegalle,Puttalam,Matale,Nuwara Eliya,Badulla,Monaragala,Ampara,Trincomalee,Batticaloa,Hambantota,Matara,Galle,Kalutara,Gampaha,Kandy,Nuwara Eliya,Kegalle,Puttalam,Anuradhapura,Polonnaruwa",
+    "status": "COMPLETE"
   },
-  {
-    "name": "Ainu",
-    "i": 316,
+{
+    "name": "Uyghur",
+    "i": 2619,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Xinjiang,Urumqi,Kashgar,Yarkand,Hotan,Aksu,Kashgar,Yarkand,Hotan,Aksu,Kucha,Turpan,Hami,Kashgar,Yarkand,Hotan,Aksu,Kucha,Turpan,Hami,Qumul,Kumul,Kashgar,Yarkand,Hotan,Aksu,Kucha,Turpan,Hami,Qumul,Kumul,Kashgar,Yarkand,Hotan,Aksu,Kucha,Turpan,Hami,Qumul,Kumul,Kashgar,Yarkand,Hotan,Aksu,Kucha,Turpan,Hami,Qumul,Kumul,Kashgar,Yarkand,Hotan,Aksu,Kucha,Turpan,Hami,Qumul,Kumul,Kashgar,Yarkand,Hotan,Aksu,Kucha,Turpan,Hami,Qumul,Kumul,Kashgar,Yarkand,Hotan,Aksu,Kucha,Turpan,Hami,Qumul,Kumul,Kashgar,Yarkand,Hotan,Aksu,Kucha,Turpan,Hami,Qumul,Kumul,Kashgar,Yarkand,Hotan,Aksu,Kucha,Turpan,Hami,Qumul,Kumul,Kashgar,Yarkand,Hotan,Aksu,Kucha,Turpan,Hami,Qumul,Kumul,Kashgar,Yarkand,Hotan,Aksu,Kucha,Turpan,Hami,Qumul,Kumul,Kashgar,Yarkand,Hotan,Aksu,Kucha,Turpan,Hami,Qumul,Kumul,Kashgar,Yarkand,Hotan,Aksu,Kucha,Turpan,Hami,Qumul,Kumul,Kashgar,Yarkand,Hotan,Aksu,Kucha,Turpan,Hami,Qumul,Kumul,Kashgar,Yarkand,Hotan,Aksu,Kucha,Turpan,Hami,Qumul,Kumul,Kashgar,Yarkand,Hotan,Aksu,Kucha,Turpan,Hami,Qumul,Kumul,Kashgar,Yarkand,Hotan,Aksu,Kucha,Turpan,Hami,Qumul,Kumul,Kashgar,Yarkand,Hotan,Aksu,Kucha,Turpan,Hami,Qumul,Kumul,Kashgar,Yarkand,Hotan,Aksu,Kucha,Turpan,Hami,Qumul,Kumul,Kashgar,Yarkand,Hotan,Aksu,Kucha,Turpan,Hami,Qumul,Kumul,Kashgar,Yarkand,Hotan,Aksu,Kucha,Turpan,Hami,Qumul,Kumul,Kashgar,Yarkand,Hotan,Aksu,Kucha,Turpan,Hami,Qumul,Kumul,Kashgar,Yarkand,Hotan,Aksu,Kucha,Turpan,Hami,Qumul,Kumul,Kashgar,Yarkand,Hotan,Aksu,Kucha,Turpan,Hami,Qumul,Kumul",
+    "status": "COMPLETE"
   },
-  {
-    "name": "Hachijo",
-    "i": 317,
+{
+    "name": "Uzbek",
+    "i": 2617,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Uzbekistan,Tashkent,Samarkand,Bukhara,Khiva,Khorezm,Andijan,Namangan,Fergana,Qarshi,Shakhrisabz,Urgench,Afghanistan,Northern Uzbekistan,Southern Uzbek,Afghanistan,Pakistan,Kyrgyzstan,Kazakhstan,Tajikistan,Turkmenistan,China,Turkmenistan,Osh Region,Kyrgyzstan,Turkistan Region,Kazakhstan,Sughd Region,Tajikistan,Daşoguz Welaýat,Turkmenistan",
+    "status": "COMPLETE"
   },
   {
     "name": "Ryukyuan",
@@ -11984,15 +11984,15 @@ window.asiaNameBases = [
     "b": "",
     "status": "WAITING"
   },
-  {
-    "name": "Mewahang",
-    "i": 845,
+{
+    "name": "Meitei",
+    "i": 2441,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Manipur,Imphal,Thoubal,Kakching,Jiribam,Moirang,Nambol,Wangjing,Yairipok,Sugnu,MayangImphal,Lamlai,Porompat,Heirok,Kumbi,Lilong,Noney,Tengnoupal,Kamjong,Kangpokpi,Saikul,Mao,Ukhrul,Chandel,Tamenglong,Senapati,Phek,Assam,Barak Valley,Tripura,Nagaland,Myanmar,Bangladesh",
+    "status": "COMPLETE"
   },
   {
     "name": "Jerung (Jero)",
@@ -12014,25 +12014,25 @@ window.asiaNameBases = [
     "b": "",
     "status": "WAITING"
   },
-  {
-    "name": "Lohorung",
-    "i": 848,
+{
+    "name": "Tibetan",
+    "i": 2438,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Tibet,Lhasa,Shigatse,Chamdo,Nyingchi,Ngari,Nagqu,Qamdo,Tibet Autonomous Region,China,Nepal,Bhutan,India,Pakistan,Sikkim,Bhutan,Nepal,India,Pakistan",
+    "status": "COMPLETE"
   },
-  {
-    "name": "Puma",
-    "i": 850,
+{
+    "name": "Tujia",
+    "i": 2444,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Hunan,Hubei,Chongqing,Guizhou,Sichuan,Xiangxi Tujia and Miao Autonomous Prefecture,Enshi Tujia and Miao Autonomous Prefecture,Longshan,Baojing,Guzhang,Yongshan,Laifeng,Yongshun,Guzhang,Cili,Sangzhi,Zhangjiajie,Changde,Huaihua,Yuanling,Zhangjiajie,Enshi,Lichuan,Xianfeng,Heefeng,Xuanen,Badong,Lichuan,Enshi,Badong,Hefeng,Xuanen,Laifeng",
+    "status": "COMPLETE"
   },
   {
     "name": "Dungmali",
@@ -12044,15 +12044,15 @@ window.asiaNameBases = [
     "b": "",
     "status": "WAITING"
   },
-  {
-    "name": "Saam",
-    "i": 852,
+{
+    "name": "Tajik",
+    "i": 2620,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Tajikistan,Dushanbe,Khujand,Kulob,Qurghonteppa,Istaravshan,Qayroqqum,Norak,Tursunzoda,Uzbekistan,Afghanistan,Uzbekistan,Afghanistan,Uzbekistan,Afghanistan,Northern Afghanistan,Kabul,Mazar-i-Sharif,Kunduz,Ghazni,Herat,Pamir,Yaghnob River Valley",
+    "status": "COMPLETE"
   },
   {
     "name": "Chantyal",
@@ -12064,15 +12064,15 @@ window.asiaNameBases = [
     "b": "",
     "status": "WAITING"
   },
-  {
-    "name": "Ghale",
-    "i": 855,
+{
+    "name": "Bai",
+    "i": 2443,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Yunnan,Dali,Jianchuan,Heqing,Binchuan,Eryuan,Weishan,Nanjian,Lijiang,Shangri-La,Deqin,Lanping,Fugong,Gongshan,Nujiang,Lushui,Lijiang,Dali,Lanping,Weixi,Nujiang,Lushui,Qiubei,Jianchuan,Heqing,Lijiang,Shangri-La,Deqin,Lanping,Fugong,Nujiang,Lushui,Qiubei,Jianchuan,Heqing,Lijiang,Shangri-La,Deqin",
+    "status": "COMPLETE"
   },
   {
     "name": "Kaike (Magar Kaike)",
@@ -12114,45 +12114,45 @@ window.asiaNameBases = [
     "b": "",
     "status": "WAITING"
   },
-  {
-    "name": "Palaung",
-    "i": 194,
+{
+    "name": "Ingush",
+    "i": 1374,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Ingushetia,Chechnya,North Ossetia,Russia,Kazakhstan,Uzbekistan,Turkmenistan,Turkey,Jordan,Belgium,Norway",
+    "status": "COMPLETE"
   },
-  {
-    "name": "Burmish",
-    "i": 270,
+{
+    "name": "Kurdish",
+    "i": 2601,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Kurdistan,Turkey,Iraq,Iran,Syria,Kurmanji,Sorani,Pehlewani,Erzincan,Elazig,Urmia,Qamishli,Duhok,Mosul,Kirkuk,Suleimaniya,Khaneqin,Mahabad,Iraq,Kurdistan,Turkey,Iran,Syria,Armenia,Azerbaijan,Central Asia,Stockholm,Berlin,Cologne,Hamburg,London,Paris,Istanbul,Istanbul,Anatolia,Erzincan,Elazig,Urmia,Qamishli,Duhok,Mosul,Kirkuk,Suleimaniya,Khaneqin,Mahabad,Kermanshah,Ilam,Lorestan,Pehlewani",
+    "status": "COMPLETE"
   },
-  {
-    "name": "Burmo Qiangic",
-    "i": 271,
+{
+    "name": "Georgian",
+    "i": 2614,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Georgia,Tbilisi,Kutaisi,Batumi,Rustavi,Gori,Zugdidi,Poti,Telavi,Akhaltsikhe,Mtskheta,Sukhumi,Azerbaijan,Turkey,Iran,Azerbaijan,Turkey,Iran",
+    "status": "COMPLETE"
   },
-  {
-    "name": "Caijia",
-    "i": 272,
+{
+    "name": "Pashto",
+    "i": 2602,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Afghanistan,Pakistan,Khyber Pakhtunkhwa,Balochistan,Peshawar,Quetta,Kandahar,Jalalabad,Kabul,Herat,Qandahar,Qandahar,Ghilji,Ghilzai,Yusufzai,Kandahari,Pashtun,Nangarhar,Waziristan,Waziri,Shinwari,Nangarhar,Kabul",
+    "status": "COMPLETE"
   },
   {
     "name": "Amdo Tibetan",
@@ -12165,14 +12165,14 @@ window.asiaNameBases = [
     "status": "WAITING"
   },
 {
-    "name": "Yi",
-    "i": 868,
+    "name": "Kyrgyz",
+    "i": 2618,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Kyrgyzstan,Bishkek,Osh,Jalal-Abad,Batken,Chuy,Issyk-Kul,Naryn,Talas,Kizilsu,Kyrgyz Autonomous Prefecture,China,Xinjiang,Kizilsu Kyrgyz Autonomous Prefecture,Tajikistan,Gorno-Badakhshan Autonomous Region,Afghanistan,Pamiri Kyrgyz,Pakistan,Turkey,Russia,Uzbekistan,Kazakhstan",
+    "status": "COMPLETE"
   },
   {
     "name": "Waxiang",
@@ -12181,8 +12181,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Yuanling,Luxi,Chenxi,Guzhang,Xupu,Yongshun,Jishou,Dayong,Zhangjiajie,Huaihua,Qingshuiping,Maxipu,Taichang,Wusu,Liangshuijing,Basheping,Shangbao,Liangjiatan,Baisha,Linchang,Gaowangjie,Gaofeng,Taojin,Beishuiping,Yantouzhai,Shanzao,Yezhu,Hepeng,Caotan,Tianwan,Banqiao,Chuanxiyi,Tanjiafang,Rangjiaxi,Daweixi,Muxi,Limin,Zhenxi,Xiaoxi,Wangcun,Chengbu,Longsheng,Nanshan,Wutuan,Mugua,Juezhiping,Ganjia,Weishan",
+    "status": "COMPLETE"
   },
   {
     "name": "Xieheyu",
@@ -12201,8 +12201,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Sandu,Libo,Dushan,Duyun,Rongshui,Nandan,Yizhou,Guizhou,Guangxi,Yunnan,Vietnam,Tuyen Quang,Hồng Quang,Chiêm Hoá,Shuilong,Zhonghe,Miaocao,Bajie,Jiadao,Shiqi,Jiarong,Hengfeng,Zhouqin,Jiuqian,Tangzhou,Yangmeng,Sandu Shui Autonomous County",
+    "status": "COMPLETE"
   },
   {
     "name": "Tai Dam",
@@ -12211,8 +12211,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Dien Bien Phu,Lai Chau,Son La,Yen Bai,Lao Cai,Hoa Binh,Thanh Hoa,Nghe An,Luang Prabang,Bolikhamxay,Khammouane,Vientiane,Xieng Khouang,Jinping,Yunnan,Maguan,Wenshan,Hekou,Yuanjiang,Muchang,Dalishu,Pojiao,Dehou,Panzhihua,Qiaotou,Baihei,Gantianzhai,Dashuiping,Gaozhai,Yangmahe,Thailand,Central Thailand,Isan,Vietnam,Laos",
+    "status": "COMPLETE"
   },
   {
     "name": "Tai Ya",
@@ -12221,8 +12221,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Xinping,Yuanjiang,Yuanyang,Lüchun,Shiping,Wuding,Yongren,Maguan,Lüshí,Yuánxīn,Yǒngwǔ,Mǎguān,Yuánjiāng,Lǜshí,Yanshou,Honghe,Chuxiong,Wenshan,Kunming,Chiang Rai,Mae Sai,Mae Chan,Ban Nam Bor Khaw,Ban Pa Sak Khwang,Ban Nam Lat,Ban Wang Din,Ban Sang Khong,Ban Pratu Chiang Mai,Shitouzhai,Xiaomiao,Panlong",
+    "status": "COMPLETE"
   },
   {
     "name": "Taishanese",
@@ -12231,8 +12231,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Taishan,Kaiping,Enping,Xinhui,Jiangmen,Guangdong,Taicheng,Dajiang,Doushan,Shenjing,Beidou,Chuandao,Annanjiangchao,Bihou,Jilong,Guanbuli,Siyi,Sze Yup,Pearl River Delta",
+    "status": "COMPLETE"
   },
   {
     "name": "Wutunhua",
@@ -12241,8 +12241,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Tongren,Qinghai,Huangnan,Longwu,Rebgong,Upper Wutun,Lower Wutun,Jiacangma,Wutun Shangzhuang,Wutun Xiazhuang,Rongwo River,Longwu River",
+    "status": "COMPLETE"
   },
   {
     "name": "Chadong",
@@ -12251,8 +12251,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Chadong,Lingui,Guilin,Guangxi,Liangjiang,Yongfu,Longjiang,Nandan,Qingyuanfu",
+    "status": "COMPLETE"
   },
   {
     "name": "En Kra",
@@ -12271,8 +12271,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Naxi Township,Dongkou County,Hunan,Lianmin Township,Suining County,Xiaohuang,Tianluoxuan Village,Tianzhu,Liping,Yuping,Gaoyi Township,Huitong County",
+    "status": "COMPLETE"
   },
   {
     "name": "Lauhut",
@@ -12281,8 +12281,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Hainan,Baoding",
+    "status": "COMPLETE"
   },
   {
     "name": "Baima",
@@ -12291,8 +12291,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Pingwu,Songpan,Jiuzhaigou,Wenxian,Baima Township,Tielou Township,Luotongba,Baimaguhe,Wujiao,Wen County,Jiuzhaigou County,Ngawa,Mianyang,Gansu,Sichuan,Pingwu County,Songpan County,Wenxian County,Jiuzhaigou County",
+    "status": "COMPLETE"
   },
 {
     "name": "Baisha Hlai",
@@ -12301,8 +12301,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Hainan,Baisha,Changjiang,Yuanmen,Run,Meifu,Bendi,Baoting,Ha Em,Bouhin,Ha,Cun,Nadou,Dongfang,Hainan,Changjiang Li Autonomous County,Baisha Li Autonomous County",
+    "status": "COMPLETE"
   },
   {
     "name": "Central Min",
@@ -12311,8 +12311,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Yong'an,Sanming,Sha County,Sha River,Fujian,Sanyuan,Meilie,Sanming prefecture,Yong'an dialect,Sanming dialect,Shaxian dialect",
+    "status": "COMPLETE"
   },
   {
     "name": "Chamdo",
@@ -12321,8 +12321,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Chamdo,Tibet,Karub District,Chengguan,Jonda,Gonjo,Riwoche,Dengqen,Zhag'yab,Baxoi,Zognang,Markam,Lhorong,Banbar,Zayu,Zogang,Zhag'yab,Markam County,Drag-yab,Dzogang,Mekong,Lancang,Nujiang,Salween,Jinsha,Yangtze,Lamo,Larong,Drag-yab,Rumei,gSerkhu,Suku,Zayu County",
+    "status": "COMPLETE"
   },
 {
     "name": "Dai Zhuang",
@@ -12331,18 +12331,18 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Wenshan,Yanshan,Maguan,Malipo,Guangnan,Honghe,Wenshan Prefecture,Yanshan County,Maguan County,Malipo County,Guangnan County,Vietnam,Lào Cai,Mường Khương,Si Ma Cai,Tả Gia Khâu,La Hờ,La Măng,Lũng Thắng,Tào Túng,Thanh Bình,Sin Chải,Thảo Chư Phìn,Khuốn Pống,Bản Mộ,Tả Chải,Nàn Sán",
+    "status": "COMPLETE"
   },
-  {
-    "name": "Dano",
-    "i": 1656,
+{
+    "name": "Kazakh",
+    "i": 2616,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Kazakhstan,Almaty,Astana,Shymkent,Almaty,Astana,Shymkent,North Kazakhstan,Petropavl,Kostanay,Rural Kazakhstan,Turkestan region,Eastern Kazakhstan,China,Xinjiang,Mongolia,Uzbekistan,Afghanistan,Russia,Turkmenistan",
+    "status": "COMPLETE"
   },
   {
     "name": "Kavalan",
@@ -12351,8 +12351,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Hualien,Yilan,Taitung,Zhuangwei,Wujie,Toucheng,Beipu,Xinshe,Fengbin,Changbin,Xinshe Village,Fengbin Township,Qiliban,Maoliwuhan,Jialiyuan,Liuliu,Lizejian,Xinshe,Fengbin,Sanjianshi,Sanjianshi,Dafengfeng,PateRongan,Qiliban,Maoliwuhan,Jialiyuan,Liuliu,Lizejian,Jialiwan,Xinshe,Lide,Sanjianshi,Zhangyuan,Dafengfeng",
+    "status": "COMPLETE"
   },
   {
     "name": "Northern Formosan",
@@ -12371,8 +12371,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Altai Republic,Gorno-Altaysk,Russia,Mongolia,China,Kazakhstan,Altai Mountains,Altai Kizhi,Telengit,Tubalar,Chelkan,Kumandin,Teles,Telut",
+    "status": "COMPLETE"
   },
   {
     "name": "Altai Uriankhai",
@@ -12391,8 +12391,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Kamchatka,Kamchatka Krai,Olyutorsky District,Vyvenka,Khailino,Tigilsky District,Karaginsky District,Koryak Okrug,Kamchatka Peninsula,Chukchi Peninsula",
+    "status": "COMPLETE"
   },
   {
     "name": "Brahui",
@@ -12401,18 +12401,18 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Balochistan,Kalat,Khuzdar,Mastung,Bolan,Quetta,Nushki,Sarawani,Jhalawani,Chaghi,Afghanistan,Iran,Turkmenistan",
+    "status": "COMPLETE"
   },
-  {
+{
     "name": "Balti",
     "i": 1100,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Baltistan,Skardu,Shigar,Ghanche,Roundu,Kharmang,Gilgit-Baltistan,Ladakh,Kargil,Nubra,Leh,Turtuk,Bogdang,Tyakshi,Hardass,Lato,Karkitchhoo,Balti Bazar,Karachi,Lahore,Peshawar,Islamabad,Quetta,Dehradun,Nainital,Ambari,Shimla,Vikasnagar",
+    "status": "COMPLETE"
   },
   {
     "name": "Domaaki",
@@ -12421,8 +12421,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Nager,Hunza,Gilgit-Baltistan,Mominabad,Nager Valley,Hunza Valley,Nagar Valley,Gilgit-Baltistan Province,Karakoram mountain range",
+    "status": "COMPLETE"
   },
   {
     "name": "Ahirani",
@@ -12431,8 +12431,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Dhule,Nandurbar,Jalgaon,Nashik,Khandesh,Maharashtra,Gujarat,Rajasthani,Chalisgaon,Malegaon,Dhule group,Marathi,Khandeshi,Yawal,Raver,Leva Patils,Tawadi",
+    "status": "COMPLETE"
   },
   {
     "name": "Bhaya",
@@ -12441,8 +12441,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Sindh,Thatta,Mirpur Khas,Khipro,Kot Ghulam Muhammad,Hyderabad,Lower Sindh,Pakistan",
+    "status": "COMPLETE"
   },
   {
     "name": "Goaria",
@@ -12451,8 +12451,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Sindh,Larkana,Sukkur,Moro,Badin,Umerkot,Tharparkar,Mirpurkhas,Karachi,Rajasthan,Pakistan",
+    "status": "COMPLETE"
   },
   {
     "name": "Anatolian Arabic",
@@ -12461,8 +12461,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Mardin,Siirt,Batman,Diyarbakır,Muş,Turkey,North Mesopotamian Arabic,Moslawi,Urfa,Harran,Mardin dialect,Siirt,Muş,Batman,Lake Van",
+    "status": "COMPLETE"
   },
   {
     "name": "Baghdadi Arabic",
@@ -12471,8 +12471,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Baghdad,Iraq,Diyala,Samarra,Al-Anbar,Babylon,Wasit,Basra,Diyala,Samarra,Al-Anbar,Babylon,Wasit,Basra,Iraq,Diyala,Samarra,Babylon,Wasit,Basra,Syria,Iran,Turkey",
+    "status": "COMPLETE"
   },
 {
     "name": "Bahraini Gulf Arabic",
@@ -12481,8 +12481,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Bahrain,Manama,Muharraq,Riffa,Qatar,Kuwait,UAE,Saudi Arabia,Eastern Saudi Arabia",
+    "status": "COMPLETE"
   },
   {
     "name": "Bukharian Arabic",
@@ -12491,8 +12491,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Bukhara,Uzbekistan,Surkhandarya,Qashqadarya,Bukhara Region,Afghanistan,Tajikistan,Iran,Khorasani Arabic,Bactrian Arabic,Bakhtari Arabic,Kashkadarya Arabic,Khorasani Arabic,Samarqand,Bukhara,Qashqadarya,Surkhandarya,Khatlon",
+    "status": "COMPLETE"
   },
   {
     "name": "Central Asian Arabic",
@@ -12501,8 +12501,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Afghanistan,Tajikistan,Uzbekistan,Iran,Bukhara,Samarqand,Qashqadarya,Surkhandarya,Khatlon,Khorasani Arabic,Bactrian Arabic,Bakhtari Arabic,Kashkadarya Arabic,Khorasani Arabic,Jugari Arabic",
+    "status": "COMPLETE"
   },
 {
     "name": "Katua",

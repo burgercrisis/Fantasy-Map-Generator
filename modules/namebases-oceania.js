@@ -2738,7 +2738,7 @@ window.oceaniaNameBases = [
     "max": 12,
     "d": "",
     "m": 0,
-    "b": "Iakrimas,Suam,Mava,Kibi,Aewa,Boemburavu,Uisokov,Demu,Taugum,Lake Murray Patrol Post,Pangoa,Boboa Island",
+    "b": "Iakrimas,Suam,Mava,Kibi,Aewa,Boemburavu,Uisokov,Demu,Taugum,Lake Murray Patrol Post,Pangoa,Boboa Island,Bokisa,Bweiuse,Wapil,Usokof,Zarit,Gubiatta,Miwa,Venavena,Asoatutuma",
     "status": "WAITING"
   },
 
@@ -2760,7 +2760,7 @@ window.oceaniaNameBases = [
     "max": 12,
     "d": "",
     "m": 0,
-    "b": "Abau District,Milne Bay Province,Central Province",
+    "b": "Etau,Nakara,Taubadi,Amazon Bay,Goodenough Bay,Mount Simpson,Naraka,Abau District,Amazon RLLG,Baniara Sub-District,Guyran,Moitu",
     "status": "WAITING"
   },
 
@@ -2782,7 +2782,7 @@ window.oceaniaNameBases = [
     "max": 10,
     "d": "",
     "m": 0,
-    "b": "Ipiko,Pakemba,Baimuru,Naharo",
+    "b": "Ipiko,Pakemba,Baimuru,Naharo,Pakemuba,Biri Camp,Piepoke,Nahoro,Tauodai,Amepoke,Ibigo,Eva",
     "status": "WAITING"
   },
 
@@ -2804,7 +2804,7 @@ window.oceaniaNameBases = [
     "max": 10,
     "d": "",
     "m": 0,
-    "b": "Goroka,Usino Bundi District,Bundi LLG,Madang Province,Eastern Highlands Province",
+    "b": "Goroka,Usino Bundi District,Bundi LLG,Madang Province,Eastern Highlands Province,Maruhia",
     "status": "WAITING"
   },
 
@@ -2859,7 +2859,7 @@ window.oceaniaNameBases = [
     "max": 12,
     "d": "",
     "m": 0,
-    "b": "Olsobip Rural LLG,Nomad Rural LLG,Koroba-Kopiago District",
+    "b": "Olsobip Rural LLG,Nomad Rural LLG,Koroba-Kopiago District,Olsobip,Nomad,Wasur,Mougulu,Yehebi,Honinabi",
     "status": "WAITING"
   },
 
@@ -3541,7 +3541,7 @@ window.oceaniaNameBases = [
     "max": 12,
     "d": "",
     "m": 0,
-    "b": "Ardyaloon,Djarindjin,Lombadina,Cygnet Bay,Cape Leveque,Beagle Bay,Kooljaman",
+    "b": "Ardyaloon,Djarindjin,Lombadina,Cygnet Bay,Cape Leveque,Beagle Bay,Kooljaman,One Arm Point,Pender Bay,Banana Well,Gnylmarung,Goombaragin,Mercedes Cove,Chile Creek,Oolin Sunday Island,Borrgoron Coast",
     "status": "WAITING"
   },
 
@@ -3563,7 +3563,7 @@ window.oceaniaNameBases = [
     "max": 12,
     "d": "",
     "m": 0,
-    "b": "Hope Vale,Cooktown,Cape Bedford,Elim,Battle Camp,Woorabinda,Normanby River,Annan River,Jeannie River,Endeavour River,Bloomfield River,Waymbuurr",
+    "b": "Hope Vale,Cooktown",
     "status": "WAITING"
   },
 
@@ -3739,7 +3739,7 @@ window.oceaniaNameBases = [
     "max": 12,
     "d": "",
     "m": 0,
-    "b": "Mossman,Mossman Gorge,Daintree,Daintree Village,Cape Tribulation,Bloomfield River,Wujal Wujal,China Camp,Maytown,Palmer,Annan River,Port Douglas,Julaymba,Daintree Rainforest",
+    "b": "Mossman,Mossman Gorge,Daintree,Daintree Village,Cape Tribulation,Bloomfield River,Wujal Wujal,China Camp,Maytown,Palmer,Annan River,Port Douglas,Julaymba,Daintree Rainforest,Cooktown,Shiptons Flat,Ayton,Degarra",
     "status": "WAITING"
   },
 
@@ -3805,7 +3805,7 @@ window.oceaniaNameBases = [
     "max": 12,
     "d": "",
     "m": 0,
-    "b": "Pukatja,Ernabella,Amata,Indulkana,Mimili,Fregon,Kalka,Pipalyatjara,Watarru,Umuwa,Yalata,Oak Valley,Docker River,Mutitjulu,Areyonga,Kaltukatjara,Imanpa,Aputula,Finke,Nyapari,Kanpi",
+    "b": "Pukatja,Ernabella,Amata,Indulkana,Mimili,Kaltjiti,Fregon,Kalka,Pipalyatjara,Watarru,Umuwa,Yalata,Oak Valley,Docker River,Mutitjulu,Areyonga,Kaltukatjara,Imanpa,Aputula,Finke,Nyapari,Kanpi,Mintabie,Makiri,Nyapari,Yunyarinyi",
     "status": "WAITING"
   },
 
@@ -3838,7 +3838,7 @@ window.oceaniaNameBases = [
     "max": 12,
     "d": "",
     "m": 0,
-    "b": "Wadeye,Port Keats,Nganmarriyanga,Daly River,Darwin,Moyle River,Fitzmaurice River,Madjellindi Valley,Alligator Creek,Yambarran Range,Laurie Creek,Werntek Nganayi,Pearce Point,Docherty Island,Keyling Inlet",
+    "b": "Wadeye,Nganmarriyanga,Daly River,Darwin,Peppimenarti,Kuy,Yederr,Kununurra,Werntek Nganayi,Macadam Range",
     "status": "WAITING"
   },
 
@@ -3849,7 +3849,7 @@ window.oceaniaNameBases = [
     "max": 12,
     "d": "",
     "m": 0,
-    "b": "Warburton,Jameson,Blackstone,Warakurna,Wanarn,Tjirrkarli,Tjukurla,Docker River,Leonora,Mount Margaret,Laverton,Cosmo Newberry,Kalgoorlie,Wiluna",
+    "b": "Warburton,Wanarn,Warakurna,Blackstone,Jameson,Tjukurla,Tjirrkarla,Patjarr,Irrunytju,Wingellina,Papulankutja,Mantamaru,Kiwirrkurra,Cosmo Newbery",
     "status": "WAITING"
   },
 
@@ -3937,7 +3937,7 @@ window.oceaniaNameBases = [
     "max": 12,
     "d": "",
     "m": 0,
-    "b": "Yuendumu,Lajamanu,Nyirrpi,Willowra,Tennant Creek,Katherine,Alekarenge,Ti Tree,Alice Springs,Balgo",
+    "b": "Yuendumu,Lajamanu,Nyirripi,Willowra,Yuelamu,Alekarenge,Tennant Creek,Alice Springs,Katherine,Balgo",
     "status": "WAITING"
   },
 
@@ -4806,7 +4806,7 @@ window.oceaniaNameBases = [
     "max": 12,
     "d": "",
     "m": 0,
-    "b": "Kokoro,Kuae,Sorefuna,Tahama,Ubuvara,Managalas Plateau",
+    "b": "Kokoro,Kuae,Sorefuna,Tahama,Ubuvara,Managalas Plateau,Serepuna,Naukanane,Itokama,Naokanane,Anatua,Naukuanane,Emo Riva,Farairo,Tama,Umbuwara",
     "status": "WAITING"
   },
 
@@ -5224,7 +5224,7 @@ window.oceaniaNameBases = [
     "max": 12,
     "d": "",
     "m": 0,
-    "b": "Bikuroin,Koibori,Kusi,Nupatoro,Osiwaipa,Owawaipa,Pokoia,Siribia,Tokai,Tsubiai,Waiano,Siribia,Koribori,Kakarapaia",
+    "b": "Bikuroin,Koibori,Kusi,Nupatoro,Osiwaipa,Owawaipa,Pokoia,Siribia,Tokai,Tsubiai,Waiano,Siribia,Koribori,Kakarapaia,Atsilima,Beteriopaia,Ibu,Keriana,Leikaia,Lesiopaia,Mapioro,Okowapaia,Ruruvu,Sirioripaia,Sisivi,Teakon,Tiaraka,Togarao,Bulistoro,Kakaropaia,Pipipaia,Tutupaia",
     "status": "WAITING"
   },
 

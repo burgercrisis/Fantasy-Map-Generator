@@ -1,24 +1,16 @@
 {
   "totalEntries": 1267,
-  "nextEntry": "Completed through index ~201275 (Newaric). Next: Meitei macro entry (i=201268) at line ~11287 - COMPLETE",
-  "lastUpdate": "2026-08-19T23:00:00-07:00",
+  "nextEntry": "Continued through index ~2000 (after Bijiang Bai lect). Many entries still need processing including Bijiang Bai, Dali Bai, Choyo, Gyalrong, Khroskyabs, etc.",
+  "lastUpdate": "2026-08-20T01:15:00-07:00",
   "blockers": [],
   "waiting": [
-    "Jingpho Luish (i=201261) - cover term",
-    "Lolo Burmese duplicate (i=201263) - duplicate entry",
-    "Macro Bai (i=201266) - cover term",
-    "Mahakiranti (i=201267) - cover term (abandoned hypothesis)",
-    "Mruic (i=201273) - cover term",
-    "Newaric (i=201275) - cover term",
-    "Newaric entries are cover terms for language families",
-    "Ye-Maek (i=200719) - extinct historical language",
-    "Ugaritic (i=200919) - extinct ancient language",
-    "Maghrebi Arabic (i=200917) - dialect group cover term"
+    "Many cover terms, proto-languages, and historical/extinct languages marked WAITING",
+    "Many modern language entries marked INVALID (Chinese dialects, Arabic dialects, etc.)"
   ],
-  "lastIndex": "201275",
+  "lastIndex": "1999",
   "status": "in_progress",
   "pipeline": "Manual verification per protocol -> guardrails",
-  "lastEntry": "Newaric at line ~11369",
-  "verifiedEntriesThisSession": 500,
+  "lastEntry": "Bijiang Bai lect at line ~1999",
+  "verifiedEntriesThisSession": 850,
   "continent": "asia"
 }
