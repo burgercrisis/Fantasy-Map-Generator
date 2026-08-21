@@ -60,7 +60,7 @@ window.northAmericaNameBases = [
     "max": 22,
     "d": "lnrt",
     "m": 0.29,
-    "b": "Brackettville,Fort Clark,Seminole,Wewoka"
+    "b": "Brackettville,Fort Clark,Seminole,Wewoka,Nacimiento de los Negros,Sasakwa,Bowlegs,Konawa,Maud,Cromwell,Lima,Dixon,Butner,Dewright,Little,Nobletown,Schoolton,Vamoosa,Wolf"
   },
   {
     "name": "Awakatek",
@@ -114,7 +114,7 @@ window.northAmericaNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0.25,
-    "b": "Socaaix,Haxol Iihom,Tahejoc,Cofteecol"
+    "b": "Socaaix,Haxol Iihom,Tahejoc,Cofteecol,El Desemboque,Punta Chueca,Isla Tiburon"
   },
   {
     "name": "Inuktitut",
@@ -1022,7 +1022,7 @@ window.northAmericaNameBases = [
     "max": 22,
     "d": "lnrt",
     "m": 0,
-    "b": "Jesus Maria de Oro,Mesa del Nayar,Santa Teresa,San Francisco,San Juan Corapan,Corapan,Chicora,Presidio de los Reyes,Huaynamota,Dolores,Puertecitos,La Mesa,Mololon,San Blasito,Maria de Oro,El Nayar,La Yesca,Santa Maria del Oro,Huajicori,Acaponeta,Tecuala,Rosamorada,Ruiz,Tuxpan,Santiago Ixcuintla,San Blas,Concordia,Compostela"
+    "b": "Jesus Maria de Oro,Mesa del Nayar,Santa Teresa,San Francisco,San Juan Corapan,Corapan,Chicora,Presidio de los Reyes,Huaynamota,Dolores,Puertecitos,La Mesa,Mololon,San Blasito,Maria de Oro,El Nayar,La Yesca,Santa Maria del Oro,Huajicori"
   },
   {
     "name": "Alutiiq",
@@ -1975,7 +1975,7 @@ window.northAmericaNameBases = [
     "max": 18,
     "d": "lnrt",
     "m": 0,
-    "b": "Mezquital,Pueblo Nuevo,Tepehuanes,El Mezquital,Santa Maria Ocotan,Xoconostle,San Francisco Ocotan,Santiago Ocotan Teneraca,Santa Maria Magdalena Taxicaringa,Chico Milpillas,San Bernardino,San Francisco de Lajas,Huajicori,San Andres Milpillas Grande,Chinacates,Zacatecas,Nayarit,Durango,Guadiana,Odam,Audam,San Pedro River,Cerro Gordo,Taxicaringa,Milpillas,Ocotan"
+    "b": "Mezquital,Pueblo Nuevo,Tepehuanes,El Mezquital,Santa Maria Ocotan,Xoconostle,San Francisco Ocotan,Santiago Ocotan Teneraca,Santa Maria Magdalena Taxicaringa,Chico Milpillas,San Bernardino,San Francisco de Lajas,Huajicori,San Andres Milpillas Grande,Chinacates,Taxicaringa,Milpillas,Ocotan,Odam,Audam"
   },
   {
     "name": "Tanacross",
@@ -1993,16 +1993,16 @@ window.northAmericaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": ""
+    "b": "Behchoko,Gameti,Wekweeti,Whati"
   },
   {
     "name": "Ute",
     "i": 201033,
     "min": 4,
-    "max": 13,
+    "max": 14,
     "d": "lnrt",
     "m": 0,
-    "b": "Uintah,Ouray,Fort Duchesne,Roosevelt,Myton,Vernal,Moab,Price,Delta,Richfield,Braddock,Ephraim,White Mesa,Blanding,Monticello,Bluff,Aneth,Mexican Hat,Whiterocks,Randlett,Towaoc,Ignacio,Mancos"
+    "b": "Uintah,Ouray,Fort Duchesne,Whiterocks,Randlett,Tridell,Gusher,Southern Ute,Ignacio,Towaoc,White Mesa,Aneth,Montezuma Creek,Mexican Hat,Bluff,Blanding,Monticello,Roosevelt,Myton,Vernal,Lapoint,Jensen,Maeser,Bonanza,Naples,Ballard,Halls Crossing,Navajo Mountain,Oljato"
   },
   {
     "name": "Wiyot",

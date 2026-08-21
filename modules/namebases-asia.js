@@ -1656,8 +1656,8 @@ window.asiaNameBases = [
     "max": 18,
     "d": "",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Klongnamsai,Muangphai,Phansuk,Thakham,Aranyaprathet,Kut Kho Kan,Pakkading,Pakkading District,Borikhan,Borikhane,Pakxan,Don Xat,Na Kaang,Hinboun,Thakhek,Aunloung Svay Chas,Dong Aranh,Aun Loung Svay Thwey,Koub Touch,Koub Cherng,Koub Thboung,Khai Dorn,Sery Pheap,Phnum Bak,Ambel,Makreu,Salor Klaen,Phum Leau,Prey Kapos,Phum Koub",
+    "status": "COMPLETE"
   },
   {
     "name": "Tai Muong Vat",
@@ -1666,8 +1666,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Bản Phát,Bản Cốc Lắc",
+    "status": "COMPLETE"
   },
   {
     "name": "Lao Phutai",
@@ -1676,8 +1676,8 @@ window.asiaNameBases = [
     "max": 18,
     "d": "",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Ban Khok Kong,Waritchaphum,Ban That,Ban Dong Kham Pho,Ban Pra Hlo,Ban Huai Sai,Ban Na Kham Noi,Ban Don Muai,Ban Sam Kha,Ban Dong Chok,Ban Nong Yat,Ban Phon Bok,Ban Khok Klang,Ban Nape,Ban Phak Kha Nya,Savannakhet,Ban Phonsavang Neua,Ban Nongdeun,Ban Nake,Ban Dongmakyang,Ban Thadua,Keng Bit,Phon Phan Paek,Konglor,Ban Bangyor Nonsavang",
+    "status": "COMPLETE"
   },
   {
     "name": "Pa Di",
@@ -1686,8 +1686,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Mường Khương,Tung Chung Phố,Nậm Chảy",
+    "status": "COMPLETE"
   },
   {
     "name": "Thai Song",
@@ -1696,8 +1696,8 @@ window.asiaNameBases = [
     "max": 15,
     "d": "",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Khao Yoi,Village No. 5,Ban Nong Prong,Ban Thap Khang,Ban Laem,Ban Hua Khao Chin,Ban Don Khlang,Tha Tako District,Song Phinong District,Mueang Nakhon Pathom",
+    "status": "COMPLETE"
   },
   {
     "name": "Northwestern Tai",
@@ -1906,8 +1906,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "Makrani dialect of Balochi, a Northwestern Iranian language of the Balochistan region (Pakistan, Iran, Afghanistan); Makran coast includes Gwadar, Turbat, Pasni, Ormara, Kech and Iran's Chabahar (Wikipedia: Balochi_language).",
     "m": 0,
-    "b": "Gwadar,Turbat,Pasni,Ormara,Kech,Chabahar",
-    "status": "WAITING"
+    "b": "Gwadar,Pasni,Ormara,Turbat,Buleda,Dasht,Tump,Balnigor,Karachi,Jiwani,Chabahar,Konarak,Qasr-e Qand,Nikshahr,Rask,Iranshahr,Bampur,Lashar,Bandar Abbas,Gwatar,Jask,Sirik,Dashtiari,Negur,Pishin,Sarbaz,Bent,Espakeh",
+    "status": "COMPLETE"
   },
   {
     "name": "Balochi, Rakhshani",
@@ -1916,8 +1916,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "Rakhshani dialect of Balochi, a Northwestern Iranian language; spoken in northern/western Balochistan (Quetta, Kalat, Khuzdar, Sibi, Mastung, Chagai, Nushki, Washuk, Pishin, Kharan, Bolan) (Wikipedia: Balochi_language).",
     "m": 0,
-    "b": "Quetta,Kalat,Khuzdar,Sibi,Mastung,Chagai,Nushki,Washuk,Pishin,Kharan,Bolan",
-    "status": "WAITING"
+    "b": "Dalbandin,Kharan,Nushki,Washuk,Mashkel,Besima,Kalat,Mastung,Sibi,Quetta,Zahedan,Zabol,Iranshahr,Saravan,Khash,Chabahar,Nik Shahr,Nosratabad,Sarbaz,Bampur,Zaranj,Chahar Burjak,Kang,Mary",
+    "status": "COMPLETE"
   },
   {
     "name": "Bagri",
@@ -1926,8 +1926,8 @@ window.asiaNameBases = [
     "max": 14,
     "d": "Indo-Aryan language of the Rajasthani group, named for the Bagar tract of northwestern India (Rajasthan, Punjab, Haryana); historically the Bikaner state (Bikaner, Sri Ganganagar, Hanumangarh, Churu, Sirsa, Hisar) (Wikipedia: Bagri_language).",
     "m": 0,
-    "b": "Bikaner,Sri Ganganagar,Hanumangarh,Churu,Sirsa,Hisar,Nagaur,Ajmer",
-    "status": "WAITING"
+    "b": "Anupgarh,Karanpur,Sri Ganganagar,Hanumangarh,Nohar,Bhadra,Sangaria,Rawatsar,Pilibangan,Churu,Sujangarh,Sardarshahar,Ratangarh,Rajgarh,Sadulpur,Taranagar,Bidasar,Ratannagar,Chhapar,Bikaner,Nokha,Sri Dungargarh,Lunkaransar,Kolayat,Khajuwala,Chhatargarh,Pugal,Deshnoke,Napasar,Siana,Punrasar,Suin,Dhirdan,Beriwala,Toliyasar,Nai Bhadera,Bhairu Payan,Barsinghsar,Khara,Sobhasar,Purana Sohajrasar,Daiyan,Udasar,Bachhasar,Birsilpur,Binjasar,Koramdesar,Khindasar,Kirtasar,Kapurisar,Kunpalsar,Seura,Riri,Sirsa,Mandi Dabwali,Rania,Ellenabad,Dabwali,Kalanwali,Fatehabad,Tohana,Ratia,Jakhal Mandi,Hisar,Hansi,Barwala,Narnaund,Uklana Mandi,Adampur,Bhiwani,Siwani,Loharu,Tosham,Bawani Khera,Charkhi Dadri,Badhra,Abohar,Fazilka,Jalalabad,Muktsar,Malout,Giddarbaha,Bahawalpur,Hasilpur,Ahmedpur East,Yazman,Khairpur Tamewah,Uch Sharif,Luddan,Bahawalnagar,Chishtian,Harunabad,Minchinabad,Fort Abbas,Faqirwali,Dunga Bunga",
+    "status": "COMPLETE"
   },
   {
     "name": "Bawm",
@@ -1936,8 +1936,8 @@ window.asiaNameBases = [
     "max": 12,
     "d": "Kuki-Chin (Sino-Tibetan) language primarily spoken in Bangladesh (Chittagong Hill Tracts) and adjacent Northeast India (Mizoram) and Myanmar; settlements called 'Bawmram' (Wikipedia: Bawm_language).",
     "m": 0,
-    "b": "Aizawl,Champhai,Serchhip,Khawzawl,Lawngtlai",
-    "status": "WAITING"
+    "b": "Bethel Para,Pankhyang Para,Faruk Para,Eden Para,Darjeeling Para,Lairunpi Para,Munlai Para,Ronin Para,Basatolang Para,Happy Hill Para,Shajahan Para,Baklai Para,Suanlu Para,Barua Para,Langyak Para,Sharon Para,Hebron Para,Chinlong Para,Jaion Para,Elim Para,Sunsang Para,Simatalanping Para,Arthah Para,Sippi Para,Zurvarawng,Raunin Para,Painkhyang Para,Lungthauchi Para,Sunsaung Para,Tai Khyang Para,Salaupi Para,Tindol De Para,Tamlao Para,Fainung Para,Luan Mual Para,Cheihlchiang Para,Thingdolte Tlang Para,Silopy Para,Thingdawl Te Para,Shailaprapat,Hruitezawl,Tuithumhnar,Chamdur,Lawngtlai,Bawm Traditional Village,Parva-III,Hmawngbhu,Lunglei,Aizawl,Chhimtuipui,Ban Hong Taung,Pi Taung,Ton Balay,Bahun Taung",
+    "status": "COMPLETE"
   },
   {
     "name": "Bola",
@@ -1956,8 +1956,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Wanding,Pu'er,Dehong,Baoshan,Tengchong,Yingjiang,Lianghe,Ruili,Lincang",
-    "status": "WAITING"
+    "b": "Xiapianma,Gangfang,Gulang,Piansihe",
+    "status": "COMPLETE"
   },
 {
     "name": "Langsu",
@@ -1966,8 +1966,8 @@ window.asiaNameBases = [
     "max": 14,
     "d": "",
     "m": 0,
-    "b": "Hsawlaw,Tsawlaw,Sawlaw,Sumprabum,Chiphwe,Waimaw,Kutkai,Yingpan Township,Mengyang Township,Bangwai Township,Jingkan Township,Zaoyang,Baocun",
-    "status": "WAITING"
+    "b": "Yingpan,Mengyang,Bangwai,Jingkan,Wase,Wamyit,Shan Ngaw Bum,Htawlang,Lakin,Hting Tsa,N-gawk Hkyet,Ma Awng,Zaoyang,Baocun",
+    "status": "COMPLETE"
   },
   {
     "name": "Lashi",

@@ -1,17 +1,17 @@
 {
   "totalEntries": 1267,
-  "nextEntry": "Processed verified entries: Baram Thangmi, Dhimalish, Hu, U, Chechen, Chongqing Mandarin, Chukotkan, Chuvan, Cilician Arabic. Continuing with remaining WAITING entries.",
-  "lastUpdate": "2026-08-21T09:30:00-07:00",
+  "nextEntry": "Processed verified entries: Chashan, Langsu. Continuing with remaining WAITING entries.",
+  "lastUpdate": "2026-08-21T14:00:00-07:00",
   "blockers": [],
   "waiting": [
     "Proto-languages and historical/extinct languages marked WAITING (per protocol)",
-    "Cover terms marked WAITING (per protocol)",
+    "Cover terms marked WAITING (per protocol: Northwestern Tai, Southwestern Tai, E Tai, Tai Daeng, etc.)",
     "Some real languages with empty b: fields needing research"
   ],
-  "lastIndex": "1614",
+  "lastIndex": "1253",
   "status": "in_progress",
   "pipeline": "Manual verification per protocol -> guardrails",
-  "lastEntry": "Cilician Arabic at i=1614",
-  "verifiedEntriesThisSession": 2450,
+  "lastEntry": "Langsu at i=1253",
+  "verifiedEntriesThisSession": 2465,
   "continent": "asia"
 }

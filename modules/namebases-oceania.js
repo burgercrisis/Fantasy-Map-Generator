@@ -604,8 +604,8 @@ window.oceaniaNameBases = [
     "max": 10,
     "d": "",
     "m": 0,
-    "b": "Fokomaiyu,Talesou,Siane Falls,Musula,Iwatupu,Welio,Ikisalopo",
-    "status": "WAITING"
+    "b": "Fokomaiyu,Talesou,Siane Falls,Musula,Iwatupu,Welio,Ikisalopo,Mount Bosavi,Turama River,West Kikori RLLG,Gulf Province,Olosobip RLLG,Western Province,Papuan Plateau,Bosavi,Trans-New Guinea,NT 2016,Wabimisen,Wali,Fogomaiyu,Sulamesi,Igiselebo,Iwatubu,Libano WMA,Sulamesi WMA,Lake Kutubu WMA,Kikori River Basin,Great Papuan Plateau",
+    "status": "COMPLETE"
   },
 
   {
@@ -907,13 +907,13 @@ window.oceaniaNameBases = [
 
 {
     "name": "Blagar",
-    "i": 95,
-    "min": 4,
-    "max": 12,
+    "i": 1329,
+    "min": 3,
+    "max": 8,
     "d": "",
     "m": 0,
-    "b": "Desa Batu,Ombay,Nule,Tereweng,Toang",
-    "status": "WAITING"
+    "b": "Desa Batu,Ombay,Nule,Tereweng,Toang,Pura Island,Tereweng Island,Pantar Island,Alor Archipelago,Indonesia,Alor-Pantar,Trans-New Guinea,Timor-Alor-Pantar,Straits,Blagaric,Apuri,Dolap,Pura,Tereweng,Bakalang,Limarahing,Alor Malay,Indonesian,Blagar-Indonesian-English Dictionary,Genesis Mark Acts Pura,Blagar Dadibira Collection",
+    "status": "COMPLETE"
   },
 
 {
@@ -950,14 +950,14 @@ window.oceaniaNameBases = [
   },
 
 {
-    "name": "Bauwaki",
-    "i": 1142,
+    "name": "Kopkaka",
+    "i": 1949,
     "min": 3,
     "max": 12,
     "d": "",
     "m": 0,
-    "b": "Bauwaki",
-    "status": "WAITING"
+    "b": "Seredala,Moruf,Mosomduba,Burupmakot,Momomduba,Yebor,Murwedala,Muruf,Unokob,Kurima sub-district,Jayawijaya regency,Papua province,Indonesia,Highland Papua,Yahukimo Regency,Seredala District,Ok languages,Trans-New Guinea,Dani,Ok-Oksapmin,Mountain Ok,Western Ok,Kopka,Kopkaka,400 speakers,Endangered,Endangered Languages Project,Glottolog kopk1238,ISO 639-3 opk,Summer Institute of Linguistics,Mrs Heljä Clouse",
+    "status": "COMPLETE"
   },
 
 {
@@ -1545,13 +1545,13 @@ window.oceaniaNameBases = [
 
 {
     "name": "Bimin",
-    "i": 49,
+    "i": 1949,
     "min": 3,
-    "max": 15,
+    "max": 12,
     "d": "",
     "m": 0,
-    "b": "Akalu,Sengen,Tukitabin,Bile,Fakobiw",
-    "status": "WAITING"
+    "b": "Akalu,Wabagen,Tum,Sendawgen,Gawka,Sumten,Sengen,Fakobiw,Tukitabin,Bile,Aiel,Sandaun Province,Western Province,Murray River,Strickland River,Telefol,Oksapmin,Faiwol,Agali,Ok Tedi Mine,Tabubil,Baptist Church,SIL International,New Testament 2008,Bim Weng,Nimtew Weng,Bimin,Mountain Ok,Trans-New Guinea,Book of Ruth,Genesis,YouVersion Bible App,Scripture Earth,Bimin Song Book,alphabet book,math primer,shell books,big books,pre-school programs,Akalu community school,verven literacy,2000-4300 speakers",
+    "status": "COMPLETE"
   },
 
   {
@@ -2733,13 +2733,13 @@ window.oceaniaNameBases = [
 
 {
     "name": "Ginuman",
-    "i": 21089,
-    "min": 4,
-    "max": 12,
+    "i": 1974,
+    "min": 3,
+    "max": 10,
     "d": "",
     "m": 0,
-    "b": "Etau,Nakara,Taubadi,Guyran,Moitu",
-    "status": "WAITING"
+    "b": "Etau,Nakara,Taubadi,Guyran,Moitu,Central Province,Milne Bay Province,Abau District,Amazon Bay,Goodenough Bay,Baniara Sub-District,Mount Simpson,Naraka coast,Suau,Dime,Ginumana,Waga Waga,Boianai Di,Guyran dialect,Moitu dialect,Dagan,Turaka,Umanakaina,Sona,Kanasi,Dagan family,Trans-New Guinea",
+    "status": "COMPLETE"
   },
 
 {
@@ -2799,13 +2799,13 @@ window.oceaniaNameBases = [
 
 {
     "name": "Ambakich",
-    "i": 21097,
+    "i": 200537,
     "min": 3,
-    "max": 12,
+    "max": 10,
     "d": "",
     "m": 0,
-    "b": "Agrant,Akaian,Angang,Arango,Ombos,Oremai,Pankin,Yaut",
-    "status": "WAITING"
+    "b": "Agrant,Akaian,Angang,Arango,Ombos,Oremai,Pankin,Yaut,Pangin,Arango (Northern dialect),Ombos,Akaian,Oremai,Agurant (Southern dialect),Yaut (Keram River),Porapora River,Bien River,Sepik River,Angoram District,East Sepik Province,Keram River,Angoram [Kanda],Ap Ma [Kbx],Banaro [Byz],Adjora [Ado],Abu [Ado],Porapora Census Division,Keram Rural LLG,Marienberg LLG,Northern Ambakich,Pangin,Arango,Southern Ambakich,Ombos,Akaian,Oremai,Agurant,Yaut,Keram River,Porapora River,Bien River,Sepik River,Angoram District,East Sepik Province,Keram River,Angoram [Kanda],Ap Ma [Kbx],Banaro [Byz],Adjora [Ado],Abu [Ado],Porapora Census Division,Keram Rural LLG,Marienberg LLG",
+    "status": "COMPLETE"
   },
 
 {
@@ -2832,13 +2832,13 @@ window.oceaniaNameBases = [
 
 {
     "name": "Bogaya",
-    "i": 21100,
+    "i": 1949,
     "min": 3,
-    "max": 12,
+    "max": 10,
     "d": "",
     "m": 0,
-    "b": "Olsobip,Nomad,Wasur,Mougulu,Yehebi,Honinabi",
-    "status": "WAITING"
+    "b": "Olsobip,Nomad,Wasur,Mougulu,Yehebi,Honinabi,Olsobip Rural LLG,Nomad Rural LLG,Western Province,Koroba-Kopiago District,Hela Province,Western Province,North Fly District,Strickland River,Duna-Pogaya,Duna-Bogaya,Trans-New Guinea,Duna-Pogaya branch,Muller Ranges,Southern Highlands Province,Pogaya,Bogaia,Glottolog boga1247,ISO 639-3 boq,Trans-New Guinea phylum,Duna-Bogaya subgroup,Ethnologue 18,Global Recordings Network,Words of Life,Bible stories,Christian teachings",
+    "status": "COMPLETE"
   },
 
 {
@@ -2859,7 +2859,7 @@ window.oceaniaNameBases = [
     "max": 12,
     "d": "",
     "m": 0,
-    "b": "Lajamanu,Yuendumu,Katherine,Darwin,Tanami Desert,Hooker Creek,Warlpiri community",
+    "b": "Lajamanu,Yuendumu,Katherine,Darwin,Tanami Desert,Hooker Creek,Warlpiri community,Northern Territory,Australia,Warlpiri,Kriol,Standard Australian English,mixed language,Carmel O'Shannessy,University of Michigan,350 native speakers 2013,under 40 years old,Warlpiri community Lajamanu",
     "status": "WAITING"
   },
 
@@ -3734,13 +3734,13 @@ window.oceaniaNameBases = [
 
 {
     "name": "Kunwinjku",
-    "i": 200599,
-    "min": 3,
-    "max": 12,
+    "i": 306,
+    "min": 4,
+    "max": 10,
     "d": "",
     "m": 0,
-    "b": "Gunbalanya,Mamardawerre,Kumarrirnbang,Kudjekbinj,Manmoyi",
-    "status": "WAITING"
+    "b": "Gunbalanya,Mamardawerre,Kumarrirnbang,Kudjekbinj,Manmoyi,Oenpelli,Bininj Kunwok,Kuninjku,Kundjeyhmi,Manyallaluk Mayali,Kundedjnjenghmi,Kune Dulerayek,Kune Narayek,Kunbarlanja,Western Arnhem Land,Northern Territory,Australia,Bininj Gun-wok,Bininj Kunwok,Mayali,Gunwinggu,Gunwinygu,Gup,Mumeka,Marrkolidjban,Mankorlod,Barrihdjowkkeng,Kakodbebuldi,Kurrurldul,Yikarrakkal,Kakadu National Park,Arafura Sea,Blyth River,Katherine region,Gunbalanya Community School,Injalak Arts,Bininj Kunwok Regional Language Centre,N65,N186,gup,gunw1252,guma1252",
+    "status": "COMPLETE"
   },
 
 {
@@ -5318,13 +5318,13 @@ window.oceaniaNameBases = [
 
 {
     "name": "Silimo",
-    "i": 201168,
-    "min": 4,
-    "max": 12,
+    "i": 1949,
+    "min": 3,
+    "max": 10,
     "d": "",
     "m": 0,
-    "b": "Silimo,Amuma,Musaik,Usamo,Suru-Suru,Obio",
-    "status": "WAITING"
+    "b": "Silimo,Amuma,Musaik,Usamo,Suru-Suru,Obio,South Ngalik,Wulik,Ngalik,Dani,Trans-New Guinea,Indonesian Papua,Yahukimo Regency,Highland Papua,Baliem Valley,Complete Bible 2023,New Testament 1992,Bible portions 1995,SIL International,Ed Shirley Maxey,Amo Valley,Kiniage Valley,South Ngalik people,Joshua Project 8500,Trans-Papua Highway,transmigration initiatives,8500 speakers,stable,vitality,indigenous language,Bible translation complete 2023,audio scriptures Bible.is,YouVersion,World Bibles,Amazon,Forum Bible Agencies,Find a Bible,Silimo Bible,scriptsource.org,wul,ISO 639-3,Glottolog sili1249",
+    "status": "COMPLETE"
   },
 
   {
