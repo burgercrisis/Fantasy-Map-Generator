@@ -1,8 +1,8 @@
 {
   "fileName": "namebases-northAmerica.js",
   "totalEntries": 232,
-  "currentIndex": 201042,
-  "currentLanguage": "Huexca",
+  "currentIndex": 201034,
+  "currentLanguage": "Wiyot",
   "lastCompletedIndex": 201033,
   "lastCompletedLanguage": "Ute",
   "lastCompletedTimestamp": "2026-08-21T13:30:59-07:00",
@@ -99,7 +99,34 @@
       "modifier": 0,
       "logFile": "docs/verification/research/by-language/cora.md",
       "notes": "Only 18 verified names (below 25 minimum, 30 for small languages). Removed non-Cora municipalities (Acaponeta, Tecuala, Rosamorada, Ruiz, Tuxpan, Santiago Ixcuintla, San Blas, Concordia, Compostela). Kept verified Cora communities in El Nayar, La Yesca, Huajicori municipalities, Nayarit: Jesus Maria de Oro, Mesa del Nayar, Santa Teresa, San Francisco, San Juan Corapan, Corapan, Chicora, Presidio de los Reyes, Huaynamota, Dolores, Puertecitos, La Mesa, Mololon, San Blasito, Maria de Oro, El Nayar, La Yesca, Santa Maria del Oro, Huajicori. Cora spoken in Sierra de Nayarit. Cannot verify 25+ distinct place names."
+    },
+    "201032": {
+      "language": "Tłįchǫ",
+      "status": "waiting",
+      "timestamp": "2026-08-21T16:30:00-07:00",
+      "namesCount": 4,
+      "min": 5,
+      "max": 11,
+      "density": "lnrt",
+      "modifier": 0,
+      "logFile": "docs/verification/research/by-language/tlicho.md",
+      "notes": "Only 4 verified names (below 25 minimum, 30 for small languages). Tłįchǫ (Dogrib) Dene language spoken in 4 communities in Northwest Territories, Canada: Behchokǫ̀ (capital), Gamètì, Wekweètì, Whatì. Tłįchǫ Government administers these 4 communities. Cannot verify 25+ distinct place names for this small Dene language with ~2000 speakers in 4 communities."
     }
+  },
+  "pendingWaitList": [
+    {"i": 201034, "language": "Wiyot", "namesCount": 28, "status": "in-progress-research"},
+    {"i": 201035, "language": "Yurok", "namesCount": 23, "status": "pending"},
+    {"i": 201036, "language": "Zuni", "namesCount": 28, "status": "pending"},
+    {"i": 201038, "language": "Tohono O'odham", "namesCount": 14, "status": "pending"},
+    {"i": 201037, "language": "Yaqui", "namesCount": 13, "status": "pending"},
+    {"i": 201034, "language": "Pima", "namesCount": 12, "status": "pending"},
+    {"i": 201035, "language": "Mayo", "namesCount": 11, "status": "pending"},
+    {"i": 201032, "language": "Guarijio", "namesCount": 10, "status": "pending"},
+    {"i": 201031, "language": "Tepehuan", "namesCount": 9, "status": "pending"},
+    {"i": 201030, "language": "Tarahumara", "namesCount": 8, "status": "pending"},
+    {"i": 201029, "language": "Tohono O'odham", "namesCount": 7, "status": "pending"}
+  ]
+}
   },
   "pendingWaitList": [
     {"i": 201042, "language": "Huexca", "namesCount": 16, "status": "in-progress-research"},

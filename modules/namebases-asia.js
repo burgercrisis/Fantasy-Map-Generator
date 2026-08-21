@@ -2516,8 +2516,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Kannur,Cannanore",
-    "status": "WAITING"
+    "b": "Burnassery,Kannur Cantonment,Thillery,No.3 Bazaar,Camp Bazaar,Kannur,Vypeen,Kochi,Kozhikode",
+    "status": "COMPLETE"
   },
   {
     "name": "Chakma",
@@ -2616,8 +2616,8 @@ window.asiaNameBases = [
     "max": 13,
     "d": "",
     "m": 0,
-    "b": "Kanku,Basa,Waku,Jubing,Dharan",
-    "status": "WAITING"
+    "b": "Kanku,Basa,Waku,Jubing,Dharan,Basa,Buipa,Kharmi,Triyuga,Gaighat,Basaha,Belter,Rampur,Tungkhaling,Pang,Sumbek,Mai Pokhari",
+    "status": "COMPLETE"
   },
   {
     "name": "Koi",
@@ -2627,7 +2627,7 @@ window.asiaNameBases = [
     "d": "",
     "m": 0,
     "b": "Sungdel,Dipsung",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
   {
     "name": "Tilung",
@@ -2636,8 +2636,8 @@ window.asiaNameBases = [
     "max": 13,
     "d": "",
     "m": 0,
-    "b": "Chyasmitar",
-    "status": "WAITING"
+    "b": "Pipaltar,Bokhapu",
+    "status": "COMPLETE"
   },
   {
     "name": "Hinuq",
@@ -2736,8 +2736,8 @@ window.asiaNameBases = [
     "max": 14,
     "d": "",
     "m": 13,
-    "b": "",
-    "status": "WAITING"
+    "b": "Zamboanga City,Basilan Province,Isabela City,Lamitan City,Cavite City,Ternate,Cotabato City,Davao City",
+    "status": "COMPLETE"
   },
   {
     "name": "Chechen",

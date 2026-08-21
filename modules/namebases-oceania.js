@@ -1247,13 +1247,13 @@ window.oceaniaNameBases = [
   },
 
 {
-    "name": "Dom",
-    "i": 1709,
+    "name": "Moikodi",
+    "i": 1949,
     "min": 3,
     "max": 12,
     "d": "",
     "m": 0,
-    "b": "Dom",
+    "b": "Oro Province,Papua New Guinea,Yareban,Trans-New Guinea,Doriri,2000 speakers,Joshua Project,Oro languages,SIL-PNG,Aeka,Aneme Wake,Barai,Bariji,Baruga,Bauwaki,Biage,Binandere,Doghoro,Ese,Ewage-Notu,Fuyug,Gaina,Guhu-Samane,Hunjara-Kaina Ke,Korafe-Yegha,Kunimaipa,Maisin,Maiwa,Miniafia Oyan,Namiae,Nawaru,Ömie,Onjob,Orokaiva,Ubir,Yareba,Zia",
     "status": "WAITING"
   },
 
@@ -2755,12 +2755,12 @@ window.oceaniaNameBases = [
 
 {
     "name": "Ipiko",
-    "i": 21091,
+    "i": 1949,
     "min": 3,
-    "max": 10,
+    "max": 12,
     "d": "",
     "m": 0,
-    "b": "Ipiko,Pakemba,Baimuru,Naharo",
+    "b": "Ipiko,Pakemba,Baimuru,Biri Camp,Naharo,Amipoke ward,Baimuru Rural LLG,Kikori District,Gulf Province,Papua New Guinea,Pie River,Era River,Purari languages,Urama,Gibaio,Kiwaian languages,700 speakers,Endangered Languages Archive,ELDP,Zurab Baratashvili,Eva dialect,Ibigo dialect,Trans-New Guinea,Anim,Inland Gulf",
     "status": "WAITING"
   },
 
@@ -2859,7 +2859,7 @@ window.oceaniaNameBases = [
     "max": 12,
     "d": "",
     "m": 0,
-    "b": "Lajamanu,Yuendumu,Katherine,Darwin,Tanami Desert,Hooker Creek,Warlpiri community,Northern Territory,Australia,Warlpiri,Kriol,Standard Australian English,mixed language,Carmel O'Shannessy,University of Michigan,350 native speakers 2013,under 40 years old,Warlpiri community Lajamanu",
+    "b": "Lajamanu,Yuendumu,Katherine,Darwin,Tanami Desert,Hooker Creek,Warlpiri community,Northern Territory,Australia,Warlpiri,Kriol,Standard Australian English,mixed language,Carmel O'Shannessy,University of Michigan,350 native speakers 2013,under 40 years old,Warlpiri community Lajamanu,Lultju outstation,Buntine Highway,Tanami Road,Alice Springs,Tennant Creek,Warnayaka Art Centre,Community Education Centre,Purple House dialysis unit",
     "status": "WAITING"
   },
 

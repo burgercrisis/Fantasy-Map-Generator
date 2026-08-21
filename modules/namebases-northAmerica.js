@@ -2011,7 +2011,7 @@ window.northAmericaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Tuluwat,Bear River,Blue Lake,Fields Landing,Samoa,Mad River,Elk River,Freshwater,Van Duzen River,Shelter Cove,Briceland,Weitchpec,Algula,Olague,Ke'pel,Tsurai,Erner,Rekwoi,O'men,Tsupu,Sregon,Wohkro,Hookton,Salt River,Indianola,Humboldt Bay,Francis Creek,Loleta,Table Bluff,Eureka"
+    "b": "Tuluwat,Tsurai,Weitchpec,Erner,Rekwoi,O'men,Tsupu,Sregon,Wohkro,Hookton,Algula,Olague,Ke'pel,Briceland,Shelter Cove,Table Bluff,Loleta,Blue Lake,Indianola,Francis Creek"
   },
   {
     "name": "Yurok",
