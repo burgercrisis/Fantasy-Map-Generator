@@ -1,17 +1,17 @@
 {
   "totalEntries": 1267,
-  "nextEntry": "Processed many verified entries through most of the file. Remaining WAITING entries include: proto-languages (Proto-Karenic, Greater Siangic, etc.), historical/extinct languages (Akkadian, Babylonian, Old Armenian, etc.), cover terms (Kuki-Chin, Northern Tai, Southwestern Tai, etc.), and some real languages with empty b: fields. Most entries with specific place names have been verified and updated to COMPLETE.",
-  "lastUpdate": "2026-08-21T08:30:00-07:00",
+  "nextEntry": "Processed verified entries: Baram Thangmi, Dhimalish, Hu, U, Chechen, Chongqing Mandarin, Chukotkan, Chuvan, Cilician Arabic. Continuing with remaining WAITING entries.",
+  "lastUpdate": "2026-08-21T09:30:00-07:00",
   "blockers": [],
   "waiting": [
     "Proto-languages and historical/extinct languages marked WAITING (per protocol)",
     "Cover terms marked WAITING (per protocol)",
     "Some real languages with empty b: fields needing research"
   ],
-  "lastIndex": "4139",
+  "lastIndex": "1614",
   "status": "in_progress",
   "pipeline": "Manual verification per protocol -> guardrails",
-  "lastEntry": "Qau at i=1964",
-  "verifiedEntriesThisSession": 2300,
+  "lastEntry": "Cilician Arabic at i=1614",
+  "verifiedEntriesThisSession": 2450,
   "continent": "asia"
 }

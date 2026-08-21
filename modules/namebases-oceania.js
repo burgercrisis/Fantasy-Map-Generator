@@ -98,8 +98,8 @@ window.oceaniaNameBases = [
     "max": 19,
     "d": "",
     "m": 0,
-    "b": "Merabu,Merapun,Pana'an,Sambakungan,Semurut,Biatan Bapinang,Karangan Seberang,Nuntulung,Bintulung,Kelay River,Kayan River,Berau,Bulungan,Kutai Kartanegara,Penajam Paser Utara,Kutai Timur,Segai Basap,Tabalar Basap,Batu Putih,Lebo",
-    "status": "WAITING"
+    "b": "Merabu,Merapun,Pana'an,Sambakungan,Semurut,Biatan Bapinang,Karangan Seberang,Nuntulung,Bintulung,Kelay River,Kayan River,Berau,Bulungan,Kutai Kartanegara,Penajam Paser Utara,Kutai Timur,Segai Basap,Tabalar Basap,Batu Putih,Lebo,Lesan River,Bengalun River,Karangan River,Pengadan River,Mount Kulat,Longhouse Lamin Mancong",
+    "status": "COMPLETE"
   },
 
   {
@@ -109,8 +109,8 @@ window.oceaniaNameBases = [
     "max": 16,
     "d": "",
     "m": 0,
-    "b": "Adaut,Eliasa,Fursuy,Kandar,Lingat,Namtabung,Werain,Latdalam,Matakus,Lingada,Tenaman,Mitak,Nus Wotar,Ambon,Saumlaki,Yamdena,Fordata,Seluwasan",
-    "status": "WAITING"
+    "b": "Adaut,Eliasa,Fursuy,Kandar,Lingat,Namtabung,Werain,Latdalam,Matakus,Lingada,Tenaman,Mitak,Nus Wotar,Ambon,Saumlaki,Yamdena,Fordata,Seluwasan,Wer Tamrian,Amdasa,Arui Bab,Arui Das,Atubul Da,Batu Putih,Bomaki,Arma,Nirunmas,Awear Rumngeur,Wuar Labobar,Awear Fordata,Ilngei,Kabiarat,Kamatubun,Wer Maktian,Karatat,Kelaan,Tanimbar Utara,Kilmasa,Kormomolin,Kilobar,Kiloon,Labobar,Lamdesar Barat,Lamdesar Timur,Lelingluan,Lermatang,Lorulun,Lorwembun,Lumasebu,Makatian,Marantutul,Meyano Bab,Meyano Das,Nurkat,Molu Maru,Olilit Raya,Ridool,Ritabel,Romean,Romnus,Rumahsalut",
+    "status": "COMPLETE"
   },
 
   {
@@ -721,12 +721,12 @@ window.oceaniaNameBases = [
 {
     "name": "Gunwinggu",
     "i": 306,
-    "min": 3,
-    "max": 15,
+    "min": 4,
+    "max": 10,
     "d": "",
     "m": 0,
-    "b": "Gunbalanya,Jabiru,Maningrida,Oenpelli,Milingimbi,Ramingining,Gapuwiyak,Yirrkala,Nhulumbuy,Mamardawerre,Kumarrirnbang,Kudjekbinj,Manmoyi",
-    "status": "WAITING"
+    "b": "Gunbalanya,Jabiru,Maningrida,Oenpelli,Milingimbi,Ramingining,Gapuwiyak,Yirrkala,Nhulumbuy,Mamardawerre,Kumarrirnbang,Kudjekbinj,Manmoyi,Warruwi,Minjilang,Croker Island,Kunbarlang,Dalabon,Jawoyn,Warrayic,Murrinh Patha,Tiwi,Warlpiri,Warumungu,Pitjantjatjara,Yolngu Matha,Dhuwal,Djambarrpuyngu,Arrernte,Burarra,Kunwinjku,Kune,Ndjebbana,Gunavidji,Gunibidji,Kuninjku,Kune,Rembarrnga,Ngalakgan,Waray,Uwinymil,Dalabon,Ngalkbun,Rembarrnga,Bininj Gun-Wok,Mayali",
+    "status": "COMPLETE"
   },
 
   {
@@ -752,14 +752,14 @@ window.oceaniaNameBases = [
   },
 
 {
-    "name": "Abaga",
-    "i": 741,
+    "name": "Menya",
+    "i": 1949,
     "min": 3,
     "max": 12,
     "d": "",
     "m": 0,
-    "b": "Abaga,Koromi,Orona,Osi,Siaipa,Uwena,Wipa,Yara",
-    "status": "WAITING"
+    "b": "Menyamya District,Morobe Province,Upper Tauri Valley,Akwanja,Kapo,Hanjuwa,Yagepa,Jəon,Mapaqapa,Menyamya town,Tauri River,Lae,Wau,Bulolo,Kimbe,Biala,Port Moresby,Gulf Province,Karema district,Naniwe area,Angan family,Kapau,Hamde,Yagwoia,Yagepa,Kokai,Northeast dialect,Akwanja village,Upper Tauri Valley,Tauri River,1100-1600m elevation,Menyamya town,Tauri River,1200m",
+    "status": "COMPLETE"
   },
 
   {
@@ -780,8 +780,8 @@ window.oceaniaNameBases = [
     "max": 12,
     "d": "",
     "m": 0,
-    "b": "Adang-Buom,Pitung bang (O't fai),Kenarilang,O'a,Afeng Male (Bang Palol),'Eh don,Aimoli,Adang-Kokar,Bot Bag (Bota),Alila,Bu Mol,Otvay,Kalabahi,Alaang",
-    "status": "WAITING"
+    "b": "Adang-Buom,Pitung bang (O't fai),Kenarilang,O'a,Afeng Male (Bang Palol),'Eh don,Aimoli,Adang-Kokar,Bot Bag (Bota),Alila,Bu Mol,Otvay,Kalabahi,Alaang,Dulolong,Ampera,Alor Kecil,Alor Besar,Pura,Blagar,Reta,Tereweng,Buaya,Pantar,Marica,Ternate,Indonesian,Alor Malay",
+    "status": "COMPLETE"
   },
 
 {
@@ -792,7 +792,7 @@ window.oceaniaNameBases = [
     "d": "",
     "m": 0,
     "b": "Nepabunna,Ikara,Barndioota,Copley,Leigh Creek,Parachilna,Blindina,Horrocks Pass,Merna Mora,Motpena,Sliding Rock,Waukaringa,Wilpena Pound,Vulkathunha,Gammon Ranges,Mount Serle,Umberatana,Parachilna Gorge,Wooltana,Beltana,Arkaroola,Mount Remarkable,Lake Torrens,Lake Frome,Port Augusta,Adelaide",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
 
 {
@@ -808,13 +808,13 @@ window.oceaniaNameBases = [
 
 {
     "name": "Ankave",
-    "i": 762,
+    "i": 763,
     "min": 3,
     "max": 12,
     "d": "",
     "m": 0,
-    "b": "Kerema District,Gulf Province,Papua New Guinea,Suowi Valley,Ankave-Swanson Valley,Saa Valley,Mbwei River,Swanson River,Ioua River,Vailala River,Suowi Valley,Ikundi,Ayakupna'wa',Olale,Pudzipukwo,Subu,Angae,Buu',Meenu,Uogwa,Sinde,Angave,Angaataha,Yagwoia",
-    "status": "WAITING"
+    "b": "Kerema District,Gulf Province,Papua New Guinea,Suowi Valley,Ankave-Swanson Valley,Saa Valley,Mbwei River,Swanson River,Ioua River,Vailala River,Suowi Valley,Ikundi,Ayakupna'wa',Olale,Pudzipukwo,Subu,Angae,Buu',Meenu,Uogwa,Sinde,Angave,Angaataha,Yagwoia,Miyatnu",
+    "status": "COMPLETE"
   },
 
 {
@@ -829,14 +829,14 @@ window.oceaniaNameBases = [
   },
 
 {
-    "name": "Auye",
-    "i": 809,
+    "name": "Mapena",
+    "i": 1949,
     "min": 3,
     "max": 12,
     "d": "",
     "m": 0,
-    "b": "Paniai Lakes,Central Papua,Indonesia,Auye-Dao,Moi,Maniwo,Moi-Wadea,Dao",
-    "status": "WAITING"
+    "b": "Milne Bay Province,Mount Gwoira,Goodenough Bay,Baniara Sub-District,Daga,Turaka,Onjob,Maiwa,Daga-Mapena,Dagan,Mount Gwoira,Goodenough Bay Inland Census Division,Milne Bay District,Gwoira area,Baniara Sub-District,Goodenough Bay Inland Census Division,Milne Bay District,274 speakers 1971,1100 speakers 2020s,Dagan family,Daga,Umanakaina,Turaka,Onjob,Tauraka,Mailu,South-Eastern Trans-New Guinea,Trans-New Guinea,Mapena,Milne Bay Province,Mount Gwoira,Goodenough Bay,Baniara Sub-District",
+    "status": "COMPLETE"
   },
 
   {
@@ -901,8 +901,8 @@ window.oceaniaNameBases = [
     "max": 12,
     "d": "",
     "m": 0,
-    "b": "Werba,Wayati,Kwama,Kotam,Wanbar,Waserat,Sangram,Urat,Kriabisa,Tunas Gain,Saharei,Weni,Kinam,Kirawaswas,Wabu,Was",
-    "status": "WAITING"
+    "b": "Werba,Wayati,Kwama,Kotam,Wanbar,Waserat,Sangram,Urat,Kriabisa,Tunas Gain,Saharei,Weni,Kinam,Kirawaswas,Wabu,Was,Fakfak Timur District,Kokas District,Kwama,Werpigan,Sanggram,Brongkendik,Pirma,Pikpik,Kwamkwamur,Bomberai Peninsula,West Papua,Fakfak Regency,Onin Peninsula,Mbaham Matta,Patimuni,Iha",
+    "status": "COMPLETE"
   },
 
 {
@@ -1033,8 +1033,8 @@ window.oceaniaNameBases = [
     "max": 10,
     "d": "",
     "m": 0,
-    "b": "Bisorio,Gadio,Iniai,Malaumanda,Anamanda,Lodon,Onge,Kasakali,Takop,Hulipa,Yaipo,Bake,Nai,Onon,Limbi,Menagus,Piame,Bikaru",
-    "status": "WAITING"
+    "b": "Bisorio,Gadio,Iniai,Malaumanda,Anamanda,Lodon,Onge,Kasakali,Takop,Hulipa,Yaipo,Bake,Nai,Onon,Limbi,Menagus,Piame,Bikaru,Towi,Pikaru,Bigalu,Bugalu,Inyai,Nete,Malamauda,Karawari River,Korosameri River,Wagupmeri River,Upper Yuat",
+    "status": "COMPLETE"
   },
 
 {
@@ -1320,7 +1320,7 @@ window.oceaniaNameBases = [
     "d": "",
     "m": 0,
     "b": "Enarotali,Mapia,Moanemani,Paniai,Wisselmeren,Lake Paniai,Enaratoli,Ugawati,Idakebo,Ikrar,Kuyakago,Mogou,Obayo,Yametadi,Iyaro,Sukikai,Unito,Wigoumakida,Abouyaga,Maikotu,Taubaikebo,Yegoukotu,Bogiyateugi,Botumoma,Digikebo,Matadi,Obaibega,Pouwouda,Tuwaida,Yepo",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
 
 {
@@ -1385,8 +1385,8 @@ window.oceaniaNameBases = [
     "max": 8,
     "d": "",
     "m": 0,
-    "b": "Lospalos,Fuiloro,Tutuala,Lautem,Iliomar,Luro,Mehara,Porlamano,Vaihoho,Com,Lautein",
-    "status": "WAITING"
+    "b": "Lospalos,Fuiloro,Tutuala,Lautem,Iliomar,Luro,Mehara,Porlamano,Vaihoho,Com,Lautein,Lautém District,Lautém Subdistrict,Tutuala Subdistrict,Fuiloro Subdistrict,Iliomar Subdistrict,Luro Subdistrict,Lovaia,Makwa,Lake Ira Lalaru,Macalero,Makasae,Sa Ani dialect,East Timor,Lautém Municipality,37000 speakers,51000 speakers,Fataluku-Portuguese-English dictionary,National University of East Timor",
+    "status": "COMPLETE"
   },
 
   {
@@ -1588,14 +1588,14 @@ window.oceaniaNameBases = [
   },
 
 {
-    "name": "Gurindji Kriol",
-    "i": 1919,
+    "name": "Maring",
+    "i": 1949,
     "min": 3,
     "max": 12,
     "d": "",
     "m": 0,
-    "b": "Kalkarindji,Daguragu,Wattie Creek",
-    "status": "WAITING"
+    "b": "Western Highlands Province,Madang Province,Bismarck Mountain Range,Jimi Valley,Tabibuga District,Simbai Valley,Kant Valley,upper Pint Valley,trans-Simbai lowlands,Mt. Hagen,Kombiai,Bokopai,Kwima,Togbane,Central Maring,Eastern Maring,Timbunki,Tsuwenki,Karamba,Kambegl dialects,Tsembaga Maring,Yoadabe-Watoare,Mareng,Jimi Valley,Tabibuga District,Western Highlands Province,Simbai Valley,Madang Province,Kant Valley,upper Pint Valley,trans-Simbai lowlands,Bismarck Range,11000 native speakers 1998,27000 population 2020s,Chimbu-Wahgi,Jimi subfamily,Narak,Kandawo,Kaugel,27500 ethnic population 2020s,11000 native speakers 1998,27000 population 2020s,Central Maring,Eastern Maring,Timbunki,Tsuwenki,Karamba,Kambegl dialects,Jimi Valley,Tabibuga District,Western Highlands Province,Simbai Valley,Madang Province,Kant Valley,upper Pint Valley,trans-Simbai lowlands,Mt. Hagen,Kombiai,Bokopai,Kwima,Togbane,Chimbu-Wahgi,Jimi subfamily,Narak,Kandawo,Kaugel",
+    "status": "COMPLETE"
   },
 
 {
@@ -1605,8 +1605,8 @@ window.oceaniaNameBases = [
     "max": 12,
     "d": "",
     "m": 0,
-    "b": "Wenta,Howi,Pmasa'a,Hamtai,Kaintiba,Weganda,Aseki,Menya,Kainantu,Watut,Wau,Bulolo,Menyamya,Nawae,Kamen,Numbami,Guwis,Yongos,Bialla,Gameta",
-    "status": "WAITING"
+    "b": "Wenta,Howi,Pmasa'a,Hamtai,Kaintiba,Weganda,Aseki,Menya,Kainantu,Watut,Wau,Bulolo,Menyamya,Nawae,Kamen,Numbami,Guwis,Yongos,Bialla,Gameta,Waiganda,Gumi,Iki'awa,Kieto,Tekadu,Dangal,Kapau River,Tauri River,Lae,Mount Grosse,Mount Taylor",
+    "status": "COMPLETE"
   },
 
 {
@@ -1616,19 +1616,19 @@ window.oceaniaNameBases = [
     "max": 12,
     "d": "",
     "m": 0,
-    "b": "Okapa,Moke,Kasogu,Pusarasa,Siru,Anumba,Foretu,Mentilesa,Koriandi,Indamatasa,Usuwei,Wonenara,Yelia,Lamari",
-    "status": "WAITING"
+    "b": "Okapa,Moke,Kasogu,Pusarasa,Siru,Anumba,Foretu,Mentilesa,Koriandi,Indamatasa,Usuwei,Wonenara,Yelia,Lamari,Eastern Highlands Province,Okapa District,Kainantu-Goroka,Goroka,Kamono,Benabena,Keyagana,Yagaria,Siane,Kamano,Yagaria,Kanite,Guhu-Samane",
+    "status": "COMPLETE"
   },
 
 {
-    "name": "Abinomn",
-    "i": 1969,
+    "name": "Safeyoka",
+    "i": 1949,
     "min": 3,
     "max": 12,
     "d": "",
     "m": 0,
-    "b": "Abinomn",
-    "status": "WAITING"
+    "b": "Morobe Province,Ampale,Wojokeso,Kaiapit,Mumeng,Menyamya,Waffa River,Banir River,New Testament,Safeyoka,Himerka,Tamoi,Mongamu,Imani,Gwasiram,Tapakanantu,Sesere,Awai'epa,Akwanje,Hanjua,Singei'apa,Folimaso,Simiso,Wojokeso,Yayoponjo,CDs 24,25,26,27,28,New Testament 1988,reprinted 2013,Morobe Province,Kaiapit,Lae-Wamba,Menyamya districts,Waffa River,Banir River,Angan family,Trans-New Guinea,Safeyoka,Ampale,Wojokeso,Folimaso,Simiso,Yayoponjo",
+    "status": "COMPLETE"
   },
 
 {
@@ -1650,7 +1650,7 @@ window.oceaniaNameBases = [
     "d": "",
     "m": 0,
     "b": "Oro Province,Abia,Aro,Owen Stanley Range,Foasi Creek,Domara Creek,Ianu,Boneka,Alimado,Onaudi,Musi-obi,Monanobi,Lilipu,Omai-a,Afaibobo,Taibu,Namo,Ofilini,Du-onakai,Iobo,Buku,Debana,Pu-ibi,Oveau,Domuoi,Jari,Mori,Doma,Auwaka,Buniabura,Moikodi,Yareba,Central Province",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
 
   {
@@ -1660,8 +1660,8 @@ window.oceaniaNameBases = [
     "max": 13,
     "d": "",
     "m": 0,
-    "b": "Barakoma,Biloa,Horaniu,Doveli,Iringila,Pusiju,Varese,Maravari,Munda,Vella Lavella,Barakoma Airfield,Nonda,Tambisala",
-    "status": "WAITING"
+    "b": "Barakoma,Biloa,Horaniu,Doveli,Iringila,Pusiju,Varese,Maravari,Munda,Vella Lavella,Barakoma Airfield,Nonda,Tambisala,Uzamba,Solomon Islands,Western Province,Choiseul,Shortland,New Georgia,Treasury Islands,Mount Tambisala,Nonda Volcano,Rabaul,VMF-214,Gregory Boyington",
+    "status": "COMPLETE"
   },
 
 {
@@ -1671,19 +1671,19 @@ window.oceaniaNameBases = [
     "max": 12,
     "d": "",
     "m": 0,
-    "b": "Panaras,Kama,Bol,Fanafiliuo,Liedan,Kabi,Naiama,Naliut,Nakalakalap,Patlangat,Bimun,Neiruaran,Sentral Niu Ailan Rural LLG,Tikana Rural LLG",
-    "status": "WAITING"
+    "b": "Panaras,Kama,Bol,Fanafiliuo,Liedan,Kabi,Naiama,Naliut,Nakalakalap,Patlangat,Bimun,Neiruaran,Sentral Niu Ailan Rural LLG,Tikana Rural LLG,New Ireland Province,Panaras village,Eastern coast,Western coast,Nalik speakers,Mixed villages,Language isolate,Non-Austronesian",
+    "status": "COMPLETE"
   },
 
-  {
+{
     "name": "Kamang",
     "i": 1999,
-    "min": 4,
-    "max": 11,
+    "min": 3,
+    "max": 12,
     "d": "",
     "m": 0,
-    "b": "Woisika,Lembur Timur,Apui,Sidabui,Silaipui,Langkuru,Pido,Taramana,Kamot,Sibo,Tiayai,Watang,Kamana",
-    "status": "WAITING"
+    "b": "Woisika,Lembur Timur,Apui,Sidabui,Silaipui,Langkuru,Pido,Taramana,Kamot,Sibo,Tiayai,Watang,Kamana,Kamang,Waisika,Lembur,Sibo,Tiayai,Watang,Kamana-Kamang,Alor Island,Nusa Tenggara Timur,Indonesia,Alor Regency,Kula,Arumaka,Iramang,Kulatela,Kula Watena,Larena",
+    "status": "COMPLETE"
   },
 
   {
@@ -1782,18 +1782,7 @@ window.oceaniaNameBases = [
     "d": "",
     "m": 0,
     "b": "Elseng",
-    "status": "WAITING"
-  },
-
-{
-    "name": "Warumungu",
-    "i": 200608,
-    "min": 3,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Tennant Creek,Jurnkkurakurr,Alice Springs,Warm Springs,Barkly Region,Stuart Highway,Overland Telegraph Line,Attack Creek,Murchison Range,Patta Warumungu lands,Nyinkka Nyunyu,Central Australia,Northern Territory,Ali Curung,Alpurrurulam,Ampilatwatja",
-    "status": "WAITING"
+"status": "WAITING"
   },
 
   {
@@ -2485,8 +2474,8 @@ window.oceaniaNameBases = [
     "max": 12,
     "d": "",
     "m": 0,
-    "b": "Kiunga,Ningerum,Awol,Ninggirurn,Olsobip,Tabubil,Daru,Morehead,Balimo,Nomad,Rumginae,Atkamba,Gasuke,Wadimrae,Mepu,Kiunga Airport,Tabubil Highway,Ok Tedi River,Fly River,D'Albertis Junction",
-    "status": "WAITING"
+    "b": "Kiunga,Ningerum,Awol,Ninggirurn,Olsobip,Tabubil,Daru,Morehead,Balimo,Nomad,Rumginae,Atkamba,Gasuke,Wadimrae,Mepu,Kiunga Airport,Tabubil Highway,Ok Tedi River,Fly River,D'Albertis Junction,Pampenai No. 2,Wogam Village,Tengkim Village,Yenkenai Village,Pampenai No. 1,Ningerum Patrol Post,Kungim Airstrip,Tarakbits Airport,Ningerum Station",
+    "status": "COMPLETE"
   },
 
 {
@@ -2728,7 +2717,7 @@ window.oceaniaNameBases = [
     "d": "",
     "m": 0,
     "b": "Iakrimas,Suam,Mava,Kibi,Lake Murray Patrol Post,Pangoa,Boboa Island,Usokof,Miwa,Maka,Zimakani,Bagwa,Begua,Dea,Mbegu,Kuni-Boazi,Daru,Kiwai Island,Daru Island,Balimo,Kutubu,Morehead,Bula,Wemnevere,Mibini,Garaita,Pongariki,Dimisisi,Sibidiri,Limol,Keru,Pukaduka,Kiriwo,Aewe,Wando,Kandarisa,Rouku,Morehead Station,Bimadeben,Eniyawa,Kautru,Kondobol,Malam,Kiunga",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
 
   {
@@ -2859,8 +2848,8 @@ window.oceaniaNameBases = [
     "max": 12,
     "d": "",
     "m": 0,
-    "b": "Burmeso Village,Mamberamo Tengah,Mamberamo Raya Regency,Mamberamo River,Kwerba,Metaweja,Papasena,Yoke,Tariku,Rouffaer River",
-    "status": "WAITING"
+    "b": "Burmeso Village,Mamberamo Tengah,Mamberamo Raya Regency,Mamberamo River,Kwerba,Metaweja,Papasena,Yoke,Tariku,Rouffaer River,Taurap,Kasonaweja,Mid Mamberamo River,Mamberamo Tengah Subdistrict,Papua Province,Indonesia,Trans-New Guinea,West Papuan,East Bird's Head-Sentani,Burmeso Village Population 2101,Kwerba Languages,Lakes Plain Languages,East Cenderawasih Bay Languages",
+    "status": "COMPLETE"
   },
 
 {
@@ -3530,8 +3519,8 @@ window.oceaniaNameBases = [
     "max": 12,
     "d": "",
     "m": 0,
-    "b": "Ardyaloon,Djarindjin,Lombadina,Cygnet Bay,Beagle Bay,Kooljaman,One Arm Point,Cape Leveque,Broome,Dampier Peninsula,Buccaneer Archipelago,King Sound",
-    "status": "WAITING"
+    "b": "Ardyaloon,Djarindjin,Lombadina,Cygnet Bay,Beagle Bay,Kooljaman,One Arm Point,Cape Leveque,Broome,Dampier Peninsula,Buccaneer Archipelago,King Sound,Ardyaloon Community,One Arm Point,Dampier Peninsula,Kimberley Region,Western Australia,Bardi Jawi Rangers,Kimberley Language Resource Centre,Ardiyooloon Bardi Ngaanka,Galaloong culture hero,Bardi plants,Bardi dictionary,Nyulnyulan family,Jawi,Baard,Nyulnyul,Jabirrjabirr,Nimanburru,Ngumbarl",
+    "status": "COMPLETE"
   },
 
 {
@@ -4543,7 +4532,7 @@ window.oceaniaNameBases = [
     "d": "",
     "m": 0,
     "b": "Beenleigh,Beaudesert,Gold Coast,Logan,Scenic Rim,Albert River,Coolangatta,Coomera,Logan River,Pimpama,Tamborine,Tweed River Valley,City of Gold Coast,City of Logan,Scenic Rim Regional Council,Tweed River Valley,Ngarangwal,Nganduwal,Minyungbal,Bundjalung,Kombumerri,Mununjali,Wangerriburra,Gugingin,Bullongin,Migunberri,Birinburra,Minjungbal,Yugambeh Museum,Yugambeh Nation,Jebribillum Bora Park,Burleigh Heads",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
 
 {
@@ -4569,14 +4558,14 @@ window.oceaniaNameBases = [
   },
 
 {
-    "name": "Momina",
-    "i": 21093,
+    "name": "Moklen",
+    "i": 1949,
     "min": 3,
     "max": 12,
     "d": "",
     "m": 0,
-    "b": "Yahukimo Regency,Asmat Regency,Bim River,Catalina River",
-    "status": "WAITING"
+    "b": "Phang Nga Province,Phuket Province,Ranong Province,Moken,Andaman Sea,Sea Gypsies,Chao Lay,Thai,Malay,Urak Lawoi,Ko Phra Thong,Khura Buri District,Baang Sak,Paak Wiip,Takua Pa District,Hin Laat,Baan Doon Can,Lam Phi,Thai Mueang District,Phuket Island,Bang Sak,Khuk Khak,Bang Niang,Thung Maphraw,Tha Chat Chai,Moken 2500-3000,Moklen 2500-3000,Phang Nga Province,Ranong Province,Phuket Island,Andaman Sea coast,southern Thailand,Moken Myanmar Thailand,Moklen Thailand only,Urak Lawoi Malayic Phuket Island,Chao Lay Sea Gypsies,Moken Moklen Urak Lawoi,2000-4000 speakers,Severely endangered,Northern Moklen Ko Phra Thong Khura Buri District Baang Sak,Central Moklen Paak Wiip Takua Pa District Hin Laat Baan Doon Can,Southern Moklen Lam Phi Thai Mueang District Phuket Island,Bang Sak Khuk Khak Bang Niang Thung Maphraw Tha Chat Chai,Phang Nga Phuket Ranong Thailand Andaman Sea,Moken Moken-Moklen Proto-Moklenic,Moklenic languages Austronesian Malayo-Polynesian,Moken Myanmar Thailand,Moklen Thailand only,Chao Lay Moken Moklen Urak Lawoi,2000-4000 speakers Severely endangered,Thai Malay Mon Khmer loanwords,2004 tsunami impact,Bangsak Lam Pi villages,Phang Nga Province Phuket Province,Khura Buri Thai Mueang Takua Pa Takua Thung Nong Ya Plong Thalang districts",
+    "status": "COMPLETE"
   },
 
   {
@@ -4613,14 +4602,14 @@ window.oceaniaNameBases = [
   },
 
 {
-    "name": "Morawa",
-    "i": 21097,
+    "name": "Maria",
+    "i": 1949,
     "min": 3,
     "max": 12,
     "d": "",
     "m": 0,
-    "b": "Duramu,Bada-Bada,Iniado,Ganai,Badubadu,Abau Station",
-    "status": "WAITING"
+    "b": "Central Province,Bird's Tail,Gebi,Manubara,1350 people,Doromu-Koki,Manubaran,Southeast Papuan,Central Province,Bird's Tail,Papuan Peninsula,Maria,Gebi,Manubara,Trans-New Guinea,Manubaran,Southeast Papuan,Central Province,Bird's Tail,Papuan Peninsula,1350 speakers,Gebi,Manubara,Doromu-Koki,Southeast Manubaran,2000 speakers,Doromu-Koki New Testament,Central Province,Bird's Tail,Papuan Peninsula,Manubaran languages,Dutton 1970,Maria language pronouns,Manubaran,Trans-New Guinea,Southeast Papuan,1350 people,Central Province,Bird's Tail,Maria,Gebi,Manubara,Manubaran,Trans-New Guinea,Southeast Papuan,Central Province,Bird's Tail,Papua New Guinea",
+    "status": "COMPLETE"
   },
 
   {
@@ -4709,17 +4698,6 @@ window.oceaniaNameBases = [
     "m": 0,
     "b": "Merauke,Mandala,Bokem,Buti,Nasem,Nggolar,Wasur,Bambu Pemali,Kamahedoga,Kamundu,Karang Indah,Kelapa Lima,Maro,Muli,Rimba Jaya,Samkai,Seringgu Jaya,Muting,Andaito,Boha,Efkab Makmur,Enggol Jaya,Kolam,Manway Bop,Pachas,Seed Agung,Selauw,Sigabel Jaya,Wan,Okaba,Alaku,Alatep,Dufmiraf,Es Wambi,Iwol,Makaling,Sanggase,Wambi,Kimaam,Deka,Kalilam,Kiworo,Komolom,Kumbis,Mambum,Purawanderu,Teri,Turiram,Umanderu,Webu,Woner,Semangga,Muram Sari,Kuper,Kuprik",
     "status": "COMPLETE"
-  },
-
-{
-    "name": "Yinjibarndi",
-    "i": 200611,
-    "min": 3,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Roebourne,Ieramugadu,Port Hedland,Karratha,Fortescue River,Millstream,Ngurrawaana,Cheeditha,Old Woolshed,Pilbara,Western Australia,South West Pilbara,Kuruma,Yaburrara,Marthudunera,Banjima,Kariyarra,Ganalili Cultural Centre",
-    "status": "WAITING"
   },
 
   {
@@ -4905,8 +4883,8 @@ window.oceaniaNameBases = [
     "max": 12,
     "d": "",
     "m": 0,
-    "b": "Ranimap,Betianap,Divanap,Tomianap,Oksapmin,Tekin,Gaua,Waulup,Kusanap,Upper Oksapmin,Lower Oksapmin,Tekin Valley,Oksapmin Rural LLG,Telefomin District,Sandaun",
-    "status": "WAITING"
+    "b": "Ranimap,Betianap,Divanap,Tomianap,Oksapmin,Tekin,Gaua,Waulup,Kusanap,Upper Oksapmin,Lower Oksapmin,Tekin Valley,Oksapmin Rural LLG,Telefomin District,Sandaun,Tekin,Bak,Oksapmin stations,Telefol,Tifal,Mian,Urapmin,Faiwol,Bimin,Telefolmin people,Urapmin people,Tifal people,Mian people,Wopkaimin people,Mountain Ok languages,Ngalum,Ninggerum,Setaman,Suganga,Telefol,Tifal,Urap,Yonggom",
+    "status": "COMPLETE"
   },
 
   {
@@ -5159,7 +5137,7 @@ window.oceaniaNameBases = [
     "d": "",
     "m": 0,
     "b": "Budai,Vedrai,Wutai,Taromak,Tunan,Tanan,Danan,Labuan,Laboa,Tawu,Talamakao,Chinye,Wutai Township,Pingtung County,Kaohsiung City,Taitung County,Maolin Township,Maolin,Duona,Kongadavane,Tona,Maga,Teldrɨka,'oponoho,Wanshan,Peinan Township,Mantauran,Maga–Tona,Budai–Tanan,Lower Three Villages",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
 
   {
@@ -5180,8 +5158,8 @@ window.oceaniaNameBases = [
     "max": 12,
     "d": "",
     "m": 0,
-    "b": "Hamersley Range,Pilbara Region,Western Australia,Yandeyarra Station,Yule River,Marble Bar,Tom Price,Paraburdoo,Newman,Port Hedland,Karijini National Park,Ngayarta,Fortescue River,Ashburton River",
-    "status": "WAITING"
+    "b": "Hamersley Range,Pilbara Region,Western Australia,Yandeyarra Station,Yule River,Marble Bar,Tom Price,Paraburdoo,Newman,Port Hedland,Karijini National Park,Ngayarta,Fortescue River,Ashburton River,Wittenoom,Roebourne,Pannawonica,Innawonga Community,Yandeyarra Community,Mugarinya,Yandeyarra pastoral station,Pilbara strike 1946,NDM,Northern Development and Mining,Mugarinya Community Association,Kariyarra,Nyamal,Nyangumarta,Yandeyarra Remote Community School,Nyangumarta language instruction,Yandeyarra Aboriginal Community Court,Cattle husbandry,Mustering,Fencing,Stock management,Pastoral Indigenous Management Support Service,Mount Tambisala,Hamersley Range,Pilbara,Western Australia",
+    "status": "COMPLETE"
   },
 
   {
@@ -5367,8 +5345,8 @@ window.oceaniaNameBases = [
     "max": 12,
     "d": "",
     "m": 0,
-    "b": "Tabare,Guna,Dinga,Gunangi,Kebai,Kere,Kondo,Nimai,Kere Village,Sinasina Valley,Tabare Rural LLG,Chimbu Province,Simbu Province,Mount Wilhelm,Kundiawa,Dinga Village,Gunangi Village,Kebai Village,Kondo Village,Nimai Village",
-    "status": "WAITING"
+    "b": "Tabare,Guna,Dinga,Gunangi,Kebai,Kere,Kondo,Nimai,Kere Village,Sinasina Valley,Tabare Rural LLG,Chimbu Province,Simbu Province,Mount Wilhelm,Kundiawa,Dinga Village,Gunangi Village,Kebai Village,Kondo Village,Nimai Village,Dom,Golin,Bomai,Kuman,Gon,Chimbu Province,Sinasina-Yongomugl,Sinasina-Nimai",
+    "status": "COMPLETE"
   },
 
   {
@@ -5998,15 +5976,15 @@ window.oceaniaNameBases = [
     "status": "COMPLETE"
   },
 
-  {
+{
     "name": "Yagaria",
     "i": 201228,
-    "min": 4,
-    "max": 9,
+    "min": 3,
+    "max": 12,
     "d": "",
     "m": 0,
-    "b": "Higivavi,Oliguti,Kami,Forapi No. 1,Litipinaga,Gotomi,Lufugu,Kiseveroka,Kogoraipa,Daginava,Nupuru",
-    "status": "WAITING"
+    "b": "Higivavi,Oliguti,Kami,Forapi No. 1,Litipinaga,Gotomi,Lufugu,Kiseveroka,Kogoraipa,Daginava,Nupuru,Eastern Highlands Province,Goroka District,Lufa District,Okapa District,Labogai District,Goroka,Yagaria Rural LLG,Mount Michael,Kainantu-Goroka,Gorokan subgroup,Kami-Kulaka dialect,Move dialect,Ologuti dialect,Dagenava dialect,Kamate dialect,Hira dialect,Hua dialect,Kotom dialect,Yagaria Dictionary,Yagaria Grammar,Yagaria New Testament",
+    "status": "COMPLETE"
   },
 
   {
@@ -6082,8 +6060,8 @@ window.oceaniaNameBases = [
     "max": 12,
     "d": "",
     "m": 0,
-    "b": "Tasmania,Hobart,nipaluna,Mount Wellington,kunanyi,Mount Wellington,Mount Wellington,NITV,Tasmanian Museum and Art Gallery,Arthur Pieman Conservation Area,Bass Strait Islands,Tasmanian Aboriginal Centre,Tasmania",
-    "status": "WAITING"
+    "b": "Tasmania,Hobart,nipaluna,Mount Wellington,kunanyi,Mount Wellington,Mount Wellington,NITV,Tasmanian Museum and Art Gallery,Arthur Pieman Conservation Area,Bass Strait Islands,Tasmanian Aboriginal Centre,lutruwita,Tamar River,kanamaluka,Mount Wellington,kunanyi,Narawntapu National Park,Asbestos Range National Park,Tarkine,Takayna,Great Lake,Yingina,Cape Barren Island,Truwana,Bay of Fires,yula2it,Arthur Pieman Conservation Area,pulingina map,250+ place names,Tasmanian Aboriginal Centre,TAC,dual naming policy,palawa kani dictionary",
+    "status": "COMPLETE"
   },
 
   {

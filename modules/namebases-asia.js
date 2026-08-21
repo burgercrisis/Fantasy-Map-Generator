@@ -1036,8 +1036,8 @@ window.asiaNameBases = [
     "max": 13,
     "d": "",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Dandagaun,Mailung,Takhu,Suspa,Alampu,Lapilang,Chokati,Piskar,Dumkot,Dhuskun,Surkhe,Babre,Daduwa",
+    "status": "COMPLETE"
   },
   {
     "name": "Dhimalish",
@@ -1046,8 +1046,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Satnumber Chowk,Mailabari,Ayabari,Badagaun,Arnakhadi,Thulo Arnakhari,Dhulabari,Karikoshi,Matigaun,Matiganu,Urlabari,Belbari,Damak,Gauradaha,Budhabare,Khalpada,Tarabari,Jamujharri,Anarbadi,Topgachi,Balubathan,Dhukurpani,Chakpada,Mangalbare,Hoklabari,Kasene,Bayarbaan,Indrapur,Letang,Kerabari,Haraicha,Mainabari,Bhangbari,Dangihat,Keroun,Bahune,Pathari-Shanishchare,Ketugaburjot,Hatighisha,Maniram,Naxalbari,Budaganj,Phanshidewa",
+    "status": "COMPLETE"
   },
   {
     "name": "Mijiic",
@@ -1229,15 +1229,15 @@ window.asiaNameBases = [
     "b": "Xiaomanmi,Damanmi,Jiangtou Manmi,Manmi,Sanjia",
     "status": "COMPLETE"
   },
-  {
-    "name": "Hu (Angku, Kon Keu)",
+{
+    "name": "Hu (Kongge / Kun'ge / Kon Keu)",
     "i": 1012,
     "min": 4,
     "max": 12,
     "d": "Hu (also Kongge / Kun'ge / Kon Keu) is a language of the Angkuic branch of Austroasiatic (Palaungic), spoken in Yunnan (China) and adjacent northern Myanmar (Shan State).",
     "m": 0,
-    "b": "Na Huipa",
-    "status": "WAITING"
+    "b": "Na Huipa,Na Ban,Man Bang Tang",
+    "status": "COMPLETE"
   },
   {
     "name": "U (Pouma)",
@@ -1247,7 +1247,7 @@ window.asiaNameBases = [
     "d": "U is an Angkuic (Palaungic/Austroasiatic) language (endonym P'uman) of Yunnan and northern Myanmar. The parenthetical 'Pouma' also points to Poumai Naga (Poula, Angami-Pochuri/Sino-Tibetan) of Manipur/Nagaland; the source entry conflates the two real languages. Retained as valid on the U (Angkuic) base.",
     "m": 0,
     "b": "Pengpan,Pangpin,Bangbing,Pã Xep,Paa Xep,Gantang,Hazhai,Avala,Auva",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
   {
     "name": "Babylonian",
@@ -2746,8 +2746,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 1,
-    "b": "",
-    "status": "WAITING"
+    "b": "Grozny,Gudermes,Urus-Martan,Shali,Argun,Achkhoy-Martan,Kurchaloy,Oyskhara,Goyty,Avtury,Vedeno,Itum-Kale,Shatoy,Nozhay-Yurt,Makhkety,Samashki,Assinovskaya,Sharoy,Khulandoy,Kesaloy,Khakmadoy,Chayry,Shikaroy,Khimoy,Buti,Kiri,Veduchi,Sadoy,Khindoy,Buni,Galanchozh,Khaybakh,Nikaroy,Zengali,Benoy-Vedeno,Dyshne-Vedeno,Elistanzhi,Tevzana,Khattuni,Makhkety,Alkhan-Yurt,Alkhazurovo,Gekhi,Goy-Chu,Martan-Chu,Roshni-Chu,Shalazhi,Starye Atagi,Novye Atagi,Bachi-Yurt,Alleroy,Geldagana,Enikali,Akhmat-Yurt,Koshkeldy,Gerzel-Aul,Biltoy-Yurt,Ishkhoy-Yurt,Beno-Yurt,Chechen-Aul,Belgatoy,Selmentauzen",
+    "status": "COMPLETE"
   },
   {
     "name": "Chenchu",
@@ -3006,8 +3006,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Yuzhong,Jiangbei,Shapingba,Jiulongpo,Nan'an,Beibei,Yubei,Banan,Dadukou,Qianjiang,Fuling,Wanzhou,Hechuan,Tongliang,Changshou,Jiangjin,Yongchuan,Nanchuan,Qijiang,Dazu,Bishan,Tongnan,Rongchang,Kaizhou,Liangping,Wulong,Pengshui,Xiushan,Youyang,Shizhu",
+    "status": "COMPLETE"
   },
   {
     "name": "Chukotkan",
@@ -3017,7 +3017,7 @@ window.asiaNameBases = [
     "d": "",
     "m": 0,
     "b": "Anadyr,Lavrentiya,Uelen,Lorino,Provideniya,Egvekinot,Bilibino,Kanchalan",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
   {
     "name": "Chukotko-Kamchatkan",
@@ -3046,18 +3046,18 @@ window.asiaNameBases = [
     "max": 15,
     "d": "",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Anadyrsk,Markovo,Yeropol,Ust-Belaya,Chuvanskoye",
+    "status": "COMPLETE"
   },
-  {
+{
     "name": "Cilician Arabic",
     "i": 1614,
     "min": 4,
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Adana,Mersin,Tarsus,Antakya",
-    "status": "WAITING"
+    "b": "Antakya,Iskenderun,Samandag,Dortyol,Kirikhan,Defne,Altinozu,Il-Gilli,Tekebasi,Dursunlu,Adana,Tarsus,Mersin,Karatas,Kucuk Karatas,Bahce,Kazanli,Karacailyas,Karayusuflu,Kokluce,Cagimlar,Akkapi,Karahan,Yuregir,Seyhan",
+    "status": "COMPLETE"
   },
   {
     "name": "Circassian",

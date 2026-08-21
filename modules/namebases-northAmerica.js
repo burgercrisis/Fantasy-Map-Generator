@@ -2071,18 +2071,18 @@ window.northAmericaNameBases = [
     "name": "Louisiana Creole",
     "i": 201362,
     "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "New Orleans,Baton Rouge,Lafayette,Shreveport,Natchitoches,Opelousas,Houma,Thibodaux,Marksville,Grand Coteau,Martin,St. Francisville,St. Martinville,Plaquemine,Clinton,Bogalusa,Amite,Mandeville,Covington,Slidell,Belle Chasse,Gretna,Harahan,Kenner,Metairie,Tallulah,Monroe,Minden,Vermilionville,Breaux Bridge,Donaldsonville,Napoleonville,Franklinton"
+    "max": 14,
+    "d": "lnrs",
+    "m": 0.19,
+    "b": "New Orleans,Lafayette,Natchitoches,Opelousas,Houma,Marksville,Grand Coteau,Martin,St. Martinville,Plaquemine,Mandeville,Covington,Slidell,Belle Chasse,Gretna,Harahan,Kenner,Metairie,Vermilionville,Breaux Bridge,Donaldsonville,New Roads,Parks,Cecilia,Vacherie,Edgard,Lacombe,Morganza,Gonzales,Schriever,Buras,Westwego"
   },
   {
     "name": "Saint Lucian Creole",
     "i": 201363,
     "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Castries,Gros Islet,Micoud,Vieux Fort,Soufrière,Anse La Raye,Laborie,Choiseul,Dennery,Praslin,Mon Repos,Chassin,Bexon,Cacoa,Fond St. Jacques,Ti Rocher,Monchy,La Clery,Babonneau,Cap Estate,Canaries,Desruisseaux,Grande Ravine,Mongouge,Les Trois Piton,Quatre Chemins,Tete Chemin,Au Leon,Pomme,River Doree,View Fort,Marigot Bay"
+    "max": 12,
+    "d": "lnrs",
+    "m": 0.29,
+    "b": "Castries,Gros Islet,Micoud,Vieux Fort,Soufrière,Anse La Raye,Laborie,Choiseul,Dennery,Praslin,Mon Repos,Chassin,Bexon,Cacoa,Fond St. Jacques,Ti Rocher,Monchy,La Clery,Babonneau,Cap Estate,Canaries,Desruisseaux,Grande Ravine,Mongouge,Les Trois Piton,Quatre Chemins,Tete Chemin,Au Leon,Pomme,River Doree,Marigot Bay"
   }
 ];

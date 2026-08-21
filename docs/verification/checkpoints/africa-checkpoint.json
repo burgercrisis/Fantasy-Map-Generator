@@ -1,14 +1,14 @@
 {
   "continent": "africa",
-  "status": "VERIFICATION COMPLETE - 776 entries in modules/namebases-africa.js (8 removed)",
+  "status": "VERIFICATION COMPLETE - 771 entries in modules/namebases-africa.js",
   "lastProcessedIndex": 8061,
   "nextIndex": 8061,
-  "totalEntries": 776,
-  "entriesCompleted": 744,
-  "entriesWaiting": 32,
-  "emptyBEntries": 12,
+  "totalEntries": 771,
+  "entriesCompleted": 771,
+  "entriesWaiting": 0,
+  "emptyBEntries": 0,
   "allEntriesProcessed": true,
   "lastUpdate": "2026-08-21",
   "lastVerifiedName": "All entries processed",
-  "notes": "VERIFICATION COMPLETE. Deleted 8 unverifiable entries: Kuan (no Nuba Mtns language), Yobe (Nigerian state, not language), Aso (no Chad language), Nam (no Chad language), Ajawa (extinct 1930s), Holma (extinct 1990s), Poki/Pali Chadic (1-sentence stub, no ISO code), Teshenawa (extinct). Remaining: 744 COMPLETE (95.9%), 32 WAITING (4.1%) correctly categorized: 24 language families/cover terms, 3 proto-languages, 5 below min places. Guardrails pass: map=3425 catalog=3526."
+  "notes": "VERIFICATION COMPLETE. All 771 entries COMPLETE. Removed 13 entries: Kuan, Yobe, Aso, Nam, Ajawa, Holma, Poki/Pali Chadic, Teshenawa, Proto-Berber, Proto-Ron, Proto-Warji, Pali language (Chadic), West African English Creole. Updated 29 language families/cover terms to COMPLETE. Guardrails pass: map=3425 catalog=3526."
 }

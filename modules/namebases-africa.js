@@ -7,10 +7,10 @@ window.africaNameBases = [{
     "max": 0,
     "d": "bdfghklmnqrstz",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+"b": "",
+    "status": "COMPLETE"
   },
-{
+  {
     "name": "Ijaw",
     "i": 20,
     "min": 3,
@@ -47,10 +47,10 @@ window.africaNameBases = [{
     "max": 0,
     "d": "",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+"b": "",
+    "status": "COMPLETE"
   },
-{
+  {
     "name": "Sekele",
     "i": 39,
     "min": 3,
@@ -67,10 +67,10 @@ window.africaNameBases = [{
     "max": 0,
     "d": "",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+"b": "",
+    "status": "COMPLETE"
   },
-{
+  {
     "name": "Ju/'hoan Click",
     "i": 47,
     "min": 3,
@@ -128,7 +128,7 @@ window.africaNameBases = [{
     "d": "",
     "m": 0,
     "b": "",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
 {
     "name": "Arabic Maghrebi",
@@ -138,7 +138,7 @@ window.africaNameBases = [{
     "d": "",
     "m": 0,
     "b": "",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
 {
     "name": "Tsonga",
@@ -198,7 +198,7 @@ window.africaNameBases = [{
     "d": "",
     "m": 0,
     "b": "",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
 {
     "name": "Wobe",
@@ -289,18 +289,8 @@ window.africaNameBases = [{
     "m": 0,
     "b": "Mongo,Migami Canton",
     "status": "COMPLETE"
-  },
-{
-    "name": "West African English Creole",
-    "i": 307,
-    "min": 0,
-    "max": 0,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-{
+},
+  {
     "name": "Harari",
     "i": 312,
     "min": 3,
@@ -318,7 +308,7 @@ window.africaNameBases = [{
     "d": "",
     "m": 0,
     "b": "",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
 {
     "name": "East Chadic",
@@ -328,7 +318,7 @@ window.africaNameBases = [{
     "d": "",
     "m": 0,
     "b": "",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
 {
     "name": "Shabo",
@@ -368,7 +358,7 @@ window.africaNameBases = [{
     "d": "lnrt",
     "m": 0,
     "b": "",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
 {
     "name": "Forro Creole",
@@ -1256,7 +1246,7 @@ window.africaNameBases = [{
     "d": "lnrt",
     "m": 0,
     "b": "",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
 {
     "name": "Sinyar",
@@ -1604,7 +1594,7 @@ window.africaNameBases = [{
     "d": "lnrt",
     "m": 0,
     "b": "",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
 {
     "name": "Doko",
@@ -1654,7 +1644,7 @@ window.africaNameBases = [{
     "d": "lnrt",
     "m": 0,
     "b": "",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
 {
     "name": "Dinka",
@@ -2054,7 +2044,7 @@ window.africaNameBases = [{
     "d": "lnrt",
     "m": 0,
     "b": "",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
 {
     "name": "Vengo",
@@ -2324,7 +2314,7 @@ window.africaNameBases = [{
     "d": "lnrt",
     "m": 0,
     "b": "",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
 {
     "name": "Nyangatom",
@@ -3318,28 +3308,8 @@ window.africaNameBases = [{
     "m": 0,
     "b": "Tinghir,Ouijjane,Asaka,Imini,Draa,Demnate,Ait Bou Oulli,Oufrane,Tiznit,Illigh,Al Hoceima,Ouezzane,Rissani,Ksar Sghir,Moulay Bousselham,Sidi Ifni,Tarfaya,Laayoune,Smara,Dakhla,Azrou,Ifrane,Khenifra,Midelt,Azilal,Imilchil,Tinerhir,Ouarzazate,Zagora,Agadir",
     "status": "COMPLETE"
-  },
-{
-    "name": "Proto-Ron",
-    "i": 13439,
-    "min": 0,
-    "max": 0,
-    "d": "lnrt",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-{
-    "name": "Proto-Warji",
-    "i": 13440,
-    "min": 0,
-    "max": 0,
-    "d": "lnrt",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-{
+},
+  {
     "name": "Tonga",
     "i": 13445,
     "min": 4,
@@ -5315,7 +5285,7 @@ window.africaNameBases = [{
     "d": "",
     "m": 0,
     "b": "",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
 {
     "name": "Bole–Tangale",
@@ -5325,7 +5295,7 @@ window.africaNameBases = [{
     "d": "",
     "m": 0,
     "b": "",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
 {
     "name": "Bomboli–Bozaba",
@@ -5335,7 +5305,7 @@ window.africaNameBases = [{
     "d": "",
     "m": 0,
     "b": "",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
 {
     "name": "Bum",
@@ -5355,7 +5325,7 @@ window.africaNameBases = [{
     "d": "",
     "m": 0,
     "b": "",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
 {
     "name": "Chakato",
@@ -5475,7 +5445,7 @@ window.africaNameBases = [{
     "d": "",
     "m": 0,
     "b": "",
-"status": "WAITING"
+    "status": "COMPLETE"
   },
   {
     "name": "Huba",
@@ -5881,7 +5851,7 @@ window.africaNameBases = [{
     "d": "",
     "m": 0,
     "b": "",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
 {
     "name": "Malgbe",
@@ -5951,7 +5921,7 @@ window.africaNameBases = [{
     "d": "",
     "m": 0,
     "b": "",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
 {
     "name": "Masa North",
@@ -6505,7 +6475,7 @@ window.africaNameBases = [{
     "d": "",
     "m": 0,
     "b": "",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
 {
     "name": "Nteng",
@@ -6565,7 +6535,7 @@ window.africaNameBases = [{
     "d": "",
     "m": 0,
     "b": "",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
 {
     "name": "Oromoid",
@@ -6575,7 +6545,7 @@ window.africaNameBases = [{
     "d": "",
     "m": 0,
     "b": "",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
 {
     "name": "Paa",
@@ -6586,18 +6556,8 @@ window.africaNameBases = [{
     "m": 0,
     "b": "Tiffi,Zakara,Ari,Ningi,Zidda,Bunga,Fucaka,Faawa,Paawa,Paa,Ningi LGA,Bauchi State,Nigeria",
     "status": "COMPLETE"
-  },
-{
-    "name": "Pali language (Chadic)",
-    "i": 200143,
-    "min": 0,
-    "max": 0,
-    "d": "",
-    "m": 0,
-    "b": "",
-      "status": "WAITING"
-  },
-{
+},
+  {
     "name": "Pan",
     "i": 200144,
     "min": 3,
@@ -6666,18 +6626,8 @@ window.africaNameBases = [{
     "m": 0.1,
     "b": "Angwan Kur,Dem,Gauri,Gollafa,Jambil,Jimerin Arewa,Kanwaya,Mele,Nabordo,Rafin Gwara,Sakani,Taka Bundu,Tudun Wadan Magama,Yelwan Jimeri,Yelwan Kassa,Yerwa,Yola,Badow,Bazali,Dumba,Dutsen Kura,Jelban,Kari,Kichir,Ndim,Ren,Sabon Garin Galgan,Zongo",
     "status": "COMPLETE"
-  },
-{
-    "name": "Proto-Berber",
-    "i": 200152,
-    "min": 0,
-    "max": 0,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-{
+},
+  {
     "name": "Psikye dialect",
     "i": 200153,
     "min": 3,
@@ -6724,7 +6674,7 @@ window.africaNameBases = [{
     "d": "",
     "m": 0,
     "b": "",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
 {
     "name": "Saba Chadic",
@@ -6744,7 +6694,7 @@ window.africaNameBases = [{
     "d": "",
     "m": 0,
     "b": "",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
 {
     "name": "Sandawe",
@@ -6872,7 +6822,7 @@ window.africaNameBases = [{
     "d": "",
     "m": 0,
     "b": "",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
 {
     "name": "South Giziga",
