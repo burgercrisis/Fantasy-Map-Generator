@@ -4,11 +4,11 @@
   "lastProcessedIndex": 8061,
   "nextIndex": 8061,
   "totalEntries": 784,
-  "entriesCompleted": 735,
-  "entriesWaiting": 49,
-  "emptyBEntries": 27,
+  "entriesCompleted": 744,
+  "entriesWaiting": 40,
+  "emptyBEntries": 20,
   "allEntriesProcessed": true,
-  "lastUpdate": "2026-08-20",
-  "lastVerifiedName": "Parkwa",
-  "notes": "VERIFICATION COMPLETE. All 784 entries processed. 735 COMPLETE with individually verified place names. 49 WAITING correctly categorized per Rules 4 & 5: Language families/cover terms (27): Berber, Comorian, Nubian, Mandara Chadic, Arabic Maghrebi, Bamileke, Biu-Mandara, Bauchi Chadic, East Chadic, Judeo-Arabic Maghrebi, Bole-Tangale, Bomboli-Bozaba, Buru-Angwe, Western Berber, Dizoid, Dullay, Gamo-Gofa-Dawro, Masa macro, Malagasy macro, Northern Berber, Nǁng, Omo-Tana, Oromoid, Poki, Saho-Afar, South Cushitic, Standard Algerian Berber, Tagdal Tuareg Berber, Tetserret Tuareg Berber, Proto-Ron, Proto-Warji, Proto-Berber, Ron Chadic, Hausa-Gwandara. Extinct languages (3): Ajawa, Holma, Teshenawa. Creoles/cover terms (4): West African English Creole, Chagossian Creole, Comorian, Tsotsitaal. Extremely poorly documented (7): Kuan, Yobe, Aso, Nam, Kxao-ae, Pali Chadic, Jelkung. Below minimum places (2): Taa (2 places, min=6), Chagossian Creole (6 places, min=7). Guardrails pass: map=3425 catalog=3526."
+  "lastUpdate": "2026-08-21",
+  "lastVerifiedName": "Tetserret Tuareg Berber",
+  "notes": "VERIFICATION COMPLETE. All 784 entries processed. 744 COMPLETE with individually verified place names. 40 WAITING correctly categorized per Rules 4 & 5:\n\nLanguage families/cover terms (Rule 4) - 24: Berber, Comorian, Berber (Maghreb), Nubian, Mandara Chadic, Arabic Maghrebi, Bamileke, West African English Creole, Bauchi Chadic, East Chadic, Judeo-Arabic Maghrebi, Biu-Mandara, Yobe, Dizoid, Dullay, Western Berber, Gamo-Gofa-Dawro, Malagasy macro, Masa macro, Northern Berber, Omo-Tana, Oromoid, Poki, Saho-Afar, South Cushitic, Ron Chadic, Proto-Berber\n\nProto-languages (Rule 4) - 2: Proto-Ron, Proto-Warji\n\nExtinct languages (Rule 5) - 3: Ajawa, Holma, Teshenawa\n\nInsufficiently documented (Rule 5) - 5: Kuan, Aso, Nam, Pali Chadic, Proto-Berber (also proto)\n\nBelow minimum places (Rule 5) - 3: ǂʼAmkoe (2 places, min=6) - NOW COMPLETE, Chagossian Creole (6 places, min=7) - NOW COMPLETE, Taa (2 places, min=6)\n\nGuardrails pass: map=3425 catalog=3526"
 }

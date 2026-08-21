@@ -33,12 +33,12 @@ window.africaNameBases = [{
 {
     "name": "Comorian",
     "i": 91,
-    "min": 0,
-    "max": 0,
-    "d": "",
+    "min": 3,
+    "max": 12,
+    "d": "lnrt",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Moroni,Mutsamudu,Fomboni,Domoni,Ouani,Mandza,Iconi,Mitsoudjé,Singani,Dembéni,Foumbouni,Mohoro,Koimbani,Mbéni,Hantsindzi,Mitsamiouli,Ntsaouéni,Ntsoudjini,Sima,Mirontsi,Koki,Tsimbeo,Mrémani,Mramani,Moya,Wanani,Nioumachoua,Tsidje",
+    "status": "COMPLETE"
   },
 {
     "name": "Berber (Maghreb)",
@@ -2588,12 +2588,12 @@ window.africaNameBases = [{
 {
     "name": "Kxao-ae",
     "i": 5374,
-    "min": 0,
-    "max": 0,
+    "min": 3,
+    "max": 14,
     "d": "",
     "m": 0.1,
-    "b": "",
-      "status": "WAITING"
+    "b": "Grootelaagte,East Hanahai,Kanagas,Ghanzi,Gobabis,Otjinene,Eiseb,Tsumkwe,Epukiro,Omatako,Rundu,Khwai,Maun",
+    "status": "COMPLETE"
   },
 {
     "name": "Zarma",
@@ -5570,12 +5570,12 @@ window.africaNameBases = [{
 {
     "name": "Jelkung",
     "i": 200033,
-    "min": 5,
-    "max": 8,
+    "min": 3,
+    "max": 12,
     "d": "s",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Doutoum,Kolou,Panchila,Djibi,Nyame,Essiya,Jalgi,Melfi,Gili,Komi,Balili,Baraïn",
+    "status": "COMPLETE"
   },
 {
     "name": "Jibyal",
@@ -6977,12 +6977,12 @@ window.africaNameBases = [{
 {
     "name": "Standard Algerian Berber",
     "i": 200176,
-    "min": 0,
-    "max": 0,
+    "min": 3,
+    "max": 15,
     "d": "",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Tizi Ouzou,Bejaia,Bouira,Boumerdes,Setif,Bordj Bou Arreridj,Jijel,Algiers,Blida,Medea,Tipaza,Ain Defla,Chlef,Relizane,Oran,Ain Temouchent,Sidi Bel Abbes,Tlemcen,Naama,Saida,El Bayadh,Ghardaia,Ouargla,Illizi,Tamanrasset,Adrar,Bechar,Tindouf",
+    "status": "COMPLETE"
   },
 {
     "name": "Standard Moroccan Amazigh",
@@ -7017,12 +7017,12 @@ window.africaNameBases = [{
 {
     "name": "Tagdal Tuareg Berber",
     "i": 200180,
-    "min": 0,
-    "max": 0,
+    "min": 3,
+    "max": 14,
     "d": "",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Abalak,Tahoua,Agadez,Arlit,In-Gall,Tamaya,Tiguirwit,Tabalak,Tabelot,Abargan,Kel Amdid,Kel Illokoḍ,Ibaroogan,Zinder,Maradi,Niamey,Goure,Kolo,TulaNaga",
+    "status": "COMPLETE"
   },
 {
     "name": "Tal",
@@ -7135,12 +7135,12 @@ window.africaNameBases = [{
 {
     "name": "Tetserret Tuareg Berber",
     "i": 200192,
-    "min": 0,
-    "max": 0,
+    "min": 3,
+    "max": 12,
     "d": "",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Akoubounou,Shadwanka,Abalak,Tahoua,Agadez,Azawagh,Aït Attawari Seslem,Kel Eghlal n'Ennigger",
+    "status": "COMPLETE"
   },
 {
     "name": "Tikar",
@@ -7205,12 +7205,12 @@ window.africaNameBases = [{
 {
     "name": "Tsotsitaal and Camtho, aka Iscamtho",
     "i": 200199,
-    "min": 0,
-    "max": 0,
+    "min": 3,
+    "max": 18,
     "d": "",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Soweto,Alexandra,Tembisa,Katlehong,Vosloorus,Thokoza,Diepkloof,Meadowlands,Chiawelo,Zola,Jabulani,Naledi,Moletsane,Orlando,Pimville,Dube,Rockville,Mofolo,Senaoane,Phiri,Dlamini,Emndeni,Tladi,Zondi,Mapetla,White City,Moroka,Nancefield,Dlamini,Chiawelo,Protea Glen,Klipspruit,Freedom Park",
+    "status": "COMPLETE"
   },
 {
     "name": "Tsuvan",
@@ -7514,12 +7514,12 @@ window.africaNameBases = [{
 {
     "name": "ǂʼAmkoe",
     "i": 200230,
-    "min": 6,
+    "min": 3,
     "max": 12,
     "d": "",
     "m": 0,
-    "b": "Motokwe,Dutlwe",
-      "status": "WAITING"
+    "b": "Motokwe,Khekhenye,Tswane,Dutlwe,Salajwe,Mathibatsela,Shorilatholo,Mokgenene,Poloka,Dibete",
+    "status": "COMPLETE"
   },
 {
     "name": "Forro Creole",
@@ -7564,12 +7564,12 @@ window.africaNameBases = [{
 {
     "name": "Chagossian Creole",
     "i": 200900,
-    "min": 7,
+    "min": 3,
     "max": 18,
     "d": "",
     "m": 0,
-    "b": "Diego Garcia,Peros Banhos,Salomon,Île Boddam,Île Anglaise,Île du Coin",
-      "status": "WAITING"
+    "b": "Diego Garcia,Peros Banhos,Salomon,Île Boddam,Île Anglaise,Île du Coin,Île de la Passe,Île Poule,Île Mapou,Île Yeye,Île Longue,Île du Milieu,Île Ronde,Île Fouquet,Île de la Mare,Île Diable,Île aux Cocos",
+    "status": "COMPLETE"
   },
 {
     "name": "Mauritian Creole",

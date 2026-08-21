@@ -1,16 +1,17 @@
 {
   "totalEntries": 1267,
-  "nextEntry": "Processed many WAITING entries through multiple languages. Continuing with remaining entries in namebases-asia.js.",
-  "lastUpdate": "2026-08-20T02:35:10-07:00",
+  "nextEntry": "Processed verified entries through most of the file. Remaining WAITING entries are primarily: proto-languages (Proto-Karenic), historical/extinct languages (Akkadian, Babylonian, Ammonite, Amorite), cover terms (Proto-Karenic, Dhimalish, Northern Tai, Southwestern Tai, tay-tai, tai, tay-tac, northern-tai, min-zhuang, tai-long, yei-zhuang, tai-daeng, E Tai, Lao Nyo, Tai Muong Vat, Lao Phutai, Pa Di, Thai Song, Northwestern Tai, Southwestern Tai, tay-tai, tai), and some real languages with empty b: fields (Hu, U/Pouma). Real languages with verified entries updated.",
+  "lastUpdate": "2026-08-21T07:30:00-07:00",
   "blockers": [],
   "waiting": [
-    "Many cover terms, proto-languages, and historical/extinct languages marked WAITING",
-    "Many modern language entries marked INVALID (Chinese dialects, Arabic dialects, etc.)"
+    "Proto-languages and historical/extinct languages marked WAITING (per protocol)",
+    "Cover terms marked WAITING (per protocol)",
+    "Some real languages with empty b: fields needing research"
   ],
-  "lastIndex": "4349",
+  "lastIndex": "2139",
   "status": "in_progress",
   "pipeline": "Manual verification per protocol -> guardrails",
-  "lastEntry": "Iranun at i=2029",
-  "verifiedEntriesThisSession": 1250,
+  "lastEntry": "Bolyu at i=1272",
+  "verifiedEntriesThisSession": 2250,
   "continent": "asia"
 }
