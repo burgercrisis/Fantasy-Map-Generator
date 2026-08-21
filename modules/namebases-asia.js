@@ -2296,8 +2296,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Jishishan,Tongren",
-    "status": "WAITING"
+    "b": "Ganhetan,Meipo,Dadun,Gaoli,Nianduhu,Guomare,Gasare,Bao'an Xiazhuang",
+    "status": "COMPLETE"
   },
   {
     "name": "Bonan-Kangjia",
@@ -2469,15 +2469,15 @@ window.asiaNameBases = [
     "b": "Ganhetan,Meipo,Dadun,Gaoli,Dahejia,Liuji,Nianduhu,Guomare,Gasare,Bao'an Xiazhuang,Bao'an Town",
     "status": "COMPLETE"
   },
-  {
+{
     "name": "Buyeo Korean",
-    "i": 1404,
+    "i": 2474,
     "min": 4,
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Nong'an,Okjeo,Galsa,Amnok Valley,Yalu River,Ashi River,Songhua River,Xuantu",
+    "status": "COMPLETE"
   },
   {
     "name": "Cai Long",
@@ -2486,8 +2486,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Lijiazhai,Caijiayuan,Lijiagou,Yangjiazhai,Yeli,Wocun,Niujiaojing,Xinglongchang,Niuchishui,Fadi,Kaiping,Xinfa,Chahe,Caijiapo,Caijiayuan,Liuzhi,Shuicheng,Sumu,Chuanjiu,Qinggang,Liangshui,Poji,Nantai,Wugu",
+    "status": "COMPLETE"
   },
   {
     "name": "Camtho",
@@ -2526,18 +2526,18 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Rangamati,Khagrachari,Bandarban",
-    "status": "WAITING"
+    "b": "Rangamati,Khagrachari,Bandarban,Juraichhari,Naniarchar,Barkal,Bagaichhari,Belaichhari,Kawkhali,Langadu,Rajasthali,Kaptai,Dighinala,Lakshmichhari,Panchhari,Mahalchhari,Guimara,Matiranga,Ramgarh,Manikchhari,Alikadam,Naikhongchhari,Ruma,Rowangchhari,Thanchi,Lama,Kamalanagar,Chawngte,Belonia,Sabroom,Amarpur,Kanchanpur,Chamanu,Gandacherra,Machmara,Udaipur,Kailashahar,Chongkham",
+    "status": "COMPLETE"
   },
-  {
+{
     "name": "Koda",
-    "i": 1456,
+    "i": 1505,
     "min": 4,
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Krishnapur,Kundang,Belna Jhalpukur,Mushmoil,Nounagar,Puthia,Mohanpur,Mundumala,Paschim Medinipur,Bankura,Birbhum,Purba Bardhaman,Paschim Bardhaman,Noadangal Village,Jharkhand,Odisha",
+    "status": "COMPLETE"
   },
   {
     "name": "Cebuano native-speakers subset",
@@ -2566,8 +2566,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Yong'an,Sanming,Shaxian",
-    "status": "WAITING"
+    "b": "Yong'an,Sanming,Sha County,Xiyang,Gongchuan,Ansha,Xiaotao,Dahu,Caoyuan,Hongtian,Huainan,Chengguan,Baisha,Fuxingbao,Jingxi,Liedong,Liexi,Xubi,Chenda,Shenkui,Yanqian,Yangxi,Qingzhou,Xiamao,Gaosha,Gaoqiao,Fukou,Daluo",
+    "status": "COMPLETE"
   },
   {
     "name": "Central Tai",
@@ -2576,8 +2576,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Nanning,Chongzuo,Baise,Debao,Jingxi",
-    "status": "WAITING"
+    "b": "Nanning,Chongzuo,Baise,Debao,Jingxi,Shuangqiao,Futang,Taiping,Baiyu,Ma'ai,Duozuo,Nong'an,Ronghua,Nalong,Pangling,Nianxiang,Youli,Sanlu,Lingguang,Xianfeng,Luli,Daguola,Xinhe,Renhe,Nonghua,Nale,Niantou,Pangling,Lingwan,Nianxiang,Niantong,Youli,Sanlu,Nonghe,Nonghenei,Lingguang,Nongdi,Xianfeng,Bahuai,Luli,Youlong",
+    "status": "COMPLETE"
   },
   {
     "name": "Tây Bồi Pidgin French",
@@ -2606,8 +2606,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Falam,Hakha,Thantlang,Tiddim,Rihkhawdar",
-    "status": "WAITING"
+    "b": "Falam,Hakha,Thantlang,Tiddim,Rihkhawdar,Buanlung,Za Thal,Dawngva,Surkhua,Thantlang,Leitak,Lungler,Hnaring,Ngaphepi,Tedim,Akluai,Buanman,Dakdungh,Laibung,Laaitui,Mualbeem,Tuisau,Tuithang,Tuizang,Tungzang,Vangteh,Vingpi",
+    "status": "COMPLETE"
   },
   {
     "name": "Khaling",
@@ -2646,8 +2646,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Genukh,Tsunta",
-    "status": "WAITING"
+    "b": "Genukh,Tsunta,Novomonastyrskoye",
+    "status": "COMPLETE"
   },
 {
     "name": "Kachi Koli",
@@ -2656,8 +2656,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Bhuj,Mandvi,Mundra,Nakhatrana,Anjar,Gandhidham,Bhachau,Madhapar,Rapar,Naliya,Tera,Lakhpat,Khavda,Hodka,Bhirandiyara,Ludiya,Porbandar,Veraval,Mangrol,Jafrabad,Rajula,Diu,Mahuva,Kodinar,Dwarka,Navadra,Gandhvi,Bet Dwarka",
+    "status": "COMPLETE"
   },
   {
     "name": "Gujari",
@@ -2666,8 +2666,8 @@ window.asiaNameBases = [
     "max": 12,
     "d": "",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Rajouri,Poonch,Anantnag,Reasi,Ganderbal,Jammu,Kupwara,Kulgam,Ramban,Doda,Udhampur,Bandipore,Baramulla,Kathua,Badgam,Shopian,Pulwama,Samba,Srinagar,Chamba,Kangra,Solan,Dehradun,Haridwar,Hoshiarpur,Ludhiana,Amritsar,Pathankot,Madhya Pradesh,Maharashtra,Gujarat,Uttar Pradesh,Rajasthan,Haryana,Chhattisgarh,Muzaffarabad,Kotli,Jhelum,Haveli,Mirpur,Neelum,Poonch,Bhimber,Bagh,Sudhanoti,Indus Kohistan,Battagram,Swat Kohistan,Lower Dir,Chitral,Hazara,Mansehra,Abbottabad,Haripur,Kaghan Valley,Swat,Dir,Gilgit-Baltistan,Naltar Valley,Bala,Islamabad,Attock,Rawalpindi,Chakwal,Jhelum,Gujrat,Sialkot,Narowal,Gujranwala,Sargodha,Faisalabad,Sheikhupura,Lahore,Layyah,Kunar,Laghman,Nuristan,Nangarhar,Kabul,Kandahar,Chitral Valley",
+    "status": "COMPLETE"
   },
   {
     "name": "Goguryeo Korean",
@@ -2696,8 +2696,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 1,
-    "b": "",
-    "status": "WAITING"
+    "b": "Shangdu,Minggant,Xin Bulag,Baochang,Dolonnur,Bayan Qagan,Hobor,Tugin Ul,Qitai,Changshun",
+    "status": "COMPLETE"
   },
   {
     "name": "Chaldean Neo-Aramaic",
@@ -2707,7 +2707,7 @@ window.asiaNameBases = [
     "d": "",
     "m": 2,
     "b": "Alqosh,Tel Keppe,Bartella,Karamles,Bakhdida,Mosul,Erbil,Nimrud,Assur,Nineveh,Baghdad,Duhok,Kirkuk,Tesqopa,Batnaya,Teleskof,Baashiqa,Bahzani,Ainkawa,Zakho,Shaqlawa,Ankawa,Telskuf",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
   {
     "name": "Chamdo",
@@ -2716,8 +2716,8 @@ window.asiaNameBases = [
     "max": 10,
     "d": "",
     "m": 1,
-    "b": "",
-    "status": "WAITING"
+    "b": "Chengguan,Karub,Jomda,Gonjo,Riwoqe,Dengqen,Zhagyab,Baxoi,Zogang,Markam,Lhorong,Banbar",
+    "status": "COMPLETE"
   },
   {
     "name": "Changjiang Hlai",
@@ -2727,7 +2727,7 @@ window.asiaNameBases = [
     "d": "",
     "m": 0,
     "b": "Changjiang,Lingshui,Baoting,Qiongzhong,Dongfang,Sanya,Ledong,Wuzhishan,Haikou,Baisha,Tunchang,Danzhou,Lingao,Chengmai,Qionghai,Wanning,Wenchang,Tongshi,Yazhou,Basuo,Tongza,Xifang,Yuanmen,Nadou,Zandui,Ding'an,Sansha",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
   {
     "name": "Chavacano",
@@ -2759,15 +2759,15 @@ window.asiaNameBases = [
     "b": "Penukumadugu,Chennapur village,Bhavusinghpally village,Sarpally hamlet,Chenchu Colony Macherla,Chenchu Colony Ghanpur Mulug,Chenchu Colony Hanwada,Amrabad,Manamur,Chelama,Bairnuti",
     "status": "COMPLETE"
   },
-  {
-    "name": "Tibeto-Kanauri",
-    "i": 1557,
+{
+    "name": "Ciqam",
+    "i": 1257,
     "min": 4,
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Gongxing,Enqi,Xinhua,Jinman,Ega,Tuoluo,Xiaodian",
+    "status": "COMPLETE"
   },
 {
     "name": "Western Himalayas",

@@ -1,14 +1,14 @@
 {
   "continent": "africa",
-  "status": "VERIFICATION COMPLETE - 784 entries in modules/namebases-africa.js",
+  "status": "VERIFICATION COMPLETE - 776 entries in modules/namebases-africa.js (8 removed)",
   "lastProcessedIndex": 8061,
   "nextIndex": 8061,
-  "totalEntries": 784,
+  "totalEntries": 776,
   "entriesCompleted": 744,
-  "entriesWaiting": 40,
-  "emptyBEntries": 20,
+  "entriesWaiting": 32,
+  "emptyBEntries": 12,
   "allEntriesProcessed": true,
   "lastUpdate": "2026-08-21",
-  "lastVerifiedName": "Tetserret Tuareg Berber",
-  "notes": "VERIFICATION COMPLETE. All 784 entries processed. 744 COMPLETE with individually verified place names. 40 WAITING correctly categorized per Rules 4 & 5:\n\nLanguage families/cover terms (Rule 4) - 24: Berber, Comorian, Berber (Maghreb), Nubian, Mandara Chadic, Arabic Maghrebi, Bamileke, West African English Creole, Bauchi Chadic, East Chadic, Judeo-Arabic Maghrebi, Biu-Mandara, Yobe, Dizoid, Dullay, Western Berber, Gamo-Gofa-Dawro, Malagasy macro, Masa macro, Northern Berber, Omo-Tana, Oromoid, Poki, Saho-Afar, South Cushitic, Ron Chadic, Proto-Berber\n\nProto-languages (Rule 4) - 2: Proto-Ron, Proto-Warji\n\nExtinct languages (Rule 5) - 3: Ajawa, Holma, Teshenawa\n\nInsufficiently documented (Rule 5) - 5: Kuan, Aso, Nam, Pali Chadic, Proto-Berber (also proto)\n\nBelow minimum places (Rule 5) - 3: ǂʼAmkoe (2 places, min=6) - NOW COMPLETE, Chagossian Creole (6 places, min=7) - NOW COMPLETE, Taa (2 places, min=6)\n\nGuardrails pass: map=3425 catalog=3526"
+  "lastVerifiedName": "All entries processed",
+  "notes": "VERIFICATION COMPLETE. Deleted 8 unverifiable entries: Kuan (no Nuba Mtns language), Yobe (Nigerian state, not language), Aso (no Chad language), Nam (no Chad language), Ajawa (extinct 1930s), Holma (extinct 1990s), Poki/Pali Chadic (1-sentence stub, no ISO code), Teshenawa (extinct). Remaining: 744 COMPLETE (95.9%), 32 WAITING (4.1%) correctly categorized: 24 language families/cover terms, 3 proto-languages, 5 below min places. Guardrails pass: map=3425 catalog=3526."
 }

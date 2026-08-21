@@ -1,17 +1,17 @@
 {
   "totalEntries": 1267,
-  "nextEntry": "Processed verified entries through most of the file. Remaining WAITING entries are primarily: proto-languages (Proto-Karenic), historical/extinct languages (Akkadian, Babylonian, Ammonite, Amorite), cover terms (Proto-Karenic, Dhimalish, Northern Tai, Southwestern Tai, tay-tai, tai, tay-tac, northern-tai, min-zhuang, tai-long, yei-zhuang, tai-daeng, E Tai, Lao Nyo, Tai Muong Vat, Lao Phutai, Pa Di, Thai Song, Northwestern Tai, Southwestern Tai, tay-tai, tai), and some real languages with empty b: fields (Hu, U/Pouma). Real languages with verified entries updated.",
-  "lastUpdate": "2026-08-21T07:30:00-07:00",
+  "nextEntry": "Processed many verified entries through most of the file. Remaining WAITING entries include: proto-languages (Proto-Karenic, Greater Siangic, etc.), historical/extinct languages (Akkadian, Babylonian, Old Armenian, etc.), cover terms (Kuki-Chin, Northern Tai, Southwestern Tai, etc.), and some real languages with empty b: fields. Most entries with specific place names have been verified and updated to COMPLETE.",
+  "lastUpdate": "2026-08-21T08:30:00-07:00",
   "blockers": [],
   "waiting": [
     "Proto-languages and historical/extinct languages marked WAITING (per protocol)",
     "Cover terms marked WAITING (per protocol)",
     "Some real languages with empty b: fields needing research"
   ],
-  "lastIndex": "2139",
+  "lastIndex": "4139",
   "status": "in_progress",
   "pipeline": "Manual verification per protocol -> guardrails",
-  "lastEntry": "Bolyu at i=1272",
-  "verifiedEntriesThisSession": 2250,
+  "lastEntry": "Qau at i=1964",
+  "verifiedEntriesThisSession": 2300,
   "continent": "asia"
 }

@@ -1196,19 +1196,9 @@ window.africaNameBases = [{
     "d": "lnrt",
     "m": 0,
     "b": "Bonga,Wacha,Shishinda,Bita,Shama,Awurada,Daka,Konda,Ufa,Mankusa,Wushwush,Chiri,Shishonde,Decha,Chena,Gewata,Adiyo,Goba,Gesha,Gewata,Gimbo,Menjiwo,Sayilem,Telo,Bonga Town,Wacha Town,Awurada Town,Daka Town,Shishinda Town,Kaka,Yadota,Oda,Adiya Kaka,Ufa,Uda Dish",
-    "status": "COMPLETE"
+"status": "COMPLETE"
   },
-{
-    "name": "Kuan",
-    "i": 1163,
-    "min": 0,
-    "max": 0,
-    "d": "lnrt",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-{
+  {
     "name": "Beli",
     "i": 1188,
     "min": 4,
@@ -1424,19 +1414,9 @@ window.africaNameBases = [{
     "d": "bdfghjklmnrst",
     "m": 0.2,
     "b": "Zangon Kataf,Zonkwa,Kafanchan,Kagoro,Samaru Kataf,Madakiya,Kamantan,Kamuru,Zonzon,Gora,Ikulu,Fadan Kagoro,Agut Ntswuo,Chenkwon,Batadon,Anza,Fadiya,Busan,Ladduga,Fadankaje,Bakut,Bajju,Atak Njei,Ungwan Gaiya,Tudun Wada,Gora-Bafai,Ungwan Gaya,Kwoi,Kachia,Kaura,Kagarko,Kajuru",
-    "status": "COMPLETE"
+"status": "COMPLETE"
   },
-{
-    "name": "Yobe",
-    "i": 1504,
-    "min": 0,
-    "max": 0,
-    "d": "lnrt",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-{
+  {
     "name": "Tadaksahak",
     "i": 1507,
     "min": 3,
@@ -2284,19 +2264,9 @@ window.africaNameBases = [{
     "d": "lnrt",
     "m": 0,
     "b": "Yambio,Nzara,Tambura,Bangassou,Bria,Doruma,Gambo,Obo,Birao,Bambouti,Dembo,Kapoeta,Torit,Juba,Bor,Nimule,Lafon,Pibor,Boma,Mundri,Lainya,Raja,Akobo,Wau,Yei,Maridi,Ezo,Nagero",
-      "status": "COMPLETE"
+"status": "COMPLETE"
   },
-{
-    "name": "Aso",
-    "i": 2457,
-    "min": 0,
-    "max": 0,
-    "d": "lnrt",
-    "m": 0,
-    "b": "",
-      "status": "WAITING"
-  },
-{
+  {
     "name": "Air Tamajeq",
     "i": 2473,
     "min": 3,
@@ -2304,19 +2274,9 @@ window.africaNameBases = [{
     "d": "lnrt",
     "m": 0,
     "b": "Agadez,Arlit,Tchirozerine,In-Gall,Aïr Mountains,Agadez Region,Zinder Region,Tahoua Region,Maradi Region",
-    "status": "COMPLETE"
+"status": "COMPLETE"
   },
-{
-    "name": "Nam",
-    "i": 2487,
-    "min": 0,
-    "max": 0,
-    "d": "",
-    "m": 0,
-    "b": "",
-      "status": "WAITING"
-  },
-{
+  {
     "name": "Mundu",
     "i": 2499,
     "min": 3,
@@ -5246,19 +5206,9 @@ window.africaNameBases = [{
     "d": "lnrt",
     "m": 0,
     "b": "Lisala,Bumba,Aketa,Bondo,Buta,Basoko,Opala,Isangi,Yangambi,Budjala,Ingende,Bongandanga,Mongala River,Congo River,Haut-Uele Province,Bas-Uele Province,Uele River,Arua,Koboko,South Sudan",
-    "status": "COMPLETE"
+"status": "COMPLETE"
   },
-{
-    "name": "Ajawa",
-    "i": 200000,
-    "min": 0,
-    "max": 0,
-    "d": "",
-    "m": 0,
-    "b": "",
-      "status": "WAITING"
-  },
-{
+  {
     "name": "Akan",
     "i": 200001,
     "min": 5,
@@ -5525,19 +5475,9 @@ window.africaNameBases = [{
     "d": "",
     "m": 0,
     "b": "",
-    "status": "WAITING"
+"status": "WAITING"
   },
-{
-    "name": "Holma",
-    "i": 200029,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Holma",
-    "status": "WAITING"
-  },
-{
+  {
     "name": "Huba",
     "i": 200030,
     "min": 4,
@@ -6715,19 +6655,9 @@ window.africaNameBases = [{
     "d": "",
     "m": 0.1,
     "b": "Mutum Daya,Angule,Pitiko,Saladuna,Bacama,Zailany,Kukakundi,Yaaburo,Andamin,Kunshenu,Dammare,Alebu,Kwata,Gundale,Daja,Ameshe,Anguwa Roogo,Piribi-Tasha",
-    "status": "COMPLETE"
+"status": "COMPLETE"
   },
-{
-    "name": "Poki",
-    "i": 200150,
-    "min": 0,
-    "max": 0,
-    "d": "",
-    "m": 0,
-    "b": "",
-      "status": "WAITING"
-  },
-{
+  {
     "name": "Polci",
     "i": 200151,
     "min": 3,
@@ -7120,19 +7050,9 @@ window.africaNameBases = [{
     "d": "",
     "m": 0,
     "b": "Deba,Hinna,Gwani,Liji,Kalshingi,Zambuk,Kurba,Doho,Difa,Wade,Shinga,Kalo,Kwadon,Lano,Dangar,Nono,Wajari",
-    "status": "COMPLETE"
+"status": "COMPLETE"
   },
-{
-    "name": "Teshenawa",
-    "i": 200191,
-    "min": 7,
-    "max": 7,
-    "d": "",
-    "m": 0,
-    "b": "Teshena",
-    "status": "WAITING"
-  },
-{
+  {
     "name": "Tetserret Tuareg Berber",
     "i": 200192,
     "min": 3,

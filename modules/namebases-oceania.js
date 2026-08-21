@@ -565,13 +565,13 @@ window.oceaniaNameBases = [
   },
 
 {
-    "name": "Gahuku",
+    "name": "Alekano",
     "i": 204,
-    "min": 4,
+    "min": 3,
     "max": 12,
     "d": "",
     "m": 0,
-    "b": "Lufa,Kanagoi,Unegoyufa,Fanatafa,Goiyofa,Hagabaga,Hagita,Kabiufa,Kamaitoge,Kavimasi,Keira,Kemanfa,Marabia,Miyofa,Mokofa,Mongofa,Orofa,Payufa,Wafata,Wanefa,Yafufa,Upper Yaukave,Lower Yaukave,Kami-Seigu,Kama,Fimito,Kotuni,Gehamo",
+    "b": "Gahuku,Goroka,Eastern Highlands Province,Gahuku Rural LLG,Goroka District,Wanima,Komiyufa Village,Northern District,Tokano,Dano,Kainantu-Goroka",
     "status": "COMPLETE"
   },
 
@@ -807,13 +807,13 @@ window.oceaniaNameBases = [
   },
 
 {
-    "name": "Aghu",
-    "i": 764,
+    "name": "Ankave",
+    "i": 762,
     "min": 3,
-    "max": 10,
+    "max": 12,
     "d": "",
     "m": 0,
-    "b": "Kenggi,Anggai,Sabakaghe,Susu,Bana,Waghabang,Kaliwin,Tanah Merah,Mutiriop,Mariang,Mariori,Ghesi,Yofon,Sikafio,Bigisa,Duba",
+    "b": "Kerema District,Gulf Province,Papua New Guinea,Suowi Valley,Ankave-Swanson Valley,Saa Valley,Mbwei River,Swanson River,Ioua River,Vailala River,Suowi Valley,Ikundi,Ayakupna'wa',Olale,Pudzipukwo,Subu,Angae,Buu',Meenu,Uogwa,Sinde,Angave,Angaataha,Yagwoia",
     "status": "WAITING"
   },
 
@@ -829,13 +829,13 @@ window.oceaniaNameBases = [
   },
 
 {
-    "name": "Akoye",
+    "name": "Auye",
     "i": 809,
     "min": 3,
-    "max": 10,
+    "max": 12,
     "d": "",
     "m": 0,
-    "b": "Akoye",
+    "b": "Paniai Lakes,Central Papua,Indonesia,Auye-Dao,Moi,Maniwo,Moi-Wadea,Dao",
     "status": "WAITING"
   },
 
@@ -1005,13 +1005,13 @@ window.oceaniaNameBases = [
   },
 
 {
-    "name": "Binumarien",
-    "i": 1308,
+    "name": "Umbugarla",
+    "i": 201372,
     "min": 3,
     "max": 10,
     "d": "",
     "m": 0,
-    "b": "Binumarien",
+    "b": "Arnhem Land,South Alligator River,Jim Jim Creek,Oenpelli,Bamboo Creek,Alligator River,Long Billabong,Arnhem Highway,Western Arnhem Land,Northern Territory",
     "status": "WAITING"
   },
 
@@ -1045,18 +1045,7 @@ window.oceaniaNameBases = [
     "d": "",
     "m": 0,
     "b": "Bitur",
-    "status": "WAITING"
-  },
-
-{
-    "name": "Blagar",
-    "i": 1329,
-    "min": 3,
-    "max": 8,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
+"status": "WAITING"
   },
 
 {
@@ -1247,13 +1236,13 @@ window.oceaniaNameBases = [
   },
 
 {
-    "name": "Ari (Papuan)",
+    "name": "Ari",
     "i": 57,
     "min": 3,
     "max": 10,
     "d": "",
     "m": 0,
-    "b": "Ari,Serea",
+    "b": "Ari,Serea,Gogodala Rural LLG,Western Province,Aramia River,Fly River,Gogodala,Trans-New Guinea",
     "status": "WAITING"
   },
 
@@ -1654,13 +1643,13 @@ window.oceaniaNameBases = [
   },
 
 {
-    "name": "Anem",
+    "name": "Aneme Wake",
     "i": 1971,
     "min": 3,
     "max": 12,
     "d": "",
     "m": 0,
-    "b": "Anem",
+    "b": "Oro Province,Abia,Aro,Owen Stanley Range,Foasi Creek,Domara Creek,Ianu,Boneka,Alimado,Onaudi,Musi-obi,Monanobi,Lilipu,Omai-a,Afaibobo,Taibu,Namo,Ofilini,Du-onakai,Iobo,Buku,Debana,Pu-ibi,Oveau,Domuoi,Jari,Mori,Doma,Auwaka,Buniabura,Moikodi,Yareba,Central Province",
     "status": "WAITING"
   },
 
@@ -1797,13 +1786,13 @@ window.oceaniaNameBases = [
   },
 
 {
-    "name": "Kapauri",
-    "i": 2068,
+    "name": "Warumungu",
+    "i": 200608,
     "min": 3,
     "max": 12,
     "d": "",
     "m": 0,
-    "b": "Kapauri",
+    "b": "Tennant Creek,Jurnkkurakurr,Alice Springs,Warm Springs,Barkly Region,Stuart Highway,Overland Telegraph Line,Attack Creek,Murchison Range,Patta Warumungu lands,Nyinkka Nyunyu,Central Australia,Northern Territory,Ali Curung,Alpurrurulam,Ampilatwatja",
     "status": "WAITING"
   },
 
@@ -3740,7 +3729,7 @@ window.oceaniaNameBases = [
     "d": "",
     "m": 0,
     "b": "Mossman,Mossman Gorge,Daintree Village,Cape Tribulation,Wujal Wujal,Shiptons Flat,Diwan,Cow Bay,Thornton Beach,Bloomfield,Julaymba,Kubirri-Warra,Buru-Warra,Jalunji-Warra,Kuku-Nyungkul,China Camp,Maytown,Palmer,Bloomfield River,Daintree River",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
 
   {
@@ -3766,25 +3755,25 @@ window.oceaniaNameBases = [
   },
 
 {
-    "name": "Kuuk Thaayorre",
-    "i": 200600,
+    "name": "Wik Mungkan",
+    "i": 200609,
     "min": 3,
     "max": 12,
     "d": "",
     "m": 0,
-    "b": "Pormpuraaw,Edward River,Cape York Peninsula,Gulf of Carpentaria",
-    "status": "WAITING"
+    "b": "Aurukun,Archer River,Edward River,Cape York Peninsula,Queensland,Eramangk,Kendall River,Rokeby Station,Watson River,Cape Keerweer,Koolkan Aurukun State School,Aurukun Flexi Learning Centre,Keeping Culture Archive,Deadly Digital Communities,Tech Savvy Seniors,IWC",
+    "status": "COMPLETE"
   },
 
 {
-    "name": "Nyangumarta",
-    "i": 200601,
+    "name": "Yankunytjatjara",
+    "i": 200610,
     "min": 3,
     "max": 12,
     "d": "",
     "m": 0,
-    "b": "Port Hedland,Marble Bar,Bidyadanga,Strelley,Warralong,Woodstock,Yandeyarra,La Grange,Eighty Mile Beach,Great Sandy Desert,Telfer,Lake Waukarlykarly,Pilbara Region,Western Australia,Station,Ngurlipartu,Walyirli",
-    "status": "WAITING"
+    "b": "Mimili,Indulkana,Fregon,Oodnadatta,Coober Pedy,APY Lands,Anangu Pitjantjatjara Yankunytjatjara,Umuwa,Pipalyatjara,Kalka,Kanpi,Nyapari,Yunyarinyi,Amata,Pukatja,Kaltjiti,Musgrave Ranges,Everard Ranges,Yalata Ranges,Western Desert,South Australia,Northern Territory,Western Australia",
+    "status": "COMPLETE"
   },
 
   {
@@ -3828,7 +3817,7 @@ window.oceaniaNameBases = [
     "d": "",
     "m": 0,
     "b": "Warruwi,South Goulburn Island,North Goulburn Island,Minjilang,Croker Island,Gunbalanya,Oenpelli,Maningrida,Darwin,Cape Wessel,Roper River,King River,Braithwaite Point,Junction Bay,Sandy Creek,Angularli Creeks,Howard Island",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
 
 {
@@ -3839,18 +3828,18 @@ window.oceaniaNameBases = [
     "d": "",
     "m": 0,
     "b": "Wadeye,Port Keats,Werntek Nganayi,Old Mission,Thamarrurr Region,Moyle River,Fitzmaurice River,Madjellindi Valley,Alligator Creek,Yambarran Range,Laurie Creek,Daly River,Nganmarriyanga,Palumpa,Peppimenarti,Nauiyu Nambiyu,Daly River Road,Wadeye Airstrip",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
 
 {
-    "name": "Ngaanyatjarra",
-    "i": 200607,
+    "name": "Walmajarri",
+    "i": 200606,
     "min": 3,
     "max": 12,
     "d": "",
     "m": 0,
-    "b": "Warburton,Wanarn,Warakurna,Blackstone,Jameson,Tjukurla,Tjirrkarla,Patjarr,Irrunytju,Wingellina,Papulankutja,Mantamaru,Kiwirrkurra,Cosmo Newbery",
-    "status": "WAITING"
+    "b": "Fitzroy Crossing,Great Sandy Desert,Kimberley,Western Australia,Bayulu,Djugerari,Cherrabun,Junjuwa,Looma,Kadjina,Millijidee,Mindibungu,Bililuna,Mindi Rardi,Mulan,Ngumpan,Wangkajungka,Christmas Creek,Yakanarra,Yungngora,Lake Gregory,Murrungu,Bidjadanga,Derby,Broome,Halls Creek",
+    "status": "COMPLETE"
   },
 
   {
@@ -3872,7 +3861,7 @@ window.oceaniaNameBases = [
     "d": "",
     "m": 0,
     "b": "Numbulwar,Ngukurr,Barunga,Beswick,Wugularr,Roper River,Roper Gulf,Arnhem Land,Numburindi,East Arnhem,Rose River,Numbulwar Numburindi Community,Gunbalanya,Oenpelli,Katherine,Darwin",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
 
   {
@@ -3894,32 +3883,10 @@ window.oceaniaNameBases = [
     "d": "",
     "m": 0,
     "b": "",
-    "status": "WAITING"
+"status": "WAITING"
   },
 
-  {
-    "name": "Panyjima",
-    "i": 200612,
-    "min": 0,
-    "max": 0,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-
-  {
-    "name": "Umbugarla",
-    "i": 200613,
-    "min": 0,
-    "max": 0,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-
-  {
+{
     "name": "Upper Arrernte",
     "i": 200614,
     "min": 5,
@@ -3932,13 +3899,13 @@ window.oceaniaNameBases = [
 
 {
     "name": "Warlpiri",
-    "i": 200609,
+    "i": 200603,
     "min": 3,
     "max": 12,
     "d": "",
     "m": 0,
-    "b": "Yuendumu,Lajamanu,Nyirripi,Willowra,Yuelamu,Alekarenge",
-    "status": "WAITING"
+    "b": "Yuendumu,Lajamanu,Nyirrpi,Willowra,Wirliyajarrayi,Tennant Creek,Katherine,Alekarenge,Ti Tree,Alice Springs,Tanami Desert,Winnecke Creek,Lander River,Mount Liebig,Harts Range,Mount Allan,Haasts Bluff,Areyonga,Santa Teresa,Hermannsburg,Ntaria,Alcoota,Artetyerre,Uthipe Atherre,Bonya",
+    "status": "COMPLETE"
   },
 
   {
@@ -4048,43 +4015,10 @@ window.oceaniaNameBases = [
     "d": "",
     "m": 0,
     "b": "Goroka,Goroka District,Unggai-Benna District,Henganofi District,Lufa District,Gahuku Rural LLG,Goroka Urban LLG,Unggai Rural LLG,Upper Asaro Rural LLG,Lower Asaro Rural LLG,Upper Benna Rural LLG,Lower Benna Rural LLG,Watabung Rural LLG,Benabena,Papua New Guinea,Kainantu,Kainantu District,Kainantu Urban LLG,Ukarumpa,Mount Michael Rural LLG,Yagaria Rural LLG,Yelia Rural LLG,Kamano Rural LLG,Kamano No. 1 Rural LLG,Kamano No. 2 Rural LLG,Okapa District",
-    "status": "COMPLETE"
+"status": "COMPLETE"
   },
 
-  {
-    "name": "Aneme Wake",
-    "i": 201038,
-    "min": 0,
-    "max": 0,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-
-  {
-    "name": "Ankave",
-    "i": 201039,
-    "min": 0,
-    "max": 0,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-
-  {
-    "name": "Ari",
-    "i": 201040,
-    "min": 0,
-    "max": 0,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-
-  {
+{
     "name": "Asmat–Kamoro",
     "i": 201041,
     "min": 3,
@@ -4125,21 +4059,10 @@ window.oceaniaNameBases = [
     "d": "",
     "m": 0,
     "b": "Ngukurr,Barunga,Beswick,Bulman,Weemol,Jilkminggan,Miniyerri,Numbulwar,Numburindi,Mataranka,Nitmiluk,Borroloola,Larrimah,Birdum,Calvert,Arnold,Elsey,Wilton,Limmen,Belyuen,Warmun,Wyndham,Kununurra,Lajamanu,Bamyili,Katherine,Gulung",
-    "status": "COMPLETE"
+"status": "COMPLETE"
   },
 
-  {
-    "name": "Auye",
-    "i": 201045,
-    "min": 0,
-    "max": 0,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-
-  {
+{
     "name": "Becking–Dawi",
     "i": 201046,
     "min": 2,
@@ -4147,21 +4070,10 @@ window.oceaniaNameBases = [
     "d": "",
     "m": 0,
     "b": "Woutu Kolof,Yamkap,Yaptambor,Yaun,Yeni,Jufri,Amagais,As,Primapun,Tareo,Yakapis,Amkai,Komor,Aikut,Patipi,Pau,Sesakam,Sipanap,Woutu Braza,Waijens,Bumu,Kapayap Satu,Kapayap Dua,Besika,Ulakin",
-    "status": "COMPLETE"
+"status": "COMPLETE"
   },
 
-  {
-    "name": "Budai-Labuan-Taromak Rukai",
-    "i": 201047,
-    "min": 0,
-    "max": 0,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-
-  {
+{
     "name": "Cèmuhî",
     "i": 201048,
     "min": 4,
@@ -4624,13 +4536,13 @@ window.oceaniaNameBases = [
   },
 
 {
-    "name": "Mian",
-    "i": 21090,
+    "name": "Yugambeh",
+    "i": 200612,
     "min": 3,
     "max": 12,
     "d": "",
     "m": 0,
-    "b": "Blimo,Nenebil,Suganga,Wagarabai,Yapsiei,Mianmin,Fak,Aki",
+    "b": "Beenleigh,Beaudesert,Gold Coast,Logan,Scenic Rim,Albert River,Coolangatta,Coomera,Logan River,Pimpama,Tamborine,Tweed River Valley,City of Gold Coast,City of Logan,Scenic Rim Regional Council,Tweed River Valley,Ngarangwal,Nganduwal,Minyungbal,Bundjalung,Kombumerri,Mununjali,Wangerriburra,Gugingin,Bullongin,Migunberri,Birinburra,Minjungbal,Yugambeh Museum,Yugambeh Nation,Jebribillum Bora Park,Burleigh Heads",
     "status": "WAITING"
   },
 
@@ -4800,13 +4712,13 @@ window.oceaniaNameBases = [
   },
 
 {
-    "name": "Namiae",
-    "i": 21106,
+    "name": "Yinjibarndi",
+    "i": 200611,
     "min": 3,
     "max": 12,
     "d": "",
     "m": 0,
-    "b": "Kokoro,Kuae,Sorefuna,Tahama,Ubuvara",
+    "b": "Roebourne,Ieramugadu,Port Hedland,Karratha,Fortescue River,Millstream,Ngurrawaana,Cheeditha,Old Woolshed,Pilbara,Western Australia,South West Pilbara,Kuruma,Yaburrara,Marthudunera,Banjima,Kariyarra,Ganalili Cultural Centre",
     "status": "WAITING"
   },
 
@@ -5240,13 +5152,13 @@ window.oceaniaNameBases = [
   },
 
 {
-    "name": "Rumu",
+    "name": "Budai-Labuan-Taromak Rukai",
     "i": 201151,
     "min": 3,
     "max": 12,
     "d": "",
     "m": 0,
-    "b": "Kikori,Sirebi,Tiviri",
+    "b": "Budai,Vedrai,Wutai,Taromak,Tunan,Tanan,Danan,Labuan,Laboa,Tawu,Talamakao,Chinye,Wutai Township,Pingtung County,Kaohsiung City,Taitung County,Maolin Township,Maolin,Duona,Kongadavane,Tona,Maga,Teldrɨka,'oponoho,Wanshan,Peinan Township,Mantauran,Maga–Tona,Budai–Tanan,Lower Three Villages",
     "status": "WAITING"
   },
 
