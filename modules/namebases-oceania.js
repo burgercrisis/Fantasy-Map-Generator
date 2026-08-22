@@ -1495,8 +1495,8 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Daga,Lake Kutubu,Gurubumena,Ibumena,Awamena,Foimena,Ifigi,Kafa,Kutubu,Mubi,Hengisu,Borutange,Herebu,Fimaga,Damaiu,Page,Kenahobu,Ifigi,Pingahugu,Erogahugu,Kuhu,Harebuio,Kutubu,Mubi,Fimaga,Damaiu,Page,Kenahobu,Pingahugu,Erogahugu,Kuhu,Harebuio,Daga,Gurubumena,Ibumena,Awamena,Foimena",
+    "status": "COMPLETE"
   },
 
   {
@@ -2155,7 +2155,7 @@ window.oceaniaNameBases = [
     "max": 10,
     "d": "",
     "m": 0,
-    "b": "Dibiyaso",
+    "b": "",
     "status": "WAITING"
   },
 
@@ -2166,7 +2166,7 @@ window.oceaniaNameBases = [
     "max": 10,
     "d": "",
     "m": 0,
-    "b": "Guriaso",
+    "b": "",
     "status": "WAITING"
   },
 
@@ -2188,7 +2188,7 @@ window.oceaniaNameBases = [
     "max": 10,
     "d": "",
     "m": 0,
-    "b": "Karami",
+    "b": "",
     "status": "WAITING"
   },
 
@@ -2199,7 +2199,7 @@ window.oceaniaNameBases = [
     "max": 10,
     "d": "",
     "m": 0,
-    "b": "Kehu",
+    "b": "",
     "status": "WAITING"
   },
 
@@ -2243,7 +2243,7 @@ window.oceaniaNameBases = [
     "max": 10,
     "d": "",
     "m": 0,
-    "b": "Komolom",
+    "b": "",
     "status": "WAITING"
   },
 
@@ -2254,7 +2254,7 @@ window.oceaniaNameBases = [
     "max": 10,
     "d": "",
     "m": 0,
-    "b": "Komyandaret",
+    "b": "",
     "status": "WAITING"
   },
 
@@ -2265,7 +2265,7 @@ window.oceaniaNameBases = [
     "max": 10,
     "d": "",
     "m": 0,
-    "b": "Konai",
+    "b": "",
     "status": "WAITING"
   },
 
@@ -2276,7 +2276,7 @@ window.oceaniaNameBases = [
     "max": 10,
     "d": "",
     "m": 0,
-    "b": "Koneraw",
+    "b": "",
     "status": "WAITING"
   },
 
@@ -2287,8 +2287,8 @@ window.oceaniaNameBases = [
     "max": 10,
     "d": "",
     "m": 0,
-    "b": "Kubo",
-    "status": "WAITING"
+    "b": "Gwaimasi,Suabi,Sesanabi,Mome Hafi,Dege Hafi,Tagohai,Gugwuasu,Dahamo,Baiya River,Mome Stream,Dege Stream,Sigia Stream,Dogomo River,Molo Stream,Gwai Stream,Duwon Kabi,Tai Su,Sosiyo,Suwa'a 2,Hima'a,Biya'a,Gobamo'o,Diyo'o,Tibidibo,Uwo'o,Forbidden place,Sacred site",
+    "status": "COMPLETE"
   },
 
   {
@@ -2299,21 +2299,10 @@ window.oceaniaNameBases = [
     "d": "",
     "m": 0,
     "b": "",
-    "status": "WAITING"
+"status": "WAITING"
   },
 
 {
-    "name": "Kula",
-    "i": 2286,
-    "min": 3,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Kula",
-    "status": "WAITING"
-  },
-
-  {
     "name": "Kuman",
     "i": 2291,
     "min": 4,
@@ -2331,8 +2320,8 @@ window.oceaniaNameBases = [
     "max": 10,
     "d": "",
     "m": 0,
-    "b": "Kyaka",
-    "status": "WAITING"
+    "b": "Baiyer River valley,Kumbareta,Lumusa plateau,Paisa,Yakasimanda village,Mount Hagen area,Western Highlands Province",
+    "status": "COMPLETE"
   },
 
   {
@@ -2353,7 +2342,7 @@ window.oceaniaNameBases = [
     "max": 10,
     "d": "",
     "m": 0,
-    "b": "Laua",
+    "b": "",
     "status": "WAITING"
   },
 
@@ -2364,8 +2353,8 @@ window.oceaniaNameBases = [
     "max": 12,
     "d": "",
     "m": 0,
-    "b": "Lauje",
-    "status": "WAITING"
+    "b": "Ampibabo,Dampelas Sojol,Dondo,Tinombo,Tomini,Sidoan river area,Bobalo,Ogowele,Palasa,Bambasiang,Beau,Ogoansam,Ulatan,Eeya,Dongkalan,Pebounang,Malala village,Toli-Toli,Parigi Moutong,Donggala",
+    "status": "COMPLETE"
   },
 
 {
@@ -2375,7 +2364,7 @@ window.oceaniaNameBases = [
     "max": 12,
     "d": "",
     "m": 0,
-    "b": "Lembena",
+    "b": "",
     "status": "WAITING"
   },
 
@@ -2452,19 +2441,19 @@ window.oceaniaNameBases = [
     "max": 12,
     "d": "",
     "m": 0,
-    "b": "Awa",
+    "b": "",
     "status": "WAITING"
   },
 
 {
-    "name": "Awbono",
+    "name": "Yekora",
     "i": 2007,
     "min": 3,
-    "max": 10,
+    "max": 12,
     "d": "",
     "m": 0,
-    "b": "Awban Village,Kampung Awban,Kolf Brazza District,Asmat Regency,South Papua",
-    "status": "WAITING"
+    "b": "Sapa,Sapa Beach,Mo River headwaters,Morobe Station,Morobe Bay,Eya,Gugumi,Mambututu,Gira River,Manau,Mambare,Taututu,Deboi,Bowera,Cape Ward Hunt Point,Ana-Pose,Boura,Katima,Sirisaro,BS Gaina,Zinamba,Maema,Siboma,Paewa,Kui,Eware,Mou,Bosadi,Yaemba,Popoe,Siu,Zare-Ainze,Dona,Pela,Gomena,Owagi,Kuwi-Boso,Sowara,Wainzaduna,Toyare,Bau,Kobo,Saigara,Morobe Technical High School",
+    "status": "COMPLETE"
   },
 
 {
@@ -2485,8 +2474,8 @@ window.oceaniaNameBases = [
     "max": 10,
     "d": "",
     "m": 0,
-    "b": "Beami",
-    "status": "WAITING"
+    "b": "Nomad River region,Mount Haliago,Mount Sisa,Papuan Plateau,Komofio dialect area,Mougulu,Western Province villages,Southern Highlands border villages,Bosavi cultural region,Dodomona,North Beami dialect area",
+    "status": "COMPLETE"
   },
 
   {
@@ -2776,14 +2765,14 @@ window.oceaniaNameBases = [
   },
 
 {
-    "name": "Isabi",
-    "i": 21093,
+    "name": "Gurindji",
+    "i": 2007,
     "min": 3,
-    "max": 10,
+    "max": 12,
     "d": "",
     "m": 0,
-    "b": "Maruhia",
-    "status": "WAITING"
+    "b": "Daguragu,Kalkaringi,Lipanangku,Karungkarni,Ngapulunypuluny,Wayil,Karna,Jalipiyawung,Murnkurrumurnkurru,Warnkuk,Takuraku,Lawi,Parrampart,Kunyininya,Paala,Liku,Mirlarrang,Kapukurlang,Janturalarni,Janjika,Jarlartu,Milirriny,Muntiya",
+    "status": "COMPLETE"
   },
 
   {
@@ -2810,24 +2799,24 @@ window.oceaniaNameBases = [
 
 {
     "name": "Ap Ma",
-    "i": 21098,
+    "i": 2007,
     "min": 3,
     "max": 12,
     "d": "",
     "m": 0,
-    "b": "Kambot",
-    "status": "WAITING"
+    "b": "Kambot village,Kambaramba village,Samban village,Punyaten village,Simbir village,Raten village,Yomen village,Lol village,Wom village,Kekton village,Krogopa village,Bobten village,Kambuku village,Bobaten village,Pamban village,Korokopa village,Pusyten village,Kekten village,Buten village,Yemen village,Manu village,Kambugu village,Bopaten village,Langam village,Chimundo village,Angoram subdistrict,Keram River,Porapora River",
+    "status": "COMPLETE"
   },
 
 {
-    "name": "Asabano",
-    "i": 21099,
+    "name": "Somahai",
+    "i": 2007,
     "min": 3,
     "max": 12,
     "d": "",
     "m": 0,
-    "b": "Yakob",
-    "status": "WAITING"
+    "b": "Dekai,Ureas,Sumbako,Sumbako,Massi,Kiripun,Kokamu,Kekei,Kiribun,Bim River,Catalina River,Balim River,Yahukimo Regency,Asmat Regency,Dekai Subdistrict,Keyke,Samba,Una language area,Kopkaka area,Korowai area,Dani area,Yali area,Hupla area,Kimyal area",
+    "status": "COMPLETE"
   },
 
 {
@@ -3520,29 +3509,18 @@ window.oceaniaNameBases = [
     "d": "",
     "m": 0,
     "b": "Ardyaloon,Djarindjin,Lombadina,Cygnet Bay,Beagle Bay,Kooljaman,One Arm Point,Cape Leveque,Broome,Dampier Peninsula,Buccaneer Archipelago,King Sound,Ardyaloon Community,One Arm Point,Dampier Peninsula,Kimberley Region,Western Australia,Bardi Jawi Rangers,Kimberley Language Resource Centre,Ardiyooloon Bardi Ngaanka,Galaloong culture hero,Bardi plants,Bardi dictionary,Nyulnyulan family,Jawi,Baard,Nyulnyul,Jabirrjabirr,Nimanburru,Ngumbarl",
-    "status": "COMPLETE"
-  },
-
-{
-    "name": "Gurindji",
-    "i": 98019,
-    "min": 3,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Kalkarindji,Daguragu,Wattie Creek",
-    "status": "WAITING"
+"status": "COMPLETE"
   },
 
 {
     "name": "Guugu Yimidhirr",
-    "i": 98020,
+    "i": 2007,
     "min": 3,
     "max": 12,
     "d": "",
     "m": 0,
-    "b": "Hope Vale,Cooktown",
-    "status": "WAITING"
+    "b": "Gungardie,Hopevale,Cape Bedford,Endeavour River,Annan River,Jeannie River,Jack River,Normanby River,Lizard Island,Starcke River,McIvor River,Flinders Island,Princess Charlotte Bay,Cape Flattery,Battle Camp,Woorabinda,Coen,Nugal,Nugal Jin.gurr,Nugal Gaanhaal,Wakooka outstation,Hope Valley,Spring Hill,Mambare Bay,Dyiiri,Wungunh,Bubu gujin,Gungardie,Birri,Thalu",
+    "status": "COMPLETE"
   },
 
   {
@@ -4537,12 +4515,12 @@ window.oceaniaNameBases = [
 
 {
     "name": "Moikodi",
-    "i": 21091,
+    "i": 2007,
     "min": 3,
     "max": 12,
     "d": "",
     "m": 0,
-    "b": "Oro Province,Owen Stanley Range,Mount Brown,Moni River",
+    "b": "",
     "status": "WAITING"
   },
 
@@ -4592,13 +4570,13 @@ window.oceaniaNameBases = [
 
 {
     "name": "Moraori",
-    "i": 21096,
+    "i": 2007,
     "min": 3,
     "max": 12,
     "d": "",
     "m": 0,
-    "b": "Kampung Wasur",
-    "status": "WAITING"
+    "b": "Kampung Wasur,Wasur National Park,Wosul,Winaibak,Mitataol,Mbinjiker,Yeru,Tombya,Merer,Kasim,Purferi,Wolueled,Teu,Nggi Merer,Kier,Yomb,Sombrow,Kaiya paya,Kukeli paya,Umasa paya,Mbur,Wosul teu,Trans Papua Road,Rawa Biru,Marind territory",
+    "status": "COMPLETE"
   },
 
 {
@@ -5357,22 +5335,11 @@ window.oceaniaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Singapore,Jurong,Tampines,Woodlands,Bedok,Punggol,Sengkang,Hougang,Pasir Ris,Sembawang,Yishun,Ang Mo Kio,Bishan,Toa Payoh,Novena,Orchard,Sentosa,Changi,Paya Lebar,Lavender,Kallang,Geylang,Marine Parade,Katong,Joo Chiat,Buangkok,Jalan Kayu,Seletar,Choa Chu Kang,Bukit Batok,Bukit Panjang,Bukit Timah,Clementi,Dover,Buona Vista,Ghim Moh,Holland Village,One-North,Marina Bay,Compassvale,Rivervale,Anchorvale,Fernvale,Queenstown,Commonwealth",
-    "status": "COMPLETE"
+"status": "COMPLETE"
   },
 
 {
-    "name": "Somahai",
-    "i": 201172,
-    "min": 4,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Bim River,Catalina River,Yahukimo Regency,Asmat Regency",
-    "status": "WAITING"
-  },
-
-  {
-    "name": "Some",
+    "name": "Bogaya",
     "i": 201173,
     "min": 0,
     "max": 0,
@@ -6039,18 +6006,7 @@ window.oceaniaNameBases = [
     "d": "",
     "m": 0,
     "b": "",
-    "status": "WAITING"
-  },
-
-{
-    "name": "Yekora",
-    "i": 201234,
-    "min": 3,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Ana,Pose,Sapa",
-    "status": "WAITING"
+"status": "WAITING"
   },
 
 {
@@ -6093,8 +6049,8 @@ window.oceaniaNameBases = [
     "max": 12,
     "d": "",
     "m": 0,
-    "b": "Zia",
-    "status": "WAITING"
+    "b": "Zare,Ainse,Siu,Popoe,Dona,Saigara,Pema,Bau,Eu,Kobo,Baridza,Waria River,Lower Waria Valley,Morobe Province,Oro Province,Huon Gulf,Solomon Sea,Toyare,Subiyoro,Mou,Anna Sapa,Wainsuduna,Auno,Sowara,Perna,Putaira,Okaire,Mawae,Yema,Gobe,Agotame,Pepeware",
+    "status": "COMPLETE"
   },
 
   {

@@ -1,8 +1,8 @@
 {
   "fileName": "namebases-northAmerica.js",
-  "totalEntries": 232,
-  "currentIndex": 201029,
-  "currentLanguage": "Occaneechi",
+  "totalEntries": 229,
+  "currentIndex": 201028,
+  "currentLanguage": "Dene",
   "lastCompletedIndex": 201022,
   "lastCompletedLanguage": "Cochimí",
   "lastCompletedTimestamp": "2026-08-21T21:53:00-07:00",
@@ -642,11 +642,8 @@
     }
   },
   "pendingWaitList": [
-    {"i": 1595, "language": "Cholti Classic", "namesCount": 0, "status": "waiting - extinct language, insufficient data"},
     {"i": 8430, "language": "Zapotec", "namesCount": 0, "status": "waiting - language family"},
-    {"i": 201028, "language": "Dene", "namesCount": 0, "status": "waiting - language family"},
-    {"i": 200905, "language": "Ch'olti'", "namesCount": 0, "status": "waiting - extinct language"},
-    {"i": 200907, "language": "Mocho'", "namesCount": 0, "status": "waiting - endangered, few communities"},
-    {"i": 201029, "language": "Occaneechi", "namesCount": 7, "status": "waiting - extinct, 7 historical sites only"}
+    {"i": 201028, "language": "Dene", "namesCount": 0, "status": "waiting - language family"}
   ]
+}
 }

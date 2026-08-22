@@ -468,15 +468,6 @@ window.northAmericaNameBases = [
     "b": "Fort Vancouver,Fort Astoria,Fort Victoria,Fort Langley,Fort Nisqually,Fort Walla Walla,Fort Colvile,Fort Edmonton,Fort St. James,Fort Kamloops,Oregon City,Portland,Seattle,Vancouver,The Dalles,Walla Walla,Yakima,Puget Sound,Willamette Valley,Columbia River"
   },
   {
-    "name": "Cholti Classic",
-    "i": 1595,
-    "min": 4,
-    "max": 16,
-    "d": "lnrt",
-    "m": 0,
-    "b": ""
-  },
-  {
     "name": "Chorotega",
     "i": 1604,
     "min": 4,
@@ -1817,15 +1808,6 @@ window.northAmericaNameBases = [
     "b": "Flores,San Jose,San Benito,Santa Elena,Melchor de Mencos,Poptun,Dolores,San Luis,San Francisco,La Libertad,Las Cruces,El Chal,Sayaxche,La Union"
   },
   {
-    "name": "Mocho'",
-    "i": 200907,
-    "min": 9,
-    "max": 9,
-    "d": "",
-    "m": 0,
-    "b": "Motozintla,Tuzantan"
-  },
-  {
     "name": "Mopan",
     "i": 200908,
     "min": 4,
@@ -1959,15 +1941,6 @@ window.northAmericaNameBases = [
     "d": "",
     "m": 0,
     "b": ""
-  },
-  {
-    "name": "Occaneechi",
-    "i": 201029,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Hillsborough,Fort Christanna,Eno River,Roanoke River,Texas Community,Clarksville,Occoneechee Neck"
   },
   {
     "name": "Southern Tepehuan",

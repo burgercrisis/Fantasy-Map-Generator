@@ -88,17 +88,7 @@ window.asiaNameBases = [
     "m": 0,
     "b": "Hong Kong,Guangzhou,Shenzhen,Macau,Zhuhai,Jiangmen,Huizhou,Zhaoqing,Yunfu,Shantou,Maoming,Yangjiang,Meizhou,Chaozhou,Jieyang,Shanwei,Taishan,Kaiping,Gaoyao,Sihui,Foshan,Dongguan,Zhongshan,Shaoguan,Qingyuan,Heyuan,Zhanjiang,Xinhui,Enping,Heshan,Huidong,Boluo,Zijin,Lufeng,Haifeng,Nanxiong,Wengyuan,Yingde,Lianzhou,Yangshan,Huaiji,Fengkai,Deqing,Gaoming,Nanhai,Shunde,Chanchen,Haojiang,Jinping,Longhu,Chenghai,Chaoyang,Chaonan,Chao'an,Raoping,Jiedong,Jiexi,Huilai,Puning,Luhe,Heping,Longchuan,Lianping,Xinfeng,Ruyuan,Liannan,Lianshan,Qingxin,Fogang,Nanning,Wuzhou,Beihai,Qinzhou,Fangchenggang,Yulin,Guigang,Hezhou,Chongzuo,Guiping,Cenxi,Tengxian,Cangwu,Beiliu,Rongxian,Luchuan,Bobai,Xingye,Pubei,Hepu,Conghua,Zengcheng,Huadu,Panyu",
     "status": "COMPLETE"
-  },
-  {
-    "name": "Eastern Indonesian",
-    "i": 52,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Ambon,Ternate,Tidore,Manado,Sorong,Jayapura,Merauke,Manokwari,Biak,Timika,Fakfak,Kaimana,Nabire,Wamena,Dekai,Oksibil,Enarotali,Agats,Serui,Yapen,Waropen,Numfor,Supiori,Ransiki,Ayamaru,Inanwatan,Saumlaki,Tual,Langgur,Dobo,Namlea,Masohi,Bula,Wasior,Tanah Merah,Boven Digoel,Kouh,Mindiptana,Ninati,Manggelum,Kepi",
-    "status": "COMPLETE"
-  },
+},
   {
     "name": "Koya-Konda-Manda-Pengo",
     "i": 61,
@@ -160,27 +150,7 @@ window.asiaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Malaccan Creole Malay",
-    "i": 108,
-    "min": 4,
-    "max": 21,
-    "d": "",
-    "m": 0,
-    "b": "Malacca City,Alor Gajah,Jasin,Masjid Tanah,Merlimau,Sungai Udang,Kuala Linggi,Tanjung Bidara,Pekan Nyalas,Kuala Sungai Baru,Serkam,Ayer Keroh,Batu Berendam,Klebang,Cheng,Tanjung Krabau,Umbai,Pengkalan Balak,Kampung Hilir,Portuguese Settlement,Jakarta,Surabaya,Bandung,Medan,Palembang,Makassar,Semarang,Yogyakarta,Denpasar,Batam,Pekanbaru,Padang,Malang,Samarinda,Banjarmasin,Bemban",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Manado Malay",
-    "i": 109,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Manado,Bitung,Tomohon,Tondano,Amurang,Kotamobagu,Modoinding,Langsa,Belang,Sonder,Poigar,Toure,Likupang,Passir,Tatelu,Ranowangko,Bunaken,Kauditan,Ratahan,Kawangkoan,Lembehan,Jakarta,Surabaya,Bandung,Medan,Palembang,Makassar,Semarang,Yogyakarta,Denpasar,Batam,Pekanbaru,Padang,Malang,Samarinda,Banjarmasin,Kwandang,Molibagu,Pinogaluman,Bilalang,Lolayan,Dumoga,Kotabunan,Nuangan,Bolaang,Uki,Sinon Sayang,Tonsea,Airmadidi,Kalawat,Dimembe,Kema",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Dura-Tandrange",
+    "name": "Standard Malay",
     "i": 110,
     "min": 4,
     "max": 12,
@@ -317,17 +287,7 @@ window.asiaNameBases = [
     "d": "",
     "m": 0,
     "b": "Panggang,Pramuka,Kelapa,Kelapa Dua,Tidung,Tidung Kecil,Untung Jawa,Pari,Sebira,Harapan,Lancang,Payung,Karya",
-    "status": "COMPLETE"
-  },
-{
-    "name": "Peranakan",
-    "i": 128,
-    "min": 4,
-    "max": 14,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "INVALID"
+"status": "COMPLETE"
   },
   {
     "name": "Southern Nicobarese",
@@ -630,16 +590,6 @@ window.asiaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Abba Gorgoryos",
-    "i": 742,
-    "min": 4,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "INVALID"
-  },
-  {
     "name": "Achang",
     "i": 745,
     "min": 4,
@@ -728,26 +678,6 @@ window.asiaNameBases = [
     "m": 2,
     "b": "Nilambur,Wandoor,Edakkara,Mambad,Kalikavu,Karuvarakundu,Vazhikkadavu,Kattumunda,Pullipadam,Karulai,Chungathara,Thiruvali,Amarambalam,Kurumbalangode,Akampadam,Tuvvur,Porur,Vellayur,Kerala Estate,Pothukal,Moothedam,Chokkad,Elambilakode,Kalpetta,Mananthavady,Sulthan Bathery,Vythiri,Pulpally",
     "status": "COMPLETE"
-  },
-  {
-    "name": "Aka-Jeru",
-    "i": 806,
-    "min": 4,
-    "max": 14,
-    "d": "",
-    "m": 0,
-    "b": "Strait Village,Sound Island,North Andaman",
-    "status": "WAITING"
-  },
-  {
-    "name": "Akkadian",
-    "i": 807,
-    "min": 2,
-    "max": 13,
-    "d": "",
-    "m": 0.1,
-    "b": "Akkad,Babylon,Nineveh,Assur,Uruk,Ur,Nippur,Kish,Lagash,Eridu,Mari,Ebla,Sippar,Borsippa,Isin,Adab,Shuruppak,Girsu,Marad,Umma,Dilbat,Zabalam,Karkar,Puzrish-Dagan,Harran,Nimrud,Kalhu,Dur-Kurigalzu,Nuzi,Eshnunna,Tutub,Khafajah,Bad-tibira,Larak,Kuara,Nina,Der,Gasur,Shaduppum,Kutha,Khorsabad,Tell-Brak,Tuttul,Terqa,Emar,Arrapha,Ekallatum",
-    "status": "WAITING"
   },
   {
     "name": "Aka-Bo",
@@ -1020,16 +950,6 @@ window.asiaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Proto-Karenic",
-    "i": 878,
-    "min": 4,
-    "max": 14,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-  {
     "name": "Baram Thangmi",
     "i": 888,
     "min": 4,
@@ -1058,26 +978,6 @@ window.asiaNameBases = [
     "m": 0,
     "b": "Nafra,Thrizino,Debbing,Ditchik,Rurang,Nachinghom,Upper Dzang,Naku,Khellong,Dibrick,Nizong,Najang,Zangnaching,Chalang,Lower Dzang,Wakke,Nabolong,Kojo,Rojo,Panker,Zarkam,Drackchi,Besi,Naschgzang,Sachung,Gerangzing,Kampaa,Salang,Pego,Dongko,Tippi,Sessa,Khoitam,Rahung,Chillang",
     "status": "COMPLETE"
-  },
-  {
-    "name": "Ammonite",
-    "i": 897,
-    "min": 2,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Amman,Rabbah,Amman Citadel,Heshbon,Tell Hesban,Tell el-Mazar,Tell Siren",
-    "status": "WAITING"
-  },
-  {
-    "name": "Amorite",
-    "i": 898,
-    "min": 2,
-    "max": 13,
-    "d": "",
-    "m": 0,
-    "b": "Mari,Alalakh,Tell Harmal,Khafajah,Babylon,Mesopotamia,Syria,Ugarit,Mount Hermon",
-    "status": "WAITING"
   },
   {
     "name": "Amur Dagur",
@@ -1160,16 +1060,6 @@ window.asiaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Hinglish",
-    "i": 993,
-    "min": 4,
-    "max": 18,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "INVALID"
-  },
-  {
     "name": "Hindko, Northern",
     "i": 994,
     "min": 4,
@@ -1178,16 +1068,6 @@ window.asiaNameBases = [
     "m": 4,
     "b": "Mansehra,Torghar,Peshawar,Nowshera,Akora Khattak,Swabi,Kohat,Attock,Rawalpindi,Murree,Shangla,Buner,Swat,Dir,Chitral,Charsadda,Mingora,Matta,Kabal,Parachinar,Kurram,Abbottabad,Haripur,Kaghan,Muzaffarabad,Battagram,Mardan,Hazara,Pothohar,Talagang,Galyat,Neelum",
     "status": "COMPLETE"
-  },
-  {
-    "name": "Indian English",
-    "i": 995,
-    "min": 4,
-    "max": 18,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "INVALID"
   },
   {
     "name": "Korku",
@@ -1250,16 +1130,6 @@ window.asiaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Babylonian",
-    "i": 1016,
-    "min": 2,
-    "max": 12,
-    "d": "Babylonian is the southern dialect of Akkadian, an extinct East Semitic language of ancient Mesopotamia (c. 2600 BC – AD 100). Attested in cuneiform from the Old Babylonian period through Late Babylonian.",
-    "m": 0,
-    "b": "Babylon,Borsippa,Sippar,Nippur,Ur,Uruk,Larsa,Isin,Kish,Dilbat,Kutha,Marad,Adab,Shuruppak,Umma,Eridu,Lagash,Agade,Akkad",
-    "status": "WAITING"
-  },
-  {
     "name": "Badaga",
     "i": 1018,
     "min": 4,
@@ -1278,16 +1148,6 @@ window.asiaNameBases = [
     "m": 0,
     "b": "Nianduhu,Guomare,Gasare,Bao'an Xiazhuang,Ganhetan,Dadun,Meipo,Gaoli,Dahejia,Liuji",
     "status": "COMPLETE"
-  },
-  {
-    "name": "Baoanic",
-    "i": 1020,
-    "min": 4,
-    "max": 12,
-    "d": "Baoanic is a real Glottolog classification node within Shirongol (Mongolic): the subgroup comprising Bonan, Kangjia and Santa. Treated here as a valid language-group entry rather than a synthetic coinage.",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
   },
   {
     "name": "Baoting Hlai",
@@ -1328,26 +1188,6 @@ window.asiaNameBases = [
     "m": 0,
     "b": "Kon Tum,Kon Rẫy,Đắk Hà,Đắk Tô,Mang Yang,An Khê,Kông Chro,K'Bang,Gia Lai,Pleiku,Đăk Rơ Wa,Kon Braih,Kon K'Tu,Kon Jo Dri,Kon Mơhar,Kon Rơng Nak,Kon Fôt,Kon Rơng Pơdram,Kon Sơnglôk,Kon Sơlăng,Kon Sơlăl,Kon Măh,Kon Băh,Kon Pơnang,Kon Kơmò,Kon Sơbai,Kon Hơng Leh,Kon Chang,Stơr",
     "status": "COMPLETE"
-  },
-  {
-    "name": "Bengali Portuguese Creole",
-    "i": 1030,
-    "min": 4,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Calcutta,Dacca,Chittagong,Hooghly,Balasore,Pipli,Chandernagore,Midnapore",
-    "status": "WAITING"
-  },
-  {
-    "name": "Coast Tsimshian",
-    "i": 1053,
-    "min": 4,
-    "max": 13,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "INVALID"
   },
   {
     "name": "Gelao",
@@ -1437,17 +1277,7 @@ window.asiaNameBases = [
     "d": "",
     "m": 1,
     "b": "Denpasar,Kuta,Ubud,Gianyar,Tabanan,Sanur,Singaraja,Seminyak,Canggu,Nusa Dua,Lovina,Amed,Ubud,Penglipuran,Tenganan,Celuk,Mas,Batuan,Sidemen,Tigawasa,Pedawa,Trunyan,Pemuteran,Lovina Beach,Munduk,Bedugul,Amed,Padang Bai,Candidasa,Seririt,Gilimanuk,Nusa Penida",
-    "status": "WAITING"
-  },
-  {
-    "name": "Bangladeshi English",
-    "i": 1122,
-    "min": 4,
-    "max": 12,
-    "d": "",
-    "m": 1,
-    "b": "",
-    "status": "INVALID"
+    "status": "COMPLETE"
   },
   {
     "name": "Banjar",
@@ -1700,66 +1530,6 @@ window.asiaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Northwestern Tai",
-    "i": 1170,
-    "min": 3,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-  {
-    "name": "Southwestern Tai",
-    "i": 1171,
-    "min": 4,
-    "max": 24,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-  {
-    "name": "tay-tai",
-    "i": 1172,
-    "min": 3,
-    "max": 16,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-  {
-    "name": "tai",
-    "i": 1173,
-    "min": 4,
-    "max": 13,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-  {
-    "name": "tay-tac",
-    "i": 1174,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-  {
-    "name": "northern-tai",
-    "i": 1175,
-    "min": 3,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-  {
     "name": "min-zhuang",
     "i": 1176,
     "min": 4,
@@ -1797,17 +1567,7 @@ window.asiaNameBases = [
     "d": "",
     "m": 0,
     "b": "Shiyajiao,Baini,Fangluocheng,Panzhihua",
-    "status": "WAITING"
-  },
-  {
-    "name": "Beijing Mandarin",
-    "i": 1226,
-    "min": 4,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "INVALID"
+    "status": "COMPLETE"
   },
   {
     "name": "Betanure Jewish Neo-Aramaic",
@@ -1818,86 +1578,6 @@ window.asiaNameBases = [
     "m": 0,
     "b": "Betanure",
     "status": "WAITING"
-  },
-  {
-    "name": "Betta Kurumba",
-    "i": 1238,
-    "min": 4,
-    "max": 13,
-    "d": "",
-    "m": 0,
-    "b": "Ooty,Coonoor",
-    "status": "INVALID"
-  },
-  {
-    "name": "Hokkien",
-    "i": 1240,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Xiamen,Quanzhou,Zhangzhou,Longyan",
-    "status": "INVALID"
-  },
-  {
-    "name": "Teochew Min",
-    "i": 1241,
-    "min": 4,
-    "max": 11,
-    "d": "Southern Min language spoken in the Chaoshan region of eastern Guangdong and by diaspora worldwide (Wikipedia: Teochew_Min).",
-    "m": 0,
-    "b": "",
-    "status": "INVALID"
-  },
-  {
-    "name": "Hainanese",
-    "i": 1242,
-    "min": 4,
-    "max": 11,
-    "d": "Variety of Min Chinese spoken on the island of Hainan and regional overseas Chinese communities (Wikipedia: Hainanese).",
-    "m": 0,
-    "b": "Haikou,Sanya,Wenchang,Qionghai,Wanning,Dongfang,Ledong,Lingshui,Baoting,Qiongzhong,Changjiang,Baisha",
-    "status": "INVALID"
-  },
-  {
-    "name": "Leizhou Min",
-    "i": 1243,
-    "min": 4,
-    "max": 11,
-    "d": "Branch of Min Chinese spoken on the Leizhou Peninsula (Leizhou city, Xuwen, Mazhang, Suixi, Xiashan) of western Guangdong; grouped with Hainanese as Qiong-Lei (Wikipedia: Leizhou_Min).",
-    "m": 0,
-    "b": "Leizhou,Xuwen,Suixi",
-    "status": "INVALID"
-  },
-  {
-    "name": "Pu-Xian Min",
-    "i": 1244,
-    "min": 4,
-    "max": 11,
-    "d": "Branch of Min Chinese (Putian-Xianyou / Xinghua) of central coastal Fujian; transitional Coastal Min between Eastern and Southern Min (Wikipedia: Pu-Xian_Min).",
-    "m": 0,
-    "b": "Putian,Xianyou",
-    "status": "INVALID"
-  },
-  {
-    "name": "Haklau Min",
-    "i": 1245,
-    "min": 4,
-    "max": 17,
-    "d": "Southern Min (Hoklo) variety of the Hailufeng region (Haifeng and Lufeng counties) centred on Shanwei, Guangdong. Wikipedia REST summary for 'Haklau_dialect' returned 404; classification based on linguistic knowledge.",
-    "m": 0,
-    "b": "Shanwei,Haifeng,Lufeng",
-    "status": "INVALID"
-  },
-  {
-    "name": "Haryanvi",
-    "i": 1246,
-    "min": 4,
-    "max": 13,
-    "d": "Indo-Aryan language of the Western Hindi group spoken primarily in the Indian state of Haryana and the territory of Delhi (Wikipedia: Haryanvi_language).",
-    "m": 0,
-    "b": "Hisar,Rohtak,Panipat,Karnal,Ambala,Kurukshetra,Sonipat,Jhajjar,Bhiwani,Charkhi Dadri,Sirsa,Fatehabad",
-    "status": "INVALID"
   },
   {
     "name": "Balochi, Makrani",
@@ -2110,16 +1790,6 @@ window.asiaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Zhaba",
-    "i": 1270,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Zhaba,Daofu,Luhuo,Sertar,Danba,Xinlong,Yajiang,Litang,Dêgê,Ganzi,Sichuan",
-    "status": "INVALID"
-  },
-  {
     "name": "Mang",
     "i": 1271,
     "min": 4,
@@ -2200,26 +1870,6 @@ window.asiaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Biblical Aramaic",
-    "i": 1288,
-    "min": 2,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "INVALID"
-  },
-  {
-    "name": "Biblical Hebrew",
-    "i": 1289,
-    "min": 2,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "INVALID"
-  },
-  {
     "name": "Bidau Creole Portuguese",
     "i": 1297,
     "min": 4,
@@ -2237,50 +1887,10 @@ window.asiaNameBases = [
     "d": "",
     "m": 0,
     "b": "Naga,Legazpi,Iriga,Tabaco,Ligao,Daet,Virac,Pili,Calabanga,Canaman,Camaligan,Magarao,Bombon,Milaor,Minalabac,Gainza,Nabua,Bato,Baao,Libmanan,Sipocot,Ragay,Pasacao,Pamplona,Tinambac,Goa,Tigaon,Lagonoy,Sagñay,Caramoan,Camalig,Guinobatan,Daraga,Santo Domingo,Bacacay,Malinao,Malilipot,Manito,Oas,Polangui,Libon,Pio Duran,Jovellar,Sorsogon City,Donsol,Pilar",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Bote",
-    "i": 1330,
-    "min": 4,
-    "max": 14,
-    "d": "",
-    "m": 0,
-    "b": "Nawalparasi,Gulmi,Tanahu,Palpa,Syangja,Gorkha,Baglung,Chitwan,Bharatpur",
-    "status": "INVALID"
-  },
-  {
-    "name": "Bodish",
-    "i": 1341,
-    "min": 3,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Lhasa,Shigatse,Chamdo,Nagqu,Gyantse,Tsetang,Paro,Thimphu,Punakha,Bumthang,Leh,Darjeeling",
-    "status": "INVALID"
-  },
-{
-    "name": "Bodo",
-    "i": 1342,
-    "min": 3,
-    "max": 14,
-    "d": "",
-    "m": 0,
-    "b": "Kokrajhar,Bongaigaon,Kajalgaon,Goreswar,Tamulpur,Barama,Tihu,Chandrapur,Baihata,Bijni,Abhayapuri,Udalguri,Dhubri,Goalpara",
-    "status": "INVALID"
+"status": "COMPLETE"
   },
   {
     "name": "Bohtan Neo-Aramaic",
-    "i": 1344,
-    "min": 3,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Hakkari,Van,Barwari,Urmia,Mosul,Kirkuk,Erbil,Duhok,Alqosh,Tel Keppe,Bartella,Karamles,Bohtan",
-    "status": "INVALID"
-  },
-  {
-    "name": "Bokar",
     "i": 1345,
     "min": 4,
     "max": 17,
@@ -2320,16 +1930,6 @@ window.asiaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Bonan Manegacha lect",
-    "i": 1356,
-    "min": 4,
-    "max": 15,
-    "d": "",
-    "m": 0,
-    "b": "Xunhua,Dadun,Lijiacun,Dahejia,Nianduhu,Guomare,Gasare,Baoan Xiazhuang,Longwu,Rebgong,Gansu,Qinghai,Tongren,Baoan,Jishishan,Linxia,Ganhetan,Huangnan",
-    "status": "INVALID"
-  },
-  {
     "name": "Bouhin",
     "i": 1365,
     "min": 4,
@@ -2338,16 +1938,6 @@ window.asiaNameBases = [
     "m": 0,
     "b": "Heitu,Daode,Budai,Buqu",
     "status": "COMPLETE"
-  },
-  {
-    "name": "Bourbonnais Creole",
-    "i": 1366,
-    "min": 4,
-    "max": 14,
-    "d": "n",
-    "m": 0,
-    "b": "Saint-Denis,Saint-Paul,Saint-Pierre,Le Tampon,Saint-André,Saint-Joseph,Sainte-Suzanne,Sainte-Marie,Le Port,Saint-Louis",
-    "status": "INVALID"
   },
   {
     "name": "Bishnupriya Manipuri",
@@ -2490,26 +2080,6 @@ window.asiaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Camtho",
-    "i": 1431,
-    "min": 4,
-    "max": 14,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "INVALID"
-  },
-  {
-    "name": "Canaano-Akkadian",
-    "i": 1432,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Ugarit,Ras Shamra,Byblos,Tyre,Sidon,Damascus,Ebla,Mari,Amarna,Nuzi",
-    "status": "WAITING"
-  },
-  {
     "name": "Cannanore Portuguese Creole",
     "i": 1433,
     "min": 4,
@@ -2550,16 +2120,6 @@ window.asiaNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "Central Hilali dialects",
-    "i": 1473,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "INVALID"
-  },
-  {
     "name": "Central Min",
     "i": 1474,
     "min": 4,
@@ -2578,16 +2138,6 @@ window.asiaNameBases = [
     "m": 0,
     "b": "Nanning,Chongzuo,Baise,Debao,Jingxi,Shuangqiao,Futang,Taiping,Baiyu,Ma'ai,Duozuo,Nong'an,Ronghua,Nalong,Pangling,Nianxiang,Youli,Sanlu,Lingguang,Xianfeng,Luli,Daguola,Xinhe,Renhe,Nonghua,Nale,Niantou,Pangling,Lingwan,Nianxiang,Niantong,Youli,Sanlu,Nonghe,Nonghenei,Lingguang,Nongdi,Xianfeng,Bahuai,Luli,Youlong",
     "status": "COMPLETE"
-  },
-  {
-    "name": "Tây Bồi Pidgin French",
-    "i": 1486,
-    "min": 3,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Hanoi,Saigon,Haiphong,Danang,Hue,Nha Trang,Qui Nhon,Vung Tau,My Tho,Can Tho,Rach Gia,Long Xuyen,Tra Vinh,Ben Tre,Cao Lanh,Sa Dec,Vinh Long,Phan Thiet,Phan Rang,Da Lat,Buon Ma Thuot,Pleiku,Kontum,Da Nang,Quang Ngai,Quang Tri,Hue,Dong Ha,Dong Hoi,Vinh,Thanh Hoa,Ninh Binh,Nam Dinh,Thai Binh,Haiphong,Quang Ninh,Lang Son,Cao Bang,Bac Kan,Thai Nguyen,Tuyen Quang,Yen Bai,Lao Cai,Hoa Binh,Son La,Dien Bien,Lai Chau,Yen Bai,Phu Tho,Vinh Phuc,Bac Ninh,Hung Yen,Ha Nam,Thai Binh,Nam Dinh,Ninh Binh,Thanh Hoa,Nghe An,Ha Tinh,Quang Binh,Quang Tri,Thua Thien Hue,Da Nang,Quang Nam,Quang Ngai,Binh Dinh,Phu Yen,Khanh Hoa,Ninh Thuan,Binh Thuan,Ba Ria,Vung Tau,Tay Ninh,Binh Duong,Binh Phuoc,Dong Nai,Long An,Tien Giang,Ben Tre,Tra Vinh,Vinh Long,Dong Thap,An Giang,Kien Giang,Ca Mau,Bac Lieu,Soc Trang",
-    "status": "INVALID"
   },
   {
     "name": "Central Tibeto Burman",
@@ -2678,16 +2228,6 @@ window.asiaNameBases = [
     "m": 0,
     "b": "",
     "status": "WAITING"
-  },
-  {
-    "name": "Zway",
-    "i": 1525,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 7,
-    "b": "",
-    "status": "INVALID"
   },
   {
     "name": "Chakhar",
@@ -2920,16 +2460,6 @@ window.asiaNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "Chinese Pidgin English",
-    "i": 1591,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Guangzhou,Macau,Hong Kong,Shanghai,Ningbo,Xiamen,Fuzhou,Shantou,Chongqing,Hankou,Nanjing",
-    "status": "WAITING"
-  },
-  {
     "name": "Chittagonian",
     "i": 1593,
     "min": 4,
@@ -2970,16 +2500,6 @@ window.asiaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Christian Palestinian Aramaic",
-    "i": 1598,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 1,
-    "b": "Jerusalem,Bethlehem,Hebron,Beit Jala,Emmaus,Nicopolis,Gaza,Ashkelon",
-    "status": "WAITING"
-  },
-  {
     "name": "Christian Urmi Neo-Aramaic",
     "i": 1599,
     "min": 4,
@@ -2987,7 +2507,7 @@ window.asiaNameBases = [
     "d": "",
     "m": 1,
     "b": "Urmia,Salmas,Khoy,Tabriz,Maragheh,Miandoab,Shahin Dezh,Takab,Mahabad",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
   {
     "name": "Chukchi",
@@ -3037,7 +2557,7 @@ window.asiaNameBases = [
     "d": "",
     "m": 0,
     "b": "Daejeon,Cheongju,Gongju,Sejong,Hongseong,Cheonan,Asan,Yesan",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
   {
     "name": "Chuvan",
@@ -3098,28 +2618,8 @@ window.asiaNameBases = [
     "m": 0,
     "b": "Baishari,Naikhongchhari,Dochhari,Ghandung,Lāmbaibil,Kurākhāl,Mrāsānpāra,Headmanpāra,Baisari,Barābil,Dābaikhāli,Karālīmura,Chālantāli,Michaipāra,Aungthurpāra,Aungphrupāra,Rairupāra,Meākeapāra,Nathingpāra,Suitopāra,Kaimmāpāpāra,Pattargāra,Gulāmbāri,Kothoipāra,Mamphrapāra,Laitāmāpāra,Thuiripāra,Krishnārāmpāra,Ray Aungpāra,Arakajāpara,Nakhyaungcharīpāra,Aaartali,Lampāipāra,Sonāichari Thākurpāra,Sonāichari Nawāpāra,Khalukaāliyapāra,Charāpāra,Changu Kārbāripāra,Phaphra Kābāripāra,Jalāchharīpāra,Daiyabāperpāra,Maungsuībāipāra,Khuyopāra,Nialāpāra,Chakrapāta,Nenīrcājāpāra,Waiphapāra,Haichangpāra,Pāglirpāra,Rejupāra,Ajakhāi,Tumbru,Maungziapāra",
     "status": "COMPLETE"
-  },
+},
   {
-    "name": "Classical Arabic",
-    "i": 1623,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Mecca,Medina,Damascus,Baghdad,Cairo,Kufa,Basra,Jerusalem",
-    "status": "WAITING"
-  },
-  {
-    "name": "Classical Syriac",
-    "i": 1625,
-    "min": 4,
-    "max": 18,
-    "d": "",
-    "m": 0,
-    "b": "Edessa,Antioch,Nisibis,Seleucia-Ctesiphon,Urhai,Amid,Mardin,Tur Abdin",
-    "status": "WAITING"
-  },
-{
     "name": "Chilsso",
     "i": 1626,
     "min": 4,
@@ -3170,26 +2670,6 @@ window.asiaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Corfiot Maltese",
-    "i": 1637,
-    "min": 4,
-    "max": 14,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "INVALID"
-  },
-  {
-    "name": "Cottonera Dialect",
-    "i": 1638,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "INVALID"
-  },
-  {
     "name": "Asho",
     "i": 1643,
     "min": 2,
@@ -3218,16 +2698,6 @@ window.asiaNameBases = [
     "m": 0,
     "b": "Nadou Village,Yue Village,Fuma Village,Villages along lower Changhua River",
     "status": "COMPLETE"
-  },
-  {
-    "name": "Cypriot Arabic",
-    "i": 1647,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "INVALID"
   },
   {
     "name": "Dadanitic",
@@ -3520,16 +2990,6 @@ window.asiaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "E mixed",
-    "i": 1726,
-    "min": 3,
-    "max": 15,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "INVALID"
-  },
-  {
     "name": "Early Modern Korean",
     "i": 1727,
     "min": 4,
@@ -3580,26 +3040,6 @@ window.asiaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Arh",
-    "i": 1741,
-    "min": 4,
-    "max": 28,
-    "d": "",
-    "m": 1,
-    "b": "",
-    "status": "INVALID"
-  },
-  {
-    "name": "Bmr",
-    "i": 1742,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "INVALID"
-  },
-  {
     "name": "Dzao Min",
     "i": 1745,
     "min": 4,
@@ -3638,16 +3078,6 @@ window.asiaNameBases = [
     "m": 2,
     "b": "Ust-Ordynsky,Ekhirit-Bulagat,Alarsky,Bayandayevsky,Bokhansky,Nukutsky,Osinsky,Ust-Orda,Irkutsk,Barguzin,Khorinsk,Ulan-Ude,Buryatia",
     "status": "COMPLETE"
-  },
-  {
-    "name": "Ekhirit Bulagat Buryat",
-    "i": 1759,
-    "min": 3,
-    "max": 11,
-    "d": "",
-    "m": 2,
-    "b": "Ust-Orda,Irkutsk,Barguzin,Khorinsk,Ulan-Ude,Buryatia",
-    "status": "INVALID"
   },
   {
     "name": "Eravallan",
@@ -3770,16 +3200,6 @@ window.asiaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Gaya Korean",
-    "i": 1836,
-    "min": 3,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "INVALID"
-  },
-  {
     "name": "Garhwali",
     "i": 1837,
     "min": 3,
@@ -3806,27 +3226,7 @@ window.asiaNameBases = [
     "d": "",
     "m": 0,
     "b": "Fengxiang,Fengtang,Chongxin,Chongren,Chongxing,Huangpiao,Matang Gejia Village,Longchang,Ganba,Longshan,Bibo,Wanshui,Liubao Village",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Gurgula",
-    "i": 1869,
-    "min": 3,
-    "max": 21,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "INVALID"
-  },
-{
-    "name": "Gta",
-    "i": 1871,
-    "min": 4,
-    "max": 29,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "INVALID"
+"status": "COMPLETE"
   },
   {
     "name": "Guiyang",
@@ -3847,16 +3247,6 @@ window.asiaNameBases = [
     "m": 0,
     "b": "Dazhai,Tiejiang Village,Yuguo Village,Zhuyuan,Tangbian,Nongchang Village",
     "status": "COMPLETE"
-  },
-  {
-    "name": "Hezhou",
-    "i": 1883,
-    "min": 3,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "INVALID"
   },
   {
     "name": "Hiligaynon",
@@ -4268,16 +3658,6 @@ window.asiaNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "Kamassian",
-    "i": 2001,
-    "min": 4,
-    "max": 15,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-  {
     "name": "Khmu",
     "i": 201377,
     "min": 4,
@@ -4412,36 +3792,7 @@ window.asiaNameBases = [
     "d": "",
     "m": 0,
     "b": "Tbilisi,Kutaisi,Batumi,Poti,Sukhumi,Zugdidi,Telavi,Gori,Rustavi,Marneuli,Bolnisi,Tianeti,Akhaltsikhe,Akhalkalaki,Ninotsminda,Tsalka,Lagodekhi,Tsnori,Ozurgeti,Lanchkhuti,Kobuleti,Keda,Kvareli,Sagarejo,Terjola,Chiatura,Kharagauli,Zestaponi,Shukhevi,Baghdati,Vani,Khoni,Tskhinvali,Akhmeta,Dedoplistsqaro,Lentekhi,Aspindza,Dmanisi,Jvari,Abastumani,Mtskheta,Stepantsminda,Oni,Tsageri,Chkhorotsku",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Proto-Georgian-Zan",
-    "i": 2080,
-    "min": 3,
-    "max": 14,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-{
-    "name": "Proto-Kartvelian",
-    "i": 2081,
-    "min": 3,
-    "max": 14,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-  {
-    "name": "Zan languages",
-    "i": 2082,
-    "min": 3,
-    "max": 14,
-    "d": "",
-    "m": 0,
-    "b": "Zugdidi,Sukhumi,Abasha,Jvari,Khobi,Martvili,Poti,Senaki,Tsalendjikha,Chkhorotsqu,Mestia,Oni,Tsageri,Lentekhi,Kvaisa,Tskhinvali,Gali,Ochamchire,Tkvarcheli,Bzyb,Chanistsqali,Ambrolauri,Enguri,Tekhuri,Zanlanguagesk,Zanlanguagest,Zanlanguagesp,Zanlanguagesm,Zanlanguagesn,Zanlanguagess,Zanlanguagesr,Zanlanguagesl,Zanlanguagesd,Zanlanguagesg"
+"status": "COMPLETE"
   },
   {
     "name": "Judaeo-Georgian",
@@ -4571,16 +3922,6 @@ window.asiaNameBases = [
     "m": 0,
     "b": "Khamkeut,Pakkading,Viengthong,Bolikhamxay,Phônsy,Lak Xao,Laos",
     "status": "COMPLETE"
-  },
-  {
-    "name": "Proto-Kra",
-    "i": 2128,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
   },
   {
     "name": "Nadou",
@@ -5138,16 +4479,6 @@ window.asiaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Kwoma-Manambu Pidgin",
-    "i": 2301,
-    "min": 4,
-    "max": 19,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-  {
     "name": "Kui (India)",
     "i": 2302,
     "min": 4,
@@ -5156,26 +4487,6 @@ window.asiaNameBases = [
     "m": 0,
     "b": "Phulbani,Baliguda,G. Udayagiri,Raikia,Tikabali,Kotagarh,Tumudibandha,K. Nuagaon,Daringbadi,Brahmanigaon,Belghar,Sudreju",
     "status": "COMPLETE"
-  },
-  {
-    "name": "Kyakhta Russian-Chinese Pidgin",
-    "i": 2304,
-    "min": 4,
-    "max": 16,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-  {
-    "name": "Kyowa-go",
-    "i": 2305,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
   },
   {
     "name": "Kewat",
@@ -5246,27 +4557,7 @@ window.asiaNameBases = [
     "m": 0,
     "b": "",
     "status": "WAITING"
-  },
-  {
-    "name": "Kurichiya",
-    "i": 2344,
-    "min": 4,
-    "max": 14,
-    "d": "",
-    "m": 0,
-    "b": "Wayanad,Kunnam,Mananthavady,Thirunelly,Pulpally,Sultan Bathery,Padinjarathara,Thariyode,Kuppadithara,Kavumannam,Pozhuthana,Thrikkaipetta,Vengapally,Thirunelly,Thavinjal,Panamaram,Payyampally,Edavaka,Koolivayal,Nalloornad,Valad,Vellamunda,Thondernad,Poothadi,Ambalavayal,Nenmeni,Noolpuzha,Padichira",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Azd Dialect",
-    "i": 2345,
-    "min": 4,
-    "max": 17,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
+},
   {
     "name": "Abkhaz",
     "i": 2351,
@@ -5328,17 +4619,7 @@ window.asiaNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "Kwoma-Manambu Pidgin",
-    "i": 2386,
-    "min": 4,
-    "max": 19,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-  {
-    "name": "Kxu",
+    "name": "Kyv",
     "i": 2387,
     "min": 4,
     "max": 14,
@@ -5346,27 +4627,7 @@ window.asiaNameBases = [
     "m": 0,
     "b": "",
     "status": "WAITING"
-  },
-{
-    "name": "Kyakhta Russian-Chinese Pidgin",
-    "i": 2304,
-    "min": 4,
-    "max": 16,
-    "d": "",
-    "m": 0,
-    "b": "Kyakhta,Maimaicheng,Altanbulag,Troitskosavsk,Lower Amur,Maimachin,Nerchinsk,Transbaikal,Manchuria,Harbin,Kalgan,Ulaanbaatar,Verkhneudinsk",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Kyowa Go",
-    "i": 2390,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
+},
   {
     "name": "Kyv",
     "i": 2391,
@@ -6667,7 +5928,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Seoul,Incheon,Daegu,Daejeon,Gwangju,Suwon,Yongin,Changwon,Seongnam,Cheongju,Jeonju,Goyang,Pohang,Jeju,Chuncheon,Gimhae,Gyeongju,Mokpo,Yeosu,Gangneung,Tongyeong,Jinhae,Gimje,Busan,Ulsan,Andong,Gunsan,Wonju,Iksan,Chongjin,Hamhung,Pyongyang,Kaesong,Nampo,Wonsan,Cheonan,Anyang,Ansan,Nonsan",,
+    "b": "Seoul,Incheon,Daegu,Daejeon,Gwangju,Suwon,Yongin,Changwon,Seongnam,Cheongju,Jeonju,Goyang,Pohang,Jeju,Chuncheon,Gimhae,Gyeongju,Mokpo,Yeosu,Gangneung,Tongyeong,Jinhae,Gimje,Busan,Ulsan,Andong,Gunsan,Wonju,Iksan,Chongjin,Hamhung,Pyongyang,Kaesong,Nampo,Wonsan,Cheonan,Anyang,Ansan,Nonsan",
     "status": "COMPLETE"
   },
   {
@@ -6687,7 +5948,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Okhaldhunga,Solu,Khotang,Diktel,Salleri,Taplejung,Phidim,Hile,Mangalbare,Thoklung,Chhintang,Nele,Bamdanda,Moplung,Mane,Sake,Chivali,Solma,Bhojpur,Chainpur",,
+    "b": "Okhaldhunga,Solu,Khotang,Diktel,Salleri,Taplejung,Phidim,Hile,Mangalbare,Thoklung,Chhintang,Nele,Bamdanda,Moplung,Mane,Sake,Chivali,Solma,Bhojpur,Chainpur",
     "status": "COMPLETE"
   },
   {
@@ -6757,7 +6018,7 @@ window.asiaNameBases = [
     "max": 12,
     "d": "",
     "m": 0,
-    "b": "Kathmandu,Pokhara,Birgunj,Butwal,Hetauda,Dhangadhi,Itahari,Nepalgunj,Gorkha,Tansen,Rajbiraj,Siraha,Jaleshwar,Malangwa,Gaur,Sindhuli,Dhulikhel,Bidur,Biratnagar,Lalitpur,Bharatpur,Dharan,Janakpur,Bhaktapur,Lahan,Chandrapur,Kohalpur,Tikapur,Rajapur,Tulsipur",,
+    "b": "Kathmandu,Pokhara,Birgunj,Butwal,Hetauda,Dhangadhi,Itahari,Nepalgunj,Gorkha,Tansen,Rajbiraj,Siraha,Jaleshwar,Malangwa,Gaur,Sindhuli,Dhulikhel,Bidur,Biratnagar,Lalitpur,Bharatpur,Dharan,Janakpur,Bhaktapur,Lahan,Chandrapur,Kohalpur,Tikapur,Rajapur,Tulsipur",
     "status": "COMPLETE"
   },
   {
@@ -7101,16 +6362,6 @@ window.asiaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Classical Tibetan",
-    "i": 200265,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-  {
     "name": "Dadeldhuri (Doteli)",
     "i": 200266,
     "min": 5,
@@ -7138,7 +6389,7 @@ window.asiaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Kamalamai,Dudhauli,Triyuga,Katari,Hetauda,Dhulikhel,Panauti,Banepa,Kalaiya,Gaur,Malangwa,Jaleshwar,Bharatpur,Ratnanagar,Siraha,Lahan,Bidur,Chautara,Melamchi,Majhgaun,Raigaun,Jaretar,Chandanpur",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
   {
     "name": "Darchuleli (Doteli)",
@@ -7531,16 +6782,6 @@ window.asiaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Jurchenic",
-    "i": 200308,
-    "min": 4,
-    "max": 12,
-    "d": "lnrt",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-  {
     "name": "Kaco'",
     "i": 200309,
     "min": 2,
@@ -7848,7 +7089,7 @@ window.asiaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
   {
     "name": "Longsang Zhuang",
@@ -8039,17 +7280,7 @@ window.asiaNameBases = [
     "m": 0,
     "b": "Minhe,Huzhu,Datong,Huangyuan,Xining,Pingan,Jishishan,Guyuan,Tongren,Golmud,Dulan,Zeku,Jianzha,Tongde,Xinghai,Guide,Chaka,Ledu,Hualong,Xunhua",
     "status": "COMPLETE"
-  },
-{
-    "name": "Manglish",
-    "i": 200359,
-    "min": 4,
-    "max": 13,
-    "d": "lnrt",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
+},
   {
     "name": "Mankiyali",
     "i": 200360,
@@ -8151,16 +7382,6 @@ window.asiaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Middle Mongol",
-    "i": 200370,
-    "min": 4,
-    "max": 13,
-    "d": "lnrt",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-  {
     "name": "Min Zhuang",
     "i": 200371,
     "min": 4,
@@ -8179,26 +7400,6 @@ window.asiaNameBases = [
     "m": 0,
     "b": "Buon Ma Thuot,Lak,Lien Son,Dak Mil,Dak Nong,Dak R'lap,Bu Dang,Bu Dop,Chon Thanh,Dong Xoai,Dak Nhe,Dak Ro,Bu Na,Dak Mang,Dak Song,Gia Nghia,Phuoc Long,Binh Long,Loc Ninh,Dak R'Tih,Dak P'la,Dak Wil,Dak Sor,Dak Koi,Dak T're,Dak N'dung,Dak R'Mang,Dak R'Lap,Dak R'Tir,Dak R'Nuoc,Dak R'Nga,Dak R'Dang,Dak R'Kok",
     "status": "COMPLETE"
-  },
-  {
-    "name": "Moghol / Mogholi",
-    "i": 200373,
-    "min": 4,
-    "max": 14,
-    "d": "lnrt",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-  {
-    "name": "Mogholi",
-    "i": 200374,
-    "min": 4,
-    "max": 14,
-    "d": "lnrt",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
   },
   {
     "name": "Mongghul",
@@ -11269,7 +10470,7 @@ window.asiaNameBases = [
     "m": 0,
     "b": "Tachileik,Ranoon,Pekon,Langhko,Mongnai,Monghsu,Mongyang,Keng Tung,Taunggyi,Loikaw,Hpa-an,Mawlamyine,Dawei,Myeik,Chiang Mai,Chiang Rai,Lampang,Phrae,Nan,Phitsanulok,Sukhothai,Tak,Mae Sot,Myawaddy",
     "status": "COMPLETE"
-  }
+  },
   {
     "name": "Longjia Luren",
     "i": 201264,
@@ -12540,6 +11741,4 @@ window.asiaNameBases = [
     "b": "KonTum,MangBuk,DakTo,DakGlei,NgocHoi,SaThay,ChuSe,AnKhe,DakGlei,DakSong,Kontum,Pleiku,ChuProng,DakSong,SaThay,NgocHoi,ChuSe,AnKhe,DakGlei,DakSong,KonTum",
     "status": "COMPLETE"
   }
-  "status": "COMPLETE"
-}
 ];
