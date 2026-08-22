@@ -1,0 +1,241 @@
+{
+  "languages": [
+    {
+      "name": "Dibiyaso",
+      "user_iso": "dbo",
+      "actual_iso": "dby",
+      "country": "Papua New Guinea",
+      "province": "Western Province",
+      "speaker_population": "~400 (1976 Reesink), ~2,000 (2000 census), Joshua Project: 4,100",
+      "status": "Stable",
+      "verified_toponyms": [
+        "Bamustu (7°54′02″S 142°58′57″E)",
+        "Makapa (7°56′16″S 142°34′34″E)",
+        "Pikiwa (7°54′20″S 142°43′02″E)"
+      ],
+      "toponym_count": 3,
+      "sources": [
+        "Reesink (1976) - comparative notes and 97 terms for Bainapi",
+        "Rueck, MacKenzie & Alemán (2005) - 156 terms for Dibiyaso of Bamustu, Makapa, Pikiwa",
+        "Franklin & Voorhoeve (1973) - 47 comparative terms for Bainapi",
+        "Shaw (1986) - 99 comparative terms",
+        "Ethnologue / Wikipedia / Glottolog / TransNewGuinea.org"
+      ],
+      "can_reach_25_plus": false,
+      "notes": "3 villages only; each village has different name for language (Turumasa in Makapa, Bainapi in Pikiwa, Dibiasu in Bamustu)"
+    },
+    {
+      "name": "Guriaso",
+      "user_iso": "gri",
+      "actual_iso": "grx",
+      "country": "Papua New Guinea",
+      "province": "Sandaun Province (Amanab District)",
+      "speaker_population": "1,500 (2014 Ethnologue), Joshua Project: 300",
+      "status": "Endangered (Tok Pisin dominant among youth)",
+      "verified_toponyms": [
+        "Guriaso ward (3°34′52″S 141°35′32″E)",
+        "Maragin",
+        "Wuraboi (Wurabai)",
+        "Ekas",
+        "Mafuara",
+        "Kwieftim (Yeftim) - switching to Guriaso"
+      ],
+      "toponym_count": 6,
+      "sources": [
+        "Baron (1983) Kwomtari Survey - 1979 census data for 5 villages",
+        "Ethnologue / Wikipedia / Glottolog / Joshua Project",
+        "SIL PNG Languages database"
+      ],
+      "can_reach_25_plus": false,
+      "notes": "Also called Muno; 5 main villages + 1 switching village; 1979 census: 347 resident, 74 absent = 421 total"
+    },
+    {
+      "name": "Karami",
+      "user_iso": "kgq",
+      "actual_iso": "xar",
+      "country": "Papua New Guinea",
+      "province": "Western Province",
+      "speaker_population": "EXTINCT (1950s)",
+      "status": "Extinct",
+      "verified_toponyms": [
+        "Kikimairi village",
+        "Aduahai village"
+      ],
+      "toponym_count": 2,
+      "sources": [
+        "Flint (1919:96) - only existing wordlist recorded Oct 12, 1917",
+        "Wikipedia / Ethnologue / Glottolog / SIL archives",
+        "TransNewGuinea.org"
+      ],
+      "can_reach_25_plus": false,
+      "notes": "Extinct; only 2 villages documented; only a short wordlist survives with many Foia Foia loans"
+    },
+    {
+      "name": "Kehu",
+      "user_iso": "khh",
+      "actual_iso": "khh",
+      "country": "Indonesia (Papua province)",
+      "province": "Papua Province, Nabire Regency, Wapoga District",
+      "speaker_population": "~200 (2007), Joshua Project: 200",
+      "status": "Endangered",
+      "verified_toponyms": [
+        "Keuw village (kampung) on Poronai River"
+      ],
+      "toponym_count": 1,
+      "sources": [
+        "Wikipedia (Keuw language) / Ethnologue / Glottolog (kehu1238)",
+        "Joshua Project / Endangered Languages Project",
+        "TransNewGuinea.org"
+      ],
+      "can_reach_25_plus": false,
+      "notes": "NOT in Papua New Guinea - in Indonesia (Papua province); also called Keuw; single village"
+    },
+    {
+      "name": "Komolom (Mombum)",
+      "user_iso": "kom",
+      "actual_iso": "mso",
+      "country": "Indonesia (South Papua province)",
+      "province": "South Papua, Merauke Regency, Kimaam District",
+      "speaker_population": "250 (1993), 400 (Joshua Project 2016), 465 residents on island (2023)",
+      "status": "Moribund (EGIDS 8a)",
+      "verified_toponyms": [
+        "Komolom Island (Pulau Komolom, 8°16′S 138°46′E)",
+        "Komolom village (sole village on island)"
+      ],
+      "toponym_count": 2,
+      "sources": [
+        "Wikipedia (Mombum language, Komoran Island) / Ethnologue / Glottolog",
+        "NewGuineaWorld (Mombum/Komolom)",
+        "Badan Informasi Geospasial (toponym ID 125138)",
+        "Joshua Project / Linguistic Diversity at Risk (2024)"
+      ],
+      "can_reach_25_plus": false,
+      "notes": "NOT in Papua New Guinea - in Indonesia (South Papua); single village on Komolom Island; also called Mombum/Kemelom"
+    },
+    {
+      "name": "Komyandaret",
+      "user_iso": "kxr",
+      "actual_iso": "kzv",
+      "country": "Indonesia (South Papua province)",
+      "province": "South Papua, Boven Digoel Regency, Firiwage District",
+      "speaker_population": "300 (2000), 400 (Joshua Project), Hughes (2009): ~300, Baas: max 500",
+      "status": "Poorly documented",
+      "verified_toponyms": [
+        "Danokit village (Komyandaret-speaking)",
+        "Kaway Village (mentioned alongside Tsaukambo)"
+      ],
+      "toponym_count": 2,
+      "sources": [
+        "Wikipedia / Ethnologue / Glottolog (komy1238) / Joshua Project",
+        "Hughes (2009) - 239-item wordlist from Danokit",
+        "de Vries (2012) - Tsaukambo language notes mentioning Komyandaret",
+        "TransNewGuinea.org / CLICS"
+      ],
+      "can_reach_25_plus": false,
+      "notes": "NOT in Papua New Guinea - in Indonesia (South Papua); 60% lexical similarity with Tsaukambo; likely dialect continuum"
+    },
+    {
+      "name": "Konai",
+      "user_iso": "kqs",
+      "actual_iso": "kxw",
+      "country": "Papua New Guinea",
+      "province": "Western Province (Murray River area, west of Strickland River)",
+      "speaker_population": "~400 (Årsjö & Årsjö 2005), 600 (1991 census), Ethnologue: stable",
+      "status": "Stable",
+      "verified_toponyms": [
+        "Dahamo (main village, airstrip)",
+        "Debele (4 houses, 22 people)",
+        "Edolo (12 houses, 67 people)",
+        "Fokona",
+        "Gayabi (6 houses, 33 people)",
+        "Sesenabi (6 houses, 33 people)",
+        "Tinahai (12 houses, 72 people)",
+        "Oguotibi (7 houses, 18 people) - Eastern dialect",
+        "Tougohai (5 houses, 15 people) - Eastern dialect"
+      ],
+      "toponym_count": 9,
+      "sources": [
+        "Årsjö & Årsjö (2005) - Phonology and orthography essentials, SIL",
+        "Årsjö & Årsjö (1991, 2000) - Sociolinguistic survey and field notes",
+        "Wikipedia / Ethnologue / Glottolog (kona1242) / TransNewGuinea.org",
+        "SIL Archives (Konai Reference Grammar 2022)"
+      ],
+      "can_reach_25_plus": false,
+      "notes": "9 villages total (7 major + 2 Eastern dialect); 3 dialects: Lowland, Foothill, Mountain; villages spread over 30-35km"
+    },
+    {
+      "name": "Koneraw",
+      "user_iso": "kxc",
+      "actual_iso": "kdw",
+      "country": "Indonesia (South Papua province)",
+      "province": "South Papua, Merauke Regency, Yos Sudarso (Kolopom) Island",
+      "speaker_population": "1,200 (2001), Joshua Project: 1,700",
+      "status": "Endangered",
+      "verified_toponyms": [
+        "Single village on south coast of Kolopom/Yos Sudarso Island (Konorau)"
+      ],
+      "toponym_count": 1,
+      "sources": [
+        "Wikipedia / Ethnologue / Glottolog (kone1241) / Joshua Project",
+        "NewGuineaWorld (Konorau) - Voorhoeve (1975), Geurtjens (1933)",
+        "TransNewGuinea.org / Muli Strait family documentation"
+      ],
+      "can_reach_25_plus": false,
+      "notes": "NOT in Papua New Guinea - in Indonesia (South Papua); single village surrounded by Kimaghama speakers; sister language to Mombum"
+    },
+    {
+      "name": "Kubo",
+      "user_iso": "kcb",
+      "actual_iso": "jko",
+      "country": "Papua New Guinea",
+      "province": "Western Province (Strickland River lowlands/foothills)",
+      "speaker_population": "~500 (2007), ~1,000 (2011), Joshua Project: 2,500, 430 in Kiunga town (2023)",
+      "status": "Stable",
+      "verified_toponyms": [
+        "Gwaimasi (= Komagato) - on Gwai stream, west bank Strickland River",
+        "Suabi (Soabi 1, 2, 3) - at Baiya (Boye/Cecelia) River junction",
+        "Sesanabi (on Sigia stream, Konai land)",
+        "Mome Hafi (junction of Mome and Dege streams)",
+        "Dege Hafi (junction of Dege stream and Strickland River)",
+        "Tagohai / Tobi 2 / Molo Village (junction of Molo and Dogomo River)",
+        "Gugwuasu (established 1987)",
+        "Dahamo (Konai village, mission station)",
+        "Baiya River (Boye/Cecelia River)",
+        "Mome Stream (with waterfall Gwai si)",
+        "Dege Stream",
+        "Sigia Stream",
+        "Dogomo River",
+        "Molo Stream",
+        "Gwai Stream",
+        "Duwon Kabi (mountain - kundu drum trees)",
+        "Tai Su (mountain - bow-making palms)",
+        "Sosiyo (mountain - sacred)",
+        "Suwa'a 2, Hima'a, Biya'a, Gobamo'o, Diyo'o (streams/clan boundaries)",
+        "Tibidibo (clan land block)",
+        "Uwo'o (stream junction)",
+        "Forbidden place (toin sa) near Sasosi Village",
+        "Sacred site (rock with human face imprint) near Sasosi"
+      ],
+      "toponym_count": 23,
+      "sources": [
+        "Dwyer & Minnegal (1992, 1999, 2007, 2014, 2015, 2017) - extensive ethnographic publications",
+        "Minnegal & Dwyer 'Navigating the Future' (ANU Press 2017) - detailed toponyms",
+        "'Where all the rivers flow west' (2014) - maps with named sites",
+        "PNG NRI Discussion Paper 214 (2023) - Kubo/Febi migration to Kiunga",
+        "Wikipedia / Ethnologue / Glottolog (kubo1242) / Joshua Project / TransNewGuinea.org"
+      ],
+      "can_reach_25_plus": true,
+      "notes": "Rich toponymic landscape documented by Dwyer & Minnegal over 30 years; named streams, swamps, mountains, caves, sacred sites, clan land boundaries; likely 50+ toponyms in ethnographic record"
+    }
+  ],
+  "kula_note": "Kula (ISO: tpg, not kls) is in INDONESIA (Alor Island), NOT Papua New Guinea. It has 31 documented toponyms from 2023-2026 fieldwork (Perono Cacciafoco et al.) and CAN reach 25+. kls = Kalasha (Pakistan).",
+  "kawacha_note": "kcb = Kawacha (PNG, Huon Peninsula, ~1,000 speakers) - different language from Kubo (jko).",
+  "summary": {
+    "total_languages_researched": 10,
+    "in_png": 4,
+    "in_indonesia": 6,
+    "extinct": 1,
+    "can_reach_25_plus": 1,
+    "cannot_reach_25_plus": 9
+  }
+}

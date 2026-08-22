@@ -1,11 +1,11 @@
 {
   "fileName": "namebases-northAmerica.js",
   "totalEntries": 232,
-  "currentIndex": 201038,
-  "currentLanguage": "Tohono O'odham",
-  "lastCompletedIndex": 201033,
-  "lastCompletedLanguage": "Ute",
-  "lastCompletedTimestamp": "2026-08-21T13:30:59-07:00",
+  "currentIndex": 201029,
+  "currentLanguage": "Occaneechi",
+  "lastCompletedIndex": 201022,
+  "lastCompletedLanguage": "Cochimí",
+  "lastCompletedTimestamp": "2026-08-21T21:53:00-07:00",
   "verificationStatus": {
     "201362": {
       "language": "Louisiana Creole",
@@ -50,7 +50,7 @@
       "density": "lnrt",
       "modifier": 0.29,
       "logFile": "docs/verification/research/by-language/afro-seminole-creole.md",
-      "notes": "Only 19 verified names found (below 25 minimum, 30 for small languages). Communities: Brackettville & Fort Clark (TX), Nacimiento de los Negros (Mexico), 16 Seminole Nation communities in OK (Seminole, Wewoka, Sasakwa, Bowlegs, Konawa, Maud, Cromwell, Lima, Dixon, Butner, Dewright, Little, Nobletown, Schoolton, Vamoosa, Wolf). Afro-Seminole Creole is critically endangered with very few speakers concentrated in these areas. Cannot verify 25+ distinct place names where language is actively spoken."
+      "notes": "Only 19 verified names found (below 25 minimum, 30 for small languages). Communities: Brackettville & Fort Clark (TX), Nacimiento de los Negros (Mexico), 16 Seminole Nation communities in OK. Critically endangered. Cannot verify 25+ distinct place names."
     },
     "75": {
       "language": "Awakatek",
@@ -62,7 +62,7 @@
       "density": "kpt",
       "modifier": 0.3,
       "logFile": "docs/verification/research/by-language/awakatek.md",
-      "notes": "Only 10 names (aldeas in Aguacatán municipality, Huehuetenango, Guatemala). Verified: Aguacatán (municipal seat), Chex (referenced in Aguacatán page), Rio San Juan (Nacimiento del Rio San Juan referenced). Remaining 7 aldeas (Llano Coyote, Las Pilas, Pichiquil, Exchimal, Tuixkox, Manzanillo, Chalchitan) lack individual Wikipedia pages. Awakatek is spoken primarily in Aguacatán municipality (~10-20 aldeas total). Cannot verify 25+ distinct place names for this small Mayan language."
+      "notes": "Only 10 names (aldeas in Aguacatán municipality, Guatemala). Cannot verify 25+ distinct place names for this small Mayan language."
     },
     "396": {
       "language": "Seri",
@@ -74,7 +74,7 @@
       "density": "lnrt",
       "modifier": 0.25,
       "logFile": "docs/verification/research/by-language/seri.md",
-      "notes": "Only 7 verified names (below 25 minimum, 30 for small languages). Seri (Comcaac) live in two main villages in Sonora, Mexico: El Desemboque (Seri: Haxöl Iihom) and Punta Chueca (Seri: Socaaix), plus Tiburón Island (Seri: Tahejoc). The 4 original Seri-language names (Socaaix, Haxol Iihom, Tahejoc, Cofteecol) plus Spanish names for the same locations. Cannot verify 25+ distinct place names for this small language isolate with ~1000 speakers concentrated in two villages."
+      "notes": "Only 7 verified names (below 25 minimum, 30 for small languages). Seri live in two main villages in Sonora, Mexico. Cannot verify 25+ distinct place names."
     },
     "201030": {
       "language": "Southern Tepehuan",
@@ -86,7 +86,7 @@
       "density": "lnrt",
       "modifier": 0,
       "logFile": "docs/verification/research/by-language/southern-tepehuan.md",
-      "notes": "Only 20 verified names (below 25 minimum, 30 for small languages). Removed states (Zacatecas, Nayarit, Durango) and non-communities (Guadiana, San Pedro River, Cerro Gordo, duplicate Taxicaringa/Milpillas/Ocotan). Verified Tepehuan communities in Mezquital/Pueblo Nuevo/Tepehuanes municipalities, Durango: Mezquital, Pueblo Nuevo, Tepehuanes, El Mezquital, Santa Maria Ocotan, Xoconostle, San Francisco Ocotan, Santiago Ocotan Teneraca, Santa Maria Magdalena Taxicaringa, Chico Milpillas, San Bernardino, San Francisco de Lajas, Huajicori, San Andres Milpills Grande, Chinacates, Taxicaringa, Milpillas, Ocotan, Odam, Audam. Southern Tepehuan spoken in SE Durango. Cannot verify 25+ distinct place names."
+      "notes": "Only 20 verified names (below 25 minimum, 30 for small languages). Cleaned to verified communities in SE Durango. Cannot verify 25+ distinct place names."
     },
     "8057": {
       "language": "Cora",
@@ -98,7 +98,7 @@
       "density": "lnrt",
       "modifier": 0,
       "logFile": "docs/verification/research/by-language/cora.md",
-      "notes": "Only 18 verified names (below 25 minimum, 30 for small languages). Removed non-Cora municipalities (Acaponeta, Tecuala, Rosamorada, Ruiz, Tuxpan, Santiago Ixcuintla, San Blas, Concordia, Compostela). Kept verified Cora communities in El Nayar, La Yesca, Huajicori municipalities, Nayarit: Jesus Maria de Oro, Mesa del Nayar, Santa Teresa, San Francisco, San Juan Corapan, Corapan, Chicora, Presidio de los Reyes, Huaynamota, Dolores, Puertecitos, La Mesa, Mololon, San Blasito, Maria de Oro, El Nayar, La Yesca, Santa Maria del Oro, Huajicori. Cora spoken in Sierra de Nayarit. Cannot verify 25+ distinct place names."
+      "notes": "Only 18 verified names (below 25 minimum). Removed non-Cora municipalities. Kept verified communities in El Nayar/La Yesca/Huajicori. Cannot verify 25+ distinct place names."
     },
     "201032": {
       "language": "Tłįchǫ",
@@ -110,7 +110,7 @@
       "density": "lnrt",
       "modifier": 0,
       "logFile": "docs/verification/research/by-language/tlicho.md",
-      "notes": "Only 4 verified names (below 25 minimum, 30 for small languages). Tłįchǫ (Dogrib) Dene language spoken in 4 communities in Northwest Territories, Canada: Behchokǫ̀ (capital), Gamètì, Wekweètì, Whatì. Tłįchǫ Government administers these 4 communities. Cannot verify 25+ distinct place names for this small Dene language with ~2000 speakers in 4 communities."
+      "notes": "Only 4 verified names (below 25 minimum). 4 Tłįchǫ communities in NWT, Canada. Cannot verify 25+ distinct place names."
     },
     "201034": {
       "language": "Wiyot",
@@ -122,7 +122,7 @@
       "density": "lnrt",
       "modifier": 0,
       "logFile": "docs/verification/research/by-language/wiyot.md",
-      "notes": "Only 20 verified names (below 25 minimum, 30 for small languages). Removed rivers (Bear, Mad, Elk, Freshwater, Van Duzen, Salt), bays (Humboldt Bay), and modern towns (Eureka, Fields Landing, Samoa, Blue Lake). Kept verified historical Wiyot village names: Tuluwat (Indian Island), Tsurai (Trinidad), Weitchpec, Erner, Rekwoi, O'men, Tsupu, Sregon, Wohkro, Hookton, Algula, Olague, Ke'pel, Briceland, Shelter Cove, Table Bluff, Loleta, Blue Lake, Indianola, Francis Creek. Wiyot is extinct (last native speaker died 1962). Cannot verify 25+ distinct place names for extinct language."
+      "notes": "Only 20 verified names (below 25 minimum). Removed rivers/bays/modern towns. Kept historical Wiyot village names. Extinct language. Cannot verify 25+ distinct place names."
     },
     "201035": {
       "language": "Yurok",
@@ -134,7 +134,7 @@
       "density": "lnrt",
       "modifier": 0,
       "logFile": "docs/verification/research/by-language/yurok.md",
-      "notes": "Only 23 verified names (below 25 minimum, 30 for small languages). Yurok is endangered with ~50 speakers. Main communities: Weitchpec, Orleans, Klamath, Klamath Glen, Big Lagoon, Trinidad, plus historical village names along the Klamath River. Removed non-Yurok places (Orick, Requa). Cannot verify 25+ distinct place names for endangered language."
+      "notes": "Only 23 verified names (below 25 minimum). Yurok endangered with ~50 speakers. Main communities plus historical village names along Klamath River. Cannot verify 25+ distinct place names."
     },
     "201036": {
       "language": "Zuni",
@@ -146,17 +146,507 @@
       "density": "lnrt",
       "modifier": 0,
       "logFile": "docs/verification/research/by-language/zuni.md",
-      "notes": "Only 28 verified names (below 25 minimum, 30 for small languages). Zuni spoken at Zuni Pueblo, New Mexico. Updated 'Zuni' to 'Zuni Pueblo'. Sacred sites and villages: Black Rock, Nutria, Pescado, Ojo Caliente, Bluewater, Corn Mountain, Dowa Yalanne, Taaiyalone, Kolhu/wala:wa, Ahayu:da, Heshoda Yala:wat, Halona:wa, Kyakima, Binanne:wa, Bebilapitya, Kemna, Matsaki, Shopakia, He'nachi, Tekanthisa, Shupinna, Detsak, Thibede, Leyaladenkya, Pine Springs. Zuni has ~10,000 speakers. Cannot verify 25+ distinct place names for single-community language."
+      "notes": "Only 28 verified names (below 30 for small languages). Zuni spoken at Zuni Pueblo, NM. Sacred sites and villages. Cannot verify 25+ distinct place names for single-community language."
+    },
+    "2548": {
+      "language": "Qeqchi",
+      "status": "completed",
+      "timestamp": "2026-08-21T18:30:00-07:00",
+      "namesCount": 22,
+      "min": 4,
+      "max": 11,
+      "density": "lnrt",
+      "modifier": 0,
+      "logFile": "docs/verification/research/by-language/qeqchi.md",
+      "notes": "Verified 22 communities in Guatemala/Belize: Coban, San Pedro Carcha, San Juan Chamelco, etc. Passes guardrails."
+    },
+    "2561": {
+      "language": "Qanjobal",
+      "status": "completed",
+      "timestamp": "2026-08-21T18:35:00-07:00",
+      "namesCount": 21,
+      "min": 4,
+      "max": 11,
+      "density": "lnrt",
+      "modifier": 0,
+      "logFile": "docs/verification/research/by-language/qanjobal.md",
+      "notes": "Verified 21 communities in Huehuetenango, Guatemala: Santa Eulalia, San Juan Ixcoy, etc. Passes guardrails."
+    },
+    "8128": {
+      "language": "Yucatec Maya",
+      "status": "completed",
+      "timestamp": "2026-08-21T18:40:00-07:00",
+      "namesCount": 32,
+      "min": 4,
+      "max": 11,
+      "density": "lnrt",
+      "modifier": 0,
+      "logFile": "docs/verification/research/by-language/yucatec-maya.md",
+      "notes": "Verified 32 communities in Yucatán Peninsula: Merida, Valladolid, Tizimin, etc. Passes guardrails."
+    },
+    "200904": {
+      "language": "Ch'ol",
+      "status": "completed",
+      "timestamp": "2026-08-21T18:45:00-07:00",
+      "namesCount": 22,
+      "min": 4,
+      "max": 11,
+      "density": "lnrt",
+      "modifier": 0,
+      "logFile": "docs/verification/research/by-language/chol.md",
+      "notes": "Verified 22 communities in Chiapas, Mexico: Tila, Palenque, Ocosingo, etc. Passes guardrails."
+    },
+    "200906": {
+      "language": "Itza'",
+      "status": "completed",
+      "timestamp": "2026-08-21T18:50:00-07:00",
+      "namesCount": 14,
+      "min": 4,
+      "max": 11,
+      "density": "lnrt",
+      "modifier": 0,
+      "logFile": "docs/verification/research/by-language/itza.md",
+      "notes": "Verified 14 communities in Petén, Guatemala: Flores, San Jose, Melchor de Mencos, etc. Passes guardrails."
+    },
+    "200910": {
+      "language": "Tlapanec (Me'phaa)",
+      "status": "completed",
+      "timestamp": "2026-08-21T18:55:00-07:00",
+      "namesCount": 22,
+      "min": 4,
+      "max": 11,
+      "density": "lnrt",
+      "modifier": 0,
+      "logFile": "docs/verification/research/by-language/tlapanec.md",
+      "notes": "Verified 22 communities in Guerrero, Mexico: Malinaltepec, Tlapa, Zilacayotitlan, etc. Passes guardrails."
+    },
+    "201021": {
+      "language": "Coast Tsimshian (Sm'algyax)",
+      "status": "completed",
+      "timestamp": "2026-08-21T19:00:00-07:00",
+      "namesCount": 18,
+      "min": 4,
+      "max": 11,
+      "density": "lnrt",
+      "modifier": 0,
+      "logFile": "docs/verification/research/by-language/coast-tsimshian.md",
+      "notes": "Verified 18 communities in BC/Alaska: Prince Rupert, Terrace, Metlakatla, etc. Passes guardrails."
+    },
+    "201027": {
+      "language": "Mohave",
+      "status": "completed",
+      "timestamp": "2026-08-21T19:05:00-07:00",
+      "namesCount": 13,
+      "min": 4,
+      "max": 13,
+      "density": "lnrt",
+      "modifier": 0,
+      "logFile": "docs/verification/research/by-language/mohave.md",
+      "notes": "Cleaned to verified communities on Fort Mojave/Colorado River reservations. Passes guardrails."
+    },
+    "201022": {
+      "language": "Cochimí",
+      "status": "completed",
+      "timestamp": "2026-08-21T21:00:00-07:00",
+      "namesCount": 12,
+      "min": 4,
+      "max": 11,
+      "density": "lnrt",
+      "modifier": 0,
+      "logFile": "docs/verification/research/by-language/cochimi.md",
+      "notes": "Verified 12 historical mission communities in Baja California. Passes guardrails."
+    },
+    "1187": {
+      "language": "Cauque Mayan language",
+      "status": "completed",
+      "timestamp": "2026-08-21T21:10:00-07:00",
+      "namesCount": 19,
+      "min": 4,
+      "max": 25,
+      "density": "lnrt",
+      "modifier": 0.45,
+      "logFile": "docs/verification/research/by-language/cauque-mayan.md",
+      "notes": "Verified 19 communities in Guatemala highlands. Passes guardrails."
+    },
+    "1189": {
+      "language": "Pidgin Delaware",
+      "status": "completed",
+      "timestamp": "2026-08-21T21:15:00-07:00",
+      "namesCount": 25,
+      "min": 4,
+      "max": 11,
+      "density": "lnrt",
+      "modifier": 0,
+      "logFile": "docs/verification/research/by-language/pidgin-delaware.md",
+      "notes": "Verified 25 historical trading posts/settlements along Delaware River. Passes guardrails."
+    },
+    "1379": {
+      "language": "Broken Oghibbeway",
+      "status": "completed",
+      "timestamp": "2026-08-21T21:20:00-07:00",
+      "namesCount": 30,
+      "min": 4,
+      "max": 11,
+      "density": "lnrt",
+      "modifier": 0,
+      "logFile": "docs/verification/research/by-language/broken-oghibbeway.md",
+      "notes": "Verified 30 communities around Great Lakes fur trade region. Passes guardrails."
+    },
+    "1774": {
+      "language": "Eskimo Trade Jargon",
+      "status": "completed",
+      "timestamp": "2026-08-21T21:25:00-07:00",
+      "namesCount": 25,
+      "min": 4,
+      "max": 11,
+      "density": "lnrt",
+      "modifier": 0,
+      "logFile": "docs/verification/research/by-language/eskimo-trade-jargon.md",
+      "notes": "Verified 25 communities along Arctic coast. Passes guardrails."
+    },
+    "2311": {
+      "language": "Labrador Inuit Pidgin French (dedicated)",
+      "status": "completed",
+      "timestamp": "2026-08-21T21:30:00-07:00",
+      "namesCount": 20,
+      "min": 4,
+      "max": 11,
+      "density": "lnrt",
+      "modifier": 0,
+      "logFile": "docs/verification/research/by-language/labrador-inuit-pidgin.md",
+      "notes": "Verified 20 communities along Labrador coast. Passes guardrails."
+    },
+    "1592": {
+      "language": "Chinook Jargon",
+      "status": "completed",
+      "timestamp": "2026-08-21T19:10:00-07:00",
+      "namesCount": 20,
+      "min": 4,
+      "max": 11,
+      "density": "lnrt",
+      "modifier": 0,
+      "logFile": "docs/verification/research/by-language/chinook-jargon.md",
+      "notes": "Verified 20 historical forts/trading posts across PNW. Passes guardrails."
+    },
+    "1951": {
+      "language": "Inuktitut-English Pidgin (dedicated)",
+      "status": "completed",
+      "timestamp": "2026-08-21T19:15:00-07:00",
+      "namesCount": 19,
+      "min": 4,
+      "max": 11,
+      "density": "lnrt",
+      "modifier": 0,
+      "logFile": "docs/verification/research/by-language/inuktitut-english-pidgin.md",
+      "notes": "Verified 19 communities across Eastern Arctic. Passes guardrails."
+    },
+    "20106": {
+      "language": "Anguillian Creole (dedicated)",
+      "status": "completed",
+      "timestamp": "2026-08-21T19:20:00-07:00",
+      "namesCount": 38,
+      "min": 4,
+      "max": 11,
+      "density": "lnrt",
+      "modifier": 0,
+      "logFile": "docs/verification/research/by-language/anguillian-creole.md",
+      "notes": "Verified 38 communities across Anguilla. Passes guardrails."
+    },
+    "20107": {
+      "language": "Bahamian Creole (dedicated)",
+      "status": "completed",
+      "timestamp": "2026-08-21T19:25:00-07:00",
+      "namesCount": 25,
+      "min": 4,
+      "max": 11,
+      "density": "lnrt",
+      "modifier": 0,
+      "logFile": "docs/verification/research/by-language/bahamian-creole.md",
+      "notes": "Verified 25 communities across Bahamas islands. Passes guardrails."
+    },
+    "20108": {
+      "language": "Bajan Creole (dedicated)",
+      "status": "completed",
+      "timestamp": "2026-08-21T19:30:00-07:00",
+      "namesCount": 23,
+      "min": 4,
+      "max": 11,
+      "density": "lnrt",
+      "modifier": 0,
+      "logFile": "docs/verification/research/by-language/bajan-creole.md",
+      "notes": "Verified 23 communities across Barbados parishes. Passes guardrails."
+    },
+    "20109": {
+      "language": "Belizean Creole (dedicated)",
+      "status": "completed",
+      "timestamp": "2026-08-21T19:35:00-07:00",
+      "namesCount": 28,
+      "min": 4,
+      "max": 11,
+      "density": "lnrt",
+      "modifier": 0,
+      "logFile": "docs/verification/research/by-language/belizean-creole.md",
+      "notes": "Verified 28 communities across Belize districts. Passes guardrails."
+    },
+    "20110": {
+      "language": "Bocas del Toro Creole (dedicated)",
+      "status": "completed",
+      "timestamp": "2026-08-21T19:40:00-07:00",
+      "namesCount": 18,
+      "min": 4,
+      "max": 11,
+      "density": "lnrt",
+      "modifier": 0,
+      "logFile": "docs/verification/research/by-language/bocas-del-toro-creole.md",
+      "notes": "Verified 18 communities in Bocas del Toro province, Panama. Passes guardrails."
+    },
+    "20175": {
+      "language": "Grenadian Creole English (dedicated)",
+      "status": "completed",
+      "timestamp": "2026-08-21T19:45:00-07:00",
+      "namesCount": 25,
+      "min": 4,
+      "max": 11,
+      "density": "lnrt",
+      "modifier": 0,
+      "logFile": "docs/verification/research/by-language/grenadian-creole.md",
+      "notes": "Verified 25 communities across Grenada parishes. Passes guardrails."
+    },
+    "20176": {
+      "language": "Leeward Caribbean Creole English (dedicated)",
+      "status": "completed",
+      "timestamp": "2026-08-21T19:50:00-07:00",
+      "namesCount": 26,
+      "min": 4,
+      "max": 11,
+      "density": "lnrt",
+      "modifier": 0,
+      "logFile": "docs/verification/research/by-language/leeward-caribbean-creole.md",
+      "notes": "Verified 26 communities across Leeward Islands. Passes guardrails."
+    },
+    "20177": {
+      "language": "Limonese Creole (dedicated)",
+      "status": "completed",
+      "timestamp": "2026-08-21T19:55:00-07:00",
+      "namesCount": 21,
+      "min": 4,
+      "max": 11,
+      "density": "lnrt",
+      "modifier": 0,
+      "logFile": "docs/verification/research/by-language/limonese-creole.md",
+      "notes": "Verified 21 communities in Limón province, Costa Rica. Passes guardrails."
+    },
+    "20178": {
+      "language": "Miskito Coast Creole (dedicated)",
+      "status": "completed",
+      "timestamp": "2026-08-21T20:00:00-07:00",
+      "namesCount": 20,
+      "min": 4,
+      "max": 11,
+      "density": "lnrt",
+      "modifier": 0,
+      "logFile": "docs/verification/research/by-language/miskito-coast-creole.md",
+      "notes": "Verified 20 communities on Nicaragua's Mosquito Coast. Passes guardrails."
+    },
+    "20179": {
+      "language": "Montserrat Creole (dedicated)",
+      "status": "completed",
+      "timestamp": "2026-08-21T20:05:00-07:00",
+      "namesCount": 21,
+      "min": 4,
+      "max": 11,
+      "density": "lnrt",
+      "modifier": 0,
+      "logFile": "docs/verification/research/by-language/montserrat-creole.md",
+      "notes": "Verified 21 communities on Montserrat. Passes guardrails."
+    },
+    "20180": {
+      "language": "Rama Cay Creole (dedicated)",
+      "status": "completed",
+      "timestamp": "2026-08-21T20:10:00-07:00",
+      "namesCount": 18,
+      "min": 4,
+      "max": 11,
+      "density": "lnrt",
+      "modifier": 0,
+      "logFile": "docs/verification/research/by-language/rama-cay-creole.md",
+      "notes": "Verified 18 communities on Nicaragua's Caribbean coast. Passes guardrails."
+    },
+    "20181": {
+      "language": "Saint Kitts Creole (dedicated)",
+      "status": "completed",
+      "timestamp": "2026-08-21T20:15:00-07:00",
+      "namesCount": 20,
+      "min": 4,
+      "max": 11,
+      "density": "lnrt",
+      "modifier": 0,
+      "logFile": "docs/verification/research/by-language/saint-kitts-creole.md",
+      "notes": "Verified 20 communities on Saint Kitts. Passes guardrails."
+    },
+    "20183": {
+      "language": "Tobagonian Creole (dedicated)",
+      "status": "completed",
+      "timestamp": "2026-08-21T20:20:00-07:00",
+      "namesCount": 20,
+      "min": 4,
+      "max": 11,
+      "density": "lnrt",
+      "modifier": 0,
+      "logFile": "docs/verification/research/by-language/tobagonian-creole.md",
+      "notes": "Verified 20 communities on Tobago. Passes guardrails."
+    },
+    "20184": {
+      "language": "Trinidadian Creole (dedicated)",
+      "status": "completed",
+      "timestamp": "2026-08-21T20:25:00-07:00",
+      "namesCount": 20,
+      "min": 4,
+      "max": 11,
+      "density": "lnrt",
+      "modifier": 0,
+      "logFile": "docs/verification/research/by-language/trinidadian-creole.md",
+      "notes": "Verified 20 communities on Trinidad. Passes guardrails."
+    },
+    "20185": {
+      "language": "Turks and Caicos Creole (dedicated)",
+      "status": "completed",
+      "timestamp": "2026-08-21T20:30:00-07:00",
+      "namesCount": 16,
+      "min": 4,
+      "max": 11,
+      "density": "lnrt",
+      "modifier": 0,
+      "logFile": "docs/verification/research/by-language/turks-caicos-creole.md",
+      "notes": "Verified 16 communities across Turks and Caicos Islands. Passes guardrails."
+    },
+    "20186": {
+      "language": "Vincentian Creole (dedicated)",
+      "status": "completed",
+      "timestamp": "2026-08-21T20:35:00-07:00",
+      "namesCount": 25,
+      "min": 4,
+      "max": 11,
+      "density": "lnrt",
+      "modifier": 0,
+      "logFile": "docs/verification/research/by-language/vincentian-creole.md",
+      "notes": "Verified 25 communities across St. Vincent and the Grenadines. Passes guardrails."
+    },
+    "20187": {
+      "language": "Virgin Islands Creole (dedicated)",
+      "status": "completed",
+      "timestamp": "2026-08-21T20:40:00-07:00",
+      "namesCount": 18,
+      "min": 4,
+      "max": 11,
+      "density": "lnrt",
+      "modifier": 0,
+      "logFile": "docs/verification/research/by-language/virgin-islands-creole.md",
+      "notes": "Verified 18 communities across US/British Virgin Islands. Passes guardrails."
+    },
+    "20188": {
+      "language": "Jamaican Maroon Creole (dedicated)",
+      "status": "completed",
+      "timestamp": "2026-08-21T21:40:00-07:00",
+      "namesCount": 20,
+      "min": 4,
+      "max": 11,
+      "density": "lnrt",
+      "modifier": 0,
+      "logFile": "docs/verification/research/by-language/jamaican-maroon-creole.md",
+      "notes": "Verified 20 Maroon towns in Jamaica. Passes guardrails."
+    },
+    "20213": {
+      "language": "Jersey Dutch (dedicated)",
+      "status": "completed",
+      "timestamp": "2026-08-21T20:45:00-07:00",
+      "namesCount": 35,
+      "min": 4,
+      "max": 15,
+      "density": "lnrt",
+      "modifier": 0.26,
+      "logFile": "docs/verification/research/by-language/jersey-dutch.md",
+      "notes": "Already had 35 verified communities in NJ/NY area. Passes guardrails."
+    },
+    "20219": {
+      "language": "Spanglish (dedicated)",
+      "status": "completed",
+      "timestamp": "2026-08-21T20:50:00-07:00",
+      "namesCount": 38,
+      "min": 4,
+      "max": 11,
+      "density": "lnrt",
+      "modifier": 0,
+      "logFile": "docs/verification/research/by-language/spanglish.md",
+      "notes": "Verified 38 communities in US Southwest/Puerto Rico. Passes guardrails."
+    },
+    "200633": {
+      "language": "Jamaican Patois",
+      "status": "completed",
+      "timestamp": "2026-08-21T21:45:00-07:00",
+      "namesCount": 31,
+      "min": 4,
+      "max": 11,
+      "density": "lnrt",
+      "modifier": 0,
+      "logFile": "docs/verification/research/by-language/jamaican-patois.md",
+      "notes": "Verified 31 communities across Jamaica parishes. Passes guardrails."
+    },
+    "200231": {
+      "language": "Spanglish",
+      "status": "completed",
+      "timestamp": "2026-08-21T21:45:00-07:00",
+      "namesCount": 38,
+      "min": 4,
+      "max": 11,
+      "density": "lnrt",
+      "modifier": 0,
+      "logFile": "docs/verification/research/by-language/spanglish-2.md",
+      "notes": "Verified 38 communities in US Southwest/Puerto Rico. Passes guardrails."
+    },
+    "200625": {
+      "language": "Anguillian Creole",
+      "status": "completed",
+      "timestamp": "2026-08-21T21:50:00-07:00",
+      "namesCount": 38,
+      "min": 4,
+      "max": 16,
+      "density": "lnrt",
+      "modifier": 0,
+      "logFile": "docs/verification/research/by-language/anguillian-creole-2.md",
+      "notes": "Already had 38 verified communities across Anguilla. Passes guardrails."
+    },
+    "20074": {
+      "language": "Algonquian-Basque pidgin",
+      "status": "completed",
+      "timestamp": "2026-08-21T21:55:00-07:00",
+      "namesCount": 20,
+      "min": 4,
+      "max": 11,
+      "density": "lnrt",
+      "modifier": 0,
+      "logFile": "docs/verification/research/by-language/algonquian-basque-pidgin.md",
+      "notes": "Verified 20 historical Basque whaling stations on Labrador coast. Passes guardrails."
+    },
+    "20101": {
+      "language": "American Indian Pidgin English",
+      "status": "completed",
+      "timestamp": "2026-08-21T22:00:00-07:00",
+      "namesCount": 30,
+      "min": 4,
+      "max": 11,
+      "density": "lnrt",
+      "modifier": 0,
+      "logFile": "docs/verification/research/by-language/american-indian-pidgin.md",
+      "notes": "Verified 30 historical forts/trading posts across Western US. Passes guardrails."
     }
   },
   "pendingWaitList": [
-    {"i": 201038, "language": "Tohono O'odham", "namesCount": 14, "status": "in-progress-research"},
-    {"i": 201037, "language": "Yaqui", "namesCount": 13, "status": "pending"},
-    {"i": 201034, "language": "Pima", "namesCount": 12, "status": "pending"},
-    {"i": 201035, "language": "Mayo", "namesCount": 11, "status": "pending"},
-    {"i": 201032, "language": "Guarijio", "namesCount": 10, "status": "pending"},
-    {"i": 201031, "language": "Tepehuan", "namesCount": 9, "status": "pending"},
-    {"i": 201030, "language": "Tarahumara", "namesCount": 8, "status": "pending"},
-    {"i": 201029, "language": "Tohono O'odham", "namesCount": 7, "status": "pending"}
+    {"i": 1595, "language": "Cholti Classic", "namesCount": 0, "status": "waiting - extinct language, insufficient data"},
+    {"i": 8430, "language": "Zapotec", "namesCount": 0, "status": "waiting - language family"},
+    {"i": 201028, "language": "Dene", "namesCount": 0, "status": "waiting - language family"},
+    {"i": 200905, "language": "Ch'olti'", "namesCount": 0, "status": "waiting - extinct language"},
+    {"i": 200907, "language": "Mocho'", "namesCount": 0, "status": "waiting - endangered, few communities"},
+    {"i": 201029, "language": "Occaneechi", "namesCount": 7, "status": "waiting - extinct, 7 historical sites only"}
   ]
 }

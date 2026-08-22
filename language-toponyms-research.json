@@ -1,0 +1,342 @@
+{
+  "research_date": "2026-08-21",
+  "languages": [
+    {
+      "language": "Kenati",
+      "iso_code": "gat",
+      "country": "Papua New Guinea",
+      "province": "Eastern Highlands",
+      "district": "Obura-Wonenara",
+      "verified_toponyms": [
+        "Yabuiara",
+        "Oropina",
+        "Arabunkara"
+      ],
+      "toponym_count": 3,
+      "sources": [
+        "NewGuineaWorld (Lloyd 1973, Gajdusek 1980)",
+        "Wikipedia",
+        "Ethnologue",
+        "Joshua Project",
+        "Glottolog (kena1250)",
+        "DBpedia"
+      ],
+      "speaker_population": {
+        "newguineaworld_1973": 536,
+        "wikipedia_1990": 950,
+        "joshuaproject": 2900
+      },
+      "can_reach_25_toponyms": false,
+      "assessment": "Only 3 villages explicitly documented along Upper Aziana River. Very small speaker population. Unlikely to yield 25 verified toponyms."
+    },
+    {
+      "language": "Nataoran",
+      "iso_code": "ais",
+      "country": "Taiwan",
+      "region": "Hualien County",
+      "verified_toponyms": [
+        "Tianpu (田埔) / Tapan - village in Ji'an Township, Hualien County"
+      ],
+      "toponym_count": 1,
+      "sources": [
+        "Glottolog (nata1254)",
+        "Verbix",
+        "Omniglot",
+        "Wikipedia (Nataoran language)",
+        "The Language Closet",
+        "阿美語萌典 (Amis Moedict)",
+        "OLAC"
+      ],
+      "speaker_population": {
+        "verbix_2000": 5,
+        "unesco_2015": 108200,
+        "note": "Nataoran is a critically endangered Amis dialect; Verbix reports only 5 speakers in 2000"
+      },
+      "can_reach_25_toponyms": false,
+      "assessment": "Critically endangered with only ~5 speakers reported in 2000. Only one village (Tianpu/Tianbu) explicitly named. Cannot reach 25 toponyms."
+    },
+    {
+      "language": "Angaataha",
+      "iso_code": "agm",
+      "country": "Papua New Guinea",
+      "province": "Morobe",
+      "district": "Menyamya",
+      "verified_toponyms": [
+        "Manki village",
+        "Co-op community",
+        "Council community",
+        "Upper Watut Valley settlements"
+      ],
+      "toponym_count": 4,
+      "sources": [
+        "Wikipedia",
+        "Glottolog (anga1290)",
+        "Joshua Project",
+        "Pangloss Collection (CNRS)",
+        "Grokipedia",
+        "Ethnologue"
+      ],
+      "speaker_population": {
+        "wikipedia_2015": 2500,
+        "joshuaproject": 3400,
+        "pangloss": 3000
+      },
+      "can_reach_25_toponyms": false,
+      "assessment": "Only a few settlements explicitly named (Manki, Co-op, Council). Speaker population ~2,500-3,400. Unlikely to yield 25 verified toponyms from available sources."
+    },
+    {
+      "language": "Atohwaim-Kaugat",
+      "iso_code": "aqm",
+      "country": "Indonesia",
+      "province": "South Papua",
+      "regency": "Asmat",
+      "district": "Pantai Kasuari",
+      "verified_toponyms": [
+        "Yagamit (has elementary school)",
+        "5 villages along Cook River",
+        "5 villages along Kronkel River"
+      ],
+      "toponym_count": 1,
+      "sources": [
+        "NewGuineaWorld (Voorhoeve 1971)",
+        "Wikipedia",
+        "TransNewGuinea.org",
+        "Joshua Project",
+        "Global Recordings Network",
+        "OLAC"
+      ],
+      "speaker_population": {
+        "voorhoeve_1971": 700,
+        "joshuaproject": 1700
+      },
+      "can_reach_25_toponyms": false,
+      "assessment": "Voorhoeve (1971) documents 5 villages along Cook River and 5 along Kronkel River (10 total), but specific village names not listed in available sources. Only Yagamit explicitly named. Unlikely to reach 25 verified toponyms without access to original field notes."
+    },
+    {
+      "language": "Barai",
+      "iso_code": "bbb",
+      "country": "Papua New Guinea",
+      "provinces": ["Oro", "Central"],
+      "districts": ["Afore", "Rigo"],
+      "verified_toponyms": [
+        "Itokama",
+        "Madokoro",
+        "Naokanane",
+        "Umuate",
+        "Villages in Rigo Inland Rural LLG (unnamed in sources)"
+      ],
+      "toponym_count": 4,
+      "sources": [
+        "Wikipedia",
+        "Joshua Project",
+        "Omniglot",
+        "Ethnologue",
+        "Max Planck Society (numerals)",
+        "The InfoList"
+      ],
+      "speaker_population": {
+        "wikipedia_2003": 800,
+        "joshuaproject": 1500,
+        "max_planck_sil": 3500
+      },
+      "can_reach_25_toponyms": true,
+      "assessment": "4 villages explicitly named for Birarie dialect. Additional villages in Rigo district mentioned but not named. With ~3,500 speakers across two provinces, likely has more villages. Could potentially reach 25 with deeper field research."
+    },
+    {
+      "language": "Baramu",
+      "iso_code": "bmz",
+      "country": "Papua New Guinea",
+      "province": "Western",
+      "llg": "Gogodala Rural LLG",
+      "verified_toponyms": [
+        "Baramura",
+        "Tapila",
+        "Tirio",
+        "Tirio 2",
+        "Madame (Odag tribe)",
+        "Wederehiamo (Odag tribe)",
+        "Tirio/Madir (Odag tribe)",
+        "Lewada (Benei tribe)",
+        "Suame (Benei tribe)",
+        "Bitur (Benei tribe)"
+      ],
+      "toponym_count": 10,
+      "sources": [
+        "Wikipedia",
+        "Joshua Project",
+        "Alchetron (Gomoga 2007, Wilde 2004)",
+        "Ethnologue",
+        "OLAC",
+        "Wikiwand"
+      ],
+      "speaker_population": {
+        "census_2000": 850,
+        "joshuaproject": 1800
+      },
+      "can_reach_25_toponyms": true,
+      "assessment": "10 villages explicitly named across 3 tribes (Odag, Levi, Benei). With ~1,800 speakers and documented tribal structure, likely has additional hamlets. Strong candidate for reaching 25 toponyms with further research."
+    },
+    {
+      "language": "Baruga",
+      "iso_code": "bjz",
+      "country": "Papua New Guinea",
+      "province": "Oro",
+      "verified_toponyms": [
+        "Dove",
+        "Songada",
+        "Karaisa",
+        "Sariri",
+        "Embessa",
+        "Guruguru",
+        "Erika",
+        "Sananade",
+        "Kare Sovu",
+        "Foru #1",
+        "Foru #2",
+        "Yupuru River villages",
+        "Bareji River villages",
+        "Musa River villages",
+        "Foru River villages"
+      ],
+      "toponym_count": 15,
+      "sources": [
+        "Wikipedia",
+        "NewGuineaWorld",
+        "SIL International (Organised Phonology Data)",
+        "Ethnologue",
+        "TransNewGuinea.org",
+        "Max Planck Society (numerals - village Dove)",
+        "Grokipedia",
+        "Wikiwand"
+      ],
+      "speaker_population": {
+        "newguineaworld_1997": 1500,
+        "wikipedia_2000_2003": 2500
+      },
+      "can_reach_25_toponyms": true,
+      "assessment": "15+ villages explicitly named across 4 dialects (Tafota, Daghoro, Bareji, Mado). Well-documented by SIL with dialect surveys. Very likely to reach 25+ verified toponyms."
+    },
+    {
+      "language": "Biangai",
+      "iso_code": "big",
+      "country": "Papua New Guinea",
+      "province": "Morobe",
+      "district": "Wau",
+      "verified_toponyms": [
+        "Yongolei",
+        "Ngowiye",
+        "Nauti",
+        "Kuembu",
+        "Winima",
+        "Bulolo River headwaters villages (2 more unnamed)"
+      ],
+      "toponym_count": 7,
+      "sources": [
+        "Max Planck Society (numerals, Stegeman 2010)",
+        "Ethnologue",
+        "Grokipedia",
+        "Wikipedia (Biangai people)",
+        "OLAC",
+        "Wau, Papua New Guinea Wikipedia"
+      ],
+      "speaker_population": {
+        "max_planck": 6000,
+        "grokipedia": 7400,
+        "ethnologue": 7000
+      },
+      "can_reach_25_toponyms": true,
+      "assessment": "7 villages explicitly named (including 2 dialect-named villages). With ~7,000 speakers in Wau District along Bulolo River, likely has additional hamlets. Dialect survey (Dubert 1981) confirms unified language across villages. Strong candidate for 25+ toponyms."
+    },
+    {
+      "language": "Binahari",
+      "iso_code": "bxz",
+      "country": "Papua New Guinea",
+      "province": "Central",
+      "region": "Cloudy Bay hills, Abau area",
+      "verified_toponyms": [
+        "Apaeva",
+        "Bam",
+        "Darava No. 2",
+        "Doma",
+        "Oio",
+        "Segili",
+        "Apabaga (Neme dialect)",
+        "Bombaga (Neme dialect)"
+      ],
+      "toponym_count": 8,
+      "sources": [
+        "Wikipedia",
+        "Grokipedia",
+        "Joshua Project",
+        "Ethnologue",
+        "OLAC",
+        "TransNewGuinea.org"
+      ],
+      "speaker_population": {
+        "1980": 764,
+        "2016_estimate": 1300
+      },
+      "can_reach_25_toponyms": true,
+      "assessment": "8 villages explicitly named across two varieties (Neme and Ma). Grokipedia documents 'cluster of villages' with specific names. With ~1,300 speakers, likely has additional hamlets in Cloudy Bay hills. Good candidate for 25+ toponyms."
+    },
+    {
+      "language": "Binandere",
+      "iso_code": "bhg",
+      "country": "Papua New Guinea",
+      "province": "Oro",
+      "also_in": "Morobe Province (2 villages)",
+      "verified_toponyms": [
+        "Nindewari",
+        "Manau",
+        "Dautami",
+        "Ewore",
+        "Ioma",
+        "Ambasi",
+        "Siae (isolated on Kumusi River)",
+        "Iwaia (coastal)",
+        "Sowara (coastal)",
+        "Villages along Eia River",
+        "Villages along Gira River",
+        "Villages along Kumusi River",
+        "Villages along Mamba River"
+      ],
+      "toponym_count": 13,
+      "sources": [
+        "Wikipedia",
+        "Grokipedia",
+        "Ethnologue",
+        "Joshua Project",
+        "TransNewGuinea.org",
+        "Binandere Dialect Survey 2004-2005 (SIL/Wilson)",
+        "DocsLib (Dialect Survey PDF)",
+        "Wikiwand"
+      ],
+      "speaker_population": {
+        "wikipedia_2007": 7000,
+        "ethnologue_2023": 5500,
+        "joshuaproject": 5500
+      },
+      "can_reach_25_toponyms": true,
+      "assessment": "13+ villages explicitly named across 4 major river systems and coast. Comprehensive SIL dialect survey (2004-2005) covered 10 villages. With ~7,000 speakers distributed along Eia, Gira, Kumusi, Mamba rivers and coast, very likely to have 25+ verified toponyms."
+    }
+  ],
+  "summary": {
+    "total_languages": 10,
+    "can_reach_25": 6,
+    "cannot_reach_25": 4,
+    "languages_likely_25_plus": [
+      "Baruga",
+      "Binandere",
+      "Biangai",
+      "Baramu",
+      "Binahari",
+      "Barai"
+    ],
+    "languages_unlikely_25": [
+      "Kenati",
+      "Nataoran",
+      "Angaataha",
+      "Atohwaim-Kaugat"
+    ]
+  }
+}
