@@ -55,7 +55,7 @@ window.southAmericaNameBases = [
   "max": 24,
   "d": "",
   "m": 0,
-    "b": "Auaris,Aracaçá,Hokomawä,Demini,Toototobi,Parawa,Surucucus,Padamo,Ocamo,Mavaca,Catrimani,Balawaú,Xamatauteri,Waiká,Caura,Ventuari,Auari,Erebato"
+    "b": "Auaris,Aracaçá,Hokomawä,Demini,Toototobi,Parawa,Surucucus,Padamo,Ocamo,Mavaca,Catrimani,Balawaú,Xamatauteri,Waiká,Caura,Ventuari,Auari,Erebato,CauraMission,VentuariMission,Paraguaza,Manapiare,SanJuanDeManapiare,PuertoAyacucho,SanFernandoDeAtabapo"
 },
 {
     "name": "Terêna",
@@ -325,7 +325,7 @@ window.southAmericaNameBases = [
   "max": 20,
   "d": "",
   "m": 0,
-    "b": "Riberalta,Cobija,Reyes,Rurrenabaque,Ixiamas,Manupare,Manurimi,Manuripi,Tahuamanu"
+    "b": "Riberalta,Cobija,Reyes,Rurrenabaque,Ixiamas,Manupare,Manurimi,Manuripi,Tahuamanu,PuertoAraona,SanBuenaventura,LasChacras,PuertoRico,SanJoseDeUchupiamonas,Tumupasa,SantaRosa,Guayaramerin,ElChoro,SanIgnacio,SanMiguel,SanJose,SanAntonio,SanPedro,SanJuan,SanPablo,SanMartin"
 },
 {
     "name": "Argentinian Rioplatense Spanish",
@@ -379,7 +379,7 @@ window.southAmericaNameBases = [
   "max": 23,
   "d": "",
   "m": 0,
-    "b": "ÁguasBelas,Ipanema,Buíque,Itaíba,Iati,Pedra,SerraDoComunati,Ouricuri,Sertão"
+    "b": "ÁguasBelas,Ipanema,Buíque,Itaíba,Iati,Pedra,SerraDoComunati,Ouricuri,Sertão,DantasBarreto,IpanemaVillage,OuricuriVillage,SerraDoComunatiVillage,RibeiraDoPanema,CarnijóVillage,YatêVillage,IatêVillage,FunaiPost,XanducaVillage,MacacoVillage,TaperaVillage,SerraDoComunatiNorth,SerraDoComunatiSouth,OuricuriEast,OuricuriWest"
 },
 {
     "name": "Guajajara (Tenetehara)",
@@ -442,7 +442,7 @@ window.southAmericaNameBases = [
    "max": 22,
    "d": "",
    "m": 0,
-    "b": "Chupinguaia,PimentaBueno,Cacoal,ColoradoDoOeste,Corumbiara,Cerejeiras,Cabixi,Vilhena,RolimDeMoura,AltaFlorestaDOeste,SãoMiguelDoGuaporé,NovaMamoré,CostaMarques,GuajaráMirim,Tubarão,Latundê,Aikanã,Sabanê,Mamaindê,SãoPedro,Taboca,Apediá,AguaLimpa,RioSujo"
+    "b": "Chupinguaia,PimentaBueno,Cacoal,ColoradoDoOeste,Corumbiara,Cerejeiras,Cabixi,Vilhena,RolimDeMoura,AltaFlorestaDOeste,SãoMiguelDoGuaporé,NovaMamoré,CostaMarques,GuajaráMirim,Tubarão,Latundê,Aikanã,Sabanê,Mamaindê,SãoPedro,Taboca,Apediá,AguaLimpa,RioSujo,OuroPretoDoOeste"
 },
 {
     "name": "Kwinti",
@@ -767,19 +767,7 @@ window.southAmericaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-    "b": "Rurrenabaque,Reyes,SantaRosa,Yucumo,SanBorja,SantosReyes,ElCozar,Ratije,JesusAlvarez,Geneshuaya,Guaguauno,Baichuje,ElArenal,SanBuenaventura"
-},
-{
-    "name": "Toromona",
-  "i": 5825,
-  "min": 4,
-  "max": 12,
-  "d": "lnrt",
-  "m": 0,
-    "b": "Madidi,Tumupasa,Heath,Manuripi,Sonene,SanMartín"
-},
-{
-    "name": "Wichí Lhamtés Nocten (Weenhayek)",
+    "b": "Rurrenabaque,Reyes,SantaRosa,Yucumo,SanBorja,SantosReyes,ElCozar,Ratije,JesusAlvarez,Geneshuaya,Guaguauno,Baichuje,ElArenal,SanBuenaventura,SanJoaquin,SantaAna,Exaltacion,PuertoCarmen,Mapiri,Apolo,Guanay,Charazani,Tiquina,ElCarmen,SanJoseDeChiquitos"
   "i": 5826,
   "min": 4,
   "max": 12,
@@ -1037,7 +1025,7 @@ window.southAmericaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-    "b": "Baures,Huacaraje,Magdalena,ElCarmen,CarmenRiveroTorres,PuertoSiles,RíoBaures,Itenez,LlanosDeMoxos"
+    "b": "Baures,Huacaraje,Magdalena,ElCarmen,CarmenRiveroTorres,PuertoSiles,RíoBaures,Itenez,LlanosDeMoxos,SanJoaquin,Exaltacion,SantaAna,SanIgnacio,Concepcion,SanJavier,SanRamón,Trinidad,Loreto,SanMiguel,SanJuan,SantaRosa,PuertoSuarez,PuertoRico,PuertoPailas,PuertoVillarroel"
 },
 {
     "name": "Enlhet",
@@ -1100,7 +1088,7 @@ window.southAmericaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-    "b": "PuertoWilliams,PuntaArenas,PuertoNatales,Porvenir,Cameron,RioGrande,Tolhuin,Ushuaia,CaletaOlivia,CaboDeHornos,VillaUkika,PuertoToros,Wulaia,BahiaDouglas,Mejillones,RioGallegos,PuertoSantaCruz,CerroSombrero,Timaukel,RioVerde"
+    "b": "PuertoWilliams,PuntaArenas,PuertoNatales,Porvenir,Cameron,RioGrande,Tolhuin,Ushuaia,CaletaOlivia,CaboDeHornos,VillaUkika,PuertoToros,Wulaia,BahiaDouglas,Mejillones,RioGallegos,PuertoSantaCruz,CerroSombrero,Timaukel,RioVerde,SanSebastian,BahiaInutil,PuertoHambre,PrimeraAngostura,MonteCullen"
 },
 {
     "name": "Cabiyari",
@@ -1145,7 +1133,7 @@ window.southAmericaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-    "b": "SantaAnaDeYacuma,Exaltacion,SantaAna,Yacuma,Apere,PuertoApere,Mamore,SanJoaquín,Iruyani"
+    "b": "SantaAnaDeYacuma,Exaltacion,SantaAna,Yacuma,Apere,PuertoApere,Mamore,SanJoaquín,Iruyani,Reyes,SanBorja,Rurrenabaque,Cobija,Guayaramerin,ElChoro,PuertoRico,BellaFlor,Lucerna,Tahuamanu,SantaRosa,SanPedro,PuertoGallo,Filadelfia,BellaVista,Sena,Inicua"
 },
 {
     "name": "Guarani",

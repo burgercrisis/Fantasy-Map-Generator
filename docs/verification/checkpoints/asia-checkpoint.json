@@ -1,17 +1,17 @@
 {
   "totalEntries": 1267,
-  "nextEntry": "Processed verified entries: Pathiya, Chilsso, Chhattisgarhi. Continuing with remaining WAITING entries.",
-  "lastUpdate": "2026-08-21T19:45:00-07:00",
+  "nextEntry": "Processed verified entries: Joseon Korean Early Modern, Joseon Korean Modern, Khmu (fixed places), Khmuic (marked WAITING), Katuic (marked WAITING), Tibeto Burman (marked WAITING), Sal (marked WAITING). Continuing with remaining WAITING entries.",
+  "lastUpdate": "2026-08-21T20:30:00-07:00",
   "blockers": [],
   "waiting": [
     "Proto-languages and historical/extinct languages marked WAITING (per protocol)",
     "Cover terms marked WAITING (per protocol: Northwestern Tai, Southwestern Tai, E Tai, Tai Daeng, etc.)",
     "Some real languages with empty b: fields needing research"
   ],
-  "lastIndex": "1982",
+  "lastIndex": "2016",
   "status": "in_progress",
   "pipeline": "Manual verification per protocol -> guardrails",
-  "lastEntry": "Pathiya at i=1982",
-  "verifiedEntriesThisSession": 2490,
+  "lastEntry": "Sal at i=2016",
+  "verifiedEntriesThisSession": 2495,
   "continent": "asia"
 }

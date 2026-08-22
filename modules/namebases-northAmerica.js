@@ -204,7 +204,7 @@ window.northAmericaNameBases = [
     "max": 25,
     "d": "lnrt",
     "m": 0.45,
-    "b": ""
+    "b": "Santa Maria Cauque,Santiago Sacatepequez,San Juan Sacatepequez,San Pedro Sacatepequez,San Antonio Palopo,San Lucas Toliman,Santiago Atitlan,San Pablo La Laguna,San Marcos La Laguna,Santa Catarina Palopo,Santa Clara La Laguna,Santa Cruz La Laguna,Tzununa,Jaibalito,Panajachel,San Andres Semetabaj,San Juan La Laguna,San Pedro La Laguna,Santiago Zamoxoc"
   },
   {
     "name": "Pidgin Delaware",
@@ -213,7 +213,7 @@ window.northAmericaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": ""
+    "b": "New Amsterdam,Fort Nassau,Fort Orange,Schuyler Flatts,Esopus,Rensselaerswyck,Pavonia,Communipaw,Harsimus,Paulus Hook,Newark,Elizabethtown,Woodbridge,Piscataway,Raritan,Perth Amboy,South Amboy,Keyport,Middletown,Shrewsbury,Freehold,Manasquan,Toms River,Barnegat,Little Egg Harbor"
   },
   {
     "name": "Deg Xinag",
@@ -393,7 +393,7 @@ window.northAmericaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": ""
+    "b": "Sault Ste. Marie,Mackinac Island,St. Ignace,Detroit,Fort Pontchartrain,Fort Michilimackinac,Fort St. Joseph,Fort Miami,Fort Ouiatenon,Fort Vincennes,Green Bay,Prairie du Chien,La Pointe,Fond du Lac,Lac Courte Oreilles,Lac du Flambeau,Bad River,Red Cliff,Mole Lake,St. Croix,Franklin,Hayward,Stone Lake,Reserve,Couderay,Exeland,Winter,Radisson,Ojibwa,Weirgor"
   },
   {
     "name": "Broken Slavey",
@@ -510,7 +510,7 @@ window.northAmericaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": ""
+    "b": "Barrow,Kotzebue,Nome,Unalakleet,St. Michael,Shaktoolik,Koyuk,Elim,Golovin,White Mountain,Brevig Mission,Teller,Wales,Diomede,Gambell,Savoonga,Atqasuk,Wainwright,Point Hope,Point Lay,Anaktuvuk Pass,Nuiqsut,Umiat,Kaktovik,Deadhorse,Prudhoe Bay"
   },
   {
     "name": "Greenlandic",
@@ -644,7 +644,7 @@ window.northAmericaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": ""
+    "b": "Nain,Hopedale,Makkovik,Postville,Rigolet,Cartwright,Black Tickle,Norman Bay,Paradise River,Fox Harbour,St. Lewis,Port Hope Simpson,Mary's Harbour,Lodge Bay,Cape Charles,Battle Harbour,Red Bay,Forteau,L'Anse au Clair,West St. Modeste"
   },
   {
     "name": "Lakota",
@@ -1355,16 +1355,16 @@ window.northAmericaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": ""
+    "b": "Red Bay,Middle Bay,St. Modeste,Chateau Bay,Battle Harbour,Carrol Cove,Henley Harbour,Square Islands,Dead Island,Indian Tickle,Indian Harbour,Black Tickle,Norman Bay,Paradise River,Fox Harbour,St. Lewis,Port Hope Simpson,Mary's Harbour,Lodge Bay,Cape Charles,West St. Modeste"
   },
-  {
-    "name": "Almosan",
-    "i": 20076,
+{
+    "name": "Itza'",
+    "i": 200906,
     "min": 4,
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": ""
+    "b": "Flores,San Jose,San Benito,Santa Elena,Melchor de Mencos,Poptun,Dolores,San Luis,San Francisco,La Libertad,Las Cruces,El Chal,Sayaxche,La Union"
   },
   {
     "name": "American Indian Pidgin English",
@@ -1373,7 +1373,7 @@ window.northAmericaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": ""
+    "b": "Fort Laramie,Fort Bridger,Fort Union,Fort Benton,Fort Peck,Fort Belknap,Fort Shaw,Fort Ellis,Fort Parker,Fort Smith,Fort Gibson,Fort Towson,Fort Washita,Fort Arbuckle,Fort Cobb,Fort Sill,Fort Supply,Fort Reno,Fort Dodge,Fort Hays,Fort Wallace,Fort Lyon,Fort Garland,Fort Massachusetts,Fort Union,Fort Craig,Fort Stanton,Fort Sumner,Fort Bascom,Fort Bliss"
   },
   {
     "name": "Anguillian Creole (dedicated)",
@@ -1382,7 +1382,7 @@ window.northAmericaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": ""
+    "b": "The Valley,The Quarter,North Hill,South Hill,Stoney Ground,Island Harbour,East End,West End,Sandy Ground,Crocus Hill,Blowing Point,Shoal Bay,Road Bay,Long Bay,Meads Bay,Rendezvous Bay,Maundays Bay,Forest Bay,Savannah Bay,Spring Bay,Sile Bay,Katouche Bay,George Hill,Betty Hill,White Hill,Mount Fortune,Junks Hole,Cannifist,Cauls Pond,Welches Hill,Little Harbour,Wallblake,True Loves,The Farrington,Rey Hill,Chalvilles,Gibbons Reef,Long Ground"
   },
   {
     "name": "Bahamian Creole (dedicated)",
@@ -1391,7 +1391,7 @@ window.northAmericaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": ""
+    "b": "Nassau,Freeport,West End,Coopers Town,Rock Sound,Arthur's Town,George Town,Matthew Town,Cockburn Town,Duncan Town,Clarence Town,Spring Point,Deadman's Cay,Sweeting's Cay,High Rock,Black Point,Lower Bogue,Great Harbour Cay,Bimini,Cat Island,Long Island,Exuma,Eleuthera,Abaco,Andros,Grand Bahama,New Providence"
   },
   {
     "name": "Bajan Creole (dedicated)",
@@ -1400,7 +1400,7 @@ window.northAmericaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": ""
+    "b": "Bridgetown,Speightstown,Oistins,Holetown,Crab Hill,Bathsheba,Greenland,Six Cross Roads,Crane,Welchman Hall,St. Lawrence,St. David,St. George,St. James,St. John,St. Joseph,St. Lucy,St. Michael,St. Peter,St. Philip,St. Thomas,Christ Church,St. Andrew"
   },
   {
     "name": "Belizean Creole (dedicated)",
@@ -1409,7 +1409,7 @@ window.northAmericaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": ""
+    "b": "Belize City,Belmopan,San Ignacio,Orange Walk Town,Corozal Town,Dangriga,Punta Gorda,San Pedro,Ambergris Caye,Caye Caulker,Placencia,Hopkins,Sittee River,San Antonio,San Pablo,San Jose,San Roman,San Miguel,San Carlos,San Francisco,San Juan,San Luis,San Marcos,San Nicolas,San Pedro,San Rafael,San Vicente,Santa Cruz,Santa Elena,Santa Rosa,Santiago"
   },
   {
     "name": "Bocas del Toro Creole (dedicated)",
@@ -1418,7 +1418,7 @@ window.northAmericaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": ""
+    "b": "Bocas del Toro,Bastimentos,Almirante,Changuinola,Chiriqui Grande,El Silencio,Old Bank,Quebrada de Sal,Isla Colon,Isla Bastimentos,Isla Carenero,Isla Solarte,Isla Popa,Cayo Agua,Cayo Nancy,Cayo Zapatilla,Cayo Agua,Cayo de Agua"
   },
   {
     "name": "Grenadian Creole English (dedicated)",
@@ -1427,7 +1427,7 @@ window.northAmericaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": ""
+    "b": "St. George,Gouyave,Grenville,Victoria,Sauteurs,Hillsborough,La Tante,St. David,St. Andrew,St. Patrick,St. Mark,St. John,St. George,Grand Anse,Woburn,Lance aux Epines,Morne Rouge,Tivoli,Waltham,Concord,Belmont,Mt. Parnassus,Westerhall,Tempe,Woodlands"
   },
   {
     "name": "Leeward Caribbean Creole English (dedicated)",
@@ -1436,7 +1436,7 @@ window.northAmericaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": ""
+    "b": "The Valley,St. Johns,All Saints,Boland,Freetown,Carlisle,Parham,Willikies,Swetes,Pigotts,Cedar Grove,Old Road,Urlings,Johnson Point,Falmouth,Codrington,Barbuda,Charlestown,Newcastle,Gingerland,St. Paul,St. James,St. Thomas,St. George,St. Mary,St. Peter,St. John"
   },
   {
     "name": "Limonese Creole (dedicated)",
@@ -1445,7 +1445,7 @@ window.northAmericaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": ""
+    "b": "Puerto Limon,Cahuita,Puerto Viejo,Manzanillo,Bri Bri,Sixaola,Guapiles,Siquirres,Matina,Barra del Colorado,Colorado,Tortuguero,Parismina,La Francia,La Geest,La Suiza,La Rita,La Lola,La Perla,La Union,La Esperanza"
   },
   {
     "name": "Miskito Coast Creole (dedicated)",
@@ -1454,7 +1454,7 @@ window.northAmericaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": ""
+    "b": "Bluefields,Puerto Cabezas,Prinzapolka,Rosita,Siuna,Waslala,El Rama,Kukra Hill,El Tortuguero,La Cruz de Rio Grande,El Ayote,La Libertad,San Carlos,San Juan de Nicaragua,El Castillo,San Miguelito,La Esperanza,La Union,San Jose,San Pedro"
   },
   {
     "name": "Montserrat Creole (dedicated)",
@@ -1463,7 +1463,7 @@ window.northAmericaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": ""
+    "b": "Brades,St. Johns,St. Peters,Salem,Cork Hill,St. Patricks,Lookout,Davy Hill,Weekes,Flemings,Olveston,Woodlands,Geralds,Buddles,Molyneux,Hope,Trants,Farms,Trial,Bethel,Hermitage"
   },
   {
     "name": "Rama Cay Creole (dedicated)",
@@ -1472,7 +1472,7 @@ window.northAmericaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": ""
+    "b": "Rama Cay,Bluefields,Monkey Point,Greytown,San Juan de Nicaragua,El Castillo,San Carlos,San Miguelito,La Cruz de Rio Grande,Kukra Hill,El Rama,Waslala,Siuna,Rosita,Prinzapolka,Puerto Cabezas,Bluefields,Pearl Lagoon"
   },
   {
     "name": "Saint Kitts Creole (dedicated)",
@@ -1481,7 +1481,7 @@ window.northAmericaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": ""
+    "b": "Basseterre,Sandy Point,Cayon,Dieppe Bay,Tabernacle,Challengers,Mansion,Phillips,Old Road,St. Pauls,St. Thomas,St. Anne,St. George,St. James,St. John,St. Mary,St. Peter,Christ Church,Trinity,Palmetto Point"
   },
   {
     "name": "Tobagonian Creole (dedicated)",
@@ -1490,7 +1490,7 @@ window.northAmericaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": ""
+    "b": "Scarborough,Roxborough,Charlotteville,Speyside,Delaford,Bloody Bay,Parlatuvier,L'Anse Fourmi,Castara,Englishman's Bay,Grafton,Buccoo,Bon Accord,Crown Point,Pigeon Point,Store Bay,Lowlands,Signal Hill,Mount Irvine,Black Rock"
   },
   {
     "name": "Trinidadian Creole (dedicated)",
@@ -1499,7 +1499,7 @@ window.northAmericaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": ""
+    "b": "Port of Spain,San Fernando,Arima,Chaguanas,Point Fortin,Princes Town,Penal,Siparia,Couva,Diego Martin,Tunapuna,Arouca,San Juan,Laventille,Morvant,Barataria,St. Joseph,Curepe,St. Augustine,Valsayn,Trincity"
   },
   {
     "name": "Turks and Caicos Creole (dedicated)",
@@ -1508,7 +1508,7 @@ window.northAmericaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": ""
+    "b": "Cockburn Town,Bottle Creek,Duncan Town,Back Salina,Middle Caicos,North Caicos,South Caicos,Grand Turk,Providenciales,Salt Cay,Parrot Cay,Pine Cay,Ambergris Cay,Water Cay,East Caicos,West Caicos"
   },
   {
     "name": "Vincentian Creole (dedicated)",
@@ -1517,7 +1517,7 @@ window.northAmericaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": ""
+    "b": "Kingstown,Georgetown,Chateaubelair,Barrouallie,Layou,Calliaqua,Biabou,Richland Park,Mesopotamia,Greiggs,Stubbs,South Rivers,Overland,Park Hill,Fancy,Owia,Sandy Bay,Point,Union Island,Bequia,Mustique,Canouan,Mayreau,Palm Island,Petit St. Vincent"
   },
   {
     "name": "Virgin Islands Creole (dedicated)",
@@ -1526,7 +1526,7 @@ window.northAmericaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": ""
+    "b": "Charlotte Amalie,Christiansted,Frederiksted,Cruz Bay,St. John,St. Thomas,St. Croix,Water Island,Hassel Island,Great St. James,Little St. James,Thatch Cay,Outer Brass,Inner Brass,Peter Island,Norman Island,Dead Chest,Salt Island,Cooper Island,Ginger Island"
   },
   {
     "name": "Jamaican Maroon Creole (dedicated)",
@@ -1535,7 +1535,7 @@ window.northAmericaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": ""
+    "b": "Accompong,Moore Town,Charles Town,Scotts Hall,Nanny Town,Cudjoe Town,Accompong Town,Mountain River,Quick Step,Ginger Hill,Top Hill,Bunker Hill,Flagstaff,Aberdeen,Windsor,Content,Brighton,Orange Hill,Cascade,Walderston"
   },
   {
     "name": "Jersey Dutch (dedicated)",
@@ -1607,7 +1607,7 @@ window.northAmericaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": ""
+    "b": "San Antonio,El Paso,Laredo,McAllen,Corpus Christi,Amarillo,Lubbock,Midland,Odessa,Albuquerque,Las Cruces,Tucson,Yuma,San Diego,Calexico,Imperial Valley,Riverside,San Bernardino,Anaheim,Santa Ana,Los Angeles,Oxnard,Ventura,Puerto Rico,San Juan,Mayagüez,Caguas,Bayamón,Toa Baja,Hatillo,Camuy,Moca,Brownsville,Long Beach,Ponce,Arecibo,Carolina,Guaynabo,Ciales,Aguadilla,Isabela"
   },
   {
     "name": "Anguillian Creole",
@@ -1688,7 +1688,7 @@ window.northAmericaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": ""
+    "b": "Kingston,Spanish Town,Portmore,Montego Bay,May Pen,Mandeville,Old Harbour,Linstead,Port Antonio,Ocho Rios,Negril,Discovery Bay,Runaway Bay,St. Ann's Bay,Falmouth,Lucea,Savanna-la-Mar,Black River,Santa Cruz,Morant Bay,Port Morant,Yallahs,Bull Bay,Gordon Town,Newcastle,Lawrence Tavern,Golden Spring,Castleton,Guys Hill,Wait-a-Bit,Alva,Colegate"
   },
   {
     "name": "Leeward Caribbean Creole English",
@@ -1807,13 +1807,14 @@ window.northAmericaNameBases = [
     "m": 0,
     "b": "Flores,San Jose,San Benito,Santa Elena,Melchor de Mencos,Poptun,Dolores,San Luis,San Francisco,La Libertad,Las Cruces,El Chal,Sayaxche,La Union"
   },
-  {
+{
     "name": "Itza'",
     "i": 200906,
     "min": 4,
     "max": 11,
     "d": "lnrt",
-    "b": ""
+    "m": 0,
+    "b": "Flores,San Jose,San Benito,Santa Elena,Melchor de Mencos,Poptun,Dolores,San Luis,San Francisco,La Libertad,Las Cruces,El Chal,Sayaxche,La Union"
   },
   {
     "name": "Mocho'",

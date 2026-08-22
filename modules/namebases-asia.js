@@ -4234,8 +4234,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Hanseong,Hanyang,Gaegyeong,Kaesong,Ganghwa,Hanyang,Seogyeong,Pyongyang,Donggyeong,Gyeongju,Namgyeong,Seoul,Yangju-mok,Gimhae,Yangju,Hwangju-mok,Haeju-mok,Haeju,Gwangju-mok,Gwangju,Chungju-mok,Chungju,Cheongju-mok,Cheongju,Gongju-mok,Gongju,Jeonju-mok,Jeonju,Naju-mok,Naju,Seungju-mok,Suncheon,Sangju-mok,Sangju,Jinju-mok,Jinju,Gwannae-do,Seohae-do,Yanggwang-do,Jungwon-do,Hanam-do,Gangnam-do,Haeyang-do,Yeongnam-do,Sannam-do,Yeongdong-do,Sakbang-do,Gyoju-do,Paeseo-do,Donggye,Bukgye,Song'ak,Gaeju,Gaesong-bu,Manwoldae,Goryeogung,Geumsansa,Ssangseong Prefectures,Dongnyeong Prefectures,Liaoyang,Tamna,Uiju,Anju",
+    "status": "COMPLETE"
   },
   {
     "name": "Joseon Korean Modern",
@@ -4244,8 +4244,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Gyeongseong,Hanseong,Pyongyang,Seogyeong,Suwon,Chungju,Cheongju,Gongju,Jeonju,Gwangju,Daegu,Jinju,Hamheung,Hamheung-bu,Gyeongseong-bu,Gyeongseong,Jeongju,Uiju,Sinuiju,Chuncheon,Gaeseong,Gaeseong-bu,Incheon,Incheon-bu,Dongnae,Dongnae-bu,Deokwon,Deokwon-bu,Gyeongheung,Gyeongheung-bu,Ganghwa,Ganghwa-bu,Wonsan,Busan,Masan,Gunsan,Mokpo,Seongjin,Pyongyang,Suwon-bu,Suwon",
+    "status": "COMPLETE"
   },
   {
     "name": "Jirel",
@@ -4284,7 +4284,8 @@ window.asiaNameBases = [
     "max": 13,
     "d": "",
     "m": 0,
-    "b": "Shigatse,Gyantse,Nagqu,Nyingchi,Chamdo,Kangding,Shangri La,Tawang,Bomdila,Along,Yingkiong,Basar,Kokrajhar,Guwahati,Dibrugarh,Tinsukia,Dimapur,Kohima,Mokokchung,Imphal,Ukhrul,Churachandpur,Aizawl,Lunglei,Shillong,Tura,Gangtok,Namchi,Thimphu,Paro,Punakha,Trashigang,Luang Prabang,Vientiane,Pakse,Savannakhet,Khammouane,Bokeo,Oudomxay,Luang Namtha,Phongsali,Sainyabuli,Vieng Xai,Thakhek,Nape,Muang Xai,Namtha,Phonhong,Houayxay,Muang Long,Muang Kasi,Muang San,Muang Khua,Muang Nga,Muang Pak-Ou,Muang Boun,Muang Houn,Muang Pong,Muang Xon"
+    "b": "Ban Nammang,Ban Nam Eng,Ban Padaeng,Ban Nam Kap Tai,Ban Nalan,Nam Eng village,Namkha,Sanjing,Sopjai,Ban Kengdeung,Ban Donmoun,Ban Tchom,Ban Sop Xim,Ban Namlouang,Ban Hatnaleng,Ban Kengkran,Ban Saloi,Nalae Town,Khone Kham Village,Ban Mang,Nampheng,Nahom,Muang La,Ban Huay Yen,Ban Muangkarn,Kim Hua Village,Sop Pot Village,Sop Caw Village,Pung Kamong Village,Huoi Cang 2 Village,Ban Minh Tien,Ban Na Lai,Tham Phe Village,Me Village,Noong O Village,Noong Ma Village,Lach Village,Doan Ket Village,Than Village,Nam Pu Village,Thang Village,Huoi Oi Village,Phieng Trai Village,Huai Ian,Huai Kok Village,Huai Yen,Ban Muang Karn,Thung Saai,Huai Koi,Huai Jaw,Pa Tueng,Wang Pha,Huai Sarn,Huai Meng,Ban Huai Kon,Pa Miang Village,Chon Daen,Mixed villages near Saa,Commune Baw villages,Hills east of Pua,Middle Yao River valley,Muang Ngaup headwaters,Villages in Maetaeng,Villages in Wiang Pa Pao,Chiang Khong area villages,Pung Soa Village,Om Kae Village,Manxiangban,Huijie,Maanmai,Hui Saang,Hui Kee,Maan Cong,10 villages in Mengla County,2 villages in Jinghong County,Nanqian Village",
+    "status": "COMPLETE"
   },
   {
     "name": "Kuy",
@@ -4302,7 +4303,8 @@ window.asiaNameBases = [
     "max": 14,
     "d": "",
     "m": 0,
-    "b": "Champasak,Ban Kandone,A Vương,Quang Nam,Dong Giang,Song Kon,Phnom Penh,Battambang,Kampong Cham,Kampot,Takeo,Kratie,Stung Treng,Sihanoukville,Prey Veng,Mondulkiri,Ratanakiri,Kampong Thom,Banteay Meanchey,Oddar Meanchey,Preah Vihear,Koh Kong,Pailin,Kep,Ranchi,Jamshedpur,Dumka,Hazaribagh,Khandwa,Betul,Chhindwara,Ganjam,Gajapati,Rayagada,Sekong,Saravan,Xekong,Kaleum,Hue,Thua Thien,Quang Tri,Tam Ky,Katuick,Katuict,Katuicp,Katuicm,Katuicn,Katuics,Katuicr,Katuicl,Katuicd,Katuicg"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Khmuic",
@@ -4311,7 +4313,8 @@ window.asiaNameBases = [
     "max": 13,
     "d": "",
     "m": 0,
-    "b": "Shigatse,Gyantse,Nagqu,Nyingchi,Chamdo,Kangding,Shangri La,Tawang,Bomdila,Along,Yingkiong,Basar,Kokrajhar,Guwahati,Dibrugarh,Tinsukia,Dimapur,Kohima,Mokokchung,Imphal,Ukhrul,Churachandpur,Aizawl,Lunglei,Shillong,Tura,Gangtok,Namchi,Thimphu,Paro,Punakha,Trashigang,Luang Prabang,Oudomxay,Bokeo,Phongsali,Luang Namtha,Sainyabuli,Xieng Khouang,Khammouane,Nape,Muang Xai,Namtha,Phonhong,Houayxay,Muang Long,Muang Kasi,Muang San,Muang Khua,Muang Nga,Muang Pak-Ou,Muang Boun,Muang Houn,Muang Pong,Muang Xon"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Tibeto Burman",
@@ -4320,7 +4323,8 @@ window.asiaNameBases = [
     "max": 17,
     "d": "",
     "m": 0,
-    "b": "Thimphu,Myitkyina,Dhaka,Kathmandu,Gangtok,Shillong,Imphal,Aizawl,Kohima,Dibrugarh,Sylhet,Silchar,Guwahati,Bhamo,Tachileik,Magway,Taungdwingyi,Katha,Tamu,Mawlaik,Hkamti,Putao,Sumprabum,Loi Lem,Mong Hpayak,Mong Yawng,Mong Tong,Mong Kung,Mong Pai,Mong Khet,Mong Sak,Shigatse,Chamdo,Nyingchi,Nagqu,Ngari,Gyangtse,Tingri,Burang,Lhasa,Tezpur,Lashio,Kengtung,Loikaw,Taunggyi,Mandalay,Sagaing,Monywa,Pakokku,Pyay,Hpa-an,Mawlamyine,Dawei,Sittwe,Pathein,Bago,Yangon,Naypyidaw,Meiktila,Pyinmana,Yamethin,Shwebo,Kalay,Keng Hkam,Mong Hsat,Mong Nawng,Shannan,Saga"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Sal",
@@ -4329,7 +4333,8 @@ window.asiaNameBases = [
     "max": 17,
     "d": "",
     "m": 0,
-    "b": "Silchar,Dibrugarh,Jorhat,Tinsukia,Bongaigaon,Dhubri,Nagaon,Kokrajhar,Bilasipara,Goalpara,Diphu,Haflong,Lumding,Morigaon,Guwahati,Tezpur,Barpeta,Udalguri"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Karakalpak",
