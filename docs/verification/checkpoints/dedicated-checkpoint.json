@@ -1,14 +1,16 @@
 {
   "blockers": [],
-  "lastUpdate": "",
-  "completedEntries": 0,
-  "lastVerifiedIndex": -1,
+  "lastUpdate": "2026-08-21T23:40:00-07:00",
+  "completedEntries": 244,
+  "lastVerifiedIndex": 201008,
   "totalIssuesFixed": 0,
-  "lastVerifiedName": "none",
-  "currentLanguage": "",
-  "startedAt": "",
+  "lastVerifiedName": "Shawiya",
+  "currentLanguage": "Shilha (i=201009) - starting",
+  "startedAt": "2026-08-21T23:40:00-07:00",
   "totalNamesVerified": 0,
-  "totalEntries": 0,
+  "totalEntries": 1368,
   "continent": "dedicated",
-  "status": "not_started"
+  "status": "in_progress",
+  "resumePosition": 201009,
+  "resumeNote": "Dedicated file i=200000..201367 (1368 entries). Verified contiguously 200000-201008 (244 entries, gaps at 200230-200895 and 200904-201003 = cover terms/families). Next unverified: 201009 Shilha. Worklist unverified tail: 201009-201019, 201364-201366. Remaining 1107 entries in dedicated range not yet verified."
 }

@@ -1005,17 +1005,6 @@ window.oceaniaNameBases = [
   },
 
 {
-    "name": "Umbugarla",
-    "i": 201372,
-    "min": 3,
-    "max": 10,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-
-{
     "name": "Bipim",
     "i": 1321,
     "min": 3,
@@ -1686,17 +1675,6 @@ window.oceaniaNameBases = [
     "status": "COMPLETE"
   },
 
-  {
-    "name": "Kamasa",
-    "i": 2000,
-    "min": 3,
-    "max": 15,
-    "d": "",
-    "m": 0,
-    "b": "Katsiong",
-    "status": "WAITING"
-  },
-
 {
     "name": "Kambaira",
     "i": 2002,
@@ -1713,17 +1691,6 @@ window.oceaniaNameBases = [
     "i": 2003,
     "min": 3,
     "max": 10,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-
-{
-    "name": "Kamasa",
-    "i": 1949,
-    "min": 3,
-    "max": 12,
     "d": "",
     "m": 0,
     "b": "",
@@ -1826,28 +1793,6 @@ window.oceaniaNameBases = [
     "d": "",
     "m": 0,
     "b": "",
-    "status": "WAITING"
-  },
-
-{
-    "name": "Kandawo",
-    "i": 2101,
-    "min": 3,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Kandawo",
-    "status": "WAITING"
-  },
-
-{
-    "name": "Kanite",
-    "i": 2103,
-    "min": 3,
-    "max": 10,
-    "d": "",
-    "m": 0,
-    "b": "Kanite",
     "status": "WAITING"
   },
 

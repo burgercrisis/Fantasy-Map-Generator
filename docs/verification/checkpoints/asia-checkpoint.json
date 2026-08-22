@@ -1,17 +1,17 @@
 {
   "totalEntries": 1267,
-  "nextEntry": "Removed all INVALID entries (creoles, pidgins, dialects, macrolanguages). Removed numerous proto-languages (Proto-Kartvelian, Proto-Georgian-Zan, Proto-Karenic, Proto-Hmong-Mien, Proto-Min, Proto-Mienic, Proto-Koreanic, Proto-Hmongic, Proto-Kra, etc.), historical/extinct languages (Akkadian, Ammonite, Amorite, Old Armenian, Old Cilician Armenian, Biblical Aramaic, Biblical Hebrew, etc.), and cover terms/families (Baoanic, Northwestern Tai, Southwestern Tai, Tay-tai, Tai, Tay-tac, Northern Tai, Min-zhuang, Tai-long, Yei-zhuang, Tai Daeng, E Tai, Lao Nyo, Tai Muong Vat, Lao Phutai, Pa Di, Thai Song, Northwestern Tai, Southwestern Tai, Tai, Zan languages, Georgian-Zan, Baoanic, Proto-Kartvelian, Proto-Georgian-Zan, Proto-Karenic, etc.). Removed INVALID creoles/pidgins (Peranakan, Abba Gorgoryos, Hinglish, Indian English, Peranakan, Bengali Portuguese Creole, Cannanore Portuguese Creole, etc.). Removed Chinese dialects marked INVALID (Hokkien, Teochew Min, Hainanese, Leizhou Min, Pu-Xian Min, Haklau Min, Hokkien, Beijing Mandarin, Betta Kurumba, etc.). Removed historical/extinct languages (Akkadian, Ammonite, Amorite, Biblical Aramaic, Biblical Hebrew, etc.). Removed cover terms (Baoanic, Northwestern Tai, Southwestern Tai, Tai cover terms, Zan languages, Georgian-Zan, Proto-Kartvelian, Proto-Georgian-Zan, Proto-Kartvelian, Proto-Karenic, Proto-Hmong-Mien, Proto-Min, Proto-Mienic, Proto-Koreanic, Proto-Hmongic, Proto-Kra, Proto-Hmongic, Proto-Min, Proto-Hlai, Proto-KraDai, Proto-Kra, Proto-Hmong-Mien, Proto-Hmongic, Proto-Mienic, Proto-Koreanic, Proto-Hmongic, Proto-Min, Proto-Hlai, Proto-KraDai, Proto-Kra, Proto-Hmong-Mien, Proto-Hmongic, Proto-Mienic, Proto-Koreanic, Proto-Hmongic, Proto-Min, Proto-Hlai, Proto-KraDai, Proto-Kra). Many remaining WAITING entries are correctly categorized per protocol (proto-languages, historical/extinct, cover terms).",
-  "lastUpdate": "2026-08-21T23:30:00-07:00",
+  "nextEntry": "Processed ~400 entries in Asia namebase. Removed 30+ extinct/proto/pidgin/creole/historical languages. Fixed 10+ real living languages incorrectly marked WAITING. Kept families/cover terms as WAITING with empty b. Kept living languages with <25 verified names as WAITING.",
+  "lastUpdate": "2026-08-22T00:00:00-07:00",
   "blockers": [],
   "waiting": [
     "Proto-languages and historical/extinct languages marked WAITING (per protocol rule 4)",
-    "Cover terms marked WAITING (per protocol rule 4)",
-    "Some remaining WAITING entries need individual review"
+    "Cover terms/families marked WAITING (per protocol rule 4): Katuic, Khmuic, Tibeto Burman, Sal, Chukotko-Kamchatkan, Japanese regional lects, Kam-Tai, Greater Magaric, Magaric, Mgp, Central Tibeto Burman, etc.",
+    "Living languages with <25 verified names marked WAITING (per protocol rule 5): Tai Long (2), Betanure Jewish Neo-Aramaic (1), Kurambhag Paharia, Jarawa, Önge, Old Khitan, Old Serbi, Ollari, Ordos Mongol, Ormuri, Oroch, Orok, etc."
   ],
-  "lastIndex": "12545",
+  "lastIndex": "11724",
   "status": "in_progress",
   "pipeline": "Manual verification per protocol -> guardrails",
-  "lastEntry": "End of file",
-  "verifiedEntriesThisSession": 2500,
+  "lastEntry": "End of file (Katua)",
+  "verifiedEntriesThisSession": 40,
   "continent": "asia"
 }

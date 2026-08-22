@@ -1474,10 +1474,10 @@ window.asiaNameBases = [
     "i": 1162,
     "min": 4,
     "max": 17,
-    "d": "",
+    "d": "E language (also Ei, Wuse, Wusehua) is a Tai-Chinese mixed language spoken in Rongshui Miao Autonomous County, Guangxi, China. Adopts Chinese vocabulary into Tai grammar.",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Rongshui,Hemu,Yuanbao,Dongtou,Fengyi,Sanfang,Datong,Huaibao,Zhongdong,Anchui,Gunbei,Dongwang,Daxing,Bailiang,Liangzhai,Wangdong,Gaoliang,Zhaiya,Gunsha,Xiaoxiang",
+    "status": "COMPLETE"
   },
   {
     "name": "Lao Nyo",
@@ -1544,7 +1544,7 @@ window.asiaNameBases = [
     "i": 1177,
     "min": 3,
     "max": 11,
-    "d": "",
+    "d": "Tai Long (Shan) is a Southwestern Tai language spoken in Shan State, Myanmar and northern Laos. ISO 639-3: thi.",
     "m": 0,
     "b": "Tachileik,Kengtung",
     "status": "WAITING"
@@ -1554,10 +1554,10 @@ window.asiaNameBases = [
     "i": 1178,
     "min": 4,
     "max": 11,
-    "d": "",
+    "d": "Yei Zhuang (Northern Tai) spoken in Wenshan Prefecture, Yunnan, China. Speakers known as Sha subgroup of Zhuang.",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Qiubei,Gehan,Funing,Boai,Naneng,Zhesan,Gula,Guangnan,Zhetai,Diyu,Bada,Dixu,Maguan,Nanlao,Yanshan,Zhela,Bange,Mile,Luxi,Huaping,Ninglang,Fengshan,Lingyun,Tianlin,Longlin",
+    "status": "COMPLETE"
   },
   {
     "name": "tai-daeng",
@@ -1574,7 +1574,7 @@ window.asiaNameBases = [
     "i": 1236,
     "min": 4,
     "max": 12,
-    "d": "",
+    "d": "Betanure Jewish Neo-Aramaic (Lishana Deni) is a Northeastern Neo-Aramaic dialect historically spoken in Betanure village, Barwar region, Duhok Province, Iraq. Community migrated to Israel in 1951. Critically endangered (~36 speakers in 2008).",
     "m": 0,
     "b": "Betanure",
     "status": "WAITING"
@@ -2220,16 +2220,6 @@ window.asiaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Goguryeo Korean",
-    "i": 1522,
-    "min": 4,
-    "max": 10,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-  {
     "name": "Chakhar",
     "i": 1537,
     "min": 5,
@@ -2448,16 +2438,6 @@ window.asiaNameBases = [
     "m": 0,
     "b": "Mingdong Village,Jindalai Village,Bailong Village,Fangchuan Village,Hongqi Village,Sandaohe Village,Guangdong Village,Yan'an Village,Lishu Village,Longshan Village,Piyan Village,Xingcheng Village,Qinglong Village,Yanfeng Village,Longping Village,Longxin Village,Jiangbei Community,Jiangnan Community,Zhongxing Village,Chengzhong Village,Mingdong Village Helong,Zhixin Town,Xicheng Town,Yueqing Town,Fangchuan Town,Toudao Town,Xialuhe Korean Ethnic Township,Yongjeong,Longjing Village,Bazijie,Toudougou,Baichaogou",
     "status": "COMPLETE"
-  },
-  {
-    "name": "Chinese Kyakala",
-    "i": 1590,
-    "min": 4,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
   },
   {
     "name": "Chittagonian",
@@ -3044,10 +3024,10 @@ window.asiaNameBases = [
     "i": 1745,
     "min": 4,
     "max": 11,
-    "d": "",
+    "d": "Dzao Min (Zao Min) is a Hmong-Mien language of China with 60,000+ speakers in Liannan & Yangshan Counties (Guangdong) and Yizhang County (Hunan). Speakers also called Bapai Yao.",
     "m": 0,
     "b": "Yizhang,Bapai,Daping,Junliao,Nan'gang,Panshi,Youling,Liannan,Yangshan,Mangshan,Ruyuan",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
   {
     "name": "Eastern Min",
@@ -3779,10 +3759,10 @@ window.asiaNameBases = [
     "i": 2078,
     "min": 3,
     "max": 14,
-    "d": "",
+    "d": "Georgian dialects is a cover term for regional varieties of Georgian (Kartvelian), not a single language.",
     "m": 0,
-    "b": "Tbilisi,Kutaisi,Batumi,Poti,Sukhumi,Zugdidi,Telavi,Gori,Rustavi,Marneuli,Bolnisi,Tianeti,Akhaltsikhe,Akhalkalaki,Ninotsminda,Tsalka,Lagodekhi,Tsnori,Ozurgeti,Lanchkhuti,Kobuleti,Keda,Kvareli,Sagarejo,Terjola,Chiatura,Kharagauli,Zestaponi,Shukhevi,Baghdati,Vani,Khoni,Tskhinvali,Akhmeta,Dedoplistsqaro,Lentekhi,Aspindza,Dmanisi,Jvari,Abastumani,Mtskheta,Stepantsminda,Oni,Tsageri,Chkhorotsku,Chokhatauri,Nigavan,Ambrolauri",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Old Georgian",
