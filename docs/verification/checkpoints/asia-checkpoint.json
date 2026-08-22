@@ -1,17 +1,17 @@
 {
   "totalEntries": 1267,
-  "nextEntry": "Processed verified entries: Chashan, Langsu. Continuing with remaining WAITING entries.",
-  "lastUpdate": "2026-08-21T14:00:00-07:00",
+  "nextEntry": "Processed verified entries: Pathiya, Chilsso, Chhattisgarhi. Continuing with remaining WAITING entries.",
+  "lastUpdate": "2026-08-21T19:45:00-07:00",
   "blockers": [],
   "waiting": [
     "Proto-languages and historical/extinct languages marked WAITING (per protocol)",
     "Cover terms marked WAITING (per protocol: Northwestern Tai, Southwestern Tai, E Tai, Tai Daeng, etc.)",
     "Some real languages with empty b: fields needing research"
   ],
-  "lastIndex": "1253",
+  "lastIndex": "1982",
   "status": "in_progress",
   "pipeline": "Manual verification per protocol -> guardrails",
-  "lastEntry": "Langsu at i=1253",
-  "verifiedEntriesThisSession": 2465,
+  "lastEntry": "Pathiya at i=1982",
+  "verifiedEntriesThisSession": 2490,
   "continent": "asia"
 }

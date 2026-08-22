@@ -19,7 +19,7 @@ window.southAmericaNameBases = [
   "max": 19,
   "d": "",
   "m": 0,
-    "b": "Papiu,Demini,Haximú,Balaú,Auaris,Surucucu,Maturacá,Toototobi,Parawa,Watoriki,Opiktheri,Xidea,Catrimani,Uraricoera,Amajari,Marauiá,Aracaçá,Hokomawä,Padamo,Ocamo,Mavaca,Balawaú,Xamatauteri"
+    "b": "Papiu,Demini,Haximú,Balaú,Auaris,Surucucu,Maturacá,Toototobi,Parawa,Watoriki,Opiktheri,Xidea,Catrimani,Uraricoera,Amajari,Marauiá,Aracaçá,Hokomawä,Padamo,Ocamo,Mavaca,Balawaú,Xamatauteri,Irotatheri,Homoxi"
 },
 {
     "name": "Cavineña",
@@ -370,7 +370,7 @@ window.southAmericaNameBases = [
    "max": 16,
    "d": "",
    "m": 0,
-    "b": "SanMiguel,Guatapurí,Mamu,Poteca,Mechinguche,Mamarongo,Nabá,Teykú,Kívgi,Nabusimake,Palomino,DonDiego,Guachaca,Minca,PuebloBello,Chonchacala,Cañaveral,SantaRosa,Taminaka,PuebloViejo,Dibulla"
+    "b": "SanMiguel,Guatapurí,Mamu,Poteca,Mechinguche,Mamarongo,Nabá,Teykú,Kívgi,Nabusimake,Palomino,DonDiego,Guachaca,Minca,PuebloBello,Chonchacala,Cañaveral,SantaRosa,Taminaka,PuebloViejo,Dibulla,CiudadPerdida,QuebradaDelSol,Taironaka,Mulkwakungui"
 },
 {
     "name": "Fulniô",
@@ -938,7 +938,7 @@ window.southAmericaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-    "b": "Bluefields,RamaCay,ElBluff,KukraHill,Karawala,Tasbapauni,Haulover,Waspam,PuertoCabezas,Bilwi,Prinzapolka,Siuna,Rosita,Bonanza,LagunaDePerlas,Mulukuku,Waslala,LaDesembocadura,CornIsland,BigCornIsland,PearlLagoon,Kukra,SetNet,Awas"
+    "b": "Bluefields,RamaCay,ElBluff,KukraHill,Karawala,Tasbapauni,Haulover,Waspam,PuertoCabezas,Bilwi,Prinzapolka,Siuna,Rosita,Bonanza,LagunaDePerlas,Mulukuku,Waslala,LaDesembocadura,CornIsland,BigCornIsland,PearlLagoon,Kukra,SetNet,Awas,SumuKaat"
 },
 {
     "name": "Chimila",
@@ -1046,7 +1046,7 @@ window.southAmericaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-    "b": "Filadelfia,Neuland,LomaPlata,PozoColorado,MariscalEstigarribia,GeneralDíaz,CarmeloPeralta,NuevaAsunción,FortínTorres,Madrejón,CrucePioneros,FortínBoquerón,LagunaPora,PuertoPinasco,BenjamínAceval,VillaHayes,TteIrala,LaVictoria,CampoLoro,Ebetogué,ColoniaFernheim,ColoniaNeuland"
+    "b": "Filadelfia,Neuland,LomaPlata,PozoColorado,MariscalEstigarribia,GeneralDíaz,CarmeloPeralta,NuevaAsunción,FortínTorres,Madrejón,CrucePioneros,FortínBoquerón,LagunaPora,PuertoPinasco,BenjamínAceval,VillaHayes,TteIrala,LaVictoria,CampoLoro,Ebetogué,ColoniaFernheim,ColoniaNeuland,YalveSanga,TacuruPucu,SanLazaro"
 },
 {
     "name": "Kanamari",
@@ -1073,7 +1073,7 @@ window.southAmericaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-    "b": "PuertoObaldia,Mulatupo,PuertoArdilla,PlayonChico,Nargana,Alijgandi,Achutupo,Ustupo,Mamartupo,LaMiel,CerroAlgodon,Carreto,Jaque,SantaFe,Yaviza,Cana,Carti,Tigre,Pinas,BocaChica,Sambu,LaPalma"
+    "b": "PuertoObaldia,Mulatupo,PuertoArdilla,PlayonChico,Nargana,Alijgandi,Achutupo,Ustupo,Mamartupo,LaMiel,CerroAlgodon,Carreto,Jaque,SantaFe,Yaviza,Cana,Carti,Tigre,Pinas,BocaChica,Sambu,LaPalma,RioHondo,Platanares,Maje"
 },
 {
     "name": "Mapudungun",
@@ -1217,7 +1217,7 @@ window.southAmericaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-    "b": "Codazzi,AgustínCodazzi,LaPaz,Becerril,ManaureCesar,SanDiego,Socorpa,Iroka,Menkue,ElCoso,ElRosarioCesar,CañoPadilla,Toromo,Tinacoa,Aroy,Yurmuto,Machiques,SanJoséDePerijá,Sirapta"
+    "b": "Codazzi,AgustínCodazzi,LaPaz,Becerril,ManaureCesar,SanDiego,Socorpa,Iroka,Menkue,ElCoso,ElRosarioCesar,CañoPadilla,Toromo,Tinacoa,Aroy,Yurmuto,Machiques,SanJoséDePerijá,Sirapta,Sokorpa,Cozo,LaBodega,ElVallito,Menkwe,YukpaYaza"
 },
 {
     "name": "Piapoco",

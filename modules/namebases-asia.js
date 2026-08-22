@@ -2876,8 +2876,8 @@ window.asiaNameBases = [
     "max": 14,
     "d": "",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Raipur,Bhilai,Durg,Bilaspur,Korba,Rajnandgaon,Raigarh,Jagdalpur,Ambikapur,Chirmiri,Dhamtari,Bhatapara,Kanker,Kondagaon,Manendragarh,Kharsia,Dongargarh,Sarangarh,Simga,Tilda,Deobhog,Bhanupratappur,Rajim,Aded,Aaded,Chhapri,Nevri,Khapridih,Madagaon,Karkanar,Hidur,Chichgaon,Chargaon,Manegaon,Chhuri,Chhotasalhi,Chhindbhog,Majgaon,Pichekatta",
+    "status": "COMPLETE"
   },
   {
     "name": "Chiang Saen",
@@ -2946,8 +2946,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Manjeeri hamlet,Kuppamala hamlet,Uchakulam hamlet,Karulai hamlet,Vazhikkadavu hamlet,Poochapara hamlet,Kootanpara,Parappanpara",
+    "status": "COMPLETE"
   },
   {
     "name": "Chong",
@@ -2966,8 +2966,8 @@ window.asiaNameBases = [
     "max": 15,
     "d": "",
     "m": 1,
-    "b": "",
-    "status": "WAITING"
+    "b": "Ấp Lý Lịch,Ấp 5,Ấp Chợ,Ấp 5,Ấp Trung Sơn,Ấp Bình Hòa,Ấp Thọ Trung,Ấp 3,Ấp Suối Sóc,Ấp 4,Ấp Xuân Thiện,Ấp 9/4,Ấp Nhân Hòa,Ấp Ruộng Lớn,Ấp 6,Ấp Tân Thuận,Ấp Cầu Ri,Ấp 1,Thôn Tân Ro,Ấp Bàu Hàm,Xuân Bình,Xuân Trường,Xuân Thọ,Xuân Phú,Xuân Vinh,Xuân Hòa,Bầu Chinh,Long Tân,Sông Xoài,Hắc Dịch,Châu Pha,Tân Lâm,Trà Tân",
+    "status": "COMPLETE"
   },
   {
     "name": "Christian Palestinian Aramaic",
@@ -3119,15 +3119,15 @@ window.asiaNameBases = [
     "b": "Edessa,Antioch,Nisibis,Seleucia-Ctesiphon,Urhai,Amid,Mardin,Tur Abdin",
     "status": "WAITING"
   },
-  {
-    "name": "Chilisso",
+{
+    "name": "Chilsso",
     "i": 1626,
     "min": 4,
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Gujjar Banda,Dasu,Jalkot,Mahirin,Koli,Palas,Kolai",
+    "status": "COMPLETE"
   },
   {
     "name": "Idu Mishmi",
@@ -3346,8 +3346,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Anapantham,Vazhachal,Pokalapara,Peringalkuthu,Vachumaram,Mukkumpuzha,Sholayar,Anakayam,Perumbara,Kuriarkutty,Parambikulam,Parambikulam Earth Dam,Thekkady 30-acre,Cherunelly,Kalluchadi,Erumapara,Udubanpara,Kallarkudi,Villoni Nedungkundru,Eathakuzhi,Kavarakal",
+    "status": "COMPLETE"
   },
   {
     "name": "Kaikadi",
@@ -3506,8 +3506,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Sanamxai,Kasseng Plateau,Xe Kaman River,Dak Robay River",
+    "status": "COMPLETE"
   },
   {
     "name": "Duruwa",
@@ -3875,8 +3875,8 @@ window.asiaNameBases = [
     "max": 13,
     "d": "",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Khalapur,Kupwar,Saharanpur,Delhi,Meerut,Lucknow,Varanasi,Agra,Wagah,Lahore,Karachi,Rawalpindi,Faisalabad,Multan,Hyderabad,Peshawar,Islamabad",
+    "status": "COMPLETE"
   },
   {
     "name": "Hkongso",
@@ -4055,8 +4055,8 @@ window.asiaNameBases = [
     "max": 12,
     "d": "",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Erzurum,Mush,Van,Diarbekir,Kharpert,Trabzon,Smyrna,Constantinople,Van,Vaspurakan,Taron,Diarbekir,Kharberd,Yerznka,Shabin-Karahisar,Armenian,Western Armenian,Eastern Armenian",
+    "status": "COMPLETE"
   },
   {
     "name": "Old Armenian",
@@ -4065,8 +4065,8 @@ window.asiaNameBases = [
     "max": 12,
     "d": "",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Artashat,Dvin,Ani,Vagharshapat,Yerevan,Tigranakert,Bagaran,Van,Karin,Erzurum,Nakhichevan,Julfa,Tiflis,Constantinople,New Julfa,Venice,Vienna,Ayrarat,Vaspurakan,Taron,Korin,Aghdznik,Tsopk,Gugark,Syunik,Artsakh,Utik,Paytakaran,Nor Shirakan",
+    "status": "COMPLETE"
   },
   {
     "name": "Old Cilician Armenian",
@@ -4214,8 +4214,8 @@ window.asiaNameBases = [
     "max": 18,
     "d": "",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Mathamangalam,Thelampatta,Thrikkaipatta,Cheriyamkolly,Kazhambu",
+    "status": "COMPLETE"
   },
   {
     "name": "Itelmen",

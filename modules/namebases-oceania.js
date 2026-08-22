@@ -1000,8 +1000,8 @@ window.oceaniaNameBases = [
     "max": 12,
     "d": "",
     "m": 0,
-    "b": "Binandere",
-    "status": "WAITING"
+    "b": "Siawi,Sowara,Iwaia,Orokaiva,Ambasi,Manau,Dautami,Nindewari,Mamba,Gira,Kumusi,Eia,Coastal,Oro Province,Popondetta,Morobe Province,Lae,Port Moresby,Binanderean,Trans-New Guinea,Oro Province,Northern Province,Mamba River,Gira River,Kumusi River,Eia River,Coastal villages,Iwaia,Sowara,Binandere proper,Ambasi dialect,Yewa Buie,Suena,Zia,Ewage-Notu,Baruga,Doghoro,Gaina,Korafe,Yekora",
+    "status": "COMPLETE"
   },
 
 {
@@ -1077,8 +1077,8 @@ window.oceaniaNameBases = [
     "max": 12,
     "d": "",
     "m": 0,
-    "b": "Bukawa",
-    "status": "WAITING"
+    "b": "Buhalu,Cape Arkona,Hec,Tikeleng,Wideru,Bukawasip,Ulugidu,Asini,Busamang,Lae,Bugawac,Busama,Huon Gulf,Morobe Province,Huon Peninsula,Papua New Guinea,Huon Gulf languages,Austronesian,North Huon Gulf,Yabem,Kala,Bukawa dialect,Buhalu village,Cape Arkona village,Hec village,Tikeleng village,Wideru village,Bukawasip village,Ulugidu village,Asini village,Busamang village,Lae city villages,Bugawac village,Busama village",
+    "status": "COMPLETE"
   },
 
 {
@@ -1088,8 +1088,8 @@ window.oceaniaNameBases = [
     "max": 12,
     "d": "",
     "m": 0,
-    "b": "Bunak",
-    "status": "WAITING"
+    "b": "Bobonaro,Lolotoe,Zumalai,Cassa,Betano,Same,Maliana,Lamaknen,Raihat,Rai Manuk,Kobalima,Kobalima Timur,East Malaka,Belu Regency,Malaka Regency,Manufahi District,Cova Lima District,Bobonaro District,Ainaro District,Manufahi District,East Timor,West Timor,Indonesia,Timor,Lamaknen District,South Lamaknen,Rai Manuk,Kobalima,East Kobalima,East Malaka,West Timor,Indonesia,East Timor,Bunak,Bunaq,Buna',Bunake,Timor-Alor-Pantar,Trans-New Guinea,Timor,East Timor,Indonesia,West Timor,Lamaknen,Raihat,Rai Manuk,Kobalima,Kobalima Timur,East Malaka",
+    "status": "COMPLETE"
   },
 
 {
@@ -1143,8 +1143,8 @@ window.oceaniaNameBases = [
     "max": 12,
     "d": "",
     "m": 0,
-    "b": "Chimbu",
-    "status": "WAITING"
+    "b": "Kundiawa,Kerowagi,Gembogl,Karimui,Nomane,Chuave,Sinasina,Waiye,Dirima,Jiwaka,Mt. Hagen,Goroka,Simbu Province,Chimbu Province,Chimbu River,Wahgi Valley,Koro Valley,Wahgi River,Chimbu River,Mount Wilhelm,Daulo,Lufa,Unggai-Benna Lufa,Okapa,Eastern Highlands,Chimbu-Wahgi,Trans-New Guinea,Chimbu-Kuman,Trans-New Guinea,Kuman,Chimbu,Simbu",
+    "status": "COMPLETE"
   },
 
   {
@@ -1198,8 +1198,8 @@ window.oceaniaNameBases = [
     "max": 10,
     "d": "",
     "m": 0,
-    "b": "Dani",
-    "status": "WAITING"
+    "b": "Wamena,Jayawijaya,Lanny Jaya,Yalimo,Grand Valley Dani,Baliem Valley,Baliem River,Wamena Town,Tangma,Ibiroma,Aikima,Suroba,Jiwika,Wauma,Kurulu,Maelu,Kelila,Obano,Molof,Uwe,Pintir,Tolome,Tulem,Ilaga,Pasema,Mulia,Endaga,Wollo,Trans-New Guinea,Baliem Valley languages,Dani proper,Nggem,Lani,Yali",
+    "status": "COMPLETE"
   },
 
   {
@@ -1254,7 +1254,7 @@ window.oceaniaNameBases = [
     "d": "",
     "m": 0,
     "b": "Oro Province,Papua New Guinea,Yareban,Trans-New Guinea,Doriri,2000 speakers,Joshua Project,Oro languages,SIL-PNG,Aeka,Aneme Wake,Barai,Bariji,Baruga,Bauwaki,Biage,Binandere,Doghoro,Ese,Ewage-Notu,Fuyug,Gaina,Guhu-Samane,Hunjara-Kaina Ke,Korafe-Yegha,Kunimaipa,Maisin,Maiwa,Miniafia Oyan,Namiae,Nawaru,Ömie,Onjob,Orokaiva,Ubir,Yareba,Zia",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
 
   {
@@ -1330,8 +1330,8 @@ window.oceaniaNameBases = [
     "max": 12,
     "d": "",
     "m": 0,
-    "b": "Enga",
-    "status": "WAITING"
+    "b": "Wabag,Kandep,Kombiam,Ambum,Pogera,Porgera,Laigam,Laiagam,Marientesh,Yakas,Pindak,Mungapes,Takaim,Kompiam,Ambambua,Tsiribaka,Paiyam,Yambali,Kopen,Wapenamanda,Tsikiro,Tari,Koroba,Mendi,Kutubu,Lake Kopiago,Pindak,Tsurup,Par,Wabag Urban,Wabag Rural,Kandep Rural,Kandep Urban,Pogera Rural,Pogera Urban,Porgera Gold Mine,Lagaip,Pogera River,Strickland River,Lake Lakam,Porgera Valley,Wabag Town,Mount Hagen,Enga Province,Southern Highlands,Hela Province",
+    "status": "COMPLETE"
   },
 
   {
@@ -1440,8 +1440,8 @@ window.oceaniaNameBases = [
     "max": 12,
     "d": "",
     "m": 0,
-    "b": "Grand Valley Dani",
-    "status": "WAITING"
+    "b": "Wamena,Baliem Valley,Grand Valley Dani,Upper Grand Valley,Mid Grand Valley,Lower Grand Valley,Baliem River,Jayawijaya,Lanny Jaya,Yalimo,Wamena Town,Tangma,Ibiroma,Aikima,Suroba,Jiwika,Wauma,Kurulu,Maelu,Kelila,Obano,Molof,Uwe,Pintir,Tolome,Tulem,Ilaga,Pasema,Mulia,Endaga,Wollo,Trans-New Guinea,Baliem Valley languages,Grand Valley Dani proper,Nggem,Lani,Yali",
+    "status": "COMPLETE"
   },
 
 {
@@ -2761,7 +2761,7 @@ window.oceaniaNameBases = [
     "d": "",
     "m": 0,
     "b": "Ipiko,Pakemba,Baimuru,Biri Camp,Naharo,Amipoke ward,Baimuru Rural LLG,Kikori District,Gulf Province,Papua New Guinea,Pie River,Era River,Purari languages,Urama,Gibaio,Kiwaian languages,700 speakers,Endangered Languages Archive,ELDP,Zurab Baratashvili,Eva dialect,Ibigo dialect,Trans-New Guinea,Anim,Inland Gulf",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
 
   {
@@ -2860,7 +2860,7 @@ window.oceaniaNameBases = [
     "d": "",
     "m": 0,
     "b": "Lajamanu,Yuendumu,Katherine,Darwin,Tanami Desert,Hooker Creek,Warlpiri community,Northern Territory,Australia,Warlpiri,Kriol,Standard Australian English,mixed language,Carmel O'Shannessy,University of Michigan,350 native speakers 2013,under 40 years old,Warlpiri community Lajamanu,Lultju outstation,Buntine Highway,Tanami Road,Alice Springs,Tennant Creek,Warnayaka Art Centre,Community Education Centre,Purple House dialysis unit",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
 
   {
