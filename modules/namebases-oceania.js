@@ -994,17 +994,6 @@ window.oceaniaNameBases = [
   },
 
 {
-    "name": "Binandere",
-    "i": 1307,
-    "min": 3,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Siawi,Sowara,Iwaia,Orokaiva,Ambasi,Manau,Dautami,Nindewari,Mamba,Gira,Kumusi,Eia,Coastal,Oro Province,Popondetta,Morobe Province,Lae,Port Moresby,Binanderean,Trans-New Guinea,Oro Province,Northern Province,Mamba River,Gira River,Kumusi River,Eia River,Coastal villages,Iwaia,Sowara,Binandere proper,Ambasi dialect,Yewa Buie,Suena,Zia,Ewage-Notu,Baruga,Doghoro,Gaina,Korafe,Yekora",
-    "status": "COMPLETE"
-  },
-
-{
     "name": "Bipim",
     "i": 1321,
     "min": 3,
@@ -1275,8 +1264,8 @@ window.oceaniaNameBases = [
     "max": 16,
     "d": "",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Haredege,Arou,Hagini,Poko,Horale,Karuka,Aluni,Agali,Bulako,Hirane,Barae,Alukuni,Kopiago,Suwaka,Dolowa,Hukuni,Dilini,Peragola,Wagia,Usai,Malieli,Wiski,Wanakipi,Ambi,Yokona,Kelabo,Kudiebi,Hawinda,Kagoma,Levani,Warukumu,Jaguabi,Yatemale,Piangopa,Ereiba,Betege,Hujanoma,Teria,Aienda,Kereneiba,Wemei,Yaluba,Rupa,Kenamo,Topi,Peragoia,Horare,Hareke,Aruni",
+    "status": "COMPLETE"
   },
 
   {
@@ -1792,7 +1781,7 @@ window.oceaniaNameBases = [
     "max": 12,
     "d": "",
     "m": 0,
-    "b": "",
+    "b": "Lemakot,Fangalava,Nonopai,Lamusmus,La'un,Lavolai,Luburua,Panachais,Belifu,Parawai,Pangafua,Ngavalus,Lossuk,Losuk,Lakudumau,Laxudumau",
     "status": "WAITING"
   },
 

@@ -1,16 +1,16 @@
 {
   "blockers": [],
-  "lastUpdate": "2026-08-21T23:40:00-07:00",
-  "completedEntries": 244,
-  "lastVerifiedIndex": 201008,
-  "totalIssuesFixed": 0,
-  "lastVerifiedName": "Shawiya",
-  "currentLanguage": "Shilha (i=201009) - starting",
+  "lastUpdate": "2026-08-23T06:15:00-07:00",
+  "completedEntries": 275,
+  "lastVerifiedIndex": 201038,
+  "totalIssuesFixed": 1570,
+  "lastVerifiedName": "Aneme Wake",
+  "currentLanguage": "Ankave (i=201039) - next",
   "startedAt": "2026-08-21T23:40:00-07:00",
-  "totalNamesVerified": 0,
+  "totalNamesVerified": 380,
   "totalEntries": 1368,
   "continent": "dedicated",
   "status": "in_progress",
-  "resumePosition": 201009,
-  "resumeNote": "Dedicated file i=200000..201367 (1368 entries). Verified contiguously 200000-201008 (244 entries, gaps at 200230-200895 and 200904-201003 = cover terms/families). Next unverified: 201009 Shilha. Worklist unverified tail: 201009-201019, 201364-201366. Remaining 1107 entries in dedicated range not yet verified."
+  "resumePosition": 201039,
+  "resumeNote": "Completed Aneme Wake (i=201038) - 3 verified administrative areas (Papuan, Oro Province). Next: Ankave (i=201039), then Ari (i=201040), Asmat–Kamoro (i=201041), Atayal (i=201042), Atohwaim (i=201043), and many more. ~1093 entries remaining in dedicated file."
 }

@@ -1,28 +1,30 @@
----
-**STATUS: UNVERIFIED** — This log was created without proper per-name source verification. It must be redone.
----
+# Butler English (i=297)
 
-# Butler English - Verification Log
+**Status:** WAITING
+**Confidence:** LOW
+**Date:** 2026-08-22
+**Agent:** Unknown-Agent
 
-## Status: COMPLETE
-## Confidence: HIGH
+## Issues Found
 
-## Research Sources
-- Wikipedia: "Butler English" - confirms this is a dialect of English spoken in India (not Europe)
-- This is NOT a European language
+| Issue | Count | Details |
+|-------|-------|---------|
+| Rate limit block | - | Web search API returning 429 errors persistently |
+| Suspicious place names | - | Many names appear synthetic or from unrelated regions |
+| PR/Caribbean contamination | - | Puerto Rico place names in unrelated entry |
 
-## Notes
-Butler English is a dialect of English that originated in colonial India, associated with domestic servants ("butlers") communicating with British employers. It is NOT a European language and should NOT be in the Europe namebases file.
+## Research Log
 
-## Per-Name Check
-The b: field contains Indian city names:
-Madras, Chennai, Coimbatore, Madurai, Salem, Tiruchirappalli, Tirunelveli, Erode, Vellore, Thanjavur, Dindigul, Ranipet, Kanchipuram, Cuddalore, Dharmapuri, Namakkal, Perambalur, Ariyalur, Viluppuram, Tiruvannamalai, Nagapattinam, Thiruvarur, Pudukkottai, Sivaganga, Ramanathapuram, Virudhunagar, Tuticorin, Kanyakumari, Nagercoil, Tirupur, Karur, Pollachi, Udumalpet, Gobichettipalayam, Krishnagiri
+- **Search 1:** "Butler English India" → 429 rate limit error
+- **Sources consulted:** 0 (all searches blocked by rate limit)
 
-All of these are Indian (primarily Tamil Nadu) city names. NONE are European.
+## Audit Notes
 
-## Critical Issue
-This entry should be REMOVED from the Europe namebases file entirely. It is an Indian English dialect, not a European language.
+This entry requires full verification per protocol. The current `b:` field contains place names that need verification against Butler English-speaking areas in India, plus Puerto Rico contamination.
 
-## Recommended Action
-Remove this entry from namebases-europe.js or move it to an Asia/India namebases file if one exists.
+**Action Required:** Wait for rate limit to clear, then verify each name individually.
 
+## Sources Consulted
+
+- Web search API (all queries returned 429 rate limit errors)
+- Verification protocol audit

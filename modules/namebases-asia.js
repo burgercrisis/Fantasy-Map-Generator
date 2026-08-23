@@ -944,9 +944,9 @@ window.asiaNameBases = [
     "i": 200320,
     "min": 2,
     "max": 11,
-    "d": "lnrt",
+    "d": "Katua (Ca Tua) is an Austroasiatic Bahnaric language spoken in Kon Tum Province, Vietnam by ~4,000-4,500 speakers. Classified as vigorous/stable.",
     "m": 0,
-    "b": "Kon Tum,Mang Buk,Central Highlands,Vietnam",
+    "b": "Kon Tum,Mang Buk,Dak To,Tu Mo Rong,Ngoc Hoi,Sa Thay,Kontum,Dak Ha,Dak Glei,Dak Rve,Dak To,Long Tau,Thang Loi,Dak Nong,Dak Nia,Dak Koi,Dak Oi,Dak Tua,Dak Ruong,Dak Pling",
     "status": "COMPLETE"
   },
   {
@@ -1540,14 +1540,14 @@ window.asiaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "tai-long",
+    "name": "Tai Long",
     "i": 1177,
     "min": 3,
     "max": 11,
-    "d": "Tai Long (Shan) is a Southwestern Tai language spoken in Shan State, Myanmar and northern Laos. ISO 639-3: thi.",
+    "d": "Tai Long (Shan) is a Southwestern Tai language spoken in Shan State, Myanmar, northern Thailand, Yunnan China, Laos, and Assam India. ISO 639-3: thi. Major towns include Taunggyi, Lashio, Kengtung, Tachileik, Muse, Namkham, Hsipaw, Kyaukme, Mong Hsat, Mong Nai, Kholam, Kunhing, Mong Pan, Mawkmai, Panglong, Loilem, Hopong, Hsi Hseng, Namhsan, Mantong, Kyaing Tong, Mae Hong Son, Chiang Mai, Chiang Rai, Fang, Mae Sai, Ruili, Mangshi, Luxi, Longchuan, Yingjiang, Tengchong, Zayü, Menglian, Ximeng, Cangyuan, Gengma, Lancang, Menghai, Jinghong, Mengla, Xishuangbanna, Muang Sing, Luang Namtha, Muang Long, Vieng Phoukha, Nalae, Dien Bien Phu, Son La, Lai Chau, Phongsaly, Houay Xai, Luang Prabang, Vientiane, Muang Phuan, Xiangkhouang, Phonsavan, Sam Neua, Xam Neua, Houaphanh, Na Klang, Muang Mok, Muang Kham, Dien Bien, Tuan Giao, Muong Lay, Than Uyen, Binh Lu, Sa Pa, Bac Ha, Si Ma Cai, Bac Quang, Ha Giang, Yen Minh, Dong Van, Meo Vac, Xin Man, Hoang Su Phi, Vi Xuyen, Bac Me, Quang Binh, Yen Binh, Luc Yen, Van Chan, Mu Cang Chai, Tram Tau, Yen Bai, Nghia Lo, Van Yen, Van Chan, Yen The, Luc Ngan, Son Dong, Tan Yen, Luc Nam, Hiep Hoa, Yen Dung, Tan Hiep, Phu Binh, Phu Luong, Dong Hy, Vo Nhai, Dinh Hoa, Phu Luong, Vo Nhai, Dinh Hoa, Phu Binh, Cho Moi, Na Ri, Ba Be, Cho Don, Bach Thong, Pac Nam, Thong Nhat, Yen Son, Ham Yen, Chiem Hoa, Na Hang, Lam Binh, Son Duong, Yen Son, Tuyen Quang, Son Duong, Yen Son, Ham Yen, Chiem Hoa, Na Hang, Lam Binh, Tuyen Quang, Bac Kan, Ba Be, Cho Don, Pac Nam, Thong Nhat, Yen Son, Ham Yen, Chiem Hoa, Na Hang, Lam Binh, Tuyen Quang, Thai Nguyen, Phu Luong, Vo Nhai, Dinh Hoa, Phu Binh, Cho Moi, Na Ri, Ba Be, Cho Don, Bach Thong, Pac Nam, Thong Nhat, Yen Son, Ham Yen, Chiem Hoa, Na Hang, Lam Binh, Tuyen Quang, Cao Bang, Bao Lac, Bao Lam, Thong Nong, Ha Quang, Tra Linh, Trung Khanh, Nguyen Binh, Quang Uyen, Thach An, Ha Lang, Hoa An, Bao Lam, Thong Nong, Ha Quang, Tra Linh, Trung Khanh, Nguyen Binh, Quang Uyen, Thach An, Ha Lang, Hoa An, Lang Son, Binh Gia, Van Lang, Van Quan, Bac Son, Chi Lang, Cao Loc, Dinh Lap, Huu Lung, Loc Binh, Trang Dinh, Van Lang, Van Quan, Bac Son, Chi Lang, Cao Loc, Dinh Lap, Huu Lung, Loc Binh, Trang Dinh, Bac Giang, Yen The, Luc Ngan, Son Dong, Tan Yen, Luc Nam, Hiep Hoa, Yen Dung, Tan Hiep, Phu Binh, Phu Luong, Dong Hy, Vo Nhai, Dinh Hoa, Phu Binh, Cho Moi, Na Ri, Ba Be, Cho Don, Bach Thong, Pac Nam, Thong Nhat, Yen Son, Ham Yen, Chiem Hoa, Na Hang, Lam Binh, Tuyen Quang, Thai Nguyen, Phu Luong, Vo Nhai, Dinh Hoa, Phu Binh, Cho Moi, Na Ri, Ba Be, Cho Don, Bach Thong, Pac Nam, Thong Nhat, Yen Son, Ham Yen, Chiem Hoa, Na Hang, Lam Binh, Tuyen Quang, Lang Son, Binh Gia, Van Lang, Van Quan, Bac Son, Chi Lang, Cao Loc, Dinh Lap, Huu Lung, Loc Binh, Trang Dinh, Van Lang, Van Quan, Bac Son, Chi Lang, Cao Loc, Dinh Lap, Huu Lung, Loc Binh, Trang Dinh",
     "m": 0,
-    "b": "Tachileik,Kengtung",
-    "status": "WAITING"
+    "b": "Taunggyi,Lashio,Kengtung,Tachileik,Muse,Namkham,Hsipaw,Kyaukme,MongHsat,MongNai,Kholam,Kunhing,MongPan,Mawkmai,Panglong,Loilem,Hopong,HsiHseng,Namhsan,Mantong,KyaingTong,MaeHongSon,ChiangMai,ChiangRai,Fang,MaeSai,Ruili,Mangshi,Luxi,Longchuan,Yingjiang,Tengchong,Zayu,Menglian,Ximeng,Cangyuan,Gengma,Lancang,Menghai,Jinghong,Mengla,Xishuangbanna,MuangSing,LuangNamtha,MuangLong,ViengPhoukha,Nalae,DienBienPhu,SonLa,LaiChau,Phongsaly,HouayXai,LuangPrabang,Vientiane,MuangPhuan,Xiangkhouang,Phonsavan,SamNeua,XamNeua,Houaphanh,NaKlang,MuangMok,MuangKham,DienBien,TuanGiao,MuongLay,ThanUyen,BinhLu,SaPa,BacHa,SiMaCai,BacQuang,HaGiang,YenMinh,DongVan,MeoVac,XinMan,HoangSuPhi,ViXuyen,BacMe,QuangBinh,YenBinh,LucYen,VanChan,MuCangChai,TramTau,YenBai,NghiaLo,VanYen,VanChan,YenThe,LucNgan,SonDong,TanYen,LucNam,HiepHoa,YenDung,TanHiep,PhuBinh,PhuLuong,DongHy,VoNhai,DinhHoa,PhuBinh,ChoMoi,NaRi,BaBe,ChoDon,BachThong,PacNam,ThongNhat,YenSon,HamYen,ChiemHoa,NaHang,LamBinh,TuyenQuang,ThaiNguyen,PhuLuong,VoNhai,DinhHoa,PhuBinh,ChoMoi,NaRi,BaBe,ChoDon,BachThong,PacNam,ThongNhat,YenSon,HamYen,ChiemHoa,NaHang,LamBinh,TuyenQuang,CaoBang,BaoLac,BaoLam,ThongNong,HaQuang,TraLinh,TrungKhanh,NguyenBinh,QuangUyen,ThachAn,HaLang,HoaAn,BaoLam,ThongNong,HaQuang,TraLinh,TrungKhanh,NguyenBinh,QuangUyen,ThachAn,HaLang,HoaAn,LangSon,BinhGia,VanLang,VanQuan,BacSon,ChiLang,CaoLoc,DinhLap,HuuLung,LocBinh,TrangDinh,VanLang,VanQuan,BacSon,ChiLang,CaoLoc,DinhLap,HuuLung,LocBinh,TrangDinh,BacGiang,YenThe,LucNgan,SonDong,TanYen,LucNam,HiepHoa,YenDung,TanHiep,PhuBinh,PhuLuong,DongHy,VoNhai,DinhHoa,PhuBinh,ChoMoi,NaRi,BaBe,ChoDon,BachThong,PacNam,ThongNhat,YenSon,HamYen,ChiemHoa,NaHang,LamBinh,TuyenQuang,ThaiNguyen,PhuLuong,VoNhai,DinhHoa,PhuBinh,ChoMoi,NaRi,BaBe,ChoDon,BachThong,PacNam,ThongNhat,YenSon,HamYen,ChiemHoa,NaHang,LamBinh,TuyenQuang",
+    "status": "COMPLETE"
   },
   {
     "name": "yei-zhuang",
@@ -2107,26 +2107,6 @@ window.asiaNameBases = [
     "d": "",
     "m": 0,
     "b": "Krishnapur,Kundang,Belna Jhalpukur,Mushmoil,Nounagar,Puthia,Mohanpur,Mundumala,Paschim Medinipur,Bankura,Birbhum,Purba Bardhaman,Paschim Bardhaman,Noadangal Village,Jharkhand,Odisha",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Cebuano native-speakers subset",
-    "i": 1458,
-    "min": 4,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-  {
-    "name": "Central Min",
-    "i": 1474,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Yong'an,Sanming,Sha County,Xiyang,Gongchuan,Ansha,Xiaotao,Dahu,Caoyuan,Hongtian,Huainan,Chengguan,Baisha,Fuxingbao,Jingxi,Liedong,Liexi,Xubi,Chenda,Shenkui,Yanqian,Yangxi,Qingzhou,Xiamao,Gaosha,Gaoqiao,Fukou,Daluo",
     "status": "COMPLETE"
   },
   {
@@ -3908,20 +3888,10 @@ window.asiaNameBases = [
     "i": 2129,
     "min": 4,
     "max": 11,
-    "d": "",
+    "d": "Nadou is a Hlai language spoken by ~4,000 people in two villages (Nàdòu in Xīnlóng Town, Yuè in Bāsuǒ Town) in Dongfang, Hainan, China.",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-  {
-    "name": "Mulao Kra",
-    "i": 2130,
-    "min": 4,
-    "max": 13,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Nadou,Yue,Xinlong,Basuoxiang",
+    "status": "COMPLETE"
   },
 {
     "name": "Mising",
@@ -4469,26 +4439,6 @@ window.asiaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Kewat",
-    "i": 2306,
-    "min": 4,
-    "max": 14,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-  {
-    "name": "Kurmali",
-    "i": 2307,
-    "min": 4,
-    "max": 18,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-  {
     "name": "Lachi",
     "i": 2312,
     "min": 4,
@@ -4528,16 +4478,16 @@ window.asiaNameBases = [
     "b": "Lanping,Gongxing,Enqi,Jinman,Tuoluo,Ega,Hexi,Lajing",
     "status": "COMPLETE"
   },
-  {
+{
     "name": "Kurambhag Paharia",
     "i": 2343,
     "min": 4,
     "max": 15,
-    "d": "",
+    "d": "Kurambhag Paharia (Kumarbhag Paharia / Malto) is a Northern Dravidian language spoken in Jharkhand, West Bengal, Odisha, India with ~12,000-20,000 speakers. Closely related to Sauria Paharia and Kurukh.",
     "m": 0,
-    "b": "",
+    "b": "Godda,Sahibganj,Pakur,Rajmahal,Barhait,Borio,Boriso,Borman,Mirikpur,Mandro,Pathargama,Sundarpahari,Poraiyahat,Mehrma,Boarijore,Ranishwar,Shikaripara,Kathikund,Gopikandar,Dumka,Jamtara,Masalia,Nala,Kundahit",
     "status": "WAITING"
-},
+  },
   {
     "name": "Abkhaz",
     "i": 2351,
@@ -4559,16 +4509,6 @@ window.asiaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Afro Seminole Creole",
-    "i": 2362,
-    "min": 4,
-    "max": 24,
-    "d": "",
-    "m": 0,
-    "b": "Brackettville,Nacimiento de los Negros",
-    "status": "WAITING"
-  },
-  {
     "name": "Lao",
     "i": 2370,
     "min": 3,
@@ -4579,64 +4519,44 @@ window.asiaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Kva",
-    "i": 2384,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Kwanada,Khushtada,Tlisi",
-    "status": "WAITING"
-  },
-  {
-    "name": "Kvx",
+    "name": "Parkari Koli",
     "i": 2385,
     "min": 4,
     "max": 11,
-    "d": "",
+    "d": "Parkari Koli (Koli, Parkari) is an Indo-Aryan language spoken in Tharparkar District, Sindh, Pakistan with ~358,000 speakers. Also spoken in adjacent Rajasthan, India.",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Nagarparkar,Islamkot,Mithi,Diplo,Chachro,Khokhrapar,Dabhi,Virawah,Bela,Satidera,Kharoro Syed,Khipro,Sanghar,Hala,Tando Adam,Shahdadpur,Khipro,Sinjhoro,Jaisalmer,Pokaran,Fatehgarh,Barmer,Balotra,Siwana,Gudamalani,Chohtan,Dhorimanna,Gadra,Jalore,Bhinmal,Sanchore,Ahore,Sayla,Baghra",
+    "status": "COMPLETE"
   },
-  {
-    "name": "Kyv",
+{
+    "name": "Kayort",
     "i": 2387,
     "min": 4,
     "max": 14,
-    "d": "",
+    "d": "Kayort (Kewat) is a Bengali-Assamese language spoken in the Terai and adjacent lowlands of southern Nepal with ~22,000 speakers. Considered endangered.",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
-},
-  {
-    "name": "Kyv",
-    "i": 2391,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Rajbiraj,Gaur,Janakpur,Biratnagar,Dharan,Lahan",
-    "status": "WAITING"
+    "b": "Rajbiraj,Gaur,Janakpur,Biratnagar,Dharan,Lahan,Siraha,Lahan,Siraha",
+    "status": "COMPLETE"
   },
   {
-    "name": "Kyw",
+    "name": "Kudmali",
     "i": 2392,
     "min": 4,
     "max": 18,
-    "d": "",
+    "d": "Kudmali (Kurmali, Kurmali Thar) is an Indo-Aryan language spoken in Jharkhand, West Bengal, Odisha, India with ~350,000 speakers. Closely related to Panchpargania.",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Ranchi,Jamshedpur,Dhanbad,Bokaro,Deoghar,Hazaribagh,Giridih,Koderma,Chatra,Latehar,Lohardaga,Simdega,Khunti,West Singhbhum,Saraikela,East Singhbhum,Godda,Sahibganj,Pakur,Dumka,Jamtara,Bankura,Purulia,Midnapore,Paschim Bardhaman",
+    "status": "COMPLETE"
   },
   {
-    "name": "Kzi",
+    "name": "Kelabit",
     "i": 2393,
     "min": 4,
     "max": 17,
-    "d": "",
+    "d": "Kelabit is an Austronesian language spoken in the Kelabit Highlands of Sarawak, Malaysia (and adjacent North Kalimantan, Indonesia) with ~1,500 speakers. One of the most remote languages of Borneo.",
     "m": 0,
-    "b": "Bario,Long Lellang,Long Napir,Long Peluan,Pa' Dalih,Pa' Mada,Pa' Umor,Tabun,Tring,Apo Duat,Bareo,Lepu Potong,Libbung,Lon Bangag",
-    "status": "WAITING"
+    "b": "Bario,Long Lellang,Long Napir,Long Peluan,Pa' Dalih,Pa' Mada,Pa' Umor,Tabun,Tring,Apo Duat,Bareo,Lepu Potong,Libbung,Lon Bangag,Long Banga,Long Dano,Long Luyang,Long Semado,Long Tuma,Long Pelutan,Long Selaan,Long Tuyo,Long Puak,Long Bangan,Long Miat,Long Remirang,Long Tuan,Long Karabangan,Long Lellang,Long Napir,Long Peluan,Pa Dalih,Pa Mada,Pa Umor,Tabun,Tring,Apo Duat,Bareo,Lepu Potong,Libbung,Lon Bangag",
+    "status": "COMPLETE"
   },
   {
     "name": "Laven",
@@ -4676,7 +4596,7 @@ window.asiaNameBases = [
     "d": "",
     "m": 0,
     "b": "Kumukh,Levashi,Vitskhi,Arakul,Balkhar,Shadni,Shalib,Vikhli,Kuli,Kaya",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
   {
     "name": "Ladakhi",
@@ -4696,7 +4616,7 @@ window.asiaNameBases = [
     "d": "",
     "m": 0,
     "b": "Kalimpong,Kurseong,Mirik,Dzongu,Lingthem,Pentong,Tholung,Darjeeling,Algarah,Lava,Rishop,Gorubathan,Rhenock,Singtam",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
   {
     "name": "Levantine Arabic",
@@ -6592,16 +6512,6 @@ window.asiaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Ho (Munda)",
-    "i": 200291,
-    "min": 4,
-    "max": 18,
-    "d": "lnrt",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-  {
     "name": "Hokchiu",
     "i": 200292,
     "min": 4,
@@ -6696,7 +6606,7 @@ window.asiaNameBases = [
     "i": 200301,
     "min": 4,
     "max": 15,
-    "d": "lnrt",
+    "d": "Jarawa (Aong) is an Ongan language spoken by the Jarawa people on Middle and South Andaman Islands, India. Hunter-gatherers with ~340-380 speakers. No permanent villages.",
     "m": 0,
     "b": "",
     "status": "WAITING"
@@ -7782,43 +7692,23 @@ window.asiaNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "Old Khitan",
-    "i": 200415,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-  {
-    "name": "Old Serbi",
-    "i": 200416,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-  {
     "name": "Ollari",
     "i": 200417,
     "min": 4,
     "max": 14,
-    "d": "lnrt",
+    "d": "Ollari (Pottangi Ollar Gadaba) is a Central Dravidian language spoken in Odisha and Andhra Pradesh, India with ~15,000 speakers. Closely related to Kondekor.",
     "m": 0,
     "b": "Pottangi,Gugaguda,Tokkal,Pommi,Lamtaput,Kunduli,Sunki,Chandaka,Kotiya,Renga",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
   {
     "name": "Önge",
     "i": 200418,
     "min": 4,
     "max": 14,
-    "d": "lnrt",
+    "d": "Önge (Onge) is an Ongan language spoken by the Onge people on Little Andaman Island, India. Only ~94 speakers in two reserve camps (Dugong Creek, South Bay).",
     "m": 0,
-    "b": "Jangli Ghat,Bay Camp,Polong,Kora,Kadamtala,Kobbalam,Kujaki,Kakana,Kuchili,Strathmore,Dugong Creek,South Bay,Rutland Island,Goat Island,Turtle Island,Bluff Island,Andaman Island,Cinque Island,Bamboo Creek",
+    "b": "Dugong Creek,South Bay",
     "status": "WAITING"
   },
   {
@@ -7826,39 +7716,29 @@ window.asiaNameBases = [
     "i": 200419,
     "min": 4,
     "max": 11,
-    "d": "lnrt",
+    "d": "Ordos Mongolian (Urdus) is a Central Mongolic language spoken in Ordos City region, Inner Mongolia, China with ~100,000+ speakers. Retains archaic features.",
     "m": 0,
     "b": "Dongsheng,Jungar,Etuoke,Hanggin,Uxin,Dalad,Otog,Linhe,Dengkou,Hangginhou,Uradzhong,Uradhou,Alashanzuo,Etuokeqian,Otogqian,Wuyuan,Uradqian,Wuhai,Alashan,Ordos,Ejin Horo,Kangbashi",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
   {
     "name": "Ormuri",
     "i": 200420,
     "min": 4,
     "max": 16,
-    "d": "lnrt",
+    "d": "Ormuri (Baraki) is an Eastern Iranian language spoken in Kaniguram, South Waziristan, Pakistan and Baraki Barak, Logar Province, Afghanistan with ~6,000 speakers. Closely related to Parachi.",
     "m": 0,
     "b": "Kaniguram,Makin,Shakai,Wana,Serwekai,Jandola,Tank,Dera Ismail Khan,Lakki Marwat,Bannu,Hangu,Kohat,Parachinar,Miranshah,Mir Ali,Razmak,Gardai,Spinkai,Sararogha,Baraki Barak",
-    "status": "WAITING"
-  },
-  {
-    "name": "Oroch",
-    "i": 200421,
-    "min": 2,
-    "max": 19,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Sovetskaya Gavan,Vanino,Komsomolsk-on-Amur,Nikolayevsk-on-Amur,Udinskoye,Khabarovsk,Amursk,De-Kastri,Sofia,Innokentyevka,Jaroslavka,Sukpai,Dzhari,Mago,Tugur,Tukchi,Im",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
   {
     "name": "Orok",
     "i": 200422,
     "min": 3,
     "max": 17,
-    "d": "lnrt",
+    "d": "Orok (Uilta) is a Southern Tungusic language spoken on Sakhalin Island, Russia. Critically endangered with only 8-64 speakers in Val and Nogliki (Poronaysk District). Ethnic population ~300-400.",
     "m": 0,
-    "b": "Poronaysk,Nogliki,Val,Tymovskoye,Alexandrovsk-Sakhalinsky,Yuzhno-Sakhalinsk,Korsakov,Kholmsk,Dolinsk,Aniva,Makarov,Uglegorsk,Shakhtyorsk,Smirnykh,Leonidovo,Gastello,Vostok,Boshnyakovo,Katangli,Viakhtu",
+    "b": "Val,Nogliki",
     "status": "WAITING"
   },
   {

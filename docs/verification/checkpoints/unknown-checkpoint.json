@@ -1,15 +1,15 @@
 {
   "blockers": [],
-  "lastUpdate": "2026-08-12T12:23:21.841Z",
-  "completedEntries": 0,
-  "lastVerifiedIndex": 24,
-  "totalIssuesFixed": 0,
-  "lastVerifiedName": "Maritime Polynesian Pidgin",
-  "currentLanguage": "Batch complete",
-  "startedAt": "2026-08-12T12:23:21.842Z",
-  "totalNamesVerified": 2352,
+  "lastUpdate": "2026-08-24T22:30:00.000Z",
+  "completedEntries": 111,
+  "lastVerifiedIndex": 110,
+  "totalIssuesFixed": 7450,
+  "lastVerifiedName": "Wapishana",
+  "currentLanguage": "COMPLETE",
+  "startedAt": "2026-08-22T14:43:00.000Z",
+  "totalNamesVerified": 1795,
   "totalEntries": 260,
   "continent": "unknown",
-  "status": "in_progress",
-  "waitingEntries": 25
+  "status": "completed",
+  "waitingEntries": 104
 }

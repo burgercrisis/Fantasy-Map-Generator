@@ -9139,7 +9139,7 @@ window.dedicatedNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Shilha,Agadir,Taroudant,Tiznit,Ouarzazate,Essaouira,Zagora,Tata,Tan-Tan,Guelmim,Sidi Ifni,Boumalne Dades,Tafraoute,Ait Baha,Taliouine,Talouine,Aoulouz,Igherm,Amtoudi,Akka,Foum Zguid,Assa,Taghjijt,Icht,Tamanar,Smimou,Ida Ougnidif,Taroudannt,Arazane"
+    "b": "Agadir,Taroudant,Tiznit,Ouarzazate,Essaouira,Zagora,Tata,Tan-Tan,Guelmim,Sidi Ifni,Boumalne Dades,Tafraoute,Ait Baha,Taliouine,Aoulouz,Igherm,Amtoudi,Akka,Foum Zguid,Assa,Taghjijt,Icht,Tamanar,Smimou,Ida Ougnidif,Arazane,Oulad Teima,Imouzzer,Ait Iaaza,El Guerdane,Irherm,Oulad Berhil,Biougra,Ait Melloul,Inezgane,Dcheira El Jihadia,Lqliaa,Temsia,Aourir,Taghazout,Tamraght,Tiout,Tazemmourt,Sidi Dahmane,Freija,Ahmar,Tamaloukte,Askaouen,Saktana,Tizegzaouine,Agadir Melloul,Ida Ou Moumen"
   },
   {
     "name": "Siwi",
@@ -9148,7 +9148,7 @@ window.dedicatedNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Siwi,Siwa,Shali,Aghurmi,Abou Shrouf,Bahariya,El Dakhla,El Kharga,Farafra,Gara,Maraqi,Zeitun,Khamisa,Taghaghien,Deir Ali,Barmah,Siwa Oasis,Gabal El Shaybah,Egma,Ballana,Bait Sar,Biwayid,Bawiti,El Hayez,Qarat Umm el-Saghir,Qasr Farafra,El Qara,Darb Siwa"
+    "b": "Siwa,Shali,Aghurmi,Abou Shrouf,Gara,Maraqi,Bahayeddin"
   },
   {
     "name": "South Oran and Figuig Berber",
@@ -9157,7 +9157,7 @@ window.dedicatedNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Bechar,Kenadsa,Abadla,Figuig,Beni Ounif,Arbaouat,Amour,Labiodh Sidi Cheikh,Brezina,Ouled Khodeir,Ain Sefra,El Bayadh,Moghrar,Asla,Chellala,Bouktob,Boussemghoun,Beni Ikhlef,Ksour,Taghit,Igli,Meridja,Moghar,Fendi,Mekter,Bechar-Bilda"
+    "b": ""
   },
   {
     "name": "Tarifit",
@@ -9175,7 +9175,7 @@ window.dedicatedNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Tidikelt,Timmimoun,Adrar,In Salah,Aoulef,Reggane,Akabli,Ouled Said,Tit,Touat,Charouine,Fenoughil,Tamantit,Zaouiet Kounta,Saada,Tamentit,Timekten,In Belbel,Aougrout,Metarfa,Timi,Tinerkouk,Ouled Brahim,In Ghar,Sali,Bouda,Cape Coast,Yamoussoukro,Dakar,Bamako,Ouagadougou,Conakry,Accra,Kumasi,Abidjan,Lomé,Cotonou,Lagos,Kano,Ibadan,Abuja,Tamale,Bouaké,Saint-Louis,Thiès,Kaolack,Apukside,Alasside,Alemtown,Aurburg,Anuburg,Alunburg,Alitside,Afugtown,Adigtown,Anuktown,Abogtown,Akumtown,Apostown,Apugside,Abemside,Tidikelttown,Tidikeltville,Tidikeltburg,Tidikeltview,Tidikeltside"
+    "b": "In Salah,Aoulef,Tit,Akabli,Tamekten,Tamantit,Zaouiet Kounta,Fenoughil,Reggane,Sali,Adrar,Timimoun,Ouled Said,Charouine,Aougrout,Metarfa,Tinerkouk,Bouda,In Ghar,In Belbel,Saada,Aougrout,Ouled Brahim"
   },
   {
     "name": "Tuareg Tamasheq",
@@ -9184,7 +9184,7 @@ window.dedicatedNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Timbuktu,Kidal,Gao,Agadez,Tamanrasset,Ghat,Adrar des Ifoghas,Aïr,Hoggar,Ténéré,Azawagh,Ansongo,Tessalit,Mopti,Tombouctou,In Tabarabar,Tin Eker,Tahoua,In-Gall,Tchirozerine,Arlit,Maradi,Zinder,Diffa,Tillabéri,Dosso,Niamey,Bamako,Sikasso,Kayes,Ménaka,Andéramboukane,Arawan,Bourem,Gourma,Rharous,Tin-Essako,Abeibara,Boghar,Edjere,Intamague,t,Tokar,Talhandak,Kidal Tarket"
+    "b": "Timbuktu,Kidal,Gao,Agadez,Tamanrasset,Ghat,Tessalit,In-Gall,Tchirozerine,Arlit"
   },
   {
     "name": "Tugurt",
@@ -9193,7 +9193,7 @@ window.dedicatedNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Tugurt,Touggourt,El Oued,Tebesbest,Nezla,Tamacine,Blidet Amor,Sidi Slimane,Taleb Larbi,Temacine,Bayada,Belaiba,Hassi Khelifa,Debila,Ourmes,Magrane,Robbah,Kouinine,Guemar,Reguiba,Still,El M'Ghair,Djamaa,Khobna,Oum Touyour,Trifaoui,El Ogla"
+    "b": "Temacine,Blidet Amor,Meggarine,Ghamra,Tebesbest,Nezla,Balidat Ameur,Sidi Slimane"
   },
   {
     "name": "Tuwat",
@@ -9202,7 +9202,7 @@ window.dedicatedNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Tuwat,Adrar,Timmimoun,Reggane,Aoulef,In Salah,Sali,Tamekten,Tit,Bouda,Hamiane,Bent Cherchali,Mesghouane,Zaouiet Kounta,Tamest,Fenoughil,Afer,Kinan,Ouled Ahmed,Tamantit,In Ghar,Aougrout,Metarfa,Ouled Ali,Saada,Timekten,In Belbel"
+    "b": "Adrar,Reggane,Bouda,Zaouiet Kounta,Tamantit,Sali,Fenoughil,Tamest,Charouine,Ksar Kaddour,Tsabit,Ouled Ahmed Timmi,Deldoul,Sbaa"
   },
   {
     "name": "Western Algerian Zenatic dialects",
@@ -9211,7 +9211,7 @@ window.dedicatedNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Oran,Sidi Bel Abbes,Ain Temouchent,Mascara,Relizane,Mostaganem,Saida,Mecheria,Tlemcen,Maghnia,Nedroma,Ghazaouet,Beni Saf,Remchi,Ouled Mimoun,Sabra,Hammam Boughrana,Souahlia,Dar Yaghmouracene,Ain Fekan,Ain El Turk,Misserghin,Boutlelis,Gdyel,Bir El Djir,Ziguinchor,Touba,Ségou,Sikasso,Mopti,Timbuktu,Gao,Bobo-Dioulasso,Kindia,Kankan,Nzérékoré,Porto-Novo,Parakou,Sokodé,Kara,Cape Coast,Yamoussoukro,Bab El Assa,Abustown,Abamtown,Aludtown,Afektown,Apebford,Afekford,Abudtown,Apastown,Alenland,Anumland,Analand,Aebford,Abegtown,Alebtown,Abektown,WesternAlgerianZenaticdialectstown,WesternAlgerianZenaticdialectsville,WesternAlgerianZenaticdialectsburg,WesternAlgerianZenaticdialectsview,WesternAlgerianZenaticdialectsside"
+    "b": ""
   },
   {
     "name": "Zurg",
@@ -9220,7 +9220,7 @@ window.dedicatedNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Tarfaya,Laayoune,Smara,Dakhla,Azrou,Ifrane,Khenifra,Midelt,Azilal,Chichaoua,Taroudant,Tata,Guelmim,Sidi Bennour,Oualidia,Asilah,Larache,Chefchaouen,Tetouan,Fnideq,Ouezzane,Rissani,Ksar Sghir,Moulay Bousselham,Sidi Ifni,Agadir,Al Hoceima,Nador,Ouarzazate,Zagora,Moulay Abdellah,Boujdour,Tiznit,Dakar,Bamako,Ouagadougou,Conakry,Accra,Kumasi,Abidjan,Lomé,Cotonou,Lagos,zurgSprings,zurgCreek,zurgRidge,zurgHeights,zurgFalls,zurgBeach,zurgPoint,zurgBay,zurgGrove,Aowood,Aborport,Akogwood,Aketport,Adosport,Akudbridge,Aputbridge,Afegport,Afirbridge,Akotwood,Afimbridge,Aponwood,Afomport,Ademport,Akoswood,Zurgtown,Zurgville,Zurgburg,Zurgview,Zurgside"
+    "b": ""
   },
   {
     "name": "Zuwara Berber",
@@ -9229,7 +9229,7 @@ window.dedicatedNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Zuwara,Zanzur,Sabratha,Sorman,Ajaylat,Riqdaleen,Jmail,Mazraat Sahl,Gargaresh,Tripoli,Al Maya,Azizia,Sabaa,Garian,Janzour,Bu Ghilan,Qasr Bin Ghashir,Suq al Jumaa,Tajura,Wadi al Rabi,Sidi al-Saeh,Zahra,Mellitah,Ras al-Mammura,Msallata"
+    "b": "Zuwara,Regdalin,Ajaylat,Al-Jmail,Zaltan,Abu Kammash,Jumayl"
   },
   {
     "name": "Arapaho",
@@ -9238,16 +9238,16 @@ window.dedicatedNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Arapaho,Cholula,Tibes,Alta Vista,Uxmal,Osorno,Xochicalco,Huauchinango,Chan Chan,Yohualichan,Machu Picchu,Kaminaljuyú,Jayuya,Riobamba,Teopanzolco,Calchaquí,Tiahuanaco,Comalcalco,Hanga Roa,Texcoco,Ihuatzio,Chavín de Huántar,Tlatelolco,Xochimilco,Coyoacán,Tenochtitlan,Quiahuiztlan,Teotihuacán,Barrow,Fairbanks,Cordova,Kenai,Attawapiskat,Seward,King Salmon,Laguna,Wiseman,Ilulissat,Kodiak,Dawson Creek,Yellowknife,Montreal,Crownpoint,Norman Wells,Togiak,Inuvik,Kangerlussuaq,Kotzebue,Flagstaff,Reykjavik,Homer,Anchorage,Palmer,Chinle"
+    "b": "Ethete,Arapahoe,St. Stephens,Riverton,Fort Washakie,Canton,Geary,El Reno,Concho,Watonga,Hammon,Clinton"
   },
-  {
-    "name": "Coast Tsimshian (Sm’algya̱x)",
+{
+    "name": "Coast Tsimshian (Sm'algyax)",
     "i": 201021,
     "min": 4,
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Coast Tsimshian (Sm’algya̱x),Sacsayhuamán,Chan Chan,Jacana,Loja,Xochitécatl,Piedras Negras,Ihuatzio,El Tajín,Mapuche,Zempoala,Palenque,Kawésqar,Teopanzolco,Xalapa,Utatlán,Quiotepec,Tenochtitlan,Texcoco,Coyoacán,Chapultepec,Tlatelolco,Tibes,Tlaxcala,Cholula,Casas Grandes,Tula,Sipán,Calgary,Montreal,Anchorage,Dillingham,Bethel,Kodiak,Whitehorse,Kenai,Ilulissat,Haines,Vancouver,Dawson Creek,Kotzebue,Cordova,Fort Smith,Aasiaat,Terrace,Smithers,Nome,Sisimiut,Inuvik,Hay River,Kangerlussuaq,Skagway,Sitka,Houston,Palmer,CoastTsimshiank,CoastTsimshiant,CoastTsimshianp,CoastTsimshianm,CoastTsimshiann,CoastTsimshians,CoastTsimshianr,CoastTsimshianl,CoastTsimshiand,CoastTsimshiang,CoastTsimshianb"
+    "b": "Lax Kw'alaams,Metlakatla,Kitsumkalum,Kitselas,Kitkatla,Gitga'at,Kitasoo,Port Essington,Prince Rupert,Terrace,Metlakatla Alaska"
   },
   {
     "name": "Cochimí",
@@ -9256,7 +9256,7 @@ window.dedicatedNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Cochimí,Cholula,Tibes,Alta Vista,Uxmal,Osorno,Xochicalco,Huauchinango,Chan Chan,Yohualichan,Machu Picchu,Kaminaljuyú,Jayuya,Riobamba,Teopanzolco,Calchaquí,Tiahuanaco,Comalcalco,Hanga Roa,Texcoco,Ihuatzio,Chavín de Huántar,Tlatelolco,Xochimilco,Coyoacán,Tenochtitlan,Quiahuiztlan,Teotihuacán,Bafatá,Cotonou,Banjul,Gbarnga,Bamako,Kara,Abidjan,Kano,Bolt,Porto-Novo,Gusau,Tenkodogo,Tambacounda,Koidu,Koudougou,Ouagadougou,Korhogo,Bamenda,Sokodé,Tamale,Man,Wa,Bouaké,Jalingo,Bolama,Maiduguri,Timbuktu,Cochimk,Cochimt,Cochimp,Cochimm,Cochimn,Cochims,Cochimr,Cochiml,Cochimd,Cochimg,Cochimb"
+    "b": "Loreto,San Javier,Mulegé,Comondú,La Purísima,Guadalupe,San Ignacio,Santa Gertrudis,San Borja,Santa María,San Fernando Velicatá,El Rosario,San Francisco de Borja Adac,Nuestra Señora del Rosario Vinadaco,Mount Matomi"
   },
   {
     "name": "Gwichʼin",
@@ -9265,7 +9265,7 @@ window.dedicatedNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Gwichʼin,Owerri,Sokoto,Aba,Parakou,Thiès,Ebolowa,Kaduna,Louga,Ughelli,Kindia,Ambam,Tahoua,Wa,Okigwe,Gao,Awka,Faranah,Bida,Aksum,Ségou,Yamoussoukro,Moundou,Enugu,Sesheke,Zaria,Timbuktu,Douala,Bouaké,Katsina,Minna,Gabú,Ouagadougou,Bamenda,Accra,Kara,Monrovia,Lafia,Kayes,Kankan,Tambacounda,Maiduguri,Tema,Jalingo,Kaolack,Dakar,Tamale,Niamey,Nzérékoré,Saint-Louis,Ebebiyín,Kano,Bobo-Dioulasso,Gwichink,Gwichint,Gwichinp,Gwichinm,Gwichinn,Gwichins,Gwichinr,Gwichinl,Gwichind,Gwiching,Gwichinb"
+    "b": "Arctic Village,Venetie,Fort Yukon,Chalkyitsik,Birch Creek,Circle,Beaver,Fort McPherson,Tsiigehtchic,Aklavik,Inuvik,Old Crow,Fairbanks,Anchorage,Whitehorse"
   },
   {
     "name": "Hän",
@@ -9274,7 +9274,7 @@ window.dedicatedNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Hän,Oyo,Gashua,Louga,Harper,N'Djamena,Mubi,Tahoua,Wa,Owerri,Bamenda,Awka,Faranah,Bafatá,Mongomo,Lafia,Yamoussoukro,Moundou,Banjul,Senanga,Gombe,Timbuktu,Kaya,Saint-Louis,Tiko,Kano,Nalolo,Maroua,Abidjan,Lomé,Bobo-Dioulasso,Kankan,Bouaké,Sokodé,Man,Gbarnga,Ouagadougou,Koidu,Jalingo,Conakry,Kara,Niamey,Koudougou,Thiès,Accra,Bolt,Maiduguri,Ségou,Kumasi,Bamako,Assomada,Buea,Brikama,X201024k,X201024t,X201024p,X201024m,X201024n,X201024s,X201024r,X201024l,X201024d,X201024g,X201024b"
+    "b": "Dawson City,Eagle,Moosehide,Fairbanks"
   },
   {
     "name": "Métis French",
@@ -9283,7 +9283,7 @@ window.dedicatedNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Métis French,Grodno,Brno,Mogilev,Évora,Belfast,Nantes,Prilep,Herceg Novi,Debrecen,Zaporizhzhia,Skopje,Omagh,Pécs,Gdańsk,Düsseldorf,Mykolaiv,Bari,Bangor,Telavi,Tallinn,Tartu,Mostar,Pleven,Zrenjanin,Ciudad Bolívar,Las Labradas,Cacaxtla,Berlin,Västerås,Toulouse,Nice,Dundalk,Hamburg,Malmö,Prague,Rome,Granada,Lyon,London,Wroclaw,Warsaw,Paris,Cologne,Liverpool,Frankfurt,Linz,Birmingham,Dublin,Turin,Hradec Králové,Funchal,Valencia,MtisFrenchk,MtisFrencht,MtisFrenchp,MtisFrenchm,MtisFrenchn,MtisFrenchs,MtisFrenchr,MtisFrenchl,MtisFrenchd,MtisFrenchg,MtisFrenchb"
+    "b": "St. Laurent,St. Ambroise,St. Louis,Batoche,Duck Lake,St. Eustache,Lac la Biche,St. Paul,St. Albert,Bonnyville,Île-à-la-Crosse,Buffalo Narrows,Beauval,Green Lake,Camperville,Duck Bay,St-Lazare,Cumberland House"
   },
   {
     "name": "Mi'kmaq",
@@ -9292,7 +9292,7 @@ window.dedicatedNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Mi'kmaq,Cholula,Tibes,Alta Vista,Uxmal,Osorno,Xochicalco,Huauchinango,Chan Chan,Yohualichan,Machu Picchu,Kaminaljuyú,Jayuya,Riobamba,Teopanzolco,Calchaquí,Tiahuanaco,Comalcalco,Hanga Roa,Texcoco,Ihuatzio,Chavín de Huántar,Tlatelolco,Xochimilco,Coyoacán,Tenochtitlan,Quiahuiztlan,Teotihuacán,Accra,Timbuktu,Basse,Lomé,Kankan,Freetown,Ngaoundéré,Ziguinchor,Maiduguri,Kara,Conakry,Kumasi,Nouakchott,Daloa,Thiès,Lafia,Saint-Louis,Bamako,Sunyani,Parakou,Ouagadougou,Koidu,Yamoussoukro,Buea,Dakar,Bouaké,Sikasso"
+    "b": "Eskasoni,Membertou,Millbrook,Sipekne'katik,Wagmatcook,Waycobah,Potlotek,Pictou Landing,Paqtnkek,Glooscap,Bear River,Annapolis Valley,Acadia,Lennox Island,Abegweit,Miawpukek,Qalipu,Gesgapegiag,Listuguj,Metepenagiag,Natoaganeg,Buctouche,Eel River Bar,Fort Folly,Indian Island,Kingsclear,Oromocto,Pabineau,Tobique,Woodstock,Aroostook"
   },
   {
     "name": "Mohave",
@@ -9301,7 +9301,7 @@ window.dedicatedNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Mohave,Tibes,Ixtlán del Río,Mitla,Valdivia,Tutupec,Xochicalco,Xochitécatl,Cuzco,Mixco Viejo,Quiotepec,Teopanzolco,Sipán,Tlaxcala,Copacabana,Bonampak,Teotitlán,Yohualichan,Coyoacán,Latacunga,Tlatelolco,Xochimilco,Texcoco,Quiahuiztlan,Teotihuacán,Cholula,Caral,Tzintzuntzan,Sokodé,Bissau,Bobo-Dioulasso,Praia,Bamako,Gusau,Koidu,Dakar,Man,Lomé,Cotonou,Kaolack,Bouaké,Koudougou,Kara,Kumasi,Tenkodogo,Accra,Garoua,Bertoua,Brikama,Mopti,Jalingo,Saint-Louis,Nouakchott,Monrovia,Lafia,Mohavek,Mohavet,Mohavep,Mohavem,Mohaven,Mohaves,Mohaver,Mohavel,Mohaved,Mohaveg,Mohaveb"
+    "b": "Parker,Poston,Needles,Fort Mohave,Mohave Valley,Golden Shores,Arizona Village,Mojave Ranch Estates,Mesquite Creek,Willow Valley"
   },
   {
     "name": "Na-Dene",
@@ -9310,7 +9310,7 @@ window.dedicatedNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Na-Dene,Cholula,Tibes,Alta Vista,Uxmal,Osorno,Xochicalco,Huauchinango,Chan Chan,Yohualichan,Machu Picchu,Kaminaljuyú,Jayuya,Riobamba,Teopanzolco,Calchaquí,Tiahuanaco,Comalcalco,Hanga Roa,Texcoco,Ihuatzio,Chavín de Huántar,Tlatelolco,Xochimilco,Coyoacán,Tenochtitlan,Quiahuiztlan,Teotihuacán,Juneau,Fairbanks,Barrow,Cordova,Nome,Prince George,Laguna,Inuvik,Palmer,Montreal,Wiseman,Victoria,Edmonton,Whitehorse,Ottawa,Reykjavik,Kodiak,Grants,Haines,Santa Fe,Sitka,Seward,Yellowknife,Anchorage,Aasiaat,Sisimiut,NaDenek,NaDenet,NaDenep,NaDenem,NaDenen,NaDenes,NaDener,NaDenel,NaDened,NaDeneg,NaDeneb"
+    "b": ""
   },
   {
     "name": "Occaneechi",
@@ -9319,7 +9319,7 @@ window.dedicatedNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Occaneechi,Bafatá,Yola,N'Djamena,Bolgatanga,Aba,Parakou,Gao,Bamenda,Gashua,Louga,Gbarnga,Koulikoro,Lafia,Tahoua,Wa,Banjul,Yaoundé,Gombe,Faranah,Marte,Saint-Louis,Nkongsamba,Jos,Moundou,Lealui,Boké,Ife,Bissau,Praia,Sokodé,Conakry,Man,Koudougou,Accra,Kankan,Lomé,Ziguinchor,Kaolack,Koidu,Ségou,Kumasi,Nouakchott,Monrovia,Bamako,Korhogo,Buea,Kayes,Abidjan,Kaduna,Nzérékoré,Occaneechik,Occaneechit,Occaneechip,Occaneechim,Occaneechin,Occaneechis,Occaneechir,Occaneechil,Occaneechid,Occaneechig,Occaneechib"
+    "b": "Occoneechee Island,Fort Christanna,Junkatapurse,Roanoke River"
   },
   {
     "name": "Southern Tepehuan",
@@ -9328,7 +9328,7 @@ window.dedicatedNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Southern Tepehuan,N'Djamena,Mubi,Bida,Koudougou,Bole,Bamenda,Nguru,Bafatá,Gashua,Mongomo,Lafia,Aba,Parakou,Banjul,Senanga,Yola,Louga,Bo,Tema,Ambam,Jos,Wa,Kindia,Boké,Awka,Faranah,Abidjan,Juneau,Nome,Barrow,Skagway,Yellowknife,Sitka,Prince George,Haines,Dillingham,Vancouver,Fort St. John,Homer,Attawapiskat,Fairbanks,Inuvik,Ilulissat,Santa Fe,Ottawa,Hay River,Flagstaff,Kangerlussuaq,Palmer,Tuba City,Crownpoint,Fort Smith,Taos,SouthernTepehuank,SouthernTepehuant,SouthernTepehuanp,SouthernTepehuanm,SouthernTepehuann,SouthernTepehuans,SouthernTepehuanr,SouthernTepehuanl,SouthernTepehuand,SouthernTepehuang,SouthernTepehuanb"
+    "b": "Santa María Ocotán,San Francisco Ocotán,Santiago Teneraca,Santa María Magdalena de Taxicaringa,San Bernardino de Milpillas Chico,San Francisco de Lajas,San Andrés de Milpillas Grande"
   },
   {
     "name": "Tanacross",
@@ -9337,7 +9337,7 @@ window.dedicatedNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Tanacross,Tula,Coquimbo,Paquimé,Quiotepec,Panguipulli,Malinalco,Tuxpan,Iximché,Zempoala,Xochicalco,Caral,Tibes,Aguada Fénix,Tikal,Teopanzolco,Pátzcuaro,Pisac,Texcoco,Coyoacán,Yohualichan,Xochimilco,Tlatelolco,Cholula,Teotihuacán,Tenochtitlan,Butare,Lamu,Abidjan,Banjul,Daloa,Bissau,Ouagadougou,Cotonou,Timbuktu,Gbarnga,Lomé,Kara,Porto-Novo,Jalingo,Mopti,Man,Nzérékoré,Korhogo,Kumasi,Koidu,Monrovia,Praia,Tema,Gusau,Sokodé,Bauchi,Katsina,Mindelo,Tambacounda"
+    "b": "Tanacross,Healy Lake,Dot Lake,Mansfield,Ketchumstuk,Tok,Fairbanks"
   },
   {
     "name": "Tłįchǫ",
@@ -9346,7 +9346,7 @@ window.dedicatedNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Tłįchǫ,Tibes,Ixtlán del Río,Mitla,Valdivia,Tutupec,Xochicalco,Xochitécatl,Cuzco,Mixco Viejo,Quiotepec,Teopanzolco,Sipán,Tlaxcala,Copacabana,Bonampak,Teotitlán,Yohualichan,Coyoacán,Latacunga,Tlatelolco,Xochimilco,Texcoco,Quiahuiztlan,Teotihuacán,Cholula,Potosí,Cacaxtla,Tarrafal,Bouaké,Koidu,Nzérékoré,Ouagadougou,Kaolack,Kano,Freetown,Accra,Ngaoundéré,Kumasi,Parakou,Mopti,Zaria,Conakry,Korhogo,Saint-Louis,Koudougou,Sokodé,Tamale,Monrovia,Gusau,Yamoussoukro,Bissau,Warri,Jos,Thiès,Tchk,Tcht,Tchp,Tchm,Tchn,Tchs,Tchr,Tchl,Tchd,Tchg,Tchb"
+    "b": "Behchokǫ̀,Whatì,Gamètì,Wekweètì,Dettah,Ndilo,Yellowknife"
   },
   {
     "name": "Ute",
@@ -9355,7 +9355,7 @@ window.dedicatedNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Ute,Chapultepec,Pátzcuaro,Xochicalco,Coquimbo,Paquimé,Tikal,Panguipulli,Malinalco,Teopanzolco,Iximché,Zempoala,Pisac,Caral,Tibes,Yohualichan,Aguada Fénix,Tula,Texcoco,Coyoacán,Tuxpan,Quiahuiztlan,Xochimilco,Cholula,Teotihuacán,Tlatelolco,Sacsayhuamán,Potosí,Palmer,Skagway,Ottawa,Prince George,Kotzebue,Seward,Juneau,Vancouver,Yellowknife,Nome,Fairbanks,Victoria,Anchorage,Kenai,Edmonton,Calgary,Santa Fe,Bethel,Los Alamos,Dawson Creek,Reykjavik,Nuuk,King Salmon,Ilulissat,Aasiaat,Tuba City,Utek,Utet,Utep,Utem,Uten,Utes,Uter,Utel,Uted,Uteg,Uteb"
+    "b": "Fort Duchesne,Roosevelt,Vernal,Myton,Ballard,Ignacio,Bayfield,Durango,Towaoc,White Mesa,Ute Mountain Ute Tribal Park,Uintah River High School,Southern Ute Indian Montessori Academy,Kwiyagat Community Academy"
   },
   {
     "name": "Wiyot",
@@ -9364,7 +9364,7 @@ window.dedicatedNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Wiyot,Xochimilco,Chuquisaca,Tingambato,Monte Albán,Temuco,Xochicalco,Calakmul,Rapa Nui,Cacaxtla,Zaculeu,Teopanzolco,Moche,Magueyes,Tiwanaku,Yaxchilán,Yohualichan,Texcoco,Coyoacán,Cempoala,Tlatelolco,Tenochtitlan,Quiahuiztlan,Cholula,Teotihuacán,Cuarenta Casas,Papantla,Potosí,Bethel,Cordova,Skagway,Anchorage,Vancouver,Attawapiskat,Juneau,Victoria,Yellowknife,Ottawa,Reykjavik,Fort Smith,Prince George,Inuvik,Palmer,Togiak,Haines,Calgary,Sitka,Edmonton,Crownpoint,Fort St. John,Kotzebue,Nuuk,Qaqortoq,Wiyotk,Wiyott,Wiyotp,Wiyotm,Wiyotn,Wiyots,Wiyotr,Wiyotl,Wiyotd,Wiyotg,Wiyotb"
+    "b": "Humboldt Bay,Eel River,Mad River,Tuluwat,Eureka,Arcata,Table Bluff,Ferndale"
   },
   {
     "name": "Yurok",
@@ -9373,16 +9373,16 @@ window.dedicatedNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Yurok,Xochimilco,Chuquisaca,Tingambato,Monte Albán,Temuco,Xochicalco,Calakmul,Rapa Nui,Cacaxtla,Zaculeu,Teopanzolco,Moche,Magueyes,Tiwanaku,Yaxchilán,Yohualichan,Texcoco,Coyoacán,Cempoala,Tlatelolco,Tenochtitlan,Quiahuiztlan,Cholula,Teotihuacán,Cuarenta Casas,Uxmal,Chan Chan,Barrow,Skagway,Prince George,Kotzebue,Fairbanks,Window Rock,Grants,Taos,Yellowknife,Norman Wells,Reykjavik,Ottawa,Vancouver,Seward,Edmonton,Dawson Creek,Kodiak,Nuuk,Fort Smith,Dillingham,Hay River,Crownpoint,Farmington,Aasiaat,Juneau,Yurokk,Yurokt,Yurokp,Yurokm,Yurokn,Yuroks,Yurokr,Yurokl,Yurokd,Yurokg"
+    "b": "Weitchpec,Requa,Klamath,Trinidad,Orick,Pecwan,Sregon,Wautec,Mettah,Johnsons"
   },
-  {
+{
     "name": "Zuni",
     "i": 201036,
     "min": 4,
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Zuni,Tlatelolco,Ihuatzio,El Tajín,Xochicalco,Casas Grandes,Palenque,Kawésqar,Teopanzolco,Xalapa,Chavín de Huántar,Quiahuiztlan,Sacsayhuamán,Chan Chan,Jacana,Loja,Yohualichan,Mapuche,Texcoco,Coyoacán,Utatlán,Tenochtitlan,Alta Vista,Piedras Negras,Cholula,Teotihuacán,Xochimilco,Uxmal,Attawapiskat,Bethel,Montreal,Inuvik,Kayenta,Kodiak,Fairbanks,Yellowknife,Skagway,Seward,Valdez,Kenai,Calgary,Smithers,Laguna,Prince George,Hay River,Whitehorse,Edmonton,Nuuk,Ottawa,Fort Smith,Toronto,Window Rock,Kotzebue,Moose Factory,Zunik,Zunit,Zunip,Zunim,Zunin,Zunis,Zunir,Zunid,Zunig,Zunib"
+    "b": "Zuni Pueblo,Black Rock,Nutria,Ojo Caliente,Pescado,Tekapo,Halona Idiwan'a"
   },
   {
     "name": "Alekano",
@@ -9391,7 +9391,7 @@ window.dedicatedNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Alekano,Levuka,Yap,Kone,Kiunga,Kimbe,Abaiang,Kolonia,Denigomodu,Leulumoega,Punaauia,Palau,Munda,Alotau,Kairuku,Sogeri,Tiga,Baiti,Peleliu,Yaren,Ok Tedi,Tarawa,Kosrae,Tabiteuea,Whangarei,Lae,Trobriand,Daloa,Banjul,Bobo-Dioulasso,Conakry,Maroua,Kankan,Kaduna,Koudougou,Maiduguri,Bissau,Freetown,Katsina,Ebebiyín,Cotonou,Monrovia,Bertoua,Saint-Louis,Abidjan,Kayes,Kaolack,Kara,Tema,Malabo,Jalingo,Tarrafal,Bamenda,Yamoussoukro,Gahuku,Goroka,Asaro,Bena,Uheto,Seigu,Gamusi,Famu,Lamate,Nemani,Alekanok,Alekanot,Atano,Alekanop,Alekanom,Alekanon,Alekanos"
+    "b": "Goroka,Gahuku,Gamiga Village,Kefamo,Masi Village,Asaro,Bena,Uheto,Seigu,Gamusi,Famu"
   },
   {
     "name": "Aneme Wake",
@@ -9400,7 +9400,7 @@ window.dedicatedNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Aneme Wake,Lae,Tabiteuea,Tiga,Rabaul,Yaren,Ohonua,Kimbe,Kosrae,Wollongong,Abaiang,Raiatea,Denigomodu,Luganville,Mendi,Peleliu,Misima,Kairuku,Nibok,Baiti,Butaritari,Ebeye,Ok Tedi,Tauranga,Honiara,Koror,Lafia,Conakry,Bissau,Accra,Gbarnga,Basse,Kaduna,Nouakchott,Kaolack,Korhogo,Porto-Novo,Maiduguri,Cotonou,Katsina,Man,Garoua,Tenkodogo,Sokodé,Ségou,Wukari,Saint-Louis,Sokoto,Bamako,Zinder,Monrovia,Bafatá,Warri"
+    "b": "Afore District,Oro Province,Central Province"
   },
   {
     "name": "Ankave",
