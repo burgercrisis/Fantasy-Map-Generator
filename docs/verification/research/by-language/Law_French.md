@@ -1,108 +1,47 @@
-# Law French (i=355)
+---
 
-**Status:** COMPLETE
+## Law French (i=355)
+
+**Status:** WAITING
 **Confidence:** HIGH
-**Date:** 2026-08-23
-**Agent:** Unknown-Agent
+**Date:** 2026-08-24
+**Agent:** Unknown
 
-## Removed Names (73)
+### Removed Names (8)
 | Name | Reason |
 |------|--------|
-| `London` | Kept - major legal center where Law French used |
-| `Westminster` | Kept - location of courts (Westminster Hall) |
-| `Canterbury` | Major city, but not primary Law French court center |
-| `York` | Northern city, not primary Law French court center |
-| `Winchester` | Former capital, not primary Law French court center |
-| `Exeter` | Not primary Law French court center |
-| `Coventry` | Not primary Law French court center |
-| `Norwich` | Not primary Law French court center |
-| `Lincoln` | Not primary Law French court center |
-| `Chester` | Not primary Law French court center |
-| `Gloucester` | Not primary Law French court center |
-| `Worcester` | Not primary Law French court center |
-| `Hereford` | Not primary Law French court center |
-| `Chichester` | Not primary Law French court center |
-| `Peterborough` | Not primary Law French court center |
-| `Durham` | Not primary Law French court center |
-| `Salisbury` | Not primary Law French court center |
-| `Wells` | Not primary Law French court center |
-| `Oxford` | Not primary Law French court center (university) |
-| `Cambridge` | Not primary Law French court center (university) |
-| `Vernon` | France, not English legal center |
-| `Évreux` | France, not English legal center |
-| `Louvers` | France, not English legal center |
-| `Les Andelys` | France, not English legal center |
-| `Dreux` | France, not English legal center |
-| `Pacy-sur-Eure` | France, not English legal center |
-| `Conches-en-Ouche` | France, not English legal center |
-| `Nonancourt` | France, not English legal center |
-| `Gisors` | France, not English legal center |
-| `Rapla` | Estonia, not English legal center |
-| `Eidapere` | Estonia, not English legal center |
-| `Kivioli` | Estonia, not English legal center |
-| `Sauga` | Estonia, not English legal center |
-| `Haademeeste` | Estonia, not English legal center |
-| `Paide` | Estonia, not English legal center |
-| `Marja` | Estonia, not English legal center |
-| `Aseriaru` | Estonia, not English legal center |
-| `Raudna` | Estonia, not English legal center |
-| `Tahkuranna` | Estonia, not English legal center |
-| `Kardla` | Estonia, not English legal center |
-| `Vihmastiku` | Estonia, not English legal center |
-| `Aseri` | Estonia, not English legal center |
-| `Koorkula` | Estonia, not English legal center |
-| `Audru` | Estonia, not English legal center |
-| `Adanis` | Synthetic token |
-| `Aisek` | Synthetic token |
-| `Auow` | Synthetic token |
-| `Aekek` | Synthetic token |
-| `Abodis` | Synthetic token |
-| `Akenis` | Synthetic token |
-| `Anabek` | Synthetic token |
-| `Apokek` | Synthetic token |
-| `Alidis` | Synthetic token |
-| `Akimis` | Synthetic token |
-| `Afotek` | Synthetic token |
-| `Alarek` | Synthetic token |
-| `Anebis` | Synthetic token |
-| `Adois` | Synthetic token |
-| `Amekek` | Synthetic token |
-| `LawFrenchow` | Synthetic token |
-| `LawFrenchitz` | Synthetic token |
-| `LawFrenchek` | Synthetic token |
-| `LawFrenchov` | Synthetic token |
-| `LawFrenchak` | Synthetic token |
+| `WestminsterHall` | Court building/institution, not a settlement |
+| `LondonCourts` | Institution, not a place name |
+| `Westminster` | District of London, administrative unit |
+| `InnsOfCourt` | Professional legal institutions, not settlements |
+| `London` | City where language was used professionally, not natively spoken in community |
+| `England` | Country, administrative unit |
+| `EnglishCourts` | Institution, not a place |
+| `LawFrenchTerms` | Not a place name |
 
-## Added Names (8)
+### Added Names (0)
 | Name | Source | Language Connection |
 |------|--------|---------------------|
-| `WestminsterHall` | https://en.wikipedia.org/wiki/Law_French | Primary court location where Law French used (King's Bench, Common Pleas) |
-| `LondonCourts` | https://en.wikipedia.org/wiki/Law_French | London legal center, King's Bench, Common Pleas, Exchequer |
-| `Westminster` | https://en.wikipedia.org/wiki/Law_French | Westminster area, location of courts and Parliament |
-| `InnsOfCourt` | https://en.wikipedia.org/wiki/Law_French | Inns of Court (Lincoln's Inn, Gray's Inn, Inner Temple, Middle Temple) where Law French taught |
-| `London` | https://en.wikipedia.org/wiki/Law_French | London, primary legal center where Law French used in courts |
-| `England` | https://en.wikipedia.org/wiki/Law_French | England, country where Law French was legal language |
-| `EnglishCourts` | https://en.wikipedia.org/wiki/Law_French | English courts (King's Bench, Common Pleas, Exchequer, Chancery) |
-| `LawFrenchTerms` | https://www.law.cornell.edu/wex/law_french | Law French terminology used in English courts |
+| *(none)* | — | No geographic community of speakers |
 
-## Research Log
-- Search 1: "Law French" → Wikipedia: Archaic language based on Anglo-Norman, used in English law courts 13th-18th century. Banned 1731. Used in Westminster Hall, King's Bench, Common Pleas, Exchequer.
-- Search 2: "Law French Westminster Hall" → Wikipedia: Used in Westminster Hall courts (King's Bench, Common Pleas, Exchequer). Inns of Court for legal education.
-- Search 3: "Law French English courts" → Wikipedia: Used in King's Bench, Common Pleas, Exchequer, Chancery. Replaced by English 1731. Many terms survive (attorney, bailiff, tort, etc.).
-- Search 4: "Law French Inns of Court" → Wikipedia: Used for 'readings' and 'moots' at Inns of Court (Lincoln's Inn, Gray's Inn, Inner Temple, Middle Temple) for legal education.
+### Research Log
+- Search 1: "Law French language place names England legal courts Westminster" → Confirmed Law French was a professional legal register used in English courts (13th-18th centuries), not a community language
+- Search 2: "Law French Wikipedia" → [Wikipedia: Law French](https://en.wikipedia.org/wiki/Law_French) confirms it was "an archaic language originally based on Anglo-Norman... used in the law courts of England" — no geographic speech community
+- Search 3: "Law French Inns of Court Westminster Hall" → Historical sources confirm use was restricted to legal professionals at Westminster Hall, Inns of Court, and legal documents
+- Sources consulted: 3 (Wikipedia, UK Parliament history, academic papers)
 
-## Phonology Check
-- Source: https://en.wikipedia.org/wiki/Law_French
-- Key patterns: Anglo-Norman base, increasingly English-influenced. Gender often neglected by 1500. Vocabulary increasingly English. Postpositive adjectives (attorney general, fee simple).
-- Names verified: All follow English legal institution conventions
+### Phonology Check
+- Source: N/A (no living speech community)
+- Key patterns: N/A — professional written register, not spoken language
+- Names flagged: All 8 removed — all were institutions/courts, not settlements
 
-## Mixer Map Check
-- Index `i=355` referenced by: [check language-mixer-map.json]
-- All references intentional: YES
-- Issues: None identified
+### Mixer Map Check
+- Index `i=355` referenced by: [need to check config/language-mixer-map.json]
+- All references intentional: UNKNOWN
+- Issues: Historical register should not be referenced by modern ISO codes
 
-## Final Verification
-- Total verified names: 8
-- Minimum threshold met: YES (this is an archaic legal language, not a geographic community language; 8 verified institutional locations comprehensive)
+### Final Verification
+- Total verified names: 0 (no geographic speech community exists)
+- Minimum threshold met: N/A (WAITING — no community of native speakers with place names)
 - NO names added without individual verification: YES
-- All names have documented source and language connection: YES
+- WAITING justification: Law French was a professional legal register/learned jargon used by lawyers in English courts (c. 13th-18th century), not a language with a geographic community of native speakers. It was never spoken as a native language in any village, town, or settlement. The "places" in the original entry were court buildings and institutions (Westminster Hall, Inns of Court), not settlements where Law French was natively spoken. Per protocol: "CANNOT REACH 25 VERIFIED NAMES → WAITING — Document what you searched and why you failed." No verified place names can exist for this entry.

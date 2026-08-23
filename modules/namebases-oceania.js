@@ -114,17 +114,6 @@ window.oceaniaNameBases = [
   },
 
   {
-    "name": "Land Dayak",
-    "i": 140,
-    "min": 3,
-    "max": 13,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-
-  {
     "name": "Flores-Lembata",
     "i": 141,
     "min": null,
@@ -476,7 +465,7 @@ window.oceaniaNameBases = [
     "status": "COMPLETE"
   },
 
-{
+  {
     "name": "Tiwi",
     "i": 186,
     "min": 3,
@@ -521,28 +510,6 @@ window.oceaniaNameBases = [
   },
 
   {
-    "name": "Asmat-Kamoro",
-    "i": 199,
-    "min": 4,
-    "max": 16,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-
-  {
-    "name": "Becking-Dawi",
-    "i": 200,
-    "min": 2,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-
-  {
     "name": "Bimin",
     "i": 202,
     "min": null,
@@ -564,7 +531,7 @@ window.oceaniaNameBases = [
     "status": "COMPLETE"
   },
 
-{
+  {
     "name": "Alekano",
     "i": 204,
     "min": 3,
@@ -597,7 +564,7 @@ window.oceaniaNameBases = [
     "status": "COMPLETE"
   },
 
-{
+  {
     "name": "Kasua",
     "i": 207,
     "min": 3,
@@ -630,17 +597,6 @@ window.oceaniaNameBases = [
     "status": "COMPLETE"
   },
 
-{
-    "name": "Kenati",
-    "i": 210,
-    "min": 3,
-    "max": 10,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-
   {
     "name": "Bunun",
     "i": 211,
@@ -652,29 +608,7 @@ window.oceaniaNameBases = [
     "status": "COMPLETE"
   },
 
-  {
-    "name": "Basay",
-    "i": 214,
-    "min": null,
-    "max": null,
-    "d": "",
-    "m": null,
-    "b": "",
-    "status": "WAITING"
-  },
-
-  {
-    "name": "Babuza",
-    "i": 215,
-    "min": null,
-    "max": null,
-    "d": "",
-    "m": null,
-    "b": "",
-    "status": "WAITING"
-  },
-
-  {
+{
     "name": "Chambri",
     "i": 275,
     "min": 5,
@@ -718,7 +652,7 @@ window.oceaniaNameBases = [
     "status": "COMPLETE"
   },
 
-{
+  {
     "name": "Gunwinggu",
     "i": 306,
     "min": 4,
@@ -751,7 +685,7 @@ window.oceaniaNameBases = [
     "status": "COMPLETE"
   },
 
-{
+  {
     "name": "Menya",
     "i": 1949,
     "min": 3,
@@ -763,17 +697,6 @@ window.oceaniaNameBases = [
   },
 
   {
-    "name": "Aboriginal Pidgin English",
-    "i": 743,
-    "min": 5,
-    "max": 14,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-
-{
     "name": "Adang",
     "i": 747,
     "min": 3,
@@ -784,7 +707,7 @@ window.oceaniaNameBases = [
     "status": "COMPLETE"
   },
 
-{
+  {
     "name": "Adnyamathanha",
     "i": 750,
     "min": 3,
@@ -795,7 +718,7 @@ window.oceaniaNameBases = [
     "status": "COMPLETE"
   },
 
-{
+  {
     "name": "Agarabi",
     "i": 762,
     "min": 4,
@@ -806,7 +729,7 @@ window.oceaniaNameBases = [
     "status": "COMPLETE"
   },
 
-{
+  {
     "name": "Ankave",
     "i": 763,
     "min": 3,
@@ -817,18 +740,7 @@ window.oceaniaNameBases = [
     "status": "COMPLETE"
   },
 
-{
-    "name": "Nataoran",
-    "i": 790,
-    "min": 3,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-
-{
+  {
     "name": "Mapena",
     "i": 1949,
     "min": 3,
@@ -840,61 +752,6 @@ window.oceaniaNameBases = [
   },
 
   {
-    "name": "Alu",
-    "i": 860,
-    "min": 3,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-
-{
-    "name": "Angaataha",
-    "i": 915,
-    "min": 3,
-    "max": 10,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-
-{
-    "name": "Atohwaim-Kaugat",
-    "i": 955,
-    "min": 3,
-    "max": 10,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-
-  {
-    "name": "Aws-Nian",
-    "i": 1007,
-    "min": 4,
-    "max": 8,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-
-{
-    "name": "Barai",
-    "i": 1022,
-    "min": 3,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-
-{
     "name": "Baham",
     "i": 1027,
     "min": 3,
@@ -905,7 +762,7 @@ window.oceaniaNameBases = [
     "status": "COMPLETE"
   },
 
-{
+  {
     "name": "Blagar",
     "i": 1329,
     "min": 3,
@@ -916,40 +773,7 @@ window.oceaniaNameBases = [
     "status": "COMPLETE"
   },
 
-{
-    "name": "Baramu",
-    "i": 1124,
-    "min": 3,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-
   {
-    "name": "Barikanchi Pidgin",
-    "i": 1130,
-    "min": 3,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-
-{
-    "name": "Baruga",
-    "i": 1131,
-    "min": 3,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-
-{
     "name": "Kopkaka",
     "i": 1949,
     "min": 3,
@@ -958,50 +782,6 @@ window.oceaniaNameBases = [
     "m": 0,
     "b": "Seredala,Moruf,Mosomduba,Burupmakot,Momomduba,Yebor,Murwedala,Muruf,Unokob,Kurima sub-district,Jayawijaya regency,Papua province,Indonesia,Highland Papua,Yahukimo Regency,Seredala District,Ok languages,Trans-New Guinea,Dani,Ok-Oksapmin,Mountain Ok,Western Ok,Kopka,Kopkaka,400 speakers,Endangered,Endangered Languages Project,Glottolog kopk1238,ISO 639-3 opk,Summer Institute of Linguistics,Mrs Heljä Clouse",
     "status": "COMPLETE"
-  },
-
-{
-    "name": "Bayono",
-    "i": 1144,
-    "min": 4,
-    "max": 13,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-
-{
-    "name": "Biangai",
-    "i": 1280,
-    "min": 3,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-
-{
-    "name": "Binandere",
-    "i": 1307,
-    "min": 3,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-
-{
-    "name": "Bipim",
-    "i": 1321,
-    "min": 3,
-    "max": 10,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
   },
 
   {
@@ -1015,40 +795,7 @@ window.oceaniaNameBases = [
     "status": "COMPLETE"
   },
 
-{
-    "name": "Bitur",
-    "i": 1327,
-    "min": 3,
-    "max": 10,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-
-{
-    "name": "Bonin English",
-    "i": 1359,
-    "min": 3,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-
   {
-    "name": "Broome Pearling Lugger Pidgin",
-    "i": 1381,
-    "min": 5,
-    "max": 17,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-
-{
     "name": "Bukawa",
     "i": 1387,
     "min": 3,
@@ -1059,7 +806,7 @@ window.oceaniaNameBases = [
     "status": "COMPLETE"
   },
 
-{
+  {
     "name": "Bunak",
     "i": 1390,
     "min": 3,
@@ -1070,29 +817,7 @@ window.oceaniaNameBases = [
     "status": "COMPLETE"
   },
 
-{
-    "name": "Burumakok",
-    "i": 1401,
-    "min": 3,
-    "max": 10,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-
-{
-    "name": "Buruwai",
-    "i": 1402,
-    "min": 3,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-
-{
+  {
     "name": "Cemuhî",
     "i": 1420,
     "min": 3,
@@ -1103,7 +828,7 @@ window.oceaniaNameBases = [
     "status": "COMPLETE"
   },
 
-{
+  {
     "name": "Carolinian",
     "i": 1434,
     "min": 3,
@@ -1114,7 +839,7 @@ window.oceaniaNameBases = [
     "status": "COMPLETE"
   },
 
-{
+  {
     "name": "Chimbu",
     "i": 1586,
     "min": 3,
@@ -1137,17 +862,6 @@ window.oceaniaNameBases = [
   },
 
   {
-    "name": "Cook Islands Māori Pidgin",
-    "i": 1634,
-    "min": 4,
-    "max": 10,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-
-{
     "name": "Lonwolwol",
     "i": 1641,
     "min": 3,
@@ -1158,7 +872,7 @@ window.oceaniaNameBases = [
     "status": "COMPLETE"
   },
 
-{
+  {
     "name": "Nali",
     "i": 1196,
     "min": 3,
@@ -1169,7 +883,7 @@ window.oceaniaNameBases = [
     "status": "COMPLETE"
   },
 
-{
+  {
     "name": "Dani",
     "i": 1655,
     "min": 3,
@@ -1192,39 +906,6 @@ window.oceaniaNameBases = [
   },
 
   {
-    "name": "Dap",
-    "i": 1658,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-
-  {
-    "name": "Densar",
-    "i": 1670,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-
-{
-    "name": "Ari",
-    "i": 57,
-    "min": 3,
-    "max": 10,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-
-{
     "name": "Moikodi",
     "i": 1949,
     "min": 3,
@@ -1233,28 +914,6 @@ window.oceaniaNameBases = [
     "m": 0,
     "b": "Oro Province,Papua New Guinea,Yareban,Trans-New Guinea,Doriri,2000 speakers,Joshua Project,Oro languages,SIL-PNG,Aeka,Aneme Wake,Barai,Bariji,Baruga,Bauwaki,Biage,Binandere,Doghoro,Ese,Ewage-Notu,Fuyug,Gaina,Guhu-Samane,Hunjara-Kaina Ke,Korafe-Yegha,Kunimaipa,Maisin,Maiwa,Miniafia Oyan,Namiae,Nawaru,Ömie,Onjob,Orokaiva,Ubir,Yareba,Zia",
     "status": "COMPLETE"
-  },
-
-  {
-    "name": "Domu",
-    "i": 1710,
-    "min": 3,
-    "max": 10,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-
-  {
-    "name": "Doromu",
-    "i": 1715,
-    "min": 4,
-    "max": 16,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
   },
 
   {
@@ -1269,28 +928,6 @@ window.oceaniaNameBases = [
   },
 
   {
-    "name": "Duvle Wano Pidgin",
-    "i": 1733,
-    "min": 3,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-
-  {
-    "name": "Edolo",
-    "i": 1755,
-    "min": 3,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-
-{
     "name": "Ekari",
     "i": 1328,
     "min": 4,
@@ -1301,7 +938,7 @@ window.oceaniaNameBases = [
     "status": "COMPLETE"
   },
 
-{
+  {
     "name": "Enga",
     "i": 1767,
     "min": 3,
@@ -1313,17 +950,6 @@ window.oceaniaNameBases = [
   },
 
   {
-    "name": "Ese'Ekit",
-    "i": 1772,
-    "min": 3,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-
-{
     "name": "Ewage",
     "i": 1778,
     "min": 3,
@@ -1332,28 +958,6 @@ window.oceaniaNameBases = [
     "m": 0,
     "b": "Buna,Gona,Momborada,Eroro,Natatu,Baberada,Bakumbari,Pongani,Holnicote Bay,Dyke Ackland Bay,Oro Bay,Popondetta,Tufi,Oro Province,Northern Province",
     "status": "COMPLETE"
-  },
-
-  {
-    "name": "Faiwol",
-    "i": 1781,
-    "min": 6,
-    "max": 8,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-
-  {
-    "name": "Fasu",
-    "i": 1789,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
   },
 
   {
@@ -1368,28 +972,6 @@ window.oceaniaNameBases = [
   },
 
   {
-    "name": "Eibela",
-    "i": 1814,
-    "min": 5,
-    "max": 13,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-
-  {
-    "name": "Favorlang",
-    "i": 1820,
-    "min": 4,
-    "max": 9,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-
-  {
     "name": "Moklenic",
     "i": 162,
     "min": 6,
@@ -1401,17 +983,6 @@ window.oceaniaNameBases = [
   },
 
   {
-    "name": "Goroka",
-    "i": 1824,
-    "min": 4,
-    "max": 8,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-
-{
     "name": "Grand Valley Dani",
     "i": 1826,
     "min": 3,
@@ -1422,7 +993,7 @@ window.oceaniaNameBases = [
     "status": "COMPLETE"
   },
 
-{
+  {
     "name": "Grass Koiari",
     "i": 1827,
     "min": 3,
@@ -1431,39 +1002,6 @@ window.oceaniaNameBases = [
     "m": 0,
     "b": "Sogeri,Tubuseleia,Barakau,Gaile,Hunter River headwaters,Musgrave River headwaters,Laloki River,Goldie River,Sirinumu Dam,Kailakinumu,Sogeri Plateau,Koiari LLG,Kairuku-Hiri District,Central Province,Port Moresby northeast,Varirata National Park area",
     "status": "COMPLETE"
-  },
-
-  {
-    "name": "Gauwa",
-    "i": 1834,
-    "min": 3,
-    "max": 8,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-
-  {
-    "name": "Fembe",
-    "i": 1842,
-    "min": 4,
-    "max": 15,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-
-  {
-    "name": "Fiwaga",
-    "i": 1846,
-    "min": 3,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
   },
 
   {
@@ -1478,17 +1016,6 @@ window.oceaniaNameBases = [
   },
 
   {
-    "name": "Foia Foia",
-    "i": 1849,
-    "min": 3,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-
-  {
     "name": "Fore",
     "i": 1851,
     "min": 4,
@@ -1500,28 +1027,6 @@ window.oceaniaNameBases = [
   },
 
   {
-    "name": "Siraya",
-    "i": 1853,
-    "min": 3,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-
-  {
-    "name": "Gende",
-    "i": 1864,
-    "min": 3,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-
-{
     "name": "Bimin",
     "i": 1949,
     "min": 3,
@@ -1565,7 +1070,7 @@ window.oceaniaNameBases = [
     "status": "COMPLETE"
   },
 
-{
+  {
     "name": "Maring",
     "i": 1949,
     "min": 3,
@@ -1576,7 +1081,7 @@ window.oceaniaNameBases = [
     "status": "COMPLETE"
   },
 
-{
+  {
     "name": "Hamtai",
     "i": 1931,
     "min": 3,
@@ -1587,7 +1092,7 @@ window.oceaniaNameBases = [
     "status": "COMPLETE"
   },
 
-{
+  {
     "name": "Inoke-Yate",
     "i": 1949,
     "min": 3,
@@ -1598,7 +1103,7 @@ window.oceaniaNameBases = [
     "status": "COMPLETE"
   },
 
-{
+  {
     "name": "Safeyoka",
     "i": 1949,
     "min": 3,
@@ -1609,7 +1114,7 @@ window.oceaniaNameBases = [
     "status": "COMPLETE"
   },
 
-{
+  {
     "name": "Abun",
     "i": 1970,
     "min": 3,
@@ -1620,7 +1125,7 @@ window.oceaniaNameBases = [
     "status": "COMPLETE"
   },
 
-{
+  {
     "name": "Aneme Wake",
     "i": 1971,
     "min": 3,
@@ -1642,7 +1147,7 @@ window.oceaniaNameBases = [
     "status": "COMPLETE"
   },
 
-{
+  {
     "name": "Kuot",
     "i": 2272,
     "min": 3,
@@ -1653,7 +1158,7 @@ window.oceaniaNameBases = [
     "status": "COMPLETE"
   },
 
-{
+  {
     "name": "Kamang",
     "i": 1999,
     "min": 3,
@@ -1664,29 +1169,7 @@ window.oceaniaNameBases = [
     "status": "COMPLETE"
   },
 
-{
-    "name": "Kambaira",
-    "i": 2002,
-    "min": 3,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-
-{
-    "name": "Kamberau",
-    "i": 2003,
-    "min": 3,
-    "max": 10,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-
-{
+  {
     "name": "Ikobi",
     "i": 2024,
     "min": 3,
@@ -1697,18 +1180,7 @@ window.oceaniaNameBases = [
     "status": "COMPLETE"
   },
 
-{
-    "name": "Mpur",
-    "i": 2064,
-    "min": 3,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-
-{
+  {
     "name": "Maibrat",
     "i": 2065,
     "min": 3,
@@ -1717,28 +1189,6 @@ window.oceaniaNameBases = [
     "m": 0,
     "b": "Ayawasi,Kokas,Mosun,Konya,Kumurkek,Ayata,Kamat,Aisa,Senopi,Fef,Suswa,Sire,Ayamaru,Aytinyo,Fuoh,Aifat,Kambuaya,Aitinyo,Maisawiet,Maiyah,Maimaka,Maite,Maisefa",
     "status": "COMPLETE"
-  },
-
-{
-    "name": "Mor",
-    "i": 2066,
-    "min": 3,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-
-{
-    "name": "Elseng",
-    "i": 2067,
-    "min": 3,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
   },
 
   {
@@ -1753,17 +1203,6 @@ window.oceaniaNameBases = [
   },
 
   {
-    "name": "Central Luzon",
-    "i": 2077,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-
-{
     "name": "Kamano",
     "i": 2098,
     "min": 3,
@@ -1774,130 +1213,9 @@ window.oceaniaNameBases = [
     "status": "COMPLETE"
   },
 
-{
-    "name": "Karas",
-    "i": 2020,
-    "min": 3,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Lemakot,Fangalava,Nonopai,Lamusmus,La'un,Lavolai,Luburua,Panachais,Belifu,Parawai,Pangafua,Ngavalus,Lossuk,Losuk,Lakudumau,Laxudumau",
-    "status": "WAITING"
-  },
-
-{
-    "name": "Kap",
-    "i": 2106,
-    "min": 3,
-    "max": 10,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-
-  {
-    "name": "Loyalties-New Caledonia",
-    "i": 2118,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-
-  {
-    "name": "North Vanuatu",
-    "i": 2119,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-
-  {
-    "name": "South Vanuatu",
-    "i": 2120,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-
-  {
-    "name": "Southeast Solomonic",
-    "i": 2121,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-
-  {
-    "name": "Southern Oceanic",
-    "i": 2122,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-
-  {
-    "name": "St. Matthias",
-    "i": 2123,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-
-  {
-    "name": "Temotu",
-    "i": 2124,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-
-  {
-    "name": "Vanuatu",
-    "i": 2125,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-
   {
     "name": "Western Oceanic",
     "i": 2126,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-
-  {
-    "name": "Admiralty",
-    "i": 2149,
     "min": 4,
     "max": 11,
     "d": "",
@@ -1940,39 +1258,6 @@ window.oceaniaNameBases = [
   },
 
   {
-    "name": "Awin-Pa",
-    "i": 2156,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-
-  {
-    "name": "Awyu-Dumut",
-    "i": 2157,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-
-  {
-    "name": "Kimaama-Kimaghama",
-    "i": 2168,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-
-  {
     "name": "Central Vanuatu",
     "i": 2172,
     "min": 4,
@@ -2006,30 +1291,8 @@ window.oceaniaNameBases = [
   },
 
   {
-    "name": "Oceanic",
-    "i": 2175,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-
-  {
     "name": "Binanderean",
     "i": 2176,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-
-  {
-    "name": "Kutubuan languages",
-    "i": 2177,
     "min": 4,
     "max": 11,
     "d": "",
@@ -2082,28 +1345,6 @@ window.oceaniaNameBases = [
     "status": "COMPLETE"
   },
 
-{
-    "name": "Dibiyaso",
-    "i": 2182,
-    "min": 3,
-    "max": 10,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-
-{
-    "name": "Guriaso",
-    "i": 2183,
-    "min": 3,
-    "max": 10,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-
   {
     "name": "Kaki Ae",
     "i": 2184,
@@ -2113,28 +1354,6 @@ window.oceaniaNameBases = [
     "m": 0,
     "b": "Uaripi,Mei'i,Lapari,Mirakere,Didimaua,Uriri,Silo,Uamai No. 1,Uamai No. 2,Karama,Pukari,Koaru,Meporo,Mamavu,Kerema,Kaintiba,Kotidanga,Lakekamu,Kikori,Baimuru,Ihu,West Kikori,East Kerema,Tairuma,Vailala",
     "status": "COMPLETE"
-  },
-
-{
-    "name": "Karami",
-    "i": 2185,
-    "min": 3,
-    "max": 10,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-
-{
-    "name": "Kehu",
-    "i": 2186,
-    "min": 3,
-    "max": 10,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
   },
 
   {
@@ -2170,51 +1389,7 @@ window.oceaniaNameBases = [
     "status": "COMPLETE"
   },
 
-{
-    "name": "Komolom",
-    "i": 2256,
-    "min": 3,
-    "max": 10,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-
-{
-    "name": "Komyandaret",
-    "i": 2257,
-    "min": 3,
-    "max": 10,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-
-{
-    "name": "Konai",
-    "i": 2258,
-    "min": 3,
-    "max": 10,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-
-{
-    "name": "Koneraw",
-    "i": 2261,
-    "min": 3,
-    "max": 10,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-
-{
+  {
     "name": "Kubo",
     "i": 2284,
     "min": 3,
@@ -2236,7 +1411,7 @@ window.oceaniaNameBases = [
 "status": "WAITING"
   },
 
-{
+  {
     "name": "Kuman",
     "i": 2291,
     "min": 4,
@@ -2247,7 +1422,7 @@ window.oceaniaNameBases = [
     "status": "COMPLETE"
   },
 
-{
+  {
     "name": "Kyaka",
     "i": 2303,
     "min": 3,
@@ -2269,18 +1444,7 @@ window.oceaniaNameBases = [
     "status": "COMPLETE"
   },
 
-{
-    "name": "Laua",
-    "i": 2407,
-    "min": 3,
-    "max": 10,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-
-{
+  {
     "name": "Lauje",
     "i": 2384,
     "min": 3,
@@ -2289,17 +1453,6 @@ window.oceaniaNameBases = [
     "m": 0,
     "b": "Ampibabo,Dampelas Sojol,Dondo,Tinombo,Tomini,Sidoan river area,Bobalo,Ogowele,Palasa,Bambasiang,Beau,Ogoansam,Ulatan,Eeya,Dongkalan,Pebounang,Malala village,Toli-Toli,Parigi Moutong,Donggala",
     "status": "COMPLETE"
-  },
-
-{
-    "name": "Lembena",
-    "i": 2395,
-    "min": 3,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
   },
 
   {
@@ -2335,7 +1488,7 @@ window.oceaniaNameBases = [
     "status": "COMPLETE"
   },
 
-{
+  {
     "name": "Maori",
     "i": 2587,
     "min": 4,
@@ -2368,18 +1521,7 @@ window.oceaniaNameBases = [
     "status": "COMPLETE"
   },
 
-{
-    "name": "Awa",
-    "i": 2734,
-    "min": 3,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-
-{
+  {
     "name": "Yekora",
     "i": 2007,
     "min": 3,
@@ -2390,7 +1532,7 @@ window.oceaniaNameBases = [
     "status": "COMPLETE"
   },
 
-{
+  {
     "name": "Awin",
     "i": 2737,
     "min": 3,
@@ -2401,7 +1543,7 @@ window.oceaniaNameBases = [
     "status": "COMPLETE"
   },
 
-{
+  {
     "name": "Beami",
     "i": 2741,
     "min": 3,
@@ -2610,7 +1752,7 @@ window.oceaniaNameBases = [
     "status": "COMPLETE"
   },
 
-{
+  {
     "name": "Rejang",
     "i": 21085,
     "min": 4,
@@ -2632,7 +1774,7 @@ window.oceaniaNameBases = [
     "status": "COMPLETE"
   },
 
-{
+  {
     "name": "Boazi",
     "i": 21087,
     "min": 4,
@@ -2654,7 +1796,7 @@ window.oceaniaNameBases = [
     "status": "WAITING"
   },
 
-{
+  {
     "name": "Ginuman",
     "i": 1974,
     "min": 3,
@@ -2665,7 +1807,7 @@ window.oceaniaNameBases = [
     "status": "COMPLETE"
   },
 
-{
+  {
     "name": "Chuave",
     "i": 21090,
     "min": 3,
@@ -2676,7 +1818,7 @@ window.oceaniaNameBases = [
     "status": "COMPLETE"
   },
 
-{
+  {
     "name": "Ipiko",
     "i": 1949,
     "min": 3,
@@ -2698,7 +1840,7 @@ window.oceaniaNameBases = [
     "status": "COMPLETE"
   },
 
-{
+  {
     "name": "Gurindji",
     "i": 2007,
     "min": 3,
@@ -2720,7 +1862,7 @@ window.oceaniaNameBases = [
     "status": "COMPLETE"
   },
 
-{
+  {
     "name": "Ambakich",
     "i": 200537,
     "min": 3,
@@ -2731,7 +1873,7 @@ window.oceaniaNameBases = [
     "status": "COMPLETE"
   },
 
-{
+  {
     "name": "Ap Ma",
     "i": 2007,
     "min": 3,
@@ -2742,7 +1884,7 @@ window.oceaniaNameBases = [
     "status": "COMPLETE"
   },
 
-{
+  {
     "name": "Somahai",
     "i": 2007,
     "min": 3,
@@ -2753,7 +1895,7 @@ window.oceaniaNameBases = [
     "status": "COMPLETE"
   },
 
-{
+  {
     "name": "Bogaya",
     "i": 1949,
     "min": 3,
@@ -2764,7 +1906,7 @@ window.oceaniaNameBases = [
     "status": "COMPLETE"
   },
 
-{
+  {
     "name": "Burmeso",
     "i": 200538,
     "min": 3,
@@ -2775,7 +1917,7 @@ window.oceaniaNameBases = [
     "status": "COMPLETE"
   },
 
-{
+  {
     "name": "Light Warlpiri",
     "i": 201249,
     "min": 3,
@@ -2918,18 +2060,7 @@ window.oceaniaNameBases = [
     "status": "COMPLETE"
   },
 
-  {
-    "name": "Kewa (Southern Highlands Core)",
-    "i": 23010,
-    "min": 0,
-    "max": 0,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-
-  {
+{
     "name": "Aimele",
     "i": 50023,
     "min": 0,
@@ -2973,18 +2104,7 @@ window.oceaniaNameBases = [
     "status": "COMPLETE"
   },
 
-  {
-    "name": "Tokelauan",
-    "i": 97905,
-    "min": 0,
-    "max": 0,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-
-  {
+{
     "name": "Nauruan",
     "i": 97906,
     "min": 3,
@@ -3050,26 +2170,15 @@ window.oceaniaNameBases = [
     "status": "COMPLETE"
   },
 
-  {
-    "name": "Melpa",
-    "i": 97972,
-    "min": 3,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Mount Hagen,Baiyer,Banz,Dei,Minj,Nebilyer,Tabibuga,Kagamuga,Kuk,Kelua,Boga,Kumukama,Kuta,Muglamp,Tau,Tumun,Wuwulaguba,Komal,Baisu,Bokoro,Bomai,Gawigawi,Hagene,Hikma,Kau,Kelamp,Komana,Kumdi,Kup,Lagitago",
-    "status": "COMPLETE"
-  },
-
-  {
+{
     "name": "Kewa",
     "i": 97973,
     "min": 4,
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Mendi,Kagua,Nipa,Ialibu,Imbonggu,Kopiago,Magarima,Samberigi,Tari,Wabag,Laiagam,Porgera,Kandep,Wapenamanda,Kompiam,Erave,Pangia,Tambul,Komo,Karimui,Kundiawa,Gumine,Kerowagi,Chuave,Mintima,Pori,Paru,Sugu,Polga,Yari",
-    "status": "COMPLETE"
+    "b": "Kagua,Erave,Ialibu,Mendi,Pangia,Imbonggu,Mendi Valley,Kagua-Erave district,Ialibu-Pangia district,Lake Kutubu area,Mendi-Erave river network,Mount Giluwe,Mount Ialibu,Kagua plateau,Erave plateau",
+    "status": "WAITING"
   },
 
   {
@@ -3172,83 +2281,6 @@ window.oceaniaNameBases = [
   },
 
   {
-    "name": "Miriwoong",
-    "i": 97986,
-    "min": 5,
-    "max": 19,
-    "d": "",
-    "m": 0,
-    "b": "Kununurra,Wyndham,Kalumburu,Halls Creek,Warmun,Mulan,Balgo,Billiluna,Doon Doon,Bowgener,Lake Argyle,Ivanhoe,Rosewood,Oombulgurri,Munurrunggur,Springvale,Darwinia,Yanggarn,Ranger Base,Kildurk,Moochalabra,Newry,Kalumburu Community,Winanbool,Warmun Community",
-    "status": "COMPLETE"
-  },
-
-  {
-    "name": "Gooniyandi",
-    "i": 97987,
-    "min": 0,
-    "max": 0,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-
-  {
-    "name": "Walmajarri",
-    "i": 97988,
-    "min": 5,
-    "max": 28,
-    "d": "",
-    "m": 0,
-    "b": "Balgo,Western Australia,Billiluna (Mindibungu),Mulan Community,Western Australia,Bayulu Community,Fitzroy Crossing,Western Australia,Halls Creek,Western Australia,Djugerari (Cherrabun),Wangkatjungka Community,Kadjina Community,Western Australia,Yakanarra Community,Looma Community,Western Australia,Djarindjin,Lombadina,Western Australia,Beagle Bay Community,Western Australia,Bidyadanga Community,Derby,Western Australia,Broome,Western Australia,Camballin,Western Australia,Kununurra,Western Australia,Wyndham,Western Australia,Warmun Community,Western Australia,Mowanjum Community,Imintji Community,Jarlmadangah Burru Community,Muludja,Kundat Djaru Community,Yiyili Community,Ngumpan Community",
-    "status": "COMPLETE"
-  },
-
-  {
-    "name": "Bunuba",
-    "i": 97989,
-    "min": 0,
-    "max": 0,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-
-  {
-    "name": "Niuean",
-    "i": 97994,
-    "min": 0,
-    "max": 0,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-
-  {
-    "name": "Murrinhpatha",
-    "i": 97996,
-    "min": 5,
-    "max": 14,
-    "d": "",
-    "m": 0,
-    "b": "Wadeye,Peppimenarti,Nganmarriyanga,Palumpa,Thamarrurr,Nemarluk,Emu Point,Daly River,Nauiyu,Woolianna,Maranunga,Tipperary,Timber Creek,Delamere,Douglas-Daly,Edith,Fleming,Gregory,Victoria River,Pine Creek,Top Springs,Buchanan,Bradshaw,Baines,Claravale,Burrundie,Pigeon Hole,Yarralin,Kalkarindji,Daguragu",
-    "status": "COMPLETE"
-  },
-
-  {
-    "name": "Kamilaroi",
-    "i": 97997,
-    "min": 0,
-    "max": 0,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-
-  {
     "name": "Chuukese",
     "i": 98000,
     "min": 2,
@@ -3260,28 +2292,6 @@ window.oceaniaNameBases = [
   },
 
   {
-    "name": "Yapese",
-    "i": 98001,
-    "min": 0,
-    "max": 0,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-
-  {
-    "name": "Nauru",
-    "i": 98003,
-    "min": 0,
-    "max": 0,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-
-  {
     "name": "Bislama",
     "i": 98004,
     "min": 4,
@@ -3290,39 +2300,6 @@ window.oceaniaNameBases = [
     "m": 0,
     "b": "Aplow,Avire,Baravet,Bunlap,Butmas,Emiotungan,Fanla,Forari,Hog Harbour,Ipikil,Isangel,Lakatoro,Lamap,Lenakel,Litslits,Longana,Lonwolwol,Lorevilko,Luganville,Melsisi,Norsup,Pango,Panngi,Port Havannah,Port Olry,Port Patteson,Port Vato,Port Vila,Saratamata,Sola,Tumsisiro,Vanuu,Whitesands,Yaohnanen",
     "status": "COMPLETE"
-  },
-
-  {
-    "name": "Anejom",
-    "i": 98005,
-    "min": 0,
-    "max": 0,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-
-  {
-    "name": "Lenakel",
-    "i": 98006,
-    "min": 0,
-    "max": 0,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-
-  {
-    "name": "Kwamera",
-    "i": 98007,
-    "min": 0,
-    "max": 0,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
   },
 
   {
@@ -3345,50 +2322,6 @@ window.oceaniaNameBases = [
     "m": 0,
     "b": "We,Easo,Xodre,Inagoj,Nathalo,Chepenehe,Xepenehe,Jokin,Qanono,Siloam,Wedrumel,Wiwatul,Drueulu,Hapetra,Hnathalo,Kirinata,Nang,Traput,Luecila,Luengoni,Mu,Tingeting,Wanaham,Kumo,Hnaop,Hnacaom,Kedeigne,Hmelek,Hnaizianu,Havila,Hnasse,Hunete",
     "status": "COMPLETE"
-  },
-
-  {
-    "name": "Xârâcùù",
-    "i": 98010,
-    "min": 0,
-    "max": 0,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-
-  {
-    "name": "Jawe",
-    "i": 98011,
-    "min": 0,
-    "max": 0,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-
-  {
-    "name": "Hinukh",
-    "i": 98012,
-    "min": 0,
-    "max": 0,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-
-  {
-    "name": "Lau",
-    "i": 98013,
-    "min": 0,
-    "max": 0,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
   },
 
   {
@@ -3425,17 +2358,6 @@ window.oceaniaNameBases = [
   },
 
   {
-    "name": "Norfuk",
-    "i": 98017,
-    "min": 0,
-    "max": 0,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-
-{
     "name": "Bardi",
     "i": 98018,
     "min": 3,
@@ -3446,7 +2368,7 @@ window.oceaniaNameBases = [
 "status": "COMPLETE"
   },
 
-{
+  {
     "name": "Guugu Yimidhirr",
     "i": 2007,
     "min": 3,
@@ -3497,7 +2419,7 @@ window.oceaniaNameBases = [
     "max": 0,
     "d": "",
     "m": 0,
-    "b": "",
+    "b": "Uwe,Yuwayu,Uiaku,Ganjiga,Sinapa,Konyasi,Sinipara,Airara,Marua,Kosirava,Cape Nelson,Collingwood Bay,Musa Basin,Wanigela,Tufi,Ijivitari,Goodenough Island,Trobriand Islands",
     "status": "WAITING"
   },
 
@@ -3622,7 +2544,7 @@ window.oceaniaNameBases = [
     "status": "COMPLETE"
   },
 
-{
+  {
     "name": "Kuku Yalanji",
     "i": 200597,
     "min": 3,
@@ -3634,17 +2556,6 @@ window.oceaniaNameBases = [
   },
 
   {
-    "name": "Kungarakany",
-    "i": 200598,
-    "min": 0,
-    "max": 0,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-
-{
     "name": "Kunwinjku",
     "i": 306,
     "min": 4,
@@ -3655,7 +2566,7 @@ window.oceaniaNameBases = [
     "status": "COMPLETE"
   },
 
-{
+  {
     "name": "Wik Mungkan",
     "i": 200609,
     "min": 3,
@@ -3666,7 +2577,7 @@ window.oceaniaNameBases = [
     "status": "COMPLETE"
   },
 
-{
+  {
     "name": "Yankunytjatjara",
     "i": 200610,
     "min": 3,
@@ -3688,7 +2599,7 @@ window.oceaniaNameBases = [
     "status": "COMPLETE"
   },
 
-{
+  {
     "name": "Pitjantjatjara",
     "i": 200608,
     "min": 3,
@@ -3700,17 +2611,6 @@ window.oceaniaNameBases = [
   },
 
   {
-    "name": "Martu Wangka",
-    "i": 200604,
-    "min": 0,
-    "max": 0,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-
-{
     "name": "Maung",
     "i": 200598,
     "min": 3,
@@ -3721,7 +2621,7 @@ window.oceaniaNameBases = [
     "status": "COMPLETE"
   },
 
-{
+  {
     "name": "Murrinh-patha",
     "i": 200599,
     "min": 4,
@@ -3729,17 +2629,6 @@ window.oceaniaNameBases = [
     "d": "",
     "m": 0,
     "b": "Wadeye,Port Keats,Werntek Nganayi,Old Mission,Thamarrurr Region,Moyle River,Fitzmaurice River,Madjellindi Valley,Alligator Creek,Yambarran Range,Laurie Creek,Daly River,Nganmarriyanga,Palumpa,Peppimenarti,Nauiyu Nambiyu,Daly River Road,Wadeye Airstrip",
-    "status": "COMPLETE"
-  },
-
-{
-    "name": "Walmajarri",
-    "i": 200606,
-    "min": 3,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Fitzroy Crossing,Great Sandy Desert,Kimberley,Western Australia,Bayulu,Djugerari,Cherrabun,Junjuwa,Looma,Kadjina,Millijidee,Mindibungu,Bililuna,Mindi Rardi,Mulan,Ngumpan,Wangkajungka,Christmas Creek,Yakanarra,Yungngora,Lake Gregory,Murrungu,Bidjadanga,Derby,Broome,Halls Creek",
     "status": "COMPLETE"
   },
 
@@ -3754,7 +2643,7 @@ window.oceaniaNameBases = [
     "status": "COMPLETE"
   },
 
-{
+  {
     "name": "Nunggubuyu",
     "i": 200600,
     "min": 3,
@@ -3766,28 +2655,6 @@ window.oceaniaNameBases = [
   },
 
   {
-    "name": "Nyangumarta",
-    "i": 200610,
-    "min": 0,
-    "max": 0,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-
-  {
-    "name": "palawa kani",
-    "i": 200611,
-    "min": 0,
-    "max": 0,
-    "d": "",
-    "m": 0,
-    "b": "",
-"status": "WAITING"
-  },
-
-{
     "name": "Upper Arrernte",
     "i": 200614,
     "min": 5,
@@ -3798,7 +2665,7 @@ window.oceaniaNameBases = [
     "status": "COMPLETE"
   },
 
-{
+  {
     "name": "Warlpiri",
     "i": 200603,
     "min": 3,
@@ -3919,7 +2786,7 @@ window.oceaniaNameBases = [
 "status": "COMPLETE"
   },
 
-{
+  {
     "name": "Asmat–Kamoro",
     "i": 201041,
     "min": 3,
@@ -3963,7 +2830,7 @@ window.oceaniaNameBases = [
 "status": "COMPLETE"
   },
 
-{
+  {
     "name": "Becking–Dawi",
     "i": 201046,
     "min": 2,
@@ -3974,7 +2841,7 @@ window.oceaniaNameBases = [
 "status": "COMPLETE"
   },
 
-{
+  {
     "name": "Cèmuhî",
     "i": 201048,
     "min": 4,
@@ -4045,17 +2912,6 @@ window.oceaniaNameBases = [
     "i": 201054,
     "min": 0,
     "max": 0,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-
-  {
-    "name": "Javanese macro entry",
-    "i": 201055,
-    "min": 4,
-    "max": 11,
     "d": "",
     "m": 0,
     "b": "",
@@ -4184,17 +3040,6 @@ window.oceaniaNameBases = [
   },
 
   {
-    "name": "Kimaama (Kimaghama)",
-    "i": 201067,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-
-  {
     "name": "Kombai–Wanggom",
     "i": 201068,
     "min": 3,
@@ -4247,17 +3092,6 @@ window.oceaniaNameBases = [
     "m": 0,
     "b": "Jair,Subur,Ki,Mindiptana,Iniyandit,Kombut,Sesnuk,Mandobo,Fofi,Arimop,Kouh,Bomakia,Firiwage,Manggelum,Yaniruma,Kawagit,Kombay,Waropko,Ambatkwi,Ninati,Getentiri,Ujungkia,Langgoan,Makmur,Kuken,Wanggemalo,Tanah Merah,Persatuan",
     "status": "COMPLETE"
-  },
-
-  {
-    "name": "Madurese macro entry",
-    "i": 201073,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
   },
 
   {
@@ -4415,17 +3249,6 @@ window.oceaniaNameBases = [
   },
 
   {
-    "name": "Melanesian Pidgin",
-    "i": 201088,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-
-  {
     "name": "Menya",
     "i": 201089,
     "min": 0,
@@ -4436,7 +3259,7 @@ window.oceaniaNameBases = [
     "status": "WAITING"
   },
 
-{
+  {
     "name": "Yugambeh",
     "i": 200612,
     "min": 3,
@@ -4447,7 +3270,7 @@ window.oceaniaNameBases = [
     "status": "COMPLETE"
   },
 
-{
+  {
     "name": "Moikodi",
     "i": 2007,
     "min": 3,
@@ -4469,7 +3292,7 @@ window.oceaniaNameBases = [
     "status": "COMPLETE"
   },
 
-{
+  {
     "name": "Moklen",
     "i": 1949,
     "min": 3,
@@ -4502,7 +3325,7 @@ window.oceaniaNameBases = [
     "status": "COMPLETE"
   },
 
-{
+  {
     "name": "Moraori",
     "i": 2007,
     "min": 3,
@@ -4513,7 +3336,7 @@ window.oceaniaNameBases = [
     "status": "COMPLETE"
   },
 
-{
+  {
     "name": "Maria",
     "i": 1949,
     "min": 3,
@@ -4656,17 +3479,6 @@ window.oceaniaNameBases = [
     "status": "WAITING"
   },
 
-{
-    "name": "Anem",
-    "i": 1971,
-    "min": 3,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-
   {
     "name": "Nduga",
     "i": 201112,
@@ -4745,17 +3557,6 @@ window.oceaniaNameBases = [
   },
 
   {
-    "name": "Northern and Central Bunun",
-    "i": 201122,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-
-  {
     "name": "Odoodee",
     "i": 201124,
     "min": 4,
@@ -4778,17 +3579,6 @@ window.oceaniaNameBases = [
   },
 
   {
-    "name": "Ok–Oksapmin",
-    "i": 201126,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-
-{
     "name": "Oksapmin",
     "i": 201127,
     "min": 4,
@@ -4896,17 +3686,6 @@ window.oceaniaNameBases = [
     "m": 0,
     "b": "Central,East,South,West,North,Xitun,Nantun,Beitun,Fengyuan,Qingshui,Shalu,Wuqi,Houli,Shengang,Tanzi,Daya,Waipu,Dajia,Dadu,Longjing,Daan,Wuri,Wufeng,Taiping,Dali,Xinshe,Shigang,Sinshe",
     "status": "COMPLETE"
-  },
-
-  {
-    "name": "Papora-Hoanya",
-    "i": 201138,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
   },
 
   {
@@ -5019,7 +3798,7 @@ window.oceaniaNameBases = [
     "status": "COMPLETE"
   },
 
-{
+  {
     "name": "Rotokas",
     "i": 201149,
     "min": 4,
@@ -5030,7 +3809,7 @@ window.oceaniaNameBases = [
     "status": "COMPLETE"
   },
 
-{
+  {
     "name": "Rukai",
     "i": 201150,
     "min": 4,
@@ -5041,7 +3820,7 @@ window.oceaniaNameBases = [
     "status": "COMPLETE"
   },
 
-{
+  {
     "name": "Budai-Labuan-Taromak Rukai",
     "i": 201151,
     "min": 3,
@@ -5063,7 +3842,7 @@ window.oceaniaNameBases = [
     "status": "COMPLETE"
   },
 
-{
+  {
     "name": "Panyjima",
     "i": 201381,
     "min": 3,
@@ -5228,7 +4007,7 @@ window.oceaniaNameBases = [
     "status": "COMPLETE"
   },
 
-{
+  {
     "name": "Silimo",
     "i": 1949,
     "min": 3,
@@ -5250,7 +4029,7 @@ window.oceaniaNameBases = [
     "status": "COMPLETE"
   },
 
-{
+  {
     "name": "Sinasina",
     "i": 201170,
     "min": 4,
@@ -5272,7 +4051,7 @@ window.oceaniaNameBases = [
 "status": "COMPLETE"
   },
 
-{
+  {
     "name": "Bogaya",
     "i": 201173,
     "min": 0,
@@ -5470,7 +4249,7 @@ window.oceaniaNameBases = [
     "status": "WAITING"
   },
 
-{
+  {
     "name": "Thao",
     "i": 201191,
     "min": 5,
@@ -5877,7 +4656,7 @@ window.oceaniaNameBases = [
     "status": "COMPLETE"
   },
 
-{
+  {
     "name": "Yagaria",
     "i": 201228,
     "min": 3,
@@ -5943,17 +4722,6 @@ window.oceaniaNameBases = [
 "status": "WAITING"
   },
 
-{
-    "name": "palawa kani",
-    "i": 201239,
-    "min": 3,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Tasmania,Hobart,nipaluna,Mount Wellington,kunanyi,Mount Wellington,Mount Wellington,NITV,Tasmanian Museum and Art Gallery,Arthur Pieman Conservation Area,Bass Strait Islands,Tasmanian Aboriginal Centre,lutruwita,Tamar River,kanamaluka,Mount Wellington,kunanyi,Narawntapu National Park,Asbestos Range National Park,Tarkine,Takayna,Great Lake,Yingina,Cape Barren Island,Truwana,Bay of Fires,yula2it,Arthur Pieman Conservation Area,pulingina map,250+ place names,Tasmanian Aboriginal Centre,TAC,dual naming policy,palawa kani dictionary",
-    "status": "COMPLETE"
-  },
-
   {
     "name": "Yogo (Tamagario)",
     "i": 201236,
@@ -5976,7 +4744,7 @@ window.oceaniaNameBases = [
     "status": "COMPLETE"
   },
 
-{
+  {
     "name": "Zia",
     "i": 201238,
     "min": 3,
@@ -6216,9 +4984,9 @@ window.oceaniaNameBases = [
     "m": 0,
     "b": "Upovia,Buseki,Boimbulavu,Nago,Maka,Magipopo,Usukof No. 1,Usokof No. 2,Kapikam,Dimu,Pangoa,Tagum,Miwa No. 1,Miwa No. 2,Kusikina,Kuem,Mipan,Manda,Bosset No. 1,Bosset No. 2,Wangawanga No. 1,Wangawanga No. 2,Komovai,Kaviananga No. 1,Kaviananga No. 2,Boikmava,Levame,Lake Murray Station",
     "status": "COMPLETE"
-  }
-,
-{
+  },
+
+  {
     "name": "Tayo Creole",
     "i": 200903,
     "min": 3,

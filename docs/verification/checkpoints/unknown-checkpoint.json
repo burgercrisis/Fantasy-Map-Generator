@@ -1,15 +1,15 @@
 {
   "blockers": [],
-  "lastUpdate": "2026-08-24T22:30:00.000Z",
-  "completedEntries": 111,
-  "lastVerifiedIndex": 110,
-  "totalIssuesFixed": 7450,
-  "lastVerifiedName": "Wapishana",
-  "currentLanguage": "COMPLETE",
+  "lastUpdate": "2026-08-26T00:00:00.000Z",
+  "completedEntries": 270,
+  "lastVerifiedIndex": 259,
+  "totalIssuesFixed": 17921,
+  "lastVerifiedName": "Serpents (fantasy)",
+  "currentLanguage": "COMPLETE - All entries processed (260 unknown + 10 fantasy)",
   "startedAt": "2026-08-22T14:43:00.000Z",
-  "totalNamesVerified": 1795,
-  "totalEntries": 260,
+  "totalNamesVerified": 4240,
+  "totalEntries": 270,
   "continent": "unknown",
-  "status": "completed",
-  "waitingEntries": 104
+  "status": "complete",
+  "waitingEntries": 123
 }

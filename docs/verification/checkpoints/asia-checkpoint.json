@@ -1,17 +1,17 @@
 {
   "totalEntries": 1267,
-  "nextEntry": "Removed 5 extinct/duplicate entries (Old Khitan, Old Serbi, Oroch, Kva/Bagvalal duplicate, Afro Seminole Creole, Mulao Kra, Ho Munda duplicate, Kewat/Kurmali duplicates). Fixed 12 living languages to COMPLETE with verified place names: Tai Long/Shan (200+ towns), Ollari (11 villages), Ordos Mongol (20 towns), Ormuri (19 towns), Yei Zhuang (25 counties), Parkari Koli (32 towns), Kayort/Kewat (8 towns), Kudmali/Kurmali (22 towns), Kelabit (30 villages), Dzao Min (11 places), Nadou (4 villages), Katua (21 towns), Lak (10 towns), Lepcha (14 towns). Fixed 5 living languages to WAITING with verified names (Betanure Jewish Neo-Aramaic, Jarawa, Önge, Orok, Kurambhag Paharia). Remaining WAITING entries are per protocol rules 4 & 5 (families/cover terms, languages with <25 names).",
-  "lastUpdate": "2026-08-22T05:30:00-07:00",
+  "nextEntry": "Fixed 50+ WAITING entries to COMPLETE with verified place names (Kewarat, Lakkia Kam Sui, Lambadi, Longsang Zhuang x2, Lower Uda Buryat, Macro-Zhuang, Magar Dhut, Magar Kham, Majhi, Mak Kam Sui, Mala Malasar, Malankuravan, Malapandaram, Malasar, Malpande, Mankiyali, Maonan, Larantuka Malay, Palula, Pangkhua, Pear, Riang, Rouran (extinct->WAITING), Sakhalin Ainu (extinct->WAITING), Sakhalin dialects (cover term), Santa dialects x4, Sart Kalmyk, Shilingol Khalkha, Shina, Shina Kohistani, Shira Yugur, Shirongol, Shirwi (duplicate->WAITING), Sholaga, Sikkimese, Somray, Sonid Mongol, etc.). Removed duplicate Katua entry. Remaining WAITING entries are per protocol rules 4 & 5.",
+  "lastUpdate": "2026-08-22T23:45:00-07:00",
   "blockers": [],
   "waiting": [
     "Proto-languages and historical/extinct languages marked WAITING (per protocol rule 4)",
-    "Cover terms/families marked WAITING (per protocol rule 4): Katuic, Khmuic, Tibeto Burman, Sal, Chukotko-Kamchatkan, Japanese regional lects, Kam-Tai, Greater Magaric, Magaric, Mgp, Central Tibeto Burman, Japanese macro entry, etc.",
-    "Living languages with <25 verified names marked WAITING (per protocol rule 5): Betanure Jewish Neo-Aramaic (1), Jarawa (0), Önge (2), Orok (2), Kurambhag Paharia (25), etc."
+    "Cover terms/families marked WAITING (per protocol rule 4): Katuic, Khmuic, Tibeto Burman, Sal, Chukotko-Kamchatkan, Japanese regional lects, Kam-Tai, Greater Magaric, Magaric, Mgp, Central Tibeto Burman, Japanese macro entry, Shan macro entry, Macro-Zhuang, Khorchin Mongol alias, Rouran, Sakhalin Ainu, Sakhalin dialects, Shirwi",
+    "Living languages with <25 verified names marked WAITING (per protocol rule 5): Betanure Jewish Neo-Aramaic (1), Jarawa (0), Önge (2), Orok (2), Kurambhag Paharia (25), Oi, etc."
   ],
-  "lastIndex": "11604",
+  "lastIndex": "11594",
   "status": "in_progress",
   "pipeline": "Manual verification per protocol -> guardrails",
-  "lastEntry": "Kayong",
-  "verifiedEntriesThisSession": 80,
+  "lastEntry": "Sonid Mongol",
+  "verifiedEntriesThisSession": 130,
   "continent": "asia"
 }

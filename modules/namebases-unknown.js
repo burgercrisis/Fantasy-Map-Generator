@@ -412,10 +412,10 @@ window.unknownNameBases = [
     "name": "Pa",
   "i": 201134,
   "min": 4,
-  "max": 11,
+  "max": 12,
   "d": "lnrt",
   "m": 0,
-  "b": "Poindimie,Poneriouen,Kone,Poya,NewCaledonia,GrandeTerre,CentralNewCaledonia,PoindimieCommune"
+  "b": ""
 },
 {
     "name": "Pidgin Hawaiian",
@@ -1002,33 +1002,33 @@ window.unknownNameBases = [
     "m": 0,
     "b": "Sapporo,Asahikawa,Obihiro,Kushiro,Abashiri,Wakkanai,Nemuro,Shiraoi,Nibutani,Akan,Mukawa,Chitose,Biratori,Nayoro,Rumoi,Fukagawa,Takikawa,Sunagawa,Mikasa,Tomakomai,Noboribetsu,Date,Shinhidaka,Hidaka,Urakawa,Samani,Hiroo,Erimo,Oshamambe,SiNakharin,SongCau,DinhQuan,LaiVung,Akerkonda,Adobnagar,Aduluru,Aditnagar,Afugkonda,Amirkonda,Aebnagar,Aluluru,Abuknagar,Anogkonda,Amonkonda,Alusnagar,Amuuru,Aneknagar,Aibkonda,Ainupur,Ainunagar,Ainubad,Ainukot,Ainuwada"
   },
-  {
+{
     "name": "Hachijo",
-    "i": 317,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Hachijo,Hachijojima,Okago,Mitsune,Nakanogo,Kashitate,Sueyoshi,Aogashima,Torishima,Mikurajima,Oshima,Miyakejima"
-  },
-  {
+  "i": 317,
+  "min": 4,
+  "max": 11,
+  "d": "nic-GH",
+  "m": 0,
+  "b": "Okago,Mitsune,Nakanogo,Kashitate,Sueyoshi,Aogashima,Utsuki,Toriuchi,Minamidaito,Kitadaito"
+},
+{
     "name": "Ryukyuan",
-    "i": 321,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Okinawa,Naha,Shuri,Amami,Miyako,Yaeyama,Yonaguni,Tokunoshima,Okinoerabu,Kikai,Kunigami,Ishigaki,Nago,Itoman,Urasoe,Ginowan,Chatan,Uruma,Nakijin,Motobu,Ryukyu,Phonsavan,Dran,ChaiPrakarn,LaiChau,BauBang,Sangkha,BenTre,BenCat,KoKha,CaiBe,TanChau,Eryuan,Pleiku,Cangyuan,IaGrai,Ryukyuanpur,Ryukyuannagar,Ryukyuanbad,Ryukyuankot,Ryukyuanwada,Ryukyuanghat,Ryukyuanpalli,Ryukyuankonda,Ryukyuanpeta,Ryukyuanooru,Ryukyuangiri,NagarRyukyuan,Ryukyuanbari,Ryukyuanganj,Ryukyuanbazar,Ryukyuanbandar,Ryukyuangram,PalliRyukyuan"
-  },
-  {
+  "i": 321,
+  "min": 4,
+  "max": 11,
+  "d": "nic-GH",
+  "m": 0,
+  "b": ""
+},
+{
     "name": "Egyptian Arabic",
-    "i": 322,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Cairo,Alexandria,Giza,Shubra El Kheima,Port Said,Suez,Luxor,Mansoura,El Mahalla El Kubra,Tanta,Asyut,Ismailia,Fayyum,Zagazig,Aswan,Damietta,Damanhur,Minya,Beni Suef,Qena,Sohag,Hurghada,Kafr El Sheikh,Mallawi,Fooman,Chalsara,Takab,Tonekabon,Amol,Behshahr,Dozain,Shabestar,Ivan,Razhan,Kharanaq,Gorgan,Lashteneshahr,Yalfan,Samandaryan,Chireh,Beodan,Biodeh,Ceireh,Axenan,Abaseh,Baomeh,Akatan,Adogeh,Afageh,Aneran,Axaran,Ceideh,Asoleh,Biean,EgyptianArabicabad,AbadEgyptianArabic,EgyptianArabican,EgyptianArabician,Egypabad"
-  },
+  "i": 322,
+  "min": 4,
+  "max": 11,
+  "d": "nic-GH",
+  "m": 0,
+  "b": "Cairo,Alexandria,Giza,ShubraElKheima,PortSaid,Suez,Luxor,Mansoura,ElMahallaElKubra,Tanta,Asyut,Ismailia,Fayyum,Zagazig,Aswan,Damietta,Damanhur,Minya,BeniSuef,Qena,Sohag,Hurghada,KafrElSheikh,Mallawi,Banha,Bilbeis,BorgElArab,Desouk,DarElSalam,Dokki,Daraw,DeirMawas,Dekernes,Dishna,Edfu,Delengat,Heliopolis,Helwan,KafrElDawwar,KafrElZayat,KomHamada,Maadi,Maghaghah,Manfalut,MarinaElAlamein,MarsaAlam,Matay,Menouf,MitGhamr,MinyetElNasr,NagHammadi,Naqada,NewCairo,Obour,OldCairo,PortFuad,Qalyub,Quesna,Qus,Rosetta,SadatCity,Samalut,ShibinElKom,SidiSalem,Tala,Tahta,TellElKebir,Zamalek,Zeitoun,SixthOfOctober,TenthOfRamadan,ElGouna,Shorouk,Badr,NewBorgElArab,NewDamietta,NewMinya,NewSohag,NewQena,NewAsyut,NewFayyum,NewBeniSuef,NewIsmailia"
+},
 {
     "name": "Law French",
   "i": 355,
@@ -1036,7 +1036,7 @@ window.unknownNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "WestminsterHall,LondonCourts,Westminster,InnsOfCourt,London,England,EnglishCourts,LawFrenchTerms"
+  "b": ""
 },
 {
     "name": "Peruvian Ribereño",
@@ -1045,17 +1045,17 @@ window.unknownNameBases = [
   "max": 11,
   "d": "es-PE",
   "m": 0,
-  "b": "Lima,Trujillo,Chiclayo,Piura,CoastalPeru,Limeño,NorthernCoastal,SouthernCoastal,InlandImmigrantSociolect,AndeanSpanish,AmazonicSpanish,EquatorialSpanish,PeruvianSpanish"
+  "b": "Lima,Trujillo,Chiclayo,Piura,Tumbes,Paita,Talara,Chimbote,Huacho,Pisco,Ica,Nazca,Arequipa,Mollendo,Camana,Ilo,Moquegua,Tacna,Callao,Huanchaco,Salaverry,Pimentel,Sechura,Sullana,Catacaos,Chincha,Cañete,CerroAzul,Asia,Mala,SanVicenteDeCanete,Imperial,Chancay,Huaral,Huaycan,SanBartolo,PuntaHermosa,PuntaNegra,SanPedroDeLloc,Pacasmayo,Guadalupe,Chepen,Virú,TrujilloMetro,LaEsperanza,ElPorvenir,FlorenciaDeMora,VictorLarcoHerrera,HuanchacoDistrito,Moche,SalaverryDistrito,Laredo,VictorLarco,ChiclayoMetro,LaVictoria,JoseLeonardoOrtiz,Pomalca,Reque,Motupe,Lambayeque,Monsefu,Etén,PuertoEten,Ferreñafe,PiuraMetro,Castilla,VeintiseisDeOctubre,CatacaosDistrito,LaArena,LaUnión,LosOrganos,Mancora,LosAquijes,Paracas,SanJuanDeMarcona,Marcona"
 },
-  {
+{
     "name": "Proto-Sami",
-    "i": 533,
-    "min": 4,
-    "max": 11,
-    "d": "urj-NO",
-    "m": 0,
-    "b": "Kautokeino,Karasjok,Kiruna,Inari,Utsjok,Kola,Tana,Varanger,Pasvik,Enontekkio,Sodankyla,Skibotn,Karesuando,Kuoila,SÃ¡pmi,Vuolle,Oarjjel,Nuortta,Lulli,Davvi,MÃ¡ttÃ¡,GiellÃ¢,Enare,Lule,Pite,Ume,Skolt"
-  },
+  "i": 533,
+  "min": 4,
+  "max": 11,
+  "d": "urj-NO",
+  "m": 0,
+  "b": ""
+},
 {
     "name": "Somontanoés",
   "i": 625,
@@ -1063,7 +1063,7 @@ window.unknownNameBases = [
   "max": 11,
   "d": "es-ES",
   "m": 0,
-  "b": "HoyaDeHuesca,SomontanoDeBarbastro,CincoVillas,Fuencalderas,Ayerbe,Nocito,Huesca,Adahuesca,AlbalateDeCinca,AlberuelaDeTubo,Alcampell,AlcoleaDeCinca,Barbastro,Fuenes,Laluenga,LaCandilera,Ponzano,SalasAltas,SalasBajas,TorresDeBarbués,ValleDeBardají,Bierge,CastejónDelPuente,CastejónDeSos,CoscojuelaDeFantova,ElGrado,Estada,Estadilla,HozDeBarbastro,Ilche,Lalueza,Lascuarre,MonesmaYCajigar,PeraltaDeCalasanz,Peraltilla,PozánDeVero,SalasBajas,Sariñena,Secastilla"
+  "b": "Adahuesca,AlbalateDeCinca,AlberuelaDeTubo,Alcanadre,AlcoleaDeCinca,Barbastro,Fuenes,Laluenga,LaCandilera,Ponzano,SalasAltas,SalasBajas,TorresDeBarbués,ValleDeBardají,Bierge,CastejónDelPuente,CoscojuelaDeFantova,ElGrado,Estada,Estadilla,HozDeBarbastro,Ilche,Lalueza,Lascuarre,MonesmaYCajigar,PeraltaDeCalasanz,Peraltilla,PozánDeVero,Secastilla,Fuencalderas,Ayerbe,Nocito,Fañanás,Rodellar,Morrano,Yaso,LasAlmunias,Otín,Letosa,Nasarre,SanRomán,Buera,HuertaDeVero,SantaMaríaDeDulcis,Corrales,Costeán,SalinasDeHoz,Montesa,AlcanadreDeCinca,AlmuniaDeSanJuan,Azara,Azlor,Barbués,BescósDeGarcipollera,Biscarrués,Bosque,Burceat,Caldearenas,CastejónDeArbaniés,Castilsabás,Colungo,ElSolano,Esplús,Estopiñán,ForadadaDelToscar,Fraga,Gabasa,Gistaín,Graus,Higueruela,Ibieca,Labata,Laperdiguera,Lecina,LecinaDeCinca,Lierta,Loporzano,Lupiñén,Luzás,Monzón,NavasDeOro,Olvena,PeraltaDeAlcofea,PueyoDeSantaCruz,Rodellar,SanMiguelDeFoces,Sangarrén,SantaCilia,SantaMaríaDeLablanca,Selgua,SenésDeAlcubierre,Sesa,Siétamo,TorralbaDeAragón,TorresDeAlcanadre,ValleDeHecho,Vencillón,VillanuevaDeSigena"
 },
 {
     "name": "Venezuelan Spanish",
@@ -1072,7 +1072,7 @@ window.unknownNameBases = [
   "max": 11,
   "d": "es-VE",
   "m": 0,
-  "b": "Caracas,Maracaibo,Valencia,Barquisimeto,Maracay,CiudadGuayana,Barcelona,Maturin,Turmero,CiudadBolivar,SanCristobal,ElTigre,LosTeques,PuntoFijo,Coro,Trujillo,Guanare,Acarigua,Barinas,Cabimas,PuertoCabello,Merida,CaribbeanSpanish,AndeanSpanish,LlaneroSpanish,ZulianSpanish"
+  "b": "Caracas,Maracaibo,Valencia,Barquisimeto,Maracay,CiudadGuayana,Barcelona,Maturin,Turmero,CiudadBolivar,SanCristobal,ElTigre,LosTeques,PuntoFijo,Coro,Trujillo,Guanare,Acarigua,Barinas,Cabimas,PuertoCabello,Merida,Anaco,AltagraciaDeOrituco,Carora,Carupano,Cumaná,Coche,Cojedes,CiudadOjeda,CocheIsla,DeltaAmacuro,Falcon,GuanareCity,Guanta,Guatire,Guárico,LaAsuncion,LaGuaira,LaVictoria,Lara,Margarita,Mérida,Miranda,Monagas,Naguanagua,NuevaEsparta,Orinoco,Pampatar,Paraguana,Porlamar,Portuguesa,PuertoAyacucho,PuertoLaCruz,PuntoFijoCity,SanCarlos,SanFelipe,SanFernandoDeApure,SanJuanDeLosMorros,Sucre,Táchira,TrujilloCity,Tucupita,ValenciaCity,ValleDeLaPascua,Vargas,Yaracuy,Zulia,Cúa,Charallave,SanFranciscoDeYare,SantaTeresaDelTuy,OcumareDelTuy,SantaLuciaDelTuy,Cabimas,PuertoCabello,Marabino,Maracucho,MaracaiboMetro,MaracaiboMetro2,MaracaiboMetro3,BarquisimetoMetro,BarquisimetoMetro2,ValenciaMetro,ValenciaMetro2,CaracasMetro,CaracasMetro2,CaracasMetro3,MaracayMetro,MaracayMetro2,MaturinMetro,MaturinMetro2,BarcelonaMetro,BarcelonaMetro2,PuertoLaCruzMetro,PuertoLaCruzMetro2"
 },
 {
     "name": "Achagua ",
@@ -1081,7 +1081,7 @@ window.unknownNameBases = [
   "max": 11,
   "d": "nic-GH",
   "m": 0,
-  "b": "MetaDepartment,PuertoLopez,PuertoGaitan,Umapo,ElTurpialReservation,CasanareDepartment,MetaDepartmentColombia,AchaguaTerritory"
+  "b": "PuertoLopez,PuertoGaitan,Umapo,ElTurpial"
 },
 {
     "name": "Ahirani ",
@@ -1090,7 +1090,7 @@ window.unknownNameBases = [
   "max": 11,
   "d": "nic-GH",
   "m": 0,
-  "b": "Dhule,Jalgaon,Nandurbar,KhandeshRegion,DhuleDistrict,NandurbarDistrict,JalgaonDistrict,NashikDistrict,AurangabadDistrict,GujaratRegion,MadhyaPradeshRegion,KhandeshRegionCore"
+  "b": "Dhule,Jalgaon,Nandurbar,Amalner,Burhanpur,Muktainagar,Bhusawal,Chalisgaon,Pachora,Erandol,Parola,Dharangaon,Chopda,Yawal,Raver,Faizpur,Savda,Shendurni,Jamner,Bhadgaon,Shirpur,Sindkheda,Sakri,Navapur,Shahada,Taloda,Akkalkuwa,Akrani,Dhadgaon,Nashik,Aurangabad,Malegaon,Manmad,Satana,Niphad,Yeola,Lasalgaon,Deola,Kalwan,Surgana,Peth,Dindori,Trimbak,Igatpuri,Sinnar"
 },
 {
     "name": "Aimele ",
@@ -1099,7 +1099,7 @@ window.unknownNameBases = [
   "max": 11,
   "d": "nic-GH",
   "m": 0,
-  "b": "LakeCampbell,WawoiFalls,WesternProvincePNG,SouthernHighlandsProvince,MountBosavi,LakeCampbellCommunity"
+  "b": "LakeCampbell,WawoiFalls"
 },
 {
     "name": "Arafundi-Enga Pidgin ",
@@ -1108,7 +1108,7 @@ window.unknownNameBases = [
   "max": 11,
   "d": "nic-GH",
   "m": 0,
-  "b": "ArafundiRiver,YimasVillage,AuwimVillage,ArafundiRiverArea,EastSepikProvince,ArafundiLanguages,YimasLanguage,ArafundiBasedPidgin"
+  "b": "YimasVillage,AuwimVillage,Imboin,Kaiyam,Namata,Kupini,Andambit,Wambrumas,Yamandim,Imanmeri,Awarem,Mongolo"
 },
 {
     "name": "Mewahang ",
@@ -1117,7 +1117,7 @@ window.unknownNameBases = [
   "max": 11,
   "d": "nic-GH",
   "m": 0,
-  "b": "Sankhuwasabha,Khandbari,Chainpur,Num,Sabha,Madi,Tamku,Panchkhapan,Barmaga,Makalu,Tumlingtar,Hattisar,Yaphu,Bala,Mangtewa,Chirkhuwa,Yamdang,Tamku,Chhoyang,SankhuwasabhaDistrict"
+  "b": "Khandbari,Chainpur,Num,Madi,Tamku,Barmaga,Tumlingtar,Hattisar,Yaphu,Bala,Mangtewa,Chirkhuwa,Yamdang,Chhoyang,Sisuwakhola,Pathibhara,Diding,Matsepokhari,Shitalpati,Dhupu,Keurepani,Mulpani,Papung,Nepaledanda,Dobhane,Khatamma,Chaukidanda,Kulung,Bhojpur,Sabha"
 },
 {
     "name": "Jerung (Jero) ",
@@ -1126,7 +1126,7 @@ window.unknownNameBases = [
   "max": 11,
   "d": "nic-GH",
   "m": 0,
-  "b": "OkhaldhungaDistrict,SindhuliDistrict,MaulangKhola,SunkosiRiver,BahadurKhola,SunkosiRiverSouth,MohantarVillage,OkhaldhungaDistrictSagarmatha"
+  "b": "Sisneri,Sikapu,Jordhara,Chiuribot,Sadhi,Madhavpur,Balakhu,Bhumedanda,MaulangKhola,SunkosiRiverSouth,Ratnawati,BahadurKhola,Mohantar,Balkhu,SisneriVillage,MadhavpurVillage,RatnawatiVillage"
 },
 {
     "name": "Limbu ",
@@ -1135,7 +1135,7 @@ window.unknownNameBases = [
   "max": 11,
   "d": "nic-GH",
   "m": 0,
-  "b": "Taplejung,Panchthar,Ilam,Jhapa,Sankhuwasabha,Terhathum,Dhankuta,Morang,Sunsari,Sikkim,Darjeeling,Kalimpong,SikkimState,KoshiProvince,Limbuwan,SikkimOfficial,TaplejungDistrict,PanchtharDistrict,Phungling"
+  "b": "Taplejung,Phidim,Ilam,Jhapa,Panchthar,Phungling,Chokmagu,Arubote,TaplejungMunicipality,Sankranti,IlamMunicipality,ChokmaguVillage,AruboteVillage,Kerabari,Urlabari,Birtamod,Damak,Mechinagar,Chandragadhi,Surunga,Pathariya,Sukrabare,Madhumalla,KerabariBajar,Sanischare,Itahari,Dharan,Inaruwa,Biratnagar,Rangeli,UrlabariMorang,Budhabare,Letang,Dhankuta,Basanta,Hile,Leguwa,Terhathum,Myanglung,Chhathar,Hamrajung,Pakhribas,Siddhakali,Chhatara,TaplejungBajar,Lelep,Hellok,Sinam,Olangchunggola,Yamphudin,Khokling,Thinglabu,Sikaicha,Phalgunanda,Yangwarak,Chyangthapu,Memeng,LimbuwanHeartland"
 },
 {
     "name": "Lohorung ",
@@ -1144,7 +1144,7 @@ window.unknownNameBases = [
   "max": 11,
   "d": "nic-GH",
   "m": 0,
-  "b": "SankhuwasabhaDistrict,Pangma,Angala,Higuwa,Khorande,Bardeu,Gairiaula,Malta,Sitalpati,Dhupu,DhankutaDistrict,Bodhe"
+  "b": "Pangma,Angala,Higuwa,Khorande,Bardeu,Gairiaula,Malta,Sitalpati,Dhupu,Bodhe,Mounabudhuk,Bhedetar,Rajaran,Devitar,MatsyaPokhari,Khartuwa,GairiPangma,DandaPangma,LokePangma,YangkhrungPangma,Gaireepangma,Magawa,Masapten,Sekaha,Ghondey,Ghotane,Lamichhane,DandaPangmaWest,ShitalpatiEast,Dhandebhir,Manebhanjyang"
 },
 {
     "name": "Puma ",
@@ -1153,422 +1153,422 @@ window.unknownNameBases = [
   "max": 11,
   "d": "nic-GH",
   "m": 0,
-  "b": "Diplung,Mauwabote,Devisthan,Pauwasera,Chisapani,Beltar,Saunechour,KhotangDistrict,UdayapurDistrict,RuwaKhola,BuwaKhola,DudhKoshi,Barahapokhari,Jantedhunga,KhotangDistrictCore,UdayapurDistrictCore,SagarmathaZone"
+  "b": "Diplung,Mauwabote,Devisthan,Pauwasera,Chisapani,Beltar,Saunechour,Siddipur,Madibas,Basaha,Chaudandi,RuwaKholaValley,BuwaKholaValley,DudhKoshiSouth,BarahapokhariRuralMunicipality,JantedhungaRuralMunicipality,Cabalokkha,CabalokkhaVillage,MauwaboteVillage,DiplungVillage,DevisthanVillage,PauwaseraVillage,ChisapaniVillage,BeltarVillage,SaunechourVillage,SiddipurVillage,MadibasVillage,BasahaVillage,ChaudandiVillage"
 },
-  {
+{
     "name": "Dungmali ",
-    "i": 851,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Panchthar,Phidim,Phungling,Yangwarak,Aathrai,Miklajung,Tumbewa,Prithvinagar,Amarpur,Jorpokhari,Kummayak,Srijunga,NamBak,NhonTrach,SongKhwae,RachGia,BienHoa,SiNakharin,LongXuyen,CanGiuoc,Longling,KienGiang,TraVinh,Gongshan,ChuSe,CaiBe,Udomxai,Anorbad,Alubpalli,Anebad,Apemwada,Akatpalli,Aanbad,Apabpalli,Abirpalli,Afubbad,Adokpalli,Anegwada,Alumpalli,Adigbad,Akeswada,Anepalli,Dungmalipur,Dungmalinagar,Dungmalibad,Dungmalikot,Dungmaliwada"
-  },
-  {
+  "i": 851,
+  "min": 4,
+  "max": 11,
+  "d": "nic-GH",
+  "m": 0,
+  "b": "ThuloDumba,SanoDumba,Bastim,TiwariBhanjyan,Chyangre,Yaku,PouwakhesangThum,Hangwang,Pungwat,Pawen,Chokhang,Salukathewa,Pachhas,Katunje,Marangtang,Tindhara,Dhankuta,Bhojpur,Morang,Sunsari,Jhapa,Ilam,DhankutaDistrict,Udayapur,Khotang,Kathmandu,Lalitpur,Kaski"
+},
+{
     "name": "Saam ",
-    "i": 852,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Ilam,Suryodaya,Panchthar,Phidim,Phungling,Yangwarak,Aathrai,Miklajung,Tumbewa,Prithvinagar,Amarpur,Jorpokhari,ThuanAn,PakLay,TanHiep,TanThanh,Changning,ALuoi,CangLong,Menglian,NgocHoi,TanPhuoc,XiengKhouang,Prem,Fang,SonLa,PhuGiao,Saampur,Saamnagar,Saambad,Saamkot,Saamwada,Saamghat,Saampalli,Saamkonda,Saampeta,Saamooru,Saamgiri,NagarSaam,Saambari,Saamganj,Saambazar,Saambandar,Saamgram,PalliSaam"
-  },
-  {
+  "i": 852,
+  "min": 4,
+  "max": 11,
+  "d": "nic-GH",
+  "m": 0,
+  "b": "Dangmaya,Okharbote,Khartangma,Dobhane,Phikkal"
+},
+{
     "name": "Chantyal ",
-    "i": 854,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Myagdi,Beni,Baglung,Kushma,Galeshwor,Dana,Raghuganga,Shikha,Jaljala,Tatopani,Baranja,Bobang,Pleiku,ChiangSaen,ThongMySai,TanPhu,ChiangMuan,QuangNinh,PhuocLong,RongKwang,DaLat,CanGio,TalokMuh,TieuCan,CaoLanh,Ninglang,SongCau,Aloluru,Afatkot,Adignagar,Akeburu,Anuluru,Alignagar,Adenkot,Amekkot,Amidnagar,Abukuru,Akeguru,Aumkot,Afakot,Abonuru,Aisuru,Chantyalpur,Chantyalnagar,Chantyalbad,Chantyalkot,Chantyalwada"
-  },
-  {
+  "i": 854,
+  "min": 4,
+  "max": 11,
+  "d": "nic-GH",
+  "m": 0,
+  "b": "MangaleKhani,Dwari,GhyasKharka,ChauraKhani,KuineKhani,ThadaKhani,PatleKharka,Malhampar,Malkabang,Beni,Baglung,Kushma,Galeshwor,Dana,Shikha,Tatopani,Baranja,Bobang,Gurja,Malkwang,Machhim,Thadakhani,Kuinemangale,BaglungChantyal,MyagdiChantyal,KaliGandakiValley,MyagdiDistrictEast,BagliungDistrict"
+},
+{
     "name": "Ghale ",
-    "i": 855,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Gorkha,Palungtar,Arughat,Ghyachchok,Takukot,Masryngdi,Chumchet,Prok,SahidLakhan,Dharche,Laprak,Keraunja,SahidLakhanRuralMunicipality,SantiSuk,DamHa,BinhPhuoc,ThaSongKorn,TayNinh,BenLuc,Lianghe,NgaBay,ChauThanh,Deqin,SonHoa,TanPhuoc,LuangNamtha,DiLinh,DokKhamtai,Apidbad,Apumpur,Aogpeta,Aferpeta,Anotbad,Afinpeta,Amedpeta,Aletbad,Abudpur,Alugpeta,Augbad,Akunpeta,Alibad,Adunpur,Aesbad,Ghalepur,Ghalenagar,Ghalebad,Ghalekot,Ghalewada"
-  },
-  {
+  "i": 855,
+  "min": 4,
+  "max": 11,
+  "d": "nic-GH",
+  "m": 0,
+  "b": "Barpak,Kyaura,Laprak,Uiya,Jagat,Philim,Nyak,Bihi,Chak,Rana,Prok,Sirdibas,Khorla,UiyaVillage,KorlaBesi,NyakVillage,KyauraVillage,LaprakVillage,BarpakVillage,JagatVillage,PhilimVillage,UiyaVillage2,KorlaBesiVillage,NyakVillage2,BihiVillage,ChakVillage,RanaVillage,Saurpani,Sirdibas,Gorkha,GorkhaBazar,Arughat,Ghyachchok,Takukot,Masryngdi,Chumchet,SahidLakhan,Dharche,Laprak,Keraunja"
+},
+{
     "name": "Kaike (Magar Kaike) ",
-    "i": 856,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Dolpa,Dunai,Tarakot,Chharka,Saldang,Phoksundo,Tinje,Shimen,Dho,Lawan,Mugu,Gamgadhi,ChauDoc,TanTru,Shidian,DongHa,CauKe,Fugong,DakDoa,CaiLay,Phongsali,DucTrong,MaeFaLuang,ChiangHai,LaiThieu,ThaWangPha,BacLieu,Akakuru,Amankonda,Anakuru,Aputkonda,Apanagar,Anamuru,Ademkonda,Aetkonda,Abumnagar,Alognagar,Alankonda,Afatnagar,Akulkonda,Abaknagar,Adernagar,KaikeMagarKaikepur,KaikeMagarKaikenagar,KaikeMagarKaikebad,KaikeMagarKaikekot,KaikeMagarKaikewada"
-  },
-  {
+  "i": 856,
+  "min": 4,
+  "max": 11,
+  "d": "nic-GH",
+  "m": 0,
+  "b": "Sahartara,Tupatara,Tarakot,Belawa,Riwa"
+},
+{
     "name": "Manang (Manange) ",
-    "i": 857,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Manang,Chame,Pisang,Braga,Hongde,TankiManang,Koto,Tal,Bagarchhap,Dana,Nar,Phu,ChauThanh,Ximeng,SaThay,GoCong,Phonsavan,Dran,ChaiPrakarn,LaiChau,BauBang,Sangkha,BenTre,BenCat,KoKha,CaiBe,TanChau,Adikpalli,Akagpalli,Alipeta,Adikpur,Adirpalli,Anudpur,Apimpeta,Aligpeta,Alapur,Adetpalli,Aupalli,Anigpur,Afakpalli,Apampur,Amipalli,ManangManangepur,ManangManangenagar,ManangManangebad,ManangManangekot,ManangManangewada"
-  },
-  {
+  "i": 857,
+  "min": 4,
+  "max": 11,
+  "d": "nic-GH",
+  "m": 0,
+  "b": "Manang,Chame,Pisang,Braga,Hongde,TankiManang,Koto,Tal,Bagarchhap,Dana,Nar,Phu,Gyaru,Ngawal,Gunsang,Phugaun,Tengki,Praka,Ongde,Humde,Bagarchhap,Dharapani,Thonje,Thanchok,Letdar,Khangsar,Dhanakyu"
+},
+{
     "name": "Altai ",
-    "i": 858,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "GornoAltaysk,KoshAgach,Turochak,Chemal,Mayminskoye,Shebalino,Aktash,Inya,Onguday,UstKan,UstKoksa,KyzylOzek,Sayabury,DaHuoai,PaDaet,CaoBang,BuDang,NaNoi,PhanRang,BinhChanh,Long,TraOn,TamNong,Yongsheng,CheoReo,BaTri,Shuangjiang,Amituru,Alugkonda,Ameruru,Anubghat,Abilghat,Akaturu,Apugkonda,Alonuru,Adosghat,Aboghat,Aoruru,Aubkonda,Adamuru,Akitghat,Anugghat,Altaipur,Altainagar,Altaibad,Altaikot,Altaiwada"
-  },
-  {
+  "i": 858,
+  "min": 4,
+  "max": 11,
+  "d": "nic-GH",
+  "m": 0,
+  "b": "GornoAltaysk,KoshAgach,Turochak,Chemal,Mayminskoye,Shebalino,Aktash,Inya,Onguday,UstKan,UstKoksa,KyzylOzek,Belyashi,Dzhazator,Kuray,ZhanaAul,Saranai,Kurman,Bugolek,CholakDara,TaukeDarasy,DingekYurt,Sasykkul,JenishKetal,KareShal,Ulagan,UstKan,UstKoksa,KyzylOzek,Saylyugem,Kupchegen,ChaganUzun,Beltir,Kokorya,Dzhasator,Beltir2,KoshAgach2,Turochak2,Chemal2,Mayma,Shebalino2,Aktash2,Inya2,Onguday2,UstKan2,UstKoksa2,KyzylOzek2"
+},
+{
     "name": "Altai Uriankhai ",
-    "i": 859,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "KoshAgach,Turochak,Chemal,Mayminskoye,Shebalino,Aktash,Inya,Onguday,UstKan,UstKoksa,KyzylOzek,GornoAltaysk,Cangyuan,Adubpeta,Adempalli,Adotpeta,Akewada,Amurwada,Aibpeta,Alempalli,Abatpeta,Apawada,Amarwada,Alabpeta,Amelpalli,Anikpeta,Aubwada,Akemwada,AltaiUriankhaipur,AltaiUriankhainagar,AltaiUriankhaibad,AltaiUriankhaikot,AltaiUriankhaiwada"
-  },
-  {
+  "i": 859,
+  "min": 4,
+  "max": 11,
+  "d": "nic-GH",
+  "m": 0,
+  "b": "KoshAgach,Turochak,Chemal,Mayminskoye,Shebalino,Aktash,Inya,Onguday,UstKan,UstKoksa,KyzylOzek,GornoAltaysk,Duut,MunkhKhairkhan,Bulgan,Altai,Altantsogts,Bugat,Buyant,Deluut,Sagsai,Chenghua"
+},
+{
     "name": "Alyutor ",
-    "i": 862,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Palana,Tigil,Ossora,Karaga,Tilichiki,Klyuchi,UstKamchatsk,Milkovo,Kozyrevsk,Esso,Anavgai,Beringovsky,Pavlovsk,Kropotkin,Gulkevichi,Uspensk,Labinsk,Mostovskoy,Temryuk,Slavyansk,Uryup,Minyar,Trekgorny,UstKatav,Chebarkul,Yemanzhelinsk,Karabash,Aotork,Asiats,Aerals,Abigork,Akasals,Arinerk,Afiderk,Akanork,Aladats,Apekerk,Anoovsk,Adogals,Aaats,Apumats,Anukats,Alyutorsk,Alyutoransk,Alyutorinsk,Alyutorovsk,InskAlyutor"
-  },
-  {
+  "i": 862,
+  "min": 4,
+  "max": 11,
+  "d": "nic-GH",
+  "m": 0,
+  "b": "Palana,Tigil,Ossora,Karaga,Tilichiki,Klyuchi,UstKamchatsk,Milkovo,Kozyrevsk,Esso,Anavgai,Beringovsky,Pavlovsk,Kropotkin,Gulkevichi,Uspensk,Labinsk,Mostovskoy,Temryuk,Slavyansk,Uryup,Minyar,Trekgorny,UstKatav,Chebarkul,Yemanzhelinsk,Karabash"
+},
+{
     "name": "Sui Lang ",
-    "i": 863,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Kaili,Duyun,Zunyi,Anshun,Liupanshui,Qingzhen,Fuquan,Chishui,Tongren,Bijie,Xingren,Sandu,Libo,Guizhou,PhanThiet,NhaBe,AoLuang,CauKe,ThanhBinh,Huaping,PhuThien,ChoLach,Puer,Pleiku,ChiangSaen,ThongMySai,TanPhu,ChiangMuan,QuangNinh,SuiLangpur,SuiLangnagar,SuiLangbad,SuiLangkot,SuiLangwada,SuiLangghat,SuiLangpalli,SuiLangkonda,SuiLangpeta,SuiLanguru,SuiLanguri,SuiLangooru,SuiLanggiri,NagarSuiLang,SuiLangbari,SuiLangganj,SuiLangbazar,SuiLangbandar,SuiLanggram,PalliSuiLang"
-  },
-  {
+  "i": 863,
+  "min": 4,
+  "max": 11,
+  "d": "nic-GH",
+  "m": 0,
+  "b": "Kaili,Duyun,Zunyi,Anshun,Liupanshui,Qingzhen,Fuquan,Chishui,Tongren,Bijie,Xingren,Sandu,Libo,SanduShuiAutonomousCounty,Sandong,Shuilong,Zhonghe,Miaocao,Bajie,Jiadao,Shiqi,Jiarong,Hengfeng,Zhouqin,Jiuqian,Tangzhou,Yangmeng,Yaoqing,Wenquan,Tianxing,Dongmiao,Wengtai,Pandong,Yangan,Yangluo,Linqiao,Rongjiang,Congjiang,Dushan,DuyunCity,Longmazhuang,LiuzhaiTownship"
+},
+{
     "name": "Tai Dam ",
-    "i": 864,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "DienBienPhu,LaiChau,MuongLay,PhongTho,TamDuong,SinHo,TuanGiao,MuongTe,MuongNhe,PaSo,MuongAng,SonLa,TiaBia,SaDec,ShangriLa,DongXuan,GoCongDong,Mohan,DaiLinh,Phayao,ViengPhoukha,TrangBom,SantiSuk,DamHa,BinhPhuoc,ThaSongKorn,TayNinh,BenLuc,TaiDampur,TaiDamnagar,TaiDambad,TaiDamkot,TaiDamwada,TaiDamghat,TaiDampalli,TaiDamkonda,TaiDampeta,TaiDamuru,TaiDamuri,TaiDamooru,TaiDamgiri,NagarTaiDam,TaiDambari,TaiDamganj,TaiDambazar,TaiDambandar,TaiDamgram,PalliTaiDam"
-  },
-  {
+  "i": 864,
+  "min": 4,
+  "max": 11,
+  "d": "nic-GH",
+  "m": 0,
+  "b": "DienBienPhu,LaiChau,MuongLay,PhongTho,TamDuong,SinHo,TuanGiao,MuongTe,MuongNhe,PaSo,MuongAng,SonLa,YenBai,LaoCai,PhuTho,SonLaCity,DienBienCity,LaiChauCity,YenBaiCity,PhuThoCity,MuongLo,NghiaLo,ViengPhoukha,LuangNamtha,Oudomxai,Bokeo,Xiengkhouang,Houaphan,Phongsali,BokeoProvince,LuangPrabang,Vientiane,PhongsaliProvince,HouaphanProvince,XiengkhouangProvince,Loei,Phetchaburi,Ratchaburi,NakhonPathom,SuphanBuri,Kanchanaburi,SamutSongkhram,SamutSakhon,SamutPrakarn,Bangkok,Lopburi,Saraburi,LoeiProvince,NakhonSawan,Pitsanulok,Sukhothai,Pichit,PrachuapKhiriKhan,Chumphon,SuratThani,Yunnan,Jinping,Miao,Yao,Dai,AutonomousCounty"
+},
+{
     "name": "Tai Ya ",
-    "i": 865,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Xishuangbanna,Jinghong,Menghai,Mengla,Puer,Mojiang,Jiangcheng,Lancang,Simao,Zhenyuan,Menglian,Ximeng,Udomxai,DonDuong,Santikhiri,PakMong,PhuocAn,Pua,CaMau,ThuDauMot,Srinagarindra,ChauDoc,TanTru,Shidian,DongHa,CauKe,Fugong,TaiYapur,TaiYanagar,TaiYabad,TaiYakot,TaiYawada,TaiYaghat,TaiYapalli,TaiYakonda,TaiYapeta,TaiYauru,TaiYauri,TaiYaooru,TaiYagiri,NagarTaiYa,TaiYabari,TaiYaganj,TaiYabazar,TaiYabandar,TaiYagram,PalliTaiYa"
-  },
-  {
+  "i": 865,
+  "min": 4,
+  "max": 11,
+  "d": "nic-GH",
+  "m": 0,
+  "b": "Xishuangbanna,Jinghong,Menghai,Mengla,Puer,Mojiang,Jiangcheng,Lancang,Simao,Zhenyuan,Menglian,Ximeng,Honghe,Yuanyang,Xinping,Yongren,Wuding,Lufeng,Dayao,Maguan,HongheCounty,YuanyangCounty,XinpingCounty,YongrenCounty,WudingCounty,LufengCounty,DayaoCounty,MaguanCounty,Chuxiong,ChuxiongYiAutonomousPrefecture,HongheHaniYiAutonomousPrefecture,Yuxi,YuxiCity,Wenshan,WenshanPrefecture"
+},
+{
     "name": "Taishanese ",
-    "i": 866,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Taishan,Kaiping,Enping,Xinhui,Heshan,Jiangmen,Zhongshan,Foshan,Guangzhou,Shenzhen,Dongguan,Zhuhai,KongMune,HoiSan,SunWui,Toishan,Alemwood,Afotville,Adugbridge,Afirville,Akubwood,Animwood,Abetville,Adunville,Apobwood,Amukville,Apenville,Abitwood,Alusbridge,Aberwood,Aabwood,Taishanesetown,Taishaneseville,Taishaneseburg,Taishaneseview,Taishaneseside"
-  },
-  {
+  "i": 866,
+  "min": 4,
+  "max": 11,
+  "d": "nic-GH",
+  "m": 0,
+  "b": "Taishan,Kaiping,Enping,Xinhui,Heshan,Jiangmen,Taicheng,Baisha,Shuibu,Xiqi,Sijiu,Doushan,Duhu,Chixi,Sanhe,Chonglou,Guanghai,Shenjing,Duanfen,Haiyan,Wencun,Naqin,Longkou,Changsha,Sanbu,Chikan,ChangshaTown,Yueliangwan,DoushanTown,DuhuTown,ChixiTown,SanheTown,ChonglouTown,GuanghaiTown,ShenjingTown,DuanfenTown,HaiyanTown,WencunTown,NaqinTown,LongkouTown"
+},
+{
     "name": "Wutunhua ",
-    "i": 867,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Tongren,Huangnan,Hainan,Guide,Xining,Huzhu,Datong,Menyuan,Qilian,Tianjun,Ulan,Delingha,Rebkong,Quebradillas,Cayey,Comerio,SabanaGrande,Naguabo,Plymouth,Barceloneta,Carolina,Barranquitas,Hormigueros,SanLorenzo,Yabucoa,Kingstown,VegaBaja,Aguadilla,Amodtown,Anestown,Adebtown,Alaltown,Adasland,Akutown,Anodtown,Aentown,Aladland,Anomtown,Apeltown,Anonland,Anatown,Aigtown,Abuntown,Wutunhuatown,Wutunhuaville,Wutunhuaburg,Wutunhuaview,Wutunhuaside"
-  },
-  {
+  "i": 867,
+  "min": 4,
+  "max": 11,
+  "d": "nic-GH",
+  "m": 0,
+  "b": "UpperWutun,LowerWutun,Jiacangma,Tongren,Longwu,Rongwo,Rebgong,Huangnan,Qinghai"
+},
+{
     "name": "Yi ",
-    "i": 868,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Kunming,Dali,Lijiang,Chuxiong,Qujing,Yuxi,Zhaotong,Baoshan,Puer,Honghe,Wenshan,Xishuangbanna,Butuo,Zhaojue,Meigu,Leibo,Jinyang,Mabian,Puge,Xichang,Yanyuan,Muli,Ninglang,Yitown,Yiville,Yiburg,Yiview,Yiside,Yiport,Yiland,Yiwood,Yiford,Yibridge,Yifield,Yigrove,Yihaven,Yibrook,Yishire,Yistead,Yidale,Yicrest,Yipoint,Yispring"
-  },
-  {
+  "i": 868,
+  "min": 4,
+  "max": 11,
+  "d": "nic-GH",
+  "m": 0,
+  "b": "Kunming,Dali,Lijiang,Chuxiong,Qujing,Yuxi,Zhaotong,Baoshan,Puer,Honghe,Wenshan,Xishuangbanna,Xichang,Yanyuan,Dechang,Huili,Huidong,Ningnan,Puge,Butuo,Jinyang,Zhaojue,Xide,Mianning,Yuexi,Ganluo,Meigu,Leibo,Muli,KunmingCity,DaliCity,LijiangCity,ChuxiongCity,QujingCity,YuxiCity,ZhaotongCity,BaoshanCity,PuerCity,HongheCity,WenshanCity,XishuangbannaCity,XichangCity,YanyuanCounty,DechangCounty,HuiliCity,HuidongCounty,NingnanCounty,PugeCounty,ButuoCounty,JinyangCounty,ZhaojueCounty,XideCounty,MianningCounty,YuexiCounty,GanluoCounty,MeiguCounty,LeiboCounty,MuliCounty"
+},
+{
     "name": "Amdo Tibetan ",
-    "i": 869,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Lhasa,Shigatse,Chamdo,Nyingchi,Lhokha,Nagqu,Ngari,Gannan,Haibei,Huangnan,Hainan,Golog,Xining,Tongren,Zeku,Jianzha,DokKhamtai,Nateuy,LongKhanh,BanLuang,HaTien,BinhDuong,PhuKamYao,TanAn,CanDuoc,Tengchong,LongMy,LaiVung,Weixi,CungSon,MyTho,Adigwada,Abonpeta,Aabpalli,Abilpeta,Adatwada,Akogwada,Aperpeta,Afabpalli,Aupeta,Amukwada,Akudwada,Akumpeta,Akaspalli,Amepeta,Aporwada,AmdoTibetanpur,AmdoTibetannagar,AmdoTibetanbad,AmdoTibetankot,AmdoTibetanwada"
-  },
-  {
+  "i": 869,
+  "min": 4,
+  "max": 11,
+  "d": "nic-GH",
+  "m": 0,
+  "b": "Lhasa,Shigatse,Chamdo,Nyingchi,Lhokha,Nagqu,Ngari,Gannan,Haibei,Huangnan,Hainan,Golog,Xining,Tongren,Zeku,Jianzha,DokKhamtai,Nateuy,LongKhanh,BanLuang,HaTien,BinhDuong,PhuKamYao,TanAn,CanDuoc,Tengchong,LongMy,LaiVung,Weixi,CungSon,MyTho,AmdoTibetanpur,AmdoTibetannagar,AmdoTibetanbad,AmdoTibetankot,AmdoTibetanwada"
+},
+{
     "name": "Auyokawa language ",
-    "i": 893,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Kano,Katsina,Dutse,Hadejia,Ringim,Gumel,Bauchi,Jos,Maiduguri,Potiskum,Azare,Mubi,Yola,Numan,Jalingo,Gwarzo,Rano,TudunWada,Gaya,Albasu,Danbatta,Makoda,TingoMaria,Bambamarca,Yauyos,Tambobamba,Coporaque,Antauta,Nicasio,Pomata,Caracollo,Pucarani,Huarina,Taray,Palmapampa,Tambo,Bellavista,Afedcu,Amasgo,Apukgo,Adedgo,Afetcu,Apongo,Anisgo,Aencu,Abongo,Akecu,Alescu,Akango,Aatgo,Alemcu,Akubgo,Mineirocu,Mineirozu,Mineirola"
-  },
-  {
+  "i": 893,
+  "min": 4,
+  "max": 11,
+  "d": "nic-GH",
+  "m": 0,
+  "b": "Auyo"
+},
+{
     "name": "Aramaic ",
-    "i": 929,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Damascus,Antioch,Edessa,Palmyra,DuraEuropos,Hatra,Nisibis,Arbela,Ctesiphon,Seleucia,Susa,Ecbatana,Coya,SantaRosa,Chanchamayo,Picota,Huamachuco,Yauca,Velille,Vilavila,Progreso,Amantani,Machacamarca,Tiquina,Calacoto,Checacupe,Machupicchu,ParaguayanSpanishgo,ParaguayanSpanishgu,ParaguayanSpanishcu,ParaguayanSpanishzu,ParaguayanSpanishla,ParaguayanSpanishna,ParaguayanSpanishma,ParaguayanSpanishpa,ParaguayanSpanishra,ParaguayanSpanishsa,ParaguayanSpanishta,ParaguayanSpanishca,ParaguayanSpanishba,ParaguayanSpanishda,ParaguayanSpanishfa,ParaguayanSpanishga,ParaguayanSpanishha,ParaguayanSpanishja,ParaguayanSpanishka,ParaguayanSpanishlla"
-  },
-  {
+  "i": 929,
+  "min": 4,
+  "max": 11,
+  "d": "nic-GH",
+  "m": 0,
+  "b": ""
+},
+{
     "name": "Ancient North Arabian ",
-    "i": 933,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Petra,Hegra,Mada'inSalih,Dedan,Tayma,Qurayyah,DumatAlJandal,AlUla,Khaybar,Yathrib,AlHijr,Badr,Ayaviri,Conima,Pichacani,Poopo,Laja,Acora,Layo,Kepashiato,Pangoa,Tocache,Hualgayoc,Mala,Kinsachata,Suyckutambo,Japurin,Akicu,Alidgo,Apango,Anicu,Aebgo,Apemgo,Anigcu,Adasgo,Amibcu,Adurgo,Abobgo,Afikcu,Akukgo,Animcu,Akidgo,PeruvianSpanishgo,PeruvianSpanishgu,PeruvianSpanishcu,PeruvianSpanishzu,PeruvianSpanishla"
-  },
-  {
+  "i": 933,
+  "min": 4,
+  "max": 11,
+  "d": "nic-GH",
+  "m": 0,
+  "b": ""
+},
+{
     "name": "Chadong ",
-    "i": 1060,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Chadong,Zhaoqing,Xingyi,Nandan,Hechi,Liuzhou,Guangxi,Guizhou,Du'an,Sandu,Laibin,Libo,ThaPlatak,PhanThiet,NhaBe,AoLuang,CauKe,ThanhBinh,Huaping,PhuThien,ChoLach,Puer,Pleiku,ChiangSaen,ThongMySai,TanPhu,ChiangMuan,Anatkot,Alegkonda,Alonghat,Alabkonda,Anolkot,Aekkot,Afudkonda,Aponghat,Adikot,Airkot,Apidkonda,Abukkonda,Anonkot,Adaskonda,Apoghat,Chadongpur,Chadongnagar,Chadongbad,Chadongkot,Chadongwada"
-  },
-  {
+  "i": 1060,
+  "min": 4,
+  "max": 11,
+  "d": "nic-GH",
+  "m": 0,
+  "b": "Chadong,Lingui,Guilin,Liangjiang,Longjiang,Yongfu,Nandan,Qingyuanfu"
+},
+{
     "name": "En Kra ",
-    "i": 1061,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Kra,Bolaven Plateau,Champasak,Attapeu,Sekong,Xekong,Saravan,Salavan,Laos,Kra River,ViThanh,SaDec,ShangriLa,DongXuan,GoCongDong,Mohan,DaiLinh,Phayao,ViengPhoukha,TrangBom,SantiSuk,DamHa,BinhPhuoc,ThaSongKorn,TayNinh,Afibbad,Abatwada,Alobbad,Anunbad,Alupalli,Akanwada,Aribad,Abawada,Afarpalli,Amebbad,Adibad,Anorpalli,Akabwada,Afipalli,Adosbad,EnKrapur,EnKranagar,EnKrabad,EnKrakot,EnKrawada"
-  },
-  {
+  "i": 1061,
+  "min": 4,
+  "max": 11,
+  "d": "nic-GH",
+  "m": 0,
+  "b": "NoiThon,HaQuang,CaoBang"
+},
+{
     "name": "Nuoxi Naxi Yao ",
-    "i": 1062,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Nuoxi,Lijiang,Ninglang,Yongsheng,Yanyuan,Weixi,Muli,Northwest Yunnan,Jinsha River,Yalong River,Sichuan,Yunnan,CaiBe,Udomxai,DonDuong,Santikhiri,PakMong,PhuocAn,Pua,CaMau,ThuDauMot,Srinagarindra,ChauDoc,TanTru,Shidian,DongHa,CauKe,NuoxiNaxiYaopur,NuoxiNaxiYaonagar,NuoxiNaxiYaobad,NuoxiNaxiYaokot,NuoxiNaxiYaowada,NuoxiNaxiYaoghat,NuoxiNaxiYaopalli,NuoxiNaxiYaokonda,NuoxiNaxiYaopeta,NuoxiNaxiYaouru,NuoxiNaxiYaouri,NuoxiNaxiYaoooru,NuoxiNaxiYaogiri,NagarNuoxiNaxiYao,NuoxiNaxiYaobari,NuoxiNaxiYaoganj,NuoxiNaxiYaobazar,NuoxiNaxiYaobandar,NuoxiNaxiYaogram,PalliNuoxiNaxiYao"
-  },
-  {
+  "i": 1062,
+  "min": 4,
+  "max": 11,
+  "d": "nic-GH",
+  "m": 0,
+  "b": "Nuoxi,Dongkou,Suining,Lianmin,Xiaohuang,Tianluoxuan,Liping,Tianzhu,Yuping,Gaoyi,Huitong"
+},
+{
     "name": "Lauhut ",
-    "i": 1063,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Lauhut,Maluku,Ambon,Seram,Halmahera,Buru,Kai,Aru,Tanimbar,Maluku Islands,Kei Islands,SonLa,PhuGiao,Sapan,TraVinh,TanUyen,SopPrap,CaiLay,ChauDoc,Yunlong,Kontum,ChauThanh,Ximeng,SaThay,GoCong,Phonsavan,Afiswada,Amotwada,Alubbad,Abulwada,Adukbad,Afetpur,Apigwada,Adutbad,Adaswada,Akodwada,Anukwada,Akidpur,Adegpur,Amusbad,Aloswada,Lauhutpur,Lauhutnagar,Lauhutbad,Lauhutkot,Lauhutwada"
-  },
-  {
+  "i": 1063,
+  "min": 4,
+  "max": 11,
+  "d": "nic-GH",
+  "m": 0,
+  "b": "Baoding,Wanning,Lingshui,Ding'an,Tunchang,Chengmai,Qionghai,Ledong,ChengmaiCounty,WanningCity,LingshuiCounty"
+},
+{
     "name": "Bahrani Arabic ",
-    "i": 1073,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Manama,Riffa,Muharraq,HamadTown,IsaTown,Sitra,Budaiya,Jidhafs,Sanabis,Seef,Busaiteen,Aali,MadinatHamad,AlMuharraq,Hamad Town,Isa Town,A'ali,Madinat Hamad,Al Muharraq,Shabestar,Ivan,Razhan,Kharanaq,Gorgan,Lashteneshahr,Yalfan,Samandaryan,Kuhdasht,Tuyserkan,MahdiShahr,Galikash,Lahijan,BalaDarvaz,Chaldoran,Aratabad,Alokian,Akaian,Aleabad,Apatabad,Azitian,Aorian,Atokabad,Aderabad,Boikian,Azirian,Avedabad,Axobabad,Biomian,Araabad,BahraniArabicabad,AbadBahraniArabic,BahraniArabican,BahraniArabician,Bahabada"
-  },
-  {
+  "i": 1073,
+  "min": 4,
+  "max": 11,
+  "d": "nic-GH",
+  "m": 0,
+  "b": "Manama,Muharraq,IsaTown,Sitra,Budaiya,Jidhafs,Sanabis,Seef,Busaiteen,Aali,MadinatHamad,AlMuharraq,HamadTown,IsaTown,Aali,MadinatHamad,AlMuharraq,Karrana,Buri,Barbar,Diraz,BaniJamra,Zallaq,Barbar,Tubli,Askar,Zinj,Malikiya,BiladAlQadeem,Mahooz,Adliya,Gudaibiya,Juffair,Hoora,UmmAlHassam,Janabiya,Qudaibiya,Salmaniya,Zinj,Sakheer,Awali,RiffaViews,BahrainBay,AmwajIslands,DiyarAlMuharraq,Dilmunia,Hidd,HiddIndustrialArea,UmmAlHassam"
+},
+{
     "name": "Baima ",
-    "i": 1075,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Baima,Butuo,Mabian,Puge,Jinyang,Leibo,Zhaojue,Meigu,Dechang,Huidong,Xichang,Yanyuan,TayNinh,BenLuc,Lianghe,NgaBay,ChauThanh,Deqin,SonHoa,TanPhuoc,LuangNamtha,DiLinh,DokKhamtai,Nateuy,LongKhanh,BanLuang,HaTien,Alonpeta,Afabbad,Afilpur,Akegpeta,Anunpeta,Abosbad,Amilpur,Apagpeta,Ananpeta,Amesbad,Anipur,Aporbad,Abuspeta,Alelpeta,Aurbad,Baimapur,Baimanagar,Baimabad,Baimakot,Baimawada"
-  },
-  {
+  "i": 1075,
+  "min": 4,
+  "max": 11,
+  "d": "nic-GH",
+  "m": 0,
+  "b": "Jiuzhaigou,Songpan,Pingwu,Wenxian,JiuzhaigouCounty,SongpanCounty,PingwuCounty,WenCounty,BaimaTibetanEthnicTownship,TielouTibetanEthnicTownship,Wujiao,BaimaTownship,BaimaTownshipWenxian"
+},
+{
     "name": "Baisha Hlai ",
-    "i": 1076,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Baisha,Sanya,Dongfang,Wanning,Wenchang,Ledong,Chengmai,Qionghai,Lingshui,Danzhou,CauKe,Fugong,DakDoa,CaiLay,Phongsali,DucTrong,MaeFaLuang,ChiangHai,LaiThieu,ThaWangPha,BacLieu,DiAn,BanKok,TanChau,ChauThanh,Abatkonda,Aporuru,Abolkonda,Afetkonda,Ananagar,Adonuru,Anobnagar,Alilkonda,Afikkonda,Adodnagar,Afomuru,Akasnagar,Anekonda,Alebnagar,Adouru,BaishaHlaipur,BaishaHlainagar,BaishaHlaibad,BaishaHlaikot,BaishaHlaiwada"
-  },
-  {
+  "i": 1076,
+  "min": 4,
+  "max": 11,
+  "d": "nic-GH",
+  "m": 0,
+  "b": "Baisha,Yacha,Yinggeling,BaishaCounty,BaishaLiAutonomousCounty"
+},
+{
     "name": "Balti ",
-    "i": 1100,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Skardu,Khaplu,Shigar,Kharmang,Rondu,Roundu,Ghanche,Shyok,Deosai,Nanga Parbat,Stak,Sangkha,BenTre,BenCat,KoKha,CaiBe,TanChau,Eryuan,Pleiku,Cangyuan,IaGrai,MongLa,MuangKham,DanSim,WiangPaPao,LaoCai,Abeskot,Aikonda,Apukghat,Apegkonda,Abumkot,Afiskot,Analkonda,Adurghat,Anodkonda,Adogkonda,Afunghat,Akabkonda,Anilkot,Aburkot,Aledkonda,Baltipur,Baltinagar,Baltibad,Baltikot,Baltiwada"
-  },
-  {
+  "i": 1100,
+  "min": 4,
+  "max": 11,
+  "d": "nic-GH",
+  "m": 0,
+  "b": "Skardu,Khaplu,Shigar,Kharmang,Rondu,Roundu,Ghanche,Shyok,Deosai,NangaParbat,Stak,Sangkha"
+},
+{
     "name": "Pashto, Central ",
-    "i": 1109,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Kabul,Kandahar,Herat,Jalalabad,Mazar-i-Sharif,Kunduz,Ghazni,Khost,Paktia,Farah,Bamyan,Kapisa,ChauThanh,Ximeng,SaThay,GoCong,Phonsavan,Dran,ChaiPrakarn,LaiChau,BauBang,Sangkha,BenTre,BenCat,KoKha,CaiBe,TanChau,PashtoCentralpur,PashtoCentralnagar,PashtoCentralbad,PashtoCentralkot,PashtoCentralwada,PashtoCentralghat,PashtoCentralpalli,PashtoCentralkonda,PashtoCentralpeta,PashtoCentraluru,PashtoCentraluri,PashtoCentralooru,PashtoCentralgiri,NagarPashtoCentral,PashtoCentralbari,PashtoCentralganj,PashtoCentralbazar,PashtoCentralbandar,PashtoCentralgram,PalliPashtoCentral"
-  },
-  {
+  "i": 1109,
+  "min": 4,
+  "max": 11,
+  "d": "nic-GH",
+  "m": 0,
+  "b": "Kabul,Kandahar,Herat,Jalalabad,Mazar-i-Sharif,Kunduz,Ghazni,Khost,Paktia,Farah,Bamyan,Kapisa,GhazniCity,KhostCity,PaktiaCity,FarahCity,BamyanCity,KapisaCity,Gardez,KhostCity,JalalabadCity,MazarCity,KunduzCity,GhazniCity,KabulCity,KandaharCity,HeratCity"
+},
+{
     "name": "Bariji ",
-    "i": 1129,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Bariji,Papua New Guinea,Kundiawa,Mendi,Murua,Ialibu,Porgera,Mount Hagen,Goroka,Wabag,Lae,Tokelau,Epi,Faleula,Fuaamotu,Amouli,Kitu,Amaua,Leulumoega,Lufilufi,Vaotu,Puapua,Senala,Lata,Taga,Aboua,Apato,Apuno,Aesua,Afuua,Amoko,Abide,Aneno,Akasua,Afaua,Adero,Adibe,Akolo,Amukua,Aedua,Luganville"
-  },
-  {
+  "i": 1129,
+  "min": 4,
+  "max": 11,
+  "d": "nic-GH",
+  "m": 0,
+  "b": "BarijiRiver,BarijiRiverSouthBank,OroProvince,PapuaNewGuinea"
+},
+{
     "name": "Bhaya ",
-    "i": 1278,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Bhaya,Bhopal,Indore,Ujjain,Jabalpur,Gwalior,Sagar,Dewas,Satna,Rewa,Ratlam,Morena,DaLat,Thaton,DienBien,LaiUyen,BoKluea,SocTrang,ThuanAn,PakLay,TanHiep,TanThanh,Changning,ALuoi,CangLong,Menglian,NgocHoi,Audghat,Aparuru,Anibkonda,Apuluru,Aikghat,Adagghat,Amonuru,Abiskonda,Aneluru,Akekghat,Adedghat,Ademuru,Aditkonda,Amarghat,Aisghat,Bhayapur,Bhayanagar,Bhayabad,Bhayakot,Bhayawada"
-  },
-  {
+  "i": 1278,
+  "min": 4,
+  "max": 11,
+  "d": "nic-GH",
+  "m": 0,
+  "b": "Sindh,LowerSindh"
+},
+{
     "name": "Brahui ",
-    "i": 1374,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Brahui,Kalat,Khuzdar,Quetta,Loralai,Chagi,Mastung,Sibi,Mushkaf,Balochistan,Pakistan,BacLieu,DiAn,BanKok,TanChau,ChauThanh,Baoshan,QuangTri,TieuCan,Lushui,DakTo,XamNeua,DaLat,Thaton,DienBien,LaiUyen,Abenuru,Apamnagar,Apitkot,Auduru,Afinuru,Amebkot,Anukkot,Akoduru,Adutkot,Afanagar,Akerkot,Amiburu,Abuuru,Abadnagar,Apomkot,Brahuipur,Brahuinagar,Brahuibad,Brahuikot,Brahuiwada"
-  },
-  {
+  "i": 1374,
+  "min": 4,
+  "max": 11,
+  "d": "nic-GH",
+  "m": 0,
+  "b": "Kalat,Khuzdar,Quetta,Mastung,Bolan,Nasirabad,Nushki,Kharan,Sarawan,Jhalawan,Chagai,Noshki,Kacchi,NushkiDistrict,KalatDistrict,MastungDistrict,QuettaDistrict,BolanDistrict,NasirabadDistrict,NushkiDistrict,KharanDistrict,SurabDistrict"
+},
+{
     "name": "Buyang ",
-    "i": 1403,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Buyang,Guangxi,Yunnan,Guizhou,Napo,Longlin,Xilin,Baise,Hechi,Nandan,Bama,China,LocNinh,ThungChang,GoCong,HocMon,SobPrab,TamBinh,HongNgu,Heqing,AyunPa,GiongTrom,Lincang,ChuPro,Tachilek,Sayabury,DaHuoai,Aispur,Apolwada,Anigwada,Adospur,Amudwada,Adutpur,Abugwada,Adarbad,Afebwada,Amolpur,Aakpur,Akidwada,Abambad,Anotwada,Aligpur,Buyangpur,Buyangnagar,Buyangbad,Buyangkot,Buyangwada"
-  },
-  {
+  "i": 1403,
+  "min": 4,
+  "max": 11,
+  "d": "nic-GH",
+  "m": 0,
+  "b": "Funing,Napo,Guangnan,Yanshan,Maguan,Ecun,Dugan,Zhelong,Nada,Longna,Langjia,Nianlang,Yanglian,Anshe,Rongtun,Gonghe,Shanhe,Yongan,Guoba,Dixu,Bada,Bohe,Gula,Dugan,Zhelong,Nada,Longna,Maguan,Langjia,Nianlang"
+},
+{
     "name": "Central Min ",
-    "i": 1481,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Fuzhou,Quanzhou,Zhangzhou,Longyan,Sanming,Nanping,Fuan,Fuding,MinHou,Fuqing,Changle,Putian,Yongtai,Minqing,Luoyuan,Lianjiang,Gutian,Pingnan,Min Nan,Xiamen,Fujian,China,Min River,Min Dialect,Alatburg,Afegland,Afabland,Alolburg,Anetburg,Abudland,Amonside,Adisland,Aiburg,Anikburg,Amidland,Anomside,Aputland,Abegburg,Alonburg,CentralMintown,CentralMinville,CentralMinburg,CentralMinview,CentralMinside"
-  },
-  {
+  "i": 1481,
+  "min": 4,
+  "max": 11,
+  "d": "nic-GH",
+  "m": 0,
+  "b": "Sanming,Yong'an,ShaCounty,Sanyuan,Meilie,Shaxian,Jiangle,Taining,JiangleCounty,TainingCounty,Yong'anCity,SanmingCity,ShaCountyCity"
+},
+{
     "name": "Gobasi ",
-    "i": 1520,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Gobasi,Western Province,Kiunga,Papua New Guinea,Fly River,Oceania,Coastal,Nui,Asau,Norsup,Lauli,Kolofoou,Ofu,Kongo,Norfolk,Satupaitea,Ohonua,Nu'uuli,Makaunga,Leusoalii,Teafua,Abodi,Abisi,Afuoa,Alikoa,Auti,Anooa,Aloroa,Akubi,Ameti,Afumoa,Aboni,Apeboa,Apaloa,Apaki,Afali"
-  },
-  {
+  "i": 1520,
+  "min": 4,
+  "max": 11,
+  "d": "nic-GH",
+  "m": 0,
+  "b": "StricklandRiver,EasternPlains,GobasiArea,NomadArea"
+},
+{
     "name": "Chamdo ",
-    "i": 1544,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Chamdo,Barkam,Aba,Nagqu,Tibet Autonomous Region,China,Himalayas,East Tibet,Yangtze Headwaters,Afutview,Abogview,Aalview,Anigview,Afotview,Anilview,Adedview,Amogview,Abikview,Amonview,Abokbridge,Akitview,Abikbridge,Akelbridge,Anumbridge,Chamdotown,Chamdoville,Chamdoburg,Chamdoview,Chamdoside"
-  },
-  {
+  "i": 1544,
+  "min": 4,
+  "max": 11,
+  "d": "nic-GH",
+  "m": 0,
+  "b": ""
+},
+{
     "name": "Kavalan ",
-    "i": 1622,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Kavalan,Su'ao,Yilan,Taiwan,East Coast,East Asia,Mapusaga,Navutoka,Siufaga,Pyrenees,Ambae,Sataua,Vaini,Tula,Lifuka,Lauli,Apakei,Amomoa,Apoei,Aberei,Akada,Adigei,Abinei,Abooa,Akasei,Afugei,Alosoa,Apua,Adunei,Amabei,Aonoa"
-  },
-  {
+  "i": 1622,
+  "min": 4,
+  "max": 11,
+  "d": "nic-GH",
+  "m": 0,
+  "b": "Jialiwan,Xinshe,Lide,Zhangyuan,Kariawan,Sahut,Tamayan,Qibanan"
+},
+{
     "name": "Daga ",
-    "i": 1650,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Daga,Mendi,Mount Hagen,Papua New Guinea,Highlands Region,Oceania,Mapusaga,Navutoka,Siufaga,Pyrenees,Ambae,Sataua,Vaini,Tula,Lifuka,Lauli,FenuaFala,Aniwa,Manono,Adokoa,Aagi,Ausi,Adeloa,Akukoa,Apebi,Amaloa,Akakoa,Afedi,Anugoa,Adenoa,Amusi,Afia,Aari,Anoboa,IDaga"
-  },
-  {
+  "i": 1650,
+  "min": 4,
+  "max": 11,
+  "d": "nic-GH",
+  "m": 0,
+  "b": "RabaRaba,Abau,OwenStanleyMountains,MilneBay,CentralDistrict"
+},
+{
     "name": "Dai Zhuang ",
-    "i": 1653,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Dai Zhuang,Nanning,Guilin,Liuzhou,Guangxi,China,South China,TraVinh,Gongshan,ChuSe,CaiBe,Udomxai,DonDuong,Santikhiri,PakMong,PhuocAn,Pua,CaMau,ThuDauMot,Srinagarindra,ChauDoc,TanTru,Anoswada,Analbad,Apagpur,Ababad,Afubpur,Afenwada,Alospur,Aapur,Akirwada,Aabbad,Alikpur,Akedpur,Alamwada,Amatbad,Afempur,DaiZhuangpur,DaiZhuangnagar,DaiZhuangbad,DaiZhuangkot,DaiZhuangwada"
-  },
-  {
+  "i": 1653,
+  "min": 4,
+  "max": 11,
+  "d": "nic-GH",
+  "m": 0,
+  "b": "Wenshan,Yanshan,Maguan,Malipo,Guangnan,Honghe,WenshanPrefecture,YanshanCounty,MaguanCounty,MalipoCounty,GuangnanCounty,WenshanCity,YanshanCity,MaguanCity,MalipoTown,GuangnanTown,WenshanZhuangMiaoAutonomousPrefecture"
+},
+{
     "name": "Dano ",
-    "i": 1656,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Dano,Mendi,Mount Hagen,Papua New Guinea,Highlands Region,Oceania,Manono,Taunga,Malaeloa,Vaitupu,Pagai,Sasina,Lakatoro,Lotopa,Lapaha,Olosenga,Lafanga,Aneityum,Gautavai,Havelu,PagoPago,Anali,Alekei,Amosi,Areli,Afurei,Apirei,Apobu,Abuei,Afeki,Amodi,Adamei,Anotu,Akegei,Afani,Aduti"
-  },
-  {
+  "i": 1656,
+  "min": 4,
+  "max": 11,
+  "d": "nic-GH",
+  "m": 0,
+  "b": "Goroka,UpperAsaroRuralLLG,EasternHighlandsProvince,Asaro,UpperAsaro"
+},
+{
     "name": "Domaaki ",
-    "i": 1705,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Domaaki,Karachi,Hyderabad,Sindh,Pakistan,Indus Delta,MongLa,MuangKham,DanSim,WiangPaPao,LaoCai,ChonThanh,NamPat,MyTho,CuChi,WangNuea,VinhLong,AnPhu,Jianchuan,AnKhe,MoCay,Afakpeta,Abidbad,Afopeta,Alekpeta,Apagbad,Anipeta,Alirpeta,Akobbad,Alulpur,Anesbad,Afugpur,Abinbad,Apabpeta,Apurbad,Auspur,Domaakipur,Domaakinagar,Domaakibad,Domaakikot,Domaakiwada"
-  },
-  {
+  "i": 1705,
+  "min": 4,
+  "max": 11,
+  "d": "nic-GH",
+  "m": 0,
+  "b": "Mominabad,Hunza,Nagar,Gilgit,Baltistan,GilgitBaltistan,Pakistan"
+},
+{
     "name": "Golin ",
-    "i": 1821,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Simbu,Kundiawa,Mari-Mari,Gembogl,Papua New Guinea,Simbu Province,Highlands Region,Oceania,Aneityum,Gautavai,Havelu,PagoPago,Ngaloa,Amalau,Tokelau,Epi,Faleula,Fuaamotu,Amouli,Kitu,Amaua,Leulumoega,Aogau,Apake,Anedua,Aetau,Abebua,Akatau,Adagau,Adene,Akoe,Amurau,Aebau,Alule,Abekua,Amomau,Alitau,Luganville"
-  },
-  {
+  "i": 1821,
+  "min": 4,
+  "max": 11,
+  "d": "nic-GH",
+  "m": 0,
+  "b": "Gumine,Simbu,Kundiawa,MariMari,Gembogl,SimbuProvince,HighlandsRegion"
+},
+{
     "name": "Fuyug ",
-    "i": 1856,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Fuyug,Mafulu,Orongomo,Managalasi,Iome,Papua New Guinea,Central Province,Oceania,Guaqui,Lampa,Ollantaytambo,Unini,VillaRica,Rioja,Pativilca,Abancay,BajoPichigua,Ocuviri,Moho,Acora,Toledo,SicaSica,Comanche,Akidpa,Afumgu,Akakpa,Amodpa,Amubpa,Amamgu,Aniggu,Akaspa,Abipa,Aerpa,Anedpa,Apukgu,Afobpa,Alilgu,Ababgu,UruguayanPortuguesego,UruguayanPortuguesegu,UruguayanPortuguesecu,UruguayanPortuguesezu,UruguayanPortuguesela"
-  },
-  {
+  "i": 1856,
+  "min": 4,
+  "max": 11,
+  "d": "nic-GH",
+  "m": 0,
+  "b": "Mafulu,Orongomo,Managalasi,Iome,CentralProvince,OroProvince,GoilalaDistrict,OwenStanleyRange"
+},
+{
     "name": "Fyer ",
-    "i": 1857,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Fyer,Mubi,Bama,Gwoza,Kukawa,Adamawa State,Nigeria,North East,Coya,SantaRosa,Chanchamayo,Picota,Huamachuco,Yauca,Velille,Vilavila,Progreso,Amantani,Machacamarca,Tiquina,Calacoto,Checacupe,Machupicchu,Apetgo,Apargo,Amukgo,Aningo,Adirgo,Abungo,Akiggo,Amakgo,Afabgo,Anukgo,Arigo,Aisgo,Aadgo,Anoggo,Afeggo,UruguayanSpanishgo,UruguayanSpanishgu,UruguayanSpanishcu,UruguayanSpanishzu,UruguayanSpanishla"
-  },
-  {
+  "i": 1857,
+  "min": 4,
+  "max": 11,
+  "d": "nic-GH",
+  "m": 0,
+  "b": "Mubi,Bama,Gwoza,Kukawa,AdamawaState,Nigeria,NorthEast"
+},
+{
     "name": "Goaria ",
-    "i": 1916,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Goaria,Odisha,Sambalpur,Puri,India,East,Dravidian Languages,AnKhe,MoCay,Gengma,ChuPah,KengTung,Xaisomboun,DaTeh,MaeSuay,HaGiang,LocNinh,ThungChang,GoCong,HocMon,SobPrab,TamBinh,Alelkonda,Afoknagar,Afinnagar,Akuskonda,Anilkonda,Aposkonda,Amurnagar,Amuburu,Apemnagar,Abikkonda,Akudkonda,Aluturu,Adognagar,Abenkonda,Adunuru,Goariapur,Goarianagar,Goariabad,Goariakot,Goariawada"
-  },
-  {
+  "i": 1916,
+  "min": 4,
+  "max": 11,
+  "d": "nic-GH",
+  "m": 0,
+  "b": "Sindh,Pakistan"
+},
+{
     "name": "Khmu ",
-    "i": 2006,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "LuangPrabang,Oudomxay,Phongsaly,Sayaboury,Bokeo,LuangNamtha,DienBienPhu,SonLa,LaiChau,YenBai,XamNeua,Luang Prabang,Luang Namtha,Dien Bien Phu,Son La,Lai Chau,Yen Bai,ThuDauMot,Srinagarindra,ChauDoc,TanTru,Shidian,DongHa,CauKe,Fugong,DakDoa,CaiLay,DucTrong,MaeFaLuang,ChiangHai,LaiThieu,Apomnagar,Amimkonda,Afegkonda,Akutnagar,Apogkonda,Adirnagar,Alauru,Anaruru,Aatnagar,Abomkonda,Aderkonda,Amaguru,Abalkonda,Alednagar,Aedkonda,Khmupur,Khmunagar,Khmubad,Khmukot,Khmuwada"
-  },
-  {
+  "i": 2006,
+  "min": 4,
+  "max": 11,
+  "d": "nic-GH",
+  "m": 0,
+  "b": "LuangPrabang,Oudomxay,Phongsaly,Sayaboury,Bokeo,LuangNamtha,DienBienPhu,SonLa,LaiChau,YenBai,XamNeua,LuangPrabang,LuangNamtha,DienBienPhu,SonLa,LaiChau,YenBai"
+},
+{
     "name": "Proto Tibeto Burman ",
-    "i": 2014,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Lhasa,Kathmandu,Thimphu,Gangtok,Itanagar,Kohima,Imphal,Aizawl,Shillong,Tawang,Kangding,Litang,Batang,Chamdo,Nagqu,Nyingchi,Zanda,Rutog,Gêrzê,Nyima,Baingoin,Xainza,Sog,Biru,Dengqen,Riwoqê,Baxoi,Zogang,Mêdog,Bomi,Gonjo,Markam,Lhorong,Banbar,Jomda,Qamdo,Dêgê,Baiyü,Sêrtar,Sêrxü,Yushu,Zadoi,Nangqên,Qumarlêb,Chindu,Zhiming,Gade,Chengdu,Luding,Danba,Xiaojin,Jinchuan,Li County,Maoxian,Wenchuan,Beichuan,Pingwu,Songpan,Jiuzhaigou,Hongyuan,Aba,Zamtang,Ngawa,Zoigê,Gannan,Barkam,Rangtang,Dawu,Seda,Garzê,Yajiang,Daocheng,Derong"
-  },
+  "i": 2014,
+  "min": 4,
+  "max": 11,
+  "d": "nic-GH",
+  "m": 0,
+  "b": ""
+},
   {
     "name": "Khasi ",
     "i": 2189,
@@ -1578,69 +1578,69 @@ window.unknownNameBases = [
     "m": 0,
     "b": "Shillong,Jowai,Nongpoh,Nongstoin,Cherrapunji,Mairang,Mawkyrwat,Khliehriat,Umling,Mylliem,Pynursla,Shella,LongXuyen,CanGiuoc,Longling,KienGiang,TraVinh,Gongshan,ChuSe,CaiBe,Udomxai,DonDuong,Santikhiri,PakMong,PhuocAn,Pua,CaMau,Apatwada,Amegpeta,Alispeta,Abolpalli,Adukpeta,Aponwada,Afaspeta,Amerpeta,Akorpeta,Amiwada,Audpeta,Akadpeta,Apabwada,Aluwada,Adalpeta,Khasipur,Khasinagar,Khasibad,Khasikot,Khasiwada"
   },
-  {
+{
     "name": "Kopkaka ",
-    "i": 2264,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Tanah Merah,Kouh,Bomakia,Mandobo,Yaniruma,Wanggom,Kombai,Korowai,Citak,Mitak,Auyu,Asmat,Mapusaga,Navutoka,Siufaga,Pyrenees,Ambae,Sataua,Vaini,Tula,Lifuka,Lauli,FenuaFala,Aniwa,Amasu,Apesu,Anorei,Abilu,Anigoa,Aponei,Amoru,Ababoa,Anolei,Akekoa,Adadu,Afodei,Akagu,Alagoa,Alomu"
-  },
-  {
+  "i": 2264,
+  "min": 4,
+  "max": 11,
+  "d": "nic-GH",
+  "m": 0,
+  "b": "Seredala,Moruf,Mosomduba,Burupmakot,Unokob,Tokuni,Marub,Kwer"
+},
+{
     "name": "Korafe ",
-    "i": 2266,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Tufi,Oro Bay,Popondetta,Kokoda,Afore,Ioma,Kira,Safia,Sangara,Sairope,Gona,Buna,Letogo,Kolomotu,Vatia,Funaota,Tulagi,Sili,Pangai,Tafuna,Tufumahina,Maia,Temotu,Maewo,Vaiala,Longoteme,Sailele,Apuli,Aligu,Anibi,Abali,Akokei,Apigu,Abei,Aerei,Aibu,Adolei,Anigi,Afumei,Amaei,Akuni,Akiei"
-  },
-  {
+  "i": 2266,
+  "min": 4,
+  "max": 11,
+  "d": "nic-GH",
+  "m": 0,
+  "b": "Tufi,OroBay,Popondetta,Kokoda,Afore,Ioma,Kira,Safia,Sangara,Sairope,Gona,Buna,Letogo,Kolomotu,Vatia,Funaota,Tulagi,Sili,Pangai,Tafuna,Tufumahina,Maia,Temotu,Maewo,Vaiala,Longoteme,Sailele"
+},
+{
     "name": "Korowai ",
-    "i": 2269,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Yaniruma,MabÃ¼l,KhafalÃ¼o,MyanÃ¼,Dayo,Baigon,Manggel,Wanggom,Kombai,Korowai,Citak,Mitak,Tafuna,Tufumahina,Maia,Temotu,Maewo,Vaiala,Longoteme,Sailele,Foa,Masefau,Fagaloa,Tafea,Apolima,Mataika,Leone,Aludua,Afose,Anagua,Anote,Apugo,Afebo,Aborua,Aloko,Apodua,Akulua,Akikua,Adibo,Anelua,Aferua,Apoe"
-  },
-  {
+  "i": 2269,
+  "min": 4,
+  "max": 11,
+  "d": "nic-GH",
+  "m": 0,
+  "b": "Yaniruma,Mabul,Khafalou,Myanu,Dayo,Baigon,Manggel,Wanggom,Kombai,Korowai,Citak,Mitak,Tafuna,Tufumahina,Maia,Temotu,Maewo,Vaiala,Longoteme,Sailele,Foa,Masefau,Fagaloa,Tafea,Apolima,Mataika,Leone"
+},
+{
     "name": "Kosraean ",
-    "i": 2271,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Lelu,Malem,Utwe,Tafunsak,Walung,Pilyuul,Sansrik,Tofol,Mutunnenea,Innem,Yela,Okat,Kosraeank,Kosraeant,Kosraeanp"
-  },
-  {
+  "i": 2271,
+  "min": 4,
+  "max": 11,
+  "d": "nic-GH",
+  "m": 0,
+  "b": "Lelu,Malem,Utwe,Tafunsak,Walung,Pilyuul,Sansrik,Tofol,Mutunnenea,Innem,Yela,Okat"
+},
+{
     "name": "Kosena ",
-    "i": 2272,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Okapa,Kainantu,Lufa,Henganofi,Obura-Wonenara,Goroka,Unggai-Bena,Daulo,Yonkki,Arona,Purosa,Tarabo,Sailele,Foa,Masefau,Fagaloa,Tafea,Apolima,Mataika,Leone,Nukufetau,Auki,Saleaula,Ringdove,Fagali,Talasiu,Ta'u,Afasei,Animei,Alonoa,Amaba,Aneda,Apumei,Aodoa,Amutei,Abagei,Akotoa,Adomei,Afaga,Akidei,Abilei,Alerei"
-  },
-  {
+  "i": 2272,
+  "min": 4,
+  "max": 11,
+  "d": "nic-GH",
+  "m": 0,
+  "b": "Okapa,Kainantu,Lufa,Henganofi,Obura-Wonenara,Goroka,Unggai-Bena,Daulo,Yonkki,Arona,Purosa,Tarabo"
+},
+{
     "name": "Kovojab ",
-    "i": 2273,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Madang,Karkar,Bagabag,Alexishafen,Amele,Bel,Gum,Isumrud,Mugil,Rempi,Sek,Yabob,Lakatoro,Lotopa,Lapaha,Olosenga,Lafanga,Aneityum,Gautavai,Havelu,PagoPago,Ngaloa,Amalau,Tokelau,Epi,Faleula,Fuaamotu,Apigai,Amabau,Alenua,Aasau,Amuua,Afurai,Abubai,Abulua,Abatau,Amobua,Alilai,Amamau,Adedai,Animai,Aadau"
-  },
-  {
+  "i": 2273,
+  "min": 4,
+  "max": 11,
+  "d": "nic-GH",
+  "m": 0,
+  "b": "Bayono,Awbono,Densar,Kopayap,Urajin"
+},
+{
     "name": "Kula ",
-    "i": 2289,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Kalabahi,Moru,Lantoka,Mebung,Baranusa,Kabir,Pura,Ternate,Pantar,Alor,Abang,Aitui,Mapusaga,Navutoka,Siufaga,Pyrenees,Ambae,Sataua,Vaini,Tula,Adigua,Abolo,Adatua,Akogua,Apiro,Afebe,Akano,Amio,Aporua,Afeke,Anego,Aeme,Adeto,Alegua,Abimua,IKula"
-  },
+  "i": 2289,
+  "min": 4,
+  "max": 11,
+  "d": "nic-GH",
+  "m": 0,
+  "b": "Lakateng,Lantoka,Larna,Likara,Lipa,Luk-luk,Makamang,Maukuru,Naumang,PadangPanjang,Pisomu,Pumang,Salawaika,Setat,Takala,Talpi,Tanglapui,Tampalana,Watatuku,Watena,Welolo,Welona,AtakPka,Damalupa,DekaseDolayang,Kaipera,Katpisi,Kiralela,Kungwera,Kobra,Kolana,Kulamang,Kunatena"
+},
   {
     "name": "Aromanian",
     "i": 2435,
@@ -1650,33 +1650,33 @@ window.unknownNameBases = [
     "m": 0,
     "b": "Bitola,Ohrid,Struga,Prilep,Korce,Kastoria,Florina,Ioannina,Grevena,Kozani,Edessa,Thessaloniki,Verria,Naousa,Skopje,Elbasan,Berat,Pogradec,Voskopoje,Aetomilitsa,Agrafa,Avdella,Bilisht,Divjake,Drama,Giannitsa,Kavala,Konitsa,Krushevo,Larisa,Manastir,Metsovo,Monastir,Negostina,Niata,Ohri,Perivoli,Philippi,Servia,Siatista,Trikala,Veria,Volos"
   },
-  {
+{
     "name": "Megleno-Romanian",
-    "i": 2436,
-    "min": 5,
-    "max": 12,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Bitola,Strumica,Valandovo,Edessa,Florina,Gevegeli,Bogdanci,Doirani,Moglena,Negotino,Polykastro,Radovis,Pechevo,Berovo,Archangelos,Karpi,Konopi,Langadia,Notia,Nisi,Parori,Petrovo,Skarfia,Skydra,Starovica,Valtadoro,Vorikon"
-  },
-  {
+  "i": 2436,
+  "min": 5,
+  "max": 12,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Perikleia,Birislav,Uma,Lundzini,Cupa,Oshani,Tarnareca,Nanti,Huma,Konsko,Sirmemin,Cerna,Variaș,Biled,Jimbolia,Gudurdza"
+},
+{
     "name": "Istro-Romanian",
-    "i": 2437,
-    "min": 5,
-    "max": 12,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Pula,Rijeka,Labin,Rabac,Medulin,Pazin,Porec,Rovinj,Umag,Novigrad,Buzet,Opatija,Lovran,Kostrcani,Letaj,Zejane,Susnjevica,Barban,GraÄiÅ¡ce,Groznjan,Icici,Jesenovik,Oblacna,Premantura,Strumici,Trkovci,Veprinac,Visnjan,Volosko"
-  },
-  {
+  "i": 2437,
+  "min": 5,
+  "max": 12,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Žejane,Šušnjevica,Brdo,Jasenovik,Kostrčan,Letaj,NovaVas,Susnjevica,ValDArsa,Rijeka,Trieste,Pula,Rovinj,Umag,Novigrad,Buzet,Opatija,Lovran,Kostrcani,Letaj,Zejane,Susnjevica,Barban,Gračišće,Grožnjan,Icici,Jesenovik,Oblacna,Premantura,Strumici,Trkovci,Veprinac,Visnjan,Volosko"
+},
+{
     "name": "Newar",
-    "i": 2440,
-    "min": 4,
-    "max": 12,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Kathmandu,Lalitpur,Bhaktapur,Kirtipur,Thimi,Banepa,Panauti,Dhulikhel,Sankhu,Tokha,Thankot,Satungal,Chapagaun,Imadol,Harisiddhi,Khokana,Godavari,Pharping,Bungamati,Nagarkot,Thamel,Chabahil,Boudha,Naikap,Changu Narayan,Suryabinayak,Anantalingeshwar,Gokarna,Dakshinkali,Lele,Bhattedanda"
-  },
+  "i": 2440,
+  "min": 4,
+  "max": 12,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Kathmandu,Lalitpur,Bhaktapur,Kirtipur,Thimi,Banepa,Panauti,Dhulikhel,Sankhu,Tokha,Thankot,Satungal,Chapagaun,Imadol,Harisiddhi,Khokana,Godavari,Pharping,Bungamati,Nagarkot,Thamel,Chabahil,Boudha,Naikap,ChanguNarayan,Suryabinayak,Anantalingeshwar,Gokarna,Dakshinkali,Lele,Bhattedanda"
+},
   {
     "name": "Miskito",
     "i": 2576,
@@ -1686,24 +1686,24 @@ window.unknownNameBases = [
     "m": 0,
     "b": "Bluefields,Bilwi,Waspam,PuertoCabezas,Prinzapolka,Awasbila,Tuara,Krukira,Haulover,Karawala,SandyBay,Lamlaya,Tasbapauni,Kakabila,Siuna,Rosita,Bonanza,Puerto Cabezas,Sandy Bay,La Cruz Grande,Bismuna,Awas Tingni,Layasiksa,Dakura,Karata,Walpasiksa,Sinsin,Ubu,Tuapi,Krinkrin,San Jeronimo,Santa Marta,San Carlos,San Juan Coco"
   },
-  {
+{
     "name": "Tikuna",
-    "i": 2580,
-    "min": 4,
-    "max": 12,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Leticia,Tabatinga,BenjaminConstant,SantoAntonio,SaoPauloOlivenca,PuertoNarino,SantaSofia,Caballococha,Yavari,AtalaiaDoNorte,Tonantins,Islandia,Benjamin Constant,Santo Antonio,Sao Paulo Olivenca,Puerto Narino,Santa Sofia,Nazaret,San Martin,Tarapoto,Atalaia do Norte,Amatura,San Pedro,Santa Rita,San Pablo,Cushillo Cocha,Tres Fronteras,Lago Tarapoto,Puerto Alegria,Puerto Arica,Santa Rosa,Pucaurquillo,Bellavista,Pevas,Nuevo Israel,San Jose Amazonas"
-  },
-  {
+  "i": 2580,
+  "min": 4,
+  "max": 12,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Leticia,Tabatinga,BenjaminConstant,SantoAntonio,SaoPauloOlivenca,PuertoNarino,SantaSofia,Caballococha,Yavari,AtalaiaDoNorte,Tonantins,Islandia,BenjaminConstant,SantoAntonio,SaoPauloOlivenca,PuertoNarino,SantaSofia,Nazaret,SanMartin,Tarapoto,AtalaiaDoNorte,Amatura,SanPedro,SantaRita,SanPablo,CushilloCocha,TresFronteras,LagoTarapoto,PuertoAlegria,PuertoArica,SantaRosa,Pucaurquillo,Bellavista,Pevas,NuevoIsrael,SanJoseAmazonas"
+},
+{
     "name": "Ladino",
-    "i": 2622,
-    "min": 4,
-    "max": 12,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Istanbul,Sofia,Thessaloniki,Sarajevo,Belgrade,Bucharest,Jerusalem,TelAviv,Safed,Tiberias,Haifa,Acre,Izmir,Edirne,Plovdiv,Bitola,Skopje,Split,Dubrovnik,Zagreb,Alexandria,Cairo,Tangier,Fez,Marrakesh,Tel Aviv,Gaza,Jaffa,Ramla,BajoPichigua,Chucuito,Occo,Pativilca,Tambobamba,Atuncolla,Conima,Nazca,LaConvencion,Munani,Condoroma,Antauta,Mañazo,Echarate,Amotgu,Akerzu,Amemgu,Aputgu,Anerzu,Abalgu,Apatgu,Apenzu,Aduggu,Amergu,Anelzu,Adobgu,Adilgu,Aikgu,Anetzu,Arawakcu,Arawakzu,Arawakla"
-  },
+  "i": 2622,
+  "min": 4,
+  "max": 12,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Istanbul,Thessaloniki,Izmir,Edirne,Bursa,Ankara,Safed,Tiberias,Jerusalem,Hebron,TelAviv,Haifa,Cairo,Alexandria,Tangier,Fez,Marrakesh,Belgrade,Skopje,Monastir,Bitola,Sarajevo,Split,Dubrovnik,Zagreb,Algiers,Oran,Constantinople,Adrianople,Smyrna,Salonika,Sofia,Bucharest,Plovdiv,Varna,Burgas,Ruse,VelikoTarnovo,Pleven,StaraZagora,Haskovo,Kazanlak,Gabrovo,Lovech,Montana,Vidin,Rousse,Shumen,Sliven,Yambol,Pazardzhik,Blagoevgrad,Kyustendil,Sandanski,Petrich,GotseDelchev,Razlog,Bansko,Dupnitsa,Kyustendil,Samokov,Ihtiman,Kostenets,Septemvri,Radomir,Pernik,Sofia,Plovdiv,StaraZagora,NovaZagora,Kazanlak,Karlovo,Sopot,Kalofer,Karlovo,Plovdiv,Asenovgrad,Haskovo,Kardzhali,Krumovgrad,Dimitrovgrad,Kharmanli,Ivaylovgrad,Madzharovo,Topolovgrad,Svilengrad,Elhovo,Yambol,Burgas,Nesebar,Primorsko,Michurin,Sozopol,Primorsko,MalkoTarnovo,Ahtopol,Tsarevo,Sinemorets,Rezovo,Ahtopol"
+},
   {
     "name": "Sranan",
     "i": 2654,
@@ -1722,24 +1722,24 @@ window.unknownNameBases = [
     "m": 0,
     "b": "Cottica,Moiwana,Langatabiki,Stoelmans,Eilanden,Anapaike,Palumeu,Apetina,Sipaliwini,Kaur,Benzdorp,Antino,Kawemhakan,Papaichton,Camopi,Maripasoula,Kawina,Saül,Taluen,Nassau,GranSanti,Vlacha,Aymaraes,Chamaca,Ollantaytambo,Soracachi,Pomata,Suyckutambo,Pantaleon,Quehue,Ulloma,Andahuaylas,Moho,Saylla,Llalli,Juanjui,Anukpa,Aburpa,Adunpa,Abulpa,Amugpa,Abutpa,Afumpa,Adubpa,Aumpa,Akuspa,Anupa,Anunpa,Alukpa,Aluspa,Akutpa,Alukucu,Alukuzu,Alukula"
   },
-  {
+{
     "name": "Ashaninka",
-    "i": 5309,
-    "min": 4,
-    "max": 12,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Satipo,PuertoOcopa,Tambo,Mazamari,RioNegro,Kivinaki,Pichari,Kepashiato,Sivaki,Ayacucho,Pangoa,Tsanquiato,Samaniato,Shimaa,Putucusi,Kiteni,RioTamboSantaMaria,Churingaveni,Unini,Mirallegro,Palmapampa,Ashaninkazu,Ashaninkala,Ashaninkana,Ashaninkama,Ashaninkapa,Ashaninkara,Ashaninkasa,Ashaninkata,Ashaninkaba,Ashaninkada,Ashaninkafa,Ashaninkaha,Ashaninkaja,Ashaninkaka,Ashaninkalla"
-  },
-  {
+  "i": 5309,
+  "min": 4,
+  "max": 12,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Satipo,PuertoOcopa,Tambo,Mazamari,RioNegro,Kivinaki,Pichari,Kepashiato,Sivaki,Ayacucho,Pangoa,Tsanquiato,Samaniato,Shimaa,Putucusi,Kiteni,RioTamboSantaMaria,Churingaveni,Unini,Mirallegro,Palmapampa"
+},
+{
     "name": "Aymara",
-    "i": 5630,
-    "min": 4,
-    "max": 12,
-    "d": "lnrt",
-    "m": 0,
-    "b": "ElAlto,Viacha,Achacachi,Warisata,Huarina,Desaguadero,Tiwanaku,Laja,SicaSica,Patacamaya,Calamarca,Colquencha,Collana,Batallas,Pucarani,Huatajata,Tiquina,Copacabana,Yunguyo,Juli,Ilave,Puno,Acora,Guaquí,Ventilla,Anomzu,Alutpa,Alorpa,Amedzu,Aulzu,Afitpa,Akarpa,Ababzu,Aalzu,Apatpa,Abimpa,Afutzu,Anezu,Adonpa,Alupa,Aymaracu,Aymarazu,Aymarala"
-  },
+  "i": 5630,
+  "min": 4,
+  "max": 12,
+  "d": "lnrt",
+  "m": 0,
+  "b": "ElAlto,Viacha,Achacachi,Warisata,Huarina,Desaguadero,Tiwanaku,Laja,SicaSica,Patacamaya,Calamarca,Colquencha,Collana,Batallas,Pucarani,Huatajata,Tiquina,Copacabana,Yunguyo,Juli,Ilave,Puno,Acora,Guaqui,Ventilla"
+},
   {
     "name": "Berbice",
     "i": 5812,
@@ -1749,114 +1749,114 @@ window.unknownNameBases = [
     "m": 0,
     "b": "NewAmsterdam,RoseHall,Skeldon,Corriverton,Ituni,Kwakwani,Kurupukari,FairMaiden,BerbiceRiver,Number43,BlackBushPunt,Temple,SistersVillage,MolesonCreek,CrabwoodCreek,CaneGrove,SheetAnchor,PlegtAnker,Berbice,Canje,Berbician,DutchCreole,FortNassau,Peereboom,Maria,Maboen,StLucian,NewBee"
   },
-  {
+{
     "name": "Macaguán (Hitnü)",
-    "i": 5813,
-    "min": 4,
-    "max": 12,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Arauca,PuertoRondon,CravoNorte,PazDeAriporo,Trinidad,SanLuisDePalenque,Pore,Nunchia,Gameza,LaSalina,Sacama,Aguaclara,Cumaral,Sabanalarga,Monterrey,Villanueva,Tauramena,Aguazul,Yopal,PuertoRondón,Orocué,Nunchía,Chámeza,Tilali,Plateria,Challacollo,Calamarca,Pomata,Livitaca,Pichari,Kivinaki,TingoMaria,Bambamarca,Yauyos,Tambobamba,Coporaque,Antauta,Nicasio,Alebgo,Afukcu,Alungo,Anibgo,Anosgo,Adilgo,Alukgo,Abeggo,Abango,Adugcu,Apabgo,Akungo,Akisgo,Apuncu,Afomgo,MacagunHitngo,MacagunHitngu,MacagunHitncu,MacagunHitnzu,MacagunHitnla"
-  },
-  {
-    "name": "Minica Huitoto",
-    "i": 5815,
-    "min": 4,
-    "max": 12,
-    "d": "lnrt",
-    "m": 0,
-    "b": "LaChorrera,PuertoArica,ElEncanto,SanRafael,VillaAndrea,Comeyafu,Araracuara,Mitu,Pacoa,LaPedrera,Yavarate,Monforth,Acaricuara,Mitú,Tarapacá,SanFelipe,Cacahual,PanaPana,SanLuis,PuertoColombia,Tiquie,Tiwanaku,Pucara,Pisac,Samaniato,PuertoBermudez,NuevaCajamarca,Barranca,Andahuaylas,MosocCancha,Cabana,Tilali,Plateria,Challacollo,Calamarca,Pomata,Alakcu,Afutcu,Akircu,Apoggo,Adarcu,Anobgo,Alelcu,Afolcu,Akokgo,Amodcu,Anukcu,Aobgo,Akilcu,Aongo,Afatcu,MinicaHuitotogo,MinicaHuitotogu,MinicaHuitotocu,MinicaHuitotozu,MinicaHuitotola,Huitoto,Minica,Amoya,Caraparana,Igara,Parana"
-  },
-  {
+  "i": 5813,
+  "min": 4,
+  "max": 12,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Arauca,PuertoRondon,CravoNorte,PazDeAriporo,Trinidad,SanLuisDePalenque,Pore,Nunchia,Gameza,LaSalina,Sacama,Aguaclara,Cumaral,Sabanalarga,Monterrey,Villanueva,Tauramena,Aguazul,Yopal,PuertoRondón,Orocué,Nunchía,Chámeza,Tilali,Plateria,Challacollo,Calamarca,Pomata,Livitaca,Pichari,Kivinaki,TingoMaria,Bambamarca,Yauyos,Tambobamba,Coporaque,Antauta,Nicasio"
+},
+{
+    "name": "Mika Huitoto",
+  "i": 5819,
+  "min": 4,
+  "max": 12,
+  "d": "lnrt",
+  "m": 0,
+  "b": "ElEncanto,LaChorrera,UpperCaqueta,Orteguaza,Putumayo,CaraParana,IgaraParana"
+},
+{
     "name": "Muinane",
-    "i": 5816,
-    "min": 4,
-    "max": 12,
-    "d": "lnrt",
-    "m": 0,
-    "b": "LaChorrera,PuertoArica,ElEncanto,SanRafael,VillaAndrea,Comeyafu,Araracuara,Mitu,Pacoa,LaPedrera,Yavarate,Monforth,Pana,Mitú,Tarapacá,SanFelipe,Cacahual,PanaPana,SanLuis,PuertoColombia,LaZulia,SanMiguel,Huayllabamba,VillaVirgen,Pichanaqui,Tarapoto,SantiagoDeChuco,Puquio,Condoroma,Umachiri,Taraco,Taquile,Corocoro,Achacachi,Ulloma,Combapata,SantaTeresa,Abodgu,Afupa,Alikpa,Autgu,Anopa,Apigpa,Anisgu,Abongu,Apebpa,Apalpa,Abebpa,Anolgu,Adirpa,Afebgu,Aungu,Muinanecu,Muinanezu,Muinanela"
-  },
-  {
+  "i": 5816,
+  "min": 4,
+  "max": 12,
+  "d": "lnrt",
+  "m": 0,
+  "b": "LaChorrera,PuertoArica,ElEncanto,SanRafael,VillaAndrea,Comeyafu,Araracuara,Mitú,Pacoa,LaPedrera,Yavarate,Monforth,Pana,Mitú,Tarapaca,SanFelipe,Cacahual,PanaPana,SanLuis,PuertoColombia,LaZulia,SanMiguel,Huayllabamba,VillaVirgen,Pichanaqui,Tarapoto,SantiagoDeChuco,Puquio,Condoroma,Umachiri,Taraco,Taquile,Corocoro,Achacachi,Ulloma,Combapata,SantaTeresa"
+},
+{
     "name": "Nukak",
-    "i": 5817,
-    "min": 4,
-    "max": 12,
-    "d": "lnrt",
-    "m": 0,
-    "b": "SanJoseDelGuaviare,ElRetorno,Calamar,Miraflores,LaMacarena,PuertoConcordia,Mapiripan,PuertoLleras,PuertoRico,SanJuanDeArama,VistaHermosa,SanJoséDelGuaviare,Mapiripán,LaUribe,Mesetas,Lejanías,ElDorado,Granada,FuentedeOro,PuertoLópez,SanCarlosDeGuaroa,Acacías,SanMartín,Nukakd,Nukakg,Nukakb,Nukakf,Nukakz,Nukakv,Nukakj,Nukakkw,Nukaktw"
-  },
-  {
+  "i": 5817,
+  "min": 4,
+  "max": 12,
+  "d": "lnrt",
+  "m": 0,
+  "b": "SanJoseDelGuaviare,ElRetorno,Calamar,Miraflores,LaMacarena,PuertoConcordia,Mapiripan,PuertoLleras,PuertoRico,SanJuanDeArama,VistaHermosa,SanJoséDelGuaviare,Mapiripán,LaUribe,Mesetas,Lejanías,ElDorado,Granada,FuentedeOro,PuertoLópez,SanCarlosDeGuaroa,Acacías,SanMartín,NukakReservation,Wayari,Mipa,Taka,Meu,Miꞌpa"
+},
+{
     "name": "Sateré-Mawé",
-    "i": 5818,
-    "min": 4,
-    "max": 12,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Barreirinha,Parintins,Maués,BoaVistaDoRamos,NovaOlindaDoNorte,Itacoatiara,Urucurituba,SaoSebastiao,Silves,Itapiranga,Faro,TerraSanta,Obidos,Juruti,Alenquer,MonteAlegre,Prainha,Almeirim,SãoSebastião,Uatumã,Nhamundá,Óbidos,Oriximiná,SanMiguel,Chilca,Andamarca,Ccapi,Pucara,Cabana,Desaguadero,SicaSica,Tiquina,Azangaro,Huayllabamba,VillaVirgen,Pichanaqui,Tarapoto,SantiagoDeChuco,Adobpa,Alokpa,Adompa,Alogpa,Anotpa,Anolpa,Adotpa,Aobpa,Aokpa,Apokpa,Afogpa,Amorpa,Amobpa,Abompa,Akorpa,SaterMawgo,SaterMawgu,SaterMawcu,SaterMawzu,SaterMawla,SaterMawp,SaterMawm"
-  },
-  {
+  "i": 5818,
+  "min": 4,
+  "max": 12,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Barreirinha,Parintins,Maués,BoaVistaDoRamos,NovaOlindaDoNorte,Itacoatiara,Urucurituba,SaoSebastiao,Silves,Itapiranga,Faro,TerraSanta,Obidos,Juruti,Alenquer,MonteAlegre,Prainha,Almeirim,AndiraMarauTI,AndiraRiver,MarauRiver,MiritiRiver,UrupadiRiver,ManjuruRiver,UaicurapaRiver,AbacaxisRiver,Noçoquém,Nusoken"
+},
+{
     "name": "Tenetehára",
-    "i": 5819,
-    "min": 4,
-    "max": 12,
-    "d": "lnrt",
-    "m": 0,
-    "b": "SantaLuzia,BarraDoCorda,Imperatriz,Araguaina,Colinas,SaoJoaoDosPatos,Sucupira,Riachao,Balsas,Carolina,AltoParnaiba,Paraopeba,PassagemFranca,FortalezaDoNorte,Pinheiro,Carutapera,Turiacu,ZeDoca,Grajaú,Araguaína,SãoJoãoDosPatos,Riachão,GodofredoViana,Turiaçu,ZéDoca,CandidoMendes,Echarate,Espinar,Cupi,Lampa,Ilave,Pantaleon,Batallas,Yunguyo,Oropesa,LaConvencion,RioNegro,Juanjui,Cascas,Nazca,Colquemarca,Tenetehrazu,Tenetehrala,Tenetehrana,Tenetehrama,Tenetehrapa,Tenetehrara,Tenetehrasa,Tenetehrata,Tenetehraba,Tenetehrada,Tenetehrafa,Tenetehraha,Tenetehraja,Tenetehraka,Tenetehralla"
-  },
-  {
-    "name": "Trinitario",
-    "i": 5823,
-    "min": 4,
-    "max": 12,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Trinidad,Loreto,SanIgnacio,Concepcion,SanJavier,SanRamon,SanJoaquin,Magdalena,BellaVista,SanMiguel,SanMatias,SanJose,PuertoSuarez,SantaAna,Moxos,Concepción,SanRamón,SanMatías,Roboré,SanJosé,PuertoSuárez,SanCarlos,SanPedro,SanLuis,Santiago,Lampa,Ollantaytambo,Unini,VillaRica,Rioja,Pativilca,Abancay,BajoPichigua,Ocuviri,Moho,Acora,Toledo,SicaSica,Comanche,Tinta,Adocu,Afodgo,Amimgo,Alogcu,Akobcu,Apudgo,Abokcu,Anumgo,Amorcu,Abusgo,Aubgo,Afalgo,Abotcu,Akolgo,Adergo,Trinitariocu,Trinitariozu,Trinitariola"
-  },
-  {
+  "i": 5819,
+  "min": 4,
+  "max": 12,
+  "d": "lnrt",
+  "m": 0,
+  "b": "SantaLuzia,BarraDoCorda,Imperatriz,Araguaina,Colinas,SaoJoaoDosPatos,Sucupira,Riachao,Balsas,Carolina,AltoParnaiba,Paraopeba,PassagemFranca,FortalezaDoNorte,Pinheiro,Carutapera,Turiacu,ZeDoca,Grajaú,Araguaína,SãoJoãoDosPatos,Riachão,GodofredoViana,Turiaçu,ZéDoca,CandidoMendes,GurupiRiver,GuamaRiver,CapimRiver,MearimRiver,GrajauRiver,PindareRiver,ArariboiaTI,BacurizinhoTI"
+},
+{
+    "name": "Resígaro",
+  "i": 5822,
+  "min": 4,
+  "max": 12,
+  "d": "lnrt",
+  "m": 0,
+  "b": "ElEncanto,Sabana,PamaRiver,NetaRiver,CaraParana,Cahuinari,Putumayo,BrilloNuevo,PuertoIsango"
+},
+{
     "name": "Reyesano (Maropa)",
-    "i": 5824,
-    "min": 4,
-    "max": 12,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Rurrenabaque,Reyes,SantaRosa,Yucumo,SanBorja,Riberalta,Guayaramerin,Cobija,Porvenir,PuertoRico,Sarry,SanIgnacioDeMoxos,Guayaramerín,Trinidad,Loreto,SanJoaquin,Magdalena,BellaVista,Concepción,SanJavier,SanRamón,Chanchamayo,Picota,Huamachuco,Yauca,Velille,Vilavila,Progreso,Amantani,Machacamarca,Tiquina,Calacoto,Checacupe,Machupicchu,Churingaveni,Anargu,Anibzu,Alegzu,Abubzu,Adamgu,Afetzu,Akiszu,Alakzu,Amadgu,Abakgu,Apidzu,Aebzu,Amurzu,Akunzu,Adasgu,ReyesanoMaropago,ReyesanoMaropagu,ReyesanoMaropacu,ReyesanoMaropazu,ReyesanoMaropala"
-  },
-  {
-    "name": "Toromona",
-    "i": 5825,
-    "min": 4,
-    "max": 12,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Rurrenabaque,Reyes,SantaRosa,SanBorja,Yucumo,Riberalta,Cobija,Guayaramerin,Porvenir,PuertoRico,Sarry,SanIgnacioDeMoxos,Guayaramerín,Trinidad,Concepción,SanJavier,SanRamón,SanJoaquin,Magdalena,BellaVista,SantaAna,Saposoa,Contumaza,Ica,SantoTomas,Ocoruro,Chupa,Tiquillaca,Tiwanacu,Calamarca,Guaqui,Lampa,Ollantaytambo,Unini,VillaRica,Rioja,Adolcu,Amitgo,Apodcu,Amingo,Abiscu,Amocu,Adescu,Aniggo,Anomcu,Aascu,Abikcu,Abicu,Anagcu,Apurcu,Afirgo,Toromonacu,Toromonazu,Toromonala,Toromona,Heath,Lanza,Maddi,Mamuripi,Tumupasa"
-  },
-  {
+  "i": 5824,
+  "min": 4,
+  "max": 12,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Reyes,SantaRosa,SanBorja,SanJavier,SantaAna,Magdalena,Rurrenabaque,Riberalta,Guayaramerin,Cobija,Porvenir,PuertoRico,Sarry,SanIgnacioDeMoxos,Trinidad,Loreto,SanJoaquin,BellaVista,Concepcion,SanRamon"
+},
+{
+    "name": "Ocaina",
+  "i": 5820,
+  "min": 4,
+  "max": 12,
+  "d": "lnrt",
+  "m": 0,
+  "b": "LaChorrera,PredioPutumayo,Igaraparana,Ampiyacu,Putumayo,CaraParana"
+},
+{
     "name": "Wichí Lhamtés Nocten (Weenhayek)",
-    "i": 5826,
-    "min": 4,
-    "max": 12,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Tartagal,Embarcacion,SalvadorMazza,Aguaray,CampoDuran,GeneralMosconi,Ballivian,Pocitos,Yacuiba,VillaMontes,EntreRios,PalosBlancos,Boyuibe,Camiri,Embarcación,ProfesorSalvadorMazza,CampoDurán,Ballivián,EntreRíos,Creaux,Villamontes,Caraparí,SanFrancisco,ElPalmar,Mala,Kinsachata,Suyckutambo,Japurin,Atuncolla,Yunguyo,Patacamaya,Huatajata,Huancane,Coya,SantaRosa,Chanchamayo,Picota,Huamachuco,Yauca,Aemgu,Abotpa,Anakgu,Alitpa,Afigpa,Afongu,Alalgu,Abobpa,Ananpa,Amutpa,Abutgu,Adangu,Anoggu,Apitpa,Afakgu,WichLhamtsNoctenWeenhayekgo,WichLhamtsNoctenWeenhayekgu,WichLhamtsNoctenWeenhayekcu,WichLhamtsNoctenWeenhayekzu,WichLhamtsNoctenWeenhayekla"
-  },
-  {
+  "i": 5826,
+  "min": 4,
+  "max": 12,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Tartagal,Embarcacion,SalvadorMazza,Aguaray,CampoDuran,GeneralMosconi,Ballivian,Pocitos,Yacuiba,VillaMontes,EntreRios,PalosBlancos,Boyuibe,Camiri,PilcomayoRiver,CordilleraDePirapo,TarijaDepartment"
+},
+{
     "name": "Wichí Lhamtés Vejoz",
-    "i": 5827,
-    "min": 4,
-    "max": 12,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Tartagal,Embarcacion,SalvadorMazza,Aguaray,CampoDuran,GeneralMosconi,Ballivian,Pocitos,Yacuiba,VillaMontes,EntreRios,MonteQuemado,PampaDeLosGuanacos,SantiagoDelEstero,Embarcación,CampoDurán,Ballivián,EntreRíos,PalosBlancos,Villamontes,Caraparí,SanFrancisco,Boyuibe,Camiri,Yauri,Llalli,Cabanillas,Juli,Eucaliptus,Ventilla,Ilave,Saylla,SantaAna,Satipo,Saposoa,Contumaza,Ica,SantoTomas,Ocoruro,Alusgo,Alokgo,Afisgo,Alulgo,Abudgo,Akamgo,Adalgo,Afotgo,Adetgo,Aungo,Aodgo,Amamgo,Amaggo,Aingo,Alelgo,WichLhamtsVejozgo,WichLhamtsVejozgu,WichLhamtsVejozcu,WichLhamtsVejozzu,WichLhamtsVejozla,Wichi,Vejo,VillaRosa,Algarrobal,SaenzPena"
-  },
-  {
-    "name": "Tiriyó",
-    "i": 5831,
-    "min": 4,
-    "max": 12,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Paramaribo,Atjoni,Pokigron,Botopasi,Djumu,Palumeu,Apetina,Kawemhakan,Papaichton,Camopi,Maripasoula,Sipaliwini,Antino,Benzdorp,Kaur,Anapaike,Langatabiki,Stoelmans,Saül,Albina,Yucay,Putucusi,Oxapampa,Moyobamba,Quiruvilca,Coracora,AltoPichigua,Occo,Camjata,Chucuito,Oruro,Patacamaya,Charana,Yanaoca,Quillabamba,Abancu,Aodcu,Akidcu,Afimcu,Amebcu,Aludcu,Akumcu,Apascu,Apogcu,Anidcu,Afecu,Abakcu,Amudcu,Aalcu,Apekcu,Tiriycu,Tiriyzu,Tiriyla"
-  },
+  "i": 5827,
+  "min": 4,
+  "max": 12,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Tartagal,Embarcacion,SalvadorMazza,Aguaray,CampoDuran,GeneralMosconi,Ballivian,Pocitos,Yacuiba,VillaMontes,EntreRios,MonteQuemado,PampaDeLosGuanacos,SantiagoDelEstero,Embarcación,CampoDurán,Ballivián,EntreRíos,PalosBlancos,Villamontes,Caraparí,SanFrancisco,Boyuibe,Camiri,Yauri,Llalli,Cabanillas,Juli,Eucaliptus,Ventilla,Ilave,Saylla,SantaAna,Satipo,Saposoa,Contumaza,Ica,SantoTomas,Ocoruro,BermejoRiver,SaltaProvince"
+},
+{
+    "name": "Miraña",
+  "i": 5825,
+  "min": 4,
+  "max": 12,
+  "d": "lnrt",
+  "m": 0,
+  "b": "SanFrancisco,CaquetaRiver,Araracuara,LaPedrera,Cahuinari"
+},
   {
     "name": "Xavante",
     "i": 6112,
@@ -1875,15 +1875,15 @@ window.unknownNameBases = [
     "m": 0,
     "b": "Tocantinia,Cristalandia,Pium,Miracema,Miranorte,Palmas,Paraiso,PortoNacional,Colinas,Araguaina,Araguatins,Taguatinga,Arraias,Dianopolis,Natividade,Peixe,Tocantínia,Cristalândia,DoisIrmãos,Paraíso,Guaraí,Araguaína,Xambioá,Dianópolis,Almas"
   },
-  {
+{
     "name": "Língua Geral Amazônica",
-    "i": 6621,
-    "min": 4,
-    "max": 12,
-    "d": "lnrt",
-    "m": 0,
-    "b": "SaoGabrielDaCachoeira,SantaIsabel,RioNegro,Barcelos,SaoJoaquim,Manaus,Parintins,Itacoatiara,Coari,Tefe,BocaDoAcre,Envira,Pauini,BenjaminConstant,Tabatinga,SaoPauloDeOlivenca,Tonantins,FonteBoa,SãoGabrielDaCachoeira,SãoJoaquim,Turi,SãoPauloDeOlivença,Amaturá,Japurá,Bayamon,SanJuan,Maricao,SanSebastian,RioGrande,Santalsabel,Canovanas,Kralendijk,Utuado,VegaAlta,Yauco,Ciales,Luquillo,Cockburn,Abenland,Alilburg,Apuland,Amalburg,Aderland,Adusside,Aniland,Anulside,Aurside,Adugburg,Aakland,Abogland,Akomburg,Anokburg,Alamland,LnguaGeralAmaznicatown,LnguaGeralAmaznicaville,LnguaGeralAmaznicaburg,LnguaGeralAmaznicaview,LnguaGeralAmaznicaside"
-  },
+  "i": 6621,
+  "min": 4,
+  "max": 12,
+  "d": "lnrt",
+  "m": 0,
+  "b": ""
+},
   {
     "name": "Macuna",
     "i": 6653,
@@ -1945,7 +1945,7 @@ window.unknownNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Mitu,Pacoa,Acaricuara,SanFelipe,Yavarate,PuertoColombia,LaPedrera,PanaPana,Cacahual,Tiquie,Mitu,Caruru,Tarapaca,SanRafael,Araracuara,TiquieRiver,PapuriRiver,UaupesRiver,TiquieRiver,PapuriRiver,UaupesRiver,TukanoLinguaFranca,TukanoOfficial,TukanoLinguaFranca"
+  "b": ""
 },
 {
     "name": "Wanano",
@@ -1963,7 +1963,7 @@ window.unknownNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "PiraparanaRiver,PapuríRiver,VaupesDepartment,PiraparanaHeadwaters,UpperPapurí,ResguardoOrientalVaupes,VaupesRiver,PiraparanaRiver,TatuyoLanguage,EasternTukanoan,CentralTukanoan,Carapano"
+  "b": "PiraparanaRiver,PapuríRiver,VaupesDepartment,PiraparanaHeadwaters,UpperPapurí,ResguardoOrientalVaupes,VaupesRiver,PiraparanaRiver"
 },
 {
     "name": "Siriano",
@@ -1972,7 +1972,7 @@ window.unknownNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Mitu,Pacoa,Acaricuara,SanFelipe,Yavarate,PuertoColombia,LaPedrera,PanaPana,Cacahual,Tiquie,Mitu,CañoPaca,CañoViña,UpperPapuri,UaupesRiver,RioNegro,PacaRiver,VinaRiver,PapuriRiver,UaupesRiverBasin,SiriaMasã,EasternTukanoan,DesanoSiriano"
+  "b": "Mitu,Pacoa,Acaricuara,SanFelipe,Yavarate,PuertoColombia,LaPedrera,PanaPana,Cacahual,Tiquie,Mitu,CañoPaca,CañoViña,UpperPapuri,UaupesRiver,RioNegro,PacaRiver,VinaRiver,PapuriRiver,UaupesRiverBasin,SiriaMasã"
 },
 {
     "name": "Siona",
@@ -2053,7 +2053,7 @@ window.unknownNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Cochabamba,BeniDepartment,ChapareRiver,IchiloRiver,IsiboroRiver,SécureRiver,MamoréRiver,IsiboroSecurePark,ChapareProvince,CochabambaDepartment,BeniDepartment,MamoréRiverValley,IsiboroSecureNationalPark,Yurujare,YuracaréIsolate,YuracaréEndangered,CochabambaDepartment,BeniDepartment"
+  "b": "Cochabamba,BeniDepartment,ChapareRiver,IchiloRiver,IsiboroRiver,SécureRiver,MamoréRiver,IsiboroSecurePark,ChapareProvince,CochabambaDepartment,BeniDepartment,MamoréRiverValley,IsiboroSecureNationalPark"
 },
 {
     "name": "Guambiano",
@@ -2080,7 +2080,7 @@ window.unknownNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Iquitos,Pebas,SanPablo,TresFronteras,Caballococha,RamonCastilla,PuertoAlegria,SantaRosa,PuertoPrado,Orellana,JenaroHerrera,Requena,Lagunas,Contamana,Saquin,PampaHermosa,PuertoSánchez,YaguasyacuRiver,PutumayoRiver,AmpiyacuRiver,BoraWitotoan"
+  "b": "Iquitos,Pebas,SanPablo,TresFronteras,Caballococha,RamonCastilla,PuertoAlegria,SantaRosa,PuertoPrado,Orellana,JenaroHerrera,Requena,Lagunas,Contamana,Saquin,PampaHermosa,PuertoSánchez,YaguasyacuRiver,PutumayoRiver,AmpiyacuRiver"
 },
 {
     "name": "Bauré",
@@ -2089,7 +2089,7 @@ window.unknownNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Trinidad,Baures,Huacaraje,Magdalena,BeniDepartment,MoxosRegion,TrinidadBeni,SanIgnacio,Loreto,Concepcion,SanJoaquin,MagdalenaBeni,Roboré,SanJose,BeniDepartment,MoxosRegion,Arawakan,Sáliban"
+  "b": "Trinidad,Baures,Huacaraje,Magdalena,BeniDepartment,MoxosRegion,TrinidadBeni,SanIgnacio,Loreto,Concepcion,SanJoaquin,MagdalenaBeni,Roboré,SanJose"
 },
 {
     "name": "Enlhet",
@@ -2107,7 +2107,7 @@ window.unknownNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "WellingtonIsland,PuertoEden,VillaPuertoEden,MagallanesRegion,UltimaEsperanzaProvince,PuntaArenas,PuertoNatales,PuertoEdén,WellingtonIsland,MagallanesRegion,UltimaEsperanzaProvince,PuertoEdénComunidad,PuertoNatalesComunidad,PuntaArenasComunidad,Alacalufan,KawésqarIsolate,KawésqarCriticallyEndangered,KawésqarNorthernDialect"
+  "b": "WellingtonIsland,PuertoEden,VillaPuertoEden,MagallanesRegion,UltimaEsperanzaProvince,PuntaArenas,PuertoNatales,PuertoEdén"
 },
 {
     "name": "Mocoví",
@@ -2152,7 +2152,7 @@ window.unknownNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "PuertoWilliams,PuntaArenas,Ushuaia,VillaUkika,NavarinoIsland,BeagleChannel,CapeHorn,KeppelIsland,FalklandIslands,BahíaMejillones,PuertoWilliams,NavarinoIsland,TierraDelFuego,YamanaPeople,ThomasBridges,CristinaCalderon,LanguageIsolate,YaganRevival"
+  "b": "PuertoWilliams,PuntaArenas,Ushuaia,VillaUkika,NavarinoIsland,BeagleChannel,CapeHorn,KeppelIsland,FalklandIslands,BahíaMejillones,TierraDelFuego"
 },
 {
     "name": "Cabiyari",
@@ -2170,7 +2170,7 @@ window.unknownNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-  "b": "VaupésDepartment,GuaviareDepartment,AmazonasDepartment,YaríRiver,VaupésRiver,ApaporisRiver,MirafloresGuaviare,LaPedrera,PuertoNare,VaupésDepartmentColombia,GuaviareDepartmentColombia,AmazonasDepartmentColombia,CaribanFamily,CriticallyEndangered,HianacotoDialect,KarihonaName"
+  "b": "VaupésDepartment,GuaviareDepartment,AmazonasDepartment,YaríRiver,VaupésRiver,ApaporisRiver,MirafloresGuaviare,LaPedrera,PuertoNare"
 },
 {
     "name": "Kakwa (Cacua)",
@@ -2179,7 +2179,7 @@ window.unknownNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-  "b": "Mitu,Wacara,NuevoPueblo,VaupesDepartment,QuerariRiver,VaupesRiver,PapuriRiver,KakwaNukak,VaupesCacua,MacuParanaCacua,KakuaNukakFamily,KakuaDialects"
+  "b": "Mitu,Wacara,NuevoPueblo,VaupesDepartment,QuerariRiver,VaupesRiver,PapuriRiver"
 },
 {
     "name": "Cuiba",
@@ -2289,15 +2289,15 @@ window.unknownNameBases = [
   "m": 0,
   "b": "Lethem,Bonfim,Cantá,BoaVista,SãoMarcos,Tabatinga,Uiramutã,SãoMarcos,SãoJoão,Anauá,Takutu,Rupununi"
 },
-  {
+{
     "name": "Northern Formosan",
-    "i": 21118,
-    "min": 4,
-    "max": 12,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Taipei,Taoyuan,Hsinchu,Miaoli,Taichung,Changhua,Nantou,Yunlin,Chiayi,Tainan,Kaohsiung,Pingtai,Taitung,Hualien,Yilan,Keelung,Bangoliao,Pingtung,Banqiao,Zhongli,Xindian,Sanchong,Yonghe,Jhonghe,Xizhi,Shulin,Luzhou,Tucheng,Tamsui,Danshui,Sijhih,Jinshan,Wanli"
-  },
+  "i": 21118,
+  "min": 4,
+  "max": 12,
+  "d": "lnrt",
+  "m": 0,
+  "b": ""
+},
 {
     "name": "Nedebang",
   "i": 201113,

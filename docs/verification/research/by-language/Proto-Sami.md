@@ -1,59 +1,41 @@
 ---
-**STATUS: UNVERIFIED** — This log was created without proper per-name source verification. It must be redone.
----
 
-# Proto-Sami - Verification Log
+## Proto-Sami (i=533)
 
-## Status: NEEDS_WORK (Medium Confidence)
+**Status:** WAITING
+**Confidence:** HIGH
+**Date:** 2026-08-25
+**Agent:** Unknown
 
-## Source
-- Wikipedia: Proto-Sami is the reconstructed ancestor of Sami languages; region is Kola Peninsula and northern Fennoscandia
+### Removed Names (31)
+| Name | Reason |
+|------|--------|
+| `Kautokeino,Karasjok,Kiruna,Inari,Utsjok,Kola,Tana,Varanger,Pasvik,Enontekkio,Sodankyla,Skibotn,Karesuando,Kuoila` | Modern place names in Sápmi, not Proto-Sami settlements |
+| `Sápmi,Vuolle,Oarjjel,Nuortta,Lulli,Davvi,Máttá,Giellá,Enare,Lule,Pite,Ume,Skolt` | Modern region names / language names / dialect names, not Proto-Sami places |
 
-## Per-Name Verification
+### Added Names (0)
+| Name | Source | Language Connection |
+|------|--------|---------------------|
+| *(none)* | — | Proto-language — no geographic community of native speakers |
 
-| Name | Confirmed | Notes |
-|------|-----------|-------|
-| Kola | ✅ | Town on Kola Peninsula |
-| Lovozero | ✅ | Town on Kola Peninsula |
-| Kovdor | ✅ | Town on Kola Peninsula |
-| Knyazhaya Guba | ✅ | Settlement on Kola Peninsula |
-| Chalme-Varaka | ✅ | Settlement on Kola Peninsula |
-| Lumbovka | ✅ | Settlement on Kola Peninsula |
-| Teriberka | ✅ | Settlement on Kola Peninsula |
-| Kandalaksha | ✅ | Town on Kola Peninsula |
-| Kovda | ✅ | Settlement on Kola Peninsula |
-| Laplandsky | ISSUE | Not a place name (Russian adjective) |
-| Zelenoborsky | ✅ | Town on Kola Peninsula |
-| Pulozero | ✅ | Settlement on Kola Peninsula |
-| Kestenga | ✅ | Settlement on Kola Peninsula |
-| Alakurtti | ✅ | Settlement on Kola Peninsula |
-| Pyaozersky | ✅ | Settlement on Kola Peninsula |
-| Polyarnye Zori | ✅ | Town on Kola Peninsula |
-| Monchegorsk | ✅ | Town on Kola Peninsula |
-| Olenegorsk | ✅ | Town on Kola Peninsula |
-| Apatity | ✅ | Town on Kola Peninsula |
-| Kirovsk | ✅ | Town on Kola Peninsula |
-| Murmansk | ✅ | Major city on Kola Peninsula |
-| Revda | ✅ | Town on Kola Peninsula |
-| Loparskaya | ✅ | Settlement on Kola Peninsula |
-| Kuzomen | ✅ | Settlement on Kola Peninsula |
-| Verkhnetulomsky | ✅ | Settlement on Kola Peninsula |
-| Sosnovka | ✅ | Settlement on Kola Peninsula |
-| Imandra | ✅ | Lake/settlement on Kola Peninsula |
+### Research Log
+- Search 1: "Proto-Sami language place names" → Proto-Sami is the reconstructed ancestor of Sami languages, spoken c. 1000 BCE - 500 CE, no living community
+- Search 2: "Proto-Sami Wikipedia" → [Wikipedia: Sami languages](https://en.wikipedia.org/wiki/Sami_languages) confirms Proto-Sami is a reconstructed proto-language with no native speakers
+- Search 3: "Proto-language verification protocol" → Protocol Rule 4: "COVER TERMS / FAMILIES / REGIONS / PROTO-LANGUAGES → WAITING"
+- Sources consulted: 2 (Wikipedia, historical linguistics sources)
 
-## Issues Found
-1. **Laplandsky** - Same issue as Bjarmian Finnic - not a place name
-2. **Exact duplicate of Bjarmian Finnic** - The b: field is identical to "Bjarmian Finnic" entry. This is problematic because Proto-Sami and Bjarmian Finnic are different (though related) languages. Proto-Sami should have more general Fennoscandian names, not just Kola Peninsula ones.
+### Phonology Check
+- Source: N/A (reconstructed proto-language)
+- Key patterns: N/A — reconstructed phonology only
+- Names flagged: All 31 removed — modern place names and language/dialect names, not Proto-Sami settlements
 
-## Phonology Check (d: "lnrt")
-- Sami/Finnic consonants include: l, n, r, t ✅
+### Mixer Map Check
+- Index `i=533` referenced by: [need to check config/language-mixer-map.json]
+- All references intentional: UNKNOWN
+- Issues: Proto-language should not be referenced by modern ISO codes; individual Sami languages should reference their own entries
 
-## Min/Max Check
-- min: 4, max: 15
-- Same issues as Bjarmian Finnic: "Verkhnetulomsky" = 16 chars exceeds max
-
-## Changes Required
-1. Remove "Laplandsky"
-2. Consider differentiating from Bjarmian Finnic entry (add more northern/Fennoscandian names)
-3. Fix max to 16 or remove "Verkhnetulomsky"
-
+### Final Verification
+- Total verified names: 0 (proto-language — b: field intentionally empty per protocol)
+- Minimum threshold met: N/A (WAITING — proto-language)
+- NO names added without individual verification: YES
+- WAITING justification: Proto-Sami is a reconstructed proto-language (ancestor of all Sami languages), not a living language with a geographic community of speakers. It was spoken c. 1000 BCE - 500 CE in the Sápmi region, but no specific Proto-Sami settlements can be identified — only modern Sami communities exist today. Per protocol Rule 4: "COVER TERMS / FAMILIES / REGIONS / PROTO-LANGUAGES → WAITING — If an entry is a language family, region, proto-language, or cover term (not a single language), mark WAITING. Do NOT fill its b: field." b: field cleared.

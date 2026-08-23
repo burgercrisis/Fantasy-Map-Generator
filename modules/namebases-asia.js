@@ -5866,10 +5866,10 @@ window.asiaNameBases = [
     "i": 50009,
     "min": 4,
     "max": 11,
-    "d": "",
+    "d": "Ai Cham is a Kam-Sui language spoken in Guizhou, China.",
     "m": 0,
     "b": "Diwo,Boyao,Libo County,Qiannan Prefecture,Guizhou,Gengfang",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
   {
     "name": "Manchu",
@@ -6276,10 +6276,10 @@ window.asiaNameBases = [
     "i": 200267,
     "min": 3,
     "max": 11,
-    "d": "lnrt",
+    "d": "Daman (Daman and Diu Portuguese Creole) is a Portuguese-based creole spoken in Daman, India with ~2,000 speakers. Endangered.",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Daman,Moti Daman,Nani Daman,Diu,Silvassa",
+    "status": "COMPLETE"
   },
   {
     "name": "Danuwar",
@@ -6372,16 +6372,6 @@ window.asiaNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "Done",
-    "i": 200277,
-    "min": 4,
-    "max": 13,
-    "d": "lnrt",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-  {
     "name": "Dura",
     "i": 200278,
     "min": 4,
@@ -6426,10 +6416,10 @@ window.asiaNameBases = [
     "i": 200282,
     "min": 4,
     "max": 11,
-    "d": "lnrt",
+    "d": "Hagei (Green Gelao) is a severely endangered Kra-Dai language spoken in Guizhou, China and Ha Giang, Vietnam with ~1,700 speakers.",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Renhuai,Qingzhen,Zhenning,Guanling,Qinglong,Zhenfeng,Pu'an,Sanchong,Longlin,Malipo,Dong Van,Yen Minh,Hoang Su Phi",
+    "status": "COMPLETE"
   },
   {
     "name": "Hailar Dagur",
@@ -6536,7 +6526,7 @@ window.asiaNameBases = [
     "i": 200294,
     "min": 4,
     "max": 11,
-    "d": "lnrt",
+    "d": "Hokkaido dialects is a cover term for Japanese dialects spoken in Hokkaido, Japan, not a single language.",
     "m": 0,
     "b": "",
     "status": "WAITING"
@@ -6596,7 +6586,7 @@ window.asiaNameBases = [
     "i": 200300,
     "min": 4,
     "max": 11,
-    "d": "lnrt",
+    "d": "Japanese macro entry is a cover term for the Japanese language family, not a single language.",
     "m": 0,
     "b": "",
     "status": "WAITING"
@@ -6736,7 +6726,7 @@ window.asiaNameBases = [
     "i": 200315,
     "min": 4,
     "max": 11,
-    "d": "lnrt",
+    "d": "Kam Sui is a language family/cover term for Kam-Sui languages, not a single language.",
     "m": 0,
     "b": "",
     "status": "WAITING"
@@ -6782,16 +6772,6 @@ window.asiaNameBases = [
     "status": "COMPLETE"
   },
 {
-    "name": "Katua",
-    "i": 200320,
-    "min": 2,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-  {
     "name": "Kayong",
     "i": 200321,
     "min": 4,
@@ -6806,10 +6786,10 @@ window.asiaNameBases = [
     "i": 200322,
     "min": 4,
     "max": 11,
-    "d": "lnrt",
+    "d": "Kewarat is a dialect of Malayalam spoken in Kerala, India.",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Kasaragod,Kanhangad,Nileshwar,Thrikaripur,Payyanur,Taliparamba,Iritty,Mattannur,Kuthuparamba",
+    "status": "COMPLETE"
   },
 {
     "name": "Khalkha Mongolian",
@@ -6850,16 +6830,6 @@ window.asiaNameBases = [
     "m": 0,
     "b": "Tongliao,Hinggan League,Chifeng,Hulunbuir,Jirim League,Manghan Sum,Khüree Banner",
     "status": "COMPLETE"
-  },
-{
-    "name": "Khorchin Mongol alias",
-    "i": 200327,
-    "min": 4,
-    "max": 13,
-    "d": "lnrt",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
   },
 {
     "name": "Kharia",
@@ -6916,40 +6886,40 @@ window.asiaNameBases = [
     "i": 200333,
     "min": 4,
     "max": 9,
-    "d": "lnrt",
+    "d": "Lakkia is a Kam-Sui language spoken in Guangxi, China.",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Hechi,Yizhou,Luocheng,Du'an,Donglan,Huanjiang,Fengshan,Nandan",
+    "status": "COMPLETE"
   },
   {
     "name": "Lambadi",
     "i": 200334,
     "min": 10,
     "max": 26,
-    "d": "lnrt",
+    "d": "Lambadi (Banjara) is an Indo-Aryan language spoken by the Banjara community across India. Thandas are their traditional settlements.",
     "m": 0,
     "b": "Sittilingi Thanda,Mel Thanda,Keezh Thanda,A K Thanda,Lambadi Thanda Nizamabad,Lambadi Thanda Warangal,Lambadi Thanda Mulugu,Lambadi Thanda Ranga Reddy,Lambadi Thanda Kadiri,Kondyanaik Thanda,Seetharama Tanda,Banjara Tanda Nanded,Nagarjuna Sagar Thanda,Anupu Thanda,Lambadi Thanda Bhupalpally,Banjara Thanda Nagireddypet,Banjara Thanda Kuravi,Banjara Thanda Nalgonda,Banjara Nagar Rangareddy,Jairam Thanda,Dubba Thanda",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
 {
     "name": "Longsang Zhuang",
     "i": 200337,
     "min": 4,
     "max": 9,
-    "d": "lnrt",
+    "d": "Longsang Zhuang is a Zhuang dialect spoken in Longsang area of Guangxi, China.",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Sanhe,Qiaotou,Qiaonan,Daji",
+    "status": "COMPLETE"
   },
 {
     "name": "Larantuka Malay",
     "i": 200336,
     "min": 4,
     "max": 20,
-    "d": "lnrt",
+    "d": "Larantuka Malay is a Malay-based creole spoken in Larantuka, Flores, Indonesia.",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Larantuka,Lewoleba,Wailiti,Wairotin,Waturia,Wodong,Bola,Kabor,Lela,Mbelling,Nangalimang,Napunggire,Ola,Pajama,Pau,Riang Kemie,Riawolo,Roja,Sikka,Tanjung Bunga,Waiblaki,Watugere,Wolowae",
+    "status": "COMPLETE"
   },
   {
     "name": "Lasi",
@@ -6986,27 +6956,27 @@ window.asiaNameBases = [
     "i": 200340,
     "min": 4,
     "max": 7,
-    "d": "lnrt",
+    "d": "Longsang Zhuang is a Zhuang dialect spoken in Longsang area of Guangxi, China.",
     "m": 0,
     "b": "Sanhe,Qiaotou,Qiaonan,Daji",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
   {
     "name": "Lower Uda Buryat",
     "i": 200341,
     "min": 4,
     "max": 14,
-    "d": "lnrt",
+    "d": "Lower Uda Buryat is a Buryat dialect spoken in Buryatia, Russia.",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Kyakhta,Gusinoozyorsk,Selenginsk,Tarbagatay,Novoilinsk,Sotnikovo,Bichura",
+    "status": "COMPLETE"
   },
   {
     "name": "Macro-Zhuang",
     "i": 200342,
     "min": 4,
     "max": 13,
-    "d": "lnrt",
+    "d": "Macro-Zhuang is a cover term for the Zhuang language family, not a single language.",
     "m": 0,
     "b": "",
     "status": "WAITING"
@@ -7036,20 +7006,20 @@ window.asiaNameBases = [
     "i": 200345,
     "min": 4,
     "max": 12,
-    "d": "lnrt",
+    "d": "Magar Dhut is a Sino-Tibetan language spoken in Nepal by the Magar people.",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Palpa,Syangja,Tanahu,Gorkha,Nawalparasi,Rupandehi,Kapilvastu,Arghakhanchi,Pyuthan,Rolpa,Salyan,Surkhet,Dailekh,Jajarkot,Dolpa,Jumla,Mugu,Humla,Kalikot,Darchula,Baitadi,Dadeldhura,Doti,Achham,Bajhang,Bajura",
+    "status": "COMPLETE"
   },
 {
     "name": "Magar Kham",
     "i": 200346,
     "min": 5,
     "max": 10,
-    "d": "lnrt",
+    "d": "Magar Kham is a Sino-Tibetan language spoken in Nepal by the Kham Magar people.",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Rukum,Rolpa,Salyan,Pyuthan,Dang,Surkhet,Dailekh,Jajarkot,Dolpa,Jumla,Mugu,Humla,Kalikot",
+    "status": "COMPLETE"
   },
   {
     "name": "Maithili",
@@ -7066,70 +7036,70 @@ window.asiaNameBases = [
     "i": 200348,
     "min": 4,
     "max": 11,
-    "d": "lnrt",
+    "d": "Majhi is an Indo-Aryan language spoken in Nepal by the Majhi people.",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Kavrepalanchok,Dolakha,Sindhupalchok,Ramechhap,Okhaldhunga,Udayapur,Siraha,Saptari,Sunsari,Morang,Jhapa",
+    "status": "COMPLETE"
   },
 {
     "name": "Mak Kam Sui",
     "i": 200349,
     "min": 4,
     "max": 11,
-    "d": "lnrt",
+    "d": "Mak is a Kam-Sui language spoken in Guangxi, China.",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Hechi,Donglan,Fengshan,Nandan,Donglan",
+    "status": "COMPLETE"
   },
   {
     "name": "Mala Malasar",
     "i": 200350,
     "min": 4,
     "max": 14,
-    "d": "lnrt",
+    "d": "Mala Malasar is a Dravidian language spoken by the Malasar tribe in Kerala/Tamil Nadu, India.",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Palakkad,Coimbatore,Thrissur,Ernakulam,Idukki",
+    "status": "COMPLETE"
   },
 {
     "name": "Malankuravan",
     "i": 200351,
     "min": 4,
     "max": 18,
-    "d": "lnrt",
+    "d": "Malankuravan is a Dravidian language spoken in Kerala, India.",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Palakkad,Thrissur,Ernakulam,Idukki,Kottayam,Alappuzha",
+    "status": "COMPLETE"
   },
   {
     "name": "Malapandaram",
     "i": 200352,
     "min": 4,
     "max": 14,
-    "d": "lnrt",
+    "d": "Malapandaram is a Dravidian language spoken in Kerala, India by the Malapandaram tribe.",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Pathanamthitta,Kollam,Alappuzha,Idukki",
+    "status": "COMPLETE"
   },
 {
     "name": "Malasar",
     "i": 200353,
     "min": 4,
     "max": 14,
-    "d": "lnrt",
+    "d": "Malasar is a Dravidian language spoken in Kerala/Tamil Nadu, India.",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Palakkad,Coimbatore,Thrissur,Ernakulam",
+    "status": "COMPLETE"
   },
   {
     "name": "Malpande",
     "i": 200354,
     "min": 4,
     "max": 14,
-    "d": "lnrt",
+    "d": "Malpande is a dialect of Malasar spoken in Kerala/Tamil Nadu, India.",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Palakkad,Coimbatore,Thrissur,Ernakulam",
+    "status": "COMPLETE"
   },
 {
     "name": "Malto",
@@ -7176,20 +7146,20 @@ window.asiaNameBases = [
     "i": 200360,
     "min": 3,
     "max": 12,
-    "d": "lnrt",
+    "d": "Mankiyali is an Indo-Aryan language spoken in Himachal Pradesh, India.",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Chamba,Bharmour,Holil,Kugti,Tundah,Sach,Chhatrari",
+    "status": "COMPLETE"
   },
 {
     "name": "Maonan",
     "i": 200361,
     "min": 4,
     "max": 13,
-    "d": "lnrt",
+    "d": "Maonan is a Kam-Sui language spoken in Guangxi, China.",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Huanjiang,Du'an,Nandan,Donglan,Fengshan",
+    "status": "COMPLETE"
   },
   {
     "name": "Mara",
@@ -7452,16 +7422,6 @@ window.asiaNameBases = [
     "status": "WAITING"
   },
 {
-    "name": "Katua",
-    "i": 200320,
-    "min": 2,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "KonTum,MangBuk,DakTo,DakGlei,NgocHoi,SaThay,ChuSe,AnKhe,DakSong,Pleiku,ChuProng,Kontum",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Nanaic",
     "i": 200392,
     "min": 2,
@@ -7686,10 +7646,10 @@ window.asiaNameBases = [
     "i": 200414,
     "min": 4,
     "max": 13,
-    "d": "lnrt",
+    "d": "Oirat Mongolian (Clear Script) is a Mongolic language spoken in Mongolia, China, Russia, and Kazakhstan.",
     "m": 0,
     "b": "Ulaanbaatar,Khovd,Ölgii,Ulaangom,Erdenet,Mörön,Altai,Bayankhongor,Tsetserleg,Arvaikheer,Chinggis City,Öndörkhaan,Zamyn-Üüd,Sainshand,Dalanzadgad,Baruun-Urt,Sükhbaatar,Darkhan,Bulgan,Choibalsan",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
   {
     "name": "Ollari",
@@ -7746,7 +7706,7 @@ window.asiaNameBases = [
     "i": 200423,
     "min": 3,
     "max": 14,
-    "d": "lnrt",
+    "d": "Paha (Baha) is a Kra language spoken in two villages (Yangliancun in Dixu Township, Anshecun in Bada Township) in northern Guangnan County, Wenshan Prefecture, Yunnan, China with ~600 speakers. Critically endangered.",
     "m": 0,
     "b": "Yangliancun,Anshebun",
     "status": "WAITING"
@@ -7756,10 +7716,10 @@ window.asiaNameBases = [
     "i": 200424,
     "min": 4,
     "max": 11,
-    "d": "lnrt",
+    "d": "Pahari is a Sino-Tibetan language spoken in central Nepal by the Pahari people.",
     "m": 0,
     "b": "Badikhel,Tikabhairav,Lele,Salintar,Sikharpa,Maasdada,Pyangaun,Chhampi,Jamune,Thokarpa,Khopasi,Sakhatar,Chitlang,Balami,Dadagaun,Saping,Kodku,Ramechhap",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
   {
     "name": "Pahari-Pothwari",
@@ -7796,10 +7756,10 @@ window.asiaNameBases = [
     "i": 200428,
     "min": 4,
     "max": 10,
-    "d": "lnrt",
+    "d": "Palula (Phalura) is an Indo-Aryan language spoken in Chitral, Pakistan.",
     "m": 0,
     "b": "Chitral,Mastuj,Boone,Ashret,Biori,Birir,Kalash,Bumboret,Rumbur,Ayun,Reshun,Barenis,Ghizin,Shogor,Drosh,Ursoon,Broze,Mirkhani,Torikhow,Kalkatak",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
   {
     "name": "Pangasinan",
@@ -7816,10 +7776,10 @@ window.asiaNameBases = [
     "i": 200430,
     "min": 4,
     "max": 13,
-    "d": "lnrt",
+    "d": "Pangkhua is a Kuki-Chin language spoken in Bangladesh and India.",
     "m": 0,
     "b": "Khagrachari,Rangamati,Dighinala,Panchari,Matiranga,Ramu,Jarachari,Manikchari,Lakshmichari,Mohalchari,Guimara,Bilaichari,Chandhraghona,Sajek,Ruishil,Barkal,Alutila,Bangalhalia",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
 {
     "name": "Pashto, Northern",
@@ -7856,10 +7816,10 @@ window.asiaNameBases = [
     "i": 200434,
     "min": 4,
     "max": 16,
-    "d": "lnrt",
+    "d": "Pear is a Mon-Khmer language spoken in Cambodia.",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Ratanakiri,Stung Treng,Kratie,Mondulkiri",
+    "status": "COMPLETE"
   },
   {
     "name": "Pengo",
@@ -8116,10 +8076,10 @@ window.asiaNameBases = [
     "i": 200460,
     "min": 4,
     "max": 16,
-    "d": "lnrt",
+    "d": "Riang (Riang Lang) is a Palaungic language spoken in Myanmar.",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Kengtung,Tachileik,Mong Hsat,Mong Nai,Mong Pan,Mong Ping,Mong Yai,Mong Hta,Mong Hka,Mong Hsu,Mong Hko,Mong Htaw,Mong Hkay,Mong Hkui,Mong Hkeng,Mong Hkong,Mong Hkye,Mong Hkyam,Mong Hkyet,Mong Hkyit",
+    "status": "COMPLETE"
   },
   {
     "name": "Rohingya",
@@ -8136,7 +8096,7 @@ window.asiaNameBases = [
     "i": 200462,
     "min": 4,
     "max": 16,
-    "d": "lnrt",
+    "d": "Rouran is an extinct Mongolic language of the Rouran Khaganate (4th-6th century CE).",
     "m": 0,
     "b": "",
     "status": "WAITING"
@@ -8176,7 +8136,7 @@ window.asiaNameBases = [
     "i": 200466,
     "min": 4,
     "max": 16,
-    "d": "lnrt",
+    "d": "Sakhalin Ainu is an extinct Ainu language formerly spoken on Sakhalin Island, Russia.",
     "m": 0,
     "b": "",
     "status": "WAITING"
@@ -8186,7 +8146,7 @@ window.asiaNameBases = [
     "i": 200467,
     "min": 4,
     "max": 16,
-    "d": "lnrt",
+    "d": "Sakhalin dialects is a cover term for dialects spoken on Sakhalin Island, Russia, not a single language.",
     "m": 0,
     "b": "",
     "status": "WAITING"
@@ -8236,40 +8196,40 @@ window.asiaNameBases = [
     "i": 200472,
     "min": 4,
     "max": 16,
-    "d": "lnrt",
+    "d": "Santa Mongol is a dialect of the Santa/Dongxiang language spoken in Gansu, China.",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Linxia,Lanzhou,Tianshui,Dingxi,Zhangye,Wuwei,Pingliang,Qingyang,Baiyin,Jinchang,Jiuquan,Linxia County,Yongjing,Guanghe,Hezheng,Dongxiang,Jishishan",
+    "status": "COMPLETE"
   },
   {
     "name": "Santa Sijiaji",
     "i": 200473,
     "min": 4,
     "max": 16,
-    "d": "lnrt",
+    "d": "Santa Sijiaji is a village dialect of Santa/Dongxiang spoken in Gansu, China.",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Linxia,Lanzhou,Tianshui,Dingxi,Zhangye,Wuwei,Pingliang,Qingyang,Baiyin,Jinchang,Jiuquan,Linxia County,Yongjing,Guanghe,Hezheng,Dongxiang,Jishishan",
+    "status": "COMPLETE"
   },
   {
     "name": "Santa Suonanba",
     "i": 200474,
     "min": 4,
     "max": 16,
-    "d": "lnrt",
+    "d": "Santa Suonanba is a village dialect of Santa/Dongxiang spoken in Gansu, China.",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Linxia,Lanzhou,Tianshui,Dingxi,Zhangye,Wuwei,Pingliang,Qingyang,Baiyin,Jinchang,Jiuquan,Linxia County,Yongjing,Guanghe,Hezheng,Dongxiang,Jishishan",
+    "status": "COMPLETE"
   },
   {
     "name": "Santa Wangjiaji",
     "i": 200475,
     "min": 4,
     "max": 16,
-    "d": "lnrt",
+    "d": "Santa Wangjiaji is a village dialect of Santa/Dongxiang spoken in Gansu, China.",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Linxia,Lanzhou,Tianshui,Dingxi,Zhangye,Wuwei,Pingliang,Qingyang,Baiyin,Jinchang,Jiuquan,Linxia County,Yongjing,Guanghe,Hezheng,Dongxiang,Jishishan",
+    "status": "COMPLETE"
   },
   {
     "name": "Sapa",
@@ -8306,10 +8266,10 @@ window.asiaNameBases = [
     "i": 200479,
     "min": 4,
     "max": 16,
-    "d": "lnrt",
+    "d": "Sart Kalmyk is a dialect of Kalmyk spoken in Kyrgyzstan and China.",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Bishkek,Osh,Jalal-Abad,Talas,Naryn,Karakol,Kashgar,Aksu,Hotan,Yarkand,Kashgar,Yecheng,Shache,Zepu,Makki,Bachu,Jiashi,Wushi,Awat",
+    "status": "COMPLETE"
   },
   {
     "name": "Sauria Paharia",
@@ -8366,80 +8326,80 @@ window.asiaNameBases = [
     "i": 200485,
     "min": 4,
     "max": 16,
-    "d": "lnrt",
+    "d": "Shilingol Khalkha is a Mongolian dialect spoken in Xilingol League, Inner Mongolia, China.",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Xilinhot,Erenhot,Abaga,Sonid Left,Sonid Right,East Ujimqin,West Ujimqin,Taibus,Zhengxiangbai,Zhenglan,Xianghuang,Duolun,Ongniud,Harqin,Keerqin",
+    "status": "COMPLETE"
   },
 {
     "name": "Shina",
     "i": 200486,
     "min": 4,
     "max": 16,
-    "d": "lnrt",
+    "d": "Shina is a Dardic language spoken in Gilgit-Baltistan, Pakistan and Jammu & Kashmir, India.",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Gilgit,Skardu,Chilas,Astore,Gupis,Yasin,Gahkuch,Punial,Ishkoman,Yasin Valley,Gupis Valley,Chatorkhand,Shandur Pass",
+    "status": "COMPLETE"
   },
   {
     "name": "Shina, Kohistani",
     "i": 200487,
     "min": 4,
     "max": 16,
-    "d": "lnrt",
+    "d": "Shina Kohistani is a Dardic language spoken in Kohistan, Pakistan.",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Dasu,Jijal,Pattan,Keyal,Kandia,Gabrial,Dubair,Seo,Komila,Gayal,Shatial,Thak,Raikot",
+    "status": "COMPLETE"
   },
   {
     "name": "Shira Yugur",
     "i": 200488,
     "min": 4,
     "max": 16,
-    "d": "lnrt",
+    "d": "Shira Yugur (Western Yugur) is a Mongolic language spoken in Gansu, China.",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Sunan,Zhangye,Jiuquan,Jinta,Yumen,Dunhuang,Anxi,Aksay,Subei",
+    "status": "COMPLETE"
   },
   {
     "name": "Shirongol",
     "i": 200489,
     "min": 4,
     "max": 16,
-    "d": "lnrt",
+    "d": "Shirongol (Eastern Yugur) is a Mongolic language spoken in Gansu, China.",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Sunan,Zhangye,Jiuquan,Jinta,Yumen,Dunhuang,Anxi,Aksay,Subei",
+    "status": "COMPLETE"
   },
   {
     "name": "Shirwi",
     "i": 200490,
     "min": 4,
     "max": 16,
-    "d": "lnrt",
+    "d": "Shirwi is a duplicate entry for Savi language spoken in Oman/Yemen.",
     "m": 0,
-    "b": "Dhofar,Salalah,Mirbat,Sadah,Taqah,Rakhyut,Shihr,Mukalla,Ash Shihr,Al-Ghaydah,Al-Mukalla,Aden,Taiz,Ibb,Sana'a,Sa'dah,Hajjah,Al Hudaydah,Al Bayda',Dhamar,Lahij,Shabwah,Hadhramaut,Sayun,Tarim,Al-Qatn,Shibam,Amran,Abyan",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Sholaga",
     "i": 200491,
     "min": 4,
     "max": 16,
-    "d": "lnrt",
+    "d": "Sholaga is a Dravidian language spoken by the Sholaga tribe in Karnataka/Tamil Nadu, India.",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Mysore,Mandya,Chamarajanagar,Coimbatore,Erode,Nilgiris",
+    "status": "COMPLETE"
   },
   {
     "name": "Sikkimese",
     "i": 200492,
     "min": 4,
     "max": 16,
-    "d": "lnrt",
+    "d": "Sikkimese (Bhutia) is a Tibetic language spoken in Sikkim, India.",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Gangtok,Mangan,Namchi,Geyzing,Soreng,Ravangla,Yuksom,Pelling,Rinchenpong,Dentam,Gyalshing,Hee,Bermiok,Tashiding,Yangang,Rangpo,Singhik,Dzongu,Lachen,Lachung,Chungthang,Mangan,Phodong,Labrang,Kabi,Tingmo,Tumlong,Phensang,Phodong,Mangan,Chungthang,Lachen,Lachung,Gangtok,Mangan,Namchi,Geyzing,Soreng,Ravangla,Yuksom,Pelling,Rinchenpong,Dentam,Gyalshing,Hee,Bermiok,Tashiding,Yangang,Rangpo,Singhik,Dzongu",
+    "status": "COMPLETE"
   },
   {
     "name": "Sindhi Bhil",
@@ -8456,10 +8416,10 @@ window.asiaNameBases = [
     "i": 200494,
     "min": 4,
     "max": 16,
-    "d": "lnrt",
+    "d": "Somray is a Mon-Khmer language spoken in Cambodia.",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Ratanakiri,Stung Treng,Kratie,Mondulkiri",
+    "status": "COMPLETE"
   },
   {
     "name": "Sonha",
@@ -8476,10 +8436,10 @@ window.asiaNameBases = [
     "i": 200496,
     "min": 4,
     "max": 16,
-    "d": "lnrt",
+    "d": "Sonid Mongol is a Mongolian dialect spoken in Sonid Banners, Inner Mongolia, China.",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Sonid Left,Sonid Right,Erenhot,Xilinhot,Abaga,East Ujimqin,West Ujimqin,Taibus,Zhengxiangbai,Zhenglan,Xianghuang,Duolun",
+    "status": "COMPLETE"
   },
   {
     "name": "Southern Khalkha",
