@@ -2059,4 +2059,66 @@ window.northAmericaNameBases = [
     "m": 0.29,
     "b": "Castries,Gros Islet,Micoud,Vieux Fort,Soufrière,Anse La Raye,Laborie,Choiseul,Dennery,Praslin,Mon Repos,Chassin,Bexon,Cacoa,Fond St. Jacques,Ti Rocher,Monchy,La Clery,Babonneau,Cap Estate,Canaries,Desruisseaux,Grande Ravine,Mongouge,Les Trois Piton,Quatre Chemins,Tete Chemin,Au Leon,Pomme,River Doree,Marigot Bay"
   }
+,
+
+{
+    "name": "American Indian Pidgin English",
+  "i": 200931,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "FortVancouver,FortAstoria,FortGeorge,FortLangley,FortVictoria,FortNisqually,FortColvile,FortNezPerces,FortOkanogan,FortSpokane,FortKamloops,FortAlexandria,FortStJames,FortGeorgeBC,BellaCoola,Kamloops,Victoria,Vancouver,NewWestminster,Yale,Lytton,Hope,BostonBar,Lillooet,Clinton,WilliamsLake,Barkerville,Quesnel,Alexandria,SodaCreek,FortWallaWalla,TheDalles,Celilo,Cascades,Cowlitz,Nisqually,Puyallup,Steilacoom,Olympia,Seattle,Portland,OregonCity,GrandRonde,Siletz,Astoria,Tillicum"
+},,
+
+{
+    "name": "Cauque Mayan",
+  "i": 200938,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "SantaMariaCauque"
+},,
+
+{
+    "name": "Inuktitut-English Pidgin",
+  "i": 200944,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Iqaluit,Pangnirtung,PondInlet,ClydeRiver,Resolute,Kugaaruk,Inuvik,Tuktoyaktuk,Aklavik,FortMcPherson,NormanWells,Yellowknife,Lutselke,FortSmith,HayRiver,FortResolution,RankinInlet,Arviat,BakerLake,WhaleCove,Nain,HappyValley,Churchill,Labrador,Nunavik,BaffinIsland"
+},,
+
+{
+    "name": "Labrador Inuit Pidgin French",
+  "i": 200949,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "StraitsOfBelleIsle,BelleIsle,StraitOfBelleIsle,ChateauBay,Quirpon,Quiberon,SouthernLabrador,BelleIslePidgin,InuitFrenchJargon,LabradorInuitPidginFrench,BelleIsle,StraitsOfBelleIsleRegion"
+},,
+
+{
+    "name": "Pidgin Hawaiian",
+  "i": 200975,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "HawaiianIslands,Oahu,Maui,Hawaii,Kauai,Molokai,Lanai,Niihau,Kahoolawe,Honolulu,Hilo,Lahaina,Wailuku,Kahului,Lihue,Kapaa"
+},,
+
+{
+    "name": "Port Jackson Pidgin English",
+  "i": 200980,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "PortJackson,Sydney,NewSouthWales,Newcastle,BotanyBay,Parramatta,CumberlandPlain,HawkesburyRiver,NorthernTerritory,RoperRiverMission,Ngukurr,StockmenRoutes,SydneyCove,PortJacksonPenalColony,Bennelong,ArthurPhillip,NewSouthWalesPidgin"
+},
+
 ];

@@ -1,11 +1,11 @@
 {
   "blockers": [],
-  "lastUpdate": "2026-08-26T00:00:00.000Z",
+  "lastUpdate": "2026-08-26T00:15:00.000Z",
   "completedEntries": 270,
   "lastVerifiedIndex": 259,
   "totalIssuesFixed": 17921,
   "lastVerifiedName": "Serpents (fantasy)",
-  "currentLanguage": "COMPLETE - All entries processed (260 unknown + 10 fantasy)",
+  "currentLanguage": "COMPLETE - All 260 unknown entries moved to continent files, 10 fantasy entries processed",
   "startedAt": "2026-08-22T14:43:00.000Z",
   "totalNamesVerified": 4240,
   "totalEntries": 270,

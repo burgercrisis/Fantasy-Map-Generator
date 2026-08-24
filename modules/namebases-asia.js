@@ -11541,4 +11541,536 @@ window.asiaNameBases = [
     "b": "KonTum,MangBuk,DakTo,DakGlei,NgocHoi,SaThay,ChuSe,AnKhe,DakGlei,DakSong,Kontum,Pleiku,ChuProng,DakSong,SaThay,NgocHoi,ChuSe,AnKhe,DakGlei,DakSong,KonTum",
     "status": "COMPLETE"
   }
+,
+
+{
+    "name": "Andaman Creole Hindi",
+  "i": 200932,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "PortBlair,Diglipur,Mayabunder,Rangat,Wandoor,Bambooflat,Ferrargunj,HavelockIsland,NeilIsland,RossIsland,Baratang,CoxHead,Chidiatapu,Bakultala,Garacharma,Dollygunj,Dhillon,MithaKhari,RadhaNagar,Vijaynagar,Kadamtala,Sitapur,Karmatang,Manjeri,Laxmipur"
+},,
+
+{
+    "name": "Arabic-Javanese of Klego",
+  "i": 200933,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Klego,Pekalongan,Sugihwaras,Noyontaan,Kauman,Poncol,Dekoro,Gamer,Landungsari,Sokorejo,Baros,Karangmalang"
+},,
+
+{
+    "name": "Bolze",
+  "i": 200934,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "BasseVille,BasseVilleFribourg,Fribourg,SarineRiver,SenseDistrict,Singine"
+},,
+
+{
+    "name": "Duvle-Wano Pidgin",
+  "i": 200940,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "DagaiVillage,DagaiDistrict,PuncakJayaRegency"
+},,
+
+{
+    "name": "Haflong Hindi",
+  "i": 200942,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Haflong,Maibang,Mahur,Diyungbra,Umrangso,Langting,Khobak,Diyungmukh,Dihangi,Dihamla,Hajadisa,Ditudar,Nayapara,Gunjung,DimaHasao,NorthCacharHills,Dimasa,Zeme,Hmar,Kuki"
+},,
+
+{
+    "name": "Javindo",
+  "i": 200946,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Semarang,Batavia"
+},,
+
+{
+    "name": "Macanese Patois",
+  "i": 200951,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Macau,Taipa,Coloane,HongKong,MacaneseCommunity,Patuá,Maquista"
+},,
+
+{
+    "name": "Madras Bashai",
+  "i": 200952,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Chennai,GeorgeTown,NorthChennai,Madras,MadrasBashai,ChennaiTamil,NorthMadras,VadaChennai,Kollywood,MadrasBashaiWords,GeorgeTownArea,ChennaiWorkingClass,ChennaiDialect"
+},,
+
+{
+    "name": "Nagamese",
+  "i": 200962,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Guwahati,Dibrugarh,Tinsukia,Jorhat,Sibsagar,Tezpur,Nagaon,Dimapur,Kohima,Mokokchung,Tuensang,Wokha,Phek,Zunheboto,Mon,Itanagar,Naharlagun,Pasighat,Tawang,Bomdila,Silchar,Haflong,Diphu,Jowai,Shillong,Tura,Barpeta,Goalpara,Umling,Boko,Rangia,London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Maunabo,Castries,Dorado,Arecibo,Jayuya,Aguada,Ceiba,Guayama,Arroyo,Bayamon,SanJuan,Maricao,SanSebastian,RioGrande,Santalsabel,Amurbridge,Aleville,Audville,Aubridge,Amokville,Apanville,Amegwood,Afomville,Anitwood,Apegville,Apumbridge,Akarville,Afutbridge,Anekwood,Abosville,Nefamesetown,Nefameseville,Nefameseburg,Nefameseview,Nefameseside,Cataño,Mayaguez,Utuado,Moca,Luquillo,Salinas,Yabucoa,TrujilloAlto,TheBottom,LasMarias,Lares,ToaAlta,Ponce,Loiza,Akaport,Afirview,Anasville,Abogport,Amilview,Alimport,Aamport,Akudport,Alodport,Adekport,Apisville,Alimview,Aitview,Akurville,Anabport,Nagamesetown,Nagameseville,Nagameseburg,Nagameseview,Nagameseside,Nagamese,Naga,Assamese,Nagameseb,Nagamesef,Nagamesez,Nagamesev,Nagamesej,Nagamesekw,Nagamesetw,Nagamesepw,Nagamesemw,Nagamesesw"
+},,
+
+{
+    "name": "Nefamese",
+  "i": 200966,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Guwahati,Dibrugarh,Tinsukia,Jorhat,Sibsagar,Tezpur,Nagaon,Dimapur,Kohima,Mokokchung,Tuensang,Wokha,Phek,Zunheboto,Mon,Itanagar,Naharlagun,Pasighat,Tawang,Bomdila,Silchar,Haflong,Diphu,Jowai,Shillong,Tura,Barpeta,Goalpara,Umling,Boko,Rangia,London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Guayama,Cataño,Mayaguez,Utuado,Moca,Luquillo,Salinas,Yabucoa,TrujilloAlto,TheBottom,LasMarias,Lares,ToaAlta,Ponce,Loiza,Akaport,Afirview,Anasville,Abogport,Amilview,Alimport,Aamport,Akudport,Alodport,Adekport,Apisville,Alimview,Aitview,Akurville,Anabport,Nagamesetown,Nagameseville,Nagameseburg,Nagameseview,Nagameseside,Maunabo,Castries,Dorado,Arecibo,Jayuya,Aguada,Ceiba,Arroyo,Bayamon,SanJuan,Maricao,SanSebastian,RioGrande,Santalsabel,Amurbridge,Aleville,Audville,Aubridge,Amokville,Apanville,Amegwood,Afomville,Anitwood,Apegville,Apumbridge,Akarville,Afutbridge,Anekwood,Abosville,Nefamesetown,Nefameseville,Nefameseburg,Nefameseview,Nefameseside,Nefamese,Nefa,Arunachali,Along,Roing,Ziro,Seijosa,Nefamesed,Nefameseg,Nefameseb,Nefamesef,Nefamesez,Nefamesev,Nefamesej,Nefamesekw"
+},,
+
+{
+    "name": "Oorlams Creole",
+  "i": 200970,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Pretoria,Johannesburg,CapeTown,Durban,Bloemfontein,PortElizabeth,EastLondon,Kimberley,Pietermaritzburg,Nelspruit,Mafikeng,Polokwane,Thohoyandou,Lebowakgomo,Middelburg,Witbank,Bethal,Ermelo,Standerton,PietRetief,Volksrust,Newcastle,Ladysmith,Kokstad,Queenstown,Grahamstown,Worcester,Paarl,Stellenbosch,Swellendam,George,Oudtshoorn,Riversdale,Caledon,London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Kralendijk,SanSebastian,Utuado,VegaAlta,Yauco,Ciales,Luquillo,Cockburn,Quebradillas,Cayey,Comerio,SabanaGrande,Naguabo,Plymouth,Barceloneta,Akenland,Abugburg,Aunburg,Alerburg,Apemburg,Amoside,Aaland,Aisburg,Afanburg,Akinland,Alorside,Alosburg,Alegland,Amolland,Apomside,PretoriaSothotown,PretoriaSothoville,PretoriaSothoburg,PretoriaSothoview,PretoriaSothoside,SanLorenzo,Yabucoa,Kingstown,VegaBaja,Aguadilla,Rincon,Arroyo,Maunabo,Guaynabo,Ponce,Adjuntas,Isabela,Loiza,Airport,Apowood,Aakwood,Apigport,Alotview,Amanwood,Adodwood,Anirwood,Amisport,Apomview,Akabwood,Ariport,Aabview,Aneview,Anikport,OorlamsCreoletown,OorlamsCreoleville,OorlamsCreoleburg,OorlamsCreoleview,OorlamsCreoleside,Oorlams,Afrikaans,Khoi,IJssel,Fishhoek,Hantam,Karoo,Samoa,Korana,Kleinsee,Soebatsfontein"
+},,
+
+{
+    "name": "Pa",
+  "i": 201134,
+  "min": 4,
+  "max": 12,
+  "d": "lnrt",
+  "m": 0,
+  "b": ""
+},,
+
+{
+    "name": "Qoqmoncaq",
+  "i": 200982,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "XinjiangUyghurAutonomousRegion,QoqmoncaqLanguageArea,XinjiangKazakhMongolianEvenkiArea"
+},,
+
+{
+    "name": "Roquetas Pidgin Spanish",
+  "i": 200984,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "RoquetasDeMar,Almeria,RoquetasDeMarGreenhouses,Andalusia,AlmeriaProvince,PonienteAlmeriense,CostaAlmeria,SeaOfPlastic,RoquetasDeMarMunicipality,AndalusiaRegion,Spain,MediterraneanCoast"
+},,
+
+{
+    "name": "Taimyr Pidgin Russian",
+  "i": 200993,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Dikson,Igarka,Dudinka,Norilsk,Khatanga,Tiksi,Nizhneyansk,Saskylakh,Olenek,Batagay,Verkhoyansk,Sakkyryr,Deputatsky,Baykit,Vilyuysk,Suntar,Nyurba,Mirny,Lensk,Udachny,Zhigan,Kyusyur,Bykovsky,Kharyalakh,UstOlenek,BuorKhaya,Chokurdakh,Chersky,Zyryanka,Srednekolymsk,Seymchan,London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix,Guayama,Arroyo,Bayamon,SanJuan,Maricao,SanSebastian,RioGrande,Santalsabel,SantaIsabel,Canovanas,Kralendijk,Utuado,VegaAlta,Yauco,Ciales,Anadside,Amelside,Aleltown,Akatown,Apumtown,Afitown,Aoside,Akuttown,Anastown,Aabtown,Afontown,Aferburg,Akokside,Austown,Akantown,TaimyrPidginRussiantown,TaimyrPidginRussianville,TaimyrPidginRussianburg,TaimyrPidginRussianview,TaimyrPidginRussianside"
+},,
+
+{
+    "name": "Tinglish",
+  "i": 200997,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Bangkok,ChiangMai,Phuket,Chonburi,Pattaya,Nonthaburi,PakKret,HatYai,NakhonRatchasima,KhonKaen,UbonRatchathani,UdonThani,ChiangRai,NakhonSiThammarat,SuratThani,Trang,Songkhla,PrachuapKhiriKhan,HuaHin,Kanchanaburi,SuphanBuri,Lopburi,Saraburi,Ayutthaya,NakhonSawan,KamphaengPhet,Sukhothai,Phitsanulok,Phetchabun,Loei,NongKhai,Chumphon,London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Naguabo,Arroyo,Maunabo,Guaynabo,Ponce,Adjuntas,Isabela,Loiza,Coamo,Patillas,Carolina,Philipsburg,Lares,ToaBaja,Pefiuelas,Anonford,Autown,Apedtown,Amortown,Alonford,Afottown,Abetland,Alegtown,Amarland,Amorford,Afebland,Anagtown,Aokford,Aobtown,Augland,Tinglishtown,Tinglishville,Tinglishburg,Tinglishview,Tinglishside"
+},,
+
+{
+    "name": "Tsotsitaal",
+  "i": 200998,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Pretoria,Johannesburg,CapeTown,Durban,Bloemfontein,PortElizabeth,EastLondon,Kimberley,Pietermaritzburg,Nelspruit,Mafikeng,Polokwane,Thohoyandou,Lebowakgomo,Middelburg,Witbank,Bethal,Ermelo,Standerton,PietRetief,Volksrust,Newcastle,Ladysmith,Kokstad,Queenstown,Grahamstown,Worcester,Paarl,Stellenbosch,Swellendam,George,Oudtshoorn,Riversdale,Caledon,Soweto,Alexandra,London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Patillas,Carolina,Philipsburg,Lares,Adjuntas,ToaBaja,Pefiuelas,Villalba,RioGrande,FlyingFish,Aguada,Coamo,Naranjito,Lajas,Morovis,Alibport,Anobport,Adolport,Abenport,Akarport,Akosport,Adutbridge,Afumport,Anagwood,Ababridge,Afalwood,Apirbridge,Afodport,Abatwood,Alikbridge,Tsotsitaaltown,Tsotsitaalville,Tsotsitaalburg,Tsotsitaalview,Tsotsitaalside"
+},,
+
+  {
+    "name": "Yaeyama",
+    "i": 251,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Ishigaki,Taketomi,Iriomote,Kohama,Hateruma,Hatoma,Kuroshima,Aragusuku,Yubujima,Shiraho,Kabira,Ohama,Miyara,Yonehara,Fusaki,Hirae,Ibaruma,Oohama,ChuSe,CaiBe,Udomxai,DonDuong,Santikhiri,PakMong,PhuocAn,Pua,CaMau,ThuDauMot,Srinagarindra,ChauDoc,TanTru,Shidian,DongHa,Yaeyamapur,Yaeyamanagar,Yaeyamabad,Yaeyamakot,Yaeyamawada,Yaeyamaghat,Yaeyamapalli,Yaeyamakonda,Yaeyamapeta,Yaeyamaooru,Yaeyamagiri,NagarYaeyama,Yaeyamabari,Yaeyamaganj,Yaeyamabazar,Yaeyamabandar,Yaeyamagram,PalliYaeyama"
+  },,
+
+  {
+    "name": "Yonaguni",
+    "i": 252,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Yonaguni,Sonai,Kubura,Higawa,Irizaki,Tindabana,Agariyama,Utaki,San-ninu-dai,Nandahama,Kitabokujo,Kuburabari"
+  },,
+
+  {
+    "name": "Yoron",
+    "i": 253,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Yoron,Chabana,Mugiya,Asato,Furusato,Gusuku,Yurigahama,Udonosu,Akasaki,Techa,Riku,Tomori"
+  },,
+
+  {
+    "name": "Yilan Creole Japanese",
+    "i": 254,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Yilan,Suao,Toucheng,Jiaoxi,Zhuangwei,Yuanshan,Dongshan,Sanxing,Wujie,Luodong,Nanfangao,Taipei,Keelung,Taoyuan,Datong,Nanao,Wutai,Jianshi,Philipsburg,Lares,Adjuntas,ToaBaja,Pefiuelas,Villalba,RioGrande,FlyingFish,Aguada,Coamo,Naranjito,Lajas,Morovis,Ceiba,Gustavia,Abaview,Amambridge,Akatbridge,Apubridge,Aderbridge,Afilville,Animbridge,Adodview,Amekview,Amatview,Anabridge,Akimbridge,Airview,Akibridge,Akombridge,YilanCreoleJapanesetown,YilanCreoleJapaneseville,YilanCreoleJapaneseburg,YilanCreoleJapaneseview,YilanCreoleJapaneseside"
+  },,
+
+  {
+    "name": "Yokohama Pidgin Japanese",
+    "i": 255,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Tokyo,Yokohama,Kanagawa,Negishi,Honmoku,Naka,Kawasaki,Sagamihara,Fujisawa,Odawara,Chigasaki,Kamakura,Hiratsuka,Yokosuka,Zushi,Miura,Hayama,Oiso,Isehara,Atsugi,Ebina,Minamiashigara,Hadano,Shonan,Motomachi,Sakuragicho,Minato Mirai,Shinagawa,Ofuna"
+  },,
+
+  {
+    "name": "Burmish",
+    "i": 270,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Myitkyina,Bhamo,Puta-O,Hpakant,Shwegu,Momeik,Namhkam,Muse,Laukkaing,Mongko,Kutkai,Hopin,Putao,Machanbaw,Injangyang,Tanai,Waingmaw,Momauk,Katha,Banmauk,Wuntho,Kawlin,Adalview,Adigport,Afemview,Anidport,Afolview,Aditport,Aadview,Amamview,Apumview,Aibport,Akelview,Amowood,Adokview,Anubview,Abedview,Burmishtown,Burmishville,Burmishburg,Burmishview,Burmishside"
+  },,
+
+  {
+    "name": "Burmo Qiangic",
+    "i": 271,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Xichang,Kangding,Aba,Barkam,Songpan,Heishui,Maoxian,Wenchuan,Luding,Litang,Daocheng,Danba,Jiulong,Muli,Yanyuan,Mianning,Huili,Huidong,Panzhihua,Myitkyina,Chipwi,Tsawlaw,Injangyang,Tanai,Machanbaw,Putao,Sumprabum,Waingmaw,Momauk,Shwegu,Bhamo,Adumside,Afubside,BurmoQiangictown,BurmoQiangicville,BurmoQiangicburg,BurmoQiangicview,BurmoQiangicside,BurmoQiangicport,BurmoQiangicland,BurmoQiangicwood,BurmoQiangicford,BurmoQiangicbridge,BurmoQiangicfield,BurmoQiangicgrove,BurmoQiangichaven,BurmoQiangicbrook,BurmoQiangicshire,BurmoQiangicstead,BurmoQiangicdale,BurmoQiangiccrest"
+  },,
+
+  {
+    "name": "Caijia",
+    "i": 272,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Bijie,Qianxi,Weining,Nayong,Jinsha,Dafang,Qixingguan,Hezhang,Xingyi,Anshun,Guiyang,Liupanshui,Caijia,Panzhihua,Huili,Xichang,Zhaojue,Meigu,Leibo,Jinyang,Butuo,Ninglang,Yongshan,Yanbian,Alokville,Akabville,Aleport,Adudport,Amitport,Anetview,Apedport,Apuville,Akonport,Alotport,Afamport,Aurport,Amagport,Abirport,Alodville,Caijiatown,Caijiaville,Caijiaburg,Caijiaview,Caijiaside"
+  },,
+
+  {
+    "name": "Chepang",
+    "i": 273,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Chitwan,Makwanpur,Dhading,Gorkha,Tanahun,Lamjung,Kaski,Syangja,Palpa,Gulmi,Arghakhanchi,Kapilvastu,Rupandehi,Nawalparasi,Parsa,Bara,Rautahat,Sarlahi,Mahottari,Dhanusha,Siraha,Saptari,Sunsari,Morang,Afestown,Adortown,Adoltown,Akustown,Anartown,Anedtown,Adobtown,Abantown,Adentown,Apontown,GreaterChepangtown,GreaterChepangville,GreaterChepangburg,GreaterChepangview,GreaterChepangside,GreaterChepangport,GreaterChepangland,GreaterChepangwood,GreaterChepangford,GreaterChepangbridge"
+  },,
+
+  {
+    "name": "Macro-Yaeyama",
+    "i": 279,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Ishigaki,Miyara,Taketomi,Kohama,Iriomote,Hateruma,Hatoma,Kuroshima,Yubujima,Kabira,Shiraho,Ohama,TanChau,ChauThanh,Baoshan,QuangTri,TieuCan,Lushui,DakTo,XamNeua,DaLat,Thaton,DienBien,LaiUyen,BoKluea,SocTrang,ThuanAn,Aolwada,Afumpeta,Afubpalli,Apinwada,Adilpeta,Adurpalli,Anumwada,Anuspeta,Anakpeta,Apurwada,Anarpeta,Apunpalli,Apomwada,Aubpalli,Anebwada,MacroYaeyamapur,MacroYaeyamanagar,MacroYaeyamabad,MacroYaeyamakot,MacroYaeyamawada"
+  },,
+
+  {
+    "name": "Miyakoan",
+    "i": 280,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Miyakojima,Hirara,Shimoji,Irabu,Ikema,Kurima,Taramajima,Shimajiri,Gusukube,Ueno,Karimata,Sugama"
+  },,
+
+  {
+    "name": "Southern Amami",
+    "i": 281,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Amami,Naze,Setouchi,Kakeroma,Ukejima,Koniya,Yamato,Uken,Higashi,Hatsuno,Yuwan,Yoro Island,SouthernAmamik,SouthernAmamit,SouthernAmamip,SouthernAmamim,SouthernAmamin,SouthernAmamis,SouthernAmamir,SouthernAmamil"
+  },,
+
+  {
+    "name": "Okinoerabu",
+    "i": 282,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Wadomari,China,Kunigami,Inoha,Serikaku,Nishime,Shinjo,Yashichi,Kamisato,Shoryu,Izena,Okinoerabu,BinhLong,PongPrasat,DongXoai,DucHue,Yongchang,ViThanh,SaDec,ShangriLa,DongXuan,GoCongDong,Mohan,DaiLinh,Phayao,ViengPhoukha,TrangBom,Okinoerabupur,Okinoerabunagar,Okinoerabubad,Okinoerabukot,Okinoerabuwada,Okinoerabughat,Okinoerabupalli,Okinoerabukonda,Okinoerabupeta,Okinoerabuooru,Okinoerabugiri,NagarOkinoerabu,Okinoerabubari,Okinoerabuganj,Okinoerabubazar,Okinoerabubandar,Okinoerabugram,PalliOkinoerabu"
+  },,
+
+  {
+    "name": "Tokunoshima",
+    "i": 283,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Tokunoshima,Kamezu,Amagi,Isen,Kinen,Kanami,Inokawa,San,Kobake,Totomi,Mikyo,Tokunoshima Town"
+  },,
+
+  {
+    "name": "Amami",
+    "i": 293,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Amami,Naze,Kasari,Tatsugo,Yuwan,Sumiyo,Koniya,Setouchi,Uken,Yamato,Akina,Kominato,Amami-Naze,Amami-Kasari,Amami-Tatsugo,Amami-Yuwan,Amami-Sumiyo,Amami-Koniya,Amami-Setouchi,Amami-Uken,Amami-Yamato,Amami-Akina,Amami-Kominato,Amami-Amami"
+  },,
+
+  {
+    "name": "Kikai",
+    "i": 294,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Kikai,Wan,Kasari,Yonama,Araki,Aden,Shitooke,Nakadomari,Akaren,Shimamura,Shioya,Tean,Kikai-Wan,Kikai-Kasari,Kikai-Yonama,Kikai-Araki,Kikai-Aden,Kikai-Shitooke,Kikai-Nakadomari,Kikai-Akaren,Kikai-Shimamura,Kikai-Shioya,Kikai-Tean,Kikai-Kikai"
+  },,
+
+  {
+    "name": "Kunigami",
+    "i": 295,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Kunigami,Nago,Nakijin,Ogimi,Higashi,Motobu,Ginoza,Onna,Yomitan,Gusuku,Nakagusuku,Kunigami-Nago,Kunigami-Nakijin,Kunigami-Ogimi,Kunigami-Higashi,Kunigami-Kunigamison,Kunigami-Motobu,Kunigami-Ginoza,Kunigami-Onna,Kunigami-Yomitan,Kunigami-Gusuku,Kunigami-Nakagusuku,Kunigami-Kunigami"
+  },,
+
+  {
+    "name": "Okinawan",
+    "i": 296,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Naha,Shuri,Urasoe,Itoman,Tomigusuku,Ginowan,OkinawaCity,Uruma,Nago,Chatan,Yomitan,Nakagusuku,Okinawa-Naha,Okinawa-Shuri,Okinawa-Urasoe,Okinawa-Itoman,Okinawa-Tomigusuku,Okinawa-Ginowan,Okinawa-OkinawaCity,Okinawa-Uruma,Okinawa-Nago,Okinawa-Chatan,Okinawa-Yomitan,Okinawa-Nakagusuku"
+  },,
+
+  {
+    "name": "Butler English",
+    "i": 297,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Chennai,Bangalore,Hyderabad,Coimbatore,Madurai,Trichy,Salem,Vellore,Thanjavur,Tirunelveli,Kanyakumari,Nagercoil,Thoothukudi,Rameswaram,Puducherry,Cuddalore,Villupuram,Tirupati,Kanchipuram,Mahabalipuram,Mylapore,Adyar,Guindy,Velachery,Tambaram,Kolkata,Mumbai,Delhi,Pune,Ahmedabad,Jaipur,Lucknow,Kanpur,Nagpur,Luquillo,Salinas,Yabucoa,TrujilloAlto,TheBottom,LasMarias,Lares,ToaAlta,Ponce,Loiza,Oranjestad,Moca,Yauco,Corozal,Guánica,Abonford,Abebtown,Afolland,Aratown,Aostown,Anilland,Afonland,Anebtown,Akoford,Apulland,Apuktown,Amukland,Animtown,Adolland,Adekland,ButlerEnglishtown,ButlerEnglishville,ButlerEnglishburg,ButlerEnglishview,ButlerEnglishside"
+  },,
+
+  {
+    "name": "Abaza",
+    "i": 300,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Abaza,Cherkessk,Karachay,Cherkessia,Elbrus,Teberda,Dombay,Khasaut,Khabez,UstDzheguta,Zelenchuk,Arkhyz,Ust-Dzheguta,CherkessiaElbrus,Abenview,Apibwood,Apulport,Apetwood,Audview,Afinview,Amabwood,Aduport,Anokwood,Akodview,Afomview,Adotwood,Adugport,Akarwood,Amibview,Abazatown,Abazaville,Abazaburg,Abazaview,Abazaside"
+  },,
+
+  {
+    "name": "Bzyb",
+    "i": 303,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Bzyb,Bzypta,Pitsunda,Gagra,Gudauta,Ritsa,Ldzaa,Alakhadzi,Gegsky,Psyrtskha,Kodori,Geg,BzyptaRitsa,PsyrtskhaKodori,Apiltown,Amokside,Alagburg,Aminside,Anabtown,Abotown,Akekside,Apagburg,Alumside,Aduttown,Augtown,Aunside,Aabburg,Adelside,Akoktown,Bzybtown,Bzybville,Bzybburg,Bzybview,Bzybside"
+  },,
+
+  {
+    "name": "Aghul",
+    "i": 304,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Tpig,Richa,Fite,Khudig,Keren,Chirag,Akhty,Rutul,Kasumkent,Derbent,Tabasaran,Kurakh,TpigKurakh,DerbentTabasaran,KasumkentAghul,RichaChirag,Akonbridge,Adabview,Adilville,Adukview,Afegbridge,Amunbridge,Aosview,Alilville,Abekview,Anagbridge,Amanbridge,Alesview,Amiville,Anorview,Ausbridge,Aghultown,Aghulville,Aghulburg,Aghulview,Aghulside"
+  },,
+
+  {
+    "name": "Anatolian Arabic",
+    "i": 308,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Mersin,Adana,Hatay,Gaziantep,Kilis,Sanliurfa,Antakya,Iskenderun,Tarsus,Osmaniye,Kahramanmaras,Diyarbakir,Sardasht,Kharanaq,Fooman,Astaneh,Tonekabon,Kuhdasht,Rudsar,Showt,Chaluk,MahdiShahr,Abarkuh,Babolsar,BuinZahra,Shoghan,Heris,Boekan,Azureh,Avegeh,Axigan,Biekan,Aobeh,Aruneh,Cauran,Atinan,Akoseh,Aoteh,Ceiban,Chusan,Afureh,Aroreh,AnatolianArabicabad,AbadAnatolianArabic,AnatolianArabican,AnatolianArabician,Anatabad"
+  },,
+
+  {
+    "name": "Baghdadi Arabic",
+    "i": 310,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Baghdad,Kadhimiya,Adhamiya,SadrCity,Karkh,Rusafa,Basra,Najaf,Karbala,Hilla,Wasit,Diyala,Sadr City,BaghdadiArabick,BaghdadiArabict,BaghdadiArabicp,BaghdadiArabicm"
+  },,
+
+  {
+    "name": "Bahraini Gulf Arabic",
+    "i": 311,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Manama,Muharraq,Riffa,Isa Town,Hamad Town,Sitra,Budaiya,Jidhafs,Sanabis,Seef,Busaiteen,A'ali,Saqqez,Mehriz,Babolsar,Chalus,Mohammadabad,Maragheh,Karand,Dehgolan,Abarkuh,Aqqala,Anzali,Abuolhasani,Maku,Omidiyeh,Kabudarahang,Avadian,Apubabad,Anenabad,Apenian,Atadian,Biodabad,Afusabad,Azobian,Alesian,Ceobabad,Beelian,Bioian,Caukabad,Afobabad,Avanian,BahrainiGulfArabicabad,AbadBahrainiGulfArabic,BahrainiGulfArabican,BahrainiGulfArabician,Bahrabad"
+  },,
+
+  {
+    "name": "Bukharian Arabic",
+    "i": 313,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Bukhara,Samarkand,Navoi,Kattakurgan,Karshi,Shahrisabz,Termez,Dushanbe,Khujand,Panjakent,Tashkent,Balkh,Gomishan,InchehBorun,Sarab,GilanGharb,Bijar,Bafq,Qaemshahr,Kelardasht,Shoghan,Hashtrud,Kangavar,Qorveh,Marvast,BandarTorkaman,Siahkal,Beasabad,Avotian,Atalian,Avelabad,Baasabad,Ceisian,Anokian,Bootabad,Arekabad,Adidian,Ceikian,Buegabad,Caodabad,Abotian,Anitian,BukharianArabicabad,AbadBukharianArabic,BukharianArabican,BukharianArabician,Bukhabad"
+  },,
+
+  {
+    "name": "Cairene Arabic",
+    "i": 314,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Cairo,Giza,Hilwan,Shubra El-Kheima,Maadi,Nasr City,Imbaba,Old Cairo,Abbasiya,Zamalek,Al-Marg,Al-Matariya,Dehgolan,Abarkuh,Aqqala,Anzali,Abuolhasani,Maku,Omidiyeh,Kabudarahang,Biyarjomand,Ramian,Shaft,ChaghaKabol,ShahinDej,TorbatJam,Nur,Anuleh,Afolan,Adaseh,Amuleh,Caoban,Aaeh,Beilan,Avian,Asakeh,Atireh,Azodan,Caidan,Amuteh,Biaseh,Cauneh,CaireneArabicabad,AbadCaireneArabic,CaireneArabican,CaireneArabician,Cairabad"
+  },,
+
+  {
+    "name": "Central Asian Arabic",
+    "i": 315,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Bukhara,Samarkand,Kattakurgan,Karshi,Termez,Dushanbe,Khujand,Panjakent,Shahrisabz,Navoi,Tashkent,Balkh,Chegeni,Naqadeh,Tazehabad,SavadKuh,Turkaman,Kapaz,Bostanabad,Harsin,Ghorveh,Ardakan,Sari,Tonekabon,Firuzan,Mianeh,Kermanshah,Caurian,Beorabad,Azagabad,Baagian,Buurian,Adibabad,Atonabad,Chirian,Axanian,Amisabad,Aditabad,Abaian,Abigian,Alorabad,Atirabad,CentralAsianArabicabad,AbadCentralAsianArabic,CentralAsianArabican,CentralAsianArabician,Centabad"
+  },,
+
+  {
+    "name": "Ainu",
+    "i": 316,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Sapporo,Asahikawa,Obihiro,Kushiro,Abashiri,Wakkanai,Nemuro,Shiraoi,Nibutani,Akan,Mukawa,Chitose,Biratori,Nayoro,Rumoi,Fukagawa,Takikawa,Sunagawa,Mikasa,Tomakomai,Noboribetsu,Date,Shinhidaka,Hidaka,Urakawa,Samani,Hiroo,Erimo,Oshamambe,SiNakharin,SongCau,DinhQuan,LaiVung,Akerkonda,Adobnagar,Aduluru,Aditnagar,Afugkonda,Amirkonda,Aebnagar,Aluluru,Abuknagar,Anogkonda,Amonkonda,Alusnagar,Amuuru,Aneknagar,Aibkonda,Ainupur,Ainunagar,Ainubad,Ainukot,Ainuwada"
+  },,
+
+{
+    "name": "Hachijo",
+  "i": 317,
+  "min": 4,
+  "max": 11,
+  "d": "nic-GH",
+  "m": 0,
+  "b": "Okago,Mitsune,Nakanogo,Kashitate,Sueyoshi,Aogashima,Utsuki,Toriuchi,Minamidaito,Kitadaito"
+},,
+
+{
+    "name": "Ryukyuan",
+  "i": 321,
+  "min": 4,
+  "max": 11,
+  "d": "nic-GH",
+  "m": 0,
+  "b": ""
+},,
+
+{
+    "name": "Egyptian Arabic",
+  "i": 322,
+  "min": 4,
+  "max": 11,
+  "d": "nic-GH",
+  "m": 0,
+  "b": "Cairo,Alexandria,Giza,ShubraElKheima,PortSaid,Suez,Luxor,Mansoura,ElMahallaElKubra,Tanta,Asyut,Ismailia,Fayyum,Zagazig,Aswan,Damietta,Damanhur,Minya,BeniSuef,Qena,Sohag,Hurghada,KafrElSheikh,Mallawi,Banha,Bilbeis,BorgElArab,Desouk,DarElSalam,Dokki,Daraw,DeirMawas,Dekernes,Dishna,Edfu,Delengat,Heliopolis,Helwan,KafrElDawwar,KafrElZayat,KomHamada,Maadi,Maghaghah,Manfalut,MarinaElAlamein,MarsaAlam,Matay,Menouf,MitGhamr,MinyetElNasr,NagHammadi,Naqada,NewCairo,Obour,OldCairo,PortFuad,Qalyub,Quesna,Qus,Rosetta,SadatCity,Samalut,ShibinElKom,SidiSalem,Tala,Tahta,TellElKebir,Zamalek,Zeitoun,SixthOfOctober,TenthOfRamadan,ElGouna,Shorouk,Badr,NewBorgElArab,NewDamietta,NewMinya,NewSohag,NewQena,NewAsyut,NewFayyum,NewBeniSuef,NewIsmailia"
+},,
+
+{
+    "name": "Northern Formosan",
+  "i": 21118,
+  "min": 4,
+  "max": 12,
+  "d": "lnrt",
+  "m": 0,
+  "b": ""
+},,
+
+{
+    "name": "Nedebang",
+  "i": 201113,
+  "min": 4,
+  "max": 12,
+  "d": "lnrt",
+  "m": 0,
+  "b": "PantarIsland,Balungada,Baulang,AirPanas,AlorArchipelago"
+},,
+
+{
+    "name": "Nuaulu",
+  "i": 201123,
+  "min": 4,
+  "max": 12,
+  "d": "lnrt",
+  "m": 0,
+  "b": "SeramIsland,AmahaiDistrict,Simalou,Kilo12,Bunara,KampungLama,Hahualan,Rouhua,RouhuaBaru,NorthSeramDistrict"
+},,
+
+  {
+    "name": "Pa",
+    "i": 201134,
+    "min": 4,
+    "max": 12,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Alofi,Noumea,Papeete,Honiara,Apia,PortVila,Palikir,Avarua,PortMoresby,NukuAlofa,Suva,Masefau,Fagaloa,Tafea,Apolima,Mataika,Leone,Nukufetau,Auki,Saleaula,Ringdove,Fagali,Talasiu,Ta'u,Matangia,Tanna,Aonu,Anuboa,Areu,Aliboa,Afagu,Adanu,Adeei,Alubu,Akigu,Amesei,Afinu,Afugoa,Aitoa,Amagu,Aoku,APa,Pae,Pai,OPa,UPa,KlPa,TlPa,PlPa,MlPa,NlPa,SlPa,RlPa,LdPa,DlPa,GlPa"
+  }
+
 ];

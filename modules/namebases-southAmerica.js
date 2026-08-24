@@ -1243,4 +1243,746 @@ window.southAmericaNameBases = [
   "m": 0,
     "b": "Rivera,Artigas,Chuy,Melo,RioBranco,Tacuarembó,BellaUnión,Salto,Paysandú,TreintaYTres,CerroLargo,Montevideo,Maldonado,CiudadDeLaCosta,SanJoséDeMayo,Minas,Durazno,FrayBentos,Trinidad,LaPaloma,PuntaDelEste,ColoniaDelSacramento,NuevaPalmira,Carmelo,NuevaHelvecia,Vichadero,MinasDeCorrales,Young,NuevoBerlín,Castillos,Rocha,Mercedes,Salina,Livramento,SantanaDoLivramento,Aceguá,Quaraí,Masoller,SantaAna,Tranqueras,Valentines,FraileMuerto,Cerrillos"
 },
+,
+
+{
+    "name": "Media Lengua",
+  "i": 200955,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Quito,Guayaquil,Cuenca,Ambato,Riobamba,Loja,Latacunga,Portoviejo,Manta,SantoDomingo,Machala,Quevedo,Babahoyo,Chone,Duran,Ibarra,Otavalo,Cotacachi,Sangolqui,Cayambe,Tena,Puyo,Macas,Zamora,Banos,Guaranda,Azogues,Tulcan,NuevaLoja,Coca,Shell,Mera,Arajuno,Pujili,Pelileo,London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,La Paz,Montevideo,Asunción,Brasília,Utuado,VegaAlta,Yauco,Ciales,Luquillo,Cockburn,Quebradillas,Cayey,Comerio,SabanaGrande,Naguabo,Plymouth,Barceloneta,Carolina,Barranquitas,Amedford,Abamburg,Areburg,Adutown,Akurburg,Afalford,Apikburg,Alubtown,Ametford,Akurtown,Alaford,Apudtown,Auburg,Amigburg,Adultown,MediaLenguatown,MediaLenguaville,MediaLenguaburg,MediaLenguaview,MediaLenguaside"
+},,
+
+{
+    "name": "Ndyuka-Tiriyó Pidgin",
+  "i": 200965,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Paramaribo,NieuwNickerie,Moengo,Albina,Brokopondo,Brownsweg,Groningen,Totness,Coronie,Wageningen,NewAmsterdam,RoseHall,Skeldon,Corriverton,Lethem,Bartica,Mabaruma,AnnaRegina,Georgetown,Unity,Rosignol,Berbice,Canje,Ituni,Linden,Kwakwani,Mahaica,Whim,Enmore,Vreedenhoop,London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,SanGerman,AguasBuenas,LasPiedras,Brades,Manati,Humacao,Orocovis,Mayaguez,Juncos,Maunabo,Castries,Dorado,Arecibo,Jayuya,Aguada,Afunford,Aboltown,Abemburg,Anogford,Abutford,Aneburg,Akontown,Adasburg,Afutburg,Adogtown,Apolburg,Adulford,Amaburg,Afimford,Abakford,NdyukaTiriyPidgintown,NdyukaTiriyPidginville,NdyukaTiriyPidginburg,NdyukaTiriyPidginview,NdyukaTiriyPidginside"
+},,
+
+{
+    "name": "Pidgin Ngarluma",
+  "i": 200977,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "NorthWestCape,PilbaraPearlingArea,NgarlumaCountry,Roebourne,Cossack,Millstream,MaitlandRiver,PilbaraRegion"
+},,
+
+{
+    "name": "Pidgin Onin",
+  "i": 200978,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "OninPeninsula,BomberaiPeninsula,FakfakRegency,KokasDistrict,TelukPatipiDistrict,WestPapua,OninBasedPidgin,OninLanguageArea"
+},,
+
+{
+    "name": "Peruvian Ribereño",
+  "i": 529,
+  "min": 4,
+  "max": 11,
+  "d": "es-PE",
+  "m": 0,
+  "b": "Lima,Trujillo,Chiclayo,Piura,Tumbes,Paita,Talara,Chimbote,Huacho,Pisco,Ica,Nazca,Arequipa,Mollendo,Camana,Ilo,Moquegua,Tacna,Callao,Huanchaco,Salaverry,Pimentel,Sechura,Sullana,Catacaos,Chincha,Cañete,CerroAzul,Asia,Mala,SanVicenteDeCanete,Imperial,Chancay,Huaral,Huaycan,SanBartolo,PuntaHermosa,PuntaNegra,SanPedroDeLloc,Pacasmayo,Guadalupe,Chepen,Virú,TrujilloMetro,LaEsperanza,ElPorvenir,FlorenciaDeMora,VictorLarcoHerrera,HuanchacoDistrito,Moche,SalaverryDistrito,Laredo,VictorLarco,ChiclayoMetro,LaVictoria,JoseLeonardoOrtiz,Pomalca,Reque,Motupe,Lambayeque,Monsefu,Etén,PuertoEten,Ferreñafe,PiuraMetro,Castilla,VeintiseisDeOctubre,CatacaosDistrito,LaArena,LaUnión,LosOrganos,Mancora,LosAquijes,Paracas,SanJuanDeMarcona,Marcona"
+},,
+
+{
+    "name": "Achagua ",
+  "i": 744,
+  "min": 4,
+  "max": 11,
+  "d": "nic-GH",
+  "m": 0,
+  "b": "PuertoLopez,PuertoGaitan,Umapo,ElTurpial"
+},,
+
+  {
+    "name": "Miskito",
+    "i": 2576,
+    "min": 4,
+    "max": 12,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Bluefields,Bilwi,Waspam,PuertoCabezas,Prinzapolka,Awasbila,Tuara,Krukira,Haulover,Karawala,SandyBay,Lamlaya,Tasbapauni,Kakabila,Siuna,Rosita,Bonanza,Puerto Cabezas,Sandy Bay,La Cruz Grande,Bismuna,Awas Tingni,Layasiksa,Dakura,Karata,Walpasiksa,Sinsin,Ubu,Tuapi,Krinkrin,San Jeronimo,Santa Marta,San Carlos,San Juan Coco"
+  },,
+
+{
+    "name": "Tikuna",
+  "i": 2580,
+  "min": 4,
+  "max": 12,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Leticia,Tabatinga,BenjaminConstant,SantoAntonio,SaoPauloOlivenca,PuertoNarino,SantaSofia,Caballococha,Yavari,AtalaiaDoNorte,Tonantins,Islandia,BenjaminConstant,SantoAntonio,SaoPauloOlivenca,PuertoNarino,SantaSofia,Nazaret,SanMartin,Tarapoto,AtalaiaDoNorte,Amatura,SanPedro,SantaRita,SanPablo,CushilloCocha,TresFronteras,LagoTarapoto,PuertoAlegria,PuertoArica,SantaRosa,Pucaurquillo,Bellavista,Pevas,NuevoIsrael,SanJoseAmazonas"
+},,
+
+{
+    "name": "Ladino",
+  "i": 2622,
+  "min": 4,
+  "max": 12,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Istanbul,Thessaloniki,Izmir,Edirne,Bursa,Ankara,Safed,Tiberias,Jerusalem,Hebron,TelAviv,Haifa,Cairo,Alexandria,Tangier,Fez,Marrakesh,Belgrade,Skopje,Monastir,Bitola,Sarajevo,Split,Dubrovnik,Zagreb,Algiers,Oran,Constantinople,Adrianople,Smyrna,Salonika,Sofia,Bucharest,Plovdiv,Varna,Burgas,Ruse,VelikoTarnovo,Pleven,StaraZagora,Haskovo,Kazanlak,Gabrovo,Lovech,Montana,Vidin,Rousse,Shumen,Sliven,Yambol,Pazardzhik,Blagoevgrad,Kyustendil,Sandanski,Petrich,GotseDelchev,Razlog,Bansko,Dupnitsa,Kyustendil,Samokov,Ihtiman,Kostenets,Septemvri,Radomir,Pernik,Sofia,Plovdiv,StaraZagora,NovaZagora,Kazanlak,Karlovo,Sopot,Kalofer,Karlovo,Plovdiv,Asenovgrad,Haskovo,Kardzhali,Krumovgrad,Dimitrovgrad,Kharmanli,Ivaylovgrad,Madzharovo,Topolovgrad,Svilengrad,Elhovo,Yambol,Burgas,Nesebar,Primorsko,Michurin,Sozopol,Primorsko,MalkoTarnovo,Ahtopol,Tsarevo,Sinemorets,Rezovo,Ahtopol"
+},,
+
+  {
+    "name": "Sranan",
+    "i": 2654,
+    "min": 4,
+    "max": 12,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Paramaribo,NieuwNickerie,Lelydorp,Moengo,Albina,NieuwAmsterdam,Brownsweg,Groningen,Wageningen,Totness,Onverwacht,Brokopondo,Tamanredjo,Domburg,Meerzorg,Nieuw Nickerie,Nieuw Amsterdam,Saramacca,Coronie,Commewijne,Marowijne,Brokopondo Centrum,Tisco,Arapa,Mañazo,Huaqui,AyoAyo,Desaguadero,Ayaviri,Yucay,Putucusi,Oxapampa,Moyobamba,Quiruvilca,Coracora,AltoPichigua,Occo,Adalzu,Abikgu,Abudzu,Aozu,Akikgu,Aedzu,Alirgu,Amobzu,Abatzu,Apiszu,Aiggu,Akisgu,Adugzu,Aetzu,Alidgu,Sranancu,Srananzu,Srananla"
+  },,
+
+  {
+    "name": "Aluku",
+    "i": 3008,
+    "min": 4,
+    "max": 12,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Cottica,Moiwana,Langatabiki,Stoelmans,Eilanden,Anapaike,Palumeu,Apetina,Sipaliwini,Kaur,Benzdorp,Antino,Kawemhakan,Papaichton,Camopi,Maripasoula,Kawina,Saül,Taluen,Nassau,GranSanti,Vlacha,Aymaraes,Chamaca,Ollantaytambo,Soracachi,Pomata,Suyckutambo,Pantaleon,Quehue,Ulloma,Andahuaylas,Moho,Saylla,Llalli,Juanjui,Anukpa,Aburpa,Adunpa,Abulpa,Amugpa,Abutpa,Afumpa,Adubpa,Aumpa,Akuspa,Anupa,Anunpa,Alukpa,Aluspa,Akutpa,Alukucu,Alukuzu,Alukula"
+  },,
+
+{
+    "name": "Ashaninka",
+  "i": 5309,
+  "min": 4,
+  "max": 12,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Satipo,PuertoOcopa,Tambo,Mazamari,RioNegro,Kivinaki,Pichari,Kepashiato,Sivaki,Ayacucho,Pangoa,Tsanquiato,Samaniato,Shimaa,Putucusi,Kiteni,RioTamboSantaMaria,Churingaveni,Unini,Mirallegro,Palmapampa"
+},,
+
+{
+    "name": "Aymara",
+  "i": 5630,
+  "min": 4,
+  "max": 12,
+  "d": "lnrt",
+  "m": 0,
+  "b": "ElAlto,Viacha,Achacachi,Warisata,Huarina,Desaguadero,Tiwanaku,Laja,SicaSica,Patacamaya,Calamarca,Colquencha,Collana,Batallas,Pucarani,Huatajata,Tiquina,Copacabana,Yunguyo,Juli,Ilave,Puno,Acora,Guaqui,Ventilla"
+},,
+
+  {
+    "name": "Berbice",
+    "i": 5812,
+    "min": 4,
+    "max": 12,
+    "d": "lnrt",
+    "m": 0,
+    "b": "NewAmsterdam,RoseHall,Skeldon,Corriverton,Ituni,Kwakwani,Kurupukari,FairMaiden,BerbiceRiver,Number43,BlackBushPunt,Temple,SistersVillage,MolesonCreek,CrabwoodCreek,CaneGrove,SheetAnchor,PlegtAnker,Berbice,Canje,Berbician,DutchCreole,FortNassau,Peereboom,Maria,Maboen,StLucian,NewBee"
+  },,
+
+{
+    "name": "Macaguán (Hitnü)",
+  "i": 5813,
+  "min": 4,
+  "max": 12,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Arauca,PuertoRondon,CravoNorte,PazDeAriporo,Trinidad,SanLuisDePalenque,Pore,Nunchia,Gameza,LaSalina,Sacama,Aguaclara,Cumaral,Sabanalarga,Monterrey,Villanueva,Tauramena,Aguazul,Yopal,PuertoRondón,Orocué,Nunchía,Chámeza,Tilali,Plateria,Challacollo,Calamarca,Pomata,Livitaca,Pichari,Kivinaki,TingoMaria,Bambamarca,Yauyos,Tambobamba,Coporaque,Antauta,Nicasio"
+},,
+
+{
+    "name": "Mika Huitoto",
+  "i": 5819,
+  "min": 4,
+  "max": 12,
+  "d": "lnrt",
+  "m": 0,
+  "b": "ElEncanto,LaChorrera,UpperCaqueta,Orteguaza,Putumayo,CaraParana,IgaraParana"
+},,
+
+{
+    "name": "Muinane",
+  "i": 5816,
+  "min": 4,
+  "max": 12,
+  "d": "lnrt",
+  "m": 0,
+  "b": "LaChorrera,PuertoArica,ElEncanto,SanRafael,VillaAndrea,Comeyafu,Araracuara,Mitú,Pacoa,LaPedrera,Yavarate,Monforth,Pana,Mitú,Tarapaca,SanFelipe,Cacahual,PanaPana,SanLuis,PuertoColombia,LaZulia,SanMiguel,Huayllabamba,VillaVirgen,Pichanaqui,Tarapoto,SantiagoDeChuco,Puquio,Condoroma,Umachiri,Taraco,Taquile,Corocoro,Achacachi,Ulloma,Combapata,SantaTeresa"
+},,
+
+{
+    "name": "Nukak",
+  "i": 5817,
+  "min": 4,
+  "max": 12,
+  "d": "lnrt",
+  "m": 0,
+  "b": "SanJoseDelGuaviare,ElRetorno,Calamar,Miraflores,LaMacarena,PuertoConcordia,Mapiripan,PuertoLleras,PuertoRico,SanJuanDeArama,VistaHermosa,SanJoséDelGuaviare,Mapiripán,LaUribe,Mesetas,Lejanías,ElDorado,Granada,FuentedeOro,PuertoLópez,SanCarlosDeGuaroa,Acacías,SanMartín,NukakReservation,Wayari,Mipa,Taka,Meu,Miꞌpa"
+},,
+
+{
+    "name": "Sateré-Mawé",
+  "i": 5818,
+  "min": 4,
+  "max": 12,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Barreirinha,Parintins,Maués,BoaVistaDoRamos,NovaOlindaDoNorte,Itacoatiara,Urucurituba,SaoSebastiao,Silves,Itapiranga,Faro,TerraSanta,Obidos,Juruti,Alenquer,MonteAlegre,Prainha,Almeirim,AndiraMarauTI,AndiraRiver,MarauRiver,MiritiRiver,UrupadiRiver,ManjuruRiver,UaicurapaRiver,AbacaxisRiver,Noçoquém,Nusoken"
+},,
+
+{
+    "name": "Tenetehára",
+  "i": 5819,
+  "min": 4,
+  "max": 12,
+  "d": "lnrt",
+  "m": 0,
+  "b": "SantaLuzia,BarraDoCorda,Imperatriz,Araguaina,Colinas,SaoJoaoDosPatos,Sucupira,Riachao,Balsas,Carolina,AltoParnaiba,Paraopeba,PassagemFranca,FortalezaDoNorte,Pinheiro,Carutapera,Turiacu,ZeDoca,Grajaú,Araguaína,SãoJoãoDosPatos,Riachão,GodofredoViana,Turiaçu,ZéDoca,CandidoMendes,GurupiRiver,GuamaRiver,CapimRiver,MearimRiver,GrajauRiver,PindareRiver,ArariboiaTI,BacurizinhoTI"
+},,
+
+{
+    "name": "Resígaro",
+  "i": 5822,
+  "min": 4,
+  "max": 12,
+  "d": "lnrt",
+  "m": 0,
+  "b": "ElEncanto,Sabana,PamaRiver,NetaRiver,CaraParana,Cahuinari,Putumayo,BrilloNuevo,PuertoIsango"
+},,
+
+{
+    "name": "Reyesano (Maropa)",
+  "i": 5824,
+  "min": 4,
+  "max": 12,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Reyes,SantaRosa,SanBorja,SanJavier,SantaAna,Magdalena,Rurrenabaque,Riberalta,Guayaramerin,Cobija,Porvenir,PuertoRico,Sarry,SanIgnacioDeMoxos,Trinidad,Loreto,SanJoaquin,BellaVista,Concepcion,SanRamon"
+},,
+
+{
+    "name": "Ocaina",
+  "i": 5820,
+  "min": 4,
+  "max": 12,
+  "d": "lnrt",
+  "m": 0,
+  "b": "LaChorrera,PredioPutumayo,Igaraparana,Ampiyacu,Putumayo,CaraParana"
+},,
+
+{
+    "name": "Wichí Lhamtés Nocten (Weenhayek)",
+  "i": 5826,
+  "min": 4,
+  "max": 12,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Tartagal,Embarcacion,SalvadorMazza,Aguaray,CampoDuran,GeneralMosconi,Ballivian,Pocitos,Yacuiba,VillaMontes,EntreRios,PalosBlancos,Boyuibe,Camiri,PilcomayoRiver,CordilleraDePirapo,TarijaDepartment"
+},,
+
+{
+    "name": "Wichí Lhamtés Vejoz",
+  "i": 5827,
+  "min": 4,
+  "max": 12,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Tartagal,Embarcacion,SalvadorMazza,Aguaray,CampoDuran,GeneralMosconi,Ballivian,Pocitos,Yacuiba,VillaMontes,EntreRios,MonteQuemado,PampaDeLosGuanacos,SantiagoDelEstero,Embarcación,CampoDurán,Ballivián,EntreRíos,PalosBlancos,Villamontes,Caraparí,SanFrancisco,Boyuibe,Camiri,Yauri,Llalli,Cabanillas,Juli,Eucaliptus,Ventilla,Ilave,Saylla,SantaAna,Satipo,Saposoa,Contumaza,Ica,SantoTomas,Ocoruro,BermejoRiver,SaltaProvince"
+},,
+
+{
+    "name": "Miraña",
+  "i": 5825,
+  "min": 4,
+  "max": 12,
+  "d": "lnrt",
+  "m": 0,
+  "b": "SanFrancisco,CaquetaRiver,Araracuara,LaPedrera,Cahuinari"
+},,
+
+  {
+    "name": "Xavante",
+    "i": 6112,
+    "min": 4,
+    "max": 12,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Campinapolis,NovaXavantina,Cocalinho,AguaBoa,BarraDoGarças,Aragarcas,PontalDoAraguaia,Torixoreu,Araguaiana,VilaRica,Canarana,GauchaDoNorte,SaoFelixDoAraguaia,Confresa,Campinápolis,ÁguaBoa,Aragarças,GeneralCarneiro,Torixoréu,NovoMundo,GaúchaDoNorte,SãoFélixDoAraguaia,PortoAlegreDoNorte,Querência,RibeirãoCascalheira,Luciara"
+  },,
+
+  {
+    "name": "Xerente",
+    "i": 6113,
+    "min": 4,
+    "max": 12,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Tocantinia,Cristalandia,Pium,Miracema,Miranorte,Palmas,Paraiso,PortoNacional,Colinas,Araguaina,Araguatins,Taguatinga,Arraias,Dianopolis,Natividade,Peixe,Tocantínia,Cristalândia,DoisIrmãos,Paraíso,Guaraí,Araguaína,Xambioá,Dianópolis,Almas"
+  },,
+
+{
+    "name": "Língua Geral Amazônica",
+  "i": 6621,
+  "min": 4,
+  "max": 12,
+  "d": "lnrt",
+  "m": 0,
+  "b": ""
+},,
+
+  {
+    "name": "Macuna",
+    "i": 6653,
+    "min": 4,
+    "max": 12,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Mitu,Pacoa,Papua,Acaricuara,Monforth,SanFelipe,Yavarate,PuertoColombia,LaPedrera,PanaPana,Cacahual,Tiquie,SanRafael,VillaAndrea,Araracuara,Mitú,Papúa,Carurú,Tarapacá,Comeyafu,SanLuis,PuertoNariño,Batallas,Yunguyo,Oropesa,LaConvencion,RioNegro,Juanjui,Cascas,Nazca,Colquemarca,Tahuapalca,Samane,Paucarcolla,Laja,Vlacha,Tiwanaku,Aimgo,Analcu,Apaggo,Adomgo,Abacu,Afubgo,Adulgo,Abagcu,Aabcu,Alikgo,Afemgo,Anitgo,Abamcu,Adadcu,Aburgo,Macunacu,Macunazu,Macunala"
+  },,
+
+{
+    "name": "Cubeo",
+  "i": 6654,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Mitu,Pacoa,Acaricuara,SanFelipe,Yavarate,PuertoColombia,LaPedrera,PanaPana,Cacahual,PuertoNarino,Tiquie,Mitu,Caruru,Tarapaca,SanRafael,Araracuara,PuertoNarino,CuduyariRiver,QuerariRiver,VaupesRiver,PapuriRiver,Mitu,GuaviareDepartment,VaupesDepartment"
+},,
+
+{
+    "name": "Desano",
+  "i": 6655,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Mitu,Pacoa,Acaricuara,SanFelipe,Yavarate,PuertoColombia,LaPedrera,PanaPana,Cacahual,PuertoNarino,Tiquie,Mitu,Caruru,Tarapaca,SanRafael,Araracuara,PuertoNarino,TiquieRiver,PapuriRiver,VaupesRiver,NegroRiver,TiquieRiver,PapuriRiver,VaupesRiver"
+},,
+
+{
+    "name": "Itene",
+  "i": 6656,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "GuajaráMirim,CostaMarques,IténezRiver,AzulRiver,MamoréRiver,BeniDepartment,IteneBeni,Chapacuran"
+},,
+
+{
+    "name": "Hupdë",
+  "i": 6657,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Mitu,Pacoa,Acaricuara,SanFelipe,Yavarate,PuertoColombia,LaPedrera,Cacahual,Tiquie,SanRafael,Araracuara,Mitu,Caruru,Tarapaca,SanRafael,Araracuara,TiquieRiver,PapuriRiver,VaupesRiver,Traira,Icana,Uaracu,Uapes,Naduhup"
+},,
+
+{
+    "name": "Koreguaje",
+  "i": 6658,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "CaquetáDepartment,PutumayoDepartment,OrteguasaRiver,CaquetáRiver,PuertoLeguizamo,Mocoa,PuertoGuzman,PuertoCaicedo,VillaGarzon,PuertoAsis,Orito,SanMiguel,LaDorada,Sibundoy,Santiago,Colon,SanFrancisco,Piamonte,Sucre,ValleDelGuamuez,Churuyaco,Peneya,Rumiyaco,Pescado"
+},,
+
+{
+    "name": "Tukano",
+  "i": 6659,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": ""
+},,
+
+{
+    "name": "Wanano",
+  "i": 6660,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Mitu,Pacoa,Acaricuara,SanFelipe,Yavarate,PuertoColombia,LaPedrera,PanaPana,Cacahual,Tiquie,Mitu,Caruru,Tarapaca,SanRafael,Araracuara,TiquieRiver,PapuriRiver,VaupesRiver,Traira,Icana,Uaracu,Uapes,Kotiria,Tukanoan"
+},,
+
+{
+    "name": "Tatuyo",
+  "i": 6661,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "PiraparanaRiver,PapuríRiver,VaupesDepartment,PiraparanaHeadwaters,UpperPapurí,ResguardoOrientalVaupes,VaupesRiver,PiraparanaRiver"
+},,
+
+{
+    "name": "Siriano",
+  "i": 6662,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Mitu,Pacoa,Acaricuara,SanFelipe,Yavarate,PuertoColombia,LaPedrera,PanaPana,Cacahual,Tiquie,Mitu,CañoPaca,CañoViña,UpperPapuri,UaupesRiver,RioNegro,PacaRiver,VinaRiver,PapuriRiver,UaupesRiverBasin,SiriaMasã"
+},,
+
+{
+    "name": "Siona",
+  "i": 6663,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "PutumayoRiver,PutumayoDepartment,PuertoAsis,PuertoCaicedo,Orito,SanMiguel,LaDorada,Sibundoy,Santiago,Colon,SanFrancisco,Piamonte,Sucre,ValleDelGuamuez,PutumayoRiver,PonunaBlanca,PonunaNegra,AguaricoRiver"
+},,
+
+{
+    "name": "Rama",
+  "i": 7070,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "RamaCay,Bluefields,ElBluff,KukraHill,LaCruzDeRioGrande,Karawala,Tasbapauni,Haulover,Waspam,PuertoCabezas,Bilwi,Prinzapolka,Siuna,Rosita,Kumina,LaCruzDeRíoGrande,Bonanza,LagunaDePerlas,Mukra,MonkeyPoint,TodoSantos,RamaCayCreole,RamaCayIsland,BluefieldsLagoon,CaribbeanCoast,RamaTerritory,Nicaragua,Chibchan"
+},,
+
+{
+    "name": "Chimila",
+  "i": 7316,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "MagdalenaRiver,CesarRiver,SierraNevadaSantaMarta,SerraníaDelPerijá,MagdalenaDepartment,BolívarDepartment,CesarDepartment,Valledupar,Chimichagua,AriguaníRiver,EtteTaara,EtteEnneka"
+},,
+
+{
+    "name": "Piaroa",
+  "i": 7317,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "PuertoAyacucho,Maroa,SanFernandoDeAtabapo,SanCarlosDelRioNegro,SanSimon,Cacahual,PanaPana,Sipapo,Guarinuma,PuertoPaez,ElBurro,Pararuma,Morichito,Yavaraté,OrinocoRiver,MiddleOrinoco,VentuariRiver,ManapiareRiver,PiaroaSaliban,DeAruwa"
+},,
+
+{
+    "name": "Toba",
+  "i": 7318,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Resistencia,Fontana,Barranqueras,PuertoTirol,GeneralJoseSanMartin,PresidenciaRoca,LasBrenas,Charata,VillaAngela,SanBernardo,Castelli,VillaRioBermejito,SaenzPena,Quitilipi,Concepcion,Bermejo,ChacoProvince,FormosaProvince"
+},,
+
+{
+    "name": "Wayuu",
+  "i": 7419,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "LaGuajira,ZuliaState,Maicao,Uribia,Manaure,Riohacha,Albania,Hatonuevo,Barrancas,Fonseca,SanJuanDelCesar,Distraccion,ElMolino,Villanueva,Dibulla,Camarones,PuertoEstrella,Nazaret,LaJaguaDelPilar,Urumita,Mingueo,PuertoLópez,RancheriaRiver,ElLimonRiver"
+},,
+
+{
+    "name": "Barí",
+  "i": 7421,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "NorteDeSantander,SerraníaDeLosMotilones,UpperCatatumbo,OroRiver,ReservaMotilonBari,ResguardoGabarraCatalaura,CesarDepartment,Chimichagua,LaGloria,Pailitas,CatatumboRiver,MotilonBari"
+},,
+
+{
+    "name": "Ese Ejja",
+  "i": 7515,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Rurrenabaque,Riberalta,Guayaramerin,Cobija,Porvenir,PuertoRico,SanBorja,Reyes,SantaRosa,Yucumo,SanIgnacioDeMoxos,Shinahota,EntreRios,BeniDepartment,PandoDepartment,LaPazDepartment,MadreDeDiosRiver"
+},,
+
+{
+    "name": "Yuracaré",
+  "i": 7516,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Cochabamba,BeniDepartment,ChapareRiver,IchiloRiver,IsiboroRiver,SécureRiver,MamoréRiver,IsiboroSecurePark,ChapareProvince,CochabambaDepartment,BeniDepartment,MamoréRiverValley,IsiboroSecureNationalPark"
+},,
+
+{
+    "name": "Guambiano",
+  "i": 7600,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Popayan,Silvia,Toribio,Jambaló,Totoro,Caldono,CaucaDepartment,PiendamoRiver,Guambia,Ambalo,Totoró,Quisgó,Jambaló,Misak,Namrrik,Wam,Moguex,Barbacoan"
+},,
+
+{
+    "name": "Awa Pit",
+  "i": 7601,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Barbacoas,NariñoDepartment,Pasto,Tuquerres,Ipiales,Cumbal,Guachucal,ElContadero,Gualmatan,Puerres,Funes,Imues,Potosí,Iles,Pupiales,Aldana,Cuaspud,Carlosama,Chiles,Gualmatán,Imués,Mayasquer,Córdoba,Tangua,Yacuanquer,Sapuyes,Ospina"
+},,
+
+{
+    "name": "Bora",
+  "i": 7660,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Iquitos,Pebas,SanPablo,TresFronteras,Caballococha,RamonCastilla,PuertoAlegria,SantaRosa,PuertoPrado,Orellana,JenaroHerrera,Requena,Lagunas,Contamana,Saquin,PampaHermosa,PuertoSánchez,YaguasyacuRiver,PutumayoRiver,AmpiyacuRiver"
+},,
+
+{
+    "name": "Bauré",
+  "i": 7879,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Trinidad,Baures,Huacaraje,Magdalena,BeniDepartment,MoxosRegion,TrinidadBeni,SanIgnacio,Loreto,Concepcion,SanJoaquin,MagdalenaBeni,Roboré,SanJose"
+},,
+
+{
+    "name": "Enlhet",
+  "i": 7940,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Filadelfia,NeulandMenno,LomaPlana,Boqueron,PozoColorado,MariscalEstigarribia,GeneralDiaz,CarmeloPeralta,NuevaAsuncion,Falcon,Maclo,CrucePioneros,FortinBoqueron,Boquerón,FortinTorres,LaVictoria,TtePrimeroIrala,CasimiroLopez,LagunaPora,PuertoPinasco,TteEnciso,EnlhetNorte,Vowak,Powok,Mascoian"
+},,
+
+{
+    "name": "Kawésqar",
+  "i": 7947,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "WellingtonIsland,PuertoEden,VillaPuertoEden,MagallanesRegion,UltimaEsperanzaProvince,PuntaArenas,PuertoNatales,PuertoEdén"
+},,
+
+{
+    "name": "Mocoví",
+  "i": 7942,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Reconquista,Vera,LasToscas,Avellaneda,Malabrigo,BernardoDeIrigoyen,SanCristobal,Rafaela,Sunchales,Tostado,Ceres,Anatuya,MonteQuemado,SantiagoDelEstero,LaBanda,SanCristóbal,ChacoProvince,SantaFeProvince,Guaykuruan"
+},,
+
+{
+    "name": "Wounaan",
+  "i": 7943,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "PuertoObaldia,Mulatupu,PuertoArdilla,PlayonChico,Nargana,Alijgandi,Achutupu,Tigoneria,Ustupo,Carti,Mamartupo,SanMiguel,Capanduti,Dubuti,Biligui,Paya,Pucuro,LaMiel,CerroAlgodon,Carreto,Biligüi,WounaanChocoan"
+},,
+
+{
+    "name": "Mapudungun",
+  "i": 7944,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Temuco,Pucon,Villarrica,Valdivia,Osorno,Angol,Collipulli,Ercilla,Traiguen,Victoria,Lautaro,NuevaImperial,Carahue,Gorbea,Loncoche,Pitrufquen,Freire,Cunco,Melipeuco,Curarrehue,Renaico,Mulchen,Nacimiento,Contulmo,Lumaco,Cholchol,Saavedra,Tolten,Traiguén,Pitrufquén,Mulchén,PuertoSaavedra,Toltén,TeodoroSchmidt,Budí,AraucaníaRegion,MapuchePeople"
+},,
+
+{
+    "name": "Ona",
+  "i": 7945,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "RioGrande,Tolhuin,Porvenir,Cameron,PuertoWilliams,PuntaArenas,PuertoNatales,Ushuaia,SanSebastian,CaletaOlivia,CerroSombrero,LagoFagnano,Ewan,Lapataia,LagoEscondido,RíoGrande,PampaGuanaco,EstanciaVicuña,Onaisin,BahiaInutil,TierraDelFuego,IslaGrande,Patagonia,SelknamPeople"
+},,
+
+{
+    "name": "Yahgan",
+  "i": 7946,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "PuertoWilliams,PuntaArenas,Ushuaia,VillaUkika,NavarinoIsland,BeagleChannel,CapeHorn,KeppelIsland,FalklandIslands,BahíaMejillones,TierraDelFuego"
+},,
+
+{
+    "name": "Cabiyari",
+  "i": 8052,
+  "min": 4,
+  "max": 12,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Mitu,Pacoa,Acaricuara,SanFelipe,PuertoColombia,LaPedrera,PanaPana,Cacahual,Tiquie,Mitu,Caruru,Tarapaca,SanRafael,Araracuara,PuertoNarino,CananaríRiver,ApaporisRiver,VaupesDepartment,Arawakan"
+},,
+
+{
+    "name": "Carijona",
+  "i": 8053,
+  "min": 4,
+  "max": 12,
+  "d": "lnrt",
+  "m": 0,
+  "b": "VaupésDepartment,GuaviareDepartment,AmazonasDepartment,YaríRiver,VaupésRiver,ApaporisRiver,MirafloresGuaviare,LaPedrera,PuertoNare"
+},,
+
+{
+    "name": "Kakwa (Cacua)",
+  "i": 8054,
+  "min": 4,
+  "max": 12,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Mitu,Wacara,NuevoPueblo,VaupesDepartment,QuerariRiver,VaupesRiver,PapuriRiver"
+},,
+
+{
+    "name": "Cuiba",
+  "i": 8058,
+  "min": 4,
+  "max": 12,
+  "d": "lnrt",
+  "m": 0,
+  "b": "PuertoCarreno,LaPrimavera,SantaRosalia,PuertoGaitan,NuevaAntioquia,SantaBarbara,ElPorvenir,SanLuisDePalenque,Trinidad,PazDeAriporo,Pore,Yopal,Aguazul,Tauramena,Villanueva,Monterrey,Mani,Sabanalarga,Nunchia,CasanareDepartment,VichadaDepartment,AraucaRiver,CapanaparoRiver,CuibaGuahiban"
+},,
+
+{
+    "name": "Cayuvava",
+  "i": 8110,
+  "min": 4,
+  "max": 12,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Exaltacion,SantaAnaDeYacuma,SanIgnacio,SanJoaquin,Magdalena,Trinidad,Loreto,SanRamon,SanPedro,SanCarlos,SanMiguel,SanLuis,SanJose,Santiago,Concepcion,SanJavier,SanMatias,PuertoSuarez,BellaVista,SantaRosa,SanRamón,SanJosé,Concepción,Roboré,SanMatías,PuertoSuárez,Exaltación,SantaAnaYacuma,BeniDepartment,MamoreRiver"
+},,
+
+{
+    "name": "Guarani",
+  "i": 8112,
+  "min": 4,
+  "max": 12,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Asuncion,Encarnacion,CiudadDelEste,Caaguazu,SanLorenzo,Lambare,Capiatá,Itaugua,Luque,Aregua,Ypacarai,SanBernardino,Ita,Paraguari,Villarrica,Concepcion,SanPedro,Cazzapa,Pilar,Neembucu,Yuty,MariaAuxiliadora,Paraguay,Bolivia,Argentina,Brazil,Mercosur"
+},,
+
+{
+    "name": "Guahibo (Sikuani)",
+  "i": 8113,
+  "min": 4,
+  "max": 12,
+  "d": "lnrt",
+  "m": 0,
+  "b": "PuertoCarreno,LaPrimavera,SantaRosalia,PuertoGaitan,ElPorvenir,SanLuisDePalenque,Trinidad,PazDeAriporo,Yopal,Aguazul,Tauramena,Villanueva,Monterrey,Mani,Nunchia,Gameza,Sacama,Cumaral,Sabanalarga,GuahiboGuaykuruan,Ariporo,Tuparro,GuahiboGuaykuruan"
+},,
+
+{
+    "name": "Guayabero",
+  "i": 8114,
+  "min": 4,
+  "max": 12,
+  "d": "lnrt",
+  "m": 0,
+  "b": "GuaviareDepartment,MetaDepartment,PutumayoDepartment,GuaviareRiver,Barrancon,BarrancoCeiba,BarrancoColorado,BarrancoSalado,BarrancoAlto,BarrancoSalado,BarrancoCeiba,LagunaAraguato,LagunaBarajas,Macuare,LaFuga,GuaviareRiver,GuayaberoGuahiban,Jiw"
+},,
+
+{
+    "name": "Guajá",
+  "i": 8115,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "SantaLuzia,Pinheiro,Carutapera,GodofredoViana,Turiacu,CandidoMendes,ZeDoca,AltoParnaiba,Balsas,Carolina,Imperatriz,Paraopeba,BarraDoCorda,Colinas,SaoJoaoDosPatos,Turiaçu,ZéDoca,Grajaú,MaranhaoState,Awá,TupiGuarani"
+},,
+
+{
+    "name": "Guarayu",
+  "i": 8116,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "SantaCruz,AscenciónDeGuarayos,Urubichá,Salvatierra,SanPablo,Yotaú,Yaguarú,Cururú,AscenciónDeGuarayos,Urubichá,Salvatierra,SanPablo,Yotaú,Yaguarú,Cururú,SantaCruzDepartment,BoquerónDepartment,TupiGuarani"
+},,
+
+{
+    "name": "Macushi",
+  "i": 8605,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Lethem,Bonfim,Norman,Annai,Karasabai,Aishalton,StIgnatius,Kumaka,Surama,Apoteri,Paramakatoi,Toka,Orinduik,Kako,Maruru,CampoDosPapagaio,Uiramutã,Pacaraima,BoaVista,SãoMarcos,Tabatinga,Uiramutã,SãoMarcos,SãoJoão,Anauá,Takutu,Rupununi,RoraimaState,ParaState"
+},,
+
+{
+    "name": "Waiwai",
+  "i": 8606,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Oriximina,JatapuzinhoRiver,MapueraRiver,TerraIndigenaWaiwai,TerraIndigenaTrombetasMapuera,TerraIndigenaNhamundaMapuera,Masakinyari,Erepoimo,Parabara,Konashen,RoraimaState,ParaState,AmazonasState,ParaStateBrazil,RoraimaStateBrazil,CaribanFamily,ParukotoanFamily"
+},,
+
+{
+    "name": "Yukpa",
+  "i": 8607,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "ZuliaStateVenezuela,CesarDepartmentColombia,SierraDePerija,AtapshiRegion,PaririRegion,IrapaRegion,WasamaRegion,YukpaOriental,YukpaOccidental,SierraDePerijaRegion,ZuliaStateCesarRegion,CesarDepartmentBorder,CesarRiverArea,YukpaLanguage"
+},,
+
+{
+    "name": "Piapoco",
+  "i": 8653,
+  "min": 4,
+  "max": 12,
+  "d": "lnrt",
+  "m": 0,
+  "b": "PuertoInirida,SanFelipe,PuertoGuzman,PuertoCaicedo,VillaGarzon,PuertoAsis,Orito,SanMiguel,LaDorada,Sibundoy,Santiago,Colon,SanFrancisco,Piamonte,Sucre,ValleDelGuamuez,PuertoGuzman,PuertoAsis"
+},,
+
+{
+    "name": "Wapishana",
+  "i": 8655,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Lethem,Bonfim,Cantá,BoaVista,SãoMarcos,Tabatinga,Uiramutã,SãoMarcos,SãoJoão,Anauá,Takutu,Rupununi"
+},
+
 ];
