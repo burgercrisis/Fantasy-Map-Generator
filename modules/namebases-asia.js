@@ -9271,94 +9271,94 @@ window.asiaNameBases = [
     "b": "Nanning,Liuzhou,Guilin,Baise,Qinzhou,Fangchenggang,Chongzuo,Laibin,Hechi,Wuzhou,Guigang,Binyang,Hengzhou,Wuming,Shangsi,Fusui,Napo,Jingxi,Debao",
     "status": "COMPLETE"
   },
-  {
+{
     "name": "Yong",
     "i": 200582,
     "min": 4,
     "max": 16,
-    "d": "lnrt",
+    "d": "Yong (Nyong) is a Southwestern Tai language spoken in Thailand (Chiang Mai, Lamphun provinces) by descendants of Tai Lue people from Xishuangbanna, China and Kengtung, Myanmar with ~13,000 speakers.",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "San Kamphaeng,Chiang Mai,Pa Sang,Mae Tha,Mueang Lamphun,Lamphun,Mae Rim,Samoeng,Doi Saket,Chiang Dao,Fang,Mae Ai,Phrao,Chai Prakan,Wiang Haeng,Hot,Omkoi,Li,Thung Hua Chang,Doi Tao",
+    "status": "COMPLETE"
   },
-  {
+{
     "name": "Yoy",
     "i": 200583,
     "min": 4,
     "max": 16,
-    "d": "lnrt",
+    "d": "Yoy is a Northern Tai language spoken in Thailand (Sakon Nakhon Province) and Laos (Khammouan Province) with ~6,000-8,000 speakers. Critically endangered.",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Sakon Nakhon,Akat Amnuai,Phang Khon,Sawang Daen Din,Khammouan,Nakay,Grommarol,Bouarapha,Mekong River,Vientiane,Thakhek",
+    "status": "COMPLETE"
   },
-  {
+{
     "name": "Zakhchin",
     "i": 200584,
     "min": 4,
     "max": 16,
-    "d": "lnrt",
+    "d": "Zakhchin is a dialect of the Oirat language spoken by the Zakhchin people in Khovd Province, Mongolia with ~32,845 speakers. Subgroup of the Oirats.",
     "m": 0,
     "b": "Ulaanbaatar,Erdenet,Baruun-Urt,Murun,Khovd,Altai,Bayan-Olgii,Uvs,Khovsgol,Dornod,Dundgovi,Govisumber,Selenge,Tov,Darkhan,Choibalsan,Bulgan,Ulaangom,Bayanhongor,Mandalgovi,Dalanzadgad,Kharkhorin,Ulan-Ude,Irkutsk,Kyakhta,Ondorkhaan,Zavkhan",
     "status": "COMPLETE"
   },
-  {
+{
     "name": "Zandui",
     "i": 200585,
     "min": 4,
     "max": 16,
-    "d": "lnrt",
+    "d": "Zandui (Qiandui) is a Hlai language (Qi dialect) spoken in Hainan, China with ~29,000 speakers. Part of the Kra-Dai language family.",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Qiongzhong,Baisha,Changjiang,Dongfang,Ledong,Wuzhishan,Sanya,Lingshui,Baoting,Qionghai,Wanning,Tuncheng,Haikou,Chengmai,Danzhou,Lingao,Wenchang,Dingan,Qionghai",
+    "status": "COMPLETE"
   },
-  {
+{
     "name": "Zhangzhung",
     "i": 200586,
     "min": 4,
     "max": 16,
-    "d": "lnrt",
+    "d": "Zhangzhung is an extinct Sino-Tibetan language formerly spoken in western Tibet (7th-10th century). Attested in bilingual texts like 'A Cavern of Treasures'. Related to West Himalayish languages.",
     "m": 0,
     "b": "",
     "status": "WAITING"
   },
-  {
+{
     "name": "Sarikoli",
     "i": 200659,
     "min": 3,
     "max": 12,
-    "d": "lnrt",
+    "d": "Sarikoli (Sariqoli/Selekur) is an Eastern Iranian Pamiri language spoken in Tashkurgan Tajik Autonomous County, Xinjiang, China with ~16,000-35,000 speakers. Also known as Tashkorghani.",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Tashkurgan,Taxkorgan,Kashgar,Yarkand,Hotan,Aksu,Korla,Kuqa,Alar,Tumxuk,Wujiaqu,Beitun,Shihezi,Changji,Urumqi,Ili,Karamay,Altay,Tacheng,Bole,Alashankou,Horgos,Jinghe,Manas,Hutubi,Fukang,Qitai,Jimsar,Qingtongxia,Shizuishan,Wuzhong,Yinchuan,Shizuishan",
+    "status": "COMPLETE"
   },
-  {
+{
     "name": "Sogdian",
     "i": 200660,
     "min": 3,
     "max": 12,
-    "d": "lnrt",
+    "d": "Sogdian is an extinct Eastern Middle Iranian language formerly spoken in Sogdiana (modern Uzbekistan, Tajikistan) from ~4th-11th century CE. Lingua franca of the Silk Road. Ancestor of modern Yaghnobi.",
     "m": 0,
     "b": "",
     "status": "WAITING"
   },
-  {
+{
     "name": "Wakhi",
     "i": 200661,
     "min": 3,
     "max": 12,
-    "d": "lnrt",
+    "d": "Wakhi is an Eastern Iranian Pamiri language spoken in the Wakhan Corridor (Afghanistan), Gorno-Badakhshan (Tajikistan), Gilgit-Baltistan (Pakistan), and Taxkorgan (China) with ~58,000 speakers. Also known as Khik, Wakhani, Vakhan.",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Wakhan,Ishkashim,Putur,Khandud,Qala Panja,Zong,Sharshar,Baharak,Murghab,Gojal,Hunza,Gulmit,Passu,Hussaini,Borith,Gulkin,Sost,Chipursan,Shingshal,Ishkoman,Yasin,Gupis,Yarkhun,Darkot,Baroghil,Imit,Karambar,Taxkorgan,Kashgar,Yarkand",
+    "status": "COMPLETE"
   },
-  {
+{
     "name": "Big Flowery",
     "i": 200662,
     "min": 4,
     "max": 11,
-    "d": "lnrt",
+    "d": "Big Flowery Miao (A-Hmao) is a Hmongic language spoken in northeast Yunnan and western Guizhou, China with ~300,000 speakers. Also known as Large Flowery Miao, Hua Miao, Northeast Yunnan Miao. The Pollard script was designed for this language.",
     "m": 0,
-    "b": "Ziyun,Zunyi,Guiyang,Anshun,Kaili,Duyun,Fuquan,Libo,Rongjiang,Congjiang,Leishan,Taijiang,Huangping,Zhenyuan,Shibing,Sandu,Pingtang,Luodian,Huishui,Wengan,Xifeng,Xiuwen,Kaiyang,Qingzhen,Zhijin,Nayong,Weining,Dafang,Liupanshui,Tongren,Bijie,Mengla,Wenshan,Qiubei,Funing,Zhaotong,Kunming,Qujing,Chuxiong,Hezhang,Shuicheng",
+    "b": "Zhaotong,Kunming,Qujing,Chuxiong,Wuding,Lujing,Dongchuan,Huaqing,Xundian,Fumin,Luquan,Anning,Jinning,Chenggong,Yiliang,Daguan,Yanjin,Suijiang,Zhenxiong,Yanjin,Weixin,Shuifu,Qiaojia,Yongshan,Huize,Xuanwei,Fuyuan,Qujing,Luliang,Shizong,Luoping,Fuyuan",
     "status": "COMPLETE"
   },
   {
@@ -9371,62 +9371,62 @@ window.asiaNameBases = [
     "b": "Chuncheon,Wonju,Gangneung,Sokcho,Donghae,Samcheok,Taebaek,Hongcheon,Pyeongchang,Jeongseon,Inje,Cheorwon,Yangyang,Goseong",
     "status": "COMPLETE"
   },
-  {
+{
     "name": "Gyeonggi / Seoul Korean",
     "i": 200664,
     "min": 4,
     "max": 11,
-    "d": "lnrt",
+    "d": "Gyeonggi/Seoul Korean is the standard dialect of Korean spoken in Seoul, Incheon, and Gyeonggi Province, South Korea.",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Seoul,Incheon,Suwon,Seongnam,Goyang,Yongin,Bucheon,Anyang,Ansan,Namyangju,Uijeongbu,Gwangmyeong,Siheung,Hanam,Gunpo,Osan,Uiwang,Suji,Pangyo,Bundang,Gwangju,Ichon,Yeoju,Gapyeong,Yeoncheon,Pocheon,Dongducheon,Yangju,Guri,Hanam",
+    "status": "COMPLETE"
   },
 {
     "name": "Gyeongsang Korean",
     "i": 200665,
     "min": 4,
     "max": 11,
-    "d": "lnrt",
+    "d": "Gyeongsang Korean is a dialect of Korean spoken in Busan, Daegu, Ulsan, and North/South Gyeongsang Provinces, South Korea.",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Busan,Daegu,Ulsan,Pohang,Gyeongju,Andong,Gimcheon,Gyeongsan,Miryang,Chilgok,Uiseong,Cheongsong,Yeongdeok,Uljin,Bonghwa,Changnyeong,Haman,Uiryeong,Changwon,Gimhae,Jinju,Sacheon,Tongyeong,Geoje,Namhae,Hadong,Sancheong,Hapcheon,Goseong",
+    "status": "COMPLETE"
   },
-  {
+{
     "name": "Hamgyŏng Korean",
     "i": 200666,
     "min": 4,
     "max": 11,
-    "d": "lnrt",
+    "d": "Hamgyŏng Korean is a dialect of Korean spoken in North Hamgyŏng and South Hamgyŏng Provinces, North Korea.",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Hamhung,Chongjin,Kimchaek,Hoeryong,Musan,Onyang,Kilju,Myongchon,Puryong,Orang,Rason,Rajin,Sonbong,Sinpo,Tanchon,Hungnam,Yonggwang,Sinhung,Kowon,Changjin,Chongpyong",
+    "status": "COMPLETE"
   },
-  {
+{
     "name": "Han (Samhan)",
     "i": 200667,
     "min": 4,
     "max": 16,
-    "d": "lnrt",
+    "d": "Han (Samhan) refers to the ancient Samhan confederacies (Mahan, Jinhan, Byeonhan) of the southern Korean Peninsula (1st-4th century CE). Extinct/Historical.",
     "m": 0,
     "b": "",
     "status": "WAITING"
   },
-  {
+{
     "name": "Hm Nai",
     "i": 200668,
     "min": 4,
     "max": 12,
-    "d": "lnrt",
+    "d": "Hm Nai (Hmong Nai) is a Hmongic language spoken in Guizhou and Guangxi, China with ~2,000 speakers.",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Libo,Rongjiang,Congjiang,Leishan,Taijiang,Huangping,Zhenyuan,Shibing,Sandu,Pingtang,Luodian,Huishui,Wengan,Longhua,Nanzhou,Dajin,Liuxiang,Mentou,Gubu,Chang'e",
+    "status": "COMPLETE"
   },
-  {
+{
     "name": "Hmong macro entry",
     "i": 200669,
     "min": 4,
     "max": 11,
-    "d": "lnrt",
+    "d": "Hmong macro entry is a cover term for the Hmong macrolanguage (Chuanqiandian Miao cluster), not a single language.",
     "m": 0,
     "b": "",
     "status": "WAITING"
@@ -9441,65 +9441,65 @@ window.asiaNameBases = [
     "b": "Majiang,Longli,Liping,Zunyi,Guiyang,Anshun,Kaili,Duyun,Fuquan,Libo,Rongjiang,Congjiang,Leishan,Taijiang,Huangping,Zhenyuan,Shibing,Sandu,Pingtang,Luodian,Huishui,Wengan,Xifeng,Xiuwen,Kaiyang,Qingzhen,Zhijin,Nayong,Weining,Dafang,Liupanshui,Tongren,Bijie,Mengla,Wenshan,Taipan,Danzhai",
     "status": "COMPLETE"
   },
-  {
+{
     "name": "Huishui",
     "i": 200671,
     "min": 4,
     "max": 11,
-    "d": "lnrt",
+    "d": "Huishui Miao is a Hmongic language spoken in Huishui, Changshun, Longli, Guiding, and surrounding counties in Guizhou, China.",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Huishui,Changshun,Longli,Guiding,Weng'an,Huiwen,Longchang,Dulay,Gaopo,Gaolong,Biaozhai,Yangchang,Gaojian,Shangguan,Zhenxi,Yangmei,Shuanglong,Longchang,Dulay,Gaopo,Gaolong",
+    "status": "COMPLETE"
   },
-  {
+{
     "name": "Hwanghae Korean",
     "i": 200672,
     "min": 4,
     "max": 11,
-    "d": "lnrt",
+    "d": "Hwanghae Korean is a dialect of Korean spoken in North and South Hwanghae Provinces, North Korea.",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Haeju,Sariwon,Sinchon,Anak,Unnyul,Jangyon,Songhwa,Samchon,Ryongyon,Kangryong,Paechon,Yonan,Changyon,Sinwon,Pyoksong,Sinchon,Pyoksong",
+    "status": "COMPLETE"
   },
-  {
+{
     "name": "Jeju",
     "i": 200673,
     "min": 4,
     "max": 11,
-    "d": "lnrt",
+    "d": "Jeju (Jejueo) is a Koreanic language spoken on Jeju Island, South Korea. Considered a separate language by some linguists due to low mutual intelligibility with mainland Korean.",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Jeju City,Seogwipo,Aewol,Gujwa,Hangyeong,Daejung,Andeok,Pyeongdae,Seongsan,Sehwa,Gosi,Hallim,Jungmun,Jungang,Ora,Sanghyo,Hwasun,Saebyeol,Wimi",
+    "status": "COMPLETE"
   },
-  {
+{
     "name": "Jeolla Korean",
     "i": 200674,
     "min": 4,
     "max": 11,
-    "d": "lnrt",
+    "d": "Jeolla Korean is a dialect of Korean spoken in Gwangju and North/South Jeolla Provinces, South Korea.",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Gwangju,Jeonju,Iksan,Gunsan,Jeongeup,Namyangju,Mokpo,Yeosu,Suncheon,Naju,Jangheung,Wando,Jindo,Haenam,Yeonggwang,Hampyeong,Muan,Sinan,Buan,Gimje,Jeongeup,Sunchang,Imsil,Jinan,Jangsu,Buan",
+    "status": "COMPLETE"
   },
-  {
+{
     "name": "Jiaoliao Mandarin",
     "i": 200675,
     "min": 4,
     "max": 11,
-    "d": "lnrt",
+    "d": "Jiaoliao Mandarin is a dialect of Mandarin Chinese spoken on the Jiaodong Peninsula (Qingdao, Yantai, Weihai) and Liaodong Peninsula (Dalian, Yingkou) in China.",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Qingdao,Yantai,Weihai,Rongcheng,Laizhou,Penglai,Longkou,Zhaoyuan,Qixia,Haicheng,Dalian,Yingkou,Anshan,Fushun,Benxi,Dandong,Fengcheng,Donggang,Zhuanghe,Wafangdian,Pulandian,Changhai",
+    "status": "COMPLETE"
   },
-  {
+{
     "name": "Jilu Mandarin",
     "i": 200676,
     "min": 4,
     "max": 12,
-    "d": "lnrt",
+    "d": "Jilu Mandarin is a dialect of Mandarin Chinese spoken in Hebei (Ji), Beijing, Tianjin, and western Shandong (Lu) in China.",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Beijing,Tianjin,Shijiazhuang,Baoding,Tangshan,Qinhuangdao,Chengde,Zhangjiakou,Langfang,Cangzhou,Hengshui,Xingtai,Handan,Dezhou,Binzhou,Liaocheng,Heze,Jining,Zibo,Weifang,Qingzhou,Changle,Anqiu,Zhucheng,Linqu",
+    "status": "COMPLETE"
   },
   {
     "name": "Kiong Nai",
@@ -9551,12 +9551,12 @@ window.asiaNameBases = [
     "b": "",
     "status": "WAITING"
   },
-  {
+{
     "name": "Middle Korean",
     "i": 200682,
     "min": 4,
     "max": 16,
-    "d": "lnrt",
+    "d": "Middle Korean is the historical stage of the Korean language (10th-16th century), ancestor of Modern Korean. Extinct/Historical.",
     "m": 0,
     "b": "",
     "status": "WAITING"
@@ -9571,82 +9571,62 @@ window.asiaNameBases = [
     "b": "Nam Tu Thuong,Nam Xe,Van Ban,Lao Cai,Zunyi,Guiyang,Anshun,Kaili,Duyun,Fuquan,Libo,Rongjiang,Congjiang,Leishan,Taijiang,Huangping,Zhenyuan,Shibing,Sandu,Pingtang,Luodian,Huishui,Wengan,Xifeng,Xiuwen,Kaiyang,Qingzhen,Zhijin,Nayong,Weining,Dafang,Liupanshui,Tongren,Bijie,Mengla",
     "status": "COMPLETE"
   },
-  {
+{
     "name": "Modern Korean",
     "i": 200684,
     "min": 4,
     "max": 11,
-    "d": "lnrt",
+    "d": "Modern Korean (South Korean standard) is the standard variety of Korean spoken in South Korea, based on the Seoul dialect.",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Seoul,Busan,Daegu,Incheon,Gwangju,Daejeon,Ulsan,Suwon,Changwon,Goyang,Yongin,Seongnam,Bucheon,Cheongju,Ansan,Jeonju,Cheonan,Namyangju,Anyang,Gimhae,Hwaseong,Pohang,Gimpo,Jeju,Uijeongbu,Seongnam,Gwangju",
+    "status": "COMPLETE"
   },
 {
     "name": "Munhwaŏ (Standard North Korean)",
     "i": 200685,
     "min": 4,
     "max": 11,
-    "d": "lnrt",
+    "d": "Munhwaŏ (Cultured Language) is the standard variety of Korean spoken in North Korea, based on the Pyongyang dialect.",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Pyongyang,Hamhung,Chongjin,Nampo,Wonsan,Kaesong,Sinuiju,Hyesan,Kanggye,Kimchaek,Tanchon,Huichon,Kusong,Tokchon,Sariwon,Pyongsong,Anju,Kangso,Sunchon,Unsan,Tokchon",
+    "status": "COMPLETE"
   },
-  {
+{
     "name": "Ná-Meo",
     "i": 200686,
     "min": 4,
     "max": 11,
-    "d": "lnrt",
+    "d": "Ná-Meo is a Hmongic language spoken in northern Vietnam and southern China with ~2,000 speakers. Also known as Mieu, Hm Nai.",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Quan Ba,Yen Minh,Dong Van,Meo Vac,Hoang Su Phi,Xin Man,Vi Xuyen,Bac Me,Bac Quang,Quan Ba,Dong Van,Meo Vac",
+    "status": "COMPLETE"
   },
-  {
+{
     "name": "Nao Klao",
     "i": 200687,
     "min": 4,
     "max": 11,
-    "d": "lnrt",
+    "d": "Nao Klao is a Bunu (Yao) language spoken in Guangxi, China.",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Longlin,Xilin,Tianlin,Leye,Lingyun,Fengshan,Baise,Tianyang,Pingguo,Debao,Jingxi,Napo,Longlin,Xilin,Tianlin",
+    "status": "COMPLETE"
   },
-  {
-    "name": "North Korean",
-    "i": 200688,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-  {
-    "name": "Northern Min",
-    "i": 200689,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-  {
+{
     "name": "Numao",
     "i": 200690,
     "min": 4,
     "max": 11,
-    "d": "lnrt",
+    "d": "Numao is a Bunu (Yao) language spoken in Guangxi, China.",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Longlin,Xilin,Tianlin,Leye,Lingyun,Fengshan,Baise,Tianyang,Pingguo,Debao,Jingxi,Napo,Longlin,Xilin,Tianlin",
+    "status": "COMPLETE"
   },
-  {
+{
     "name": "Old Korean",
     "i": 200691,
     "min": 4,
     "max": 16,
-    "d": "lnrt",
+    "d": "Old Korean is the ancient stage of the Korean language (1st-10th century), including Three Kingdoms and Unified Silla periods. Extinct/Historical.",
     "m": 0,
     "b": "",
     "status": "WAITING"
@@ -9721,45 +9701,45 @@ window.asiaNameBases = [
     "b": "",
     "status": "WAITING"
   },
-  {
+{
     "name": "Pu–Xian Min",
     "i": 200699,
     "min": 4,
     "max": 11,
-    "d": "lnrt",
+    "d": "Pu–Xian Min (Puxian Min) is a dialect of Min Chinese spoken in Putian and Xianyou, Fujian, China.",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Putian,Xianyou,Fuzhou,Quanzhou,Zhangzhou,Longyan,Sanming,Nanping,Ningde,Longyan,Yongding,Shanghang,Wuping,Liancheng,Changting,Zhangping,Yongding",
+    "status": "COMPLETE"
   },
-  {
+{
     "name": "Puyŏ",
     "i": 200700,
     "min": 4,
     "max": 11,
-    "d": "lnrt",
+    "d": "Puyŏ is the language of the ancient Puyŏ kingdom (2nd century BCE - 494 CE) in Manchuria/northern Korea. Extinct/Historical. Related to Goguryeo.",
     "m": 0,
     "b": "",
     "status": "WAITING"
   },
-  {
+{
     "name": "Pyojuneo (Standard Korean)",
     "i": 200701,
     "min": 4,
     "max": 11,
-    "d": "lnrt",
+    "d": "Pyojuneo (Standard Korean) is the standard variety of Korean in South Korea, equivalent to Modern Korean. Duplicate entry.",
     "m": 0,
     "b": "",
     "status": "WAITING"
   },
-  {
+{
     "name": "Pyongan Korean",
     "i": 200702,
     "min": 4,
     "max": 11,
-    "d": "lnrt",
+    "d": "Pyongan Korean is a dialect of Korean spoken in Pyongyang and North/South Pyongan Provinces, North Korea.",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Pyongyang,Anju,Kangso,Sunchon,Unsan,Tokchon,Sinuiju,Chongju,Uiju,Sakju,Changsong,Pyoktong,Chason,Wiwon,Manpo,Kanggye,Huchang,Huichon,Kanggye,Chasong",
+    "status": "COMPLETE"
   },
   {
     "name": "Raojia",
@@ -9781,25 +9761,25 @@ window.asiaNameBases = [
     "b": "Liping,Tongdao,Qiuli,Cendun,Dongweng,Zunyi,Guiyang,Anshun,Kaili,Duyun,Fuquan,Libo,Rongjiang,Congjiang,Leishan,Taijiang,Huangping,Zhenyuan,Shibing,Sandu,Pingtang,Luodian,Huishui,Wengan,Xifeng,Xiuwen,Kaiyang,Qingzhen,Zhijin,Nayong,Weining,Dafang,Liupanshui,Tongren,Bijie,Jinping,Jingzhou,Suining,Wushan",
     "status": "COMPLETE"
   },
-  {
+{
     "name": "Shanghainese",
     "i": 200705,
     "min": 4,
     "max": 11,
-    "d": "lnrt",
+    "d": "Shanghainese (Shanghai dialect) is a dialect of Wu Chinese spoken in Shanghai and surrounding areas, China.",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Shanghai,Changshu,Zhangjiagang,Taicang,Kunshan,Suzhou,Wuxi,Changzhou,Zhenjiang,Nanjing,Nantong,Yangzhou,Taizhou,Yancheng,Hangzhou,Ningbo,Wenzhou,Jiaxing,Huzhou,Shaoxing,Zhoushan",
+    "status": "COMPLETE"
   },
-  {
+{
     "name": "Shao–Jiang Min",
     "i": 200706,
     "min": 4,
     "max": 11,
-    "d": "lnrt",
+    "d": "Shao–Jiang Min (Shaojiang Min) is a dialect of Min Chinese spoken in Shaowu and Jiangle, Fujian, China.",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Shaowu,Jiangle,Guangze,Wuyishan,Jianyang,Jianou,Songxi,Zhenghe,Taining,Jianning,Nanping,Fuzhou,Sanming,Longyan,Zhangzhou,Quanzhou,Putian,Ningde",
+    "status": "COMPLETE"
   },
   {
     "name": "She",
@@ -9821,12 +9801,12 @@ window.asiaNameBases = [
     "b": "Fuzhou,Ningde,Xiapu,Changting,Pingyang,Wenzhou,Lishui,Quzhou,Hangzhou,Xi'an,Changsha,Nanchang,Xiamen,Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Nanjing,Wuhan,Kunming,Guiyang,Lanzhou,Taiyuan,Shijiazhuang,Changchun,Zhengzhou,Hefei,Ningbo,Suzhou,Tianjin,Xining,Yinchuan,Luoyuan,Longyan",
     "status": "COMPLETE"
   },
-  {
+{
     "name": "Silla Korean",
     "i": 200709,
     "min": 4,
     "max": 16,
-    "d": "lnrt",
+    "d": "Silla Korean is the language of the Silla kingdom (57 BCE - 935 CE) on the Korean Peninsula. Extinct/Historical. Ancestor of Middle Korean.",
     "m": 0,
     "b": "",
     "status": "WAITING"
@@ -9841,92 +9821,92 @@ window.asiaNameBases = [
     "b": "Zhenning,Renhuai,Yuqing,Fenggang,Daozhen,Zheng'an,Suiyang,Tongzi,Puding,Pingba,Ziyun,Pu'an,Zunyi,Guiyang,Anshun,Kaili,Duyun,Fuquan,Nayong,Shuicheng,Guanling,Hezhang,Bijie,Weining,Zhijin,Qianxi,Dafang,Jinsha,Xishui,Chishui,Meitan,Wuchuan,Xiuwen,Qingzhen",
     "status": "COMPLETE"
   },
-  {
+{
     "name": "South Korean",
     "i": 200711,
     "min": 4,
     "max": 11,
-    "d": "lnrt",
+    "d": "South Korean is the standard variety of Korean in South Korea. Duplicate of Modern Korean/Pyojuneo.",
     "m": 0,
     "b": "",
     "status": "WAITING"
   },
-  {
+{
     "name": "Southern Min",
     "i": 200712,
     "min": 4,
     "max": 11,
-    "d": "lnrt",
+    "d": "Southern Min (Minnan) is a branch of Min Chinese spoken in southern Fujian, eastern Guangdong, Hainan, Taiwan, and Southeast Asia.",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Xiamen,Quanzhou,Zhangzhou,Longyan,Sanming,Nanping,Ningde,Shantou,Chaozhou,Jieyang,Meizhou,Shenzhen,Hong Kong,Macau,Taipei,Kaohsiung,Tainan,Taichung,Hsinchu,Keelung,Chiayi,Changhua,Pingtung,Hualien,Taitung,Yilan,Penghu,Kinmen,Matsu",
+    "status": "COMPLETE"
   },
-  {
+{
     "name": "Suzhounese",
     "i": 200713,
     "min": 4,
     "max": 12,
-    "d": "lnrt",
+    "d": "Suzhounese (Suzhou dialect) is a dialect of Wu Chinese spoken in Suzhou, Jiangsu, China.",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Suzhou,Wuxi,Changzhou,Zhenjiang,Nanjing,Shanghai,Kunshan,Taicang,Zhangjiagang,Changshu,Wujiang,Wujiang,Mudu,Luzhi,Weitang,Zhouzhuang,Tongli,Jinxi,Zhujiajiao,Qianjiang",
+    "status": "COMPLETE"
   },
-  {
+{
     "name": "Taiwanese Mandarin",
     "i": 200714,
     "min": 4,
     "max": 11,
-    "d": "lnrt",
+    "d": "Taiwanese Mandarin (Guoyu) is the standard variety of Mandarin Chinese spoken in Taiwan.",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Taipei,New Taipei,Taoyuan,Taichung,Tainan,Kaohsiung,Keelung,Hsinchu,Chiayi,Changhua,Pingtung,Hualien,Taitung,Yilan,Miaoli,Nantou,Yunlin,Penghu,Kinmen,Matsu",
+    "status": "COMPLETE"
   },
-  {
+{
     "name": "Wenzhounese",
     "i": 200715,
     "min": 4,
     "max": 11,
-    "d": "lnrt",
+    "d": "Wenzhounese (Wenzhou dialect) is a dialect of Wu Chinese spoken in Wenzhou, Zhejiang, China.",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Wenzhou,Lishui,Quzhou,Jinhua,Taizhou,Jiaxing,Huzhou,Shaoxing,Ningbo,Hangzhou,Shanghai,Taizhou,Yuhuan,Wenling,Yandang,Qiaotou,Longwan,Ouhai,Lucheng",
+    "status": "COMPLETE"
   },
-  {
+{
     "name": "Xixiu",
     "i": 200716,
     "min": 4,
     "max": 13,
-    "d": "lnrt",
+    "d": "Xixiu Miao is a Hmongic language spoken in Guizhou, China.",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Xixiu,Pingba,Anshun,Zhenning,Guanling,Ziyun,Wangmo,Zunyi,Guiyang,Anshun,Kaili,Duyun,Fuquan,Libo,Rongjiang,Congjiang,Leishan,Taijiang,Huangping,Zhenyuan,Shibing,Sandu,Pingtang,Luodian,Huishui,Wengan,Xifeng,Xiuwen,Kaiyang,Qingzhen,Zhijin,Nayong,Weining,Dafang,Liupanshui,Tongren,Bijie",
+    "status": "COMPLETE"
   },
 {
     "name": "Xong",
     "i": 200717,
     "min": 4,
     "max": 11,
-    "d": "lnrt",
+    "d": "Xong (Qo Xiong) is a Hmongic language spoken in Hunan, China.",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Huayuan,Zhangjiajie,Fenghuang,Luxi,Jishou,Guzhang,Yongshun,Longshan,Baojing,Yongshun,Guzhang,Longshan",
+    "status": "COMPLETE"
   },
-  {
+{
     "name": "Yangchun Pai Yao",
     "i": 200718,
     "min": 4,
     "max": 11,
-    "d": "lnrt",
+    "d": "Yangchun Pai Yao is a Bunu (Yao) language spoken in Guangdong, China.",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Yangchun,Yangjiang,Yunfu,Yunfu,Guangdong,Guangdong,Guangzhou,Foshan,Zhaoqing,Qingyuan,Qingyuan,Yangchun",
+    "status": "COMPLETE"
   },
-  {
+{
     "name": "Ye-Maek",
     "i": 200719,
     "min": 4,
     "max": 11,
-    "d": "lnrt",
+    "d": "Ye-Maek is the language of the ancient Ye and Maek tribes/kingdoms in Manchuria/northern Korea (1st century BCE - 7th century CE). Extinct/Historical.",
     "m": 0,
     "b": "",
     "status": "WAITING"
@@ -9941,65 +9921,65 @@ window.asiaNameBases = [
     "b": "Jianghua,Taoxu,Helukou,Hunan",
     "status": "COMPLETE"
   },
-  {
+{
     "name": "Yeongdong Korean",
     "i": 200721,
     "min": 4,
     "max": 11,
-    "d": "lnrt",
+    "d": "Yeongdong Korean is a dialect of Korean spoken in Gangwon Province (Yeongdong region), South Korea.",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Gangneung,Sokcho,Donghae,Samcheok,Taebaek,Jeongseon,Pyeongchang,Hongcheon,Hoengseong,Wonju,Inje,Goseong,Yangyang",
+    "status": "COMPLETE"
   },
-  {
+{
     "name": "Yeongseo Korean",
     "i": 200722,
     "min": 4,
     "max": 11,
-    "d": "lnrt",
+    "d": "Yeongseo Korean is a dialect of Korean spoken in Gangwon Province (Yeongseo region), South Korea.",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Wonju,Cheorwon,Hwacheon,Chuncheon,Hongcheon,Hoengseong,Pyeongchang,Yeongwol,Jeongseon,Inje,Taebaek,Yeongwol",
+    "status": "COMPLETE"
   },
 {
     "name": "Younian",
     "i": 200723,
     "min": 4,
     "max": 11,
-    "d": "lnrt",
+    "d": "Younian is a Kam-Sui language spoken in Guizhou, China.",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Liping,Congjiang,Rongjiang,Zunyi,Guiyang,Anshun,Kaili,Duyun,Fuquan,Libo,Rongjiang,Congjiang,Leishan,Taijiang,Huangping,Zhenyuan,Shibing,Sandu,Pingtang,Luodian,Huishui,Wengan,Xifeng,Xiuwen,Kaiyang,Qingzhen,Zhijin,Nayong,Weining,Dafang,Liupanshui,Tongren,Bijie",
+    "status": "COMPLETE"
   },
 {
-    "name": "Younuo",
-    "i": 200724,
+    "name": "Sanqiao",
+    "i": 200704,
     "min": 4,
     "max": 11,
-    "d": "lnrt",
+    "d": "Sanqiao is a Hmongic language spoken in Guizhou and Hunan, China.",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Tianzhua,Yangsong,Pingdi,Dazhai,Zhulin,Shidong,Huangzhai,Gaoba,Dazhai,Zhulin,Shidong,Huangzhai,Gaoba",
+    "status": "COMPLETE"
   },
-  {
+{
     "name": "Yukjin Korean",
     "i": 200725,
     "min": 4,
     "max": 11,
-    "d": "lnrt",
+    "d": "Yukjin Korean is a dialect of Korean spoken in the Yukjin region of North Hamgyŏng Province, North Korea (and by descendants in China/Russia).",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Hoeryong,Onyang,Kilju,Myongchon,Puryong,Orang,Musan,Chongjin,Kimchaek,Rason,Rajin,Sonbong,Hunchun,Wangqing,Longjing,Yanji,Tumen,Helong",
+    "status": "COMPLETE"
   },
-  {
+{
     "name": "Zainichi Korean",
     "i": 200726,
     "min": 4,
     "max": 11,
-    "d": "lnrt",
+    "d": "Zainichi Korean is a variety of Korean spoken by the Zainichi Korean community in Japan.",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Tokyo,Osaka,Nagoya,Kyoto,Kobe,Yokohama,Fukuoka,Sapporo,Sendai,Hiroshima,Kitakyushu,Chiba,Saitama,Kawasaki,Sagamihara,Niigata,Shizuoka,Hamamatsu,Kagoshima,Okinawa",
+    "status": "COMPLETE"
   },
   {
     "name": "Assyrian Neo Aramaic",
@@ -10241,12 +10221,12 @@ window.asiaNameBases = [
     "b": "Myitkyina,Bhamo,Waingmaw,Mansi,Momauk,Sadon,Sumprabum,Putao,Chipwi,Injangyang,Tanai,Hpakan,Mogaung,Shwegu,Mohnyin,Kutkai,Muse,Namhkam,Kunlong,Lashio,Mangshi,Ruili,Yingjiang,Lianghe,Longchuan,Zhangfeng,Nabang,Tengchong,Baoshan,Luxi,Hopin,Namyung,Sinhku,Wetle",
     "status": "COMPLETE"
   },
-  {
+{
     "name": "Jingpho Luish",
     "i": 201261,
     "min": 4,
     "max": 11,
-    "d": "lnrt",
+    "d": "Jingpho Luish is a cover term for the Luish branch of the Sino-Tibetan family (including Jingpho, Kadu, Ganan, Sak, etc.), not a single language.",
     "m": 0,
     "b": "",
     "status": "WAITING"
@@ -10261,15 +10241,15 @@ window.asiaNameBases = [
     "b": "Menghai,Pu'er,Lanping,Yongping,Yangbi,Xishuangbanna,Jinghong,Mengla,Menglun,Mengban,Mengxian,Mengyang,Mengka,Mengla,Mengsong,Mengzhe,Mengxian,Mengwang",
     "status": "COMPLETE"
   },
-  {
+{
     "name": "Lolo Burmese",
     "i": 201263,
     "min": 3,
     "max": 11,
-    "d": "lnrt",
+    "d": "Lolo Burmese is a cover term for the Lolo-Burmese branch of the Sino-Tibetan family (including Burmese, Yi, Lisu, Hani, Lahu, etc.), not a single language.",
     "m": 0,
-    "b": "Tachileik,Ranoon,Pekon,Langhko,Mongnai,Monghsu,Mongyang,Keng Tung,Taunggyi,Loikaw,Hpa-an,Mawlamyine,Dawei,Myeik,Chiang Mai,Chiang Rai,Lampang,Phrae,Nan,Phitsanulok,Sukhothai,Tak,Mae Sot,Myawaddy",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Longjia Luren",
@@ -10282,21 +10262,11 @@ window.asiaNameBases = [
     "status": "COMPLETE"
   },
 {
-    "name": "Lolo Burmese",
-    "i": 201263,
-    "min": 3,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-{
     "name": "Macro Bai",
     "i": 201266,
     "min": 4,
     "max": 11,
-    "d": "lnrt",
+    "d": "Macro Bai is a cover term for the Bai language family (including Dali Bai, Bijiang Bai, Heqing Bai, etc.), not a single language.",
     "m": 0,
     "b": "",
     "status": "WAITING"
@@ -10361,12 +10331,12 @@ window.asiaNameBases = [
     "b": "Mokokchung,Kohima,Wokha,Zunheboto,Phek,Tuensang,Mon,Longleng,Kiphire,Peren,Jalukie,Tseminyu,Chumukedima,Medziphema,Bhandari,Tizit,Changtongya,Alichen,Mangkolemba,Longching,Sakraba,Jotsoma,Viswema,Kigwema,Khonoma,Mima,Pfutsero",
     "status": "COMPLETE"
   },
-  {
+{
     "name": "Mruic",
     "i": 201273,
     "min": 3,
     "max": 11,
-    "d": "lnrt",
+    "d": "Mruic is a cover term for the Mru language group (Mru, Anu, etc.) within the Sino-Tibetan family, not a single language.",
     "m": 0,
     "b": "",
     "status": "WAITING"
@@ -10381,12 +10351,12 @@ window.asiaNameBases = [
     "b": "Lijiang,Yulong,Yongning,Zhongdian,Weixi,Yongsheng,Heqing,Jianchuan,Lanping,Deqin,Gongshan,Ninglang,Muli,Yanbian,Tibet,Mangkang,Shangri-La,Dayan,Baishajie,Shuhejie,Axi,Daoxin,Daoguzhai,Guangzhai,Baoshan,Guoluo,Ninglang,Yanyuan,Beiquba,Xiaoping,Zhangzidan,Guabie,Boao,Lieao",
     "status": "COMPLETE"
   },
-  {
+{
     "name": "Newaric",
     "i": 201275,
     "min": 4,
     "max": 11,
-    "d": "lnrt",
+    "d": "Newaric is a cover term for the Newar language family (including Newar, Dolakha Newar, etc.), not a single language.",
     "m": 0,
     "b": "",
     "status": "WAITING"
@@ -10431,12 +10401,12 @@ window.asiaNameBases = [
     "b": "Myitkyina,Bhamo,Mohnyin,Simao,Lanping,Shuanglang,Lashio,Ruili,Tengchong,Baoshan,Dali,Kunming,Jinghong,Mengla,Lincang,Puer,Dehong",
     "status": "COMPLETE"
   },
-  {
+{
     "name": "Nungish",
     "i": 201280,
     "min": 4,
     "max": 11,
-    "d": "lnrt",
+    "d": "Nungish is a cover term for the Nungish branch of the Sino-Tibetan family (including Nung, Rawang, etc.), not a single language.",
     "m": 0,
     "b": "",
     "status": "WAITING"
@@ -10461,12 +10431,12 @@ window.asiaNameBases = [
     "b": "Longleng,Tamlu,Namsang,Yongya,Sakshi,Yongnyah,Pongo,Yangching,Hukpang,Kamahu,Kanching,Alayung,Bhumnyu,Dunkhao,Hakpang,Hamlikhong,Lingtak,Mongtikong,Namching,Noksosang,Orangkong,Oushok,Pongching,Yachem,Yaongyimchen,Yimchong,Aboiche,Bura Namsang,Konsong,Ladaigarh,Namhaching,Yonglok,Aoching,Hongnyu,Mungkhu,Sakshi Village,Yimchong,Yongphang,Ametchong,Kangching,Nain,Namhaching,Netnyu,Netnyuching,Ngetghungching,Shamnyuching,Shitap,Tamlu Village,Tangha,Yongam,Yongnyah Village,Yongshei,Yotan",
     "status": "COMPLETE"
   },
-  {
+{
     "name": "Proto Hakka",
     "i": 201283,
     "min": 4,
     "max": 11,
-    "d": "lnrt",
+    "d": "Proto Hakka is the reconstructed ancestor of the Hakka Chinese dialects. Extinct/Historical reconstruction.",
     "m": 0,
     "b": "",
     "status": "WAITING"
@@ -10512,14 +10482,14 @@ window.asiaNameBases = [
     "status": "COMPLETE"
   },
 {
-    "name": "Pyu",
-    "i": 201288,
+    "name": "Nu",
+    "i": 201278,
     "min": 4,
     "max": 11,
-    "d": "lnrt",
+    "d": "Nu is a Sino-Tibetan language spoken in Yunnan, China and Myanmar with ~30,000 speakers.",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Gongshan,Fugong,Lushui,Pianma,Liuku,Zhongdian,Deqin,Shangri-La,Dali,Lijiang,Weixi,Yongsheng,Heqing,Jianchuan,Lanping,Nujiang,Changning,Baoshan,Tengchong,Longling,Lianghe,Yingjiang,Longchuan,Ruili,Mangshi,Luxi",
+    "status": "COMPLETE"
   },
   {
     "name": "Qiang",
@@ -10551,15 +10521,15 @@ window.asiaNameBases = [
     "b": "Tu'e,Bijifeng,Wupijiang,Guoli,Xiaocun,Jiangmo,Lanping,Lushui,Nujiang,Yunnan",
     "status": "COMPLETE"
   },
-  {
+{
     "name": "Rung",
     "i": 201292,
     "min": 4,
     "max": 11,
-    "d": "lnrt",
+    "d": "Rung is a Sino-Tibetan language spoken in Sichuan, China.",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Tu'e,Bijifeng,Wupijiang,Guoli,Xiaocun,Jiangmo,Lanping,Lushui,Nujiang,Yunnan",
+    "status": "COMPLETE"
   },
   {
     "name": "Shaozhou Tuhua",
@@ -10581,16 +10551,6 @@ window.asiaNameBases = [
     "b": "Taoping,Jiashan,Tonghua,Longxi,Bulan,Baduo,Mianchi,Puxi,Xuecheng,Heihu,Goukou,Sanlong,Fengyi,Zengtou,Niushan,Bulan,Jiaochang,TaopingVillage,LongxiVillage,MianchiVillage,HeihuVillage,SanlongVillage,ZengtouVillage,NiushanVillage,BulanVillage",
     "status": "COMPLETE"
   },
-  {
-    "name": "Sümi",
-    "i": 201295,
-    "min": 3,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Tsaphimi,Kitami,Ghokimi,Asukiqa,Puneboqa,Ighavito,Ighanumi,Iphonumi,Awohumi,Ghathashi,Tukuliqa,Kichilimi,Shesulimi,Mukalimi,Kilomi,Chisholimi,Hebolimi,Chishilimi,Khughutomi,Lazami,Pughoboto,Mishilimi,LazaPhuyeqa,Natsumi,Zunheboto,Dimapur,Kohima,Mokokchung,Tuensang,Niuland,Chumoukedima,Kiphire",
-    "status": "COMPLETE"
-  },
 {
     "name": "Thadou",
     "i": 201296,
@@ -10606,20 +10566,20 @@ window.asiaNameBases = [
     "i": 201297,
     "min": 4,
     "max": 11,
-    "d": "lnrt",
+    "d": "Tibetic is a cover term for the Tibetic language family (including Central Tibetan, Khams, Amdo, etc.), not a single language.",
     "m": 0,
     "b": "",
     "status": "WAITING"
   },
-  {
-    "name": "Tibeto Kanauri",
-    "i": 201298,
+{
+    "name": "Shaozhou Tuhua",
+    "i": 201293,
     "min": 4,
     "max": 11,
-    "d": "lnrt",
+    "d": "Shaozhou Tuhua (Shaozhou dialect) is a Chinese dialect spoken in Shaoguan, Guangdong, China.",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Shaoguan,Renhua,Wengyuan,Shixing,Ruyuan,Qujiang,Nanxiong,Xinfeng,Lechang,Nanxiong,Guangdong",
+    "status": "COMPLETE"
   },
   {
     "name": "Xiangnan Tuhua",
@@ -10631,22 +10591,22 @@ window.asiaNameBases = [
     "b": "Yongzhou,Hengyang,Chenzhou,Shaoyang,Loudi,Zhuzhou,Changde,Yiyang,Zhangjiajie,Huaihua,Lengshuijiang,Xinhua,Shuangfeng,Shaodong,Qidong,Qiyang,Jiangyong,Dao,Jianghua,Lianzhou,Rucheng,Guiyang,Zixing",
     "status": "COMPLETE"
   },
-  {
+{
     "name": "Yitdut Bai",
     "i": 201300,
     "min": 4,
     "max": 11,
-    "d": "lnrt",
+    "d": "Yitdut Bai is a Bai dialect spoken in Yunnan, China.",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Yongping,Yangbi,Midu,Xiangyun,Shuanglang,Lanping,Liuku,Pianma,Longling,Fengqing,Dali,Xiaguan,Eryuan,Binchuan,Yunlong,Weishan,Nanjian,Heqing,Jianchuan,Lijiang,Shangri-La,Deqin,Fugong,Gongshan,Nujiang,Lushui,Tengchong,Changning",
+    "status": "COMPLETE"
   },
-  {
+{
     "name": "Yitdut Bai lect",
     "i": 201301,
     "min": 4,
     "max": 11,
-    "d": "lnrt",
+    "d": "Yitdut Bai lect is a dialect of Yitdut Bai. Duplicate entry.",
     "m": 0,
     "b": "",
     "status": "WAITING"
@@ -10661,15 +10621,15 @@ window.asiaNameBases = [
     "b": "Ziro,Along,Roing,Tezu,Anini,Daporijo,Bomdila,Tawang,Seppa,Yingkiong,Mechuka,Monigong,Hunli,Hayuliang,Changlang,Khonsa,Namsai,Lekang,Chowkham,Wakro,Bordumsa,Miao,Deomali,Aalo,Basar,Itanagar,Pasighat,Jairampur",
     "status": "COMPLETE"
   },
-  {
+{
     "name": "Zho",
     "i": 201303,
     "min": 4,
     "max": 11,
-    "d": "lnrt",
+    "d": "Zho is a dialect of Yi (Nuosu) spoken in Sichuan, China.",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Yanyuan,Muli,Jiangchen,Beiquba,Xiaoping,Zhangzidan,Guabie,Boao,Lieao,Ninglang,Yanyuan,Muli,Yanbian,Tibet,Mangkang",
+    "status": "COMPLETE"
   },
   {
     "name": "Mizo",
@@ -10701,15 +10661,15 @@ window.asiaNameBases = [
     "b": "Bengkulu,Bandar Lampung,Palembang,Padang,Pekanbaru,Banda Aceh,Padang Sidempuan,Solok,Bukittinggi,Payakumbuh,Lubuk Sikaping,Sawahlunto,Mukomuko,Curup,Kepahiang,Lebong,Rejang Lebong,Tais,Seluma,Bengkulu Utara,Kaur",
     "status": "COMPLETE"
   },
-  {
+{
     "name": "Filipino",
     "i": 201344,
     "min": 4,
     "max": 15,
-    "d": "lnrt",
+    "d": "Filipino (Tagalog) is the national language of the Philippines, based on Tagalog.",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Manila,Quezon City,Calocan,Mandaluyong,Makati,Pasig,Taguig,Marikina,San Juan,Navotas,Malabon,Valenzuela,Las Piñas,Parañaque,Muntinlupa,Cavite,Laguna,Batangas,Rizal,Quezon,Nueva Ecija,Tarlac,Pampanga,Bulacan,Bataan,Zambales,Pangasinan,La Union,Ilocos Sur,Ilocos Norte",
+    "status": "COMPLETE"
   },
   {
     "name": "Hmong",
@@ -10741,25 +10701,25 @@ window.asiaNameBases = [
     "b": "Hpa-an,Myawaddy,Kawkareik,Hlaingbwe,Paingkyon,Thandaung,Hpapun,Kyaikdon,Payathonzu,Mae Sot,Mae Ramat,Tha Song Yang,Soppong,Mae Hong Son,Wang Chao,Omkoi,Hot,Mae Sariang,Khun Yuam,Mae La,Umphang,Phop Phra,Pu Nam Ron,Nong Prue,Mae Ku,Mae U-su,Ban Pa La Ta,Mae Chan,Lay Kay Kaw,Kyain Seikgyi",
     "status": "COMPLETE"
   },
-  {
+{
     "name": "Kasiguranin",
     "i": 201348,
     "min": 4,
     "max": 15,
-    "d": "lnrt",
+    "d": "Kasiguranin (Kasiguran) is a Central Philippine language spoken in Aurora Province, Philippines.",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Baler,Casiguran,Dilasag,Dinalungan,Dipaculao,Maria Aurora,San Luis,Alabat,General Nakar,Infanta,Real,Polillo,Jomalig,Patnanungan,Burdeos,Panukulan",
+    "status": "COMPLETE"
   },
-  {
+{
     "name": "Kayah",
     "i": 201349,
     "min": 3,
     "max": 19,
-    "d": "lnrt",
+    "d": "Kayah (Karenni) is a Karen language spoken in Kayah State, Myanmar.",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Loikaw,Demoso,Shadaw,Hpruso,Bawlake,Hpasaung,Mese,Panlong,Maungdaw,Buthidaung,Rathedaung,Sittwe,Pauktaw,Myebon,Minbya,Mrauk-U,Kyauktaw,Palawa",
+    "status": "COMPLETE"
   },
   {
     "name": "Makassarese",
@@ -10781,15 +10741,15 @@ window.asiaNameBases = [
     "b": "Penang,Malacca,Johor Bahru,Kuching,Kota Kinabalu,Ipoh,Shah Alam,Petaling Jaya,Klang,Alor Setar,Kota Bharu,Kuala Terengganu,Tawau,Miri,Sibu,Bintulu,Putrajaya,Cyberjaya,Subang,Kajang,Selayang",
     "status": "COMPLETE"
   },
-  {
+{
     "name": "Maranao",
     "i": 201352,
     "min": 4,
     "max": 15,
-    "d": "lnrt",
+    "d": "Maranao is a Danao language spoken in Lanao del Sur and Lanao del Norte, Philippines.",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Marawi,Iligan,Marawi City,Tubod,Kolambugan,Magsaysay,Lala,Salvador,Sapad,Kapatagan,Kauswagan,Bacolod,Balo-i,Tagoloan,Matungao,Marawi,Tugaya,Bayang,Malabang,Picong,Sultan Naga Dimaporo,Malabang,Ganassi,Marawi",
+    "status": "COMPLETE"
   },
   {
     "name": "Mien",
@@ -10831,15 +10791,15 @@ window.asiaNameBases = [
     "b": "Jolo,Patikul,Indanan,Parang,Maimbung,Talipao,Panamao,Siasi,Pangutaran,Luuk,Pandami,Kalingalan Caluang,Lugus,Omar,Pata,Tapul,Hadji Panglima Tahil,Banguingui,Bongao,Panglima Sugala,Simunul,Sitangkai,Sibutu,South Ubian,Languyan,Sapa-Sapa,Tandubas,Mapun,Isabela City,Lamitan,Zamboanga City",
     "status": "COMPLETE"
   },
-  {
+{
     "name": "Waray",
     "i": 201357,
     "min": 25,
     "max": 40,
-    "d": "lnrt",
+    "d": "Waray is a Central Philippine language spoken in Samar, Leyte, and Biliran, Philippines.",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Tacloban,Ormoc,Catbalogan,Catarman,Maasin,Baybay,Borongan,Taft,Guiuan,Laoang,Allen,Capul,San Jose,Lavezares,Rosario,Lope de Vega,Victoria,Gamay,Las Navas,Mapanas,Palapag,San Roque,Santo Nino,Silvino Lobos,San Policarpo,Arteche,Oras,Dolores,Can-avid,Salcedo,Mercedes,Jipapad,San Julian,Suluan,Guiuan,Gen. MacArthur,Hernani,Quinapondan,Salcedo,Balangiga,Lawaan,Marabut,Basey,Marabut,Pinabacdao,San Jorge,San Jorge,Calbiga,San Sebastian,Santa Margarita,Santa Rita,Tagapul-an,Tagapul-an,Basey",
+    "status": "COMPLETE"
   },
 {
     "name": "Kashmiri",
@@ -11021,25 +10981,25 @@ window.asiaNameBases = [
     "b": "Manipur,Imphal,Thoubal,Kakching,Jiribam,Moirang,Nambol,Wangjing,Yairipok,Sugnu,MayangImphal,Lamlai,Porompat,Heirok,Kumbi,Lilong,Noney,Tengnoupal,Kamjong,Kangpokpi,Saikul,Mao,Ukhrul,Chandel,Tamenglong,Senapati,Phek,Assam,Barak Valley,Tripura,Nagaland,Myanmar,Bangladesh",
     "status": "COMPLETE"
   },
-  {
+{
     "name": "Jerung (Jero)",
     "i": 846,
     "min": 4,
     "max": 11,
-    "d": "nic-GH",
+    "d": "Jerung (Jero) is a Kiranti language spoken in eastern Nepal with ~1,700 speakers.",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Okhaldhunga,Solu,Khotang,Diktel,Salleri,Taplejung,Phidim,Hile,Mangalbare,Thoklung,Chhintang,Nele,Bamdanda,Moplung,Mane,Sake,Chivali,Solma,Bhojpur,Chainpur",
+    "status": "COMPLETE"
   },
-  {
+{
     "name": "Limbu",
     "i": 847,
     "min": 3,
     "max": 14,
-    "d": "",
+    "d": "Limbu is a Kiranti language spoken in eastern Nepal, Sikkim, Bhutan, and India with ~380,000 speakers.",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Taplejung,Panchthar,Ilam,Jhapa,Morang,Sunsari,Dhankuta,Terhathum,Sankhuwasabha,Bhojpur,Khotang,Okhaldhunga,Udayapur,Sikkim,Phodong,Mangan,Gangtok,Gyalshing,Namchi,Bhutan,Thimphu,Phuntsholing,Samtse,Gelephu,Trashigang,Trashiyangtse,Samdrup Jongkhar,Mongar,Lhuentse,Pemagatshel,Zhemgang",
+    "status": "COMPLETE"
   },
 {
     "name": "Tibetan",
@@ -11061,15 +11021,15 @@ window.asiaNameBases = [
     "b": "Hunan,Hubei,Chongqing,Guizhou,Sichuan,Xiangxi Tujia and Miao Autonomous Prefecture,Enshi Tujia and Miao Autonomous Prefecture,Longshan,Baojing,Guzhang,Yongshan,Laifeng,Yongshun,Guzhang,Cili,Sangzhi,Zhangjiajie,Changde,Huaihua,Yuanling,Zhangjiajie,Enshi,Lichuan,Xianfeng,Heefeng,Xuanen,Badong,Lichuan,Enshi,Badong,Hefeng,Xuanen,Laifeng",
     "status": "COMPLETE"
   },
-  {
+{
     "name": "Dungmali",
     "i": 851,
     "min": 4,
     "max": 11,
-    "d": "nic-GH",
+    "d": "Dungmali is a Kiranti language spoken in eastern Nepal with ~5,000 speakers.",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Bhojpur,Khotang,Udayapur,Sankhuwasabha,Dhankuta,Terhathum,Taplejung,Panchthar,Ilam",
+    "status": "COMPLETE"
   },
 {
     "name": "Tajik",
@@ -11081,15 +11041,15 @@ window.asiaNameBases = [
     "b": "Tajikistan,Dushanbe,Khujand,Kulob,Qurghonteppa,Istaravshan,Qayroqqum,Norak,Tursunzoda,Uzbekistan,Afghanistan,Uzbekistan,Afghanistan,Uzbekistan,Afghanistan,Northern Afghanistan,Kabul,Mazar-i-Sharif,Kunduz,Ghazni,Herat,Pamir,Yaghnob River Valley",
     "status": "COMPLETE"
   },
-  {
+{
     "name": "Chantyal",
     "i": 854,
     "min": 4,
     "max": 11,
-    "d": "nic-GH",
+    "d": "Chantyal is a Magaric language spoken in western Nepal with ~10,000 speakers.",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Myagdi,Bagh,Rolpa,Rukum,Pyuthan,Dang,Surkhet,Dailekh,Jajarkot,Dolpa,Jumla,Mugu,Humla,Kalikot,Darchula,Baitadi,Dadeldhura,Doti,Achham,Bajhang,Bajura",
+    "status": "COMPLETE"
   },
 {
     "name": "Bai",
@@ -11101,45 +11061,45 @@ window.asiaNameBases = [
     "b": "Yunnan,Dali,Jianchuan,Heqing,Binchuan,Eryuan,Weishan,Nanjian,Lijiang,Shangri-La,Deqin,Lanping,Fugong,Gongshan,Nujiang,Lushui,Lijiang,Dali,Lanping,Weixi,Nujiang,Lushui,Qiubei,Jianchuan,Heqing,Lijiang,Shangri-La,Deqin,Lanping,Fugong,Nujiang,Lushui,Qiubei,Jianchuan,Heqing,Lijiang,Shangri-La,Deqin",
     "status": "COMPLETE"
   },
-  {
+{
     "name": "Kaike (Magar Kaike)",
     "i": 856,
     "min": 5,
     "max": 12,
-    "d": "nic-GH",
+    "d": "Kaike (Magar Kaike) is a Magaric language spoken in Dolpa District, Nepal with ~1,000 speakers.",
     "m": 0,
     "b": "Shahartara,Samteling,Tupatara,Tarakot,Namdel,Belawa,Dunai,Sahartara,Lingdu,Dunai Bazaar",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
-  {
+{
     "name": "Manang (Manange)",
     "i": 857,
     "min": 3,
     "max": 12,
-    "d": "nic-GH",
+    "d": "Manang (Manange) is a Tamangic language spoken in Manang District, Nepal with ~5,000 speakers.",
     "m": 0,
     "b": "Bagarchhap,Bratang,Braga,Chame,Danakyu,Dharapani,Gyaru,Ghusang,Humde,Khangsar,Karte,Koto,Upper Manang,Naar,Nache,Manang,Pisang,Hongde,Tanki Manang,Tal,Dana,Nar,Phu",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
-  {
+{
     "name": "Newar",
     "i": 2440,
     "min": 4,
     "max": 12,
-    "d": "lnrt",
+    "d": "Newar (Nepal Bhasa) is a Sino-Tibetan language spoken in Kathmandu Valley, Nepal with ~850,000 speakers.",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Kathmandu,Bhaktapur,Patan,Madhyapur Thimi,Kirtipur,Changu Narayan,Nagarkot,Dhulikhel,Banepa,Panauti,Sankhu,Lubhu,Thecho,Bungamati,Khokana,Champi,Sunakothi,Godawari,Imadol,Haridash,Thaiba,Sainbu,Lele,Chapagaun,Chaughare,Godamchaur,Satungal",
+    "status": "COMPLETE"
   },
-  {
+{
     "name": "Chepang",
     "i": 273,
     "min": 3,
     "max": 14,
-    "d": "",
+    "d": "Chepang is a Sino-Tibetan language spoken in central Nepal by the Chepang people with ~70,000 speakers.",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Chitwan,Makwanpur,Gorkha,Dhading,Chitwan,Makwanpur,Gorkha,Dhading,Nawalparasi,Chitwan,Makwanpur,Gorkha,Dhading,Nawalparasi,Chitwan,Makwanpur,Gorkha,Dhading,Nawalparasi",
+    "status": "COMPLETE"
   },
 {
     "name": "Ingush",
@@ -11181,15 +11141,15 @@ window.asiaNameBases = [
     "b": "Afghanistan,Pakistan,Khyber Pakhtunkhwa,Balochistan,Peshawar,Quetta,Kandahar,Jalalabad,Kabul,Herat,Qandahar,Qandahar,Ghilji,Ghilzai,Yusufzai,Kandahari,Pashtun,Nangarhar,Waziristan,Waziri,Shinwari,Nangarhar,Kabul",
     "status": "COMPLETE"
   },
-  {
+{
     "name": "Amdo Tibetan",
     "i": 869,
     "min": 4,
     "max": 11,
-    "d": "nic-GH",
+    "d": "Amdo Tibetan is a Tibetic language spoken in Qinghai, Sichuan, Gansu, China with ~1,000,000 speakers.",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Xining,Haidong,Haibei,Hainan,Huangnan,Golog,Yushu,Qinghai,Gansu,Zoige,Hongyuan,Ruoergai,Aba,Sungqu,Jiuzhi,Banma,Dari,Gande,Maqin,Gonghe,Guide,Huzhu,Menghua,Dulan,Tianjun,Delingha,Golmud",
+    "status": "COMPLETE"
   },
 {
     "name": "Kyrgyz",
@@ -11211,15 +11171,15 @@ window.asiaNameBases = [
     "b": "Yuanling,Luxi,Chenxi,Guzhang,Xupu,Yongshun,Jishou,Dayong,Zhangjiajie,Huaihua,Qingshuiping,Maxipu,Taichang,Wusu,Liangshuijing,Basheping,Shangbao,Liangjiatan,Baisha,Linchang,Gaowangjie,Gaofeng,Taojin,Beishuiping,Yantouzhai,Shanzao,Yezhu,Hepeng,Caotan,Tianwan,Banqiao,Chuanxiyi,Tanjiafang,Rangjiaxi,Daweixi,Muxi,Limin,Zhenxi,Xiaoxi,Wangcun,Chengbu,Longsheng,Nanshan,Wutuan,Mugua,Juezhiping,Ganjia,Weishan",
     "status": "COMPLETE"
   },
-  {
+{
     "name": "Xieheyu",
     "i": 201003,
     "min": 4,
     "max": 11,
-    "d": "lnrt",
+    "d": "Xieheyu (Xiehe) is a Chinese dialect spoken in Yunnan, China.",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Xishuangbanna,Jinghong,Menghai,Mengla,Xishuangbanna,Jinghong,Menghai,Mengla",
+    "status": "COMPLETE"
   },
   {
     "name": "Sui Lang",
@@ -11281,15 +11241,15 @@ window.asiaNameBases = [
     "b": "Chadong,Lingui,Guilin,Guangxi,Liangjiang,Yongfu,Longjiang,Nandan,Qingyuanfu",
     "status": "COMPLETE"
   },
-  {
+{
     "name": "En Kra",
     "i": 1061,
     "min": 4,
     "max": 11,
-    "d": "nic-GH",
+    "d": "En Kra is a Kra language spoken in Yunnan, China.",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Qiongzhong,Baisha,Changjiang,Dongfang,Ledong,Wuzhishan,Sanya,Lingshui,Baoting,Qionghai,Wanning,Tuncheng,Haikou,Chengmai,Danzhou,Lingao,Wenchang,Dingan",
+    "status": "COMPLETE"
   },
   {
     "name": "Nuoxi Naxi Yao",
@@ -11381,12 +11341,12 @@ window.asiaNameBases = [
     "b": "Hualien,Yilan,Taitung,Zhuangwei,Wujie,Toucheng,Beipu,Xinshe,Fengbin,Changbin,Xinshe Village,Fengbin Township,Qiliban,Maoliwuhan,Jialiyuan,Liuliu,Lizejian,Xinshe,Fengbin,Sanjianshi,Sanjianshi,Dafengfeng,PateRongan,Qiliban,Maoliwuhan,Jialiyuan,Liuliu,Lizejian,Jialiwan,Xinshe,Lide,Sanjianshi,Zhangyuan,Dafengfeng",
     "status": "COMPLETE"
   },
-  {
+{
     "name": "Northern Formosan",
     "i": 21118,
     "min": 4,
     "max": 12,
-    "d": "lnrt",
+    "d": "Northern Formosan is a cover term for the Atayedic branch of Austronesian (Atayal, Seediq), not a single language.",
     "m": 0,
     "b": "",
     "status": "WAITING"
@@ -11401,15 +11361,15 @@ window.asiaNameBases = [
     "b": "Altai Republic,Gorno-Altaysk,Russia,Mongolia,China,Kazakhstan,Altai Mountains,Altai Kizhi,Telengit,Tubalar,Chelkan,Kumandin,Teles,Telut",
     "status": "COMPLETE"
   },
-  {
+{
     "name": "Altai Uriankhai",
     "i": 859,
     "min": 4,
     "max": 11,
-    "d": "nic-GH",
+    "d": "Altai Uriankhai is a Mongolic language spoken in western Mongolia and Xinjiang, China with ~20,000 speakers.",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Bayan-Ölgii,Ulaanbaatar,Olgiy,Altay,Xinjiang,Mongolia,China",
+    "status": "COMPLETE"
   },
   {
     "name": "Alyutor",

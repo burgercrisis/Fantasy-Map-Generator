@@ -311,10 +311,10 @@ window.dedicatedNameBases = [
     "name": "Jibyal",
     "i": 200034,
     "min": 4,
-    "max": 11,
+    "max": 8,
     "d": "",
     "m": 0,
-    "b": ""
+    "b": "Jibyal,Monkwat,Lamalang,Shimər,Dalu"
   },
   {
     "name": "Jilbe",
@@ -359,7 +359,7 @@ window.dedicatedNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": ""
+    "b": "Bourmataguil,Ader-Ader,Aboudeia,Dougne,Musunye,Djongor"
   },
   {
     "name": "Ju (Chadic)",
@@ -368,7 +368,7 @@ window.dedicatedNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": ""
+    "b": "Ju village,Bajar,Miri,Dass,Bauchi LGA,Bauchi State,Nigeria"
   },
   {
     "name": "Juǀʼhoan",
@@ -938,11 +938,11 @@ window.dedicatedNameBases = [
   {
     "name": "Miya",
     "i": 200101,
-    "min": 4,
-    "max": 11,
+    "min": 3,
+    "max": 6,
     "d": "",
     "m": 0,
-    "b": ""
+    "b": "Miya,Kariya,Siri,Jimbinb,Tafawa,Gala,Federe,Fursum,Faishang,Demshin"
   },
   {
     "name": "Mofu-Gudur",
@@ -1203,7 +1203,7 @@ window.dedicatedNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": ""
+    "b": "Fachi,Guduniya"
   },
   {
     "name": "Nkore",
@@ -1316,8 +1316,8 @@ window.dedicatedNameBases = [
   {
     "name": "Pali language (Chadic)",
     "i": 200143,
-    "min": 4,
-    "max": 11,
+    "min": 0,
+    "max": 0,
     "d": "",
     "m": 0,
     "b": ""
@@ -1541,11 +1541,11 @@ window.dedicatedNameBases = [
   {
     "name": "Siri Chadic",
     "i": 200168,
-    "min": 0,
-    "max": 0,
+    "min": 4,
+    "max": 11,
     "d": "",
     "m": 0,
-    "b": ""
+    "b": "Siri Babba,Siri Nassara"
   },
   {
     "name": "Sokoro",
@@ -1662,12 +1662,12 @@ window.dedicatedNameBases = [
   {
     "name": "Tal",
     "i": 200181,
-    "min": 4,
-    "max": 11,
+    "min": 3,
+    "max": 6,
     "d": "",
     "m": 0,
-    "b": "",
-      "status": "WAITING"
+    "b": "Bongmuut,Buzuk,Nbaal,Muɗak,Muɗong,Takong,Basunsunwang,Dambi,Killing,Longwap,Puyam,Tangle,Chiroma-Kwabzak,Galdima-Kwabzak,Madakin Kwabzak,Mungue,Mungyim",
+    "status": "WAITING"
   },
   {
     "name": "Tala",
@@ -1716,7 +1716,7 @@ window.dedicatedNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "",
+    "b": "Tambes",
       "status": "WAITING"
   },
   {
@@ -2110,7 +2110,7 @@ window.dedicatedNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": ""
+    "b": "Jimbim,Jimbin,Jimbinawa"
   },
   {
     "name": "ǂKxʼaoǁʼae",
@@ -9481,7 +9481,7 @@ window.dedicatedNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": ""
+    "b": "Wutai,Pingtung,Taitung,Kaohsiung,Taiwan,Tanan,Labuan,Budai,Taromak"
   },
 {
     "name": "Cèmuhî",
@@ -9508,7 +9508,7 @@ window.dedicatedNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": ""
+    "b": "Popondetta,Kawawoki Mission,Muaturaina,Chimona,Dea,Akabafa,Nami,Mesari,Averi,Afore,Minjori,Oko,Wakue,Numba,Jimuni,Karira"
   },
 {
     "name": "Hagen",
@@ -9544,7 +9544,7 @@ window.dedicatedNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": ""
+    "b": "Dongpu,Nantou,Mayuan,Hualien,Laipunuk,Yanping,Taitung,Wanrong,Zhuoxi,Haiduan,Namaxia,Taoyuan,Maolin,Xinyi,Ren-ai,Taiwan"
   },
   {
     "name": "Javanese macro entry",
@@ -9724,7 +9724,7 @@ window.dedicatedNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": ""
+    "b": "Maolin,Tona,Kaohsiung,Taiwan,Lower Three Villages"
   },
   {
     "name": "Mailu",
@@ -9796,7 +9796,7 @@ window.dedicatedNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": ""
+    "b": "Wanshan,Fengli,Maolin,Kaohsiung,Taiwan,Lower Three Villages"
   },
 {
     "name": "Māori",
@@ -9958,7 +9958,7 @@ window.dedicatedNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": ""
+    "b": "Oro Province,Central Province,Barai,Efogi,Koiari villages,Koiari Rural LLG,Hiri Rural LLG,Efogi No. 1"
   },
   {
     "name": "Mubami",
@@ -10021,7 +10021,7 @@ window.dedicatedNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": ""
+    "b": "Kaipu,Lake Kutubu,Southern Highlands,Western Province,Namo Me,Fasu"
   },
   {
     "name": "Narak",
@@ -10233,11 +10233,11 @@ window.dedicatedNameBases = [
   {
     "name": "Ontenu",
     "i": 201131,
-    "min": 0,
-    "max": 0,
+    "min": 4,
+    "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": ""
+    "b": "Ontenu village,Kainantu,Eastern Highlands"
   },
   {
     "name": "Orokaiva",
@@ -10539,11 +10539,11 @@ window.dedicatedNameBases = [
   {
     "name": "Setaman",
     "i": 201165,
-    "min": 0,
-    "max": 0,
+    "min": 4,
+    "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": ""
+    "b": "Star Mountains,Western Province,Papua New Guinea"
   },
   {
     "name": "Shiaxa",
@@ -10656,11 +10656,11 @@ window.dedicatedNameBases = [
   {
     "name": "Suganga",
     "i": 201178,
-    "min": 0,
-    "max": 0,
+    "min": 4,
+    "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": ""
+    "b": "Yapsiei,Telefomin,Sandaun,Ambunti-Dreikikir,East Sepik"
   },
   {
     "name": "Suki",
@@ -10692,11 +10692,11 @@ window.dedicatedNameBases = [
   {
     "name": "Tairoa",
     "i": 201182,
-    "min": 0,
-    "max": 0,
+    "min": 4,
+    "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": ""
+    "b": "Bantura,Suwaira,Kuvaira,Vinaata,Konkompira,Motokara,Kovara,Aantantara,Arau,Arokaara,Saiqora,Tairora,Aatasaara,Haaviqinra,Omwunra-Toqura,Vaira-Ntosara,Veqaura"
   },
   {
     "name": "Tairora",
@@ -10867,7 +10867,7 @@ window.dedicatedNameBases = [
     "max": 0,
     "d": "lnrt",
     "m": 0,
-    "b": ""
+    "b": "Kapotaki,Milne Bay,Papua New Guinea"
   },
   {
     "name": "Turama-Kikorian",
@@ -10944,11 +10944,11 @@ window.dedicatedNameBases = [
   {
     "name": "Waffa",
     "i": 201210,
-    "min": 0,
-    "max": 0,
+    "min": 4,
+    "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": ""
+    "b": "Kusing,Tumbuna,Siaga,Aaringun,Urint,Kaiapit,Morobe,Eastern Highlands,Kainantu"
   },
   {
     "name": "Wahgi",
@@ -11011,7 +11011,7 @@ window.dedicatedNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Fiji,Western Fijian,Oceanic"
+    "b": "Nalauwaki,Natawa,Waya Levu,Yalobi,Viwa Island,Yasawa Islands,Fiji"
   },
   {
     "name": "Were",
@@ -11029,7 +11029,7 @@ window.dedicatedNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Goilalan languages,Kunimaipan,Papua New Guinea"
+    "b": "Aluwingei,Bonahoi,Bombita,Indibi,M'Bras,Salata,Sarom,Saunes,Tauanangas,Timingir,Urita,Wa'ahun,Waragom,East Sepik Province,Papua New Guinea"
   },
   {
     "name": "Wersing",
@@ -11038,7 +11038,7 @@ window.dedicatedNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Alor Island,Indonesia,Kolana,Abui,Kamang"
+    "b": "Adagai,Taremana,Kolana,Mademang,Pureman,Alor Island,Indonesia"
   },
   {
     "name": "West Bomberai",
@@ -11092,7 +11092,7 @@ window.dedicatedNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Paniai Lakes,Central Papua,Indonesia,Moni,Ekari,Auye,Dao,Dani,Paniai Regency"
+    "b": "Paniai Lakes,Central Papua,Indonesia,Kemandoga River,Mbiyandogo River,Lake Paniai,Paniai Regency,Wissel Lakes"
   },
   {
     "name": "Wolio",
@@ -11101,7 +11101,7 @@ window.dedicatedNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Baubau,Buton Island,Southeast Sulawesi,Indonesia,Wotu-Wolio,Celebic"
+    "b": "Waruruma,Liabuku,Kaisabu Baru,Sorawolio,Baadia,Wolio Keraton,Busoa,Pasarwajo,Pasarwajo,Kaimbulawa,Baubau,Buton Island,Southeast Sulawesi,Indonesia"
   },
   {
     "name": "Yagaria",
@@ -11110,7 +11110,7 @@ window.dedicatedNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Goroka District,Eastern Highlands Province,Papua New Guinea,Kami-Kulaka,Move,Ologuti,Dagenava,Kamate,Hira,Hua,Kotom"
+    "b": "Higivavi,Oliguti,Kami,Forapi No. 1,Litipinaga,Gotomi,Lufugu,Kiseveroka,Kogoraipa,Daginava,Nupuru,Goroka District,Eastern Highlands,Papua New Guinea"
   },
   {
     "name": "Yagwoia",
@@ -11128,7 +11128,7 @@ window.dedicatedNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Baliem Valley,Western Highlands,Pass Valley,Abenaho,North Ngalik,Western Yali,Ninia,Southern Yali,Angguruk,Northern Yali,Papua,Indonesia"
+    "b": "Angguruk,Kosarek,Holuwon,Apahapsili,Ninia,Nalca,Korupun,Soba,Lolat,Elelim,Seila,Wanim Alo,Puplin,Walma,Seinma,Highland Papua,Indonesia"
   },
   {
     "name": "Yaqay",
@@ -11137,7 +11137,7 @@ window.dedicatedNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Mappi Regency,Obaa River,Gandaimu area,Oba-Miwamon,Nambiomon-Mabur,Bapai,Mapi,Sohur,Yakhai,South Papua,Indonesia"
+    "b": "Paedem,Dagemon,Kogo,Kotup,Rayam,Wairu,Wanggate,Mappi Regency,Obaa River,Gandaimu,South Papua,Indonesia"
   },
   {
     "name": "Yareba",
@@ -11155,7 +11155,7 @@ window.dedicatedNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Eastern Highlands,Yabiyufa,Papua New Guinea"
+    "b": "Eastern Highlands Province,Papua New Guinea"
   },
   {
     "name": "Yekora",
@@ -11164,7 +11164,7 @@ window.dedicatedNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Morobe Province,Papua New Guinea,Binandere,Zia"
+    "b": "Sapa village,Morobe Station,Ana-Pose,Boura,Katima,Sirisaro,BS Gaina,Eya,Gugumi,Mambututu,Gira river,Ioma,Popondetta,Manau,Mambare,Taututu,Deboi,Bowera,Mambare Bay,Cape Ward Hunt Point,Morobe Province,Papua New Guinea"
   },
   {
     "name": "Yipma",
@@ -11173,7 +11173,7 @@ window.dedicatedNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Wantakia,Baruya,Gulicha,Usirampia,Wuzuraabya,Marawaka station,Mount Yelia,Morobe Province,Papua New Guinea,Angan,Hipma"
+    "b": "Wauko,Ande,Mala,Marawaka station,Mount Yelia,Morobe Province,Papua New Guinea"
   },
   {
     "name": "Yogo (Tamagario)",
@@ -11191,7 +11191,7 @@ window.dedicatedNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Ok languages,Indonesia,Papua New Guinea,Muyu,Kampung Ninati,North Muyu,South Muyu,Ningrum"
+    "b": "Kawok,Moian,Ulawas,Erekta,Karemgu,Membok,Kukujaba,Kungim,Kungembit,Ambaga,Komokpin,Yogi,Dome,Yeran,Bongabun,Atkamba,Konkonda,Nago,Buseki,Western Province,Papua New Guinea,Ok Tedi,Fly River"
   },
   {
     "name": "Zia",
@@ -11200,7 +11200,7 @@ window.dedicatedNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Lower Waria Valley,Morobe Province,Papua New Guinea,Binandere"
+    "b": "Zare,Ainse,Siu,Popoe,Kobo,Dona,Bau,Eu,Pema,Toyare,Lower Waria Valley,Morobe Province,Papua New Guinea"
   },
   {
     "name": "Zimakani",
@@ -11218,7 +11218,7 @@ window.dedicatedNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Solomon Islands,Malaita Island,South Malaita"
+    "b": "Ma'asupa,Waiahaa,Hauporo,West Are'are,Honiara,Marau Sound,Solomon Islands,Malaita,South Malaita"
   },
   {
     "name": "Arin",
