@@ -7412,16 +7412,6 @@ window.asiaNameBases = [
     "status": "COMPLETE"
   },
 {
-    "name": "Katua",
-    "i": 200320,
-    "min": 2,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-{
     "name": "Nanaic",
     "i": 200392,
     "min": 2,
@@ -7622,24 +7612,14 @@ window.asiaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Oeld",
-    "i": 200412,
-    "min": 4,
-    "max": 12,
-    "d": "lnrt",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-  {
     "name": "Oi",
     "i": 200413,
     "min": 4,
     "max": 12,
-    "d": "lnrt",
+    "d": "Oi (Oy) is a West Bahnaric Austroasiatic language spoken in Attapeu Province, southern Laos with ~24,000 speakers. Also known as Oy, Oey, The, Thang Ong, Sok.",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Attapeu,Samakkhixay,Sanamxay,Sanxay,Vongxay,Phouvong,Xaysetha,Xaykheun,Xaysomboun,Champasak,Salavan,Sekong,Thateng,Laongam,Samoui,Sekong River Valley,Bolaven Plateau",
+    "status": "COMPLETE"
   },
   {
     "name": "Oirat Mongolian",
@@ -8646,70 +8626,70 @@ window.asiaNameBases = [
     "i": 200517,
     "min": 4,
     "max": 16,
-    "d": "lnrt",
+    "d": "Tai Khang (Tay Khang) is an endangered Southwestern Tai language spoken in Bolikhamsai Province, Laos with ~1,500-200 speakers. Also known as Kang.",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Paksan,Khamkeut,Bolikham,Bolikhamxay,Viengthong,Xam Tai,Nongkhet,Viangthong",
+    "status": "COMPLETE"
   },
   {
     "name": "Tai Laing",
     "i": 200518,
     "min": 4,
     "max": 16,
-    "d": "lnrt",
+    "d": "Tai Laing (Shan-Ni, Tai Leng) is a Southwestern Tai language spoken in Sagaing Region and Kachin State, Myanmar with ~115,000 speakers. Also known as Shan-Ni, Red Tai.",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Homalin,Bhamo,Myitkyina,Mogaung,Mohnyin,Waingmaw,Chindwin River,Irrawaddy River,Uru River,Sagaing,Mandalay,Kachin State,Sagaing Region,Hkamti District",
+    "status": "COMPLETE"
   },
   {
     "name": "Tai Long",
     "i": 200519,
     "min": 4,
     "max": 16,
-    "d": "lnrt",
+    "d": "Tai Long is a Southwestern Tai language spoken in Laos (also known as Shan in Myanmar context). ISO 639-3: thi.",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Vientiane,Luang Prabang,Savannakhet,Pakse,Thakhek,Phonsavan,Champasak,Lak Sao,Muang Xay,Nong Khiaw,Muang Ngoy,Vieng Xai,Vang Vieng,Muang Sing,Ton Pheung,Boten,Pakbeng,Hongsa,Muang Ngoi,Pak Lay,Paksane,Muang Phin,Ban Houei Sai,Sam Neua,Paksan,Houayxay",
+    "status": "COMPLETE"
   },
   {
     "name": "Tai Lue",
     "i": 200520,
     "min": 4,
     "max": 16,
-    "d": "lnrt",
+    "d": "Tai Lue (Lue, Dai Lue) is a Southwestern Tai language spoken in Yunnan, China; Laos; Thailand; Myanmar; Vietnam with ~550,000 speakers. Also known as Lue, Dai Lue.",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Jinghong,Menghai,Mengla,Xishuangbanna,Luang Namtha,Muang Sing,Boten,Muang Long,Vieng Phoukha,Nalae,Chiang Rai,Chiang Mai,Mae Sai,Tachileik,Kengtung,Mong La,Mongmao,Mong Yang,Monglar,Mongpyin,Mongmao,Mongyang,Namkham,Muse,Ruili,Longchuan,Yingjiang",
+    "status": "COMPLETE"
   },
   {
     "name": "Tai Nuea",
     "i": 200521,
     "min": 4,
     "max": 16,
-    "d": "lnrt",
+    "d": "Tai Nuea (Tai Nua, Dehong Dai, Chinese Shan) is a Southwestern Tai language spoken in Yunnan, China and Myanmar with ~540,000 speakers. Also known as Dehong Dai, Chinese Shan.",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Ruili,Mangshi,Luxi,Longchuan,Yingjiang,Wanding,Zhefang,Mongmao,Mong Yang,Namkham,Muse,Myitkyina,Bhamo,Mogaung,Kachin State,Dehong Prefecture",
+    "status": "COMPLETE"
   },
   {
     "name": "Tai Pao",
     "i": 200522,
     "min": 4,
     "max": 16,
-    "d": "lnrt",
+    "d": "Tai Pao is a Southwestern Tai language spoken in Bolikhamsai and Khammouane Provinces, Laos with ~10,000 speakers.",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Paksan,Khamkeut,Bolikham,Bolikhamxay,Viengthong,Thakhek,Mahaxay,Nakai,Gnommalath,Boualapha",
+    "status": "COMPLETE"
   },
   {
     "name": "Tai Song",
     "i": 200523,
     "min": 4,
     "max": 16,
-    "d": "lnrt",
+    "d": "Tai Song (Lao Song) is a Southwestern Tai language spoken in central Thailand by descendants of Lao deportees with ~30,000 speakers.",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Phetchabun,Phitsanulok,Loei,Chaiyaphum,Nakhon Sawan,Uthai Thani,Kamphaeng Phet,Tak,Sukhothai,Phichit,Phrae,Nan,Uttaradit,Chiang Rai,Phayao,Lampang,Lamphun,Chiang Mai",
+    "status": "COMPLETE"
   },
   {
     "name": "Tai Thanh",
@@ -8726,20 +8706,20 @@ window.asiaNameBases = [
     "i": 200525,
     "min": 4,
     "max": 16,
-    "d": "lnrt",
+    "d": "Tai Yao (Tai Mène) is a Southwestern Tai language spoken in Houaphan Province, Laos with ~1,500 speakers.",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Xam Neua,Vieng Xai,Houaphan,Sam Neua,Xamtay,Sop Bao,Viengthong,Xon Neua,Et,Houameuang,Sone,Add,Xiengkhor,Xamtai",
+    "status": "COMPLETE"
   },
   {
     "name": "Tai Yo (Nyaw)",
     "i": 200526,
     "min": 4,
     "max": 16,
-    "d": "lnrt",
+    "d": "Tai Yo (Nyaw) is a Southwestern Tai language spoken in Loei, Nong Khai, and Udon Thani Provinces, Thailand; also in Laos with ~15,000 speakers.",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Loei,Nong Khai,Udon Thani,Bueng Kan,Nong Bua Lamphu,Chiang Khan,Pho Tak,Sri Chiang Mai,Tha Li,Wang Saphung,Phu Ruea,Dan Sai,Erawan,Phu Luang,Pha Khao",
+    "status": "COMPLETE"
   },
   {
     "name": "Takua",
@@ -8906,9 +8886,9 @@ window.asiaNameBases = [
     "i": 200543,
     "min": 4,
     "max": 16,
-    "d": "lnrt",
+    "d": "Thmon is a Bahnaric language of northeastern Cambodia. Spoken in Memom village, Kaoh Nheaek District, Mondulkiri Province with ~300-500 speakers. Related to Stieng, Kraol, Khaonh, Mel.",
     "m": 0,
-    "b": "",
+    "b": "Memom,Kaoh Nheaek,Mondulkiri,Benam,Kotol,Sambour,Kratie",
     "status": "WAITING"
   },
   {
@@ -8916,20 +8896,20 @@ window.asiaNameBases = [
     "i": 200544,
     "min": 4,
     "max": 16,
-    "d": "lnrt",
+    "d": "Tichurong is a Sino-Tibetan language spoken by the Magar people in the Tichurong valley, Dolpa District, Nepal with ~2,700 speakers across 18 villages. Also known as Tichurongke, Poike, Poinke, Rongke.",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Gumbatara,Kola,Baijibara,Banthada,Khani,Chilpara,Lawan,Tachin,Rukha,Dharapani,Byasi,Khani Gumba,Sariba,Syala,Namdel,Gufa,Nakko,Chhoredada,Byasigad,Dolpa,Karnali,Thuli Bheri River",
+    "status": "COMPLETE"
   },
   {
     "name": "Toda",
     "i": 200545,
     "min": 4,
     "max": 16,
-    "d": "lnrt",
+    "d": "Toda is a Dravidian language spoken by the Toda people in the Nilgiri Hills, Tamil Nadu, India with ~1,600 speakers. Critically endangered, ~60 munds (villages).",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Ootacamund,Udhagamandalam,Kotagiri,Coonoor,Wellington,Ketti,Sholur,Hulikal,Masinagudi,Gudalur,Pandalur,Needle Rock,Mund,Doddabetta,Avalanche,Emerald Lake,Pykara,Ooty Lake,Kalhatty,Frog Hill",
+    "status": "COMPLETE"
   },
   {
     "name": "Todrah",
@@ -8956,10 +8936,10 @@ window.asiaNameBases = [
     "i": 200548,
     "min": 4,
     "max": 16,
-    "d": "lnrt",
+    "d": "Torwali is a Dardic Indo-Aryan language spoken in the Swat Valley, Khyber Pakhtunkhwa, Pakistan with ~80,000-130,000 speakers. Also known as Bahrain Kohistani.",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Bahrain,Chail,Madyan,Kalam,Bishigram,Asret,Peshmal,Swat River,Swat Valley,Swat Kohistan,Khyber Pakhtunkhwa,Swat District,Upper Swat,Chail Valley,Bahrain Tehsil,Kalam Tehsil",
+    "status": "COMPLETE"
   },
   {
     "name": "Transitional Bonan-Kangjia",
@@ -8976,10 +8956,10 @@ window.asiaNameBases = [
     "i": 200550,
     "min": 3,
     "max": 14,
-    "d": "lnrt",
+    "d": "Tripuri (Kokborok) is a Tibeto-Burman language spoken in Tripura, India with ~1 million speakers. Official language of Tripura state.",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Agartala,Udaipur,Kailasahar,Dharmanagar,Kamalpur,Ambul,Bishramganj,Sonamura,Melaghar,Santirbazar,Belonia,Amarpur,Gandacherra,Longtharai Valley,Manu,Kanchanpur,Panisagar,Dhamcherra,Dasda,Jampui Hill,Kanchancherra,Chawmanu,Raishyabari,Dumburnagar,Damcharra,Karbook,Ompi,Ampinagar,Tulashikhar,Mohanpur,Hezamara,Jirania,Mandwi,Padmabil,Lefunga,Bakhrabad,Old Agartala,West Tripura,South Tripura,North Tripura,Dhalai,Gomati,Khowai,Sepahijala,Unakoti",
+    "status": "COMPLETE"
   },
   {
     "name": "Tsun-Lao",
@@ -9076,10 +9056,10 @@ window.asiaNameBases = [
     "i": 200560,
     "min": 4,
     "max": 16,
-    "d": "lnrt",
+    "d": "Ushojo is an Indo-Aryan Dardic language spoken in Kohistan and Swat districts, Khyber Pakhtunkhwa, Pakistan with ~2,000-500 speakers. Endangered.",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Peshmal,Bahrain,Madyan,Kalam,Asret,Chail,Swat Kohistan,Khyber Pakhtunkhwa,Kohistan District,Swat District,Upper Swat",
+    "status": "COMPLETE"
   },
   {
     "name": "Vaghri",
@@ -9116,7 +9096,7 @@ window.asiaNameBases = [
     "i": 200564,
     "min": 4,
     "max": 16,
-    "d": "lnrt",
+    "d": "Vietnamese Central is a dialect group of the Vietnamese language, not a separate language.",
     "m": 0,
     "b": "",
     "status": "WAITING"
@@ -9136,7 +9116,7 @@ window.asiaNameBases = [
     "i": 200566,
     "min": 4,
     "max": 16,
-    "d": "lnrt",
+    "d": "Vietnamese Hue is a dialect of the Vietnamese language spoken in the Hue region, not a separate language.",
     "m": 0,
     "b": "",
     "status": "WAITING"
@@ -9166,7 +9146,7 @@ window.asiaNameBases = [
     "i": 200569,
     "min": 4,
     "max": 16,
-    "d": "lnrt",
+    "d": "Vietnamese US is a diaspora variety of Vietnamese spoken by Vietnamese Americans in the United States, not a separate language.",
     "m": 0,
     "b": "",
     "status": "WAITING"
@@ -9176,10 +9156,10 @@ window.asiaNameBases = [
     "i": 200570,
     "min": 4,
     "max": 16,
-    "d": "lnrt",
+    "d": "Vishavan (Malankudi/Malayan) is a critically endangered Dravidian language spoken in central Kerala, India with ~150 speakers. Spoken in Idamalayar (Ernakulam) and Vazhachal (Thrissur) regions.",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Idamalayar,Parana,Perumuzhi,Vazhachal,Ittyani,Chalakudi River,Ernakulam,Thrissur,Moovatupuzha,Idukki",
+    "status": "COMPLETE"
   },
   {
     "name": "Wadiyara Koli",
@@ -9216,20 +9196,20 @@ window.asiaNameBases = [
     "i": 200574,
     "min": 4,
     "max": 16,
-    "d": "lnrt",
+    "d": "Wambule is a Western Kiranti language spoken in eastern Nepal (Okhaldhunga, Khotang, Udayapur, Sindhuli districts) with ~14,000 speakers.",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Okhaldhunga,Khotang,Udayapur,Sindhuli,Khanbu,Kui-Bhir,Sunkoshi,Dudhkosi,Hilepane,Wamdyal,Jhappali,Sunari,Morang,Panbari",
+    "status": "COMPLETE"
   },
   {
     "name": "Wayanad Chetti",
     "i": 200575,
     "min": 4,
     "max": 16,
-    "d": "lnrt",
+    "d": "Wayanad Chetti (Chetti) is an endangered Southern Dravidian language spoken in Wayanad district, Kerala, India with ~5,000 speakers.",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Chekadi,Appapara,Panavalli,Pulpalli,Thirunelli,Tholpetti,Kattikkulam,Mananthavady,Sulthan Bathery,Vythiri,Meppadi,Muttil,Panamaram,Padinharethara,Poothadi,Noolpuzha,Mullankolly",
+    "status": "COMPLETE"
   },
   {
     "name": "Waziri",
@@ -9246,7 +9226,7 @@ window.asiaNameBases = [
     "i": 200577,
     "min": 4,
     "max": 16,
-    "d": "lnrt",
+    "d": "Western Khmer (Cardamom/Chanthaburi Khmer) is a dialect of the Khmer language spoken in the Cardamom Mountains of western Cambodia and eastern Thailand. Not a separate language.",
     "m": 0,
     "b": "",
     "status": "WAITING"
@@ -9256,10 +9236,10 @@ window.asiaNameBases = [
     "i": 200578,
     "min": 4,
     "max": 16,
-    "d": "lnrt",
+    "d": "Yadgha (Yidgha) is an Eastern Iranian Pamiri language spoken in the Lotkoh Valley, Chitral District, Khyber Pakhtunkhwa, Pakistan with ~5,000-6,000 speakers. Closely related to Munji.",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Lutkuh Valley,Chitral,Baroghil,Garam Chashma,Yarkhun,Mastuj,Burbunu,Gobar,Munji,Khowar,Parwak,Lotkoh Tehsil,Upper Chitral",
+    "status": "COMPLETE"
   },
 {
     "name": "Yakut",

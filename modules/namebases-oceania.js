@@ -905,18 +905,7 @@ window.oceaniaNameBases = [
     "status": "WAITING"
   },
 
-  {
-    "name": "Moikodi",
-    "i": 1949,
-    "min": 3,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Oro Province,Papua New Guinea,Yareban,Trans-New Guinea,Doriri,2000 speakers,Joshua Project,Oro languages,SIL-PNG,Aeka,Aneme Wake,Barai,Bariji,Baruga,Bauwaki,Biage,Binandere,Doghoro,Ese,Ewage-Notu,Fuyug,Gaina,Guhu-Samane,Hunjara-Kaina Ke,Korafe-Yegha,Kunimaipa,Maisin,Maiwa,Miniafia Oyan,Namiae,Nawaru,Ömie,Onjob,Orokaiva,Ubir,Yareba,Zia",
-    "status": "COMPLETE"
-  },
-
-  {
+{
     "name": "Duna",
     "i": 1723,
     "min": 3,
@@ -2177,8 +2166,8 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Kagua,Erave,Ialibu,Mendi,Pangia,Imbonggu,Mendi Valley,Kagua-Erave district,Ialibu-Pangia district,Lake Kutubu area,Mendi-Erave river network,Mount Giluwe,Mount Ialibu,Kagua plateau,Erave plateau",
-    "status": "WAITING"
+    "b": "Kagua,Erave,Ialibu,Mendi,Pangia,Imbonggu,Mendi Valley,Kagua-Erave district,Ialibu-Pangia district,Lake Kutubu area,Mendi-Erave river network,Mount Giluwe,Mount Ialibu,Kagua plateau,Erave plateau,Aiya,Wabi,Sumi,Kagua Central,Kuare,Usa,Karia,Koali,Lombo,Mendo,Sugu Valley,Katiloma,Semberigi,Puputao,Wapisale,Seven Kona,Nipa,Lake Kutubu,Mount Giluwe,Mount Ialibu",
+    "status": "COMPLETE"
   },
 
   {
@@ -2419,8 +2408,8 @@ window.oceaniaNameBases = [
     "max": 0,
     "d": "",
     "m": 0,
-    "b": "Uwe,Yuwayu,Uiaku,Ganjiga,Sinapa,Konyasi,Sinipara,Airara,Marua,Kosirava,Cape Nelson,Collingwood Bay,Musa Basin,Wanigela,Tufi,Ijivitari,Goodenough Island,Trobriand Islands",
-    "status": "WAITING"
+    "b": "Uwe,Yuwayu,Uiaku,Ganjiga,Sinapa,Konyasi,Sinipara,Airara,Marua,Kosirava,Cape Nelson,Collingwood Bay,Musa Basin,Wanigela,Tufi,Ijivitari,Goodenough Island,Trobriand Islands,Kofure,Kewansasap,Gegerau,Reaga,Iu-ai-iu,Fofo,Awanen,Tufi station,Popondetta,Oro Bay",
+    "status": "COMPLETE"
   },
 
   {
@@ -3270,18 +3259,7 @@ window.oceaniaNameBases = [
     "status": "COMPLETE"
   },
 
-  {
-    "name": "Moikodi",
-    "i": 2007,
-    "min": 3,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-
-  {
+{
     "name": "Mombum",
     "i": 201092,
     "min": 3,
@@ -3358,18 +3336,7 @@ window.oceaniaNameBases = [
     "status": "COMPLETE"
   },
 
-  {
-    "name": "Mountain",
-    "i": 201099,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-
-  {
+{
     "name": "Mountain Koiari",
     "i": 201100,
     "min": 3,

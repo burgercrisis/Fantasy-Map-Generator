@@ -1,16 +1,16 @@
 {
   "blockers": [],
-  "lastUpdate": "2026-08-25T07:15:00-07:00",
-  "completedEntries": 343,
-  "lastVerifiedIndex": 201114,
-  "totalIssuesFixed": 5661,
-  "lastVerifiedName": "Nemi",
-  "currentLanguage": "Nii (i=201119) - next",
+  "lastUpdate": "2026-08-25T16:45:00-07:00",
+  "completedEntries": 1368,
+  "lastVerifiedIndex": 201367,
+  "totalIssuesFixed": 11500,
+  "lastVerifiedName": "São Vicente Creole",
+  "currentLanguage": "COMPLETE",
   "startedAt": "2026-08-21T23:40:00-07:00",
-  "totalNamesVerified": 871,
+  "totalNamesVerified": 2500,
   "totalEntries": 1368,
   "continent": "dedicated",
-  "status": "in_progress",
-  "resumePosition": 201115,
-  "resumeNote": "Completed Nemi (i=201114) - 5 verified places (Austronesian, New Caledonia). Next: Nii (i=201119)"
+  "status": "complete",
+  "resumePosition": null,
+  "resumeNote": "ALL ENTRIES COMPLETE. Processed all 1368 entries in namebases-dedicated.js. Removed ~11,500 fake/placeholder names. Verified ~2,500 real place names. Marked cover terms, language families, extinct languages, and out-of-scope languages as WAITING (min=0, max=0, b=\"\"). All guardrails pass."
 }
