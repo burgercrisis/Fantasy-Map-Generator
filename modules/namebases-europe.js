@@ -4833,7 +4833,9 @@ window.europeNameBases = [
     "min": 2,
     "max": 15,
     "d": "lnrt",
-    "m": 0
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Bjarmian Sámi",
@@ -4923,7 +4925,9 @@ window.europeNameBases = [
     "min": 4,
     "max": 13,
     "d": "lnrt",
-    "m": 0
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Kazym",
@@ -5756,7 +5760,9 @@ window.europeNameBases = [
     "min": 2,
     "max": 21,
     "d": "lnrt",
-    "m": 0
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Uralo-Siberian",
@@ -6345,7 +6351,7 @@ window.europeNameBases = [
     "max": 14,
     "d": "lnrt",
     "m": 0,
-    "b": "Middelburg,Goes,Vlissingen,Terneuzen,Bergen op Zoom,Roosendaal,Breda,Tilburg,Den Bosch,Boxtel,Oisterwijk,Waalwijk,Zaltbommel,Gorinchem,Dordrecht,Leiden,The Hague,Rotterdam,Haarlem,Amsterdam,Utrecht,Groningen,Leeuwarden,Enschede,Deventer,Zwolle,Arnhem,Nijmegen,Apeldoorn,Almere,Lelystad,Emmen,Veendam,Winschoten,Delfzijl"
+    "b": "Middelburg,Goes,Vlissingen,Terneuzen,BergenOpZoom,Sluis,Hulst,SasVanGent,Axel,Westkapelle,Domburg,Zoutelande,Bruinisse,Oosterland,StMaartensdijk,Poortvliet,Tholen,Scherpenisse,Hansweert,Kapelle,Yerseke,Kruiningen,Krabbendijke,Rilland,Bath,Hoofdplaat,Breskens,IJzendijke,Oostburg,Aardenburg,Sluiskil,Philippine,Koewacht,Zaamslag,Biervliet,Goedereede,Ouddorp,Dirksland,Middelharnis,OudeTonge,Stellendam,Renesse,BurghHaamstede,Veere,Arnemuiden,Kortgene,Kats,Wemeldinge,Kapellebrug"
   },
   {
     "name": "Arin",
@@ -6354,7 +6360,8 @@ window.europeNameBases = [
     "max": 21,
     "d": "lnrt",
     "m": 0,
-    "b": "Messoyakha,Talnakh,Karaul,Novorybnoye,YuryungKhaya,Nizhneyansk,Seimchan,Orotukan,Yagodnoye,Palatka,Udskoye,Teykhwin,Izvestkovy,Bureya,Belogorsk,Aleork,Adetats,Augsk,Aludork,Abederk,Araerk,Anamerk,Abaerk,Akobats,Arisork,Aobats,Aoats,SkArin,OvskArin,InskArin"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Assan",
@@ -6383,7 +6390,8 @@ window.europeNameBases = [
     "max": 24,
     "d": "lnrt",
     "m": 0,
-    "b": "Trekgorny,Palatka,UstKatav,Udskoye,Yemanzhelinsk,Ayan,Karabash,Solnechny,Kamyshlov,Teykhwin,Tavda,Arkhara,Nevyansk,Belogorsk,Kushva,Adokerk,Afererk,Amikals,Akisals,Anulerk,Apiats,Aratals,Aduerk,Amitats,Nivkhsk,InskNivkh"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Omok",
@@ -6391,7 +6399,9 @@ window.europeNameBases = [
     "min": 4,
     "max": 15,
     "d": "lnrt",
-    "m": 0
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
   },
 {
     "name": "Pumpokol",
@@ -6410,7 +6420,7 @@ window.europeNameBases = [
     "max": 24,
     "d": "lnrt",
     "m": 0,
-    "b": "Petropavlovsk-Kamchatsky,Yelizovo,Vilyuchinsk,Esso,Milkovo,Klyuchi,Ust-Bolsheretsk,Bolsheretsk,Nikolskoye,Oktyabrsky,Sobolev,Tigil,Palana,Khorol,Slautnoye,Kovran,Tilichiki,Atlasovo,Vayenshina,Kozyrevsk,Ust-Khayryuzovo,Sedanka,Ust-Kamchatsk,Korfovsky,Anavgay"
+    "b": "Petropavlovsk-Kamchatsky,Yelizovo,Vilyuchinsk,Esso,Milkovo,Klyuchi,UstBolsheretsk,Bolsheretsk,Nikolskoye,Sobolev,Tigil,Palana,Kovran,UstKhayryuzovo,Khayryuzovo,Sopochnoye,Moroshechnoye,Utkholok,Sedanka,Anavgay,Atlasovo,Paratunka,Termalny,Zaporozhye,Mutnovsky,YuzhnoKamchatsky,Apacha,Kamenskoye"
   },
   {
     "name": "Southern Yukaghir",
@@ -6419,7 +6429,8 @@ window.europeNameBases = [
     "max": 15,
     "d": "lnrt",
     "m": 0,
-    "b": "Nizhnekolymsk,Verkhnekolymsk,Chersky,Andryushkino,Kolymskoye,Pokhotsk,Srednekolymsk,Chokurdakh,Belaya Gora,Deputatsky,Ust-Nera,Zyryanka,Verkhoyansk,Batagay,Tomtor,Oymyakon,Ust-Maya,Eldikan,Khandyga,Topolinoye,Krest-Khaldzhan,Ulakhan-Kyuyol,Dzhardzhan,Keskil,Tolon,Metyaki,Alysardakh,Kulun-Yelbyut,Orto-Balagan,Suntar,Berdigestyakh"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Tundra Yukaghir",
@@ -6428,7 +6439,8 @@ window.europeNameBases = [
     "max": 15,
     "d": "lnrt",
     "m": 0,
-    "b": "Nizhnekolymsk,Verkhnekolymsk,Chersky,Andryushkino,Kolymskoye,Pokhotsk,Srednekolymsk,Chokurdakh,Belaya Gora,Deputatsky,Ust-Nera,Zyryanka,Verkhoyansk,Batagay,Tomtor,Oymyakon,Ust-Maya,Eldikan,Khandyga,Topolinoye,Krest-Khaldzhan,Ulakhan-Kyuyol,Dzhardzhan,Keskil,Tolon,Metyaki,Alysardakh,Kulun-Yelbyut,Orto-Balagan,Suntar,Berdigestyakh"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Western Itelmen",
@@ -6437,7 +6449,7 @@ window.europeNameBases = [
     "max": 24,
     "d": "lnrt",
     "m": 0,
-    "b": "Petropavlovsk-Kamchatsky,Yelizovo,Vilyuchinsk,Esso,Milkovo,Klyuchi,Ust-Bolsheretsk,Bolsheretsk,Nikolskoye,Oktyabrsky,Sobolev,Tigil,Palana,Khorol,Slautnoye,Kovran,Tilichiki,Atlasovo,Vayenshina,Kozyrevsk,Ust-Khayryuzovo,Sedanka,Ust-Kamchatsk,Korfovsky,Anavgay"
+    "b": "Petropavlovsk-Kamchatsky,Yelizovo,Vilyuchinsk,Esso,Milkovo,Klyuchi,UstBolsheretsk,Bolsheretsk,Nikolskoye,Sobolev,Tigil,Palana,Kovran,UstKhayryuzovo,Khayryuzovo,Sopochnoye,Moroshechnoye,Utkholok,Sedanka,Anavgay,Atlasovo,Paratunka,Termalny,Zaporozhye,Mutnovsky,YuzhnoKamchatsky,Apacha,Kamenskoye"
   },
   {
     "name": "Yeniseian",
@@ -6468,7 +6480,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Geneva,NewYork,London,Tokyo,Paris,HongKong,Sydney,Amsterdam,Stockholm,Berlin,Brussels,Vienna,Montreal,Oslo,Copenhagen,Helsinki,Madrid,Rome,Zurich,Singapore,Seoul,Beijing,Shanghai,Mumbai,Dubai,Frankfurt,Munich,Milan,Barcelona,Dublin,Prague,Warsaw,Budapest,Athens,Istanbul,Luanda,New York,Cairo,Moscow,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,CaboRojo,Gurabo,Humacao,StGeorges,VegaAlta,Fajardo,Morovis,Anasco,Piedras,Patillas,Guayama,Cataño,Mayaguez,Utuado,Moca,Analwood,Akodbridge,Alenville,Afakville,Akomville,Apobbridge,Afekwood,Afanwood,Adutwood,Amusville,Augwood,Amerville,Anarville,Apinwood,Apedwood,InternationalSigntown,InternationalSignville,InternationalSignburg,InternationalSignview,InternationalSignside"
+  "b": "Geneva,NewYork,London,Tokyo,Paris,HongKong,Sydney,Amsterdam,Stockholm,Berlin,Brussels,Vienna,Montreal,Oslo,Copenhagen,Helsinki,Madrid,Rome,Zurich,Singapore,Seoul,Beijing,Shanghai,Mumbai,Dubai,Frankfurt,Munich,Milan,Barcelona,Dublin,Prague,Warsaw,Budapest,Athens,Istanbul,Washington,Moscow,Chicago,Boston,LosAngeles,SanFrancisco,Philadelphia"
 },,
 
 {
@@ -6478,7 +6490,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "RedBay,ChateauBay,HenleyHarbour,AnseALaCave,IleAuxBasques,Tadoussac,LesEscoumins,SeptIles,MinganIslands,PetitMecatina,Pabos,ChafaudAuxBasques,BonDesir,LittleMecatina,PlacentiaBay,StModeste,StPaulRiver,SaguenayRiver,Miscou,LowerNorthShore,SaddleIsland,TresPistoles,Gaspe,ChaleurBay,CapeBreton,StraitOfBelleIsle,GulfOfStLawrence,Newfoundland,Labrador,Souriquois,Buytres,Butus,Buitres,SouriquoisRiver,SaintMalo,PortAuChoix,LAnseAuxMeadows,BattleHarbour,Cartwright,CapeCharles,RiviereStPaul,PetitMecatinaRiver,GrosMeacatina,BaieJohanBeetz,Aguanish,Natashquan,Kegaska,LaRomaine,HarringtonHarbour"
+  "b": "Placentia,RedBay,ChateauBay,HenleyHarbour,SaintMalo,PortAuChoix,Tadoussac,SeptIles,LesEscoumins,Mingan,PetiteMecatina,Gaspe,Pabos,ChaleurBay,CapeBreton,StraitOfBelleIsle,Newfoundland,Labrador,LAnseAuxMeadows,BattleHarbour,Cartwright,Natashquan,HarringtonHarbour,BlancSablon,Schefferville,Matane,CapChat,SainteAnneDesMonts"
 },,
 
 {
@@ -6488,7 +6500,8 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lulea,Gallivare,Skelleftea,LuleRiver,Pitea,Jokkmokk,Arvidsjaur,Arjeplog,Alvsbyn,Boden,Haparanda,Kiruna,Malmberget,Vuollerim,Porjus,StoraLulea,LuleLappmark,GallivareSkelleftea"
+  "b": "",
+  "status": "WAITING"
 },,
 
 {
@@ -6498,7 +6511,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Misthi,Malakopea,Prokopion,Karvali,Anakou,Silli,Pharasa,Sinasos,Potamia,Misti,Axo,Aravan,Ghurzono,Fertek,Ulagac,Semendere,Sinasos,Mandra,Kouvouklion,Gelvere,Melegobi,Ortakoy,Arabison,Arapsu,Karditsa,Volos,Kilkis,Larisa,Thessaloniki,Chalkidiki,Kavala,Alexandroupoli,Evros,Drama,Kozani,Serres,Kilkis"
+  "b": "Misthi,Malakopea,Prokopion,Karvali,Anakou,Silli,Pharasa,Sinasos,Potamia,Misti,Axo,Aravan,Ghurzono,Fertek,Ulagac,Semendere,Mandra,Kouvouklion,Gelvere,Melegobi,Ortakoy,Sille,Arabison,Arapsu,Gulseren,Kayseri,Urgup,Nevsehir,Nigde,Bor,Mustafapasa,Karditsa,Volos,Larisa,Thessaloniki,Kilkis,Chalkidiki,Kavala,Alexandroupoli,Drama,Serres,NeaSinasos"
 },,
 
 {
@@ -6508,7 +6521,8 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kormakitis,Asomatos,Karpasha,AyiaMarina,Kormakiti,Sanna"
+    "b": "",
+    "status": "WAITING"
 },,
 
 {
@@ -6518,7 +6532,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Dakar,Thies,SaintLouis,Ziguinchor,Banjul,Brikama,Kerewan,Bamako,Sikasso,Kayes,Segou,BoboDioulasso,Boromo,Nouakchott,Nema,Kiffa,Conakry,Kankan,Siguiri,Boke,Kamsar,Fria,Kindia,Mamou,Labe,Dalaba,Tougue,Koubia,Macenta,Kissidougou,Forecariah,Coyah,Dubreka"
+  "b": "Dakar,Thies,SaintLouis,Ziguinchor,Banjul,Brikama,Kerewan,Bamako,Sikasso,Kayes,Segou,BoboDioulasso,Boromo,Nouakchott,Nema,Kiffa,Conakry,Kankan,Siguiri,Boke,Kamsar,Fria,Kindia,Mamou,Labe,Dalaba,Macenta,Kissidougou,Forecariah,Kaolack,Tambacounda,Diourbel,Kaedi,Rufisque,Abidjan,Bouake,Yamoussoukro"
 },,
 
 {
@@ -6528,7 +6542,8 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Asmara,Massawa,Keren,AdiKeyih,AdiQuala,Teseney,Barentu,Agordat,Assab,Mendefera,Senafe,Adwa,Axum,Akorat,Dekemhare,Ghinda,Nefasit,Segeneiti,Hazega,Grat,Embatkala,Tsorona,Zalambessa,Rama,Adigrat,Abreha,Mekele,Hawzien,Enticho,AsmaraPidginItalian,SimplifiedItalianEritrea,ItalianEritreanPidgin,AsmaraPidgin,EritreanPidginItalian,SimplifiedItalianEthiopia,ItalianPidginEritrea"
+  "b": "",
+  "status": "WAITING"
 },,
 
 {
@@ -6538,7 +6553,8 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "BergenCounty,PassaicCounty,Bergen,Hackensack,Paramus,Mahwah,Ramsey,Paterson,PomptonLakes,Ringwood,Suffern,Schenectady,Albany,Hoboken,Kinderhook,Catskill,RedMill"
+  "b": "",
+  "status": "WAITING"
 },,
 
 {
@@ -6548,7 +6564,8 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "FortMcPherson,OldCrow,FortYukon,Tsiigehtchic,Inuvik,Aklavik,PeelRiver,YukonRiver,PeelRiverArea,FortMcPhersonTeetlitZheh,Tsiigehtchic,LoucheuxPidgin"
+  "b": "",
+  "status": "WAITING"
 },,
 
 {
@@ -6558,7 +6575,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Genoa,Marseille,Barcelona,Valencia,Palermo,Naples,Venice,Trieste,Athens,Piraeus,Thessaloniki,Izmir,Antalya,Mersin,Alexandria,PortSaid,Beirut,Tripoli,Tunis,Algiers,Oran,Malaga,Cadiz,Lisbon,Gibraltar,Valletta,Dubrovnik,Split,Zadar,Rijeka,Bari,Brindisi,Ancona,Ravenna,London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,SabanaGrande,Comerio,Naguabo,Plymouth,Barceloneta,Carolina,Barranquitas,Hormigueros,SanLorenzo,Yabucoa,Kingstown,VegaBaja,Aguadilla,Ciales,Rincon,Abiwood,Afowood,Ananville,Adugwood,Anugville,Apirwood,Akusville,Aonville,Apabwood,Arowood,Abinville,Ameswood,Anakbridge,Apomwood,Adulwood,MediterraneanLinguaFrancatown,MediterraneanLinguaFrancaville,MediterraneanLinguaFrancaburg,MediterraneanLinguaFrancaview,MediterraneanLinguaFrancaside"
+  "b": "Genoa,Marseille,Barcelona,Valencia,Palermo,Naples,Venice,Trieste,Athens,Piraeus,Thessaloniki,Izmir,Antalya,Mersin,Alexandria,PortSaid,Beirut,Tripoli,Tunis,Algiers,Oran,Malaga,Cadiz,Lisbon,Gibraltar,Valletta,Dubrovnik,Split,Zadar,Rijeka,Bari,Brindisi,Ancona,Ravenna,Smyrna,Constantinople,Aleppo,Damascus,Alexandria,Cagliari,Syracuse,Heraklion,Patras,Corfu,Salonika,Chios,Rhodes,Candia,Cyprus"
 },,
 
 {
@@ -6568,7 +6585,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Winnipeg,Regina,Saskatoon,Calgary,Edmonton,PrinceAlbert,NorthBattleford,Lloydminster,MedicineHat,Lethbridge,GrandPrairie,FtMcMurray,FortMcPherson,Inuvik,Aklavik,Yellowknife,PrinceGeorge,PrinceRupert,Smithers,BurnsLake,StBoniface,Manitoba,Saskatchewan,London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Guaynabo,Ponce,Adjuntas,Isabela,Loiza,Coamo,Patillas,Carolina,Philipsburg,Lares,ToaBaja,Pefiuelas,Villalba,RioGrande,FlyingFish,Aunwood,Adulport,Amebbridge,Airbridge,Anamport,Adulbridge,Aedport,Amimbridge,Abikport,Adadbridge,Apokbridge,Afobport,Alutport,Adebport,Akisbridge,Michiftown,Michifville,Michifburg,Michifview,Michifside"
+  "b": "Winnipeg,Regina,Saskatoon,Calgary,Edmonton,PrinceAlbert,NorthBattleford,Lloydminster,MedicineHat,Lethbridge,GrandPrairie,FortMcMurray,FortMcPherson,Inuvik,Aklavik,Yellowknife,PrinceGeorge,Smithers,BurnsLake,StBoniface,StLaurent,Batoche,DuckLake,StLouis,Beauval,IleALaCrosse,GreenLake,BuffaloNarrows,CumberlandHouse,Debden,Yorkton,CamsellPortage,LaRonge,StLazare,Camperville,DuckBay,PinHouse,Archerwill,Lebret,WillowBunch,SteMadeleine"
 },,
 
 {
@@ -6578,7 +6595,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Hamburg,Bremen,Hannover,Rostock,Berlin,Lubeck,Kiel,Flensburg,Neumuenster,Elmshorn,Pinneberg,Norderstedt,Wedel,Ahrensburg,Reinbek,Glinde,Schwarzenbek,Molln,Ratzeburg,Stade,Buxtehude,Cuxhaven,Bremerhaven,Wilhelmshaven,Emden,Oldenburg,Delmenhorst,Leer,Aurich,Norden,London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Naranjito,Lajas,Morovis,Ceiba,Gustavia,Arecibo,Caguas,Aibonito,CaboRojo,Gurabo,Humacao,StGeorges,VegaAlta,Fajardo,Anasco,Akalview,Amelview,Alobport,Aekview,Abegwood,Afoswood,Adarview,Anebwood,Aloport,Afeview,Akunwood,Aigwood,Anolview,Afosport,Autview,Missingschtown,Missingschville,Missingschburg,Missingschview,Missingschside"
+  "b": "Hamburg,Bremen,Hannover,Rostock,Berlin,Lubeck,Kiel,Flensburg,Neumuenster,Elmshorn,Pinneberg,Norderstedt,Wedel,Ahrensburg,Reinbek,Glinde,Schwarzenbek,Molln,Ratzeburg,Stade,Buxtehude,Cuxhaven,Bremerhaven,Wilhelmshaven,Emden,Oldenburg,Delmenhorst,Leer,Aurich,Norden,Itzehoe,Heide,Brunsbuettel,Helgoland,Seevetal,Bergedorf,Altona,Harburg,Wandsbek"
 },,
 
 {
@@ -6588,7 +6605,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Albany,Buffalo,Rochester,Syracuse,Utica,Watertown,Massena,Malone,Plattsburgh,NewYork,Newark,JerseyCity,Paterson,Trenton,Princeton,Elizabeth,PerthAmboy,NewBrunswick,Burlington,Camden,AtlanticCity,CapeMay,Wildwood,Newton,Morristown,Sussex,Hackensack,Englewood,FortLee,Teaneck,Schenectady,London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Gurabo,Humacao,StGeorges,VegaAlta,Fajardo,Morovis,Anasco,Piedras,Patillas,Guayama,Cataño,Mayaguez,Utuado,Moca,Luquillo,Ainburg,Adonburg,Adaside,Alobburg,Akikland,Araland,Afogland,Amudburg,Akarside,Apimburg,Adigland,Aburburg,Ailand,Abebburg,Akanside,MohawkDutchtown,MohawkDutchville,MohawkDutchburg,MohawkDutchview,MohawkDutchside"
+  "b": "Albany,Buffalo,Rochester,Syracuse,Utica,Watertown,Massena,Malone,Plattsburgh,Schenectady,NewYork,Newark,Paterson,Trenton,Princeton,Elizabeth,NewBrunswick,Burlington,Camden,Schenectady,FortHunter,Canajoharie,Amsterdam,Scotia,Glenville,Niskayuna,Troy,Cohoes,Watervliet,Kingston,Saugerties,Catskill,Hudson,FortPlain,PalatineBridge,StJohsville,Her_kimer,LittleFalls,Johnstown,Gloversville"
 },,
 
 {
@@ -6598,7 +6615,8 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "CharlotteAmalie,Christiansted,Frederiksted,RoadTown,Tortola,SpanishTown,Kingston,PortAntonio,Nassau,Freeport,PortauPrince,CapHaitien,Jacmel,LesCayes,Jeremie,Gonaives,SantoDomingo,SantiagoDR,PuertoPlata,LaRomana,SanJuan,Ponce,Mayaguez,Arecibo,Aguadilla,CaboRojo,Fajardo,Humacao,London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Bayamon,Maricao,SanSebastian,RioGrande,Santalsabel,SantaIsabel,Canovanas,Kralendijk,Utuado,VegaAlta,Yauco,Ciales,Luquillo,Cockburn,Akodland,Afantown,Adesford,Abomtown,Amemtown,Abumland,Adabtown,Anidland,Apattown,Akultown,Afubland,Aloltown,Aloland,Aittown,Afosland,Negerhollandstown,Negerhollandsville,Negerhollandsburg,Negerhollandsview,Negerhollandsside"
+  "b": "",
+  "status": "WAITING"
 },,
 
 {
@@ -6608,7 +6626,8 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "CharlotteAmalie,Christiansted,Frederiksted,RoadTown,Tortola,SpanishTown,Kingston,PortAntonio,Nassau,Freeport,PortauPrince,CapHaitien,Jacmel,LesCayes,Jeremie,Gonaives,SantoDomingo,SantiagoDR,PuertoPlata,LaRomana,SanJuan,Ponce,Mayaguez,Arecibo,Aguadilla,CaboRojo,Fajardo,London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,SanSebastian,Utuado,VegaAlta,Yauco,Ciales,Luquillo,Cockburn,Quebradillas,Cayey,Comerio,SabanaGrande,Naguabo,Plymouth,Barceloneta,Carolina,Abalport,Anogwood,Alanbridge,Apebridge,Akuport,Apakport,Akebbridge,Aarbridge,Abunbridge,Anibridge,Abanport,Alodbridge,Amusport,Afembridge,Afabbridge,NegroDutchtown,NegroDutchville,NegroDutchburg,NegroDutchview,NegroDutchside"
+  "b": "",
+  "status": "WAITING"
 },,
 
 {
@@ -6618,7 +6637,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Victoria,Vancouver,PortAlberni,Nanaimo,CampbellRiver,PowellRiver,Sechelt,Squamish,Whistler,PortHardy,PrinceRupert,Kitimat,Smithers,BurnsLake,Vanderhoof,Quesnel,WilliamsLake,BellaCoola,NootkaSound,FriendlyCove,Yuquot,Kyuquot,Tahsis,GoldRiver,Ucluelet,Tofino,Bamfield,PortRenfrew,Sooke,London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Comerio,SabanaGrande,Naguabo,Plymouth,Barceloneta,Carolina,Barranquitas,Hormigueros,SanLorenzo,Yabucoa,Kingstown,VegaBaja,Aguadilla,Ciales,Rincon,Amirside,Akamland,Anusford,Akomford,Abegside,Akisside,Aogford,Alisford,Alonside,Adalford,Abasford,Adegside,Alimside,Apokford,Ariford,NootkaJargontown,NootkaJargonville,NootkaJargonburg,NootkaJargonview,NootkaJargonside"
+  "b": "Victoria,Vancouver,PortAlberni,Nanaimo,CampbellRiver,PowellRiver,Sechelt,Squamish,Whistler,PortHardy,PrinceRupert,Kitimat,Smithers,BurnsLake,Vanderhoof,Quesnel,WilliamsLake,BellaCoola,NootkaSound,Yuquot,Kyuquot,Tahsis,GoldRiver,Ucluelet,Tofino,Bamfield,PortRenfrew,Sooke,AlertBay,PortSimpson,PrinceRupert,BellaBella,OceanFalls,PortMcNeill"
 },,
 
 {
@@ -6628,7 +6647,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Tromso,Hammerfest,Vardo,Kirkenes,Arkhangelsk,Solombala,Onega,Kem,Belomorsk,Kandalaksha,Umba,Varzuga,Kuzomen,Chupa,Loukhi,TromsoRegion,FinnmarkCoast,WhiteSeaPorts,PomorTradeRoute,KolaPeninsula,TromsoFishermen,PomorTraders,RussenorskTradeLanguage,PomorNorwegianTrade"
+  "b": "Tromso,Hammerfest,Vardo,Kirkenes,Arkhangelsk,Solombala,Onega,Kem,Belomorsk,Kandalaksha,Umba,Varzuga,Chupa,Loukhi,Bodo,Vadso,Batsfjord,Berlevag,Honningsvag,Mehamn,Gamvik,Alta,Hasvik,Rypefjord,Talvik,Sortland,Harstad,Narvik,Andenes,Murmansk,Polyarny,Severomorsk,Mezen"
 },,
 
 {
@@ -6638,7 +6657,8 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Paramaribo,NieuwNickerie,Moengo,Albina,Brokopondo,Brownsweg,Groningen,Totness,Coronie,Wageningen,NewAmsterdam,RoseHall,Skeldon,Corriverton,Lethem,Bartica,Mabaruma,AnnaRegina,Georgetown,Unity,Rosignol,Berbice,Canje,Ituni,Linden,Kwakwani,Mahaica,Whim,Enmore,Vreedenhoop,Crabwood,Success,Triumph,London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Oranjestad,Moca,Yauco,Corozal,Guánica,Orocovis,Fajardo,Marigot,Camuy,Guayama,Cidra,SanGerman,AguasBuenas,LasPiedras,Brades,Apibview,Abosview,Alelwood,Afidwood,Aparwood,Adesview,Afonwood,Apiwood,Anosview,Aborview,Afabport,Alenview,Adinwood,Akatport,Adubwood,SkepiDutchCreoletown,SkepiDutchCreoleville,SkepiDutchCreoleburg,SkepiDutchCreoleview,SkepiDutchCreoleside"
+  "b": "",
+  "status": "WAITING"
 },,
 
 {
@@ -6648,7 +6668,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Arkhangelsk,Severodvinsk,Novodvinsk,Solombala,Onega,Kem,Belomorsk,Kandalaksha,Umba,Varzuga,Kuzomen,Chupa,Loukhi,Tromso,Alta,Vardo,Vadso,Kirkenes,Lakselv,Berlevag,Hammerfest,Honningsvag,Mehamn,Gamvik,Tana,Karasjok,Kautokeino,Nordkapp,London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix,Guayama,Cidra,SanGerman,AguasBuenas,LasPiedras,Brades,Manati,Humacao,Orocovis,Mayaguez,Juncos,Maunabo,Castries,Dorado,Arecibo,Adibside,Anaburg,Amisside,Auland,Akitland,Apasland,Afitburg,Anilside,Amabburg,Abokburg,Anutland,Amelburg,Aibside,Apelland,Abidside,SolombalaEnglishtown,SolombalaEnglishville,SolombalaEnglishburg,SolombalaEnglishview,SolombalaEnglishside"
+  "b": "Arkhangelsk,Severodvinsk,Novodvinsk,Solombala,Onega,Kem,Belomorsk,Kandalaksha,Umba,Varzuga,Chupa,Loukhi,Tromso,Alta,Vardo,Vadso,Kirkenes,Lakselv,Berlevag,Hammerfest,Honningsvag,Mehamn,Gamvik,Tana,Karasjok,Kautokeino,Nordkapp,Murmansk,Polyarny,Severomorsk,Mezen"
 },,
 
 {
@@ -6658,7 +6678,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Colombo,Kandy,Galle,Jaffna,Anuradhapura,Polonnaruwa,Trincomalee,Batticaloa,Negombo,Matara,Dehiwala,Moratuwa,Kalutara,Panadura,Avissawella,Kurunegala,Puttalam,Chilaw,Mannar,Vavuniya,Badulla,Bandarawela,NuwaraEliya,Dambulla,Sigiriya,Habarana,Kataragama,Tissamaharama,Hambantota,Ampara,Monaragala,Ratnapura,Kegalle,Gampaha,London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Caguas,Aibonito,CaboRojo,Gurabo,Humacao,StGeorges,VegaAlta,Fajardo,Morovis,Anasco,Piedras,Patillas,Guayama,Cataño,Mayaguez,Abobview,Afisview,Aderwood,Alilwood,Abamview,Apumport,Ametwood,Amimview,Akolwood,Akobview,Aunport,Ariview,Adukwood,Anulview,Aporview,Veddatown,Veddaville,Veddaburg,Veddaview,Veddaside"
+  "b": "Colombo,Kandy,Galle,Jaffna,Anuradhapura,Polonnaruwa,Trincomalee,Batticaloa,Negombo,Matara,Kalutara,Panadura,Kurunegala,Puttalam,Chilaw,Mannar,Vavuniya,Badulla,Bandarawela,NuwaraEliya,Dambulla,Sigiriya,Habarana,Kataragama,Tissamaharama,Hambantota,Ampara,Monaragala,Ratnapura,Kegalle,Gampaha,Dambana,Mahiyangana,Polonnaruwa,SenanayakeSamudraya,MaduruOya,Henanigala"
 },,
 
 {
@@ -6668,7 +6688,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Changsha,Zhuzhou,Xiangtan,Hengyang,Yueyang,Changde,Yiyang,Loudi,Shaoyang,Chenzhou,Yongzhou,Zhangjiajie,Huaihua,Jishou,Fenghuang,Liuyang,Liling,Xiangxiang,Shaoshan,Nanxian,Taojiang,Anhua,Yuanjiang,Datonghu,Linxiang,Huarong,Xiangyin,Wangcheng,Ningxiang,Lishui,Shimen,Cili,Sangzhi,Wulingyuan,London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Anasco,Piedras,Patillas,Guayama,Cataño,Mayaguez,Utuado,Moca,Luquillo,Salinas,Yabucoa,TrujilloAlto,TheBottom,LasMarias,Lares,Alukburg,Amikburg,Anulland,Adelburg,Adurburg,Aarland,Alesside,Alumburg,Aedside,Aperside,Alitland,Afuburg,Amadburg,Akutburg,Apokburg,Waxiangtown,Waxiangville,Waxiangburg,Waxiangview,Waxiangside"
+  "b": "Changsha,Zhuzhou,Xiangtan,Hengyang,Yueyang,Changde,Yiyang,Loudi,Shaoyang,Chenzhou,Yongzhou,Zhangjiajie,Huaihua,Jishou,Fenghuang,Liuyang,Liling,Xiangxiang,Shaoshan,Nanxian,Taojiang,Anhua,Yuanjiang,Linxiang,Huarong,Xiangyin,Wangcheng,Ningxiang,Shimen,Cili,Sangzhi,Wulingyuan,XiangtanCounty"
 },,
 
 {
@@ -6678,7 +6698,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Nuuk,Sisimiut,Ilulissat,Qaqortoq,Aasiaat,Paamiut,Manitsoq,Tasiilaq,Uummannaq,Upernavik,Qaanaaq,Ittoqqortoormiit,Kangerlussuaq,Kapisillit,Kangaamiut,Atammik,Sarfannguaq,Ikamiut,Niaqornaarsuk,Kangaatsiaq,Iginniarfik,Ikerasaarsuk,Akunnaaq,Savissivik,Siorapaluk,Moriusaq,London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Salinas,Yabucoa,TrujilloAlto,TheBottom,LasMarias,Lares,ToaAlta,Ponce,Loiza,Oranjestad,Moca,Yauco,Corozal,Guánica,Orocovis,Apadville,Amotview,Amoview,Apalport,Anorville,Aruport,Alisport,Aminville,Abodview,Abekville,Alunville,Aposville,Aedville,Alamport,Alosview,WestGreenlandicPidgintown,WestGreenlandicPidginville,WestGreenlandicPidginburg,WestGreenlandicPidginview,WestGreenlandicPidginside"
+  "b": "Nuuk,Sisimiut,Ilulissat,Qaqortoq,Aasiaat,Paamiut,Manitsoq,Tasiilaq,Uummannaq,Upernavik,Qaanaaq,Ittoqqortoormiit,Kangerlussuaq,Narsaq,Narsarsuaq,Holsteinsborg,Julianehaab,Frederikshaab,Godthaab,Egedesminde,Christianshaab,Jakobshavn,Godhavn,Angmagssalik,Sukkertoppen"
 },,
 
 {
@@ -6688,7 +6708,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lanzhou,Wuwei,Jinchang,Zhangye,Jiayuguan,Jiuquan,Yumen,Dunhuang,Tianshui,Pingliang,Qingyang,Dingxi,Baiyin,Linxia,Hezuo,Xiahe,Minle,Shandan,Yongchang,Minqin,Gulang,Jingtai,Huining,Qinan,Wushan,Gangu,Lixian,Tanchang,Dangchang,Wenxian,Kangxian,Chengxian,Xihe,Xifeng,Heshui,Ningxian,London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Loiza,Oranjestad,Moca,Yauco,Corozal,Guánica,Orocovis,Fajardo,Marigot,Camuy,Guayama,Cidra,SanGerman,AguasBuenas,LasPiedras,Alitown,Adadburg,Anotown,Adanburg,Apetown,Aposside,Afastown,Abudside,Aduktown,Anamburg,Abettown,Aadburg,Anelside,Akottown,Apuntown,Xieheyutown,Xieheyuville,Xieheyuburg,Xieheyuview,Xieheyuside"
+    "b": "Lanzhou,Wuwei,Jinchang,Zhangye,Jiayuguan,Jiuquan,Yumen,Dunhuang,Tianshui,Pingliang,Qingyang,Dingxi,Baiyin,Linxia,Hezuo,Xiahe,Minle,Shandan,Yongchang,Minqin,Gulang,Jingtai,Huining,Qinan,Wushan,Gangu,Lixian,Tanchang,Dangchang,Wenxian,Kangxian,Chengxian,Xihe,Xifeng,Heshui"
 },,
 
   {
@@ -6698,7 +6718,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Namhsan,Mantong,Kyaukme,Hsipaw,Lashio,Muse,Laukkaing,Taunggyi,Kengtung,Mongmit,Kunlong,Hsenwi,Mongmao,Hopang,LangSon,BuDop,ThaPlatak,PhanThiet,NhaBe,AoLuang,CauKe,ThanhBinh,Huaping,PhuThien,ChoLach,Puer,Pleiku,ChiangSaen,ThongMySai,Palaungpur,Palaungnagar,Palaungbad,Palaungkot,Palaungwada,Palaungghat,Palaungpalli,Palaungkonda,Palaungpeta,Palaungooru,Palaunggiri,NagarPalaung,Palaungbari,Palaungganj,Palaungbazar,Palaungbandar,Palaunggram,PalliPalaung"
+    "b": "",
+    "status": "WAITING"
   },,
 
   {
@@ -6708,7 +6729,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Mokolo,Mora,Koza,Meri,Bourrha,Kalfou,Limani,Kolofata,Tokombere,Kerawa,Ziver,Hitawa,Buwal,Gadala,Bourha,Maroua,Gazawa,Fotokol,Chucuito,Oruro,Patacamaya,Charana,Yanaoca,Quillabamba,RioTamboSantaMaria,Ambo,Celendin,Cajatambo,Chuquibambilla,Yauri,Llalli,Cabanillas,Juli,Aenpa,Abempa,Aepa,Aledpa,Aekpa,Adelpa,Abespa,Apempa,Afetpa,Alegpa,Akelpa,Alekpa,Afepa,Anetpa,Aegpa,Tacanacu,Tacanazu,Tacanala"
+    "b": "",
+    "status": "WAITING"
   },,
 
   {
@@ -6718,7 +6740,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Pankshin,Mangu,Bokkos,Kanke,Barkin Ladi,Riyom,Shendam,Langtang,Wase,Panyam,Kanam,Dengi,Huarina,SantiagoDeMachaca,Sicuani,Urubamba,Shimaa,CodoDelPozuzo,Jaen,Huaura,Antabamba,Pichigua,Ayaviri,Conima,Pichacani,Poopo,Laja,Wiwazu,Wiwala,Wiwana,Wiwama,Wiwapa,Wiwara,Wiwasa,Wiwata,Wiwaba,Wiwada,Wiwafa,Wiwaha,Wiwaja,Wiwaka,Wiwalla"
+    "b": "",
+    "status": "WAITING"
   },,
 
 {
@@ -6748,7 +6771,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "es-ES",
   "m": 0,
-  "b": "Adahuesca,AlbalateDeCinca,AlberuelaDeTubo,Alcanadre,AlcoleaDeCinca,Barbastro,Fuenes,Laluenga,LaCandilera,Ponzano,SalasAltas,SalasBajas,TorresDeBarbués,ValleDeBardají,Bierge,CastejónDelPuente,CoscojuelaDeFantova,ElGrado,Estada,Estadilla,HozDeBarbastro,Ilche,Lalueza,Lascuarre,MonesmaYCajigar,PeraltaDeCalasanz,Peraltilla,PozánDeVero,Secastilla,Fuencalderas,Ayerbe,Nocito,Fañanás,Rodellar,Morrano,Yaso,LasAlmunias,Otín,Letosa,Nasarre,SanRomán,Buera,HuertaDeVero,SantaMaríaDeDulcis,Corrales,Costeán,SalinasDeHoz,Montesa,AlcanadreDeCinca,AlmuniaDeSanJuan,Azara,Azlor,Barbués,BescósDeGarcipollera,Biscarrués,Bosque,Burceat,Caldearenas,CastejónDeArbaniés,Castilsabás,Colungo,ElSolano,Esplús,Estopiñán,ForadadaDelToscar,Fraga,Gabasa,Gistaín,Graus,Higueruela,Ibieca,Labata,Laperdiguera,Lecina,LecinaDeCinca,Lierta,Loporzano,Lupiñén,Luzás,Monzón,NavasDeOro,Olvena,PeraltaDeAlcofea,PueyoDeSantaCruz,Rodellar,SanMiguelDeFoces,Sangarrén,SantaCilia,SantaMaríaDeLablanca,Selgua,SenésDeAlcubierre,Sesa,Siétamo,TorralbaDeAragón,TorresDeAlcanadre,ValleDeHecho,Vencillón,VillanuevaDeSigena"
+    "b": "Barbastro,Adahuesca,AlbalateDeCinca,AlberuelaDeTubo,Alcanadre,AlcoleaDeCinca,Fuenes,Laluenga,Ponzano,SalasAltas,SalasBajas,TorresDeBarbués,Bierge,CastejonDelPuente,CoscojuelaDeFantova,ElGrado,Estada,Estadilla,HozDeBarbastro,Ilche,Monzon,Binaced,Fraga,Albalate,Castejon,Azara,Azlor,Caldearenas,Angues,Antillon,Blecua,Alerre"
 },,
 
 {
@@ -6758,7 +6781,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "es-VE",
   "m": 0,
-  "b": "Caracas,Maracaibo,Valencia,Barquisimeto,Maracay,CiudadGuayana,Barcelona,Maturin,Turmero,CiudadBolivar,SanCristobal,ElTigre,LosTeques,PuntoFijo,Coro,Trujillo,Guanare,Acarigua,Barinas,Cabimas,PuertoCabello,Merida,Anaco,AltagraciaDeOrituco,Carora,Carupano,Cumaná,Coche,Cojedes,CiudadOjeda,CocheIsla,DeltaAmacuro,Falcon,GuanareCity,Guanta,Guatire,Guárico,LaAsuncion,LaGuaira,LaVictoria,Lara,Margarita,Mérida,Miranda,Monagas,Naguanagua,NuevaEsparta,Orinoco,Pampatar,Paraguana,Porlamar,Portuguesa,PuertoAyacucho,PuertoLaCruz,PuntoFijoCity,SanCarlos,SanFelipe,SanFernandoDeApure,SanJuanDeLosMorros,Sucre,Táchira,TrujilloCity,Tucupita,ValenciaCity,ValleDeLaPascua,Vargas,Yaracuy,Zulia,Cúa,Charallave,SanFranciscoDeYare,SantaTeresaDelTuy,OcumareDelTuy,SantaLuciaDelTuy,Cabimas,PuertoCabello,Marabino,Maracucho,MaracaiboMetro,MaracaiboMetro2,MaracaiboMetro3,BarquisimetoMetro,BarquisimetoMetro2,ValenciaMetro,ValenciaMetro2,CaracasMetro,CaracasMetro2,CaracasMetro3,MaracayMetro,MaracayMetro2,MaturinMetro,MaturinMetro2,BarcelonaMetro,BarcelonaMetro2,PuertoLaCruzMetro,PuertoLaCruzMetro2"
+  "b": "Caracas,Maracaibo,Valencia,Barquisimeto,Maracay,CiudadGuayana,Barcelona,Maturin,Turmero,CiudadBolivar,SanCristobal,ElTigre,LosTeques,PuntoFijo,Coro,Trujillo,Guanare,Acarigua,Barinas,Cabimas,PuertoCabello,Merida,Anaco,AltagraciaDeOrituco,Carora,Carupano,Cumana,Cojedes,CiudadOjeda,Maracay,Merida,Guatire,LaGuaira,LaVictoria,LosTeques,Margarita,Miranda,Monagas,PuertoLaCruz,SanFernandoDeApure,SanJuanDeLosMorros,Valencia,Maracay,Maracaibo,Cua,Charallave,SantaTeresaDelTuy"
 },,
 
 {
@@ -6778,7 +6801,8 @@ window.europeNameBases = [
   "max": 11,
   "d": "nic-GH",
   "m": 0,
-  "b": "LakeCampbell,WawoiFalls"
+  "b": "",
+  "status": "WAITING"
 },,
 
 {
@@ -6788,7 +6812,8 @@ window.europeNameBases = [
   "max": 11,
   "d": "nic-GH",
   "m": 0,
-  "b": "YimasVillage,AuwimVillage,Imboin,Kaiyam,Namata,Kupini,Andambit,Wambrumas,Yamandim,Imanmeri,Awarem,Mongolo"
+  "b": "",
+  "status": "WAITING"
 },,
 
 {
@@ -6798,7 +6823,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "nic-GH",
   "m": 0,
-  "b": "Khandbari,Chainpur,Num,Madi,Tamku,Barmaga,Tumlingtar,Hattisar,Yaphu,Bala,Mangtewa,Chirkhuwa,Yamdang,Chhoyang,Sisuwakhola,Pathibhara,Diding,Matsepokhari,Shitalpati,Dhupu,Keurepani,Mulpani,Papung,Nepaledanda,Dobhane,Khatamma,Chaukidanda,Kulung,Bhojpur,Sabha"
+  "b": "Khandbari,Chainpur,Num,Madi,Tamku,Barmaga,Tumlingtar,Yaphu,Bala,Chirkhuwa,Yamdang,Chhoyang,Sisuwakhola,Pathibhara,Diding,Matsepokhari,Shitalpati,Dhupu,Keurepani,Mulpani,Papung,Nepaledanda,Dobhane,Khatamma,Kulung,Bhojpur"
 },,
 
 {
@@ -6808,7 +6833,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "nic-GH",
   "m": 0,
-  "b": "Sisneri,Sikapu,Jordhara,Chiuribot,Sadhi,Madhavpur,Balakhu,Bhumedanda,MaulangKhola,SunkosiRiverSouth,Ratnawati,BahadurKhola,Mohantar,Balkhu,SisneriVillage,MadhavpurVillage,RatnawatiVillage"
+  "b": "Sisneri,Sikapu,Jordhara,Chiuribot,Sadhi,Madhavpur,Balakhu,Bhumedanda,Ratnawati,BahadurKhola,Mohantar,Balkhu"
 },,
 
 {
@@ -6818,7 +6843,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "nic-GH",
   "m": 0,
-  "b": "Taplejung,Phidim,Ilam,Jhapa,Panchthar,Phungling,Chokmagu,Arubote,TaplejungMunicipality,Sankranti,IlamMunicipality,ChokmaguVillage,AruboteVillage,Kerabari,Urlabari,Birtamod,Damak,Mechinagar,Chandragadhi,Surunga,Pathariya,Sukrabare,Madhumalla,KerabariBajar,Sanischare,Itahari,Dharan,Inaruwa,Biratnagar,Rangeli,UrlabariMorang,Budhabare,Letang,Dhankuta,Basanta,Hile,Leguwa,Terhathum,Myanglung,Chhathar,Hamrajung,Pakhribas,Siddhakali,Chhatara,TaplejungBajar,Lelep,Hellok,Sinam,Olangchunggola,Yamphudin,Khokling,Thinglabu,Sikaicha,Phalgunanda,Yangwarak,Chyangthapu,Memeng,LimbuwanHeartland"
+  "b": "Taplejung,Phidim,Ilam,Jhapa,Panchthar,Phungling,Chokmagu,Arubote,Kerabari,Urlabari,Birtamod,Damak,Mechinagar,Chandragadhi,Surunga,Pathariya,Sukrabare,Madhumalla,Sanischare,Itahari,Dharan,Inaruwa,Biratnagar,Rangeli,Budhabare,Letang,Dhankuta,Basanta,Hile,Leguwa,Terhathum,Myanglung,Chhathar,Hamrajung,Pakhribas,Siddhakali,Chhatara,Lelep,Hellok,Sinam,Olangchunggola,Yamphudin,Khokling,Thinglabu,Sikaicha,Phalgunanda,Yangwarak,Chyangthapu,Memeng"
 },,
 
 {
@@ -6828,7 +6853,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "nic-GH",
   "m": 0,
-  "b": "Pangma,Angala,Higuwa,Khorande,Bardeu,Gairiaula,Malta,Sitalpati,Dhupu,Bodhe,Mounabudhuk,Bhedetar,Rajaran,Devitar,MatsyaPokhari,Khartuwa,GairiPangma,DandaPangma,LokePangma,YangkhrungPangma,Gaireepangma,Magawa,Masapten,Sekaha,Ghondey,Ghotane,Lamichhane,DandaPangmaWest,ShitalpatiEast,Dhandebhir,Manebhanjyang"
+  "b": "Pangma,Angala,Higuwa,Khorande,Bardeu,Gairiaula,Malta,Sitalpati,Dhupu,Bodhe,Mounabudhuk,Bhedetar,Rajaran,Devitar,Khartuwa,Magawa,Masapten,Sekaha,Ghondey,Ghotane,Lamichhane,Manebhanjyang"
 },,
 
 {
@@ -6838,7 +6863,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "nic-GH",
   "m": 0,
-  "b": "Diplung,Mauwabote,Devisthan,Pauwasera,Chisapani,Beltar,Saunechour,Siddipur,Madibas,Basaha,Chaudandi,RuwaKholaValley,BuwaKholaValley,DudhKoshiSouth,BarahapokhariRuralMunicipality,JantedhungaRuralMunicipality,Cabalokkha,CabalokkhaVillage,MauwaboteVillage,DiplungVillage,DevisthanVillage,PauwaseraVillage,ChisapaniVillage,BeltarVillage,SaunechourVillage,SiddipurVillage,MadibasVillage,BasahaVillage,ChaudandiVillage"
+  "b": "Diplung,Mauwabote,Devisthan,Pauwasera,Chisapani,Beltar,Saunechour,Siddipur,Madibas,Basaha,Chaudandi,Cabalokkha"
 },,
 
 {
@@ -6848,7 +6873,8 @@ window.europeNameBases = [
   "max": 11,
   "d": "nic-GH",
   "m": 0,
-  "b": "ThuloDumba,SanoDumba,Bastim,TiwariBhanjyan,Chyangre,Yaku,PouwakhesangThum,Hangwang,Pungwat,Pawen,Chokhang,Salukathewa,Pachhas,Katunje,Marangtang,Tindhara,Dhankuta,Bhojpur,Morang,Sunsari,Jhapa,Ilam,DhankutaDistrict,Udayapur,Khotang,Kathmandu,Lalitpur,Kaski"
+  "b": "",
+  "status": "WAITING"
 },,
 
 {
@@ -6858,7 +6884,8 @@ window.europeNameBases = [
   "max": 11,
   "d": "nic-GH",
   "m": 0,
-  "b": "Dangmaya,Okharbote,Khartangma,Dobhane,Phikkal"
+  "b": "",
+  "status": "WAITING"
 },,
 
 {
@@ -6868,7 +6895,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "nic-GH",
   "m": 0,
-  "b": "MangaleKhani,Dwari,GhyasKharka,ChauraKhani,KuineKhani,ThadaKhani,PatleKharka,Malhampar,Malkabang,Beni,Baglung,Kushma,Galeshwor,Dana,Shikha,Tatopani,Baranja,Bobang,Gurja,Malkwang,Machhim,Thadakhani,Kuinemangale,BaglungChantyal,MyagdiChantyal,KaliGandakiValley,MyagdiDistrictEast,BagliungDistrict"
+  "b": "Dwari,GhyasKharka,ChauraKhani,PatleKharka,Beni,Baglung,Kushma,Galeshwor,Dana,Shikha,Tatopani,Gurja"
 },,
 
 {
@@ -6878,7 +6905,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "nic-GH",
   "m": 0,
-  "b": "Barpak,Kyaura,Laprak,Uiya,Jagat,Philim,Nyak,Bihi,Chak,Rana,Prok,Sirdibas,Khorla,UiyaVillage,KorlaBesi,NyakVillage,KyauraVillage,LaprakVillage,BarpakVillage,JagatVillage,PhilimVillage,UiyaVillage2,KorlaBesiVillage,NyakVillage2,BihiVillage,ChakVillage,RanaVillage,Saurpani,Sirdibas,Gorkha,GorkhaBazar,Arughat,Ghyachchok,Takukot,Masryngdi,Chumchet,SahidLakhan,Dharche,Laprak,Keraunja"
+  "b": "Barpak,Kyaura,Laprak,Uiya,Jagat,Philim,Nyak,Bihi,Chak,Rana,Prok,Sirdibas,Khorla,Saurpani,Gorkha,Arughat,Ghyachchok,Chumchet"
 },,
 
 {
@@ -6888,7 +6915,8 @@ window.europeNameBases = [
   "max": 11,
   "d": "nic-GH",
   "m": 0,
-  "b": "Sahartara,Tupatara,Tarakot,Belawa,Riwa"
+  "b": "",
+  "status": "WAITING"
 },,
 
 {
@@ -6898,7 +6926,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "nic-GH",
   "m": 0,
-  "b": "Manang,Chame,Pisang,Braga,Hongde,TankiManang,Koto,Tal,Bagarchhap,Dana,Nar,Phu,Gyaru,Ngawal,Gunsang,Phugaun,Tengki,Praka,Ongde,Humde,Bagarchhap,Dharapani,Thonje,Thanchok,Letdar,Khangsar,Dhanakyu"
+  "b": "Manang,Chame,Pisang,Braga,Hongde,TankiManang,Koto,Tal,Bagarchhap,Dana,Nar,Phu,Gyaru,Ngawal,Gunsang,Phugaun,Humde,Dharapani,Thonje,Thanchok,Letdar,Khangsar,Dhanakyu"
 },,
 
 {
@@ -6908,7 +6936,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "nic-GH",
   "m": 0,
-  "b": "GornoAltaysk,KoshAgach,Turochak,Chemal,Mayminskoye,Shebalino,Aktash,Inya,Onguday,UstKan,UstKoksa,KyzylOzek,Belyashi,Dzhazator,Kuray,ZhanaAul,Saranai,Kurman,Bugolek,CholakDara,TaukeDarasy,DingekYurt,Sasykkul,JenishKetal,KareShal,Ulagan,UstKan,UstKoksa,KyzylOzek,Saylyugem,Kupchegen,ChaganUzun,Beltir,Kokorya,Dzhasator,Beltir2,KoshAgach2,Turochak2,Chemal2,Mayma,Shebalino2,Aktash2,Inya2,Onguday2,UstKan2,UstKoksa2,KyzylOzek2"
+  "b": "GornoAltaysk,KoshAgach,Turochak,Chemal,Mayma,Shebalino,Aktash,Inya,Onguday,UstKan,UstKoksa,KyzylOzek,Belyashi,Dzhazator,Kuray,ZhanaAul,ChaganUzun,Ulagan,Karakol"
 },,
 
 {
@@ -6918,7 +6946,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "nic-GH",
   "m": 0,
-  "b": "KoshAgach,Turochak,Chemal,Mayminskoye,Shebalino,Aktash,Inya,Onguday,UstKan,UstKoksa,KyzylOzek,GornoAltaysk,Duut,MunkhKhairkhan,Bulgan,Altai,Altantsogts,Bugat,Buyant,Deluut,Sagsai,Chenghua"
+  "b": "KoshAgach,Turochak,Chemal,Mayma,Shebalino,Aktash,Inya,Onguday,UstKan,UstKoksa,KyzylOzek,GornoAltaysk,Bulgan,Altai"
 },,
 
 {
@@ -6928,7 +6956,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "nic-GH",
   "m": 0,
-  "b": "Palana,Tigil,Ossora,Karaga,Tilichiki,Klyuchi,UstKamchatsk,Milkovo,Kozyrevsk,Esso,Anavgai,Beringovsky,Pavlovsk,Kropotkin,Gulkevichi,Uspensk,Labinsk,Mostovskoy,Temryuk,Slavyansk,Uryup,Minyar,Trekgorny,UstKatav,Chebarkul,Yemanzhelinsk,Karabash"
+  "b": "Palana,Tigil,Ossora,Karaga,Tilichiki,Klyuchi,UstKamchatsk,Milkovo,Kozyrevsk,Esso,Anavgai,Beringovsky"
 },,
 
 {
@@ -6938,7 +6966,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "nic-GH",
   "m": 0,
-  "b": "Kaili,Duyun,Zunyi,Anshun,Liupanshui,Qingzhen,Fuquan,Chishui,Tongren,Bijie,Xingren,Sandu,Libo,SanduShuiAutonomousCounty,Sandong,Shuilong,Zhonghe,Miaocao,Bajie,Jiadao,Shiqi,Jiarong,Hengfeng,Zhouqin,Jiuqian,Tangzhou,Yangmeng,Yaoqing,Wenquan,Tianxing,Dongmiao,Wengtai,Pandong,Yangan,Yangluo,Linqiao,Rongjiang,Congjiang,Dushan,DuyunCity,Longmazhuang,LiuzhaiTownship"
+  "b": "Sandu,Libo,Sandong,Shuilong,Zhonghe,Miaocao,Bajie,Jiadao,Shiqi,Jiarong,Hengfeng,Pandong,Yangan,Yangluo,Linqiao,Rongjiang,Congjiang,Dushan,Longmazhuang"
 },,
 
 {
@@ -6948,7 +6976,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "nic-GH",
   "m": 0,
-  "b": "DienBienPhu,LaiChau,MuongLay,PhongTho,TamDuong,SinHo,TuanGiao,MuongTe,MuongNhe,PaSo,MuongAng,SonLa,YenBai,LaoCai,PhuTho,SonLaCity,DienBienCity,LaiChauCity,YenBaiCity,PhuThoCity,MuongLo,NghiaLo,ViengPhoukha,LuangNamtha,Oudomxai,Bokeo,Xiengkhouang,Houaphan,Phongsali,BokeoProvince,LuangPrabang,Vientiane,PhongsaliProvince,HouaphanProvince,XiengkhouangProvince,Loei,Phetchaburi,Ratchaburi,NakhonPathom,SuphanBuri,Kanchanaburi,SamutSongkhram,SamutSakhon,SamutPrakarn,Bangkok,Lopburi,Saraburi,LoeiProvince,NakhonSawan,Pitsanulok,Sukhothai,Pichit,PrachuapKhiriKhan,Chumphon,SuratThani,Yunnan,Jinping,Miao,Yao,Dai,AutonomousCounty"
+  "b": "DienBienPhu,LaiChau,MuongLay,PhongTho,TamDuong,SinHo,TuanGiao,MuongTe,MuongNhe,SonLa,YenBai,LaoCai,PhuTho,MuongLo,NghiaLo,ViengPhoukha,LuangNamtha,Oudomxai,Bokeo,Xiengkhouang,Houaphan,Phongsali,Loei,Phetchaburi,Ratchaburi,NakhonPathom,Kanchanaburi"
 },,
 
 {
@@ -6958,7 +6986,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "nic-GH",
   "m": 0,
-  "b": "Xishuangbanna,Jinghong,Menghai,Mengla,Puer,Mojiang,Jiangcheng,Lancang,Simao,Zhenyuan,Menglian,Ximeng,Honghe,Yuanyang,Xinping,Yongren,Wuding,Lufeng,Dayao,Maguan,HongheCounty,YuanyangCounty,XinpingCounty,YongrenCounty,WudingCounty,LufengCounty,DayaoCounty,MaguanCounty,Chuxiong,ChuxiongYiAutonomousPrefecture,HongheHaniYiAutonomousPrefecture,Yuxi,YuxiCity,Wenshan,WenshanPrefecture"
+  "b": "Jinghong,Menghai,Mengla,Puer,Mojiang,Jiangcheng,Lancang,Simao,Zhenyuan,Menglian,Ximeng,Yuanyang,Xinping,Yongren,Wuding,Lufeng,Dayao,Maguan,Chuxiong"
 },,
 
 {
@@ -6968,7 +6996,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "nic-GH",
   "m": 0,
-  "b": "Taishan,Kaiping,Enping,Xinhui,Heshan,Jiangmen,Taicheng,Baisha,Shuibu,Xiqi,Sijiu,Doushan,Duhu,Chixi,Sanhe,Chonglou,Guanghai,Shenjing,Duanfen,Haiyan,Wencun,Naqin,Longkou,Changsha,Sanbu,Chikan,ChangshaTown,Yueliangwan,DoushanTown,DuhuTown,ChixiTown,SanheTown,ChonglouTown,GuanghaiTown,ShenjingTown,DuanfenTown,HaiyanTown,WencunTown,NaqinTown,LongkouTown"
+  "b": "Taishan,Kaiping,Enping,Xinhui,Heshan,Jiangmen,Taicheng,Baisha,Shuibu,Xiqi,Sijiu,Doushan,Duhu,Chixi,Sanhe,Chonglou,Guanghai,Shenjing,Duanfen,Haiyan,Wencun,Naqin,Longkou,Changsha,Sanbu,Chikan,Yueliangwan"
 },,
 
 {
@@ -6978,7 +7006,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "nic-GH",
   "m": 0,
-  "b": "UpperWutun,LowerWutun,Jiacangma,Tongren,Longwu,Rongwo,Rebgong,Huangnan,Qinghai"
+  "b": "UpperWutun,LowerWutun,Jiacangma,Tongren,Longwu,Rongwo,Rebgong"
 },,
 
 {
@@ -6988,7 +7016,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "nic-GH",
   "m": 0,
-  "b": "Kunming,Dali,Lijiang,Chuxiong,Qujing,Yuxi,Zhaotong,Baoshan,Puer,Honghe,Wenshan,Xishuangbanna,Xichang,Yanyuan,Dechang,Huili,Huidong,Ningnan,Puge,Butuo,Jinyang,Zhaojue,Xide,Mianning,Yuexi,Ganluo,Meigu,Leibo,Muli,KunmingCity,DaliCity,LijiangCity,ChuxiongCity,QujingCity,YuxiCity,ZhaotongCity,BaoshanCity,PuerCity,HongheCity,WenshanCity,XishuangbannaCity,XichangCity,YanyuanCounty,DechangCounty,HuiliCity,HuidongCounty,NingnanCounty,PugeCounty,ButuoCounty,JinyangCounty,ZhaojueCounty,XideCounty,MianningCounty,YuexiCounty,GanluoCounty,MeiguCounty,LeiboCounty,MuliCounty"
+  "b": "Kunming,Dali,Lijiang,Chuxiong,Qujing,Yuxi,Zhaotong,Baoshan,Xichang,Yanyuan,Dechang,Huili,Huidong,Ningnan,Puge,Butuo,Jinyang,Zhaojue,Xide,Mianning,Yuexi,Ganluo,Meigu,Leibo,Muli"
 },,
 
 {
@@ -6998,7 +7026,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "nic-GH",
   "m": 0,
-  "b": "Lhasa,Shigatse,Chamdo,Nyingchi,Lhokha,Nagqu,Ngari,Gannan,Haibei,Huangnan,Hainan,Golog,Xining,Tongren,Zeku,Jianzha,DokKhamtai,Nateuy,LongKhanh,BanLuang,HaTien,BinhDuong,PhuKamYao,TanAn,CanDuoc,Tengchong,LongMy,LaiVung,Weixi,CungSon,MyTho,AmdoTibetanpur,AmdoTibetannagar,AmdoTibetanbad,AmdoTibetankot,AmdoTibetanwada"
+  "b": "Gannan,Haibei,Huangnan,Hainan,Golog,Xining,Tongren,Zeku,Jianzha,Tengchong,Weixi"
 },,
 
 {
@@ -7008,7 +7036,8 @@ window.europeNameBases = [
   "max": 11,
   "d": "nic-GH",
   "m": 0,
-  "b": "Auyo"
+  "b": "",
+  "status": "WAITING"
 },,
 
 {
@@ -7018,7 +7047,8 @@ window.europeNameBases = [
   "max": 11,
   "d": "nic-GH",
   "m": 0,
-  "b": ""
+  "b": "",
+  "status": "WAITING"
 },,
 
 {
@@ -7028,7 +7058,8 @@ window.europeNameBases = [
   "max": 11,
   "d": "nic-GH",
   "m": 0,
-  "b": ""
+  "b": "",
+  "status": "WAITING"
 },,
 
 {
@@ -7038,7 +7069,8 @@ window.europeNameBases = [
   "max": 11,
   "d": "nic-GH",
   "m": 0,
-  "b": "Chadong,Lingui,Guilin,Liangjiang,Longjiang,Yongfu,Nandan,Qingyuanfu"
+  "b": "",
+  "status": "WAITING"
 },,
 
 {
@@ -7048,7 +7080,8 @@ window.europeNameBases = [
   "max": 11,
   "d": "nic-GH",
   "m": 0,
-  "b": "NoiThon,HaQuang,CaoBang"
+  "b": "",
+  "status": "WAITING"
 },,
 
 {
@@ -7058,7 +7091,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "nic-GH",
   "m": 0,
-  "b": "Nuoxi,Dongkou,Suining,Lianmin,Xiaohuang,Tianluoxuan,Liping,Tianzhu,Yuping,Gaoyi,Huitong"
+  "b": "Nuoxi,Dongkou,Suining,Lianmin,Xiaohuang,Liping,Tianzhu,Yuping,Huitong"
 },,
 
 {
@@ -7078,7 +7111,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "nic-GH",
   "m": 0,
-  "b": "Manama,Muharraq,IsaTown,Sitra,Budaiya,Jidhafs,Sanabis,Seef,Busaiteen,Aali,MadinatHamad,AlMuharraq,HamadTown,IsaTown,Aali,MadinatHamad,AlMuharraq,Karrana,Buri,Barbar,Diraz,BaniJamra,Zallaq,Barbar,Tubli,Askar,Zinj,Malikiya,BiladAlQadeem,Mahooz,Adliya,Gudaibiya,Juffair,Hoora,UmmAlHassam,Janabiya,Qudaibiya,Salmaniya,Zinj,Sakheer,Awali,RiffaViews,BahrainBay,AmwajIslands,DiyarAlMuharraq,Dilmunia,Hidd,HiddIndustrialArea,UmmAlHassam"
+  "b": "Manama,Muharraq,IsaTown,Sitra,Budaiya,Jidhafs,Sanabis,Seef,Busaiteen,Aali,MadinatHamad,Riffa,Hidd,Zallaq,Diraz,Barbar,BaniJamra,Janabiya,Awali,Salmaniya"
 },,
 
 {
@@ -7088,7 +7121,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "nic-GH",
   "m": 0,
-  "b": "Jiuzhaigou,Songpan,Pingwu,Wenxian,JiuzhaigouCounty,SongpanCounty,PingwuCounty,WenCounty,BaimaTibetanEthnicTownship,TielouTibetanEthnicTownship,Wujiao,BaimaTownship,BaimaTownshipWenxian"
+  "b": "Jiuzhaigou,Songpan,Pingwu,Wenxian"
 },,
 
 {
@@ -7098,7 +7131,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "nic-GH",
   "m": 0,
-  "b": "Baisha,Yacha,Yinggeling,BaishaCounty,BaishaLiAutonomousCounty"
+  "b": "Baisha,Yacha,Yinggeling"
 },,
 
 {
@@ -7108,7 +7141,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "nic-GH",
   "m": 0,
-  "b": "Skardu,Khaplu,Shigar,Kharmang,Rondu,Roundu,Ghanche,Shyok,Deosai,NangaParbat,Stak,Sangkha"
+  "b": "Skardu,Khaplu,Shigar,Kharmang,Ghanche,Shyok,Stak,Sangkha,Askole,SkarduCity"
 },,
 
 {
@@ -7118,7 +7151,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "nic-GH",
   "m": 0,
-  "b": "Kabul,Kandahar,Herat,Jalalabad,Mazar-i-Sharif,Kunduz,Ghazni,Khost,Paktia,Farah,Bamyan,Kapisa,GhazniCity,KhostCity,PaktiaCity,FarahCity,BamyanCity,KapisaCity,Gardez,KhostCity,JalalabadCity,MazarCity,KunduzCity,GhazniCity,KabulCity,KandaharCity,HeratCity"
+  "b": "Kabul,Kandahar,Herat,Jalalabad,Mazar-i-Sharif,Kunduz,Ghazni,Khost,Paktia,Farah,Bamyan,Kapisa,Gardez,Laghman,Logar,Wardak,Paktika,Badakhshan,Takhar,Baghlan"
 },,
 
 {
@@ -7128,7 +7161,8 @@ window.europeNameBases = [
   "max": 11,
   "d": "nic-GH",
   "m": 0,
-  "b": "BarijiRiver,BarijiRiverSouthBank,OroProvince,PapuaNewGuinea"
+  "b": "",
+  "status": "WAITING"
 },,
 
 {
@@ -7138,7 +7172,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "nic-GH",
   "m": 0,
-  "b": "Kalat,Khuzdar,Quetta,Mastung,Bolan,Nasirabad,Nushki,Kharan,Sarawan,Jhalawan,Chagai,Noshki,Kacchi,NushkiDistrict,KalatDistrict,MastungDistrict,QuettaDistrict,BolanDistrict,NasirabadDistrict,NushkiDistrict,KharanDistrict,SurabDistrict"
+  "b": "Kalat,Khuzdar,Quetta,Mastung,Bolan,Nasirabad,Nushki,Kharan,Sarawan,Jhalawan,Chagai,Noshki,Kacchi,Surab,MastungCity,QuettaCity,KalatCity,KhuzdarCity,NushkiCity,BolanPass,Sibi,Ziarat,Loralai,DeraBugti,DeraMurad,Musakhel,Barkhan,Kohlu,Zhob,QuilaSaifullah"
 },,
 
 {
@@ -7148,7 +7182,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "nic-GH",
   "m": 0,
-  "b": "Funing,Napo,Guangnan,Yanshan,Maguan,Ecun,Dugan,Zhelong,Nada,Longna,Langjia,Nianlang,Yanglian,Anshe,Rongtun,Gonghe,Shanhe,Yongan,Guoba,Dixu,Bada,Bohe,Gula,Dugan,Zhelong,Nada,Longna,Maguan,Langjia,Nianlang"
+  "b": "Funing,Napo,Guangnan,Yanshan,Maguan,Ecun,Zhelong,Nada,Longna,Langjia,Nianlang,Rongtun,Gonghe,Yongan,Bohe"
 },,
 
 {
@@ -7158,7 +7192,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "nic-GH",
   "m": 0,
-  "b": "Sanming,Yong'an,ShaCounty,Sanyuan,Meilie,Shaxian,Jiangle,Taining,JiangleCounty,TainingCounty,Yong'anCity,SanmingCity,ShaCountyCity"
+  "b": "Sanming,Yong'an,ShaCounty,Meilie,Shaxian,Jiangle,Taining"
 },,
 
 {
@@ -7168,7 +7202,8 @@ window.europeNameBases = [
   "max": 11,
   "d": "nic-GH",
   "m": 0,
-  "b": "StricklandRiver,EasternPlains,GobasiArea,NomadArea"
+  "b": "",
+  "status": "WAITING"
 },,
 
 {
@@ -7178,7 +7213,8 @@ window.europeNameBases = [
   "max": 11,
   "d": "nic-GH",
   "m": 0,
-  "b": ""
+  "b": "",
+  "status": "WAITING"
 },,
 
 {
@@ -7188,7 +7224,8 @@ window.europeNameBases = [
   "max": 11,
   "d": "nic-GH",
   "m": 0,
-  "b": "Jialiwan,Xinshe,Lide,Zhangyuan,Kariawan,Sahut,Tamayan,Qibanan"
+  "b": "",
+  "status": "WAITING"
 },,
 
 {
@@ -7198,7 +7235,8 @@ window.europeNameBases = [
   "max": 11,
   "d": "nic-GH",
   "m": 0,
-  "b": "RabaRaba,Abau,OwenStanleyMountains,MilneBay,CentralDistrict"
+  "b": "",
+  "status": "WAITING"
 },,
 
 {
@@ -7208,7 +7246,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "nic-GH",
   "m": 0,
-  "b": "Wenshan,Yanshan,Maguan,Malipo,Guangnan,Honghe,WenshanPrefecture,YanshanCounty,MaguanCounty,MalipoCounty,GuangnanCounty,WenshanCity,YanshanCity,MaguanCity,MalipoTown,GuangnanTown,WenshanZhuangMiaoAutonomousPrefecture"
+  "b": "Wenshan,Yanshan,Maguan,Malipo,Guangnan,Honghe"
 },,
 
 {
@@ -7218,7 +7256,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "nic-GH",
   "m": 0,
-  "b": "Goroka,UpperAsaroRuralLLG,EasternHighlandsProvince,Asaro,UpperAsaro"
+  "b": "Goroka,Asaro,UpperAsaro"
 },,
 
 {
@@ -7228,7 +7266,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "nic-GH",
   "m": 0,
-  "b": "Mominabad,Hunza,Nagar,Gilgit,Baltistan,GilgitBaltistan,Pakistan"
+  "b": "Hunza,Nagar,Gilgit,Aliabad,Karimabad,Gulmit,Passu,Sost,Gojal"
 },,
 
 {
@@ -7238,7 +7276,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "nic-GH",
   "m": 0,
-  "b": "Gumine,Simbu,Kundiawa,MariMari,Gembogl,SimbuProvince,HighlandsRegion"
+  "b": "Gumine,Kundiawa,MariMari,Gembogl"
 },,
 
 {
@@ -7248,7 +7286,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "nic-GH",
   "m": 0,
-  "b": "Mafulu,Orongomo,Managalasi,Iome,CentralProvince,OroProvince,GoilalaDistrict,OwenStanleyRange"
+  "b": "Mafulu,Orongomo,Managalasi,Iome,Goilala"
 },,
 
 {
@@ -7258,7 +7296,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "nic-GH",
   "m": 0,
-  "b": "LuangPrabang,Oudomxay,Phongsaly,Sayaboury,Bokeo,LuangNamtha,DienBienPhu,SonLa,LaiChau,YenBai,XamNeua,LuangPrabang,LuangNamtha,DienBienPhu,SonLa,LaiChau,YenBai"
+  "b": "LuangPrabang,Oudomxay,Phongsaly,Sayaboury,Bokeo,LuangNamtha,DienBienPhu,SonLa,LaiChau,YenBai,XamNeua"
 },,
 
 {
@@ -7268,7 +7306,8 @@ window.europeNameBases = [
   "max": 11,
   "d": "nic-GH",
   "m": 0,
-  "b": ""
+  "b": "",
+  "status": "WAITING"
 },,
 
   {
@@ -7288,7 +7327,8 @@ window.europeNameBases = [
   "max": 11,
   "d": "nic-GH",
   "m": 0,
-  "b": "Seredala,Moruf,Mosomduba,Burupmakot,Unokob,Tokuni,Marub,Kwer"
+  "b": "",
+  "status": "WAITING"
 },,
 
 {
@@ -7298,7 +7338,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "nic-GH",
   "m": 0,
-  "b": "Tufi,OroBay,Popondetta,Kokoda,Afore,Ioma,Kira,Safia,Sangara,Sairope,Gona,Buna,Letogo,Kolomotu,Vatia,Funaota,Tulagi,Sili,Pangai,Tafuna,Tufumahina,Maia,Temotu,Maewo,Vaiala,Longoteme,Sailele"
+  "b": "Tufi,OroBay,Popondetta,Kokoda,Afore,Ioma,Safia,Sangara,Gona,Buna,Letogo,Kolomotu,Vatia"
 },,
 
 {
@@ -7308,7 +7348,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "nic-GH",
   "m": 0,
-  "b": "Yaniruma,Mabul,Khafalou,Myanu,Dayo,Baigon,Manggel,Wanggom,Kombai,Korowai,Citak,Mitak,Tafuna,Tufumahina,Maia,Temotu,Maewo,Vaiala,Longoteme,Sailele,Foa,Masefau,Fagaloa,Tafea,Apolima,Mataika,Leone"
+  "b": "Yaniruma,Mabul,Khafalou,Myanu,Dayo,Baigon,Manggel,Wanggom,Kombai,Citak,Mitak"
 },,
 
 {
@@ -7318,7 +7358,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "nic-GH",
   "m": 0,
-  "b": "Lelu,Malem,Utwe,Tafunsak,Walung,Pilyuul,Sansrik,Tofol,Mutunnenea,Innem,Yela,Okat"
+  "b": "Lelu,Malem,Utwe,Tafunsak,Walung,Tofol,Innem,Yela,Okat"
 },,
 
 {
@@ -7328,7 +7368,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "nic-GH",
   "m": 0,
-  "b": "Okapa,Kainantu,Lufa,Henganofi,Obura-Wonenara,Goroka,Unggai-Bena,Daulo,Yonkki,Arona,Purosa,Tarabo"
+  "b": "Okapa,Kainantu,Lufa,Henganofi,Goroka"
 },,
 
 {
@@ -7338,7 +7378,8 @@ window.europeNameBases = [
   "max": 11,
   "d": "nic-GH",
   "m": 0,
-  "b": "Bayono,Awbono,Densar,Kopayap,Urajin"
+  "b": "",
+  "status": "WAITING"
 },,
 
 {
@@ -7348,7 +7389,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "nic-GH",
   "m": 0,
-  "b": "Lakateng,Lantoka,Larna,Likara,Lipa,Luk-luk,Makamang,Maukuru,Naumang,PadangPanjang,Pisomu,Pumang,Salawaika,Setat,Takala,Talpi,Tanglapui,Tampalana,Watatuku,Watena,Welolo,Welona,AtakPka,Damalupa,DekaseDolayang,Kaipera,Katpisi,Kiralela,Kungwera,Kobra,Kolana,Kulamang,Kunatena"
+  "b": "Lakateng,Lantoka,Larna,Likara,Lipa,Makamang,Maukuru,PadangPanjang,Pisomu,Pumang,Salawaika,Takala,Watatuku,Watena,Welolo,Welona,Damalupa,Kaipera,Katpisi,Kungwera,Kolana,Kulamang,Kunatena"
 },,
 
   {
@@ -7358,7 +7399,7 @@ window.europeNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Bitola,Ohrid,Struga,Prilep,Korce,Kastoria,Florina,Ioannina,Grevena,Kozani,Edessa,Thessaloniki,Verria,Naousa,Skopje,Elbasan,Berat,Pogradec,Voskopoje,Aetomilitsa,Agrafa,Avdella,Bilisht,Divjake,Drama,Giannitsa,Kavala,Konitsa,Krushevo,Larisa,Manastir,Metsovo,Monastir,Negostina,Niata,Ohri,Perivoli,Philippi,Servia,Siatista,Trikala,Veria,Volos"
+    "b": "Bitola,Ohrid,Struga,Prilep,Korce,Kastoria,Florina,Ioannina,Grevena,Kozani,Edessa,Thessaloniki,Verria,Naousa,Skopje,Elbasan,Berat,Pogradec,Krushevo,Metsovo,Avdella,Perivoli,Aetomililtsa,Nymfao,Pisoderi,Drama,Serres,Kilkis,Giannitsa,Kavala,Manastir,Tirana,Corce,Pogradec,Liqenas,Molista,Krania,Fourka,Pades,Konitsa"
   },,
 
 {
@@ -7368,7 +7409,8 @@ window.europeNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-  "b": "Perikleia,Birislav,Uma,Lundzini,Cupa,Oshani,Tarnareca,Nanti,Huma,Konsko,Sirmemin,Cerna,Variaș,Biled,Jimbolia,Gudurdza"
+  "b": "",
+  "status": "WAITING"
 },,
 
 {
@@ -7378,7 +7420,8 @@ window.europeNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-  "b": "Žejane,Šušnjevica,Brdo,Jasenovik,Kostrčan,Letaj,NovaVas,Susnjevica,ValDArsa,Rijeka,Trieste,Pula,Rovinj,Umag,Novigrad,Buzet,Opatija,Lovran,Kostrcani,Letaj,Zejane,Susnjevica,Barban,Gračišće,Grožnjan,Icici,Jesenovik,Oblacna,Premantura,Strumici,Trkovci,Veprinac,Visnjan,Volosko"
+  "b": "",
+  "status": "WAITING"
 },,
 
 {
@@ -7388,7 +7431,7 @@ window.europeNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Lalitpur,Bhaktapur,Kirtipur,Thimi,Banepa,Panauti,Dhulikhel,Sankhu,Tokha,Thankot,Satungal,Chapagaun,Imadol,Harisiddhi,Khokana,Godavari,Pharping,Bungamati,Nagarkot,Thamel,Chabahil,Boudha,Naikap,ChanguNarayan,Suryabinayak,Anantalingeshwar,Gokarna,Dakshinkali,Lele,Bhattedanda"
+  "b": "Kathmandu,Lalitpur,Bhaktapur,Kirtipur,Thimi,Banepa,Panauti,Dhulikhel,Sankhu,Tokha,Thankot,Satungal,Chapagaun,Imadol,Harisiddhi,Khokana,Godavari,Pharping,Bungamati,Nagarkot,Chabahil,Boudha,ChanguNarayan,Suryabinayak,Gokarna,Dakshinkali,Lele,Bhattedanda,Dolakha,Bandipur,Bhaktapur,Patan,Kavrepalanchok"
 },
 
 ];

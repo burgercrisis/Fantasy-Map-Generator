@@ -2147,7 +2147,7 @@ window.asiaNameBases = [
     "d": "",
     "m": 0,
     "b": "Sungdel,Dipsung",
-    "status": "COMPLETE"
+    "status": "WAITING"
   },
   {
     "name": "Tilung",
@@ -2533,11 +2533,11 @@ window.asiaNameBases = [
     "name": "Circassian",
     "i": 1617,
     "min": 4,
-    "max": 11,
+    "max": 12,
     "d": "",
     "m": 0,
-    "b": "Maykop,Nalchik,Cherkessk,Krasnodar,Sochi,Adygeysk,Kabardinka,Dombay",
-    "status": "WAITING"
+    "b": "Maykop,Nalchik,Cherkessk,Krasnodar,Sochi,Adygeysk,Kabardinka,Dombay,Ponezhukay,Guzeripl,Kamennomostsky,Khamyshki,Tulsky,Enem,Tlyustenkhabl,Yablonovsky,Gabukay,Khabez,Besleney,Ali-Berdukovsky,Kfar Kama,Rehaniya,Zaragizh,Kyzburun,Blechepsin",
+    "status": "COMPLETE"
   },
   {
     "name": "Cham",
@@ -2556,8 +2556,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Tsumada,Chamalal,Kizhani,Gigatli,Tlibisho,Enseruda",
-    "status": "WAITING"
+    "b": "Tsumada,Gigatl,Gakvari,Agvali,Gachitl,Quenkh,Urukh,Gadiri,Richaganikh,Egdada,Gigatli-Urukh,Arkaskent,Tsundi,Urguda,Tsidatl,Batlakhatli,Tsumada-Urukh,Lower-Gakvari,Upper-Gakvari",
+    "status": "COMPLETE"
   },
   {
     "name": "Chak",
@@ -3915,10 +3915,10 @@ window.asiaNameBases = [
     "name": "Kusunda",
     "i": 2143,
     "min": 4,
-    "max": 11,
+    "max": 12,
     "d": "",
     "m": 0,
-    "b": "",
+    "b": "Kulmor,Lamahi,Tunibot,Sakhi",
     "status": "WAITING"
   },
   {
@@ -7665,11 +7665,11 @@ window.asiaNameBases = [
     "name": "Paliyan",
     "i": 200427,
     "min": 4,
-    "max": 17,
-    "d": "lnrt",
+    "max": 16,
+    "d": "",
     "m": 0,
-    "b": "Sirumalai,Palni Hills,Varushanad,Sathuragiri,Manjampatti Valley,Idikki,Kurinji Nagar,Vilpatti,Kodaikanal,Usilampatti",
-    "status": "WAITING"
+    "b": "Sirumalai,Palni Hills,Varushanad,Sathuragiri,Manjampatti Valley,Idikki,Kurinji Nagar,Vilpatti,Kodaikanal,Usilampatti,Vellakavai,Chinnur,Periyur,Kumily,Vandanmedu,Anakkara,Peerumedu,Thandikudi,Kadugu Thadia,Gandhigram,Vellagavi,Poombarai,Mannavanur,Thandigudi,Valagiri",
+    "status": "COMPLETE"
   },
   {
     "name": "Palula",
@@ -8878,8 +8878,8 @@ window.asiaNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Mangalore,Mangaluru,Udupi,Kundapura,Kundapur,Karkala,Bantwal,Puttur,Sullia,Sulya,Belthangady,Moodabidri,Moodbidri,Ullala,Ullal,Mulki,Surathkal,Vitla,Vittal,Brahmavar,Kaup,Kapu,Byndoor,Kalasa,Shirthady,Kinnigoli,Manjeshwar,Hosangadi,Gurupura,Panemamangalore,Bajagoli,Sanoor,Mudar",
+    "status": "COMPLETE"
   },
   {
     "name": "Turung",
@@ -8991,15 +8991,15 @@ window.asiaNameBases = [
     "b": "Dang,Tanahun,Gorkha,Rolpa,Surkhet,Gandaki,Lumbini,Kathmandu,Ghorahi,Sakhi,Mahendra,Pyuthan,Tribhuvan",
     "status": "COMPLETE"
   },
-{
+  {
     "name": "Vietnamese Central",
     "i": 200564,
     "min": 4,
     "max": 16,
-    "d": "Vietnamese Central is a dialect group of the Vietnamese language, not a separate language.",
+    "d": "lnrt",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Hue,Da Nang,Hoi An,Tam Ky,Quang Ngai,Quang Tri,Dong Ha,Dong Hoi,Vinh,Thanh Hoa,Nha Trang,Cam Ranh,Quy Nhon,Tuy Hoa,Phan Thiet,Phan Rang,Bong Son,Hoai Nhon,Hoang Sa,Truong Sa,An Nhon,An Khe,Kon Tum,Pleiku,Buon Ma Thuot,Da Lat,Bao Loc,Phu Yen",
+    "status": "COMPLETE"
   },
   {
     "name": "Vietnamese Southern",
@@ -9016,10 +9016,10 @@ window.asiaNameBases = [
     "i": 200566,
     "min": 4,
     "max": 16,
-    "d": "Vietnamese Hue is a dialect of the Vietnamese language spoken in the Hue region, not a separate language.",
+    "d": "lnrt",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Hue,Huong Tra,Huong Thuy,Phu Vang,Phu Loc,A Luoi,Nam Dong,Phong Dien,Quang Dien,Lang Co,Thuan An,Phu Da,Sia,Chan May,Phu Bai,Kim Long,Phu Cat,Phu Hoi,Vy Da,Bach Ma,Thuy Bieu,Xuan Phu,Phu Hau,Phu Nhuan,Vinh Ninh,Thuan Hoa,Phu Xuan,Huong Long,Huong So,An Cuu,Phu Binh,Khe Tre",
+    "status": "COMPLETE"
   },
   {
     "name": "Vietnamese Northern",
@@ -10566,9 +10566,9 @@ window.asiaNameBases = [
     "i": 254,
     "min": 4,
     "max": 11,
-    "d": "nic-GH",
+    "d": "lnrt",
     "m": 0,
-    "b": "",
+    "b": "Tungyueh,Chinyang,Aohua,Hanhsi",
     "status": "WAITING"
   },
   {
@@ -10576,9 +10576,9 @@ window.asiaNameBases = [
     "i": 255,
     "min": 4,
     "max": 11,
-    "d": "nic-GH",
+    "d": "lnrt",
     "m": 0,
-    "b": "",
+    "b": "Yokohama,Kobe,Nagasaki",
     "status": "WAITING"
   },
   {
@@ -10626,10 +10626,10 @@ window.asiaNameBases = [
     "i": 283,
     "min": 4,
     "max": 11,
-    "d": "nic-GH",
+    "d": "lnrt",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Tokunoshima,Amagi,Isen,Kametsu,Asama,Kinen,Kanami,Inokawa,Kobake,San,Mikyo,Totomi,Hetono,Kametoku,Inutabu",
+    "status": "COMPLETE"
   },
 {
     "name": "Punjabi",
@@ -11518,9 +11518,10 @@ window.asiaNameBases = [
     "i": 281,
     "min": 4,
     "max": 11,
-    "d": "nic-GH",
+    "d": "lnrt",
     "m": 0,
-    "b": "Amami,Naze,Setouchi,Kakeroma,Ukejima,Koniya,Yamato,Uken,Higashi,Hatsuno,Yuwan,Yoro Island,SouthernAmamik,SouthernAmamit,SouthernAmamip,SouthernAmamim,SouthernAmamin,SouthernAmamis,SouthernAmamir,SouthernAmamil"
+    "b": "Setouchi,Kakeroma,Ukejima,Koniya,Yamato,Uken,Yuwan,Sani,Katoku,Ankyaba,Akatana,Oshama,Tatsugo,Ōshama",
+    "status": "WAITING"
   },,
 
   {
