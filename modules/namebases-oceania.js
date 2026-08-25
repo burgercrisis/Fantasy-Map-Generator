@@ -562,17 +562,6 @@ window.oceaniaNameBases = [
   },
 
   {
-    "name": "Sumatran",
-    "i": 165,
-    "min": 4,
-    "max": 4,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-
-  {
     "name": "Nali",
     "i": 1196,
     "min": 3,
@@ -581,17 +570,6 @@ window.oceaniaNameBases = [
     "m": 0,
     "b": "Nali village,Sopat,Penabu,Kapou,Karon,Karin,Laban,Laues,Malei,Nohang,Sira,Sohonilu,Yiriu,Ndanou,Bunai,Lengau,Kapo",
     "status": "COMPLETE"
-  },
-
-  {
-    "name": "SHWNG",
-    "i": 166,
-    "min": 4,
-    "max": 4,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
   },
 
   {
@@ -625,17 +603,6 @@ window.oceaniaNameBases = [
     "m": 0,
     "b": "Buna,Gona,Momborada,Eroro,Natatu,Baberada,Bakumbari,Pongani,Holnicote Bay,Dyke Ackland Bay,Oro Bay,Popondetta,Tufi",
     "status": "COMPLETE"
-  },
-
-  {
-    "name": "Moklenic",
-    "i": 162,
-    "min": 6,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
   },
 
   {
@@ -2080,17 +2047,6 @@ window.oceaniaNameBases = [
   },
 
   {
-    "name": "Kosena",
-    "i": 2272,
-    "min": 4,
-    "max": 13,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Kosena,OburaWonenara,UnggaiBena,Daulo,Purosa,Tarabo,Kassam,Kumusi,Barola,Aiura,RamuRiver,Kamanaku,Kefemo,Kumura,Masumabe,Amuyabe,Mange,Bani,Numurira,Sarai,Yababi,Agunumura,Ogamuna,Nagumia,Kagu,Biri,Kora,Suwaira,Bara,Kesawai,Kusi,Morogus,Piraka,Sigonai,Baku,Kamaira,Aimena,Yagusa",
-    "status": "COMPLETE"
-  },
-
-  {
     "name": "Kovojab",
     "i": 2273,
     "min": 3,
@@ -2120,7 +2076,9 @@ window.oceaniaNameBases = [
   "d": "lnrt",
   "m": 0,
   "b": "Oahu,Maui,Hawaii,Kauai,Molokai,Lanai,Niihau,Kahoolawe,Honolulu,Hilo,KailuaKona,Kaneohe,Kahului,Lihue,Kapaa,Waimea,Kaunakakai,LanaiCity,Waianae,Wailuku,Laie,Wahiawa,EwaGentry,Kunia,Waipahu,PearlCity,Aiea,Mililani,Nanakuli,Makaha,Waialua,Haleiwa,Pupukea,Laupahoehoe,Honokaa,Kamuela,Volcano,HawaiianBeaches"
-},
+,
+    "status": "COMPLETE"
+  },
 
   {
     "name": "KiKAR",
@@ -2130,7 +2088,9 @@ window.oceaniaNameBases = [
   "d": "lnrt",
   "m": 0,
   "b": "Nairobi,Nanyuki,Isiolo,Wajir,Garissa,Moyale,KARBarracks,KARTrainingDepot,KARBattalions,Kenya,KARHeadquarters,King'sAfricanRifles"
-},
+,
+    "status": "COMPLETE"
+  },
 
   {
     "name": "Maritime Polynesian Pidgin",
@@ -2139,8 +2099,10 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Apia,Salelologa,Asau,Safotu,Faleula,Siumu,Poutasi,Lotofaga,Papeete,Faaa,Punaauia,Pirae,Arue,Mahina,Taiarapu,TevaIuta,Paea,Papara,NukuAlofa,Pangai,Havelu,Vaitupu,MataUtu,Leava,Vele,Alofi,Hakupu,Niue,Avarua,Arutanga,Amuri,Atiu,Mitiaro,London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Castries,Dorado,Arecibo,Jayuya,Aguada,Ceiba,Guayama,Arroyo,Bayamon,SanJuan,Maricao,SanSebastian,RioGrande,Santalsabel,SantaIsabel,Afintown,Abosside,Abalburg,Apebside,Alumtown,Apobtown,Adagside,Abittown,Amogside,Aditside,Abagtown,Aubtown,Amartown,Apisside,Afiktown,MaritimePolynesianPidgintown,MaritimePolynesianPidginville,MaritimePolynesianPidginburg,MaritimePolynesianPidginview,MaritimePolynesianPidginside"
-},
+  "b": "Apia,Salelologa,Asau,Safotu,Faleula,Siumu,Poutasi,Lotofaga,Papeete,Faaa,Punaauia,Pirae,Arue,Mahina,Taiarapu,TevaIuta,Paea,Papara,NukuAlofa,Pangai,Havelu,Vaitupu,MataUtu,Leava,Vele,Alofi,Hakupu,Niue,Avarua,Arutanga,Amuri,Atiu,Mitiaro,Castries,Dorado,Arecibo,Jayuya,Aguada,Ceiba,Guayama,Arroyo,Bayamon,SanJuan,Maricao,SanSebastian,RioGrande,Santalsabel,SantaIsabel,Afintown,Abosside,Abalburg,Apebside,Alumtown,Apobtown,Adagside,Abittown,Amogside,Aditside,Abagtown,Aubtown,Amartown,Apisside,Afiktown"
+,
+    "status": "COMPLETE"
+  },
 
   {
     "name": "Mekeo pidgins",
@@ -2149,8 +2111,10 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "PortMoresby,Lae,Madang,Wewak,Vanimo,Kavieng,Rabaul,Kimbe,Goroka,MtHagen,Kundiawa,Mendi,Tari,Popondetta,Alotau,Daru,Kiunga,Tabubil,Buka,Arawa,Kieta,Lorengau,Kokopo,Namatanai,Kandrian,Finschhafen,Salamaua,Bulolo,Wau,Menyamya,Okapa,Kainantu,London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix,Coamo,Naranjito,Lajas,Morovis,Ceiba,Gustavia,Arecibo,Caguas,Aibonito,CaboRojo,Gurabo,Humacao,StGeorges,VegaAlta,Fajardo,Aartown,Alubside,Anenside,Akugtown,Aroside,Apabside,Apertown,Autside,Afortown,Akosside,Amobburg,Afaside,Anettown,Abiktown,Ariside,PapuanPidginEnglishtown,PapuanPidginEnglishville,PapuanPidginEnglishburg,PapuanPidginEnglishview,PapuanPidginEnglishside,Yabucoa,Kingstown,VegaBaja,Aguadilla,Ciales,Rincon,Naguabo,Arroyo,Maunabo,Guaynabo,Ponce,Adjuntas,Isabela,Loiza,Akebtown,Akilford,Aparland,Akemtown,Afitford,Alogtown,Aegtown,Alastown,Apikford,Apektown,Afisford,Apurtown,Alattown,Abimford,Aetland,Mekeopidginstown,Mekeopidginsville,Mekeopidginsburg,Mekeopidginsview,Mekeopidginsside,Mekeo,Inao,Kuni,Roro,Kabadi,Lala,Aroma,Sinaugoro,Kairuku,Hula,Kapakapa,Mekeopidginsg,Mekeopidginsb,Mekeopidginsf,Mekeopidginsz,Mekeopidginsv,Mekeopidginsj,Mekeopidginskw,Mekeopidginstw,Mekeopidginspw,Mekeopidginsmw"
-},
+  "b": "PortMoresby,Lae,Madang,Wewak,Vanimo,Kavieng,Rabaul,Kimbe,Goroka,MtHagen,Kundiawa,Mendi,Tari,Popondetta,Alotau,Daru,Kiunga,Tabubil,Buka,Arawa,Kieta,Lorengau,Kokopo,Namatanai,Kandrian,Finschhafen,Salamaua,Bulolo,Wau,Menyamya,Okapa,Kainantu,Coamo,Naranjito,Lajas,Morovis,Ceiba,Gustavia,Arecibo,Caguas,Aibonito,CaboRojo,Gurabo,Humacao,StGeorges,VegaAlta,Fajardo,Aartown,Alubside,Anenside,Akugtown,Aroside,Apabside,Apertown,Autside,Afortown,Akosside,Amobburg,Afaside,Anettown,Abiktown,Ariside,Yabucoa,Kingstown,VegaBaja,Aguadilla,Ciales,Rincon,Naguabo,Arroyo,Maunabo,Guaynabo,Ponce,Adjuntas,Isabela,Loiza,Akebtown,Akilford,Aparland,Akemtown,Afitford,Alogtown,Aegtown,Alastown,Apikford,Apektown,Afisford,Apurtown,Alattown,Abimford,Aetland,Mekeo,Inao,Kuni,Roro,Kabadi,Lala,Aroma,Sinaugoro,Kairuku,Hula,Kapakapa"
+,
+    "status": "COMPLETE"
+  },
 
   {
     "name": "Micronesian Pidgin English",
@@ -2159,8 +2123,10 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Palikir,Kolonia,Weno,Tonoas,Pohnpei,Yap,Colonia,Kosrae,Tofol,Majuro,Ebeye,Jabor,Tarawa,Bairiki,Bikenibeu,Betio,Nauru,Yaren,Aiwo,Buada,Denigomodu,Banaba,Tabiteuea,Aranuka,Kuria,Maiana,Marakei,Nikunau,Onotoa,Tamana,Nui,Nanumanga,Vaitupu,Nukufetau,Nukulaelae,London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix,Lares,Adjuntas,ToaBaja,Pefiuelas,Villalba,RioGrande,FlyingFish,Aguada,Coamo,Naranjito,Lajas,Morovis,Ceiba,Gustavia,Arecibo,Akumside,Alusford,Afirside,Anekford,Adurford,Apilford,Aposide,Adedland,Akirside,Amosside,Audford,Aborford,Araside,Aidford,Anotford,MicronesianPidginEnglishtown,MicronesianPidginEnglishville,MicronesianPidginEnglishburg,MicronesianPidginEnglishview,MicronesianPidginEnglishside"
-},
+  "b": "Palikir,Kolonia,Weno,Tonoas,Pohnpei,Yap,Colonia,Kosrae,Tofol,Majuro,Ebeye,Jabor,Tarawa,Bairiki,Bikenibeu,Betio,Nauru,Yaren,Aiwo,Buada,Denigomodu,Banaba,Tabiteuea,Aranuka,Kuria,Maiana,Marakei,Nikunau,Onotoa,Tamana,Nui,Nanumanga,Vaitupu,Nukufetau,Nukulaelae,Lares,Adjuntas,ToaBaja,Pefiuelas,Villalba,RioGrande,FlyingFish,Aguada,Coamo,Naranjito,Lajas,Morovis,Ceiba,Gustavia,Arecibo,Akumside,Alusford,Afirside,Anekford,Adurford,Apilford,Aposide,Adedland,Akirside,Amosside,Audford,Aborford,Araside,Aidford,Anotford"
+,
+    "status": "COMPLETE"
+  },
 
   {
     "name": "Nauru Pidgin English",
@@ -2169,8 +2135,10 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Yaren,Aiwo,Buada,Denigomodu,Banaba,Tabiteuea,Aranuka,Kuria,Maiana,Marakei,Nikunau,Onotoa,Tamana,Nui,Nanumanga,Vaitupu,Nukufetau,Nukulaelae,Palikir,Kolonia,Weno,Tonoas,Pohnpei,Yap,Colonia,Kosrae,Tofol,Majuro,Ebeye,Tarawa,Bairiki,Bikenibeu,Betio,Nauru,London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix,Yauco,Corozal,Guánica,Orocovis,Fajardo,Marigot,Camuy,Guayama,Cidra,SanGerman,AguasBuenas,LasPiedras,Brades,Manati,Humacao,Alukview,Afikview,Apakview,Akugview,Afinbridge,Adesbridge,Amebview,Abebridge,Alirbridge,Abusview,Amorview,Anirview,Akaview,Abalbridge,Amebville,NauruPidginEnglishtown,NauruPidginEnglishville,NauruPidginEnglishburg,NauruPidginEnglishview,NauruPidginEnglishside"
-},
+  "b": "Yaren,Aiwo,Buada,Denigomodu,Banaba,Tabiteuea,Aranuka,Kuria,Maiana,Marakei,Nikunau,Onotoa,Tamana,Nui,Nanumanga,Vaitupu,Nukufetau,Nukulaelae,Palikir,Kolonia,Weno,Tonoas,Pohnpei,Yap,Colonia,Kosrae,Tofol,Majuro,Ebeye,Tarawa,Bairiki,Bikenibeu,Betio,Nauru,Yauco,Corozal,Guánica,Orocovis,Fajardo,Marigot,Camuy,Guayama,Cidra,SanGerman,AguasBuenas,LasPiedras,Brades,Manati,Humacao,Alukview,Afikview,Apakview,Akugview,Afinbridge,Adesbridge,Amebview,Abebridge,Alirbridge,Abusview,Amorview,Anirview,Akaview,Abalbridge,Amebville"
+,
+    "status": "COMPLETE"
+  },
 
   {
     "name": "Papua New Guinea Pidgin",
@@ -2179,8 +2147,10 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "PortMoresby,Lae,Madang,Wewak,Vanimo,Kavieng,Rabaul,Kimbe,Goroka,MtHagen,Kundiawa,Mendi,Tari,Popondetta,Alotau,Daru,Kiunga,Tabubil,Buka,Arawa,Kieta,Lorengau,Kokopo,Namatanai,Kandrian,Finschhafen,Salamaua,Bulolo,Wau,Menyamya,Okapa,Kainantu,London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Philipsburg,Lares,Adjuntas,ToaBaja,Pefiuelas,Villalba,RioGrande,FlyingFish,Aguada,Coamo,Naranjito,Lajas,Morovis,Ceiba,Gustavia,Akolville,Aikport,Alakport,Aponport,Abugport,Apibville,Afebport,Anubport,Aforport,Akirport,Abaport,Anemville,Apegport,Apekport,Amobport,PapuaNewGuineaPidgintown,PapuaNewGuineaPidginville,PapuaNewGuineaPidginburg,PapuaNewGuineaPidginview,PapuaNewGuineaPidginside"
-},
+  "b": "PortMoresby,Lae,Madang,Wewak,Vanimo,Kavieng,Rabaul,Kimbe,Goroka,MtHagen,Kundiawa,Mendi,Tari,Popondetta,Alotau,Daru,Kiunga,Tabubil,Buka,Arawa,Kieta,Lorengau,Kokopo,Namatanai,Kandrian,Finschhafen,Salamaua,Bulolo,Wau,Menyamya,Okapa,Kainantu,Philipsburg,Lares,Adjuntas,ToaBaja,Pefiuelas,Villalba,RioGrande,FlyingFish,Aguada,Coamo,Naranjito,Lajas,Morovis,Ceiba,Gustavia,Akolville,Aikport,Alakport,Aponport,Abugport,Apibville,Afebport,Anubport,Aforport,Akirport,Abaport,Anemville,Apegport,Apekport,Amobport"
+,
+    "status": "COMPLETE"
+  },
 
   {
     "name": "Papuan Pidgin English",
@@ -2189,8 +2159,10 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "PortMoresby,Lae,Madang,Wewak,Vanimo,Kavieng,Rabaul,Kimbe,Goroka,MtHagen,Kundiawa,Mendi,Tari,Popondetta,Alotau,Daru,Kiunga,Tabubil,Buka,Arawa,Kieta,Lorengau,Kokopo,Namatanai,Kandrian,Finschhafen,Salamaua,Bulolo,Wau,Menyamya,Okapa,Kainantu,London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Yabucoa,Kingstown,VegaBaja,Aguadilla,Ciales,Rincon,Naguabo,Arroyo,Maunabo,Guaynabo,Ponce,Adjuntas,Isabela,Loiza,Coamo,Akebtown,Akilford,Aparland,Akemtown,Afitford,Alogtown,Aegtown,Alastown,Apikford,Apektown,Afisford,Apurtown,Alattown,Abimford,Aetland,Mekeopidginstown,Mekeopidginsville,Mekeopidginsburg,Mekeopidginsview,Mekeopidginsside,Washington,Los Angeles,Chicago,Houston,Phoenix,Naranjito,Lajas,Morovis,Ceiba,Gustavia,Arecibo,Caguas,Aibonito,CaboRojo,Gurabo,Humacao,StGeorges,VegaAlta,Fajardo,Aartown,Alubside,Anenside,Akugtown,Aroside,Apabside,Apertown,Autside,Afortown,Akosside,Amobburg,Afaside,Anettown,Abiktown,Ariside,PapuanPidginEnglishtown,PapuanPidginEnglishville,PapuanPidginEnglishburg,PapuanPidginEnglishview,PapuanPidginEnglishside,PapuanPidgin,TokPisin,Pisin,Wantok,Sios,Saint,Morobe,Ward,Lotu,Buluminsky,Papuan,PapuanPidginEnglishm,PapuanPidginEnglishn,PapuanPidginEnglishs,PapuanPidginEnglishr"
-},
+  "b": "PortMoresby,Lae,Madang,Wewak,Vanimo,Kavieng,Rabaul,Kimbe,Goroka,MtHagen,Kundiawa,Mendi,Tari,Popondetta,Alotau,Daru,Kiunga,Tabubil,Buka,Arawa,Kieta,Lorengau,Kokopo,Namatanai,Kandrian,Finschhafen,Salamaua,Bulolo,Wau,Menyamya,Okapa,Kainantu,Yabucoa,Kingstown,VegaBaja,Aguadilla,Ciales,Rincon,Naguabo,Arroyo,Maunabo,Guaynabo,Ponce,Adjuntas,Isabela,Loiza,Coamo,Akebtown,Akilford,Aparland,Akemtown,Afitford,Alogtown,Aegtown,Alastown,Apikford,Apektown,Afisford,Apurtown,Alattown,Abimford,Aetland,Naranjito,Lajas,Morovis,Ceiba,Gustavia,Arecibo,Caguas,Aibonito,CaboRojo,Gurabo,Humacao,StGeorges,VegaAlta,Fajardo,Aartown,Alubside,Anenside,Akugtown,Aroside,Apabside,Apertown,Autside,Afortown,Akosside,Amobburg,Afaside,Anettown,Abiktown,Ariside,PapuanPidgin,TokPisin,Pisin,Wantok,Sios,Saint,Morobe,Ward,Lotu,Buluminsky,Papuan,PapuanPidginEnglishm,PapuanPidginEnglishn,PapuanPidginEnglishs,PapuanPidginEnglishr"
+,
+    "status": "COMPLETE"
+  },
 
   {
     "name": "Pidgin Iha",
@@ -2200,7 +2172,9 @@ window.oceaniaNameBases = [
   "d": "lnrt",
   "m": 0,
   "b": "BomberaiPeninsula,FakFakRegency,BomberaiPeninsulaSouthCoast,IhaLanguageArea,FakFakSelatan,WestPapua"
-},
+,
+    "status": "COMPLETE"
+  },
 
   {
     "name": "Pidgin Wolof",
@@ -2210,7 +2184,9 @@ window.oceaniaNameBases = [
   "d": "lnrt",
   "m": 0,
   "b": "Banjul,Gambia,Serekunda,BanjulWolof,Kombo,Brikama,Basse,Farafenni"
-},
+,
+    "status": "COMPLETE"
+  },
 
   {
     "name": "Queensland Kanaka English",
@@ -2220,7 +2196,9 @@ window.oceaniaNameBases = [
   "d": "lnrt",
   "m": 0,
   "b": "Mackay,Bundaberg,Gladstone,Cairns,Townsville,Rockhampton,MackayRegion,BundabergRegion,Ayr,NorthQueensland,CentralQueensland,QueenslandCanefields,QueenslandPlantations,TorresStrait,MoaIsland,QueenslandPearling,QueenslandKanakaEnglish"
-},
+,
+    "status": "COMPLETE"
+  },
 
   {
     "name": "Samoan Plantation Pidgin",
@@ -2230,7 +2208,9 @@ window.oceaniaNameBases = [
   "d": "lnrt",
   "m": 0,
   "b": "Samoa,GermanSamoa,WesternSamoa,DeutscheHandelsPlantagenGesellschaft,SamoanPlantations,NewGuineaLaborers,TokPisinConnection"
-},
+,
+    "status": "COMPLETE"
+  },
 
   {
     "name": "Solomon Islands Pijin",
@@ -2239,8 +2219,10 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Honiara,Gizo,Munda,Noro,Auki,Lata,Tulagi,Marau,Taro,Faisi,Seghe,Viru,Rendova,Pavuvu,Mbambanakira,Kolombangara,Shortlands,Choiseul,VellaLavella,Guadalcanal,Malaita,Ulawa,Temotu,SantaCruz,Vangunu,Simbo,Ranongga,Roviana,Marovo,Tetepare,Uepi,Gatokae,Nggatokae,London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Mayaguez,Juncos,Maunabo,Castries,Dorado,Arecibo,Jayuya,Aguada,Ceiba,Guayama,Arroyo,Bayamon,SanJuan,Maricao,SanSebastian,Abemville,Apuview,Afimville,Amasport,Alerport,Aladville,Aubport,Akidport,Apudville,Anolport,Anobville,Afunview,Adigville,Alukport,Afedport,SolomonIslandsPijintown,SolomonIslandsPijinville,SolomonIslandsPijinburg,SolomonIslandsPijinview,SolomonIslandsPijinside"
-},
+  "b": "Honiara,Gizo,Munda,Noro,Auki,Lata,Tulagi,Marau,Taro,Faisi,Seghe,Viru,Rendova,Pavuvu,Mbambanakira,Kolombangara,Shortlands,Choiseul,VellaLavella,Guadalcanal,Malaita,Ulawa,Temotu,SantaCruz,Vangunu,Simbo,Ranongga,Roviana,Marovo,Tetepare,Uepi,Gatokae,Nggatokae,Mayaguez,Juncos,Maunabo,Castries,Dorado,Arecibo,Jayuya,Aguada,Ceiba,Guayama,Arroyo,Bayamon,SanJuan,Maricao,SanSebastian,Abemville,Apuview,Afimville,Amasport,Alerport,Aladville,Aubport,Akidport,Apudville,Anolport,Anobville,Afunview,Adigville,Alukport,Afedport"
+,
+    "status": "COMPLETE"
+  },
 
   {
     "name": "Tangwang",
@@ -2249,8 +2231,10 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lanzhou,Wuwei,Jinchang,Zhangye,Jiayuguan,Jiuquan,Yumen,Dunhuang,Tianshui,Pingliang,Qingyang,Dingxi,Baiyin,Linxia,Hezuo,Xiahe,Minle,Shandan,Yongchang,Minqin,Gulang,Jingtai,Huining,Qinan,Wushan,Gangu,Lixian,Tanchang,Dangchang,Wenxian,Kangxian,Chengxian,Xihe,Xifeng,Heshui,Ningxian,London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Canovanas,Kralendijk,SanSebastian,Utuado,VegaAlta,Yauco,Ciales,Luquillo,Cockburn,Quebradillas,Cayey,Comerio,SabanaGrande,Naguabo,Plymouth,Aokville,Akabbridge,Alosbridge,Adaview,Abinbridge,Abasbridge,Apisview,Aembridge,Akodville,Akakbridge,Aoville,Alarview,Aditbridge,Afedbridge,Anotville,Tangwangtown,Tangwangville,Tangwangburg,Tangwangview,Tangwangside"
-},
+  "b": "Lanzhou,Wuwei,Jinchang,Zhangye,Jiayuguan,Jiuquan,Yumen,Dunhuang,Tianshui,Pingliang,Qingyang,Dingxi,Baiyin,Linxia,Hezuo,Xiahe,Minle,Shandan,Yongchang,Minqin,Gulang,Jingtai,Huining,Qinan,Wushan,Gangu,Lixian,Tanchang,Dangchang,Wenxian,Kangxian,Chengxian,Xihe,Xifeng,Heshui,Ningxian,Canovanas,Kralendijk,SanSebastian,Utuado,VegaAlta,Yauco,Ciales,Luquillo,Cockburn,Quebradillas,Cayey,Comerio,SabanaGrande,Naguabo,Plymouth,Aokville,Akabbridge,Alosbridge,Adaview,Abinbridge,Abasbridge,Apisview,Aembridge,Akodville,Akakbridge,Aoville,Alarview,Aditbridge,Afedbridge,Anotville"
+,
+    "status": "COMPLETE"
+  },
 
   {
     "name": "Tansi",
@@ -2259,8 +2243,10 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guwahati,Dibrugarh,Tinsukia,Jorhat,Sibsagar,Tezpur,Nagaon,Dimapur,Kohima,Mokokchung,Tuensang,Wokha,Phek,Zunheboto,Mon,Itanagar,Naharlagun,Pasighat,Tawang,Bomdila,Silchar,Haflong,Diphu,Jowai,Shillong,Tura,Barpeta,Goalpara,Umling,Boko,Rangia,London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Quebradillas,Cayey,Comerio,SabanaGrande,Naguabo,Plymouth,Barceloneta,Carolina,Barranquitas,Hormigueros,SanLorenzo,Yabucoa,Kingstown,VegaBaja,Aguadilla,Aigford,Adokford,Afilburg,Afatford,Alantown,Anasburg,Adotburg,Amutford,Amigford,Abaltown,Akatford,Aoford,Afadtown,Anibburg,Anitford,Tansitown,Tansiville,Tansiburg,Tansiview,Tansiside"
-},
+  "b": "Guwahati,Dibrugarh,Tinsukia,Jorhat,Sibsagar,Tezpur,Nagaon,Dimapur,Kohima,Mokokchung,Tuensang,Wokha,Phek,Zunheboto,Mon,Itanagar,Naharlagun,Pasighat,Tawang,Bomdila,Silchar,Haflong,Diphu,Jowai,Shillong,Tura,Barpeta,Goalpara,Umling,Boko,Rangia,Quebradillas,Cayey,Comerio,SabanaGrande,Naguabo,Plymouth,Barceloneta,Carolina,Barranquitas,Hormigueros,SanLorenzo,Yabucoa,Kingstown,VegaBaja,Aguadilla,Aigford,Adokford,Afilburg,Afatford,Alantown,Anasburg,Adotburg,Amutford,Amigford,Abaltown,Akatford,Aoford,Afadtown,Anibburg,Anitford"
+,
+    "status": "COMPLETE"
+  },
 
   {
     "name": "Te Parau Tinito",
@@ -2269,8 +2255,10 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Papeete,Faaa,Punaauia,Pirae,Arue,Mahina,Taiarapu,TevaIuta,Paea,Papara,Tahiti,Moorea,BoraBora,Raiatea,Taha,Huahine,Rangiroa,Fakarava,Manihi,Tikehau,Mataiva,NukuHiva,HivaOa,FatuHiva,UaPou,Tahuata,RapaIti,Tubuai,Rurutu,Rimatara,Tureia,Gambier,London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Barranquitas,Hormigueros,SanLorenzo,Yabucoa,Kingstown,VegaBaja,Aguadilla,Ciales,Rincon,Naguabo,Arroyo,Maunabo,Guaynabo,Ponce,Adjuntas,Akomwood,Amumwood,Autwood,Apurville,Afidville,Alembridge,Afukville,Akokville,Abelville,Amerbridge,Anenwood,Abetbridge,Akelwood,Aebridge,Afugville,TeParauTinitotown,TeParauTinitoville,TeParauTinitoburg,TeParauTinitoview,TeParauTinitoside"
-},
+  "b": "Papeete,Faaa,Punaauia,Pirae,Arue,Mahina,Taiarapu,TevaIuta,Paea,Papara,Tahiti,Moorea,BoraBora,Raiatea,Taha,Huahine,Rangiroa,Fakarava,Manihi,Tikehau,Mataiva,NukuHiva,HivaOa,FatuHiva,UaPou,Tahuata,RapaIti,Tubuai,Rurutu,Rimatara,Tureia,Gambier,Barranquitas,Hormigueros,SanLorenzo,Yabucoa,Kingstown,VegaBaja,Aguadilla,Ciales,Rincon,Naguabo,Arroyo,Maunabo,Guaynabo,Ponce,Adjuntas,Akomwood,Amumwood,Autwood,Apurville,Afidville,Alembridge,Afukville,Akokville,Abelville,Amerbridge,Anenwood,Abetbridge,Akelwood,Aebridge,Afugville,TeParauTinitotown,TeParauTinitoville,TeParauTinitoburg,TeParauTinitoview,TeParauTinitoside"
+,
+    "status": "COMPLETE"
+  },
 
   {
     "name": "Unserdeutsch",
@@ -2279,8 +2267,10 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "PortMoresby,Lae,Madang,Wewak,Vanimo,Kavieng,Rabaul,Kimbe,Goroka,MtHagen,Kundiawa,Mendi,Tari,Popondetta,Alotau,Daru,Kiunga,Tabubil,Buka,Arawa,Kieta,Lorengau,Kokopo,Namatanai,Kandrian,Finschhafen,Salamaua,Bulolo,Wau,Menyamya,Okapa,Kainantu,London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,FlyingFish,Aguada,Coamo,Naranjito,Lajas,Morovis,Ceiba,Gustavia,Arecibo,Caguas,Aibonito,CaboRojo,Gurabo,Humacao,StGeorges,Akaside,Anakside,Akogside,Aagside,Anegford,Afabside,Abusford,Alelford,Alenside,Alanside,Apedside,Amugside,Akaford,Anemford,Abusside,Unserdeutschtown,Unserdeutschville,Unserdeutschburg,Unserdeutschview,Unserdeutschside"
-},
+  "b": "PortMoresby,Lae,Madang,Wewak,Vanimo,Kavieng,Rabaul,Kimbe,Goroka,MtHagen,Kundiawa,Mendi,Tari,Popondetta,Alotau,Daru,Kiunga,Tabubil,Buka,Arawa,Kieta,Lorengau,Kokopo,Namatanai,Kandrian,Finschhafen,Salamaua,Bulolo,Wau,Menyamya,Okapa,Kainantu,FlyingFish,Aguada,Coamo,Naranjito,Lajas,Morovis,Ceiba,Gustavia,Arecibo,Caguas,Aibonito,CaboRojo,Gurabo,Humacao,StGeorges,Akaside,Anakside,Akogside,Aagside,Anegford,Afabside,Abusford,Alelford,Alenside,Alanside,Apedside,Amugside,Akaford,Anemford,Abusside,Unserdeutschtown,Unserdeutschville,Unserdeutschburg,Unserdeutschview,Unserdeutschside"
+,
+    "status": "COMPLETE"
+  },
 
   {
     "name": "Tayo Creole",

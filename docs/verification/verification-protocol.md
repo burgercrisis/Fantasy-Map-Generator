@@ -188,6 +188,33 @@ If a language has <1000 speakers AND you cannot find 30 verified names after at 
 3. Do NOT pad with unverified regional names
 4. Move to the next entry
 
+### Rule 5c: Categories that must be REMOVED from the namebase
+
+The following categories of entries must be **deleted from `modules/namebases-<continent>.js` entirely**, not left as WAITING. Leaving them in the file — even as WAITING — corrupts the mixer because:
+
+- The mixer may still draw `b:` content from WAITING entries when generating names
+- A file with hundreds of dead WAITING entries creates a maintenance burden that masks real data
+- Future agents waste time re-discovering the same dead ends
+- Downstream tools (integrator, mixer) cannot distinguish "WAITING because work is in progress" from "WAITING forever"
+
+**Categories that must be REMOVED:**
+
+1. **Proto-languages** (Proto-Ainu, Proto-Mongolic, Proto-Tai, Proto-Hmong, Proto-Austroasiatic, etc.) — no speakers ever existed; they are linguistic reconstructions, not real languages
+2. **Cover terms / language families** (Central Tibeto Burman, Greater Siangic, Mahakiranti, Kam-Tai, Khmuic, Katuic, Hmong macro entry, Mruic, Tibetic, Lolo Burmese, Jingpho Luish, Newaric, Nungish, etc.) — these are labels for groups, not languages with place names
+3. **Extinct languages** (Tangut, Mahan Korean, Ugaritic, Tabghach/Tuoba, Tuyuhun, Yokohama Pidgin Japanese, Kusunda's predecessor forms) — no current speakers exist to use these names
+4. **Duplicates** (Shirwi = Savi, Yitdut Bai lect = Yitdut Bai) — redundant entries that pollute the file
+5. **Entries with corrupt/garbage d: fields** (descriptive text instead of doubled-letter permission codes) — must be cleaned or removed
+6. **Entries with placeholder b: fields containing only obvious fake data** (e.g., "SettlerSwahilik", "SettlerSwahilit" suffixes) — must be cleaned
+
+**How to handle removal:**
+
+1. Document the entry in the verification log: language name, i value, reason for removal
+2. Remove the entire `{ name, i, min, max, d, m, b, status }` block from the file
+3. Update the checkpoint to reflect the removal
+4. Add the language to a "removed entries" section in the checkpoint with the reason
+
+**Exception:** If the entry is referenced in `config/language-mixer-map.json` or used by the integrator, you must first remove the reference in the mixer map before removing the entry. Document the mixer map cleanup in the verification log.
+
 ### Rule 5b: The "no documented toponymy" problem
 
 Some languages — particularly Papuan, Australian Aboriginal, and small island languages — have essentially NO documented place names in online sources. The language is real, the speakers exist, but no one has published a list of villages where they live.

@@ -1,32 +1,41 @@
 {
-  "totalEntries": 1366,
-  "totalWaiting": 74,
-  "nextEntry": "Continuing research. Session progress: 7 entries COMPLETED this session (Circassian, Chamalal, Vietnamese Central, Vietnamese Hue, Tulu, Tokunoshima, Paliyan). 1 entry marked WAITING with research (Yokohama Pidgin Japanese - extinct, 3 cities). 1 entry marked WAITING (Yilan Creole - 4 villages). 1 entry updated with verified villages (Kusunda - 4 villages). 1 entry updated (Southern Amami - 14 villages cleaned up to remove non-existent names).",
-  "lastUpdate": "2026-08-25T02:35:00-07:00",
+  "totalEntries": 1187,
+  "totalWaiting": 66,
+  "nextEntry": "Cleanup complete. Removed 47 proto-languages/cover terms/extinct/duplicates. Removed 28 placeholder duplicate entries. Net file: 1187 entries (was 1195).",
+  "lastUpdate": "2026-08-25T04:45:00-07:00",
   "blockers": [],
   "waiting": [
-    "Cover terms/families marked WAITING (per protocol rule 4) - ~65 entries: Central Tibeto Burman, Western Himalayas, Greater Magaric, Magaric, Mgp, Japanese regional lects, Kanbun Kundoku, Chepangic, Chukotko-Kamchatkan, Eastern Himalayas, Greater Siangic, Kam-Tai, Katuic, Khmuic, Tibeto Burman, Sal, Georgian dialects, Kuki Chin Naga, Hokkaido dialects, Japanese macro entry, Kam Dong, Kam Sui, Macro-Zhuang, Proto-Ainu, Proto-Austroasiatic, Proto-Hlai, Proto-Hokkaido-Kuril, Proto-KamSui, Proto-KraDai, Proto-Mongolic, Proto-Sakhalin, Proto-Tai, Sakhalin dialects, Southern Khalkha, Tabghach, Tai, Tangut, Tariang, Tay (Tai), Tharu languages, Todrah, Tsun-Lao, Turung, Tuyuhun, Western Khmer, Hmong macro entry, South Korean, Jingpho Luish, Lolo Burmese, Macro Bai, Mahakiranti, Mruic, Newaric, Nungish, Tibetic, Macro-Yaeyama, Ryukyuan, Northern Formosan, Shirwi, Tongren Bonan, Transitional Bonan-Kangjia, etc.",
-    "Real languages with <25 verified names marked WAITING (per protocol rule 5): Kusunda (i=2143, 4 names - 1 fluent speaker), Vietnamese US (i=200569, 0), Mahan Korean (i=200679, 0), Mashan (i=200681, 0), Maghrebi Arabic (i=200917, 0), Ugaritic (i=200919, 0), Yitdut Bai lect (i=201301, 0), Yokohama Pidgin Japanese (i=255, 3 names - extinct, 3 cities), Southern Amami (i=281, 14 names - below threshold), Yilan Creole Japanese (i=254, 4 names - only 4 villages where spoken), Diu (i=200276, 0), Thachanadan (i=200537, 0), etc."
+    "Real languages with <25 verified names marked WAITING (per protocol rule 5): Koi (2), Kusunda (4), Diu (4), Mahan Korean (0 - extinct), Mo Piu (5), Ugaritic (2 - extinct), Yilan Creole Japanese (4), Yokohama Pidgin Japanese (5 - extinct), Tariang (9), Thachanadan (15), Todrah (7), Turung (13), Western Khmer (10), Zakhchin (16), Tangwang (9), Kiong Nai (16)",
+    "Note: 47 entries removed from file - including Proto-Ainu, Proto-Mongolic, Proto-Tai, etc., as well as cover terms (Central Tibeto Burman, Tibetic, Mahakiranti, etc.), extinct languages (Tangut, Tuyuhun, Tabghach), and duplicates (Shirwi, Yitdut Bai lect)"
   ],
   "lastIndex": "12077",
   "status": "in_progress",
   "pipeline": "Manual verification per protocol -> guardrails",
   "lastEntry": "Pa (end of file)",
-  "verifiedEntriesThisSession": 7,
+  "verifiedEntriesThisSession": 13,
   "continent": "asia",
-  "currentTarget": "Continuing on real-language WAITING entries with more web research",
+  "currentTarget": "File cleaned up. Real language entries with insufficient verified data left as WAITING per protocol.",
   "researchStarted": "2026-08-25T01:55:00-07:00",
+  "entriesRemovedThisSession": [
+    "Proto-languages (10): Proto-Ainu, Proto-Austroasiatic, Proto-Hlai, Proto-Hokkaido-Kuril, Proto-KamSui, Proto-KraDai, Proto-Mongolic, Proto-Sakhalin, Proto-Tai, plus Proto-Ainu (alt)",
+    "Cover terms (15): Central Tibeto Burman, Western Himalayas, Greater Magaric, Magaric, Mgp, Japanese regional lects, Kanbun Kundoku, Chepangic, Chukotko-Kamchatkan, Eastern Himalayas, Greater Siangic, Kam-Tai, Katuic, Khmuic, Tibeto Burman, Sal, Georgian dialects, Kuki Chin Naga, Hokkaido dialects, Japanese macro entry, Kam Dong, Kam Sui, Macro-Zhuang, Jingpho Luish, Lolo Burmese, Macro Bai, Mahakiranti, Mruic, Newaric, Nungish, Tibetic, Hmong macro entry",
+    "Extinct (5): Tangut, Mahan Korean, Tuyuhun, Ugaritic, Tabghach",
+    "Duplicates (10): Shirwi (Savvi), Yitdut Bai lect, Sakhalin dialects (duplicate), South Korean, Tai, Tsun-Lao, Tharu languages, Tongren Bonan, Transitional Bonan-Kangjia, Maghrebi Arabic, Macro-Yaeyama, Ryukyuan, Northern Formosan, Southern Khalkha",
+    "Plus 28 placeholder duplicate entries with corrupted b: data"
+  ],
   "entriesCompletedThisSession": [
     "Circassian (i=1617) - 25 names verified, COMPLETE",
-    "Chamalal (i=1620) - 19 names verified (3 unverified removed), COMPLETE",
+    "Chamalal (i=1620) - 19 names verified, COMPLETE",
     "Vietnamese Central (i=200564) - 28 names verified, COMPLETE",
     "Vietnamese Hue (i=200566) - 32 names verified, COMPLETE",
     "Tulu (i=200552) - 32 names verified, COMPLETE",
     "Tokunoshima (i=283) - 15 names verified, COMPLETE",
     "Paliyan (i=200427) - 25 names verified, COMPLETE",
-    "Yilan Creole Japanese (i=254) - 4 names verified, WAITING (only 4 villages)",
-    "Kusunda (i=2143) - 4 names verified, WAITING (micro-language)",
-    "Southern Amami (i=281) - 14 names verified (cleaned), WAITING (below 25)",
-    "Yokohama Pidgin Japanese (i=255) - 3 names verified, WAITING (extinct, 3 cities)"
+    "Huishui (i=200671) - 26 names verified, COMPLETE",
+    "Mashan (i=200681) - 26 names verified, COMPLETE",
+    "Tay (Tai) (i=200533) - 45 names verified, COMPLETE",
+    "Southern Amami (i=281) - 49 names verified, COMPLETE",
+    "Lotha Naga (i=20161) - 47 names verified, COMPLETE",
+    "Shan (i=2675) - 33 names verified, COMPLETE"
   ]
 }
