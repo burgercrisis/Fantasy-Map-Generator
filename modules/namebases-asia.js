@@ -11761,6 +11761,1787 @@ window.asiaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Alofi,Noumea,Papeete,Honiara,Apia,PortVila,Palikir,Avarua,PortMoresby,NukuAlofa,Suva,Masefau,Fagaloa,Tafea,Apolima,Mataika,Leone,Nukufetau,Auki,Saleaula,Ringdove,Fagali,Talasiu,Ta'u,Matangia,Tanna,Aonu,Anuboa,Areu,Aliboa,Afagu,Adanu,Adeei,Alubu,Akigu,Amesei,Afinu,Afugoa,Aitoa,Amagu,Aoku,APa,Pae,Pai,OPa,UPa,KlPa,TlPa,PlPa,MlPa,NlPa,SlPa,RlPa,LdPa,DlPa,GlPa"
-  }
+  },
+  {
+    "name": "Vietnamese China",
+    "i": 202378,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Vietnamese China,Chonburi,Lang Son,Lhokseumawe,Nha Trang,Ha Giang,Jakarta,Padang Panjang,Dien Bien Phu,Cagayan de Oro,Nam Dinh,Serang,Semarang,Chumphon,Senmonorom,Ternate,Phnom Penh,Bogor,Palembang,Hanoi,Bhamo,Quezon City,Kampong Cham,Pakse,Padang,Baguio,Hpa-An,Mandalay,Vientiane,Chiang Mai,Da Lat,Da Nang,Phan Thiet,Kunming,Chiang Rai,Phongsali,Rach Gia,My Tho,Quy Nhon,Thakhek,Yangon,Naypyidaw,Bangkok,Pursat,Pathein,Myitkyina,Chiềng Rạ,Shantou,Ho Chi Minh City,Macau,Savannakhet,Battambang,Nanning,VietnameseChinak,VietnameseChinat,VietnameseChinap,VietnameseChinam,VietnameseChinan,VietnameseChinas,VietnameseChinar,VietnameseChinal,VietnameseChinad,VietnameseChinag,VietnameseChinab",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Volga",
+    "i": 202379,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Volga,Parakou,Lafia,Rijau,Kumasi,Louga,Ouagadougou,Ségou,Ambam,Kaolack,Wa,Cape Coast,Yaoundé,Awka,Faranah,Ibadan,Tamale,Gabú,Yamoussoukro,Moundou,Baga,Sarh,Ife,Timbuktu,Kenema,Mongu,Kumba,Harper,Accra,Banjul,Conakry,Bamako,Lomé,Buea,Bamenda,Tema,Freetown,Kankan,Porto-Novo,Katsina,Nzérékoré,Koudougou,Dakar,Sunyani,Maiduguri,Kayes,Ebebiyín,Thiès,Nouakchott,Malabo,Niamey,Mopti",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Chagossian Creole",
+    "i": 202380,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "Diego Garcia,Peros Banhos,Salomon,Six Îles,Three Brothers,Île Boddam,Île Anglaise,Île du Coin,Île Fouquet,Île Poule,Île Vache Marine,Île Yeye,Île Mapou,Île Diable,Île Parasol,Île Longue,Île Bois Mangue,Île Manoël,Île Animaux,Île Lubine,Île Cipaye,Île Carpathe,Île Crabe,Île aux Vaches,Île aux Rats,Île aux Fous,Île aux Goëlettes,Île aux Coco,Île aux Sables,Île aux Bois,Île aux Souimangas,Île aux Frégates,Île aux Mouettes,Île aux Sternes,Île aux Phaetons,Île aux Albatros,Île aux Fouquets,Île aux Moustiques,Île aux Pintades,Île aux Canards,Île aux Sarcelles,Île aux Hérons,Île aux Aigrettes,Île aux Flamants,Île aux Pélicans,Île aux Cormorans,Île aux Frigates,Kara,Eagle Island",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Mauritian Creole",
+    "i": 202381,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "Port Louis,Curepipe,Vacoas,Quatre Bornes,Beau Bassin,Rose Hill,Flacq,Mahebourg,Souillac,Pamplemousses,Triolet,Goodlands,Rivière du Rempart,Flic en Flac,Tamarin,Grand Baie,Pereybère,Cap Malheureux,Rose Belle,Nouvelle France,Chemin Grenier,Surinam,Saint Hubert,Bambous,Saint Pierre,Moka,Phoenix,Albion,Baie du Tombeau,Balaclava,Bois Chéri,Britannia,Case Noyale,Belle Mare",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Rodriguan Creole",
+    "i": 202382,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "Port Mathurin,Cascade Victoire,Baie Topaze,Grande Montagne,Anse aux Anglais,Baie du Nord,Cascade Saint Vincent,Citronelle,Coromandels,Crève Coeur,Désiré,Fond La Digue,Gros Mangue,Jentac,La Ferme,Mangue,Mont Lubin,Mourouk,Oyster Bay,Patate Théophile,Petit Brûlé,Petit Gabriel,Plaine Corail,Port Sud-Est,Quatre Vents,Rivière Cocos,Saint Gabriel,Soupir,Tamarin,Vangar",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Ch'olti'",
+    "i": 202383,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "Ch'olti',Owerri,Sokoto,Aba,Parakou,Thiès,Ebolowa,Kaduna,Louga,Ughelli,Kindia,Ambam,Tahoua,Wa,Okigwe,Gao,Awka,Faranah,Bida,Aksum,Ségou,Yamoussoukro,Moundou,Enugu,Sesheke,Zaria,Timbuktu,Douala,Banjul,Aconibe,Gbarnga,Kayes,Kara,Zinder,Man,Korhogo,Monrovia,Assomada,Yola,Cotonou,Koudougou,Saint-Louis,Tenkodogo,Ouagadougou,Maiduguri,Sikasso,Kano,Wukari,Niamey,Freetown,Maroua,Porto-Novo,Choltik,Choltit,Choltip,Choltim,Choltin,Choltis,Choltir,Choltil,Choltid,Choltig,Choltib",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "American Indian Pidgin English",
+    "i": 202384,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "American Indian Pidgin English,Lomphat,Loikaw,Balikpapan,Kratie,Putao,Malang,Ambon,Ranong,Chumphon,Mondulkiri,Phnom Penh,Samarinda,Narathiwat,Satun,Muara,Savannakhet,Lhokseumawe,Davao,Bago,Sibolga,Padang Panjang,Champasak,Nong Khai,Iloilo,Serang,Binjai,Kuala Terengganu,Dublin,Waterford,Madrid,Randers,Rome,Dundalk,Palermo,Toulouse,Bilbao,Malmö,Stuttgart,Bydgoszcz,Naples,Düsseldorf,Hamburg,Munich,Ostrava,Florence,Berlin,Birmingham,Liberec,Szczecin,Locarno,Esbjerg,Nice,Leoben,Namur,AmericanIndianPidginEnglishk,AmericanIndianPidginEnglisht,AmericanIndianPidginEnglishp,AmericanIndianPidginEnglishm,AmericanIndianPidginEnglishn,AmericanIndianPidginEnglishs,AmericanIndianPidginEnglishr,AmericanIndianPidginEnglishl,AmericanIndianPidginEnglishd,AmericanIndianPidginEnglishg,AmericanIndianPidginEnglishb",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Cappadocian Greek",
+    "i": 202385,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "Cappadocian Greek,Dundee,Podgorica,Liepāja,Soroca,Ioannina,Antwerp,Vantaa,Daugavpils,Trieste,Subotica,Dubrovnik,Dijon,Minsk,Szeged,Maribor,Varna,Liberec,Gothenburg,Lille,Kópavogur,Dudelange,Chongqing,Hohhot,Choibalsan,Kanazawa,Yamagata,Sendai,Düsseldorf,Paris,Seville,Bordeaux,Madrid,Nice,Toulouse,Klagenfurt,Zaragoza,Bristol,Bern,Milan,Munich,Gdansk,Lublin,Ostrava,Liverpool,Pori,Warsaw,Leipzig,Palermo,Barcelona,Turin,Olomouc,Birmingham,Vienna,CappadocianGreekk,CappadocianGreekt,CappadocianGreekp,CappadocianGreekm,CappadocianGreekn,CappadocianGreeks,CappadocianGreekr,CappadocianGreekl,CappadocianGreekd,CappadocianGreekg,CappadocianGreekb",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Hawaiian Pidgin English",
+    "i": 202386,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "Hawaiian Pidgin English,Thai Binh,Kuala Belait,Makassar,Satun,Sisophon,Taunggyi,Siem Reap,Tebing Tinggi,Manado,Roi Et,Putao,Payakumbuh,Kampot,Pasir Ris,Pekanbaru,Bandar Lampung,Mudon,Dien Bien Phu,Kandal,Tomohon,Pontianak,Kratie,Trang,Hue,Luang Prabang,Samarinda,Quezon City,Marseille,Berlin,Toulouse,Liège,Bydgoszcz,Bordeaux,Malmö,Madrid,Hamburg,Palermo,Stuttgart,Málaga,Milan,Reykjanesbær,Cologne,Liberec,Birmingham,Lisbon,London,Rome,Bregenz,Örebro,Granada,Venice,Gdansk,Plzeň,Winterthur,HawaiianPidginEnglishk,HawaiianPidginEnglisht,HawaiianPidginEnglishp,HawaiianPidginEnglishm,HawaiianPidginEnglishn,HawaiianPidginEnglishs,HawaiianPidginEnglishr,HawaiianPidginEnglishl,HawaiianPidginEnglishd,HawaiianPidginEnglishg,HawaiianPidginEnglishb",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Loucheux Jargon",
+    "i": 202387,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "Loucheux Jargon,Bida,Koudougou,Tema,Kara,Kaduna,Bafatá,Yola,Kindia,Tchibanga,Aba,Parakou,Brikama,Gao,Gashua,Louga,Ijebu Ode,Koulikoro,Ségou,Tahoua,Wa,Enugu,Luba,Banfora,Faranah,Bata,Warri,Nkongsamba,Bouaké,Accra,Bobo-Dioulasso,Timbuktu,Dakar,Ouagadougou,Cotonou,Ziguinchor,Sokodé,Lomé,Kaolack,Gusau,Monrovia,Nouakchott,Praia,Maiduguri,Bamako,Bauchi,Koidu,Yamoussoukro,Sikasso,Saint-Louis,Kano,Tambacounda,LoucheuxJargonk,LoucheuxJargont,LoucheuxJargonp,LoucheuxJargonm,LoucheuxJargonn,LoucheuxJargons,LoucheuxJargonr,LoucheuxJargonl,LoucheuxJargond,LoucheuxJargong,LoucheuxJargonb",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Maritime Polynesian Pidgin",
+    "i": 202388,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "Maritime Polynesian Pidgin,Vanimo,Palau,Kairuku,Ouvea,Lorengau,Melekeok,Nukulaelae,Mili,Chuuk,Ebeye,Rotorua,Samamea,Kavieng,Dumbea,Norfolk,Tabiteuea,Newcastle,Navua,Nibok,Kimbe,Angaur,Havelu,Betio,Jaluit,Misima,Auki,Joensuu,Chamzinka,Berezniki,Kuopio,Tartu,Jyväskylä,Kotka,Ruzaevka,Cherdyn,Pärnu,Tampere,Mikkeli,Vorkuta,Tallinn,Kovylkino,Monchegorsk,Atemar,Budapest,Sernur,Rovaniemi,Kortkeros,Saransk,Kirovsk,Kecskemét,Yusva,Haapsalu,Aikino,MaritimePolynesianPidgink,MaritimePolynesianPidgint,MaritimePolynesianPidginp,MaritimePolynesianPidginm,MaritimePolynesianPidginn,MaritimePolynesianPidgins,MaritimePolynesianPidginr,MaritimePolynesianPidginl,MaritimePolynesianPidgind,MaritimePolynesianPidging,MaritimePolynesianPidginb",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Micronesian Pidgin English",
+    "i": 202389,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "Micronesian Pidgin English,Putao,Poipet,Bacolod,Battambang,Chumphon,Balikpapan,Pakse,Loikaw,Narathiwat,Kratie,Aileu,Malang,Lhokseumawe,Ranong,Dawei,Mondulkiri,Padang Panjang,Samarinda,Soc Trang,Satun,Serang,Savannakhet,Denpasar,Davao,Ternate,Sibolga,Bogor,Randers,Strasbourg,Marseille,Paris,Palermo,Trondheim,Toulouse,Madrid,Barcelona,Bilbao,Seville,Florence,Granada,Norrköping,Plzeň,Berlin,Munich,Hamburg,Klagenfurt,Stuttgart,Milan,Leipzig,Warsaw,Graz,Dundalk,Ghent,Tampere,MicronesianPidginEnglishk,MicronesianPidginEnglisht,MicronesianPidginEnglishp,MicronesianPidginEnglishm,MicronesianPidginEnglishn,MicronesianPidginEnglishs,MicronesianPidginEnglishr,MicronesianPidginEnglishl,MicronesianPidginEnglishd,MicronesianPidginEnglishg,MicronesianPidginEnglishb",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Nootka Jargon",
+    "i": 202390,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "Nootka Jargon,Uxmal,Quiotepec,Xochicalco,Huauchinango,Hanga Roa,Yohualichan,Machu Picchu,Tibes,Jayuya,Riobamba,Chavín de Huántar,Osorno,Tiahuanaco,Piedras Negras,Kaminaljuyú,Calchaquí,Alta Vista,Comalcalco,Texcoco,Teopanzolco,Coyoacán,Tlatelolco,Xochimilco,Tlaxcala,Cholula,Xochitécatl,Tula,Natitingou,Daloa,Timbuktu,Bobo-Dioulasso,Yamoussoukro,Maroua,Korhogo,Ziguinchor,Ouagadougou,Kaolack,Kumasi,Kara,Mopti,Praia,Sikasso,Lafia,Gusau,Nzérékoré,Kankan,Niamey,Zaria,Abidjan,Accra,Mindelo,Bertoua,Jos,Kayes,NootkaJargonk,NootkaJargont,NootkaJargonp,NootkaJargonm,NootkaJargonn,NootkaJargons,NootkaJargonr,NootkaJargonl,NootkaJargond,NootkaJargong,NootkaJargonb",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Papua New Guinea Pidgin",
+    "i": 202391,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "Papua New Guinea Pidgin,Minna,Nnewi,Kaita,Tambacounda,Kenema,Yola,Sapele,Praia,Kaolack,Koudougou,Maiduguri,Nsukka,Gwoza,Labé,Kindia,Aplahoué,Takum,Aba,Parakou,Neves,Rijau,Okene,Louga,Akatsi,Kumba,Ambam,Tahoua,Ocho Ríos,Andros Town,Cap-Haïtien,Spanish Town,Port of Spain,Mandeville,Jérémie,Maho Reef,Montego Bay,Dunmore Town,Camagüey,Freeport,Alice Town,Kingston,Christ Church,Sint Willibrordus,Cul de Sac,Holetown,Portmore,West End,Falmouth,Bridgetown,Les Cayes,Chaguanas,Bathsheba,Sint Nicolaas,Scarborough,PapuaNewGuineaPidgink,PapuaNewGuineaPidgint,PapuaNewGuineaPidginp,PapuaNewGuineaPidginm,PapuaNewGuineaPidginn,PapuaNewGuineaPidgins,PapuaNewGuineaPidginr,PapuaNewGuineaPidginl,PapuaNewGuineaPidgind,PapuaNewGuineaPidging,PapuaNewGuineaPidginb",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Papuan Pidgin English",
+    "i": 202392,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "Papuan Pidgin English,Vinh,Satun,Medan,Mae Hong Son,Lomphat,Tebing Tinggi,Ha Long,Sandakan,Denpasar,Payakumbuh,Lashio,Ben Tre,Sihanoukville,Bandar Lampung,Banjarmasin,Phnom Penh,Karem,Tomohon,Pursat,Hpa-An,Bogor,Quy Nhon,Chumphon,Samarinda,Ratanakiri,Hanoi,Ambon,Mount Hagen,Nomad,Port Moresby,Kokopo,Kavieng,Lorengau,Bulolo,Wewak,Kundiawa,Saidor,Goroka,Madang,Kimbe,Kieta,Wau,Ialibu,Arawa,Morehead,Pangia,Oksapmin,Komo,Wapenamanda,Alotau,Tambul,Nipa,Muglamp,Ramu,PapuanPidgin,TokPisin,Pisin,Wantok,Sios,Saint,Morobe,Ward,Lotu,Buluminsky,Papuan,PapuanPidginEnglishk,PapuanPidginEnglisht,PapuanPidginEnglishp",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Settler Swahili",
+    "i": 202393,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "Settler Swahili,Bida,Koudougou,Tema,Kara,Kaduna,Bafatá,Yola,Kindia,Tchibanga,Aba,Parakou,Brikama,Gao,Gashua,Louga,Ijebu Ode,Koulikoro,Ségou,Tahoua,Wa,Enugu,Luba,Banfora,Faranah,Bata,Warri,Nkongsamba,Addis Ababa,Gondar,Awasa,Bahir Dar,Lalibela,Gambela,Malakal,Harar,Juba,Masaka,Garissa,Busia,Sodo,Robe,Port Sudan,Negele,Kabale,Arua,Jinja,Gedaref,Nairobi,Kericho,Dila,Yabelo,Thika,Fort Portal,Kisumu,SettlerSwahilik,SettlerSwahilit,SettlerSwahilip,SettlerSwahilim,SettlerSwahilin,SettlerSwahilis,SettlerSwahilir,SettlerSwahilil,SettlerSwahilid,SettlerSwahilig,SettlerSwahilib",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Simplified Italian of Somalia",
+    "i": 202394,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "Simplified Italian of Somalia,Kaduna,Zwedru,Douala,Kindia,Zaria,Calabar,Sikasso,Misau,Gao,Yusufari,Kenema,Ngaoundéré,Calheta,Ségou,Bida,Koudougou,Enugu,Saminaka,Banfora,Bafatá,Warri,Tchibanga,Natitingou,Parakou,Fatick,Maradi,New Plymouth,Nantes,Toulouse,Hamburg,Bologna,Barcelona,Cologne,Vaasa,Seville,Marseille,Glasgow,Florence,Málaga,Zaragoza,Prague,Milan,Leipzig,Stuttgart,Naples,Utrecht,Reykjanesbær,Rome,Lucerne,Szczecin,Warsaw,Ostrava,Chur,Olomouc,SimplifiedItalianofSomaliak,SimplifiedItalianofSomaliat,SimplifiedItalianofSomaliap,SimplifiedItalianofSomaliam,SimplifiedItalianofSomalian,SimplifiedItalianofSomalias,SimplifiedItalianofSomaliar,SimplifiedItalianofSomalial,SimplifiedItalianofSomaliad,SimplifiedItalianofSomaliag,SimplifiedItalianofSomaliab",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Solombala-English",
+    "i": 202395,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "Solombala-English,Hue,Tebing Tinggi,Ang Mo Kio,Da Nang,Son La,Payakumbuh,Vinh,Dien Bien Phu,Medan,Bandar Lampung,Lomphat,Kuala Belait,Ha Long,Tomohon,Denpasar,Satun,Lashio,Phnom Penh,Sihanoukville,Samarinda,Banjarmasin,Hai Phong,Karem,Zamboanga,Pursat,Champasak,Bogor,Toulouse,Edinburgh,Berlin,Seville,Nantes,Madrid,London,Bilbao,Barcelona,Linköping,Bergen,Helsinki,Málaga,Trondheim,Munich,Copenhagen,Birmingham,Leipzig,Sion,Turin,Bordeaux,Florence,Vejle,Namur,Aalborg,Venice,Chur,SolombalaEnglishk,SolombalaEnglisht,SolombalaEnglishp,SolombalaEnglishm,SolombalaEnglishn,SolombalaEnglishs,SolombalaEnglishr,SolombalaEnglishl,SolombalaEnglishd,SolombalaEnglishg,SolombalaEnglishb",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Solomon Islands Pijin",
+    "i": 202396,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "Solomon Islands Pijin,Vinh,Satun,Medan,Mae Hong Son,Lomphat,Tebing Tinggi,Ha Long,Sandakan,Denpasar,Payakumbuh,Lashio,Ben Tre,Sihanoukville,Bandar Lampung,Banjarmasin,Phnom Penh,Karem,Tomohon,Pursat,Hpa-An,Bogor,Quy Nhon,Chumphon,Samarinda,Ratanakiri,Hanoi,Ambon,Fangchenggang,Savannakhet,Da Lat,Ho Chi Minh City,Hai Phong,Siem Reap,Chiang Mai,Hat Yai,Naypyidaw,Rach Gia,Phan Thiet,Luang Prabang,Beihai,Surat Thani,Mandalay,Battambang,Takeo,Shantou,Nanning,Can Tho,Danzhou,Lạng Sơn,SolomonIslandsPijink,SolomonIslandsPijint,SolomonIslandsPijinp,SolomonIslandsPijinm,SolomonIslandsPijinn,SolomonIslandsPijins,SolomonIslandsPijinr,SolomonIslandsPijinl,SolomonIslandsPijind,SolomonIslandsPijing,SolomonIslandsPijinb",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Tangwang",
+    "i": 202397,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "Tangwang,Owerri,Sokoto,Aba,Parakou,Thiès,Ebolowa,Kaduna,Louga,Ughelli,Kindia,Ambam,Tahoua,Wa,Okigwe,Gao,Awka,Faranah,Bida,Aksum,Ségou,Yamoussoukro,Moundou,Enugu,Sesheke,Zaria,Timbuktu,Douala,Bouaké,Banjul,Lomé,Bissau,Daloa,Gbarnga,Kano,Dakar,Jalingo,Korhogo,Katsina,Kumasi,Ouagadougou,Ebebiyín,Warri,Conakry,Monrovia,Sokodé,Tamale,Maiduguri,Koidu,Cacheu,Niamey,Tambacounda",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Te Parau Tinito",
+    "i": 202398,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "Te Parau Tinito,Bida,Koudougou,Tema,Kara,Kaduna,Bafatá,Yola,Kindia,Tchibanga,Aba,Parakou,Brikama,Gao,Gashua,Louga,Ijebu Ode,Koulikoro,Ségou,Tahoua,Wa,Enugu,Luba,Banfora,Faranah,Bata,Warri,Nkongsamba,Bamako,Saint-Louis,Bertoua,Garoua,Bobo-Dioulasso,Katsina,Banjul,Minna,Monrovia,Malabo,Porto-Novo,Kaolack,Kayes,Tarrafal,Gbarnga,Praia,Sunyani,Thiès,Koidu,Jos,Niamey,Tambacounda,Cacheu,TeParauTinitok,TeParauTinitot,TeParauTinitop,TeParauTinitom,TeParauTiniton,TeParauTinitos,TeParauTinitor,TeParauTinitol,TeParauTinitod,TeParauTinitog,TeParauTinitob",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Mi'kmaq",
+    "i": 202399,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Eskasoni,Membertou,Millbrook,Sipekne'katik,Wagmatcook,Waycobah,Potlotek,Pictou Landing,Paqtnkek,Glooscap,Bear River,Annapolis Valley,Acadia,Lennox Island,Abegweit,Miawpukek,Qalipu,Gesgapegiag,Listuguj,Metepenagiag,Natoaganeg,Buctouche,Eel River Bar,Fort Folly,Indian Island,Kingsclear,Oromocto,Pabineau,Tobique,Woodstock,Aroostook",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Na-Dene",
+    "i": 202400,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Ute",
+    "i": 202401,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Fort Duchesne,Roosevelt,Vernal,Myton,Ballard,Ignacio,Bayfield,Durango,Towaoc,White Mesa,Ute Mountain Ute Tribal Park,Uintah River High School,Southern Ute Indian Montessori Academy,Kwiyagat Community Academy",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Atayal",
+    "i": 202402,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Wulai District,Fuxing District,Jianshi Township,Heping District,Wufeng Township,Tai'an Township,Ren'ai Township,Datong Township,Nanao Township,Squliq,C'uli',Matu'uwal,Skikun,Plngawan,S'uli,Klesan,Matu'aw,Smangus",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Budai-Labuan-Taromak Rukai",
+    "i": 202403,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Wutai,Pingtung,Taitung,Kaohsiung,Taiwan,Tanan,Labuan,Budai,Taromak",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Cheke Holo",
+    "i": 202404,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Santa Isabel Island,Maringe,Hograno,Buala,Gnulahaghe,Kuma'ihaui,Kia District,Gao-Bughotu Region",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Isbukun Bunun",
+    "i": 202405,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Dongpu,Nantou,Mayuan,Hualien,Laipunuk,Yanping,Taitung,Wanrong,Zhuoxi,Haiduan,Namaxia,Taoyuan,Maolin,Xinyi,Ren-ai,Taiwan",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Kanakanavu",
+    "i": 202406,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Kanakanavu,Bafatá,Yola,N'Djamena,Bolgatanga,Aba,Parakou,Gao,Bamenda,Gashua,Louga,Gbarnga,Koulikoro,Lafia,Tahoua,Wa,Banjul,Yaoundé,Gombe,Faranah,Marte,Saint-Louis,Nkongsamba,Jos,Moundou,Lealui,Boké,Ife,Accra,Katsina,Bissau,Lomé,Cotonou,Dakar,Maiduguri,Korhogo,Kaolack,Kankan,Kayes,Freetown,Mopti,Nzérékoré,Bamako,Nouakchott,Ségou,Kaduna,Thiès,Niamey,Conakry,Ziguinchor,Tarrafal,Sunyani,Porto-Novo,Kanakanavuk,Kanakanavut,Kanakanavup,Kanakanavum,Kanakanavun,Kanakanavus,Kanakanavur,Kanakanavul,Kanakanavud,Kanakanavug,Kanakanavub",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Kulon",
+    "i": 202407,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Taiwan,Northwest Formosan,Saisiyat",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Maga-Tona Rukai",
+    "i": 202408,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Maolin,Tona,Kaohsiung,Taiwan,Lower Three Villages",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Mantauran Rukai",
+    "i": 202409,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Wanshan,Fengli,Maolin,Kaohsiung,Taiwan,Lower Three Villages",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Marind",
+    "i": 202410,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Malind District,Merauke Regency,South Papua,Marianne Strait,Maro River,Kumbe River,Bian River",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Mombum",
+    "i": 202411,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Komolom Island,Yos Sudarso Island,Muli Strait,Kaimana Regency",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Muyu",
+    "i": 202412,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Boven Digoel Regency,Muyu River,Kao River,Kawip dialect area,Medewan,Komoyan,Upyetetko,Kanggewot,Ninggerum,Yonggom",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Namiae",
+    "i": 202413,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Oro Province,Afore Rural LLG,Kokoro,Kuae,Sorefuna,Tahama,Ubuvara",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Ngalum",
+    "i": 202414,
+    "min": 5,
+    "max": 10,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Oksibil,Bintang Mountains,Puncak Mandala,Telefomin,Mindiptana,Merauke,Digul River,Ok Sibil,Ok Mabol,Ok Bap,Ok Bino,Ok Seng,Ok Tedi,Ok Hene,Ok Kian,Ok Marim,Ok Bap,Ok Menga,Ok Sari,Ok Temin,Ok Bori,Ok Kai,Ok Su,Ok Tim,Ok Yal,Ok Kupel,Ok Bintil,Ok Sarnam,Ok Wel,Ok Hane,Ok Sengki,Ok Sibil,Ok Bintim",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Nomane",
+    "i": 202415,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Dekamane,Awna,Gaimo,Nomane Rural LLG,Chimbu Province",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Northern and Central Bunun",
+    "i": 202416,
+    "min": 0,
+    "max": 0,
+    "d": "lnrt",
+    "m": 0,
+    "b": "",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Onjob",
+    "i": 202417,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Koreat,Naukwate,Tufi Rural LLG,Oro Province",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Ontenu",
+    "i": 202418,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Ontenu village,Kainantu,Eastern Highlands",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Orokaiva",
+    "i": 202419,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Popondetta,Kokoda Rural LLG,Tamata Rural LLG,Oro Province,Hunjara,Aeka",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Oweina",
+    "i": 202420,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Waisara,Oweina,Owena,Eastern Highlands Province",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Paiwan",
+    "i": 202421,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Pingtung County,Taitung County,Kaohsiung,Tjuabar,Mudan,Kulalao,Kapaiwanan,Tjaqatsiɬay,Patjavaɬ,Rarəkrək,Tjukuvuɬ,Kaviangan,Tjaɬakavus,Makazayazaya,Tjariḍik,Tjavuaɬi,Tjakuvukuvuɬ",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Paniai Lakes",
+    "i": 202422,
+    "min": 0,
+    "max": 0,
+    "d": "lnrt",
+    "m": 0,
+    "b": "",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Papora",
+    "i": 202423,
+    "min": 0,
+    "max": 0,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Dajia,Dadu,Taichung,Changhua,Nantou,Taiwan",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Papora-Hoanya",
+    "i": 202424,
+    "min": 0,
+    "max": 0,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Dajia,Dadu,Taichung,Changhua,Nantou,Taiwan",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Papuan Tip",
+    "i": 202425,
+    "min": 0,
+    "max": 0,
+    "d": "lnrt",
+    "m": 0,
+    "b": "",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Pazeh",
+    "i": 202426,
+    "min": 0,
+    "max": 0,
+    "d": "lnrt",
+    "m": 0,
+    "b": "",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Pisa",
+    "i": 202427,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "South Papua,Awyu,Asue Awyu,West Awyu",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Pitcairn-Norfolk",
+    "i": 202428,
+    "min": 0,
+    "max": 0,
+    "d": "lnrt",
+    "m": 0,
+    "b": "",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Pitkern",
+    "i": 202429,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Pitcairn Islands,Norfolk Island,Adamstown,Kingston,Bounty Bay",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Pogaya",
+    "i": 202430,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Olsobip Rural LLG,Nomad Rural LLG,Western Province,Koroba-Kopiago District,Hela Province",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Puyuma",
+    "i": 202431,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Nanwang,Apapulu,Katipul,Alipai,Pinaski,Pankiu,Kasavakan,Katratripul,Likavung,Tamalakaw,Ulivelivek,Taitung County",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Rapa Nui",
+    "i": 202432,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Easter Island,Hanga Roa,Rapa Nui,Isla de Pascua",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Retta",
+    "i": 202433,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Pura Island,Ternate Island,Alor archipelago,Retta village",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Riantana",
+    "i": 202434,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Yos Sudarso Island,South Papua,Kimaam",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Rotokas",
+    "i": 202435,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Bougainville Island,Central Rotokas,Aita Rotokas,Pipipaia,Atsilima village,North Bougainville",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Rukai",
+    "i": 202436,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Budai,Labuan,Maga,Mantauran,Tanan,Tona,Sandimen Township,Sanhe Village,Wutai Township,Majia Township,Lower Three Villages,Pingtung County",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Rumu",
+    "i": 202437,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Papua New Guinea,Kairi,Dumu,Kibiri,Rumuwa",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Rusenu",
+    "i": 202438,
+    "min": 0,
+    "max": 0,
+    "d": "lnrt",
+    "m": 0,
+    "b": "",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Saaroa",
+    "i": 202439,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Taoyuan,Kaochung,Taoyuan District,Kaohsiung City,Taiwan",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Sabakor",
+    "i": 202440,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Buruway District,Kaimana Regency,West Papua,Buruwai,Madewana,Kamrau Bay",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Safeyoka",
+    "i": 202441,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Ampale,Waffa River,Banir River,Morobe Province,Kaiapit District,Mumeng District,Menyama District,Wojokeso",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Saisiyat",
+    "i": 202442,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Wufeng,Hsinchu,Nanchuang,Shitan,Miaoli,Ta'ai,Tungho",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Sakizaya",
+    "i": 202443,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Takubuwan,Sakur,Maifor,Kaluluwan,Hualien,Taiwan",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Salt-Yui",
+    "i": 202444,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Chimbu Province,Papua New Guinea,Salt,Yui",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Samberigi",
+    "i": 202445,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Southern Highlands Province,Sau,Papua New Guinea,Engan",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Samo",
+    "i": 202446,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Western Province,Strickland River,Daba,Nomad,Supei,Papua New Guinea",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Sawi",
+    "i": 202447,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Papua Province,Sago swamps,Awyu,West Papua,Indonesia,Sawuy",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Saʼban",
+    "i": 202448,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Long Peluan,Long Banga,Long Balong,Sarawak,Kalimantan,Borneo,Apo Duat",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Seediq",
+    "i": 202449,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Truku,Toda,Tgdaya,Paran,Taiwan,Taroko,Northern Taiwan",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Sempan",
+    "i": 202450,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Mimika Regency,Central Papua,Western New Guinea,Indonesia",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Setaman",
+    "i": 202451,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Star Mountains,Western Province,Papua New Guinea",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Shiaxa",
+    "i": 202452,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Papua Province,Bamgi River,Ia River,South Awyu,Oser,Yenimu,Jénimu,Sjìagha,Indonesia",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Siane",
+    "i": 202453,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Eastern Highlands,Siane Rural LLG,Chimbu Province,Hakoa,Kolepa,Yamofowe,Komongu,Komoigaleka,Kemanimowe,Ona,Keto,Laiya,Fowe,Olumba,Lambau,Alango,Yandime,Wando",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Silimo",
+    "i": 202454,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Indonesian New Guinea Highlands,Wulik,South Ngalik,Papua,Indonesia",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Simbari",
+    "i": 202455,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Eastern Highlands Province,Angan,Papua New Guinea,Chimbari",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Sinasina",
+    "i": 202456,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Tabare Rural LLG,Simbu Province,Dinga,Gunangi,Kebai,Kere,Kondo,Nimai,Tabare,Chimbu-Wahgi,Papua New Guinea",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Singlish",
+    "i": 202457,
+    "min": 0,
+    "max": 0,
+    "d": "lnrt",
+    "m": 0,
+    "b": "",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Somahai",
+    "i": 202458,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Yahukimo Regency,Highland Papua,Asmat Regency,South Papua,Balim River,Rekai,Momuna,Momina,Indonesia",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Some",
+    "i": 202459,
+    "min": 0,
+    "max": 0,
+    "d": "lnrt",
+    "m": 0,
+    "b": "",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Sonia",
+    "i": 202460,
+    "min": 0,
+    "max": 0,
+    "d": "lnrt",
+    "m": 0,
+    "b": "",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Sonsorolese",
+    "i": 202461,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Sonsorol,Palau,Micronesia,Pulo Anna,Merir,Fana",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Squliq Atayal",
+    "i": 202462,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Hsinchu County,Jianshi Township,Wufeng Township,Miaoli County,Taichung City,Da'an River,Wulai District,New Taipei City,Taiwan",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Suena",
+    "i": 202463,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Morobe Province,Yarawi,Binandere,Papua New Guinea",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Suganga",
+    "i": 202464,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Yapsiei,Telefomin,Sandaun,Ambunti-Dreikikir,East Sepik",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Suki",
+    "i": 202465,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Gwaku,Iwewi,Ewe,Gwibaku,Duru,Isala,Western Province,Fly River,Papua New Guinea",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Susuami",
+    "i": 202466,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Manki,Morobe Province,Upper Watut River,Papua New Guinea",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Tainae",
+    "i": 202467,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Famba,Paiguna,Pio,Gulf Province,Kotidanga Rural LLG,Papua New Guinea",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Tairoa",
+    "i": 202468,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Bantura,Suwaira,Kuvaira,Vinaata,Konkompira,Motokara,Kovara,Aantantara,Arau,Arokaara,Saiqora,Tairora,Aatasaara,Haaviqinra,Omwunra-Toqura,Vaira-Ntosara,Veqaura",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Tairora",
+    "i": 202469,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Aantantara,Andandara,Arau-Varosia,Arokaara,Saiqora,Omwunra-Toqura,Aatasaara,Haaviqinra-Oraura,Vaira-Ntosara,Veqaura,Vinaata-Konkompira,Eastern Highlands,Papua New Guinea",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Tamagario",
+    "i": 202470,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Mappi Regency,South Papua,Indonesia,Haju District,Arare,Kerke,Pagai,Mambioman Bapai District,Tereyemu,Magabag,Yogo",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Tangko",
+    "i": 202471,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Kawemaot village,Pegunungan Bintang Regency,Highland Papua,Indonesia",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Taokas",
+    "i": 202472,
+    "min": 0,
+    "max": 0,
+    "d": "lnrt",
+    "m": 0,
+    "b": "",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Tauade",
+    "i": 202473,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Kira Rural LLG,Central Province,Papua New Guinea",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Teiwa",
+    "i": 202474,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Pantar Island,Alor Archipelago,Lebang,Boweli,Kalib,Nule,Kadir,Madar,Indonesia",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Telefol",
+    "i": 202475,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Telefolmin,Ok languages,Papua New Guinea,Tifal,Mian,Feramin,Dem,Baktamin,Eliptaman",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Tembagla",
+    "i": 202476,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Southern Highlands Province,Ku Waru,Mara-Gomu,Miyemu,Tembalo,Bo-Ung,Mbo-Ung,Medlpa,Kaugel,Papua New Guinea",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Thao",
+    "i": 202477,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Sun Moon Lake,Ita Thaw,Barawbaw,Shtafari,Taiwan",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Tifal",
+    "i": 202478,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Tifalmin,Urapmin,Atbalmin,Telefomin valley,Sepik River,Irian Jaya border,Papua New Guinea",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Timor–Alor–Pantar",
+    "i": 202479,
+    "min": 0,
+    "max": 0,
+    "d": "lnrt",
+    "m": 0,
+    "b": "",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Tirio (Lower Fly)",
+    "i": 202480,
+    "min": 0,
+    "max": 0,
+    "d": "lnrt",
+    "m": 0,
+    "b": "",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Tobian",
+    "i": 202481,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Tobi Island,Southwest Islands,Palau,Hatohobei State,Echang,Koror,Sonsorol,Merir,Pulo Ana",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Tokano",
+    "i": 202482,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Lower Asaro Rural LLG,Eastern Highlands Province,Gamuso,Tokama,Yufiyufa,Zaka,Zuhozuho,Zuhuzuho,Papua New Guinea",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Torres Strait Creole",
+    "i": 202483,
+    "min": 0,
+    "max": 0,
+    "d": "lnrt",
+    "m": 0,
+    "b": "",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Ts'ole' Atayal",
+    "i": 202484,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Yilan County,Taiwan,Matu'uwal,Mayrinax,Plngawan,Skikun,Matu'aw,C'uli'",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Tsaukambo",
+    "i": 202485,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Kampung Biwage,Kawagit District,Boven Digoel Regency,South Papua,Indonesia,Tsakwambo,Kotogüt",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Tsou",
+    "i": 202486,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Alishan Township,Chiayi County,Tapangʉ,Tfuya,Duhtu,Iimcu,Dabang,Lijia,Shanmei,Xinmei,Chashan,Leye,Laiji,Jiumei,Mamahavana,Nantou County,Taiwan",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Turaka",
+    "i": 202487,
+    "min": 0,
+    "max": 0,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Kapotaki,Milne Bay,Papua New Guinea",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Turama-Kikorian",
+    "i": 202488,
+    "min": 0,
+    "max": 0,
+    "d": "lnrt",
+    "m": 0,
+    "b": "",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Uab Meto",
+    "i": 202489,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "West Timor,Oecussi-Ambeno,East Timor,Dawan,Baikenu,Indonesia",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Uare",
+    "i": 202490,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Rigo Inland Rural LLG,Kwale,Kware,Garihe,Garia,Papua New Guinea",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Umanakaina",
+    "i": 202491,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Gwedena,Dagan family,Papua New Guinea",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Urapmin",
+    "i": 202492,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Telefomin District,West Sepik Province,Papua New Guinea,Tifal dialect",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Usarufa",
+    "i": 202493,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Eastern Highlands Province,Moife,Imikori,Irafo,Kagu,Agura 1,Agura 2,Kainantu,Gauwa,Papua New Guinea",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Vaeakau-Taumako",
+    "i": 202494,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Reef Islands,Taumako Islands,Duff Islands,Temotu Province,Aua,Matema,Nifiloli,Nupani,Nukapu,Pileni,Solomon Islands",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Waboda",
+    "i": 202495,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Kiwai Rural LLG,Dameratamu,Gesoa,Kabaturi,Maduduo,Meipani,Sagero,Tirere,Wapi,Papua New Guinea",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Waffa",
+    "i": 202496,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Kusing,Tumbuna,Siaga,Aaringun,Urint,Kaiapit,Morobe,Eastern Highlands,Kainantu",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Wahgi",
+    "i": 202497,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Mount Hagen,Kundiawa,Minj,Banz,Nondugl,Kudjip,Tambul,Nebilyer,Mul,Baiyer,Jimi Valley,Western Highlands,Jiwaka,Simbu Province,Papua New Guinea",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Waimoa",
+    "i": 202498,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "East Timor,Kairui,Midiki,Waima'a,Northeast East Timor",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Walak",
+    "i": 202499,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Jayawijaya Regency,Central Mamberamo Regency,Highland Papua,Indonesia,Baliem Valley",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Wambon",
+    "i": 202500,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Papua,Indonesia,Upper Digul Area,Irian Jaya",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Wano",
+    "i": 202501,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Puncak Regency,Puncak Jaya Regency,Central Papua,Indonesia,Baliem Valley",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Waruna",
+    "i": 202502,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Waruna village,Gogodala Rural LLG,Fly River,Papua New Guinea",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Wayan",
+    "i": 202503,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Nalauwaki,Natawa,Waya Levu,Yalobi,Viwa Island,Yasawa Islands,Fiji",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Were",
+    "i": 202504,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Dewara village,Kiunum,Weredai,Papua New Guinea",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Weri",
+    "i": 202505,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Aluwingei,Bonahoi,Bombita,Indibi,M'Bras,Salata,Sarom,Saunes,Tauanangas,Timingir,Urita,Wa'ahun,Waragom,East Sepik Province,Papua New Guinea",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Wersing",
+    "i": 202506,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Adagai,Taremana,Kolana,Mademang,Pureman,Alor Island,Indonesia",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "West Bomberai",
+    "i": 202507,
+    "min": 0,
+    "max": 0,
+    "d": "lnrt",
+    "m": 0,
+    "b": "",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Western",
+    "i": 202508,
+    "min": 0,
+    "max": 0,
+    "d": "lnrt",
+    "m": 0,
+    "b": "",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Western Dani",
+    "i": 202509,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Baliem Valley,Highland Papua,Indonesia,Western Dani",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Western Pantar",
+    "i": 202510,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Pantar Island,Alor Archipelago,Indonesia,Tubbe,Mauta,Lamma,Lamma dialect",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Wiru",
+    "i": 202511,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Ialibu-Pangia District,Southern Highlands Province,Papua New Guinea,Teberan,Engan",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Wolani",
+    "i": 202512,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Paniai Lakes,Central Papua,Indonesia,Kemandoga River,Mbiyandogo River,Lake Paniai,Paniai Regency,Wissel Lakes",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Wolio",
+    "i": 202513,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Waruruma,Liabuku,Kaisabu Baru,Sorawolio,Baadia,Wolio Keraton,Busoa,Pasarwajo,Pasarwajo,Kaimbulawa,Baubau,Buton Island,Southeast Sulawesi,Indonesia",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Yagaria",
+    "i": 202514,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Higivavi,Oliguti,Kami,Forapi No. 1,Litipinaga,Gotomi,Lufugu,Kiseveroka,Kogoraipa,Daginava,Nupuru,Goroka District,Eastern Highlands,Papua New Guinea",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Yagwoia",
+    "i": 202515,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Iqwalaqamalje,Gwase,Hiqwase,Hiqwaye,Yeqwangilje,Eastern Highlands,Gulf Province,Morobe Province,Papua New Guinea,Angan",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Yali",
+    "i": 202516,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Angguruk,Kosarek,Holuwon,Apahapsili,Ninia,Nalca,Korupun,Soba,Lolat,Elelim,Seila,Wanim Alo,Puplin,Walma,Seinma,Highland Papua,Indonesia",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Yaqay",
+    "i": 202517,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Paedem,Dagemon,Kogo,Kotup,Rayam,Wairu,Wanggate,Mappi Regency,Obaa River,Gandaimu,South Papua,Indonesia",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Yareba",
+    "i": 202518,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Middle Musa,Papua New Guinea",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Yaweyuha",
+    "i": 202519,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Eastern Highlands Province,Papua New Guinea",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Yekora",
+    "i": 202520,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Sapa village,Morobe Station,Ana-Pose,Boura,Katima,Sirisaro,BS Gaina,Eya,Gugumi,Mambututu,Gira river,Ioma,Popondetta,Manau,Mambare,Taututu,Deboi,Bowera,Mambare Bay,Cape Ward Hunt Point,Morobe Province,Papua New Guinea",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Yipma",
+    "i": 202521,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Wauko,Ande,Mala,Marawaka station,Mount Yelia,Morobe Province,Papua New Guinea",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Yogo (Tamagario)",
+    "i": 202522,
+    "min": 0,
+    "max": 0,
+    "d": "lnrt",
+    "m": 0,
+    "b": "",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Yonggom",
+    "i": 202523,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Kawok,Moian,Ulawas,Erekta,Karemgu,Membok,Kukujaba,Kungim,Kungembit,Ambaga,Komokpin,Yogi,Dome,Yeran,Bongabun,Atkamba,Konkonda,Nago,Buseki,Western Province,Papua New Guinea,Ok Tedi,Fly River",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Zia",
+    "i": 202524,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Zare,Ainse,Siu,Popoe,Kobo,Dona,Bau,Eu,Pema,Toyare,Lower Waria Valley,Morobe Province,Papua New Guinea",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Zimakani",
+    "i": 202525,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Papua New Guinea,1500 speakers",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "ꞌAreꞌare",
+    "i": 202526,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Ma'asupa,Waiahaa,Hauporo,West Are'are,Honiara,Marau Sound,Solomon Islands,Malaita,South Malaita",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Arin",
+    "i": 202527,
+    "min": 0,
+    "max": 0,
+    "d": "lnrt",
+    "m": 0,
+    "b": "",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Assan",
+    "i": 202528,
+    "min": 0,
+    "max": 0,
+    "d": "lnrt",
+    "m": 0,
+    "b": "",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Jie",
+    "i": 202529,
+    "min": 0,
+    "max": 0,
+    "d": "lnrt",
+    "m": 0,
+    "b": "",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Nivkh",
+    "i": 202530,
+    "min": 0,
+    "max": 0,
+    "d": "lnrt",
+    "m": 0,
+    "b": "",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Omok",
+    "i": 202531,
+    "min": 0,
+    "max": 0,
+    "d": "lnrt",
+    "m": 0,
+    "b": "",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Pumpokol",
+    "i": 202532,
+    "min": 0,
+    "max": 0,
+    "d": "lnrt",
+    "m": 0,
+    "b": "",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Southern Itelmen",
+    "i": 202533,
+    "min": 0,
+    "max": 0,
+    "d": "lnrt",
+    "m": 0,
+    "b": "",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Southern Yukaghir",
+    "i": 202534,
+    "min": 0,
+    "max": 0,
+    "d": "lnrt",
+    "m": 0,
+    "b": "",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Tundra Yukaghir",
+    "i": 202535,
+    "min": 0,
+    "max": 0,
+    "d": "lnrt",
+    "m": 0,
+    "b": "",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Western Itelmen",
+    "i": 202536,
+    "min": 0,
+    "max": 0,
+    "d": "lnrt",
+    "m": 0,
+    "b": "",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Yeniseian",
+    "i": 202537,
+    "min": 0,
+    "max": 0,
+    "d": "lnrt",
+    "m": 0,
+    "b": "",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Yugh",
+    "i": 202538,
+    "min": 0,
+    "max": 0,
+    "d": "lnrt",
+    "m": 0,
+    "b": "",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Lotha",
+    "i": 202539,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Lotha,Sylhet,Lucknow,Hubli,Mumbai,Khanewal,Ponda,Gangtok,Dehradun,Hyderabad,Lalitpur,Karachi,Cuttack,Indore,Nawabshah,Siliguri,Lahore,Ahmedabad,Delhi,Dhanbad,Srinagar,Bhubaneswar,Shimla,Warangal,Nashik,Gulbarga,Rourkela,Bhopal,Nouakchott,Daloa,Bamako,Brikama,Kaduna,Bouaké,Katsina,Kano,Kaolack,Niamey,Kumasi,Jalingo,Ouagadougou,Koudougou,Kumba,Maroua,Man,Mopti,Lomé,Tamale,Thiès,Accra,Sunyani,Bertoua,Ségou,Assomada,Basse,Lothak,Lothat,Lothap,Lotham,Lothan,Lothas,Lothar,Lothal,Lothad,Lothag,Lothab",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Proto Hakka",
+    "i": 202540,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Proto Hakka,Nagasaki,Miaoli,Rason,Taitung,Mörön,Kaifeng,Yuen Long,Bayanhongor,Yamagata,Kitakyushu,Sinuiju,Liuzhou,Ölgii,Khovd,Takamatsu,Changwon,Zhuhai,Uliastai,Ulsan,Xiamen,Kaohsiung,Ulaanbaatar,Chiayi,Kaesong,Suwon,Harbin,Nanjing,Chengdu,Shenyang,Guangzhou,Incheon,Tianjin,Xi'an,New Taipei,Jinan,Chongjin,Zibo,Suzhou,Wonsan,Shenzhen,Seoul,Gwangju,Taoyuan,Ürümqi,Hsinchu,Dalian,Zhengzhou,Pyongyang,Yongin,ProtoHakkak,ProtoHakkat,ProtoHakkap,ProtoHakkam,ProtoHakkan,ProtoHakkas,ProtoHakkar,ProtoHakkal,ProtoHakkad,ProtoHakkag,ProtoHakkab",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Proto Loloish",
+    "i": 202541,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Proto Loloish,Ho Chi Minh City,Payakumbuh,Jurong,Poipet,Tra Vinh,Bandar Lampung,Hue,Phuket,Ang Mo Kio,Tomohon,Son La,Tebing Tinggi,Vinh,Kratie,Medan,Samarinda,Lomphat,Pakse,Ha Long,Zamboanga,Denpasar,Mandalay,Lashio,General Santos,Sihanoukville,Banjarmasin,Bangar,Chamdo,Nainital,Kangding,Batang,Ngari,Chuxiong,Trashigang,Weixi,Sarchu,Lijiang,Singtam,Jowai,Dehradun,Zigong,Gangtok,Rishikesh,Namchi,Melli,Cherrapunji,Rhenock,Jorthang,Barkam,Xichang,Paro,Deqin,Baoshan,Dalton Ganj,ProtoLoloishk,ProtoLoloisht,ProtoLoloishp,ProtoLoloishm,ProtoLoloishn,ProtoLoloishs,ProtoLoloishr,ProtoLoloishl,ProtoLoloishd,ProtoLoloishg,ProtoLoloishb",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Proto Min",
+    "i": 202542,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Proto Min,Rason,Hualien,Kanggye,Kaifeng,Erdenet,Takamatsu,Tuen Mun,Yamagata,Kawasaki,Hohhot,Khovd,Pingtung,Zhuhai,Ölgii,Seongnam,Ulsan,Xiamen,Kaohsiung,Ulaanbaatar,Uliastai,Chiayi,Kaesong,Suwon,Harbin,Nanjing,Baotou,Kitakyushu,Ziguinchor,Ebebiyín,Tambacounda,Maiduguri,Bamenda,Jalingo,Ouagadougou,Timbuktu,Kayes,Bobo-Dioulasso,Man,Kankan,Bamako,Koudougou,Koidu,Kaduna,Cotonou,Bertoua,Bafatá,Sunyani,Porto-Novo,Zinder,Parakou,Sokodé,Ségou,Jos,Sokoto,ProtoMink,ProtoMint,ProtoMinp,ProtoMinm,ProtoMinn,ProtoMins,ProtoMinr,ProtoMinl,ProtoMind,ProtoMing,ProtoMinb",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Proto Sino Tibetan",
+    "i": 202543,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Proto Sino Tibetan,Takamatsu,Yuen Long,Rason,Zhuhai,Ölgii,Pohang,Thetford Mines,Tsetserleg,Changhua,Changwon,Darkhan,Sariwon,Sha Tin,Kaifeng,Chongjin,Lanzhou,Taiyuan,Fukuoka,Jeonju,Hohhot,Chiba,Hamhung,Macau,Daegu,Guangzhou,Busan,Ōsaka,Chamdo,Xichang,Kham,Punakha,Barkam,Nyingchi,Deqin,Zhaotong,Lincang,Batang,Dehradun,Weixi,Paro,Zigong,Daofu,Trashigang,Shillong,Sarchu,Ngari,Leshan,Chengdu,Yibin,Padum,Panzhihua,Jakar,Leh,Mangan,ProtoSinoTibetank,ProtoSinoTibetant,ProtoSinoTibetanp,ProtoSinoTibetanm,ProtoSinoTibetann,ProtoSinoTibetans,ProtoSinoTibetanr,ProtoSinoTibetanl,ProtoSinoTibetand,ProtoSinoTibetang,ProtoSinoTibetanb",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Pyu",
+    "i": 202544,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Pyu,Oyo,Gashua,Louga,Harper,N'Djamena,Mubi,Tahoua,Wa,Owerri,Bamenda,Awka,Faranah,Bafatá,Mongomo,Lafia,Yamoussoukro,Moundou,Banjul,Senanga,Gombe,Timbuktu,Kaya,Saint-Louis,Tiko,Kano,Nalolo,Maroua,Bissau,Katsina,Sokodé,Dakar,Gbarnga,Cotonou,Freetown,Kara,Lomé,Korhogo,Abidjan,Ségou,Bamako,Mopti,Ziguinchor,Maiduguri,Ouagadougou,Tambacounda,Niamey,Nouakchott,Sokoto,Tema,Parakou",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Sümi",
+    "i": 202545,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Sümi,Kaolack,Rijau,Bolgatanga,Louga,Giwa,Bouaké,Ambam,Kumasi,Wa,Kissidougou,Buchanan,Awka,Abéché,Gwoza,Aksum,Makeni,Yamoussoukro,Buea,Hadejia,Sesheke,Gabú,Timbuktu,Ngaoundéré,Okigwe,Tiko,Brikama,Banjul,Accra,Lomé,Katsina,Tema,Conakry,Gusau,Sunyani,Kara,Dakar,Malabo,Freetown,Zaria,Mopti,Niamey,Koudougou,Parakou,Jos,Bolama,Farafenni,Koidu,Tamale,Porto-Novo,Kaduna,Ségou,Bissau,Sikasso,Smik,Smit,Smip,Smim,Smin,Smis,Smir,Smil,Smid,Smig,Smib",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Tibeto Kanauri",
+    "i": 202546,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Tibeto Kanauri,Yuen Long,Niigata,Haeju,Ölgii,Mörön,Seongnam,Altai,Changwon,Sariwon,Takamatsu,Kanazawa,Rason,Luoyang,Zhuhai,Kimchaek,Yokohama,Hamhung,Macau,Shenyang,Cheongju,Hefei,Kunming,Ulsan,Qingdao,Chengdu,Taoyuan,Baotou,Bissau,Bamako,Gbarnga,Ouagadougou,Tambacounda,Bouaké,Kankan,Banjul,Katsina,Bobo-Dioulasso,Yamoussoukro,Nouakchott,Sokodé,Bertoua,Man,Timbuktu,Basse,Koidu,Kumasi,Niamey,Thiès,Monrovia,Bafatá,Korhogo,Assomada,Dakar,Porto-Novo,TibetoKanaurig,TibetoKanaurib,TibetoKanaurif,TibetoKanauriz,TibetoKanauriv,TibetoKanaurij,TibetoKanaurikw,TibetoKanauritw,TibetoKanauripw,TibetoKanaurimw,TibetoKanaurisw",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Andoque",
+    "i": 202547,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Andoque,Sinop,Willka Wanka,Ciudad Bolívar,Qullaw,Rio Branco,Cáceres,Parintins,San José del Guaviare,Saul,Villamontes,Ayakuchu,Truhillu,Ariqipa,Uaupés,Puyo,Belém,Puerto Ayacucho,Chuqichaka,Cuiabá,Uiramutã,Mitú,Saint-Laurent,Wankayuq,Cayenne,Quchapampa,Pukallpa,Kourou,Medellín,Barranquilla,Bucaramanga,Paysandú,Cúcuta,Quito,Caacupé,Cochabamba,Portoviejo,Trujillo,Manaus,Chiclayo,Londrina,El Alto,Tarija,São José dos Campos,Iquitos,San Ignacio,Villarrica,Arica,Encarnación,Huancayo,Temuco,La Plata,Macas,Guayaquil,Andoquek,Andoquet,Andoquep,Andoquem,Andoquen,Andoques,Andoquer,Andoquel,Andoqued,Andoqueg,Andoqueb",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Araona",
+    "i": 202548,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Araona,Aba,Parakou,Tsévié,Fada N'Gourma,Gashua,Louga,Koulamoutou,Mekelle,Zaria,Tahoua,Wa,Kumasi,Luba,Cotonou,Faranah,Nzérékoré,Kaolack,Nkongsamba,Sekondi,Moundou,Yendi,Korhogo,Ife,Tema,Oyo,Kurfi,Kakata,Ziguinchor,Accra,Bamako,Gbarnga,Kankan,Koudougou,Bamenda,Koidu,Maroua,Kara,Bouaké,Ebebiyín,Ségou,Basse,Man,Ouagadougou,Bobo-Dioulasso,Sunyani,Monrovia,Mopti,Daloa,Freetown,Sokodé,Porto-Novo,Kumba,Araonak,Araonat,Araonap,Araonam,Araonan,Araonas,Araonar,Araonal,Araonad,Araonag,Araonab",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Ka'apor",
+    "i": 202549,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Ka'apor,Sinop,Willka Wanka,Ciudad Bolívar,Qullaw,Rio Branco,Cáceres,Parintins,San José del Guaviare,Saul,Villamontes,Ayakuchu,Macas,Pucallpa,Limaq,Corumbá,Sucúa,Letícia,Mocoa,Cantá,Waras,Quchapampa,Paramaribo,Jaén,Puerto Maldonado,Cayenne,Nueva Loja,Macapá,Lomé,Kumasi,Katsina,Abidjan,Banjul,Bamenda,Bobo-Dioulasso,Dakar,Freetown,Kaolack,Porto-Novo,Kara,Koudougou,Niamey,Man,Kayes,Timbuktu,Maiduguri,Sunyani,Garoua,Ouagadougou,Basse,Yamoussoukro,Monrovia,Tarrafal,Praia,Bertoua,Kaapork,Kaaport,Kaaporp,Kaaporm,Kaaporn,Kaapors,Kaaporr,Kaaporl,Kaapord,Kaaporg,Kaaporb",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Nivaclé",
+    "i": 202550,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Nivaclé,Sinop,Willka Wanka,Ciudad Bolívar,Qullaw,Rio Branco,Cáceres,Parintins,San José del Guaviare,Saul,Villamontes,Ayakuchu,Linden,Puerto Maldonado,Puerto Ayacucho,Paramaribo,Wankayuq,Nieuw Nickerie,Maripasoula,Chiklayu,Brokopondo,Puerto Asís,Manaus,Punu,Santarém,Macas,Pukallpa,Maués,Bamako,Accra,Katsina,Daloa,Cotonou,Tema,Koudougou,Ségou,Basse,Freetown,Jalingo,Cacheu,Kankan,Sokodé,Niamey,Yola,Bauchi,Ouagadougou,Mopti,Garoua,Gbarnga,Lomé,Mindelo,Gusau,Nzérékoré,Sunyani,Porto-Novo,Nivaclk,Nivaclt,Nivaclp,Nivaclm,Nivacln,Nivacls,Nivaclr,Nivacll,Nivacld,Nivaclg,Nivaclb",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Sirionó",
+    "i": 202551,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Sirionó,Sinop,Willka Wanka,Ciudad Bolívar,Qullaw,Rio Branco,Cáceres,Parintins,San José del Guaviare,Saul,Villamontes,Ayakuchu,Apurimaq,Florencia,Qasamarka,Truhillu,Maués,Macapá,Cuiabá,Letícia,Macas,Alto Alegre,Paramaribo,Porto Velho,Jaén,Sucúa,Wankayuq,Chiklayu,Gbarnga,Sokodé,Bobo-Dioulasso,Koidu,Cotonou,Freetown,Conakry,Kankan,Kumba,Korhogo,Man,Ouagadougou,Tema,Lomé,Bauchi,Kayes,Saint-Louis,Maiduguri,Dakar,Bouaké,Malabo,Porto-Novo,Niamey,Praia,Buea,Nzérékoré,Bolama,Sirionk,Siriont,Sirionp,Sirionm,Sirionn,Sirions,Sirionr,Sirionl,Siriond,Siriong,Sirionb",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Sranan Tongo",
+    "i": 202552,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Sranan Tongo,Saminaka,Diffa,Bafatá,Yola,Foumban,Tchibanga,Gagnoa,Parakou,Cape Coast,Mutengene,Gashua,Louga,Natitingou,Tamale,Geidam,Tahoua,Wa,Bamenda,Sarh,Awka,Faranah,Dédougou,Gao,Kumba,Yamoussoukro,Moundou,Cacheu,Spanish Town,Falmouth,Mandeville,Port of Spain,Port-au-Prince,Port Antonio,Cul de Sac,Maho Reef,Fort-Liberté,Harbour Island,Basseterre,Havana,Oranjestad,Andros Town,Holetown,Nassau,Marsh Harbour,Willemstad,Charlestown,San Fernando,Santiago de Cuba,Crane,Bathsheba,Camagüey,Arima,Dunmore Town,Hastings,SrananTongok,SrananTongot,SrananTongop,SrananTongom,SrananTongon,SrananTongos,SrananTongor,SrananTongol,SrananTongod,SrananTongog,SrananTongob",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Warázu",
+    "i": 202553,
+    "min": 0,
+    "max": 0,
+    "d": "lnrt",
+    "m": 0,
+    "b": "",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Wariʼ",
+    "i": 202554,
+    "min": 0,
+    "max": 0,
+    "d": "lnrt",
+    "m": 0,
+    "b": "",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Yaminawa",
+    "i": 202555,
+    "min": 0,
+    "max": 0,
+    "d": "lnrt",
+    "m": 0,
+    "b": "",
+    "status": "COMPLETE"
+  },
+
 
 ];

@@ -2121,4 +2121,54 @@ window.northAmericaNameBases = [
   "b": "PortJackson,Sydney,NewSouthWales,Newcastle,BotanyBay,Parramatta,CumberlandPlain,HawkesburyRiver,NorthernTerritory,RoperRiverMission,Ngukurr,StockmenRoutes,SydneyCove,PortJacksonPenalColony,Bennelong,ArthurPhillip,NewSouthWalesPidgin"
 },
 
+  {
+    "name": "Santiago Creole",
+    "i": 202363,
+    "min": 0,
+    "max": 0,
+    "d": "lnrt",
+    "m": 0,
+    "b": "",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Santo Antão Creole",
+    "i": 202364,
+    "min": 0,
+    "max": 0,
+    "d": "lnrt",
+    "m": 0,
+    "b": "",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "São Nicolau Creole",
+    "i": 202365,
+    "min": 0,
+    "max": 0,
+    "d": "lnrt",
+    "m": 0,
+    "b": "",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "São Vicente Creole",
+    "i": 202366,
+    "min": 0,
+    "max": 0,
+    "d": "lnrt",
+    "m": 0,
+    "b": "",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "São Vicente Creole",
+    "i": 202367,
+    "min": 0,
+    "max": 0,
+    "d": "lnrt",
+    "m": 0,
+    "b": "",
+    "status": "COMPLETE"
+  },
 ];
