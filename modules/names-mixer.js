@@ -1292,12 +1292,137 @@
     return many[0];
   }
 
+  // ISO 639-1 / 639-3 -> mixer map entry alias resolution.
+  // Many common languages use their full English name (e.g. "english", "korean") in the
+  // mixer map, but the rest of the app passes 2-letter (ISO 639-1) or 3-letter (ISO 639-3)
+  // codes. This map bridges the two by translating any common ISO code to the corresponding
+  // mixer map key.  When a map key is not known at this stage the lookup falls through
+  // to a substring/prefix search in the loaded mixer map.
+  const ISO_TO_MAP_KEY = {
+    // ISO 639-1 (2-letter) -> mixer map key
+    "en": "english", "fr": "standard-french", "es": "spanish", "de": "standard-german",
+    "it": "standard-italian", "pt": "european-portuguese", "nl": "dutch", "ru": "russian",
+    "ja": "japanese-dialects", "ko": "korean", "zh": "beijing-mandarin", "ar": "standard-arabic",
+    "hi": "hindustani", "bn": "bengali", "pa": "punjabi", "tr": "turkish", "vi": "vietnamese",
+    "th": "thai", "fa": "persian", "ur": "urdu", "id": "indonesian", "ms": "alor-malay",
+    "sw": "settler-swahili", "tl": "tagalog", "el": "greek", "he": "hebrew", "uk": "ukrainian",
+    "pl": "polish", "cs": "czech", "sk": "slovak", "hu": "old-hungarian", "fi": "standard-finnish",
+    "sv": "swedish", "no": "norwegian", "da": "danish", "is": "icelandic", "ga": "irish",
+    "cy": "welsh", "eu": "basque-icelandic-pidgin", "ca": "central-catalan", "ro": "romanian", "bg": "bulgarian",
+    "hr": "croatian", "sr": "serbian", "sl": "slovenian", "et": "estonian", "lv": "latvian",
+    "lt": "lithuanian", "sq": "albanian", "mk": "macedonian", "bs": "bosnian",
+    "mt": "maltese", "af": "afrikaans", "am": "amharic", "yo": "yoruba", "ig": "igbo",
+    "ha": "hausa", "so": "somali", "mg": "malagasy", "xh": "xhosa", "zu": "zulu",
+    "st": "southern-sotho", "tn": "tswana", "ve": "venda", "ts": "tsonga", "ss": "swati",
+    "nr": "southern-ndebele", "nd": "northern-ndebele", "lo": "lao", "km": "khmer", "my": "burmese",
+    "mn": "mongolian", "uz": "uzbek", "kk": "kazakh", "ky": "kyrgyz", "tk": "turkmen",
+    "tg": "tajik", "az": "azerbaijani", "ka": "georgian", "hy": "armenian", "ne": "nepali",
+    "si": "sinhala", "mi": "maori", "haw": "hawaiian", "sm": "samoan", "to": "tongan",
+    "fj": "fijian", "qu": "quechua", "ay": "aymara", "gn": "guarani", "nah": "nahuatl",
+    "chr": "cherokee", "nv": "navajo", "iu": "inuktitut", "kl": "kalaallisut", "fo": "faroese",
+    "ik": "inupiaq", "oj": "ojibwe", "cr": "cree", "dak": "dakota", "gla": "scots-gaelic",
+    "br": "breton", "co": "corsican", "rm": "romansh", "fur": "friulian", "lad": "ladino",
+    "sc": "sardinian", "ast": "asturian", "an": "aragonese", "lmo": "lombard", "pms": "piemontese",
+    "vec": "venetian", "lld": "ladin", "scn": "sicilian", "nap": "neapolitan", "mwl": "mirandese",
+    "ext": "extremaduran", "wae": "walser", "gsw": "swiss-german", "nds": "low-german",
+    "ksh": "colognian", "gu": "gujarati", "mr": "marathi", "te": "telugu", "ta": "tamil",
+    "kn": "kannada", "ml": "malayalam", "or": "oriya", "as": "assamese", "bo": "tibetan",
+    "dz": "dzongkha", "jv": "javanese", "su": "sundanese", "ceb": "cebuano", "ilo": "ilocano",
+    "war": "waray", "pam": "pampangan", "bcl": "bikol", "pag": "pangasinan", "mad": "madurese",
+    "ace": "acehnese", "bjn": "banjar", "mak": "makassarese", "bug": "buginese", "min": "minangkabau",
+    "lg": "ganda", "ln": "lingala", "kg": "kongo", "lua": "luba-kasai", "kin": "kinyarwanda",
+    "rn": "kirundi", "rw": "kinyarwanda", "ks": "kashmiri", "doi": "dogri", "brx": "bodo",
+    "mni": "manipuri", "sat": "santali", "kha": "khasi", "kok": "konkani", "sa": "sanskrit",
+    "bho": "bhojpuri", "mag": "magahi", "mai": "maithili", "awa": "awadhi", "rom": "romani",
+    "rmy": "vlax-romani", "rmn": "balkan-romani", "kbd": "kabardian", "ady": "adyghe",
+    "ava": "avar", "che": "chechen", "inh": "ingush", "os": "ossetian", "ab": "abkhazian",
+    "ce": "chechen", "inh": "ingush", "os": "ossetian", "av": "avar", "kbd": "kabardian",
+    "ady": "adyghe", "abk": "abkhazian", "lbe": "lak", "lez": "lezgian", "tab": "tabassaran",
+    "rut": "rutul", "sah": "yakut", "alt": "altai", "tyv": "tuvinian", "kha": "khakas",
+    "chg": "shughni", "krc": "karachay-balkar", "kum": "kumyk", "nog": "nogai",
+    "ba": "bashkir", "tt": "tatar", "crh": "crimean-tatar",
+    "din": "dinka", "kal": "kalaallisut", "fao": "faroese", "fas": "persian", "tha": "thai",
+    "tgl": "tagalog", "mri": "maori", "mya": "burmese", "mon": "mongolian", "hin": "hindustani",
+    "uzn": "uzbek", "swh": "swahili", "msa": "malay", "ind": "indonesian", "zul": "zulu",
+    "swe": "swedish", "nor": "norwegian", "ces": "czech", "eng": "english", "fra": "french",
+    "deu": "german", "ita": "italian", "por": "portuguese", "rus": "russian", "jpn": "japanese",
+    "kor": "korean", "cmn": "beijing-mandarin", "ara": "arabic", "ben": "bengali", "tur": "turkish",
+    "vie": "vietnamese", "fas": "persian", "urd": "urdu", "ell": "greek", "heb": "hebrew",
+    "ukr": "ukrainian", "pol": "polish", "hun": "hungarian", "fin": "finnish", "isl": "icelandic",
+    "eus": "basque", "cat": "catalan", "ron": "romanian", "slv": "slovenian", "bos": "bosnian",
+    "mlt": "maltese", "afr": "afrikaans", "amh": "amharic", "ibo": "igbo", "hau": "hausa",
+    "som": "somali", "mlg": "malagasy", "xho": "xhosa", "sot": "sesotho", "tsn": "setswana",
+    "tso": "tsonga", "ssw": "swati", "nde": "ndebele-south", "ndo": "ndebele-north",
+    "nya": "chichewa", "loz": "lozi", "kaz": "kazakh", "kir": "kyrgyz", "tuk": "turkmen",
+    "tgk": "tajik", "aze": "azerbaijani", "kat": "georgian", "hye": "armenian", "asm": "assamese",
+    "mri": "maori", "haw": "hawaiian", "smo": "samoan", "ton": "tongan", "fij": "fijian",
+    "que": "quechua", "aym": "aymara", "grn": "guarani", "arn": "mapudungun", "nah": "nahuatl",
+    "chr": "cherokee", "nav": "navajo", "iku": "inuktitut", "ipk": "inupiaq", "oji": "ojibwe",
+    "cre": "cree", "dak": "dakota", "gla": "scots-gaelic", "bre": "breton", "cor": "corsican",
+    "roh": "romansh", "srd": "sardinian", "ast": "asturian", "arg": "aragonese", "ext": "extremaduran",
+    "lmo": "lombard", "pms": "piemontese", "vec": "venetian", "lld": "ladin", "scn": "sicilian",
+    "nap": "neapolitan", "pdt": "plautdietsch", "wae": "walser", "gsw": "swiss-german", "nds": "low-german",
+    "guj": "gujarati", "mar": "marathi", "tel": "telugu", "kan": "kannada", "mal": "malayalam",
+    "ori": "oriya", "bod": "tibetan", "dzo": "dzongkha", "sin": "sinhala", "div": "dhivehi",
+    "ceb": "cebuano", "min": "minangkabau", "ace": "acehnese", "bjn": "banjar", "war": "waray",
+    "pam": "pampangan", "pag": "pangasinan", "bik": "bikol", "mad": "madurese", "mui": "musi",
+    "rej": "rejang", "kaw": "kawi",
+    // ISO 639-3 (3-letter) -> mixer map key
+    "eng": "english", "fra": "standard-french", "spa": "spanish", "deu": "standard-german",
+    "ita": "standard-italian", "por": "european-portuguese", "rus": "russian",
+    "jpn": "japanese-dialects", "kor": "korean-bamboo-english", "cmn": "beijing-mandarin", "ara": "arabic-javanese-of-klego",
+    "hin": "hindustani", "ben": "bengali", "pan": "punjabi", "tur": "turkish", "vie": "vie",
+    "tha": "thai", "fas": "persian", "urd": "urdu", "ind": "indonesian", "msa": "alor-malay",
+    "swh": "settler-swahili", "tgl": "tagalog", "ell": "greek", "heb": "hebrew", "ukr": "ukrainian",
+    "pol": "polish", "ces": "czech", "slk": "slovak", "hun": "old-hungarian", "fin": "standard-finnish",
+    "swe": "swedish", "nor": "norwegian", "dan": "danish", "isl": "icelandic", "gle": "irish",
+    "cym": "welsh", "eus": "basque-icelandic-pidgin", "cat": "central-catalan", "ron": "romanian", "bul": "bulgarian",
+    "hrv": "croatian", "srp": "serbian", "slv": "slovenian", "est": "estonian", "lav": "latvian",
+    "lit": "lithuanian", "sqi": "albanian", "mkd": "macedonian", "bos": "bosnian",
+    "mlt": "maltese", "afr": "afrikaans", "amh": "amharic", "yor": "yoruba", "ibo": "igbo",
+    "hau": "hausa", "som": "somali", "mlg": "malagasy", "xho": "xhosa", "zul": "zulu",
+    "sot": "southern-sotho", "tsn": "tswana", "ven": "venda", "tso": "tsonga", "ssw": "swati",
+    "nde": "southern-ndebele", "ndo": "northern-ndebele", "loz": "lozi", "nya": "chichewa",
+    "lao": "lao", "khm": "khm", "mya": "burmese", "mon": "mongolian", "uzb": "uzbek",
+    "kaz": "kazakh", "kir": "kyrgyz", "tuk": "turkmen", "tgk": "tajik", "aze": "azerbaijani",
+    "kat": "georgian", "hye": "armenian", "asm": "assamese", "mri": "maori", "haw": "hawaiian",
+    "smo": "samoan", "ton": "tongan", "fij": "fijian", "que": "que", "aym": "aymara",
+    "grn": "guarani", "arn": "mapudungun", "nah": "nahuatl", "chr": "cherokee", "nav": "navajo",
+    "iku": "inuktitut", "kal": "kalaallisut", "fao": "faroese", "ipk": "inupiaq", "oji": "ojibwe",
+    "cre": "plains-cree", "dak": "dakota", "gla": "scots-gaelic", "bre": "breton", "cor": "corsican",
+    "roh": "romansh", "fur": "friulian", "lad": "ladino", "srd": "sardinian", "ast": "asturian",
+    "arg": "aragonese", "ext": "extremaduran", "mwl": "mirandese", "lmo": "lombard", "pms": "piemontese",
+    "vec": "venetian", "lld": "ladin", "scn": "sicilian", "nap": "neapolitan", "pdt": "plautdietsch",
+    "wae": "walser", "gsw": "swiss-german", "nds": "low-german", "ksh": "colognian",
+    "guj": "gujarati", "mar": "marathi", "tel": "telugu", "tam": "tamil", "kan": "kannada",
+    "mal": "malayalam", "ori": "oriya", "bod": "tibetan", "dzo": "dzongkha", "sin": "sinhala",
+    "div": "dhivehi", "nep": "nepali", "khm": "khm", "lao": "lao", "vie": "vie",
+    "msa": "alor-malay", "ind": "indonesian", "tgl": "tagalog", "jav": "javanese", "sun": "sundanese",
+    "ceb": "cebuano", "min": "minangkabau", "ace": "acehnese", "bjn": "banjar",
+    "mak": "makassarese", "bug": "buginese", "bcl": "bikol", "war": "waray",
+    "ilo": "ilocano", "pam": "pampangan", "pag": "pangasinan", "bik": "bikol",
+    "mad": "madurese", "mui": "musi", "rej": "rejang", "kaw": "kawi", "din": "dinka",
+    "mri": "maori", "haw": "hawaiian", "smo": "samoan", "ton": "tongan", "fij": "fijian",
+    "que": "que", "aym": "aymara", "grn": "guarani", "arn": "mapudungun", "nah": "nahuatl",
+    "chr": "cherokee", "nav": "navajo", "iku": "inuktitut", "ipk": "inupiaq", "oji": "ojibwe",
+    "cre": "plains-cree", "dak": "dakota", "gla": "scots-gaelic", "bre": "breton", "cor": "corsican",
+    "roh": "romansh", "srd": "sardinian", "ast": "asturian", "arg": "aragonese", "ext": "extremaduran",
+    "lmo": "lombard", "pms": "piemontese", "vec": "venetian", "lld": "ladin", "scn": "sicilian",
+    "nap": "neapolitan", "pdt": "plautdietsch", "wae": "walser", "gsw": "swiss-german", "nds": "low-german",
+    "guj": "gujarati", "mar": "marathi", "tel": "telugu", "kan": "kannada", "mal": "malayalam",
+    "ori": "oriya", "bod": "tibetan", "dzo": "dzongkha", "sin": "sinhala", "div": "dhivehi",
+    "ceb": "cebuano", "min": "minangkabau", "ace": "acehnese", "bjn": "banjar", "war": "waray",
+    "pam": "pampangan", "pag": "pangasinan", "bik": "bikol", "mad": "madurese", "mui": "musi",
+    "rej": "rejang", "kaw": "kawi",
+  };
+
   function getMixedByIso(isoWeights, options) {
     const map = loadLanguageMixerMapSync();
 
     const baseIndices = [];
     const weights = [];
     const skipped = [];
+    const resolved = [];
 
     if (!isoWeights || typeof isoWeights !== "object") {
       ERROR && console.error("Names.getMixedByIso: isoWeights should be an object like { iso: weight }");
@@ -1306,21 +1431,42 @@
 
     const entries = Object.entries(isoWeights);
     for (const [iso, weight] of entries) {
-      const entry = map.find(e => e.iso === iso);
+      const mapKey = resolveIsoToMapKey(iso, map);
+      const entry = mapKey ? map.find(e => e.iso === mapKey) : null;
       if (!entry || !Array.isArray(entry.bases) || !entry.bases.length) {
         skipped.push(iso);
         continue;
       }
 
-      entry.bases.forEach(b => {
+      // Skip entries whose base indices are clearly "cover language" placeholders.
+      // A real namebase entry has a real name and a real b: field. Cover language
+      // placeholders have empty b: fields and were created as token entries to
+      // cover ISO 639-3 macro-language requirements - they can't actually generate
+      // any name. We detect them by checking for the empty-name fallback pattern
+      // (no b: field at all, or b: field is empty string).
+      const validBases = entry.bases.filter(b => {
+        if (b >= 200000) return false;  // 200000+ range is reserved for cover terms
+        if (b < 0 || isNaN(b)) return false;
+        const e = nameBases && nameBases[b];
+        if (!e) return false;
+        if (typeof e.b !== "string" || e.b.length === 0) return false;
+        return true;
+      });
+      if (!validBases.length) {
+        skipped.push(iso);
+        continue;
+      }
+
+      validBases.forEach(b => {
         baseIndices.push(b);
         weights.push(weight);
       });
+      resolved.push(iso + " -> " + mapKey);
     }
 
     if (!baseIndices.length) {
       if (skipped.length) {
-        tip("No local bases mapped for selected languages: " + skipped.join(", "), false, "warn");
+        tip("No local bases mapped for selected languages: " + skipped.join(", ") + (resolved.length ? " (tried: " + resolved.join(", ") + ")" : ""), false, "warn");
       }
       ERROR && console.error("Names.getMixedByIso: no mapped bases for provided ISO codes");
       return [];
@@ -1328,6 +1474,57 @@
 
     const opts = Object.assign({}, options, { weights });
     return getMixedBaseMany(baseIndices, opts);
+  }
+
+  // Resolve any common ISO 639-1 / 639-3 code to the mixer map's `iso` key for that language.
+  // Strategy:
+  //   1. Try the explicit alias table (most common codes).
+  //   2. Fall back to a substring/prefix search inside the loaded mixer map (covers
+  //      rare names and the 'cover' aliases that the previous code-as-key system
+  //      could never have looked up).
+  function resolveIsoToMapKey(iso, map) {
+    if (!iso || typeof iso !== "string") return null;
+    const norm = iso.toLowerCase().trim();
+    if (!norm) return null;
+    if (ISO_TO_MAP_KEY[norm]) return ISO_TO_MAP_KEY[norm];
+    if (!map || !Array.isArray(map)) return null;
+
+    // Helper: do a substring/prefix match.
+    // We prefer "language-is-dash-prefix-of-key" matches (e.g. "japanese" -> "japanese-dialects")
+    // to generic "key-contains-iso" matches (e.g. "nor" -> "north-bauchi").
+    function tryMatch(predicate) {
+      let first = null;
+      for (const entry of map) {
+        if (!entry || typeof entry.iso !== "string") continue;
+        const key = entry.iso.toLowerCase();
+        if (predicate(key)) {
+          if (first === null) first = entry.iso;
+          // Prefer the key that is shorter (closer to the ISO) on later iterations
+          if (entry.iso.length < first.length) first = entry.iso;
+        }
+      }
+      return first;
+    }
+
+    // 1. Exact match (case-insensitive)
+    if (tryMatch(k => k === norm)) return norm;
+
+    // 2. ISO is the entire key except for a suffix (e.g. "japanese" -> "japanese-dialects")
+    if (tryMatch(k => k.startsWith(norm + "-") || k.startsWith(norm + "_"))) {
+      return tryMatch(k => k.startsWith(norm + "-") || k.startsWith(norm + "_"));
+    }
+
+    // 3. The ISO code appears as a prefix or suffix separated by a dash.
+    if (tryMatch(k => k.startsWith(norm) || k.endsWith(norm))) {
+      return tryMatch(k => k.startsWith(norm) || k.endsWith(norm));
+    }
+
+    // 4. Generic substring match (lowest priority).
+    if (tryMatch(k => k.includes(norm) || norm.includes(k))) {
+      return tryMatch(k => k.includes(norm) || norm.includes(k));
+    }
+
+    return null;
   }
 
   window.Names.getMixedBase = getMixedBase;

@@ -12560,4 +12560,15 @@ window.asiaNameBases = [
     "b": "Sranan Tongo,Saminaka,Diffa,Bafatá,Yola,Foumban,Tchibanga,Gagnoa,Parakou,Cape Coast,Mutengene,Gashua,Louga,Natitingou,Tamale,Geidam,Tahoua,Wa,Bamenda,Sarh,Awka,Faranah,Dédougou,Gao,Kumba,Yamoussoukro,Moundou,Cacheu,Spanish Town,Falmouth,Mandeville,Port of Spain,Port-au-Prince,Port Antonio,Cul de Sac,Maho Reef,Fort-Liberté,Harbour Island,Basseterre,Havana,Oranjestad,Andros Town,Holetown,Nassau,Marsh Harbour,Willemstad,Charlestown,San Fernando,Santiago de Cuba,Crane,Bathsheba,Camagüey,Arima,Dunmore Town,Hastings,SrananTongok,SrananTongot,SrananTongop,SrananTongom,SrananTongon,SrananTongos,SrananTongor,SrananTongol,SrananTongod,SrananTongog,SrananTongob",
     "status": "COMPLETE"
   },
+  {
+    "name": "Tagalog",
+    "i": 1500,
+    "min": 3,
+    "max": 14,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Manila,Quezon City,Makati,Pasig,Taguig,Caloocan,Marikina,Mandaluyong,Pasay,Paranaque,Las Pinas,Muntinlupa,San Juan,Antipolo,Cavite,Bacoor,Imus,Dasmarinas,GenSan,Davao,Cebu,Iloilo,Bacolod,Tagaytay,Subic,Clark,Pampanga,Bulacan,Tarlac,Nueva Ecija,Zambales,La Union,Pangasinan,Laguna,Batangas,Rizal,Quezon,Albay,Camarines",
+    "status": "COMPLETE"
+  },
+
 ];
