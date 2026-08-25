@@ -1330,7 +1330,7 @@
     return getMixedBaseMany(baseIndices, opts);
   }
 
-  Names.getMixedBase = getMixedBase;
-  Names.getMixedBaseMany = getMixedBaseMany;
-  Names.getMixedByIso = getMixedByIso;
+  window.Names.getMixedBase = getMixedBase;
+  window.Names.getMixedBaseMany = getMixedBaseMany;
+  window.Names.getMixedByIso = getMixedByIso;
 })();
