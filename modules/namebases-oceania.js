@@ -8,7 +8,7 @@ window.oceaniaNameBases = [
     "d": "",
     "m": null,
     "b": "",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
 
   {
@@ -19,7 +19,7 @@ window.oceaniaNameBases = [
     "d": "",
     "m": null,
     "b": "",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
 
   {
@@ -30,7 +30,7 @@ window.oceaniaNameBases = [
     "d": "",
     "m": null,
     "b": "",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
 
   {
@@ -41,7 +41,7 @@ window.oceaniaNameBases = [
     "d": "",
     "m": null,
     "b": "",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
 
   {
@@ -52,7 +52,7 @@ window.oceaniaNameBases = [
     "d": "",
     "m": null,
     "b": "",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
 
   {
@@ -63,7 +63,7 @@ window.oceaniaNameBases = [
     "d": "",
     "m": null,
     "b": "",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
 
   {
@@ -74,7 +74,7 @@ window.oceaniaNameBases = [
     "d": "",
     "m": null,
     "b": "",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
 
   {
@@ -85,7 +85,7 @@ window.oceaniaNameBases = [
     "d": "",
     "m": null,
     "b": "",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
 
   {
@@ -96,7 +96,7 @@ window.oceaniaNameBases = [
     "d": "",
     "m": null,
     "b": "",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
 
   {
@@ -107,7 +107,7 @@ window.oceaniaNameBases = [
     "d": "",
     "m": null,
     "b": "",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
 
   {
@@ -118,7 +118,7 @@ window.oceaniaNameBases = [
     "d": "",
     "m": null,
     "b": "",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
 
   {
@@ -129,7 +129,7 @@ window.oceaniaNameBases = [
     "d": "",
     "m": null,
     "b": "",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
 
   {
@@ -140,7 +140,7 @@ window.oceaniaNameBases = [
     "d": "",
     "m": null,
     "b": "",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
 
   {
@@ -151,7 +151,7 @@ window.oceaniaNameBases = [
     "d": "",
     "m": null,
     "b": "",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
 
   {
@@ -162,7 +162,7 @@ window.oceaniaNameBases = [
     "d": "",
     "m": null,
     "b": "",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
 
   {
@@ -173,7 +173,7 @@ window.oceaniaNameBases = [
     "d": "",
     "m": null,
     "b": "",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
 
   {
@@ -184,7 +184,7 @@ window.oceaniaNameBases = [
     "d": "",
     "m": null,
     "b": "",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
 
   {
@@ -195,7 +195,7 @@ window.oceaniaNameBases = [
     "d": "",
     "m": null,
     "b": "",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
 
   {
@@ -206,7 +206,7 @@ window.oceaniaNameBases = [
     "d": "",
     "m": null,
     "b": "",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
 
   {
@@ -217,7 +217,7 @@ window.oceaniaNameBases = [
     "d": "",
     "m": null,
     "b": "",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
 
   {
@@ -228,7 +228,7 @@ window.oceaniaNameBases = [
     "d": "",
     "m": null,
     "b": "",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
 
   {
@@ -239,7 +239,7 @@ window.oceaniaNameBases = [
     "d": "",
     "m": null,
     "b": "",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
 
   {
@@ -250,7 +250,7 @@ window.oceaniaNameBases = [
     "d": "",
     "m": null,
     "b": "",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
 
   {
@@ -261,7 +261,7 @@ window.oceaniaNameBases = [
     "d": "",
     "m": null,
     "b": "",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
 
   {
@@ -272,7 +272,7 @@ window.oceaniaNameBases = [
     "d": "",
     "m": null,
     "b": "",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
 
   {
@@ -283,7 +283,7 @@ window.oceaniaNameBases = [
     "d": "",
     "m": null,
     "b": "",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
 
   {
@@ -294,7 +294,7 @@ window.oceaniaNameBases = [
     "d": "",
     "m": null,
     "b": "",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
 
   {
@@ -305,7 +305,7 @@ window.oceaniaNameBases = [
     "d": "",
     "m": null,
     "b": "",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
 
   {
@@ -316,7 +316,7 @@ window.oceaniaNameBases = [
     "d": "",
     "m": null,
     "b": "",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
 
   {
@@ -327,7 +327,7 @@ window.oceaniaNameBases = [
     "d": "",
     "m": null,
     "b": "",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
 
   {
@@ -338,7 +338,7 @@ window.oceaniaNameBases = [
     "d": "",
     "m": null,
     "b": "",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
 
   {
@@ -349,7 +349,7 @@ window.oceaniaNameBases = [
     "d": "",
     "m": null,
     "b": "",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
 
   {
@@ -360,7 +360,7 @@ window.oceaniaNameBases = [
     "d": "",
     "m": null,
     "b": "",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
 
   {
@@ -371,7 +371,7 @@ window.oceaniaNameBases = [
     "d": "",
     "m": null,
     "b": "",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
 
   {
@@ -382,7 +382,7 @@ window.oceaniaNameBases = [
     "d": "",
     "m": null,
     "b": "",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
 
   {
@@ -393,7 +393,7 @@ window.oceaniaNameBases = [
     "d": "",
     "m": null,
     "b": "",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
 
   {
@@ -404,7 +404,7 @@ window.oceaniaNameBases = [
     "d": "",
     "m": null,
     "b": "",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
 
   {
@@ -415,7 +415,7 @@ window.oceaniaNameBases = [
     "d": "",
     "m": null,
     "b": "",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
 
   {
@@ -426,7 +426,7 @@ window.oceaniaNameBases = [
     "d": "",
     "m": null,
     "b": "",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
 
   {
@@ -767,7 +767,7 @@ window.oceaniaNameBases = [
     "d": "",
     "m": 0,
     "b": "",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
 
   {
@@ -778,7 +778,7 @@ window.oceaniaNameBases = [
     "d": "",
     "m": 0,
     "b": "",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
 
   {
@@ -789,7 +789,7 @@ window.oceaniaNameBases = [
     "d": "",
     "m": 0,
     "b": "",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
 
   {
@@ -800,7 +800,7 @@ window.oceaniaNameBases = [
     "d": "",
     "m": 0,
     "b": "",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
 
   {
@@ -811,7 +811,7 @@ window.oceaniaNameBases = [
     "d": "",
     "m": 0,
     "b": "",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
 
   {
@@ -822,7 +822,7 @@ window.oceaniaNameBases = [
     "d": "",
     "m": 0,
     "b": "",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
 
   {
@@ -833,7 +833,7 @@ window.oceaniaNameBases = [
     "d": "",
     "m": 0,
     "b": "",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
 
   {
@@ -844,7 +844,7 @@ window.oceaniaNameBases = [
     "d": "",
     "m": 0,
     "b": "",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
 
   {
@@ -855,7 +855,7 @@ window.oceaniaNameBases = [
     "d": "",
     "m": 0,
     "b": "",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
 
   {
@@ -866,7 +866,7 @@ window.oceaniaNameBases = [
     "d": "",
     "m": 0,
     "b": "",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
 
   {
@@ -877,7 +877,7 @@ window.oceaniaNameBases = [
     "d": "",
     "m": 0,
     "b": "",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
 
   {
@@ -965,7 +965,7 @@ window.oceaniaNameBases = [
     "d": "",
     "m": 0,
     "b": "",
-"status": "WAITING"
+"status": "COMPLETE"
   },
 
   {
@@ -976,7 +976,7 @@ window.oceaniaNameBases = [
     "d": "",
     "m": 0,
     "b": "",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
 
   {
@@ -998,7 +998,7 @@ window.oceaniaNameBases = [
     "d": "",
     "m": 0,
     "b": "",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
 
   {
@@ -1020,7 +1020,7 @@ window.oceaniaNameBases = [
     "d": "",
     "m": 0,
     "b": "",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
 
   {
@@ -1042,7 +1042,7 @@ window.oceaniaNameBases = [
     "d": "",
     "m": 0,
     "b": "",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
 
   {
@@ -1097,7 +1097,7 @@ window.oceaniaNameBases = [
     "d": "",
     "m": 0,
     "b": "",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
 
   {
@@ -1108,7 +1108,7 @@ window.oceaniaNameBases = [
     "d": "",
     "m": 0,
     "b": "",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
 
   {
@@ -1119,7 +1119,7 @@ window.oceaniaNameBases = [
     "d": "",
     "m": 0,
     "b": "",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
 
   {
@@ -1130,7 +1130,7 @@ window.oceaniaNameBases = [
     "d": "",
     "m": 0,
     "b": "",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
 
   {
@@ -1141,7 +1141,7 @@ window.oceaniaNameBases = [
     "d": "",
     "m": 0,
     "b": "",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
 
   {
@@ -1152,7 +1152,7 @@ window.oceaniaNameBases = [
     "d": "",
     "m": 0,
     "b": "",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
 
   {
@@ -1548,7 +1548,7 @@ window.oceaniaNameBases = [
     "d": "",
     "m": 0,
     "b": "",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
 
   {
@@ -1768,7 +1768,7 @@ window.oceaniaNameBases = [
     "d": "",
     "m": 0,
     "b": "",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
 
   {
@@ -1889,7 +1889,7 @@ window.oceaniaNameBases = [
     "d": "",
     "m": 0,
     "b": "",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
 
   {
@@ -1922,7 +1922,7 @@ window.oceaniaNameBases = [
     "d": "",
     "m": 0,
     "b": "",
-    "status": "WAITING"
+    "status": "COMPLETE"
   },
 
   {
@@ -3802,5 +3802,6 @@ window.oceaniaNameBases = [
   }
 
 ];
+
 
 

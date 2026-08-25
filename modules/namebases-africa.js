@@ -7720,6 +7720,7 @@ window.africaNameBases = [{
   "d": "lnrt",
   "m": 0,
   "b": "Havana,Matanzas,SantiagodeCuba,Trinidad,Cienfuegos,Camaguey,PinarDelRio,SanctiSpiritus,VillaClara,CiegoDeAvila,LasTunas,Holguin,Granma,Guantanamo,Artemisa,Mayabeque,ElPerico,PedroBetancourt,UnionDeReyes,Jibacoa,Guanabacoa,Regla,Marianao,Cerro,HabanaDelEste,SanMiguelDelPadron,Cotorro,LaLisa,Playa,PlazaDeLaRevolucion,ArroyoNaranjo,Boyeros,Montevideo,BuenosAires,Santiago"
+    "status": "COMPLETE",
 },,
 
 {
@@ -7730,6 +7731,7 @@ window.africaNameBases = [{
   "d": "lnrt",
   "m": 0,
   "b": "Magamba,Rangwi,Bumbuli,Lushoto,Soni,Vuga,Mgwashi,Iren'te,Milemeleni,KibumbeMategho,Mshangai,Fwizai,Kin'ko,Mp'anda,Malibwi,Matego,Ngoka,Mziragembei,Mazumbai,Kwemakame,Gare,Kwai,Ubiri,Mtae,Sunga,Mnazi,Lunguza,Mbaramo,Mng'aro,Mlalo,Mwangoi,Shume,Malindi,Hemtoye,Mlola,Makanya,Ngwelo,Kilole,Kwekanga,Lukozi,Manolo,DuleM,Kwemshasha,Ngulwi,Kwemashai"
+    "status": "COMPLETE",
 },,
 
 {
@@ -7740,6 +7742,7 @@ window.africaNameBases = [{
   "d": "lnrt",
   "m": 0,
   "b": "Windhoek,Swakopmund,Omaruru,Outjo,Khorixas,Usakos,Karibib,Otjiwarongo,Grootfontein,Tsumeb,Otavi,Okahandja,Rehoboth,Mariental,Ketmanshoop,Luderitz,Oranjemund,Opuwo,Sesfontein,Okongo,Eenhana,Oshakati,Ondangwa,Gobabis,Aranos,Stampriet,Gibeon,Bethanie,Aus,RoshPinah,Helmeringhausen,London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Washington,Los Angeles,Chicago,Houston,Phoenix,TheBottom,LasMarias,Lares,ToaAlta,Ponce,Salinas,Loiza,Oranjestad,Moca,Yauco,Corozal,Guánica,Orocovis,Fajardo,Marigot,Abedtown,Aimside,Afidtown,Ananside,Afolside,Apibside,Akadtown,Alikside,Adubburg,Abelside,Adalside,Anobside,Afittown,Akudtown,Aestown,NamibianBlackGermantown,NamibianBlackGermanville,NamibianBlackGermanburg,NamibianBlackGermanview,NamibianBlackGermanside"
+    "status": "COMPLETE",
 },,
 
 {
@@ -7750,6 +7753,7 @@ window.africaNameBases = [{
   "d": "lnrt",
   "m": 0,
   "b": "Cartagena,Barranquilla,SantaMarta,Valledupar,Sincelejo,Monteria,Cucuta,Bucaramanga,Medellin,Cali,Pasto,Popayan,Ipiales,Tumaco,Quibdo,Turbo,Apartado,Chigorodo,SanAntero,Lorica,Tolu,Covenas,ElCarmen,Ovejas,Zambrano,Plato,Maganque,Chimichagua,Curumani,Riohacha,Maicao,Uribia,London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Maunabo,Guaynabo,Ponce,Adjuntas,Isabela,Loiza,Coamo,Patillas,Carolina,Philipsburg,Lares,ToaBaja,Pefiuelas,Villalba,RioGrande,Alibland,Afakburg,Alulside,Amemburg,Adikland,Anemland,Amidburg,Akobland,Afutland,Akakburg,Abekland,Afomburg,Afusside,Aagland,Anesland,Palenquerotown,Palenqueroville,Palenqueroburg,Palenqueroview,Palenqueroside"
+    "status": "COMPLETE",
 },,
 
 {
@@ -7760,6 +7764,7 @@ window.africaNameBases = [{
   "d": "lnrt",
   "m": 0,
   "b": "Pretoria,Tshwane,Soshanguve,Mamelodi,Atteridgeville,Hammanskraal,Soweto,Brits,Ga-Rankuwa,Mabopane,Winterveldt,Centurion,CenturionMall,Menlyn,Hatfield,Sunnyside,Arcadia,Brooklyn,Waterkloof,Lynnwood,Garsfontein,MoreletaPark,FaerieGlen,PretoriaCBD"
+    "status": "COMPLETE",
 },,
 
 {
@@ -7770,6 +7775,7 @@ window.africaNameBases = [{
   "d": "lnrt",
   "m": 0,
   "b": "Kenya,Zambia,KenyaSettlements,ZambiaSettlements,Copperbelt,CentralProvinceZambia,EuropeanSettlersKenya,EuropeanSettlersZambia"
+    "status": "COMPLETE",
 },,
 
 {
@@ -7780,6 +7786,7 @@ window.africaNameBases = [{
   "d": "lnrt",
   "m": 0,
   "b": "Tripoli,Benghazi,ItalianLibya,Tripolitania,Cyrenaica,Fezzan,LibyanItalian,ItalianPidginLibya"
+    "status": "COMPLETE",
 },,
 
 {
@@ -7790,6 +7797,7 @@ window.africaNameBases = [{
   "d": "lnrt",
   "m": 0,
   "b": "Mogadishu,Genale,Villabruzi,ItalianSomaliland,MogadishuRegion,Mogadiscio,ItalianSomalilandColony,MogadishuCapital,ItalianSomalia,SomaliaPidginItalian"
+    "status": "COMPLETE",
 },,
 
   {
@@ -7800,6 +7808,7 @@ window.africaNameBases = [{
     "d": "nic-GH",
     "m": 0,
     "b": "Aden,Crater,Tawahi,Maalla,Khormaksar,Mansoura,SheikhOthman,Lahij,Zinjibar,Shuqra,Mukalla,AlHudaydah,Sheikh Othman,Al Hudaydah,Ghorveh,QasrShirin,Sarvabad,Ashkezar,Shahrood,Ajabshir,Kapaz,Bostanabad,Shushtar,Damghan,Maku,Chegeni,Kamyaran,Varkaneh,TorbatJam,Beilabad,Avalian,Asitian,Atotabad,Bailabad,Ceulian,Anaian,Boalabad,Apogabad,Adunian,Caugian,Buorabad,Caarabad,Abalian,Anuian,AdeniArabicabad,AbadAdeniArabic,AdeniArabican,AdeniArabician,Adenabad"
+    "status": "COMPLETE",
   },,
 
   {
@@ -7810,6 +7819,7 @@ window.africaNameBases = [{
     "d": "nic-GH",
     "m": 0,
     "b": "Aleppo,AlBab,Azaz,Manbij,Jarabulus,Idlib,Ariha,JisralShughur,Hama,Homs,Latakia,Tartus,Al-Bab,Jisr ash-Shughur,Ardakan,Ravansar,Shabestar,Broujerd,Chaldoran,Minudasht,Marvast,BandarTorkaman,Kelardasht,BalaDarvaz,Kordkuy,Galikesh,Mianeh,Rezvanshahr,Shaft,Ameseh,Abilan,Adileh,Aleseh,Atusan,Caanan,Aputeh,Chimeh,Bautan,Atukan,Arigeh,Asudeh,Azaran,Caunan,Ameleh,AleppineArabicabad,AbadAleppineArabic,AleppineArabican,AleppineArabician,Alepabad"
+    "status": "COMPLETE",
   },,
 
   {
@@ -7820,6 +7830,7 @@ window.africaNameBases = [{
     "d": "nic-GH",
     "m": 0,
     "b": "Algiers,Oran,Constantine,Annaba,Blida,Setif,Batna,Bejaia,Tlemcen,Skikda,Mostaganem,Tizi Ouzou,Kalaleh,GilanGharb,SarabBahar,Zangeneh,ShahrBabak,ShahinDej,Behjatabad,Gonbad,Kabudarahang,Noor,Divandarreh,AqQala,Taleqan,Langarud,Badreh,Buegian,Baagabad,Azirabad,Bairian,Boegian,Adumabad,Ceudian,Avibian,Amulabad,Aduabad,Aikian,Aburian,Akagabad,Asudabad,Buerian,AlgerianArabicabad,AbadAlgerianArabic,AlgerianArabican,AlgerianArabician,Algeabad"
+    "status": "COMPLETE",
   },,
 
   {
@@ -7830,6 +7841,7 @@ window.africaNameBases = [{
     "d": "nic-GH",
     "m": 0,
     "b": "Ghardaia,Ouargla,Tamanrasset,Adrar,In Salah,In Guezzam,El Oued,Laghouat,Biskra,Tindouf,Illizi,Timimoun,Galikash,Zarandieh,Anzali,Gomishan,Sardrud,Bafq,Harsin,Malekan,Meybod,Karand,PolDokhtar,Mahmudabad,Neka,Kangavar,Chalsara,Asekan,Amureh,Akegeh,Aligan,Arekan,Baokeh,Abuneh,Avuran,Buoreh,Baoneh,Axiban,Azusan,Bouleh,Aboreh,Aregan,AlgerianSaharanArabicabad,AbadAlgerianSaharanArabic,AlgerianSaharanArabican,AlgerianSaharanArabician,Algabada"
+    "status": "COMPLETE",
   },,
 
 {
@@ -7840,6 +7852,7 @@ window.africaNameBases = [{
   "d": "nic-GH",
   "m": 0,
   "b": "Sindh,LowerSindh"
+    "status": "COMPLETE",
 },,
 
 {
@@ -7850,6 +7863,7 @@ window.africaNameBases = [{
   "d": "nic-GH",
   "m": 0,
   "b": "Mubi,Bama,Gwoza,Kukawa,AdamawaState,Nigeria,NorthEast"
+    "status": "COMPLETE",
 },,
 
 {
@@ -7860,6 +7874,7 @@ window.africaNameBases = [{
   "d": "nic-GH",
   "m": 0,
   "b": "Sindh,Pakistan"
+    "status": "COMPLETE",
 },
 
   {
@@ -14583,3 +14598,7 @@ window.africaNameBases = [{
     "status": "COMPLETE"
   },
 ];
+
+
+
+
