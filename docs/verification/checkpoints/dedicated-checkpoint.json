@@ -1,6 +1,6 @@
 {
   "blockers": [],
-  "lastUpdate": "2026-08-24T11:08:00-07:00",
+  "lastUpdate": "2026-08-24T13:38:00-07:00",
   "completedEntries": 1368,
   "lastVerifiedIndex": 201367,
   "totalIssuesFixed": 11500,
@@ -12,5 +12,5 @@
   "continent": "dedicated",
   "status": "complete",
   "resumePosition": null,
-  "resumeNote": "ALL ENTRIES PROCESSED. Processed all 1368 entries in namebases-dedicated.js. Removed ~11,500 fake/placeholder names. Verified ~3,000 real place names. Marked cover terms, language families, extinct languages, and out-of-scope languages as WAITING (min=0, max=0, b=\"\"). Added verified villages for 40+ languages including: Isbukun Bunun (Taiwan), Maga-Tona/Mantauran/Budai-Labuan-Taromak Rukai (Taiwan), Weri/Bumbita Arapesh (PNG), Miya/Jibyal/Tal/Jonkor/Zumbun/Siri Chadic/Tambas/Ngwaba (Nigeria/Chad), Ese Ömie/Ontenu/Setaman/Suganga/Tairoa/Turaka/Waffa/Mountain Koiari/Namumi (PNG), Wersing/Wayan/Wolani/Wolio (Indonesia/Fiji), Yagaria/Yali/Yaqay/Yaweyuha/Yekora/Yipma/Yonggom/Zia (PNG/Indonesia), 'Are'are (Solomon Islands), Ju (Chadic), Akan/Besme (Ghana/Chad). All guardrails pass."
+  "resumeNote": "ALL ENTRIES PROCESSED. Processed all 1368 entries in namebases-dedicated.js. Removed ~11,500 fake/placeholder names. Verified ~3,000 real place names. Added verified locations for previously 'extinct' languages: Ajawa (Bauchi State), Jelkung (Sorki, Chad), Mire (Tandjilé, Chad), Mpre (Butei, Tuluwe, Ghana), Mundat (Mundat village, Plateau State), Papora/Papora-Hoanya (Dajia, Dadu, Taichung, Taiwan). All guardrails pass."
 }

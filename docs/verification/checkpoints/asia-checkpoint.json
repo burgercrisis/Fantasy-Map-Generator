@@ -1,13 +1,11 @@
 {
   "totalEntries": 1267,
-  "nextEntry": "Completed processing all 1267 entries in namebases-asia.js. Fixed 500+ WAITING entries to COMPLETE with verified place names. Remaining 128 WAITING entries are correctly categorized per protocol: proto-languages (8), extinct/historical languages (12), cover terms/families (50+), and living languages with <25 verified names (15+). All entries have been individually verified or correctly categorized.",
-  "lastUpdate": "2026-08-24T11:09:00-07:00",
+  "nextEntry": "Removed all requested entries: 12+ extinct/historical languages (Han, Middle Korean, Old Korean, Puyŏ, Pyojuneo, Silla Korean, Ye-Maek, Zhangzhung, Sogdian, Rouran, Sakhalin Ainu, Akkadian, Babylonian, etc.) and 15+ living languages with <25 verified names (Betanure Jewish Neo-Aramaic, Jarawa, Önge, Orok, Kurambhag Paharia, Paha, Thmon, Tai Long, etc.). Also removed 8 proto-languages (Proto-Hmong-Mien, Proto-Hmongic, Proto-Koreanic, Proto-Mienic, Proto Hakka, Proto Loloish, Proto Min, Proto Sino Tibetan). Remaining entries are properly categorized per protocol.",
+  "lastUpdate": "2026-08-24T13:30:00-07:00",
   "blockers": [],
   "waiting": [
-    "Proto-languages (per protocol rule 4): Proto-Hmong-Mien, Proto-Hmongic, Proto-Koreanic, Proto-Mienic, Proto Hakka, Proto Loloish, Proto Min, Proto Sino Tibetan",
-    "Extinct/historical languages (per protocol rule 4): Han, Middle Korean, Old Korean, Puyŏ, Pyojuneo, Silla Korean, Ye-Maek, Zhangzhung, Sogdian, Rouran, Sakhalin Ainu, Akkadian, Babylonian, etc.",
-    "Cover terms/families (per protocol rule 4): Katuic, Khmuic, Tibeto Burman, Sal, Chukotko-Kamchatkan, Japanese regional lects, Kam-Tai, Greater Magaric, Magaric, Mgp, Central Tibeto Burman, Japanese macro entry, Shan macro entry, Macro-Zhuang, Kam Sui, Hmong macro entry, Japanese macro entry, Shirwi, Khorchin Mongol alias, Western Khmer, Vietnamese dialect entries, South Korean, Pyojuneo, Lolo Burmese, Macro Bai, Mruic, Newaric, Jingpho Luish, Tibetic, Ryukyuan, Northern Formosan, etc.",
-    "Living languages with <25 verified names (per protocol rule 5): Betanure Jewish Neo-Aramaic (1), Jarawa (0), Önge (2), Orok (2), Kurambhag Paharia (25), Paha (2), Thmon (8), etc."
+    "Cover terms/families marked WAITING (per protocol rule 4): Katuic, Khmuic, Tibeto Burman, Sal, Chukotko-Kamchatkan, Japanese regional lects, Kam-Tai, Greater Magaric, Magaric, Mgp, Central Tibeto Burman, Japanese macro entry, Shan macro entry, Macro-Zhuang, Kam Sui, Hmong macro entry, Japanese macro entry, Shirwi, Khorchin Mongol alias, Western Khmer, Vietnamese dialect entries, South Korean, Pyojuneo, Lolo Burmese, Macro Bai, Mruic, Newaric, Jingpho Luish, Tibetic, Ryukyuan, Northern Formosan, etc.",
+    "Living languages with <25 verified names marked WAITING (per protocol rule 5): Betanure Jewish Neo-Aramaic (1), Jarawa (0), Önge (2), Orok (2), Kurambhag Paharia (25), Paha (2), Thmon (8), etc. - REMOVED per user request"
   ],
   "lastIndex": "12077",
   "status": "complete",

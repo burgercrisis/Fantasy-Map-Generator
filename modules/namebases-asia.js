@@ -1567,17 +1567,7 @@ window.asiaNameBases = [
     "d": "",
     "m": 0,
     "b": "Shiyajiao,Baini,Fangluocheng,Panzhihua",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Betanure Jewish Neo-Aramaic",
-    "i": 1236,
-    "min": 4,
-    "max": 12,
-    "d": "Betanure Jewish Neo-Aramaic (Lishana Deni) is a Northeastern Neo-Aramaic dialect historically spoken in Betanure village, Barwar region, Duhok Province, Iraq. Community migrated to Israel in 1951. Critically endangered (~36 speakers in 2008).",
-    "m": 0,
-    "b": "Betanure",
-    "status": "WAITING"
+"status": "COMPLETE"
   },
   {
     "name": "Balochi, Makrani",
@@ -4476,17 +4466,7 @@ window.asiaNameBases = [
     "d": "",
     "m": 0,
     "b": "Lanping,Gongxing,Enqi,Jinman,Tuoluo,Ega,Hexi,Lajing",
-    "status": "COMPLETE"
-  },
-{
-    "name": "Kurambhag Paharia",
-    "i": 2343,
-    "min": 4,
-    "max": 15,
-    "d": "Kurambhag Paharia (Kumarbhag Paharia / Malto) is a Northern Dravidian language spoken in Jharkhand, West Bengal, Odisha, India with ~12,000-20,000 speakers. Closely related to Sauria Paharia and Kurukh.",
-    "m": 0,
-    "b": "Godda,Sahibganj,Pakur,Rajmahal,Barhait,Borio,Boriso,Borman,Mirikpur,Mandro,Pathargama,Sundarpahari,Poraiyahat,Mehrma,Boarijore,Ranishwar,Shikaripara,Kathikund,Gopikandar,Dumka,Jamtara,Masalia,Nala,Kundahit",
-    "status": "WAITING"
+"status": "COMPLETE"
   },
   {
     "name": "Abkhaz",
@@ -6591,17 +6571,7 @@ window.asiaNameBases = [
     "b": "",
     "status": "WAITING"
   },
-  {
-    "name": "Jarawa",
-    "i": 200301,
-    "min": 4,
-    "max": 15,
-    "d": "Jarawa (Aong) is an Ongan language spoken by the Jarawa people on Middle and South Andaman Islands, India. Hunter-gatherers with ~340-380 speakers. No permanent villages.",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-  {
+{
     "name": "Jeh",
     "i": 200302,
     "min": 4,
@@ -7639,17 +7609,7 @@ window.asiaNameBases = [
     "d": "Ollari (Pottangi Ollar Gadaba) is a Central Dravidian language spoken in Odisha and Andhra Pradesh, India with ~15,000 speakers. Closely related to Kondekor.",
     "m": 0,
     "b": "Pottangi,Gugaguda,Tokkal,Pommi,Lamtaput,Kunduli,Sunki,Chandaka,Kotiya,Renga",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Önge",
-    "i": 200418,
-    "min": 4,
-    "max": 14,
-    "d": "Önge (Onge) is an Ongan language spoken by the Onge people on Little Andaman Island, India. Only ~94 speakers in two reserve camps (Dugong Creek, South Bay).",
-    "m": 0,
-    "b": "Dugong Creek,South Bay",
-    "status": "WAITING"
+"status": "COMPLETE"
   },
   {
     "name": "Ordos Mongol",
@@ -7669,27 +7629,7 @@ window.asiaNameBases = [
     "d": "Ormuri (Baraki) is an Eastern Iranian language spoken in Kaniguram, South Waziristan, Pakistan and Baraki Barak, Logar Province, Afghanistan with ~6,000 speakers. Closely related to Parachi.",
     "m": 0,
     "b": "Kaniguram,Makin,Shakai,Wana,Serwekai,Jandola,Tank,Dera Ismail Khan,Lakki Marwat,Bannu,Hangu,Kohat,Parachinar,Miranshah,Mir Ali,Razmak,Gardai,Spinkai,Sararogha,Baraki Barak",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Orok",
-    "i": 200422,
-    "min": 3,
-    "max": 17,
-    "d": "Orok (Uilta) is a Southern Tungusic language spoken on Sakhalin Island, Russia. Critically endangered with only 8-64 speakers in Val and Nogliki (Poronaysk District). Ethnic population ~300-400.",
-    "m": 0,
-    "b": "Val,Nogliki",
-    "status": "WAITING"
-  },
-  {
-    "name": "Paha",
-    "i": 200423,
-    "min": 3,
-    "max": 14,
-    "d": "Paha (Baha) is a Kra language spoken in two villages (Yangliancun in Dixu Township, Anshecun in Bada Township) in northern Guangnan County, Wenshan Prefecture, Yunnan, China with ~600 speakers. Critically endangered.",
-    "m": 0,
-    "b": "Yangliancun,Anshebun",
-    "status": "WAITING"
+"status": "COMPLETE"
   },
   {
     "name": "Pahari (Sino-Tibetan)",
@@ -8069,17 +8009,7 @@ window.asiaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Mrauk U,Minbya,Ponnagyun,Rathedaung,Buthidaung,Maungdaw,Kawthaung,Taungpyoletwe,Yebyu,Ann,Pauktaw,Myebon,Sittwe",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Rouran",
-    "i": 200462,
-    "min": 4,
-    "max": 16,
-    "d": "Rouran is an extinct Mongolic language of the Rouran Khaganate (4th-6th century CE).",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
+"status": "COMPLETE"
   },
   {
     "name": "Sa-och",
@@ -8109,17 +8039,7 @@ window.asiaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Nakhon Ratchasima,Buri Ram,Surin,Khon Kaen,Ubon Ratchathani,Maha Sarakham,Roi Et,Chaiyaphum,Loei,Nong Khai,Nakhon Phanom,Kalasin,Sisaket,Amnat Charoen,Yasothon,Udon Thani,Bueng Kan,Mukdahan,Nong Bua Lamphu,Phu Pha Man,Phu Kradueng",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Sakhalin Ainu",
-    "i": 200466,
-    "min": 4,
-    "max": 16,
-    "d": "Sakhalin Ainu is an extinct Ainu language formerly spoken on Sakhalin Island, Russia.",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
+"status": "COMPLETE"
   },
   {
     "name": "Sakhalin dialects",
@@ -8639,17 +8559,7 @@ window.asiaNameBases = [
     "d": "Tai Laing (Shan-Ni, Tai Leng) is a Southwestern Tai language spoken in Sagaing Region and Kachin State, Myanmar with ~115,000 speakers. Also known as Shan-Ni, Red Tai.",
     "m": 0,
     "b": "Homalin,Bhamo,Myitkyina,Mogaung,Mohnyin,Waingmaw,Chindwin River,Irrawaddy River,Uru River,Sagaing,Mandalay,Kachin State,Sagaing Region,Hkamti District",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Tai Long",
-    "i": 200519,
-    "min": 4,
-    "max": 16,
-    "d": "Tai Long is a Southwestern Tai language spoken in Laos (also known as Shan in Myanmar context). ISO 639-3: thi.",
-    "m": 0,
-    "b": "Vientiane,Luang Prabang,Savannakhet,Pakse,Thakhek,Phonsavan,Champasak,Lak Sao,Muang Xay,Nong Khiaw,Muang Ngoy,Vieng Xai,Vang Vieng,Muang Sing,Ton Pheung,Boten,Pakbeng,Hongsa,Muang Ngoi,Pak Lay,Paksane,Muang Phin,Ban Houei Sai,Sam Neua,Paksan,Houayxay",
-    "status": "COMPLETE"
+"status": "COMPLETE"
   },
   {
     "name": "Tai Lue",
@@ -8879,17 +8789,7 @@ window.asiaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "",
-    "status": "WAITING"
-  },
-  {
-    "name": "Thmon",
-    "i": 200543,
-    "min": 4,
-    "max": 16,
-    "d": "Thmon is a Bahnaric language of northeastern Cambodia. Spoken in Memom village, Kaoh Nheaek District, Mondulkiri Province with ~300-500 speakers. Related to Stieng, Kraol, Khaonh, Mel.",
-    "m": 0,
-    "b": "Memom,Kaoh Nheaek,Mondulkiri,Benam,Kotol,Sambour,Kratie",
-    "status": "WAITING"
+"status": "WAITING"
   },
   {
     "name": "Tichurong",
@@ -9309,19 +9209,9 @@ window.asiaNameBases = [
     "d": "Zandui (Qiandui) is a Hlai language (Qi dialect) spoken in Hainan, China with ~29,000 speakers. Part of the Kra-Dai language family.",
     "m": 0,
     "b": "Qiongzhong,Baisha,Changjiang,Dongfang,Ledong,Wuzhishan,Sanya,Lingshui,Baoting,Qionghai,Wanning,Tuncheng,Haikou,Chengmai,Danzhou,Lingao,Wenchang,Dingan,Qionghai",
-    "status": "COMPLETE"
+"status": "COMPLETE"
   },
-{
-    "name": "Zhangzhung",
-    "i": 200586,
-    "min": 4,
-    "max": 16,
-    "d": "Zhangzhung is an extinct Sino-Tibetan language formerly spoken in western Tibet (7th-10th century). Attested in bilingual texts like 'A Cavern of Treasures'. Related to West Himalayish languages.",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-{
+  {
     "name": "Sarikoli",
     "i": 200659,
     "min": 3,
@@ -9329,19 +9219,9 @@ window.asiaNameBases = [
     "d": "Sarikoli (Sariqoli/Selekur) is an Eastern Iranian Pamiri language spoken in Tashkurgan Tajik Autonomous County, Xinjiang, China with ~16,000-35,000 speakers. Also known as Tashkorghani.",
     "m": 0,
     "b": "Tashkurgan,Taxkorgan,Kashgar,Yarkand,Hotan,Aksu,Korla,Kuqa,Alar,Tumxuk,Wujiaqu,Beitun,Shihezi,Changji,Urumqi,Ili,Karamay,Altay,Tacheng,Bole,Alashankou,Horgos,Jinghe,Manas,Hutubi,Fukang,Qitai,Jimsar,Qingtongxia,Shizuishan,Wuzhong,Yinchuan,Shizuishan",
-    "status": "COMPLETE"
+"status": "COMPLETE"
   },
-{
-    "name": "Sogdian",
-    "i": 200660,
-    "min": 3,
-    "max": 12,
-    "d": "Sogdian is an extinct Eastern Middle Iranian language formerly spoken in Sogdiana (modern Uzbekistan, Tajikistan) from ~4th-11th century CE. Lingua franca of the Silk Road. Ancestor of modern Yaghnobi.",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-{
+  {
     "name": "Wakhi",
     "i": 200661,
     "min": 3,
@@ -9399,19 +9279,9 @@ window.asiaNameBases = [
     "d": "Hamgyŏng Korean is a dialect of Korean spoken in North Hamgyŏng and South Hamgyŏng Provinces, North Korea.",
     "m": 0,
     "b": "Hamhung,Chongjin,Kimchaek,Hoeryong,Musan,Onyang,Kilju,Myongchon,Puryong,Orang,Rason,Rajin,Sonbong,Sinpo,Tanchon,Hungnam,Yonggwang,Sinhung,Kowon,Changjin,Chongpyong",
-    "status": "COMPLETE"
+"status": "COMPLETE"
   },
-{
-    "name": "Han (Samhan)",
-    "i": 200667,
-    "min": 4,
-    "max": 16,
-    "d": "Han (Samhan) refers to the ancient Samhan confederacies (Mahan, Jinhan, Byeonhan) of the southern Korean Peninsula (1st-4th century CE). Extinct/Historical.",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-{
+  {
     "name": "Hm Nai",
     "i": 200668,
     "min": 4,
@@ -9549,19 +9419,9 @@ window.asiaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "",
-    "status": "WAITING"
+"status": "WAITING"
   },
-{
-    "name": "Middle Korean",
-    "i": 200682,
-    "min": 4,
-    "max": 16,
-    "d": "Middle Korean is the historical stage of the Korean language (10th-16th century), ancestor of Modern Korean. Extinct/Historical.",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-{
+  {
     "name": "Mo Piu",
     "i": 200683,
     "min": 4,
@@ -9622,16 +9482,6 @@ window.asiaNameBases = [
     "status": "COMPLETE"
   },
 {
-    "name": "Old Korean",
-    "i": 200691,
-    "min": 4,
-    "max": 16,
-    "d": "Old Korean is the ancient stage of the Korean language (1st-10th century), including Three Kingdoms and Unified Silla periods. Extinct/Historical.",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-  {
     "name": "Pa Na",
     "i": 200692,
     "min": 4,
@@ -9659,49 +9509,9 @@ window.asiaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Wangmo,Kapu,Zhemi,Balang,Shanglin,Yuanjiatong,Zunyi,Guiyang,Anshun,Kaili,Duyun,Fuquan,Libo,Rongjiang,Congjiang,Leishan,Taijiang,Huangping,Zhenyuan,Shibing,Sandu,Pingtang,Luodian,Huishui,Wengan,Xifeng,Xiuwen,Kaiyang,Qingzhen,Zhijin,Nayong,Weining,Dafang,Liupanshui,Tongren,Dushan,Pingyan",
-    "status": "COMPLETE"
+"status": "COMPLETE"
   },
   {
-    "name": "Proto-Hmong-Mien",
-    "i": 200695,
-    "min": 4,
-    "max": 16,
-    "d": "lnrt",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-  {
-    "name": "Proto-Hmongic",
-    "i": 200696,
-    "min": 4,
-    "max": 16,
-    "d": "lnrt",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-  {
-    "name": "Proto-Koreanic",
-    "i": 200697,
-    "min": 4,
-    "max": 16,
-    "d": "lnrt",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-  {
-    "name": "Proto-Mienic",
-    "i": 200698,
-    "min": 4,
-    "max": 16,
-    "d": "lnrt",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-{
     "name": "Pu–Xian Min",
     "i": 200699,
     "min": 4,
@@ -9709,29 +9519,9 @@ window.asiaNameBases = [
     "d": "Pu–Xian Min (Puxian Min) is a dialect of Min Chinese spoken in Putian and Xianyou, Fujian, China.",
     "m": 0,
     "b": "Putian,Xianyou,Fuzhou,Quanzhou,Zhangzhou,Longyan,Sanming,Nanping,Ningde,Longyan,Yongding,Shanghang,Wuping,Liancheng,Changting,Zhangping,Yongding",
-    "status": "COMPLETE"
+"status": "COMPLETE"
   },
-{
-    "name": "Puyŏ",
-    "i": 200700,
-    "min": 4,
-    "max": 11,
-    "d": "Puyŏ is the language of the ancient Puyŏ kingdom (2nd century BCE - 494 CE) in Manchuria/northern Korea. Extinct/Historical. Related to Goguryeo.",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-{
-    "name": "Pyojuneo (Standard Korean)",
-    "i": 200701,
-    "min": 4,
-    "max": 11,
-    "d": "Pyojuneo (Standard Korean) is the standard variety of Korean in South Korea, equivalent to Modern Korean. Duplicate entry.",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-{
+  {
     "name": "Pyongan Korean",
     "i": 200702,
     "min": 4,
@@ -9799,17 +9589,7 @@ window.asiaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Fuzhou,Ningde,Xiapu,Changting,Pingyang,Wenzhou,Lishui,Quzhou,Hangzhou,Xi'an,Changsha,Nanchang,Xiamen,Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Nanjing,Wuhan,Kunming,Guiyang,Lanzhou,Taiyuan,Shijiazhuang,Changchun,Zhengzhou,Hefei,Ningbo,Suzhou,Tianjin,Xining,Yinchuan,Luoyuan,Longyan",
-    "status": "COMPLETE"
-  },
-{
-    "name": "Silla Korean",
-    "i": 200709,
-    "min": 4,
-    "max": 16,
-    "d": "Silla Korean is the language of the Silla kingdom (57 BCE - 935 CE) on the Korean Peninsula. Extinct/Historical. Ancestor of Middle Korean.",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
+"status": "COMPLETE"
   },
   {
     "name": "Small Flowery",
@@ -9899,19 +9679,9 @@ window.asiaNameBases = [
     "d": "Yangchun Pai Yao is a Bunu (Yao) language spoken in Guangdong, China.",
     "m": 0,
     "b": "Yangchun,Yangjiang,Yunfu,Yunfu,Guangdong,Guangdong,Guangzhou,Foshan,Zhaoqing,Qingyuan,Qingyuan,Yangchun",
-    "status": "COMPLETE"
+"status": "COMPLETE"
   },
-{
-    "name": "Ye-Maek",
-    "i": 200719,
-    "min": 4,
-    "max": 11,
-    "d": "Ye-Maek is the language of the ancient Ye and Maek tribes/kingdoms in Manchuria/northern Korea (1st century BCE - 7th century CE). Extinct/Historical.",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-{
+  {
     "name": "Yeheni",
     "i": 200720,
     "min": 4,
@@ -10429,47 +10199,7 @@ window.asiaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Longleng,Tamlu,Namsang,Yongya,Sakshi,Yongnyah,Pongo,Yangching,Hukpang,Kamahu,Kanching,Alayung,Bhumnyu,Dunkhao,Hakpang,Hamlikhong,Lingtak,Mongtikong,Namching,Noksosang,Orangkong,Oushok,Pongching,Yachem,Yaongyimchen,Yimchong,Aboiche,Bura Namsang,Konsong,Ladaigarh,Namhaching,Yonglok,Aoching,Hongnyu,Mungkhu,Sakshi Village,Yimchong,Yongphang,Ametchong,Kangching,Nain,Namhaching,Netnyu,Netnyuching,Ngetghungching,Shamnyuching,Shitap,Tamlu Village,Tangha,Yongam,Yongnyah Village,Yongshei,Yotan",
-    "status": "COMPLETE"
-  },
-{
-    "name": "Proto Hakka",
-    "i": 201283,
-    "min": 4,
-    "max": 11,
-    "d": "Proto Hakka is the reconstructed ancestor of the Hakka Chinese dialects. Extinct/Historical reconstruction.",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-  {
-    "name": "Proto Loloish",
-    "i": 201284,
-    "min": 4,
-    "max": 13,
-    "d": "lnrt",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-  {
-    "name": "Proto Min",
-    "i": 201285,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-  {
-    "name": "Proto Sino Tibetan",
-    "i": 201286,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
+"status": "COMPLETE"
   },
   {
     "name": "Puroik",

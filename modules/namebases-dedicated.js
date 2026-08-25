@@ -8,7 +8,7 @@ window.dedicatedNameBases = [
     "max": 0,
     "d": "",
     "m": 0,
-    "b": ""
+    "b": "Bauchi State,Nigeria,Darazo LGA,Ningi LGA"
   },
   {
     "name": "Akan",
@@ -305,7 +305,7 @@ window.dedicatedNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": ""
+    "b": "Sorki,Chinguil,Melfi,Guéra,Chad"
   },
   {
     "name": "Jibyal",
@@ -923,7 +923,7 @@ window.dedicatedNameBases = [
     "max": 15,
     "d": "",
     "m": 0,
-    "b": ""
+    "b": "Tandjilé,Laï,Lai subprefecture,Ndam,Kimré,Chad"
   },
   {
     "name": "Miship",
@@ -1014,7 +1014,7 @@ window.dedicatedNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": ""
+    "b": "Butei,Tuluwe,Mpaha,Techiman,Tamale,Ghana"
   },
   {
     "name": "Mser",
@@ -1041,7 +1041,7 @@ window.dedicatedNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": ""
+    "b": "Mundat village,Bokkos LGA,Sha District,Plateau State,Nigeria"
   },
   {
     "name": "Musey",
@@ -10291,7 +10291,7 @@ window.dedicatedNameBases = [
     "max": 0,
     "d": "lnrt",
     "m": 0,
-    "b": ""
+    "b": "Dajia,Dadu,Taichung,Changhua,Nantou,Taiwan"
   },
   {
     "name": "Papora-Hoanya",
@@ -10300,7 +10300,7 @@ window.dedicatedNameBases = [
     "max": 0,
     "d": "lnrt",
     "m": 0,
-    "b": ""
+    "b": "Dajia,Dadu,Taichung,Changhua,Nantou,Taiwan"
   },
   {
     "name": "Papuan Tip",

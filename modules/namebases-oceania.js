@@ -554,28 +554,6 @@ window.oceaniaNameBases = [
   },
 
 {
-    "name": "Cemuhî",
-    "i": 1420,
-    "min": 3,
-    "max": 10,
-    "d": "",
-    "m": 0,
-    "b": "Touho,Koné,Poindimié,Wagap,Congouma,Paici-Camuki customary area,North Province communes",
-    "status": "WAITING"
-  },
-
-  {
-    "name": "Carolinian",
-    "i": 1434,
-    "min": 3,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Saipan,Tinian,Rota,Anatahan,Agrihan,Capital Hill,Afetnas,Achugao,Chalan Galaide,Garapan,Susupe,San Jose,Songsong,Northern Islands Municipality",
-    "status": "WAITING"
-  },
-
-  {
     "name": "Chimbu",
     "i": 1586,
     "min": 3,
@@ -597,26 +575,15 @@ window.oceaniaNameBases = [
     "status": "WAITING"
   },
 
-  {
-    "name": "Lonwolwol",
-    "i": 1641,
-    "min": 3,
-    "max": 10,
-    "d": "",
-    "m": 0,
-    "b": "Lonwolwol village,Craig Cove,Fali,Fanting,Dip Point,Baiap,Sesivi,Port Vato,Bwele,Lalinda,Tow,Yaotilie,Sanesup,Emiotungan,Maranata,Pelibetakever,West Ambrym,Malampa Province",
-    "status": "WAITING"
-  },
-
-  {
+{
     "name": "Nali",
     "i": 1196,
     "min": 3,
     "max": 10,
     "d": "",
     "m": 0,
-    "b": "Nali village,Sopat,Penabu,Kapou,Karon,Karin,Laban,Laues,Malei,Nohang,Sira,Sohonilu,Yiriu,Ndanou,Bunai,Lengau,Kapo,Manus Island southeast coast,Nali Sopat/Penabu Rural LLG,Manus Province",
-    "status": "WAITING"
+    "b": "Nali village,Sopat,Penabu,Kapou,Karon,Karin,Laban,Laues,Malei,Nohang,Sira,Sohonilu,Yiriu,Ndanou,Bunai,Lengau,Kapo",
+    "status": "COMPLETE"
   },
 
   {
@@ -659,8 +626,8 @@ window.oceaniaNameBases = [
     "max": 12,
     "d": "",
     "m": 0,
-    "b": "Buna,Gona,Momborada,Eroro,Natatu,Baberada,Bakumbari,Pongani,Holnicote Bay,Dyke Ackland Bay,Oro Bay,Popondetta,Tufi,Oro Province,Northern Province",
-    "status": "WAITING"
+    "b": "Buna,Gona,Momborada,Eroro,Natatu,Baberada,Bakumbari,Pongani,Holnicote Bay,Dyke Ackland Bay,Oro Bay,Popondetta,Tufi",
+    "status": "COMPLETE"
   },
 
   {
@@ -681,8 +648,8 @@ window.oceaniaNameBases = [
     "max": 10,
     "d": "",
     "m": 0,
-    "b": "Sogeri,Tubuseleia,Barakau,Gaile,Hunter River headwaters,Musgrave River headwaters,Laloki River,Goldie River,Sirinumu Dam,Kailakinumu,Sogeri Plateau,Koiari LLG,Kairuku-Hiri District,Central Province,Port Moresby northeast,Varirata National Park area",
-    "status": "WAITING"
+    "b": "Sogeri,Tubuseleia,Barakau,Gaile,Laloki River,Goldie River,Sirinumu Dam,Kailakinumu,Sogeri Plateau",
+    "status": "COMPLETE"
   },
 
   {
@@ -839,18 +806,7 @@ window.oceaniaNameBases = [
     "status": "WAITING"
   },
 
-  {
-    "name": "Kamano",
-    "i": 2098,
-    "min": 3,
-    "max": 10,
-    "d": "",
-    "m": 0,
-    "b": "Onampinka,Taranofi,Iva,Omena,Ino'onka,Bush Kamano,Sohe,Usurufa,Krufi/Tafesa,Izavinonta,Anamuga,Yamaso",
-    "status": "WAITING"
-  },
-
-  {
+{
     "name": "Western Oceanic",
     "i": 2126,
     "min": 4,
@@ -1049,17 +1005,6 @@ window.oceaniaNameBases = [
   },
 
 {
-    "name": "Kuman",
-    "i": 2291,
-    "min": 4,
-    "max": 26,
-    "d": "",
-    "m": 0,
-    "b": "Kundiawa,Chuave,Gumine,Karimui,Nomane,Kerowagi,Salt,Kilau,Adumo,Bereina,Mingende",
-    "status": "COMPLETE"
-  },
-
-  {
     "name": "Kyaka",
     "i": 2303,
     "min": 3,
@@ -1081,18 +1026,7 @@ window.oceaniaNameBases = [
     "status": "COMPLETE"
   },
 
-  {
-    "name": "Beami",
-    "i": 2741,
-    "min": 3,
-    "max": 10,
-    "d": "",
-    "m": 0,
-    "b": "Nomad River region,Mount Haliago,Mount Sisa,Papuan Plateau,Komofio dialect area,Mougulu,Western Province villages,Southern Highlands border villages,Bosavi cultural region,Dodomona,North Beami dialect area",
-    "status": "WAITING"
-  },
-
-  {
+{
     "name": "Papuan",
     "i": 21003,
     "min": 0,
@@ -1202,40 +1136,7 @@ window.oceaniaNameBases = [
     "status": "WAITING"
   },
 
-  {
-    "name": "Ap Ma",
-    "i": 2007,
-    "min": 3,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Kambot village,Kambaramba village,Samban village,Punyaten village,Simbir village,Raten village,Yomen village,Lol village,Wom village,Kekton village,Krogopa village,Bobten village,Kambuku village,Bobaten village,Pamban village,Korokopa village,Pusyten village,Kekten village,Buten village,Yemen village,Manu village,Kambugu village,Bopaten village,Langam village,Chimundo village,Angoram subdistrict,Keram River,Porapora River",
-    "status": "COMPLETE"
-  },
-
-  {
-    "name": "Somahai",
-    "i": 2007,
-    "min": 3,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Dekai,Ureas,Sumbako,Sumbako,Massi,Kiripun,Kokamu,Kekei,Kiribun,Bim River,Catalina River,Balim River,Yahukimo Regency,Asmat Regency,Dekai Subdistrict,Keyke,Samba,Una language area,Kopkaka area,Korowai area,Dani area,Yali area,Hupla area,Kimyal area",
-    "status": "WAITING"
-  },
-
-  {
-    "name": "Burmeso",
-    "i": 200538,
-    "min": 3,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Burmeso Village,Mamberamo Tengah,Mamberamo Raya Regency,Mamberamo River,Kwerba,Metaweja,Papasena,Yoke,Tariku,Rouffaer River,Taurap,Kasonaweja,Mid Mamberamo River,Mamberamo Tengah Subdistrict,Papua Province,Indonesia,Trans-New Guinea,West Papuan,East Bird's Head-Sentani,Burmeso Village Population 2101,Kwerba Languages,Lakes Plain Languages,East Cenderawasih Bay Languages",
-    "status": "WAITING"
-  },
-
-  {
+{
     "name": "Northern Formosan",
     "i": 21103,
     "min": 0,
