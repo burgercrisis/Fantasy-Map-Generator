@@ -6438,7 +6438,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "",
+  "b": "Asmara,Massawa,Assab,Keren,Mendefera,Adi Keyh,Dekemhare,Senafe,Adi Quala,Segheneyti,Nakfa,Agordat,Barentu,Teseney,Beilul,Edd,Ghinda,Nefasit,Debarwa,Afabet,Alghena,Arafali,Beylul,Mersa Fatma,Omhajer,Shambiko,Tio,Wekiro,Dahlak Kebir,Nora,Dehil,Emba Soira,Anseba,Baraka,Gash,Mereb,Tekezé,Qohaito,Toconda,Metera,Dogali,Dukambiya,Haykota,Hagaz,Halhal,Kerkebet,Mai Aini,Areza,Tokombiya,Sahelia",
     "status": "COMPLETE"
   },,
 
@@ -6461,7 +6461,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "",
+  "b": "Ch'ôonjik,Yuukon,Van Tat,Akłavik,Gwichyaa Zheh,Jałgiitsik,Vįįhtąįį,Łiteet'aii,Vashrąįį K'ǫǫ,Chii Vee Njik Gwichoo,Draanjik,Tsiigehnjik,Ch'injik,Gaa'al,Nehdlii,Khaalii,Ch'idzee,Shahnyaati,Jak,Kiithaataa,Dachanlee,Sheenjek,Coleen,Rampart,Red Gate,Fishhook,Homebrew,Sucker,Summit,Eagle,Peel,Mackenzie,Brooks,Ogilvie,Nahoni,Yukon Flats,Dempster,Rapid,Salmon-Trout,Half-Way Pillar,Howling Dog,Kevinjik,Rat River,Tetlit Zheh,Ehdiitat,Dihai-kutchin,Neetsaii,Gwichyaa,Deenduu",
     "status": "COMPLETE"
   },,
 

@@ -6041,7 +6041,7 @@ window.africaNameBases = [{
     "max": 0,
     "d": "",
     "m": 0,
-    "b": "",
+    "b": "Chefchaouen,Tetouan,Tizi Ouzou,Béjaïa,Ghardaïa,Tamanrasset,Ouargla,Figuig,Adrar,Timimoun,Ifrane,Azrou,Beni Mellal,Midelt,Khenifra,Errachidia,Taza,Nador,Al Hoceima,El Jebha,Tanaqoub,Bni Rzine,Boghni,Bouzeguene,Ath Yenni,Larba Nath Iraten,Aïn El Hammam,Beni Douala,Beni Yenni,Beni Isguen,Melika,Bounoura,El Atteuf,Berriane,El Guerrara,Metlili,Imilchil,Tinmal,Tounfit,Goulmima,Tiout,Tamentit,In Salah,Béni Abbès,Tindouf,Djanet,Illizi,El Oued,Touggourt,M'zab",
     "status": "COMPLETE"
   },
 {
@@ -6220,7 +6220,7 @@ window.africaNameBases = [{
     "max": 0,
     "d": "",
     "m": 0,
-    "b": "",
+    "b": "Semera,Asaita,Logiya,Dubti,Mile,Afambo,Bure,Chiefera,Elidar,Galafi,Manda,Awash,Gewane,Melka Sedi,Melka Werer,Sabure,Abala,Afdera,Berahile,Konaba,Dallol,Erta Ale,Lake Assal,Lake Abbe,Tadjoura,Obock,Dikhil,Ali Sabieh,Arta,Randa,Adailou,Balho,As Eyla,Senafe,Adi Keyh,Adi Quala,Debarwa,Dekemhare,Areza,Mendefera,Segheneyti,Tserona,Qohaito,Zula,Irafalo,Assab,Massawa,Tendaho,Hadar",
     "status": "COMPLETE"
   },
 {

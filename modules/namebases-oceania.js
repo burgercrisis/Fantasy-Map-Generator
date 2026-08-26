@@ -1260,7 +1260,7 @@ window.oceaniaNameBases = [
     "max": 0,
     "d": "",
     "m": 0,
-    "b": "",
+    "b": "Arare,Kerke,Pagai,Tereyemu,Magabag,Yagatsu,Amagatsu,Atsipim,Geiripim,Kaibu,Kasima,Katage,Okor,Omuro,Paghai,Semtaipim,Sogope,Warogom,Wiyage,Mur,Agham,Khatan,Kogoyaman,Linggua,Monana,Waghien,Wagin,Waruwe,Yatan,Kaitok,Sigare,Yame,Kepi,Dagimon,Gauda,Harome,Kogo,Madu,Marbin,Masin,Obaa,Piai,Rayam,Soba,Tokhom,Wairu,Wanggate,Bade,Senggo,Abau,Epem,Kumasma,Tamanin,Womin",
     "status": "COMPLETE",
   },
 
@@ -2641,7 +2641,7 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "",
+    "b": "Agats,Atsy,Omandesep,Otsjanep,Basim,Piramat,Waras,Bawos,Ocenep,Bawos,Kagas,Nanai,Pirien,Tauro,Amanamkai,Ambisu,Atambuts,Awok,Bine,Bipim,Comoro,Fos,Kaimo,Sagare,Sogoni,Waganu,Warkai,Yaosakor,Yefuwage,Kamur,Eumene,Seramit,Yagamit,Yohoi,Amkai,Yankap,Kaipom,Hahare,Sawa Erma,Agani,Erma,Koba,Nakai,Sagapu,Tomor,Binam,Daikot,Karbis,Patipi,Vakam,Ayam,Asuwetsy,Biriten,Bis Agats,Uwus,Yamoth,Kokonao,Migiwia,Kiura,Atuka,Mioko,Manasari,Aindua,Umar,Kipia,Mapar,Iwaka,Kaugapu,Tipuka,Otakwa,Inawka,Omawka,Kamora,Parimau",
     "status": "COMPLETE",
   },
 

@@ -1355,7 +1355,7 @@ window.northAmericaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "",
+    "b": "Amatlán,Benito Juárez,Cuajimoloyas,La Nevería,Lachatao,Latuvi,Llano Grande,Yavesía,Ixtlán de Juárez,Capulálpam de Méndez,Guelatao de Juárez,Natividad,San Juan Chicomezúchil,Santiago Xiacuí,San Juan Yaeé,San Juan Yatzona,San Miguel Yotao,San Pedro Yaneri,San Ildefonso Villa Alta,Santa Catarina Ixtepeji,Monte Albán,Mitla,Zaachila,Ocotlán,Etla,Tlacolula,San José Mogote,Zimatlan,Abasolo,Juchitán,Tehuantepec,Jalapa del Marqués,Mixtequilla,Xadani,Chihuitán,Laollaga,Yatee,Zoogocho,Yalálag,Tabaá,Cajonos,Choápam,Abejones,Ozolotepec,Miahuatlán,Coatezas Altas,Santa María Ozolotepec,Santo Domingo Ozolotepec,San Cristóbal Amatlán",
     "status": "COMPLETE"
   },
   {
@@ -2145,7 +2145,7 @@ window.northAmericaNameBases = [
     "max": 0,
     "d": "",
     "m": 0,
-    "b": "",
+    "b": "Fort Yukon,Arctic Village,Venetie,Birch Creek,Chalkyitsik,Huslia,Hughes,Koyukuk,Nulato,Galena,Tanana,Minto,Eagle,Kaltag,Grayling,Anvik,Shageluk,Holy Cross,Ruby,Rampart,Stevens Village,Takotna,McGrath,Nikolai,Tetlin,Dot Lake,Healy Lake,Nenana,Behchoko,Deline,Fort Good Hope,Norman Wells,Tulita,Colville Lake,Hay River,Fort Simpson,Fort Liard,Aklavik,Tuktoyaktuk,Inuvik,Sachs Harbour,Lutsel'e,Dettah,Gameti,Whati,Yukon River,Tanana River,Koyukuk River,Mackenzie River,Great Slave Lake,Great Bear Lake,Lake Athabasca,Peel River,Draanjik River,Chandalar River,Sheenjek River",
     "status": "COMPLETE"
   },
   {

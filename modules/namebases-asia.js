@@ -946,7 +946,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "",
+    "b": "Zhaoxing,Liping,Congjiang,Rongjiang,Jinping,Tianzhu,Kaili,Zhenyuan,Libo,Dushan,Duyun,Danzhai,Leishan,Majiang,Jianhe,Taijiang,Cengong,Sanjiang,Tongdao,Jingzhou,Suining,Hongzhou,Shuikou,Zhongchao,Shangzhong,Mengyan,Jiuchao,Aoshi,Yandong,Shuangjiang,Long'e,Diping,Yongcong,Maogong,Defeng,Gaotun,Longxing,Gaosheng,Yanglan,Pingtan,Hengling,Yutou,Shangbao,Chengyang,Sanlong,Xiaohuang,Zhidong,Guping,Gaozeng,Guandong,Luoxiang,Meilin,Fulu,Yangxi",
     "status": "COMPLETE"
   },
   {
@@ -956,7 +956,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "Kam Sui is a language family/cover term for Kam-Sui languages, not a single language.",
     "m": 0,
-    "b": "",
+    "b": "Sandu,Sandong,Shuilong,Zhonghe,Miaocao,Bajie,Jiadao,Shiqi,Jiarong,Hengfeng,Zhouqin,Jiuqian,Tangzhou,Yangmeng,Libo,Yaoqing,Dushan,Wenquan,Tianxing,Rongjiang,Congjiang,Sanhe,Dahe,Fengle,Hejiang,Pu'an,Dujiang,Tingpai,Jiaoli,Lalan,Dayu,Yangfu,Wubu,Yanggong,Zenlei,Hezhai,Shuigen,Guchang,Laliang,Shuiyao,Shuiwei,Banliang,Tangnian,Gaorong,Pandong,Gengding,Duliu",
     "status": "COMPLETE"
   },
   {
@@ -6766,7 +6766,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "",
+    "b": "Multan,Bahawalpur,Dera Ghazi Khan,Rahim Yar Khan,Muzaffargarh,Rajanpur,Layyah,Bhakkar,Mianwali,Sargodha,Khushab,Vehari,Lodhran,Khanpur,Sadiqabad,Kot Adu,Ahmadpur East,Jacobabad,Kashmore,Larkana,Shikarpur,Sukkur,Kandiaro,Thul,Rohri,Pano Aqil,Ghotki,Ubauro,Daharki,Mirpur Mathelo,Tangwani,Dera Murad Jamali,Sibi,Dera Allah Yar,Usta Muhammad,Jhatpat,Gandawa,Bagri,Dera Bugti,Kohlu,Barkhan,Musakhel,Loralai,Duki,Ziarat,Pishin",
     "status": "COMPLETE"
   },
   {
@@ -11077,7 +11077,7 @@ window.asiaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-  "b": "",
+  "b": "Wulai,Fuxing,Jianshi,Heping,Wufeng,Tai'an,Ren'ai,Datong,Nanao,Puli,Beigang,Dajia,Nanshi,Xinxian,Fushan,Sinsian,Siaoyi,Smangus,Nanzhuang,Shitan,Donghe,Zhonggang,Huolong,Shangping,Touqian,Zhudong,Qingquan,Shijialushan,Mayiwalaishan,Dafushan,Niaozuishan,Egongjishan,Minduyoushan,Jianbishan,Wuzhishan,Shilushan,Youluoshan,Taoshan,Huayuan,Jiugang,Dabajianshan,Ruiyan,Piasebukan,Papakwaqa,Hanxi,Aohua,Dongyue,Jinyang,Bihou,Jingyue,Wuta,Siji,Lishan,Xiulin,Wanrong,Zhuoxi",
     "status": "COMPLETE"
   },,
   {
@@ -11457,7 +11457,7 @@ window.asiaNameBases = [
     "max": 0,
     "d": "lnrt",
     "m": 0,
-    "b": "",
+    "b": "Alqosh,Bartella,Qaraqosh,Tel Keppe,Batnaya,Tesqopa,Baqofa,Sharafiya,Bozan,Khatarah,Karamlesh,Bashiqa,Bahzani,Ain Sifni,Dashqotan,Qasrok,Ba'adra,Merki,Mosul,Duhok,Erbil,Kirkuk,Al-Hasakah,Qamishli,Ras al-Ayn,Al-Malikiyah,Tell Tamer,Mardin,Nusaybin,Midyat,Urmia,Salmas,Hakkari,Barwari,Nahla,Lalish,Rabban Hormizd,Mar Mattai,Mar Behnam,Balawat,Nimrud,Dur-Sharrukin,Nineveh,Ashur,Arbela,Edessa,Harran,Amida,Nisibis,Tur Abdin,Khabur,Upper Tyari,Tkhuma,Jilu",
     "status": "COMPLETE"
   },
   {
@@ -12417,7 +12417,7 @@ window.asiaNameBases = [
     "max": 0,
     "d": "lnrt",
     "m": 0,
-    "b": "",
+    "b": "Nikolaevsk-on-Amur,Khabarovsk,Innokentyevka,Takhta,Lazarev,Tyr,Kalma,Nizhneye Pronge,Puir,Bogorodskoye,Mnogovershinny,Susanino,Krasnoye,Mago,Oremif,Aleyevka,Ukhta,Nizрnyaya Gavan,Voskresenskoye,Konstantinovka,Tneyvakh,Bulava,Beloglinka,Makarovka,Chnyrrakh,Chlya,Solontsy,Vlasyevo,Oktyabrsky,Sakharovka,Nekrasovka,Poronaysk,Yuzhno-Sakhalinsk,Alexandrovsk-Sakhalinsky,Nogliksky,Okhinsky,Valuevo,Langry,Chingai,Pyrki,Pogibi,Uandi,Ytyk',Viakhtu,Khoe,Tangi,Arkovo,Port Aleksandrovsk,Rybnoe,Visk'vo,Pomyt',Nil'vo,Matnyr',Ngyd',Koibgervo,Khankes',Urkdt',Pil'tun,Kakervo,Kharkor'vo,Chaivo,Lad'vo,Tyrmyts',Vachi,Mil'kovo,Tagry,Lub'vo,Lung'yo,Nappi,Ngamb'vo,Yukyr',Chkharvo,Slavo,Uskovo,Tymovo,Rykovskoe",
     "status": "COMPLETE"
   },
   {

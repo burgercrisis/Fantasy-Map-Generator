@@ -1701,9 +1701,9 @@ window.southAmericaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-  "b": "",
+  "b": "São Gabriel da Cachoeira,Santa Isabel do Rio Negro,Barcelos,Novo Airão,Rio Negro,Uaupés,Tiquié,Papuri,Querari,Cuduiari,Içana,Aiari,Cuiari,Cubate,Iauareté,Taracuá,Pari-Cachoeira,Mitu,São João,Santa Rosa,Tucumã-Rupitã,Tamanduá,Manaus,Belém,Santarém,Aveiro,Óbidos,Faro,Alenquer,Moz,Tefé,Alvarães,Uarini,Japurá,Maraã,Rio Preto da Eva,Hohodene,Walipere-dakenai,Dzauinai,Kuripako,Caiari,Curicuriari",
     "status": "COMPLETE"
-  },,
+  },
 
   {
     "name": "Macuna",
@@ -1778,9 +1778,9 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "",
+  "b": "Mitú,Iauareté,Taracuá,Pari-Cachoeira,Caruru,Trinidad,Acaricuara,Montfort,Piracuara,Vaupés,Tiquié,Papuri,Querari,Cuduiari,Pira-Paraná,Caño Komeya,Aiari,Içana,Arara,Cabari,Abiyú,Onça,Inambú,Kubeo,Makuna,Tuyuka,Kotiria,Desana,Bará,Barasano,Cubeo,Siriano,Tariano,Yuhupde,Hupda,Nadob,Wanana,Werekena,Karapanã,Miriti-tapuya,Pira-tapuya,Tukano",
     "status": "COMPLETE"
-  },,
+  },
 
 {
     "name": "Wanano",
