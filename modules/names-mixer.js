@@ -1475,17 +1475,23 @@
     return getMixedBaseMany(baseIndices, opts);
   }
 
-  // Resolve any common ISO 639-1 / 639-3 code to the mixer map's `iso` key for that language.
-  // Strategy:
-  //   1. Try the explicit alias table (most common codes).
-  //   2. Fall back to a substring/prefix search inside the loaded mixer map (covers
-  //      rare names and the 'cover' aliases that the previous code-as-key system
-  //      could never have looked up).
   function resolveIsoToMapKey(iso, map) {
     if (!iso || typeof iso !== "string") return null;
     const norm = iso.toLowerCase().trim();
     if (!norm) return null;
+
+    // First, check if the ISO code itself is a key in the mixer map.
+    // Many entries use the ISO code directly (e.g. "eng", "jpn", "spa") rather
+    // than the English name that the alias table expects.
+    if (map && Array.isArray(map)) {
+      for (const entry of map) {
+        if (entry && entry.iso === norm) return norm;
+      }
+    }
+
+    // Then check the alias table for codes that need translation.
     if (ISO_TO_MAP_KEY[norm]) return ISO_TO_MAP_KEY[norm];
+
     if (!map || !Array.isArray(map)) return null;
 
     // Helper: do a substring/prefix match.

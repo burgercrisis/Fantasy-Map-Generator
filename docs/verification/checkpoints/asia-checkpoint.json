@@ -1,8 +1,8 @@
 {
   "totalEntries": 4082,
   "totalWaiting": 0,
-  "nextEntry": "All 4082 entries COMPLETE. Mixer coverage: 3339/3425 ISOs (97.5%, up from 48%). Names generation: 100% success (30/30 test pairs). Latest session: Fixed 695 broken ISO entries in language-mixer-map.json that pointed to missing namebase indices, auto-suggested 603 to existing similar namebase entries, used generic fallback for 92 unfixable ISOs.",
-  "lastUpdate": "2026-08-25T18:55:00-07:00",
+  "nextEntry": "All namebase files 100% COMPLETE. language-mixer-map.json: 3327 entries (98 fake-mapped ISOs removed because they were assigned base [1]=English as placeholder, with no real data). 3240/3327 ISOs (97.4%) now generate authentic names from real language data. Names generation: 100% success in 1000-pair test. Guardrails PASS.",
+  "lastUpdate": "2026-08-25T20:00:00-07:00",
   "blockers": [],
   "waiting": [],
   "lastIndex": "N/A",
