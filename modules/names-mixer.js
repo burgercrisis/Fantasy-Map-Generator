@@ -1438,18 +1438,17 @@
         continue;
       }
 
-      // Skip entries whose base indices are clearly "cover language" placeholders.
-      // A real namebase entry has a real name and a real b: field. Cover language
-      // placeholders have empty b: fields and were created as token entries to
-      // cover ISO 639-3 macro-language requirements - they can't actually generate
-      // any name. We detect them by checking for the empty-name fallback pattern
-      // (no b: field at all, or b: field is empty string).
+      // Skip entries whose base indices are "cover language" placeholders (token entries
+      // created to satisfy ISO 639-3 macro-language requirements). These entries have
+      // empty b: fields and no real name data. Real namebase entries - including
+      // displaced duplicates that live in the 200000+ range - all have non-empty
+      // b: fields and should be kept.
       const validBases = entry.bases.filter(b => {
-        if (b >= 200000) return false;  // 200000+ range is reserved for cover terms
-        if (b < 0 || isNaN(b)) return false;
+        if (b < 0 || !Number.isFinite(b)) return false;
         const e = nameBases && nameBases[b];
         if (!e) return false;
         if (typeof e.b !== "string" || e.b.length === 0) return false;
+        if (!e.name || typeof e.name !== "string" || e.name.length === 0) return false;
         return true;
       });
       if (!validBases.length) {

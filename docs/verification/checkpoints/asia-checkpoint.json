@@ -1,8 +1,8 @@
 {
   "totalEntries": 4082,
   "totalWaiting": 0,
-  "nextEntry": "All 4082 entries COMPLETE. Name generation system tested on 30 diverse language pairs - 30/30 success. Fixed all ISO code issues including fas, swh, msa, nep, din, zul, cmn, swh, nor, vie, que, khm, eus, rus, tgl, swh, cmn, jpn, hun, etc. Added Tagalog entry to asia namebase. Updated language-mixer-map to point to valid namebase indices for Japanese, Hungarian, Mandarin, Swahili, Tagalog, and other cover-language placeholders.",
-  "lastUpdate": "2026-08-25T15:35:00-07:00",
+  "nextEntry": "All 4082 entries COMPLETE. Mixer coverage: 3339/3425 ISOs (97.5%, up from 48%). Names generation: 100% success (30/30 test pairs). Latest session: Fixed 695 broken ISO entries in language-mixer-map.json that pointed to missing namebase indices, auto-suggested 603 to existing similar namebase entries, used generic fallback for 92 unfixable ISOs.",
+  "lastUpdate": "2026-08-25T18:55:00-07:00",
   "blockers": [],
   "waiting": [],
   "lastIndex": "N/A",
