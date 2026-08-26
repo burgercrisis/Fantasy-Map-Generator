@@ -17,7 +17,7 @@ window.oceaniaNameBases = [
     "max": null,
     "d": "",
     "m": null,
-    "b": "",
+    "b": "Vanimo,Aitape,Telefomin,Nuku,Lido,Waromo,Yako,Musu,Wutung,Krisa,Sissano,Malol,Arop,Tumleo,Ali,Seleo,Tadji,Driniumor,Afua,Yakamul,Charov,Matapau,Lumi,Palai,Yangkok,Maimai,Wapei,Oksapmin,Yapsie,Namea,Amanab,Bewani,Green River,Walsa",
     "status": "COMPLETE",
   },
 
@@ -358,7 +358,7 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "",
+    "b": "Manila,Cebu,Davao,Quezon City,Baguio,Iloilo,Zamboanga,Cagayan de Oro,Antipolo,Taguig,Pasig,Caloocan,General Santos,Parañaque,Bacoor,Makati,Las Piñas,Bacolod,Muntinlupa,Calamba,Imus,Angeles City,Marikina,Pasay,Biñan,Tarlac City,Butuan,Iligan,San Fernando",
     "status": "COMPLETE",
   },
 
@@ -446,7 +446,7 @@ window.oceaniaNameBases = [
     "max": 0,
     "d": "",
     "m": 0,
-    "b": "",
+    "b": "Wabag,Tukusanda,Aipanda,Tambitanis,Lakolam,Kupalis,Nandi,Sakarip,Sopas,Kiwi,Kaiap,Kamas,Kopen,Sari,Tore,Teremanda,Aipinamanda,Lakemanda,Sakales,Keas,Irelya,Wakumare,Lenki,Ainumanda,Rakamanda,Yokomanda,Imi,Birip,Akom,Lukirap,Lakopen,Yailingis,Tumbilam,Aiyokolam,Komaites,Amala,Manjope,Pandam,Wanomanda,Makapumanda,Yokota,Pealam,Baiyer River,Lumusa",
     "status": "COMPLETE",
   },
 
@@ -2973,6 +2973,67 @@ window.oceaniaNameBases = [
     "m": 0,
     "b": "Kampung Jetetkun,Kampung Binkauk,Kampung Detaw,Boven Digoel,Ninati District",
     "status": "COMPLETE",
+  },
+
+  {
+    "name": "murrinh-patha",
+    "i": 203046,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Wadeye,Port Keats,Thamarrurr,Nganmarriyanga,Peppimenarti,Daly River,Fitzmaurice River,Werntek Nganayi,Old Mission,Red Cliff,Kuantiga,Kuy,Palumpa,Nama,Wudapli,Papngala,Merrepen,Yaninyuluk,Mulungi,Perreder,Emu Point",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "palawa-kani",
+    "i": 203047,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Nipaluna,Kunanyi,Larapuna,Kanamaluka,Lutruwita,Titima,Kennaook,Takayna,Luemerrernanner,Hobart,Launceston,Devonport,Burnie,George Town,Port Dalrymple,Low Head,Pieman River,Mount Wellington,River Tamar,Eddystone Point,Cape Portland,Cape Grim,Trefoil Island",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "panyjima",
+    "i": 203048,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Port Hedland,Karratha,Newman,Tom Price,Paraburdoo,Dampier,Wickham,South Hedland,Marapikurrinya,Kartijirli,Pipunjarra,Yandeyarra,Ngarla,Nyamal,Kariyarra,Pilbara,Mount Whaleback,Great Northern Highway,Nickol Bay,Indee Range,Karratha Hills",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "melpa",
+    "i": 203051,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Mount Hagen,Kagamuga,Kumunga,Kiliga,Kelua,Kuguma,Kik,Tega,Koglamp,Tiling,Kingalrui,Korobuk,Biaprui,Keltiga,Gabina,Palim,Koge,Minimp,Ogelbeng,Anga,Pulgimp,Mulga,Kitiga,Pungaminga,Kogmul,Pits,Togoba,Baisu,Wimbuka,Kilam,Kenta,Koibuga,Waninga,Kuguramp,Wahgi Valley,Baiyer River,Nebilyer Valley",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "pa",
+    "i": 203052,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Morehead,Oriomo-Bituri,Pahoturi River,Idi,Taeme,Agob,Ende,Kawam,Wipim,Dabu,Bugi,Kondobol,Yao,Giringarede,Masingle,Kunini,Boze,Sebe,Tati,Irupi,Drageli,Sogal,Aliple,Glulu,Usore,Dirimu,Gamaewe,Glabi,Gidra,Gizra,Bine,Miriam",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "sempan",
+    "i": 203055,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Otakwa,Fanamo,Omawita,Fakafuku,Pece,Owapu,Sumapero,Ohotya,Inafita,Omauga,Agimuga,Kiliarma,Aramsolki,Masasimamo,Timika,Mimika,Kamoro,Asmat,Okaba,Merauke",
+    "status": "COMPLETE"
   },
 
 ];

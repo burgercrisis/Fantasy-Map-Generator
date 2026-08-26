@@ -7,7 +7,7 @@ window.africaNameBases = [{
     "max": 0,
     "d": "bdfghklmnqrstz",
     "m": 0,
-"b": "",
+"b": "Azrou,Azilal,Ifrane,Midelt,Khenifra,Errachidia,Figuig,N'Kob,Tinerhir,Amizmiz,Imlil,Oukaimeden,Ait Tirghit,Megdaz,Demnate,Taza,Bhalil,Sefrou,Imouzzer,Itzer,Tiflet,Aghmat,Goulmima,Ouarzazate,Tazzarine,Tamsahelte,Ait Benhaddou,Beni Mellal,Tizi Ouzou,Ghardaia,Beni Isguen,Melika,Bounoura,El Atteuf,Berriane,El Guerrara,Metlili,Ouargla,Tamanrasset,Agadez,In-Gall,Iferouane",
     "status": "COMPLETE"
   },
   {
@@ -486,7 +486,7 @@ window.africaNameBases = [{
     "max": 0,
     "d": "lnrt",
     "m": 0,
-    "b": "",
+    "b": "Maiduguri,Konduga,Mafa,Damboa,Gwoza,Bama,Monguno,Ngala,Marte,Kukawa,Dikwa,Chibok,Biu,Askira,Uba,Hawul,Jere,Kaga,Kala Balge,Kwaya Kusar,Magumeri,Nganzai,Shani,Abadam,Bayo,Gubio,Guzamala,Mobbar,Bolori,Gwange,Maisandari,Shehuri North,Shehuri South,Bulabulin,Lamisula,Mafoni,Fezzan,Gamboru,Hausari,Limanti,Pombe,Dala,Dusman,Aulari,Koshebe,Benisheikh,Tashan Alade,Mainok,Kawuri,Wanori",
     "status": "COMPLETE"
   },
 {
@@ -1303,7 +1303,7 @@ window.africaNameBases = [{
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "",
+    "b": "Karakorum,Ulaanbaatar,Khovd,Erdenet,Dornod,Ölgii,Darkhan,Choibalsan,Mörön,Nalaikh,Bayankhongor,Baganuur,Arvaikheer,Bulgan,Mandalgovi,Zamyn-Üüd,Sharyngol,Kharkhorin,Bor-Öndör,Choir,Tosontsengel,Bagakhangai,Zuunmod,Ulaangom,Uliastai,Sainshand,Dalanzadgad,Altai,Sükhbaatar,Baruun-Urt,Öndörkhaan,Tsetserleg,Töv,Selenge,Dundgovi,Dornogovi,Govi-Altai,Govisümber,Khentii,Khövsgöl,Ömnögovi,Övörkhangai,Zavkhan,Uvs,Darhan-Uul,Orkhon",
     "status": "COMPLETE"
   },
 {
@@ -1433,7 +1433,7 @@ window.africaNameBases = [{
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "",
+    "b": "Khenifra,Azrou,Ifrane,Midelt,Errachidia,El Hajeb,Ain Leuh,Ras El Ma,Zaouiat Oued Ifrane,Timahdite,Jebel Fazzaz,Aguelmame Azigza,Lake Ouiouane,Afrennourir,Tifounassine,Amghas,N'Douit,Miaammi,Itzer,M'Rirt,Beni Mellal,Azilal,El Kbab,Jebel Bououzzal,Jebel Ayachi,Agelmam Laaziza,Foum Kheneg,Oued Beth,Mrirt,Guigou,Imouzzer Kandar,Imouzzer Marmoucha,Boulemane,El Menzel,Sefrou,Tahla,Mkansa,Moulay Yacoub,Sebt Jahjouh,Oued Amlil,Bhalil,Agourai,Ain Aicha,Ain Taoujdate,Aknoul,Bouhouda",
     "status": "COMPLETE"
   },
 {
@@ -1443,7 +1443,7 @@ window.africaNameBases = [{
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "",
+    "b": "Oujda,Berkane,Taourirt,Figuig,Ahfir,Saidia,Tafoughalt,Aklim,Sidi Slimane Echcharraa,Boughriba,Zegzel,Ain Erreggada,Madargh,Laatamna,Tiztoutine,Midar,Driouch,Ben Taieb,Temamane,Tsaft,Zaio,Arekmane,Al Aaroui,Bni Chiker,Zeghanghane,Selouane,Bouarg,Beni Ensar,Nador,El Aioun Sidi Mellouk,Jerada,Ain Bni Mathar,Guenfouda,Touissit,Bouarfa,Bni Tadjite,Tendrara,Bni Guil,Ain Chair,Lkhal,Bouanane,Mechraa Bsara,Isly,Ras-El-Ma",
     "status": "COMPLETE"
   },
 {
@@ -1453,7 +1453,7 @@ window.africaNameBases = [{
     "max": 8,
     "d": "lnrt",
     "m": 0,
-    "b": "",
+    "b": "Mubi,Mararaba Mubi,Gombi,Garkida,Guyaku,Lala,Tawa,Boga,Dingai,Duwa,Gabun,Yang,Gella,Chaba,Duvu,Girburum,Gude,Kwaja,Lamorde,Yadafa,Mujara,Nassarawo,Nduku,Mugulbu,Bahuli,Digil,Didif,Kelluje,Kwa,Besto,Gyumbula,Kamnda,Marcho-Bani,Muchalla,Mobu,Cha,Jerengol Kotirde,Duda,Koma,Kiriya,Maskoka,Miza,Mujilu,Mukta,Pawi,Ribawa,Vimtim,Baagira,Hildi,Maki,Mubbula,Hong",
     "status": "COMPLETE"
   },
 {
@@ -1473,7 +1473,7 @@ window.africaNameBases = [{
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "",
+    "b": "Tetouan,Martil,Oued Laou,El Jebha,Fnideq,Mdiq,Cabo Negro,Chefchaouen,Tanaqoub,Derdara,Bab Taza,Ajdir,Al Hoceima,Targuist,Bni Bouayach,Imzouren,Ouezzane,Larache,Tangier,Asilah,Ksar El Kebir,Arbaoua,Sidi Allal El Bahraoui,Sidi Yamani,Beni Mellal,Mdiq-Fnideq,Fahs-Anjra,Anjera,Gherzoim,Ali Ben Rashid,Ka'ala mountain,Akhemas,Ghomara,Ghazaoua,Sanhaja,Jebala,Moulay Abdessalam Ben Mshish,Tamuda Bay,Martil Valley",
     "status": "COMPLETE"
   },
 {
@@ -1483,7 +1483,7 @@ window.africaNameBases = [{
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "",
+    "b": "Labe,Pita,Mamou,Dalaba,Kaedi,Matam,Podor,Kolda,Bandiagara,Mopti,Dori,Gorom-Gorom,Djibo,Birnin Kebbi,Katsina,Gombe,Yola,Digil,Jalingo,Bauchi,Misau,Jamaare,Mayo Belwa,Mubi,Maroua,Ngaoundere,Azare,Dukku,Kumo,Girei,Damaturu,Bertoua,Garoua,Velingara,Diafabe,Timbo,Fugumba,Kollade,Thionkeless,Selouba,Diongoka,Konkore,Bantako,Kudanfeba,Bafode,Labena,Kolda,Medina Gounass",
     "status": "COMPLETE"
   },
 {

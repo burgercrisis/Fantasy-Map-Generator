@@ -6643,7 +6643,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "",
+  "b": "Rouen,Caen,Bayeux,Dieppe,Le Havre,Évreux,Lisieux,Avranches,Coutances,Cherbourg-en-Cotentin,Saint-Lô,Fécamp,Honfleur,Mont-Saint-Aignan,Sotteville-lès-Rouen,Le Petit-Quevilly,Saint-Étienne-du-Rouvray,Louviers,Vire Normandie,Montivilliers,Alençon,Étretat,Granville,Cabourg,Beuvron-en-Auge,Saint-Cénéri-le-Gerei,Le Bec-Hellouin,Veules-les-Roses,Barfleur,Mont-Saint-Michel,Château-Gaillard,Jumièges,Eu,Le Tréport,Villedieu-les-Poêles,Gaillon,Déville-lès-Rouen,Elbeuf,Pavilly,Bolbec,Yvetot,Neufchâtel-en-Bray,Saint Helier,Saint Peter Port,Alderney,Sark,Herm,Jersey,Guernsey",
     "status": "COMPLETE"
   },,
 
@@ -6654,7 +6654,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "urj-NO",
   "m": 0,
-  "b": "",
+  "b": "Tromsø,Karasjok,Kautokeino,Jokkmokk,Gällivare,Inari,Utsjoki,Kiruna,Lovozero,Sevettijärvi,Östersund,Rovaniemi,Tornio,Enontekiö,Sodankylä,Arjeplog,Tysfjord,Kirkenes,Alta,Hammerfest,Vadsø,Lakselv,Kárášjohka,Guovdageaidnu,Anár,Aanaar,Luujäuˊrr,Giron,Staare,Kandalaksha,Kola,Murmansk,Severomorsk,Polyarny,Monchegorsk,Apatity,Kirovsk,Krasnoshchelye,Ponoi,Iokanga,Teriberka,Umba,Varzina,Yokanga,Sosnovka,Lumbovka,Vidyayevo,Aleksandrovsk,Gadzhiyevo,Zaozyorsk,Ostrovnoy,Snezhnogorsk,Polyarnye Zori,Zapolyarny,Nikel,Pechenga",
     "status": "COMPLETE"
   },,
 
@@ -6698,7 +6698,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "nic-GH",
   "m": 0,
-  "b": "",
+  "b": "Upovia,Buseki,Boimbulavu,Nago,Maga,Magipopo,Usukof,Kapikam,Dimu,Pangoa,Tagum,Miwa,Kusikina,Kuem,Mipan,Manda,Bosset,Wangawanga,Komovai,Kaviananga,Boikmava,Levame,Lake Murray,Balimo,Kiunga,Daru,Tabubil,Nomad,Bamu,Gogodala",
     "status": "COMPLETE"
   },,
 
@@ -6786,7 +6786,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "nic-GH",
   "m": 0,
-  "b": "",
+  "b": "Saidor,Bogia,Madang,Bongu,Garagasi,Biliau,Kepolak,Baru,Mamgak,Mur,Umboldi,Kakimar,Yaimas,Waibol,Sibog,Suri,Bagalawa,Lamtup,Maibang,Yorkia,Sari,Sorang,Kiambaui,Matako,Gogou,Sarakiri,Kwongo,Wado,Simimididi,Wongetuo,Ganglau,Orinma,Mebu,Batoto,Matafun,Bok,Malala,Kul,Bangri,Bang,Boram,Male,Lalok,Kulel,Saipa,Bom,Jamjam,Kwato,Erima,Ato,Ileg,Bogadjim,Sawoi,Sio",
     "status": "COMPLETE"
   },,
 
@@ -6951,7 +6951,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "nic-GH",
   "m": 0,
-  "b": "",
+  "b": "Belo Horizonte,Ouro Preto,Tiradentes,Diamantina,São João del-Rei,Mariana,Sabará,Congonhas,Barbacena,Itabira,Conselheiro Lafaiete,Divinópolis,Juiz de Fora,Pouso Alegre,Poços de Caldas,Araxá,Lambari,Caxambu,Lavras,Governador Valadares,Teófilo Otoni,Janaúba,Patos de Minas,Uberlândia,Araguari,Ituiutaba,Montes Claros,Curvelo,Paracatu,Unaí,Januária,Almenara,Nazareno,Piedade do Rio Grande,Prados,Resende Costa,Ritápolis,Santa Cruz de Minas,Santana do Garambéu,São Tiago,Bom Despacho,Araújos,Dores do Indaiá,Formiga,Itapeceriba,Luz,Oliveira,Pitangui,Camanducaia,Extrema,Itapeva,Maria da Fé,São Lourenço,Soledade de Minas,São Gonçalo do Sapucaí,Carmo de Minas,Cristina,Dores de Campos,Itaverava,Lavras Novas,Matias Barbosa,Ouro Branco,Rio Piracicaba,Santa Bárbara,Santa Rita de Ouro Preto,Santo Antônio do Leite,São Bartolomeu,São José da Lapa,São Miguel do Anta,Santos Dumont,Sarzedo,Serro,Taboão,Vespasiano,Viçosa",
     "status": "COMPLETE"
   },,
 
@@ -6962,7 +6962,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "nic-GH",
   "m": 0,
-  "b": "",
+  "b": "Asunción,Ciudad del Este,Luque,Capiatá,San Lorenzo,Limpio,Pedro Juan Caballero,Lambaré,Ñemby,Fernando de la Mora,Encarnación,Coronel Oviedo,Caacupé,Villarrica,San Juan Bautista,Pilar,Paraguarí,Villa Hayes,Concepción,Fuerte Olimpo,Filadelfia,Areguá,Ayolas,Benjamín Aceval,Caaguazú,Caapucú,Caraguatay,Carapeguá,Carmen del Paraná,Cerrito,Curuguaty,Desmochados,General Artigas,Guarambaré,Hernandarias,Itauguá,Juan León Mallorquín,Loma Plata,Minga Guazú,Ñemby,Paraguarí,Pilar,Pozo Colorado,Salto del Guairá,San Alberto,San Cosme y Damián,San Estanislo,San Ignacio,San Juan Bautista,San Lorenzo,San Pedro de Ycuamandiyú,Santa María de Fe,Santa Rosa del Monday,Sapucaí,Tembiatará,Trinidad,Yataity,Ybycuí,Ypacaraí",
     "status": "COMPLETE"
   },,
 
@@ -6973,7 +6973,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "nic-GH",
   "m": 0,
-  "b": "",
+  "b": "Lima,Cusco,Arequipa,Trujillo,Iquitos,Chiclayo,Piura,Huancayo,Chimbote,Ica,Juliaca,Cajamarca,Pucallpa,Tarapoto,Moyobamba,Tingo María,Puerto Maldonado,Abancay,Ayabaca,Ayacucho,Callao,Cerro de Pasco,Chachapoyas,Chorrillos,Huacho,Huánuco,Huaraz,Huancavelica,Lambayeque,Mollendo,Moquegua,Puno,Sullana,Tacna,Talara,Tumbes,Barranco,Miraflores,San Isidro,Surco,Villa María del Triunfo,San Juan de Miraflores,Rímac,La Victoria,Pueblo Libre,Magdalena del Mar,Santiago de Surco,Caral,Nazca,Machu Picchu,Ollantaytambo,Pisac,Chinchero,Calca,Urubamba,Yucay,Paucartambo,Acomayo,Anta,Sicuani,Ayaviri,Azángaro,Juliaca,Putina,Sandia,Macusani",
     "status": "COMPLETE"
   },,
 
@@ -7083,7 +7083,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "nic-GH",
   "m": 0,
-  "b": "",
+  "b": "Popondetta,Gewoto,Sewa,Isuga,Dobuduru,Sorovi,Ambogo,Kokoda,Buna,Gona,Sanananda,Tufi,Girua,Oro Bay,Mt Lamington,Inonda,Asisi,Higaturu,Afore,Ijivitari",
     "status": "COMPLETE"
   },,
 
@@ -7127,7 +7127,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "nic-GH",
   "m": 0,
-  "b": "",
+  "b": "Nomad River,Strickland River,Herbert River,Lake Murray,Balimo,Kiunga,Daru,Ok Tedi,Bamu,Gogodala,Nomad Rural,Bosavi,Samo,Odoodee,Kubo,Fembe,Konai,Bibo,Honiba,Oiba,Gebusi",
     "status": "COMPLETE"
   },,
 
@@ -7160,7 +7160,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "nic-GH",
   "m": 0,
-  "b": "",
+  "b": "Alotau,Samarai,Esa'ala,Kiriwina,Dogura,Taupota,Wedau,Misima,Gurney,Gili Gili,Swinger Bay,Ladava,Ahioma,Huhu,Makamaka,Maramatana,Weraura,Suau,Dobu,Fergusson,Normanby,Goodenough,Trobriand,Rossell,Tagula,Woodlark,Basilaki,Sideia,Kwato",
     "status": "COMPLETE"
   },,
 
@@ -7237,7 +7237,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "nic-GH",
   "m": 0,
-  "b": "",
+  "b": "Lhasa,Shigatse,Gyantse,Chamdo,Qamdo,Nyingchi,Nagqu,Ngari,Kathmandu,Pokhara,Thimphu,Paro,Punakha,Bhaktapur,Patan,Nagarkot,Chitwan,Janakpur,Biratnagar,Dharan,Butwal,Nepalgunj,Tansen,Jomsom,Khumjung,Waling,Khandbari,Besisahar,Panauti,Kirtipur,Lahan,Shikha,Khudi,Pisang,Chame,Ngawal,Gaur,Tulsipur,Baglung,Birendranagar,Rajbiraj,Malangwa,Amargadhi,Dipayal Silgadhi,Suryabinay,Hetauda,Banepa,Ilam,Kodari,Sankhar,Dashrathpur,Jaleshwor,Pyuthan,Bhojpur,Shangri-La,Lijiang,Dali,Kunming,Dege,Batang,Ruoergai,Kangding,Jiuzhaigou,Songpan,Litang,Daocheng,Tengchen,Ladakh,Sikkim,Gangtok,Darjeeling,Kalimpong,Tawang,Bomdila,Dirang,Kohima,Imphal,Aizawl,Myitkyina,Bhamo,Taunggyi,Kengtung,Tachileik,Mandalay,Bagan,Inle Lake",
     "status": "COMPLETE"
   },,
 
@@ -7260,7 +7260,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "nic-GH",
   "m": 0,
-  "b": "",
+  "b": "Seredala,Moruf,Mosomdura,Burupmakot,Tokuni,Marub,Kwer,Seradela,Yahukimo,Digul River,Becking River,Eilanden River,Kopayap,Urajin,Awbono,Bayono,Enamesi,Densar",
     "status": "COMPLETE"
   },,
 
@@ -7315,7 +7315,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "nic-GH",
   "m": 0,
-  "b": "",
+  "b": "Kopayap,Urajin,Digul River,Eilanden River,Becking River,Awbono,Bayono,Enamesi,Densar,Kovojab,Yahukimo,Highland Papua,Indonesia",
     "status": "COMPLETE"
   },,
 
@@ -7349,7 +7349,7 @@ window.europeNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-  "b": "",
+  "b": "Pristina,Prizren,Peja,Gjilan,Mitrovica,Ferizaj,Gjakova,Deçan,Drenas,Istog,Kaçanik,Kamenicë,Klina,Lipjan,Malisheva,Obiliq,Podujevë,Rahovec,Skenderaj,Suhareka,Štrpce,Shtime,Viti,Vushtrri,Fushë Kosovë,Junik,Klinë,Leposaviq,Mamushë,Novobërdë,Partesh,Ranillug,Hani i Elezit,Ohrid,Bitola,Prilep,Struga,Kruševo,Tetovo,Gostivar,Kičevo,Debar,Resen,Radozda,Trpejca,Vraništa,Kalista,Radolishta,Vranje,Preševo,Bujanovac,Bosilegrad,Surdulica,Vladičin Han,Trgovište,Vranjska Banja,Bukarevac,Crnotince,Buštranje",
     "status": "COMPLETE"
   },,
 
@@ -7360,7 +7360,7 @@ window.europeNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-  "b": "",
+  "b": "Pamplona,Bilbao,San Sebastián,Bayonne,Pau,Bordeaux,Vitoria-Gasteiz,Hondarribia,Getaria,Zumaia,Zarautz,Tolosa,Oñati,Azpeitia,Irun,Lekeitio,Ondarroa,Mundaka,Lezo,Oiartzun,Pasajes San Juan,Errenteria,Pasaia,Hernani,Andoain,Lasarte-Oria,Usurbil,Bergara,Elgoibar,Eibar,Mutriku,Deba,Markina-Xemein,Gernika,Bermeo,Portugalete,Santurtzi,Barakaldo,Getxo,Sestao,Durango,Amorebieta-Etxano,Laguardia,Labastida,Elciego,Oyón,Salvatierra,Espelette,Ainhoa,Sare,Saint-Jean-de-Luz,Ciboure,Hendaye,Urrugne,Biriatou,Ascain,Saint-Pée-sur-Nivelle,Ahetze,Arcangues,Bassussarry,Briscous,Mouguerre,Tarnos,Ondres,Labenne,Capbreton,Hossegor,Seignosse,Anglet,Biarritz,Dax,Mont-de-Marsan,Auch,Tarbes,Lourdes,Luchon,Condom,Lectoure,Eauze,Larressingle,Montréal-du-Gers,Fourcès,Valence-sur-Baïse,Lavardens,La Romieu",
     "status": "COMPLETE"
   },,
 
@@ -7372,6 +7372,27 @@ window.europeNameBases = [
   "d": "lnrt",
   "m": 0,
   "b": "Kathmandu,Lalitpur,Bhaktapur,Kirtipur,Thimi,Banepa,Panauti,Dhulikhel,Sankhu,Tokha,Thankot,Satungal,Chapagaun,Imadol,Harisiddhi,Khokana,Godavari,Pharping,Bungamati,Nagarkot,Chabahil,Boudha,ChanguNarayan,Suryabinayak,Gokarna,Dakshinkali,Lele,Bhattedanda,Dolakha,Bandipur,Bhaktapur,Patan,Kavrepalanchok",
+    "status": "COMPLETE"
+  },
+
+  {
+    "name": "old-spanish",
+    "i": 203049,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Burgos,Toledo,León,Salamanca,Valladolid,Segovia,Ávila,Soria,Palencia,Zamora,Aguilar de Campoo,Béjar,Bercianos del Real Camino,Camarzana de Tera,Campaspero,Campillo de Aranda,Camponaraya,Castroverde de Campos,Ceinos de Campos,Celada del Camino,Cuenca de Campos,Grajal de Campos,Medina del Campo,Ponferrada,Santa María del Campo,Santervás de Campos,Villamor de los Escuderos,Villamoratiel de las Matas,Villamorón,Villanueva del Campillo,Becerril de Campos,Boada de Campos,Boadilla del Camino,Aguilar de Campos,Moraleja de las Panaderas,Pozal de Gallinas",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "pannonian-latin",
+    "i": 203050,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Aquincum,Szombathely,Carnuntum,Ptuj,Sremska Mitrovica,Vienna,Sopron,Győr,Szőny,Pécs,Dunaújváros,Esztergom,Százhalombatta,Dunakeszi,Tác,Dunaszekcső,Dunakömlőd,Mórichida,Lébény,Zalalövő,Szentendre,Fenékpuszta,Mosonmagyaróvár,Ács,Szekszárd,Tolna,Nagytétény,Dunabogdány,Baláca,Zmajevac,Ščitarjevo,Petrijanec,Daruvar,Đakovo,Vinkovci,Sotin,Ilok,Sveti Martin na Muri,Ludbreg,Slavonski Brod,Osijek,Sisak,Dalj,Celje,Drnovo,Ljubljana,Bratislava",
     "status": "COMPLETE"
   },
 

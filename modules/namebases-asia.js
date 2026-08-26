@@ -10726,7 +10726,7 @@ window.asiaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-  "b": "",
+  "b": "Malabo,Bata,Ebebiyín,Aconibe,Añisoc,Luba,Evinayong,Mongomo,Mengomeyén,Micomeseng,Rebola,Bidjabidjan,Niefang,Cogo,Palea,Mbini,Nsork,Ayene,Nkimi,Machinda,Acurenam,Corisco,Baney,Bicurga,Nsang,Ncue,Bitica,Río Campo,Riaba,Acalayong,Bolondo,Moca,Ciudad de la Paz,San Antonio de Palé,Annobón,Elobey Grande,Elobey Chico,Ureka,Santa Isabel",
     "status": "COMPLETE"
   },,
   {
@@ -11057,7 +11057,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "nic-GH",
   "m": 0,
-  "b": "",
+  "b": "Naha,Shuri,Okinawa City,Ishigaki,Miyakojima,Amami Ōshima,Urasoe,Nago,Ginowan,Itoman,Tomigusuku,Nanjō,Chatan,Onna,Motobu,Nakijin,Yomitan,Kadena,Nishihara,Haebaru,Yaese,Yonabaru,Kitanakagusuku,Nakagusuku,Kin,Ginoza,Kunigami,Ogimi,Higashi,Ie,Izena,Iheya,Kumejima,Tokunoshima,Okinoerabu,Yoron,Taketomi,Iriomote,Yonaguni,Tarama,Tatsugō,Setouchi,Uken,Yamato,Zamami,Aguni,Tonami,Minna,Kudaka,Geruma,Tokashiki,Aka,Kohama,Kuroshima,Hateruma,Hatoma,Aragusuku,Kayama,Ikema,Kurima,Irabu,Shimoji,Ogami,Gusukube,Ueno,Chinen,Sashiki,Ōzato,Tamagusuku,Katsuren,Yonashiro,Gushikawa,Ishikawa,Henza,Hamahiga,Tsuken,Yagaji,Sesoko,Kouri,Noho,Kitadaito,Minamidaito",
     "status": "COMPLETE"
   },,
   {
@@ -12568,6 +12568,47 @@ window.asiaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Manila,Quezon City,Makati,Pasig,Taguig,Caloocan,Marikina,Mandaluyong,Pasay,Paranaque,Las Pinas,Muntinlupa,San Juan,Antipolo,Cavite,Bacoor,Imus,Dasmarinas,GenSan,Davao,Cebu,Iloilo,Bacolod,Tagaytay,Subic,Clark,Pampanga,Bulacan,Tarlac,Nueva Ecija,Zambales,La Union,Pangasinan,Laguna,Batangas,Rizal,Quezon,Albay,Camarines",
+    "status": "COMPLETE"
+  },
+
+  {
+    "name": "saharan-spanish",
+    "i": 203045,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Laayoune,Dakhla,Smara,Boujdour,Awserd,Guelta Zemmur,Tifariti,Mahbes,Lemsid,Oum Dreyga,Mijek,Daora,Dchira,Bou Craa,Cabo Bojador,Laayoune Plage,Lagouira,Lahmada al Bayda,Lakhbay Labyad,Metmárfag,Samlat el Hafad,Sdar,Tachla,Tichla,Uad Damran,Uad el Bir,Villa Cisneros,Ad Dchira,Aargub,Agüenit,Bir Ghandouz,Bir Nasaran,Güera,Oum Tlayha,Piedra del Kaisser,Sug,Techlé,Fondeadero del Aaiún",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "paiwan",
+    "i": 203053,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Wutai,Sandimen,Laiyi,Chunrih,Taiwu,Mudan,Shizi,Majia,Ali,Dawu,Haocha,Jiamu,Jilou,Danlin,Gulou,Nanhe,Wangjia,Wenle,Yilin,Anpo,Dalai,Dashe,Dewen,Jingshan,Jingye,Koushe,Mani,Saijia,Sande,Dasha,Rinari",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "papora",
+    "i": 203054,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Taichung,Changhua,Dadu,Dajia,Shalu,Qingshui,Wuqi,Dajia,Zhanghua,Lukang,Erlin,Beidou,Xihu,Fuxing,Puyan,Xizhou,Tianzhong,Shengang,Fengyuan,Tanzi,Shalu,Dadu,Longjing,Wufeng,Taichung Port,Wuri,South Taichung,North Taichung",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "timor-alor-pantar",
+    "i": 203056,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Dili,Kupang,Alor,Pantar,Kalabahi,Lospalos,Lautem,Aileu,Likusaen,Maubara,Baranusa,Kabir,Bakalang,Marisa,Maliang,Takalelang,Ailol Kiding,Kolana,Wetan,Solor,Flores,Komodo,Sumbawa,Lombok,Bali,Wetar,Atauro,Kisar,Oirata,Fataluku,Makalero,Makasae,Bunak,Luro,Iliomar",
     "status": "COMPLETE"
   },
 
