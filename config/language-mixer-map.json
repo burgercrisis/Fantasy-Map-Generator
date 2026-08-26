@@ -2382,24 +2382,6 @@
     ]
   },
   {
-    "iso": "proto-berber",
-    "bases": [
-      1160
-    ]
-  },
-  {
-    "iso": "proto-ron",
-    "bases": [
-      202540
-    ]
-  },
-  {
-    "iso": "proto-warji",
-    "bases": [
-      202540
-    ]
-  },
-  {
     "iso": "psikye-dialect",
     "bases": [
       200153
@@ -6714,66 +6696,6 @@
     ]
   },
   {
-    "iso": "proto-ainu",
-    "bases": [
-      201278
-    ]
-  },
-  {
-    "iso": "proto-austroasiatic",
-    "bases": [
-      202540
-    ]
-  },
-  {
-    "iso": "proto-hlai",
-    "bases": [
-      2674
-    ]
-  },
-  {
-    "iso": "proto-hokkaido-kuril",
-    "bases": [
-      2295
-    ]
-  },
-  {
-    "iso": "proto-kam-sui",
-    "bases": [
-      2672
-    ]
-  },
-  {
-    "iso": "proto-kra",
-    "bases": [
-      2673
-    ]
-  },
-  {
-    "iso": "proto-kra-dai",
-    "bases": [
-      2673
-    ]
-  },
-  {
-    "iso": "proto-mongolic",
-    "bases": [
-      202540
-    ]
-  },
-  {
-    "iso": "proto-sakhalin",
-    "bases": [
-      1494
-    ]
-  },
-  {
-    "iso": "proto-tai",
-    "bases": [
-      202540
-    ]
-  },
-  {
     "iso": "pum",
     "bases": [
       850
@@ -8670,18 +8592,6 @@
     ]
   },
   {
-    "iso": "proto-georgian-zan",
-    "bases": [
-      2084
-    ]
-  },
-  {
-    "iso": "proto-kartvelian",
-    "bases": [
-      2085
-    ]
-  },
-  {
     "iso": "rut",
     "bases": [
       200652
@@ -9243,30 +9153,6 @@
     "iso": "pingtang",
     "bases": [
       200694
-    ]
-  },
-  {
-    "iso": "proto-hmong-mien",
-    "bases": [
-      201345
-    ]
-  },
-  {
-    "iso": "proto-hmongic",
-    "bases": [
-      201345
-    ]
-  },
-  {
-    "iso": "proto-koreanic",
-    "bases": [
-      2265
-    ]
-  },
-  {
-    "iso": "proto-mienic",
-    "bases": [
-      201353
     ]
   },
   {
@@ -10425,66 +10311,6 @@
     "iso": "proper-southeastern",
     "bases": [
       1080
-    ]
-  },
-  {
-    "iso": "proto-finnic",
-    "bases": [
-      202540
-    ]
-  },
-  {
-    "iso": "proto-hungarian",
-    "bases": [
-      202540
-    ]
-  },
-  {
-    "iso": "proto-karelian",
-    "bases": [
-      13491
-    ]
-  },
-  {
-    "iso": "proto-mari",
-    "bases": [
-      202540
-    ]
-  },
-  {
-    "iso": "proto-mordvinic",
-    "bases": [
-      202540
-    ]
-  },
-  {
-    "iso": "proto-ob-ugric",
-    "bases": [
-      202540
-    ]
-  },
-  {
-    "iso": "proto-permic",
-    "bases": [
-      202540
-    ]
-  },
-  {
-    "iso": "proto-sami",
-    "bases": [
-      533
-    ]
-  },
-  {
-    "iso": "proto-samoyedic",
-    "bases": [
-      201160
-    ]
-  },
-  {
-    "iso": "proto-uralic",
-    "bases": [
-      202540
     ]
   },
   {
@@ -12657,18 +12483,6 @@
     "iso": "por",
     "bases": [
       12
-    ]
-  },
-  {
-    "iso": "proto-eastern-romance",
-    "bases": [
-      1111
-    ]
-  },
-  {
-    "iso": "proto-romance",
-    "bases": [
-      202540
     ]
   },
   {
@@ -19071,42 +18885,6 @@
     "iso": "prinmi",
     "bases": [
       1269
-    ]
-  },
-  {
-    "iso": "proto-hakka",
-    "bases": [
-      2465
-    ]
-  },
-  {
-    "iso": "proto-loloish",
-    "bases": [
-      2498
-    ]
-  },
-  {
-    "iso": "proto-min",
-    "bases": [
-      2459
-    ]
-  },
-  {
-    "iso": "proto-sino-tibetan",
-    "bases": [
-      1160
-    ]
-  },
-  {
-    "iso": "proto-tibeto-burman",
-    "bases": [
-      2014
-    ]
-  },
-  {
-    "iso": "proto-karenic",
-    "bases": [
-      2442
     ]
   },
   {

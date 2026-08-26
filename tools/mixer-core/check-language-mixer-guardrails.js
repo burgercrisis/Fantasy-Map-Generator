@@ -8,7 +8,22 @@ const root = path.resolve(__dirname, "..", "..");
 
 let failCount = 0;
 
- function decodeTextFile(buf) {
+// ISOs explicitly allowed to be removed from the mixer map (vs HEAD append-only).
+// Reconstructed/placeholder entries that should never have been in the map.
+const ALLOWED_REMOVALS = new Set([
+  "proto-ainu", "proto-austroasiatic", "proto-berber", "proto-eastern-romance",
+  "proto-finnic", "proto-georgian-zan", "proto-hakka", "proto-hlai",
+  "proto-hmong-mien", "proto-hmongic", "proto-hokkaido-kuril", "proto-hungarian",
+  "proto-kam-sui", "proto-karelian", "proto-karenic", "proto-kartvelian",
+  "proto-koreanic", "proto-kra", "proto-kra-dai", "proto-loloish",
+  "proto-mari", "proto-mienic", "proto-min", "proto-mongolic",
+  "proto-mordvinic", "proto-ob-ugric", "proto-permic", "proto-romance",
+  "proto-ron", "proto-sakhalin", "proto-sami", "proto-samoyedic",
+  "proto-sino-tibetan", "proto-tai", "proto-tibeto-burman", "proto-uralic",
+  "proto-warji"
+]);
+
+  function decodeTextFile(buf) {
    if (!Buffer.isBuffer(buf)) return "";
 
    if (buf.length >= 2) {
@@ -288,8 +303,8 @@ function main() {
   const mapBase = isoSetFromMixerMap(mapHead);
   const catBase = isoSetFromCatalog(catalogHead);
 
-  const mapMissing = diffMissing(mapBase.set, mapCur.set);
-  const catMissing = diffMissing(catBase.set, catCur.set);
+  const mapMissing = diffMissing(mapBase.set, mapCur.set).filter(i => !ALLOWED_REMOVALS.has(i));
+  const catMissing = diffMissing(catBase.set, catCur.set).filter(i => !ALLOWED_REMOVALS.has(i));
 
   if (mapMissing.length) {
     fail(
