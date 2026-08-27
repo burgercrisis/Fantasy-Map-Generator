@@ -26,6 +26,13 @@
     "family": "Niger-Congo"
   },
   {
+    "iso": "fub",
+    "name": "Adamawa Fulfulde",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Atlantic-Congo"
+  },
+  {
     "name": "Adara",
     "iso": "adara",
     "region": "Africa",
@@ -306,6 +313,13 @@
     "tags": [
       "family"
     ]
+  },
+  {
+    "iso": "fui",
+    "name": "Bagirmi Fulfulde",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Atlantic-Congo"
   },
   {
     "name": "Baka",
@@ -777,6 +791,13 @@
     "region": "Africa",
     "category": "Afroasiatic",
     "family": "Chadic"
+  },
+  {
+    "iso": "fue",
+    "name": "Borgu Fulfulde",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Atlantic-Congo"
   },
   {
     "name": "Boze",
@@ -1399,6 +1420,20 @@
     "family": "Senegambian (Atlantic)"
   },
   {
+    "iso": "fuc",
+    "name": "Fulani",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Atlantic-Congo"
+  },
+  {
+    "iso": "ff",
+    "name": "Fulfulde",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Atlantic-Congo"
+  },
+  {
     "name": "Fungor",
     "iso": "fungor",
     "region": "Africa",
@@ -1881,6 +1916,13 @@
     "family": "Chadic"
   },
   {
+    "iso": "kck",
+    "name": "Kalanga Shona",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Atlantic-Congo"
+  },
+  {
     "name": "Kamwe",
     "iso": "kamwe",
     "region": "Africa",
@@ -1900,6 +1942,13 @@
     "region": "Africa",
     "category": "Nilo-Saharan",
     "wikipedia": "https://en.wikipedia.org/wiki/Kanuri_language",
+    "family": "Saharan"
+  },
+  {
+    "iso": "kau",
+    "name": "Kanuri Names",
+    "region": "Africa",
+    "category": "Nilo-Saharan",
     "family": "Saharan"
   },
   {
@@ -1961,6 +2010,13 @@
     "family": "Bantu"
   },
   {
+    "iso": "kin",
+    "name": "Kinyarwanda Names",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Bantu"
+  },
+  {
     "name": "Kir-Balar",
     "iso": "kir-balar",
     "region": "Africa",
@@ -1973,6 +2029,13 @@
     "region": "Africa",
     "category": "Niger-Congo",
     "wikipedia": "https://en.wikipedia.org/wiki/Kirundi",
+    "family": "Bantu"
+  },
+  {
+    "iso": "run",
+    "name": "Kirundi Names",
+    "region": "Africa",
+    "category": "Niger-Congo",
     "family": "Bantu"
   },
   {
@@ -1998,6 +2061,13 @@
     "family": "Bantu"
   },
   {
+    "iso": "kon",
+    "name": "Kongo Names",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Bantu"
+  },
+  {
     "name": "Krio",
     "iso": "krio",
     "region": "Africa",
@@ -2008,6 +2078,13 @@
       "creole"
     ],
     "lexifier": "English"
+  },
+  {
+    "iso": "kri",
+    "name": "Krio Names",
+    "region": "Africa",
+    "category": "English Creole",
+    "family": "Krio"
   },
   {
     "name": "Kubi",
@@ -2131,8 +2208,22 @@
     "family": "Bantu"
   },
   {
+    "iso": "lua",
+    "name": "Luba",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Bantu"
+  },
+  {
     "name": "Luganda",
     "iso": "luganda",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Bantu"
+  },
+  {
+    "iso": "lug",
+    "name": "Luganda Names",
     "region": "Africa",
     "category": "Niger-Congo",
     "family": "Bantu"
@@ -2608,6 +2699,13 @@
     "family": "Bantu"
   },
   {
+    "iso": "nbl",
+    "name": "Ndebele Names",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Nguni"
+  },
+  {
     "name": "Ngambay",
     "iso": "ngambay",
     "region": "Africa",
@@ -2666,6 +2764,13 @@
       "family"
     ],
     "family": "Niger-Congo"
+  },
+  {
+    "iso": "fuv",
+    "name": "Nigerian Fulfulde",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Atlantic-Congo"
   },
   {
     "name": "Nigerian Pidgin",
@@ -2811,6 +2916,13 @@
     "region": "Africa",
     "category": "Unclassified",
     "family": "Unclassified"
+  },
+  {
+    "iso": "orm",
+    "name": "Oromo Names",
+    "region": "Africa",
+    "category": "Afro-Asiatic",
+    "family": "Cushitic"
   },
   {
     "name": "Oromoid",
@@ -3055,6 +3167,13 @@
     "family": "Sandawe isolate"
   },
   {
+    "iso": "sgb",
+    "name": "Sanga Shona",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Atlantic-Congo"
+  },
+  {
     "name": "Sango",
     "iso": "sango",
     "region": "Africa",
@@ -3273,6 +3392,13 @@
     ]
   },
   {
+    "iso": "som",
+    "name": "Somali Names",
+    "region": "Africa",
+    "category": "Afro-Asiatic",
+    "family": "Cushitic"
+  },
+  {
     "name": "Somrai",
     "iso": "somrai",
     "region": "Africa",
@@ -3300,6 +3426,13 @@
     "region": "Africa",
     "category": "Niger-Congo",
     "family": "Niger-Congo"
+  },
+  {
+    "iso": "sot",
+    "name": "Sotho Names",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Bantu"
   },
   {
     "name": "South Banda",
@@ -3485,6 +3618,13 @@
     "region": "Africa",
     "category": "Niger-Congo",
     "family": "Niger-Congo"
+  },
+  {
+    "iso": "ssz",
+    "name": "Swazi Names",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Bantu"
   },
   {
     "name": "Syer-Tenyer",
@@ -3709,6 +3849,13 @@
     "family": "Zenati Berber"
   },
   {
+    "iso": "tir",
+    "name": "Tigrinya Names",
+    "region": "Africa",
+    "category": "Afro-Asiatic",
+    "family": "Semitic"
+  },
+  {
     "name": "Tikar",
     "iso": "tikar",
     "region": "Africa",
@@ -3820,6 +3967,13 @@
     "family": "Niger-Congo"
   },
   {
+    "iso": "tso",
+    "name": "Tsonga",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Bantu"
+  },
+  {
     "name": "Tsonga or Xitsonga",
     "iso": "tsonga-or-xitsonga",
     "region": "Africa",
@@ -3853,6 +4007,13 @@
     "region": "Africa",
     "category": "Niger-Congo",
     "family": "Niger-Congo"
+  },
+  {
+    "iso": "tsn",
+    "name": "Tswana Names",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Bantu"
   },
   {
     "name": "Tuareg Berber",
@@ -3972,6 +4133,13 @@
     "region": "Africa",
     "category": "Niger-Congo",
     "family": "Niger-Congo"
+  },
+  {
+    "iso": "ven",
+    "name": "Venda Names",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Bantu"
   },
   {
     "name": "Vengo",
@@ -4116,6 +4284,13 @@
     "tags": [
       "family"
     ]
+  },
+  {
+    "iso": "fuh",
+    "name": "Western Niger Fulfulde",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Atlantic-Congo"
   },
   {
     "name": "Western Somali",
@@ -4728,6 +4903,13 @@
     "family": "Bihari"
   },
   {
+    "iso": "arc",
+    "name": "Aramaic Names",
+    "region": "Asia",
+    "category": "Afro-Asiatic",
+    "family": "Semitic"
+  },
+  {
     "name": "Aranadan",
     "iso": "aranadan",
     "region": "Asia",
@@ -4758,6 +4940,20 @@
     "category": "Indo-Aryan",
     "wikipedia": "https://en.wikipedia.org/wiki/Assamese_language",
     "family": "Indo-Aryan"
+  },
+  {
+    "iso": "asm",
+    "name": "Assamese Names",
+    "region": "Asia",
+    "category": "Indo-European",
+    "family": "Indo-Aryan"
+  },
+  {
+    "iso": "aii",
+    "name": "Assyrian Names",
+    "region": "Asia",
+    "category": "Afro-Asiatic",
+    "family": "Semitic"
   },
   {
     "name": "Athpahariya (Athpare)",
@@ -5315,6 +5511,20 @@
     "family": "Western Hindi"
   },
   {
+    "iso": "bns",
+    "name": "Bundeli Names",
+    "region": "Asia",
+    "category": "Indo-European",
+    "family": "Indo-Aryan"
+  },
+  {
+    "iso": "mya",
+    "name": "Burmese Names",
+    "region": "Asia",
+    "category": "Sino-Tibetan",
+    "family": "Tibeto-Burman"
+  },
+  {
     "name": "Burushaski",
     "iso": "burushaski",
     "region": "Asia",
@@ -5328,6 +5538,13 @@
     "region": "Asia",
     "category": "Mongolic",
     "wikipedia": "https://en.wikipedia.org/wiki/Buryat_language",
+    "family": "Mongolic"
+  },
+  {
+    "iso": "bua",
+    "name": "Buryat Names",
+    "region": "Asia",
+    "category": "Mongolic",
     "family": "Mongolic"
   },
   {
@@ -5393,6 +5610,13 @@
     "category": "Austronesian",
     "wikipedia": "https://en.wikipedia.org/wiki/Cebuano_language",
     "family": "Austronesian"
+  },
+  {
+    "iso": "ckb",
+    "name": "Central Kurdish",
+    "region": "Asia",
+    "category": "Indo-European",
+    "family": "Iranian"
   },
   {
     "name": "Central Tai",
@@ -5478,6 +5702,13 @@
     "category": "Indo-Aryan",
     "wikipedia": "https://en.wikipedia.org/wiki/Chhattisgarhi_language",
     "family": "Eastern Hindi"
+  },
+  {
+    "iso": "hne",
+    "name": "Chhattisgarhi Names",
+    "region": "Asia",
+    "category": "Indo-European",
+    "family": "Indo-Aryan"
   },
   {
     "name": "Chiang Saen",
@@ -5772,6 +6003,13 @@
     "category": "Indo-Aryan",
     "wikipedia": "https://en.wikipedia.org/wiki/Dogri_language",
     "family": "Western Pahari"
+  },
+  {
+    "iso": "dgo",
+    "name": "Dogri Names",
+    "region": "Asia",
+    "category": "Indo-European",
+    "family": "Indo-Aryan"
   },
   {
     "name": "Dolpo",
@@ -6118,6 +6356,13 @@
     "family": "Kuki-Chin"
   },
   {
+    "iso": "hak",
+    "name": "Hakka Names",
+    "region": "Asia",
+    "category": "Sino-Tibetan",
+    "family": "Sinitic"
+  },
+  {
     "name": "Halang",
     "iso": "halang-bahnaric",
     "region": "Asia",
@@ -6153,6 +6398,13 @@
     "region": "Asia",
     "category": "Iranian",
     "family": "Iranian"
+  },
+  {
+    "iso": "heb",
+    "name": "Hebrew Names",
+    "region": "Asia",
+    "category": "Afro-Asiatic",
+    "family": "Semitic"
   },
   {
     "name": "Hezhang Buyi",
@@ -6598,6 +6850,13 @@
     "family": "Mongolic"
   },
   {
+    "iso": "xal",
+    "name": "Kalmyk Names",
+    "region": "Asia",
+    "category": "Mongolic",
+    "family": "Mongolic"
+  },
+  {
     "name": "Kaloeng",
     "iso": "kaloeng",
     "region": "Asia",
@@ -6679,11 +6938,25 @@
     "family": "Kipchak Turkic"
   },
   {
+    "iso": "kaa",
+    "name": "Karakalpak Names",
+    "region": "Asia",
+    "category": "Turkic",
+    "family": "Turkic"
+  },
+  {
     "name": "Kashmiri",
     "iso": "kashmiri",
     "region": "Asia",
     "category": "Indo-Aryan",
     "wikipedia": "https://en.wikipedia.org/wiki/Kashmiri_language",
+    "family": "Indo-Aryan"
+  },
+  {
+    "iso": "kas",
+    "name": "Kashmiri Names",
+    "region": "Asia",
+    "category": "Indo-European",
     "family": "Indo-Aryan"
   },
   {
@@ -7025,6 +7298,13 @@
     "family": "Marathi–Konkani"
   },
   {
+    "iso": "kok",
+    "name": "Konkani Names",
+    "region": "Asia",
+    "category": "Indo-European",
+    "family": "Indo-Aryan"
+  },
+  {
     "name": "Koraga",
     "iso": "koraga",
     "region": "Asia",
@@ -7241,6 +7521,13 @@
     "family": "North Dravidian"
   },
   {
+    "iso": "kru",
+    "name": "Kurukh Names",
+    "region": "Asia",
+    "category": "Dravidian",
+    "family": "Dravidian"
+  },
+  {
     "name": "Kurumba",
     "iso": "kurumba",
     "region": "Asia",
@@ -7267,6 +7554,13 @@
     "region": "Asia",
     "category": "Austroasiatic",
     "family": "Katuic"
+  },
+  {
+    "iso": "kir",
+    "name": "Kyrgyz Names",
+    "region": "Asia",
+    "category": "Turkic",
+    "family": "Turkic"
   },
   {
     "name": "Lachi",
@@ -7387,6 +7681,13 @@
     "family": "Kiranti"
   },
   {
+    "iso": "lis",
+    "name": "Lisu Names",
+    "region": "Asia",
+    "category": "Sino-Tibetan",
+    "family": "Tibeto-Burman"
+  },
+  {
     "name": "Loarki",
     "iso": "lrk",
     "region": "Asia",
@@ -7449,6 +7750,13 @@
     "category": "Indo-Aryan",
     "wikipedia": "https://en.wikipedia.org/wiki/Magahi_language",
     "family": "Bihari"
+  },
+  {
+    "iso": "mag",
+    "name": "Magahi Names",
+    "region": "Asia",
+    "category": "Indo-European",
+    "family": "Indo-Aryan"
   },
   {
     "name": "Magar Kham",
@@ -7532,6 +7840,13 @@
     "region": "Asia",
     "category": "Dravidian",
     "family": "South Dravidian"
+  },
+  {
+    "iso": "may",
+    "name": "Malay Expanded",
+    "region": "Asia",
+    "category": "Austronesian",
+    "family": "Malayo-Polynesian"
   },
   {
     "name": "Malayalam",
@@ -7676,6 +7991,13 @@
     "family": "Rajasthani"
   },
   {
+    "iso": "rwr",
+    "name": "Marwari Names",
+    "region": "Asia",
+    "category": "Indo-European",
+    "family": "Indo-Aryan"
+  },
+  {
     "name": "Maumere Malay",
     "iso": "maumere-malay",
     "region": "Asia",
@@ -7738,6 +8060,27 @@
     "tags": [
       "historical"
     ]
+  },
+  {
+    "iso": "mnp",
+    "name": "Min Bei",
+    "region": "Asia",
+    "category": "Sino-Tibetan",
+    "family": "Sinitic"
+  },
+  {
+    "iso": "cdo",
+    "name": "Min Dong",
+    "region": "Asia",
+    "category": "Sino-Tibetan",
+    "family": "Sinitic"
+  },
+  {
+    "iso": "nan",
+    "name": "Min Nan",
+    "region": "Asia",
+    "category": "Sino-Tibetan",
+    "family": "Sinitic"
   },
   {
     "name": "Min Zhuang",
@@ -7806,6 +8149,13 @@
     "region": "Asia",
     "category": "Mongolic",
     "wikipedia": "https://en.wikipedia.org/wiki/Mongolian_language",
+    "family": "Mongolic"
+  },
+  {
+    "iso": "khk",
+    "name": "Mongolian Names",
+    "region": "Asia",
+    "category": "Mongolic",
     "family": "Mongolic"
   },
   {
@@ -8163,6 +8513,13 @@
     "region": "Asia",
     "category": "Indo-Aryan",
     "wikipedia": "https://en.wikipedia.org/wiki/Odia_language",
+    "family": "Indo-Aryan"
+  },
+  {
+    "iso": "ori",
+    "name": "Odia Names",
+    "region": "Asia",
+    "category": "Indo-European",
     "family": "Indo-Aryan"
   },
   {
@@ -8647,6 +9004,13 @@
     ]
   },
   {
+    "iso": "cpx",
+    "name": "Pu-Xian",
+    "region": "Asia",
+    "category": "Sino-Tibetan",
+    "family": "Sinitic"
+  },
+  {
     "name": "Puma",
     "iso": "pum",
     "region": "Asia",
@@ -8716,6 +9080,13 @@
     "category": "Indo-Aryan",
     "wikipedia": "https://en.wikipedia.org/wiki/Rajasthani_languages",
     "family": "Rajasthani"
+  },
+  {
+    "iso": "raj",
+    "name": "Rajasthani Names",
+    "region": "Asia",
+    "category": "Indo-European",
+    "family": "Indo-Aryan"
   },
   {
     "name": "Rajbanshi",
@@ -9251,6 +9622,13 @@
     "lexifier": "Portuguese"
   },
   {
+    "iso": "zsm",
+    "name": "Standard Malay",
+    "region": "Asia",
+    "category": "Austronesian",
+    "family": "Malayo-Polynesian"
+  },
+  {
     "name": "Standard Tibetan",
     "iso": "tibetan",
     "region": "Asia",
@@ -9352,6 +9730,13 @@
       "historical",
       "hypothetical"
     ]
+  },
+  {
+    "iso": "tgl",
+    "name": "Tagalog Expanded",
+    "region": "Asia",
+    "category": "Austronesian",
+    "family": "Malayo-Polynesian"
   },
   {
     "name": "Tai",
@@ -9485,6 +9870,13 @@
     "region": "Asia",
     "category": "Tai-Kadai",
     "family": "Tai-Kadai"
+  },
+  {
+    "iso": "tgk",
+    "name": "Tajik Names",
+    "region": "Asia",
+    "category": "Indo-European",
+    "family": "Iranian"
   },
   {
     "name": "Takua",
@@ -9669,6 +10061,13 @@
     "family": "Kiranti"
   },
   {
+    "iso": "bod",
+    "name": "Tibetan",
+    "region": "Asia",
+    "category": "Sino-Tibetan",
+    "family": "Tibeto-Burman"
+  },
+  {
     "name": "Tichurong",
     "iso": "tcn",
     "region": "Asia",
@@ -9770,6 +10169,13 @@
     "tags": [
       "family"
     ]
+  },
+  {
+    "iso": "tuk",
+    "name": "Turkmen Names",
+    "region": "Asia",
+    "category": "Turkic",
+    "family": "Turkic"
   },
   {
     "name": "Turung",
@@ -10022,6 +10428,20 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Western_Pahari_languages"
   },
   {
+    "iso": "pnb",
+    "name": "Western Punjabi",
+    "region": "Asia",
+    "category": "Indo-European",
+    "family": "Indo-Aryan"
+  },
+  {
+    "iso": "wuu",
+    "name": "Wu Chinese",
+    "region": "Asia",
+    "category": "Sino-Tibetan",
+    "family": "Sinitic"
+  },
+  {
     "name": "Xibe",
     "iso": "xibe",
     "region": "Asia",
@@ -10084,6 +10504,13 @@
     "region": "Asia",
     "category": "Dravidian",
     "family": "South Dravidian"
+  },
+  {
+    "iso": "iii",
+    "name": "Yi Names",
+    "region": "Asia",
+    "category": "Sino-Tibetan",
+    "family": "Tibeto-Burman"
   },
   {
     "name": "Yonaguni",
@@ -14449,6 +14876,13 @@
     ]
   },
   {
+    "iso": "abk",
+    "name": "Abkhaz Names",
+    "region": "Europe",
+    "category": "Northwest Caucasian",
+    "family": "Abkhaz"
+  },
+  {
     "name": "Abruzzese",
     "iso": "abruzzese",
     "region": "Europe",
@@ -14475,6 +14909,13 @@
     "category": "Indo-European",
     "wikipedia": "https://en.wikipedia.org/wiki/Albanian_language",
     "family": "Indo-European"
+  },
+  {
+    "iso": "sqi",
+    "name": "Albanian Names",
+    "region": "Europe",
+    "category": "Indo-European",
+    "family": "Albanian"
   },
   {
     "name": "Alentejan",
@@ -14698,6 +15139,13 @@
     ]
   },
   {
+    "iso": "bak",
+    "name": "Bashkir Names",
+    "region": "Europe",
+    "category": "Turkic",
+    "family": "Turkic"
+  },
+  {
     "name": "Basilicatine",
     "iso": "basilicatine",
     "region": "Europe",
@@ -14746,6 +15194,13 @@
     "category": "Slavic",
     "wikipedia": "https://en.wikipedia.org/wiki/Belarusian_language",
     "family": "East Slavic"
+  },
+  {
+    "iso": "bel",
+    "name": "Belarusian Names",
+    "region": "Europe",
+    "category": "Indo-European",
+    "family": "Slavic"
   },
   {
     "name": "Benasquese",
@@ -14810,6 +15265,13 @@
     "region": "Europe",
     "category": "Celtic",
     "wikipedia": "https://en.wikipedia.org/wiki/Breton_language",
+    "family": "Celtic"
+  },
+  {
+    "iso": "bre",
+    "name": "Breton Names",
+    "region": "Europe",
+    "category": "Indo-European",
     "family": "Celtic"
   },
   {
@@ -15020,6 +15482,13 @@
     "family": "Oïl Dialects"
   },
   {
+    "iso": "che",
+    "name": "Chechen Names",
+    "region": "Europe",
+    "category": "Northeast Caucasian",
+    "family": "Nakh"
+  },
+  {
     "name": "Cheso",
     "iso": "cheso",
     "region": "Europe",
@@ -15043,6 +15512,13 @@
     "family": "Oghur Turkic"
   },
   {
+    "iso": "chv",
+    "name": "Chuvash Names",
+    "region": "Europe",
+    "category": "Turkic",
+    "family": "Turkic"
+  },
+  {
     "name": "Cilentan",
     "iso": "cilentan",
     "region": "Europe",
@@ -15055,6 +15531,13 @@
     "region": "Europe",
     "category": "Germanic",
     "family": "Germanic"
+  },
+  {
+    "iso": "ady",
+    "name": "Circassian Names",
+    "region": "Europe",
+    "category": "Northwest Caucasian",
+    "family": "Circassian"
   },
   {
     "name": "Comasco-Lecchese",
@@ -15072,12 +15555,26 @@
     "family": "Celtic"
   },
   {
+    "iso": "cor",
+    "name": "Cornish Names",
+    "region": "Europe",
+    "category": "Indo-European",
+    "family": "Celtic"
+  },
+  {
     "name": "Corsican",
     "iso": "corsican",
     "region": "Europe",
     "category": "Romance",
     "wikipedia": "https://en.wikipedia.org/wiki/Corsican_language",
     "family": "Corsican"
+  },
+  {
+    "iso": "cos",
+    "name": "Corsican Names",
+    "region": "Europe",
+    "category": "Indo-European",
+    "family": "Romance"
   },
   {
     "name": "Cosentino",
@@ -15162,6 +15659,20 @@
     "category": "Germanic",
     "family": "North Germanic",
     "wikipedia": "https://en.wikipedia.org/wiki/Danish_language"
+  },
+  {
+    "iso": "dan",
+    "name": "Danish Names",
+    "region": "Europe",
+    "category": "Indo-European",
+    "family": "Germanic"
+  },
+  {
+    "iso": "dar",
+    "name": "Dargin",
+    "region": "Europe",
+    "category": "Northeast Caucasian",
+    "family": "Dargin"
   },
   {
     "name": "Dutch",
@@ -15269,6 +15780,13 @@
     "family": "North Estonian"
   },
   {
+    "iso": "est",
+    "name": "Estonian Names",
+    "region": "Europe",
+    "category": "Uralic",
+    "family": "Finno-Ugric"
+  },
+  {
     "name": "Estremenho",
     "iso": "estremenho",
     "region": "Europe",
@@ -15297,6 +15815,13 @@
     "region": "Europe",
     "category": "Romance",
     "family": "Central Italian"
+  },
+  {
+    "iso": "fao",
+    "name": "Faeroese",
+    "region": "Europe",
+    "category": "Indo-European",
+    "family": "Germanic"
   },
   {
     "name": "Faetar",
@@ -15439,6 +15964,13 @@
     "family": "Oghuz Turkic"
   },
   {
+    "iso": "gag",
+    "name": "Gagauz Names",
+    "region": "Europe",
+    "category": "Turkic",
+    "family": "Turkic"
+  },
+  {
     "name": "Galician",
     "iso": "galician",
     "region": "Europe",
@@ -15578,6 +16110,13 @@
     "category": "Germanic",
     "family": "North Germanic",
     "wikipedia": "https://en.wikipedia.org/wiki/Icelandic_language"
+  },
+  {
+    "iso": "inh",
+    "name": "Ingush Names",
+    "region": "Europe",
+    "category": "Northeast Caucasian",
+    "family": "Ingush"
   },
   {
     "name": "Intemelio",
@@ -15767,12 +16306,26 @@
     "family": "Lechitic"
   },
   {
+    "iso": "kom",
+    "name": "Komi",
+    "region": "Europe",
+    "category": "Uralic",
+    "family": "Finno-Ugric"
+  },
+  {
     "name": "Ladin",
     "iso": "ladin-lang",
     "region": "Europe",
     "category": "Romance",
     "wikipedia": "https://en.wikipedia.org/wiki/Ladin_language",
     "family": "Ladin"
+  },
+  {
+    "iso": "lld",
+    "name": "Ladin Names",
+    "region": "Europe",
+    "category": "Indo-European",
+    "family": "Romance"
   },
   {
     "name": "Ladino",
@@ -15817,6 +16370,13 @@
     "family": "Baltic"
   },
   {
+    "iso": "lav",
+    "name": "Latvian Names",
+    "region": "Europe",
+    "category": "Indo-European",
+    "family": "Baltic"
+  },
+  {
     "name": "Law French",
     "iso": "law-french",
     "region": "Europe",
@@ -15829,6 +16389,13 @@
     "region": "Europe",
     "category": "Romance",
     "family": "Astur-Leonese"
+  },
+  {
+    "iso": "lez",
+    "name": "Lezgian",
+    "region": "Europe",
+    "category": "Northeast Caucasian",
+    "family": "Lezgian"
   },
   {
     "name": "Ligurian",
@@ -15861,6 +16428,13 @@
     "family": "Baltic"
   },
   {
+    "iso": "lit",
+    "name": "Lithuanian Names",
+    "region": "Europe",
+    "category": "Indo-European",
+    "family": "Baltic"
+  },
+  {
     "name": "Llanito",
     "iso": "llanito",
     "region": "Europe",
@@ -15881,6 +16455,13 @@
     "category": "Romance",
     "family": "Lombard",
     "wikipedia": "https://en.wikipedia.org/wiki/Lombard_language"
+  },
+  {
+    "iso": "lmo",
+    "name": "Lombard Names",
+    "region": "Europe",
+    "category": "Indo-European",
+    "family": "Romance"
   },
   {
     "name": "Lorrain",
@@ -15927,6 +16508,13 @@
     "category": "Slavic",
     "wikipedia": "https://en.wikipedia.org/wiki/Macedonian_language",
     "family": "Eastern South Slavic"
+  },
+  {
+    "iso": "mkd",
+    "name": "Macedonian Names",
+    "region": "Europe",
+    "category": "Indo-European",
+    "family": "Slavic"
   },
   {
     "name": "Macerata",
@@ -15981,6 +16569,13 @@
     "family": "Celtic"
   },
   {
+    "iso": "glv",
+    "name": "Manx Names",
+    "region": "Europe",
+    "category": "Indo-European",
+    "family": "Celtic"
+  },
+  {
     "name": "Maramureș",
     "iso": "maramure-",
     "region": "Europe",
@@ -15991,6 +16586,13 @@
       "romanian",
       "maramures"
     ]
+  },
+  {
+    "iso": "mhr",
+    "name": "Mari",
+    "region": "Europe",
+    "category": "Uralic",
+    "family": "Finno-Ugric"
   },
   {
     "name": "Mayennais",
@@ -16107,6 +16709,13 @@
     "family": "Western South Slavic"
   },
   {
+    "iso": "mdf",
+    "name": "Mordvin",
+    "region": "Europe",
+    "category": "Uralic",
+    "family": "Finno-Ugric"
+  },
+  {
     "name": "Moselle Romance",
     "iso": "moselle-romance",
     "region": "Europe",
@@ -16151,6 +16760,13 @@
     "category": "Romance",
     "wikipedia": "https://en.wikipedia.org/wiki/Neapolitan_language",
     "family": "Neapolitan"
+  },
+  {
+    "iso": "nap",
+    "name": "Neapolitan Names",
+    "region": "Europe",
+    "category": "Indo-European",
+    "family": "Romance"
   },
   {
     "name": "Niçard",
@@ -16218,6 +16834,13 @@
     "family": "Northern Sami"
   },
   {
+    "iso": "sme",
+    "name": "Northern Sami Names",
+    "region": "Europe",
+    "category": "Uralic",
+    "family": "Finno-Ugric"
+  },
+  {
     "name": "Northwestern Catalan",
     "iso": "northwestern-catalan",
     "region": "Europe",
@@ -16233,6 +16856,13 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Norwegian_language"
   },
   {
+    "iso": "nor",
+    "name": "Norwegian Names",
+    "region": "Europe",
+    "category": "Indo-European",
+    "family": "Germanic"
+  },
+  {
     "name": "Novarese",
     "iso": "novarese",
     "region": "Europe",
@@ -16246,6 +16876,13 @@
     "category": "Romance",
     "wikipedia": "https://en.wikipedia.org/wiki/Occitan_language",
     "family": "Dialects"
+  },
+  {
+    "iso": "oci",
+    "name": "Occitan Names",
+    "region": "Europe",
+    "category": "Indo-European",
+    "family": "Romance"
   },
   {
     "name": "Old Catalan",
@@ -16384,6 +17021,13 @@
     "family": "Oïl Dialects"
   },
   {
+    "iso": "oss",
+    "name": "Ossetian Names",
+    "region": "Europe",
+    "category": "Indo-European",
+    "family": "Iranian"
+  },
+  {
     "name": "Ossolano",
     "iso": "ossolano",
     "region": "Europe",
@@ -16470,6 +17114,13 @@
     "region": "Europe",
     "category": "Romance",
     "family": "Piedmontese"
+  },
+  {
+    "iso": "pms",
+    "name": "Piedmontese Names",
+    "region": "Europe",
+    "category": "Indo-European",
+    "family": "Romance"
   },
   {
     "name": "Pisano-Livornese",
@@ -16658,6 +17309,13 @@
     "family": "Indo-Aryan"
   },
   {
+    "iso": "rom",
+    "name": "Romani Names",
+    "region": "Europe",
+    "category": "Indo-European",
+    "family": "Indo-Aryan"
+  },
+  {
     "name": "Romanian",
     "iso": "romanian",
     "region": "Europe",
@@ -16745,6 +17403,13 @@
     "family": "Sardinian"
   },
   {
+    "iso": "srd",
+    "name": "Sardinian Names",
+    "region": "Europe",
+    "category": "Indo-European",
+    "family": "Romance"
+  },
+  {
     "name": "Sardo-Corsican",
     "iso": "sardo-corsican",
     "region": "Europe",
@@ -16805,12 +17470,26 @@
     "region": "Europe"
   },
   {
+    "iso": "sty",
+    "name": "Siberian Tatar",
+    "region": "Europe",
+    "category": "Turkic",
+    "family": "Turkic"
+  },
+  {
     "name": "Sicilian",
     "iso": "sicilian",
     "region": "Europe",
     "category": "Romance",
     "wikipedia": "https://en.wikipedia.org/wiki/Sicilian_language",
     "family": "Sicilian"
+  },
+  {
+    "iso": "scn",
+    "name": "Sicilian Names",
+    "region": "Europe",
+    "category": "Indo-European",
+    "family": "Romance"
   },
   {
     "name": "Silesian",
@@ -16837,12 +17516,26 @@
     "family": "Czech-Slovak"
   },
   {
+    "iso": "slk",
+    "name": "Slovak Names",
+    "region": "Europe",
+    "category": "Indo-European",
+    "family": "Slavic"
+  },
+  {
     "name": "Slovene",
     "iso": "slovene",
     "region": "Europe",
     "category": "Slavic",
     "wikipedia": "https://en.wikipedia.org/wiki/Slovene_language",
     "family": "Western South Slavic"
+  },
+  {
+    "iso": "slv",
+    "name": "Slovenian",
+    "region": "Europe",
+    "category": "Indo-European",
+    "family": "Slavic"
   },
   {
     "name": "Slovincian",
@@ -16900,6 +17593,13 @@
     "region": "Europe",
     "category": "Romance",
     "family": "Neapolitan"
+  },
+  {
+    "iso": "sma",
+    "name": "Southern Sami Names",
+    "region": "Europe",
+    "category": "Uralic",
+    "family": "Finno-Ugric"
   },
   {
     "name": "Spanish",
@@ -17009,6 +17709,13 @@
     "family": "Neapolitan"
   },
   {
+    "iso": "tat",
+    "name": "Tatar Names",
+    "region": "Europe",
+    "category": "Turkic",
+    "family": "Turkic"
+  },
+  {
     "name": "Ticinese",
     "iso": "ticinese",
     "region": "Europe",
@@ -17067,6 +17774,13 @@
     "category": "Uralic",
     "wikipedia": "https://en.wikipedia.org/wiki/Udmurt_language",
     "family": "Udmurt"
+  },
+  {
+    "iso": "udm",
+    "name": "Udmurt Names",
+    "region": "Europe",
+    "category": "Uralic",
+    "family": "Finno-Ugric"
   },
   {
     "name": "Ukrainian",
@@ -17149,6 +17863,13 @@
     "family": "Venetian"
   },
   {
+    "iso": "vec",
+    "name": "Venetian Names",
+    "region": "Europe",
+    "category": "Indo-European",
+    "family": "Romance"
+  },
+  {
     "name": "Versiliese",
     "iso": "versiliese",
     "region": "Europe",
@@ -17217,6 +17938,13 @@
     "region": "Europe",
     "category": "Celtic",
     "wikipedia": "https://en.wikipedia.org/wiki/Welsh_language",
+    "family": "Celtic"
+  },
+  {
+    "iso": "cym",
+    "name": "Welsh Names",
+    "region": "Europe",
+    "category": "Indo-European",
     "family": "Celtic"
   },
   {
@@ -21165,6 +21893,104 @@
     "category": "Language isolate",
     "family": "Zuni isolate",
     "wikipedia": "https://en.wikipedia.org/wiki/Zuni_language"
+  },
+  {
+    "iso": "cha",
+    "name": "Chamorro Names",
+    "region": "Oceania",
+    "category": "Austronesian",
+    "family": "Chamorro"
+  },
+  {
+    "iso": "chk",
+    "name": "Chuukese",
+    "region": "Oceania",
+    "category": "Austronesian",
+    "family": "Chuukic"
+  },
+  {
+    "iso": "fij",
+    "name": "Fijian Names",
+    "region": "Oceania",
+    "category": "Austronesian",
+    "family": "Malayo-Polynesian"
+  },
+  {
+    "iso": "haw",
+    "name": "Hawaiian Names",
+    "region": "Oceania",
+    "category": "Austronesian",
+    "family": "Malayo-Polynesian"
+  },
+  {
+    "iso": "gil",
+    "name": "Kiribati Names",
+    "region": "Oceania",
+    "category": "Austronesian",
+    "family": "Gilbertese"
+  },
+  {
+    "iso": "mri",
+    "name": "Maori Names",
+    "region": "Oceania",
+    "category": "Austronesian",
+    "family": "Malayo-Polynesian"
+  },
+  {
+    "iso": "mrq",
+    "name": "Marquesan",
+    "region": "Oceania",
+    "category": "Austronesian",
+    "family": "Malayo-Polynesian"
+  },
+  {
+    "iso": "mah",
+    "name": "Marshallese Names",
+    "region": "Oceania",
+    "category": "Austronesian",
+    "family": "Marshallese"
+  },
+  {
+    "iso": "pau",
+    "name": "Palauan Names",
+    "region": "Oceania",
+    "category": "Austronesian",
+    "family": "Palauan"
+  },
+  {
+    "iso": "pon",
+    "name": "Pohnpeian",
+    "region": "Oceania",
+    "category": "Austronesian",
+    "family": "Pohnpeic"
+  },
+  {
+    "iso": "rap",
+    "name": "Rapa Nui Names",
+    "region": "Oceania",
+    "category": "Austronesian",
+    "family": "Malayo-Polynesian"
+  },
+  {
+    "iso": "smo",
+    "name": "Samoan Names",
+    "region": "Oceania",
+    "category": "Austronesian",
+    "family": "Malayo-Polynesian"
+  },
+  {
+    "iso": "tah",
+    "name": "Tahitian Names",
+    "region": "Oceania",
+    "category": "Austronesian",
+    "family": "Malayo-Polynesian"
+  },
+  {
+    "iso": "ton",
+    "name": "Tongan Names",
+    "region": "Oceania",
+    "category": "Austronesian",
+    "family": "Malayo-Polynesian"
   },
   {
     "name": "Abaga",
@@ -26400,6 +27226,13 @@
     "family": "Aymaran"
   },
   {
+    "iso": "aym",
+    "name": "Aymara Names",
+    "region": "South America",
+    "category": "Language Isolate",
+    "family": "Aymaran"
+  },
+  {
     "name": "Ayoreo",
     "iso": "ayo",
     "region": "South America",
@@ -26666,6 +27499,13 @@
     "family": "Tupian"
   },
   {
+    "iso": "gug",
+    "name": "Guarani Names",
+    "region": "South America",
+    "category": "Tupian",
+    "family": "Tupi-Guarani"
+  },
+  {
     "name": "Guarayu",
     "iso": "gyr",
     "region": "South America",
@@ -26773,6 +27613,13 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Kanamari_language"
   },
   {
+    "iso": "cak",
+    "name": "Kaqchikel Names",
+    "region": "South America",
+    "category": "Mayan",
+    "family": "Mayan"
+  },
+  {
     "name": "Karajá",
     "iso": "kpj",
     "region": "South America",
@@ -26803,6 +27650,13 @@
     "category": "Macro-Jê",
     "family": "Macro-Jê",
     "wikipedia": "https://en.wikipedia.org/wiki/Kayapo_language"
+  },
+  {
+    "iso": "quc",
+    "name": "Kiche",
+    "region": "South America",
+    "category": "Mayan",
+    "family": "Mayan"
   },
   {
     "name": "Kichwa",
@@ -26887,6 +27741,13 @@
     "family": "Araucanian"
   },
   {
+    "iso": "arn",
+    "name": "Mapudungun Names",
+    "region": "South America",
+    "category": "Araucanian",
+    "family": "Mapudungun"
+  },
+  {
     "name": "Matawai",
     "iso": "matawai",
     "region": "South America",
@@ -26896,6 +27757,13 @@
       "creole"
     ],
     "lexifier": "English"
+  },
+  {
+    "iso": "yua",
+    "name": "Maya Yucatec",
+    "region": "South America",
+    "category": "Mayan",
+    "family": "Mayan"
   },
   {
     "name": "Mineiro",
@@ -26911,6 +27779,13 @@
     "category": "Witotoan",
     "family": "Witotoan",
     "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:hto"
+  },
+  {
+    "iso": "mig",
+    "name": "Mixtec Names",
+    "region": "South America",
+    "category": "Oto-Manguean",
+    "family": "Mixtecan"
   },
   {
     "name": "Mocoví",
@@ -27006,6 +27881,13 @@
     "family": "Chonan"
   },
   {
+    "iso": "oto",
+    "name": "Otomi Names",
+    "region": "South America",
+    "category": "Oto-Manguean",
+    "family": "Oto-Manguean"
+  },
+  {
     "name": "Páez",
     "iso": "pbb",
     "region": "South America",
@@ -27080,6 +27962,13 @@
     "category": "Isolate",
     "family": "Puinave isolate",
     "wikipedia": "https://en.wikipedia.org/wiki/Puinave_language"
+  },
+  {
+    "iso": "tsz",
+    "name": "Purepecha Expanded",
+    "region": "South America",
+    "category": "Language Isolate",
+    "family": "Purepecha"
   },
   {
     "name": "Quechua",
@@ -27298,6 +28187,20 @@
     "family": "Tupian"
   },
   {
+    "iso": "tzh",
+    "name": "Tzeltal Names",
+    "region": "South America",
+    "category": "Mayan",
+    "family": "Mayan"
+  },
+  {
+    "iso": "tzo",
+    "name": "Tzotzil Names",
+    "region": "South America",
+    "category": "Mayan",
+    "family": "Mayan"
+  },
+  {
     "name": "Uruguayan Portuguese",
     "iso": "uruguayan-portuguese",
     "region": "South America",
@@ -27389,6 +28292,13 @@
     "family": "Arawakan"
   },
   {
+    "iso": "guc",
+    "name": "Wayuu Names",
+    "region": "South America",
+    "category": "Arawakan",
+    "family": "Arawakan"
+  },
+  {
     "name": "Wichí Lhamtés Nocten (Weenhayek)",
     "iso": "mtp",
     "region": "South America",
@@ -27477,6 +28387,13 @@
     "category": "Language isolate",
     "family": "Yuracaré isolate",
     "wikipedia": "https://en.wikipedia.org/wiki/Yuracar%C3%A9_language"
+  },
+  {
+    "iso": "zap",
+    "name": "Zapotec Names",
+    "region": "South America",
+    "category": "Oto-Manguean",
+    "family": "Zapotecan"
   },
   {
     "name": "Khasi native-speakers subset",
