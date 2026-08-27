@@ -169,6 +169,13 @@
     "family": "Semitic"
   },
   {
+    "iso": "amh3",
+    "name": "Amharic Expanded 4",
+    "region": "Africa",
+    "category": "Afro-Asiatic",
+    "family": "Semitic"
+  },
+  {
     "name": "Amira",
     "iso": "amira",
     "region": "Africa",
@@ -1818,6 +1825,13 @@
     "family": "Chadic"
   },
   {
+    "iso": "hau2",
+    "name": "Hausa Expanded 3",
+    "region": "Africa",
+    "category": "Afro-Asiatic",
+    "family": "Chadic"
+  },
+  {
     "name": "Hausa-Gwandara family",
     "iso": "hausa-gwandara-languages",
     "region": "Africa",
@@ -1897,6 +1911,13 @@
     "category": "Niger-Congo",
     "wikipedia": "https://en.wikipedia.org/wiki/Igbo_language",
     "family": "Igboid"
+  },
+  {
+    "iso": "ibo3",
+    "name": "Igbo Expanded 3",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Atlantic-Congo"
   },
   {
     "name": "Jalaa",
@@ -2094,6 +2115,13 @@
     "family": "Bantu"
   },
   {
+    "iso": "kin2",
+    "name": "Kinyarwanda Expanded 2",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Bantu"
+  },
+  {
     "iso": "kin",
     "name": "Kinyarwanda Names",
     "region": "Africa",
@@ -2113,6 +2141,13 @@
     "region": "Africa",
     "category": "Niger-Congo",
     "wikipedia": "https://en.wikipedia.org/wiki/Kirundi",
+    "family": "Bantu"
+  },
+  {
+    "iso": "run2",
+    "name": "Kirundi Expanded 2",
+    "region": "Africa",
+    "category": "Niger-Congo",
     "family": "Bantu"
   },
   {
@@ -2291,6 +2326,13 @@
     "family": "Bantu"
   },
   {
+    "iso": "lin",
+    "name": "Lingala Names",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Bantu"
+  },
+  {
     "name": "Lozi",
     "iso": "lozi",
     "region": "Africa",
@@ -2308,6 +2350,13 @@
   {
     "name": "Luganda",
     "iso": "luganda",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Bantu"
+  },
+  {
+    "iso": "lug2",
+    "name": "Luganda Expanded 2",
     "region": "Africa",
     "category": "Niger-Congo",
     "family": "Bantu"
@@ -3051,6 +3100,13 @@
     "family": "Cushitic"
   },
   {
+    "iso": "orm3",
+    "name": "Oromo Expanded 3",
+    "region": "Africa",
+    "category": "Afro-Asiatic",
+    "family": "Cushitic"
+  },
+  {
     "iso": "orm",
     "name": "Oromo Names",
     "region": "Africa",
@@ -3550,6 +3606,13 @@
     "family": "Cushitic"
   },
   {
+    "iso": "som3",
+    "name": "Somali Expanded 3",
+    "region": "Africa",
+    "category": "Afro-Asiatic",
+    "family": "Cushitic"
+  },
+  {
     "name": "Somali family",
     "iso": "somali-languages",
     "region": "Africa",
@@ -3785,6 +3848,13 @@
     "region": "Africa",
     "category": "Niger-Congo",
     "wikipedia": "https://en.wikipedia.org/wiki/Swahili_language",
+    "family": "Bantu"
+  },
+  {
+    "iso": "swa2",
+    "name": "Swahili Expanded 3",
+    "region": "Africa",
+    "category": "Niger-Congo",
     "family": "Bantu"
   },
   {
@@ -4033,6 +4103,13 @@
   {
     "iso": "tir2",
     "name": "Tigrinya Expanded 3",
+    "region": "Africa",
+    "category": "Afro-Asiatic",
+    "family": "Semitic"
+  },
+  {
+    "iso": "tir3",
+    "name": "Tigrinya Expanded 4",
     "region": "Africa",
     "category": "Afro-Asiatic",
     "family": "Semitic"
@@ -4547,6 +4624,13 @@
     "family": "Bantu"
   },
   {
+    "iso": "xho2",
+    "name": "Xhosa Expanded 3",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Bantu"
+  },
+  {
     "name": "Yalunka",
     "iso": "yalunka",
     "region": "Africa",
@@ -4628,6 +4712,13 @@
   {
     "iso": "yor2",
     "name": "Yoruba Expanded 2",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Atlantic-Congo"
+  },
+  {
+    "iso": "yor3",
+    "name": "Yoruba Expanded 3",
     "region": "Africa",
     "category": "Niger-Congo",
     "family": "Atlantic-Congo"
@@ -4758,6 +4849,13 @@
     "region": "Africa",
     "category": "Niger-Congo",
     "wikipedia": "https://en.wikipedia.org/wiki/Zulu_language",
+    "family": "Bantu"
+  },
+  {
+    "iso": "zul2",
+    "name": "Zulu Expanded 3",
+    "region": "Africa",
+    "category": "Niger-Congo",
     "family": "Bantu"
   },
   {
