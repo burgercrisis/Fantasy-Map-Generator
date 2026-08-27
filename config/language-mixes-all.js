@@ -162,6 +162,13 @@
     "family": "Fur"
   },
   {
+    "iso": "amh2",
+    "name": "Amharic Expanded 3",
+    "region": "Africa",
+    "category": "Afro-Asiatic",
+    "family": "Semitic"
+  },
+  {
     "name": "Amira",
     "iso": "amira",
     "region": "Africa",
@@ -3037,6 +3044,13 @@
     "family": "Unclassified"
   },
   {
+    "iso": "orm2",
+    "name": "Oromo Expanded 2",
+    "region": "Africa",
+    "category": "Afro-Asiatic",
+    "family": "Cushitic"
+  },
+  {
     "iso": "orm",
     "name": "Oromo Names",
     "region": "Africa",
@@ -3529,6 +3543,13 @@
     "family": "Niger-Congo"
   },
   {
+    "iso": "som2",
+    "name": "Somali Expanded 2",
+    "region": "Africa",
+    "category": "Afro-Asiatic",
+    "family": "Cushitic"
+  },
+  {
     "name": "Somali family",
     "iso": "somali-languages",
     "region": "Africa",
@@ -4008,6 +4029,13 @@
     "category": "Afroasiatic",
     "wikipedia": "https://en.wikipedia.org/wiki/Tidikelt_language",
     "family": "Zenati Berber"
+  },
+  {
+    "iso": "tir2",
+    "name": "Tigrinya Expanded 3",
+    "region": "Africa",
+    "category": "Afro-Asiatic",
+    "family": "Semitic"
   },
   {
     "iso": "tir",
@@ -6325,6 +6353,13 @@
     "family": "Bodish"
   },
   {
+    "iso": "dzo",
+    "name": "Dzongkha Names",
+    "region": "Asia",
+    "category": "Sino-Tibetan",
+    "family": "Tibeto-Burman"
+  },
+  {
     "name": "E Tai",
     "iso": "e-tai",
     "region": "Asia",
@@ -7181,6 +7216,13 @@
     "family": "South Dravidian"
   },
   {
+    "iso": "kan2",
+    "name": "Kannada Expanded 2",
+    "region": "Asia",
+    "category": "Dravidian",
+    "family": "Dravidian"
+  },
+  {
     "name": "Kapampangan",
     "iso": "kapampangan",
     "region": "Asia",
@@ -7758,6 +7800,13 @@
     "family": "Iranian"
   },
   {
+    "iso": "kur3",
+    "name": "Kurdish Expanded 2",
+    "region": "Asia",
+    "category": "Indo-European",
+    "family": "Iranian"
+  },
+  {
     "name": "Kurichiya",
     "iso": "kurichiya",
     "region": "Asia",
@@ -8149,6 +8198,13 @@
     "category": "Dravidian",
     "wikipedia": "https://en.wikipedia.org/wiki/Malayalam",
     "family": "South Dravidian"
+  },
+  {
+    "iso": "mal2",
+    "name": "Malayalam Expanded 2",
+    "region": "Asia",
+    "category": "Dravidian",
+    "family": "Dravidian"
   },
   {
     "name": "Malpande",
@@ -8660,6 +8716,13 @@
     "family": "Eastern Pahari"
   },
   {
+    "iso": "nep2",
+    "name": "Nepali Expanded 2",
+    "region": "Asia",
+    "category": "Indo-European",
+    "family": "Indo-Aryan"
+  },
+  {
     "name": "Nicobarese languages",
     "iso": "nicobarese",
     "region": "Asia",
@@ -9068,6 +9131,13 @@
     "category": "Indo-Iranian",
     "wikipedia": "https://en.wikipedia.org/wiki/Pashto",
     "family": "Indo-Iranian"
+  },
+  {
+    "iso": "pst2",
+    "name": "Pashto Expanded 2",
+    "region": "Asia",
+    "category": "Indo-European",
+    "family": "Iranian"
   },
   {
     "name": "Pashto, Central",
@@ -9804,11 +9874,25 @@
     "family": "Indo-Aryan"
   },
   {
+    "iso": "snd2",
+    "name": "Sindhi Expanded 2",
+    "region": "Asia",
+    "category": "Indo-European",
+    "family": "Indo-Aryan"
+  },
+  {
     "name": "Sinhala",
     "iso": "sinhala",
     "region": "Asia",
     "category": "Indo-Aryan",
     "wikipedia": "https://en.wikipedia.org/wiki/Sinhalese_language",
+    "family": "Indo-Aryan"
+  },
+  {
+    "iso": "sin2",
+    "name": "Sinhala Expanded 2",
+    "region": "Asia",
+    "category": "Indo-European",
     "family": "Indo-Aryan"
   },
   {
@@ -10244,6 +10328,13 @@
     "family": "South Dravidian"
   },
   {
+    "iso": "tam2",
+    "name": "Tamil Expanded 2",
+    "region": "Asia",
+    "category": "Dravidian",
+    "family": "Dravidian"
+  },
+  {
     "name": "Tampuan",
     "iso": "tampuan-bahnaric",
     "region": "Asia",
@@ -10302,6 +10393,13 @@
     "category": "Dravidian",
     "wikipedia": "https://en.wikipedia.org/wiki/Telugu_language",
     "family": "South-Central Dravidian"
+  },
+  {
+    "iso": "tel2",
+    "name": "Telugu Expanded 2",
+    "region": "Asia",
+    "category": "Dravidian",
+    "family": "Dravidian"
   },
   {
     "name": "Temiar",
@@ -15674,6 +15772,13 @@
     "family": "Celtic"
   },
   {
+    "iso": "bre3",
+    "name": "Breton Expanded 3",
+    "region": "Europe",
+    "category": "Indo-European",
+    "family": "Celtic"
+  },
+  {
     "iso": "bre",
     "name": "Breton Names",
     "region": "Europe",
@@ -15970,6 +16075,13 @@
   {
     "iso": "cor2",
     "name": "Cornish Expanded 2",
+    "region": "Europe",
+    "category": "Indo-European",
+    "family": "Celtic"
+  },
+  {
+    "iso": "cor3",
+    "name": "Cornish Expanded 3",
     "region": "Europe",
     "category": "Indo-European",
     "family": "Celtic"
@@ -17024,6 +17136,13 @@
     "family": "Celtic"
   },
   {
+    "iso": "glv2",
+    "name": "Manx Expanded 2",
+    "region": "Europe",
+    "category": "Indo-European",
+    "family": "Celtic"
+  },
+  {
     "iso": "glv",
     "name": "Manx Names",
     "region": "Europe",
@@ -17287,6 +17406,13 @@
     "category": "Uralic",
     "wikipedia": "https://en.wikipedia.org/wiki/Northern_Sami",
     "family": "Northern Sami"
+  },
+  {
+    "iso": "sme2",
+    "name": "Northern Sami Expanded 2",
+    "region": "Europe",
+    "category": "Uralic",
+    "family": "Finno-Ugric"
   },
   {
     "iso": "sme",
@@ -17916,6 +18042,13 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Scots_language"
   },
   {
+    "iso": "gla2",
+    "name": "Scots Gaelic Expanded 2",
+    "region": "Europe",
+    "category": "Indo-European",
+    "family": "Celtic"
+  },
+  {
     "name": "Senese",
     "iso": "senese",
     "region": "Europe",
@@ -18419,6 +18552,13 @@
   {
     "iso": "cym2",
     "name": "Welsh Expanded 2",
+    "region": "Europe",
+    "category": "Indo-European",
+    "family": "Celtic"
+  },
+  {
+    "iso": "cym3",
+    "name": "Welsh Expanded 3",
     "region": "Europe",
     "category": "Indo-European",
     "family": "Celtic"
@@ -21721,6 +21861,13 @@
     "family": "Iroquoian"
   },
   {
+    "iso": "chr2",
+    "name": "Cherokee Expanded 2",
+    "region": "North America",
+    "category": "Iroquoian",
+    "family": "Iroquoian"
+  },
+  {
     "iso": "chr",
     "name": "Cherokee Names",
     "region": "North America",
@@ -21826,6 +21973,13 @@
   {
     "iso": "cre2",
     "name": "Cree Expanded",
+    "region": "North America",
+    "category": "Algic",
+    "family": "Algonquian"
+  },
+  {
+    "iso": "cre3",
+    "name": "Cree Expanded 2",
     "region": "North America",
     "category": "Algic",
     "family": "Algonquian"
@@ -21984,6 +22138,20 @@
     "category": "Algonquian",
     "wikipedia": "https://en.wikipedia.org/wiki/Innu_language",
     "family": "Algonquian"
+  },
+  {
+    "iso": "iku2",
+    "name": "Inuktitut Expanded 2",
+    "region": "North America",
+    "category": "Eskimo-Aleut",
+    "family": "Inuit"
+  },
+  {
+    "iso": "iku3",
+    "name": "Inuktitut Expanded 3",
+    "region": "North America",
+    "category": "Eskimo-Aleut",
+    "family": "Inuit"
   },
   {
     "name": "Joual",
@@ -22186,6 +22354,13 @@
     "family": "Na-Dene"
   },
   {
+    "iso": "nav2",
+    "name": "Navajo Expanded 2",
+    "region": "North America",
+    "category": "Na-Dene",
+    "family": "Athabaskan"
+  },
+  {
     "iso": "nav",
     "name": "Navajo Names",
     "region": "North America",
@@ -22239,6 +22414,13 @@
     "region": "North America",
     "category": "Algonquian",
     "wikipedia": "https://en.wikipedia.org/wiki/Ojibwe_language",
+    "family": "Algonquian"
+  },
+  {
+    "iso": "oji2",
+    "name": "Ojibwe Expanded 2",
+    "region": "North America",
+    "category": "Algic",
     "family": "Algonquian"
   },
   {
@@ -22335,6 +22517,13 @@
   {
     "iso": "dak",
     "name": "Sioux",
+    "region": "North America",
+    "category": "Siouan",
+    "family": "Siouan"
+  },
+  {
+    "iso": "dak2",
+    "name": "Sioux Expanded 2",
     "region": "North America",
     "category": "Siouan",
     "family": "Siouan"
@@ -22478,6 +22667,13 @@
   {
     "iso": "fij",
     "name": "Fijian Names",
+    "region": "Oceania",
+    "category": "Austronesian",
+    "family": "Malayo-Polynesian"
+  },
+  {
+    "iso": "haw2",
+    "name": "Hawaiian Expanded 2",
     "region": "Oceania",
     "category": "Austronesian",
     "family": "Malayo-Polynesian"
