@@ -29180,5 +29180,103 @@
     "region": "Oceania",
     "category": "Austronesian",
     "family": "Malayo-Polynesian"
+  },
+  {
+    "iso": "lin",
+    "name": "Lingala Names",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Bantu"
+  },
+  {
+    "iso": "run2",
+    "name": "Kirundi Expanded 2",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Bantu"
+  },
+  {
+    "iso": "kin2",
+    "name": "Kinyarwanda Expanded 2",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Bantu"
+  },
+  {
+    "iso": "lug2",
+    "name": "Luganda Expanded 2",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Bantu"
+  },
+  {
+    "iso": "swa2",
+    "name": "Swahili Expanded 3",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Bantu"
+  },
+  {
+    "iso": "tir3",
+    "name": "Tigrinya Expanded 4",
+    "region": "Africa",
+    "category": "Afro-Asiatic",
+    "family": "Semitic"
+  },
+  {
+    "iso": "amh3",
+    "name": "Amharic Expanded 4",
+    "region": "Africa",
+    "category": "Afro-Asiatic",
+    "family": "Semitic"
+  },
+  {
+    "iso": "orm3",
+    "name": "Oromo Expanded 3",
+    "region": "Africa",
+    "category": "Afro-Asiatic",
+    "family": "Cushitic"
+  },
+  {
+    "iso": "som3",
+    "name": "Somali Expanded 3",
+    "region": "Africa",
+    "category": "Afro-Asiatic",
+    "family": "Cushitic"
+  },
+  {
+    "iso": "hau2",
+    "name": "Hausa Expanded 3",
+    "region": "Africa",
+    "category": "Afro-Asiatic",
+    "family": "Chadic"
+  },
+  {
+    "iso": "yor3",
+    "name": "Yoruba Expanded 3",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Atlantic-Congo"
+  },
+  {
+    "iso": "ibo3",
+    "name": "Igbo Expanded 3",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Atlantic-Congo"
+  },
+  {
+    "iso": "zul2",
+    "name": "Zulu Expanded 3",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Bantu"
+  },
+  {
+    "iso": "xho2",
+    "name": "Xhosa Expanded 3",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Bantu"
   }
 ]
