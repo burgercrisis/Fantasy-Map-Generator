@@ -45,6 +45,7 @@ TEMP_DO_NOT_CREATE
 # Dev tools
 .docker
 .cursor
+.github
 .kilo
 .kiro
 .roo
