@@ -6648,8 +6648,6 @@ window.europeNameBases = [
   },,
 
 {
-    "name": "Proto-Sami",
-  "i": 533,
   "min": 4,
   "max": 11,
   "d": "urj-NO",
@@ -7231,8 +7229,6 @@ window.europeNameBases = [
   },,
 
 {
-    "name": "Proto Tibeto Burman ",
-  "i": 2014,
   "min": 4,
   "max": 11,
   "d": "nic-GH",

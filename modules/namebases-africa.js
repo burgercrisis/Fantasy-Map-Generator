@@ -9205,8 +9205,6 @@ window.africaNameBases = [{
     "status": "COMPLETE"
   },
   {
-    "name": "Proto-Ainu",
-    "i": 202591,
     "min": 4,
     "max": 11,
     "d": "",
@@ -9215,8 +9213,6 @@ window.africaNameBases = [{
     "status": "COMPLETE"
   },
   {
-    "name": "Proto-Austroasiatic",
-    "i": 202592,
     "min": 4,
     "max": 11,
     "d": "",
@@ -9225,8 +9221,6 @@ window.africaNameBases = [{
     "status": "COMPLETE"
   },
   {
-    "name": "Proto-Hlai",
-    "i": 202593,
     "min": 4,
     "max": 11,
     "d": "",
@@ -9235,8 +9229,6 @@ window.africaNameBases = [{
     "status": "COMPLETE"
   },
   {
-    "name": "Proto-Hokkaido-Kuril",
-    "i": 202594,
     "min": 4,
     "max": 11,
     "d": "",
@@ -9245,8 +9237,6 @@ window.africaNameBases = [{
     "status": "COMPLETE"
   },
   {
-    "name": "Proto-KamSui",
-    "i": 202595,
     "min": 4,
     "max": 11,
     "d": "",
@@ -9255,8 +9245,6 @@ window.africaNameBases = [{
     "status": "COMPLETE"
   },
   {
-    "name": "Proto-KraDai",
-    "i": 202596,
     "min": 4,
     "max": 11,
     "d": "",
@@ -9265,8 +9253,6 @@ window.africaNameBases = [{
     "status": "COMPLETE"
   },
   {
-    "name": "Proto-Mongolic",
-    "i": 202597,
     "min": 4,
     "max": 11,
     "d": "",
@@ -9275,8 +9261,6 @@ window.africaNameBases = [{
     "status": "COMPLETE"
   },
   {
-    "name": "Proto-Sakhalin",
-    "i": 202598,
     "min": 4,
     "max": 11,
     "d": "",
@@ -9285,8 +9269,6 @@ window.africaNameBases = [{
     "status": "COMPLETE"
   },
   {
-    "name": "Proto-Tai",
-    "i": 202599,
     "min": 4,
     "max": 11,
     "d": "",
@@ -11305,8 +11287,6 @@ window.africaNameBases = [{
     "status": "COMPLETE"
   },
   {
-    "name": "Proto-Georgian–Zan",
-    "i": 202801,
     "min": 4,
     "max": 11,
     "d": "",
@@ -11745,8 +11725,6 @@ window.africaNameBases = [{
     "status": "COMPLETE"
   },
   {
-    "name": "Proto-Hmong-Mien",
-    "i": 202845,
     "min": 4,
     "max": 11,
     "d": "",
@@ -11755,8 +11733,6 @@ window.africaNameBases = [{
     "status": "COMPLETE"
   },
   {
-    "name": "Proto-Hmongic",
-    "i": 202846,
     "min": 4,
     "max": 11,
     "d": "",
@@ -11765,8 +11741,6 @@ window.africaNameBases = [{
     "status": "COMPLETE"
   },
   {
-    "name": "Proto-Koreanic",
-    "i": 202847,
     "min": 4,
     "max": 11,
     "d": "",
@@ -11775,8 +11749,6 @@ window.africaNameBases = [{
     "status": "COMPLETE"
   },
   {
-    "name": "Proto-Mienic",
-    "i": 202848,
     "min": 4,
     "max": 11,
     "d": "",
@@ -12625,8 +12597,6 @@ window.africaNameBases = [{
     "status": "COMPLETE"
   },
   {
-    "name": "Proto-Hungarian",
-    "i": 202933,
     "min": 4,
     "max": 11,
     "d": "",
@@ -12635,8 +12605,6 @@ window.africaNameBases = [{
     "status": "COMPLETE"
   },
   {
-    "name": "Proto-Mordvinic",
-    "i": 202934,
     "min": 4,
     "max": 11,
     "d": "",
@@ -13823,6 +13791,24 @@ window.africaNameBases = [{
       {"name": "Amharic Expanded 3", "i": 25290, "min": 4, "max": 12, "d": "", "m": 0, "b": "Addis Ababa,Dire Dawa,Harar,Jijiga,Bishoftu,Adama,Asella,Hawassa,Shashamene,Sodo,Arba Minch,Hosaena,Dilla,Yirgacheffe,Wolaita,Durame,Hossana,Yirgalam,Hageremariam,Boditi,Areka,Bensa,Chuko,Kochere,Gedeb,Daye,Bule Hora,Hagere Mariam,Negele,Adaba,Melkassa,Mojo,Nazret,Dukem,Modjo,Batu,Adami Tulu,Ziway,Abomsa,Kulumsa,Bekoji,Gobesa,Meraro,Sagure,Kofele,Robe,Sire,Teferi-Kela,Debre Birhan,Debre Markos,Debre Tabor,Debre Zeit,Woldiya,Mekelle,Adigrat,Adwa,Axum,Shire,Alamata,Dessie,Kombolcha,Gondar,Bahir Dar,Gambela,Jimma,Nekemte,Ambo,Asosa,Awash,Assaita,Alaba Kulito,Wolaita Sodo,Bonga,Mizan Teferi,Tepi,Gore,Metu,Dembi Dolo,Gimbi,Shambu,Adet,Butajira,Worabe,Enemorina Eaner,Endibir,Merti,Chiro,Agaro,Goba,Ginir,Bale Robe,Dodola,Digelu,Tiyo,Bokoji,Holeta,Sebeta,Burayu,Sendafa,Akaki,Kaliti,Addis Alem,Ejersa,Dabat,Debarq,Metema,Inda Silase,Enticho,Maychew,Alaje,Wukro,Negash,Hawzen,Mehoni,Korem,Lalibela"},
       {"name": "Oromo Expanded 2", "i": 25291, "min": 4, "max": 12, "d": "", "m": 0, "b": "Adama,Bishoftu,Jimma,Nekemte,Ambo,Gimbi,Dembi Dolo,Harar,Shashamene,Asella,Robe,Goba,Ginir,Shambu,Leka,Mendi,Nejo,Sekoru,Limmu Genet,Agararo,Metu,Bako,Woliso,Sebeta,Burayu,Sendafa,Holeta,Fitche,Guder,Coffee,Ilu,Hambela"},
       {"name": "Tigrinya Expanded 3", "i": 25292, "min": 4, "max": 12, "d": "", "m": 0, "b": "Abiy Adi,Abreha,Adet,Adigrat,Adwa,Agulae,Alaje,Alamata,Aksum,Asgede,Atsbi,Axum,Belesa,Bora,Chila,Dallo,Dansha,Debub,Dessie,Edaga Hamamus,Endasilasie,Enticho,Fenqil,Gant Afeshum,Gulo Mekeda,Hagere Selam,Halhal,Hawzen,Hayelom,Hintalo,Himbirti,Humera,Ibab,Ibbina,Idaga Hamamus,Inda Selase,Inticho,Kelisha,Kilte Awlaelo,Korem,Laelay Adiyabo,Laelay Maychew,Lalibela,Maa Mekden,Maalul,Maekelawi,Maichew,May Cadera,Maychew,Mekelle,Mekoni,Mentebteb,Nebelet,Negash,Ofla,Quiha,Rama,Rawiyan,Saesi Tsaeda Amba,Saharti Samre,Samre,Saqot,Sawa,Sewne,Shire,Simret,Stie Bealul,Tahtay Adiyabo,Tahtay Koraro,Tahtay Maychew,Tanqua Millash,Tembien,Tigray,Tselemti,Tsimbla,Wukro,Yechila,Yeha,Zala Anbesa"}
+,
+        {"name": "Hausa Expanded 3", "i": 25600, "min": 4, "max": 12, "d": "", "m": 0, "b": "Kano,Katsina,Zaria,Sokoto,Gusau,Birnin Kebbi,Dutse,Bauchi,Gombe,Damaturu,Maiduguri,Potiskum,Nguru,Hadejia,Ringim,Kazaure,Gumel,Jahun,Kiri Kasama,Malam Madori,Sule Tankarkar,Taura,Yankwashi,Daura,Gobir,Rano,Biram,Zazzau,Katsina Emirate,Kano Emirate,Sokoto Caliphate,Zazzau Emirate,Daura Emirate,Gobir Emirate,Rano Emirate,Biram Emirate,Funtua,Bichi,Danbatta,Gaya,Wudil,Kura,Madobi,Garun Mallam,Takai,Kunchi,Shanono,Bagwai,Gezawa,Gabasawa,Minjibir,Dawakin Kudu,Dawakin Tofa,Tofa,Rimin Gado,Kibiya,Albasu,Garko,Ajingi,Warawa,Doguwa,Tudun Wada,Karaye,Rogo,Kiru,Bunkure,Kano Municipal,Tarauni,Nasarawa,Ungogo,Dala,Gwale,Kumbotso,Fagge,Zango,Baure,Zango Daura,Sandamu,Kankia,Kaita,Jibia,Kusada,Safana,Dutsin Ma,Kurfi,Kankara,Faskari,Sab'uwa,Dandume,Bakori,Kafur,Malumfashi,Batagarawa,Charanchi,Mashi,Mani,Bindawa,Katsina Ala,Ingawa,Danja,Rimi,Sabuwa,Musawa,Matazu,Maradi,Zinder,Tahoua,Agadez,Niamey,Dosso,Diffa,Tillabéri,Birni N'Konni,Dogondoutchi,Filingué,Tessaoua,Téra,Say,Goure,Dakoro,Magaria,Guidan Roumdji,Mayahi,Madarounfa,Bermo,Aguie,Guéchémé,Kankandi,Sarkin Yamma,Gazaoua,Bouné,Dan Issa,Chadoua,Saé Saboua,Tibiri,Kouroum Koira,Dantchandou,Koygolo,Alléla,Azawagh,In Gall,Iferouane,Tchirozerine,Bilma,Dirkou,Fachi,N'Gourti,N'Gigmi,Maine Soroa,Goudoumaria,Bosso,Kablewa,Kellé,Kindjandi,Chetimari,Gueskerou,Dungass,Takieta,Belbédji,Tesker,Damagaram Takaya,Matameye,Mirriah,Tanout,Damagaram,Kirka,Dogo,Kantché,Yékoua,Gangara,Maza,Wacha,Gadabéji,Tabalak,Abalak,Akoubounou,Tchin-Tabaraden,Tassara,Tillia,Bagaroua,Bkonni,Bouza,Illela,Keita,Madaoua,Malbaza,Matankari,Kiota,Kargui Bangou,Soukouré,Kourfeye Centre,Loga,Boboye,Falmey,Kusugu,Kusugu Well,Dalla Hill,Gobarau Minaret,Kano City Walls,Zaria City Walls,Katsina City Walls,Gidan Rumfa,Emir's Palace Kano,Kusugu Well Daura,Hausa Bakwai,Banza Bakwai,Kwararafa,Kano Chronicle,Kebbi Emirate,Zamfara Emirate,Katsina Ala River,Rima River,Gongola River,Hadejia River,Jama'are River,Katagum River,Ngadda River,Yobe River,Komadugu Yobe,Lake Chad,Kanem Bornu,Bornu Empire,Kanem Empire,Mandara Mountains,Adamawa Plateau,Jos Plateau,Bauchi Plateau,Kano Plains,Sokoto Plains,Katsina Plains,Zaria Plains,Gombe Plains,Yola,Jalingo,Lafia,Makurdi,Lokoja,Minna,Ilorin,Kaduna,Kafanchan,Kagoro,Kachia,Kauru,Lere,Soba,Zangon Kataf,Jaba,Kagarko,Kaura,Kubau,Kudan,Makarfi,Sabon Gari,Sanga,Ikara,Giwa,Garki,Guri,Gwaram,Gwiwa,Kafin Hausa,Kiyawa,Maigatari,Miga,Roni,Babura,Kaugama"},
+      {"name": "Igbo Expanded 3", "i": 25601, "min": 4, "max": 12, "d": "", "m": 0, "b": "Onitsha,Aba,Abakaliki,Awka,Owerri,Umuahia,Enugu,Nnewi,Nsukka,Okigwe,Orlu,Oguta,Nkwerre,Arochukwu,Abiriba,Ohafia,Bende,Asaba,Aguleri,Umuleri,Nri,Nando,Otuocha,Ifite,Nsugbe,Igbariam,Anam,Ekwulobia,Agulu,Adazi-Nnukwu,Neni,Ichida,Akwaeze,Aguluzigbo,Achalla,Amanuke,Awba-Ofemili,Isuaniocha,Amawbia,Nibo,Nise,Mbaukwu,Okpuno,Umuawulu,Ukpo,Ifitedunu,Umudioka,Nawgu,Umunachi,Ozubulu,Ichi,Oraifite,Nnobi,Ogidi,Obosi,Abatete,Nkpor,Uke,Oraukwu,Ojoto,Alor,Akwa-Ukwu,Nnokwa,Oba,Ihiala,Okija,Azia,Mbosi,Uli,Amorka,Abagana,Enugwu-Ukwu,Nimo,Nawfia,Adazi-Ani,Otolo,Uruagu,Umudim,Nnewichi,Ukpor,Amichi,Osumenyi,Ezinifite,Azigbo,Atani,Ossomala,Ochuche-Umuodu,Akili-Ogidi,Ajalli,Ndikelionwu,Nanka,Oko,Umunze,Awgbu,Ezira,Ogbunka,Nkwelle-Ezunaka,Ogbunike,Awkuzu,Anaku,Omor,Ifite-Ogwari,Igbakwu,Aboh,Nguru,Enyiogugu,Amuzi,Afor-Oru,Umuokirika,Obohia,Ehime,Umualumaku,Umuezeala,Itu,Eziudo,Onicha,Okpofe,Akokwa,Arondizuogu,Dikenafai,Umuobom,Isinweke,Amainyi,Iho,Atta,Eziama,Amaimo,Umuelemai,Anara,Amaraku,Umundugba,Amandugba,Isu-Njaba,Nwaorieubi,Ogbaku,Orodo,Ifakala,Umuneke-Ngor,Umuowa,Ozuzu,Nnenasa,Umuaka,Amaigbo,Umudi,Eziama-Obaire,Abajah,Afor-Ogbe,Alike,Avutu,Izombe,Egbema,Amaifeke,Awo-Idemili,Ebenator,Eziawa,Omuma,Akatta,Mgbidi,Aji,Otulu,Owerri-Urban,Orie-Uratta,Obibi-Ezena,Egbu,Umuguma,Nekede,Avu,Ihiagwa,Mpu,Nike,Agbogazi,Edem,Effokwe,Emene,Ibeagwa,Neke-Odenigbo,Ngwuomu,Nkwubo,Obinagu,Onuogba,Aku,Amabokwu,Amogwu,Mgboko,Obie,Offienyi,Ohemuje,Ugwuegede,Ugwunani,Umueme,Umuezike,Ibagwa,Amufie-Enugu-Ezike,Imufu-Enugu,Olido-Enugu,Umuozzi,Umulokpa,Akiyi,Akwunitor,Enugu-Uwani,Eziora,Mgbogbo,Nkwelle,Ukpatu,Umuezeugwu,Umuogene,Uwani,Uvuru,Afokuje,Ama-Ogidi,Enugu-Ada,Isi-Uvuru,Isiama,Umuenwene,Ezza,Ugwuomu,Ngwo,Ogui,Amechi,Ndiorie,Obeagu,Anianya,Igwekamma,Ugwuaji,Umunugwu,Akwuke,Onunwa-Ojukwu,Ezeagu,Olo,Awha,Agbagbo,Aguobu,Achi,Umuhuali,Azuzuru,Azuogbagu,Nwaeke,Aguhuo,Aguoguji,Agu-Nwenyi,Onungangbo,Afikpo,Ehugbo,Amachara,Amachi,Amaekwu,Amaizu,Amangwu,Amankwo,Egeburu,Enohia-Item,Evuma,Itim,Kpogirikpo,Mgbom,Ngodo,Nkpogoro,Ohaisu,Ubam,Ugwu-Egu,Unwana,Amasiri,Akpoha,Ozizza,Ukpa,Owutu-Edda,Nguzu-Edda,Ebuwana,Onueke,Ebiaji,Oriuzor,Effium,Ohatekwe,Onu-Ebonyi,Agubia,Noyo,Alike-Ikwo,Ezzamgbo,Ezillo,Nkalagu,Ishiagu,Akaeze,Iboko,Ndieze,Igbeagu,Obiozara,Okposi,Uburu,Ugwulangwu,Ezzangbo,Ngbo,Isu-Onicha,Agbor,Ogwashi-Ukwu,Issele-Ukwu,Illah,Akwukwu-Igbo,Ubulu-Uku,Ibusa,Okpanam,Umunede,Owa-Oyibu,Obigbo,Oyigbo,Etche,Ndoki,Ikwerre,Opobo,Bonny,Ogba,Egbema-Rivers,Ndoni,Oguta-Lake,Omambara-River,Ezu-River,Imo-River,Njaba-River,Ogbunike-Cave,Agulu-Lake,Udi-Hills,Nsukka-Plateau,Awka-Hills"},
+      {"name": "Somali Expanded 3", "i": 25606, "min": 4, "max": 12, "d": "", "m": 0, "b": "Mogadishu,Hargeisa,Berbera,Kismayo,Bosaso,Galkayo,Garowe,Baidoa,Beledweyne,Merca,Baraawe,Jowhar,Afgooye,Jilib,Bardera,Dhobley,Luuq,Bardheere,Burco,Borama,Erigavo,Las Anod,Badhan,Ceelbuur,Ceeldheere,Qoryooley,Giohar,Buurhakaba,Wanlaweyn,Eyl,Buulobarde,Qandala,Bandarbeyla,Garbahaarrey,Hobyo,Bereeda,Jalalaqsi,Bandar Beyla,Bandiiradley,Baki,Balad,Xaafun,Xabaalo Barbar,Xiddo,Yake,Xerojaale,Xudun,Godaalo,Dulbiciid,Shimbiris,Shimber Berris,Cal Madow,Golis Mountains,Ogo Mountains,Karkaar Mountains,Buur Dhaab,Mount Bahaya,Dul Madoba,Surud Cad,Waraq,Daallo,Karkoor,Nugaal Valley,Nugaal River,Shebelle River,Shabeelle River,Jubba River,Jubbada,Webi Shabeelle,Haud,Mudug Plain,Hobyo grasslands,Guardafui Channel,Cape Guardafui,Hafun,Sa'ad ad-Din Islands,Bajuni Islands,Berbera Airport,Boorama Airport,Burao Airport,Hargeisa Airport,Mogadishu Airport,Kismayo Airport,Bosaso Airport,Galkayo Airport,Garowe Airport,Godey,Doolow,Belet Xaawo,Ceel Waaq,Saakow,Bu'aale,Jamaame,Marka,Barawe,Afmadow,Dhoble,Kuntuware,Xagar,Sako,Garsala,Yeed,Rabdhure,Hudur,Wajid,Bakool,Tiyeglow,El Barde,Qansax Dheere,Dinsor,Buur Hakaba,Brava,Merka,Wanla Weyn,Balcad,Mahaday,Adale,Cadale,Ruun Nirgood,Warsheikh,Haroardheere,Eldher,Mareeg,Ceel Dheer,Ceel Buur,Galdogob,Jariiban,Xarardheere,Buqdarkayn,Qardho,Bender Cassim,Iskushuban,Lamadaya,Caluula,Bandar Siyada,Bargaal,Raas Caseyr,Caseyr,Sheikh,Gabiley,Wajaale,Arabsiyo,Laas Geel,Dhubato,Zeila,Gedo,El Wak,Mandera,Beled Hawo,Dolo,Garbaharey,Bardhere,Dhusamareeb,Guriel,Abudwak,Balambale,Saylac,Lawyacado,Caliyo"},
+      {"name": "Oromo Expanded 3", "i": 25607, "min": 4, "max": 12, "d": "", "m": 0, "b": "Finfinne,Adama,Nazret,Jimma,Dire Dawa,Harar,Bale Robe,Goba,Negele Borana,Shashamane,Ambo,Asella,Bishoftu,Debre Zeit,Mojo,Sebeta,Holeta,Burayu,Fiche,Ankober,Nekemte,Gimbi,Dembidolo,Metu,Bule Hora,Waliso,Agaro,Chiro,Haramaya,Koye Feche,Meki,Sabata,Sendafa,Shambu,Bedele,Limmu Genet,Limmu Enarya,Bale Mountains,Arsi Mountains,Mount Chilalo,Mount Kaka,Galama Ridges,Hunkolo,Tullu Dimtu,Mount Batu,Sanetti Plateau,Harenna Forest,Rift Valley,Great Rift Valley,Lake Ziway,Lake Langano,Lake Abijatta,Lake Shalla,Lake Awassa,Lake Abaya,Hora Dambal,Bishoftu Lake,Kuriftu Lake,Bishoftu Gudo,Hora Arsedi,Green Lake,Awash River,Wabe Shebelle River,Genale River,Gibe River,Baro River,Didessa River,Guder River,Meki River,Katar River,Bulbula River,Awash National Park,Bale Mountains National Park,Arsi Mountains National Park,Abijatta Shalla National Park,Borana National Park,Chebera Churchura National Park,Didessa National Park,Yabelo,Negele Arsi,Shakiso,Sagure,Robe,Dodola,Adaba,Kofele,Shashemene,Kuyera,Wondo Genet,Awassa,Hawassa,Yirgalem,Dilla,Mega,Moyale,Teltele,Arero,Dire,Miyu,Dhas,Gomole,Guchi,Liben,Wadera,Goro,Guradamole,Rayitu,Sewena,Harena Buluk,Delu Meno,Medawelabu,Berbere,Goma,Gera,Gomma,Gumay,Kersa,Limmu Kosa,Limmu Seka,Mana,Nono Benja,Omo Nada,Seka Chekorsa,Sigmo,Tiro Afeta,Botor Tolay,Chora,Dega,Didu,Dedo,Gechi,Buno Bedele,Gachi,Gore,Halu,Meko,Nole Kaba,Sayo Nole,Yubdo,Boji Dirmaji,Boji Chekorsa,Gudaya Bila,Horo,Horo Guduru,Jardega Jarte,Jimma Arjo,Kiremu,Lalo Kile,Limmu,Sibu Sire,Wama Bonaya,Wama Hagalo,Wayu Tuka,Abay Chomen,Bako Tibe,Cheliya,Ciya,Dano,Dendi,Ginde Beret,Guder,Jibat,Meta Robi,Mida Kegn,Nono,Toke Kutaye,Adaberga,Ada'a,Akaki,Bereh,Bora,Dukem,Fentale,Gimbichu,Liben Chukala,Lome,Minjar Shenkora,Moretenna Jiru,Sire,Tullu Bollo,Wara Jarso,Yaya Gulele,Adami Tullu Jido Kombolcha,Arsi Negele,Dugda,Dugda Dawa,Girar Jarso,Heexosa,Merti,Qerccha,Roby,Seru,Shirka,Tena,Tiyo,Ziway Dugda,Adola,Anchar,Bore,Dama,Dolo Ado,Filtu,Meda Welabu,Raya Azebo,Sof Omo,Agarfa,Bale,Boke,Dinsho,Gaserana Gololcha,Ginir,Gololcha,Lege Hida,Mennana Harena,Nensebo,Sawena,Seweyna,Sinana,Mulo,Sebeta Hawas"},
+      {"name": "Zulu Expanded 3", "i": 25608, "min": 4, "max": 12, "d": "", "m": 0, "b": "eThekwini,uMgungundlovu,Ulundi,Nongoma,Mahlabatini,KwaDukuza,eMpangeni,eSikhaleni,eNseleni,KwaMashu,Umlazi,KwaMakhutha,eManzimtoti,uMhlanga,eMkhomazi,eMgababa,eMzumbe,eMzimkulu,Nquthu,Hluhluwe,Mtubatuba,KwaNgwanase,eDumbe,eMadlangeni,eMnambithi,uMhlathuze,eNanda,uMzinyathi"},
+      {"name": "Xhosa Expanded 3", "i": 25609, "min": 4, "max": 12, "d": "", "m": 0, "b": "eDikeni,eGcuwa,eMonti,eRhini,eBhayi,eQonce,eRhafu,eKapa,eThekwini,ePitoli,eTinarha,eKhobonqaba,kwaNojoli,eGatyane,eMthatha,eBizana,eLusikisiki,eFlagstaff,eMaxesibeni,eNgqeleni"}
+,
+        {"name": "Lingala Expanded 3", "i": 25630, "min": 4, "max": 12, "d": "", "m": 0, "b": "Kinshasa,Brazzaville,Mbandaka,Bumba,Lisala,Boende,Kikwit,Bulungu,Masi-Manimba,Bagata,Idiofa,Gungu,Bandundu,Bétou,Kelle,Kintélé,Dolisie,Nkayi,Owando,Madingou,Tumba,Ilebo,Tshikapa,Luebo,Mweka,Binga,Bongandanga,Yambuku,Basankusu,Kisangani,Basoko,Yangambi,Gemena,Zongo,Budjala,Kungu,Libenge,Gbadolite,Bosobolo,Businga,Buta,Bunia,Inongo,Bolobo,Mushie,Kiri,Nioki,Matadi,Boma,Tshela,Muanda,Mbanza-Ngungu,Songololo,Lukula,Luozi,Seke-Banza,Kinzau-Mvuete,Lubumbashi,Likasi,Kolwezi,Kasumbalesa,Kipushi,Kambove,Pweto,Sakania,Mitwaba,Kasenga,Kananga,Tshilenge,Mbuji-Mayi,Mwene-Ditu,Lusambo,Dekese,Kabinda,Lodja,Gombe,Kintambo,Lingwala,Ngaliema,Mont Ngafula,Bandalungwa,Kalamu,Masina,Ndjili,Kimbanseke,Maluku,Nsele,Menkao,Mangengenge,Limete,Matete,Kisenso,Lemba,Ngaba,Barumbu,Kasa-Vubu,Makala,Ngiri-Ngiri,Selembao,Bumbu,Impfondo,Ouesso,Ewo,Djambala,Gamboma,Kindamba,Mossendjo,Mbinda,Makoua,Oyo,Boundji,Loukoléla,Ngoko,Ntokou,Tchikapika,Okoyo,Mbomo,Etoumbi,Sibiti,Komono,Zanaga,Dongou,Epena,Liranga,Bouanela,Enyellé,Makélékélé,Bacongo,Poto-Poto,Moungali,Ouenzé,Talangaï,Mfilou,Madibou,Djiri,Kinkala,Mindouli,Boko,Louingui,Mayama,Ignié,Vindza,Lékana,Abala,Allembé,Mpouya,Ngo,Ollombo,Ongogni,Pointe-Noire,Loango,Madingo-Kaye,Mvouti,Hinda,Kakamoeka,Kimongo,Kibangou,Louvakou,Makabana,Mayoko,Kingoué,Yamba,Mabombo,Tsiaki,Boko-Songho,Kutu,Kasongo-Lunda,Popokabaka,Kenge,Fadiandiri,Oshwe,Demba,Gandajika,Kabalo,Kongolo,Nyunzu,Kalemie,Kamina"},
+      {"name": "Chewa Expanded 3", "i": 25631, "min": 4, "max": 12, "d": "", "m": 0, "b": "Lilongwe,Blantyre,Mzuzu,Zomba,Mangochi,Kasungu,Salima,Mchinji,Dedza,Ntcheu,Ntchisi,Dowa,Nkhotakota,Nkhata Bay,Rumphi,Karonga,Chitipa,Mzimba,Nsanje,Chikwawa,Chiradzulu,Thyolo,Mulanje,Phalombe,Mwanza,Balaka,Liwonde,Monkey Bay,Marka,Luchenza,Bangula,Limbe,Neno,Machinga,Chilumba,Ekwendeni,Likoma,Livingstonia,Chintheche,Embangweni,Chipoka,Mua,Namitete,Madisi,Nkhoma,Domasi,Chiwembe,Njata,Mponela,Malosa,Zalewa,Nkaya,Msinja,Mankhamba,Kaphirintiwa,Manthimba,Choma,Malambo,Utale,Mbewe,Chiromo,Nthakataka,Dwangwa,Nsanja,Malembo,Chitala,Mvera,Mwansambo,Nkhamenya,Chigodi,Mtunthama,Kapiri,Chulu,Mlangeni,Kalolo,Masasa,Chikowi,Mbedza,Mpherembe,Mzenga,Makhwira,Nchalo,Mlolo,Sankhulani,Chapananga,Mpemba,Mchena,Chipata,Lundazi,Katete,Chadiza,Petauke,Chama,Nyimba,Mambwe,Vubwi,Kasenengwa,Lumezi,Lusangazi,Chipangali,Chasefu,Sinda,Mfuwe,Mutenguleni,Kapata,Mchenga,Chimwemwe,Chawama,Munga,Walela,Msekera,Katopola,Kalongwezi,Umodzi,Tete,Moatize,Chitima,Songo,Zumbo,Mutarara,Changara,Chifunde,Chiuta,Macanga,Maravia,Magoe,Angonia,Cahora Bassa,Doa,Marara,Tsangano,Luenha,Mavara,Mualadzi,N'Sadzo,Kazula,Mange,Furancungo,Chidzolomondo,Mpheende,Chinthopo,Mukumbura,Chiputo,Fingoe,Molowera,Chepera,Kambulatsitsi,Zombue,Nhamayabue,Chare,Inhangoma,Ntengo-Wambalame,Muze,Zambue,Domue,Ulongoe,Bindura,Glendale,Guruve,Mazowe,Shamva,Mount Darwin,Centenary,Mbire,Muzarabani,Madziva,Chombira,Chipadze,Msana,Masembura,Mhondoro,Ngezi,Sanyati,Chegutu,Chinhoyi,Karoi,Kariba,Makuti,Chirundu"},
+      {"name": "Tigrinya Expanded 4", "i": 25632, "min": 4, "max": 12, "d": "", "m": 0, "b": "Asmara,Keren,Massawa,Mendefera,Adi Quala,Dekemhare,Adi Keyh,Senafe,Ghinda,Nefasit,Segheneyti,Hagaz,Badme,Adwa,Axum,Enticho,Yechila,Wukro,Negash,Hawzen,Alaje,Mehoni,Temben,Mekelle,Adigrat,Mekoni,Gulo Mekeda,Himbirti,Afabet,Karora,Agordat,Tesseney,Omhajer,Goluj,Dighe,Mogolo,Haykota,Alighede,Halhal,Shambuko,Logo Anseba,Tera Emni,Tkul,Nakfa,Afdera,Gheralta,Adi Remets,Iyamo,Mai Mine,Ala,Adi Ugri,Barentu,Assab,Beilul,Edd,Mersa Fatuma,Adi Tekelezan,Areza,Bisha,Dairo Paulos,Emba Derho,Filfil,Goquat,Hazega,Matara,Quatit,Rahayta,Sebderat,Tserona,Tsazega,Zula,Zahgir,Adi Abeto,Molki,Tara Emni,Shakaeyamo,Emni Hayli,Knafna,Tsorona,Sh'eb,Ela Bered,Adi Qontsi,Adi Nebrid,Elabered,Gala,Hamelmalo,Adi Yaqob,Adi Ghebru,Adi Tsetser,Abiy Addi,Adi Daero,Adi Gudom,Agula,Alamata,Ambalage,Bora,Dansha,Freweyni,Gijet,Humera,Idaga Hamus,Inda Aba Guna,Kobo,Kombolcha,Korem,May Mekdan,Rama,Selekleka,Sheraro,Shire,Waja,Yeha,Abergele,Adet,Ahferom,Chila,Edaga Arbi,Emba Seneyti,Mai Qnetal,Kola Temben,Laelay Maychew,Tahtay Maychew,Tanqua Melash,Atsbi Dera,Bizet,Erob,Ganta Afeshum,Kilte Awulaelo,Sebha Saesie,Tsaeda Emba,Zalambessa,Asgede,Laelay Tselemti,May Tsebri,Seyemti Adiyabo,Tsimbla,Zana,Raya Chercher,Emba Alaje,Endamehoni,Mekhoni,Neqsage,Ofla,Raya Alamata,Raya Azebo,Selewa,Zata,Adi Gudem,Dogu'a Temben,Hagere Selam,Hintalo,Saharti,Samre,Awura,Qorarit,May Kadra,Mai Gaba,Tsegede,Welkalt,Quiha,Debre Damo,Qohaito,Adulis,Hawulti Melazo,Serae,Hamasien,Agame,Amba Senayt,Garalta,Akele Guzay,Mareb,Dankel,Raya,Atsbi,Laelay Adiyabo,Shire Inda Selassie,Inda Silase,Sewne,Sawa,Tsenkanet"},
+      {"name": "Wolof Expanded 3", "i": 25633, "min": 4, "max": 12, "d": "", "m": 0, "b": "Dakar,Touba,Thies,Kaolack,Mbour,Saint-Louis,Diourbel,Ziguinchor,Bignona,Kolda,Sedhiou,Tambacounda,Kedougou,Matam,Kaffrine,Fatick,Louga,Linguere,Banjul,Serekunda,Brikama,Essau,Basse,Georgetown,Mansa-Konko,Rufisque,Pikine,Tivaouane,Foundiougne,Nioro du Rip,Gossas,Kebemer,Mekhe,Joal-Fadiout,Guinguineo,Bakel,Kanel,Podor,Richard-Toll,Rosso,Dagana,Ouro Sogui,Niokolo,Diouloulou,Mbacké,Bambey,Dahra,Velingara,Sebikhotane,Nguekhokh,Kayar,Pout,Mboro,Sokone,Goudomp,Thiadiaye,Ndioum,Diamniadio,Khombole,Koungheul,Ndiaganiao,Koki,Thieytou,Guédiawaye,Mboss,Fass,Birkelane,Malem Hodar,Koumpentoum,Ndoffane,Gandiaye,Passy,Diofior,Diossong,Diakhao,Ndiob,Fimela,Palmarin,Niakhar,Tattaguine,Loul Sessene,Bargny,Sendou,Popenguine,Ngaparou,Somone,Djifer,Fadiouth,Mpack,Kafountine,Diogue,Kabrousse,Ndar,Ndiourbel,Ndiangué,Nder,Lac de Guiers,Saloum,Casamance,Niokolo-Koba,Ferlo,Waalo,Cayor,Baol,Jolof,Ndiambour,Gorée,Langue de Barbarie,Cap Vert,Sine,Tendaba,Wassu,Kerr Batch,Sanyang,Gunjur,Tanji,Brusubi,Kotu,Fajara,Bakoteh,Jamburr,Bwiam,Sukuta,Njai Kunda,Sinchu,Berending,Kunkujang,Bakau,Farafenni,Barra,Kerewan,Kuntaur,Janjanbureh,Lamin,Soma,Abuko,Bansang,Illiassa,Marakissa,Latrikunda,Niamina,Nioro Kunda,Tallinding,Yundum,Keur Macene,Boghé,Kaédi,Ndiago,Djowol,Patar,Keur Ndiaye Lo,Medina Baay,Touba Toul,Tocky-Gare,Samba Kane,Dangalma,Ranérou,Semmé,Agnam Civol,Mbao,Séssène,Yène,Bambylor,Dabia"},
+      {"name": "Bambara Expanded 3", "i": 25634, "min": 4, "max": 12, "d": "", "m": 0, "b": "Bamako,Sikasso,Kalabancoro,Koutiala,Segou,Mopti,Timbuktu,Gao,Kayes,Kati,Koulikoro,Nara,San,Markala,Banamba,Bougouni,Djenne,Douentza,Kolondieba,Kadiolo,Kolokani,Bla,Dioila,Niono,Yelimane,Tominian,Macina,Koro,Bandiagara,Massigui,Tonka,Kita,Koury,Koumantou,Ouelessebougou,Pelengana,Kourounikoto,Karan,Fana,Troungouumbe,Nioro,Sokolo,Dire,Bourem,Kidal,Baraoueli,Yangasso,Sansanding,Kokofata,Bafoulabe,Diema,Kenieba,Sadje,Yorosso,Selingue,Bougaribaye,Beyla,Kankela,Bafing,Faraba,Neguela,Sagalo,Tombouctou,Goundam,Lere,Tenenkou,Nyamina,Dioro,Cinzana,Konodimini,Sakoiba,Sebougou,Katiena,Diaramana,Konobougou,Sanando,Tamani,Boidie,Massantola,Tioribougou,Nossombougou,Ouolodo,Sagabala,Kiban,Toubakoro,Sirakorola,Koula,Tienfala,Wacoro,Nangola,Dialakoroba,Sanankoroba,Kambila,Kalifabougou,Dombila,Kangaba,Mande,Baguineda,Kouniakary,Somankidi,Fegui,Wassoulou-Balle,Yanfolila,Zegoua,Sorotomo,Dugubani,Bassidialandougou,Lassa,Manbila,Kela,Siby,Naréna,Sokonafin,Nafaji,Tiemantali,Nonkon,Kafine,Sirakemine,Diganibougou,Bankoumana,Daban,Massala,Baboye,Sebekoro,Alatona,Koumankou,Djofigui,Souleye,Sirakola,Touna,Kankan,Kouroussa,Siguiri,Mandiana,Keniera,Cisséla,Kérouané,Niagassola,Tokounou,Gberdou-Baranama,Komola-Koura,Linko,Kounsankoro,Mala,Sibiribaro,Sanguiana,Doura,Kiniro,Sabadou-Baranama,Soromaya,Kinibakoura,Babila,Balandougou,Koumana,Koundianakoro,Damaro,Douako,Kantoumania,Niandankoro,Siguirini,Dialakoro,Kiniran,Franwalia,Kintinian,Norassoba"},
+      {"name": "Kikuyu Expanded 3", "i": 25635, "min": 4, "max": 12, "d": "", "m": 0, "b": "Nairobi,Thika,Nyeri,Murang'a,Kiambu,Karatina,Ruiru,Kikuyu,Limuru,Naivasha,Mweiga,Othaya,Mukurweini,Kerugoya,Kagumo,Kangema,Kiharu,Mathioya,Kigumo,Kandara,Gatundu,Githunguri,Kiambaa,Karai,Ndenderu,Gachie,Ngecha,Muguga,Kinale,Gatina,Kabete,Uthiru,Wangige,Muthiga,Ruaka,Kitisuru,Sigona,Tigoni,Karuri,Kiamumbi,Membley,Juja,Makongeni,Gatuanyaga,Sabasaba,Mwea,Wanguru,Kutus,Kianyaga,Baricho,Sagana,Makutano,Chaka,Endarasha,Giakanja,Ichamara,Gichugu,Nanyuki,Nyahururu,Ol-Kalou,Engineer,Lari,Kijabe,Ndumberi,Kinoo,Nyathuna,Komothai,Githiga,Ndeiya,Maragua,Kenol,Kabati,Makuyu,Kangari,Kirwara,Gatanga,Gatura,Kiriaini,Naromoru,Wamagana,Kiganjo,Njabini,Ndaragwa,Mirangine,Githurai,Kamwangi,Gitugi,Gikambura,Kahuho,Kanyariri,Gathiga,Gathirumbi,Gachocho,Gachugi,Gachoiri,Gakanga,Gakuo,Gakurue,Gakurwe,Gakuyu,Gatakani,Gatamayu,Gatangara,Gategi,Gatei,Gateiguru,Gathagi,Gathairu,Gathaithi,Gathambi,Gathanje,Gathehu,Gathera,Gathigiriri,Gathima,Gathinga,Gathinja,Gathithina,Gathoge,Gathuga,Gathukiini,Gathumbi,Gathundia,Gathungururu,Gathuthuma,Gatiabai,Gatiani,Gatiguru,Gatiss,Gatithi,Gatuanibu,Gatugi,Gatukuyu,Gatumbi,Gatumbiru,Gatunguru,Gaturiri,Gatuto,Gatuya,Gatwamba,Gatwe,Giathenge,Gichuru,Geitwa,Gekandu,Gekondi,Giachamwengi,Giachumi,Giagithu,Giagatika,Giaitu,Giakibii,Gichagiini,Gicharani,Gicheru,Gichiengo,Gichira,Gichocho,Gichongo,Gichoto,Gihigaini,Gikaru,Gikigie,Gikomora,Gikunguru,Gikure,Gikuu,Gitathi-ini,Gitembe,Gitero,Githagara,Githagoya,Githakwa,Githamba,Githambo,Githanga,Githerere,Githerioni,Githima,Githioro,Githoito,Githiru,Githugi,Githumu,Githunguru,Githuri,Gitura,Githuva,Gitige,Gititu,Gituge,Gitugu,Gitumbi,Gitwamba,Gitweku,Hatha-ini,Huguini,Huhoini,Icagiciru,Ichachiri,Igikiro,Ihigaini,Ihhinga,Ihururu,Ihua,Ihuririo,Ihwagi,Ikumbi,Iregi,Iriguini,Itaga,Ithaithi,Ithanji,Ithekahuno,Ithenguri,Itheru,Ithirameru,Itiati,Itundu,Ituru,Kaagogi,Kabage,Kabaru,Kabebero,Kabochu,Kabonge,Kabuku,Kabuti,Kagaa,Kaganda,Kagarii,Kagarumo,Kagere,Kagicha,Kagioini,Kagira,Kagondo,Kagondu,Kagongo,Kagonye,Kagumaini,Kagundo,Kagwathi,Kagwongo,Kahaini,Kaharati,Kaharo,Kaheho,Kahiga,Kahigaini,Kahithe,Kahunguini,Kahuro,Kiangararu,Kairuthi,Kaitheri,Kajinga,Kamando,Kamandura,Kamathuri,Kamatu,Kambaa,Kameichiri,Kamondo,Kamuchege,Kamuchoni,Kamuguga,Kamuiru,Kamukabi,Kamune,Kamunga,Kamunyaka,Kamunyuini,Kamuyu,Kamwenja,Kandegenye,Kandogo,Kangenga,Kangocho,Kangoya,Kangunyi,Kangure,Kanjai,Kanjora,Kanyinya,Kanyongo,Kanyoni,Kanyore,Kanyuira,Karaine,Karenge,Kariguini,Kariko,Kariku,Karinga,Karingaini,Karirau,Kariru,Kariuwa,Karugutu,Karugya,Karuiro,Karunga,Karunge,Karura,Karuris,Karuruma,Karweti,Kathukeni,Kaweru,Kereita,Keringele,Kerita,Kerundu,Keruri,Kiaibabu,Kiaga,Kiaguthu,Kiahiti,Kiahuria,Kiamabara,Kiamaina,Kiamara,Kiamariga,Kiamathambo,Kiamatogo,Kiambururu,Kiambuthia,Kiamuchege,Kiamucheru,Kiamurathe,Kiamuthambi,Kiamuturi,Kiamuya,Kiamwathi,Kiamwenja,Kiamwenji,Kiamworia,Kiandongoro,Kiandu,Kiandumu,Kiangai,Kiangima,Kiangochi,Kiangoma,Kianguenyi,Kiangunyi,Kianjege,Kianjogu,Kiarakongo,Kiaria,Kiaritha,Kiarutara,Kiawambogo,Kiawamurathe,Kiawamururu,Kiawambeu,Kiawanjugu,Kiawanugu,Kiawarigi,Kibanguini,Kibaya,Kibiriraini,Kibogo,Kibutha,Kibutio,Kidono,Kiganio,Kigio,Kigongo,Kihatha,Kihoya,Kihuri,Kihuyo,Kiinu,Kilimaini,Kimande,Kimbimbi,Kimondo,Kimunye,Kimunyu,Kinunga,Kiranga,Kirerwa,Kiriangoro,Kirimunge,Kirimaini,Kirimamwaru,Kiroe,Kiriani,Kirigo,Kiriko,Kiriti,Kirong'e,Kirogo,Kirundu,Kirurumi,Kisuki,Kiunya,Kiuria,Kiuu,Kiwegu,Koimbi,Mathare,Mukuru,Kasarani,Embakasi,Ruaraka,Kahawa,Zimmerman,Pipeline,Umoja,Buruburu,Donholm,Tassia,Mwiki,Njiru,Ruai,Dagoretti,Kibera,Rongai,Elburgon,Molo,Njoro,Gilgil,Mai Mahiu,Suswa,Longonot,Elementaita,Subukia,Dundori,Salgaa,Mau Narok,Olenguruone,Keringet,Mauche,Bahati,Lanet,Kamara,Kuresoi,Mau Summit,Lare,Ol-Jororok,Gatundu North,Mathira,Kieni,Tetu,Nyeri South,Embu,Runyenjes,Siakago,Uplands,Nyandarua,Ol Kalou,Ol Jororok,Rumuruti,Maralal,Baragoi,South Horr,Kakuma,Lokichoggio,Loiyangalani,Kipini,Baringo,Eldama Ravine,Mogotio,Maji Mazuri,Nakuru"}
+,
+        {"name": "Luganda Expanded 3", "i": 25640, "min": 4, "max": 12, "d": "", "m": 0, "b": "Buddu,Bugerere,Bulemeezi,Buluuli,Busiro,Busujju,Butambala,Buvuma,Buweekula,Gomba,Kabula,Kkooki,Kyaddondo,Kyaggwe,Mawogola,Mawokota,Ssese,Ssingo,Nansana,Kira,Lugazi,Njeru,Mpigi,Lyantonde,Kalungu,Rakai,Lwengo,Ssembabule,Kanoni,Bukomansimbi,Kayabwe,Buwama,Nkozi,Kakiri,Kasangati,Namayumba,Matugga,Kyengera,Kajjansi,Katabi,Ntenjeru,Ngogwe,Nyenga,Buikwe,Nkokonjeru,Kayunga,Galiraya,Kalangala,Nakasongola,Bbowa,Kabasanda,Maggyo,Butolo,Ssentema,Kakondo,Laakaayi,Kaweeri,Mwera,Nagojje,Kasawo,Seeta,Namuganga,Ntunda,Nakifuma,Kimenyedde,Nagalama,Ggulu,Kiboga,Kyankwanzi,Nakaseke,Luwero,Kassanda,Mengo,Rubaga,Namirembe,Kasubi,Buddo,Nakasero,Makerere,Kololo,Lubya,Kibulala,Naggalabi,Bwaise,Kawempe,Nakawa,Makindye,Nateete,Ndeeba,Mutundwe,Namungoona,Nakulabye,Lungujja,Busega,Kabowa,Kibuye,Nanganda,Katwe,Kiruddu,Salaama,Munyonyo,Lukuli,Luwafu,Kazo,Konge,Buziga,Bugolobi,Bukoto,Bulambiro,Buye,Kigowa,Kisaasi,Kulambiro,Kyambogo,Kyebando,Lugala,Luzira,Mbuya,Mpanga,Port Bell,Namuwongo,Nsambya,Kabalagala,Kansanga,Ggaba,Bunga,Kisubi,Nabbingo,Zana,Masajja,Mpunga,Kisimbiri,Budo,Nakigalala,Serinya,Malangata,Bukuku,Kitula,Budali,Kyanuna,Bumera,Bananya,Buwule,Mawagulu,Kasaga,Buswa,Kitata,Nakulamudde,Lukoma,Kasenge,Bulika,Sempya,Masulita,Nazziba,Seguku,Ubowa,Namasuba,Nabweru,Bunamwaya,Kabulengwa,Kisimu,Ndejje,Kitemba,Kiganda,Kireka,Kirinya,Kiwanga,Nsangi,Ssisa,Kasanje,Mende,Bussi,Busukumu,Nangabo,Katosi,Koome,Mpatta,Mpunge,Kyampisi,Nama,Goma,Naminya,Kangulumira,Nazigo,Busaana"},
+      {"name": "Kirundi Expanded 3", "i": 25641, "min": 4, "max": 12, "d": "", "m": 0, "b": "Bujumbura,Gitega,Muyinga,Ngozi,Ruyigi,Kayanza,Bururi,Muramvya,Makamba,Rumonge,Rutana,Kirundo,Bubanza,Cankuzo,Cibitoke,Mwaro,Nyanza-Lac,Buhongo,Bukirasazi,Kabezi,Kayero,Kayogoro,Kibondo,Kisozi,Luhwa,Magara,Mukenke,Murore,Musenyi,Muyaga,Rugari,Ruzunga,Zanandore,Buhumuza,Burunga,Butanyerera,Gihanga,Musigati,Mpanda,Rugazi,Muha,Mukaza,Ntahangwa,Isale,Kanyosha,Mubimbi,Mugongomanga,Mukike,Mutambu,Mutimbuzi,Nyabiraba,Matana,Mugamba,Rutovu,Songa,Vyanda,Cendajuru,Gisagara,Kigamba,Mishiha,Buganda,Bukinanyana,Mabayi,Mugina,Murwi,Rugombo,Bugendana,Buraza,Giheta,Gishubi,Itaba,Makebuko,Mutaho,Nyanrusange,Ryansoro,Bugenyuzi,Buhiga,Gihogazi,Gitaramuka,Mutumba,Nyabikere,Shombo,Gahombo,Gatara,Kabarore,Matongo,Muhanga,Muruta,Rango,Bugabira,Busoni,Bwambarangwe,Gitobe,Ntega,Vumbi,Kibago,Mabanda,Vugizo,Bukeye,Kiganda,Mbuye,Rutegama,Buhinyuza,Butihinda,Gashoho,Gasorwe,Giteranyi,Mwakiro,Bisoro,Gisozi,Kayokwe,Ndava,Nyabihanga,Rusaka,Busiga,Gashikanwa,Kiremba,Marangara,Mwumba,Nyamurenza,Ruhororo,Tangara,Bugarama,Burambi,Buyengero,Muhuta,Bukemba,Giharo,Gitanga,Mpinga-Kayove,Musongati,Butezi,Bweru,Gisuru,Kinyinya,Nyabitsinda,Lake Tanganyika,Ruvubu,Kibira,Heha,Kagera,Rusizi,Malagarasi,Ruvyironza,Akanyaru,Lake Cohoha,Lake Rweru,Nyavyamo,Imbo,Gishora,Kigwena,Karera,Gasumo,Rwihinda,Teza,Rwegura,Nyamabuno,Cizanye,Kavuruga,Nyabarongo,Rwaba,Rukoziri,Kibenga,Nyamaso,Mugendo,Gatumba"},
+      {"name": "Kinyarwanda Expanded 3", "i": 25642, "min": 4, "max": 12, "d": "", "m": 0, "b": "Kigali,Rubavu,Musanze,Huye,Rwamagana,Nyagatare,Rusizi,Karongi,Muhanga,Nyamata,Kayonza,Kibungo,Nyamagabe,Nyanza,Ruhango,Bugarama,Kibeho,Ngororero,Nyabihu,Byumba,Bugesera,Gatsibo,Kirehe,Ngoma,Gasabo,Kicukiro,Nyarugenge,Burera,Gakenke,Gicumbi,Rulindo,Gisagara,Kamonyi,Nyamasheke,Rutsiro,Ubugesera,Gisaka,Ndorwa,Mubari,Bungwe,Ubumbogo,Ubwanacyambwe,Uburiza,Ubuganza,Igisaka,Indorwa,Umubali,Urukiga,Kinyaga,Bunyabungo,Nduga,Bushi,Karisimbi,Mikeno,Muhabura,Bisoke,Sabyinyo,Gahinga,Nyiragongo,Nyamuragira,Kivu,Ihema,Rweru,Ruhondo,Muhazi,Mugesera,Birira,Kanzigiri,Rwanyakazinga,Hago,Birengero,Cyambwe,Nasho,Mpanga,Karago,Nyabarongo,Akagera,Akanyaru,Kagitumba,Muvumba,Ruvubu,Mukungwa,Nkombo,Napoleon,Amahoro,Iwawa,Gatovu,Bugarula,Tshibati,Tchegera,Nyakizi,Ntaligera,Mukondwe,Tchugi,Birhembe,Shushu,Nyamizi,Ibinja,Cinyabalanga,Irhe,Iko,Cheya,Ihoka,Ishovu,Nyamirundi,Nyungwe,Gishwati,Mukura,Kacyiru,Kimisagara,Nyakabanda,Nyamirambo,Muhima,Rwezamenyo,Rutongo,Gatunda,Karama,Karangazi,Katabagemu,Kiyombe,Matimba,Mimuli,Mukama,Musheli,Rukomo,Rwempasha,Rwimiyaga,Tabagwe,Kabuga,Shyorongi,Rushashi,Buliza,Gashora,Ngenda,Bicumbi,Ntongwe,Kabagari,Ntenyo,Ndiza,Kayumbu,Save,Mugombwa,Kibingo,Nyakizu,Maraba,Kiruhura,Nyamure,Gikonko,Mubuga,Mudasomwa,Kaduha,Karaba,Rwamiko,Cyanzarwe,Mutura,Gasiza,Kageyo,Nyagisagara,Gaseke,Kayove,Gisunzu,Budaha,Itabire,Rusenyi,Kabarondo,Cyarubare,Rukira,Nyarubuye,Rusumo,Ntarama,Gisozi,Gikondo,Kanombe,Rutunga,Ndera,Nyarugunga"}
 ];
 
 
