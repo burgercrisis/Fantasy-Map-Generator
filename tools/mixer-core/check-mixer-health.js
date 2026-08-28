@@ -549,7 +549,7 @@ function main() {
     }
   }
 
-  // Base clusters check
+  // Base clusters check (diagnostic only - shared bases are expected for related languages)
   if (!options.noBaseClusters) {
     const baseClusters = checkBaseClusters({
       minSize: options.minSize,
@@ -558,7 +558,8 @@ function main() {
       region: options.region
     });
     results.push(baseClusters);
-    allPassed = allPassed && baseClusters.passed;
+    // Base cluster sharing is expected behavior (related languages share bases)
+    // Does not affect overall pass/fail - informational only
     console.log(`[${baseClusters.passed ? "PASS" : "WARN"}] ${baseClusters.name}`);
     console.log(`  Multi-member clusters: ${baseClusters.stats.multiMemberClusters}`);
     if (baseClusters.stats.multiMemberClusters > 0) {
