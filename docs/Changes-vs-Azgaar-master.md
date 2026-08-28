@@ -10,11 +10,10 @@ The goal is to give a quick orientation for what has been added or changed, with
 - [2. New Planning & Design Documents](#2-new-planning--design-documents)
 - [3. Language Mixer & Language Data](#3-language-mixer--language-data)
 - [4. Fantasy Race System](#4-fantasy-race-system)
-- [5. AI Text Generator & Namesbase Integration](#5-ai-text-generator--namesbase-integration)
-- [6. UI & UX Adjustments](#6-ui--ux-adjustments)
-- [7. Helper Tools & Maintenance Scripts](#7-helper-tools--maintenance-scripts)
-- [8. Miscellaneous Changes](#8-miscellaneous-changes)
-- [9. Conceptual Summary](#9-conceptual-summary)
+- [5. UI & UX Adjustments](#5-ui--ux-adjustments)
+- [6. Helper Tools & Maintenance Scripts](#6-helper-tools--maintenance-scripts)
+- [7. Miscellaneous Changes](#7-miscellaneous-changes)
+- [8. Conceptual Summary](#8-conceptual-summary)
 
 ---
 
@@ -22,10 +21,10 @@ The goal is to give a quick orientation for what has been added or changed, with
 
 - **Language mixer system** for building synthetic languages and name sets by mixing real languages via the existing Markov generator.
 - **Fantasy race system** integrated with cultures and map generation.
-- **AI text generator integration** (OpenAI / Anthropic / Gemini / Ollama) wired into the UI and synced with the Namesbase editor.
 - **Planning documents** for future systems: Underdark, Individuals, and Character generation.
 - **Extensive language & namebase expansions** plus a toolbox of helper scripts for maintaining language mappings, coverage, and data quality.
 - **Minor UI and tooling adjustments** to surface the above features.
+- **AI generator removal:** the previous AI text generator (OpenAI / Anthropic / Gemini / Ollama) and the extra `Barrier Islands` / `Bay` heightmap templates have been removed and the affected code paths reverted to the upstream-equivalent v1.108-era state.
 
 - **Language mixer coordination + regeneration discipline** (multi-agent): language mixer changes are tracked as deltas under `tools/mixer-deltas/*.json` and validated via `pnpm run mixer:*` scripts. In multi-agent contexts, a **single-integrator lane** is used so only the integrator runs `pnpm run mixer:apply-deltas` (to regenerate committed artifacts).
 
@@ -118,32 +117,7 @@ Effects vs upstream:
 
 ---
 
-## 5. AI Text Generator & Namesbase Integration
-
-New AI workflow for generating descriptive text directly inside the app:
-
-- **New UI module:**
-  - `modules/ui/ai-generator.js` – central AI dialog and request pipeline.
-- **Supported providers & models:**
-  - OpenAI (Chat Completions; e.g. `gpt-4o-mini`, `gpt-4o`, etc.).
-  - Anthropic (Messages API; several Claude models).
-  - Google Gemini (models like `gemini-1.5-flash-latest`, with optional web access).
-  - Ollama (local models via the Ollama HTTP API).
-- **Features:**
-  - Streaming responses with a shared system prompt ("I’m working on my fantasy map.").
-  - Per‑provider API key storage in `localStorage`.
-  - Temperature and model selection with persistence.
-  - Optional **web access toggle** for Gemini requests.
-
-**Namesbase editor integration:**
-
-- The AI dialog’s controls synchronize with the Namesbase editor’s AI controls (model, key, temperature, web‑access flag), so both UIs share configuration.
-
-Compared to upstream, this fork adds a full **multi‑provider AI text generation pipeline** and related UI.
-
----
-
-## 6. UI & UX Adjustments
+## 5. UI & UX Adjustments
 
 Selected UI changes on top of upstream behavior:
 
@@ -152,7 +126,7 @@ Selected UI changes on top of upstream behavior:
 
 - **Namesbase editor & tools wiring:**
   - `modules/ui/namesbase-editor.js`, `modules/ui/editors.js`, `modules/ui/tools.js`, `modules/ui/hotkeys.js`, and `modules/ui/layers.js` touched to:
-    - Expose the language mixer, race editor, and AI generator.
+    - Expose the language mixer and race editor.
     - Add or adjust hotkeys and layer visibility related to the new systems where appropriate.
 
 - **Page shell / bootstrapping:**
@@ -162,7 +136,7 @@ These changes are mostly **additive wiring** for new systems; core map editing U
 
 ---
 
-## 7. Helper Tools & Maintenance Scripts
+## 6. Helper Tools & Maintenance Scripts
 
 A large set of maintenance scripts under `tools/` has been added or expanded. Highlights include:
 
@@ -214,7 +188,7 @@ Compared to upstream, this fork includes a **much richer internal toolbox** for 
 
 ---
 
-## 8. Miscellaneous Changes
+## 7. Miscellaneous Changes
 
 Smaller changes vs upstream include:
 
@@ -229,18 +203,16 @@ Smaller changes vs upstream include:
   - Fixed generation of state names containing unexpected digits and pipe characters (e.g., "Buwal58u5 |Empire", "Kingdom of |Bolze75unia") by adding sanitization logic in `modules/names-generator.js`, `modules/names-mixer.js`, `modules/races.js`, and `modules/cultures-generator.js` to strip digits, |, _unq\d+, _u\d+, and _ from generated names.
 
 - **Heightmap templates:**
-  - Added a new procedural `Barrier Islands` heightmap template in `config/heightmap-templates.js`, exposing a coastal layout with offshore barrier chains alongside the existing island/continent templates.
-  - Added a new procedural `Bay` heightmap template in `config/heightmap-templates.js`, shaping a semi-enclosed sea with land-wrapped coasts and a narrow outer opening.
+  - `config/heightmap-templates.js` is kept at the v1.108-era Azgaar set (14 templates: Volcano, High Island, Low Island, Continents, Archipelago, Atoll, Mediterranean, Peninsula, Pangea, Isthmus, Shattered, Taklamakan, Old World, Fractious). The previously added `Barrier Islands`, `Bay`, and other later templates are not present.
 
 ---
 
-## 9. Conceptual Summary
+## 8. Conceptual Summary
 
 Relative to upstream `master`, this fork focuses on:
 
 - **Deeper world‑building knobs** (races, language diversity, planned Individuals/Underdark/Characters systems).
 - **More flexible name generation** via the language mixer and greatly expanded language data.
-- **AI‑assisted content creation** integrated directly into the UI.
 - **Internal tooling** to keep the above systems maintainable over time.
 
 This document should be updated if/when new large‑scope features land in this branch so downstream users can quickly see what diverges from Azgaar’s original generator.

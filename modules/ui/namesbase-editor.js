@@ -513,15 +513,6 @@ function editNamesbase() {
 
       const webAccess = typeof getStoredAiWebAccess === "function" ? getStoredAiWebAccess() : localStorage.getItem("fmg-ai-web-access") === "1";
       if (mixerAiWebAccessInput) mixerAiWebAccessInput.checked = webAccess;
-
-      const modelSelect = byId("aiGeneratorModel");
-      const temperatureInput = byId("aiGeneratorTemperature");
-      const keyInput = byId("aiGeneratorKey");
-      if (modelSelect && storedModel) modelSelect.value = storedModel;
-      if (temperatureInput && temperature !== null) temperatureInput.value = temperature;
-      if (keyInput && key) keyInput.value = key;
-      const webAccessCheckbox = byId("aiGeneratorWebAccess");
-      if (webAccessCheckbox) webAccessCheckbox.checked = webAccess;
     }
 
     function saveToStorage() {
@@ -539,15 +530,6 @@ function editNamesbase() {
 
       const webAccess = !!(mixerAiWebAccessInput && mixerAiWebAccessInput.checked);
       localStorage.setItem("fmg-ai-web-access", webAccess ? "1" : "0");
-
-      const modelSelect = byId("aiGeneratorModel");
-      const temperatureInput = byId("aiGeneratorTemperature");
-      const keyInput = byId("aiGeneratorKey");
-      if (modelSelect && model) modelSelect.value = model;
-      if (temperatureInput && !isNaN(temperatureNumber)) temperatureInput.value = String(temperatureNumber);
-      if (keyInput) keyInput.value = mixerAiKeyInput.value;
-      const webAccessCheckbox = byId("aiGeneratorWebAccess");
-      if (webAccessCheckbox) webAccessCheckbox.checked = webAccess;
     }
 
     mixerAiModelSelect.addEventListener("change", saveToStorage);

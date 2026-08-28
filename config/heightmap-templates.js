@@ -76,21 +76,6 @@ const heightmapTemplates = (function () {
     Strait 2 vertical 0 0
     Strait 2 horizontal 0 0`;
 
-  const barrierIslands = `Add 8 all 0 0
-    Range 3-4 24-34 5-25 15-85
-    Smooth 2 0 0 0
-    Trough 3-4 12-18 25-40 10-90
-    Range 4-6 35-55 40-55 10-90
-    Hill 6-8 12-20 40-55 10-90
-    Pit 3-5 8-14 45-70 20-80
-    Range 2-3 24-32 65-80 10-90
-    Range 2-3 20-30 80-95 10-90
-    Smooth 1 0 0 0
-    Multiply 0.92 land 0 0
-    Strait 1-2 vertical 0 0
-    Strait 1 horizontal 0 0
-    Mask 2.5 0 0 0`;
-
   const atoll = `Hill 1 75-80 50-60 45-55
     Hill 1.5 30-50 25-75 30-70
     Hill .5 30-50 25-35 30-70
@@ -109,15 +94,6 @@ const heightmapTemplates = (function () {
     Hill 2-3 30-70 95-100 20-80
     Trough 3-6 40-50 0-100 0-10
     Trough 3-6 40-50 0-100 90-100`;
-
-  const bay = `Range 3-5 25-55 20-80 5-20
-    Range 3-5 25-55 20-80 80-95
-    Hill 4-6 30-50 25-75 0-10
-    Hill 4-6 30-50 25-75 90-100
-    Multiply 0.9 land 0 0
-    Smooth 1 0 0 0
-    Trough 4-6 20-35 55-100 20-80
-    Pit 3-5 15-25 65-95 35-65`;
 
   const peninsula = `Range 2-3 20-35 40-50 0-15
     Add 5 all 0 0
@@ -351,11 +327,9 @@ const heightmapTemplates = (function () {
     lowIsland: {id: 2, name: "Low Island", template: lowIsland, probability: 9},
     continents: {id: 3, name: "Continents", template: continents, probability: 16},
     archipelago: {id: 4, name: "Archipelago", template: archipelago, probability: 18},
-    barrierIslands: {id: 5, name: "Barrier Islands", template: barrierIslands, probability: 4},
-    atoll: {id: 6, name: "Atoll", template: atoll, probability: 1},
-    mediterranean: {id: 7, name: "Mediterranean", template: mediterranean, probability: 5},
-    bay: {id: 16, name: "Bay", template: bay, probability: 3},
-    peninsula: {id: 8, name: "Peninsula", template: peninsula, probability: 3},
+    atoll: {id: 5, name: "Atoll", template: atoll, probability: 1},
+    mediterranean: {id: 6, name: "Mediterranean", template: mediterranean, probability: 5},
+    peninsula: {id: 7, name: "Peninsula", template: peninsula, probability: 3},
     cape: {id: 17, name: "Cape", template: cape, probability: 2},
     pangea: {id: 9, name: "Pangea", template: pangea, probability: 5},
     isthmus: {id: 10, name: "Isthmus", template: isthmus, probability: 2},

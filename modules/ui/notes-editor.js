@@ -55,7 +55,6 @@ function editNotes(id, name) {
   byId("notesLegend").addEventListener("blur", updateLegend);
   byId("notesPin").addEventListener("click", toggleNotesPin);
   byId("notesFocus").addEventListener("click", validateHighlightElement);
-  byId("notesGenerateWithAi").addEventListener("click", openAiGenerator);
   byId("notesDownload").addEventListener("click", downloadLegends);
   byId("notesUpload").addEventListener("click", () => legendsToLoad.click());
   byId("legendsToLoad").addEventListener("change", function () {
@@ -142,25 +141,6 @@ function editNotes(id, name) {
       cancel: "Keep",
       onConfirm: removeLegend
     });
-  }
-
-  function openAiGenerator() {
-    const note = notes.find(note => note.id === notesSelect.value);
-
-    let prompt = `Respond with description. Use simple dry language. Invent facts, names and details. Split to paragraphs and format to HTML. Remove h tags, remove markdown.`;
-    if (note?.name) prompt += ` Name: ${note.name}.`;
-    if (note?.legend) prompt += ` Data: ${note.legend}`;
-
-    const onApply = result => {
-      notesLegend.innerHTML = result;
-      if (note) {
-        note.legend = result;
-        updateNotesBox(note);
-        if (window.tinymce) tinymce.activeEditor.setContent(note.legend);
-      }
-    };
-
-    generateWithAi(prompt, onApply);
   }
 
   function downloadLegends() {
