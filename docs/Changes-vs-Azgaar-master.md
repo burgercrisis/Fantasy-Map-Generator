@@ -24,7 +24,6 @@ The goal is to give a quick orientation for what has been added or changed, with
 - **Planning documents** for future systems: Underdark, Individuals, and Character generation.
 - **Extensive language & namebase expansions** plus a toolbox of helper scripts for maintaining language mappings, coverage, and data quality.
 - **Minor UI and tooling adjustments** to surface the above features.
-- **AI generator removal:** the previous AI text generator (OpenAI / Anthropic / Gemini / Ollama) and the extra `Barrier Islands` / `Bay` heightmap templates have been removed and the affected code paths reverted to the upstream-equivalent v1.108-era state.
 
 - **Language mixer coordination + regeneration discipline** (multi-agent): language mixer changes are tracked as deltas under `tools/mixer-deltas/*.json` and validated via `pnpm run mixer:*` scripts. In multi-agent contexts, a **single-integrator lane** is used so only the integrator runs `pnpm run mixer:apply-deltas` (to regenerate committed artifacts).
 
@@ -201,9 +200,6 @@ Smaller changes vs upstream include:
   - Light updates to scripts/dependencies to support the new workflow and tooling (while still remaining a static‑site style project).
 - **State name sanitization fix (2025-12-19):**
   - Fixed generation of state names containing unexpected digits and pipe characters (e.g., "Buwal58u5 |Empire", "Kingdom of |Bolze75unia") by adding sanitization logic in `modules/names-generator.js`, `modules/names-mixer.js`, `modules/races.js`, and `modules/cultures-generator.js` to strip digits, |, _unq\d+, _u\d+, and _ from generated names.
-
-- **Heightmap templates:**
-  - `config/heightmap-templates.js` is kept at the v1.108-era Azgaar set (14 templates: Volcano, High Island, Low Island, Continents, Archipelago, Atoll, Mediterranean, Peninsula, Pangea, Isthmus, Shattered, Taklamakan, Old World, Fractious). The previously added `Barrier Islands`, `Bay`, and other later templates are not present.
 
 ---
 
