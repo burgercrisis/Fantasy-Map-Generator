@@ -1,67 +1,18 @@
-# IDE
 .vscode
 .idea
-
-# Dependencies
+.claude/worktrees
 /node_modules
-
-# Build outputs
-/reports
+*/node_modules
 /dist
 /coverage
-
-# Temporary directories
-/tmp
-/tools/agents/
-/tools/placename-replacement
-/tools/mixer-diagnostics/tmp
-/tools/batch
-/tools/updates
-/tools/state
-
-# Lock files
-/tools/mixer-diagnostics/*.lock
-/tools/mixer-core/*.lock
-
-# Report files
-/docs/reports/
-
-# Project files
-/mods
-/pdf_splitter
-/DEVplans
-
-# Temporary files
-/.tmp-*
-.tmp
-*.tmp
-*.temp
-*.log
-TEMP_*
-TEMP_DO_NOT_CREATE
-*.sqlite-shm
-*.sqlite-wal
-
-# Dev tools
-.docker
-.cursor
-.github
-.kilo
-.kiro
-.roo
-.ruff_cache
-.runtime
-.trae
-.windsurf
-modules/backups/
-tmp_*
-research_logs/
-docs/verification/data/
-docs/verification/verdicts/
-.playwright-mcp/
-docs/verification/research/by-language/
-docs/verification/research/json/
-docs/verification/research/verified-json/
-docs/verification/research/current-names.json
-docs/verification/
-temp/
+/playwright-report
+/test-results
+/_bmad
+/_bmad-output
+/memory
+.github/agents/bmad-*
+.github/prompts/bmad-*
+.serena/project.yml
+/dist-electron
+/release
+.DS_Store

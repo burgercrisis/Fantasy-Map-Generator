@@ -1,45 +1,67 @@
 {
   "name": "fantasy-map-generator",
-  "private": true,
-  "volta": {
-    "node": "24.11.1"
+  "productName": "Fantasy Map Generator",
+  "version": "1.149.2",
+  "description": "Azgaar's _Fantasy Map Generator_ is a free web application that helps fantasy writers, game masters, and cartographers create and edit fantasy maps.",
+  "homepage": "https://github.com/Azgaar/Fantasy-Map-Generator#readme",
+  "bugs": {
+    "url": "https://github.com/Azgaar/Fantasy-Map-Generator/issues"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Azgaar/Fantasy-Map-Generator.git"
+  },
+  "license": "MIT",
+  "author": "Azgaar",
+  "main": "dist-electron/main.js",
   "scripts": {
-    "mixer:apply-deltas": "pnpm run mixer:guardrails && node tools/mixer-core/apply-mixer-deltas.js",
-    "mixer:check-deltas": "pnpm run mixer:guardrails && node tools/mixer-core/apply-mixer-deltas.js --check",
-    "mixer:guardrails": "node tools/mixer-core/check-language-mixer-guardrails.js",
-    "generate:language-mixer": "node tools/mixer-core/generate-language-mixer.js",
-    "diff:families": "node tools/mixer-core/diff-language-families.js",
-    "mixer:check-and-generate": "node tools/mixer-core/diff-language-families.js && node tools/mixer-core/generate-language-mixer.js",
-    "mixer:coverage": "node tools/mixer-core/check-mixer-health.js --quick",
-    "mixer:lexifier-auto": "node tools/mixer-catalog/add-lexifier.js",
-    "mixer:qa": "node tools/mixer-core/diff-language-families.js && node tools/mixer-core/check-mixer-health.js --quick",
-    "mixer:full": "node tools/mixer-catalog/add-lexifier.js && node tools/mixer-core/diff-language-families.js && node tools/mixer-core/generate-language-mixer.js",
-    "mixer:full-with-normalize": "node tools/mixer-catalog/add-lexifier.js && node tools/mixer-core/normalize-language-names.js && node tools/mixer-core/diff-language-families.js && node tools/mixer-core/generate-language-mixer.js",
-    "mixer:namedups": "node tools/mixer-diagnostics/check-language-mixer-name-duplicates.js",
-    "mixer:failures": "node tools/mixer-core/check-mixer-health.js --no-family-diff --no-coverage --no-name-dups --no-fuzzy-dups --no-base-clusters",
-    "mixer:health": "node tools/mixer-core/check-mixer-health.js --full",
-    "mixer:doctor": "node tools/mixer-core/check-mixer-health.js --full --strict",
-    "mixer:integration-table": "node tools/mixer-core/generate-language-integration-table.js",
-    "mixer:race-coverage": "node tools/mixer-races/report-race-language-coverage.js",
-    "mixer:race-suite": "node tools/mixer-races/run-race-language-suite.js",
-    "mixer:clean-map": "node tools/mixer-diagnostics/clean-language-mixer-map.js",
-    "mixer:normalize-names": "node tools/mixer-core/normalize-language-names.js",
-    "namebases:lengths": "node tools/mixer-namebases/check-namebase-lengths.js",
-    "placenames:analyze": "node tools/placename-replacement/replace-placeholders.js --dry-run",
-    "placenames:replace": "node tools/placename-replacement/replace-placeholders.js",
-    "placenames:validate": "node tools/placename-replacement/replace-placeholders.js --dry-run",
-    "test": "jest",
-    "test:watch": "jest --watch",
-    "test:coverage": "jest --coverage",
-    "test:normalize": "jest tools/mixer-core/normalize-language-names.test.js",
-    "test:placenames": "jest --config tools/placename-replacement/jest.config.js",
-    "dev": "node tools/dev-server.js"
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "electron": "node scripts/electron.mjs",
+    "test": "vitest",
+    "test:e2e": "playwright test",
+    "lint": "biome check --write",
+    "sync-version": "node scripts/sync-version.js",
+    "stamp-assets": "node scripts/stamp-assets.js",
+    "prepare": "simple-git-hooks"
+  },
+  "simple-git-hooks": {
+    "pre-commit": "npm run lint && node scripts/sync-version.js --stage && node scripts/stamp-assets.js --stage"
   },
   "devDependencies": {
-    "fast-check": "^4.5.2",
-    "http-server": "^14.1.1",
-    "jest": "^30.2.0",
-    "puppeteer": "^24.34.0"
+    "@biomejs/biome": "^2.4.6",
+    "@emnapi/core": "^1.11.3",
+    "@emnapi/runtime": "^1.11.3",
+    "@playwright/test": "^1.57.0",
+    "@types/d3": "^7.4.3",
+    "@types/delaunator": "^5.0.3",
+    "@types/lineclip": "^2.0.0",
+    "@types/node": "^25.0.10",
+    "@types/polylabel": "^1.1.3",
+    "@types/three": "^0.184.1",
+    "@vitest/browser": "^4.1.10",
+    "@vitest/browser-playwright": "^4.0.18",
+    "electron": "^43.4.1",
+    "electron-builder": "^26.15.3",
+    "electron-updater": "^6.8.9",
+    "jsdom": "^29.1.1",
+    "playwright": "^1.57.0",
+    "simple-git-hooks": "^2.13.1",
+    "typescript": "^5.9.3",
+    "vite": "^8.0.16",
+    "vitest": "^4.0.18"
+  },
+  "dependencies": {
+    "alea": "^1.0.1",
+    "d3": "^7.9.0",
+    "delaunator": "^5.0.1",
+    "driver.js": "^1.4.0",
+    "lineclip": "^2.0.0",
+    "polylabel": "^2.0.1",
+    "three": "^0.184.0"
+  },
+  "engines": {
+    "node": ">=24.0.0"
   }
 }

@@ -1,80 +1,3 @@
-So far what I've done is:
-
-- Add a language mixer which can be used to "mix" different languages using the Markov system Azgaar implemented; this can be used to generate novel "languages" for placenames that truly do not exist, but may feel like they do.
-
-
-- Add a small fantasy race system. It has some campaign setting sets, and integrates alongside the cultures system.
-
-- [More detail](DEVplans/Changes-vs-Azgaar-master.md)
-
-## MCP Configuration
-
-This project uses MCP (Model Context Protocol) for development tooling. The `.kiro/settings/mcp.json` configuration file has been updated to use environment variables instead of hard-coded paths.
-
-To set up your environment, create a `.env` file with the following variables:
-
-```
-# Path to the MCP hub server.js file
-MCP_HUB_SERVER_PATH=/path/to/your/mcp/hub/dist/server.js
-
-# Root directories for MCP hub projects
-MCP_HUB_PROJECT_ROOTS=/path/to/your/projects
-
-# Root directories for Git repositories
-MCP_HUB_GIT_ROOTS=/path/to/your/git/repos
-
-# Path to pnpm command (usually found via 'which pnpm' or 'where pnpm')
-MCP_HUB_PNPM_CMD=/path/to/pnpm
-
-# Root directories to verify (usually same as PROJECT_ROOTS)
-MCP_HUB_VERIFY_ROOTS=/path/to/your/projects
-
-# Path to Chrome/Chromium executable for Puppeteer
-PUPPETEER_BROWSER_EXE=/path/to/chrome/executable
-```
-
-Planned (rough priority order for this fork):
-
-- **0. Current focus:**
-  - [Language Mixer Rules (authoritative)](DEVplans/Language-Mixer-Rules.md)
-  - [Languages, mixer behavior across languages, and races/languages wiring](DEVplans/Races-Languages-Rules.md)
-  - [Races ↔ Cultures Decoupling](DEVplans/Races-Cultures-Decoupling.md)
-
-- **1.** [Add the Underdark](DEVplans/Underdark.md)
-
-- **2.** [Upgrade Renderering to DeckGL Hybrid](DEVplans\Rendering-Option1-DeckGL-Hybrid.md)
-
-- **3.** [Add Individuals](DEVplans/Individuals.md)
-
-- **4.** [Heightmap Landforms Plan](DEVplans/Heightmap-Landforms-Plan.md)
-
-- **5.** [Heightmap World Builder (Composite Generator) Plan](DEVplans/Heightmap-Worldbuilder.md)
-
-- **6.** [Options Min–Max Sliders – Plan](DEVplans/Options-MinMax-Sliders.md)
-
-- **7.** [Add a full 3.5 / Pathfinder / 5e D&D character generation system on top of Individuals](DEVplans/Characters.md)
-
-- **8.** [Add an evolving world simulation layer (wars, rulers, borders, trade, burg lifecycle)](DEVplans/Evolving-Simulation.md)
-
-- **9.** [Evolving simulation knobs & choices / k-NN-iffication](DEVplans/Evolving-Simulation-Choices.md)
-
-- **00. Nice-to-have:** get Gemini API working, maybe add more AI APIs.
-
-- **Always:** improve everything.
-
-
-Status items:
-
-- [Language system status and tooling extensions](DEVplans/Languages-Status.md)
-- [Guidelines for races/languages](DEVplans/Races-Languages-Rules.md)
-- [Language mixer helper tools & workflows](tools/HELPER-TOOLS.md) CLI scripts for Markov/mixer QA, coverage checks, and race language palettes.
-
-
-Above is my description of what I'm doing to Azgaars dankness
-
-Below is the original description from Azgaar
-
-
 # Fantasy Map Generator
 
 Azgaar's _Fantasy Map Generator_ is a free web application that helps fantasy writers, game masters, and cartographers create and edit fantasy maps.
@@ -93,8 +16,6 @@ Join our [Discord server](https://discordapp.com/invite/X7E84HU) and [Reddit com
 
 Contact me via [email](mailto:azgaar.fmg@yandex.com) if you have non-public suggestions. For bug reports please use [GitHub issues](https://github.com/Azgaar/Fantasy-Map-Generator/issues) or _#fmg-bugs_ channel on Discord. If you are facing performance issues, please read [the tips](https://github.com/Azgaar/Fantasy-Map-Generator/wiki/Tips#performance-tips).
 
-Pull requests are highly welcomed. The codebase is messy and requires re-design. I will appreciate if you start with minor changes. Check out the [data model](https://github.com/Azgaar/Fantasy-Map-Generator/wiki/Data-model) before contributing.
-
 You can support the project on [Patreon](https://www.patreon.com/azgaar).
 
 _Inspiration:_
@@ -105,6 +26,16 @@ _Inspiration:_
 
 - Scott Turner's [_Here Dragons Abound_](https://heredragonsabound.blogspot.com)
 
+## Contribution
 
+Pull requests are highly welcomed. The codebase is messy and I will appreciate if you start with minor changes. Check out the [data model](https://github.com/Azgaar/Fantasy-Map-Generator/wiki/Data-model) before contributing.
 
+The codebase is gradually transitioning from **vanilla JavaScript to TypeScript** while maintaining compatibility with the existing generation pipeline and old `.map` user files.
 
+The expected **future** architecture is based on a separation between **world data**, **procedural generation**, **interactive editing**, and **rendering**. The application is conceptually divided into four main layers: world data and styles (state), generators (model), editors (controllers), renderers (view).
+
+Flow:
+settings → generators → world data → renderer
+UI → editors → world data → renderer.
+
+The data layer must contain no logic and no rendering code. Generators implement the procedural world simulation. Editors implement interactive editing tools used by the user. They perform controlled mutations of the world state. Editors can be viewed as interactive generators. The renderer converts the world state into SVG or WebGl graphics. Renderer must be pure visualization step and not modify world data.
