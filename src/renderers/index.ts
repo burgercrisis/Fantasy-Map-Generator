@@ -2,6 +2,7 @@ import "@/components/layers";
 import "./draw-borders";
 import "./draw-biomes";
 import "./draw-burg-icons";
+import "./draw-races";
 import "./labels/labels-renderer";
 import "./draw-emblems";
 import "./draw-heightmap";

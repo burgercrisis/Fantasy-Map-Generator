@@ -25,6 +25,15 @@ import type { Emblem } from "@/types/emblems";
 import { downloadFile, getArea, getAreaUnit, getFileName } from "@/utils";
 import { abbreviate, capitalize, debounce, ensureEl, getPointer, isLand, parseTransform, ra, rn, si } from "../utils";
 
+// Custom window globals added by this fork (no upstream equivalent).
+// fantasyRaceNames is declared in races.ts; declared here for local use.
+declare global {
+  var getRaceLanguageIsoWeights: ((raceName: string) => Record<string, number>) | undefined;
+  var ensureCultureMixerBaseIndex: ((cultureId: number) => number | null) | undefined;
+  var initializeRacesForExpansion: ((options?: { forceFilterFromUi?: boolean }) => void) | undefined;
+  var assignRaces: (() => void) | undefined;
+}
+
 const dialogId = "culturesEditor" as const;
 const position = { my: "right top", at: "right-10 top+10", of: "svg", collision: "fit" };
 const columns: EditorColumn<Culture>[] = [
@@ -35,6 +44,14 @@ const columns: EditorColumn<Culture>[] = [
     width: "10em",
     permanent: true,
     sortBy: culture => culture.name || "",
+    sortType: "alpha"
+  },
+  {
+    key: "race",
+    label: "Race",
+    width: "6em",
+    mobileHidden: true,
+    sortBy: culture => getRaceName(culture),
     sortType: "alpha"
   },
   {
@@ -237,6 +254,7 @@ function culturesEditorAddLines(view: TableView<Culture>): void {
           data-area="${area}"
           data-population="${population}"
           data-base="${c.base}"
+          data-race=""
           data-type=""
           data-expansionism=""
           data-emblems="${c.shield}"
@@ -247,6 +265,7 @@ function culturesEditorAddLines(view: TableView<Culture>): void {
               value="${c.name}" autocorrect="off" spellcheck="false" />
             <span class="icon-cw placeholder"></span>
           </div>
+          <select class="cultureRace placeholder" data-col="race">${getRaceOptions("")}</select>
           <select class="cultureType placeholder" data-col="type">${getTypeOptions(c.type)}</select>
           <div data-col="base">
             <span data-tip="Click to re-generate names for burgs with this culture assigned" class="icon-arrows-cw"></span>
@@ -284,6 +303,7 @@ function culturesEditorAddLines(view: TableView<Culture>): void {
         data-area="${area}"
         data-population="${population}"
         data-base="${c.base}"
+        data-race="${getRaceName(c)}"
         data-type="${c.type}"
         data-expansionism="${c.expansionism}"
         data-emblems="${c.shield}"
@@ -294,6 +314,8 @@ function culturesEditorAddLines(view: TableView<Culture>): void {
             value="${c.name}" autocorrect="off" spellcheck="false" />
           <span data-tip="Regenerate culture name" class="icon-cw hiddenIcon" style="visibility: hidden"></span>
         </div>
+        <select data-tip="Culture race. Defines language mixer weights. Click to change"
+          class="cultureRace" data-col="race">${getRaceOptions(getRaceName(c))}</select>
         <select data-tip="Culture type. Defines growth model. Click to change"
           class="cultureType" data-col="type">${getTypeOptions(c.type)}</select>
         <div data-col="base">
@@ -371,6 +393,9 @@ function culturesEditorAddLines(view: TableView<Culture>): void {
     .querySelectorAll("div > select.cultureType")
     .forEach($el => void $el.addEventListener("change", cultureChangeType));
   ensureEl("culturesBody")
+    .querySelectorAll("div > select.cultureRace")
+    .forEach($el => void $el.addEventListener("change", cultureChangeRace));
+  ensureEl("culturesBody")
     .querySelectorAll("div > select.cultureBase")
     .forEach($el => void $el.addEventListener("change", cultureChangeBase));
   ensureEl("culturesBody")
@@ -418,6 +443,31 @@ function getBaseOptions(base: number): string {
     options += `<option ${base === i ? "selected" : ""} value="${i}">${n.name}</option>`;
   });
   if (!Names.nameBases[base]) options += `<option selected value="${base}">removed</option>`; // in case namesbase was removed
+  return options;
+}
+
+// Resolve the display name for a culture's race (custom fork; no upstream equivalent).
+function getRaceName(culture: Culture | undefined): string {
+  if (!culture || !culture.i) return "";
+  if (typeof culture.race === "string" && culture.race) return culture.race;
+  if (typeof getRaceNameForCulture === "function") {
+    const raceName = getRaceNameForCulture(culture);
+    if (raceName && raceName !== "None") return raceName;
+  }
+  if (culture.race && pack && Array.isArray((pack as unknown as { races?: { name?: string }[] }).races)) {
+    const race = (pack as unknown as { races?: { name?: string }[] }).races![Number(culture.race)];
+    if (race && race.name && race.name !== "None") return race.name;
+  }
+  return "Human";
+}
+
+// Build the race <select> options, marking `selected` as the active race.
+function getRaceOptions(selected: string): string {
+  const allRaces = Array.isArray(window.fantasyRaceNames) ? window.fantasyRaceNames : [];
+  let options = "";
+  for (const race of allRaces) {
+    options += `<option ${race === selected ? "selected" : ""} value="${race}">${race}</option>`;
+  }
   return options;
 }
 
@@ -513,6 +563,28 @@ function cultureChangeType(this: HTMLSelectElement): void {
   const type = this.value as (typeof pack.cultures)[number]["type"];
   pack.cultures[culture].type = type;
   recalculateCultures();
+}
+
+function cultureChangeRace(this: HTMLSelectElement): void {
+  const parent = this.parentNode as HTMLElement;
+  const cultureId = +parent.dataset.id!;
+  const raceName = this.value;
+  parent.dataset.race = raceName;
+  pack.cultures[cultureId].race = raceName;
+  if (raceName && raceName !== "Human") {
+    if (typeof getRaceLanguageIsoWeights === "function") {
+      const weights = getRaceLanguageIsoWeights(raceName);
+      if (weights && typeof ensureCultureMixerBaseIndex === "function") {
+        const baseIndex = ensureCultureMixerBaseIndex(cultureId);
+        if (typeof baseIndex === "number") {
+          pack.cultures[cultureId].base = baseIndex;
+          parent.dataset.base = String(baseIndex);
+          const baseSelect = parent.querySelector<HTMLSelectElement>(".cultureBase");
+          if (baseSelect) baseSelect.innerHTML = getBaseOptions(baseIndex);
+        }
+      }
+    }
+  }
 }
 
 function cultureChangeBase(this: HTMLSelectElement): void {
@@ -852,12 +924,17 @@ async function showHierarchy(): Promise<void> {
 
 function recalculateCultures(force?: boolean): void {
   if (force || ensureEl<HTMLInputElement>("culturesAutoChange").checked) {
+    if (typeof initializeRacesForExpansion === "function") {
+      initializeRacesForExpansion({ forceFilterFromUi: true });
+    }
+
     Cultures.expand();
     Layers.draw("cultures");
     pack.burgs.forEach(b => {
       if (!b.i || b.removed) return;
       b.culture = pack.cells.culture[b.cell];
     });
+    if (typeof assignRaces === "function") assignRaces();
     refreshCulturesEditor();
   }
 }

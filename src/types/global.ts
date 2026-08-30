@@ -2,6 +2,12 @@ import type { LabelGroup } from "@/generators/labels-generator";
 import type { ThreeDOptions } from "../data/view-3d-options";
 import type { CoastlineSettings } from "../generators/coastline-generator";
 import type { GoodsModule } from "../generators/goods-generator";
+import type {
+  LanguageMixerCatalogEntry,
+  LanguageMixerMapEntry,
+  PostMixedLanguage,
+  LanguageSoftmodRawBundle
+} from "../generators/language-softmods";
 import type { MarketsModule } from "../generators/markets-generator";
 import type { ProductionModule } from "../generators/production-generator";
 import type { BurgGroup } from "./burg-groups";
@@ -41,6 +47,35 @@ declare global {
     changeMapZoom: typeof import("../components/zoom").changeMapZoom;
     setZoomExtent: typeof import("../components/zoom").setZoomExtent;
     setTranslateExtent: typeof import("../components/zoom").setTranslateExtent;
+    /**
+     * Language mixer catalog — populated by config/language-mixes-all.js at load.
+     * Extended at runtime by language-softmods.ts when softmod bundles are applied.
+     */
+    languageMixerCatalog: LanguageMixerCatalogEntry[];
+    /**
+     * Language mixer map — populated by config/language-mixer-map.js at load.
+     * Extended at runtime by language-softmods.ts when softmod bundles are applied.
+     */
+    languageMixerMap: LanguageMixerMapEntry[];
+    /**
+     * Post-mixed language descriptors — optionally populated by config and
+     * extended at runtime by language-softmods.ts.
+     */
+    postMixedLanguages: PostMixedLanguage[];
+    /**
+     * Apply language softmod bundles. Attached at module load by
+     * language-softmods.ts; callable from classic code that loads softmod
+     * bundles from Node-only tooling.
+     */
+    applyLanguageSoftmods: (
+      bundles: LanguageSoftmodRawBundle[] | null | undefined,
+      options?: { warnings?: string[] }
+    ) => {
+      catalog: LanguageMixerCatalogEntry[];
+      mixerMap: LanguageMixerMapEntry[];
+      postMixedLanguages: PostMixedLanguage[];
+      warnings: string[];
+    };
   }
 
   var mapId: number;

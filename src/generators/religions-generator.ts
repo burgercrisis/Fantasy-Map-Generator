@@ -1282,14 +1282,29 @@ class ReligionsModule {
       return;
     }
     const meaning = this.generateMeaning();
-    const cultureName = Names.getCulture(culture);
+    const base = pack.cultures[culture] && pack.cultures[culture].base;
+    let cultureName: string;
+    if (typeof base === "number" && typeof Names.getUseCaseRange === "function") {
+      const range = Names.getUseCaseRange(base, "deity");
+      cultureName = Names.getCulture(culture, range.min, range.max, "");
+    } else {
+      cultureName = Names.getCulture(culture, undefined, undefined, "", 0.8);
+    }
     return `${cultureName}, The ${meaning}`;
   }
 
   private generateReligionName(variety: string, form: string, deity: string, center: number): [string, string] {
     const { cells, cultures, burgs, states } = pack;
 
-    const random = () => Names.getCulture(cells.culture[center]);
+    const random = () => {
+      const cultureId = cells.culture[center];
+      const base = cultures[cultureId] && cultures[cultureId].base;
+      if (typeof base === "number" && typeof Names.getUseCaseRange === "function") {
+        const range = Names.getUseCaseRange(base, "religion");
+        return Names.getCulture(cultureId, range.min, range.max, "");
+      }
+      return Names.getCulture(cultureId, undefined, undefined, "", 0);
+    };
     const type = rw(types[form]);
     const supreme = deity.split(/[ ,]+/)[0];
     const culture = cultures[cells.culture[center]].name;

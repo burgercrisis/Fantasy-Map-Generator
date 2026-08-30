@@ -22,6 +22,7 @@ import { drawOcean, removeOcean } from "@/renderers/draw-ocean";
 import { drawPopulation } from "@/renderers/draw-population";
 import { drawPrecipitation, removePrecipitation } from "@/renderers/draw-precipitation";
 import { drawProvinces } from "@/renderers/draw-provinces";
+import { drawRaces } from "@/renderers/draw-races";
 import { drawRelief, removeRelief } from "@/renderers/draw-relief-icons";
 import { drawReligions } from "@/renderers/draw-religions";
 import { drawRivers } from "@/renderers/draw-rivers";
@@ -302,6 +303,7 @@ const mapLayers = [
   new Layer({ id: "relief", element: "terrain", parent: "viewbox", draw: drawRelief, erase: removeRelief }),
   new Layer({ id: "religions", element: "relig", parent: "viewbox", draw: drawReligions }),
   new Layer({ id: "cultures", element: "cults", parent: "viewbox", draw: drawCultures }),
+  new Layer({ id: "races", element: "races", parent: "viewbox", draw: drawRaces }),
   new Layer({
     id: "states",
     element: "regions",

@@ -13,6 +13,18 @@ import { ensureEl, getFileName, link, parseError, rn } from "@/utils";
 
 type SaveMethod = "storage" | "machine" | "dropbox";
 
+// Race entity type (custom to this fork; no upstream equivalent)
+interface Race {
+  i: number;
+  name: string;
+  color?: string;
+  expansionism?: number;
+  removed?: boolean;
+}
+
+// Extend pack with race data (custom to this fork)
+type PackWithRaces = { races?: Race[]; cells: typeof pack.cells & { race?: Uint16Array } };
+
 async function saveMap(method: SaveMethod): Promise<void> {
   if (customization) return tip("Map cannot be saved in EDIT mode, please complete the edit and retry", false, "error");
   closeDialogs("#alert");
@@ -152,6 +164,10 @@ function prepareMapData(): string {
   // round population to save space
   const pop = Array.from(pack.cells.pop).map(p => rn(p, 4));
 
+  // store race data (custom to this fork)
+  const packWithRaces = pack as unknown as PackWithRaces;
+  const races = JSON.stringify(packWithRaces.races || []);
+
   // data format as below
   const mapData = [
     params,
@@ -205,9 +221,21 @@ function prepareMapData(): string {
     styleData,
     relief,
     layers,
-    graphOverride
-  ].join("\r\n");
-  return mapData;
+    graphOverride,
+    races
+  ];
+
+  // store cell-level race data if present and valid (custom to this fork)
+  if (
+    packWithRaces.cells &&
+    packWithRaces.cells.race &&
+    packWithRaces.cells.i &&
+    packWithRaces.cells.race.length === packWithRaces.cells.i.length
+  ) {
+    mapData.push(packWithRaces.cells.race);
+  }
+
+  return mapData.join("\r\n");
 }
 
 // save map file to indexedDB

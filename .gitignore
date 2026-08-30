@@ -16,3 +16,27 @@
 /dist-electron
 /release
 .DS_Store
+
+# ============================================================
+# FORK-SPECIFIC (language-supreme) — remove this section to undo
+# ============================================================
+# IDE / agent folders
+.cursor/
+.kilo/
+.kiro/
+.roo/
+.runtime/
+.trae/
+.windsurf/
+.playwright-mcp/
+# Our fork-specific dirs
+.docker/
+pdf_splitter/
+research_logs/
+# Temp/work files
+data/temp_*
+docs/reports/
+docs/verification/
+modules/backups/
+tools/tmp_*
+# New TS ports (not yet committed)

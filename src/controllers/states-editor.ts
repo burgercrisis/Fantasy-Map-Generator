@@ -573,12 +573,20 @@ function editStateName(state: number): void {
   function regenerateShortNameCulture() {
     const state = +ensureEl("stateNameEditor").dataset.state!;
     const culture = pack.states[state].culture;
-    const name = Names.getState(Names.getCultureShort(culture), culture);
+    const center = pack.states[state].center;
+    const base =
+      typeof Names.getBaseForCell === "function" && center !== undefined
+        ? Names.getBaseForCell(center, culture)
+        : undefined;
+    const name = Names.getState(Names.getCultureShort(culture, base), culture, base);
     ensureEl<HTMLInputElement>("stateNameEditorShort").value = name;
   }
 
   function regenerateShortNameRandom() {
-    const base = rand(Names.nameBases.length - 1);
+    const base =
+      Names && typeof Names.getRandomBaseIndex === "function"
+        ? Names.getRandomBaseIndex()
+        : rand(Names.nameBases.length - 1);
     const name = Names.getState(Names.getBase(base), undefined as unknown as number, base);
     ensureEl<HTMLInputElement>("stateNameEditorShort").value = name;
   }

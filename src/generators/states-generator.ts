@@ -174,9 +174,10 @@ class StatesModule {
 
       const culture = capital.culture ?? 0;
       const capitalName = capital.name ?? "";
+      const baseIndex = Names.getBaseForCell(capital.cell, culture);
       const basename =
-        capitalName.length < 9 && capital.cell % 5 === 0 ? capitalName : Names.getCulture(culture, 3, 6, "");
-      const name = Names.getState(basename, culture);
+        capitalName.length < 9 && capital.cell % 5 === 0 ? capitalName : Names.getBase(baseIndex, 3, 6, "") as string;
+      const name = Names.getState(basename, culture, baseIndex);
       const nomadic = [1, 2, 3, 4].includes(pack.cells.biome[capital.cell]);
       const type = nomadic
         ? "Nomadic"
@@ -213,8 +214,9 @@ class StatesModule {
       if (!burg.i || !burg.capital) return;
 
       const expansionism = rn(Math.random() * sizeVariety + 1, 1);
-      const basename = burg.name!.length < 9 && each5th(burg.cell) ? burg.name! : Names.getCultureShort(burg.culture!);
-      const name = Names.getState(basename, burg.culture!);
+      const baseIndex = Names.getBaseForCell(burg.cell, burg.culture);
+      const basename = burg.name!.length < 9 && each5th(burg.cell) ? burg.name! : Names.getBaseShort(baseIndex);
+      const name = Names.getState(basename, burg.culture!, baseIndex);
       const type = pack.cultures[burg.culture!].type;
       const coa = Emblems.generate(null, null, null, type);
       coa.shield = Emblems.getShield(burg.culture!);

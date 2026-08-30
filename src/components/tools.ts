@@ -4,8 +4,16 @@ import { tip } from "@/components/tooltips";
 import { Controllers } from "@/controllers";
 import { Emblems } from "@/generators/emblems-generator";
 import { Population } from "@/generators/population-generator";
+import { drawRaces } from "@/renderers/draw-races";
 import { unfog } from "@/renderers/overlays/fogging";
 import { ensureEl, gauss, isCtrlClick } from "@/utils";
+
+declare global {
+  var rerollRacesForCultures: ((options?: { forceFilterFromUi?: boolean }) => void) | undefined;
+  var initializeRacesForExpansion: ((options?: { forceFilterFromUi?: boolean }) => void) | undefined;
+  var assignRaces: (() => void) | undefined;
+  var refreshAllEditors: (() => void) | undefined;
+}
 
 ensureEl("toolsContent").addEventListener("click", event => {
   if (customization) return tip("Please exit the customization mode first", false, "error");
@@ -18,6 +26,7 @@ ensureEl("toolsContent").addEventListener("click", event => {
   else if (buttonId === "editHeightmapButton") void Controllers.HeightmapEditor.open();
   else if (buttonId === "editBiomesButton") void Controllers.BiomesEditor.open();
   else if (buttonId === "editStatesButton") void Controllers.StatesEditor.open();
+  else if (buttonId === "editRacesButton") void Controllers.RacesEditor.open();
   else if (buttonId === "editProvincesButton") void Controllers.ProvincesEditor.open();
   else if (buttonId === "editDiplomacyButton") void Controllers.DiplomacyEditor.open();
   else if (buttonId === "editCoastlineSettings") void Controllers.CoastlineEditor.open();
@@ -90,6 +99,7 @@ function regenerate(event: MouseEvent, button: string): void {
   else if (button === "regenerateReliefIcons") regenerateReliefIcons();
   else if (button === "regenerateRoutes") regenerateRoutes();
   else if (button === "regenerateRivers") regenerateRivers();
+  else if (button === "regenerateRaces") regenerateRaces();
   else if (button === "regeneratePopulation") regeneratePopulation();
   else if (button === "regenerateStates") regenerateStates();
   else if (button === "regenerateProvinces") regenerateProvinces();
@@ -129,6 +139,40 @@ function regenerateRoutes(): void {
 function regenerateRivers(): void {
   Rivers.regenerate();
   Layers.draw("rivers");
+}
+
+function regenerateRaces(): void {
+  if (!pack || !pack.cultures || !pack.cells) return;
+
+  // Drop existing derived race assignments to force a re-roll.
+  if (Array.isArray(pack.cultures)) {
+    pack.cultures.forEach(c => {
+      if (!c || !c.i || c.removed) return;
+      delete (c as unknown as { race?: number }).race;
+    });
+  }
+
+  if (pack.states) pack.states.forEach(s => s && delete (s as unknown as { race?: number }).race);
+  if (pack.provinces) pack.provinces.forEach(p => p && delete (p as unknown as { race?: number }).race);
+  if (pack.burgs) pack.burgs.forEach(b => b && delete (b as unknown as { race?: number }).race);
+  if (pack.religions) pack.religions.forEach(r => r && delete (r as unknown as { race?: number }).race);
+
+  // Force rebuild of cell-level race layer.
+  const cells = pack.cells as unknown as { race?: Uint16Array };
+  delete cells.race;
+
+  // Reroll per-culture race assignment (so distribution actually changes).
+  if (typeof rerollRacesForCultures === "function") {
+    rerollRacesForCultures({ forceFilterFromUi: true });
+  } else if (typeof initializeRacesForExpansion === "function") {
+    initializeRacesForExpansion({ forceFilterFromUi: true });
+  }
+
+  // Rebuild cell-level race layer and derived entity races.
+  if (typeof assignRaces === "function") assignRaces();
+
+  if (Layers.isOn("races")) drawRaces();
+  if (typeof refreshAllEditors === "function") refreshAllEditors();
 }
 
 function regeneratePopulation(): void {
@@ -188,7 +232,15 @@ function regenerateReligions(): void {
 
 function regenerateCultures(): void {
   Cultures.regenerate();
+
+  if (typeof initializeRacesForExpansion === "function") {
+    initializeRacesForExpansion({ forceFilterFromUi: true });
+  }
+
+  if (typeof assignRaces === "function") assignRaces();
+
   Layers.draw("cultures", "goods");
+  if (typeof refreshAllEditors === "function") refreshAllEditors();
 }
 
 function regenerateMilitary(): void {

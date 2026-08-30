@@ -1,6 +1,58 @@
-"use strict";
+import { findEl } from "@/utils/nodeUtils";
+import { rn } from "../utils";
+import type { LanguageMixerCatalogEntry } from "./language-softmods";
 
-const fantasyRaceBases = {
+// Type for the Names global (extended at runtime by names-mixer.ts)
+interface NamesGlobal {
+  getMixedByIso(isoWeights: Record<string, number>, options?: MixedByIsoOptions): string[];
+  calculateChain(namesList: string): MarkovChain;
+  updateChain(index: number): void;
+  getBase(base: number, min?: number, max?: number, dupl?: string): string;
+  nameBases: RaceNameBase[];
+}
+
+declare global {
+  var fantasyRaceNames: string[];
+  var refreshDefaultNameBaseIds: (() => void) | undefined;
+}
+
+interface LanguageMixerEntry extends LanguageMixerCatalogEntry {
+  bases?: number[];
+}
+
+interface MixedByIsoOptions {
+  count?: number;
+  seed?: number;
+  min?: number;
+  max?: number;
+  weights?: number[];
+  legacyChain?: boolean;
+}
+
+interface RaceLanguageProfile {
+  categories: string[];
+  families: string[];
+}
+
+// Extended NameBase interface for race mixer properties
+interface RaceNameBase {
+  name: string;
+  i: number;
+  min: number;
+  max: number;
+  d: string;
+  m: number;
+  b: string;
+  raceMixerFor?: string;
+  cultureMixer?: boolean;
+  isoWeights?: Record<string, number>;
+}
+
+// Markov chain type for name generation
+type MarkovChain = Record<string, string[]>;
+
+// Race data: maps race name to array of namebase indices
+const fantasyRaceBases: Record<string, number[]> = {
   Human: [32, 100000],
   Elf: [33, 100001],
   "Dark Elf": [34, 100002],
@@ -71,14 +123,10 @@ const fantasyRaceBases = {
 // - If no eligible languages are found or mixer is unavailable, we fall back
 //   to the classic fantasy namebase defined in fantasyRaceBases.
 
-const raceLanguageProfiles = {
+const raceLanguageProfiles: Record<string, RaceLanguageProfile> = {
   Elf: {
     categories: ["Celtic", "Uralic"],
     families: ["Celtic", "Uralic", "Sami"]
-  },
-  Seafarer: {
-    categories: ["Papuan", "Creole"],
-    families: ["Papuan", "Portuguese-based"]
   },
   "Dark Elf": {
     categories: ["Slavic", "Germanic", "Romance"],
@@ -117,31 +165,12 @@ const raceLanguageProfiles = {
     families: ["Germanic", "Slavic", "Iranian", "Turkic"]
   },
   Draconic: {
-    categories: [
-      "Sino-Tibetan",
-      "Mongolic",
-      "Tai-Kadai",
-      "Japonic",
-      "Koreanic"
-    ],
+    categories: ["Sino-Tibetan", "Mongolic", "Tai-Kadai", "Japonic", "Koreanic"],
     families: ["Sino-Tibetan", "Mongolic", "Tai-Kadai", "Japonic", "Koreanic"]
   },
   Dragonborn: {
-    categories: [
-      "Sino-Tibetan",
-      "Mongolic",
-      "Turkic",
-      "Indo-Aryan",
-      "Iranian"
-    ],
-    families: [
-      "Sino-Tibetan",
-      "Mongolic",
-      "Turkic",
-      "Indo-Aryan",
-      "Indo-Iranian",
-      "Iranian"
-    ]
+    categories: ["Sino-Tibetan", "Mongolic", "Turkic", "Indo-Aryan", "Iranian"],
+    families: ["Sino-Tibetan", "Mongolic", "Turkic", "Indo-Aryan", "Indo-Iranian", "Iranian"]
   },
   Arachnid: {
     categories: ["Afroasiatic"],
@@ -164,23 +193,8 @@ const raceLanguageProfiles = {
     families: ["Slavic", "Germanic", "Turkic"]
   },
   Goliath: {
-    categories: [
-      "Germanic",
-      "Slavic",
-      "Iranian",
-      "Kartvelian",
-      "Northeast Caucasian",
-      "Northwest Caucasian"
-    ],
-    families: [
-      "Germanic",
-      "Slavic",
-      "Iranian",
-      "Turkic",
-      "Kartvelian",
-      "Northeast Caucasian",
-      "Northwest Caucasian"
-    ]
+    categories: ["Germanic", "Slavic", "Iranian", "Kartvelian", "Northeast Caucasian", "Northwest Caucasian"],
+    families: ["Germanic", "Slavic", "Iranian", "Turkic", "Kartvelian", "Northeast Caucasian", "Northwest Caucasian"]
   },
   Lizardfolk: {
     categories: ["Niger-Congo", "Afroasiatic", "Nilo-Saharan", "Ubangian"],
@@ -200,75 +214,18 @@ const raceLanguageProfiles = {
   },
   Tabaxi: {
     categories: [
-      "Tupian",
-      "Quechuan",
-      "Ticuna–Yuri",
-      "Totonacan",
-      "Mayan",
-      "Arawakan",
-      "Cariban",
-      "Panoan",
-      "Tucanoan",
-      "Arauan",
-      "Saliban",
-      "Guahiboan",
-      "Matacoan",
-      "Macro-Jê",
-      "Nadahup",
-      "Chibchan",
-      "Chapacuran",
-      "Chimilan",
-      "Chocoan",
-      "Chonan",
-      "Enlhet-Enenlhet",
-      "Guaicuruan",
-      "Jivaroan",
-      "Paezan",
-      "Zamucoan",
-      "Mixed language",
-      "Aymaran",
-      "Araucanian",
-      "Oto-Manguean"
+      "Tupian", "Quechuan", "Ticuna–Yuri", "Totonacan", "Mayan", "Arawakan", "Cariban", "Panoan",
+      "Tucanoan", "Arauan", "Saliban", "Guahiboan", "Matacoan", "Macro-Jê", "Nadahup", "Chibchan",
+      "Chapacuran", "Chimilan", "Chocoan", "Chonan", "Enlhet-Enenlhet", "Guaicuruan", "Jivaroan",
+      "Paezan", "Zamucoan", "Mixed language", "Aymaran", "Araucanian", "Oto-Manguean"
     ],
     families: [
-      "Tupian",
-      "Quechuan",
-      "Ticuna–Yuri",
-      "Totonacan",
-      "Mayan",
-      "Arawakan",
-      "Cariban",
-      "Panoan",
-      "Tucanoan",
-      "Arauan",
-      "Saliban",
-      "Witotoan",
-      "Aymaran",
-      "Araucanian",
-      "Oto-Manguean",
-      "Purépecha isolate",
-      "Seri isolate",
-      "Huave isolate",
-      "Camsa isolate",
-      "Cayubaba isolate",
-      "Muran",
-      "Warao",
-      "Yanomaman",
-      "Puinave isolate",
-      "Guahiboan",
-      "Barbacoan",
-      "Macro-Jê",
-      "Nadahup",
-      "Chibchan",
-      "Chapacuran",
-      "Chimilan",
-      "Chocoan",
-      "Chonan",
-      "Enlhet-Enenlhet",
-      "Guaicuruan",
-      "Jivaroan",
-      "Zamucoan",
-      "Tacanan"
+      "Tupian", "Quechuan", "Ticuna–Yuri", "Totonacan", "Mayan", "Arawakan", "Cariban", "Panoan",
+      "Tucanoan", "Arauan", "Saliban", "Witotoan", "Aymaran", "Araucanian", "Oto-Manguean",
+      "Purépecha isolate", "Seri isolate", "Huave isolate", "Camsa isolate", "Cayubaba isolate", "Muran",
+      "Warao", "Yanomaman", "Puinave isolate", "Guahiboan", "Barbacoan", "Macro-Jê", "Nadahup",
+      "Chibchan", "Chapacuran", "Chimilan", "Chocoan", "Chonan", "Enlhet-Enenlhet", "Guaicuruan",
+      "Jivaroan", "Zamucoan", "Tacanan"
     ]
   },
   Warforged: {
@@ -277,62 +234,17 @@ const raceLanguageProfiles = {
   },
   Kenku: {
     categories: [
-      "Algic",
-      "Uto-Aztecan",
-      "Salishan",
-      "Siouan",
-      "Algonquian",
-      "Na-Dene",
-      "Eskimo–Aleut",
-      "Iroquoian",
-      "Misumalpan",
-      "Keresan",
-      "Kiowa–Tanoan",
-      "Yuman",
-      "Muskogean",
-      "Mixe-Zoque",
-      "Tsimshianic"
+      "Algic", "Uto-Aztecan", "Salishan", "Siouan", "Algonquian", "Na-Dene", "Eskimo–Aleut",
+      "Iroquoian", "Misumalpan", "Keresan", "Kiowa–Tanoan", "Yuman", "Muskogean", "Mixe-Zoque", "Tsimshianic"
     ],
     families: [
-      "Algic",
-      "Uto-Aztecan",
-      "Salishan",
-      "Siouan",
-      "Algonquian",
-      "Na-Dene",
-      "Eskimo–Aleut",
-      "Iroquoian",
-      "Misumalpan",
-      "Keresan",
-      "Kiowa–Tanoan",
-      "Yuman"
+      "Algic", "Uto-Aztecan", "Salishan", "Siouan", "Algonquian", "Na-Dene", "Eskimo–Aleut",
+      "Iroquoian", "Misumalpan", "Keresan", "Kiowa–Tanoan", "Yuman"
     ]
   },
   Aarakocra: {
-    categories: [
-      "Papuan",
-      "Algic",
-      "Uto-Aztecan",
-      "Salishan",
-      "Siouan",
-      "Algonquian",
-      "Na-Dene",
-      "Eskimo–Aleut",
-      "Yuman"
-    ],
-    families: [
-      "Papuan",
-      "Austronesian",
-      "Micronesian",
-      "Polynesian",
-      "Algic",
-      "Uto-Aztecan",
-      "Salishan",
-      "Siouan",
-      "Algonquian",
-      "Na-Dene",
-      "Eskimo–Aleut"
-    ]
+    categories: ["Papuan", "Algic", "Uto-Aztecan", "Salishan", "Siouan", "Algonquian", "Na-Dene", "Eskimo–Aleut", "Yuman"],
+    families: ["Papuan", "Austronesian", "Micronesian", "Polynesian", "Algic", "Uto-Aztecan", "Salishan", "Siouan", "Algonquian", "Na-Dene", "Eskimo–Aleut"]
   },
   Triton: {
     categories: ["Austronesian", "Micronesian", "Papuan", "Creole"],
@@ -399,28 +311,8 @@ const raceLanguageProfiles = {
     families: ["Greek", "Iranian", "Sardinian", "Tuscan", "Neapolitan"]
   },
   Leonin: {
-    categories: [
-      "Niger-Congo",
-      "Nilo-Saharan",
-      "Mande",
-      "Khoe-Kwadi",
-      "Kx'a",
-      "Songhay",
-      "Khoe",
-      "Tuu"
-    ],
-    families: [
-      "Niger-Congo",
-      "Bantu",
-      "Nilo-Saharan",
-      "Semitic",
-      "Mande",
-      "Khoe-Kwadi",
-      "Kx'a",
-      "Songhay",
-      "Khoe",
-      "Tuu"
-    ]
+    categories: ["Niger-Congo", "Nilo-Saharan", "Mande", "Khoe-Kwadi", "Kx'a", "Songhay", "Khoe", "Tuu"],
+    families: ["Niger-Congo", "Bantu", "Nilo-Saharan", "Semitic", "Mande", "Khoe-Kwadi", "Kx'a", "Songhay", "Khoe", "Tuu"]
   },
   Loxodon: {
     categories: ["Dravidian"],
@@ -432,13 +324,7 @@ const raceLanguageProfiles = {
   },
   Tortle: {
     categories: ["Austronesian", "Papuan", "Australian Aboriginal"],
-    families: [
-      "Austronesian",
-      "Micronesian",
-      "Polynesian",
-      "Papuan",
-      "Australian Aboriginal"
-    ]
+    families: ["Austronesian", "Micronesian", "Polynesian", "Papuan", "Australian Aboriginal"]
   },
   Giff: {
     categories: ["Germanic", "Romance", "Creole", "Pidgin"],
@@ -461,78 +347,23 @@ const raceLanguageProfiles = {
     families: ["Japonic", "Japanese dialects", "Amami Ryukyuan", "Okinawan Ryukyuan"]
   },
   Deepkin: {
-    categories: [
-      "Austronesian",
-      "Papuan",
-      "Australian Aboriginal",
-      "Eskimo-Aleut"
-    ],
-    families: [
-      "Austronesian",
-      "Micronesian",
-      "Polynesian",
-      "Papuan",
-      "Australian Aboriginal",
-      "Eskimo-Aleut"
-    ]
+    categories: ["Austronesian", "Papuan", "Australian Aboriginal", "Eskimo-Aleut"],
+    families: ["Austronesian", "Micronesian", "Polynesian", "Papuan", "Australian Aboriginal", "Eskimo-Aleut"]
   },
   Starspawn: {
-    categories: [
-      "Tungusic",
-      "Yeniseian",
-      "Yukaghir",
-      "Chukotko-Kamchatkan",
-      "Language isolate",
-      "Hypothetical",
-      "Eskimo-Aleut"
-    ],
-    families: [
-      "Nivkh",
-      "Yeniseian",
-      "Yukaghir",
-      "Eskimo–Aleut",
-      "Tungusic"
-    ]
+    categories: ["Tungusic", "Yeniseian", "Yukaghir", "Chukotko-Kamchatkan", "Language isolate", "Hypothetical", "Eskimo-Aleut"],
+    families: ["Nivkh", "Yeniseian", "Yukaghir", "Eskimo–Aleut", "Tungusic"]
   },
   Scions: {
     categories: [
-      "Uralic",
-      "Slavic",
-      "Baltic",
-      "Turkic",
-      "Mongolic",
-      "Tungusic",
-      "Koreanic",
-      "Eskimo–Aleut",
-      "Algonquian",
-      "Na-Dene",
-      "Uto-Aztecan",
-      "Siouan",
-      "Muskogean",
-      "Mixe-Zoque",
-      "Language isolate",
-      "Hypothetical",
-      "Unclassified"
+      "Uralic", "Slavic", "Baltic", "Turkic", "Mongolic", "Tungusic", "Koreanic", "Eskimo–Aleut",
+      "Algonquian", "Na-Dene", "Uto-Aztecan", "Siouan", "Muskogean", "Mixe-Zoque", "Language isolate",
+      "Hypothetical", "Unclassified"
     ],
     families: [
-      "Sami",
-      "Uralic",
-      "Slavic",
-      "Baltic",
-      "Turkic",
-      "Mongolic",
-      "Tungusic",
-      "Koreanic",
-      "Eskimo–Aleut",
-      "Algonquian",
-      "Na-Dene",
-      "Uto-Aztecan",
-      "Siouan",
-      "Muskogean",
-      "Mixe-Zoque",
-      "Language isolate",
-      "Hypothetical",
-      "Unclassified"
+      "Sami", "Uralic", "Slavic", "Baltic", "Turkic", "Mongolic", "Tungusic", "Koreanic", "Eskimo–Aleut",
+      "Algonquian", "Na-Dene", "Uto-Aztecan", "Siouan", "Muskogean", "Mixe-Zoque", "Language isolate",
+      "Hypothetical", "Unclassified"
     ]
   },
   Seafarer: {
@@ -549,11 +380,11 @@ const raceLanguageProfiles = {
   }
 };
 
-function getRaceLanguageProfile(raceName) {
+function getRaceLanguageProfile(raceName: string): RaceLanguageProfile | null {
   return raceLanguageProfiles[raceName] || null;
 }
 
-const fallbackRaceMixerIsoWeights = {
+const fallbackRaceMixerIsoWeights: Record<string, number> = {
   eng: 1,
   fra: 1,
   spa: 1,
@@ -565,7 +396,7 @@ const fallbackRaceMixerIsoWeights = {
   jpn: 1
 };
 
-function normalizeRaceMixerKey(value) {
+function normalizeRaceMixerKey(value: unknown): string {
   if (value == null) return "";
   return String(value)
     .trim()
@@ -574,11 +405,11 @@ function normalizeRaceMixerKey(value) {
     .replace(/\s+/g, " ");
 }
 
-function getFallbackRaceMixerIsoWeights() {
+function getFallbackRaceMixerIsoWeights(): Record<string, number> {
   return fallbackRaceMixerIsoWeights;
 }
 
-function loadLanguageMixerCatalogForRaces() {
+function loadLanguageMixerCatalogForRaces(): LanguageMixerEntry[] {
   if (Array.isArray(window.languageMixerCatalog)) return window.languageMixerCatalog;
 
   // Fallback: try to synchronously load the JSON catalog if the JS bundle
@@ -599,7 +430,7 @@ function loadLanguageMixerCatalogForRaces() {
   return Array.isArray(window.languageMixerCatalog) ? window.languageMixerCatalog : [];
 }
 
-function getRaceLanguageIsoWeights(raceName) {
+function getRaceLanguageIsoWeights(raceName: string): Record<string, number> | null {
   const profile = getRaceLanguageProfile(raceName);
 
   const catalog = loadLanguageMixerCatalogForRaces();
@@ -620,7 +451,7 @@ function getRaceLanguageIsoWeights(raceName) {
   const useAll = useAllCategories || useAllFamilies;
   if (useAllCategories) categorySet.delete("*");
   if (useAllFamilies) familySet.delete("*");
-  const isoWeights = {};
+  const isoWeights: Record<string, number> = {};
 
   catalog.forEach(lang => {
     if (!lang || !lang.iso) return;
@@ -635,8 +466,8 @@ function getRaceLanguageIsoWeights(raceName) {
     const langFamily = normalizeRaceMixerKey(lang.family);
     const effectiveFamily = langFamily || langCategory;
 
-    const catOk = categorySet.size && langCategory && categorySet.has(langCategory);
-    const famOk = familySet.size && effectiveFamily && familySet.has(effectiveFamily);
+    const catOk = categorySet.size > 0 && langCategory !== "" && categorySet.has(langCategory);
+    const famOk = familySet.size > 0 && effectiveFamily !== "" && familySet.has(effectiveFamily);
     if (!catOk && !famOk) return;
 
     let weight = 0;
@@ -678,20 +509,31 @@ function getRaceLanguageIsoWeights(raceName) {
   return isoWeights;
 }
 
+// Helper to get Names with race mixer extensions
+function getRaceNames(): NamesGlobal {
+  return Names as unknown as NamesGlobal;
+}
+
+// Helper to get nameBases with race mixer extensions
+function getNameBases(): RaceNameBase[] {
+  return getRaceNames().nameBases;
+}
+
 // Generate fresh Markov-mixed language samples for a race. This uses
 // Names.getMixedByIso with iso weights derived from the race profile.
 // If no suitable languages are found or the mixer is unavailable, falls
 // back to the classic fantasy namebase defined for the race.
 
-function generateRaceLanguageNames(raceName, options) {
+function generateRaceLanguageNames(raceName: string, options?: { count?: number }): string[] {
   const count = (options && options.count) || 40;
+  const raceNames = getRaceNames();
 
-  const canMix = typeof Names !== "undefined" && typeof Names.getMixedByIso === "function";
+  const canMix = typeof Names !== "undefined" && typeof raceNames.getMixedByIso === "function";
   if (canMix) {
     const isoWeights = getRaceLanguageIsoWeights(raceName);
     if (isoWeights) {
       try {
-        const names = Names.getMixedByIso(isoWeights, { count });
+        const names = raceNames.getMixedByIso(isoWeights, { count });
         if (Array.isArray(names) && names.length >= 3) return names;
       } catch (error) {
         ERROR && console.error("Race mixer error for", raceName, error);
@@ -705,7 +547,7 @@ function generateRaceLanguageNames(raceName, options) {
     if (!bases || !bases.length || !Names || typeof Names.getBase !== "function") return [];
 
     const baseIndex = bases[0];
-    const result = [];
+    const result: string[] = [];
     for (let i = 0; i < count; i++) {
       result.push(Names.getBase(baseIndex));
     }
@@ -716,7 +558,7 @@ function generateRaceLanguageNames(raceName, options) {
   if (canMix) {
     try {
       const fallbackWeights = getFallbackRaceMixerIsoWeights();
-      const names = Names.getMixedByIso(fallbackWeights, { count });
+      const names = raceNames.getMixedByIso(fallbackWeights, { count });
       if (Array.isArray(names) && names.length >= 3) return names;
     } catch (error) {
       ERROR && console.error("Race mixer absolute fallback error for", raceName, error);
@@ -726,11 +568,11 @@ function generateRaceLanguageNames(raceName, options) {
   return [];
 }
 
-function getRaceMixerBaseDisplayName(raceName) {
+function getRaceMixerBaseDisplayName(raceName: string): string {
   return `Race ${raceName} (Mixer)`;
 }
 
-function isBadRaceMixerDisplayName(displayName, raceName) {
+function isBadRaceMixerDisplayName(displayName: unknown, raceName: string): boolean {
   if (!displayName || typeof displayName !== "string") return false;
   if (!raceName) return false;
   const trimmed = displayName.trimEnd();
@@ -745,7 +587,11 @@ function isBadRaceMixerDisplayName(displayName, raceName) {
   return false;
 }
 
-function buildRaceMixerLanguageDisplayName(raceName, isoWeights, options) {
+function buildRaceMixerLanguageDisplayName(
+  raceName: string,
+  isoWeights: Record<string, number>,
+  options?: { seed?: number }
+): string {
   if (!raceName) return "";
   if (!isoWeights || typeof isoWeights !== "object") return "";
   if (!Names || typeof Names.calculateChain !== "function") return "";
@@ -753,13 +599,13 @@ function buildRaceMixerLanguageDisplayName(raceName, isoWeights, options) {
   const catalog = loadLanguageMixerCatalogForRaces();
   if (!Array.isArray(catalog) || !catalog.length) return "";
 
-  const catalogByIso = new Map();
+  const catalogByIso = new Map<string, LanguageMixerEntry>();
   for (const lang of catalog) {
     if (!lang || !lang.iso || !lang.name) continue;
     catalogByIso.set(lang.iso, lang);
   }
 
-  const cleanedByName = new Map();
+  const cleanedByName = new Map<string, { name: string; weight: number }>();
   for (const [iso, weightRaw] of Object.entries(isoWeights)) {
     const lang = catalogByIso.get(iso);
     if (!lang) continue;
@@ -780,7 +626,7 @@ function buildRaceMixerLanguageDisplayName(raceName, isoWeights, options) {
   }
 
   const sources = Array.from(cleanedByName.entries())
-    .map(([key, value]) => ({ key, name: value && value.name, weight: value && value.weight }))
+    .map(([key, value]) => ({ key, name: value?.name, weight: value?.weight }))
     .filter(s => s && s.name && typeof s.weight === "number" && s.weight > 0)
     .sort((a, b) => b.weight - a.weight);
 
@@ -796,9 +642,9 @@ function buildRaceMixerLanguageDisplayName(raceName, isoWeights, options) {
     t ^= t + Math.imul(t ^ (t >>> 7), t | 61);
     return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
   };
-  const pick = arr => arr[Math.floor(rng() * arr.length)];
+  const pick = (arr: string[]) => arr[Math.floor(rng() * arr.length)];
 
-  const combined = [];
+  const combined: string[] = [];
   const totalBudget = 80;
   for (const src of sources) {
     const repeat = Math.max(1, Math.min(4, Math.round(src.weight)));
@@ -811,30 +657,41 @@ function buildRaceMixerLanguageDisplayName(raceName, isoWeights, options) {
   if (!combined.length) return "";
 
   const combinedString = combined.join(",");
-  const chain = Names.calculateChain(combinedString);
+  const chain = Names.calculateChain(combinedString) as any;
   if (!chain || chain[""] === undefined) return "";
 
   const min = 4;
   const max = 16;
   const dupl = "lnrt";
 
+  // Helper to safely get chain value
+  const chainValue = (key: string): string[] => {
+    const val = (chain as any)[key];
+    return Array.isArray(val) ? val : [];
+  };
+
+  // Helper to get last character of a string
+  const lastChar = (s: string): string => s[s.length - 1] || "";
+
   // Try up to 5 times to generate a good name
   let bestName = "";
   for (let attempt = 0; attempt < 5; attempt++) {
-    let v = chain[""], cur = pick(v), w = "";
+    let v: string[] = chainValue("");
+    let cur: string = pick(v) as string;
+    let w = "";
     for (let i = 0; i < 20; i++) {
       if (cur === "") {
-        if (w.length < min) { cur = ""; w = ""; v = chain[""]; }
+        if (w.length < min) { cur = ""; w = ""; v = chainValue(""); }
         else break;
       } else {
         if (w.length + cur.length > max) { if (w.length < min) w += cur; break; }
-        else v = chain[last(cur)] || chain[""];
+        else v = chainValue(lastChar(cur)) || chainValue("");
       }
       w += cur;
-      cur = pick(v);
+      cur = pick(v) as string;
     }
 
-    const l = last(w);
+    const l = lastChar(w);
     if (l === "'" || l === " " || l === "-") w = w.slice(0, -1);
 
     let name = [...w].reduce(function (r, c, i, d) {
@@ -889,7 +746,7 @@ function buildRaceMixerLanguageDisplayName(raceName, isoWeights, options) {
   return `${bestName} (${raceName})`;
 }
 
-function hashStringToUint32(value) {
+function hashStringToUint32(value: unknown): number {
   const str = value == null ? "" : String(value);
   let h = 2166136261;
   for (let i = 0; i < str.length; i++) {
@@ -899,8 +756,10 @@ function hashStringToUint32(value) {
   return h >>> 0;
 }
 
-function findExistingRaceMixerBaseIndex(raceName) {
-  if (!raceName || !Array.isArray(nameBases)) return null;
+function findExistingRaceMixerBaseIndex(raceName: string): number | null {
+  if (!raceName) return null;
+  const nameBases = getNameBases();
+  if (!Array.isArray(nameBases)) return null;
   const expectedName = getRaceMixerBaseDisplayName(raceName);
   for (let i = 0; i < nameBases.length; i++) {
     const b = nameBases[i];
@@ -920,9 +779,10 @@ function findExistingRaceMixerBaseIndex(raceName) {
   return null;
 }
 
-function getRaceDefaultBaseIndex(raceName) {
+function getRaceDefaultBaseIndex(raceName: string): number | null {
   if (!raceName) return null;
   if (!fantasyRaceBases || !fantasyRaceBases[raceName]) return null;
+  const nameBases = getNameBases();
   if (!Array.isArray(nameBases)) return null;
 
   const bases = fantasyRaceBases[raceName];
@@ -939,10 +799,11 @@ function getRaceDefaultBaseIndex(raceName) {
   return null;
 }
 
-function ensureRaceMixerBaseIndex(raceName, options) {
+function ensureRaceMixerBaseIndex(raceName: string, options?: { seed?: string | number; count?: number; refresh?: boolean }): number | null {
   if (!raceName) return null;
   // Allow mixer for races even if they have no static bases (commented out)
   if (!fantasyRaceBases[raceName] && !raceLanguageProfiles[raceName]) return null;
+  const nameBases = getNameBases();
   if (!Array.isArray(nameBases)) return null;
 
   const seed =
@@ -955,7 +816,8 @@ function ensureRaceMixerBaseIndex(raceName, options) {
 
     const shouldRefreshExistingSeedBlob = (() => {
       if (!base || typeof base.b !== "string") return false;
-      if (!Names || typeof Names.getMixedByIso !== "function") return false;
+      const raceNames = getRaceNames();
+      if (!Names || typeof raceNames.getMixedByIso !== "function") return false;
       if (options && options.refresh) return true;
       try {
         const count = base.b.split(",").filter(Boolean).length;
@@ -982,10 +844,10 @@ function ensureRaceMixerBaseIndex(raceName, options) {
         const seedSource = `${typeof seed === "string" ? seed : ""}|${raceName}|race-mixer`;
         const mixSeed = hashStringToUint32(seedSource);
 
-        const getSanitized = weights => {
-          let names;
+        const getSanitized = (weights: Record<string, number>): string[] | null => {
+          let names: string[];
           try {
-            names = Names.getMixedByIso(weights, { count, seed: mixSeed });
+            names = getRaceNames().getMixedByIso(weights, { count, seed: mixSeed });
           } catch (e) {
             return null;
           }
@@ -1010,7 +872,7 @@ function ensureRaceMixerBaseIndex(raceName, options) {
           let max = 12;
           try {
             const lengths = sanitized.map(n => n.length).sort((a, b) => a - b);
-            const q = p => lengths[Math.floor(p * (lengths.length - 1))];
+            const q = (p: number) => lengths[Math.floor(p * (lengths.length - 1))];
             const p25 = q(0.25);
             const p75 = q(0.75);
             const computedMin = Math.max(3, Math.min(12, Math.floor(p25)));
@@ -1052,7 +914,7 @@ function ensureRaceMixerBaseIndex(raceName, options) {
     return existing;
   }
 
-  if (!Names || typeof Names.getMixedByIso !== "function") return null;
+  if (!Names || typeof getRaceNames().getMixedByIso !== "function") return null;
   const fallbackIsoWeights = getFallbackRaceMixerIsoWeights();
   const primaryIsoWeights = getRaceLanguageIsoWeights(raceName);
   const isoWeights = primaryIsoWeights || fallbackIsoWeights;
@@ -1062,10 +924,10 @@ function ensureRaceMixerBaseIndex(raceName, options) {
   const seedSource = `${typeof seed === "string" ? seed : ""}|${raceName}|race-mixer`;
   const mixSeed = hashStringToUint32(seedSource);
 
-  const getSanitized = weights => {
-    let names;
+  const getSanitized = (weights: Record<string, number>): string[] | null => {
+    let names: string[];
     try {
-      names = Names.getMixedByIso(weights, { count, seed: mixSeed });
+      names = getRaceNames().getMixedByIso(weights, { count, seed: mixSeed });
     } catch (e) {
       return null;
     }
@@ -1091,7 +953,7 @@ function ensureRaceMixerBaseIndex(raceName, options) {
   let max = 12;
   try {
     const lengths = sanitized.map(n => n.length).sort((a, b) => a - b);
-    const q = p => lengths[Math.floor(p * (lengths.length - 1))];
+    const q = (p: number) => lengths[Math.floor(p * (lengths.length - 1))];
     const p25 = q(0.25);
     const p75 = q(0.75);
     const computedMin = Math.max(3, Math.min(12, Math.floor(p25)));
@@ -1105,192 +967,69 @@ function ensureRaceMixerBaseIndex(raceName, options) {
   const nameSeedSource = `${typeof seed === "string" ? seed : ""}|${raceName}|race-mixer-name`;
   const nameSeed = hashStringToUint32(nameSeedSource);
   const displayName = buildRaceMixerLanguageDisplayName(raceName, isoWeights, { seed: nameSeed });
-  if (displayName && !isBadRaceMixerDisplayName(displayName, raceName)) {
-    nameBases.push({ name: displayName, min, max, d: "", m: 0, b, raceMixerFor: raceName });
-  } else {
-    nameBases.push({ name: getRaceMixerBaseDisplayName(raceName), min, max, d: "", m: 0, b, raceMixerFor: raceName });
-  }
+  const newBase: RaceNameBase = displayName && !isBadRaceMixerDisplayName(displayName, raceName)
+    ? { name: displayName, i: baseIndex, min, max, d: "", m: 0, b, raceMixerFor: raceName }
+    : { name: getRaceMixerBaseDisplayName(raceName), i: baseIndex, min, max, d: "", m: 0, b, raceMixerFor: raceName };
+  nameBases.push(newBase);
   if (typeof window.refreshDefaultNameBaseIds === "function") {
     window.refreshDefaultNameBaseIds();
   }
   return baseIndex;
 }
 
-function getRacesSetFilter(value) {
+function getRacesSetFilter(value: string): Set<string> | null {
   switch (value) {
     case "classic":
       return new Set([
-        "Elf",
-        "Dark Elf",
-        "Dwarf",
-        "Halfling",
-        "Gnome",
-        "Half-Elf",
-        "Half-Orc",
-        "Goblin",
-        "Orc",
-        "Giant",
-        "Dragonborn",
-        "Satyr",
-        "Minotaur",
-        "Oni",
-        "Kitsune",
-        "Scions"
+        "Elf", "Dark Elf", "Dwarf", "Halfling", "Gnome", "Half-Elf", "Half-Orc", "Goblin", "Orc",
+        "Giant", "Dragonborn", "Satyr", "Minotaur", "Oni", "Kitsune", "Scions"
       ]);
     case "dark":
       return new Set([
-        "Dark Elf",
-        "Goblin",
-        "Orc",
-        "Hobgoblin",
-        "Gnoll",
-        "Bugbear",
-        "Arachnid",
-        "Serpent",
-        "Lizardfolk",
-        "Shifter",
-        "Kenku",
-        "Yuan-ti",
-        "Gith",
-        "Dragonborn",
-        "Kobold",
-        "Duergar",
-        "Minotaur",
-        "Dhampir",
-        "Reborn",
-        "Shadar-kai",
-        "Hexblood",
-        "Oni",
-        "Deepkin",
-        "Starspawn",
-        "Scions"
+        "Dark Elf", "Goblin", "Orc", "Hobgoblin", "Gnoll", "Bugbear", "Arachnid", "Serpent",
+        "Lizardfolk", "Shifter", "Kenku", "Yuan-ti", "Gith", "Dragonborn", "Kobold", "Duergar",
+        "Minotaur", "Dhampir", "Reborn", "Shadar-kai", "Hexblood", "Oni", "Deepkin", "Starspawn", "Scions"
       ]);
     case "primal":
       return new Set([
-        "Elf",
-        "Firbolg",
-        "Goliath",
-        "Lizardfolk",
-        "Shifter",
-        "Gnoll",
-        "Bugbear",
-        "Tabaxi",
-        "Kenku",
-        "Aarakocra",
-        "Triton",
-        "Satyr",
-        "Minotaur",
-        "Centaur",
-        "Leonin",
-        "Loxodon",
-        "Harengon",
-        "Tortle",
-        "Owlin",
-        "Thri-Kreen",
-        "Kitsune"
+        "Elf", "Firbolg", "Goliath", "Lizardfolk", "Shifter", "Gnoll", "Bugbear", "Tabaxi", "Kenku",
+        "Aarakocra", "Triton", "Satyr", "Minotaur", "Centaur", "Leonin", "Loxodon", "Harengon", "Tortle",
+        "Owlin", "Thri-Kreen", "Kitsune"
       ]);
     case "planar":
       return new Set([
-        "Tiefling",
-        "Aasimar",
-        "Gith",
-        "Genasi",
-        "Draconic",
-        "Dragonborn",
-        "Yuan-ti",
-        "Triton",
-        "Aarakocra",
-        "Kalashtar",
-        "Shadar-kai",
-        "Hexblood",
-        "Starspawn",
-        "Scions"
+        "Tiefling", "Aasimar", "Gith", "Genasi", "Draconic", "Dragonborn", "Yuan-ti", "Triton",
+        "Aarakocra", "Kalashtar", "Shadar-kai", "Hexblood", "Starspawn", "Scions"
       ]);
     case "eberron":
       return new Set([
-        "Warforged",
-        "Shifter",
-        "Changeling",
-        "Gnome",
-        "Halfling",
-        "Half-Elf",
-        "Half-Orc",
-        "Orc",
-        "Goblin",
-        "Hobgoblin",
-        "Dragonborn",
-        "Kalashtar",
-        "Kobold",
-        "Dhampir",
-        "Reborn",
-        "Hexblood"
+        "Warforged", "Shifter", "Changeling", "Gnome", "Halfling", "Half-Elf", "Half-Orc", "Orc",
+        "Goblin", "Hobgoblin", "Dragonborn", "Kalashtar", "Kobold", "Dhampir", "Reborn", "Hexblood"
       ]);
     case "fey":
       return new Set([
-        "Elf",
-        "Firbolg",
-        "Satyr",
-        "Harengon",
-        "Hexblood",
-        "Gnome",
-        "Halfling",
-        "Shifter",
-        "Changeling",
-        "Centaur",
-        "Owlin",
-        "Kitsune",
-        "Scions"
+        "Elf", "Firbolg", "Satyr", "Harengon", "Hexblood", "Gnome", "Halfling", "Shifter",
+        "Changeling", "Centaur", "Owlin", "Kitsune", "Scions"
       ]);
     case "beastfolk":
       return new Set([
-        "Goliath",
-        "Lizardfolk",
-        "Shifter",
-        "Gnoll",
-        "Bugbear",
-        "Tabaxi",
-        "Leonin",
-        "Loxodon",
-        "Kenku",
-        "Aarakocra",
-        "Owlin",
-        "Centaur",
-        "Tortle",
-        "Giff",
-        "Thri-Kreen",
-        "Kobold",
-        "Kitsune"
+        "Goliath", "Lizardfolk", "Shifter", "Gnoll", "Bugbear", "Tabaxi", "Leonin", "Loxodon", "Kenku",
+        "Aarakocra", "Owlin", "Centaur", "Tortle", "Giff", "Thri-Kreen", "Kobold", "Kitsune"
       ]);
     case "underdark":
       return new Set([
-        "Dark Elf",
-        "Duergar",
-        "Kobold",
-        "Yuan-ti",
-        "Thri-Kreen",
-        "Arachnid",
-        "Serpent",
-        "Goblin",
-        "Bugbear",
-        "Gith",
-        "Deepkin",
-        "Starspawn",
-        "Scions"
+        "Dark Elf", "Duergar", "Kobold", "Yuan-ti", "Thri-Kreen", "Arachnid", "Serpent", "Goblin",
+        "Bugbear", "Gith", "Deepkin", "Starspawn", "Scions"
       ]);
     case "undead":
-      return new Set([
-        "Dhampir",
-        "Reborn",
-        "Shadar-kai",
-        "Hexblood"
-      ]);
+      return new Set(["Dhampir", "Reborn", "Shadar-kai", "Hexblood"]);
     default:
       return null;
   }
 }
 
-function defineRaceExpansionism(name) {
-  const sizeVarietyElement = byId("sizeVariety");
+function defineRaceExpansionism(name: string): number {
+  const sizeVarietyElement = findEl<HTMLInputElement>("sizeVariety");
   const variety =
     (sizeVarietyElement && (sizeVarietyElement.valueAsNumber || +sizeVarietyElement.value)) || 1;
 
@@ -1355,15 +1094,16 @@ function defineRaceExpansionism(name) {
   return rn(randomFactor * base, 1);
 }
 
-function getRaceNameForCulture(culture) {
-  if (!culture || !culture.i || culture.removed) return null;
+function getRaceNameForCulture(culture: any): string {
+  if (!culture || !culture.i || culture.removed) return "Human";
   if (typeof culture.race === "string" && culture.race !== "None" && culture.race !== "") return culture.race;
-  if (culture.race != null && typeof culture.race === "number" && pack && Array.isArray(pack.races)) {
-    const race = pack.races[culture.race];
+  if (culture.race != null && typeof culture.race === "number" && pack && Array.isArray((pack as any).races)) {
+    const race = (pack as any).races[culture.race];
     const raceName = race && typeof race.name === "string" ? race.name : "";
     if (raceName && raceName !== "None") return raceName;
   }
   const base = culture.base;
+  const nameBases = getNameBases();
 
   for (const [raceName, bases] of Object.entries(fantasyRaceBases)) {
     if (bases.includes(base)) return raceName;
@@ -1396,7 +1136,7 @@ function getRaceNameForCulture(culture) {
       const stem = raw.slice(0, -3).trim();
       if (stem && fantasyRaceBases[stem]) return stem;
     }
-    const adjectiveMap = {
+    const adjectiveMap: Record<string, string> = {
       Dwarven: "Dwarf",
       Elfish: "Elf",
       "Dark Elfish": "Dark Elf",
@@ -1410,9 +1150,9 @@ function getRaceNameForCulture(culture) {
   return "Human";
 }
 
-function shouldEnableRacesForCurrentWorld() {
-  if (pack && Array.isArray(pack.races)) {
-    for (const race of pack.races) {
+function shouldEnableRacesForCurrentWorld(): boolean {
+  if (pack && Array.isArray((pack as any).races)) {
+    for (const race of (pack as any).races) {
       if (!race || !race.i || !race.name) continue;
       if (race.name) return true;
     }
@@ -1428,27 +1168,28 @@ function shouldEnableRacesForCurrentWorld() {
   return false;
 }
 
-function initializeRacesForExpansion(options) {
+function initializeRacesForExpansion(options?: { forceFilterFromUi?: boolean; skipApplyFilter?: boolean }): void {
   if (!pack || !pack.cultures) return;
   if (!shouldEnableRacesForCurrentWorld()) return;
 
-  const existingRaces = pack.races || [];
-  const races = [{ i: 0, name: "None" }];
-  const raceIndexByName = new Map();
-  const raceColorById = {};
+  const packAny = pack as any;
+  const existingRaces = packAny.races || [];
+  const races: { i: number; name: string; color?: string; expansionism?: number }[] = [{ i: 0, name: "None" }];
+  const raceIndexByName = new Map<string, number>();
+  const raceColorById: Record<number, string> = {};
 
   const isFirstInitialization = existingRaces.length <= 1;
   const forceFilterFromUi = options && options.forceFilterFromUi;
   const skipApplyFilter = options && options.skipApplyFilter;
   const shouldApplyFilter = !skipApplyFilter && (isFirstInitialization || forceFilterFromUi);
 
-  let allowedRaces = null;
+  let allowedRaces: Set<string> | null = null;
   if (shouldApplyFilter) {
-    const racesSetElement = byId("racesSet");
+    const racesSetElement = findEl<HTMLSelectElement>("racesSet");
     const racesSetValue = racesSetElement ? racesSetElement.value : "all";
     const racesSetFilter = getRacesSetFilter(racesSetValue);
 
-    const racesNumberElement = byId("racesNumber");
+    const racesNumberElement = findEl<HTMLInputElement>("racesNumber");
     const racesLimitRaw =
       (racesNumberElement && (racesNumberElement.valueAsNumber || +racesNumberElement.value)) || 0;
     const maxNonHumanRaces = racesLimitRaw > 0 ? racesLimitRaw : Infinity;
@@ -1456,7 +1197,7 @@ function initializeRacesForExpansion(options) {
     if (racesSetFilter && maxNonHumanRaces === Infinity) {
       allowedRaces = racesSetFilter;
     } else if (maxNonHumanRaces !== Infinity) {
-      const raceNeedCounts = new Map();
+      const raceNeedCounts = new Map<string, number>();
       pack.cultures.forEach(culture => {
         if (!culture || !culture.i || culture.removed) return;
         const raceName = getRaceNameForCulture(culture);
@@ -1473,21 +1214,21 @@ function initializeRacesForExpansion(options) {
     }
   }
 
-  existingRaces.forEach(race => {
+  existingRaces.forEach((race: any) => {
     if (!race || !race.i) return;
     races[race.i] = { i: race.i, name: race.name, color: race.color, expansionism: race.expansionism };
     raceIndexByName.set(race.name, race.i);
     if (race.color) raceColorById[race.i] = race.color;
   });
 
-  pack.cultures.forEach(culture => {
+  pack.cultures.forEach((culture: any) => {
     if (!culture) return;
     if (!culture.i || culture.removed) {
       culture.race = 0;
       return;
     }
 
-    let raceName = getRaceNameForCulture(culture);
+    let raceName: string | null = getRaceNameForCulture(culture);
 
     if (shouldApplyFilter && raceName && allowedRaces) {
       if (!allowedRaces.has(raceName)) raceName = "Human";
@@ -1497,19 +1238,19 @@ function initializeRacesForExpansion(options) {
       const baseIndex = ensureRaceMixerBaseIndex(raceName);
       if (typeof baseIndex === "number") culture.base = baseIndex;
     }
-    let raceId = raceIndexByName.get(raceName);
-
-    if (!raceId) {
-      raceId = races.length;
-      raceIndexByName.set(raceName, raceId);
+    const id = raceIndexByName.get(raceName);
+    if (!id) {
+      const newRaceId = races.length;
+      raceIndexByName.set(raceName, newRaceId);
       const expansionism = defineRaceExpansionism(raceName);
-      races[raceId] = { i: raceId, name: raceName, expansionism };
+      races[newRaceId] = { i: newRaceId, name: raceName, expansionism };
+      culture.race = newRaceId;
+    } else {
+      culture.race = id;
     }
 
-    culture.race = raceId;
-
-    if (!raceColorById[raceId] && culture.color) {
-      raceColorById[raceId] = culture.color;
+    if (!raceColorById[culture.race] && culture.color) {
+      raceColorById[culture.race] = culture.color;
     }
   });
 
@@ -1519,22 +1260,23 @@ function initializeRacesForExpansion(options) {
     if (race.expansionism == null) race.expansionism = 1;
   });
 
-  pack.races = races;
+  packAny.races = races;
 }
 
-function rerollRacesForCultures(options) {
+function rerollRacesForCultures(options?: { forceFilterFromUi?: boolean }): void {
   if (!pack || !Array.isArray(pack.cultures)) return;
   if (!shouldEnableRacesForCurrentWorld()) return;
 
   const forceFilterFromUi = options && options.forceFilterFromUi;
+  const packAny = pack as any;
 
-  let allowedRaces = null;
+  let allowedRaces: Set<string> | null = null;
   if (forceFilterFromUi) {
-    const racesSetElement = byId("racesSet");
+    const racesSetElement = findEl<HTMLSelectElement>("racesSet");
     const racesSetValue = racesSetElement ? racesSetElement.value : "all";
     const racesSetFilter = getRacesSetFilter(racesSetValue);
 
-    const racesNumberElement = byId("racesNumber");
+    const racesNumberElement = findEl<HTMLInputElement>("racesNumber");
     const racesLimitRaw =
       (racesNumberElement && (racesNumberElement.valueAsNumber || +racesNumberElement.value)) || 0;
     const maxNonHumanRaces = racesLimitRaw > 0 ? racesLimitRaw : Infinity;
@@ -1542,7 +1284,7 @@ function rerollRacesForCultures(options) {
     if (racesSetFilter && maxNonHumanRaces === Infinity) {
       allowedRaces = racesSetFilter;
     } else if (maxNonHumanRaces !== Infinity) {
-      const raceNeedCounts = new Map();
+      const raceNeedCounts = new Map<string, number>();
       pack.cultures.forEach(culture => {
         if (!culture || !culture.i || culture.removed) return;
         const raceName = getRaceNameForCulture(culture);
@@ -1564,11 +1306,11 @@ function rerollRacesForCultures(options) {
     ? nonHumanPool.filter(r => allowedRaces.has(r))
     : nonHumanPool;
 
-  const races = [{ i: 0, name: "None" }];
-  const raceIndexByName = new Map();
-  const raceColorById = {};
+  const races: { i: number; name: string; color?: string; expansionism?: number }[] = [{ i: 0, name: "None" }];
+  const raceIndexByName = new Map<string, number>();
+  const raceColorById: Record<number, string> = {};
 
-  const ensureRaceId = raceName => {
+  const ensureRaceId = (raceName: string): number => {
     let raceId = raceIndexByName.get(raceName);
     if (raceId) return raceId;
     raceId = races.length;
@@ -1578,19 +1320,19 @@ function rerollRacesForCultures(options) {
     return raceId;
   };
 
-  const pickNonHumanRace = () => {
+  const pickNonHumanRace = (): string => {
     if (!filteredNonHumanPool.length) return "Human";
     return filteredNonHumanPool[Math.floor(Math.random() * filteredNonHumanPool.length)];
   };
 
-  pack.cultures.forEach(culture => {
+  pack.cultures.forEach((culture: any) => {
     if (!culture) return;
     if (!culture.i || culture.removed) {
       culture.race = 0;
       return;
     }
 
-    const isNonHuman = filteredNonHumanPool.length && Math.random() < 0.35;
+    const isNonHuman = filteredNonHumanPool.length > 0 && Math.random() < 0.35;
     const raceName = isNonHuman ? pickNonHumanRace() : "Human";
     const raceId = ensureRaceId(raceName);
     culture.race = raceId;
@@ -1609,18 +1351,22 @@ function rerollRacesForCultures(options) {
     if (race.expansionism == null) race.expansionism = 1;
   });
 
-  pack.races = races;
+  packAny.races = races;
 }
 
-function syncCultureBasesToDominantRace() {
+function syncCultureBasesToDominantRace(): void {
   if (!pack || !Array.isArray(pack.cultures)) return;
-  if (!pack || !Array.isArray(pack.races)) return;
-  const { cells, cultures, races } = pack;
+  const packAny = pack as any;
+  if (!packAny || !Array.isArray(packAny.races)) return;
+  const { cells, cultures, races } = packAny;
   if (!cells || !cells.i || !cells.culture || !cells.race) return;
   if (!Array.isArray(cultures) || !Array.isArray(races) || races.length < 1) return;
   if (typeof ensureRaceMixerBaseIndex !== "function") return;
 
-  const countsByCulture = [];
+  const countsByCulture: Record<number, Record<number, number>[]> = [];
+  const countsByState: { [key: number]: Record<number, number> } = [];
+  const countsByProvince: { [key: number]: Record<number, number> } = [];
+  const countsByReligion: { [key: number]: Record<number, number> } = [];
 
   for (const i of cells.i) {
     if (cells.h && cells.h[i] < 20) continue;
@@ -1632,24 +1378,24 @@ function syncCultureBasesToDominantRace() {
 
     const stateId = cells.state ? cells.state[i] : 0;
     if (stateId) {
-      const bucket = (countsByState[stateId] = countsByState[stateId] || {});
+      const bucket = (countsByState[stateId] = countsByState[stateId] || {}) as Record<number, number>;
       bucket[raceId] = (bucket[raceId] || 0) + 1;
     }
 
     const provinceId = cells.province ? cells.province[i] : 0;
     if (provinceId) {
-      const bucket = (countsByProvince[provinceId] = countsByProvince[provinceId] || {});
+      const bucket = (countsByProvince[provinceId] = countsByProvince[provinceId] || {}) as Record<number, number>;
       bucket[raceId] = (bucket[raceId] || 0) + 1;
     }
 
     const religionId = cells.religion ? cells.religion[i] : 0;
     if (religionId) {
-      const bucket = (countsByReligion[religionId] = countsByReligion[religionId] || {});
+      const bucket = (countsByReligion[religionId] = countsByReligion[religionId] || {}) as Record<number, number>;
       bucket[raceId] = (bucket[raceId] || 0) + 1;
     }
   }
 
-  const getDominantRaceId = counts => {
+  const getDominantRaceId = (counts: Record<number, number> | undefined): number => {
     if (!counts) return 0;
     let bestRaceId = 0;
     let bestCount = 0;
@@ -1664,8 +1410,8 @@ function syncCultureBasesToDominantRace() {
     return bestRaceId;
   };
 
-  if (pack.states) {
-    pack.states.forEach(state => {
+  if (packAny.states) {
+    packAny.states.forEach((state: any) => {
       if (!state) return;
       if (!state.i || state.removed) {
         state.race = 0;
@@ -1675,8 +1421,8 @@ function syncCultureBasesToDominantRace() {
     });
   }
 
-  if (pack.provinces) {
-    pack.provinces.forEach(province => {
+  if (packAny.provinces) {
+    packAny.provinces.forEach((province: any) => {
       if (!province) return;
       if (!province.i || province.removed) {
         province.race = 0;
@@ -1686,8 +1432,8 @@ function syncCultureBasesToDominantRace() {
     });
   }
 
-  if (pack.religions) {
-    pack.religions.forEach(religion => {
+  if (packAny.religions) {
+    packAny.religions.forEach((religion: any) => {
       if (!religion) return;
       if (!religion.i || religion.removed) {
         religion.race = 0;
@@ -1697,15 +1443,15 @@ function syncCultureBasesToDominantRace() {
     });
   }
 
-  if (pack.burgs) {
-    pack.burgs.forEach(burg => {
+  if (packAny.burgs) {
+    packAny.burgs.forEach((burg: any) => {
       if (!burg) return;
       if (!burg.i || burg.removed) {
         burg.race = 0;
         return;
       }
       const cell = burg.cell;
-      const raceId = cell !== undefined && raceByCell ? raceByCell[cell] || 0 : 0;
+      const raceId = cell !== undefined && cells.race ? cells.race[cell] || 0 : 0;
       burg.race = races && races[raceId] ? raceId : 0;
     });
   }
@@ -1717,7 +1463,7 @@ function syncCultureBasesToDominantRace() {
 
     let bestRaceId = -1;
     let bestCount = -1;
-    for (const [raceIdRaw, count] of Object.entries(counts)) {
+    for (const [raceIdRaw, count] of Object.entries(counts) as any) {
       const raceId = +raceIdRaw;
       if (count > bestCount) {
         bestCount = count;
@@ -1735,17 +1481,18 @@ function syncCultureBasesToDominantRace() {
   }
 }
 
-function assignRaces() {
+function assignRaces(): void {
   if (!pack || !pack.cultures) return;
+  const packAny = pack as any;
 
-  function clearRaces() {
-    pack.races = [];
+  function clearRaces(): void {
+    packAny.races = [];
 
-    if (pack.cultures) pack.cultures.forEach(c => c && delete c.race);
-    if (pack.states) pack.states.forEach(s => s && delete s.race);
-    if (pack.provinces) pack.provinces.forEach(p => p && delete p.race);
-    if (pack.burgs) pack.burgs.forEach(b => b && delete b.race);
-    if (pack.religions) pack.religions.forEach(r => r && delete r.race);
+    if (pack.cultures) pack.cultures.forEach((c: any) => c && delete c.race);
+    if (packAny.states) packAny.states.forEach((s: any) => s && delete s.race);
+    if (packAny.provinces) packAny.provinces.forEach((p: any) => p && delete p.race);
+    if (packAny.burgs) packAny.burgs.forEach((b: any) => b && delete b.race);
+    if (packAny.religions) packAny.religions.forEach((r: any) => r && delete r.race);
   }
 
   if (!shouldEnableRacesForCurrentWorld()) {
@@ -1754,50 +1501,51 @@ function assignRaces() {
   }
 
   const hasCellRaces =
-    pack.cells && pack.cells.race && pack.cells.i && pack.cells.race.length === pack.cells.i.length;
+    pack.cells && packAny.cells.race && pack.cells.i && packAny.cells.race.length === pack.cells.i.length;
 
-  if (hasCellRaces && !(pack.cells.race instanceof Uint16Array)) {
-    pack.cells.race = Uint16Array.from(pack.cells.race);
+  if (hasCellRaces && !(packAny.cells.race instanceof Uint16Array)) {
+    packAny.cells.race = Uint16Array.from(packAny.cells.race);
   }
 
-  function getRaceFromCultureId(cultureId) {
+  function getRaceFromCultureId(cultureId: number): number {
     const culture = pack.cultures && pack.cultures[cultureId];
-    return culture && culture.race ? culture.race : 0;
+    return culture && (culture as any).race ? (culture as any).race : 0;
   }
 
   if (hasCellRaces && pack.cells) {
-    const { cells, races } = pack;
+    const cells = packAny.cells;
+    const { races } = packAny;
     const raceByCell = cells.race;
-    const countsByState = [];
-    const countsByProvince = [];
-    const countsByReligion = [];
+    const countsByState: Record<number, Record<number, number>[]> = [];
+    const countsByProvince: Record<number, Record<number, number>[]> = [];
+    const countsByReligion: Record<number, Record<number, number>[]> = [];
 
     for (const i of cells.i) {
       if (cells.h && cells.h[i] < 20) continue;
-      let raceId = raceByCell[i] || 0;
+      const raceId = raceByCell[i] || 0;
       if (!raceId) continue;
       if (!races || !races[raceId]) continue;
 
       const stateId = cells.state ? cells.state[i] : 0;
       if (stateId) {
-        const bucket = (countsByState[stateId] = countsByState[stateId] || {});
+        const bucket = (countsByState[stateId] = countsByState[stateId] || {}) as any;
         bucket[raceId] = (bucket[raceId] || 0) + 1;
       }
 
       const provinceId = cells.province ? cells.province[i] : 0;
       if (provinceId) {
-        const bucket = (countsByProvince[provinceId] = countsByProvince[provinceId] || {});
+        const bucket = (countsByProvince[provinceId] = countsByProvince[provinceId] || {}) as any;
         bucket[raceId] = (bucket[raceId] || 0) + 1;
       }
 
       const religionId = cells.religion ? cells.religion[i] : 0;
       if (religionId) {
-        const bucket = (countsByReligion[religionId] = countsByReligion[religionId] || {});
+        const bucket = (countsByReligion[religionId] = countsByReligion[religionId] || {}) as any;
         bucket[raceId] = (bucket[raceId] || 0) + 1;
       }
     }
 
-    const getDominantRaceId = counts => {
+    const getDominantRaceId = (counts: Record<number, number> | undefined): number => {
       if (!counts) return 0;
       let bestRaceId = 0;
       let bestCount = 0;
@@ -1812,41 +1560,41 @@ function assignRaces() {
       return bestRaceId;
     };
 
-    if (pack.states) {
-      pack.states.forEach(state => {
+    if (packAny.states) {
+      packAny.states.forEach((state: any) => {
         if (!state) return;
         if (!state.i || state.removed) {
           state.race = 0;
           return;
         }
-        state.race = getDominantRaceId(countsByState[state.i]);
+        state.race = getDominantRaceId(countsByState[state.i] as any);
       });
     }
 
-    if (pack.provinces) {
-      pack.provinces.forEach(province => {
+    if (packAny.provinces) {
+      packAny.provinces.forEach((province: any) => {
         if (!province) return;
         if (!province.i || province.removed) {
           province.race = 0;
           return;
         }
-        province.race = getDominantRaceId(countsByProvince[province.i]);
+        province.race = getDominantRaceId(countsByProvince[province.i] as any);
       });
     }
 
-    if (pack.religions) {
-      pack.religions.forEach(religion => {
+    if (packAny.religions) {
+      packAny.religions.forEach((religion: any) => {
         if (!religion) return;
         if (!religion.i || religion.removed) {
           religion.race = 0;
           return;
         }
-        religion.race = getDominantRaceId(countsByReligion[religion.i]);
+        religion.race = getDominantRaceId(countsByReligion[religion.i] as any);
       });
     }
 
-    if (pack.burgs) {
-      pack.burgs.forEach(burg => {
+    if (packAny.burgs) {
+      packAny.burgs.forEach((burg: any) => {
         if (!burg) return;
         if (!burg.i || burg.removed) {
           burg.race = 0;
@@ -1858,8 +1606,8 @@ function assignRaces() {
       });
     }
   } else {
-    if (pack.states) {
-      pack.states.forEach(state => {
+    if (packAny.states) {
+      packAny.states.forEach((state: any) => {
         if (!state) return;
         if (!state.i || state.removed) {
           state.race = 0;
@@ -1869,20 +1617,20 @@ function assignRaces() {
       });
     }
 
-    if (pack.provinces && pack.states) {
-      pack.provinces.forEach(province => {
+    if (packAny.provinces && packAny.states) {
+      packAny.provinces.forEach((province: any) => {
         if (!province) return;
         if (!province.i || province.removed) {
           province.race = 0;
           return;
         }
-        const state = pack.states[province.state];
+        const state = packAny.states[province.state];
         province.race = state && state.race ? state.race : 0;
       });
     }
 
-    if (pack.burgs) {
-      pack.burgs.forEach(burg => {
+    if (packAny.burgs) {
+      packAny.burgs.forEach((burg: any) => {
         if (!burg) return;
         if (!burg.i || burg.removed) {
           burg.race = 0;
@@ -1892,8 +1640,8 @@ function assignRaces() {
       });
     }
 
-    if (pack.religions) {
-      pack.religions.forEach(religion => {
+    if (packAny.religions) {
+      packAny.religions.forEach((religion: any) => {
         if (!religion) return;
         if (!religion.i || religion.removed) {
           religion.race = 0;
@@ -1905,17 +1653,18 @@ function assignRaces() {
   }
 
   if (pack.cells && pack.cells.culture && pack.cells.i) {
-    const hasCellRaces = pack.cells.race && pack.cells.race.length === pack.cells.i.length;
+    const cells = packAny.cells;
+    const hasCellRaces = cells.race && cells.race.length === pack.cells.i.length;
 
     if (!hasCellRaces) {
       const raceArray = new Uint16Array(pack.cells.i.length);
       for (const i of pack.cells.i) {
         const cultureId = pack.cells.culture[i];
         const culture = pack.cultures && pack.cultures[cultureId];
-        const raceId = culture && culture.race ? culture.race : 0;
+        const raceId = culture && (culture as any).race ? (culture as any).race : 0;
         raceArray[i] = raceId;
       }
-      pack.cells.race = raceArray;
+      cells.race = raceArray;
     }
   }
 
@@ -1926,3 +1675,28 @@ function assignRaces() {
 
 // Expose the canonical race list for UI consumers (e.g. cultures editor dropdown)
 window.fantasyRaceNames = Object.keys(fantasyRaceBases);
+
+export {
+  fantasyRaceBases,
+  raceLanguageProfiles,
+  getRaceLanguageProfile,
+  getFallbackRaceMixerIsoWeights,
+  loadLanguageMixerCatalogForRaces,
+  getRaceLanguageIsoWeights,
+  generateRaceLanguageNames,
+  getRaceMixerBaseDisplayName,
+  isBadRaceMixerDisplayName,
+  buildRaceMixerLanguageDisplayName,
+  hashStringToUint32,
+  findExistingRaceMixerBaseIndex,
+  getRaceDefaultBaseIndex,
+  ensureRaceMixerBaseIndex,
+  getRacesSetFilter,
+  defineRaceExpansionism,
+  getRaceNameForCulture,
+  shouldEnableRacesForCurrentWorld,
+  initializeRacesForExpansion,
+  rerollRacesForCultures,
+  syncCultureBasesToDominantRace,
+  assignRaces
+};

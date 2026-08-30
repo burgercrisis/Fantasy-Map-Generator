@@ -559,7 +559,15 @@ class MarkersModule {
   private addVolcano(id: string, cell: number) {
     const { cells } = pack;
 
-    const proper = Names.getCulture(cells.culture[cell]);
+    const culture = cells.culture[cell];
+    const baseIndex = pack.cultures[culture] && pack.cultures[culture].base;
+    let proper: string;
+    if (typeof baseIndex === "number" && typeof Names.getUseCaseRange === "function") {
+      const range = Names.getUseCaseRange(baseIndex, "town");
+      proper = Names.getCulture(culture, range.min, range.max);
+    } else {
+      proper = Names.getCulture(culture);
+    }
     const name = P(0.3) ? `Mount ${proper}` : P(0.7) ? `${proper} Volcano` : proper;
     const status = P(0.6) ? "Dormant" : P(0.4) ? "Active" : "Erupting";
     notes.push({
@@ -576,7 +584,15 @@ class MarkersModule {
   private addHotSpring(id: string, cell: number) {
     const { cells } = pack;
 
-    const proper = Names.getCulture(cells.culture[cell]);
+    const culture = cells.culture[cell];
+    const baseIndex = pack.cultures[culture] && pack.cultures[culture].base;
+    let proper: string;
+    if (typeof baseIndex === "number" && typeof Names.getUseCaseRange === "function") {
+      const range = Names.getUseCaseRange(baseIndex, "town");
+      proper = Names.getCulture(culture, range.min, range.max);
+    } else {
+      proper = Names.getCulture(culture);
+    }
     const temp = convertTemperature(gauss(35, 15, 20, 100));
     const name = P(0.3) ? `Hot Springs of ${proper}` : P(0.7) ? `${proper} Hot Springs` : proper;
     const legend = `A geothermal springs with naturally heated water that provide relaxation and medicinal benefits. Average temperature is ${temp}.`;
@@ -949,7 +965,19 @@ class MarkersModule {
   private addLighthouse(id: string, cell: number) {
     const { cells } = pack;
 
-    const proper = cells.burg[cell] ? pack.burgs[cells.burg[cell]].name! : Names.getCulture(cells.culture[cell]);
+    const culture = cells.culture[cell];
+    let proper: string;
+    if (cells.burg[cell]) {
+      proper = pack.burgs[cells.burg[cell]].name!;
+    } else {
+      const baseIndex = pack.cultures[culture] && pack.cultures[culture].base;
+      if (typeof baseIndex === "number" && typeof Names.getUseCaseRange === "function") {
+        const range = Names.getUseCaseRange(baseIndex, "town");
+        proper = Names.getCulture(culture, range.min, range.max);
+      } else {
+        proper = Names.getCulture(culture);
+      }
+    }
     notes.push({
       id,
       name: `${getAdjective(proper)} Lighthouse`,
@@ -996,7 +1024,16 @@ class MarkersModule {
     if (!state.campaigns) state.campaigns = States.generateCampaign(state);
     const campaign = ra(state.campaigns);
     const date = generateDate(campaign.start, campaign.end);
-    const name = `${Names.getCulture(cells.culture[cell])} Battlefield`;
+    const culture = cells.culture[cell];
+    const baseIndex = pack.cultures[culture] && pack.cultures[culture].base;
+    let proper: string;
+    if (typeof baseIndex === "number" && typeof Names.getUseCaseRange === "function") {
+      const range = Names.getUseCaseRange(baseIndex, "town");
+      proper = Names.getCulture(culture, range.min, range.max);
+    } else {
+      proper = Names.getCulture(culture);
+    }
+    const name = `${proper} Battlefield`;
     const legend = `A historical battle of the ${campaign.name}. \r\nDate: ${date} ${options.era}.`;
     notes.push({ id, name, legend });
   }
@@ -1053,7 +1090,18 @@ class MarkersModule {
   }
 
   private addSeaMonster(id: string, _cell: number) {
-    const name = `${Names.getCultureShort(0)} Monster`;
+    const culture = 0;
+    const baseIndex = pack.cultures[culture] && pack.cultures[culture].base;
+    let proper: string;
+    if (typeof baseIndex === "number" && typeof Names.getUseCaseRange === "function") {
+      const range = Names.getUseCaseRange(baseIndex, "town");
+      proper = Names.getCulture(culture, range.min, range.max);
+    } else if (typeof Names.getCultureShort === "function") {
+      proper = Names.getCultureShort(culture);
+    } else {
+      proper = Names.getCulture(culture);
+    }
+    const name = `${proper} Monster`;
     const length = gauss(25, 10, 10, 100);
     const legend = `Old sailors tell stories of a gigantic sea monster inhabiting these dangerous waters. Rumors say it can be ${length} ${heightUnit.value} long.`;
     notes.push({ id, name, legend });
@@ -1127,7 +1175,15 @@ class MarkersModule {
     ];
 
     const monster = ra(species);
-    const toponym = Names.getCulture(cells.culture[cell]);
+    const culture = cells.culture[cell];
+    const baseIndex = pack.cultures[culture] && pack.cultures[culture].base;
+    let toponym: string;
+    if (typeof baseIndex === "number" && typeof Names.getUseCaseRange === "function") {
+      const range = Names.getUseCaseRange(baseIndex, "town");
+      toponym = Names.getCulture(culture, range.min, range.max);
+    } else {
+      toponym = Names.getCulture(culture);
+    }
     const name = `${toponym} ${monster}`;
     const legend = `${ra(subjects)} speak of a ${ra(adjectives)} ${monster} who inhabits ${toponym} hills and ${ra(
       modusOperandi
@@ -1151,7 +1207,15 @@ class MarkersModule {
 
     const culture = cells.c[cell].map(c => cells.culture[c]).find(c => c)!;
     const religion = cells.religion[cell];
-    const name = `${Names.getCulture(culture)} Mountain`;
+    const baseIndex = pack.cultures[culture] && pack.cultures[culture].base;
+    let proper: string;
+    if (typeof baseIndex === "number" && typeof Names.getUseCaseRange === "function") {
+      const range = Names.getUseCaseRange(baseIndex, "town");
+      proper = Names.getCulture(culture, range.min, range.max);
+    } else {
+      proper = Names.getCulture(culture);
+    }
+    const name = `${proper} Mountain`;
     const height = getFriendlyHeight(cells.p[cell], pack, grid);
     const legend = `A sacred mountain of ${religions[religion].name}. Height: ${height}.`;
     notes.push({ id, name, legend });
@@ -1169,7 +1233,15 @@ class MarkersModule {
 
     const culture = cells.culture[cell];
     const religion = cells.religion[cell];
-    const name = `${Names.getCulture(culture)} Forest`;
+    const baseIndex = pack.cultures[culture] && pack.cultures[culture].base;
+    let proper: string;
+    if (typeof baseIndex === "number" && typeof Names.getUseCaseRange === "function") {
+      const range = Names.getUseCaseRange(baseIndex, "town");
+      proper = Names.getCulture(culture, range.min, range.max);
+    } else {
+      proper = Names.getCulture(culture);
+    }
+    const name = `${proper} Forest`;
     const legend = `A forest sacred to local ${religions[religion].name}.`;
     notes.push({ id, name, legend });
   }
@@ -1184,7 +1256,15 @@ class MarkersModule {
 
     const culture = cells.culture[cell];
     const religion = cells.religion[cell];
-    const name = `${Names.getCulture(culture)} Pinery`;
+    const baseIndex = pack.cultures[culture] && pack.cultures[culture].base;
+    let proper: string;
+    if (typeof baseIndex === "number" && typeof Names.getUseCaseRange === "function") {
+      const range = Names.getUseCaseRange(baseIndex, "town");
+      proper = Names.getCulture(culture, range.min, range.max);
+    } else {
+      proper = Names.getCulture(culture);
+    }
+    const name = `${proper} Pinery`;
     const legend = `A pinery sacred to local ${religions[religion].name}.`;
     notes.push({ id, name, legend });
   }
@@ -1207,7 +1287,15 @@ class MarkersModule {
 
     const culture = cells.culture[cell];
     const religion = cells.religion[cell];
-    const name = `${Names.getCulture(culture)} Palm Grove`;
+    const baseIndex = pack.cultures[culture] && pack.cultures[culture].base;
+    let proper: string;
+    if (typeof baseIndex === "number" && typeof Names.getUseCaseRange === "function") {
+      const range = Names.getUseCaseRange(baseIndex, "town");
+      proper = Names.getCulture(culture, range.min, range.max);
+    } else {
+      proper = Names.getCulture(culture);
+    }
+    const name = `${proper} Palm Grove`;
     const legend = `A palm grove sacred to local ${religions[religion].name}.`;
     notes.push({ id, name, legend });
   }

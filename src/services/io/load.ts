@@ -11,6 +11,18 @@ import { declareFont } from "@/services/fonts";
 import { clearCache, compareVersions, isValidVersion, parseMapVersion, VERSION } from "@/services/versioning";
 import { applyOption, ensureEl, last, link, minmax, parseError, rn } from "@/utils";
 
+// Race entity type (custom to this fork; no upstream equivalent)
+interface Race {
+  i: number;
+  name: string;
+  color?: string;
+  expansionism?: number;
+  removed?: boolean;
+}
+
+// Extend pack with race data (custom to this fork)
+type PackWithRaces = { races?: Race[]; cells: typeof pack.cells & { race?: Uint16Array } };
+
 async function quickLoad(): Promise<void> {
   const blob = await ldb.get("lastMap");
   if (blob) loadMapPrompt(blob);
@@ -406,6 +418,58 @@ async function parseLoadedData(data: string[], mapVersion: string | null): Promi
     pack.measurers = data[46] ? JSON.parse(data[46]) : [];
     pack.addedLabels = data[47] ? JSON.parse(data[47]) : [];
     pack.relief = data[49] ? JSON.parse(data[49]) : [];
+
+    // Read race data (custom to this fork)
+    // New TS format: races at index 52, cells.race at index 53
+    // Old JS format: races at index 39, cells.race at index 40
+    {
+      const packWithRaces = pack as unknown as PackWithRaces;
+
+      // Detect format: old JS saves have ~40 entries, new TS saves have 52+
+      const isOldJSFormat = data.length <= 41;
+      const raceIndex = isOldJSFormat ? 39 : 52;
+      const cellsRaceIndex = isOldJSFormat ? 40 : 53;
+
+      if (data[raceIndex]) {
+        try {
+          packWithRaces.races = JSON.parse(data[raceIndex]);
+        } catch (e) {
+          ERROR && console.error("[Race data] Failed to parse races:", e);
+        }
+      }
+
+      if (!Array.isArray(packWithRaces.races)) {
+        packWithRaces.races = [];
+      }
+
+      if (data[cellsRaceIndex]) {
+        try {
+          const race = Uint16Array.from(data[cellsRaceIndex].split(","));
+          if (race.length === pack.cells.i.length) {
+            packWithRaces.cells.race = race;
+          }
+        } catch (e) {
+          ERROR && console.error("[Race data] Failed to parse cells.race:", e);
+        }
+      }
+
+      // Re-apply race mixer bases on load when races are implied, but do not re-apply UI filters
+      if (typeof initializeRacesForExpansion === "function") {
+        try {
+          initializeRacesForExpansion({ forceFilterFromUi: false });
+        } catch (e) {
+          ERROR && console.error("[Race data] initializeRacesForExpansion failed:", e);
+        }
+      }
+
+      if (typeof assignRaces === "function") {
+        try {
+          assignRaces();
+        } catch (e) {
+          ERROR && console.error("[Race data] assignRaces failed:", e);
+        }
+      }
+    }
 
     if (data[31]) {
       const namesDL = data[31].split("/");

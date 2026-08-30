@@ -128,7 +128,8 @@ class ProvinceModule {
         const burg = stateBurgs[i];
         const c = stateBurgs[i].culture!;
         const nameByBurg = P(0.5);
-        const name = nameByBurg ? stateBurgs[i].name! : Names.getState(Names.getCultureShort(c), c);
+        const base = typeof Names.getBaseForCell === "function" ? Names.getBaseForCell(center, c) : undefined;
+        const name = nameByBurg ? stateBurgs[i].name! : Names.getState(Names.getCultureShort(c, base), c, base);
         const formName = rw(form);
         form[formName] += 10;
         const fullName = `${name} ${formName}`;
@@ -269,7 +270,8 @@ class ProvinceModule {
           const colonyName = colony && P(0.8) && getColonyName();
           if (colonyName) return colonyName;
           if (burgCell && P(0.5)) return burgs[burg].name;
-          return Names.getState(Names.getCultureShort(c), c);
+          const base = typeof Names.getBaseForCell === "function" ? Names.getBaseForCell(center, c) : undefined;
+          return Names.getState(Names.getCultureShort(c, base), c, base);
         })();
 
         const formName = (() => {

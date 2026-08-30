@@ -1,9 +1,17 @@
 import { max, quadtree, range } from "d3";
 import { Emblems } from "@/generators/emblems-generator";
 import { abbreviate, biased, ensureEl, getColors, getRandomColor, minmax, P, rand, rn, rw } from "../utils";
+import { last } from "@/utils/arrayUtils";
+import type { LanguageMixerCatalogEntry } from "@/generators/language-softmods";
 
 declare global {
   var Cultures: CulturesGenerator;
+
+  /**
+   * Runtime-attached by names-mixer.js. Not part of the upstream NamesGenerator
+   * class; declared here so the culture mixer can call it without `any`.
+   */
+  var getRaceNameForCulture: ((culture: Culture) => string | null) | undefined;
 }
 
 export interface Culture {
@@ -28,6 +36,8 @@ export interface Culture {
   area?: number;
   rural?: number;
   urban?: number;
+  /** Race name assigned by the race system (custom fork; no upstream equivalent) */
+  race?: string;
 }
 
 export const CULTURE_TYPES = ["Generic", "Hunting", "Highland", "River", "Lake", "Naval", "Nomadic"] as const;
@@ -1104,7 +1114,7 @@ class CulturesGenerator {
     const codes: string[] = [];
 
     const placeCenter = (sortingFn: (i: number) => number) => {
-      let spacing = (graphWidth + graphHeight) / 2 / count;
+      let spacing = (graphWidth + graphHeight)  / 2 / count;
       const MAX_ATTEMPTS = 100;
 
       const sorted = [...populated].sort((a, b) => sortingFn(b) - sortingFn(a));
@@ -1202,6 +1212,18 @@ class CulturesGenerator {
     cultures.forEach((c: Culture) => {
       c.base = c.base % Names.nameBases.length;
     });
+
+    // --- Race + language mixer integration (custom fork; no upstream equivalent) ---
+    // Assign race names and build mixer bases for all cultures (except wildlands at index 0)
+    for (const c of cultures) {
+      if (!c || c.i === 0 || c.removed) continue;
+      if (typeof getRaceNameForCulture === "function") {
+        const raceName = getRaceNameForCulture(c);
+        if (raceName) c.race = raceName;
+      }
+      const baseIndex = this.ensureCultureMixerBaseIndex(c.i);
+      if (typeof baseIndex === "number") c.base = baseIndex;
+    }
   }
 
   add(center: number) {
@@ -1347,6 +1369,329 @@ class CulturesGenerator {
     pack.religions = pack.religions.map(religion =>
       !religion.i || religion.removed ? religion : { ...religion, culture: pack.cells.culture[religion.center] }
     );
+  }
+
+  // =====================================================================
+  // Race + language mixer methods (custom fork; no upstream equivalent)
+  // =====================================================================
+
+  /**
+   * Generates a deterministic seed for a culture-specific language mixer.
+   * Combines the global map seed with the culture ID for reproducible results.
+   */
+  getCultureMixerSeed(cultureId: number): number {
+    const seedStr = typeof seed === "string" ? seed : String(seed || "");
+    let h = 2166136261;
+    const s = `culture-mixer|${seedStr}|${cultureId}`;
+    for (let i = 0; i < s.length; i++) {
+      h ^= s.charCodeAt(i);
+      h = Math.imul(h, 16777619);
+    }
+    return h >>> 0;
+  }
+
+  /**
+   * Creates a seeded pseudo-random number generator from an integer seed.
+   * Returns a function that produces floats in [0, 1).
+   */
+  makeRng(seedInt: number): () => number {
+    let x = seedInt >>> 0;
+    return () => {
+      x += 0x6d2b79f5;
+      let t = x;
+      t = Math.imul(t ^ (t >>> 15), t | 1);
+      t ^= t + Math.imul(t ^ (t >>> 7), t | 61);
+      return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+    };
+  }
+
+  /**
+   * Reads the language mixer setting from the UI.
+   * Returns "on", "off", or "random" (defaults to "on").
+   */
+  getLanguageMixerSetting(): string {
+    const el = document.getElementById("languageMixer");
+    return el && "value" in el ? (el as HTMLSelectElement).value : "on";
+  }
+
+  /**
+   * Reads the current culture set from the UI.
+   */
+  getCultureSet(): string {
+    const el = ensureEl<HTMLSelectElement>("culturesSet");
+    return el ? el.value || "world" : "world";
+  }
+
+  /**
+   * Filters the language mixer catalog based on the culture set preset configuration.
+   * Uses `window.languageMixerCultureSets` to determine which categories/families
+   * are allowed for the given culture set.
+   */
+  filterCatalogByCultureSet(catalog: LanguageMixerCatalogEntry[], cultureSet: string): LanguageMixerCatalogEntry[] {
+    const config = (window as unknown as { languageMixerCultureSets?: Record<string, { categories?: string[]; families?: string[] }> }).languageMixerCultureSets?.[cultureSet];
+    if (!config) return catalog.filter(l => l && l.iso && !(l.tags && l.tags.includes("family")));
+
+    const { categories, families } = config;
+    const hasFilter = (categories && categories.length) || (families && families.length);
+
+    // No filters = full catalog (world, random)
+    if (!hasFilter) return catalog.filter(l => l && l.iso && !(l.tags && l.tags.includes("family")));
+
+    const catSet = new Set((categories || []).map(c => c.toLowerCase()));
+    const famSet = new Set((families || []).map(f => f.toLowerCase()));
+
+    return catalog.filter(l => {
+      if (!l || !l.iso) return false;
+      if (l.tags && l.tags.includes("family")) return false;
+
+      const cat = (l.category || "").toLowerCase();
+      const fam = (l.family || "").toLowerCase();
+
+      if (catSet.size && catSet.has(cat)) return true;
+      if (famSet.size && famSet.has(fam)) return true;
+      return false;
+    });
+  }
+
+  /**
+   * Builds ISO weights for culture mixing. Determines which languages
+   * contribute to a culture's name generation based on:
+   * 1. Race-based weights (if the culture has an associated race)
+   * 2. Culture-set-filtered catalog with random selection
+   *
+   * Returns null if the mixer is disabled or no weights could be built.
+   */
+  buildCultureMixerIsoWeights(cultureId: number): Record<string, number> | null {
+    const catalog = Array.isArray(window.languageMixerCatalog) ? window.languageMixerCatalog : [];
+    if (!catalog.length) return null;
+
+    const cultureSet = this.getCultureSet();
+    const mixerSetting = this.getLanguageMixerSetting();
+
+    // The "random" culture set has its own independent random namebase selection
+    // and should not use the language mixer
+    if (cultureSet === "random") return null;
+
+    // Off = don't use mixer at all
+    if (mixerSetting === "off") return null;
+
+    // Random = 50/50 chance per map
+    if (mixerSetting === "random") {
+      const seedStr = typeof seed === "string" ? seed : String(seed || "");
+      let h = 2166136261;
+      const s = `mixer-random|${seedStr}`;
+      for (let i = 0; i < s.length; i++) {
+        h ^= s.charCodeAt(i);
+        h = Math.imul(h, 16777619);
+      }
+      if (((h >>> 0) % 2) === 0) return null;
+    }
+
+    const culture = pack.cultures && pack.cultures[cultureId];
+
+    // If culture has a race, use race-based weights (existing behavior)
+    if (culture && typeof getRaceLanguageIsoWeights === "function") {
+      const raceName = typeof getRaceNameForCulture === "function" ? getRaceNameForCulture(culture) : "";
+      if (raceName) {
+        const weights = getRaceLanguageIsoWeights(raceName);
+        if (weights) return weights;
+      }
+    }
+
+    // Filter catalog by culture set preset
+    let pool = this.filterCatalogByCultureSet(catalog, cultureSet);
+    if (!pool.length) {
+      // Fallback: if filter produced nothing, use full catalog
+      pool = catalog.filter(l => l && l.iso && !(l.tags && l.tags.includes("family")));
+    }
+    if (!pool.length) return null;
+
+    const rng = this.makeRng(this.getCultureMixerSeed(cultureId));
+    const isoWeights: Record<string, number> = {};
+
+    const picks = 3 + Math.floor(rng() * 4); // 3..6
+    for (let i = 0; i < picks; i++) {
+      const lang = pool[Math.floor(rng() * pool.length)];
+      if (!lang || !lang.iso) continue;
+      isoWeights[lang.iso] = (isoWeights[lang.iso] || 0) + 1;
+    }
+
+    return Object.keys(isoWeights).length ? isoWeights : null;
+  }
+
+  /**
+   * Generates a fictional display name from a list of names using Markov chains.
+   * Uses the same algorithm as the upstream name generator.
+   */
+  generateFictionalDisplayNameFromNames(names: string[], options?: { seed?: number }): string {
+    if (!Names || typeof (Names as unknown as { calculateChain?: (s: string) => string[][] & Record<string, string[]> }).calculateChain !== "function") return "";
+    if (!Array.isArray(names) || names.length < 3) return "";
+
+    const sanitized = names
+      .map(n =>
+        String(n || "")
+          .replace(/[/|,\d]/g, "")
+          .replace(/_unq\d+\b/gi, "")
+          .replace(/_/g, "")
+          .trim()
+      )
+      .filter(Boolean);
+
+    if (sanitized.length < 3) return "";
+
+    const chain = (Names as unknown as { calculateChain: (s: string) => string[][] & Record<string, string[]> }).calculateChain(sanitized.join(","));
+    if (!chain || chain[""] === undefined) return "";
+
+    const seedInt = options && typeof options.seed === "number" ? (options.seed >>> 0) : 0;
+    const rng = this.makeRng(seedInt || 1);
+    const pick = (arr: string[]) => arr[Math.floor(rng() * arr.length)];
+
+    const min = 4;
+    const max = 14;
+    const dupl = "lnrt";
+
+    let v = chain[""],
+      cur = pick(v),
+      w = "";
+
+    for (let i = 0; i < 20; i++) {
+      if (cur === "") {
+        if (w.length < min) {
+          cur = "";
+          w = "";
+          v = chain[""];
+        } else break;
+      } else {
+        if (w.length + cur.length > max) {
+          if (w.length < min) w += cur;
+          break;
+        } else v = chain[cur.charAt(cur.length - 1)] || chain[""];
+      }
+
+      w += cur;
+      cur = pick(v);
+    }
+
+    const wArr = [...w];
+    const l = last(wArr);
+    if (l === "'" || l === " " || l === "-") w = w.slice(0, -1);
+
+    const name = [...w].reduce<string>((r, c, i, d) => {
+      if (c === d[i + 1] && !dupl.includes(c)) return r;
+      if (!r.length) return c.toUpperCase();
+      if (last(r.split("")) === "-" && c === " ") return r;
+      if (last(r.split("")) === " ") return r + c.toUpperCase();
+      if (last(r.split("")) === "-") return r + c.toUpperCase();
+      if (c === "a" && d[i + 1] === "e") return r;
+      if (i + 2 < d.length && c === d[i + 1] && c === d[i + 2]) return r;
+      return r + c;
+    }, "");
+
+    const finalName = String(name || "").trim();
+    if (!finalName || finalName.length < 4) return "";
+    if (/^(elven|dwarven|orcish|draconic)$/i.test(finalName)) return "";
+    if (/\s/.test(finalName)) return "";
+    return finalName;
+  }
+
+  /**
+   * Ensures a culture has a mixer base index. Creates one if it doesn't exist.
+   * Returns the base index, or null if no mixer base could be created.
+   */
+  ensureCultureMixerBaseIndex(cultureId: number): number | null {
+    if (!Names || typeof (Names as unknown as { getMixedByIso?: (w: Record<string, number>, o: { count: number; seed: number }) => string[] }).getMixedByIso !== "function") return null;
+
+    const nameBases = Names.nameBases;
+    const existingIndex =
+      Array.isArray(nameBases)
+        ? nameBases.findIndex(
+            b =>
+              b &&
+              (b as unknown as { cultureMixer?: boolean; cultureMixerFor?: number }).cultureMixer === true &&
+              (b as unknown as { cultureMixerFor?: number }).cultureMixerFor === cultureId
+          )
+        : -1;
+    if (existingIndex >= 0) return existingIndex;
+
+    const isoWeights = this.buildCultureMixerIsoWeights(cultureId);
+    if (!isoWeights) return null;
+
+    const mixSeed = this.getCultureMixerSeed(cultureId);
+    const count = 240;
+    let names: string[];
+    try {
+      names = (Names as unknown as { getMixedByIso: (w: Record<string, number>, o: { count: number; seed: number }) => string[] }).getMixedByIso(isoWeights, { count, seed: mixSeed });
+    } catch (e) {
+      return null;
+    }
+
+    if (!Array.isArray(names) || names.length < 3) return null;
+    const sanitized = names
+      .map(n =>
+        String(n || "")
+          .replace(/[/|,\d]/g, "")
+          .replace(/_unq\d+\b/gi, "")
+          .replace(/_/g, "")
+          .trim()
+      )
+      .filter(Boolean);
+    if (sanitized.length < 3) return null;
+
+    let min = 4;
+    let max = 12;
+    try {
+      const lengths = sanitized.map(n => n.length).sort((a, b) => a - b);
+      const q = (p: number) => lengths[Math.floor(p * (lengths.length - 1))];
+      const p25 = q(0.25);
+      const p75 = q(0.75);
+      const computedMin = Math.max(3, Math.min(12, Math.floor(p25)));
+      const computedMax = Math.max(computedMin, Math.min(16, Math.ceil(p75) + 2));
+      min = computedMin;
+      max = computedMax;
+    } catch (e) { /* keep defaults */ }
+
+    const nameSeed = (mixSeed ^ 0x9e3779b9) >>> 0;
+    const displayName = this.generateFictionalDisplayNameFromNames(sanitized, { seed: nameSeed });
+    const b = sanitized.join(",");
+    const baseIndex = nameBases.length;
+
+    const fallbackName = (() => {
+      const sample = sanitized[0] ? String(sanitized[0]).trim() : "";
+      if (sample.length >= 4 && !/\s/.test(sample)) {
+        return sample.charAt(0).toUpperCase() + sample.slice(1).toLowerCase();
+      }
+      const consonants = "bcdfghjklmnpqrstvwxz";
+      const vowels = "aeiouy";
+      const rng = this.makeRng(nameSeed || 1);
+      const pick = (s: string) => s[Math.floor(rng() * s.length)];
+      let out = "";
+      const target = 6 + Math.floor(rng() * 4);
+      while (out.length < target) {
+        out += pick(consonants) + pick(vowels);
+        if (rng() < 0.15) out += pick(consonants);
+      }
+      out = out.slice(0, Math.min(10, Math.max(5, target)));
+      return out.charAt(0).toUpperCase() + out.slice(1);
+    })();
+
+    nameBases.push({
+      name: displayName || fallbackName,
+      i: baseIndex,
+      min,
+      max,
+      d: "",
+      m: 0,
+      b,
+      cultureMixer: true,
+      cultureMixerFor: cultureId,
+      isoWeights
+    } as typeof nameBases[number] & { cultureMixer: boolean; cultureMixerFor: number; isoWeights: Record<string, number> });
+
+    if (typeof (window as unknown as { refreshDefaultNameBaseIds?: () => void }).refreshDefaultNameBaseIds === "function") {
+      (window as unknown as { refreshDefaultNameBaseIds: () => void }).refreshDefaultNameBaseIds();
+    }
+
+    return baseIndex;
   }
 }
 

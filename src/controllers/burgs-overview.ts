@@ -489,7 +489,7 @@ function showBurgsChart(): void {
     return { id: s.i, state: s.i ? 0 : null, color, name };
   });
 
-  const burgs = pack.burgs
+  const burgs: any[] = pack.burgs
     .filter(b => b.i && !b.removed)
     .map(b => {
       const id = b.i + states.length - 1;
@@ -497,11 +497,19 @@ function showBurgsChart(): void {
       const capital = b.capital;
       const province = pack.cells.province[b.cell];
       const parent = province ? province + states.length - 1 : b.state;
+      const culture = pack.cultures && b.culture !== undefined ? pack.cultures[b.culture] : undefined;
+      const languageBase = culture && typeof culture.base === "number" ? culture.base : 0;
+      const burgRace = (b as unknown as { race?: number | string }).race;
+      const raceOriginal = burgRace || (culture && culture.race) || 0;
       return {
         id,
         i: b.i,
         state: b.state,
         culture: b.culture,
+        language: languageBase,
+        race: raceOriginal,
+        languageBase,
+        raceOriginal,
         province,
         parent,
         name: b.name,
@@ -531,13 +539,22 @@ function showBurgsChart(): void {
   const treeLayout = packLayout().size([w, h]).padding(3);
 
   // prepare svg
+  const racesArr = (pack as unknown as { races?: unknown[] }).races;
+  const hasRaces = racesArr && racesArr.length > 1;
+  const racesOptions = hasRaces
+    ? `<option value="races">Group by race</option>
+         <option value="raceLanguage">Group by race and language</option>`
+    : "";
+
   alertMessage.innerHTML = /* html */ `<select id="burgsTreeType" style="display:block; margin-left:13px; font-size:11px">
       <option value="states" selected>Group by state</option>
       <option value="cultures">Group by culture</option>
       <option value="parent">Group by province and state</option>
       <option value="provinces">Group by province</option>
+      ${racesOptions}
     </select>`;
   alertMessage.innerHTML += `<div id='burgsInfo' class='chartInfo'>&#8205;</div>`;
+  alertMessage.innerHTML += `<div id='burgsLegend' class='chartInfo' style="max-width:${width}px;margin:2px auto 0;display:flex;flex-wrap:wrap;justify-content:center;column-gap:0.75em;row-gap:0.25em;white-space:normal;">&#8205;</div>`;
   const svg = select("#alertMessage")
     .insert("svg", "#burgsInfo")
     .attr("id", "burgsTree")
@@ -565,10 +582,22 @@ function showBurgsChart(): void {
   function showInfo(ev: any, d: any): void {
     select(ev.target).transition().duration(1500).attr("stroke", "#c13119");
     const name = d.data.name;
-    const parent = d.parent.data.name;
+    const parentName = d.parent && d.parent.data ? d.parent.data.name : "";
     const population = si(d.value * populationRate * urbanization);
 
-    ensureEl("burgsInfo").innerHTML = /* html */ `${name}. ${parent}. Population: ${population}`;
+    const typeSelect = ensureEl<HTMLSelectElement>("burgsTreeType");
+    const mode = typeSelect ? typeSelect.value : "states";
+
+    let groupLabel = parentName;
+    if (parentName) {
+      if (mode === "states") groupLabel = `State: ${parentName}`;
+      else if (mode === "cultures") groupLabel = `Culture: ${parentName}`;
+      else if (mode === "provinces") groupLabel = `Province: ${parentName}`;
+      else if (mode === "races") groupLabel = `Race: ${parentName}`;
+      else if (mode === "raceLanguage") groupLabel = `Race / language: ${parentName}`;
+    }
+
+    ensureEl("burgsInfo").innerHTML = /* html */ `${name}. ${groupLabel}. Population: ${population}`;
     burgHighlightOn(ev);
     tip("Click to zoom into view");
   }
@@ -582,6 +611,12 @@ function showBurgsChart(): void {
   }
 
   function updateChart(this: HTMLSelectElement): void {
+    try {
+      localStorage.setItem("burgsTreeType", this.value);
+    } catch (error) {
+      ERROR && console.error("Cannot store burgsTreeType in localStorage", error);
+    }
+
     const getStatesData = () =>
       pack.states.map(s => {
         const color = s.color ? s.color : "#ccc";
@@ -616,26 +651,170 @@ function showBurgsChart(): void {
         return { id: p.i ? p.i : 0, province: p.i ? 0 : null, color, name };
       });
 
+    // Build language group nodes keyed by culture namebase (language = base index).
+    const getLanguagesData = () => {
+      const cultures = pack.cultures;
+      if (!cultures || !cultures.length) return getStatesData();
+
+      const baseIds = new Set<number>();
+      cultures.forEach(c => {
+        if (!c || !c.i || c.removed) return;
+        const baseId = typeof c.base === "number" ? c.base : 0;
+        baseIds.add(baseId);
+      });
+
+      if (!baseIds.size) return getStatesData();
+
+      const languages: any[] = [];
+      const languageIndexByBase = new Map<number, number>();
+
+      languages.push({ id: 0, language: null, color: "#ccc", name: "Languages" });
+
+      Array.from(baseIds)
+        .sort((a, b) => a - b)
+        .forEach(baseId => {
+          const id = languages.length;
+
+          let name = "";
+          const nameBase = Names.nameBases[baseId];
+          if (nameBase && typeof nameBase.name === "string") name = nameBase.name;
+          if (!name) name = `Language ${baseId}`;
+
+          let color = "#ccc";
+          const sampleCulture = cultures.find(
+            c => c && !c.removed && typeof c.base === "number" && c.base === baseId && c.color
+          );
+          if (sampleCulture && sampleCulture.color) color = sampleCulture.color;
+
+          languages.push({ id, language: 0, color, name });
+          languageIndexByBase.set(baseId, id);
+        });
+
+      burgs.forEach(b => {
+        const baseId = b.languageBase;
+        const mappedId = languageIndexByBase.get(baseId);
+        b.language = mappedId !== undefined ? mappedId : 0;
+      });
+
+      return languages;
+    };
+
+    const getRacesData = () => {
+      const racesSource = ((pack as unknown as { races?: { i?: number; removed?: boolean; color?: string; name?: string }[] }).races || []).filter(
+        r => r && r.i && !r.removed
+      );
+      if (!racesSource.length) return getStatesData();
+
+      const racesData: any[] = [];
+      const raceIndexById = new Map<number, number>();
+
+      racesData.push({ id: 0, race: null, color: "#888888", name: "Races" });
+
+      racesSource.forEach(r => {
+        const id = racesData.length;
+        const color = r.color || "#888888";
+        const name = r.name;
+        racesData.push({ id, race: 0, color, name });
+        raceIndexById.set(r.i!, id);
+      });
+
+      burgs.forEach(b => {
+        const raceId = b.raceOriginal || 0;
+        const mappedId = raceIndexById.get(raceId);
+        b.race = mappedId !== undefined ? mappedId : 0;
+      });
+
+      return racesData;
+    };
+
+    const getRaceLanguageData = () => {
+      const languages = getLanguagesData();
+      const languagesById = new Map(languages.map(l => [l.id, l]));
+
+      const combos: any[] = [{ id: 0, raceLanguage: null, color: "#888888", name: "Races / languages" }];
+      const comboIndex = new Map<string, number>();
+
+      burgs.forEach(b => {
+        const raceId = b.race;
+        const langId = b.language;
+        if (!raceId || !langId) {
+          b.raceLanguage = 0;
+          return;
+        }
+
+        const key = raceId + ":" + langId;
+        if (!comboIndex.has(key)) {
+          const race = ((pack as unknown as { races?: { i?: number; name?: string; color?: string }[] }).races || []).find(
+            r => r && r.i === raceId
+          );
+          const lang = languagesById.get(langId);
+          if (!race || !lang) {
+            b.raceLanguage = 0;
+            return;
+          }
+          const id = combos.length;
+          const name = `${race.name} / ${lang.name}`;
+          const color = lang.color || race.color || "#888888";
+          combos.push({ id, raceLanguage: 0, color, name });
+          comboIndex.set(key, id);
+        }
+
+        b.raceLanguage = comboIndex.get(key) || 0;
+      });
+
+      return combos;
+    };
+
     const value = (d: any) => {
       if (this.value === "states") return d.state;
       if (this.value === "cultures") return d.culture;
       if (this.value === "parent") return d.parent;
       if (this.value === "provinces") return d.province;
+      if (this.value === "races") return d.race;
+      if (this.value === "raceLanguage") return d.raceLanguage;
     };
 
     const mapping: Record<string, () => any[]> = {
       states: getStatesData,
       cultures: getCulturesData,
       parent: getParentData,
-      provinces: getProvincesData
+      provinces: getProvincesData,
+      races: getRacesData,
+      raceLanguage: getRaceLanguageData
     };
 
-    const base = mapping[this.value]();
+    const getBase = mapping[this.value] || getStatesData;
+    const base = getBase();
     burgs.forEach(b => {
       b.id = b.i + base.length - 1;
     });
 
     const data: any[] = base.concat(burgs);
+
+    const burgsLegend = ensureEl("burgsLegend");
+    if (burgsLegend) {
+      if (this.value === "races") {
+        const legendData = base
+          .filter((d: any) => d.id && d.race === 0)
+          .map((d: any) => [d.color, d.name]);
+
+        if (legendData.length) {
+          const items = legendData
+            .map(
+              ([color, name]) => `<span style="display:inline-flex;align-items:center;margin-right:0.75em;">
+                  <span style="display:inline-block;width:0.8em;height:0.8em;border-radius:50%;background:${color};margin-right:0.25em;"></span>
+                  <span>${name}</span>
+                </span>`
+            )
+            .join("");
+          burgsLegend.innerHTML = `Races: ${items}`;
+        } else {
+          burgsLegend.innerHTML = "&#8205;";
+        }
+      } else {
+        burgsLegend.innerHTML = "&#8205;";
+      }
+    }
 
     const root = (stratify() as any)
       .parentId((d: any) => value(d))(data)
@@ -651,6 +830,20 @@ function showBurgsChart(): void {
       .attr("cx", (d: any) => d.x)
       .attr("cy", (d: any) => d.y)
       .attr("r", (d: any) => d.r);
+  }
+
+  // restore previously selected grouping from localStorage
+  try {
+    const storedType = localStorage.getItem("burgsTreeType");
+    if (storedType && storedType !== ensureEl<HTMLSelectElement>("burgsTreeType").value) {
+      const optionExists = ensureEl<HTMLSelectElement>("burgsTreeType").querySelector(`option[value="${storedType}"]`);
+      if (optionExists) {
+        ensureEl<HTMLSelectElement>("burgsTreeType").value = storedType;
+        updateChart.call(ensureEl<HTMLSelectElement>("burgsTreeType"));
+      }
+    }
+  } catch (error) {
+    ERROR && console.error("Cannot restore burgsTreeType from localStorage", error);
   }
 
   $("#alert").dialog({
