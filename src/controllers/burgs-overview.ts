@@ -700,9 +700,9 @@ function showBurgsChart(): void {
     };
 
     const getRacesData = () => {
-      const racesSource = ((pack as unknown as { races?: { i?: number; removed?: boolean; color?: string; name?: string }[] }).races || []).filter(
-        r => r && r.i && !r.removed
-      );
+      const racesSource = (
+        (pack as unknown as { races?: { i?: number; removed?: boolean; color?: string; name?: string }[] }).races || []
+      ).filter(r => r && r.i && !r.removed);
       if (!racesSource.length) return getStatesData();
 
       const racesData: any[] = [];
@@ -742,11 +742,11 @@ function showBurgsChart(): void {
           return;
         }
 
-        const key = raceId + ":" + langId;
+        const key = `${raceId}:${langId}`;
         if (!comboIndex.has(key)) {
-          const race = ((pack as unknown as { races?: { i?: number; name?: string; color?: string }[] }).races || []).find(
-            r => r && r.i === raceId
-          );
+          const race = (
+            (pack as unknown as { races?: { i?: number; name?: string; color?: string }[] }).races || []
+          ).find(r => r && r.i === raceId);
           const lang = languagesById.get(langId);
           if (!race || !lang) {
             b.raceLanguage = 0;
@@ -794,9 +794,7 @@ function showBurgsChart(): void {
     const burgsLegend = ensureEl("burgsLegend");
     if (burgsLegend) {
       if (this.value === "races") {
-        const legendData = base
-          .filter((d: any) => d.id && d.race === 0)
-          .map((d: any) => [d.color, d.name]);
+        const legendData = base.filter((d: any) => d.id && d.race === 0).map((d: any) => [d.color, d.name]);
 
         if (legendData.length) {
           const items = legendData

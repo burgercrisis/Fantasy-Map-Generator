@@ -24,6 +24,7 @@ export const LAYER_TOGGLES = new Map<LayerId, LayerButton>([
   ["relief", { label: "Relie<u>f</u>", shortcut: "KeyF" }],
   ["religions", { label: "<u>R</u>eligions", shortcut: "KeyR" }],
   ["cultures", { label: "<u>C</u>ultures", shortcut: "KeyC" }],
+  ["races", { label: "Races" }],
   ["states", { label: "<u>S</u>tates", shortcut: "KeyS" }],
   ["provinces", { label: "<u>P</u>rovinces", shortcut: "KeyP" }],
   ["zones", { label: "<u>Z</u>ones", shortcut: "KeyZ" }],

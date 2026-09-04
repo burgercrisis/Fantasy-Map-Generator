@@ -39,3 +39,14 @@ settings → generators → world data → renderer
 UI → editors → world data → renderer.
 
 The data layer must contain no logic and no rendering code. Generators implement the procedural world simulation. Editors implement interactive editing tools used by the user. They perform controlled mutations of the world state. Editors can be viewed as interactive generators. The renderer converts the world state into SVG or WebGl graphics. Renderer must be pure visualization step and not modify world data.
+
+## Attribution
+
+This project uses content from the **Dungeons & Dragons System Reference Document 5.1 (SRD 5.1)**, released by Wizards of the Coast LLC and licensed under [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
+
+- **Work:** Dungeons & Dragons System Reference Document 5.1 (SRD 5.1)
+- **Copyright:** 2023 Wizards of the Coast LLC
+- **License:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+- **Changes made:** Race names are used as data labels for procedural map generation. No copyrighted lore, game mechanics, or descriptive text from the SRD is reproduced in this codebase.
+
+The SRD 5.1 is available at: https://dnd.wizards.com/resources/systems-reference-document

@@ -34,7 +34,6 @@ import {
   isLand,
   P,
   ra,
-  rand,
   rn,
   si
 } from "../utils";
@@ -583,10 +582,7 @@ function editStateName(state: number): void {
   }
 
   function regenerateShortNameRandom() {
-    const base =
-      Names && typeof Names.getRandomBaseIndex === "function"
-        ? Names.getRandomBaseIndex()
-        : rand(Names.nameBases.length - 1);
+    const base = Names.getRandomValidBaseIndex();
     const name = Names.getState(Names.getBase(base), undefined as unknown as number, base);
     ensureEl<HTMLInputElement>("stateNameEditorShort").value = name;
   }

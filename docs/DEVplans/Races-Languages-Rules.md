@@ -150,7 +150,7 @@ Interpretation:
 
 ### 2.3 Race availability filters (`getRacesSetFilter` + `racesSet` UI)
 
-- The UI exposes a `racesSet` selector with values like `classic`, `dark`, `primal`, `planar`, `eberron`, `fey`, `beastfolk`, `underdark`, `undead`, etc.
+- The UI exposes a `racesSet` selector with values like `classic`, `dark`, `primal`, `planar`, `fey`, `beastfolk`, `underdark`, `undead`, etc.
 - `getRacesSetFilter(value)` returns a `Set` of **race names** permitted for that theme.
 - Additionally, the `racesNumber` UI field can constrain the **maximum number of non-human races**.
 

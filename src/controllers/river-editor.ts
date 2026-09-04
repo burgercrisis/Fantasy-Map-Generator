@@ -6,7 +6,7 @@ import { Controllers } from "@/controllers";
 import type { River } from "@/generators/river-generator";
 import type { Point } from "@/generators/voronoi";
 import { speak } from "@/utils";
-import { ensureEl, findEl, getPointer, getSegmentId, rand, rn } from "../utils";
+import { ensureEl, findEl, getPointer, getSegmentId, rn } from "../utils";
 
 let selectedRiver: Selection<SVGElement, unknown, HTMLElement, unknown>;
 
@@ -283,7 +283,7 @@ function generateNameCulture(): void {
 
 function generateNameRandom(): void {
   const r = getRiver();
-  if (r) r.name = ensureEl<HTMLInputElement>("riverName").value = Names.getBase(rand(Names.nameBases.length - 1));
+  if (r) r.name = ensureEl<HTMLInputElement>("riverName").value = Names.getBase(Names.getRandomValidBaseIndex());
 }
 
 function changeParent(this: HTMLInputElement): void {

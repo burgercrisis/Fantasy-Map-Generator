@@ -147,6 +147,7 @@ optionsContent.addEventListener("change", event => {
   else if (id === "yearInput") changeYear();
   else if (id === "eraInput") changeEra();
   else if (id === "azgaarAssistant") toggleAssistant();
+  else if (id === "racesSet") updateFantasyCultureMax();
 });
 
 optionsContent.addEventListener("click", event => {
@@ -344,6 +345,19 @@ function getCellsDensityColor(cells) {
 
 function changeCultureSet() {
   const max = culturesSet.selectedOptions[0].dataset.max;
+  culturesInput.max = culturesOutput.max = max;
+  if (+culturesOutput.value > +max) culturesInput.value = culturesOutput.value = max;
+}
+
+function updateFantasyCultureMax() {
+  if (culturesSet.value !== "fantasy") return;
+  const racesSetEl = byId("racesSet");
+  const racesSetValue = racesSetEl ? racesSetEl.value : "all";
+  const filter = typeof getRacesSetFilter === "function" ? getRacesSetFilter(racesSetValue) : null;
+  const raceCount = filter ? filter.size : 40;
+  const max = raceCount + 1;
+  const fantasyOption = culturesSet.querySelector('option[value="fantasy"]');
+  if (fantasyOption) fantasyOption.dataset.max = String(max);
   culturesInput.max = culturesOutput.max = max;
   if (+culturesOutput.value > +max) culturesInput.value = culturesOutput.value = max;
 }
@@ -651,8 +665,7 @@ function randomizeCultureSet() {
     oriental: 2,
     english: 5,
     antique: 3,
-    highFantasy: 11,
-    darkFantasy: 3,
+    fantasy: 14,
     random: 1
   };
   culturesSet.value = rw(sets);

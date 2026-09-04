@@ -252,6 +252,7 @@ function addStylePreset() {
       "#compass > use": ["transform"],
       "#relig": ["opacity", "stroke", "stroke-width", "filter"],
       "#cults": ["opacity", "stroke", "stroke-width", "stroke-dasharray", "stroke-linecap", "filter"],
+      "#races": ["opacity", "stroke", "stroke-width", "stroke-dasharray", "stroke-linecap", "filter"],
       "#landmass": ["opacity", "fill", "filter"],
       "#markers": ["opacity", "rescale", "filter"],
       "#prec": ["opacity", "stroke", "stroke-width", "fill", "filter"],

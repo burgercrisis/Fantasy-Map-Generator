@@ -9,7 +9,7 @@ import { EmblemRenderer } from "@/renderers/emblems/renderer";
 import { getHeight, openURL, speak } from "@/utils";
 import { MAX_ZOOM, PAN_ZOOM_IDENTITY, type PanZoom, panBy, zoomAt } from "@/utils/panZoomUtils";
 import type { Burg } from "../generators/burgs-generator";
-import { convertTemperature, ensureEl, getPointer, getTemperatureLikeness, rand, rn } from "../utils";
+import { convertTemperature, ensureEl, getPointer, getTemperatureLikeness, rn } from "../utils";
 import type { PromptOptions } from "../utils/commonUtils";
 
 declare const prompt: (text: string, options: PromptOptions, callback: (value: string | number) => void) => void;
@@ -345,7 +345,7 @@ function changeName(): void {
 }
 
 function generateNameRandom(): void {
-  const base = rand(Names.nameBases.length - 1);
+  const base = Names.getRandomValidBaseIndex();
   ensureEl<HTMLInputElement>("burgName").value = Names.getBase(base);
   changeName();
 }

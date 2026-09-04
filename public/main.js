@@ -416,6 +416,14 @@ async function generate(options) {
 
     await GenerationPipeline.run({ seed: precreatedSeed, graph: precreatedGraph });
 
+    // Initialize race system and assign races to entities
+    if (typeof window.initializeRacesForExpansion === "function") {
+      window.initializeRacesForExpansion();
+    }
+    if (typeof window.assignRaces === "function") {
+      window.assignRaces();
+    }
+
     logStats();
     invokeActiveZooming();
   } catch (error) {

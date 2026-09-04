@@ -137,6 +137,7 @@ function selectStyleElement() {
       "icons",
       "lakes",
       "prec",
+      "races",
       "relig",
       "routes",
       "zones"
@@ -157,6 +158,7 @@ function selectStyleElement() {
       "gridOverlay",
       "legend",
       "population",
+      "races",
       "routes",
       "temperature",
       "zones"

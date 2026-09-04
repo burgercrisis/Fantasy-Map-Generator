@@ -1,10 +1,10 @@
 import { max as d3max, min as d3min, mean, median } from "d3";
 import { closeDialogs, destroyDialog } from "@/components/dialog/dialog-helpers";
 import { tip } from "@/components/tooltips";
+import type { NameBase } from "@/data/name-bases";
+import type { LanguageMixerCatalogEntry } from "@/generators/language-softmods";
 import { downloadFile, getFileName, speak, uploadFile } from "@/utils";
 import { ensureEl, openURL, rn, unique } from "../utils";
-import type { LanguageMixerCatalogEntry } from "@/generators/language-softmods";
-import type { NameBase } from "@/data/name-bases";
 
 /** Catalog entry as stored in language-mixes.json — extends the imported type with optional lexifier/subgroup. */
 type MixerCatalogEntry = LanguageMixerCatalogEntry & {
@@ -293,13 +293,7 @@ function getUsedNamebaseIndices(): Set<number> {
 
 function isMixerBase(base: NameBase): boolean {
   if (!base) return false;
-  const b = base as NameBase & {
-    cultureMixer?: boolean;
-    raceMixerFor?: unknown;
-    languageMixer?: boolean;
-    isoWeights?: unknown;
-  };
-  return Boolean(b.cultureMixer || b.raceMixerFor || b.languageMixer || b.isoWeights);
+  return Boolean(base.cultureMixer || base.raceMixerFor || base.languageMixer || base.isoWeights);
 }
 
 let showAllNamebases = false;
@@ -694,7 +688,7 @@ const mixer: MixerState = {
 };
 
 function clamp(value: number, min: number, max: number): number {
-  const v = isNaN(value) ? min : value;
+  const v = Number.isNaN(value) ? min : value;
   return Math.min(max, Math.max(min, v));
 }
 
@@ -707,7 +701,7 @@ function getRandomWeightNearOne(): number {
     raw = 1 + (u - 0.5) * 1.2;
   } else {
     const exp = Math.random() * 3;
-    raw = Math.pow(10, exp);
+    raw = 10 ** exp;
   }
 
   const value = Math.round(raw * 100) / 100;
@@ -800,7 +794,7 @@ async function loadMixerCatalog(): Promise<MixerCatalogEntry[]> {
   if (mixer.catalog) return mixer.catalog;
   if (window.languageMixerCatalog) {
     mixer.catalog = [...window.languageMixerCatalog].sort((a, b) =>
-      (a.region ?? "" + a.name).localeCompare(b.region ?? "" + b.name)
+      (a.region ?? `${a.name}`).localeCompare(b.region ?? `${b.name}`)
     );
     return mixer.catalog;
   }
@@ -810,7 +804,7 @@ async function loadMixerCatalog(): Promise<MixerCatalogEntry[]> {
     const res = await fetch(`./config/language-mixes.json?v=${version}`);
     if (!res.ok) throw new Error(res.statusText);
     const data = (await res.json()) as MixerCatalogEntry[];
-    mixer.catalog = data.sort((a, b) => (a.region ?? "" + a.name).localeCompare(b.region ?? "" + b.name));
+    mixer.catalog = data.sort((a, b) => (a.region ?? `${a.name}`).localeCompare(b.region ?? `${b.name}`));
     window.languageMixerCatalog = mixer.catalog;
   } catch (error) {
     tip("Cannot load language catalog. Please reload the app.", false, "error");
@@ -909,13 +903,11 @@ function renderMixerLanguageOptions(): void {
     options = options.filter(lang => lang.category === "Language isolate");
   } else if (selectedTagFilter === "unclassified") {
     options = options.filter(
-      lang =>
-        lang.category === "Unclassified" || (Array.isArray(lang.tags) && lang.tags.indexOf("unclassified") !== -1)
+      lang => lang.category === "Unclassified" || (Array.isArray(lang.tags) && lang.tags.indexOf("unclassified") !== -1)
     );
   } else if (selectedTagFilter === "hypothetical") {
     options = options.filter(
-      lang =>
-        lang.category === "Hypothetical" || (Array.isArray(lang.tags) && lang.tags.indexOf("hypothetical") !== -1)
+      lang => lang.category === "Hypothetical" || (Array.isArray(lang.tags) && lang.tags.indexOf("hypothetical") !== -1)
     );
   }
   options.forEach(lang => {
@@ -977,7 +969,7 @@ function renderMixerSelection(): void {
       const iso = (this.closest("tr") as HTMLTableRowElement).dataset.iso ?? "";
       const lang = mixer.languages.find(l => l.iso === iso);
       let value = parseFloat(this.value);
-      if (isNaN(value)) value = 1;
+      if (Number.isNaN(value)) value = 1;
       if (value <= 0) value = 0.01;
       if (value > 1000) value = 1000;
       value = Math.round(value * 100) / 100;
@@ -1047,18 +1039,18 @@ async function addRandomLanguageToMixFromFilters(): Promise<void> {
     options = options.filter(lang => lang.category === "Language isolate");
   } else if (selectedTagFilter === "unclassified") {
     options = options.filter(
-      lang =>
-        lang.category === "Unclassified" || (Array.isArray(lang.tags) && lang.tags.indexOf("unclassified") !== -1)
+      lang => lang.category === "Unclassified" || (Array.isArray(lang.tags) && lang.tags.indexOf("unclassified") !== -1)
     );
   } else if (selectedTagFilter === "hypothetical") {
     options = options.filter(
-      lang =>
-        lang.category === "Hypothetical" || (Array.isArray(lang.tags) && lang.tags.indexOf("hypothetical") !== -1)
+      lang => lang.category === "Hypothetical" || (Array.isArray(lang.tags) && lang.tags.indexOf("hypothetical") !== -1)
     );
   }
 
   const usedIsos = new Set(mixer.languages.map(l => l.iso));
-  options = options.filter(lang => !(Array.isArray(lang.tags) && lang.tags.includes("family")) && !usedIsos.has(lang.iso));
+  options = options.filter(
+    lang => !(Array.isArray(lang.tags) && lang.tags.includes("family")) && !usedIsos.has(lang.iso)
+  );
 
   if (!options.length) {
     return tip("No more matching languages to add for the current filters", false, "warn");
@@ -1175,8 +1167,9 @@ async function generateMixerNames(): Promise<void> {
       const meta = getMixerMeta(lang.iso);
       const pct = Math.round((lang.weight / totalWeight) * 100);
       const lexifier = meta?.lexifier ? `, lexifier ${meta.lexifier}` : "";
-      return `${meta?.name || lang.iso} (${pct}% mix, region ${meta?.region || "N/A"}, category ${meta?.category || "N/A"
-        }${lexifier})`;
+      return `${meta?.name || lang.iso} (${pct}% mix, region ${meta?.region || "N/A"}, category ${
+        meta?.category || "N/A"
+      }${lexifier})`;
     })
     .join("; ");
 
@@ -1311,7 +1304,16 @@ function insertMixerNamesIntoBase(): void {
     const m = typeof sourceBase?.m === "number" ? sourceBase.m : 0;
     const b = uniqueNewNames.join(", ");
 
-    const newBase: NameBase & { languageMixer?: boolean } = { name: baseName, i: base, min, max, d, m, b, languageMixer: true };
+    const newBase: NameBase & { languageMixer?: boolean } = {
+      name: baseName,
+      i: base,
+      min,
+      max,
+      d,
+      m,
+      b,
+      languageMixer: true
+    };
     Names.nameBases.push(newBase);
     if (typeof window.refreshDefaultNameBaseIds === "function") window.refreshDefaultNameBaseIds();
 
@@ -1326,9 +1328,9 @@ function insertMixerNamesIntoBase(): void {
 
   const existing = textarea.value
     ? textarea.value
-      .split(",")
-      .map(n => n.trim())
-      .filter(Boolean)
+        .split(",")
+        .map(n => n.trim())
+        .filter(Boolean)
     : [];
 
   const combined = mode === "replace" ? names : [...existing, ...names];
@@ -1344,7 +1346,7 @@ function parseMixerNames(text: string): string[] {
   return text
     .split(/\r?\n|,/)
     .map(n => n.trim())
-    .map(n => n.replace(/^[\d\.\-\)\(]+/, ""))
+    .map(n => n.replace(/^[\d.\-)(]+/, ""))
     .filter(n => n.length > 1);
 }
 
@@ -1400,7 +1402,7 @@ function initMixerAiControls(): void {
     }
 
     const temperatureNumber = mixerAiTemperatureInput.valueAsNumber;
-    if (!isNaN(temperatureNumber)) {
+    if (!Number.isNaN(temperatureNumber)) {
       localStorage.setItem("fmg-ai-temperature", String(temperatureNumber));
     }
 
@@ -1450,7 +1452,14 @@ function getStoredAiWebAccess(): boolean {
   return localStorage.getItem("fmg-ai-web-access") === "1";
 }
 
-async function requestAiCompletion({ key, model, prompt, temperature, webAccess, onContent }: GenerationOptions): Promise<void> {
+async function requestAiCompletion({
+  key,
+  model,
+  prompt,
+  temperature,
+  webAccess,
+  onContent
+}: GenerationOptions): Promise<void> {
   const provider = MODELS[model];
   if (!provider || !PROVIDERS[provider]) throw new Error(`Unsupported model: ${model}`);
 
@@ -1532,7 +1541,13 @@ async function generateWithAnthropic({ key, model, prompt, temperature, onConten
   await handleStream(response, getContent);
 }
 
-async function generateWithOllama({ key, model: _model, prompt, temperature, onContent }: GenerationOptions): Promise<void> {
+async function generateWithOllama({
+  key,
+  model: _model,
+  prompt,
+  temperature,
+  onContent
+}: GenerationOptions): Promise<void> {
   void _model;
   const response = await fetch("http://localhost:11434/api/generate", {
     method: "POST",
@@ -1558,7 +1573,10 @@ async function handleStream(response: Response, getContent: (json: StreamChunk) 
     let errorMessage = `Failed to generate (${response.status} ${response.statusText})`;
     try {
       const json = (await response.json()) as { error?: { message?: string } | string };
-      errorMessage = (typeof json.error === "object" && json.error?.message) || (typeof json.error === "string" && json.error) || errorMessage;
+      errorMessage =
+        (typeof json.error === "object" && json.error?.message) ||
+        (typeof json.error === "string" && json.error) ||
+        errorMessage;
     } catch (error) {
       ERROR && console.error("Failed to parse AI provider error response", error);
     }

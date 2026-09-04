@@ -8,7 +8,7 @@ import { Coastline } from "@/generators/coastline-generator";
 import type { Feature } from "@/generators/features";
 import { GraphOverride } from "@/generators/graph-override";
 import { getArea, getAreaUnit, speak } from "@/utils";
-import { ensureEl, findEl, rand, rn, si, unique } from "../utils";
+import { ensureEl, findEl, rn, si, unique } from "../utils";
 import { getHeight } from "../utils/unitUtils";
 
 let selectedLake: Selection<SVGElement, unknown, HTMLElement, unknown>;
@@ -211,7 +211,7 @@ function generateNameCulture(): void {
 
 function generateNameRandom(): void {
   const lake = getLake();
-  lake.name = ensureEl<HTMLInputElement>("lakeName").value = Names.getBase(rand(Names.nameBases.length - 1));
+  lake.name = ensureEl<HTMLInputElement>("lakeName").value = Names.getBase(Names.getRandomValidBaseIndex());
 }
 
 const isLakeType = (group: string) => Layers.get("lakes").children.some(child => child.id === group);

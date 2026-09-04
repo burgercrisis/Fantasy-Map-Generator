@@ -23,7 +23,7 @@ import { EmblemRenderer } from "@/renderers/emblems/renderer";
 import { fog, unfog } from "@/renderers/overlays/fogging";
 import { highlightElement } from "@/renderers/overlays/highlight";
 import { applyOption, downloadFile, getArea, getAreaUnit, getFileName, speak } from "@/utils";
-import { ensureEl, findEl, getPointer, getRandomColor, isLand, P, rand, rn, si, unique } from "../utils";
+import { ensureEl, findEl, getPointer, getRandomColor, isLand, P, rn, si, unique } from "../utils";
 
 const dialogId = "provincesEditor" as const;
 const position = { my: "right top", at: "right-10 top+10", of: "svg", collision: "fit" };
@@ -810,7 +810,7 @@ function regenerateShortNameCulture(): void {
 }
 
 function regenerateShortNameRandom(): void {
-  const base = rand(Names.nameBases.length - 1);
+  const base = Names.getRandomValidBaseIndex();
   const name = Names.getState(Names.getBase(base), undefined as unknown as number, base);
   ensureEl<HTMLInputElement>("provinceNameEditorShort").value = name;
 }

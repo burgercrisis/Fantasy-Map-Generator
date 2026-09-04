@@ -187,7 +187,7 @@ const onZoom = debounce(function () {
 const zoom = d3.zoom().scaleExtent([1, 20]).on("zoom", onZoom);
 
 // default options, based on Earth data
-let options = {
+window.options = Object.assign(window.options || {}, {
   pinNotes: false,
   winds: [225, 45, 225, 315, 135, 315],
   temperatureEquator: 27,
@@ -196,7 +196,8 @@ let options = {
   stateLabelsMode: "auto",
   showBurgPreview: true,
   villageMaxPopulation: 2000
-};
+});
+const options = window.options;
 
 let mapCoordinates = {}; // map coordinates on globe
 let populationRate = +byId("populationRateInput").value;
@@ -1239,8 +1240,7 @@ function showStatistics() {
 
 function isFantasyCulturesSet() {
   const culturesSetElement = byId("culturesSet");
-  const culturesSetValue = culturesSetElement ? culturesSetElement.value : null;
-  return culturesSetValue === "highFantasy" || culturesSetValue === "darkFantasy";
+  return culturesSetElement ? culturesSetElement.value === "fantasy" : false;
 }
 
 const regenerateMap = debounce(async function (options) {

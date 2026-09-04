@@ -509,6 +509,7 @@
             <option value="population">Population</option>
             <option value="prec">Precipitation</option>
             <option value="provs">Provinces</option>
+            <option value="races">Races</option>
             <option value="terrain">Relief Icons</option>
             <option value="relig">Religions</option>
             <option value="rivers">Rivers</option>
@@ -1405,13 +1406,61 @@
                   <option value="oriental" data-max="13">Oriental</option>
                   <option value="english" data-max="10">English</option>
                   <option value="antique" data-max="10">Antique</option>
-                  <option value="highFantasy" data-max="17">High Fantasy</option>
-                  <option value="darkFantasy" data-max="18">Dark Fantasy</option>
+                  <option value="fantasy" data-max="42">Fantasy</option>
                   <option value="random" data-max="100">Random</option>
                 </select>
               </td>
               <td></td>
             </tr>
+             <tr data-tip="Control language mixer usage for culture name generation. On: always mix languages. Off: use preset namebases only. Random: 50/50 chance per culture. Humans only: mix only for fantasy races, humans use preset namebases">
+              <td>
+                <i data-locked="0" id="lock_languageMixer" class="icon-lock-open"></i>
+              </td>
+              <td>Language mixer</td>
+              <td>
+                <select id="languageMixer" data-stored="languageMixer">
+                  <option value="on" selected>On</option>
+                  <option value="off">Off</option>
+                  <option value="random">Random</option>
+                  <option value="humans">Humans only</option>
+                </select>
+              </td>
+              <td></td>
+            </tr>
+            <tr data-tip="Select which fantasy races are available for new maps (fantasy culture sets only)">
+              <td>
+                <i data-locked="0" id="lock_racesSet" class="icon-lock-open"></i>
+              </td>
+              <td>Races set</td>
+              <td>
+                <select id="racesSet" data-stored="racesSet">
+                  <option value="all" selected>All fantasy races</option>
+                  <option value="classic">Classic fantasy</option>
+                  <option value="dark">Dark &amp; monstrous</option>
+                  <option value="primal">Primal &amp; wilderness</option>
+                </select>
+              </td>
+              <td></td>
+            </tr>
+             <tr data-tip="Define maximum number of non-Human races to be generated (fantasy culture sets only)">
+              <td>
+                <i data-locked="0" id="lock_racesNumber" class="icon-lock-open"></i>
+              </td>
+              <td>Races number</td>
+              <td colspan="2">
+                 <slider-input id="racesNumber" data-stored="racesNumber" min="0" max="50" value="0"></slider-input>
+              </td>
+            </tr>
+            <tr data-tip="Probability that a culture will be non-Human (0 = all Human, 100 = all non-Human)">
+              <td>
+                <i data-locked="0" id="lock_racesNonHumanChance" class="icon-lock-open"></i>
+              </td>
+              <td>Non-Human chance</td>
+              <td colspan="2">
+                 <slider-input id="racesNonHumanChance" data-stored="racesNonHumanChance" min="0" max="100" value="35" unit="%"></slider-input>
+              </td>
+            </tr>
+            <tr><td></td></tr>
             <tr data-tip="Define how many states and capitals should be generated">
               <td>
                 <i data-locked="0" id="lock_statesNumber" class="icon-lock-open"></i>
@@ -1749,6 +1798,9 @@
             <button id="editCulturesButton" data-tip="Click to open Cultures Editor" data-shortcut="Shift + C">
               Cultures
             </button>
+            <button id="editRacesButton" data-tip="Click to open Races Editor" data-shortcut="Shift + X">
+              Races
+            </button>
             <button
               id="editDiplomacyButton"
               data-tip="Click to open Diplomatical relationships Editor"
@@ -1820,6 +1872,7 @@
               Burgs
             </button>
             <button id="regenerateCultures" data-tip="Click to regenerate non-locked cultures">Cultures</button>
+            <button id="regenerateRaces" data-tip="Click to regenerate races distribution">Races</button>
             <button
               id="regenerateEconomy"
               data-tip="Rebuild market territories, production, trade deals, and taxes from the current goods and markets"
@@ -5158,6 +5211,18 @@
     <script src="libs/flatqueue.js"></script>
     <script src="libs/delaunator.min.js"></script>
     <script src="libs/indexedDB.js?v=84a8bb23"></script>
+    <script src="config/language-mixes-all.js?v=1.0.0"></script>
+    <script src="config/language-mixer-map.js?v=1.0.0"></script>
+    <script src="config/language-mixer-culture-sets.js?v=1.0.0"></script>
+    <script src="modules/namebases-africa.js?v=1.109.7"></script>
+    <script src="modules/namebases-asia.js?v=1.109.7"></script>
+    <script src="modules/namebases-europe.js?v=1.109.7"></script>
+    <script src="modules/namebases-northAmerica.js?v=1.0.0"></script>
+    <script src="modules/namebases-oceania.js?v=1.109.7"></script>
+    <script src="modules/namebases-southAmerica.js?v=1.109.7"></script>
+    <script src="modules/namebases-fantasy.js?v=1.109.7"></script>
+    <script src="modules/namebases-research.js?v=1.0.0"></script>
+    <script src="modules/namebases-all.js?v=1.0.0"></script>
     <script type="module" src="components/index.ts"></script>
     <script type="module" src="data/supporters.ts"></script>
     <script type="module" src="data/view-3d-options.ts"></script>

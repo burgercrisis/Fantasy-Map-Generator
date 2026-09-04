@@ -13,6 +13,10 @@ declare global {
   var initializeRacesForExpansion: ((options?: { forceFilterFromUi?: boolean }) => void) | undefined;
   var assignRaces: (() => void) | undefined;
   var refreshAllEditors: (() => void) | undefined;
+  var toggleRaces: ((event?: Event) => void) | undefined;
+  var editRaces: (() => void) | undefined;
+  var drawRaces: (() => void) | undefined;
+  var regenerateRaces: (() => void) | undefined;
 }
 
 ensureEl("toolsContent").addEventListener("click", event => {
@@ -279,3 +283,30 @@ function regenerateZones(event: MouseEvent): void {
     applyZonesRegeneration(Number(value))
   );
 }
+
+// Expose race UI functions to legacy JS (public/modules/ui/options.js)
+window.toggleRaces = () => {
+  const isOn = Layers.isOn("races");
+  if (isOn) Layers.hide("races");
+  else Layers.show("races");
+};
+window.editRaces = () => window.Controllers.RacesEditor.open();
+window.drawRaces = drawRaces;
+window.regenerateRaces = regenerateRaces;
+
+// Refresh all open editors (faithful to original editors.js)
+window.refreshAllEditors = (): void => {
+  const editors = [
+    "culturesEditorRefresh",
+    "biomesEditorRefresh",
+    "diplomacyEditorRefresh",
+    "provincesEditorRefresh",
+    "religionsEditorRefresh",
+    "statesEditorRefresh",
+    "zonesEditorRefresh"
+  ];
+  for (const id of editors) {
+    const el = document.getElementById(id);
+    if (el && el.offsetParent) (el as HTMLButtonElement).click();
+  }
+};

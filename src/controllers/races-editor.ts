@@ -1,14 +1,13 @@
 import { csvParse, select } from "d3";
 import { closeDialogs } from "@/components/dialog/dialog-helpers";
-import { applySortingByHeader, applySorting } from "@/components/dialog/sorting";
+import { applySorting, applySortingByHeader } from "@/components/dialog/sorting";
 import type { FillBoxElement } from "@/components/fill-box";
-import { clearLegend, drawLegend } from "@/renderers/draw-legend";
+import { Layers } from "@/components/layers";
 import { tip } from "@/components/tooltips";
 import { Controllers } from "@/controllers";
-import { Layers } from "@/components/layers";
 import { drawCultures } from "@/renderers/draw-cultures";
-import { downloadFile, getArea, getAreaUnit, getFileName, getRandomColor } from "@/utils";
-import { ensureEl, rn, si } from "@/utils";
+import { clearLegend, drawLegend } from "@/renderers/draw-legend";
+import { downloadFile, ensureEl, getArea, getAreaUnit, getFileName, getRandomColor, rn, si } from "@/utils";
 
 // Race entity type (custom to this fork; no upstream equivalent)
 interface Race {
@@ -39,7 +38,6 @@ declare global {
   var assignRaces: (() => void) | undefined;
   var drawRaces: (() => void) | undefined;
   var refreshAllEditors: (() => void) | undefined;
-  var fitContent: () => string;
 }
 
 const dialogId = "racesEditor" as const;
@@ -54,7 +52,7 @@ export function open(): void {
 
   const races = (pack as unknown as { races?: Race[] }).races;
   if (!pack || !races || races.length <= 1) {
-    alertMessage.innerHTML = /* html */ `No races are defined for this map. Races are only available for High Fantasy and Dark Fantasy culture sets.`;
+    alertMessage.innerHTML = /* html */ `No races are defined for this map. Races are only available for the Fantasy culture set.`;
     $("#alert").dialog({
       resizable: false,
       title: "Races Editor",
@@ -301,7 +299,7 @@ function racesEditorAddLines(stats: RaceStats[]): void {
             if (isoWeights && typeof isoWeights === "object") {
               approxCount = Object.keys(isoWeights).length;
             }
-          } catch (e) {
+          } catch (_e) {
             // ignore errors from the language weight lookup
           }
         }
@@ -365,12 +363,12 @@ function racesEditorAddLines(stats: RaceStats[]): void {
   });
   $body.querySelectorAll("fill-box").forEach($el => $el.addEventListener("click", raceChangeColor));
   $body.querySelectorAll("div > input.raceName").forEach($el => $el.addEventListener("input", raceChangeName));
-  $body.querySelectorAll("div > input.raceExpansion").forEach($el =>
-    $el.addEventListener("change", raceChangeExpansion)
-  );
+  $body
+    .querySelectorAll("div > input.raceExpansion")
+    .forEach($el => $el.addEventListener("change", raceChangeExpansion));
 
   applySorting(ensureEl("racesHeader"));
-  $(`#${dialogId}`).dialog({ width: fitContent() });
+  $(`#${dialogId}`).dialog({ width: "fit-content" });
 }
 
 function selectRaceOnLineClick(): void {}
@@ -402,7 +400,7 @@ function raceChangeExpansion(this: HTMLInputElement): void {
   (this.parentNode as HTMLElement).dataset.expansionism = String(v);
   const races = (pack as unknown as { races?: Race[] }).races;
   if (!races || !races[raceId]) return;
-  races[raceId].expansionism = isNaN(v) ? 1 : v;
+  races[raceId].expansionism = Number.isNaN(v) ? 1 : v;
 }
 
 function toggleRacesLegend(): void {
@@ -422,11 +420,9 @@ function toggleRacesPercentageMode(): void {
 
     $body.querySelectorAll(":scope > div").forEach(el => {
       const { area, population } = (el as HTMLElement).dataset;
-      if (totalArea)
-        el.querySelector<HTMLElement>(".raceArea")!.innerText = rn((+area! / totalArea) * 100) + "%";
+      if (totalArea) el.querySelector<HTMLElement>(".raceArea")!.innerText = `${rn((+area! / totalArea) * 100)}%`;
       if (totalPopulation)
-        el.querySelector<HTMLElement>(".racePopulation")!.innerText =
-          rn((+population! / totalPopulation) * 100) + "%";
+        el.querySelector<HTMLElement>(".racePopulation")!.innerText = `${rn((+population! / totalPopulation) * 100)}%`;
     });
   } else {
     $body.dataset.type = "absolute";
@@ -454,7 +450,7 @@ function downloadRacesCsv(): void {
     .map(r => [r.i, r.name, r.color || "", r.expansionism ?? 1].join(","));
 
   const csvData = [headers].concat(lines).join("\n");
-  const name = getFileName("Races") + ".csv";
+  const name = `${getFileName("Races")}.csv`;
   downloadFile(csvData, name);
 }
 
@@ -485,7 +481,7 @@ async function uploadRacesData(this: HTMLInputElement): Promise<void> {
 
     if (row.name) race.name = row.name;
     if (row.color) race.color = row.color;
-    if (!isNaN(row.expansionism)) race.expansionism = row.expansionism;
+    if (!Number.isNaN(row.expansionism)) race.expansionism = row.expansionism;
     else if (race.expansionism === undefined) race.expansionism = 1;
   });
 
@@ -509,7 +505,7 @@ function recalculateRaces(): void {
   }
 
   // Force rebuild of cell-level races as cultures may have shifted.
-  const cells = (pack.cells as unknown as { race?: Uint16Array });
+  const cells = pack.cells as unknown as { race?: Uint16Array };
   if (pack && cells) delete cells.race;
 
   if (typeof assignRaces === "function") assignRaces();
@@ -536,14 +532,12 @@ function regenerateRaces(): void {
   }
 
   if (pack.states) pack.states.forEach(s => s && delete (s as unknown as { race?: number }).race);
-  if (pack.provinces)
-    pack.provinces.forEach(p => p && delete (p as unknown as { race?: number }).race);
+  if (pack.provinces) pack.provinces.forEach(p => p && delete (p as unknown as { race?: number }).race);
   if (pack.burgs) pack.burgs.forEach(b => b && delete (b as unknown as { race?: number }).race);
-  if (pack.religions)
-    pack.religions.forEach(r => r && delete (r as unknown as { race?: number }).race);
+  if (pack.religions) pack.religions.forEach(r => r && delete (r as unknown as { race?: number }).race);
 
   // Force rebuild of cell-level race layer.
-  const cells = (pack.cells as unknown as { race?: Uint16Array });
+  const cells = pack.cells as unknown as { race?: Uint16Array };
   delete cells.race;
 
   // Reroll per-culture race assignment (so distribution actually changes).
@@ -581,7 +575,8 @@ function updateCellRacesFromCultures(): void {
   for (const i of cells.i) {
     const cultureId = cells.culture[i];
     const culture = cultures[cultureId];
-    const raceId = culture && (culture as unknown as { race?: number }).race ? (culture as unknown as { race?: number }).race! : 0;
+    const raceId =
+      culture && (culture as unknown as { race?: number }).race ? (culture as unknown as { race?: number }).race! : 0;
     raceArray[i] = raceId;
   }
 
@@ -589,7 +584,11 @@ function updateCellRacesFromCultures(): void {
 }
 
 function enterRacesManualAssignment(): void {
-  tip("Race manual reassignment by brush is not implemented yet. Please use Race-related columns in other editors.", false, "info");
+  tip(
+    "Race manual reassignment by brush is not implemented yet. Please use Race-related columns in other editors.",
+    false,
+    "info"
+  );
 }
 
 export const RacesEditor = { open };

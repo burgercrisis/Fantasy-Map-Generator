@@ -89,6 +89,14 @@
     "stroke-linecap": null,
     "filter": null
   },
+  "#races": {
+    "opacity": 0.6,
+    "stroke": "#777777",
+    "stroke-width": 0.5,
+    "stroke-dasharray": null,
+    "stroke-linecap": null,
+    "filter": null
+  },
   "#landmass": {
     "opacity": 1,
     "fill": "#eef6fb",
