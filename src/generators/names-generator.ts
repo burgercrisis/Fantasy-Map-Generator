@@ -2,9 +2,26 @@ import { tip } from "@/components/tooltips";
 import { getDefaultNameBases, type NameBase } from "@/data/name-bases";
 import { stored, unlock } from "@/utils/preferences";
 import { capitalize, isVowel, last, P, ra, rand } from "../utils";
+import { fantasyRaceBases } from "./races";
+
+// Pre-computed set of all fantasy race base indices for efficient lookup in getState()
+const fantasyBaseIndexSet = new Set<number>();
+for (const bases of Object.values(fantasyRaceBases)) {
+  if (Array.isArray(bases)) {
+    for (const b of bases) {
+      if (typeof b === "number") fantasyBaseIndexSet.add(b);
+    }
+  }
+}
 
 declare global {
   var Names: NamesGenerator;
+}
+
+/** Minimal culture reference for namebase lookup (avoids circular import of Culture type) */
+interface CultureRef {
+  base?: number;
+  removed?: boolean;
 }
 
 // Markov chain lookup table: key is a letter (or empty string for word start), value is array of possible next syllables
@@ -96,12 +113,27 @@ class NamesGenerator {
       return "ERROR";
     }
 
-    if (this.nameBases[base] === undefined) {
-      if (this.nameBases[0]) {
-        WARN && console.warn(`Namebase ${base} is not found. First available namebase will be used`);
-        base = 0;
+    // Check if the base is valid (has name data)
+    const isValidBase = (b: number) => {
+      return (
+        this.nameBases[b] &&
+        this.nameBases[b].b &&
+        this.nameBases[b].b.length > 0
+      );
+    };
+
+    if (!isValidBase(base)) {
+      // Find the first valid namebase as fallback
+      const fallbackBase = this.nameBases.findIndex((b, i) => b && b.b && b.b.length > 0);
+      if (fallbackBase >= 0) {
+        if (this.nameBases[base] === undefined) {
+          WARN && console.warn(`Namebase ${base} is not found. Using fallback namebase ${fallbackBase}`);
+        } else {
+          WARN && console.warn(`Namebase ${base} has invalid data. Using fallback namebase ${fallbackBase}`);
+        }
+        base = fallbackBase;
       } else {
-        ERROR && console.error(`Namebase ${base} is not found`);
+        ERROR && console.error(`Namebase ${base} is not found and no valid fallback exists`);
         return "ERROR";
       }
     }
@@ -110,9 +142,16 @@ class NamesGenerator {
 
     const data = this.chains[base];
     if (!data || data[""] === undefined) {
-      tip(`Namesbase ${base} is incorrect. Please check in namesbase editor`, false, "error");
-      ERROR && console.error(`Namebase ${base} is incorrect!`);
-      return "ERROR";
+      // Chain generation failed - try fallback
+      const fallbackBase = this.nameBases.findIndex((b, i) => b && b.b && b.b.length > 0 && i !== base && this.chains[i] && this.chains[i] && this.chains[i][""] !== undefined);
+      if (fallbackBase >= 0) {
+        WARN && console.warn(`Namebase ${base} chain is invalid. Using fallback namebase ${fallbackBase}`);
+        base = fallbackBase;
+      } else {
+        tip(`Namesbase ${base} is incorrect. Please check in namesbase editor`, false, "error");
+        ERROR && console.error(`Namebase ${base} is incorrect!`);
+        return "ERROR";
+      }
     }
 
     if (!min) min = this.nameBases[base].min;
@@ -165,8 +204,25 @@ class NamesGenerator {
         .join("");
 
     if (name.length < 2) {
-      ERROR && console.error("Name is too short! Random name will be selected");
-      name = ra(this.nameBases[base].b.split(","));
+      // Name is too short - try to pick a random name from the base
+      const baseNames = this.nameBases[base].b.split(",").filter(n => n.trim().length >= 2);
+      if (baseNames.length > 0) {
+        name = ra(baseNames);
+      } else {
+        // Base has no valid names - try fallback bases
+        for (let i = 0; i < this.nameBases.length; i++) {
+          if (i === base || !this.nameBases[i] || !this.nameBases[i].b) continue;
+          const fallbackNames = this.nameBases[i].b.split(",").filter(n => n.trim().length >= 2);
+          if (fallbackNames.length > 0) {
+            WARN && console.warn(`Namebase ${base} produced too short name. Using fallback namebase ${i}`);
+            name = ra(fallbackNames);
+            break;
+          }
+        }
+      }
+      if (name.length < 2) {
+        ERROR && console.error("Name is too short! Random name will be selected");
+      }
     }
 
     name = this.sanitizeName(name);
@@ -251,8 +307,8 @@ class NamesGenerator {
 
     // no suffix for fantasy bases and race mixer bases
     const baseEntry = this.nameBases[base];
-    const baseName = baseEntry && typeof baseEntry.name === "string" ? baseEntry.name : "";
-    if ((base > 32 && base < 42) || /^Race\s+.+\s+\(Mixer\)$/.test(baseName)) return name;
+    const isFantasyBase = baseEntry && (baseEntry.raceMixerFor || fantasyBaseIndexSet.has(base));
+    if (isFantasyBase) return name;
 
     // define if suffix should be used
     if (name.length > 3 && isVowel(name.slice(-1))) {
@@ -309,7 +365,10 @@ class NamesGenerator {
   getMapName(force: boolean) {
     if (!force && stored("mapName")) return;
     if (force && stored("mapName")) unlock("mapName");
-    const base = P(0.7) ? 2 : P(0.5) ? rand(0, 6) : rand(0, 31);
+
+    const base = this.pickMapNameBase();
+    if (base === undefined) return;
+
     if (!this.nameBases[base]) {
       tip("Namebase is not found", false, "error");
       return "";
@@ -324,8 +383,43 @@ class NamesGenerator {
     mapName.value = name;
   }
 
+  /**
+   * Pick a namebase for the map name from bases currently in use by cultures
+   * on the map. This includes both built-in and mixer-generated bases.
+   * Falls back to the classic random selection if no cultures exist.
+   */
+  private pickMapNameBase(): number | undefined {
+    const cultures = (pack as unknown as { cultures?: CultureRef[] }).cultures;
+    if (Array.isArray(cultures)) {
+      const inUse = new Set<number>();
+      for (const culture of cultures) {
+        if (!culture || culture.removed || typeof culture.base !== "number") continue;
+        if (this.nameBases[culture.base]) inUse.add(culture.base);
+      }
+      if (inUse.size > 0) {
+        const bases = Array.from(inUse);
+        return bases[rand(bases.length - 1)];
+      }
+    }
+
+    // Fallback: classic random selection (no cultures on map)
+    return P(0.7) ? 2 : P(0.5) ? rand(0, 6) : rand(0, 31);
+  }
+
   getNameBases(): NameBase[] {
     return getDefaultNameBases();
+  }
+
+  /**
+   * Returns a random valid namebase index, accounting for sparse array gaps.
+   * Uses defaultNameBaseIds if available, otherwise falls back to array length.
+   */
+  getRandomValidBaseIndex(): number {
+    const validBaseIds = (window as unknown as { defaultNameBaseIds?: number[] }).defaultNameBaseIds;
+    if (Array.isArray(validBaseIds) && validBaseIds.length > 0) {
+      return validBaseIds[rand(validBaseIds.length - 1)];
+    }
+    return rand(this.nameBases.length - 1);
   }
 
   /**
@@ -371,19 +465,17 @@ class NamesGenerator {
     // pack.cells.race and pack.races are runtime-only (set by races.ts) and
     // not part of the static PackedGraph type, so access via a narrow cast.
     const packCells = (pack as unknown as { cells: { race?: number[] } }).cells;
-    const raceId =
-      packCells && packCells.race && typeof packCells.race[cell] === "number" ? packCells.race[cell]! : 0;
+    const raceId = packCells && packCells.race && typeof packCells.race[cell] === "number" ? packCells.race[cell]! : 0;
     if (!raceId) return cultureBase;
 
     const packRaces = (pack as unknown as { races: { name?: string }[] }).races;
     const raceName =
-      packRaces && packRaces[raceId] && typeof packRaces[raceId].name === "string"
-        ? packRaces[raceId].name
-        : "";
+      packRaces && packRaces[raceId] && typeof packRaces[raceId].name === "string" ? packRaces[raceId].name : "";
     if (!raceName || raceName === "None") return cultureBase;
 
-    const ensureRaceMixerBaseIndex = (window as unknown as { ensureRaceMixerBaseIndex?: (raceName: string) => number | null })
-      .ensureRaceMixerBaseIndex;
+    const ensureRaceMixerBaseIndex = (
+      window as unknown as { ensureRaceMixerBaseIndex?: (raceName: string) => number | null }
+    ).ensureRaceMixerBaseIndex;
     if (typeof ensureRaceMixerBaseIndex === "function") {
       const base = ensureRaceMixerBaseIndex(raceName);
       if (typeof base === "number") return base;

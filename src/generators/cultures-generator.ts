@@ -1,8 +1,8 @@
 import { max, quadtree, range } from "d3";
 import { Emblems } from "@/generators/emblems-generator";
-import { abbreviate, biased, ensureEl, getColors, getRandomColor, minmax, P, rand, rn, rw } from "../utils";
-import { last } from "@/utils/arrayUtils";
 import type { LanguageMixerCatalogEntry } from "@/generators/language-softmods";
+import { last } from "@/utils/arrayUtils";
+import { abbreviate, biased, ensureEl, getColors, getRandomColor, minmax, P, rand, rn, rw } from "../utils";
 
 declare global {
   var Cultures: CulturesGenerator;
@@ -12,6 +12,9 @@ declare global {
    * class; declared here so the culture mixer can call it without `any`.
    */
   var getRaceNameForCulture: ((culture: Culture) => string | null) | undefined;
+  var getRacesSetFilter: ((value: string) => Set<string> | null) | undefined;
+  var getRaceCultureProps: ((raceName: string) => { base: number; shield: string; odd: number } | null) | undefined;
+  var rerollRacesForCultures: ((options?: { forceFilterFromUi?: boolean }) => void) | undefined;
 }
 
 export interface Culture {
@@ -408,382 +411,57 @@ class CulturesGenerator {
       ];
     }
 
-    if (culturesSet.value === "highFantasy") {
-      return [
-        // fantasy races
-        {
-          name: "Quenian (Elfish)",
-          base: 33,
-          odd: 1,
-          sort: (i: number) => (n(i) / bd(i, [6, 7, 8, 9], 10)) * t[i],
-          shield: "gondor"
-        }, // Elves
-        {
-          name: "Eldar (Elfish)",
-          base: 33,
-          odd: 1,
-          sort: (i: number) => (n(i) / bd(i, [6, 7, 8, 9], 10)) * t[i],
-          shield: "noldor"
-        }, // Elves
-        {
-          name: "Trow (Dark Elfish)",
-          base: 34,
-          odd: 0.9,
-          sort: (i: number) => (n(i) / bd(i, [7, 8, 9, 12], 10)) * t[i],
-          shield: "hessen"
-        }, // Dark Elves
-        {
-          name: "Lothian (Dark Elfish)",
-          base: 34,
-          odd: 0.3,
-          sort: (i: number) => (n(i) / bd(i, [7, 8, 9, 12], 10)) * t[i],
-          shield: "wedged"
-        }, // Dark Elves
-        {
-          name: "Dunirr (Dwarven)",
-          base: 35,
-          odd: 1,
-          sort: (i: number) => n(i) + h[i],
-          shield: "ironHills"
-        }, // Dwarfs
-        {
-          name: "Khazadur (Dwarven)",
-          base: 35,
-          odd: 1,
-          sort: (i: number) => n(i) + h[i],
-          shield: "erebor"
-        }, // Dwarfs
-        {
-          name: "Kobold (Goblin)",
-          base: 36,
-          odd: 1,
-          sort: (i: number) => t[i] - s[i],
-          shield: "moriaOrc"
-        }, // Goblin
-        {
-          name: "Uruk (Orkish)",
-          base: 37,
-          odd: 1,
-          sort: (i: number) => h[i] * t[i],
-          shield: "urukHai"
-        }, // Orc
-        {
-          name: "Ugluk (Orkish)",
-          base: 37,
-          odd: 0.5,
-          sort: (i: number) => (h[i] * t[i]) / bd(i, [1, 2, 10, 11]),
-          shield: "moriaOrc"
-        }, // Orc
-        {
-          name: "Yotunn (Giants)",
-          base: 38,
-          odd: 0.7,
-          sort: (i: number) => td(i, -10),
-          shield: "pavise"
-        }, // Giant
-        {
-          name: "Rake (Drakonic)",
-          base: 39,
-          odd: 0.7,
-          sort: (i: number) => -s[i],
-          shield: "fantasy2"
-        }, // Draconic
-        {
-          name: "Arago (Arachnid)",
-          base: 40,
-          odd: 0.7,
-          sort: (i: number) => t[i] - s[i],
-          shield: "horsehead2"
-        }, // Arachnid
-        {
-          name: "Aj'Snaga (Serpents)",
-          base: 41,
-          odd: 0.7,
-          sort: (i: number) => n(i) / bd(i, [12], 10),
-          shield: "fantasy1"
-        }, // Serpents
-        // fantasy human
-        {
-          name: "Anor (Human)",
-          base: 32,
-          odd: 1,
-          sort: (i: number) => n(i) / td(i, 10),
-          shield: "fantasy5"
-        },
-        {
-          name: "Dail (Human)",
-          base: 32,
-          odd: 1,
-          sort: (i: number) => n(i) / td(i, 13),
-          shield: "roman"
-        },
-        {
-          name: "Rohand (Human)",
-          base: 16,
-          odd: 1,
-          sort: (i: number) => n(i) / td(i, 16),
-          shield: "round"
-        },
-        {
-          name: "Dulandir (Human)",
-          base: 31,
-          odd: 1,
-          sort: (i: number) => (n(i) / td(i, 5) / bd(i, [2, 4, 10], 7)) * t[i],
-          shield: "easterling"
-        }
-      ];
-    }
+    if (culturesSet.value === "fantasy" || culturesSet.value === "highFantasy" || culturesSet.value === "darkFantasy") {
+      const racesSetEl = document.getElementById("racesSet") as HTMLSelectElement | null;
+      const racesSetValue = racesSetEl ? racesSetEl.value : "all";
+      const filter = typeof getRacesSetFilter === "function" ? getRacesSetFilter(racesSetValue) : null;
 
-    if (culturesSet.value === "darkFantasy") {
-      return [
-        // common real-world English
-        {
-          name: "Angshire",
-          base: 1,
-          odd: 1,
-          sort: (i: number) => n(i) / td(i, 10) / sf(i),
-          shield: "heater"
-        },
-        {
-          name: "Enlandic",
-          base: 1,
-          odd: 1,
-          sort: (i: number) => n(i) / td(i, 12),
-          shield: "heater"
-        },
-        {
-          name: "Westen",
-          base: 1,
-          odd: 1,
-          sort: (i: number) => n(i) / td(i, 10),
-          shield: "heater"
-        },
-        {
-          name: "Nortumbic",
-          base: 1,
-          odd: 1,
-          sort: (i: number) => n(i) / td(i, 7),
-          shield: "heater"
-        },
-        {
-          name: "Mercian",
-          base: 1,
-          odd: 1,
-          sort: (i: number) => n(i) / td(i, 9),
-          shield: "heater"
-        },
-        {
-          name: "Kentian",
-          base: 1,
-          odd: 1,
-          sort: (i: number) => n(i) / td(i, 12),
-          shield: "heater"
-        },
-        // rare real-world western
-        {
-          name: "Norse",
-          base: 6,
-          odd: 0.7,
-          sort: (i: number) => n(i) / td(i, 5) / sf(i),
-          shield: "oldFrench"
-        },
-        {
-          name: "Schwarzen",
-          base: 0,
-          odd: 0.3,
-          sort: (i: number) => n(i) / td(i, 10) / bd(i, [6, 8]),
-          shield: "gonfalon"
-        },
-        {
-          name: "Luarian",
-          base: 2,
-          odd: 0.3,
-          sort: (i: number) => n(i) / td(i, 12) / bd(i, [6, 8]),
-          shield: "oldFrench"
-        },
-        {
-          name: "Hetallian",
-          base: 3,
-          odd: 0.3,
-          sort: (i: number) => n(i) / td(i, 15),
-          shield: "oval"
-        },
-        {
-          name: "Astellian",
-          base: 4,
-          odd: 0.3,
-          sort: (i: number) => n(i) / td(i, 16),
-          shield: "spanish"
-        },
-        // rare real-world exotic
-        {
-          name: "Kiswaili",
-          base: 28,
-          odd: 0.05,
-          sort: (i: number) => n(i) / td(i, 29) / bd(i, [1, 3, 5, 7]),
-          shield: "vesicaPiscis"
-        },
-        {
-          name: "Yoruba",
-          base: 21,
-          odd: 0.05,
-          sort: (i: number) => n(i) / td(i, 15) / bd(i, [5, 7]),
-          shield: "vesicaPiscis"
-        },
-        {
-          name: "Koryo",
-          base: 10,
-          odd: 0.05,
-          sort: (i: number) => n(i) / td(i, 12) / t[i],
-          shield: "round"
-        },
-        {
-          name: "Hantzu",
-          base: 11,
-          odd: 0.05,
-          sort: (i: number) => n(i) / td(i, 13),
-          shield: "banner"
-        },
-        {
-          name: "Yamoto",
-          base: 12,
-          odd: 0.05,
-          sort: (i: number) => n(i) / td(i, 15) / t[i],
-          shield: "round"
-        },
-        {
-          name: "Guantzu",
-          base: 30,
-          odd: 0.05,
-          sort: (i: number) => n(i) / td(i, 17),
-          shield: "banner"
-        },
-        {
-          name: "Ulus",
-          base: 31,
-          odd: 0.05,
-          sort: (i: number) => (n(i) / td(i, 5) / bd(i, [2, 4, 10], 7)) * t[i],
-          shield: "banner"
-        },
-        {
-          name: "Turan",
-          base: 16,
-          odd: 0.05,
-          sort: (i: number) => n(i) / td(i, 12),
-          shield: "round"
-        },
-        {
-          name: "Berberan",
-          base: 17,
-          odd: 0.05,
-          sort: (i: number) => (n(i) / td(i, 19) / bd(i, [1, 2, 3], 7)) * t[i],
-          shield: "round"
-        },
-        {
-          name: "Eurabic",
-          base: 18,
-          odd: 0.05,
-          sort: (i: number) => (n(i) / td(i, 26) / bd(i, [1, 2], 7)) * t[i],
-          shield: "round"
-        },
-        {
-          name: "Slovan",
-          base: 5,
-          odd: 0.05,
-          sort: (i: number) => (n(i) / td(i, 6)) * t[i],
-          shield: "round"
-        },
-        {
-          name: "Keltan",
-          base: 22,
-          odd: 0.1,
-          sort: (i: number) => n(i) / td(i, 11) ** 0.5 / bd(i, [6, 8]),
-          shield: "vesicaPiscis"
-        },
-        {
-          name: "Elladan",
-          base: 7,
-          odd: 0.2,
-          sort: (i: number) => (n(i) / td(i, 18) / sf(i)) * h[i],
-          shield: "boeotian"
-        },
-        {
-          name: "Romian",
-          base: 8,
-          odd: 0.2,
-          sort: (i: number) => n(i) / td(i, 14) / t[i],
-          shield: "roman"
-        },
-        // fantasy races
-        {
-          name: "Eldar",
-          base: 33,
-          odd: 0.5,
-          sort: (i: number) => (n(i) / bd(i, [6, 7, 8, 9], 10)) * t[i],
-          shield: "fantasy5"
-        }, // Elves
-        {
-          name: "Trow",
-          base: 34,
-          odd: 0.8,
-          sort: (i: number) => (n(i) / bd(i, [7, 8, 9, 12], 10)) * t[i],
-          shield: "hessen"
-        }, // Dark Elves
-        {
-          name: "Durinn",
-          base: 35,
-          odd: 0.8,
-          sort: (i: number) => n(i) + h[i],
-          shield: "erebor"
-        }, // Dwarven
-        {
-          name: "Kobblin",
-          base: 36,
-          odd: 0.8,
-          sort: (i: number) => t[i] - s[i],
-          shield: "moriaOrc"
-        }, // Goblin
-        {
-          name: "Uruk",
-          base: 37,
-          odd: 0.8,
-          sort: (i: number) => (h[i] * t[i]) / bd(i, [1, 2, 10, 11]),
-          shield: "urukHai"
-        }, // Orc
-        {
-          name: "Yotunn",
-          base: 38,
-          odd: 0.8,
-          sort: (i: number) => td(i, -10),
-          shield: "pavise"
-        }, // Giant
-        {
-          name: "Drake",
-          base: 39,
-          odd: 0.9,
-          sort: (i: number) => -s[i],
-          shield: "fantasy2"
-        }, // Draconic
-        {
-          name: "Rakhnid",
-          base: 40,
-          odd: 0.9,
-          sort: (i: number) => t[i] - s[i],
-          shield: "horsehead2"
-        }, // Arachnid
-        {
-          name: "Aj'Snaga",
-          base: 41,
-          odd: 0.9,
-          sort: (i: number) => n(i) / bd(i, [12], 10),
-          shield: "fantasy1"
-        } // Serpents
+      const cultures: Omit<Culture, "i" | "type">[] = [];
+      const sortVariants = [
+        (i: number) => n(i),
+        (i: number) => n(i) / td(i, 10),
+        (i: number) => (n(i) / td(i, 5)) * t[i],
+        (i: number) => n(i) + h[i]
       ];
+
+      const raceNames = (window as any).fantasyRaceNames as string[] | undefined;
+      if (!raceNames) return cultures;
+
+      let sortIdx = 0;
+      for (const raceName of raceNames) {
+        if (raceName === "Human" || raceName === "AnyLanguage") continue;
+        if (filter && !filter.has(raceName)) continue;
+        if (typeof getRaceCultureProps !== "function") continue;
+        const props = getRaceCultureProps(raceName);
+        if (!props) continue;
+
+        const name = Names.getBaseShort(props.base);
+        const sort = sortVariants[sortIdx % sortVariants.length];
+        sortIdx++;
+
+        cultures.push({
+          name,
+          base: props.base,
+          odd: props.odd,
+          sort,
+          shield: props.shield
+        });
+      }
+
+      cultures.push({
+        name: Names.getBaseShort(32),
+        base: 32,
+        odd: 1,
+        sort: (i: number) => n(i) / td(i, 10),
+        shield: "fantasy5"
+      });
+
+      return cultures;
     }
 
     if (culturesSet.value === "random") {
       return range(count).map(() => {
-        const rnd = rand(Names.nameBases.length - 1);
+        const rnd = this.getRandomValidBaseIndex();
         const name = Names.getBaseShort(rnd);
         return { name, base: rnd, odd: 1, shield: this.getRandomShield() };
       });
@@ -1114,7 +792,7 @@ class CulturesGenerator {
     const codes: string[] = [];
 
     const placeCenter = (sortingFn: (i: number) => number) => {
-      let spacing = (graphWidth + graphHeight)  / 2 / count;
+      let spacing = (graphWidth + graphHeight) / 2 / count;
       const MAX_ATTEMPTS = 100;
 
       const sorted = [...populated].sort((a, b) => sortingFn(b) - sortingFn(a));
@@ -1203,26 +881,66 @@ class CulturesGenerator {
       type: DEFAULT_CULTURE_TYPE
     });
 
-    // make sure all bases exist in Names.nameBases
-    if (!Names.nameBases.length) {
-      ERROR && console.error("Name base is empty, default nameBases will be applied");
-      Names.nameBases = Names.getNameBases();
+    // Determine race names BEFORE the validBaseIds remapping so that fantasy
+    // race bases (e.g. 33 for Elf, 43 for Halfling) are correctly resolved.
+    // The remapping below uses c.base % validBaseIds.length which would destroy
+    // fantasy base indices that exceed validBaseIds.length, causing all cultures
+    // to fall back to "Human".
+    if (typeof getRaceNameForCulture === "function") {
+      for (const c of cultures) {
+        if (!c || c.i === 0 || c.removed) continue;
+        const resolved = getRaceNameForCulture(c);
+        if (resolved) c.race = resolved;
+      }
     }
 
+    // Use valid indices to avoid sparse array gaps (defaultNameBaseIds contains
+    // all indices that actually have a namebase, not just the array length)
+    const validBaseIds = (window as unknown as { defaultNameBaseIds?: number[] }).defaultNameBaseIds;
+    if (!Array.isArray(validBaseIds) || validBaseIds.length === 0) {
+      WARN && console.warn("defaultNameBaseIds not available, falling back to array length");
+    }
     cultures.forEach((c: Culture) => {
-      c.base = c.base % Names.nameBases.length;
+      // Preserve race-mixer and culture-mixer bases (they are at the end of the array
+      // and are NOT in defaultNameBaseIds). Only remap default/sparse bases.
+      const currentBase = c.base;
+      if (Names.nameBases[currentBase] && (Names.nameBases[currentBase] as any).raceMixerFor) return;
+      if (Names.nameBases[currentBase] && (Names.nameBases[currentBase] as any).cultureMixer) return;
+
+      if (Array.isArray(validBaseIds) && validBaseIds.length > 0) {
+        // If the current base is already in validBaseIds, don't remap it
+        if (validBaseIds.includes(currentBase)) return;
+        const newBase = validBaseIds[currentBase % validBaseIds.length];
+        c.base = newBase;
+      } else if (Names.nameBases.length > 0) {
+        if (currentBase < Names.nameBases.length && Names.nameBases[currentBase]) return;
+        c.base = currentBase % Names.nameBases.length;
+      } else {
+        c.base = 0;
+      }
     });
 
     // --- Race + language mixer integration (custom fork; no upstream equivalent) ---
-    // Assign race names and build mixer bases for all cultures (except wildlands at index 0)
+    // Build mixer bases for all cultures (except wildlands at index 0)
     for (const c of cultures) {
       if (!c || c.i === 0 || c.removed) continue;
-      if (typeof getRaceNameForCulture === "function") {
-        const raceName = getRaceNameForCulture(c);
-        if (raceName) c.race = raceName;
+      const raceName = typeof c.race === "string" ? c.race : "";
+      const baseIndex = this.ensureCultureMixerBaseIndex(c.i, raceName);
+      if (typeof baseIndex === "number") {
+        c.base = baseIndex;
+      } else if (!Names.nameBases[c.base] || !Names.nameBases[c.base].b) {
+        // Fallback: culture mixer failed and current base is invalid.
+        // Use the first valid namebase to prevent "ERROR" names.
+        const firstValid = Names.nameBases.findIndex(b => b && b.b && b.b.length > 0);
+        c.base = firstValid >= 0 ? firstValid : 0;
       }
-      const baseIndex = this.ensureCultureMixerBaseIndex(c.i);
-      if (typeof baseIndex === "number") c.base = baseIndex;
+    }
+
+    // --- Assign races to cultures during initial generation ---
+    // This ensures cultures get non-human races (Elf, Dwarf, etc.) during
+    // initial map generation, not just when the user clicks "Races" button.
+    if (typeof rerollRacesForCultures === "function") {
+      rerollRacesForCultures({ forceFilterFromUi: true });
     }
   }
 
@@ -1428,7 +1146,9 @@ class CulturesGenerator {
    * are allowed for the given culture set.
    */
   filterCatalogByCultureSet(catalog: LanguageMixerCatalogEntry[], cultureSet: string): LanguageMixerCatalogEntry[] {
-    const config = (window as unknown as { languageMixerCultureSets?: Record<string, { categories?: string[]; families?: string[] }> }).languageMixerCultureSets?.[cultureSet];
+    const config = (
+      window as unknown as { languageMixerCultureSets?: Record<string, { categories?: string[]; families?: string[] }> }
+    ).languageMixerCultureSets?.[cultureSet];
     if (!config) return catalog.filter(l => l && l.iso && !(l.tags && l.tags.includes("family")));
 
     const { categories, families } = config;
@@ -1475,30 +1195,48 @@ class CulturesGenerator {
     // Off = don't use mixer at all
     if (mixerSetting === "off") return null;
 
-    // Random = 50/50 chance per map
+    // Random = 50/50 chance per culture
     if (mixerSetting === "random") {
-      const seedStr = typeof seed === "string" ? seed : String(seed || "");
-      let h = 2166136261;
-      const s = `mixer-random|${seedStr}`;
-      for (let i = 0; i < s.length; i++) {
-        h ^= s.charCodeAt(i);
-        h = Math.imul(h, 16777619);
-      }
-      if (((h >>> 0) % 2) === 0) return null;
+      const seedInt = this.getCultureMixerSeed(cultureId);
+      if (seedInt % 2 === 0) return null;
     }
 
     const culture = pack.cultures && pack.cultures[cultureId];
 
-    // If culture has a race, use race-based weights (existing behavior)
+    // "Humans only" = mixer runs for non-Human (fantasy) cultures; Human
+    // cultures use their preset namebases (same effect as Off for them).
+    if (mixerSetting === "humans") {
+      const raceName = culture && typeof getRaceNameForCulture === "function" ? getRaceNameForCulture(culture) : "";
+      if (raceName === "Human") return null;
+    }
+
+    // If culture has a race, constrain the language pool to the race's
+    // eligible languages, then pick a unique random subset per culture.
+    // This ensures race identity is preserved (e.g. Elf cultures only draw
+    // from Celtic/Uralic) while each culture gets a distinct name style.
     if (culture && typeof getRaceLanguageIsoWeights === "function") {
       const raceName = typeof getRaceNameForCulture === "function" ? getRaceNameForCulture(culture) : "";
       if (raceName) {
-        const weights = getRaceLanguageIsoWeights(raceName);
-        if (weights) return weights;
+        const raceWeights = getRaceLanguageIsoWeights(raceName);
+        if (raceWeights) {
+          const raceIsoCodes = new Set(Object.keys(raceWeights));
+          const racePool = catalog.filter(l => l && l.iso && raceIsoCodes.has(l.iso));
+          if (racePool.length) {
+            const rng = this.makeRng(this.getCultureMixerSeed(cultureId));
+            const isoWeights: Record<string, number> = {};
+            const picks = Math.min(3 + Math.floor(rng() * 4), racePool.length);
+            for (let i = 0; i < picks; i++) {
+              const lang = racePool[Math.floor(rng() * racePool.length)];
+              if (!lang || !lang.iso) continue;
+              isoWeights[lang.iso] = (isoWeights[lang.iso] || 0) + 1;
+            }
+            if (Object.keys(isoWeights).length) return isoWeights;
+          }
+        }
       }
     }
 
-    // Filter catalog by culture set preset
+    // Filter catalog by culture set preset (no race constraint)
     let pool = this.filterCatalogByCultureSet(catalog, cultureSet);
     if (!pool.length) {
       // Fallback: if filter produced nothing, use full catalog
@@ -1524,7 +1262,12 @@ class CulturesGenerator {
    * Uses the same algorithm as the upstream name generator.
    */
   generateFictionalDisplayNameFromNames(names: string[], options?: { seed?: number }): string {
-    if (!Names || typeof (Names as unknown as { calculateChain?: (s: string) => string[][] & Record<string, string[]> }).calculateChain !== "function") return "";
+    if (
+      !Names ||
+      typeof (Names as unknown as { calculateChain?: (s: string) => string[][] & Record<string, string[]> })
+        .calculateChain !== "function"
+    )
+      return "";
     if (!Array.isArray(names) || names.length < 3) return "";
 
     const sanitized = names
@@ -1539,10 +1282,12 @@ class CulturesGenerator {
 
     if (sanitized.length < 3) return "";
 
-    const chain = (Names as unknown as { calculateChain: (s: string) => string[][] & Record<string, string[]> }).calculateChain(sanitized.join(","));
+    const chain = (
+      Names as unknown as { calculateChain: (s: string) => string[][] & Record<string, string[]> }
+    ).calculateChain(sanitized.join(","));
     if (!chain || chain[""] === undefined) return "";
 
-    const seedInt = options && typeof options.seed === "number" ? (options.seed >>> 0) : 0;
+    const seedInt = options && typeof options.seed === "number" ? options.seed >>> 0 : 0;
     const rng = this.makeRng(seedInt || 1);
     const pick = (arr: string[]) => arr[Math.floor(rng() * arr.length)];
 
@@ -1596,36 +1341,56 @@ class CulturesGenerator {
 
   /**
    * Ensures a culture has a mixer base index. Creates one if it doesn't exist.
+   * @param raceName - Optional race name to tag the mixer base with so getRaceNameForCulture
+   *   can still resolve the race after the culture's base is replaced.
    * Returns the base index, or null if no mixer base could be created.
    */
-  ensureCultureMixerBaseIndex(cultureId: number): number | null {
-    if (!Names || typeof (Names as unknown as { getMixedByIso?: (w: Record<string, number>, o: { count: number; seed: number }) => string[] }).getMixedByIso !== "function") return null;
+  ensureCultureMixerBaseIndex(cultureId: number, raceName?: string): number | null {
+    if (
+      !Names ||
+      typeof (
+        Names as unknown as {
+          getMixedByIso?: (w: Record<string, number>, o: { count: number; seed: number }) => string[];
+        }
+      ).getMixedByIso !== "function"
+    )
+      return null;
 
     const nameBases = Names.nameBases;
-    const existingIndex =
-      Array.isArray(nameBases)
-        ? nameBases.findIndex(
-            b =>
-              b &&
-              (b as unknown as { cultureMixer?: boolean; cultureMixerFor?: number }).cultureMixer === true &&
-              (b as unknown as { cultureMixerFor?: number }).cultureMixerFor === cultureId
-          )
-        : -1;
+    const existingIndex = Array.isArray(nameBases)
+      ? nameBases.findIndex(
+          b =>
+            b &&
+            (b as unknown as { cultureMixer?: boolean; cultureMixerFor?: number }).cultureMixer === true &&
+            (b as unknown as { cultureMixerFor?: number }).cultureMixerFor === cultureId
+        )
+      : -1;
     if (existingIndex >= 0) return existingIndex;
 
     const isoWeights = this.buildCultureMixerIsoWeights(cultureId);
-    if (!isoWeights) return null;
+    if (!isoWeights) {
+      WARN && console.warn(`culture ${cultureId}: no isoWeights (mixer catalog or setting issue)`);
+      return null;
+    }
 
     const mixSeed = this.getCultureMixerSeed(cultureId);
     const count = 240;
     let names: string[];
     try {
-      names = (Names as unknown as { getMixedByIso: (w: Record<string, number>, o: { count: number; seed: number }) => string[] }).getMixedByIso(isoWeights, { count, seed: mixSeed });
-    } catch (e) {
+      names = (
+        Names as unknown as {
+          getMixedByIso: (w: Record<string, number>, o: { count: number; seed: number }) => string[];
+        }
+      ).getMixedByIso(isoWeights, { count, seed: mixSeed });
+    } catch (_e) {
+      ERROR && console.error(`culture ${cultureId}: getMixedByIso threw`, _e);
       return null;
     }
 
-    if (!Array.isArray(names) || names.length < 3) return null;
+    if (!Array.isArray(names) || names.length < 3) {
+      WARN && console.warn(`culture ${cultureId}: insufficient names (${names?.length ?? 0})`);
+      return null;
+    }
     const sanitized = names
       .map(n =>
         String(n || "")
@@ -1648,7 +1413,9 @@ class CulturesGenerator {
       const computedMax = Math.max(computedMin, Math.min(16, Math.ceil(p75) + 2));
       min = computedMin;
       max = computedMax;
-    } catch (e) { /* keep defaults */ }
+    } catch (_e) {
+      /* keep defaults */
+    }
 
     const nameSeed = (mixSeed ^ 0x9e3779b9) >>> 0;
     const displayName = this.generateFictionalDisplayNameFromNames(sanitized, { seed: nameSeed });
@@ -1684,14 +1451,40 @@ class CulturesGenerator {
       b,
       cultureMixer: true,
       cultureMixerFor: cultureId,
+      raceMixerFor: raceName && raceName !== "Human" ? raceName : undefined,
       isoWeights
-    } as typeof nameBases[number] & { cultureMixer: boolean; cultureMixerFor: number; isoWeights: Record<string, number> });
+    } as (typeof nameBases)[number] & {
+      cultureMixer: boolean;
+      cultureMixerFor: number;
+      raceMixerFor?: string;
+      isoWeights: Record<string, number>;
+    });
 
-    if (typeof (window as unknown as { refreshDefaultNameBaseIds?: () => void }).refreshDefaultNameBaseIds === "function") {
+    // Pre-compute the Markov chain for the new namebase so getBase() doesn't
+    // return "ERROR" before updateChain() is called lazily.
+    if (typeof Names.updateChain === "function") {
+      Names.updateChain(baseIndex);
+    }
+
+    if (
+      typeof (window as unknown as { refreshDefaultNameBaseIds?: () => void }).refreshDefaultNameBaseIds === "function"
+    ) {
       (window as unknown as { refreshDefaultNameBaseIds: () => void }).refreshDefaultNameBaseIds();
     }
 
     return baseIndex;
+  }
+
+  /**
+   * Returns a random valid namebase index, accounting for sparse array gaps.
+   * Uses defaultNameBaseIds if available, otherwise falls back to array length.
+   */
+  getRandomValidBaseIndex(): number {
+    const validBaseIds = (window as unknown as { defaultNameBaseIds?: number[] }).defaultNameBaseIds;
+    if (Array.isArray(validBaseIds) && validBaseIds.length > 0) {
+      return validBaseIds[rand(validBaseIds.length - 1)];
+    }
+    return rand(Names.nameBases.length - 1);
   }
 }
 

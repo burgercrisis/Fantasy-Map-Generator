@@ -59,9 +59,7 @@ export interface MergeResult {
   warnings: string[];
 }
 
-function normalizeLanguageBundle(
-  raw: LanguageSoftmodRawBundle | null | undefined
-): LanguageSoftmodBundle | null {
+function normalizeLanguageBundle(raw: LanguageSoftmodRawBundle | null | undefined): LanguageSoftmodBundle | null {
   if (!raw || typeof raw !== "object") return null;
 
   let languagesCatalog = raw.languagesCatalog ?? raw.languageCatalogEntries ?? raw.catalog ?? [];

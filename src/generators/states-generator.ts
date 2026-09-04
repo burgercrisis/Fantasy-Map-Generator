@@ -176,7 +176,7 @@ class StatesModule {
       const capitalName = capital.name ?? "";
       const baseIndex = Names.getBaseForCell(capital.cell, culture);
       const basename =
-        capitalName.length < 9 && capital.cell % 5 === 0 ? capitalName : Names.getBase(baseIndex, 3, 6, "") as string;
+        capitalName.length < 9 && capital.cell % 5 === 0 ? capitalName : (Names.getBase(baseIndex, 3, 6, "") as string);
       const name = Names.getState(basename, culture, baseIndex);
       const nomadic = [1, 2, 3, 4].includes(pack.cells.biome[capital.cell]);
       const type = nomadic

@@ -1,3 +1,4 @@
+import type { NameBase } from "@/data/name-bases";
 import { findEl } from "@/utils/nodeUtils";
 import { rn } from "../utils";
 import type { LanguageMixerCatalogEntry } from "./language-softmods";
@@ -8,12 +9,15 @@ interface NamesGlobal {
   calculateChain(namesList: string): MarkovChain;
   updateChain(index: number): void;
   getBase(base: number, min?: number, max?: number, dupl?: string): string;
-  nameBases: RaceNameBase[];
+  nameBases: NameBase[];
 }
 
 declare global {
   var fantasyRaceNames: string[];
   var refreshDefaultNameBaseIds: (() => void) | undefined;
+  var initializeRacesForExpansion: ((options?: { forceFilterFromUi?: boolean }) => void) | undefined;
+  var assignRaces: (() => void) | undefined;
+  var rerollRacesForCultures: ((options?: { forceFilterFromUi?: boolean }) => void) | undefined;
 }
 
 interface LanguageMixerEntry extends LanguageMixerCatalogEntry {
@@ -32,20 +36,6 @@ interface MixedByIsoOptions {
 interface RaceLanguageProfile {
   categories: string[];
   families: string[];
-}
-
-// Extended NameBase interface for race mixer properties
-interface RaceNameBase {
-  name: string;
-  i: number;
-  min: number;
-  max: number;
-  d: string;
-  m: number;
-  b: string;
-  raceMixerFor?: string;
-  cultureMixer?: boolean;
-  isoWeights?: Record<string, number>;
 }
 
 // Markov chain type for name generation
@@ -72,11 +62,9 @@ const fantasyRaceBases: Record<string, number[]> = {
   Hobgoblin: [49],
   Goliath: [50],
   Lizardfolk: [51],
-  Shifter: [52],
   Gnoll: [53],
   Bugbear: [54],
   Tabaxi: [55],
-  Warforged: [56],
   Kenku: [57],
   Aarakocra: [58],
   Dragonborn: [59],
@@ -85,25 +73,17 @@ const fantasyRaceBases: Record<string, number[]> = {
   Firbolg: [62],
   Gith: [63],
   Genasi: [64],
-  Changeling: [65],
   Satyr: [66],
   Minotaur: [67],
-  Kalashtar: [68],
   Kobold: [69],
   Duergar: [70],
-  Dhampir: [71],
-  Reborn: [72],
   "Shadar-kai": [73],
-  Hexblood: [74],
   Centaur: [75],
   Leonin: [76],
   Loxodon: [77],
   Harengon: [78],
   Tortle: [79],
-  Giff: [80],
   Owlin: [81],
-  "Thri-Kreen": [82],
-  Oni: [83],
   Kitsune: [84],
   Deepkin: [85],
   Starspawn: [86],
@@ -200,10 +180,6 @@ const raceLanguageProfiles: Record<string, RaceLanguageProfile> = {
     categories: ["Niger-Congo", "Afroasiatic", "Nilo-Saharan", "Ubangian"],
     families: ["Niger-Congo", "Bantu", "Afroasiatic", "Nilo-Saharan", "Ubangian"]
   },
-  Shifter: {
-    categories: ["Celtic", "Germanic", "Niger-Congo"],
-    families: ["Celtic", "Germanic", "Niger-Congo", "Bantu"]
-  },
   Gnoll: {
     categories: ["Afroasiatic", "Nilo-Saharan"],
     families: ["Afroasiatic", "Nilo-Saharan", "Semitic", "Hadza isolate", "Sandawe isolate", "Kusunda"]
@@ -214,37 +190,135 @@ const raceLanguageProfiles: Record<string, RaceLanguageProfile> = {
   },
   Tabaxi: {
     categories: [
-      "Tupian", "Quechuan", "Ticuna–Yuri", "Totonacan", "Mayan", "Arawakan", "Cariban", "Panoan",
-      "Tucanoan", "Arauan", "Saliban", "Guahiboan", "Matacoan", "Macro-Jê", "Nadahup", "Chibchan",
-      "Chapacuran", "Chimilan", "Chocoan", "Chonan", "Enlhet-Enenlhet", "Guaicuruan", "Jivaroan",
-      "Paezan", "Zamucoan", "Mixed language", "Aymaran", "Araucanian", "Oto-Manguean"
+      "Tupian",
+      "Quechuan",
+      "Ticuna–Yuri",
+      "Totonacan",
+      "Mayan",
+      "Arawakan",
+      "Cariban",
+      "Panoan",
+      "Tucanoan",
+      "Arauan",
+      "Saliban",
+      "Guahiboan",
+      "Matacoan",
+      "Macro-Jê",
+      "Nadahup",
+      "Chibchan",
+      "Chapacuran",
+      "Chimilan",
+      "Chocoan",
+      "Chonan",
+      "Enlhet-Enenlhet",
+      "Guaicuruan",
+      "Jivaroan",
+      "Paezan",
+      "Zamucoan",
+      "Mixed language",
+      "Aymaran",
+      "Araucanian",
+      "Oto-Manguean"
     ],
     families: [
-      "Tupian", "Quechuan", "Ticuna–Yuri", "Totonacan", "Mayan", "Arawakan", "Cariban", "Panoan",
-      "Tucanoan", "Arauan", "Saliban", "Witotoan", "Aymaran", "Araucanian", "Oto-Manguean",
-      "Purépecha isolate", "Seri isolate", "Huave isolate", "Camsa isolate", "Cayubaba isolate", "Muran",
-      "Warao", "Yanomaman", "Puinave isolate", "Guahiboan", "Barbacoan", "Macro-Jê", "Nadahup",
-      "Chibchan", "Chapacuran", "Chimilan", "Chocoan", "Chonan", "Enlhet-Enenlhet", "Guaicuruan",
-      "Jivaroan", "Zamucoan", "Tacanan"
+      "Tupian",
+      "Quechuan",
+      "Ticuna–Yuri",
+      "Totonacan",
+      "Mayan",
+      "Arawakan",
+      "Cariban",
+      "Panoan",
+      "Tucanoan",
+      "Arauan",
+      "Saliban",
+      "Witotoan",
+      "Aymaran",
+      "Araucanian",
+      "Oto-Manguean",
+      "Purépecha isolate",
+      "Seri isolate",
+      "Huave isolate",
+      "Camsa isolate",
+      "Cayubaba isolate",
+      "Muran",
+      "Warao",
+      "Yanomaman",
+      "Puinave isolate",
+      "Guahiboan",
+      "Barbacoan",
+      "Macro-Jê",
+      "Nadahup",
+      "Chibchan",
+      "Chapacuran",
+      "Chimilan",
+      "Chocoan",
+      "Chonan",
+      "Enlhet-Enenlhet",
+      "Guaicuruan",
+      "Jivaroan",
+      "Zamucoan",
+      "Tacanan"
     ]
-  },
-  Warforged: {
-    categories: ["Germanic", "Slavic", "Sino-Tibetan", "Creole", "Mixed"],
-    families: ["Germanic", "Slavic", "Sino-Tibetan", "English-based", "German-based"]
   },
   Kenku: {
     categories: [
-      "Algic", "Uto-Aztecan", "Salishan", "Siouan", "Algonquian", "Na-Dene", "Eskimo–Aleut",
-      "Iroquoian", "Misumalpan", "Keresan", "Kiowa–Tanoan", "Yuman", "Muskogean", "Mixe-Zoque", "Tsimshianic"
+      "Algic",
+      "Uto-Aztecan",
+      "Salishan",
+      "Siouan",
+      "Algonquian",
+      "Na-Dene",
+      "Eskimo–Aleut",
+      "Iroquoian",
+      "Misumalpan",
+      "Keresan",
+      "Kiowa–Tanoan",
+      "Yuman",
+      "Muskogean",
+      "Mixe-Zoque",
+      "Tsimshianic"
     ],
     families: [
-      "Algic", "Uto-Aztecan", "Salishan", "Siouan", "Algonquian", "Na-Dene", "Eskimo–Aleut",
-      "Iroquoian", "Misumalpan", "Keresan", "Kiowa–Tanoan", "Yuman"
+      "Algic",
+      "Uto-Aztecan",
+      "Salishan",
+      "Siouan",
+      "Algonquian",
+      "Na-Dene",
+      "Eskimo–Aleut",
+      "Iroquoian",
+      "Misumalpan",
+      "Keresan",
+      "Kiowa–Tanoan",
+      "Yuman"
     ]
   },
   Aarakocra: {
-    categories: ["Papuan", "Algic", "Uto-Aztecan", "Salishan", "Siouan", "Algonquian", "Na-Dene", "Eskimo–Aleut", "Yuman"],
-    families: ["Papuan", "Austronesian", "Micronesian", "Polynesian", "Algic", "Uto-Aztecan", "Salishan", "Siouan", "Algonquian", "Na-Dene", "Eskimo–Aleut"]
+    categories: [
+      "Papuan",
+      "Algic",
+      "Uto-Aztecan",
+      "Salishan",
+      "Siouan",
+      "Algonquian",
+      "Na-Dene",
+      "Eskimo–Aleut",
+      "Yuman"
+    ],
+    families: [
+      "Papuan",
+      "Austronesian",
+      "Micronesian",
+      "Polynesian",
+      "Algic",
+      "Uto-Aztecan",
+      "Salishan",
+      "Siouan",
+      "Algonquian",
+      "Na-Dene",
+      "Eskimo–Aleut"
+    ]
   },
   Triton: {
     categories: ["Austronesian", "Micronesian", "Papuan", "Creole"],
@@ -266,10 +340,6 @@ const raceLanguageProfiles: Record<string, RaceLanguageProfile> = {
     categories: ["Indo-Aryan", "Iranian"],
     families: ["Indo-Aryan", "Iranian", "Indo-Iranian"]
   },
-  Changeling: {
-    categories: ["Romance", "Germanic", "Slavic"],
-    families: ["Romance", "Germanic", "Slavic", "Romani"]
-  },
   Satyr: {
     categories: ["Celtic", "Romance"],
     families: ["Celtic", "Romance", "Sardinian", "Tuscan", "Neapolitan"]
@@ -277,10 +347,6 @@ const raceLanguageProfiles: Record<string, RaceLanguageProfile> = {
   Minotaur: {
     categories: ["Greek", "Romance"],
     families: ["Greek", "Romance", "Sardinian", "Tuscan", "Neapolitan", "Indo-European"]
-  },
-  Kalashtar: {
-    categories: ["Indo-Aryan", "Iranian"],
-    families: ["Indo-Aryan", "Iranian", "Indo-Iranian", "Punjabi–Lahnda"]
   },
   Kobold: {
     categories: ["Sino-Tibetan", "Tai-Kadai", "Japonic", "Koreanic"],
@@ -290,21 +356,9 @@ const raceLanguageProfiles: Record<string, RaceLanguageProfile> = {
     categories: ["Germanic", "Slavic"],
     families: ["Germanic", "Slavic", "Baltic", "Uralic"]
   },
-  Dhampir: {
-    categories: ["Slavic", "Romance"],
-    families: ["Slavic", "Romani", "Baltic"]
-  },
-  Reborn: {
-    categories: ["Slavic", "Germanic", "Unclassified"],
-    families: ["Slavic", "Germanic", "Romani", "Unclassified"]
-  },
   "Shadar-kai": {
     categories: ["Slavic", "Germanic"],
     families: ["Slavic", "Germanic", "Romance", "Baltic", "Romani"]
-  },
-  Hexblood: {
-    categories: ["Slavic", "Germanic", "Romance", "Celtic"],
-    families: ["Slavic", "Germanic", "Baltic", "Romani", "Celtic"]
   },
   Centaur: {
     categories: ["Greek", "Iranian"],
@@ -312,7 +366,18 @@ const raceLanguageProfiles: Record<string, RaceLanguageProfile> = {
   },
   Leonin: {
     categories: ["Niger-Congo", "Nilo-Saharan", "Mande", "Khoe-Kwadi", "Kx'a", "Songhay", "Khoe", "Tuu"],
-    families: ["Niger-Congo", "Bantu", "Nilo-Saharan", "Semitic", "Mande", "Khoe-Kwadi", "Kx'a", "Songhay", "Khoe", "Tuu"]
+    families: [
+      "Niger-Congo",
+      "Bantu",
+      "Nilo-Saharan",
+      "Semitic",
+      "Mande",
+      "Khoe-Kwadi",
+      "Kx'a",
+      "Songhay",
+      "Khoe",
+      "Tuu"
+    ]
   },
   Loxodon: {
     categories: ["Dravidian"],
@@ -326,21 +391,9 @@ const raceLanguageProfiles: Record<string, RaceLanguageProfile> = {
     categories: ["Austronesian", "Papuan", "Australian Aboriginal"],
     families: ["Austronesian", "Micronesian", "Polynesian", "Papuan", "Australian Aboriginal"]
   },
-  Giff: {
-    categories: ["Germanic", "Romance", "Creole", "Pidgin"],
-    families: ["Germanic", "Romance", "English-based", "French-based", "Pidgin"]
-  },
   Owlin: {
     categories: ["Uralic", "Sino-Tibetan"],
     families: ["Uralic", "Sami", "Sino-Tibetan"]
-  },
-  "Thri-Kreen": {
-    categories: ["Afroasiatic", "Nilo-Saharan"],
-    families: ["Afroasiatic", "Semitic", "Berber", "Chadic", "Nilo-Saharan"]
-  },
-  Oni: {
-    categories: ["Japonic", "Koreanic", "Austroasiatic", "Hmong-Mien", "Ainu"],
-    families: ["Japonic", "Japanese dialects", "Amami Ryukyuan", "Okinawan Ryukyuan", "Koreanic"]
   },
   Kitsune: {
     categories: ["Japonic", "Koreanic", "Austroasiatic", "Hmong-Mien", "Ainu"],
@@ -351,19 +404,56 @@ const raceLanguageProfiles: Record<string, RaceLanguageProfile> = {
     families: ["Austronesian", "Micronesian", "Polynesian", "Papuan", "Australian Aboriginal", "Eskimo-Aleut"]
   },
   Starspawn: {
-    categories: ["Tungusic", "Yeniseian", "Yukaghir", "Chukotko-Kamchatkan", "Language isolate", "Hypothetical", "Eskimo-Aleut"],
+    categories: [
+      "Tungusic",
+      "Yeniseian",
+      "Yukaghir",
+      "Chukotko-Kamchatkan",
+      "Language isolate",
+      "Hypothetical",
+      "Eskimo-Aleut"
+    ],
     families: ["Nivkh", "Yeniseian", "Yukaghir", "Eskimo–Aleut", "Tungusic"]
   },
   Scions: {
     categories: [
-      "Uralic", "Slavic", "Baltic", "Turkic", "Mongolic", "Tungusic", "Koreanic", "Eskimo–Aleut",
-      "Algonquian", "Na-Dene", "Uto-Aztecan", "Siouan", "Muskogean", "Mixe-Zoque", "Language isolate",
-      "Hypothetical", "Unclassified"
+      "Uralic",
+      "Slavic",
+      "Baltic",
+      "Turkic",
+      "Mongolic",
+      "Tungusic",
+      "Koreanic",
+      "Eskimo–Aleut",
+      "Algonquian",
+      "Na-Dene",
+      "Uto-Aztecan",
+      "Siouan",
+      "Muskogean",
+      "Mixe-Zoque",
+      "Language isolate",
+      "Hypothetical",
+      "Unclassified"
     ],
     families: [
-      "Sami", "Uralic", "Slavic", "Baltic", "Turkic", "Mongolic", "Tungusic", "Koreanic", "Eskimo–Aleut",
-      "Algonquian", "Na-Dene", "Uto-Aztecan", "Siouan", "Muskogean", "Mixe-Zoque", "Language isolate",
-      "Hypothetical", "Unclassified"
+      "Sami",
+      "Uralic",
+      "Slavic",
+      "Baltic",
+      "Turkic",
+      "Mongolic",
+      "Tungusic",
+      "Koreanic",
+      "Eskimo–Aleut",
+      "Algonquian",
+      "Na-Dene",
+      "Uto-Aztecan",
+      "Siouan",
+      "Muskogean",
+      "Mixe-Zoque",
+      "Language isolate",
+      "Hypothetical",
+      "Unclassified"
     ]
   },
   Seafarer: {
@@ -515,7 +605,7 @@ function getRaceNames(): NamesGlobal {
 }
 
 // Helper to get nameBases with race mixer extensions
-function getNameBases(): RaceNameBase[] {
+function getNameBases(): NameBase[] {
   return getRaceNames().nameBases;
 }
 
@@ -613,7 +703,10 @@ function buildRaceMixerLanguageDisplayName(
     if (weight <= 0) continue;
 
     let n = String(lang.name || "").trim();
-    n = n.replace(/\s*\(.*?\)\s*/g, " ").replace(/\s+/g, " ").trim();
+    n = n
+      .replace(/\s*\(.*?\)\s*/g, " ")
+      .replace(/\s+/g, " ")
+      .trim();
     n = n.replace(/\s+(language|dialects|dialect|family|languages)\b/gi, "").trim();
     if (n.length < 2) continue;
 
@@ -633,7 +726,7 @@ function buildRaceMixerLanguageDisplayName(
   if (!sources.length) return "";
 
   const seed = options && typeof options.seed === "number" ? options.seed : null;
-  const seedInt = typeof seed === "number" && isFinite(seed) ? (seed >>> 0) : 0;
+  const seedInt = typeof seed === "number" && isFinite(seed) ? seed >>> 0 : 0;
   let s = seedInt || hashStringToUint32(`race-mixer-name|${raceName}`);
   const rng = () => {
     s += 0x6d2b79f5;
@@ -681,11 +774,16 @@ function buildRaceMixerLanguageDisplayName(
     let w = "";
     for (let i = 0; i < 20; i++) {
       if (cur === "") {
-        if (w.length < min) { cur = ""; w = ""; v = chainValue(""); }
-        else break;
+        if (w.length < min) {
+          cur = "";
+          w = "";
+          v = chainValue("");
+        } else break;
       } else {
-        if (w.length + cur.length > max) { if (w.length < min) w += cur; break; }
-        else v = chainValue(lastChar(cur)) || chainValue("");
+        if (w.length + cur.length > max) {
+          if (w.length < min) w += cur;
+          break;
+        } else v = chainValue(lastChar(cur)) || chainValue("");
       }
       w += cur;
       cur = pick(v) as string;
@@ -694,7 +792,7 @@ function buildRaceMixerLanguageDisplayName(
     const l = lastChar(w);
     if (l === "'" || l === " " || l === "-") w = w.slice(0, -1);
 
-    let name = [...w].reduce(function (r, c, i, d) {
+    let name = [...w].reduce((r, c, i, d) => {
       if (c === d[i + 1] && !dupl.includes(c)) return r;
       if (!r.length) return c.toUpperCase();
       if (r.slice(-1) === "-" && c === " ") return r;
@@ -706,7 +804,10 @@ function buildRaceMixerLanguageDisplayName(
     }, "");
 
     if (name.split(" ").some(part => part.length < 2)) {
-      name = name.split(" ").map((p, i) => (i ? p.toLowerCase() : p)).join("");
+      name = name
+        .split(" ")
+        .map((p, i) => (i ? p.toLowerCase() : p))
+        .join("");
     }
 
     if (!name || name.length < 2) continue;
@@ -721,7 +822,10 @@ function buildRaceMixerLanguageDisplayName(
       for (const src of sources) {
         const sName = src && src.name ? String(src.name).trim() : "";
         if (!sName) continue;
-        if (sName.toLowerCase() === prefixLower) { matchesSource = true; break; }
+        if (sName.toLowerCase() === prefixLower) {
+          matchesSource = true;
+          break;
+        }
       }
       if (matchesSource) continue;
     }
@@ -799,7 +903,10 @@ function getRaceDefaultBaseIndex(raceName: string): number | null {
   return null;
 }
 
-function ensureRaceMixerBaseIndex(raceName: string, options?: { seed?: string | number; count?: number; refresh?: boolean }): number | null {
+function ensureRaceMixerBaseIndex(
+  raceName: string,
+  options?: { seed?: string | number; count?: number; refresh?: boolean }
+): number | null {
   if (!raceName) return null;
   // Allow mixer for races even if they have no static bases (commented out)
   if (!fantasyRaceBases[raceName] && !raceLanguageProfiles[raceName]) return null;
@@ -822,14 +929,14 @@ function ensureRaceMixerBaseIndex(raceName: string, options?: { seed?: string | 
       try {
         const count = base.b.split(",").filter(Boolean).length;
         if (count < 80) return true;
-      } catch (e) {
+      } catch (_e) {
         return true;
       }
 
       try {
         const name = typeof base.name === "string" ? base.name.trimEnd() : "";
         if (isBadRaceMixerDisplayName(name, raceName)) return true;
-      } catch (e) { }
+      } catch (_e) {}
 
       return false;
     })();
@@ -848,14 +955,20 @@ function ensureRaceMixerBaseIndex(raceName: string, options?: { seed?: string | 
           let names: string[];
           try {
             names = getRaceNames().getMixedByIso(weights, { count, seed: mixSeed });
-          } catch (e) {
+          } catch (_e) {
             return null;
           }
 
           if (!Array.isArray(names) || names.length < 3) return null;
 
           const sanitized = names
-            .map(n => String(n || "").replace(/[/|,\d]/g, "").replace(/_unq\d+\b/gi, "").replace(/_/g, "").trim())
+            .map(n =>
+              String(n || "")
+                .replace(/[/|,\d]/g, "")
+                .replace(/_unq\d+\b/gi, "")
+                .replace(/_/g, "")
+                .trim()
+            )
             .filter(Boolean);
 
           if (sanitized.length < 3) return null;
@@ -879,7 +992,7 @@ function ensureRaceMixerBaseIndex(raceName: string, options?: { seed?: string | 
             const computedMax = Math.max(computedMin, Math.min(16, Math.ceil(p75) + 2));
             min = computedMin;
             max = computedMax;
-          } catch (e) { }
+          } catch (_e) {}
 
           base.b = sanitized.join(",");
           base.min = min;
@@ -890,7 +1003,7 @@ function ensureRaceMixerBaseIndex(raceName: string, options?: { seed?: string | 
           if (Names && typeof Names.updateChain === "function") {
             try {
               Names.updateChain(existing);
-            } catch (e) { }
+            } catch (_e) {}
           }
         }
       }
@@ -928,14 +1041,20 @@ function ensureRaceMixerBaseIndex(raceName: string, options?: { seed?: string | 
     let names: string[];
     try {
       names = getRaceNames().getMixedByIso(weights, { count, seed: mixSeed });
-    } catch (e) {
+    } catch (_e) {
       return null;
     }
 
     if (!Array.isArray(names) || names.length < 3) return null;
 
     const sanitized = names
-      .map(n => String(n || "").replace(/[/|,\d]/g, "").replace(/_unq\d+\b/gi, "").replace(/_/g, "").trim())
+      .map(n =>
+        String(n || "")
+          .replace(/[/|,\d]/g, "")
+          .replace(/_unq\d+\b/gi, "")
+          .replace(/_/g, "")
+          .trim()
+      )
       .filter(Boolean);
 
     if (sanitized.length < 3) return null;
@@ -960,16 +1079,17 @@ function ensureRaceMixerBaseIndex(raceName: string, options?: { seed?: string | 
     const computedMax = Math.max(computedMin, Math.min(16, Math.ceil(p75) + 2));
     min = computedMin;
     max = computedMax;
-  } catch (e) { }
+  } catch (_e) {}
 
   const b = sanitized.join(",");
   const baseIndex = nameBases.length;
   const nameSeedSource = `${typeof seed === "string" ? seed : ""}|${raceName}|race-mixer-name`;
   const nameSeed = hashStringToUint32(nameSeedSource);
   const displayName = buildRaceMixerLanguageDisplayName(raceName, isoWeights, { seed: nameSeed });
-  const newBase: RaceNameBase = displayName && !isBadRaceMixerDisplayName(displayName, raceName)
-    ? { name: displayName, i: baseIndex, min, max, d: "", m: 0, b, raceMixerFor: raceName }
-    : { name: getRaceMixerBaseDisplayName(raceName), i: baseIndex, min, max, d: "", m: 0, b, raceMixerFor: raceName };
+  const newBase: NameBase =
+    displayName && !isBadRaceMixerDisplayName(displayName, raceName)
+      ? { name: displayName, i: baseIndex, min, max, d: "", m: 0, b, raceMixerFor: raceName }
+      : { name: getRaceMixerBaseDisplayName(raceName), i: baseIndex, min, max, d: "", m: 0, b, raceMixerFor: raceName };
   nameBases.push(newBase);
   if (typeof window.refreshDefaultNameBaseIds === "function") {
     window.refreshDefaultNameBaseIds();
@@ -981,48 +1101,126 @@ function getRacesSetFilter(value: string): Set<string> | null {
   switch (value) {
     case "classic":
       return new Set([
-        "Elf", "Dark Elf", "Dwarf", "Halfling", "Gnome", "Half-Elf", "Half-Orc", "Goblin", "Orc",
-        "Giant", "Dragonborn", "Satyr", "Minotaur", "Oni", "Kitsune", "Scions"
+        "Elf",
+        "Dark Elf",
+        "Dwarf",
+        "Halfling",
+        "Gnome",
+        "Half-Elf",
+        "Half-Orc",
+        "Goblin",
+        "Orc",
+        "Giant",
+        "Dragonborn",
+        "Satyr",
+        "Minotaur",
+        "Kobold"
       ]);
     case "dark":
       return new Set([
-        "Dark Elf", "Goblin", "Orc", "Hobgoblin", "Gnoll", "Bugbear", "Arachnid", "Serpent",
-        "Lizardfolk", "Shifter", "Kenku", "Yuan-ti", "Gith", "Dragonborn", "Kobold", "Duergar",
-        "Minotaur", "Dhampir", "Reborn", "Shadar-kai", "Hexblood", "Oni", "Deepkin", "Starspawn", "Scions"
+        "Dark Elf",
+        "Goblin",
+        "Orc",
+        "Hobgoblin",
+        "Gnoll",
+        "Bugbear",
+        "Arachnid",
+        "Serpent",
+        "Lizardfolk",
+        "Kenku",
+        "Yuan-ti",
+        "Gith",
+        "Dragonborn",
+        "Kobold",
+        "Duergar",
+        "Minotaur",
+        "Shadar-kai",
+        "Deepkin",
+        "Starspawn",
+        "Scions"
       ]);
     case "primal":
       return new Set([
-        "Elf", "Firbolg", "Goliath", "Lizardfolk", "Shifter", "Gnoll", "Bugbear", "Tabaxi", "Kenku",
-        "Aarakocra", "Triton", "Satyr", "Minotaur", "Centaur", "Leonin", "Loxodon", "Harengon", "Tortle",
-        "Owlin", "Thri-Kreen", "Kitsune"
+        "Elf",
+        "Firbolg",
+        "Goliath",
+        "Lizardfolk",
+        "Gnoll",
+        "Bugbear",
+        "Tabaxi",
+        "Kenku",
+        "Aarakocra",
+        "Triton",
+        "Satyr",
+        "Minotaur",
+        "Centaur",
+        "Leonin",
+        "Loxodon",
+        "Harengon",
+        "Tortle",
+        "Owlin",
+        "Kitsune"
       ]);
     case "planar":
       return new Set([
-        "Tiefling", "Aasimar", "Gith", "Genasi", "Draconic", "Dragonborn", "Yuan-ti", "Triton",
-        "Aarakocra", "Kalashtar", "Shadar-kai", "Hexblood", "Starspawn", "Scions"
-      ]);
-    case "eberron":
-      return new Set([
-        "Warforged", "Shifter", "Changeling", "Gnome", "Halfling", "Half-Elf", "Half-Orc", "Orc",
-        "Goblin", "Hobgoblin", "Dragonborn", "Kalashtar", "Kobold", "Dhampir", "Reborn", "Hexblood"
+        "Tiefling",
+        "Aasimar",
+        "Gith",
+        "Genasi",
+        "Draconic",
+        "Dragonborn",
+        "Yuan-ti",
+        "Triton",
+        "Aarakocra",
+        "Shadar-kai",
+        "Starspawn",
+        "Scions"
       ]);
     case "fey":
       return new Set([
-        "Elf", "Firbolg", "Satyr", "Harengon", "Hexblood", "Gnome", "Halfling", "Shifter",
-        "Changeling", "Centaur", "Owlin", "Kitsune", "Scions"
+        "Elf",
+        "Firbolg",
+        "Satyr",
+        "Harengon",
+        "Gnome",
+        "Halfling",
+        "Centaur",
+        "Owlin",
+        "Kitsune",
+        "Scions"
       ]);
     case "beastfolk":
       return new Set([
-        "Goliath", "Lizardfolk", "Shifter", "Gnoll", "Bugbear", "Tabaxi", "Leonin", "Loxodon", "Kenku",
-        "Aarakocra", "Owlin", "Centaur", "Tortle", "Giff", "Thri-Kreen", "Kobold", "Kitsune"
+        "Goliath",
+        "Lizardfolk",
+        "Gnoll",
+        "Bugbear",
+        "Tabaxi",
+        "Leonin",
+        "Loxodon",
+        "Kenku",
+        "Aarakocra",
+        "Owlin",
+        "Centaur",
+        "Tortle",
+        "Kobold",
+        "Kitsune"
       ]);
     case "underdark":
       return new Set([
-        "Dark Elf", "Duergar", "Kobold", "Yuan-ti", "Thri-Kreen", "Arachnid", "Serpent", "Goblin",
-        "Bugbear", "Gith", "Deepkin", "Starspawn", "Scions"
+        "Dark Elf",
+        "Duergar",
+        "Kobold",
+        "Yuan-ti",
+        "Arachnid",
+        "Serpent",
+        "Goblin",
+        "Bugbear",
+        "Gith",
+        "Deepkin",
+        "Starspawn",
+        "Scions"
       ]);
-    case "undead":
-      return new Set(["Dhampir", "Reborn", "Shadar-kai", "Hexblood"]);
     default:
       return null;
   }
@@ -1030,8 +1228,7 @@ function getRacesSetFilter(value: string): Set<string> | null {
 
 function defineRaceExpansionism(name: string): number {
   const sizeVarietyElement = findEl<HTMLInputElement>("sizeVariety");
-  const variety =
-    (sizeVarietyElement && (sizeVarietyElement.valueAsNumber || +sizeVarietyElement.value)) || 1;
+  const variety = (sizeVarietyElement && (sizeVarietyElement.valueAsNumber || +sizeVarietyElement.value)) || 1;
 
   let base = 1;
 
@@ -1053,11 +1250,9 @@ function defineRaceExpansionism(name: string): number {
   else if (name === "Hobgoblin") base = 1.5;
   else if (name === "Goliath") base = 0.9;
   else if (name === "Lizardfolk") base = 1.2;
-  else if (name === "Shifter") base = 1.2;
   else if (name === "Gnoll") base = 1.3;
   else if (name === "Bugbear") base = 1.1;
   else if (name === "Tabaxi") base = 1.2;
-  else if (name === "Warforged") base = 1.0;
   else if (name === "Kenku") base = 1.0;
   else if (name === "Aarakocra") base = 0.9;
   else if (name === "Dragonborn") base = 1.3;
@@ -1066,25 +1261,17 @@ function defineRaceExpansionism(name: string): number {
   else if (name === "Firbolg") base = 0.9;
   else if (name === "Gith") base = 1.2;
   else if (name === "Genasi") base = 1.1;
-  else if (name === "Changeling") base = 1.0;
   else if (name === "Satyr") base = 1.1;
   else if (name === "Minotaur") base = 1.4;
-  else if (name === "Kalashtar") base = 0.9;
   else if (name === "Kobold") base = 1.3;
   else if (name === "Duergar") base = 0.9;
-  else if (name === "Dhampir") base = 1.2;
-  else if (name === "Reborn") base = 1.0;
   else if (name === "Shadar-kai") base = 1.0;
-  else if (name === "Hexblood") base = 1.1;
   else if (name === "Centaur") base = 1.2;
   else if (name === "Leonin") base = 1.1;
   else if (name === "Loxodon") base = 0.9;
   else if (name === "Harengon") base = 1.3;
   else if (name === "Tortle") base = 0.8;
-  else if (name === "Giff") base = 1.0;
   else if (name === "Owlin") base = 1.0;
-  else if (name === "Thri-Kreen") base = 1.3;
-  else if (name === "Oni") base = 1.2;
   else if (name === "Kitsune") base = 1.0;
   else if (name === "Deepkin") base = 0.8;
   else if (name === "Starspawn") base = 0.7;
@@ -1096,12 +1283,18 @@ function defineRaceExpansionism(name: string): number {
 
 function getRaceNameForCulture(culture: any): string {
   if (!culture || !culture.i || culture.removed) return "Human";
+
+  // Primary: explicit race name string assigned to the culture
   if (typeof culture.race === "string" && culture.race !== "None" && culture.race !== "") return culture.race;
+
+  // Secondary: numeric race index into pack.races
   if (culture.race != null && typeof culture.race === "number" && pack && Array.isArray((pack as any).races)) {
     const race = (pack as any).races[culture.race];
     const raceName = race && typeof race.name === "string" ? race.name : "";
     if (raceName && raceName !== "None") return raceName;
   }
+
+  // Tertiary: check if culture.base maps to a known fantasy race base
   const base = culture.base;
   const nameBases = getNameBases();
 
@@ -1109,43 +1302,10 @@ function getRaceNameForCulture(culture: any): string {
     if (bases.includes(base)) return raceName;
   }
 
+  // Quaternary: check if the namebase is marked as a race mixer base
   const baseEntry = nameBases && nameBases[base];
   const markedRace = baseEntry && typeof baseEntry.raceMixerFor === "string" ? baseEntry.raceMixerFor : "";
   if (markedRace && fantasyRaceBases[markedRace]) return markedRace;
-  const baseName = baseEntry && typeof baseEntry.name === "string" ? baseEntry.name : "";
-
-  const baseSuffixMatch = /\(([^()]+)\)\s*$/.exec(baseName);
-  if (baseSuffixMatch) {
-    const suffix = baseSuffixMatch[1] ? baseSuffixMatch[1].trim() : "";
-    if (suffix && fantasyRaceBases[suffix]) return suffix;
-  }
-
-  const match = /^Race\s+(.+)\s+\(Mixer\)$/.exec(baseName);
-  if (match && match[1] && fantasyRaceBases[match[1]]) return match[1];
-
-  const cultureName = typeof culture.name === "string" ? culture.name : "";
-  const cultureSuffixMatch = /\(([^()]+)\)\s*$/.exec(cultureName);
-  if (cultureSuffixMatch) {
-    const raw = cultureSuffixMatch[1] ? cultureSuffixMatch[1].trim() : "";
-    if (raw && fantasyRaceBases[raw]) return raw;
-    if (raw && raw.endsWith("s")) {
-      const singular = raw.slice(0, -1).trim();
-      if (singular && fantasyRaceBases[singular]) return singular;
-    }
-    if (raw && raw.endsWith("ish")) {
-      const stem = raw.slice(0, -3).trim();
-      if (stem && fantasyRaceBases[stem]) return stem;
-    }
-    const adjectiveMap: Record<string, string> = {
-      Dwarven: "Dwarf",
-      Elfish: "Elf",
-      "Dark Elfish": "Dark Elf",
-      Elven: "Elf",
-      "Half-Orcish": "Half-Orc"
-    };
-    const mapped = adjectiveMap[raw];
-    if (mapped && fantasyRaceBases[mapped]) return mapped;
-  }
 
   return "Human";
 }
@@ -1190,28 +1350,39 @@ function initializeRacesForExpansion(options?: { forceFilterFromUi?: boolean; sk
     const racesSetFilter = getRacesSetFilter(racesSetValue);
 
     const racesNumberElement = findEl<HTMLInputElement>("racesNumber");
-    const racesLimitRaw =
-      (racesNumberElement && (racesNumberElement.valueAsNumber || +racesNumberElement.value)) || 0;
+    const racesLimitRaw = (racesNumberElement && (racesNumberElement.valueAsNumber || +racesNumberElement.value)) || 0;
     const maxNonHumanRaces = racesLimitRaw > 0 ? racesLimitRaw : Infinity;
 
-    if (racesSetFilter && maxNonHumanRaces === Infinity) {
-      allowedRaces = racesSetFilter;
-    } else if (maxNonHumanRaces !== Infinity) {
+    // Build the full pool of eligible non-human races from fantasyRaceBases,
+    // constrained only by the UI races set filter. This ensures races not
+    // currently on the map remain eligible (prevents race extinction on reroll).
+    const allNonHumanRaces = Array.from(Object.keys(fantasyRaceBases)).filter(r => r !== "Human");
+    const uiFilteredRaces = racesSetFilter ? allNonHumanRaces.filter(r => racesSetFilter.has(r)) : allNonHumanRaces;
+
+    if (maxNonHumanRaces === Infinity) {
+      allowedRaces = new Set(uiFilteredRaces);
+    } else if (uiFilteredRaces.length > 0) {
+      // Prioritize races currently on the map (by culture count), then fill
+      // remaining slots from the eligible pool.
       const raceNeedCounts = new Map<string, number>();
       pack.cultures.forEach(culture => {
         if (!culture || !culture.i || culture.removed) return;
         const raceName = getRaceNameForCulture(culture);
-        if (!raceName) return;
-        if (racesSetFilter && !racesSetFilter.has(raceName)) return;
+        if (!raceName || raceName === "Human") return;
+        if (!uiFilteredRaces.includes(raceName)) return;
         raceNeedCounts.set(raceName, (raceNeedCounts.get(raceName) || 0) + 1);
       });
 
-      const sortedRaceNames = Array.from(raceNeedCounts.entries())
+      const currentRaces = Array.from(raceNeedCounts.entries())
         .sort((a, b) => b[1] - a[1])
         .map(entry => entry[0]);
 
-      allowedRaces = new Set(sortedRaceNames.slice(0, maxNonHumanRaces));
+      const newRaces = uiFilteredRaces.filter(r => !raceNeedCounts.has(r));
+      const combined = [...currentRaces, ...newRaces];
+
+      allowedRaces = new Set(combined.slice(0, maxNonHumanRaces));
     }
+    if (allowedRaces) allowedRaces.add("Human");
   }
 
   existingRaces.forEach((race: any) => {
@@ -1235,8 +1406,13 @@ function initializeRacesForExpansion(options?: { forceFilterFromUi?: boolean; sk
     }
 
     if (raceName && raceName !== "Human") {
-      const baseIndex = ensureRaceMixerBaseIndex(raceName);
-      if (typeof baseIndex === "number") culture.base = baseIndex;
+      const nameBases = getNameBases();
+      const currentBase = nameBases && nameBases[culture.base];
+      const hasCultureMixer = currentBase && currentBase.cultureMixer && currentBase.cultureMixerFor === culture.i;
+      if (!hasCultureMixer) {
+        const baseIndex = ensureRaceMixerBaseIndex(raceName);
+        if (typeof baseIndex === "number") culture.base = baseIndex;
+      }
     }
     const id = raceIndexByName.get(raceName);
     if (!id) {
@@ -1271,40 +1447,57 @@ function rerollRacesForCultures(options?: { forceFilterFromUi?: boolean }): void
   const packAny = pack as any;
 
   let allowedRaces: Set<string> | null = null;
+  // Read non-human chance from slider (0-100%, default 35%)
+  let nonHumanChance = 0.35;
   if (forceFilterFromUi) {
     const racesSetElement = findEl<HTMLSelectElement>("racesSet");
     const racesSetValue = racesSetElement ? racesSetElement.value : "all";
     const racesSetFilter = getRacesSetFilter(racesSetValue);
 
     const racesNumberElement = findEl<HTMLInputElement>("racesNumber");
-    const racesLimitRaw =
-      (racesNumberElement && (racesNumberElement.valueAsNumber || +racesNumberElement.value)) || 0;
+    const racesLimitRaw = (racesNumberElement && (racesNumberElement.valueAsNumber || +racesNumberElement.value)) || 0;
     const maxNonHumanRaces = racesLimitRaw > 0 ? racesLimitRaw : Infinity;
 
-    if (racesSetFilter && maxNonHumanRaces === Infinity) {
-      allowedRaces = racesSetFilter;
-    } else if (maxNonHumanRaces !== Infinity) {
+    const racesNonHumanChanceElement = findEl<HTMLInputElement>("racesNonHumanChance");
+    const nonHumanChancePercent = (racesNonHumanChanceElement && (racesNonHumanChanceElement.valueAsNumber ?? +racesNonHumanChanceElement.value)) ?? 35;
+    nonHumanChance = nonHumanChancePercent / 100;
+
+    // Build the full pool of eligible non-human races from fantasyRaceBases,
+    // constrained only by the UI races set filter. This ensures races not
+    // currently on the map remain eligible (prevents race extinction on reroll).
+    const allNonHumanRaces = Array.from(Object.keys(fantasyRaceBases)).filter(r => r !== "Human");
+    const uiFilteredRaces = racesSetFilter ? allNonHumanRaces.filter(r => racesSetFilter.has(r)) : allNonHumanRaces;
+
+    if (maxNonHumanRaces === Infinity) {
+      allowedRaces = new Set(uiFilteredRaces);
+    } else if (uiFilteredRaces.length > 0) {
+      // Prioritize races currently on the map (by culture count), then fill
+      // remaining slots from the eligible pool. This keeps the most common
+      // races while still allowing diversity.
       const raceNeedCounts = new Map<string, number>();
       pack.cultures.forEach(culture => {
         if (!culture || !culture.i || culture.removed) return;
         const raceName = getRaceNameForCulture(culture);
-        if (!raceName) return;
-        if (racesSetFilter && !racesSetFilter.has(raceName)) return;
+        if (!raceName || raceName === "Human") return;
+        if (!uiFilteredRaces.includes(raceName)) return;
         raceNeedCounts.set(raceName, (raceNeedCounts.get(raceName) || 0) + 1);
       });
 
-      const sortedRaceNames = Array.from(raceNeedCounts.entries())
+      const currentRaces = Array.from(raceNeedCounts.entries())
         .sort((a, b) => b[1] - a[1])
         .map(entry => entry[0]);
 
-      allowedRaces = new Set(sortedRaceNames.slice(0, maxNonHumanRaces));
+      // Fill remaining slots with races not currently on the map
+      const newRaces = uiFilteredRaces.filter(r => !raceNeedCounts.has(r));
+      const combined = [...currentRaces, ...newRaces];
+
+      allowedRaces = new Set(combined.slice(0, maxNonHumanRaces));
     }
+    if (allowedRaces) allowedRaces.add("Human");
   }
 
   const nonHumanPool = Array.from(Object.keys(fantasyRaceBases)).filter(r => r !== "Human");
-  const filteredNonHumanPool = allowedRaces
-    ? nonHumanPool.filter(r => allowedRaces.has(r))
-    : nonHumanPool;
+  const filteredNonHumanPool = allowedRaces ? nonHumanPool.filter(r => allowedRaces.has(r)) : nonHumanPool;
 
   const races: { i: number; name: string; color?: string; expansionism?: number }[] = [{ i: 0, name: "None" }];
   const raceIndexByName = new Map<string, number>();
@@ -1332,14 +1525,21 @@ function rerollRacesForCultures(options?: { forceFilterFromUi?: boolean }): void
       return;
     }
 
-    const isNonHuman = filteredNonHumanPool.length > 0 && Math.random() < 0.35;
+    const isNonHuman = filteredNonHumanPool.length > 0 && Math.random() < nonHumanChance;
     const raceName = isNonHuman ? pickNonHumanRace() : "Human";
     const raceId = ensureRaceId(raceName);
     culture.race = raceId;
 
+    // Only assign a race mixer base if the culture doesn't already have
+    // a culture-specific mixer base (preserves unique per-culture names)
     if (raceName) {
-      const baseIndex = ensureRaceMixerBaseIndex(raceName);
-      if (typeof baseIndex === "number") culture.base = baseIndex;
+      const nameBases = getNameBases();
+      const currentBase = nameBases && nameBases[culture.base];
+      const hasCultureMixer = currentBase && currentBase.cultureMixer && currentBase.cultureMixerFor === culture.i;
+      if (!hasCultureMixer) {
+        const baseIndex = ensureRaceMixerBaseIndex(raceName);
+        if (typeof baseIndex === "number") culture.base = baseIndex;
+      }
     }
 
     if (raceId && !raceColorById[raceId] && culture.color) raceColorById[raceId] = culture.color;
@@ -1363,10 +1563,10 @@ function syncCultureBasesToDominantRace(): void {
   if (!Array.isArray(cultures) || !Array.isArray(races) || races.length < 1) return;
   if (typeof ensureRaceMixerBaseIndex !== "function") return;
 
-  const countsByCulture: Record<number, Record<number, number>[]> = [];
-  const countsByState: { [key: number]: Record<number, number> } = [];
-  const countsByProvince: { [key: number]: Record<number, number> } = [];
-  const countsByReligion: { [key: number]: Record<number, number> } = [];
+  const countsByCulture: Record<number, Record<number, number>> = {};
+  const countsByState: { [key: number]: Record<number, number> } = {};
+  const countsByProvince: { [key: number]: Record<number, number> } = {};
+  const countsByReligion: { [key: number]: Record<number, number> } = {};
 
   for (const i of cells.i) {
     if (cells.h && cells.h[i] < 20) continue;
@@ -1375,6 +1575,9 @@ function syncCultureBasesToDominantRace(): void {
     const raceId = cells.race[i] || 0;
     if (!raceId) continue;
     if (!races || !races[raceId]) continue;
+
+    const cultureBucket = (countsByCulture[cultureId] = countsByCulture[cultureId] || {});
+    cultureBucket[raceId] = (cultureBucket[raceId] || 0) + 1;
 
     const stateId = cells.state ? cells.state[i] : 0;
     if (stateId) {
@@ -1475,8 +1678,15 @@ function syncCultureBasesToDominantRace(): void {
     const race = races[bestRaceId];
     const raceName = race && typeof race.name === "string" ? race.name : "";
     if (raceName && raceName !== "Human") {
-      const baseIndex = ensureRaceMixerBaseIndex(raceName);
-      if (typeof baseIndex === "number") culture.base = baseIndex;
+      // Only assign a race mixer base if the culture doesn't already have
+      // a culture-specific mixer base (preserves unique per-culture names)
+      const nameBases = getNameBases();
+      const currentBase = nameBases && nameBases[culture.base];
+      const hasCultureMixer = currentBase && currentBase.cultureMixer && currentBase.cultureMixerFor === culture.i;
+      if (!hasCultureMixer) {
+        const baseIndex = ensureRaceMixerBaseIndex(raceName);
+        if (typeof baseIndex === "number") culture.base = baseIndex;
+      }
     }
   }
 }
@@ -1670,33 +1880,119 @@ function assignRaces(): void {
 
   try {
     syncCultureBasesToDominantRace();
-  } catch (e) { }
+  } catch (_e) {}
+}
+
+// Race-to-shield mapping for fantasy culture generation
+const raceShields: Record<string, string> = {
+  Elf: "gondor",
+  "Dark Elf": "hessen",
+  Dwarf: "erebor",
+  Goblin: "moriaOrc",
+  Orc: "urukHai",
+  Giant: "pavise",
+  Draconic: "fantasy2",
+  Arachnid: "horsehead2",
+  Serpent: "fantasy1",
+  Human: "fantasy5",
+  Halfling: "fantasy4",
+  Gnome: "fantasy5",
+  "Half-Elf": "gondor",
+  "Half-Orc": "urukHai",
+  Tiefling: "fantasy2",
+  Aasimar: "fantasy5",
+  Hobgoblin: "moriaOrc",
+  Goliath: "pavise",
+  Lizardfolk: "horsehead2",
+  Gnoll: "moriaOrc",
+  Bugbear: "urukHai",
+  Tabaxi: "fantasy4",
+  Kenku: "fantasy5",
+  Aarakocra: "fantasy5",
+  Dragonborn: "fantasy2",
+  Triton: "fantasy1",
+  "Yuan-ti": "fantasy1",
+  Firbolg: "fantasy4",
+  Gith: "fantasy2",
+  Genasi: "fantasy2",
+  Satyr: "fantasy4",
+  Minotaur: "urukHai",
+  Kobold: "moriaOrc",
+  Duergar: "erebor",
+  "Shadar-kai": "fantasy1",
+  Centaur: "fantasy4",
+  Leonin: "fantasy5",
+  Loxodon: "pavise",
+  Harengon: "fantasy4",
+  Tortle: "fantasy4",
+  Owlin: "fantasy5",
+  Kitsune: "fantasy5",
+  Deepkin: "fantasy1",
+  Starspawn: "fantasy2",
+  Scions: "fantasy5",
+  Seafarer: "fantasy5"
+};
+
+const fallbackFantasyShields = ["fantasy1", "fantasy2", "fantasy4", "fantasy5", "gondor", "erebor", "pavise"];
+
+function getRaceShield(raceName: string): string {
+  if (raceShields[raceName]) return raceShields[raceName];
+  let hash = 0;
+  for (let i = 0; i < raceName.length; i++) {
+    hash = (hash * 31 + raceName.charCodeAt(i)) >>> 0;
+  }
+  return fallbackFantasyShields[hash % fallbackFantasyShields.length];
+}
+
+interface RaceCultureProps {
+  base: number;
+  shield: string;
+  odd: number;
+}
+
+function getRaceCultureProps(raceName: string): RaceCultureProps | null {
+  const bases = fantasyRaceBases[raceName];
+  if (!bases || !bases.length) return null;
+  const base = bases[0];
+  const shield = getRaceShield(raceName);
+  const expansionism = defineRaceExpansionism(raceName);
+  const odd = Math.max(0.3, Math.min(1, expansionism / 1.6));
+  return { base, shield, odd };
 }
 
 // Expose the canonical race list for UI consumers (e.g. cultures editor dropdown)
 window.fantasyRaceNames = Object.keys(fantasyRaceBases);
 
 export {
-  fantasyRaceBases,
-  raceLanguageProfiles,
-  getRaceLanguageProfile,
-  getFallbackRaceMixerIsoWeights,
-  loadLanguageMixerCatalogForRaces,
-  getRaceLanguageIsoWeights,
-  generateRaceLanguageNames,
-  getRaceMixerBaseDisplayName,
-  isBadRaceMixerDisplayName,
+  assignRaces,
   buildRaceMixerLanguageDisplayName,
-  hashStringToUint32,
-  findExistingRaceMixerBaseIndex,
-  getRaceDefaultBaseIndex,
-  ensureRaceMixerBaseIndex,
-  getRacesSetFilter,
   defineRaceExpansionism,
+  ensureRaceMixerBaseIndex,
+  fantasyRaceBases,
+  findExistingRaceMixerBaseIndex,
+  generateRaceLanguageNames,
+  getFallbackRaceMixerIsoWeights,
+  getRaceCultureProps,
+  getRaceDefaultBaseIndex,
+  getRaceLanguageIsoWeights,
+  getRaceLanguageProfile,
+  getRaceMixerBaseDisplayName,
   getRaceNameForCulture,
-  shouldEnableRacesForCurrentWorld,
+  getRacesSetFilter,
+  hashStringToUint32,
   initializeRacesForExpansion,
+  isBadRaceMixerDisplayName,
+  loadLanguageMixerCatalogForRaces,
+  raceLanguageProfiles,
   rerollRacesForCultures,
-  syncCultureBasesToDominantRace,
-  assignRaces
+  shouldEnableRacesForCurrentWorld,
+  syncCultureBasesToDominantRace
 };
+
+// Expose race functions to legacy JS (public/main.js, options.js)
+window.initializeRacesForExpansion = initializeRacesForExpansion;
+window.assignRaces = assignRaces;
+window.rerollRacesForCultures = rerollRacesForCultures;
+window.getRaceNameForCulture = getRaceNameForCulture;
+window.getRacesSetFilter = getRacesSetFilter;
+window.getRaceCultureProps = getRaceCultureProps;

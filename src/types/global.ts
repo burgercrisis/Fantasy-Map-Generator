@@ -5,8 +5,8 @@ import type { GoodsModule } from "../generators/goods-generator";
 import type {
   LanguageMixerCatalogEntry,
   LanguageMixerMapEntry,
-  PostMixedLanguage,
-  LanguageSoftmodRawBundle
+  LanguageSoftmodRawBundle,
+  PostMixedLanguage
 } from "../generators/language-softmods";
 import type { MarketsModule } from "../generators/markets-generator";
 import type { ProductionModule } from "../generators/production-generator";

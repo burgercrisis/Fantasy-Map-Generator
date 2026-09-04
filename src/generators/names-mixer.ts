@@ -15,9 +15,9 @@
  */
 
 import { tip } from "@/components/tooltips";
-import { type NameBase } from "@/data/name-bases";
-import { isVowel } from "@/utils/languageUtils";
+import type { NameBase } from "@/data/name-bases";
 import { last } from "@/utils/arrayUtils";
+import { isVowel } from "@/utils/languageUtils";
 import { ra } from "@/utils/probabilityUtils";
 import type { LanguageMixerMapEntry } from "./language-softmods";
 
@@ -177,158 +177,142 @@ const ISO_TO_MAP_KEY: Record<string, string> = {
   eu: "basque-icelandic-pidgin",
   ca: "central-catalan",
   ro: "romanian",
-  bg: "bulgarian",
-  hr: "croatian",
-  sr: "serbian",
-  sl: "slovenian",
-  et: "estonian",
-  lv: "latvian",
-  lt: "lithuanian",
-  sq: "albanian",
-  mk: "macedonian",
-  bs: "bosnian",
-  mt: "maltese",
-  af: "afrikaans",
-  am: "amharic",
-  yo: "yoruba",
-  ig: "igbo",
-  ha: "hausa",
-  so: "somali",
-  mg: "malagasy",
-  xh: "xhosa",
-  zu: "zulu",
-  st: "southern-sotho",
-  tn: "tswana",
-  ve: "venda",
-  ts: "tsonga",
-  ss: "swati",
-  nr: "southern-ndebele",
-  nd: "northern-ndebele",
-  lo: "lao",
-  km: "khmer",
-  my: "burmese",
-  mn: "mongolian",
-  uz: "uzbek",
-  kk: "kazakh",
-  ky: "kyrgyz",
-  tk: "turkmen",
-  tg: "tajik",
-  az: "azerbaijani",
-  ka: "georgian",
-  hy: "armenian",
-  ne: "nepali",
-  si: "sinhala",
-  mi: "maori",
+  // ISO 639-3 (3-letter) -> mixer map key (from original names-mixer.js)
+  eng: "eng",
+  fra: "standard-french",
+  spa: "spa",
+  ita: "standard-italian",
+  deu: "standard-german",
+  por: "european-portuguese",
+  rus: "rus",
+  jpn: "japanese-dialects",
+  kor: "korean-bamboo-english",
+  cmn: "beijing-mandarin",
+  ara: "arabic-javanese-of-klego",
+  hin: "hindustani",
+  ben: "bengali",
+  pan: "punjabi",
+  tur: "turkish",
+  vie: "vie",
+  tha: "thai",
+  fas: "persian",
+  urd: "urdu",
+  ind: "indonesian",
+  msa: "alor-malay",
+  swh: "settler-swahili",
+  tgl: "tagalog",
+  ell: "greek",
+  heb: "hebrew",
+  ukr: "ukrainian",
+  pol: "polish",
+  ces: "czech",
+  slk: "slovak",
+  hun: "old-hungarian",
+  fin: "standard-finnish",
+  swe: "swedish",
+  nor: "norwegian",
+  dan: "danish",
+  isl: "icelandic",
+  gle: "irish",
+  cym: "welsh",
+  eus: "basque-icelandic-pidgin",
+  cat: "central-catalan",
+  ron: "romanian",
+  bul: "bulgarian",
+  hrv: "croatian",
+  srp: "serbian",
+  slv: "slovenian",
+  est: "estonian",
+  lav: "latvian",
+  lit: "lithuanian",
+  sqi: "albanian",
+  mkd: "macedonian",
+  bos: "bosnian",
+  mlt: "maltese",
+  afr: "afrikaans",
+  amh: "amharic",
+  yor: "yoruba",
+  ibo: "igbo",
+  hau: "hausa",
+  som: "somali",
+  mlg: "malagasy",
+  xho: "xhosa",
+  zul: "zulu",
+  sot: "southern-sotho",
+  tsn: "tswana",
+  ven: "venda",
+  tso: "tsonga",
+  ssw: "swati",
+  nde: "southern-ndebele",
+  ndo: "northern-ndebele",
+  loz: "lozi",
+  nya: "chichewa",
+  lao: "lao",
+  khm: "khm",
+  mya: "burmese",
+  mon: "mongolian",
+  uzb: "uzbek",
+  kaz: "kazakh",
+  kir: "kyrgyz",
+  tuk: "turkmen",
+  tgk: "tajik",
+  aze: "azerbaijani",
+  kat: "georgian",
+  hye: "armenian",
+  asm: "assamese",
+  mri: "maori",
   haw: "hawaiian",
-  sm: "samoan",
-  to: "tongan",
-  fj: "fijian",
-  qu: "quechua",
-  ay: "aymara",
-  gn: "guarani",
+  smo: "samoan",
+  ton: "tongan",
+  fij: "fijian",
+  que: "que",
+  aym: "aymara",
+  grn: "guarani",
+  arn: "mapudungun",
   nah: "nahuatl",
   chr: "cherokee",
-  nv: "navajo",
-  iu: "inuktitut",
-  kl: "kalaallisut",
-  fo: "faroese",
-  ik: "inupiaq",
-  oj: "ojibwe",
-  cr: "cree",
+  nav: "navajo",
+  iku: "inuktitut",
+  kal: "kalaallisut",
+  fao: "faroese",
+  ipk: "inupiaq",
+  oji: "ojibwe",
+  cre: "plains-cree",
   dak: "dakota",
   gla: "scots-gaelic",
-  br: "breton",
-  co: "corsican",
-  rm: "romansh",
+  bre: "breton",
+  cor: "corsican",
+  roh: "romansh",
   fur: "friulian",
   lad: "ladino",
-  sc: "sardinian",
+  srd: "sardinian",
   ast: "asturian",
-  an: "aragonese",
+  arg: "aragonese",
+  ext: "extremaduran",
+  mwl: "mirandese",
   lmo: "lombard",
   pms: "piemontese",
   vec: "venetian",
   lld: "ladin",
   scn: "sicilian",
   nap: "neapolitan",
-  mwl: "mirandese",
-  ext: "extremaduran",
+  pdt: "plautdietsch",
   wae: "walser",
   gsw: "swiss-german",
   nds: "low-german",
   ksh: "colognian",
-  gu: "gujarati",
-  mr: "marathi",
-  te: "telugu",
-  ta: "tamil",
-  kn: "kannada",
-  ml: "malayalam",
-  or: "oriya",
-  as: "assamese",
-  bo: "tibetan",
-  dz: "dzongkha",
-  jv: "javanese",
-  su: "sundanese",
-  ceb: "cebuano",
-  ilo: "ilocano",
-  war: "waray",
-  pam: "pampangan",
-  bcl: "bikol",
-  pag: "pangasinan",
-  mad: "madurese",
-  ace: "acehnese",
-  bjn: "banjar",
-  mak: "makassarese",
-  bug: "buginese",
-  min: "minangkabau",
-  lg: "ganda",
-  ln: "lingala",
-  kg: "kongo",
-  lua: "luba-kasai",
-  kin: "kinyarwanda",
-  rn: "kirundi",
-  rw: "kinyarwanda",
-  ks: "kashmiri",
-  doi: "dogri",
-  brx: "bodo",
-  mni: "manipuri",
-  sat: "santali",
-  kha: "khasi",
-  kok: "konkani",
-  sa: "sanskrit",
-  bho: "bhojpuri",
-  mag: "magahi",
-  mai: "maithili",
-  awa: "awadhi",
-  rom: "romani",
-  rmy: "vlax-romani",
-  rmn: "balkan-romani",
-  kbd: "kabardian",
-  ady: "adyghe",
-  ava: "avar",
-  che: "chechen",
-  inh: "ingush",
-  os: "ossetian",
-  ab: "abkhazian",
-  av: "avar",
-  abk: "abkhazian",
-  lbe: "lak",
-  lez: "lezgian",
-  tab: "tabassaran",
-  rut: "rutul",
-  sah: "yakut",
-  alt: "altai",
-  tyv: "tuvinian",
-  chg: "shughni",
-  krc: "karachay-balkar",
-  kum: "kumyk",
-  nog: "nogai",
-  ba: "bashkir",
-  tt: "tatar",
-  crh: "crimean-tatar",
-  din: "dinka",
-  kal: "kalaallisut",
-  fao: "faroese"
+  guj: "gujarati",
+  mar: "marathi",
+  tel: "telugu",
+  tam: "tamil",
+  kan: "kannada",
+  mal: "malayalam",
+  ori: "oriya",
+  bod: "tibetan",
+  dzo: "dzongkha",
+  sin: "sinhala",
+  div: "dhivehi",
+  nep: "nepali"
 };
 
 // ---------------------------------------------------------------------------
@@ -348,6 +332,141 @@ function getNameBases(): NameBase[] {
 /** Get the last character of a string (or empty string if empty). */
 function lastChar(s: string): string {
   return s[s.length - 1] || "";
+}
+
+// ---------------------------------------------------------------------------
+// Index correction: mixer map indices may not match actual namebase indices
+// ---------------------------------------------------------------------------
+
+// Cache for corrected mixer map indices
+let _indexCorrectionMap: Map<number, number> | null = null;
+
+/**
+ * Builds a lookup table that maps incorrect mixer map indices to correct
+ * namebase indices. This is needed because the mixer map was generated with
+ * indices that don't always match the actual namebase array indices.
+ *
+ * The correction uses the language mixer catalog to map ISO codes to expected
+ * language names, then finds the matching namebase. This handles cases where:
+ * 1. The mixer map index points to a non-existent namebase (invalid index)
+ * 2. The mixer map index points to the wrong namebase (wrong language)
+ */
+function buildIndexCorrectionMap(): Map<number, number> {
+  if (_indexCorrectionMap) return _indexCorrectionMap;
+
+  const correctionMap = new Map<number, number>();
+  const nameBases = getNameBases();
+  const map = loadLanguageMixerMapSync();
+
+  if (!nameBases.length || !map.length) {
+    _indexCorrectionMap = correctionMap;
+    return correctionMap;
+  }
+
+  // Build a name-to-index lookup for valid namebases
+  const nameToIndex = new Map<string, number>();
+  for (let i = 0; i < nameBases.length; i++) {
+    const nb = nameBases[i];
+    if (nb && nb.name && nb.b && nb.b.length > 0) {
+      const normalizedName = nb.name.toLowerCase().trim();
+      if (!nameToIndex.has(normalizedName)) {
+        nameToIndex.set(normalizedName, i);
+      }
+    }
+  }
+
+  // Build ISO-to-expected-name mapping from the language mixer catalog
+  const isoToExpectedName = new Map<string, string>();
+  const catalog = Array.isArray(window.languageMixerCatalog) ? window.languageMixerCatalog : [];
+  for (const entry of catalog) {
+    if (entry && entry.iso && entry.name) {
+      const isoLower = entry.iso.toLowerCase().trim();
+      if (!isoToExpectedName.has(isoLower)) {
+        isoToExpectedName.set(isoLower, entry.name.toLowerCase().trim());
+      }
+    }
+  }
+
+  // For each entry in the mixer map, check if the index resolves to the
+  // correct namebase. If not, try to find the correct index.
+  for (const entry of map) {
+    if (!entry || !entry.iso || !Array.isArray(entry.bases)) continue;
+
+    const isoLower = entry.iso.toLowerCase().trim();
+    const expectedName = isoToExpectedName.get(isoLower);
+
+    for (const baseIdx of entry.bases) {
+      // Skip if already corrected
+      if (correctionMap.has(baseIdx)) continue;
+
+      // Check if the index resolves to the correct namebase
+      const nb = nameBases[baseIdx];
+      const isValid = nb && nb.b && nb.b.length > 0 && nb.name;
+      const nameMatches = isValid && expectedName && nb.name.toLowerCase().trim() === expectedName;
+
+      if (isValid && (nameMatches || !expectedName)) {
+        // Index is valid and matches the expected language (or no expected name to check)
+        continue;
+      }
+
+      // Index is invalid or points to wrong namebase, try to find correct index
+      let correctIdx: number | undefined;
+
+      // Try to find by expected name from catalog
+      if (expectedName) {
+        correctIdx = nameToIndex.get(expectedName);
+      }
+
+      // Try exact ISO match
+      if (correctIdx === undefined) {
+        correctIdx = nameToIndex.get(isoLower);
+      }
+
+      // Try partial match (ISO code might be a variant like "gallo-picene")
+      if (correctIdx === undefined) {
+        for (const [name, idx] of nameToIndex) {
+          if (name.includes(isoLower) || isoLower.includes(name)) {
+            correctIdx = idx;
+            break;
+          }
+        }
+      }
+
+      // Try matching by removing common suffixes/prefixes
+      if (correctIdx === undefined) {
+        const cleaned = isoLower
+          .replace(/-/g, " ")
+          .replace(/\s+/g, " ")
+          .trim();
+        for (const [name, idx] of nameToIndex) {
+          const nameCleaned = name
+            .replace(/-/g, " ")
+            .replace(/\s+/g, " ")
+            .trim();
+          if (nameCleaned.includes(cleaned) || cleaned.includes(nameCleaned)) {
+            correctIdx = idx;
+            break;
+          }
+        }
+      }
+
+      if (correctIdx !== undefined) {
+        correctionMap.set(baseIdx, correctIdx);
+      }
+    }
+  }
+
+  _indexCorrectionMap = correctionMap;
+  return correctionMap;
+}
+
+/**
+ * Gets the corrected index for a mixer map base index.
+ * Returns the original index if no correction is needed or available.
+ */
+function getCorrectedIndex(baseIdx: number): number {
+  const correctionMap = buildIndexCorrectionMap();
+  return correctionMap.get(baseIdx) ?? baseIdx;
 }
 
 // ---------------------------------------------------------------------------
@@ -380,11 +499,7 @@ function loadLanguageMixerMapSync(): LanguageMixerMapEntry[] {
       if (xhr.status >= 200 && xhr.status < 300 && xhr.responseText) {
         _languageMixerMap = JSON.parse(xhr.responseText);
       } else {
-        console.error(
-          "Names.getMixedByIso: failed to load language-mixer-map.json",
-          xhr.status,
-          xhr.statusText
-        );
+        console.error("Names.getMixedByIso: failed to load language-mixer-map.json", xhr.status, xhr.statusText);
         _languageMixerMap = [];
       }
     } catch (e) {
@@ -409,9 +524,7 @@ function normalizeWeights(baseIndices: number[], weights?: number[]): number[] {
 
 function getMixerVersionOverride(): string {
   try {
-    const params = new URLSearchParams(
-      window.location && window.location.search ? window.location.search : ""
-    );
+    const params = new URLSearchParams(window.location && window.location.search ? window.location.search : "");
     const v = params.get("mixer");
     if (v) return String(v);
   } catch {
@@ -435,7 +548,7 @@ function shouldUseV19Mixer(): boolean {
 
 function makeRng(seed: number | undefined | null): () => number {
   if (seed === null || seed === undefined || Number.isNaN(seed)) return () => Math.random();
-  let x = (seed >>> 0) || 1;
+  let x = seed >>> 0 || 1;
   return () => {
     x += 0x6d2b79f5;
     let t = x;
@@ -635,10 +748,10 @@ function smoothJoin(a: string, b: string, onsetSet: Set<string>): string {
   if (laIsAscii && fbIsAscii && fb >= "A" && fb <= "Z") {
     const r = Math.random();
     if (r < 0.6) {
-      return a + " " + b;
+      return `${a} ${b}`;
     }
     if (r < 0.8) {
-      return a + "-" + b;
+      return `${a}-${b}`;
     }
     return a + fb.toLowerCase() + b.slice(1);
   }
@@ -725,8 +838,7 @@ function generateBlendedName(contexts: BlendedContext[], opts?: MixedBaseOptions
 
   const globalMin = opts?.min;
   const globalMax = opts?.max;
-  const maxSegments =
-    opts && typeof opts.maxSegments === "number" && opts.maxSegments > 0 ? opts.maxSegments : 4;
+  const maxSegments = opts && typeof opts.maxSegments === "number" && opts.maxSegments > 0 ? opts.maxSegments : 4;
 
   const fallbackMin = Math.min(...contexts.map(c => c.base.min || 4));
   const fallbackMax = Math.max(...contexts.map(c => c.base.max || fallbackMin + 4));
@@ -734,6 +846,11 @@ function generateBlendedName(contexts: BlendedContext[], opts?: MixedBaseOptions
   const requestedMin = typeof globalMin === "number" ? globalMin : fallbackMin;
   const requestedMax = typeof globalMax === "number" ? globalMax : fallbackMax;
   const targetLen = (requestedMin + requestedMax) / 2;
+
+  // Build a combined chain from ALL contexts for true hybrid mixing
+  const baseIndices = contexts.map(c => c.idx);
+  const combinedChain = calculateMixedChain(baseIndices);
+  const hasCombinedChain = combinedChain && combinedChain[""] !== undefined;
 
   function buildOnce(): { text: string; segInfos: SegmentInfo[] } {
     const segs: SegmentInfo[] = [];
@@ -771,7 +888,9 @@ function generateBlendedName(contexts: BlendedContext[], opts?: MixedBaseOptions
       const segMin = Math.max(2, Math.min(Math.round(jitteredMean), baseMax));
       const segMax = Math.max(segMin + 1, Math.min(baseMax, Math.round(jitteredMean + 2)));
 
-      const segText = generatePlainNameFromChain(ctx.chain, base, {
+      // Use combined chain for true hybrid mixing, fall back to per-base chain
+      const chain = hasCombinedChain ? combinedChain : ctx.chain;
+      const segText = generatePlainNameFromChain(chain, base, {
         min: segMin,
         max: segMax,
         dupl: base.d || ""
@@ -786,7 +905,9 @@ function generateBlendedName(contexts: BlendedContext[], opts?: MixedBaseOptions
     if (!segs.length) {
       const ctx = ra(contexts);
       const base = ctx.base;
-      const name = generatePlainNameFromChain(ctx.chain, base, {
+      // Use combined chain for true hybrid mixing, fall back to per-base chain
+      const chain = hasCombinedChain ? combinedChain : ctx.chain;
+      const name = generatePlainNameFromChain(chain, base, {
         min: requestedMin,
         max: requestedMax,
         dupl: base.d || ""
@@ -936,7 +1057,7 @@ function generateFromChain(chain: MarkovChain, baseConfig: NameBase, options?: M
   if (l === "'" || l === " " || l === "-") w = w.slice(0, -1);
 
   const duplStr = dupl || "";
-  let name = [...w].reduce(function (r, c, i, d) {
+  let name = [...w].reduce((r, c, i, d) => {
     if (c === d[i + 1] && !duplStr.includes(c)) return r;
     if (!r.length) return c.toUpperCase();
     if (r.slice(-1) === "-" && c === " ") return r;
@@ -954,11 +1075,28 @@ function generateFromChain(chain: MarkovChain, baseConfig: NameBase, options?: M
       .join("");
 
   if (name.length < 2) {
-    if (ERROR && !_mixedNameTooShortLogged) {
-      _mixedNameTooShortLogged = true;
-      console.error("Mixed name is too short! Random name will be selected");
+    // Name is too short - try to pick a random name from the base
+    const baseNames = baseConfig.b.split(",").filter(n => n.trim().length >= 2);
+    if (baseNames.length > 0) {
+      name = ra(baseNames);
+    } else {
+      // Base has no valid names - try fallback bases
+      const nameBases = getNameBases();
+      for (let i = 0; i < nameBases.length; i++) {
+        if (!nameBases[i] || !nameBases[i].b) continue;
+        const fallbackNames = nameBases[i].b.split(",").filter(n => n.trim().length >= 2);
+        if (fallbackNames.length > 0) {
+          name = ra(fallbackNames);
+          break;
+        }
+      }
     }
-    name = ra(baseConfig.b.split(","));
+    if (name.length < 2) {
+      if (ERROR && !_mixedNameTooShortLogged) {
+        _mixedNameTooShortLogged = true;
+        console.error("Mixed name is too short! Random name will be selected");
+      }
+    }
   }
 
   return sanitizeName(name);
@@ -987,12 +1125,9 @@ function getMixedBaseManyV19(baseIndices: number[], options?: MixedBaseOptions):
   const count = Math.max(1, Math.min(+((options && options.count) || 40), 200));
   const rng = makeRng(options && typeof options.seed === "number" ? options.seed : undefined);
 
-  const baseUniverse = Array.from(new Set(baseIndices)).filter(
-    n => typeof n === "number" && !Number.isNaN(n)
-  );
+  const baseUniverse = Array.from(new Set(baseIndices)).filter(n => typeof n === "number" && !Number.isNaN(n));
   const availableUniqueBases = baseUniverse.length;
-  const minUniqueBases =
-    options && typeof options.minUniqueBases === "number" ? options.minUniqueBases : undefined;
+  const minUniqueBases = options && typeof options.minUniqueBases === "number" ? options.minUniqueBases : undefined;
   const inferredMinUniqueBases =
     typeof minUniqueBases === "number"
       ? Math.max(1, Math.min(minUniqueBases, availableUniqueBases || 1))
@@ -1007,7 +1142,7 @@ function getMixedBaseManyV19(baseIndices: number[], options?: MixedBaseOptions):
 
   const IS_LETTER_RE = (() => {
     try {
-      return new RegExp("\\p{L}", "u");
+      return /\p{L}/u;
     } catch {
       return /[A-Za-z]/;
     }
@@ -1037,8 +1172,14 @@ function getMixedBaseManyV19(baseIndices: number[], options?: MixedBaseOptions):
 
   if (!ctxByIdx.size) return [];
 
-  const normalizeForRealism = (s: string | undefined): string =>
-    typeof s === "string" ? s.trim().toLowerCase() : "";
+  // Build a combined Markov chain from ALL source languages for true hybrid mixing.
+  // This allows syllables to cross language boundaries, creating novel hybrid names
+  // that blend phonemes from all source languages rather than concatenating segments
+  // from individual languages.
+  const combinedChain = calculateMixedChain(baseUniverse, options?.weights);
+  const hasCombinedChain = combinedChain && combinedChain[""] !== undefined;
+
+  const normalizeForRealism = (s: string | undefined): string => (typeof s === "string" ? s.trim().toLowerCase() : "");
 
   const buildSeedCorpusFromBases = (indices: number[]): string[] => {
     const uniq = Array.from(new Set(Array.isArray(indices) ? indices : []));
@@ -1056,10 +1197,7 @@ function getMixedBaseManyV19(baseIndices: number[], options?: MixedBaseOptions):
     return out;
   };
 
-  const buildCharGramCounts = (
-    texts: string[],
-    n: number
-  ): { counts: Map<string, number>; total: number } => {
+  const buildCharGramCounts = (texts: string[], n: number): { counts: Map<string, number>; total: number } => {
     const counts = new Map<string, number>();
     let total = 0;
     const nn = typeof n === "number" && n > 0 ? n : 3;
@@ -1067,7 +1205,7 @@ function getMixedBaseManyV19(baseIndices: number[], options?: MixedBaseOptions):
     for (const raw of Array.isArray(texts) ? texts : []) {
       const text = normalizeForRealism(raw);
       if (!text) continue;
-      const s = pad + text + "$";
+      const s = `${pad + text}$`;
       if (s.length < nn) continue;
       for (let i = 0; i <= s.length - nn; i++) {
         const g = s.slice(i, i + nn);
@@ -1093,7 +1231,7 @@ function getMixedBaseManyV19(baseIndices: number[], options?: MixedBaseOptions):
       const text = normalizeForRealism(raw);
       if (!text) continue;
       for (const ch of text) vocab.add(ch);
-      const s = pad + text + "$";
+      const s = `${pad + text}$`;
       if (s.length < nn) continue;
       for (let i = ctxLen; i < s.length; i++) {
         const ctx = s.slice(i - ctxLen, i);
@@ -1110,7 +1248,7 @@ function getMixedBaseManyV19(baseIndices: number[], options?: MixedBaseOptions):
     function scoreBpc(raw: string): { bpc: number | null; chars: number; oovChars: number } {
       const text = normalizeForRealism(raw);
       if (!text) return { bpc: null, chars: 0, oovChars: 0 };
-      const s = pad + text + "$";
+      const s = `${pad + text}$`;
       let bits = 0;
       let chars = 0;
       let oovChars = 0;
@@ -1151,9 +1289,7 @@ function getMixedBaseManyV19(baseIndices: number[], options?: MixedBaseOptions):
   const seedPaHead = seedHeadCounts.map(c => (c + 1) / seedDenom);
   const seedPaOther = (seedOther + 1) / seedDenom;
 
-  const buildHeadCountsForText = (
-    text: string
-  ): { headCounts: Uint16Array; total: number } => {
+  const buildHeadCountsForText = (text: string): { headCounts: Uint16Array; total: number } => {
     const headCounts = new Uint16Array(topSeedKeys.length);
     let total = 0;
     if (typeof text !== "string" || text.length < 3) return { headCounts, total: 0 };
@@ -1195,8 +1331,7 @@ function getMixedBaseManyV19(baseIndices: number[], options?: MixedBaseOptions):
     seedChars += chars;
   }
   const seedBpcMean = seedChars ? seedBits / seedChars : null;
-  const seedBpcTarget =
-    typeof seedBpcMean === "number" && isFinite(seedBpcMean) ? seedBpcMean + 0.08 : null;
+  const seedBpcTarget = typeof seedBpcMean === "number" && isFinite(seedBpcMean) ? seedBpcMean + 0.08 : null;
 
   const REALISM_LAMBDA = 4;
   const JS_LAMBDA = 8;
@@ -1279,10 +1414,7 @@ function getMixedBaseManyV19(baseIndices: number[], options?: MixedBaseOptions):
     return 0;
   };
 
-  const onsetOverlapScore = (
-    a: BlendedContext | null | undefined,
-    b: BlendedContext | null | undefined
-  ): number => {
+  const onsetOverlapScore = (a: BlendedContext | null | undefined, b: BlendedContext | null | undefined): number => {
     const setA = a && a.onsetSet ? a.onsetSet : null;
     const setB = b && b.onsetSet ? b.onsetSet : null;
     if (!setA || !setB || !setA.size || !setB.size) return 1;
@@ -1297,8 +1429,7 @@ function getMixedBaseManyV19(baseIndices: number[], options?: MixedBaseOptions):
 
   const weightedPick = <T>(items: T[], ws: number[]): T | null => {
     if (!Array.isArray(items) || !items.length) return null;
-    const weightsArr =
-      Array.isArray(ws) && ws.length === items.length ? ws : items.map(() => 1);
+    const weightsArr = Array.isArray(ws) && ws.length === items.length ? ws : items.map(() => 1);
     let total = 0;
     for (const w of weightsArr) total += Math.max(0, +w || 0);
     if (total <= 0) return items[Math.floor(rng() * items.length)]!;
@@ -1330,10 +1461,10 @@ function getMixedBaseManyV19(baseIndices: number[], options?: MixedBaseOptions):
     if (laIsAscii && fbIsAscii && fb >= "A" && fb <= "Z") {
       const r = rng();
       if (r < 0.6) {
-        return a + " " + b;
+        return `${a} ${b}`;
       }
       if (r < 0.8) {
-        return a + "-" + b;
+        return `${a}-${b}`;
       }
       return a + fb.toLowerCase() + b.slice(1);
     }
@@ -1367,12 +1498,7 @@ function getMixedBaseManyV19(baseIndices: number[], options?: MixedBaseOptions):
     return best;
   };
 
-  const pickNextSegFromBase = (
-    chain: MarkovChain,
-    compound: string,
-    prevChar: string,
-    prevSeg: string
-  ): string => {
+  const pickNextSegFromBase = (chain: MarkovChain, compound: string, prevChar: string, prevSeg: string): string => {
     const arr = (chain && (chain[prevChar] || chain[""])) || [];
     if (!Array.isArray(arr) || !arr.length) return "";
     let best = arr[Math.floor(rng() * arr.length)]!;
@@ -1436,7 +1562,7 @@ function getMixedBaseManyV19(baseIndices: number[], options?: MixedBaseOptions):
         if (lastNonSpacerBase != null && idx === lastNonSpacerBase) {
           const effectiveRun = runLen > 0 ? runLen : 1;
           if (effectiveRun >= 4) return 0;
-          ww *= Math.pow(0.35, Math.max(0, effectiveRun - 1));
+          ww *= 0.35 ** Math.max(0, effectiveRun - 1);
         }
 
         if (prevNonSpacerBase != null && idx === prevNonSpacerBase) ww *= 0.75;
@@ -1453,7 +1579,10 @@ function getMixedBaseManyV19(baseIndices: number[], options?: MixedBaseOptions):
 
       const currentBase = weightedPick(candidates, wts);
       const ctx = currentBase != null ? ctxByIdx.get(currentBase) : undefined;
-      const chain = ctx ? ctx!.chain : null;
+      // Use the combined chain for true hybrid mixing: syllables can cross
+      // language boundaries, blending phonemes from all source languages.
+      // Fall back to per-base chain if combined chain is unavailable.
+      const chain = hasCombinedChain ? combinedChain : ctx ? ctx!.chain : null;
       const cur = pickNextSegFromBase(chain!, compound, prevChar, prevSeg);
       if (cur === "") {
         if (compound.length < requestedMin) {
@@ -1528,7 +1657,7 @@ function getMixedBaseManyV19(baseIndices: number[], options?: MixedBaseOptions):
       }
     }
 
-    let name = [...compound].reduce(function (r, c, i, d) {
+    let name = [...compound].reduce((r, c, i, d) => {
       if (c === d[i + 1] && !"".includes(c)) return r;
       if (!r.length) return c.toUpperCase();
       if (r.slice(-1) === "-" && c === " ") return r;
@@ -1584,10 +1713,7 @@ function getMixedBaseManyV19(baseIndices: number[], options?: MixedBaseOptions):
       const norm = normalizeForRealism(candidate.text);
       const { bpc } = lm.scoreBpc(norm);
       const realismDelta =
-        typeof bpc === "number" &&
-        typeof seedBpcTarget === "number" &&
-        isFinite(bpc) &&
-        isFinite(seedBpcTarget)
+        typeof bpc === "number" && typeof seedBpcTarget === "number" && isFinite(bpc) && isFinite(seedBpcTarget)
           ? REALISM_LAMBDA * (bpc - seedBpcTarget)
           : 0;
 
@@ -1600,13 +1726,7 @@ function getMixedBaseManyV19(baseIndices: number[], options?: MixedBaseOptions):
       const dupPenalty = seenCount ? DUPLICATE_PENALTY * Math.min(3, seenCount) : 0;
 
       const delta =
-        Math.abs(len - target) +
-        rangePenalty -
-        diversityBonus +
-        realismDelta +
-        jsPenalty +
-        copyPenalty +
-        dupPenalty;
+        Math.abs(len - target) + rangePenalty - diversityBonus + realismDelta + jsPenalty + copyPenalty + dupPenalty;
       if (delta < bestDelta) {
         bestDelta = delta;
         best = candidate;
@@ -1747,7 +1867,7 @@ function resolveIsoToMapKey(iso: string, map: LanguageMixerMapEntry[]): string |
   if (tryMatch(k => k === norm)) return norm;
 
   // 2. ISO is the entire key except for a suffix
-  const prefixMatch = tryMatch(k => k.startsWith(norm + "-") || k.startsWith(norm + "_"));
+  const prefixMatch = tryMatch(k => k.startsWith(`${norm}-`) || k.startsWith(`${norm}_`));
   if (prefixMatch) return prefixMatch;
 
   // 3. The ISO code appears as a prefix or suffix separated by a dash
@@ -1761,10 +1881,7 @@ function resolveIsoToMapKey(iso: string, map: LanguageMixerMapEntry[]): string |
   return null;
 }
 
-export function getMixedByIso(
-  isoWeights: Record<string, number>,
-  options?: MixedByIsoOptions
-): string[] {
+export function getMixedByIso(isoWeights: Record<string, number>, options?: MixedByIsoOptions): string[] {
   const map = loadLanguageMixerMapSync();
 
   const baseIndices: number[] = [];
@@ -1788,15 +1905,28 @@ export function getMixedByIso(
       continue;
     }
 
-    // Skip entries whose base indices are "cover language" placeholders
-    const validBases = entry.bases.filter(b => {
-      if (b < 0 || !Number.isFinite(b)) return false;
-      const e = nameBases && nameBases[b];
-      if (!e) return false;
-      if (typeof e.b !== "string" || e.b.length === 0) return false;
-      if (!e.name || typeof e.name !== "string" || e.name.length === 0) return false;
-      return true;
-    });
+    // Resolve base indices using the corrected indices
+    // Always prefer corrected indices to ensure proper language mapping
+    const validBases = entry.bases
+      .map(b => {
+        // Always try to correct the index first
+        const corrected = getCorrectedIndex(b);
+        if (corrected !== b) {
+          const e = nameBases && nameBases[corrected];
+          if (e && typeof e.b === "string" && e.b.length > 0 && e.name && typeof e.name === "string" && e.name.length > 0) {
+            return corrected;
+          }
+        }
+        // Fall back to original index if valid
+        if (b >= 0 && Number.isFinite(b)) {
+          const e = nameBases && nameBases[b];
+          if (e && typeof e.b === "string" && e.b.length > 0 && e.name && typeof e.name === "string" && e.name.length > 0) {
+            return b;
+          }
+        }
+        return -1; // Invalid index
+      })
+      .filter(b => b >= 0);
     if (!validBases.length) {
       skipped.push(iso);
       continue;
@@ -1811,15 +1941,17 @@ export function getMixedByIso(
 
   if (!baseIndices.length) {
     if (skipped.length) {
-      tip(
-        `No local bases mapped for selected languages: ${skipped.join(", ")}${
-          resolved.length ? ` (tried: ${resolved.join(", ")})` : ""
-        }`,
-        false,
-        "warn"
-      );
+      // Only log as warning if all requested ISOs were skipped (no data available)
+      if (!resolved.length) {
+        tip(
+          `No local bases mapped for selected languages: ${skipped.join(", ")}`,
+          false,
+          "warn"
+        );
+      }
+      // Silently return [] — no error log for missing data,
+      // callers handle empty results gracefully
     }
-    ERROR && console.error("Names.getMixedByIso: no mapped bases for provided ISO codes");
     return [];
   }
 

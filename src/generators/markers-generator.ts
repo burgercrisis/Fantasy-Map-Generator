@@ -125,7 +125,7 @@ class MarkersModule {
 
   private getDefaultConfig(): MarkerConfig[] {
     const culturesSet = (document.getElementById("culturesSet") as HTMLSelectElement | null)?.value || "";
-    const isFantasy = culturesSet.includes("Fantasy");
+    const isFantasy = culturesSet.toLowerCase().includes("fantasy");
 
     /*
       Default markers config:
