@@ -45,14 +45,8 @@ window.languageMixerCultureSets = {
     families: ["English-based"]
   },
 
-  // High Fantasy: full catalog, no restrictions
-  highFantasy: {
-    categories: [],
-    families: []
-  },
-
-  // Dark Fantasy: full catalog, no restrictions
-  darkFantasy: {
+  // Fantasy: full catalog, no restrictions
+  fantasy: {
     categories: [],
     families: []
   },
