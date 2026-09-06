@@ -19924,5 +19924,145 @@ window.asiaNameBases = [
     "m": 0,
     "b": "Zainichi Korean,Dongguan,Changwon,Nantou,Uliastai,Rason,Kanazawa,Kaifeng,Nara,Kimchaek,Yamagata,Anyang,Khovd,Sükhbaatar,Thetford Mines,Foshan,Erdenet,Guilin,Saitama,Tianjin,Takamatsu,Daejeon,Kunming,Hong Kong,Kanggye,Lanzhou,Kyōto,Ölgii,Chengdu,Tumen,Nanjing,Fuzhou,Guangzhou,Keelung,Taiyuan,Harbin,Nanchang,Qingdao,Nanning,Hefei,Taichung,Zhongshan,Shanghai,Kaohsiung,Ürümqi,Pyongyang,Zhuhai,Wuxi,New Taipei,Zibo,Xiamen,Xi'an,Busan,ZainichiKoreank,ZainichiKoreant,ZainichiKoreanp,ZainichiKoreanm,ZainichiKoreann,ZainichiKoreans,ZainichiKoreanr,ZainichiKoreanl,ZainichiKoreand,ZainichiKoreang,ZainichiKoreanb",
     "status": "COMPLETE"
+  },
+  {
+    "name": "Gangwon Korean",
+    "i": 202813,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "Gangwon Korean,Yuen Long,Niigata,Haeju,Ölgii,Mörön,Seongnam,Altai,Changwon,Sariwon,Takamatsu,Kanazawa,Rason,Luoyang,Zhuhai,Kimchaek,Kitakyushu,Macau,Daejeon,Shenyang,Guilin,Lanzhou,Chiba,Matsuyama,Shenzhen,Ulaanbaatar,Baotou,Nanchang,Qingdao,Zhengzhou,Hefei,Incheon,Wuhan,Chengdu,Lhasa,Fuzhou,Suzhou,Shanghai,Wuxi,Xiamen,Taiyuan,Changsha,Nanjing,Chongqing,Xi'an,Jeonju,Zibo,Taoyuan,Chongjin,Ansan,Jinan,Hsinchu,GangwonKoreank,GangwonKoreant,GangwonKoreanp,GangwonKoreanm,GangwonKoreann,GangwonKoreans,GangwonKoreanr,GangwonKoreanl,GangwonKoreand,GangwonKoreang,GangwonKoreanb",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Gyeonggi / Seoul Korean",
+    "i": 202814,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "Gyeonggi / Seoul Korean,Nantou,Saitama,Bayanhongor,Taitung,Luoyang,Dongguan,Miaoli,Mörön,Rason,Yuen Long,Kaifeng,Kitakyushu,Thetford Mines,Sinuiju,Yamagata,Liuzhou,Hohhot,Shenzhen,Hangzhou,Matsuyama,Chiayi,Erdenet,Nanjing,Anyang,Lanzhou,Jinan,Hong Kong,Wonsan,Zhuhai,Hefei,Ürümqi,Beijing,Harbin,Tianjin,Qingdao,Shanghai,Wuhan,Chengdu,Tainan,Incheon,Ulsan,Taichung,Shenyang,New Taipei,Gwangju,Changwon,Taiyuan,Guangzhou,Keelung,Jilin,Hsinchu,Kaohsiung,Gyeonggik,Gyeonggit,Gyeonggip,Gyeonggim,Gyeonggin,Gyeonggis,Gyeonggir,Gyeonggil,Gyeonggid,Gyeonggig,Gyeonggib",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Gyeongsang Korean",
+    "i": 202815,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "Gyeongsang Korean,Dongguan,Kanggye,Arvaikheer,Kimchaek,Rason,Hsinchu,Kawasaki,Matsuyama,Kaifeng,Sariwon,Macau,Yamagata,Niigata,Jeju,Pohang,Khovd,Darkhan,Shanghai,Chongjin,Daejeon,Hohhot,Nagasaki,Qingdao,Taiyuan,Kitakyushu,Ansan,Zhuhai,Polokwane,Pretoria,Kadoma,Kimberley,Kabwe,Pietermaritzburg,Swakopmund,Durban,Zomba,Mmabatho,Cape Town,Windhoek,Mafikeng,Springbok,Gweru,Vereeniging,Port Elizabeth,Livingstone,Harare,Mutare,Maputo,Middelburg,Lusaka,Tembisa,Beira,Nampula,Xai-Xai,GyeongsangKoreank,GyeongsangKoreant,GyeongsangKoreanp,GyeongsangKoreanm,GyeongsangKoreann,GyeongsangKoreans,GyeongsangKoreanr,GyeongsangKoreanl,GyeongsangKoreand,GyeongsangKoreang,GyeongsangKoreanb",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Hamgyŏng Korean",
+    "i": 202816,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "Hamgyŏng Korean,Dongguan,Changwon,Nantou,Uliastai,Rason,Kanazawa,Kaifeng,Nara,Kimchaek,Yamagata,Anyang,Khovd,Sükhbaatar,Thetford Mines,Foshan,Aomori,Fuzhou,Nagoya,Hsinchu,Gwangju,Daejeon,Taichung,Busan,Changsha,Harbin,Shanghai,Kōbe,Beijing,Qingdao,Jinan,Hefei,Dalian,Zhengzhou,Wonsan,Taiyuan,Nanchang,Wuhan,Nanjing,Seongnam,New Taipei,Jilin,Suzhou,Tumen,Daegu,Xi'an,Xiamen,Seoul,Ansan,Fushun,HamgyngKoreank,HamgyngKoreant,HamgyngKoreanp,HamgyngKoreanm,HamgyngKoreann,HamgyngKoreans,HamgyngKoreanr,HamgyngKoreanl,HamgyngKoreand,HamgyngKoreang,HamgyngKoreanb",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Hwanghae Korean",
+    "i": 202822,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "Hwanghae Korean,Dongguan,Changwon,Nantou,Uliastai,Rason,Kanazawa,Kaifeng,Nara,Kimchaek,Yamagata,Anyang,Khovd,Sükhbaatar,Thetford Mines,Foshan,Shenzhen,Hangzhou,Matsuyama,Chiayi,Erdenet,Nanjing,Lanzhou,Jinan,Hong Kong,Hohhot,Kanggye,Taichung,Chongjin,Fuzhou,Beijing,Wonsan,Hefei,Yanji,Shanghai,Zhongshan,Nanning,Kaohsiung,Guangzhou,Xiamen,Wuhan,Yongin,Zhuhai,Busan,Gwangju,Taiyuan,Zibo,Ansan,Goyang,HwanghaeKoreank,HwanghaeKoreant,HwanghaeKoreanp,HwanghaeKoreanm,HwanghaeKoreann,HwanghaeKoreans,HwanghaeKoreanr,HwanghaeKoreanl,HwanghaeKoreand,HwanghaeKoreang,HwanghaeKoreanb",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Jeolla Korean",
+    "i": 202824,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "Jeolla Korean,Pingtung,Taitung,Rason,Ölgii,Gwangju,Kaifeng,Pohang,Kanazawa,Yamagata,Haeju,Foshan,Kitakyushu,Khovd,Arvaikheer,Zhuhai,Sinuiju,Shenzhen,Hangzhou,Matsuyama,Chiayi,Erdenet,Nanjing,Anyang,Lanzhou,Jinan,Hong Kong,Hohhot,Qingdao,Shenyang,Guangzhou,Fuzhou,Hefei,Nanchang,Lhasa,Jeonju,Tumen,Wuxi,Harbin,Keelung,Shanghai,Xiamen,Taiyuan,Cheonan,Danchon,Ürümqi,Seoul,Zibo,Hsinchu,Yongin,Daejeon,JeollaKoreank,JeollaKoreant,JeollaKoreanp,JeollaKoreanm,JeollaKoreann,JeollaKoreans,JeollaKoreanr,JeollaKoreanl,JeollaKoreand,JeollaKoreang,JeollaKoreanb",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Jiaoliao Mandarin",
+    "i": 202825,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "Jiaoliao Mandarin,Dongguan,Kanggye,Arvaikheer,Kimchaek,Rason,Hsinchu,Kawasaki,Matsuyama,Kaifeng,Sariwon,Macau,Yamagata,Niigata,Jeju,Pohang,Khovd,Chengdu,Kyoto,Darkhan,Hamhung,Tianjin,Nagoya,Nampo,Zhuhai,Erdenet,Kaesong,Kunming,Beijing,New Taipei,Chongjin,Hangzhou,Nanjing,Wonsan,Gaecheon,Kaohsiung,Shenzhen,Incheon,Cheongju,Taichung,Ürümqi,Hefei,Jinan,Taipei,Daegu,Gwangju,Fushun,Seoul,Wuhan,Shanghai,Qingdao,Jilin,Zhengzhou,JiaoliaoMandarink,JiaoliaoMandarint,JiaoliaoMandarinp,JiaoliaoMandarinm,JiaoliaoMandarinn,JiaoliaoMandarins,JiaoliaoMandarinr,JiaoliaoMandarinl,JiaoliaoMandarind,JiaoliaoMandaring,JiaoliaoMandarinb",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Jilu Mandarin",
+    "i": 202826,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "Jilu Mandarin,Pingtung,Taitung,Rason,Ölgii,Gwangju,Kaifeng,Pohang,Kanazawa,Yamagata,Haeju,Foshan,Kitakyushu,Khovd,Arvaikheer,Zhuhai,Sinuiju,Shenyang,Sapporo,Suzhou,Taoyuan,Chengdu,Ulsan,Kōbe,Tokyo,Hamhung,Nanchang,Chiayi,Dalian,Harbin,Tumen,Lhasa,Nanning,Changsha,Cheongju,Wuhan,Nanjing,Tainan,Chongqing,Shenzhen,Qingdao,Daegu,Taiyuan,Guangzhou,Tianjin,Kaohsiung,Taipei,Xiamen,New Taipei,Chongjin,Incheon,JiluMandarink,JiluMandarint,JiluMandarinp,JiluMandarinm,JiluMandarinn,JiluMandarins,JiluMandarinr,JiluMandarinl,JiluMandarind,JiluMandaring,JiluMandarinb",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Mahan Korean",
+    "i": 202829,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "Mahan Korean,Chiba,Ölgii,Baotou,Saitama,Miaoli,Changwon,Khovd,Nantou,Sariwon,Jeju,Nagasaki,Luoyang,Kanggye,Kanazawa,Dongguan,Suwon,Akita,Sendai,Chengdu,Altai,Nanjing,Aomori,Daejeon,Kitakyushu,Changchun,Anyang,Jeonju,Zhengzhou,Beijing,Hangzhou,Lhasa,Jinan,Hefei,Wuhan,Guangzhou,Xi'an,Shenzhen,Ansan,Shanghai,New Taipei,Dalian,Zhongshan,Tianjin,Nanning,Zibo,Taoyuan,Danchon,Ürümqi,Taiyuan,Chongjin,Nanchang,Xiamen,MahanKoreank,MahanKoreant,MahanKoreanp,MahanKoreanm,MahanKoreann,MahanKoreans,MahanKoreanr,MahanKoreanl,MahanKoreand,MahanKoreang,MahanKoreanb",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Modern Korean",
+    "i": 202834,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "Modern Korean,Pingtung,Taitung,Rason,Ölgii,Gwangju,Kaifeng,Pohang,Kanazawa,Yamagata,Haeju,Foshan,Kitakyushu,Khovd,Arvaikheer,Zhuhai,Sinuiju,Changwon,Seoul,Anyang,Tainan,Fuzhou,Suzhou,Kaesong,Fukushima,Changsha,Chiayi,Ōsaka,Ürümqi,Qingdao,Ulsan,Lanzhou,Cheongju,Zhengzhou,Taiyuan,Shenzhen,Hefei,New Taipei,Daegu,Jilin,Hangzhou,Busan,Taichung,Dalian,Pyongyang,Chengdu,Chongqing,Wuhan,Zhongshan,Yongin,Anshan,ModernKoreank,ModernKoreant,ModernKoreanp,ModernKoreanm,ModernKoreann,ModernKoreans,ModernKoreanr,ModernKoreanl,ModernKoreand,ModernKoreang,ModernKoreanb",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Munhwaŏ (Standard North Korean)",
+    "i": 202835,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "Munhwaŏ (Standard North Korean),Nara,Tai Po,Kimchaek,Bayanhongor,Anyang,Sükhbaatar,Dongguan,Arvaikheer,Thetford Mines,Keelung,Ulaanbaatar,Rason,Kowloon,Hsinchu,Kanggye,Tainan,Sinuiju,Chengdu,Lanzhou,Ölgii,Wuhan,Harbin,Suwon,Chongqing,Hangzhou,Taichung,Incheon,Nanjing,Hefei,Wonsan,Beijing,Jilin,Shenyang,New Taipei,Shanghai,Xi'an,Suzhou,Jinan,Tianjin,Ürümqi,Changwon,Zhuhai,Zhengzhou,Kaohsiung,Gwangju,Danchon,Seongnam,Chongjin,Zhongshan,Munhwak,Munhwat,Munhwap,Munhwam,Munhwan,Munhwas,Munhwar,Munhwal,Munhwad,Munhwag,Munhwab",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "North Korean",
+    "i": 202838,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "North Korean,Chiba,Ölgii,Baotou,Saitama,Miaoli,Changwon,Khovd,Nantou,Sariwon,Jeju,Nagasaki,Luoyang,Kanggye,Kanazawa,Dongguan,Darkhan,Shanghai,Ōsaka,Bucheon,Kaohsiung,Taipei,Takamatsu,Taichung,Pohang,Tainan,Sinuiju,Sapporo,Changsha,Hambung,Wuhan,Lhasa,Nanjing,Jilin,Hangzhou,Jinan,Shenzhen,Pyongyang,Nanchang,Zhuhai,Nanning,Chongqing,Chongjin,Tianjin,Taoyuan,Ürümqi,Daegu,Fushun,Xiamen,Wuxi,Xi'an,Zhongshan,NorthKoreank,NorthKoreant,NorthKoreanp,NorthKoreanm,NorthKoreann,NorthKoreans,NorthKoreanr,NorthKoreanl,NorthKoreand,NorthKoreang,NorthKoreanb",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Pyojuneo (Standard Korean)",
+    "i": 202851,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "Pyojuneo (Standard Korean),Nantou,Hualien,Gwangju,Kimchaek,Bayanhongor,Anyang,Niigata,Yuen Long,Chiba,Ölgii,Seongnam,Altai,Taitung,Chengdu,Fukushima,Incheon,Kawasaki,Ulaanbaatar,Macau,Yongin,Sinuiju,Hefei,Shenzhen,Taichung,Shanghai,Chongjin,Kyoto,Daejeon,Chongqing,Fuzhou,Changsha,Lhasa,Nanchang,Harbin,Wuhan,Jinan,Yanji,Nanning,Cheongju,Xiamen,Daegu,Ürümqi,Hangzhou,Jilin,Busan,Tianjin,Zhongshan,Taipei,Tainan,Zhuhai,Pyojuneok,Pyojuneot,Pyojuneop,Pyojuneom,Pyojuneon,Pyojuneos,Pyojuneor,Pyojuneol,Pyojuneod,Pyojuneog,Pyojuneob",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Pyongan Korean",
+    "i": 202852,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "Pyongan Korean,Yuen Long,Niigata,Haeju,Ölgii,Mörön,Seongnam,Altai,Changwon,Sariwon,Takamatsu,Kanazawa,Rason,Luoyang,Zhuhai,Kimchaek,Hsinchu,Kanggye,Tainan,Sinuiju,Chengdu,Lanzhou,Wuhan,Harbin,Suwon,Chongqing,Hangzhou,Taichung,Beijing,Guangzhou,Dalian,Shenyang,Suzhou,Changsha,Jinan,Qingdao,New Taipei,Pyongyang,Nanning,Chongjin,Incheon,Wuxi,Lhasa,Xiamen,Xi'an,Gwangju,Zhengzhou,Daejeon,Yongin,PyonganKoreank,PyonganKoreant,PyonganKoreanp,PyonganKoreanm,PyonganKoreann,PyonganKoreans,PyonganKoreanr,PyonganKoreanl,PyonganKoreand,PyonganKoreang,PyonganKoreanb",
+    "status": "COMPLETE"
   }
 ];
