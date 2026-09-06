@@ -434,15 +434,9 @@ function buildIndexCorrectionMap(): Map<number, number> {
 
       // Try matching by removing common suffixes/prefixes
       if (correctIdx === undefined) {
-        const cleaned = isoLower
-          .replace(/-/g, " ")
-          .replace(/\s+/g, " ")
-          .trim();
+        const cleaned = isoLower.replace(/-/g, " ").replace(/\s+/g, " ").trim();
         for (const [name, idx] of nameToIndex) {
-          const nameCleaned = name
-            .replace(/-/g, " ")
-            .replace(/\s+/g, " ")
-            .trim();
+          const nameCleaned = name.replace(/-/g, " ").replace(/\s+/g, " ").trim();
           if (nameCleaned.includes(cleaned) || cleaned.includes(nameCleaned)) {
             correctIdx = idx;
             break;
@@ -1913,14 +1907,28 @@ export function getMixedByIso(isoWeights: Record<string, number>, options?: Mixe
         const corrected = getCorrectedIndex(b);
         if (corrected !== b) {
           const e = nameBases && nameBases[corrected];
-          if (e && typeof e.b === "string" && e.b.length > 0 && e.name && typeof e.name === "string" && e.name.length > 0) {
+          if (
+            e &&
+            typeof e.b === "string" &&
+            e.b.length > 0 &&
+            e.name &&
+            typeof e.name === "string" &&
+            e.name.length > 0
+          ) {
             return corrected;
           }
         }
         // Fall back to original index if valid
         if (b >= 0 && Number.isFinite(b)) {
           const e = nameBases && nameBases[b];
-          if (e && typeof e.b === "string" && e.b.length > 0 && e.name && typeof e.name === "string" && e.name.length > 0) {
+          if (
+            e &&
+            typeof e.b === "string" &&
+            e.b.length > 0 &&
+            e.name &&
+            typeof e.name === "string" &&
+            e.name.length > 0
+          ) {
             return b;
           }
         }
@@ -1943,11 +1951,7 @@ export function getMixedByIso(isoWeights: Record<string, number>, options?: Mixe
     if (skipped.length) {
       // Only log as warning if all requested ISOs were skipped (no data available)
       if (!resolved.length) {
-        tip(
-          `No local bases mapped for selected languages: ${skipped.join(", ")}`,
-          false,
-          "warn"
-        );
+        tip(`No local bases mapped for selected languages: ${skipped.join(", ")}`, false, "warn");
       }
       // Silently return [] — no error log for missing data,
       // callers handle empty results gracefully

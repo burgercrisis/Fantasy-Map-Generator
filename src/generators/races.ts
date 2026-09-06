@@ -1459,7 +1459,9 @@ function rerollRacesForCultures(options?: { forceFilterFromUi?: boolean }): void
     const maxNonHumanRaces = racesLimitRaw > 0 ? racesLimitRaw : Infinity;
 
     const racesNonHumanChanceElement = findEl<HTMLInputElement>("racesNonHumanChance");
-    const nonHumanChancePercent = (racesNonHumanChanceElement && (racesNonHumanChanceElement.valueAsNumber ?? +racesNonHumanChanceElement.value)) ?? 35;
+    const nonHumanChancePercent =
+      (racesNonHumanChanceElement && (racesNonHumanChanceElement.valueAsNumber ?? +racesNonHumanChanceElement.value)) ??
+      35;
     nonHumanChance = nonHumanChancePercent / 100;
 
     // Build the full pool of eligible non-human races from fantasyRaceBases,

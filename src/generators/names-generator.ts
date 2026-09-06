@@ -115,11 +115,7 @@ class NamesGenerator {
 
     // Check if the base is valid (has name data)
     const isValidBase = (b: number) => {
-      return (
-        this.nameBases[b] &&
-        this.nameBases[b].b &&
-        this.nameBases[b].b.length > 0
-      );
+      return this.nameBases[b] && this.nameBases[b].b && this.nameBases[b].b.length > 0;
     };
 
     if (!isValidBase(base)) {
@@ -143,7 +139,16 @@ class NamesGenerator {
     const data = this.chains[base];
     if (!data || data[""] === undefined) {
       // Chain generation failed - try fallback
-      const fallbackBase = this.nameBases.findIndex((b, i) => b && b.b && b.b.length > 0 && i !== base && this.chains[i] && this.chains[i] && this.chains[i][""] !== undefined);
+      const fallbackBase = this.nameBases.findIndex(
+        (b, i) =>
+          b &&
+          b.b &&
+          b.b.length > 0 &&
+          i !== base &&
+          this.chains[i] &&
+          this.chains[i] &&
+          this.chains[i][""] !== undefined
+      );
       if (fallbackBase >= 0) {
         WARN && console.warn(`Namebase ${base} chain is invalid. Using fallback namebase ${fallbackBase}`);
         base = fallbackBase;
