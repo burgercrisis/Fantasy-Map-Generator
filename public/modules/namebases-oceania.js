@@ -710,7 +710,7 @@ window.oceaniaNameBases = [
     "max": 10,
     "d": "",
     "m": 0,
-    "b": "Hanuabada,Vabukori,Barakau,Tubuseleia,Boera,Pari,Taurama,Kirakira,Korobosea,Mahuru,Tatana,Baruni,Elevala,Poreporena,Laurabada,Lahara,Mirigini,Araira,Taoata,Edai,Hohodae,Kaugere,Badili,Gabi,Gaboru,Manumanu,Gaile,Port Moresby,Boroko,Konedobu,Koki,Gabutu,Gerehu,Tokarara,Hohola,Waigani,Bomana,Sogeri,Kairuku,Kupiano,Mekeo,Lalava,Bereina,Hisiu,Aroma,Yule,Oro Bay,Tufi,Samarai,Basada,Sideia,Logeia,Boyo,Sariba,Rogeia,Madau,Hutjena,Bwagaoia,Esaala,Fergusson,Normanby,Goodenough,Iwa,Gawa,Wagifa,Yabob,Dobu,Losuia,Kiriwina,Vakuta,Kaduwaga,Luba,Magi,Sinaketa,Mulosa,Wari,Yalumetau,Tukwaukwa,Kadubulibob,Kaboy,Kai,Kobuma,Lau,Law,Mai,Mal,Mata,Maw,Me,Mi,Mok,Mui,Mur,Mut,Nai,Nak,Naw,Nga",
+    "b": "Hanuabada,Vabukori,Barakau,Tubuseleia,Boera,Pari,Taurama,Kirakira,Korobosea,Mahuru,Tatana,Baruni,Elevala,Poreporena,Laurabada,Lahara,Mirigini,Araira,Taoata,Edai,Hohodae,Kaugere,Badili,Gabi,Gaboru,Manumanu,Gaile",
     "status": "COMPLETE",
   },
 
@@ -1397,7 +1397,7 @@ window.oceaniaNameBases = [
   },
 
   {
-    "name": "Pa \(oceania\)",
+    "name": "Pa",
     "i": 201134,
     "min": 4,
     "max": 19,
@@ -1474,7 +1474,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Yaren,Aiwo,Buada,Denigomodu,Banaba,Tabiteuea,Aranuka,Kuria,Maiana,Marakei,Nikunau,Onotoa,Tamana,Nui,Nanumanga,Vaitupu,Nukufetau,Nukulaelae,Palikir,Kolonia,Weno,Tonoas,Pohnpei,Yap,Colonia,Kosrae,Tofol,Majuro,Ebeye,Tarawa,Bairiki,Bikenibeu,Betio,Nauru,Yauco,Corozal,Guánica,Orocovis,Fajardo,Marigot,Camuy,Guayama,Cidra,SanGerman,AguasBuenas,LasPiedras,Brades,Manati,Humacao,Alukview,Afikview,Apakview,Akugview,Afinbridge,Adesbridge,Amebview,Abebridge,Alirbridge,Abusview,Amorview,Anirview,Akaview,Abalbridge,Amebville,Anabar,Anibare,Baitsi,Boe,Ewa,Ijuw,Meneng,Nibok,Uaboe,Yangor,Anakawidua,Anakawidwo,Adungidungur,Bogemaru,Arenibek,Anigobwi,Anoreo,Ara,Atomo,Bogi,Bangabanga,Redeta,Oreb,Ubweno,Webwebin,Bwidin,Gabab,Orro,Tebata,Aribweabwe,Atsiyeiubar,Ate,Medang,Arubo,Anna,Anwer,Aramen,Aiburi,Ai,Eatabwerik,Ganokoro,Urigomagom,Tieniben,Kibepe,Meure,Anetan,Eatebibido,Eatedeta,Mwea,Ngengan,Mediteru,Mererawua,Ronawi,Anebweyan,Eateduna,Anuuroya,Badi,Bagabap,Loi,Anapodu,Atari,Atae,Bari,Aribimomo,Weo,Arow,Ravi,Ganoko,Eateragabe,Daubugingarawa,Edet,Wengom,Miage,Eatobwadae,Yedwen,Mweoen,Tarawoa,Ruebe,Eateneno,Ari,Bwerigi,Eao,Eabadae,Roe,Atibuyinor,Anatip,Adreyi,Boneda,Bweranibek,Bweteboe,Bweteoaru,Etamor,Anera,Gene,Anitobu,Abab,Abwaw,Adibor,Adwongeo,Adrurior,Aeibur,Aeonun,Agabwe,Aioe,Amet"
+  "b": "Yaren,Aiwo,Buada,Denigomodu,Banaba,Tabiteuea,Aranuka,Kuria,Maiana,Marakei,Nikunau,Onotoa,Tamana,Nui,Nanumanga,Vaitupu,Nukufetau,Nukulaelae,Palikir,Kolonia,Weno,Tonoas,Pohnpei,Yap,Colonia,Kosrae,Tofol,Majuro,Ebeye,Tarawa,Bairiki,Bikenibeu,Betio,Nauru,Yauco,Corozal,Guánica,Orocovis,Fajardo,Marigot,Camuy,Guayama,Cidra,SanGerman,AguasBuenas,LasPiedras,Brades,Manati,Humacao,Alukview,Afikview,Apakview,Akugview,Afinbridge,Adesbridge,Amebview,Abebridge,Alirbridge,Abusview,Amorview,Anirview,Akaview,Abalbridge,Amebville"
 ,
     "status": "COMPLETE",
   },
@@ -1498,7 +1498,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "PortMoresby,Lae,Madang,Wewak,Vanimo,Kavieng,Rabaul,Kimbe,Goroka,MtHagen,Kundiawa,Mendi,Tari,Popondetta,Alotau,Daru,Kiunga,Tabubil,Buka,Arawa,Kieta,Lorengau,Kokopo,Namatanai,Kandrian,Finschhafen,Salamaua,Bulolo,Wau,Menyamya,Okapa,Kainantu,Yabucoa,Kingstown,VegaBaja,Aguadilla,Ciales,Rincon,Naguabo,Arroyo,Maunabo,Guaynabo,Ponce,Adjuntas,Isabela,Loiza,Coamo,Akebtown,Akilford,Aparland,Akemtown,Afitford,Alogtown,Aegtown,Alastown,Apikford,Apektown,Afisford,Apurtown,Alattown,Abimford,Aetland,Naranjito,Lajas,Morovis,Ceiba,Gustavia,Arecibo,Caguas,Aibonito,CaboRojo,Gurabo,Humacao,StGeorges,VegaAlta,Fajardo,Aartown,Alubside,Anenside,Akugtown,Aroside,Apabside,Apertown,Autside,Afortown,Akosside,Amobburg,Afaside,Anettown,Abiktown,Ariside,PapuanPidgin,TokPisin,Pisin,Wantok,Sios,Saint,Morobe,Ward,Lotu,Buluminsky,Papuan,PapuanPidginEnglishm,PapuanPidginEnglishn,PapuanPidginEnglishs,PapuanPidginEnglishr,Port Moresby,Samarai,Kiwai,Hanuabada,Rigo,Hula,Tubetube,Wari,Kuriva,Kairuku,Kerema,Tufi,Yule Island,Wanigera,Bubuna,Misima,Rossel,Sudest,Woodlark,Marshall Lagoon,Laloki,Sogeri,Koki,Gordons,Boroko,Waigani,Badili,Konedobu,Lawes,Gaba,Gaire,Hisiu,Kunimaipa,Wandumi,Mumuni,Kulumadau,Bobo,Gua,Bonua,Gule,Mai,Mok,Puk,Suan,Ton,Wan,Aroma,Bin,Kapa,Kuk,Boku,Gobo,Lele,Boga,Igora,Kalo,Kura,Toma,Poi,Aigura,Boboni,Gavu,Hohena,Emo,Dogura,Amau,Koi,Wab,Mapo,Waga,Mun,Mar,Kun,Samarai-town,South Sea,Wari-island,Loup,Killerton,Dabua"
+  "b": "PortMoresby,Lae,Madang,Wewak,Vanimo,Kavieng,Rabaul,Kimbe,Goroka,MtHagen,Kundiawa,Mendi,Tari,Popondetta,Alotau,Daru,Kiunga,Tabubil,Buka,Arawa,Kieta,Lorengau,Kokopo,Namatanai,Kandrian,Finschhafen,Salamaua,Bulolo,Wau,Menyamya,Okapa,Kainantu,Yabucoa,Kingstown,VegaBaja,Aguadilla,Ciales,Rincon,Naguabo,Arroyo,Maunabo,Guaynabo,Ponce,Adjuntas,Isabela,Loiza,Coamo,Akebtown,Akilford,Aparland,Akemtown,Afitford,Alogtown,Aegtown,Alastown,Apikford,Apektown,Afisford,Apurtown,Alattown,Abimford,Aetland,Naranjito,Lajas,Morovis,Ceiba,Gustavia,Arecibo,Caguas,Aibonito,CaboRojo,Gurabo,Humacao,StGeorges,VegaAlta,Fajardo,Aartown,Alubside,Anenside,Akugtown,Aroside,Apabside,Apertown,Autside,Afortown,Akosside,Amobburg,Afaside,Anettown,Abiktown,Ariside,PapuanPidgin,TokPisin,Pisin,Wantok,Sios,Saint,Morobe,Ward,Lotu,Buluminsky,Papuan,PapuanPidginEnglishm,PapuanPidginEnglishn,PapuanPidginEnglishs,PapuanPidginEnglishr"
 ,
     "status": "COMPLETE",
   },
@@ -1534,7 +1534,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Mackay,Bundaberg,Gladstone,Cairns,Townsville,Rockhampton,MackayRegion,BundabergRegion,Ayr,NorthQueensland,CentralQueensland,QueenslandCanefields,QueenslandPlantations,TorresStrait,MoaIsland,QueenslandPearling,QueenslandKanakaEnglish,Innisfail,Geraldton,Homebush,Racecourse,North Eton,Eton,Marian,Walkerston,Pleystowe,Farleigh,Bakers Creek,Andergrove,Slade Point,Seaforth,Ball Bay,Cape Hillsborough,Mount Ossa,Mount Pelion,Mirani,Sarina,Gargett,Pinnacle,Eungella,Midge Point,Carmila,Ilbilbie,Bucasia,East Mackay,North Mackay,South Mackay,Glenella,Habana,Mt Pleasant,Beaconsfield,Blacks Beach,Eimeo,Rural View,Goondi,Goondi Bend,Goondi Hill,South Johnstone,Mourilyan,Babinda,Gordonvale,Goldsborough,Aloomba,Bramston Beach,Deeral,Bellenden Ker,Fishery Falls,Mirriwinni,Daradgee,Edmonton,Bentley,Mount Peter,Lamb Range,Kuranda,Kowrowa,Myola,Speewah,Tinaroo,Yungaburra,Atherton,Tolga,Kairi,Pilliga,Cairns North,Cairns West,Whitfield,Edge Hill,Manoora,Mooroobool,Bungalow,Woree,Portsmith,Kanimbla"
+  "b": "Mackay,Bundaberg,Gladstone,Cairns,Townsville,Rockhampton,MackayRegion,BundabergRegion,Ayr,NorthQueensland,CentralQueensland,QueenslandCanefields,QueenslandPlantations,TorresStrait,MoaIsland,QueenslandPearling,QueenslandKanakaEnglish"
 ,
     "status": "COMPLETE",
   },
@@ -1606,7 +1606,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "PortMoresby,Lae,Madang,Wewak,Vanimo,Kavieng,Rabaul,Kimbe,Goroka,MtHagen,Kundiawa,Mendi,Tari,Popondetta,Alotau,Daru,Kiunga,Tabubil,Buka,Arawa,Kieta,Lorengau,Kokopo,Namatanai,Kandrian,Finschhafen,Salamaua,Bulolo,Wau,Menyamya,Okapa,Kainantu,FlyingFish,Aguada,Coamo,Naranjito,Lajas,Morovis,Ceiba,Gustavia,Arecibo,Caguas,Aibonito,CaboRojo,Gurabo,Humacao,StGeorges,Akaside,Anakside,Akogside,Aagside,Anegford,Afabside,Abusford,Alelford,Alenside,Alanside,Apedside,Amugside,Akaford,Anemford,Abusside,Unserdeutschtown,Unserdeutschville,Unserdeutschburg,Unserdeutschview,Unserdeutschside,Vunapope,Gazelle-Halbinsel,Gazelle Peninsula,Neu-Pommern,New Britain,Neubritannien,Tavurvur,Vulcan,Matupit,Hertzh,Herzog,Blanche-Bucht,Blanche Bay,Toma,Tinputz,Kurakakaul,Nonga,Nongatop,Watom,Kabakon,Duke-of-York,Massava,Lakuanai,Pondo,Pala,Watung,Pine-pil,Vunabakan,Karavia,Nodding,Butu,Wair,Vunapope-Mission,Vunamarita,Vunalir,Vunapope-Kirche,Kokopo-Markt,Rabaul-Hafen,Tavurvur-Berg,Rabaul-Mission,Gazelle-Markt,Neu-Pommern-Kirche,Vunapope-Waisenhaus,Sisters' Convent,Missions-Krankenhaus,Vunapope-Schule,Tavui,Rapindik,Rakada,Raluana,Bitapaka,Malmaluan,Kalvaken,Rabagi,Warangoi,Kerevat,Togoba,Manus,Bougainville,Tinputz-Markt,Kavieng-Hafen,Madang-Markt,Vunapope-Strand,Rapopo,Takubar,Latlat,Patur,Pena,Kurakakaul-Markt,Kabakaul,Baining,Gazelle,Duke-of-York-Inseln"
+  "b": "PortMoresby,Lae,Madang,Wewak,Vanimo,Kavieng,Rabaul,Kimbe,Goroka,MtHagen,Kundiawa,Mendi,Tari,Popondetta,Alotau,Daru,Kiunga,Tabubil,Buka,Arawa,Kieta,Lorengau,Kokopo,Namatanai,Kandrian,Finschhafen,Salamaua,Bulolo,Wau,Menyamya,Okapa,Kainantu,FlyingFish,Aguada,Coamo,Naranjito,Lajas,Morovis,Ceiba,Gustavia,Arecibo,Caguas,Aibonito,CaboRojo,Gurabo,Humacao,StGeorges,Akaside,Anakside,Akogside,Aagside,Anegford,Afabside,Abusford,Alelford,Alenside,Alanside,Apedside,Amugside,Akaford,Anemford,Abusside,Unserdeutschtown,Unserdeutschville,Unserdeutschburg,Unserdeutschview,Unserdeutschside"
 ,
     "status": "COMPLETE",
   },
@@ -2223,7 +2223,7 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Skepi Dutch Creole,Jost Van Dyke,Hillsborough,Castries,Charlestown,Anegada,Freeport,Micoud,Arima,Philipsburg,Santa Rosa,Bellem,Plymouth,Sauteurs,Governor's Harbour,Kew,Portsmouth,St. George's,Saint James,All Saints,Victoria,Sandy Ground,Basseterre,Liberta,Oistins,Montego Bay,Simpson Bay,Ocho Rios,Düsseldorf,Toulouse,Tampere,Marseille,Nice,Strasbourg,Trondheim,Wroclaw,Seville,Manchester,London,Málaga,Lisbon,Munich,Gdansk,Stuttgart,Reykjanesbær,Frankfurt,Ostrava,Barcelona,Szczecin,Poznan,Bydgoszcz,Florence,Hradec Králové,Birmingham,Edinburgh,SkepiDutchCreolek,SkepiDutchCreolet,SkepiDutchCreolep,SkepiDutchCreolem,SkepiDutchCreolen,SkepiDutchCreoles,SkepiDutchCreoler,SkepiDutchCreolel,SkepiDutchCreoled,SkepiDutchCreoleg,SkepiDutchCreoleb,Skepi,Essequibo,Berbice,Demerary,Cartabo,Bartica,Kalacoon,Arinda,Mazaruni,Camaria,Waini,Pomeroon,Cuyuni,Mazarunipost,Arimu-mine,Barama,Kurupung,Imbaimadai,Kopinang,Holmia,Wenamu,Tiruch,Kanuku,Macushi,Wapishiana,Acarai,Kartabo,Dadanawa,Sand Creek,Aishalton,Chu-wong,Paramakatoi,Kato,Tipuru,Surama,Burro-burro,Rewa,Rupukuni,Ataro,Moco-moco,Haimarakupang,Moruka,Wakapau,Baramita,Arakaka,Matthew's Wharf,Dart-mouth,Amakura,Aruka,Morawhanna,Waini-mouth,Pomeroon-point,Cape Flat,West-Demerara,East-Bank,West-Coast",
+    "b": "Skepi Dutch Creole,Jost Van Dyke,Hillsborough,Castries,Charlestown,Anegada,Freeport,Micoud,Arima,Philipsburg,Santa Rosa,Bellem,Plymouth,Sauteurs,Governor's Harbour,Kew,Portsmouth,St. George's,Saint James,All Saints,Victoria,Sandy Ground,Basseterre,Liberta,Oistins,Montego Bay,Simpson Bay,Ocho Rios,Düsseldorf,Toulouse,Tampere,Marseille,Nice,Strasbourg,Trondheim,Wroclaw,Seville,Manchester,London,Málaga,Lisbon,Munich,Gdansk,Stuttgart,Reykjanesbær,Frankfurt,Ostrava,Barcelona,Szczecin,Poznan,Bydgoszcz,Florence,Hradec Králové,Birmingham,Edinburgh,SkepiDutchCreolek,SkepiDutchCreolet,SkepiDutchCreolep,SkepiDutchCreolem,SkepiDutchCreolen,SkepiDutchCreoles,SkepiDutchCreoler,SkepiDutchCreolel,SkepiDutchCreoled,SkepiDutchCreoleg,SkepiDutchCreoleb",
     "status": "COMPLETE",
   },
 

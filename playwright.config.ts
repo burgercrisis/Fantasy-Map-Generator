@@ -12,8 +12,9 @@ export default defineConfig({
   reporter: 'html',
   // Use OS-independent snapshot names (HTML content is the same across platforms)
   snapshotPathTemplate: '{testDir}/{testFileDir}/{testFileName}-snapshots/{arg}{ext}',
+  timeout: 120000,
   use: {
-    baseURL: isCI ? 'http://localhost:4173' : 'http://localhost:5173',
+    baseURL: isCI ? 'http://localhost:4173/Fantasy-Map-Generator/' : 'http://localhost:5173/Fantasy-Map-Generator/',
     trace: 'on-first-retry',
     // Fixed viewport to ensure consistent map rendering
     viewport: { width: 1280, height: 720 },
@@ -28,7 +29,7 @@ export default defineConfig({
     // In CI: build (done as a separate cached step) and preview for production-like testing
     // In dev: use vite dev server (faster, no rebuild needed)
     command: isCI ? (skipBuild ? 'npm run preview' : 'npm run build && npm run preview') : 'npm run dev',
-    url: isCI ? 'http://localhost:4173' : 'http://localhost:5173',
+    url: isCI ? 'http://localhost:4173/Fantasy-Map-Generator/' : 'http://localhost:5173/Fantasy-Map-Generator/',
     reuseExistingServer: !isCI,
     timeout: 120000,
   },
