@@ -1488,7 +1488,7 @@ window.northAmericaNameBases = [
     "b": "Red Bay,Middle Bay,St. Modeste,Chateau Bay,Battle Harbour,Carrol Cove,Henley Harbour,Square Islands,Dead Island,Indian Tickle,Indian Harbour,Black Tickle,Norman Bay,Paradise River,Fox Harbour,St. Lewis,Port Hope Simpson,Mary's Harbour,Lodge Bay,Cape Charles,West St. Modeste",
     "status": "COMPLETE"
   },
-{
+  {
     "name": "Itza'",
     "i": 200906,
     "min": 4,
@@ -1978,7 +1978,7 @@ window.northAmericaNameBases = [
     "b": "Tila,Sabanilla,Salto de Agua,Palenque,Ocosingo,Chilon,Bochil,Simojovel,San Cristobal de las Casas,Huixtan,Amatenango del Valle,Tenejapa,Chenalho,Larrainzar,El Bosque,Pantelho,Chamula,Zinacantan,San Juan Cancuc,San Andres Larrainzar",
     "status": "COMPLETE"
   },
-{
+  {
     "name": "Itza'",
     "i": 200906,
     "min": 4,
@@ -1988,7 +1988,7 @@ window.northAmericaNameBases = [
     "b": "Flores,San Jose,San Benito,Santa Elena,Melchor de Mencos,Poptun,Dolores,San Luis,San Francisco,La Libertad,Las Cruces,El Chal,Sayaxche,La Union",
     "status": "COMPLETE"
   },
-{
+  {
     "name": "Itza'",
     "i": 200906,
     "min": 4,
@@ -2118,7 +2118,7 @@ window.northAmericaNameBases = [
     "b": "Winnipeg,St. Boniface,Lorette,St. Laurent,Ste. Rose,Dauphin,St. Pierre,Giroux,Metis,Manitoba,Saskatchewan,Alberta,British Columbia,Northwest Territories,Saskatoon,Regina,Brandon,Selkirk,The Pas,Thompson,Churchill,Portage la Prairie,Swan River,Lacombe,St. Albert,St. Paul,Lloydminster,Meadow Lake,La Ronge,Flin Flon,Yorkton,Moose Jaw,Prince Albert,North Battleford,Swift Current,Medicine Hat,Lethbridge",
     "status": "COMPLETE"
   },
-{
+  {
     "name": "Pima",
     "i": 201034,
     "min": 4,
@@ -2158,7 +2158,7 @@ window.northAmericaNameBases = [
     "b": "Mezquital,Pueblo Nuevo,Tepehuanes,El Mezquital,Santa Maria Ocotan,Xoconostle,San Francisco Ocotan,Santiago Ocotan Teneraca,Santa Maria Magdalena Taxicaringa,Chico Milpillas,San Bernardino,San Francisco de Lajas,Huajicori,San Andres Milpillas Grande,Chinacates,Taxicaringa,Milpillas,Ocotan,Odam,Audam",
     "status": "COMPLETE"
   },
-{
+  {
     "name": "Tohono O'odham",
     "i": 201038,
     "min": 4,
@@ -2188,7 +2188,7 @@ window.northAmericaNameBases = [
     "b": "Uintah,Ouray,Fort Duchesne,Whiterocks,Randlett,Tridell,Gusher,Southern Ute,Ignacio,Towaoc,White Mesa,Aneth,Montezuma Creek,Mexican Hat,Bluff,Blanding,Monticello,Roosevelt,Myton,Vernal,Lapoint,Jensen,Maeser,Bonanza,Naples,Ballard,Halls Crossing,Navajo Mountain,Oljato",
     "status": "COMPLETE"
   },
-{
+  {
     "name": "Northern Tepehuan",
     "i": 201031,
     "min": 4,
@@ -2198,7 +2198,7 @@ window.northAmericaNameBases = [
     "b": "Guadalupe y Calvo,Baborigame,Nararachi,Chinacates,El Vergel,Turicachi,Yepachi,Tepojichi,Guazapares",
     "status": "COMPLETE"
   },
-{
+  {
     "name": "Mayo",
     "i": 201035,
     "min": 4,
@@ -2277,97 +2277,193 @@ window.northAmericaNameBases = [
     "m": 0.29,
     "b": "Castries,Gros Islet,Micoud,Vieux Fort,Soufrière,Anse La Raye,Laborie,Choiseul,Dennery,Praslin,Mon Repos,Chassin,Bexon,Cacoa,Fond St. Jacques,Ti Rocher,Monchy,La Clery,Babonneau,Cap Estate,Canaries,Desruisseaux,Grande Ravine,Mongouge,Les Trois Piton,Quatre Chemins,Tete Chemin,Au Leon,Pomme,River Doree,Marigot Bay",
     "status": "COMPLETE"
-  }
-,
-
-{
+  },
+  {
     "name": "American Indian Pidgin English",
-  "i": 200931,
-  "min": 4,
-  "max": 11,
-  "d": "lnrt",
-  "m": 0,
-  "b": "FortVancouver,FortAstoria,FortGeorge,FortLangley,FortVictoria,FortNisqually,FortColvile,FortNezPerces,FortOkanogan,FortSpokane,FortKamloops,FortAlexandria,FortStJames,FortGeorgeBC,BellaCoola,Kamloops,Victoria,Vancouver,NewWestminster,Yale,Lytton,Hope,BostonBar,Lillooet,Clinton,WilliamsLake,Barkerville,Quesnel,Alexandria,SodaCreek,FortWallaWalla,TheDalles,Celilo,Cascades,Cowlitz,Nisqually,Puyallup,Steilacoom,Olympia,Seattle,Portland,OregonCity,GrandRonde,Siletz,Astoria,Tillicum",
-    "status": "COMPLETE"
-  },,
-
-{
-    "name": "Cauque Mayan",
-  "i": 200938,
-  "min": 4,
-  "max": 11,
-  "d": "lnrt",
-  "m": 0,
-  "b": "SantaMariaCauque",
-    "status": "COMPLETE"
-  },,
-
-{
-    "name": "Inuktitut-English Pidgin",
-  "i": 200944,
-  "min": 4,
-  "max": 11,
-  "d": "lnrt",
-  "m": 0,
-  "b": "Iqaluit,Pangnirtung,PondInlet,ClydeRiver,Resolute,Kugaaruk,Inuvik,Tuktoyaktuk,Aklavik,FortMcPherson,NormanWells,Yellowknife,Lutselke,FortSmith,HayRiver,FortResolution,RankinInlet,Arviat,BakerLake,WhaleCove,Nain,HappyValley,Churchill,Labrador,Nunavik,BaffinIsland",
-    "status": "COMPLETE"
-  },,
-
-{
-    "name": "Labrador Inuit Pidgin French",
-  "i": 200949,
-  "min": 4,
-  "max": 11,
-  "d": "lnrt",
-  "m": 0,
-  "b": "StraitsOfBelleIsle,BelleIsle,StraitOfBelleIsle,ChateauBay,Quirpon,Quiberon,SouthernLabrador,BelleIslePidgin,InuitFrenchJargon,LabradorInuitPidginFrench,BelleIsle,StraitsOfBelleIsleRegion",
-    "status": "COMPLETE"
-  },,
-
-{
-    "name": "Pidgin Hawaiian",
-  "i": 200975,
-  "min": 4,
-  "max": 11,
-  "d": "lnrt",
-  "m": 0,
-  "b": "HawaiianIslands,Oahu,Maui,Hawaii,Kauai,Molokai,Lanai,Niihau,Kahoolawe,Honolulu,Hilo,Lahaina,Wailuku,Kahului,Lihue,Kapaa",
-    "status": "COMPLETE"
-  },,
-
-{
-    "name": "Port Jackson Pidgin English",
-  "i": 200980,
-  "min": 4,
-  "max": 11,
-  "d": "lnrt",
-  "m": 0,
-  "b": "PortJackson,Sydney,NewSouthWales,Newcastle,BotanyBay,Parramatta,CumberlandPlain,HawkesburyRiver,NorthernTerritory,RoperRiverMission,Ngukurr,StockmenRoutes,SydneyCove,PortJacksonPenalColony,Bennelong,ArthurPhillip,NewSouthWalesPidgin",
+    "i": 200931,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "FortVancouver,FortAstoria,FortGeorge,FortLangley,FortVictoria,FortNisqually,FortColvile,FortNezPerces,FortOkanogan,FortSpokane,FortKamloops,FortAlexandria,FortStJames,FortGeorgeBC,BellaCoola,Kamloops,Victoria,Vancouver,NewWestminster,Yale,Lytton,Hope,BostonBar,Lillooet,Clinton,WilliamsLake,Barkerville,Quesnel,Alexandria,SodaCreek,FortWallaWalla,TheDalles,Celilo,Cascades,Cowlitz,Nisqually,Puyallup,Steilacoom,Olympia,Seattle,Portland,OregonCity,GrandRonde,Siletz,Astoria,Tillicum",
     "status": "COMPLETE"
   },
-        {"name": "Navajo", "i": 25021, "min": 4, "max": 11, "d": "", "m": 0, "b": "Tuba,City,Chinle,Window,Rock,Shiprock,Kayenta,Tse,Bonito,Tohatchi,Crownpoint,Thoreau,Prewitt,Ramah,Zuni,Many,Farms,Ganado,Nazlini,Pinon,Lukachukai,Round,Point,Dennehotso,Leupp,Dilkon,Teec,Nos,Pos,Mexican,Water,Aneth,Montezuma,Creek,Red,Mesa,Sweetwater,Indian,Wells,Jeddito,Low,Mountain,Steamboat,Tsaile,Wide,Ruins,Alamo,Baca,Breadsprings,Becenti,Casamero,Lake,Chi,Chiltah,Churchrock,Counselor,Manuelito,Coyote,Canyon,Crystal,Cudeii,Forest,Hardrock,Hogback,Iyanbito,Kaibeto,Kinlichee,Klagetoh,Valley,Littlewater,Lupton,Springs,Nageezi,Nahodishgish,Nahata,Dziil,Nakaibito,Naschitti,Navajo,Newcomb,Oak,Ojo,Encino,Oljato,Pinedale,Pueblo,Pintado,Sanostee,Sawmill,Shonto,Smith,Standing,St,Michaels,Tachee,Teesto,Tiis,Tsoh,Sikaad,Tohajiilee,Tonalea,Torreon,Toadlena,Wheatfields,Whippoorwill,Whitecone,Whitehorse,Cameron,Chilchinbeto,Coalmine,Coppermine,Inscription,House,Lechee,Sheepsprings,San,Juan,Sucker,River,Tselani,Cottonwood,Two,Grey,Hills,Upper,Fruitland,Gadii,Ahi"},
-      {"name": "Cherokee", "i": 25022, "min": 4, "max": 11, "d": "", "m": 0, "b": "Tahlequah,Cherokee,Fort,Gibson,Stilwell,Sallisaw,Westville,Vian,Spiro,Poteau,Eufaula,Quinton,Warner,Park,Hill,Peggs,Locust,Grove,Salina,Adair,Delaware,Mayes,County,Sequoyah,Nowata,Rogers,Wagoner,Muskogee,Okmulgee,Tulsa,Washington,McIntosh,Craig,Ottawa,Jay,Spavinaw,Kenwood,Hulbert,Briggs,Cookson,Bunch,Belfonte,Braggs,Marble,City,Muldrow,Gore,Webbers,Falls,Okay,Oaks,Proctor,Christie,Watts,Leach,Fairfield,Greasy,Bell,Barber,Lyons,Switch,East,District,Keys,Evening,Shade,Dry,Creek,Brushy,Rocky,Ford,Four,Corners,Long,Qualla,Boundary,NC,Big,Cove,Yellow,Wolfetown,Birdtown,Snowbird,Cowee,Painttown,Jackson,Graham,Swain,Hayesville,Murphy,Andrews,Boqute,Ducktown,Bryson,Hills,Going,Snake,Caney,Stroud,Twin,Piney,Council,Sourjohn,Blackgum,Nicut,Bull,Hollow,Rose,Barren,Honey,Sycamore,Moodys,Greenleaf,Tenkiller,Johnson,Prairie,White,Oak,Red,Blue,Jacket,Bartlesville,Claremore,Vinita,Miami,Catoosa,Pryor,Inola,Chouteau"},
-      {"name": "Ojibwe", "i": 25023, "min": 4, "max": 13, "d": "", "m": 0, "b": "White,Earth,Red,Lake,Leech,Mille,Lacs,Fond,du,Lac,Bois, Forte,Grand,Portage,Bad,River,Courte,Oreilles,Flambeau,Mole,St,Croix,Sokaogon,Hannahville,Bay,Mills,Little,Traverse,Saginaw,Isabella,Keweenaw,L,Anse,Baraga,Ontonagon,Vieux,Desert,Sault,Ste,Marie,Garden,Batchewana,Serpent,Mississauga,Six,Nations,Wikwemikong,Aamjiwnaang,Kettle,and,Stony,Point,Walpole,Island,Moravian,of,the,Thames,Curve,Alderville,Hiawatha,Mississaugas,Scugog,Pine,Naytahwaush,Elbow,Rice,Callaway,Ogema,Waubun,Mahnomen,Onigum,Cass,Bena,Deer,Inger,Max,Squaw,Boy,Remer,Hill,City,Blackduck,Redby,Ponsford,Cloquet,Brookston,Sawyer,Nett,Orr,Buyck,Crane,Tower,Winton,Biwabik,Virginia,Ely,Tofte,Marais,Lutsen,Two,Harbors,Beaver,Silver,Bayfield,Cliff,Odanah,New,Post,Winter,Manitowish,Waters,Minocqua,Woodruff,Presque,Isle,Tomahawk,Rhinelander,Crandon,Legend,Keshena,Gresham,Bowler,Shawano,Gillett,Oconto,Peshtigo,Marinette,Township,Houghton,Hancock,Calumet,Mass,Rockland,Bruce,Crossing,Watersmeet,Wakefield,Marenisco,Iron,Crystal,Falls,Escanaba,Manistique,Newberry,Munising,Cedar,Sandy,McGregor,Palisade,Tamarack,Wright,Jacobson,Swatara,Outing,Hayward,Round,Stone,Cable,Drummond,Cornucopia,Herbster,Port,Wing,Marengo,Mellen,Glidden,Morse,Ashland,Washburn"},
-      {"name": "Cree", "i": 25024, "min": 4, "max": 13, "d": "", "m": 0, "b": "Hobbema,Maskwacis,Enoch,Samson,Louis,Bull,Montana,Frog,Lake,Saddle,Kehewin,Beaver,Whitefish,Goodfish,Heart,Cold,Chipewyan,Prairie,Bigstone,Alexander,Alexis,Paul,Sturgeon,Driftpile,Swan,River,Sucker,Creek,Sawridge,Fort,McKay,McMurray,468,Athabasca,Mikisew,Dene,Conklin,Janvier,Anzac,Chard,Collin,Devon,East,Elizabeth,Fishing,John,D,Or,Gift,Gregoire,Kinosoo,Little,Red,Loon,Namur,Peerless,Philomena,Sandy,Smith,Landing,Tsu,Winefred,Zama,Atikameg,Woodland,Cree,Cadotte,Desmarais,Chateh,High,Level,Vermilion,La,Crete,Fox,Garden,Peavine,Wabasca,Salt,Trout,Demarais,O,Chiese,Big,Horn,Piikani,Stoney,Nakoda,Bearspaw,Chiniki,Wesley,Morley,Eden,Valley,Gleichen,Arrowood,Blackfoot,Tsuut,Ina,Sarcee,Cluny,Brocket,Pincher,Macleod,Lethbridge,Standoff,Moses,Levern,Fish,Bullhorn,Earth,Grouard,Enilda,Kinuso,Valleyview,DeBolt,Falher,Girouxville,Donnelly,Smoky"},
-      {"name": "Sioux", "i": 25025, "min": 4, "max": 12, "d": "", "m": 0, "b": "Pine,Ridge,Rosebud,Standing,Rock,Cheyenne,River,Crow,Creek,Lower,Brule,Yankton,Santee,Flandreau,Fort,Berthold,Spirit,Lake,Turtle,Mountain,Oglala,Sicangu,Two,Kettle,Hunkpapa,Blackfeet,Peck,Assiniboine,Sioux,Yanktonai,Cuthead,Wahpeton,Sisseton,Wahpekute,Oohenumpa,Minnicoujou,Itazipco,Siha,Sapa,Wood,Wounded,Knee,Kyle,Porcupine,Allen,Martin,Batesland,Long,Valley,Sharps,Corner,Manderson,Village,Rockyford,Swift,Bird,Whitehorse,Eagle,Butte,Isabel,Timber,Trail,City,Glencross,Thompson,Stephan,Hidatsa,Mandan,Elbowoods,New,Town,Parshall,White,Shield,Four,Bears,Shell,Segway,Beef,Little,Yates,McLaughlin,Selfridge,Wakpala,Solen,Cannon,Ball,Breien,Linton,Strasburg,Hague,Zeeland,Ashley,Wakonda,Utica,Scotland,Menno,Freeman,Ethan,Parkston,Dimock,Mitchell,Wagner,Andes,Marty,Geddes,Platte,Stickney,Corsica,Armour,Delmont,Kimball,Pukwana,Chamberlain,Oacoma,Reliance,Pierre,Onida,Blunt,Harrold,Ree,Heights,Saint,Lawrence,Miller,Wessington,Wolsey,Huron,De,Smet,Iroquois,Preston,Arlington,Volga,Brookings,Elkton,Aurora,Trent,Egan,Wentworth,Colman,Madison,Howard,Vilas,Canova,Carthage,Fedora,Bridgewater,Marion,Parker,Hurley,Davis,Lennox,Chancellor,Tea,Harrisburg"},
-      {"name": "Algonquin", "i": 25026, "min": 4, "max": 12, "d": "", "m": 0, "b": "Pikwakanagan,Kitigan,Zibi,Maniwaki,Lac,Simon,Timiskaming,Long,Aroland,Ginoogaming,Whitesand,Bingwi,Neyaashi,Anishinaabek,Kitcisakik,Kebaowek,Eagle,Village,Wolf,Lake,Point,Winneway,Barriere,Grand,Pikogan,Abitibiwinni,Rapide,Rapid,Apitipi,Matachewan,Temagami,Wahgoshig,Shabot,Obaadjiwan,Bonnechere,Anishinaabe,Baptiste,Ardoch,Snimikobi,Mattawa,Omami,Ininiwak,Kijicho,Manito,Sharbot,Cobden,Renfrew,Bancroft,Tichborne,Golden,Brudenell,Pembroke,Petawawa,Deep,River,North,Bay,Nipissing,Cache,Sturgeon,Falls,Field,Verner,Espanola,Webbwood,Whitefish,Noelville,Chelmsford,Levack,Capreol,Wahnapitei,Ramsey,Sudbury,Lively,Walden,Valley,East,Hanmer,Cartier,Chalk,Desert"},
-      {"name": "Mikmaq", "i": 25027, "min": 4, "max": 12, "d": "", "m": 0, "b": "Eskasoni,Indian,Brook,Membertou,Pictou,Landing,Millbrook,Paqtnkek,Potlotek,Whycocomagh,Chapel,Island,Acadia,Bear,River,Annapolis,Valley,Sipeknekatik,Glooscap,Shubenacadie,Wagmatcook,We-koqma-q,Wasoqopa-q,Big,Cove,Elsipogtog,Burnt,Church,Esgenoopetitj,Eel,Bar,Ground,Buctouche,Fort,Folly,Metepenagiag,Pabineau,Natoaganeg,Abegweit,Lennox,Scotchfort,Rocky,Point,Morell,Miminegash,Palmer,Road,Tignish,O,Leary,Alberton,Conne,Miawpukwek,St,Albans,Red,Bay,Lodge,Marys,Harbour,Cartwright,Happy,Goose,North,West,Sheshatshiu,Nain,Hopedale,Postville,Makkovik,Rigolet,Tukialik,Blanc,Sablon,Old,Bonne,Esperance,Restigouche,Listuguj,Pointe,a,la,Croix,Miguasha,Carleton,Gaspe,Anse,Pleureuse,Chevery,Tete,Baleine,La,Tabatiere,Romaine,Havre,Pierre,Longue,Mingan,Natashquan,Aguanish"},
-      {"name": "Inuktitut", "i": 25028, "min": 4, "max": 12, "d": "", "m": 0, "b": "Iqaluit,Rankin,Inlet,Baker,Lake,Cambridge,Bay,Pond,Arctic,Resolute,Grise,Fiord,Clyde,River,Qikiqtarjuaq,Pangnirtung,Kimmirut,Cape,Dorset,Kinngait,Coral,Harbour,Naujaat,Chesterfield,Arviat,Whale,Cove,Sanikiluaq,Igloolik,Sanirajak,Hall,Beach,Kugaaruk,Kugluktuk,Taloyoak,Gjoa,Haven,Alert,Eureka,Kuujjuaq,Kuujjuarapik,Umiujaq,Puvirnituq,Inukjuak,Salluit,Kangiqsujuaq,Kangirsuk,Tasiujaq,Aupaluk,Quaqtaq,Ivujivik,Akulivik,Sachs,Ulukhaktok,Tuktoyaktuk,Inuvik,Aklavik,Fort,McPherson,Tsiigehtchic,Red,Nahanni,Butte,Liard,Simpson,Nelson,Good,Hope,Norman,Wells,Tulita,Deline,Wrigley,Providence,Hay,Resolution,Yellowknife,Lutselk-e,Smith,Chateh,Chipewyan,McKay,Paulatuk,Holman,Tuktuuyaqtuuq,Noovvaq,Talurjuaq,Bathurst,Umingmaktok,Omingmaktok,Ennadai,Wollaston,Black,Stony,Rapids,La,Loche,Buffalo,Narrows,Ile,a,la,Crosse,Beauval,Green,St,Walburg,North,Battleford,Prince,Albert,Ronge,Mountain,Flin,Flon,The,Pas,Norway,House,Cross,Oxford,Garden,Hill,Island,God-s,Poplar,Winnipeg,Churchill,Gillam,Bird,Shamattawa,Tadoule"},
-      {"name": "Blackfoot", "i": 25029, "min": 4, "max": 12, "d": "", "m": 0, "b": "Siksika,Kainai,Piikani,Brocket,Cluny,Gleichen,Arrowood,Morley,Eden,Valley,Big,Horn,Standoff,Old,Agency,Fort,Macleod,Pincher,Creek,Cardston,Magrath,Raymond,Coaldale,Taber,Vauxhall,Brooks,Bassano,Strathmore,Wheatland,Hussar,Standard,Rosebud,Calgary,Lethbridge,Medicine,Hat,Redcliff,Bow,Island,Milk,River,Warner,Stirling,Glenwood,Hillspring,Waterton,Crowsnest,Pass,Blairmore,Frank,Coleman,Barnwell,New,Dayton,Milo,Tilley,Patricia,Scandia,Champion,Carmangay,Nobleford,Barons,Picture,Butte,Coalhurst,Grassy,Lake,Burdet,Suffield,Maple,Robsart,Eastend,Climax,Bracken,Rearville,Val,Marie,Orkney,Congress,Wood,Mountain,Kelvington,Tompkins,Gull,Webb,Antelope,Shamrock,Carmichael,White,Eagle,Seven,Persons,Etzikom,Writing,on,Stone"},
-      {"name": "Apache", "i": 25030, "min": 4, "max": 12, "d": "", "m": 0, "b": "White,Mountain,San,Carlos,Fort,Apache,Mescalero,Jicarilla,Warm,Springs,Cibecue,Whiteriver,East,Fork,Canyon,Day,Carrizo,Cedar,Creek,McNary,Hondah,North,Rainbow,City,Seven,Mile,Turkey,Forestdale,Bonito,Hawley,Lake,Alpine,Greer,Nutrioso,Eagar,Springerville,St,John-s,Concho,Defiance,Ganado,Sanders,Lupton,Michaels,Window,Rock,Salt,River,Globe,Miami,Peridot,Bylas,Gilson,Wash,Gila,Clifton,Safford,Pima,Thatcher,Eden,Junction,Morrison,Wagoner,Watonga,Thomas,Custer,Weatherford,Clinton,Arapaho,Cordell,Burns,Flat,Canute,Foss,Hammon,Butler,Carter,Elk,Cheyenne,Strong,Sayre,Sharon,Mutual,Vici,Camargo,Seiling,Longdale,Cleo, Springs,Ames,Drummond,Carrier,Billings,Alpha,Amorita,Byron,Burlington,Capron,Chester,Cherokee,Alva,Helena,Nash,Goltry,Hillsdale,Jet,Manchester,Medford,Pond,Renfalla,Ringwood,South,Haven,Wakita,Hardtner,Avard,Hopeton,Whitehorse,Mayfield,Kingfisher"},
-      {"name": "Zuni", "i": 25031, "min": 4, "max": 12, "d": "", "m": 0, "b": "Zuni,Pueblo,Black,Rock,Nutria,Ojo,Caliente,Pescado,Ramah,Salt,Lake,Dowa,Yalanne,Halona,Hawikuh,Kiakima,Matsaki,Kwakina,Chipaun,Antelope,Hill,Eustace,Reservoir,Upper,Lower,Las,Animas,Largo,Mangas,Nada,Luis,Lopez,San,Acacia,Polvadera,La,Joya,Elephant,Butte,Caballo,Williamsburg,Bayard,Mimbres,Faywood,Lorenzo,Mule,Creek,Gila,Arenas,Valley,Silver,City,Tyrone,Pinos,Altos,White,Signal,Alden,Hillsboro,Kingston,Fierro,Hanover,Cobre,Deming,Columbus,Luna,Reserve,Apache,Quemado,Magdalena,Polly,Cruzville,Cuba,Milan,Encino,Vaughn,Mountains,Stump,The,Neck,Cottonwood,Springs,Rocky,Point,Horsehead,Crossing,Camp,Bonito"},
-      {"name": "Hopi", "i": 25032, "min": 4, "max": 12, "d": "", "m": 0, "b": "First,Mesa,Second,Third,Polacca,Keams,Canyon,Tuba,City,Hotevilla,Bacavi,Mishongnovi,Shipaulovi,Shungopavi,Sichomovi,Walpi,Toreva,Old,Oraibi,Kykotsmovi,Moenkopi,Upper,Lower,Hano,Tewa,Sitsomovi,Waalpi,Songoopavi,Supawlavi,Munsungnuvi,Orayvi,Kiqotsmovi,Hoatvela,Paaqavi,Munqapi,Winslow,Leupp,Cameron,Joseph,Holbrook,West,Indian,Wells,Tolani,Lake,Birdsprings,Whitecone,Greasewood,Springs,Dilkon,Teesto,Pinon,Black,Forest,Hardrock,Low,Mountain,Jeddito,Whippoorwill,Blue,Gap,Tachee,Tsaile,Wheatfields,Round,Rock,Rough,Many,Farms,Ganado,Cornfields,Steamboat,Klagetoh,Wide,Ruins,Kinlichee,St,Michaels,Sawmill,Fort,Defiance,Window,Lupton,Houck,Sanders,Nahata,Dziil,Crystal,Coyote,Burnham,Shiprock,Aneth,Mexican,Water,Red,Navajo"},
-      {"name": "Arapaho", "i": 25033, "min": 4, "max": 12, "d": "", "m": 0, "b": "Wind,River,Arapaho,St,Stephens,Riverton,Ethete,Fort,Washakie,Hudson,Lander,Dubois,Crowheart,Arapahoe,Boulder,Flats,Atlantic,City,Johnstown,Jeffrey,Shoshoni,Pavillion,Kinnear,Morton,Moneta,Gas,Hills,Badwater,Lysite,Monument,Osborne,Lost,Cabin,Waltman,Alcova,Casper,Buffalo,Worland,Thermopolis,Wamsutter,Rawlins,Saratoga,Baggs,Dixon,Savery,Craig,Maybell,Meeker,Rangely,Sunbeam,Dinosaur,Lay,Cameo,Palisade,Grand,Junction,Rifle,Glenwood,Springs,Carbondale,Basalt,Aspen,Eagle,Vail,Red,Cliff,Leadville,Buena,Vista,Poncha,Salida,Fairplay,Breckenridge,Dillon,Frisco,Silverthorne,Kremmling,Hot,Sulphur,Granby,Fraser,Winter,Park,Georgetown,Idaho,Central,Black,Hawk,Coal,Creek,Crescent,Milliken,Platteville,Gilcrest,La,Salle,Greeley,Eaton,Evans,Lucerne,Ault,Pierce,Briggsdale,Stoneham,New,Raymer,Weldona,Morgan,Brush,Log,Lane,Village,Snyder,Merino,Hillrose"},
-      {"name": "Cree Expanded", "i": 25034, "min": 4, "max": 13, "d": "", "m": 0, "b": "Waskaganish,Eastmain,Wemindji,Waswanipi,Ouje-Bougoumou,Mistissini,Nemaska,Whapmagoostui,Chisasibi,Kuujjuarapik,Chibougamau,Chapais,Moosonee,Moose,Factory,Fort,Albany,Attawapiskat,Kashechewan,Constance,Lake,Chapleau,Missinabie,Weenusk,Peawanuck,Webequie,Eabametoong,Long,Lac,Ginoogaming,Aroland,Whitesand,Beardmore,Geraldton,Manitouwadge,White,River,Dubreuilville,Wawa,Michipicoten,Mississauga,Curve,Hiawatha,Alderville,Scugog,Island,Bracebridge,Parry,Sound,Henvey,Inlet,Magnetawan,Shawanaga,Wasauksing,Rama,Mnajang,Christian,Beausoleil,Georgina,Six,Nations,New,Credit,Haldimand,Oneida,of,the,Thames,Munsee-Delaware,Chippewas,Walpole,Aamjiwnaang,Kettle,and,Stony,Point,Saugeen,South,Bruce,Arran-Elderslie,Whitecap,Sturgeon,Saulteaux,Shoal,Canoe,Big,Makwa,Flying,Dust,Waterhen,Ministikwan,Lucky,Man,Little,Pine,Black,Bear,Red,Pheasant,Sweetgrass,Jaw,Muskoday,One,Arrow,Mistawasis,Muskeg,Standing,Buffalo,Sakimay,Pasqua,Wood,Mountain,Nekaneet,Star,Blanket,Okanese,Rump,Carry,Piapot,Poundmaker"},
-      {"name": "Abenaki", "i": 25035, "min": 4, "max": 12, "d": "", "m": 0, "b": "Odanak,Saint,Francois,du,Lac,Wolinak,Becancour,Bersimis,Pessamit,Betsiamites,Essipit,Manawan,Wemotaci,Coaticook,Reserve,River,Missisquoi,Bay,Lawrence,Champlain,Valley,Penobscot,Norridgewock,Old,Town,Pentagouet,Castine,Norway,Pigwacket,Fryeburg,Sokoki,Newbury,Coos,Contoocook,Boscowen,Winnipesaukee,Penacook,Concord,Pembroke,Nashua,Nashuaway,Salmon,Falls,Berwick,Dover,Cocheco,Oyster,Durham,Lee,Epping,Brentwood,Exeter,Hampton,Seabrook,Salisbury,Amesbury,Newburyport,Rowley,Ipswich,Gloucester,Rockport,Cape,Ann,Salem,Marblehead,Lynn,Revere,Chelsea,Boston,Braintree,Quincy,Milton,Dedham,Canton,Stoughton,Brockton,Plymouth,Kingston,Duxbury,Marshfield,Scituate,Cohasset,Hingham,Hull,Pemberton,Swanton,Highgate,Franklin,Georgia,Fairfax,Westford,Essex,Jericho,Bolton,Richmond,Huntington,Charlotte,Shelburne,Burlington,Colchester,St,Albans,Enosburgh,Berkshire,Sutton,Barthe"}
-,
-        {"name": "Inuktitut Expanded 2", "i": 25310, "min": 4, "max": 12, "d": "", "m": 0, "b": "Iqaluit,Rankin Inlet,Baker Lake,Cambridge Bay,Pond Inlet,Arctic Bay,Resolute,Grise Fiord,Clyde River,Qikiqtarjuaq,Pangnirtung,Kimmirut,Cape Dorset,Kinngait,Coral Harbour,Naujaat,Chesterfield Inlet,Arviat,Whale Cove,Sanikiluaq,Igloolik,Sanirajak,Hall Beach,Kugaaruk,Kugluktuk,Taloyoak,Gjoa Haven,Alert,Eureka,Kuujjuaq,Kuujjuarapik,Umiujaq,Puvirnituq,Inukjuak,Salluit,Kangiqsujuaq,Kangirsuk,Tasiujaq,Aupaluk,Quaqtaq,Ivujivik,Akulivik,Sachs Harbour,Ulukhaktok,Tuktoyaktuk,Inuvik,Aklavik,Fort McPherson,Tsiigehtchic,Arctic Red River,Nahanni Butte,Fort Liard,Fort Simpson,Fort Nelson,Fort Good Hope,Norman Wells,Tulita,Deline,Wrigley,Fort Providence,Hay River,Fort Resolution,Yellowknife,Lutselk-e,Fort Smith,Chateh,Fort Chipewyan,Fort McKay,Paulatuk,Holman,Tuktuuyaqtuuq,Noovvaq,Talurjuaq,Bathurst Inlet,Umingmaktok,Omingmaktok,Ennadai,Wollaston Lake,Black Lake,Stony Rapids,La Loche,Buffalo Narrows,Ile a la Crosse,Beauval,Green Lake,St. Walburg,North Battleford,Prince Albert,La Ronge,Stony Mountain,Flin Flon,The Pas,Norway House,Cross Lake,Oxford House,Garden Hill,Island Lake,God-s Lake,Poplar River,Winnipeg,Churchill,Gillam,Bird,Shamattawa,Tadoule Lake,Nanisivik,Ausuittuq,Qausuittuq,Kangiqtugaapik,Mittimatalik,Pannirtuq,Tikirarjuaq,Sallit,Igluligaarjuk,Qurluqtuq,Uqsuqtuuq,Kangiqliniq,Ikaluktutiak,Arviligjuaq"},
-      {"name": "Cree Expanded 2", "i": 25311, "min": 4, "max": 13, "d": "", "m": 0, "b": "Hobbema,Maskwacis,Enoch,Samson,Louis Bull,Montana,Frog Lake,Saddle Lake,Kehewin,Beaver Lake,Whitefish Lake,Goodfish Lake,Heart Lake,Cold Lake,Chipewyan Prairie,Bigstone,Alexander,Alexis,Paul,Sturgeon Lake,Driftpile,Swan River,Sucker Creek,Sawridge,Fort McKay,Fort McMurray,Athabasca Chipewyan,Mikisew,Conklin,Janvier,Anzac,Chard,Collin Lake,Devon,East Prairie,Elizabeth,Fishing Lake,John D Or Prairie,Gift Lake,Gregoire Lake,Kinosoo,Little Red River,Loon River,Namur Lake,Peerless Lake,Philomena,Sandy Lake,Smith Landing,Tsu Lake,Winefred Lake,Zama,Whitefish Lake Atikameg,Woodland Cadotte Lake,Desmarais,Chateh,High Level,Fort Vermilion,La Crete,Fox Lake,Garden River,Peavine,Wabasca,Salt Prairie,Trout Lake,Wabasca Demarais,O Chiese,Big Horn,Piikani,Stoney Nakoda,Bearspaw,Chiniki,Wesley,Morley,Eden Valley,Gleichen,Arrowood,Blackfoot,Tsuut Ina,Sarcee,Cluny,Brocket,Pincher Creek,Fort Macleod,Lethbridge,Standoff,Moses Lake,Levern,Fish Creek,Bullhorn,Beaver,Red Earth Creek,Grouard,Enilda,Atikameg,Kinuso,High Prairie,Valleyview,DeBolt,Falher,Girouxville,Donnelly,Smoky River,Chisasibi,Wemindji,Eastmain,Waskaganish,Nemaska,Waswanipi,Ouje-Bougoumou,Mistissini,Whapmagoostui,Inukjuak,Puvirnituq,Salluit,Kangiqsujuaq,Kangirsuk,Tasiujaq,Aupaluk,Quaqtaq,Ivujivik,Akulivik"},
-      {"name": "Ojibwe Expanded 2", "i": 25312, "min": 4, "max": 13, "d": "", "m": 0, "b": "White Earth,Red Lake,Leech Lake,Mille Lacs,Fond du Lac,Bois Forte,Grand Portage,Bad River,Lac Courte Oreilles,Lac du Flambeau,Mole Lake,St. Croix,Sokaogon,Hannahville,Bay Mills,Little Traverse,Saginaw,Isabella,Keweenaw Bay,L Anse,Baraga,Ontonagon,Lac Vieux Desert,Sault Ste Marie,Garden River,Batchewana,Serpent River,Mississauga,Six Nations,Wikwemikong,Aamjiwnaang,Kettle and Stony Point,Walpole Island,Moravian of the Thames,Curve Lake,Alderville,Hiawatha,Mississaugas of Scugog Island,Pine Point,Naytahwaush,Elbow Lake,Rice Lake,Callaway,Ogema,Waubun,Mahnomen,Onigum,Cass Lake,Bena,Deer River,Inger,Max,Squaw Lake,Boy River,Remer,Hill City,Blackduck,Redby,Ponsford,Cloquet,Brookston,Sawyer,Nett Lake,Orr,Buyck,Crane Lake,Tower,Winton,Biwabik,Virginia,Ely,Tofte,Grand Marais,Lutsen,Two Harbors,Beaver Bay,Silver Bay,Bayfield,Red Cliff,Odanah,New Post,Winter,Manitowish Waters,Minocqua,Woodruff,Presque Isle,Tomahawk,Rhinelander,Crandon,Legend Lake,Keshena,Gresham,Bowler,Shawano,Gillett,Oconto,Peshtigo,Marinette,Houghton,Hancock,Calumet,Mass City,Rockland,Bruce Crossing,Watersmeet,Wakefield,Marenisco,Iron River,Crystal Falls,Escanaba,Manistique,Munising,Deer Lake,Cedar Lake,McGregor,Palisade,Tamarack,Wright,Jacobson,Swatara,Outing,Hayward,Round Lake,Stone Lake,Cable,Drummond,Cornucopia,Herbster,Port Wing,Marengo,Mellen,Glidden,Morse,Ashland,Washburn,Keeseekoowenin,Waywayseecappo,Peguis,Sagkeeng,Fort Alexander,Pauingassi,Pinaymootang,Brokenhead,Bloodvein,Buffalo Point,Hollow Water,Little Grand Rapids,Animoziibiing,Ataagewininiing,Azaadiwiziibiing,Baaskaandibewiziibiing,Bawingaasiziibing,Bawinemoodaang,Ditibineyaziibiing,Dootinaawiziibiing,Gaabiskigamaag,Gaaginooshkodeyaag,Gaawiikwedaawangaag,Giizhigoowining,Ishkwaawinaaning,Makadewaagamijiwanoonsing,Mememwiiziibiing,Minaigoziibiing,Mishibaawitigong,Miskoziibiing,Neyaashing,Obashkodeyaang,O ChiChiak Ko Sipi,Ojijaakoziibiing,Okwewanashkoziibiing,Oshkiishkonigan,Waanibiigaaw,Wewezhigaabawing,Zaagiing,Zaaskajiwaning"},
-      {"name": "Navajo Expanded 2", "i": 25313, "min": 4, "max": 11, "d": "", "m": 0, "b": "Tuba City,Chinle,Window Rock,Shiprock,Kayenta,Tse Bonito,Tohatchi,Crownpoint,Thoreau,Prewitt,Ramah,Zuni,Many Farms,Ganado,Nazlini,Pinon,Lukachukai,Round Rock,Rock Point,Dennehotso,Leupp,Dilkon,Teec Nos Pos,Mexican Water,Aneth,Montezuma Creek,Red Mesa,Sweetwater,Indian Wells,Jeddito,Low Mountain,Steamboat,Tsaile,Wide Ruins,Alamo,Baca,Breadsprings,Becenti,Casamero Lake,Chi Chiltah,Churchrock,Counselor,Coyote Canyon,Crystal,Cudeii,Forest Lake,Hardrock,Hogback,Iyanbito,Kaibeto,Kinlichee,Klagetoh,Lake Valley,Littlewater,Lupton,Manuelito,Mexican Springs,Nageezi,Nahodishgish,Nahata Dziil,Nakaibito,Naschitti,Navajo,Navajo Mountain,Newcomb,Oak Springs,Ojo Encino,Oljato,Pinedale,Pueblo Pintado,Red Lake,Red Valley,Rock Springs,Sanostee,Sawmill,Shonto,Smith Lake,Standing Rock,St. Michaels,Tachee,Teesto,Tiis Tsoh Sikaad,Tohajiilee,Tonalea,Toadlena,Whippoorwill,Whitecone,Whitehorse Lake,Cameron,Chilchinbeto,Coalmine Canyon,Coppermine,Inscription House,Lechee,Sheepsprings,San Juan,Sucker River,Tselani Cottonwood,Two Grey Hills,Upper Fruitland,Gadii Ahi,Beclabito,Bitter Springs,Borrego Pass,Brimhall Nizhoni,Burnside,Burnt Water,Cheechilgetto,Fort Defiance,Greasewood,Halchita,Hospah,Houck,Huerfano,Hunters Point,Mariano Lake,Nenahnezad,Ojo Amarillo,Oljato Monument Valley,Pine Springs,Rough Rock,Sheep Springs,Smoke Signal,Sunrise,To Hajiilee,Tolani Lake,Tselakai Dezza,Twin Lakes,White Horse Lake,White Rock,Yah Ta Hey"},
-      {"name": "Cherokee Expanded 2", "i": 25314, "min": 4, "max": 11, "d": "", "m": 0, "b": "Tahlequah,Cherokee,Fort Gibson,Stilwell,Sallisaw,Westville,Vian,Spiro,Poteau,Eufaula,Quinton,Warner,Park Hill,Peggs,Locust Grove,Salina,Adair,Delaware,Mayes,Sequoyah,Nowata,Rogers,Wagoner,Muskogee,Okmulgee,Tulsa,Washington,McIntosh,Craig,Ottawa,Grove,Jay,Spavinaw,Kenwood,Hulbert,Briggs,Cookson,Bunch,Belfonte,Braggs,Marble City,Muldrow,Gore,Webbers Falls,Okay,Oaks,Proctor,Christie,Watts,Leach,Fairfield,Cherokee City,Greasy,Barber,Lyons Switch,Stilwell East,Keys,Evening Shade,Dry Creek,Brushy,Rocky Ford,Four Corners,Long,Qualla Boundary,Big Cove,Yellow Hill,Wolfetown,Birdtown,Snowbird,Cowee,Painttown,Hayesville,Murphy,Andrews,Boqute,Ducktown,Bryson City,Going Snake,Caney,Stroud,Twin Oaks,Piney,Council Hill,Sourjohn,Blackgum,Nicut,Bull Hollow,Rose,Barren,Honey Creek,Sycamore,Moodys,Greenleaf,Tenkiller,Johnson Prairie,White Oak,Red Oak,Blue Jacket,Bartlesville,Claremore,Vinita,Miami,Catoosa,Pryor,Inola,Chouteau,Ellijay,Talking Rock,Salacoa,Coosawattee,Brasstown,Cowe,Steecoy,Nikwasi,Nununyi,Kituwa,Tomotla,Tanasi,Telliquo,Tuckasegee,Tuskegee,Willstown,Turkeytown,Crow Town,Running Water,Nickajack,Keowee,Echoee,Chilhowee,Oconee,Oconaluftee,Chauga,Noyowee,Etowah,Valleytown,Warriors Path,Shooting Creek,Notchietown,Topton,Stecoah,Nantahala,Aquone,Franklin,Cherokee County,Tahlequah District,Cherokee NC,Cherokee County NC,Jackson County NC,Graham County NC,Swain County NC,Cherokee Hills"},
-      {"name": "Sioux Expanded 2", "i": 25315, "min": 4, "max": 12, "d": "", "m": 0, "b": "Pine Ridge,Rosebud,Standing Rock,Cheyenne River,Crow Creek,Lower Brule,Yankton,Santee,Flandreau,Fort Berthold,Spirit Lake,Turtle Mountain,Oglala,Sicangu,Brule,Two Kettle,Hunkpapa,Blackfeet,Fort Peck,Assiniboine,Yanktonai,Cuthead,Wahpeton,Sisseton,Wahpekute,Oohenumpa,Minnicoujou,Itazipco,Siha Sapa,Wood Mountain,Wounded Knee,Kyle,Porcupine,Allen,Martin,Batesland,Long Valley,Sharps Corner,Manderson,Eagle Butte,Isabel,Timber Lake,Trail City,Glencross,Fort Thompson,Stephan,Hidatsa,Mandan,Elbowoods,New Town,Parshall,White Shield,Four Bears,Shell Creek,Segway,Beef Creek,Little Eagle,Fort Yates,McLaughlin,Selfridge,Wakpala,Solen,Cannon Ball,Breien,Linton,Strasburg,Hague,Zeeland,Ashley,Long Lake,Wakonda,Utica,Scotland,Menno,Freeman,Ethan,Parkston,Dimock,Mitchell,Wagner,Lake Andes,Marty,Geddes,Platte,Stickney,Corsica,Armour,Delmont,White Lake,Kimball,Pukwana,Chamberlain,Oacoma,Reliance,Fort Pierre,Pierre,Onida,Blunt,Harrold,Ree Heights,Saint Lawrence,Miller,Wessington,Wolsey,Huron,De Smet,Iroquois,Lake Preston,Arlington,Volga,White,Brookings,Elkton,Aurora,Trent,Egan,Wentworth,Colman,Howard,Vilas,Canova,Carthage,Fedora,Bridgewater,Marion,Parker,Hurley,Davis,Lennox,Chancellor,Tea,Harrisburg,Sioux Falls,Sioux City,Sioux Center,Sioux Lookout,Sioux Narrows,North Sioux City,South Sioux City,Sioux Rapids,Sioux Valley,Dakota Plains,Dakota Tipi,Canupawakpa,Birdtail Sioux,Sioux Valley Dakota Nation,Dakota Plains Wahpeton,Standing Buffalo,Whitecap,Long Plain,Oak Lake,Pipestone,Birdtail Creek,Canupakota"},
-      {"name": "Inuktitut Expanded 3", "i": 25316, "min": 4, "max": 12, "d": "", "m": 0, "b": "Iqaluit,Rankin Inlet,Baker Lake,Cambridge Bay,Pond Inlet,Arctic Bay,Resolute,Grise Fiord,Clyde River,Qikiqtarjuaq,Pangnirtung,Kimmirut,Cape Dorset,Kinngait,Coral Harbour,Naujaat,Chesterfield Inlet,Arviat,Whale Cove,Sanikiluaq,Igloolik,Sanirajak,Hall Beach,Kugaaruk,Kugluktuk,Taloyoak,Gjoa Haven,Alert,Eureka,Kuujjuaq,Kuujjuarapik,Umiujaq,Puvirnituq,Inukjuak,Salluit,Kangiqsujuaq,Kangirsuk,Tasiujaq,Aupaluk,Quaqtaq,Ivujivik,Akulivik,Sachs Harbour,Ulukhaktok,Tuktoyaktuk,Inuvik,Aklavik,Fort McPherson,Tsiigehtchic,Arctic Red River,Nahanni Butte,Fort Liard,Fort Simpson,Fort Nelson,Fort Good Hope,Norman Wells,Tulita,Deline,Wrigley,Fort Providence,Hay River,Fort Resolution,Yellowknife,Lutselk-e,Fort Smith,Chateh,Fort Chipewyan,Fort McKay,Paulatuk,Holman,Tuktuuyaqtuuq,Noovvaq,Talurjuaq,Bathurst Inlet,Umingmaktok,Omingmaktok,Ennadai,Wollaston Lake,Black Lake,Stony Rapids,La Loche,Buffalo Narrows,Ile a la Crosse,Beauval,Green Lake,St. Walburg,North Battleford,Prince Albert,La Ronge,Stony Mountain,Flin Flon,The Pas,Norway House,Cross Lake,Oxford House,Garden Hill,Island Lake,God-s Lake,Poplar River,Winnipeg,Churchill,Gillam,Bird,Shamattawa,Tadoule Lake,Nanisivik,Ausuittuq,Qausuittuq,Kangiqtugaapik,Mittimatalik,Pannirtuq,Tikirarjuaq,Sallit,Igluligaarjuk,Qurluqtuq,Uqsuqtuuq,Kangiqliniq,Ikaluktutiak,Arviligjuaq,Kangiqtiniq,Salliq,Tikiraqjuaq"}
+  {
+    "name": "Cauque Mayan",
+    "i": 200938,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "SantaMariaCauque",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Inuktitut-English Pidgin",
+    "i": 200944,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Iqaluit,Pangnirtung,PondInlet,ClydeRiver,Resolute,Kugaaruk,Inuvik,Tuktoyaktuk,Aklavik,FortMcPherson,NormanWells,Yellowknife,Lutselke,FortSmith,HayRiver,FortResolution,RankinInlet,Arviat,BakerLake,WhaleCove,Nain,HappyValley,Churchill,Labrador,Nunavik,BaffinIsland",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Labrador Inuit Pidgin French",
+    "i": 200949,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "StraitsOfBelleIsle,BelleIsle,StraitOfBelleIsle,ChateauBay,Quirpon,Quiberon,SouthernLabrador,BelleIslePidgin,InuitFrenchJargon,LabradorInuitPidginFrench,BelleIsle,StraitsOfBelleIsleRegion",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Pidgin Hawaiian",
+    "i": 200975,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "HawaiianIslands,Oahu,Maui,Hawaii,Kauai,Molokai,Lanai,Niihau,Kahoolawe,Honolulu,Hilo,Lahaina,Wailuku,Kahului,Lihue,Kapaa",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Port Jackson Pidgin English",
+    "i": 200980,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "PortJackson,Sydney,NewSouthWales,Newcastle,BotanyBay,Parramatta,CumberlandPlain,HawkesburyRiver,NorthernTerritory,RoperRiverMission,Ngukurr,StockmenRoutes,SydneyCove,PortJacksonPenalColony,Bennelong,ArthurPhillip,NewSouthWalesPidgin",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Navajo",
+    "i": 25021,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "Tuba,City,Chinle,Window,Rock,Shiprock,Kayenta,Tse,Bonito,Tohatchi,Crownpoint,Thoreau,Prewitt,Ramah,Zuni,Many,Farms,Ganado,Nazlini,Pinon,Lukachukai,Round,Point,Dennehotso,Leupp,Dilkon,Teec,Nos,Pos,Mexican,Water,Aneth,Montezuma,Creek,Red,Mesa,Sweetwater,Indian,Wells,Jeddito,Low,Mountain,Steamboat,Tsaile,Wide,Ruins,Alamo,Baca,Breadsprings,Becenti,Casamero,Lake,Chi,Chiltah,Churchrock,Counselor,Manuelito,Coyote,Canyon,Crystal,Cudeii,Forest,Hardrock,Hogback,Iyanbito,Kaibeto,Kinlichee,Klagetoh,Valley,Littlewater,Lupton,Springs,Nageezi,Nahodishgish,Nahata,Dziil,Nakaibito,Naschitti,Navajo,Newcomb,Oak,Ojo,Encino,Oljato,Pinedale,Pueblo,Pintado,Sanostee,Sawmill,Shonto,Smith,Standing,St,Michaels,Tachee,Teesto,Tiis,Tsoh,Sikaad,Tohajiilee,Tonalea,Torreon,Toadlena,Wheatfields,Whippoorwill,Whitecone,Whitehorse,Cameron,Chilchinbeto,Coalmine,Coppermine,Inscription,House,Lechee,Sheepsprings,San,Juan,Sucker,River,Tselani,Cottonwood,Two,Grey,Hills,Upper,Fruitland,Gadii,Ahi"
+  },
+  {
+    "name": "Cherokee",
+    "i": 25022,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "Tahlequah,Cherokee,Fort,Gibson,Stilwell,Sallisaw,Westville,Vian,Spiro,Poteau,Eufaula,Quinton,Warner,Park,Hill,Peggs,Locust,Grove,Salina,Adair,Delaware,Mayes,County,Sequoyah,Nowata,Rogers,Wagoner,Muskogee,Okmulgee,Tulsa,Washington,McIntosh,Craig,Ottawa,Jay,Spavinaw,Kenwood,Hulbert,Briggs,Cookson,Bunch,Belfonte,Braggs,Marble,City,Muldrow,Gore,Webbers,Falls,Okay,Oaks,Proctor,Christie,Watts,Leach,Fairfield,Greasy,Bell,Barber,Lyons,Switch,East,District,Keys,Evening,Shade,Dry,Creek,Brushy,Rocky,Ford,Four,Corners,Long,Qualla,Boundary,NC,Big,Cove,Yellow,Wolfetown,Birdtown,Snowbird,Cowee,Painttown,Jackson,Graham,Swain,Hayesville,Murphy,Andrews,Boqute,Ducktown,Bryson,Hills,Going,Snake,Caney,Stroud,Twin,Piney,Council,Sourjohn,Blackgum,Nicut,Bull,Hollow,Rose,Barren,Honey,Sycamore,Moodys,Greenleaf,Tenkiller,Johnson,Prairie,White,Oak,Red,Blue,Jacket,Bartlesville,Claremore,Vinita,Miami,Catoosa,Pryor,Inola,Chouteau"
+  },
+  {
+    "name": "Ojibwe",
+    "i": 25023,
+    "min": 4,
+    "max": 13,
+    "d": "",
+    "m": 0,
+    "b": "White,Earth,Red,Lake,Leech,Mille,Lacs,Fond,du,Lac,Bois, Forte,Grand,Portage,Bad,River,Courte,Oreilles,Flambeau,Mole,St,Croix,Sokaogon,Hannahville,Bay,Mills,Little,Traverse,Saginaw,Isabella,Keweenaw,L,Anse,Baraga,Ontonagon,Vieux,Desert,Sault,Ste,Marie,Garden,Batchewana,Serpent,Mississauga,Six,Nations,Wikwemikong,Aamjiwnaang,Kettle,and,Stony,Point,Walpole,Island,Moravian,of,the,Thames,Curve,Alderville,Hiawatha,Mississaugas,Scugog,Pine,Naytahwaush,Elbow,Rice,Callaway,Ogema,Waubun,Mahnomen,Onigum,Cass,Bena,Deer,Inger,Max,Squaw,Boy,Remer,Hill,City,Blackduck,Redby,Ponsford,Cloquet,Brookston,Sawyer,Nett,Orr,Buyck,Crane,Tower,Winton,Biwabik,Virginia,Ely,Tofte,Marais,Lutsen,Two,Harbors,Beaver,Silver,Bayfield,Cliff,Odanah,New,Post,Winter,Manitowish,Waters,Minocqua,Woodruff,Presque,Isle,Tomahawk,Rhinelander,Crandon,Legend,Keshena,Gresham,Bowler,Shawano,Gillett,Oconto,Peshtigo,Marinette,Township,Houghton,Hancock,Calumet,Mass,Rockland,Bruce,Crossing,Watersmeet,Wakefield,Marenisco,Iron,Crystal,Falls,Escanaba,Manistique,Newberry,Munising,Cedar,Sandy,McGregor,Palisade,Tamarack,Wright,Jacobson,Swatara,Outing,Hayward,Round,Stone,Cable,Drummond,Cornucopia,Herbster,Port,Wing,Marengo,Mellen,Glidden,Morse,Ashland,Washburn"
+  },
+  {
+    "name": "Cree",
+    "i": 25024,
+    "min": 4,
+    "max": 13,
+    "d": "",
+    "m": 0,
+    "b": "Hobbema,Maskwacis,Enoch,Samson,Louis,Bull,Montana,Frog,Lake,Saddle,Kehewin,Beaver,Whitefish,Goodfish,Heart,Cold,Chipewyan,Prairie,Bigstone,Alexander,Alexis,Paul,Sturgeon,Driftpile,Swan,River,Sucker,Creek,Sawridge,Fort,McKay,McMurray,468,Athabasca,Mikisew,Dene,Conklin,Janvier,Anzac,Chard,Collin,Devon,East,Elizabeth,Fishing,John,D,Or,Gift,Gregoire,Kinosoo,Little,Red,Loon,Namur,Peerless,Philomena,Sandy,Smith,Landing,Tsu,Winefred,Zama,Atikameg,Woodland,Cree,Cadotte,Desmarais,Chateh,High,Level,Vermilion,La,Crete,Fox,Garden,Peavine,Wabasca,Salt,Trout,Demarais,O,Chiese,Big,Horn,Piikani,Stoney,Nakoda,Bearspaw,Chiniki,Wesley,Morley,Eden,Valley,Gleichen,Arrowood,Blackfoot,Tsuut,Ina,Sarcee,Cluny,Brocket,Pincher,Macleod,Lethbridge,Standoff,Moses,Levern,Fish,Bullhorn,Earth,Grouard,Enilda,Kinuso,Valleyview,DeBolt,Falher,Girouxville,Donnelly,Smoky"
+  },
+  {
+    "name": "Sioux",
+    "i": 25025,
+    "min": 4,
+    "max": 12,
+    "d": "",
+    "m": 0,
+    "b": "Pine,Ridge,Rosebud,Standing,Rock,Cheyenne,River,Crow,Creek,Lower,Brule,Yankton,Santee,Flandreau,Fort,Berthold,Spirit,Lake,Turtle,Mountain,Oglala,Sicangu,Two,Kettle,Hunkpapa,Blackfeet,Peck,Assiniboine,Sioux,Yanktonai,Cuthead,Wahpeton,Sisseton,Wahpekute,Oohenumpa,Minnicoujou,Itazipco,Siha,Sapa,Wood,Wounded,Knee,Kyle,Porcupine,Allen,Martin,Batesland,Long,Valley,Sharps,Corner,Manderson,Village,Rockyford,Swift,Bird,Whitehorse,Eagle,Butte,Isabel,Timber,Trail,City,Glencross,Thompson,Stephan,Hidatsa,Mandan,Elbowoods,New,Town,Parshall,White,Shield,Four,Bears,Shell,Segway,Beef,Little,Yates,McLaughlin,Selfridge,Wakpala,Solen,Cannon,Ball,Breien,Linton,Strasburg,Hague,Zeeland,Ashley,Wakonda,Utica,Scotland,Menno,Freeman,Ethan,Parkston,Dimock,Mitchell,Wagner,Andes,Marty,Geddes,Platte,Stickney,Corsica,Armour,Delmont,Kimball,Pukwana,Chamberlain,Oacoma,Reliance,Pierre,Onida,Blunt,Harrold,Ree,Heights,Saint,Lawrence,Miller,Wessington,Wolsey,Huron,De,Smet,Iroquois,Preston,Arlington,Volga,Brookings,Elkton,Aurora,Trent,Egan,Wentworth,Colman,Madison,Howard,Vilas,Canova,Carthage,Fedora,Bridgewater,Marion,Parker,Hurley,Davis,Lennox,Chancellor,Tea,Harrisburg"
+  },
+  {
+    "name": "Algonquin",
+    "i": 25026,
+    "min": 4,
+    "max": 12,
+    "d": "",
+    "m": 0,
+    "b": "Pikwakanagan,Kitigan,Zibi,Maniwaki,Lac,Simon,Timiskaming,Long,Aroland,Ginoogaming,Whitesand,Bingwi,Neyaashi,Anishinaabek,Kitcisakik,Kebaowek,Eagle,Village,Wolf,Lake,Point,Winneway,Barriere,Grand,Pikogan,Abitibiwinni,Rapide,Rapid,Apitipi,Matachewan,Temagami,Wahgoshig,Shabot,Obaadjiwan,Bonnechere,Anishinaabe,Baptiste,Ardoch,Snimikobi,Mattawa,Omami,Ininiwak,Kijicho,Manito,Sharbot,Cobden,Renfrew,Bancroft,Tichborne,Golden,Brudenell,Pembroke,Petawawa,Deep,River,North,Bay,Nipissing,Cache,Sturgeon,Falls,Field,Verner,Espanola,Webbwood,Whitefish,Noelville,Chelmsford,Levack,Capreol,Wahnapitei,Ramsey,Sudbury,Lively,Walden,Valley,East,Hanmer,Cartier,Chalk,Desert"
+  },
+  {
+    "name": "Mikmaq",
+    "i": 25027,
+    "min": 4,
+    "max": 12,
+    "d": "",
+    "m": 0,
+    "b": "Eskasoni,Indian,Brook,Membertou,Pictou,Landing,Millbrook,Paqtnkek,Potlotek,Whycocomagh,Chapel,Island,Acadia,Bear,River,Annapolis,Valley,Sipeknekatik,Glooscap,Shubenacadie,Wagmatcook,We-koqma-q,Wasoqopa-q,Big,Cove,Elsipogtog,Burnt,Church,Esgenoopetitj,Eel,Bar,Ground,Buctouche,Fort,Folly,Metepenagiag,Pabineau,Natoaganeg,Abegweit,Lennox,Scotchfort,Rocky,Point,Morell,Miminegash,Palmer,Road,Tignish,O,Leary,Alberton,Conne,Miawpukwek,St,Albans,Red,Bay,Lodge,Marys,Harbour,Cartwright,Happy,Goose,North,West,Sheshatshiu,Nain,Hopedale,Postville,Makkovik,Rigolet,Tukialik,Blanc,Sablon,Old,Bonne,Esperance,Restigouche,Listuguj,Pointe,a,la,Croix,Miguasha,Carleton,Gaspe,Anse,Pleureuse,Chevery,Tete,Baleine,La,Tabatiere,Romaine,Havre,Pierre,Longue,Mingan,Natashquan,Aguanish"
+  },
+  {
+    "name": "Inuktitut",
+    "i": 25028,
+    "min": 4,
+    "max": 12,
+    "d": "",
+    "m": 0,
+    "b": "Iqaluit,Rankin,Inlet,Baker,Lake,Cambridge,Bay,Pond,Arctic,Resolute,Grise,Fiord,Clyde,River,Qikiqtarjuaq,Pangnirtung,Kimmirut,Cape,Dorset,Kinngait,Coral,Harbour,Naujaat,Chesterfield,Arviat,Whale,Cove,Sanikiluaq,Igloolik,Sanirajak,Hall,Beach,Kugaaruk,Kugluktuk,Taloyoak,Gjoa,Haven,Alert,Eureka,Kuujjuaq,Kuujjuarapik,Umiujaq,Puvirnituq,Inukjuak,Salluit,Kangiqsujuaq,Kangirsuk,Tasiujaq,Aupaluk,Quaqtaq,Ivujivik,Akulivik,Sachs,Ulukhaktok,Tuktoyaktuk,Inuvik,Aklavik,Fort,McPherson,Tsiigehtchic,Red,Nahanni,Butte,Liard,Simpson,Nelson,Good,Hope,Norman,Wells,Tulita,Deline,Wrigley,Providence,Hay,Resolution,Yellowknife,Lutselk-e,Smith,Chateh,Chipewyan,McKay,Paulatuk,Holman,Tuktuuyaqtuuq,Noovvaq,Talurjuaq,Bathurst,Umingmaktok,Omingmaktok,Ennadai,Wollaston,Black,Stony,Rapids,La,Loche,Buffalo,Narrows,Ile,a,la,Crosse,Beauval,Green,St,Walburg,North,Battleford,Prince,Albert,Ronge,Mountain,Flin,Flon,The,Pas,Norway,House,Cross,Oxford,Garden,Hill,Island,God-s,Poplar,Winnipeg,Churchill,Gillam,Bird,Shamattawa,Tadoule"
+  },
+  {
+    "name": "Blackfoot",
+    "i": 25029,
+    "min": 4,
+    "max": 12,
+    "d": "",
+    "m": 0,
+    "b": "Siksika,Kainai,Piikani,Brocket,Cluny,Gleichen,Arrowood,Morley,Eden,Valley,Big,Horn,Standoff,Old,Agency,Fort,Macleod,Pincher,Creek,Cardston,Magrath,Raymond,Coaldale,Taber,Vauxhall,Brooks,Bassano,Strathmore,Wheatland,Hussar,Standard,Rosebud,Calgary,Lethbridge,Medicine,Hat,Redcliff,Bow,Island,Milk,River,Warner,Stirling,Glenwood,Hillspring,Waterton,Crowsnest,Pass,Blairmore,Frank,Coleman,Barnwell,New,Dayton,Milo,Tilley,Patricia,Scandia,Champion,Carmangay,Nobleford,Barons,Picture,Butte,Coalhurst,Grassy,Lake,Burdet,Suffield,Maple,Robsart,Eastend,Climax,Bracken,Rearville,Val,Marie,Orkney,Congress,Wood,Mountain,Kelvington,Tompkins,Gull,Webb,Antelope,Shamrock,Carmichael,White,Eagle,Seven,Persons,Etzikom,Writing,on,Stone"
+  },
+  {
+    "name": "Apache",
+    "i": 25030,
+    "min": 4,
+    "max": 12,
+    "d": "",
+    "m": 0,
+    "b": "White,Mountain,San,Carlos,Fort,Apache,Mescalero,Jicarilla,Warm,Springs,Cibecue,Whiteriver,East,Fork,Canyon,Day,Carrizo,Cedar,Creek,McNary,Hondah,North,Rainbow,City,Seven,Mile,Turkey,Forestdale,Bonito,Hawley,Lake,Alpine,Greer,Nutrioso,Eagar,Springerville,St,John-s,Concho,Defiance,Ganado,Sanders,Lupton,Michaels,Window,Rock,Salt,River,Globe,Miami,Peridot,Bylas,Gilson,Wash,Gila,Clifton,Safford,Pima,Thatcher,Eden,Junction,Morrison,Wagoner,Watonga,Thomas,Custer,Weatherford,Clinton,Arapaho,Cordell,Burns,Flat,Canute,Foss,Hammon,Butler,Carter,Elk,Cheyenne,Strong,Sayre,Sharon,Mutual,Vici,Camargo,Seiling,Longdale,Cleo, Springs,Ames,Drummond,Carrier,Billings,Alpha,Amorita,Byron,Burlington,Capron,Chester,Cherokee,Alva,Helena,Nash,Goltry,Hillsdale,Jet,Manchester,Medford,Pond,Renfalla,Ringwood,South,Haven,Wakita,Hardtner,Avard,Hopeton,Whitehorse,Mayfield,Kingfisher"
+  },
+  {
+    "name": "Zuni",
+    "i": 25031,
+    "min": 4,
+    "max": 12,
+    "d": "",
+    "m": 0,
+    "b": "Zuni,Pueblo,Black,Rock,Nutria,Ojo,Caliente,Pescado,Ramah,Salt,Lake,Dowa,Yalanne,Halona,Hawikuh,Kiakima,Matsaki,Kwakina,Chipaun,Antelope,Hill,Eustace,Reservoir,Upper,Lower,Las,Animas,Largo,Mangas,Nada,Luis,Lopez,San,Acacia,Polvadera,La,Joya,Elephant,Butte,Caballo,Williamsburg,Bayard,Mimbres,Faywood,Lorenzo,Mule,Creek,Gila,Arenas,Valley,Silver,City,Tyrone,Pinos,Altos,White,Signal,Alden,Hillsboro,Kingston,Fierro,Hanover,Cobre,Deming,Columbus,Luna,Reserve,Apache,Quemado,Magdalena,Polly,Cruzville,Cuba,Milan,Encino,Vaughn,Mountains,Stump,The,Neck,Cottonwood,Springs,Rocky,Point,Horsehead,Crossing,Camp,Bonito"
+  },
+  {
+    "name": "Hopi",
+    "i": 25032,
+    "min": 4,
+    "max": 12,
+    "d": "",
+    "m": 0,
+    "b": "First,Mesa,Second,Third,Polacca,Keams,Canyon,Tuba,City,Hotevilla,Bacavi,Mishongnovi,Shipaulovi,Shungopavi,Sichomovi,Walpi,Toreva,Old,Oraibi,Kykotsmovi,Moenkopi,Upper,Lower,Hano,Tewa,Sitsomovi,Waalpi,Songoopavi,Supawlavi,Munsungnuvi,Orayvi,Kiqotsmovi,Hoatvela,Paaqavi,Munqapi,Winslow,Leupp,Cameron,Joseph,Holbrook,West,Indian,Wells,Tolani,Lake,Birdsprings,Whitecone,Greasewood,Springs,Dilkon,Teesto,Pinon,Black,Forest,Hardrock,Low,Mountain,Jeddito,Whippoorwill,Blue,Gap,Tachee,Tsaile,Wheatfields,Round,Rock,Rough,Many,Farms,Ganado,Cornfields,Steamboat,Klagetoh,Wide,Ruins,Kinlichee,St,Michaels,Sawmill,Fort,Defiance,Window,Lupton,Houck,Sanders,Nahata,Dziil,Crystal,Coyote,Burnham,Shiprock,Aneth,Mexican,Water,Red,Navajo"
+  },
+  {
+    "name": "Arapaho",
+    "i": 25033,
+    "min": 4,
+    "max": 12,
+    "d": "",
+    "m": 0,
+    "b": "Wind,River,Arapaho,St,Stephens,Riverton,Ethete,Fort,Washakie,Hudson,Lander,Dubois,Crowheart,Arapahoe,Boulder,Flats,Atlantic,City,Johnstown,Jeffrey,Shoshoni,Pavillion,Kinnear,Morton,Moneta,Gas,Hills,Badwater,Lysite,Monument,Osborne,Lost,Cabin,Waltman,Alcova,Casper,Buffalo,Worland,Thermopolis,Wamsutter,Rawlins,Saratoga,Baggs,Dixon,Savery,Craig,Maybell,Meeker,Rangely,Sunbeam,Dinosaur,Lay,Cameo,Palisade,Grand,Junction,Rifle,Glenwood,Springs,Carbondale,Basalt,Aspen,Eagle,Vail,Red,Cliff,Leadville,Buena,Vista,Poncha,Salida,Fairplay,Breckenridge,Dillon,Frisco,Silverthorne,Kremmling,Hot,Sulphur,Granby,Fraser,Winter,Park,Georgetown,Idaho,Central,Black,Hawk,Coal,Creek,Crescent,Milliken,Platteville,Gilcrest,La,Salle,Greeley,Eaton,Evans,Lucerne,Ault,Pierce,Briggsdale,Stoneham,New,Raymer,Weldona,Morgan,Brush,Log,Lane,Village,Snyder,Merino,Hillrose"
+  },
+  {
+    "name": "Abenaki",
+    "i": 25035,
+    "min": 4,
+    "max": 12,
+    "d": "",
+    "m": 0,
+    "b": "Odanak,Saint,Francois,du,Lac,Wolinak,Becancour,Bersimis,Pessamit,Betsiamites,Essipit,Manawan,Wemotaci,Coaticook,Reserve,River,Missisquoi,Bay,Lawrence,Champlain,Valley,Penobscot,Norridgewock,Old,Town,Pentagouet,Castine,Norway,Pigwacket,Fryeburg,Sokoki,Newbury,Coos,Contoocook,Boscowen,Winnipesaukee,Penacook,Concord,Pembroke,Nashua,Nashuaway,Salmon,Falls,Berwick,Dover,Cocheco,Oyster,Durham,Lee,Epping,Brentwood,Exeter,Hampton,Seabrook,Salisbury,Amesbury,Newburyport,Rowley,Ipswich,Gloucester,Rockport,Cape,Ann,Salem,Marblehead,Lynn,Revere,Chelsea,Boston,Braintree,Quincy,Milton,Dedham,Canton,Stoughton,Brockton,Plymouth,Kingston,Duxbury,Marshfield,Scituate,Cohasset,Hingham,Hull,Pemberton,Swanton,Highgate,Franklin,Georgia,Fairfax,Westford,Essex,Jericho,Bolton,Richmond,Huntington,Charlotte,Shelburne,Burlington,Colchester,St,Albans,Enosburgh,Berkshire,Sutton,Barthe"
+  }
 ];
 
 
