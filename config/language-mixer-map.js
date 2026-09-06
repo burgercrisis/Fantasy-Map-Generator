@@ -8846,7 +8846,7 @@ globalThis.languageMixerMap = [
   {
     "iso": "gaya-korean",
     "bases": [
-      2265
+      20051
     ]
   },
   {
@@ -8858,7 +8858,7 @@ globalThis.languageMixerMap = [
   {
     "iso": "goguryeo-korean",
     "bases": [
-      2265
+      20063
     ]
   },
   {
@@ -9014,7 +9014,7 @@ globalThis.languageMixerMap = [
   {
     "iso": "kor",
     "bases": [
-      2265
+      20116
     ]
   },
   {
@@ -9050,7 +9050,7 @@ globalThis.languageMixerMap = [
   {
     "iso": "mahan-korean",
     "bases": [
-      2265
+      24673
     ]
   },
   {
@@ -9074,7 +9074,7 @@ globalThis.languageMixerMap = [
   {
     "iso": "middle-korean",
     "bases": [
-      2265
+      24685
     ]
   },
   {
@@ -9134,7 +9134,7 @@ globalThis.languageMixerMap = [
   {
     "iso": "old-korean",
     "bases": [
-      2265
+      24738
     ]
   },
   {
@@ -9224,7 +9224,7 @@ globalThis.languageMixerMap = [
   {
     "iso": "silla-korean",
     "bases": [
-      2265
+      24865
     ]
   },
   {
@@ -13700,13 +13700,13 @@ globalThis.languageMixerMap = [
   {
     "iso": "ara",
     "bases": [
-      17
+      24975
     ]
   },
   {
     "iso": "aramaic",
     "bases": [
-      801
+      24807
     ]
   },
   {
@@ -13796,13 +13796,13 @@ globalThis.languageMixerMap = [
   {
     "iso": "betanure-jewish-neo-aramaic",
     "bases": [
-      801
+      24999
     ]
   },
   {
     "iso": "biblical-aramaic",
     "bases": [
-      801
+      25236
     ]
   },
   {
@@ -13814,7 +13814,7 @@ globalThis.languageMixerMap = [
   {
     "iso": "bohtan-neo-aramaic",
     "bases": [
-      801
+      24722
     ]
   },
   {
@@ -13856,7 +13856,7 @@ globalThis.languageMixerMap = [
   {
     "iso": "christian-palestinian-aramaic",
     "bases": [
-      801
+      24805
     ]
   },
   {
@@ -13874,7 +13874,7 @@ globalThis.languageMixerMap = [
   {
     "iso": "classical-arabic",
     "bases": [
-      17
+      25102
     ]
   },
   {
@@ -13898,7 +13898,7 @@ globalThis.languageMixerMap = [
   {
     "iso": "cypriot-arabic",
     "bases": [
-      17
+      25114
     ]
   },
   {
@@ -13928,7 +13928,7 @@ globalThis.languageMixerMap = [
   {
     "iso": "maghrebi-arabic",
     "bases": [
-      17
+      25167
     ]
   },
   {
@@ -14186,7 +14186,7 @@ globalThis.languageMixerMap = [
   {
     "iso": "cypriot-maronite-arabic",
     "bases": [
-      17
+      25212
     ]
   },
   {
@@ -17366,7 +17366,7 @@ globalThis.languageMixerMap = [
   {
     "iso": "sabakor",
     "bases": [
-      2265
+      24877
     ]
   },
   {
@@ -18026,7 +18026,7 @@ globalThis.languageMixerMap = [
   {
     "iso": "yekora",
     "bases": [
-      2265
+      24930
     ]
   },
   {
@@ -20492,7 +20492,7 @@ globalThis.languageMixerMap = [
   {
     "iso": "ful",
     "bases": [
-      10033
+      202766
     ]
   },
   {
@@ -20534,43 +20534,43 @@ globalThis.languageMixerMap = [
   {
     "iso": "ff",
     "bases": [
-      10033
+      24793
     ]
   },
   {
     "iso": "fub",
     "bases": [
-      10033
+      202763
     ]
   },
   {
     "iso": "fue",
     "bases": [
-      10033
+      20268
     ]
   },
   {
     "iso": "fuh",
     "bases": [
-      10033
+      24780
     ]
   },
   {
     "iso": "fui",
     "bases": [
-      10033
+      24809
     ]
   },
   {
     "iso": "fuv",
     "bases": [
-      10033
+      20032
     ]
   },
   {
     "iso": "fuc",
     "bases": [
-      10033
+      20167
     ]
   },
   {
@@ -20660,31 +20660,31 @@ globalThis.languageMixerMap = [
   {
     "iso": "msa",
     "bases": [
-      10019
+      24914
     ]
   },
   {
     "iso": "zsm",
     "bases": [
-      10019
+      24981
     ]
   },
   {
     "iso": "ind",
     "bases": [
-      10019
+      24997
     ]
   },
   {
     "iso": "id",
     "bases": [
-      10019
+      25151
     ]
   },
   {
     "iso": "ms",
     "bases": [
-      10019
+      25218
     ]
   },
   {
