@@ -5910,16 +5910,6 @@ window.europeNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Franglish",
-    "i": 200859,
-    "min": 4,
-    "max": 20,
-    "d": "lnrt",
-    "m": 0,
-    "b": "London,Paris,Montréal,Brussels,Luxembourg City,Geneva,New York,Jersey City,Maine (Acadia),Moncton,Fredericton,Ottawa,Toronto,Bordeaux,Lille,Lyon,Marseille,Nice,Toulouse,Nantes,Quebec City,Saint John (NB), Bathurst,Dieppe,Dover",
-    "status": "COMPLETE"
-  },
-  {
     "name": "German",
     "i": 200860,
     "min": 3,
@@ -9047,16 +9037,6 @@ window.europeNameBases = [
     "d": "",
     "m": 0,
     "b": "Crișana,Newcastle,Aveiro,Zugdidi,Dubrovnik,Fier,Randers,Burgas,Szeged,Ruse,Genoa,Newport,Trondheim,Kópavogur,Klaipėda,Nottingham,Zrenjanin,Tuzla,Kraków,Pleven,Bilbao,Sofia,Sligo,Salzburg,Lugano,Cahul,Florence,Rotterdam,Kankan,Jos,Banjul,Nouakchott,Dakar,Freetown,Accra,Bissau,Kaolack,Daloa,Bamenda,Abidjan,Kayes,Koidu,Koudougou,Korhogo,Tenkodogo,Ouagadougou,Ngaoundéré,Maiduguri,Monrovia,Gusau,Warri,Assomada,Brikama,Tambacounda,Kumba,Crianak,Crianat,Crianap,Crianam,Crianan,Crianas,Crianar,Crianal,Crianad,Crianag,Crianab",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Franglish",
-    "i": 203008,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Franglish,Nakhon Si Thammarat,Bandar Lampung,Miri,Ben Tre,Soc Trang,Tomohon,Ho Chi Minh City,Payakumbuh,Jurong,Vientiane,Tra Vinh,Samarinda,Hue,Phongsali,Ang Mo Kio,Zamboanga,Son La,Sittwe,Vinh,General Santos,Medan,George Town,Lomphat,Bangar,Ha Long,Kota Bharu,Denpasar,Tema,Freetown,Monrovia,Basse,Kaduna,Jalingo,Bamako,Nzérékoré,Kaolack,Garoua,Kumasi,Kankan,Ebebiyín,Kayes,Warri,Katsina,Sokoto,Koudougou,Bissau,Man,Sokodé,Porto-Novo,Cotonou,Niamey,Tamale,Bafatá,Nouakchott,Franglishk,Franglisht,Franglishp,Franglishm,Franglishn,Franglishs,Franglishr,Franglishl,Franglishd,Franglishg,Franglishb",
     "status": "COMPLETE"
   },
   {

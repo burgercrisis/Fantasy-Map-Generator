@@ -1659,16 +1659,6 @@ window.northAmericaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Spanglish (dedicated)",
-    "i": 20219,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "San Antonio,El Paso,Laredo,McAllen,Corpus Christi,Amarillo,Lubbock,Midland,Odessa,Albuquerque,Las Cruces,Tucson,Yuma,San Diego,Calexico,Imperial Valley,Riverside,San Bernardino,Anaheim,Santa Ana,Los Angeles,Oxnard,Ventura,Puerto Rico,San Juan,Mayagüez,Caguas,Bayamón,Toa Baja,Hatillo,Camuy,Moca,Brownsville,Long Beach,Ponce,Arecibo,Carolina,Guaynabo,Ciales,Aguadilla,Isabela",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Purépecha",
     "i": 21001,
     "min": 6,
@@ -1716,16 +1706,6 @@ window.northAmericaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Chiac,Moncton,Dieppe,Shediac,Bouctouche,Richibucto,Saint-Louis-de-Kent,Grand-Barachois,Petitcodiac,Hillsborough,Chipoudy,Miramichi,Bathurst,Edmundston,Saint-Quentin,Kedgwick,Saint-Léonard,Clair,Saint-Basile,Saint-Jacques,Saint-Hilaire,Baker Brook,Saint-François-de-Madawaska,Siegas,Sainte-Anne-de-Madawaska,Connors,Madawaska,Fort Kent,Van Buren,Grand Isle,Saint-Agatha,Saint-Fortunat,Saint-Rose,Notre-Dame-du-Portage,Rivière-du-Loup,Témiscouata-sur-le-Lac,Saint-Pascal,Saint-André,Lac Frontière,Estcourt Station,Allagash,Eagle Lake,Fort Kent Mills,Wallagrass,Daigle,Fournier,Lavertue,Upper Frenchville,Cleveland,St. David,Hamlin,Cyr Plantation,Saint John Plantation,Frenchville",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Spanglish",
-    "i": 200231,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "San Antonio,El Paso,Laredo,McAllen,Corpus Christi,Amarillo,Lubbock,Midland,Odessa,Albuquerque,Las Cruces,Tucson,Yuma,San Diego,Calexico,Imperial Valley,Riverside,San Bernardino,Anaheim,Santa Ana,Los Angeles,Oxnard,Ventura,Puerto Rico,San Juan,Mayagüez,Caguas,Bayamón,Toa Baja,Hatillo,Camuy,Moca,Brownsville,Long Beach,Ponce,Arecibo,Carolina,Guaynabo,Ciales,Aguadilla,Isabela",
     "status": "COMPLETE"
   },
   {

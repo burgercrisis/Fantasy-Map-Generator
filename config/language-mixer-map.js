@@ -3540,12 +3540,6 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "spanglish",
-    "bases": [
-      200231
-    ]
-  },
-  {
     "iso": "akkadian",
     "bases": [
       24625
@@ -11643,12 +11637,6 @@ globalThis.languageMixerMap = [
     "iso": "franco-proven-al",
     "bases": [
       436
-    ]
-  },
-  {
-    "iso": "franglish",
-    "bases": [
-      200859
     ]
   },
   {

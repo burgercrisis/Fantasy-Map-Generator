@@ -11860,16 +11860,6 @@ window.asiaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Western Pantar",
-    "i": 202510,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Pantar Island,Alor Archipelago,Indonesia,Tubbe,Mauta,Lamma,Lamma dialect",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Wiru",
     "i": 202511,
     "min": 4,
@@ -17980,16 +17970,6 @@ window.asiaNameBases = [
     "d": "",
     "m": 0,
     "b": "Mangghuer,Yola,Aplahoué,Bissau,Aba,Minna,Umuahia,Rijau,Tambacounda,Louga,Bimbila,Sapele,Ambam,Kaolack,Wa,Maiduguri,Nsukka,Awka,Labé,Praia,Aksum,Takum,Yamoussoukro,Moundou,Neves,Sesheke,Okene,Timbuktu,Banjul,Bamako,Sokodé,Jalingo,Ziguinchor,Tema,Cotonou,Bertoua,Parakou,Katsina,Mopti,Gusau,Kara,Ouagadougou,Gbarnga,Koidu,Korhogo,Koudougou,Man,Bafatá,Ebebiyín,Mangghuerk,Mangghuert,Mangghuerp,Mangghuerm,Mangghuern,Mangghuers,Mangghuerr,Mangghuerl,Mangghuerd,Mangghuerg,Mangghuerb",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Manglish",
-    "i": 202510,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Manglish,Soc Trang,Rayong,Serang,Pattaya,Lhokseumawe,Sandakan,Ternate,Vinh Long,Bogor,Da Nang,Champasak,Woodlands,Quezon City,Lang Son,Bago,Nha Trang,Baguio,Jakarta,Pathein,Dien Bien Phu,Bandar Seri Begawan,Nam Dinh,Shah Alam,Semarang,Baucau,Senmonorom,Khon Kaen,Bamako,Banjul,Bafatá,Nouakchott,Basse,Dakar,Mopti,Kara,Daloa,Freetown,Gbarnga,Kaolack,Ngaoundéré,Bouaké,Lomé,Praia,Parakou,Maiduguri,Bobo-Dioulasso,Bertoua,Kankan,Koidu,Malabo,Monrovia,Gusau,Niamey,Sikasso,Manglishk,Manglisht,Manglishp,Manglishm,Manglishn,Manglishs,Manglishr,Manglishl,Manglishd,Manglishg,Manglishb",
     "status": "COMPLETE"
   },
   {

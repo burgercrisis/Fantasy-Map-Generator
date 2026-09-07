@@ -7370,16 +7370,6 @@ window.africaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Spanglish",
-    "i": 202382,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Spanglish,Nakhon Si Thammarat,Bandar Lampung,Miri,Ben Tre,Soc Trang,Tomohon,Ho Chi Minh City,Payakumbuh,Jurong,Vientiane,Tra Vinh,Samarinda,Hue,Phongsali,Ang Mo Kio,Zamboanga,Son La,Sittwe,Vinh,General Santos,Medan,George Town,Lomphat,Bangar,Ha Long,Kota Bharu,Denpasar,Kaduna,Koudougou,Banjul,Bafatá,Kumasi,Conakry,Koidu,Lomé,Freetown,Kaolack,Natitingou,Kara,Mopti,Bamako,Mindelo,Kayes,Tambacounda,Brikama,Korhogo,Man,Monrovia,Porto-Novo,Bamenda,Sikasso,Niamey,Ziguinchor,Kumba,Spanglishk,Spanglisht,Spanglishp,Spanglishm,Spanglishn,Spanglishs,Spanglishr,Spanglishl,Spanglishd,Spanglishg,Spanglishb",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Naukan",
     "i": 202383,
     "min": 4,
