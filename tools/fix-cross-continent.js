@@ -1,7 +1,7 @@
 const fs = require('fs');
 const continents = ['africa', 'asia', 'europe', 'northAmerica', 'southAmerica', 'oceania', 'fantasy'];
 
-// Load mixer map to get referenced indices
+// Load mixer map
 const mapContent = fs.readFileSync('config/language-mixer-map.js', 'utf8');
 const mapMatch = mapContent.match(/globalThis\.\w+\s*=\s*(\[[\s\S]*?\]);/);
 const map = (new Function('return ' + mapMatch[1]))();
@@ -22,19 +22,25 @@ for (const c of continents) {
   }
 }
 
-// Build name -> list of (continent, index, count) for all entries
+// Build name -> list of (continent, index, count, settlements) for all entries
 let nameToEntries = new Map();
 for (const c of continents) {
   for (const b of continentData[c].bases) {
     if (b.i !== undefined && b.b && b.b.length > 0 && b.name) {
       const key = b.name.toLowerCase().trim();
       if (!nameToEntries.has(key)) nameToEntries.set(key, []);
-      nameToEntries.get(key).push({ continent: c, index: b.i, count: b.b.split(',').length, name: b.name });
+      nameToEntries.get(key).push({
+        continent: c,
+        index: b.i,
+        count: b.b.split(',').length,
+        settlements: b.b,
+        name: b.name
+      });
     }
   }
 }
 
-// Find cross-continent duplicates
+// Find cross-continent duplicates and determine correct continent
 const crossContinent = [...nameToEntries.entries()].filter(([_, entries]) => {
   const continents = new Set(entries.map(e => e.continent));
   return continents.size > 1;
@@ -43,12 +49,7 @@ const crossContinent = [...nameToEntries.entries()].filter(([_, entries]) => {
 console.log('Cross-continent duplicates found:', crossContinent.length);
 
 // Determine correct continent for each name
-// Rules:
-// 1. If referenced by mixer map, that continent is correct
-// 2. If not referenced, use the continent with the most names (most complete data)
-// 3. If tied, prefer the continent that makes linguistic sense (e.g., Swahili -> Africa)
-
-const correctContinent = new Map(); // name -> correct continent
+const correctContinent = new Map();
 
 for (const [name, entries] of crossContinent) {
   // Check if any entry is referenced by mixer map
