@@ -2553,15 +2553,5 @@ window.northAmericaNameBases = [
     "m": 0,
     "b": "Occoneechee Island,Fort Christanna,Junkatapurse,Roanoke River",
     "status": "COMPLETE"
-  },
-  {
-    "name": "Haflong Hindi",
-    "i": 202267,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Haflong Hindi,Hyderabad,Kochi,Pune,Dehradun,Rishikesh,Agra,Madurai,Visakhapatnam,Sylhet,Lucknow,Agartala,Jacobabad,Khanewal,Rawalpindi,Quetta,Aurangabad,Jaipur,Bogra,Karachi,Margao,Coimbatore,Thatta,Siliguri,Dhaka,Aizawl,Varanasi,Dhanbad,Allahabad,Bhopal,Jabalpur,Chandigarh,Gangtok,Kozhikode,Guwahati,Gwalior,Dimapur,Itanagar,Ghaziabad,Rangpur,Mangalore,Thiruvananthapuram,Biratnagar,Panaji,Chennai,Srinagar,Ludhiana,Warangal,Surat,Tiruchirappalli,HaflongHindik,HaflongHindit,HaflongHindip,HaflongHindim,HaflongHindin,HaflongHindis,HaflongHindir,HaflongHindil,HaflongHindid,HaflongHindig,HaflongHindib",
-    "status": "COMPLETE"
   }
 ];

@@ -10364,15 +10364,5 @@ window.europeNameBases = [
     "m": 0,
     "b": "Adrar,Reggane,Bouda,Zaouiet Kounta,Tamantit,Sali,Fenoughil,Tamest,Charouine,Ksar Kaddour,Tsabit,Ouled Ahmed Timmi,Deldoul,Sbaa",
     "status": "COMPLETE"
-  },
-  {
-    "name": "Mozarabic",
-    "i": 495,
-    "min": 4,
-    "max": 25,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Toledo,Córdoba,Sevilla,Granada,Málaga,Almería,Jaén,Cádiz,Huelva,Badajoz,Mérida,Zaragoza,Valencia,Murcia,Alicante,Algeciras,Tarifa,Ronda,Antequera,Écija,Utrera,Jerez de la Frontera,Sanlúcar de Barrameda,Chipiona,Rota,El Puerto de Santa María,Chiclana de la Frontera,Conil de la Frontera,La Línea de la Concepción,Gibraltar,Cáceres,Plasencia,Trujillo,Medellín,Guadalupe,Ciudad Rodrigo,Salamanca,Llerena,Zafra,Fregenal de la Sierra,Higuera de la Sierra,Aracena,Coria,Coria del Río,Carmona,Osuna,Marchena,Estepa,Lucena,Puente Genil,Loja,Alhama de Granada,Baza,Guadix,Almuñécar,Motril,Vélez-Málaga",
-    "status": "COMPLETE"
   }
 ];

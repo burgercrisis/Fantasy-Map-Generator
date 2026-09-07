@@ -13706,42 +13706,6 @@ window.asiaNameBases = [
     "b": "Asmara,Massawa,Keren,Mendefera,Barentu,Adi Quala,Dekemhare,Adi Keyh,Senafe,Ghinda,Nefasit,Segeneiti,Hagaz,Badme,Adwa,Axum,Enticho,Yechila,Yeha,Adi Daero,Adi Arkay,Zalambessa,Inticho,Temben,Mai Adwa,Rama,Saesi Tsaedaemba,Irob,Wukro,Negash,Alamata,Maychew,Hawzen,Edaga Hamus,Laelay Maychew,Mehoni,Adi Gudem,Adi Kelem,Adisho,Hadish Adi,Gulo Mekeda,Himbirti,Afabet,Karora,She,eb,Agordat,Tesseney,Omhajer,Goluj,Dighe,Mogolo,Haykota,Alighede,Halhal,Shambuko,Logo Anseba,Sela Da Eritrean,Tera Emni,Tkul,Nakfa,Afdera,Lalibela,Gheralta,Adi Remets,Iyamo,Mai Mine,Aspidus,Ala,Adeke Ader,Adi Beles"
   },
   {
-    "name": "Kinyarwanda",
-    "i": 24657,
-    "min": 4,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Kigali,Nyanza,Muhanga,Kamonyi,Ruhango,Gisagara,Nyaruguru,Nyamagabe,Huye,Butare,Byumba,Ruhengeri,Musanze,Gisenyi,Rubavu,Cyangugu,Rusizi,Kibuye,Karongi,Rwamagana,Kibungo,Nyagatare,Busogo,Gikongoro,Rubengera,Ngoma,Bugesera,Gicumbi,Burera,Gakenke,Nyamasheke,Rutsiro,Ngororero,Nyabihu,Gatsibo,Kayonza,Kirehe,Kicukiro,Gasabo,Nyarugenge,Rulindo,Kimisagara,Nyagahanga,Kiruhura,Gitarama,Rusumo,Mugeni,Save,Maraba,Ndiza,Ruheru,Tumba"
-  },
-  {
-    "name": "Kirundi",
-    "i": 24658,
-    "min": 4,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Bujumbura,Gitega,Ngozi,Rumonge,Bururi,Muramvya,Makamba,Rutana,Ruyigi,Cankuzo,Karusi,Kayanza,Kirundo,Muyinga,Bubanza,Cibitoke,Isale,Kabezi,Bukirasazi,Kayogoro,Magara,Mukenke,Musenyi,Muyaga,Mwaro,Nyanza-Lac,Rugari,Ruzunga,Zanandore,Buhongo,Kibondo,Kisozi,Luhwa,Murore,Karuzi,Busoni"
-  },
-  {
-    "name": "Sotho",
-    "i": 24659,
-    "min": 4,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Maseru,Teyateyaneng,Mafeteng,Hlotse,Leribe,Maputsoe,Berea,Quthing,Qachas Nek,Mokhotlong,Thaba-Tseka,Mohale,s Hoek,Butha-Buthe,Roma,Mazenod,Morija,Nako,Semonkong,Bloemfontein,Welkom,Bethlehem,Kroonstad,Sasolburg,Virginia,Wesselsbron,Phuthaditjhaba,Senekal,Ficksburg,Ladybrand,Clocolan,Marquard,Winburg,Theunissen,Henneman,Hoopstad,Bultfontein,Botshabelo,Thaba Nchu,Dewetsdorp,Wepener,Van Stadensrus,Zastron,Rouxville,Smithfield,Bethulie,Gariepdam,Aliwal North,Barkly East,Indwe,Molteno,Steynsburg,Colesberg"
-  },
-  {
-    "name": "Tswana",
-    "i": 24660,
-    "min": 4,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Gaborone,Francistown,Molepolole,Mogoditshane,Maun,Selibe-Phikwe,Serowe,Kanye,Mahalapye,Mochudi,Lobatse,Palapye,Ramotswa,Thamaga,Tonota,Jwaneng,Orapa,Letlhakane,Mmabatho,Mafikeng,Vryburg,Kuruman,Tlokweng,Gabane,Kopong,Mmopane,Metsimotlhabe,Oodi,Bokaa,Modipane,Moshupa,Good Hope,Mabule,Zeerust,Lichtenburg,Schweizer-Reneke,Christiana,Kimberley,Warrenton,Taung,De Aar"
-  },
-  {
     "name": "Swazi",
     "i": 24661,
     "min": 4,
@@ -14579,15 +14543,6 @@ window.asiaNameBases = [
     "b": "Porto-Novo,Cotonou,Parakou,Bohicon,Abomey,Ouidah,Natitingou,Lokossa,Dogbo,Allada,Ketou,Djougou,Sakete,Pobe,Save,Aplahoue,Djakotomey,Come,Grand-Popo,Bopa,Klouekanme,Lalo,Toviklin,Kandi,Malanville,Banikoara,Segbana,Karimama,Tanguieta,Materi,Cobly,Ouake,Toucountouna,Kerou,Pehonco,Nikki,Kalale,Perere,Bembereke,Sinende,Cove,Ouesse,Bante,Glazoue,Ouinhi,Zogbodome,Zagnanado,Agbangnizoun,Djidja,Za-Kpota,Abomey-Calavi,Seme-Podji,Adjohoun,Bonou,Dangbo,Adjarra,Akpro-Misserete,Avrankou,Ifangni,Ikeja,Ketu,Adjara,Kutonu,Xogbonu,Agbome,Glexwe,Adja-Ouere,Oueme,Zou,Atlantique,Couffo,Collines,Borgou,Donga,Alibori,Atacora,Plateau,Littoral,Kouffo"
   },
   {
-    "name": "Kongo",
-    "i": 24767,
-    "min": 4,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Kinshasa,Brazzaville,Matadi,Boma,Banana,Moanda,Pointe-Noire,Dolisie,Nkayi,Kayes,Madingou,Sibiti,Impfondo,Owando,Ewo,Boundji,Makoua,Ouesso,Sembe,Souanke,Ngoko,Mbomo,Betou,Enyelle,Bouemba,Loukolela,Basankusu,Befale,Boende,Bongandanga,Bumba,Buta,Bondo,Ango,Libenge,Zongo,Luanda,Mbanza-Kongo,Uige,Soyo,Cabinda,Sumbe,Benguela,Lobito,Namibe,Tombwa,Menongue,Cuito,Kuito,Caconda,Chibia,Caluquembe,Caala,Catengue,Caimbambo,Chongoroi,Cubal,Ganda,Cubango,Longonjo,Bailundo,Andulo,Camacupa,Catabola,Chinguar,Cunhinga,Kwanza Sul,Waku Kungo,Porto Amboim,Quibala,Quilengues,Conda,Balombo,Caia,Marromeu,Chinde,Beira,Inhambane,Xai-Xai,Chokwe,Manjacaze,Limpopo,Maputo,Tete,Mozambique,Songo,Lumbala,Quito,Ondjiva,Namacunde,Cahama,Cuvelai,Cuanhama,Cubati,Calenga,Negage,Camabatela,Dondo,Ndalatando,Cazengo,Quiculungo,Ambaca,Samba Caju,Bula Atumba,Cangola,Bungo,Alto Cauale"
-  },
-  {
     "name": "Luba",
     "i": 24768,
     "min": 4,
@@ -14604,15 +14559,6 @@ window.asiaNameBases = [
     "d": "",
     "m": 0,
     "b": "Bulawayo,Gwanda,Plumtree,Kezi,Filabusi,Esigodini,Tsholotsho,Nkayi,Binga,Lupane,Hwange,Victoria Falls,Beitbridge,Chiredzi,Mberengwa,Zvishavane,Shurugwi,Gweru,Kwekwe,Kadoma,Chinhoyi,Karoi,Kariba,Hurungwe,Muzarabani,Mount Darwin,Bindura,Shamva,Marondera,Murewa,Mutoko,Chitungwiza,Epworth,Seke,Chivhu,Featherstone,Beatrice,Mashava,Masvingo,Zaka,Bikita,Nyika,Ndanga,Gutu,Chatsworth,Fort Rixon,Shangani,Inyathi,Matobo,Dete,Umguza,Magwegwe,Pumula,Luveve,Njube,Mzilikazi,Barbourfields,Hammanskraal,Atteridgeville,Mamelodi,Soshanguve,Pretoria North,Mabopane,Ga-Rankuwa,Winterveld,Refilwe,Cullinan,Rayton,Roodeplaat,Pretoria East,Witbank,Middelburg,Standerton,Secunda,eMbalenhle,KwaNdebele,Bronkhorstspruit"
-  },
-  {
-    "name": "Luganda",
-    "i": 24772,
-    "min": 4,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Kampala,Entebbe,Jinja,Mbale,Mbarara,Gulu,Lira,Soroti,Arua,Masindi,Kasese,Kitgum,Tororo,Iganga,Mubende,Kabale,Fort Portal,Hoima,Mukono,Njeru,Mityana,Lugazi,Wakiso,Bombo,Nansana,Kira,Makindye,Kawempe,Kulambiro,Kisaasi,Namugongo,Seeta,Kasangati,Busunju,Kitanda,Mpigi,Nkozi,Masaka,Lukaya,Kalungu,Kalisizo,Lyantonde,Kinuuka,Rakai,Kisoro,Kanungu,Butogota,Bwindi,Kigorobya,Buliisa,Kiryandongo,Apac,Dokolo,Amolatar,Oyam,Otuke,Lamwo,Pader,Agago,Amuru,Nwoya,Kole,Maracha,Paidha,Okoro,Zombo,Nebbi,Pakwach,Moyo,Yumbe,Obongi,Adjumani,Sironko,Kapchorwa,Bukwo,Kween,Amudat,Moroto,Napak,Kotido,Abim,Kaabong,Karenga,Amuria,Katakwi,Kalaki,Kaberamaido,Buyende,Kamuli,Luuka,Mayuge,Namutumba,Kaliro,Pallisa,Butaleja,Budaka,Kibuku,Namayingo,Bugiri,Busia,Kalangala,Buikwe,Kayunga,Nkoko,Busamaga,Busoba,Suam"
   },
   {
     "name": "Levantine Arabic",
@@ -14975,15 +14921,6 @@ window.asiaNameBases = [
     "b": "Nukus,Khujayli,Beruniy,Turtkul,Berdaq,Chimboy,Muynoq,Qongirot,Shumanay,Xalqabad,Tahtakupyr,Kanlikul,Karatau,Manghit,Oltinko,l,Amudarya,Kegeyli,Bozatau,Kungirot,Qarao,zak,Ellikkala,Xo,jayli,Qo,ng,irot,Taxiatosh,Karakul,Kenegez,Naymanguli,Kizil-Oktyabr,Ak-Zhaylauy"
   },
   {
-    "name": "Amharic",
-    "i": 24845,
-    "min": 4,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Addis Ababa,Dire Dawa,Adama,Gondar,Mekelle,Hawassa,Bahir Dar,Dessie,Jimma,Debre Berhan,Harar,Jijiga,Shashamene,Bishoftu,Sodo,Arba Minch,Hosaena,Dilla,Nekemte,Asella,Gimbi,Adigrat,Aksum,Lalibela,Debre Markos,Debre Tabor,Debark,Kombolcha,Woldiya,Alamata,Adwa,Axum,Shire,Maychew,Inda Selassie,Sebeta,Burayu,Ambo,Bale Robe,Goba,Ginir,Negele Borena,Shakiso,Waliso,Butajira,Worabe,Welkite,Hossana,Yirga Alem,Debre Zeit,Mojo,Fitche,Sendafa,Holeta,Bako,Shambu,Meki,Ziway,Buta Jirra,Chiro,Asbe Teferi,Harar Jugol,Dembi Dolo,Nejo,Assosa,Gambela,Injibara,Chagni,Dangila,Debre Werq,Were Ilu,Kemise,Kobo,Debre Sina,Bichena,Dejen,Mota,Mertule Mariam,Finote Selam,Bure,Wukro,Inticho,Yechila,Negash,Hawzen,Adi Daero,May Mekden,Temben,Tippi,Mizan Teferi,Bonga,Wolaita Sodo,Durame,Hager Mariam,Wereta,Kola Debba"
-  },
-  {
     "name": "Tigrinya",
     "i": 24846,
     "min": 4,
@@ -14991,60 +14928,6 @@ window.asiaNameBases = [
     "d": "",
     "m": 0,
     "b": "Asmara,Massawa,Keren,Mendefera,Barentu,Adi Quala,Dekemhare,Adi Keyh,Senafe,Ghinda,Nefasit,Segeneiti,Hagaz,Badme,Adwa,Axum,Enticho,Yechila,Yeha,Adi Daero,Adi Arkay,Zalambessa,Inticho,Temben,Mai Adwa,Rama,Saesi Tsaedaemba,Irob,Wukro,Negash,Alamata,Maychew,Hawzen,Edaga Hamus,Laelay Maychew,Mehoni,Adi Gudem,Adi Kelem,Adisho,Hadish Adi,Gulo Mekeda,Himbirti,Afabet,Karora,She,eb,Agordat,Tesseney,Omhajer,Goluj,Dighe,Mogolo,Haykota,Alighede,Halhal,Shambuko,Logo Anseba,Sela Da Eritrean,Tera Emni,Tkul,Nakfa,Afdera,Lalibela,Gheralta,Adi Remets,Iyamo,Mai Mine,Aspidus,Ala,Adeke Ader,Adi Beles"
-  },
-  {
-    "name": "Oromo",
-    "i": 24847,
-    "min": 4,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Adama,Bishoftu,Jimma,Nekemte,Ambo,Gimbi,Dembi Dolo,Harar,Shashamene,Asella,Robe,Goba,Ginir,Shambu,Leka,Mendi,Nejo,Sekoru,Limmu Genet,Agaro,Metu,Bedele,Gore,Yayu,Bako,Woliso,Sebeta,Burayu,Sendafa,Holeta,Fitche,Guder,Coffee,Ilu,Hambela,Leku,Negele Borena,Yirgacheffe,Kofele,Shakiso,Adaba,Bore,Wabe,Welkite,Butajira,Hossana,Worabe,Meki,Ziway,Mojo,Batu,Dukem,Adami Tulu,Bulbula,Wonji,Shoa,Robit,Tulu Bolo,Chiro,Asbe Teferi,Haramaya,Babile,Ankober,Debre Berhan,Debre Sina,Debre Werq,Addis Ababa,Dire Dawa,Sabata,Sodo,Waliso,Hagere Mariam,Nairobi,Marsabit,Moyale,Isiolo,Wajir,Garissa,Meru,Embu,Nyeri,Chuka,Tharaka,Karatina,Maua,Laikipia,Nanyuki,Maralal,Baragoi,Log Logo"
-  },
-  {
-    "name": "Somali",
-    "i": 24848,
-    "min": 4,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Mogadishu,Hargeisa,Bosaso,Kismayo,Baidoa,Burao,Berbera,Garowe,Galkayo,Borama,Beledweyne,Jijiga,Dire Dawa,Djibouti,Tadjourah,Obock,Ali Sabieh,Loyada,Arta,Holhol,Ali Adde,Garissa,Wajir,Mandera,Moyale,Marsabit,Afgooye,Merca,Barawa,Bardera,Beled Hawo,El Wak,Adado,Abudwak,Dhusamareb,Guriel,Ceel Buur,Ceeldheer,Galcaio,Goldogob,Buuhoodle,Laascaanood,Las Anod,Erigavo,Ceerigaabo,Badhan,Gabiley,Dilla,Baligubadle,Sheikh,Zeila,Lughaya,Baki,Oodweyne,Sheekh,Tog Wajaale,Wardheer,Dhahar,Boocame,Budhuq,Cadaado,Buurhakaba,Wajid,Saacow,Tayeeglow,Qoryoley,Marka,Afmadow,Jamaame,Jilib,Belet Weyne,Bulo Burto,Dinsor,Luuq,Garbaharey,Isiolo,Bu,aale,Baraawe,Buur Gaabo,Kismaayo,Bandarbeyla,Iskushuban,Qandala,Caluula,Alula,Ras Caseyr,Bargaal,Ceyr,Carmaale,Oog"
-  },
-  {
-    "name": "Kinyarwanda",
-    "i": 24849,
-    "min": 4,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Kigali,Nyanza,Muhanga,Kamonyi,Ruhango,Gisagara,Nyaruguru,Nyamagabe,Huye,Butare,Byumba,Ruhengeri,Musanze,Gisenyi,Rubavu,Cyangugu,Rusizi,Kibuye,Karongi,Rwamagana,Kibungo,Nyagatare,Busogo,Gikongoro,Rubengera,Ngoma,Bugesera,Gicumbi,Burera,Gakenke,Nyamasheke,Rutsiro,Ngororero,Nyabihu,Gatsibo,Kayonza,Kirehe,Kicukiro,Gasabo,Nyarugenge,Rulindo,Kimisagara,Nyagahanga,Kiruhura,Gitarama,Rusumo,Mugeni,Save,Maraba,Ndiza,Ruheru,Tumba"
-  },
-  {
-    "name": "Kirundi",
-    "i": 24850,
-    "min": 4,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Bujumbura,Gitega,Ngozi,Rumonge,Bururi,Muramvya,Makamba,Rutana,Ruyigi,Cankuzo,Karusi,Kayanza,Kirundo,Muyinga,Bubanza,Cibitoke,Isale,Kabezi,Bukirasazi,Kayogoro,Magara,Mukenke,Musenyi,Muyaga,Mwaro,Nyanza-Lac,Rugari,Ruzunga,Zanandore,Buhongo,Kibondo,Kisozi,Luhwa,Murore,Karuzi,Busoni"
-  },
-  {
-    "name": "Sotho",
-    "i": 24851,
-    "min": 4,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Maseru,Teyateyaneng,Mafeteng,Hlotse,Leribe,Maputsoe,Berea,Quthing,Qachas Nek,Mokhotlong,Thaba-Tseka,Mohale,s Hoek,Butha-Buthe,Roma,Mazenod,Morija,Nako,Semonkong,Bloemfontein,Welkom,Bethlehem,Kroonstad,Sasolburg,Virginia,Wesselsbron,Phuthaditjhaba,Senekal,Ficksburg,Ladybrand,Clocolan,Marquard,Winburg,Theunissen,Henneman,Hoopstad,Bultfontein,Botshabelo,Thaba Nchu,Dewetsdorp,Wepener,Van Stadensrus,Zastron,Rouxville,Smithfield,Bethulie,Gariepdam,Aliwal North,Barkly East,Indwe,Molteno,Steynsburg,Colesberg"
-  },
-  {
-    "name": "Tswana",
-    "i": 24852,
-    "min": 4,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Gaborone,Francistown,Molepolole,Mogoditshane,Maun,Selibe-Phikwe,Serowe,Kanye,Mahalapye,Mochudi,Lobatse,Palapye,Ramotswa,Thamaga,Tonota,Jwaneng,Orapa,Letlhakane,Mmabatho,Mafikeng,Vryburg,Kuruman,Tlokweng,Gabane,Kopong,Mmopane,Metsimotlhabe,Oodi,Bokaa,Modipane,Moshupa,Good Hope,Mabule,Zeerust,Lichtenburg,Schweizer-Reneke,Christiana,Kimberley,Warrenton,Taung,De Aar"
   },
   {
     "name": "Swazi",
@@ -15884,15 +15767,6 @@ window.asiaNameBases = [
     "b": "Porto-Novo,Cotonou,Parakou,Bohicon,Abomey,Ouidah,Natitingou,Lokossa,Dogbo,Allada,Ketou,Djougou,Sakete,Pobe,Save,Aplahoue,Djakotomey,Come,Grand-Popo,Bopa,Klouekanme,Lalo,Toviklin,Kandi,Malanville,Banikoara,Segbana,Karimama,Tanguieta,Materi,Cobly,Ouake,Toucountouna,Kerou,Pehonco,Nikki,Kalale,Perere,Bembereke,Sinende,Cove,Ouesse,Bante,Glazoue,Ouinhi,Zogbodome,Zagnanado,Agbangnizoun,Djidja,Za-Kpota,Abomey-Calavi,Seme-Podji,Adjohoun,Bonou,Dangbo,Adjarra,Akpro-Misserete,Avrankou,Ifangni,Ikeja,Ketu,Adjara,Kutonu,Xogbonu,Agbome,Glexwe,Adja-Ouere,Oueme,Zou,Atlantique,Couffo,Collines,Borgou,Donga,Alibori,Atacora,Plateau,Littoral,Kouffo"
   },
   {
-    "name": "Kongo",
-    "i": 24959,
-    "min": 4,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Kinshasa,Brazzaville,Matadi,Boma,Banana,Moanda,Pointe-Noire,Dolisie,Nkayi,Kayes,Madingou,Sibiti,Impfondo,Owando,Ewo,Boundji,Makoua,Ouesso,Sembe,Souanke,Ngoko,Mbomo,Betou,Enyelle,Bouemba,Loukolela,Basankusu,Befale,Boende,Bongandanga,Bumba,Buta,Bondo,Ango,Libenge,Zongo,Luanda,Mbanza-Kongo,Uige,Soyo,Cabinda,Sumbe,Benguela,Lobito,Namibe,Tombwa,Menongue,Cuito,Kuito,Caconda,Chibia,Caluquembe,Caala,Catengue,Caimbambo,Chongoroi,Cubal,Ganda,Cubango,Longonjo,Bailundo,Andulo,Camacupa,Catabola,Chinguar,Cunhinga,Kwanza Sul,Waku Kungo,Porto Amboim,Quibala,Quilengues,Conda,Balombo,Caia,Marromeu,Chinde,Beira,Inhambane,Xai-Xai,Chokwe,Manjacaze,Limpopo,Maputo,Tete,Mozambique,Songo,Lumbala,Quito,Ondjiva,Namacunde,Cahama,Cuvelai,Cuanhama,Cubati,Calenga,Negage,Camabatela,Dondo,Ndalatando,Cazengo,Quiculungo,Ambaca,Samba Caju,Bula Atumba,Cangola,Bungo,Alto Cauale"
-  },
-  {
     "name": "Luba",
     "i": 24960,
     "min": 4,
@@ -15909,24 +15783,6 @@ window.asiaNameBases = [
     "d": "",
     "m": 0,
     "b": "Bulawayo,Gwanda,Plumtree,Kezi,Filabusi,Esigodini,Tsholotsho,Nkayi,Binga,Lupane,Hwange,Victoria Falls,Beitbridge,Chiredzi,Mberengwa,Zvishavane,Shurugwi,Gweru,Kwekwe,Kadoma,Chinhoyi,Karoi,Kariba,Hurungwe,Muzarabani,Mount Darwin,Bindura,Shamva,Marondera,Murewa,Mutoko,Chitungwiza,Epworth,Seke,Chivhu,Featherstone,Beatrice,Mashava,Masvingo,Zaka,Bikita,Nyika,Ndanga,Gutu,Chatsworth,Fort Rixon,Shangani,Inyathi,Matobo,Dete,Umguza,Magwegwe,Pumula,Luveve,Njube,Mzilikazi,Barbourfields,Hammanskraal,Atteridgeville,Mamelodi,Soshanguve,Pretoria North,Mabopane,Ga-Rankuwa,Winterveld,Refilwe,Cullinan,Rayton,Roodeplaat,Pretoria East,Witbank,Middelburg,Standerton,Secunda,eMbalenhle,KwaNdebele,Bronkhorstspruit"
-  },
-  {
-    "name": "Luganda",
-    "i": 24964,
-    "min": 4,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Kampala,Entebbe,Jinja,Mbale,Mbarara,Gulu,Lira,Soroti,Arua,Masindi,Kasese,Kitgum,Tororo,Iganga,Mubende,Kabale,Fort Portal,Hoima,Mukono,Njeru,Mityana,Lugazi,Wakiso,Bombo,Nansana,Kira,Makindye,Kawempe,Kulambiro,Kisaasi,Namugongo,Seeta,Kasangati,Busunju,Kitanda,Mpigi,Nkozi,Masaka,Lukaya,Kalungu,Kalisizo,Lyantonde,Kinuuka,Rakai,Kisoro,Kanungu,Butogota,Bwindi,Kigorobya,Buliisa,Kiryandongo,Apac,Dokolo,Amolatar,Oyam,Otuke,Lamwo,Pader,Agago,Amuru,Nwoya,Kole,Maracha,Paidha,Okoro,Zombo,Nebbi,Pakwach,Moyo,Yumbe,Obongi,Adjumani,Sironko,Kapchorwa,Bukwo,Kween,Amudat,Moroto,Napak,Kotido,Abim,Kaabong,Karenga,Amuria,Katakwi,Kalaki,Kaberamaido,Buyende,Kamuli,Luuka,Mayuge,Namutumba,Kaliro,Pallisa,Butaleja,Budaka,Kibuku,Namayingo,Bugiri,Busia,Kalangala,Buikwe,Kayunga,Nkoko,Busamaga,Busoba,Suam"
-  },
-  {
-    "name": "Bambara",
-    "i": 24965,
-    "min": 4,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Bamako,Sikasso,Kalabancoro,Koutiala,Segou,Mopti,Timbuktu,Gao,Kayes,Kati,Koulikoro,Nara,San,Markala,Banamba,Bougouni,Djenne,Douentza,Kolondieba,Kadiolo,Kolokani,Bla,Dioila,Niono,Yelimane,Tominian,Macina,Koro,Bandiagara,Tenkodogo,Massigui,Tonka,Kita,Koury,Koumantou,Ouelessebougou,Pelengana,Kourounikoto,Karan,Fana,Troungouumbe,Nioro,Sokolo,Dire,Bourem,Kidal,Baraoueli,Yangasso,Sansanding,Kokofata,Bafoulabe,Diema,Kenieba,Sadje,Yorosso,Selingue,Bougaribaye,Beyla,Kankela,Bafing,Faraba,Neguela,Sagalo,Tombouctou,Goundam,Lere,Tenenkou"
   },
   {
     "name": "Songhai",
@@ -15956,15 +15812,6 @@ window.asiaNameBases = [
     "b": "Yaounde,Mbalmayo,Mfou,Obala,Bafia,Mbandjock,Nanga-Eboko,Monatele,Sa-a,Okola,Mbankomo,Bikok,Ngoumou,Akono,Ayos,Akonolinga,Esse,Soa,Nkolafamba,Afanloum,Awae,Edzendouan,Olanguina,Ntui,Batchenga,Ebebda,Elig-Mfomo,Evodoula,Lobo,Nkoteng,Minta,Nsem,Bibey,Lembe-Yezoum,Deuk,Kiiki,Kon-Yambetta,Makenene,Ndikinimeki,Nitoukou,Ombessa,Eséka,Boumnyebel,Dibang,Messondo,Matomb,Makak,Bot-Makak,Mengang,Endom,Kobdombo,Ngomedzap,Nkolmetet,Dzeng,Mengueme,Akoeman,Ngog-Mapubi,Biyouha,Bondjock"
   },
   {
-    "name": "Bemba",
-    "i": 24969,
-    "min": 4,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Lusaka,Ndola,Kitwe,Livingstone,Chipata,Kabwe,Kasama,Mansa,Mufulira,Luanshya,Kalulushi,Chililabombwe,Solwezi,Chingola,Kapiri,Mposhi,Chilanga,Nakonde,Mbala,Mpulungu,Isoka,Chama,Lundazi,Petauke,Nyimba,Katete,Sinda,Chadiza,Chisamba,Mkushi,Serenje,Mpika,Chinsali,Mungwi,Mporokoso,Kawambwa,Nchelenge,Samfya,Luwingu,Mumbwa,Lukulu,Kaoma,Senanga,Mongu,Kalabo,Zambezi,Sesheke,Chavuma,Manyinga,Mpongwe,Chambishi,Masaiti"
-  },
-  {
     "name": "Ndonga",
     "i": 24971,
     "min": 4,
@@ -15981,42 +15828,6 @@ window.asiaNameBases = [
     "d": "",
     "m": 0,
     "b": "Luanda,Benguela,Huambo,Lobito,Lubango,Malanje,Namibe,Uige,Luena,Saurimo,Cuito,Caxito,Sumbe,N-dalatando,Menongue,Dundo,Tombwa,Cacolo,Caala,Catumbela,Cubal,Caconda,Chibia,Caluquembe,Ganda,Caimbambo,Chongoroi,Balombo,Longonjo,Bailundo,Andulo,Camacupa,Catabola,Chinguar,Cunhinga,Porto,Amboim,Quibala,Gabela,Waku,Kungo,Cela,Mussende,Quilengues,Matala,Capelongo,Cuchi,Cuanavale,Mavinga,Nzagi,Lucapa,Cafunfo,Cuilo,Cuango,Luremo,Marimba,Cangandala,Quimbango,Cacuso,Calandula,Ambaca,Camabatela,Bolongongo,Golungo,Alto,Quibaxe,Banga,N-zeto,Ambriz,M-banza-Congo,Soyo,Luau"
-  },
-  {
-    "name": "Chichewa",
-    "i": 24973,
-    "min": 4,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Lilongwe,Blantyre,Mzuzu,Zomba,Kasungu,Mangochi,Salima,Liwonde,Balaka,Mwanza,Mchinji,Nsanje,Karonga,Rumphi,Chitipa,Mzimba,Nkhata,Bay,Nkhotakota,Dedza,Ntcheu,Ntchisi,Dowa,Neno,Thyolo,Mulanje,Phalombe,Chiradzulu,Chikwawa,Nkaya,Zalewa,Luchenza,Malosa,Monkey,Marka,Chilumba,Ekwendeni,Likoma,Livingstonia,Chintheche,Embangweni,Chipoka,Mua,Namitete,Madisi,Nkhoma,Domasi,Bangula,Limbe,Chiwembe,Njata,Mponela"
-  },
-  {
-    "name": "Kikuyu",
-    "i": 24974,
-    "min": 4,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Nairobi,Thika,Nyeri,Nanyuki,Karatina,Murang-a,Kiambu,Ruiru,Kikuyu,Limuru,Naivasha,Mweiga,Othaya,Mukurweini,Gichugu,Kerugoya,Kagumo,Kangema,Kiharu,Mathioya,Kigumo,Kandara,Gatundu,Githunguri,Kiambaa,Karai,Ndenderu,Gachie,Ngecha,Muguga,Kinale,Gatina,Kabete,Uthiru,Wangige,Muthiga,Ruaka,Kitisuru,Sigona,Tigoni,Karuri,Kiamumbi,Membley,Juja,Makongeni,Gatuanyaga,Sabasaba,Mwea,Wanguru,Kutus,Kianyaga,Baricho,Sagana,Makutano,Chaka,Endarasha,Giakanja,Ichamara"
-  },
-  {
-    "name": "Luo",
-    "i": 24975,
-    "min": 4,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Kisumu,Siaya,Bondo,Busia,Homa,Bay,Migori,Rachuonyo,Suba,Nyando,Muhoroni,Chemelil,Nandi,Hills,Kapsabet,Eldoret,Kakamega,Vihiga,Malava,Mumias,Matungu,Butere,Khwisero,Shinyalu,Ikolomani,Lurambi,Kwanza,Saboti,Cherangany,Kaiti,Ndori,Asembo,Luanda,Rangala,Maseno,Chulaimbo,Port,Victoria,Sega,Usenge,Bumala,Funyula,Nambale,Malakisi,Kimilili,Kapsokwony,Kitale,Kapenguria,Makutano,Lodwar,Lokichoggio,Maralal,Baragoi,Nyamira,Borabu,Keroka,Nyansiongo,Nyangusu,Oyugis,Kendu,Mbita,Ndhiwa,Rangwe,Rodi,Kopany,Gulu,Lira,Soroti,Arua,Kitgum,Moyo,Adjumani,Pakwach,Masindi,Hoima,Nebbi"
-  },
-  {
-    "name": "Maasai",
-    "i": 24976,
-    "min": 4,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Narok,Kajiado,Ngong,Ongata,Rongai,Kitengela,Isinya,Namanga,Loitokitok,Emali,Sultan,Hamud,Mtito,Andei,Voi,Taveta,Mwatate,Wundanyi,Mariakani,Kinango,Kwale,Lunga,Mpeketoni,Lamu,Faza,Witu,Hindi,Kipini,Garsen,Ololaimutia,Sekenani,Talek,Aitong,Narosura,Lemek,Kilgoris,Suswa,Ololulunga,Ewuaso,Naimina,Enkiama,Oleshariki,Olmesutye,Keekonyokie,Maparasha,Ilbissil,Magadi,Entasopia,Oldonyo,Sambu,Imbirikani,Maua,Isiolo,Marsabit,Sololo,North,Horr,Laisamis"
   },
   {
     "name": "Makhuwa",
@@ -16523,15 +16334,6 @@ window.asiaNameBases = [
     "b": "Nukus,Khujayli,Beruniy,Turtkul,Berdaq,Chimboy,Muynoq,Qongirot,Shumanay,Xalqabad,Tahtakupyr,Kanlikul,Karatau,Manghit,Oltinko,l,Amudarya,Kegeyli,Bozatau,Kungirot,Qarao,zak,Ellikkala,Xo,jayli,Qo,ng,irot,Taxiatosh,Karakul,Kenegez,Naymanguli,Kizil-Oktyabr,Ak-Zhaylauy"
   },
   {
-    "name": "Amharic",
-    "i": 25082,
-    "min": 4,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Addis Ababa,Dire Dawa,Adama,Gondar,Mekelle,Hawassa,Bahir Dar,Dessie,Jimma,Debre Berhan,Harar,Jijiga,Shashamene,Bishoftu,Sodo,Arba Minch,Hosaena,Dilla,Nekemte,Asella,Gimbi,Adigrat,Aksum,Lalibela,Debre Markos,Debre Tabor,Debark,Kombolcha,Woldiya,Alamata,Adwa,Axum,Shire,Maychew,Inda Selassie,Sebeta,Burayu,Ambo,Bale Robe,Goba,Ginir,Negele Borena,Shakiso,Waliso,Butajira,Worabe,Welkite,Hossana,Yirga Alem,Debre Zeit,Mojo,Fitche,Sendafa,Holeta,Bako,Shambu,Meki,Ziway,Buta Jirra,Chiro,Asbe Teferi,Harar Jugol,Dembi Dolo,Nejo,Assosa,Gambela,Injibara,Chagni,Dangila,Debre Werq,Were Ilu,Kemise,Kobo,Debre Sina,Bichena,Dejen,Mota,Mertule Mariam,Finote Selam,Bure,Wukro,Inticho,Yechila,Negash,Hawzen,Adi Daero,May Mekden,Temben,Tippi,Mizan Teferi,Bonga,Wolaita Sodo,Durame,Hager Mariam,Wereta,Kola Debba"
-  },
-  {
     "name": "Tigrinya",
     "i": 25083,
     "min": 4,
@@ -16539,60 +16341,6 @@ window.asiaNameBases = [
     "d": "",
     "m": 0,
     "b": "Asmara,Massawa,Keren,Mendefera,Barentu,Adi Quala,Dekemhare,Adi Keyh,Senafe,Ghinda,Nefasit,Segeneiti,Hagaz,Badme,Adwa,Axum,Enticho,Yechila,Yeha,Adi Daero,Adi Arkay,Zalambessa,Inticho,Temben,Mai Adwa,Rama,Saesi Tsaedaemba,Irob,Wukro,Negash,Alamata,Maychew,Hawzen,Edaga Hamus,Laelay Maychew,Mehoni,Adi Gudem,Adi Kelem,Adisho,Hadish Adi,Gulo Mekeda,Himbirti,Afabet,Karora,She,eb,Agordat,Tesseney,Omhajer,Goluj,Dighe,Mogolo,Haykota,Alighede,Halhal,Shambuko,Logo Anseba,Sela Da Eritrean,Tera Emni,Tkul,Nakfa,Afdera,Lalibela,Gheralta,Adi Remets,Iyamo,Mai Mine,Aspidus,Ala,Adeke Ader,Adi Beles"
-  },
-  {
-    "name": "Oromo",
-    "i": 25084,
-    "min": 4,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Adama,Bishoftu,Jimma,Nekemte,Ambo,Gimbi,Dembi Dolo,Harar,Shashamene,Asella,Robe,Goba,Ginir,Shambu,Leka,Mendi,Nejo,Sekoru,Limmu Genet,Agaro,Metu,Bedele,Gore,Yayu,Bako,Woliso,Sebeta,Burayu,Sendafa,Holeta,Fitche,Guder,Coffee,Ilu,Hambela,Leku,Negele Borena,Yirgacheffe,Kofele,Shakiso,Adaba,Bore,Wabe,Welkite,Butajira,Hossana,Worabe,Meki,Ziway,Mojo,Batu,Dukem,Adami Tulu,Bulbula,Wonji,Shoa,Robit,Tulu Bolo,Chiro,Asbe Teferi,Haramaya,Babile,Ankober,Debre Berhan,Debre Sina,Debre Werq,Addis Ababa,Dire Dawa,Sabata,Sodo,Waliso,Hagere Mariam,Nairobi,Marsabit,Moyale,Isiolo,Wajir,Garissa,Meru,Embu,Nyeri,Chuka,Tharaka,Karatina,Maua,Laikipia,Nanyuki,Maralal,Baragoi,Log Logo"
-  },
-  {
-    "name": "Somali",
-    "i": 25085,
-    "min": 4,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Mogadishu,Hargeisa,Bosaso,Kismayo,Baidoa,Burao,Berbera,Garowe,Galkayo,Borama,Beledweyne,Jijiga,Dire Dawa,Djibouti,Tadjourah,Obock,Ali Sabieh,Loyada,Arta,Holhol,Ali Adde,Garissa,Wajir,Mandera,Moyale,Marsabit,Afgooye,Merca,Barawa,Bardera,Beled Hawo,El Wak,Adado,Abudwak,Dhusamareb,Guriel,Ceel Buur,Ceeldheer,Galcaio,Goldogob,Buuhoodle,Laascaanood,Las Anod,Erigavo,Ceerigaabo,Badhan,Gabiley,Dilla,Baligubadle,Sheikh,Zeila,Lughaya,Baki,Oodweyne,Sheekh,Tog Wajaale,Wardheer,Dhahar,Boocame,Budhuq,Cadaado,Buurhakaba,Wajid,Saacow,Tayeeglow,Qoryoley,Marka,Afmadow,Jamaame,Jilib,Belet Weyne,Bulo Burto,Dinsor,Luuq,Garbaharey,Isiolo,Bu,aale,Baraawe,Buur Gaabo,Kismaayo,Bandarbeyla,Iskushuban,Qandala,Caluula,Alula,Ras Caseyr,Bargaal,Ceyr,Carmaale,Oog"
-  },
-  {
-    "name": "Kinyarwanda",
-    "i": 25086,
-    "min": 4,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Kigali,Nyanza,Muhanga,Kamonyi,Ruhango,Gisagara,Nyaruguru,Nyamagabe,Huye,Butare,Byumba,Ruhengeri,Musanze,Gisenyi,Rubavu,Cyangugu,Rusizi,Kibuye,Karongi,Rwamagana,Kibungo,Nyagatare,Busogo,Gikongoro,Rubengera,Ngoma,Bugesera,Gicumbi,Burera,Gakenke,Nyamasheke,Rutsiro,Ngororero,Nyabihu,Gatsibo,Kayonza,Kirehe,Kicukiro,Gasabo,Nyarugenge,Rulindo,Kimisagara,Nyagahanga,Kiruhura,Gitarama,Rusumo,Mugeni,Save,Maraba,Ndiza,Ruheru,Tumba"
-  },
-  {
-    "name": "Kirundi",
-    "i": 25087,
-    "min": 4,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Bujumbura,Gitega,Ngozi,Rumonge,Bururi,Muramvya,Makamba,Rutana,Ruyigi,Cankuzo,Karusi,Kayanza,Kirundo,Muyinga,Bubanza,Cibitoke,Isale,Kabezi,Bukirasazi,Kayogoro,Magara,Mukenke,Musenyi,Muyaga,Mwaro,Nyanza-Lac,Rugari,Ruzunga,Zanandore,Buhongo,Kibondo,Kisozi,Luhwa,Murore,Karuzi,Busoni"
-  },
-  {
-    "name": "Sotho",
-    "i": 25088,
-    "min": 4,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Maseru,Teyateyaneng,Mafeteng,Hlotse,Leribe,Maputsoe,Berea,Quthing,Qachas Nek,Mokhotlong,Thaba-Tseka,Mohale,s Hoek,Butha-Buthe,Roma,Mazenod,Morija,Nako,Semonkong,Bloemfontein,Welkom,Bethlehem,Kroonstad,Sasolburg,Virginia,Wesselsbron,Phuthaditjhaba,Senekal,Ficksburg,Ladybrand,Clocolan,Marquard,Winburg,Theunissen,Henneman,Hoopstad,Bultfontein,Botshabelo,Thaba Nchu,Dewetsdorp,Wepener,Van Stadensrus,Zastron,Rouxville,Smithfield,Bethulie,Gariepdam,Aliwal North,Barkly East,Indwe,Molteno,Steynsburg,Colesberg"
-  },
-  {
-    "name": "Tswana",
-    "i": 25089,
-    "min": 4,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Gaborone,Francistown,Molepolole,Mogoditshane,Maun,Selibe-Phikwe,Serowe,Kanye,Mahalapye,Mochudi,Lobatse,Palapye,Ramotswa,Thamaga,Tonota,Jwaneng,Orapa,Letlhakane,Mmabatho,Mafikeng,Vryburg,Kuruman,Tlokweng,Gabane,Kopong,Mmopane,Metsimotlhabe,Oodi,Bokaa,Modipane,Moshupa,Good Hope,Mabule,Zeerust,Lichtenburg,Schweizer-Reneke,Christiana,Kimberley,Warrenton,Taung,De Aar"
   },
   {
     "name": "Swazi",
@@ -17432,15 +17180,6 @@ window.asiaNameBases = [
     "b": "Porto-Novo,Cotonou,Parakou,Bohicon,Abomey,Ouidah,Natitingou,Lokossa,Dogbo,Allada,Ketou,Djougou,Sakete,Pobe,Save,Aplahoue,Djakotomey,Come,Grand-Popo,Bopa,Klouekanme,Lalo,Toviklin,Kandi,Malanville,Banikoara,Segbana,Karimama,Tanguieta,Materi,Cobly,Ouake,Toucountouna,Kerou,Pehonco,Nikki,Kalale,Perere,Bembereke,Sinende,Cove,Ouesse,Bante,Glazoue,Ouinhi,Zogbodome,Zagnanado,Agbangnizoun,Djidja,Za-Kpota,Abomey-Calavi,Seme-Podji,Adjohoun,Bonou,Dangbo,Adjarra,Akpro-Misserete,Avrankou,Ifangni,Ikeja,Ketu,Adjara,Kutonu,Xogbonu,Agbome,Glexwe,Adja-Ouere,Oueme,Zou,Atlantique,Couffo,Collines,Borgou,Donga,Alibori,Atacora,Plateau,Littoral,Kouffo"
   },
   {
-    "name": "Kongo",
-    "i": 25196,
-    "min": 4,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Kinshasa,Brazzaville,Matadi,Boma,Banana,Moanda,Pointe-Noire,Dolisie,Nkayi,Kayes,Madingou,Sibiti,Impfondo,Owando,Ewo,Boundji,Makoua,Ouesso,Sembe,Souanke,Ngoko,Mbomo,Betou,Enyelle,Bouemba,Loukolela,Basankusu,Befale,Boende,Bongandanga,Bumba,Buta,Bondo,Ango,Libenge,Zongo,Luanda,Mbanza-Kongo,Uige,Soyo,Cabinda,Sumbe,Benguela,Lobito,Namibe,Tombwa,Menongue,Cuito,Kuito,Caconda,Chibia,Caluquembe,Caala,Catengue,Caimbambo,Chongoroi,Cubal,Ganda,Cubango,Longonjo,Bailundo,Andulo,Camacupa,Catabola,Chinguar,Cunhinga,Kwanza Sul,Waku Kungo,Porto Amboim,Quibala,Quilengues,Conda,Balombo,Caia,Marromeu,Chinde,Beira,Inhambane,Xai-Xai,Chokwe,Manjacaze,Limpopo,Maputo,Tete,Mozambique,Songo,Lumbala,Quito,Ondjiva,Namacunde,Cahama,Cuvelai,Cuanhama,Cubati,Calenga,Negage,Camabatela,Dondo,Ndalatando,Cazengo,Quiculungo,Ambaca,Samba Caju,Bula Atumba,Cangola,Bungo,Alto Cauale"
-  },
-  {
     "name": "Luba",
     "i": 25197,
     "min": 4,
@@ -17457,24 +17196,6 @@ window.asiaNameBases = [
     "d": "",
     "m": 0,
     "b": "Bulawayo,Gwanda,Plumtree,Kezi,Filabusi,Esigodini,Tsholotsho,Nkayi,Binga,Lupane,Hwange,Victoria Falls,Beitbridge,Chiredzi,Mberengwa,Zvishavane,Shurugwi,Gweru,Kwekwe,Kadoma,Chinhoyi,Karoi,Kariba,Hurungwe,Muzarabani,Mount Darwin,Bindura,Shamva,Marondera,Murewa,Mutoko,Chitungwiza,Epworth,Seke,Chivhu,Featherstone,Beatrice,Mashava,Masvingo,Zaka,Bikita,Nyika,Ndanga,Gutu,Chatsworth,Fort Rixon,Shangani,Inyathi,Matobo,Dete,Umguza,Magwegwe,Pumula,Luveve,Njube,Mzilikazi,Barbourfields,Hammanskraal,Atteridgeville,Mamelodi,Soshanguve,Pretoria North,Mabopane,Ga-Rankuwa,Winterveld,Refilwe,Cullinan,Rayton,Roodeplaat,Pretoria East,Witbank,Middelburg,Standerton,Secunda,eMbalenhle,KwaNdebele,Bronkhorstspruit"
-  },
-  {
-    "name": "Luganda",
-    "i": 25201,
-    "min": 4,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Kampala,Entebbe,Jinja,Mbale,Mbarara,Gulu,Lira,Soroti,Arua,Masindi,Kasese,Kitgum,Tororo,Iganga,Mubende,Kabale,Fort Portal,Hoima,Mukono,Njeru,Mityana,Lugazi,Wakiso,Bombo,Nansana,Kira,Makindye,Kawempe,Kulambiro,Kisaasi,Namugongo,Seeta,Kasangati,Busunju,Kitanda,Mpigi,Nkozi,Masaka,Lukaya,Kalungu,Kalisizo,Lyantonde,Kinuuka,Rakai,Kisoro,Kanungu,Butogota,Bwindi,Kigorobya,Buliisa,Kiryandongo,Apac,Dokolo,Amolatar,Oyam,Otuke,Lamwo,Pader,Agago,Amuru,Nwoya,Kole,Maracha,Paidha,Okoro,Zombo,Nebbi,Pakwach,Moyo,Yumbe,Obongi,Adjumani,Sironko,Kapchorwa,Bukwo,Kween,Amudat,Moroto,Napak,Kotido,Abim,Kaabong,Karenga,Amuria,Katakwi,Kalaki,Kaberamaido,Buyende,Kamuli,Luuka,Mayuge,Namutumba,Kaliro,Pallisa,Butaleja,Budaka,Kibuku,Namayingo,Bugiri,Busia,Kalangala,Buikwe,Kayunga,Nkoko,Busamaga,Busoba,Suam"
-  },
-  {
-    "name": "Bambara",
-    "i": 25202,
-    "min": 4,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Bamako,Sikasso,Kalabancoro,Koutiala,Segou,Mopti,Timbuktu,Gao,Kayes,Kati,Koulikoro,Nara,San,Markala,Banamba,Bougouni,Djenne,Douentza,Kolondieba,Kadiolo,Kolokani,Bla,Dioila,Niono,Yelimane,Tominian,Macina,Koro,Bandiagara,Tenkodogo,Massigui,Tonka,Kita,Koury,Koumantou,Ouelessebougou,Pelengana,Kourounikoto,Karan,Fana,Troungouumbe,Nioro,Sokolo,Dire,Bourem,Kidal,Baraoueli,Yangasso,Sansanding,Kokofata,Bafoulabe,Diema,Kenieba,Sadje,Yorosso,Selingue,Bougaribaye,Beyla,Kankela,Bafing,Faraba,Neguela,Sagalo,Tombouctou,Goundam,Lere,Tenenkou"
   },
   {
     "name": "Songhai",
@@ -17504,15 +17225,6 @@ window.asiaNameBases = [
     "b": "Yaounde,Mbalmayo,Mfou,Obala,Bafia,Mbandjock,Nanga-Eboko,Monatele,Sa-a,Okola,Mbankomo,Bikok,Ngoumou,Akono,Ayos,Akonolinga,Esse,Soa,Nkolafamba,Afanloum,Awae,Edzendouan,Olanguina,Ntui,Batchenga,Ebebda,Elig-Mfomo,Evodoula,Lobo,Nkoteng,Minta,Nsem,Bibey,Lembe-Yezoum,Deuk,Kiiki,Kon-Yambetta,Makenene,Ndikinimeki,Nitoukou,Ombessa,Eséka,Boumnyebel,Dibang,Messondo,Matomb,Makak,Bot-Makak,Mengang,Endom,Kobdombo,Ngomedzap,Nkolmetet,Dzeng,Mengueme,Akoeman,Ngog-Mapubi,Biyouha,Bondjock"
   },
   {
-    "name": "Bemba",
-    "i": 25206,
-    "min": 4,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Lusaka,Ndola,Kitwe,Livingstone,Chipata,Kabwe,Kasama,Mansa,Mufulira,Luanshya,Kalulushi,Chililabombwe,Solwezi,Chingola,Kapiri,Mposhi,Chilanga,Nakonde,Mbala,Mpulungu,Isoka,Chama,Lundazi,Petauke,Nyimba,Katete,Sinda,Chadiza,Chisamba,Mkushi,Serenje,Mpika,Chinsali,Mungwi,Mporokoso,Kawambwa,Nchelenge,Samfya,Luwingu,Mumbwa,Lukulu,Kaoma,Senanga,Mongu,Kalabo,Zambezi,Sesheke,Chavuma,Manyinga,Mpongwe,Chambishi,Masaiti"
-  },
-  {
     "name": "Ndonga",
     "i": 25208,
     "min": 4,
@@ -17529,42 +17241,6 @@ window.asiaNameBases = [
     "d": "",
     "m": 0,
     "b": "Luanda,Benguela,Huambo,Lobito,Lubango,Malanje,Namibe,Uige,Luena,Saurimo,Cuito,Caxito,Sumbe,N-dalatando,Menongue,Dundo,Tombwa,Cacolo,Caala,Catumbela,Cubal,Caconda,Chibia,Caluquembe,Ganda,Caimbambo,Chongoroi,Balombo,Longonjo,Bailundo,Andulo,Camacupa,Catabola,Chinguar,Cunhinga,Porto,Amboim,Quibala,Gabela,Waku,Kungo,Cela,Mussende,Quilengues,Matala,Capelongo,Cuchi,Cuanavale,Mavinga,Nzagi,Lucapa,Cafunfo,Cuilo,Cuango,Luremo,Marimba,Cangandala,Quimbango,Cacuso,Calandula,Ambaca,Camabatela,Bolongongo,Golungo,Alto,Quibaxe,Banga,N-zeto,Ambriz,M-banza-Congo,Soyo,Luau"
-  },
-  {
-    "name": "Chichewa",
-    "i": 25210,
-    "min": 4,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Lilongwe,Blantyre,Mzuzu,Zomba,Kasungu,Mangochi,Salima,Liwonde,Balaka,Mwanza,Mchinji,Nsanje,Karonga,Rumphi,Chitipa,Mzimba,Nkhata,Bay,Nkhotakota,Dedza,Ntcheu,Ntchisi,Dowa,Neno,Thyolo,Mulanje,Phalombe,Chiradzulu,Chikwawa,Nkaya,Zalewa,Luchenza,Malosa,Monkey,Marka,Chilumba,Ekwendeni,Likoma,Livingstonia,Chintheche,Embangweni,Chipoka,Mua,Namitete,Madisi,Nkhoma,Domasi,Bangula,Limbe,Chiwembe,Njata,Mponela"
-  },
-  {
-    "name": "Kikuyu",
-    "i": 25211,
-    "min": 4,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Nairobi,Thika,Nyeri,Nanyuki,Karatina,Murang-a,Kiambu,Ruiru,Kikuyu,Limuru,Naivasha,Mweiga,Othaya,Mukurweini,Gichugu,Kerugoya,Kagumo,Kangema,Kiharu,Mathioya,Kigumo,Kandara,Gatundu,Githunguri,Kiambaa,Karai,Ndenderu,Gachie,Ngecha,Muguga,Kinale,Gatina,Kabete,Uthiru,Wangige,Muthiga,Ruaka,Kitisuru,Sigona,Tigoni,Karuri,Kiamumbi,Membley,Juja,Makongeni,Gatuanyaga,Sabasaba,Mwea,Wanguru,Kutus,Kianyaga,Baricho,Sagana,Makutano,Chaka,Endarasha,Giakanja,Ichamara"
-  },
-  {
-    "name": "Luo",
-    "i": 25212,
-    "min": 4,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Kisumu,Siaya,Bondo,Busia,Homa,Bay,Migori,Rachuonyo,Suba,Nyando,Muhoroni,Chemelil,Nandi,Hills,Kapsabet,Eldoret,Kakamega,Vihiga,Malava,Mumias,Matungu,Butere,Khwisero,Shinyalu,Ikolomani,Lurambi,Kwanza,Saboti,Cherangany,Kaiti,Ndori,Asembo,Luanda,Rangala,Maseno,Chulaimbo,Port,Victoria,Sega,Usenge,Bumala,Funyula,Nambale,Malakisi,Kimilili,Kapsokwony,Kitale,Kapenguria,Makutano,Lodwar,Lokichoggio,Maralal,Baragoi,Nyamira,Borabu,Keroka,Nyansiongo,Nyangusu,Oyugis,Kendu,Mbita,Ndhiwa,Rangwe,Rodi,Kopany,Gulu,Lira,Soroti,Arua,Kitgum,Moyo,Adjumani,Pakwach,Masindi,Hoima,Nebbi"
-  },
-  {
-    "name": "Maasai",
-    "i": 25213,
-    "min": 4,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Narok,Kajiado,Ngong,Ongata,Rongai,Kitengela,Isinya,Namanga,Loitokitok,Emali,Sultan,Hamud,Mtito,Andei,Voi,Taveta,Mwatate,Wundanyi,Mariakani,Kinango,Kwale,Lunga,Mpeketoni,Lamu,Faza,Witu,Hindi,Kipini,Garsen,Ololaimutia,Sekenani,Talek,Aitong,Narosura,Lemek,Kilgoris,Suswa,Ololulunga,Ewuaso,Naimina,Enkiama,Oleshariki,Olmesutye,Keekonyokie,Maparasha,Ilbissil,Magadi,Entasopia,Oldonyo,Sambu,Imbirikani,Maua,Isiolo,Marsabit,Sololo,North,Horr,Laisamis"
   },
   {
     "name": "Makhuwa",
@@ -18224,15 +17900,6 @@ window.asiaNameBases = [
     "b": "Nukus,Khujayli,Beruniy,Turtkul,Berdaq,Chimboy,Muynoq,Qongirot,Shumanay,Xalqabad,Tahtakupyr,Kanlikul,Karatau,Manghit,Oltinko,l,Amudarya,Kegeyli,Bozatau,Kungirot,Qarao,zak,Ellikkala,Xo,jayli,Qo,ng,irot,Taxiatosh,Karakul,Kenegez,Naymanguli,Kizil-Oktyabr,Ak-Zhaylauy"
   },
   {
-    "name": "Amharic",
-    "i": 25349,
-    "min": 4,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Addis Ababa,Dire Dawa,Adama,Gondar,Mekelle,Hawassa,Bahir Dar,Dessie,Jimma,Debre Berhan,Harar,Jijiga,Shashamene,Bishoftu,Sodo,Arba Minch,Hosaena,Dilla,Nekemte,Asella,Gimbi,Adigrat,Aksum,Lalibela,Debre Markos,Debre Tabor,Debark,Kombolcha,Woldiya,Alamata,Adwa,Axum,Shire,Maychew,Inda Selassie,Sebeta,Burayu,Ambo,Bale Robe,Goba,Ginir,Negele Borena,Shakiso,Waliso,Butajira,Worabe,Welkite,Hossana,Yirga Alem,Debre Zeit,Mojo,Fitche,Sendafa,Holeta,Bako,Shambu,Meki,Ziway,Buta Jirra,Chiro,Asbe Teferi,Harar Jugol,Dembi Dolo,Nejo,Assosa,Gambela,Injibara,Chagni,Dangila,Debre Werq,Were Ilu,Kemise,Kobo,Debre Sina,Bichena,Dejen,Mota,Mertule Mariam,Finote Selam,Bure,Wukro,Inticho,Yechila,Negash,Hawzen,Adi Daero,May Mekden,Temben,Tippi,Mizan Teferi,Bonga,Wolaita Sodo,Durame,Hager Mariam,Wereta,Kola Debba"
-  },
-  {
     "name": "Tigrinya",
     "i": 25350,
     "min": 4,
@@ -18240,60 +17907,6 @@ window.asiaNameBases = [
     "d": "",
     "m": 0,
     "b": "Asmara,Massawa,Keren,Mendefera,Barentu,Adi Quala,Dekemhare,Adi Keyh,Senafe,Ghinda,Nefasit,Segeneiti,Hagaz,Badme,Adwa,Axum,Enticho,Yechila,Yeha,Adi Daero,Adi Arkay,Zalambessa,Inticho,Temben,Mai Adwa,Rama,Saesi Tsaedaemba,Irob,Wukro,Negash,Alamata,Maychew,Hawzen,Edaga Hamus,Laelay Maychew,Mehoni,Adi Gudem,Adi Kelem,Adisho,Hadish Adi,Gulo Mekeda,Himbirti,Afabet,Karora,She,eb,Agordat,Tesseney,Omhajer,Goluj,Dighe,Mogolo,Haykota,Alighede,Halhal,Shambuko,Logo Anseba,Sela Da Eritrean,Tera Emni,Tkul,Nakfa,Afdera,Lalibela,Gheralta,Adi Remets,Iyamo,Mai Mine,Aspidus,Ala,Adeke Ader,Adi Beles"
-  },
-  {
-    "name": "Oromo",
-    "i": 25351,
-    "min": 4,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Adama,Bishoftu,Jimma,Nekemte,Ambo,Gimbi,Dembi Dolo,Harar,Shashamene,Asella,Robe,Goba,Ginir,Shambu,Leka,Mendi,Nejo,Sekoru,Limmu Genet,Agaro,Metu,Bedele,Gore,Yayu,Bako,Woliso,Sebeta,Burayu,Sendafa,Holeta,Fitche,Guder,Coffee,Ilu,Hambela,Leku,Negele Borena,Yirgacheffe,Kofele,Shakiso,Adaba,Bore,Wabe,Welkite,Butajira,Hossana,Worabe,Meki,Ziway,Mojo,Batu,Dukem,Adami Tulu,Bulbula,Wonji,Shoa,Robit,Tulu Bolo,Chiro,Asbe Teferi,Haramaya,Babile,Ankober,Debre Berhan,Debre Sina,Debre Werq,Addis Ababa,Dire Dawa,Sabata,Sodo,Waliso,Hagere Mariam,Nairobi,Marsabit,Moyale,Isiolo,Wajir,Garissa,Meru,Embu,Nyeri,Chuka,Tharaka,Karatina,Maua,Laikipia,Nanyuki,Maralal,Baragoi,Log Logo"
-  },
-  {
-    "name": "Somali",
-    "i": 25352,
-    "min": 4,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Mogadishu,Hargeisa,Bosaso,Kismayo,Baidoa,Burao,Berbera,Garowe,Galkayo,Borama,Beledweyne,Jijiga,Dire Dawa,Djibouti,Tadjourah,Obock,Ali Sabieh,Loyada,Arta,Holhol,Ali Adde,Garissa,Wajir,Mandera,Moyale,Marsabit,Afgooye,Merca,Barawa,Bardera,Beled Hawo,El Wak,Adado,Abudwak,Dhusamareb,Guriel,Ceel Buur,Ceeldheer,Galcaio,Goldogob,Buuhoodle,Laascaanood,Las Anod,Erigavo,Ceerigaabo,Badhan,Gabiley,Dilla,Baligubadle,Sheikh,Zeila,Lughaya,Baki,Oodweyne,Sheekh,Tog Wajaale,Wardheer,Dhahar,Boocame,Budhuq,Cadaado,Buurhakaba,Wajid,Saacow,Tayeeglow,Qoryoley,Marka,Afmadow,Jamaame,Jilib,Belet Weyne,Bulo Burto,Dinsor,Luuq,Garbaharey,Isiolo,Bu,aale,Baraawe,Buur Gaabo,Kismaayo,Bandarbeyla,Iskushuban,Qandala,Caluula,Alula,Ras Caseyr,Bargaal,Ceyr,Carmaale,Oog"
-  },
-  {
-    "name": "Kinyarwanda",
-    "i": 25353,
-    "min": 4,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Kigali,Nyanza,Muhanga,Kamonyi,Ruhango,Gisagara,Nyaruguru,Nyamagabe,Huye,Butare,Byumba,Ruhengeri,Musanze,Gisenyi,Rubavu,Cyangugu,Rusizi,Kibuye,Karongi,Rwamagana,Kibungo,Nyagatare,Busogo,Gikongoro,Rubengera,Ngoma,Bugesera,Gicumbi,Burera,Gakenke,Nyamasheke,Rutsiro,Ngororero,Nyabihu,Gatsibo,Kayonza,Kirehe,Kicukiro,Gasabo,Nyarugenge,Rulindo,Kimisagara,Nyagahanga,Kiruhura,Gitarama,Rusumo,Mugeni,Save,Maraba,Ndiza,Ruheru,Tumba"
-  },
-  {
-    "name": "Kirundi",
-    "i": 25354,
-    "min": 4,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Bujumbura,Gitega,Ngozi,Rumonge,Bururi,Muramvya,Makamba,Rutana,Ruyigi,Cankuzo,Karusi,Kayanza,Kirundo,Muyinga,Bubanza,Cibitoke,Isale,Kabezi,Bukirasazi,Kayogoro,Magara,Mukenke,Musenyi,Muyaga,Mwaro,Nyanza-Lac,Rugari,Ruzunga,Zanandore,Buhongo,Kibondo,Kisozi,Luhwa,Murore,Karuzi,Busoni"
-  },
-  {
-    "name": "Sotho",
-    "i": 25355,
-    "min": 4,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Maseru,Teyateyaneng,Mafeteng,Hlotse,Leribe,Maputsoe,Berea,Quthing,Qachas Nek,Mokhotlong,Thaba-Tseka,Mohale,s Hoek,Butha-Buthe,Roma,Mazenod,Morija,Nako,Semonkong,Bloemfontein,Welkom,Bethlehem,Kroonstad,Sasolburg,Virginia,Wesselsbron,Phuthaditjhaba,Senekal,Ficksburg,Ladybrand,Clocolan,Marquard,Winburg,Theunissen,Henneman,Hoopstad,Bultfontein,Botshabelo,Thaba Nchu,Dewetsdorp,Wepener,Van Stadensrus,Zastron,Rouxville,Smithfield,Bethulie,Gariepdam,Aliwal North,Barkly East,Indwe,Molteno,Steynsburg,Colesberg"
-  },
-  {
-    "name": "Tswana",
-    "i": 25356,
-    "min": 4,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Gaborone,Francistown,Molepolole,Mogoditshane,Maun,Selibe-Phikwe,Serowe,Kanye,Mahalapye,Mochudi,Lobatse,Palapye,Ramotswa,Thamaga,Tonota,Jwaneng,Orapa,Letlhakane,Mmabatho,Mafikeng,Vryburg,Kuruman,Tlokweng,Gabane,Kopong,Mmopane,Metsimotlhabe,Oodi,Bokaa,Modipane,Moshupa,Good Hope,Mabule,Zeerust,Lichtenburg,Schweizer-Reneke,Christiana,Kimberley,Warrenton,Taung,De Aar"
   },
   {
     "name": "Swazi",
@@ -19133,15 +18746,6 @@ window.asiaNameBases = [
     "b": "Porto-Novo,Cotonou,Parakou,Bohicon,Abomey,Ouidah,Natitingou,Lokossa,Dogbo,Allada,Ketou,Djougou,Sakete,Pobe,Save,Aplahoue,Djakotomey,Come,Grand-Popo,Bopa,Klouekanme,Lalo,Toviklin,Kandi,Malanville,Banikoara,Segbana,Karimama,Tanguieta,Materi,Cobly,Ouake,Toucountouna,Kerou,Pehonco,Nikki,Kalale,Perere,Bembereke,Sinende,Cove,Ouesse,Bante,Glazoue,Ouinhi,Zogbodome,Zagnanado,Agbangnizoun,Djidja,Za-Kpota,Abomey-Calavi,Seme-Podji,Adjohoun,Bonou,Dangbo,Adjarra,Akpro-Misserete,Avrankou,Ifangni,Ikeja,Ketu,Adjara,Kutonu,Xogbonu,Agbome,Glexwe,Adja-Ouere,Oueme,Zou,Atlantique,Couffo,Collines,Borgou,Donga,Alibori,Atacora,Plateau,Littoral,Kouffo"
   },
   {
-    "name": "Kongo",
-    "i": 25463,
-    "min": 4,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Kinshasa,Brazzaville,Matadi,Boma,Banana,Moanda,Pointe-Noire,Dolisie,Nkayi,Kayes,Madingou,Sibiti,Impfondo,Owando,Ewo,Boundji,Makoua,Ouesso,Sembe,Souanke,Ngoko,Mbomo,Betou,Enyelle,Bouemba,Loukolela,Basankusu,Befale,Boende,Bongandanga,Bumba,Buta,Bondo,Ango,Libenge,Zongo,Luanda,Mbanza-Kongo,Uige,Soyo,Cabinda,Sumbe,Benguela,Lobito,Namibe,Tombwa,Menongue,Cuito,Kuito,Caconda,Chibia,Caluquembe,Caala,Catengue,Caimbambo,Chongoroi,Cubal,Ganda,Cubango,Longonjo,Bailundo,Andulo,Camacupa,Catabola,Chinguar,Cunhinga,Kwanza Sul,Waku Kungo,Porto Amboim,Quibala,Quilengues,Conda,Balombo,Caia,Marromeu,Chinde,Beira,Inhambane,Xai-Xai,Chokwe,Manjacaze,Limpopo,Maputo,Tete,Mozambique,Songo,Lumbala,Quito,Ondjiva,Namacunde,Cahama,Cuvelai,Cuanhama,Cubati,Calenga,Negage,Camabatela,Dondo,Ndalatando,Cazengo,Quiculungo,Ambaca,Samba Caju,Bula Atumba,Cangola,Bungo,Alto Cauale"
-  },
-  {
     "name": "Luba",
     "i": 25464,
     "min": 4,
@@ -19158,24 +18762,6 @@ window.asiaNameBases = [
     "d": "",
     "m": 0,
     "b": "Bulawayo,Gwanda,Plumtree,Kezi,Filabusi,Esigodini,Tsholotsho,Nkayi,Binga,Lupane,Hwange,Victoria Falls,Beitbridge,Chiredzi,Mberengwa,Zvishavane,Shurugwi,Gweru,Kwekwe,Kadoma,Chinhoyi,Karoi,Kariba,Hurungwe,Muzarabani,Mount Darwin,Bindura,Shamva,Marondera,Murewa,Mutoko,Chitungwiza,Epworth,Seke,Chivhu,Featherstone,Beatrice,Mashava,Masvingo,Zaka,Bikita,Nyika,Ndanga,Gutu,Chatsworth,Fort Rixon,Shangani,Inyathi,Matobo,Dete,Umguza,Magwegwe,Pumula,Luveve,Njube,Mzilikazi,Barbourfields,Hammanskraal,Atteridgeville,Mamelodi,Soshanguve,Pretoria North,Mabopane,Ga-Rankuwa,Winterveld,Refilwe,Cullinan,Rayton,Roodeplaat,Pretoria East,Witbank,Middelburg,Standerton,Secunda,eMbalenhle,KwaNdebele,Bronkhorstspruit"
-  },
-  {
-    "name": "Luganda",
-    "i": 25468,
-    "min": 4,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Kampala,Entebbe,Jinja,Mbale,Mbarara,Gulu,Lira,Soroti,Arua,Masindi,Kasese,Kitgum,Tororo,Iganga,Mubende,Kabale,Fort Portal,Hoima,Mukono,Njeru,Mityana,Lugazi,Wakiso,Bombo,Nansana,Kira,Makindye,Kawempe,Kulambiro,Kisaasi,Namugongo,Seeta,Kasangati,Busunju,Kitanda,Mpigi,Nkozi,Masaka,Lukaya,Kalungu,Kalisizo,Lyantonde,Kinuuka,Rakai,Kisoro,Kanungu,Butogota,Bwindi,Kigorobya,Buliisa,Kiryandongo,Apac,Dokolo,Amolatar,Oyam,Otuke,Lamwo,Pader,Agago,Amuru,Nwoya,Kole,Maracha,Paidha,Okoro,Zombo,Nebbi,Pakwach,Moyo,Yumbe,Obongi,Adjumani,Sironko,Kapchorwa,Bukwo,Kween,Amudat,Moroto,Napak,Kotido,Abim,Kaabong,Karenga,Amuria,Katakwi,Kalaki,Kaberamaido,Buyende,Kamuli,Luuka,Mayuge,Namutumba,Kaliro,Pallisa,Butaleja,Budaka,Kibuku,Namayingo,Bugiri,Busia,Kalangala,Buikwe,Kayunga,Nkoko,Busamaga,Busoba,Suam"
-  },
-  {
-    "name": "Bambara",
-    "i": 25469,
-    "min": 4,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Bamako,Sikasso,Kalabancoro,Koutiala,Segou,Mopti,Timbuktu,Gao,Kayes,Kati,Koulikoro,Nara,San,Markala,Banamba,Bougouni,Djenne,Douentza,Kolondieba,Kadiolo,Kolokani,Bla,Dioila,Niono,Yelimane,Tominian,Macina,Koro,Bandiagara,Tenkodogo,Massigui,Tonka,Kita,Koury,Koumantou,Ouelessebougou,Pelengana,Kourounikoto,Karan,Fana,Troungouumbe,Nioro,Sokolo,Dire,Bourem,Kidal,Baraoueli,Yangasso,Sansanding,Kokofata,Bafoulabe,Diema,Kenieba,Sadje,Yorosso,Selingue,Bougaribaye,Beyla,Kankela,Bafing,Faraba,Neguela,Sagalo,Tombouctou,Goundam,Lere,Tenenkou"
   },
   {
     "name": "Songhai",
@@ -19205,15 +18791,6 @@ window.asiaNameBases = [
     "b": "Yaounde,Mbalmayo,Mfou,Obala,Bafia,Mbandjock,Nanga-Eboko,Monatele,Sa-a,Okola,Mbankomo,Bikok,Ngoumou,Akono,Ayos,Akonolinga,Esse,Soa,Nkolafamba,Afanloum,Awae,Edzendouan,Olanguina,Ntui,Batchenga,Ebebda,Elig-Mfomo,Evodoula,Lobo,Nkoteng,Minta,Nsem,Bibey,Lembe-Yezoum,Deuk,Kiiki,Kon-Yambetta,Makenene,Ndikinimeki,Nitoukou,Ombessa,Eséka,Boumnyebel,Dibang,Messondo,Matomb,Makak,Bot-Makak,Mengang,Endom,Kobdombo,Ngomedzap,Nkolmetet,Dzeng,Mengueme,Akoeman,Ngog-Mapubi,Biyouha,Bondjock"
   },
   {
-    "name": "Bemba",
-    "i": 25473,
-    "min": 4,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Lusaka,Ndola,Kitwe,Livingstone,Chipata,Kabwe,Kasama,Mansa,Mufulira,Luanshya,Kalulushi,Chililabombwe,Solwezi,Chingola,Kapiri,Mposhi,Chilanga,Nakonde,Mbala,Mpulungu,Isoka,Chama,Lundazi,Petauke,Nyimba,Katete,Sinda,Chadiza,Chisamba,Mkushi,Serenje,Mpika,Chinsali,Mungwi,Mporokoso,Kawambwa,Nchelenge,Samfya,Luwingu,Mumbwa,Lukulu,Kaoma,Senanga,Mongu,Kalabo,Zambezi,Sesheke,Chavuma,Manyinga,Mpongwe,Chambishi,Masaiti"
-  },
-  {
     "name": "Ndonga",
     "i": 25475,
     "min": 4,
@@ -19230,42 +18807,6 @@ window.asiaNameBases = [
     "d": "",
     "m": 0,
     "b": "Luanda,Benguela,Huambo,Lobito,Lubango,Malanje,Namibe,Uige,Luena,Saurimo,Cuito,Caxito,Sumbe,N-dalatando,Menongue,Dundo,Tombwa,Cacolo,Caala,Catumbela,Cubal,Caconda,Chibia,Caluquembe,Ganda,Caimbambo,Chongoroi,Balombo,Longonjo,Bailundo,Andulo,Camacupa,Catabola,Chinguar,Cunhinga,Porto,Amboim,Quibala,Gabela,Waku,Kungo,Cela,Mussende,Quilengues,Matala,Capelongo,Cuchi,Cuanavale,Mavinga,Nzagi,Lucapa,Cafunfo,Cuilo,Cuango,Luremo,Marimba,Cangandala,Quimbango,Cacuso,Calandula,Ambaca,Camabatela,Bolongongo,Golungo,Alto,Quibaxe,Banga,N-zeto,Ambriz,M-banza-Congo,Soyo,Luau"
-  },
-  {
-    "name": "Chichewa",
-    "i": 25477,
-    "min": 4,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Lilongwe,Blantyre,Mzuzu,Zomba,Kasungu,Mangochi,Salima,Liwonde,Balaka,Mwanza,Mchinji,Nsanje,Karonga,Rumphi,Chitipa,Mzimba,Nkhata,Bay,Nkhotakota,Dedza,Ntcheu,Ntchisi,Dowa,Neno,Thyolo,Mulanje,Phalombe,Chiradzulu,Chikwawa,Nkaya,Zalewa,Luchenza,Malosa,Monkey,Marka,Chilumba,Ekwendeni,Likoma,Livingstonia,Chintheche,Embangweni,Chipoka,Mua,Namitete,Madisi,Nkhoma,Domasi,Bangula,Limbe,Chiwembe,Njata,Mponela"
-  },
-  {
-    "name": "Kikuyu",
-    "i": 25478,
-    "min": 4,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Nairobi,Thika,Nyeri,Nanyuki,Karatina,Murang-a,Kiambu,Ruiru,Kikuyu,Limuru,Naivasha,Mweiga,Othaya,Mukurweini,Gichugu,Kerugoya,Kagumo,Kangema,Kiharu,Mathioya,Kigumo,Kandara,Gatundu,Githunguri,Kiambaa,Karai,Ndenderu,Gachie,Ngecha,Muguga,Kinale,Gatina,Kabete,Uthiru,Wangige,Muthiga,Ruaka,Kitisuru,Sigona,Tigoni,Karuri,Kiamumbi,Membley,Juja,Makongeni,Gatuanyaga,Sabasaba,Mwea,Wanguru,Kutus,Kianyaga,Baricho,Sagana,Makutano,Chaka,Endarasha,Giakanja,Ichamara"
-  },
-  {
-    "name": "Luo",
-    "i": 25479,
-    "min": 4,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Kisumu,Siaya,Bondo,Busia,Homa,Bay,Migori,Rachuonyo,Suba,Nyando,Muhoroni,Chemelil,Nandi,Hills,Kapsabet,Eldoret,Kakamega,Vihiga,Malava,Mumias,Matungu,Butere,Khwisero,Shinyalu,Ikolomani,Lurambi,Kwanza,Saboti,Cherangany,Kaiti,Ndori,Asembo,Luanda,Rangala,Maseno,Chulaimbo,Port,Victoria,Sega,Usenge,Bumala,Funyula,Nambale,Malakisi,Kimilili,Kapsokwony,Kitale,Kapenguria,Makutano,Lodwar,Lokichoggio,Maralal,Baragoi,Nyamira,Borabu,Keroka,Nyansiongo,Nyangusu,Oyugis,Kendu,Mbita,Ndhiwa,Rangwe,Rodi,Kopany,Gulu,Lira,Soroti,Arua,Kitgum,Moyo,Adjumani,Pakwach,Masindi,Hoima,Nebbi"
-  },
-  {
-    "name": "Maasai",
-    "i": 25480,
-    "min": 4,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Narok,Kajiado,Ngong,Ongata,Rongai,Kitengela,Isinya,Namanga,Loitokitok,Emali,Sultan,Hamud,Mtito,Andei,Voi,Taveta,Mwatate,Wundanyi,Mariakani,Kinango,Kwale,Lunga,Mpeketoni,Lamu,Faza,Witu,Hindi,Kipini,Garsen,Ololaimutia,Sekenani,Talek,Aitong,Narosura,Lemek,Kilgoris,Suswa,Ololulunga,Ewuaso,Naimina,Enkiama,Oleshariki,Olmesutye,Keekonyokie,Maparasha,Ilbissil,Magadi,Entasopia,Oldonyo,Sambu,Imbirikani,Maua,Isiolo,Marsabit,Sololo,North,Horr,Laisamis"
   },
   {
     "name": "Makhuwa",
@@ -21453,16 +20994,6 @@ window.asiaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Luobohe",
-    "i": 202828,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Luobohe,Tchibanga,Conakry,Parakou,Fatick,Jalingo,Gashua,Koulikoro,Tougué,Dapaong,Kontagora,Tahoua,Wa,Franceville,Luba,Umuahia,Faranah,Zaria,Lafia,Nkongsamba,Yamoussoukro,Moundou,Porto-Novo,Ségou,Ife,Timbuktu,Farafenni,Lomé,Koudougou,Bissau,Bamenda,Daloa,Freetown,Kumasi,Bertoua,Kaolack,Bolt,Koidu,Bamako,Ebebiyín,Accra,Mopti,Maiduguri,Kankan,Kano,Malabo,Sunyani,Gusau,Tambacounda,Tema,Luobohek,Luobohet,Luobohep,Luobohem,Luobohen,Luobohes,Luoboher,Luobohel,Luobohed,Luoboheg,Luoboheb",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Maojia",
     "i": 202830,
     "min": 4,
@@ -21823,13 +21354,133 @@ window.asiaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Simplified Italian of Somalia",
-    "i": 202394,
+    "name": "Khalkha Mongolian",
+    "i": 202474,
     "min": 4,
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Simplified Italian of Somalia,Kaduna,Zwedru,Douala,Kindia,Zaria,Calabar,Sikasso,Misau,Gao,Yusufari,Kenema,Ngaoundéré,Calheta,Ségou,Bida,Koudougou,Enugu,Saminaka,Banfora,Bafatá,Warri,Tchibanga,Natitingou,Parakou,Fatick,Maradi,New Plymouth,Nantes,Toulouse,Hamburg,Bologna,Barcelona,Cologne,Vaasa,Seville,Marseille,Glasgow,Florence,Málaga,Zaragoza,Prague,Milan,Leipzig,Stuttgart,Naples,Utrecht,Reykjanesbær,Rome,Lucerne,Szczecin,Warsaw,Ostrava,Chur,Olomouc,SimplifiedItalianofSomaliak,SimplifiedItalianofSomaliat,SimplifiedItalianofSomaliap,SimplifiedItalianofSomaliam,SimplifiedItalianofSomalian,SimplifiedItalianofSomalias,SimplifiedItalianofSomaliar,SimplifiedItalianofSomalial,SimplifiedItalianofSomaliad,SimplifiedItalianofSomaliag,SimplifiedItalianofSomaliab",
+    "b": "Khalkha Mongolian,Dongguan,Kanggye,Arvaikheer,Kimchaek,Rason,Hsinchu,Kawasaki,Matsuyama,Kaifeng,Sariwon,Macau,Yamagata,Niigata,Jeju,Pohang,Khovd,Seoul,Taoyuan,Choibalsan,Fukuoka,Harbin,Ulaanbaatar,Ōsaka,Luoyang,Ulsan,Shenyang,Kōbe,Bangkok,Chiang Mai,Da Nang,Hai Phong,Quy Nhon,Hue,Bago,Fangchenggang,Nha Trang,Phan Thiet,Phongsali,Pursat,Chiềng Mai,Nanning,Yangon,Takeo,Savannakhet,Kunming,Vientiane,Phnom Penh,Chiang Rai,Chonburi,Kampong Cham,Chiềng Rạ,Myitkyina,Hat Yai,Taunggyi,KhalkhaMongoliank,KhalkhaMongoliant,KhalkhaMongolianp,KhalkhaMongolianm,KhalkhaMongoliann,KhalkhaMongolians,KhalkhaMongolianr,KhalkhaMongolianl,KhalkhaMongoliand,KhalkhaMongoliang,KhalkhaMongolianb",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Lao-Phutai",
+    "i": 202486,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "Lao-Phutai,Padang Panjang,Ca Mau,Chumphon,Hanoi,Serang,Singapore,Ha Giang,Ben Tre,Ternate,Can Tho,Bogor,Pasir Ris,Pakse,Lao Cai,Quezon City,Quy Nhon,Mandalay,Bandung,Baguio,Kratie,Lashio,Thanh Hoa,Bandar Seri Begawan,Yogyakarta,Malacca,Poipet,Baucau,Bangkok,Chiang Mai,Bago,Vientiane,Rach Gia,Hue,Da Lat,Savannakhet,Battambang,Ho Chi Minh City,Fangchenggang,Pursat,Nakhon Ratchasima,Điện Biên Phủ,Phongsali,Kampot,Naypyidaw,Chonburi,Kunming,Haikou,Phnom Penh,Nanning,Surat Thani,Kampong Cham,LaoPhutaik,LaoPhutait,LaoPhutaip,LaoPhutaim,LaoPhutain,LaoPhutais,LaoPhutair,LaoPhutail,LaoPhutaid,LaoPhutaig,LaoPhutaib",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Larantuka Malay",
+    "i": 202487,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "Larantuka Malay,Hai Phong,Ben Tre,Tampines,Payakumbuh,Ha Giang,Angeles,Da Lat,Bandar Lampung,Surabaya,Hpa-An,Hoa Binh,Tomohon,Thai Binh,Surat Thani,Makassar,Nakhon Si Thammarat,Sisophon,Samarinda,Siem Reap,Vientiane,Manado,Zamboanga,Putao,Phongsali,Kampot,General Santos,Pekanbaru,Davao,Tulagi,Denpasar,Quezon City,Bandung,Majuro,Munda,Kolonia,Bangar,Muara,Jaluit,Cebu City,Palikir,Kota Kinabalu,Kuching,Ipoh,Singapore,Shah Alam,Rabaul,Ba,Tutong,Jerudong,Ngerulmud,LarantukaMalayk,LarantukaMalayt,LarantukaMalayp,LarantukaMalaym,LarantukaMalayn,LarantukaMalays,LarantukaMalayr,LarantukaMalayl,LarantukaMalayd,LarantukaMalayg,LarantukaMalayb",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Mymensinghi Bengali",
+    "i": 202539,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "Mymensinghi Bengali,Thimphu,Aurangabad,Tirupati,Tiruchirappalli,Lalitpur,Mangalore,Jamshedpur,Kochi,Srinagar,Dehradun,Colombo,Agra,Kolhapur,Lucknow,Sylhet,Islamabad,Mapusa,Ratnapura,Khanewal,Nashik,Sialkot,Kohima,Amritsar,Chaman,Karachi,Jaipur,Bhopal,Jabalpur,Guwahati,Chennai,Aizawl,Nagpur,Delhi,Dimapur,Madurai,Imphal,Dibrugarh,Panaji,Faridabad,Gwalior,Silchar,Kolkata,Allahabad,Mysore,Rourkela,Ahmedabad,Bhubaneswar,Pune,MymensinghiBengalik,MymensinghiBengalit,MymensinghiBengalip,MymensinghiBengalim,MymensinghiBengalin,MymensinghiBengalis,MymensinghiBengalir,MymensinghiBengalil,MymensinghiBengalid,MymensinghiBengalig,MymensinghiBengalib",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Northern Thai",
+    "i": 202556,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "Northern Thai,Ho Chi Minh City,Payakumbuh,Jurong,Poipet,Tra Vinh,Bandar Lampung,Hue,Phuket,Ang Mo Kio,Tomohon,Son La,Tebing Tinggi,Vinh,Kratie,Medan,Samarinda,Lomphat,Pakse,Ha Long,Zamboanga,Denpasar,Mandalay,Lashio,General Santos,Sihanoukville,Banjarmasin,Bangar,Da Lat,Quy Nhon,Nha Trang,Hanoi,Rach Gia,Pathein,Taunggyi,Hat Yai,Xieng Khouang,Hai Phong,Sam Neua,Takeo,Kampong Cham,Kampot,Macau,Fangchenggang,Điện Biên Phủ,Guilin,Vientiane,Can Tho,Thakhek,Pattaya,Haikou,NorthernThaik,NorthernThait,NorthernThaip,NorthernThaim,NorthernThain,NorthernThais,NorthernThair,NorthernThail,NorthernThaid,NorthernThaig,NorthernThaib",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Oirat Mongolian",
+    "i": 202565,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "Oirat Mongolian,Dongguan,Changwon,Nantou,Uliastai,Rason,Kanazawa,Kaifeng,Nara,Kimchaek,Yamagata,Anyang,Khovd,Sükhbaatar,Thetford Mines,Foshan,Hohhot,Kaesong,Matsuyama,Darkhan,Wuhan,Jeju,Hsinchu,Busan,Kōbe,Sendai,Nanjing,Chengdu,Sam Neua,Pakse,My Tho,Quy Nhon,Phongsali,Phan Thiet,Pursat,Guilin,Hat Yai,Rach Gia,Hai Phong,Lào Cai,Kampong Cham,Shantou,Luang Prabang,Nha Trang,Mandalay,Khon Kaen,Hà Giang,Macau,Hanoi,Battambang,Udon Thani,Bangkok,Nanning,Yangon,Haikou,OiratMongoliank,OiratMongoliant,OiratMongolianp,OiratMongolianm,OiratMongoliann,OiratMongolians,OiratMongolianr,OiratMongolianl,OiratMongoliand,OiratMongoliang,OiratMongolianb",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Pahari (Sino-Tibetan)",
+    "i": 202575,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "Pahari (Sino-Tibetan),Bayanhongor,Gwangju,Jeju,Dongguan,Hualien,Taitung,Rason,Erdenet,Choibalsan,Tuen Mun,Kaifeng,Thetford Mines,Yamagata,Hohhot,Khovd,Uliastai,Ansan,Tianjin,Hangzhou,Taiyuan,Taipei,Hefei,Aomori,Shanghai,Chengdu,Guilin,Tainan,Hyderabad,Aurangabad,Dharan,Ahmedabad,Bhopal,Bhubaneswar,Coimbatore,Ghaziabad,Dharamshala,Dimapur,Patna,Imphal,Vadodara,Kochi,Lalitpur,Bangalore,Mangalore,Aizawl,Jabalpur,Panaji,Kozhikode,Leh,Kolkata,Ludhiana,Chandigarh,Mysore,Tiruchirappalli,Paharik,Paharit,Paharip,Paharim,Paharin,Paharis,Paharir,Paharil,Paharid,Paharig,Paharib",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Sri Lankan Portuguese Creole",
+    "i": 202653,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "Sri Lankan Portuguese Creole,Spanish Town,Chaguanas,Tunapuna,Micoud,St. John's,Gonaïves,Five Cays,Roseau,Holetown,Road Town,Speightstown,Freeport,Charlestown,English Harbour,Anegada,North Side,Les Cayes,Dennery,Mandeville,Bellem,Santa Rosa,Plymouth,St. George's,Soufrière,Puerto Plata,Liberta,Gouyave,Palermo,Lyon,Bilbao,Madrid,Nantes,Basel,Frankfurt,Málaga,Warsaw,Västerås,Lisbon,Birmingham,Hamburg,Leipzig,Bologna,Maastricht,Paris,Florence,Reykjanesbær,Tromsø,Nice,Rome,Szczecin,Linz,Turin,Uppsala,Edinburgh,SriLankanPortugueseCreolek,SriLankanPortugueseCreolet,SriLankanPortugueseCreolep,SriLankanPortugueseCreolem,SriLankanPortugueseCreolen,SriLankanPortugueseCreoles,SriLankanPortugueseCreoler,SriLankanPortugueseCreolel,SriLankanPortugueseCreoled,SriLankanPortugueseCreoleg,SriLankanPortugueseCreoleb",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Standard Tibetan",
+    "i": 202654,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "Standard Tibetan,Yuen Long,Nagasaki,Kanazawa,Kanggye,Dongguan,Ölgii,Mörön,Tsetserleg,Altai,Changwon,Chiayi,Nantou,Yamagata,Sariwon,Songrim,Nara,Hong Kong,Luoyang,Changchun,Osaka,Fukushima,Suzhou,Erdenet,Uliastai,Qingdao,Chongqing,Saitama,Zhaotong,Kunming,Rishikesh,Nagqu,Chamdo,Zhongdian,Jowai,Gangtok,Lhasa,Rhenock,Lijiang,Nyingchi,Sarchu,Jakar,Thimphu,Melli,Batang,Shillong,Kangding,Chuxiong,Trashigang,Trongsa,Xichong,Weixi,Garzê,Mawlai,Pithoragarh,StandardTibetank,StandardTibetant,StandardTibetanp,StandardTibetanm,StandardTibetann,StandardTibetans,StandardTibetanr,StandardTibetanl,StandardTibetand,StandardTibetang,StandardTibetanb",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Western Khmer",
+    "i": 202727,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "Western Khmer,Ho Chi Minh City,Payakumbuh,Jurong,Poipet,Tra Vinh,Bandar Lampung,Hue,Phuket,Ang Mo Kio,Tomohon,Son La,Tebing Tinggi,Vinh,Kratie,Medan,Samarinda,Lomphat,Pakse,Ha Long,Zamboanga,Denpasar,Mandalay,Lashio,General Santos,Sihanoukville,Banjarmasin,Bangar,Phan Thiet,Hanoi,Nakhon Ratchasima,Khon Kaen,Shantou,Savannakhet,Can Tho,Rach Gia,Haikou,Sam Neua,Battambang,Điện Biên Phủ,Luang Prabang,Qionghai,Mawlamyine,Hong Kong,Surat Thani,Takeo,Danzhou,Yangon,Wuzhou,Phongsali,Chiang Rai,Hat Yai,WesternKhmerk,WesternKhmert,WesternKhmerp,WesternKhmerm,WesternKhmern,WesternKhmers,WesternKhmerr,WesternKhmerl,WesternKhmerd,WesternKhmerg,WesternKhmerb",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Nao Klao",
+    "i": 202837,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "Nao Klao,Agra,Mymensingh,Visakhapatnam,Madurai,Lucknow,Jhang,Thinadhoo,Agartala,Karachi,Sialkot,Trincomalee,Hyderabad,Aurangabad,Mumbai,Chennai,Panaji,Ghaziabad,Chandigarh,Shikarpur,Imphal,Rajahmundry,Dhanbad,Varanasi,Bhubaneswar,Haridwar,Warangal,Nashik,Chiang Mai,Da Lat,Haikou,Sam Neua,Phnom Penh,Sanya,Naypyidaw,Pursat,Nakhon Ratchasima,Liuzhou,Bago,Phongsali,Vientiane,Da Nang,Pakse,Điện Biên Phủ,Battambang,Chiang Rai,Pathein,Yangon,Xieng Khouang,Myitkyina,Beihai,Sihanoukville,Hanoi,Mandalay,Vinh,NaoKlaok,NaoKlaot,NaoKlaop,NaoKlaom,NaoKlaon,NaoKlaos,NaoKlaor,NaoKlaol,NaoKlaod,NaoKlaog,NaoKlaob",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Swabian German",
+    "i": 203034,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "Swabian German,Plzeň,Glasgow,Viseu,Mogilev,Bordeaux,Esch-sur-Alzette,Prilep,Mariupol,Lyon,Kumanovo,Nyíregyháza,Reims,Trondheim,Hannover,Omagh,Armagh,Mykolaiv,Rijeka,Pärnu,Tallinn,Thessaloniki,Bonn,Bruges,Belgrade,Innsbruck,Brno,Barcelona,Copenhagen,Liège,Leoben,Bologna,Hamburg,Seville,Montreux,Bristol,Granada,Marseille,Venice,Aveiro,Nantes,Strasbourg,Milan,Kópavogur,Rome,Örebro,Bilbao,Malmö,Turin,Gdansk,Vejle,SwabianGermank,SwabianGermant,SwabianGermanp,SwabianGermanm,SwabianGermann,SwabianGermans,SwabianGermanr,SwabianGermanl,SwabianGermand,SwabianGermang,SwabianGermanb",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Haflong Hindi",
+    "i": 202267,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "Haflong Hindi,Hyderabad,Kochi,Pune,Dehradun,Rishikesh,Agra,Madurai,Visakhapatnam,Sylhet,Lucknow,Agartala,Jacobabad,Khanewal,Rawalpindi,Quetta,Aurangabad,Jaipur,Bogra,Karachi,Margao,Coimbatore,Thatta,Siliguri,Dhaka,Aizawl,Varanasi,Dhanbad,Allahabad,Bhopal,Jabalpur,Chandigarh,Gangtok,Kozhikode,Guwahati,Gwalior,Dimapur,Itanagar,Ghaziabad,Rangpur,Mangalore,Thiruvananthapuram,Biratnagar,Panaji,Chennai,Srinagar,Ludhiana,Warangal,Surat,Tiruchirappalli,HaflongHindik,HaflongHindit,HaflongHindip,HaflongHindim,HaflongHindin,HaflongHindis,HaflongHindir,HaflongHindil,HaflongHindid,HaflongHindig,HaflongHindib",
     "status": "COMPLETE"
   }
 ];
