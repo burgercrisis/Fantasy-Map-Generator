@@ -2264,24 +2264,6 @@ window.southAmericaNameBases = [
     "b": "Temuco,Pucon,Villarrica,Valdivia,Osorno,Angol,Collipulli,Ercilla,Traiguen,Victoria,Lautaro,NuevaImperial,Carahue,Gorbea,Loncoche,Pitrufquen,Freire,Cunco,Melipeuco,Curarrehue,Renaico,Mulchen,Nacimiento,Contulmo,Lumaco,Cholchol,Saavedra,Tolten,TeodoroSchmidt,BudI,AraucaniaRegion,PadreLasCasas,Galvarino,Curacautin,Lonquimay,LicanRay,Conaripe,Quillon,Bulnes,Chillan,SanCarlos,Parral,Retiro,Longavi,Linares,Colbun,YerbasBuenas,Constitucion,Chanco,Pelluhue,Curanipe,Cobquecura,Quirihue,Ninhue,SanNicolas,Ranquil,Portezuelo,ChillanViejo,Pinto,Pemuco,ElCarmen,SanFabian,SanIgnacio,Quilleco,Quilaco,SantaBarbara,Negrete,LosAngeles,Yumbel,Tucapel,Cabrero,Florida,Laja,Concepcion,Penco,Tome,Talcahuano,Hualpen,Chiguayante,SanPedroDeLaPaz,Hualqui,Canete,Lebu,Arauco,Curanilahue,LosAlamos,SanMartinDeLosAndes,JuninDeLosAndes,SanCarlosDeBariloche,VillaLaAngostura,VillaPehuenia,Alumine,Leleque,Esquel,Cholila,Trevelin,Gualjaina,Comallo,NahuelHuapi,Maullin,Calbuco,Ancud,Castro,Quellon,Chonchi,PuertoVaras,Llanquihue,Fresia"
   },
   {
-    "name": "Kiche",
-    "i": 20225,
-    "min": 4,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "SantaCruzDelQuiche,ElQuiche,Chichicastenango,Chinique,Cunen,Joyabaj,Zacualpa,Chicaman,Pachalum,SanAndresSajcabaja,SanAntonioIlotenango,SanBartoloJocotenango,SanMiguelUspantan,SanPedroJocopilas,Quetzaltenango,Totonicapan,Momostenango,SanAndresXecul,SanCristobalTotonicapan,SanFranciscoElAlto,SantaMariaChiquimula,Nahuala,SantaLuciaUtatlan,Solola,Cantel,Zunil,Almolonga,Salcaja,Olintepeque,Quetzaltepeque,Cubulco,Rabinal,SanMiguelChicaj,SantaClaraLaLaguna,Samayac,Mazatenango,Sacapulas,Canilla,Uspantan,Patzite,SanBartolome,Jocotenango,Quiche,SanJuanCotzal,Nebaj,Chajul,SantoDomingoXenacoj,SanAndresSemetabaj"
-  },
-  {
-    "name": "Kaqchikel",
-    "i": 20226,
-    "min": 4,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Tecpan,Patzun,Patzicia,SanJosePoaquil,SanMartinJilotepeque,SanAndresItzapa,SanMiguelPochuta,SanPedroYepocapa,SanJuanComalapa,Chimaltenango,ElTejar,Pochuta,Yepocapa,Parramos,Acatenango,Sumpango,Jocotenango,SantaCruzBalanya,Alotenango,MagdalenaMilpasAltas,SanAntonioAguasCalientes,SanBartolomeMilpasAltas,SanLucasSacatepequez,SanMiguelDuenas,SantaCatarinaBarahona,SantaLuciaMilpasAltas,SantaMariaDeJesus,SantiagoSacatepequez,SantoDomingoXenacoj,Chuarrancho,SanJuanSacatepequez,SanPedroAyampuc,SanPedroSacatepequez,SanRaimundo,Panajachel,SanAndresSemetabaj,SanAntonioPalopo,SanJoseChacaya,SantaCatarinaPalopo,SantaCruzLaLaguna,SanMarcosLaLaguna,Solola,SanAntonioSuchitepequez,SanJuanBautista,Patulul,SantaCruzElChol,Iximche,Concepcion,AntiguaGuatemala,CiudadVieja,SantoTomasChichicastenango"
-  },
-  {
     "name": "Tzeltal",
     "i": 20227,
     "min": 4,

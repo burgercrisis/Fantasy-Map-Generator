@@ -1998,42 +1998,6 @@ window.oceaniaNameBases = [
     "b": "Taiohae,Atuona,Vaipaee,Hakahau,Taipivai,Hatiheu,Omoa,Vaitahu,Aakapa,Puamau,Hanavave,Anaho,Haakuti,Taaoa,Vaipae,e,Hakamaii"
   },
   {
-    "name": "Rapa Nui",
-    "i": 20214,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Hanga Roa,Hanga Piko,Hanga Roa Otai,Hanga Vare Vare,Pea,Anakena,Vaihu,Akahanga,Tongariki,Ovahe,Rano Raraku,Orongo"
-  },
-  {
-    "name": "Chamorro",
-    "i": 20215,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Hagatna,Dededo,Yigo,Tamuning,Mangilao,Barrigada,Agat,Santa Rita,Chalan Pago,Sinajana,Agana Heights,Asan-Maina,Piti,Talofofo,Inarajan,Merizo,Umatac,Yona,Talisayan,Mongmong,Toto,Maite,Tumon,Latte,Anigua,Maina,Asan,Tiyan,Ordot,Saipan,Garapan,San Jose,Tanapag,Chalan Kanoa,San Antonio,San Vicente,Koblerville,Capitol Hill,Susupe,Oleai,Kagman,San Roque,Kanat Tabla,Talufofo,Tagpochau,Achugao,As Matuis,Capital Hill,Garapan Village,Gualo Rai,Chalan Piao,Maturana Hill,As Perdido,Sugar King"
-  },
-  {
-    "name": "Marshallese",
-    "i": 20216,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Majuro,Ebeye,Jaluit,Arno,Wotje,Ailinglaplap,Maloelap,Mili,Utirik,Ujae,Lae,Rongelap,Rongerik,Bikini,Enewetak,Ujelang,Likiep,Mejit,Aur,Wotho,Kwajalein,Namorik,Namu,Ebon,Lib,Ailuk,Jabat,Kili,Rita,Laura,Marshall Islands,Delap,Uliga,Djarrit,Ajeltake,Rairok,Woja,Long Island,Ine,Taroa,Imiej,Enejet"
-  },
-  {
-    "name": "Palauan",
-    "i": 20217,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Ngerulmud,Koror,Airai,Meyungs,Malakal,Ngermid,Imeong,Ngetkib,Ngerkeai,Ngardmau,Aimeliik,Ngatpang,Angaur,Peleliu,Kayangel,Sonsorol,Hatohobei,Melekeok,Ngchesar,Ngiwal,Ngaraard,Ngarchelong,Ngeremlengui,Oikull,Ngeruluobel,Ngerusar,Medorm,Ngchemiangel,Mongami,Ngersuul,Ulimang,Mengellang,Imul,Kloulklubed,Ngaramasch,Arakabesan,Chelbacheb,Ngerbeched,Eil Malk,Rois"
-  },
-  {
     "name": "Chuukese",
     "i": 20218,
     "min": 4,
