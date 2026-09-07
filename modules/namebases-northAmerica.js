@@ -130,16 +130,6 @@ window.northAmericaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Inuktitut",
-    "i": 728,
-    "min": 4,
-    "max": 16,
-    "d": "lnrt",
-    "m": 0.02,
-    "b": "Iqaluit,Arviat,Qamani'tuaq,Iqaluktuuttiaq,Ikpiarjuk,Kinngait,Igluligaarjuk,Kangiqtugaapik,Uqsuqtuuq,Aujuittuq,Sanirajak,Iglulik,Kimmirut,Kugaaruk,Kugluktuk,Nanisivik,Pangniqtuuq,Mittimatalik,Qikiqtarjuaq,Kangiqiniq,Naujaat,Qausuittuq,Sanikiluaq,Taloyoak,Tikirarjuaq,Ukkusiksalik,Kuujjuaq,Inukjuak,Puvirnituq,Akulivik,Aupaluk,Ivujivik,Kangiqsualujjuaq,Kangiqsujuaq,Kangirsuk,Kuujjuarapik,Umiujaq,Quaqtaq,Salluit,Tasiujaq",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Acadian",
     "i": 765,
     "min": 4,
@@ -650,16 +640,6 @@ window.northAmericaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Apache",
-    "i": 2074,
-    "min": 7,
-    "max": 15,
-    "d": "",
-    "m": 0.23,
-    "b": "Fort Apache,Whiteriver,Cibecue,Carrizo,McNary,Hon-Dah,Hondah,San Carlos,Bylas,Peridot,Dzil Nchaa Si An,White River,Black River,Cedar Creek,Pinal Creek,Canyon Day,Turkey Creek,Seven Mile,North Fork,East Fork,Rainbow City,Gilson Wash,Dulce,T'iis Nazbas,Tseshin Tehil,Tsezhin Tehil,Tsii'edo'a'iil",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Athabaskan",
     "i": 2075,
     "min": 4,
@@ -746,16 +726,6 @@ window.northAmericaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Coban,San Pedro Carcha,San Juan Chamelco,San Cristobal Verapaz,Tactic,Tamahu,Fray Bartolome de las Casas,Chahal,Senahu,Cahabon,Chisec,Poptun,San Luis,Peten,Sayaxche,Dolores,San Francisco,El Estor,Livingston,Morales,Punta Gorda",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Kiche",
-    "i": 2549,
-    "min": 25,
-    "max": 40,
-    "d": "lnrt",
-    "m": 2,
-    "b": "Santa Cruz del Quiché,El Quiché,Chichicastenango,Chinique,Cunén,Joyabaj,Zacualpa,Chicamán,Pachalum,San Andrés Sajcabajá,San Antonio Ilotenango,San Bartolo Jocotenango,San Miguel Uspantán,San Pedro Jocopilas,Q'umarkaj,Gumarcaj,Utatlán,Totonicapán,Momostenango,San Andrés Xecul,San Cristóbal Totonicapán,San Francisco el Alto,Santa María Chiquimula,Nahualá,Santa Lucía Utatlán,Sololá,Cantel,Zunil,Almolonga,Salcajá,Olintepeque,Quetzaltepeque,Cubulco,Rabinal,San Miguel Chicaj,Santa Clara La Laguna,Samayac,Mazatenango",
     "status": "COMPLETE"
   },
   {
@@ -2049,16 +2019,6 @@ window.northAmericaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Arapaho",
-    "i": 201020,
-    "min": 4,
-    "max": 18,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Wind River Reservation,Arapahoe,Fremont,Thermopolis,Cody,Riverton,Mills,Lander,Wyoming,Cheyenne,Laramie,Rawlins,Casper,Gillette,Sheridan,Buffalo,Evanston,Green River,Jackson,Pinedale,Kemmerer,Dubois,Fort Washakie,Crowheart,Johnstown,Hudson,Jeffrey City,Shoshoni,Boulder,Ethete,Rock Springs",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Coast Tsimshian (Sm'algyax)",
     "i": 201021,
     "min": 4,
@@ -2196,16 +2156,6 @@ window.northAmericaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Navojoa,Etchojoa,Huajicori,Bamoa,San Luis,Conicari,Tetaroba,Cocorit,Camargo,Tehueco,Masiaca",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Zuni",
-    "i": 201036,
-    "min": 4,
-    "max": 15,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Zuni Pueblo,Black Rock,Nutria,Pescado,Ojo Caliente,Bluewater,Corn Mountain,Dowa Yalanne,Taaiyalone,Kolhu/wala:wa,Ahayu:da,Heshoda Yala:wat,Halona:wa,Kyakima,Binanne:wa,Bebilapitya,Kemna,Matsaki,Shopakia,He'nachi,Tekanthisa,Shupinna,Detsak,Thibede,Leyaladenkya,Pine Springs",
     "status": "COMPLETE"
   },
   {
@@ -2465,36 +2415,6 @@ window.northAmericaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Media Lengua",
-    "i": 202275,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Media Lengua,Labasa,Trobriand,Ngerulmud,Denigomodu,Nibok,Bikenibeu,Majuro,Kimbe,Hamilton,Abaiang,Lifou,Ohonua,Auki,Vava'u,Rabaul,Noumea,Popondetta,Kairuku,Vaitupu,Tabiteuea,Baiti,Weno,Punaauia,Wewak,Bouaké,Ziguinchor,Bissau,Banjul,Man,Bobo-Dioulasso,Kano,Daloa,Kumba,Basse,Nouakchott,Nzérékoré,Lafia,Bafatá,Gusau,Koidu,Katsina,Thiès,Bamenda,Niamey,Kaolack,Dakar,Malabo,Tema,Lomé,Mopti,Porto-Novo,MediaLenguak,MediaLenguat,MediaLenguap,MediaLenguam,MediaLenguan,MediaLenguas,MediaLenguar,MediaLengual,MediaLenguad,MediaLenguag,MediaLenguab",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Ndyuka-Tiriyó Pidgin",
-    "i": 202282,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Ndyuka-Tiriyó Pidgin,Kavieng,Mount Hagen,Belep,Kimbe,Tulagi,Baiti,Havelu,Yap,Hobart,Tabiteuea,Huahine,Nibok,Tanna,Pangai,Angaur,Buna,Lae,Uaboe,Denigomodu,Abaiang,Kwajalein,Rabaul,Gustavia,San Juan,Castries,Portsmouth,Saint-Marc,Mandeville,Port Antonio,Fort-Liberté,Basseterre,Montego Bay,Spanish Town,Point Fortin,Les Cayes,Ocho Ríos,Holetown,Maho Reef,Andros Town,Cap-Haïtien,Jacmel,Matanzas,Port-au-Prince,Oistins,Gonaïves,Bridgetown,Montaña,Holguín,Cienfuegos,Crane,Tortola,Alice Town,Bathsheba,NdyukaTiriyPidgink,NdyukaTiriyPidgint,NdyukaTiriyPidginp,NdyukaTiriyPidginm,NdyukaTiriyPidginn,NdyukaTiriyPidgins,NdyukaTiriyPidginr,NdyukaTiriyPidginl,NdyukaTiriyPidgind,NdyukaTiriyPidging,NdyukaTiriyPidginb",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Pidgin Ngarluma",
-    "i": 202288,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Pidgin Ngarluma,Uaboe,Sigatoka,Kokoda,Kosrae,Popondetta,Palau,Samamea,Tabiteuea,Jaluit,Nibok,Dunedin,Kimbe,Faaa,Pentecost,Abaiang,Daru,Weno,Canala,Mare,Ok Tedi,Rabaul,Nui,Pangai,Kairuku,Pohnpei,Canberra,Kokopo,Hastings,West End,Port Antonio,Nassau,Port-au-Prince,Oranjestad,Mandeville,Jacmel,Havana,Jérémie,Alice Town,Saint-Marc,Philipsburg,Simpson Bay,Bridgetown,Marsh Harbour,San Fernando,Arima,Crane,Holguín,Harbour Island,Cap-Haïtien,Santa Cruz,Sint Willibrordus,Holetown,Speightstown,Santa Clara,PidginNgarlumak,PidginNgarlumat,PidginNgarlumap,PidginNgarlumam,PidginNgarluman,PidginNgarlumas,PidginNgarlumar,PidginNgarlumal,PidginNgarlumad,PidginNgarlumag,PidginNgarlumab",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Pretoria Sotho",
     "i": 202291,
     "min": 4,
@@ -2522,26 +2442,6 @@ window.northAmericaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Zuwara Berber",
-    "i": 202319,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Zuwara,Regdalin,Ajaylat,Al-Jmail,Zaltan,Abu Kammash,Jumayl",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Arapaho",
-    "i": 202320,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Ethete,Arapahoe,St. Stephens,Riverton,Fort Washakie,Canton,Geary,El Reno,Concho,Watonga,Hammon,Clinton",
     "status": "COMPLETE"
   },
   {

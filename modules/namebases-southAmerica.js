@@ -2156,42 +2156,6 @@ window.southAmericaNameBases = [
     "b": "Temuco,Pucon,Villarrica,Valdivia,Osorno,Angol,Collipulli,Ercilla,Traiguen,Victoria,Lautaro,NuevaImperial,Carahue,Gorbea,Loncoche,Pitrufquen,Freire,Cunco,Melipeuco,Curarrehue,Renaico,Mulchen,Nacimiento,Contulmo,Lumaco,Cholchol,Saavedra,Tolten,TeodoroSchmidt,BudI,AraucaniaRegion,PadreLasCasas,Galvarino,Curacautin,Lonquimay,LicanRay,Conaripe,Quillon,Bulnes,Chillan,SanCarlos,Parral,Retiro,Longavi,Linares,Colbun,YerbasBuenas,Constitucion,Chanco,Pelluhue,Curanipe,Cobquecura,Quirihue,Ninhue,SanNicolas,Ranquil,Portezuelo,ChillanViejo,Pinto,Pemuco,ElCarmen,SanFabian,SanIgnacio,Quilleco,Quilaco,SantaBarbara,Negrete,LosAngeles,Yumbel,Tucapel,Cabrero,Florida,Laja,Concepcion,Penco,Tome,Talcahuano,Hualpen,Chiguayante,SanPedroDeLaPaz,Hualqui,Canete,Lebu,Arauco,Curanilahue,LosAlamos,SanMartinDeLosAndes,JuninDeLosAndes,SanCarlosDeBariloche,VillaLaAngostura,VillaPehuenia,Alumine,Leleque,Esquel,Cholila,Trevelin,Gualjaina,Comallo,NahuelHuapi,Maullin,Calbuco,Ancud,Castro,Quellon,Chonchi,PuertoVaras,Llanquihue,Fresia"
   },
   {
-    "name": "Kiche",
-    "i": 20091,
-    "min": 4,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "SantaCruzDelQuiche,ElQuiche,Chichicastenango,Chinique,Cunen,Joyabaj,Zacualpa,Chicaman,Pachalum,SanAndresSajcabaja,SanAntonioIlotenango,SanBartoloJocotenango,SanMiguelUspantan,SanPedroJocopilas,Quetzaltenango,Totonicapan,Momostenango,SanAndresXecul,SanCristobalTotonicapan,SanFranciscoElAlto,SantaMariaChiquimula,Nahuala,SantaLuciaUtatlan,Solola,Cantel,Zunil,Almolonga,Salcaja,Olintepeque,Quetzaltepeque,Cubulco,Rabinal,SanMiguelChicaj,SantaClaraLaLaguna,Samayac,Mazatenango,Sacapulas,Canilla,Uspantan,Patzite,SanBartolome,Jocotenango,Quiche,SanJuanCotzal,Nebaj,Chajul,SantoDomingoXenacoj,SanAndresSemetabaj"
-  },
-  {
-    "name": "Kaqchikel",
-    "i": 20092,
-    "min": 4,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Tecpan,Patzun,Patzicia,SanJosePoaquil,SanMartinJilotepeque,SanAndresItzapa,SanMiguelPochuta,SanPedroYepocapa,SanJuanComalapa,Chimaltenango,ElTejar,Pochuta,Yepocapa,Parramos,Acatenango,Sumpango,Jocotenango,SantaCruzBalanya,Alotenango,MagdalenaMilpasAltas,SanAntonioAguasCalientes,SanBartolomeMilpasAltas,SanLucasSacatepequez,SanMiguelDuenas,SantaCatarinaBarahona,SantaLuciaMilpasAltas,SantaMariaDeJesus,SantiagoSacatepequez,SantoDomingoXenacoj,Chuarrancho,SanJuanSacatepequez,SanPedroAyampuc,SanPedroSacatepequez,SanRaimundo,Panajachel,SanAndresSemetabaj,SanAntonioPalopo,SanJoseChacaya,SantaCatarinaPalopo,SantaCruzLaLaguna,SanMarcosLaLaguna,Solola,SanAntonioSuchitepequez,SanJuanBautista,Patulul,SantaCruzElChol,Iximche,Concepcion,AntiguaGuatemala,CiudadVieja,SantoTomasChichicastenango"
-  },
-  {
-    "name": "Tzeltal",
-    "i": 20093,
-    "min": 4,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Ocosingo,Altamirano,Huixtan,Tenejapa,Yajalon,Chanal,Sitala,AmatenangoDelValle,Chilon,SanJuanCancuc,Oxchuc,Aguacatenango,Bachajon,Guaquitepec,Sibakja,Cancuc,Tzajala,Tenango,Nichinat,Kotolte,Tzajalchen,Matzam,Yashanal,Chixtontic,Chilolja,NichteelSanAntonio,Chancolom,Ococh,SibaniljaPocolum,Chacoma,Majosik,Jomanichim,Palenque,SanCristobalDeLasCasas,Tila,Tumbala,Socoltenango,Soyalo,Bochil,Simojovel,Huitiupan,LasMargaritas,Comitan,LaIndependencia,LasRosas,Acala,Suchiapa,Chiapilla"
-  },
-  {
-    "name": "Tzotzil",
-    "i": 20094,
-    "min": 4,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Chamula,Zinacantan,SanAndresLarraninzar,Chenalho,Huixtan,Chalchihuitan,Pantelho,Mitontic,ElBosque,SantiagoElPinar,VenustianoCarranza,Romerillo,Cruzton,Yaltem,Chicumtantic,Nichnamtic,Muquen,Majomut,Saclamanton,Catishtic,Cuchulumtic,Tentic,PugchenMumuntic,Tzontehuitz,Navenchauc,Nachig,Apas,Paste,Patosil,Zequentic,Chalam,Tzoeptic,Chimhucum,Oxinam,Chiquinshulum,Joltealal,Yibeljoj,Muken,Jobel,SanCristobalDeLasCasas,SanLucas,SanBartolomeDeLosLlanos,Ixtapa,Suchiapa,Acala,ChiapaDeCorzo,TuxtlaGutierrez"
-  },
-  {
     "name": "Zapotec",
     "i": 20095,
     "min": 4,
@@ -2199,24 +2163,6 @@ window.southAmericaNameBases = [
     "d": "",
     "m": 0,
     "b": "Oaxaca,OaxacaDeJuarez,SanPedroMixtepec,SanPedroPochutla,SanPedroTututepec,SanPedroElAlto,SanPedroTotolapam,SantoDomingoTeojomulco,SanIldefonsoSola,SanIldefonsoAmatlan,SantiagoIxtayutla,SantosReyesNopala,SanSebastianTutla,SanFelipeDelAgua,SanJacintoAmilpas,SantaMariaAtzompa,SanAndresHuayapam,SanPabloEtla,SanSebastianEtla,SantoDomingoTomaltepec,Mitla,Tlacolula,Ejutla,Miahuatlan,Amatlan,BenitoJuarez,Cuajimoloyas,LaNeveria,Lachatao,Latuvi,LlanoGrande,Yavesia,IxtlanDeJuarez,CapulalpamDeMendez,GuelataoDeJuarez,Natividad,SanJuanChicomezuchil,SantiagoXiacui,SanJuanYaee,SanJuanYatzona,SanMiguelYotao,SanPedroYaneri,SanIldefonsoVillaAlta,SantaCatarinaIxtepeji,MonteAlban,Zaachila,Ocotlan,Etla,SanJoseMogote,Zimatlan,Abasolo,Juchitan,Tehuantepec,JalapaDelMarques,Mixtequilla,Xadani,Chihuitan,Laollaga,Yatee,Zoogocho,Yalalag,Tabaa,Cajonos,Choapam,Abejones,Ozolotepec,SantoDomingoOzolotepec,SanCristobalAmatlan"
-  },
-  {
-    "name": "Mixtec",
-    "i": 20096,
-    "min": 4,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Tlaxiaco,Juxtlahuaca,Silacayoapan,HuajuapanDeLeon,Teposcolula,Nochixtlan,SanJuanMixtepec,SanPedroMixtepec,SantaMariaPenoles,SanMiguelElGrande,SanPedroYSanPabloTequixtepec,SanMateoYucutindoo,SanEstebanAtatlahuca,SantiagoYosondua,SantaCruzItundujia,SanAndresDinicuiti,SanJuanDiquiyu,SanMiguelAmatitlan,SanSebastianTecomaxtlahuaca,SanMartinDuraznos,SantoTomasOcotepec,SanAgustinTlacotepec,MagdalenaPenasco,SanJeronimoXayacatlan,SanJuanNumi,SantaMariaYucuhiti,SanAndresYuticachi,SanMartinHuamelulpam,SanPedroMolinos,SanDionisioOcotlan,SantaLuciaMonteverde,SanJuanTeita,SanPedroTopiltepec,SanAndresCabeceraNueva,SanAndresNuxino,SantaMariaYolotepec,SanAntoninoMonteVerde,SanCristobalAmoltepec,SantiagoTamazola,SanMartinDeLosCansecos,SanJuanCieneguilla,SantaMariaApazco,SanFranciscoTelixtlahuaca,SanJuanBautistaCuicatlan,SanPedroJocotipac,SantaMariaNativitas,SanMartinItunyoso,Tlacoatzintepec,Sochiapan,SanPedroYSanPabloAyutla,SanLorenzoCuaunecuiltitlan,SantaMariaJalapaDelMarques,SanJuanJaltepec,SantiagoYolomecatl,SanMateoPinas,SanAndresPaxtlan,SanVicenteNunu,SanFranciscoChapulapa,SantiagoHuajolotitlan,SanMiguelChicahua,SanJuanTepeuxila,Yoloxochitl"
-  },
-  {
-    "name": "Otomi",
-    "i": 20097,
-    "min": 4,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Ixmiquilpan,Tasquillo,Cardonal,SantiagoDeAnaya,Actopan,Ajacuba,AtotonilcoElGrande,MineralDelChico,MineralDelMonte,OmitlanDeJuarez,HuascaDeOcampo,Tulancingo,Acaxochitlan,Metepec,TenangoDeDoria,SanJuanBautistaIxtenco,SantiagoTlazoyaltepec,SanJeronimoAcazulco,SanPedroAtlapulco,SantiagoTilapa,Temascalcingo,Temoaya,SanFelipeSantiago,SanIldefonsoTultepec,SantiagoMexquititlan,Amealco,Toliman,SanNicolasTenango,Texcatepec,Toluca,SanFelipeLosAlzati,SanPablitoPahuatlan,SantaAnaHueytlalpan,Tecozautla,ChapaDeMota,Jilotepec,Acambay,Mezquital,Tula,Mixquiahuala,Progreso,Tepeji,Apaxco,Huehuetoca,Zumpango,Teoloyucan,Coyotepec,MelchorOcampo,Tultepec,Cuautitlan,Tultitlan,SanMartinDeLasPiramides,Teotihuacan,Otumba,Axapusco,Nopaltepec,EmilianoZapata,Juchitepec,Amecameca,Ayapango,Chalco,TenangoDelAire,Ozumba,Atlatlahucan,Tepoztlan"
   },
   {
     "name": "Maya Yucatec",
@@ -2316,15 +2262,6 @@ window.southAmericaNameBases = [
     "d": "",
     "m": 0,
     "b": "Merida,Valladolid,Tizimin,Izamal,Motul,Progreso,Maxcanu,Halacho,Acanceh,Ticul,Oxkutzcab,Teabo,Tekax,Akil,Peto,Tzucacab,Chankom,Chemax,Temozon,Calotmul,Yaxcaba,Espita,Cenotillo,Dzitas,Sotuta,Hoctun,Xocchel,Sudzal,Chichimila,Uayma,Timucuy,Hocaba,Seyche,Tekit,ChichenItza,Piste,Tinum,Cuzama,Homun,Telchac,Sisal,Celestun,Tulum,Coba,Chemuyil,Akumal,PuertoAventuras,PlayaDelCarmen,PuertoMorelos,Cancun,FelipeCarrilloPuerto,Bacalar,Cozumel,Kohunlich,Dzibanche,Chetumal,BelizeCity,Belmopan,SanIgnacio,SanPedro,CayeCaulker,OrangeWalk,Corozal,Dangriga,PuntaGorda,Placencia,Flores,SanBenito,SanAndres,SanJose,Poptun,Sayaxche,MelchorDeMencos,BenqueViejo"
-  },
-  {
-    "name": "Wayuu",
-    "i": 20233,
-    "min": 4,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Maicao,Uribia,Manaure,Riohacha,Albania,Hatonuevo,Barrancas,Fonseca,SanJuanDelCesar,Distraccion,ElMolino,Villanueva,Dibulla,Camarones,PuertoEstrella,Nazaret,LaJaguaDelPilar,Urumita,Mingueo,PuertoLopez,Maracaibo,Cabimas,PuntoFijo,Coro,Barquisimeto,Valencia,Maracay,Caracas,Machiques,SanRafaelDelMojan,LaVillaDelRosario,Sinamaica,Paraguaipoa,Cojoro,Castilletes,PuertoBolivar,Cienaga,Taganga,SantaMarta,Palomino,Buritaca,DonDiego,Guajira,LaMojana,ElTigre,Codazzi,Valledupar,AgustínCodazzi,Becerril,LaJagua,Ibagué,Plato,Ariguani,Fundacion,Ciénaga,Aracataca,PuebloBello,SanDiego,LosPatos,Barranco"
   },
   {
     "name": "Southern-Quechua",

@@ -8260,26 +8260,6 @@ window.africaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Palula",
-    "i": 202579,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Palula,Aba,Parakou,Tsévié,Fada N'Gourma,Gashua,Louga,Koulamoutou,Mekelle,Zaria,Tahoua,Wa,Kumasi,Luba,Cotonou,Faranah,Nzérékoré,Kaolack,Nkongsamba,Sekondi,Moundou,Yendi,Korhogo,Ife,Tema,Oyo,Kurfi,Kakata,Accra,Timbuktu,Bissau,Bobo-Dioulasso,Bouaké,Conakry,Jos,Porto-Novo,Katsina,Gbarnga,Kara,Niamey,Maiduguri,Bamenda,Brikama,Koudougou,Garoua,Ouagadougou,Man,Zinder,Ebebiyín,Bolama,Palulak,Palulat,Palulap,Palulam,Palulan,Palulas,Palular,Palulal,Palulad,Palulag,Palulab",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Pangkhua",
-    "i": 202581,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Pangkhua,Owerri,Sokoto,Aba,Parakou,Thiès,Ebolowa,Kaduna,Louga,Ughelli,Kindia,Ambam,Tahoua,Wa,Okigwe,Gao,Awka,Faranah,Bida,Aksum,Ségou,Yamoussoukro,Moundou,Enugu,Sesheke,Zaria,Timbuktu,Douala,Conakry,Banjul,Bobo-Dioulasso,Dakar,Accra,Koidu,Kankan,Bafatá,Maiduguri,Bouaké,Bafoussam,Mopti,Niamey,Tamale,Lomé,Saint-Louis,Tarrafal,Sunyani,Gusau,Tema,Lafia,Kayes,Pangkhuak,Pangkhuat,Pangkhuap,Pangkhuam,Pangkhuan,Pangkhuas,Pangkhuar,Pangkhual,Pangkhuad,Pangkhuag,Pangkhuab",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Pattapu",
     "i": 202584,
     "min": 4,
@@ -9180,16 +9160,6 @@ window.africaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Anguillian Creole",
-    "i": 202775,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Anguillian Creole,Road Town,Liberta,All Saints,Marigot,Vieux Fort,Tabernacle,Sandy Ground,Governor's Harbour,Arima,Sangre Grande,Kralendijk,Saint James,Philipsburg,Freeport,Portsmouth,Soufrière,Tortola,Salisbury,Victoria,Cockburn Harbour,Old Road,Roseau,Plymouth,San Juan,Trinidad,Port-au-Prince,Brades,Spanish Town,Gustavia,Havana,Ocho Ríos,Gonaïves,Saint-Marc,Mandeville,Fort-Liberté,Montego Bay,Jacmel,Andros Town,Harbour Island,Marsh Harbour,Maho Reef,Falmouth,Nassau,Santiago de Cuba,Chaguanas,Bridgetown,West End,Bathsheba,Oranjestad,Hastings,Oistins,Crane,Montaña,AnguillianCreolek,AnguillianCreolet,AnguillianCreolep,AnguillianCreolem,AnguillianCreolen,AnguillianCreoles,AnguillianCreoler,AnguillianCreolel,AnguillianCreoled,AnguillianCreoleg,AnguillianCreoleb",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Bahamian Creole",
     "i": 202776,
     "min": 4,
@@ -9796,24 +9766,6 @@ window.africaNameBases = [
     "b": "Gao,Timbuktu,Niamey,Dosso,Tillaberi,Ouagadougou,Ansongo,Bourem,Goundam,Dire,Niafunke,Douentza,Hombori,Tindirma,Tonka,Bambara,Maoude,Sarakoira,Bamba,Yangasso,Macina,Sansanding,Djenne,Mopti,Agadez,Ingal,Arlit,Bilma,Dirkou,Fachi,Tahoua,Say,Konni,Madaoua,Gaya,Diffa,Nguigmi,Maradi,Zinder,Abala,Abalak,Aguie,Birni,Ngaoure,Nkonni,Dakoro,Dogondoutchi,Filingue,Gazaoua,Goure,Illela,Kollo,Magaria,Maine-Soroa,Matameye,Mayahi,Mirriah,Ouallam,Tanout,Tchintabaraden,Tera,Tessaoua,Tibiri,Balleyara,Ayourou,Aderbissinat,Iferouane,In-Gall,Timia,Bouza,Keita,Malbaza,Galmi,Tounfafi,Koutoumbou,Bani-Bangou,Diagorou,Karma,Bankilare,Torodi,Damana,Tondikiwindi,Guidanroumdji"
   },
   {
-    "name": "Bamileke",
-    "i": 24775,
-    "min": 4,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Bafoussam,Dschang,Bandjoun,Mbouda,Bafang,Baham,Bansoa,Galim,Magba,Batcham,Foumban,Foumbot,Nkamsi,Bangangte,Tonga,Kekem,Koutaba,Penka-Michel,Nkong-Zem,Njimom,Santchou,Fongo-Tongo,Massangam,Malentouen,Kouoptamo,Babadjou,Fokoue,Bangou,Bamendjou,Bana,Bandja,Bandoumka,Banka,Banwa,Bassamba,Bati,Batie,Bazou,Bayangam,Baleng,Bamougoum,Bafoussam I,Bafoussam II,Bafoussam III,Bandenkop,Bandounga,Baworo,Mboum,Bandrefam,Banti,Batoufam,Mega,Mbengwi,Bambalang,Balikumbat,Bagam,Balessing,Bamendjing,Bamessingue,Bapi"
-  },
-  {
-    "name": "Ewondo",
-    "i": 24776,
-    "min": 4,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Yaounde,Mbalmayo,Mfou,Obala,Bafia,Mbandjock,Nanga-Eboko,Monatele,Sa-a,Okola,Mbankomo,Bikok,Ngoumou,Akono,Ayos,Akonolinga,Esse,Soa,Nkolafamba,Afanloum,Awae,Edzendouan,Olanguina,Ntui,Batchenga,Ebebda,Elig-Mfomo,Evodoula,Lobo,Nkoteng,Minta,Nsem,Bibey,Lembe-Yezoum,Deuk,Kiiki,Kon-Yambetta,Makenene,Ndikinimeki,Nitoukou,Ombessa,Eséka,Boumnyebel,Dibang,Messondo,Matomb,Makak,Bot-Makak,Mengang,Endom,Kobdombo,Ngomedzap,Nkolmetet,Dzeng,Mengueme,Akoeman,Ngog-Mapubi,Biyouha,Bondjock"
-  },
-  {
     "name": "Bemba",
     "i": 24777,
     "min": 4,
@@ -9877,15 +9829,6 @@ window.africaNameBases = [
     "b": "Narok,Kajiado,Ngong,Ongata,Rongai,Kitengela,Isinya,Namanga,Loitokitok,Emali,Sultan,Hamud,Mtito,Andei,Voi,Taveta,Mwatate,Wundanyi,Mariakani,Kinango,Kwale,Lunga,Mpeketoni,Lamu,Faza,Witu,Hindi,Kipini,Garsen,Ololaimutia,Sekenani,Talek,Aitong,Narosura,Lemek,Kilgoris,Suswa,Ololulunga,Ewuaso,Naimina,Enkiama,Oleshariki,Olmesutye,Keekonyokie,Maparasha,Ilbissil,Magadi,Entasopia,Oldonyo,Sambu,Imbirikani,Maua,Isiolo,Marsabit,Sololo,North,Horr,Laisamis"
   },
   {
-    "name": "Makhuwa",
-    "i": 24785,
-    "min": 4,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Nampula,Angoche,Nacala,Monapo,Meconta,Malema,Ribau,Gurue,Mocuba,Alto,Molocue,Lalaua,Murrupula,Mecuburi,Muecate,Erati,Nacaroa,Namapa,Iapala,Mogovolas,Moma,Mogincual,Quissimajulo,Muatua,Namacurra,Maganja,Canteza,Nametil,da,Costa,Milange,Namarroi,Lichinga,Cumba,Cuamba,Maua,Mecanhelas,Mandimba,Mavago,Massangena,Chifunde,Tete,Moatize,Changara,Cahora,Bassa,Manica,Chimoio,Vila,Fontes,Mahate,Beira,Dondo,Nhamatanda,Chinde"
-  },
-  {
     "name": "Sena",
     "i": 24786,
     "min": 4,
@@ -9938,15 +9881,6 @@ window.africaNameBases = [
     "d": "",
     "m": 0,
     "b": "Alhoceima,Nador,Tetouan,Chefchaouen,Ouezzane,Taounate,Taza,Imzouren,Bnibouayach,Targuist,Ajdir,Ait,youssef,ouali,Bni,Hadifa,Imrabten,Issaguen,Ketama,Taghzout,Senada,Tifarouine,Bouifrour,Driouch,Midar,AlAaroui,Ansar,Zaio,Zeghanghane,Selouane,Afsou,Arekmane,Chiker,Hassiberkane,Ihaddadene,Iksane,Raskebdana,Saidia,Oujda,Berkane,Ahfir,Madagh,Taourirt,Tanger,Asilah,Larache,Moulay,Bousselham,Soukelarbades,Ksarelkebir,Sidikacem,Mechrabelsikri,Tissa,Zoumi,Teroual,Fifi,Mokrisset,Babtaza,Derdara,Babberred,Martil,Mdiq,Fnideq,Sidiyahia,Amsa,Azla,Zinat,Allal,Tazi,Zaggota,Oued,Laou"
-  },
-  {
-    "name": "Tahaggart",
-    "i": 24810,
-    "min": 4,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Tamanrasset,Insalah,Inguezzam,Tabelbala,Bordjbadjimokhtar,Tinzaouatine,Reggane,Timimoun,Adrar,Aoulef,Timokten,Tamest,Fenoughil,Tamentit,Tinerkouk,Aougrout,Saoura,Beniabbes,Kerzaz,Elouata,Bechar,Abadla,Brezina,Elbayadh,Boussemghoun,Chellala,Boualem,Bougtoub,Asla,Tousmouline,Ksour,Ghassoul,Arbaouat,Chottelgharbi,Taouiala,Sidibamahdi,Tighenif,Illizi,Djanet,Inamenas,Tin,Elkoum,Aghoum,Adjahil,Eferi,Azelouaz,Elmihan,Tamadjert,Fadnoune,Aharhar,Tarat,Tamanghasset,Idles,Tinzouaten,Teggeg,Oum,El,Assel,Tindouf,Chenachene,Garet,Djebilet,Aouinet,Belagraa"
   },
   {
     "name": "Cape Verdean",
@@ -10002,66 +9936,6 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Banjul,Gambia,Serekunda,BanjulWolof,Kombo,Brikama,Basse,Farafenni",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Bajan Creole",
-    "i": 202777,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Bajan Creole,Anegada,Kew,Arima,Micoud,All Saints,Santa Rosa,Sandy Ground,Plymouth,Soufrière,Freeport,Tabernacle,Portsmouth,Marigot,Saint James,Tunapuna,Les Cayes,Brades,Liberta,Roseau,Road Town,Old Road,Grenville,St. John's,Santiago de Cuba,Gonaïves,Speightstown,Montego Bay,Kingston,Harbour Island,Bridgetown,Havana,Maho Reef,Cockburn Town,West End,Portmore,Brievengat,Port of Spain,Fort-Liberté,San Fernando,Hastings,Jérémie,Crane,Marsh Harbour,Dunmore Town,Montaña,Tortola,Mandeville,Soto,Nassau,Couva,Bathsheba,BajanCreolek,BajanCreolet,BajanCreolep,BajanCreolem,BajanCreolen,BajanCreoles,BajanCreoler,BajanCreolel,BajanCreoled,BajanCreoleg,BajanCreoleb",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Belizean Creole",
-    "i": 202778,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Belizean Creole,Holetown,Les Cayes,St. John's,Marigot,The Valley,Tabernacle,Gros Islet,Sandy Ground,Cayon,Tortola,English Harbour,Chaguanas,Philipsburg,Roseau,Micoud,Grenville,Hillsborough,Salisbury,Cockburn Harbour,Cockburn Town,Soufrière,Liberta,Arima,Havana,All Saints,Ocho Rios,St. Peter's,Jacmel,Basseterre,Mandeville,Cap-Haïtien,Fort-Liberté,Oranjestad,Simpson Bay,Camagüey,Port Antonio,Ocho Ríos,West End,Soto,Dunmore Town,Montego Bay,Hastings,Nassau,Marsh Harbour,Spanish Town,Andros Town,Harbour Island,Sint Nicolaas,Gustavia,Couva,Christ Church,BelizeanCreolek,BelizeanCreolet,BelizeanCreolep,BelizeanCreolem,BelizeanCreolen,BelizeanCreoles,BelizeanCreoler,BelizeanCreolel,BelizeanCreoled,BelizeanCreoleg,BelizeanCreoleb",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Haitian Creole",
-    "i": 202781,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Haitian Creole,Charlestown,Road Town,Anegada,Freeport,English Harbour,Five Cays,North Side,Santa Rosa,Dennery,Plymouth,Bellem,Jost Van Dyke,Portsmouth,St. George's,Saint James,Marigot,Arima,Hillsborough,Liberta,Virgin Gorda,Kew,Micoud,Basseterre,Bridgetown,The Valley,Ocho Rios,Sandy Point,Mandeville,Portmore,Spanish Town,Falmouth,Port-au-Prince,Port Antonio,Nassau,Cap-Haïtien,Alice Town,Gonaïves,Saveta,Santa Cruz,Harbour Island,Dunmore Town,Christ Church,Chaguanas,Marsh Harbour,Couva,Camagüey,Hastings,Barber,Guantánamo,Point Fortin,Oistins,Willemstad,HaitianCreolek,HaitianCreolet,HaitianCreolep,HaitianCreolem,HaitianCreolen,HaitianCreoles,HaitianCreoler,HaitianCreolel,HaitianCreoled,HaitianCreoleg,HaitianCreoleb",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Jamaican Creole",
-    "i": 202782,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Jamaican Creole,Holetown,Les Cayes,St. John's,Marigot,The Valley,Tabernacle,Gros Islet,Sandy Ground,Cayon,Tortola,English Harbour,Chaguanas,Philipsburg,Roseau,Micoud,Grenville,Hillsborough,Salisbury,Cockburn Harbour,Cockburn Town,Soufrière,Liberta,Arima,Bridgetown,Willemstad,Matanzas,St. George's,Havana,Harbour Island,Camagüey,West End,Gonaïves,Port-au-Prince,Maho Reef,Cap-Haïtien,Crane,Point Fortin,Port of Spain,Fort-Liberté,Santa Cruz,Portmore,Soto,Basseterre,Falmouth,Andros Town,Montaña,Hastings,Holguín,Santa Clara,Tanki Leendert,Scarborough,JamaicanCreolek,JamaicanCreolet,JamaicanCreolep,JamaicanCreolem,JamaicanCreolen,JamaicanCreoles,JamaicanCreoler,JamaicanCreolel,JamaicanCreoled,JamaicanCreoleg,JamaicanCreoleb",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Tobagonian Creole",
-    "i": 202792,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Tobagonian Creole,Road Town,Liberta,All Saints,Marigot,Vieux Fort,Tabernacle,Sandy Ground,Governor's Harbour,Arima,Sangre Grande,Kralendijk,Saint James,Philipsburg,Freeport,Portsmouth,Soufrière,Tortola,Salisbury,Victoria,Cockburn Harbour,Old Road,Roseau,Plymouth,Puerto Plata,Portmore,Port of Spain,Ocho Rios,Kingston,Cul de Sac,West End,Falmouth,Jacmel,Holetown,Port Antonio,Camagüey,Les Cayes,Brievengat,Jérémie,Gustavia,Christ Church,Marsh Harbour,Port-au-Prince,Basseterre,Nassau,Cockburn Town,Hastings,Bridgetown,Harbour Island,Cienfuegos,Crane,Point Fortin,Matanzas,Fort-Liberté,TobagonianCreolek,TobagonianCreolet,TobagonianCreolep,TobagonianCreolem,TobagonianCreolen,TobagonianCreoles,TobagonianCreoler,TobagonianCreolel,TobagonianCreoled,TobagonianCreoleg,TobagonianCreoleb",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Trinidadian Creole",
-    "i": 202793,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Trinidadian Creole,Jost Van Dyke,Hillsborough,Castries,Charlestown,Anegada,Freeport,Micoud,Arima,Philipsburg,Santa Rosa,Bellem,Plymouth,Sauteurs,Governor's Harbour,Kew,Portsmouth,St. George's,Saint James,All Saints,Victoria,Sandy Ground,Basseterre,Liberta,Grenville,Oistins,Mandeville,Kingston,Montego Bay,Bathsheba,Falmouth,Ocho Ríos,Les Cayes,Saint-Marc,Tunapuna,Fort-Liberté,Port of Spain,Camagüey,Havana,Andros Town,Spanish Town,Holetown,Christ Church,Bridgetown,Chaguanas,Noord,Saveta,Holguín,Speightstown,Matanzas,George Town,Maho Reef,TrinidadianCreolek,TrinidadianCreolet,TrinidadianCreolep,TrinidadianCreolem,TrinidadianCreolen,TrinidadianCreoles,TrinidadianCreoler,TrinidadianCreolel,TrinidadianCreoled,TrinidadianCreoleg,TrinidadianCreoleb",
     "status": "COMPLETE"
   },
   {

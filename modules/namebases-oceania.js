@@ -1420,26 +1420,6 @@ window.oceaniaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Ch'ol",
-    "i": 202241,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Ch'ol,Parakou,Lafia,Rijau,Kumasi,Louga,Ouagadougou,Ségou,Ambam,Kaolack,Wa,Cape Coast,Yaoundé,Awka,Faranah,Ibadan,Tamale,Gabú,Yamoussoukro,Moundou,Baga,Sarh,Ife,Timbuktu,Kenema,Mongu,Kumba,Harper,Bouaké,Bissau,Gbarnga,Conakry,Banjul,Bamako,Accra,Jos,Katsina,Dakar,Kankan,Lomé,Kayes,Korhogo,Farafenni,Man,Ngaoundéré,Tambacounda,Sikasso,Mopti,Niamey,Sunyani,Tema,Bobo-Dioulasso,Cholk,Cholt,Cholp,Cholm,Choln,Chols,Cholr,Choll,Chold,Cholg,Cholb,Cholf",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Itza'",
-    "i": 202242,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Itza',Xochimilco,Chuquisaca,Tingambato,Monte Albán,Temuco,Xochicalco,Calakmul,Rapa Nui,Cacaxtla,Zaculeu,Teopanzolco,Moche,Magueyes,Tiwanaku,Yaxchilán,Yohualichan,Texcoco,Coyoacán,Cempoala,Tlatelolco,Tenochtitlan,Quiahuiztlan,Cholula,Teotihuacán,Cuarenta Casas,El Tajín,Guayaramerín,Parakou,Abidjan,Daloa,Kankan,Accra,Ouagadougou,Mopti,Zaria,Man,Kara,Timbuktu,Kayes,Conakry,Basse,Warri,Korhogo,Dakar,Koidu,Niamey,Tamale,Bobo-Dioulasso,Kaduna,Yamoussoukro,Porto-Novo,Kumasi,Kumba,Nouakchott,Itzak,Itzat,Itzap,Itzam,Itzan,Itzas,Itzar,Itzal,Itzad,Itzag,Itzab",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Mocho'",
     "i": 202243,
     "min": 4,
@@ -1447,36 +1427,6 @@ window.oceaniaNameBases = [
     "d": "",
     "m": 0,
     "b": "Mocho',Tibes,Ixtlán del Río,Mitla,Valdivia,Tutupec,Xochicalco,Xochitécatl,Cuzco,Mixco Viejo,Quiotepec,Teopanzolco,Sipán,Tlaxcala,Copacabana,Bonampak,Teotitlán,Yohualichan,Coyoacán,Latacunga,Tlatelolco,Xochimilco,Texcoco,Quiahuiztlan,Teotihuacán,Cholula,Yaxchilán,Nazca,Accra,Bouaké,Banjul,Bobo-Dioulasso,Dakar,Gbarnga,Kankan,Katsina,Freetown,Nouakchott,Brikama,Kara,Conakry,Kaduna,Korhogo,Kayes,Saint-Louis,Kumba,Jos,Mopti,Ouagadougou,Lomé,Wa,Parakou,Zaria,Monrovia,Sokodé,Mochok,Mochot,Mochop,Mochom,Mochos,Mochor,Mochol,Mochod,Mochog,Mochob,Mochof",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Sierra Juarez Zapotec",
-    "i": 202245,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Sierra Juarez Zapotec,Tuxpan,Iximché,Zempoala,Tutupec,Caral,Tibes,Aguada Fénix,Pisac,Quiotepec,Pátzcuaro,Coquimbo,Paquimé,Tikal,Xochitécatl,Malinalco,Tenochtitlan,Texcoco,Coyoacán,Chapultepec,Xochicalco,Xochimilco,Tlaxcala,Cholula,Teotihuacán,Tula,Tajín,Las Labradas,Makassar,Tanna,Kavieng,Muara,Nadi,Majuro,Bacolod,Port Moresby,Kuching,Singapore,Malacca,Shah Alam,George Town,Tutong,Lae,Kuala Lumpur,Kota Kinabalu,Bandar Seri Begawan,Auki,Jerudong,Kuala Belait,Johor Bahru,Cagayan de Oro,Semarang,Sonsorol,Suva,SierraJuarezZapoteck,SierraJuarezZapotect,SierraJuarezZapotecp,SierraJuarezZapotecm,SierraJuarezZapotecn,SierraJuarezZapotecs,SierraJuarezZapotecr,SierraJuarezZapotecl,SierraJuarezZapotecd,SierraJuarezZapotecg,SierraJuarezZapotecb",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Baṭḥari",
-    "i": 202250,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Baṭḥari,Tchibanga,Conakry,Parakou,Fatick,Jalingo,Gashua,Koulikoro,Tougué,Dapaong,Kontagora,Tahoua,Wa,Franceville,Luba,Umuahia,Faranah,Zaria,Lafia,Nkongsamba,Yamoussoukro,Moundou,Porto-Novo,Ségou,Ife,Timbuktu,Farafenni,Lomé,Bouaké,Jos,Ebebiyín,Banjul,Dakar,Freetown,Kankan,Gbarnga,Tema,Katsina,Kaolack,Warri,Kumasi,Man,Niamey,Tamale,Kumba,Nouakchott,Brikama,Cacheu,Saint-Louis,Baarik,Baarit,Baarip,Baarim,Baarin,Baaris,Baarir,Baaril,Baarid,Baarig,Baarib",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Zakho",
-    "i": 202256,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Zakho,Suez,Tokat,Antalya,Ahmadi,Samsun,Byblos,Nasiriyah,Homs,Ad Dali,Batman,Tuz Khurmatu,Ibri,Hebron,Jerash,Mosul,Mardin,Raniya,Şanlıurfa,Hodeidah,Ras Al Khaimah,Buraidah,Siirt,Zarqa,Netanya,Jeddah,Hakkari,Abu Dhabi,Timbuktu,Bobo-Dioulasso,Farafenni,Abidjan,Brikama,Sunyani,Dakar,Freetown,Mopti,Kaolack,Kara,Jalingo,Maroua,Korhogo,Katsina,Thiès,Praia,Daloa,Kayes,Niamey,Monrovia,Yola,Parakou,Bissau,Maiduguri,Jos,Zaria",
     "status": "COMPLETE"
   },
   {
@@ -1627,16 +1577,6 @@ window.oceaniaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Kafoa,Parakou,Lafia,Rijau,Kumasi,Louga,Ouagadougou,Ségou,Ambam,Kaolack,Wa,Cape Coast,Yaoundé,Awka,Faranah,Ibadan,Tamale,Gabú,Yamoussoukro,Moundou,Baga,Sarh,Ife,Timbuktu,Kenema,Mongu,Kumba,Harper,Abidjan,Bamako,Nouakchott,Porto-Novo,Man,Cotonou,Maroua,Dakar,Bafatá,Gbarnga,Jalingo,Kayes,Koidu,Monrovia,Koudougou,Ziguinchor,Sokodé,Mopti,Bertoua,Tenkodogo,Tema,Bobo-Dioulasso,Bauchi",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Ke'yagana",
-    "i": 202346,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Eastern Highlands Province,Henganofi District,Okapa District,Goroka,Kainantu,Mount Hagen",
     "status": "COMPLETE"
   },
   {
@@ -1863,42 +1803,6 @@ window.oceaniaNameBases = [
     "b": "Taiohae,Atuona,Vaipaee,Hakahau,Taipivai,Hatiheu,Omoa,Vaitahu,Aakapa,Puamau,Hanavave,Anaho,Haakuti,Taaoa,Vaipae,e,Hakamaii"
   },
   {
-    "name": "Rapa Nui",
-    "i": 20079,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Hanga Roa,Hanga Piko,Hanga Roa Otai,Hanga Vare Vare,Pea,Anakena,Vaihu,Akahanga,Tongariki,Ovahe,Rano Raraku,Orongo"
-  },
-  {
-    "name": "Chamorro",
-    "i": 20080,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Hagatna,Dededo,Yigo,Tamuning,Mangilao,Barrigada,Agat,Santa Rita,Chalan Pago,Sinajana,Agana Heights,Asan-Maina,Piti,Talofofo,Inarajan,Merizo,Umatac,Yona,Talisayan,Mongmong,Toto,Maite,Tumon,Latte,Anigua,Maina,Asan,Tiyan,Ordot,Saipan,Garapan,San Jose,Tanapag,Chalan Kanoa,San Antonio,San Vicente,Koblerville,Capitol Hill,Susupe,Oleai,Kagman,San Roque,Kanat Tabla,Talufofo,Tagpochau,Achugao,As Matuis,Capital Hill,Garapan Village,Gualo Rai,Chalan Piao,Maturana Hill,As Perdido,Sugar King"
-  },
-  {
-    "name": "Marshallese",
-    "i": 20081,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Majuro,Ebeye,Jaluit,Arno,Wotje,Ailinglaplap,Maloelap,Mili,Utirik,Ujae,Lae,Rongelap,Rongerik,Bikini,Enewetak,Ujelang,Likiep,Mejit,Aur,Wotho,Kwajalein,Namorik,Namu,Ebon,Lib,Ailuk,Jabat,Kili,Rita,Laura,Marshall Islands,Delap,Uliga,Djarrit,Ajeltake,Rairok,Woja,Long Island,Ine,Taroa,Imiej,Enejet"
-  },
-  {
-    "name": "Palauan",
-    "i": 20082,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Ngerulmud,Koror,Airai,Meyungs,Malakal,Ngermid,Imeong,Ngetkib,Ngerkeai,Ngardmau,Aimeliik,Ngatpang,Angaur,Peleliu,Kayangel,Sonsorol,Hatohobei,Melekeok,Ngchesar,Ngiwal,Ngaraard,Ngarchelong,Ngeremlengui,Oikull,Ngeruluobel,Ngerusar,Medorm,Ngchemiangel,Mongami,Ngersuul,Ulimang,Mengellang,Imul,Kloulklubed,Ngaramasch,Arakabesan,Chelbacheb,Ngerbeched,Eil Malk,Rois"
-  },
-  {
     "name": "Chuukese",
     "i": 20083,
     "min": 4,
@@ -1978,42 +1882,6 @@ window.oceaniaNameBases = [
     "d": "",
     "m": 0,
     "b": "Honolulu,Hilo,Kailua,Kaneohe,Waipahu,Pearl City,Waimalu,Mililani,Kahului,Kihei,Lihue,Kailua-Kona,Lahaina,Waimea,Honokaa,Paauilo,Laupahoehoe,Pahala,Naalehu,Captain Cook,Holualoa,Kapaau,Hawi,Honalo,Kealakekua,Keauhou,Napoopoo,Honaunau,Milolii,Ocean View,Volcano,Mountain View,Pahoa,Kurtistown,Keaau,Pepeekeo,Papaikou,Ookala,Hakalau,Ninole,Kaumakani,Eleele,Hanalei,Hanapepe,Kapaa,Anahola,Kilauea,Princeville,Koloa,Lawai,Kalaheo,Kekaha,Kaunakakai,Lanai City,Paia,Hana,Haiku,Makawao,Kula,Wailea,Maalaea,Kapalua,Napili,Kaanapali,Wailuku,Pukalani,Laie,Hauula,Kaawa,Kahuku,Waialua,Haleiwa,Waianae,Makaha,Nanakuli,Ewa,Kapolei,Aiea,Wahiawa,Schofield,Hickam,Maili,Makakilo,Mililani Mauka,East Honolulu,Ahuimanu,He,eia,Waimanalo,Maunawili,Kaaawa,Punaluu,Honomu,Paauhau,Kukuihaele,Puako,Waikoloa,Waiohinu,Discovery Harbour,Halaula,Olinda,Keokea,Haliimaile,Kahaluu,Kahaluu-Keauhou,Kalapana"
-  },
-  {
-    "name": "Tahitian",
-    "i": 20212,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Papeete,Faaa,Punaauia,Pirae,Arue,Mahina,Paea,Papara,Taiarapu,Taiarapu-Est,Taiarapu-Ouest,Teva I Uta,Hitiaa,Moorea,Teahupoo,Fare,Haapiti,Paopao,Vaiorea,Atuona,Taiohae,Vaipaee,Omoa,Vaitahu,Rikitea,Avera,Akamaru,Taravai,Afaahiti,Vairao,Faaone,Mahaena,Tiarei,Papenoo,Mataiea,Papeari,Mataiva,Tikehau,Rangiroa,Arutua,Kaukura,Apataki,Fakarava,Hao,Hereheretue,Reao,Mangareva,Aukena,Adamstown,Pitcairn"
-  },
-  {
-    "name": "Marquesan",
-    "i": 20213,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Taiohae,Atuona,Vaipaee,Hakahau,Taipivai,Hatiheu,Omoa,Vaitahu,Aakapa,Puamau,Hanavave,Anaho,Haakuti,Taaoa,Vaipae,e,Hakamaii"
-  },
-  {
-    "name": "Chuukese",
-    "i": 20218,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Weno,Tonoas,Fefen,Uman,Udot,Param,Polle,Paata,Wonei,Tol,Fono,Siis,Eot,Ramanum,Fanapanges,Losap,Piis-Emmwar,Namoluk,Ettal,Moch,Kuttu,Ta,Satowan,Lukunoch,Oneop,Houk,Polowat,Tamatam,Pollap,Onoun,Makur,Onou,Unanu,Piherarh,Nomwin,Fananu,Ruo,Murilo,Neauo,Fefan,Peniata,Nukan,Chuuk,Tanapag,Faichuk"
-  },
-  {
-    "name": "Pohnpeian",
-    "i": 20219,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Kolonia,Palikir,Kitti,Sokehs,Nett,U,Madolenihmw,Kapingamarangi,Mokil,Pingelap,Nukuoro,Pohnpei,Awak,Parem,Sapwalap,Lehpwel,Tomwara,Ikil,Penieu,Pehleng,Kipar,Nan Madol,Roie,Lenger,Petik,Takaieu,Dolokei,Owa,Lehdau,Lukop,Meitik,Mesenieng,Kepin,Sekere,Likie,Nanpahniop,Sapwawas,Tomwara Pah,Tomwara Powe,Paies,Kepinkep,Kepira,Nan Madap,Sokeh"
   },
   {
     "name": "Kiribati",
@@ -2191,56 +2059,6 @@ window.oceaniaNameBases = [
     "d": "",
     "m": 0,
     "b": "Bocas del Toro Creole,Governor's Harbour,All Saints,Charlestown,English Harbour,St. Peter's,Road Town,San Fernando,St. George's,Vieux Fort,Tabernacle,Victoria,Sandy Ground,Five Cays,Portmore,Portsmouth,Marigot,St. John's,Philipsburg,The Valley,Holetown,Gros Islet,Cayon,Salisbury,Port-au-Prince,Ocho Rios,Oistins,Freeport,Tunapuna,Cap-Haïtien,Ocho Ríos,Kingston,Camagüey,Basseterre,Jérémie,Fort-Liberté,Port Antonio,Saint-Marc,Gonaïves,Dunmore Town,Santa Cruz,Crane,Marsh Harbour,Hastings,Harbour Island,Chaguanas,Nassau,Bathsheba,Cockburn Town,Speightstown,Hato,Montego Bay,Scarborough,Oranjestad,BocasdelToroCreolek,BocasdelToroCreolet,BocasdelToroCreolep,BocasdelToroCreolem,BocasdelToroCreolen,BocasdelToroCreoles,BocasdelToroCreoler,BocasdelToroCreolel,BocasdelToroCreoled,BocasdelToroCreoleg,BocasdelToroCreoleb",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Jamaican Patois",
-    "i": 202783,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Jamaican Patois,Holetown,Les Cayes,St. John's,Marigot,The Valley,Tabernacle,Gros Islet,Sandy Ground,Cayon,Tortola,English Harbour,Chaguanas,Philipsburg,Roseau,Micoud,Grenville,Hillsborough,Salisbury,Cockburn Harbour,Cockburn Town,Soufrière,Liberta,Arima,San Fernando,Jacmel,Camagüey,Port-au-Prince,Matanzas,Falmouth,Mandeville,Dunmore Town,Point Fortin,Freeport,Andros Town,Cul de Sac,Gonaïves,Speightstown,Marsh Harbour,Hastings,Saint-Marc,Fort-Liberté,Natal,Willemstad,Santiago de Cuba,Santa Cruz,Nassau,Holguín,Oistins,Basseterre,JamaicanPatoisk,JamaicanPatoist,JamaicanPatoisp,JamaicanPatoism,JamaicanPatoisn,JamaicanPatoiss,JamaicanPatoisr,JamaicanPatoisl,JamaicanPatoisd,JamaicanPatoisg,JamaicanPatoisb",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Miskito Coast Creole",
-    "i": 202786,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Miskito Coast Creole,Five Cays,Sandy Ground,Governor's Harbour,Soufrière,Old Road,Tabernacle,Charlestown,Basseterre,Anegada,Tunapuna,Holetown,Victoria,Santa Rosa,Roseau,Plymouth,Road Town,Salisbury,Portsmouth,English Harbour,Saint James,North Side,Freeport,Dennery,Marigot,Speightstown,Mandeville,Portmore,Kingston,Point Fortin,Harbour Island,Gonaïves,Falmouth,Bridgetown,Cap-Haïtien,Camagüey,Dunmore Town,Fort-Liberté,Port-au-Prince,Jérémie,Willemstad,Hastings,Couva,Andros Town,Soto,Matanzas,Simpson Bay,San Fernando,Crane,Port of Spain,Christ Church,Noord,MiskitoCoastCreolek,MiskitoCoastCreolet,MiskitoCoastCreolep,MiskitoCoastCreolem,MiskitoCoastCreolen,MiskitoCoastCreoles,MiskitoCoastCreoler,MiskitoCoastCreolel,MiskitoCoastCreoled,MiskitoCoastCreoleg,MiskitoCoastCreoleb",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Papiamento",
-    "i": 202788,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Papiamento,Sangre Grande,Cockburn Harbour,St. John's,Oistins,Santa Rosa,Salisbury,Plymouth,Jost Van Dyke,Grenville,Castries,Portsmouth,Saint James,Gonaïves,Ocho Rios,Arima,Soufrière,Philipsburg,Liberta,English Harbour,Sauteurs,Holetown,Kew,Five Cays,Road Town,Cayon,San Fernando,Jacmel,Kingston,Montego Bay,Spanish Town,Port Antonio,Mandeville,Basseterre,Crane,Saint-Marc,Harbour Island,Cap-Haïtien,Nassau,Brievengat,Tortola,Cienfuegos,Fort-Liberté,Speightstown,Hastings,West End,Havana,Alice Town,Upper Prince's Quarter,Guantánamo,Tunapuna,Couva,Cul de Sac,Papiamentok,Papiamentot,Papiamentop,Papiamentom,Papiamenton,Papiamentos,Papiamentor,Papiamentol,Papiamentod,Papiamentog,Papiamentob",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Rama Cay Creole",
-    "i": 202789,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Rama Cay Creole,Holetown,Les Cayes,St. John's,Marigot,The Valley,Tabernacle,Gros Islet,Sandy Ground,Cayon,Tortola,English Harbour,Chaguanas,Philipsburg,Roseau,Micoud,Grenville,Hillsborough,Salisbury,Cockburn Harbour,Cockburn Town,Soufrière,Liberta,Arima,Castries,All Saints,Ponce,Spanish Town,Mandeville,Harbour Island,Point Fortin,Nassau,West End,Portmore,Speightstown,Freeport,Port of Spain,Falmouth,Gustavia,Marsh Harbour,Gonaïves,Cienfuegos,Matanzas,Montaña,Holguín,Jacmel,Havana,Christ Church,Oistins,Brievengat,RamaCayCreolek,RamaCayCreolet,RamaCayCreolep,RamaCayCreolem,RamaCayCreolen,RamaCayCreoles,RamaCayCreoler,RamaCayCreolel,RamaCayCreoled,RamaCayCreoleg,RamaCayCreoleb",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Saint Kitts Creole",
-    "i": 202790,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Saint Kitts Creole,Jost Van Dyke,Hillsborough,Castries,Charlestown,Anegada,Freeport,Micoud,Arima,Philipsburg,Santa Rosa,Bellem,Plymouth,Sauteurs,Governor's Harbour,Kew,Portsmouth,St. George's,Saint James,All Saints,Victoria,Sandy Ground,Basseterre,Liberta,Oranjestad,Cockburn Town,Spanish Town,San Juan,Mandeville,Dunmore Town,Port Antonio,Santa Cruz,Soto,West End,Hastings,Nassau,Marsh Harbour,Fort-Liberté,Andros Town,Cap-Haïtien,Saint-Marc,Speightstown,Santa Clara,Havana,Couva,Portmore,Port-au-Prince,Port of Spain,Les Cayes,Cienfuegos,Holetown,Bathsheba,SaintKittsCreolek,SaintKittsCreolet,SaintKittsCreolep,SaintKittsCreolem,SaintKittsCreolen,SaintKittsCreoles,SaintKittsCreoler,SaintKittsCreolel,SaintKittsCreoled,SaintKittsCreoleg,SaintKittsCreoleb",
     "status": "COMPLETE"
   }
 ];

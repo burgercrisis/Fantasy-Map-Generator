@@ -1,5 +1,3 @@
-"use strict";
-
 window.fantasyNameBases = [
   {
     "name": "Human Generic",
@@ -12,4 +10,3 @@ window.fantasyNameBases = [
     "status": "COMPLETE"
   }
 ];
-

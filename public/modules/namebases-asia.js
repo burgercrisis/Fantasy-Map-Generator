@@ -1830,16 +1830,6 @@ window.asiaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Bhaya",
-    "i": 1233,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Karachi,Mirpur Khas,Tharparkar,Nawabshah,Hyderabad,Umerkot,Sanghar,Badin,Thatta,Dadu,Jamshoro,Matiari,Tando Allahyar,Tando Muhammad Khan,Sujawal,Khairpur,Sukkur,Ghotki,Jacobabad,Larkana,Shikarpur,Qambar Shahdadkot,Kashmore,Naushahro Feroze,Rohri,Pano Aqil,Kandhkot,Mehar,Sehwan,Shahdadpur,Kotri",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Biao Kam-Sui",
     "i": 1285,
     "min": 4,
@@ -3170,16 +3160,6 @@ window.asiaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Goaria",
-    "i": 1861,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Mithi,Islamkot,Chachro,Diplo,Nagarparkar,Chelhar,Dahli,Kaloi,Bhalwa,Virawah,Parinagar,Kasbo,Warwai,Gorhi-Jo-Mandir,Naukot,Kunri,Pithoro,Samaro,Umerkot,Sukkur,Larkana,Moro,Badin,Mirpurkhas",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Gurung",
     "i": 1923,
     "min": 4,
@@ -3207,16 +3187,6 @@ window.asiaNameBases = [
     "d": "",
     "m": 0,
     "b": "Seoul,Incheon,Suwon,Hwaseong,Osan,Yongin,Anseong,Pyeongtaek,Siheung,Gimpo,Ganghwa County,Ongjin County,Yeongseo Region,Yeongwol County,Jeongseon County,Pyeongchang County,Kaesong,Los Angeles Koreatown",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Buyang",
-    "i": 1393,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Ecun,Dugan,Zhelong,Nada,Longna,Maguan,Langjia,Nianlang,Yanglian,Anshel,Rongtun,Gonghe,Shanhe,Yong'an,Guoba",
     "status": "COMPLETE"
   },
   {
@@ -11220,16 +11190,6 @@ window.asiaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Ute",
-    "i": 202401,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Fort Duchesne,Roosevelt,Vernal,Myton,Ballard,Ignacio,Bayfield,Durango,Towaoc,White Mesa,Ute Mountain Ute Tribal Park,Uintah River High School,Southern Ute Indian Montessori Academy,Kwiyagat Community Academy",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Atayal",
     "i": 202402,
     "min": 4,
@@ -11400,26 +11360,6 @@ window.asiaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Orokaiva",
-    "i": 202419,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Popondetta,Kokoda Rural LLG,Tamata Rural LLG,Oro Province,Hunjara,Aeka",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Oweina",
-    "i": 202420,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Waisara,Oweina,Owena,Eastern Highlands Province",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Paiwan",
     "i": 202421,
     "min": 4,
@@ -11457,16 +11397,6 @@ window.asiaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Pitcairn Islands,Norfolk Island,Adamstown,Kingston,Bounty Bay",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Pogaya",
-    "i": 202430,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Olsobip Rural LLG,Nomad Rural LLG,Western Province,Koroba-Kopiago District,Hela Province",
     "status": "COMPLETE"
   },
   {
@@ -11600,26 +11530,6 @@ window.asiaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Salt-Yui",
-    "i": 202444,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Chimbu Province,Papua New Guinea,Salt,Yui",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Samberigi",
-    "i": 202445,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Southern Highlands Province,Sau,Papua New Guinea,Engan",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Samo",
     "i": 202446,
     "min": 4,
@@ -11630,16 +11540,6 @@ window.asiaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Sawi",
-    "i": 202447,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Papua Province,Sago swamps,Awyu,West Papua,Indonesia,Sawuy",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Saʼban",
     "i": 202448,
     "min": 4,
@@ -11647,26 +11547,6 @@ window.asiaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Long Peluan,Long Banga,Long Balong,Sarawak,Kalimantan,Borneo,Apo Duat",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Seediq",
-    "i": 202449,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Truku,Toda,Tgdaya,Paran,Taiwan,Taroko,Northern Taiwan",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Sempan",
-    "i": 202450,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Mimika Regency,Central Papua,Western New Guinea,Indonesia",
     "status": "COMPLETE"
   },
   {
@@ -11690,16 +11570,6 @@ window.asiaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Siane",
-    "i": 202453,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Eastern Highlands,Siane Rural LLG,Chimbu Province,Hakoa,Kolepa,Yamofowe,Komongu,Komoigaleka,Kemanimowe,Ona,Keto,Laiya,Fowe,Olumba,Lambau,Alango,Yandime,Wando",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Silimo",
     "i": 202454,
     "min": 4,
@@ -11707,26 +11577,6 @@ window.asiaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Indonesian New Guinea Highlands,Wulik,South Ngalik,Papua,Indonesia",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Simbari",
-    "i": 202455,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Eastern Highlands Province,Angan,Papua New Guinea,Chimbari",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Sinasina",
-    "i": 202456,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Tabare Rural LLG,Simbu Province,Dinga,Gunangi,Kebai,Kere,Kondo,Nimai,Tabare,Chimbu-Wahgi,Papua New Guinea",
     "status": "COMPLETE"
   },
   {
@@ -11760,16 +11610,6 @@ window.asiaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Suena",
-    "i": 202463,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Morobe Province,Yarawi,Binandere,Papua New Guinea",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Suganga",
     "i": 202464,
     "min": 4,
@@ -11777,16 +11617,6 @@ window.asiaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Yapsiei,Telefomin,Sandaun,Ambunti-Dreikikir,East Sepik",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Suki",
-    "i": 202465,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Gwaku,Iwewi,Ewe,Gwibaku,Duru,Isala,Western Province,Fly River,Papua New Guinea",
     "status": "COMPLETE"
   },
   {
@@ -11810,36 +11640,6 @@ window.asiaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Tairoa",
-    "i": 202468,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Bantura,Suwaira,Kuvaira,Vinaata,Konkompira,Motokara,Kovara,Aantantara,Arau,Arokaara,Saiqora,Tairora,Aatasaara,Haaviqinra,Omwunra-Toqura,Vaira-Ntosara,Veqaura",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Tairora",
-    "i": 202469,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Aantantara,Andandara,Arau-Varosia,Arokaara,Saiqora,Omwunra-Toqura,Aatasaara,Haaviqinra-Oraura,Vaira-Ntosara,Veqaura,Vinaata-Konkompira,Eastern Highlands,Papua New Guinea",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Tamagario",
-    "i": 202470,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Mappi Regency,South Papua,Indonesia,Haju District,Arare,Kerke,Pagai,Mambioman Bapai District,Tereyemu,Magabag,Yogo",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Tangko",
     "i": 202471,
     "min": 4,
@@ -11850,16 +11650,6 @@ window.asiaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Tauade",
-    "i": 202473,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Kira Rural LLG,Central Province,Papua New Guinea",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Teiwa",
     "i": 202474,
     "min": 4,
@@ -11867,16 +11657,6 @@ window.asiaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Pantar Island,Alor Archipelago,Lebang,Boweli,Kalib,Nule,Kadir,Madar,Indonesia",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Telefol",
-    "i": 202475,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Telefolmin,Ok languages,Papua New Guinea,Tifal,Mian,Feramin,Dem,Baktamin,Eliptaman",
     "status": "COMPLETE"
   },
   {
@@ -12000,46 +11780,6 @@ window.asiaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Urapmin",
-    "i": 202492,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Telefomin District,West Sepik Province,Papua New Guinea,Tifal dialect",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Usarufa",
-    "i": 202493,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Eastern Highlands Province,Moife,Imikori,Irafo,Kagu,Agura 1,Agura 2,Kainantu,Gauwa,Papua New Guinea",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Vaeakau-Taumako",
-    "i": 202494,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Reef Islands,Taumako Islands,Duff Islands,Temotu Province,Aua,Matema,Nifiloli,Nupani,Nukapu,Pileni,Solomon Islands",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Waboda",
-    "i": 202495,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Kiwai Rural LLG,Dameratamu,Gesoa,Kabaturi,Maduduo,Meipani,Sagero,Tirere,Wapi,Papua New Guinea",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Waffa",
     "i": 202496,
     "min": 4,
@@ -12047,16 +11787,6 @@ window.asiaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Kusing,Tumbuna,Siaga,Aaringun,Urint,Kaiapit,Morobe,Eastern Highlands,Kainantu",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Wahgi",
-    "i": 202497,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Mount Hagen,Kundiawa,Minj,Banz,Nondugl,Kudjip,Tambul,Nebilyer,Mul,Baiyer,Jimi Valley,Western Highlands,Jiwaka,Simbu Province,Papua New Guinea",
     "status": "COMPLETE"
   },
   {
@@ -12100,16 +11830,6 @@ window.asiaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Waruna",
-    "i": 202502,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Waruna village,Gogodala Rural LLG,Fly River,Papua New Guinea",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Wayan",
     "i": 202503,
     "min": 4,
@@ -12117,26 +11837,6 @@ window.asiaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Nalauwaki,Natawa,Waya Levu,Yalobi,Viwa Island,Yasawa Islands,Fiji",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Were",
-    "i": 202504,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Dewara village,Kiunum,Weredai,Papua New Guinea",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Weri",
-    "i": 202505,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Aluwingei,Bonahoi,Bombita,Indibi,M'Bras,Salata,Sarom,Saunes,Tauanangas,Timingir,Urita,Wa'ahun,Waragom,East Sepik Province,Papua New Guinea",
     "status": "COMPLETE"
   },
   {
@@ -12197,16 +11897,6 @@ window.asiaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Waruruma,Liabuku,Kaisabu Baru,Sorawolio,Baadia,Wolio Keraton,Busoa,Pasarwajo,Pasarwajo,Kaimbulawa,Baubau,Buton Island,Southeast Sulawesi,Indonesia",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Yagaria",
-    "i": 202514,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Higivavi,Oliguti,Kami,Forapi No. 1,Litipinaga,Gotomi,Lufugu,Kiseveroka,Kogoraipa,Daginava,Nupuru,Goroka District,Eastern Highlands,Papua New Guinea",
     "status": "COMPLETE"
   },
   {
@@ -12297,36 +11987,6 @@ window.asiaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Kawok,Moian,Ulawas,Erekta,Karemgu,Membok,Kukujaba,Kungim,Kungembit,Ambaga,Komokpin,Yogi,Dome,Yeran,Bongabun,Atkamba,Konkonda,Nago,Buseki,Western Province,Papua New Guinea,Ok Tedi,Fly River",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Zia",
-    "i": 202524,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Zare,Ainse,Siu,Popoe,Kobo,Dona,Bau,Eu,Pema,Toyare,Lower Waria Valley,Morobe Province,Papua New Guinea",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Zimakani",
-    "i": 202525,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Papua New Guinea,1500 speakers",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "ꞌAreꞌare",
-    "i": 202526,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Ma'asupa,Waiahaa,Hauporo,West Are'are,Honiara,Marau Sound,Solomon Islands,Malaita,South Malaita",
     "status": "COMPLETE"
   },
   {
@@ -13165,15 +12825,6 @@ window.asiaNameBases = [
     "b": "Jaipur,Jodhpur,Udaipur,Bikaner,Ajmer,Bhilwara,Alwar,Sikar,Sri Ganganagar,Kota,Bundi,Chittorgarh,Pali,Nagaur,Tonk,Hanumangarh,Beawar,Jhunjhunu,Makrana,Kishangarh,Didwana,Ladnun,Jhalawar,Baran,Dholpur,Karauli,Sawai Madhopur,Dausa,Bhiwadi,Churu,Nokha,Suratgarh,Raisinghnagar,Pilibanga,Pokaran,Phalodi,Osian,Barmer,Jaisalmer,Balotra,Siwana,Dungarpur,Banswara,Pratapgarh,Mount Abu,Sirohi,Pindwara,Abu Road,Sojat,Jaitaran,Bilara,Bhopalgarh,Asind,Deoli,Todaraisingh,Uniara,Nainwa,Hindoli,Keshoraipatan,Sangod,Kaithoon,Mangrol,Anta,Chhabra,Atru,Kishanganj,Shahpura,Gulabpura,Jahazpur,Mandalgarh,Bhainsrorgarh,Raipur,Kotri,Malpura,Niwai,Jhalarapatan,Bhawanimandi,Aklera,Manohar Thana,Pirawa,Alirajpur,Bharatpur,Bayana,Rupbas,Kaman,Nadbai,Kumher,Bari,Rajakhera,Hindaun,Sapotra,Deeg,Bhusawar,Weir,Bansur,Thanagazi,Rajgarh,Behror,Khairthal,Tijara,Neemrana"
   },
   {
-    "name": "Awadhi",
-    "i": 20190,
-    "min": 4,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Lucknow,Ayodhya,Faizabad,Sultanpur,Pratapgarh,Rae Bareli,Barabanki,Bahraich,Gonda,Sitapur,Hardoi,Lakhimpur Kheri,Unnao,Amethi,Kakori,Malihabad,Mohan,Nagram,Sandila,Bilgram,Shahabad,Shahjahanpur,Pawayan,Tilhar,Singhpur,Kheri,Oel,Lagucha,Mohammadi,Gola,Gomti Nagar,Indira Nagar,Aliganj,Alambagh,Aminabad,Chowk,Hazratganj,Nakkhas,Sadar,Telibagh,Krishna Nagar,Vikas Nagar,Rajajipuram,Laharpur,Maigalganj,Biswan,Mahmoodabad,Sidhauli,Misrikh,Machhlishahr,Bachhrawan,Salon,Inhauna,Musafirkhana,Gauriganj,Kadipur,Lambhua,Kunda,Patti,Anti,Lalganj,Bhadohi,Jaunpur,Shahganj,Badlapur,Dewa,Haidergarh,Rudauli,Subeha,Dariyabad,Siddhaur,Bikapur,Milkipur,Sohawal,Balrampur,Utraula,Tulsipur,Kaiserganj,Nanpara,Behraich,Payagpur,Risia,Mahasi,Mihinpurwa,Bhinga,Shrawasti,Ikauna,Rehra Bazar,Katra Bazar,Dalmau,Maharajganj,Unchahar,Jagdishpur"
-  },
-  {
     "name": "Bundeli",
     "i": 20191,
     "min": 4,
@@ -13588,42 +13239,6 @@ window.asiaNameBases = [
     "b": "Asmara,Massawa,Keren,Mendefera,Barentu,Adi Quala,Dekemhare,Adi Keyh,Senafe,Ghinda,Nefasit,Segeneiti,Hagaz,Badme,Adwa,Axum,Enticho,Yechila,Yeha,Adi Daero,Adi Arkay,Zalambessa,Inticho,Temben,Mai Adwa,Rama,Saesi Tsaedaemba,Irob,Wukro,Negash,Alamata,Maychew,Hawzen,Edaga Hamus,Laelay Maychew,Mehoni,Adi Gudem,Adi Kelem,Adisho,Hadish Adi,Gulo Mekeda,Himbirti,Afabet,Karora,She,eb,Agordat,Tesseney,Omhajer,Goluj,Dighe,Mogolo,Haykota,Alighede,Halhal,Shambuko,Logo Anseba,Sela Da Eritrean,Tera Emni,Tkul,Nakfa,Afdera,Lalibela,Gheralta,Adi Remets,Iyamo,Mai Mine,Aspidus,Ala,Adeke Ader,Adi Beles"
   },
   {
-    "name": "Swazi",
-    "i": 24661,
-    "min": 4,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Mbabane,Manzini,Lobamba,Matsapha,Siteki,Nhlangano,Piggs Peak,Big Bend,Simunye,Lavumisa,Hluti,Mhlume,Tshaneni,Nsoko,Malkerns,Mankayane,Kwaluseni,Sidvokodvo,Bhunya,Mhlambanyatsi,Mondi,Hlatikulu,Kubuta,Bulembu,Ngwenya,Mayiwane,Maphalaleni,Ntfonjeni"
-  },
-  {
-    "name": "Venda",
-    "i": 24662,
-    "min": 4,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Thohoyandou,Louis Trichardt,Makhado,Polokwane,Musina,Giyani,Phalaborwa,Modimolle,Mokopane,Bela-Bela,Atteridgeville,Mamelodi,Soshanguve,Hammanskraal,Pretoria,Sibasa,Dzanani,Malamulele,Vuwani,Nzhelele,Tshipise,Mutale,Duthuni,Tshikundamalema,Tshifulanani,Ha-Masia,Makwarela,Manini,Mutshindudi,Phiphidi,Dopeni,Bungeni,Tshikundu,Lwamondo,Madala,Ha-Matsa,Sekgosese,Ga-Matlala,Gilead,Lephalale,Nylstroom,Naboomspruit,Mookgophong,Roedtan,Settlers,Vaalwater,Ellisras,Tom Burke,Pietersburg,Seshego,Mankweng,Tzaneen,Modjadjiskloof,Duiwelskloof,Hoedspruit"
-  },
-  {
-    "name": "Tsonga",
-    "i": 24663,
-    "min": 4,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Giyani,Phalaborwa,Malamulele,Polokwane,Thohoyandou,Maputo,Matola,Beira,Nampula,Quelimane,Tete,Lichinga,Inhambane,Xai-Xai,Chimoio,Pemba,Nacala,Maxixe,Angoche,Cuamba,Mocuba,Gurue,Chokwe,Chibuto,Manica,Dondo,Montepuez,Mocimboa da Praia,Macomia,Balama,Namuno,Chiure,Memba,Mahajanga,Antananarivo,Hazyview,Nelspruit,Barberton,White River,Komati,Malelane,Komatipoort,Skukuza,Hoedspruit,Acornhoek,Bushbuckridge,Thulamahashe,Edinburgh,Waterval-Boven,Emgwenya,Belfast,Machadodorp,Lydenburg,Ohrigstad,Burgersfort,Steelpoort,Jane Furse,Groblersdal,Marble Hall,Mokopane"
-  },
-  {
-    "name": "Krio",
-    "i": 24664,
-    "min": 4,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Freetown,Bo,Kenema,Makeni,Koidu,Lunsar,Port Loko,Bonthe,Moyamba,Pujehun,Kabala,Kailahun,Magburaka,Waterloo,Hastings,Goderich,Bumpe,Songo,Kono,Yengema,Koindu,Tongo,Pendembu,Daru,Zimmi,Baiima,Taiama,Sumbuya,Gbangbatok,Mattru Jong,Sherbro Island,Yonibana,Rokupr,Kamakwie,Koinadugu,Falaba,Sefadu,Koey,Koidu New Sembehun,Blama"
-  },
-  {
     "name": "Malagasy",
     "i": 24665,
     "min": 4,
@@ -13631,15 +13246,6 @@ window.asiaNameBases = [
     "d": "",
     "m": 0,
     "b": "Antananarivo,Toamasina,Antsirabe,Fianarantsoa,Mahajanga,Toliara,Antsiranana,Sambava,Morondava,Moramanga,Ambanja,Antalaha,Nosy Be,Andoany,Ambatondrazaka,Mananjary,Farafangana,Ihosy,Ambovombe,Tolagnaro,Amboasary,Betroka,Vangaindrano,Fenoarivo,Soavinandriana,Betafo,Ambatolampy,Antanifotsy,Anjozorobe,Mandoto,Arivonimamo,Miarinarivo,Tsiroanomandidy,Antsohihy,Bealanana,Andapa,Vohemar,Maroantsetra,Mananara,Mahanoro,Marolambo,Nosy Varika,Ikongo,Ranohira,Belon,i Tsiribihina,Miandrivazo,Faratsiho,Manandriana,Ambositra,Fandriana,Ambalavao,Ikalamavony,Betioky,Morombe,Sakaraha,Ampanihy,Beloha,Tsihombe"
-  },
-  {
-    "name": "Kanuri",
-    "i": 24666,
-    "min": 4,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Maiduguri,Biu,Dikwa,Bama,Ngazargamu,Gwoza,Konduga,Jere,Mafa,Damboa,Gubio,Magumeri,Marama,Marte,Mobbar,Monguno,Gajiram,Nganzai,Kukawa,Baga,Damaturu,Potiskum,Gashua,Geidam,Yunusari,Nguru,Guri,Machina,Fika,Chibok,Askira,Uba,Shani,Bayyo,Diffa,NGuigmi,Goure,Maine-Soroa,Tanout,Zinder,Mainé Soroa,Azare,Hadejia,Kano,Bauchi,Yola,Jos"
   },
   {
     "name": "Konkani",
@@ -15136,15 +14742,6 @@ window.asiaNameBases = [
     "b": "Nampula,Angoche,Nacala,Monapo,Meconta,Malema,Ribau,Gurue,Mocuba,Alto,Molocue,Lalaua,Murrupula,Mecuburi,Muecate,Erati,Nacaroa,Namapa,Iapala,Mogovolas,Moma,Mogincual,Quissimajulo,Muatua,Namacurra,Maganja,Canteza,Nametil,da,Costa,Milange,Namarroi,Lichinga,Cumba,Cuamba,Maua,Mecanhelas,Mandimba,Mavago,Massangena,Chifunde,Tete,Moatize,Changara,Cahora,Bassa,Manica,Chimoio,Vila,Fontes,Mahate,Beira,Dondo,Nhamatanda,Chinde"
   },
   {
-    "name": "Sena",
-    "i": 24978,
-    "min": 4,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Beira,Chimoio,Tete,Caia,Chinde,Marromeu,Inhaminga,Nhamatanda,Manica,Gondola,Vila,Pery,Mafambisse,Dondo,Sena,Muanza,Guro,Chibabava,Guija,Chokwe,Macia,Bilene,Xai-Xai,Manjacaze,Chibuto,Maputo,Matola,Inhambane,Maxixe,Massinga,Vilankulo,Funhalouro,Homoine,Morrumbene,Zavala,Inharrime,Jangamo,Covane,Quissico,Massane,Tofo,Barra,Salamanga,Ponta,do,Ouro,Mapulanguene,Catembe"
-  },
-  {
     "name": "Yiddish",
     "i": 24980,
     "min": 4,
@@ -15199,15 +14796,6 @@ window.asiaNameBases = [
     "b": "Casablanca,Dar,el,Beida,Rabat,Ribbat,Fatih,Marrakech,Murakush,Fes,Fas,Meknes,Meknas,Tangier,Tanja,Oujda,Agadir,Ida,Outanane,Kenitra,Tetouan,Tettawan,Safi,Asfi,Mohammedia,Khouribga,Beni,Mellal,Nador,Nadhor,El,Jadida,Al,Taza,Settat,Sidi,Kacem,Qacem,Berrechid,Oued,Zem,Wad,Zam,Kasba,Tadla,Qasbat,Fquih,Ben,Salah,Fqih,Souk,Arbaa,Suq,al,Arba,Tiflet,Rommani,Rummani,Khemisset,Khmissat,Guercif,Errachidia,Ar,Rashidiyyah,Ouarzazate,Warzazat,Zagora,Tinghir,Midelt,Azrou,Azru,Ifrane,Ifran"
   },
   {
-    "name": "Egyptian Arabic",
-    "i": 24986,
-    "min": 4,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Cairo,Al,Qahirah,Alexandria,Iskandariyah,Giza,Jizah,Luxor,Uqsur,Aswan,Asyut,Hurghada,Ghardaqah,Sharm,El,Sheikh,al,Shaykh,Suez,As,Suways,Tanta,Mansoura,Mansurah,Zagazig,Az,Zaqaziq,Damietta,Dimyat,Port,Said,Bur,Ismailia,Isma-iliyah,Beni,Suef,Bani,Suwayf,Faiyum,Fayyum,Minya,Sohag,Suhaj,Qena,Qina,Idfu,Armant,Ballas,Edfu,Esna,Isna,Manfalut,Abnub,Qusiya,Dayrut,Badari,Ghanayim,Mazar,Samallut,Matay,Idwah"
-  },
-  {
     "name": "Tunisian Arabic",
     "i": 24989,
     "min": 4,
@@ -15215,15 +14803,6 @@ window.asiaNameBases = [
     "d": "",
     "m": 0,
     "b": "Tunis,Sfax,Safaqis,Sousse,Sousa,Kairouan,Al,Qayrawan,Bizerte,Banzart,Gabes,Qabis,Gafsa,Qafsa,Monastir,Munastir,Mahdia,Mahdiyah,Kasserine,Qasrayn,Sidi,Bouzid,Bou,Zid,Tozeur,Kebili,Qabili,Tataouine,Tatawin,Medenine,Madanin,Ben,Gardane,Bin,Qardan,Zarzis,Jerba,Houmt,Souk,Hawmat,as,Suq,Midoun,Remada,Ar,Ramadah,Dehiba,Dhehiba,Ksar,Qasr,Douz,Dawz,Nefta,Naftah,Tamerza,Tamaghzah,Chebika,Shabikah,Mides,Midis,Touna,Tawinah,Metlaoui,Metlawi,Redeyef,Moulares,Mularis"
-  },
-  {
-    "name": "Algerian Arabic",
-    "i": 24990,
-    "min": 4,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Algiers,Al,Jazair,Oran,Constantine,Qacentina,Annaba,Qal-a,Blida,Batna,Sétif,Setif,Tlemcen,Tilimsen,Sidi,Bel,Abbes,Tizi,Ouzou,Béjaïa,Bugia,Skikda,Mostaganem,Ouargla,Bordj,Bou,Arreridj,Bu,Chlef,Médéa,Madiyah,Laghouat,Laghwat,M-Sila,Jijel,Tébessa,Tibissa,Biskra,Mila,Tiaret,Tihert,Saïda,Saida,Tipaza,Bouira,Tindouf,Tinduf,Illizi,Djanet,Ghardaïa,Ghardaia,Béchar,Bashshar"
   },
   {
     "name": "Jin Chinese",
@@ -18174,16 +17753,6 @@ window.asiaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Balinese Malay",
-    "i": 202401,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Balinese Malay,Lhokseumawe,Ben Tre,Bacolod,Can Tho,Padang Panjang,Pasir Ris,Putao,Lao Cai,Serang,Quy Nhon,Khon Kaen,Bandung,Ternate,Kratie,Bogor,Thanh Hoa,Kandal,Yogyakarta,Quezon City,Poipet,Champasak,Battambang,Baguio,Balikpapan,Bago,Loikaw,Bandar Seri Begawan,Sonsorol,Jaluit,Makassar,Denpasar,Lautoka,Manila,Kuching,Davao,Singapore,Kavieng,Cebu City,Epi,Malekula,Seria,Malacca,Nadi,Sigatoka,Ambrym,Shah Alam,Port Moresby,Babeldaob,Suva,Savusavu,BalineseMalays,BalineseMalayr,BalineseMalayl,BalineseMalayd,BalineseMalayg,BalineseMalayb,BalineseMalayf,BalineseMalayz,BalineseMalayv,BalineseMalayj,BalineseMalaykw",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Be-Jizhao",
     "i": 202404,
     "min": 4,
@@ -18221,36 +17790,6 @@ window.asiaNameBases = [
     "d": "",
     "m": 0,
     "b": "Daman,Parakou,Lafia,Rijau,Kumasi,Louga,Ouagadougou,Ségou,Ambam,Kaolack,Wa,Cape Coast,Yaoundé,Awka,Faranah,Ibadan,Tamale,Gabú,Yamoussoukro,Moundou,Baga,Sarh,Ife,Timbuktu,Kenema,Mongu,Kumba,Harper,Sokodé,Lomé,Bissau,Bamako,Bobo-Dioulasso,Conakry,Koidu,Cotonou,Korhogo,Bamenda,Bertoua,Sokoto,Saint-Louis,Niamey,Yola,Sunyani,Garoua,Daloa,Nzérékoré,Basse,Praia,Porto-Novo,Zaria,Jos,Warri",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Danuwar",
-    "i": 202419,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Danuwar,Tchibanga,Conakry,Parakou,Fatick,Jalingo,Gashua,Koulikoro,Tougué,Dapaong,Kontagora,Tahoua,Wa,Franceville,Luba,Umuahia,Faranah,Zaria,Lafia,Nkongsamba,Yamoussoukro,Moundou,Porto-Novo,Ségou,Ife,Timbuktu,Farafenni,Lomé,Bissau,Freetown,Ouagadougou,Bouaké,Bamako,Daloa,Koudougou,Basse,Monrovia,Bafatá,Kano,Assomada,Bamenda,Katsina,Kankan,Bauchi,Sikasso,Maiduguri,Bertoua,Nouakchott,Tarrafal,Kumasi,Cacheu,Danuwark,Danuwart,Danuwarp,Danuwarm,Danuwarn,Danuwars,Danuwarr,Danuwarl,Danuward,Danuwarg,Danuwarb",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Darchuleli (Doteli)",
-    "i": 202420,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Darchuleli (Doteli),Dongguan,Anyang,Bayanhongor,Sükhbaatar,Macau,Keelung,Rason,Ulaanbaatar,Kaifeng,Kowloon,Takamatsu,Yamagata,Saitama,Luoyang,Bangkok,Da Lat,Zamboanga,Palembang,Naypyidaw,Thanh Hoa,Son La,Tangerang,Myitkyina,Putao,Phuket,Kampong Cham,Hpa-An,Tambacounda,Gabú,Kara,Kaolack,Dakar,Bouaké,Maiduguri,Abidjan,Monrovia,Bamako,Mopti,Bamenda,Sikasso,Koudougou,Conakry,Cotonou,Koidu,Saint-Louis,Kayes,Bafatá,Kumba,Tenkodogo,Malabo,Katsina,Nzérékoré,Jalingo,Ouagadougou,Darchulelik,Darchulelit,Darchulelip,Darchulelim,Darchulelin,Darchulelis,Darchulelir,Darchulelil,Darchulelid,Darchulelig,Darchulelib",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Ekhirit-Bulagat Buryat",
-    "i": 202430,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Ekhirit-Bulagat Buryat,Thiès,Mongu,Kaduna,Kenema,Ngaoundéré,Kindia,Mindelo,Bida,Koudougou,Kandi,Gao,Gwoza,Bafatá,Ribeira Brava,Bauchi,Minna,Aba,Parakou,Sekondi,Rijau,Banfora,Louga,Oyo,Brikama,Ambam,Natitingou,Wa,Almaty,Kirovabad,Tashkent,Tehran,Oral,Kokand,Bukhara,Murghob,Shymkent,Samarkand,Karagandy,Istaravshan,Khorugh,Naryn,Jalal-Abad,Bokhtar,Panjakent,Kulob,Ashgabat,Faisalabad,Kandahar,Osh,Batken,Ahvaz,Turkmenabat,Gyzylarbat,Mary,EkhiritBulagatBuryatb,EkhiritBulagatBuryatf,EkhiritBulagatBuryatz,EkhiritBulagatBuryatv,EkhiritBulagatBuryatj,EkhiritBulagatBuryatkw,EkhiritBulagatBuryattw,EkhiritBulagatBuryatpw,EkhiritBulagatBuryatmw,EkhiritBulagatBuryatsw,EkhiritBulagatBuryatrw",
     "status": "COMPLETE"
   },
   {
@@ -18304,86 +17843,6 @@ window.asiaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Hokkaido Ainu",
-    "i": 202444,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Hokkaido Ainu,Pingtung,Taitung,Rason,Ölgii,Gwangju,Kaifeng,Pohang,Kanazawa,Yamagata,Haeju,Foshan,Kitakyushu,Khovd,Arvaikheer,Zhuhai,Sinuiju,Macau,Qingdao,Tianjin,Nanjing,Luoyang,Dalian,Taipei,Guilin,Anyang,Pyongyang,Kyoto,Ishigaki,Matsudo,Kawasaki,Matsue,Yokosuka,Saitama,Aomori,Nayoro,Akita,Sendai,Shizuoka,Fukuyama,Niigata,Sagamihara,Toyota,Kobe,Maebashi,Ichihara,Obihiro,Kumamoto,Osaka,Nagano,Fukuoka,Ginowan,Wakkanai,HokkaidoAinuk,HokkaidoAinut,HokkaidoAinup,HokkaidoAinum,HokkaidoAinun,HokkaidoAinus,HokkaidoAinur,HokkaidoAinul,HokkaidoAinud,HokkaidoAinug",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Hokkaido dialects",
-    "i": 202445,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Hokkaido dialects,Vanimo,Navua,Majuro,Ouvea,Tabubil,Kavieng,Nukulaelae,Tabiteuea,Chuuk,Newcastle,Nibok,Samamea,Bora-Bora,Koror,Norfolk,Kairuku,Belep,Denigomodu,Angaur,Baiti,Rabaul,Betio,Yap,Osaka,Guangzhou,Haeju,Sendai,Tokyo,Kawasaki,Fukuoka,Saitama,Furano,Wakkanai,Sagamihara,Matsudo,Nago,Chiba,Setagaya,Okayama,Ishigaki,Fukuyama,Itabashi,Okinawa,Gifu,Naha,Kushiro,Nemuro,Nayoro,Kagoshima,Matsue,Aomori,Matsuyama,Toyama,Hokkaidodialectsk,Hokkaidodialectst,Hokkaidodialectsp,Hokkaidodialectsm,Hokkaidodialectsn,Hokkaidodialectss,Hokkaidodialectsr,Hokkaidodialectsl,Hokkaidodialectsd,Hokkaidodialectsg,Hokkaidodialectsb",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Hyolmo (Yolmo)",
-    "i": 202447,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Hyolmo (Yolmo),Koudougou,Oussouye,Abidjan,Gwoza,Koulikoro,Yola,Aplahoué,Kontagora,Aba,Parakou,Onitsha,Rijau,Umuahia,Louga,Yomou,Sangmélima,Ambam,Tahoua,Wa,Porto-Novo,Bafang,Awka,Faranah,Kaita,Lomé,Limbe,Yamoussoukro,Accra,Banfora,Kaolack,Basse,Ziguinchor,Zaria,Minna,Katsina,Kayes,Korhogo,Gbarnga,Nouakchott,Kumasi,Bouaké,Tambacounda,Ngaoundéré,Bafatá,Bamenda,Tarrafal,Niamey,Mopti,Tamale,Mindelo,Assomada,Gusau,Ebebiyín,Hyolmok,Hyolmot,Hyolmop,Hyolmom,Hyolmon,Hyolmos,Hyolmor,Hyolmol,Hyolmod,Hyolmog,Hyolmob",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Jadgali",
-    "i": 202449,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Jadgali,Tchibanga,Conakry,Parakou,Fatick,Jalingo,Gashua,Koulikoro,Tougué,Dapaong,Kontagora,Tahoua,Wa,Franceville,Luba,Umuahia,Faranah,Zaria,Lafia,Nkongsamba,Yamoussoukro,Moundou,Porto-Novo,Ségou,Ife,Timbuktu,Farafenni,Lomé,Koidu,Cotonou,Bissau,Gbarnga,Kaolack,Kara,Ziguinchor,Katsina,Korhogo,Brikama,Niamey,Bolama,Koudougou,Tema,Kankan,Bauchi,Monrovia,Tenkodogo,Accra,Thiès,Ebebiyín,Bamako,Tambacounda,Nouakchott,Sikasso,Jadgalik,Jadgalit,Jadgalip,Jadgalim,Jadgalin,Jadgalis,Jadgalir,Jadgalil,Jadgalid,Jadgalig,Jadgalib",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Jandavra",
-    "i": 202450,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Jandavra,Agra,Mymensingh,Visakhapatnam,Madurai,Lucknow,Jhang,Thinadhoo,Agartala,Karachi,Sialkot,Trincomalee,Hyderabad,Aurangabad,Mumbai,Chennai,Panaji,Ghaziabad,Chandigarh,Shikarpur,Imphal,Rajahmundry,Dhanbad,Varanasi,Bhubaneswar,Haridwar,Warangal,Nashik,Accra,Banjul,Bouaké,Koidu,Bobo-Dioulasso,Dakar,Korhogo,Bertoua,Koudougou,Kaolack,Kara,Nouakchott,Kankan,Mopti,Man,Kumasi,Ngaoundéré,Ouagadougou,Ziguinchor,Gbarnga,Ségou,Jalingo,Tambacounda,Sunyani,Mindelo,Kaduna,Sokodé,Jandavrak,Jandavrat,Jandavrap,Jandavram,Jandavran,Jandavras,Jandavrar,Jandavral,Jandavrad,Jandavrag,Jandavrab",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Jeh",
-    "i": 202453,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Jeh,Ayutthaya,Payakumbuh,Klang,Phongsali,Nong Khai,Samarinda,Hat Yai,Sittwe,Alor Setar,Zamboanga,Bac Lieu,George Town,Miri,General Santos,Tawau,Kota Bharu,My Tho,Bangar,Soc Trang,Hue,Tampines,Maubara,Ha Giang,Semarang,Tra Vinh,Lampang,Surabaya,Accra,Abidjan,Praia,Korhogo,Banjul,Ebebiyín,Conakry,Bata,Sokodé,Tarrafal,Katsina,Kumasi,Mopti,Niamey,Nzérékoré,Kayes,Ouagadougou,Tamale,Dakar,Man,Bafatá,Porto-Novo,Assomada,Tema,Zaria,Jos,Parakou,Jehk,Jeht,Jehp,Jehm,Jehn,Jehs,Jehr,Jehl,Jehd,Jehg,Jehb",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Jizhao",
-    "i": 202455,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Jizhao,Serang,Loei,Nong Khai,Surat Thani,Ternate,Seremban,Bogor,Ca Mau,Phongsali,Hanoi,Quezon City,Singapore,Sittwe,Ben Tre,Baguio,Can Tho,George Town,Pasir Ris,Bandar Seri Begawan,Lao Cai,Kota Bharu,Jakarta,Baucau,Bandung,Jurong,Kratie,Suai,Ebebiyín,Katsina,Banjul,Bertoua,Bobo-Dioulasso,Jalingo,Kankan,Sokodé,Ouagadougou,Gbarnga,Kara,Maiduguri,Koudougou,Maroua,Korhogo,Basse,Saint-Louis,Sikasso,Mopti,Nzérékoré,Timbuktu,Parakou,Niamey,Kaolack,Minna,Man,Aconibe,Jizhaok,Jizhaot,Jizhaop,Jizhaom,Jizhaon,Jizhaos,Jizhaor,Jizhaol,Jizhaod,Jizhaog,Jizhaob",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Jogi",
-    "i": 202456,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Jogi,Kaolack,Rijau,Bolgatanga,Louga,Giwa,Bouaké,Ambam,Kumasi,Wa,Kissidougou,Buchanan,Awka,Abéché,Gwoza,Aksum,Makeni,Yamoussoukro,Buea,Hadejia,Sesheke,Gabú,Timbuktu,Ngaoundéré,Okigwe,Tiko,Brikama,Banjul,Accra,Korhogo,Katsina,Basse,Bertoua,Abidjan,Saint-Louis,Sikasso,Kankan,Kaduna,Mopti,Koidu,Nzérékoré,Maiduguri,Ebebiyín,Ouagadougou,Ségou,Sunyani,Monrovia,Parakou,Ziguinchor,Malabo,Jogik,Jogit,Jogip,Jogim,Jogin,Jogis,Jogir,Jogil,Jogid,Jogig,Jogib",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Kadar",
     "i": 202461,
     "min": 4,
@@ -18391,16 +17850,6 @@ window.asiaNameBases = [
     "d": "",
     "m": 0,
     "b": "Kadar,Sylhet,Lucknow,Hubli,Mumbai,Khanewal,Ponda,Gangtok,Dehradun,Hyderabad,Lalitpur,Karachi,Cuttack,Indore,Nawabshah,Siliguri,Lahore,Ahmedabad,Delhi,Dhanbad,Srinagar,Bhubaneswar,Shimla,Warangal,Nashik,Gulbarga,Rourkela,Bhopal,Koidu,Banjul,Tema,Korhogo,Bobo-Dioulasso,Freetown,Ségou,Kankan,Lomé,Ouagadougou,Dakar,Maiduguri,Mopti,Kara,Man,Katsina,Niamey,Nzérékoré,Praia,Gbarnga,Nouakchott,Monrovia,Yamoussoukro,Cotonou,Bauchi,Kano,Tambacounda",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Kalkoti",
-    "i": 202463,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Kalkoti,Tchibanga,Conakry,Parakou,Fatick,Jalingo,Gashua,Koulikoro,Tougué,Dapaong,Kontagora,Tahoua,Wa,Franceville,Luba,Umuahia,Faranah,Zaria,Lafia,Nkongsamba,Yamoussoukro,Moundou,Porto-Novo,Ségou,Ife,Timbuktu,Farafenni,Lomé,Accra,Bissau,Banjul,Kaolack,Cotonou,Thiès,Nouakchott,Cacheu,Tenkodogo,Kankan,Bertoua,Kara,Bobo-Dioulasso,Korhogo,Niamey,Maiduguri,Kumasi,Ziguinchor,Dakar,Sokodé,Bafatá,Saint-Louis,Banfora,Bamenda,Sikasso,Kalkotik,Kalkotit,Kalkotip,Kalkotim,Kalkotin,Kalkotis,Kalkotir,Kalkotil,Kalkotid,Kalkotig,Kalkotib",
     "status": "COMPLETE"
   },
   {
@@ -18414,16 +17863,6 @@ window.asiaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Kam Dong",
-    "i": 202465,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Kam Dong,Owerri,Sokoto,Aba,Parakou,Thiès,Ebolowa,Kaduna,Louga,Ughelli,Kindia,Ambam,Tahoua,Wa,Okigwe,Gao,Awka,Faranah,Bida,Aksum,Ségou,Yamoussoukro,Moundou,Enugu,Sesheke,Zaria,Timbuktu,Douala,Chiang Mai,Bangkok,Pattaya,Fangchenggang,Lạng Sơn,Hai Phong,Can Tho,Da Nang,Yangon,Lào Cai,Chonburi,Phan Thiet,Kunming,Pakse,Phnom Penh,Naypyidaw,Mandalay,Thakhek,Macau,Battambang,Sihanoukville,Kampong Cham,Haikou,Nanning,Kampot,Surat Thani,Vinh,KamDongk,KamDongt,KamDongp,KamDongm,KamDongn,KamDongs,KamDongr,KamDongl,KamDongd,KamDongg,KamDongb",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Kam Sui",
     "i": 202466,
     "min": 4,
@@ -18434,36 +17873,6 @@ window.asiaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Kangri",
-    "i": 202468,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Kangri,Visakhapatnam,Rishikesh,Lucknow,Jhang,Chennai,Sambalpur,Fuvahmulah,Sialkot,Faisalabad,Rawalpindi,Vijayawada,Hyderabad,Barisal,Panaji,Asansol,Haridwar,Shikarpur,Imphal,Muzaffargarh,Jamshedpur,Patna,Bhubaneswar,Kurunegala,Warangal,Guntur,Ahmedabad,Pokhara,Sokodé,Bouaké,Bamako,Conakry,Dakar,Ziguinchor,Daloa,Praia,Cotonou,Lomé,Gbarnga,Timbuktu,Tema,Kaolack,Man,Sunyani,Brikama,Mopti,Abidjan,Koudougou,Ouagadougou,Jos,Yamoussoukro,Parakou,Saint-Louis,Bauchi,Porto-Novo,Kangrik,Kangrit,Kangrip,Kangrim,Kangrin,Kangris,Kangrir,Kangril,Kangrid,Kangrig,Kangrib",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Kasong",
-    "i": 202469,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Kasong,Aba,Parakou,Tsévié,Fada N'Gourma,Gashua,Louga,Koulamoutou,Mekelle,Zaria,Tahoua,Wa,Kumasi,Luba,Cotonou,Faranah,Nzérékoré,Kaolack,Nkongsamba,Sekondi,Moundou,Yendi,Korhogo,Ife,Tema,Oyo,Kurfi,Kakata,Banjul,Gbarnga,Bamako,Koidu,Dakar,Kankan,Sokodé,Monrovia,Warri,Kara,Kayes,Maroua,Abidjan,Bauchi,Timbuktu,Jos,Sikasso,Ouahigouya,Niamey,Tambacounda,Saint-Louis,Maiduguri,Koudougou,Porto-Novo,Kasongk,Kasongt,Kasongp,Kasongm,Kasongn,Kasongs,Kasongr,Kasongl,Kasongd,Kasongg,Kasongb",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Katu",
-    "i": 202470,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Katu,Padang Panjang,Sakon Nakhon,Ternate,Udon Thani,Bogor,Kangar,Mandalay,Rayong,Quezon City,Pattaya,Lashio,Sandakan,Baguio,Vinh Long,Malacca,Singapore,Bandar Seri Begawan,Woodlands,Alor Setar,Lang Son,Baucau,Ben Tre,Quy Nhon,Jakarta,Suai,Dien Bien Phu,Denpasar,Kampong Cham,Hanoi,Điện Biên Phủ,Da Nang,Can Tho,Beihai,Hai Phong,Nanning,Vinh,Hat Yai,Yangon,My Tho,Battambang,Savannakhet,Phongsali,Lạng Sơn,Thakhek,Xieng Khouang,Sihanoukville,Ho Chi Minh City,Kampot,Guilin,Phan Thiet,Danzhou,Hong Kong,Surat Thani,Luang Prabang,Katuk,Katut,Katup,Katum,Katun,Katus,Katur,Katul,Katud,Katug,Katub",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Katua",
     "i": 202471,
     "min": 4,
@@ -18471,26 +17880,6 @@ window.asiaNameBases = [
     "d": "",
     "m": 0,
     "b": "Katua,Khon Kaen,Tomohon,Kuala Terengganu,Bandar Lampung,Trat,Champasak,Nakhon Si Thammarat,Samarinda,Miri,Bago,Soc Trang,Zamboanga,Ho Chi Minh City,Pathein,Jurong,General Santos,Tra Vinh,Shah Alam,Tampines,Bangar,Ang Mo Kio,Sandakan,Son La,Maubara,Ha Giang,Thai Binh,Medan,Chiang Rai,Sam Neua,Bangkok,Thakhek,Can Tho,Hai Phong,Da Lat,Luang Prabang,Kampong Cham,Savannakhet,Phan Thiet,Xieng Khouang,Nha Trang,Lạng Sơn,Liuzhou,Nanning,Kunming,Takeo,Quy Nhon,Hue,Pursat,Hanoi,Battambang,Kampot,Lào Cai,Katuak,Katuat,Katuap,Katuam,Katuan,Katuas,Katuar,Katual,Katuad,Katuag,Katuab",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Kewarat",
-    "i": 202473,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Kewarat,Levuka,Yap,Kone,Kiunga,Kimbe,Abaiang,Kolonia,Denigomodu,Leulumoega,Punaauia,Palau,Munda,Alotau,Kairuku,Sogeri,Tiga,Baiti,Peleliu,Yaren,Ok Tedi,Tarawa,Kosrae,Tabiteuea,Whangarei,Paro,Jaipur,Kankan,Banjul,Wa,Bissau,Conakry,Sunyani,Accra,Daloa,Freetown,Ouagadougou,Porto-Novo,Maiduguri,Niamey,Cotonou,Yola,Korhogo,Malabo,Sikasso,Kayes,Parakou,Nouakchott,Koudougou,Yamoussoukro,Zinder,Mopti,Banfora,Kumba,Kewaratk,Kewaratt,Kewaratp,Kewaratm,Kewaratn,Kewarats,Kewaratr,Kewaratl,Kewaratd,Kewaratg,Kewaratb",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Kharchin / Khorchin Mongol",
-    "i": 202475,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Kharchin / Khorchin Mongol,Ashtarak,Ijevan,Derbent,Tskhinvali,Stepanakert,Goris,Naftalan,Xinaliq,Shushi,Salekhard,Khachmaz,Pyatigorsk,Quba,Nazran,Balakan,Hangzhou,Yokohama,Harbin,Chiayi,Guangzhou,Changsha,Hsinchu,Taoyuan,Incheon,Zhuhai,Changwon,Erdenet,Udon Thani,Nha Trang,Hue,Phnom Penh,Chonburi,Thakhek,Phan Thiet,Vientiane,Hanoi,Lạng Sơn,Naypyidaw,My Tho,Mawlamyine,Ho Chi Minh City,Takeo,Xieng Khouang,Mandalay,Siem Reap,Shantou,Chiang Rai,Taunggyi,Guilin,Luang Prabang,Wuzhou,Hai Phong,Surat Thani,Kampot,Kharchink,Kharchint,Kharchinp,Kharchinm,Kharchinn,Kharchins,Kharchinr,Kharchinl,Kharchind,Kharching,Kharchinb",
     "status": "COMPLETE"
   },
   {
@@ -18534,56 +17923,6 @@ window.asiaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Lower Uda Buryat",
-    "i": 202492,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Lower Uda Buryat,Bissau,Bida,Minna,Nnewi,Saminaka,Tambacounda,Bafatá,Yola,Garoua,Tchibanga,Tema,Parakou,Maiduguri,Mopti,Gashua,Labé,Kete Krachi,Dapaong,Bolama,Tahoua,Wa,Kontagora,Luba,Okene,Faranah,Sikasso,Geidam,Tashkent,Samarkand,Khorugh,Nukus,Balkanabat,Atyrau,Andijan,Lahore,Osh,Karakol,Turkmenabat,Dushanbe,Kulob,Batken,Bayramaly,Bishkek,Murghob,Fergana,Shymkent,Jalalabad,Bokhtar,Murgab,Yangibazar,Gyzylarbat,Kandahar,Talas,Karagandy,LowerUdaBuryatk,LowerUdaBuryatt,LowerUdaBuryatp,LowerUdaBuryatm,LowerUdaBuryatn,LowerUdaBuryats,LowerUdaBuryatr,LowerUdaBuryatl,LowerUdaBuryatd,LowerUdaBuryatg,LowerUdaBuryatb",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Macro-Zhuang",
-    "i": 202493,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Macro-Zhuang,Chiba,Ölgii,Baotou,Saitama,Miaoli,Changwon,Khovd,Nantou,Sariwon,Jeju,Nagasaki,Luoyang,Kanggye,Kanazawa,Dongguan,Denpasar,Balikpapan,Pakse,Pattaya,Udon Thani,Cebu,Surabaya,Vientiane,Hanoi,Palembang,Cilegon,Liquiçá,Sam Neua,Chiang Rai,Quy Nhon,Nha Trang,Rach Gia,Vinh,Surat Thani,My Tho,Nanning,Thakhek,Chiang Mai,Da Nang,Ho Chi Minh City,Hue,Savannakhet,Hai Phong,Kunming,Yangon,Điện Biên Phủ,Bangkok,Phan Thiet,Siem Reap,Bago,Mawlamyine,MacroZhuangk,MacroZhuangt,MacroZhuangp,MacroZhuangm,MacroZhuangn,MacroZhuangs,MacroZhuangr,MacroZhuangl,MacroZhuangd,MacroZhuangg,MacroZhuangb",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Madiya",
-    "i": 202494,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Madiya,Visakhapatnam,Rishikesh,Lucknow,Jhang,Chennai,Sambalpur,Fuvahmulah,Sialkot,Faisalabad,Rawalpindi,Vijayawada,Hyderabad,Barisal,Panaji,Asansol,Haridwar,Shikarpur,Imphal,Muzaffargarh,Jamshedpur,Patna,Bhubaneswar,Kurunegala,Warangal,Guntur,Ahmedabad,Pokhara,Ziguinchor,Nzérékoré,Bissau,Bobo-Dioulasso,Lomé,Ouahigouya,Gbarnga,Freetown,Kayes,Korhogo,Gusau,Bata,Bauchi,Bafatá,Banjul,Monrovia,Mopti,Bouaké,Timbuktu,Tamale,Garoua,Brikama,Yamoussoukro,Kaduna,Ebebiyín,Zaria,Buea,Madiyak,Madiyat,Madiyap,Madiyam,Madiyan,Madiyas,Madiyar,Madiyal,Madiyad,Madiyag,Madiyab",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Magahi",
-    "i": 202495,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Magahi,Visakhapatnam,Rishikesh,Lucknow,Jhang,Chennai,Sambalpur,Fuvahmulah,Sialkot,Faisalabad,Rawalpindi,Vijayawada,Hyderabad,Barisal,Panaji,Asansol,Haridwar,Shikarpur,Imphal,Muzaffargarh,Jamshedpur,Patna,Bhubaneswar,Kurunegala,Warangal,Guntur,Ahmedabad,Pokhara,Nagpur,Kolkata,Rourkela,Delhi,Jalandhar,Allahabad,Dimapur,Coimbatore,Rangpur,Siliguri,Faridabad,Aurangabad,Jodhpur,Gangtok,Dharan,Gwalior,Varanasi,Prayagraj,Jammu,Ghaziabad,Surat,Chandigarh,Guwahati,Tiruchirappalli,Magahik,Magahit,Magahip,Magahim,Magahin,Magahis,Magahir,Magahil,Magahid,Magahig,Magahib",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Magar Kham",
-    "i": 202497,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Magar Kham,Lae,Tabiteuea,Tiga,Rabaul,Yaren,Ohonua,Kimbe,Kosrae,Wollongong,Abaiang,Raiatea,Denigomodu,Luganville,Mendi,Peleliu,Misima,Kairuku,Nibok,Baiti,Butaritari,Ebeye,Ok Tedi,Naypyidaw,Balikpapan,Quy Nhon,Shigatse,Zhongdian,Kunming,Chamdo,Barkam,Batang,Deqin,Lijiang,Dali,Kangding,Gangtok,Dalton Ganj,Sarchu,Padum,Melli,Nainital,Leshan,Rhenock,Rangpo,Jakar,Paro,Lincang,Baoshan,Tura,Cherrapunji,Samdrup Jongkhar,MagarKhamk,MagarKhamt,MagarKhamp,MagarKhamm,MagarKhamn,MagarKhams,MagarKhamr,MagarKhaml,MagarKhamd,MagarKhamg,MagarKhamb",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Maithili",
     "i": 202498,
     "min": 4,
@@ -18624,16 +17963,6 @@ window.asiaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Malankuravan",
-    "i": 202502,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Malankuravan,Naftalan,Tskhinvali,Khachmaz,Gagra,Hrazdan,Qonagkend,Quba,Vladimir,Abovyan,Tikhoretsk,Anapa,Lahij,Khasavyurt,Shamakhi,Mahačkala,Yevlakh,Laryak,Shushi,Tangerang,Thakhek,Lao Cai,Kuala Terengganu,Hue,Hai Phong,Can Tho,Mae Hong Son,Ambon,Accra,Kara,Bobo-Dioulasso,Abidjan,Conakry,Freetown,Banjul,Dakar,Praia,Ouagadougou,Lafia,Ziguinchor,Lomé,Daloa,Zinder,Koidu,Saint-Louis,Bamako,Buea,Parakou,Kayes,Tamale,Bafatá,Thiès,Niamey,Banfora,Sikasso",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Malapandaram",
     "i": 202503,
     "min": 4,
@@ -18641,26 +17970,6 @@ window.asiaNameBases = [
     "d": "",
     "m": 0,
     "b": "Malapandaram,Saminaka,Diffa,Bafatá,Yola,Foumban,Tchibanga,Gagnoa,Parakou,Cape Coast,Mutengene,Gashua,Louga,Natitingou,Tamale,Geidam,Tahoua,Wa,Bamenda,Sarh,Awka,Faranah,Dédougou,Gao,Kumba,Yamoussoukro,Moundou,Cacheu,Conakry,Kankan,Korhogo,Bamako,Bobo-Dioulasso,Tenkodogo,Accra,Freetown,Banjul,Garoua,Ziguinchor,Thiès,Sikasso,Nzérékoré,Maiduguri,Gbarnga,Nouakchott,Porto-Novo,Mopti,Niamey,Saint-Louis,Zaria,Sunyani,Kumasi,Malapandaramk,Malapandaramt,Malapandaramp,Malapandaramm,Malapandaramn,Malapandarams,Malapandaramr,Malapandaraml,Malapandaramd,Malapandaramg,Malapandaramb",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Malasar",
-    "i": 202504,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Malasar,Vadodara,Visakhapatnam,Sylhet,Lucknow,Rajahmundry,Chennai,Khanewal,Dinajpur,Amritsar,Thiruvananthapuram,Hyderabad,Guntur,Karachi,Jamshedpur,Ghaziabad,Thatta,Siliguri,Rawalpindi,Tirupati,Kolkata,Dhanbad,Rangpur,Bhubaneswar,Kozhikode,Warangal,Butwal,Gulbarga,Conakry,Basse,Man,Bamako,Cotonou,Bissau,Kaduna,Dakar,Kaolack,Praia,Bata,Gbarnga,Kumasi,Kayes,Bolt,Koidu,Bauchi,Koudougou,Korhogo,Ségou,Garoua,Nzérékoré,Banjul,Zinder,Malabo,Niamey,Bafoussam,Malasark,Malasart,Malasarp,Malasarm,Malasarn,Malasars,Malasarr,Malasarl,Malasard,Malasarg,Malasarb",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Malpande",
-    "i": 202505,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Malpande,Owerri,Sokoto,Aba,Parakou,Thiès,Ebolowa,Kaduna,Louga,Ughelli,Kindia,Ambam,Tahoua,Wa,Okigwe,Gao,Awka,Faranah,Bida,Aksum,Ségou,Yamoussoukro,Moundou,Enugu,Sesheke,Zaria,Timbuktu,Douala,Abidjan,Nouakchott,Ebebiyín,Praia,Kaolack,Bouaké,Kankan,Daloa,Tema,Kara,Lomé,Bamenda,Bertoua,Porto-Novo,Gusau,Bolama,Kano,Mopti,Sunyani,Bafatá,Dakar,Sokodé,Minna,Bolt,Kumba,Ziguinchor,Malpandek,Malpandet,Malpandep,Malpandem,Malpanden,Malpandes,Malpander,Malpandel,Malpanded,Malpandeg,Malpandeb",
     "status": "COMPLETE"
   },
   {
@@ -18681,16 +17990,6 @@ window.asiaNameBases = [
     "d": "",
     "m": 0,
     "b": "Manglish,Soc Trang,Rayong,Serang,Pattaya,Lhokseumawe,Sandakan,Ternate,Vinh Long,Bogor,Da Nang,Champasak,Woodlands,Quezon City,Lang Son,Bago,Nha Trang,Baguio,Jakarta,Pathein,Dien Bien Phu,Bandar Seri Begawan,Nam Dinh,Shah Alam,Semarang,Baucau,Senmonorom,Khon Kaen,Bamako,Banjul,Bafatá,Nouakchott,Basse,Dakar,Mopti,Kara,Daloa,Freetown,Gbarnga,Kaolack,Ngaoundéré,Bouaké,Lomé,Praia,Parakou,Maiduguri,Bobo-Dioulasso,Bertoua,Kankan,Koidu,Malabo,Monrovia,Gusau,Niamey,Sikasso,Manglishk,Manglisht,Manglishp,Manglishm,Manglishn,Manglishs,Manglishr,Manglishl,Manglishd,Manglishg,Manglishb",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Marwari",
-    "i": 202514,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Marwari,Vadodara,Visakhapatnam,Sylhet,Lucknow,Rajahmundry,Chennai,Khanewal,Dinajpur,Amritsar,Thiruvananthapuram,Hyderabad,Guntur,Karachi,Jamshedpur,Ghaziabad,Thatta,Siliguri,Rawalpindi,Tirupati,Kolkata,Dhanbad,Rangpur,Bhubaneswar,Kozhikode,Warangal,Butwal,Gulbarga,Bobo-Dioulasso,Abidjan,Accra,Bouaké,Kano,Dakar,Gbarnga,Freetown,Kayes,Korhogo,Kaolack,Nzérékoré,Zaria,Kara,Man,Kumasi,Sokodé,Bertoua,Timbuktu,Tamale,Sokoto,Basse,Praia,Yamoussoukro,Monrovia,Lafia,Porto-Novo,Marwarik,Marwarit,Marwarip,Marwarim,Marwarin,Marwaris,Marwarir,Marwaril,Marwarid,Marwarig,Marwarib",
     "status": "COMPLETE"
   },
   {
@@ -18731,36 +18030,6 @@ window.asiaNameBases = [
     "d": "",
     "m": 0,
     "b": "Mnong,Khon Kaen,Tomohon,Kuala Terengganu,Bandar Lampung,Trat,Champasak,Nakhon Si Thammarat,Samarinda,Miri,Bago,Soc Trang,Zamboanga,Ho Chi Minh City,Pathein,Jurong,General Santos,Tra Vinh,Shah Alam,Tampines,Bangar,Ang Mo Kio,Sandakan,Son La,Maubara,Ha Giang,Thai Binh,Medan,Savannakhet,Sam Neua,Sihanoukville,Hai Phong,Thakhek,Qionghai,Haikou,Vinh,Vientiane,Rach Gia,Cao Bằng,Guilin,Pakse,Takeo,Phan Thiet,Kampong Cham,Fangchenggang,Xieng Khouang,Udon Thani,Mandalay,Siem Reap,Kampot,Hue,Beihai,Liuzhou,Mnongk,Mnongt,Mnongp,Mnongm,Mnongn,Mnongs,Mnongr,Mnongl,Mnongd,Mnongg,Mnongb",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Moghol / Mogholi",
-    "i": 202524,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Moghol / Mogholi,Bissau,Bida,Minna,Nnewi,Saminaka,Tambacounda,Bafatá,Yola,Garoua,Tchibanga,Tema,Parakou,Maiduguri,Mopti,Gashua,Labé,Kete Krachi,Dapaong,Bolama,Tahoua,Wa,Kontagora,Luba,Okene,Faranah,Sikasso,Geidam,Bishkek,Fergana,Tashkent,Kirovabad,Almaty,Naryn,Kulob,Samarkand,Shymkent,Oral,Ashgabat,Karagandy,Bayramaly,Isfahan,Khorugh,Dashoguz,Bukhara,Pavlodar,Tehran,Tokmok,Istaravshan,Shiraz,Karaj,Kandahar,Herat,Bokhtar,Tabriz,Mogholk,Mogholt,Mogholp,Mogholm,Mogholn,Moghols,Mogholr,Mogholl,Moghold,Mogholg,Mogholb",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Mogholi",
-    "i": 202525,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Mogholi,Tchibanga,Conakry,Parakou,Fatick,Jalingo,Gashua,Koulikoro,Tougué,Dapaong,Kontagora,Tahoua,Wa,Franceville,Luba,Umuahia,Faranah,Zaria,Lafia,Nkongsamba,Yamoussoukro,Moundou,Porto-Novo,Ségou,Ife,Timbuktu,Farafenni,Lomé,Samarkand,Namangan,Andijan,Ghazni,Fergana,Shymkent,Jalalabad,Oral,Aktau,Talas,Balkanabat,Qom,Pavlodar,Bokhtar,Murghob,Tabriz,Turkmenabat,Tokmok,Nur-Sultan,Atyrau,Herat,Tejen,Karaj,Khorugh,Panjakent,Yangibazar,Kunduz,Mogholik,Mogholit,Mogholip,Mogholim,Mogholin,Mogholis,Mogholir,Mogholil,Mogholid,Mogholig,Mogholib",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Mongghul",
-    "i": 202526,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Mongghul,Owerri,Sokoto,Aba,Parakou,Thiès,Ebolowa,Kaduna,Louga,Ughelli,Kindia,Ambam,Tahoua,Wa,Okigwe,Gao,Awka,Faranah,Bida,Aksum,Ségou,Yamoussoukro,Moundou,Enugu,Sesheke,Zaria,Timbuktu,Douala,Hue,Bangkok,Điện Biên Phủ,Wuzhou,Hanoi,Ho Chi Minh City,Can Tho,Da Nang,Vinh,Vientiane,Haikou,Cao Bằng,Kunming,Zhanjiang,Phnom Penh,Hà Giang,My Tho,Bago,Battambang,Savannakhet,Mandalay,Quy Nhon,Guilin,Sihanoukville,Phan Thiet,Mawlamyine,Pakse,Mongghulk,Mongghult,Mongghulp,Mongghulm,Mongghuln,Mongghuls,Mongghulr,Mongghull,Mongghuld,Mongghulg,Mongghulb",
     "status": "COMPLETE"
   },
   {
@@ -19564,16 +18833,6 @@ window.asiaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Svan",
-    "i": 202803,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Svan,Quba,Qonagkend,Vladimir,Naftalan,Tikhoretsk,Anapa,Lahij,Khachmaz,Mahačkala,Khasavyurt,Shamakhi,Laryak,Yevlakh,Krasnodar,Shushi,Goris,Kropotkin,Vanadzor,Magas,Lagodekhi,Nalchik,Martuni,Gagra,Meghri,Telavi,Zagatala,Vladikavkaz,Tbilisi,Makhachkala,Kaspiysk,Akhaltsikhe,Sukhumi,Borjomi,Sighnaghi,Gori,Ochamchire,Grozny,Adygeysk,Kutaisi,Baksan,Korenovsk,Buynaksk,Labinsk,Malgobek,Tyrnyauz,Zugdidi,Karachayevsk,Krymsk,Chegem,Maykop,Svank,Svant,Svanp,Svanm,Svann,Svans,Svanr,Svanl,Svand,Svang,Svanb",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Sarikoli",
     "i": 202809,
     "min": 4,
@@ -19801,16 +19060,6 @@ window.asiaNameBases = [
     "d": "",
     "m": 0,
     "b": "Madras Bashai,Okigwe,Fada N'Gourma,Gwoza,Bafatá,Yola,Makokou,Bobo-Dioulasso,Aba,Parakou,Dosso,Rijau,Cotonou,Louga,Bitam,Niamey,Ambam,Sekondi,Wa,Kissidougou,Korhogo,Awka,Tema,Yusufari,Aksum,Katsina,Yamoussoukro,Moundou,Bouaké,Bertoua,Conakry,Bissau,Banjul,Kankan,Accra,Abidjan,Freetown,Kaolack,Daloa,Kara,Tambacounda,Kano,Sunyani,Timbuktu,Lomé,Nouakchott,Porto-Novo,Nzérékoré,Assomada,Maiduguri,Cacheu,MadrasBashaik,MadrasBashait,MadrasBashaip,MadrasBashaim,MadrasBashain,MadrasBashais,MadrasBashair,MadrasBashail,MadrasBashaid,MadrasBashaig,MadrasBashaib",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Vedda",
-    "i": 202300,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Vedda,Parakou,Lafia,Rijau,Kumasi,Louga,Ouagadougou,Ségou,Ambam,Kaolack,Wa,Cape Coast,Yaoundé,Awka,Faranah,Ibadan,Tamale,Gabú,Yamoussoukro,Moundou,Baga,Sarh,Ife,Timbuktu,Kenema,Mongu,Kumba,Harper,Bamako,Accra,Gbarnga,Bouaké,Bobo-Dioulasso,Conakry,Praia,Abidjan,Man,Katsina,Ebebiyín,Ngaoundéré,Kara,Koudougou,Mopti,Lomé,Maiduguri,Monrovia,Maroua,Nzérékoré,Tema,Garoua,Porto-Novo,Veddak,Veddat,Veddap,Veddam,Veddan,Veddas,Veddar,Veddal,Veddad,Veddag,Veddab",
     "status": "COMPLETE"
   },
   {
@@ -20101,16 +19350,6 @@ window.asiaNameBases = [
     "d": "",
     "m": 0,
     "b": "Nao Klao,Agra,Mymensingh,Visakhapatnam,Madurai,Lucknow,Jhang,Thinadhoo,Agartala,Karachi,Sialkot,Trincomalee,Hyderabad,Aurangabad,Mumbai,Chennai,Panaji,Ghaziabad,Chandigarh,Shikarpur,Imphal,Rajahmundry,Dhanbad,Varanasi,Bhubaneswar,Haridwar,Warangal,Nashik,Chiang Mai,Da Lat,Haikou,Sam Neua,Phnom Penh,Sanya,Naypyidaw,Pursat,Nakhon Ratchasima,Liuzhou,Bago,Phongsali,Vientiane,Da Nang,Pakse,Điện Biên Phủ,Battambang,Chiang Rai,Pathein,Yangon,Xieng Khouang,Myitkyina,Beihai,Sihanoukville,Hanoi,Mandalay,Vinh,NaoKlaok,NaoKlaot,NaoKlaop,NaoKlaom,NaoKlaon,NaoKlaos,NaoKlaor,NaoKlaol,NaoKlaod,NaoKlaog,NaoKlaob",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Swabian German",
-    "i": 203034,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Swabian German,Plzeň,Glasgow,Viseu,Mogilev,Bordeaux,Esch-sur-Alzette,Prilep,Mariupol,Lyon,Kumanovo,Nyíregyháza,Reims,Trondheim,Hannover,Omagh,Armagh,Mykolaiv,Rijeka,Pärnu,Tallinn,Thessaloniki,Bonn,Bruges,Belgrade,Innsbruck,Brno,Barcelona,Copenhagen,Liège,Leoben,Bologna,Hamburg,Seville,Montreux,Bristol,Granada,Marseille,Venice,Aveiro,Nantes,Strasbourg,Milan,Kópavogur,Rome,Örebro,Bilbao,Malmö,Turin,Gdansk,Vejle,SwabianGermank,SwabianGermant,SwabianGermanp,SwabianGermanm,SwabianGermann,SwabianGermans,SwabianGermanr,SwabianGermanl,SwabianGermand,SwabianGermang,SwabianGermanb",
     "status": "COMPLETE"
   },
   {
