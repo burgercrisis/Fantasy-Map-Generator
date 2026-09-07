@@ -1670,16 +1670,6 @@ window.europeNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Mozarabic",
-    "i": 495,
-    "min": 4,
-    "max": 25,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Toledo,Córdoba,Sevilla,Granada,Málaga,Almería,Jaén,Cádiz,Huelva,Badajoz,Mérida,Zaragoza,Valencia,Murcia,Alicante,Algeciras,Tarifa,Ronda,Antequera,Écija,Utrera,Jerez de la Frontera,Sanlúcar de Barrameda,Chipiona,Rota,El Puerto de Santa María,Chiclana de la Frontera,Conil de la Frontera,La Línea de la Concepción,Gibraltar,Cáceres,Plasencia,Trujillo,Medellín,Guadalupe,Ciudad Rodrigo,Salamanca,Llerena,Zafra,Fregenal de la Sierra,Higuera de la Sierra,Aracena,Coria,Coria del Río,Carmona,Osuna,Marchena,Estepa,Lucena,Puente Genil,Loja,Alhama de Granada,Baza,Guadix,Almuñécar,Motril,Vélez-Málaga",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Murcian",
     "i": 496,
     "min": 4,
@@ -6870,16 +6860,6 @@ window.europeNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Bahrani Arabic ",
-    "i": 1073,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Manama,Muharraq,IsaTown,Sitra,Budaiya,Jidhafs,Sanabis,Seef,Busaiteen,Aali,MadinatHamad,Riffa,Hidd,Zallaq,Diraz,Barbar,BaniJamra,Janabiya,Awali,Salmaniya",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Baima ",
     "i": 1075,
     "min": 4,
@@ -9787,6 +9767,612 @@ window.europeNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Mogadishu,Genale,Villabruzi,ItalianSomaliland,MogadishuRegion,Mogadiscio,ItalianSomalilandColony,MogadishuCapital,ItalianSomalia,SomaliaPidginItalian",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Swedish",
+    "i": 24630,
+    "min": 4,
+    "max": 12,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Stockholm,Gothenburg,Malmo,Uppsala,Vasteras,Orebro,Linkoping,Helsingborg,Jonkoping,Norrkoping,Lund,Umea,Gavle,Boras,Sodertalje,Eskilstuna,Halmstad,Vaxjo,Karlstad,Sundsvall,Ostersund,Trollhattan,Skovde,Borlange,Kristianstad,Falun,Kalmar,Nykoping,Karlskrona,Skelleftea,Harnosand,Lidkoping,Mariestad,Vastervik,Kiruna,Boden,Pitea,Lulea,Sundbyberg,Solna,Taby,Huddinge,Nacka,Sigtuna,Norrtalje,Nynashamn,Strangnas,Enkoping,Hallstahammar,Koping,Arboga,Lindesberg,Askersund,Motala,Mjolby,Vadstena,Atvidaberg,Finspang,Katrineholm,Flen,Malmkoping,Gnesta,Trosa,Mariefred,Kumla,Hallsberg,Laxa,Degerfors,Karlskoga,Nora,Soderhamn,Hudiksvall,Ljusdal,Bollnas,Sandviken,Hofors,Ockelbo,Amot,Alfta,Edsbyn,Farila,Jarvso,Kilafors,Lingbo,Vallsta,Bergsjo,Delsbo,Enanger,Timra,Kramfors,Solleftea,Ornskoldsvik,Lycksele,Storuman,Vilhelmina,Dorotea,Asele,Stromsund,Ragunda,Bracke,Krokom,Are,Jarpen,Sveg,Hede,Vemdalen,Funasdalen,Lofsdalen,Brunflo,Lit,Hammerdal,Hoting,Hallesjo,Gallivare,Jukkasjarvi,Pajala,Karesuando,Vittangi,Svappavaara,Malmberget,Koskullskulle,Jokkmokk,Porjus,Kvikkjokk,Vuollerim,Arvidsjaur,Arjeplog,Sorsele,Vindeln,Vannas,Burea,Kalix,Haparanda"
+  },
+  {
+    "name": "Swedish",
+    "i": 24822,
+    "min": 4,
+    "max": 12,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Stockholm,Gothenburg,Malmo,Uppsala,Vasteras,Orebro,Linkoping,Helsingborg,Jonkoping,Norrkoping,Lund,Umea,Gavle,Boras,Sodertalje,Eskilstuna,Halmstad,Vaxjo,Karlstad,Sundsvall,Ostersund,Trollhattan,Skovde,Borlange,Kristianstad,Falun,Kalmar,Nykoping,Karlskrona,Skelleftea,Harnosand,Lidkoping,Mariestad,Vastervik,Kiruna,Boden,Pitea,Lulea,Sundbyberg,Solna,Taby,Huddinge,Nacka,Sigtuna,Norrtalje,Nynashamn,Strangnas,Enkoping,Hallstahammar,Koping,Arboga,Lindesberg,Askersund,Motala,Mjolby,Vadstena,Atvidaberg,Finspang,Katrineholm,Flen,Malmkoping,Gnesta,Trosa,Mariefred,Kumla,Hallsberg,Laxa,Degerfors,Karlskoga,Nora,Soderhamn,Hudiksvall,Ljusdal,Bollnas,Sandviken,Hofors,Ockelbo,Amot,Alfta,Edsbyn,Farila,Jarvso,Kilafors,Lingbo,Vallsta,Bergsjo,Delsbo,Enanger,Timra,Kramfors,Solleftea,Ornskoldsvik,Lycksele,Storuman,Vilhelmina,Dorotea,Asele,Stromsund,Ragunda,Bracke,Krokom,Are,Jarpen,Sveg,Hede,Vemdalen,Funasdalen,Lofsdalen,Brunflo,Lit,Hammerdal,Hoting,Hallesjo,Gallivare,Jukkasjarvi,Pajala,Karesuando,Vittangi,Svappavaara,Malmberget,Koskullskulle,Jokkmokk,Porjus,Kvikkjokk,Vuollerim,Arvidsjaur,Arjeplog,Sorsele,Vindeln,Vannas,Burea,Kalix,Haparanda"
+  },
+  {
+    "name": "Swedish",
+    "i": 25059,
+    "min": 4,
+    "max": 12,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Stockholm,Gothenburg,Malmo,Uppsala,Vasteras,Orebro,Linkoping,Helsingborg,Jonkoping,Norrkoping,Lund,Umea,Gavle,Boras,Sodertalje,Eskilstuna,Halmstad,Vaxjo,Karlstad,Sundsvall,Ostersund,Trollhattan,Skovde,Borlange,Kristianstad,Falun,Kalmar,Nykoping,Karlskrona,Skelleftea,Harnosand,Lidkoping,Mariestad,Vastervik,Kiruna,Boden,Pitea,Lulea,Sundbyberg,Solna,Taby,Huddinge,Nacka,Sigtuna,Norrtalje,Nynashamn,Strangnas,Enkoping,Hallstahammar,Koping,Arboga,Lindesberg,Askersund,Motala,Mjolby,Vadstena,Atvidaberg,Finspang,Katrineholm,Flen,Malmkoping,Gnesta,Trosa,Mariefred,Kumla,Hallsberg,Laxa,Degerfors,Karlskoga,Nora,Soderhamn,Hudiksvall,Ljusdal,Bollnas,Sandviken,Hofors,Ockelbo,Amot,Alfta,Edsbyn,Farila,Jarvso,Kilafors,Lingbo,Vallsta,Bergsjo,Delsbo,Enanger,Timra,Kramfors,Solleftea,Ornskoldsvik,Lycksele,Storuman,Vilhelmina,Dorotea,Asele,Stromsund,Ragunda,Bracke,Krokom,Are,Jarpen,Sveg,Hede,Vemdalen,Funasdalen,Lofsdalen,Brunflo,Lit,Hammerdal,Hoting,Hallesjo,Gallivare,Jukkasjarvi,Pajala,Karesuando,Vittangi,Svappavaara,Malmberget,Koskullskulle,Jokkmokk,Porjus,Kvikkjokk,Vuollerim,Arvidsjaur,Arjeplog,Sorsele,Vindeln,Vannas,Burea,Kalix,Haparanda"
+  },
+  {
+    "name": "Swedish",
+    "i": 25326,
+    "min": 4,
+    "max": 12,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Stockholm,Gothenburg,Malmo,Uppsala,Vasteras,Orebro,Linkoping,Helsingborg,Jonkoping,Norrkoping,Lund,Umea,Gavle,Boras,Sodertalje,Eskilstuna,Halmstad,Vaxjo,Karlstad,Sundsvall,Ostersund,Trollhattan,Skovde,Borlange,Kristianstad,Falun,Kalmar,Nykoping,Karlskrona,Skelleftea,Harnosand,Lidkoping,Mariestad,Vastervik,Kiruna,Boden,Pitea,Lulea,Sundbyberg,Solna,Taby,Huddinge,Nacka,Sigtuna,Norrtalje,Nynashamn,Strangnas,Enkoping,Hallstahammar,Koping,Arboga,Lindesberg,Askersund,Motala,Mjolby,Vadstena,Atvidaberg,Finspang,Katrineholm,Flen,Malmkoping,Gnesta,Trosa,Mariefred,Kumla,Hallsberg,Laxa,Degerfors,Karlskoga,Nora,Soderhamn,Hudiksvall,Ljusdal,Bollnas,Sandviken,Hofors,Ockelbo,Amot,Alfta,Edsbyn,Farila,Jarvso,Kilafors,Lingbo,Vallsta,Bergsjo,Delsbo,Enanger,Timra,Kramfors,Solleftea,Ornskoldsvik,Lycksele,Storuman,Vilhelmina,Dorotea,Asele,Stromsund,Ragunda,Bracke,Krokom,Are,Jarpen,Sveg,Hede,Vemdalen,Funasdalen,Lofsdalen,Brunflo,Lit,Hammerdal,Hoting,Hallesjo,Gallivare,Jukkasjarvi,Pajala,Karesuando,Vittangi,Svappavaara,Malmberget,Koskullskulle,Jokkmokk,Porjus,Kvikkjokk,Vuollerim,Arvidsjaur,Arjeplog,Sorsele,Vindeln,Vannas,Burea,Kalix,Haparanda"
+  },
+  {
+    "name": "Lower Sorbian",
+    "i": 203014,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "Lower Sorbian,Canterbury,Soroca,The Hague,Viljandi,Daugavpils,Patras,Graz,Helsingør,Dubrovnik,Catania,Aberystwyth,Lisburn,Szeged,Mosta,Sliema,Akureyri,Zadar,Drammen,Kópavogur,Faro,Celje,Nice,Tuzla,Cetinje,Belfast,Niš,Strasbourg,Ufa,Moscow,Yekaterinburg,Omsk,Rostov-on-Don,Rijeka,Žilina,Perm,Zaporizhzhia,Chișinău,Kumanovo,Novosibirsk,Baranovichi,Poznań,Kharkiv,Babruysk,Mogilev,Elbląg,Saratov,Stara Zagora,Sofia,Voronezh,Subotica,Plovdiv,Burgas,Banská Bystrica,LowerSorbiank,LowerSorbiant,LowerSorbianp,LowerSorbianm,LowerSorbiann,LowerSorbians,LowerSorbianr,LowerSorbianl,LowerSorbiand,LowerSorbiang,LowerSorbianb",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Swedish (native-speakers subset)",
+    "i": 203035,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "Swedish (native-speakers subset),Miskolc,Cluj-Napoca,Tromsø,Viljandi,Dresden,Klaipėda,Edinburgh,Groningen,Nova Gorica,Rakvere,Oulu,Heraklion,Timișoara,Larissa,Padua,Armagh,Malmö,Qormi,Mogilev,Hafnarfjörður,Glasgow,Dubrovnik,Prilep,Bangor,Celje,Linköping,Kharkiv,Strasbourg,Düsseldorf,Lyon,Nice,Granada,Frankfurt,Oslo,Linz,Valencia,Málaga,Munich,Esbjerg,Milan,Poznan,Rome,Florence,Bilbao,Stuttgart,Lucerne,Bristol,Naples,Liberec,Wroclaw,Seville,Bregenz,Funchal,Norrköping,Swedishk,Swedisht,Swedishp,Swedishm,Swedishn,Swedishs,Swedishr,Swedishl,Swedishd,Swedishg,Swedishb",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Upper Saxon",
+    "i": 203036,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "Upper Saxon,Oxford,Utrecht,Daugavpils,Narva,Bergen,Dubrovnik,Esbjerg,Cluj-Napoca,Verona,Szeged,Belfast,Poznań,Birkirkara,Reykjavík,České Budějovice,Rijeka,Kópavogur,Gdańsk,Randers,Coimbra,Tuzla,Lyon,Budva,Ghent,Vilnius,Malmö,Bilbao,Zurich,Granada,Liberec,Nantes,Dublin,Munich,Salzburg,Toulouse,Milan,Bordeaux,Berlin,Porto,Madrid,Rome,Leipzig,Amadora,Seville,Liège,Västerås,Vejle,Palermo,Lublin,Amsterdam,Plzeň,Stuttgart,UpperSaxonk,UpperSaxont,UpperSaxonp,UpperSaxonm,UpperSaxonn,UpperSaxons,UpperSaxonr,UpperSaxonl,UpperSaxond,UpperSaxong,UpperSaxonb",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Valdôtain",
+    "i": 203038,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "Valdôtain,Yola,Aplahoué,Bissau,Aba,Minna,Umuahia,Rijau,Tambacounda,Louga,Bimbila,Sapele,Ambam,Kaolack,Wa,Maiduguri,Nsukka,Awka,Labé,Praia,Aksum,Takum,Yamoussoukro,Moundou,Neves,Sesheke,Okene,Timbuktu,Chiang Mai,Hanoi,Mandalay,Quy Nhon,Nanning,Chiang Rai,Kunming,My Tho,Luang Prabang,Phan Thiet,Vinh,Udon Thani,Savannakhet,Fangchenggang,Pattaya,Takeo,Hai Phong,Xieng Khouang,Pathein,Sihanoukville,Nakhon Ratchasima,Macau,Beihai,Battambang,Khon Kaen,Sơn La,Liuzhou,Valdtaink,Valdtaint,Valdtainp,Valdtainm,Valdtainn,Valdtains,Valdtainr,Valdtainl,Valdtaind,Valdtaing,Valdtainb",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Walser German",
+    "i": 203039,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "Walser German,Canterbury,Soroca,The Hague,Viljandi,Daugavpils,Patras,Graz,Helsingør,Dubrovnik,Catania,Aberystwyth,Lisburn,Szeged,Mosta,Sliema,Akureyri,Zadar,Drammen,Kópavogur,Faro,Celje,Nice,Tuzla,Cetinje,Oslo,Poznań,Padua,Toulouse,Lyon,Strasbourg,Hamburg,Rome,Liverpool,Malmö,Amsterdam,Manchester,Randers,Bristol,Turin,Edinburgh,Wroclaw,Bilbao,Bydgoszcz,Lucerne,Plzeň,Norrköping,Dundalk,Venice,Gdansk,Waterford,Copenhagen,Innsbruck,WalserGermank,WalserGermant,WalserGermanp,WalserGermanm,WalserGermann,WalserGermans,WalserGermanr,WalserGermanl,WalserGermand,WalserGermang,WalserGermanb",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "West Polesian",
+    "i": 203040,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "West Polesian,Okigwe,Fada N'Gourma,Gwoza,Bafatá,Yola,Makokou,Bobo-Dioulasso,Aba,Parakou,Dosso,Rijau,Cotonou,Louga,Bitam,Niamey,Ambam,Sekondi,Wa,Kissidougou,Korhogo,Awka,Tema,Yusufari,Aksum,Katsina,Yamoussoukro,Moundou,Moscow,Novosibirsk,Sarajevo,Omsk,Volgograd,Babruysk,Saratov,Pančevo,Chișinău,Katowice,Zaporizhzhia,Saint Petersburg,Grodno,Yekaterinburg,Nizhny Novgorod,Vinnytsia,Mykolaiv,Wrocław,Subotica,Bratislava,Sofia,Kumanovo,Lviv,Brno,Tetovo,Zenica,Warsaw,WestPolesiank,WestPolesiant,WestPolesianp,WestPolesianm,WestPolesiann,WestPolesians,WestPolesianr,WestPolesianl,WestPolesiand,WestPolesiang,WestPolesianb",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Wisconsin Walloon",
+    "i": 203041,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "Wisconsin Walloon,Dundee,Podgorica,Liepāja,Soroca,Ioannina,Antwerp,Vantaa,Daugavpils,Trieste,Subotica,Dubrovnik,Dijon,Minsk,Szeged,Maribor,Varna,Liberec,Gothenburg,Lille,Kópavogur,Dudelange,Skopje,Genoa,Grenoble,Cardiff,Constanța,Rome,Limerick,Bydgoszcz,Trondheim,Funchal,Barcelona,Milan,Toulouse,Málaga,Zaragoza,Chur,Stuttgart,Liège,Seville,Glasgow,Gdansk,Florence,Frankfurt,Oulu,Cologne,České Budějovice,Innsbruck,Szczecin,Garðabær,Bologna,Brno,Palermo,Olomouc,WisconsinWalloonk,WisconsinWalloont,WisconsinWalloonp,WisconsinWalloonm,WisconsinWalloonn,WisconsinWalloons,WisconsinWalloonr,WisconsinWalloonl,WisconsinWalloond,WisconsinWalloong,WisconsinWalloonb",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Wymysorys",
+    "i": 203042,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "Wymysorys,Leicester,Daugavpils,Tromsø,Tallinn,Dubrovnik,Stara Zagora,Belfast,Odense,Szeged,Florence,Kharkiv,Aberystwyth,Valletta,Bergen,Panevėžys,Kópavogur,Zagreb,Nyíregyháza,Wrocław,Tuzla,Waterford,Sofia,Nikšić,Charleroi,Utrecht,Oslo,Kyiv,Bamenda,Accra,Bamako,Nouakchott,Gbarnga,Man,Cotonou,Conakry,Dakar,Mopti,Bouaké,Freetown,Lafia,Katsina,Kumasi,Lomé,Tambacounda,Koudougou,Niamey,Sunyani,Nzérékoré,Ouagadougou,Koidu,Bafatá,Ziguinchor,Kankan,Timbuktu,Wymysorysk,Wymysoryst,Wymysorysp,Wymysorysm,Wymysorysn,Wymysoryss,Wymysorysr,Wymysorysl,Wymysorysd,Wymysorysg,Wymysorysb",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Yenish",
+    "i": 203043,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "Yenish,Prilep,Łódź,Cork,Zaragoza,Athlone,Oulu,Podgorica,Baranovichi,Toulon,Banja Luka,Mykolaiv,Klagenfurt,Malmö,Antwerp,Tallinn,Reims,Korçë,Zrenjanin,Aberystwyth,Shkodër,Cetinje,Sofia,Sligo,Porto-Novo,Oyo,Warri,Niamey,Praia,Conakry,Abidjan,Bissau,Daloa,Bamenda,Katsina,Ziguinchor,Kankan,Garoua,Freetown,Maiduguri,Kaolack,Koidu,Nouakchott,Ségou,Cotonou,Koudougou,Bertoua,Accra,Thiès,Bauchi,Ouagadougou,Monrovia,Korhogo,Jalingo,Yenishk,Yenisht,Yenishp,Yenishm,Yenishn,Yenishs,Yenishr,Yenishl,Yenishd,Yenishg,Yenishb",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Zeelandic",
+    "i": 203044,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "Zeelandic,Gabala,Telavi,Lahij,Yevlakh,Laryak,Hrazdan,Kropotkin,Shamakhi,Sochi,Qonagkend,Xinaliq,Balakan,Khachmaz,Vladimir,Salekhard,Stepanakert,Abéché,Yako,Sekondi,Bogoro,Gusau,Maiduguri,Accra,Jalingo,Warri,Thiès,Wa,Achkhoy-Martan,Tbilisi,Gori,Makhachkala,Kobuleti,Akhaltsikhe,Nalchik,Ochamchire,Batumi,Karabulaq,Rustavi,Gagra,Poti,Derbent,Avtury,Khabez,Vladikavkaz,Kizilyurt,Adygeysk,Izberbash,Kaspiysk,Mozdok,Argun,Shali,Slavyansk-na-Kubani,Abinsk,Nartkala,Zeelandick,Zeelandict,Zeelandicp,Zeelandicm,Zeelandicn,Zeelandics,Zeelandicr,Zeelandicl,Zeelandicd,Zeelandicg,Zeelandicb",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Andi",
+    "i": 202794,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "Andi,Quba,Qonagkend,Vladimir,Naftalan,Tikhoretsk,Anapa,Lahij,Khachmaz,Mahačkala,Khasavyurt,Shamakhi,Laryak,Yevlakh,Krasnodar,Shushi,Goris,Kropotkin,Vagharshapat,Yerevan,Ganja,Borjomi,Gori,Tskhinvali,Telavi,Gagra,Sukhumi,Gabala,Adygeysk,Kutaisi,Karachayevsk,Derbent,Urus-Martan,Sighnaghi,Nalchik,Argun,Ochamchire,Mtskheta,Vladikavkaz,Shali,Kizilyurt,Izberbash,Kardonikskaya,Malgobek,Kizlyar,Beslan,Zelenchukskaya,Khabez,Mozdok,Grozny,Akhaltsikhe,Alagir",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Bezhta",
+    "i": 202795,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "Bezhta,Zugdidi,Quba,Xinaliq,Salekhard,Naftalan,Khachmaz,Pyatigorsk,Lahij,Nazran,Mahačkala,Balakan,Gabala,Laryak,Krasnodar,Goris,Kropotkin,Lagodekhi,Sumqayit,Kapan,Grozny,Sernovodsk,Armavir,Sighnaghi,Gakh,Anapa,Sochi,Shusha,Beslan,Batumi,Telavi,Terek,Tbilisi,Gori,Argun,Mtskheta,Gagra,Sukhumi,Khasavyurt,Borjomi,Kobuleti,Krymsk,Derbent,Buynaksk,Mozdok,Adygeysk,Timashevsk,Ardon,Baksan,Izberbash,Labinsk,Shali,Kizilyurt,Karachayevsk,Nalchik,Bezhtak,Bezhtat,Bezhtap,Bezhtam,Bezhtan,Bezhtas,Bezhtar,Bezhtal,Bezhtad,Bezhtag",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Botlikh",
+    "i": 202796,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "Botlikh,Telavi,Gabala,Naftalan,Yevlakh,Mahačkala,Krasnodar,Novorossiysk,Qonagkend,Stavropol,Shamakhi,Magas,Xinaliq,Derbent,Vladimir,Quba,Balakan,Salekhard,Stepanakert,Tikhoretsk,Sighnaghi,Nakhchivan,Ganja,Tskhinvali,Sukhumi,Shaki,Sunzha,Yeghegnadzor,Kizlyar,Gori,Poti,Zugdidi,Mtskheta,Akhaltsikhe,Nalchik,Ochamchire,Borjomi,Gagra,Gudermes,Karabulaq,Argun,Buynaksk,Adygeysk,Uchkeken,Chegem,Samashki,Izberbash,Korenovsk,Batumi,Maisky,Labinsk,Malgobek,Avtury",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Kabardian",
+    "i": 202797,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "Kabardian,Gabala,Telavi,Lahij,Yevlakh,Laryak,Hrazdan,Kropotkin,Shamakhi,Sochi,Qonagkend,Xinaliq,Balakan,Khachmaz,Vladimir,Salekhard,Stepanakert,Vanadzor,Makhachkala,Dedoplistskaro,Meghri,Zugdidi,Tskhinvali,Gyumri,Zagatala,Sukhumi,Poti,Hadrut,Malgobek,Argun,Sighnaghi,Samashki,Grozny,Gagra,Akhaltsikhe,Nartkala,Karachayevsk,Achkhoy-Martan,Izberbash,Batumi,Korenovsk,Ochamchire,Buynaksk,Mozdok,Gori,Kaspiysk,Cherkessk,Prokhladny,Gudermes,Karabulaq,Avtury,Krymsk,Labinsk,Nazran,Kabardiank,Kabardiant,Kabardianp,Kabardianm,Kabardiann,Kabardians,Kabardianr,Kabardianl,Kabardiand,Kabardiang,Kabardianb",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Kubachi",
+    "i": 202799,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "Kubachi,Telavi,Gabala,Naftalan,Yevlakh,Mahačkala,Krasnodar,Novorossiysk,Qonagkend,Stavropol,Shamakhi,Magas,Xinaliq,Derbent,Vladimir,Quba,Balakan,Salekhard,Stepanakert,Tikhoretsk,Vanadzor,Makhachkala,Dedoplistskaro,Meghri,Zugdidi,Hrazdan,Tskhinvali,Gyumri,Avtury,Mtskheta,Gagra,Sukhumi,Akhaltsikhe,Uchkeken,Adygeysk,Buynaksk,Borjomi,Gudermes,Ochamchire,Kaspiysk,Karabulaq,Beslan,Terek,Krymsk,Gori,Kizlyar,Chegem,Grozny,Shali,Rustavi,Alagir,Kardonikskaya",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Mingrelian",
+    "i": 202800,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "Mingrelian,Gagra,Khachmaz,Zugdidi,Tskhinvali,Quba,Xinaliq,Hrazdan,Salekhard,Naftalan,Pyatigorsk,Nazran,Lahij,Balakan,Mahačkala,Gabala,Laryak,Shushi,Krasnodar,Artashat,Gori,Martakert,Gyumri,Vanadzor,Dilijan,Derbent,Makhachkala,Anapa,Khasavyurt,Sighnaghi,Krymsk,Karachayevsk,Baksan,Telavi,Akhaltsikhe,Kaspiysk,Kobuleti,Borjomi,Sukhumi,Kardonikskaya,Shali,Izberbash,Storozhevaya,Terek,Grozny,Gudermes,Nalchik,Argun,Vladikavkaz,Abinsk,Avtury,Slavyansk-na-Kubani,Mingreliank,Mingreliant,Mingrelianp,Mingrelianm,Mingreliann,Mingrelians,Mingrelianr,Mingrelianl,Mingreliand,Mingreliang,Mingrelianb",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Rutul",
+    "i": 202802,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "Rutul,Yevlakh,Lahij,Laryak,Gabala,Kropotkin,Qonagkend,Sochi,Xinaliq,Shamakhi,Vladimir,Khachmaz,Salekhard,Balakan,Stepanakert,Tikhoretsk,Vanadzor,Magas,Lagodekhi,Nalchik,Martuni,Gagra,Meghri,Telavi,Krasnodar,Zagatala,Vladikavkaz,Sheki,Tbilisi,Malgobek,Gori,Argun,Kobuleti,Urus-Martan,Sighnaghi,Kutaisi,Achkhoy-Martan,Izberbash,Poti,Zugdidi,Makhachkala,Sukhumi,Buynaksk,Khasavyurt,Kaspiysk,Mozdok,Samashki,Tyrnyauz,Chegem,Timashevsk,Shali,Adygeysk",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Tabasaran",
+    "i": 202804,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "Tabasaran,Gabala,Telavi,Lahij,Yevlakh,Laryak,Hrazdan,Kropotkin,Shamakhi,Sochi,Qonagkend,Xinaliq,Balakan,Khachmaz,Vladimir,Salekhard,Stepanakert,Ijevan,Sunzha,Magas,Shusha,Sevan,Martuni,Gurjaani,Zugdidi,Abovyan,Sighnaghi,Goris,Brazzaville,Koulamoutou,Bata,Kinshasa,Gamboma,Mbaïki,Ebolowa,Libreville,Oyem,Bouar,Mbandaka,Bangassou,Dolisie,Kimongo,Douala,Ewo,Moutamba,Franceville,Bambari,Mbalmayo,Kribi,Bumba,Isiro,Kisangani,Tchibanga,Port-Gentil,Sangmélima",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Tat",
+    "i": 202805,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "Tat,Yevlakh,Naftalan,Mahačkala,Krasnodar,Qonagkend,Novorossiysk,Gabala,Stavropol,Xinaliq,Magas,Derbent,Vladimir,Shamakhi,Quba,Salekhard,Tikhoretsk,Ijevan,Balakan,Zagatala,Gori,Shusha,Gyumri,Nazran,Ganja,Mingachevir,Rustavi,Martakert,Lomé,Banjul,Timbuktu,Daloa,Accra,Bertoua,Kankan,Abidjan,Kaolack,Korhogo,Kumasi,Ziguinchor,Koudougou,Niamey,Bamenda,Kayes,Nouakchott,Ouagadougou,Conakry,Man,Tambacounda,Mopti,Yamoussoukro,Porto-Novo,Tamale,Koidu,Tarrafal,Tatk,Tatt,Tatp,Tatm,Tatn,Tats,Tatr,Tatl,Tatd,Tatg",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Tindi",
+    "i": 202806,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "Tindi,Yevlakh,Lahij,Laryak,Gabala,Kropotkin,Qonagkend,Sochi,Xinaliq,Shamakhi,Vladimir,Khachmaz,Salekhard,Balakan,Stepanakert,Tikhoretsk,Baku,Nakhchivan,Ganja,Mtskheta,Maykop,Krasnodar,Poti,Nalchik,Nazran,Hrazdan,Derbent,Sevan,Tbilisi,Batumi,Sukhumi,Achkhoy-Martan,Akhaltsikhe,Telavi,Makhachkala,Vladikavkaz,Malgobek,Terek,Beslan,Baksan,Izberbash,Mozdok,Buynaksk,Grozny,Storozhevaya,Zelenchukskaya,Khasavyurt,Kardonikskaya,Karabulaq,Slavyansk-na-Kubani,Kutaisi",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Ubykh",
+    "i": 202807,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "Ubykh,Yevlakh,Lahij,Laryak,Gabala,Kropotkin,Qonagkend,Sochi,Xinaliq,Shamakhi,Vladimir,Khachmaz,Salekhard,Balakan,Stepanakert,Tikhoretsk,Abovyan,Anapa,Shaki,Tskhinvali,Armavir,Gurjaani,Lankaran,Krasnodar,Maykop,Borjomi,Ganja,Nazran,Abinsk,Tbilisi,Terek,Poti,Gori,Rustavi,Karachayevsk,Akhaltsikhe,Kardonikskaya,Izberbash,Urus-Martan,Makhachkala,Vladikavkaz,Derbent,Malgobek,Buynaksk,Zelenchukskaya,Karabulaq,Mozdok,Kizlyar,Tyrnyauz,Batumi,Shali,Timashevsk,Avtury,Gagra,Ubykhk,Ubykht,Ubykhp,Ubykhm,Ubykhn,Ubykhs,Ubykhr,Ubykhl,Ubykhd,Ubykhg,Ubykhb",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Bolze",
+    "i": 202260,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "Bolze,Parakou,Lafia,Rijau,Kumasi,Louga,Ouagadougou,Ségou,Ambam,Kaolack,Wa,Cape Coast,Yaoundé,Awka,Faranah,Ibadan,Tamale,Gabú,Yamoussoukro,Moundou,Baga,Sarh,Ife,Timbuktu,Kenema,Mongu,Kumba,Harper,Bissau,Accra,Bamenda,Tambacounda,Man,Dakar,Koudougou,Kayes,Bouaké,Kankan,Porto-Novo,Bertoua,Tema,Warri,Gbarnga,Nouakchott,Praia,Nzérékoré,Abidjan,Wukari,Katsina,Banjul,Ebebiyín,Bobo-Dioulasso,Kano,Bolzek,Bolzet,Bolzep,Bolzem,Bolzen,Bolzes,Bolzer,Bolzel,Bolzed,Bolzeg,Bolzeb",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Borgarmålet",
+    "i": 202261,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "Borgarmålet,Bolgatanga,Bafatá,Yola,Bouaké,Tchibanga,Kumasi,Parakou,Maiduguri,Katsina,Gashua,Abéché,Kubau,Dapaong,Dédougou,Tahoua,Buea,Tambacounda,Luba,Gabú,Faranah,Ngaoundéré,Umuahia,Nkongsamba,Brikama,Moundou,Damaturu,Owerri,Daloa,Bissau,Abidjan,Praia,Ouagadougou,Porto-Novo,Kano,Lomé,Koidu,Koudougou,Tema,Bamenda,Basse,Niamey,Accra,Ségou,Mopti,Kumba,Bertoua,Bauchi,Tenkodogo,Cotonou,Monrovia,Jos,Borgarmletk,Borgarmlett,Borgarmletp,Borgarmletm,Borgarmletn,Borgarmlets,Borgarmletr,Borgarmletl,Borgarmletd,Borgarmletg,Borgarmletb",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Bozal Spanish",
+    "i": 202262,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "Bozal Spanish,Canterbury,Soroca,The Hague,Viljandi,Daugavpils,Patras,Graz,Helsingør,Dubrovnik,Catania,Aberystwyth,Lisburn,Szeged,Mosta,Sliema,Akureyri,Zadar,Drammen,Kópavogur,Faro,Celje,Nice,Tuzla,Cetinje,Daegu,Qingdao,Rason,Ghent,Berlin,Warsaw,Madrid,Malmö,Paris,Düsseldorf,Lucerne,Granada,Amsterdam,Málaga,Hradec Králové,Bydgoszcz,Gdansk,London,Bristol,Seville,Naples,Aveiro,Poznan,Tromsø,St. Gallen,Krakow,Liverpool,Ostrava,BozalSpanishk,BozalSpanisht,BozalSpanishp,BozalSpanishm,BozalSpanishn,BozalSpanishs,BozalSpanishr,BozalSpanishl,BozalSpanishd,BozalSpanishg,BozalSpanishb",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Français Tirailleur",
+    "i": 202266,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "Français Tirailleur,Kenema,Ngaoundéré,San-Pédro,Praia,Gagnoa,Koudougou,Cape Coast,Onitsha,Gwoza,Bafatá,Yamoussoukro,Tamale,Geidam,Aba,Parakou,Potiskum,Sarh,Gashua,Louga,Cotonou,Dabai,Kumba,Tahoua,Wa,Cacheu,Evinayong,Garoua,Bissau,Gbarnga,Bouaké,Conakry,Ségou,Kankan,Timbuktu,Kumasi,Basse,Kaolack,Niamey,Kano,Nouakchott,Kaduna,Gusau,Sokodé,Bamako,Porto-Novo,Tema,Zaria,Ziguinchor,Monrovia,FranaisTirailleurk,FranaisTirailleurt,FranaisTirailleurp,FranaisTirailleurm,FranaisTirailleurn,FranaisTirailleurs,FranaisTirailleurr,FranaisTirailleurl,FranaisTirailleurd,FranaisTirailleurg,FranaisTirailleurb",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Italian Eritrean",
+    "i": 202269,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "Italian Eritrean,Panevėžys,České Budějovice,Rotterdam,Espoo,Rennes,Mogilev,Differdange,York,Tiraspol,Prilep,Tetovo,Zadar,Cluj-Napoca,Tromsø,Dresden,Zürich,Patras,Mykolaiv,Rakvere,Mostar,Heraklion,Tallinn,Asau,Bora-Bora,Butaritari,Vanimo,Tauranga,Strasbourg,Tampere,Lyon,Granada,Nice,Seville,Paris,Kópavogur,Madrid,Málaga,Turin,Berlin,Zurich,Prague,Trondheim,Waterford,Linz,Ghent,Warsaw,The Hague,Düsseldorf,Liberec,Naples,Hradec Králové,Liverpool,Wroclaw,ItalianEritreank,ItalianEritreant,ItalianEritreanp,ItalianEritreanm,ItalianEritreann,ItalianEritreans,ItalianEritreanr,ItalianEritreanl,ItalianEritreand,ItalianEritreang,ItalianEritreanb",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Jersey Dutch",
+    "i": 202271,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "Jersey Dutch,Grodno,Brno,Mogilev,Évora,Belfast,Nantes,Prilep,Herceg Novi,Debrecen,Zaporizhzhia,Skopje,Omagh,Pécs,Gdańsk,Düsseldorf,Mykolaiv,Bari,Bangor,Telavi,Tallinn,Tartu,Mostar,Pleven,Zrenjanin,Asau,Luganville,Pago Pago,Amsterdam,Nice,London,Berlin,Málaga,Hamburg,Trondheim,Marseille,Stockholm,Valencia,Stuttgart,Reykjanesbær,Paris,Wroclaw,Dublin,Venice,Manchester,Helsinki,Funchal,Edinburgh,Tromsø,Rome,Gothenburg,Szczecin,Randers,Plzeň,Dundalk,JerseyDutchk,JerseyDutcht,JerseyDutchp,JerseyDutchm,JerseyDutchn,JerseyDutchs,JerseyDutchr,JerseyDutchl,JerseyDutchd,JerseyDutchg,JerseyDutchb",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Labrador Inuit Pidgin French",
+    "i": 202272,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "Labrador Inuit Pidgin French,Rijeka,Pécs,Klaipėda,Bonn,Düsseldorf,Nova Gorica,Telavi,Timișoara,Tartu,Plovdiv,Pleven,Aalborg,Panevėžys,Venice,Mogilev,St Davids,Tromsø,Mdina,Prilep,Alytus,Ostrava,Split,Seongnam,Taichung,Luoyang,Darkhan,Khovd,Bilbao,Strasbourg,Toulouse,Plzeň,Salzburg,Bordeaux,Klagenfurt,Madrid,Dublin,Cologne,Milan,Szczecin,Marseille,Liverpool,Stuttgart,Krakow,Dundalk,Kolding,Funchal,Bydgoszcz,Poznan,Naples,Bern,Palermo,Aveiro,LabradorInuitPidginFrenchk,LabradorInuitPidginFrencht,LabradorInuitPidginFrenchp,LabradorInuitPidginFrenchm,LabradorInuitPidginFrenchn,LabradorInuitPidginFrenchs,LabradorInuitPidginFrenchr,LabradorInuitPidginFrenchl,LabradorInuitPidginFrenchd,LabradorInuitPidginFrenchg",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Mbugu",
+    "i": 202274,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "Mbugu,Parakou,Lafia,Rijau,Kumasi,Louga,Ouagadougou,Ségou,Ambam,Kaolack,Wa,Cape Coast,Yaoundé,Awka,Faranah,Ibadan,Tamale,Gabú,Yamoussoukro,Moundou,Baga,Sarh,Ife,Timbuktu,Kenema,Mongu,Kumba,Harper,Abidjan,Bamako,Cotonou,Banjul,Bobo-Dioulasso,Lomé,Gbarnga,Mopti,Koidu,Gusau,Maiduguri,Kayes,Sokodé,Nouakchott,Koudougou,Garoua,Freetown,Bertoua,Banfora,Conakry,Bolama,Tambacounda,Mbuguk,Mbugut,Mbugup,Mbugum,Mbugun,Mbugus,Mbugur,Mbugul,Mbugud,Mbugug,Mbugub",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Mediterranean Lingua Franca",
+    "i": 202276,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "Mediterranean Lingua Franca,Daru,Ebeye,Mare,Ok Tedi,Lorengau,Nui,Pangai,Pohnpei,Canberra,Uaboe,Moorea,Melekeok,Kundiawa,Luganville,Tulagi,Trobriand,Nibok,Ngerulmud,Denigomodu,Kimbe,Bikenibeu,Majuro,Avarua,Auckland,Asau,Punaauia,Spanish Town,Saveta,Port-au-Prince,Montego Bay,Nassau,Cul de Sac,Andros Town,Ocho Ríos,Port Antonio,Fort-Liberté,Maho Reef,West End,Havana,Falmouth,Bathsheba,Marsh Harbour,Harbour Island,Holetown,Speightstown,Bridgetown,Kingston,Matanzas,Guantánamo,Oistins,Christ Church,Couva,Tera Cora,MediterraneanLinguaFrancak,MediterraneanLinguaFrancat,MediterraneanLinguaFrancap,MediterraneanLinguaFrancam,MediterraneanLinguaFrancan,MediterraneanLinguaFrancas,MediterraneanLinguaFrancar,MediterraneanLinguaFrancal,MediterraneanLinguaFrancad,MediterraneanLinguaFrancag,MediterraneanLinguaFrancab",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Michif",
+    "i": 202277,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "Michif,Aba,Parakou,Tsévié,Fada N'Gourma,Gashua,Louga,Koulamoutou,Mekelle,Zaria,Tahoua,Wa,Kumasi,Luba,Cotonou,Faranah,Nzérékoré,Kaolack,Nkongsamba,Sekondi,Moundou,Yendi,Korhogo,Ife,Tema,Oyo,Kurfi,Kakata,Gbarnga,Lafia,Bamako,Bissau,Kankan,Tambacounda,Abidjan,Daloa,Katsina,Man,Bouaké,Lomé,Brikama,Mopti,Koidu,Ouagadougou,Sunyani,Kumba,Dakar,Niamey,Freetown,Bertoua,Ségou,Michifk,Michift,Michifp,Michifm,Michifn,Michifs,Michifr,Michifl,Michifd,Michifg,Michifb",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Missingsch",
+    "i": 202278,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "Missingsch,Bafatá,Yola,N'Djamena,Bolgatanga,Aba,Parakou,Gao,Bamenda,Gashua,Louga,Gbarnga,Koulikoro,Lafia,Tahoua,Wa,Banjul,Yaoundé,Gombe,Faranah,Marte,Saint-Louis,Nkongsamba,Jos,Moundou,Lealui,Boké,Ife,Abidjan,Bissau,Bobo-Dioulasso,Dakar,Daloa,Jalingo,Cotonou,Warri,Tambacounda,Katsina,Kaolack,Koidu,Timbuktu,Maiduguri,Ségou,Bauchi,Basse,Man,Monrovia,Porto-Novo,Yamoussoukro,Gusau,Tamale,Thiès,Missingschk,Missingscht,Missingschp,Missingschm,Missingschn,Missingschs,Missingschr,Missingschl,Missingschd,Missingschg,Missingschb",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Mohawk Dutch",
+    "i": 202279,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "Mohawk Dutch,Grodno,Brno,Mogilev,Évora,Belfast,Nantes,Prilep,Herceg Novi,Debrecen,Zaporizhzhia,Skopje,Omagh,Pécs,Gdańsk,Düsseldorf,Mykolaiv,Bari,Bangor,Telavi,Tallinn,Tartu,Mostar,Pleven,Zrenjanin,Manus,Perth,Lifou,Marseille,Paris,Florence,Granada,Barcelona,Stavanger,Liverpool,Seville,Stuttgart,Nice,Linköping,Tromsø,Milan,Prague,Munich,Leoben,Faro,Bristol,Chur,Turin,Berlin,Szczecin,Lyon,Edinburgh,Dublin,Birmingham,MohawkDutchk,MohawkDutcht,MohawkDutchp,MohawkDutchm,MohawkDutchn,MohawkDutchs,MohawkDutchr,MohawkDutchl,MohawkDutchd,MohawkDutchg,MohawkDutchb",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Namibian Black German",
+    "i": 202281,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "Namibian Black German,Cardiff,Belgrade,Lyon,Vilnius,Podgorica,Kragujevac,Pécs,Kuopio,Soroca,Seville,Bruges,Waterford,Daugavpils,Lucerne,Bonn,Grodno,Dubrovnik,Nova Gorica,Frankfurt,Linz,Szeged,Eindhoven,Bijeljina,Toulon,Innsbruck,Betio,Vanimo,Copenhagen,Valencia,Hradec Králové,Bydgoszcz,Granada,Bordeaux,Palermo,Cologne,Reykjanesbær,Málaga,Bristol,Randers,Munich,České Budějovice,Ostrava,Glasgow,Nice,Düsseldorf,Norrköping,Liège,Szczecin,Venice,Manchester,Pori,NamibianBlackGermank,NamibianBlackGermant,NamibianBlackGermanp,NamibianBlackGermanm,NamibianBlackGermann,NamibianBlackGermans,NamibianBlackGermanr,NamibianBlackGermanl,NamibianBlackGermand,NamibianBlackGermang,NamibianBlackGermanb",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Negerhollands",
+    "i": 202283,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "Negerhollands,Okigwe,Fada N'Gourma,Gwoza,Bafatá,Yola,Makokou,Bobo-Dioulasso,Aba,Parakou,Dosso,Rijau,Cotonou,Louga,Bitam,Niamey,Ambam,Sekondi,Wa,Kissidougou,Korhogo,Awka,Tema,Yusufari,Aksum,Katsina,Yamoussoukro,Moundou,Kingston,Spanish Town,Portmore,Maho Reef,Gonaïves,Port Antonio,Port-au-Prince,Brievengat,Harbour Island,Santa Clara,Port of Spain,Saint-Marc,Cockburn Town,Jérémie,Bridgetown,Andros Town,West End,Willemstad,Fort-Liberté,Cul de Sac,Dunmore Town,Upper Prince's Quarter,Scarborough,Oistins,Crane,Cienfuegos,Nassau,Negerhollandsk,Negerhollandst,Negerhollandsp,Negerhollandsm,Negerhollandsn,Negerhollandss,Negerhollandsr,Negerhollandsl,Negerhollandsd,Negerhollandsg,Negerhollandsb",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Negro Dutch",
+    "i": 202284,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "Negro Dutch,Oxford,Utrecht,Daugavpils,Narva,Bergen,Dubrovnik,Esbjerg,Cluj-Napoca,Verona,Szeged,Belfast,Poznań,Birkirkara,Reykjavík,České Budějovice,Rijeka,Kópavogur,Gdańsk,Randers,Coimbra,Tuzla,Lyon,Budva,Misima,Auki,Mount Hagen,Dunedin,Bern,Valencia,Bordeaux,Paris,Strasbourg,Leipzig,Nice,Hamburg,Berlin,Toulouse,Amsterdam,Ghent,Málaga,Milan,Birmingham,Granada,Glasgow,Stockholm,Turin,Nantes,Uppsala,Cologne,Linz,Reykjanesbær,Bologna,Krakow,NegroDutchk,NegroDutcht,NegroDutchp,NegroDutchm,NegroDutchn,NegroDutchs,NegroDutchr,NegroDutchl,NegroDutchd,NegroDutchg,NegroDutchb",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Palenquero",
+    "i": 202285,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "Palenquero,Lae,Tabiteuea,Tiga,Rabaul,Yaren,Ohonua,Kimbe,Kosrae,Wollongong,Abaiang,Raiatea,Denigomodu,Luganville,Mendi,Peleliu,Misima,Kairuku,Nibok,Baiti,Butaritari,Ebeye,Ok Tedi,Tauranga,Nuku'alofa,Kingston,Camagüey,Noord,Jacmel,Willemstad,Hastings,Spanish Town,Andros Town,Freeport,Saint-Marc,Harbour Island,Gonaïves,Jérémie,Arima,Mandeville,Cul de Sac,Santiago de Cuba,Montego Bay,Santa Cruz,Soto,Nassau,Holguín,Cienfuegos,Port of Spain,Bridgetown,Christ Church,Bathsheba,Palenquerok,Palenquerot,Palenquerop,Palenquerom,Palenqueron,Palenqueros,Palenqueror,Palenquerol,Palenquerod,Palenquerog,Palenquerob",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Russenorsk",
+    "i": 202294,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "Russenorsk,Bafatá,Yola,N'Djamena,Bolgatanga,Aba,Parakou,Gao,Bamenda,Gashua,Louga,Gbarnga,Koulikoro,Lafia,Tahoua,Wa,Banjul,Yaoundé,Gombe,Faranah,Marte,Saint-Louis,Nkongsamba,Jos,Moundou,Lealui,Boké,Ife,Basseterre,Spanish Town,Havana,Ocho Ríos,Cap-Haïtien,Andros Town,Tortola,Freeport,Maho Reef,Jérémie,Holetown,Dunmore Town,Holguín,Cul de Sac,Saveta,Marsh Harbour,Falmouth,Hastings,Chaguanas,Christ Church,Crane,Brievengat,Upper Prince's Quarter,Kingston,Saint-Marc,San Fernando,Alice Town,Russenorskk,Russenorskt,Russenorskp,Russenorskm,Russenorskn,Russenorsks,Russenorskr,Russenorskl,Russenorskd,Russenorskg,Russenorskb",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Simplified Italian of Libya",
+    "i": 202295,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "Simplified Italian of Libya,Belfast,Celje,Birkirkara,Shkodër,Reykjavík,Limerick,Rijeka,Belgrade,Gdańsk,Antwerp,Coimbra,Podgorica,Lyon,Groningen,Budva,Soroca,Odesa,Ísafjörður,Zenica,Daugavpils,Debrecen,Toulon,Liège,Dubrovnik,Cologne,Salzburg,Leicester,Valencia,Helsinki,Nice,Strasbourg,Florence,Wroclaw,Leeds,Palermo,Málaga,Paris,Esbjerg,Milan,Berlin,Bristol,Hamburg,Leipzig,Malmö,Liberec,Madrid,Aveiro,Linköping,Naples,Warsaw,Funchal,Norrköping,SimplifiedItalianofLibyak,SimplifiedItalianofLibyat,SimplifiedItalianofLibyap,SimplifiedItalianofLibyam,SimplifiedItalianofLibyan,SimplifiedItalianofLibyas,SimplifiedItalianofLibyar,SimplifiedItalianofLibyal,SimplifiedItalianofLibyad,SimplifiedItalianofLibyag,SimplifiedItalianofLibyab",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Skepi Dutch Creole",
+    "i": 202296,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "Skepi Dutch Creole,Jost Van Dyke,Hillsborough,Castries,Charlestown,Anegada,Freeport,Micoud,Arima,Philipsburg,Santa Rosa,Bellem,Plymouth,Sauteurs,Governor's Harbour,Kew,Portsmouth,St. George's,Saint James,All Saints,Victoria,Sandy Ground,Basseterre,Liberta,Oistins,Montego Bay,Simpson Bay,Ocho Rios,Düsseldorf,Toulouse,Tampere,Marseille,Nice,Strasbourg,Trondheim,Wroclaw,Seville,Manchester,London,Málaga,Lisbon,Munich,Gdansk,Stuttgart,Reykjanesbær,Frankfurt,Ostrava,Barcelona,Szczecin,Poznan,Bydgoszcz,Florence,Hradec Králové,Birmingham,Edinburgh,SkepiDutchCreolek,SkepiDutchCreolet,SkepiDutchCreolep,SkepiDutchCreolem,SkepiDutchCreolen,SkepiDutchCreoles,SkepiDutchCreoler,SkepiDutchCreolel,SkepiDutchCreoled,SkepiDutchCreoleg,SkepiDutchCreoleb",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "West Greenlandic Pidgin",
+    "i": 202302,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "West Greenlandic Pidgin,Abovyan,Ashtarak,Khasavyurt,Ijevan,Balakan,Goris,Naftalan,Shamakhi,Mahačkala,Stepanakert,Krasnodar,Gabala,Novorossiysk,Shushi,Stavropol,Yevlakh,Magas,Derbent,Qonagkend,Gold Coast,Palmerston North,Honiara,Tamuning,Nuku'alofa,Raiatea,Darwin,Lautoka,Kaspiysk,Batumi,Kobuleti,Zugdidi,Grozny,Poti,Kizilyurt,Ochamchire,Sukhumi,Karabulaq,Makhachkala,Nalchik,Sighnaghi,Akhaltsikhe,Storozhevaya,Mtskheta,Telavi,Izberbash,Tbilisi,Rustavi,Malgobek,Karachayevsk,Gudermes,Kardonikskaya,Shali,Vladikavkaz,WestGreenlandicPidgink,WestGreenlandicPidgint,WestGreenlandicPidginp,WestGreenlandicPidginm,WestGreenlandicPidginn,WestGreenlandicPidgins,WestGreenlandicPidginr,WestGreenlandicPidginl,WestGreenlandicPidgind,WestGreenlandicPidging,WestGreenlandicPidginb",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Xieheyu",
+    "i": 202303,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Xieheyu,Tchibanga,Conakry,Parakou,Fatick,Jalingo,Gashua,Koulikoro,Tougué,Dapaong,Kontagora,Tahoua,Wa,Franceville,Luba,Umuahia,Faranah,Zaria,Lafia,Nkongsamba,Yamoussoukro,Moundou,Porto-Novo,Ségou,Ife,Timbuktu,Farafenni,Lomé,Bamako,Bamenda,Bobo-Dioulasso,Abidjan,Tamale,Ebebiyín,Gbarnga,Sokoto,Man,Kankan,Bafatá,Accra,Monrovia,Korhogo,Sunyani,Nzérékoré,Maiduguri,Kara,Niamey,Ouagadougou,Saint-Louis,Bauchi,Xieheyuk,Xieheyut,Xieheyup,Xieheyum,Xieheyun,Xieheyus,Xieheyur,Xieheyul,Xieheyud,Xieheyug,Xieheyub",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Duvle-Wano Pidgin",
+    "i": 202265,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "Duvle-Wano Pidgin,Vanimo,Navua,Majuro,Ouvea,Tabubil,Kavieng,Nukulaelae,Tabiteuea,Chuuk,Newcastle,Nibok,Samamea,Bora-Bora,Koror,Norfolk,Kairuku,Belep,Denigomodu,Angaur,Baiti,Rabaul,Betio,Yap,Pangai,Dumbéa,Kokopo,Cul de Sac,Maho Reef,Cockburn Town,Ocho Ríos,Bridgetown,Falmouth,Saint-Marc,Port-au-Prince,Oistins,Marsh Harbour,Crane,Freeport,Speightstown,Harbour Island,Point Fortin,Santa Cruz,San Fernando,Dunmore Town,Chaguanas,Hastings,Arima,Holguín,Cienfuegos,Bathsheba,Camagüey,Gonaïves,Scarborough,Duvle,Wano,DuvleWano,Kanggup,Balingga,Talitoli,Dangua,Tariku,VanDaalen,Hulu,Kisor,DuvleWanoPidgink,Dkgin,DuvleWanoPidgint",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Qoqmoncaq",
+    "i": 202292,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "Qoqmoncaq,Yola,Aplahoué,Bissau,Aba,Minna,Umuahia,Rijau,Tambacounda,Louga,Bimbila,Sapele,Ambam,Kaolack,Wa,Maiduguri,Nsukka,Awka,Labé,Praia,Aksum,Takum,Yamoussoukro,Moundou,Neves,Sesheke,Okene,Timbuktu,Bangkok,Chiang Mai,Chiang Rai,Da Nang,Fangchenggang,Quy Nhon,Sam Neua,Can Tho,Pursat,Phongsali,Rach Gia,Phan Thiet,Naypyidaw,My Tho,Yangon,Thakhek,Vientiane,Luang Prabang,Battambang,Shantou,Kampot,Guilin,Ho Chi Minh City,Surat Thani,Myitkyina,Pathein,Siem Reap,Qoqmoncaqk,Qoqmoncaqt,Qoqmoncaqp,Qoqmoncaqm,Qoqmoncaqn,Qoqmoncaqs,Qoqmoncaqr,Qoqmoncaql,Qoqmoncaqd,Qoqmoncaqg,Qoqmoncaqb",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Beni Snous dialect",
+    "i": 202304,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Beni Snous,Tlemcen,Maghnia,Hammam Boughrana,Souahlia,Dar Yaghmouracene,Ouled Mimoun,Remchi,Sabra,Nedroma,Ghazaouet,Marsa Ben M'Hidi,Honaine,Béni Saf,Sidi Abdellah,Sidi Medjahed,Sidi Djillali,Sidi Bel Abbès,Oujda,El Aricha,Mascara,Saida,Aflou,Mecheria,Naâma,Aïn Sefra,benisnousdialectSprings,benisnousdialectCreek,benisnousdialectRidge,benisnousdialectHeights,benisnousdialectFalls,benisnousdialectBeach,benisnousdialectPoint,benisnousdialectBay,benisnousdialectGrove,Bab El Assa,Abombridge,Apilville,Amosview,Akadbridge,Amusbridge,Akagview,Aulbridge,Abokview,Anadbridge,Amidbridge,Abelbridge,Afonview,Augview,Animville,Akukbridge,BeniSnousdialecttown,BeniSnousdialectville,BeniSnousdialectburg,BeniSnousdialectview,BeniSnousdialectside",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Ghadames",
+    "i": 202305,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Ghadames,Derj,Sinawin,Nalut,Wazin,Tiji,Al-Hamra,Bani Walid,Jadu,Shahhat,Tigi,Dirj,Sert,Bedda,Tinhinane,Al-Khoms,Zliten,Tripoli,Misrata,Sabha,Tataouine,Zella,Zuwarah,Badr,Kabaw,Wazzin,Ayn al Ghazaya",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Iznasen",
+    "i": 202306,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Iznasen,Oujda,Berkane,Taourirt,Ahfir,El Aïoun,Sidi Mellouk,Tendrara,Jerada,Touissit,Maghnia,Beni Drar,Saïda,Bouanane,Aïn Beni Mathar,Debdou,Guercif,Boulemane,Missour,Outat Oulad El Haj,Saïdia,Tafoughalt,Nador,Taza,Fes,Meknes",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Kabyle",
+    "i": 202307,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Kabyle,Tizi Ouzou,Bejaia,Bouira,Boumerdes,Setif,Bordj Bou Arreridj,Jijel,Akbou,Kherrata,Seddouk,Ighram,Azazga,Ain El Hammam,Boghni,Draa El Mizan,El Kseur,Barbacha,Chemini,Sidi Aich,Amizour,Feraoun,Melbou,Ziama Mansouriah,Taskriout,Timizart,Freha,Larbaa,Nath Iraten,Yakouren,Adekar,Michelet,Aghribs",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Shawiya",
+    "i": 202308,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Shawiya,Batna,Khenchela,Oum El Bouaghi,Tazoult,Merouana,N'Gaous,Ain Touta,Barika,Menaa,Arris,Ichemoul,Ain Zaatout,Bouhmama,El Hamma,Kimel,Foum Toub,Ouled Rechache,Bouzina,Djerma,Ain Djasser,Yabous,Seguet El Khemis,Rouina,Souk Naamane,Oued Sabkha,Boulhousel,Cheria,Morsott,Hammamet",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Shilha",
+    "i": 202309,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Agadir,Taroudant,Tiznit,Ouarzazate,Essaouira,Zagora,Tata,Tan-Tan,Guelmim,Sidi Ifni,Boumalne Dades,Tafraoute,Ait Baha,Taliouine,Aoulouz,Igherm,Amtoudi,Akka,Foum Zguid,Assa,Taghjijt,Icht,Tamanar,Smimou,Ida Ougnidif,Arazane,Oulad Teima,Imouzzer,Ait Iaaza,El Guerdane,Irherm,Oulad Berhil,Biougra,Ait Melloul,Inezgane,Dcheira El Jihadia,Lqliaa,Temsia,Aourir,Taghazout,Tamraght,Tiout,Tazemmourt,Sidi Dahmane,Freija,Ahmar,Tamaloukte,Askaouen,Saktana,Tizegzaouine,Agadir Melloul,Ida Ou Moumen",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Siwi",
+    "i": 202310,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Siwa,Shali,Aghurmi,Abou Shrouf,Gara,Maraqi,Bahayeddin",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Tarifit",
+    "i": 202312,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Tarifit,Nador,Al Hoceima,Driouch,Midar,Beni Ansar,Selouane,Zaio,Melilla,Aroui,Temsamane,Imzouren,Kariat Arekmane,Bni Bouayach,Ajdir,Aknoul,Ghafsai,Ketama,Targuist,Issaguen,Taounate,Al Aaroui,Mont Garn,Beni Boufrah,Izmorene,Souk el Had,Sebt Azrou",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Tidikelt",
+    "i": 202313,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "In Salah,Aoulef,Tit,Akabli,Tamekten,Tamantit,Zaouiet Kounta,Fenoughil,Reggane,Sali,Adrar,Timimoun,Ouled Said,Charouine,Aougrout,Metarfa,Tinerkouk,Bouda,In Ghar,In Belbel,Saada,Aougrout,Ouled Brahim",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Tuareg Tamasheq",
+    "i": 202314,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Timbuktu,Kidal,Gao,Agadez,Tamanrasset,Ghat,Tessalit,In-Gall,Tchirozerine,Arlit",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Tugurt",
+    "i": 202315,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Temacine,Blidet Amor,Meggarine,Ghamra,Tebesbest,Nezla,Balidat Ameur,Sidi Slimane",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Tuwat",
+    "i": 202316,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Adrar,Reggane,Bouda,Zaouiet Kounta,Tamantit,Sali,Fenoughil,Tamest,Charouine,Ksar Kaddour,Tsabit,Ouled Ahmed Timmi,Deldoul,Sbaa",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Mozarabic",
+    "i": 495,
+    "min": 4,
+    "max": 25,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Toledo,Córdoba,Sevilla,Granada,Málaga,Almería,Jaén,Cádiz,Huelva,Badajoz,Mérida,Zaragoza,Valencia,Murcia,Alicante,Algeciras,Tarifa,Ronda,Antequera,Écija,Utrera,Jerez de la Frontera,Sanlúcar de Barrameda,Chipiona,Rota,El Puerto de Santa María,Chiclana de la Frontera,Conil de la Frontera,La Línea de la Concepción,Gibraltar,Cáceres,Plasencia,Trujillo,Medellín,Guadalupe,Ciudad Rodrigo,Salamanca,Llerena,Zafra,Fregenal de la Sierra,Higuera de la Sierra,Aracena,Coria,Coria del Río,Carmona,Osuna,Marchena,Estepa,Lucena,Puente Genil,Loja,Alhama de Granada,Baza,Guadix,Almuñécar,Motril,Vélez-Málaga",
     "status": "COMPLETE"
   }
 ];

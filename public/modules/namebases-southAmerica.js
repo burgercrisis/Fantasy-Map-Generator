@@ -1,5 +1,3 @@
-"use strict";
-
 window.southAmericaNameBases = [
   {
     "name": "Quechua",
@@ -2345,9 +2343,15 @@ window.southAmericaNameBases = [
     "d": "",
     "m": 0,
     "b": "Maicao,Uribia,Manaure,Riohacha,Albania,Hatonuevo,Barrancas,Fonseca,SanJuanDelCesar,Distraccion,ElMolino,Villanueva,Dibulla,Camarones,PuertoEstrella,Nazaret,LaJaguaDelPilar,Urumita,Mingueo,PuertoLopez,Maracaibo,Cabimas,PuntoFijo,Coro,Barquisimeto,Valencia,Maracay,Caracas,Machiques,SanRafaelDelMojan,LaVillaDelRosario,Sinamaica,Paraguaipoa,Cojoro,Castilletes,PuertoBolivar,Cienaga,Taganga,SantaMarta,Palomino,Buritaca,DonDiego,Guajira,LaMojana,ElTigre,Codazzi,Valledupar,AgustínCodazzi,Becerril,LaJagua,Ibagué,Plato,Ariguani,Fundacion,Ciénaga,Aracataca,PuebloBello,SanDiego,LosPatos,Barranco"
+  },
+  {
+    "name": "Southern-Quechua",
+    "i": 2565,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Apurímac,Santo Tomás,La Convención,Tipón,Písac,Azángaro,Huancané,Potosí,Villazón,Cusco,Arequipa,Puno,Juliaca,Abancay,Andahuaylas,Ayacucho,Huamanga,Huancavelica,Urubamba,Ollantaytambo,Aguas Calientes,Machu Picchu,Sicuani,Espinar,Yauri,Chumbivilcas,Quillabamba,Calca,Anta,Paruro,Paucartambo,Quispicanchi,Canchis,Canas,Acomayo,Chinchero,Maras,Moray,Raqchi,Andahuaylillas,Huaro,Checacupe,Lampa,Ayaviri,Melgar,Carabaya,Sandia,Putina,Moho,Taraco,Conima,Juli,Pomata,Yunguyo,Desaguadero,Copacabana,Isla del Sol,Tiwanaku,La Paz,Oruro,Cochabamba,Sucre,Santiago,Chuquisaca,Tarija,Bermejo",
+    "status": "COMPLETE"
   }
 ];
-
-
-
-

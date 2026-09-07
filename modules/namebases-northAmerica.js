@@ -789,16 +789,6 @@ window.northAmericaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Southern-Quechua",
-    "i": 2565,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Apurímac,Santo Tomás,La Convención,Tipón,Písac,Azángaro,Huancané,Potosí,Villazón,Cusco,Arequipa,Puno,Juliaca,Abancay,Andahuaylas,Ayacucho,Huamanga,Huancavelica,Urubamba,Ollantaytambo,Aguas Calientes,Machu Picchu,Sicuani,Espinar,Yauri,Chumbivilcas,Quillabamba,Calca,Anta,Paruro,Paucartambo,Quispicanchi,Canchis,Canas,Acomayo,Chinchero,Maras,Moray,Raqchi,Andahuaylillas,Huaro,Checacupe,Lampa,Ayaviri,Melgar,Carabaya,Sandia,Putina,Moho,Taraco,Conima,Juli,Pomata,Yunguyo,Desaguadero,Copacabana,Isla del Sol,Tiwanaku,La Paz,Oruro,Cochabamba,Sucre,Santiago,Chuquisaca,Tarija,Bermejo",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Tlingit",
     "i": 2611,
     "min": 4,
@@ -2463,9 +2453,115 @@ window.northAmericaNameBases = [
     "d": "",
     "m": 0,
     "b": "Odanak,Saint,Francois,du,Lac,Wolinak,Becancour,Bersimis,Pessamit,Betsiamites,Essipit,Manawan,Wemotaci,Coaticook,Reserve,River,Missisquoi,Bay,Lawrence,Champlain,Valley,Penobscot,Norridgewock,Old,Town,Pentagouet,Castine,Norway,Pigwacket,Fryeburg,Sokoki,Newbury,Coos,Contoocook,Boscowen,Winnipesaukee,Penacook,Concord,Pembroke,Nashua,Nashuaway,Salmon,Falls,Berwick,Dover,Cocheco,Oyster,Durham,Lee,Epping,Brentwood,Exeter,Hampton,Seabrook,Salisbury,Amesbury,Newburyport,Rowley,Ipswich,Gloucester,Rockport,Cape,Ann,Salem,Marblehead,Lynn,Revere,Chelsea,Boston,Braintree,Quincy,Milton,Dedham,Canton,Stoughton,Brockton,Plymouth,Kingston,Duxbury,Marshfield,Scituate,Cohasset,Hingham,Hull,Pemberton,Swanton,Highgate,Franklin,Georgia,Fairfax,Westford,Essex,Jericho,Bolton,Richmond,Huntington,Charlotte,Shelburne,Burlington,Colchester,St,Albans,Enosburgh,Berkshire,Sutton,Barthe"
+  },
+  {
+    "name": "Pipil (Nawat)",
+    "i": 202808,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "Pipil (Nawat),Uxmal,Quiotepec,Xochicalco,Huauchinango,Hanga Roa,Yohualichan,Machu Picchu,Tibes,Jayuya,Riobamba,Chavín de Huántar,Osorno,Tiahuanaco,Piedras Negras,Kaminaljuyú,Calchaquí,Alta Vista,Comalcalco,Texcoco,Teopanzolco,Coyoacán,Tlatelolco,Xochimilco,Tlaxcala,Cholula,Xochitécatl,Tula,Tijuana,Arriaga,Corozal,Mexico City,Tegucigalpa,Puebla,Tuxtla Gutiérrez,Orizaba,Hermosillo,Morelia,Tapachula,Querétaro,Zacatecas,Campeche,Ecatepec,Culiacán,Tehuacán,Toluca,Mazatlán,Puerto Cortés,Córdoba,Cobán,Ciudad del Carmen,Veracruz,Flores,Punta Gorda,Mapastepec,Pipilk,Pipilt,Pipilp,Pipilm,Pipiln,Pipils,Pipilr,Pipill,Pipild,Pipilg",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Media Lengua",
+    "i": 202275,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "Media Lengua,Labasa,Trobriand,Ngerulmud,Denigomodu,Nibok,Bikenibeu,Majuro,Kimbe,Hamilton,Abaiang,Lifou,Ohonua,Auki,Vava'u,Rabaul,Noumea,Popondetta,Kairuku,Vaitupu,Tabiteuea,Baiti,Weno,Punaauia,Wewak,Bouaké,Ziguinchor,Bissau,Banjul,Man,Bobo-Dioulasso,Kano,Daloa,Kumba,Basse,Nouakchott,Nzérékoré,Lafia,Bafatá,Gusau,Koidu,Katsina,Thiès,Bamenda,Niamey,Kaolack,Dakar,Malabo,Tema,Lomé,Mopti,Porto-Novo,MediaLenguak,MediaLenguat,MediaLenguap,MediaLenguam,MediaLenguan,MediaLenguas,MediaLenguar,MediaLengual,MediaLenguad,MediaLenguag,MediaLenguab",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Ndyuka-Tiriyó Pidgin",
+    "i": 202282,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "Ndyuka-Tiriyó Pidgin,Kavieng,Mount Hagen,Belep,Kimbe,Tulagi,Baiti,Havelu,Yap,Hobart,Tabiteuea,Huahine,Nibok,Tanna,Pangai,Angaur,Buna,Lae,Uaboe,Denigomodu,Abaiang,Kwajalein,Rabaul,Gustavia,San Juan,Castries,Portsmouth,Saint-Marc,Mandeville,Port Antonio,Fort-Liberté,Basseterre,Montego Bay,Spanish Town,Point Fortin,Les Cayes,Ocho Ríos,Holetown,Maho Reef,Andros Town,Cap-Haïtien,Jacmel,Matanzas,Port-au-Prince,Oistins,Gonaïves,Bridgetown,Montaña,Holguín,Cienfuegos,Crane,Tortola,Alice Town,Bathsheba,NdyukaTiriyPidgink,NdyukaTiriyPidgint,NdyukaTiriyPidginp,NdyukaTiriyPidginm,NdyukaTiriyPidginn,NdyukaTiriyPidgins,NdyukaTiriyPidginr,NdyukaTiriyPidginl,NdyukaTiriyPidgind,NdyukaTiriyPidging,NdyukaTiriyPidginb",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Pidgin Ngarluma",
+    "i": 202288,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "Pidgin Ngarluma,Uaboe,Sigatoka,Kokoda,Kosrae,Popondetta,Palau,Samamea,Tabiteuea,Jaluit,Nibok,Dunedin,Kimbe,Faaa,Pentecost,Abaiang,Daru,Weno,Canala,Mare,Ok Tedi,Rabaul,Nui,Pangai,Kairuku,Pohnpei,Canberra,Kokopo,Hastings,West End,Port Antonio,Nassau,Port-au-Prince,Oranjestad,Mandeville,Jacmel,Havana,Jérémie,Alice Town,Saint-Marc,Philipsburg,Simpson Bay,Bridgetown,Marsh Harbour,San Fernando,Arima,Crane,Holguín,Harbour Island,Cap-Haïtien,Santa Cruz,Sint Willibrordus,Holetown,Speightstown,Santa Clara,PidginNgarlumak,PidginNgarlumat,PidginNgarlumap,PidginNgarlumam,PidginNgarluman,PidginNgarlumas,PidginNgarlumar,PidginNgarlumal,PidginNgarlumad,PidginNgarlumag,PidginNgarlumab",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Pretoria Sotho",
+    "i": 202291,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "Pretoria Sotho,Lhokseumawe,Ben Tre,Bacolod,Can Tho,Padang Panjang,Pasir Ris,Putao,Lao Cai,Serang,Quy Nhon,Khon Kaen,Bandung,Ternate,Kratie,Bogor,Thanh Hoa,Kandal,Yogyakarta,Quezon City,Poipet,Champasak,Battambang,Baguio,Balikpapan,Bago,Loikaw,Bandar Seri Begawan,Kisumu,Dila,Gambela,Addis Ababa,Dessie,Harar,Masaka,Yei,Debre Markos,Gondar,Wau,Woldia,Khartoum,Arua,Arba Minch,Nyeri,Lira,Yabelo,Bahir Dar,Mizan Teferi,Jinja,Nakuru,Port Sudan,Gulu,Mbale,Kericho,Rumbek,PretoriaSotho,Sotho,Pedi,Seso,Gauteng,Pretoria,Mamelodi,Fountains,Voortrekker,Magalies,Apies,PretoriaSothok,PretoriaSothot,PretoriaSothop",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Western Algerian Zenatic dialects",
+    "i": 202317,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Zurg",
+    "i": 202318,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Zuwara Berber",
+    "i": 202319,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Zuwara,Regdalin,Ajaylat,Al-Jmail,Zaltan,Abu Kammash,Jumayl",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Arapaho",
+    "i": 202320,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Ethete,Arapahoe,St. Stephens,Riverton,Fort Washakie,Canton,Geary,El Reno,Concho,Watonga,Hammon,Clinton",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Occaneechi",
+    "i": 202327,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Occoneechee Island,Fort Christanna,Junkatapurse,Roanoke River",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Haflong Hindi",
+    "i": 202267,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "Haflong Hindi,Hyderabad,Kochi,Pune,Dehradun,Rishikesh,Agra,Madurai,Visakhapatnam,Sylhet,Lucknow,Agartala,Jacobabad,Khanewal,Rawalpindi,Quetta,Aurangabad,Jaipur,Bogra,Karachi,Margao,Coimbatore,Thatta,Siliguri,Dhaka,Aizawl,Varanasi,Dhanbad,Allahabad,Bhopal,Jabalpur,Chandigarh,Gangtok,Kozhikode,Guwahati,Gwalior,Dimapur,Itanagar,Ghaziabad,Rangpur,Mangalore,Thiruvananthapuram,Biratnagar,Panaji,Chennai,Srinagar,Ludhiana,Warangal,Surat,Tiruchirappalli,HaflongHindik,HaflongHindit,HaflongHindip,HaflongHindim,HaflongHindin,HaflongHindis,HaflongHindir,HaflongHindil,HaflongHindid,HaflongHindig,HaflongHindib",
+    "status": "COMPLETE"
   }
 ];
-
-
-
-
