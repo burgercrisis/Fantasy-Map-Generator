@@ -396,7 +396,7 @@ window.africaNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Salamat,Vakaga,Runga,Kibet",
+    "b": "Wuro Bela,Toungo,Dawo 2 Ward,Adamawa,Yola,Belel,Maiha",
     "status": "COMPLETE"
   },
   {
@@ -1036,7 +1036,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Mambasa,Lolwa,Komanda",
+    "b": "Bal,Bibal,Mayo Beli,Kerke,Kamkam,Magu,Somie,Sonkolong,Atta,Ndiba,Gembu,Mverep,Bon,Barr,Tep,San,Yamba,Warwar,Vokkude,Tamnya,Mbamnga",
     "status": "COMPLETE"
   },
   {
