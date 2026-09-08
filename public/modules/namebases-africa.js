@@ -266,7 +266,7 @@ window.africaNameBases = [
     "max": 18,
     "d": "lnrt",
     "m": 0,
-    "b": "San Antonio de Palé,Mabana,Aual,Anganchi",
+    "b": "San Antonio de Pale,Mabana,San Pedro,Aual,Anganchi,Bioko Island",
     "status": "COMPLETE"
   },
   {
@@ -326,7 +326,7 @@ window.africaNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Zhoa,Weh,Esu,Fungom",
+    "b": "Zhoa town,Fungom Subdivision,Menchum Division,Zhoa,Mekaf,Kumfutu,Small Mekaf,Cha a,Biya,Kung,Yemge,Weh,Fungom,Abar,Mundabili,Marshi,Koshin,Fang,Buu,Misong,Mumfu,Ngun,Munken,Aju Mbu,Bafmen,Kuk,Nyos,Ise,Ipalim,Akang,Imo",
     "status": "COMPLETE"
   },
   {
@@ -1706,7 +1706,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Evant,Bauchi State,Nigeria",
+    "b": "Evant,Bauchi State,Nigeria,Cameroon",
     "status": "COMPLETE"
   },
   {

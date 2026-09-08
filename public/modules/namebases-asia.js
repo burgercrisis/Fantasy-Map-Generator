@@ -2146,7 +2146,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Genukh,Tsunta,Novomonastyrskoye",
+    "b": "Genukh,Novomonastyrskoe,Dagestan,Russia",
     "status": "COMPLETE"
   },
   {
@@ -2756,7 +2756,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Mominabad,Domyal,Domyaal",
+    "b": "Mominabad,Hunza Valley,Nagar Valley,Gilgit-Baltistan,Pakistan",
     "status": "COMPLETE"
   },
   {
@@ -3226,7 +3226,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Sukajor,Mudajor,Manedihi",
+    "b": "Mudajor,Sukajor,Manedihi,Adhamara,Ramechhap,Sindhuli,Nepal",
     "status": "COMPLETE"
   },
   {
@@ -3286,7 +3286,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Seltamin,Ngisokabip,Baktamin",
+    "b": "Seltamin,Ngisokabip,Baktamin,Tabubil",
     "status": "COMPLETE"
   },
   {
@@ -4726,7 +4726,7 @@ window.asiaNameBases = [
     "max": 14,
     "d": "",
     "m": 0,
-    "b": "Kichang,Koro-Aka,Aka",
+    "b": "Koro,Kaduna State,Nigeria",
     "status": "COMPLETE"
   },
   {
@@ -10556,7 +10556,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "DagaiVillage,DagaiDistrict,PuncakJayaRegency",
+    "b": "Duvle,Wano,Pidgin,Papua,Indonesia",
     "status": "COMPLETE"
   },
   {
@@ -10646,7 +10646,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "XinjiangUyghurAutonomousRegion,QoqmoncaqLanguageArea,XinjiangKazakhMongolianEvenkiArea",
+    "b": "Qoqmoncaq,Papua,Indonesia",
     "status": "COMPLETE"
   },
   {
