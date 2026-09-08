@@ -560,7 +560,7 @@ class MarkersModule {
     const { cells } = pack;
 
     const culture = cells.culture[cell];
-    const baseIndex = pack.cultures[culture] && pack.cultures[culture].base;
+    const baseIndex = pack.cultures[culture]?.base;
     let proper: string;
     if (typeof baseIndex === "number" && typeof Names.getUseCaseRange === "function") {
       const range = Names.getUseCaseRange(baseIndex, "town");
@@ -585,7 +585,7 @@ class MarkersModule {
     const { cells } = pack;
 
     const culture = cells.culture[cell];
-    const baseIndex = pack.cultures[culture] && pack.cultures[culture].base;
+    const baseIndex = pack.cultures[culture]?.base;
     let proper: string;
     if (typeof baseIndex === "number" && typeof Names.getUseCaseRange === "function") {
       const range = Names.getUseCaseRange(baseIndex, "town");
@@ -970,7 +970,7 @@ class MarkersModule {
     if (cells.burg[cell]) {
       proper = pack.burgs[cells.burg[cell]].name!;
     } else {
-      const baseIndex = pack.cultures[culture] && pack.cultures[culture].base;
+      const baseIndex = pack.cultures[culture]?.base;
       if (typeof baseIndex === "number" && typeof Names.getUseCaseRange === "function") {
         const range = Names.getUseCaseRange(baseIndex, "town");
         proper = Names.getCulture(culture, range.min, range.max);
@@ -1025,7 +1025,7 @@ class MarkersModule {
     const campaign = ra(state.campaigns);
     const date = generateDate(campaign.start, campaign.end);
     const culture = cells.culture[cell];
-    const baseIndex = pack.cultures[culture] && pack.cultures[culture].base;
+    const baseIndex = pack.cultures[culture]?.base;
     let proper: string;
     if (typeof baseIndex === "number" && typeof Names.getUseCaseRange === "function") {
       const range = Names.getUseCaseRange(baseIndex, "town");
@@ -1091,7 +1091,7 @@ class MarkersModule {
 
   private addSeaMonster(id: string, _cell: number) {
     const culture = 0;
-    const baseIndex = pack.cultures[culture] && pack.cultures[culture].base;
+    const baseIndex = pack.cultures[culture]?.base;
     let proper: string;
     if (typeof baseIndex === "number" && typeof Names.getUseCaseRange === "function") {
       const range = Names.getUseCaseRange(baseIndex, "town");
@@ -1176,7 +1176,7 @@ class MarkersModule {
 
     const monster = ra(species);
     const culture = cells.culture[cell];
-    const baseIndex = pack.cultures[culture] && pack.cultures[culture].base;
+    const baseIndex = pack.cultures[culture]?.base;
     let toponym: string;
     if (typeof baseIndex === "number" && typeof Names.getUseCaseRange === "function") {
       const range = Names.getUseCaseRange(baseIndex, "town");
@@ -1207,7 +1207,7 @@ class MarkersModule {
 
     const culture = cells.c[cell].map(c => cells.culture[c]).find(c => c)!;
     const religion = cells.religion[cell];
-    const baseIndex = pack.cultures[culture] && pack.cultures[culture].base;
+    const baseIndex = pack.cultures[culture]?.base;
     let proper: string;
     if (typeof baseIndex === "number" && typeof Names.getUseCaseRange === "function") {
       const range = Names.getUseCaseRange(baseIndex, "town");
@@ -1233,7 +1233,7 @@ class MarkersModule {
 
     const culture = cells.culture[cell];
     const religion = cells.religion[cell];
-    const baseIndex = pack.cultures[culture] && pack.cultures[culture].base;
+    const baseIndex = pack.cultures[culture]?.base;
     let proper: string;
     if (typeof baseIndex === "number" && typeof Names.getUseCaseRange === "function") {
       const range = Names.getUseCaseRange(baseIndex, "town");
@@ -1256,7 +1256,7 @@ class MarkersModule {
 
     const culture = cells.culture[cell];
     const religion = cells.religion[cell];
-    const baseIndex = pack.cultures[culture] && pack.cultures[culture].base;
+    const baseIndex = pack.cultures[culture]?.base;
     let proper: string;
     if (typeof baseIndex === "number" && typeof Names.getUseCaseRange === "function") {
       const range = Names.getUseCaseRange(baseIndex, "town");
@@ -1287,7 +1287,7 @@ class MarkersModule {
 
     const culture = cells.culture[cell];
     const religion = cells.religion[cell];
-    const baseIndex = pack.cultures[culture] && pack.cultures[culture].base;
+    const baseIndex = pack.cultures[culture]?.base;
     let proper: string;
     if (typeof baseIndex === "number" && typeof Names.getUseCaseRange === "function") {
       const range = Names.getUseCaseRange(baseIndex, "town");

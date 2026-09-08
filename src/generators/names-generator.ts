@@ -115,12 +115,12 @@ class NamesGenerator {
 
     // Check if the base is valid (has name data)
     const isValidBase = (b: number) => {
-      return this.nameBases[b] && this.nameBases[b].b && this.nameBases[b].b.length > 0;
+      return this.nameBases[b]?.b && this.nameBases[b].b.length > 0;
     };
 
     if (!isValidBase(base)) {
       // Find the first valid namebase as fallback
-      const fallbackBase = this.nameBases.findIndex((b, i) => b && b.b && b.b.length > 0);
+      const fallbackBase = this.nameBases.findIndex((b, _i) => b?.b && b.b.length > 0);
       if (fallbackBase >= 0) {
         if (this.nameBases[base] === undefined) {
           WARN && console.warn(`Namebase ${base} is not found. Using fallback namebase ${fallbackBase}`);
@@ -141,13 +141,7 @@ class NamesGenerator {
       // Chain generation failed - try fallback
       const fallbackBase = this.nameBases.findIndex(
         (b, i) =>
-          b &&
-          b.b &&
-          b.b.length > 0 &&
-          i !== base &&
-          this.chains[i] &&
-          this.chains[i] &&
-          this.chains[i][""] !== undefined
+          b?.b && b.b.length > 0 && i !== base && this.chains[i] && this.chains[i] && this.chains[i][""] !== undefined
       );
       if (fallbackBase >= 0) {
         WARN && console.warn(`Namebase ${base} chain is invalid. Using fallback namebase ${fallbackBase}`);
@@ -378,11 +372,9 @@ class NamesGenerator {
       tip("Namebase is not found", false, "error");
       return "";
     }
-    let min: number;
-    let max: number;
     const range = this.getUseCaseRange(base, "map");
-    min = range.min;
-    max = range.max;
+    const min = range.min;
+    const max = range.max;
     const baseName = this.getBase(base, min, max, "") as string;
     const name = P(0.7) ? this.addSuffix(baseName) : baseName;
     mapName.value = name;
@@ -459,23 +451,18 @@ class NamesGenerator {
     if (cell === undefined) return 0;
 
     const cultureBase =
-      culture !== undefined &&
-      pack &&
-      pack.cultures &&
-      pack.cultures[culture] &&
-      typeof pack.cultures[culture].base === "number"
+      culture && pack?.cultures?.[culture] && typeof pack.cultures[culture].base === "number"
         ? pack.cultures[culture].base
         : 0;
 
     // pack.cells.race and pack.races are runtime-only (set by races.ts) and
     // not part of the static PackedGraph type, so access via a narrow cast.
     const packCells = (pack as unknown as { cells: { race?: number[] } }).cells;
-    const raceId = packCells && packCells.race && typeof packCells.race[cell] === "number" ? packCells.race[cell]! : 0;
+    const raceId = packCells?.race && typeof packCells.race[cell] === "number" ? packCells.race[cell]! : 0;
     if (!raceId) return cultureBase;
 
     const packRaces = (pack as unknown as { races: { name?: string }[] }).races;
-    const raceName =
-      packRaces && packRaces[raceId] && typeof packRaces[raceId].name === "string" ? packRaces[raceId].name : "";
+    const raceName = packRaces?.[raceId] && typeof packRaces[raceId].name === "string" ? packRaces[raceId].name : "";
     if (!raceName || raceName === "None") return cultureBase;
 
     const ensureRaceMixerBaseIndex = (

@@ -227,8 +227,7 @@ function prepareMapData(): string {
 
   // store cell-level race data if present and valid (custom to this fork)
   if (
-    packWithRaces.cells &&
-    packWithRaces.cells.race &&
+    packWithRaces.cells?.race &&
     packWithRaces.cells.i &&
     packWithRaces.cells.race.length === packWithRaces.cells.i.length
   ) {

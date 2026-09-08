@@ -862,7 +862,7 @@ function renderMixerFamilies(): void {
 }
 
 function formatMixerTagBadge(meta: MixerCatalogEntry | undefined, inline = false): string {
-  if (!meta || !meta.tags || !meta.tags.length) return "";
+  if (!meta?.tags?.length) return "";
   const tags: string[] = [];
   if (meta.tags.includes("extinct")) tags.push("extinct");
   if (meta.tags.includes("pidgin")) tags.push("pidgin");
@@ -911,7 +911,7 @@ function renderMixerLanguageOptions(): void {
     );
   }
   options.forEach(lang => {
-    if (lang.tags && lang.tags.includes("family")) return;
+    if (lang.tags?.includes("family")) return;
     const option = document.createElement("option");
     option.value = lang.iso;
     option.textContent = formatMixerLabel(lang);
@@ -926,7 +926,8 @@ function renderMixerLanguageOptions(): void {
 function addLanguageToMix(iso: string): void {
   if (!iso) return;
   if (mixer.languages.some(lang => lang.iso === iso)) {
-    return tip("Language already added to the mix", false, "warn");
+    tip("Language already added to the mix", false, "warn");
+    return;
   }
   mixer.languages.push({ iso, weight: 1 });
   renderMixerSelection();
@@ -1000,15 +1001,19 @@ function renderMixerSelection(): void {
 
 function distributeMixerWeights(): void {
   if (!mixer.languages.length) {
-    return tip("Add languages before distributing weights", false, "warn");
+    tip("Add languages before distributing weights", false, "warn");
+    return;
   }
-  mixer.languages.forEach(lang => (lang.weight = 1));
+  mixer.languages.forEach(lang => {
+    lang.weight = 1;
+  });
   renderMixerSelection();
 }
 
 function randomizeAllMixerWeights(): void {
   if (!mixer.languages.length) {
-    return tip("Add languages before randomizing weights", false, "warn");
+    tip("Add languages before randomizing weights", false, "warn");
+    return;
   }
   mixer.languages.forEach(lang => {
     lang.weight = getRandomWeightNearOne();
@@ -1022,7 +1027,7 @@ function getMixerMeta(iso: string): MixerCatalogEntry | undefined {
 
 async function addRandomLanguageToMixFromFilters(): Promise<void> {
   await loadMixerCatalog();
-  if (!mixer.catalog || !mixer.catalog.length) return;
+  if (!mixer.catalog?.length) return;
 
   const mixerCategorySelect = ensureEl<HTMLSelectElement>("namesbaseMixerCategory");
   const mixerFamilySelect = ensureEl<HTMLSelectElement>("namesbaseMixerFamily");
@@ -1071,7 +1076,7 @@ function generateMixerLanguageName(): string {
   const samples = mixer.languages
     .map(lang => {
       const meta = getMixerMeta(lang.iso);
-      return (meta && meta.name) || lang.iso || "";
+      return meta?.name || lang.iso || "";
     })
     .map(n => String(n).trim())
     .filter(Boolean);
@@ -1234,7 +1239,10 @@ function generateMixerNamesLocal(): void {
   const mixerCountInput = ensureEl<HTMLInputElement>("namesbaseMixerCount");
   const mixerResultArea = ensureEl<HTMLTextAreaElement>("namesbaseMixerResult");
 
-  if (!mixer.languages.length) return tip("Please add at least one language", false, "error");
+  if (!mixer.languages.length) {
+    tip("Please add at least one language", false, "error");
+    return;
+  }
 
   const isoWeights: Record<string, number> = {};
   mixer.languages.forEach(lang => {
@@ -1242,7 +1250,8 @@ function generateMixerNamesLocal(): void {
   });
 
   if (!Object.keys(isoWeights).length) {
-    return tip("Weights must be greater than zero", false, "error");
+    tip("Weights must be greater than zero", false, "error");
+    return;
   }
 
   const count = clamp(+mixerCountInput.value || 40, 5, 200);
@@ -1261,7 +1270,7 @@ function generateMixerNamesLocal(): void {
 
   try {
     const names = getMixedByIso(isoWeights, { count });
-    if (!names || !names.length) {
+    if (!names?.length) {
       setMixerStatus("No names generated. Check language mapping.", "error");
       return;
     }
@@ -1281,7 +1290,10 @@ function insertMixerNamesIntoBase(): void {
 
   const text = mixerResultArea.value;
   const names = parseMixerNames(text);
-  if (!names.length) return tip("No generated names to insert", false, "warn");
+  if (!names.length) {
+    tip("No generated names to insert", false, "warn");
+    return;
+  }
 
   const textarea = ensureEl<HTMLTextAreaElement>("namesbaseTextarea");
   const mode = mixerInsertMode.value;
@@ -1289,7 +1301,10 @@ function insertMixerNamesIntoBase(): void {
   const uniqueNewNames = Array.from(new Set(names)).filter(Boolean);
 
   if (mode === "new") {
-    if (!uniqueNewNames.length) return tip("No generated names to insert", false, "warn");
+    if (!uniqueNewNames.length) {
+      tip("No generated names to insert", false, "warn");
+      return;
+    }
 
     const base = Names.nameBases.length;
     const selectedIndex = +ensureEl<HTMLSelectElement>("namesbaseSelect").value || 0;
@@ -1371,7 +1386,9 @@ function initMixerAiControls(): void {
 
   const loadFromStorage = (): void => {
     mixerAiModelSelect.options.length = 0;
-    Object.keys(MODELS).forEach(model => mixerAiModelSelect.options.add(new Option(model, model)));
+    Object.keys(MODELS).forEach(model => {
+      mixerAiModelSelect.options.add(new Option(model, model));
+    });
 
     let storedModel = localStorage.getItem("fmg-ai-model");
     if (!storedModel || !MODELS[storedModel]) {

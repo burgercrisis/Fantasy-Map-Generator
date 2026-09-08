@@ -15,9 +15,6 @@ interface NamesGlobal {
 declare global {
   var fantasyRaceNames: string[];
   var refreshDefaultNameBaseIds: (() => void) | undefined;
-  var initializeRacesForExpansion: ((options?: { forceFilterFromUi?: boolean }) => void) | undefined;
-  var assignRaces: (() => void) | undefined;
-  var rerollRacesForCultures: ((options?: { forceFilterFromUi?: boolean }) => void) | undefined;
 }
 
 interface LanguageMixerEntry extends LanguageMixerCatalogEntry {
@@ -544,8 +541,8 @@ function getRaceLanguageIsoWeights(raceName: string): Record<string, number> | n
   const isoWeights: Record<string, number> = {};
 
   catalog.forEach(lang => {
-    if (!lang || !lang.iso) return;
-    if (lang.tags && lang.tags.includes("family")) return; // skip family-only macros
+    if (!lang?.iso) return;
+    if (lang.tags?.includes("family")) return; // skip family-only macros
 
     if (useAll) {
       isoWeights[lang.iso] = (isoWeights[lang.iso] || 0) + 1;
@@ -589,7 +586,7 @@ function getRaceLanguageIsoWeights(raceName: string): Record<string, number> | n
           const iso = fallbackKeys.splice(idx, 1)[0];
           if (!iso) continue;
           const w = fallback[iso];
-          const weight = typeof w === "number" && isFinite(w) && w > 0 ? w : 1;
+          const weight = typeof w === "number" && Number.isFinite(w) && w > 0 ? w : 1;
           isoWeights[iso] = weight;
         }
       }
@@ -615,7 +612,7 @@ function getNameBases(): NameBase[] {
 // back to the classic fantasy namebase defined for the race.
 
 function generateRaceLanguageNames(raceName: string, options?: { count?: number }): string[] {
-  const count = (options && options.count) || 40;
+  const count = options?.count || 40;
   const raceNames = getRaceNames();
 
   const canMix = typeof Names !== "undefined" && typeof raceNames.getMixedByIso === "function";
@@ -634,7 +631,7 @@ function generateRaceLanguageNames(raceName: string, options?: { count?: number 
   // Fallback if mixer is absolutely unavailable
   if (!canMix) {
     const bases = fantasyRaceBases[raceName];
-    if (!bases || !bases.length || !Names || typeof Names.getBase !== "function") return [];
+    if (!bases?.length || !Names || typeof Names.getBase !== "function") return [];
 
     const baseIndex = bases[0];
     const result: string[] = [];
@@ -691,7 +688,7 @@ function buildRaceMixerLanguageDisplayName(
 
   const catalogByIso = new Map<string, LanguageMixerEntry>();
   for (const lang of catalog) {
-    if (!lang || !lang.iso || !lang.name) continue;
+    if (!lang?.iso || !lang.name) continue;
     catalogByIso.set(lang.iso, lang);
   }
 
@@ -699,7 +696,7 @@ function buildRaceMixerLanguageDisplayName(
   for (const [iso, weightRaw] of Object.entries(isoWeights)) {
     const lang = catalogByIso.get(iso);
     if (!lang) continue;
-    const weight = typeof weightRaw === "number" && isFinite(weightRaw) ? weightRaw : 0;
+    const weight = typeof weightRaw === "number" && Number.isFinite(weightRaw) ? weightRaw : 0;
     if (weight <= 0) continue;
 
     let n = String(lang.name || "").trim();
@@ -713,20 +710,20 @@ function buildRaceMixerLanguageDisplayName(
     const key = n.toLowerCase();
     const existing = cleanedByName.get(key);
     cleanedByName.set(key, {
-      name: existing && existing.name ? existing.name : n,
-      weight: (existing && existing.weight ? existing.weight : 0) + weight
+      name: existing?.name ? existing.name : n,
+      weight: (existing?.weight ? existing.weight : 0) + weight
     });
   }
 
   const sources = Array.from(cleanedByName.entries())
     .map(([key, value]) => ({ key, name: value?.name, weight: value?.weight }))
-    .filter(s => s && s.name && typeof s.weight === "number" && s.weight > 0)
+    .filter(s => s?.name && typeof s.weight === "number" && s.weight > 0)
     .sort((a, b) => b.weight - a.weight);
 
   if (!sources.length) return "";
 
   const seed = options && typeof options.seed === "number" ? options.seed : null;
-  const seedInt = typeof seed === "number" && isFinite(seed) ? seed >>> 0 : 0;
+  const seedInt = typeof seed === "number" && Number.isFinite(seed) ? seed >>> 0 : 0;
   let s = seedInt || hashStringToUint32(`race-mixer-name|${raceName}`);
   const rng = () => {
     s += 0x6d2b79f5;
@@ -820,7 +817,7 @@ function buildRaceMixerLanguageDisplayName(
       const prefixLower = prefix.toLowerCase();
       let matchesSource = false;
       for (const src of sources) {
-        const sName = src && src.name ? String(src.name).trim() : "";
+        const sName = src?.name ? String(src.name).trim() : "";
         if (!sName) continue;
         if (sName.toLowerCase() === prefixLower) {
           matchesSource = true;
@@ -837,7 +834,7 @@ function buildRaceMixerLanguageDisplayName(
   if (!bestName) {
     // Fallback: derive a name from the top source language
     const topSource = sources[0];
-    if (topSource && topSource.name) {
+    if (topSource?.name) {
       const src = String(topSource.name).trim();
       if (src.length >= 3) {
         bestName = src.charAt(0).toUpperCase() + src.slice(1);
@@ -874,7 +871,7 @@ function findExistingRaceMixerBaseIndex(raceName: string): number | null {
 
     // Stricter check: only match by name if it's explicitly marked as a mixer base
     // or if it matches the generated pattern like "Elf Mix" or "Quenian (Elf)"
-    const isMixerBase = b.raceMixerFor || b.cultureMixer || b.isoWeights || (b.name && b.name.includes(" Mix"));
+    const isMixerBase = b.raceMixerFor || b.cultureMixer || b.isoWeights || b.name?.includes(" Mix");
     if (!isMixerBase) continue;
 
     if (name === expectedName) return i;
@@ -885,7 +882,7 @@ function findExistingRaceMixerBaseIndex(raceName: string): number | null {
 
 function getRaceDefaultBaseIndex(raceName: string): number | null {
   if (!raceName) return null;
-  if (!fantasyRaceBases || !fantasyRaceBases[raceName]) return null;
+  if (!fantasyRaceBases?.[raceName]) return null;
   const nameBases = getNameBases();
   if (!Array.isArray(nameBases)) return null;
 
@@ -896,7 +893,7 @@ function getRaceDefaultBaseIndex(raceName: string): number | null {
     if (typeof baseIndex !== "number") continue;
     const base = nameBases[baseIndex];
     if (!base) continue;
-    if (base && base.raceMixerFor) continue;
+    if (base?.raceMixerFor) continue;
     return baseIndex;
   }
 
@@ -925,7 +922,7 @@ function ensureRaceMixerBaseIndex(
       if (!base || typeof base.b !== "string") return false;
       const raceNames = getRaceNames();
       if (!Names || typeof raceNames.getMixedByIso !== "function") return false;
-      if (options && options.refresh) return true;
+      if (options?.refresh) return true;
       try {
         const count = base.b.split(",").filter(Boolean).length;
         if (count < 80) return true;
@@ -947,7 +944,7 @@ function ensureRaceMixerBaseIndex(
       const isoWeights = primaryIsoWeights || fallbackIsoWeights;
 
       if (isoWeights) {
-        const count = (options && options.count) || 240;
+        const count = options?.count || 240;
         const seedSource = `${typeof seed === "string" ? seed : ""}|${raceName}|race-mixer`;
         const mixSeed = hashStringToUint32(seedSource);
 
@@ -1033,7 +1030,7 @@ function ensureRaceMixerBaseIndex(
   const isoWeights = primaryIsoWeights || fallbackIsoWeights;
   if (!isoWeights) return null;
 
-  const count = (options && options.count) || 240;
+  const count = options?.count || 240;
   const seedSource = `${typeof seed === "string" ? seed : ""}|${raceName}|race-mixer`;
   const mixSeed = hashStringToUint32(seedSource);
 
@@ -1282,7 +1279,7 @@ function defineRaceExpansionism(name: string): number {
 }
 
 function getRaceNameForCulture(culture: any): string {
-  if (!culture || !culture.i || culture.removed) return "Human";
+  if (!culture?.i || culture.removed) return "Human";
 
   // Primary: explicit race name string assigned to the culture
   if (typeof culture.race === "string" && culture.race !== "None" && culture.race !== "") return culture.race;
@@ -1303,7 +1300,7 @@ function getRaceNameForCulture(culture: any): string {
   }
 
   // Quaternary: check if the namebase is marked as a race mixer base
-  const baseEntry = nameBases && nameBases[base];
+  const baseEntry = nameBases?.[base];
   const markedRace = baseEntry && typeof baseEntry.raceMixerFor === "string" ? baseEntry.raceMixerFor : "";
   if (markedRace && fantasyRaceBases[markedRace]) return markedRace;
 
@@ -1313,14 +1310,14 @@ function getRaceNameForCulture(culture: any): string {
 function shouldEnableRacesForCurrentWorld(): boolean {
   if (pack && Array.isArray((pack as any).races)) {
     for (const race of (pack as any).races) {
-      if (!race || !race.i || !race.name) continue;
+      if (!race?.i || !race.name) continue;
       if (race.name) return true;
     }
   }
 
   if (!pack || !Array.isArray(pack.cultures)) return false;
   for (const culture of pack.cultures) {
-    if (!culture || !culture.i || culture.removed) continue;
+    if (!culture?.i || culture.removed) continue;
     const raceName = getRaceNameForCulture(culture);
     if (raceName) return true;
   }
@@ -1329,7 +1326,7 @@ function shouldEnableRacesForCurrentWorld(): boolean {
 }
 
 function initializeRacesForExpansion(options?: { forceFilterFromUi?: boolean; skipApplyFilter?: boolean }): void {
-  if (!pack || !pack.cultures) return;
+  if (!pack?.cultures) return;
   if (!shouldEnableRacesForCurrentWorld()) return;
 
   const packAny = pack as any;
@@ -1339,8 +1336,8 @@ function initializeRacesForExpansion(options?: { forceFilterFromUi?: boolean; sk
   const raceColorById: Record<number, string> = {};
 
   const isFirstInitialization = existingRaces.length <= 1;
-  const forceFilterFromUi = options && options.forceFilterFromUi;
-  const skipApplyFilter = options && options.skipApplyFilter;
+  const forceFilterFromUi = options?.forceFilterFromUi;
+  const skipApplyFilter = options?.skipApplyFilter;
   const shouldApplyFilter = !skipApplyFilter && (isFirstInitialization || forceFilterFromUi);
 
   let allowedRaces: Set<string> | null = null;
@@ -1366,7 +1363,7 @@ function initializeRacesForExpansion(options?: { forceFilterFromUi?: boolean; sk
       // remaining slots from the eligible pool.
       const raceNeedCounts = new Map<string, number>();
       pack.cultures.forEach(culture => {
-        if (!culture || !culture.i || culture.removed) return;
+        if (!culture?.i || culture.removed) return;
         const raceName = getRaceNameForCulture(culture);
         if (!raceName || raceName === "Human") return;
         if (!uiFilteredRaces.includes(raceName)) return;
@@ -1386,7 +1383,7 @@ function initializeRacesForExpansion(options?: { forceFilterFromUi?: boolean; sk
   }
 
   existingRaces.forEach((race: any) => {
-    if (!race || !race.i) return;
+    if (!race?.i) return;
     races[race.i] = { i: race.i, name: race.name, color: race.color, expansionism: race.expansionism };
     raceIndexByName.set(race.name, race.i);
     if (race.color) raceColorById[race.i] = race.color;
@@ -1407,8 +1404,8 @@ function initializeRacesForExpansion(options?: { forceFilterFromUi?: boolean; sk
 
     if (raceName && raceName !== "Human") {
       const nameBases = getNameBases();
-      const currentBase = nameBases && nameBases[culture.base];
-      const hasCultureMixer = currentBase && currentBase.cultureMixer && currentBase.cultureMixerFor === culture.i;
+      const currentBase = nameBases?.[culture.base];
+      const hasCultureMixer = currentBase?.cultureMixer && currentBase.cultureMixerFor === culture.i;
       if (!hasCultureMixer) {
         const baseIndex = ensureRaceMixerBaseIndex(raceName);
         if (typeof baseIndex === "number") culture.base = baseIndex;
@@ -1431,7 +1428,7 @@ function initializeRacesForExpansion(options?: { forceFilterFromUi?: boolean; sk
   });
 
   races.forEach(race => {
-    if (!race || !race.i) return;
+    if (!race?.i) return;
     race.color = raceColorById[race.i] || race.color || "#888888";
     if (race.expansionism == null) race.expansionism = 1;
   });
@@ -1443,7 +1440,7 @@ function rerollRacesForCultures(options?: { forceFilterFromUi?: boolean }): void
   if (!pack || !Array.isArray(pack.cultures)) return;
   if (!shouldEnableRacesForCurrentWorld()) return;
 
-  const forceFilterFromUi = options && options.forceFilterFromUi;
+  const forceFilterFromUi = options?.forceFilterFromUi;
   const packAny = pack as any;
 
   let allowedRaces: Set<string> | null = null;
@@ -1478,7 +1475,7 @@ function rerollRacesForCultures(options?: { forceFilterFromUi?: boolean }): void
       // races while still allowing diversity.
       const raceNeedCounts = new Map<string, number>();
       pack.cultures.forEach(culture => {
-        if (!culture || !culture.i || culture.removed) return;
+        if (!culture?.i || culture.removed) return;
         const raceName = getRaceNameForCulture(culture);
         if (!raceName || raceName === "Human") return;
         if (!uiFilteredRaces.includes(raceName)) return;
@@ -1536,8 +1533,8 @@ function rerollRacesForCultures(options?: { forceFilterFromUi?: boolean }): void
     // a culture-specific mixer base (preserves unique per-culture names)
     if (raceName) {
       const nameBases = getNameBases();
-      const currentBase = nameBases && nameBases[culture.base];
-      const hasCultureMixer = currentBase && currentBase.cultureMixer && currentBase.cultureMixerFor === culture.i;
+      const currentBase = nameBases?.[culture.base];
+      const hasCultureMixer = currentBase?.cultureMixer && currentBase.cultureMixerFor === culture.i;
       if (!hasCultureMixer) {
         const baseIndex = ensureRaceMixerBaseIndex(raceName);
         if (typeof baseIndex === "number") culture.base = baseIndex;
@@ -1548,7 +1545,7 @@ function rerollRacesForCultures(options?: { forceFilterFromUi?: boolean }): void
   });
 
   races.forEach(race => {
-    if (!race || !race.i) return;
+    if (!race?.i) return;
     race.color = raceColorById[race.i] || race.color || "#888888";
     if (race.expansionism == null) race.expansionism = 1;
   });
@@ -1561,7 +1558,7 @@ function syncCultureBasesToDominantRace(): void {
   const packAny = pack as any;
   if (!packAny || !Array.isArray(packAny.races)) return;
   const { cells, cultures, races } = packAny;
-  if (!cells || !cells.i || !cells.culture || !cells.race) return;
+  if (!cells?.i || !cells.culture || !cells.race) return;
   if (!Array.isArray(cultures) || !Array.isArray(races) || races.length < 1) return;
   if (typeof ensureRaceMixerBaseIndex !== "function") return;
 
@@ -1576,26 +1573,30 @@ function syncCultureBasesToDominantRace(): void {
     if (!cultureId) continue;
     const raceId = cells.race[i] || 0;
     if (!raceId) continue;
-    if (!races || !races[raceId]) continue;
+    if (!races?.[raceId]) continue;
 
-    const cultureBucket = (countsByCulture[cultureId] = countsByCulture[cultureId] || {});
+    if (!countsByCulture[cultureId]) countsByCulture[cultureId] = {};
+    const cultureBucket = countsByCulture[cultureId];
     cultureBucket[raceId] = (cultureBucket[raceId] || 0) + 1;
 
     const stateId = cells.state ? cells.state[i] : 0;
     if (stateId) {
-      const bucket = (countsByState[stateId] = countsByState[stateId] || {}) as Record<number, number>;
+      if (!countsByState[stateId]) countsByState[stateId] = {} as Record<number, number>;
+      const bucket = countsByState[stateId];
       bucket[raceId] = (bucket[raceId] || 0) + 1;
     }
 
     const provinceId = cells.province ? cells.province[i] : 0;
     if (provinceId) {
-      const bucket = (countsByProvince[provinceId] = countsByProvince[provinceId] || {}) as Record<number, number>;
+      if (!countsByProvince[provinceId]) countsByProvince[provinceId] = {} as Record<number, number>;
+      const bucket = countsByProvince[provinceId];
       bucket[raceId] = (bucket[raceId] || 0) + 1;
     }
 
     const religionId = cells.religion ? cells.religion[i] : 0;
     if (religionId) {
-      const bucket = (countsByReligion[religionId] = countsByReligion[religionId] || {}) as Record<number, number>;
+      if (!countsByReligion[religionId]) countsByReligion[religionId] = {} as Record<number, number>;
+      const bucket = countsByReligion[religionId];
       bucket[raceId] = (bucket[raceId] || 0) + 1;
     }
   }
@@ -1657,12 +1658,12 @@ function syncCultureBasesToDominantRace(): void {
       }
       const cell = burg.cell;
       const raceId = cell !== undefined && cells.race ? cells.race[cell] || 0 : 0;
-      burg.race = races && races[raceId] ? raceId : 0;
+      burg.race = races?.[raceId] ? raceId : 0;
     });
   }
 
   for (const culture of cultures) {
-    if (!culture || !culture.i || culture.removed) continue;
+    if (!culture?.i || culture.removed) continue;
     const counts = countsByCulture[culture.i];
     if (!counts) continue;
 
@@ -1683,8 +1684,8 @@ function syncCultureBasesToDominantRace(): void {
       // Only assign a race mixer base if the culture doesn't already have
       // a culture-specific mixer base (preserves unique per-culture names)
       const nameBases = getNameBases();
-      const currentBase = nameBases && nameBases[culture.base];
-      const hasCultureMixer = currentBase && currentBase.cultureMixer && currentBase.cultureMixerFor === culture.i;
+      const currentBase = nameBases?.[culture.base];
+      const hasCultureMixer = currentBase?.cultureMixer && currentBase.cultureMixerFor === culture.i;
       if (!hasCultureMixer) {
         const baseIndex = ensureRaceMixerBaseIndex(raceName);
         if (typeof baseIndex === "number") culture.base = baseIndex;
@@ -1694,17 +1695,32 @@ function syncCultureBasesToDominantRace(): void {
 }
 
 function assignRaces(): void {
-  if (!pack || !pack.cultures) return;
+  if (!pack?.cultures) return;
   const packAny = pack as any;
 
   function clearRaces(): void {
     packAny.races = [];
 
-    if (pack.cultures) pack.cultures.forEach((c: any) => c && delete c.race);
-    if (packAny.states) packAny.states.forEach((s: any) => s && delete s.race);
-    if (packAny.provinces) packAny.provinces.forEach((p: any) => p && delete p.race);
-    if (packAny.burgs) packAny.burgs.forEach((b: any) => b && delete b.race);
-    if (packAny.religions) packAny.religions.forEach((r: any) => r && delete r.race);
+    if (pack.cultures)
+      pack.cultures.forEach((c: any) => {
+        c && delete c.race;
+      });
+    if (packAny.states)
+      packAny.states.forEach((s: any) => {
+        s && delete s.race;
+      });
+    if (packAny.provinces)
+      packAny.provinces.forEach((p: any) => {
+        p && delete p.race;
+      });
+    if (packAny.burgs)
+      packAny.burgs.forEach((b: any) => {
+        b && delete b.race;
+      });
+    if (packAny.religions)
+      packAny.religions.forEach((r: any) => {
+        r && delete r.race;
+      });
   }
 
   if (!shouldEnableRacesForCurrentWorld()) {
@@ -1720,7 +1736,7 @@ function assignRaces(): void {
   }
 
   function getRaceFromCultureId(cultureId: number): number {
-    const culture = pack.cultures && pack.cultures[cultureId];
+    const culture = pack.cultures?.[cultureId];
     return culture && (culture as any).race ? (culture as any).race : 0;
   }
 
@@ -1736,23 +1752,26 @@ function assignRaces(): void {
       if (cells.h && cells.h[i] < 20) continue;
       const raceId = raceByCell[i] || 0;
       if (!raceId) continue;
-      if (!races || !races[raceId]) continue;
+      if (!races?.[raceId]) continue;
 
       const stateId = cells.state ? cells.state[i] : 0;
       if (stateId) {
-        const bucket = (countsByState[stateId] = countsByState[stateId] || {}) as any;
+        if (!countsByState[stateId]) countsByState[stateId] = {} as any;
+        const bucket = countsByState[stateId];
         bucket[raceId] = (bucket[raceId] || 0) + 1;
       }
 
       const provinceId = cells.province ? cells.province[i] : 0;
       if (provinceId) {
-        const bucket = (countsByProvince[provinceId] = countsByProvince[provinceId] || {}) as any;
+        if (!countsByProvince[provinceId]) countsByProvince[provinceId] = {} as any;
+        const bucket = countsByProvince[provinceId];
         bucket[raceId] = (bucket[raceId] || 0) + 1;
       }
 
       const religionId = cells.religion ? cells.religion[i] : 0;
       if (religionId) {
-        const bucket = (countsByReligion[religionId] = countsByReligion[religionId] || {}) as any;
+        if (!countsByReligion[religionId]) countsByReligion[religionId] = {} as any;
+        const bucket = countsByReligion[religionId];
         bucket[raceId] = (bucket[raceId] || 0) + 1;
       }
     }
@@ -1814,7 +1833,7 @@ function assignRaces(): void {
         }
         const cell = burg.cell;
         const raceId = cell !== undefined && raceByCell ? raceByCell[cell] || 0 : 0;
-        burg.race = races && races[raceId] ? raceId : 0;
+        burg.race = races?.[raceId] ? raceId : 0;
       });
     }
   } else {
@@ -1837,7 +1856,7 @@ function assignRaces(): void {
           return;
         }
         const state = packAny.states[province.state];
-        province.race = state && state.race ? state.race : 0;
+        province.race = state?.race ? state.race : 0;
       });
     }
 
@@ -1864,7 +1883,7 @@ function assignRaces(): void {
     }
   }
 
-  if (pack.cells && pack.cells.culture && pack.cells.i) {
+  if (pack.cells?.culture && pack.cells.i) {
     const cells = packAny.cells;
     const hasCellRaces = cells.race && cells.race.length === pack.cells.i.length;
 
@@ -1872,7 +1891,7 @@ function assignRaces(): void {
       const raceArray = new Uint16Array(pack.cells.i.length);
       for (const i of pack.cells.i) {
         const cultureId = pack.cells.culture[i];
-        const culture = pack.cultures && pack.cultures[cultureId];
+        const culture = pack.cultures?.[cultureId];
         const raceId = culture && (culture as any).race ? (culture as any).race : 0;
         raceArray[i] = raceId;
       }
@@ -1954,7 +1973,7 @@ interface RaceCultureProps {
 
 function getRaceCultureProps(raceName: string): RaceCultureProps | null {
   const bases = fantasyRaceBases[raceName];
-  if (!bases || !bases.length) return null;
+  if (!bases?.length) return null;
   const base = bases[0];
   const shield = getRaceShield(raceName);
   const expansionism = defineRaceExpansionism(raceName);

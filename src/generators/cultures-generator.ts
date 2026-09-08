@@ -931,7 +931,7 @@ class CulturesGenerator {
       } else if (!Names.nameBases[c.base] || !Names.nameBases[c.base].b) {
         // Fallback: culture mixer failed and current base is invalid.
         // Use the first valid namebase to prevent "ERROR" names.
-        const firstValid = Names.nameBases.findIndex(b => b && b.b && b.b.length > 0);
+        const firstValid = Names.nameBases.findIndex(b => b?.b && b.b.length > 0);
         c.base = firstValid >= 0 ? firstValid : 0;
       }
     }
@@ -1149,20 +1149,20 @@ class CulturesGenerator {
     const config = (
       window as unknown as { languageMixerCultureSets?: Record<string, { categories?: string[]; families?: string[] }> }
     ).languageMixerCultureSets?.[cultureSet];
-    if (!config) return catalog.filter(l => l && l.iso && !(l.tags && l.tags.includes("family")));
+    if (!config) return catalog.filter(l => l?.iso && !l.tags?.includes("family"));
 
     const { categories, families } = config;
-    const hasFilter = (categories && categories.length) || (families && families.length);
+    const hasFilter = categories?.length || families?.length;
 
     // No filters = full catalog (world, random)
-    if (!hasFilter) return catalog.filter(l => l && l.iso && !(l.tags && l.tags.includes("family")));
+    if (!hasFilter) return catalog.filter(l => l?.iso && !l.tags?.includes("family"));
 
     const catSet = new Set((categories || []).map(c => c.toLowerCase()));
     const famSet = new Set((families || []).map(f => f.toLowerCase()));
 
     return catalog.filter(l => {
-      if (!l || !l.iso) return false;
-      if (l.tags && l.tags.includes("family")) return false;
+      if (!l?.iso) return false;
+      if (l.tags?.includes("family")) return false;
 
       const cat = (l.category || "").toLowerCase();
       const fam = (l.family || "").toLowerCase();
@@ -1201,7 +1201,7 @@ class CulturesGenerator {
       if (seedInt % 2 === 0) return null;
     }
 
-    const culture = pack.cultures && pack.cultures[cultureId];
+    const culture = pack.cultures?.[cultureId];
 
     // "Humans only" = mixer runs for non-Human (fantasy) cultures; Human
     // cultures use their preset namebases (same effect as Off for them).
@@ -1220,14 +1220,14 @@ class CulturesGenerator {
         const raceWeights = getRaceLanguageIsoWeights(raceName);
         if (raceWeights) {
           const raceIsoCodes = new Set(Object.keys(raceWeights));
-          const racePool = catalog.filter(l => l && l.iso && raceIsoCodes.has(l.iso));
+          const racePool = catalog.filter(l => l?.iso && raceIsoCodes.has(l.iso));
           if (racePool.length) {
             const rng = this.makeRng(this.getCultureMixerSeed(cultureId));
             const isoWeights: Record<string, number> = {};
             const picks = Math.min(3 + Math.floor(rng() * 4), racePool.length);
             for (let i = 0; i < picks; i++) {
               const lang = racePool[Math.floor(rng() * racePool.length)];
-              if (!lang || !lang.iso) continue;
+              if (!lang?.iso) continue;
               isoWeights[lang.iso] = (isoWeights[lang.iso] || 0) + 1;
             }
             if (Object.keys(isoWeights).length) return isoWeights;
@@ -1240,7 +1240,7 @@ class CulturesGenerator {
     let pool = this.filterCatalogByCultureSet(catalog, cultureSet);
     if (!pool.length) {
       // Fallback: if filter produced nothing, use full catalog
-      pool = catalog.filter(l => l && l.iso && !(l.tags && l.tags.includes("family")));
+      pool = catalog.filter(l => l?.iso && !l.tags?.includes("family"));
     }
     if (!pool.length) return null;
 
@@ -1250,7 +1250,7 @@ class CulturesGenerator {
     const picks = 3 + Math.floor(rng() * 4); // 3..6
     for (let i = 0; i < picks; i++) {
       const lang = pool[Math.floor(rng() * pool.length)];
-      if (!lang || !lang.iso) continue;
+      if (!lang?.iso) continue;
       isoWeights[lang.iso] = (isoWeights[lang.iso] || 0) + 1;
     }
 

@@ -500,7 +500,7 @@ function showBurgsChart(): void {
       const culture = pack.cultures && b.culture !== undefined ? pack.cultures[b.culture] : undefined;
       const languageBase = culture && typeof culture.base === "number" ? culture.base : 0;
       const burgRace = (b as unknown as { race?: number | string }).race;
-      const raceOriginal = burgRace || (culture && culture.race) || 0;
+      const raceOriginal = burgRace || culture?.race || 0;
       return {
         id,
         i: b.i,
@@ -582,7 +582,7 @@ function showBurgsChart(): void {
   function showInfo(ev: any, d: any): void {
     select(ev.target).transition().duration(1500).attr("stroke", "#c13119");
     const name = d.data.name;
-    const parentName = d.parent && d.parent.data ? d.parent.data.name : "";
+    const parentName = d.parent?.data ? d.parent.data.name : "";
     const population = si(d.value * populationRate * urbanization);
 
     const typeSelect = ensureEl<HTMLSelectElement>("burgsTreeType");
@@ -654,11 +654,11 @@ function showBurgsChart(): void {
     // Build language group nodes keyed by culture namebase (language = base index).
     const getLanguagesData = () => {
       const cultures = pack.cultures;
-      if (!cultures || !cultures.length) return getStatesData();
+      if (!cultures?.length) return getStatesData();
 
       const baseIds = new Set<number>();
       cultures.forEach(c => {
-        if (!c || !c.i || c.removed) return;
+        if (!c?.i || c.removed) return;
         const baseId = typeof c.base === "number" ? c.base : 0;
         baseIds.add(baseId);
       });
@@ -684,7 +684,7 @@ function showBurgsChart(): void {
           const sampleCulture = cultures.find(
             c => c && !c.removed && typeof c.base === "number" && c.base === baseId && c.color
           );
-          if (sampleCulture && sampleCulture.color) color = sampleCulture.color;
+          if (sampleCulture?.color) color = sampleCulture.color;
 
           languages.push({ id, language: 0, color, name });
           languageIndexByBase.set(baseId, id);
@@ -702,7 +702,7 @@ function showBurgsChart(): void {
     const getRacesData = () => {
       const racesSource = (
         (pack as unknown as { races?: { i?: number; removed?: boolean; color?: string; name?: string }[] }).races || []
-      ).filter(r => r && r.i && !r.removed);
+      ).filter(r => r?.i && !r.removed);
       if (!racesSource.length) return getStatesData();
 
       const racesData: any[] = [];

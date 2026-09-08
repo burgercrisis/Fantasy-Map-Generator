@@ -4,7 +4,6 @@ import { tip } from "@/components/tooltips";
 import { Controllers } from "@/controllers";
 import { Emblems } from "@/generators/emblems-generator";
 import { Population } from "@/generators/population-generator";
-import { drawRaces } from "@/renderers/draw-races";
 import { unfog } from "@/renderers/overlays/fogging";
 import { ensureEl, gauss, isCtrlClick } from "@/utils";
 
@@ -15,8 +14,6 @@ declare global {
   var refreshAllEditors: (() => void) | undefined;
   var toggleRaces: ((event?: Event) => void) | undefined;
   var editRaces: (() => void) | undefined;
-  var drawRaces: (() => void) | undefined;
-  var regenerateRaces: (() => void) | undefined;
 }
 
 ensureEl("toolsContent").addEventListener("click", event => {
@@ -146,20 +143,32 @@ function regenerateRivers(): void {
 }
 
 function regenerateRaces(): void {
-  if (!pack || !pack.cultures || !pack.cells) return;
+  if (!pack?.cultures || !pack.cells) return;
 
   // Drop existing derived race assignments to force a re-roll.
   if (Array.isArray(pack.cultures)) {
     pack.cultures.forEach(c => {
-      if (!c || !c.i || c.removed) return;
+      if (!c?.i || c.removed) return;
       delete (c as unknown as { race?: number }).race;
     });
   }
 
-  if (pack.states) pack.states.forEach(s => s && delete (s as unknown as { race?: number }).race);
-  if (pack.provinces) pack.provinces.forEach(p => p && delete (p as unknown as { race?: number }).race);
-  if (pack.burgs) pack.burgs.forEach(b => b && delete (b as unknown as { race?: number }).race);
-  if (pack.religions) pack.religions.forEach(r => r && delete (r as unknown as { race?: number }).race);
+  if (pack.states)
+    pack.states.forEach(s => {
+      s && delete (s as unknown as { race?: number }).race;
+    });
+  if (pack.provinces)
+    pack.provinces.forEach(p => {
+      p && delete (p as unknown as { race?: number }).race;
+    });
+  if (pack.burgs)
+    pack.burgs.forEach(b => {
+      b && delete (b as unknown as { race?: number }).race;
+    });
+  if (pack.religions)
+    pack.religions.forEach(r => {
+      r && delete (r as unknown as { race?: number }).race;
+    });
 
   // Force rebuild of cell-level race layer.
   const cells = pack.cells as unknown as { race?: Uint16Array };
@@ -307,6 +316,6 @@ window.refreshAllEditors = (): void => {
   ];
   for (const id of editors) {
     const el = document.getElementById(id);
-    if (el && el.offsetParent) (el as HTMLButtonElement).click();
+    if (el?.offsetParent) (el as HTMLButtonElement).click();
   }
 };

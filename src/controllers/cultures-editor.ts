@@ -448,7 +448,7 @@ function getBaseOptions(base: number): string {
 
 // Resolve the display name for a culture's race (custom fork; no upstream equivalent).
 function getRaceName(culture: Culture | undefined): string {
-  if (!culture || !culture.i) return "";
+  if (!culture?.i) return "";
   if (typeof culture.race === "string" && culture.race) return culture.race;
   if (typeof getRaceNameForCulture === "function") {
     const raceName = getRaceNameForCulture(culture);
@@ -456,7 +456,7 @@ function getRaceName(culture: Culture | undefined): string {
   }
   if (culture.race && pack && Array.isArray((pack as unknown as { races?: { name?: string }[] }).races)) {
     const race = (pack as unknown as { races?: { name?: string }[] }).races![Number(culture.race)];
-    if (race && race.name && race.name !== "None") return race.name;
+    if (race?.name && race.name !== "None") return race.name;
   }
   return "Human";
 }

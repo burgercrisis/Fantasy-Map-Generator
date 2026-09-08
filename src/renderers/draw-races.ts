@@ -19,7 +19,7 @@ export function drawRaces(): void {
   const bodyPaths: string[] = [];
   for (const [index, { fill, waterGap }] of Object.entries(isolines)) {
     const race = races[+index];
-    if (!race || !race.i || race.removed) continue;
+    if (!race?.i || race.removed) continue;
     const color = race.color || "#888888";
     if (fill) bodyPaths.push(/* html */ `<path d="${fill}" fill="${color}" id="race${index}" />`);
     if (waterGap)

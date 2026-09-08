@@ -1282,7 +1282,7 @@ class ReligionsModule {
       return;
     }
     const meaning = this.generateMeaning();
-    const base = pack.cultures[culture] && pack.cultures[culture].base;
+    const base = pack.cultures[culture]?.base;
     let cultureName: string;
     if (typeof base === "number" && typeof Names.getUseCaseRange === "function") {
       const range = Names.getUseCaseRange(base, "deity");
@@ -1298,7 +1298,7 @@ class ReligionsModule {
 
     const random = () => {
       const cultureId = cells.culture[center];
-      const base = cultures[cultureId] && cultures[cultureId].base;
+      const base = cultures[cultureId]?.base;
       if (typeof base === "number" && typeof Names.getUseCaseRange === "function") {
         const range = Names.getUseCaseRange(base, "religion");
         return Names.getCulture(cultureId, range.min, range.max, "");

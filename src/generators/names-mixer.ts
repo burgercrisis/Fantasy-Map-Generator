@@ -367,7 +367,7 @@ function buildIndexCorrectionMap(): Map<number, number> {
   const nameToIndex = new Map<string, number>();
   for (let i = 0; i < nameBases.length; i++) {
     const nb = nameBases[i];
-    if (nb && nb.name && nb.b && nb.b.length > 0) {
+    if (nb?.name && nb.b && nb.b.length > 0) {
       const normalizedName = nb.name.toLowerCase().trim();
       if (!nameToIndex.has(normalizedName)) {
         nameToIndex.set(normalizedName, i);
@@ -379,7 +379,7 @@ function buildIndexCorrectionMap(): Map<number, number> {
   const isoToExpectedName = new Map<string, string>();
   const catalog = Array.isArray(window.languageMixerCatalog) ? window.languageMixerCatalog : [];
   for (const entry of catalog) {
-    if (entry && entry.iso && entry.name) {
+    if (entry?.iso && entry.name) {
       const isoLower = entry.iso.toLowerCase().trim();
       if (!isoToExpectedName.has(isoLower)) {
         isoToExpectedName.set(isoLower, entry.name.toLowerCase().trim());
@@ -390,7 +390,7 @@ function buildIndexCorrectionMap(): Map<number, number> {
   // For each entry in the mixer map, check if the index resolves to the
   // correct namebase. If not, try to find the correct index.
   for (const entry of map) {
-    if (!entry || !entry.iso || !Array.isArray(entry.bases)) continue;
+    if (!entry?.iso || !Array.isArray(entry.bases)) continue;
 
     const isoLower = entry.iso.toLowerCase().trim();
     const expectedName = isoToExpectedName.get(isoLower);
@@ -401,7 +401,7 @@ function buildIndexCorrectionMap(): Map<number, number> {
 
       // Check if the index resolves to the correct namebase
       const nb = nameBases[baseIdx];
-      const isValid = nb && nb.b && nb.b.length > 0 && nb.name;
+      const isValid = nb?.b && nb.b.length > 0 && nb.name;
       const nameMatches = isValid && expectedName && nb.name.toLowerCase().trim() === expectedName;
 
       if (isValid && (nameMatches || !expectedName)) {
@@ -511,14 +511,14 @@ function normalizeWeights(baseIndices: number[], weights?: number[]): number[] {
   }
   return weights.map(w => {
     const n = +w || 0;
-    if (!isFinite(n) || n <= 0) return 1;
+    if (!Number.isFinite(n) || n <= 0) return 1;
     return Math.floor(n) || 1;
   });
 }
 
 function getMixerVersionOverride(): string {
   try {
-    const params = new URLSearchParams(window.location && window.location.search ? window.location.search : "");
+    const params = new URLSearchParams(window.location?.search ? window.location.search : "");
     const v = params.get("mixer");
     if (v) return String(v);
   } catch {
@@ -675,7 +675,7 @@ function softenClickRuns(segs: SegmentInfo[]): void {
   let run = 0;
   for (let i = 0; i < segs.length; i++) {
     const seg = segs[i];
-    if (!seg || !seg.shape) {
+    if (!seg?.shape) {
       run = 0;
       continue;
     }
@@ -766,8 +766,8 @@ function buildBlendedContexts(baseIndices: number[], weights?: number[]): Blende
   const Names = getNames();
 
   baseIndices.forEach((baseIndex, idx) => {
-    const base = nameBases && nameBases[baseIndex];
-    if (!base || !base.b) return;
+    const base = nameBases?.[baseIndex];
+    if (!base?.b) return;
 
     const blob = base.b;
     const chain = Names!.calculateChain(blob);
@@ -988,8 +988,8 @@ function buildCombinedNames(baseIndices: number[], weights?: number[]): string[]
   const nameBases = getNameBases();
 
   baseIndices.forEach((baseIndex, idx) => {
-    const base = nameBases && nameBases[baseIndex];
-    if (!base || !base.b) return;
+    const base = nameBases?.[baseIndex];
+    if (!base?.b) return;
 
     const names = base.b
       .split(",")
@@ -1016,7 +1016,7 @@ function calculateMixedChain(baseIndices: number[], weights?: number[]): MarkovC
 
 function generateFromChain(chain: MarkovChain, baseConfig: NameBase, options?: MixedBaseOptions): string {
   if (!chain || chain[""] === undefined) return "ERROR";
-  if (!baseConfig || !baseConfig.b) return "ERROR";
+  if (!baseConfig?.b) return "ERROR";
 
   const opts = options || {};
   const min = opts.min != null ? opts.min : baseConfig.min;
@@ -1077,7 +1077,7 @@ function generateFromChain(chain: MarkovChain, baseConfig: NameBase, options?: M
       // Base has no valid names - try fallback bases
       const nameBases = getNameBases();
       for (let i = 0; i < nameBases.length; i++) {
-        if (!nameBases[i] || !nameBases[i].b) continue;
+        if (!nameBases[i]?.b) continue;
         const fallbackNames = nameBases[i].b.split(",").filter(n => n.trim().length >= 2);
         if (fallbackNames.length > 0) {
           name = ra(fallbackNames);
@@ -1110,13 +1110,13 @@ function getMixedBaseManyV19(baseIndices: number[], options?: MixedBaseOptions):
   const Names = getNames();
   if (!Names) return [];
 
-  const base0 = nameBases && nameBases[baseIndices[0]!];
+  const base0 = nameBases?.[baseIndices[0]!];
   if (!base0) {
     ERROR && console.error("Names.getMixedBaseMany: base config not found for", baseIndices[0]);
     return [];
   }
 
-  const count = Math.max(1, Math.min(+((options && options.count) || 40), 200));
+  const count = Math.max(1, Math.min(+(options?.count || 40), 200));
   const rng = makeRng(options && typeof options.seed === "number" ? options.seed : undefined);
 
   const baseUniverse = Array.from(new Set(baseIndices)).filter(n => typeof n === "number" && !Number.isNaN(n));
@@ -1147,7 +1147,7 @@ function getMixedBaseManyV19(baseIndices: number[], options?: MixedBaseOptions):
 
   const ctxByIdx = new Map<number, BlendedContext & { stats: LengthStats | null }>();
   for (const idx of baseUniverse) {
-    const base = nameBases && nameBases[idx];
+    const base = nameBases?.[idx];
     const blob = base && typeof base.b === "string" ? base.b : "";
     if (!base || !blob) continue;
     const chain = Names.calculateChain(blob);
@@ -1179,7 +1179,7 @@ function getMixedBaseManyV19(baseIndices: number[], options?: MixedBaseOptions):
     const uniq = Array.from(new Set(Array.isArray(indices) ? indices : []));
     const out: string[] = [];
     for (const idx of uniq) {
-      const base = nameBases && nameBases[idx];
+      const base = nameBases?.[idx];
       const blob = base && typeof base.b === "string" ? base.b : "";
       if (!blob) continue;
       const parts = blob
@@ -1320,12 +1320,12 @@ function getMixedBaseManyV19(baseIndices: number[], options?: MixedBaseOptions):
   let seedChars = 0;
   for (const s of seedNorm) {
     const { bpc, chars } = lm.scoreBpc(s);
-    if (typeof bpc !== "number" || !isFinite(bpc) || !chars) continue;
+    if (typeof bpc !== "number" || !Number.isFinite(bpc) || !chars) continue;
     seedBits += bpc * chars;
     seedChars += chars;
   }
   const seedBpcMean = seedChars ? seedBits / seedChars : null;
-  const seedBpcTarget = typeof seedBpcMean === "number" && isFinite(seedBpcMean) ? seedBpcMean + 0.08 : null;
+  const seedBpcTarget = typeof seedBpcMean === "number" && Number.isFinite(seedBpcMean) ? seedBpcMean + 0.08 : null;
 
   const REALISM_LAMBDA = 4;
   const JS_LAMBDA = 8;
@@ -1335,7 +1335,7 @@ function getMixedBaseManyV19(baseIndices: number[], options?: MixedBaseOptions):
 
   const boundaryPenalty = (prevSeg: string, nextSeg: string): number => {
     const a = lastChar(prevSeg);
-    const b = nextSeg && nextSeg.length ? nextSeg[0]! : "";
+    const b = nextSeg?.length ? nextSeg[0]! : "";
     if (!a || !b) return 0;
     if (a === "'" || a === " " || a === "-") return 0;
     if (b === "'" || b === " " || b === "-") return 0;
@@ -1409,8 +1409,8 @@ function getMixedBaseManyV19(baseIndices: number[], options?: MixedBaseOptions):
   };
 
   const onsetOverlapScore = (a: BlendedContext | null | undefined, b: BlendedContext | null | undefined): number => {
-    const setA = a && a.onsetSet ? a.onsetSet : null;
-    const setB = b && b.onsetSet ? b.onsetSet : null;
+    const setA = a?.onsetSet ? a.onsetSet : null;
+    const setB = b?.onsetSet ? b.onsetSet : null;
     if (!setA || !setB || !setA.size || !setB.size) return 1;
     let common = 0;
     const small = setA.size <= setB.size ? setA : setB;
@@ -1442,11 +1442,11 @@ function getMixedBaseManyV19(baseIndices: number[], options?: MixedBaseOptions):
     const la = a[a.length - 1]!;
     const fb = b[0]!;
 
-    if (!isVowel(la) && la === fb && onsetSet && onsetSet.has(la)) {
+    if (!isVowel(la) && la === fb && onsetSet?.has(la)) {
       return a + b.slice(1);
     }
 
-    if (isVowel(la) && !isVowel(fb) && onsetSet && onsetSet.has(fb)) {
+    if (isVowel(la) && !isVowel(fb) && onsetSet?.has(fb)) {
       if (rng() < 0.7) return a + b.slice(1);
     }
 
@@ -1678,11 +1678,11 @@ function getMixedBaseManyV19(baseIndices: number[], options?: MixedBaseOptions):
     const chosenBases = baseUniverse.slice();
 
     const baseMins = chosenBases.map(idx => {
-      const b = nameBases && nameBases[idx];
+      const b = nameBases?.[idx];
       return b && typeof b.min === "number" ? b.min : 4;
     });
     const baseMaxs = chosenBases.map(idx => {
-      const b = nameBases && nameBases[idx];
+      const b = nameBases?.[idx];
       return b && typeof b.max === "number" ? b.max : 10;
     });
     const fallbackMin = baseMins.length ? Math.min(...baseMins) : 4;
@@ -1707,13 +1707,16 @@ function getMixedBaseManyV19(baseIndices: number[], options?: MixedBaseOptions):
       const norm = normalizeForRealism(candidate.text);
       const { bpc } = lm.scoreBpc(norm);
       const realismDelta =
-        typeof bpc === "number" && typeof seedBpcTarget === "number" && isFinite(bpc) && isFinite(seedBpcTarget)
+        typeof bpc === "number" &&
+        typeof seedBpcTarget === "number" &&
+        Number.isFinite(bpc) &&
+        Number.isFinite(seedBpcTarget)
           ? REALISM_LAMBDA * (bpc - seedBpcTarget)
           : 0;
 
       const { headCounts: candHeadCounts, total: candTotal } = buildHeadCountsForText(norm);
       const js = jsHeadOther(candHeadCounts, candTotal);
-      const jsPenalty = typeof js === "number" && isFinite(js) ? JS_LAMBDA * js : 0;
+      const jsPenalty = typeof js === "number" && Number.isFinite(js) ? JS_LAMBDA * js : 0;
 
       const copyPenalty = norm && seedSet.has(norm) ? COPY_PENALTY : 0;
       const seenCount = norm ? seenGenerated.get(norm) || 0 : 0;
@@ -1751,14 +1754,14 @@ export function getMixedBaseMany(baseIndices: number[], options?: MixedBaseOptio
   const Names = getNames();
   if (!Names) return [];
 
-  const availableIndices = baseIndices.filter(idx => nameBases && nameBases[idx]);
+  const availableIndices = baseIndices.filter(idx => nameBases?.[idx]);
   if (!availableIndices.length) {
     ERROR && console.error("Names.getMixedBaseMany: none of the provided base indices exist", baseIndices);
     return [];
   }
 
   const base0 = nameBases[availableIndices[0]!];
-  const count = Math.max(1, Math.min(+((options && options.count) || 40), 200));
+  const count = Math.max(1, Math.min(+(options?.count || 40), 200));
   const weights = options?.weights;
   const useLegacy = options?.legacyChain;
 
@@ -1906,7 +1909,7 @@ export function getMixedByIso(isoWeights: Record<string, number>, options?: Mixe
         // Always try to correct the index first
         const corrected = getCorrectedIndex(b);
         if (corrected !== b) {
-          const e = nameBases && nameBases[corrected];
+          const e = nameBases?.[corrected];
           if (
             e &&
             typeof e.b === "string" &&
@@ -1920,7 +1923,7 @@ export function getMixedByIso(isoWeights: Record<string, number>, options?: Mixe
         }
         // Fall back to original index if valid
         if (b >= 0 && Number.isFinite(b)) {
-          const e = nameBases && nameBases[b];
+          const e = nameBases?.[b];
           if (
             e &&
             typeof e.b === "string" &&

@@ -158,15 +158,15 @@ function collectRaceStatistics(): RaceStats[] {
   if (!races || races.length <= 1) return stats;
 
   races.forEach(r => {
-    if (!r || !r.i) return;
+    if (!r?.i) return;
     stats[r.i] = { cells: 0, area: 0, rural: 0, urban: 0, cultures: 0, states: 0, burgs: 0 };
   });
 
-  const hasCellRaces = cells && cells.race && cells.i && cells.race.length === cells.i.length;
+  const hasCellRaces = cells?.race && cells.i && cells.race.length === cells.i.length;
 
   if (!hasCellRaces && cultures) {
     cultures.forEach(c => {
-      if (!c || !c.i || c.removed) return;
+      if (!c?.i || c.removed) return;
       const rid = (c as unknown as { race?: number }).race || 0;
       if (!rid || !stats[rid]) return;
       stats[rid].cultures += 1;
@@ -175,7 +175,7 @@ function collectRaceStatistics(): RaceStats[] {
 
   if (states) {
     states.forEach(s => {
-      if (!s || !s.i || s.removed) return;
+      if (!s?.i || s.removed) return;
       const rid = (s as unknown as { race?: number }).race || 0;
       if (!rid || !stats[rid]) return;
       stats[rid].states += 1;
@@ -184,7 +184,7 @@ function collectRaceStatistics(): RaceStats[] {
 
   if (burgs) {
     burgs.forEach(b => {
-      if (!b || !b.i || b.removed) return;
+      if (!b?.i || b.removed) return;
       const rid = (b as unknown as { race?: number }).race || 0;
       if (!rid || !stats[rid]) return;
       stats[rid].burgs += 1;
@@ -204,17 +204,18 @@ function collectRaceStatistics(): RaceStats[] {
       s.area += cells.area[i];
       s.rural += cells.pop[i];
       const burgId = cells.burg ? cells.burg[i] : 0;
-      if (burgId && burgs && burgs[burgId]) s.urban += burgs[burgId].population!;
+      if (burgId && burgs?.[burgId]) s.urban += burgs[burgId].population!;
 
       const cultureId = cells.culture[i];
       const culture = cultures[cultureId];
-      if (!culture || !culture.i || culture.removed) continue;
-      const bucket = (countsByCulture[cultureId] = countsByCulture[cultureId] || {});
+      if (!culture?.i || culture.removed) continue;
+      if (!countsByCulture[cultureId]) countsByCulture[cultureId] = {};
+      const bucket = countsByCulture[cultureId];
       bucket[rid] = (bucket[rid] || 0) + 1;
     }
 
     cultures.forEach(culture => {
-      if (!culture || !culture.i || culture.removed) return;
+      if (!culture?.i || culture.removed) return;
       const counts = countsByCulture[culture.i];
       if (!counts) return;
 
@@ -234,7 +235,7 @@ function collectRaceStatistics(): RaceStats[] {
   } else {
     if (cultures) {
       cultures.forEach(c => {
-        if (!c || !c.i || c.removed) return;
+        if (!c?.i || c.removed) return;
         const rid = (c as unknown as { race?: number }).race || 0;
         if (!rid || !stats[rid]) return;
         stats[rid].cultures += 1;
@@ -246,7 +247,7 @@ function collectRaceStatistics(): RaceStats[] {
         if (cells.h && cells.h[i] < 20) continue;
         const cultureId = cells.culture[i];
         const culture = cultures[cultureId];
-        if (!culture || !culture.i || culture.removed) continue;
+        if (!culture?.i || culture.removed) continue;
         const rid = (culture as unknown as { race?: number }).race || 0;
         if (!rid || !stats[rid]) continue;
         const s = stats[rid];
@@ -254,7 +255,7 @@ function collectRaceStatistics(): RaceStats[] {
         s.area += cells.area[i];
         s.rural += cells.pop[i];
         const burgId = cells.burg ? cells.burg[i] : 0;
-        if (burgId && burgs && burgs[burgId]) s.urban += burgs[burgId].population!;
+        if (burgId && burgs?.[burgId]) s.urban += burgs[burgId].population!;
       }
     }
   }
@@ -271,7 +272,7 @@ function racesEditorAddLines(stats: RaceStats[]): void {
   let totalStates = 0;
   let totalBurgs = 0;
 
-  const races = ((pack as unknown as { races?: Race[] }).races || []).filter(r => r && r.i);
+  const races = ((pack as unknown as { races?: Race[] }).races || []).filter(r => r?.i);
 
   for (const r of races) {
     const s = stats[r.i] || { cells: 0, area: 0, rural: 0, urban: 0, cultures: 0, states: 0, burgs: 0 };
@@ -361,11 +362,15 @@ function racesEditorAddLines(stats: RaceStats[]): void {
   $body.querySelectorAll(":scope > div").forEach($line => {
     $line.addEventListener("click", selectRaceOnLineClick);
   });
-  $body.querySelectorAll("fill-box").forEach($el => $el.addEventListener("click", raceChangeColor));
-  $body.querySelectorAll("div > input.raceName").forEach($el => $el.addEventListener("input", raceChangeName));
-  $body
-    .querySelectorAll("div > input.raceExpansion")
-    .forEach($el => $el.addEventListener("change", raceChangeExpansion));
+  $body.querySelectorAll("fill-box").forEach($el => {
+    $el.addEventListener("click", raceChangeColor);
+  });
+  $body.querySelectorAll("div > input.raceName").forEach($el => {
+    $el.addEventListener("input", raceChangeName);
+  });
+  $body.querySelectorAll("div > input.raceExpansion").forEach($el => {
+    $el.addEventListener("change", raceChangeExpansion);
+  });
 
   applySorting(ensureEl("racesHeader"));
   $(`#${dialogId}`).dialog({ width: "fit-content" });
@@ -399,15 +404,18 @@ function raceChangeExpansion(this: HTMLInputElement): void {
   const v = +this.value;
   (this.parentNode as HTMLElement).dataset.expansionism = String(v);
   const races = (pack as unknown as { races?: Race[] }).races;
-  if (!races || !races[raceId]) return;
+  if (!races?.[raceId]) return;
   races[raceId].expansionism = Number.isNaN(v) ? 1 : v;
 }
 
 function toggleRacesLegend(): void {
-  if (select("#legend").selectAll("*").size()) return clearLegend();
+  if (select("#legend").selectAll("*").size()) {
+    clearLegend();
+    return;
+  }
 
   const data = ((pack as unknown as { races?: Race[] }).races || [])
-    .filter(r => r && r.i && !r.removed)
+    .filter(r => r?.i && !r.removed)
     .map(r => [r.i, r.color || "#888888", r.name] as [number, string, string]);
   drawLegend("Races", data);
 }
@@ -446,7 +454,7 @@ function addRace(): void {
 function downloadRacesCsv(): void {
   const headers = "Id,Name,Color,Expansionism";
   const lines = ((pack as unknown as { races?: Race[] }).races || [])
-    .filter(r => r && r.i)
+    .filter(r => r?.i)
     .map(r => [r.i, r.name, r.color || "", r.expansionism ?? 1].join(","));
 
   const csvData = [headers].concat(lines).join("\n");
@@ -497,9 +505,9 @@ function recalculateRaces(): void {
   Cultures.expand();
   drawCultures();
 
-  if (pack.burgs && pack.cells && pack.cells.culture) {
+  if (pack.burgs && pack.cells?.culture) {
     pack.burgs.forEach(b => {
-      if (!b || !b.i || b.removed) return;
+      if (!b?.i || b.removed) return;
       b.culture = pack.cells.culture[b.cell];
     });
   }
@@ -521,20 +529,32 @@ function recalculateRaces(): void {
 }
 
 function regenerateRaces(): void {
-  if (!pack || !pack.cultures || !pack.cells) return;
+  if (!pack?.cultures || !pack.cells) return;
 
   // Drop existing derived race assignments to force a re-roll.
   if (Array.isArray(pack.cultures)) {
     pack.cultures.forEach(c => {
-      if (!c || !c.i || c.removed) return;
+      if (!c?.i || c.removed) return;
       delete (c as unknown as { race?: number }).race;
     });
   }
 
-  if (pack.states) pack.states.forEach(s => s && delete (s as unknown as { race?: number }).race);
-  if (pack.provinces) pack.provinces.forEach(p => p && delete (p as unknown as { race?: number }).race);
-  if (pack.burgs) pack.burgs.forEach(b => b && delete (b as unknown as { race?: number }).race);
-  if (pack.religions) pack.religions.forEach(r => r && delete (r as unknown as { race?: number }).race);
+  if (pack.states)
+    pack.states.forEach(s => {
+      s && delete (s as unknown as { race?: number }).race;
+    });
+  if (pack.provinces)
+    pack.provinces.forEach(p => {
+      p && delete (p as unknown as { race?: number }).race;
+    });
+  if (pack.burgs)
+    pack.burgs.forEach(b => {
+      b && delete (b as unknown as { race?: number }).race;
+    });
+  if (pack.religions)
+    pack.religions.forEach(r => {
+      r && delete (r as unknown as { race?: number }).race;
+    });
 
   // Force rebuild of cell-level race layer.
   const cells = pack.cells as unknown as { race?: Uint16Array };

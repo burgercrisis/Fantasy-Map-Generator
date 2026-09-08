@@ -586,7 +586,7 @@ class RiverModule {
 
   getName(cell: number) {
     const culture = pack.cells.culture[cell];
-    const baseIndex = pack.cultures[culture] && pack.cultures[culture].base;
+    const baseIndex = pack.cultures[culture]?.base;
     if (typeof baseIndex === "number" && typeof Names.getUseCaseRange === "function") {
       const range = Names.getUseCaseRange(baseIndex, "town");
       return Names.getCulture(culture, range.min, range.max);
@@ -658,7 +658,7 @@ class RiverModule {
   resolveLakeDrainFeature(lakeFeatureId: number): number | null {
     const { features, rivers, cells } = pack;
     const lake = features[lakeFeatureId];
-    if (!lake || lake.type !== "lake") return null;
+    if (lake?.type !== "lake") return null;
     if (!lake.outlet) return lakeFeatureId; // closed lake: return itself
 
     const riverById = new Map(rivers.map(r => [r.i, r]));
