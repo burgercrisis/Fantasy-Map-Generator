@@ -18108,12 +18108,6 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "jie",
-    "bases": [
-      202539
-    ]
-  },
-  {
     "iso": "kamchatkan",
     "bases": [
       202791
@@ -22899,30 +22893,6 @@ globalThis.languageMixerMap = [
     "iso": "oceanic",
     "bases": [
       171
-    ]
-  },
-  {
-    "iso": "proto-hakka",
-    "bases": [
-      20133
-    ]
-  },
-  {
-    "iso": "proto-loloish",
-    "bases": [
-      200830
-    ]
-  },
-  {
-    "iso": "proto-min",
-    "bases": [
-      202243
-    ]
-  },
-  {
-    "iso": "proto-tibeto-burman",
-    "bases": [
-      202259
     ]
   },
   {
