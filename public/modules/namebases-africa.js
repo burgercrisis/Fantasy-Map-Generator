@@ -386,7 +386,7 @@ window.africaNameBases = [
     "max": 4,
     "d": "lnrt",
     "m": 0.1,
-    "b": "Wum",
+    "b": "Wum,Befang,Modele,Kumfutu,Weh,Zhoa,Cha,Nyos,Yemgeh,Ipalim,Kung,Kuk,Bafumeng",
     "status": "COMPLETE"
   },
   {
@@ -466,7 +466,7 @@ window.africaNameBases = [
     "max": 8,
     "d": "bk",
     "m": 0,
-    "b": "Bure",
+    "b": "Bure,Bure_NW_settlement,Bure_E_settlement",
     "status": "COMPLETE"
   },
   {
@@ -476,7 +476,7 @@ window.africaNameBases = [
     "max": 8,
     "d": "lnrt",
     "m": 0.1,
-    "b": "Gadala",
+    "b": "Gadala,Kortchi,Buwal_villages",
     "status": "COMPLETE"
   },
   {
@@ -536,7 +536,7 @@ window.africaNameBases = [
     "max": 9,
     "d": "lnrt",
     "m": 0,
-    "b": "Abinsi",
+    "b": "Abinsi,Lokoja,Makurdi,Ibi,Numa,Jimetu,Mayo,Narewa,Tella,Sheka,Nwonyo,Argungu",
     "status": "COMPLETE"
   },
   {
@@ -1066,7 +1066,7 @@ window.africaNameBases = [
     "max": 0,
     "d": "lnrt",
     "m": 0.1,
-    "b": "Foro Boranga",
+    "b": "Mongororo,Foro_Boranga,Kurgul,Kawaynan,Kodoro,Firgul,Foro_Boranga_town",
     "status": "COMPLETE"
   },
   {
@@ -1116,7 +1116,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0.1,
-    "b": "Sukur",
+    "b": "Sukur_plateau,Milding,Damay,Dungom,Dalak,Midala,Gwassa,Dzuvok,Gwafak,Daza,Rugudum,Milding,Dlandev,Muvelim,Mataka_Central,Mataka_Wakda,Madagali,Gwoza,Michika,Mubi,Maiduguri",
     "status": "COMPLETE"
   },
   {
@@ -1266,7 +1266,7 @@ window.africaNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Robertsport",
+    "b": "Kungbor,Zuie,Nomo,Butter_Hill,Fula_Camp,Camp_Israel,Fornor,Kawelahun,Tonglay_Village,Sonah_Creek,Soso_camp,ULC,Thomas_Camp,Lofa,Bomi,Montserrado,Grand_Cape_Mount,Kenema,Pujehun",
     "status": "COMPLETE"
   },
   {
@@ -1356,7 +1356,7 @@ window.africaNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Gwoza",
+    "b": "Gwoza_Hills,Kurana_Basa,Ghwa,Vaghagaya,Barawa,Hambagda,Minawao_camp,Yola,Belel",
     "status": "COMPLETE"
   },
   {
