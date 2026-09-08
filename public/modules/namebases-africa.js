@@ -5096,7 +5096,7 @@ window.africaNameBases = [
     "max": 6,
     "d": "",
     "m": 0,
-    "b": "Jilbe town",
+    "b": "Jilbe town,Borno State,Nigeria",
     "status": "COMPLETE"
   },
   {

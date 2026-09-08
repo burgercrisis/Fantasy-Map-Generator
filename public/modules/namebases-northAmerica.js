@@ -516,7 +516,7 @@ window.northAmericaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Nicoya",
+    "b": "Nicoya,Diriamba,Nandasinmo,Monimbe,Nindiria,Nakutiri,Mombonasi,Masaya,Managua,Namotiva,Norome,Oretina,Diria,Nagrandan,Choluteca,Orotiña",
     "status": "COMPLETE"
   },
   {
@@ -536,7 +536,7 @@ window.northAmericaNameBases = [
     "max": 10,
     "d": "",
     "m": 0,
-    "b": "Valle Coxoh",
+    "b": "Aquespala,Coapa,Coneta,Escuintenango,Zapaluta,Comitan,Chicomuselo,Comalapa,Yayahuita,Huitatan",
     "status": "COMPLETE"
   },
   {
@@ -1245,7 +1245,7 @@ window.northAmericaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Sacapulas",
+    "b": "Sacapulas,Rio Blanco,Trapichitos,Paguayil",
     "status": "COMPLETE"
   },
   {
@@ -1255,7 +1255,7 @@ window.northAmericaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Sipacapa",
+    "b": "Sipacapa,Quequesiguan,Pie de la Cuesta,Poj,Pueblo Viejo,Tres Cruces,Cancil,Chilil,Chual,Escupija,La Estancia,Queca,San Isidro,C Setiva,San Bartolo,Tuimij",
     "status": "COMPLETE"
   },
   {
@@ -2215,7 +2215,7 @@ window.northAmericaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "SantaMariaCauque",
+    "b": "Santa Maria Cauque,Santiago Sacatepequez,Sacatepequez Department",
     "status": "COMPLETE"
   },
   {

@@ -1366,7 +1366,7 @@ window.asiaNameBases = [
     "max": 14,
     "d": "",
     "m": 0,
-    "b": "Zemo Alvani",
+    "b": "Zemo Alvani,Indurta,Sagirta,Tsaro,Shavtsqala,Nazarta,Nadirta,Mozarta,Etelta",
     "status": "COMPLETE"
   },
   {
@@ -3286,7 +3286,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Htamanthi",
+    "b": "Seltamin,Ngisokabip,Baktamin",
     "status": "COMPLETE"
   },
   {
@@ -6176,7 +6176,7 @@ window.asiaNameBases = [
     "max": 14,
     "d": "lnrt",
     "m": 0,
-    "b": "Hyderabad",
+    "b": "Hyderabad,Tando Muhammad Khan,Mirpur Khas,Matli,Badin",
     "status": "COMPLETE"
   },
   {
@@ -19065,7 +19065,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Oro Province",
+    "b": "Moikodi,Ariari,Bubudi,Liamu,Maioki,Bedira",
     "status": "COMPLETE"
   },
   {
