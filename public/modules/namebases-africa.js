@@ -2756,7 +2756,7 @@ window.africaNameBases = [
     "max": 8,
     "d": "lnrt",
     "m": 0,
-    "b": "Pada_Galambi,Galambi_Yelwa,Dindima,Dadin_Kowa,Guri,Kyanda,Minza,Nasarawa,Minjala,Sharuwa,Tudun_Wada,Turiya,Ung_Wakili",
+    "b": "Pada Galambi,Galambi Yelwa,Dindima,Dadin Kowa,Guri,Kyanda,Minza,Nasarawa,Minjala,Sharuwa,Tudun Wada,Turiya,Ung Wakili",
     "status": "COMPLETE"
   },
   {
@@ -2946,7 +2946,7 @@ window.africaNameBases = [
     "max": 4,
     "d": "lnrt",
     "m": 0,
-    "b": "Amsa,Boppa,Tukwri,Vi,Shike,Ligwe,Gameta,Mukta,Nkafa,Dakwa,Sina,Futu,Tili_Pte",
+    "b": "Amsa,Boppa,Tukwri,Vi,Shike,Ligwe,Gameta,Mukta,Nkafa,Dakwa,Sina,Futu,Tili Pte",
     "status": "COMPLETE"
   },
   {
@@ -5096,7 +5096,7 @@ window.africaNameBases = [
     "max": 6,
     "d": "",
     "m": 0,
-    "b": "Jilbe_town",
+    "b": "Jilbe town",
     "status": "COMPLETE"
   },
   {
@@ -5616,7 +5616,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Burku_village,Miya_District,Ganjuwa_LGA",
+    "b": "Burku village,Miya District,Ganjuwa LGA",
     "status": "COMPLETE"
   },
   {
@@ -5866,7 +5866,7 @@ window.africaNameBases = [
     "max": 10,
     "d": "",
     "m": 0,
-    "b": "Muskum_village,Mouskoun,Katoa",
+    "b": "Muskum village,Mouskoun,Katoa",
     "status": "COMPLETE"
   },
   {
@@ -6486,7 +6486,7 @@ window.africaNameBases = [
     "max": 6,
     "d": "",
     "m": 0,
-    "b": "Tambes_village,Pankshin_LGA",
+    "b": "Tambes village,Pankshin LGA",
     "status": "COMPLETE"
   },
   {
@@ -6666,7 +6666,7 @@ window.africaNameBases = [
     "max": 3,
     "d": "",
     "m": 0,
-    "b": "Ubi_village,six_surrounding_villages,Mongo_subprefecture",
+    "b": "Ubi village,six surrounding villages,Mongo subprefecture",
     "status": "COMPLETE"
   },
   {
@@ -6716,7 +6716,7 @@ window.africaNameBases = [
     "max": 3,
     "d": "",
     "m": 0,
-    "b": "Weh_village,Menchum_Division,Wum_Central_subdivision",
+    "b": "Weh village,Menchum Division,Wum Central subdivision",
     "status": "COMPLETE"
   },
   {
@@ -6866,7 +6866,7 @@ window.africaNameBases = [
     "max": 5,
     "d": "",
     "m": 0,
-    "b": "Jilvu_town,Mubi_North_LGA,west_of_Guili_Cameroon",
+    "b": "Jilvu town,Mubi North LGA,west of Guili Cameroon",
     "status": "COMPLETE"
   },
   {
@@ -6896,7 +6896,7 @@ window.africaNameBases = [
     "max": 6,
     "d": "",
     "m": 0,
-    "b": "Jimbim_settlement,Darazo_LGA",
+    "b": "Jimbim settlement,Darazo LGA",
     "status": "COMPLETE"
   },
   {
