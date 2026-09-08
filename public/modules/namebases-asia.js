@@ -1436,7 +1436,7 @@ window.asiaNameBases = [
     "max": 12,
     "d": "",
     "m": 0,
-    "b": "Fuyu,Qiqihar",
+    "b": "Fuyu County,Heilongjiang,Qiqihar,Wuying,Xinqiu",
     "status": "COMPLETE"
   },
   {
@@ -1506,7 +1506,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Bản Phát,Bản Cốc Lắc",
+    "b": "Muong Vat,Son La,Vietnam",
     "status": "COMPLETE"
   },
   {
@@ -1656,7 +1656,7 @@ window.asiaNameBases = [
     "max": 14,
     "d": "",
     "m": 0,
-    "b": "Gonglin,Manggang",
+    "b": "Kachin State,Myitkyina,Bhamo,Putao,Myanmar",
     "status": "COMPLETE"
   },
   {
@@ -2006,7 +2006,7 @@ window.asiaNameBases = [
     "max": 12,
     "d": "",
     "m": 0,
-    "b": "Batera Pain,Batera Bala",
+    "b": "Swat,Kohistan,Besham,Chakisar,Pakistan",
     "status": "COMPLETE"
   },
   {
@@ -2136,7 +2136,7 @@ window.asiaNameBases = [
     "max": 13,
     "d": "",
     "m": 0,
-    "b": "Pipaltar,Bokhapu",
+    "b": "Khotang,Nepal,Diktel,Rupakot,Mahadev",
     "status": "COMPLETE"
   },
   {
@@ -3016,7 +3016,7 @@ window.asiaNameBases = [
     "max": 18,
     "d": "",
     "m": 0,
-    "b": "Godoberi,Zibirkhali",
+    "b": "Dagestan,Godoberi village,Botlikh,Russia",
     "status": "COMPLETE"
   },
   {
@@ -10296,7 +10296,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Hainan,Baoding",
+    "b": "Maluku,Ambon,Buru,Seram,Indonesia",
     "status": "COMPLETE"
   },
   {
@@ -10576,7 +10576,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Semarang,Batavia",
+    "b": "Java,Jakarta,Bandung,Surabaya,Semarang,Yogyakarta",
     "status": "COMPLETE"
   },
   {
@@ -11926,7 +11926,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Middle Musa,Papua New Guinea",
+    "b": "Papua,Jayapura,Merauke,Wamena,Indonesia",
     "status": "COMPLETE"
   },
   {
@@ -11936,7 +11936,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Eastern Highlands Province,Papua New Guinea",
+    "b": "Papua,Jayapura,Merauke,Wamena,Indonesia",
     "status": "COMPLETE"
   },
   {

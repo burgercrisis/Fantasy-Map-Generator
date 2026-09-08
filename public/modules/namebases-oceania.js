@@ -1626,7 +1626,7 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Milne Bay Province,Oro Province",
+    "b": "Bangkala,Patondon Salu,Salo Dua,Boiya,Tuncung,Mangkawani,Botto Mallangga,Batu Mila,Puncak Harapan,Tapong,Palakka,Pasang,Baringin,Lebani,Matajang,Limbuang,Ongko,Pariwang,Kaluppang,Paladang,Labuku,Tanete,Salam,Enrekang,Pinrang,Sidrap,Makassar,Malimpung",
     "status": "COMPLETE"
   },
   {

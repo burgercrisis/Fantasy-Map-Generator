@@ -1995,7 +1995,7 @@ window.northAmericaNameBases = [
     "max": 19,
     "d": "",
     "m": 0,
-    "b": "Uspantan,Playa Grande Ixcan",
+    "b": "Uspantan,Playa Grande Ixcan,San Miguel Uspantan,Chichicastenango,Santa Cruz del Quiche,Rabinal,Coban,San Miguel Uspantan municipality,Playa Grande Ixcan municipality",
     "status": "COMPLETE"
   },
   {
