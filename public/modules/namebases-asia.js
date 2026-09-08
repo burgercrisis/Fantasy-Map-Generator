@@ -14741,15 +14741,6 @@ window.asiaNameBases = [
     "b": "Vilnius,Vilna,Varshe,Warsaw,Varsha,Krakow,Krakov,Lodz,Lublin,Lvov,Lviv,Lemberg,Odessa,Kyiv,Kharkiv,Minsk,Brest,Brisk,Grodno,Vitebsk,Pinsk,Berdichev,Uman,Zhitomir,Zolochiv,Kolomea,Chernivtsi,Czernowitz,Kamianets-Podilskyi,Bohorodchany,Dolyna,Stryi,Drohobych,Sambir,Novoyavorivsk,Shehyni,Mostyska,Rava-Ruska,Rakhiv,Mukachevo,Berehove,Uzhhorod,Velykyi,Bereznyi,Satmar,Brooklyn,Manhattan,Crown,Heights,Borough,Park,Williamsburg,Kiryas,Joel,Lakewood,Monsey,Boro,Montreal,Outremont,Antwerp,Brussels,Amsterdam,London,Tel,Aviv,Jerusalem,Haifa,Bnei,Brak,Petah,Tikva,Rishon,LeZion,Buenos,Aires,Cordoba,Rosario,La,Plata,Bahia,Blanca,Budapest,Vienna,Prague,Berlin,Paris,The,Hague,Bucharest"
   },
   {
-    "name": "Dalmatian",
-    "i": 24981,
-    "min": 4,
-    "max": 12,
-    "d": "lr",
-    "m": 0.1,
-    "b": "Zadar,Spalato,Split,Ragusa,Dubrovnik,Sebenico,Sibenik,Trau,Trogir,Lesina,Hvar,Curzola,Korcula,Lissa,Vis,Almissa,Omis,Makarska,Ploce,Metkovic,Cavtat,Konavle,Vrgorac,Imotski,Signo,Sinj,Tnin,Knin,Drnis,Scardona,Skradin,Vodice,Civitas,Vetus,Biograd,na,Moru,Pago,Pag,Arbe,Rab,Cherso,Cres,Lussino,Lussinpiccolo,Mali,Losinj,Veli,Pola,Pula,Rovigno,Rovinj,Parenzo,Porec,Umago,Umag,Cittanova,Novigrad,Buie,Buje,Pinguente,Buzet,Albona,Labin,Abbazia,Opatija,Crikvenica,Segna,Senj,Otocac,Gospic,Gracac,Benkovac,Obrovac"
-  },
-  {
     "name": "Emilian",
     "i": 24982,
     "min": 4,
@@ -15947,15 +15938,6 @@ window.asiaNameBases = [
     "b": "Barcelona,Valencia,Palma de Mallorca,Hospitalet de Llobregat,Badalona,Terrassa,Sabadell,Lleida,Tarragona,Mataro,Santa Coloma de Gramenet,Reus,Girona,Cornella de Llobregat,Sant Cugat del Valles,Rubi,Manresa,Vilanova i la Geltru,Castelldefels,El Prat de Llobregat,Viladecans,Granollers,Cerdanyola del Valles,Mollet del Valles,Gava,Esplugues de Llobregat,Sant Boi de Llobregat,Ripollet,Sant Adria de Besos,Montcada i Reixac,Igualada,Vic,Vilafranca del Penedes,Blanes,Lloret de Mar,Olot,Salt,Figueres,Roses,Cadaques,Palamos,Palafrugell,Sant Feliu de Guixols,Banyoles,La Seu dUrgell,Puigcerda,Tremp,Balaguer,Tarrega,Cervera,Solsona,Berga,Ripoll,Andorra la Vella,Encamp,Sant Julia de Loria,La Massana,Ordino,Canillo,Escaldes-Engordany,Perpinya,Narbona,El Volo,Argelers,Cotlliure,Prada,Ceret"
   },
   {
-    "name": "Occitan",
-    "i": 25331,
-    "min": 4,
-    "max": 12,
-    "d": "lr",
-    "m": 0.1,
-    "b": "Toulouse,Montpellier,Bordeaux,Limoges,Clermont-Ferrand,Pau,Bayonne,Tarbes,Albi,Beziers,Narbonne,Carcassonne,Sete,Perpignan,Nimes,Avignon,Uzes,Aigues-Mortes,Saintes-Maries-de-la-Mer,Agen,Montauban,Castres,Foix,Mirepoix,Lourdes,Auch,Cahors,Figeac,Villeneuve-sur-Lot,Bergerac,Sarlat,Perigueux,Aurillac,Tulle,Brive-la-Gaillarde,Gueret,Rochechouart,Angouleme,Cognac,Saintes,La Rochelle,Royan,Rochefort,Saint-Jean-de-Luz,Biarritz,Hendaye,Saint-Jean-Pied-de-Port,Oloron-Sainte-Marie,Orthez,Dax,Condom,Lectoure,Mirande,Vic-Fezensac,Nogaro,Aire-sur-lAdour,Rabastens,Gaillac,Graulhet,Lavaur,Castelnaudary,Revel,Mazamet,Muret,Saint-Gaudens,Luchon,Saint-Beat,Salies-du-Salat,Martres-Tolosane,Rieumes,Carbonne,Rieux,Auterive,Villefranche-de-Lauragais,Bram,Alzonne,Trebes,Lezignan-Corbieres,Agde,Marseillan,Meze,Frontignan,Lattes,Mauguio,Lunel,Sommieres,Aigues-Vives,Calvisson,Vauvert,Saint-Gilles,Arles,Tarascon,Beaucaire,Villeneuve-les-Avignon,Sorgues,Bedarrides,Carpentras,Pernes-les-Fontaines,LIsle-sur-la-Sorgue,Cavaillon,Cadenet,Apt,Gordes,Lourmarin,Salon-de-Provence,Eyguieres,Eygueres,Saint-Remy-de-Provence,Les Baux-de-Provence,Maussane,Aureille,Mouries,Saint-Martin-de-Crau,Bellegarde,Bouillargues,Manduel,Redessan,Garons,Marguerittes,Poulx,Cabrieres,Sanilhac,Blauzac,Aramon,Montfrin,Sernhac,Remoulins,Vers,Collias,Castillon,Saint-Chaptes,Sauve,Quissac,Vic-le-Fesc,Saint-Mathieu-de-Treviers,Claret,Villevieille,Boisseron,Galargues,Buzignargues,Saint-Hilaire-de-Beauvoir,Montaud,Saint-Drezery,Castries,Baillargues,Vendargues,Le Cres,Jacou,Clapiers,Montferrier-sur-Lez,Prades-le-Lez,Assas,Guzargues,Teyran,Mudaison,Saint-Aunes,Saturargues,Verargues,Congenies,Gallargues,Aimargues,Le Grau-du-Roi,La Grande-Motte,Carnon,Perols,Palavas-les-Flots,Villeneuve-les-Maguelone,Mireval,Vic-la-Gardiole,Balaruc-les-Bains,Vias,Portiragnes,Valras,Vendres,Lespignan,Nissan,Coursan,Armissan,Fleury,Bages,Peyriac-Minervois,Homps,Olonzac,La Liviniere,Caunes-Minervois,Trausse,Citou,Castans,Lespinassiere,Cabrespine,Villeneuve-Minervois,Conques-sur-Orbiel,Pennautier,Villemoustaussou,Couffoulens,Leuc,Leucate,Bouisse,Albieres,Arques,Serres,Saint-Hilaire-de-Villefranche,Aulnay-de-Saintonge,Matha,Aigre,Mansle,Ruffec,Confolens,Chabanais,Oradour-sur-Glane,Saint-Junien,Chalus,Nexon,Aixe-sur-Vienne,Couzeix,Isle,Le Dorat,Bellac,Chateauponsac,Bessines-sur-Gartempe,Lauriere,Ambazac,Nieul,Saint-Sulpice-les-Feuilles,Eymoutiers,Chamberet,Treignac,Uzerche,Vigeois,Donzenac,Brive,Malemort,Objat,Juillac,Lubersac,Arnac-Pompadour,Cublac,Terrasson-Lavilledieu,Montignac,Salignac-Eyvigues,Souillac,Gourdon,Luzech,Puy-lEveque,Prayssac,Castelnau-Montratier,Catus,Labastide-Marnhac,Trespoux-Rassiels,Le Montat,Cambes,Cambes-du-Lot,Sauzet,Albas-du-Lot,Belaye,Grezels,Touzac,Soturac,Fumel,Tournon-d Agenais,Monflanquin,Castillonnes,Eymet,Lauzun,Miramont-de-Guyenne,Seyches,Duras,Monsegur,La Reole,Bazas,Langon,Cadillac,Rions,Sauveterre-de-Guyenne,Blasimon,Frontenac-du-Guyenne,Rauzan,Castillon-la-Bataille,Libourne,Coutras,Guigres,Saint-Denis-de-Pile,Saint-Seurin-sur-lIsle,Abzac,Sablons,Saint-Astier,Neuvic,Mussidan,Montpon-Menesterol,Sainte-Foy-la-Grande,Pineuilh,Tonneins,Clairac,Aiguillon,Boe,Le Passage,Layrac,Astaffort,Valence-sur-Baise,Marciac,Maubourguet,Vic-en-Bigorre,Rabastens-de-Bigorre,Argeles-Gazost,Cauterets,Luz-Saint-Sauveur,Gavarnie,Saint-Lary-Soulan,Arreau,Sarrancolin,Montrejeau,Saint-Bertrand-de-Comminges,Barbazan,Sauveterre-de-Comminges,Nailloux,Montgiscard,Baziege,Venerque,Vernet,LUnion,Saint-Jean-du-Falga,Pamiers,Lavelanet,Chalabre,Quillan,Couiza,Limoux,Bagnols-sur-Ceze,Pont-Saint-Esprit,Bollene,Orange,Vaison-la-Romaine,Malaucene"
-  },
-  {
     "name": "Basque",
     "i": 25332,
     "min": 4,
@@ -16181,15 +16163,6 @@ window.asiaNameBases = [
     "b": "Guwahati,Silchar,Dibrugarh,Jorhat,Nagaon,Tinsukia,Tezpur,Bongaigaon,Karimganj,Dhubri,Sivasagar,Goalpara,Barpeta,North Lakhimpur,Hojai,Dispur,Lumding,Diphu,Haflong,Mangaldoi,Nalbari,Kokrajhar,Golaghat,Mariani,Sonari,Digboi,Duliajan,Doomdooma,Moran,Sadiya,Rangia,Rangapara,Dhekiajuli,Dhing,Hailakandi,Silapathar,Itanagar,Tawang,Bomdila,Pasighat,Along,Roing,Tezu,Naharlagun,Seppa"
   },
   {
-    "name": "Odia",
-    "i": 25364,
-    "min": 4,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Bhubaneswar,Cuttack,Rourkela,Brahmapur,Sambalpur,Puri,Balasore,Bhadrak,Baripada,Jharsuguda,Jeypore,Bargarh,Rayagada,Angul,Dhenkanal,Kendujhar,Koraput,Bhawanipatna,Sonepur,Jagatsinghpur,Jajpur,Nayagarh,Nuapada,Konark,Phulbani,Paradeep,Jaleswar,Soro,Remuna,Basudevpur,Dhamnagar,Chandbali,Rajkanika,Athamallik,Talcher,Palalahada,Chhendipada,Anugul,Belpahar,Brajarajnagar,Kuchinda,Rairakhol,Padmapur,Paikamal,Bijepur,Sohela,Burla,Hirakud"
-  },
-  {
     "name": "Konkani",
     "i": 25365,
     "min": 4,
@@ -16242,15 +16215,6 @@ window.asiaNameBases = [
     "d": "",
     "m": 0,
     "b": "Gaya,Nawada,Aurangabad,Jehanabad,Arwal,Patna,Nalanda,Bihar Sharif,Rajgir,Bodh Gaya,Daudnagar,Nabinagar,Rafiganj,Obra,Sherghati,Barachatti,Manpur,Wazirganj,Belaganj,Makhdumpur,Ghosi,Karpi,Kaler,Jamhaur,Haspura,Kutumba,Goh,Dehri,Sasaram,Rohtas,Nokha,Bikramganj,Dalmianagar,Koath,Tilouthu,Chenari,Patna Sahib,Phulwari Sharif,Danapur,Khagaul,Maner,Masaurhi,Punpun,Barh,Mokama,Hajipur,Pawapuri,Islampur,Hilsa"
-  },
-  {
-    "name": "Rajasthani",
-    "i": 25371,
-    "min": 4,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Jaipur,Jodhpur,Udaipur,Bikaner,Ajmer,Bhilwara,Alwar,Sikar,Sri Ganganagar,Kota,Bundi,Chittorgarh,Pali,Nagaur,Tonk,Hanumangarh,Beawar,Jhunjhunu,Makrana,Kishangarh,Didwana,Ladnun,Jhalawar,Baran,Dholpur,Karauli,Sawai Madhopur,Dausa,Bhiwadi,Churu,Nokha,Suratgarh,Raisinghnagar,Pilibanga,Pokaran,Phalodi,Osian,Barmer,Jaisalmer,Balotra,Siwana,Dungarpur,Banswara,Pratapgarh,Mount Abu,Sirohi,Pindwara,Abu Road,Sojat,Jaitaran,Bilara,Bhopalgarh,Asind,Deoli,Todaraisingh,Uniara,Nainwa,Hindoli,Keshoraipatan,Sangod,Kaithoon,Mangrol,Anta,Chhabra,Atru,Kishanganj,Shahpura,Gulabpura,Jahazpur,Mandalgarh,Bhainsrorgarh,Raipur,Kotri,Malpura,Niwai,Jhalarapatan,Bhawanimandi,Aklera,Manohar Thana,Pirawa,Alirajpur,Bharatpur,Bayana,Rupbas,Kaman,Nadbai,Kumher,Bari,Rajakhera,Hindaun,Sapotra,Deeg,Bhusawar,Weir,Bansur,Thanagazi,Rajgarh,Behror,Khairthal,Tijara,Neemrana"
   },
   {
     "name": "Marwari",
@@ -16377,15 +16341,6 @@ window.asiaNameBases = [
     "d": "",
     "m": 0,
     "b": "Shillong,Cherrapunji,Mawsynram,Jowai,Tura,Williamnagar,Baghmara,Nongstoin,Resubelpara,Mairang,Nongpoh,Umsning,Sohra,Dawki,Mawkdok,Ranikor,Mawkyrwat,Khliehriat,Laitlyngkot,Sohryngkham,Nongspung,Mawphlang,Laitkynsew,Smit,Mawlai,Lumpynngad,Mawiong,Umroi,Byrnihat,Umiam,Nongthymmai,Madanrting,Pynthorumkhrah,Jhalupara,Nongmynsong,Nongrah,Laitumkhrah,Polo,Anaconda,Laban,Rangshyllong,Mawthoh,Nongpriang,Nongbareh,Rilbong,Nongmensong,Pomlakrai,Thangkhen,Mawlai Nongpdeng,Umpling,Lawsohtun,Mawpun,Mawlai Mawdatbaki,Sohra Mawsmai,Thadlaskein,Umlyngka,Wapungskur,Nartiang,Nongtalang,Laitkseh,Rangblang,Chandigre,Nonglang,Sonapahar,Rongra,Zikzak,Ampati,Dalu,Salmanpara,Gambegre,Dadenggre"
-  },
-  {
-    "name": "Mizo",
-    "i": 25386,
-    "min": 4,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Aizawl,Lunglei,Champhai,Serchhip,Kolasib,Lawngtlai,Saiha,Mamit,Saitual,Hnahthial,Khawzawl,Siaha,Demagiri,Bairabi,Vairengte,Thingsul,Darlawn,Khawhai,Sekawk,Sangau,Lungtian,Chawngte,Bungtlang,Southern Tuipui,Lungsen,Tlabung,Lungpher,Chalfilh,Mualthuam,Laitual,Reiek,Ngatlang,Hliappui,Neihdawn,Sihphir,Thenzawl,North Vanlaiphai,Biate,Lungchhuan,Bangla,Maubawk,Kelsih,Lama,Tuichang,Hrangchalkawn,Hualtu,Sakawrdai,Phuaibuang,Lengpui,Rengdil,Sairang,Kepran,Saitlaw,Tinghmun,Vawmbuk,Ngopa,Phaibawk,Khawbung,Khuangleng"
   },
   {
     "name": "Naga",
@@ -17412,15 +17367,6 @@ window.asiaNameBases = [
     "d": "",
     "m": 0,
     "b": "Thimphu,Paro,Punakha,Wangdue Phodrang,Bumthang,Mongar,Trashigang,Trongsa,Gasa,Haa,Chukha,Samdrup Jongkhar,Pema Gatshel,Sarpang,Dagana,Tsirang,Samtse,Lhuentse,Pemagatshel,Zhemgang"
-  },
-  {
-    "name": "Irish Gaelic",
-    "i": 25570,
-    "min": 4,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Dublin,Cork,Galway,Limerick,Waterford,Drogheda,Dundalk,Swords,Bray,Navan,Kilkenny,Ennis,Tralee,Carlow,Naas,Athlone,Mullingar,Wexford,Letterkenny,Sligo,Clonmel,Killarney,Arklow,Cobh,Castlebar,Midleton,Mallow,Ballina,Enniscorthy,Wicklow,Tramore,Portlaoise,Tullamore,Edenderry,Birr,Athboy,Ballymahon,Cavan,Monaghan,Carrickmacross,Castleblayney,Clones,Bailieborough,Virginia,Kingscourt,Ballyjamesduff,Belturbet,Cootehill,Mullagh,Ballyconnell,Swanlinbar,Bawnboy,Ballyshannon,Bundoran,Donegal,Buncrana,Moville,Carndonagh,Muff,Culdaff,Greencastle,Quigleys Point,Lifford,Strabane,Newtownstewart,Castlederg,Ballygawley,Fivemiletown,Clogher,Ballymagorry,Caledon,Donaghmore,Gortin,Killyclogher,Moygashel,Newtowncunningham,Pomeroy,Rock,Scotstown,Trillick,Ardboe,Coagh,Stewartstown,Tobermore,Draperstown,Gulladuff,Swatragh,Upperlands,Ahoghill,Broughshane,Gracehill,Randalstown,Toomebridge,Portglenone,Portrush,Portstewart,Coleraine,Castlerock,Garvagh,Macosquin,Aghadowey,Kilrea,Castledawson,Moneymore,Desertmartin,Maghera,Ballyronan,Charlemont,Killylea,Mullavilly,Richhill,Tandragea,Cladymore,Eglish,Moy,Ardee,Collon,Castlebellingham,Dromiskin,Omeath,Rathdrum,Ashford,Rathnew,Glenealy,Avoca,Woodenbridge,Tinahely,Shillelagh,Carnew,Askamore,Courttown,Gorey,Ballycanew,Ballygarrett,Kilmuckridge,Camolin,Monaseed,Bunclody,Clonroche,New Ross,Inistioge,Graiguenamanagh,Thomastown,Bennettsbridge,Piltown,Fiddown,Portlaw,Kilmacow,Dungarvan,Lismore,Cappoquin,Tallow,Fermoy,Castletownroche,Mitchelstown,Kildorrery,Charleville,Ardpatrick,Kilmallock,Bruree,Mountcollins,Newcastle West,Abbeyfeale,Listowen,Lixnaw,Ballyduff,Ballylongford,Tarbert,Glin,Kilflynn,Asdee,Dromcolliher,Feakle,Scariff,Tuamgraney,Bodyke,Whitegate,Mountshannon,Kilconnell,Woodford,Ballinasloe,Loughrea,Craughwell,Athenry,Oranmore,Headford,Corofin,Ennistymon,Lisdoonvarna,Ballyvaughan,Kinvara,Ballynahinch,Roundstone,Clifden,Letterfrack,Leenaun,Killary,Recess,Maam,Cross,Desmat,Bohermeath,Moynaty,Kells,Nobber,Carnaross,Slane,Duleek,Stamullen,Julianstown,Ballymakenny,Gormanstown,Laytown,Bettystown,Donacarney,Rush,Skerries,Lusk,Balbriggan,Naul,Kilsallaghan,Oldtown,Summerhill,Kilcock,Enfield,Longwood,Rathcore"
   },
   {
     "name": "She Chinese",

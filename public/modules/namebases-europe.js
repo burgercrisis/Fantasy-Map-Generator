@@ -8940,16 +8940,6 @@ window.europeNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Aas whistled",
-    "i": 202998,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Aas whistled,Saminaka,Diffa,Bafatá,Yola,Foumban,Tchibanga,Gagnoa,Parakou,Cape Coast,Mutengene,Gashua,Louga,Natitingou,Tamale,Geidam,Tahoua,Wa,Bamenda,Sarh,Awka,Faranah,Dédougou,Gao,Kumba,Yamoussoukro,Moundou,Cacheu,Bobo-Dioulasso,Conakry,Dakar,Bamako,Man,Kara,Kaolack,Daloa,Gbarnga,Basse,Kumasi,Koidu,Sunyani,Ebebiyín,Kankan,Kaduna,Tambacounda,Lomé,Mopti,Maiduguri,Niamey,Ségou,Saint-Louis,Nzérékoré,Aaswhistledk,Aaswhistledt,Aaswhistledp,Aaswhistledm,Aaswhistledn,Aaswhistleds,Aaswhistledr,Aaswhistledl,Aaswhistledd,Aaswhistledg,Aaswhistledb",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Andalusian Spanish",
     "i": 202999,
     "min": 4,
@@ -9370,15 +9360,6 @@ window.europeNameBases = [
     "b": "Stockholm,Gothenburg,Malmo,Uppsala,Vasteras,Orebro,Linkoping,Helsingborg,Jonkoping,Norrkoping,Lund,Umea,Gavle,Boras,Sodertalje,Eskilstuna,Halmstad,Vaxjo,Karlstad,Sundsvall,Ostersund,Trollhattan,Skovde,Borlange,Kristianstad,Falun,Kalmar,Nykoping,Karlskrona,Skelleftea,Harnosand,Lidkoping,Mariestad,Vastervik,Kiruna,Boden,Pitea,Lulea,Sundbyberg,Solna,Taby,Huddinge,Nacka,Sigtuna,Norrtalje,Nynashamn,Strangnas,Enkoping,Hallstahammar,Koping,Arboga,Lindesberg,Askersund,Motala,Mjolby,Vadstena,Atvidaberg,Finspang,Katrineholm,Flen,Malmkoping,Gnesta,Trosa,Mariefred,Kumla,Hallsberg,Laxa,Degerfors,Karlskoga,Nora,Soderhamn,Hudiksvall,Ljusdal,Bollnas,Sandviken,Hofors,Ockelbo,Amot,Alfta,Edsbyn,Farila,Jarvso,Kilafors,Lingbo,Vallsta,Bergsjo,Delsbo,Enanger,Timra,Kramfors,Solleftea,Ornskoldsvik,Lycksele,Storuman,Vilhelmina,Dorotea,Asele,Stromsund,Ragunda,Bracke,Krokom,Are,Jarpen,Sveg,Hede,Vemdalen,Funasdalen,Lofsdalen,Brunflo,Lit,Hammerdal,Hoting,Hallesjo,Gallivare,Jukkasjarvi,Pajala,Karesuando,Vittangi,Svappavaara,Malmberget,Koskullskulle,Jokkmokk,Porjus,Kvikkjokk,Vuollerim,Arvidsjaur,Arjeplog,Sorsele,Vindeln,Vannas,Burea,Kalix,Haparanda"
   },
   {
-    "name": "Swedish",
-    "i": 25326,
-    "min": 4,
-    "max": 12,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Stockholm,Gothenburg,Malmo,Uppsala,Vasteras,Orebro,Linkoping,Helsingborg,Jonkoping,Norrkoping,Lund,Umea,Gavle,Boras,Sodertalje,Eskilstuna,Halmstad,Vaxjo,Karlstad,Sundsvall,Ostersund,Trollhattan,Skovde,Borlange,Kristianstad,Falun,Kalmar,Nykoping,Karlskrona,Skelleftea,Harnosand,Lidkoping,Mariestad,Vastervik,Kiruna,Boden,Pitea,Lulea,Sundbyberg,Solna,Taby,Huddinge,Nacka,Sigtuna,Norrtalje,Nynashamn,Strangnas,Enkoping,Hallstahammar,Koping,Arboga,Lindesberg,Askersund,Motala,Mjolby,Vadstena,Atvidaberg,Finspang,Katrineholm,Flen,Malmkoping,Gnesta,Trosa,Mariefred,Kumla,Hallsberg,Laxa,Degerfors,Karlskoga,Nora,Soderhamn,Hudiksvall,Ljusdal,Bollnas,Sandviken,Hofors,Ockelbo,Amot,Alfta,Edsbyn,Farila,Jarvso,Kilafors,Lingbo,Vallsta,Bergsjo,Delsbo,Enanger,Timra,Kramfors,Solleftea,Ornskoldsvik,Lycksele,Storuman,Vilhelmina,Dorotea,Asele,Stromsund,Ragunda,Bracke,Krokom,Are,Jarpen,Sveg,Hede,Vemdalen,Funasdalen,Lofsdalen,Brunflo,Lit,Hammerdal,Hoting,Hallesjo,Gallivare,Jukkasjarvi,Pajala,Karesuando,Vittangi,Svappavaara,Malmberget,Koskullskulle,Jokkmokk,Porjus,Kvikkjokk,Vuollerim,Arvidsjaur,Arjeplog,Sorsele,Vindeln,Vannas,Burea,Kalix,Haparanda"
-  },
-  {
     "name": "Lower Sorbian",
     "i": 203014,
     "min": 4,
@@ -9556,16 +9537,6 @@ window.europeNameBases = [
     "d": "",
     "m": 0,
     "b": "Tabasaran,Gabala,Telavi,Lahij,Yevlakh,Laryak,Hrazdan,Kropotkin,Shamakhi,Sochi,Qonagkend,Xinaliq,Balakan,Khachmaz,Vladimir,Salekhard,Stepanakert,Ijevan,Sunzha,Magas,Shusha,Sevan,Martuni,Gurjaani,Zugdidi,Abovyan,Sighnaghi,Goris,Brazzaville,Koulamoutou,Bata,Kinshasa,Gamboma,Mbaïki,Ebolowa,Libreville,Oyem,Bouar,Mbandaka,Bangassou,Dolisie,Kimongo,Douala,Ewo,Moutamba,Franceville,Bambari,Mbalmayo,Kribi,Bumba,Isiro,Kisangani,Tchibanga,Port-Gentil,Sangmélima",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Tat",
-    "i": 202805,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Tat,Yevlakh,Naftalan,Mahačkala,Krasnodar,Qonagkend,Novorossiysk,Gabala,Stavropol,Xinaliq,Magas,Derbent,Vladimir,Shamakhi,Quba,Salekhard,Tikhoretsk,Ijevan,Balakan,Zagatala,Gori,Shusha,Gyumri,Nazran,Ganja,Mingachevir,Rustavi,Martakert,Lomé,Banjul,Timbuktu,Daloa,Accra,Bertoua,Kankan,Abidjan,Kaolack,Korhogo,Kumasi,Ziguinchor,Koudougou,Niamey,Bamenda,Kayes,Nouakchott,Ouagadougou,Conakry,Man,Tambacounda,Mopti,Yamoussoukro,Porto-Novo,Tamale,Koidu,Tarrafal,Tatk,Tatt,Tatp,Tatm,Tatn,Tats,Tatr,Tatl,Tatd,Tatg",
     "status": "COMPLETE"
   },
   {
