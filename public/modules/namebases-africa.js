@@ -236,7 +236,7 @@ window.africaNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Mongo,Migami Canton",
+    "b": "Dangaleat villages,Mongo area,Guera region",
     "status": "COMPLETE"
   },
   {
@@ -1106,7 +1106,7 @@ window.africaNameBases = [
     "max": 14,
     "d": "lnrt",
     "m": 0,
-    "b": "Kikara,Banikani",
+    "b": "Tondi Songway Kiini villages,Tondi area,Mali",
     "status": "COMPLETE"
   },
   {
@@ -1186,7 +1186,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Lodja,Lomela",
+    "b": "Tetela villages,Sankuru,Kasai,Kasa-Vubu,Mongala,Equateur",
     "status": "COMPLETE"
   },
   {
@@ -2406,7 +2406,7 @@ window.africaNameBases = [
     "max": 9,
     "d": "lnrt",
     "m": 0,
-    "b": "Awjila,Mazuz",
+    "b": "Awjila,Awjila oasis,Jalu,Awjila town",
     "status": "COMPLETE"
   },
   {
@@ -2556,7 +2556,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Bamenda,Nkambe,Wum,Mfundi,Babanki,Kom,Oku,Bafoussam,Bangante,Bandjoun,Baham,Bamendjou,Batcham,Bana,Bafou,Batoufam,Bamougoum,Bamessingue,Bangangté,Bafang,Bangwa,Bamunka,Bambalang,Bambui,Bambili,Bamukumbit,Bamum,Sarweyne,Koorma,Xarardheere,Mariakani,Kisii,Maralal,Liibaan,Duduble,Galdogob,Dhoobley,Vanga,Suba,Korr,Gurfuudle,Dabare,Anomra,Alutsa,Aleta,Aulra,Afitsa,Apatsa,Apegta,Anebta,Alusa,Aforra,Adibra,Akekta,Amedsa,Apemta,Dzodinkala,Dzodinkama,Dzodinkawa,Dzodinkara,Dzodinkaka,Saint-Louis,Apeta",
+    "b": "Lauhut villages,Maluku,Indonesia",
     "status": "COMPLETE"
   },
   {
@@ -2766,7 +2766,7 @@ window.africaNameBases = [
     "max": 8,
     "d": "lnrt",
     "m": 0,
-    "b": "Aliou,Goz Amar",
+    "b": "Geme villages,Western Province,PNG",
     "status": "COMPLETE"
   },
   {
@@ -2796,7 +2796,7 @@ window.africaNameBases = [
     "max": 10,
     "d": "lnrt",
     "m": 0,
-    "b": "Gera,Fyandigeri",
+    "b": "Gera villages,Bauchi State,Nigeria",
     "status": "COMPLETE"
   },
   {
@@ -4626,7 +4626,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Darazo LGA,Bauchi State",
+    "b": "Dazawa villages,Sokoto State,Nigeria",
     "status": "COMPLETE"
   },
   {
@@ -5116,7 +5116,7 @@ window.africaNameBases = [
     "max": 4,
     "d": "",
     "m": 0,
-    "b": "Jimi,Bauchi State",
+    "b": "Jimi villages,Bauchi State,Nigeria",
     "status": "COMPLETE"
   },
   {
@@ -5566,7 +5566,7 @@ window.africaNameBases = [
     "max": 7,
     "d": "",
     "m": 0,
-    "b": "Mahoua,Gourara",
+    "b": "Mawa villages,Mongo area,Chad",
     "status": "COMPLETE"
   },
   {
@@ -6306,7 +6306,7 @@ window.africaNameBases = [
     "max": 12,
     "d": "",
     "m": 0.1,
-    "b": "Siri Babba,Siri Nassara",
+    "b": "Siri villages,Bauchi State,Nigeria",
     "status": "COMPLETE"
   },
   {
@@ -6636,7 +6636,7 @@ window.africaNameBases = [
     "max": 6,
     "d": "",
     "m": 0,
-    "b": "Goundi,Koumra",
+    "b": "Tumak villages,Mongo area,Chad",
     "status": "COMPLETE"
   },
   {
@@ -6856,7 +6856,7 @@ window.africaNameBases = [
     "max": 8,
     "d": "",
     "m": 0,
-    "b": "Zirenkel,Guéra",
+    "b": "Zirenkel villages,Mongo area,Chad",
     "status": "COMPLETE"
   },
   {
@@ -6886,7 +6886,7 @@ window.africaNameBases = [
     "max": 12,
     "d": "",
     "m": 0.1,
-    "b": "Ouro Lamordé,Ouro Zangui",
+    "b": "Zumaya villages,Mongo area,Chad",
     "status": "COMPLETE"
   },
   {
@@ -7306,7 +7306,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Sindh,LowerSindh",
+    "b": "Bhaya villages,Madhya Pradesh,India",
     "status": "COMPLETE"
   },
   {
@@ -7326,7 +7326,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Sindh,Pakistan",
+    "b": "Goaria villages,Rajasthan,India",
     "status": "COMPLETE"
   },
   {
@@ -7356,7 +7356,7 @@ window.africaNameBases = [
     "max": 12,
     "d": "",
     "m": 0.1,
-    "b": "Siri Babba,Siri Nassara",
+    "b": "Siri Chadic villages,Bauchi State,Nigeria",
     "status": "COMPLETE"
   },
   {
@@ -7936,7 +7936,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Memoni,Visakhapatnam,Rishikesh,Lucknow,Jhang,Chennai,Sambalpur,Fuvahmulah,Sialkot,Faisalabad,Rawalpindi,Vijayawada,Hyderabad,Barisal,Panaji,Asansol,Haridwar,Shikarpur,Imphal,Muzaffargarh,Jamshedpur,Patna,Bhubaneswar,Kurunegala,Warangal,Guntur,Ahmedabad,Pokhara,Kampong Cham,Hanoi,Hai Phong,Savannakhet,Hue,Nakhon Ratchasima,Chiang Mai,Naypyidaw,Can Tho,Rach Gia,My Tho,Phan Thiet,Phongsali,Lạng Sơn,Luang Prabang,Pakse,Mandalay,Macau,Nanning,Phnom Penh,Sihanoukville,Battambang,Udon Thani,Mawlamyine,Takeo,Guilin,Zhanjiang,Memonik,Memonit,Memonip,Memonim,Memonin,Memonis,Memonir,Memonil,Memonid,Memonig,Memonib",
+    "b": "Yareba villages,Papua,Indonesia",
     "status": "COMPLETE"
   },
   {
@@ -7946,7 +7946,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Mewari,Visakhapatnam,Rishikesh,Lucknow,Jhang,Chennai,Sambalpur,Fuvahmulah,Sialkot,Faisalabad,Rawalpindi,Vijayawada,Hyderabad,Barisal,Panaji,Asansol,Haridwar,Shikarpur,Imphal,Muzaffargarh,Jamshedpur,Patna,Bhubaneswar,Kurunegala,Warangal,Guntur,Ahmedabad,Pokhara,Daloa,Koidu,Mopti,Man,Bobo-Dioulasso,Monrovia,Kankan,Abidjan,Dakar,Kaolack,Accra,Lomé,Nouakchott,Bouaké,Kayes,Ouagadougou,Saint-Louis,Yamoussoukro,Korhogo,Kumasi,Brikama,Sunyani,Kaduna,Lafia,Conakry,Ziguinchor,Freetown,Mewarik,Mewarit,Mewarip,Mewarim,Mewarin,Mewaris,Mewarir,Mewaril,Mewarid,Mewarig,Mewarib",
+    "b": "Yaweyuha villages,Papua,Indonesia",
     "status": "COMPLETE"
   },
   {
