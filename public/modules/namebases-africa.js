@@ -236,7 +236,7 @@ window.africaNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Dangaleat villages,Mongo area,Guera region",
+    "b": "Mongo,Bitkine,Korbo,Barlo,Koubo Adougoul",
     "status": "COMPLETE"
   },
   {
@@ -466,7 +466,7 @@ window.africaNameBases = [
     "max": 8,
     "d": "bk",
     "m": 0,
-    "b": "Bure,Bure_NW_settlement,Bure_E_settlement",
+    "b": "Bure village,Kirfi LGA,Bauchi State",
     "status": "COMPLETE"
   },
   {
@@ -476,7 +476,7 @@ window.africaNameBases = [
     "max": 8,
     "d": "lnrt",
     "m": 0.1,
-    "b": "Gadala,Kortchi,Buwal_villages",
+    "b": "Gadala,Kortchi,Buwal villages",
     "status": "COMPLETE"
   },
   {
@@ -1086,7 +1086,7 @@ window.africaNameBases = [
     "max": 14,
     "d": "lnrt",
     "m": 0,
-    "b": "Abéché,Adré,Assoungha",
+    "b": "Adre,Hadjer Hadid,Alacha,Assoungha,Ouaddai",
     "status": "COMPLETE"
   },
   {
@@ -1106,7 +1106,7 @@ window.africaNameBases = [
     "max": 14,
     "d": "lnrt",
     "m": 0,
-    "b": "Tondi Songway Kiini villages,Tondi area,Mali",
+    "b": "Kikara,Banikani,Mounivel,Ganka,Dansa,Albengouma,Ganda Bundo,Douentza",
     "status": "COMPLETE"
   },
   {
@@ -1406,7 +1406,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Dugwor,Mékéri,Mayo-Ranéo",
+    "b": "Dugwor,Mekere,Mowasl,Mongro,Weze,Mofu-Dugwor,Mofu",
     "status": "COMPLETE"
   },
   {
@@ -1586,7 +1586,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Kachia LGA,Antara,Kaduna State",
+    "b": "Anturu,Goro,Akwana,Igo,Atara,Akama,Ikryo,Ibiro",
     "status": "COMPLETE"
   },
   {
@@ -1666,7 +1666,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Sardauna LGA,Taraba State,Baissa",
+    "b": "Ambo,Numan,Demsa,Adamawa,Nigeria",
     "status": "COMPLETE"
   },
   {
@@ -1706,7 +1706,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Belegete,Atolo,Matene",
+    "b": "Evant,Bauchi State,Nigeria",
     "status": "COMPLETE"
   },
   {
@@ -1966,7 +1966,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Wukari,Abinsi,Dampar",
+    "b": "Wapan,Muri,Taraba,Nigeria",
     "status": "COMPLETE"
   },
   {
@@ -2376,7 +2376,7 @@ window.africaNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0.1,
-    "b": "Biyenge,Benanga,Makungulu",
+    "b": "Wongo,Mongala,DR Congo",
     "status": "COMPLETE"
   },
   {
@@ -2556,7 +2556,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Lauhut villages,Maluku,Indonesia",
+    "b": "Dzodinka,Ouaka,Central African Republic",
     "status": "COMPLETE"
   },
   {
@@ -2766,7 +2766,7 @@ window.africaNameBases = [
     "max": 8,
     "d": "lnrt",
     "m": 0,
-    "b": "Geme villages,Western Province,PNG",
+    "b": "Geme,Western Province,PNG",
     "status": "COMPLETE"
   },
   {
@@ -2796,7 +2796,7 @@ window.africaNameBases = [
     "max": 10,
     "d": "lnrt",
     "m": 0,
-    "b": "Gera villages,Bauchi State,Nigeria",
+    "b": "Gera,Bauchi State,Nigeria",
     "status": "COMPLETE"
   },
   {
@@ -2806,7 +2806,7 @@ window.africaNameBases = [
     "max": 6,
     "d": "lnrt",
     "m": 0,
-    "b": "Geruma,Sum,Duurum",
+    "b": "Geruma,Bauchi State,Nigeria",
     "status": "COMPLETE"
   },
   {
@@ -4546,7 +4546,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Cineni village,Gwoza LGA,Borno State",
+    "b": "Cineni,Bauchi State,Nigeria",
     "status": "COMPLETE"
   },
   {
@@ -4626,7 +4626,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Dazawa villages,Sokoto State,Nigeria",
+    "b": "Dazawa,Sokoto State,Nigeria",
     "status": "COMPLETE"
   },
   {
@@ -4896,7 +4896,7 @@ window.africaNameBases = [
     "max": 7,
     "d": "",
     "m": 0,
-    "b": "Langung,Shendam LGA,Plateau State",
+    "b": "Belneng,Bauchi State,Nigeria",
     "status": "COMPLETE"
   },
   {
@@ -4966,7 +4966,7 @@ window.africaNameBases = [
     "max": 1,
     "d": "",
     "m": 0,
-    "b": "Dokan Tofa,Shendam LGA,Plateau State",
+    "b": "Chakato,Bauchi State,Nigeria",
     "status": "COMPLETE"
   },
   {
@@ -5146,7 +5146,7 @@ window.africaNameBases = [
     "max": 10,
     "d": "",
     "m": 0.1,
-    "b": "Ju,Bauchi LGA,Bauchi State",
+    "b": "Ju,Bauchi State,Nigeria",
     "status": "COMPLETE"
   },
   {
@@ -5266,7 +5266,7 @@ window.africaNameBases = [
     "max": 7,
     "d": "",
     "m": 0,
-    "b": "Kirya,Mijilu,Adamawa State",
+    "b": "Kirya-Konzal,Bauchi State,Nigeria",
     "status": "COMPLETE"
   },
   {
@@ -5316,7 +5316,7 @@ window.africaNameBases = [
     "max": 10,
     "d": "",
     "m": 0,
-    "b": "Kupto,Bauchi State,Nigeria",
+    "b": "Kutto,Bauchi State,Nigeria",
     "status": "COMPLETE"
   },
   {
@@ -5386,7 +5386,7 @@ window.africaNameBases = [
     "max": 6,
     "d": "",
     "m": 0,
-    "b": "Gulani,Bara,Yobe State",
+    "b": "Maaka,Bauchi State,Nigeria",
     "status": "COMPLETE"
   },
   {
@@ -5566,7 +5566,7 @@ window.africaNameBases = [
     "max": 7,
     "d": "",
     "m": 0,
-    "b": "Mawa villages,Mongo area,Chad",
+    "b": "Mawa,Mongo area,Chad",
     "status": "COMPLETE"
   },
   {
@@ -5686,7 +5686,7 @@ window.africaNameBases = [
     "max": 9,
     "d": "",
     "m": 0,
-    "b": "Pankshin LGA,Plateau State,Nigeria",
+    "b": "Miler,Bauchi State,Nigeria",
     "status": "COMPLETE"
   },
   {
@@ -5706,7 +5706,7 @@ window.africaNameBases = [
     "max": 12,
     "d": "",
     "m": 0,
-    "b": "Tandjile Prefecture,Lai Prefecture,Lai",
+    "b": "Mire,Bauchi State,Nigeria",
     "status": "COMPLETE"
   },
   {
@@ -5866,7 +5866,7 @@ window.africaNameBases = [
     "max": 10,
     "d": "",
     "m": 0,
-    "b": "Muskum village,Mouskoun,Katoa",
+    "b": "Muskum,Mouskoun,Katoa,Chad",
     "status": "COMPLETE"
   },
   {
@@ -6486,7 +6486,7 @@ window.africaNameBases = [
     "max": 6,
     "d": "",
     "m": 0,
-    "b": "Tambes village,Pankshin LGA",
+    "b": "Tambes village,Pankshin LGA,Pankshin town,Bununu,Bauchi State,Mupun,Ngas,Fyer",
     "status": "COMPLETE"
   },
   {
@@ -6636,7 +6636,7 @@ window.africaNameBases = [
     "max": 6,
     "d": "",
     "m": 0,
-    "b": "Tumak villages,Mongo area,Chad",
+    "b": "Tumak,Mongo area,Chad",
     "status": "COMPLETE"
   },
   {
@@ -6726,7 +6726,7 @@ window.africaNameBases = [
     "max": 8,
     "d": "",
     "m": 0,
-    "b": "Bakala,Modomale,Yamindou",
+    "b": "West Banda,Ouham-Pende,Central African Republic",
     "status": "COMPLETE"
   },
   {
@@ -6836,7 +6836,7 @@ window.africaNameBases = [
     "max": 6,
     "d": "",
     "m": 0,
-    "b": "Zemba,Dhimba,Kunene",
+    "b": "Zemba,Kahemba,Kwango,DR Congo",
     "status": "COMPLETE"
   },
   {
@@ -6856,7 +6856,7 @@ window.africaNameBases = [
     "max": 8,
     "d": "",
     "m": 0,
-    "b": "Zirenkel villages,Mongo area,Chad",
+    "b": "Zirenkel,Mongo area,Chad",
     "status": "COMPLETE"
   },
   {
@@ -6886,7 +6886,7 @@ window.africaNameBases = [
     "max": 12,
     "d": "",
     "m": 0.1,
-    "b": "Zumaya villages,Mongo area,Chad",
+    "b": "Zumaya,Mongo area,Chad",
     "status": "COMPLETE"
   },
   {
@@ -6896,7 +6896,7 @@ window.africaNameBases = [
     "max": 6,
     "d": "",
     "m": 0,
-    "b": "Jimbim settlement,Darazo LGA",
+    "b": "Jimbim settlement,Darazo LGA,Bauchi State,Chicomuselo,Comalapa,Yayahuita,Huitatan",
     "status": "COMPLETE"
   },
   {

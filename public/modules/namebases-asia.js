@@ -3406,7 +3406,7 @@ window.asiaNameBases = [
     "max": 13,
     "d": "",
     "m": 0,
-    "b": "Ban Nammang,Ban Nam Eng,Ban Padaeng,Ban Nam Kap Tai,Ban Nalan,Nam Eng village,Namkha,Sanjing,Sopjai,Ban Kengdeung,Ban Donmoun,Ban Tchom,Ban Sop Xim,Ban Namlouang,Ban Hatnaleng,Ban Kengkran,Ban Saloi,Nalae Town,Khone Kham Village,Ban Mang,Nampheng,Nahom,Muang La,Ban Huay Yen,Ban Muangkarn,Kim Hua Village,Sop Pot Village,Sop Caw Village,Pung Kamong Village,Huoi Cang 2 Village,Ban Minh Tien,Ban Na Lai,Tham Phe Village,Me Village,Noong O Village,Noong Ma Village,Lach Village,Doan Ket Village,Than Village,Nam Pu Village,Thang Village,Huoi Oi Village,Phieng Trai Village,Huai Ian,Huai Kok Village,Huai Yen,Ban Muang Karn,Thung Saai,Huai Koi,Huai Jaw,Pa Tueng,Wang Pha,Huai Sarn,Huai Meng,Ban Huai Kon,Pa Miang Village,Chon Daen,Mixed villages near Saa,Commune Baw villages,Hills east of Pua,Middle Yao River valley,Muang Ngaup headwaters,Villages in Maetaeng,Villages in Wiang Pa Pao,Chiang Khong area villages,Pung Soa Village,Om Kae Village,Manxiangban,Huijie,Maanmai,Hui Saang,Hui Kee,Maan Cong,10 villages in Mengla County,2 villages in Jinghong County,Nanqian Village",
+    "b": "Ambo,Numan,Demsa,Adamawa,Nigeria",
     "status": "COMPLETE"
   },
   {
