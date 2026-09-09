@@ -1636,7 +1636,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Chashan villages,Yunnan,China",
+    "b": "Xiapianma,Gangfang,Gulang,Pianma Township,Lushui County,Yunnan,China",
     "status": "COMPLETE"
   },
   {
@@ -1906,7 +1906,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Bonan villages,Gansu,China",
+    "b": "Ganhetan,Meipo,Dadun,Jishishan County,Gansu,China",
     "status": "COMPLETE"
   },
   {
@@ -1926,7 +1926,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Bouhin villages,Quang Nam,Vietnam",
+    "b": "Hainan,China",
     "status": "COMPLETE"
   },
   {
@@ -2526,7 +2526,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Cun Hlai villages,Hainan,China",
+    "b": "Dongfang City,Changjiang County,Hainan,China",
     "status": "COMPLETE"
   },
   {
@@ -2616,7 +2616,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Holiya villages,Maharashtra,India",
+    "b": "Tirodi,Satitola,Amgaon,Chakayeti,Seoni,Balaghat,Madhya Pradesh,Maharashtra,India",
     "status": "COMPLETE"
   },
   {
@@ -2676,7 +2676,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Kalanadi villages,Karnataka,India",
+    "b": "Wayanad district,Kerala,India",
     "status": "COMPLETE"
   },
   {
@@ -2806,7 +2806,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Duan villages,Sichuan,China",
+    "b": "Mianning County,Liangshan Yi Autonomous Prefecture,Sichuan,China",
     "status": "COMPLETE"
   },
   {
@@ -3626,7 +3626,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "Nadou is a Hlai language spoken by ~4,000 people in two villages (Nàdòu in Xīnlóng Town, Yuè in Bāsuǒ Town) in Dongfang, Hainan, China.",
     "m": 0,
-    "b": "Nadou villages,Bauchi,Nigeria",
+    "b": "Nadou village,Xinlong Town,Basu Town,Dongfang,Hainan,China",
     "status": "COMPLETE"
   },
   {
@@ -3676,7 +3676,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Gong villages,Bauchi,Nigeria",
+    "b": "Bauchi,Nigeria",
     "status": "COMPLETE"
   },
   {

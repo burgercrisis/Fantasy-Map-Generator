@@ -6916,7 +6916,7 @@ window.europeNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Goroka,Asaro,UpperAsaro",
+    "b": "Goroka,Asaro,UpperAsaro,Papua New Guinea",
     "status": "COMPLETE"
   },
   {

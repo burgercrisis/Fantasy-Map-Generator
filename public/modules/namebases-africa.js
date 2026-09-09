@@ -466,7 +466,7 @@ window.africaNameBases = [
     "max": 8,
     "d": "bk",
     "m": 0,
-    "b": "Bure village,Kirfi LGA,Bauchi State",
+    "b": "Bure village,Bure West (Jakkul),Bure East (Tudun Wada),Bure hill (Kilo),Nigeria",
     "status": "COMPLETE"
   },
   {
@@ -476,7 +476,7 @@ window.africaNameBases = [
     "max": 8,
     "d": "lnrt",
     "m": 0.1,
-    "b": "Gadala,Kortchi,Buwal villages",
+    "b": "Gadala,Kortchi,Buwal villages,Cameroon",
     "status": "COMPLETE"
   },
   {

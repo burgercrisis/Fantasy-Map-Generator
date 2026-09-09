@@ -526,7 +526,7 @@ window.northAmericaNameBases = [
     "max": 23,
     "d": "",
     "m": 0,
-    "b": "Chicomuselo,Mazapa de Madero,Amatenango de la Frontera",
+    "b": "Chicomuselo,Mazapa de Madero,Amatenango de la Frontera,Chiapas,Mexico,Huehuetenango,Guatemala",
     "status": "COMPLETE"
   },
   {
