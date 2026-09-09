@@ -1356,7 +1356,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Sharbithat,Shwaymiya,Liqbi,Sawqara",
+    "b": "Sowqarat,Sharbithat,Mingiy,Warx,Ashwaymiyah,Hasbarem,Hasek,Salalah",
     "status": "COMPLETE"
   },
   {
@@ -1406,7 +1406,7 @@ window.asiaNameBases = [
     "max": 18,
     "d": "",
     "m": 0,
-    "b": "Swat,Dir,Shangla,Alai",
+    "b": "Bishigram Valley,Tirat Valley,Chail,Madyan,Swat Valley",
     "status": "COMPLETE"
   },
   {
@@ -1636,7 +1636,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Xiapianma,Gangfang,Gulang,Piansihe",
+    "b": "Chashan villages,Yunnan,China",
     "status": "COMPLETE"
   },
   {
@@ -1906,7 +1906,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Shalimu,Zongzila,Xiangdao,Kangyang",
+    "b": "Bonan villages,Gansu,China",
     "status": "COMPLETE"
   },
   {
@@ -1926,7 +1926,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Heitu,Daode,Budai,Buqu",
+    "b": "Bouhin villages,Quang Nam,Vietnam",
     "status": "COMPLETE"
   },
   {
@@ -2526,7 +2526,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Nadou Village,Yue Village,Fuma Village,Villages along lower Changhua River",
+    "b": "Cun Hlai villages,Hainan,China",
     "status": "COMPLETE"
   },
   {
@@ -2616,7 +2616,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Tirodi,Satitola,Amgaon,Chakayeti",
+    "b": "Holiya villages,Maharashtra,India",
     "status": "COMPLETE"
   },
   {
@@ -2676,7 +2676,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Kalanadi Kolli,Pulpalli,Padichira,Irulam",
+    "b": "Kalanadi villages,Karnataka,India",
     "status": "COMPLETE"
   },
   {
@@ -2806,7 +2806,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Sanamxai,Kasseng Plateau,Xe Kaman River,Dak Robay River",
+    "b": "Duan villages,Sichuan,China",
     "status": "COMPLETE"
   },
   {
@@ -3016,7 +3016,7 @@ window.asiaNameBases = [
     "max": 18,
     "d": "",
     "m": 0,
-    "b": "Dagestan,Godoberi village,Botlikh,Russia",
+    "b": "Godoberi,Dagestan,Russia",
     "status": "COMPLETE"
   },
   {
@@ -3366,7 +3366,7 @@ window.asiaNameBases = [
     "max": 14,
     "d": "",
     "m": 0,
-    "b": "Khayryuzovo,Ust-Khayryuzovo,Sedanka,Tigil",
+    "b": "Itelmen villages,Kamchatka,Russia",
     "status": "COMPLETE"
   },
   {
@@ -3626,7 +3626,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "Nadou is a Hlai language spoken by ~4,000 people in two villages (Nàdòu in Xīnlóng Town, Yuè in Bāsuǒ Town) in Dongfang, Hainan, China.",
     "m": 0,
-    "b": "Nadou,Yue,Xinlong,Basuoxiang",
+    "b": "Nadou villages,Bauchi,Nigeria",
     "status": "COMPLETE"
   },
   {
@@ -3676,7 +3676,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Qinglong,Zhenning,Puding,Wangmo",
+    "b": "Gong villages,Bauchi,Nigeria",
     "status": "COMPLETE"
   },
   {
@@ -4016,7 +4016,7 @@ window.asiaNameBases = [
     "max": 19,
     "d": "",
     "m": 0,
-    "b": "Korlai,Corlaim,Upper Korlai,varcha bhag",
+    "b": "Korlai,Revdanda,Chaul,Maharashtra,India",
     "status": "COMPLETE"
   },
   {
@@ -6506,7 +6506,7 @@ window.asiaNameBases = [
     "max": 10,
     "d": "lnrt",
     "m": 0,
-    "b": "Sa Thay,Kon Plong,Kon Tum,Vietnam",
+    "b": "Kayong villages,Cameroon",
     "status": "COMPLETE"
   },
   {
@@ -6546,7 +6546,7 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Barkhan,Kohlu,Musakhel,Dera Ghazi Khan",
+    "b": "Khetrani villages,Balochistan,Pakistan",
     "status": "COMPLETE"
   },
   {
@@ -6686,7 +6686,7 @@ window.asiaNameBases = [
     "max": 7,
     "d": "Longsang Zhuang is a Zhuang dialect spoken in Longsang area of Guangxi, China.",
     "m": 0,
-    "b": "Sanhe,Qiaotou,Qiaonan,Daji",
+    "b": "Longsang villages,Guangxi,China",
     "status": "COMPLETE"
   },
   {
@@ -6796,7 +6796,7 @@ window.asiaNameBases = [
     "max": 14,
     "d": "Malapandaram is a Dravidian language spoken in Kerala, India by the Malapandaram tribe.",
     "m": 0,
-    "b": "Pathanamthitta,Kollam,Alappuzha,Idukki",
+    "b": "Malapandaram villages,Kerala,India",
     "status": "COMPLETE"
   },
   {
@@ -7216,7 +7216,7 @@ window.asiaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Nanning,Liuzhou,Baise,Qinzhou,Guilin,Fangchenggang,Chongzuo,Laibin,Hechi,Wuzhou,Guigang,Binyang,Hengzhou,Wuming,Shangsi,Fusui,Napo,Jingxi,Longlin,Tianlin,Lingyun,Fengshan,Donglan,Bama,Du'an,Mashan,Longan,Ningming,Pingxiang,Tiandeng",
+    "b": "Abon villages,Cross River,Nigeria",
     "status": "COMPLETE"
   },
   {
