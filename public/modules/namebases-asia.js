@@ -11372,11 +11372,11 @@ window.asiaNameBases = [
   {
     "name": "Paniai Lakes",
     "i": 202422,
-    "min": 0,
-    "max": 0,
+    "min": 3,
+    "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "",
+    "b": "Enarotali,Mapia,Moanemani,Kamu Valley,Waghete,Dogiyai,Deiyai,Baya Biru,Nabire,Puncak Jaya,Moni,Wolani,Auye,Dao,Yabi,Simori,Kapauku,Ekagi,Mee,Tigi Lake,Tage Lake,Wissel Lakes,Uwapa,Ilu,Kegata,Biha,Pugo,Dauwa,Kapiraya,Tigi,Deiyai Regency,Dogiyai Regency,Paniai Regency",
     "status": "COMPLETE"
   },
   {
@@ -11472,11 +11472,11 @@ window.asiaNameBases = [
   {
     "name": "Rusenu",
     "i": 202438,
-    "min": 0,
-    "max": 0,
+    "min": 3,
+    "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "",
+    "b": "Lautem,Lospalos,Com,Tutuala,Ile Kere Kere,Nari Plains,Ilikerekere Mountain,Fataluku,Oirata,Makuva,Latuloho,Uruha,Cailoru,Nocaru,Fara Kati,East Timor,Timor-Leste,Dili,Baucau,Viqueque,Manatuto,Aileu,Ermera,Manufahi,Cova Lima,Bobonaro,Ainaro",
     "status": "COMPLETE"
   },
   {
@@ -11962,11 +11962,11 @@ window.asiaNameBases = [
   {
     "name": "Yogo (Tamagario)",
     "i": 202522,
-    "min": 0,
-    "max": 0,
+    "min": 3,
+    "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "",
+    "b": "Arare,Kerke,Pagai,Tereyemu,Magabag,Taragay,Anit,Kayegai,Kageir,Gaumi,Makabak,Topum,Xaytox,Yame,Segere,Kaitok,Sigare,Mappi Regency,South Papua,Gondu River,Casuarina Coast,Kayagar,Kaugat,Atowhaim,Wiyagar,Jogo,Tamario",
     "status": "COMPLETE"
   },
   {

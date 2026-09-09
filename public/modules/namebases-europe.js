@@ -6560,13 +6560,13 @@ window.europeNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Dungmali ",
+    "name": "Dungmali",
     "i": 851,
-    "min": 4,
-    "max": 11,
+    "min": 3,
+    "max": 13,
     "d": "nic-GH",
     "m": 0,
-    "b": "",
+    "b": "Thulo Dumba,Sano Dumba,Bastim,Tiwari Bhanjyan,Chyangre,Yaku,Bhojpur,Hile,Pakhribas,Dhankuta,Morang,Sunsari,Jhapa,Ilam,Udayapur,Khotang,Kaski,Lalitpur,Kathmandu,Pouwakhesang Thum,Arun River,Sintung Lekh,Katunje,Marangtang,Tindhara,Dungma,Bantawa,Kirat Rai",
     "status": "COMPLETE"
   },
   {
@@ -6600,13 +6600,13 @@ window.europeNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Kaike (Magar Kaike) ",
+    "name": "Kaike (Magar Kaike)",
     "i": 856,
-    "min": 4,
-    "max": 11,
+    "min": 3,
+    "max": 13,
     "d": "nic-GH",
     "m": 0,
-    "b": "",
+    "b": "Sahartara,Tupatara,Tarakot,Belawa,Lingdu,Namdel,Samteling,Shahartara,Tarang,Tichen,Gumba Tara,Kane,Bhantara,Lawan,Riwa,Dunai,Juphal,Kathmandu,Tichurong Valley,Dolpa District,Karnali Province,Bheri River,Tibrikot,Magar,Tamangic,Tarali",
     "status": "COMPLETE"
   },
   {
@@ -6740,23 +6740,23 @@ window.europeNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Chadong ",
+    "name": "Chadong",
     "i": 1060,
-    "min": 4,
-    "max": 11,
+    "min": 3,
+    "max": 13,
     "d": "nic-GH",
     "m": 0,
-    "b": "",
+    "b": "Chadong Township,Lingui County,Guilin,Guangxi,Liangjiang Township,Yongfu County,Longjiang Township,Maonan,Mulam,Zhuang,Yao,Pinghua,Southwestern Mandarin,Kam-Sui,Tai-Kadai,Qingyuanfu,Nandan County,Guilin Prefecture,Yuan Dynasty,Han Chinese,Dong Nationality,Longsheng County",
     "status": "COMPLETE"
   },
   {
-    "name": "En Kra ",
+    "name": "En Kra",
     "i": 1061,
-    "min": 4,
-    "max": 11,
+    "min": 3,
+    "max": 13,
     "d": "nic-GH",
     "m": 0,
-    "b": "",
+    "b": "Noi Thon Village,Ha Quang District,Cao Bang Province,Vietnam,Jingxi County,Guangxi,Nung Ven,Buyang,Kra Languages,Gelao,Lachi,Laha,Qabiao,Paha,Langjia,Ecun,Yalang,Dugan,Zhelong,Nada,Longna,Maguan,Nianlang,Gula Township,Funing County,Wenshan Prefecture,Yunnan,Napo County,Rongtun,Gonghe,Shanhe,Yong an,Guoba,Renhecun,Guangnan County,Yanglian,Anshe,Pohe Township,Ha Giang Province,Cao Bang Province,Lao Cai Province,Son La Province",
     "status": "COMPLETE"
   },
   {
@@ -6880,13 +6880,13 @@ window.europeNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Kavalan ",
+    "name": "Kavalan",
     "i": 1622,
-    "min": 4,
-    "max": 11,
+    "min": 3,
+    "max": 13,
     "d": "nic-GH",
     "m": 0,
-    "b": "",
+    "b": "Kariawan,Jialiwan,Patrungan,Xinshe,Kulis,Lide,Kralut,Zhangyuan,Sahut,Tamayan,Kaliwan,Kaleon,Sinshe,Gangkou,Jingpu,Jici,Fengbin,Jiali,Kaliyawan,PateRungan,Lide,Kudis,Sanjiancuo,Sadipongan,Zhangyuan,Kladut,Dafengfeng,Polo,Dajianshi,Qiliban,Kilipan,Maoliwuhan,Varivuhan,Liuliu,Laulau,Lizejian,Hedekanan,Sanshing,Suao,Toucheng,Tongshan,Yilan,Hualien,Taitung,Lanyang Plain,Hualien Plain,Sanasai,Beipu,Dahan,Jialin,Kangle,Shunan,Sincheng,Jiasin,Xincheng Township,Fengbin Township,Wujie Township,Zhuangwei Township,Changbin Township",
     "status": "COMPLETE"
   },
   {
