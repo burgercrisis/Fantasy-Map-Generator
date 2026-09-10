@@ -153,11 +153,18 @@ class NamesGenerator {
       }
     }
 
+    // Update data after potential fallback
+    const chainData = this.chains[base];
+    if (!chainData || chainData[""] === undefined) {
+      ERROR && console.error(`Namebase ${base} chain is invalid after fallback!`);
+      return "ERROR";
+    }
+
     if (!min) min = this.nameBases[base].min;
     if (!max) max = this.nameBases[base].max;
     if (dupl !== "") dupl = this.nameBases[base].d;
 
-    let v = data[""],
+    let v = chainData[""],
       cur = ra(v),
       w = "";
     for (let i = 0; i < 20; i++) {
@@ -166,14 +173,14 @@ class NamesGenerator {
         if (w.length < min) {
           cur = "";
           w = "";
-          v = data[""];
+          v = chainData[""];
         } else break;
       } else {
         if (w.length + cur.length > max) {
           // word too long
           if (w.length < min) w += cur;
           break;
-        } else v = data[last(cur.split("")) as string] || data[""];
+        } else v = chainData[last(cur.split("")) as string] || chainData[""];
       }
 
       w += cur;

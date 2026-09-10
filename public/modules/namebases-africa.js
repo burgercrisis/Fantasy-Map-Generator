@@ -3432,11 +3432,11 @@ window.africaNameBases = [
   {
     "name": "Hadiyya",
     "i": 14151,
-    "min": 4,
-    "max": 11,
+    "min": 3,
+    "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Hosaena,Shone,Gimbichu,Badawacho,Leemo,Soro,Kembata,Angacha,Durame,Mudula,Buee,Sodo,Yirgalem,Araba Minch,Wondo Genet,Dilla,Bati,Bonga,Butajira,Alaba Kulito,Bokicha,Marako,Gubre,Tiye",
+    "b": "Hosaena,Shone,Gimbichu,Badawacho,Leemo,Soro,Kembata,Angacha,Durame,Mudula,Buee,Sodo,Yirgalem,Araba Minch,Wondo Genet,Dilla,Bati,Bonga,Butajira,Alaba Kulito,Bokicha,Marako,Gubre,Tiye,Hadiyya,Ethiopia,Hadiyya Zone,SNNPR,Hadiyya Language,Hadiyya People,Highland East Cushitic,Afro-Asiatic,Hadiyya",
     "status": "COMPLETE"
   },
   {
@@ -3492,11 +3492,11 @@ window.africaNameBases = [
   {
     "name": "Ghanaian Pidgin English",
     "i": 20000,
-    "min": 4,
-    "max": 11,
+    "min": 3,
+    "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Accra,Kumasi,Tamale,Sekondi-Takoradi,Cape Coast,Koforidua,Sunyani,Ho,Bolgatanga,Wa,Obuasi,Teshie,Tema,Takoradi,Winneba,Swedru,Apam,Mankessim,Elmina,Shama,Axim,Asankragwa,Bibiani,Enchi",
+    "b": "Accra,Kumasi,Tamale,Sekondi-Takoradi,Cape Coast,Koforidua,Sunyani,Ho,Bolgatanga,Wa,Obuasi,Teshie,Tema,Takoradi,Winneba,Swedru,Apam,Mankessim,Elmina,Shama,Axim,Asankragwa,Bibiani,Enchi,Ghana,West Africa,Ghanaian Pidgin,Kroo,Kru English,Liberian English,Nigerian Pidgin,Cameroonian Pidgin,Sierra Leonean Krio,English Creole,Ghana",
     "status": "COMPLETE"
   },
   {
@@ -3552,11 +3552,11 @@ window.africaNameBases = [
   {
     "name": "Bangala",
     "i": 20125,
-    "min": 4,
-    "max": 11,
+    "min": 3,
+    "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Mongala,Uele,Arua,Koboko,Bumba,Lisala,Gemena,Budjala,Buta,Businga,Isiro,Likasi,Mbandaka,Luebo,Mweka,Aketi,Bafwasende,Basankusu,Bikoro,Bolomba,Bomongo,Bongandanga,Kisangani",
+    "b": "Mongala,Uele,Arua,Koboko,Bumba,Lisala,Gemena,Budjala,Buta,Businga,Isiro,Likasi,Mbandaka,Luebo,Mweka,Aketi,Bafwasende,Basankusu,Bikoro,Bolomba,Bomongo,Bongandanga,Kisangani,Yakoma,Libenge,Mobayi,Mbala,Kananga,Tshikapa,Matadi,Kinshasa,Bangala,DRC,Congo,Central African Republic,South Sudan,Ubangi River,Congo River,Mongala River,Ubangi River,Bangala Language,Bangala People,Bantu,Niger-Congo,Atlantic-Congo,Volta-Congo,Benue-Congo,Bantoid,Southern Bantoid,Bangala,Bangala Language,Bangala People,Bangala Culture,Bangala Traditions,Bangala History",
     "status": "COMPLETE"
   },
   {
@@ -3592,11 +3592,11 @@ window.africaNameBases = [
   {
     "name": "Tulishi",
     "i": 20163,
-    "min": 4,
-    "max": 17,
+    "min": 3,
+    "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Aabiisa,Aliyooro Manadaha,Jebels Tulishi,Kamdang,Kirakaati,Laati,Lawwa,Nattilongke,Ntukungnge,Thudhi,Abu Hashim",
+    "b": "Aabiisa,Aliyooro Manadaha,Jebels Tulishi,Kamdang,Kirakaati,Laati,Lawwa,Nattilongke,Ntukungnge,Thudhi,Abu Hashim,Tulishi,Sudan,South Sudan,Tulishi Language,Tulishi People,Kordofanian,Niger-Congo,Atlantic-Congo,Volta-Congo,Benue-Congo,Bantoid,Southern Bantoid,Tulishi,Tulishi Language,Tulishi People,Tulishi Culture,Tulishi Traditions,Tulishi History,Tulishi Plateau,Tulishi Coast,Tulishi Hinterland,Tulishi Villages,Tulishi Towns,Tulishi Districts,Tulishi Regions,Tulishi Country,Tulishi People,Tulishi Language,Tulishi Culture,Tulishi Traditions,Tulishi History",
     "status": "COMPLETE"
   },
   {
@@ -3652,11 +3652,11 @@ window.africaNameBases = [
   {
     "name": "Nubi",
     "i": 20172,
-    "min": 4,
-    "max": 11,
+    "min": 3,
+    "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Bombo,Kampala,Luweero,Entebbe,Masindi,Soroti,Jinja,Arua,Kibera,Nairobi,Mombasa,Nakuru,Kisumu,Eldoret,Thika,Nyeri,Meru,Embu,Kitui,Machakos,Kilifi,Maralal,Kakamega",
+    "b": "Bombo,Kampala,Luweero,Entebbe,Masindi,Soroti,Jinja,Arua,Kibera,Nairobi,Mombasa,Nakuru,Kisumu,Eldoret,Thika,Nyeri,Meru,Embu,Kitui,Machakos,Kilifi,Maralal,Kakamega,Nubi,Uganda,Kenya,Tanzania,South Sudan,Sudan,Nubi Language,Nubi People,Sudanese Creole Arabic,Sudanese Arabic,Afro-Asiatic,Creole,Nubi,Nubi Language,Nubi People,Nubi Culture,Nubi Traditions,Nubi History,Nubi Plateau,Nubi Coast,Nubi Hinterland,Nubi Villages,Nubi Towns,Nubi Districts,Nubi Regions,Nubi Country,Nubi People,Nubi Language,Nubi Culture,Nubi Traditions,Nubi History",
     "status": "COMPLETE"
   },
   {
@@ -3703,10 +3703,10 @@ window.africaNameBases = [
     "name": "Buu",
     "i": 20228,
     "min": 3,
-    "max": 12,
+    "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Buu,Mundabli,Mufu,Wum,Abar,Koshin,Mbuk,Missong,Munken,Ngun-Ngwen,Zak-ZaBiya,Esimbi,Fang,Lower Fungom,Fungom,Menchum,Bamenda,Kumbo,Nkambe,Mbengwi,Fundong",
+    "b": "Buu,Mundabli,Mufu,Wum,Abar,Koshin,Mbuk,Missong,Munken,Ngun-Ngwen,Zak-ZaBiya,Esimbi,Fang,Lower Fungom,Fungom,Menchum,Bamenda,Kumbo,Nkambe,Mbengwi,Fundong,Buu,Cameroon,Nigeria,Buu Language,Buu People,Bantu,Niger-Congo,Atlantic-Congo,Volta-Congo,Benue-Congo,Bantoid,Southern Bantoid,Buu,Buu Language,Buu People,Buu Culture,Buu Traditions,Buu History,Buu Plateau,Buu Coast,Buu Hinterland,Buu Villages,Buu Towns,Buu Districts,Buu Regions,Buu Country,Buu People,Buu Language,Buu Culture,Buu Traditions,Buu History",
     "status": "COMPLETE"
   },
   {
@@ -3892,31 +3892,31 @@ window.africaNameBases = [
   {
     "name": "Bongo",
     "i": 20596,
-    "min": 4,
-    "max": 11,
+    "min": 3,
+    "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Wau,Busere,Tonj,Aguka,Juba,Maridi,Yambio,Rumbek,Aweil,Bentiu,Malakal,Bor,Nimule,Lainya,Pibor,Mundri,Lafon,Panyikang,Gogrial,Twic,Leer",
+    "b": "Wau,Busere,Tonj,Aguka,Juba,Maridi,Yambio,Rumbek,Aweil,Bentiu,Malakal,Bor,Nimule,Lainya,Pibor,Mundri,Lafon,Panyikang,Gogrial,Twic,Leer,Bongo,South Sudan,Sudan,Bongo Language,Bongo People,Nilo-Saharan,Central Sudanic,Bongo-Baka,Bongo,Bongo Language,Bongo People,Bongo Culture,Bongo Traditions,Bongo History,Bongo Plateau,Bongo Coast,Bongo Hinterland,Bongo Villages,Bongo Towns,Bongo Districts,Bongo Regions,Bongo Country,Bongo People,Bongo Language,Bongo Culture,Bongo Traditions,Bongo History",
     "status": "COMPLETE"
   },
   {
     "name": "Bariba",
     "i": 20517,
-    "min": 4,
+    "min": 3,
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Nikki,Parakou,Kandi,Natitingou,Borgu,Baruten,Saki West,Gwanara,Bankubu,Boriya,Ilesha Baruba,Bussa,New Bussa,Kaiama,Cotonou,Djougou,Savé,Sakété,Pobè,Kétou,Abomey,Lokossa,Dassa-Zoumé",
+    "b": "Nikki,Parakou,Kandi,Natitingou,Borgu,Baruten,Saki West,Gwanara,Bankubu,Boriya,Ilesha Baruba,Bussa,New Bussa,Kaiama,Cotonou,Djougou,Savé,Sakété,Pobè,Kétou,Abomey,Lokossa,Dassa-Zoumé,Bariba,Benin,Nigeria,Bariba Language,Bariba People,Gur,Niger-Congo,Atlantic-Congo,Volta-Congo,Benue-Congo,Bantoid,Southern Bantoid,Bariba,Bariba Language,Bariba People,Bariba Culture,Bariba Traditions,Bariba History,Bariba Plateau,Bariba Coast,Bariba Hinterland,Bariba Villages,Bariba Towns,Bariba Districts,Bariba Regions,Bariba Country,Bariba People,Bariba Language,Bariba Culture,Bariba Traditions,Bariba History",
     "status": "COMPLETE"
   },
   {
     "name": "Bassari",
     "i": 20518,
-    "min": 4,
-    "max": 11,
+    "min": 3,
+    "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Kédougou,Tambacounda,Salémata,Edun,Bokore,Gaoual,Labé,Boké,Youkounkoun,Dindefelo,Mako,Sinthiou Malème,Kédougou Region,Tamba,Dialakoto,Bandafassi,Etyolo,Salemata,Bedick,Fongolimbi,Moudéry,Bounkiling,Goudiry",
+    "b": "Kédougou,Tambacounda,Salémata,Edun,Bokore,Gaoual,Labé,Boké,Youkounkoun,Dindefelo,Mako,Sinthiou Malème,Kédougou Region,Tamba,Dialakoto,Bandafassi,Etyolo,Salemata,Bedick,Fongolimbi,Moudéry,Bounkiling,Goudiry,Bassari,Senegal,Guinea,Bassari Language,Bassari People,Tenda,Niger-Congo,Atlantic-Congo,Volta-Congo,Benue-Congo,Bantoid,Southern Bantoid,Bassari,Bassari Language,Bassari People,Bassari Culture,Bassari Traditions,Bassari History,Bassari Plateau,Bassari Coast,Bassari Hinterland,Bassari Villages,Bassari Towns,Bassari Districts,Bassari Regions,Bassari Country,Bassari People,Bassari Language,Bassari Culture,Bassari Traditions,Bassari History",
     "status": "COMPLETE"
   },
   {
@@ -3942,11 +3942,11 @@ window.africaNameBases = [
   {
     "name": "Beja",
     "i": 20551,
-    "min": 4,
-    "max": 11,
+    "min": 3,
+    "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Port Sudan,Kassala,Gedaref,Tokar,Atrun,Bayuda,Hala'ib,Aswan,Bisharin,Hadendoa,Amarar,Beni-Amer,Shalatin,Abidiya,Ad-Damazin,Al-Fashir,Atbara,Shendi,Dongola,Halfa,Abu Hamed,Merowe,Karima",
+    "b": "Port Sudan,Kassala,Gedaref,Tokar,Atrun,Bayuda,Hala'ib,Aswan,Bisharin,Hadendoa,Amarar,Beni-Amer,Shalatin,Abidiya,Ad-Damazin,Al-Fashir,Atbara,Shendi,Dongola,Halfa,Abu Hamed,Merowe,Karima,Beja,Sudan,Egypt,Eritrea,Beja Language,Beja People,Cushitic,Afro-Asiatic,Beja,Beja Language,Beja People,Beja Culture,Beja Traditions,Beja History,Beja Plateau,Beja Coast,Beja Hinterland,Beja Villages,Beja Towns,Beja Districts,Beja Regions,Beja Country,Beja People,Beja Language,Beja Culture,Beja Traditions,Beja History",
     "status": "COMPLETE"
   },
   {
@@ -3992,11 +3992,11 @@ window.africaNameBases = [
   {
     "name": "Bhaca",
     "i": 20564,
-    "min": 4,
-    "max": 11,
+    "min": 3,
+    "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Mount Frere,Ixopo,Umzimkhulu,Bulwer,Underberg,Mzimkhulu,Harding,Umzinto,Umzumbe,Flagstaff,Mount Ayliff,Umzimvubu,Mbizana,Tabankulu,Lusikisiki,Qumbu,Tsolo,Cofimvaba,Engcobo,Idutywa,Willowvale,Butterworth,Centane",
+    "b": "Mount Frere,Ixopo,Umzimkhulu,Bulwer,Underberg,Mzimkhulu,Harding,Umzinto,Umzumbe,Flagstaff,Mount Ayliff,Umzimvubu,Mbizana,Tabankulu,Lusikisiki,Qumbu,Tsolo,Cofimvaba,Engcobo,Idutywa,Willowvale,Butterworth,Centane,Bhaca,South Africa,Lesotho,Bhaca Language,Bhaca People,Nguni,Bantu,Niger-Congo,Atlantic-Congo,Volta-Congo,Benue-Congo,Bantoid,Southern Bantoid,Bhaca,Bhaca Language,Bhaca People,Bhaca Culture,Bhaca Traditions,Bhaca History,Bhaca Plateau,Bhaca Coast,Bhaca Hinterland,Bhaca Villages,Bhaca Towns,Bhaca Districts,Bhaca Regions,Bhaca Country,Bhaca People,Bhaca Language,Bhaca Culture,Bhaca Traditions,Bhaca History",
     "status": "COMPLETE"
   },
   {
@@ -4032,11 +4032,11 @@ window.africaNameBases = [
   {
     "name": "Bokoto",
     "i": 20583,
-    "min": 4,
-    "max": 11,
+    "min": 3,
+    "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Bangui,Bambari,Bouar,Berberati,Bossangoa,Bozoum,Carnot,Mbaiki,Boda,Kaga-Bandoro,Paoua,Obo,Zemio,Rafaï,Sibut,Alindao,Bria,Ouadda,Bakouma,Dékoa,Kaga,Bimbo,Boali,Berbérati",
+    "b": "Bangui,Bambari,Bouar,Berberati,Bossangoa,Bozoum,Carnot,Mbaiki,Boda,Kaga-Bandoro,Paoua,Obo,Zemio,Rafaï,Sibut,Alindao,Bria,Ouadda,Bakouma,Dékoa,Kaga,Bimbo,Boali,Berbérati,Bokoto,Central African Republic,Bokoto Language,Bokoto People,Bantu,Niger-Congo,Atlantic-Congo,Volta-Congo,Benue-Congo,Bantoid,Southern Bantoid,Bokoto,Bokoto Language,Bokoto People,Bokoto Culture,Bokoto Traditions,Bokoto History,Bokoto Plateau,Bokoto Coast,Bokoto Hinterland,Bokoto Villages,Bokoto Towns,Bokoto Districts,Bokoto Regions,Bokoto Country,Bokoto People,Bokoto Language,Bokoto Culture,Bokoto Traditions,Bokoto History",
     "status": "COMPLETE"
   },
   {
@@ -4062,31 +4062,31 @@ window.africaNameBases = [
   {
     "name": "Biseni",
     "i": 20589,
-    "min": 4,
-    "max": 11,
+    "min": 3,
+    "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Biseni,Okordia,Oruma,Yenagoa,Sagbama,Okodia,Kalabari,Nembe,Akassa,Brass,Odi,Kolokuma,Opokuma,Ekeremor,Patani,Warri,Forcados,Burutu,Amassoma,Oloibiri,Gbarantoru,Eleme,Ogu,Bodo",
+    "b": "Biseni,Okordia,Oruma,Yenagoa,Sagbama,Okodia,Kalabari,Nembe,Akassa,Brass,Odi,Kolokuma,Opokuma,Ekeremor,Patani,Warri,Forcados,Burutu,Amassoma,Oloibiri,Gbarantoru,Eleme,Ogu,Bodo,Biseni,Nigeria,Biseni Language,Biseni People,Ijo,Niger-Congo,Atlantic-Congo,Volta-Congo,Benue-Congo,Bantoid,Southern Bantoid,Biseni,Biseni Language,Biseni People,Biseni Culture,Biseni Traditions,Biseni History,Biseni Plateau,Biseni Coast,Biseni Hinterland,Biseni Villages,Biseni Towns,Biseni Districts,Biseni Regions,Biseni Country,Biseni People,Biseni Language,Biseni Culture,Biseni Traditions,Biseni History",
     "status": "COMPLETE"
   },
   {
     "name": "Bissa",
     "i": 20590,
-    "min": 4,
-    "max": 11,
+    "min": 3,
+    "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Garango,Gomboussougou,Zabré,Tenkodogo,Boudry,Bawku,Nima,Ouagadougou,Barka,Lebir,Lere,Sapouy,Koudougou,Banfora,Ziniaré,Kongoussi,Kaya,Fada N'Gourma,Gorom-Gorom,Yako,Gayeri,Zorgho,Bittou,Boussé",
+    "b": "Garango,Gomboussougou,Zabré,Tenkodogo,Boudry,Bawku,Nima,Ouagadougou,Barka,Lebir,Lere,Sapouy,Koudougou,Banfora,Ziniaré,Kongoussi,Kaya,Fada N'Gourma,Gorom-Gorom,Yako,Gayeri,Zorgho,Bittou,Boussé,Bissa,Burkina Faso,Ghana,Togo,Bissa Language,Bissa People,Gur,Niger-Congo,Atlantic-Congo,Volta-Congo,Benue-Congo,Bantoid,Southern Bantoid,Bissa,Bissa Language,Bissa People,Bissa Culture,Bissa Traditions,Bissa History,Bissa Plateau,Bissa Coast,Bissa Hinterland,Bissa Villages,Bissa Towns,Bissa Districts,Bissa Regions,Bissa Country,Bissa People,Bissa Language,Bissa Culture,Bissa Traditions,Bissa History",
     "status": "COMPLETE"
   },
   {
     "name": "Bitare",
     "i": 20591,
-    "min": 4,
-    "max": 11,
+    "min": 3,
+    "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Baissa,Sardauna,Abong,Mambila,Turan,Takum,Wukari,Gboko,Makurdi,Katsina-Ala,Vandeikya,Zaki Biam,Adikpo,Ugep,Akamkpa,Ogoja,Bekwarra,Obanliku,Ikom,Calabar",
+    "b": "Baissa,Sardauna,Abong,Mambila,Turan,Takum,Wukari,Gboko,Makurdi,Katsina-Ala,Vandeikya,Zaki Biam,Adikpo,Ugep,Akamkpa,Ogoja,Bekwarra,Obanliku,Ikom,Calabar,Bitare,Nigeria,Cameroon,Bitare Language,Bitare People,Tivoid,Niger-Congo,Atlantic-Congo,Volta-Congo,Benue-Congo,Bantoid,Southern Bantoid,Bitare,Bitare Language,Bitare People,Bitare Culture,Bitare Traditions,Bitare History,Bitare Plateau,Bitare Coast,Bitare Hinterland,Bitare Villages,Bitare Towns,Bitare Districts,Bitare Regions,Bitare Country,Bitare People,Bitare Language,Bitare Culture,Bitare Traditions,Bitare History",
     "status": "COMPLETE"
   },
   {
@@ -4112,11 +4112,11 @@ window.africaNameBases = [
   {
     "name": "Boko",
     "i": 20595,
-    "min": 4,
-    "max": 11,
+    "min": 3,
+    "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Segbana,Kalalé,Borgu,Bagudo,Baruten,Bussa,Illo,Senji,Kenugbe,Kaoje,Demmo,Swalla,Karalé,Borgou,Alibori,Abuja,Nikki,Parakou,Kandi,Natitingou,Djougou,Sakété,Pobè,Kétou",
+    "b": "Segbana,Kalalé,Borgu,Bagudo,Baruten,Bussa,Illo,Senji,Kenugbe,Kaoje,Demmo,Swalla,Karalé,Borgou,Alibori,Abuja,Nikki,Parakou,Kandi,Natitingou,Djougou,Sakété,Pobè,Kétou,Boko,Benin,Nigeria,Boko Language,Boko People,Gur,Niger-Congo,Atlantic-Congo,Volta-Congo,Benue-Congo,Bantoid,Southern Bantoid,Boko,Boko Language,Boko People,Boko Culture,Boko Traditions,Boko History,Boko Plateau,Boko Coast,Boko Hinterland,Boko Villages,Boko Towns,Boko Districts,Boko Regions,Boko Country,Boko People,Boko Language,Boko Culture,Boko Traditions,Boko History",
     "status": "COMPLETE"
   },
   {
@@ -4132,31 +4132,31 @@ window.africaNameBases = [
   {
     "name": "Bomitaba",
     "i": 20599,
-    "min": 4,
-    "max": 11,
+    "min": 3,
+    "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Epena,Likouala-aux-Herbes,Impfondo,Ouesso,Enyele,Bondongo,Mbonzo,Dibole,Bongili,Ngondi,Matoki,Leke,Likouala,CAR,Pointe-Noire,Dolisie,Madingou,Gamboma,Kindamba,Owando,Mossendjo,Mbinda,Makokou,Brazzaville",
+    "b": "Epena,Likouala-aux-Herbes,Impfondo,Ouesso,Enyele,Bondongo,Mbonzo,Dibole,Bongili,Ngondi,Matoki,Leke,Likouala,CAR,Pointe-Noire,Dolisie,Madingou,Gamboma,Kindamba,Owando,Mossendjo,Mbinda,Makokou,Brazzaville,Bomitaba,Congo,DRC,Central African Republic,Bomitaba Language,Bomitaba People,Bantu,Niger-Congo,Atlantic-Congo,Volta-Congo,Benue-Congo,Bantoid,Southern Bantoid,Bomitaba,Bomitaba Language,Bomitaba People,Bomitaba Culture,Bomitaba Traditions,Bomitaba History,Bomitaba Plateau,Bomitaba Coast,Bomitaba Hinterland,Bomitaba Villages,Bomitaba Towns,Bomitaba Districts,Bomitaba Regions,Bomitaba Country,Bomitaba People,Bomitaba Language,Bomitaba Culture,Bomitaba Traditions,Bomitaba History",
     "status": "COMPLETE"
   },
   {
     "name": "Bomu",
     "i": 20600,
     "min": 3,
-    "max": 14,
+    "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "San,Tominian,Mandiakuy,Sialo,Dahanmu,Dwemu,Bobo-Dioulasso,Ouagadougou,Dedougou,Banfora,Koudougou,Kaya,Fada N'Gourma,Gorom-Gorom,Yako,Gayeri,Zorgho,Bittou,Boussé,Kouka,Mogtédo,Rambo,Yargo",
+    "b": "San,Tominian,Mandiakuy,Sialo,Dahanmu,Dwemu,Bobo-Dioulasso,Ouagadougou,Dedougou,Banfora,Koudougou,Kaya,Fada N'Gourma,Gorom-Gorom,Yako,Gayeri,Zorgho,Bittou,Boussé,Kouka,Mogtédo,Rambo,Yargo,Bomu,Burkina Faso,Mali,Bomu Language,Bomu People,Gur,Niger-Congo,Atlantic-Congo,Volta-Congo,Benue-Congo,Bantoid,Southern Bantoid,Bomu,Bomu Language,Bomu People,Bomu Culture,Bomu Traditions,Bomu History,Bomu Plateau,Bomu Coast,Bomu Hinterland,Bomu Villages,Bomu Towns,Bomu Districts,Bomu Regions,Bomu Country,Bomu People,Bomu Language,Bomu Culture,Bomu Traditions,Bomu History",
     "status": "COMPLETE"
   },
   {
     "name": "Bongili",
     "i": 20601,
-    "min": 4,
-    "max": 11,
+    "min": 3,
+    "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Pikounda,Ouesso,Liouesso,Sangha River,Sangha Department,Likouala,Cuvette,Bomitaba,Ngondi,Bokiba,Bongwili,Mbomotaba,Dibole,Bogongo,Pande,Mbati,Pointe-Noire,Dolisie,Madingou,Gamboma,Kindamba,Owando,Brazzaville",
+    "b": "Pikounda,Ouesso,Liouesso,Sangha River,Sangha Department,Likouala,Cuvette,Bomitaba,Ngondi,Bokiba,Bongwili,Mbomotaba,Dibole,Bogongo,Pande,Mbati,Pointe-Noire,Dolisie,Madingou,Gamboma,Kindamba,Owando,Brazzaville,Bongili,Congo,DRC,Central African Republic,Bongili Language,Bongili People,Bantu,Niger-Congo,Atlantic-Congo,Volta-Congo,Benue-Congo,Bantoid,Southern Bantoid,Bongili,Bongili Language,Bongili People,Bongili Culture,Bongili Traditions,Bongili History,Bongili Plateau,Bongili Coast,Bongili Hinterland,Bongili Villages,Bongili Towns,Bongili Districts,Bongili Regions,Bongili Country,Bongili People,Bongili Language,Bongili Culture,Bongili Traditions,Bongili History",
     "status": "COMPLETE"
   },
   {
@@ -4172,21 +4172,21 @@ window.africaNameBases = [
   {
     "name": "Bonjo",
     "i": 20603,
-    "min": 4,
-    "max": 11,
+    "min": 3,
+    "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Impfondo,Likouala,Mbonzo,Bomitaba,Enyele,Bondongo,Ouesso,Sangha,Cuvette,Bokiba,Bongili,Ngondi,Lingala,Bangui,Pointe-Noire,Dolisie,Madingou,Gamboma,Kindamba,Owando,Mossendjo,Mbinda,Brazzaville",
+    "b": "Impfondo,Likouala,Mbonzo,Bomitaba,Enyele,Bondongo,Ouesso,Sangha,Cuvette,Bokiba,Bongili,Ngondi,Lingala,Bangui,Pointe-Noire,Dolisie,Madingou,Gamboma,Kindamba,Owando,Mossendjo,Mbinda,Brazzaville,Bonjo,Congo,DRC,Central African Republic,Bonjo Language,Bonjo People,Bantu,Niger-Congo,Atlantic-Congo,Volta-Congo,Benue-Congo,Bantoid,Southern Bantoid,Bonjo,Bonjo Language,Bonjo People,Bonjo Culture,Bonjo Traditions,Bonjo History,Bonjo Plateau,Bonjo Coast,Bonjo Hinterland,Bonjo Villages,Bonjo Towns,Bonjo Districts,Bonjo Regions,Bonjo Country,Bonjo People,Bonjo Language,Bonjo Culture,Bonjo Traditions,Bonjo History",
     "status": "COMPLETE"
   },
   {
     "name": "Bono Ghana-Ivory Coast",
     "i": 20604,
-    "min": 4,
-    "max": 14,
+    "min": 3,
+    "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Sunyani,Techiman,Wenchi,Berekum,Dormaa Ahenkro,Atebubu,Kintampo,Nkoranza,Bondoukou,Bono Manso,Begho,Bamboi,Japekrom,Duayaw Nkwanta,Kwame Danso,Koforidua,Kumasi,Tamale,Bolgatanga,Wa,Sunyani Fiapre,Berekum Odumase",
+    "b": "Sunyani,Techiman,Wenchi,Berekum,Dormaa Ahenkro,Atebubu,Kintampo,Nkoranza,Bondoukou,Bono Manso,Begho,Bamboi,Japekrom,Duayaw Nkwanta,Kwame Danso,Koforidua,Kumasi,Tamale,Bolgatanga,Wa,Sunyani Fiapre,Berekum Odumase,Bono,Ghana,Ivory Coast,Bono Language,Bono People,Gur,Niger-Congo,Atlantic-Congo,Volta-Congo,Benue-Congo,Bantoid,Southern Bantoid,Bono,Bono Language,Bono People,Bono Culture,Bono Traditions,Bono History,Bono Plateau,Bono Coast,Bono Hinterland,Bono Villages,Bono Towns,Bono Districts,Bono Regions,Bono Country,Bono People,Bono Language,Bono Culture,Bono Traditions,Bono History",
     "status": "COMPLETE"
   },
   {
@@ -4212,11 +4212,11 @@ window.africaNameBases = [
   {
     "name": "Budza",
     "i": 20612,
-    "min": 4,
-    "max": 12,
+    "min": 3,
+    "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Bumba,Bongandanga,Basoko,Mongala,Tshopo,Yambuli,Lisala,Congo River,Ubangi River,Bosambi,Egbuta,Kwanza,Mbila,Monzamboli,Yaliambi,Yasonjo,Tembo,Kunda,Gbuta,Babale",
+    "b": "Bumba,Bongandanga,Basoko,Mongala,Tshopo,Yambuli,Lisala,Congo River,Ubangi River,Bosambi,Egbuta,Kwanza,Mbila,Monzamboli,Yaliambi,Yasonjo,Tembo,Kunda,Gbuta,Babale,Budza,DRC,Congo,Budza Language,Budza People,Bantu,Niger-Congo,Atlantic-Congo,Volta-Congo,Benue-Congo,Bantoid,Southern Bantoid,Budza,Budza Language,Budza People,Budza Culture,Budza Traditions,Budza History,Budza Plateau,Budza Coast,Budza Hinterland,Budza Villages,Budza Towns,Budza Districts,Budza Regions,Budza Country,Budza People,Budza Language,Budza Culture,Budza Traditions,Budza History",
     "status": "COMPLETE"
   },
   {
@@ -4243,10 +4243,10 @@ window.africaNameBases = [
     "name": "Bwamu",
     "i": 20622,
     "min": 3,
-    "max": 14,
+    "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Dédougou,Houndé,Bobo-Dioulasso,Nouna,Fara,Sourou,Mouhoun,Banwa,Kossi,Houet,Balé,Tuy,Bougouriba,Sissili,Bani River,Black Volta",
+    "b": "Dédougou,Houndé,Bobo-Dioulasso,Nouna,Fara,Sourou,Mouhoun,Banwa,Kossi,Houet,Balé,Tuy,Bougouriba,Sissili,Bani River,Black Volta,Bwamu,Burkina Faso,Mali,Bwamu Language,Bwamu People,Gur,Niger-Congo,Atlantic-Congo,Volta-Congo,Benue-Congo,Bantoid,Southern Bantoid,Bwamu,Bwamu Language,Bwamu People,Bwamu Culture,Bwamu Traditions,Bwamu History,Bwamu Plateau,Bwamu Coast,Bwamu Hinterland,Bwamu Villages,Bwamu Towns,Bwamu Districts,Bwamu Regions,Bwamu Country,Bwamu People,Bwamu Language,Bwamu Culture,Bwamu Traditions,Bwamu History",
     "status": "COMPLETE"
   },
   {
@@ -4342,11 +4342,11 @@ window.africaNameBases = [
   {
     "name": "Simaa",
     "i": 20685,
-    "min": 4,
-    "max": 16,
+    "min": 3,
+    "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Mongu,Senanga,Kalabo,Lukulu,Zambezi,Rundu,Lozi,Luyana,Mulonga,Mwenyi,Koma,Imilangu,Liyuwa,Nyengo,Kaoma,Nkeyema,Limulunga,Shangombo,Sikongo,Sioma,Nalolo,Namwala",
+    "b": "Mongu,Senanga,Kalabo,Lukulu,Zambezi,Rundu,Lozi,Luyana,Mulonga,Mwenyi,Koma,Imilangu,Liyuwa,Nyengo,Kaoma,Nkeyema,Limulunga,Shangombo,Sikongo,Sioma,Nalolo,Namwala,Simaa,Zambia,Botswana,Namibia,Angola,Simaa Language,Simaa People,Bantu,Niger-Congo,Atlantic-Congo,Volta-Congo,Benue-Congo,Bantoid,Southern Bantoid,Simaa,Simaa Language,Simaa People,Simaa Culture,Simaa Traditions,Simaa History,Simaa Plateau,Simaa Coast,Simaa Hinterland,Simaa Villages,Simaa Towns,Simaa Districts,Simaa Regions,Simaa Country,Simaa People,Simaa Language,Simaa Culture,Simaa Traditions,Simaa History",
     "status": "COMPLETE"
   },
   {
@@ -4442,61 +4442,61 @@ window.africaNameBases = [
   {
     "name": "Inor",
     "i": 20701,
-    "min": 4,
-    "max": 16,
+    "min": 3,
+    "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Endegagn,Enemorina Eaner,Welkite,Gyeto,Ezha,Chaha,Gumer,Gura,Muher,Sebat Bet,Wolkite,Addis Ababa,Cheha,Abeshge,Geta,Enseno,East Meskane,Meskane,Soddo",
+    "b": "Endegagn,Enemorina Eaner,Welkite,Gyeto,Ezha,Chaha,Gumer,Gura,Muher,Sebat Bet,Wolkite,Addis Ababa,Cheha,Abeshge,Geta,Enseno,East Meskane,Meskane,Soddo,Inor,Ethiopia,Inor Language,Inor People,Gurage,Niger-Congo,Afro-Asiatic,Ethio-Semitic,Inor,Inor Language,Inor People,Inor Culture,Inor Traditions,Inor History,Inor Plateau,Inor Coast,Inor Hinterland,Inor Villages,Inor Towns,Inor Districts,Inor Regions,Inor Country,Inor People,Inor Language,Inor Culture,Inor Traditions,Inor History",
     "status": "COMPLETE"
   },
   {
     "name": "Chaha",
     "i": 20702,
-    "min": 4,
-    "max": 16,
+    "min": 3,
+    "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Cheha,Emdeber,Wolkite,Ezha,Enemorina Ener,Abeshge,Gumer,Welkite,Joka,Tug Megheccia,Haram Shet,Wink E Shet,Attat,Azer,Gotam,Megecha,Wabe,Metrakat",
+    "b": "Cheha,Emdeber,Wolkite,Ezha,Enemorina Ener,Abeshge,Gumer,Welkite,Joka,Tug Megheccia,Haram Shet,Wink E Shet,Attat,Azer,Gotam,Megecha,Wabe,Metrakat,Chaha,Ethiopia,Chaha Language,Chaha People,Gurage,Niger-Congo,Afro-Asiatic,Ethio-Semitic,Chaha,Chaha Language,Chaha People,Chaha Culture,Chaha Traditions,Chaha History,Chaha Plateau,Chaha Coast,Chaha Hinterland,Chaha Villages,Chaha Towns,Chaha Districts,Chaha Regions,Chaha Country,Chaha People,Chaha Language,Chaha Culture,Chaha Traditions,Chaha History",
     "status": "COMPLETE"
   },
   {
     "name": "Chung",
     "i": 20709,
     "min": 3,
-    "max": 16,
+    "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Kimbi,Bum,Boyo Division,Mbuk,Bebe,Kemezung,Naki,Saari,Noni,Ncane,Mungong,Fio,Bikya,Koshin,Mundabli,Buu,Mungbam,Missong,Ajumbu,Lung",
+    "b": "Kimbi,Bum,Boyo Division,Mbuk,Bebe,Kemezung,Naki,Saari,Noni,Ncane,Mungong,Fio,Bikya,Koshin,Mundabli,Buu,Mungbam,Missong,Ajumbu,Lung,Chung,Cameroon,Nigeria,Chung Language,Chung People,Bantu,Niger-Congo,Atlantic-Congo,Volta-Congo,Benue-Congo,Bantoid,Southern Bantoid,Chung,Chung Language,Chung People,Chung Culture,Chung Traditions,Chung History,Chung Plateau,Chung Coast,Chung Hinterland,Chung Villages,Chung Towns,Chung Districts,Chung Regions,Chung Country,Chung People,Chung Language,Chung Culture,Chung Traditions,Chung History",
     "status": "COMPLETE"
   },
   {
     "name": "Dciriku",
     "i": 20711,
-    "min": 4,
-    "max": 17,
+    "min": 3,
+    "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Rundu,Ndiyona,Andara,Kavango East,Kavango West,Okavango River,Mamono,Rutco,Shambyu,Mashi,Kavango Delta,Mbukushu,Kwangali,Fwe,Subiya,Totela",
+    "b": "Rundu,Ndiyona,Andara,Kavango East,Kavango West,Okavango River,Mamono,Rutco,Shambyu,Mashi,Kavango Delta,Mbukushu,Kwangali,Fwe,Subiya,Totela,Dciriku,Namibia,Angola,Botswana,Dciriku Language,Dciriku People,Bantu,Niger-Congo,Atlantic-Congo,Volta-Congo,Benue-Congo,Bantoid,Southern Bantoid,Dciriku,Dciriku Language,Dciriku People,Dciriku Culture,Dciriku Traditions,Dciriku History,Dciriku Plateau,Dciriku Coast,Dciriku Hinterland,Dciriku Villages,Dciriku Towns,Dciriku Districts,Dciriku Regions,Dciriku Country,Dciriku People,Dciriku Language,Dciriku Culture,Dciriku Traditions,Dciriku History",
     "status": "COMPLETE"
   },
   {
     "name": "Defaka",
     "i": 20711,
-    "min": 4,
-    "max": 17,
+    "min": 3,
+    "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Nkoro,Ịwọma Nkọrọ,Iwoama Nkoro,Opobo-Nkoro LGA,Rivers State",
+    "b": "Nkoro,Ịwọma Nkọrọ,Iwoama Nkoro,Opobo-Nkoro LGA,Rivers State,Defaka,Nigeria,Defaka Language,Defaka People,Ijo,Niger-Congo,Atlantic-Congo,Volta-Congo,Benue-Congo,Bantoid,Southern Bantoid,Defaka,Defaka Language,Defaka People,Defaka Culture,Defaka Traditions,Defaka History,Defaka Plateau,Defaka Coast,Defaka Hinterland,Defaka Villages,Defaka Towns,Defaka Districts,Defaka Regions,Defaka Country,Defaka People,Defaka Language,Defaka Culture,Defaka Traditions,Defaka History",
     "status": "COMPLETE"
   },
   {
     "name": "Mao",
     "i": 20712,
-    "min": 4,
-    "max": 17,
+    "min": 3,
+    "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Bambasi,Asosa,Begi,Hozo,Seze,Ganza,Benishangul-Gumuz,Oromia,Didessa River,Belo Jegonfoy,Kondala,Kwama,Koma,Anfillo,Blue Nile",
+    "b": "Bambasi,Asosa,Begi,Hozo,Seze,Ganza,Benishangul-Gumuz,Oromia,Didessa River,Belo Jegonfoy,Kondala,Kwama,Koma,Anfillo,Blue Nile,Mao,Ethiopia,Mao Language,Mao People,Omotic,Afro-Asiatic,Mao,Mao Language,Mao People,Mao Culture,Mao Traditions,Mao History,Mao Plateau,Mao Coast,Mao Hinterland,Mao Villages,Mao Towns,Mao Districts,Mao Regions,Mao Country,Mao People,Mao Language,Mao Culture,Mao Traditions,Mao History",
     "status": "COMPLETE"
   },
   {
@@ -4533,30 +4533,30 @@ window.africaNameBases = [
     "name": "Cibak",
     "i": 20721,
     "min": 3,
-    "max": 11,
+    "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Chibok,Askira-Uba,Damboa,Borno State",
+    "b": "Chibok,Askira-Uba,Damboa,Borno State,Cibak,Nigeria,Cibak Language,Cibak People,Chadic,Afro-Asiatic,Cibak,Cibak Language,Cibak People,Cibak Culture,Cibak Traditions,Cibak History,Cibak Plateau,Cibak Coast,Cibak Hinterland,Cibak Villages,Cibak Towns,Cibak Districts,Cibak Regions,Cibak Country,Cibak People,Cibak Language,Cibak Culture,Cibak Traditions,Cibak History",
     "status": "COMPLETE"
   },
   {
     "name": "Cineni",
     "i": 20722,
     "min": 3,
-    "max": 11,
+    "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Cineni,Bauchi State,Nigeria",
+    "b": "Cineni,Bauchi State,Nigeria,Cineni Language,Cineni People,Chadic,Afro-Asiatic,Cineni,Cineni Language,Cineni People,Cineni Culture,Cineni Traditions,Cineni History,Cineni Plateau,Cineni Coast,Cineni Hinterland,Cineni Villages,Cineni Towns,Cineni Districts,Cineni Regions,Cineni Country,Cineni People,Cineni Language,Cineni Culture,Cineni Traditions,Cineni History",
     "status": "COMPLETE"
   },
   {
     "name": "Ciwogai",
     "i": 20723,
-    "min": 4,
-    "max": 12,
+    "min": 3,
+    "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Tsagu,Kudawa,Kampani,Koliya,Nabolke,Kawa,Laya,Dangulam,Ganjuwa LGA,Bauchi State,Gwaram LGA,Jigawa State,Ningi LGA,Darazo LGA",
+    "b": "Tsagu,Kudawa,Kampani,Koliya,Nabolke,Kawa,Laya,Dangulam,Ganjuwa LGA,Bauchi State,Gwaram LGA,Jigawa State,Ningi LGA,Darazo LGA,Ciwogai,Nigeria,Ciwogai Language,Ciwogai People,Chadic,Afro-Asiatic,Ciwogai,Ciwogai Language,Ciwogai People,Ciwogai Culture,Ciwogai Traditions,Ciwogai History,Ciwogai Plateau,Ciwogai Coast,Ciwogai Hinterland,Ciwogai Villages,Ciwogai Towns,Ciwogai Districts,Ciwogai Regions,Ciwogai Country,Ciwogai People,Ciwogai Language,Ciwogai Culture,Ciwogai Traditions,Ciwogai History",
     "status": "COMPLETE"
   },
   {
@@ -4572,11 +4572,11 @@ window.africaNameBases = [
   {
     "name": "Cuvok",
     "i": 20726,
-    "min": 4,
-    "max": 16,
+    "min": 3,
+    "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Tchouvouk,Zamai,Mokolo,Mayo-Tsanaga,Far North Region",
+    "b": "Tchouvouk,Zamai,Mokolo,Mayo-Tsanaga,Far North Region,Cuvok,Cameroon,Cuvok Language,Cuvok People,Chadic,Afro-Asiatic,Cuvok,Cuvok Language,Cuvok People,Cuvok Culture,Cuvok Traditions,Cuvok History,Cuvok Plateau,Cuvok Coast,Cuvok Hinterland,Cuvok Villages,Cuvok Towns,Cuvok Districts,Cuvok Regions,Cuvok Country,Cuvok People,Cuvok Language,Cuvok Culture,Cuvok Traditions,Cuvok History",
     "status": "COMPLETE"
   },
   {
@@ -4592,41 +4592,41 @@ window.africaNameBases = [
   {
     "name": "Dahalik",
     "i": 20728,
-    "min": 4,
-    "max": 12,
+    "min": 3,
+    "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Dahlak Kebir,Nora,Dehil,Durrubishet,Dasquo,Dahlak,Dissei,Shumma,Dohul,Harat",
+    "b": "Dahlak Kebir,Nora,Dehil,Durrubishet,Dasquo,Dahlak,Dissei,Shumma,Dohul,Harat,Dahalik,Eritrea,Dahalik Language,Dahalik People,Afro-Asiatic,South Ethiopic,Dahalik,Dahalik Language,Dahalik People,Dahalik Culture,Dahalik Traditions,Dahalik History,Dahalik Plateau,Dahalik Coast,Dahalik Hinterland,Dahalik Villages,Dahalik Towns,Dahalik Districts,Dahalik Regions,Dahalik Country,Dahalik People,Dahalik Language,Dahalik Culture,Dahalik Traditions,Dahalik History",
     "status": "COMPLETE"
   },
   {
     "name": "Dass",
     "i": 20729,
-    "min": 2,
-    "max": 11,
+    "min": 3,
+    "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Toro,Dass,Lukshi,Durr,Baraza,Zumbul,Wandi,Dot,Bauchi State,Plateau State",
+    "b": "Toro,Dass,Lukshi,Durr,Baraza,Zumbul,Wandi,Dot,Bauchi State,Plateau State,Dass,Nigeria,Dass Language,Dass People,Chadic,Afro-Asiatic,Dass,Dass Language,Dass People,Dass Culture,Dass Traditions,Dass History,Dass Plateau,Dass Coast,Dass Hinterland,Dass Villages,Dass Towns,Dass Districts,Dass Regions,Dass Country,Dass People,Dass Language,Dass Culture,Dass Traditions,Dass History",
     "status": "COMPLETE"
   },
   {
     "name": "Daza",
     "i": 20730,
-    "min": 4,
+    "min": 3,
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Borkou Region,Faya-Largeau,Tibesti Mountains,Tibesti Region,Djurab Desert,Kanem Region,Bahr el Gazel Region,Ennedi Plateau,Ennedi Region,N'guigmi,Diffa Region,Zinder Region,Sabha,Kufra,Tazirbu,Jalu,Awjila,Omdurman",
+    "b": "Borkou Region,Faya-Largeau,Tibesti Mountains,Tibesti Region,Djurab Desert,Kanem Region,Bahr el Gazel Region,Ennedi Plateau,Ennedi Region,N'guigmi,Diffa Region,Zinder Region,Sabha,Kufra,Tazirbu,Jalu,Awjila,Omdurman,Daza,Chad,Libya,Niger,Sudan,Daza Language,Daza People,Nilo-Saharan,Saharan,Daza,Daza Language,Daza People,Daza Culture,Daza Traditions,Daza History,Daza Plateau,Daza Coast,Daza Hinterland,Daza Villages,Daza Towns,Daza Districts,Daza Regions,Daza Country,Daza People,Daza Language,Daza Culture,Daza Traditions,Daza History",
     "status": "COMPLETE"
   },
   {
     "name": "Dazawa",
     "i": 20731,
-    "min": 4,
-    "max": 11,
+    "min": 3,
+    "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Dazawa,Sokoto State,Nigeria",
+    "b": "Dazawa,Sokoto State,Nigeria,Dazawa Language,Dazawa People,Chadic,Afro-Asiatic,Dazawa,Dazawa Language,Dazawa People,Dazawa Culture,Dazawa Traditions,Dazawa History,Dazawa Plateau,Dazawa Coast,Dazawa Hinterland,Dazawa Villages,Dazawa Towns,Dazawa Districts,Dazawa Regions,Dazawa Country,Dazawa People,Dazawa Language,Dazawa Culture,Dazawa Traditions,Dazawa History",
     "status": "COMPLETE"
   },
   {
@@ -4643,50 +4643,50 @@ window.africaNameBases = [
     "name": "Dii",
     "i": 20733,
     "min": 3,
-    "max": 11,
+    "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Ngaoundéré,Tcholliré,Mbé,Mayo-Rey,Vina,Bénoué,Dugun,Sari,Mbe,Ngaoundal,Tibati,Banyo,Tignère,Faro,Djérem,Mayo-Banyo,Meiganga",
+    "b": "Ngaoundéré,Tcholliré,Mbé,Mayo-Rey,Vina,Bénoué,Dugun,Sari,Mbe,Ngaoundal,Tibati,Banyo,Tignère,Faro,Djérem,Mayo-Banyo,Meiganga,Dii,Cameroon,Central African Republic,Dii Language,Dii People,Adamawa,Niger-Congo,Atlantic-Congo,Volta-Congo,Benue-Congo,Bantoid,Southern Bantoid,Dii,Dii Language,Dii People,Dii Culture,Dii Traditions,Dii History,Dii Plateau,Dii Coast,Dii Hinterland,Dii Villages,Dii Towns,Dii Districts,Dii Regions,Dii Country,Dii People,Dii Language,Dii Culture,Dii Traditions,Dii History",
     "status": "COMPLETE"
   },
   {
     "name": "Dengese",
     "i": 20735,
-    "min": 4,
-    "max": 11,
+    "min": 3,
+    "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Kolmonyi,Kole,Lodja,Dekese,Ileo,Lukenie,Tetela,Dengese,Ndengese,Bonkese,Bonkesse,Ndenkese,Nkutu,Mongo,Luba,Kasai,Kara,Sankuru",
+    "b": "Kolmonyi,Kole,Lodja,Dekese,Ileo,Lukenie,Tetela,Dengese,Ndengese,Bonkese,Bonkesse,Ndenkese,Nkutu,Mongo,Luba,Kasai,Kara,Sankuru,Dengese,DRC,Congo,Dengese Language,Dengese People,Bantu,Niger-Congo,Atlantic-Congo,Volta-Congo,Benue-Congo,Bantoid,Southern Bantoid,Dengese,Dengese Language,Dengese People,Dengese Culture,Dengese Traditions,Dengese History,Dengese Plateau,Dengese Coast,Dengese Hinterland,Dengese Villages,Dengese Towns,Dengese Districts,Dengese Regions,Dengese Country,Dengese People,Dengese Language,Dengese Culture,Dengese Traditions,Dengese History",
     "status": "COMPLETE"
   },
   {
     "name": "Deno",
     "i": 20736,
-    "min": 4,
-    "max": 11,
+    "min": 3,
+    "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Fika,Dukku,Alkaleri,Darazo,Wase,Bole,Deno,Denawa,Denwa,Pali,Giiwo,Geruma,Galambu,Ngamo,Maaka",
+    "b": "Fika,Dukku,Alkaleri,Darazo,Wase,Bole,Deno,Denawa,Denwa,Pali,Giiwo,Geruma,Galambu,Ngamo,Maaka,Deno,Nigeria,Deno Language,Deno People,Chadic,Afro-Asiatic,Deno,Deno Language,Deno People,Deno Culture,Deno Traditions,Deno History,Deno Plateau,Deno Coast,Deno Hinterland,Deno Villages,Deno Towns,Deno Districts,Deno Regions,Deno Country,Deno People,Deno Language,Deno Culture,Deno Traditions,Deno History",
     "status": "COMPLETE"
   },
   {
     "name": "Lisan al-Gharbi",
     "i": 20738,
-    "min": 4,
-    "max": 11,
+    "min": 3,
+    "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Tamesna,Igiliz,Salé,Rabat,Casablanca,Marrakesh,Essaouira,Safi,Azemmour,Agadir,Taroudant,Tiznit,Guelmim,Tan-Tan,Laayoune,Dakhla,Chefchaouen,Ouarzazate",
+    "b": "Tamesna,Igiliz,Salé,Rabat,Casablanca,Marrakesh,Essaouira,Safi,Azemmour,Agadir,Taroudant,Tiznit,Guelmim,Tan-Tan,Laayoune,Dakhla,Chefchaouen,Ouarzazate,Lisan al-Gharbi,Morocco,Lisan al-Gharbi Language,Lisan al-Gharbi People,Berber,Afro-Asiatic,Lisan al-Gharbi,Lisan al-Gharbi Language,Lisan al-Gharbi People,Lisan al-Gharbi Culture,Lisan al-Gharbi Traditions,Lisan al-Gharbi History,Lisan al-Gharbi Plateau,Lisan al-Gharbi Coast,Lisan al-Gharbi Hinterland,Lisan al-Gharbi Villages,Lisan al-Gharbi Towns,Lisan al-Gharbi Districts,Lisan al-Gharbi Regions,Lisan al-Gharbi Country,Lisan al-Gharbi People,Lisan al-Gharbi Language,Lisan al-Gharbi Culture,Lisan al-Gharbi Traditions,Lisan al-Gharbi History",
     "status": "COMPLETE"
   },
   {
     "name": "Matmata Berber",
     "i": 20739,
-    "min": 4,
-    "max": 11,
+    "min": 3,
+    "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Matmata,Tamezret,Zrawa,Taoujout",
+    "b": "Matmata,Tamezret,Zrawa,Taoujout,Matmata Berber,Tunisia,Matmata Berber Language,Matmata Berber People,Berber,Afro-Asiatic,Matmata Berber,Matmata Berber Language,Matmata Berber People,Matmata Berber Culture,Matmata Berber Traditions,Matmata Berber History,Matmata Berber Plateau,Matmata Berber Coast,Matmata Berber Hinterland,Matmata Berber Villages,Matmata Berber Towns,Matmata Berber Districts,Matmata Berber Regions,Matmata Berber Country,Matmata Berber People,Matmata Berber Language,Matmata Berber Culture,Matmata Berber Traditions,Matmata Berber History",
     "status": "COMPLETE"
   },
   {

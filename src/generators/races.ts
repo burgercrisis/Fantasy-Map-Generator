@@ -1744,9 +1744,9 @@ function assignRaces(): void {
     const cells = packAny.cells;
     const { races } = packAny;
     const raceByCell = cells.race;
-    const countsByState: Record<number, Record<number, number>[]> = [];
-    const countsByProvince: Record<number, Record<number, number>[]> = [];
-    const countsByReligion: Record<number, Record<number, number>[]> = [];
+    const countsByState: Record<number, Record<number, number>> = {};
+    const countsByProvince: Record<number, Record<number, number>> = {};
+    const countsByReligion: Record<number, Record<number, number>> = {};
 
     for (const i of cells.i) {
       if (cells.h && cells.h[i] < 20) continue;
