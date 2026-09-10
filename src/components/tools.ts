@@ -4,8 +4,8 @@ import { tip } from "@/components/tooltips";
 import { Controllers } from "@/controllers";
 import { Emblems } from "@/generators/emblems-generator";
 import { Population } from "@/generators/population-generator";
-import { unfog } from "@/renderers/overlays/fogging";
 import { drawRaces } from "@/renderers/draw-races";
+import { unfog } from "@/renderers/overlays/fogging";
 import { ensureEl, gauss, isCtrlClick } from "@/utils";
 
 declare global {
@@ -15,8 +15,6 @@ declare global {
   var refreshAllEditors: (() => void) | undefined;
   var toggleRaces: ((event?: Event) => void) | undefined;
   var editRaces: (() => void) | undefined;
-  var drawRaces: (() => void) | undefined;
-  var regenerateRaces: (() => void) | undefined;
 }
 
 ensureEl("toolsContent").addEventListener("click", event => {
@@ -304,7 +302,7 @@ window.toggleRaces = () => {
 };
 window.editRaces = () => window.Controllers.RacesEditor.open();
 window.drawRaces = drawRaces;
-window.regenerateRaces = regenerateRaces;
+(window as any).regenerateRaces = regenerateRaces;
 
 // Refresh all open editors (faithful to original editors.js)
 window.refreshAllEditors = (): void => {
