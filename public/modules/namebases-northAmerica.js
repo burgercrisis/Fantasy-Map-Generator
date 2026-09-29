@@ -580,16 +580,6 @@ window.northAmericaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Itza",
-    "i": 1988,
-    "min": 6,
-    "max": 17,
-    "d": "",
-    "m": 0.27,
-    "b": "Flores,San Andres,San Benito,La Libertad,Melchor de Mencos,Poptun,Dolores,San Luis,El Remate,San Jose,San Antonio",
-    "status": "WAITING"
-  },
-  {
     "name": "Cree",
     "i": 2069,
     "min": 3,
@@ -1106,16 +1096,6 @@ window.northAmericaNameBases = [
     "d": "lnrt",
     "m": 0.52,
     "b": "Coban,San Pedro Carcha,San Juan Chamelco,Cahabon,Senahu,Lanquin,Chisec,Chahal,Fray Bartolome,Panzos,Raxruha,Poptun,San Luis,Sayaxche,El Estor,Livingston,Ixcán,Playa Grande,San Pedro Columbia,Crique Sarco,Dolores,Punta Gorda,Blue Creek,Indian Creek,Santa Cruz",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Tzeltal",
-    "i": 8126,
-    "min": 5,
-    "max": 19,
-    "d": "",
-    "m": 0.27,
-    "b": "Ocosingo,Altamirano,Huixtan,Tenejapa,Yajalon,Chanal,Sitala,Amatenango del Valle,Chilon,San Juan Cancuc,Oxchuc,Aguacatenango,Bachajon,Guaquitepec,Sibakja,Cancuc,Tzajala,Tenango,Nichinat,Kotolte,Tzajalchen,Matzam,Yashanal,Chixtontic,Chilolja,Nichteel San Antonio,Chancolom,Ococh,Sibanilja Pocolum,Chacoma,Majosik,Jomanichim",
     "status": "COMPLETE"
   },
   {
@@ -1787,16 +1767,6 @@ window.northAmericaNameBases = [
     "m": 0.88,
     "b": "Ixtlan de Juarez,San Pablo Macuiltianguis,San Juan Yaehe,San Miguel Yaxhuahi,Santa Catarina Yaxhui,San Andres Yaa,Santiago Xiacui,Santo Domingo Cacahuatepec,San Juan Yatzona,San Felipe Usila,Valle Nacional,San Jose Independencia,San Pedro Cajonos,San Andres Solaga,Santiago Camotlan,Santa Maria Zoquitlan,San Mateo Yetla,San Lucas Ojitlan,San Francisco Cajonos,Santa Maria Yalina,San Pablo Yaganiza,Villa Hidalgo Yalalag,Tanetze de Zaragoza,Santiago Yaveo,Santa Ana Yareni,San Juan Atepec,San Pedro Yolox,Santiago Comaltepec",
     "status": "COMPLETE"
-  },
-  {
-    "name": "Tlapanec (Me'phaa)",
-    "i": 200910,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Malinaltepec,Tlapa de Comonfort,Zilacayotitlan,Atlamajalcingo del Monte,Alcozauca de Guerrero,Xalpatlahuac,Zapotitlan Tablas,Metlatonoc,Atlixtac,Copanatoyac,Huamuxtitlan,Ahuehuetzingo,Xochihuehuetlan,Cualac,Acatepec,Zitlala,Chilapa de Alvarez,Ahuacuotzingo,Quechultenango,Iguala",
-    "status": "WAITING"
   },
   {
     "name": "Tojol-ab'al",

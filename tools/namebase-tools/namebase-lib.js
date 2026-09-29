@@ -597,6 +597,54 @@ function continentMismatches(entries, opts) {
   return out;
 }
 
+/**
+ * Same-language entries where the smaller one's seeds are largely contained in
+ * the larger one's.
+ *
+ * nearIdenticalPairs cannot see these: it compares set overlap, so a 60-seed
+ * entry inside a 132-seed twin scores Jaccard 0.45 and passes, and a 25-seed
+ * stub beside a 333-seed entry scores 0.05. Measured: 83 such pairs, including
+ * Tsonga (60/60 inside a 132-seed twin), Hausa (98%), Igbo (95%), Xhosa (93%),
+ * and four entries that are 100% contained.
+ *
+ * Same name AND mostly-contained is not a coincidence. Different names with the
+ * same property are usually dialect kin, which is why the name has to match.
+ *
+ * @param {object[]} entries
+ * @param {{minSeeds?: number, share?: number}} [opts]
+ * @returns {Array<{big: object, small: object, ratio: number, inBig: number, total: number}>}
+ */
+function subsetDuplicates(entries, opts) {
+  const minSeeds = (opts && opts.minSeeds) || 5;
+  const shareNeeded = (opts && opts.share) || 0.7;
+
+  const byName = new Map();
+  for (const e of entries) {
+    const k = alpha(e.name || "");
+    if (!k) continue;
+    if (!byName.has(k)) byName.set(k, []);
+    byName.get(k).push(e);
+  }
+
+  const out = [];
+  for (const [, group] of byName) {
+    if (group.length < 2) continue;
+    group.sort((a, b) => seedCount(b) - seedCount(a));
+    const bigSeeds = new Set(seedsOf(group[0]));
+    for (const small of group.slice(1)) {
+      const ss = seedsOf(small);
+      if (ss.length < minSeeds) continue;
+      let inBig = 0;
+      for (const s of ss) if (bigSeeds.has(s)) inBig++;
+      const ratio = inBig / ss.length;
+      if (ratio >= shareNeeded) {
+        out.push({big: group[0], small, ratio, inBig, total: ss.length});
+      }
+    }
+  }
+  return out;
+}
+
 /** Human label for an entry, used in all report output. */
 function labelOf(entry) {
   return `${entry.name} (i=${entry.i})`;
@@ -696,5 +744,6 @@ module.exports = {
   nearIdenticalPairs,
   findLongSharedRuns,
   continentMismatches,
+  subsetDuplicates,
   labelOf
 };

@@ -240,16 +240,6 @@ window.southAmericaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Warao",
-    "i": 20077,
-    "min": 4,
-    "max": 16,
-    "d": "",
-    "m": 0,
-    "b": "Tucupita,AntonioDiaz,Nabaruto,Jobure,Guayo,SantaCatalina,SanRafael,Araguabisi,Barranquita,ElTriunfo,LaHorqueta,Macareo,Manacal,Morichalito,Paloma,PasoNuevo,Pedernales,PuntaPedernales,SantaIsabel,Soledad,Tucupido,Voladora,Winikina,Yanamo,Guiniquina,CañoGuara,BocaGrande,CañoMontero,Cascajal,Mariusa,Curiapo,Manamo,Ajíes,BarrancasDelOrinoco,SanRafaelDeMay,Claret",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Cofán (dedicated)",
     "i": 20189,
     "min": 4,
@@ -737,16 +727,6 @@ window.southAmericaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Satipo,PuertoOcopa,Tambo,RíoNegro,Kivinaki,Pichari,Kepashiato,Sivaki,Pangoa,Tsanquiato,Samaniato,Shimaa,Kiteni,Palmapampa,SanMiguel,Mazamari,Uchiza,Tocache,Campanilla,SanMartínDePangoa,LaMerced,Oxapampa,VillaRica,PuertoBermúdez,Pichanaki,RíoTambo,Perené,SantaAna,Rivera,PuertoPrado,Quimbiri,Anapati,Pósohue,Tsiriari,Cutivireni,Cañete",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Aymara",
-    "i": 5630,
-    "min": 4,
-    "max": 12,
-    "d": "lnrt",
-    "m": 0,
-    "b": "LaPaz,ElAlto,Cochabamba,Oruro,Potosí,Sucre,Tarija,Quillacollo,Sacaba,Vinto,Tiquipaya,Colomi,Patacamaya,Viacha,Achacachi,Warisata,Huarina,Desaguadero,Guaqui,Tiwanaku,Laja,SicaSica,Calamarca,Colquencha,Collana,Batallas,Pucarani,Copacabana,Yunguyo,Juli,Ilave,Puno,Acora,Chucuito,Huancané,Moho,Conima,Tilali,Juliaca,Arica,Putina,Ayaviri,Azángaro,Lampa",
     "status": "COMPLETE"
   },
   {

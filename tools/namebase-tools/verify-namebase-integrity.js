@@ -70,6 +70,7 @@ const {
   detectSelfNamedSeeds,
   nearIdenticalPairs,
   continentMismatches,
+  subsetDuplicates,
   alpha,
   labelOf
 } = require("./namebase-lib");
@@ -445,6 +446,25 @@ for (const [e, info] of continentMismatches(allEntries, {minSeeds: 6, share: 0.7
     `${labelOf(e)}: ${Math.round(info.share * 100)}% of its seeds are used overwhelmingly by ` +
       `${info.to} entries, e.g. ${info.examples.slice(0, 3).join(", ")}. ` +
       `Either the entry or the file it is in is wrong.`
+  );
+}
+
+// ---------------------------------------------------------------------------
+// W007 - same name, smaller entry contained in the larger
+// ---------------------------------------------------------------------------
+//
+// W005 compares set overlap, so it is blind to a 60-seed entry sitting inside a
+// 132-seed twin of the same language: that scores Jaccard 0.45. The european
+// agent spotted the case by hand - two Occitan entries, 25 seeds and 333, same
+// name, Jaccard 0.05. Measured across the dataset there are 83 such pairs,
+// four of them 100% contained.
+
+for (const p of subsetDuplicates(allEntries, {minSeeds: 5, share: 0.7})) {
+  warn(
+    "W007",
+    `namebases-${p.small.__continent}.js`,
+    `${labelOf(p.small)} has ${p.total} seeds and ${p.inBig} of them are already in ` +
+      `${labelOf(p.big)} (${Math.round(p.ratio * 100)}%). Delete the smaller.`
   );
 }
 

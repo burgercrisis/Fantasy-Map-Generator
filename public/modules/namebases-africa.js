@@ -580,16 +580,6 @@ window.africaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Naro",
-    "i": 632,
-    "min": 3,
-    "max": 13,
-    "d": "lnrt",
-    "m": 0.1,
-    "b": "Ghanzi Township,Ghanzi Farm Block,Ghanzi Farms,D'kar Village,Ncoakhoe,Khoisan,Basarwa,Bushmen,Tshu-Khwe,Tshu-Kwe Languages,Kalahari Khoe,Resettlement Program,Old Xade,Kg'oesakene,Kaudwane,Kweneng District,Gope,Metsiamanong,Mothomelo,Molapo,Gugama,New Xadi,Forced Relocation,Diamond Mining,De Beers,Survival International,Hate Crime,Ethnic Cleansing,Waterholes,Hunting,Gathering,Bands,Band Clusters,Tsou-ba,Huts,Seasonal Movement,Gereformeerde Kerk,Mission Station,Agricultural Techniques,Pastoral Techniques,Christian Teaching,Church Board,Nharo People,Dcaro Group,Ostrich,Danghaderi,Takadiri,Musical Bow,Good Luck,Hunting Celebration,Qose Qarega,Cultural Events,Dqae Qare San Lodge,John Brearley,Enamelled Basin,Resonator,!am !goma,!goma n!are,Foot,Khoisan Orthography,Karl Richard Lepsius,Rhenish Mission Society,RMS,Standard Khoisan System,Four Click Consonants,Dictionaries,Setswana,English,Thuto Isago Trust,Education Project,Cattle Posts,Boer Farms,Boarding Hostel,Primary School,G/ui,G//ana,Batawana,Subsistence Herders,Commercial Cattle Ranchers,Workers,Farms,South Africa,Resettlement Sites,Permanent Water Supply,Tswana Farmers,Ranger Patrols,Government,Voluntary Relocations,Western CKGR,Resettlement Camp,Population Census,Government Services,Healthcare,Community Development,San Peoples,G/ui (Dcuikhoe),G//ana (Dxanakhoe),Sekgalagadi,G/ui (Dcui),Gǁana (Dxana),Institutionalized Orthography,Tswana Residents,Entrepreneurs,Extension Workers,Japanese Anthropologist,Junko Maruyama,Anthropological Study,Social Relationships,Relocates,Coping,New Situation,Environment,G/ui Population,G//ana Population,Quarter,Census,Identity Flexible,Khoe-Kwadi,Kalahari (Tshu-Khwe),ISO 639-3:nhr,Glottolog:naro124,ELP:N,Trade Language,Endangered Languages Project,Naron,/Ai San,Nharon,Nhauru,Nhaurun,||Aikwe,|Aikwe,||Ai||en,||Aisan,||Ai||e,Qoo,Gaa,Ts'ao,Grootelaagte,Kanagas,Commercial Farms,Sociolinguistic Perspective,Central Kalahari Khoe,!Xoon,Tshasi,Khwe-dam,Socio-economic,Region,District,Regional,Speech Community,Remarks,Number,Sub-family,Central,Shua,Cire-Cire,Ju|'hoa,Ju,!Xoon (Tshasi),!Xóõ,Ju|'hoan,Nama,Setswana Names,Sekgothu,Sekhikwe,Seqhanakwe,Orthography,Kroenlein,Haacke,Eiseb,Grammar Guides,Tsonope,Books,Texts,Primary Schools,Namibian Language Policy,Mother Tongue,Grades 1-3,Khoekhoegowab,Herero,Banderu,Bantu Ethnic Groups,German Colonial Repression,Early 1900s,Molosiwa,Smieja,Dual Lingual Situation,Black Khoe,Darkish Skin,Shekgalagari Cultural Ways,Threat,Currency,Practical Orthography,International Phonetic Association,Lexical Database,Descriptive Studies,Socio-historical Studies,Tanaka,Linguistic Anthropological Works,Sugawara,Takada,Lives,Khwe-speaking Communities,||Ganda,Pronounced,Northwestern Kalahari Khoe,Geographical Location,Shared History,Thousands of Years,Main Khoe Communities,Current Socio-economic,Neutralize Differences,Population Estimates,Andy Chebanne,A SOCIOLINGUISTIC PERSPECTIVE OF THE INDIGENOUS COMMUNITIES OF BOTSWANA,DOI",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Kru Pidgin English",
     "i": 666,
     "min": 3,
@@ -790,16 +780,6 @@ window.africaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Amharic",
-    "i": 872,
-    "min": 25,
-    "max": 80,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Addis Ababa,Adama,Bahir Dar,Gondar,Mekele,Awasa,Jimma,Dessie,Debre Markos,Harar,Jijiga,Hawassa,Shashamane,Arba Minch,Wolaita Sodo,Asella,Nekemte,Debre Birhan,Ambo,Fiche,Sodo,Gambela,Axum,Lalibela,Debre Tabor,Weldiya,Kombolcha,Debre Zeit,Bishoftu,Hurso,Dire Dawa",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Argobba",
     "i": 873,
     "min": 3,
@@ -907,16 +887,6 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Kutu,Oshwe,Bokoro,Semendua,Vanga,Kikwit,Idiofa,Kwamouth,Bolobo,Yumbi,Kiri,Cuvette centrale congolaise,Congo River Basin,Lukenie River,Kamtsha River,Kwilu Province,West-Coastal Bantu,Kinshasa,Kwango River,Kwilu River,Kasai Rivers,Biboko Island,King Leopold II,Rubber Plantations,Ivory Resources,Continued,Leopold II,Patronage,Rubber,Ivory,Phonetic Phonological Research,Mai-Ndombe,Transition Zone,Moist Broadleaf Rainforest,Shrubland,Savannah,Least Well-surveyed Areas,Planet,Bantu Varieties,Guthrie Zones B,C,H,West-Coastal Bantu Homeland,Hot Spot,Phonological Diversity,Hunter-gatherer Twa Communities,Eastern,Northern Forests,Severely Endangered,Social Stigma,National,Regional Linguae Francae,Doctoral Project,Phonetic Data,May,July 2021,Provincial Capital,Multilingual City,Unofficial Economic Capital,Second Most Multilingual City,Recording Conditions,Sub-optimal,Preliminary Analysis,OSF Link,Sound Files,Spectrograms,Oscillograms,March 2024,Labial-velars,Trilling/Flapping Realisations,Phonetic Phonological Variation,Earlier Stages,Greater Linguistic Diversity,Phonetic Possibilities,Language-bound Outcomes,Traditional Sound Change Rules,Language Contact,Highly Multilingual Contexts,Documentation,Description,Bantu Lects,Southern Mai-Ndombe,ISO 639-3:skt,Glottocode:saka1287,Indigenous,WCB,Bantu Phylogeny,Grollemund 2015,Pacchiarotti 2019,Koile 2022,Continuum,Closely Related Varieties,Mutual Intelligibility,Regiolects,Kinzinzale,Tolo,Mongobele,Kilima,Matabisi 1979,Tylleskär 1987,Bontenge 1995,Bokwankon Bosonkie 1997,WCB Varieties,B82,B822,Maho 2009,Glottocode:boma1251,ISO 639-3:boh,Hammarström 2022,Boma Yumu,Bantu B80z,Conflating,Two Different Languages,Stappers 1986,Outline,Bobala,Mbali,Eboli,Recent Research,Maselli n.d.a.,Linguistic Classification,Niger-Congo,Atlantic-Congo,Volta-Congo,Benue-Congo,Bantoid,Southern Bantoid,Bantu,Zone C,C.34,Glottolog:saka1287,Lesa,Odual,Saka,Sakata,Congo,Democratic Republic of the Congo,CD,Estimated 300,AES 6a,Vigorous Status,Stable Indigenous Language,Home,Community,Cultural Contexts,Lacks Institutional Support,Formal Education,Official Recognition,Tropical Semi-humid,Savannahs,Gallery Forests,Isosceles Triangle,Length,Width,Seven Autonomous Chiefdoms,Idju,Mbantin,Lenvia Nord,Batere,Lenvia-Sud,Nduele,Average 4,Clustered Near Lakes,Rivers,Non-mobile,Sedentary Patterns,Territorial Boundaries,Kin-related Compounds,Schools,Dispensaries,Tropical Semi-humid Climate,Annual Precipitation,Slash-and-burn Agriculture,Cassava,Maize,Yams,Beans,Plantains,Peanuts,Oil Palm,Rice,Extensive Fishing,Riverine Transportation,Dugout Canoes,Agricultural Coordination,Fishing Expeditions,Men,Communal Rituals,Land Fertility,Harvests,Dialects,Bantu C34 Group,C34A,Wadia,Kidjia,C34B,Kibay,Kibai,C34C,Ketu,Batow Subgroups,C34D,Core Varieties,Dialect Continuum,Divergence,Lexicon,Phonology,Regional Identities,Geographically,Central Variety,Northern,Central Areas,South of Lake,Southern Adjacent Zones,Distribution,Local River Systems,Mfimi-Lukenie Complex,Phonological Isogloss,Northern Varieties,Variable Southern Ones,Socially,Kenkare,Village Communities,Kinship-based Identities,Exogamous Practices,Chiefdoms,No Standardized Dialect,Speakers,General Autonym,Language as a Whole,Tuku Dialect,Particularly Associated,Batow Subgroup,Localized Clan Affiliations,Southern Villages,Origins,Proto-Bantu,Ancestral Language,Bantu Family,Cameroon-Nigeria Border Region,West-Central Africa,Northwest Bantu Branch,Emerged,Migrations,Southwestern DRC,Savanna Corridors,Congo Rainforest,Early Settlements,Mai-Ndombe Province Area,Linguistic Diversification,Proto-Bantu Forms,Core Bantu Noun Class Systems,Regional Innovations,kp,gb,Atypical,Core Bantu Phonology,Historical Coarticulation,Assimilation Processes,Velar Stops,k,g,Labial Elements,Bantu Comparative Studies,Early Contacts,Non-Bantu Languages,Macro-Sudan Belt Linguistic Area,Northwest Bantu Dispersals,Double Articulations,Common,Remnants,Greater Phonological Diversity,Region's Prehistory,Pre-colonial Written Records,Oral Myths,Document,European Contact,Inferred,Comparative Bantu Linguistics,First External Documentation,Colonial Era,French Baptist Missionaries,Late 19th,Early 20th Century,Western DRC,Rudimentary Linguistic Recordings,Evangelization Efforts,Limited Lexical Influences,Trade Pidgins,Belgian,French Colonial Traders,Core Structure,Stable,Relative Isolation,Lukenie-Kasai Interfluve Region",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Zulu",
-    "i": 986,
-    "min": 0,
-    "max": 29,
-    "d": "lnrt",
-    "m": 2,
-    "b": "Durban,Empangeni,Ladysmith,Newcastle,Vryheid,Ulundi,Melmoth,Nongoma,Mkuze,Pongola,Glencoe,Dundee,Eshowe,Nkandla,Mtubatuba,Hlabisa,Ndwedwe,Maphumulo,KwaMashu,Umlazi,Inanda,Clermont,Stanger,Tongaat,Verulam,Amanzimtoti,Pietermaritzburg,Paulpietersburg",
     "status": "COMPLETE"
   },
   {
@@ -1197,16 +1167,6 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Tengréla,Tiékouna,Sitiéna,Karfiguéla,Kiribina,Diongolo,Siniéna,Banfora,Comoé Province,Burkina Faso,Ferké,Bobo-Dioulasso,Banfora Road,Karaboro,Western Karaboro,Syer,Tenyer,Dialects,Niger-Congo,Atlantic-Congo,Gur,Kza,kza,Syer (Tenyer),Gur Monographs,Klaudia Dombrowsky-Hahn,Noun Class Systems,North Central Gur Languages,Köppe Verlag,African Studies,Relative Clauses,Adjoined Correlative Construction,Preposed RCs,Postposed RCs,Correlative Construction,Relative Morphemes,Interrogative Morphemes,Paratactic Construction,Definiteness,Conditional RCs,Fronting Strategy,Resumptive Pronoun,Syntactic Function,NP Coreference,Grammaticalization,Deictic Verbs,Come,Go,Itive,Ventive,Serial Verb Constructions,Discourse Connectors,Tense-Aspect,Intentional,Prospective,Stative Verbs,Aspectual Category,Purposiveness,Unexpectedness,Culmination,Foregrounding,Spatial Motion,Temporal Motion,Perspective Shift,Narrative Texts,Spatial Deixis,Communication,Speech Event,Motion Toward,Away From,Deictic Center,Polygrammaticalization,Typological Patterns,Senufo Languages,Grammar,Discourse,Gender,Deriflection,Noun Classes,Alliterative Alignment,Nominal Form,Agreement,Güldemann,Fiedler,Agreement Classes,Nominal Form Classes",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Tiv",
-    "i": 1501,
-    "min": 3,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Makurdi,Gboko,Otukpo,Katsina-Ala,Zaki Biam,Vandeikya,Adikpo,Aliade,Ukum,Kwande,Logo,Konshisha,Guma,Buruku,Ushongo,Tarka,Gwer,Lafia,Awe,Doma,Nassarawa,Sati,Abwa,Agasha,Naka",
     "status": "COMPLETE"
   },
   {
@@ -2690,16 +2650,6 @@ window.africaNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "Sotho",
-    "i": 11331,
-    "min": 3,
-    "max": 13,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Maseru,Mafeteng,Quthing,Teyateyaneng,Butha-Buthe,Leribe,Maputsoe,Mazenod,Thaba-Tseka,Katse,Mokhotlong,Phamong,Sehonghong,Lesotho,South Africa,Free State,Gauteng,Eastern Cape,Western Cape,Bloemfontein,Welkom,Bethlehem,Kroonstad,Sasolburg,Virginia,Wesselsbron,Phuthaditjhaba,Senekal,Ficksburg,Ladybrand,Clocolan,Marquard,Winburg,Theunissen,Henneman,Hoopstad,Bultfontein,Botshabelo,Thaba Nchu,Dewetsdorp,Wepener,Van Stadensrus,Zastron,Rouxville,Smithfield,Bethulie,Gariepdam,Aliwal North,Barkly East,Indwe,Molteno,Steynsburg,Colesberg,Ramabanta,Ha Makoae,Thaba Bosiu,Mapoteng,Sehlabathebe,Ha Khojane,Ha Seshoare,Sani Pass,Oxbow,Liphakeng,Mpharane,Mount Moorosi,Malealea,Tsakholo,Mpiti,Mekuatling,Machache,Kubung,Mpofozi,Ha Mabote,Ha Mahlehle,Mabotse,Likalaneng,Ha Lentsoenyane,Pitseng,Tsoelike,Khohlong,Tlali-Mathee,Ha Tume,Ha Mokhethi,Ha Rankelema,Ha Petje,Ha Sekoka,Ha Mpeli,Ha Mantsebo,Ha Ts'epong,Ha Hlalele,Ha Ntsane,Ha Sello,Ha Ntsiu,Ha Mosiuoa,Ha Lefotha,Ha Mokotjo,Ha Mosenyehi,Motetema,Mafikeng,Odendaalsrus,Allanridge,Hennenman,Rosendal,Lindley,Paul Roux,Reitz,Frankfort,Villiers,Heidelberg",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Gude",
     "i": 11332,
     "min": 4,
@@ -2837,16 +2787,6 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0.1,
     "b": "Mandara Mountains,Gwoza Hills,Borno State,Far North Region",
-    "status": "WAITING"
-  },
-  {
-    "name": "Buwal",
-    "i": 238,
-    "min": 3,
-    "max": 13,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Far North Province,Mayo-Tsanaga Division,Mokolo Subdivision,Canton Matakam-South,Matakam-South,Cuvok,Mafa,Mefele,Daba,Hina,Mina,Gavar,Gawar,Gavar-Fulfulde,Mse Mountain,Mandara Mountains,Bual,Afro-Asiatic,Chadic,Biu-Mandara,Wandala-Mafa,Wandala,A.4",
     "status": "WAITING"
   },
   {
@@ -3027,16 +2967,6 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Ouagadougou,Koudougou,Bobo-Dioulasso,Banfora,Kaya,Fada N'Gourma,Gorom-Gorom,Dori,Ouahigouya,Koupéla,Gaoua,Bittou,Ziniaré,Kongoussi,RéOuagadougou,Ré,Burkina Faso,Mossi,Mossi Language,Mossi People,Bantu,Niger-Congo,Atlantic-Congo,Volta-Congo,Benue-Congo,Bantoid,Southern Bantoid",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Kinyarwanda",
-    "i": 13749,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Kigali,Gisenyi,Ruhengeri,Butare,Muhanga,Byumba,Cyangugu,Nyanza,Rwamagana,Kibungo,Huye,Gatsibo,Kayonza,Nyamurenza,Nzozi,Rubanda,Rugombo,Rutana,Rubavu,Musanze,Burera,Gakenke,Gitarama,Kabuye,Kibuye",
     "status": "COMPLETE"
   },
   {
@@ -3340,16 +3270,6 @@ window.africaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Luganda",
-    "i": 14164,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Kampala,Entebbe,Jinja,Masaka,Mbarara,Gulu,Lira,Mbale,Tororo,Kasese,Mityana,Mubende,Kyotera,Lusoga,Mayuge,Buvuma,Namutumba,Kaliro,Iganga,Wakiso,Mukono,Kibaale,Ibanda,Ntungamo,Bugiri,Rukungiri",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Sango",
     "i": 14279,
     "min": 4,
@@ -3387,16 +3307,6 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Cape Coast,Saltpond,Elmina,Sekondi-Takoradi,Agona Swedru,Mankessim,Winneba,Shama,Apam,Komenda,Kasoa,Anomabo,Effutu,Assin Foso,Abura-Dunkwa,Jomoro,Esiama,Aiyinase,Ankobra,Bekwai,Dixcove,Busua,Axim,Half Assini,New Edubiase",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Angolar Creole",
-    "i": 203221,
-    "min": 4,
-    "max": 15,
-    "d": "lnrt",
-    "m": 0,
-    "b": "São João dos Angolares,Ribeira Peixe,Santa Catarina,Porto Alegre,São Tomé,Santo António,Neves,Monte Café,Trindade,Príncipe,Santa Cruz,Bom Successo,Ribeira Afonso,Guadalupe,Santana,Pantufo,Santo Amaro,Vila Malanza,Angra Toldo,Dona Augusta,Monte Mário,Praia Pesqueira,Santa Josefina,Vila Clotilde,Ilhéu das Rolas,Madalena,Caixão Grande,Bombom,Almas,Conde,Micoló",
     "status": "COMPLETE"
   },
   {
@@ -3497,16 +3407,6 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Jebel Mirra,Jebel Kulli,Jebel Toya,Jebel Kunjaro,Jebel Turabu,Jebel Oromba,Wadi Salih,Wadi Azum,Dar Fongoro,Zalingei,El Fasher,El Geneina,El Obeid,Wad Medani,Sennar,Kassala,Al-Damazin,Atbara,Dongola,Nyala,Kadugli,Dilling,Lagawa,Rashad,Jebel Kire",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Berta",
-    "i": 203232,
-    "min": 4,
-    "max": 12,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Kurmuk,Asosa,Begi,Tongo,Gambela,Bambasi,Undulu,Fwafwate,Daleti,Metehara,Menge,Abay,Didessa,Sennar,Wetawit,Shangul,Bela Shangul,Fadasi,Komosha,Gizen,Gwdare,Matahara,Sirba Abay,Arjo,Borchore,Gidami,Homosha,Kiltu,Pawi,Tulishi,Blue Nile",
     "status": "COMPLETE"
   },
   {
@@ -4387,16 +4287,6 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Wolaita Sodo,Areka,Boditi,Tebela,Bale Hawassa,Gesuba,Gununo,Bedessa,Dimtu,Bitena,Arjo,Dalocha,Fuchucha,Gawata,Kachama,Sawena,Bonga,Tepi,Gore,Metu,Jimma,Agaro,Bedele,Sebeta,Durame,RasKamboni,Deynile,Hobyo,Kudhaa,Shimba,Tabaka,Marsabit,Murcanyo,Buqda,Galkacyo,Elwak,Mkonumbi,Isebania,Maikona,Kacha Bira",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Chichewa",
-    "i": 20718,
-    "min": 4,
-    "max": 10,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Lilongwe,Blantyre,Zomba,Mzuzu,Kasungu,Mangochi,Dedza,Salima,Nkhotakota,Ntchisi,Mzimba,Mchinji,Mwanza,Nkhata Bay,Rumphi,Chitipa,Karonga,Chiradzulu,Phalombe,Machinga,Thyolo,Mulanje,Nsanje,Chikwawa,Neno,Balaka",
     "status": "COMPLETE"
   },
   {
@@ -6800,46 +6690,6 @@ window.africaNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "Harari",
-    "i": 200899,
-    "min": 4,
-    "max": 12,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Harar,Dire Dawa,Fedis,Girawa,Kersa,Kombolcha,Asebe Teferi,Chinaksen,Meta,Jarso,Bedeno,Funyan Bira,Babile,Harar Jugol,Dirir,Kurfa Chele,Qordere,Tulube,Sofi,Aboker,Harewa,Kirt Abe,Gursum",
-    "status": "WAITING"
-  },
-  {
-    "name": "Chagossian Creole",
-    "i": 200900,
-    "min": 3,
-    "max": 18,
-    "d": "",
-    "m": 0,
-    "b": "Diego Garcia,Peros Banhos,Salomon,Île Boddam,Île Anglaise,Île du Coin,Île de la Passe,Île Poule,Île Mapou,Île Yeye,Île Longue,Île du Milieu,Île Ronde,Île Fouquet,Île de la Mare,Île Diable,Île aux Cocos",
-    "status": "WAITING"
-  },
-  {
-    "name": "Mauritian Creole",
-    "i": 200901,
-    "min": 4,
-    "max": 18,
-    "d": "",
-    "m": 0,
-    "b": "Port Louis,Curepipe,Vacoas,Quatre Bornes,Beau Bassin,Rose Hill,Flacq,Mahébourg,Souillac,Pamplemousses,Triolet,Goodlands,Rivière du Rempart,Flic en Flac,Tamarin,Péreybère,Cap Malheureux,Rose Belle,Nouvelle France,Chemin Grenier,Surinam,Saint Hubert,Bambous,Saint Pierre,Moka,Phoenix,Albion,Baie du Tombeau,Balaclava,Bois Chéri,Britannia,Case Noyale,Belle Mare",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Rodriguan Creole",
-    "i": 200902,
-    "min": 6,
-    "max": 21,
-    "d": "",
-    "m": 0,
-    "b": "Port Mathurin,Cascade Victoire,Baie Topaze,Grande Montagne,Anse aux Anglais,Baie du Nord,Cascade Saint Vincent,Citronelle,Coromandels,Crève Coeur,Désiré,Fond La Digue,Gros Mangue,Jentac,La Ferme,Mangue,Mont Lubin,Mourouk,Oyster Bay,Patate Théophile,Petit Brûlé,Petit Gabriel,Plaine Corail,Port Sud-Est,Quatre Vents,Rivière Cocos,Saint Gabriel",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Beni Snous",
     "i": 201004,
     "min": 4,
@@ -7027,26 +6877,6 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Ribeira Brava,Tarrafal de São Nicolau,Preguiça,Monte Gordo,Monte Bissau,Pico de Alberto,Covoada,Estância de Brás,Fajã de Baixo,Queimadas,Ribeira Funda,Belém,Cachaço,Caleijão,Carriçal,Carvoeiros,Juncalinho,Morro Brás,Talho,Cabeçalinho,Fragata,Hortelã,Palhal,Praia Branca,Ribeira dos Calhaus,Ribeira Prata,Nossa Senhora da Lapa,Nossa Senhora do Rosário,São Francisco de Assis,Baía de São Jorge,Ponta do Barril",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Cairene Arabic",
-    "i": 203167,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Cairo,Giza,Hilwan,Shubra El-Kheima,Maadi,Nasr City,Imbaba,Old Cairo,Abbasiya,Zamalek,Al-Marg,Al-Matariya,Suez,Hurghada",
-    "status": "WAITING"
-  },
-  {
-    "name": "Egyptian Arabic",
-    "i": 322,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Cairo,Alexandria,Giza,Shubra El Kheima,Port Said,Suez,Luxor,Mansoura,El Mahalla El Kubra,Tanta,Asyut,Ismailia,Fayyum,Zagazig,Aswan,Damietta,Damanhur,Minya,Beni Suef,Qena,Sohag,Hurghada,Kafr El Sheikh,Mallawi,Sharm el-Sheikh",
     "status": "COMPLETE"
   },
   {
@@ -8980,16 +8810,6 @@ window.africaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Hausa",
-    "i": 10009,
-    "min": 4,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Kano,Kaduna,Katsina,Sokoto,Zaria,Maiduguri,Bauchi,Hadejia,Daura,Rano,Gobir,Zazzau,Birnin Kebbi,Gusau,Dutse,Gumel,Birnin Kudu,Azare,Gaya,Misau,Jama'are,Ningi,Potiskum,Fika,Damaturu,Gombe,Billiri,Kaltungo,Bajoga,Biu,Gwoza,Dikwa,Bama,Nguru,Guri,Hadeja,Kiyawa,Jahun,Ringim,Taura,Malam Madori,Kazaure,Roni,Dambatta,Wudil,Gwarzo,Bagwai,Shanono,Rimin Gado,Tofa,Dala,Nassarawa,Tarauni,Gwale,Fagge,Kumbotso,Ungogo,Minjibir,Dawakin Tofa,Takai,Kibiya,Tudun Wada,Kiru,Karaye,Makoda,Tsanyawa,Kunchi,Bichi,Danbatta,Bunkure,Gezawa,Funtua,Bakori,Danja,Dandume,Faskari,Sabuwa,Kafur,Malumfashi,Kankara,Rimi,Musawa,Matazu,Safana,Dutsin-Ma,Kurfi,Charanchi,Jibia,Batsari,Dan Musa,Kankia,Kusada,Ingawa,Bindawa,Mani,Mashi,Dandi,Shinkafi,Zurmi,Bukkuyum,Anka,Talata Mafara,Maradun,Gummi,Wurno,Goronyo,Rabah,Wammako,Silame,Tambuwal,Tangaza,Binji,Sabon Birni,Isa,Dogondaji,Gada,Kware,Ilela,Gwadabawa,Bodinga,Tureta,Kebbe,Yabo,Shagari,Argungu,Augie,Arewa-Dandi,Suru,Ngaski,Yauri,Zuru,Danko-Wasagu,Sakaba,Fakai,Koko-Besse,Aleiro,Gwandu,Kalgo,Jega,Maiyama,Bagudo,Maradi,Zinder,Tahoua,Agadez,Birni-N'Konni,Madaoua,Illela,Dakoro,Tessaoua,Aguié",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Yoruba",
     "i": 10010,
     "min": 4,
@@ -8997,16 +8817,6 @@ window.africaNameBases = [
     "d": "",
     "m": 0,
     "b": "Lagos,Ibadan,Ilorin,Abeokuta,Oyo,Osogbo,Akure,Ondo,Ijebu-Ode,Ijebu-Igbo,Sagamu,Ikorodu,Epe,Badagry,Ota,Ado-Odo,Ifo,Otta,Sango,Ogbomoso,Iseyin,Okeho,Saki,Kishi,Igbeti,Igboho,Irepo,Iwo,Ede,Ilesa,Ile-Ife,Ila-Orangun,Ejigbo,Ikirun,Ifetedo,Ijebu-Jesa,Ila,Erinmo,Ipetumodu,Modakeke,Iree,Iragbiji,Okuku,Ikire,Apomu,Ado-Ekiti,Ikere-Ekiti,Ise-Ekiti,Ikole-Ekiti,Oye-Ekiti,Ile-Oluji,Owo,Akoko,Ikare,Ogbagi,Iju,Okitipupa,Ore,Ilaje,Irele,Idanre,Oba,Ogbese,Ilawe,Irese,Igbara-Oke,Supare,Ijare,Omuo,Iyin-Ekiti,Efon,Aramoko,Ido-Ekiti,Ijero,Ipoti,Otun,Igede,Awo-Ekiti,Iye,Auchi,Igarra,Ibilo,Afuze,Oja,Oja-Otta,Ifira,Iba,Ibeshe,Offa,Oro,Ajase,Ilemona,Omu-Aran,Igbomina,Omupo,Ila-Odo,Ajase-Ipo,Idofian,Share,Patigi,Lafiagi,Pategi,Bode-Saadu,Jebba,Mokwa,Bida,Kontagora,Yauri,New Bussa,Kaiama,Ogidi,Ijagun,Odogbolu,Ijebu-Ife,Ijebu-Mushin,Iperu,Ogere,Ilishan,Ikenne,Imota,Idena,Egan,Iga,Iwerekun,Ipokia,Imeko,Ayetoro,Yewa,Ilaro,Ewekoro,Owode,Ofada,Aiyetoro,Porto-Novo,Ouidah,Allada,Sakété,Kétou,Savé,Bantè,Tchaourou,Bassila,Anié,Atakpamé,Kpalimé,Badou,Notsé,Tabligbo,Tsévié",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Igbo",
-    "i": 10011,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Onitsha,Enugu,Owerri,Nnewi,Aba,Awka,Nsukka,Abakaliki,Umuahia,Awgu,Eha-Amufu,Ikem,Udi,Agbani,Nkanu,Orlu,Okigwe,Mbaise,Mbano,Mbieri,Mbaitoli,Mbele,Mbodo,Aboh,Oguta,Ohaji,Nkwerre,Isu,Nwangele,Oru-East,Oru-West,Ihite,Obowo,Ezinihitte,Aboh-Mbaise,Ahiazu-Mbaise,Eziobodo,Ngor-Okpala,Ikeduru,Owerri-North,Owerri-West,Owerri-Municipal,Iho,Atta,Eziama,Amaimo,Umuelemai,Anara,Amaraku,Umundugba,Amandugba,Isu-Njaba,Nwaorieubi,Ogbaku,Orodo,Ifakala,Umuneke-Ngor,Umuowa,Ozuzu,Nnenasa,Umuaka,Amaigbo,Agulu,Neni,Ichida,Adazi-Nnukwu,Akwaeze,Obeledu,Nri,Aguluzigbo,Oraeri,Nanka,Ekwulobia,Isuofia,Umuchu,Igbo-Ukwu,Awka-Etiti,Amawbia,Nibo,Nise,Mbaukwu,Okpuno,Umuawulu,Nnewi-Ichi,Otolo,Uruagu,Umudim,Nnobi,Oba,Ojoto,Okija,Ozubulu,Ihiala,Ogoloma,Amorka,Ubulu,Ubulu-Uku,Ogwashi-Uku,Issele-Uku,Ibusa,Asaba,Agbor,Orji,Eke,Ibagwa,Opi,Edem,Okpuje,Ibagwa-Ndiagu,Alor,Ovoko,Ohebe,Obollo-Afor,Enugu-Ezike,Orba,Obollo-Etiti,Umulokpa,Adani,Nimbo,Agbogugu,Mpu,Nenwe,Ndiabor,Oduma,Okpanku,Amoli,Ukehe,Aku,Diogbe,Ohodo,Umuna,Ozalla,Ikolo,Ochima,Achi,Inyi,Oji-River,Akpugo,Nkerefi,Nomeh,Ogbahu,Oruku,Ugbawka,Afor-Oru,Idemili,Ogidi,Nkpor,Obosi,Abatete,Uke,Oraukwu,Okpoko,Fegge,Ichi,Omuko,Akokwa,Arondizuogu,Dikenafai,Okwelle,Ofeahia,Okwe,Isinweke,Uboma",
     "status": "COMPLETE"
   },
   {
@@ -9027,16 +8837,6 @@ window.africaNameBases = [
     "d": "",
     "m": 0,
     "b": "Durban,Pietermaritzburg,Newcastle,Richards Bay,Ulundi,Nongoma,KwaDukuza,Empangeni,Eshowe,Mtunzini,Stanger,Tongaat,Ballito,Port Shepstone,Margate,Scottburgh,Amanzimtoti,Kokstad,Dundee,Vryheid,Ladysmith,Colenso,Winterton,Bergville,Estcourt,Mooi River,Greytown,Kranskop,Mandeni,eSikhawini,Hluhluwe,Ingwavuma,Jozini,Pongola,Paulpietersburg,Louwsburg,Mahlabatini,Piet Retief,Nqutu,Wasbank,Glencoe,Dannhauser,Utrecht,Memel,Harrismith,Phuthaditjhaba,Underberg,Himeville,Bulwer,Richmond,Ixopo,Creighton,Harding,Weza,Kelso,Park Rynie,Umkomaas,Winkelspruit,Illovo,Umhlanga,La Lucia,Verulam,Ottawa,Mount Edgecombe,Inanda,KwaMashu,Umlazi,Isipingo,Prospecton,Umzimkulu",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Xhosa",
-    "i": 10038,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Cape Town,Gqeberha,East London,Mthatha,Makhanda,King William's Town,Queenstown,Bhisho,Cradock,Graaff-Reinet,Uitenhage,Despatch,Fort Beaufort,Alice,Kingwilliamstown,Mdantsane,Zwelitsha,Butterworth,Idutywa,Willowvale,Port St Johns,Bizana,Flagstaff,Lusikisiki,Tabankulu,Mount Frere,Mount Ayliff,Kokstad,Matatiele,Tsolo,Qumbu,Nqamakwe,Centane,Kentani,Ngqeleni,Libode,Peddie,Grahamstown,Stutterheim,Cathcart,Sterkspruit,Aliwal North,Engcobo,Cofimvaba,Indwe,Dordrecht,Molteno,Steynsburg,Tarkastad,Seymour,Bedford,Adelaide,Willowmore,Jansenville,Klipplaat,Bathurst,Port Alfred,Keiskammahoek,Pirie,Kimbili",
     "status": "COMPLETE"
   },
   {
@@ -9090,36 +8890,6 @@ window.africaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Kinyarwanda",
-    "i": 20035,
-    "min": 4,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Kigali,Nyanza,Muhanga,Kamonyi,Ruhango,Gisagara,Nyaruguru,Nyamagabe,Huye,Butare,Byumba,Ruhengeri,Musanze,Gisenyi,Rubavu,Cyangugu,Rusizi,Kibuye,Karongi,Rwamagana,Kibungo,Nyagatare,Busogo,Gikongoro,Rubengera,Ngoma,Bugesera,Gicumbi,Burera,Gakenke,Nyamasheke,Rutsiro,Ngororero,Nyabihu,Gatsibo,Kayonza,Kirehe,Kicukiro,Gasabo,Nyarugenge,Rulindo,Kimisagara,Nyagahanga,Kiruhura,Gitarama,Rusumo,Mugeni,Save,Maraba,Ndiza,Ruheru,Tumba",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Kirundi",
-    "i": 20036,
-    "min": 4,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Bujumbura,Gitega,Ngozi,Rumonge,Bururi,Muramvya,Makamba,Rutana,Ruyigi,Cankuzo,Karusi,Kayanza,Kirundo,Muyinga,Bubanza,Cibitoke,Isale,Kabezi,Bukirasazi,Kayogoro,Magara,Mukenke,Musenyi,Muyaga,Mwaro,Nyanza-Lac,Rugari,Ruzunga,Zanandore,Buhongo,Kibondo,Kisozi,Luhwa,Murore,Karuzi,Busoni",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Sotho",
-    "i": 20037,
-    "min": 4,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Maseru,Teyateyaneng,Mafeteng,Hlotse,Leribe,Maputsoe,Berea,Quthing,Qachas Nek,Mokhotlong,Thaba-Tseka,Mohale,s Hoek,Butha-Buthe,Roma,Mazenod,Morija,Nako,Semonkong,Bloemfontein,Welkom,Bethlehem,Kroonstad,Sasolburg,Virginia,Wesselsbron,Phuthaditjhaba,Senekal,Ficksburg,Ladybrand,Clocolan,Marquard,Winburg,Theunissen,Henneman,Hoopstad,Bultfontein,Botshabelo,Thaba Nchu,Dewetsdorp,Wepener,Van Stadensrus,Zastron,Rouxville,Smithfield,Bethulie,Gariepdam,Aliwal North,Barkly East,Indwe,Molteno,Steynsburg,Colesberg",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Tswana",
     "i": 20038,
     "min": 4,
@@ -9130,36 +8900,6 @@ window.africaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Swazi",
-    "i": 20039,
-    "min": 4,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Mbabane,Manzini,Lobamba,Matsapha,Siteki,Nhlangano,Piggs Peak,Big Bend,Simunye,Lavumisa,Hluti,Mhlume,Tshaneni,Nsoko,Malkerns,Mankayane,Kwaluseni,Sidvokodvo,Bhunya,Mhlambanyatsi,Mondi,Hlatikulu,Kubuta,Bulembu,Ngwenya,Mayiwane,Maphalaleni,Ntfonjeni",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Venda",
-    "i": 20040,
-    "min": 4,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Thohoyandou,Louis Trichardt,Makhado,Polokwane,Musina,Giyani,Phalaborwa,Modimolle,Mokopane,Bela-Bela,Atteridgeville,Mamelodi,Soshanguve,Hammanskraal,Pretoria,Sibasa,Dzanani,Malamulele,Vuwani,Nzhelele,Tshipise,Mutale,Duthuni,Tshikundamalema,Tshifulanani,Ha-Masia,Makwarela,Manini,Mutshindudi,Phiphidi,Dopeni,Bungeni,Tshikundu,Lwamondo,Madala,Ha-Matsa,Sekgosese,Ga-Matlala,Gilead,Lephalale,Nylstroom,Naboomspruit,Mookgophong,Roedtan,Settlers,Vaalwater,Ellisras,Tom Burke,Pietersburg,Seshego,Mankweng,Tzaneen,Modjadjiskloof,Duiwelskloof,Hoedspruit",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Tsonga",
-    "i": 20041,
-    "min": 4,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Giyani,Phalaborwa,Malamulele,Polokwane,Thohoyandou,Maputo,Matola,Beira,Nampula,Quelimane,Tete,Lichinga,Inhambane,Xai-Xai,Chimoio,Pemba,Nacala,Maxixe,Angoche,Cuamba,Mocuba,Gurue,Chokwe,Chibuto,Manica,Dondo,Montepuez,Mocimboa da Praia,Macomia,Balama,Namuno,Chiure,Memba,Mahajanga,Antananarivo,Hazyview,Nelspruit,Barberton,White River,Komati,Malelane,Komatipoort,Skukuza,Hoedspruit,Acornhoek,Bushbuckridge,Thulamahashe,Edinburgh,Waterval-Boven,Emgwenya,Belfast,Machadodorp,Lydenburg,Ohrigstad,Burgersfort,Steelpoort,Jane Furse,Groblersdal,Marble Hall,Mokopane",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Krio",
     "i": 20042,
     "min": 4,
@@ -9167,16 +8907,6 @@ window.africaNameBases = [
     "d": "",
     "m": 0,
     "b": "Freetown,Bo,Kenema,Makeni,Koidu,Lunsar,Port Loko,Bonthe,Moyamba,Pujehun,Kabala,Kailahun,Magburaka,Waterloo,Hastings,Goderich,Bumpe,Songo,Kono,Yengema,Koindu,Tongo,Pendembu,Daru,Zimmi,Baiima,Taiama,Sumbuya,Gbangbatok,Mattru Jong,Sherbro Island,Yonibana,Rokupr,Kamakwie,Koinadugu,Falaba,Sefadu,Koey,Koidu New Sembehun,Blama",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Malagasy",
-    "i": 20043,
-    "min": 4,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Antananarivo,Toamasina,Antsirabe,Fianarantsoa,Mahajanga,Toliara,Antsiranana,Sambava,Morondava,Moramanga,Ambanja,Antalaha,Nosy Be,Andoany,Ambatondrazaka,Mananjary,Farafangana,Ihosy,Ambovombe,Tolagnaro,Amboasary,Betroka,Vangaindrano,Fenoarivo,Soavinandriana,Betafo,Ambatolampy,Antanifotsy,Anjozorobe,Mandoto,Arivonimamo,Miarinarivo,Tsiroanomandidy,Antsohihy,Bealanana,Andapa,Vohemar,Maroantsetra,Mananara,Mahanoro,Marolambo,Nosy Varika,Ikongo,Ranohira,Belon,i Tsiribihina,Miandrivazo,Faratsiho,Manandriana,Ambositra,Fandriana,Ambalavao,Ikalamavony,Betioky,Morombe,Sakaraha,Ampanihy,Beloha,Tsihombe",
     "status": "COMPLETE"
   },
   {
@@ -9290,16 +9020,6 @@ window.africaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Ndebele",
-    "i": 20269,
-    "min": 4,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Bulawayo,Gwanda,Plumtree,Kezi,Filabusi,Esigodini,Tsholotsho,Nkayi,Binga,Lupane,Hwange,Victoria Falls,Beitbridge,Chiredzi,Mberengwa,Zvishavane,Shurugwi,Gweru,Kwekwe,Kadoma,Chinhoyi,Karoi,Kariba,Hurungwe,Muzarabani,Mount Darwin,Bindura,Shamva,Marondera,Murewa,Mutoko,Chitungwiza,Epworth,Seke,Chivhu,Featherstone,Beatrice,Mashava,Masvingo,Zaka,Bikita,Nyika,Ndanga,Gutu,Chatsworth,Fort Rixon,Shangani,Inyathi,Matobo,Dete,Umguza,Magwegwe,Pumula,Luveve,Njube,Mzilikazi,Barbourfields,Hammanskraal,Atteridgeville,Mamelodi,Soshanguve,Pretoria North,Mabopane,Ga-Rankuwa,Winterveld,Refilwe,Cullinan,Rayton,Roodeplaat,Pretoria East,Witbank,Middelburg,Standerton,Secunda,eMbalenhle,KwaNdebele,Bronkhorstspruit",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Luganda",
     "i": 20270,
     "min": 4,
@@ -9377,16 +9097,6 @@ window.africaNameBases = [
     "d": "",
     "m": 0,
     "b": "Nairobi,Thika,Nyeri,Nanyuki,Karatina,Murang-a,Kiambu,Ruiru,Kikuyu,Limuru,Naivasha,Mweiga,Othaya,Mukurweini,Gichugu,Kerugoya,Kagumo,Kangema,Kiharu,Mathioya,Kigumo,Kandara,Gatundu,Githunguri,Kiambaa,Karai,Ndenderu,Gachie,Ngecha,Muguga,Kinale,Gatina,Kabete,Uthiru,Wangige,Muthiga,Ruaka,Kitisuru,Sigona,Tigoni,Karuri,Kiamumbi,Membley,Juja,Makongeni,Gatuanyaga,Sabasaba,Mwea,Wanguru,Kutus,Kianyaga,Baricho,Sagana,Makutano,Chaka,Endarasha,Giakanja,Ichamara",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Luo",
-    "i": 24783,
-    "min": 4,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Kisumu,Siaya,Bondo,Busia,Homa,Bay,Migori,Rachuonyo,Suba,Nyando,Muhoroni,Chemelil,Nandi,Hills,Kapsabet,Eldoret,Kakamega,Vihiga,Malava,Mumias,Matungu,Butere,Khwisero,Shinyalu,Ikolomani,Lurambi,Kwanza,Saboti,Cherangany,Kaiti,Ndori,Asembo,Luanda,Rangala,Maseno,Chulaimbo,Port,Victoria,Sega,Usenge,Bumala,Funyula,Nambale,Malakisi,Kimilili,Kapsokwony,Kitale,Kapenguria,Makutano,Lodwar,Lokichoggio,Maralal,Baragoi,Nyamira,Borabu,Keroka,Nyansiongo,Nyangusu,Oyugis,Kendu,Mbita,Ndhiwa,Rangwe,Rodi,Kopany,Gulu,Lira,Soroti,Arua,Kitgum,Moyo,Adjumani,Pakwach,Masindi,Hoima,Nebbi",
     "status": "COMPLETE"
   },
   {

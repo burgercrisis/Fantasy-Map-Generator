@@ -11,30 +11,31 @@ Generated: 2026-09-29  |  Seed floor: 25
 
 | Metric | Count |
 |---|---:|
-| Language entries | 3885 |
-| Marked COMPLETE (>= 25 seeds) | 2911 |
-| Marked WAITING (< 25 seeds) | 974 |
-| Below seed floor | 974 |
+| Language entries | 3802 |
+| Marked COMPLETE (>= 25 seeds) | 2840 |
+| Marked WAITING (< 25 seeds) | 962 |
+| Below seed floor | 962 |
 | Zero seeds | 24 |
-| Heavily contaminated (>=10 shared seeds) | 802 |
-| Pasted 8-seed blocks (W004, actionable) | 0 |
-| Map ISOs with no namebase (research backlog) | 846 |
+| Heavily contaminated (>=10 shared seeds) | 772 |
+| Pasted 8-seed blocks (W004, actionable) | 20 |
+| Map ISOs with no namebase (research backlog) | 805 |
+| Map ISOs that can never have a namebase | 41 |
 
 ## By continent
 
 | Continent | Entries | Below floor | Zero seed | Median seeds |
 |---|---:|---:|---:|---:|
-| africa | 954 | 204 | 8 | 35 |
-| asia | 1401 | 562 | 13 | 30 |
-| europe | 939 | 74 | 0 | 45 |
-| northAmerica | 229 | 68 | 2 | 29 |
-| southAmerica | 166 | 9 | 0 | 36 |
+| africa | 925 | 200 | 8 | 35 |
+| asia | 1369 | 558 | 13 | 29 |
+| europe | 922 | 72 | 0 | 45 |
+| northAmerica | 226 | 66 | 2 | 30 |
+| southAmerica | 164 | 9 | 0 | 36 |
 | oceania | 195 | 57 | 1 | 29 |
 | fantasy | 1 | 0 | 0 | 307 |
 
 ## Work queue: entries below the seed floor
 
-974 entries need authentic settlement names. Ordered by seed count,
+962 entries need authentic settlement names. Ordered by seed count,
 so the emptiest entries come first. One at a time, research then edit.
 
 | Seeds | Continent | Index | Language |
@@ -340,7 +341,7 @@ so the emptiest entries come first. One at a time, research then edit.
 | 9 | africa | 200103 | Mogum |
 | 9 | asia | 119 | Semaq Beri |
 
-_Showing the lowest 300 of 974. Full queue:_
+_Showing the lowest 300 of 962. Full queue:_
 
 ```
 node tools/namebase-tools/verify-namebase-integrity.js --json
@@ -348,7 +349,7 @@ node tools/namebase-tools/verify-namebase-integrity.js --json
 
 ## Pasted seed blocks — work from this list, not the shared-seed count
 
-**0 entries** contain a run of 8 identical seeds, in the same order,
+**20 entries** contain a run of 8 identical seeds, in the same order,
 shared with 20+ other entries. That is the copy-paste signature and it is
 never legitimate. These entries need their own toponyms researched.
 
@@ -360,10 +361,30 @@ detector is contiguity-and-order based precisely so it does not do that.
 
 | Language | Continent | Index | Partners | Block |
 |---|---|---:|---:|---|
+| Eastern Mari | europe | 1740 | 20 | Zvenigovo, Sernur, Orshanka, ... |
+| Mari | asia | 24732 | 20 | Zvenigovo, Sernur, Orshanka, ... |
+| Chovashi | europe | 1606 | 20 | Zvenigovo, Sernur, Orshanka, ... |
+| Hill Mari | europe | 1885 | 20 | Zvenigovo, Sernur, Orshanka, ... |
+| Meadow Mari | europe | 2229 | 20 | Zvenigovo, Sernur, Orshanka, ... |
+| Meadow Mari Proper | europe | 2230 | 20 | Zvenigovo, Sernur, Orshanka, ... |
+| Kochevo | europe | 2250 | 20 | Zvenigovo, Sernur, Orshanka, ... |
+| Koryo-mar | europe | 2270 | 20 | Zvenigovo, Sernur, Orshanka, ... |
+| Sanchursk | europe | 2375 | 20 | Zvenigovo, Sernur, Orshanka, ... |
+| Sharanga | europe | 2376 | 20 | Zvenigovo, Sernur, Orshanka, ... |
+| Northwestern Mari | europe | 2678 | 20 | Zvenigovo, Sernur, Orshanka, ... |
+| Kiknur | europe | 200739 | 20 | Zvenigovo, Sernur, Orshanka, ... |
+| Kozymodemyan | europe | 200743 | 20 | Zvenigovo, Sernur, Orshanka, ... |
+| Lipsha | europe | 200746 | 20 | Zvenigovo, Sernur, Orshanka, ... |
+| Sernur-Morkin | europe | 200789 | 20 | Zvenigovo, Sernur, Orshanka, ... |
+| Tonshaevo | europe | 200817 | 20 | Zvenigovo, Sernur, Orshanka, ... |
+| Tuzha | europe | 200822 | 20 | Zvenigovo, Sernur, Orshanka, ... |
+| Yaran | europe | 200842 | 20 | Zvenigovo, Sernur, Orshanka, ... |
+| Yaransk | europe | 200843 | 20 | Zvenigovo, Sernur, Orshanka, ... |
+| Yoshkar-Olin | europe | 200846 | 20 | Zvenigovo, Sernur, Orshanka, ... |
 
 ## Entries whose seeds say they are in the wrong continent file
 
-58 entries hold seeds that belong overwhelmingly to another
+55 entries hold seeds that belong overwhelmingly to another
 continent's entries. Which FILE a language lives in is organisational and
 is not a claim about its toponymy, so this is not automatically an error -
 Siberian Tatar, Khakas and Mari are all genuinely transcontinental. But an
@@ -379,39 +400,34 @@ nothing in the name says so.
 | Siberian Tatar (i=24736) | asia | europe | 92% | Tobolsk, Tyumen, Ishim |
 | Nagamese (i=202280) | oceania | asia | 91% | Agra, Mymensingh, Visakhapatnam |
 | Kainuu (i=202886) | europe | asia | 90% | Ölgii, Pohang, Thetford Mines |
-| Pretoria Sotho (i=202291) | northAmerica | asia | 90% | Lhokseumawe, Ben Tre, Bacolod |
 | Kaitag (i=202798) | africa | europe | 89% | Zugdidi, Quba, Xinaliq |
 | Mari (i=24732) | asia | europe | 89% | Yoshkar-Ola, Volzhsk, Kozmodemyansk |
+| Pretoria Sotho (i=202291) | northAmerica | asia | 89% | Lhokseumawe, Ben Tre, Bacolod |
 | Khakas (i=2194) | asia | europe | 88% | Minusinsk, Kyzyl, Krasnoyarsk |
 | Amdo Tibetan  (i=869) | europe | asia | 88% | Haibei, Huangnan, Hainan |
 | Javindo (i=202270) | oceania | europe | 88% | Tchibanga, Conakry, Parakou |
 | Petjo (i=202286) | oceania | europe | 87% | Parakou, Lafia, Rijau |
 | Sui Lang  (i=863) | europe | asia | 86% | Sandu, Libo, Jiarong |
+| Tai Ya  (i=865) | europe | asia | 86% | Jinghong, Menghai, Mengla |
 | Maritime Polynesian Pidgin (i=203068) | asia | europe | 85% | Samamea, Newcastle, Navua |
-| Tai Ya  (i=865) | europe | asia | 85% | Jinghong, Menghai, Mengla |
-| Yi  (i=868) | europe | asia | 85% | Kunming, Dali, Lijiang |
 | Dungmali (i=851) | europe | asia | 84% | Bhojpur, Hile, Pakhribas |
 | Urum (i=203037) | africa | europe | 83% | Barcelona, Málaga, Nantes |
 | Kungarakany (i=202748) | oceania | europe | 82% | Bolgatanga, Bafatá, Yola |
 | Chamdo  (i=1544) | europe | asia | 81% | Chamdo, Dege, Jomda |
-| Palaung (i=194) | europe | asia | 80% | Namhsan, Kalaw, Kengtung |
 | Tansi (i=200995) | oceania | asia | 80% | Guwahati, Dibrugarh, Tinsukia |
 | Limbu  (i=847) | europe | asia | 79% | Taplejung, Phidim, Ilam |
 | Lauhut  (i=1063) | europe | asia | 79% | Wanning, Lingshui, Tunchang |
-| Pashto, Central  (i=1109) | europe | asia | 78% | Kabul, Kandahar, Herat |
-| Newar (i=2440) | europe | asia | 77% | Kathmandu, Lalitpur, Banepa |
+| Palaung (i=194) | europe | asia | 78% | Namhsan, Kalaw, Kengtung |
 | Żejtun dialect (i=738) | asia | europe | 76% | Mdina, Qormi, Mellieħa |
 | Cappadocian Greek (i=203065) | asia | europe | 76% | Dundee, Podgorica, Liepāja |
 | Waxiang (i=203140) | europe | asia | 76% | Changsha, Zhuzhou, Xiangtan |
+| Pashto, Central  (i=1109) | europe | asia | 76% | Kabul, Kandahar, Herat |
 | Philippine (i=2072) | oceania | asia | 76% | Davao, Quezon City, Baguio |
 | Andalusi Arabic (i=21108) | asia | europe | 75% | Granada, Zaragoza, Valencia |
-| Tatar (i=24639) | asia | europe | 75% | Kazan, Leninogorsk, Bavly |
-| Vedda (i=201000) | europe | asia | 75% | Colombo, Kandy, Galle |
-| Zay (i=200928) | asia | africa | 74% | Ziway, Butajira, Boditi |
 | Grenadian Creole English (i=202780) | africa | europe | 73% | Oistins, Plymouth, Spanish Town |
 | Chukchi (i=1601) | asia | europe | 73% | Anadyr, Lavrentiya, Uelen |
+| Zay (i=200928) | asia | africa | 73% | Ziway, Butajira, Boditi |
 | Mordvin (i=24733) | asia | europe | 73% | Saransk, Kovylkino, Krasnoslobodsk |
-| Javanese macro entry (i=202342) | oceania | asia | 73% | Derbent, Abovyan, Khashuri |
 | Leeward Caribbean Creole English (i=202784) | africa | europe | 72% | Oistins, Saint-Marc, Bordeaux |
 | Kott (i=2092) | asia | europe | 72% | Kansk, Krasnoyarsk, Karpinsk |
 | Karipºna French Creole (i=203253) | asia | southAmerica | 72% | Paramaribo, Albina, Moengo |
@@ -426,14 +442,16 @@ nothing in the name says so.
 | Sri Lankan English (i=202652) | africa | asia | 71% | Narathiwat, Lao Cai, Nong Khai |
 | Tay (Tai) (i=202684) | africa | asia | 71% | Nakhon Si Thammarat, Bandar Lampung, Miri |
 | Hmong macro entry (i=202819) | africa | asia | 71% | Dongguan, Kanggye, Arvaikheer |
-| Brahui  (i=1374) | europe | asia | 71% | Kalat, Khuzdar, Quetta |
+| Newar (i=2440) | europe | asia | 71% | Kathmandu, Lalitpur, Banepa |
 | Ladino (i=2622) | southAmerica | europe | 71% | Istanbul, Thessaloniki, Izmir |
+| Javanese macro entry (i=202342) | oceania | asia | 71% | Derbent, Abovyan, Tskhinvali |
 | Mijikenda (i=1624) | africa | asia | 70% | Ulaanbaatar, Khovd, Erdenet |
-| Pakistani English (i=202577) | africa | asia | 70% | Hue, Tebing Tinggi, Ang Mo Kio |
+| Vedda (i=201000) | europe | asia | 70% | Colombo, Kandy, Galle |
+| Brahui  (i=1374) | europe | asia | 70% | Kalat, Khuzdar, Quetta |
 
 ## Map ISOs with no namebase
 
-846 languages the mixer map offers have no namebase entry
+805 languages the mixer map offers have no namebase entry
 under that name, so they currently resolve to an unrelated seed list. Real
 languages — Agaw, Baka, Bamukumbit, Dibiyaso, Guriaso. Each needs a namebase
 created from research. Nothing here is guessed at.
@@ -465,10 +483,10 @@ created from research. Nothing here is guessed at.
 | alor-pantar | Alor–Pantar | undefined |
 | aab | Ambakich | undefined |
 | ambo | Ambo | 200240 |
-| amh | Amh | 872 |
-| amh2 | Amharic Expanded 3 | 872 |
-| amh3 | Amharic Expanded 4 | 872 |
-| amharic-argobba | Amharic-Argobba | 872 |
+| amh | Amh | 20031 |
+| amh2 | Amharic Expanded 3 | 20031 |
+| amh3 | Amharic Expanded 4 | 20031 |
+| amharic-argobba | Amharic-Argobba | 20031 |
 | ami | Amis | undefined |
 | ammonite | Ammonite | undefined |
 | amorite | Amorite | undefined |
@@ -495,7 +513,7 @@ created from research. Nothing here is guessed at.
 | awbono | Awbono | undefined |
 | awin-pa | Awin-Pa | 2737 |
 | awyu-dumut | Awyu–Dumut | undefined |
-| aym | Aymara Names | 5630 |
+| aym | Aymara Names | 20088 |
 | baarin | Baarin Mongol | 5632 |
 | bzg | Babuza | undefined |
 | babylonian | Babylonian | undefined |
@@ -533,10 +551,10 @@ created from research. Nothing here is guessed at.
 | bayono-awbono | Bayono–Awbono | undefined |
 | beami | Beami | undefined |
 | beijing-mandarin | Beijing Mandarin | undefined |
-| bel | Belarusian Names | 50007 |
+| bel | Belarusian Names | 20001 |
 | bem | Bemba Names | 62 |
-| ben2 | Bengali Expanded 2 | 2592 |
-| bengali-portuguese-creole | Bengali Portuguese Creole | 2592 |
+| ben2 | Bengali Expanded 2 | 10001 |
+| bengali-portuguese-creole | Bengali Portuguese Creole | 10001 |
 | berau-malay | Berau Malay | undefined |
 | berjozov | Berjozov | undefined |
 | besermyan | Besermyan | undefined |
@@ -581,17 +599,17 @@ created from research. Nothing here is guessed at.
 | bmj | Bote | undefined |
 | bouhin | Bouhin | undefined |
 | bourbonnais-creole | Bourbonnais Creole | 350 |
-| bre2 | Breton Expanded 2 | 50038 |
-| bre3 | Breton Expanded 3 | 50038 |
-| bre | Breton Names | 50038 |
+| bre2 | Breton Expanded 2 | 20015 |
+| bre3 | Breton Expanded 3 | 20015 |
+| bre | Breton Names | 20015 |
 | british-latin | British Latin | undefined |
 | broome-pearling-lugger-pidgin | Broome Pearling Lugger Pidgin | undefined |
 | bunak | Bunak | undefined |
-| bns | Bundeli Names | 1391 |
+| bns | Bundeli Names | 20056 |
 | bundjalung | Bundjalung | undefined |
 | bungku-tolaki | Bungku-Tolaki | undefined |
 
-_Showing 150 of 846._
+_Showing 150 of 805._
 
 ## How to work on this
 

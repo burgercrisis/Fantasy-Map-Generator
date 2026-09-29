@@ -1510,16 +1510,6 @@ window.europeNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Lombard",
-    "i": 474,
-    "min": 4,
-    "max": 21,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Milano,Brescia,Bergamo,Cremona,Lodi,Pavia,Varese,Lecco,Como,Sondrio,Treviglio,Crema,Belgioioso,Casalpusterlengo,Sant'Angelo Lodigiano,Vigevano,Codogno,Magenta,Abbiategrasso,Legnano,Busto Arsizio,Gallarate,Saronno",
-    "status": "WAITING"
-  },
-  {
     "name": "Lucchese",
     "i": 476,
     "min": 4,
@@ -2900,16 +2890,6 @@ window.europeNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Tatar",
-    "i": 1153,
-    "min": 4,
-    "max": 18,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Kazan,Naberezhnye Chelny,Almetyevsk,Nizhnekamsk,Zelenodolsk,Bugulma,Elabuga,Leninogorsk,Chistopol,Zainsk,Aznakayevo,Bavly,Arsk,Baltasi,Bogatye Suby,Bolgar,Buinsk,Drozhzhanoye,Kamskoye Ustye,Kukmor,Laishevo,Mamadysh,Mendeleyevsk,Menzelinsk,Sarmanovo,Spassk,Tetyushi",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Bjarmian",
     "i": 1328,
     "min": 3,
@@ -3810,16 +3790,6 @@ window.europeNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Komi Permyak",
-    "i": 2645,
-    "min": 4,
-    "max": 17,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Kudymkar,Gaynya,Zarechye,Kizel,Chermoz,Yusva,Karsovay,Ust-Kizel,Biserovo,Zapolye,Krasnovo,Kochevo,Verkhnyaya Gaynya,Pelym,Voyvozh,Sosnogorsk,Pechora,Usinsk,Inta,Vorkuta,Syktyvkar,Ust-Kulom,Vuktyl,Troitsko-Pechorsk,Yarega,Aikino,Izhma,Ust-Tsilma,Ust-Usa,Ust-Shchuger",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Komi Zyryan",
     "i": 2646,
     "min": 4,
@@ -3910,16 +3880,6 @@ window.europeNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Mari",
-    "i": 2676,
-    "min": 4,
-    "max": 16,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Yoshkar-Ola,Kozmodemyansk,Volzhsk,Zvenigovo,Arino,Kilemary,Krasnogorsky,Krasnooktyabrsky,Kuzhener,Mari-Turek,Medvedevo,Morki,Novy Toryal,Orshanka,Paranga,Privolzhsky,Sernur,Sovetsky,Suslonger,Yurino,Kokshaysk,Kosolapovo,Yaransk,Birsk",
-    "status": "WAITING"
-  },
-  {
     "name": "Erzya",
     "i": 2677,
     "min": 4,
@@ -3967,16 +3927,6 @@ window.europeNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Cardiff,Swansea,Newport,Wrexham,Bangor,Caernarfon,Holyhead,Llandudno,Rhyl,Colwyn Bay,Flint,Mold,Denbigh,Prestatyn,Abergele,Conwy,Penmaenmawr,Betws-y-Coed,Harlech,Porthmadog,Criccieth,Pwllheli,Amlwch,Llangefni,Beaumaris,Menai Bridge,Ynys Llanfairpwllgwyngyll,Caergybi,Aberystwyth,Lampeter,Carmarthen,Haverfordwest,Pembrokes Fishguard,Tenby,Abergavenny,Monmouth,Newtown",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Russian",
-    "i": 2710,
-    "min": 3,
-    "max": 24,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Moskva,Sankt-Peterburg,Novosibirsk,Yekaterinburg,Kazan,Nizhny Novgorod,Samara,Omsk,Chelyabinsk,Rostov-na-Donu,Ufa,Krasnoyarsk,Voronezh,Perm,Volgograd,Krasnodar,Saratov,Tyumen,Izhevsk,Barnaul,Irkutsk,Vladivostok,Khabarovsk,Chita,Yakutsk,Petropavlovsk-Kamchatsky",
     "status": "COMPLETE"
   },
   {
@@ -4040,16 +3990,6 @@ window.europeNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Macedonian",
-    "i": 2725,
-    "min": 4,
-    "max": 15,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Skopje,Bitola,Kumanovo,Prilep,Tetovo,Veles,Štip,Ohrid,Gevgelija,Strumica,Kavadarci,Kočani,Berovo,Probištip,Radoviš,Gostivar,Debar,Kratovo,Struga,Makedonski Brod,Vinica,Negotino,Delčevo,Pehčevo,Valandovo",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Slovene",
     "i": 2726,
     "min": 4,
@@ -4057,16 +3997,6 @@ window.europeNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Ljubljana,Maribor,Kranj,Celje,Velenje,Novo Mesto,Koper,Ptuj,Murska Sobota,Dravograd,Ravne na Koroškem,Jesenice,Sežana,Postojna,Ajdovščina,Logatec,Litija,Gornja Radgona,Izola,Piran,Nova Gorica,Vipava,Idrija,Tolmin,Bovec,Kobarid,Cerkno,Škofja Loka,Radovljica,Kranjska Gora,Tržič,Preddvor,Kamnik,Domžale,Vrhnika,Cerknica,Pivka,Ilirska Bistrica,Divača,Komen,Slovenj Gradec,Prevalje,Mežica,Črna na Koroškem,Mislinja,Šoštanj,Mozirje,Gornji Grad,Laško,Rogaška Slatina,Rogašovci,Slovenska Bistrica,Ruše,Lenart,Sveti Jurij,Ormož,Ljutomer,Lendava,Kanal,Apače,Veržej,Križevci,Beltinci,Dobova,Brežice,Krško,Sevnica,Radeče,Trebnje,Metlika,Črnomelj,Semič,Kočevje,Ribnica,Sodražica,Grosuplje,Ivancna Gorica,Zagorje ob Savi,Trbovlje,Hrastnik,Žalec",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Dutch",
-    "i": 2728,
-    "min": 4,
-    "max": 16,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Amsterdam,Rotterdam,Den Haag,Utrecht,Eindhoven,Groningen,Tilburg,Almere,Breda,Nijmegen,Maastricht,Arnhem,Enschede,Haarlem,Leiden,Dordrecht,Gouda,Middelburg,'s-Hertogenbosch,Roermond,Sittard,Venlo,Weert,Zutphen,Deventer,Zwolle,Leeuwarden,Antsla,Koo,Aein",
     "status": "COMPLETE"
   },
   {
@@ -4340,16 +4270,6 @@ window.europeNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Belarusian",
-    "i": 50007,
-    "min": 4,
-    "max": 12,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Minsk,Gomel,Mogilev,Vitebsk,Grodno,Brest,Babruisk,Baranovichi,Pinsk,Orsha,Mazyr,Lida,Slonim,Polotsk,Svetlogorsk,Kalinkavichy,Novopolotsk,Rechytsa,Navapolatsk,Asipovichy,Krychaw,Rahachow,Byalynichy,Bobruisk,Volkovysk",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Megleno-Romanian",
     "i": 50031,
     "min": 4,
@@ -4380,16 +4300,6 @@ window.europeNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Latvian",
-    "i": 50036,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Riga,Daugavpils,Liepaja,Jelgava,Jurmala,Ventspils,Rezekne,Ogre,Valmiera,Aizkraukle,Cesis,Sigulda,Bauska,Kuldiga,Talsi,Saldus,Grobina,Aluksne,Limbazi,Madona,Preili,Ludza,Varaklani,Vilaka,Gulbene,Smiltene,Strenci,Balvi,Kraslava,Dobele,Tukums,Salaspils,Jekabpils,Koknese,Dagda,Ainaži,Aizpute,Akniste,Aloja,Ape,Auce,Baldone,Baloži,Broceni,Durbe,Iecava,Ikšķile,Ilūkste,Jaunjelgava,Kandava,Kārsava,Kegums,Ķekava,Lielvārde,Līgatne,Limbaži,Līvāni,Lubāna,Mazsalaca,Mārupe,Olaine,Pāvilosta,Piltene,Plaviņas,Priekule,Rūjiena,Sabile,Salacgriva,Saulkrasti,Seda,Skrunda,Valka",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Lithuanian",
     "i": 50037,
     "min": 4,
@@ -4400,16 +4310,6 @@ window.europeNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Breton",
-    "i": 50038,
-    "min": 4,
-    "max": 16,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Brest,Rennes,Nantes,Quimper,Lorient,Vannes,Saint-Malo,Dinan,Saint-Brieuc,Lannion,Quimperlé,Concarneau,Pontivy,Redon,Fougères,Carhaix-Plouguer,Guingamp,Paimpol,Tréguier,Morlaix,Châteaulin,Auray,Hennebont,Ploërmel,Rosporden",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Cornish",
     "i": 50039,
     "min": 4,
@@ -4417,16 +4317,6 @@ window.europeNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Truro,St Ives,Falmouth,Penzance,Camborne,Redruth,Helston,Bodmin,Launceston,Saltash,Liskeard,Torpoint,Looe,Polperro,Port Isaac,Newquay,St Austell,Plymouth,Tavistock,Okehampton,Barnstaple,Exeter,Totnes,Dartmouth,Brixham",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Czech",
-    "i": 50040,
-    "min": 4,
-    "max": 14,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Praha,Brno,Ostrava,Plzeň,Liberec,Olomouc,Ústí nad Labem,Hradec Králové,Pardubice,Zlín,Havířov,Opava,Kladno,Most,Karviná,Frýdek-Místek,Jihlava,Teplice,Chomutov,Děčín,Sokolov,Cheb,Trutnov,Náchod,Kolín,Mladá Boleslav,Písek,Pelhřimov,Břeclav,Hodonín,Vyškov,Znojmo,Kroměříž,Prostějov",
     "status": "COMPLETE"
   },
   {
@@ -6570,16 +6460,6 @@ window.europeNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "Yi ",
-    "i": 868,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Kunming,Dali,Lijiang,Chuxiong,Qujing,Yuxi,Zhaotong,Baoshan,Xichang,Yanyuan,Dechang,Huili,Huidong,Ningnan,Puge,Butuo,Jinyang,Zhaojue,Xide,Mianning,Yuexi,Ganluo,Meigu,Leibo,Muli",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Amdo Tibetan ",
     "i": 869,
     "min": 4,
@@ -7030,26 +6910,6 @@ window.europeNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Latvian",
-    "i": 20002,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Riga,Daugavpils,Liepaja,Jelgava,Jurmala,Ventspils,Rezekne,Valmiera,Jekabpils,Ogre,Tukums,Salaspils,Cesis,Kuldiga,Olaine,Saldus,Talsi,Dobele,Ludza,Kraslava,Sigulda,Livani,Gulbene,Aizkraukle,Bauska,Valka,Smiltene,Balvi,Aizpute,Preili,Limbazi,Aluksne,Ikskile,Adazi,Saulkrasti,Baldone,Salacgriva,Ainazi,Rujiena,Mazsalaca,Ape,Strenci,Seda,Staicele,Aloja,Auce,Dagda,Durbe,Eleja,Iecava,Ilukste,Jaunelgava,Jaunjelgava,Kandava,Karsava,Koknese,Lielvarde,Ligatne,Lubana,Madona,Naukseni,Nereta,Pjavikas,Plavinas,Priekule,Rauna,Riebini,Sabile,Seja,Skriveri,Stende,Subate,Valdemarpils,Vandzene,Vangazi,Varaklani,Viesite,Vilaka,Vilani,Zilupe,Akniste,Balozi,Broceni,Cesvaine,Grobina,Kegums,Kekava,Marupe,Pavilosta,Piltene,Skrunda,Adazhi,Ergli,Erglu,Jaunpiebalga,Aglona,Amata,Drabesi,Rugaji,Baltinava,Cibla,Naujene,Vecstropi,Lociki,Medumi,Liksna,Nicgale,Saliena,Skrudaliena,Kalkune,Demene,Malinova,Laucesa,Likumnieki,Eglaine,Bikernieki,Bebrene,Selija,Augsdaugava,Sala,Jumprava,Madliena,Laubere,Suntazi,Nitaure",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Lithuanian",
-    "i": 20003,
-    "min": 4,
-    "max": 12,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Vilnius,Kaunas,Klaipeda,Siauliai,Panevezys,Alytus,Marijampole,Mazeikiai,Jonava,Utena,Kedainiai,Telsiai,Visaginas,Taurage,Ukmerge,Plunge,Silute,Kretinga,Radviliskis,Druskininkai,Palanga,Rokiskis,Birzai,Gargzdai,Kursenai,Elektrenai,Jurbarkas,Garliava,Vilkaviskis,Raseiniai,Prienai,Lentvaris,Anyksciai,Joniskis,Varena,Kaisiadorys,Pasvalys,Kupiskis,Zarasai,Skuodas,Birstonas,Moletai,Silale,Svencionys,Akmene,Kybartai,Neringa,Sakiai,Kalvarija,Venta,Naujoji Akmene,Ignalina,Kavarskas,Subacius,Pandelys,Dusetos,Uzpaliai,Troskunai,Salantai,Kretingale,Sventoji,Mosedis,Plateliai,Varkaliai,Priekule,Smalininkai,Veliuona,Ariogala,Betygala,Skaudvile,Kvedarna,Pajuris,Uzventis,Tryskiai,Seda,Luoke,Varniai,Laukuva,Kaltinenai,Batakiai,Seredzius,Erzvilkas,Vidukle,Nemaksciai,Sujainiai,Ilgiziai,Zemaiciu Naumiestis,Vainutas,Gardamas,Katyciai,Pagramantis,Darbenai,Ylakiai,Barstyciai,Lenkimai,Grigiskes,Sirvintos,Seduva,Salcininkai,Kelme,Trakai,Lazdijai,Rietavas,Pabrade,Svencioneliai,Vievis,Pakruojis,Nemencine,Akemene,Vieksniai,Rudiskes,Tytuvenai,Vilkija,Ezerelis,Pagegiai,Gelgaudiskis,Kudirkos Naumiestis,Zagare,Linkuva,Ramygala,Simnas,Veisiejai,Baltoji Voke,Jieznas,Joniskelis,Daugai,Obeliai,Vabalninkas,Duksas,Virbalis",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Slovak",
     "i": 20004,
     "min": 4,
@@ -7080,16 +6940,6 @@ window.europeNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Estonian",
-    "i": 20007,
-    "min": 4,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Tallinn,Tartu,Parnu,Narva,Viljandi,Rakvere,Sillamae,Maardu,Kuressaare,Voru,Valga,Haapsalu,Johvi,Paide,Keila,Polva,Rapla,Kardla,Loksa,Torva,Poltsamaa,Otepaa,Kilingi-Nomme,Elva,Tapa,Jarva-Jaani,Turi,Kehtna,Marjamaa,Lihula,Kopu,Parnu-Jaagupi,Audru,Sauga,Lavassaare,Tostamaa,Varbla,Hanila,Virtsu,Ridala,Paldiski,Saue,Harku,Saku,Juri,Vaida,Arukula,Raasiku,Jagala,Kostivere,Lagedi,Viimsi,Haabneeme,Randvere,Pirita,Kose,Kose-Uuemoisa,Habaja,Ardu,Rava,Paunkula,Ravila,Kanepi,Vooru,Setomaa,Obinitsa,Meremae,Saatse,Sesniki,Veriora,Koidula,Vastseliina,Luhamaa,Misso,Haanja,Ruusmae,Varstu,Antsla,Sihva,Sangaste,Keeni,Karula,Taheva,Koikkula,Paju,Tolliste,Laatre,Tsirguliina,Urvaste,Tsooru,Osula,Vana-Antsla,Haabsaare,Kuldre,Pihleni,Uhtjarve,Rosma,Ahja,Valgjarve,Taevaskoja,Suurkula,Meemaste,Peri,Leevi,Kauksi,Himmaste,Partsi,Tromsi,Ihamaru,Eoste,Padari,Narva-Joesuu,Kunda,Aseri,Viru-Nigula,Haljala,Vinni,Pajusti,Simuna,Laekvere,Avanduse,Tamsalu,Lehtse,Janeda,Koigi,Tarbja,Sargvere,Anna,Koeru,Peetri,Vodja,Imavere,Oisu,Kabala,Kullamaa,Martna,Palivere,Taebla,Haademeeste,Treimani,Rannamoisa,Voiste,Surju,Saarepeedi,Ossu,Vohma,Suure-Jaani,Olustvere,Pilistvere,Pajusi,Lustivere,Adavere,Turi-Alliku,Sarevere,Vaatsa,Roosna-Alliku,Paistu,Uusna,Koo,Saarekula,Kolga-Jaani,Leie,Kamari",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Norwegian",
     "i": 20009,
     "min": 4,
@@ -7107,16 +6957,6 @@ window.europeNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Copenhagen,Kobenhavn,Aarhus,Odense,Aalborg,Esbjerg,Randers,Kolding,Horsens,Vejle,Roskilde,Herning,Silkeborg,Naestved,Fredericia,Hjorring,Holbaek,Sonderborg,Helsingor,Frederikshavn,Ringsted,Skanderborg,Nykobing Falster,Svendborg,Haderslev,Ribe,Maribo,Thisted,Nyborg,Kalundborg,Holstebro,Skive,Struer,Lemvig,Ringkobing,Varde,Tonder,Padborg,Aabenraa,Vejen,Billund,Grindsted,Vordingborg,Nakskov,Soro,Slagelse,Korsor,Skaelskor,Haslev,Fakse,Store Heddinge,Koge,Jyllinge,Stenlose,Farum,Birkerod,Hillerod,Frederikssund,Frederiksvaerk,Hundested,Gilleleje,Hornbaek,Espergaerde,Humlebaek,Niva,Vedbaek,Rungsted,Horsholm,Kokkedal,Trorod,Virum,Holte,Allerod,Vaerlose,Malov,Smorum,Olstykke,Vekso,Ganlose,Slangerup,Helsinge,Graested,Dronningmolle,Aalsgaarde,Tikob,Hellebaek,Alsgarde,Naerum,Ordrup,Charlottenlund,Hellerup,Gentofte,Lyngby,Bagsvaerd,Soborg,Gladsaxe,Herlev,Skovlunde,Ballerup",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Dutch",
-    "i": 20011,
-    "min": 4,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Amsterdam,Rotterdam,The Hague,Den Haag,Utrecht,Eindhoven,Tilburg,Groningen,Breda,Nijmegen,Maastricht,Enschede,Haarlem,Arnhem,Zaanstad,Amersfoort,Apeldoorn,s-Hertogenbosch,Hoofddorp,Dordrecht,Leiden,Zoetermeer,Zwolle,Deventer,Delft,Heerlen,Venlo,Hilversum,Oss,Emmen,Almere,Ede,Capelle aan den IJssel,Spijkenisse,Gouda,Vlissingen,Leeuwarden,Roermond,Barneveld,Almelo,Helmond,Purmerend,Hengelo,Hoorn,Lelystad,Amstelveen,Bussum,Naarden,Huizen,Weesp,Diemen,Uithoorn,Aalsmeer,Kudelstaart,Rijnsaterwoude,Leimuiden,Nieuwkoop,Woerden,Montfoort,Oudewater,IJsselstein,Nieuwegein,Houten,Bunnik,Zeist,Soest,Soesterberg,Den Dolder,Bilthoven,Driebergen,Doorn,Langbroek,Wijk bij Duurstede,Amerongen,Elst,Oosterhout,Lent,Hatert,Malden,Groesbeek,Ubbergen,Beek,Berg en Dal,Millingen,Kranenburg,Lobith,Spijk,Tolkamer,Herwen,Aerdt,Babberich,Zevenaar,Didam,Loerbeek,Kilder,Braamt,s-Heerenberg,Zeddam,Etten,Terborg,Gaanderen,Varsseveld,Halle,Zelhem,Ruurlo,Borculo,Laren,Vorden,Steenderen,Toldijk,Baak,Bronkhorst,Doesburg,Dieren,Spankeren,Eerbeek,Loenen,Velp,Rozendaal,Rheden,Ellecom,De Steeg,Brummen,Leuvenheim,Voorst,Twello,Wilp,Klarenbeek,Beemte,Vaassen,Emst,Epe,Heerde,Wapenveld,Hattem,Windesheim,IJsselmuiden,Kampen,Oosterholt,Grafhorst,Genemuiden,Hasselt,Zwartsluis,Meppel,Staphorst,Rouveen,IJhorst,De Wijk,Zuidwolde,Dedemsvaart,Hardenberg,Gramsbergen,Coevorden,Dalen,Sleen,Klazienaveen,Nieuw-Amsterdam,Erica,Schoonebeek,Nieuw-Schoonebeek,Weiteveen,Roswinkel,Ter Apel,Vlagtwedde,Bellingwolde,Blijham,Vriescheloo,Wedde,Sellingen,Musselkanaal,Stadskanaal,Nieuw-Buinen,Buinen,Drouwenermond,Gasselternijveen,Gasselte,Gieten,Rolde,Assen,Beilen,Westerbork,Schoonloo,Elp,Witte,Norg,Peize,Roden,Leek,Tolbert,Marum,De Wilp,Surhuisterveen,Augustinusga,Buitenpost,Kollum,Dokkum,Damwoude,Veenwouden,Burgum,Suameer,Grouw,Akkrum,Jirnsum,Sneek,IJlst,Sloten,Balk,Koudum,Hindeloopen,Workum,Makkum,Bolsward",
     "status": "COMPLETE"
   },
   {
@@ -7157,16 +6997,6 @@ window.europeNameBases = [
     "d": "",
     "m": 0,
     "b": "Rennes,Brest,Quimper,Saint-Malo,Lorient,Vannes,Saint-Brieuc,Concarneau,Lanester,Fougeres,Lannion,Vitre,Morlaix,Douarnenez,Pontivy,Auray,Dinan,Guingamp,Ploemeur,Hennebont,Quimperle,Plerin,Saint-Lo,Granville,Avranches,Villedieu-les-Poeles,Cancale,Loudeac,Paimpol,Treguier,Guilvinec,Pont-lAbbe,Rosporden,Chateaugiron,Chateaulin,Chateauneuf-du-Faou,Carhaix,Rostrenen,Mur-de-Bretagne,Josselin,Malestroit,Ploermel,La Gacilly,Redon,Guer,Maure-de-Bretagne,Plelan-le-Grand,Montfort-sur-Meu,Tinteniac,Combourg,Dol-de-Bretagne,Pleine-Fougeres,Pontorson,Antrain,Bazouges-la-Perouse,Noyal-sous-Bazouges,Tremblay,Cuguen,Lanhelin,Meillac,Bonnemain,La Boussac,Epiniac,Baguer-Pican,Roz-Landrieux,Plerguer,Saint-Benoit-des-Ondes,Saint-Meloir-des-Ondes,Saint-Coulomb,Hirel,Le Vivier-sur-Mer,Cherrueix,Mont-Dol,Saint-Lunaire,Dinard,Saint-Briac-sur-Mer,Lancieux,Saint-Jacut-de-la-Mer,Ploubalay,Beausse,Saint-Jouan-des-Guerets,La Gouesniere,Saint-Pere-Marc-en-Poulet,Saint-Servan,Parame,Rotheneuf,Le Vivier,Saint-Georges-de-Reintembault,Saint-James,Argouges,Carnet,Vergoncey,Villiers-le-Preu,Preu,Le Teilleul,Barenton,Ger,Mortain,Le Neufbourg,Romagny,Juvigny-le-Tertre,Bellefontaine,Sourdeval,Percy,Hambye,Gavray,Cerences,Brehal,Saint-Pair-sur-Mer,Donville-les-Bains,Yquelon,Longueville,Anctoville-sur-Boscq,Boscq,Hudimesnil,Saint-Sauveur-Lendelin,Coutances,Gratot,Blainville-sur-Mer,Gouville-sur-Mer,Agon-Coutainville,Tourville-sur-Sienne,Heugueville-sur-Sienne,Pirou,Creances,Lessay,La Haye-du-Puits,Periers,Saint-Sauveur-Villages,Carentan,Saint-Hilaire-Petitville,Pont-Hebert,Agneaux,Saint-Georges-Montcocq,Collinee,Le Gouray,Plenee-Jugon,Jugon-les-Lacs,Plorec-sur-Arguenon,Corseul,Lanvallay,Lehon,Quevert,Taden,Saint-Helen,Saint-Samson-sur-Rance,Saint-Suliac,Pleudihen-sur-Rance,Plouer-sur-Rance",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Bashkir",
-    "i": 20018,
-    "min": 4,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Ufa,Salavat,Sterlitamak,Neftekamsk,Oktyabrsky,Beloretsk,Ishimbay,Tuymazy,Kumertau,Meleuz,Belebey,Birsk,Uchaly,Sibay,Baymak,Asha,Katav-Ivanovsk,Minyar,Sim,Yuryuzan,Vyazemsky,Karaidel,Kigi,Duvan,Mesyagutovo,Bolsheustyikinskoye,Starosubkhangulovo,Agidel,Blagoveshchensk,Davlekanovo,Dyurtyuli,Yanaul,Verkhny Avzyan,Inzer,Buribay,Tukan,Yumaguzino,Mramorkino,Meleuzovsky,Temyasovo,Isyangulovo,Krasnokholmsky,Tabynsk",
     "status": "COMPLETE"
   },
   {

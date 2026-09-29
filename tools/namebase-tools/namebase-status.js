@@ -111,6 +111,22 @@ function mapBacklog() {
   }
 }
 
+/**
+ * Protolanguages and macrolanguage groupings can never have a legitimate
+ * namebase: nobody ever spoke a reconstructed proto-language, and a language
+ * family is not a community with a shared set of settlements. Listing them as
+ * work sends an agent to research something that cannot be done, which is worse
+ * than not listing it. They are reported separately so that the decision to
+ * drop them from the mixer map is visible rather than silently deferred forever.
+ */
+const isUnworkable = u =>
+  /^(proto|pre-proto)/i.test(u.iso) ||
+  /^(proto|pre-proto)/i.test(u.name) ||
+  /^(macro|super|over)/i.test(u.iso) ||
+  /\b(umbrella|macrolanguage|language family|dialect (cluster|continuum|group)|grouping|macrofamily)\b/i.test(
+    `${u.name} ${u.family || ""}`
+  );
+
 function aliasKeys(entries) {
   const out = new Set();
   for (const e of entries) {
@@ -125,7 +141,9 @@ function aliasKeys(entries) {
   return out;
 }
 
-const noNamebase = mapBacklog();
+const allNoNamebase = mapBacklog();
+const unworkable = allNoNamebase.filter(isUnworkable);
+const noNamebase = allNoNamebase.filter(u => !isUnworkable(u));
 
 const totals = {
   entries: all.length,
@@ -135,7 +153,8 @@ const totals = {
   zero: all.filter(e => seedCount(e) === 0).length,
   contaminated: contaminated.length,
   pasted: pasted.size,
-  noNamebase: noNamebase.length
+  noNamebase: noNamebase.length,
+  unworkable: unworkable.length
 };
 
 if (asJson) {
@@ -184,6 +203,7 @@ L.push(`| Zero seeds | ${totals.zero} |`);
 L.push(`| Heavily contaminated (>=10 shared seeds) | ${totals.contaminated} |`);
 L.push(`| Pasted 8-seed blocks (W004, actionable) | ${totals.pasted} |`);
 L.push(`| Map ISOs with no namebase (research backlog) | ${totals.noNamebase} |`);
+L.push(`| Map ISOs that can never have a namebase | ${totals.unworkable} |`);
 L.push("");
 L.push("## By continent");
 L.push("");
