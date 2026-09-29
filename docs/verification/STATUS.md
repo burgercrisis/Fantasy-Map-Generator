@@ -415,7 +415,7 @@ created from research. Nothing here is guessed at.
 | arq | Algerian Arabic Names | 267 |
 | alor-pantar | Alor–Pantar | 20183 |
 | aab | Ambakich | 202547 |
-| ambo | Ambo | 2013 |
+| ambo | Ambo | 200240 |
 | amh | Amh | 872 |
 | amh2 | Amharic Expanded 3 | 872 |
 | amh3 | Amharic Expanded 4 | 872 |
@@ -429,7 +429,7 @@ created from research. Nothing here is guessed at.
 | angaataha | Angaataha | 25018 |
 | anindilyakwa | Anindilyakwa | 20265 |
 | kbx | Ap Ma | 202548 |
-| arabic-javanese-of-klego | Arabic-Javanese of Klego | 200933 |
+| arabic-javanese-of-klego | Arabic-Javanese of Klego | 17 |
 | arc | Aramaic Names | 801 |
 | arawak | Arawak | 2622 |
 | arin | Arin | 5258 |
@@ -525,7 +525,7 @@ created from research. Nothing here is guessed at.
 | bolivian-spanish | Bolivian Spanish | 785 |
 | ply | Bolyu | 1272 |
 | bolze | Bolze | 200934 |
-| bonan-manegacha | Bonan Manegacha | 1355 |
+| bonan-manegacha | Bonan Manegacha | 1353 |
 | bonin-english | Bonin English | 24809 |
 | bono-nigeria | Bono Nigeria | 20605 |
 | borgarm-let | Borgarmålet | 202261 |

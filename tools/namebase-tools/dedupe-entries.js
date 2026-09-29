@@ -117,29 +117,32 @@ for (const f of files) {
 }
 
 // Repoint the map: a row aimed at a removed copy now targets the survivor.
+// Write each file independently. Do NOT gate the .js on the .json existing:
+// only config/language-mixer-map.json is tracked, while public/config/ holds
+// just the .js, because that is the copy the browser loads. Gating the .js on
+// the .json made this tool skip public/config/ entirely and silently commit a
+// stale served map.
 let repointed = 0;
-for (const dir of CONFIG_DIRS) {
-  const jsonPath = path.join(dir, "language-mixer-map.json");
-  const jsPath = path.join(dir, "language-mixer-map.js");
-  if (!fs.existsSync(jsonPath) || !fs.existsSync(jsPath)) continue;
-
-  const jsonRows = readBracketArray(jsonPath);
-  const jsRows = readBracketArray(jsPath);
-  let touched = 0;
-  for (const rows of [jsonRows, jsRows]) {
-    for (const row of rows) {
-      for (let k = 0; k < row.bases.length; k++) {
-        const repl = indexReuse.get(row.bases[k]);
-        if (repl !== undefined && repl !== row.bases[k]) {
-          row.bases[k] = repl;
-          touched++;
-        }
-      }
+const jsonPath = path.join(CONFIG_DIRS[0], "language-mixer-map.json");
+if (fs.existsSync(jsonPath)) {
+  const rows = readBracketArray(jsonPath);
+  for (const row of rows) {
+    for (let k = 0; k < row.bases.length; k++) {
+      const repl = indexReuse.get(row.bases[k]);
+      if (repl !== undefined && repl !== row.bases[k]) { row.bases[k] = repl; repointed++; }
     }
   }
-  fs.writeFileSync(jsonPath, JSON.stringify(jsonRows, null, 2) + "\n", "utf8");
-  fs.writeFileSync(jsPath, `globalThis.languageMixerMap = ${JSON.stringify(jsRows, null, 2)};\n`, "utf8");
-  repointed = touched;
+  fs.writeFileSync(jsonPath, JSON.stringify(rows, null, 2) + "\n", "utf8");
+}
+const jsRows = readBracketArray(path.join(CONFIG_DIRS[0], "language-mixer-map.js"));
+for (const row of jsRows) {
+  for (let k = 0; k < row.bases.length; k++) {
+    const repl = indexReuse.get(row.bases[k]);
+    if (repl !== undefined && repl !== row.bases[k]) { row.bases[k] = repl; repointed++; }
+  }
+}
+for (const dir of CONFIG_DIRS) {
+  fs.writeFileSync(path.join(dir, "language-mixer-map.js"), `globalThis.languageMixerMap = ${JSON.stringify(jsRows, null, 2)};\n`, "utf8");
 }
 console.log(`  rewrote ${files.length} namebase file(s)`);
 console.log(`  map base references repointed: ${repointed}`);

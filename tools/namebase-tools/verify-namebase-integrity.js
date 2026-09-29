@@ -354,6 +354,41 @@ for (const [e, info] of pasted) {
 }
 
 // ---------------------------------------------------------------------------
+// M001 - the two copies of the mixer map must agree
+// ---------------------------------------------------------------------------
+//
+// The map exists twice: config/language-mixer-map.js, which tools read and the
+// guardrails validate, and public/config/language-mixer-map.js, which is the
+// copy src/index.html actually loads (vite serves publicDir at the root). They
+// drifted for one commit because dedupe-entries.js wrote them inside a loop
+// that skipped any directory whose .json was absent - and only config/ has a
+// .json, so the served copy was never updated while the tool reported success.
+//
+// This compares them. Divergence means the thing being validated and the thing
+// being run are different files, which is the same class of hole as the
+// guardrails having been checking a 3693-row file while the app loaded 4360.
+
+const mapCopies = [
+  ["config/language-mixer-map.js", "public/config/language-mixer-map.js"],
+  ["config/language-mixer-map.json", "public/config/language-mixer-map.json"]
+];
+for (const [a, b] of mapCopies) {
+  const pa = path.join(root, a);
+  const pb = path.join(root, b);
+  const ea = fs.existsSync(pa);
+  const eb = fs.existsSync(pb);
+  if (ea && eb) {
+    if (fs.readFileSync(pa, "utf8") !== fs.readFileSync(pb, "utf8")) {
+      err("M001", b, `differs from ${a}. The served copy and the validated copy must be identical.`);
+    }
+  } else if (ea && !eb && a.endsWith(".json")) {
+    warn("M002", b, "not present. Only the .js is needed for serving; the .json source lives in config/.");
+  } else if (eb && !ea) {
+    err("M001", a, "missing while " + b + " exists.");
+  }
+}
+
+// ---------------------------------------------------------------------------
 // S001 / S002 - the served data files must parse and run
 // ---------------------------------------------------------------------------
 //

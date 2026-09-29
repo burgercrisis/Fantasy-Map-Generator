@@ -33,6 +33,8 @@
     "namebase:aggregator": "node tools/namebase-tools/verify-aggregator-runs.js",
     "namebase:repair-map": "node tools/namebase-tools/repair-mixer-map.js",
     "namebase:dedupe": "node tools/namebase-tools/dedupe-entries.js",
+    "namebase:repoint": "node tools/namebase-tools/repoint-dangling.js",
+    "namebase:verify-dist": "node tools/namebase-tools/verify-built-output.js",
     "namebase:unique-indices": "node tools/namebase-tools/unique-indices.js",
     "prepare": "simple-git-hooks"
   },
