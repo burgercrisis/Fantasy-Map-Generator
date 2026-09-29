@@ -1,18 +1,7 @@
 "use strict";
 const fs = require("fs");
 const path = require("path");
-
-const NAMEBASE_FILES = [
-  "modules/namebases-africa.js",
-  "modules/namebases-asia.js",
-  "modules/namebases-europe.js",
-  "modules/namebases-northAmerica.js",
-  "modules/namebases-southAmerica.js",
-  "modules/namebases-oceania.js",
-  "modules/namebases-unknown.js",
-  "modules/namebases-fantasy.js",
-  "modules/namebases-dedicated.js"
-];
+const {loadAll} = require("./namebase-tools/namebase-lib");
 
 const ROOT = path.resolve(__dirname, "..");
 const CATALOG_PATH = path.join(ROOT, "config/language-mixes.json");
@@ -128,67 +117,42 @@ const catalog = JSON.parse(fs.readFileSync(CATALOG_PATH, "utf8"));
 const catalogByName = new Map();
 catalog.forEach(c => { if (c.name) catalogByName.set(c.name.toLowerCase(), c); });
 
-// Parse entries - handles both quoted and unquoted keys
-function extractEntries(content, filename) {
-  const entries = [];
-  const re = /\{[^{}]*\}/g;
-  let match;
-  while ((match = re.exec(content)) !== null) {
-    const block = match[0];
-    // Try quoted keys first, then unquoted
-    let nameM = block.match(/"name":\s*"([^"]+)"/);
-    if (!nameM) nameM = block.match(/name:\s*"([^"]+)"/);
-    let iM = block.match(/"i":\s*(\d+)/);
-    if (!iM) iM = block.match(/i:\s*(\d+)/);
-    if (!nameM || !iM) continue;
-
-    const name = nameM[1];
-    const idx = parseInt(iM[1], 10);
-
-    let minM = block.match(/"min":\s*(\d+)/);
-    if (!minM) minM = block.match(/min:\s*(\d+)/);
-    let maxM = block.match(/"max":\s*(\d+)/);
-    if (!maxM) maxM = block.match(/max:\s*(\d+)/);
-    let dM = block.match(/"d":\s*"([^"]*)"/);
-    if (!dM) dM = block.match(/d:\s*"([^"]*)"/);
-    let mM = block.match(/"m":\s*([\d.]+)/);
-    if (!mM) mM = block.match(/m:\s*([\d.]+)/);
-    let bM = block.match(/"b":\s*"([^"]*)"/);
-    if (!bM) bM = block.match(/b:\s*"([^"]*)"/);
-    let statusM = block.match(/"status":\s*"([^"]*)"/);
-    if (!statusM) statusM = block.match(/status:\s*"([^"]*)"/);
-
-    const min = minM ? parseInt(minM[1]) : null;
-    const max = maxM ? parseInt(maxM[1]) : null;
-    const d = dM ? dM[1] : null;
-    const m = mM ? parseFloat(mM[1]) : null;
-    const bField = bM ? bM[1] : "";
-    const status = statusM ? statusM[1] : null;
+// Load entries via the shared namebase parser (single source of truth for
+// reading public/modules/namebases-*.js; never hand-roll a slice/regex here).
+function entriesOf(parsed) {
+  return parsed.entries.map(entry => {
+    const bField = typeof entry.b === "string" ? entry.b : "";
     const tokens = bField.split(",").map(s => s.trim()).filter(Boolean);
     const nameTokens = tokens.filter(t => !/^\d+$/.test(t));
     const numericTokens = tokens.filter(t => /^\d+$/.test(t));
 
-    entries.push({
-      name, i: idx, min, max, d, m, bField, filename, status,
+    return {
+      name: entry.name,
+      i: entry.i,
+      min: entry.min === undefined ? null : entry.min,
+      max: entry.max === undefined ? null : entry.max,
+      d: entry.d === undefined ? null : entry.d,
+      m: entry.m === undefined ? null : entry.m,
+      bField,
+      filename: parsed.file.replace(/^.*[\\/]/, ""),
+      status: entry.status === undefined ? null : entry.status,
       seedCount: nameTokens.length,
       numericCount: numericTokens.length,
       totalTokens: tokens.length,
       sampleSeeds: nameTokens.slice(0, 5).join(" | "),
       allSeeds: nameTokens.join(" | ")
-    });
-  }
-  return entries;
+    };
+  });
 }
 
 const allEntries = [];
-for (const file of NAMEBASE_FILES) {
+for (const parsed of loadAll()) {
   try {
-    const content = fs.readFileSync(path.join(ROOT, file), "utf8");
-    const entries = extractEntries(content, file.replace("modules/", ""));
+    const entries = entriesOf(parsed);
     allEntries.push(...entries);
-    console.log(file + ": " + entries.length + " entries");
+    console.log(parsed.file.replace(/^.*[\\/]/, "") + ": " + entries.length + " entries");
   } catch (e) {
-    console.error("ERROR parsing " + file + ": " + e.message);
+    console.error("ERROR parsing " + parsed.file + ": " + e.message);
   }
 }
 console.log("Total: " + allEntries.length + " entries");

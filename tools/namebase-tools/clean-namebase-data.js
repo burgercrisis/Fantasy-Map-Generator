@@ -72,11 +72,24 @@ const totals = {
 
 const perFile = [];
 const samples = [];
+const skippedFiles = [];
 
 for (const continent of CONTINENTS) {
   const file = path.join(NAMEBASE_DIR, `namebases-${continent}.js`);
-  const {raw, entries, garbage} = loadNameBaseFile(continent);
   const short = `namebases-${continent}.js`;
+
+  // Skip a file that will not parse rather than aborting the whole run. An
+  // agent part-way through an edit can leave one continent malformed, and the
+  // other six still need cleaning.
+  let loaded;
+  try {
+    loaded = loadNameBaseFile(continent);
+  } catch (e) {
+    console.log(`  ${continent.padEnd(14)} SKIPPED - does not parse: ${e.message}`);
+    skippedFiles.push(continent);
+    continue;
+  }
+  const {raw, entries, garbage} = loaded;
 
   // Start from the raw array so we can rebuild the exact original row order,
   // dropping only the rows we have decided to drop.
@@ -191,4 +204,10 @@ if (verbose) {
 if (!write) {
   const changed = perFile.filter(f => f.changed).length;
   console.log(`Dry run. ${changed} file(s) would change. Re-run with --write to apply.`);
+}
+
+if (skippedFiles.length) {
+  console.log("");
+  console.log(`NOT CLEANED (do not parse): ${skippedFiles.join(", ")}`);
+  console.log("These are left untouched. Fix the syntax error, then re-run.");
 }

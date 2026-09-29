@@ -781,35 +781,19 @@ function writeJson(relPath, data) {
 }
 
 function loadNamebases() {
-  const files = [
-    path.join(root, "modules", "namebases-real.js"),
-    path.join(root, "modules", "namebases-fantasy.js"),
-    path.join(root, "modules", "namebases-creole.js")
-  ];
+  // The continental namebase files replaced the legacy namebases-real.js /
+  // namebases-fantasy.js / namebases-creole.js trio. Read them through the
+  // shared loader so this tool cannot drift from what the browser sees.
+  const {loadNameBases} = require("../namebase-tools/load-namebases");
 
-  const re = /\{name:\s*"([^"]+)",\s*i:\s*(\d+)/g;
   const byName = new Map();
   const indices = new Set();
 
-  for (const file of files) {
-    let src;
-    try {
-      src = fs.readFileSync(file, "utf8");
-    } catch (e) {
-      console.error("Failed to read namebases file", file, e?.message || e);
-      continue;
-    }
-
-    let m;
-    while ((m = re.exec(src))) {
-      const name = m[1];
-      const index = Number(m[2]);
-      if (!Number.isNaN(index)) {
-        const key = name.toLowerCase();
-        if (!byName.has(key)) byName.set(key, index);
-        indices.add(index);
-      }
-    }
+  for (const base of loadNameBases().populated) {
+    if (typeof base.i === "number") indices.add(base.i);
+    if (typeof base.name !== "string") continue;
+    const key = base.name.toLowerCase();
+    if (!byName.has(key)) byName.set(key, base.i);
   }
 
   return {byName, indices};

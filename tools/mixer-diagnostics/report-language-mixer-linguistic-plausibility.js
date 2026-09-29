@@ -122,31 +122,17 @@ function buildShortlistTsv(issues) {
   return toTsv(shortlistRows, columns);
 }
 
+// The continental namebase files replaced the legacy namebases-real.js /
+// namebases-fantasy.js / namebases-creole.js trio. Read them through the
+// shared loader rather than re-parsing them here.
+const {loadNameBases} = require("../namebase-tools/load-namebases");
+
 function loadBaseIndexToNameMap() {
-  const files = [
-    path.join(root, "modules", "namebases-real.js"),
-    path.join(root, "modules", "namebases-fantasy.js"),
-    path.join(root, "modules", "namebases-creole.js"),
-  ];
-
   const byIndex = new Map();
-  const re = /\{name:\s*"([^"]+)",\s*i:\s*(\d+)/g;
-
-  for (const file of files) {
-    let src;
-    try {
-      src = fs.readFileSync(file, "utf8");
-    } catch {
-      continue;
-    }
-
-    let m;
-    while ((m = re.exec(src))) {
-      const name = m[1];
-      const idx = Number(m[2]);
-      if (Number.isNaN(idx)) continue;
-      if (!byIndex.has(idx)) byIndex.set(idx, name);
-    }
+  for (const base of loadNameBases().populated) {
+    const idx = base && typeof base.i === "number" ? base.i : NaN;
+    if (Number.isNaN(idx)) continue;
+    if (!byIndex.has(idx)) byIndex.set(idx, base.name);
   }
 
   return byIndex;

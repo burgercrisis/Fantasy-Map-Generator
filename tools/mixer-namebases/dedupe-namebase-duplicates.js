@@ -7,32 +7,12 @@ const vm = require("vm");
 const root = path.resolve(__dirname, "..", "..");
 
 function loadDefaultNameBases() {
-  const sandbox = {window: {}};
-  const context = vm.createContext(sandbox);
+  // The continental namebase files replaced the legacy namebases-real.js /
+  // namebases-creole.js pair. The shared loader runs the real files and the
+  // real aggregator, so this tool sees exactly what the browser sees.
+  const {loadNameBases} = require("../namebase-tools/load-namebases");
 
-  const files = [
-    path.join(root, "modules", "namebases-real.js"),
-    path.join(root, "modules", "namebases-fantasy.js"),
-    path.join(root, "modules", "namebases-creole.js"),
-    path.join(root, "modules", "namebases-all.js")
-  ];
-
-  for (const full of files) {
-    let src;
-    try {
-      src = fs.readFileSync(full, "utf8");
-    } catch (e) {
-      continue;
-    }
-
-    try {
-      vm.runInContext(src, context, {filename: full});
-    } catch (e) {
-      continue;
-    }
-  }
-
-  return sandbox.window && sandbox.window.defaultNameBases || [];
+  return loadNameBases().nameBases;
 }
 
 function splitNames(blob) {
@@ -99,9 +79,13 @@ function main() {
   }
 
   const sourceFiles = [
-    "modules/namebases-real.js",
-    "modules/namebases-fantasy.js",
-    "modules/namebases-creole.js"
+    "public/modules/namebases-africa.js",
+    "public/modules/namebases-asia.js",
+    "public/modules/namebases-europe.js",
+    "public/modules/namebases-northAmerica.js",
+    "public/modules/namebases-southAmerica.js",
+    "public/modules/namebases-oceania.js",
+    "public/modules/namebases-fantasy.js"
   ];
 
   let totalProcessed = 0;
@@ -125,16 +109,23 @@ function main() {
       const dedup = dedupeList(info.origB);
       if (dedup.newCount === dedup.origCount) continue;
 
+      // The continental files store entries as JSON, so the keys are quoted:
+      // "i": 123, "b": "A,B". Accept the quoted and unquoted spellings.
       const re = new RegExp(
-        String.raw`\{[^}]*i:\s*` + idx + String.raw`[^}]*b:\s*"([^"]+)"`
+        String.raw`\{[^}]*["']?i["']?\s*:\s*` + idx + String.raw`[^}]*["']?b["']?\s*:\s*"([^"]+)"`
       );
 
       const m = re.exec(src);
       if (!m) continue;
 
-      const origB = m[1];
       const before = m[0];
-      const after = before.replace(`b: "${origB}"`, `b: "${dedup.value}"`);
+      // Splice the new value into the captured "b" slot rather than string
+      // matching on `b: "..."`, which does not exist in the quoted JSON form.
+      const after = before.replace(
+        /(["']?b["']?\s*:\s*")([^"]*)(")$/,
+        (_full, pre, _value, post) => pre + dedup.value + post
+      );
+      if (after === before) continue;
 
       src = src.slice(0, m.index) + after + src.slice(m.index + before.length);
       changed = true;

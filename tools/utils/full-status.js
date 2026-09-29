@@ -1,13 +1,13 @@
 const fs = require("fs");
 
 const FILES = [
-  "modules/namebases-africa.js",
-  "modules/namebases-asia.js",
-  "modules/namebases-europe.js",
-  "modules/namebases-northAmerica.js",
-  "modules/namebases-southAmerica.js",
-  "modules/namebases-oceania.js",
-  "modules/namebases-unknown.js"
+  "public/modules/namebases-africa.js",
+  "public/modules/namebases-asia.js",
+  "public/modules/namebases-europe.js",
+  "public/modules/namebases-northAmerica.js",
+  "public/modules/namebases-southAmerica.js",
+  "public/modules/namebases-oceania.js",
+  "public/modules/namebases-fantasy.js"
 ];
 
 for (const f of FILES) {
@@ -37,5 +37,5 @@ for (const f of FILES) {
 
   const entries = (c.match(/"name":/g) || []).length;
   const balanced = o === cl ? "YES" : "NO";
-  console.log(f.replace("modules/", "") + ": bal=" + balanced + " o=" + o + "/cl=" + cl + " entries=" + entries + " d-corrupt=" + corrupted + " d-clean=" + clean + " d-empty=" + empty + " chinese=" + chinese + " leadSp=" + leadSpaces);
+  console.log(f.replace("public/modules/", "") + ": bal=" + balanced + " o=" + o + "/cl=" + cl + " entries=" + entries + " d-corrupt=" + corrupted + " d-clean=" + clean + " d-empty=" + empty + " chinese=" + chinese + " leadSp=" + leadSpaces);
 }

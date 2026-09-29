@@ -1,24 +1,13 @@
 "use strict";
 const fs = require("fs");
-const vm = require("vm");
 const path = require("path");
 const root = path.resolve(__dirname, "..");
 
-const sandbox = {window: {}, module: {exports: {}}, exports: {}, console, nameBases: []};
-sandbox.exports = sandbox.module.exports;
-sandbox.globalThis = sandbox;
-const context = vm.createContext(sandbox);
-const continentFiles = [
-  "namebases-africa.js","namebases-asia.js","namebases-europe.js",
-  "namebases-northAmerica.js","namebases-oceania.js","namebases-southAmerica.js","namebases-unknown.js"
-];
-for (const f of continentFiles) {
-  vm.runInContext(fs.readFileSync(path.join(root,"modules",f),"utf8"), context, {filename:f});
-}
-vm.runInContext(fs.readFileSync(path.join(root,"modules","namebases-fantasy.js"),"utf8"), context, {filename:"fantasy"});
-vm.runInContext(fs.readFileSync(path.join(root,"modules","namebases-dedicated.js"),"utf8"), context, {filename:"dedicated"});
-vm.runInContext(fs.readFileSync(path.join(root,"modules","namebases-all.js"),"utf8"), context, {filename:"all"});
-const NB = sandbox.window.defaultNameBases;
+// The continental namebase files replaced the legacy namebases-unknown.js /
+// namebases-dedicated.js layout. Load the merged set through the shared loader
+// so this tool sees exactly what the browser sees.
+const {loadNameBases} = require("./namebase-tools/load-namebases");
+const NB = loadNameBases().nameBases;
 
 // Build seed ownership
 const seedOwners = {};

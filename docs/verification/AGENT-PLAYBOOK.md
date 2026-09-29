@@ -25,8 +25,10 @@ Three more commands exist. That is the entire toolset:
 | `pnpm namebase:clean` | Mechanically strip padding, dupes and false status. `-- --check` to preview. |
 | `pnpm namebase:claim <continent>` | Lock a continent so another agent does not overwrite your work. |
 | `pnpm namebase:aggregator` | Prove the served data files actually run, not just parse. |
+| `pnpm namebase:verify-dist` | Check the **built** bundle in `dist/`, not the source tree. |
 | `pnpm namebase:map-audit` | Check every mixer-map ISO points at its own language. |
 | `pnpm namebase:repair-map` | Repoint map rows at the right namebase. Rarely needed. |
+| `pnpm namebase:repoint` | Repoint map rows whose index no longer resolves. |
 | `pnpm namebase:dedupe` | Remove whole-entry duplicates. |
 | `pnpm namebase:unique-indices` | Give every entry a unique index. |
 
@@ -188,6 +190,9 @@ switched off.
 | `E007` | The same seed twice in one entry | Wasteful and always wrong. |
 | `E008` | `COMPLETE` while below the floor | The status field is a fact, not an opinion. |
 | `E009` | A seed starting with a digit | No toponym starts with a digit. It is a date, a count or a footnote. |
+| `S001` | A served data file does not parse | A SyntaxError there means the file never executes. |
+| `S002` | The aggregator does not run, or indices do not line up | Proved by loading it in a VM, not by parsing it. |
+| `M001` | The two copies of the mixer map differ | The validated file and the served file must be the same file. |
 | `T001` | A tool reading a data file that does not exist | The tool cannot run. |
 
 Warnings — `W001` zero seeds, `W003` cross-entry contamination, and the below-floor
@@ -219,14 +224,14 @@ diff somebody has to read. Use it honestly.
 
 3,874 entries. 918 below the seed floor. Open items, in the order worth doing:
 
-1. **859 mixer-map ISOs with no namebase.** A user can ask for Agaw, Baka,
-   Bamukumbit, Dibiyaso or Guriaso and the map has no entry under that name, so
-   they get an unrelated language's names. Real languages; each needs research
-   before a namebase can be written. Listed in `STATUS.md`.
+1. **859 mixer-map ISOs with no namebase** (124 of them referenced by a map
+   row that therefore resolves to nothing). A user can ask for Agaw, Baka,
+   Bamukumbit, Dibiyaso or Guriaso and there is no entry under that name. Real
+   languages; each needs research before a namebase can be written. Listed in
+   `STATUS.md`.
 2. **918 entries below the seed floor** — the main name-quality work. Asia first.
 3. **20 entries with pasted 8-seed blocks** (`W004`). These are copy-paste
    artifacts and are never legitimate, unlike the raw shared-seed count.
-4. **21 dead tools** (`T001`) reading data paths that do not exist.
 
 ### A warning about the shared-seed count
 
@@ -259,5 +264,12 @@ duplicate index, and the map is append-only per
 - **Do not trust a number you did not just measure** with
   `pnpm namebase:verify`. Several tools in this repo silently undercount because
   of a regex that truncates the array at the first `];`.
+- **There are two copies of the mixer map** — `config/language-mixer-map.js`,
+  which tools and the guardrails read, and
+  `public/config/language-mixer-map.js`, which is the copy the browser loads,
+  because vite serves `public/` at the site root. They have drifted before,
+  silently, because a tool skipped one directory. `M001` in the gate now fails
+  on divergence. If you write a tool that updates the map, update both, and
+  prefer `pnpm namebase:repoint` over hand-editing.
 - **If you cannot verify a name, remove it.** An entry with 12 real names beats
   one with 25 where 13 are invented. `WAITING` is an honest answer.

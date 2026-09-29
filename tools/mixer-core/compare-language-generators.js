@@ -20,32 +20,12 @@ function readJson(relPath) {
 }
 
 function loadDefaultNameBases() {
-  const sandbox = {window: {}};
-  const context = vm.createContext(sandbox);
+  // The continental namebase files replaced the legacy namebases-real.js /
+  // namebases-creole.js pair. The shared loader runs the real files and the
+  // real aggregator, so this tool sees exactly what the browser sees.
+  const {loadNameBases} = require("../namebase-tools/load-namebases");
 
-  const files = [
-    path.join(root, "modules", "namebases-real.js"),
-    path.join(root, "modules", "namebases-fantasy.js"),
-    path.join(root, "modules", "namebases-creole.js"),
-    path.join(root, "modules", "namebases-all.js")
-  ];
-
-  for (const full of files) {
-    let src;
-    try {
-      src = fs.readFileSync(full, "utf8");
-    } catch (e) {
-      throw new Error("Failed to read " + full + ": " + (e && e.message ? e.message : e));
-    }
-
-    try {
-      vm.runInContext(src, context, {filename: full});
-    } catch (e) {
-      throw new Error("Failed to execute " + full + ": " + (e && e.message ? e.message : e));
-    }
-  }
-
-  const bases = sandbox.window && sandbox.window.defaultNameBases;
+  const bases = loadNameBases().nameBases;
   if (!Array.isArray(bases)) {
     throw new Error("defaultNameBases not populated; did namebases-all.js run?");
   }

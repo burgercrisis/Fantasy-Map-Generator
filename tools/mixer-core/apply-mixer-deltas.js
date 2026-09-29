@@ -203,43 +203,14 @@ function writeJson(relPath, data) {
 }
 
 function loadNamebaseIndices() {
-  const files = [
-    path.join(root, "modules", "namebases-real.js"),
-    path.join(root, "modules", "namebases-fantasy.js"),
-    path.join(root, "modules", "namebases-creole.js")
-  ];
+  // The continental namebase files replaced the legacy namebases-real.js /
+  // namebases-fantasy.js / namebases-creole.js trio. Read them through the
+  // shared loader so this tool cannot drift from what the browser sees.
+  const {loadNameBases} = require("../namebase-tools/load-namebases");
 
   const indices = new Set();
-
-  const fileToArrayKey = new Map([
-    [path.join(root, "modules", "namebases-real.js"), "realWorldNameBases"],
-    [path.join(root, "modules", "namebases-fantasy.js"), "fantasyNameBases"],
-    [path.join(root, "modules", "namebases-creole.js"), "creoleNameBases"]
-  ]);
-
-  const vm = require('vm');
-
-  for (const file of files) {
-    const key = fileToArrayKey.get(file);
-    if (!key) continue;
-
-    let code;
-    try {
-      code = decodeTextFile(fs.readFileSync(file));
-    } catch (e) {
-      if (e && e.code === "ENOENT") continue;
-      throw e;
-    }
-
-    const context = {window: {}};
-    vm.createContext(context);
-    vm.runInContext(code, context, {filename: path.basename(file)});
-
-    const arr = context.window && Array.isArray(context.window[key]) ? context.window[key] : [];
-    for (const o of arr) {
-      const idx = o && typeof o.i === "number" ? o.i : NaN;
-      if (Number.isFinite(idx)) indices.add(idx);
-    }
+  for (const idx of loadNameBases().indices) {
+    if (Number.isFinite(idx)) indices.add(idx);
   }
 
   return indices;

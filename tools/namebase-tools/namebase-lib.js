@@ -98,10 +98,22 @@ const TEMPLATE_SUFFIXES = [
 ];
 
 /** Longest stem allowed before a word stops looking like template filler. */
-const TEMPLATE_MAX_STEM = 3;
+const TEMPLATE_MAX_STEM = 4;
 
 /** Longest total length allowed for template filler. */
-const TEMPLATE_MAX_LENGTH = 10;
+const TEMPLATE_MAX_LENGTH = 12;
+
+/**
+ * How many DIFFERENT template suffixes must appear on the same stem before that
+ * stem is called filler regardless of stem length.
+ *
+ * This catches a family the stem-length cap alone misses. The Media Lengua entry
+ * (i=200955) ends with MediaLenguatown, MediaLenguaville, MediaLenguaburg,
+ * MediaLenguaview, MediaLenguaside - one stem, five suffixes, no real place
+ * named any of them. No genuine toponym set reuses one stem across four or more
+ * unrelated English endings.
+ */
+const TEMPLATE_STEM_FANOUT = 4;
 
 /** Strip everything but ASCII letters, lowercased. Used for padding detection. */
 function alpha(s) {
@@ -154,9 +166,32 @@ function loadNameBaseFile(continent) {
   return {continent, file, entries, garbage, raw};
 }
 
-/** Load every continental namebase file. */
+/**
+ * Load every continental namebase file.
+ *
+ * A file that will not parse is reported through its `error` field rather than
+ * thrown. One malformed continent used to abort the entire gate, so a stray
+ * character in one file blinded every check for every other continent - and an
+ * agent part-way through an edit could take the whole toolchain down for
+ * everyone else. A broken file is now a finding, not a crash.
+ *
+ * @returns {Array<{continent: string, file: string, entries: object[], garbage: object[], error: string|null}>}
+ */
 function loadAll() {
-  return CONTINENTS.map(loadNameBaseFile);
+  return CONTINENTS.map(continent => {
+    try {
+      return loadNameBaseFile(continent);
+    } catch (err) {
+      return {
+        continent,
+        file: path.join(NAMEBASE_DIR, `namebases-${continent}.js`),
+        entries: [],
+        garbage: [],
+        error: err.message,
+        raw: ""
+      };
+    }
+  });
 }
 
 /** Split an entry's `b` field into trimmed, non-empty seeds. */
@@ -217,18 +252,60 @@ function detectStemPadding(entry) {
  */
 function detectTemplatePadding(entry, opts) {
   const min = (opts && opts.min) || 6;
-  const hits = seedsOf(entry).filter(seed => {
-    if (seed.length > TEMPLATE_MAX_LENGTH) return false;
-    if (/[^A-Za-z]/.test(seed)) return false; // spaces/punctuation => real toponym
+  const seeds = seedsOf(entry);
+
+  // THE ONLY RELIABLE SIGNAL
+  // -----------------------
+  // One stem, several different English toponym endings: Karenictown,
+  // Karenicville, Karenicburg, Karenicview, Karenicside, ... No genuine
+  // toponym set reuses one stem across four or more unrelated endings.
+  //
+  // The tempting alternative - "short stem + suffix", e.g. Aport, Adutown,
+  // Amedford - is NOT usable. Raising the stem cap to catch "Amedford"
+  // (stem 4) also flags Boksburg, Vryburg, Bellville, Kirkwood, Fochville,
+  // Winburg, Rouxville and Hopetown, all of which are real South African
+  // places. The -burg/-ville/-town family is saturated with real names whose
+  // stems are 3-4 characters, so the two cases are not separable by shape. Only
+  // the fanout shape separates them, so only the fanout shape is used.
+  const fanout = new Map();
+  for (const seed of seeds) {
+    if (/[^A-Za-z]/.test(seed)) continue;
     const lower = seed.toLowerCase();
     for (const sfx of TEMPLATE_SUFFIXES) {
       if (!lower.endsWith(sfx)) continue;
-      const stem = lower.length - sfx.length;
-      if (stem >= 1 && stem <= TEMPLATE_MAX_STEM) return true;
+      const stem = lower.slice(0, lower.length - sfx.length);
+      if (stem.length < 3) continue;
+      if (!fanout.has(stem)) fanout.set(stem, new Set());
+      fanout.get(stem).add(sfx);
+      break;
     }
-    return false;
-  });
-  return hits.length >= min ? hits : [];
+  }
+
+  const out = new Set();
+  for (const [stem, sfxSet] of fanout) {
+    if (sfxSet.size < TEMPLATE_STEM_FANOUT) continue;
+    for (const seed of seeds) {
+      if (!/[^A-Za-z]/.test(seed) && seed.toLowerCase().startsWith(stem)) out.add(seed);
+    }
+  }
+
+  // Once an entry is known to be templated, also take its short-stem filler.
+  // The fanout above proved the entry is generated, so the shape test that is
+  // unsafe on its own is safe here as corroboration rather than sole evidence.
+  if (out.size) {
+    for (const seed of seeds) {
+      if (out.has(seed)) continue;
+      if (seed.length > TEMPLATE_MAX_LENGTH || /[^A-Za-z]/.test(seed)) continue;
+      const lower = seed.toLowerCase();
+      for (const sfx of TEMPLATE_SUFFIXES) {
+        if (!lower.endsWith(sfx)) continue;
+        const stem = lower.length - sfx.length;
+        if (stem >= 1 && stem <= TEMPLATE_MAX_STEM) { out.add(seed); break; }
+      }
+    }
+  }
+
+  return out.size >= min ? [...out] : [];
 }
 
 /**

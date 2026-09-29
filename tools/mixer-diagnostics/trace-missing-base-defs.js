@@ -52,27 +52,14 @@ function decodeTextFile(buf) {
 }
 
 function loadNamebaseIndices() {
-  const files = [
-    [path.join(root, "modules", "namebases-real.js"), "realWorldNameBases"],
-    [path.join(root, "modules", "namebases-fantasy.js"), "fantasyNameBases"],
-    [path.join(root, "modules", "namebases-creole.js"), "creoleNameBases"]
-  ];
+  // The continental namebase files replaced the legacy namebases-real.js /
+  // namebases-fantasy.js / namebases-creole.js trio. Read them through the
+  // shared loader rather than re-parsing them here.
+  const {loadNameBases} = require("../namebase-tools/load-namebases");
 
   const indices = new Set();
-
-  for (const [file, key] of files) {
-    if (!fs.existsSync(file)) continue;
-
-    const code = decodeTextFile(fs.readFileSync(file));
-    const context = {window: {}};
-    vm.createContext(context);
-    vm.runInContext(code, context, {filename: path.basename(file)});
-
-    const arr = context.window && Array.isArray(context.window[key]) ? context.window[key] : [];
-    for (const o of arr) {
-      const idx = o && typeof o.i === "number" ? o.i : NaN;
-      if (Number.isFinite(idx)) indices.add(idx);
-    }
+  for (const idx of loadNameBases().indices) {
+    if (Number.isFinite(idx)) indices.add(idx);
   }
 
   return indices;

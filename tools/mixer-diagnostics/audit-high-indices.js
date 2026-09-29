@@ -1,20 +1,15 @@
 const fs = require('fs');
 const path = require('path');
+const {realWorldNameBases} = require('../namebase-tools/load-namebases');
 
 const map = JSON.parse(fs.readFileSync('config/language-mixer-map.json', 'utf8'));
-const content = fs.readFileSync('modules/namebases-real.js', 'utf8');
 
 const nbIndices = {};
-const lines = content.split('\n');
-lines.forEach(line => {
-    const match = line.match(/\{name: "(.*?)", i: (\d+),/);
-    if (match) {
-        const name = match[1];
-        const idx = parseInt(match[2]);
-        if (idx >= 13900) {
-            if (!nbIndices[idx]) nbIndices[idx] = [];
-            nbIndices[idx].push(name);
-        }
+realWorldNameBases().forEach(base => {
+    if (typeof base.i !== 'number') return;
+    if (base.i >= 13900) {
+        if (!nbIndices[base.i]) nbIndices[base.i] = [];
+        nbIndices[base.i].push(base.name);
     }
 });
 

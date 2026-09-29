@@ -95,6 +95,14 @@ try {
   process.exit(1);
 }
 
+// A continent that will not parse is a finding in its own right, not a reason to
+// abandon every other check.
+for (const f of files) {
+  if (f.error) {
+    err("S001", `namebases-${f.continent}.js`, `will not parse, so no check ran on it: ${f.error}`);
+  }
+}
+
 // ---------------------------------------------------------------------------
 // E001 / E002 - structural corruption
 // ---------------------------------------------------------------------------
