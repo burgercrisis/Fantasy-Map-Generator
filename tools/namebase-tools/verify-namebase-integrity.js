@@ -61,6 +61,7 @@ const {
   seedCount,
   detectStemPadding,
   detectTemplatePadding,
+  detectNonPlaceTokens,
   findDuplicateSeeds,
   buildSeedFrequency,
   contaminationFor,
@@ -185,6 +186,17 @@ for (const e of allEntries) {
   const dupes = findDuplicateSeeds(e);
   if (dupes.length) {
     err("E007", short, `${labelOf(e)} repeats ${dupes.length} seed(s): ${dupes.slice(0, 8).join(", ")}`);
+  }
+
+  const nonPlace = detectNonPlaceTokens(e);
+  if (nonPlace.length) {
+    err(
+      "E009",
+      short,
+      `${labelOf(e)} has ${nonPlace.length} seed(s) that cannot be place names ` +
+        `(they start with a digit, so they are dates, counts or footnotes): ` +
+        `${nonPlace.slice(0, 6).join(", ")}`
+    );
   }
 }
 

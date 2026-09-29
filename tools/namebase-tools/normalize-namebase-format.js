@@ -50,9 +50,11 @@ let changed = [];
 
 for (const continent of CONTINENTS) {
   const file = path.join(NAMEBASE_DIR, `namebases-${continent}.js`);
-  const {file: loadedPath, raw, entries, garbage} = loadNameBaseFile(continent);
+  const {raw, garbage} = loadNameBaseFile(continent);
 
-  // Preserve any non-object rows so normalization is provably data-neutral.
+  // Work from the raw rows, not from the filtered entry list, so non-object
+  // rows survive untouched. Rewriting must be provably data-neutral, and that
+  // only holds if we are not silently dropping anything on the way through.
   const start = raw.indexOf("[", raw.indexOf("NameBases = ["));
   const parsed = JSON.parse(raw.slice(start, raw.lastIndexOf("]") + 1));
   const rebuilt = `window.${continent}NameBases = ${JSON.stringify(parsed, null, 2)};\n`;
@@ -62,10 +64,6 @@ for (const continent of CONTINENTS) {
   const reparsed = JSON.parse(rebuilt.slice(rebuilt.indexOf("["), rebuilt.lastIndexOf("]") + 1));
   if (!deepEqual(parsed, reparsed)) {
     console.error(`[FAIL] ${continent}: rewrite changed data. Aborting without writing.`);
-    process.exit(1);
-  }
-  if (loadedPath !== file) {
-    console.error(`[FAIL] ${continent}: path mismatch. Aborting.`);
     process.exit(1);
   }
 

@@ -182,6 +182,7 @@ switched off.
 | `E006` | Bare stem + English suffix, 6+ times | The template signature. |
 | `E007` | The same seed twice in one entry | Wasteful and always wrong. |
 | `E008` | `COMPLETE` while below the floor | The status field is a fact, not an opinion. |
+| `E009` | A seed starting with a digit | No toponym starts with a digit. It is a date, a count or a footnote. |
 | `T001` | A tool reading a data file that does not exist | The tool cannot run. |
 
 Warnings — `W001` zero seeds, `W003` cross-entry contamination, and the below-floor
