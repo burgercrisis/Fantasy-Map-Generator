@@ -2112,3 +2112,276 @@ not touched). None of the three groups spans a category, so none of them was in
 this pass.
 
 
+
+---
+
+# The `Mixed` bucket: final resolution (2026-09-29)
+
+Second pass, same day. The first pass closed the two top-level buckets
+(`Niger-Congo` as a family, `Afroasiatic`-as-family overflow). This one clears
+the last of the `Mixed` bucket: the **20 entries** whose `category` or `family`
+was the literal string `"Mixed"`.
+
+Measured against `HEAD` (`048114bf`), the whole change is **19 rows re-filed,
+0 added, 0 removed, 0 non-taxonomy fields touched.** Entry count is 3691 before
+and after, with 3691 distinct `iso` values.
+
+| | before | after |
+| --- | --- | --- |
+| entries | 3691 | 3691 |
+| distinct `family` values | 555 | 562 |
+| distinct `category` values | 95 | 95 |
+| rows on `Mixed`/`Unclassified` | 31 | 12 |
+| **families spanning >1 category** | 2 | **1** |
+| residual `family == category` | 263 entries / 29 family values | 247 entries / 30 family values |
+
+## Decision rule used
+
+Applied in this order, first match wins:
+
+1. **Glottolog has an explicit node for the language** → follow that node.
+   This is QUALITY-STANDARDS 5.7/5.8 authority, and it covers creoles and mixed
+   languages too, because Glottolog's own convention is to file a creole with the
+   language that supplied its basic lexicon.
+2. **Glottolog has no node** → use the description in a cited secondary source
+   (Glottolog's own subclassification comments, Ethnologue via Wikipedia, or the
+   descriptive literature), placed into the catalog's *existing* vocabulary.
+
+Where Glottolog and a specialist description disagreed, Glottolog won, and the
+disagreement is written down below rather than quietly resolved. No new category
+was created. Seven new **family** values were needed; each is a real Glottolog
+node or a real documented grouping.
+
+## The 19 rows that were resolved
+
+| `iso` | `category` | `family` | authority |
+| --- | --- | --- | --- |
+| `lingling` | Creole | Chinese-based | no Glottolog node; Wikipedia *Chinese-based pidgins and creoles* |
+| `franco-italian` | Romance | Gallo-Italic | no Glottolog node; Wikipedia Gallo-Italic chain |
+| `bolze` | Mixed language | Bolze | no Glottolog node; Wikipedia *Mixed languages* (Wijnands 2005) |
+| `cypriot-maronite-arabic` | Afroasiatic | Levantine | Glottolog `cypr1248` (*Cypriot Arabic*) |
+| `dao` | Sino-Tibetan | Mandarin | Glottolog `daoh1239` (*Daohua*) |
+| `e` | Tai-Kadai | Tai | Glottolog `eeee1240` (*E*) |
+| `gadal` | Songhay | Northern Songhay | Glottolog `tagd1238` (*Tagdal*) |
+| `gurindji-kriol` | Mixed language | Gurindji Kriol | Glottolog `guri1249`, child of pseudo-family `mixe1287` |
+| `light-warlpiri` | Mixed language | Warlpiri-Kriol | Glottolog `ligh1234`, child of `mixe1287` via `warl1257` |
+| `l-ngua-geral-amaz-nica` | Tupian | Tupi-Guarani | Rodrigues & Cabral 2011; Nheengatu is the descendant |
+| `l-ngua-geral-paulista` | Tupian | Tupi-Guarani | Glottolog `tupi1274`, dialect of Tupi (Group III) |
+| `makassar-malay` | Austronesian | Malayo-Polynesian | Glottolog `maka1305` (… > Malayic > Vehicular Malay) |
+| `media-lengua` | Mixed language | Spanish-Quechua | Glottolog `medi1245`, child of `span1267` under `mixe1287` |
+| `michif` | Algic | Algonquian | Glottolog `mich1243`, Plains Creeic |
+| `missingsch` | Germanic | West Germanic | no Glottolog node; Wikipedia: Low-German-coloured German |
+| `petuh` | Mixed language | Petuh | no Glottolog node; Wikipedia *mixed language*, Flensburg |
+| `qoqmoncaq` | Mixed language | Qoqmoncaq | no Glottolog node; Wikipedia: Kazakh–Mongolian–Evenki mixed |
+| `tangwang` | Creole | Chinese-based (unchanged) | Lee-Smith 1996, cited by Glottolog `tang1373` |
+| `tansi` | Creole | Malay-based | no Glottolog node; Wikipedia: *Malay-based creole or mixed language* |
+
+### Three of these were not creoles at all
+
+Worth calling out, because the `mixed` tag on the row had been the only
+evidence, and the tag was wrong:
+
+- **`cypriot-maronite-arabic`** — not a contact variety. Glottolog `cypr1248`
+  lists *Cypriot Maronite Arabic* as an alternative name for **Cypriot Arabic**,
+  a genuine (moribund) Semitic dialect. It is now `Afroasiatic` / `Levantine`,
+  which also puts it next to the catalog's existing `cypriot-arabic` row.
+- **`missingsch`** — not a creole. Wikipedia's infobox: a *Low-German-coloured
+  dialect or sociolect of German*, i.e. Indo-European > Germanic > West Germanic >
+  North Sea Germanic > Low Germanic. It is now `Germanic` / `West Germanic`.
+- **`franco-italian`** — not a modern pidgin of the Aosta Valley (a plausible
+  guess from the name, and the wrong one). It is the medieval **literary**
+  language *lingua franco-veneta*, used in northern Italy from the mid-13th to
+  the 15th century, whose base is Gallo-Italic/Venetian. The row's existing
+  `category: "Romance"` was already right; only the family needed finishing.
+
+### The `e` / "E mixed" entry
+
+**`e` is a real language, and the `iso` is a truncated import artefact.**
+
+`iso: "e"`, `name: "E mixed"`. This is **E**, also called Ei, Wuse, Wusehua,
+Kjang E: ISO 639-3 **`eee`**, Glottolog **`eeee1240`**, spoken in Rongshui Miao
+Autonomous County, Guangxi, China, roughly 50,000 speakers. It is a Tai–Chinese
+mixed language with Tai grammar and mostly Chinese lexicon.
+
+So this is not an unplaceable row. It is placed, by Glottolog:
+`Tai-Kadai` / `Kam-Tai` / `Daic-Beic` / `Daic` / `Northern Daic-Sek` /
+`Northern Daic` / `Northern Tai` / `Unclassified Northern Tai` / `E`. The catalog's
+next-coarser level for that branch is the existing family `Tai`, which already
+holds `northern-tai`, `kam-tai`, `central-tai` and 45 others. Filed
+`Tai-Kadai` / `Tai`.
+
+`iso` was **not** corrected to `eee`. Rule 2 for this pass forbids touching
+`iso`, and a truncated key is a data defect, not a classification defect — it is
+recorded here instead of fixed here.
+
+## New family values introduced (7)
+
+| new `family` | `category` | why it was needed |
+| --- | --- | --- |
+| `Northern Songhay` | Songhay | Glottolog `tagd1238` sits in Songhay > Northwest Songhay > **Northern Songhay**. The category previously held one family, `Songhay`, with one entry. |
+| `Gurindji Kriol` | Mixed language | Glottolog `guri1249` is a direct child of pseudo-family `mixe1287`; there is no intermediate node to use. |
+| `Warlpiri-Kriol` | Mixed language | Glottolog `warl1257`, the intermediate node above `ligh1234` under `mixe1287`. |
+| `Spanish-Quechua` | Mixed language | Glottolog `span1267`, the intermediate node above `medi1245` under `mixe1287`. |
+| `Bolze` | Mixed language | three-way mixed variety with no Glottolog node and no single lexifier. |
+| `Petuh` | Mixed language | three-way mixed variety, same situation. |
+| `Qoqmoncaq` | Mixed language | three-source mixed language, no Glottolog node, no single lexifier. |
+
+A single-member family is acceptable and normal. Six of these seven are single
+members, and that is the honest answer: these languages have no established
+subgroup, so a one-member family states that, where a manufactured shared parent
+would not. Note that `Mixed language` is a **pre-existing** category (it held
+Kallawaya), not a new bucket invented here — and it is *not* the forbidden
+string `"Mixed"`.
+
+## Divergences and judgement calls, recorded
+
+1. **`tangwang` — Glottolog says Mandarinic, filed under `Creole`.**
+   Glottolog `tang1373` nests Tangwang at
+   `Sino-Tibetan > Sinitic > … > Mandarinic`, which a strict reading would file
+   as `Sino-Tibetan` / `Mandarin`. It is filed `Creole` / `Chinese-based`
+   because (a) the family value was already placed and the brief was to finish
+   the row, (b) Glottolog's own creole convention ("classified with the language
+   that supplied their basic lexicon") gives Chinese, and the catalog's
+   `Creole` category already groups `English-based`, `French-based`,
+   `Japanese-based`, `Hindi-based` and 15 other lexifier families the same way,
+   and (c) Lee-Smith's creole analysis is cited by Glottolog itself.
+   `dao` is *not* treated the same way — see the next point.
+2. **`dao` is a different case from `tangwang` and goes the other way.**
+   Daohua is a **Mandarin–Tibetan** mixed language: Tibetan word order, a lexicon
+   drawn from both. There is no Chinese lexifier to name a family after, so
+   `Chinese-based` would be factually wrong, and Glottolog's Mandarinic node is
+   the only authority for it. `Sino-Tibetan` / `Mandarin`.
+3. **`michif` — Glottolog files it as a Cree variety, the literature does not.**
+   Glottolog `mich1243` ("Heritage Michif") is at `Algic > … > Plains Creeic`,
+   with the comment *"Michif is classified as a Plains Cree variety with a very
+   large number of French loans."* Bakker 1997 and Glottopedia call it the prime
+   example of a **mixed** language, and Statistics Canada says it "is not
+   associated under any language families". Glottolog is the stated authority
+   and it has an explicit node, so the row is `Algic` / `Algonquian`. The
+   `Mixed language` alternative was considered and rejected on that basis.
+   **This is the one placement in this batch where the name list handed to a
+   fantasy race changes in a way a reviewer may want to overrule.**
+4. **`lingling` — genuinely contested.** Glottolog has no node and Ethnologue
+   says "mixed Mandarin–Miao", so it is neither a Chinese dialect nor a Hmongic
+   language on paper. Wikipedia carries it in **both** *Chinese-based pidgins and
+   creoles* and *Hmongic languages*. Filed `Creole` / `Chinese-based` on the
+   weight of the Chinese-based category, the catalog's own `lexifier: "Chinese"`,
+   and the fact that its speakers code-switch to Southwestern Mandarin with
+   outsiders. `Hmong-Mien` / `Hmongic` is a defensible alternative; the Miao are
+   the speakers, not the classification.
+5. **`makassar-malay` is filed with the lexifier's family, not as a creole.**
+   Wikipedia calls it a "Mixed Malay–Macassarese" language, but Glottolog
+   `maka1305` places it at `Malayo-Polynesian > … > Malayic > Nuclear Malayic >
+   Vehicular Malay`. Glottolog wins: `Austronesian` / `Malayo-Polynesian`.
+   This is the same treatment the catalog already gives `malay` and `javanese`.
+
+## The one row left unresolved
+
+**`arabic-javanese-of-klego` — "Arabic-Javanese of Klego". Left on
+`category: "Mixed"`, `family: "Mixed"`, deliberately.**
+
+I could not establish what this is. What I looked for and did not find:
+
+- no Glottolog node under any spelling (Glottolog search on *Klego*, *Krego*,
+  *Arabic-Javanese*, *Arab-Javanese*);
+- no ISO 639-3 code;
+- no Wikipedia article, no Glottopedia entry, no Ethnologue-derived page;
+- no hit in Fricke 2019 (*Traces of language contact: the Flores-Lembata
+  languages*), the standard dissertation on Flores, nor in the Central Flores
+  dialect-chain literature (Ngadha, Nage, Keo, Ende, Lio, Palu'e);
+- the only remotely adjacent thing found is a paper on *Arabic-Javanese
+  translation books in Nusantara Islamic education*, which is about Pegon
+  script and text tradition, not a language called *Arabic-Javanese of Klego*.
+
+`region: "Misc"` and `lexifier: "Javanese"` are the only evidence, and the
+`region` value is itself a marker of an incomplete import. Guessing a family here
+would put a wrong name list on a race, which QUALITY-STANDARDS 5.8 calls out as
+the failure mode that matters. So the row is untouched and recorded.
+
+**Consequence:** the `Mixed` family and the `Mixed` category are *not* retired.
+They survive with exactly this one row. That is deliberate, and it is why
+`node --test tools/namebase-tools/race-profiles.test.js` is still green even
+though `src/generators/races.ts` names `"Mixed"` in six profile arrays — see
+below.
+
+## Families still spanning more than one category: 1
+
+`English-based` → `Creole` (58) and `Pidgin` (22).
+
+**Specific recorded reason:** this span is pre-existing and was not introduced or
+enlarged by this pass — it is `58/22` before and after. It is a genuine lexical
+split, not a curation slip: the same name list genuinely serves both, and
+`src/generators/races.ts` deliberately names `English-based` from the `Creole`
+side (line 4284) and the `Pidgin` side (line 4557) in different profiles.
+Reconciling it would mean renaming one of the two lexical pools, which
+QUALITY-STANDARDS 5.7 forbids while entries remain, so it is left recorded here
+as the section of this file is meant to record.
+
+The `Mixed` span (`Mixed` appearing under both `Mixed` and `Romance`, via
+`franco-italian`) is **gone**. `Mixed` is now under `Mixed` only.
+
+## Data defects found, not fixed (all outside the four owned files)
+
+- **`petuh` has the wrong `lexifier`.** The row says `German-French`. Petuh is
+  spoken in Flensburg, Germany and is German + Low German + Danish + Southern
+  Jutish — no French source language at all. `bolze` legitimately is
+  German/French/Arpitan. Only `family`/`category` were in scope.
+- **`iso: "dao"` collides with a real, different language.** ISO 639-3 `dao` is
+  **Daai Chin** (Glottolog `daai1236`, Myanmar, Tibeto-Burman). The catalog row
+  is Glottolog `daoh1239` (Daohua, Sichuan). Two different languages now share
+  the key `dao` with two different meanings depending on which field you read.
+- **`cypriot-maronite-arabic` duplicates `cypriot-arabic`.** Per Glottolog's
+  alternative-name list they are the same language, and the catalog holds both.
+  Deliberately filed adjacent (`Afroasiatic` / `Levantine`) rather than deleted;
+  deletion is forbidden.
+- **`l-ngua-geral-amaz-nica` largely duplicates `nheengatu`.** `nheengatu` is
+  already in the catalog at `Tupian` / `Tupi-Guarani`, and English Wikipedia
+  treats "Língua Geral Amazônica" as an alternative name for it. Both now sit in
+  the same family, which is the correct outcome but leaves a duplicate pair.
+- **The `iso` keys in this bucket are not ISO codes** for most rows
+  (`lingling`, `bolze`, `michif`, `tangwang`, `media-lengua`, `missingsch`,
+  `tansi`, `petuh`, `qoqmoncaq`, `arabic-javanese-of-klego`). They are slugified
+  names, some with accents stripped (`l-ngua-geral-*`, `cypriot-maronite-*`) and
+  at least one truncated to two characters (`e` for `eee`). They work as unique
+  keys — all 3691 are distinct — but they are not ISO 639-3 and should not be
+  read as such.
+
+## Verification
+
+| check | result |
+| --- | --- |
+| `node tools/regenerate-js-from-json.js --check` | pass, 4 generated files match |
+| `node tools/mixer-core/diff-language-families.js` | pass, 0 mismatches, 3691 = 3691 |
+| `node tools/namebase-tools/verify-namebase-integrity.js --quiet` | green, exit 0 |
+| `npx tsc --noEmit` | exit 0 |
+| `node --test tools/namebase-tools/race-profiles.test.js` | 8/8 pass |
+| rows added / removed / renamed | 0 / 0 / 0 |
+| `family` or `category` empty | 0 |
+| families spanning >1 category | 1 (`English-based`, reason above) |
+
+Files touched: `config/language-mixes.json`,
+`config/language-mixes-all.js`, `public/config/language-mixes-all.js`, and this
+file. `config/language-mixer-map.js` and `public/config/language-mixer-map.js`
+are also rewritten by the regenerator and came out byte-identical, so they do
+not appear in `git diff`.
+
+### `race-profiles.test.js` — why it stayed green
+
+`src/generators/races.ts` still names the exact string `"Mixed"` in six places:
+three profile `families` arrays (lines 522, 4513, 6015) and three profile
+`categories` arrays (lines 500, 4271, 5782). The test asserts that every family
+and category a profile names exists in the catalog, so clearing the bucket
+outright **would** have turned this test red and required a `races.ts`
+regeneration.
+
+(For contrast, the same profiles also name `"Mixed language"` twice in
+`families` and twice in `categories`, at lines 4514, 6016 and 4272, 5783. Those
+are safe: `Mixed language` is a legal category and still holds 7 entries.)
+
+It stayed green for one reason only: the unresolved `arabic-javanese-of-klego`
+row still holds both `family: "Mixed"` and `category: "Mixed"` alive.
+
+**This is a real debt and it is not discharged.** The moment that row is
+resolved, `races.ts` will need the regeneration QUALITY-STANDARDS 5.8 describes
+("a catalog change that retires a family must be followed by a regeneration, or
+this fails"). `src/**` was out of scope for this pass and was not edited.
