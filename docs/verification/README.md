@@ -1,40 +1,58 @@
-# Documentation Verification — Quick Start
+# Namebase Verification
 
-> **To begin verification work, read this file, then start. Do not ask questions.**
+Documentation for verifying the authenticity of place-name seed lists in
+`public/modules/namebases-*.js`.
 
----
+## Read exactly these three
 
-## Files You Need to Read (in order)
+| File | What it is | Editable? |
+|---|---|---|
+| **`AGENT-PLAYBOOK.md`** | The workflow. Start here. | Yes, by hand |
+| **`STATUS.md`** | The current state and the work queue. | **No — generated** |
+| `integrity-baseline.json` | The known-debt ratchet. | Only to lower a number |
 
-| Order | File | What It Is |
-|-------|------|------------|
-| 1 | `docs/verification/verification-protocol.md` | **THE BIBLE** — read this FIRST, follow it EXACTLY |
-| 2 | `docs/verification/ENTRY-PROMPT.md` | Entry prompt — tells you how to start and when to stop |
-| 3 | `docs/verification/agents/<CONTINENT>-AGENT.md` | Agent-specific pointer |
-| 4 | `docs/verification/region/<CONTINENT>.md` | Region context |
-| 5 | `docs/verification/checkpoints/<CONTINENT>-checkpoint.json` | Resume position |
+One command covers everything else:
 
-**That's it. Read those files in that order, then start working.**
+```bash
+pnpm namebase:verify
+```
 
----
+`STATUS.md` is produced by `pnpm namebase:status` from the data itself. It
+cannot be hand-edited, so it cannot go stale and cannot contradict itself. If
+you want to change what it says, change the data and regenerate.
 
-## Previous Agents Got This Wrong — Don't Repeat It
+## Everything in `archive/` is historical
 
-Every previous agent fell into the trap of **regional estimation**: researching a language's region, then stuffing the `b:` field with nearby towns while claiming each name was "verified."
+Read `archive/README.md` before going near it. That directory holds 70-odd
+documents that were written by different agents between June and September 2026
+and that contradict each other — several of them claiming 100% completion while
+the data was, in fact, padded with invented names. Do not take a current-state
+number from anything in there.
 
-**Do not do this.** The protocol now has hard rules against it:
-- Every name must be individually verified (not just "from the region")
-- Every name must have a documented source URL
-- Max 5 names from any single source
-- Micro-languages with <30 verified names get marked WAITED, not padded
-- Verification log required for every entry
+## Reference material
 
----
+- `QUALITY-STANDARDS.md` — the authenticity rules. Normative.
+- `CONTINENT-ASSIGNMENTS.md` — which file a language lives in, and why that is
+  an organizational choice rather than a claim about its toponymy. Normative.
+- `region/<CONTINENT>.md` — geographic and linguistic background for research.
+- `research/by-language/<NAME>.md` — per-language research notes. **Evidence,
+  not proof.** These predate the integrity gate and at least some recorded
+  verifications did not hold up. Re-verify before you edit the data.
+- `TROUBLESHOOTING.md` — common failures.
+- `templates/research-log-template.md` — template for new research notes.
 
-## What "Verified" Means
+## What "verified" means
 
-**Verified** = you opened a web page that confirms:
-1. The place exists (city/town/village)
-2. Speakers of THE SPECIFIC LANGUAGE live there or historically lived there
+**Verified** = you opened a source that confirms both:
 
-**NOT verified** = "it's in the same country" / "it's nearby" / "Wikipedia mentioned it in an article about the region"
+1. the place exists (a town, village, city, or named geographic feature), and
+2. speakers of *this specific language* live there or historically lived there.
+
+**Not verified** = "it is in the same country", "it is nearby", "Wikipedia
+mentioned it in an article about the region". This is the single most common
+failure in the project's history, called *regional estimation*: researching a
+language's region and then filling `b:` with nearby towns while describing each
+one as verified. The result looks plausible and is entirely invented.
+
+If you cannot name the source for a name, the name does not go in. Dropping a
+name is always correct. Padding to a count is never correct.
