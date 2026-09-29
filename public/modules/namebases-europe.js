@@ -6160,16 +6160,6 @@ window.europeNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Waxiang",
-    "i": 203140,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Changsha,Zhuzhou,Xiangtan,Hengyang,Yueyang,Changde,Yiyang,Loudi,Shaoyang,Chenzhou,Yongzhou,Zhangjiajie,Huaihua,Jishou,Fenghuang,Liuyang,Liling,Xiangxiang,Shaoshan,Nanxian,Taojiang,Anhua,Yuanjiang,Linxiang,Huarong,Xiangyin,Wangcheng,Ningxiang,Shimen,Cili,Sangzhi,Wulingyuan,XiangtanCounty",
-    "status": "COMPLETE"
-  },
-  {
     "name": "West Greenlandic Pidgin",
     "i": 201002,
     "min": 4,
@@ -6290,16 +6280,6 @@ window.europeNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "Limbu ",
-    "i": 847,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Taplejung,Phidim,Ilam,Jhapa,Panchthar,Phungling,Chokmagu,Arubote,Kerabari,Urlabari,Birtamod,Damak,Mechinagar,Chandragadhi,Surunga,Pathariya,Sukrabare,Madhumalla,Sanischare,Itahari,Dharan,Inaruwa,Biratnagar,Rangeli,Budhabare,Letang,Dhankuta,Basanta,Hile,Leguwa,Terhathum,Myanglung,Chhathar,Hamrajung,Pakhribas,Siddhakali,Chhatara,Lelep,Hellok,Sinam,Olangchunggola,Yamphudin,Khokling,Thinglabu,Sikaicha,Phalgunanda,Yangwarak,Chyangthapu,Memeng",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Lohorung ",
     "i": 848,
     "min": 4,
@@ -6318,16 +6298,6 @@ window.europeNameBases = [
     "m": 0,
     "b": "Diplung,Mauwabote,Devisthan,Pauwasera,Chisapani,Beltar,Saunechour,Siddipur,Madibas,Basaha,Chaudandi,Cabalokkha",
     "status": "WAITING"
-  },
-  {
-    "name": "Dungmali",
-    "i": 851,
-    "min": 3,
-    "max": 13,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Thulo Dumba,Sano Dumba,Bastim,Tiwari Bhanjyan,Chyangre,Yaku,Bhojpur,Hile,Pakhribas,Dhankuta,Morang,Sunsari,Jhapa,Ilam,Udayapur,Khotang,Kaski,Lalitpur,Kathmandu,Pouwakhesang Thum,Arun River,Sintung Lekh,Katunje,Marangtang,Tindhara,Dungma,Bantawa,Kirat Rai",
-    "status": "COMPLETE"
   },
   {
     "name": "Saam ",
@@ -6410,16 +6380,6 @@ window.europeNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "Sui Lang ",
-    "i": 863,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Sandu,Libo,Sandong,Shuilong,Zhonghe,Miaocao,Bajie,Jiadao,Shiqi,Jiarong,Hengfeng,Pandong,Yangan,Yangluo,Linqiao,Rongjiang,Congjiang,Dushan,Longmazhuang",
-    "status": "WAITING"
-  },
-  {
     "name": "Tai Dam ",
     "i": 864,
     "min": 4,
@@ -6428,16 +6388,6 @@ window.europeNameBases = [
     "m": 0,
     "b": "DienBienPhu,LaiChau,MuongLay,PhongTho,TamDuong,SinHo,TuanGiao,MuongTe,MuongNhe,SonLa,YenBai,LaoCai,PhuTho,MuongLo,NghiaLo,ViengPhoukha,LuangNamtha,Oudomxai,Bokeo,Xiengkhouang,Houaphan,Phongsali,Loei,Phetchaburi,Ratchaburi,NakhonPathom,Kanchanaburi",
     "status": "COMPLETE"
-  },
-  {
-    "name": "Tai Ya ",
-    "i": 865,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Jinghong,Menghai,Mengla,Puer,Mojiang,Jiangcheng,Lancang,Simao,Zhenyuan,Menglian,Ximeng,Yuanyang,Xinping,Yongren,Wuding,Lufeng,Dayao,Maguan,Chuxiong",
-    "status": "WAITING"
   },
   {
     "name": "Taishanese ",
@@ -6457,16 +6407,6 @@ window.europeNameBases = [
     "d": "nic-GH",
     "m": 0,
     "b": "UpperWutun,LowerWutun,Jiacangma,Longwu,Tongren",
-    "status": "WAITING"
-  },
-  {
-    "name": "Amdo Tibetan ",
-    "i": 869,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Gannan,Haibei,Huangnan,Hainan,Golog,Xining,Tongren,Zeku,Jianzha,Tengchong,Weixi",
     "status": "WAITING"
   },
   {
@@ -6520,16 +6460,6 @@ window.europeNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "Lauhut ",
-    "i": 1063,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Baoding,Wanning,Lingshui,Ding'an,Tunchang,Chengmai,Qionghai,Ledong,ChengmaiCounty,WanningCity,LingshuiCounty",
-    "status": "WAITING"
-  },
-  {
     "name": "Baima ",
     "i": 1075,
     "min": 4,
@@ -6560,16 +6490,6 @@ window.europeNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "Pashto, Central ",
-    "i": 1109,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Kabul,Kandahar,Herat,Jalalabad,Mazar-i-Sharif,Kunduz,Ghazni,Khost,Paktia,Farah,Bamyan,Kapisa,Gardez,Laghman,Logar,Wardak,Paktika,Badakhshan,Takhar,Baghlan",
-    "status": "WAITING"
-  },
-  {
     "name": "Bariji ",
     "i": 203194,
     "min": 4,
@@ -6578,16 +6498,6 @@ window.europeNameBases = [
     "m": 0,
     "b": "Popondetta,Gewoto,Sewa,Isuga,Dobuduru,Sorovi,Ambogo,Kokoda,Buna,Gona,Sanananda,Tufi,Girua,Oro Bay,Mt Lamington,Inonda,Asisi,Higaturu,Afore,Ijivitari",
     "status": "WAITING"
-  },
-  {
-    "name": "Brahui ",
-    "i": 1374,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Kalat,Khuzdar,Quetta,Mastung,Bolan,Nasirabad,Nushki,Kharan,Sarawan,Jhalawan,Chagai,Noshki,Kacchi,Surab,MastungCity,QuettaCity,KalatCity,KhuzdarCity,NushkiCity,BolanPass,Sibi,Ziarat,Loralai,DeraBugti,DeraMurad,Musakhel,Barkhan,Kohlu,Zhob,QuilaSaifullah",
-    "status": "COMPLETE"
   },
   {
     "name": "Buyang ",
@@ -6617,16 +6527,6 @@ window.europeNameBases = [
     "d": "nic-GH",
     "m": 0,
     "b": "Nomad River,Strickland River,Herbert River,Lake Murray,Balimo,Kiunga,Daru,Ok Tedi,Bamu,Gogodala,Nomad Rural,Bosavi,Samo,Odoodee,Kubo,Fembe,Konai,Bibo,Honiba,Oiba,Gebusi",
-    "status": "WAITING"
-  },
-  {
-    "name": "Chamdo ",
-    "i": 1544,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Chamdo,Dege,Markham,Tengchen,Jomda,Markam,Banbar,Lhorong,Riwoqê,Lhatse,Karub,Gyamotso,Lhagoi,Sershul,Zogang,Bayi,Nyingchi,Rawu,ShangriLa,Diqing,Yunnan",
     "status": "WAITING"
   },
   {
@@ -6797,16 +6697,6 @@ window.europeNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Pamplona,Bilbao,San Sebastián,Bayonne,Pau,Bordeaux,Vitoria-Gasteiz,Hondarribia,Getaria,Zumaia,Zarautz,Tolosa,Oñati,Azpeitia,Irun,Lekeitio,Ondarroa,Mundaka,Lezo,Oiartzun,Pasajes San Juan,Errenteria,Pasaia,Hernani,Andoain,Lasarte-Oria,Usurbil,Bergara,Elgoibar,Eibar,Mutriku,Deba,Markina-Xemein,Gernika,Bermeo,Portugalete,Santurtzi,Barakaldo,Getxo,Sestao,Durango,Amorebieta-Etxano,Laguardia,Labastida,Elciego,Oyón,Salvatierra,Espelette,Ainhoa,Sare,Saint-Jean-de-Luz,Ciboure,Hendaye,Urrugne,Biriatou,Ascain,Saint-Pée-sur-Nivelle,Ahetze,Arcangues,Bassussarry,Briscous,Mouguerre,Tarnos,Ondres,Labenne,Capbreton,Hossegor,Seignosse,Anglet,Biarritz,Dax,Mont-de-Marsan,Auch,Tarbes,Lourdes,Luchon,Condom,Lectoure,Eauze,Larressingle,Montréal-du-Gers,Fourcès,Valence-sur-Baïse,Lavardens,La Romieu",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Newar",
-    "i": 2440,
-    "min": 4,
-    "max": 12,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Kathmandu,Lalitpur,Kirtipur,Thimi,Banepa,Panauti,Dhulikhel,Sankhu,Tokha,Thankot,Satungal,Chapagaun,Imadol,Harisiddhi,Khokana,Godavari,Pharping,Bungamati,Nagarkot,Chabahil,Boudha,ChanguNarayan,Suryabinayak,Gokarna,Dakshinkali,Lele,Bhattedanda,Dolakha,Bandipur,Patan,Kavrepalanchok",
     "status": "COMPLETE"
   },
   {
@@ -9218,5 +9108,35 @@ window.europeNameBases = [
     "m": 0,
     "b": "Braganca,Mirandela,MacedoCavaleiros,Valpacos,VilaReal,VilaPoucaDeAguiar,SantaMartaDePenaguiao,Chaves,Guimaraes,Braga,Barcelos,PonteDeLima,Esposende,VianaDoCastelo,VilaVer,FigueiraCasteloRodrigo,FreixoEspadaCinta,Sernancelhe,IdanhaANova,ProencaANova",
     "status": "WAITING"
+  },
+  {
+    "name": "Żejtun dialect",
+    "i": 738,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0.85,
+    "b": "Żejtun,Marsaxlokk,Marsaskala,Ħaż-Żabbar,Fgura,Ħal Tarxien,Ħal Għaxaq,Bisqallin,Bisbut,Mdina,Birgu,Qormi,Mġarr,Gozo,Comino,Mellieħa,Għargħur,Munxar,Għasri,Kalkara,Mqabba,Valletta,Birkirkara,Mosta,Sliema,St. Paul's Bay,Naxxar,Rabat,Żebbuġ,Siġġiewi,Senglea,Cospicua,Qrendi,Dingli,Gudja",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Andalusi Arabic",
+    "i": 21108,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "Cordoba,Granada,Malaga,Almeria,Zaragoza,Toledo,Valencia,Murcia,Lisbon,Evora,Coimbra,Faro,Beja,Silves,Santarem,Badajoz,Mertola,Niebla,Baeza,Seville",
+    "status": "WAITING"
+  },
+  {
+    "name": "Kaitag",
+    "i": 202798,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "Kaitag,Zugdidi,Quba,Xinaliq,Salekhard,Naftalan,Khachmaz,Pyatigorsk,Lahij,Nazran,Mahačkala,Balakan,Gabala,Laryak,Krasnodar,Goris,Kropotkin,Lankaran,Stavropol,Sisian,Sevan,Sernovodsk,Zagatala,Kutaisi,Abovyan,Malgobek,Borjomi,Hrazdan,Rustavi,Argun,Gori,Baksan,Achkhoy-Martan,Avtury,Maykop,Makhachkala,Nartkala,Gagra,Ochamchire,Khasavyurt,Izberbash,Mtskheta,Derbent,Akhaltsikhe,Kizlyar,Vladikavkaz,Ardon,Shali,Grozny,Chegem,Adygeysk,Slavyansk-na-Kubani,Storozhevaya",
+    "status": "COMPLETE"
   }
 ];

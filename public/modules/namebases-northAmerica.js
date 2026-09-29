@@ -2209,16 +2209,6 @@ window.northAmericaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Pretoria Sotho",
-    "i": 202291,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Pretoria Sotho,Lhokseumawe,Ben Tre,Bacolod,Can Tho,Padang Panjang,Pasir Ris,Putao,Lao Cai,Serang,Quy Nhon,Khon Kaen,Bandung,Ternate,Kratie,Bogor,Thanh Hoa,Kandal,Yogyakarta,Quezon City,Poipet,Champasak,Battambang,Baguio,Balikpapan,Bago,Loikaw,Bandar Seri Begawan,Kisumu,Dila,Gambela,Addis Ababa,Dessie,Harar,Masaka,Yei,Debre Markos,Gondar,Wau,Woldia,Khartoum,Arua,Arba Minch,Nyeri,Lira,Yabelo,Bahir Dar,Mizan Teferi,Jinja,Nakuru,Port Sudan,Gulu,Mbale,Kericho,Rumbek,PretoriaSotho,Sotho,Pedi,Seso,Gauteng,Pretoria,Mamelodi,Fountains,Voortrekker,Magalies,Apies",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Occaneechi",
     "i": 202327,
     "min": 4,
@@ -2237,5 +2227,25 @@ window.northAmericaNameBases = [
     "m": 0,
     "b": "El Mayor Cucapá,Cucapá Mestizo,Alberto Oviedo Mota,Pozas de Arvizu,Campo Camerina,Campo del Prado,Campo Flores,Campo Sonora,La Puerta,Ejido Durango,Sainz Domínguez,San Felipe,La Casa de las Curvas,Mexicali,San Luis Río Colorado,Somerton",
     "status": "WAITING"
+  },
+  {
+    "name": "Grenadian Creole English",
+    "i": 202780,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "Grenadian Creole English,Vieux Fort,Brades,St. John's,Five Cays,Kralendijk,Tunapuna,Grenville,Charlestown,Cockburn Harbour,Anegada,Oistins,Salisbury,Hillsborough,Jost Van Dyke,Santa Rosa,Castries,Plymouth,Micoud,Soufrière,Portsmouth,Arima,Saint James,Roseau,All Saints,Ponce,Spanish Town,Camagüey,Lyon,Bydgoszcz,Marseille,Bergen,Palermo,Randers,Bilbao,Sion,Aveiro,Hamburg,Barcelona,Turin,Basel,Birmingham,Linz,Leipzig,Innsbruck,Galway,Turku,Sligo,Bologna,Bristol,Florence,Brno,Selfoss,Glasgow,Bern",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Leeward Caribbean Creole English",
+    "i": 202784,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "Leeward Caribbean Creole English,Grenville,Cockburn Harbour,Oistins,Soufrière,Salisbury,St. John's,Jost Van Dyke,Five Cays,Castries,Old Road,Tunapuna,Charlestown,Arima,Anegada,Philipsburg,Victoria,Road Town,Holetown,Sauteurs,Santa Rosa,Oranjestad,Saint-Marc,Santiago de Cuba,Portmore,Chaguanas,Port of Spain,Salt Cay,Bordeaux,Drogheda,Leipzig,Uppsala,Toulouse,Wroclaw,Nantes,Strasbourg,Marseille,Málaga,Sion,Munich,Milan,Bilbao,Granada,Zaragoza,Bristol,Glasgow,Reykjanesbær,Chur,Liverpool,Lisbon,Barcelona,Bologna,Trondheim,St. Gallen,Prague",
+    "status": "COMPLETE"
   }
 ];

@@ -550,16 +550,6 @@ window.asiaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Żejtun dialect",
-    "i": 738,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0.85,
-    "b": "Żejtun,Marsaxlokk,Marsaskala,Ħaż-Żabbar,Fgura,Ħal Tarxien,Ħal Għaxaq,Bisqallin,Bisbut,Mdina,Birgu,Qormi,Mġarr,Gozo,Comino,Mellieħa,Għargħur,Munxar,Għasri,Kalkara,Mqabba,Valletta,Birkirkara,Mosta,Sliema,St. Paul's Bay,Naxxar,Rabat,Żebbuġ,Siġġiewi,Senglea,Cospicua,Qrendi,Dingli,Gudja",
-    "status": "COMPLETE"
-  },
-  {
     "name": "A Ou",
     "i": 740,
     "min": 3,
@@ -5100,16 +5090,6 @@ window.asiaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Karipºna French Creole",
-    "i": 203253,
-    "min": 4,
-    "max": 14,
-    "d": "",
-    "m": 0,
-    "b": "Paramaribo,Albina,Nieuw Nickerie,Moengo,Brokopondo,Brownsweg,Onverwacht,Groningen,Totness,Wageningen,Apura,Bigi Poika,Sipaliwini,Apetina,Palumeu,Kwamalasamutu",
-    "status": "WAITING"
-  },
-  {
     "name": "Réunion Creole",
     "i": 203254,
     "min": 4,
@@ -5168,16 +5148,6 @@ window.asiaNameBases = [
     "m": 0,
     "b": "Bomdila,Tawang,Rupa,Dirang,Sher,Balemu,Tenzingaon,Munna,Buragaon,Dijangania,Dissinggang,Namtok,Khuppi,Sangti,Napang,Dudung,Gongphu,Rahung,Lish,Khasim,Shigatse,Gyantse,Nagqu,Nyingchi,Chamdo,Kangding,Shangri La,Along,Yingkiong,Basar,Kokrajhar,Guwahati",
     "status": "COMPLETE"
-  },
-  {
-    "name": "Andalusi Arabic",
-    "i": 21108,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Cordoba,Granada,Malaga,Almeria,Zaragoza,Toledo,Valencia,Murcia,Lisbon,Evora,Coimbra,Faro,Beja,Silves,Santarem,Badajoz,Mertola,Niebla,Baeza,Seville",
-    "status": "WAITING"
   },
   {
     "name": "Arabic (Gulf)",
@@ -8598,16 +8568,6 @@ window.asiaNameBases = [
     "m": 0,
     "b": "Zakho,Duhok,Erbil,Mosul,Kirkuk,Sulaymaniyah,Halabja,Ranya,Chamchamal,Koya,Akre,Amadiya,Barwari,Tkhuma,Tur Abdin,Mardin,Nusaybin,Qamishli,Al-Hasakah,Urmia",
     "status": "WAITING"
-  },
-  {
-    "name": "Zay",
-    "i": 200928,
-    "min": 4,
-    "max": 13,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Ziway,Butajira,Wolaita,Hosaina,Shashemene,Boditi,Areka,Worabe,Welkite,Hosaena,Angacha,Kedida Gamela,Leku,Aleta Wendo,Chuko,Dara,Boricha,Yirgalam,Adilo,Kochere,Bensa,Awasa,Addis Ababa,Hawassa,Sodo,Arba Minch,Durame,Dale",
-    "status": "COMPLETE"
   },
   {
     "name": "ˀAzd dialect",
@@ -13536,8 +13496,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Sri Lankan Portuguese Creole,Spanish Town,Chaguanas,Tunapuna,Micoud,St. John's,Gonaïves,Five Cays,Roseau,Holetown,Road Town,Speightstown,Freeport,Charlestown,English Harbour,Anegada,North Side,Les Cayes,Dennery,Mandeville,Bellem,Santa Rosa,Plymouth,St. George's,Soufrière,Puerto Plata,Liberta,Gouyave,Palermo,Lyon,Bilbao,Madrid,Nantes,Basel,Frankfurt,Málaga,Warsaw,Västerås,Lisbon,Birmingham,Hamburg,Leipzig,Bologna,Maastricht,Paris,Florence,Reykjanesbær,Tromsø,Nice,Rome,Szczecin,Linz,Turin,Uppsala,Edinburgh",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Standard Tibetan",
@@ -13627,6 +13587,206 @@ window.asiaNameBases = [
     "d": "",
     "m": 0,
     "b": "Malacca,Ujong Pasir,Singapore",
+    "status": "WAITING"
+  },
+  {
+    "name": "Limbu ",
+    "i": 847,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Taplejung,Phidim,Ilam,Jhapa,Panchthar,Phungling,Chokmagu,Arubote,Kerabari,Urlabari,Birtamod,Damak,Mechinagar,Chandragadhi,Surunga,Pathariya,Sukrabare,Madhumalla,Sanischare,Itahari,Dharan,Inaruwa,Biratnagar,Rangeli,Budhabare,Letang,Dhankuta,Basanta,Hile,Leguwa,Terhathum,Myanglung,Chhathar,Hamrajung,Pakhribas,Siddhakali,Chhatara,Lelep,Hellok,Sinam,Olangchunggola,Yamphudin,Khokling,Thinglabu,Sikaicha,Phalgunanda,Yangwarak,Chyangthapu,Memeng",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Dungmali",
+    "i": 851,
+    "min": 3,
+    "max": 13,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Thulo Dumba,Sano Dumba,Bastim,Tiwari Bhanjyan,Chyangre,Yaku,Bhojpur,Hile,Pakhribas,Dhankuta,Morang,Sunsari,Jhapa,Ilam,Udayapur,Khotang,Kaski,Lalitpur,Kathmandu,Pouwakhesang Thum,Arun River,Sintung Lekh,Katunje,Marangtang,Tindhara,Dungma,Bantawa,Kirat Rai",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Sui Lang ",
+    "i": 863,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Sandu,Libo,Sandong,Shuilong,Zhonghe,Miaocao,Bajie,Jiadao,Shiqi,Jiarong,Hengfeng,Pandong,Yangan,Yangluo,Linqiao,Rongjiang,Congjiang,Dushan,Longmazhuang",
+    "status": "WAITING"
+  },
+  {
+    "name": "Tai Ya ",
+    "i": 865,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Jinghong,Menghai,Mengla,Puer,Mojiang,Jiangcheng,Lancang,Simao,Zhenyuan,Menglian,Ximeng,Yuanyang,Xinping,Yongren,Wuding,Lufeng,Dayao,Maguan,Chuxiong",
+    "status": "WAITING"
+  },
+  {
+    "name": "Amdo Tibetan ",
+    "i": 869,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Gannan,Haibei,Huangnan,Hainan,Golog,Xining,Tongren,Zeku,Jianzha,Tengchong,Weixi",
+    "status": "WAITING"
+  },
+  {
+    "name": "Lauhut ",
+    "i": 1063,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Baoding,Wanning,Lingshui,Ding'an,Tunchang,Chengmai,Qionghai,Ledong,ChengmaiCounty,WanningCity,LingshuiCounty",
+    "status": "WAITING"
+  },
+  {
+    "name": "Pashto, Central ",
+    "i": 1109,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Kabul,Kandahar,Herat,Jalalabad,Mazar-i-Sharif,Kunduz,Ghazni,Khost,Paktia,Farah,Bamyan,Kapisa,Gardez,Laghman,Logar,Wardak,Paktika,Badakhshan,Takhar,Baghlan",
+    "status": "WAITING"
+  },
+  {
+    "name": "Brahui ",
+    "i": 1374,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Kalat,Khuzdar,Quetta,Mastung,Bolan,Nasirabad,Nushki,Kharan,Sarawan,Jhalawan,Chagai,Noshki,Kacchi,Surab,MastungCity,QuettaCity,KalatCity,KhuzdarCity,NushkiCity,BolanPass,Sibi,Ziarat,Loralai,DeraBugti,DeraMurad,Musakhel,Barkhan,Kohlu,Zhob,QuilaSaifullah",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Chamdo ",
+    "i": 1544,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Chamdo,Dege,Markham,Tengchen,Jomda,Markam,Banbar,Lhorong,Riwoqê,Lhatse,Karub,Gyamotso,Lhagoi,Sershul,Zogang,Bayi,Nyingchi,Rawu,ShangriLa,Diqing,Yunnan",
+    "status": "WAITING"
+  },
+  {
+    "name": "Tansi",
+    "i": 200995,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Guwahati,Dibrugarh,Tinsukia,Jorhat,Sibsagar,Tezpur,Nagaon,Dimapur,Kohima,Mokokchung,Tuensang,Wokha,Phek,Zunheboto,Mon,Itanagar,Naharlagun,Pasighat,Tawang,Bomdila,Silchar,Haflong,Diphu,Jowai,Shillong,Tura,Barpeta,Goalpara,Umling,Boko,Rangia,Quebradillas,Cayey,Comerio,SabanaGrande,Naguabo,Plymouth,Barceloneta,Carolina,Barranquitas,Hormigueros,SanLorenzo,Yabucoa,Kingstown,VegaBaja,Aguadilla,Aigford,Adokford,Afilburg,Afatford,Alantown,Anasburg,Adotburg,Amutford,Amigford,Abaltown,Akatford,Aoford,Afadtown,Anibburg,Anitford",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Nagamese",
+    "i": 202280,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "Nagamese,Agra,Mymensingh,Visakhapatnam,Madurai,Lucknow,Jhang,Thinadhoo,Agartala,Karachi,Sialkot,Trincomalee,Hyderabad,Aurangabad,Mumbai,Chennai,Panaji,Ghaziabad,Chandigarh,Shikarpur,Imphal,Rajahmundry,Dhanbad,Varanasi,Bhubaneswar,Haridwar,Warangal,Nashik,Chamdo,Nyingchi,Weixi,Mangan,Zhongdian,Dali,Trashigang,Xichang,Deqin,Haldwani,Ngari,Mawlai,Litang,Rhenock,Rishikesh,Jakar,Nainital,Singtam,Dalton Ganj,Samdrup Jongkhar,Pithoragarh,Pu'er,Umroi,Yibin,Shigatse,Naga,Assamese,Dimapur,Kohima,Mokokchung,Wokha,Phek,Tuensang,Zunheboto,Mon",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Awadhi",
+    "i": 202394,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "Awadhi,Visakhapatnam,Rishikesh,Lucknow,Jhang,Chennai,Sambalpur,Fuvahmulah,Sialkot,Faisalabad,Rawalpindi,Vijayawada,Hyderabad,Barisal,Panaji,Asansol,Haridwar,Shikarpur,Imphal,Muzaffargarh,Jamshedpur,Patna,Bhubaneswar,Kurunegala,Warangal,Guntur,Ahmedabad,Pokhara,Bhopal,Delhi,Allahabad,Amritsar,Aurangabad,Khulna,Indore,Jodhpur,Itanagar,Ghaziabad,Mumbai,Rajkot,Gwalior,Dhaka,Jammu,Pune,Guwahati,Rourkela,Thiruvananthapuram,Faridabad,Noida,Aizawl",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Noakhailla",
+    "i": 202550,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "Noakhailla,Dehradun,Nagpur,Agra,Mymensingh,Visakhapatnam,Ludhiana,Mumbai,Jhang,Faisalabad,Ahmedabad,Kashmore,Sialkot,Itanagar,Hyderabad,Cuttack,Indore,Ghaziabad,Panaji,Lahore,Belgaum,Delhi,Imphal,Barisal,Dhanbad,Shimla,Bhubaneswar,Bharatpur,Lhasa,Gangtok,Kangding,Punakha,Xichang,Dali,Lijiang,Weixi,Ngari,Batang,Mangan,Shigatse,Lhokha,Chuxiong,Namchi,Samdrup Jongkhar,Koksar,Paro,Dalton Ganj,Rangpo,Trongsa,Panzhihua,Nainital,Thimphu,Trashigang,Shillong,Jorthang",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Sindhi Bhil",
+    "i": 202644,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "Sindhi Bhil,Bangalore,Dehradun,Rangpur,Agra,Rishikesh,Visakhapatnam,Sylhet,Lucknow,Sambalpur,Rajahmundry,Khanewal,Naifaru,Jaipur,Bhopal,Hyderabad,Shimla,Karachi,Ludhiana,Haridwar,Thatta,Siliguri,Gangtok,Jamshedpur,Patna,Dhanbad,Mapusa,Bhubaneswar,Ahmedabad,Kolkata,Aurangabad,Dharan,Chennai,Itanagar,Dharamshala,Aizawl,Guwahati,Nagpur,Thiruvananthapuram,Kochi,Amritsar,Jammu,Shillong,Coimbatore,Vijayawada,Madurai,Dhaka,Jodhpur,Mysore",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Sri Lankan English",
+    "i": 202652,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "Sri Lankan English,Narathiwat,Lao Cai,Nong Khai,Quy Nhon,Lhokseumawe,Bandung,Hue,Kratie,Padang Panjang,Thanh Hoa,Lomphat,Yogyakarta,Serang,Poipet,Muara,Battambang,Ternate,Balikpapan,Bogor,Loikaw,Sihanoukville,Quezon City,Malang,Bangkok,Ranong,Baguio,Mondulkiri,Barcelona,Toulouse,Nantes,Paris,Marseille,Florence,Bordeaux,Granada,Zurich,Cologne,Zaragoza,Leoben,Basel,Hamburg,Ostrava,Bilbao,Birmingham,Trondheim,Turin,Berlin,Manchester,Hradec Králové,Cork,Venice,Stuttgart,Szczecin,Linz",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Sogdian",
+    "i": 202810,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "Sogdian,Kostanay,Andijan,Naryn,Turkmenbashi,Istaravshan,Karagandy,Jalalabad,Shindand,Tejen,Taldykorgan,Anau,Kyzylorda,Khorog,Tursunzoda,Uralsk,Konye-Urgench,Türkistan,Navoiy,Bokhtar,Namangan,Bucheon,Chongqing,Nanjing,Lhasa,Kyōto,Kunming,Kitakyushu,Bukhara,Fergana,Nur-Sultan,Tashkent,Panjakent,Kokand,Aktau,Osh,Talas,Kulob,Balkanabat,Jalal-Abad,Nukus,Bishkek,Batken,Shymkent,Karakol,Rawalpindi,Bayramaly,Shiraz,Ghazni,Murghob,Tehran,Isfahan",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Waxiang",
+    "i": 203140,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Changsha,Zhuzhou,Xiangtan,Hengyang,Yueyang,Changde,Yiyang,Loudi,Shaoyang,Chenzhou,Yongzhou,Zhangjiajie,Huaihua,Jishou,Fenghuang,Liuyang,Liling,Xiangxiang,Shaoshan,Nanxian,Taojiang,Anhua,Yuanjiang,Linxiang,Huarong,Xiangyin,Wangcheng,Ningxiang,Shimen,Cili,Sangzhi,Wulingyuan,XiangtanCounty",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Newar",
+    "i": 2440,
+    "min": 4,
+    "max": 12,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Kathmandu,Lalitpur,Kirtipur,Thimi,Banepa,Panauti,Dhulikhel,Sankhu,Tokha,Thankot,Satungal,Chapagaun,Imadol,Harisiddhi,Khokana,Godavari,Pharping,Bungamati,Nagarkot,Chabahil,Boudha,ChanguNarayan,Suryabinayak,Gokarna,Dakshinkali,Lele,Bhattedanda,Dolakha,Bandipur,Patan,Kavrepalanchok",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Attapady Kurumba",
+    "i": 202393,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "Attapady Kurumba,Vijayawada,Amritsar,Mangalore,Bangalore,Kochi,Surat,Dehradun,Rishikesh,Agra,Mymensingh,Visakhapatnam,Sambalpur,Kurunegala,Jhang,Aurangabad,Rawalpindi,Shikarpur,Hyderabad,Bharatpur,Asansol,Haridwar,Dalbandin,Panaji,Muzaffargarh,Jamshedpur,Mumbai,Imphal,Barranquilla,Santo Domingo,Cúcuta,Cali,Huancayo,Lima,Caacupé,Cusco,Chiclayo,La Paz,Ambato,Paysandú,El Alto,Quito,Coca,Tarija,Mitú,Iquitos,Portoviejo,Boa Vista,San Miguel de Tucumán,Asunción,Bucaramanga,Santa Cruz,Uberlândia,Bogotá,Córdoba",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Magar (Dhut)",
+    "i": 202496,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "",
     "status": "WAITING"
   }
 ];

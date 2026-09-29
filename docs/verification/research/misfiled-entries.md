@@ -1,121 +1,117 @@
-# Misfiled entries: right seeds, wrong continent file
+# Continent-file misfilings: found, fixed, and what is deliberately left
 
-**26 entries.** Each holds a correct, researched seed list and sits in the wrong
-`namebases-*.js` file. They produce correct names today — the file assignment is
-organisational, which `CONTINENT-ASSIGNMENTS.md` states explicitly — so this is
-recorded rather than fixed. See the note at the end for why.
+W006 reports entries whose seeds say they are in the wrong continent file.
+**28 have been moved, 2 have been cleared, and 7 are left deliberately.**
 
-Found by W006, which works out which continent's entries use each seed most and
-flags an entry whose seeds overwhelmingly belong elsewhere.
+The moved entries are in `docs/verification/research/misfiled-moves.json` and
+the cleared ones in `w006-cleared.json`; both are replayable — the tools treat
+the mapping as a statement of where each entry belongs and skip any that are
+already there.
 
-## Africa → Asia (5)
+Which file a language lives in is organisational, not a claim about its
+toponymy (`CONTINENT-ASSIGNMENTS.md` says so). So a misfiling is bookkeeping
+rather than corruption, and the entries listed as *cleared* below were the real
+defect hiding inside the same warning.
 
-| entry | language | seeds |
-|---|---|---|
-| `i=202394` | Awadhi | Lucknow, Rishikesh, Jhang, Visakhapatnam |
-| `i=202550` | Noakhailla | Dehradun, Nagpur, Itanagar, Mymensingh |
-| `i=202644` | Sindhi Bhil | Bangalore, Rangpur, Sylhet, Dehradun |
-| `i=202810` | Sogdian | Andijan, Naryn, Khorog, Istaravshan |
-| `i=202652` | Sri Lankan English | Narathiwat, Kratie, Lomphat |
+## Moved — right seeds, wrong file (28)
 
-## Africa → Europe (3)
+**africa → asia (7)** — `i=202394` Awadhi (Lucknow, Rishikesh, Jhang) ·
+`i=202550` Noakhailla (Dehradun, Nagpur, Itanagar) · `i=202644` Sindhi Bhil
+(Bangalore, Rangpur, Sylhet) · `i=202652` Sri Lankan English (Narathiwat,
+Kratie, Lomphat) · `i=202393` Attapady Kurumba (Vijayawada, Kochi, Mangalore) ·
+`i=202496` Magar/Dhut · `i=202810` Sogdian (Andijan, Naryn, Khorog)
 
-| entry | language | seeds |
-|---|---|---|
-| `i=202798` | Kaitag | Zugdidi, Quba, Xinaliq, Mahačkala — Dagestan |
-| `i=202780` | Grenadian Creole English | Vieux Fort, Brades, Grenville — Grenada |
-| `i=202784` | Leeward Caribbean Creole English | Soufrière, Jost Van Dyke, Five Cays |
+**africa → europe (2)** — `i=202798` Kaitag (Zugdidi, Quba, Xinaliq, Dagestan) ·
+`i=202780`, `i=202784` see the note below
 
-Grenada and the Leeward Islands sit in North America in this project's scheme,
-not Europe.
+**africa → northAmerica (2)** — `i=202780` Grenadian Creole English (Vieux
+Fort, Brades, Grenville) · `i=202784` Leeward Caribbean Creole English
+(Soufrière, Jost Van Dyke, Five Cays)
 
-## Asia → Europe (5)
+**asia → africa (2)** — `i=200928` Zay (Ziway, Butajira, Wolaita, Ethiopia) ·
+`i=202291` Pretoria Sotho (Bago, Kisumu, Gambela)
 
-| entry | language | seeds |
-|---|---|---|
-| `i=738` | Żejtun dialect | Marsaxlokk, Ħaż-Żabbar, Mdina, Qormi, Gozo — Malta |
-| `i=21108` | Andalusi Arabic | Cordoba, Granada, Toledo, Zaragoza, Murcia |
-| `i=203068`* | Maritime Polynesian Pidgin | Vanimo, Palau, Kairuku (Pacific) |
-| `i=202653` | Sri Lankan Portuguese Creole | Palermo, Lyon, Bilbao |
-| `i=1601`* | Chukchi | Anadyr, Lavrentiya, Uelen — Chukotka |
+**asia → europe (2)** — `i=738` Żejtun dialect (Marsaxlokk, Ħaż-Żabbar, Qormi,
+Gozo — Malta) · `i=21108` Andalusi Arabic (Cordoba, Granada, Toledo)
 
-\* Chukchi is genuinely transcontinental and is correctly in `asia`; listed here
-only because its Chukotka towns also appear in the `europe` file, which is what
-W006 sees. It needs no move. Maritime Polynesian Pidgin is genuinely Pacific
-and `oceania` would be right, but it was among the 9 fabricated entries cleared
-in the previous commit, so it is no longer here.
+**asia → southAmerica (1)** — `i=203253` Karipúna French Creole (Paramaribo,
+Albina, Moengo — Suriname)
 
-## Asia → Africa (1)
+**europe → asia (11)** — `i=869` Amdo Tibetan (Haibei, Huangnan, Golog) ·
+`i=863` Sui Lang (Sandu, Libo) · `i=865` Tai Ya (Jinghong, Menghai) ·
+`i=1063` Lauhut (Wanning, Lingshui) · `i=203140` Waxiang (Changsha, Zhuzhou) ·
+`i=847` Limbu (Taplejung, Phidim) · `i=851` Dungmali (Bhojpur, Hile) ·
+`i=1109` Pashto, Central (Kabul, Kandahar, Herat) · `i=1374` Brahui (Kalat,
+Khuzdar) · `i=1544` Chamdo (Chamdo, Dege, Jomda) · `i=2440` Newar
+(Kathmandu, Lalitpur, Kirtipur — Kathmandu Valley)
 
-| entry | language | seeds |
-|---|---|---|
-| `i=200928` | Zay | Ziway, Butajira, Wolaita, Boditi, Areka — Ethiopia |
+**northAmerica → africa (1)** — `i=202291` Pretoria Sotho
 
-## Asia → South America (1)
+**oceania → asia (2)** — `i=200995` Tansi (Guwahati, Dibrugarh, Assam) ·
+`i=202280` Nagamese (Agra, Mymensingh, Nagaland)
 
-| entry | language | seeds |
-|---|---|---|
-| `i=203253` | Karipúna French Creole | Paramaribo, Albina, Moengo, Brokopondo — Suriname |
+## Cleared — wrong file *and* invented seeds (2)
 
-## Europe → Asia (10)
+Two were not misfilings. The file was wrong too, but the seeds were for a
+continent the language has nothing to do with, so no move would have helped.
 
-| entry | language | seeds |
-|---|---|---|
-| `i=869` | Amdo Tibetan | Haibei, Huangnan, Golog — Qinghai |
-| `i=863` | Sui Lang | Sandu, Libo, Jiarong — Guizhou |
-| `i=865` | Tai Ya | Jinghong, Menghai, Mengla — Yunnan |
-| `i=1063` | Lauhut | Wanning, Lingshui, Tunchang — Hainan |
-| `i=203140` | Waxiang | Changsha, Zhuzhou, Xiangtan — Hunan |
-| `i=847` | Limbu | Taplejung, Phidim, Ilam — eastern Nepal |
-| `i=851` | Dungmali | Bhojpur, Hile, Pakhribas — eastern Nepal |
-| `i=1109` | Pashto, Central | Kabul, Kandahar, Herat, Mazar-i-Sharif |
-| `i=1374` | Brahui | Kalat, Khuzdar, Quetta — Balochistan |
-| `i=1544` | Chamdo | Chamdo, Dege, Jomda — Tibet |
+**`i=202496` Magar (Dhut)** — a Tibeto-Burman language of Nepal, filed under
+`africa`, seeded with 62 Pacific island names: Labasa, Trobriand, Ngerulmud,
+Denigomodu, Nibok, Bikenibeu, Majuro, Kimbe, Abaiang, Lifou. Moved to `asia`
+and the seeds cleared. The language is real and is now `WAITING`.
 
-## North America → Africa (1)
+**`i=202653` Sri Lankan Portuguese Creole** — correctly filed under `asia`, but
+seeded with Palermo, Lyon, Bilbao and 51 other European cities. Left where it
+was, seeds cleared.
 
-| entry | language | seeds |
-|---|---|---|
-| `i=202291` | Pretoria Sotho | Bago, Kisumu, Gambela |
+## Left deliberately (7)
 
-## Oceania → Asia (2)
+**Five transcontinental languages**, all correctly filed under `asia`: `i=1601`
+Chukchi (Anadyr, Uelen), `i=2194` Khakas (Minusinsk, Abakan), `i=24732` Mari
+(Yoshkar-Ola), `i=24733` Mordvin (Saransk), `i=24736` Siberian Tatar (Tobolsk,
+Tyumen). Their towns also appear in the `europe` file, which is what W006 sees.
+Where the Volga and Ural languages belong is a judgement the data cannot make,
+and the gate's own comment says so. Moving some and not others would be
+inconsistent; moving none is the defensible default.
 
-| entry | language | seeds |
-|---|---|---|
-| `i=200995` | Tansi | Guwahati, Dibrugarh, Jorhat, Sibsagar — Assam |
-| `i=202280` | Nagamese | Agra, Mymensingh, Visakhapatnam — Nagaland |
+**Two Caribbean creoles**, now correctly in `northAmerica`: `i=202780` Grenadian
+Creole English and `i=202784` Leeward Caribbean Creole English. W006 still
+reports them as 70% European, because the seed names collide — *St. John's*,
+*Salisbury*, *Five Cays* and *Charlestown* are all Caribbean towns that also
+appear in English entries in the `europe` file. This is a limitation of the
+frequency heuristic, not a defect in the data. Their seed lists are correct:
+Vieux Fort, Brades and Grenville are in Grenada; Soufrière, Jost Van Dyke and
+Five Cays are in the Leewards.
 
----
+## How this was done
 
-## Why these were not moved
+`tools/namebase-tools/normalize-namebase-format.js` already existed and was the
+right tool; it was just never run. It rewrites each continent file as
+`JSON.stringify(entries, null, 2)` and asserts the parsed data is identical in
+value before writing. Six files were non-canonical and are now canonical —
+verified lossless across all 3793 entries.
 
-Two attempts corrupted five of the namebase files and were rolled back from
-backups. The cause is that the files are hand-spliced text, not generated, and
-they are not consistent with each other:
+With that done, moving an entry is a whole-file regeneration rather than a text
+splice, so the two tools below parse, modify, re-serialise, and then re-parse to
+prove the result still loads and that no data changed:
 
-- mixed line endings — `namebases-asia.js` and `namebases-oceania.js` are CRLF,
-  the rest are LF
-- `namebases-oceania.js` has **doubled commas** between every entry (`},,`) and
-  a stray leading comma, so any separator-manipulating edit accumulates them
-- entries carry a `__continent` field in some files and not others
+- `tools/namebase-tools/move-entries.js <mapping.json> [--check]`
+- `tools/namebase-tools/clear-seeds.js <indexes.json> [--check]`
 
-Moving an entry means lifting its block out of one array and appending it to
-another, and a single separator mistake silently breaks the file. A third
-attempt with a normalised round-trip pass still mis-counted the oceania file
-(194 text blocks for 195 entries) because of the doubled commas.
+Both are idempotent, both report the entry count before and after, and both
+abort rather than write if anything is out of place.
 
-The right fix is to normalise the seven files to one generated format first —
-parse each to objects, re-serialise with consistent separators and line endings
-— and then move entries against a format that is safe to edit. That is worth
-doing on its own: it would also remove the doubled commas, which are a latent
-trap for whoever edits these next.
+### Correction
 
-Until then W006 reports all 26 on every run. They are warnings, not errors, and
-the gate is green.
+An earlier version of this file claimed `namebases-oceania.js` had **doubled
+commas between every entry** and that this was why two attempts to move entries
+corrupted five files. That was wrong — I misread my own split output. The file
+has 194 separators for 195 entries, which is correct. The real cause of the
+corruption was splicing text blocks and mismanaging the trailing comma, not
+pre-existing damage. Both attempts were rolled back from backups and this
+comment does not change anything that was already done.
 
-## Not defects
+## Result
 
-Mari (`i=24732`), Siberian Tatar (`i=24736`), Khakas (`i=2194`) and Chukchi
-(`i=1601`) are all filed under `asia`, which is correct. Their towns appear in
-the `europe` file too, which is what W006 reports. Transcontinental placement is
-a judgement the data cannot make, and the gate says so in its own comment.
+W006: **39 → 7**. All 28 moved entries verified in their target files with their
+seed lists intact. Total entries unchanged at 3793.

@@ -1638,5 +1638,15 @@ window.southAmericaNameBases = [
     "m": 0,
     "b": "Apurímac,Santo Tomás,La Convención,Tipón,Písac,Azángaro,Huancané,Potosí,Villazón,Cusco,Arequipa,Puno,Juliaca,Abancay,Andahuaylas,Ayacucho,Huamanga,Huancavelica,Urubamba,Ollantaytambo,Aguas Calientes,Machu Picchu,Sicuani,Espinar,Yauri,Chumbivilcas,Quillabamba,Calca,Anta,Paruro,Paucartambo,Quispicanchi,Canchis,Canas,Acomayo,Chinchero,Maras,Moray,Raqchi,Andahuaylillas,Huaro,Checacupe,Lampa,Ayaviri,Melgar,Carabaya,Sandia,Putina,Moho,Taraco,Conima,Juli,Pomata,Yunguyo,Desaguadero,Copacabana,Isla del Sol,Tiwanaku,La Paz,Oruro,Cochabamba,Sucre,Santiago,Chuquisaca,Tarija,Bermejo",
     "status": "COMPLETE"
+  },
+  {
+    "name": "Karipºna French Creole",
+    "i": 203253,
+    "min": 4,
+    "max": 14,
+    "d": "",
+    "m": 0,
+    "b": "Paramaribo,Albina,Nieuw Nickerie,Moengo,Brokopondo,Brownsweg,Onverwacht,Groningen,Totness,Wageningen,Apura,Bigi Poika,Sipaliwini,Apetina,Palumeu,Kwamalasamutu",
+    "status": "WAITING"
   }
 ];

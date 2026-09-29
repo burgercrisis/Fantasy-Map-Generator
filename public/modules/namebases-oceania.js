@@ -1390,16 +1390,6 @@ window.oceaniaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Tansi",
-    "i": 200995,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Guwahati,Dibrugarh,Tinsukia,Jorhat,Sibsagar,Tezpur,Nagaon,Dimapur,Kohima,Mokokchung,Tuensang,Wokha,Phek,Zunheboto,Mon,Itanagar,Naharlagun,Pasighat,Tawang,Bomdila,Silchar,Haflong,Diphu,Jowai,Shillong,Tura,Barpeta,Goalpara,Umling,Boko,Rangia,Quebradillas,Cayey,Comerio,SabanaGrande,Naguabo,Plymouth,Barceloneta,Carolina,Barranquitas,Hormigueros,SanLorenzo,Yabucoa,Kingstown,VegaBaja,Aguadilla,Aigford,Adokford,Afilburg,Afatford,Alantown,Anasburg,Adotburg,Amutford,Amigford,Abaltown,Akatford,Aoford,Afadtown,Anibburg,Anitford",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Te Parau Tinito",
     "i": 200996,
     "min": 4,
@@ -1438,16 +1428,6 @@ window.oceaniaNameBases = [
     "m": 0,
     "b": "",
     "status": "WAITING"
-  },
-  {
-    "name": "Nagamese",
-    "i": 202280,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Nagamese,Agra,Mymensingh,Visakhapatnam,Madurai,Lucknow,Jhang,Thinadhoo,Agartala,Karachi,Sialkot,Trincomalee,Hyderabad,Aurangabad,Mumbai,Chennai,Panaji,Ghaziabad,Chandigarh,Shikarpur,Imphal,Rajahmundry,Dhanbad,Varanasi,Bhubaneswar,Haridwar,Warangal,Nashik,Chamdo,Nyingchi,Weixi,Mangan,Zhongdian,Dali,Trashigang,Xichang,Deqin,Haldwani,Ngari,Mawlai,Litang,Rhenock,Rishikesh,Jakar,Nainital,Singtam,Dalton Ganj,Samdrup Jongkhar,Pithoragarh,Pu'er,Umroi,Yibin,Shigatse,Naga,Assamese,Dimapur,Kohima,Mokokchung,Wokha,Phek,Tuensang,Zunheboto,Mon",
-    "status": "COMPLETE"
   },
   {
     "name": "Petjo",

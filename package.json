@@ -28,6 +28,8 @@
     "namebase:status": "node tools/namebase-tools/namebase-status.js --write",
     "namebase:clean": "node tools/namebase-tools/clean-namebase-data.js",
     "namebase:normalize": "node tools/namebase-tools/normalize-namebase-format.js",
+    "namebase:move": "node tools/namebase-tools/move-entries.js",
+    "namebase:clear-seeds": "node tools/namebase-tools/clear-seeds.js",
     "namebase:claims": "node tools/namebase-tools/claim.js --list",
     "namebase:map-audit": "node tools/namebase-tools/audit-map-integrity.js",
     "namebase:aggregator": "node tools/namebase-tools/verify-aggregator-runs.js",
