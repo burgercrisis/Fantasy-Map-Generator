@@ -879,16 +879,6 @@ window.northAmericaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Q'anjob'al",
-    "i": 6626,
-    "min": 5,
-    "max": 18,
-    "d": "abcdefghijklmnopqrstuvwxyz' ",
-    "m": 0.47,
-    "b": "Santa Eulalia,Jolom Konob',San Pedro Soloma,Tz'uluma',San Juan Ixcoy,Yich K'ox,Santa Cruz Barillas,Yalmotx,Painocop,Jolomquem,Jolomtaj,Yulaxac,Momonlac,Xoxlac,Chipoxlac,Nuca,Yulconop,Yalambé,Yalanka,Yalankú,Yulatizu,Yula Imxola,Yichlacuitz,Yulmacap,Yuljobe,Yalbatlac,Sacchen,Balli,Becana,Coxtac,Pojna",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Dena'ina",
     "i": 6631,
     "min": 4,
@@ -1089,46 +1079,6 @@ window.northAmericaNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "Q'eqchi'",
-    "i": 8125,
-    "min": 5,
-    "max": 17,
-    "d": "lnrt",
-    "m": 0.52,
-    "b": "Coban,San Pedro Carcha,San Juan Chamelco,Cahabon,Senahu,Lanquin,Chisec,Chahal,Fray Bartolome,Panzos,Raxruha,Poptun,San Luis,Sayaxche,El Estor,Livingston,Ixcán,Playa Grande,San Pedro Columbia,Crique Sarco,Dolores,Punta Gorda,Blue Creek,Indian Creek,Santa Cruz",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Tzotzil",
-    "i": 8127,
-    "min": 4,
-    "max": 21,
-    "d": "",
-    "m": 0.18,
-    "b": "Chamula,Zinacantán,San Andrés Larráinzar,Chenalhó,Huixtán,Chalchihuitán,Pantelhó,Mitontic,El Bosque,Santiago el Pinar,Venustiano Carranza,Romerillo,Cruztón,Yaltem,Chicumtantic,Nichnamtic,Muquén,Majomut,Saclamantón,Catishtic,Cuchulumtic,Tentic,Pugchén Mumuntic,Tzontehuitz,Navenchauc,Nachig,Apas,Pasté,Patosil,Zequentic,Chalam,Tzoeptic,Chimhucum,Oxinam,Chiquinshulum,Joltealal,Yibeljoj,Muken,Jobel,Bats'i k'op,Sots'leb",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Yucatec Maya",
-    "i": 8128,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Merida,Valladolid,Tizimin,Izamal,Motul,Progreso,Maxcanu,Halacho,Acanceh,Ticul,Oxkutzcab,Teabo,Tekax,Akil,Peto,Tzucacab,Chankom,Chemax,Temozon,Calotmul,Yaxcaba,Espita,Cenotillo,Dzitas,Sotuta,Hoctun,Xocchel,Sudzal,Chichimila,Uayma,Timucuy,Hocaba,Seyche",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Kaqchikel",
-    "i": 8129,
-    "min": 6,
-    "max": 25,
-    "d": "Kaqchikel (use the language's own documented toponyms and Spanish-saint municipio names; glottalized consonants bʼ qʼ tzʼ tʼ chʼ kʼ and x=ʃ are distinctive)",
-    "m": 0.7,
-    "b": "Tecpán,Patzún,Patzicía,San José Poaquil,San Martín Jilotepeque,San Andrés Itzapa,San Miguel Pochuta,San Pedro Yepocapa,San Juan Comalapa,Chimaltenango,El Tejar,Pochuta,Yepocapa,Parramos,Acatenango,Sumpango,Jocotenango,Santa Cruz Balanyá,Alotenango,Magdalena Milpas Altas,San Antonio Aguas Calientes,San Bartolomé Milpas Altas,San Lucas Sacatepéquez,San Miguel Dueñas,Santa Catarina Barahona,Santa Lucía Milpas Altas,Santa María de Jesús,Santiago Sacatepéquez,Santo Domingo Xenacoj,Chuarrancho,San Juan Sacatepéquez,San Pedro Ayampuc,San Pedro Sacatepéquez,San Raimundo,Panajachel,San Andrés Semetabaj,San Antonio Palopó,San José Chacayá,Santa Catarina Palopó,Santa Cruz La Laguna,San Marcos La Laguna,Sololá,San Antonio Suchitepéquez,San Juan Bautista,Patulul,Santa Cruz El Chol,Iximche,Concepción,B'oko',Chi Xot",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Ixil",
     "i": 8130,
     "min": 3,
@@ -1146,16 +1096,6 @@ window.northAmericaNameBases = [
     "d": "",
     "m": 0.18,
     "b": "Jacaltenango,Concepcion Huista,San Antonio Huista,Santa Ana Huista,Aqoma,Buxup,Chejbal,Cheya,El Limonar,Huitzobal,Inchehuex,Jujlina,La Laguna,Lupina,Meste,Nueva Catarina,Paya,Qom,San Andres Huista,San Marcos Huista,Taj Buxup,Tzisbaj,Wixaj,Xayomlaj,Yinhchewex,Guadalupe Victoria,Ojo de Agua,Pacayalito,Flor de Mayo,Bienestar Social,Huixquilar,Los Pocitos,El Mango,Sunzapote,El Vergel Dos,La Campana,La Gloria,El Colorado,Nuevo Villaflores,San Jose El Tablon,Nojoya,El Pajal,El Coyegual,Rancho Viejo",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "K'iche'",
-    "i": 8132,
-    "min": 6,
-    "max": 22,
-    "d": "K'iche' place names draw from Spanish saint-compound municipios (multi-word, e.g. San Antonio Ilotenango, Santa María Chiquimula) and short K'iche' autonyms (Q'umarkaj, Nawala', Xelajú, Cantel, Zunil). Multi-word Spanish names raise m above 0.",
-    "m": 0.45,
-    "b": "Santa Cruz del Quiché,Chichicastenango,Chiché,Chinique,Zacualpa,Patzité,San Antonio Ilotenango,San Pedro Jocopilas,Santa María Chiquimula,San Bartolomé Jocotenango,Cunén,Joyabaj,Nahualá,Santa Clara La Laguna,Santa Lucía Utatlán,Cantel,Zunil,Totonicapán,Momostenango,Salcajá,San Carlos Sija,San Juan Ostuncalco,San Martín Sacatepéquez,San Mateo,Sololá,Concepción,San Andrés Xecul,San Francisco El Alto,San Cristóbal Totonicapán,Santa Lucía La Reforma,San Bartolo,Almolonga,El Palmar,Olintepeque,Quetzaltenango,Q'umarkaj,Utatlán,Chuwila',Nawala',Xelajú",
     "status": "COMPLETE"
   },
   {
@@ -1256,36 +1196,6 @@ window.northAmericaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "San Felipe del Progreso,San Lucas Ocotepec,Temoaya,San Antonio la Isla,Toluca,Metepec,Calimaya,Tenango del Valle,Almoloya de Juarez,Zinacantepec,Otzoloapan,Temascaltepec,Villa Guerrero,Coatepec Harinas,Ixtapan de la Sal,Tonatico,Zumpahuacan,Almoloya del Rio,Joquicingo,Ocuilan,Chalco,Xalatlaco,Capulhuac,Santiago Tianguistenco,Ixtlahuaca,Atlacomulco,Aculco,Jilotepec,Timilpan,Villa del Carbon",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Mixtec",
-    "i": 8428,
-    "min": 4,
-    "max": 34,
-    "d": "lnrt",
-    "m": 0.93,
-    "b": "Tlaxiaco,Juxtlahuaca,San Juan Mixtepec,Santa Maria Peñoles,San Miguel el Grande,San Pedro y San Pablo Tequixtepec,San Mateo Yucutindoó,San Esteban Atatlahuca,Santiago Yosondua,Santa Cruz Itundujia,San Andres Dinicuiti,San Juan Diquiyú,San Miguel Amatitlan,San Sebastian Tecomaxtlahuaca,San Martin Duraznos,Santo Tomas Ocotepec,San Agustin Tlacotepec,Magdalena Peñasco,San Jeronimo Xayacatlan,San Juan Ñumí,Santa Maria Yucuhiti,San Andres Yuticachi,San Martin Huamelulpam,San Pedro Molinos,San Dionisio Ocotlan,Santa Lucia Monteverde,San Juan Teita,San Pedro Topiltepec,San Andres Cabecera Nueva,San Andres Nuxiño,Santa Maria Yolotepec,San Antonino Monte Verde,San Cristobal Amoltepec,Santiago Tamazola,San Martin de los Cansecos,San Juan Cieneguilla,Santa Maria Apazco,San Francisco Telixtlahuaca,San Juan Bautista Cuicatlan,San Pedro Jocotipac,Santa Maria Nativitas,San Andres Zautla (neighbor),San Martin Itunyoso,Tlacoatzintepec,Sochiapan,San Pedro y San Pablo Ayutla,San Lorenzo Cuaunecuiltitlan,Santa Maria Jalapa del Marques,San Juan Jaltepec,Santiago Yolomecatl,San Mateo Piñas,San Andres Paxtlan,San Vicente Nuñú,San Francisco Chapulapa,Santiago Huajolotitlan,San Miguel Chicahua,San Juan Tepeuxila",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Otomi",
-    "i": 8429,
-    "min": 4,
-    "max": 18,
-    "d": "kpt",
-    "m": 0.33,
-    "b": "San Juan Bautista Ixtenco,Santiago Tlazoyaltepec,San Jeronimo Acazulco,San Pedro Atlapulco,Santiago Tilapa,Temascalcingo,Temoaya,San Felipe Santiago,San Ildefonso Tultepec,Santiago Mexquititlan,Amealco,Toliman,San Nicolas Tenango,Texcatepec,Toluca,San Felipe los Alzati,San Pablito Pahuatlan,Santa Ana Hueytlalpan,Tecozautla,Chapa de Mota,Jilotepec,Acambay,Mezquital,Ixmiquilpan,Tula,Valle de Mezquital,San Antonio",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Zapotec",
-    "i": 8430,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Amatlán,Benito Juárez,Cuajimoloyas,La Nevería,Lachatao,Latuvi,Llano Grande,Yavesía,Ixtlán de Juárez,Capulálpam de Méndez,Guelatao de Juárez,Natividad,San Juan Chicomezúchil,Santiago Xiacuí,San Juan Yaeé,San Juan Yatzona,San Miguel Yotao,San Pedro Yaneri,San Ildefonso Villa Alta,Santa Catarina Ixtepeji,Monte Albán,Mitla,Zaachila,Ocotlán,Etla,Tlacolula,San José Mogote,Zimatlan,Abasolo,Juchitán,Tehuantepec,Jalapa del Marqués,Mixtequilla,Xadani,Chihuitán,Laollaga,Yatee,Zoogocho,Yalálag,Tabaá,Cajonos,Choápam,Abejones,Ozolotepec,Miahuatlán,Coatezas Altas,Santa María Ozolotepec,Santo Domingo Ozolotepec,San Cristóbal Amatlán",
     "status": "COMPLETE"
   },
   {
@@ -1409,16 +1319,6 @@ window.northAmericaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Algonquian-Basque pidgin",
-    "i": 203219,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Red Bay,Middle Bay,St. Modeste,Chateau Bay,Battle Harbour,Carrol Cove,Henley Harbour,Square Islands,Dead Island,Indian Tickle,Indian Harbour,Black Tickle,Norman Bay,Paradise River,Fox Harbour,St. Lewis,Port Hope Simpson,Mary's Harbour,Lodge Bay,Cape Charles,West St. Modeste",
-    "status": "WAITING"
-  },
-  {
     "name": "Itza'",
     "i": 200906,
     "min": 4,
@@ -1427,16 +1327,6 @@ window.northAmericaNameBases = [
     "m": 0,
     "b": "Flores,San Jose,San Benito,Santa Elena,Melchor de Mencos,Poptun,Dolores,San Luis,San Francisco,La Libertad,Las Cruces,El Chal,Sayaxche,La Union",
     "status": "WAITING"
-  },
-  {
-    "name": "American Indian Pidgin English",
-    "i": 203220,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Fort Laramie,Fort Bridger,Fort Benton,Fort Peck,Fort Belknap,Fort Shaw,Fort Ellis,Fort Parker,Fort Smith,Fort Gibson,Fort Towson,Fort Washita,Fort Arbuckle,Fort Cobb,Fort Sill,Fort Supply,Fort Reno,Fort Dodge,Fort Hays,Fort Wallace,Fort Lyon,Fort Garland,Fort Massachusetts,Fort Craig,Fort Stanton,Fort Sumner,Fort Bascom,Fort Bliss",
-    "status": "COMPLETE"
   },
   {
     "name": "Bahamian Creole (dedicated)",
@@ -1629,16 +1519,6 @@ window.northAmericaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Bahamian Creole",
-    "i": 200626,
-    "min": 4,
-    "max": 16,
-    "d": "lnrt",
-    "m": 0.27,
-    "b": "Nassau,Freeport,West End,Lucaya,Eight Mile Rock,High Rock,McLean's Town,Old Freetown,New Freetown,Russell Town,Congo Town,Freetown,Adelaide,Foxhill,Bain and Grants Town,Carmichael,Mount Moriah,Gambier,Hanna Hill,Bartlette Hill,Pine Dale,Martin Town,Jones Town,Sea Grape,Holmes Rock,Martin Hill,Bootle Bay",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Bajan Creole",
     "i": 200627,
     "min": 4,
@@ -1669,16 +1549,6 @@ window.northAmericaNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "Grenadian Creole English",
-    "i": 200630,
-    "min": 4,
-    "max": 16,
-    "d": "lnrt",
-    "m": 0.09,
-    "b": "St. George's,Gouyave,Grenville,Sauteurs,Victoria,Hillsborough,Grand Anse,Concord,Saint Patrick,Saint Andrew,Saint David,Saint Mark,Southern Grenadines,Carriacou,Petite Martinique,Grand Etang,Lance aux Epines,True Blue,Marquis,Beausejour,Beauregard,Bellevue,Chantimelle,Crochu,Dover,Esperance,Fontenoy,Grand Roy,La Digue,Morne Docteur,Retreat,Temple,Tivoli",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Haitian Creole",
     "i": 200631,
     "min": 4,
@@ -1696,16 +1566,6 @@ window.northAmericaNameBases = [
     "d": "lnrt",
     "m": 0.19,
     "b": "Kingston,Spanish Town,Portmore,Mandeville,May Pen,Ocho Rios,Port Antonio,Savanna-la-Mar,Half Way Tree,Falmouth,Linstead,Old Harbour,Porus,Bog Walk,Chapelton,Christiana,Maroon Town,Cockpit Country,Fern Gully,Alligator Pond,Martha Brae,Gutters,Lover's Leap,Nain,Seaford Town,Guy's Hill,Irish Town,Clarendon Park,Port Royal,New Kingston,Red Hills,Stony Hill",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Leeward Caribbean Creole English",
-    "i": 200634,
-    "min": 4,
-    "max": 17,
-    "d": "lnrt",
-    "m": 0.43,
-    "b": "Basseterre,Nevis,St. Kitts,Antigua,Barbuda,Montserrat,Anguilla,British Virgin Islands,Tortola,Virgin Gorda,Jost Van Dyke,Anegada,St. John,St. Thomas,St. Croix,Christiansted,Frederiksted,Road Town,Spanish Town,The Valley,St. George's,Codrington,St. John's,St. Peter's,St. Paul's,St. Mary's,St. Phillip's,St. George's Village,St. John's Village",
     "status": "COMPLETE"
   },
   {
@@ -1796,26 +1656,6 @@ window.northAmericaNameBases = [
     "d": "",
     "m": 0,
     "b": "Uspantan,Playa Grande Ixcan,San Miguel Uspantan,Chichicastenango,Santa Cruz del Quiche,Rabinal,Coban,San Miguel Uspantan municipality,Playa Grande Ixcan municipality",
-    "status": "WAITING"
-  },
-  {
-    "name": "Coast Tsimshian (Sm'algyax)",
-    "i": 201021,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Prince Rupert,Terrace,Kitimat,Metlakatla,Laax Kw'alaams,Kitsumkalum,Kitselas,Gitga'at,Gitxaala,Kitselas Canyon,Hartley Bay,Port Simpson,Kitkatla,New Aiyansh,Gitwinksihlkw,Kincolith",
-    "status": "WAITING"
-  },
-  {
-    "name": "Cochimí",
-    "i": 201022,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "San Ignacio,Kadakaaman,San Francisco Javier,San Jose de Comondu,San Luis Gonzaga,Nuestra Senora de Guadalupe,Santa Gertrudis,San Borja,Santa Maria de los Angeles,San Fernando Velicata,Santa Rosalia de Mulege,San Jose del Cabo",
     "status": "WAITING"
   },
   {
@@ -1929,16 +1769,6 @@ window.northAmericaNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "Mayo",
-    "i": 201035,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Navojoa,Etchojoa,Huajicori,Bamoa,San Luis,Conicari,Tetaroba,Cocorit,Camargo,Tehueco,Masiaca",
-    "status": "WAITING"
-  },
-  {
     "name": "Dominican Creole French",
     "i": 201358,
     "min": 4,
@@ -1999,16 +1829,6 @@ window.northAmericaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "American Indian Pidgin English",
-    "i": 200931,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "FortVancouver,FortAstoria,FortGeorge,FortLangley,FortVictoria,FortNisqually,FortColvile,FortNezPerces,FortOkanogan,FortSpokane,FortKamloops,FortAlexandria,FortStJames,FortGeorgeBC,BellaCoola,Kamloops,Victoria,Vancouver,NewWestminster,Yale,Lytton,Hope,BostonBar,Lillooet,Clinton,WilliamsLake,Barkerville,Quesnel,Alexandria,SodaCreek,FortWallaWalla,TheDalles,Celilo,Cascades,Cowlitz,Nisqually,Puyallup,Steilacoom,Olympia,Seattle,Portland,OregonCity,GrandRonde,Siletz,Astoria,Tillicum",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Cauque Mayan",
     "i": 200938,
     "min": 4,
@@ -2059,46 +1879,6 @@ window.northAmericaNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "Navajo",
-    "i": 25021,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Tuba,City,Chinle,Window,Rock,Shiprock,Kayenta,Tse,Bonito,Tohatchi,Crownpoint,Thoreau,Prewitt,Ramah,Zuni,Many,Farms,Ganado,Nazlini,Pinon,Lukachukai,Round,Point,Dennehotso,Leupp,Dilkon,Teec,Nos,Pos,Mexican,Water,Aneth,Montezuma,Creek,Red,Mesa,Sweetwater,Indian,Wells,Jeddito,Low,Mountain,Steamboat,Tsaile,Wide,Ruins,Alamo,Baca,Breadsprings,Becenti,Casamero,Lake,Chi,Chiltah,Churchrock,Counselor,Manuelito,Coyote,Canyon,Crystal,Cudeii,Forest,Hardrock,Hogback,Iyanbito,Kaibeto,Kinlichee,Klagetoh,Valley,Littlewater,Lupton,Springs,Nageezi,Nahodishgish,Nahata,Dziil,Nakaibito,Naschitti,Navajo,Newcomb,Oak,Ojo,Encino,Oljato,Pinedale,Pueblo,Pintado,Sanostee,Sawmill,Shonto,Smith,Standing,St,Michaels,Tachee,Teesto,Tiis,Tsoh,Sikaad,Tohajiilee,Tonalea,Torreon,Toadlena,Wheatfields,Whippoorwill,Whitecone,Whitehorse,Cameron,Chilchinbeto,Coalmine,Coppermine,Inscription,House,Lechee,Sheepsprings,San,Juan,Sucker,River,Tselani,Cottonwood,Two,Grey,Hills,Upper,Fruitland,Gadii,Ahi",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Cherokee",
-    "i": 25022,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Tahlequah,Cherokee,Fort,Gibson,Stilwell,Sallisaw,Westville,Vian,Spiro,Poteau,Eufaula,Quinton,Warner,Park,Hill,Peggs,Locust,Grove,Salina,Adair,Delaware,Mayes,County,Sequoyah,Nowata,Rogers,Wagoner,Muskogee,Okmulgee,Tulsa,Washington,McIntosh,Craig,Ottawa,Jay,Spavinaw,Kenwood,Hulbert,Briggs,Cookson,Bunch,Belfonte,Braggs,Marble,City,Muldrow,Gore,Webbers,Falls,Okay,Oaks,Proctor,Christie,Watts,Leach,Fairfield,Greasy,Bell,Barber,Lyons,Switch,East,District,Keys,Evening,Shade,Dry,Creek,Brushy,Rocky,Ford,Four,Corners,Long,Qualla,Boundary,NC,Big,Cove,Yellow,Wolfetown,Birdtown,Snowbird,Cowee,Painttown,Jackson,Graham,Swain,Hayesville,Murphy,Andrews,Boqute,Ducktown,Bryson,Hills,Going,Snake,Caney,Stroud,Twin,Piney,Council,Sourjohn,Blackgum,Nicut,Bull,Hollow,Rose,Barren,Honey,Sycamore,Moodys,Greenleaf,Tenkiller,Johnson,Prairie,White,Oak,Red,Blue,Jacket,Bartlesville,Claremore,Vinita,Miami,Catoosa,Pryor,Inola,Chouteau",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Ojibwe",
-    "i": 25023,
-    "min": 4,
-    "max": 13,
-    "d": "",
-    "m": 0,
-    "b": "White,Earth,Red,Lake,Leech,Mille,Lacs,Fond,du,Lac,Bois, Forte,Grand,Portage,Bad,River,Courte,Oreilles,Flambeau,Mole,St,Croix,Sokaogon,Hannahville,Bay,Mills,Little,Traverse,Saginaw,Isabella,Keweenaw,L,Anse,Baraga,Ontonagon,Vieux,Desert,Sault,Ste,Marie,Garden,Batchewana,Serpent,Mississauga,Six,Nations,Wikwemikong,Aamjiwnaang,Kettle,and,Stony,Point,Walpole,Island,Moravian,of,the,Thames,Curve,Alderville,Hiawatha,Mississaugas,Scugog,Pine,Naytahwaush,Elbow,Rice,Callaway,Ogema,Waubun,Mahnomen,Onigum,Cass,Bena,Deer,Inger,Max,Squaw,Boy,Remer,Hill,City,Blackduck,Redby,Ponsford,Cloquet,Brookston,Sawyer,Nett,Orr,Buyck,Crane,Tower,Winton,Biwabik,Virginia,Ely,Tofte,Marais,Lutsen,Two,Harbors,Beaver,Silver,Bayfield,Cliff,Odanah,New,Post,Winter,Manitowish,Waters,Minocqua,Woodruff,Presque,Isle,Tomahawk,Rhinelander,Crandon,Legend,Keshena,Gresham,Bowler,Shawano,Gillett,Oconto,Peshtigo,Marinette,Township,Houghton,Hancock,Calumet,Mass,Rockland,Bruce,Crossing,Watersmeet,Wakefield,Marenisco,Iron,Crystal,Falls,Escanaba,Manistique,Newberry,Munising,Cedar,Sandy,McGregor,Palisade,Tamarack,Wright,Jacobson,Swatara,Outing,Hayward,Round,Stone,Cable,Drummond,Cornucopia,Herbster,Port,Wing,Marengo,Mellen,Glidden,Morse,Ashland,Washburn",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Cree",
-    "i": 25024,
-    "min": 4,
-    "max": 13,
-    "d": "",
-    "m": 0,
-    "b": "Hobbema,Maskwacis,Enoch,Samson,Louis,Bull,Montana,Frog,Lake,Saddle,Kehewin,Beaver,Whitefish,Goodfish,Heart,Cold,Chipewyan,Prairie,Bigstone,Alexander,Alexis,Paul,Sturgeon,Driftpile,Swan,River,Sucker,Creek,Sawridge,Fort,McKay,McMurray,Athabasca,Mikisew,Dene,Conklin,Janvier,Anzac,Chard,Collin,Devon,East,Elizabeth,Fishing,John,D,Or,Gift,Gregoire,Kinosoo,Little,Red,Loon,Namur,Peerless,Philomena,Sandy,Smith,Landing,Tsu,Winefred,Zama,Atikameg,Woodland,Cree,Cadotte,Desmarais,Chateh,High,Level,Vermilion,La,Crete,Fox,Garden,Peavine,Wabasca,Salt,Trout,Demarais,O,Chiese,Big,Horn,Piikani,Stoney,Nakoda,Bearspaw,Chiniki,Wesley,Morley,Eden,Valley,Gleichen,Arrowood,Blackfoot,Tsuut,Ina,Sarcee,Cluny,Brocket,Pincher,Macleod,Lethbridge,Standoff,Moses,Levern,Fish,Bullhorn,Earth,Grouard,Enilda,Kinuso,Valleyview,DeBolt,Falher,Girouxville,Donnelly,Smoky",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Sioux",
     "i": 25025,
     "min": 4,
@@ -2119,16 +1899,6 @@ window.northAmericaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Mikmaq",
-    "i": 25027,
-    "min": 4,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Eskasoni,Indian,Brook,Membertou,Pictou,Landing,Millbrook,Paqtnkek,Potlotek,Whycocomagh,Chapel,Island,Acadia,Bear,River,Annapolis,Valley,Sipeknekatik,Glooscap,Shubenacadie,Wagmatcook,We-koqma-q,Wasoqopa-q,Big,Cove,Elsipogtog,Burnt,Church,Esgenoopetitj,Eel,Bar,Ground,Buctouche,Fort,Folly,Metepenagiag,Pabineau,Natoaganeg,Abegweit,Lennox,Scotchfort,Rocky,Point,Morell,Miminegash,Palmer,Road,Tignish,O,Leary,Alberton,Conne,Miawpukwek,St,Albans,Red,Bay,Lodge,Marys,Harbour,Cartwright,Happy,Goose,North,West,Sheshatshiu,Nain,Hopedale,Postville,Makkovik,Rigolet,Tukialik,Blanc,Sablon,Old,Bonne,Esperance,Restigouche,Listuguj,Pointe,a,la,Croix,Miguasha,Carleton,Gaspe,Anse,Pleureuse,Chevery,Tete,Baleine,La,Tabatiere,Romaine,Havre,Pierre,Longue,Mingan,Natashquan,Aguanish",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Inuktitut",
     "i": 25028,
     "min": 4,
@@ -2136,16 +1906,6 @@ window.northAmericaNameBases = [
     "d": "",
     "m": 0,
     "b": "Iqaluit,Rankin,Inlet,Baker,Lake,Cambridge,Bay,Pond,Arctic,Resolute,Grise,Fiord,Clyde,River,Qikiqtarjuaq,Pangnirtung,Kimmirut,Cape,Dorset,Kinngait,Coral,Harbour,Naujaat,Chesterfield,Arviat,Whale,Cove,Sanikiluaq,Igloolik,Sanirajak,Hall,Beach,Kugaaruk,Kugluktuk,Taloyoak,Gjoa,Haven,Alert,Eureka,Kuujjuaq,Kuujjuarapik,Umiujaq,Puvirnituq,Inukjuak,Salluit,Kangiqsujuaq,Kangirsuk,Tasiujaq,Aupaluk,Quaqtaq,Ivujivik,Akulivik,Sachs,Ulukhaktok,Tuktoyaktuk,Inuvik,Aklavik,Fort,McPherson,Tsiigehtchic,Red,Nahanni,Butte,Liard,Simpson,Nelson,Good,Hope,Norman,Wells,Tulita,Deline,Wrigley,Providence,Hay,Resolution,Yellowknife,Lutselk-e,Smith,Chateh,Chipewyan,McKay,Paulatuk,Holman,Tuktuuyaqtuuq,Noovvaq,Talurjuaq,Bathurst,Umingmaktok,Omingmaktok,Ennadai,Wollaston,Black,Stony,Rapids,La,Loche,Buffalo,Narrows,Ile,a,la,Crosse,Beauval,Green,St,Walburg,North,Battleford,Prince,Albert,Ronge,Mountain,Flin,Flon,The,Pas,Norway,House,Cross,Oxford,Garden,Hill,Island,God-s,Poplar,Winnipeg,Churchill,Gillam,Bird,Shamattawa,Tadoule",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Blackfoot",
-    "i": 25029,
-    "min": 4,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Siksika,Kainai,Piikani,Brocket,Cluny,Gleichen,Arrowood,Morley,Eden,Valley,Big,Horn,Standoff,Old,Agency,Fort,Macleod,Pincher,Creek,Cardston,Magrath,Raymond,Coaldale,Taber,Vauxhall,Brooks,Bassano,Strathmore,Wheatland,Hussar,Standard,Rosebud,Calgary,Lethbridge,Medicine,Hat,Redcliff,Bow,Island,Milk,River,Warner,Stirling,Glenwood,Hillspring,Waterton,Crowsnest,Pass,Blairmore,Frank,Coleman,Barnwell,New,Dayton,Milo,Tilley,Patricia,Scandia,Champion,Carmangay,Nobleford,Barons,Picture,Butte,Coalhurst,Grassy,Lake,Burdet,Suffield,Maple,Robsart,Eastend,Climax,Bracken,Rearville,Val,Marie,Orkney,Congress,Wood,Mountain,Kelvington,Tompkins,Gull,Webb,Antelope,Shamrock,Carmichael,White,Eagle,Seven,Persons,Etzikom,Writing,on,Stone",
     "status": "COMPLETE"
   },
   {
@@ -2166,16 +1926,6 @@ window.northAmericaNameBases = [
     "d": "",
     "m": 0,
     "b": "Zuni,Pueblo,Black,Rock,Nutria,Ojo,Caliente,Pescado,Ramah,Salt,Lake,Dowa,Yalanne,Halona,Hawikuh,Kiakima,Matsaki,Kwakina,Chipaun,Antelope,Hill,Eustace,Reservoir,Upper,Lower,Las,Animas,Largo,Mangas,Nada,Luis,Lopez,San,Acacia,Polvadera,La,Joya,Elephant,Butte,Caballo,Williamsburg,Bayard,Mimbres,Faywood,Lorenzo,Mule,Creek,Gila,Arenas,Valley,Silver,City,Tyrone,Pinos,Altos,White,Signal,Alden,Hillsboro,Kingston,Fierro,Hanover,Cobre,Deming,Columbus,Luna,Reserve,Apache,Quemado,Magdalena,Polly,Cruzville,Cuba,Milan,Encino,Vaughn,Mountains,Stump,The,Neck,Cottonwood,Springs,Rocky,Point,Horsehead,Crossing,Camp,Bonito",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Hopi",
-    "i": 25032,
-    "min": 4,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "First,Mesa,Second,Third,Polacca,Keams,Canyon,Tuba,City,Hotevilla,Bacavi,Mishongnovi,Shipaulovi,Shungopavi,Sichomovi,Walpi,Toreva,Old,Oraibi,Kykotsmovi,Moenkopi,Upper,Lower,Hano,Tewa,Sitsomovi,Waalpi,Songoopavi,Supawlavi,Munsungnuvi,Orayvi,Kiqotsmovi,Hoatvela,Paaqavi,Munqapi,Winslow,Leupp,Cameron,Joseph,Holbrook,West,Indian,Wells,Tolani,Lake,Birdsprings,Whitecone,Greasewood,Springs,Dilkon,Teesto,Pinon,Black,Forest,Hardrock,Low,Mountain,Jeddito,Whippoorwill,Blue,Gap,Tachee,Tsaile,Wheatfields,Round,Rock,Rough,Many,Farms,Ganado,Cornfields,Steamboat,Klagetoh,Wide,Ruins,Kinlichee,St,Michaels,Sawmill,Fort,Defiance,Window,Lupton,Houck,Sanders,Nahata,Dziil,Crystal,Coyote,Burnham,Shiprock,Aneth,Mexican,Water,Red,Navajo",
     "status": "COMPLETE"
   },
   {
@@ -2246,6 +1996,16 @@ window.northAmericaNameBases = [
     "d": "",
     "m": 0,
     "b": "Leeward Caribbean Creole English,Grenville,Cockburn Harbour,Oistins,Soufrière,Salisbury,St. John's,Jost Van Dyke,Five Cays,Castries,Old Road,Tunapuna,Charlestown,Arima,Anegada,Philipsburg,Victoria,Road Town,Holetown,Sauteurs,Santa Rosa,Oranjestad,Saint-Marc,Santiago de Cuba,Portmore,Chaguanas,Port of Spain,Salt Cay,Bordeaux,Drogheda,Leipzig,Uppsala,Toulouse,Wroclaw,Nantes,Strasbourg,Marseille,Málaga,Sion,Munich,Milan,Bilbao,Granada,Zaragoza,Bristol,Glasgow,Reykjanesbær,Chur,Liverpool,Lisbon,Barcelona,Bologna,Trondheim,St. Gallen,Prague",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Mi'kmaq",
+    "i": 203075,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Eskasoni,Membertou,Millbrook,Sipekne'katik,Wagmatcook,Waycobah,Potlotek,Pictou Landing,Paqtnkek,Glooscap,Bear River,Annapolis Valley,Acadia,Lennox Island,Abegweit,Miawpukek,Qalipu,Gesgapegiag,Listuguj,Metepenagiag,Natoaganeg,Buctouche,Eel River Bar,Fort Folly,Indian Island,Kingsclear,Oromocto,Pabineau,Tobique,Woodstock,Aroostook",
     "status": "COMPLETE"
   }
 ];

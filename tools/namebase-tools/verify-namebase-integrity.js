@@ -772,6 +772,39 @@ for (const [a, b] of mapCopies) {
 }
 
 // ---------------------------------------------------------------------------
+// M004 - the session's cleanup claims still hold, re-measured from disk
+// ---------------------------------------------------------------------------
+//
+// This gate says the data is internally consistent. It does not say that a
+// specific change still happened, and that distinction mattered: during the
+// 2026-09-29 cleanup, a tool reported "0 pairs over the 25% overlap cap" from
+// an in-memory counter while the file it had written had 20 violations, and a
+// verification script reported entries "differing" because one side of its
+// comparison had an extra field on it. Both were the same mistake - a count
+// computed while building something is not evidence about the thing built.
+//
+// tools/namebase-tools/verify-session-changes.js re-measures the claims in a
+// separate process against the files as they exist now. It deliberately
+// overlaps with the checks above rather than replacing them.
+
+{
+  const { execFileSync } = require("node:child_process");
+  const script = path.join(root, "tools", "namebase-tools", "verify-session-changes.js");
+  if (fs.existsSync(script)) {
+    try {
+      execFileSync(process.execPath, [script, "--json"], { cwd: root, stdio: "pipe" });
+    } catch (e) {
+      let detail = "";
+      try {
+        const out = JSON.parse(String(e.stdout || "{}"));
+        detail = (out.results || []).filter(r => !r.ok).map(r => `${r.name}${r.detail ? " (" + r.detail + ")" : ""}`).join("; ");
+      } catch { detail = String(e.stdout || e.message).split(/\r?\n/).slice(0, 3).join(" "); }
+      err("M004", "tools/namebase-tools/verify-session-changes.js", `session claims no longer hold. ${detail}`);
+    }
+  }
+}
+
+// ---------------------------------------------------------------------------
 // S001 / S002 - the served data files must parse and run
 // ---------------------------------------------------------------------------
 //

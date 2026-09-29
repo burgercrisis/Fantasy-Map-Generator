@@ -540,16 +540,6 @@ window.oceaniaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Kewa",
-    "i": 97973,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Kagua,Erave,Ialibu,Mendi,Pangia,Imbonggu,Aiya,Wabi,Sumi,Kagua Central,Kuare,Usa,Karia,Koali,Lombo,Mendo,Sugu Valley,Katiloma,Semberigi,Puputao,Wapisale,Seven Kona",
-    "status": "WAITING"
-  },
-  {
     "name": "Huli",
     "i": 97974,
     "min": 4,
@@ -587,16 +577,6 @@ window.oceaniaNameBases = [
     "d": "",
     "m": 0,
     "b": "Abau,Amazon Bay,Aroma,Cloudy Bay,Bereina,Kwikila,Rigo,Tapini,Guari,Woitape,Kairuku,Koiari,Hiri,Bautama,Port Moresby,Goilala",
-    "status": "WAITING"
-  },
-  {
-    "name": "Koita",
-    "i": 97979,
-    "min": 4,
-    "max": 16,
-    "d": "",
-    "m": 0,
-    "b": "Koiari,Hiri,Bereina,Kwikila,Rigo,Aroma,Goilala,Tapini,Woitape,Guari,Abau,Cloudy Bay,Amazon Bay,Kairuku,Mekeo Kuni,Bautama,Port Moresby",
     "status": "WAITING"
   },
   {

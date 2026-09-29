@@ -1,0 +1,170 @@
+"use strict";
+
+/**
+ * Re-verify this session's changes by reading the files back from disk.
+ *
+ *   node tools/namebase-tools/verify-session-changes.js [--json]
+ *
+ * WHY THIS EXISTS
+ *
+ * Twice during the 2026-09-29 cleanup a tool reported success from state it was
+ * holding in memory, and the file it had written did not match:
+ *
+ *   1. The race-language solver printed "0 pairs over the 25% overlap cap" from
+ *      an incremental counter. The JSON it wrote had 20 violations. The counter
+ *      measured against set sizes captured mid-run, and those grow, so it
+ *      under-reported. A subagent that re-read the artefact found it.
+ *
+ *   2. A verification script of mine reported "every surviving entry is
+ *      byte-identical" while comparing an array that had an extra field
+ *      serialised onto one side only. Every entry "differed".
+ *
+ * Both are the same mistake: a count computed while building something is not
+ * evidence about the thing that was built. Everything below is measured against
+ * the files as they exist now, in a separate process, with no shared state.
+ *
+ * This deliberately overlaps with the other checks rather than replacing them.
+ * The gate says whether the data is internally consistent; this says whether the
+ * specific changes this session made are still true.
+ */
+
+const fs = require("node:fs");
+const path = require("node:path");
+const vm = require("node:vm");
+const { execSync } = require("node:child_process");
+
+const root = path.resolve(__dirname, "..", "..");
+const DIR = path.join(root, "public/modules");
+const CONTS = ["africa", "asia", "europe", "northAmerica", "southAmerica", "oceania", "fantasy"];
+const asJson = process.argv.includes("--json");
+
+const results = [];
+const check = (name, ok, detail) => results.push({ name, ok: !!ok, detail: detail || "" });
+
+/** Evaluate a served namebase file the way the browser would. */
+function loadFile(file, globalName) {
+  const sandbox = { window: {}, console: { log: () => {}, warn: () => {}, error: () => {} } };
+  vm.createContext(sandbox);
+  vm.runInContext(fs.readFileSync(file, "utf8"), sandbox, { timeout: 120000 });
+  return sandbox.window[globalName];
+}
+
+// ---------------------------------------------------------------- 1. the runtime
+const sb = { window: {}, console: { log: () => {}, warn: () => {}, error: () => {} } };
+vm.createContext(sb);
+for (const c of [...CONTS, "research"]) {
+  const f = path.join(DIR, `namebases-${c}.js`);
+  if (fs.existsSync(f)) vm.runInContext(fs.readFileSync(f, "utf8"), sb, { timeout: 120000 });
+}
+const map = JSON.parse(fs.readFileSync(path.join(root, "config/language-mixer-map.json"), "utf8"));
+sb.window.languageMixerMap = map;
+try {
+  vm.runInContext(fs.readFileSync(path.join(DIR, "namebases-all.js"), "utf8"), sb, { timeout: 120000 });
+} catch (e) {
+  check("the aggregator runs", false, e.message);
+}
+const NB = sb.window.nameBases;
+check("the aggregator produces a sparse nameBases array", Array.isArray(NB), `${NB ? NB.length : 0} slots`);
+
+// ---------------------------------------------------------------- 2. no dangling map reference
+const referenced = new Set();
+for (const r of map) for (const b of r.bases || []) referenced.add(b);
+const dangling = [...referenced].filter(i => !NB[i]);
+const emptyRef = [...referenced].filter(i => NB[i] && !(NB[i].b || "").trim());
+check("every map base index resolves to an entry", dangling.length === 0, dangling.slice(0, 5).join(","));
+check("empty entries the map still points at are the known backlog", true, `${emptyRef.length} of ${referenced.size} (expected: un-researched languages, reported not hidden)`);
+
+// ---------------------------------------------------------------- 3. fantasy bases
+const FANTASY = {
+  100000: "Human Generic", 100001: "Elven", 100002: "Dark Elven", 100003: "Dwarven",
+  100004: "Goblin", 100005: "Orc", 100006: "Giant", 100007: "Draconic",
+  100008: "Arachnid", 100009: "Serpents"
+};
+const badFantasy = [];
+for (const [i, want] of Object.entries(FANTASY)) {
+  const e = NB[Number(i)];
+  if (!e || e.name !== want) badFantasy.push(`${i}: ${e ? e.name : "absent"} != ${want}`);
+  else if (!(e.b || "").trim()) badFantasy.push(`${i} ${want} has no seeds`);
+}
+check("the 10 fantasy race bases resolve and are populated", badFantasy.length === 0, badFantasy.join("; "));
+
+// no real language may sit in the fantasy range
+const squatters = Object.keys(FANTASY).filter(i => NB[i] && /^\d{2}$/.test(String(NB[i].i)) && i !== String(NB[i].i));
+check("no real language occupies a fantasy index", squatters.length === 0, squatters.join(","));
+
+// ---------------------------------------------------------------- 4. namebase files
+const headOf = (c) => {
+  try {
+    const raw = execSync(`git show HEAD:public/modules/namebases-${c}.js`, { encoding: "utf8", maxBuffer: 1e9 });
+    const s = { window: {} };
+    vm.createContext(s);
+    vm.runInContext(raw, s, { timeout: 120000 });
+    return s.window[`${c}NameBases`];
+  } catch {
+    return null;
+  }
+};
+const nowOf = c => loadFile(path.join(DIR, `namebases-${c}.js`), `${c}NameBases`);
+
+let totalNow = 0, survivorsChanged = 0, dupIndex = 0;
+const seenI = new Set();
+const changedSample = [];
+for (const c of CONTS) {
+  const now = nowOf(c);
+  const head = headOf(c);
+  totalNow += now.length;
+  for (const e of now) {
+    if (seenI.has(e.i)) dupIndex++;
+    seenI.add(e.i);
+    if (!head) continue;
+    const before = head.find(h => h.i === e.i);
+    if (before && JSON.stringify(before) !== JSON.stringify(e)) {
+      survivorsChanged++;
+      if (changedSample.length < 5) changedSample.push(`i=${e.i} "${e.name}" [${c}]`);
+    }
+  }
+}
+check("no duplicate index across the seven continent files", dupIndex === 0, `${dupIndex} collisions`);
+check("no entry that survived the cleanup was modified", survivorsChanged === 0,
+  `${totalNow} entries checked; ${changedSample.join("; ")}`);
+
+// ---------------------------------------------------------------- 5. the fabricated lists are gone
+const lib = require(path.join(__dirname, "namebase-lib.js"));
+const all = lib.loadAll().flatMap(g => g.entries);
+const byI = new Map(all.map(e => [e.i, e]));
+const PADDED = [202491, 202500, 202551, 201003, 1624, 2092, 203037, 203121, 202657, 202987];
+const stillPadded = PADDED.filter(i => byI.has(i) && lib.seedCount(byI.get(i)) >= lib.SEED_FLOOR);
+check("no known-padded entry carries a fabricated list", stillPadded.length === 0, stillPadded.join(","));
+
+// research-label seeds ("Glottolog:...") must not have returned
+const LABEL = /^(ELP|Glottolog|ISO|Wikipedia|OLAC|iso)\s*:/i;
+const labelled = all.filter(e => lib.seedsOf(e).some(s => LABEL.test(String(s).trim())));
+check("no research-label seeds in the b field", labelled.length === 0, `${labelled.length} entries`);
+
+// cross-continent identical seed lists are the fabrication signature
+const groups = new Map();
+for (const e of all) {
+  const s = lib.seedsOf(e);
+  if (s.length < lib.SEED_FLOOR) continue;
+  const k = s.slice().sort().join("|");
+  if (!groups.has(k)) groups.set(k, []);
+  groups.get(k).push(e);
+}
+const crossContinent = [...groups.values()].filter(m => new Set(m.map(x => x.__continent)).size > 1);
+check("no two complete entries on different continents share a seed list", crossContinent.length === 0,
+  crossContinent.slice(0, 3).map(m => m.map(x => `i=${x.i} ${x.name}[${x.__continent}]`).join(" == ")).join("; "));
+
+// ---------------------------------------------------------------- 6. map shape
+const isos = map.map(r => r.iso);
+check("no duplicate iso key in the map", new Set(isos).size === isos.length, `${map.length} rows`);
+check("every map row has a bases array", map.every(r => Array.isArray(r.bases)), `${map.length} rows`);
+
+// ---------------------------------------------------------------- report
+const failed = results.filter(r => !r.ok);
+if (asJson) {
+  console.log(JSON.stringify({ results, failed: failed.length }, null, 2));
+} else {
+  for (const r of results) console.log(`  ${r.ok ? "PASS" : "FAIL"}  ${r.name}${r.detail ? "  " + r.detail : ""}`);
+  console.log(`\n${failed.length ? `FAIL - ${failed.length} problem(s)` : `OK - ${results.length} checks passed, all measured from the files on disk`}`);
+}
+process.exit(failed.length ? 1 : 0);

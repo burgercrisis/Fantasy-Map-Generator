@@ -230,16 +230,6 @@ window.southAmericaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Latin American Spanish",
-    "i": 14025,
-    "min": 4,
-    "max": 26,
-    "d": "lnrt",
-    "m": 0,
-    "b": "BuenosAires,Santiago,Lima,Bogotá,Caracas,Quito,LaPaz,Sucre,Montevideo,Asunción,Córdoba,Rosario,Mendoza,Tucuman,Salta,MarDelPlata,Bariloche,Valparaiso,Concepcion,Temuco,Antofagasta,Iquique,Manaus,Belem,Santarém,Guayaquil,Cuenca,Ambato,Medellín,Cali,Barranquilla,Cartagena,Bucaramanga,Pereira,Manizales,SantaCruz,Cochabamba,Oruro,Potosí,Arequipa,Cusco,Trujillo,Chiclayo,Piura,Huancayo,Iquitos,Pucallpa,PuertoVaras,PuntaArenas,Ushuaia,Santarem,Parintins,Itacoatiara,Barcelos,Coari,Tefe,Tabatinga,Machala,Esmeraldas,Portoviejo,Riobamba,Loja,Ibarra,Quevedo,Babahoyo,LaLatacunga,Tulcán,SantoDomingoDeLosColorados,Otavalo,Cayambe,Pujilí,SanGabriel,Chunchi,Alausí,Guaranda,Azogues,Cañar,Macas,Gualaceo,Sigsig,Tena,Puyo,Archidona,ElChaco,Quijos,Baeza,SevillaDeOro,PuertoFranciscoDeOrellana,Loreto,Coca,Shushufindi,LaBonita,NuevaLoja,Sucumbíos,Pastaza,Morona,Chinchipe,Zamora,CentinelaDelCóndor,Yantzaza,Gualaquiza,Logroño,Sucúa,PanamaCity,SanJose,GuatemalaCity,SanSalvador,Tegucigalpa,Managua,SanJoseCR,Havana,SantoDomingo,SanJuan,PuertoPlata,Kingston,PortOfSpain,Georgetown,Cayenne",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Cofán (dedicated)",
     "i": 20189,
     "min": 4,
@@ -327,16 +317,6 @@ window.southAmericaNameBases = [
     "d": "",
     "m": 0,
     "b": "Concepción,SanJavier,SanMiguelDeVelasco,SanIgnacioDeVelasco,SantaAnaDeVelasco,SanRafaelDeVelasco,SantoCorazón,SanJoséDeChiquitos,SanJuanDeLomerío,SanRoqueDeMonte,SanXavier,SanIsidroDeLomerío,SanPedroDeLomerío,SanAntonioDeLomerío,Roboré,SanMatías,PuertoSuárez,Quijarro,ElCarmenRiveroTorres,SanJuanDeDios,SanPabloDeLomerío,SanJuanDePozo,SanMiguelDeLomerío,SanFranciscoDeLomerío,SanJoséDeLomerío,SanCarlosDeLomerío,SanLuisDeLomerío,SanJoaquínDeLomerío,SanMartínDeLomerío,SanMateoDeLomerío,SanLucasDeLomerío",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Andoque",
-    "i": 201304,
-    "min": 4,
-    "max": 26,
-    "d": "",
-    "m": 0,
-    "b": "SanJoséDeSaramuro,NuevaEsperanza,Remanso,Cothué,PuertoBahía,PuertoCórdoba,PuertoTriunfo,PuertoLimón,Dureno,Zábalo,Sinangué,Villanueva,SantaRosaDeSucumbíos,Orito,Guamuez,Aguarico,Napo,PuertoAsís,Sibundoy,Mocoa,Villagarzón,LaTagua,PuertoIndio,Dovuno,Yarinal,SanAntonio,BocanasDelLuzón,Diviso,LaRivera,SanMiguel,LagoAgrio,Jambelí,Cascales,ElDorado,Cuyabeno,LaBonita,Bermejo,Tablero,ElHacha,NuevaGranada,BuenaVista,PiñaBlanca,Florencia,PuertoLópez,PuertoRico,SanVicenteDelCaguán,Curillo,Solano,CartagenaDelChairá,SanJoséDelFragua,ElDoncello,Morelia,BelénDeLosAndaquíes,TresEsquinas,PuertoCaicedo,PuertoGuzmán,PuertoLeguízamo,ValleDelGuamuez,LaHormiga,Milán,Cumaral,Restrepo,Granada,VistaHermosa,LaMacarena,Mesetas,SanJuanDeArama,ElCastillo,Maní,SanMartín,Coyaima,Ortega,Prado,Ataco,Rioblanco,Chaparral,Saldaña,Suárez,Cunday,Espinal,Flandes,Melgar",
     "status": "COMPLETE"
   },
   {
@@ -697,16 +677,6 @@ window.southAmericaNameBases = [
     "d": "",
     "m": 0,
     "b": "Pucallpa,Iñapari,PuertoMaldonado,Sepahua,Contamana,Masisea,Requena,Tahuayo,Iparia,Tapiche,Mansoa,SargentoLores,Lagunas,Barranca,Breu,Atalaya,Purus,Juruá,Envira,Eirunepé,Humaitá,Lábrea,Tapauá,Canutama,Carauari,SantaRosa,Fronteira,NovaAliança,Orellana,Balta,Ipixuna,Guajará,Maraã,SanMiguel,PuertoOcopa,Chazuta,SanPablo,NovaAliançaDoMamoré,SantaRosaDoPurus,ManoelUrbano",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Venezuelan Spanish",
-    "i": 657,
-    "min": 4,
-    "max": 11,
-    "d": "es-VE",
-    "m": 0,
-    "b": "Caracas,Maracaibo,Valencia,Barquisimeto,Maracay,CiudadGuayana,Barcelona,Maturin,Barinas,Cumana,Merida,SanCristobal,Coro,PuertoLaCruz,Turmero,LosTeques,PuntoFijo,Guarenas,Cabimas,Acarigua,PuertoCabello,Calabozo,ValleDeLaPascua,SantaRita,SantaTeresa,SanFelipe,ElTigre,LaVictoria,Guanare,Tinaquillo,SanCarlos,Nirgua,Quibor,Guigue,Ocumare,Tacarigua,Cagua,VillaDeCura,Upata,Guasdualito,Elorza,Barinitas,LaGrita,SanAntonio,Tovar,ColoniaTovar,LosAngeles,Delicias,CiudadBolivar,SanFernandoDeApure,Cumanacoa,Carupano,CatiaLaMar,Guatire,Chacao,ElHatillo,SanJuanDeLosMorros,Araure,Zaraza,Caucagua,OcumareDelTuy,Charallave,Guacara,Mariara,Moron,PuertoOrdaz,SanFelix",
     "status": "COMPLETE"
   },
   {
@@ -1330,16 +1300,6 @@ window.southAmericaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Achagua ",
-    "i": 744,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Umapo,ElTurpial,LaVictoria,PuertoLopez,PuertoGaitan,LaHermosa,LaPrimavera,MetaRiver",
-    "status": "WAITING"
-  },
-  {
     "name": "Miskito",
     "i": 2576,
     "min": 4,
@@ -1357,16 +1317,6 @@ window.southAmericaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Leticia,PuertoNarino,Tabatinga,Japura,SaoPauloDeOlivenca,SantoAntonioDoIca,Caballococha,RioCaldeirao,CushilloCocha,YahumaCallaru,CahuideYanayacu,SanJoseDeYanayacu,SanMiguelDeCacao,SantaCecilia,PuertoSinai,Yavari,Tonantins,Nazaret,Amatura,SanPedro,SantaRita,SanPablo,TresFronteras,LagoTarapoto,PuertoAlegria,PuertoArica,SantaRosa,Bellavista,Pevas,NuevoIsrael,SanJoseAmazonas",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Ladino",
-    "i": 2622,
-    "min": 4,
-    "max": 12,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Istanbul,Thessaloniki,Izmir,Edirne,Bursa,Ankara,Safed,Tiberias,Jerusalem,Hebron,TelAviv,Haifa,Cairo,Alexandria,Tangier,Fez,Marrakesh,Belgrade,Skopje,Monastir,Bitola,Sarajevo,Split,Dubrovnik,Zagreb,Algiers,Oran,Constantinople,Adrianople,Smyrna,Salonika,Bucharest,Varna,Ruse,VelikoTarnovo,Pleven,Gabrovo,Lovech,Montana,Vidin,Rousse,Shumen,Sliven,Pazardzhik,Blagoevgrad,Sandanski,Petrich,GotseDelchev,Razlog,Bansko,Dupnitsa,Samokov,Ihtiman,Kostenets,Septemvri,Radomir,Pernik,NovaZagora,Sopot,Kalofer,Asenovgrad,Kardzhali,Krumovgrad,Dimitrovgrad,Kharmanli,Ivaylovgrad,Madzharovo,Topolovgrad,Svilengrad,Elhovo,Nesebar,Michurin,Sozopol,MalkoTarnovo,Tsarevo,Sinemorets,Rezovo",
     "status": "COMPLETE"
   },
   {
@@ -1520,16 +1470,6 @@ window.southAmericaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Spanish",
-    "i": 10042,
-    "min": 4,
-    "max": 12,
-    "d": "lr",
-    "m": 0.1,
-    "b": "Madrid,Seville,Zaragoza,Malaga,Bilbao,Murcia,Palma,Las Palmas de Gran Canaria,Alicante,Valladolid,Vigo,Gijon,Hospitalet de Llobregat,La Coruna,Vitoria-Gasteiz,Elche,Santa Cruz de Tenerife,Badalona,Terrassa,Jerez de la Frontera,Sabadell,Mostoles,Alcala de Henares,Pamplona,Fuenlabrada,Almeria,San Sebastian,Leganes,Santander,Castellon de la Plana,Burgos,Albacete,Getafe,Salamanca,Logrono,Huelva,Marbella,Tarragona,Cadiz,Lleida,Mataro,Dos Hermanas,Ceuta,Melilla,Ciudad Real,Huesca,Teruel,Avila,Segovia,Soria,Palencia,Pontevedra,Lugo,Orense,Badajoz,Caceres,Toledo,Jaen,Linares,Roquetas de Mar,El Ejido,Nijar,Sanlucar de Barrameda,Arrecife,Puerto del Rosario,Santiago de Compostela,Aranjuez,Ronda,Algeciras,La Linea de la Concepcion,Chiclana,Santa Coloma de Gramenet,Torrejon de Ardoz,Parla,Alcobendas,Las Rozas de Madrid,Pozuelo de Alarcon,Boadilla del Monte,Mexico City,Monterrey,Puebla,Tijuana,Juarez,Torreon,Queretaro,San Luis Potosi,Mexicali,Aguascalientes,Tampico,Chihuahua,Saltillo,Veracruz,Acapulco,Cancun,Culiacan,Mazatlan,Morelia,Tuxtla Gutierrez,Villahermosa,Toluca,Hermosillo,Cabo San Lucas,Playa del Carmen,Cozumel,Oaxaca,Tapachula,Chetumal,Campeche,Colima,Zacatecas,Irapuato,Durango,Los Mochis,Ensenada,Matamoros,Reynosa,Nuevo Laredo,Ciudad Victoria,Poza Rica,Coatzacoalcos,Havana,Santiago de Cuba,Camaguey,Holguin,Santa Clara,Bayamo,Las Tunas,Cienfuegos,Pinar del Rio,Matanzas,Sancti Spiritus,Ciego de Avila,Manzanillo,Guantanamo,Nueva Gerona,Varadero,Remedios,Camajuani,Moron,Guatemala City,Quetzaltenango,Escuintla,Coban,Antigua Guatemala,Huehuetenango,Flores,San Marcos,San Salvador,Santa Ana,San Miguel,Usulutan,Chalatenango,La Union,Sonsonate,Ahuachapan,Cojutepeque,San Vicente,Zacatecoluca,Sensuntepeque,Tegucigalpa,San Pedro Sula,Comayagua,La Ceiba,Choluteca,El Progreso,Danli,Gracias,Roatan,Managua,Masaya,Esteli,Matagalpa,Jinotega,Bluefields,San Carlos,Rivas,Boaco,Juigalpa,Ocotal,San Jose,Alajuela,Cartago,Heredia,Limon,Puntarenas,Liberia,Quepos,David,Panama City,La Palma,Santiago,Penonome,Chitre,Bocas del Toro,Aguadulce,Santiago de Veraguas,Las Tablas,Antofagasta,La Serena,Temuco,Iquique,Arica,Copiapo,Valparaiso,Rancagua,Talca,Chillan,Los Angeles,Osorno,Puerto Montt,Coyhaique,Punta Arenas,Quillota,Calera,San Antonio,Melipilla,Buin,Paine,Bogota,Medellin,Cali,Barranquilla,Cucuta,Bucaramanga,Pereira,Santa Marta,Ibague,Pasto,Manizales,Neiva,Villavicencio,Valledupar,Monteria,Sincelejo,Tunja,Quibdo,Popayan,Riohacha,Armenia,Floridablanca,Giron,Bello,Itagui,Envigado,Tulua,Buga,Palmira,Yumbo,Buenaventura,Caracas,Maracaibo,Barquisimeto,Maracay,Ciudad Guayana,Maturin,Cumana,Cabimas,Punto Fijo,Barinas,Guacara,Puerto Cabello,Los Teques,Guarenas,Catia La Mar,Quito,Guayaquil,Loja,Machala,Ambato,Portoviejo,Manta,Riobamba,Esmeraldas,Ibarra,Latacunga,Quevedo,Santo Domingo,Milagro,El Coca,Tena,Bahia de Caraquez,Sangolqui,La Libertad,Salinas,Santa Elena,Puyo,Tulcan,Macas,Santiago de los Caballeros,La Romana,San Pedro de Macoris,Puerto Plata,La Vega,San Juan de la Maguana,Bani,Moca,Higuey,Nagua,Cotui,Bonao,Mao,Monte Cristi,Dajabon,Bayamon,Ponce,Mayaguez,Caguas,Arecibo,Humacao,Fajardo,Guayama,Aguadilla,Coamo,Yauco,Cayey,Manati,Vega Baja,Canovanas,Rio Grande,Carolina,Guaynabo,Asuncion,Ciudad del Este,San Lorenzo,Encarnacion,Pedro Juan Caballero,Villarrica,Caaguazu,Coronel Oviedo,Itapua,Pilar,Salto del Guaira,Hernandarias,Montevideo,Salto,Paysandu,Las Piedras,Rivera,Maldonado,Tacuarembo,Melo,Florida,Punta del Este,Colonia del Sacramento,Rocha,Artigas,Durazno,Buenos Aires,Rosario,Mendoza,La Plata,San Miguel de Tucuman,Mar del Plata,Salta,Santa Fe,Resistencia,Santiago del Estero,Corrientes,Posadas,Bahia Blanca,Parana,Neuquen,La Rioja,Catamarca,San Salvador de Jujuy,Tandil,Olavarria,Junin,Mercedes,Lima,Arequipa,Trujillo,Chiclayo,Piura,Cusco,Iquitos,Chimbote,Huancayo,Tacna,Juliaca,Ica,Sullana,Ayacucho,Cajamarca,Pucallpa,Tarapoto,Huaraz,Tumbes,Talara,Pisco,Huancavelica,Moyobamba,Chachapoyas,Abancay,Puno,Callao,Huacho,Santa Cruz de la Sierra,Cochabamba,Oruro,Sucre,Potosi,Tarija,Cobija,Riberalta,Camiri,Villazon,Tupiza,Montero,Warnes,Yacuiba",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Aymara",
     "i": 20088,
     "min": 4,
@@ -1540,16 +1480,6 @@ window.southAmericaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Guarani",
-    "i": 20089,
-    "min": 4,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Asuncion,Encarnacion,CiudadDelEste,Caaguazu,SanLorenzo,Lambare,Capiata,Itaugua,Luque,Aregua,Ypacarai,SanBernardino,Ita,Paraguari,Villarrica,Concepcion,SanPedro,Caazapa,Pilar,Yuty,SanIgnacio,SantaRosa,Santiago,CoronelBogado,Hohenau,Obligado,BellaVista,Ayolas,CarmenDelParana,CoronelOviedo,Caacupe,Piribebuy,Yaguaron,Quiindy,SanJuanBautista,VillaHayes,PedroJuanCaballero,SaltoDelGuaira,Hernandarias,Nemby,Limpio,MarianoRoqueAlonso,FernandoDeLaMora,Itacurubi,Borja,Tobati,Altos,SanCosmeYDamian,ArroyosYEsteros,Sapucai,Ibicuy,Misiones,PasoDeLaPatria,Humahuaca,Jujuy,Salta,Formosa,Clorinda,Resistencia,Corrientes,Posadas,GobernadorVirgilio,Apostoles,SanJose,Obera,SanVicente,SantoTome,Goya,Mercedes,CuruzuCuatia,Sauce,Esquina,MonteCaseros,PasoDeLosLibres,Artigas,Rivera,Tacuarembo,Durazno,Salto,Concordia,BellaUnion,Chuy,Rocha,Trinidad,Florida",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Mapudungun",
     "i": 20090,
     "min": 4,
@@ -1557,16 +1487,6 @@ window.southAmericaNameBases = [
     "d": "",
     "m": 0,
     "b": "Temuco,Pucon,Villarrica,Valdivia,Osorno,Angol,Collipulli,Ercilla,Traiguen,Victoria,Lautaro,NuevaImperial,Carahue,Gorbea,Loncoche,Pitrufquen,Freire,Cunco,Melipeuco,Curarrehue,Renaico,Mulchen,Nacimiento,Contulmo,Lumaco,Cholchol,Saavedra,Tolten,TeodoroSchmidt,BudI,AraucaniaRegion,PadreLasCasas,Galvarino,Curacautin,Lonquimay,LicanRay,Conaripe,Quillon,Bulnes,Chillan,SanCarlos,Parral,Retiro,Longavi,Linares,Colbun,YerbasBuenas,Constitucion,Chanco,Pelluhue,Curanipe,Cobquecura,Quirihue,Ninhue,SanNicolas,Ranquil,Portezuelo,ChillanViejo,Pinto,Pemuco,ElCarmen,SanFabian,SanIgnacio,Quilleco,Quilaco,SantaBarbara,Negrete,LosAngeles,Yumbel,Tucapel,Cabrero,Florida,Laja,Concepcion,Penco,Tome,Talcahuano,Hualpen,Chiguayante,SanPedroDeLaPaz,Hualqui,Canete,Lebu,Arauco,Curanilahue,LosAlamos,SanMartinDeLosAndes,JuninDeLosAndes,SanCarlosDeBariloche,VillaLaAngostura,VillaPehuenia,Alumine,Leleque,Esquel,Cholila,Trevelin,Gualjaina,Comallo,NahuelHuapi,Maullin,Calbuco,Ancud,Castro,Quellon,Chonchi,PuertoVaras,Llanquihue,Fresia",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Zapotec",
-    "i": 20095,
-    "min": 4,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Oaxaca,OaxacaDeJuarez,SanPedroMixtepec,SanPedroPochutla,SanPedroTututepec,SanPedroElAlto,SanPedroTotolapam,SantoDomingoTeojomulco,SanIldefonsoSola,SanIldefonsoAmatlan,SantiagoIxtayutla,SantosReyesNopala,SanSebastianTutla,SanFelipeDelAgua,SanJacintoAmilpas,SantaMariaAtzompa,SanAndresHuayapam,SanPabloEtla,SanSebastianEtla,SantoDomingoTomaltepec,Mitla,Tlacolula,Ejutla,Miahuatlan,Amatlan,BenitoJuarez,Cuajimoloyas,LaNeveria,Lachatao,Latuvi,LlanoGrande,Yavesia,IxtlanDeJuarez,CapulalpamDeMendez,GuelataoDeJuarez,Natividad,SanJuanChicomezuchil,SantiagoXiacui,SanJuanYaee,SanJuanYatzona,SanMiguelYotao,SanPedroYaneri,SanIldefonsoVillaAlta,SantaCatarinaIxtepeji,MonteAlban,Zaachila,Ocotlan,Etla,SanJoseMogote,Zimatlan,Abasolo,Juchitan,Tehuantepec,JalapaDelMarques,Mixtequilla,Xadani,Chihuitan,Laollaga,Yatee,Zoogocho,Yalalag,Tabaa,Cajonos,Choapam,Abejones,Ozolotepec,SantoDomingoOzolotepec,SanCristobalAmatlan",
     "status": "COMPLETE"
   },
   {
@@ -1620,16 +1540,6 @@ window.southAmericaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Otomi",
-    "i": 20231,
-    "min": 4,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Ixmiquilpan,Tasquillo,Cardonal,SantiagoDeAnaya,Actopan,Ajacuba,AtotonilcoElGrande,MineralDelChico,MineralDelMonte,OmitlanDeJuarez,HuascaDeOcampo,Tulancingo,Acaxochitlan,Metepec,TenangoDeDoria,SanJuanBautistaIxtenco,SantiagoTlazoyaltepec,SanJeronimoAcazulco,SanPedroAtlapulco,SantiagoTilapa,Temascalcingo,Temoaya,SanFelipeSantiago,SanIldefonsoTultepec,SantiagoMexquititlan,Amealco,Toliman,SanNicolasTenango,Texcatepec,Toluca,SanFelipeLosAlzati,SanPablitoPahuatlan,SantaAnaHueytlalpan,Tecozautla,ChapaDeMota,Jilotepec,Acambay,Mezquital,Tula,Mixquiahuala,Progreso,Tepeji,Apaxco,Huehuetoca,Zumpango,Teoloyucan,Coyotepec,MelchorOcampo,Tultepec,Cuautitlan,Tultitlan,SanMartinDeLasPiramides,Teotihuacan,Otumba,Axapusco,Nopaltepec,EmilianoZapata,Juchitepec,Amecameca,Ayapango,Chalco,TenangoDelAire,Ozumba,Atlatlahucan,Tepoztlan",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Southern-Quechua",
     "i": 2565,
     "min": 4,
@@ -1640,13 +1550,93 @@ window.southAmericaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Karipºna French Creole",
-    "i": 203253,
+    "name": "Andoque",
+    "i": 203124,
     "min": 4,
-    "max": 14,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Andoque,Sinop,Willka Wanka,Ciudad Bolívar,Qullaw,Rio Branco,Cáceres,Parintins,San José del Guaviare,Saul,Villamontes,Ayakuchu,Truhillu,Ariqipa,Uaupés,Puyo,Belém,Puerto Ayacucho,Chuqichaka,Cuiabá,Uiramutã,Mitú,Saint-Laurent,Wankayuq,Cayenne,Quchapampa,Pukallpa,Kourou,Medellín,Barranquilla,Bucaramanga,Paysandú,Cúcuta,Quito,Caacupé,Cochabamba,Portoviejo,Trujillo,Manaus,Chiclayo,Londrina,El Alto,Tarija,São José dos Campos,Iquitos,San Ignacio,Villarrica,Arica,Encarnación,Huancayo,Temuco,La Plata,Macas,Guayaquil",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Bari",
+    "i": 836,
+    "min": 3,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Juba,Kajo-Keji,Lainya,Moro,Terekeka,Yeı,Rajaf,Rejaf,Tali,Tindilo,Wudu,Lobonok,Kuduzú,Loa,Gworl,Lon,Eri,Rek,Mere,Lukubá,Kuma,Besıa,Kero,Wẽ,Lor,Ngiri",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Venezuelan Spanish",
+    "i": 203168,
+    "min": 4,
+    "max": 11,
+    "d": "es-VE",
+    "m": 0,
+    "b": "Caracas,Barquisimeto,CiudadGuayana,Barcelona,Maturin,Turmero,CiudadBolivar,SanCristobal,ElTigre,PuntoFijo,Coro,Trujillo,Guanare,Acarigua,Barinas,Cabimas,PuertoCabello,Anaco,AltagraciaDeOrituco,Carora,Carupano,Cumana,Cojedes,CiudadOjeda,Guatire,LaGuaira,LaVictoria,Margarita,Miranda,Monagas,PuertoLaCruz,SanFernandoDeApure,SanJuanDeLosMorros,Cua,Charallave,SantaTeresaDelTuy",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Kiche",
+    "i": 24713,
+    "min": 4,
+    "max": 12,
     "d": "",
     "m": 0,
-    "b": "Paramaribo,Albina,Nieuw Nickerie,Moengo,Brokopondo,Brownsweg,Onverwacht,Groningen,Totness,Wageningen,Apura,Bigi Poika,Sipaliwini,Apetina,Palumeu,Kwamalasamutu",
-    "status": "WAITING"
+    "b": "SantaCruzDelQuiche,ElQuiche,Chichicastenango,Chinique,Cunen,Joyabaj,Zacualpa,Chicaman,Pachalum,SanAndresSajcabaja,SanAntonioIlotenango,SanBartoloJocotenango,SanMiguelUspantan,SanPedroJocopilas,Quetzaltenango,Totonicapan,Momostenango,SanAndresXecul,SanCristobalTotonicapan,SanFranciscoElAlto,SantaMariaChiquimula,Nahuala,SantaLuciaUtatlan,Solola,Cantel,Zunil,Almolonga,Salcaja,Olintepeque,Quetzaltepeque,Cubulco,Rabinal,SanMiguelChicaj,SantaClaraLaLaguna,Samayac,Mazatenango,Sacapulas,Canilla,Uspantan,Patzite,SanBartolome,Jocotenango,Quiche,SanJuanCotzal,Nebaj,Chajul,SantoDomingoXenacoj,SanAndresSemetabaj",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Kaqchikel",
+    "i": 24714,
+    "min": 4,
+    "max": 12,
+    "d": "",
+    "m": 0,
+    "b": "Tecpan,Patzun,Patzicia,SanJosePoaquil,SanMartinJilotepeque,SanAndresItzapa,SanMiguelPochuta,SanPedroYepocapa,SanJuanComalapa,Chimaltenango,ElTejar,Pochuta,Yepocapa,Parramos,Acatenango,Sumpango,Jocotenango,SantaCruzBalanya,Alotenango,MagdalenaMilpasAltas,SanAntonioAguasCalientes,SanBartolomeMilpasAltas,SanLucasSacatepequez,SanMiguelDuenas,SantaCatarinaBarahona,SantaLuciaMilpasAltas,SantaMariaDeJesus,SantiagoSacatepequez,SantoDomingoXenacoj,Chuarrancho,SanJuanSacatepequez,SanPedroAyampuc,SanPedroSacatepequez,SanRaimundo,Panajachel,SanAndresSemetabaj,SanAntonioPalopo,SanJoseChacaya,SantaCatarinaPalopo,SantaCruzLaLaguna,SanMarcosLaLaguna,Solola,SanAntonioSuchitepequez,SanJuanBautista,Patulul,SantaCruzElChol,Iximche,Concepcion,AntiguaGuatemala,CiudadVieja,SantoTomasChichicastenango",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Tzotzil",
+    "i": 8127,
+    "min": 4,
+    "max": 21,
+    "d": "",
+    "m": 0.18,
+    "b": "Chamula,Zinacantán,San Andrés Larráinzar,Chenalhó,Huixtán,Chalchihuitán,Pantelhó,Mitontic,El Bosque,Santiago el Pinar,Venustiano Carranza,Romerillo,Cruztón,Yaltem,Chicumtantic,Nichnamtic,Muquén,Majomut,Saclamantón,Catishtic,Cuchulumtic,Tentic,Pugchén Mumuntic,Tzontehuitz,Navenchauc,Nachig,Apas,Pasté,Patosil,Zequentic,Chalam,Tzoeptic,Chimhucum,Oxinam,Chiquinshulum,Joltealal,Yibeljoj,Muken,Jobel,Bats'i k'op,Sots'leb",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Zapotec",
+    "i": 8430,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Amatlán,Benito Juárez,Cuajimoloyas,La Nevería,Lachatao,Latuvi,Llano Grande,Yavesía,Ixtlán de Juárez,Capulálpam de Méndez,Guelatao de Juárez,Natividad,San Juan Chicomezúchil,Santiago Xiacuí,San Juan Yaeé,San Juan Yatzona,San Miguel Yotao,San Pedro Yaneri,San Ildefonso Villa Alta,Santa Catarina Ixtepeji,Monte Albán,Mitla,Zaachila,Ocotlán,Etla,Tlacolula,San José Mogote,Zimatlan,Abasolo,Juchitán,Tehuantepec,Jalapa del Marqués,Mixtequilla,Xadani,Chihuitán,Laollaga,Yatee,Zoogocho,Yalálag,Tabaá,Cajonos,Choápam,Abejones,Ozolotepec,Miahuatlán,Coatezas Altas,Santa María Ozolotepec,Santo Domingo Ozolotepec,San Cristóbal Amatlán",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Mixtec",
+    "i": 8428,
+    "min": 4,
+    "max": 34,
+    "d": "lnrt",
+    "m": 0.93,
+    "b": "Tlaxiaco,Juxtlahuaca,San Juan Mixtepec,Santa Maria Peñoles,San Miguel el Grande,San Pedro y San Pablo Tequixtepec,San Mateo Yucutindoó,San Esteban Atatlahuca,Santiago Yosondua,Santa Cruz Itundujia,San Andres Dinicuiti,San Juan Diquiyú,San Miguel Amatitlan,San Sebastian Tecomaxtlahuaca,San Martin Duraznos,Santo Tomas Ocotepec,San Agustin Tlacotepec,Magdalena Peñasco,San Jeronimo Xayacatlan,San Juan Ñumí,Santa Maria Yucuhiti,San Andres Yuticachi,San Martin Huamelulpam,San Pedro Molinos,San Dionisio Ocotlan,Santa Lucia Monteverde,San Juan Teita,San Pedro Topiltepec,San Andres Cabecera Nueva,San Andres Nuxiño,Santa Maria Yolotepec,San Antonino Monte Verde,San Cristobal Amoltepec,Santiago Tamazola,San Martin de los Cansecos,San Juan Cieneguilla,Santa Maria Apazco,San Francisco Telixtlahuaca,San Juan Bautista Cuicatlan,San Pedro Jocotipac,Santa Maria Nativitas,San Andres Zautla (neighbor),San Martin Itunyoso,Tlacoatzintepec,Sochiapan,San Pedro y San Pablo Ayutla,San Lorenzo Cuaunecuiltitlan,Santa Maria Jalapa del Marques,San Juan Jaltepec,Santiago Yolomecatl,San Mateo Piñas,San Andres Paxtlan,San Vicente Nuñú,San Francisco Chapulapa,Santiago Huajolotitlan,San Miguel Chicahua,San Juan Tepeuxila",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Otomi",
+    "i": 8429,
+    "min": 4,
+    "max": 18,
+    "d": "kpt",
+    "m": 0.33,
+    "b": "San Juan Bautista Ixtenco,Santiago Tlazoyaltepec,San Jeronimo Acazulco,San Pedro Atlapulco,Santiago Tilapa,Temascalcingo,Temoaya,San Felipe Santiago,San Ildefonso Tultepec,Santiago Mexquititlan,Amealco,Toliman,San Nicolas Tenango,Texcatepec,Toluca,San Felipe los Alzati,San Pablito Pahuatlan,Santa Ana Hueytlalpan,Tecozautla,Chapa de Mota,Jilotepec,Acambay,Mezquital,Ixmiquilpan,Tula,Valle de Mezquital,San Antonio",
+    "status": "COMPLETE"
   }
 ];

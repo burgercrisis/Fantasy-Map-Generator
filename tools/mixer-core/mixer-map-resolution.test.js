@@ -146,9 +146,30 @@ test("no proto-languages remain in the map", () => {
 });
 
 test("every map row's bases point at a real namebase entry", () => {
-  const lib = require(path.join(ROOT, "tools/namebase-tools/namebase-lib.js"));
-  const idx = new Set(lib.loadAll().flatMap(g => g.entries).map(e => e.i));
+  // Resolve through the SAME path the app does. namebases-all.js concatenates
+  // the seven continent files AND namebases-research.js, and where an index
+  // appears twice the first-loaded copy wins. So an index can be absent from
+  // the continent files and still resolve at runtime - 24702 (Chamorro),
+  // 24703 (Marshallese), 24704 (Palauan), 202432 (Rapa Nui) and 24699
+  // (Tahitian) are all research.js only. Scanning the continent files alone
+  // reports them as dangling, which is a false positive.
+  const vm = require("node:vm");
+  const fs2 = require("node:fs");
+  const path2 = require("node:path");
+  const root = path2.resolve(__dirname, "..", "..");
+  const sb = { window: {}, console: { log: () => {}, warn: () => {}, error: () => {} } };
+  vm.createContext(sb);
+  for (const f of ["africa", "asia", "europe", "northAmerica", "southAmerica", "oceania", "fantasy", "research"]) {
+    const p = path2.join(root, "public/modules", `namebases-${f}.js`);
+    if (fs2.existsSync(p)) vm.runInContext(fs2.readFileSync(p, "utf8"), sb, { timeout: 120000 });
+  }
+  const map = JSON.parse(fs2.readFileSync(path2.join(root, "config/language-mixer-map.json"), "utf8"));
+  sb.window.languageMixerMap = map;
+  vm.runInContext(fs2.readFileSync(path2.join(root, "public/modules/namebases-all.js"), "utf8"), sb, { timeout: 120000 });
+  const NB = sb.window.nameBases;
+
   const dangling = [];
-  for (const r of MAP) for (const b of r.bases || []) if (!idx.has(b)) dangling.push(`${r.iso}->${b}`);
+  for (const r of map) for (const b of r.bases || []) if (!NB[b]) dangling.push(`${r.iso}->${b}`);
   assert.deepStrictEqual(dangling.slice(0, 10), [], `${dangling.length} dangling base refs`);
 });
+
