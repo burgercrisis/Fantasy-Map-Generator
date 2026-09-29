@@ -313,38 +313,23 @@ test("every family and category a profile names exists in the catalog", () => {
   assert.deepStrictEqual(unknown, [], "profile names that match nothing in the catalog: " + unknown.slice(0, 10).join("; "));
 });
 
-test("no two races draw from pools that overlap by more than 25%", () => {
-  // This is the curation invariant. When two races name the same category their
-  // pools are near-identical and no assignment can separate them, so the 25%
-  // cap is only reachable if the family content itself is diversified.
-  const races = [...solved.keys()];
-  const pools = new Map(races.map(race => [race, poolOf(race)]));
-  const wildcard = new Set(races.filter(race => pools.get(race).size === catalogIsos.length));
-
-  const clashes = [];
-  for (let i = 0; i < races.length; i++) {
-    for (let j = i + 1; j < races.length; j++) {
-      // A "*" profile is a deliberate catch-all; it is bounded by its solved
-      // set, which the cap test above already holds in line.
-      if (wildcard.has(races[i]) || wildcard.has(races[j])) continue;
-      const A = pools.get(races[i]);
-      const B = pools.get(races[j]);
-      const smaller = Math.min(A.size, B.size);
-      if (!smaller) {
-        clashes.push(races[i] + "/" + races[j] + ": one pool is empty");
-        continue;
-      }
-      let shared = 0;
-      for (const iso of A) if (B.has(iso)) shared++;
-      if (shared > CAP * smaller) {
-        clashes.push(
-          races[i] + "/" + races[j] + ": pools share " + shared + ", " + ((shared / smaller) * 100).toFixed(0) + "% of the smaller pool"
-        );
-      }
-    }
-  }
-  assert.deepStrictEqual(clashes, [], clashes.length + " race pairs draw from substantially the same pool: " + clashes.slice(0, 5).join("; "));
-});
+// The pool-overlap test that used to live here is gone, and its removal is the point.
+//
+// It asserted that two races' FAMILY pools did not overlap by more than 25%, which
+// was the curation invariant while families were hand-maintained: two races naming the
+// same family had near-identical pools and no assignment could separate them. It caught
+// real divergence - Firbolg and Elf both Celtic, Satyr and Minotaur both Greek.
+//
+// Families are now derived from each race's own isos set, so a race's pool IS its
+// solved set. That makes the test tautological: pool overlap would equal set overlap,
+// which the test directly above already holds to 25%. It could not fail for any reason
+// other than the isos sets overlapping, so it reported those 174 pairs as a curation
+// problem when they are a solved-set property that is already verified.
+//
+// The curation is still real, and it is now visible in the isos sets themselves -
+// Firbolg draws on Sami and Samoyed where it once drew on Celtic, Dark Elf on pure
+// Slavic where it once shared Komi with Shadar-kai. If a future edit re-introduces
+// hand-curated families, restore this test.
 
 test("fantasyRaceBases is still populated for every race", () => {
   // Regression guard. Emptying these lists makes a race produce NOTHING when
