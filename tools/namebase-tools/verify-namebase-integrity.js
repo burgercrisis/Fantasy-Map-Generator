@@ -735,6 +735,43 @@ for (const [a, b] of mapCopies) {
 }
 
 // ---------------------------------------------------------------------------
+// M003 - the generated .js copies must match their .json sources
+// ---------------------------------------------------------------------------
+//
+// Four files are generated from two JSON sources:
+//
+//   config/language-mixes.json     -> config/language-mixes-all.js
+//                                      public/config/language-mixes-all.js
+//   config/language-mixer-map.json -> config/language-mixer-map.js
+//                                      public/config/language-mixer-map.js
+//
+// M001 only checks that each pair of copies agrees with each other, so a .js
+// that is stale in BOTH places passes. That is the common case: someone edits
+// the JSON, which is the source of truth, and nothing regenerates the .js the
+// app loads. The two files carry a header crediting
+// tools/regenerate-js-from-json.js, but that script was not in the repository,
+// so the regeneration had been done by hand - twice.
+//
+// tools/regenerate-js-from-json.js --check exits 1 on any mismatch, so this
+// delegates rather than reimplementing the formatting.
+
+{
+  const { execFileSync } = require("node:child_process");
+  const gen = path.join(root, "tools", "regenerate-js-from-json.js");
+  if (fs.existsSync(gen)) {
+    try {
+      execFileSync(process.execPath, [gen, "--check"], { cwd: root, stdio: "pipe" });
+    } catch (e) {
+      const detail = String(e.stdout || "").split(/\r?\n/).filter(l => l.startsWith("DRIFT")).join("; ");
+      err("M003", "config/", `generated .js copies are stale against their .json sources. ` +
+        `Run: node tools/regenerate-js-from-json.js${detail ? "  (" + detail + ")" : ""}`);
+    }
+  } else {
+    warn("M003", "tools/regenerate-js-from-json.js", "is missing, so the generated .js copies cannot be verified against their .json sources.");
+  }
+}
+
+// ---------------------------------------------------------------------------
 // S001 / S002 - the served data files must parse and run
 // ---------------------------------------------------------------------------
 //
