@@ -672,6 +672,9 @@ function labelOf(entry) {
 function findPastedBlocks(entries, opts) {
   const run = (opts && opts.run) || 8;
   const minEntries = (opts && opts.minEntries) || 20;
+  const shareNeeded = (opts && opts.share) || 0.7;
+  const minProfileSeeds = (opts && opts.minProfileSeeds) || 6;
+  const profile = (opts && opts.profile) || buildSeedProfile(entries, minProfileSeeds);
 
   const bySeed = new Map();
   for (const e of entries) {
@@ -712,14 +715,78 @@ function findPastedBlocks(entries, opts) {
   const out = new Map();
   for (const w of windows.values()) {
     if (w.holders.size < minEntries) continue;
+    // Require the block to be FOREIGN to the entry holding it.
+    //
+    // Counting holders alone cannot separate the two cases. Twenty Mari and
+    // Chuvash varieties live in the same Mari El and Chuvashia towns and share
+    // every settlement they have - a run of 8 shared by 20 entries. The West
+    // African city block that was actually pasted around was also held by 20
+    // entries. The counts are identical, so no threshold separates them, and the
+    // check duly fired on the Mari family and reported a pasted block where the
+    // block was correct.
+    //
+    // What separates them is ownership. Zvenigovo and Sernur are the Mari El
+    // villages, so a Mari entry holding them is right. Kaolack and Kumasi are
+    // Senegalese and Ghanaian, so a Javanese or an Australian Aboriginal entry
+    // holding them is not - and that is what "pasted around" means.
+    //
+    // So: an entry is only reported when most of the block's seeds are used
+    // overwhelmingly by some OTHER continent's entries. Reuses the same seed
+    // profile as continentMismatches.
     for (const e of w.holders) {
+      const {to, share} = blockOwnership(w.block, e, profile, shareNeeded);
+      if (!to) continue;
       const prev = out.get(e);
       if (!prev || w.block.length > prev.block.length) {
-        out.set(e, {block: w.block, partners: w.holders.size});
+        out.set(e, {
+          block: w.block,
+          partners: w.holders.size,
+          continents: new Set([...w.holders].map(x => x.__continent)).size,
+          to,
+          share
+        });
       }
     }
   }
   return out;
+}
+
+/**
+ * seed -> Map(continent -> count), over entries with enough seeds to carry
+ * weight. Built once and reused by findPastedBlocks and continentMismatches.
+ */
+function buildSeedProfile(entries, minSeeds) {
+  const profile = new Map();
+  for (const e of entries) {
+    if (COSMOPOLITAN_ALLOWLIST.has(alpha(e.name || ""))) continue;
+    if (seedsOf(e).length < minSeeds) continue;
+    for (const s of new Set(seedsOf(e))) {
+      if (!profile.has(s)) profile.set(s, new Map());
+      const m = profile.get(s);
+      m.set(e.__continent, (m.get(e.__continent) || 0) + 1);
+    }
+  }
+  return profile;
+}
+
+/** Is this block of seeds owned by some continent other than the entry's? */
+function blockOwnership(block, entry, profile, shareNeeded) {
+  const perContinent = new Map();
+  for (const s of block) {
+    const m = profile.get(s);
+    if (!m) continue;
+    for (const [c, n] of m) perContinent.set(c, (perContinent.get(c) || 0) + n);
+  }
+  let bestC = null;
+  let bestN = 0;
+  let ownN = 0;
+  for (const [c, n] of perContinent) {
+    if (c === entry.__continent) { ownN = n; continue; }
+    if (n > bestN) { bestN = n; bestC = c; }
+  }
+  if (!bestC || bestN <= ownN) return {to: null, share: 0};
+  const share = bestN / (bestN + ownN);
+  return share >= shareNeeded ? {to: bestC, share: Math.round(share * 100) / 100} : {to: null, share: 0};
 }
 
 module.exports = {

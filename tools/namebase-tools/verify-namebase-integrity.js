@@ -360,9 +360,9 @@ for (const [e, info] of pasted) {
   warn(
     "W004",
     `namebases-${e.__continent}.js`,
-    `${labelOf(e)}: ${info.partners} entries contain the identical ` +
-      `8-seed run ${info.block.slice(0, 4).join(", ")}, ... - a block was pasted around. ` +
-      `Research this language's own toponyms and replace it.`
+    `${labelOf(e)}: ${info.partners} entries across ${info.continents} continents all contain ` +
+      `these 8 seeds - ${info.block.slice(0, 4).join(", ")}, ... Unrelated languages in different ` +
+      `continents do not share settlements. Research this language's own toponyms.`
   );
 }
 

@@ -17,7 +17,7 @@ Generated: 2026-09-29  |  Seed floor: 25
 | Below seed floor | 962 |
 | Zero seeds | 24 |
 | Heavily contaminated (>=10 shared seeds) | 772 |
-| Pasted 8-seed blocks (W004, actionable) | 20 |
+| Pasted 8-seed blocks (W004, actionable) | 1 |
 | Map ISOs with no namebase (research backlog) | 805 |
 | Map ISOs that can never have a namebase | 41 |
 
@@ -349,7 +349,7 @@ node tools/namebase-tools/verify-namebase-integrity.js --json
 
 ## Pasted seed blocks — work from this list, not the shared-seed count
 
-**20 entries** contain a run of 8 identical seeds, in the same order,
+**1 entries** contain a run of 8 identical seeds, in the same order,
 shared with 20+ other entries. That is the copy-paste signature and it is
 never legitimate. These entries need their own toponyms researched.
 
@@ -361,26 +361,7 @@ detector is contiguity-and-order based precisely so it does not do that.
 
 | Language | Continent | Index | Partners | Block |
 |---|---|---:|---:|---|
-| Eastern Mari | europe | 1740 | 20 | Zvenigovo, Sernur, Orshanka, ... |
 | Mari | asia | 24732 | 20 | Zvenigovo, Sernur, Orshanka, ... |
-| Chovashi | europe | 1606 | 20 | Zvenigovo, Sernur, Orshanka, ... |
-| Hill Mari | europe | 1885 | 20 | Zvenigovo, Sernur, Orshanka, ... |
-| Meadow Mari | europe | 2229 | 20 | Zvenigovo, Sernur, Orshanka, ... |
-| Meadow Mari Proper | europe | 2230 | 20 | Zvenigovo, Sernur, Orshanka, ... |
-| Kochevo | europe | 2250 | 20 | Zvenigovo, Sernur, Orshanka, ... |
-| Koryo-mar | europe | 2270 | 20 | Zvenigovo, Sernur, Orshanka, ... |
-| Sanchursk | europe | 2375 | 20 | Zvenigovo, Sernur, Orshanka, ... |
-| Sharanga | europe | 2376 | 20 | Zvenigovo, Sernur, Orshanka, ... |
-| Northwestern Mari | europe | 2678 | 20 | Zvenigovo, Sernur, Orshanka, ... |
-| Kiknur | europe | 200739 | 20 | Zvenigovo, Sernur, Orshanka, ... |
-| Kozymodemyan | europe | 200743 | 20 | Zvenigovo, Sernur, Orshanka, ... |
-| Lipsha | europe | 200746 | 20 | Zvenigovo, Sernur, Orshanka, ... |
-| Sernur-Morkin | europe | 200789 | 20 | Zvenigovo, Sernur, Orshanka, ... |
-| Tonshaevo | europe | 200817 | 20 | Zvenigovo, Sernur, Orshanka, ... |
-| Tuzha | europe | 200822 | 20 | Zvenigovo, Sernur, Orshanka, ... |
-| Yaran | europe | 200842 | 20 | Zvenigovo, Sernur, Orshanka, ... |
-| Yaransk | europe | 200843 | 20 | Zvenigovo, Sernur, Orshanka, ... |
-| Yoshkar-Olin | europe | 200846 | 20 | Zvenigovo, Sernur, Orshanka, ... |
 
 ## Entries whose seeds say they are in the wrong continent file
 
