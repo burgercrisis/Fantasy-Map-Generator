@@ -210,16 +210,6 @@ window.northAmericaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Cauque Mayan language",
-    "i": 1187,
-    "min": 4,
-    "max": 25,
-    "d": "lnrt",
-    "m": 0.45,
-    "b": "Santa Maria Cauque,Santiago Sacatepequez,San Juan Sacatepequez,San Pedro Sacatepequez,San Antonio Palopo,San Lucas Toliman,Santiago Atitlan,San Pablo La Laguna,San Marcos La Laguna,Santa Catarina Palopo,Santa Clara La Laguna,Santa Cruz La Laguna,Tzununa,Jaibalito,Panajachel,San Andres Semetabaj,San Juan La Laguna,San Pedro La Laguna,Santiago Zamoxoc",
-    "status": "WAITING"
-  },
-  {
     "name": "Pidgin Delaware",
     "i": 1189,
     "min": 4,
@@ -1466,16 +1456,6 @@ window.northAmericaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Fort Laramie,Fort Bridger,Fort Benton,Fort Peck,Fort Belknap,Fort Shaw,Fort Ellis,Fort Parker,Fort Smith,Fort Gibson,Fort Towson,Fort Washita,Fort Arbuckle,Fort Cobb,Fort Sill,Fort Supply,Fort Reno,Fort Dodge,Fort Hays,Fort Wallace,Fort Lyon,Fort Garland,Fort Massachusetts,Fort Craig,Fort Stanton,Fort Sumner,Fort Bascom,Fort Bliss",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Anguillian Creole (dedicated)",
-    "i": 20106,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "The Valley,The Quarter,North Hill,South Hill,Stoney Ground,Island Harbour,East End,West End,Sandy Ground,Crocus Hill,Blowing Point,Shoal Bay,Road Bay,Long Bay,Meads Bay,Rendezvous Bay,Maundays Bay,Forest Bay,Savannah Bay,Spring Bay,Sile Bay,Katouche Bay,George Hill,Betty Hill,White Hill,Mount Fortune,Junks Hole,Cannifist,Cauls Pond,Welches Hill,Little Harbour,Wallblake,True Loves,The Farrington,Rey Hill,Chalvilles,Gibbons Reef,Long Ground",
     "status": "COMPLETE"
   },
   {

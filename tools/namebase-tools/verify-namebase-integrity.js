@@ -394,19 +394,27 @@ for (const e of allEntries) {
 // W005 - the same language entered twice
 // ---------------------------------------------------------------------------
 //
-// Restricted to entries whose names are identical, because a Jaccard of 0.9
-// between two DIFFERENT names is usually legitimate: Daur and Dagur, Tongzha
-// and Telue, and the Doteli varieties Achhami/Baitadeli/Bajhangi genuinely share
-// every settlement they have. Same name plus near-identical seed set is not that
-// case - it is one language stored twice.
+// Restricted to names that match once the "(dedicated)" marker is stripped,
+// because a Jaccard of 0.9 between two genuinely DIFFERENT names is usually
+// legitimate: Daur and Dagur, Tongzha and Telue, and the Doteli varieties
+// Achhami/Baitadeli/Bajhangi genuinely share every settlement they have.
+//
+// "(dedicated)" is not a different name, it is a routing label, and
+// dedupe-entries.js missed Anguillian Creole (dedicated) vs Anguillian Creole
+// for exactly that reason while correctly leaving alone the other dedicated
+// pairs in that file - Jamaican Maroon Creole 43 vs 20, Cochimi 35 vs 12,
+// Navajo 53 vs 128 all differ in content.
+
+const stripDedicated = s => alpha(s).replace(/dedicated$/, "");
 
 for (const p of nearIdenticalPairs(allEntries, {threshold: 0.9, minSeeds: 8})) {
-  if (alpha(p.a.name) !== alpha(p.b.name)) continue;
+  if (stripDedicated(p.a.name) !== stripDedicated(p.b.name)) continue;
+  const sameName = alpha(p.a.name) === alpha(p.b.name);
   warn(
     "W005",
     `namebases-${p.a.__continent}.js / ${p.b.__continent}.js`,
-    `"${p.a.name}" exists twice with ${Math.round(p.jaccard * 100)}% identical seeds: ` +
-      `i=${p.a.i} and i=${p.b.i} (${p.shared} shared). Delete one.`
+    `"${p.a.name}" and "${p.b.name}" are ${sameName ? "the same name" : "the same language, one marked (dedicated)"} ` +
+      `with ${Math.round(p.jaccard * 100)}% identical seeds: i=${p.a.i} and i=${p.b.i} (${p.shared} shared). Delete one.`
   );
 }
 

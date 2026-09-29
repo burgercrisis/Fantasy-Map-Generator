@@ -11,10 +11,10 @@ Generated: 2026-09-29  |  Seed floor: 25
 
 | Metric | Count |
 |---|---:|
-| Language entries | 3887 |
-| Marked COMPLETE (>= 25 seeds) | 2912 |
-| Marked WAITING (< 25 seeds) | 975 |
-| Below seed floor | 975 |
+| Language entries | 3885 |
+| Marked COMPLETE (>= 25 seeds) | 2911 |
+| Marked WAITING (< 25 seeds) | 974 |
+| Below seed floor | 974 |
 | Zero seeds | 24 |
 | Heavily contaminated (>=10 shared seeds) | 802 |
 | Pasted 8-seed blocks (W004, actionable) | 0 |
@@ -27,14 +27,14 @@ Generated: 2026-09-29  |  Seed floor: 25
 | africa | 954 | 204 | 8 | 35 |
 | asia | 1401 | 562 | 13 | 30 |
 | europe | 939 | 74 | 0 | 45 |
-| northAmerica | 231 | 69 | 2 | 29 |
+| northAmerica | 229 | 68 | 2 | 29 |
 | southAmerica | 166 | 9 | 0 | 36 |
 | oceania | 195 | 57 | 1 | 29 |
 | fantasy | 1 | 0 | 0 | 307 |
 
 ## Work queue: entries below the seed floor
 
-975 entries need authentic settlement names. Ordered by seed count,
+974 entries need authentic settlement names. Ordered by seed count,
 so the emptiest entries come first. One at a time, research then edit.
 
 | Seeds | Continent | Index | Language |
@@ -340,7 +340,7 @@ so the emptiest entries come first. One at a time, research then edit.
 | 9 | africa | 200103 | Mogum |
 | 9 | asia | 119 | Semaq Beri |
 
-_Showing the lowest 300 of 975. Full queue:_
+_Showing the lowest 300 of 974. Full queue:_
 
 ```
 node tools/namebase-tools/verify-namebase-integrity.js --json

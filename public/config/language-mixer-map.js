@@ -8021,7 +8021,9 @@ globalThis.languageMixerMap = [
   },
   {
     "iso": "jamaican-patois",
-    "bases": []
+    "bases": [
+      200632
+    ]
   },
   {
     "iso": "leeward-caribbean-creole-english",
@@ -20600,7 +20602,7 @@ globalThis.languageMixerMap = [
   {
     "iso": "sop",
     "bases": [
-      20106
+      200625
     ]
   },
   {
@@ -24582,7 +24584,7 @@ globalThis.languageMixerMap = [
   {
     "iso": "x-cauque-mayan-language",
     "bases": [
-      1187
+      200938
     ]
   },
   {
