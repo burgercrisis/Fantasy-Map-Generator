@@ -24,10 +24,15 @@
     "lint": "biome check --write",
     "sync-version": "node scripts/sync-version.js",
     "stamp-assets": "node scripts/stamp-assets.js",
+    "namebase:verify": "node tools/namebase-tools/verify-namebase-integrity.js",
+    "namebase:status": "node tools/namebase-tools/namebase-status.js --write",
+    "namebase:clean": "node tools/namebase-tools/clean-namebase-data.js",
+    "namebase:normalize": "node tools/namebase-tools/normalize-namebase-format.js",
+    "namebase:claims": "node tools/namebase-tools/claim.js --list",
     "prepare": "simple-git-hooks"
   },
   "simple-git-hooks": {
-    "pre-commit": "npm run lint && node scripts/sync-version.js --stage && node scripts/stamp-assets.js --stage"
+    "pre-commit": "node scripts/pre-commit.js"
   },
   "devDependencies": {
     "@biomejs/biome": "^2.4.6",

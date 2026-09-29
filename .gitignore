@@ -36,7 +36,16 @@ research_logs/
 # Temp/work files
 data/temp_*
 docs/reports/
-docs/verification/
+# NOTE: docs/verification/ is deliberately NOT ignored.
+# It was, and that is how the verification status ended up in a state where
+# three agents had written three contradictory "current status" documents that
+# no one else could see, because new files written there were silently dropped
+# from version control. 636 of its files were already tracked, so ignoring the
+# directory was incoherent anyway. The canonical, generated artifacts that must
+# be reviewable in a diff live here:
+#   STATUS.md              generated work queue and totals
+#   AGENT-PLAYBOOK.md      the workflow every agent must follow
+#   integrity-baseline.json  the known-debt ratchet
 modules/backups/
 tools/tmp_*
 # New TS ports (not yet committed)
