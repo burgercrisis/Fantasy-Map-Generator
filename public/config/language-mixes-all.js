@@ -385,7 +385,7 @@
       "iso": "bangime",
       "region": "Africa",
       "category": "Language isolate",
-      "family": "Language isolate"
+      "family": "Bangime"
     },
     {
       "name": "Bangolan",
@@ -1207,7 +1207,7 @@
       "name": "Ekoka ǃKung",
       "iso": "ekoka-kung",
       "region": "Africa",
-      "category": "Kx'a",
+      "category": "Khoe-Kwadi",
       "family": "Kx'a"
     },
     {
@@ -1623,7 +1623,7 @@
       "iso": "hadza",
       "region": "Africa",
       "category": "Isolate",
-      "family": "Hadza isolate"
+      "family": "Hadza"
     },
     {
       "name": "Hakaona",
@@ -1795,7 +1795,7 @@
       "name": "Juǀʼhoan",
       "iso": "ju-hoan",
       "region": "Africa",
-      "category": "Kx'a",
+      "category": "Khoe-Kwadi",
       "family": "Kx'a"
     },
     {
@@ -2934,7 +2934,7 @@
       "iso": "sandawe",
       "region": "Africa",
       "category": "Isolate",
-      "family": "Sandawe isolate"
+      "family": "Sandawe"
     },
     {
       "name": "Sango",
@@ -2974,7 +2974,7 @@
       "name": "Sekele",
       "iso": "sekele",
       "region": "Africa",
-      "category": "Kx'a",
+      "category": "Khoe-Kwadi",
       "family": "Kx'a"
     },
     {
@@ -4215,14 +4215,14 @@
       "name": "ǂKxʼaoǁʼae",
       "iso": "kx-ao-ae",
       "region": "Africa",
-      "category": "Kx'a",
+      "category": "Khoe-Kwadi",
       "family": "Kx'a"
     },
     {
       "name": "ǂʼAmkoe",
       "iso": "amkoe",
       "region": "Africa",
-      "category": "Kx'a",
+      "category": "Khoe-Kwadi",
       "family": "Kx'a"
     },
     {
@@ -5115,7 +5115,7 @@
       "region": "Asia",
       "category": "Language isolate",
       "wikipedia": "https://en.wikipedia.org/wiki/Burushaski",
-      "family": "Language isolate"
+      "family": "Burushaski"
     },
     {
       "name": "Buryat",
@@ -7747,7 +7747,7 @@
       "iso": "nll",
       "region": "Asia",
       "category": "Language isolate",
-      "family": "Nihali isolate",
+      "family": "Nihali",
       "wikipedia": "https://en.wikipedia.org/wiki/Nihali_language"
     },
     {
@@ -8250,8 +8250,8 @@
       "name": "Proto-Ainu",
       "iso": "proto-ainu",
       "region": "Asia",
-      "category": "Ainu",
-      "family": "Proto",
+      "category": "Japonic",
+      "family": "Ainu",
       "tags": [
         "proto",
         "extinct",
@@ -8263,7 +8263,7 @@
       "iso": "proto-austroasiatic",
       "region": "Asia",
       "category": "Austroasiatic",
-      "family": "Proto",
+      "family": "Austroasiatic",
       "tags": [
         "proto",
         "extinct",
@@ -8287,8 +8287,8 @@
       "name": "Proto-Hokkaido-Kuril",
       "iso": "proto-hokkaido-kuril",
       "region": "Asia",
-      "category": "Ainu",
-      "family": "Proto",
+      "category": "Japonic",
+      "family": "Ainu",
       "tags": [
         "proto",
         "extinct",
@@ -8349,8 +8349,8 @@
       "name": "Proto-Sakhalin",
       "iso": "proto-sakhalin",
       "region": "Asia",
-      "category": "Ainu",
-      "family": "Proto",
+      "category": "Japonic",
+      "family": "Ainu",
       "tags": [
         "proto",
         "extinct",
@@ -14240,7 +14240,7 @@
       "region": "Europe",
       "category": "Language isolate",
       "wikipedia": "https://en.wikipedia.org/wiki/Basque_language",
-      "family": "Language isolate"
+      "family": "Basque"
     },
     {
       "name": "Bavarian",
@@ -17361,7 +17361,7 @@
       "region": "Mesoamerica",
       "category": "Language isolate",
       "wikipedia": "https://en.wikipedia.org/wiki/Huave_language",
-      "family": "Huave isolate"
+      "family": "Huave"
     },
     {
       "name": "Isthmus Zapotec",
@@ -17516,7 +17516,7 @@
       "region": "Mesoamerica",
       "category": "Language isolate",
       "wikipedia": "https://en.wikipedia.org/wiki/Pur%C3%A9pecha_language",
-      "family": "Purépecha isolate"
+      "family": "Purépecha"
     },
     {
       "name": "Q'anjob'al",
@@ -20044,7 +20044,7 @@
       "region": "North America",
       "category": "Language isolate",
       "wikipedia": "https://en.wikipedia.org/wiki/Haida_language",
-      "family": "Language isolate"
+      "family": "Haida"
     },
     {
       "name": "Hän",
@@ -20403,7 +20403,7 @@
       "region": "North America",
       "category": "Language isolate",
       "wikipedia": "https://en.wikipedia.org/wiki/Seri_language",
-      "family": "Seri isolate"
+      "family": "Seri"
     },
     {
       "name": "Shoshoni",
@@ -20532,7 +20532,7 @@
       "iso": "zun",
       "region": "North America",
       "category": "Language isolate",
-      "family": "Zuni isolate",
+      "family": "Zuni",
       "wikipedia": "https://en.wikipedia.org/wiki/Zuni_language"
     },
     {
@@ -22119,8 +22119,8 @@
       "name": "Kehu",
       "iso": "khh",
       "region": "Pacific",
-      "category": "Papuan",
-      "family": "Language isolate",
+      "category": "Khoe-Kwadi",
+      "family": "Kx'a",
       "wikipedia": "https://en.wikipedia.org/wiki/Kehu_language"
     },
     {
@@ -25520,7 +25520,7 @@
       "iso": "ano",
       "region": "South America",
       "category": "Language isolate",
-      "family": "Andoque isolate",
+      "family": "Andoque",
       "wikipedia": "https://en.wikipedia.org/wiki/Andoque_language"
     },
     {
@@ -25653,7 +25653,7 @@
       "iso": "kbh",
       "region": "South America",
       "category": "Language isolate",
-      "family": "Camsa isolate",
+      "family": "Camsa",
       "wikipedia": "https://en.wikipedia.org/wiki/Cams%C3%A1_language"
     },
     {
@@ -25677,7 +25677,7 @@
       "iso": "cyb",
       "region": "South America",
       "category": "Language isolate",
-      "family": "Cayubaba isolate",
+      "family": "Cayubaba",
       "wikipedia": "https://en.wikipedia.org/wiki/Cayubaba_language"
     },
     {
@@ -25712,7 +25712,7 @@
       "iso": "cax",
       "region": "South America",
       "category": "Language isolate",
-      "family": "Chiquitano isolate",
+      "family": "Chiquitano",
       "wikipedia": "https://en.wikipedia.org/wiki/Chiquitano_language"
     },
     {
@@ -25739,7 +25739,7 @@
       "iso": "con",
       "region": "South America",
       "category": "Language isolate",
-      "family": "Cofán isolate",
+      "family": "Cofán",
       "wikipedia": "https://en.wikipedia.org/wiki/Cof%C3%A1n_language"
     },
     {
@@ -25807,7 +25807,7 @@
       "iso": "fun",
       "region": "South America",
       "category": "Language isolate",
-      "family": "Fulniô isolate",
+      "family": "Fulniô",
       "wikipedia": "https://en.wikipedia.org/wiki/Fulni%C3%B4_language"
     },
     {
@@ -25906,7 +25906,7 @@
       "iso": "ito",
       "region": "South America",
       "category": "Language isolate",
-      "family": "Itonama isolate",
+      "family": "Itonama",
       "wikipedia": "https://en.wikipedia.org/wiki/Itonama_language"
     },
     {
@@ -26036,7 +26036,7 @@
       "iso": "lec",
       "region": "South America",
       "category": "Language isolate",
-      "family": "Leco isolate",
+      "family": "Leco",
       "wikipedia": "https://en.wikipedia.org/wiki/Leco_language"
     },
     {
@@ -26110,7 +26110,7 @@
       "iso": "mzp",
       "region": "South America",
       "category": "Language isolate",
-      "family": "Movima isolate",
+      "family": "Movima",
       "wikipedia": "https://en.wikipedia.org/wiki/Movima_language"
     },
     {
@@ -26263,7 +26263,7 @@
       "iso": "pui",
       "region": "South America",
       "category": "Isolate",
-      "family": "Puinave isolate",
+      "family": "Puinave",
       "wikipedia": "https://en.wikipedia.org/wiki/Puinave_language"
     },
     {
@@ -26464,7 +26464,7 @@
       "iso": "cas",
       "region": "South America",
       "category": "Language isolate",
-      "family": "Tsimané isolate",
+      "family": "Tsimané",
       "wikipedia": "https://en.wikipedia.org/wiki/Tsiman%C3%A9_language"
     },
     {
@@ -26628,7 +26628,7 @@
       "iso": "yag",
       "region": "South America",
       "category": "Language isolate",
-      "family": "Yahgan isolate",
+      "family": "Yahgan",
       "wikipedia": "https://en.wikipedia.org/wiki/Yahgan_language"
     },
     {
@@ -26660,7 +26660,7 @@
       "iso": "yuz",
       "region": "South America",
       "category": "Language isolate",
-      "family": "Yuracaré isolate",
+      "family": "Yuracaré",
       "wikipedia": "https://en.wikipedia.org/wiki/Yuracar%C3%A9_language"
     },
     {
