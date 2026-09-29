@@ -335,134 +335,50 @@ function lastChar(s: string): string {
 }
 
 // ---------------------------------------------------------------------------
-// Index correction: mixer map indices may not match actual namebase indices
+// Index resolution
 // ---------------------------------------------------------------------------
-
-// Cache for corrected mixer map indices
-let _indexCorrectionMap: Map<number, number> | null = null;
-
-/**
- * Builds a lookup table that maps incorrect mixer map indices to correct
- * namebase indices. This is needed because the mixer map was generated with
- * indices that don't always match the actual namebase array indices.
- *
- * The correction uses the language mixer catalog to map ISO codes to expected
- * language names, then finds the matching namebase. This handles cases where:
- * 1. The mixer map index points to a non-existent namebase (invalid index)
- * 2. The mixer map index points to the wrong namebase (wrong language)
- */
-function buildIndexCorrectionMap(): Map<number, number> {
-  if (_indexCorrectionMap) return _indexCorrectionMap;
-
-  const correctionMap = new Map<number, number>();
-  const nameBases = getNameBases();
-  const map = loadLanguageMixerMapSync();
-
-  if (!nameBases.length || !map.length) {
-    _indexCorrectionMap = correctionMap;
-    return correctionMap;
-  }
-
-  // Build a name-to-index lookup for valid namebases
-  const nameToIndex = new Map<string, number>();
-  for (let i = 0; i < nameBases.length; i++) {
-    const nb = nameBases[i];
-    if (nb?.name && nb.b && nb.b.length > 0) {
-      const normalizedName = nb.name.toLowerCase().trim();
-      if (!nameToIndex.has(normalizedName)) {
-        nameToIndex.set(normalizedName, i);
-      }
-    }
-  }
-
-  // Build ISO-to-expected-name mapping from the language mixer catalog
-  const isoToExpectedName = new Map<string, string>();
-  const catalog = Array.isArray(window.languageMixerCatalog) ? window.languageMixerCatalog : [];
-  for (const entry of catalog) {
-    if (entry?.iso && entry.name) {
-      const isoLower = entry.iso.toLowerCase().trim();
-      if (!isoToExpectedName.has(isoLower)) {
-        isoToExpectedName.set(isoLower, entry.name.toLowerCase().trim());
-      }
-    }
-  }
-
-  // For each entry in the mixer map, check if the index resolves to the
-  // correct namebase. If not, try to find the correct index.
-  for (const entry of map) {
-    if (!entry?.iso || !Array.isArray(entry.bases)) continue;
-
-    const isoLower = entry.iso.toLowerCase().trim();
-    const expectedName = isoToExpectedName.get(isoLower);
-
-    for (const baseIdx of entry.bases) {
-      // Skip if already corrected
-      if (correctionMap.has(baseIdx)) continue;
-
-      // Check if the index resolves to the correct namebase
-      const nb = nameBases[baseIdx];
-      const isValid = nb?.b && nb.b.length > 0 && nb.name;
-      const nameMatches = isValid && expectedName && nb.name.toLowerCase().trim() === expectedName;
-
-      if (isValid && (nameMatches || !expectedName)) {
-        // Index is valid and matches the expected language (or no expected name to check)
-        continue;
-      }
-
-      // Index is invalid or points to wrong namebase, try to find correct index
-      let correctIdx: number | undefined;
-
-      // Try to find by expected name from catalog
-      if (expectedName) {
-        correctIdx = nameToIndex.get(expectedName);
-      }
-
-      // Try exact ISO match
-      if (correctIdx === undefined) {
-        correctIdx = nameToIndex.get(isoLower);
-      }
-
-      // Try partial match (ISO code might be a variant like "gallo-picene")
-      if (correctIdx === undefined) {
-        for (const [name, idx] of nameToIndex) {
-          if (name.includes(isoLower) || isoLower.includes(name)) {
-            correctIdx = idx;
-            break;
-          }
-        }
-      }
-
-      // Try matching by removing common suffixes/prefixes
-      if (correctIdx === undefined) {
-        const cleaned = isoLower.replace(/-/g, " ").replace(/\s+/g, " ").trim();
-        for (const [name, idx] of nameToIndex) {
-          const nameCleaned = name.replace(/-/g, " ").replace(/\s+/g, " ").trim();
-          if (nameCleaned.includes(cleaned) || cleaned.includes(nameCleaned)) {
-            correctIdx = idx;
-            break;
-          }
-        }
-      }
-
-      if (correctIdx !== undefined) {
-        correctionMap.set(baseIdx, correctIdx);
-      }
-    }
-  }
-
-  _indexCorrectionMap = correctionMap;
-  return correctionMap;
-}
-
-/**
- * Gets the corrected index for a mixer map base index.
- * Returns the original index if no correction is needed or available.
- */
-function getCorrectedIndex(baseIdx: number): number {
-  const correctionMap = buildIndexCorrectionMap();
-  return correctionMap.get(baseIdx) ?? baseIdx;
-}
-
+//
+// There used to be a buildIndexCorrectionMap() here, which remapped mixer-map
+// base indices at runtime by comparing the base's name to the catalog name for
+// the ISO and, on a mismatch, searching every namebase name by substring. It is
+// deleted, and nothing replaces it.
+//
+// It was added when the map genuinely had bad indices. It is now pure liability,
+// and measured against the shipped data it actively broke correct rows:
+//
+//   382 (iso, base) pairs were redirected to a different namebase.
+//   120 of those had a base that was ALREADY exactly the catalog language.
+//
+//     kongo       Kongo 13751            -> Koya-Konda-Manda-Pengo 61
+//     hausa       Hausa  1934            -> Gwandara 1927
+//     chichewa    Chichewa 24781         -> Sinyar 1331
+//     kikuyu      Kikuyu 13602           -> Kikai 294
+//     kinyarwanda Kinyarwanda 20170      -> Okinoerabu 282
+//     krio        Krio 2282              -> European Portuguese 424
+//     lingala     Lingala 14045          -> Goblin 36
+//     bengali     Bengali 10001          -> Portuguese 13
+//
+// Three defects stacked:
+//
+//  1. The trigger was an exact, un-normalised string compare. "Hausa-Gwandara"
+//     is not "Hausa". "Siri (Chadic)" is not "Siri Chadic". Those are not
+//     mismatches, so the repair fired on rows that were already right.
+//
+//  2. The repair then searched by substring over every namebase and took the
+//     first hit in index order. A two-character ISO fragment matches half the
+//     dataset: ISO "lin" matched "Goblin", so Lingala cultures drew from a
+//     1-seed Goblin base.
+//
+//  3. The map was keyed on baseIndex with first-wins ("if it has the key,
+//     continue"), so an ISO that arrived second never even got evaluated. The
+//     victim preceded the offender in 100 of the 208 inherited cases - "first"
+//     was a property of the file's order, not of the query.
+//
+// The mixer map is now authoritative and verified by
+// tools/namebase-tools/verify-namebase-integrity.js and
+// tools/namebase-tools/audit-map-integrity.js, which check every row against
+// the catalog by name. A runtime heuristic that second-guesses it is a worse
+// guarantee than the check.
 // ---------------------------------------------------------------------------
 // Core helpers
 // ---------------------------------------------------------------------------
@@ -1841,8 +1757,25 @@ function resolveIsoToMapKey(iso: string, map: LanguageMixerMapEntry[]): string |
     }
   }
 
-  // Then check the alias table
-  if (ISO_TO_MAP_KEY[norm]) return ISO_TO_MAP_KEY[norm];
+  // Then check the alias table. Only use the alias if its target actually
+  // exists in the map, and if the target is absent treat the ISO as
+  // unresolvable rather than falling through.
+  //
+  // 45 alias entries point at rows that were never added, including
+  // en->english, ko->korean, ar->standard-arabic, vi->vietnamese. Returning
+  // the missing target short-circuited everything below it, so those ISOs
+  // were skipped - which is the correct outcome, because those languages have
+  // no namebase. Falling through to the fuzzy match instead would be worse:
+  // step 4 is a bare substring test, and on a two-letter ISO it matches
+  // "ben", "men", "ten". "en" would resolve to another language entirely.
+  const alias = ISO_TO_MAP_KEY[norm];
+  if (alias) {
+    if (!map || !Array.isArray(map)) return null;
+    for (const entry of map) {
+      if (entry && entry.iso === alias) return alias;
+    }
+    return null;
+  }
 
   if (!map || !Array.isArray(map)) return null;
 
@@ -1862,6 +1795,13 @@ function resolveIsoToMapKey(iso: string, map: LanguageMixerMapEntry[]): string |
 
   // 1. Exact match (case-insensitive)
   if (tryMatch(k => k === norm)) return norm;
+
+  // A two- or three-letter ISO must not be substring-matched. Step 3 and 4 are
+  // bare prefix/suffix/substring tests, and "en" matches "ben", "men" and
+  // "ten"; "sw" matches "swahili" and "sww". Resolving an ISO to a different
+  // language silently is worse than leaving it unresolved, so short codes stop
+  // after the exact and delimited-prefix matches.
+  if (norm.length <= 3) return null;
 
   // 2. ISO is the entire key except for a suffix
   const prefixMatch = tryMatch(k => k.startsWith(`${norm}-`) || k.startsWith(`${norm}_`));
@@ -1902,26 +1842,10 @@ export function getMixedByIso(isoWeights: Record<string, number>, options?: Mixe
       continue;
     }
 
-    // Resolve base indices using the corrected indices
-    // Always prefer corrected indices to ensure proper language mapping
+    // Resolve base indices. The mixer map is authoritative: it was rebuilt so
+    // that every row points at the namebase for the language its ISO names.
     const validBases = entry.bases
       .map(b => {
-        // Always try to correct the index first
-        const corrected = getCorrectedIndex(b);
-        if (corrected !== b) {
-          const e = nameBases?.[corrected];
-          if (
-            e &&
-            typeof e.b === "string" &&
-            e.b.length > 0 &&
-            e.name &&
-            typeof e.name === "string" &&
-            e.name.length > 0
-          ) {
-            return corrected;
-          }
-        }
-        // Fall back to original index if valid
         if (b >= 0 && Number.isFinite(b)) {
           const e = nameBases?.[b];
           if (

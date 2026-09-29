@@ -381,12 +381,11 @@ for (const [e, info] of pasted) {
 // the cleaner removes it mechanically.
 
 for (const e of allEntries) {
-  const r = detectSelfNamedSeeds(e);
-  if (r.label) {
+  for (const label of detectSelfNamedSeeds(e).labels) {
     err(
       "E010",
       `namebases-${e.__continent}.js`,
-      `${labelOf(e)} has the research label "${r.label}" in its seed list. ` +
+      `${labelOf(e)} has the research label "${label}" in its seed list. ` +
         `That is a note, not a place name.`
     );
   }
