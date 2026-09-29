@@ -1440,7 +1440,7 @@ window.northAmericaNameBases = [
   },
   {
     "name": "Algonquian-Basque pidgin",
-    "i": 20074,
+    "i": 203219,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -1460,7 +1460,7 @@ window.northAmericaNameBases = [
   },
   {
     "name": "American Indian Pidgin English",
-    "i": 20101,
+    "i": 203220,
     "min": 4,
     "max": 11,
     "d": "lnrt",

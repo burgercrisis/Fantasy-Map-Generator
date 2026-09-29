@@ -3491,7 +3491,7 @@ window.africaNameBases = [
   },
   {
     "name": "Ghanaian Pidgin English",
-    "i": 20000,
+    "i": 203213,
     "min": 3,
     "max": 13,
     "d": "lnrt",
@@ -3501,7 +3501,7 @@ window.africaNameBases = [
   },
   {
     "name": "Nigerian Pidgin",
-    "i": 20001,
+    "i": 203214,
     "min": 3,
     "max": 13,
     "d": "lnrt",
@@ -3511,7 +3511,7 @@ window.africaNameBases = [
   },
   {
     "name": "Fante",
-    "i": 20002,
+    "i": 203215,
     "min": 4,
     "max": 16,
     "d": "lnrt",
@@ -3521,7 +3521,7 @@ window.africaNameBases = [
   },
   {
     "name": "Angolar Creole",
-    "i": 20103,
+    "i": 203221,
     "min": 4,
     "max": 15,
     "d": "lnrt",
@@ -3531,7 +3531,7 @@ window.africaNameBases = [
   },
   {
     "name": "Annobonese Creole",
-    "i": 20104,
+    "i": 203222,
     "min": 3,
     "max": 13,
     "d": "lnrt",
@@ -3541,7 +3541,7 @@ window.africaNameBases = [
   },
   {
     "name": "Baca",
-    "i": 20124,
+    "i": 203223,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -3551,7 +3551,7 @@ window.africaNameBases = [
   },
   {
     "name": "Bangala",
-    "i": 20125,
+    "i": 203224,
     "min": 3,
     "max": 13,
     "d": "lnrt",
@@ -3561,7 +3561,7 @@ window.africaNameBases = [
   },
   {
     "name": "Cape Verdean Creole",
-    "i": 20144,
+    "i": 203225,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -3571,7 +3571,7 @@ window.africaNameBases = [
   },
   {
     "name": "Avokaya",
-    "i": 20156,
+    "i": 203226,
     "min": 3,
     "max": 12,
     "d": "lnrt",
@@ -3581,7 +3581,7 @@ window.africaNameBases = [
   },
   {
     "name": "Hozo",
-    "i": 20162,
+    "i": 203227,
     "min": 3,
     "max": 11,
     "d": "lnrt",
@@ -3591,7 +3591,7 @@ window.africaNameBases = [
   },
   {
     "name": "Tulishi",
-    "i": 20163,
+    "i": 203228,
     "min": 3,
     "max": 13,
     "d": "lnrt",
@@ -3601,7 +3601,7 @@ window.africaNameBases = [
   },
   {
     "name": "Uduk",
-    "i": 20164,
+    "i": 203229,
     "min": 3,
     "max": 11,
     "d": "lnrt",
@@ -3611,7 +3611,7 @@ window.africaNameBases = [
   },
   {
     "name": "Chadian Arabic",
-    "i": 20165,
+    "i": 203230,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -3621,7 +3621,7 @@ window.africaNameBases = [
   },
   {
     "name": "Kujargé",
-    "i": 20166,
+    "i": 203231,
     "min": 4,
     "max": 13,
     "d": "lnrt",
@@ -3631,7 +3631,7 @@ window.africaNameBases = [
   },
   {
     "name": "Berta",
-    "i": 20169,
+    "i": 203232,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -3641,7 +3641,7 @@ window.africaNameBases = [
   },
   {
     "name": "Mundang",
-    "i": 20170,
+    "i": 203233,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -3651,7 +3651,7 @@ window.africaNameBases = [
   },
   {
     "name": "Nubi",
-    "i": 20172,
+    "i": 203234,
     "min": 3,
     "max": 13,
     "d": "lnrt",
@@ -3661,7 +3661,7 @@ window.africaNameBases = [
   },
   {
     "name": "Bomboli-Bozaba",
-    "i": 20220,
+    "i": 203255,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -3671,7 +3671,7 @@ window.africaNameBases = [
   },
   {
     "name": "Bomboma",
-    "i": 20221,
+    "i": 203256,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -3681,7 +3681,7 @@ window.africaNameBases = [
   },
   {
     "name": "Boze",
-    "i": 20222,
+    "i": 203257,
     "min": 3,
     "max": 13,
     "d": "lnrt",
@@ -3691,7 +3691,7 @@ window.africaNameBases = [
   },
   {
     "name": "Bozo",
-    "i": 20227,
+    "i": 203258,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -3701,7 +3701,7 @@ window.africaNameBases = [
   },
   {
     "name": "Buu",
-    "i": 20228,
+    "i": 203259,
     "min": 3,
     "max": 13,
     "d": "lnrt",
@@ -3711,7 +3711,7 @@ window.africaNameBases = [
   },
   {
     "name": "Dagaare",
-    "i": 20229,
+    "i": 203260,
     "min": 4,
     "max": 15,
     "d": "lnrt",
@@ -3721,7 +3721,7 @@ window.africaNameBases = [
   },
   {
     "name": "Awing",
-    "i": 20230,
+    "i": 203261,
     "min": 4,
     "max": 16,
     "d": "lnrt",
@@ -3731,7 +3731,7 @@ window.africaNameBases = [
   },
   {
     "name": "Beba",
-    "i": 20231,
+    "i": 203262,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -4481,7 +4481,7 @@ window.africaNameBases = [
   },
   {
     "name": "Defaka",
-    "i": 20711,
+    "i": 203058,
     "min": 3,
     "max": 13,
     "d": "lnrt",
@@ -7161,7 +7161,7 @@ window.africaNameBases = [
   },
   {
     "name": "Cairene Arabic",
-    "i": 314,
+    "i": 203167,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -7181,7 +7181,7 @@ window.africaNameBases = [
   },
   {
     "name": "Fyer",
-    "i": 1857,
+    "i": 203207,
     "min": 4,
     "max": 14,
     "d": "lnrt",
@@ -7271,7 +7271,7 @@ window.africaNameBases = [
   },
   {
     "name": "Bhaya ",
-    "i": 1278,
+    "i": 203196,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -7291,7 +7291,7 @@ window.africaNameBases = [
   },
   {
     "name": "Goaria ",
-    "i": 1916,
+    "i": 203208,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -7321,7 +7321,7 @@ window.africaNameBases = [
   },
   {
     "name": "Siri (Chadic)",
-    "i": 202380,
+    "i": 203264,
     "min": 10,
     "max": 12,
     "d": "",
@@ -9651,7 +9651,7 @@ window.africaNameBases = [
   },
   {
     "name": "Venda",
-    "i": 20175,
+    "i": 203235,
     "min": 4,
     "max": 12,
     "d": "",
@@ -9661,7 +9661,7 @@ window.africaNameBases = [
   },
   {
     "name": "Tsonga",
-    "i": 20176,
+    "i": 203236,
     "min": 4,
     "max": 12,
     "d": "",
@@ -9671,7 +9671,7 @@ window.africaNameBases = [
   },
   {
     "name": "Malagasy",
-    "i": 20178,
+    "i": 203237,
     "min": 4,
     "max": 12,
     "d": "",
@@ -9681,7 +9681,7 @@ window.africaNameBases = [
   },
   {
     "name": "Kanuri",
-    "i": 20179,
+    "i": 203238,
     "min": 4,
     "max": 12,
     "d": "",
@@ -9941,7 +9941,7 @@ window.africaNameBases = [
   },
   {
     "name": "Settler Swahili",
-    "i": 202393,
+    "i": 203072,
     "min": 4,
     "max": 11,
     "d": "",

@@ -53,6 +53,7 @@
 
 const fs = require("node:fs");
 const path = require("node:path");
+const vm = require("node:vm");
 const {
   CONTINENTS,
   SEED_FLOOR,
@@ -327,6 +328,58 @@ if (fs.existsSync(toolsDir)) {
       : "No file exists at either path - this data source was deleted outright.";
     err("T001", tool, `reads "${ref}", which does not exist. ${hint}`);
   }
+}
+
+// ---------------------------------------------------------------------------
+// S001 / S002 - the served data files must parse and run
+// ---------------------------------------------------------------------------
+//
+// The seven continent files and the aggregator are loaded by src/index.html as
+// plain classic scripts. A SyntaxError in any of them means the file does not
+// execute at all, silently. public/modules/namebases-all.js carried one for
+// three weeks: an orphaned `continue; }` pair that closed a block early. It
+// went unnoticed because nothing type-checks the *contents* of a data file, no
+// test loaded it, and nobody ran `node --check` on the served tree.
+//
+// This parses every served namebase file, then loads the whole set into a VM
+// sandbox the way a browser would and checks that it produces a usable result.
+// Parsing is not enough: namebases-all.js parsed-fine/ran-broken was exactly
+// the class of defect that mattered.
+
+const servedFiles = [
+  ...CONTINENTS.map(c => `public/modules/namebases-${c}.js`),
+  "public/modules/namebases-all.js"
+];
+
+for (const rel of servedFiles) {
+  const full = path.join(root, rel);
+  if (!fs.existsSync(full)) {
+    err("S001", rel, "served namebase file is missing. src/index.html loads it.");
+    continue;
+  }
+  try {
+    // Wrap like a classic script so `window.x = ...` parses as an assignment.
+    new vm.Script(fs.readFileSync(full, "utf8"), {filename: rel});
+  } catch (e) {
+    err("S001", rel, `does not parse: ${e.message}. A SyntaxError here means the file never executes.`);
+  }
+}
+
+if (!servedFiles.some(rel => err_has("S001"))) {
+  const {execFileSync} = require("node:child_process");
+  try {
+    execFileSync(process.execPath, [path.join(root, "tools", "namebase-tools", "verify-aggregator-runs.js")], {
+      stdio: "pipe",
+      cwd: root
+    });
+  } catch (e) {
+    const out = ((e.stdout || "") + (e.stderr || "")).toString().trim();
+    err("S002", "public/modules/namebases-all.js", `aggregator does not run correctly:\n${out}`);
+  }
+}
+
+function err_has(code) {
+  return errors.some(x => x.code === code);
 }
 
 // ---------------------------------------------------------------------------

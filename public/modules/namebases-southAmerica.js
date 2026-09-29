@@ -721,7 +721,7 @@ window.southAmericaNameBases = [
   },
   {
     "name": "Achagua",
-    "i": 744,
+    "i": 203169,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -801,7 +801,7 @@ window.southAmericaNameBases = [
   },
   {
     "name": "Tenetehára",
-    "i": 5819,
+    "i": 203212,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -1451,7 +1451,7 @@ window.southAmericaNameBases = [
   },
   {
     "name": "Wichí Lhamtés Nocten (Weenhayek)",
-    "i": 5826,
+    "i": 203166,
     "min": 4,
     "max": 12,
     "d": "lnrt",

@@ -1671,7 +1671,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Bijiang Bai language",
-    "i": 1257,
+    "i": 203195,
     "min": 4,
     "max": 11,
     "d": "",
@@ -2131,7 +2131,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Kachi Koli",
-    "i": 1505,
+    "i": 203131,
     "min": 4,
     "max": 11,
     "d": "",
@@ -4661,7 +4661,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Miju-Meyor",
-    "i": 2474,
+    "i": 203130,
     "min": 4,
     "max": 14,
     "d": "",
@@ -5231,7 +5231,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Japanese Bamboo English",
-    "i": 20006,
+    "i": 203216,
     "min": 3,
     "max": 11,
     "d": "",
@@ -5241,7 +5241,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Japanese Pidgin English",
-    "i": 20007,
+    "i": 203217,
     "min": 3,
     "max": 11,
     "d": "",
@@ -5261,7 +5261,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Thai Pidgin English",
-    "i": 20019,
+    "i": 203218,
     "min": 3,
     "max": 19,
     "d": "",
@@ -5321,7 +5321,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Daman Creole",
-    "i": 20194,
+    "i": 203246,
     "min": 4,
     "max": 10,
     "d": "",
@@ -5331,7 +5331,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Daman and Diu Portuguese Creole",
-    "i": 20195,
+    "i": 203247,
     "min": 3,
     "max": 10,
     "d": "",
@@ -5341,7 +5341,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Diu Creole",
-    "i": 20196,
+    "i": 203248,
     "min": 3,
     "max": 10,
     "d": "",
@@ -5351,7 +5351,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Sao Nicolau Creole",
-    "i": 20198,
+    "i": 203249,
     "min": 4,
     "max": 14,
     "d": "",
@@ -5371,7 +5371,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Santo Antao Creole",
-    "i": 20200,
+    "i": 203250,
     "min": 4,
     "max": 14,
     "d": "",
@@ -5381,7 +5381,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Indo-Portuguese",
-    "i": 20201,
+    "i": 203251,
     "min": 3,
     "max": 13,
     "d": "",
@@ -5391,7 +5391,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Indo-Portuguese Creole of Bombay",
-    "i": 20202,
+    "i": 203252,
     "min": 4,
     "max": 11,
     "d": "",
@@ -5401,7 +5401,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Karipºna French Creole",
-    "i": 20207,
+    "i": 203253,
     "min": 4,
     "max": 14,
     "d": "",
@@ -5411,7 +5411,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Réunion Creole",
-    "i": 20209,
+    "i": 203254,
     "min": 4,
     "max": 20,
     "d": "",
@@ -6471,7 +6471,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Kili",
-    "i": 200329,
+    "i": 203138,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -6551,7 +6551,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Lasi",
-    "i": 200337,
+    "i": 203139,
     "min": 3,
     "max": 14,
     "d": "lnrt",
@@ -8751,7 +8751,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Southern Amami",
-    "i": 200281,
+    "i": 203137,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -9811,7 +9811,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Jerung (Jero)",
-    "i": 846,
+    "i": 203172,
     "min": 4,
     "max": 11,
     "d": "Jerung (Jero) is a Kiranti language spoken in eastern Nepal with ~1,700 speakers.",
@@ -9821,7 +9821,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Limbu",
-    "i": 847,
+    "i": 203173,
     "min": 3,
     "max": 14,
     "d": "Limbu is a Kiranti language spoken in eastern Nepal, Sikkim, Bhutan, and India with ~380,000 speakers.",
@@ -9831,7 +9831,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Dungmali",
-    "i": 851,
+    "i": 203174,
     "min": 4,
     "max": 11,
     "d": "Dungmali is a Kiranti language spoken in eastern Nepal with ~5,000 speakers.",
@@ -9841,7 +9841,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Chantyal",
-    "i": 854,
+    "i": 203175,
     "min": 4,
     "max": 11,
     "d": "Chantyal is a Magaric language spoken in western Nepal with ~10,000 speakers.",
@@ -9861,7 +9861,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Kaike (Magar Kaike)",
-    "i": 856,
+    "i": 203176,
     "min": 5,
     "max": 12,
     "d": "Kaike (Magar Kaike) is a Magaric language spoken in Dolpa District, Nepal with ~1,000 speakers.",
@@ -9871,7 +9871,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Manang (Manange)",
-    "i": 857,
+    "i": 203177,
     "min": 3,
     "max": 12,
     "d": "Manang (Manange) is a Tamangic language spoken in Manang District, Nepal with ~5,000 speakers.",
@@ -9881,7 +9881,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Newar",
-    "i": 2440,
+    "i": 203211,
     "min": 4,
     "max": 12,
     "d": "Newar (Nepal Bhasa) is a Sino-Tibetan language spoken in Kathmandu Valley, Nepal with ~850,000 speakers.",
@@ -9891,7 +9891,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Ingush",
-    "i": 1374,
+    "i": 203197,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -9911,7 +9911,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Amdo Tibetan",
-    "i": 869,
+    "i": 203186,
     "min": 4,
     "max": 11,
     "d": "Amdo Tibetan is a Tibetic language spoken in Qinghai, Sichuan, Gansu, China with ~1,000,000 speakers.",
@@ -9931,7 +9931,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Xieheyu",
-    "i": 201003,
+    "i": 203263,
     "min": 4,
     "max": 11,
     "d": "Xieheyu (Xiehe) is a Chinese dialect spoken in Yunnan, China.",
@@ -9941,7 +9941,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Sui Lang",
-    "i": 863,
+    "i": 203181,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -9951,7 +9951,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Tai Dam",
-    "i": 864,
+    "i": 203182,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -9961,7 +9961,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Tai Ya",
-    "i": 865,
+    "i": 203183,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -9971,7 +9971,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Taishanese",
-    "i": 866,
+    "i": 203184,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -9981,7 +9981,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Wutunhua",
-    "i": 867,
+    "i": 203185,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -9991,7 +9991,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Chadong",
-    "i": 1060,
+    "i": 203187,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -10001,7 +10001,7 @@ window.asiaNameBases = [
   },
   {
     "name": "En Kra",
-    "i": 1061,
+    "i": 203188,
     "min": 4,
     "max": 11,
     "d": "En Kra is a Kra language spoken in Yunnan, China.",
@@ -10011,7 +10011,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Nuoxi Naxi Yao",
-    "i": 1062,
+    "i": 203189,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -10021,7 +10021,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Lauhut",
-    "i": 1063,
+    "i": 203190,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -10031,7 +10031,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Baima",
-    "i": 1075,
+    "i": 203191,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -10041,7 +10041,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Baisha Hlai",
-    "i": 1076,
+    "i": 203192,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -10051,7 +10051,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Central Min",
-    "i": 1481,
+    "i": 203199,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -10061,7 +10061,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Chamdo",
-    "i": 1544,
+    "i": 203201,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -10071,7 +10071,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Dai Zhuang",
-    "i": 1653,
+    "i": 203204,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -10081,7 +10081,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Kavalan",
-    "i": 1622,
+    "i": 203202,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -10091,7 +10091,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Altai",
-    "i": 858,
+    "i": 203178,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -10101,7 +10101,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Altai Uriankhai",
-    "i": 859,
+    "i": 203179,
     "min": 4,
     "max": 11,
     "d": "Altai Uriankhai is a Mongolic language spoken in western Mongolia and Xinjiang, China with ~20,000 speakers.",
@@ -10111,7 +10111,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Alyutor",
-    "i": 862,
+    "i": 203180,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -10121,7 +10121,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Brahui",
-    "i": 1374,
+    "i": 203198,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -10131,7 +10131,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Balti",
-    "i": 1100,
+    "i": 203193,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -10141,7 +10141,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Domaaki",
-    "i": 1705,
+    "i": 203205,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -10151,7 +10151,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Ahirani",
-    "i": 785,
+    "i": 203170,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -10621,7 +10621,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Egyptian Arabic",
-    "i": 322,
+    "i": 203059,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -10681,7 +10681,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Mauritian Creole",
-    "i": 202381,
+    "i": 203062,
     "min": 4,
     "max": 11,
     "d": "",
@@ -10701,7 +10701,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Ch'olti'",
-    "i": 202383,
+    "i": 203063,
     "min": 4,
     "max": 11,
     "d": "",
@@ -10711,7 +10711,7 @@ window.asiaNameBases = [
   },
   {
     "name": "American Indian Pidgin English",
-    "i": 202384,
+    "i": 203064,
     "min": 4,
     "max": 11,
     "d": "",
@@ -10721,7 +10721,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Cappadocian Greek",
-    "i": 202385,
+    "i": 203065,
     "min": 4,
     "max": 11,
     "d": "",
@@ -10731,7 +10731,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Hawaiian Pidgin English",
-    "i": 202386,
+    "i": 203066,
     "min": 4,
     "max": 11,
     "d": "",
@@ -10741,7 +10741,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Loucheux Jargon",
-    "i": 202387,
+    "i": 203067,
     "min": 4,
     "max": 11,
     "d": "",
@@ -10751,7 +10751,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Maritime Polynesian Pidgin",
-    "i": 202388,
+    "i": 203068,
     "min": 4,
     "max": 11,
     "d": "",
@@ -10761,7 +10761,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Micronesian Pidgin English",
-    "i": 202389,
+    "i": 203069,
     "min": 4,
     "max": 11,
     "d": "",
@@ -10771,7 +10771,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Nootka Jargon",
-    "i": 202390,
+    "i": 203070,
     "min": 4,
     "max": 11,
     "d": "",
@@ -10791,7 +10791,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Papuan Pidgin English",
-    "i": 202392,
+    "i": 203071,
     "min": 4,
     "max": 11,
     "d": "",
@@ -10811,7 +10811,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Solomon Islands Pijin",
-    "i": 202396,
+    "i": 203073,
     "min": 4,
     "max": 11,
     "d": "",
@@ -10821,7 +10821,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Te Parau Tinito",
-    "i": 202398,
+    "i": 203074,
     "min": 4,
     "max": 11,
     "d": "",
@@ -10831,7 +10831,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Mi'kmaq",
-    "i": 202399,
+    "i": 203075,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -10851,7 +10851,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Budai-Labuan-Taromak Rukai",
-    "i": 202403,
+    "i": 203076,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -10881,7 +10881,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Kanakanavu",
-    "i": 202406,
+    "i": 203077,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -10891,7 +10891,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Kulon",
-    "i": 202407,
+    "i": 203265,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -10901,7 +10901,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Maga-Tona Rukai",
-    "i": 202408,
+    "i": 203078,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -10911,7 +10911,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Mantauran Rukai",
-    "i": 202409,
+    "i": 203079,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -10921,7 +10921,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Marind",
-    "i": 202410,
+    "i": 203080,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -10931,7 +10931,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Mombum",
-    "i": 202411,
+    "i": 203081,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -10941,7 +10941,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Muyu",
-    "i": 202412,
+    "i": 203082,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -10951,7 +10951,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Namiae",
-    "i": 202413,
+    "i": 203083,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -10961,7 +10961,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Ngalum",
-    "i": 202414,
+    "i": 203084,
     "min": 5,
     "max": 10,
     "d": "lnrt",
@@ -10971,7 +10971,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Nomane",
-    "i": 202415,
+    "i": 203085,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -10991,7 +10991,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Onjob",
-    "i": 202417,
+    "i": 203086,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -11021,7 +11021,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Paniai Lakes",
-    "i": 202422,
+    "i": 203087,
     "min": 3,
     "max": 13,
     "d": "lnrt",
@@ -11031,7 +11031,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Pisa",
-    "i": 202427,
+    "i": 203088,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -11041,7 +11041,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Pitkern",
-    "i": 202429,
+    "i": 203089,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -11051,7 +11051,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Puyuma",
-    "i": 202431,
+    "i": 203090,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -11071,7 +11071,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Retta",
-    "i": 202433,
+    "i": 203091,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -11081,7 +11081,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Riantana",
-    "i": 202434,
+    "i": 203092,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -11091,7 +11091,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Rotokas",
-    "i": 202435,
+    "i": 203093,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -11101,7 +11101,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Rukai",
-    "i": 202436,
+    "i": 203266,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -11111,7 +11111,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Rumu",
-    "i": 202437,
+    "i": 203094,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -11121,7 +11121,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Rusenu",
-    "i": 202438,
+    "i": 203095,
     "min": 3,
     "max": 13,
     "d": "lnrt",
@@ -11131,7 +11131,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Saaroa",
-    "i": 202439,
+    "i": 203267,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -11141,7 +11141,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Sabakor",
-    "i": 202440,
+    "i": 203096,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -11151,7 +11151,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Safeyoka",
-    "i": 202441,
+    "i": 203097,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -11171,7 +11171,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Sakizaya",
-    "i": 202443,
+    "i": 203268,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -11181,7 +11181,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Samo",
-    "i": 202446,
+    "i": 203098,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -11191,7 +11191,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Saʼban",
-    "i": 202448,
+    "i": 203099,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -11211,7 +11211,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Shiaxa",
-    "i": 202452,
+    "i": 203100,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -11221,7 +11221,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Silimo",
-    "i": 202454,
+    "i": 203101,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -11231,7 +11231,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Somahai",
-    "i": 202458,
+    "i": 203102,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -11251,7 +11251,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Squliq Atayal",
-    "i": 202462,
+    "i": 203103,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -11271,7 +11271,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Susuami",
-    "i": 202466,
+    "i": 203269,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -11281,7 +11281,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Tainae",
-    "i": 202467,
+    "i": 203104,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -11291,7 +11291,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Tangko",
-    "i": 202471,
+    "i": 203270,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -11301,7 +11301,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Teiwa",
-    "i": 202474,
+    "i": 203271,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -11311,7 +11311,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Tembagla",
-    "i": 202476,
+    "i": 203105,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -11341,7 +11341,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Tobian",
-    "i": 202481,
+    "i": 203106,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -11351,7 +11351,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Tokano",
-    "i": 202482,
+    "i": 203107,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -11371,7 +11371,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Tsaukambo",
-    "i": 202485,
+    "i": 203108,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -11391,7 +11391,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Turaka",
-    "i": 202487,
+    "i": 203272,
     "min": 0,
     "max": 0,
     "d": "lnrt",
@@ -11411,7 +11411,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Uare",
-    "i": 202490,
+    "i": 203109,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -11421,7 +11421,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Umanakaina",
-    "i": 202491,
+    "i": 203110,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -11431,7 +11431,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Waffa",
-    "i": 202496,
+    "i": 203111,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -11451,7 +11451,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Walak",
-    "i": 202499,
+    "i": 203273,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -11461,7 +11461,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Wambon",
-    "i": 202500,
+    "i": 203274,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -11471,7 +11471,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Wano",
-    "i": 202501,
+    "i": 203275,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -11481,7 +11481,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Wayan",
-    "i": 202503,
+    "i": 203276,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -11491,7 +11491,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Wersing",
-    "i": 202506,
+    "i": 203112,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -11511,7 +11511,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Wiru",
-    "i": 202511,
+    "i": 203113,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -11521,7 +11521,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Wolani",
-    "i": 202512,
+    "i": 203114,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -11531,7 +11531,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Wolio",
-    "i": 202513,
+    "i": 203115,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -11551,7 +11551,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Yali",
-    "i": 202516,
+    "i": 203277,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -11561,7 +11561,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Yaqay",
-    "i": 202517,
+    "i": 203116,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -11571,7 +11571,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Yareba",
-    "i": 202518,
+    "i": 203117,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -11581,7 +11581,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Yaweyuha",
-    "i": 202519,
+    "i": 203118,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -11591,7 +11591,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Yekora",
-    "i": 202520,
+    "i": 203278,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -11611,7 +11611,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Yogo (Tamagario)",
-    "i": 202522,
+    "i": 203119,
     "min": 3,
     "max": 13,
     "d": "lnrt",
@@ -11621,7 +11621,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Yonggom",
-    "i": 202523,
+    "i": 203279,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -11631,7 +11631,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Nivkh",
-    "i": 202530,
+    "i": 203120,
     "min": 0,
     "max": 0,
     "d": "lnrt",
@@ -11651,7 +11651,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Pyu",
-    "i": 202544,
+    "i": 203121,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -11661,7 +11661,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Sümi",
-    "i": 202545,
+    "i": 203122,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -11671,7 +11671,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Tibeto Kanauri",
-    "i": 202546,
+    "i": 203123,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -11681,7 +11681,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Andoque",
-    "i": 202547,
+    "i": 203124,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -11691,7 +11691,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Araona",
-    "i": 202548,
+    "i": 203125,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -11701,7 +11701,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Ka'apor",
-    "i": 202549,
+    "i": 203126,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -11711,7 +11711,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Nivaclé",
-    "i": 202550,
+    "i": 203127,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -11721,7 +11721,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Sirionó",
-    "i": 202551,
+    "i": 203128,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -11731,7 +11731,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Sranan Tongo",
-    "i": 202552,
+    "i": 203129,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -11741,7 +11741,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Tagalog",
-    "i": 1500,
+    "i": 203057,
     "min": 3,
     "max": 14,
     "d": "lnrt",
@@ -12481,7 +12481,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Assamese",
-    "i": 20180,
+    "i": 203239,
     "min": 4,
     "max": 12,
     "d": "",
@@ -12501,7 +12501,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Manipuri",
-    "i": 20183,
+    "i": 203240,
     "min": 4,
     "max": 12,
     "d": "",
@@ -12511,7 +12511,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Santali",
-    "i": 20184,
+    "i": 203241,
     "min": 4,
     "max": 12,
     "d": "",
@@ -12521,7 +12521,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Chhattisgarhi",
-    "i": 20186,
+    "i": 203242,
     "min": 4,
     "max": 12,
     "d": "",
@@ -12531,7 +12531,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Rajasthani",
-    "i": 20188,
+    "i": 203243,
     "min": 4,
     "max": 12,
     "d": "",
@@ -12541,7 +12541,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Bundeli",
-    "i": 20191,
+    "i": 203244,
     "min": 4,
     "max": 12,
     "d": "",
@@ -12551,7 +12551,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Garhwali",
-    "i": 20192,
+    "i": 203245,
     "min": 4,
     "max": 12,
     "d": "",
@@ -12601,7 +12601,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Mongolian",
-    "i": 20199,
+    "i": 203136,
     "min": 4,
     "max": 12,
     "d": "",
@@ -17921,7 +17921,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Be-Jizhao",
-    "i": 202404,
+    "i": 203145,
     "min": 4,
     "max": 11,
     "d": "",
@@ -17931,7 +17931,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Betawi",
-    "i": 202405,
+    "i": 203146,
     "min": 4,
     "max": 11,
     "d": "",
@@ -17951,7 +17951,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Daman",
-    "i": 202418,
+    "i": 203148,
     "min": 4,
     "max": 11,
     "d": "",
@@ -17961,7 +17961,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Ha Em",
-    "i": 202432,
+    "i": 203150,
     "min": 4,
     "max": 11,
     "d": "",
@@ -17991,7 +17991,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Ho (Munda)",
-    "i": 202442,
+    "i": 203151,
     "min": 4,
     "max": 11,
     "d": "",
@@ -18011,7 +18011,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Kadar",
-    "i": 202461,
+    "i": 203152,
     "min": 4,
     "max": 11,
     "d": "",
@@ -18021,7 +18021,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Kaloeng",
-    "i": 202464,
+    "i": 203153,
     "min": 4,
     "max": 11,
     "d": "",
@@ -18051,7 +18051,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Khorchin Mongol",
-    "i": 202477,
+    "i": 203154,
     "min": 4,
     "max": 11,
     "d": "",
@@ -18061,7 +18061,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Khorchin Mongol alias",
-    "i": 202478,
+    "i": 203155,
     "min": 4,
     "max": 11,
     "d": "",
@@ -18071,7 +18071,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Lakkia Kam Sui",
-    "i": 202484,
+    "i": 203156,
     "min": 4,
     "max": 11,
     "d": "",
@@ -18081,7 +18081,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Lhowa (Lhopa)",
-    "i": 202489,
+    "i": 203158,
     "min": 4,
     "max": 11,
     "d": "",
@@ -18091,7 +18091,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Maithili",
-    "i": 202498,
+    "i": 203159,
     "min": 4,
     "max": 11,
     "d": "",
@@ -18141,7 +18141,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Mangghuer",
-    "i": 202509,
+    "i": 203160,
     "min": 4,
     "max": 11,
     "d": "",
@@ -18151,7 +18151,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Maumere Malay",
-    "i": 202515,
+    "i": 203161,
     "min": 4,
     "max": 11,
     "d": "",
@@ -19351,7 +19351,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Ambonese Malay",
-    "i": 202391,
+    "i": 203142,
     "min": 4,
     "max": 11,
     "d": "",
@@ -19361,7 +19361,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Baba Malay",
-    "i": 202395,
+    "i": 203143,
     "min": 4,
     "max": 11,
     "d": "",
@@ -19371,7 +19371,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Banda Malay",
-    "i": 202402,
+    "i": 203144,
     "min": 4,
     "max": 11,
     "d": "",
@@ -19381,7 +19381,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Classical Tibetan",
-    "i": 202416,
+    "i": 203147,
     "min": 4,
     "max": 11,
     "d": "",
@@ -19391,7 +19391,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Darkhad Mongolian",
-    "i": 202421,
+    "i": 203149,
     "min": 4,
     "max": 11,
     "d": "",
@@ -19411,7 +19411,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Lao-Phutai",
-    "i": 202486,
+    "i": 203157,
     "min": 4,
     "max": 11,
     "d": "",
@@ -19431,7 +19431,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Mymensinghi Bengali",
-    "i": 202539,
+    "i": 203162,
     "min": 4,
     "max": 11,
     "d": "",

@@ -6401,7 +6401,7 @@ window.europeNameBases = [
   },
   {
     "name": "Waxiang",
-    "i": 201001,
+    "i": 203140,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -6471,7 +6471,7 @@ window.europeNameBases = [
   },
   {
     "name": "Venezuelan Spanish",
-    "i": 657,
+    "i": 203168,
     "min": 4,
     "max": 11,
     "d": "es-VE",
@@ -6491,7 +6491,7 @@ window.europeNameBases = [
   },
   {
     "name": "Aimele ",
-    "i": 788,
+    "i": 203171,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -6821,7 +6821,7 @@ window.europeNameBases = [
   },
   {
     "name": "Bariji ",
-    "i": 1129,
+    "i": 203194,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -6861,7 +6861,7 @@ window.europeNameBases = [
   },
   {
     "name": "Gobasi ",
-    "i": 1520,
+    "i": 203200,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -6891,7 +6891,7 @@ window.europeNameBases = [
   },
   {
     "name": "Daga ",
-    "i": 1650,
+    "i": 203203,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -6931,7 +6931,7 @@ window.europeNameBases = [
   },
   {
     "name": "Golin ",
-    "i": 1821,
+    "i": 203206,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -6961,7 +6961,7 @@ window.europeNameBases = [
   },
   {
     "name": "Korafe ",
-    "i": 2266,
+    "i": 203209,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -7001,7 +7001,7 @@ window.europeNameBases = [
   },
   {
     "name": "Kovojab ",
-    "i": 2273,
+    "i": 203210,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -7221,7 +7221,7 @@ window.europeNameBases = [
   },
   {
     "name": "Swedish",
-    "i": 20008,
+    "i": 203133,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -7391,7 +7391,7 @@ window.europeNameBases = [
   },
   {
     "name": "Siberian Tatar",
-    "i": 20114,
+    "i": 203134,
     "min": 4,
     "max": 12,
     "d": "",
@@ -7671,7 +7671,7 @@ window.europeNameBases = [
   },
   {
     "name": "Ingush",
-    "i": 20159,
+    "i": 203135,
     "min": 4,
     "max": 12,
     "d": "",

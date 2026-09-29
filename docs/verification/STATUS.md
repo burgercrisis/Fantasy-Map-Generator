@@ -38,7 +38,7 @@ so the emptiest entries come first. One at a time, research then edit.
 | Seeds | Continent | Index | Language |
 |---:|---|---:|---|
 | 0 | africa | 5368 | Wali |
-| 0 | asia | 201003 | Xieheyu |
+| 0 | asia | 203263 | Xieheyu |
 | 0 | northAmerica | 202317 | Western Algerian Zenatic dialects |
 | 0 | northAmerica | 202318 | Zurg |
 | 0 | oceania | 187 | Ari (Papuan) |
@@ -69,9 +69,9 @@ so the emptiest entries come first. One at a time, research then edit.
 | 3 | africa | 200225 | Zizilivakan |
 | 3 | africa | 200226 | Zulgo-Gemzek |
 | 3 | africa | 200227 | Zumaya |
-| 3 | africa | 1278 | Bhaya  |
-| 3 | africa | 1916 | Goaria  |
-| 3 | africa | 202380 | Siri (Chadic) |
+| 3 | africa | 203196 | Bhaya  |
+| 3 | africa | 203208 | Goaria  |
+| 3 | africa | 203264 | Siri (Chadic) |
 | 3 | africa | 202518 | Memoni |
 | 3 | africa | 202519 | Mewari |
 | 3 | asia | 756 | Agalega Creole |
@@ -91,12 +91,12 @@ so the emptiest entries come first. One at a time, research then edit.
 | 3 | asia | 200352 | Malapandaram |
 | 3 | asia | 200400 | Nong Zhuang |
 | 3 | asia | 200982 | Qoqmoncaq |
-| 3 | asia | 202407 | Kulon |
+| 3 | asia | 203265 | Kulon |
 | 3 | asia | 202418 | Ontenu |
-| 3 | asia | 202434 | Riantana |
+| 3 | asia | 203092 | Riantana |
 | 3 | asia | 202451 | Setaman |
-| 3 | asia | 202487 | Turaka |
-| 3 | asia | 202491 | Umanakaina |
+| 3 | asia | 203272 | Turaka |
+| 3 | asia | 203110 | Umanakaina |
 | 3 | asia | 202354 | Makalero |
 | 3 | asia | 202368 | Nakai |
 | 3 | europe | 1076 | Baisha Hlai  |
@@ -128,19 +128,19 @@ so the emptiest entries come first. One at a time, research then edit.
 | 4 | asia | 200718 | Yangchun Pai Yao |
 | 4 | asia | 200720 | Yeheni |
 | 4 | asia | 310 | Baghdadi Arabic |
-| 4 | asia | 202411 | Mombum |
-| 4 | asia | 202417 | Onjob |
-| 4 | asia | 202427 | Pisa |
+| 4 | asia | 203081 | Mombum |
+| 4 | asia | 203086 | Onjob |
+| 4 | asia | 203088 | Pisa |
 | 4 | asia | 202432 | Rapa Nui |
-| 4 | asia | 202433 | Retta |
-| 4 | asia | 202466 | Susuami |
-| 4 | asia | 202471 | Tangko |
-| 4 | asia | 202500 | Wambon |
+| 4 | asia | 203091 | Retta |
+| 4 | asia | 203269 | Susuami |
+| 4 | asia | 203270 | Tangko |
+| 4 | asia | 203274 | Wambon |
 | 4 | asia | 202509 | Western Dani |
 | 4 | asia | 202371 | Nduga |
 | 4 | europe | 1075 | Baima  |
 | 4 | europe | 1656 | Dano  |
-| 4 | europe | 1821 | Golin  |
+| 4 | europe | 203206 | Golin  |
 | 4 | northAmerica | 1210 | Onondaga |
 | 4 | northAmerica | 8133 | Lacandon |
 | 4 | northAmerica | 8141 | Sakapultek |
@@ -165,7 +165,7 @@ so the emptiest entries come first. One at a time, research then edit.
 | 5 | asia | 1156 | Fuyu Kyrgyz |
 | 5 | asia | 1254 | Lashi |
 | 5 | asia | 1256 | Bijiang Bai lect |
-| 5 | asia | 1257 | Bijiang Bai language |
+| 5 | asia | 203195 | Bijiang Bai language |
 | 5 | asia | 1384 | Bateri |
 | 5 | asia | 1496 | Tilung |
 | 5 | asia | 1661 | Darkhad |
@@ -180,28 +180,28 @@ so the emptiest entries come first. One at a time, research then edit.
 | 5 | asia | 200280 | Ghera |
 | 5 | asia | 200299 | Jandavra |
 | 5 | asia | 200312 | Kalkoti |
-| 5 | asia | 200329 | Kili |
+| 5 | asia | 203138 | Kili |
 | 5 | asia | 200350 | Mala Malasar |
 | 5 | asia | 200361 | Maonan |
 | 5 | asia | 200492 | Sikkimese |
-| 5 | asia | 1063 | Lauhut |
+| 5 | asia | 203190 | Lauhut |
 | 5 | asia | 200320 | Katua |
 | 5 | asia | 200940 | Duvle-Wano Pidgin |
 | 5 | asia | 201113 | Nedebang |
-| 5 | asia | 202408 | Maga-Tona Rukai |
-| 5 | asia | 202415 | Nomane |
-| 5 | asia | 202429 | Pitkern |
-| 5 | asia | 202437 | Rumu |
-| 5 | asia | 202439 | Saaroa |
-| 5 | asia | 202454 | Silimo |
+| 5 | asia | 203078 | Maga-Tona Rukai |
+| 5 | asia | 203085 | Nomane |
+| 5 | asia | 203089 | Pitkern |
+| 5 | asia | 203094 | Rumu |
+| 5 | asia | 203267 | Saaroa |
+| 5 | asia | 203101 | Silimo |
 | 5 | asia | 202464 | Suganga |
 | 5 | asia | 202477 | Thao |
 | 5 | asia | 202498 | Waimoa |
-| 5 | asia | 202499 | Walak |
-| 5 | asia | 202501 | Wano |
-| 5 | asia | 202511 | Wiru |
-| 5 | asia | 202518 | Yareba |
-| 5 | asia | 202519 | Yaweyuha |
+| 5 | asia | 203273 | Walak |
+| 5 | asia | 203275 | Wano |
+| 5 | asia | 203113 | Wiru |
+| 5 | asia | 203117 | Yareba |
+| 5 | asia | 203118 | Yaweyuha |
 | 5 | asia | 202372 | Nedebang |
 | 5 | europe | 2272 | Kosena  |
 | 5 | northAmerica | 2223 | Achi |
@@ -212,7 +212,7 @@ so the emptiest entries come first. One at a time, research then edit.
 | 5 | northAmerica | 200908 | Mopan |
 | 5 | oceania | 202338 | Auye |
 | 5 | oceania | 202340 | Cèmuhî |
-| 5 | oceania | 202376 | Ninggerum |
+| 5 | oceania | 203061 | Ninggerum |
 | 5 | southAmerica | 5825 | Miraña |
 | 6 | africa | 11282 | Geme |
 | 6 | africa | 200004 | Bebe |
@@ -244,15 +244,15 @@ so the emptiest entries come first. One at a time, research then edit.
 | 6 | asia | 200717 | Xong |
 | 6 | asia | 200934 | Bolze |
 | 6 | asia | 200946 | Javindo |
-| 6 | asia | 202409 | Mantauran Rukai |
-| 6 | asia | 202435 | Rotokas |
-| 6 | asia | 202440 | Sabakor |
-| 6 | asia | 202443 | Sakizaya |
-| 6 | asia | 202446 | Samo |
+| 6 | asia | 203079 | Mantauran Rukai |
+| 6 | asia | 203093 | Rotokas |
+| 6 | asia | 203096 | Sabakor |
+| 6 | asia | 203268 | Sakizaya |
+| 6 | asia | 203098 | Samo |
 | 6 | asia | 202461 | Sonsorolese |
-| 6 | asia | 202467 | Tainae |
+| 6 | asia | 203104 | Tainae |
 | 6 | asia | 202489 | Uab Meto |
-| 6 | asia | 202490 | Uare |
+| 6 | asia | 203109 | Uare |
 | 6 | asia | 202361 | Moikodi |
 | 6 | asia | 202369 | Narom |
 | 6 | europe | 1653 | Dai Zhuang  |
@@ -289,16 +289,16 @@ so the emptiest entries come first. One at a time, research then edit.
 | 7 | asia | 200341 | Lower Uda Buryat |
 | 7 | asia | 200360 | Mankiyali |
 | 7 | asia | 2443 | Bai |
-| 7 | asia | 859 | Altai Uriankhai |
+| 7 | asia | 203179 | Altai Uriankhai |
 | 7 | asia | 200951 | Macanese Patois |
-| 7 | asia | 202410 | Marind |
-| 7 | asia | 202413 | Namiae |
+| 7 | asia | 203080 | Marind |
+| 7 | asia | 203083 | Namiae |
 | 7 | asia | 202442 | Saisiyat |
-| 7 | asia | 202448 | Saʼban |
+| 7 | asia | 203099 | Saʼban |
 | 7 | asia | 202478 | Tifal |
-| 7 | asia | 202485 | Tsaukambo |
-| 7 | asia | 202503 | Wayan |
-| 7 | asia | 202506 | Wersing |
+| 7 | asia | 203108 | Tsaukambo |
+| 7 | asia | 203276 | Wayan |
+| 7 | asia | 203112 | Wersing |
 | 7 | asia | 202521 | Yipma |
 | 7 | asia | 202360 | Mian |
 | 7 | europe | 867 | Wutunhua  |
@@ -416,18 +416,18 @@ rather than researched. These need re-research, not padding.
 | 54 | Obdorsk (i=200772) | Khanty-Mansiysk, Surgut, Nizhnevartovsk, Nefteyugansk, Langepas |
 | 54 | Vishera (i=202986) | Tchibanga, Conakry, Parakou, Fatick, Jalingo |
 | 53 | Oeld (i=202563) | Kaolack, Rijau, Bolgatanga, Louga, Giwa |
-| 53 | Sümi (i=202545) | Kaolack, Rijau, Bolgatanga, Louga, Giwa |
-| 53 | Ha Em (i=202432) | Parakou, Lafia, Rijau, Kumasi, Louga |
+| 53 | Sümi (i=203122) | Kaolack, Rijau, Bolgatanga, Louga, Giwa |
+| 53 | Ha Em (i=203150) | Parakou, Lafia, Rijau, Kumasi, Louga |
 | 53 | Forest Enets (i=1852) | Anadyr, Salekhard, Labytnangi, Muravlenko, Nadym |
 | 52 | Nihali (i=202548) | Aba, Parakou, Tsévié, Fada N'Gourma, Gashua |
 | 52 | Önge (i=202569) | Kaolack, Rijau, Bolgatanga, Louga, Giwa |
 | 52 | Shira Yugur (i=202639) | Nagasaki, Miaoli, Rason, Taitung, Mörön |
 | 52 | Hmu (i=202820) | Oyo, Gashua, Louga, Harper, N'Djamena |
-| 52 | Araona (i=202548) | Aba, Parakou, Tsévié, Fada N'Gourma, Gashua |
+| 52 | Araona (i=203125) | Aba, Parakou, Tsévié, Fada N'Gourma, Gashua |
 | 52 | Xixiu (i=202866) | Parakou, Lafia, Rijau, Kumasi, Louga |
 | 52 | Xong (i=202867) | Kaolack, Rijau, Bolgatanga, Louga, Giwa |
 | 52 | Younuo (i=202874) | Aba, Parakou, Tsévié, Fada N'Gourma, Gashua |
-| 52 | Daman (i=202418) | Parakou, Lafia, Rijau, Kumasi, Louga |
+| 52 | Daman (i=203148) | Parakou, Lafia, Rijau, Kumasi, Louga |
 | 52 | Ra'ong (i=202602) | Aba, Parakou, Tsévié, Fada N'Gourma, Gashua |
 | 52 | Savi (i=202632) | Kaolack, Rijau, Bolgatanga, Louga, Giwa |
 | 52 | Suoy (i=202659) | Kaolack, Rijau, Bolgatanga, Louga, Giwa |
@@ -456,7 +456,7 @@ rather than researched. These need re-research, not padding.
 | 51 | Tai (i=202664) | Oyo, Gashua, Louga, Harper, N'Djamena |
 | 51 | Ulaanchab Mongol (i=202709) | Yuen Long, Nagasaki, Kanazawa, Kanggye, Dongguan |
 | 51 | Shanghainese (i=202855) | Chiba, Ölgii, Baotou, Saitama, Miaoli |
-| 51 | Be-Jizhao (i=202404) | Bandar Lampung, Miri, Ben Tre, Soc Trang, Tomohon |
+| 51 | Be-Jizhao (i=203145) | Bandar Lampung, Miri, Ben Tre, Soc Trang, Tomohon |
 | 51 | Nyah Kur (i=202559) | Owerri, Sokoto, Aba, Parakou, Thiès |
 | 51 | Sadri (i=202615) | Parakou, Lafia, Rijau, Kumasi, Louga |
 | 51 | Sonha (i=202646) | Parakou, Lafia, Rijau, Kumasi, Louga |

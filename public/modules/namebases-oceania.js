@@ -281,7 +281,7 @@ window.oceaniaNameBases = [
   },
   {
     "name": "Kuot",
-    "i": 2272,
+    "i": 203164,
     "min": 3,
     "max": 12,
     "d": "",
@@ -441,7 +441,7 @@ window.oceaniaNameBases = [
   },
   {
     "name": "Ginuman",
-    "i": 1974,
+    "i": 203132,
     "min": 3,
     "max": 10,
     "d": "",
@@ -1191,7 +1191,7 @@ window.oceaniaNameBases = [
   },
   {
     "name": "Arafundi-Enga Pidgin",
-    "i": 800,
+    "i": 203163,
     "min": 4,
     "max": 10,
     "d": "",
@@ -1271,7 +1271,7 @@ window.oceaniaNameBases = [
   },
   {
     "name": "Pa",
-    "i": 201134,
+    "i": 203141,
     "min": 4,
     "max": 19,
     "d": "",
@@ -1661,7 +1661,7 @@ window.oceaniaNameBases = [
   },
   {
     "name": "Nii",
-    "i": 202375,
+    "i": 203060,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -1671,7 +1671,7 @@ window.oceaniaNameBases = [
   },
   {
     "name": "Ninggerum",
-    "i": 202376,
+    "i": 203061,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -1791,7 +1791,7 @@ window.oceaniaNameBases = [
   },
   {
     "name": "Tahitian",
-    "i": 20077,
+    "i": 203165,
     "min": 4,
     "max": 11,
     "d": "",

@@ -1,9 +1,7 @@
 {
   "_comment": "Known-debt ledger for verify-namebase-integrity.js. Each value is the maximum tolerated count of that error class. A count above its entry fails the gate. Lower it as debt is paid off. Raising one requires --update-baseline and shows up as a diff that must be reviewed.",
   "accepted": {
-    "E003": 61,
-    "E004": 222,
-    "T001": 24
+    "T001": 21
   },
   "notes": {
     "E003": "accepted debt - see AGENT-PLAYBOOK.md",
