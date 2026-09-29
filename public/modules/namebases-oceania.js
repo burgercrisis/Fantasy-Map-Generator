@@ -1610,36 +1610,6 @@ window.oceaniaNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "Lowland Iwur",
-    "i": 202351,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Papua Province,Iwur River valley,Pegunungan Bintang mountains,Oksibil,Iwur District,Tarup District,Western Province",
-    "status": "WAITING"
-  },
-  {
-    "name": "Maiwa",
-    "i": 202353,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Bangkala,Patondon Salu,Salo Dua,Boiya,Tuncung,Mangkawani,Botto Mallangga,Batu Mila,Puncak Harapan,Tapong,Palakka,Pasang,Baringin,Lebani,Matajang,Limbuang,Ongko,Pariwang,Kaluppang,Paladang,Labuku,Tanete,Salam,Enrekang,Pinrang,Sidrap,Makassar,Malimpung",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Mandobo",
-    "i": 202357,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Boven Digoel Regency,Merauke Regency,Mandobo District,Ulilin District,Upper Mandobo,Lower Mandobo,Central Mandobo,Kokenop,Agayop,Ulugela,Lugerah,Tekamerop,Thegamonok,Kwem",
-    "status": "WAITING"
-  },
-  {
     "name": "Māori",
     "i": 202358,
     "min": 4,
@@ -1660,16 +1630,6 @@ window.oceaniaNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "Nii",
-    "i": 203060,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Mount Hagen,Kundiawa,Minj,Banz,Nondugl,Kudjip,Tambul,Nebilyer,Mul,Baiyer,Jimi Valley,Koinambe",
-    "status": "WAITING"
-  },
-  {
     "name": "Ninggerum",
     "i": 203061,
     "min": 4,
@@ -1687,16 +1647,6 @@ window.oceaniaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Wadeye,Port Keats,Thamarrurr,Nganmarriyanga,Peppimenarti,Daly River,Fitzmaurice River,Werntek Nganayi,Old Mission,Red Cliff,Kuantiga,Kuy,Palumpa,Nama,Wudapli,Papngala,Merrepen,Yaninyuluk,Mulungi,Perreder,Emu Point",
-    "status": "WAITING"
-  },
-  {
-    "name": "palawa-kani",
-    "i": 203047,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Nipaluna,Kunanyi,Larapuna,Kanamaluka,Lutruwita,Titima,Kennaook,Takayna,Luemerrernanner,Hobart,Launceston,Devonport,Burnie,George Town,Port Dalrymple,Low Head,Pieman River,Mount Wellington,River Tamar,Eddystone Point,Cape Portland,Cape Grim,Trefoil Island",
     "status": "WAITING"
   },
   {
@@ -1790,16 +1740,6 @@ window.oceaniaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Tahitian",
-    "i": 203165,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Papeete,Faaa,Punaauia,Pirae,Arue,Mahina,Paea,Papara,Taiarapu,Taiarapu-Est,Taiarapu-Ouest,Teva I Uta,Hitiaa,Moorea,Teahupoo,Fare,Haapiti,Paopao,Vaiorea,Atuona,Taiohae,Vaipaee,Omoa,Vaitahu,Rikitea,Avera,Akamaru,Taravai,Afaahiti,Vairao,Faaone,Mahaena,Tiarei,Papenoo,Mataiea,Papeari,Mataiva,Tikehau,Rangiroa,Arutua,Kaukura,Apataki,Fakarava,Hao,Hereheretue,Reao,Mangareva,Aukena,Adamstown,Pitcairn",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Marquesan",
     "i": 20078,
     "min": 4,
@@ -1842,76 +1782,6 @@ window.oceaniaNameBases = [
   {
     "name": "Yapese",
     "i": 20086,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Colonia,Weloy,Tamil,Gachpar,Maap,Gagil,Rumung,Fanif,Tomil,Rull,Kanifay,Gilman,Dalipebinaw,Wol,Makiy,Goochol,Leng,Tabnify,Dachngar,Dulkan,Lamer,Worowa,Gaanelay,Madaq,Rumu,Runu,Yin,Wulu,Tabelang,Ayrech,Bulochang,Tafgif,Tabeched,Neyetem,Tagire,Amun,Darcha,Waloy,Chool,Malon,Nuul,Tor,Bechiel,Bechyal,Talngiz,Aringel,Binaw,Fedor,Gaanipan,Kanif,Magaf,Tagegin,Yaboch,Balebat,Benik,Dinay,Gitam,Mer,Ngariy,Ngof,Ngolog,Wugem,Yinuf,Meerur,Teb,Af,Bugol,Deboch,Dechmur,Dilag,Domchuy,Gargei,Ma,Madlay,Thol,Ulithi,Fais,Satawal,Ifalik,Woleai,Eauripik,Elato,Faraulep,Lamotrek,Ngulu,Sorol",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Maori",
-    "i": 20207,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Auckland,Wellington,Christchurch,Hamilton,Tauranga,Dunedin,Palmerston North,Napier,Hastings,Nelson,Rotorua,New Plymouth,Whangarei,Invercargill,Whanganui,Gisborne,Whakatane,Timaru,Pukekohe,Taupo,Hawera,Levin,Kaitaia,Ashburton,Cambridge,Te Awamutu,Huntly,Thames,Coromandel,Whitianga,Taumarunui,Te Kuiti,Tokoroa,Putaruru,Otorohanga,Foxton,Marton,Feilding,Masterton,Carterton,Greytown,Martinborough,Blenheim,Picton,Kaikoura,Hokitika,Greymouth,Westport,Wanaka,Queenstown,Te Anau,Gore,Oamaru,Rangiora,Rolleston,Lincoln,Akaroa,Lyttelton,Motueka,Takaka,Kerikeri,Kaikohe,Dargaville,Paeroa,Waihi,Ohakune,Raetihi,Taihape,Waipukurau,Waipawa,Wairoa,Opotiki,Paengaroa,Te Puke,Katikati,Waihi Beach,Mangawhai,Kawakawa,Moerewa,Opua,Russell,Turangi,Wairakei,Waimate,Palmerston,Milton,Balclutha,Lawrence,Roxburgh,Alexandra,Clyde",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Samoan",
-    "i": 20208,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Apia,Vaitele,Faleasiu,Vailele,Leauvaa,Falelatai,Saleimoa,Faleseela,Vaimoso,Moataa,Sinamoga,Moamoa,Laulii,Letogo,Malie,Afega,Alamagoto,Aleipata,Aleisa,Leulumoega,Nofoalii,Faleula,Tuanimu,Lufilufi,Solosolo,Lalomanu,Sauano,Falevao,Lalomauga,Manunu,Uafato,Samamea,Musumusu,Salelologa,Sapapalii,Safotu,Samalaeulu,Patamea,Fagamalo,Manase,Sasina,Safai,Satoalepai,Lelepa,Aopo,Neiafu,Sataua,Papa,Falealupo,Tufutafoe,Neiafu Tai,Falelima,Fagafau,Samata,Fogatuli,Sagone,Gataivai,Gautavai,Sili,Puleia,Taga,Vaiala,Satupaitea,Vaega,Pitonuu,Moasula,Vaotupua,Tafuna,Leone,Pago Pago,Fagatogo,Utulei,Fagaalu,Aua,Leloaloa,Nuuuli,Iliili,Mapusagafou,Pavaiai,Faleniu,Vaitogi,Malaeimi,Masausi,Poloa,Amanave,Failolo,Fagalii,Asili,Amaluia,Vatia,Alao,Tula,Aoa,Onenoa,Fagasa,Ofu,Olosega,Tau,Siufaga,Faleasao,Lealataua,Saole,Swains Island,Siusega,Toamua",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Tongan",
-    "i": 20209,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Nukualofa,Neiafu,Hihifo,Ohonua,Pangai,Haveluloto,Kolofou,Kolomotua,Ma,ufanga,Tofoa,Popua,Tukutonga,Vaini,Malapo,Longoteme,Folaha,Ha,ateiho,Pea,Tokomololo,Tatakamotonga,Fua,amotu,asini,Lapaha,Talasiu,Hoi,Nukuleka,Kolonga,Niutoua,Nukunuku,Houma,Matahau,Fatai,Lakepa,Vaotuu,Utulau,Haakame,Fahefa,Kanokupolu,atafu,Teekiu,Masilamea,Fooui,Ahau,Atata,Haavakatolo,Kalaau,Matafonua,Haveluliku,Fatumu,Pelehake,Holonga,Lavengatonga,Nakolo,Pangaimotu,Taanea,Leimatu,a,Feletoa,Mataika,Longomapu,Taoa,Tefisi,Ofu,Okoa,Makave,Toula,Utungake,alaufuli,Tuanekivale,Koloa,Late,Falevai,Kapa,Otea,Lape,Matamaka,Nuapapu,Ovaka,Taunga,Hunga,Lotofoa,Faleloa,afakahenga,afeva,Nomuka,Fonoifua,Fakakai,Haano,Uiha,Lofanga,Felemea,Muomua,Angaha,Esia,Fataulua,Futu,Sapaata,Petani,Tongamamao,Mataaho,Mu,Vaipoa,Falehau,Tafahi,Kolofoou Nf,Sapaata Nf",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Fijian",
-    "i": 20210,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Suva,Lautoka,Nadi,Labasa,Ba,Sigatoka,Nausori,Lami,Savusavu,Levuka,Rakiraki,Tavua,Vatukoula,Nabouwalu,Korovou,Navua,Pacific Harbour,Seaqaqa,Vaileka,Matei,Naqara,Dreketi,Namaka,Deuba,Kadavu,Somosomo,Waiyevo,Taveuni,Vatuloa,Yanuca,Kinoya,Samabula,Nakasi,Nasilai,Nakorovatu,Vunimono,Lomanikoro,Tacirua,Nasinu,Delaivalelevu,Tailevu,Lodoni,Nayaulevu,Vanuadina,Bau,Viwa,Nukulau,Moturiki,Nairai,Koro,Gau,Vanua Balavu,Cicia,Lakeba,Moala,Matuku,Totoya,Kabara,Fulaga,Ogea,Rotuma,Malolo,Vomo,Tokoriki,Matamanoa,Beqa,Yasawa,Nacula,Nanuya,Naukacuvu,Denarau,Wailoaloa,Nadi Airport,Vuda,Sabeto,Vatuviwa,Natadola,Malomalo,Semata,Lomolomo,Bukuya,Veisari,Valenicina,Kabisi,Magodro,Volivoli,Vutia,Makolei",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Hawaiian",
-    "i": 20211,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Honolulu,Hilo,Kailua,Kaneohe,Waipahu,Pearl City,Waimalu,Mililani,Kahului,Kihei,Lihue,Kailua-Kona,Lahaina,Waimea,Honokaa,Paauilo,Laupahoehoe,Pahala,Naalehu,Captain Cook,Holualoa,Kapaau,Hawi,Honalo,Kealakekua,Keauhou,Napoopoo,Honaunau,Milolii,Ocean View,Volcano,Mountain View,Pahoa,Kurtistown,Keaau,Pepeekeo,Papaikou,Ookala,Hakalau,Ninole,Kaumakani,Eleele,Hanalei,Hanapepe,Kapaa,Anahola,Kilauea,Princeville,Koloa,Lawai,Kalaheo,Kekaha,Kaunakakai,Lanai City,Paia,Hana,Haiku,Makawao,Kula,Wailea,Maalaea,Kapalua,Napili,Kaanapali,Wailuku,Pukalani,Laie,Hauula,Kaawa,Kahuku,Waialua,Haleiwa,Waianae,Makaha,Nanakuli,Ewa,Kapolei,Aiea,Wahiawa,Schofield,Hickam,Maili,Makakilo,Mililani Mauka,East Honolulu,Ahuimanu,He,eia,Waimanalo,Maunawili,Kaaawa,Punaluu,Honomu,Paauhau,Kukuihaele,Puako,Waikoloa,Waiohinu,Discovery Harbour,Halaula,Olinda,Keokea,Haliimaile,Kahaluu,Kahaluu-Keauhou,Kalapana",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Kiribati",
-    "i": 20220,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "South Tarawa,Betio,Bikenibeu,Teaoraereke,Banraeaba,Ambo,Eita,Temwaiku,Bontaina,Banana,Buota,Bonriki,Temaiku,Nawerewere,London,Bairiki,Nanikai,Abarao,Antebuka,Taborio,Tangintebu,Tanaea,Butaritari,Kuuma,Keuea,Tanimainiku,Tanimaiaki,Tabonuea,Antekana,Taubukinmeang,Temanokunuea,Onomaru,Ukiangang,Bikaati,Makin,Marakei,Rawannawi,Abaiang,Tuarabu,Kauamwemwe,Morikao,Tabwiroa,Aonobuaka,Bololu,Tabontebike,Maiana,Tebwangetua,Abemama,Kariatebike,Tabiang,Baretoa,Kuria,Aranuka,Nonouti,Teuabu,Tabiteuea,Buariki,Beru,Taubukinberu,Nikunau,Rungata,Onotoa,Tamana,Arorae,Roreti,Teraina,Tabuaeran",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Yapese",
-    "i": 20221,
     "min": 4,
     "max": 11,
     "d": "",

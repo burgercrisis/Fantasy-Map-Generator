@@ -38,7 +38,8 @@ const {
   loadAll,
   seedCount,
   buildSeedFrequency,
-  contaminationFor
+  contaminationFor,
+  findPastedBlocks
 } = require("./namebase-lib");
 
 const write = process.argv.includes("--write");
@@ -73,13 +74,66 @@ const contaminated = all
   .filter(x => x.c.shared.length >= 10)
   .sort((a, b) => b.c.shared.length - a.c.shared.length);
 
+const pasted = findPastedBlocks(all, {run: 8, minEntries: 20});
+
+// Languages the mixer map offers but which have no namebase under that name.
+// These are the largest remaining research backlog: a real language the user can
+// ask for, which currently resolves to an unrelated seed list.
+function mapBacklog() {
+  try {
+    const mapPath = path.join(root, "config", "language-mixer-map.js");
+    const raw = fs.readFileSync(mapPath, "utf8");
+    const map = JSON.parse(raw.slice(raw.indexOf("["), raw.lastIndexOf("]") + 1));
+    const catPath = path.join(root, "config", "language-mixes-all.js");
+    const craw = fs.readFileSync(catPath, "utf8");
+    const catalog = JSON.parse(craw.slice(craw.indexOf("["), craw.lastIndexOf("]") + 1));
+    const isoName = new Map();
+    for (const r of catalog) if (r && r.iso && r.name) isoName.set(r.iso, String(r.name));
+
+    const norm = s =>
+      String(s || "").normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase().replace(/[^a-z0-9]+/g, "");
+    const known = new Set();
+    for (const e of all) known.add(norm(e.name));
+    for (const k of aliasKeys(all)) known.add(k);
+
+    const out = [];
+    for (const row of map) {
+      const nm = isoName.get(row.iso);
+      if (!nm) continue;
+      const want = norm(nm);
+      if (want && !known.has(want)) out.push({iso: row.iso, name: nm, index: row.bases[0]});
+    }
+    return out.sort((a, b) => a.name.localeCompare(b.name));
+  } catch {
+    return [];
+  }
+}
+
+function aliasKeys(entries) {
+  const out = new Set();
+  for (const e of entries) {
+    for (const paren of String(e.name || "").match(/\(([^)]+)\)/g) || []) {
+      for (const part of paren.replace(/[()]/g, "").split(/[,;/]/)) {
+        const k = part.trim()
+          .normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase().replace(/[^a-z0-9]+/g, "");
+        if (k.length >= 4) out.add(k);
+      }
+    }
+  }
+  return out;
+}
+
+const noNamebase = mapBacklog();
+
 const totals = {
   entries: all.length,
   complete: all.filter(e => e.status === "COMPLETE").length,
   waiting: all.filter(e => e.status === "WAITING").length,
   belowFloor: below.length,
   zero: all.filter(e => seedCount(e) === 0).length,
-  contaminated: contaminated.length
+  contaminated: contaminated.length,
+  pasted: pasted.size,
+  noNamebase: noNamebase.length
 };
 
 if (asJson) {
@@ -126,6 +180,8 @@ L.push(`| Marked WAITING (< ${SEED_FLOOR} seeds) | ${totals.waiting} |`);
 L.push(`| Below seed floor | ${totals.belowFloor} |`);
 L.push(`| Zero seeds | ${totals.zero} |`);
 L.push(`| Heavily contaminated (>=10 shared seeds) | ${totals.contaminated} |`);
+L.push(`| Pasted 8-seed blocks (W004, actionable) | ${totals.pasted} |`);
+L.push(`| Map ISOs with no namebase (research backlog) | ${totals.noNamebase} |`);
 L.push("");
 L.push("## By continent");
 L.push("");
@@ -155,19 +211,47 @@ if (below.length > 300) {
   L.push("```");
 }
 L.push("");
-L.push("## Heavily contaminated entries");
+L.push("## Pasted seed blocks — work from this list, not the shared-seed count");
 L.push("");
-L.push(`${contaminated.length} entries share 10+ seeds with 20+ other entries, which`);
-L.push("normally means a block of names was copy-pasted between unrelated languages");
-L.push("rather than researched. These need re-research, not padding.");
+L.push(`**${totals.pasted} entries** contain a run of 8 identical seeds, in the same order,`);
+L.push("shared with 20+ other entries. That is the copy-paste signature and it is");
+L.push("never legitimate. These entries need their own toponyms researched.");
 L.push("");
-L.push("| Shared seeds | Entry | Examples |");
-L.push("|---:|---|---|");
-for (const x of contaminated.slice(0, 120)) {
-  L.push(`| ${x.c.shared.length} | ${x.e.name} (i=${x.e.i}) | ${x.c.shared.slice(0, 5).join(", ")} |`);
+L.push("Do **not** use the raw shared-seed count as a work list. Related languages");
+L.push("genuinely share place names — Moldovan and Romanian, Occitan and its");
+L.push("dialects, the Caribbean creoles — as do diaspora languages that took their");
+L.push("settlers' names. Deleting those would destroy correct data. The block");
+L.push("detector is contiguity-and-order based precisely so it does not do that.");
+L.push("");
+L.push("| Language | Continent | Index | Partners | Block |");
+L.push("|---|---|---:|---:|---|");
+for (const [e, info] of [...pasted.entries()]
+  .sort((a, b) => b[1].partners - a[1].partners)
+  .slice(0, 60)) {
+  L.push(`| ${e.name} | ${e.__continent} | ${e.i} | ${info.partners} | ${info.block.slice(0, 3).join(", ")}, ... |`);
 }
-if (contaminated.length > 120) L.push("");
-if (contaminated.length > 120) L.push(`_Showing the worst 120 of ${contaminated.length}._`);
+if (pasted.size > 60) {
+  L.push("");
+  L.push(`_Showing ${Math.min(60, pasted.size)} of ${pasted.size}. Full list: ` +
+    "`node tools/namebase-tools/verify-namebase-integrity.js` (W004)_");
+}
+L.push("");
+L.push("## Map ISOs with no namebase");
+L.push("");
+L.push(`${totals.noNamebase} languages the mixer map offers have no namebase entry`);
+L.push("under that name, so they currently resolve to an unrelated seed list. Real");
+L.push("languages — Agaw, Baka, Bamukumbit, Dibiyaso, Guriaso. Each needs a namebase");
+L.push("created from research. Nothing here is guessed at.");
+L.push("");
+L.push("| ISO | Language name | Currently resolves to index |");
+L.push("|---|---|---:|");
+for (const r of noNamebase.slice(0, 150)) {
+  L.push(`| ${r.iso} | ${r.name} | ${r.index} |`);
+}
+if (noNamebase.length > 150) {
+  L.push("");
+  L.push(`_Showing 150 of ${noNamebase.length}._`);
+}
 L.push("");
 L.push("## How to work on this");
 L.push("");

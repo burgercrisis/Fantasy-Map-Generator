@@ -301,6 +301,78 @@ function labelOf(entry) {
   return `${entry.name} (i=${entry.i})`;
 }
 
+/**
+ * Find blocks of consecutive seeds that were copy-pasted between entries.
+ *
+ * The plain "how many seeds does this entry share with other entries" metric
+ * over-reports badly. Related languages genuinely share toponyms - Moldovan and
+ * Romanian, Occitan and its dialects, the Caribbean creoles - and so do the
+ * diaspora languages that took their settlers' European names. Flagging those
+ * would push an agent to delete real, correct data.
+ *
+ * What is not legitimate is a run of identical seeds, in the same order,
+ * appearing in 20+ unrelated entries. That is the signature of a block being
+ * pasted around, and it is what produced the West African city list turning up
+ * in Javanese, Petjo, Kaera and Ngamber. Requiring contiguity AND order makes
+ * this precise where the frequency metric is not.
+ *
+ * @param {object[]} entries
+ * @param {{run?: number, minEntries?: number}} [opts]
+ * @returns {Map<object, {block: string[], partners: number}>}
+ */
+function findPastedBlocks(entries, opts) {
+  const run = (opts && opts.run) || 8;
+  const minEntries = (opts && opts.minEntries) || 20;
+
+  const bySeed = new Map();
+  for (const e of entries) {
+    for (const s of new Set(seedsOf(e))) {
+      if (!bySeed.has(s)) bySeed.set(s, []);
+      bySeed.get(s).push(e);
+    }
+  }
+
+  const windows = new Map();
+  for (const e of entries) {
+    const seeds = seedsOf(e);
+    for (let i = 0; i + run <= seeds.length; i++) {
+      const win = seeds.slice(i, i + run);
+      // Anchor on the rarest seed in the window: the commonest is useless
+      // because by definition it appears everywhere.
+      let anchor = win[0];
+      let best = Infinity;
+      for (const s of win) {
+        const c = (bySeed.get(s) || []).length;
+        if (c < best) { best = c; anchor = s; }
+      }
+      const anchorList = bySeed.get(anchor) || [];
+      if (anchorList.length > minEntries) continue;
+      for (const partner of anchorList) {
+        if (partner === e) continue;
+        const pSeeds = new Set(seedsOf(partner));
+        if (!win.every(s => pSeeds.has(s))) continue;
+        const key = win.join("|");
+        if (!windows.has(key)) windows.set(key, {block: win, holders: new Set()});
+        const w = windows.get(key);
+        w.holders.add(e);
+        w.holders.add(partner);
+      }
+    }
+  }
+
+  const out = new Map();
+  for (const w of windows.values()) {
+    if (w.holders.size < minEntries) continue;
+    for (const e of w.holders) {
+      const prev = out.get(e);
+      if (!prev || w.block.length > prev.block.length) {
+        out.set(e, {block: w.block, partners: w.holders.size});
+      }
+    }
+  }
+  return out;
+}
+
 module.exports = {
   root,
   CONTINENTS,
@@ -318,5 +390,6 @@ module.exports = {
   findDuplicateSeeds,
   buildSeedFrequency,
   contaminationFor,
+  findPastedBlocks,
   labelOf
 };

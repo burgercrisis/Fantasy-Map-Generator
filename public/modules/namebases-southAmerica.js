@@ -1610,36 +1610,6 @@ window.southAmericaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Aymara",
-    "i": 20222,
-    "min": 4,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "ElAlto,LaPaz,Viacha,Achacachi,Warisata,Huarina,Desaguadero,Tiwanaku,Laja,SicaSica,Patacamaya,Calamarca,Colquencha,Collana,Batallas,Pucarani,Huatajata,Tiquina,Copacabana,Yunguyo,Juli,Ilave,Puno,Acora,Guaqui,Ventilla,Oruro,Sucre,Potosi,Cochabamba,Quillacollo,Vinto,Colcapirhua,Sacaba,Colomi,Tarata,Anzaldo,Pocona,Totora,Tiraque,Morochata,Aiquile,Mizque,Ayarachi,Challapata,Colquechaca,Ravelo,Llallagua,Huanuni,Poopo,Machacamarca,TodosSantos,Avaroa,Sabaya,Coipasa,Huachacalla,Toledo,PapelPampa,CurahuaraDeCarangas,SantiagoDeMachaca,Charana,Caquiaviri,Nazacara,SanPedroDeTotora,Copapujo,Escoma,ChuaCocani,Ocururi,SantiagoDeHuari,SanPedroDeAtacama,Calama,Antofagasta,Iquique,Arica,Tacna,Locumba,Ilabaya,Candarave,Humajalso,Huara,Camarones,Putre,Parinacota,Visviri,GeneralLagos",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Guarani",
-    "i": 20223,
-    "min": 4,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Asuncion,Encarnacion,CiudadDelEste,Caaguazu,SanLorenzo,Lambare,Capiata,Itaugua,Luque,Aregua,Ypacarai,SanBernardino,Ita,Paraguari,Villarrica,Concepcion,SanPedro,Caazapa,Pilar,Yuty,SanIgnacio,SantaRosa,Santiago,CoronelBogado,Hohenau,Obligado,BellaVista,Ayolas,CarmenDelParana,CoronelOviedo,Caacupe,Piribebuy,Yaguaron,Quiindy,SanJuanBautista,VillaHayes,PedroJuanCaballero,SaltoDelGuaira,Hernandarias,Nemby,Limpio,MarianoRoqueAlonso,FernandoDeLaMora,Itacurubi,Borja,Tobati,Altos,SanCosmeYDamian,ArroyosYEsteros,Sapucai,Ibicuy,Misiones,PasoDeLaPatria,Humahuaca,Jujuy,Salta,Formosa,Clorinda,Resistencia,Corrientes,Posadas,GobernadorVirgilio,Apostoles,SanJose,Obera,SanVicente,SantoTome,Goya,Mercedes,CuruzuCuatia,Sauce,Esquina,MonteCaseros,PasoDeLosLibres,Artigas,Rivera,Tacuarembo,Durazno,Salto,Concordia,BellaUnion,Chuy,Rocha,Trinidad,Florida",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Mapudungun",
-    "i": 20224,
-    "min": 4,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Temuco,Pucon,Villarrica,Valdivia,Osorno,Angol,Collipulli,Ercilla,Traiguen,Victoria,Lautaro,NuevaImperial,Carahue,Gorbea,Loncoche,Pitrufquen,Freire,Cunco,Melipeuco,Curarrehue,Renaico,Mulchen,Nacimiento,Contulmo,Lumaco,Cholchol,Saavedra,Tolten,TeodoroSchmidt,BudI,AraucaniaRegion,PadreLasCasas,Galvarino,Curacautin,Lonquimay,LicanRay,Conaripe,Quillon,Bulnes,Chillan,SanCarlos,Parral,Retiro,Longavi,Linares,Colbun,YerbasBuenas,Constitucion,Chanco,Pelluhue,Curanipe,Cobquecura,Quirihue,Ninhue,SanNicolas,Ranquil,Portezuelo,ChillanViejo,Pinto,Pemuco,ElCarmen,SanFabian,SanIgnacio,Quilleco,Quilaco,SantaBarbara,Negrete,LosAngeles,Yumbel,Tucapel,Cabrero,Florida,Laja,Concepcion,Penco,Tome,Talcahuano,Hualpen,Chiguayante,SanPedroDeLaPaz,Hualqui,Canete,Lebu,Arauco,Curanilahue,LosAlamos,SanMartinDeLosAndes,JuninDeLosAndes,SanCarlosDeBariloche,VillaLaAngostura,VillaPehuenia,Alumine,Leleque,Esquel,Cholila,Trevelin,Gualjaina,Comallo,NahuelHuapi,Maullin,Calbuco,Ancud,Castro,Quellon,Chonchi,PuertoVaras,Llanquihue,Fresia",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Tzeltal",
     "i": 20227,
     "min": 4,
@@ -1660,16 +1630,6 @@ window.southAmericaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Zapotec",
-    "i": 20229,
-    "min": 4,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Oaxaca,OaxacaDeJuarez,SanPedroMixtepec,SanPedroPochutla,SanPedroTututepec,SanPedroElAlto,SanPedroTotolapam,SantoDomingoTeojomulco,SanIldefonsoSola,SanIldefonsoAmatlan,SantiagoIxtayutla,SantosReyesNopala,SanSebastianTutla,SanFelipeDelAgua,SanJacintoAmilpas,SantaMariaAtzompa,SanAndresHuayapam,SanPabloEtla,SanSebastianEtla,SantoDomingoTomaltepec,Mitla,Tlacolula,Ejutla,Miahuatlan,Amatlan,BenitoJuarez,Cuajimoloyas,LaNeveria,Lachatao,Latuvi,LlanoGrande,Yavesia,IxtlanDeJuarez,CapulalpamDeMendez,GuelataoDeJuarez,Natividad,SanJuanChicomezuchil,SantiagoXiacui,SanJuanYaee,SanJuanYatzona,SanMiguelYotao,SanPedroYaneri,SanIldefonsoVillaAlta,SantaCatarinaIxtepeji,MonteAlban,Zaachila,Ocotlan,Etla,SanJoseMogote,Zimatlan,Abasolo,Juchitan,Tehuantepec,JalapaDelMarques,Mixtequilla,Xadani,Chihuitan,Laollaga,Yatee,Zoogocho,Yalalag,Tabaa,Cajonos,Choapam,Abejones,Ozolotepec,SantoDomingoOzolotepec,SanCristobalAmatlan",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Mixtec",
     "i": 20230,
     "min": 4,
@@ -1687,16 +1647,6 @@ window.southAmericaNameBases = [
     "d": "",
     "m": 0,
     "b": "Ixmiquilpan,Tasquillo,Cardonal,SantiagoDeAnaya,Actopan,Ajacuba,AtotonilcoElGrande,MineralDelChico,MineralDelMonte,OmitlanDeJuarez,HuascaDeOcampo,Tulancingo,Acaxochitlan,Metepec,TenangoDeDoria,SanJuanBautistaIxtenco,SantiagoTlazoyaltepec,SanJeronimoAcazulco,SanPedroAtlapulco,SantiagoTilapa,Temascalcingo,Temoaya,SanFelipeSantiago,SanIldefonsoTultepec,SantiagoMexquititlan,Amealco,Toliman,SanNicolasTenango,Texcatepec,Toluca,SanFelipeLosAlzati,SanPablitoPahuatlan,SantaAnaHueytlalpan,Tecozautla,ChapaDeMota,Jilotepec,Acambay,Mezquital,Tula,Mixquiahuala,Progreso,Tepeji,Apaxco,Huehuetoca,Zumpango,Teoloyucan,Coyotepec,MelchorOcampo,Tultepec,Cuautitlan,Tultitlan,SanMartinDeLasPiramides,Teotihuacan,Otumba,Axapusco,Nopaltepec,EmilianoZapata,Juchitepec,Amecameca,Ayapango,Chalco,TenangoDelAire,Ozumba,Atlatlahucan,Tepoztlan",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Maya Yucatec",
-    "i": 20232,
-    "min": 4,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Merida,Valladolid,Tizimin,Izamal,Motul,Progreso,Maxcanu,Halacho,Acanceh,Ticul,Oxkutzcab,Teabo,Tekax,Akil,Peto,Tzucacab,Chankom,Chemax,Temozon,Calotmul,Yaxcaba,Espita,Cenotillo,Dzitas,Sotuta,Hoctun,Xocchel,Sudzal,Chichimila,Uayma,Timucuy,Hocaba,Seyche,Tekit,ChichenItza,Piste,Tinum,Cuzama,Homun,Telchac,Sisal,Celestun,Tulum,Coba,Chemuyil,Akumal,PuertoAventuras,PlayaDelCarmen,PuertoMorelos,Cancun,FelipeCarrilloPuerto,Bacalar,Cozumel,Kohunlich,Dzibanche,Chetumal,BelizeCity,Belmopan,SanIgnacio,SanPedro,CayeCaulker,OrangeWalk,Corozal,Dangriga,PuntaGorda,Placencia,Flores,SanBenito,SanAndres,SanJose,Poptun,Sayaxche,MelchorDeMencos,BenqueViejo",
     "status": "COMPLETE"
   },
   {

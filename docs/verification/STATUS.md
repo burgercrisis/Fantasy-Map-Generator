@@ -11,28 +11,30 @@ Generated: 2026-09-29  |  Seed floor: 25
 
 | Metric | Count |
 |---|---:|
-| Language entries | 4586 |
-| Marked COMPLETE (>= 25 seeds) | 3592 |
-| Marked WAITING (< 25 seeds) | 994 |
-| Below seed floor | 994 |
+| Language entries | 3874 |
+| Marked COMPLETE (>= 25 seeds) | 2956 |
+| Marked WAITING (< 25 seeds) | 918 |
+| Below seed floor | 918 |
 | Zero seeds | 7 |
-| Heavily contaminated (>=10 shared seeds) | 970 |
+| Heavily contaminated (>=10 shared seeds) | 822 |
+| Pasted 8-seed blocks (W004, actionable) | 20 |
+| Map ISOs with no namebase (research backlog) | 859 |
 
 ## By continent
 
 | Continent | Entries | Below floor | Zero seed | Median seeds |
 |---|---:|---:|---:|---:|
-| africa | 1034 | 180 | 1 | 41 |
-| asia | 1952 | 599 | 1 | 40 |
-| europe | 977 | 69 | 0 | 47 |
-| northAmerica | 243 | 74 | 2 | 29 |
-| southAmerica | 171 | 10 | 0 | 36 |
-| oceania | 208 | 62 | 3 | 29 |
+| africa | 953 | 179 | 1 | 39 |
+| asia | 1396 | 538 | 1 | 30 |
+| europe | 933 | 63 | 0 | 45 |
+| northAmerica | 230 | 70 | 2 | 29 |
+| southAmerica | 166 | 10 | 0 | 36 |
+| oceania | 195 | 58 | 3 | 29 |
 | fantasy | 1 | 0 | 0 | 342 |
 
 ## Work queue: entries below the seed floor
 
-994 entries need authentic settlement names. Ordered by seed count,
+918 entries need authentic settlement names. Ordered by seed count,
 so the emptiest entries come first. One at a time, research then edit.
 
 | Seeds | Continent | Index | Language |
@@ -44,7 +46,6 @@ so the emptiest entries come first. One at a time, research then edit.
 | 0 | oceania | 187 | Ari (Papuan) |
 | 0 | oceania | 202311 | South Oran and Figuig Berber |
 | 0 | oceania | 202339 | Becking–Dawi |
-| 2 | asia | 1365 | Bouhin |
 | 2 | asia | 2147 | Gong |
 | 2 | asia | 200321 | Kayong |
 | 2 | asia | 2619 | Uyghur |
@@ -90,7 +91,6 @@ so the emptiest entries come first. One at a time, research then edit.
 | 3 | asia | 200349 | Mak Kam Sui |
 | 3 | asia | 200352 | Malapandaram |
 | 3 | asia | 200400 | Nong Zhuang |
-| 3 | asia | 200982 | Qoqmoncaq |
 | 3 | asia | 203265 | Kulon |
 | 3 | asia | 202418 | Ontenu |
 | 3 | asia | 203092 | Riantana |
@@ -127,7 +127,6 @@ so the emptiest entries come first. One at a time, research then edit.
 | 4 | asia | 200494 | Somray |
 | 4 | asia | 200718 | Yangchun Pai Yao |
 | 4 | asia | 200720 | Yeheni |
-| 4 | asia | 310 | Baghdadi Arabic |
 | 4 | asia | 203081 | Mombum |
 | 4 | asia | 203086 | Onjob |
 | 4 | asia | 203088 | Pisa |
@@ -164,7 +163,6 @@ so the emptiest entries come first. One at a time, research then edit.
 | 5 | asia | 1155 | Ili Turki |
 | 5 | asia | 1156 | Fuyu Kyrgyz |
 | 5 | asia | 1254 | Lashi |
-| 5 | asia | 1256 | Bijiang Bai lect |
 | 5 | asia | 203195 | Bijiang Bai language |
 | 5 | asia | 1384 | Bateri |
 | 5 | asia | 1496 | Tilung |
@@ -184,9 +182,6 @@ so the emptiest entries come first. One at a time, research then edit.
 | 5 | asia | 200350 | Mala Malasar |
 | 5 | asia | 200361 | Maonan |
 | 5 | asia | 200492 | Sikkimese |
-| 5 | asia | 203190 | Lauhut |
-| 5 | asia | 200320 | Katua |
-| 5 | asia | 200940 | Duvle-Wano Pidgin |
 | 5 | asia | 201113 | Nedebang |
 | 5 | asia | 203078 | Maga-Tona Rukai |
 | 5 | asia | 203085 | Nomane |
@@ -224,8 +219,6 @@ so the emptiest entries come first. One at a time, research then edit.
 | 6 | africa | 200101 | Miya |
 | 6 | asia | 1021 | Baoting Hlai |
 | 6 | asia | 1268 | Muya |
-| 6 | asia | 1354 | Bonan-Kangjia |
-| 6 | asia | 1355 | Bonan Manegacha |
 | 6 | asia | 1654 | Damu |
 | 6 | asia | 1706 | Dameli |
 | 6 | asia | 1882 | Hezhang Buyi |
@@ -242,8 +235,6 @@ so the emptiest entries come first. One at a time, research then edit.
 | 6 | asia | 200491 | Sholaga |
 | 6 | asia | 200686 | Ná-Meo |
 | 6 | asia | 200717 | Xong |
-| 6 | asia | 200934 | Bolze |
-| 6 | asia | 200946 | Javindo |
 | 6 | asia | 203079 | Mantauran Rukai |
 | 6 | asia | 203093 | Rotokas |
 | 6 | asia | 203096 | Sabakor |
@@ -274,7 +265,6 @@ so the emptiest entries come first. One at a time, research then edit.
 | 7 | africa | 1857 | Fyer  |
 | 7 | asia | 133 | Kenaboi |
 | 7 | asia | 1025 | Baekje Korean |
-| 7 | asia | 1252 | Chashan |
 | 7 | asia | 1377 | Baram |
 | 7 | asia | 1257 | Ciqam |
 | 7 | asia | 1561 | Dhuleli |
@@ -289,8 +279,6 @@ so the emptiest entries come first. One at a time, research then edit.
 | 7 | asia | 200341 | Lower Uda Buryat |
 | 7 | asia | 200360 | Mankiyali |
 | 7 | asia | 2443 | Bai |
-| 7 | asia | 203179 | Altai Uriankhai |
-| 7 | asia | 200951 | Macanese Patois |
 | 7 | asia | 203080 | Marind |
 | 7 | asia | 203083 | Namiae |
 | 7 | asia | 202442 | Saisiyat |
@@ -307,7 +295,6 @@ so the emptiest entries come first. One at a time, research then edit.
 | 7 | northAmerica | 1198 | Tlicho |
 | 7 | northAmerica | 1630 | Chicomuceltec |
 | 7 | northAmerica | 8055 | Chontal Maya |
-| 7 | oceania | 202351 | Lowland Iwur |
 | 7 | southAmerica | 5819 | Mika Huitoto |
 | 8 | africa | 200068 | Majera |
 | 8 | africa | 200073 | Mantsi language (Nigeria) |
@@ -316,7 +303,6 @@ so the emptiest entries come first. One at a time, research then edit.
 | 8 | africa | 200186 | Tambas |
 | 8 | africa | 200192 | Tetserret Tuareg Berber |
 | 8 | africa | 200206 | Vame |
-| 8 | africa | 200987 | Settler Swahili |
 | 8 | africa | 200979 | Pidgin Wolof |
 | 8 | asia | 1139 | Bathari |
 | 8 | asia | 1157 | Salar |
@@ -337,143 +323,225 @@ so the emptiest entries come first. One at a time, research then edit.
 | 8 | asia | 200330 | Kisan (Kurukh dialect) |
 | 8 | asia | 200333 | Lakkia Kam Sui |
 | 8 | asia | 200517 | Tai Khang |
+| 8 | asia | 202404 | Cheke Holo |
+| 8 | asia | 203097 | Safeyoka |
+| 8 | asia | 202484 | Ts'ole' Atayal |
+| 8 | asia | 203114 | Wolani |
+| 8 | asia | 202352 | Madurese macro entry |
+| 8 | asia | 202355 | Makasae |
+| 8 | europe | 200988 | Simplified Italian of Libya |
+| 8 | oceania | 1949 | Menya |
+| 8 | southAmerica | 200977 | Pidgin Ngarluma |
+| 8 | southAmerica | 200978 | Pidgin Onin |
+| 8 | southAmerica | 7947 | Kawésqar |
+| 9 | africa | 21111 | Mundu |
+| 9 | africa | 200030 | Huba |
+| 9 | africa | 200082 | Masmaje |
+| 9 | africa | 200103 | Mogum |
+| 9 | africa | 200193 | Tikar |
 
-_Showing the lowest 300 of 994. Full queue:_
+_Showing the lowest 300 of 918. Full queue:_
 
 ```
 node tools/namebase-tools/verify-namebase-integrity.js --json
 ```
 
-## Heavily contaminated entries
+## Pasted seed blocks — work from this list, not the shared-seed count
 
-970 entries share 10+ seeds with 20+ other entries, which
-normally means a block of names was copy-pasted between unrelated languages
-rather than researched. These need re-research, not padding.
+**20 entries** contain a run of 8 identical seeds, in the same order,
+shared with 20+ other entries. That is the copy-paste signature and it is
+never legitimate. These entries need their own toponyms researched.
 
-| Shared seeds | Entry | Examples |
-|---:|---|---|
-| 99 | Likrisovskoe (i=200745) | Khanty-Mansiysk, Surgut, Nizhnevartovsk, Nefteyugansk, Langepas |
-| 77 | Pechora (i=200778) | Syktyvkar, Vorkuta, Usinsk, Pechora, Inta |
-| 76 | Jukonda (i=200735) | Khanty-Mansiysk, Surgut, Nizhnevartovsk, Nefteyugansk, Langepas |
-| 76 | Kosa-Kama (i=200742) | Syktyvkar, Vorkuta, Usinsk, Pechora, Inta |
-| 76 | Lower Konda (i=200748) | Khanty-Mansiysk, Surgut, Nizhnevartovsk, Nefteyugansk, Langepas |
-| 76 | Lower Lozva (i=200749) | Khanty-Mansiysk, Surgut, Nizhnevartovsk, Nefteyugansk, Langepas |
-| 76 | Luza-Letka (i=200754) | Syktyvkar, Vorkuta, Usinsk, Pechora, Inta |
-| 76 | North Vagilsk (i=200764) | Khanty-Mansiysk, Surgut, Nizhnevartovsk, Nefteyugansk, Langepas |
-| 76 | Pelym (i=200779) | Khanty-Mansiysk, Surgut, Nizhnevartovsk, Nefteyugansk, Langepas |
-| 76 | Sygva (i=200809) | Khanty-Mansiysk, Surgut, Nizhnevartovsk, Nefteyugansk, Langepas |
-| 76 | Tagil (i=200811) | Khanty-Mansiysk, Surgut, Nizhnevartovsk, Nefteyugansk, Langepas |
-| 76 | Upper Konda (i=200825) | Khanty-Mansiysk, Surgut, Nizhnevartovsk, Nefteyugansk, Langepas |
-| 76 | Upper Lozva (i=200826) | Khanty-Mansiysk, Surgut, Nizhnevartovsk, Nefteyugansk, Langepas |
-| 71 | Sherkal (i=2322) | Khanty-Mansiysk, Surgut, Nizhnevartovsk, Nefteyugansk, Langepas |
-| 71 | Sosva (i=2380) | Khanty-Mansiysk, Surgut, Nizhnevartovsk, Nefteyugansk, Langepas |
-| 71 | Jugan (i=200734) | Khanty-Mansiysk, Surgut, Nizhnevartovsk, Nefteyugansk, Langepas |
-| 71 | Kazym (i=200738) | Khanty-Mansiysk, Surgut, Nizhnevartovsk, Nefteyugansk, Langepas |
-| 71 | Lower Demjanka (i=200747) | Khanty-Mansiysk, Surgut, Nizhnevartovsk, Nefteyugansk, Langepas |
-| 71 | Pim (i=200780) | Khanty-Mansiysk, Surgut, Nizhnevartovsk, Nefteyugansk, Langepas |
-| 71 | Tavda (i=200813) | Khanty-Mansiysk, Surgut, Nizhnevartovsk, Nefteyugansk, Langepas |
-| 71 | Vakh (i=200831) | Khanty-Mansiysk, Surgut, Nizhnevartovsk, Nefteyugansk, Langepas |
-| 71 | Vartovskoe (i=200833) | Khanty-Mansiysk, Surgut, Nizhnevartovsk, Nefteyugansk, Langepas |
-| 71 | Vasjugan (i=200834) | Khanty-Mansiysk, Surgut, Nizhnevartovsk, Nefteyugansk, Langepas |
-| 71 | Verkhne-Kalimsk (i=200835) | Khanty-Mansiysk, Surgut, Nizhnevartovsk, Nefteyugansk, Langepas |
-| 71 | Vishera (i=200836) | Khanty-Mansiysk, Surgut, Nizhnevartovsk, Nefteyugansk, Langepas |
-| 70 | Tornio (i=1086) | Tornio, Haparanda, Kemi, Oulu, Rovaniemi |
-| 68 | Kemi (i=2136) | Kemi, Tornio, Muonio, Kittilä, Sodankylä |
-| 68 | Orodezhi (i=200776) | Khanty-Mansiysk, Surgut, Nizhnevartovsk, Nefteyugansk, Langepas |
-| 67 | Malij Jugan (i=2326) | Khanty-Mansiysk, Surgut, Nizhnevartovsk, Nefteyugansk, Langepas |
-| 66 | Tremjugan (i=2327) | Khanty-Mansiysk, Surgut, Nizhnevartovsk, Nefteyugansk, Langepas |
-| 65 | Kemijärvi (i=2137) | Rovaniemi, Tornio, Kemi, Oulu, Kittilä |
-| 63 | Karasuk (i=2021) | Minusinsk, Abakan, Krasnoyarsk, Helsinki, Espoo |
-| 62 | Lower Luga (i=200750) | Vologda, Pudozh, Helsinki, Espoo, Vantaa |
-| 62 | Värmland Savonian (i=200832) | Kudymkar, Kosa, Helsinki, Espoo, Vantaa |
-| 61 | Uralo-Siberian (i=200830) | Salekhard, Labytnangi, Muravlenko, Nadym, Noyabrsk |
-| 60 | Savonlinna (i=910) | Savonlinna, Mikkeli, Varkaus, Pieksämäki, Jyväskylä |
-| 60 | Hollola (i=926) | Lahti, Heinola, Sysmä, Imatra, Lappeenranta |
-| 60 | Heart Tavastian (i=927) | Hämeenlinna, Tampere, Lahti, Heinola, Sysmä |
-| 60 | Savonian (i=928) | Helsinki, Turku, Tampere, Oulu, Jyväskylä |
-| 60 | Tavastian (i=1085) | Helsinki, Turku, Tampere, Oulu, Jyväskylä |
-| 60 | Hevaha (i=1087) | Helsinki, Turku, Tampere, Oulu, Jyväskylä |
-| 60 | Fingelska (i=1092) | Helsinki, Turku, Tampere, Oulu, Jyväskylä |
-| 60 | Eastern Savonian (i=1749) | Helsinki, Turku, Tampere, Oulu, Jyväskylä |
-| 60 | Iitti (i=1915) | Helsinki, Turku, Tampere, Oulu, Jyväskylä |
-| 60 | Keuruu-Evijärvi (i=2139) | Jyväskylä, Kuopio, Lahti, Pori, Joensuu |
-| 60 | Lemi region (i=2416) | Lappeenranta, Joutseno, Imatra, Salo, Savonlinna |
-| 60 | Kainuu (i=200736) | Helsinki, Espoo, Vantaa, Kauniainen, Tampere |
-| 60 | Northern Savonian (i=200769) | Helsinki, Turku, Tampere, Oulu, Jyväskylä |
-| 60 | Päijänne Tavastia (i=200777) | Helsinki, Espoo, Vantaa, Kauniainen, Tampere |
-| 60 | Porvoo (i=200782) | Porvoo, Lohja, Hyvinkää, Nurmijärvi, Tuusula |
-| 60 | Southeastern Tavastian (i=200801) | Hämeenlinna, Lahti, Kouvola, Padasjoki, Sysmä |
-| 60 | Southern Savonian (i=200805) | Helsinki, Turku, Tampere, Oulu, Jyväskylä |
-| 60 | Turku highlands (i=200821) | Helsinki, Espoo, Vantaa, Kauniainen, Tampere |
-| 60 | Western Uusimaa (i=200840) | Helsinki, Espoo, Vantaa, Kauniainen, Tampere |
-| 60 | Ylä-Satakunta (i=200845) | Helsinki, Espoo, Vantaa, Kauniainen, Tampere |
-| 57 | Enets (i=1766) | Anadyr, Salekhard, Labytnangi, Muravlenko, Nadym |
-| 56 | Chusovaya (i=1611) | Salekhard, Labytnangi, Muravlenko, Nadym, Noyabrsk |
-| 56 | Upper Demjanka (i=2324) | Langepas, Megion, Nizhnevartovsk, Surgut, Nefteyugansk |
-| 54 | Thmon (i=202694) | Parakou, Lafia, Rijau, Kumasi, Louga |
-| 54 | Pa-Hng (i=202843) | Aba, Parakou, Tsévié, Fada N'Gourma, Gashua |
-| 54 | Mashan (i=202831) | Aba, Parakou, Tsévié, Fada N'Gourma, Gashua |
-| 54 | Obdorsk (i=200772) | Khanty-Mansiysk, Surgut, Nizhnevartovsk, Nefteyugansk, Langepas |
-| 54 | Vishera (i=202986) | Tchibanga, Conakry, Parakou, Fatick, Jalingo |
-| 53 | Oeld (i=202563) | Kaolack, Rijau, Bolgatanga, Louga, Giwa |
-| 53 | Sümi (i=203122) | Kaolack, Rijau, Bolgatanga, Louga, Giwa |
-| 53 | Ha Em (i=203150) | Parakou, Lafia, Rijau, Kumasi, Louga |
-| 53 | Forest Enets (i=1852) | Anadyr, Salekhard, Labytnangi, Muravlenko, Nadym |
-| 52 | Nihali (i=202548) | Aba, Parakou, Tsévié, Fada N'Gourma, Gashua |
-| 52 | Önge (i=202569) | Kaolack, Rijau, Bolgatanga, Louga, Giwa |
-| 52 | Shira Yugur (i=202639) | Nagasaki, Miaoli, Rason, Taitung, Mörön |
-| 52 | Hmu (i=202820) | Oyo, Gashua, Louga, Harper, N'Djamena |
-| 52 | Araona (i=203125) | Aba, Parakou, Tsévié, Fada N'Gourma, Gashua |
-| 52 | Xixiu (i=202866) | Parakou, Lafia, Rijau, Kumasi, Louga |
-| 52 | Xong (i=202867) | Kaolack, Rijau, Bolgatanga, Louga, Giwa |
-| 52 | Younuo (i=202874) | Aba, Parakou, Tsévié, Fada N'Gourma, Gashua |
-| 52 | Daman (i=203148) | Parakou, Lafia, Rijau, Kumasi, Louga |
-| 52 | Ra'ong (i=202602) | Aba, Parakou, Tsévié, Fada N'Gourma, Gashua |
-| 52 | Savi (i=202632) | Kaolack, Rijau, Bolgatanga, Louga, Giwa |
-| 52 | Suoy (i=202659) | Kaolack, Rijau, Bolgatanga, Louga, Giwa |
-| 52 | Thar (i=202692) | Kaolack, Rijau, Bolgatanga, Louga, Giwa |
-| 52 | Vayu (i=202714) | Kaolack, Rijau, Bolgatanga, Louga, Giwa |
-| 52 | Yadgha (i=202728) | Aba, Parakou, Tsévié, Fada N'Gourma, Gashua |
-| 52 | Mo Piu (i=202833) | Aba, Parakou, Tsévié, Fada N'Gourma, Gashua |
-| 52 | Kazym (i=202888) | Kazym, Parakou, Lafia, Rijau, Kumasi |
-| 52 | Kiknur (i=202889) | Aba, Parakou, Tsévié, Fada N'Gourma, Gashua |
-| 52 | Nerdva (i=202913) | Aba, Parakou, Tsévié, Fada N'Gourma, Gashua |
-| 52 | Porvoo (i=202932) | Porvoo, Aba, Parakou, Tsévié, Fada N'Gourma |
-| 52 | Ruija (i=202935) | Parakou, Lafia, Rijau, Kumasi, Louga |
-| 52 | Vakh (i=202981) | Kaolack, Rijau, Bolgatanga, Louga, Giwa |
-| 51 | Alchuka (i=202389) | Tchibanga, Conakry, Parakou, Fatick, Jalingo |
-| 51 | Allar (i=202390) | Parakou, Lafia, Rijau, Kumasi, Louga |
-| 51 | Bagheli (i=202396) | Tchibanga, Conakry, Parakou, Fatick, Jalingo |
-| 51 | Hre (i=202446) | Oyo, Gashua, Louga, Harper, N'Djamena |
-| 51 | Jarawa (i=202452) | Aba, Parakou, Tsévié, Fada N'Gourma, Gashua |
-| 51 | Kamviri (i=202467) | Tchibanga, Conakry, Parakou, Fatick, Jalingo |
-| 51 | Khetrani (i=202476) | Agra, Mymensingh, Visakhapatnam, Madurai, Lucknow |
-| 51 | Loarki (i=202490) | Aba, Parakou, Tsévié, Fada N'Gourma, Gashua |
-| 51 | Nagpuri (i=202541) | Tchibanga, Conakry, Parakou, Fatick, Jalingo |
-| 51 | Ordos Mongol (i=202570) | Chiba, Ölgii, Baotou, Saitama, Miaoli |
-| 51 | Pear (i=202585) | Kaolack, Rijau, Bolgatanga, Louga, Giwa |
-| 51 | Rangpuri (i=202607) | Agra, Mymensingh, Visakhapatnam, Madurai, Lucknow |
-| 51 | Tai (i=202664) | Oyo, Gashua, Louga, Harper, N'Djamena |
-| 51 | Ulaanchab Mongol (i=202709) | Yuen Long, Nagasaki, Kanazawa, Kanggye, Dongguan |
-| 51 | Shanghainese (i=202855) | Chiba, Ölgii, Baotou, Saitama, Miaoli |
-| 51 | Be-Jizhao (i=203145) | Bandar Lampung, Miri, Ben Tre, Soc Trang, Tomohon |
-| 51 | Nyah Kur (i=202559) | Owerri, Sokoto, Aba, Parakou, Thiès |
-| 51 | Sadri (i=202615) | Parakou, Lafia, Rijau, Kumasi, Louga |
-| 51 | Sonha (i=202646) | Parakou, Lafia, Rijau, Kumasi, Louga |
-| 51 | Southern Thai (i=202650) | Ho Chi Minh City, Payakumbuh, Jurong, Poipet, Tra Vinh |
-| 51 | Surgujia (i=202660) | Owerri, Sokoto, Aba, Parakou, Thiès |
-| 51 | Torwali (i=202699) | Tchibanga, Conakry, Parakou, Fatick, Jalingo |
-| 51 | Hm Nai (i=202818) | Aba, Parakou, Tsévié, Fada N'Gourma, Gashua |
-| 51 | Ná-Meo (i=202836) | Aba, Parakou, Tsévié, Fada N'Gourma, Gashua |
-| 51 | Pa Na (i=202842) | Parakou, Lafia, Rijau, Kumasi, Louga |
-| 51 | Central Ludic (i=201372) | Medvezhyegorsk, Segezha, Imatra, Joutseno, Lappeenranta |
-| 51 | Jukonda (i=202885) | Tchibanga, Conakry, Parakou, Fatick, Jalingo |
-| 51 | Ludza (i=202902) | Parakou, Lafia, Rijau, Kumasi, Louga |
-| 51 | Obdorsk (i=202922) | Tchibanga, Conakry, Parakou, Fatick, Jalingo |
-| 51 | Sygva (i=202959) | Parakou, Lafia, Rijau, Kumasi, Louga |
-| 51 | Tartu (i=202962) | Tartu, Parakou, Lafia, Rijau, Kumasi |
+Do **not** use the raw shared-seed count as a work list. Related languages
+genuinely share place names — Moldovan and Romanian, Occitan and its
+dialects, the Caribbean creoles — as do diaspora languages that took their
+settlers' names. Deleting those would destroy correct data. The block
+detector is contiguity-and-order based precisely so it does not do that.
 
-_Showing the worst 120 of 970._
+| Language | Continent | Index | Partners | Block |
+|---|---|---:|---:|---|
+| Yuit | africa | 202385 | 20 | Kaolack, Rijau, Bolgatanga, ... |
+| Mara | africa | 202513 | 20 | Kaolack, Rijau, Bolgatanga, ... |
+| Oeld | africa | 202563 | 20 | Kaolack, Rijau, Bolgatanga, ... |
+| Önge | africa | 202569 | 20 | Kaolack, Rijau, Bolgatanga, ... |
+| Paha | africa | 202574 | 20 | Kaolack, Rijau, Bolgatanga, ... |
+| Pear | africa | 202585 | 20 | Kaolack, Rijau, Bolgatanga, ... |
+| Yong | africa | 202732 | 20 | Kaolack, Rijau, Bolgatanga, ... |
+| Sümi | asia | 203122 | 20 | Kaolack, Rijau, Bolgatanga, ... |
+| Xong | asia | 202867 | 20 | Kaolack, Rijau, Bolgatanga, ... |
+| Qifu | asia | 202601 | 20 | Kaolack, Rijau, Bolgatanga, ... |
+| Sapa | asia | 202627 | 20 | Kaolack, Rijau, Bolgatanga, ... |
+| Savi | asia | 202632 | 20 | Kaolack, Rijau, Bolgatanga, ... |
+| Suoy | asia | 202659 | 20 | Kaolack, Rijau, Bolgatanga, ... |
+| Thar | asia | 202692 | 20 | Kaolack, Rijau, Bolgatanga, ... |
+| Toda | asia | 202696 | 20 | Kaolack, Rijau, Bolgatanga, ... |
+| Ulch | asia | 202710 | 20 | Kaolack, Rijau, Bolgatanga, ... |
+| Vayu | asia | 202714 | 20 | Kaolack, Rijau, Bolgatanga, ... |
+| Puyŏ | asia | 202850 | 20 | Kaolack, Rijau, Bolgatanga, ... |
+| Mysy | europe | 202912 | 20 | Kaolack, Rijau, Bolgatanga, ... |
+| Vakh | europe | 202981 | 20 | Kaolack, Rijau, Bolgatanga, ... |
+
+## Map ISOs with no namebase
+
+859 languages the mixer map offers have no namebase entry
+under that name, so they currently resolve to an unrelated seed list. Real
+languages — Agaw, Baka, Bamukumbit, Dibiyaso, Guriaso. Each needs a namebase
+created from research. Nothing here is guessed at.
+
+| ISO | Language name | Currently resolves to index |
+|---|---|---:|
+| abaga | Abaga | 20137 |
+| abba-gorgoryos | Abba Gorgoryos | 14152 |
+| bsa | Abinomn | 202545 |
+| abk | Abkhaz Names | 2351 |
+| abon | Abon | 2004 |
+| aboriginal-pidgin-english | Aboriginal Pidgin English | 20034 |
+| abron | Abron | 2005 |
+| abui | Abui | 1970 |
+| fub | Adamawa Fulfulde | 202763 |
+| adang | Adang | 20102 |
+| admiralty | Admiralty | 20065 |
+| adnyamathanha | Adnyamathanha | 25033 |
+| african-romance | African Romance | 767 |
+| agaw | Agaw | 20146 |
+| aghu | Aghu | 304 |
+| aja | Aja | 2010 |
+| ajawa | Ajawa | 20128 |
+| akj | Aka-Jeru | 696 |
+| akkadian | Akkadian | 20003 |
+| akoye | Akoye | 20555 |
+| alasha | Alasha Mongol | 814 |
+| sqi | Albanian Names | 20000 |
+| arq | Algerian Arabic Names | 267 |
+| alor-pantar | Alor–Pantar | 20183 |
+| aab | Ambakich | 202547 |
+| ambo | Ambo | 2013 |
+| amh | Amh | 872 |
+| amh2 | Amharic Expanded 3 | 872 |
+| amh3 | Amharic Expanded 4 | 872 |
+| amharic-argobba | Amharic-Argobba | 872 |
+| ami | Amis | 23 |
+| ammonite | Ammonite | 20011 |
+| amorite | Amorite | 20034 |
+| ancient-egyptian | Ancient Egyptian | 202629 |
+| ancient-north-arabian | Ancient North Arabian | 202631 |
+| anz | Anem | 1971 |
+| angaataha | Angaataha | 25018 |
+| anindilyakwa | Anindilyakwa | 20265 |
+| kbx | Ap Ma | 202548 |
+| arabic-javanese-of-klego | Arabic-Javanese of Klego | 200933 |
+| arc | Aramaic Names | 801 |
+| arawak | Arawak | 2622 |
+| arin | Arin | 5258 |
+| aru | Aru | 2456 |
+| saj | Asabano | 202549 |
+| asmat | Asmat | 202336 |
+| asmat-citak | Asmat Citak | 202652 |
+| asm | Assamese Names | 952 |
+| assan | Assan | 816 |
+| aii2 | Assyrian Expanded 2 | 954 |
+| aii | Assyrian Names | 954 |
+| avam | Avam | 2431 |
+| awa | Awa | 202394 |
+| awbono | Awbono | 24780 |
+| awin-pa | Awin-Pa | 2737 |
+| awyu-dumut | Awyu–Dumut | 202393 |
+| aym | Aymara Names | 20088 |
+| baarin | Baarin Mongol | 5632 |
+| bzg | Babuza | 20556 |
+| babylonian | Babylonian | 20011 |
+| bade-language | Bade alias | 1338 |
+| baghdadi-arabic | Baghdadi Arabic | 310 |
+| fui | Bagirmi Fulfulde | 24809 |
+| baham | Baham | 202776 |
+| bhj | Bahing | 50003 |
+| bahrani-arabic | Bahrani Arabic | 202264 |
+| baka | Baka | 2011 |
+| bali-sasak-sumbawa | Bali Sasak Sumbawa | 202391 |
+| bam | Bambara Names | 1103 |
+| bamboo-english | Bamboo English | 20507 |
+| bami | Bami | 24967 |
+| bamukumbit | Bamukumbit | 20005 |
+| bana | Bana | 378 |
+| bangime | Bangime | 20323 |
+| bangladeshi-english | Bangladeshi English | 20001 |
+| baoanic | Baoanic | 1019 |
+| barai | Barai | 181 |
+| baramu | Baramu | 1377 |
+| bardi | Bardi | 200647 |
+| barikanchi-pidgin | Barikanchi Pidgin | 836 |
+| barito | Barito | 836 |
+| baruga | Baruga | 25018 |
+| basap | Basap | 2486 |
+| byq | Basay | 20572 |
+| bak | Bashkir Names | 20018 |
+| eus2 | Basque Expanded 2 | 20014 |
+| bata | Bata | 1146 |
+| batanic | Batanic | 200742 |
+| bauwaki | Bauwaki | 7879 |
+| bayat-oirat | Bayat Oirat | 1143 |
+| bayono | Bayono | 20060 |
+| bayono-awbono | Bayono–Awbono | 20014 |
+| beami | Beami | 20007 |
+| beijing-mandarin | Beijing Mandarin | 20003 |
+| bel | Belarusian Names | 20001 |
+| bem | Bemba Names | 62 |
+| ben2 | Bengali Expanded 2 | 2592 |
+| bengali-portuguese-creole | Bengali Portuguese Creole | 2592 |
+| berau-malay | Berau Malay | 201342 |
+| berjozov | Berjozov | 20064 |
+| besermyan | Besermyan | 20085 |
+| betanure-jewish-neo-aramaic | Betanure Jewish Neo-Aramaic | 24807 |
+| betta-kurumba | Betta Kurumba | 203037 |
+| biangai | Biangai | 20234 |
+| biblical-aramaic | Biblical Aramaic | 24807 |
+| biblical-hebrew | Biblical Hebrew | 817 |
+| bidau-creole-portuguese | Bidau Creole Portuguese | 1297 |
+| bikol | Bikol | 1299 |
+| bima | Bima | 136 |
+| binahari | Binahari | 200010 |
+| binandere | Binandere | 200010 |
+| binanderean | Binanderean | 200010 |
+| bny | Bintulu | 20732 |
+| binumarien | Binumarien | 20263 |
+| bipim | Bipim | 20055 |
+| bpy | Bishnupriya Manipuri | 1368 |
+| bislama | Bislama | 20014 |
+| bisorio | Bisorio | 203016 |
+| bitur | Bitur | 20014 |
+| biu-mandara | Biu–Mandara | 200357 |
+| bla | Blackfoot Names | 25029 |
+| blagar | Blagar | 20064 |
+| boazi-lake-murray | Boazi Lake Murray | 21087 |
+| bodish | Bodish | 1728 |
+| bodo | Bodo | 772 |
+| boq | Bogaya | 20594 |
+| bohtan-neo-aramaic | Bohtan Neo-Aramaic | 1345 |
+| bokar | Bokar | 1345 |
+| bola | Bola | 1251 |
+| bole-chadic-language | Bole Chadic | 20583 |
+| bole-niger-congo | Bole Niger-Congo | 20596 |
+| bole-tangale | Bole–Tangale | 20000 |
+| bolivian-spanish | Bolivian Spanish | 785 |
+| ply | Bolyu | 1272 |
+| bolze | Bolze | 200934 |
+| bonan-manegacha | Bonan Manegacha | 1355 |
+| bonin-english | Bonin English | 24809 |
+| bono-nigeria | Bono Nigeria | 20605 |
+| borgarm-let | Borgarmålet | 202261 |
+| fue | Borgu Fulfulde | 20268 |
+| brx | Boro (Bodo) | 942 |
+| bosavi | Bosavi | 202632 |
+| bmj | Bote | 1202 |
+| bouhin | Bouhin | 1365 |
+| bourbonnais-creole | Bourbonnais Creole | 350 |
+| bre2 | Breton Expanded 2 | 20015 |
+| bre3 | Breton Expanded 3 | 20015 |
+| bre | Breton Names | 20015 |
+| british-latin | British Latin | 14025 |
+| broome-pearling-lugger-pidgin | Broome Pearling Lugger Pidgin | 202585 |
+
+_Showing 150 of 859._
 
 ## How to work on this
 

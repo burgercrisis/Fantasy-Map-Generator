@@ -24,6 +24,11 @@ Three more commands exist. That is the entire toolset:
 | `pnpm namebase:status` | Regenerate `docs/verification/STATUS.md`. Run after you change data. |
 | `pnpm namebase:clean` | Mechanically strip padding, dupes and false status. `-- --check` to preview. |
 | `pnpm namebase:claim <continent>` | Lock a continent so another agent does not overwrite your work. |
+| `pnpm namebase:aggregator` | Prove the served data files actually run, not just parse. |
+| `pnpm namebase:map-audit` | Check every mixer-map ISO points at its own language. |
+| `pnpm namebase:repair-map` | Repoint map rows at the right namebase. Rarely needed. |
+| `pnpm namebase:dedupe` | Remove whole-entry duplicates. |
+| `pnpm namebase:unique-indices` | Give every entry a unique index. |
 
 ---
 
@@ -212,32 +217,33 @@ diff somebody has to read. Use it honestly.
 
 ## Current state, and what is actually left
 
-4,586 entries. 994 below the seed floor. The queue is dominated by **Asia (599)**
-— the September 2026 passes worked almost entirely on Africa.
+3,874 entries. 918 below the seed floor. Open items, in the order worth doing:
 
-| Continent | Entries | Below floor | Zero seed |
-|---|---:|---:|---:|
-| africa | 1034 | 180 | 1 |
-| asia | 1952 | 599 | 1 |
-| europe | 977 | 69 | 0 |
-| northAmerica | 243 | 74 | 2 |
-| southAmerica | 171 | 10 | 0 |
-| oceania | 208 | 62 | 3 |
-| fantasy | 1 | 0 | 0 |
+1. **859 mixer-map ISOs with no namebase.** A user can ask for Agaw, Baka,
+   Bamukumbit, Dibiyaso or Guriaso and the map has no entry under that name, so
+   they get an unrelated language's names. Real languages; each needs research
+   before a namebase can be written. Listed in `STATUS.md`.
+2. **918 entries below the seed floor** — the main name-quality work. Asia first.
+3. **20 entries with pasted 8-seed blocks** (`W004`). These are copy-paste
+   artifacts and are never legitimate, unlike the raw shared-seed count.
+4. **21 dead tools** (`T001`) reading data paths that do not exist.
 
-Open items, roughly in order of value:
+### A warning about the shared-seed count
 
-1. **994 entries below the floor.** The main work. Asia first.
-2. **970 contaminated entries** sharing 10+ seeds with 20+ others. Needs research,
-   not padding. `namebase-status.js` lists the worst.
-3. **283 index collisions** (`E003` 61, `E004` 222). 101 of these indices are
-   live in `config/language-mixer-map.json`, so the mixer genuinely resolves them
-   ambiguously. Needs a dedicated migration: assign fresh indices, rewrite the
-   map, re-run the guardrails.
-4. **24 dead tools** (`T001`) reading `modules/namebases-*.js` from before the
-   files moved to `public/modules/`. Several were being used to measure progress
-   during the September passes, so treat any number they produced with suspicion.
-   Fix or delete them; the ratchet stops the list growing.
+Do **not** treat "this entry shares N seeds with 20+ others" as a work list.
+Related languages genuinely share place names — Moldovan and Romanian, Occitan
+and its dialects, the Caribbean creoles — and so do diaspora languages that took
+their settlers' names. Deleting those destroys correct data. The `W004` block
+detector requires an identical run of seeds *in the same order* across 20+
+entries, which is the only version of this signal that is never legitimate.
+
+### About index collisions
+
+There used to be 222 contested indices, 67 of them referenced by mixer-map rows
+for both claimants, so two ISOs resolved to the same seed list. That is now zero
+(`E003` and `E004`). Do not reintroduce it: `pnpm namebase:verify` fails on any
+duplicate index, and the map is append-only per
+`check-language-mixer-guardrails.js`.
 
 ---
 

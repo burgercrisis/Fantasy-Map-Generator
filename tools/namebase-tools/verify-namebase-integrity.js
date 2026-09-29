@@ -66,6 +66,7 @@ const {
   findDuplicateSeeds,
   buildSeedFrequency,
   contaminationFor,
+  findPastedBlocks,
   labelOf
 } = require("./namebase-lib");
 
@@ -328,6 +329,28 @@ if (fs.existsSync(toolsDir)) {
       : "No file exists at either path - this data source was deleted outright.";
     err("T001", tool, `reads "${ref}", which does not exist. ${hint}`);
   }
+}
+
+// ---------------------------------------------------------------------------
+// W004 - pasted blocks of seeds
+// ---------------------------------------------------------------------------
+//
+// W003 ("shares N seeds with 20+ other entries") is too blunt to act on: related
+// languages really do share toponyms, and so do diaspora languages that took
+// their settlers' names. W004 narrows it to the thing that is never legitimate -
+// a run of identical seeds, in the same order, appearing in 20+ unrelated
+// entries. That is the copy-paste signature, and it is the list an agent should
+// actually work from.
+
+const pasted = findPastedBlocks(allEntries, {run: 8, minEntries: 20});
+for (const [e, info] of pasted) {
+  warn(
+    "W004",
+    `namebases-${e.__continent}.js`,
+    `${labelOf(e)}: ${info.partners} entries contain the identical ` +
+      `8-seed run ${info.block.slice(0, 4).join(", ")}, ... - a block was pasted around. ` +
+      `Research this language's own toponyms and replace it.`
+  );
 }
 
 // ---------------------------------------------------------------------------

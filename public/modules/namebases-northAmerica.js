@@ -1609,36 +1609,6 @@ window.northAmericaNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "Turks and Caicos Creole (dedicated)",
-    "i": 20185,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Cockburn Town,Bottle Creek,Duncan Town,Back Salina,Middle Caicos,North Caicos,South Caicos,Grand Turk,Providenciales,Salt Cay,Parrot Cay,Pine Cay,Ambergris Cay,Water Cay,East Caicos,West Caicos",
-    "status": "WAITING"
-  },
-  {
-    "name": "Vincentian Creole (dedicated)",
-    "i": 20186,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Kingstown,Georgetown,Chateaubelair,Barrouallie,Layou,Calliaqua,Biabou,Richland Park,Mesopotamia,Greiggs,Stubbs,South Rivers,Overland,Park Hill,Fancy,Owia,Sandy Bay,Point,Union Island,Bequia,Mustique,Canouan,Mayreau,Palm Island,Petit St. Vincent",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Virgin Islands Creole (dedicated)",
-    "i": 20187,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Charlotte Amalie,Christiansted,Frederiksted,Cruz Bay,St. John,St. Thomas,St. Croix,Water Island,Hassel Island,Great St. James,Little St. James,Thatch Cay,Outer Brass,Inner Brass,Peter Island,Norman Island,Dead Chest,Salt Island,Cooper Island,Ginger Island",
-    "status": "WAITING"
-  },
-  {
     "name": "Jamaican Maroon Creole (dedicated)",
     "i": 20188,
     "min": 4,
@@ -1659,16 +1629,6 @@ window.northAmericaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Purépecha",
-    "i": 21001,
-    "min": 6,
-    "max": 24,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Patzcuaro,Uruapan,Zamora,Jiquilpan,Zitacuaro,Huetamo,Tacambaro,Ario de Rosales,Taretan,Cotija,Tingüindin,Tocumbo,Periban,Los Reyes,Janitzio,Cheran,Paracho de Verduzco,Pamatacuaro,Nahuatzen,Capacuaro,Erongaricuaro,Tzintzuntzan,Ihuatzio,Tariacuri,Tangaxoan,Hiripan,Cazonci,Acuitzio,Cueramaro,Cupareo,Zurumuato,Caporo,Santa Fe de la Laguna,Vasco de Quiroga,San Juan Tzintzuntzan,Santiago Tangamandapio,San Francisco Uruapan,San Juan Parangaricutiro,San Lorenzo,San Juanico,San Antonio,San Isidro,Santa Rosa,San Miguel,San Pedro,San Pablo,San Mateo,San Lucas,San Marcos,San Juan Bautista",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Huave",
     "i": 21002,
     "min": 7,
@@ -1686,16 +1646,6 @@ window.northAmericaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Montreal,Quebec City,Trois-Rivières,Sherbrooke,Saguenay,Lévis,Longueuil,Laval,Gatineau,Rimouski,Saint-Jérôme,Saint-Hyacinthe,Rouyn-Noranda,Val-d'Or,Sept-Îles,La Tuque,Alma,Jonquière,Shawinigan,Thetford Mines,Matane,Rivière-du-Loup,Saint-Georges,Montmagny,Asbestos,Windsor,Magog,Granby,Saint-Jean-sur-Richelieu,Chambly,Brossard,Saint-Lambert,Repentigny,Joliette,Rawdon,Saint-Lin,Val-des-Sources,Amos,La Sarre,Témiscaming,Ville-Marie,Notre-Dame-du-Nord,Laverlochère,Angliers,Guérin,Reynaud,Clerval,Latulipe,Champneuf,Senneterre,Barbel,Trécesson,Champigny,Launay,Corbeil,Notre-Dame-de-la-Merci,Entrelacs,Assomption,L'Épiphanie,Saint-Roch-de-l'Achigan,Saint-Alexis,Saint-Calixte,Sainte-Julienne,Saint-Liguori,Saint-Charles-Borromée,Saint-Paul,Saint-Pierre,Saint-Alphonse-Rodriguez,Saint-Ambroise-de-Kildare,Saint-Barthélemy,Saint-Gabriel,Saint-Gabriel-de-Brandon,Saint-Gérard-Majella,Saint-Henri-de-Taillon,Saint-Ignace-de-Loyola,Saint-Isidore,Saint-Jacques,Saint-Jacques-de-Leeds,Saint-Jean-de-Matha,Saint-Joseph-de-Beauce,Saint-Joseph-de-Coleraine,Saint-Jude,Saint-Just-de-Bretenières,Saint-Lazare,Séon,Drummondville,Beauceville,Plessisville,Victoriaville,Cowansville,Boucherville",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Cocopa",
-    "i": 21114,
-    "min": 4,
-    "max": 21,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Cocopa,Yuma,Somerton,Poston,Winterhaven,Bard,Wellton,Dateland,Aztec,Ligurta,Palomas,Roll,Ehrenberg,Bouse,Salome,Harquahala,Kofa,Cibola,Gadsden,Palo Verde,San Luis Rio Colorado,Portuguese Flat,Caborca,Algodones,Mexicali,Anderson",
     "status": "COMPLETE"
   },
   {
@@ -1789,16 +1739,6 @@ window.northAmericaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Jamaican Patois",
-    "i": 200633,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Kingston,Spanish Town,Portmore,Montego Bay,May Pen,Mandeville,Old Harbour,Linstead,Port Antonio,Ocho Rios,Negril,Discovery Bay,Runaway Bay,St. Ann's Bay,Falmouth,Lucea,Savanna-la-Mar,Black River,Santa Cruz,Morant Bay,Port Morant,Yallahs,Bull Bay,Gordon Town,Newcastle,Lawrence Tavern,Golden Spring,Castleton,Guys Hill,Wait-a-Bit,Alva,Colegate",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Leeward Caribbean Creole English",
     "i": 200634,
     "min": 4,
@@ -1847,76 +1787,6 @@ window.northAmericaNameBases = [
     "m": 0,
     "b": "Oranjestad,Noord,San Nicolas,Santa Cruz,Savaneta,Paradera,Nikiboko,Seroe Colorado,Tanki Leendert,Tanki Flip,Bubali,Hooiberg,Jamanota,Arikok,Fontein,Rincon,Casibari,Shiribana,Bushiribana,Bayibe,Brasil,Commandeursbaai,Mangel Halto,Malmok,Boca Catalina,Cura Cabai,Kas di Palma,Wayaca,Warawara,Yucuri,Habrie,Druif,Seroe Weis Lopez,Pos Chikitu,Palm Beach,Eagle Beach",
     "status": "COMPLETE"
-  },
-  {
-    "name": "Rama Cay Creole",
-    "i": 200639,
-    "min": 4,
-    "max": 15,
-    "d": "lnrt",
-    "m": 0.16,
-    "b": "Rama Cay,Sumu Kaat,Tiktik Kaanu,Wiring Cay,Bangkukuk,Indian River,Corn River,Greytown,Bluefields Lagoon,Punta Gorda,Raitipura,Kukalaya,Tasbapauni,Karawala,Bilwi,Prinzapolka,Ayapal,Tawira,Musawas,Lawas,Kiabsa,Layasiksa,Yulu,Alamikangban,Bilsum,Sukat,Nikla,Awaseri,Prata,Bikbila,Bamustak,Kurinwas,Bana",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Saint Kitts Creole",
-    "i": 200640,
-    "min": 4,
-    "max": 24,
-    "d": "lnrt",
-    "m": 0.74,
-    "b": "Basseterre,Sandy Point Town,Charlestown,Cayon,Dieppe Bay Town,Molyneux,Gingerland,Saint Paul Capesterre,Saint John Capesterre,Christ Church Nichola Town,Trinity Palmetto Point,Saint Mary Cayon,Saint Thomas Middle Island,Saint George Basseterre,Saint Peter Bassesterre,Middle Island,Old Road Town,Frigate Bay,Monkey Hill,Bath Village,Fig Tree,Market Shop,Newcastle,Cotton Ground,Brick Kiln,Mannings,Barnes Ghaut,Saddlers",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "San Andrés-Providencia Creole",
-    "i": 200641,
-    "min": 4,
-    "max": 18,
-    "d": "lnrt",
-    "m": 0.46,
-    "b": "San Andrés,San Andrés El Centro,La Loma,North End,South End,Providencia,Santa Catalina,Saint Elizabeth,Bottom House,Lazy Hill,San Felipe,Orange Hill,Saint Ketliina,Saint Louis,Johnny Cay,Haynes Cay,Rose Cay,Cayo Cangrejo,Cayo Rocoso,Cayo Santander,El Cove,La Piscinita,Hoyo Soplador,La Laguna,Morgan's Cave,West View,Spratt Bight,Rocky Point,Cocoplum Bay",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Tobagonian Creole",
-    "i": 200642,
-    "min": 4,
-    "max": 16,
-    "d": "lnrt",
-    "m": 0.25,
-    "b": "Scarborough,Roxborough,Castara,Parlatuvier,Speyside,Mason Hall,Moriah,Plympton,Black Rock,Crown Point,Carnbee,L'Anse Fourmi,Calder Hall,Canaan,Bon Accord,Buccoo,Lowlands,Mt. Irvine,Lambeau,Signal Hill,Tobago,St. Patrick,St. Andrews,St. David,St. Mary,St. Paul,St. John,Charlotteville,Bloody Bay,Pigeon Point,Store Bay,Man-of-War Bay,Great Courland Bay",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Trinidadian Creole",
-    "i": 200643,
-    "min": 4,
-    "max": 15,
-    "d": "lnrt",
-    "m": 0.29,
-    "b": "Port of Spain,San Fernando,Chaguanas,Arima,Point Fortin,Sangre Grande,Princes Town,Mayaro,Siparia,Couva,Diego Martin,Arouca,Tunapuna,Laventille,Carenage,La Brea,Pointe-à-Pierre,Guayaguayare,Rio Claro,Tabaquite,Flanagin Town,Maracas,Matura,Moruga,Naparima,Savonetta,Morichal,Mamoral,Caura,Lopinot,Santa Cruz,Blanchisseuse,Cumuto,Maraval,Checkpoint",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Pipil (Nawat)",
-    "i": 200658,
-    "min": 4,
-    "max": 22,
-    "d": "lnrt",
-    "m": 0.1,
-    "b": "Sonsonate,Ahuachapan,Santa Ana,Tacuba,Panchimalco,Acajutla,Nahuizalco,Izalco,Cuisnahuat,Santo Domingo de Guzman,Jicalapa,Teotepeque,Caluco,Nahulingo,Metapan,Chalchuapa",
-    "status": "WAITING"
-  },
-  {
-    "name": "Ch'ol",
-    "i": 200904,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Tila,Sabanilla,Salto de Agua,Palenque,Ocosingo,Chilon,Bochil,Simojovel,San Cristobal de las Casas,Huixtan,Amatenango del Valle,Tenejapa,Chenalho,Larrainzar,El Bosque,Pantelho,Chamula,Zinacantan,San Juan Cancuc,San Andres Larrainzar",
-    "status": "WAITING"
   },
   {
     "name": "Mopan",

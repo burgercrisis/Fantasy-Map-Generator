@@ -29,6 +29,11 @@
     "namebase:clean": "node tools/namebase-tools/clean-namebase-data.js",
     "namebase:normalize": "node tools/namebase-tools/normalize-namebase-format.js",
     "namebase:claims": "node tools/namebase-tools/claim.js --list",
+    "namebase:map-audit": "node tools/namebase-tools/audit-map-integrity.js",
+    "namebase:aggregator": "node tools/namebase-tools/verify-aggregator-runs.js",
+    "namebase:repair-map": "node tools/namebase-tools/repair-mixer-map.js",
+    "namebase:dedupe": "node tools/namebase-tools/dedupe-entries.js",
+    "namebase:unique-indices": "node tools/namebase-tools/unique-indices.js",
     "prepare": "simple-git-hooks"
   },
   "simple-git-hooks": {
