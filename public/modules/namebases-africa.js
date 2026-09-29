@@ -1266,8 +1266,8 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Karakorum,Ulaanbaatar,Khovd,Erdenet,Dornod,Ölgii,Darkhan,Choibalsan,Mörön,Nalaikh,Bayankhongor,Baganuur,Arvaikheer,Bulgan,Mandalgovi,Zamyn-Üüd,Sharyngol,Kharkhorin,Bor-Öndör,Choir,Tosontsengel,Bagakhangai,Zuunmod,Ulaangom,Uliastai,Sainshand,Dalanzadgad,Altai,Sükhbaatar,Baruun-Urt,Öndörkhaan,Tsetserleg,Töv,Selenge,Dundgovi,Dornogovi,Govi-Altai,Govisümber,Khentii,Khövsgöl,Ömnögovi,Övörkhangai,Zavkhan,Uvs,Darhan-Uul,Orkhon",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Dendi",
@@ -8796,8 +8796,8 @@ window.africaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Urum,Barcelona,Málaga,Nantes,Kilkenny,St. Gallen,Narva,Brest,Mykolaiv,Murska Sobota,Cork,Salzburg,Tallinn,Groningen,Vantaa,Grenoble,Zrenjanin,Bremen,Soroca,Cetinje,Durrës,Craiova,Zugdidi,The Hague,Bologna,Gdańsk,Hamburg,Esbjerg,Barranquilla,Bogotá,Medellín,Cali,Quito,Guayaquil,Huancayo,Portoviejo,Manta,El Alto,Arequipa,Cusco,Oruro,Santo Domingo,Francisco de Orellana,Pereira,Concepción,Londrina,San Ignacio,Mitú,La Paz,Sucre,Ambato,Pedro Juan Caballero,Florencia,Chiclayo,Antofagasta",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Yoruba",

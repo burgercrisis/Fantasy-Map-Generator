@@ -3346,8 +3346,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Kansk,Mana,Biryusa,Kan,Agul,Krasnoyarsk,Zavitinsk,NizhnyayaTura,Ushumun,Karpinsk,Tynda,Saranpaul,Razvilnoye,Muzhi,Zernograd,YarSale,Krylovsk,Gyda,Pavlovsk,Gulkevichi,Afolyak,Abarsk,Abilerk,Alererk,Akeyak,Asoork,Akotork,Ametals,Arimork,Afuserk,Aebals,Araals,Apanals,Apisinsk,Auerk,Kottsk,Kottansk,Kottinsk,Kottovsk,InskKott,Kayerkan",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Kangjia",
@@ -9646,8 +9646,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Maritime Polynesian Pidgin,Vanimo,Palau,Kairuku,Ouvea,Lorengau,Melekeok,Nukulaelae,Mili,Chuuk,Ebeye,Rotorua,Samamea,Kavieng,Dumbea,Norfolk,Tabiteuea,Newcastle,Navua,Nibok,Kimbe,Angaur,Havelu,Betio,Jaluit,Misima,Auki,Joensuu,Chamzinka,Berezniki,Kuopio,Tartu,Jyväskylä,Kotka,Ruzaevka,Cherdyn,Pärnu,Tampere,Mikkeli,Vorkuta,Tallinn,Kovylkino,Monchegorsk,Atemar,Budapest,Sernur,Rovaniemi,Kortkeros,Saransk,Kirovsk,Kecskemét,Yusva,Haapsalu,Aikino",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Micronesian Pidgin English",
@@ -10536,8 +10536,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Pyu,Oyo,Gashua,Louga,Harper,N'Djamena,Mubi,Tahoua,Wa,Owerri,Bamenda,Awka,Faranah,Bafatá,Mongomo,Lafia,Yamoussoukro,Moundou,Banjul,Senanga,Gombe,Timbuktu,Kaya,Saint-Louis,Tiko,Kano,Nalolo,Maroua,Bissau,Katsina,Sokodé,Dakar,Gbarnga,Cotonou,Freetown,Kara,Lomé,Korhogo,Abidjan,Ségou,Bamako,Mopti,Ziguinchor,Maiduguri,Ouagadougou,Tambacounda,Niamey,Nouakchott,Sokoto,Tema,Parakou",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Sümi",
@@ -12576,8 +12576,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Su',Oyo,Gashua,Louga,Harper,N'Djamena,Mubi,Tahoua,Wa,Owerri,Bamenda,Awka,Faranah,Bafatá,Mongomo,Lafia,Yamoussoukro,Moundou,Banjul,Senanga,Gombe,Timbuktu,Kaya,Saint-Louis,Tiko,Kano,Nalolo,Maroua,Bobo-Dioulasso,Bertoua,Accra,Bamako,Gbarnga,Dakar,Niamey,Kara,Kayes,Korhogo,Daloa,Banfora,Man,Mopti,Bafoussam,Ouahigouya,Wukari,Malabo,Jos,Praia,Sokodé,Sunyani,Tamale,Sikasso",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Suoy",

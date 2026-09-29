@@ -10368,17 +10368,6 @@
       "lexifier": "English"
     },
     {
-      "name": "Jamaican Patois",
-      "iso": "jamaican-patois",
-      "region": "Caribbean",
-      "category": "Creole",
-      "family": "English-based",
-      "tags": [
-        "creole"
-      ],
-      "lexifier": "English"
-    },
-    {
       "name": "Leeward Caribbean Creole English",
       "iso": "leeward-caribbean-creole-english",
       "region": "Caribbean",

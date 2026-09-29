@@ -7796,8 +7796,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "On,Gashua,Yaoundé,Yendi,Dapaong,Bissau,Tahoua,Minna,Nnewi,Luba,Tambacounda,Faranah,Yola,Sapele,Nkongsamba,Kaolack,Moundou,Kano,Gombe,Ife,Timbuktu,Sunyani,Kurfi,Banfora,Harper,Labé,Diourbel,Kalabo,Katsina,Jalingo,Conakry,Man,Bamako,Koidu,Kara,Daloa,Freetown,Dakar,Kankan,Mopti,Monrovia,Parakou,Saint-Louis,Korhogo,Accra,Lomé,Maiduguri,Bafatá,Kumasi,Tema,Banjul,Bouaké,Ouagadougou,X200775k,X200775t,X200775p,X200775m,X200775n,X200775s,X200775r,X200775l,X200775d,X200775g,X200775b",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Orodezhi",
@@ -7846,8 +7846,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Pim,Oyo,Gashua,Louga,Harper,N'Djamena,Mubi,Tahoua,Wa,Owerri,Bamenda,Awka,Faranah,Bafatá,Mongomo,Lafia,Yamoussoukro,Moundou,Banjul,Senanga,Gombe,Timbuktu,Kaya,Saint-Louis,Tiko,Kano,Nalolo,Maroua,Bouaké,Bissau,Bamako,Daloa,Dakar,Korhogo,Freetown,Lomé,Niamey,Kara,Mopti,Ouagadougou,Cotonou,Tema,Sunyani,Monrovia,Koudougou,Kaduna,Brikama,Gbarnga,Bauchi,Tamale,Assomada",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Pite Sami",
@@ -8396,8 +8396,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Vym,Oyo,Gashua,Louga,Harper,N'Djamena,Mubi,Tahoua,Wa,Owerri,Bamenda,Awka,Faranah,Bafatá,Mongomo,Lafia,Yamoussoukro,Moundou,Banjul,Senanga,Gombe,Timbuktu,Kaya,Saint-Louis,Tiko,Kano,Nalolo,Maroua,Ziguinchor,Accra,Koudougou,Dakar,Kaolack,Conakry,Daloa,Cotonou,Warri,Bobo-Dioulasso,Brikama,Kayes,Bertoua,Korhogo,Man,Ngaoundéré,Maiduguri,Sokodé,Nouakchott,Lomé,Nzérékoré,Ebebiyín,Jalingo,Assomada,Ségou,Sokoto",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Western Transdanubian",
