@@ -8,7 +8,7 @@
 const fs = require("fs");
 const path = require("path");
 
-const NAMEBASE_DIR = path.join(__dirname, "..", "modules");
+const NAMEBASE_DIR = path.join(__dirname, "..", "public/modules");
 
 // Files that should never have entries removed
 const PROTECTED_FILES = [

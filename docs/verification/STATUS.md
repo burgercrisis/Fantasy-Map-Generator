@@ -430,6 +430,19 @@ nothing in the name says so.
 | Vedda (i=201000) | europe | asia | 70% | Colombo, Kandy, Galle |
 | Brahui  (i=1374) | europe | asia | 70% | Kalat, Khuzdar, Quetta |
 
+## Map rows that cannot be selected
+
+`config/language-mixer-map.js` has more rows than the language catalog has
+languages, and the extra ones are dead weight: `isoWeights` is built by
+filtering the catalog, so a row whose ISO is not in it can never be chosen
+and its curated base is unreachable.
+
+| | Count |
+|---|---:|
+| Map rows whose ISO is not in the catalog | 717 |
+| ...of those, with a curated base that is unreachable | 690 |
+| ...of those, the base is already correct and only the catalog entry is missing | 18 |
+
 ## Map ISOs with no namebase
 
 805 languages the mixer map offers have no namebase entry

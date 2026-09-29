@@ -1853,9 +1853,7 @@
   },
   {
     "iso": "mawa-chadic",
-    "bases": [
-      200085
-    ]
+    "bases": []
   },
   {
     "iso": "mazagway",
@@ -1925,9 +1923,7 @@
   },
   {
     "iso": "miler",
-    "bases": [
-      200097
-    ]
+    "bases": []
   },
   {
     "iso": "miltu",
@@ -1937,9 +1933,7 @@
   },
   {
     "iso": "mire",
-    "bases": [
-      200099
-    ]
+    "bases": []
   },
   {
     "iso": "miship",
@@ -3061,9 +3055,7 @@
   },
   {
     "iso": "ubi",
-    "bases": [
-      200205
-    ]
+    "bases": []
   },
   {
     "iso": "uduk",
@@ -3363,9 +3355,7 @@
   },
   {
     "iso": "zirenkel",
-    "bases": [
-      200224
-    ]
+    "bases": []
   },
   {
     "iso": "zizilivakan",
@@ -3937,9 +3927,7 @@
   },
   {
     "iso": "bhe",
-    "bases": [
-      203196
-    ]
+    "bases": []
   },
   {
     "iso": "bhb",
@@ -4599,9 +4587,7 @@
   },
   {
     "iso": "gig",
-    "bases": [
-      203208
-    ]
+    "bases": []
   },
   {
     "iso": "gondi",
@@ -5021,9 +5007,7 @@
   },
   {
     "iso": "kalanadi",
-    "bases": [
-      1677
-    ]
+    "bases": []
   },
   {
     "iso": "kls",
@@ -5145,9 +5129,7 @@
   },
   {
     "iso": "kayong-bahnaric",
-    "bases": [
-      200321
-    ]
+    "bases": []
   },
   {
     "iso": "kenaboi",
@@ -5715,9 +5697,7 @@
   },
   {
     "iso": "mak-kam-sui",
-    "bases": [
-      200349
-    ]
+    "bases": []
   },
   {
     "iso": "mala-malasar",
@@ -6225,9 +6205,7 @@
   },
   {
     "iso": "oeld",
-    "bases": [
-      202563
-    ]
+    "bases": []
   },
   {
     "iso": "oi-bahnaric",
@@ -6638,7 +6616,7 @@
   {
     "iso": "sakhalin-dialects",
     "bases": [
-      20065
+      202618
     ]
   },
   {
@@ -7089,9 +7067,7 @@
   },
   {
     "iso": "tai-muong-vat",
-    "bases": [
-      1165
-    ]
+    "bases": []
   },
   {
     "iso": "tai-nuea",
@@ -8473,9 +8449,7 @@
   },
   {
     "iso": "badong-yao",
-    "bases": [
-      1024
-    ]
+    "bases": []
   },
   {
     "iso": "baekje-korean",
@@ -8586,7 +8560,7 @@
   {
     "iso": "gangwon-dialect",
     "bases": [
-      200663
+      1832
     ]
   },
   {
@@ -8895,9 +8869,7 @@
   },
   {
     "iso": "puyo",
-    "bases": [
-      202850
-    ]
+    "bases": []
   },
   {
     "iso": "pyojuneo",
@@ -13608,7 +13580,7 @@
   {
     "iso": "-ejtun-dialect",
     "bases": [
-      738
+      2346
     ]
   },
   {
@@ -14325,9 +14297,7 @@
   },
   {
     "iso": "xieheyu",
-    "bases": [
-      203263
-    ]
+    "bases": []
   },
   {
     "iso": "yilan-creole-japanese",
@@ -14348,7 +14318,7 @@
   {
     "iso": "beni-snous-dialect",
     "bases": [
-      201004
+      202304
     ]
   },
   {
@@ -15175,9 +15145,7 @@
   },
   {
     "iso": "auye",
-    "bases": [
-      202338
-    ]
+    "bases": []
   },
   {
     "iso": "awa",
@@ -15983,9 +15951,7 @@
   },
   {
     "iso": "uon",
-    "bases": [
-      203265
-    ]
+    "bases": []
   },
   {
     "iso": "kuman",
@@ -16593,9 +16559,7 @@
   },
   {
     "iso": "riantana",
-    "bases": [
-      203092
-    ]
+    "bases": []
   },
   {
     "iso": "rotokas",
@@ -17021,9 +16985,7 @@
   },
   {
     "iso": "turaka",
-    "bases": [
-      203272
-    ]
+    "bases": []
   },
   {
     "iso": "turama-kikorian",
@@ -17463,9 +17425,7 @@
   },
   {
     "iso": "bijiang-bai-dialect",
-    "bases": [
-      1256
-    ]
+    "bases": []
   },
   {
     "iso": "bodish",
@@ -19454,7 +19414,7 @@
   {
     "iso": "pan",
     "bases": [
-      20023
+      200144
     ]
   },
   {
@@ -19589,15 +19549,11 @@
   },
   {
     "iso": "wol",
-    "bases": [
-      10034
-    ]
+    "bases": []
   },
   {
     "iso": "sna",
-    "bases": [
-      10035
-    ]
+    "bases": []
   },
   {
     "iso": "zul",
@@ -19728,7 +19684,7 @@
   {
     "iso": "su",
     "bases": [
-      10018
+      200506
     ]
   },
   {
@@ -22057,9 +22013,7 @@
   },
   {
     "iso": "x-ubykh",
-    "bases": [
-      202807
-    ]
+    "bases": []
   },
   {
     "iso": "x-icelandic",
@@ -22087,9 +22041,7 @@
   },
   {
     "iso": "x-bozal-spanish",
-    "bases": [
-      202262
-    ]
+    "bases": []
   },
   {
     "iso": "x-simplified-italian-of-libya",
@@ -22339,9 +22291,7 @@
   },
   {
     "iso": "x-borgarm-let",
-    "bases": [
-      202261
-    ]
+    "bases": []
   },
   {
     "iso": "x-missingsch",
@@ -22351,15 +22301,11 @@
   },
   {
     "iso": "x-namibian-black-german",
-    "bases": [
-      202281
-    ]
+    "bases": []
   },
   {
     "iso": "x-qifu",
-    "bases": [
-      202601
-    ]
+    "bases": []
   },
   {
     "iso": "x-rana-tharu",
@@ -22987,9 +22933,7 @@
   },
   {
     "iso": "x-puy",
-    "bases": [
-      202850
-    ]
+    "bases": []
   },
   {
     "iso": "x-s-rkaitum",
@@ -23437,9 +23381,7 @@
   },
   {
     "iso": "x-tindi",
-    "bases": [
-      202806
-    ]
+    "bases": []
   },
   {
     "iso": "x-lipsha",
@@ -24223,9 +24165,7 @@
   },
   {
     "iso": "x-dali-bai-language",
-    "bases": [
-      1259
-    ]
+    "bases": []
   },
   {
     "iso": "x-brahui",
@@ -24259,9 +24199,7 @@
   },
   {
     "iso": "x-mongsen-ao",
-    "bases": [
-      201272
-    ]
+    "bases": []
   },
   {
     "iso": "x-chol",
@@ -24361,9 +24299,7 @@
   },
   {
     "iso": "x-kanuri",
-    "bases": [
-      2105
-    ]
+    "bases": []
   },
   {
     "iso": "x-ejtun-dialect",
@@ -24469,9 +24405,7 @@
   },
   {
     "iso": "x-palawa-kani",
-    "bases": [
-      203047
-    ]
+    "bases": []
   },
   {
     "iso": "x-kirundi",
@@ -24541,9 +24475,7 @@
   },
   {
     "iso": "x-virgin-islands-creole-dedicated",
-    "bases": [
-      20187
-    ]
+    "bases": []
   },
   {
     "iso": "x-caribbean-english-creole",
@@ -24577,9 +24509,7 @@
   },
   {
     "iso": "x-haflong-hindi",
-    "bases": [
-      200942
-    ]
+    "bases": []
   },
   {
     "iso": "x-cauque-mayan-language",
@@ -24601,9 +24531,7 @@
   },
   {
     "iso": "x-sart-kalmyk",
-    "bases": [
-      200479
-    ]
+    "bases": []
   },
   {
     "iso": "x-gyeonggi-seoul",
@@ -24697,9 +24625,7 @@
   },
   {
     "iso": "x-turks-and-caicos-creole-dedicated",
-    "bases": [
-      20185
-    ]
+    "bases": []
   },
   {
     "iso": "x-bwamu",
@@ -24721,9 +24647,7 @@
   },
   {
     "iso": "x-pipil-nawat",
-    "bases": [
-      200658
-    ]
+    "bases": []
   },
   {
     "iso": "x-ke-yagana",
@@ -24757,9 +24681,7 @@
   },
   {
     "iso": "x-mambila",
-    "bases": [
-      2245
-    ]
+    "bases": []
   },
   {
     "iso": "x-kam-sui",
@@ -24889,9 +24811,7 @@
   },
   {
     "iso": "x-kuria",
-    "bases": [
-      2166
-    ]
+    "bases": []
   },
   {
     "iso": "x-ghadam-s",
@@ -24943,9 +24863,7 @@
   },
   {
     "iso": "x-settler-swahili",
-    "bases": [
-      200987
-    ]
+    "bases": []
   },
   {
     "iso": "x-kombai-wanggom",
@@ -24985,9 +24903,7 @@
   },
   {
     "iso": "x-lowland-iwur",
-    "bases": [
-      202351
-    ]
+    "bases": []
   },
   {
     "iso": "x-mian",
@@ -25051,15 +24967,11 @@
   },
   {
     "iso": "x-bonan-kangjia",
-    "bases": [
-      1354
-    ]
+    "bases": []
   },
   {
     "iso": "x-mala",
-    "bases": [
-      2244
-    ]
+    "bases": []
   },
   {
     "iso": "x-nc",
@@ -25141,15 +25053,11 @@
   },
   {
     "iso": "x-western-algerian-zenatic-dialects",
-    "bases": [
-      202317
-    ]
+    "bases": []
   },
   {
     "iso": "x-zurg",
-    "bases": [
-      202318
-    ]
+    "bases": []
   },
   {
     "iso": "x-becking-dawi",

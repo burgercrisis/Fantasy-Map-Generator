@@ -138,7 +138,7 @@ function diffMissing(baselineSet, currentSet) {
 }
 
 function listNamebasesFiles() {
-  const modulesDir = path.join(root, "modules");
+  const modulesDir = path.join(root, "public/modules");
   const entries = fs.readdirSync(modulesDir, {withFileTypes: true});
   const files = [];
 

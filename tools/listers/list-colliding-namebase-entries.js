@@ -3,7 +3,7 @@
 const fs = require("fs");
 const path = require("path");
 
-const MODULES_DIR = path.join(__dirname, "..", "..", "modules");
+const MODULES_DIR = path.join(__dirname, "..", "..", "public/modules");
 
 const OCEANIA_DEDICATED_INDICES = [
   20005, 20010, 20013, 20014, 20015, 20016,

@@ -17,7 +17,7 @@ const fs = require("fs");
 const path = require("path");
 
 const root = path.resolve(__dirname, "..");
-const MODULES_DIR = path.join(root, "modules");
+const MODULES_DIR = path.join(root, "public/modules");
 const CONFIG_DIR = path.join(root, "config");
 
 const DRY_RUN = !process.argv.includes("--commit");

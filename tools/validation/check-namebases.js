@@ -286,7 +286,7 @@ function cmdDuplicates() {
 // List backup files (moved from list-backup-files.js)
 
 function cmdBackups() {
-  const modsDir = path.join(root, "modules");
+  const modsDir = path.join(root, "public/modules");
   if (!fs.existsSync(modsDir)) { console.error("modules/ directory not found"); return; }
   const files = fs.readdirSync(modsDir).filter(f => f.includes(".backup"));
   console.log(`Backup files in modules/: ${files.length}\n`);

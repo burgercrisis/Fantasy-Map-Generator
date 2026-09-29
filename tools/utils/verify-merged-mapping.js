@@ -11,7 +11,7 @@ const path = require("path");
 
 const root = path.resolve(__dirname, "../..");
 const CONFIG_DIR = path.join(root, "config");
-const MODULES_DIR = path.join(root, "modules");
+const MODULES_DIR = path.join(root, "public/modules");
 
 const CONTINENT_FILES = [
   "namebases-africa.js",

@@ -14,7 +14,7 @@ const CONTINENT_FILES = [
   'namebases-creole.js'
 ];
 
-const MODULES_DIR = path.join(__dirname, '..', '..', 'modules');
+const MODULES_DIR = path.join(__dirname, '..', '..', 'public/modules');
 
 function parseContinentFile(filename) {
   const filepath = path.join(MODULES_DIR, filename);

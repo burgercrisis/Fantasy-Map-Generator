@@ -93,7 +93,7 @@ function parseIsosFromArgv(argv) {
 }
 
 function getMaxNamebaseIndex() {
-  const modulesDir = path.join(root, "modules");
+  const modulesDir = path.join(root, "public/modules");
   const files = fs.readdirSync(modulesDir).filter(f => /^namebases-.*\.js$/i.test(f));
 
   let maxI = -1;

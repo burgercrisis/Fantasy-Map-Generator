@@ -1,7 +1,7 @@
 const fs = require("fs");
 const path = require("path");
 
-const filePath = path.join(__dirname, "modules", "namebases-europe.js");
+const filePath = path.join(__dirname, "public/modules", "namebases-europe.js");
 const content = fs.readFileSync(filePath, "utf8");
 
 // Languages to expand with their authentic city lists

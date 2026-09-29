@@ -39,7 +39,7 @@ const root = path.resolve(__dirname, "..", "..");
 function loadBaseIndexToNameMap() {
   // Continental namebase files (replaced legacy namebases-real.js / namebases-creole.js).
   // Format: {"name": "English", "i": 1, ...}
-  const baseDir = path.join(root, "modules");
+  const baseDir = path.join(root, "public/modules");
   const files = [
     "namebases-africa.js",
     "namebases-asia.js",

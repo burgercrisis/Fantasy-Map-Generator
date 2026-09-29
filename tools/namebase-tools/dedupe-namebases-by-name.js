@@ -4,7 +4,7 @@ const fs = require("fs");
 const path = require("path");
 
 const continents = ["Africa", "Asia", "Europe", "NorthAmerica", "Oceania", "SouthAmerica"];
-const root = path.join(__dirname, "..", "modules");
+const root = path.join(__dirname, "..", "public/modules");
 
 function loadNamebases() {
   const namebases = {};

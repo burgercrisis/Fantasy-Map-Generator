@@ -23,7 +23,7 @@ const CONTINENT_FILES = [
 ];
 
 function sortContinentFile(filename) {
-  const filepath = path.join(__dirname, '..', 'modules', filename);
+  const filepath = path.join(__dirname, '..', 'public/modules', filename);
   if (!fs.existsSync(filepath)) {
     console.log(`File not found: ${filename}`);
     return null;
@@ -77,7 +77,7 @@ function sortContinentFile(filename) {
   const newContent = `window.${varName} = [${newArrayContent}];\n`;
 
   // Create backup
-  const backupFile = path.join(__dirname, '..', 'modules', `${filename}.backup-${Date.now()}`);
+  const backupFile = path.join(__dirname, '..', 'public/modules', `${filename}.backup-${Date.now()}`);
   fs.writeFileSync(backupFile, content);
 
   // Write sorted content

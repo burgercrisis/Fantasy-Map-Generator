@@ -24,7 +24,7 @@ const CONTINENT_FILES = [
 ];
 
 function parseContinentFile(filename) {
-  const filepath = path.join(__dirname, '..', 'modules', filename);
+  const filepath = path.join(__dirname, '..', 'public/modules', filename);
   if (!fs.existsSync(filepath)) {
     return { filename, entries: [], error: 'File not found' };
   }

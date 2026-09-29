@@ -254,7 +254,7 @@ function cleanup(config) {
       ];
       
       for (const nbFile of continentFiles) {
-        const nbPath = path.join(root, "modules", nbFile);
+        const nbPath = path.join(root, "public/modules", nbFile);
         if (fs.existsSync(nbPath)) {
           const content = fs.readFileSync(nbPath, "utf8");
           const idxMatch = content.match(/"i":\s*(\d+)/g);

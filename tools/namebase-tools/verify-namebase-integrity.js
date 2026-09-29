@@ -310,7 +310,7 @@ if (fs.existsSync(toolsDir)) {
   const stalePathRefs = [];
   // Two shapes appear in this codebase:
   //   "modules/namebases-africa.js"                       (single literal)
-  //   path.join(root, "modules", "namebases-africa.js")   (multi-arg join)
+  //   path.join(root, "public/modules", "namebases-africa.js")   (multi-arg join)
   // Matching only the first would undercount by more than half.
   const patterns = [
     /["']((?:modules|config)\/namebases-[A-Za-z0-9._-]+\.js)["']/g,
@@ -611,6 +611,37 @@ for (const p of subsetDuplicates(allEntries, {minSeeds: 5, share: 0.7})) {
         }
       }
     }
+  }
+}
+
+// ---------------------------------------------------------------------------
+// E013 - there must be only one namebase tree
+// ---------------------------------------------------------------------------
+//
+// This repo had two. public/modules/ is what src/index.html loads - vite's
+// publicDir is "../public", so a src-relative "modules/x.js" resolves there at
+// runtime, and stamp-assets.js computes the ?v= query params from there.
+// modules/ was a git-tracked duplicate that nothing served: 4,746 entries
+// against public/modules/'s 3,802, 24% larger and diverged long ago.
+//
+// Twenty-nine tools read the duplicate, including the two this work trusted
+// most. check-language-mixer-guardrails.js and check-mixer-health.js both did
+// path.join(root, "modules"), so every "guardrails OK" reported while that
+// existed was validating a dataset the app never loads.
+//
+// A second copy is not a slow drift, it is a fork: once the two disagree,
+// which one a tool reads depends on the tool, and the answer is not knowable
+// from the output. All of them now read public/modules/ and the duplicate is
+// deleted. This check keeps it deleted.
+
+{
+  const shadow = path.join(root, "modules");
+  if (fs.existsSync(shadow)) {
+    const entries = fs.readdirSync(shadow).filter(n => n.startsWith("namebases-"));
+    err("E013", "modules/",
+      `exists again and holds ${entries.length} namebase file(s). public/modules/ is the only tree the ` +
+      `app loads; a second copy is a fork, not a backup. If it was recreated deliberately, point the ` +
+      `tools at public/modules/ instead.`);
   }
 }
 

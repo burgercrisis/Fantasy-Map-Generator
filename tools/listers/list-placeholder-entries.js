@@ -3,7 +3,7 @@
 const fs = require("fs");
 const path = require("path");
 
-const MODULES_DIR = path.join(__dirname, "..", "..", "modules");
+const MODULES_DIR = path.join(__dirname, "..", "..", "public/modules");
 
 const NAMEBASE_FILES = [
   "namebases-africa.js",

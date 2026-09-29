@@ -130,7 +130,7 @@ function checkFailures() {
   const mixes = readJson("config/language-mixes.json");
 
   // Load valid base indices from continental namebase files (replaced legacy namebases-real.js)
-  const baseDir = path.join(root, "modules");
+  const baseDir = path.join(root, "public/modules");
   const namebaseFiles = [
     "namebases-africa.js",
     "namebases-asia.js",

@@ -18,7 +18,7 @@ function loadNameBases() {
   sandbox.globalThis = sandbox;
   const context = vm.createContext(sandbox);
 
-  const file = path.join(root, "modules", "namebases-all.js");
+  const file = path.join(root, "public/modules", "namebases-all.js");
   const src = fs.readFileSync(file, "utf8");
   vm.runInContext(src, context, { filename: file });
 

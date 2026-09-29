@@ -34,7 +34,7 @@ function loadDefaultNameBases() {
   const files = continentFiles.concat(["namebases-fantasy.js", "namebases-dedicated.js", "namebases-all.js"]);
 
   for (const f of files) {
-    const full = path.join(root, "modules", f);
+    const full = path.join(root, "public/modules", f);
     const src = fs.readFileSync(full, "utf8");
     vm.runInContext(src, context, {filename: full});
   }
