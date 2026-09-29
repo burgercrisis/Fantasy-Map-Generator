@@ -136,7 +136,7 @@ const fantasyRaceBases: Record<string, number[]> = {
 const raceLanguageProfiles: Record<string, RaceLanguageProfile> = {
   Elf: {
     // the ONE Celtic voice in the set now; high-vowel Finnish/Karelian keeps the elvish shimmer
-    categories: ["Celtic", "Indo-European", "Uralic"],
+    categories: ["Indo-European", "Uralic"],
     families: ["Celtic", "Finnish", "Karelian Proper", "Kven", "Livvi", "Mator", "Meänkieli"],
     isos: [
       "american-finnish",
@@ -212,7 +212,7 @@ const raceLanguageProfiles: Record<string, RaceLanguageProfile> = {
   },
   Dwarf: {
     // stony Norse-Baltic; the only race on the broad Germanic family, so nothing else can collide with it
-    categories: ["Baltic", "Germanic", "Indo-European"],
+    categories: ["Germanic", "Indo-European"],
     families: ["Baltic", "Germanic", "North Germanic", "West Germanic"],
     isos: [
       "afrikaans",
@@ -419,7 +419,6 @@ const raceLanguageProfiles: Record<string, RaceLanguageProfile> = {
   "Half-Elf": {
     // the wanderer between worlds: diaspora Indo-Aryan plus the small American families, a deliberately mixed register
     categories: [
-      "Aymaran",
       "Barbacoan",
       "Chimilan",
       "Chocoan",
@@ -427,7 +426,6 @@ const raceLanguageProfiles: Record<string, RaceLanguageProfile> = {
       "Indo-Aryan",
       "Isolate",
       "Keresan",
-      "Language Isolate",
       "Language isolate",
       "Misumalpan",
       "Nadahup",
@@ -493,7 +491,18 @@ const raceLanguageProfiles: Record<string, RaceLanguageProfile> = {
   },
   "Half-Orc": {
     // born between two worlds: creoles and pidgins, deliberately unlike Orcs Turkic steppe
-    categories: ["Creole", "Indo-European", "Mixed", "Pidgin", "Romance"],
+    categories: [
+      "Creole",
+      "Eskimo-Aleut",
+      "Hmong-Mien",
+      "Indo-European",
+      "Mayan",
+      "Mixed",
+      "Niger-Congo",
+      "Pidgin",
+      "Romance",
+      "Sino-Tibetan"
+    ],
     families: [
       "Afrikaans-based",
       "Aleut",
@@ -760,7 +769,7 @@ const raceLanguageProfiles: Record<string, RaceLanguageProfile> = {
   },
   Goblin: {
     // chattering West/Central African: takes the whole Niger-Congo block so no other race can reach it
-    categories: ["Niger-Congo"],
+    categories: ["Afroasiatic", "Niger-Congo", "Nilo-Saharan"],
     families: [
       "Adamawa",
       "Akan",
@@ -1529,7 +1538,7 @@ const raceLanguageProfiles: Record<string, RaceLanguageProfile> = {
   },
   Arachnid: {
     // venomous, sibilant, ancient: West + East Semitic and the Ethiopic Semitic branch
-    categories: ["Afro-Asiatic", "Afroasiatic"],
+    categories: ["Afroasiatic"],
     families: [
       "Arabic",
       "Aramaic",
@@ -1723,7 +1732,7 @@ const raceLanguageProfiles: Record<string, RaceLanguageProfile> = {
   },
   Tiefling: {
     // infernal, silk-voiced: Cushitic + Berber, deliberately NOT Semitic so Arachnid stays separate
-    categories: ["Afro-Asiatic", "Afroasiatic"],
+    categories: ["Afroasiatic"],
     families: [
       "Afroasiatic",
       "Atlas Berber",
@@ -2079,7 +2088,7 @@ const raceLanguageProfiles: Record<string, RaceLanguageProfile> = {
   },
   Lizardfolk: {
     // Saharan and Nilotic: a dry clicking reptilian hiss, split from Gnolls Chadic
-    categories: ["Nilo-Saharan", "Ubangian"],
+    categories: ["Afroasiatic", "Niger-Congo", "Nilo-Saharan"],
     families: [
       "Bantu",
       "Berta",
@@ -2145,7 +2154,7 @@ const raceLanguageProfiles: Record<string, RaceLanguageProfile> = {
   },
   Gnoll: {
     // the hyena laugh: the Chadic block plus the click isolates, a genuinely alien sound
-    categories: ["Afro-Asiatic", "Afroasiatic", "Isolate"],
+    categories: ["Afroasiatic", "Isolate"],
     families: ["Chadic", "Hadza isolate", "Sandawe isolate"],
     isos: [
       "afade",
@@ -2394,16 +2403,7 @@ const raceLanguageProfiles: Record<string, RaceLanguageProfile> = {
   },
   Tabaxi: {
     // the jungle cat: Mesoamerica only - the Hmong-Mien that used to sit here moved to Gith
-    categories: [
-      "Chibchan",
-      "Language Isolate",
-      "Language isolate",
-      "Mayan",
-      "Mixe-Zoque",
-      "Oto-Manguean",
-      "Totonacan",
-      "Uto-Aztecan"
-    ],
+    categories: ["Chibchan", "Language isolate", "Mayan", "Mixe-Zoque", "Oto-Manguean", "Totonacan", "Uto-Aztecan"],
     families: [
       "Basque",
       "Chibchan",
@@ -2497,7 +2497,6 @@ const raceLanguageProfiles: Record<string, RaceLanguageProfile> = {
     // the bird-voice people: North American plains and woodland families, with the isolates for the broken cry
     categories: [
       "Algic",
-      "Algonquian",
       "Iroquoian",
       "Keresan",
       "Kiowa–Tanoan",
@@ -2641,7 +2640,6 @@ const raceLanguageProfiles: Record<string, RaceLanguageProfile> = {
       "Southeast Papuan",
       "Timor–Alor–Pantar",
       "Trans-New Guinea",
-      "Trans–New Guinea",
       "West Bomberai",
       "West Papuan"
     ],
@@ -3006,7 +3004,7 @@ const raceLanguageProfiles: Record<string, RaceLanguageProfile> = {
   },
   Gith: {
     // ancient psionic exiles: Hmong-Mien + Kuki-Chin, a reedy highland sound
-    categories: ["Hmong-Mien", "Mixed", "Sino-Tibetan"],
+    categories: ["Hmong-Mien", "Sino-Tibetan"],
     families: [
       "Bahengic",
       "Bu–Nao",
@@ -3972,10 +3970,10 @@ const raceLanguageProfiles: Record<string, RaceLanguageProfile> = {
   },
   Owlin: {
     // the watcher: Tungusic + Eskimo-Aleut, a breathy far-north sound nothing else uses
-    categories: ["Eskimo-Aleut", "Eskimo–Aleut", "Tungusic"],
+    categories: ["Eskimo-Aleut", "Tungusic"],
     families: [
       "Aleut",
-      "Eskimo–Aleut",
+      "Eskimo-Aleut",
       "Ewenic",
       "Inuit",
       "Jurchenic",
@@ -4108,8 +4106,8 @@ const raceLanguageProfiles: Record<string, RaceLanguageProfile> = {
   },
   Starspawn: {
     // born of a wish: Yeniseian plus the residual unattributed rows, an archaic star-lit sound
-    categories: ["Language isolate", "Papuan", "Yeniseian"],
-    families: ["Language Isolate", "Language isolate", "Northern", "Omotic", "Southern", "Yeniseian"],
+    categories: ["Afroasiatic", "Language isolate", "Papuan", "Yeniseian"],
+    families: ["Language isolate", "Northern", "Omotic", "Southern", "Yeniseian"],
     isos: [
       "arin",
       "assan",
@@ -4179,7 +4177,7 @@ const raceLanguageProfiles: Record<string, RaceLanguageProfile> = {
   },
   Seafarer: {
     // the owners Polynesian / Micronesian direction: keeps the whole oceanic macro and cedes Melanesia to Triton
-    categories: ["Austronesian", "Micronesian", "Polynesian"],
+    categories: ["Austronesian", "Micronesian"],
     families: [
       "Chuukic",
       "Gilbertese",
@@ -4231,11 +4229,9 @@ const raceLanguageProfiles: Record<string, RaceLanguageProfile> = {
   AnyLanguage: {
     // catch-all fallback; unchanged
     categories: [
-      "Afro-Asiatic",
       "Afroasiatic",
       "Ainu",
       "Algic",
-      "Algonquian",
       "Andamanese",
       "Arauan",
       "Araucanian",
@@ -4243,9 +4239,7 @@ const raceLanguageProfiles: Record<string, RaceLanguageProfile> = {
       "Australian Aboriginal",
       "Austroasiatic",
       "Austronesian",
-      "Baltic",
       "Barbacoan",
-      "Celtic",
       "Chapacuran",
       "Chibchan",
       "Chocoan",
@@ -4255,7 +4249,6 @@ const raceLanguageProfiles: Record<string, RaceLanguageProfile> = {
       "Dravidian",
       "English Creole",
       "Eskimo-Aleut",
-      "Eskimo–Aleut",
       "Germanic",
       "Guahiboan",
       "Hmong-Mien",
@@ -4272,7 +4265,6 @@ const raceLanguageProfiles: Record<string, RaceLanguageProfile> = {
       "Koreanic",
       "Kusunda isolate",
       "Kx'a",
-      "Language Isolate",
       "Language isolate",
       "Macro-Jê",
       "Mayan",
@@ -4291,7 +4283,6 @@ const raceLanguageProfiles: Record<string, RaceLanguageProfile> = {
       "Panoan",
       "Papuan",
       "Pidgin",
-      "Polynesian",
       "Quechuan",
       "Romance",
       "Sino-Tibetan",
@@ -4348,7 +4339,6 @@ const raceLanguageProfiles: Record<string, RaceLanguageProfile> = {
       "Binanderean",
       "Bodish",
       "Boro-Garo",
-      "Boro–Garo",
       "Bosavi",
       "Burmish",
       "Buryat",
@@ -4404,7 +4394,7 @@ const raceLanguageProfiles: Record<string, RaceLanguageProfile> = {
       "Engan",
       "English Creole",
       "English-based",
-      "Eskimo–Aleut",
+      "Eskimo-Aleut",
       "Ewenic",
       "Extinct",
       "Far Eastern Khanty",
@@ -4618,7 +4608,6 @@ const raceLanguageProfiles: Record<string, RaceLanguageProfile> = {
       "Timor–Alor–Pantar",
       "Tivoid",
       "Trans-New Guinea",
-      "Trans–New Guinea",
       "Tsimané isolate",
       "Tucanoan",
       "Tupi-Guarani",
@@ -5753,11 +5742,9 @@ const raceLanguageProfiles: Record<string, RaceLanguageProfile> = {
   Human: {
     // catch-all baseline; unchanged
     categories: [
-      "Afro-Asiatic",
       "Afroasiatic",
       "Ainu",
       "Algic",
-      "Algonquian",
       "Amazonian",
       "Andamanese",
       "Arauan",
@@ -5766,10 +5753,8 @@ const raceLanguageProfiles: Record<string, RaceLanguageProfile> = {
       "Australian Aboriginal",
       "Austroasiatic",
       "Austronesian",
-      "Aymaran",
       "Barbacoan",
       "Cariban",
-      "Celtic",
       "Chapacuran",
       "Chibchan",
       "Chimilan",
@@ -5783,7 +5768,6 @@ const raceLanguageProfiles: Record<string, RaceLanguageProfile> = {
       "Hmong-Mien",
       "Indo-Aryan",
       "Indo-European",
-      "Indo-Iranian",
       "Iranian",
       "Iroquoian",
       "Japonic",
@@ -5791,7 +5775,6 @@ const raceLanguageProfiles: Record<string, RaceLanguageProfile> = {
       "Khoe-Kwadi",
       "Koreanic",
       "Kx'a",
-      "Language Isolate",
       "Language isolate",
       "Macro-Jê",
       "Matacoan",
@@ -5810,7 +5793,6 @@ const raceLanguageProfiles: Record<string, RaceLanguageProfile> = {
       "Oto-Manguean",
       "Papuan",
       "Pidgin",
-      "Polynesian",
       "Romance",
       "Sino-Tibetan",
       "Slavic",
@@ -5873,7 +5855,6 @@ const raceLanguageProfiles: Record<string, RaceLanguageProfile> = {
       "Binanderean",
       "Bodish",
       "Boro-Garo",
-      "Boro–Garo",
       "Bosavi",
       "Burmish",
       "Buryat",
@@ -6134,7 +6115,7 @@ const raceLanguageProfiles: Record<string, RaceLanguageProfile> = {
       "Timor–Alor–Pantar",
       "Tivoid",
       "Tobian",
-      "Trans–New Guinea",
+      "Trans-New Guinea",
       "Tsimané isolate",
       "Tuareg Berber",
       "Tucanoan",

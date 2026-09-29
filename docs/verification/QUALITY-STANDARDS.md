@@ -269,16 +269,41 @@ Rules:
   than helping them. Merging is only appropriate where two families are
   genuinely the same node under two names — an explicit list, not a rule.
 
-Do not add a `macroFamily` field. It was proposed and rejected: 33 family values
-already appear under more than one category, so `family` cannot uniquely
-determine a parent, and the field would have been a second source of truth that
-disagreed with the first.
+Do not add a `macroFamily` field. It was proposed and rejected: at the time,
+33 family values appeared under more than one category, so `family` could not
+uniquely determine a parent, and the field would have been a second source of
+truth that disagreed with the first.
+
+**That justification has weakened and should be re-examined.** Those 33 are now
+4 — `English-based` (Creole + Pidgin, a genuine lexical split), and three junk
+buckets (`Mixed`, `Proto`, `Language isolate`). Once the junk buckets are
+cleared, `family` may well determine a parent, and `macroFamily` may be the
+better long-term design. It is not being added now because two fields that
+disagree are worse than one field that is occasionally too coarse.
 
 The authoritative family table, its sizes, and the entries left unresolved are
-in `docs/verification/research/family-taxonomy.md`. Race profile `families` and
-`categories` are **derived from each race's own `isos` set** and must never be
-hand-maintained — they were, they drifted, and six names went stale when the
-taxonomy was corrected.
+in `docs/verification/research/family-taxonomy.md`.
+
+### 5.8 Race profile `families` and `categories`
+
+These are **generated, not hand-written, and checked in**. `src/generators/races.ts`
+carries 47 literal `isos`, `families` and `categories` arrays. The latter two
+are produced from `isos` by a regeneration step and are not computed at read
+time — `getRaceLanguageIsoWeights` reads the `isos` literals, and the races
+editor reads the `families` and `categories` literals.
+
+Rules:
+
+- **Regenerate, never hand-edit.** Editing a `families` array by hand reintroduces
+  the drift this exists to prevent. The arrays drifted once already: six family
+  names went stale when the catalog taxonomy was corrected, and 2 of 9 race
+  tests failed because the profiles still asked for names the catalog no longer
+  had.
+- The `isos` set is authoritative. `families` and `categories` are display
+  metadata for the races editor and must always be a projection of `isos`.
+- `tools/namebase-tools/race-profiles.test.js` asserts that every family and
+  category a profile names exists in the catalog. A catalog change that retires
+  a family must be followed by a regeneration, or this fails.
 
 ## 6. File Assignment
 

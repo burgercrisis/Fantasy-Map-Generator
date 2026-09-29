@@ -158,7 +158,7 @@
       "name": "Anaang",
       "iso": "anaang",
       "region": "Africa",
-      "category": "Niger-Congo",
+      "category": "Nilo-Saharan",
       "family": "Kunama"
     },
     {
@@ -193,7 +193,7 @@
       "name": "Asoa",
       "iso": "asoa",
       "region": "Africa",
-      "category": "Nilo-Saharan",
+      "category": "Niger-Congo",
       "family": "Bantu"
     },
     {
@@ -291,7 +291,7 @@
       "name": "Baka",
       "iso": "baka",
       "region": "Africa",
-      "category": "Nilo-Saharan",
+      "category": "Niger-Congo",
       "family": "Bantu"
     },
     {
@@ -468,7 +468,7 @@
       "name": "Beli",
       "iso": "beli",
       "region": "Africa",
-      "category": "Nilo-Saharan",
+      "category": "Niger-Congo",
       "family": "Bantu"
     },
     {
@@ -615,7 +615,7 @@
       "name": "Boko",
       "iso": "boko",
       "region": "Africa",
-      "category": "Niger-Congo",
+      "category": "Afroasiatic",
       "family": "Chadic"
     },
     {
@@ -927,7 +927,7 @@
       "name": "Chung",
       "iso": "chung",
       "region": "Africa",
-      "category": "Niger-Congo",
+      "category": "Afroasiatic",
       "family": "Chadic"
     },
     {
@@ -1358,7 +1358,7 @@
       "name": "Furu",
       "iso": "furu",
       "region": "Africa",
-      "category": "Nilo-Saharan",
+      "category": "Afroasiatic",
       "family": "Chadic"
     },
     {
@@ -1686,7 +1686,7 @@
       "name": "Hozo",
       "iso": "hozo",
       "region": "Africa",
-      "category": "Nilo-Saharan",
+      "category": "Niger-Congo",
       "family": "Bantu"
     },
     {
@@ -3038,7 +3038,7 @@
       "name": "Shabo",
       "iso": "shabo",
       "region": "Africa",
-      "category": "Language isolate",
+      "category": "Afroasiatic",
       "family": "Omotic"
     },
     {
@@ -3177,7 +3177,7 @@
       "name": "South Banda",
       "iso": "south-banda",
       "region": "Africa",
-      "category": "Ubangian",
+      "category": "Niger-Congo",
       "family": "Ubangian"
     },
     {
@@ -3374,7 +3374,7 @@
       "name": "Tagdal",
       "iso": "tagdal",
       "region": "Africa",
-      "category": "Nilo-Saharan",
+      "category": "Afroasiatic",
       "family": "Tuareg Berber"
     },
     {
@@ -3483,7 +3483,7 @@
       "name": "Teda",
       "iso": "teda",
       "region": "Africa",
-      "category": "Nilo-Saharan",
+      "category": "Afroasiatic",
       "family": "Tuareg Berber"
     },
     {
@@ -3932,7 +3932,7 @@
       "name": "West Banda",
       "iso": "west-banda",
       "region": "Africa",
-      "category": "Ubangian",
+      "category": "Niger-Congo",
       "family": "Ubangian"
     },
     {
@@ -4018,7 +4018,7 @@
       "name": "Yangere",
       "iso": "yangere",
       "region": "Africa",
-      "category": "Ubangian",
+      "category": "Niger-Congo",
       "family": "Ubangian"
     },
     {
@@ -4083,7 +4083,7 @@
       "name": "Yulu",
       "iso": "yulu",
       "region": "Africa",
-      "category": "Nilo-Saharan",
+      "category": "Niger-Congo",
       "family": "Bantu"
     },
     {
@@ -4250,7 +4250,7 @@
       "name": "Spanglish",
       "iso": "spanglish",
       "region": "Americas",
-      "category": "Mixed",
+      "category": "Creole",
       "family": "English-based",
       "tags": [
         "mixed"
@@ -4295,41 +4295,41 @@
       "name": "Inuinnaqtun",
       "iso": "inuinnaqtun",
       "region": "Arctic",
-      "category": "Eskimo–Aleut",
+      "category": "Eskimo-Aleut",
       "wikipedia": "https://en.wikipedia.org/wiki/Inuinnaqtun",
-      "family": "Eskimo–Aleut"
+      "family": "Eskimo-Aleut"
     },
     {
       "name": "Inuktitut",
       "iso": "iku",
       "region": "Arctic",
-      "category": "Eskimo–Aleut",
+      "category": "Eskimo-Aleut",
       "wikipedia": "https://en.wikipedia.org/wiki/Inuktitut",
-      "family": "Eskimo–Aleut"
+      "family": "Eskimo-Aleut"
     },
     {
       "name": "Iñupiaq",
       "iso": "inupiaq",
       "region": "Arctic",
-      "category": "Eskimo–Aleut",
+      "category": "Eskimo-Aleut",
       "wikipedia": "https://en.wikipedia.org/wiki/I%C3%B1upiaq_language",
-      "family": "Eskimo–Aleut"
+      "family": "Eskimo-Aleut"
     },
     {
       "name": "Inuvialuktun",
       "iso": "inuvialuktun",
       "region": "Arctic",
-      "category": "Eskimo–Aleut",
+      "category": "Eskimo-Aleut",
       "wikipedia": "https://en.wikipedia.org/wiki/Inuvialuktun",
-      "family": "Eskimo–Aleut"
+      "family": "Eskimo-Aleut"
     },
     {
       "name": "Kalaallisut",
       "iso": "kalaallisut",
       "region": "Arctic",
-      "category": "Eskimo–Aleut",
+      "category": "Eskimo-Aleut",
       "wikipedia": "https://en.wikipedia.org/wiki/Greenlandic_language",
-      "family": "Eskimo–Aleut"
+      "family": "Eskimo-Aleut"
     },
     {
       "name": "Naukan",
@@ -4944,7 +4944,7 @@
       "name": "Bhaya",
       "iso": "bhe",
       "region": "Asia",
-      "category": "Indo-Aryan",
+      "category": "Indo-European",
       "family": "Indo-Aryan"
     },
     {
@@ -5286,7 +5286,7 @@
       "name": "Chilisso",
       "iso": "clh",
       "region": "Asia",
-      "category": "Indo-Aryan",
+      "category": "Indo-European",
       "family": "Indo-Aryan"
     },
     {
@@ -5432,7 +5432,7 @@
       "name": "Dameli",
       "iso": "dml",
       "region": "Asia",
-      "category": "Indo-Aryan",
+      "category": "Indo-European",
       "family": "Indo-Aryan"
     },
     {
@@ -5798,14 +5798,14 @@
       "name": "Ghera",
       "iso": "ghr",
       "region": "Asia",
-      "category": "Indo-Aryan",
+      "category": "Indo-European",
       "family": "Indo-Aryan"
     },
     {
       "name": "Goaria",
       "iso": "gig",
       "region": "Asia",
-      "category": "Indo-Aryan",
+      "category": "Indo-European",
       "family": "Indo-Aryan"
     },
     {
@@ -5923,7 +5923,7 @@
       "name": "Halbi",
       "iso": "hlb",
       "region": "Asia",
-      "category": "Indo-Aryan",
+      "category": "Indo-European",
       "family": "Indo-Aryan",
       "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:hlb"
     },
@@ -5991,7 +5991,7 @@
       "name": "Hinglish",
       "iso": "hinglish",
       "region": "Asia",
-      "category": "Mixed",
+      "category": "Creole",
       "family": "English-based",
       "wikipedia": "https://en.wikipedia.org/wiki/Hinglish",
       "tags": [
@@ -6284,7 +6284,7 @@
       "name": "Kabutra",
       "iso": "kbu",
       "region": "Asia",
-      "category": "Indo-Aryan",
+      "category": "Indo-European",
       "family": "Indo-Aryan"
     },
     {
@@ -6613,7 +6613,7 @@
       "name": "Khetrani",
       "iso": "xhe",
       "region": "Asia",
-      "category": "Indo-Aryan",
+      "category": "Indo-European",
       "family": "Indo-Aryan"
     },
     {
@@ -6878,7 +6878,7 @@
       "name": "Kumal",
       "iso": "kumhali",
       "region": "Asia",
-      "category": "Indo-Aryan",
+      "category": "Indo-European",
       "family": "Indo-Aryan",
       "tags": [
         "alias"
@@ -6902,14 +6902,14 @@
       "name": "Kumhali",
       "iso": "kra",
       "region": "Asia",
-      "category": "Indo-Aryan",
+      "category": "Indo-European",
       "family": "Indo-Aryan"
     },
     {
       "name": "Kundal Shahi",
       "iso": "shd",
       "region": "Asia",
-      "category": "Indo-Aryan",
+      "category": "Indo-European",
       "family": "Indo-Aryan"
     },
     {
@@ -7085,7 +7085,7 @@
       "name": "Lasi",
       "iso": "lss",
       "region": "Asia",
-      "category": "Iranian",
+      "category": "Indo-European",
       "family": "Iranian"
     },
     {
@@ -7289,7 +7289,7 @@
       "name": "Malpande",
       "iso": "x-nepal-malpande",
       "region": "Asia",
-      "category": "Indo-Aryan",
+      "category": "Indo-European",
       "family": "Indo-Aryan"
     },
     {
@@ -7376,7 +7376,7 @@
       "name": "Mankiyali",
       "iso": "nlm",
       "region": "Asia",
-      "category": "Indo-Aryan",
+      "category": "Indo-European",
       "family": "Indo-Aryan"
     },
     {
@@ -7992,7 +7992,7 @@
       "name": "Ormuri",
       "iso": "oru",
       "region": "Asia",
-      "category": "Iranian",
+      "category": "Indo-European",
       "family": "Iranian"
     },
     {
@@ -8131,7 +8131,7 @@
       "name": "Pashto",
       "iso": "pashto",
       "region": "Asia",
-      "category": "Indo-Iranian",
+      "category": "Iranian",
       "wikipedia": "https://en.wikipedia.org/wiki/Pashto",
       "family": "Pashto"
     },
@@ -8466,7 +8466,7 @@
       "name": "Raute",
       "iso": "rau",
       "region": "Asia",
-      "category": "Sino-Tibetan",
+      "category": "Indo-Aryan",
       "family": "Raji–Raute"
     },
     {
@@ -8643,7 +8643,7 @@
       "name": "Sapa",
       "iso": "sapa",
       "region": "Asia",
-      "category": "Tai-Kadai",
+      "category": "Hmong-Mien",
       "family": "Hmongic"
     },
     {
@@ -8807,7 +8807,7 @@
       "name": "Sindhi",
       "iso": "sindhi",
       "region": "Asia",
-      "category": "Indo-Aryan",
+      "category": "Indo-European",
       "wikipedia": "https://en.wikipedia.org/wiki/Sindhi_language",
       "family": "Indo-Aryan"
     },
@@ -8822,7 +8822,7 @@
       "name": "Sinhala",
       "iso": "sinhala",
       "region": "Asia",
-      "category": "Indo-Aryan",
+      "category": "Indo-European",
       "wikipedia": "https://en.wikipedia.org/wiki/Sinhalese_language",
       "family": "Indo-Aryan"
     },
@@ -9535,7 +9535,7 @@
       "name": "Ushojo",
       "iso": "ush",
       "region": "Asia",
-      "category": "Indo-Aryan",
+      "category": "Indo-European",
       "family": "Indo-Aryan"
     },
     {
@@ -9663,7 +9663,7 @@
       "name": "Waneci",
       "iso": "wne",
       "region": "Asia",
-      "category": "Iranian",
+      "category": "Indo-European",
       "family": "Iranian"
     },
     {
@@ -9705,7 +9705,7 @@
       "name": "Yadgha",
       "iso": "ydg",
       "region": "Asia",
-      "category": "Iranian",
+      "category": "Indo-European",
       "family": "Iranian"
     },
     {
@@ -10886,7 +10886,7 @@
       "name": "Tat",
       "iso": "ttt",
       "region": "Caucasus",
-      "category": "Iranian",
+      "category": "Indo-European",
       "family": "Iranian"
     },
     {
@@ -10987,7 +10987,7 @@
       "name": "Sogdian",
       "iso": "sogdian",
       "region": "Central Asia",
-      "category": "Iranian",
+      "category": "Indo-European",
       "wikipedia": "https://en.wikipedia.org/wiki/Sogdian_language",
       "family": "Iranian"
     },
@@ -10995,7 +10995,7 @@
       "name": "Tajik",
       "iso": "tajik",
       "region": "Central Asia",
-      "category": "Indo-Iranian",
+      "category": "Iranian",
       "wikipedia": "https://en.wikipedia.org/wiki/Tajik_language",
       "family": "Persian"
     },
@@ -11034,7 +11034,7 @@
       "name": "Badong Yao",
       "iso": "badong-yao",
       "region": "East Asia",
-      "category": "Mixed",
+      "category": "Sino-Tibetan",
       "family": "Hmong-Mien",
       "lexifier": "Chinese"
     },
@@ -11403,7 +11403,7 @@
       "name": "Maojia",
       "iso": "maojia",
       "region": "East Asia",
-      "category": "Mixed",
+      "category": "Sino-Tibetan",
       "family": "Hmong-Mien",
       "lexifier": "Chinese"
     },
@@ -11523,7 +11523,7 @@
       "name": "Proto-Hmong-Mien",
       "iso": "proto-hmong-mien",
       "region": "East Asia",
-      "category": "Hmong-Mien",
+      "category": "Sino-Tibetan",
       "family": "Hmong-Mien",
       "tags": [
         "extinct",
@@ -11637,7 +11637,7 @@
       "name": "She Chinese",
       "iso": "she-chinese",
       "region": "East Asia",
-      "category": "Mixed",
+      "category": "Sino-Tibetan",
       "family": "Hmong-Mien",
       "lexifier": "Chinese"
     },
@@ -11756,7 +11756,7 @@
       "name": "Yeheni",
       "iso": "yeheni",
       "region": "East Asia",
-      "category": "Mixed",
+      "category": "Sino-Tibetan",
       "family": "Hmong-Mien",
       "lexifier": "Chinese"
     },
@@ -11764,7 +11764,7 @@
       "name": "Younian",
       "iso": "younian",
       "region": "East Asia",
-      "category": "Mixed",
+      "category": "Sino-Tibetan",
       "family": "Hmong-Mien",
       "lexifier": "Chinese"
     },
@@ -14332,7 +14332,7 @@
       "name": "Breton",
       "iso": "breton",
       "region": "Europe",
-      "category": "Celtic",
+      "category": "Indo-European",
       "wikipedia": "https://en.wikipedia.org/wiki/Breton_language",
       "family": "Celtic"
     },
@@ -14591,7 +14591,7 @@
       "name": "Cornish",
       "iso": "cornish",
       "region": "Europe",
-      "category": "Celtic",
+      "category": "Indo-European",
       "wikipedia": "https://en.wikipedia.org/wiki/Cornish_language",
       "family": "Celtic"
     },
@@ -14915,7 +14915,7 @@
       "name": "Franglish",
       "iso": "franglish",
       "region": "Europe",
-      "category": "Mixed",
+      "category": "Creole",
       "family": "English-based",
       "tags": [
         "mixed"
@@ -14950,7 +14950,7 @@
       "name": "Gaelic",
       "iso": "gla",
       "region": "Europe",
-      "category": "Celtic",
+      "category": "Indo-European",
       "wikipedia": "https://en.wikipedia.org/wiki/Scottish_Gaelic",
       "family": "Celtic"
     },
@@ -15030,7 +15030,7 @@
       "name": "Gaulish",
       "iso": "gaulish",
       "region": "Europe",
-      "category": "Celtic",
+      "category": "Indo-European",
       "wikipedia": "https://en.wikipedia.org/wiki/Gaulish_language",
       "family": "Celtic",
       "tags": [
@@ -15113,7 +15113,7 @@
     {
       "name": "Irish",
       "iso": "gle",
-      "category": "Celtic",
+      "category": "Indo-European",
       "region": "Europe",
       "family": "Celtic"
     },
@@ -15336,7 +15336,7 @@
       "name": "Latvian",
       "iso": "latvian",
       "region": "Europe",
-      "category": "Baltic",
+      "category": "Indo-European",
       "wikipedia": "https://en.wikipedia.org/wiki/Latvian_language",
       "family": "Baltic"
     },
@@ -15380,7 +15380,7 @@
       "name": "Lithuanian",
       "iso": "lithuanian",
       "region": "Europe",
-      "category": "Baltic",
+      "category": "Indo-European",
       "wikipedia": "https://en.wikipedia.org/wiki/Lithuanian_language",
       "family": "Baltic"
     },
@@ -15500,7 +15500,7 @@
       "name": "Manx",
       "iso": "manx",
       "region": "Europe",
-      "category": "Celtic",
+      "category": "Indo-European",
       "wikipedia": "https://en.wikipedia.org/wiki/Manx_language",
       "family": "Celtic"
     },
@@ -15852,7 +15852,7 @@
       "name": "Old Prussian",
       "iso": "old-prussian",
       "region": "Europe",
-      "category": "Baltic",
+      "category": "Indo-European",
       "wikipedia": "https://en.wikipedia.org/wiki/Old_Prussian_language",
       "family": "Baltic",
       "tags": [
@@ -16079,7 +16079,7 @@
       "name": "Proto-Romance",
       "iso": "proto-romance",
       "region": "Europe",
-      "category": "Romance",
+      "category": "Indo-European",
       "wikipedia": "https://en.wikipedia.org/wiki/Proto-Romance_language",
       "family": "Romance",
       "tags": [
@@ -16739,7 +16739,7 @@
       "name": "Welsh",
       "iso": "welsh",
       "region": "Europe",
-      "category": "Celtic",
+      "category": "Indo-European",
       "wikipedia": "https://en.wikipedia.org/wiki/Welsh_language",
       "family": "Celtic"
     },
@@ -16797,14 +16797,14 @@
       "name": "Wymysorys",
       "iso": "wym",
       "region": "Europe",
-      "category": "Germanic",
+      "category": "Indo-European",
       "family": "Germanic"
     },
     {
       "name": "Yenish",
       "iso": "yec",
       "region": "Europe",
-      "category": "Germanic",
+      "category": "Indo-European",
       "family": "Germanic"
     },
     {
@@ -18386,7 +18386,7 @@
       "name": "Cauque Mayan",
       "iso": "cauque-mayan",
       "region": "Misc",
-      "category": "Mixed",
+      "category": "Mayan",
       "family": "Mayan",
       "tags": [
         "mixed"
@@ -18562,7 +18562,7 @@
       "name": "Hezhou",
       "iso": "hezhou",
       "region": "Misc",
-      "category": "Mixed",
+      "category": "Sino-Tibetan",
       "family": "Min",
       "tags": [
         "mixed"
@@ -18893,7 +18893,7 @@
       "name": "Mbugu",
       "iso": "mbugu",
       "region": "Misc",
-      "category": "Mixed",
+      "category": "Niger-Congo",
       "family": "Bantu",
       "tags": [
         "mixed"
@@ -18926,7 +18926,7 @@
       "name": "Mednyj Aleut",
       "iso": "mednyj-aleut",
       "region": "Misc",
-      "category": "Mixed",
+      "category": "Eskimo-Aleut",
       "family": "Aleut",
       "tags": [
         "mixed"
@@ -19488,7 +19488,7 @@
       "name": "Waxiang",
       "iso": "waxiang",
       "region": "Misc",
-      "category": "Mixed",
+      "category": "Hmong-Mien",
       "family": "Hmongic",
       "tags": [
         "mixed"
@@ -19510,7 +19510,7 @@
       "name": "Wutunhua",
       "iso": "wutunhua",
       "region": "Misc",
-      "category": "Mixed",
+      "category": "Sino-Tibetan",
       "family": "Sinitic",
       "tags": [
         "mixed"
@@ -19821,7 +19821,7 @@
       "name": "Arapaho",
       "iso": "arp",
       "region": "North America",
-      "category": "Algonquian",
+      "category": "Algic",
       "family": "Algonquian",
       "wikipedia": "https://en.wikipedia.org/wiki/Arapaho_language"
     },
@@ -19829,7 +19829,7 @@
       "name": "Blackfoot",
       "iso": "blackfoot",
       "region": "North America",
-      "category": "Algonquian",
+      "category": "Algic",
       "wikipedia": "https://en.wikipedia.org/wiki/Blackfoot_language",
       "family": "Algonquian"
     },
@@ -19949,7 +19949,7 @@
       "name": "Cree",
       "iso": "cree",
       "region": "North America",
-      "category": "Algonquian",
+      "category": "Algic",
       "wikipedia": "https://en.wikipedia.org/wiki/Cree_language",
       "family": "Algonquian"
     },
@@ -20090,7 +20090,7 @@
       "name": "Innu",
       "iso": "innu",
       "region": "North America",
-      "category": "Algonquian",
+      "category": "Algic",
       "wikipedia": "https://en.wikipedia.org/wiki/Innu_language",
       "family": "Algonquian"
     },
@@ -20325,7 +20325,7 @@
       "name": "Ojibwe",
       "iso": "ojibwe",
       "region": "North America",
-      "category": "Algonquian",
+      "category": "Algic",
       "wikipedia": "https://en.wikipedia.org/wiki/Ojibwe_language",
       "family": "Algonquian"
     },
@@ -20622,7 +20622,7 @@
       "iso": "alor-pantar",
       "region": "Pacific",
       "category": "Papuan",
-      "family": "Trans–New Guinea",
+      "family": "Trans-New Guinea",
       "tags": [
         "family"
       ]
@@ -20731,7 +20731,7 @@
       "iso": "asmat-kamoro",
       "region": "Pacific",
       "category": "Papuan",
-      "family": "Trans–New Guinea"
+      "family": "Trans-New Guinea"
     },
     {
       "name": "Atayal",
@@ -20928,7 +20928,7 @@
       "iso": "bayono-awbono",
       "region": "Pacific",
       "category": "Papuan",
-      "family": "Trans–New Guinea",
+      "family": "Trans-New Guinea",
       "tags": [
         "family"
       ]
@@ -21087,7 +21087,7 @@
       "name": "Bonin English",
       "iso": "bonin-english",
       "region": "Pacific",
-      "category": "Mixed",
+      "category": "Creole",
       "family": "English-based",
       "tags": [
         "creole",
@@ -21312,7 +21312,7 @@
       "iso": "dani",
       "region": "Pacific",
       "category": "Papuan",
-      "family": "Trans–New Guinea"
+      "family": "Trans-New Guinea"
     },
     {
       "name": "Dano",
@@ -21414,7 +21414,7 @@
       "iso": "east-timor-papuan",
       "region": "Pacific",
       "category": "Papuan",
-      "family": "Trans–New Guinea",
+      "family": "Trans-New Guinea",
       "tags": [
         "family"
       ]
@@ -21686,7 +21686,7 @@
       "iso": "greater-awyu",
       "region": "Pacific",
       "category": "Papuan",
-      "family": "Trans–New Guinea",
+      "family": "Trans-New Guinea",
       "tags": [
         "family"
       ]
@@ -21757,7 +21757,7 @@
       "name": "Hawaiian",
       "iso": "hawaiian",
       "region": "Pacific",
-      "category": "Polynesian",
+      "category": "Austronesian",
       "wikipedia": "https://en.wikipedia.org/wiki/Hawaiian_language",
       "family": "Polynesian"
     },
@@ -22120,7 +22120,7 @@
       "iso": "khh",
       "region": "Pacific",
       "category": "Papuan",
-      "family": "Language Isolate",
+      "family": "Language isolate",
       "wikipedia": "https://en.wikipedia.org/wiki/Kehu_language"
     },
     {
@@ -22184,7 +22184,7 @@
       "name": "Kiribati",
       "iso": "kiribati",
       "region": "Pacific",
-      "category": "Micronesian",
+      "category": "Austronesian",
       "wikipedia": "https://en.wikipedia.org/wiki/Gilbertese_language",
       "family": "Gilbertese"
     },
@@ -22551,7 +22551,7 @@
       "name": "Maori",
       "iso": "maori-ascii",
       "region": "Pacific",
-      "category": "Polynesian",
+      "category": "Austronesian",
       "wikipedia": "https://en.wikipedia.org/wiki/M%C4%81ori_language",
       "family": "Polynesian",
       "tags": [
@@ -22598,7 +22598,7 @@
       "name": "Marshallese",
       "iso": "marshallese",
       "region": "Pacific",
-      "category": "Micronesian",
+      "category": "Austronesian",
       "wikipedia": "https://en.wikipedia.org/wiki/Marshallese_language",
       "family": "Marshallese"
     },
@@ -22940,7 +22940,7 @@
       "name": "Niuean",
       "iso": "niuean",
       "region": "Pacific",
-      "category": "Polynesian",
+      "category": "Austronesian",
       "wikipedia": "https://en.wikipedia.org/wiki/Niuean_language",
       "family": "Polynesian"
     },
@@ -23069,7 +23069,7 @@
       "iso": "ok-oksapmin",
       "region": "Pacific",
       "category": "Papuan",
-      "family": "Trans–New Guinea"
+      "family": "Trans-New Guinea"
     },
     {
       "name": "Oksapmin",
@@ -23138,7 +23138,7 @@
       "name": "Palauan",
       "iso": "palauan",
       "region": "Pacific",
-      "category": "Micronesian",
+      "category": "Austronesian",
       "wikipedia": "https://en.wikipedia.org/wiki/Palauan_language",
       "family": "Palauan"
     },
@@ -23147,7 +23147,7 @@
       "iso": "paniai-lakes",
       "region": "Pacific",
       "category": "Papuan",
-      "family": "Trans–New Guinea"
+      "family": "Trans-New Guinea"
     },
     {
       "name": "Papora",
@@ -23246,7 +23246,7 @@
       "name": "Rapa Nui",
       "iso": "rapa-nui",
       "region": "Pacific",
-      "category": "Polynesian",
+      "category": "Austronesian",
       "wikipedia": "https://en.wikipedia.org/wiki/Rapa_Nui_language",
       "family": "Polynesian"
     },
@@ -23254,7 +23254,7 @@
       "name": "Rarotongan",
       "iso": "rarotongan",
       "region": "Pacific",
-      "category": "Polynesian",
+      "category": "Austronesian",
       "wikipedia": "https://en.wikipedia.org/wiki/Rarotongan_language",
       "family": "Polynesian"
     },
@@ -23291,7 +23291,7 @@
       "name": "Rotuman",
       "iso": "rotuman",
       "region": "Pacific",
-      "category": "Polynesian",
+      "category": "Austronesian",
       "wikipedia": "https://en.wikipedia.org/wiki/Rotuman_language",
       "family": "Polynesian"
     },
@@ -23653,7 +23653,7 @@
       "name": "Tahitian",
       "iso": "tahitian",
       "region": "Pacific",
-      "category": "Polynesian",
+      "category": "Austronesian",
       "wikipedia": "https://en.wikipedia.org/wiki/Tahitian_language",
       "family": "Polynesian"
     },
@@ -23753,7 +23753,7 @@
       "iso": "timor-alor-pantar",
       "region": "Pacific",
       "category": "Papuan",
-      "family": "Trans–New Guinea"
+      "family": "Trans-New Guinea"
     },
     {
       "name": "Timoric",
@@ -23801,7 +23801,7 @@
       "name": "Tokelauan",
       "iso": "tokelauan",
       "region": "Pacific",
-      "category": "Polynesian",
+      "category": "Austronesian",
       "wikipedia": "https://en.wikipedia.org/wiki/Tokelauan_language",
       "family": "Polynesian"
     },
@@ -23816,7 +23816,7 @@
       "name": "Tongan",
       "iso": "tongan",
       "region": "Pacific",
-      "category": "Polynesian",
+      "category": "Austronesian",
       "wikipedia": "https://en.wikipedia.org/wiki/Tongan_language",
       "family": "Polynesian"
     },
@@ -23878,7 +23878,7 @@
       "name": "Tuvaluan",
       "iso": "tuvaluan",
       "region": "Pacific",
-      "category": "Polynesian",
+      "category": "Austronesian",
       "wikipedia": "https://en.wikipedia.org/wiki/Tuvaluan_language",
       "family": "Polynesian"
     },
@@ -23921,7 +23921,7 @@
       "name": "Vaeakau-Taumako",
       "iso": "piv",
       "region": "Pacific",
-      "category": "Polynesian",
+      "category": "Austronesian",
       "family": "Polynesian"
     },
     {
@@ -24020,7 +24020,7 @@
       "iso": "west-bomberai",
       "region": "Pacific",
       "category": "Papuan",
-      "family": "Trans–New Guinea"
+      "family": "Trans-New Guinea"
     },
     {
       "name": "Western",
@@ -24475,7 +24475,7 @@
       "region": "Sino-Tibetan region",
       "category": "Sino-Tibetan",
       "wikipedia": "https://en.wikipedia.org/wiki/Boro%E2%80%93Garo_languages",
-      "family": "Boro–Garo"
+      "family": "Boro-Garo"
     },
     {
       "name": "Burmish",
@@ -25258,7 +25258,7 @@
       "name": "Raji Raute",
       "iso": "raji-raute",
       "region": "Sino-Tibetan region",
-      "category": "Sino-Tibetan",
+      "category": "Indo-Aryan",
       "family": "Raji–Raute"
     },
     {
@@ -25580,7 +25580,7 @@
       "name": "Aymara",
       "iso": "aymara",
       "region": "South America",
-      "category": "Aymaran",
+      "category": "Language isolate",
       "wikipedia": "https://en.wikipedia.org/wiki/Aymara_language",
       "family": "Aymaran"
     },
@@ -27430,21 +27430,21 @@
       "iso": "tir",
       "name": "Tigrinya Names",
       "region": "Africa",
-      "category": "Afro-Asiatic",
+      "category": "Afroasiatic",
       "family": "Semitic"
     },
     {
       "iso": "orm",
       "name": "Oromo Names",
       "region": "Africa",
-      "category": "Afro-Asiatic",
+      "category": "Afroasiatic",
       "family": "Cushitic"
     },
     {
       "iso": "som",
       "name": "Somali Names",
       "region": "Africa",
-      "category": "Afro-Asiatic",
+      "category": "Afroasiatic",
       "family": "Cushitic"
     },
     {
@@ -27724,7 +27724,7 @@
       "iso": "aym",
       "name": "Aymara Names",
       "region": "South America",
-      "category": "Language Isolate",
+      "category": "Language isolate",
       "family": "Aymaran"
     },
     {
@@ -27794,7 +27794,7 @@
       "iso": "tsz",
       "name": "Purepecha Expanded",
       "region": "South America",
-      "category": "Language Isolate",
+      "category": "Language isolate",
       "family": "Purepecha"
     },
     {
@@ -27815,21 +27815,21 @@
       "iso": "heb",
       "name": "Hebrew Names",
       "region": "Asia",
-      "category": "Afro-Asiatic",
+      "category": "Afroasiatic",
       "family": "Semitic"
     },
     {
       "iso": "arc",
       "name": "Aramaic Names",
       "region": "Asia",
-      "category": "Afro-Asiatic",
+      "category": "Afroasiatic",
       "family": "Semitic"
     },
     {
       "iso": "aii",
       "name": "Assyrian Names",
       "region": "Asia",
-      "category": "Afro-Asiatic",
+      "category": "Afroasiatic",
       "family": "Semitic"
     },
     {
@@ -28214,42 +28214,42 @@
       "iso": "ary",
       "name": "Moroccan Arabic",
       "region": "Africa",
-      "category": "Afro-Asiatic",
+      "category": "Afroasiatic",
       "family": "Semitic"
     },
     {
       "iso": "arz",
       "name": "Egyptian Arabic Names",
       "region": "Africa",
-      "category": "Afro-Asiatic",
+      "category": "Afroasiatic",
       "family": "Semitic"
     },
     {
       "iso": "apc",
       "name": "Levantine Arabic Names",
       "region": "Asia",
-      "category": "Afro-Asiatic",
+      "category": "Afroasiatic",
       "family": "Semitic"
     },
     {
       "iso": "acm",
       "name": "Iraqi Arabic",
       "region": "Asia",
-      "category": "Afro-Asiatic",
+      "category": "Afroasiatic",
       "family": "Semitic"
     },
     {
       "iso": "aeb",
       "name": "Tunisian Arabic Names",
       "region": "Africa",
-      "category": "Afro-Asiatic",
+      "category": "Afroasiatic",
       "family": "Semitic"
     },
     {
       "iso": "arq",
       "name": "Algerian Arabic Names",
       "region": "Africa",
-      "category": "Afro-Asiatic",
+      "category": "Afroasiatic",
       "family": "Semitic"
     },
     {
@@ -28298,14 +28298,14 @@
       "iso": "rif",
       "name": "Rif",
       "region": "Africa",
-      "category": "Afro-Asiatic",
+      "category": "Afroasiatic",
       "family": "Berber"
     },
     {
       "iso": "thv",
       "name": "Tahaggart",
       "region": "Africa",
-      "category": "Afro-Asiatic",
+      "category": "Afroasiatic",
       "family": "Berber"
     },
     {
@@ -28361,14 +28361,14 @@
       "iso": "aii2",
       "name": "Assyrian Expanded 2",
       "region": "Asia",
-      "category": "Afro-Asiatic",
+      "category": "Afroasiatic",
       "family": "Semitic"
     },
     {
       "iso": "mlt",
       "name": "Maltese Names",
       "region": "Europe",
-      "category": "Afro-Asiatic",
+      "category": "Afroasiatic",
       "family": "Semitic"
     },
     {
@@ -28396,7 +28396,7 @@
       "iso": "eus2",
       "name": "Basque Expanded 2",
       "region": "Europe",
-      "category": "Language Isolate",
+      "category": "Language isolate",
       "family": "Basque"
     },
     {
@@ -28613,28 +28613,28 @@
       "iso": "som2",
       "name": "Somali Expanded 2",
       "region": "Africa",
-      "category": "Afro-Asiatic",
+      "category": "Afroasiatic",
       "family": "Cushitic"
     },
     {
       "iso": "amh2",
       "name": "Amharic Expanded 3",
       "region": "Africa",
-      "category": "Afro-Asiatic",
+      "category": "Afroasiatic",
       "family": "Semitic"
     },
     {
       "iso": "orm2",
       "name": "Oromo Expanded 2",
       "region": "Africa",
-      "category": "Afro-Asiatic",
+      "category": "Afroasiatic",
       "family": "Cushitic"
     },
     {
       "iso": "tir2",
       "name": "Tigrinya Expanded 3",
       "region": "Africa",
-      "category": "Afro-Asiatic",
+      "category": "Afroasiatic",
       "family": "Semitic"
     },
     {
@@ -28844,35 +28844,35 @@
       "iso": "tir3",
       "name": "Tigrinya Expanded 4",
       "region": "Africa",
-      "category": "Afro-Asiatic",
+      "category": "Afroasiatic",
       "family": "Semitic"
     },
     {
       "iso": "amh3",
       "name": "Amharic Expanded 4",
       "region": "Africa",
-      "category": "Afro-Asiatic",
+      "category": "Afroasiatic",
       "family": "Semitic"
     },
     {
       "iso": "orm3",
       "name": "Oromo Expanded 3",
       "region": "Africa",
-      "category": "Afro-Asiatic",
+      "category": "Afroasiatic",
       "family": "Cushitic"
     },
     {
       "iso": "som3",
       "name": "Somali Expanded 3",
       "region": "Africa",
-      "category": "Afro-Asiatic",
+      "category": "Afroasiatic",
       "family": "Cushitic"
     },
     {
       "iso": "hau2",
       "name": "Hausa Expanded 3",
       "region": "Africa",
-      "category": "Afro-Asiatic",
+      "category": "Afroasiatic",
       "family": "Chadic"
     },
     {

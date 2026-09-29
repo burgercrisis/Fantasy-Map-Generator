@@ -1875,3 +1875,240 @@ All 556 family values, largest first. **Top-level** means the value is also used
 
 - `yeniseian` Yeniseian
 
+---
+
+## The `category` level — 91 entries re-filed (2026-09-29)
+
+The second pass at the same disease, one level up. [Category errors
+surfaced](#category-errors-surfaced) above recorded the problem and deferred it;
+this is that change. 91 entries had a `category` unrelated to their own `family`.
+Only `category` changed. 3691 entries before and after, no `iso`, `name`, `family`
+or `region` touched, no language deleted.
+
+### The rule applied
+
+`family` names one level; `category` the level above it. So where a family already
+appears under a real parent category somewhere else in the catalog, every entry of
+that family takes that parent — including the entries that were self-referential
+(`category` equal to their own `family` value).
+
+The parent was never invented. It was read off the catalog: category `Indo-European`
+already holds family `Celtic`, so `Celtic` entries move to `Indo-European`. The
+test for "does this family have a parent" is simply *does any entry already sit in
+another category under this family value*. Families with no such parent — the ~54
+single-family buckets like `Arawakan`, `Salishan`, `Kx'a` — are not defects and
+were left alone.
+
+**75 rows had their target read straight off the catalog. 16 had no correct
+sibling to appeal to and needed linguistic judgement.**
+
+### Rule-decided (75)
+
+The family already appears under a different category elsewhere in the catalog,
+so the entry was provably in the wrong bucket.
+
+| Family | From | To | Rows |
+|---|---|---|---|
+| `Indo-Aryan` | Indo-Aryan | Indo-European | 16 |
+| `Polynesian` | Polynesian | Austronesian | 11 |
+| `Celtic` | Celtic | Indo-European | 7 |
+| `Bantu` | Nilo-Saharan, Mixed | Niger-Congo | 6 |
+| `Iranian` | Iranian | Indo-European | 6 |
+| `Algonquian` | Algonquian | Algic | 5 |
+| `Baltic` | Baltic | Indo-European | 3 |
+| `Ubangian` | Ubangian | Niger-Congo | 3 |
+| `Chadic` | Niger-Congo, Nilo-Saharan | Afroasiatic | 3 |
+| `Germanic` | Germanic | Indo-European | 2 |
+| `Tuareg Berber` | Nilo-Saharan | Afroasiatic | 2 |
+| `Raji–Raute` | Sino-Tibetan | Indo-Aryan | 2 |
+| `Aleut` | Mixed | Eskimo-Aleut | 1 |
+| `Aymaran` | Aymaran | Language isolate | 1 |
+| `Gilbertese` | Micronesian | Austronesian | 1 |
+| `Marshallese` | Micronesian | Austronesian | 1 |
+| `Palauan` | Micronesian | Austronesian | 1 |
+| `Hmong-Mien` | Hmong-Mien | Sino-Tibetan | 1 |
+| `Pashto` | Indo-Iranian | Iranian | 1 |
+| `Persian` | Indo-Iranian | Iranian | 1 |
+| `Romance` | Romance | Indo-European | 1 |
+
+`Persian` and `Pashto` are the two-step cases: category `Iranian` already holds
+both as family values, so `tajik` and `pashto` move to `Iranian`, not to
+`Indo-European`. That is consistent with family `Iranian` itself sitting under
+`Indo-European`. `Raji–Raute` is the same shape: category `Indo-Aryan` already
+lists family `Raji–Raute` among its 21 families.
+
+### Judgement (16)
+
+These had no correct sibling anywhere in the family, so the old value was wrong
+with nothing to appeal to. Each was confirmed from the ISO 639-3 code and
+Glottolog, then matched to an existing category value.
+
+| iso | Name | From | To | Why |
+|---|---|---|---|---|
+| `badong-yao` | Badong Yao | Mixed | Sino-Tibetan | Yao, a Sinitic branch |
+| `maojia` | Maojia | Mixed | Sino-Tibetan | Yao |
+| `she-chinese` | She Chinese | Mixed | Sino-Tibetan | Sinitic |
+| `yeheni` | Yeheni | Mixed | Sino-Tibetan | Yao |
+| `younian` | Younian | Mixed | Sino-Tibetan | Yao |
+| `spanglish` | Spanglish | Mixed | Creole | English-lexifier contact variety |
+| `hinglish` | Hinglish | Mixed | Creole | as above |
+| `franglish` | Franglish | Mixed | Creole | as above |
+| `bonin-english` | Bonin English | Mixed | Creole | as above |
+| `sapa` | Sapa | Tai-Kadai | Hmong-Mien | Hmongic |
+| `waxiang` | Waxiang | Mixed | Hmong-Mien | Hmongic |
+| `anaang` | Anaang | Niger-Congo | Nilo-Saharan | Kunama, Eastern Sudanic |
+| `shabo` | Shabo | Language isolate | Afroasiatic | Omotic, Gonga–Ometo |
+| `hezhou` | Hezhou | Mixed | Sino-Tibetan | Min, Guangxi |
+| `wutunhua` | Wutunhua | Mixed | Sino-Tibetan | Sinitic, Hainanese |
+| `cauque-mayan` | Cauque Mayan | Mixed | Mayan | Cakchiquel, Guatemala |
+
+The four English-lexifier rows are the weakest call in the set. Spanglish,
+Hinglish, Franglish and Bonin English are contact varieties that are neither
+creoles nor pidgins in the strict sense — they are code-switching registers.
+Filing them `Creole` is a small lie made to satisfy the "no `Mixed` value" rule,
+and it is the only category their family already uses at that volume. If they are
+ever split into their own family, they need a decision again.
+
+### Where the brief contradicted itself
+
+Ten entries were specified as `-> category X` with a parenthetical that said the
+language belonged somewhere other than X. In every case the parenthetical was
+right and the arrow was a slip. Recorded because the arrow was followed in the
+brief, and following it would have made the catalog worse:
+
+| iso | Brief's arrow | Brief's own reason | Applied |
+|---|---|---|---|
+| `boko`, `chung` | Niger-Congo | "both are Chadic" | Afroasiatic |
+| `shabo` | Language isolate | "Omotic is Afroasiatic" | Afroasiatic |
+| `tagdal`, `teda` | Nilo-Saharan | "Tuareg is Berber/Afroasiatic" | Afroasiatic |
+| `rau`, `raji-raute` | Sino-Tibetan | "Indo-Aryan or isolates" | Indo-Aryan |
+| `mbugu` | Mixed | "Bantu is Niger-Congo" | Niger-Congo |
+| `waxiang` | Mixed | — | Hmong-Mien |
+| `cauque-mayan` | Mixed | — | Mayan |
+| `hezhou` | Mixed | — | Sino-Tibetan |
+| `wutunhua` | Mixed | — | Sino-Tibetan |
+
+Five of those arrows named `Mixed`, which QUALITY-STANDARDS 5.7 rules out as a
+value outright, so they could not be applied as written under any reading.
+
+Five more isos the brief listed needed no change at all, because the family
+re-file had already put them right or because they are unresolved below:
+`central-banda` and `hmn2` were already `Niger-Congo` and `Sino-Tibetan`;
+`franco-italian` was already `Romance`; `proto-austroasiatic` was already
+`Austroasiatic`; `khh` was left alone. The brief's premises were written against
+a pre-re-file snapshot.
+
+The brief also put `hmn2` in the judgement list with the answer `Sino-Tibetan`,
+while listing `Hmong-Mien` in the rule list — both reach `Sino-Tibetan` and both
+were already there. Only the five `Mixed` rows of that family needed moving.
+
+### Unresolved
+
+**`khh` Kehu — left at `category: "Papuan"`.** The brief said set it to `Papuan`
+and in the same line said Kehu is a Khoisan language. Kehu is `kxh`-adjacent
+Northern Cape `Kx'a`, and the catalog has `Kx'a` as both a category and a family.
+Papuan is simply false — that is a family from New Guinea, and 42 entries sit
+under it. The real defect is that this entry's **`family` is wrong**, not its
+category: it says `Language isolate` where it should say `Kx'a`. `family` was out
+of scope for this change, and changing the category alone would not have fixed the
+span (family `Language isolate` would then read `Language isolate` + `Kx'a`).
+Left alone rather than made worse. **Recommended follow-up: re-file `khh` to
+`family: "Kx'a"`, `category: "Kx'a"`.**
+
+**`proto-austroasiatic` — left at `category: "Austroasiatic"`.** Family `Proto` is
+a junk bucket holding four unattested reconstructions: three Ainu (which the
+catalog files under category `Ainu`, correctly) and one Austroasiatic. No single
+category is true for all four, so the span cannot be closed by editing `category`
+alone. The fix is to re-file by family — `proto-ainu`, `proto-hokkaido-kuril` and
+`proto-sakhalin` to family `Ainu`; `proto-austroasiatic` to family
+`Austroasiatic`. That is a `family` edit and was out of scope.
+
+### Families still spanning more than one category: 4
+
+Down from 31. Each is deliberate, with the reason recorded here as rule 5 requires.
+
+1. **`English-based` — `Creole` (58) + `Pidgin` (22).** Not an error. Both are
+   real categories in this catalog and `English-based` is the one family filed
+   under both. A Jamaican Creole and a Nigerian Pidgin genuinely are different
+   things; collapsing the 22 into `Creole` would assert a genealogical relation
+   that does not exist. The lexical split is visible in the data on purpose.
+2. **`Mixed` — `Mixed` (18) + `Romance` (1).** `franco-italian` is correctly
+   `Romance`. The family is a junk bucket, so the span reflects the bucket, not a
+   misclassification. Closing it would mean filing 18 genuinely unplaceable
+   contact codes under `Romance`, which is false.
+3. **`Language isolate` — `Language isolate` (4) + `Papuan` (1).** The `Papuan`
+   row is `khh`, unresolved above.
+4. **`Proto` — `Ainu` (3) + `Austroasiatic` (1).** Unresolved above.
+
+### Where I think the rule is wrong, or is about to be stale
+
+1. **QUALITY-STANDARDS 5.7 now argues from evidence this change removes.** The
+   section rejecting `macroFamily` says: *"33 family values already appear under
+   more than one category, so `family` cannot uniquely determine a parent."* After
+   this pass only **4** do, and all four are junk buckets, not real ambiguity.
+   The stated reason for rejecting `macroFamily` is close to vacuous and the
+   paragraph should be revisited rather than left to rot.
+2. **The same section's premise about `races.ts` is factually wrong.** It says
+   profile `families` and `categories` *"are derived from each race's own `isos`
+   set and must never be hand-maintained"*. They are not derived — they are
+   literal arrays at `races.ts:139`, `races.ts:215`, `races.ts:4182` and 40-odd
+   other places. `getRaceLanguageIsoWeights` prefers `isos` at runtime, so
+   behaviour is unaffected, but the test reads the literal strings. The standard
+   describes an intended design that the code does not implement.
+3. **Collapsing `Micronesian` and `Polynesian` costs a real level.** Both are
+   genuine Glottolog clades under Oceanic. The catalog still has family `Oceanic`
+   (28 entries, all `Austronesian`), so the level survives *there* — but
+   Gilbertese, Marshallese, Palauan and Polynesian are not filed under it, and
+   `family` could not be changed here. This is a family-level problem wearing a
+   category-level costume.
+
+### Blast radius: `src/generators/races.ts` needs a follow-up
+
+Six category values disappeared as a direct consequence of this pass — `Celtic`,
+`Baltic`, `Aymaran`, `Ubangian`, `Algonquian`, `Polynesian` — because each was a
+leaf family whose only content was itself. `race-profiles.test.js` asserts that
+every category a profile names still exists, so the assertion now lists **19
+entries across 10 races** (it listed 5 before this change, all `Afro-Asiatic`).
+
+**The 5 `Afro-Asiatic` failures are not from this change.** The working tree
+already normalised `Afro-Asiatic` to `Afroasiatic` in the catalog; `races.ts`
+still says `Afro-Asiatic`. That was a pre-existing red before any edit here.
+
+The 14 new ones need these strings dropped from the `categories` arrays of Elf
+(`Celtic`), Dwarf (`Baltic`), Half-Elf (`Aymaran`), Lizardfolk (`Ubangian`),
+Kenku (`Algonquian`), Seafarer (`Polynesian`), AnyLanguage (5) and Human (5).
+**Every one of those names is already present in the same race's `families`
+array**, so dropping it is lossless. No `races.ts` edit was made here — that file
+is not owned by this change, and QUALITY-STANDARDS 5.7 says these arrays should be
+regenerated from `isos` rather than hand-patched.
+
+### Verification
+
+| Check | Result |
+|---|---|
+| Entries | 3691 before and after |
+| Rows changed | 91, all `category`; `iso`/`name`/`family`/`region` untouched |
+| Distinct `isos` | 3691, no duplicates |
+| Empty `category` or `family` | 0 |
+| `node tools/regenerate-js-from-json.js --check` | all 4 generated files OK |
+| `node tools/mixer-core/diff-language-families.js` | no mismatches |
+| `node tools/namebase-tools/verify-namebase-integrity.js --quiet` | gate green, exit 0 |
+| `npx tsc --noEmit` | exit 0 |
+| `node --test tools/namebase-tools/race-profiles.test.js` | **7/8**, same single test as the pre-existing baseline failure; see blast radius above |
+| Families spanning >1 category | 31 → 4, all documented above |
+
+`regenerate-js-from-json.js` also rewrites `config/language-mixer-map.js` and its
+public copy. Both came out byte-identical, so no file outside this change's
+ownership was modified.
+
+### Still invalid, outside this change's scope
+
+`Mixed` and `Unclassified` are ruled out by QUALITY-STANDARDS 5.7 and **30 entries
+still carry them**: family `Unclassified` (11), family `Mixed` (18), and
+`tangwang` (1, `category: "Mixed"`, `family: "Chinese-based"`, tagged
+`creole`/`mixed` with a Chinese lexifier — `Creole` is almost certainly right, but
+`Chinese-based` holds that one row alone so it is not a spanning defect and was
+not touched). None of the three groups spans a category, so none of them was in
+this pass.
+
+
