@@ -15064,7 +15064,7 @@
       "iso": "ell",
       "category": "Indo-European",
       "region": "Europe",
-      "family": "Indo-European"
+      "family": "Hellenic"
     },
     {
       "name": "Grossetano",
@@ -18375,8 +18375,8 @@
       "name": "Cappadocian Greek",
       "iso": "cappadocian-greek",
       "region": "Misc",
-      "category": "Mixed",
-      "family": "Mixed",
+      "category": "Indo-European",
+      "family": "Hellenic",
       "tags": [
         "mixed"
       ],
