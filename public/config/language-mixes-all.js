@@ -19788,13 +19788,6 @@
       "category": "Afroasiatic"
     },
     {
-      "name": "Zurg",
-      "iso": "zurg",
-      "region": "North Africa",
-      "family": "Berber",
-      "category": "Afroasiatic"
-    },
-    {
       "name": "Zuwara Berber",
       "iso": "zuwara-berber",
       "region": "North Africa",

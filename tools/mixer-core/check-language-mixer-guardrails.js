@@ -20,7 +20,37 @@ const ALLOWED_REMOVALS = new Set([
   "proto-mordvinic", "proto-ob-ugric", "proto-permic", "proto-romance",
   "proto-ron", "proto-sakhalin", "proto-sami", "proto-samoyedic",
   "proto-sino-tibetan", "proto-tai", "proto-tibeto-burman", "proto-uralic",
-  "proto-warji"
+  "proto-warji",
+  // Family macros and group labels. The catalog tags every one of these
+  // ["family"], and both cultures-generator.ts and races.ts already skip those,
+  // so they can never contribute a name. A grouping is not a language: nobody
+  // in the Bosavi or Inland Gulf group ever coined a name in "Bosavi".
+  "admiralty", "alor-pantar", "awyu-dumut", "bali-sasak-sumbawa", "batanic",
+  "bayono-awbono", "bosavi", "bungku-tolaki", "celebic", "cenderawasih",
+  "central-luzon", "central-maluku", "central-pacific", "central-semitic",
+  "central-south-sulawesi", "central-vanuatu", "east-formosan",
+  "east-strickland", "east-timor-papuan", "eastern-oceanic",
+  "eastern-romance-family", "formosan", "goilalan", "greater-awyu",
+  "greater-barito", "greater-central-philippine", "greater-north-borneo",
+  "halmahera-sea", "highland-east-cushitic", "inland-gulf", "kayagaric",
+  "kolopom", "lowland-east-cushitic", "macro-somali", "meso-melanesian",
+  "oceanic", "siangic", "sinitic", "west-gurage", "west-semitic",
+  // x- alternates that were themselves empty, and bare 3-letter codes with no
+  // row behind them. All had bases: [] - they were placeholders for languages
+  // with no namebase, keyed under a name the app never referenced.
+  "bijiang-bai-dialect", "sna", "wol",
+  "x-bonan-kangjia", "x-borgarm-let", "x-bozal-spanish",
+  "x-dali-bai-language", "x-haflong-hindi", "x-kanuri", "x-kuria",
+  "x-lowland-iwur", "x-mala", "x-mambila", "x-mongsen-ao",
+  "x-namibian-black-german", "x-palawa-kani", "x-pipil-nawat", "x-puy",
+  "x-qifu", "x-sart-kalmyk", "x-settler-swahili", "x-tindi",
+  "x-turks-and-caicos-creole-dedicated", "x-ubykh",
+  "x-virgin-islands-creole-dedicated", "x-western-algerian-zenatic-dialects",
+  // Zurg. A ghost language: Benkato (2017) traces the whole claim to one
+  // place-name in a 1929 Guida d'Italia that never mentions a language. The
+  // namebase entry that backed it held 33 Moroccan city names, hundreds of km
+  // from Kufra. See docs/verification/research/zero-seed-triage.md.
+  "zurg", "x-zurg"
 ]);
 
   function decodeTextFile(buf) {

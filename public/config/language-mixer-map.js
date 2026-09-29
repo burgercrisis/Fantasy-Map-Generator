@@ -14500,10 +14500,8 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "zurg",
-    "bases": [
-      201018
-    ]
+    "iso": "eyak",
+    "bases": []
   },
   {
     "iso": "zuwara-berber",
@@ -14662,7 +14660,7 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "eyak",
+    "iso": "tcb",
     "bases": []
   },
   {
@@ -14960,7 +14958,7 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "tcb",
+    "iso": "wiyot",
     "bases": []
   },
   {
@@ -15012,7 +15010,7 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "wiyot",
+    "iso": "yurok",
     "bases": []
   },
   {
@@ -15028,7 +15026,7 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "yurok",
+    "iso": "abaga",
     "bases": []
   },
   {
@@ -15038,15 +15036,15 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "abaga",
-    "bases": []
-  },
-  {
     "iso": "abui",
     "bases": []
   },
   {
     "iso": "adang",
+    "bases": []
+  },
+  {
+    "iso": "akoye",
     "bases": []
   },
   {
@@ -15068,7 +15066,7 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "akoye",
+    "iso": "ami",
     "bases": []
   },
   {
@@ -15078,7 +15076,7 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "ami",
+    "iso": "angaataha",
     "bases": []
   },
   {
@@ -15088,7 +15086,7 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "angaataha",
+    "iso": "asmat-citak",
     "bases": []
   },
   {
@@ -15116,7 +15114,7 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "asmat-citak",
+    "iso": "auye",
     "bases": []
   },
   {
@@ -15144,7 +15142,7 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "auye",
+    "iso": "awbono",
     "bases": []
   },
   {
@@ -15154,7 +15152,7 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "awbono",
+    "iso": "bzg",
     "bases": []
   },
   {
@@ -15170,7 +15168,7 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "bzg",
+    "iso": "barai",
     "bases": []
   },
   {
@@ -15186,7 +15184,7 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "barai",
+    "iso": "baruga",
     "bases": []
   },
   {
@@ -15200,10 +15198,6 @@ globalThis.languageMixerMap = [
     "bases": [
       203194
     ]
-  },
-  {
-    "iso": "baruga",
-    "bases": []
   },
   {
     "iso": "basap",
@@ -15226,6 +15220,10 @@ globalThis.languageMixerMap = [
     "bases": []
   },
   {
+    "iso": "biangai",
+    "bases": []
+  },
+  {
     "iso": "becking-dawi",
     "bases": [
       202339
@@ -15238,11 +15236,11 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "biangai",
+    "iso": "bima",
     "bases": []
   },
   {
-    "iso": "bima",
+    "iso": "bny",
     "bases": []
   },
   {
@@ -15262,10 +15260,6 @@ globalThis.languageMixerMap = [
     "bases": [
       200010
     ]
-  },
-  {
-    "iso": "bny",
-    "bases": []
   },
   {
     "iso": "binumarien",
@@ -15292,6 +15286,10 @@ globalThis.languageMixerMap = [
     "bases": []
   },
   {
+    "iso": "bonin-english",
+    "bases": []
+  },
+  {
     "iso": "boazi",
     "bases": [
       21087
@@ -15304,7 +15302,7 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "bonin-english",
+    "iso": "bunak",
     "bases": []
   },
   {
@@ -15320,7 +15318,7 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "bunak",
+    "iso": "burumakok",
     "bases": []
   },
   {
@@ -15330,15 +15328,15 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "burumakok",
-    "bases": []
-  },
-  {
     "iso": "buruwai",
     "bases": []
   },
   {
     "iso": "carolinian",
+    "bases": []
+  },
+  {
+    "iso": "cook-islands-maori-pidgin",
     "bases": []
   },
   {
@@ -15372,7 +15370,7 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "cook-islands-maori-pidgin",
+    "iso": "densar",
     "bases": []
   },
   {
@@ -15394,7 +15392,7 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "densar",
+    "iso": "domu",
     "bases": []
   },
   {
@@ -15410,11 +15408,11 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "domu",
+    "iso": "doromu",
     "bases": []
   },
   {
-    "iso": "doromu",
+    "iso": "edolo",
     "bases": []
   },
   {
@@ -15424,11 +15422,11 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "edolo",
+    "iso": "ekari",
     "bases": []
   },
   {
-    "iso": "ekari",
+    "iso": "faiwol",
     "bases": []
   },
   {
@@ -15450,10 +15448,6 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "faiwol",
-    "bases": []
-  },
-  {
     "iso": "fasu",
     "bases": []
   },
@@ -15470,17 +15464,21 @@ globalThis.languageMixerMap = [
     "bases": []
   },
   {
+    "iso": "fiwaga",
+    "bases": []
+  },
+  {
     "iso": "fijian",
     "bases": [
       20075
     ]
   },
   {
-    "iso": "fiwaga",
+    "iso": "flores-lembata",
     "bases": []
   },
   {
-    "iso": "flores-lembata",
+    "iso": "foia-foia",
     "bases": []
   },
   {
@@ -15490,7 +15488,7 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "foia-foia",
+    "iso": "gahuku",
     "bases": []
   },
   {
@@ -15512,15 +15510,15 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "gahuku",
-    "bases": []
-  },
-  {
     "iso": "gauwa",
     "bases": []
   },
   {
     "iso": "gende",
+    "bases": []
+  },
+  {
+    "iso": "goroka",
     "bases": []
   },
   {
@@ -15554,11 +15552,11 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "goroka",
+    "iso": "grand-valley-dani",
     "bases": []
   },
   {
-    "iso": "grand-valley-dani",
+    "iso": "hoanya",
     "bases": []
   },
   {
@@ -15598,11 +15596,11 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "hoanya",
+    "iso": "hoia-hoia",
     "bases": []
   },
   {
-    "iso": "hoia-hoia",
+    "iso": "humene",
     "bases": []
   },
   {
@@ -15612,7 +15610,7 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "humene",
+    "iso": "indonesian",
     "bases": []
   },
   {
@@ -15634,15 +15632,15 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "indonesian",
-    "bases": []
-  },
-  {
     "iso": "inoke-yate",
     "bases": []
   },
   {
     "iso": "ipiko",
+    "bases": []
+  },
+  {
+    "iso": "isabi",
     "bases": []
   },
   {
@@ -15652,7 +15650,7 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "isabi",
+    "iso": "kaguel",
     "bases": []
   },
   {
@@ -15686,15 +15684,15 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "kaguel",
-    "bases": []
-  },
-  {
     "iso": "kaili-wolio",
     "bases": []
   },
   {
     "iso": "kainantu",
+    "bases": []
+  },
+  {
+    "iso": "kamasa",
     "bases": []
   },
   {
@@ -15716,10 +15714,6 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "kamasa",
-    "bases": []
-  },
-  {
     "iso": "kambaira",
     "bases": []
   },
@@ -15736,6 +15730,10 @@ globalThis.languageMixerMap = [
     "bases": []
   },
   {
+    "iso": "kanasi",
+    "bases": []
+  },
+  {
     "iso": "kanak",
     "bases": [
       200045
@@ -15748,15 +15746,15 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "kanasi",
-    "bases": []
-  },
-  {
     "iso": "kandawo",
     "bases": []
   },
   {
     "iso": "kanite",
+    "bases": []
+  },
+  {
+    "iso": "kawacha",
     "bases": []
   },
   {
@@ -15778,15 +15776,15 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "kawacha",
-    "bases": []
-  },
-  {
     "iso": "kayagar-kaygir",
     "bases": []
   },
   {
     "iso": "kayan-murik",
+    "bases": []
+  },
+  {
+    "iso": "kei-tanimbar",
     "bases": []
   },
   {
@@ -15796,7 +15794,7 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "kei-tanimbar",
+    "iso": "kenati",
     "bases": []
   },
   {
@@ -15806,7 +15804,7 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "kenati",
+    "iso": "kae",
     "bases": []
   },
   {
@@ -15816,7 +15814,7 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "kae",
+    "iso": "komyandaret",
     "bases": []
   },
   {
@@ -15874,15 +15872,15 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "komyandaret",
-    "bases": []
-  },
-  {
     "iso": "konai",
     "bases": []
   },
   {
     "iso": "koneraw",
+    "bases": []
+  },
+  {
+    "iso": "kui",
     "bases": []
   },
   {
@@ -15940,7 +15938,7 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "kui",
+    "iso": "uon",
     "bases": []
   },
   {
@@ -15950,11 +15948,11 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "uon",
+    "iso": "kuman",
     "bases": []
   },
   {
-    "iso": "kuman",
+    "iso": "lampung",
     "bases": []
   },
   {
@@ -15968,10 +15966,6 @@ globalThis.languageMixerMap = [
     "bases": [
       2303
     ]
-  },
-  {
-    "iso": "lampung",
-    "bases": []
   },
   {
     "iso": "land-dayak",
@@ -16002,6 +15996,10 @@ globalThis.languageMixerMap = [
     "bases": []
   },
   {
+    "iso": "maiwa",
+    "bases": []
+  },
+  {
     "iso": "madurese",
     "bases": [
       202352
@@ -16026,7 +16024,7 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "maiwa",
+    "iso": "mandobo",
     "bases": []
   },
   {
@@ -16072,7 +16070,7 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "mandobo",
+    "iso": "mapena",
     "bases": []
   },
   {
@@ -16094,7 +16092,7 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "mapena",
+    "iso": "melanau-kajang",
     "bases": []
   },
   {
@@ -16122,11 +16120,11 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "melanau-kajang",
+    "iso": "melanesian-pidgin",
     "bases": []
   },
   {
-    "iso": "melanesian-pidgin",
+    "iso": "minahasan",
     "bases": []
   },
   {
@@ -16148,7 +16146,7 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "minahasan",
+    "iso": "moklenic",
     "bases": []
   },
   {
@@ -16158,7 +16156,7 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "moklenic",
+    "iso": "moni",
     "bases": []
   },
   {
@@ -16180,15 +16178,15 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "moni",
-    "bases": []
-  },
-  {
     "iso": "moraori",
     "bases": []
   },
   {
     "iso": "morawa",
+    "bases": []
+  },
+  {
+    "iso": "mnb",
     "bases": []
   },
   {
@@ -16228,11 +16226,11 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "mnb",
+    "iso": "muna-buton",
     "bases": []
   },
   {
-    "iso": "muna-buton",
+    "iso": "namumi",
     "bases": []
   },
   {
@@ -16254,7 +16252,7 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "namumi",
+    "iso": "nasal",
     "bases": []
   },
   {
@@ -16270,10 +16268,6 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "nasal",
-    "bases": []
-  },
-  {
     "iso": "ais",
     "bases": []
   },
@@ -16283,6 +16277,10 @@ globalThis.languageMixerMap = [
   },
   {
     "iso": "nawaru",
+    "bases": []
+  },
+  {
+    "iso": "nem",
     "bases": []
   },
   {
@@ -16304,11 +16302,11 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "nem",
+    "iso": "new-zealand-pidgin-english",
     "bases": []
   },
   {
-    "iso": "new-zealand-pidgin-english",
+    "iso": "ngatikese-creole",
     "bases": []
   },
   {
@@ -16316,10 +16314,6 @@ globalThis.languageMixerMap = [
     "bases": [
       203084
     ]
-  },
-  {
-    "iso": "ngatikese-creole",
-    "bases": []
   },
   {
     "iso": "nggem",
@@ -16330,13 +16324,17 @@ globalThis.languageMixerMap = [
     "bases": []
   },
   {
+    "iso": "niuean",
+    "bases": []
+  },
+  {
     "iso": "ninggerum",
     "bases": [
       203061
     ]
   },
   {
-    "iso": "niuean",
+    "iso": "norfuk",
     "bases": []
   },
   {
@@ -16344,10 +16342,6 @@ globalThis.languageMixerMap = [
     "bases": [
       203085
     ]
-  },
-  {
-    "iso": "norfuk",
-    "bases": []
   },
   {
     "iso": "north-borneo",
@@ -16366,6 +16360,10 @@ globalThis.languageMixerMap = [
     "bases": []
   },
   {
+    "iso": "northern-luzon",
+    "bases": []
+  },
+  {
     "iso": "bunun-northern-central",
     "bases": [
       202416
@@ -16378,7 +16376,7 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "northern-luzon",
+    "iso": "northern-south-sulawesi",
     "bases": []
   },
   {
@@ -16388,11 +16386,11 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "northern-south-sulawesi",
+    "iso": "northwest-sumatra-barrier-islands",
     "bases": []
   },
   {
-    "iso": "northwest-sumatra-barrier-islands",
+    "iso": "ok-oksapmin",
     "bases": []
   },
   {
@@ -16414,7 +16412,7 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "ok-oksapmin",
+    "iso": "omati",
     "bases": []
   },
   {
@@ -16424,7 +16422,7 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "omati",
+    "iso": "onobasulu",
     "bases": []
   },
   {
@@ -16434,7 +16432,7 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "onobasulu",
+    "iso": "papuan-tip",
     "bases": []
   },
   {
@@ -16492,11 +16490,11 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "papuan-tip",
+    "iso": "pzh",
     "bases": []
   },
   {
-    "iso": "pzh",
+    "iso": "pijin",
     "bases": []
   },
   {
@@ -16506,7 +16504,7 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "pijin",
+    "iso": "pitcairn-norfolk",
     "bases": []
   },
   {
@@ -16516,7 +16514,7 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "pitcairn-norfolk",
+    "iso": "rarotongan",
     "bases": []
   },
   {
@@ -16544,11 +16542,11 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "rarotongan",
+    "iso": "rejang",
     "bases": []
   },
   {
-    "iso": "rejang",
+    "iso": "riantana",
     "bases": []
   },
   {
@@ -16558,7 +16556,7 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "riantana",
+    "iso": "rotuman",
     "bases": []
   },
   {
@@ -16568,7 +16566,7 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "rotuman",
+    "iso": "sabahan",
     "bases": []
   },
   {
@@ -16596,7 +16594,7 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "sabahan",
+    "iso": "saluan-banggai",
     "bases": []
   },
   {
@@ -16630,7 +16628,7 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "saluan-banggai",
+    "iso": "sangiric",
     "bases": []
   },
   {
@@ -16652,7 +16650,7 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "sangiric",
+    "iso": "seko-badaic",
     "bases": []
   },
   {
@@ -16680,11 +16678,11 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "seko-badaic",
+    "iso": "selaru",
     "bases": []
   },
   {
-    "iso": "selaru",
+    "iso": "shwng",
     "bases": []
   },
   {
@@ -16706,7 +16704,7 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "shwng",
+    "iso": "singlish",
     "bases": []
   },
   {
@@ -16734,11 +16732,11 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "singlish",
+    "iso": "fos",
     "bases": []
   },
   {
-    "iso": "fos",
+    "iso": "some",
     "bases": []
   },
   {
@@ -16748,11 +16746,11 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "some",
+    "iso": "sonia",
     "bases": []
   },
   {
-    "iso": "sonia",
+    "iso": "south-mindanao",
     "bases": []
   },
   {
@@ -16760,10 +16758,6 @@ globalThis.languageMixerMap = [
     "bases": [
       202461
     ]
-  },
-  {
-    "iso": "south-mindanao",
-    "bases": []
   },
   {
     "iso": "south-sulawesi",
@@ -16782,13 +16776,17 @@ globalThis.languageMixerMap = [
     "bases": []
   },
   {
+    "iso": "st-matthias",
+    "bases": []
+  },
+  {
     "iso": "atayal-squliq",
     "bases": [
       203103
     ]
   },
   {
-    "iso": "st-matthias",
+    "iso": "sumatran",
     "bases": []
   },
   {
@@ -16810,11 +16808,11 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "sumatran",
+    "iso": "sumba-flores",
     "bases": []
   },
   {
-    "iso": "sumba-flores",
+    "iso": "taokas",
     "bases": []
   },
   {
@@ -16866,7 +16864,7 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "taokas",
+    "iso": "temotu",
     "bases": []
   },
   {
@@ -16894,7 +16892,7 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "temotu",
+    "iso": "timoric",
     "bases": []
   },
   {
@@ -16916,7 +16914,7 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "timoric",
+    "iso": "tok-pisin",
     "bases": []
   },
   {
@@ -16932,7 +16930,7 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "tok-pisin",
+    "iso": "tokelauan",
     "bases": []
   },
   {
@@ -16942,11 +16940,11 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "tokelauan",
+    "iso": "tomini-tolitoli",
     "bases": []
   },
   {
-    "iso": "tomini-tolitoli",
+    "iso": "torres-strait-creole",
     "bases": []
   },
   {
@@ -16956,7 +16954,7 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "torres-strait-creole",
+    "iso": "turaka",
     "bases": []
   },
   {
@@ -16984,7 +16982,7 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "turaka",
+    "iso": "tuvaluan",
     "bases": []
   },
   {
@@ -16994,7 +16992,7 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "tuvaluan",
+    "iso": "vanuatu",
     "bases": []
   },
   {
@@ -17034,7 +17032,7 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "vanuatu",
+    "iso": "west-bomberai",
     "bases": []
   },
   {
@@ -17110,7 +17108,7 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "west-bomberai",
+    "iso": "western-malayo-polynesian",
     "bases": []
   },
   {
@@ -17126,15 +17124,15 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "western-malayo-polynesian",
-    "bases": []
-  },
-  {
     "iso": "western-oceanic",
     "bases": []
   },
   {
     "iso": "western-pantar",
+    "bases": []
+  },
+  {
+    "iso": "assan",
     "bases": []
   },
   {
@@ -17258,7 +17256,7 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "assan",
+    "iso": "chukotkan",
     "bases": []
   },
   {
@@ -17268,7 +17266,7 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "chukotkan",
+    "iso": "chuvan",
     "bases": []
   },
   {
@@ -17278,11 +17276,11 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "chuvan",
+    "iso": "eastern-itelmen",
     "bases": []
   },
   {
-    "iso": "eastern-itelmen",
+    "iso": "omok",
     "bases": []
   },
   {
@@ -17328,11 +17326,11 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "omok",
+    "iso": "pumpokol",
     "bases": []
   },
   {
-    "iso": "pumpokol",
+    "iso": "southern-yukaghir",
     "bases": []
   },
   {
@@ -17342,11 +17340,11 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "southern-yukaghir",
+    "iso": "tundra-yukaghir",
     "bases": []
   },
   {
-    "iso": "tundra-yukaghir",
+    "iso": "yeniseian",
     "bases": []
   },
   {
@@ -17356,11 +17354,11 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "yeniseian",
+    "iso": "yugh",
     "bases": []
   },
   {
-    "iso": "yugh",
+    "iso": "bodish",
     "bases": []
   },
   {
@@ -17424,19 +17422,19 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "bijiang-bai-dialect",
-    "bases": []
-  },
-  {
-    "iso": "bodish",
-    "bases": []
-  },
-  {
     "iso": "bokar",
     "bases": []
   },
   {
     "iso": "bola",
+    "bases": []
+  },
+  {
+    "iso": "central-tibeto-burman",
+    "bases": []
+  },
+  {
+    "iso": "chashan",
     "bases": []
   },
   {
@@ -17470,7 +17468,7 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "central-tibeto-burman",
+    "iso": "chepang",
     "bases": []
   },
   {
@@ -17480,11 +17478,11 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "chashan",
+    "iso": "eastern-himalayas",
     "bases": []
   },
   {
-    "iso": "chepang",
+    "iso": "greater-magaric",
     "bases": []
   },
   {
@@ -17554,7 +17552,7 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "eastern-himalayas",
+    "iso": "greater-siangic",
     "bases": []
   },
   {
@@ -17582,11 +17580,11 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "greater-magaric",
+    "iso": "langsu",
     "bases": []
   },
   {
-    "iso": "greater-siangic",
+    "iso": "macro-bai",
     "bases": []
   },
   {
@@ -17758,7 +17756,7 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "langsu",
+    "iso": "mahakiranti",
     "bases": []
   },
   {
@@ -17816,7 +17814,7 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "macro-bai",
+    "iso": "milang",
     "bases": []
   },
   {
@@ -17832,7 +17830,7 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "mahakiranti",
+    "iso": "mondzish",
     "bases": []
   },
   {
@@ -17866,7 +17864,7 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "milang",
+    "iso": "njo",
     "bases": []
   },
   {
@@ -17882,11 +17880,11 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "mondzish",
+    "iso": "mruic",
     "bases": []
   },
   {
-    "iso": "njo",
+    "iso": "naxi",
     "bases": []
   },
   {
@@ -17896,7 +17894,7 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "mruic",
+    "iso": "tibetic",
     "bases": []
   },
   {
@@ -17924,7 +17922,7 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "naxi",
+    "iso": "tibeto-burman",
     "bases": []
   },
   {
@@ -18096,11 +18094,11 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "tibetic",
+    "iso": "western-himalayas",
     "bases": []
   },
   {
-    "iso": "tibeto-burman",
+    "iso": "zhaba",
     "bases": []
   },
   {
@@ -18134,7 +18132,7 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "western-himalayas",
+    "iso": "arawak",
     "bases": []
   },
   {
@@ -18198,7 +18196,7 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "zhaba",
+    "iso": "bolivian-spanish",
     "bases": []
   },
   {
@@ -18232,7 +18230,7 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "arawak",
+    "iso": "choshuenco",
     "bases": []
   },
   {
@@ -18284,7 +18282,7 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "bolivian-spanish",
+    "iso": "colombian-spanish",
     "bases": []
   },
   {
@@ -18360,7 +18358,7 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "choshuenco",
+    "iso": "mineiro",
     "bases": []
   },
   {
@@ -18376,7 +18374,7 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "colombian-spanish",
+    "iso": "mzp",
     "bases": []
   },
   {
@@ -18614,7 +18612,7 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "mineiro",
+    "iso": "noj",
     "bases": []
   },
   {
@@ -18630,7 +18628,7 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "mzp",
+    "iso": "paraguayan-spanish",
     "bases": []
   },
   {
@@ -18664,7 +18662,7 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "noj",
+    "iso": "peruvian-spanish",
     "bases": []
   },
   {
@@ -18692,7 +18690,7 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "paraguayan-spanish",
+    "iso": "tna",
     "bases": []
   },
   {
@@ -18702,7 +18700,7 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "peruvian-spanish",
+    "iso": "tno",
     "bases": []
   },
   {
@@ -18814,7 +18812,7 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "tna",
+    "iso": "cas",
     "bases": []
   },
   {
@@ -18854,7 +18852,7 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "tno",
+    "iso": "uruguayan-spanish",
     "bases": []
   },
   {
@@ -18864,7 +18862,7 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "cas",
+    "iso": "mbp",
     "bases": []
   },
   {
@@ -18886,7 +18884,7 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "uruguayan-spanish",
+    "iso": "berau-malay",
     "bases": []
   },
   {
@@ -18950,7 +18948,7 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "mbp",
+    "iso": "eno",
     "bases": []
   },
   {
@@ -19038,7 +19036,7 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "berau-malay",
+    "iso": "filipino",
     "bases": []
   },
   {
@@ -19072,11 +19070,11 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "eno",
+    "iso": "bsa",
     "bases": []
   },
   {
-    "iso": "filipino",
+    "iso": "aab",
     "bases": []
   },
   {
@@ -19308,7 +19306,7 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "bsa",
+    "iso": "kbx",
     "bases": []
   },
   {
@@ -19336,15 +19334,15 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "aab",
-    "bases": []
-  },
-  {
-    "iso": "kbx",
-    "bases": []
-  },
-  {
     "iso": "saj",
+    "bases": []
+  },
+  {
+    "iso": "bmu",
+    "bases": []
+  },
+  {
+    "iso": "akc",
     "bases": []
   },
   {
@@ -19354,11 +19352,11 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "bmu",
+    "iso": "mrf",
     "bases": []
   },
   {
-    "iso": "akc",
+    "iso": "khp",
     "bases": []
   },
   {
@@ -19374,11 +19372,11 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "mrf",
+    "iso": "nan",
     "bases": []
   },
   {
-    "iso": "khp",
+    "iso": "ff",
     "bases": []
   },
   {
@@ -19472,7 +19470,7 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "nan",
+    "iso": "fub",
     "bases": []
   },
   {
@@ -19548,11 +19546,11 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "wol",
+    "iso": "fue",
     "bases": []
   },
   {
-    "iso": "sna",
+    "iso": "fuh",
     "bases": []
   },
   {
@@ -19580,27 +19578,27 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "ff",
-    "bases": []
-  },
-  {
-    "iso": "fub",
-    "bases": []
-  },
-  {
-    "iso": "fue",
-    "bases": []
-  },
-  {
-    "iso": "fuh",
-    "bases": []
-  },
-  {
     "iso": "fui",
     "bases": []
   },
   {
     "iso": "fuv",
+    "bases": []
+  },
+  {
+    "iso": "sgb",
+    "bases": []
+  },
+  {
+    "iso": "kck",
+    "bases": []
+  },
+  {
+    "iso": "cdo",
+    "bases": []
+  },
+  {
+    "iso": "pnb",
     "bases": []
   },
   {
@@ -19616,11 +19614,11 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "sgb",
+    "iso": "ckb",
     "bases": []
   },
   {
-    "iso": "kck",
+    "iso": "iii",
     "bases": []
   },
   {
@@ -19648,7 +19646,7 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "cdo",
+    "iso": "tsz",
     "bases": []
   },
   {
@@ -19718,7 +19716,7 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "pnb",
+    "iso": "ibo2",
     "bases": []
   },
   {
@@ -19902,7 +19900,7 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "ckb",
+    "iso": "jie",
     "bases": []
   },
   {
@@ -20236,7 +20234,7 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "iii",
+    "iso": "spanglish",
     "bases": []
   },
   {
@@ -20406,10 +20404,6 @@ globalThis.languageMixerMap = [
     "bases": [
       8429
     ]
-  },
-  {
-    "iso": "tsz",
-    "bases": []
   },
   {
     "iso": "yua",
@@ -21054,10 +21048,6 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "ibo2",
-    "bases": []
-  },
-  {
     "iso": "yor2",
     "bases": [
       772
@@ -21346,10 +21336,6 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "bosavi",
-    "bases": []
-  },
-  {
     "iso": "mpu",
     "bases": [
       202833
@@ -21402,10 +21388,6 @@ globalThis.languageMixerMap = [
     "bases": [
       24803
     ]
-  },
-  {
-    "iso": "inland-gulf",
-    "bases": []
   },
   {
     "iso": "ydk",
@@ -21726,26 +21708,10 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "admiralty",
-    "bases": []
-  },
-  {
-    "iso": "alor-pantar",
-    "bases": []
-  },
-  {
     "iso": "awin-pa",
     "bases": [
       2737
     ]
-  },
-  {
-    "iso": "awyu-dumut",
-    "bases": []
-  },
-  {
-    "iso": "bali-sasak-sumbawa",
-    "bases": []
   },
   {
     "iso": "barito",
@@ -21754,70 +21720,10 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "batanic",
-    "bases": []
-  },
-  {
-    "iso": "bayono-awbono",
-    "bases": []
-  },
-  {
-    "iso": "bungku-tolaki",
-    "bases": []
-  },
-  {
-    "iso": "cenderawasih",
-    "bases": []
-  },
-  {
-    "iso": "central-luzon",
-    "bases": []
-  },
-  {
-    "iso": "central-maluku",
-    "bases": []
-  },
-  {
-    "iso": "central-pacific",
-    "bases": []
-  },
-  {
-    "iso": "central-semitic",
-    "bases": []
-  },
-  {
-    "iso": "central-south-sulawesi",
-    "bases": []
-  },
-  {
-    "iso": "central-vanuatu",
-    "bases": []
-  },
-  {
     "iso": "duna-pogaya",
     "bases": [
       1723
     ]
-  },
-  {
-    "iso": "east-formosan",
-    "bases": []
-  },
-  {
-    "iso": "east-strickland",
-    "bases": []
-  },
-  {
-    "iso": "east-timor-papuan",
-    "bases": []
-  },
-  {
-    "iso": "eastern-oceanic",
-    "bases": []
-  },
-  {
-    "iso": "eastern-romance-family",
-    "bases": []
   },
   {
     "iso": "engan-languages",
@@ -21826,54 +21732,10 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "formosan",
-    "bases": []
-  },
-  {
-    "iso": "goilalan",
-    "bases": []
-  },
-  {
-    "iso": "greater-awyu",
-    "bases": []
-  },
-  {
-    "iso": "greater-barito",
-    "bases": []
-  },
-  {
-    "iso": "greater-central-philippine",
-    "bases": []
-  },
-  {
-    "iso": "greater-north-borneo",
-    "bases": []
-  },
-  {
-    "iso": "halmahera-sea",
-    "bases": []
-  },
-  {
-    "iso": "kayagaric",
-    "bases": []
-  },
-  {
     "iso": "kiwaian",
     "bases": [
       2238
     ]
-  },
-  {
-    "iso": "kolopom",
-    "bases": []
-  },
-  {
-    "iso": "meso-melanesian",
-    "bases": []
-  },
-  {
-    "iso": "oceanic",
-    "bases": []
   },
   {
     "iso": "sal",
@@ -21882,26 +21744,10 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "siangic",
-    "bases": []
-  },
-  {
-    "iso": "sinitic",
-    "bases": []
-  },
-  {
     "iso": "uralic-family",
     "bases": [
       202979
     ]
-  },
-  {
-    "iso": "west-gurage",
-    "bases": []
-  },
-  {
-    "iso": "west-semitic",
-    "bases": []
   },
   {
     "iso": "x-harauti",
@@ -22012,10 +21858,6 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "x-ubykh",
-    "bases": []
-  },
-  {
     "iso": "x-icelandic",
     "bases": [
       203010
@@ -22038,10 +21880,6 @@ globalThis.languageMixerMap = [
     "bases": [
       20115
     ]
-  },
-  {
-    "iso": "x-bozal-spanish",
-    "bases": []
   },
   {
     "iso": "x-simplified-italian-of-libya",
@@ -22290,22 +22128,10 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "x-borgarm-let",
-    "bases": []
-  },
-  {
     "iso": "x-missingsch",
     "bases": [
       202278
     ]
-  },
-  {
-    "iso": "x-namibian-black-german",
-    "bases": []
-  },
-  {
-    "iso": "x-qifu",
-    "bases": []
   },
   {
     "iso": "x-rana-tharu",
@@ -22932,10 +22758,6 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "x-puy",
-    "bases": []
-  },
-  {
     "iso": "x-s-rkaitum",
     "bases": [
       202947
@@ -23378,10 +23200,6 @@ globalThis.languageMixerMap = [
     "bases": [
       202696
     ]
-  },
-  {
-    "iso": "x-tindi",
-    "bases": []
   },
   {
     "iso": "x-lipsha",
@@ -24164,10 +23982,6 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "x-dali-bai-language",
-    "bases": []
-  },
-  {
     "iso": "x-brahui",
     "bases": [
       1369
@@ -24196,10 +24010,6 @@ globalThis.languageMixerMap = [
     "bases": [
       200967
     ]
-  },
-  {
-    "iso": "x-mongsen-ao",
-    "bases": []
   },
   {
     "iso": "x-chol",
@@ -24296,10 +24106,6 @@ globalThis.languageMixerMap = [
     "bases": [
       1167
     ]
-  },
-  {
-    "iso": "x-kanuri",
-    "bases": []
   },
   {
     "iso": "x-ejtun-dialect",
@@ -24404,10 +24210,6 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "x-palawa-kani",
-    "bases": []
-  },
-  {
     "iso": "x-kirundi",
     "bases": [
       13750
@@ -24474,10 +24276,6 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "x-virgin-islands-creole-dedicated",
-    "bases": []
-  },
-  {
     "iso": "x-caribbean-english-creole",
     "bases": [
       20214
@@ -24508,10 +24306,6 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "x-haflong-hindi",
-    "bases": []
-  },
-  {
     "iso": "x-cauque-mayan-language",
     "bases": [
       200938
@@ -24528,10 +24322,6 @@ globalThis.languageMixerMap = [
     "bases": [
       1951
     ]
-  },
-  {
-    "iso": "x-sart-kalmyk",
-    "bases": []
   },
   {
     "iso": "x-gyeonggi-seoul",
@@ -24624,10 +24414,6 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "x-turks-and-caicos-creole-dedicated",
-    "bases": []
-  },
-  {
     "iso": "x-bwamu",
     "bases": [
       20622
@@ -24644,10 +24430,6 @@ globalThis.languageMixerMap = [
     "bases": [
       200521
     ]
-  },
-  {
-    "iso": "x-pipil-nawat",
-    "bases": []
   },
   {
     "iso": "x-ke-yagana",
@@ -24678,10 +24460,6 @@ globalThis.languageMixerMap = [
     "bases": [
       2155
     ]
-  },
-  {
-    "iso": "x-mambila",
-    "bases": []
   },
   {
     "iso": "x-kam-sui",
@@ -24810,10 +24588,6 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "x-kuria",
-    "bases": []
-  },
-  {
     "iso": "x-ghadam-s",
     "bases": [
       11289
@@ -24862,10 +24636,6 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "x-settler-swahili",
-    "bases": []
-  },
-  {
     "iso": "x-kombai-wanggom",
     "bases": [
       202349
@@ -24900,10 +24670,6 @@ globalThis.languageMixerMap = [
     "bases": [
       13598
     ]
-  },
-  {
-    "iso": "x-lowland-iwur",
-    "bases": []
   },
   {
     "iso": "x-mian",
@@ -24964,14 +24730,6 @@ globalThis.languageMixerMap = [
     "bases": [
       454
     ]
-  },
-  {
-    "iso": "x-bonan-kangjia",
-    "bases": []
-  },
-  {
-    "iso": "x-mala",
-    "bases": []
   },
   {
     "iso": "x-nc",
@@ -25052,14 +24810,6 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "x-western-algerian-zenatic-dialects",
-    "bases": []
-  },
-  {
-    "iso": "x-zurg",
-    "bases": []
-  },
-  {
     "iso": "x-becking-dawi",
     "bases": [
       202339
@@ -25096,10 +24846,6 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "celebic",
-    "bases": []
-  },
-  {
     "iso": "franglish",
     "bases": [
       212004
@@ -25118,14 +24864,6 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "highland-east-cushitic",
-    "bases": []
-  },
-  {
-    "iso": "jie",
-    "bases": []
-  },
-  {
     "iso": "karto-zan",
     "bases": [
       2084
@@ -25136,17 +24874,5 @@ globalThis.languageMixerMap = [
     "bases": [
       2673
     ]
-  },
-  {
-    "iso": "lowland-east-cushitic",
-    "bases": []
-  },
-  {
-    "iso": "macro-somali",
-    "bases": []
-  },
-  {
-    "iso": "spanglish",
-    "bases": []
   }
 ];

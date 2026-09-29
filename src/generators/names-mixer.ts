@@ -1796,25 +1796,37 @@ function resolveIsoToMapKey(iso: string, map: LanguageMixerMapEntry[]): string |
   // 1. Exact match (case-insensitive)
   if (tryMatch(k => k === norm)) return norm;
 
-  // A two- or three-letter ISO must not be substring-matched. Step 3 and 4 are
-  // bare prefix/suffix/substring tests, and "en" matches "ben", "men" and
-  // "ten"; "sw" matches "swahili" and "sww". Resolving an ISO to a different
-  // language silently is worse than leaving it unresolved, so short codes stop
-  // after the exact and delimited-prefix matches.
-  if (norm.length <= 3) return null;
-
-  // 2. ISO is the entire key except for a suffix
+  // 2. The ISO is the whole key plus a delimited suffix, e.g. "pt" -> "pt-eur".
+  // The delimiter is the point: it means the key was written for this ISO, not
+  // that the two strings happen to overlap.
   const prefixMatch = tryMatch(k => k.startsWith(`${norm}-`) || k.startsWith(`${norm}_`));
   if (prefixMatch) return prefixMatch;
 
-  // 3. The ISO code appears as a prefix or suffix separated by a dash
-  const dashMatch = tryMatch(k => k.startsWith(norm) || k.endsWith(norm));
-  if (dashMatch) return dashMatch;
-
-  // 4. Generic substring match (lowest priority)
-  const substrMatch = tryMatch(k => k.includes(norm) || norm.includes(k));
-  if (substrMatch) return substrMatch;
-
+  // Nothing beyond this point. The earlier version had two more steps - a bare
+  // startsWith/endsWith test and a generic substring test - and both could bind
+  // an ISO to an unrelated language, because tryMatch returns the SHORTEST
+  // matching key and the tests did not require a boundary:
+  //
+  //   "baka"  -> "ka"  (Kannada)   Baka is Nilo-Saharan, Cameroon
+  //   "agaw"  -> "ga"  (Ga)        Agaw is Afroasiatic, Ethiopia
+  //   "hadza" -> "ha"  (Hausa)     Hadza is an isolate, Tanzania
+  //   "akkadian" -> "ka" (Kannada) Akkadian is Afroasiatic, Mesopotamia
+  //   "tso"   -> "so"  (Sotho)     3-letter ISO against a 2-letter key
+  //
+  // Those all used to be masked: every group label in the mixer map carried
+  // "bases": [], so an ISO that resolved to one was skipped by getMixedByIso
+  // and contributed nothing. The row acted as a tombstone that happened to sit
+  // in front of the fuzzy steps. Removing the group labels removed the
+  // tombstones, and 397 languages that had been silently producing nothing
+  // started emitting a different language's names.
+  //
+  // A proto-language is the sharpest case. With its own row gone, "proto-ron"
+  // fell through to the substring test, where "on" is a substring of
+  // "proto-ron", and Ron began emitting Georgian names.
+  //
+  // An unresolved ISO is a safe outcome: getMixedByIso skips it, and a culture
+  // built from several languages is short by one rather than wrong. Returning
+  // null here is the honest answer for a key that is not in the map.
   return null;
 }
 

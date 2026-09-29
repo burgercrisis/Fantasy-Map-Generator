@@ -123,6 +123,19 @@ function checkCoverage() {
 }
 
 /**
+ * Is this catalog entry a reconstruction rather than a spoken language?
+ *
+ * A proto-language is inferred from daughter languages; it never had a speaker
+ * community, so no one ever coined a place name in it and it can never have a
+ * namebase. The mixer map deliberately carries no row for one.
+ */
+function isReconstruction(lang) {
+  if (!lang) return false;
+  if (Array.isArray(lang.tags) && (lang.tags.includes("proto") || lang.tags.includes("reconstructed"))) return true;
+  return /^proto-/i.test(String(lang.iso || ""));
+}
+
+/**
  * Check for languages that would fail in Markov mixer
  */
 function checkFailures() {
@@ -160,13 +173,18 @@ function checkFailures() {
   const catalogIsos = new Set(mixes.map(m => m.iso));
 
   const noMap = [];
-  const emptyBases = [];
+  const pending = [];
   const allBasesInvalid = [];
   const partiallyInvalid = [];
 
   for (const lang of mixes) {
     if (!lang || !lang.iso) continue;
     if (Array.isArray(lang.tags) && lang.tags.indexOf("family") !== -1) continue;
+    // A proto-language is a reconstruction: it never had speakers, so nobody
+    // ever coined a place name in it, so it can never have a namebase. The map
+    // deliberately has no row for one, so requiring one would report a
+    // permanent failure. Same reasoning as the family skip above.
+    if (isReconstruction(lang)) continue;
 
     const entry = mapByIso.get(lang.iso);
     if (!entry) {
@@ -175,7 +193,12 @@ function checkFailures() {
     }
 
     if (!Array.isArray(entry.bases) || !entry.bases.length) {
-      emptyBases.push({ lang, entry });
+      // A row with no bases is a placeholder for a real language that nobody
+      // has researched yet - baka, hadza, ajawa. getMixedByIso() skips it, so
+      // it is not broken; it is the backlog. It is counted separately so the
+      // number means something: 0 pending means every catalog language can
+      // actually produce a name.
+      pending.push({ lang, entry });
       continue;
     }
 
@@ -187,7 +210,10 @@ function checkFailures() {
     }
   }
 
-  const totalFailures = noMap.length + emptyBases.length + allBasesInvalid.length;
+  // noMap and allBasesInvalid are broken wiring: a language the app offers
+  // that cannot produce a name, with nothing to indicate that is expected.
+  // pending is not broken - it is an un-researched language.
+  const totalFailures = noMap.length + allBasesInvalid.length;
 
   return {
     name: "Failure Check",
@@ -196,13 +222,13 @@ function checkFailures() {
       totalCatalog: mixes.length,
       totalFailures,
       missingMapping: noMap.length,
-      emptyBases: emptyBases.length,
+      pendingResearch: pending.length,
       allBasesInvalid: allBasesInvalid.length,
       partiallyInvalid: partiallyInvalid.length
     },
     details: {
       missingMapping: noMap,
-      emptyBases,
+      pendingResearch: pending,
       allBasesInvalid,
       partiallyInvalid
     }
@@ -514,12 +540,12 @@ function main() {
     console.log(`[${failures.passed ? "PASS" : "FAIL"}] ${failures.name}`);
     console.log(`  Total failures: ${failures.stats.totalFailures}`);
     if (failures.stats.missingMapping > 0) console.log(`    - Missing mapping: ${failures.stats.missingMapping}`);
-    if (failures.stats.emptyBases > 0) console.log(`    - Empty bases: ${failures.stats.emptyBases}`);
+    if (failures.stats.pendingResearch > 0) console.log(`    - Pending research (no namebase yet): ${failures.stats.pendingResearch}`);
     if (failures.stats.allBasesInvalid > 0) console.log(`    - All bases invalid: ${failures.stats.allBasesInvalid}`);
     if (!failures.passed && options.strict) {
       console.log("  Details (first 5 each):");
       failures.details.missingMapping.slice(0, 5).forEach(l => console.log(`    Missing: ${l.iso} (${l.name})`));
-      failures.details.emptyBases.slice(0, 5).forEach(({ lang }) => console.log(`    Empty: ${lang.iso} (${lang.name})`));
+      failures.details.pendingResearch.slice(0, 5).forEach(({ lang }) => console.log(`    Pending: ${lang.iso} (${lang.name})`));
       failures.details.allBasesInvalid.slice(0, 5).forEach(({ lang }) => console.log(`    Invalid: ${lang.iso} (${lang.name})`));
     }
   }
