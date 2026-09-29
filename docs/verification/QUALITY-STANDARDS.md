@@ -226,13 +226,14 @@ name sets reflecting real dialectal variation, not identical lists.
 - No duplicates
 - No empty entries
 
-### 5.7 `family` and `macroFamily` (catalog classification)
+### 5.7 `family` and `category` (catalog classification)
 
 These are requirements on `config/language-mixes.json`, decided 2026-09-29
 after the field was found to be mixing two levels of the linguistic tree.
 
-**`family` names the IMMEDIATE PARENT classification and nothing else.**
-One meaning, one level. `macroFamily` carries the top level.
+**`family` names one classification level and `category` the level above it.**
+Neither is derivable from the other, so both are maintained. 556 family values
+and 105 category values, all non-empty.
 
 Authority is **Glottolog**. Where Glottolog and Ethnologue disagree on where a
 family nests — Chadic is the common case, Afro-Asiatic under Glottolog and
@@ -241,32 +242,43 @@ as authoritative: glottolog codes appear throughout `docs/verification/research/
 
 Why this is a requirement rather than a convention:
 
-- With both levels in use, `family="Niger-Congo"` returned 190 languages while
-  `family="Chadic"` returned 217. The two sets overlap, so no consumer could
-  reason about either.
+- With both levels in use in one field, `family="Niger-Congo"` returned 190
+  languages while `family="Chadic"` returned 217. The sets overlap, so no consumer
+  could reason about either.
 - Greek was filed under `family="Indo-European"` with Armenian and Albanian —
-  three languages. A family-based lookup for Greek found nothing, and it was
+  three languages. A family-based lookup for Greek found nothing and it was
   recorded as not existing.
-- The median family held 3 languages and 358 of 546 held 1–4, too thin for the
-  race mixer to draw a plausible set from.
+- 664 entries were re-filed to correct this: 584 at high confidence, 80 at
+  medium. Nothing was deleted and no `iso`, `name` or `region` changed.
 
 Rules:
 
-- No entry may have an empty `family` or `macroFamily`.
+- No entry may have an empty `family` or `category`.
 - `"Mixed"` and `"Unclassified"` are not valid values. They are to be resolved
   language by language, not used as a bucket.
 - A family value may not be renamed or deleted while entries remain in it. That
   makes those entries unfindable, which is what happened to Greek.
-- A family left with fewer than 5 entries is promoted to its parent, unless it
-  is a legitimate small leaf, so that any family a consumer selects is large
-  enough to mix from.
 - Never delete a language to resolve a classification problem. A wrong family is
   worse than a shallow one, because it silently feeds the wrong name list to a
   fantasy race.
+- **Do not merge small families to raise their size.** 345 of 556 families hold
+  1–4 languages. That is a property of having 3691 languages across 556
+  families, not a defect, and an earlier draft of this section wrongly required
+  promotion. It was unexecutable: 294 of those families are referenced by
+  `src/generators/races.ts`, so promoting them broke the race profiles rather
+  than helping them. Merging is only appropriate where two families are
+  genuinely the same node under two names — an explicit list, not a rule.
 
-The authoritative family → macroFamily table, its sizes, and the list of
-entries left unresolved are in `docs/verification/research/family-taxonomy.md`.
-`tools/namebase-tools/family-taxonomy.test.js` enforces this section.
+Do not add a `macroFamily` field. It was proposed and rejected: 33 family values
+already appear under more than one category, so `family` cannot uniquely
+determine a parent, and the field would have been a second source of truth that
+disagreed with the first.
+
+The authoritative family table, its sizes, and the entries left unresolved are
+in `docs/verification/research/family-taxonomy.md`. Race profile `families` and
+`categories` are **derived from each race's own `isos` set** and must never be
+hand-maintained — they were, they drifted, and six names went stale when the
+taxonomy was corrected.
 
 ## 6. File Assignment
 
