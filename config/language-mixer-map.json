@@ -24870,5 +24870,230 @@
     "bases": [
       2673
     ]
+  },
+  {
+    "iso": "lue",
+    "bases": [
+      107
+    ]
+  },
+  {
+    "iso": "lgg",
+    "bases": [
+      121
+    ]
+  },
+  {
+    "iso": "wob",
+    "bases": [
+      185
+    ]
+  },
+  {
+    "iso": "bas",
+    "bases": [
+      247
+    ]
+  },
+  {
+    "iso": "shk",
+    "bases": [
+      500
+    ]
+  },
+  {
+    "iso": "nrb",
+    "bases": [
+      530
+    ]
+  },
+  {
+    "iso": "tmh",
+    "bases": [
+      767
+    ]
+  },
+  {
+    "iso": "ktb",
+    "bases": [
+      1114
+    ]
+  },
+  {
+    "iso": "kbr",
+    "bases": [
+      1143,
+      20713
+    ]
+  },
+  {
+    "iso": "fia",
+    "bases": [
+      1202
+    ]
+  },
+  {
+    "iso": "bez",
+    "bases": [
+      1230
+    ]
+  },
+  {
+    "iso": "bky",
+    "bases": [
+      1339
+    ]
+  },
+  {
+    "iso": "kai",
+    "bases": [
+      1935
+    ]
+  },
+  {
+    "iso": "khj",
+    "bases": [
+      1979
+    ]
+  },
+  {
+    "iso": "mdj",
+    "bases": [
+      2277
+    ]
+  },
+  {
+    "iso": "nge",
+    "bases": [
+      2292
+    ]
+  },
+  {
+    "iso": "gmv",
+    "bases": [
+      2522
+    ]
+  },
+  {
+    "iso": "nnj",
+    "bases": [
+      2647
+    ]
+  },
+  {
+    "iso": "avi",
+    "bases": [
+      2701
+    ]
+  },
+  {
+    "iso": "kde",
+    "bases": [
+      10280
+    ]
+  },
+  {
+    "iso": "nym",
+    "bases": [
+      10883
+    ]
+  },
+  {
+    "iso": "yao",
+    "bases": [
+      10885
+    ]
+  },
+  {
+    "iso": "ndc",
+    "bases": [
+      10934
+    ]
+  },
+  {
+    "iso": "toi",
+    "bases": [
+      13445
+    ]
+  },
+  {
+    "iso": "hdy",
+    "bases": [
+      14151
+    ]
+  },
+  {
+    "iso": "sid",
+    "bases": [
+      947,
+      14152
+    ]
+  },
+  {
+    "iso": "wal",
+    "bases": [
+      957,
+      20714
+    ]
+  },
+  {
+    "iso": "bcq",
+    "bases": [
+      14153
+    ]
+  },
+  {
+    "iso": "fat",
+    "bases": [
+      203215
+    ]
+  },
+  {
+    "iso": "mua",
+    "bases": [
+      203233
+    ]
+  },
+  {
+    "iso": "bdt",
+    "bases": [
+      20583
+    ]
+  },
+  {
+    "iso": "dow",
+    "bases": [
+      20732
+    ]
+  },
+  {
+    "iso": "huo",
+    "bases": [
+      1012
+    ]
+  },
+  {
+    "iso": "afb",
+    "bases": [
+      23003
+    ]
+  },
+  {
+    "iso": "mzh",
+    "bases": [
+      5826
+    ]
+  },
+  {
+    "iso": "alc",
+    "bases": [
+      7947
+    ]
+  },
+  {
+    "iso": "ntp",
+    "bases": [
+      201031
+    ]
   }
 ]

@@ -6047,7 +6047,7 @@
     "family": "Bahnaric"
   },
   {
-    "name": "Hu (Angku, Kon Keu)",
+    "name": "Angku",
     "iso": "kkn",
     "region": "Asia",
     "category": "Austroasiatic",
@@ -28897,5 +28897,298 @@
     "region": "Africa",
     "category": "Niger-Congo",
     "family": "Bantu"
+  },
+  {
+    "name": "Luvale",
+    "iso": "lue",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "wikipedia": "https://en.wikipedia.org/wiki/Luvale_language",
+    "family": "Bantu"
+  },
+  {
+    "name": "Lugbara",
+    "iso": "lgg",
+    "region": "Africa",
+    "category": "Nilo-Saharan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Lugbara_language",
+    "family": "Central Sudanic"
+  },
+  {
+    "name": "Wobe",
+    "iso": "wob",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "wikipedia": "https://en.wikipedia.org/wiki/Wob%C3%A9_language",
+    "family": "Kru"
+  },
+  {
+    "name": "Basaa",
+    "iso": "bas",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "wikipedia": "https://en.wikipedia.org/wiki/Basaa_language",
+    "family": "Bantu"
+  },
+  {
+    "name": "Shilluk",
+    "iso": "shk",
+    "region": "Africa",
+    "category": "Nilo-Saharan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Shilluk_language",
+    "family": "Nilotic"
+  },
+  {
+    "name": "Nara",
+    "iso": "nrb",
+    "region": "Africa",
+    "category": "Nilo-Saharan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Nara_language",
+    "family": "Nilo-Saharan"
+  },
+  {
+    "name": "Tamashek",
+    "iso": "tmh",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tamasheq_language",
+    "family": "Tuareg Berber"
+  },
+  {
+    "name": "Kambaata",
+    "iso": "ktb",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Kambaata_language",
+    "family": "Cushitic"
+  },
+  {
+    "name": "Kafa",
+    "iso": "kbr",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Kafa_language",
+    "family": "Omotic"
+  },
+  {
+    "name": "Nobiin",
+    "iso": "fia",
+    "region": "Africa",
+    "category": "Nilo-Saharan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Nobiin",
+    "family": "Saharan"
+  },
+  {
+    "name": "Bena",
+    "iso": "bez",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "wikipedia": "https://en.wikipedia.org/wiki/Bena_language",
+    "family": "Bantu"
+  },
+  {
+    "name": "Bokyi",
+    "iso": "bky",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "wikipedia": "https://en.wikipedia.org/wiki/Bokyi_language",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Karekare",
+    "iso": "kai",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Chadic"
+  },
+  {
+    "name": "Kuturmi",
+    "iso": "khj",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "wikipedia": "https://en.wikipedia.org/wiki/Kuturmi_language",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Mangbetu",
+    "iso": "mdj",
+    "region": "Africa",
+    "category": "Nilo-Saharan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Mangbetu_language",
+    "family": "Central Sudanic"
+  },
+  {
+    "name": "Mankon",
+    "iso": "nge",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "wikipedia": "https://en.wikipedia.org/wiki/Mankon_language",
+    "family": "Grassfields Bantoid"
+  },
+  {
+    "name": "Gamo",
+    "iso": "gmv",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Gamo-Gofa-Dawro_language",
+    "family": "Omotic"
+  },
+  {
+    "name": "Nyangatom",
+    "iso": "nnj",
+    "region": "Africa",
+    "category": "Nilo-Saharan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Nyangatom_language",
+    "family": "Nilotic"
+  },
+  {
+    "name": "Avikam",
+    "iso": "avi",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "wikipedia": "https://en.wikipedia.org/wiki/Avikam_language",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Makonde",
+    "iso": "kde",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "wikipedia": "https://en.wikipedia.org/wiki/Makonde_language",
+    "family": "Bantu"
+  },
+  {
+    "name": "Nyamwezi",
+    "iso": "nym",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "wikipedia": "https://en.wikipedia.org/wiki/Nyamwezi_language",
+    "family": "Bantu"
+  },
+  {
+    "name": "Yao",
+    "iso": "yao",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "wikipedia": "https://en.wikipedia.org/wiki/Yao_language",
+    "family": "Bantu"
+  },
+  {
+    "name": "Ndau",
+    "iso": "ndc",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ndau_language",
+    "family": "Bantu"
+  },
+  {
+    "name": "Tonga Zambia",
+    "iso": "toi",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tonga_language_(Zambia_and_Zimbabwe)",
+    "family": "Bantu"
+  },
+  {
+    "name": "Hadiyya",
+    "iso": "hdy",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Hadiyya_language",
+    "family": "Cushitic"
+  },
+  {
+    "name": "Sidamo",
+    "iso": "sid",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Sidama_language",
+    "family": "Cushitic"
+  },
+  {
+    "name": "Wolaytta",
+    "iso": "wal",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Wolaytta_language",
+    "family": "Omotic"
+  },
+  {
+    "name": "Bench",
+    "iso": "bcq",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Bench_language",
+    "family": "Omotic"
+  },
+  {
+    "name": "Fanti",
+    "iso": "fat",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "wikipedia": "https://en.wikipedia.org/wiki/Fante_dialect",
+    "family": "Akan"
+  },
+  {
+    "name": "Mundang",
+    "iso": "mua",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "wikipedia": "https://en.wikipedia.org/wiki/Mundang_language",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Bokoto",
+    "iso": "bdt",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "wikipedia": "https://en.wikipedia.org/wiki/Bokoto_language",
+    "family": "Adamawa"
+  },
+  {
+    "name": "Doyago",
+    "iso": "dow",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Chadic"
+  },
+  {
+    "name": "Hu",
+    "iso": "huo",
+    "region": "Asia",
+    "category": "Austroasiatic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Hu_language",
+    "family": "Palaungic"
+  },
+  {
+    "name": "Gulf Arabic",
+    "iso": "afb",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Gulf_Arabic",
+    "family": "North Arabian"
+  },
+  {
+    "name": "Wichí Lhamtés Güisnay",
+    "iso": "mzh",
+    "region": "South America",
+    "category": "Matacoan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Wich%C3%AD_Lhamt%C3%A9s_G%C3%BCisnay",
+    "family": "Matacoan"
+  },
+  {
+    "name": "Qawasqar",
+    "iso": "alc",
+    "region": "South America",
+    "category": "Chonan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Kaw%C3%A9sqar",
+    "family": "Chonan"
+  },
+  {
+    "name": "Northern Tepehuan",
+    "iso": "ntp",
+    "region": "North America",
+    "category": "Uto-Aztecan",
+    "family": "Piman"
   }
 ]
