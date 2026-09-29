@@ -226,6 +226,48 @@ name sets reflecting real dialectal variation, not identical lists.
 - No duplicates
 - No empty entries
 
+### 5.7 `family` and `macroFamily` (catalog classification)
+
+These are requirements on `config/language-mixes.json`, decided 2026-09-29
+after the field was found to be mixing two levels of the linguistic tree.
+
+**`family` names the IMMEDIATE PARENT classification and nothing else.**
+One meaning, one level. `macroFamily` carries the top level.
+
+Authority is **Glottolog**. Where Glottolog and Ethnologue disagree on where a
+family nests — Chadic is the common case, Afro-Asiatic under Glottolog and
+Niger-Congo under Ethnologue — Glottolog wins. The repository already treats it
+as authoritative: glottolog codes appear throughout `docs/verification/research/`.
+
+Why this is a requirement rather than a convention:
+
+- With both levels in use, `family="Niger-Congo"` returned 190 languages while
+  `family="Chadic"` returned 217. The two sets overlap, so no consumer could
+  reason about either.
+- Greek was filed under `family="Indo-European"` with Armenian and Albanian —
+  three languages. A family-based lookup for Greek found nothing, and it was
+  recorded as not existing.
+- The median family held 3 languages and 358 of 546 held 1–4, too thin for the
+  race mixer to draw a plausible set from.
+
+Rules:
+
+- No entry may have an empty `family` or `macroFamily`.
+- `"Mixed"` and `"Unclassified"` are not valid values. They are to be resolved
+  language by language, not used as a bucket.
+- A family value may not be renamed or deleted while entries remain in it. That
+  makes those entries unfindable, which is what happened to Greek.
+- A family left with fewer than 5 entries is promoted to its parent, unless it
+  is a legitimate small leaf, so that any family a consumer selects is large
+  enough to mix from.
+- Never delete a language to resolve a classification problem. A wrong family is
+  worse than a shallow one, because it silently feeds the wrong name list to a
+  fantasy race.
+
+The authoritative family → macroFamily table, its sizes, and the list of
+entries left unresolved are in `docs/verification/research/family-taxonomy.md`.
+`tools/namebase-tools/family-taxonomy.test.js` enforces this section.
+
 ## 6. File Assignment
 
 Each language must be in the correct file. Files are organized by continent for **organizational convenience only** — the file a language is in does NOT define what names belong to that language. A language's names are defined by the language itself, not by the region.
