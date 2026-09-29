@@ -6220,16 +6220,6 @@ window.asiaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Longsang Zhuang",
-    "i": 200340,
-    "min": 4,
-    "max": 7,
-    "d": "Longsang Zhuang is a Zhuang dialect spoken in Longsang area of Guangxi, China.",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-  {
     "name": "Lower Uda Buryat",
     "i": 200341,
     "min": 4,
@@ -6297,16 +6287,6 @@ window.asiaNameBases = [
     "d": "Majhi is an Indo-Aryan language spoken in Nepal by the Majhi people.",
     "m": 0,
     "b": "Kavrepalanchok,Dolakha,Sindhupalchok,Ramechhap,Okhaldhunga,Udayapur,Siraha,Saptari,Sunsari,Morang,Jhapa",
-    "status": "WAITING"
-  },
-  {
-    "name": "Mak Kam Sui",
-    "i": 200349,
-    "min": 4,
-    "max": 11,
-    "d": "Mak is a Kam-Sui language spoken in Guangxi, China.",
-    "m": 0,
-    "b": "",
     "status": "WAITING"
   },
   {
@@ -6748,16 +6728,6 @@ window.asiaNameBases = [
     "m": 0,
     "b": "Noakhali,Feni,Comilla,Brahmanbaria,Chittagong,Cox's Bazar,Rangamati,Khagrachari,Maijdi,Ramu,Chowmuhani,Begumganj,Sonagazi,Fulgazi,Senbagh,Parshuram,Lakshmipur,Chandpur,Bandarban,Daganbhuiyan,Mirsharai,Sitakunda,Hathazari,Raozan,Boalkhali,Anwara,Patiya,Satkania",
     "status": "COMPLETE"
-  },
-  {
-    "name": "Nong Zhuang",
-    "i": 200400,
-    "min": 4,
-    "max": 13,
-    "d": "lnrt",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
   },
   {
     "name": "Nonni Dagur",
@@ -9230,16 +9200,6 @@ window.asiaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Xieheyu",
-    "i": 203263,
-    "min": 4,
-    "max": 11,
-    "d": "Xieheyu (Xiehe) is a Chinese dialect spoken in Yunnan, China.",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-  {
     "name": "Sui Lang",
     "i": 203181,
     "min": 4,
@@ -10007,16 +9967,6 @@ window.asiaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Pura Island,Ternate Island,Alor archipelago",
-    "status": "WAITING"
-  },
-  {
-    "name": "Riantana",
-    "i": 203092,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "",
     "status": "WAITING"
   },
   {
@@ -12378,16 +12328,6 @@ window.asiaNameBases = [
     "m": 0,
     "b": "Phu Thai,Soc Trang,Rayong,Serang,Pattaya,Lhokseumawe,Sandakan,Ternate,Vinh Long,Bogor,Da Nang,Champasak,Woodlands,Quezon City,Lang Son,Bago,Nha Trang,Baguio,Jakarta,Pathein,Dien Bien Phu,Bandar Seri Begawan,Nam Dinh,Shah Alam,Semarang,Baucau,Senmonorom,Khon Kaen,Ho Chi Minh City,Haikou,Hue,Hai Phong,Chiang Mai,Can Tho,Da Lat,Battambang,Xieng Khouang,Sam Neua,Beihai,Sihanoukville,Taunggyi,Luang Prabang,Udon Thani,Takeo,Liuzhou,Mandalay,Phan Thiet,Kampot,Kunming,Phnom Penh,Kampong Cham,Vinh,Shantou,Mawlamyine",
     "status": "COMPLETE"
-  },
-  {
-    "name": "Qifu",
-    "i": 202601,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
   },
   {
     "name": "Ra'ong",
