@@ -229,12 +229,15 @@
         console.log("Discarding non-matching at mixer index " + i + ": " + b.name + " (expected " + expectedISO + ", have " + existing.name + " vs " + b.name + ")");
         continue;
       }
-        continue;
-      }
 
-      // Index not in mixer map - reassign the new one
+      // Index not in mixer map - reassign the new one.
+      // b.i must move with the key. The mixer map addresses namebases by their
+      // declared index, and window.nameBases is sparse-addressed by that same
+      // number, so an entry whose key was changed but whose i was not becomes
+      // unreachable: it exists at one position and claims to be at another.
       let j = maxIndex + 1;
       while (byIndex.has(j)) j++;
+      b.i = j;
       byIndex.set(j, b);
       maxIndex = j > maxIndex ? j : maxIndex;
       reassigned.push({ oldI: i, newI: j, name: b.name, displacedBy: existing.name });
