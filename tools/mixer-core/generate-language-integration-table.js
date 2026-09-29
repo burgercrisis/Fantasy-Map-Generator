@@ -348,7 +348,7 @@ function main() {
     if (!mapByIso.has(entry.iso)) mapByIso.set(entry.iso, entry);
   }
 
-  const devplanWikiPaths = parseWikiListPathsFromDevplan("DEVplans/Languages-Status.md");
+  const devplanWikiPaths = parseWikiListPathsFromDevplan("docs/DEVplans/Languages-Status.md");
   const wikiLists = [];
   for (const relPath of devplanWikiPaths) {
     const full = path.join(root, relPath);

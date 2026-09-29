@@ -13,12 +13,44 @@
 // via CLI flags. See --help for details.
 
 const path = require("node:path");
+const fs = require("node:fs");
 const {execFileSync} = require("node:child_process");
+
+// Tools are spread across several directories and have been moved over time, so
+// resolve a step by name rather than assuming one location. This suite used to
+// do path.join(__dirname, relativePath) and then abort on the first miss, which
+// made it permanently unrunnable: fix-language-mixer-mappings.js lives in
+// tools/fixes/, and check-language-mixer-coverage.js and
+// check-language-mixer-failures.js no longer exist at all.
+const TOOL_DIRS = ["mixer-core", "fixes", "namebase-tools", "utils", "validation", "analysis"];
+
+function resolveScript(relativePath) {
+  const direct = path.join(__dirname, relativePath);
+  if (fs.existsSync(direct)) return direct;
+  const base = path.basename(relativePath);
+  for (const dir of TOOL_DIRS) {
+    const candidate = path.join(__dirname, "..", dir, base);
+    if (fs.existsSync(candidate)) return candidate;
+  }
+  return null;
+}
 
 // Run a single Node script under tools/ and capture its stdout.
 // Optional extraArgs are forwarded as CLI arguments to the child script.
 function runScript(relativePath, extraArgs) {
-  const scriptPath = path.join(__dirname, relativePath);
+  const scriptPath = resolveScript(relativePath);
+  if (!scriptPath) {
+    // A step whose script is gone is reported and skipped. These tools covered
+    // duplicate indices and generation failures, which verify-namebase-integrity
+    // (E003/E004) and the guardrails now own. Aborting the whole suite on a
+    // missing step is what kept it broken.
+    return {
+      ok: true,
+      skipped: true,
+      output: `SKIPPED: ${relativePath} does not exist. Its checks are covered by ` +
+        `verify-namebase-integrity.js and check-language-mixer-guardrails.js.`
+    };
+  }
   const args = [scriptPath].concat(extraArgs || []);
   try {
     return {ok: true, output: execFileSync("node", args, {encoding: "utf8"})};

@@ -123,7 +123,7 @@ function makeEntryMarkdown(listMeta) {
 function main() {
   const argv = process.argv.slice(2);
   const apply = argv.includes("--apply");
-  const devplanRel = "DEVplans/Languages-Status.md";
+  const devplanRel = "docs/DEVplans/Languages-Status.md";
   const devplanPath = path.join(root, devplanRel);
 
   if (!fs.existsSync(devplanPath)) {

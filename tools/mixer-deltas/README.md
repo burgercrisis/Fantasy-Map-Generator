@@ -1,85 +1,59 @@
----
-description: Mixer delta queue (patch queue)
----
+# Delta queue — RETIRED
 
-# Mixer deltas (patch queue)
+**The delta queue in this directory is obsolete. Do not apply it, and do not add
+to it.**
 
-This folder is the **patch queue** for language-mixer mapping changes.
+The three `2025-12-21-*.json` files have been moved to `archive/` with a note.
+`_compiled-dedicated-pins.json` stays, because
+`tools/mixer-core/check-language-mixer-guardrails.js` reads it for JSON
+parseability. It is empty (`{"version":1,"pins":{}}`) and should stay that way
+until the dedicated-pin concept is either rebuilt or formally dropped.
 
-The goal is to avoid multiple workers editing the large canonical files directly (especially `config/language-mixer-map.json`). Instead, workers add small delta JSON files here, then run the compiler to deterministically update the committed artifacts.
+## Why it was retired rather than repaired
 
-## Canonical command
+`tools/mixer-core/apply-mixer-deltas.js` exits 1 on
+`Delta references ISO(s) missing from config/language-mixes.json: kuril-dialects`,
+so the obvious repair is to add that ISO. That would unblock a pipeline whose
+entire contents are invalid. Measured against the current data:
 
-- Apply deltas (writes artifacts if needed):
-  - `pnpm run mixer:apply-deltas`
+    51  setBases rows across the three files
+     0  of them match the mixer map - all 51 disagree
+     1  has all of its base indices present
+    44  have some base indices that do not exist
+     6  have none
 
-Single-integrator lane: in multi-agent contexts, only the integrator should run `pnpm run mixer:apply-deltas` to write/regenerate committed artifacts.
-See `.windsurf/workflows/single-integrator-lane.md`.
+Every one of the 51 references a 14000-series "dedicated pin" index. That block
+was a set of bases reserved for per-language dedicated namebases, and 47 of
+those 51 indices no longer exist in any continent file.
 
-- Check only (does not write; fails if artifacts are out of date):
-  - `pnpm exec -- node tools/mixer-core/apply-mixer-deltas.js --check`
+Simulating the effect of applying them:
 
-## Delta file naming
+    rows whose name match would IMPROVE : 0
+    rows whose name match would WORSEN  : 26
 
-- One file per batch is recommended.
-- Use an ISO date prefix so files sort deterministically.
+For example `pichinglis` currently resolves to "Pichinglis" and the delta wants
+`[432, 14050]`; `lepcha` currently resolves to "Lepcha" and the delta wants
+`[79, 14011]`, where 14011 does not exist. The queue predates the map repair, so
+applying it would undo that work.
 
-Example:
+## What replaced it
 
-- `2025-12-14-worker49.json`
+`config/language-mixer-map.js` is now the single authority, and it is verified
+by name against the language catalog:
 
-## Delta schema
+    pnpm namebase:verify     every row, every check
+    pnpm namebase:map-audit  every row against the catalog by name
+    guardrails               append-only, and the two copies must be identical
 
-Each delta file is JSON with optional keys:
+If a base assignment genuinely needs changing, change the map through those
+tools and let the gate catch the consequences. A side queue that the guardrails
+do not read, whose contents predate the repair, and that cannot be applied
+because one ISO is missing, is worse than no queue at all - it looks like a
+supported way to make changes and is not one.
 
-- `setBases` (alias: `replaceBases`): `{ [iso: string]: number[] }`
-  - Sets the ISO’s `bases[]` to an exact array (normalized + sorted).
-  - Use this for declustering / “make bases[] unique” work where you need a precise mix.
+## The `modules/namebases-*.js` note in the old README
 
-- `dedicatedPins`: `{ [iso: string]: number }`
-  - Declares that an ISO must have a globally-unique dedicated base index.
-  - The compiler will ensure the dedicated base is present in that ISO’s `bases[]`.
-
-- `appendBases`: `{ [iso: string]: number[] }`
-  - Adds one or more base indices to an ISO’s `bases[]`.
-
-Example:
-
-```json
-{
-  "setBases": {
-    "navarro-aragonese": [287, 902]
-  },
-  "dedicatedPins": {
-    "mozarabic": 898,
-    "murcian": 899
-  },
-  "appendBases": {
-    "navarro-aragonese": [4]
-  }
-}
-```
-
-## Application order
-
-1. `setBases` (exact override)
-2. `dedicatedPins` (ensures pinned base is included)
-3. `appendBases` (adds additional bases)
-
-## What files are generated/updated
-
-Running the delta compiler updates:
-
-- `config/language-mixer-map.json`
-- `config/language-mixer-map.js` (via `tools/mixer-core/generate-language-mixer.js`)
-- `tools/mixer-deltas/_compiled-dedicated-pins.json`
-
-`tools/mixer-core/fix-language-mixer-mappings.js` loads the compiled pins file at runtime.
-
-## Hard rules enforced by the compiler
-
-- Delta ISOs must exist in `config/language-mixes.json`
-- Referenced base indices must exist in namebases (`modules/namebases-*.js`)
-- Dedicated pins must be globally unique (no other ISO can already use that base index)
-
-If any check fails, the compiler exits non-zero and does not write outputs.
+The previous version of this README said indices must exist in
+`modules/namebases-*.js`. That path is gone. The only namebase tree is
+`public/modules/`, which is what `src/index.html` loads; a second copy existed
+until 2026-09-29 and has been deleted, with gate check E013 keeping it deleted.

@@ -77,7 +77,7 @@ function runNodeScript(scriptRel, args) {
 function main() {
   const argv = process.argv.slice(2);
 
-  let devplanRel = "DEVplans/Languages-Status.md";
+  let devplanRel = "docs/DEVplans/Languages-Status.md";
   if (argv[0] && !argv[0].startsWith("--")) {
     devplanRel = argv.shift();
   }

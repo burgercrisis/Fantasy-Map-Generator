@@ -468,7 +468,7 @@ function main() {
   }
 
   const listPathArg = args[0];
-  const devplanRel = args[1] || "DEVplans/Languages-Status.md";
+  const devplanRel = args[1] || "docs/DEVplans/Languages-Status.md";
 
   const baseName = path.basename(listPathArg);
   if (/seed|major|subset/i.test(baseName)) {

@@ -321,7 +321,7 @@ function main() {
 
   const noDevplan = args.includes("--no-devplan");
   const devplanArg = args.find(a => a.startsWith("--devplan="));
-  const devplanRel = devplanArg ? devplanArg.slice("--devplan=".length) : "DEVplans/Languages-Status.md";
+  const devplanRel = devplanArg ? devplanArg.slice("--devplan=".length) : "docs/DEVplans/Languages-Status.md";
 
   const baseName = path.basename(listPathArg);
   if (/seed|major|subset/i.test(baseName)) {
