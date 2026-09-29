@@ -50,7 +50,13 @@ const ALLOWED_REMOVALS = new Set([
   // place-name in a 1929 Guida d'Italia that never mentions a language. The
   // namebase entry that backed it held 33 Moroccan city names, hundreds of km
   // from Kufra. See docs/verification/research/zero-seed-triage.md.
-  "zurg", "x-zurg"
+  "zurg", "x-zurg",
+  // "Jamaican Patois" is a reference name for Jamaican Creole English
+  // (glottolog jama1262, ISO jam), not a separate language. There is one
+  // namebase entry, i=200632 "Jamaican Creole", and jamaican-creole already
+  // points at it. The alias row made the app offer a language under a name that
+  // appears nowhere in the data.
+  "jamaican-patois"
 ]);
 
   function decodeTextFile(buf) {

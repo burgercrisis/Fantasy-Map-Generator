@@ -6186,8 +6186,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Lanzhou,Wuwei,Jinchang,Zhangye,Jiayuguan,Jiuquan,Yumen,Dunhuang,Tianshui,Pingliang,Qingyang,Dingxi,Baiyin,Linxia,Hezuo,Xiahe,Minle,Shandan,Yongchang,Minqin,Gulang,Jingtai,Huining,Qinan,Wushan,Gangu,Lixian,Tanchang,Dangchang,Wenxian,Kangxian,Chengxian,Xihe,Xifeng,Heshui",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Palaung",
@@ -7366,8 +7366,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Almosan,Tchibanga,Conakry,Parakou,Fatick,Jalingo,Gashua,Koulikoro,Tougué,Dapaong,Kontagora,Tahoua,Wa,Franceville,Luba,Umuahia,Faranah,Zaria,Lafia,Nkongsamba,Yamoussoukro,Moundou,Porto-Novo,Ségou,Ife,Timbuktu,Farafenni,Lomé,Johannesburg,Pretoria,Pietermaritzburg,Bloemfontein,Nelspruit,East London,Kimberley,Maputo,Chingola,Welkom,George,Mmabatho,Lusaka,Vereeniging,Tembisa,Nampula,Harare,Gweru,Springbok,Kanye,Middelburg,Kabwe,Qacha's Nek,Livingstone,Mzuzu,Upington,Swakopmund",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Bjarmian Sámi",
@@ -7376,8 +7376,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Bjarmian Sámi,Okigwe,Fada N'Gourma,Gwoza,Bafatá,Yola,Makokou,Bobo-Dioulasso,Aba,Parakou,Dosso,Rijau,Cotonou,Louga,Bitam,Niamey,Ambam,Sekondi,Wa,Kissidougou,Korhogo,Awka,Tema,Yusufari,Aksum,Katsina,Yamoussoukro,Moundou,Daloa,Bauchi,Freetown,Banjul,Lomé,Warri,Conakry,Bissau,Sikasso,Kaolack,Nzérékoré,Jalingo,Maiduguri,Koidu,Tenkodogo,Man,Ségou,Ebebiyín,Kaduna,Tamale,Farafenni,Porto-Novo",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Cingali",
@@ -7386,8 +7386,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Cingali,Tchibanga,Conakry,Parakou,Fatick,Jalingo,Gashua,Koulikoro,Tougué,Dapaong,Kontagora,Tahoua,Wa,Franceville,Luba,Umuahia,Faranah,Zaria,Lafia,Nkongsamba,Yamoussoukro,Moundou,Porto-Novo,Ségou,Ife,Timbuktu,Farafenni,Lomé,Accra,Cotonou,Tema,Maiduguri,Katsina,Gbarnga,Koudougou,Kara,Freetown,Bissau,Kumasi,Ouagadougou,Kankan,Mopti,Dakar,Korhogo,Brikama,Bolama,Bauchi,Zinder,Nzérékoré,Nouakchott,Sikasso",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Csángó",
@@ -7396,8 +7396,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Csángó,Aba,Parakou,Tsévié,Fada N'Gourma,Gashua,Louga,Koulamoutou,Mekelle,Zaria,Tahoua,Wa,Kumasi,Luba,Cotonou,Faranah,Nzérékoré,Kaolack,Nkongsamba,Sekondi,Moundou,Yendi,Korhogo,Ife,Tema,Oyo,Kurfi,Kakata,Freetown,Abidjan,Bobo-Dioulasso,Bouaké,Bissau,Praia,Dakar,Bertoua,Kankan,Banjul,Bafatá,Porto-Novo,Kayes,Tambacounda,Saint-Louis,Warri,Jos,Thiès,Kano,Garoua,Sokodé,Gabú",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Dené-Yeniseian",
@@ -7416,8 +7416,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Jåkkåkaska,El Tajín,Mapuche,Casas Grandes,Palenque,Tibes,Teopanzolco,Xalapa,Utatlán,Quiahuiztlan,Sacsayhuamán,Xochicalco,Jacana,Loja,Piedras Negras,Kawésqar,Comalcalco,Chan Chan,Texcoco,Coyoacán,Ihuatzio,Tlatelolco,Yohualichan,Xochimilco,Cholula,Teotihuacán,Tula,Palermo,Banjul,Abidjan,Freetown,Conakry,Ebebiyín,Bouaké,Gbarnga,Bamenda,Wukari,Kankan,Yola,Katsina,Yamoussoukro,Saint-Louis,Koudougou,Wa,Kara,Maiduguri,Sunyani,Kaolack,Nzérékoré,Timbuktu,Malabo,Sokodé,Cacheu,Tambacounda,Parakou",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Jällivaara",
@@ -7426,8 +7426,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Jällivaara,Bafatá,Yola,N'Djamena,Bolgatanga,Aba,Parakou,Gao,Bamenda,Gashua,Louga,Gbarnga,Koulikoro,Lafia,Tahoua,Wa,Banjul,Yaoundé,Gombe,Faranah,Marte,Saint-Louis,Nkongsamba,Jos,Moundou,Lealui,Boké,Ife,Bamako,Koidu,Bissau,Dakar,Bouaké,Sokodé,Jalingo,Korhogo,Bobo-Dioulasso,Kaolack,Kayes,Tambacounda,Man,Monrovia,Wukari,Kaduna,Sunyani,Nzérékoré,Porto-Novo,Maiduguri,Tema,Koudougou,Nouakchott",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Jugan",
@@ -7436,8 +7436,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Jugan,Parakou,Lafia,Rijau,Kumasi,Louga,Ouagadougou,Ségou,Ambam,Kaolack,Wa,Cape Coast,Yaoundé,Awka,Faranah,Ibadan,Tamale,Gabú,Yamoussoukro,Moundou,Baga,Sarh,Ife,Timbuktu,Kenema,Mongu,Kumba,Harper,Changsha,Dalian,Shenyang,Qingdao,Hefei,Hangzhou,Tumen,Lanzhou,New Taipei,Beijing,Nanchang,Lhasa,Ürümqi,Ulsan,Fuzhou,Shenzhen,Taichung,Daejeon,Chongqing,Jilin,Wuhan,Xiamen,Zhuhai,Gwangju,Zhongshan,Hsinchu,Jeonju",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Jukonda",
@@ -7446,8 +7446,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Jukonda,Tchibanga,Conakry,Parakou,Fatick,Jalingo,Gashua,Koulikoro,Tougué,Dapaong,Kontagora,Tahoua,Wa,Franceville,Luba,Umuahia,Faranah,Zaria,Lafia,Nkongsamba,Yamoussoukro,Moundou,Porto-Novo,Ségou,Ife,Timbuktu,Farafenni,Lomé,Ouagadougou,Kara,Bouaké,Daloa,Bissau,Kaduna,Sokodé,Bobo-Dioulasso,Nouakchott,Monrovia,Maiduguri,Gusau,Mopti,Kano,Jos,Basse,Katsina,Banjul,Brikama,Zinder,Bamenda,Bertoua,Tambacounda,Freetown",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Kainuu",
@@ -7456,8 +7456,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Kainuu,Ölgii,Pohang,Thetford Mines,Changwon,Hong Kong,Changhua,Sariwon,Darkhan,Luoyang,Sha Tin,Matsuyama,Taiyuan,Hangzhou,Lanzhou,Chengdu,Qingdao,Chongqing,Nanjing,Ulsan,Hamhung,Jinan,Nagoya,Hefei,Yokohama,Tokyo,Osaka,Harbin,Kawasaki,Fukuoka,Gifu,Hiroshima,Hamamatsu,Yokosuka,Sapporo,Sagamihara,Setagaya,Miyako,Okayama,Saitama,Ishigaki,Chiba,Tsu,Fukushima,Obihiro,Naha,Kyoto,Toyama,Kurume,Wakayama,Matsue",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Kamassian proper",
@@ -7476,8 +7476,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Kazym,Parakou,Lafia,Rijau,Kumasi,Louga,Ouagadougou,Ségou,Ambam,Kaolack,Wa,Cape Coast,Yaoundé,Awka,Faranah,Ibadan,Tamale,Gabú,Yamoussoukro,Moundou,Baga,Sarh,Ife,Timbuktu,Kenema,Mongu,Kumba,Harper,Daloa,Jalingo,Ziguinchor,Bobo-Dioulasso,Kara,Conakry,Bouaké,Yola,Monrovia,Banjul,Nouakchott,Man,Ebebiyín,Kayes,Dakar,Bamako,Tema,Kano,Niamey,Freetown,Koidu,Accra,Aconibe,Jos,Bissau",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Kiknur",
@@ -7486,8 +7486,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Kiknur,Aba,Parakou,Tsévié,Fada N'Gourma,Gashua,Louga,Koulamoutou,Mekelle,Zaria,Tahoua,Wa,Kumasi,Luba,Cotonou,Faranah,Nzérékoré,Kaolack,Nkongsamba,Sekondi,Moundou,Yendi,Korhogo,Ife,Tema,Oyo,Kurfi,Kakata,Bouaké,Accra,Bissau,Koudougou,Man,Kano,Bafatá,Daloa,Kankan,Monrovia,Katsina,Kara,Gusau,Bamako,Mopti,Maiduguri,Tambacounda,Ziguinchor,Tamale,Ebebiyín,Jalingo,Ngaoundéré,Saint-Louis,Lomé,Nouakchott,Bolt",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Komi-Yodzyak",
@@ -7516,8 +7516,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Kosa-Kama,Yola,Aplahoué,Bissau,Aba,Minna,Umuahia,Rijau,Tambacounda,Louga,Bimbila,Sapele,Ambam,Kaolack,Wa,Maiduguri,Nsukka,Awka,Labé,Praia,Aksum,Takum,Yamoussoukro,Moundou,Neves,Sesheke,Okene,Timbuktu,Accra,Koidu,Niamey,Abidjan,Bobo-Dioulasso,Dakar,Banjul,Maroua,Freetown,Basse,Kumasi,Kara,Daloa,Bolt,Ouagadougou,Korhogo,Mopti,Kankan,Saint-Louis,Sunyani,Bouaké,Tema,Ebebiyín,Parakou,Monrovia,Sikasso",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Kozymodemyan",
@@ -7526,8 +7526,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Kozymodemyan,Saminaka,Diffa,Bafatá,Yola,Foumban,Tchibanga,Gagnoa,Parakou,Cape Coast,Mutengene,Gashua,Louga,Natitingou,Tamale,Geidam,Tahoua,Wa,Bamenda,Sarh,Awka,Faranah,Dédougou,Gao,Kumba,Yamoussoukro,Moundou,Cacheu,Bouaké,Timbuktu,Sikasso,Bobo-Dioulasso,Dakar,Banjul,Kara,Kankan,Lomé,Buea,Ouahigouya,Freetown,Maiduguri,Monrovia,Koidu,Kayes,Koudougou,Nzérékoré,Saint-Louis,Kumasi,Zinder,Mopti,Niamey,Sokoto",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Kuuďärv Ludic",
@@ -7546,8 +7546,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Likrisovskoe,Saminaka,Diffa,Bafatá,Yola,Foumban,Tchibanga,Gagnoa,Parakou,Cape Coast,Mutengene,Gashua,Louga,Natitingou,Tamale,Geidam,Tahoua,Wa,Bamenda,Sarh,Awka,Faranah,Dédougou,Gao,Kumba,Yamoussoukro,Moundou,Cacheu,Accra,Abidjan,Banjul,Sokodé,Bobo-Dioulasso,Tarrafal,Daloa,Kumasi,Monrovia,Man,Jalingo,Mopti,Ségou,Maiduguri,Ziguinchor,Korhogo,Tema,Praia,Bertoua,Kara,Zinder,Gusau,Bissau",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Lipsha",
@@ -7556,8 +7556,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Lipsha,Aba,Parakou,Tsévié,Fada N'Gourma,Gashua,Louga,Koulamoutou,Mekelle,Zaria,Tahoua,Wa,Kumasi,Luba,Cotonou,Faranah,Nzérékoré,Kaolack,Nkongsamba,Sekondi,Moundou,Yendi,Korhogo,Ife,Tema,Oyo,Kurfi,Kakata,Dakar,Bamako,Jalingo,Bobo-Dioulasso,Yamoussoukro,Koudougou,Praia,Ségou,Monrovia,Bamenda,Conakry,Maiduguri,Niamey,Zinder,Kaduna,Sunyani,Bauchi,Warri,Gusau,Kankan,Sokoto,Mopti,Cacheu",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Lower Demjanka",
@@ -7566,8 +7566,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Lower Demjanka,Koudougou,Oussouye,Abidjan,Gwoza,Koulikoro,Yola,Aplahoué,Kontagora,Aba,Parakou,Onitsha,Rijau,Umuahia,Louga,Yomou,Sangmélima,Ambam,Tahoua,Wa,Porto-Novo,Bafang,Awka,Faranah,Kaita,Lomé,Limbe,Yamoussoukro,Ouagadougou,Banjul,Bafatá,Sokodé,Cotonou,Katsina,Daloa,Dakar,Ziguinchor,Kara,Nouakchott,Kankan,Kumba,Jos,Basse,Korhogo,Bamenda,Man,Gusau,Ebebiyín,Kano,Maroua,Monrovia,Jalingo,Nzérékoré",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Lower Konda",
@@ -7576,8 +7576,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Lower Konda,Bolgatanga,Bafatá,Yola,Bouaké,Tchibanga,Kumasi,Parakou,Maiduguri,Katsina,Gashua,Abéché,Kubau,Dapaong,Dédougou,Tahoua,Buea,Tambacounda,Luba,Gabú,Faranah,Ngaoundéré,Umuahia,Nkongsamba,Brikama,Moundou,Damaturu,Owerri,Bamako,Bobo-Dioulasso,Abidjan,Kaduna,Bissau,Bamenda,Cotonou,Daloa,Koudougou,Freetown,Porto-Novo,Tenkodogo,Kayes,Jalingo,Nouakchott,Garoua,Basse,Lomé,Warri,Nzérékoré,Wa,Kumba",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Lower Lozva",
@@ -7586,8 +7586,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Lower Lozva,Bolgatanga,Bafatá,Yola,Bouaké,Tchibanga,Kumasi,Parakou,Maiduguri,Katsina,Gashua,Abéché,Kubau,Dapaong,Dédougou,Tahoua,Buea,Tambacounda,Luba,Gabú,Faranah,Ngaoundéré,Umuahia,Nkongsamba,Brikama,Moundou,Damaturu,Owerri,Praia,Gbarnga,Bissau,Korhogo,Ebebiyín,Freetown,Tema,Daloa,Dakar,Lafia,Yamoussoukro,Mopti,Kara,Sunyani,Koudougou,Niamey,Koidu,Nzérékoré,Sokodé,Kaduna,Saint-Louis,Assomada,Abidjan",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Lower Luga",
@@ -7596,8 +7596,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Lower Luga,Bafatá,Yola,N'Djamena,Bolgatanga,Aba,Parakou,Gao,Bamenda,Gashua,Louga,Gbarnga,Koulikoro,Lafia,Tahoua,Wa,Banjul,Yaoundé,Gombe,Faranah,Marte,Saint-Louis,Nkongsamba,Jos,Moundou,Lealui,Boké,Ife,Koidu,Ebebiyín,Bouaké,Bobo-Dioulasso,Bamako,Lomé,Koudougou,Ouagadougou,Freetown,Kankan,Daloa,Nouakchott,Mopti,Korhogo,Man,Sokodé,Katsina,Sikasso,Bissau,Nzérékoré,Abidjan,Basse,Cotonou,Gabú,Accra,Warri",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Lower Vychegda",
@@ -7606,8 +7606,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Lower Vychegda,Koudougou,Oussouye,Abidjan,Gwoza,Koulikoro,Yola,Aplahoué,Kontagora,Aba,Parakou,Onitsha,Rijau,Umuahia,Louga,Yomou,Sangmélima,Ambam,Tahoua,Wa,Porto-Novo,Bafang,Awka,Faranah,Kaita,Lomé,Limbe,Yamoussoukro,Katsina,Gbarnga,Bobo-Dioulasso,Bouaké,Koidu,Ouagadougou,Man,Bissau,Kara,Ziguinchor,Garoua,Cotonou,Sikasso,Maiduguri,Mopti,Monrovia,Bamako,Nzérékoré,Nouakchott,Jos,Basse,Bafatá,Sokodé,Sunyani,Sokoto",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Ludza",
@@ -7616,8 +7616,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Ludza,Parakou,Lafia,Rijau,Kumasi,Louga,Ouagadougou,Ségou,Ambam,Kaolack,Wa,Cape Coast,Yaoundé,Awka,Faranah,Ibadan,Tamale,Gabú,Yamoussoukro,Moundou,Baga,Sarh,Ife,Timbuktu,Kenema,Mongu,Kumba,Harper,Kaduna,Sokodé,Bamenda,Koidu,Cotonou,Abidjan,Mopti,Dakar,Kano,Maiduguri,Kankan,Bamako,Tambacounda,Kayes,Bafoussam,Bauchi,Nzérékoré,Sunyani,Saint-Louis,Man,Monrovia,Malabo,Gusau,Banfora",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Luokta-Mávas",
@@ -7626,8 +7626,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Luokta-Mávas,Saminaka,Diffa,Bafatá,Yola,Foumban,Tchibanga,Gagnoa,Parakou,Cape Coast,Mutengene,Gashua,Louga,Natitingou,Tamale,Geidam,Tahoua,Wa,Bamenda,Sarh,Awka,Faranah,Dédougou,Gao,Kumba,Yamoussoukro,Moundou,Cacheu,Ouagadougou,Banjul,Bobo-Dioulasso,Korhogo,Kaolack,Kara,Kumasi,Abidjan,Gbarnga,Niamey,Porto-Novo,Lafia,Minna,Accra,Timbuktu,Saint-Louis,Jalingo,Lomé,Koidu,Monrovia,Tambacounda,Basse,Ziguinchor,Farafenni",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Luza-Letka",
@@ -7636,8 +7636,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Luza-Letka,Bafatá,Yola,N'Djamena,Bolgatanga,Aba,Parakou,Gao,Bamenda,Gashua,Louga,Gbarnga,Koulikoro,Lafia,Tahoua,Wa,Banjul,Yaoundé,Gombe,Faranah,Marte,Saint-Louis,Nkongsamba,Jos,Moundou,Lealui,Boké,Ife,Bamako,Conakry,Bissau,Accra,Kaolack,Monrovia,Koidu,Porto-Novo,Bouaké,Niamey,Dakar,Katsina,Sokodé,Abidjan,Ebebiyín,Cotonou,Jalingo,Sunyani,Bauchi,Korhogo,Zaria,Ségou,Tema,Kumba",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Merya",
@@ -7646,8 +7646,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Merya,Sheffield,Dubrovnik,Charleroi,Elbasan,Szeged,Plovdiv,Shkodër,Linköping,Turin,Niš,Cardiff,Kópavogur,Aalborg,Vilnius,Tuzla,Kragujevac,Kuopio,Sofia,Seville,Soroca,Waterford,Mdina,Lucerne,Constanța,Sligo,Lisburn,Palermo,Daloa,Accra,Cotonou,Katsina,Ségou,Lomé,Conakry,Kankan,Basse,Tema,Abidjan,Kaduna,Gbarnga,Kara,Kaolack,Niamey,Bouaké,Kumasi,Koidu,Bertoua,Thiès,Saint-Louis,Kano,Monrovia,Ouagadougou,Mopti,Porto-Novo",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Meshcherian",
@@ -7656,8 +7656,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Meshcherian,Oxford,Utrecht,Daugavpils,Narva,Bergen,Dubrovnik,Esbjerg,Cluj-Napoca,Verona,Szeged,Belfast,Poznań,Birkirkara,Reykjavík,České Budějovice,Rijeka,Kópavogur,Gdańsk,Randers,Coimbra,Tuzla,Lyon,Budva,Larissa,Dundee,Iași,Volos,Accra,Warri,Bissau,Kankan,Dakar,Conakry,Ebebiyín,Freetown,Kayes,Kara,Buea,Maiduguri,Kaolack,Ouagadougou,Koudougou,Korhogo,Farafenni,Monrovia,Kaduna,Bauchi,Ségou,Mopti,Porto-Novo,Tarrafal,Nzérékoré,Wa,Nouakchott",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Mulgi",
@@ -7666,8 +7666,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Mulgi,Sheffield,Dubrovnik,Charleroi,Elbasan,Szeged,Plovdiv,Shkodër,Linköping,Turin,Niš,Cardiff,Kópavogur,Aalborg,Vilnius,Tuzla,Kragujevac,Kuopio,Sofia,Seville,Soroca,Waterford,Mdina,Lucerne,Galway,Armagh,Utrecht,Volos,Abidjan,Accra,Bertoua,Banjul,Ebebiyín,Bobo-Dioulasso,Bouaké,Kara,Daloa,Nouakchott,Garoua,Kayes,Ouagadougou,Lomé,Kaolack,Sokodé,Parakou,Monrovia,Kumasi,Gusau,Kumba,Sunyani,Koidu,Aconibe,Zaria,Mopti,Bamenda",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Muromian",
@@ -7676,8 +7676,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Muromian,Swansea,Poznań,Prilep,Porto,Linköping,Marseille,Bar,Reims,Kharkiv,Tuzla,Chișinău,Mykolaiv,Bruges,Sligo,Munich,Tallinn,Ruse,Brașov,Zrenjanin,Korçë,Toulouse,Varna,Cetinje,Zaporizhzhia,Glasgow,Nice,Parma,Bolt,Bissau,Abidjan,Katsina,Dakar,Tenkodogo,Nouakchott,Daloa,Kaolack,Monrovia,Gbarnga,Sokodé,Nzérékoré,Kankan,Timbuktu,Kayes,Tambacounda,Maiduguri,Bafatá,Maroua,Ségou,Mopti,Praia,Bauchi,Kaduna,Wa,Man",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Mysy",
@@ -7696,8 +7696,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Nerdva,Aba,Parakou,Tsévié,Fada N'Gourma,Gashua,Louga,Koulamoutou,Mekelle,Zaria,Tahoua,Wa,Kumasi,Luba,Cotonou,Faranah,Nzérékoré,Kaolack,Nkongsamba,Sekondi,Moundou,Yendi,Korhogo,Ife,Tema,Oyo,Kurfi,Kakata,Bouaké,Bissau,Man,Daloa,Koidu,Freetown,Ouagadougou,Bertoua,Dakar,Kara,Accra,Tambacounda,Kano,Gusau,Maiduguri,Sikasso,Lomé,Bamako,Kayes,Monrovia,Porto-Novo,Koudougou,Aconibe,Gbarnga,Saint-Louis,Jos",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "North Vagilsk",
@@ -7706,8 +7706,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "North Vagilsk,Okigwe,Fada N'Gourma,Gwoza,Bafatá,Yola,Makokou,Bobo-Dioulasso,Aba,Parakou,Dosso,Rijau,Cotonou,Louga,Bitam,Niamey,Ambam,Sekondi,Wa,Kissidougou,Korhogo,Awka,Tema,Yusufari,Aksum,Katsina,Yamoussoukro,Moundou,Abidjan,Sokodé,Ziguinchor,Gbarnga,Timbuktu,Conakry,Bertoua,Kaolack,Bamako,Koidu,Kankan,Ouagadougou,Bissau,Mopti,Bauchi,Saint-Louis,Sikasso,Daloa,Man,Natitingou,Nouakchott,Koudougou",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Northeast Hungary",
@@ -7716,8 +7716,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Northeast Hungary,N'Djamena,Mubi,Bida,Koudougou,Bole,Bamenda,Nguru,Bafatá,Gashua,Mongomo,Lafia,Aba,Parakou,Banjul,Senanga,Yola,Louga,Bo,Tema,Ambam,Jos,Wa,Kindia,Boké,Awka,Faranah,Abidjan,Kaduna,Kaolack,Bouaké,Dakar,Conakry,Kumasi,Kayes,Bamako,Gbarnga,Bissau,Saint-Louis,Niamey,Basse,Korhogo,Gusau,Porto-Novo,Ouagadougou,Ségou,Sokodé,Man,Timbuktu,Koidu,Tarrafal",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Northeastern coastal Estonian",
@@ -7736,8 +7736,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Northern Botnian,Bissau,Bida,Minna,Nnewi,Saminaka,Tambacounda,Bafatá,Yola,Garoua,Tchibanga,Tema,Parakou,Maiduguri,Mopti,Gashua,Labé,Kete Krachi,Dapaong,Bolama,Tahoua,Wa,Kontagora,Luba,Okene,Faranah,Sikasso,Geidam,Accra,Katsina,Conakry,Daloa,Bouaké,Kaduna,Man,Kumasi,Koidu,Nouakchott,Kara,Nzérékoré,Korhogo,Ouagadougou,Praia,Gusau,Bamenda,Ziguinchor,Tenkodogo,Kano,Assomada,Niamey,Sokoto",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Northern Ludic",
@@ -7756,8 +7756,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Northern Savonian,N'Djamena,Mubi,Bida,Koudougou,Bole,Bamenda,Nguru,Bafatá,Gashua,Mongomo,Lafia,Aba,Parakou,Banjul,Senanga,Yola,Louga,Bo,Tema,Ambam,Jos,Wa,Kindia,Boké,Awka,Faranah,Abidjan,Accra,Timbuktu,Cotonou,Bouaké,Conakry,Katsina,Bobo-Dioulasso,Koidu,Praia,Sokoto,Kankan,Mopti,Kayes,Nzérékoré,Freetown,Zinder,Lomé,Zaria,Maiduguri,Daloa,Sunyani,Niamey,Ebebiyín,Tambacounda",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Northern Veps",
@@ -7776,8 +7776,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Ob Mansi,Swansea,Poznań,Prilep,Porto,Linköping,Marseille,Bar,Reims,Kharkiv,Tuzla,Chișinău,Mykolaiv,Bruges,Sligo,Munich,Tallinn,Ruse,Brașov,Zrenjanin,Korçë,Toulouse,Varna,Cetinje,Newry,Šiauliai,Amsterdam,Dublin,Pori,Helsinki,Lahti,Debrecen,Atemar,Kotka,Tampere,Jyväskylä,Kokkola,Rakvere,Monchegorsk,Ardatov,Seinäjoki,Krasnovishersk,Tartu,Kovylkino,Saransk,Oulu,Pécs,Ruzaevka,Berezniki,Vorkuta,Zvenigovo,Inta,Chamzinka,Győr",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Obdorsk",
@@ -7786,8 +7786,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Obdorsk,Tchibanga,Conakry,Parakou,Fatick,Jalingo,Gashua,Koulikoro,Tougué,Dapaong,Kontagora,Tahoua,Wa,Franceville,Luba,Umuahia,Faranah,Zaria,Lafia,Nkongsamba,Yamoussoukro,Moundou,Porto-Novo,Ségou,Ife,Timbuktu,Farafenni,Lomé,Cotonou,Daloa,Abidjan,Kaolack,Man,Banjul,Korhogo,Bouaké,Ziguinchor,Katsina,Bauchi,Bafatá,Gbarnga,Bobo-Dioulasso,Sikasso,Monrovia,Nzérékoré,Kayes,Bamenda,Kaduna,Kano,Bamako,Kumba,Minna",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "On",
@@ -7806,8 +7806,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Orodezhi,Navua,Kairuku,Nibok,Tabubil,Melekeok,Palau,Mili,Ebeye,Newcastle,Rotorua,Denigomodu,Bora-Bora,Dumbea,Rabaul,Kavieng,Samamea,Tabiteuea,Belep,Kimbe,Baiti,Havelu,Ok Tedi,Yap,Hobart,Sogeri,Pécs,Bissau,Bamenda,Gbarnga,Banjul,Koidu,Cotonou,Koudougou,Conakry,Ebebiyín,Monrovia,Lomé,Freetown,Ziguinchor,Kano,Katsina,Sunyani,Kumasi,Yamoussoukro,Ségou,Man,Bamako,Porto-Novo,Bouaké,Mopti,Kaduna,Nouakchott,Sokodé",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Päijänne Tavastia",
@@ -7816,8 +7816,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Päijänne Tavastia,Hrazdan,Balakan,Abovyan,Telavi,Shamakhi,Ashtarak,Lahij,Gabala,Laryak,Ijevan,Kropotkin,Yevlakh,Sochi,Goris,Khasavyurt,Qonagkend,Khachmaz,Xinaliq,Dudelange,Daugavpils,Chișinău,Hamburg,Aalborg,Birkirkara,Saint-Étienne,Turin,Strasbourg,Basse,Banjul,Kaolack,Ziguinchor,Dakar,Bamako,Kano,Bissau,Timbuktu,Korhogo,Kara,Kumasi,Ouagadougou,Bouaké,Bobo-Dioulasso,Gbarnga,Saint-Louis,Zinder,Jalingo,Man,Wa,Koidu,Yamoussoukro,Mopti,Zaria,Kaduna,Maroua",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Pechora",
@@ -7826,8 +7826,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Pechora,Tchibanga,Conakry,Parakou,Fatick,Jalingo,Gashua,Koulikoro,Tougué,Dapaong,Kontagora,Tahoua,Wa,Franceville,Luba,Umuahia,Faranah,Zaria,Lafia,Nkongsamba,Yamoussoukro,Moundou,Porto-Novo,Ségou,Ife,Timbuktu,Farafenni,Lomé,Garoua,Bouaké,Cotonou,Dakar,Kaolack,Koudougou,Daloa,Sokodé,Kara,Accra,Gbarnga,Bamenda,Korhogo,Kaduna,Monrovia,Bamako,Maiduguri,Bissau,Man,Ouagadougou,Niamey,Bafatá",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Pelym",
@@ -7836,8 +7836,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Pelym,Parakou,Lafia,Rijau,Kumasi,Louga,Ouagadougou,Ségou,Ambam,Kaolack,Wa,Cape Coast,Yaoundé,Awka,Faranah,Ibadan,Tamale,Gabú,Yamoussoukro,Moundou,Baga,Sarh,Ife,Timbuktu,Kenema,Mongu,Kumba,Harper,Bouaké,Banfora,Bobo-Dioulasso,Kaduna,Daloa,Dakar,Bafatá,Koidu,Kayes,Freetown,Tema,Lomé,Korhogo,Gusau,Bamenda,Porto-Novo,Conakry,Mopti,Kankan,Monrovia",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Pim",
@@ -7856,8 +7856,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Pite Sami,Leicester,Daugavpils,Tromsø,Tallinn,Dubrovnik,Stara Zagora,Belfast,Odense,Szeged,Florence,Kharkiv,Aberystwyth,Valletta,Bergen,Panevėžys,Kópavogur,Zagreb,Nyíregyháza,Wrocław,Tuzla,Waterford,Sofia,Nikšić,Stirling,Valencia,Cambridge,Limerick,Bafatá,Banjul,Bamako,Conakry,Man,Bamenda,Dakar,Lafia,Cotonou,Daloa,Freetown,Bertoua,Tenkodogo,Tambacounda,Lomé,Tamale,Minna,Sunyani,Bissau,Koudougou,Kumasi,Niamey,Maroua,Kumba,Abidjan,Jalingo,Warri",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Porvoo",
@@ -7866,8 +7866,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Porvoo,Aba,Parakou,Tsévié,Fada N'Gourma,Gashua,Louga,Koulamoutou,Mekelle,Zaria,Tahoua,Wa,Kumasi,Luba,Cotonou,Faranah,Nzérékoré,Kaolack,Nkongsamba,Sekondi,Moundou,Yendi,Korhogo,Ife,Tema,Oyo,Kurfi,Kakata,Sokodé,Mopti,Bissau,Bamako,Conakry,Kankan,Man,Freetown,Cacheu,Kara,Timbuktu,Koidu,Ziguinchor,Mindelo,Koudougou,Sunyani,Porto-Novo,Niamey,Basse,Yamoussoukro,Bouaké,Ségou,Nouakchott,Thiès",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Ruija",
@@ -7876,8 +7876,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Ruija,Parakou,Lafia,Rijau,Kumasi,Louga,Ouagadougou,Ségou,Ambam,Kaolack,Wa,Cape Coast,Yaoundé,Awka,Faranah,Ibadan,Tamale,Gabú,Yamoussoukro,Moundou,Baga,Sarh,Ife,Timbuktu,Kenema,Mongu,Kumba,Harper,Conakry,Banjul,Jalingo,Maroua,Kara,Lomé,Dakar,Koidu,Korhogo,Bertoua,Bamako,Sunyani,Abidjan,Katsina,Saint-Louis,Bauchi,Koudougou,Nzérékoré,Sokoto,Gbarnga,Kankan,Mopti,Gusau,Niamey,Wukari",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Salaca Livonian",
@@ -7896,8 +7896,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Sea Sami,Swansea,Poznań,Prilep,Porto,Linköping,Marseille,Bar,Reims,Kharkiv,Tuzla,Chișinău,Mykolaiv,Bruges,Sligo,Munich,Tallinn,Ruse,Brașov,Zrenjanin,Korçë,Toulouse,Varna,Cetinje,Dudelange,Tiraspol,Manchester,Banja Luka,Praia,Bamako,Conakry,Kankan,Dakar,Freetown,Nzérékoré,Bissau,Kaolack,Bafatá,Wukari,Abidjan,Yamoussoukro,Sokodé,Basse,Kayes,Lomé,Koudougou,Parakou,Maroua,Sunyani,Daloa,Korhogo,Monrovia,Maiduguri,Ebebiyín,Niamey",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Semisjaur-Njarg",
@@ -7906,8 +7906,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Semisjaur-Njarg,Bida,Koudougou,Tema,Kara,Kaduna,Bafatá,Yola,Kindia,Tchibanga,Aba,Parakou,Brikama,Gao,Gashua,Louga,Ijebu Ode,Koulikoro,Ségou,Tahoua,Wa,Enugu,Luba,Banfora,Faranah,Bata,Warri,Nkongsamba,Bamako,Cotonou,Basse,Dakar,Kaolack,Jalingo,Kankan,Kumasi,Gbarnga,Lomé,Cacheu,Nouakchott,Lafia,Accra,Koidu,Freetown,Sokoto,Ngaoundéré,Garoua,Bolt,Kayes,Yamoussoukro,Banjul,Malabo",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Sernur-Morkin",
@@ -7916,8 +7916,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Sernur-Morkin,Wewak,Kavieng,Misima,Lorengau,Tabiteuea,Nibok,Ebeye,Townsville,Kimbe,Tauranga,Salelologa,Abaiang,Malekula,Gizo,Denigomodu,Butaritari,Sogeri,Canala,Kiunga,Koror,Kairuku,Arno,Baiti,Hannover,Kharkiv,Paris,Bamako,Bertoua,Cotonou,Bouaké,Bobo-Dioulasso,Bamenda,Nouakchott,Kayes,Abidjan,Lomé,Ziguinchor,Praia,Garoua,Sikasso,Kara,Korhogo,Kaolack,Ouagadougou,Bissau,Man,Monrovia,Bolt,Bata,Tema,Sunyani,Jos,Ségou",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Serri",
@@ -7926,8 +7926,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Serri,Parakou,Lafia,Rijau,Kumasi,Louga,Ouagadougou,Ségou,Ambam,Kaolack,Wa,Cape Coast,Yaoundé,Awka,Faranah,Ibadan,Tamale,Gabú,Yamoussoukro,Moundou,Baga,Sarh,Ife,Timbuktu,Kenema,Mongu,Kumba,Harper,Porto-Novo,Bafoussam,Koidu,Bobo-Dioulasso,Accra,Daloa,Conakry,Korhogo,Jalingo,Sunyani,Kankan,Mopti,Koudougou,Basse,Tenkodogo,Nzérékoré,Saint-Louis,Kano,Monrovia,Niamey,Jos,Malabo",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Seto",
@@ -7936,8 +7936,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Seto,Barcelona,Málaga,Nantes,Kilkenny,St. Gallen,Narva,Brest,Mykolaiv,Murska Sobota,Cork,Salzburg,Tallinn,Groningen,Vantaa,Grenoble,Zrenjanin,Bremen,Soroca,Cetinje,Durrës,Craiova,Zugdidi,Dudelange,Tiraspol,Porto,Manchester,Banja Luka,Conakry,Bissau,Sokodé,Katsina,Dakar,Kankan,Niamey,Korhogo,Sunyani,Abidjan,Kumasi,Kaduna,Accra,Monrovia,Bobo-Dioulasso,Maiduguri,Man,Malabo,Garoua,Daloa,Thiès,Wa,Timbuktu,Zaria,Ségou,Parakou,Kumba",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Siberian Finnish",
@@ -7946,8 +7946,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Siberian Finnish,Bissau,Bida,Minna,Nnewi,Saminaka,Tambacounda,Bafatá,Yola,Garoua,Tchibanga,Tema,Parakou,Maiduguri,Mopti,Gashua,Labé,Kete Krachi,Dapaong,Bolama,Tahoua,Wa,Kontagora,Luba,Okene,Faranah,Sikasso,Geidam,Helsinki,Oulu,Turku,Lahti,Pori,Kajaani,Joensuu,Seinäjoki,Pechora,Ardatov,Kozmodemyansk,Kuopio,Medvedevo,Krasnoslobodsk,Saransk,Romodanovo,Chamzinka,Atemar,Pärnu,Sernur,Haapsalu,Kuressaare,Budapest,Inta,Kovdor,Chusovoi,Morki",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Siberian Ingrian Finnish",
@@ -7956,8 +7956,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Siberian Ingrian Finnish,Calabar,Sikasso,Maradi,Bamenda,Kaolack,Kenema,Ngaoundéré,Potiskum,Lafia,Bida,Koudougou,Banjul,Mouila,Gombe,Bafatá,Abakaliki,Saint-Louis,Tchibanga,Jos,Parakou,Misau,Boké,Gashua,Louga,Makeni,Dapaong,Kankan,Lahti,Kajaani,Monchegorsk,Oulu,Helsinki,Krasnovishersk,Turku,Kozmodemyansk,Viljandi,Kuopio,Jyväskylä,Rakvere,Mikkeli,Chamzinka,Saransk,Pärnu,Pechora,Syktyvkar,Kokkola,Pécs,Kovylkino,Tartu,Yoshkar-Ola,Berezniki,Joensuu,Vaasa,Nyíregyháza",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Sirkas",
@@ -7966,8 +7966,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Sirkas,Aba,Parakou,Tsévié,Fada N'Gourma,Gashua,Louga,Koulamoutou,Mekelle,Zaria,Tahoua,Wa,Kumasi,Luba,Cotonou,Faranah,Nzérékoré,Kaolack,Nkongsamba,Sekondi,Moundou,Yendi,Korhogo,Ife,Tema,Oyo,Kurfi,Kakata,Accra,Gbarnga,Daloa,Farafenni,Tarrafal,Freetown,Ouagadougou,Bobo-Dioulasso,Koudougou,Kaduna,Tenkodogo,Ngaoundéré,Ziguinchor,Jalingo,Maiduguri,Garoua,Gabú,Thiès,Malabo,Saint-Louis,Monrovia,Wukari",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Skolt Sami",
@@ -7976,8 +7976,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Skolt Sami,Mogilev,Szczecin,Liège,Braga,Prilep,Toulouse,Sligo,Kotor,Dnipro,Canterbury,Bijeljina,Szeged,Belfast,Leuven,Mykolaiv,Frankfurt,Villach,Aalborg,Tallinn,Dijon,Berat,Zrenjanin,Ruse,Bremen,Lille,Chișinău,Rijeka,Accra,Mindelo,Freetown,Abidjan,Timbuktu,Koidu,Kankan,Kara,Monrovia,Katsina,Ziguinchor,Cotonou,Lafia,Bouaké,Kayes,Parakou,Korhogo,Kumasi,Nouakchott,Bertoua,Mopti,Man,Ouagadougou,Jos,Tarrafal,Lomé,Cacheu",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Soikkola",
@@ -7986,8 +7986,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Soikkola,Navua,Kairuku,Nibok,Tabubil,Melekeok,Palau,Mili,Ebeye,Newcastle,Rotorua,Denigomodu,Bora-Bora,Dumbea,Rabaul,Kavieng,Samamea,Tabiteuea,Belep,Kimbe,Baiti,Havelu,Ok Tedi,Yap,Hobart,Sogeri,Nottingham,Lomé,Bamako,Ziguinchor,Bobo-Dioulasso,Dakar,Conakry,Kankan,Kayes,Daloa,Bolama,Kumasi,Zaria,Freetown,Niamey,Nouakchott,Korhogo,Monrovia,Wa,Saint-Louis,Kumba,Nzérékoré,Ouahigouya,Tema,Abidjan,Maiduguri,Parakou,Minna",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Sörkaitum",
@@ -7996,8 +7996,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Sörkaitum,Yola,Aplahoué,Bissau,Aba,Minna,Umuahia,Rijau,Tambacounda,Louga,Bimbila,Sapele,Ambam,Kaolack,Wa,Maiduguri,Nsukka,Awka,Labé,Praia,Aksum,Takum,Yamoussoukro,Moundou,Neves,Sesheke,Okene,Timbuktu,Bamako,Bobo-Dioulasso,Cotonou,Daloa,Warri,Conakry,Ouagadougou,Gbarnga,Mopti,Kaduna,Bamenda,Korhogo,Tema,Nouakchott,Jalingo,Gabú,Porto-Novo,Lafia,Niamey,Assomada,Ziguinchor",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "South Estonian",
@@ -8016,8 +8016,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "South Vagilsk,Okigwe,Fada N'Gourma,Gwoza,Bafatá,Yola,Makokou,Bobo-Dioulasso,Aba,Parakou,Dosso,Rijau,Cotonou,Louga,Bitam,Niamey,Ambam,Sekondi,Wa,Kissidougou,Korhogo,Awka,Tema,Yusufari,Aksum,Katsina,Yamoussoukro,Moundou,Bamenda,Kaduna,Tambacounda,Bouaké,Man,Daloa,Cacheu,Ziguinchor,Freetown,Kankan,Mopti,Kara,Bamako,Koidu,Maroua,Bauchi,Sokodé,Kumasi,Maiduguri,Ouagadougou,Gusau,Lomé,Jos",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Southeastern Finnish",
@@ -8036,8 +8036,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Southeastern Tavastian,Abovyan,Derbent,Ashtarak,Gagra,Ijevan,Khashuri,Naftalan,Hrazdan,Goris,Xinaliq,Khachmaz,Salekhard,Stepanakert,Quba,Pyatigorsk,Shushi,Nazran,Balakan,Gabala,Lahij,Győr,Innsbruck,Nottingham,Limerick,Lisbon,Esch-sur-Alzette,Tromsø,Abidjan,Bouaké,Basse,Nouakchott,Bamako,Bamenda,Koudougou,Katsina,Ouagadougou,Timbuktu,Koidu,Korhogo,Maiduguri,Niamey,Man,Bobo-Dioulasso,Praia,Tambacounda,Gusau,Kayes,Kano,Monrovia,Jalingo,Bertoua,Nzérékoré,Freetown,Ségou",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Southern Botnian",
@@ -8046,8 +8046,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Southern Botnian,Bissau,Bida,Minna,Nnewi,Saminaka,Tambacounda,Bafatá,Yola,Garoua,Tchibanga,Tema,Parakou,Maiduguri,Mopti,Gashua,Labé,Kete Krachi,Dapaong,Bolama,Tahoua,Wa,Kontagora,Luba,Okene,Faranah,Sikasso,Geidam,Accra,Bamako,Katsina,Bobo-Dioulasso,Kaolack,Lafia,Gabú,Kara,Freetown,Korhogo,Monrovia,Kayes,Kumasi,Saint-Louis,Wukari,Banfora,Cotonou,Thiès,Kaduna,Ouagadougou,Gbarnga,Assomada,Daloa,Nzérékoré",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Southern Karelian",
@@ -8056,8 +8056,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Southern Karelian,Dundee,Podgorica,Liepāja,Soroca,Ioannina,Antwerp,Vantaa,Daugavpils,Trieste,Subotica,Dubrovnik,Dijon,Minsk,Szeged,Maribor,Varna,Liberec,Gothenburg,Lille,Kópavogur,Dudelange,Akureyri,Valletta,Aberdeen,Leeds,Chișinău,Aalborg,Weno,Bandung,Medan,Suva,Lautoka,Denpasar,Manila,Cebu City,Palikir,Singapore,Honiara,Makassar,Cagayan de Oro,Luganville,George Town,Bacolod,Tulagi,Kota Kinabalu,Ambrym,Shah Alam,Ipoh,Lorengau,Tutong,Peleliu,Epi,Quezon City",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Southern Mansi",
@@ -8076,8 +8076,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Southern Savonian,N'Djamena,Mubi,Bida,Koudougou,Bole,Bamenda,Nguru,Bafatá,Gashua,Mongomo,Lafia,Aba,Parakou,Banjul,Senanga,Yola,Louga,Bo,Tema,Ambam,Jos,Wa,Kindia,Boké,Awka,Faranah,Abidjan,Ziguinchor,Gbarnga,Korhogo,Freetown,Kano,Ségou,Niamey,Mopti,Katsina,Gabú,Maiduguri,Kayes,Zinder,Dakar,Tenkodogo,Sunyani,Daloa,Thiès,Yamoussoukro,Kankan,Kaolack,Nzérékoré,Jalingo",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Southern Tavastian",
@@ -8086,8 +8086,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Southern Tavastian,Hrazdan,Abovyan,Gagra,Naftalan,Tskhinvali,Ashtarak,Khachmaz,Xinaliq,Ijevan,Salekhard,Quba,Goris,Pyatigorsk,Nazran,Derbent,Balakan,Lahij,Gabala,Amsterdam,Kapan,Tallinn,Galway,Lille,Seville,Berlin,Skopje,Bristol,Banjul,Bouaké,Cotonou,Koudougou,Bobo-Dioulasso,Dakar,Natitingou,Praia,Porto-Novo,Jos,Gbarnga,Parakou,Ouagadougou,Kumasi,Nzérékoré,Garoua,Freetown,Maiduguri,Kayes,Yamoussoukro,Conakry,Mopti,Malabo,Farafenni,Niamey,Saint-Louis,Gusau",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Southern Veps",
@@ -8096,8 +8096,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Southern Veps,Canterbury,Soroca,The Hague,Viljandi,Daugavpils,Patras,Graz,Helsingør,Dubrovnik,Catania,Aberystwyth,Lisburn,Szeged,Mosta,Sliema,Akureyri,Zadar,Drammen,Kópavogur,Faro,Celje,Nice,Tuzla,Cetinje,Valletta,Aberdeen,Leeds,Kokkola,Kajaani,Romodanovo,Kuopio,Tartu,Pori,Joensuu,Mikkeli,Kovdor,Syktyvkar,Lahti,Kirovsk,Saransk,Volzhsk,Jyväskylä,Kuressaare,Vaasa,Haapsalu,Zvenigovo,Nyíregyháza,Vorkuta,Turku,Atemar,Tallinn,Pechora,Helsinki",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Svaipa",
@@ -8106,8 +8106,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Svaipa,Aba,Parakou,Tsévié,Fada N'Gourma,Gashua,Louga,Koulamoutou,Mekelle,Zaria,Tahoua,Wa,Kumasi,Luba,Cotonou,Faranah,Nzérékoré,Kaolack,Nkongsamba,Sekondi,Moundou,Yendi,Korhogo,Ife,Tema,Oyo,Kurfi,Kakata,Lomé,Bissau,Accra,Conakry,Bouaké,Timbuktu,Bolama,Ouagadougou,Sokodé,Niamey,Bamako,Monrovia,Koudougou,Ngaoundéré,Gabú,Lafia,Tamale,Bafatá,Kano,Malabo,Mindelo,Tambacounda,Warri",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Sygva",
@@ -8116,8 +8116,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Sygva,Parakou,Lafia,Rijau,Kumasi,Louga,Ouagadougou,Ségou,Ambam,Kaolack,Wa,Cape Coast,Yaoundé,Awka,Faranah,Ibadan,Tamale,Gabú,Yamoussoukro,Moundou,Baga,Sarh,Ife,Timbuktu,Kenema,Mongu,Kumba,Harper,Abidjan,Banjul,Daloa,Bouaké,Bamenda,Lomé,Tema,Koidu,Bamako,Bauchi,Gbarnga,Nouakchott,Kayes,Saint-Louis,Monrovia,Katsina,Ziguinchor,Man,Korhogo,Buea,Sokodé,Sunyani,Tambacounda,Praia",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Székely",
@@ -8126,8 +8126,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Székely,Levuka,Yap,Kone,Kiunga,Kimbe,Abaiang,Kolonia,Denigomodu,Leulumoega,Punaauia,Palau,Munda,Alotau,Kairuku,Sogeri,Tiga,Baiti,Peleliu,Yaren,Ok Tedi,Tarawa,Kosrae,Tabiteuea,Whangarei,Ohrid,Nuremberg,Banjul,Abidjan,Bobo-Dioulasso,Nouakchott,Cotonou,Ségou,Niamey,Lomé,Kaolack,Tamale,Mindelo,Wa,Yola,Nzérékoré,Warri,Kayes,Man,Maiduguri,Garoua,Bouaké,Saint-Louis,Malabo,Jalingo,Sunyani,Zaria,Koudougou,Cacheu",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Tagil",
@@ -8136,8 +8136,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Tagil,Parakou,Lafia,Rijau,Kumasi,Louga,Ouagadougou,Ségou,Ambam,Kaolack,Wa,Cape Coast,Yaoundé,Awka,Faranah,Ibadan,Tamale,Gabú,Yamoussoukro,Moundou,Baga,Sarh,Ife,Timbuktu,Kenema,Mongu,Kumba,Harper,Banjul,Bobo-Dioulasso,Maiduguri,Warri,Niamey,Cotonou,Dakar,Kankan,Korhogo,Sokodé,Jalingo,Kayes,Accra,Saint-Louis,Malabo,Nzérékoré,Man,Thiès,Abidjan,Monrovia,Nouakchott,Koudougou,Porto-Novo",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Tartu",
@@ -8146,8 +8146,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Tartu,Parakou,Lafia,Rijau,Kumasi,Louga,Ouagadougou,Ségou,Ambam,Kaolack,Wa,Cape Coast,Yaoundé,Awka,Faranah,Ibadan,Tamale,Gabú,Yamoussoukro,Moundou,Baga,Sarh,Ife,Timbuktu,Kenema,Mongu,Kumba,Harper,Basse,Accra,Bissau,Bafatá,Bouaké,Praia,Daloa,Kaduna,Kara,Lomé,Freetown,Porto-Novo,Sokodé,Zaria,Nzérékoré,Sunyani,Thiès,Dakar,Mopti,Nouakchott,Garoua,Bertoua,Gusau",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Tavda",
@@ -8156,8 +8156,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Tavda,Parakou,Lafia,Rijau,Kumasi,Louga,Ouagadougou,Ségou,Ambam,Kaolack,Wa,Cape Coast,Yaoundé,Awka,Faranah,Ibadan,Tamale,Gabú,Yamoussoukro,Moundou,Baga,Sarh,Ife,Timbuktu,Kenema,Mongu,Kumba,Harper,Bamako,Daloa,Dakar,Lomé,Bafatá,Kankan,Nouakchott,Bouaké,Man,Assomada,Banjul,Cotonou,Basse,Abidjan,Kayes,Korhogo,Koudougou,Mopti,Maiduguri,Kano,Monrovia,Zaria,Ziguinchor,Niamey",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Taygi",
@@ -8166,8 +8166,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Taygi,Parakou,Lafia,Rijau,Kumasi,Louga,Ouagadougou,Ségou,Ambam,Kaolack,Wa,Cape Coast,Yaoundé,Awka,Faranah,Ibadan,Tamale,Gabú,Yamoussoukro,Moundou,Baga,Sarh,Ife,Timbuktu,Kenema,Mongu,Kumba,Harper,Abidjan,Sokodé,Lomé,Bouaké,Bissau,Bobo-Dioulasso,Nouakchott,Daloa,Dakar,Koidu,Koudougou,Monrovia,Niamey,Mopti,Sunyani,Katsina,Korhogo,Bauchi,Saint-Louis,Malabo,Jalingo,Ziguinchor,Tema,Basse",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Ter Sami",
@@ -8176,8 +8176,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Ter Sami,Swansea,Poznań,Prilep,Porto,Linköping,Marseille,Bar,Reims,Kharkiv,Tuzla,Chișinău,Mykolaiv,Bruges,Sligo,Munich,Tallinn,Ruse,Brașov,Zrenjanin,Korçë,Toulouse,Varna,Cetinje,Győr,Innsbruck,Nottingham,Limerick,Ebebiyín,Banjul,Bobo-Dioulasso,Conakry,Sunyani,Monrovia,Kumasi,Kaduna,Lomé,Lafia,Accra,Ngaoundéré,Kankan,Mopti,Assomada,Timbuktu,Saint-Louis,Bamako,Cacheu,Bissau,Ouagadougou,Wa,Yamoussoukro,Zinder,Dakar,Minna,Nouakchott",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Tisza-Körös",
@@ -8186,8 +8186,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Tisza-Körös,Bolgatanga,Bafatá,Yola,Bouaké,Tchibanga,Kumasi,Parakou,Maiduguri,Katsina,Gashua,Abéché,Kubau,Dapaong,Dédougou,Tahoua,Buea,Tambacounda,Luba,Gabú,Faranah,Ngaoundéré,Umuahia,Nkongsamba,Brikama,Moundou,Damaturu,Owerri,Abidjan,Bamako,Cotonou,Bertoua,Ouagadougou,Sokodé,Niamey,Koudougou,Nouakchott,Basse,Ziguinchor,Bissau,Porto-Novo,Saint-Louis,Tema,Koidu,Lomé,Daloa,Wa,Minna,Ebebiyín,Timbuktu,Sikasso,Natitingou",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Tonshaevo",
@@ -8196,8 +8196,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Tonshaevo,Yola,Aplahoué,Bissau,Aba,Minna,Umuahia,Rijau,Tambacounda,Louga,Bimbila,Sapele,Ambam,Kaolack,Wa,Maiduguri,Nsukka,Awka,Labé,Praia,Aksum,Takum,Yamoussoukro,Moundou,Neves,Sesheke,Okene,Timbuktu,Accra,Conakry,Bamenda,Ngaoundéré,Cotonou,Kankan,Bafatá,Monrovia,Abidjan,Brikama,Koidu,Katsina,Bobo-Dioulasso,Tamale,Malabo,Nzérékoré,Man,Sunyani,Maroua,Saint-Louis,Niamey,Parakou,Freetown",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Torne Valley",
@@ -8206,8 +8206,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Torne Valley,Saminaka,Diffa,Bafatá,Yola,Foumban,Tchibanga,Gagnoa,Parakou,Cape Coast,Mutengene,Gashua,Louga,Natitingou,Tamale,Geidam,Tahoua,Wa,Bamenda,Sarh,Awka,Faranah,Dédougou,Gao,Kumba,Yamoussoukro,Moundou,Cacheu,Bouaké,Banjul,Bissau,Daloa,Bobo-Dioulasso,Freetown,Zaria,Kara,Ouagadougou,Kaolack,Gusau,Korhogo,Kankan,Sikasso,Man,Basse,Ségou,Kaduna,Kumasi,Gbarnga,Maiduguri,Sunyani,Mopti,Bertoua,Niamey",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Tundra Enets",
@@ -8226,8 +8226,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Tuorpon,Tchibanga,Conakry,Parakou,Fatick,Jalingo,Gashua,Koulikoro,Tougué,Dapaong,Kontagora,Tahoua,Wa,Franceville,Luba,Umuahia,Faranah,Zaria,Lafia,Nkongsamba,Yamoussoukro,Moundou,Porto-Novo,Ségou,Ife,Timbuktu,Farafenni,Lomé,Daloa,Banjul,Kaduna,Dakar,Bouaké,Tema,Niamey,Koidu,Ziguinchor,Cotonou,Gusau,Monrovia,Kumasi,Banfora,Saint-Louis,Korhogo,Man,Nouakchott,Kankan,Nzérékoré,Sunyani,Mindelo",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Turku highlands",
@@ -8236,8 +8236,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Turku highlands,Bida,Koudougou,Tema,Kara,Kaduna,Bafatá,Yola,Kindia,Tchibanga,Aba,Parakou,Brikama,Gao,Gashua,Louga,Ijebu Ode,Koulikoro,Ségou,Tahoua,Wa,Enugu,Luba,Banfora,Faranah,Bata,Warri,Nkongsamba,Ziguinchor,Bobo-Dioulasso,Nzérékoré,Bouaké,Bertoua,Freetown,Bolt,Kaolack,Accra,Ouagadougou,Dakar,Bissau,Sokodé,Praia,Kayes,Lomé,Kumasi,Tamale,Garoua,Sunyani,Zinder,Maiduguri,Jos,Saint-Louis",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Tuzha",
@@ -8246,8 +8246,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Tuzha,Parakou,Lafia,Rijau,Kumasi,Louga,Ouagadougou,Ségou,Ambam,Kaolack,Wa,Cape Coast,Yaoundé,Awka,Faranah,Ibadan,Tamale,Gabú,Yamoussoukro,Moundou,Baga,Sarh,Ife,Timbuktu,Kenema,Mongu,Kumba,Harper,Abidjan,Ziguinchor,Bobo-Dioulasso,Lomé,Daloa,Katsina,Man,Bouaké,Basse,Bamako,Jalingo,Nzérékoré,Maiduguri,Saint-Louis,Wukari,Sunyani,Tema,Bafatá,Ebebiyín,Koidu,Niamey,Sokoto",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Tysfjord",
@@ -8256,8 +8256,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Tysfjord,Owerri,Sokoto,Aba,Parakou,Thiès,Ebolowa,Kaduna,Louga,Ughelli,Kindia,Ambam,Tahoua,Wa,Okigwe,Gao,Awka,Faranah,Bida,Aksum,Ségou,Yamoussoukro,Moundou,Enugu,Sesheke,Zaria,Timbuktu,Douala,Bouaké,Gbarnga,Farafenni,Dakar,Bissau,Freetown,Kara,Lomé,Sokodé,Brikama,Kankan,Man,Kumasi,Wukari,Bafatá,Monrovia,Bolt,Koudougou,Maiduguri,Garoua,Malabo,Kumba,Lafia,Tambacounda",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Ume Sami",
@@ -8266,8 +8266,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Ume Sami,Swansea,Poznań,Prilep,Porto,Linköping,Marseille,Bar,Reims,Kharkiv,Tuzla,Chișinău,Mykolaiv,Bruges,Sligo,Munich,Tallinn,Ruse,Brașov,Zrenjanin,Korçë,Toulouse,Varna,Cetinje,Évora,Parma,Cologne,Dundee,Conakry,Daloa,Kayes,Gbarnga,Dakar,Ebebiyín,Bertoua,Kara,Bobo-Dioulasso,Man,Basse,Kankan,Mopti,Timbuktu,Tamale,Parakou,Banjul,Kumasi,Korhogo,Sunyani,Niamey,Nzérékoré,Yamoussoukro,Saint-Louis,Zaria,Jos,Bafoussam",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Upper Konda",
@@ -8276,8 +8276,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Upper Konda,Bolgatanga,Bafatá,Yola,Bouaké,Tchibanga,Kumasi,Parakou,Maiduguri,Katsina,Gashua,Abéché,Kubau,Dapaong,Dédougou,Tahoua,Buea,Tambacounda,Luba,Gabú,Faranah,Ngaoundéré,Umuahia,Nkongsamba,Brikama,Moundou,Damaturu,Owerri,Jalingo,Bobo-Dioulasso,Tenkodogo,Gbarnga,Daloa,Dakar,Sunyani,Abidjan,Freetown,Thiès,Gusau,Kayes,Kara,Koidu,Nzérékoré,Mindelo,Ouagadougou,Monrovia,Accra,Praia,Farafenni,Wa,Jos,Yamoussoukro",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Upper Lozva",
@@ -8286,8 +8286,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Upper Lozva,Bolgatanga,Bafatá,Yola,Bouaké,Tchibanga,Kumasi,Parakou,Maiduguri,Katsina,Gashua,Abéché,Kubau,Dapaong,Dédougou,Tahoua,Buea,Tambacounda,Luba,Gabú,Faranah,Ngaoundéré,Umuahia,Nkongsamba,Brikama,Moundou,Damaturu,Owerri,Bauchi,Freetown,Koidu,Accra,Bamako,Daloa,Bobo-Dioulasso,Basse,Cotonou,Bamenda,Bertoua,Koudougou,Gbarnga,Kankan,Sokodé,Kara,Garoua,Ebebiyín,Mopti,Lafia,Lomé,Tamale,Nouakchott",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Upper Lupya",
@@ -8296,8 +8296,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Upper Lupya,Bolgatanga,Bafatá,Yola,Bouaké,Tchibanga,Kumasi,Parakou,Maiduguri,Katsina,Gashua,Abéché,Kubau,Dapaong,Dédougou,Tahoua,Buea,Tambacounda,Luba,Gabú,Faranah,Ngaoundéré,Umuahia,Nkongsamba,Brikama,Moundou,Damaturu,Owerri,Bamako,Ziguinchor,Accra,Sokoto,Daloa,Lomé,Praia,Kara,Gbarnga,Korhogo,Gusau,Kayes,Bertoua,Kaduna,Abidjan,Niamey,Yamoussoukro,Saint-Louis,Tamale,Monrovia,Kaolack,Dakar,Zaria,Wukari,Thiès",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Upper Sysola",
@@ -8306,8 +8306,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Upper Sysola,Saminaka,Diffa,Bafatá,Yola,Foumban,Tchibanga,Gagnoa,Parakou,Cape Coast,Mutengene,Gashua,Louga,Natitingou,Tamale,Geidam,Tahoua,Wa,Bamenda,Sarh,Awka,Faranah,Dédougou,Gao,Kumba,Yamoussoukro,Moundou,Cacheu,Accra,Banjul,Saint-Louis,Mindelo,Jos,Bouaké,Basse,Bissau,Kara,Lomé,Kankan,Cotonou,Kayes,Bobo-Dioulasso,Tema,Garoua,Ségou,Kumasi,Porto-Novo,Korhogo,Monrovia,Lafia,Tenkodogo",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Uralic-Yukaghir",
@@ -8326,8 +8326,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Uralo-Siberian,Koudougou,Oussouye,Abidjan,Gwoza,Koulikoro,Yola,Aplahoué,Kontagora,Aba,Parakou,Onitsha,Rijau,Umuahia,Louga,Yomou,Sangmélima,Ambam,Tahoua,Wa,Porto-Novo,Bafang,Awka,Faranah,Kaita,Lomé,Limbe,Yamoussoukro,Magadan,Anadyr,Tiksi,Barguzin,Kargasok,Molchanovo,Suntar,Chokurdakh,Olyokminsk,Khatanga,Oymyakon,Beringovsky,Ust-Kamchatsk,Seymchan,Provideniya,Yelizovo,Khandyga,Bilibino,Norilsk,Kolpashevo,Uelen,Snezhnogorsk,Ust-Nera,Esso,Kayerkan,Bely Yar",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Vakh",
@@ -8346,8 +8346,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Värmland Savonian,N'Djamena,Mubi,Bida,Koudougou,Bole,Bamenda,Nguru,Bafatá,Gashua,Mongomo,Lafia,Aba,Parakou,Banjul,Senanga,Yola,Louga,Bo,Tema,Ambam,Jos,Wa,Kindia,Boké,Awka,Faranah,Abidjan,Accra,Kumasi,Bobo-Dioulasso,Mopti,Cotonou,Sokodé,Kaduna,Kayes,Bamako,Sikasso,Bolama,Tambacounda,Monrovia,Korhogo,Bauchi,Bouaké,Sunyani,Maiduguri,Jalingo,Zaria,Malabo,Ségou,Cacheu",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Vartovskoe",
@@ -8356,8 +8356,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Vartovskoe,Bafatá,Yola,N'Djamena,Bolgatanga,Aba,Parakou,Gao,Bamenda,Gashua,Louga,Gbarnga,Koulikoro,Lafia,Tahoua,Wa,Banjul,Yaoundé,Gombe,Faranah,Marte,Saint-Louis,Nkongsamba,Jos,Moundou,Lealui,Boké,Ife,Bertoua,Bamako,Bissau,Daloa,Bobo-Dioulasso,Dakar,Jalingo,Kumasi,Man,Cotonou,Kayes,Kara,Nouakchott,Nzérékoré,Mopti,Koidu,Sikasso,Kaolack,Tamale,Maroua,Basse,Maiduguri,Garoua,Monrovia,Ngaoundéré,Tambacounda",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Vasjugan",
@@ -8366,8 +8366,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Vasjugan,Owerri,Sokoto,Aba,Parakou,Thiès,Ebolowa,Kaduna,Louga,Ughelli,Kindia,Ambam,Tahoua,Wa,Okigwe,Gao,Awka,Faranah,Bida,Aksum,Ségou,Yamoussoukro,Moundou,Enugu,Sesheke,Zaria,Timbuktu,Douala,Nanjing,Chongqing,Changsha,Fuzhou,Guangzhou,Shenyang,Taoyuan,Hefei,Suzhou,Kaohsiung,Changwon,Pyongyang,Fushun,Daegu,Shanghai,Tumen,Zhongshan,Ürümqi,Lanzhou,Xiamen,Wonsan,Chengdu,Hsinchu,Ansan,Busan,Gwangju,Danchon",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Verkhne-Kalimsk",
@@ -8376,8 +8376,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Verkhne-Kalimsk,Bida,Koudougou,Tema,Kara,Kaduna,Bafatá,Yola,Kindia,Tchibanga,Aba,Parakou,Brikama,Gao,Gashua,Louga,Ijebu Ode,Koulikoro,Ségou,Tahoua,Wa,Enugu,Luba,Banfora,Faranah,Bata,Warri,Nkongsamba,Abidjan,Bissau,Gbarnga,Ouagadougou,Koidu,Conakry,Dakar,Freetown,Kaolack,Ziguinchor,Katsina,Jalingo,Tambacounda,Korhogo,Sokodé,Lomé,Kumasi,Praia,Tamale,Bobo-Dioulasso,Kano",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Vishera",
@@ -8386,8 +8386,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Vishera,Tchibanga,Conakry,Parakou,Fatick,Jalingo,Gashua,Koulikoro,Tougué,Dapaong,Kontagora,Tahoua,Wa,Franceville,Luba,Umuahia,Faranah,Zaria,Lafia,Nkongsamba,Yamoussoukro,Moundou,Porto-Novo,Ségou,Ife,Timbuktu,Farafenni,Lomé,Da Nang,Hat Yai,Phnom Penh,Rach Gia,Can Tho,Naypyidaw,Da Lat,Hue,Quy Nhon,Hanoi,Bangkok,Chiang Mai,Siem Reap,Thakhek,My Tho,Savannakhet,Nakhon Ratchasima,Pakse,Pursat,Xieng Khouang,Guiyang,Vinh,Yangon,Lạng Sơn,Nha Trang,Pathein,Taunggyi",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Vym",
@@ -8406,8 +8406,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Western Transdanubian,Jalingo,Yusufari,Koulikoro,Ngaoundéré,Kaya,Kontagora,Bida,Koudougou,Kumba,Saminaka,Sekondi,Bafatá,Bamako,Kankan,Tchibanga,Brikama,Parakou,Porto-Novo,Abéché,Gashua,Louga,Gouri,Lomé,Bo,Tahoua,Wa,Mutengene,Dire Dawa,Masaka,Jimma,Gambela,Awasa,Dila,Mizan Teferi,Nairobi,Gondar,Dessie,Mbarara,Malakal,Sodo,Soroti,Nekemte,Yabelo,Kabale,Kitale,Fort Portal,Jinja,Addis Ababa,Garissa,Eldoret,Busia,Robe,Entebbe,Nyala",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Western Uusimaa",
@@ -8416,8 +8416,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Western Uusimaa,Bida,Koudougou,Tema,Kara,Kaduna,Bafatá,Yola,Kindia,Tchibanga,Aba,Parakou,Brikama,Gao,Gashua,Louga,Ijebu Ode,Koulikoro,Ségou,Tahoua,Wa,Enugu,Luba,Banfora,Faranah,Bata,Warri,Nkongsamba,Daloa,Maroua,Ebebiyín,Conakry,Timbuktu,Dakar,Ouagadougou,Nouakchott,Monrovia,Jalingo,Mopti,Accra,Bamenda,Korhogo,Bamako,Sunyani,Porto-Novo,Jos,Saint-Louis,Nzérékoré,Zaria,Cacheu",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Western Votic",
@@ -8426,8 +8426,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Western Votic,Canterbury,Soroca,The Hague,Viljandi,Daugavpils,Patras,Graz,Helsingør,Dubrovnik,Catania,Aberystwyth,Lisburn,Szeged,Mosta,Sliema,Akureyri,Zadar,Drammen,Kópavogur,Faro,Celje,Nice,Tuzla,Cetinje,Sligo,Tromsø,Stara Zagora,Joensuu,Oulu,Narva,Jyväskylä,Pori,Rakvere,Monchegorsk,Vaasa,Chamzinka,Krasnovishersk,Tampere,Tallinn,Kozmodemyansk,Krasnoslobodsk,Kuopio,Tartu,Haapsalu,Volzhsk,Sernur,Saransk,Kudymkar,Usinsk,Murmansk,Chusovoi,Kortkeros,Yusva,Atemar",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Yaran",
@@ -8436,8 +8436,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Yaran,Parakou,Lafia,Rijau,Kumasi,Louga,Ouagadougou,Ségou,Ambam,Kaolack,Wa,Cape Coast,Yaoundé,Awka,Faranah,Ibadan,Tamale,Gabú,Yamoussoukro,Moundou,Baga,Sarh,Ife,Timbuktu,Kenema,Mongu,Kumba,Harper,Bissau,Dakar,Bobo-Dioulasso,Conakry,Accra,Gbarnga,Basse,Jos,Bouaké,Kankan,Korhogo,Koidu,Mindelo,Niamey,Koudougou,Kara,Maiduguri,Bertoua,Bolt,Lomé,Sikasso,Ziguinchor,Sunyani",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Yaransk",
@@ -8446,8 +8446,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Yaransk,Tchibanga,Conakry,Parakou,Fatick,Jalingo,Gashua,Koulikoro,Tougué,Dapaong,Kontagora,Tahoua,Wa,Franceville,Luba,Umuahia,Faranah,Zaria,Lafia,Nkongsamba,Yamoussoukro,Moundou,Porto-Novo,Ségou,Ife,Timbuktu,Farafenni,Lomé,Bamako,Banjul,Accra,Bouaké,Ziguinchor,Cotonou,Thiès,Buea,Monrovia,Mindelo,Mopti,Bobo-Dioulasso,Kara,Kayes,Kumasi,Koudougou,Sokodé,Bafatá,Bauchi,Niamey,Freetown,Tambacounda,Nzérékoré,Koidu",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Yazva",
@@ -8456,8 +8456,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Yazva,Parakou,Lafia,Rijau,Kumasi,Louga,Ouagadougou,Ségou,Ambam,Kaolack,Wa,Cape Coast,Yaoundé,Awka,Faranah,Ibadan,Tamale,Gabú,Yamoussoukro,Moundou,Baga,Sarh,Ife,Timbuktu,Kenema,Mongu,Kumba,Harper,Accra,Praia,Bobo-Dioulasso,Ebebiyín,Conakry,Katsina,Kayes,Korhogo,Maroua,Kankan,Mopti,Tema,Man,Freetown,Monrovia,Bamenda,Bamako,Maiduguri,Kano,Bauchi,Jos,Nzérékoré,Cotonou,Sokoto",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Ylä-Satakunta",
@@ -8466,8 +8466,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Ylä-Satakunta,Okigwe,Fada N'Gourma,Gwoza,Bafatá,Yola,Makokou,Bobo-Dioulasso,Aba,Parakou,Dosso,Rijau,Cotonou,Louga,Bitam,Niamey,Ambam,Sekondi,Wa,Kissidougou,Korhogo,Awka,Tema,Yusufari,Aksum,Katsina,Yamoussoukro,Moundou,Gbarnga,Accra,Bissau,Lomé,Bouaké,Warri,Kankan,Bamenda,Timbuktu,Kayes,Bamako,Man,Saint-Louis,Koidu,Bata,Maiduguri,Ségou,Monrovia,Zaria,Mopti,Koudougou,Kaduna,Porto-Novo",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Yoshkar-Olin",
@@ -8476,8 +8476,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Yoshkar-Olin,Saminaka,Diffa,Bafatá,Yola,Foumban,Tchibanga,Gagnoa,Parakou,Cape Coast,Mutengene,Gashua,Louga,Natitingou,Tamale,Geidam,Tahoua,Wa,Bamenda,Sarh,Awka,Faranah,Dédougou,Gao,Kumba,Yamoussoukro,Moundou,Cacheu,Abidjan,Daloa,Nouakchott,Bouaké,Dakar,Cotonou,Kankan,Conakry,Koudougou,Praia,Bissau,Gbarnga,Kaolack,Koidu,Ouagadougou,Tema,Korhogo,Porto-Novo,Niamey,Mopti,Basse,Warri,Zaria,Nzérékoré,Timbuktu",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Yurats",
@@ -8486,8 +8486,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Yurats,Aba,Parakou,Tsévié,Fada N'Gourma,Gashua,Louga,Koulamoutou,Mekelle,Zaria,Tahoua,Wa,Kumasi,Luba,Cotonou,Faranah,Nzérékoré,Kaolack,Nkongsamba,Sekondi,Moundou,Yendi,Korhogo,Ife,Tema,Oyo,Kurfi,Kakata,Lahti,Joensuu,Helsinki,Syktyvkar,Kozmodemyansk,Rovaniemi,Romodanovo,Vaasa,Kotka,Viljandi,Pécs,Kovylkino,Kajaani,Tampere,Narva,Pärnu,Yoshkar-Ola,Zvenigovo,Pechora,Kirovsk,Sernur,Saransk,Turku,Ardatov,Krasnovishersk,Vorkuta,Cherdyn",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Zyuzdino",
@@ -8496,8 +8496,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Zyuzdino,Owerri,Sokoto,Aba,Parakou,Thiès,Ebolowa,Kaduna,Louga,Ughelli,Kindia,Ambam,Tahoua,Wa,Okigwe,Gao,Awka,Faranah,Bida,Aksum,Ségou,Yamoussoukro,Moundou,Enugu,Sesheke,Zaria,Timbuktu,Douala,Jalingo,Katsina,Abidjan,Bissau,Bobo-Dioulasso,Gbarnga,Porto-Novo,Dakar,Lomé,Sokodé,Bamenda,Kankan,Lafia,Korhogo,Warri,Bertoua,Daloa,Koudougou,Kumba,Tema,Basse,Wukari,Tambacounda,Tarrafal",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Andalusian Spanish",
@@ -8506,8 +8506,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Andalusian Spanish,Timișoara,Graz,Utrecht,Saint-Étienne,Inverness,Mogilev,Cahul,Larissa,Strumica,Prilep,Iași,Drammen,Bonn,Seville,Gomel,Zadar,Daugavpils,Mykolaiv,Volos,Viljandi,Hiroshima,Luoyang,Sapporo,Zhuhai,Yamagata,Sinuiju,Daejeon,Hamburg,Chur,Malmö,Sion,Bilbao,Marseille,Rome,Waterford,Berlin,Nantes,Palermo,Prague,Oslo,Lisbon,Valencia,Dundalk,Naples,Venice,Liverpool,Plzeň,Nice,London,Zaragoza,Esbjerg,Funchal,Birmingham,Hradec Králové",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Anglo-Norman",
@@ -8516,8 +8516,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Anglo-Norman,Woliso,Luxor,Maralal,Kitale,Kismayo,Dikhil,Asmara,Tukuyu,Muyinga,Ruhengeri,Siaya,Isiolo,Gitarama,Arusha,Port Sudan,Mitsiwa,Kasese,Shinyanga,Garsen,Ngozi,Mizan Teferi,Nyamira,Sennar,Iringa,Arua,Gedaref,Newala,Niamey,Banjul,Kaolack,Praia,Conakry,Bouaké,Freetown,Dakar,Gbarnga,Korhogo,Bertoua,Kara,Mopti,Kayes,Bobo-Dioulasso,Tambacounda,Saint-Louis,Wa,Basse,Tamale,Lomé,Timbuktu,Kumasi,Nouakchott,Jos,Yola,Mindelo",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Béarnese",
@@ -8526,8 +8526,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Béarnese,Swansea,Poznań,Prilep,Porto,Linköping,Marseille,Bar,Reims,Kharkiv,Tuzla,Chișinău,Mykolaiv,Bruges,Sligo,Munich,Tallinn,Ruse,Brașov,Zrenjanin,Korçë,Toulouse,Varna,Cetinje,Warsaw,Zagreb,Cambridge,Kilkenny,Accra,Kankan,Bobo-Dioulasso,Conakry,Gbarnga,Bamako,Timbuktu,Kara,Freetown,Sokodé,Kumasi,Ouagadougou,Natitingou,Daloa,Malabo,Katsina,Koidu,Maiduguri,Jos,Niamey,Basse,Mopti,Wa,Thiès,Zaria,Lomé,Zinder",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Brianzöö",
@@ -8536,8 +8536,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Brianzöö,Owerri,Sokoto,Aba,Parakou,Thiès,Ebolowa,Kaduna,Louga,Ughelli,Kindia,Ambam,Tahoua,Wa,Okigwe,Gao,Awka,Faranah,Bida,Aksum,Ségou,Yamoussoukro,Moundou,Enugu,Sesheke,Zaria,Timbuktu,Douala,Katsina,Bamako,Man,Praia,Ebebiyín,Freetown,Daloa,Kara,Monrovia,Banjul,Porto-Novo,Accra,Mopti,Kaolack,Buea,Tambacounda,Koidu,Zinder,Abidjan,Koudougou,Bafatá,Niamey,Ouagadougou,Jos,Sokodé",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Canzés",
@@ -8546,8 +8546,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Canzés,Prilep,Łódź,Cork,Zaragoza,Athlone,Oulu,Podgorica,Baranovichi,Toulon,Banja Luka,Mykolaiv,Klagenfurt,Malmö,Antwerp,Tallinn,Reims,Korçë,Zrenjanin,Aberystwyth,Shkodër,Cetinje,Sofia,Sligo,Warsaw,Zagreb,Cambridge,Kilkenny,Abidjan,Bissau,Bouaké,Accra,Praia,Koidu,Gbarnga,Nouakchott,Porto-Novo,Katsina,Korhogo,Kaduna,Kaolack,Ouagadougou,Malabo,Sikasso,Basse,Timbuktu,Minna,Man,Kumba,Bamenda,Mopti,Farafenni,Tamale,Tema,Gusau",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Castilian Spanish",
@@ -8556,8 +8556,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Castilian Spanish,Dundee,Podgorica,Liepāja,Soroca,Ioannina,Antwerp,Vantaa,Daugavpils,Trieste,Subotica,Dubrovnik,Dijon,Minsk,Szeged,Maribor,Varna,Liberec,Gothenburg,Lille,Kópavogur,Dudelange,Pyongyang,Shenzhen,Kaohsiung,Kanazawa,Akita,Taipei,Nice,Toulouse,Wroclaw,Linz,Innsbruck,Bilbao,Reykjanesbær,Marseille,Málaga,Liverpool,Seville,Zaragoza,Hamburg,The Hague,Naples,Barcelona,Waterford,Birmingham,Leeds,Bydgoszcz,Tampere,Malmö,Winterthur,Munich,Basel,Aveiro,Stavanger",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Castúo",
@@ -8566,8 +8566,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Castúo,Prilep,Łódź,Cork,Zaragoza,Athlone,Oulu,Podgorica,Baranovichi,Toulon,Banja Luka,Mykolaiv,Klagenfurt,Malmö,Antwerp,Tallinn,Reims,Korçë,Zrenjanin,Aberystwyth,Shkodër,Cetinje,Sofia,Sligo,Naples,Sheffield,Odesa,Valencia,Daloa,Ouagadougou,Cotonou,Accra,Jalingo,Conakry,Kano,Dakar,Monrovia,Kankan,Lomé,Gbarnga,Katsina,Sokodé,Praia,Ebebiyín,Gusau,Kaduna,Sunyani,Maiduguri,Garoua,Ziguinchor,Bouaké,Niamey,Abidjan,Nouakchott,Bamako",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Cremunés",
@@ -8576,8 +8576,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Cremunés,Swansea,Poznań,Prilep,Porto,Linköping,Marseille,Bar,Reims,Kharkiv,Tuzla,Chișinău,Mykolaiv,Bruges,Sligo,Munich,Tallinn,Ruse,Brașov,Zrenjanin,Korçë,Toulouse,Varna,Cetinje,Cahul,Florence,Rotterdam,Graz,Abidjan,Bouaké,Bissau,Daloa,Tema,Katsina,Kankan,Banjul,Thiès,Korhogo,Ebebiyín,Bolama,Gusau,Koidu,Ségou,Monrovia,Bafatá,Sokodé,Zaria,Conakry,Ouagadougou,Saint-Louis,Basse,Nouakchott,Gbarnga,Dakar,Tambacounda",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Crișana",
@@ -8586,8 +8586,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Crișana,Newcastle,Aveiro,Zugdidi,Dubrovnik,Fier,Randers,Burgas,Szeged,Ruse,Genoa,Newport,Trondheim,Kópavogur,Klaipėda,Nottingham,Zrenjanin,Tuzla,Kraków,Pleven,Bilbao,Sofia,Sligo,Salzburg,Lugano,Cahul,Florence,Rotterdam,Kankan,Jos,Banjul,Nouakchott,Dakar,Freetown,Accra,Bissau,Kaolack,Daloa,Bamenda,Abidjan,Kayes,Koidu,Koudougou,Korhogo,Tenkodogo,Ouagadougou,Ngaoundéré,Maiduguri,Monrovia,Gusau,Warri,Assomada,Brikama,Tambacounda,Kumba",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "German",
@@ -8636,8 +8636,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Judeo-Aragonese,Bida,Koudougou,Tema,Kara,Kaduna,Bafatá,Yola,Kindia,Tchibanga,Aba,Parakou,Brikama,Gao,Gashua,Louga,Ijebu Ode,Koulikoro,Ségou,Tahoua,Wa,Enugu,Luba,Banfora,Faranah,Bata,Warri,Nkongsamba,Liège,Strasbourg,Toulouse,Madrid,Barcelona,Liverpool,Granada,Ghent,Dublin,Bilbao,Fredrikstad,Cork,Düsseldorf,Nice,Locarno,Bern,Bologna,Salzburg,Lucerne,Aveiro,Stockholm,Berlin,Edinburgh,Lyon,Florence,Warsaw,Drammen",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Maltese Italian",
@@ -8656,8 +8656,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Moldavian,Leicester,Daugavpils,Tromsø,Tallinn,Dubrovnik,Stara Zagora,Belfast,Odense,Szeged,Florence,Kharkiv,Aberystwyth,Valletta,Bergen,Panevėžys,Kópavogur,Zagreb,Nyíregyháza,Wrocław,Tuzla,Waterford,Sofia,Nikšić,Madrid,Zürich,Bristol,Toulon,Bissau,Tema,Kankan,Basse,Koidu,Conakry,Bata,Banfora,Nzérékoré,Korhogo,Tarrafal,Maiduguri,Praia,Kara,Freetown,Mopti,Nouakchott,Farafenni,Accra,Sokodé,Kayes,Zaria,Yamoussoukro,Bamako,Kumasi,Jos,Wa,Chisinau,Balti,Cahul,Ungheni,Soroca,Orhei,Hincesti,Comrat,Tiraspol,Bender,Straseni,Riscani,Drochia,Edinet,Briceni,Ocnita,Anenii Noi,Calarasi,Ialoveni,Singerei,Nisporeni,Rezina,Telenesti,Floresti,Soldanesti,Cimislia,Basarabeasca,Taraclia,Cantemir,Leova,Glodeni,Falesti,Criuleni,Dubasari,Grigoriopol,Slobozia,Camenca,Ribnita,Chisinau Nou,Vadul lui Voda,Cricova,Codru,Vatra,Durlesti,Stauceni,Bubuieci,Ciorescu,Bacioi,Colonita,Ghidighici,Budești,Cojusna,Crucea",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Molisan",
@@ -8676,8 +8676,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Monégasque,Mogilev,Szczecin,Liège,Braga,Prilep,Toulouse,Sligo,Kotor,Dnipro,Canterbury,Bijeljina,Szeged,Belfast,Leuven,Mykolaiv,Frankfurt,Villach,Aalborg,Tallinn,Dijon,Berat,Zrenjanin,Ruse,Bremen,Manchester,Niš,Yerevan,Kampong Cham,Hat Yai,Lạng Sơn,Sihanoukville,Phan Thiet,Can Tho,Chiang Mai,My Tho,Hue,Surat Thani,Savannakhet,Luang Prabang,Hanoi,Hong Kong,Pakse,Takeo,Mandalay,Xieng Khouang,Phongsali,Wuzhou,Guiyang,Fangchenggang,Battambang,Siem Reap,Khon Kaen,Pursat,Mawlamyine",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Moselle Romance",
@@ -8696,8 +8696,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Orléanais,Leicester,Daugavpils,Tromsø,Tallinn,Dubrovnik,Stara Zagora,Belfast,Odense,Szeged,Florence,Kharkiv,Aberystwyth,Valletta,Bergen,Panevėžys,Kópavogur,Zagreb,Nyíregyháza,Wrocław,Tuzla,Waterford,Sofia,Nikšić,Leuven,Cahul,Odesa,Venice,Abidjan,Gbarnga,Bertoua,Lomé,Conakry,Tambacounda,Bouaké,Daloa,Kayes,Kara,Jalingo,Man,Mopti,Timbuktu,Cotonou,Korhogo,Katsina,Ouagadougou,Nzérékoré,Zaria,Porto-Novo,Dakar,Bissau,Sunyani,Koidu,Accra,Gusau",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Paḷḷuezu",
@@ -8706,8 +8706,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Paḷḷuezu,Owerri,Sokoto,Aba,Parakou,Thiès,Ebolowa,Kaduna,Louga,Ughelli,Kindia,Ambam,Tahoua,Wa,Okigwe,Gao,Awka,Faranah,Bida,Aksum,Ségou,Yamoussoukro,Moundou,Enugu,Sesheke,Zaria,Timbuktu,Douala,Tema,Daloa,Cotonou,Bissau,Katsina,Banjul,Man,Warri,Ouagadougou,Porto-Novo,Maiduguri,Kayes,Koudougou,Nouakchott,Bauchi,Mopti,Kaolack,Sikasso,Conakry,Malabo,Bafatá,Mindelo,Saint-Louis,Jalingo",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Podlachian",
@@ -8716,8 +8716,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Podlachian,Mogilev,Szczecin,Liège,Braga,Prilep,Toulouse,Sligo,Kotor,Dnipro,Canterbury,Bijeljina,Szeged,Belfast,Leuven,Mykolaiv,Frankfurt,Villach,Aalborg,Tallinn,Dijon,Berat,Zrenjanin,Ruse,Bremen,Coimbra,Vienna,Bordeaux,Bamako,Bouaké,Timbuktu,Conakry,Banjul,Dakar,Gusau,Abidjan,Daloa,Kara,Freetown,Ouagadougou,Nzérékoré,Niamey,Sunyani,Maiduguri,Koudougou,Kumasi,Kayes,Ségou,Ebebiyín,Bauchi,Yamoussoukro,Bafatá,Bamenda,Porto-Novo,Sokoto",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Polabian",
@@ -8726,8 +8726,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Polabian,Swansea,Poznań,Prilep,Porto,Linköping,Marseille,Bar,Reims,Kharkiv,Tuzla,Chișinău,Mykolaiv,Bruges,Sligo,Munich,Tallinn,Ruse,Brașov,Zrenjanin,Korçë,Toulouse,Varna,Cetinje,Kranj,Oslo,Podgorica,Kuopio,Moscow,Babruysk,Ljubljana,Odesa,Ufa,Banská Bystrica,Omsk,Saint Petersburg,Subotica,Perm,Veliko Tarnovo,Gomel,Ungheni,Volgograd,Celje,Minsk,Stara Zagora,Vitebsk,Warsaw,Saratov,Plovdiv,Yekaterinburg,Sofia",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Pomeranian",
@@ -8736,8 +8736,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Pomeranian,Mogilev,Szczecin,Liège,Braga,Prilep,Toulouse,Sligo,Kotor,Dnipro,Canterbury,Bijeljina,Szeged,Belfast,Leuven,Mykolaiv,Frankfurt,Villach,Aalborg,Tallinn,Dijon,Berat,Zrenjanin,Ruse,Bremen,Nara,Chiayi,Busan,Bouaké,Bamako,Tambacounda,Koidu,Warri,Accra,Abidjan,Gbarnga,Freetown,Dakar,Porto-Novo,Kankan,Ebebiyín,Sokodé,Basse,Monrovia,Saint-Louis,Koudougou,Cotonou,Maiduguri,Bauchi,Brikama,Garoua,Bamenda,Praia,Jos,Maroua",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Ripuarian (Platt)",
@@ -8746,8 +8746,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Ripuarian (Platt),N'Djamena,Mubi,Bida,Koudougou,Bole,Bamenda,Nguru,Bafatá,Gashua,Mongomo,Lafia,Aba,Parakou,Banjul,Senanga,Yola,Louga,Bo,Tema,Ambam,Jos,Wa,Kindia,Boké,Awka,Faranah,Abidjan,Dundalk,Liberec,Drogheda,Zaragoza,Barcelona,Stuttgart,Granada,Seville,Örebro,Cologne,Birmingham,Drammen,Hradec Králové,Turin,Munich,Leeds,Copenhagen,Naples,České Budějovice,Krakow,Aarhus,Kolding,Szczecin,Nice,Manchester,Dublin,Florence,Ripuariank,Ripuariant,Ripuarianp,Ripuarianm,Ripuariann,Ripuarians,Ripuarianr,Ripuarianl,Ripuariand,Ripuariang,Ripuarianb",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Romani",
@@ -8786,8 +8786,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Slovincian,Mogilev,Szczecin,Liège,Braga,Prilep,Toulouse,Sligo,Kotor,Dnipro,Canterbury,Bijeljina,Szeged,Belfast,Leuven,Mykolaiv,Frankfurt,Villach,Aalborg,Tallinn,Dijon,Berat,Zrenjanin,Ruse,Bremen,The Hague,Bologna,Gdańsk,Bamako,Freetown,Daloa,Ziguinchor,Kaolack,Banjul,Conakry,Sokodé,Bouaké,Korhogo,Bissau,Kayes,Bauchi,Ebebiyín,Praia,Maiduguri,Timbuktu,Lomé,Cotonou,Bobo-Dioulasso,Tamale,Man,Koudougou,Parakou,Monrovia,Tambacounda,Malabo",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Standard Swedish",
@@ -8876,8 +8876,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Valdôtain,Yola,Aplahoué,Bissau,Aba,Minna,Umuahia,Rijau,Tambacounda,Louga,Bimbila,Sapele,Ambam,Kaolack,Wa,Maiduguri,Nsukka,Awka,Labé,Praia,Aksum,Takum,Yamoussoukro,Moundou,Neves,Sesheke,Okene,Timbuktu,Chiang Mai,Hanoi,Mandalay,Quy Nhon,Nanning,Chiang Rai,Kunming,My Tho,Luang Prabang,Phan Thiet,Vinh,Udon Thani,Savannakhet,Fangchenggang,Pattaya,Takeo,Hai Phong,Xieng Khouang,Pathein,Sihanoukville,Nakhon Ratchasima,Macau,Beihai,Battambang,Khon Kaen,Sơn La,Liuzhou",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Walser German",
@@ -8886,8 +8886,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Walser German,Canterbury,Soroca,The Hague,Viljandi,Daugavpils,Patras,Graz,Helsingør,Dubrovnik,Catania,Aberystwyth,Lisburn,Szeged,Mosta,Sliema,Akureyri,Zadar,Drammen,Kópavogur,Faro,Celje,Nice,Tuzla,Cetinje,Oslo,Poznań,Padua,Toulouse,Lyon,Strasbourg,Hamburg,Rome,Liverpool,Malmö,Amsterdam,Manchester,Randers,Bristol,Turin,Edinburgh,Wroclaw,Bilbao,Bydgoszcz,Lucerne,Plzeň,Norrköping,Dundalk,Venice,Gdansk,Waterford,Copenhagen,Innsbruck",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "West Polesian",
@@ -8896,8 +8896,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "West Polesian,Okigwe,Fada N'Gourma,Gwoza,Bafatá,Yola,Makokou,Bobo-Dioulasso,Aba,Parakou,Dosso,Rijau,Cotonou,Louga,Bitam,Niamey,Ambam,Sekondi,Wa,Kissidougou,Korhogo,Awka,Tema,Yusufari,Aksum,Katsina,Yamoussoukro,Moundou,Moscow,Novosibirsk,Sarajevo,Omsk,Volgograd,Babruysk,Saratov,Pančevo,Chișinău,Katowice,Zaporizhzhia,Saint Petersburg,Grodno,Yekaterinburg,Nizhny Novgorod,Vinnytsia,Mykolaiv,Wrocław,Subotica,Bratislava,Sofia,Kumanovo,Lviv,Brno,Tetovo,Zenica,Warsaw",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Wisconsin Walloon",
@@ -8916,8 +8916,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Wymysorys,Leicester,Daugavpils,Tromsø,Tallinn,Dubrovnik,Stara Zagora,Belfast,Odense,Szeged,Florence,Kharkiv,Aberystwyth,Valletta,Bergen,Panevėžys,Kópavogur,Zagreb,Nyíregyháza,Wrocław,Tuzla,Waterford,Sofia,Nikšić,Charleroi,Utrecht,Oslo,Kyiv,Bamenda,Accra,Bamako,Nouakchott,Gbarnga,Man,Cotonou,Conakry,Dakar,Mopti,Bouaké,Freetown,Lafia,Katsina,Kumasi,Lomé,Tambacounda,Koudougou,Niamey,Sunyani,Nzérékoré,Ouagadougou,Koidu,Bafatá,Ziguinchor,Kankan,Timbuktu",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Yenish",
@@ -8926,8 +8926,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Yenish,Prilep,Łódź,Cork,Zaragoza,Athlone,Oulu,Podgorica,Baranovichi,Toulon,Banja Luka,Mykolaiv,Klagenfurt,Malmö,Antwerp,Tallinn,Reims,Korçë,Zrenjanin,Aberystwyth,Shkodër,Cetinje,Sofia,Sligo,Porto-Novo,Oyo,Warri,Niamey,Praia,Conakry,Abidjan,Bissau,Daloa,Bamenda,Katsina,Ziguinchor,Kankan,Garoua,Freetown,Maiduguri,Kaolack,Koidu,Nouakchott,Ségou,Cotonou,Koudougou,Bertoua,Accra,Thiès,Bauchi,Ouagadougou,Monrovia,Korhogo,Jalingo",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Zeelandic",
@@ -8936,8 +8936,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Zeelandic,Gabala,Telavi,Lahij,Yevlakh,Laryak,Hrazdan,Kropotkin,Shamakhi,Sochi,Qonagkend,Xinaliq,Balakan,Khachmaz,Vladimir,Salekhard,Stepanakert,Abéché,Yako,Sekondi,Bogoro,Gusau,Maiduguri,Accra,Jalingo,Warri,Thiès,Wa,Achkhoy-Martan,Tbilisi,Gori,Makhachkala,Kobuleti,Akhaltsikhe,Nalchik,Ochamchire,Batumi,Karabulaq,Rustavi,Gagra,Poti,Derbent,Avtury,Khabez,Vladikavkaz,Kizilyurt,Adygeysk,Izberbash,Kaspiysk,Mozdok,Argun,Shali,Slavyansk-na-Kubani,Abinsk,Nartkala",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Andi",
@@ -9026,8 +9026,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Français Tirailleur,Kenema,Ngaoundéré,San-Pédro,Praia,Gagnoa,Koudougou,Cape Coast,Onitsha,Gwoza,Bafatá,Yamoussoukro,Tamale,Geidam,Aba,Parakou,Potiskum,Sarh,Gashua,Louga,Cotonou,Dabai,Kumba,Tahoua,Wa,Cacheu,Evinayong,Garoua,Bissau,Gbarnga,Bouaké,Conakry,Ségou,Kankan,Timbuktu,Kumasi,Basse,Kaolack,Niamey,Kano,Nouakchott,Kaduna,Gusau,Sokodé,Bamako,Porto-Novo,Tema,Zaria,Ziguinchor,Monrovia",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Italian Eritrean",
@@ -9066,8 +9066,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Michif,Aba,Parakou,Tsévié,Fada N'Gourma,Gashua,Louga,Koulamoutou,Mekelle,Zaria,Tahoua,Wa,Kumasi,Luba,Cotonou,Faranah,Nzérékoré,Kaolack,Nkongsamba,Sekondi,Moundou,Yendi,Korhogo,Ife,Tema,Oyo,Kurfi,Kakata,Gbarnga,Lafia,Bamako,Bissau,Kankan,Tambacounda,Abidjan,Daloa,Katsina,Man,Bouaké,Lomé,Brikama,Mopti,Koidu,Ouagadougou,Sunyani,Kumba,Dakar,Niamey,Freetown,Bertoua,Ségou",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Missingsch",
@@ -9076,8 +9076,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Missingsch,Bafatá,Yola,N'Djamena,Bolgatanga,Aba,Parakou,Gao,Bamenda,Gashua,Louga,Gbarnga,Koulikoro,Lafia,Tahoua,Wa,Banjul,Yaoundé,Gombe,Faranah,Marte,Saint-Louis,Nkongsamba,Jos,Moundou,Lealui,Boké,Ife,Abidjan,Bissau,Bobo-Dioulasso,Dakar,Daloa,Jalingo,Cotonou,Warri,Tambacounda,Katsina,Kaolack,Koidu,Timbuktu,Maiduguri,Ségou,Bauchi,Basse,Man,Monrovia,Porto-Novo,Yamoussoukro,Gusau,Tamale,Thiès",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Negerhollands",
@@ -9086,8 +9086,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Negerhollands,Okigwe,Fada N'Gourma,Gwoza,Bafatá,Yola,Makokou,Bobo-Dioulasso,Aba,Parakou,Dosso,Rijau,Cotonou,Louga,Bitam,Niamey,Ambam,Sekondi,Wa,Kissidougou,Korhogo,Awka,Tema,Yusufari,Aksum,Katsina,Yamoussoukro,Moundou,Kingston,Spanish Town,Portmore,Maho Reef,Gonaïves,Port Antonio,Port-au-Prince,Brievengat,Harbour Island,Santa Clara,Port of Spain,Saint-Marc,Cockburn Town,Jérémie,Bridgetown,Andros Town,West End,Willemstad,Fort-Liberté,Cul de Sac,Dunmore Town,Upper Prince's Quarter,Scarborough,Oistins,Crane,Cienfuegos,Nassau",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Negro Dutch",
@@ -9106,8 +9106,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Russenorsk,Bafatá,Yola,N'Djamena,Bolgatanga,Aba,Parakou,Gao,Bamenda,Gashua,Louga,Gbarnga,Koulikoro,Lafia,Tahoua,Wa,Banjul,Yaoundé,Gombe,Faranah,Marte,Saint-Louis,Nkongsamba,Jos,Moundou,Lealui,Boké,Ife,Basseterre,Spanish Town,Havana,Ocho Ríos,Cap-Haïtien,Andros Town,Tortola,Freeport,Maho Reef,Jérémie,Holetown,Dunmore Town,Holguín,Cul de Sac,Saveta,Marsh Harbour,Falmouth,Hastings,Chaguanas,Christ Church,Crane,Brievengat,Upper Prince's Quarter,Kingston,Saint-Marc,San Fernando,Alice Town",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Simplified Italian of Libya",

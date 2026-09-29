@@ -7996,12 +7996,6 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "jamaican-patois",
-    "bases": [
-      200632
-    ]
-  },
-  {
     "iso": "leeward-caribbean-creole-english",
     "bases": [
       202784

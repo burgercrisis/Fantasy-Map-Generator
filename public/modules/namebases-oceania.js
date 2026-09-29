@@ -1426,8 +1426,8 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Mocho',Tibes,Ixtlán del Río,Mitla,Valdivia,Tutupec,Xochicalco,Xochitécatl,Cuzco,Mixco Viejo,Quiotepec,Teopanzolco,Sipán,Tlaxcala,Copacabana,Bonampak,Teotitlán,Yohualichan,Coyoacán,Latacunga,Tlatelolco,Xochimilco,Texcoco,Quiahuiztlan,Teotihuacán,Cholula,Yaxchilán,Nazca,Accra,Bouaké,Banjul,Bobo-Dioulasso,Dakar,Gbarnga,Kankan,Katsina,Freetown,Nouakchott,Brikama,Kara,Conakry,Kaduna,Korhogo,Kayes,Saint-Louis,Kumba,Jos,Mopti,Ouagadougou,Lomé,Wa,Parakou,Zaria,Monrovia,Sokodé",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Javindo",
@@ -1436,8 +1436,8 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Javindo,Tchibanga,Conakry,Parakou,Fatick,Jalingo,Gashua,Koulikoro,Tougué,Dapaong,Kontagora,Tahoua,Wa,Franceville,Luba,Umuahia,Faranah,Zaria,Lafia,Nkongsamba,Yamoussoukro,Moundou,Porto-Novo,Ségou,Ife,Timbuktu,Farafenni,Lomé,Christ Church,Mandeville,Portmore,Cockburn Town,Cap-Haïtien,Port Antonio,Falmouth,Gonaïves,Marsh Harbour,Kingston,Freeport,Alice Town,Holguín,Tera Cora,Holetown,Basseterre,Crane,Gustavia,Saveta,Speightstown,Montaña,Tortola,Cienfuegos,Oistins,Tunapuna,Bridgetown,Paradera,JavaneseDutch,Indo,Tugu,Gado,Sinjo,Kromo,Semarang,Surabaya,NYoni,Temboro,Jkndo,Jtndo",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Nagamese",
@@ -1456,8 +1456,8 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Petjo,Parakou,Lafia,Rijau,Kumasi,Louga,Ouagadougou,Ségou,Ambam,Kaolack,Wa,Cape Coast,Yaoundé,Awka,Faranah,Ibadan,Tamale,Gabú,Yamoussoukro,Moundou,Baga,Sarh,Ife,Timbuktu,Kenema,Mongu,Kumba,Harper,Port Antonio,Port of Spain,Port-au-Prince,Harbour Island,Falmouth,Les Cayes,Crane,Jérémie,Kingston,Point Fortin,Arima,Marsh Harbour,Mandeville,Speightstown,Nassau,Barber,Brievengat,Couva,Maho Reef,Camagüey,Holetown,Philipsburg,Jacmel,Guantánamo,Tunapuna,Charlestown,Oistins,Petojo,Betawi,DutchCreole,Gado,Tugu,Kelapa,Dermaga,Pasar,Senen,Gambir",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Pidgin Onin",
@@ -1566,8 +1566,8 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Kaera,Parakou,Lafia,Rijau,Kumasi,Louga,Ouagadougou,Ségou,Ambam,Kaolack,Wa,Cape Coast,Yaoundé,Awka,Faranah,Ibadan,Tamale,Gabú,Yamoussoukro,Moundou,Baga,Sarh,Ife,Timbuktu,Kenema,Mongu,Kumba,Harper,Bamako,Basse,Ziguinchor,Bobo-Dioulasso,Katsina,Bertoua,Conakry,Daloa,Freetown,Monrovia,Accra,Korhogo,Mopti,Koidu,Koudougou,Lomé,Nzérékoré,Kano,Kayes,Warri,Niamey,Mindelo,Tambacounda,Bafatá",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Kafoa",
@@ -1576,8 +1576,8 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Kafoa,Parakou,Lafia,Rijau,Kumasi,Louga,Ouagadougou,Ségou,Ambam,Kaolack,Wa,Cape Coast,Yaoundé,Awka,Faranah,Ibadan,Tamale,Gabú,Yamoussoukro,Moundou,Baga,Sarh,Ife,Timbuktu,Kenema,Mongu,Kumba,Harper,Abidjan,Bamako,Nouakchott,Porto-Novo,Man,Cotonou,Maroua,Dakar,Bafatá,Gbarnga,Jalingo,Kayes,Koidu,Monrovia,Koudougou,Ziguinchor,Sokodé,Mopti,Bertoua,Tenkodogo,Tema,Bobo-Dioulasso,Bauchi",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Kimaama (Kimaghama)",
@@ -1796,8 +1796,8 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Gaagudju,Morawa,Aurukun,Horn Island,Andamooka,Winton,Karratha,Carnamah,Boulia,Mintabie,Coober Pedy,Oodnadatta,Albany,Elliott,Watarrka,Lockhart River,Papunya,Kata Tjuta,Brewarrina,Borroloola,Wilcannia,Mapoon,Ravensthorpe,Kununurra,Mingenew,Santa Teresa,Numbulwar,Lake Grace,Adelaide,Gold Coast,Broome,Darwin,Newcastle,Geelong,Townsville,Yuendumu,Maningrida,Daly River,Perth,Alice Springs,Wyndham,Wollongong,Geraldton,Ceduna,Elcho Island,Brisbane,Roma,Fitzroy Crossing,Cunnamulla,Derby,Cooktown,Port Augusta",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Kuku Yalanji",
@@ -1806,8 +1806,8 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Kuku Yalanji,Mapoon,Milingimbi,Oodnadatta,Bamaga,Morawa,Woomera,Horn Island,Carnarvon,Warburton,Birdsville,Carnamah,Wiluna,Mintabie,Port Hedland,Uluru,Amaroo,Elliott,Mullewa,Lake Grace,Cairns,Innamincka,Brewarrina,Borroloola,Hyden,Geraldton,Watarrka,Indulkana,Kavieng,Bandung,Medan,Davao,George Town,Malekula,Jakarta,Cagayan de Oro,Semarang,Ba,Johor Bahru,Iloilo City,Bandar Seri Begawan,Muara,Epi,Rabaul,Singapore,Luganville,Manila,Seria,Auki,Port Vila,Kayangel,Angaur,Ngerulmud,Ipoh",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Kungarakany",
@@ -1816,8 +1816,8 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Kungarakany,Bolgatanga,Bafatá,Yola,Bouaké,Tchibanga,Kumasi,Parakou,Maiduguri,Katsina,Gashua,Abéché,Kubau,Dapaong,Dédougou,Tahoua,Buea,Tambacounda,Luba,Gabú,Faranah,Ngaoundéré,Umuahia,Nkongsamba,Brikama,Moundou,Damaturu,Owerri,Brisbane,Cunnamulla,Kununurra,Darwin,Katherine,Townsville,Bunbury,Bourke,Kalgoorlie,Melbourne,Geelong,Sunshine Coast,Maningrida,Cooktown,Canberra,Kalkarindji,Yuendumu,Daly River,Gold Coast,Normanton,Elcho Island,Broken Hill,Alice Springs,Wilcannia,Charleville,Weipa,Oodnadatta",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Kuuk Thaayore",
@@ -1826,8 +1826,8 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Kuuk Thaayore,Okigwe,Fada N'Gourma,Gwoza,Bafatá,Yola,Makokou,Bobo-Dioulasso,Aba,Parakou,Dosso,Rijau,Cotonou,Louga,Bitam,Niamey,Ambam,Sekondi,Wa,Kissidougou,Korhogo,Awka,Tema,Yusufari,Aksum,Katsina,Yamoussoukro,Moundou,Kaduna,Banjul,Koudougou,Sokoto,Abidjan,Lomé,Jalingo,Dakar,Ségou,Brikama,Zaria,Bamenda,Bissau,Kayes,Kaolack,Lafia,Sunyani,Maiduguri,Mopti,Minna,Kankan,Nzérékoré,Accra",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Laragia",
@@ -1836,8 +1836,8 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Laragia,Cooktown,Mapoon,Amaroo,Walgett,Ti Tree,Lake Grace,Elliott,Warburton Ranges,Hermannsburg,Innamincka,Fregon,Wilcannia,Lockhart River,Maningrida,Karratha,Mintabie,Brewarrina,Dampier,Pormpuraaw,Winton,Papunya,Oodnadatta,Bourke,Carnamah,Yulara,Kununurra,Docker River,Canberra,Fitzroy Crossing,Geelong,Gold Coast,Broome,Newcastle,Melbourne,Port Lincoln,Pine Creek,Daly River,Milingimbi,Sydney,Darwin,Ceduna,Kalkarindji,Katherine,Derby,Geraldton,Albany,Sunshine Coast,Yuendumu,Hobart,Nhulunbuy,Port Hedland,Areyonga,Perth",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Murrinh Patha",
@@ -1846,8 +1846,8 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Murrinh Patha,Uluru,Bamaga,Cooktown,Indulkana,Kowanyama,Karratha,Walgett,Kalgoorlie,Lake Grace,Amaroo,Elliott,Papunya,Hermannsburg,Port Hedland,Fregon,Warburton Ranges,Lockhart River,Thursday Island,Maningrida,Wilcannia,Mintabie,Dampier,Onslow,Winton,Brewarrina,Oodnadatta,Fitzroy Crossing,Melbourne,Yuendumu,Kalkarindji,Hobart,Broome,Wyndham,Albany,Adelaide,Sunshine Coast,Canberra,Barkly,Cairns,Kununurra,Derby,Broken Hill,Nhulunbuy,Longreach,Milingimbi,Bourke,Daly River,Port Lincoln,Weipa,Tennant Creek",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Ngaanyatjarra",
@@ -1856,8 +1856,8 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Ngaanyatjarra,Uluru,Bamaga,Cooktown,Indulkana,Kowanyama,Karratha,Walgett,Kalgoorlie,Lake Grace,Amaroo,Elliott,Papunya,Hermannsburg,Port Hedland,Fregon,Warburton Ranges,Lockhart River,Thursday Island,Maningrida,Wilcannia,Mintabie,Dampier,Onslow,Winton,Brewarrina,Oodnadatta,Derby,Angaur,Manila,Kuala Lumpur,Makassar,Quezon City,Davao,Denpasar,Palikir,Jerudong,Levuka,Majuro,Malacca,Surabaya,Cagayan de Oro,Kota Kinabalu,Epi,Nadi,Kuala Belait,Tanna,Shah Alam,Gizo,Seria,George Town,Savusavu",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Ngarrindjeri",
@@ -1866,8 +1866,8 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Ngarrindjeri,Mapoon,Milingimbi,Oodnadatta,Bamaga,Morawa,Woomera,Horn Island,Carnarvon,Warburton,Birdsville,Carnamah,Wiluna,Mintabie,Port Hedland,Uluru,Amaroo,Elliott,Mullewa,Lake Grace,Cairns,Innamincka,Brewarrina,Borroloola,Hyden,Geraldton,Watarrka,Derby,Mount Isa,Broken Hill,Coober Pedy,Wollongong,Sydney,Elcho Island,Canberra,Perth,Karratha,Daly River,Sunshine Coast,Newcastle,Yuendumu,Port Augusta,Geelong,Normanton,Nhulunbuy,Halls Creek,Esperance,Wadeye,Fitzroy Crossing,Marree,Albany",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Nyangumarta",
@@ -1876,8 +1876,8 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Nyangumarta,Alyangula,Indulkana,Thursday Island,Menindee,Kununurra,Hopetoun,Amaroo,Morawa,Karratha,Borroloola,Winton,Mimili,Warburton Ranges,Docker River,Papunya,Kowanyama,Wilcannia,Mapoon,Roxby Downs,Watarrka,Exmouth,Brewarrina,Bedourie,Pormpuraaw,Port Augusta,Tom Price,Marree,Broome,Perth,Hobart,Charleville,Elcho Island,Milingimbi,Oodnadatta,Adelaide,Warrabri,Daly River,Esperance,Geelong,Melbourne,Nhulunbuy,Geraldton,Derby,Ceduna,Cooktown,Katherine,Kalkarindji,Coober Pedy,Sunshine Coast,Kalgoorlie,Normanton,Bourke,Wadeye",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "palawa kani",
@@ -1886,8 +1886,8 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "palawa kani,Alyangula,Indulkana,Thursday Island,Menindee,Kununurra,Hopetoun,Amaroo,Morawa,Karratha,Borroloola,Winton,Mimili,Warburton Ranges,Docker River,Papunya,Kowanyama,Wilcannia,Mapoon,Roxby Downs,Watarrka,Exmouth,Brewarrina,Bedourie,Pormpuraaw,Port Augusta,Nampo,Goyang,Levuka,Medan,Surabaya,Savusavu,Quezon City,Palembang,Jaluit,Cagayan de Oro,Iloilo City,Munda,Sonsorol,Bangar,Ngerulmud,George Town,Melekeok,Jerudong,Kuching,Shah Alam,Makassar,Zamboanga,Tutong,Port Moresby,Angaur,Tanna,Honiara,Kavieng",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Panyjima",
@@ -1896,8 +1896,8 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Panyjima,Morawa,Aurukun,Horn Island,Andamooka,Winton,Karratha,Carnamah,Boulia,Mintabie,Coober Pedy,Oodnadatta,Albany,Elliott,Watarrka,Lockhart River,Papunya,Kata Tjuta,Brewarrina,Borroloola,Wilcannia,Mapoon,Ravensthorpe,Kununurra,Mingenew,Santa Teresa,Numbulwar,Lake Grace,Broken Hill,Geraldton,Maningrida,Darwin,Melbourne,Wollongong,Geelong,Alice Springs,Longreach,Roma,Port Augusta,Hobart,Brisbane,Kalkarindji,Daly River,Cooktown,Katherine,Weipa,Townsville,Perth,Halls Creek,Wadeye,Yuendumu,Ceduna",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Wadjiginy",
@@ -1906,8 +1906,8 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Wadjiginy,Weipa,Ti Tree,Kununurra,Cobar,Amaroo,Norseman,Watarrka,Carnamah,Broome,Santa Teresa,Warburton Ranges,Amata,Karratha,Warburton,Wilcannia,Gapuwiyak,Horn Island,Papunya,Tom Price,Brewarrina,Longreach,Pormpuraaw,Innamincka,Kalgoorlie,Borroloola,Mintabie,Roxby Downs,Kalkarindji,Melbourne,Wollongong,Mount Isa,Adelaide,Newcastle,Brisbane,Townsville,Pine Creek,Geelong,Halls Creek,Alice Springs,Gold Coast,Port Hedland,Daly River,Derby,Cooktown,Geraldton,Leigh Creek,Bunbury,Milingimbi,Wyndham,Oodnadatta,Sydney",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Wajarri",
@@ -1916,8 +1916,8 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Wajarri,Cooktown,Mapoon,Amaroo,Walgett,Ti Tree,Lake Grace,Elliott,Warburton Ranges,Hermannsburg,Innamincka,Fregon,Wilcannia,Lockhart River,Maningrida,Karratha,Mintabie,Brewarrina,Dampier,Pormpuraaw,Winton,Papunya,Oodnadatta,Bourke,Carnamah,Kununurra,Roxby Downs,Halls Creek,Townsville,Canberra,Alice Springs,Hobart,Darwin,Geraldton,Port Augusta,Melbourne,Pine Creek,Gold Coast,Yuendumu,Elcho Island,Broome,Port Hedland,Coober Pedy,Kalgoorlie,Broken Hill,Esperance,Fitzroy Crossing,Roma,Bunbury,Nhulunbuy,Mount Isa,Sydney",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Warumungu",
@@ -1926,8 +1926,8 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Warumungu,Weipa,Ti Tree,Kununurra,Cobar,Amaroo,Norseman,Watarrka,Carnamah,Broome,Santa Teresa,Warburton Ranges,Amata,Karratha,Warburton,Wilcannia,Gapuwiyak,Horn Island,Papunya,Tom Price,Brewarrina,Longreach,Pormpuraaw,Innamincka,Kalgoorlie,Borroloola,Exmouth,Halls Creek,Mount Hagen,Kokopo,Lae,Wewak,Tari,Rabaul,Kavieng,Port Moresby,Kimbe,Vanimo,Aseki,Mendi,Madang,Buka,Kerema,Lorengau,Menyamya,Wau,Daru,Pangia,Ambunti,Kikori,Morehead,Lake Kopiago,Tabubil,Ialibu,Kiunga",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Yankunytjatjara",
@@ -1936,8 +1936,8 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Yankunytjatjara,Kings Canyon,Karratha,Weipa,Broome,Maningrida,Indulkana,Cobar,Papunya,Norseman,Port Hedland,Carnamah,Amaroo,Santa Teresa,Bedourie,Amata,Warburton,Warburton Ranges,Gapuwiyak,Onslow,Horn Island,Wilcannia,Tom Price,Longreach,Numbulwar,Innamincka,Elliott,Roxby Downs,Bandung,Ipoh,Semarang,Manila,Iloilo City,Denpasar,Quezon City,George Town,Palembang,Davao,Sonsorol,Shah Alam,Bacolod,Malacca,Ba,Tulagi,Gizo,Port Vila,Suva,Seria,Munda,Muara,Kuala Lumpur,Medan,Weno,Singapore",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Bocas del Toro Creole",

@@ -221,6 +221,61 @@ for (const e of allEntries) {
 
 const freq = buildSeedFrequency(allEntries);
 
+// ---------------------------------------------------------------------------
+// W011 - entries carrying an identical seed list
+// ---------------------------------------------------------------------------
+//
+// 467 entries once carried invented place names. They were not random junk: an
+// agent was asked to bring entries up to the 25-name floor and filled them with
+// whatever was to hand, so a contiguous block of entries in the i=202539..203044
+// range all shared one list of ~50 national capitals - Parakou, Wa, Faranah,
+// Kumasi, Louga - prefixed by the entry's own name. Lotha, a Naga language of
+// India, and Pengo, a language of Angola, ended up with identical seed lists,
+// and a Tibetan language listed N'Djamena and Gao.
+//
+// The floor caused this, so no count-based check can catch it: an entry padded
+// to exactly 25 passes every completeness rule. Detecting it properly needs a
+// source per language, which is the research backlog, not a gate.
+//
+// What is left is a warning, not an error, because identical lists are also
+// what a legitimate dialect continuum looks like. All 41 groups currently
+// reported were checked and every one is a set of varieties of one language
+// sharing one settlement area:
+//
+//   200236/200246/200247/200249  Doteli varieties      Doti, Nepal
+//   200375/200376/200377          Monguor languages     Huzhu and Ledu, Qinghai
+//   200455/200573                 Rana Tharu, Walungge  western Nepal
+//   200500/200555/200559          Southern Tungusic, Udege, Ulch
+//   907/1490/200770/200807        Veps dialects         Karelia
+//   642/23005                     Standard Italian, Judeo-Italian
+//   647/656                       Talian, Venetian
+//   928/1085/1087                 Savonian, Tavastian, Hevaha
+//   201259/201269/201270/201302   Idu Taraon, Miju, Zakhring   Arunachal
+//
+// So the check is reported, not enforced: a new group is worth a human look,
+// and the ones that exist are documented here. The fabricated 467 were removed
+// and are listed by index in docs/verification/research/padded-entries.md.
+
+{
+  const MIN = SEED_FLOOR;      // only complete lists are compared
+  const groups = new Map();
+  for (const e of allEntries) {
+    const seeds = String(e.b || "").split(",").filter(Boolean).slice().sort();
+    if (seeds.length < MIN) continue;
+    const key = seeds.join("|");
+    if (!groups.has(key)) groups.set(key, []);
+    groups.get(key).push(e);
+  }
+  for (const [, members] of groups) {
+    if (members.length < 2) continue;
+    const list = members.map(m => `i=${m.i} "${m.name}"`).join(", ");
+    warn("W011", `namebases-${members[0].__continent}.js`,
+      `${members.length} entries carry an identical ${String(members[0].b || "").split(",").length}-seed list: ` +
+      `${list}. Legitimate for dialect varieties of one language; a sign of padding if the ` +
+      `members are unrelated or span continents.`);
+  }
+}
+
 for (const e of allEntries) {
   const short = `namebases-${e.__continent}.js`;
   const n = seedCount(e);
