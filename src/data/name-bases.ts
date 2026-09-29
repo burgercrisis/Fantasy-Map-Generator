@@ -30,7 +30,25 @@ export function getDefaultNameBases(): NameBase[] {
     const merged = globalNameBases.slice();
     for (const nb of defaultNameBases) {
       if (nb && typeof nb.i === "number") {
-        merged[nb.i] = nb;
+        // Gap-fill only. This used to assign unconditionally, which silently
+        // shadowed whichever real language the aggregator had already put at
+        // that index. 17 of the 43 were a different language, so the shipped
+        // array disagreed with the data files and with every tool that reads
+        // them:
+        //
+        //   index  6  app "Nordic"     data "Greek"
+        //   index 12  app "Japanese"   data "Portuguese"
+        //   index 13  app "Portuguese" data "Nahuatl"
+        //   index 14  app "Nahuatl"    data "Hungarian"
+        //   index 25  app "Hawaiian"   data "Kannada"
+        //   index 35  app "Dwarven"    data "Czech"
+        //
+        // Those indices are addressable by the mixer map, so `ces` generated
+        // Dwarven names and `por` generated Japanese ones. Filling only empty
+        // slots is what the comment above always claimed this did.
+        if (merged[nb.i] === undefined) {
+          merged[nb.i] = nb;
+        }
       }
     }
     return merged;

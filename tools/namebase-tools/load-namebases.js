@@ -93,4 +93,61 @@ function realWorldNameBases() {
   return loadNameBases().populated.map(b => ({...b}));
 }
 
-module.exports = {loadNameBases, realWorldNameBases, runSandbox, MIXER_MAP, AGGREGATOR};
+/**
+ * The 43 built-in default namebases in src/data/name-bases.ts, as the runtime
+ * sees them AFTER getDefaultNameBases() has overlaid them.
+ *
+ * src/data/name-bases.ts assigns its defaults into the merged array at fixed
+ * indices 0-42. It used to do so unconditionally, which shadowed whichever real
+ * language the aggregator had already placed at those indices - 17 of the 43
+ * were a different language, so the array the app ran disagreed with the data
+ * files and with every tool that reads them. `ces` generated Dwarven names.
+ *
+ * That gap is invisible to anything that only inspects the aggregator output,
+ * so it is exposed here as a first-class, checkable difference.
+ *
+ * @param {object[]} aggregated the sparse array from loadNameBases()
+ * @returns {{runtime: object[], shadowed: Array<{i: number, runtime: string, data: string}>, filled: number[]}}
+ */
+function applyBuiltInOverlay(aggregated) {
+  const src = fs.readFileSync(path.join(root, "src", "data", "name-bases.ts"), "utf8");
+  const builtins = [];
+  // Each default is a literal object starting with name: "..." and carrying "i: N".
+  for (const m of src.matchAll(/name:\s*"([^"]+)"\s*,\s*\n?\s*i:\s*(\d+)/g)) {
+    builtins.push({name: m[1], i: Number(m[2])});
+  }
+
+  const runtime = aggregated.slice();
+  const conflicts = [];
+  const filled = [];
+  for (const nb of builtins) {
+    const existing = runtime[nb.i];
+    if (existing === undefined) {
+      runtime[nb.i] = nb;
+      filled.push(nb.i);
+    } else if (String(existing.name) !== String(nb.name)) {
+      // The built-in default and the data file disagree about what lives at
+      // this index. The data file wins, because that is what ships and what
+      // every tool reads - but the disagreement is worth surfacing, because if
+      // it is ever the other way round the language silently changes.
+      conflicts.push({i: nb.i, ships: String(existing.name), builtinWouldBe: String(nb.name)});
+    }
+  }
+  return {runtime, conflicts, filled, builtins};
+}
+
+/**
+ * The array `Names.nameBases` actually is at runtime: the aggregator output
+ * with the built-in defaults overlaid.
+ *
+ * @param {object[]} [aggregated]
+ * @returns {object[]}
+ */
+function runtimeNameBases(aggregated) {
+  const arr = aggregated || loadNameBases().nameBases;
+  return applyBuiltInOverlay(arr).runtime;
+}
+
+const BUILTIN_DEFAULTS = {applyBuiltInOverlay, runtimeNameBases};
+
+module.exports = {loadNameBases, realWorldNameBases, runSandbox, MIXER_MAP, AGGREGATOR, BUILTIN_DEFAULTS};

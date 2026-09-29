@@ -468,6 +468,153 @@ for (const p of subsetDuplicates(allEntries, {minSeeds: 5, share: 0.7})) {
 }
 
 // ---------------------------------------------------------------------------
+// E011 - map rows must resolve to their own language AT RUNTIME
+// ---------------------------------------------------------------------------
+//
+// Every other check in this file reads the AGGREGATOR array. The app does not.
+// src/data/name-bases.ts overlays 43 built-in default namebases at fixed
+// indices 0-42 on top of it, and it used to do so unconditionally - so 17 of
+// those indices shipped a different language from the one in the data files:
+//
+//   i=6  app "Nordic"    data "Greek"       i=12  app "Japanese"  data "Portuguese"
+//   i=11 app "Chinese"   data "Japanese"    i=14  app "Nahuatl"   data "Hungarian"
+//   i=13 app "Portuguese" data "Nahuatl"    i=27  app "Quechua"   data "Swahili"
+//
+// 29 map rows referenced those indices, so `ces` generated Dwarven names and
+// `por` generated Japanese ones, and no check here could see it. The overlay is
+// now gap-fill only. This check re-validates the map against the RUNTIME array
+// so the same class of disagreement cannot come back unnoticed.
+
+{
+  const {loadNameBases, BUILTIN_DEFAULTS} = require("./load-namebases");
+  let runtime = null;
+  try {
+    const {nameBases: aggregated} = loadNameBases();
+    runtime = BUILTIN_DEFAULTS.applyBuiltInOverlay(aggregated);
+  } catch (e) {
+    warn("W008", "runtime", `could not build the runtime array to check against: ${e.message}`);
+  }
+
+  if (runtime) {
+    const readBrackets = f => {
+      const s = fs.readFileSync(f, "utf8");
+      return JSON.parse(s.slice(s.indexOf("["), s.lastIndexOf("]") + 1));
+    };
+    let mapRows = [];
+    let catalogRows = [];
+    try {
+      mapRows = readBrackets(path.join(root, "config", "language-mixer-map.js"));
+      catalogRows = readBrackets(path.join(root, "config", "language-mixes-all.js"));
+    } catch (e) {
+      warn("W008", "runtime", `could not read the mixer map: ${e.message}`);
+    }
+
+    if (mapRows.length && catalogRows.length) {
+      const catalogName = new Map();
+      for (const c of catalogRows) if (c && c.iso && c.name) catalogName.set(c.iso, c.name);
+      const fold = s => String(s || "").normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase().replace(/[^a-z0-9]+/g, "");
+
+      const mismatched = [];
+      for (const row of mapRows) {
+        const want = fold(catalogName.get(row.iso));
+        if (!want) continue;
+        const b = row.bases && row.bases[0];
+        if (b === undefined) continue;
+        const nb = runtime.runtime[b];
+        if (!nb || !nb.name) continue;
+        // Accept the namebase's own name, any of its parenthetical aliases
+        // ("Kulung language (West Chadic)" answers to "West Chadic"), and a
+        // prefix in either direction. Without the alias rule this flagged two
+        // rows that are correct - including jamaican-patois -> Jamaican
+        // Creole, which is a deliberate decision, since Jamaican Patois and
+        // Jamaican Creole are the same language.
+        const accepted = new Set([fold(nb.name)]);
+        for (const p of String(nb.name || "").match(/\(([^)]+)\)/g) || []) {
+          for (const part of p.replace(/[()]/g, "").split(/[,;/]/)) {
+            const k = fold(part);
+            if (k.length >= 3) accepted.add(k);
+          }
+        }
+        let ok = false;
+        for (const have of accepted) {
+          if (!have) continue;
+          if (have === want || have.startsWith(want) || want.startsWith(have)) { ok = true; break; }
+        }
+        if (!ok) {
+          mismatched.push(`${row.iso} wants "${catalogName.get(row.iso)}" but resolves to "${nb.name}" at runtime index ${b}`);
+        }
+      }
+      if (mismatched.length) {
+        // A warning, not an error. A deliberate map decision - pointing one ISO
+        // at another language's namebase because the two are the same language -
+        // is indistinguishable in shape from a real bug, and a gate that cannot
+        // tell those apart gets argued with and then switched off. The
+        // catastrophic case this was written for, the built-in overlay
+        // shadowing a real language, is prevented structurally below and
+        // reported by W008.
+        warn("W009", "config/language-mixer-map.js",
+          `${mismatched.length} map row(s) resolve to a language whose name does not match the ` +
+          `catalog name, in the RUNTIME array:\n      ` +
+          mismatched.slice(0, 20).join("\n      ") +
+          (mismatched.length > 20 ? `\n      ... and ${mismatched.length - 20} more` : ""));
+      }
+      if (runtime.conflicts.length) {
+        warn("W008", "src/data/name-bases.ts",
+          `${runtime.conflicts.length} of its 43 built-in defaults disagree with the data files about ` +
+          `what lives at indices 0-42 (e.g. i=${runtime.conflicts[0].i} ships "${runtime.conflicts[0].ships}", ` +
+          `built-in claims "${runtime.conflicts[0].builtinWouldBe}"). The data file wins, which is correct, ` +
+          `but the built-in list is stale and should be reconciled.`);
+      }
+    }
+  }
+}
+
+// ---------------------------------------------------------------------------
+// E012 - the built-in overlay must stay gap-fill only
+// ---------------------------------------------------------------------------
+//
+// The regression that caused the shadowing was a single unconditional
+// assignment: `merged[nb.i] = nb`. Nothing about the surrounding code would
+// catch its return, because assigning a default over a real language is
+// indistinguishable from doing it correctly. So the assignment itself is
+// checked.
+//
+// If someone restores the unconditional write, the same 17 languages silently
+// become a different language again, and every other check in this file - which
+// reads the aggregator, not the runtime - stays green.
+
+{
+  const srcPath = path.join(root, "src", "data", "name-bases.ts");
+  let src = "";
+  try {
+    src = fs.readFileSync(srcPath, "utf8");
+  } catch (e) {
+    warn("W008", "src/data/name-bases.ts", `could not read it to check the overlay: ${e.message}`);
+  }
+  if (src) {
+    const fn = src.slice(src.indexOf("export function getDefaultNameBases"));
+    const body = fn.slice(0, fn.indexOf("\n}"));
+    const assigns = [...body.matchAll(/merged\s*\[\s*nb\.i\s*\]\s*=\s*nb\s*;/g)];
+    if (assigns.length) {
+      // The assignment is fine ONLY if it sits inside a guard. Look backwards
+      // from the match for a conditional on the same slot.
+      for (const m of assigns) {
+        const before = body.slice(Math.max(0, m.index - 260), m.index);
+        const guarded = /merged\s*\[\s*nb\.i\s*\]\s*===?\s*undefined\s*\)?\s*\{\s*$/.test(before.trimEnd()) ||
+          /if\s*\(\s*merged\s*\[\s*nb\.i\s*\]/.test(before);
+        if (!guarded) {
+          err("E012", "src/data/name-bases.ts",
+            "getDefaultNameBases() assigns a built-in default without first checking that the slot is " +
+            "empty. That overwrites whichever real language the aggregator placed at that index, which is " +
+            "how 17 languages silently became a different language. Guard the assignment on " +
+            "`merged[nb.i] === undefined`.");
+        }
+      }
+    }
+  }
+}
+
+// ---------------------------------------------------------------------------
 // M001 - the two copies of the mixer map must agree
 // ---------------------------------------------------------------------------
 //
