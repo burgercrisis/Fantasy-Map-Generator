@@ -615,34 +615,33 @@ for (const p of subsetDuplicates(allEntries, {minSeeds: 5, share: 0.7})) {
 }
 
 // ---------------------------------------------------------------------------
-// E013 - there must be only one namebase tree
+// W010 - the duplicate namebase tree
 // ---------------------------------------------------------------------------
 //
-// This repo had two. public/modules/ is what src/index.html loads - vite's
-// publicDir is "../public", so a src-relative "modules/x.js" resolves there at
-// runtime, and stamp-assets.js computes the ?v= query params from there.
-// modules/ was a git-tracked duplicate that nothing served: 4,746 entries
-// against public/modules/'s 3,802, 24% larger and diverged long ago.
+// This repo has two namebase trees. public/modules/ is the one src/index.html
+// loads: vite's publicDir is "../public", so a src-relative "modules/x.js"
+// resolves there at runtime, and stamp-assets.js computes the ?v= query params
+// from there. modules/ is a duplicate that nothing serves - 4,746 entries
+// against public/modules/'s 3,802 when last compared, every continent file
+// differing.
 //
-// Twenty-nine tools read the duplicate, including the two this work trusted
-// most. check-language-mixer-guardrails.js and check-mixer-health.js both did
-// path.join(root, "modules"), so every "guardrails OK" reported while that
-// existed was validating a dataset the app never loads.
+// It used to be worse than dead weight. Twenty-nine tools read it, including
+// check-language-mixer-guardrails.js and check-mixer-health.js, so those
+// validated a dataset the app never loads. All 29 were repointed at
+// public/modules/, so the duplicate is now inert.
 //
-// A second copy is not a slow drift, it is a fork: once the two disagree,
-// which one a tool reads depends on the tool, and the answer is not knowable
-// from the output. All of them now read public/modules/ and the duplicate is
-// deleted. This check keeps it deleted.
+// It was deleted in 6fe42a66 and restored afterwards at the repo owner's
+// request, which is why this is a warning and not an error. The owner has seen
+// it and chosen to keep it, so it must never fail a gate. But a second copy of
+// data is worth knowing about, and reporting it is cheaper than an agent
+// discovering it.
 
-{
-  const shadow = path.join(root, "modules");
-  if (fs.existsSync(shadow)) {
-    const entries = fs.readdirSync(shadow).filter(n => n.startsWith("namebases-"));
-    err("E013", "modules/",
-      `exists again and holds ${entries.length} namebase file(s). public/modules/ is the only tree the ` +
-      `app loads; a second copy is a fork, not a backup. If it was recreated deliberately, point the ` +
-      `tools at public/modules/ instead.`);
-  }
+if (fs.existsSync(path.join(root, "modules"))) {
+  const shadowNames = fs.readdirSync(path.join(root, "modules")).filter(n => n.startsWith("namebases-"));
+  warn("W010", "modules/",
+    `is present with ${shadowNames.length} namebase file(s) and is NOT the tree the app loads; ` +
+    `public/modules/ is. Every tool was repointed at public/modules/, so this directory is ` +
+    `currently inert, but edits made here have no effect on the app and no check reads it.`);
 }
 
 // ---------------------------------------------------------------------------
