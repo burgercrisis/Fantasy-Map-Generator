@@ -11361,8 +11361,8 @@
       "name": "Lingling",
       "iso": "lingling",
       "region": "East Asia",
-      "category": "Mixed",
-      "family": "Mixed",
+      "category": "Creole",
+      "family": "Chinese-based",
       "tags": [
         "mixed"
       ],
@@ -14899,7 +14899,7 @@
       "iso": "franco-italian",
       "region": "Europe",
       "category": "Romance",
-      "family": "Mixed"
+      "family": "Gallo-Italic"
     },
     {
       "name": "Franco-Provençal",
@@ -18263,8 +18263,8 @@
       "name": "Bolze",
       "iso": "bolze",
       "region": "Misc",
-      "category": "Mixed",
-      "family": "Mixed",
+      "category": "Mixed language",
+      "family": "Bolze",
       "tags": [
         "mixed"
       ],
@@ -18430,8 +18430,8 @@
       "name": "Cypriot Maronite-Arabic",
       "iso": "cypriot-maronite-arabic",
       "region": "Misc",
-      "category": "Mixed",
-      "family": "Mixed",
+      "category": "Afroasiatic",
+      "family": "Levantine",
       "tags": [
         "mixed"
       ],
@@ -18441,8 +18441,8 @@
       "name": "Dao",
       "iso": "dao",
       "region": "Misc",
-      "category": "Mixed",
-      "family": "Mixed",
+      "category": "Sino-Tibetan",
+      "family": "Mandarin",
       "tags": [
         "mixed"
       ],
@@ -18463,8 +18463,8 @@
       "name": "E mixed",
       "iso": "e",
       "region": "Misc",
-      "category": "Mixed",
-      "family": "Mixed",
+      "category": "Tai-Kadai",
+      "family": "Tai",
       "tags": [
         "mixed"
       ],
@@ -18518,8 +18518,8 @@
       "name": "Gadal",
       "iso": "gadal",
       "region": "Misc",
-      "category": "Mixed",
-      "family": "Mixed",
+      "category": "Songhay",
+      "family": "Northern Songhay",
       "tags": [
         "mixed"
       ],
@@ -18529,8 +18529,8 @@
       "name": "Gurindji Kriol",
       "iso": "gurindji-kriol",
       "region": "Misc",
-      "category": "Mixed",
-      "family": "Mixed",
+      "category": "Mixed language",
+      "family": "Gurindji Kriol",
       "tags": [
         "mixed"
       ],
@@ -18793,8 +18793,8 @@
       "name": "Light Warlpiri",
       "iso": "light-warlpiri",
       "region": "Misc",
-      "category": "Mixed",
-      "family": "Mixed",
+      "category": "Mixed language",
+      "family": "Warlpiri-Kriol",
       "tags": [
         "mixed"
       ],
@@ -18804,8 +18804,8 @@
       "name": "Língua Geral Amazônica",
       "iso": "l-ngua-geral-amaz-nica",
       "region": "Misc",
-      "category": "Mixed",
-      "family": "Mixed",
+      "category": "Tupian",
+      "family": "Tupi-Guarani",
       "tags": [
         "mixed"
       ],
@@ -18815,8 +18815,8 @@
       "name": "Língua Geral Paulista",
       "iso": "l-ngua-geral-paulista",
       "region": "Misc",
-      "category": "Mixed",
-      "family": "Mixed",
+      "category": "Tupian",
+      "family": "Tupi-Guarani",
       "tags": [
         "mixed"
       ],
@@ -18859,8 +18859,8 @@
       "name": "Makassar Malay",
       "iso": "makassar-malay",
       "region": "Misc",
-      "category": "Mixed",
-      "family": "Mixed",
+      "category": "Austronesian",
+      "family": "Malayo-Polynesian",
       "tags": [
         "mixed"
       ],
@@ -18904,8 +18904,8 @@
       "name": "Media Lengua",
       "iso": "media-lengua",
       "region": "Misc",
-      "category": "Mixed",
-      "family": "Mixed",
+      "category": "Mixed language",
+      "family": "Spanish-Quechua",
       "tags": [
         "mixed"
       ],
@@ -18937,8 +18937,8 @@
       "name": "Michif",
       "iso": "michif",
       "region": "Misc",
-      "category": "Mixed",
-      "family": "Mixed",
+      "category": "Algic",
+      "family": "Algonquian",
       "tags": [
         "mixed"
       ],
@@ -18959,8 +18959,8 @@
       "name": "Missingsch",
       "iso": "missingsch",
       "region": "Misc",
-      "category": "Mixed",
-      "family": "Mixed",
+      "category": "Germanic",
+      "family": "West Germanic",
       "tags": [
         "mixed"
       ],
@@ -19146,8 +19146,8 @@
       "name": "Petuh",
       "iso": "petuh",
       "region": "Misc",
-      "category": "Mixed",
-      "family": "Mixed",
+      "category": "Mixed language",
+      "family": "Petuh",
       "tags": [
         "mixed"
       ],
@@ -19245,8 +19245,8 @@
       "iso": "qoqmoncaq",
       "name": "Qoqmoncaq",
       "region": "Misc",
-      "category": "Mixed",
-      "family": "Mixed",
+      "category": "Mixed language",
+      "family": "Qoqmoncaq",
       "tags": [
         "creole"
       ]
@@ -19376,7 +19376,7 @@
       "name": "Tangwang",
       "iso": "tangwang",
       "region": "Misc",
-      "category": "Mixed",
+      "category": "Creole",
       "family": "Chinese-based",
       "tags": [
         "creole",
@@ -19388,8 +19388,8 @@
       "name": "Tansi",
       "iso": "tansi",
       "region": "Misc",
-      "category": "Mixed",
-      "family": "Mixed",
+      "category": "Creole",
+      "family": "Malay-based",
       "tags": [
         "mixed"
       ],

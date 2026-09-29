@@ -142,7 +142,16 @@ function checkFailures() {
   const map = readJson("config/language-mixer-map.json");
   const mixes = readJson("config/language-mixes.json");
 
-  // Load valid base indices from continental namebase files (replaced legacy namebases-real.js)
+  // Load valid base indices from the same files the aggregator loads.
+  //
+  // namebases-research.js was missing from this list, so any index that lives
+  // only there was reported as invalid. Five languages resolve through it -
+  // Chamorro (24702), Marshallese (24703), Palauan (24704), Rapa Nui (202432)
+  // and Tahitian (24699) - and all five were reported as having every base
+  // invalid, which made the check report FAIL for languages that work. The
+  // aggregator concatenates the continent files AND research.js, and where an
+  // index appears twice the first-loaded copy wins, so the set of resolvable
+  // indices is the union across all of them.
   const baseDir = path.join(root, "public/modules");
   const namebaseFiles = [
     "namebases-africa.js",
@@ -153,10 +162,18 @@ function checkFailures() {
     "namebases-southAmerica.js",
     "namebases-unknown.js",
     "namebases-fantasy.js",
-    "namebases-dedicated.js"
+    "namebases-dedicated.js",
+    "namebases-research.js"
   ];
   const validBaseIndices = new Set();
-  const re = /"i":\s*(\d+)/g;
+  // The seven continent files are canonical JSON and write `"i": 24702`.
+  // namebases-research.js is still in the older JS-literal style and writes
+  // `i: 24702` with no quotes, so a quoted-only pattern finds zero indices in
+  // it - which is how five working languages (Chamorro, Marshallese, Palauan,
+  // Rapa Nui, Tahitian) came to be reported as having every base invalid.
+  // Both forms are accepted; the runtime cares about the resolved value, not
+  // how the key was written.
+  const re = /"?i"?\s*:\s*(\d+)/g;
   for (const f of namebaseFiles) {
     try {
       const src = fs.readFileSync(path.join(baseDir, f), "utf8");

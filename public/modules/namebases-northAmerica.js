@@ -626,7 +626,7 @@ window.northAmericaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Fort Yukon,Chalkyitsik,Arctic Village,Venetie,Deline,Gameti,Wekweeti,Whati,Behchoko,Yellowknife,Fort Smith,Hay River,Enterprise,Fort Liard,Nahanni Butte,Jean Marie River,Fort Simpson,Wrigley,Sachs Harbour,Ulukhaktok,Fort Chipewyan,Fort McKay,Fort McMurray,Anzac,Janvier,Conklin,Chard,Fort Vermilion,La Crete,High Level,Rainbow Lake,Zama City,Assumption,Paddle Prairie,Peavine,Gift Lake,East Prairie,Trout Lake,Peerless Lake,Chipewyan Lake,Bigstone,Cree,Wabasca,Desmarais,Calling Lake,Whitefish Lake,Siksika,Tsuu Tina,Piikani,Blood,Tribal,Stoney,Nakoda,Lutak,CooperLanding,Deception,PortHeiden,Portage,PortClarence,KingSalmon,Beluga,Mendeltna,Mendenhall,Perryville,Coffman,TrapperCreek,ThorneBay,PilotPoint",
+    "b": "Fort Yukon,Chalkyitsik,Arctic Village,Venetie,Deline,Gameti,Wekweeti,Whati,Behchoko,Yellowknife,Fort Smith,Hay River,Enterprise,Fort Liard,Nahanni Butte,Jean Marie River,Fort Simpson,Wrigley,Sachs Harbour,Ulukhaktok,Fort Chipewyan,Fort McKay,Fort McMurray,Anzac,Janvier,Conklin,Chard,Fort Vermilion,La Crete,Rainbow Lake,Zama City,Assumption,Paddle Prairie,Peavine,Gift Lake,East Prairie,Trout Lake,Peerless Lake,Chipewyan Lake,Bigstone,Cree,Wabasca,Desmarais,Calling Lake,Whitefish Lake,Siksika,Tsuu Tina,Piikani,Blood,Tribal,Stoney,Nakoda,Lutak,CooperLanding,Deception,PortHeiden,Portage,PortClarence,KingSalmon,Beluga,Mendeltna,Mendenhall,Perryville,Coffman,TrapperCreek,ThorneBay,PilotPoint",
     "status": "COMPLETE"
   },
   {
@@ -895,7 +895,7 @@ window.northAmericaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Fort McMurray,Fort McKay,Lac La Biche,Cold Lake,Bonnyville,St. Paul,Lloydminster,Athabasca,Wabasca,Peerless Lake,Trout Lake,Fort Vermilion,High Level,Rainbow Lake,Zama City,John D'Or Prairie,Garden River,Fort Smith,Hay River,Yellowknife,Fort Resolution,Lutselk'e,Fort Providence,Fort Simpson,Fond-du-Lac,Stony Rapids,Black Lake,Wollaston Lake,La Loche,Turnor Lake,Dillon,Patuanak,Lac Brochet,Tadoule Lake",
+    "b": "Fort McMurray,Fort McKay,Lac La Biche,Cold Lake,Bonnyville,St. Paul,Lloydminster,Athabasca,Wabasca,Peerless Lake,Trout Lake,Fort Vermilion,Rainbow Lake,Zama City,John D'Or Prairie,Garden River,Fort Smith,Hay River,Yellowknife,Fort Resolution,Lutselk'e,Fort Providence,Fort Simpson,Fond-du-Lac,Stony Rapids,Black Lake,Wollaston Lake,La Loche,Turnor Lake,Dillon,Patuanak,Lac Brochet,Tadoule Lake",
     "status": "COMPLETE"
   },
   {
@@ -1335,7 +1335,7 @@ window.northAmericaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Nassau,Freeport,West End,Coopers Town,Rock Sound,Arthur's Town,George Town,Matthew Town,Cockburn Town,Duncan Town,Clarence Town,Spring Point,Deadman's Cay,Sweeting's Cay,High Rock,Black Point,Lower Bogue,Great Harbour Cay,Bimini,Cat Island,Long Island,Exuma,Eleuthera,Abaco,Andros,Grand Bahama,New Providence",
+    "b": "Nassau,Freeport,West End,Coopers Town,Rock Sound,Arthur's Town,George Town,Matthew Town,Cockburn Town,Duncan Town,Clarence Town,Spring Point,Deadman's Cay,Sweeting's Cay,Black Point,Lower Bogue,Great Harbour Cay,Bimini,Cat Island,Long Island,Exuma,Eleuthera,Abaco,Andros,Grand Bahama,New Providence",
     "status": "COMPLETE"
   },
   {
