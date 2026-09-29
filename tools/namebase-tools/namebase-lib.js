@@ -373,6 +373,144 @@ function contaminationFor(entry, freq, opts) {
   };
 }
 
+/**
+ * Seeds that are the language's own name, or a research label containing it.
+ *
+ * Two grades, because the two are not equally wrong:
+ *
+ *   - a seed that IS the language name, e.g. "Bhojpuri" in the Bhojpuri entry.
+ *     The quality standards reject it outright ("It is NOT a language name used
+ *     as a place name"). It is occasionally genuine, though: the Ari language of
+ *     New Guinea lives in two villages, one of which is also called Ari. So this
+ *     is a warning.
+ *
+ *   - a seed that CONTAINS the language name plus more words, e.g.
+ *     "Javanese macro entry", "Ulch villages,Kamchatka,Russia",
+ *     "Itelmen villages", "Gwedena,Dagan family,Papua New Guinea". No place is
+ *     called that. These are research labels that were pasted into a seed field.
+ *     This is an error.
+ *
+ * @param {object} entry
+ * @returns {{labels: string[], selfNamed: string|null}}
+ */
+function detectSelfNamedSeeds(entry) {
+  const base = alpha(entry.name || "");
+  if (base.length < 3) return {labels: [], selfNamed: null};
+  const seeds = seedsOf(entry);
+  const labels = [];
+  let selfNamed = null;
+  for (const seed of seeds) {
+    const a = alpha(seed);
+    if (!a) continue;
+    if (a === base) {
+      if (selfNamed === null) selfNamed = seed;
+      continue;
+    }
+    // Contains the language name AND the seed is more than one word.
+    if (a !== base && a.includes(base) && /\s/.test(seed.trim())) {
+      labels.push(seed);
+    }
+  }
+  return {labels, selfNamed};
+}
+
+/**
+ * Pairs of distinct entries whose seed sets are near-identical.
+ *
+ * Exact duplicates are caught elsewhere, but near-identical ones survive it:
+ * two entries with the same toponyms in a different order, or with two or three
+ * names swapped. Observed: Sawi and Tamagario at Jaccard 1.00 over a
+ * byte-identical 30-name list, Fore and Usarufa at 1.00, Mekeo and Koita at
+ * 0.94. Two unrelated languages do not share 90% of their settlement names.
+ *
+ * @param {object[]} entries
+ * @param {{threshold?: number, minSeeds?: number}} [opts]
+ * @returns {Array<{a: object, b: object, jaccard: number, shared: number}>}
+ */
+function nearIdenticalPairs(entries, opts) {
+  const threshold = (opts && opts.threshold) || 0.9;
+  const minSeeds = (opts && opts.minSeeds) || 8;
+
+  const sets = entries.map(e => ({e, s: new Set(seedsOf(e))}));
+  const out = [];
+  for (let i = 0; i < sets.length; i++) {
+    if (sets[i].s.size < minSeeds) continue;
+    for (let j = i + 1; j < sets.length; j++) {
+      if (sets[j].s.size < minSeeds) continue;
+      // Cheap reject on size ratio before intersecting.
+      const [small, large] =
+        sets[i].s.size <= sets[j].s.size ? [sets[i].s, sets[j].s] : [sets[j].s, sets[i].s];
+      if (small.size / large.size < threshold) continue;
+      let inter = 0;
+      for (const v of small) if (large.has(v)) inter++;
+      if (!inter) continue;
+      const union = sets[i].s.size + sets[j].s.size - inter;
+      const jac = inter / union;
+      if (jac >= threshold) {
+        out.push({a: sets[i].e, b: sets[j].e, jaccard: Math.round(jac * 100) / 100, shared: inter});
+      }
+    }
+  }
+  out.sort((x, y) => y.jaccard - x.jaccard);
+  return out;
+}
+
+/**
+ * Long runs of identical seeds shared by a small number of entries.
+ *
+ * findPastedBlocks needs 20+ holders, which is right for catching boilerplate
+ * sprayed across the whole dataset but blind to a block copied between just two
+ * or three entries. Observed: Kunimaipa and Tauade share 38 seeds in a row,
+ * Gaagudju and Panyjima 27, Murrinh Patha and Ngaanyatjarra 26. A run of 15+
+ * identical names in the same order is not linguistic relatedness.
+ *
+ * @param {object[]} entries
+ * @param {{run?: number, minHolders?: number}} [opts]
+ * @returns {Map<object, {block: string[], partners: number}>}
+ */
+function findLongSharedRuns(entries, opts) {
+  const run = (opts && opts.run) || 15;
+  const minHolders = (opts && opts.minHolders) || 2;
+
+  const bySeed = new Map();
+  for (const e of entries) {
+    for (const s of new Set(seedsOf(e))) {
+      if (!bySeed.has(s)) bySeed.set(s, []);
+      bySeed.get(s).push(e);
+    }
+  }
+
+  const found = new Map();
+  for (const e of entries) {
+    const seeds = seedsOf(e);
+    for (let i = 0; i + run <= seeds.length; i++) {
+      const win = seeds.slice(i, i + run);
+      let anchor = win[0];
+      let best = Infinity;
+      for (const s of win) {
+        const c = (bySeed.get(s) || []).length;
+        if (c < best) { best = c; anchor = s; }
+      }
+      const holders = new Set();
+      for (const p of bySeed.get(anchor) || []) {
+        if (p === e) continue;
+        const ps = new Set(seedsOf(p));
+        if (win.every(s => ps.has(s))) holders.add(p);
+      }
+      if (holders.size < minHolders) continue;
+      for (const p of holders) {
+        for (const target of [e, p]) {
+          const prev = found.get(target);
+          if (!prev || win.length > prev.block.length) {
+            found.set(target, {block: win, partners: holders.size + 1});
+          }
+        }
+      }
+    }
+  }
+  return found;
+}
+
 /** Human label for an entry, used in all report output. */
 function labelOf(entry) {
   return `${entry.name} (i=${entry.i})`;
@@ -468,5 +606,8 @@ module.exports = {
   buildSeedFrequency,
   contaminationFor,
   findPastedBlocks,
+  detectSelfNamedSeeds,
+  nearIdenticalPairs,
+  findLongSharedRuns,
   labelOf
 };

@@ -1306,7 +1306,7 @@ window.southAmericaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Quito,Guayaquil,Cuenca,Ambato,Riobamba,Loja,Latacunga,Portoviejo,Manta,SantoDomingo,Machala,Quevedo,Babahoyo,Chone,Duran,Ibarra,Otavalo,Cotacachi,Sangolqui,Cayambe,Tena,Puyo,Macas,Zamora,Banos,Guaranda,Azogues,Tulcan,NuevaLoja,Coca,Shell,Mera,Arajuno,Pujili,Pelileo,London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,La Paz,Montevideo,Asunción,Brasília,Utuado,VegaAlta,Yauco,Ciales,Luquillo,Cockburn,Quebradillas,Cayey,Comerio,SabanaGrande,Naguabo,Plymouth,Barceloneta,Carolina,Barranquitas,Amedford,Abamburg,Areburg,Adutown,Akurburg,Afalford,Apikburg,Alubtown,Ametford,Akurtown,Alaford,Apudtown,Auburg,Amigburg,Adultown,MediaLenguatown,MediaLenguaville,MediaLenguaburg,MediaLenguaview,MediaLenguaside",
+    "b": "Quito,Guayaquil,Cuenca,Ambato,Riobamba,Loja,Latacunga,Portoviejo,Manta,SantoDomingo,Machala,Quevedo,Babahoyo,Chone,Duran,Ibarra,Otavalo,Cotacachi,Sangolqui,Cayambe,Tena,Puyo,Macas,Zamora,Banos,Guaranda,Azogues,Tulcan,NuevaLoja,Coca,Shell,Mera,Arajuno,Pujili,Pelileo,London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,La Paz,Montevideo,Asunción,Brasília,Utuado,VegaAlta,Yauco,Ciales,Luquillo,Cockburn,Quebradillas,Cayey,Comerio,SabanaGrande,Naguabo,Plymouth,Barceloneta,Carolina,Barranquitas",
     "status": "COMPLETE"
   },
   {
@@ -1316,7 +1316,7 @@ window.southAmericaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Paramaribo,NieuwNickerie,Moengo,Albina,Brokopondo,Brownsweg,Groningen,Totness,Coronie,Wageningen,NewAmsterdam,RoseHall,Skeldon,Corriverton,Lethem,Bartica,Mabaruma,AnnaRegina,Georgetown,Unity,Rosignol,Berbice,Canje,Ituni,Linden,Kwakwani,Mahaica,Whim,Enmore,Vreedenhoop,London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,SanGerman,AguasBuenas,LasPiedras,Brades,Manati,Humacao,Orocovis,Mayaguez,Juncos,Maunabo,Castries,Dorado,Arecibo,Jayuya,Aguada,Afunford,Aboltown,Abemburg,Anogford,Abutford,Aneburg,Akontown,Adasburg,Afutburg,Adogtown,Apolburg,Adulford,Amaburg,Afimford,Abakford,NdyukaTiriyPidgintown,NdyukaTiriyPidginville,NdyukaTiriyPidginburg,NdyukaTiriyPidginview,NdyukaTiriyPidginside",
+    "b": "Paramaribo,NieuwNickerie,Moengo,Albina,Brokopondo,Brownsweg,Groningen,Totness,Coronie,Wageningen,NewAmsterdam,RoseHall,Skeldon,Corriverton,Lethem,Bartica,Mabaruma,AnnaRegina,Georgetown,Unity,Rosignol,Berbice,Canje,Ituni,Linden,Kwakwani,Mahaica,Whim,Enmore,Vreedenhoop,London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,SanGerman,AguasBuenas,LasPiedras,Brades,Manati,Humacao,Orocovis,Mayaguez,Juncos,Maunabo,Castries,Dorado,Arecibo,Jayuya,Aguada",
     "status": "COMPLETE"
   },
   {
@@ -1326,7 +1326,7 @@ window.southAmericaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "NorthWestCape,PilbaraPearlingArea,NgarlumaCountry,Roebourne,Cossack,Millstream,MaitlandRiver,PilbaraRegion",
+    "b": "Roebourne,Cossack,Karratha,Dampier,PointSamson,Wickham,Millstream,BurrupPeninsula,MaitlandRiver,WhimCreek,PeawahRiver,FortescueRiver",
     "status": "WAITING"
   },
   {
@@ -1336,7 +1336,7 @@ window.southAmericaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "OninPeninsula,BomberaiPeninsula,FakfakRegency,KokasDistrict,TelukPatipiDistrict,WestPapua,OninBasedPidgin,OninLanguageArea",
+    "b": "OninPeninsula,BomberaiPeninsula,Fakfak,Sekar,Patipi,PatipiPasir,Rumbati,Arguni,Wertuar,Ega,Mes",
     "status": "WAITING"
   },
   {
@@ -1356,7 +1356,7 @@ window.southAmericaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "PuertoLopez,PuertoGaitan,Umapo,ElTurpial",
+    "b": "Umapo,ElTurpial,LaVictoria,PuertoLopez,PuertoGaitan,LaHermosa,LaPrimavera,MetaRiver",
     "status": "WAITING"
   },
   {
@@ -1376,8 +1376,8 @@ window.southAmericaNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Leticia,Tabatinga,Caballococha,Yavari,Tonantins,Islandia,Nazaret,SanMartin,Tarapoto,Amatura,SanPedro,SantaRita,SanPablo,CushilloCocha,TresFronteras,LagoTarapoto,PuertoAlegria,PuertoArica,SantaRosa,Pucaurquillo,Bellavista,Pevas,NuevoIsrael,SanJoseAmazonas",
-    "status": "WAITING"
+    "b": "Leticia,PuertoNarino,Tabatinga,Japura,SaoPauloDeOlivenca,SantoAntonioDoIca,Caballococha,RioCaldeirao,CushilloCocha,YahumaCallaru,CahuideYanayacu,SanJoseDeYanayacu,SanMiguelDeCacao,SantaCecilia,PuertoSinai,Yavari,Tonantins,Nazaret,Amatura,SanPedro,SantaRita,SanPablo,TresFronteras,LagoTarapoto,PuertoAlegria,PuertoArica,SantaRosa,Bellavista,Pevas,NuevoIsrael,SanJoseAmazonas",
+    "status": "COMPLETE"
   },
   {
     "name": "Ladino",
@@ -1426,7 +1426,7 @@ window.southAmericaNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "ElEncanto,LaChorrera,UpperCaqueta,Orteguaza,Putumayo,CaraParana,IgaraParana",
+    "b": "LaChorrera,ElEncanto,IgaraParana,CaquetaRiver,Putumayo,CaguaRiver,SanVicenteDelCaguán,IslaDeLosMonos",
     "status": "WAITING"
   },
   {
@@ -1436,7 +1436,7 @@ window.southAmericaNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "ElEncanto,Sabana,PamaRiver,NetaRiver,CaraParana,Cahuinari,Putumayo,BrilloNuevo,PuertoIsango",
+    "b": "Ampiyacu,Sumon,Putumayo,CaquetaRiver",
     "status": "WAITING"
   },
   {
@@ -1446,7 +1446,7 @@ window.southAmericaNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "LaChorrera,PredioPutumayo,Igaraparana,Ampiyacu,Putumayo,CaraParana",
+    "b": "LaChorrera,PredioPutumayo,Igaraparana,Ampiyacu,Putumayo,CaraParana,Cahuinari,Yaguasyacu,Jamayacú,Algodón,Apoporis",
     "status": "WAITING"
   },
   {
@@ -1456,7 +1456,7 @@ window.southAmericaNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Tartagal,Embarcacion,SalvadorMazza,Aguaray,CampoDuran,GeneralMosconi,Ballivian,Pocitos,Yacuiba,VillaMontes,EntreRios,PalosBlancos,Boyuibe,Camiri,PilcomayoRiver,CordilleraDePirapo,TarijaDepartment",
+    "b": "VillaMontes,Yacuiba,PalmarGrande,Timboy,NuevaEsperanza,DOrbigny,PilcomayoRiver",
     "status": "WAITING"
   },
   {
@@ -1476,7 +1476,7 @@ window.southAmericaNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "SanFrancisco,CaquetaRiver,Araracuara,LaPedrera,Cahuinari",
+    "b": "PuertoRemansoElTigre,PuertoSolarte,Mariápolis,SanFrancisco,Cahuinarí,Pamá,CaquetaRiver",
     "status": "WAITING"
   },
   {
@@ -1526,7 +1526,7 @@ window.southAmericaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "WellingtonIsland,PuertoEden,VillaPuertoEden,MagallanesRegion,UltimaEsperanzaProvince,PuntaArenas,PuertoNatales,PuertoEdén",
+    "b": "PuertoEdén,PuertoNatales,PuntaArenas,IslaWellington,Jektarte,FaroSanPedro,IslaGuarello,IslaDawson,AncónSinSalida,GolfoDePenas,IslaDiegoDeAlmagro,CanalCockburn,CanalSarmiento,EstrechoDeMagallanes",
     "status": "WAITING"
   },
   {

@@ -236,7 +236,7 @@ window.northAmericaNameBases = [
     "max": 15,
     "d": "lnrt",
     "m": 0,
-    "b": "Anvik,Shageluk,Grayling,Holy Cross,Xeyeghelinghdi,Deloy Chet",
+    "b": "Anvik,Deloy Ges,Anilukhtakpak,Old Anvik,Holy Cross,Shageluk,Old Shageluk,Grayling,Iltenleyden,Tozhgelede,Nikadodellenten,Old Bonasila,New Bonasila,Koserefsky,Stony River",
     "status": "WAITING"
   },
   {
@@ -316,8 +316,8 @@ window.northAmericaNameBases = [
     "max": 27,
     "d": "lnrt",
     "m": 0.15,
-    "b": "Oneida Castle,Kanawalohale,Old Oneida,Oriska,Nichols Pond,Cowassalon,Canaseraga,Ganadoga,Tkanetota,Tegasoke,Hostayuntwa,Ossewingo,Ostogeron,Schoherage,Solocka,Awegen,Cahunghage,Opolopong,Canowdowsa,Sevege,Southwold,Oneida Settlement,Oneida Nation of the Thames,Duck Creek,Chicago Corners",
-    "status": "COMPLETE"
+    "b": "Kanawalohale,Oriska,Nichols Pond,Cowassalon,Canaseraga,Ganadoga,Tkanetota,Tegasoke,Hostayuntwa,Ossewingo,Ostogeron,Schoherage,Solocka,Awegen,Cahunghage,Opolopong,Canowdowsa,Sevege,Southwold,Duck Creek,Chicago Corners",
+    "status": "WAITING"
   },
   {
     "name": "Onondaga",
@@ -326,8 +326,8 @@ window.northAmericaNameBases = [
     "max": 19,
     "d": "lnrt",
     "m": 0,
-    "b": "Onondaga Castle,Nedrow,Ganakdagweniyogeh,Ohsweken",
-    "status": "WAITING"
+    "b": "Nedrow,Ganakdagweniyogeh,Otiahanague,Touenho,Ahaouete,Gistwiahna,Deseroken,Tgasunto,Gannentaha,Kaneenda,Onondaghara,Onondahgegahgeh,Onontatacet,Gadoquat,Butternut,Indian Hill,Cazenovia,Pompey,Delphi Falls,Manlius,Geddes,Van Buren,LaFayette,Camillus,Otisco,Fort Stanwix,Syracuse",
+    "status": "COMPLETE"
   },
   {
     "name": "Seneca",
@@ -346,7 +346,7 @@ window.northAmericaNameBases = [
     "max": 18,
     "d": "lnrt",
     "m": 0,
-    "b": "Tuscarora Reservation,Lewiston,Buffalo,Indian Woods,Prospect,Union Chapel,Goldsboro,Kinston,Smithfield,Neoheroka,Coram,Harooka,Harutawaqui,Kenta,Naurheghne,Canasaraga,Ganatisgowa,Ingaren,Jutaneaga,Kanhats,Kaunehsuntahkeh,Nyuchirhaan,Ohagi,Oquaga,Oyonwayea,Shawiangto,Tiochrungwe,Windsor,Great Bend,Sullivan,Colesville,Brantford,Six Nations,Niagara Falls,Stockbridge",
+    "b": "Lewiston,Buffalo,Indian Woods,Prospect,Union Chapel,Goldsboro,Kinston,Smithfield,Neoheroka,Coram,Harooka,Harutawaqui,Kenta,Naurheghne,Canasaraga,Ganatisgowa,Ingaren,Jutaneaga,Kanhats,Kaunehsuntahkeh,Nyuchirhaan,Ohagi,Oquaga,Oyonwayea,Shawiangto,Tiochrungwe,Windsor,Great Bend,Sullivan,Colesville,Brantford,Six Nations,Niagara Falls,Stockbridge",
     "status": "COMPLETE"
   },
   {
@@ -666,7 +666,7 @@ window.northAmericaNameBases = [
     "max": 16,
     "d": "",
     "m": 0.4,
-    "b": "Rabinal,Cubulco,San Miguel Chicaj,Salamá,Santa Cruz El Chol",
+    "b": "Rabinal,Cubulco,San Miguel Chicaj,Salamá,San Jerónimo,Purulhá,Granados,Santa Cruz El Chol,El Chol,Tres Cruces,Tzamaneb',Kajyub',Xetulul,Xococ,Urrán,Cajiup,Cuxbalám,Pacoc,Las Burras,Chipichek,Chusxan",
     "status": "WAITING"
   },
   {
@@ -795,8 +795,8 @@ window.northAmericaNameBases = [
     "max": 19,
     "d": "lnrt",
     "m": 0,
-    "b": "Xochistlahuaca,Tlacoachistlahuaca,Ometepec,Cosuyoapan,Zacoalpa,Chochoapan,Huehuetono,El Pajaro,Las Minas,Cerro Bronco,Guajentepec,Pueblo Nuevo,San Pedro Amuzgos,Santa Maria Ipalapa,Suljaa,Nomndaa,Tzjon Non,Tzotyio,Icpalli,Tsjoom Nma,Jnonndaa,Jnunnda,Tsunuma,Amoxco,San Lucas Ojitlan",
-    "status": "COMPLETE"
+    "b": "Xochistlahuaca,Tlacoachistlahuaca,Ometepec,Cosuyoapan,Zacoalpa,Chochoapan,Huehuetono,El Pajaro,Las Minas,Cerro Bronco,Guajentepec,Pueblo Nuevo,Santa Maria Ipalapa,Suljaa,Nomndaa,Tzjon Non,Tzotyio,Icpalli,Tsjoom Nma,Jnonndaa,Jnunnda,Tsunuma,Amoxco,San Lucas Ojitlan",
+    "status": "WAITING"
   },
   {
     "name": "Sierra Popoluca",
@@ -855,7 +855,7 @@ window.northAmericaNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Crow Agency,Lodge Grass,Pryor,Wyola,St. Xavier,Fort Smith,Hardin,Ekalaka,Colstrip,Box Elder,Old Agency,Babb,St. Mary,Choteau,Dupuyer,Bynum,Fort Benton,Loma,Big Sandy,Rudyard,Kremlin,Lothair,Hingham,Galata,Gildford,Chester,Busby,White Clay,Arrow Creek,Pryor Creek",
+    "b": "Lodge Grass,Pryor,Wyola,St. Xavier,Fort Smith,Hardin,Ekalaka,Colstrip,Box Elder,Old Agency,Babb,St. Mary,Choteau,Dupuyer,Bynum,Fort Benton,Loma,Big Sandy,Rudyard,Kremlin,Lothair,Hingham,Galata,Gildford,Chester,Busby,White Clay,Arrow Creek,Pryor Creek",
     "status": "COMPLETE"
   },
   {
@@ -865,7 +865,7 @@ window.northAmericaNameBases = [
     "max": 28,
     "d": "lnrt",
     "m": 0,
-    "b": "Totontepec Villa de Morelos,Tlahuitoltepec,San Pedro y San Pablo Ayutla,Tamazulapan,Santa Maria Tlahuitoltepec,Asuncion Cacalotepec,Mixistlan de la Reforma,Santiago Atitlan,San Lucas Camotlan,San Juan Cotzocon,San Juan Mazatlan,San Miguel Quetzaltepec,Santo Domingo Tepuxtepec,San Pedro Ocotepec,Santa Maria Alotepec,San Juan Juquila Mixes,Santiago Zacatepec,San Pedro Comitancillo,San Miguel Huautla,San Lorenzo,San Juan Lalana,San Pedro Ixcatlan,San Bartolome Ayautla,San Felipe Usila,San Juan Coatzospam,San Jose Tenango,San Mateo Etlatongo,San Miguel Chicahua,San Andres Lagunas,San Pedro Tidaa,San Francisco Nuxano",
+    "b": "Totontepec Villa de Morelos,Tlahuitoltepec,San Pedro y San Pablo Ayutla,Tamazulapan,Santa Maria Tlahuitoltepec,Asuncion Cacalotepec,Mixistlan de la Reforma,Santiago Atitlan,San Lucas Camotlan,San Juan Cotzocon,San Juan Mazatlan,San Miguel Quetzaltepec,Santo Domingo Tepuxtepec,San Pedro Ocotepec,Santa Maria Alotepec,Santiago Zacatepec,San Pedro Comitancillo,San Miguel Huautla,San Lorenzo,San Juan Lalana,San Pedro Ixcatlan,San Bartolome Ayautla,San Felipe Usila,San Juan Coatzospam,San Jose Tenango,San Mateo Etlatongo,San Miguel Chicahua,San Andres Lagunas,San Pedro Tidaa,San Francisco Nuxano",
     "status": "COMPLETE"
   },
   {
@@ -925,7 +925,7 @@ window.northAmericaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Fort McMurray,Fort McKay,Fort Chipewyan,Lac La Biche,Cold Lake,Bonnyville,St. Paul,Lloydminster,Athabasca,Wabasca,Peerless Lake,Trout Lake,Fort Vermilion,High Level,Rainbow Lake,Zama City,John D'Or Prairie,Garden River,Fort Smith,Hay River,Yellowknife,Fort Resolution,Lutselk'e,Fort Providence,Fort Simpson,Fond-du-Lac,Stony Rapids,Black Lake,Wollaston Lake,La Loche,Turnor Lake,Dillon,Patuanak,Lac Brochet,Tadoule Lake",
+    "b": "Fort McMurray,Fort McKay,Lac La Biche,Cold Lake,Bonnyville,St. Paul,Lloydminster,Athabasca,Wabasca,Peerless Lake,Trout Lake,Fort Vermilion,High Level,Rainbow Lake,Zama City,John D'Or Prairie,Garden River,Fort Smith,Hay River,Yellowknife,Fort Resolution,Lutselk'e,Fort Providence,Fort Simpson,Fond-du-Lac,Stony Rapids,Black Lake,Wollaston Lake,La Loche,Turnor Lake,Dillon,Patuanak,Lac Brochet,Tadoule Lake",
     "status": "COMPLETE"
   },
   {
@@ -935,7 +935,7 @@ window.northAmericaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Holikachuk,Grayling,Anvik,Shageluk,Holy Cross",
+    "b": "Holikachuk,Huligachagat,Xiyighelinghdi,Grayling,Dishkaket,Thompson Slough",
     "status": "WAITING"
   },
   {
@@ -955,7 +955,7 @@ window.northAmericaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Nikolai,Telida,McGrath",
+    "b": "Nikolai,Telida,McGrath,Takotna,Medfra,Farewell Landing,Slow Fork,Dennis Creek,Big River,Vinasale",
     "status": "WAITING"
   },
   {
@@ -975,7 +975,7 @@ window.northAmericaNameBases = [
     "max": 20,
     "d": "lnrt",
     "m": 0,
-    "b": "Cache,Carnegie,Elgin,Lawton,Anadarko,Fort Cobb,Hobart,Mountain View,Gotebo,Cooperton,Roosevelt,Snyder,Headrick,Granite,Lone Wolf,Mountain Park,Fort Sill,Saddle Mountain,Prairie Dog,Prickly Pear,Navajo Mountain,Goat Mountain,Original Wichita Mountains,Stewart Mountain,Soldier Peak,King Mountain,Byrd Mountain,Caddo County,Kiowa County,Wichita,Tahlequah,Tahleah,Hawk Creek,Hog Creek,Mount Scott,Rainy Mountain",
+    "b": "Cache,Carnegie,Elgin,Lawton,Anadarko,Fort Cobb,Hobart,Mountain View,Gotebo,Cooperton,Roosevelt,Snyder,Headrick,Granite,Lone Wolf,Mountain Park,Fort Sill,Saddle Mountain,Prairie Dog,Prickly Pear,Navajo Mountain,Goat Mountain,Original Wichita Mountains,Stewart Mountain,Soldier Peak,King Mountain,Byrd Mountain,Caddo County,Wichita,Tahlequah,Tahleah,Hawk Creek,Hog Creek,Mount Scott,Rainy Mountain",
     "status": "COMPLETE"
   },
   {
@@ -985,7 +985,7 @@ window.northAmericaNameBases = [
     "max": 18,
     "d": "lnrt",
     "m": 0,
-    "b": "Nambe Pueblo,Pojoaque Pueblo,San Ildefonso Pueblo,Ohkay Owingeh,Santa Clara Pueblo,Tesuque Pueblo,Tewa Village,First Mesa,Rio Grande,Chama River,Puje,Yungue,Abiquiu,Analco,Cuyamungue,Jemez Mountains,Kha'p'o,Ts'uuyi,P'ohwhogeh,O'k'owingeh,Santo Domingo Pueblo,San Felipe Pueblo,Sandia Pueblo,Isleta Pueblo,Zia Pueblo,Cochiti Pueblo,Santa Ana Pueblo,San Juan de los Caballeros,Picuris Pueblo,Taos Pueblo,San Juan Pueblo",
+    "b": "Nambe Pueblo,Pojoaque Pueblo,San Ildefonso Pueblo,Ohkay Owingeh,Santa Clara Pueblo,Tesuque Pueblo,First Mesa,Rio Grande,Chama River,Puje,Yungue,Abiquiu,Analco,Cuyamungue,Jemez Mountains,Kha'p'o,Ts'uuyi,P'ohwhogeh,O'k'owingeh,Santo Domingo Pueblo,San Felipe Pueblo,Sandia Pueblo,Isleta Pueblo,Zia Pueblo,Cochiti Pueblo,Santa Ana Pueblo,San Juan de los Caballeros,Picuris Pueblo,Taos Pueblo,San Juan Pueblo",
     "status": "COMPLETE"
   },
   {
@@ -1025,7 +1025,7 @@ window.northAmericaNameBases = [
     "max": 18,
     "d": "lnrt",
     "m": 0,
-    "b": "Lawton,Fletcher,Apache,Cyril,Indiahoma,Hastings,Marlow,Duncan,Olustee,Waurika,Grandfield,Tipton,Hollister,Frederick,Tom Steed Lake,Cache,Snyder,Elgin,Fort Sill,Wichita,Blue Beaver,North Canadian River,Salt Fork Arkansas,Wichita Mountains,Comanche County,Stephens County,Kiowa County,Jackson County,Tillman County,Cotton County,Texas,Abilene,Indian Territory,KCA Reservation,Sterling,Wichita Falls,Walters",
+    "b": "Lawton,Fletcher,Apache,Cyril,Indiahoma,Hastings,Marlow,Duncan,Olustee,Waurika,Grandfield,Tipton,Hollister,Frederick,Tom Steed Lake,Cache,Snyder,Elgin,Fort Sill,Wichita,Blue Beaver,North Canadian River,Salt Fork Arkansas,Wichita Mountains,Stephens County,Kiowa County,Jackson County,Tillman County,Cotton County,Texas,Abilene,Indian Territory,KCA Reservation,Sterling,Wichita Falls,Walters",
     "status": "COMPLETE"
   },
   {
@@ -1075,7 +1075,7 @@ window.northAmericaNameBases = [
     "max": 22,
     "d": "lnrt",
     "m": 0,
-    "b": "Jesus Maria de Oro,Mesa del Nayar,Santa Teresa,San Francisco,San Juan Corapan,Corapan,Chicora,Presidio de los Reyes,Huaynamota,Dolores,Puertecitos,La Mesa,Mololon,San Blasito,Maria de Oro,El Nayar,La Yesca,Santa Maria del Oro,Huajicori",
+    "b": "Jesus Maria de Oro,Mesa del Nayar,Santa Teresa,San Francisco,Corapan,Chicora,Presidio de los Reyes,Huaynamota,Dolores,Puertecitos,La Mesa,Mololon,San Blasito,Maria de Oro,El Nayar,La Yesca,Santa Maria del Oro,Huajicori",
     "status": "WAITING"
   },
   {
@@ -1095,8 +1095,8 @@ window.northAmericaNameBases = [
     "max": 28,
     "d": "lnrt",
     "m": 0,
-    "b": "San Andres Cohamiata,Santa Maria de Ocotan,San Sebastian Teponahuastlan,San Miguel Huaixtita,San Juan Ocotlan",
-    "status": "WAITING"
+    "b": "San Andrés Cohamiata,Santa Catarina Cuescomatitlán,San Sebastián Teponahuaxtlán,Guadalupe Ocotán,Tuxpan de Bolaños,San Miguel Huaixtita,Santa María Ocotán,San Francisco de Ocotán,San Antonio de Padua,San Lucas de Jalpa,Santa María de Huazamota,El Potrero,Las Pilas,Bancos de Calítique,Atonalisco,El Saucito Peyotán,Santa Rosa,Zoquipan,Huaynamota,Potrero de la Palmita,Ciénega del Mango,El Naranjo,El Colorín,Aguamilpa,El Cordón de Coyultita,Cuauhtémoc,Las Higueras,San Pablo,Playa de Golondrinas,Higuera Gorda,Naranjito de Copal,Paso de Álica,El Roble,Huajimic,Las Latas,Nueva Colonia,Cajones,Kwamata,Maramanawe",
+    "status": "COMPLETE"
   },
   {
     "name": "Inuinnaqtun",
@@ -1105,7 +1105,7 @@ window.northAmericaNameBases = [
     "max": 12,
     "d": "lnrtk",
     "m": 0,
-    "b": "Ulukhaktok,Cambridge Bay,Kugluktuk,Bathurst Inlet,Umingmaktok",
+    "b": "Ulukhaktok,Cambridge Bay,Kugluktuk,Bathurst Inlet,Umingmaktok,Gjoa Haven,Coppermine,Bay Chimo",
     "status": "WAITING"
   },
   {
@@ -1195,7 +1195,7 @@ window.northAmericaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Naha,Betel,Lacanja San Quintin,Metzaboc",
+    "b": "Lacanjá Chansayab,Lacanjá,Nahá,Metzabok,Puerto Bello Metzabok,Betel,San Javier,Ojo de Agua Chankín,Bethel,Bonampak,Maeva,San Quintín,Crucero Bonampak,Zapote Caribal",
     "status": "WAITING"
   },
   {
@@ -1245,7 +1245,7 @@ window.northAmericaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Sacapulas,Rio Blanco,Trapichitos,Paguayil",
+    "b": "Sacapulas,Río Blanco,Trapichitos,Paguayil,Xutixtiox,Chutinamit,Xolpocol,Xolchún,Pacot,Xecatoloj,Chu'porb'al,Chu'xajawb'al,Chu'kot,Paksootz',Chi'chaj,Chu'b'iyiil,Chi'k'axay,Chu'atz'yaq",
     "status": "WAITING"
   },
   {
@@ -1265,7 +1265,7 @@ window.northAmericaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Tectitan,Cuilco,Amatenango de la Frontera,Frontera Comalapa,Mazapa de Madero",
+    "b": "Tectitan,Cuilco,Amatenango de la Frontera,Frontera Comalapa,Mazapa de Madero,Bacantón,Altamirano Uno,Chimalapa,Nuevo Paraíso,Reforma,Tierra Blanca,Valle Obregón,Veracruz,Villa Hidalgo,Barrio Nuevo,Chiquisbil,El Porvenir,Granadillal,Las Marías,Nuevo Amatenango,Sabinalito,Nuevo Mazapa",
     "status": "WAITING"
   },
   {
@@ -1795,7 +1795,7 @@ window.northAmericaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0.2,
-    "b": "San Luis,Poptun,Melchor de Mencos,Dolores,San Antonio",
+    "b": "San Luis,Poptún,Dolores,Melchor de Mencos,San Antonio,San José Succotz,San José,Santa Cruz,San Román,Santa Rosa,Pueblo Viejo",
     "status": "WAITING"
   },
   {
@@ -1825,8 +1825,8 @@ window.northAmericaNameBases = [
     "max": 14,
     "d": "",
     "m": 0,
-    "b": "Las Margaritas,Comitan,La Trinitaria,La Independencia",
-    "status": "WAITING"
+    "b": "Las Margaritas,Comitan,La Trinitaria,La Independencia,Altamirano,Maravilla Tenejapa,Bajucú,Buena Vista B'ajwits,Saksaklu'um,Getzemaní,Plan de Santo Tomás,Rosario Bawitz,San Antonio Bawitz,La Realidad Trinidad,Los Pocitos,Nuevo Matzán,Ojo de Agua Segundo,El Porvenir Agrarista,La Herradura,Nuevo Zapaluta,Quistajito,K'ax,Yaltzi Tres Lagunas,Chentón,Rosario Río Blanco,Chujala,Cash,Jordán,Jerusalem,Yasha,Yalcoc,Lomantán,Rizo de Oro,Nuevo Momón,Santa Ana la Laguna,Santo Tomás los Cimientos,San Miguel Ch'ib'tik,Puebla Viejo,Las Maravillas,El Limonal,Nueva Virginia,Carmen Rusia,El Vergel,El Suspiro,El Trapichito,El Recuerdo,La Piedad,La Pomarrosa,Monte Cristo",
+    "status": "COMPLETE"
   },
   {
     "name": "Trique",
@@ -1835,7 +1835,7 @@ window.northAmericaNameBases = [
     "max": 26,
     "d": "lnrt",
     "m": 0.9,
-    "b": "Copala Trique,San Martin Itunyoso,Putla Villa de Guerrero,Constancia del Rosario,San Andres Chicahuaxtla,San Jose Xochixtlapilco,San Juan Ñumí,Santiago Tlazoyaltepec,Magdalena Tlacotepec,Santa Maria Tlalixtac,Santo Domingo del Estado,San Pedro Amuzgos,San Andres Tenejapa,Villa de Tamazulapan,San Andres Yuticachi,Santa Cruz Tayata,San Andres Cabecera Nueva,San Esteban Atatlahuca,Santiago Yosondua,San Juan Mixtepec,San Miguel el Grande,Santa Maria Yucuhiti,San Andres Dinicuiti,San Martin Duraznos,Santo Tomas Ocotepec,San Jeronimo Xayacatlan,San Antonino Monte Verde,Santa Lucia Monteverde",
+    "b": "San Martin Itunyoso,Putla Villa de Guerrero,Constancia del Rosario,San Andres Chicahuaxtla,San Jose Xochixtlapilco,San Juan Ñumí,Santiago Tlazoyaltepec,Magdalena Tlacotepec,Santa Maria Tlalixtac,Santo Domingo del Estado,San Pedro Amuzgos,San Andres Tenejapa,Villa de Tamazulapan,San Andres Yuticachi,Santa Cruz Tayata,San Andres Cabecera Nueva,San Esteban Atatlahuca,Santiago Yosondua,San Juan Mixtepec,San Miguel el Grande,Santa Maria Yucuhiti,San Andres Dinicuiti,San Martin Duraznos,Santo Tomas Ocotepec,San Jeronimo Xayacatlan,San Antonino Monte Verde,Santa Lucia Monteverde",
     "status": "COMPLETE"
   },
   {
@@ -1885,7 +1885,7 @@ window.northAmericaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Eagle,Dawson City,Moosehide",
+    "b": "Eagle,Dawson City,Moosehide,Tr'ondëk,Tr'ochëk,Fort Reliance,Forty Mile,Ch'ëchozhù' Ndëk,Fort Cudahy,Fort Constantine,Fort Eagle,Black City,Johnny's Village,Charley's Village,Klondike,Forty Mile River,Dënezhu Graveyard",
     "status": "WAITING"
   },
   {
@@ -1955,8 +1955,8 @@ window.northAmericaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Behchoko,Gameti,Wekweeti,Whati",
-    "status": "WAITING"
+    "b": "Behchokǫ̀,Gamètì,Wekweètì,Whatì,Rae,Edzo,Nîshìì,Xàèlîî kö gola,Dettah,Hodoòdzoo,Weyìits'atåaa,Kwecho,Woke whali tì,Kweedoò,Weyeèdi,Dô Nàake Laanì Nàts'etso,Yàzô etåa,Hoòrabah,Ekwöwò tå'ôhbàa,K'ielàa,Ets'idzi,Tadôwheæaa k'ëë dagowo,Îdaà tîlii,Tìdeè,Sahtì,Dehcho,Sahtìdeè,Nôdìihatì,Gòlootì deè,Wets'iì tì,Dzìmîtì",
+    "status": "COMPLETE"
   },
   {
     "name": "Ute",
@@ -1965,7 +1965,7 @@ window.northAmericaNameBases = [
     "max": 14,
     "d": "lnrt",
     "m": 0,
-    "b": "Uintah,Ouray,Fort Duchesne,Whiterocks,Randlett,Tridell,Gusher,Southern Ute,Ignacio,Towaoc,White Mesa,Aneth,Montezuma Creek,Mexican Hat,Bluff,Blanding,Monticello,Roosevelt,Myton,Vernal,Lapoint,Jensen,Maeser,Bonanza,Naples,Ballard,Halls Crossing,Navajo Mountain,Oljato",
+    "b": "Uintah,Ouray,Fort Duchesne,Whiterocks,Randlett,Tridell,Gusher,Ignacio,Towaoc,White Mesa,Aneth,Montezuma Creek,Mexican Hat,Bluff,Blanding,Monticello,Roosevelt,Myton,Vernal,Lapoint,Jensen,Maeser,Bonanza,Naples,Ballard,Halls Crossing,Navajo Mountain,Oljato",
     "status": "COMPLETE"
   },
   {
@@ -2065,7 +2065,7 @@ window.northAmericaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Santa Maria Cauque,Santiago Sacatepequez,Sacatepequez Department",
+    "b": "Santa Maria Cauque,Santiago Sacatepequez",
     "status": "WAITING"
   },
   {
@@ -2295,7 +2295,17 @@ window.northAmericaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Occoneechee Island,Fort Christanna,Junkatapurse,Roanoke River",
+    "b": "Occoneechee Island,Fort Christanna,Roanoke River,Eno River,Dan River,Fredricks,Jenrette,Field's Island,Lewis Island,Nelson's Island,Pleasant Grove,Little Texas,Burnette's Chapel,Occoneechee State Park",
+    "status": "WAITING"
+  },
+  {
+    "name": "Cocopa",
+    "i": 213000,
+    "min": 4,
+    "max": 16,
+    "d": "lnrt",
+    "m": 0,
+    "b": "El Mayor Cucapá,Cucapá Mestizo,Alberto Oviedo Mota,Pozas de Arvizu,Campo Camerina,Campo del Prado,Campo Flores,Campo Sonora,La Puerta,Ejido Durango,Sainz Domínguez,San Felipe,La Casa de las Curvas,Mexicali,San Luis Río Colorado,Somerton",
     "status": "WAITING"
   }
 ];

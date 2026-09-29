@@ -67,6 +67,9 @@ const {
   buildSeedFrequency,
   contaminationFor,
   findPastedBlocks,
+  detectSelfNamedSeeds,
+  nearIdenticalPairs,
+  alpha,
   labelOf
 } = require("./namebase-lib");
 
@@ -358,6 +361,52 @@ for (const [e, info] of pasted) {
     `${labelOf(e)}: ${info.partners} entries contain the identical ` +
       `8-seed run ${info.block.slice(0, 4).join(", ")}, ... - a block was pasted around. ` +
       `Research this language's own toponyms and replace it.`
+  );
+}
+
+// ---------------------------------------------------------------------------
+// E010 - research labels pasted into seed fields
+// ---------------------------------------------------------------------------
+//
+// "Javanese macro entry", "Ulch villages,Kamchatka,Russia",
+// "Lunda Norte Province", "Harari People", "Annobonese Creole", "Zhoa town",
+// "Gwedena,Dagan family,Papua New Guinea". No place is called any of these.
+// They are research notes and administrative labels that were pasted into a seed
+// field, and they generate nonsense because the Markov chain treats them as
+// toponyms.
+//
+// This is an error, not a warning: the string is provably not a place name, and
+// the cleaner removes it mechanically.
+
+for (const e of allEntries) {
+  const r = detectSelfNamedSeeds(e);
+  if (r.label) {
+    err(
+      "E010",
+      `namebases-${e.__continent}.js`,
+      `${labelOf(e)} has the research label "${r.label}" in its seed list. ` +
+        `That is a note, not a place name.`
+    );
+  }
+}
+
+// ---------------------------------------------------------------------------
+// W005 - the same language entered twice
+// ---------------------------------------------------------------------------
+//
+// Restricted to entries whose names are identical, because a Jaccard of 0.9
+// between two DIFFERENT names is usually legitimate: Daur and Dagur, Tongzha
+// and Telue, and the Doteli varieties Achhami/Baitadeli/Bajhangi genuinely share
+// every settlement they have. Same name plus near-identical seed set is not that
+// case - it is one language stored twice.
+
+for (const p of nearIdenticalPairs(allEntries, {threshold: 0.9, minSeeds: 8})) {
+  if (alpha(p.a.name) !== alpha(p.b.name)) continue;
+  warn(
+    "W005",
+    `namebases-${p.a.__continent}.js / ${p.b.__continent}.js`,
+    `"${p.a.name}" exists twice with ${Math.round(p.jaccard * 100)}% identical seeds: ` +
+      `i=${p.a.i} and i=${p.b.i} (${p.shared} shared). Delete one.`
   );
 }
 

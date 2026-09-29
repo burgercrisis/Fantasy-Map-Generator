@@ -146,7 +146,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Musumba,Kanongesha,Ishindi,Kazembe,Kapanga,Dilolo,Kasaji,Kalanyi River,Katanga Province,Luapula Valley,Mwata Yamvo,Mwaant Yav,Mwata Kazembe,Chokwe,Ruund,Luba,Mbunda,Luvale,Ganguela,Songo,Luchazi,Akosa,Imbangala,Ndembu,Nyamwe,Kabambare,Lake Tanganyika,Bemba,Chokwe Kingdom,Portuguese Angola,Congo Free State,Northern Rhodesia,Kazembe Kazembi,Lunda Norte Province,Caungula Municipality,Moxico Province,Lunda Sul Province,Shaba Province,Benguela Railway,Diamond Mines,Northwestern Province,Zambia,Angola,DRC,Chilunda,Lunda Kingdom,Luapula River",
+    "b": "Musumba,Kanongesha,Ishindi,Kazembe,Kapanga,Dilolo,Kasaji,Kalanyi River,Katanga Province,Luapula Valley,Mwata Yamvo,Mwaant Yav,Mwata Kazembe,Chokwe,Ruund,Luba,Mbunda,Luvale,Ganguela,Songo,Luchazi,Akosa,Imbangala,Ndembu,Nyamwe,Kabambare,Lake Tanganyika,Bemba,Chokwe Kingdom,Portuguese Angola,Congo Free State,Northern Rhodesia,Kazembe Kazembi,Caungula Municipality,Moxico Province,Shaba Province,Benguela Railway,Diamond Mines,Northwestern Province,Zambia,Angola,DRC,Chilunda,Luapula River",
     "status": "COMPLETE"
   },
   {
@@ -226,7 +226,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Billiri,Kaltungo,Shongom,Akko,Balanga,Kwame,Tungo,Tangaltong,Kaltungo East,Kaltungo West,Billiri North,Billiri South,Shongom East,Shongom West,Akko Central,Akko North,Akko South,Balanga North,Balanga South,Tal,Kalmai,Banganje,Nathe,Kwami,Kupto,Sanum Kude,Borno State,Gombe State,Bauchi State,Alkaleri,Futuk Village,Mai Tangle,Mai Kaltungo,Po Tangle,Po Mamu,Tangale Hills,Muri Mountains,Billiri-Tangale,Ayaba,Baganje,Bare,Kulkul,Labepit,Lakalkal,Lamugu,Landongor,Pokuli,Lanshi Daji,Sabon Layi,Sansani,Lakumana,Pandinkude,Pandi Kamio,Sikirit,Tudu Kwaya,Poshiya,Shembe,Awai,Ladongor Mana,Lawilthu,Belfebe,Bekeri,Pabawure,Kentengereng,Komta,Lawisshi Lapandi,Daji,Lareka,Pandipino,Sukan-Sukan,Kubat-Kungu,Tudun Gari,Kwaya,Lake Chad,Kanem-Bornu Empire,Yemen,Egypt,Sahel,Bolewa,Lunguda,Kare-Kare,Tera,Waja,Songom,Hausa,English,Christianity,Islam,Traditional beliefs,Chadic,Afro-Asiatic,West Chadic,Bole-Angas,Bole-Tangale,Nuclear Tangale",
+    "b": "Billiri,Kaltungo,Shongom,Akko,Balanga,Kwame,Tungo,Tangaltong,Kaltungo East,Kaltungo West,Billiri North,Billiri South,Shongom East,Shongom West,Akko Central,Akko North,Akko South,Balanga North,Balanga South,Tal,Kalmai,Banganje,Nathe,Kwami,Kupto,Sanum Kude,Borno State,Gombe State,Bauchi State,Alkaleri,Futuk Village,Mai Tangle,Mai Kaltungo,Po Tangle,Po Mamu,Muri Mountains,Billiri-Tangale,Ayaba,Baganje,Bare,Kulkul,Labepit,Lakalkal,Lamugu,Landongor,Pokuli,Lanshi Daji,Sabon Layi,Sansani,Lakumana,Pandinkude,Pandi Kamio,Sikirit,Tudu Kwaya,Poshiya,Shembe,Awai,Ladongor Mana,Lawilthu,Belfebe,Bekeri,Pabawure,Kentengereng,Komta,Lawisshi Lapandi,Daji,Lareka,Pandipino,Sukan-Sukan,Kubat-Kungu,Tudun Gari,Kwaya,Lake Chad,Kanem-Bornu Empire,Yemen,Egypt,Sahel,Bolewa,Lunguda,Kare-Kare,Tera,Waja,Songom,Hausa,English,Christianity,Islam,Traditional beliefs,Chadic,Afro-Asiatic,West Chadic,Bole-Angas,Bole-Tangale",
     "status": "COMPLETE"
   },
   {
@@ -236,7 +236,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Mongo,Bitkine,Korbo,Barlo,Koubo Adougoul,Bara,Korlongo,Tchafo,Ideba,Tchalo-Zoudou,Bang-bang,Batha,Guera,Guera Department,Hadjeray,Korbo Mountains,Migami Canton,N'Djamena,Dangaleat Canton,Bitkine Subprefecture,Guera Prefecture,Korbo Village,Bara Village,Barlo Village,Korlongo Village,Koubo Adougoul Village,Tchafo Village,Ideba Village,Tchalo-Zoudou Village,Western Dialect,Central Dialect,Eastern Dialect,Chad,Arab,Chadic,Afro-Asiatic",
+    "b": "Mongo,Bitkine,Korbo,Barlo,Koubo Adougoul,Bara,Korlongo,Tchafo,Ideba,Tchalo-Zoudou,Bang-bang,Batha,Guera,Guera Department,Hadjeray,Korbo Mountains,Migami Canton,N'Djamena,Bitkine Subprefecture,Guera Prefecture,Korbo Village,Bara Village,Barlo Village,Korlongo Village,Koubo Adougoul Village,Tchafo Village,Ideba Village,Tchalo-Zoudou Village,Western Dialect,Central Dialect,Eastern Dialect,Chad,Arab,Chadic,Afro-Asiatic",
     "status": "COMPLETE"
   },
   {
@@ -246,7 +246,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Assum Bari,Argobba Bari,Suqutat Bari,Badro Bari,Asmadin Bari,Aweday,Kombolcha,Babile,Erer,Jijiga,Fik,Gode,Kebri Dehar,Degehabur,Warder,Shilabo,Kelafo,Mustahil,Ferfer,Fedis,Girawa,Kersa,Asebe Teferi,Chinaksen,Meta,Jarso,Bedeno,Funyan Bira,Dirir,Kurfa Chele,Qordere,Tulube,Sofi,Aboker,Harewa,Kirt Abe,Harar Town,Walled City,Jegol,Five Gates,Assum Gate,Argobba Gate,Suqutat Gate,Badro Gate,Asmadin Gate,Harari People,Adere,Language,Native Speakers,Harar City,Ethiopia,East Hararghe Zone,West Hararghe Zone,Bale Zone,Arsi Zone,Ogaden,Dire Dawa City Administration,Trade,Islam,Christianity,Traditional Beliefs,Harari Culture,Basket Weaving,Pottery,Textile,Architecture,Stone Houses,Wooden Doors,Carved Lintels,Courtyards,Mosques,Shrines,Saints,Tombs,Islamic Learning,Quranic Schools,Madrasas,Sufi Orders,Qadiriyya,Tijaniyya,UNESCO World Heritage Site,Cultural Landscape,Urban Morphology,Traditional Houses,Social Organization,Trade Routes,Red Sea,Indian Ocean,Caravan Trade,Incense,Myrrh,Gold,Ivory,Slaves,Emirate of Harar,Ali ibn Daud,Muhammad ibn Ali,Abd al-Shakur,Abdullahi,Muhammad,Ali,Egyptian Conquest,Menelik II,Conquest,Railway,Italian Occupation,British Administration,Ethiopian Sovereignty,Restored,Harari National League,HNL,Political Party,Ethiopian Federalism,Official Language,Harari,Ge'ez Script,Latin Script,Arabic Script,ISO 639-3:har,Glottolog:hara1255,ELP:Harari",
+    "b": "Assum Bari,Argobba Bari,Suqutat Bari,Badro Bari,Asmadin Bari,Aweday,Kombolcha,Babile,Erer,Jijiga,Fik,Gode,Kebri Dehar,Degehabur,Warder,Shilabo,Kelafo,Mustahil,Ferfer,Fedis,Girawa,Kersa,Asebe Teferi,Chinaksen,Meta,Jarso,Bedeno,Funyan Bira,Dirir,Kurfa Chele,Qordere,Tulube,Sofi,Aboker,Harewa,Kirt Abe,Harar Town,Walled City,Jegol,Five Gates,Assum Gate,Argobba Gate,Suqutat Gate,Badro Gate,Asmadin Gate,Adere,Language,Native Speakers,Harar City,Ethiopia,East Hararghe Zone,West Hararghe Zone,Bale Zone,Arsi Zone,Ogaden,Dire Dawa City Administration,Trade,Islam,Christianity,Traditional Beliefs,Basket Weaving,Pottery,Textile,Architecture,Stone Houses,Wooden Doors,Carved Lintels,Courtyards,Mosques,Shrines,Saints,Tombs,Islamic Learning,Quranic Schools,Madrasas,Sufi Orders,Qadiriyya,Tijaniyya,UNESCO World Heritage Site,Cultural Landscape,Urban Morphology,Traditional Houses,Social Organization,Trade Routes,Red Sea,Indian Ocean,Caravan Trade,Incense,Myrrh,Gold,Ivory,Slaves,Emirate of Harar,Ali ibn Daud,Muhammad ibn Ali,Abd al-Shakur,Abdullahi,Muhammad,Ali,Egyptian Conquest,Menelik II,Conquest,Railway,Italian Occupation,British Administration,Ethiopian Sovereignty,Restored,HNL,Political Party,Ethiopian Federalism,Official Language,Harari,Ge'ez Script,Latin Script,Arabic Script,ISO 639-3:har,Glottolog:hara1255,ELP:Harari",
     "status": "COMPLETE"
   },
   {
@@ -266,7 +266,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "San Antonio de Pale,Mabana,San Pedro,Aual,Anganchi,Bioko Island,Annobon Island,Malabo,Equatorial Guinea,Forro Creole,Angolar Creole,Principense,Lung'Ie,Gulf of Guinea,Sao Tome Island,Principe Island,Spain,Madrid,Barcelona,Cameroon Volcanic Line,Treaty of El Pardo,Ano Bom,Pagalu,Fa d'Ambu,Falar de Ano Bom,Annobonese Creole,San Antonio de Palé,Community Councils,Consejos de Poblados",
+    "b": "San Antonio de Pale,Mabana,San Pedro,Aual,Anganchi,Bioko Island,Annobon Island,Malabo,Equatorial Guinea,Forro Creole,Angolar Creole,Principense,Lung'Ie,Gulf of Guinea,Sao Tome Island,Principe Island,Spain,Madrid,Barcelona,Cameroon Volcanic Line,Treaty of El Pardo,Ano Bom,Pagalu,Fa d'Ambu,Falar de Ano Bom,San Antonio de Palé,Community Councils,Consejos de Poblados",
     "status": "COMPLETE"
   },
   {
@@ -316,7 +316,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0.1,
-    "b": "Nigeria,Plateau Language,Niger-Congo,Atlantic-Congo,Volta-Congo,Benue-Congo,ISO 639-3:zhi,Glottolog:zhir1238,Shang,Relexified,Zhebzhi,Spoken,Zhire Settlements,Subdivided into Wards,Foyour,Zhire Clans,Gigamse,Kwoyoro,Fevi,Hanziro,Fokyang,Two Major Villages,Hamlets,Friendly,Peaceful,Neighboring Groups,Ancestral Relatives,Farm Rice,Maize,Guinea Corn,Ginger,Yam,Groundnut,Fonio,Acha,Government Healthcare Centre,Private Dispensary,Government Primary Schools,Secondary Schools,Private Secondary School,School Age,Attend Schools,No Literature,Zhire,Sociolinguistic Survey,Central Nigeria,Plateau,Western,Northwestern,Fluent,All Age Groups,Most Domains,Three Zhire Villages,Variation,Dialectal Variation,Positive Attitudes,Marker of Identity,EGIDS Level 6a,Sustainability Uncertain,Proficient in Hausa,Limited Proficiency,Neighboring Languages,Younger People,Losing Proficiency,More Proficient,First Language,Homes,Learn Hausa,Home,Use of Hausa,Supported,Schools,Churches,Begin Soon,Shang Wordlists,Related Different Language,Two Zhire Villages,Orthography,Collaborative Effort,Language Groups,National Scale,Linguistic Data,Wordlist Collection,Zhire Wordlist,GPS Points,Villages,No GPS Data,Latitude 7.924522,Longitude 9.552026,Latitude 7.919512,Longitude 9.545285,Zhapzhi,Shyab-Zhyi,Kanyi,Jabji,Ba-Nyi,Banyi,Speech,Text,Language Documentation,Eleven Villages,Two Main Clusters,Northern Villages,Genye,Southern Villages,Coordinates 7.924522 N,Coordinates 7.919512 N,Historical Records,Mid-19th Century,Early Documented,Seven Distinct Tribes,Converged,Settled,Kagarko Region,Oral Histories,Foundational Clans,Hyam Speakers,Migrated,Diverse Surrounding Regions,Integrated,Cohesive Community,Detailed Accounts,Subgroups,Akote,Kagarko,Koro Wachi Territory,Kabara,Kubacha Areas,Hantziroh,Marsa,Zonkwa,Kaje,Jju,Hyam-affiliated Groups,Kwoi,Fehyi,Njeng,Gyani,Long-term Dwellers,Forested Kenyi Regions,Local Hilly Areas,Proto-Zhire Inhabitants,Nucleus,Others Coalesced,Migration Patterns,Northern Kagarko,Jaba Local Government Area,Hyam Regions,Zonkwa Vicinities,Jju Territories,Clans,Resource-rich Kenyi Landscape,Communal Hunting,Governance,Influx,Predates 19th Century,Earliest External Documentation,Koelle's Polyglotta Africana,Distinguishes Zhire,Kenyi Villages,Modern Fei,Neighboring Hyam,Settlement Clusters,Northern Kenyi,Southern Kenyi,Inter-clan Interactions,Territorial Claims,Tribal Integration,Cultural,Linguistic Blending,Unified Zhire Identity,Heterogeneous Backgrounds,Language Name Zhire,We Have Gathered,Amalgamation,Shared Practices,Core Elements,Common Ethnolinguistic Framework,Influences,Creolization,Contributors,Late 20th Century,Stabilized,Population 10000,Growing,Enduring Cohesion,Kenyi Settlements,Ongoing Ties,Marriage,Historical Unity,Distinct Markers,Zhire Heritage,Christian,Farms,Markets,Festivals,Church Activities,Positive Community Attitudes,Preservation,Widely Used,Interethnic Communication,Education,Public Services,Dominates,Formal Schooling,Youth Interactions,Reduced Zhire Proficiency,Outside Home,No Literacy,Lacks Institutional Support,Digital Resources,Bible Translation Efforts,Begun,Aribi,Common,Neighboring Hyam Communities,Shifted to Zhire,Bolstering Local Presence,Surveyed,Northern Market Town,Rural Southern Village,Northern Group,Southern Village,Central,Southern Group,Varieties,High Lexical Similarity,Standard SIL Nigeria Wordlist,Dialect Cluster,Distinct Languages,o versus o,Lower Similarities,Greater Exposure,External Languages,More Divergence,Phonologically,Core Inventory,Minor Innovations,Most Divergent Form,Influenced by Contact,Vowel Raising,o to u,Beard,nzur versus nzor,e for epsilon,Tongue,rem versus rem,u for o,Name,huk versus cwok,Lacks Schwa,Cardinal Vowels,Forehead,kiing versus kising,Person,nik versus nke,Consonant Simplifications,Dropping Labial Velars,Alveolar Stops,Chair,pori versus kpoi,Dog,webwi versus wegbwi,Deleting Word-final k,Man,sa ka versus seka k,Fricatives,Shift Dorsally,Merging,h,Nose,hwer versus cwer,Eye,hu versus cu,Includes l,Lacking phi,ç,ʝ,tz,Contrast,Include ny,gamma,x,Lack l,Vowel Inventories,Differ Slightly,Gindu Missing,epsilon,schwa,ae,o,o:But Including e:,Align Closely,Broader Zhire Pattern,All Varieties,Five Tones,High,Low,Rising,Falling,Mid",
+    "b": "Nigeria,Plateau Language,Niger-Congo,Atlantic-Congo,Volta-Congo,Benue-Congo,ISO 639-3:zhi,Glottolog:zhir1238,Shang,Relexified,Zhebzhi,Spoken,Subdivided into Wards,Foyour,Gigamse,Kwoyoro,Fevi,Hanziro,Fokyang,Two Major Villages,Hamlets,Friendly,Peaceful,Neighboring Groups,Ancestral Relatives,Farm Rice,Maize,Guinea Corn,Ginger,Yam,Groundnut,Fonio,Acha,Government Healthcare Centre,Private Dispensary,Government Primary Schools,Secondary Schools,Private Secondary School,School Age,Attend Schools,No Literature,Zhire,Sociolinguistic Survey,Central Nigeria,Plateau,Western,Northwestern,Fluent,All Age Groups,Most Domains,Variation,Dialectal Variation,Positive Attitudes,Marker of Identity,EGIDS Level 6a,Sustainability Uncertain,Proficient in Hausa,Limited Proficiency,Neighboring Languages,Younger People,Losing Proficiency,More Proficient,First Language,Homes,Learn Hausa,Home,Use of Hausa,Supported,Schools,Churches,Begin Soon,Shang Wordlists,Related Different Language,Orthography,Collaborative Effort,Language Groups,National Scale,Linguistic Data,Wordlist Collection,GPS Points,Villages,No GPS Data,Latitude 7.924522,Longitude 9.552026,Latitude 7.919512,Longitude 9.545285,Zhapzhi,Shyab-Zhyi,Kanyi,Jabji,Ba-Nyi,Banyi,Speech,Text,Language Documentation,Eleven Villages,Two Main Clusters,Northern Villages,Genye,Southern Villages,Coordinates 7.924522 N,Coordinates 7.919512 N,Historical Records,Mid-19th Century,Early Documented,Seven Distinct Tribes,Converged,Settled,Kagarko Region,Oral Histories,Foundational Clans,Hyam Speakers,Migrated,Diverse Surrounding Regions,Integrated,Cohesive Community,Detailed Accounts,Subgroups,Akote,Kagarko,Koro Wachi Territory,Kabara,Kubacha Areas,Hantziroh,Marsa,Zonkwa,Kaje,Jju,Hyam-affiliated Groups,Kwoi,Fehyi,Njeng,Gyani,Long-term Dwellers,Forested Kenyi Regions,Local Hilly Areas,Nucleus,Others Coalesced,Migration Patterns,Northern Kagarko,Jaba Local Government Area,Hyam Regions,Zonkwa Vicinities,Jju Territories,Clans,Resource-rich Kenyi Landscape,Communal Hunting,Governance,Influx,Predates 19th Century,Earliest External Documentation,Koelle's Polyglotta Africana,Kenyi Villages,Modern Fei,Neighboring Hyam,Settlement Clusters,Northern Kenyi,Southern Kenyi,Inter-clan Interactions,Territorial Claims,Tribal Integration,Cultural,Linguistic Blending,Heterogeneous Backgrounds,We Have Gathered,Amalgamation,Shared Practices,Core Elements,Common Ethnolinguistic Framework,Influences,Creolization,Contributors,Late 20th Century,Stabilized,Population 10000,Growing,Enduring Cohesion,Kenyi Settlements,Ongoing Ties,Marriage,Historical Unity,Distinct Markers,Christian,Farms,Markets,Festivals,Church Activities,Positive Community Attitudes,Preservation,Widely Used,Interethnic Communication,Education,Public Services,Dominates,Formal Schooling,Youth Interactions,Outside Home,No Literacy,Lacks Institutional Support,Digital Resources,Bible Translation Efforts,Begun,Aribi,Common,Neighboring Hyam Communities,Bolstering Local Presence,Surveyed,Northern Market Town,Rural Southern Village,Northern Group,Southern Village,Central,Southern Group,Varieties,High Lexical Similarity,Standard SIL Nigeria Wordlist,Dialect Cluster,Distinct Languages,o versus o,Lower Similarities,Greater Exposure,External Languages,More Divergence,Phonologically,Core Inventory,Minor Innovations,Most Divergent Form,Influenced by Contact,Vowel Raising,o to u,Beard,nzur versus nzor,e for epsilon,Tongue,rem versus rem,u for o,Name,huk versus cwok,Lacks Schwa,Cardinal Vowels,Forehead,kiing versus kising,Person,nik versus nke,Consonant Simplifications,Dropping Labial Velars,Alveolar Stops,Chair,pori versus kpoi,Dog,webwi versus wegbwi,Deleting Word-final k,Man,sa ka versus seka k,Fricatives,Shift Dorsally,Merging,h,Nose,hwer versus cwer,Eye,hu versus cu,Includes l,Lacking phi,ç,ʝ,tz,Contrast,Include ny,gamma,x,Lack l,Vowel Inventories,Differ Slightly,Gindu Missing,epsilon,schwa,ae,o,o:But Including e:,Align Closely,All Varieties,Five Tones,High,Low,Rising,Falling,Mid",
     "status": "COMPLETE"
   },
   {
@@ -326,7 +326,7 @@ window.africaNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Zhoa town,Fungom Subdivision,Menchum Division,Zhoa,Mekaf,Kumfutu,Small Mekaf,Cha a,Biya,Kung,Yemge,Weh,Fungom,Abar,Mundabili,Marshi,Koshin,Fang,Buu,Misong,Mumfu,Ngun,Munken,Aju Mbu,Bafmen,Kuk,Nyos,Ise,Ipalim,Akang,Imo",
+    "b": "Fungom Subdivision,Menchum Division,Zhoa,Mekaf,Kumfutu,Small Mekaf,Cha a,Biya,Kung,Yemge,Weh,Fungom,Abar,Mundabili,Marshi,Koshin,Fang,Buu,Misong,Mumfu,Ngun,Munken,Aju Mbu,Bafmen,Kuk,Nyos,Ise,Ipalim,Akang,Imo",
     "status": "COMPLETE"
   },
   {
@@ -336,7 +336,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0.1,
-    "b": "Haykota,Bisha,Tokombia,Shambuqo,Tessenei,Haikota,Agordat,Akurdet,Western Eritrea,Barea,Nara-Bana,Nilo-Saharan,Eastern Sudanic,Northern Eastern,Recognised Minority Language,Latin Writing System,Four Dialects,Standard Literary Dialect,Mogoreeb,Haykota to Bisha Village,Saantoorta,West of Barentu,Northeast of Barentu,Distantly Related,Endangerment Status,Glottolog,Not Endangered,Tsige Hailemichael,Quickly Disappearing,Rilly 2010,Nara People,Ethnic Group,Southwestern Eritrea,Four Subtribes,Animist,Subsistence Farmers,Sky Heaven,Agrarian,Border with Sudan,North of Kunama,Western Barka Plains,Italian Colonial Rule,Administratively Grouped,Barentu Regional Capital,End to Slave Trade,Formalized Local Administration,British Administration,Conflicts,Federation,Annexation,Ethiopia,Aligned,Eritrean Liberation Front,ELF,Eritrean Independence,Eritrean War of Independence,Gash-Barka Province,Cultural,Linguistic Preservation,Eritrea Ministry of Information,Police Officers,Asmara,Nara Language,Language Isolate,Nilo-Saharan Language Family,Contact,Afroasiatic-speaking Populations,Bilingual,Arabic,No Writing System,Literature,Tigre Writing System,Arabic Writing System,Eritrean People's Liberation Front,Latin Script,Non-Semitic Languages,Social Organisation,Subclan,Hamlets,Lineage System,Patrilineal,Kunama People,Land,Shared,Families,Population Divided,Mogareb,Santora,Animist Beliefs,Egyptian Occupation,Most Nara,Adopted Islam,ISO 639-3:nrb,Glottolog:nara1262,Linguistic Map,Sea-blue Region,West,Spoken,Nearby Towns,Town,North-western Eritrea,South of Agordat,Capital,Town Population,Dominant,Inhabited,Nara Peoples,Religiously,Eritrean Orthodox Tewahedo Church,Roman Catholic Church,Indigenous Kunama,Nara Traditional Beliefs,Education,Elementary,Junior High Schools,High School,Teach in Kunama,Modern Standard Arabic,English",
+    "b": "Haykota,Bisha,Tokombia,Shambuqo,Tessenei,Haikota,Agordat,Akurdet,Western Eritrea,Barea,Nara-Bana,Nilo-Saharan,Eastern Sudanic,Northern Eastern,Recognised Minority Language,Latin Writing System,Four Dialects,Standard Literary Dialect,Mogoreeb,Haykota to Bisha Village,Saantoorta,West of Barentu,Northeast of Barentu,Distantly Related,Endangerment Status,Glottolog,Not Endangered,Tsige Hailemichael,Quickly Disappearing,Rilly 2010,Ethnic Group,Southwestern Eritrea,Four Subtribes,Animist,Subsistence Farmers,Sky Heaven,Agrarian,Border with Sudan,North of Kunama,Western Barka Plains,Italian Colonial Rule,Administratively Grouped,Barentu Regional Capital,End to Slave Trade,Formalized Local Administration,British Administration,Conflicts,Federation,Annexation,Ethiopia,Aligned,Eritrean Liberation Front,ELF,Eritrean Independence,Eritrean War of Independence,Gash-Barka Province,Cultural,Linguistic Preservation,Eritrea Ministry of Information,Police Officers,Asmara,Language Isolate,Nilo-Saharan Language Family,Contact,Afroasiatic-speaking Populations,Bilingual,Arabic,No Writing System,Literature,Tigre Writing System,Arabic Writing System,Eritrean People's Liberation Front,Latin Script,Non-Semitic Languages,Social Organisation,Subclan,Hamlets,Lineage System,Patrilineal,Kunama People,Land,Shared,Families,Population Divided,Mogareb,Santora,Animist Beliefs,Egyptian Occupation,Adopted Islam,ISO 639-3:nrb,Glottolog:nara1262,Linguistic Map,Sea-blue Region,West,Spoken,Nearby Towns,Town,North-western Eritrea,South of Agordat,Capital,Town Population,Dominant,Inhabited,Religiously,Eritrean Orthodox Tewahedo Church,Roman Catholic Church,Indigenous Kunama,Education,Elementary,Junior High Schools,High School,Teach in Kunama,Modern Standard Arabic,English",
     "status": "COMPLETE"
   },
   {
@@ -366,8 +366,8 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Gathuk,Gandok,Garong,Nuba Hills,South Kordofan,Sudan,Saraf Aj-Jaamous,Moro Hills,Janub Kurdufan,Eastern Acheron,Western Acheron,Talodi,Niger-Congo,Severely Endangered,Acheron People,Nuba Mountains,Sunni Islam,Garme,Asheron,Aceron,Achurun,Um Sirdiba,Kologoi,Angulo,Tullushi",
-    "status": "COMPLETE"
+    "b": "Gathuk,Gandok,Garong,Nuba Hills,South Kordofan,Sudan,Saraf Aj-Jaamous,Moro Hills,Janub Kurdufan,Talodi,Niger-Congo,Severely Endangered,Nuba Mountains,Sunni Islam,Garme,Asheron,Aceron,Achurun,Um Sirdiba,Kologoi,Angulo,Tullushi",
+    "status": "WAITING"
   },
   {
     "name": "Adara",
@@ -386,7 +386,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0.1,
-    "b": "Wum,Modele,Kumfutu,Weh,Zhoa,Cha,Nyos,Yemgeh,Ipalim,Kung,Bafumeng,Bu,Isu,Mmen,Bafmen,Bafmeng,Bafoumeng,Mme,Fungom Subdivision,Menchum Division,Northwest Province,Cameroon,North West Region,Menchum Valley,Menchum/Fungom Plateau,Lake Nyos,Beba,Esimbi,Widikum,Mamfe,Mezang,De,Bameta,Bafut,Mubadji,Bazi,Benakuma,Benahundi,Meta,Abaton,Batomo,Okoromenjang,Mukuru,Aghem Native Court,Beba-Befang Court,Esimbi Court,Weh Court,Fungom Court,Aghem Court,Aghem Language Development Committee,Kom,Nso,Oku,Elak,Kumbo,Tiv,Tikar,Ndiwum,Munshi,Nigeria,Grassfields,Bantu,Niger-Congo,Atlantic-Congo,Benue-Congo,Southern Bantoid,Wide Grassfields,Narrow Grassfields,Ring,Center,West Ring,Aghem Group,ALCAM 810,ALCAM 821,BFM,AGQ",
+    "b": "Wum,Modele,Kumfutu,Weh,Zhoa,Cha,Nyos,Yemgeh,Ipalim,Kung,Bafumeng,Bu,Isu,Mmen,Bafmen,Bafmeng,Bafoumeng,Mme,Fungom Subdivision,Menchum Division,Northwest Province,Cameroon,North West Region,Menchum Valley,Menchum/Fungom Plateau,Lake Nyos,Beba,Esimbi,Widikum,Mamfe,Mezang,De,Bameta,Bafut,Mubadji,Bazi,Benakuma,Benahundi,Meta,Abaton,Batomo,Okoromenjang,Mukuru,Beba-Befang Court,Esimbi Court,Weh Court,Fungom Court,Kom,Nso,Oku,Elak,Kumbo,Tiv,Tikar,Ndiwum,Munshi,Nigeria,Grassfields,Bantu,Niger-Congo,Atlantic-Congo,Benue-Congo,Southern Bantoid,Wide Grassfields,Narrow Grassfields,Ring,Center,West Ring,ALCAM 810,ALCAM 821,BFM,AGQ",
     "status": "COMPLETE"
   },
   {
@@ -406,7 +406,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Wadi Fira,Goz Beida,Abeche,Abdi,Bir Kedde,Magrane,Koundoul,Gurda,Woda'a,Fafa,Abu Daza,Ouaddai Region,Darfur,Kordofan,Abu Daza District,North of Biltine,Nilo-Saharan,Fur,Amdang Branch,simi amdangti,Mimi,Mima,Mimi of Nachtigal,Mimi of Decorse,Extinct Languages,Ouadi Fira Region,Sub-prefecture of Biltine,Department of Biltine,Goz Beïda,Adré,Ouaddaï Region,N'Djaména,Larger Amdang Communities,Language Homogeneous,Slight Pronunciation Differences,Ten Villages,Northeast,Mimi Hadjer Canton,Lexical Differences,Minimal Differences,Hinder Communication,Everyday Life,Villages,Replaced by Arabic,Urban Settings,Interethnic Communication,High Proficiency,FSI Scale,Level 4 or 5,Monolingual Amdang,Low Level Chadian Arabic,Literacy Programs,Preference,Arabic Script,French,Learning,Research Permission,SIL Chad,Sociolinguistic Survey,Ministry of Higher Education,Scientific Research,DPLN,Promotion of National Languages,Interviews,Groups,Individuals,Representative Villages,Wordlists,Analysis,Call Themselves Amdang,Traditional Home Area,Northeast Chad,Region of Wadi Fira,Wadi Fira Province,Capital,Major Settlements,Departments,Dar Tama,Kobé,Sub-prefectures,Arada,Kolonga,Sirim Birke,Tiné Djagaraba,Demographics,Main Ethnolinguistic Groups,Amdang,Baggara,Maba,Mararit,Tama,Zaghawa,ISO 639-3:amj,Glottolog:amda1238,ELP:Amdang,Stable Indigenous Language,Nilo-Saharan Language Family,First Language,Ethnic Community,Not Taught,Schools",
+    "b": "Wadi Fira,Goz Beida,Abeche,Abdi,Bir Kedde,Magrane,Koundoul,Gurda,Woda'a,Fafa,Abu Daza,Ouaddai Region,Darfur,Kordofan,Abu Daza District,North of Biltine,Nilo-Saharan,Fur,Mimi,Mima,Mimi of Nachtigal,Mimi of Decorse,Extinct Languages,Ouadi Fira Region,Sub-prefecture of Biltine,Department of Biltine,Goz Beïda,Adré,Ouaddaï Region,N'Djaména,Language Homogeneous,Slight Pronunciation Differences,Ten Villages,Northeast,Mimi Hadjer Canton,Lexical Differences,Minimal Differences,Hinder Communication,Everyday Life,Villages,Replaced by Arabic,Urban Settings,Interethnic Communication,High Proficiency,FSI Scale,Level 4 or 5,Low Level Chadian Arabic,Literacy Programs,Preference,Arabic Script,French,Learning,Research Permission,SIL Chad,Sociolinguistic Survey,Ministry of Higher Education,Scientific Research,DPLN,Promotion of National Languages,Interviews,Groups,Individuals,Representative Villages,Wordlists,Analysis,Traditional Home Area,Northeast Chad,Region of Wadi Fira,Wadi Fira Province,Capital,Major Settlements,Departments,Dar Tama,Kobé,Sub-prefectures,Arada,Kolonga,Sirim Birke,Tiné Djagaraba,Demographics,Main Ethnolinguistic Groups,Amdang,Baggara,Maba,Mararit,Tama,Zaghawa,ISO 639-3:amj,Glottolog:amda1238,ELP:Amdang,Stable Indigenous Language,Nilo-Saharan Language Family,First Language,Ethnic Community,Not Taught,Schools",
     "status": "COMPLETE"
   },
   {
@@ -436,7 +436,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Makary,Logone-Birni,Mara,Fotokol,Maroua,Maiduguri,Ngala,Waza,Mayo-Danay,Chadic,Biu-Mandara,Kotoko,B.1,North,Afaɗə,ISO 639-3:aal,Glottolog:afad1236,Unknown Nigeria Speakers,Indigenous Kotoko People,Ngala LGA,No Known Dialects,Southern Part of Makari Commune,Centered on Town of Afade,Extending into Logone-Birni,Logone-et-Chari Department,Spoken Mainly in Nigeria,Afade Village,Logone-Et-Chari,Far North,Central Africa,Africa,Glèm,Fota,Lagwan Kotoko People,Northern Cameroon,South of Lake Chad,West,Eight Kotoko Languages,Ethnically Kotoko,Latin Script Writing System,Developed,Not Currently in Use,Traditional Rulers,Sultans,Smaller Regions,Blamas,Town of Afade,Hub,Surrounding Villages,Larger Cities,Chad,Traditionally Fishermen,Farmers,Seasonal Rivers,Irrigate Fields,Difficult Access,Rainy Season,June-September,Wealth,Cattle,Population 8600 Cameroon,Indigenous,Progress Scale,GSEC 1,PeopleGroups.org,Pioneer Workers Needed,ROP3 Code,Ethnologue 2016,Primary Language,Ethnologue Language Code,aal,Ethnologue Language Family,Glottolog Language Family,Written,Published,Unknown,Total Languages 1,Afade Canton,Commune de Makary,Departement du Logone-et-Chari,Region de l'Extrême-Nord,Proximité,Frontière,Afadé Damia,Afadé Fitiné,Afadé Sao,Afadé Saré Sultan,Afadé Silmao,Recensement 2005,Canton,Langue Tchadique,Groupe Kotoko,Menacée de Disparition,H. Elingui,Tjeega,Centre Géographique National,Fernand,eri,Dari:Région de l'Ext,Kotoko Principality,Department of Logone-et-Chari,Province of Extrême-Nord,Vol d'oiseau,Sud-ouest,N'Djaména,Enclose,Muraille,Quatre Mètres Épaisseur,Base,Hauteur,Six Mètres,Chef de Canton,Juridiction,Autres Villages Kotoko,Établissements Arabes,Environs,Difficile,Dire,Population Totale,Zone,Sécheresses Récurrentes,Dégradation Paysages,Kotoko Afadé,Revendiquent,Héritiers,Voisins Occidentaux,Sao,Exterminés,XVIesiècle,Idris Alawma,Allégeance,Suzeraineté,Sans Résistance,Conversion,Islam,Cités Kotoko,Riveraines,Résistèrent,Certaines,Sallièrent,Baguirmi,Tribut,Islamisation,Tardive,Population Actuelle,Maïs,Mabre,Résultats Variables,Régime Pluies,Pression Ravageurs,Chenilles,Criquets,Sorgho Pluvial,Sorgho Rouge,Mere,Makary Town,West Africa,Right Bank,Distributary,Chari River,Delta,Lake Chad,People Known As Kotoko,Local Language,Mpade,Fulani,Fulfulde,Trade Language,Primary Economic Activity,Fishing,History,Changes,Rulers,Religion,Culture,Uninterrupted Continuation,Original Sao Culture,Biamo,Goura",
+    "b": "Makary,Logone-Birni,Mara,Fotokol,Maroua,Maiduguri,Ngala,Waza,Mayo-Danay,Chadic,Biu-Mandara,Kotoko,B.1,North,Afaɗə,ISO 639-3:aal,Glottolog:afad1236,Unknown Nigeria Speakers,Indigenous Kotoko People,Ngala LGA,No Known Dialects,Southern Part of Makari Commune,Extending into Logone-Birni,Logone-et-Chari Department,Spoken Mainly in Nigeria,Logone-Et-Chari,Far North,Central Africa,Africa,Glèm,Fota,Lagwan Kotoko People,Northern Cameroon,South of Lake Chad,West,Eight Kotoko Languages,Ethnically Kotoko,Latin Script Writing System,Developed,Not Currently in Use,Traditional Rulers,Sultans,Smaller Regions,Blamas,Hub,Surrounding Villages,Larger Cities,Chad,Traditionally Fishermen,Farmers,Seasonal Rivers,Irrigate Fields,Difficult Access,Rainy Season,June-September,Wealth,Cattle,Population 8600 Cameroon,Indigenous,Progress Scale,GSEC 1,PeopleGroups.org,Pioneer Workers Needed,ROP3 Code,Ethnologue 2016,Primary Language,Ethnologue Language Code,aal,Ethnologue Language Family,Glottolog Language Family,Written,Published,Unknown,Total Languages 1,Commune de Makary,Departement du Logone-et-Chari,Region de l'Extrême-Nord,Proximité,Frontière,Afadé Damia,Afadé Fitiné,Afadé Sao,Afadé Saré Sultan,Afadé Silmao,Recensement 2005,Canton,Langue Tchadique,Groupe Kotoko,Menacée de Disparition,H. Elingui,Tjeega,Centre Géographique National,Fernand,eri,Dari:Région de l'Ext,Kotoko Principality,Department of Logone-et-Chari,Province of Extrême-Nord,Vol d'oiseau,Sud-ouest,N'Djaména,Enclose,Muraille,Quatre Mètres Épaisseur,Base,Hauteur,Six Mètres,Chef de Canton,Juridiction,Autres Villages Kotoko,Établissements Arabes,Environs,Difficile,Dire,Population Totale,Zone,Sécheresses Récurrentes,Dégradation Paysages,Kotoko Afadé,Revendiquent,Héritiers,Voisins Occidentaux,Sao,Exterminés,XVIesiècle,Idris Alawma,Allégeance,Suzeraineté,Sans Résistance,Conversion,Islam,Cités Kotoko,Riveraines,Résistèrent,Certaines,Sallièrent,Baguirmi,Tribut,Islamisation,Tardive,Population Actuelle,Maïs,Mabre,Résultats Variables,Régime Pluies,Pression Ravageurs,Chenilles,Criquets,Sorgho Pluvial,Sorgho Rouge,Mere,Makary Town,West Africa,Right Bank,Distributary,Chari River,Delta,Lake Chad,People Known As Kotoko,Local Language,Mpade,Fulani,Fulfulde,Trade Language,Primary Economic Activity,Fishing,History,Changes,Rulers,Religion,Culture,Uninterrupted Continuation,Original Sao Culture,Biamo,Goura",
     "status": "COMPLETE"
   },
   {
@@ -446,7 +446,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Asayta,Logiya,Mille,Awash,Gewane,Chifra,Bure Mudaytu,Gulina,Yalo,Abala,Dubti,Obock,Tadjoura,Dikhil,Ali Sabieh,Yoboki,Damerjog,Holhol,Arta,Galafi,Dorra,Loyada,Aysaqiita,Aussa,Awsa,Afambo,Elidar,Awsi Rasu,Administrative Zone 1,Gabi Rasu,Hari Rasu,Amhara Region,Fanti Rasu,Kilbet Rasu,Mille River,Logiya River,Gargori,Laitali,Gummare,Bario,Lake Abbe,Lake Abhe Bad,Awash–Asseb Highway,Capital,New Capital,Planned Settlement,Salt Lakes,Lake Gummare,Flamingos,Final Destination,Qafar af,Cushitic,East,Lowland,Saho-Afar,ISO 639-1:aa,ISO 639-2:aar,ISO 639-3:aar,Glottolog:afar1241,Latin Script,Official Language,National Language,Radio Television of Djibouti,Broadcasting Languages,National Radio,Translated Constitution,Eritrean Constitution,Education,Second Language,Language of Instruction,Official Working Language,Since 2020,Five Official Working Languages,Ge'ez Script,Ethiopic Script,Arabic Script,Transcribed,Afar People,Danakil,Adali,Odali,Cushitic Ethnic Group,Northern Djibouti,Southern Coast,Afar Language,Mother Tongue,East Cushitic,Traditional Territories,Red Sea,Gulf of Aden,Pastoralists,Herd Livestock,Cross-border Community,Estimated 1.3 Million,Sunni Muslim,Clan System,Sultan of Afar,Remote,Harsh,Extreme Temperatures,Minimal Access,Water,Marginalized,Government,Basic Services,Inter-clan Conflict,Independent Eritrea,Border Conflict,Rebel Groups,Afar Liberation Front,Ali Mirah Anfere,Independent Islamic State,Awash River Basin,Neighbouring Territories,Southern Eritrea,Mengistu,Autonomous Province,Fertile Land,Awash Valley,Amhara Control,Afar Democratic Union,Alternative,EPRDF,Border War,Afar Revolutionary Democratic Union,Afar People's Democratic Organization,Unwillingness,Divided,State Boundaries,Caught in the Middle",
+    "b": "Asayta,Logiya,Mille,Awash,Gewane,Chifra,Bure Mudaytu,Gulina,Yalo,Abala,Dubti,Obock,Tadjoura,Dikhil,Ali Sabieh,Yoboki,Damerjog,Holhol,Arta,Galafi,Dorra,Loyada,Aysaqiita,Aussa,Awsa,Afambo,Elidar,Awsi Rasu,Administrative Zone 1,Gabi Rasu,Hari Rasu,Amhara Region,Fanti Rasu,Kilbet Rasu,Mille River,Logiya River,Gargori,Laitali,Gummare,Bario,Lake Abbe,Lake Abhe Bad,Awash–Asseb Highway,Capital,New Capital,Planned Settlement,Salt Lakes,Lake Gummare,Flamingos,Final Destination,Cushitic,East,Lowland,Saho-Afar,ISO 639-1:aa,ISO 639-2:aar,ISO 639-3:aar,Glottolog:afar1241,Latin Script,Official Language,National Language,Radio Television of Djibouti,Broadcasting Languages,National Radio,Translated Constitution,Eritrean Constitution,Education,Second Language,Language of Instruction,Official Working Language,Since 2020,Five Official Working Languages,Ge'ez Script,Ethiopic Script,Arabic Script,Transcribed,Danakil,Adali,Odali,Cushitic Ethnic Group,Northern Djibouti,Southern Coast,Mother Tongue,East Cushitic,Traditional Territories,Red Sea,Gulf of Aden,Pastoralists,Herd Livestock,Cross-border Community,Estimated 1.3 Million,Sunni Muslim,Clan System,Remote,Harsh,Extreme Temperatures,Minimal Access,Water,Marginalized,Government,Basic Services,Inter-clan Conflict,Independent Eritrea,Border Conflict,Rebel Groups,Ali Mirah Anfere,Independent Islamic State,Awash River Basin,Neighbouring Territories,Southern Eritrea,Mengistu,Autonomous Province,Fertile Land,Awash Valley,Amhara Control,Alternative,EPRDF,Border War,Unwillingness,Divided,State Boundaries,Caught in the Middle",
     "status": "COMPLETE"
   },
   {
@@ -466,7 +466,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Bure village,Bure West,Jakkul,Bure East,Tudun Wada,Bure hill,Kilo,Kirfi District,Kirfi Local Government Area,Bauchi State,Nigeria,Bubbure,Hausa,Fulfulde,Gera,Giiwo,Deno,Bole-Tangale,Chadic,Afro-Asiatic,Gongola River Area,Bole,Karekare,Sarki,Emir,Ma Bure,No Bure,Buba,Bade,Bade-Nguru Wetlands,Kirfi,Bauchi,Jos Plateau,Mubi,Yola,Gombe,Maiduguri,Darazo,Ningi,Tafawa Balewa,Alkaleri",
+    "b": "Jakkul,Tudun Wada,Kilo,Kirfi District,Kirfi Local Government Area,Bauchi State,Nigeria,Bubbure,Hausa,Fulfulde,Gera,Giiwo,Deno,Bole-Tangale,Chadic,Afro-Asiatic,Gongola River Area,Bole,Karekare,Sarki,Emir,Buba,Bade,Bade-Nguru Wetlands,Kirfi,Bauchi,Jos Plateau,Mubi,Yola,Gombe,Maiduguri,Darazo,Ningi,Tafawa Balewa,Alkaleri",
     "status": "COMPLETE"
   },
   {
@@ -476,7 +476,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0.1,
-    "b": "Kortchi,Mokolo,Mora,Koza,Meri,Bourrha,Kalfou,Limani,Kolofata,Tokombere,Kerawa,Ziver,Hitawa,Bourha,Maroua,Gazawa,Fotokol,Far North Province,Mayo-Tsanaga Division,Mokolo Subdivision,Canton Matakam-South,Matakam-South,Cuvok,Mafa,Mefele,Daba,Hina,Mina,Gavar,Gawar,Gavar-Fulfulde,Mse Mountain,Mandara Mountains,Cameroon,Bual,Ma Buwal",
+    "b": "Kortchi,Mokolo,Mora,Koza,Meri,Bourrha,Kalfou,Limani,Kolofata,Tokombere,Kerawa,Ziver,Hitawa,Bourha,Maroua,Gazawa,Fotokol,Far North Province,Mayo-Tsanaga Division,Mokolo Subdivision,Canton Matakam-South,Matakam-South,Cuvok,Mafa,Mefele,Daba,Hina,Mina,Gavar,Gawar,Gavar-Fulfulde,Mse Mountain,Mandara Mountains,Cameroon,Bual",
     "status": "COMPLETE"
   },
   {
@@ -536,7 +536,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Abinsi,Lokoja,Makurdi,Ibi,Numa,Jimetu,Mayo,Narewa,Tella,Sheka,Nwonyo,Argungu,Benue River,Niger River,Kwararafa Kingdom,Gongola Hawal,Upper Benue Basin,Lake Chad,Wukari,Gassol LGA,Wuryo,Uka,Wurbo,Jukun Awannu,Jukun Wapan,Kororofa,Jukunoid,Benue-Congo,Niger-Congo,Atlantic-Congo,Makurdi LGA,Iharev District,Abinsi Town,Benue State,Nasarawa State,Riverine Communities,Fishing,Farming,Canoe Construction,Yams,Millet,Maize,Extended Families,Compound Living,Harvest Festivals,River Cycle Festivals,Music,Dance,Storytelling,Cultural Values,Kwararafa Capital,Sudanic State,Gongola,Yola Arms,Middle Benue Region,Lower Benue Region,Banani,Baada,Non-riverine Jukun,Abakwariga,Weaving,Dyeing,Blacksmithing,Canoes,Koh,Water Transportation,Goods,Passengers,Tributaries",
+    "b": "Abinsi,Lokoja,Makurdi,Ibi,Numa,Jimetu,Mayo,Narewa,Tella,Sheka,Nwonyo,Argungu,Benue River,Niger River,Kwararafa Kingdom,Gongola Hawal,Upper Benue Basin,Lake Chad,Wukari,Gassol LGA,Wuryo,Uka,Wurbo,Jukun Wapan,Kororofa,Jukunoid,Benue-Congo,Niger-Congo,Atlantic-Congo,Makurdi LGA,Iharev District,Abinsi Town,Benue State,Nasarawa State,Riverine Communities,Fishing,Farming,Canoe Construction,Yams,Millet,Maize,Extended Families,Compound Living,Harvest Festivals,River Cycle Festivals,Music,Dance,Storytelling,Cultural Values,Kwararafa Capital,Sudanic State,Gongola,Yola Arms,Middle Benue Region,Lower Benue Region,Banani,Baada,Non-riverine Jukun,Abakwariga,Weaving,Dyeing,Blacksmithing,Canoes,Koh,Water Transportation,Goods,Passengers,Tributaries",
     "status": "COMPLETE"
   },
   {
@@ -656,7 +656,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Oncócua,Chitado,Cahama,Opuwo,Okangwati,Epupa,Ruacana,Sesfontein,Soba,Moimba,Kunene Province,South Angola,Goat Herders,Cattle,Black Himba,Himba Herds,Social Submission,Traditional Doctors,Artisans,Maize,Millet,Rain-fed Crops,Clan-based Tribal Structure,Eldest Male,Rectangular Wooden Houses,Thatched Roofs,Hinged Door,Stick,Wooden Fence,Entrance,Exit Door,Dimba Neighbors,Bantu Language,Havakona,Hakawona,Niger-Congo,Atlantic-Congo,Benue-Congo,Southern Bantoid,Bantu,Kavango-Southwest,Southwest Bantu,Anita Pfouts,Dialect,Maho,Northwest Herero,Zimba,Muhakaona,Mucawama,Indigenous,Aboriginal,Nomadic,Agriculturalist,Remote,Villages,Oncocua Town,Isolated,Deserts,Mountains,Ethnic Individuality,Culture,Seclusion,Herero Language,Similar,Hairdo,Cow Dung,Fat,Herbs,Fragrance,Kapapo Headdress,Waste Materials,Little Girls,Two Braids,Forehead,Little Boys,One Braid,Behind Head,Child,Single Braid,Twins,Pubescent Girls,Long Dreadlocks,Own Hair,Brothers,Sisters,Near Towns,Merchants,Hair Extensions,India,Bodies,Otijze,Ash,Butter,Black-Copper Colour,Beauty Symbol,Lower Teeth,Removed,Stone,Married Muhakaona Men,Bandana,Wooden Pillow,Leather Cushion,Comfort,Kaokoveld,Mountainous Northwest Corner,Cunene River Basin,Bantu-speaking Pastoralist Peoples,Otjize,Red Ochre Paste,Photographed People,OvaHimba,Mobile Pastoralism,South Africa,Colonial Border,Tjimba,International Boundary,Mucubai,Southwest Angola,Namibe Province,Huila Province,Cattle Herders,Ompota Headdress,Geometric Body Ornament,Herero-related Pastoralist Groups,Angolan Drylands,Hairstyle,Adornment Grammar,Nyaneka,Agropastoral People,Huila Plateau,Nyaneka-Nkhumbi Language,Culturally Adjacent,Herero-kin Proper,Victorian-derived Otjikaiva Dress,Horn-shaped Headdress,German Colonial Period,Visual Signature,Diverged,Angolan Civil War,Closed Region,Outside Researchers,Photographers,Public Familiarity,Lopsided,Globally Recognized,Angolan Herero-kin,Thinly Documented,Accessible Reference Sources,Shared Descent,Economy,Adornment Logic,Sibling Links,Angolan Border,Entries,Striking Case,Single People,Victorian-dress Herero,Southern Africa Region Hub,Semi-nomadic People,Southern Angola,Closely Related,Language,Customs,Small Circular Villages,Onganda,Mud Wood Huts,Elaborate Hairstyles,Reddish Clay,Ghee,Beauty,Sun Protection,Livestock,Crops,Deep Connection,Ancestors,Nature,Remote Borderlands,Southwestern Angola,Namibian Frontier,Kaokoland Cultural Continuum,Related Groups,Cattle-herding Societies,Seasonal Movements,Grazing Conditions,Water Availability,Livestock Defines,Wealth,Identity,Social Structure,Basketry,Beadwork,Leather Craftsmanship,Trade,Traditional Healing Knowledge,Herbalists,Ritual Specialists,Plant Medicine,Inherited Knowledge,Generations,Appearance,Cultural Meaning,Hairstyles,Sculpted,Distinctive Forms,Animal Fat,Oils,Clay,Plant Resins,Braiding,Extensions,Leather Adornments,Jewelry,Age,Marital Status,Life Stages,Dark Leather Headpiece,Exclusively,Unmarried Girls,Young Women,Visible Symbol,Marriage,Adulthood,Community,Donkeys,Water Containers,Ordinary Moment,Open,Relaxed,Dancing,Laughing,Camping,Socializing,Games,Observing,Talking,Photographs,Natural Experience,Encounters,Distance,Curiosity,Both Sides,Disappear,Trust,Develops,Briefly,Visitor,Passing Through,Rhythm,Small Moment,Someone Else's World,Quim Fàbregas,Fotografía y Viajes",
+    "b": "Oncócua,Chitado,Cahama,Opuwo,Okangwati,Epupa,Ruacana,Sesfontein,Soba,Moimba,Kunene Province,South Angola,Goat Herders,Cattle,Black Himba,Himba Herds,Social Submission,Traditional Doctors,Artisans,Maize,Millet,Rain-fed Crops,Clan-based Tribal Structure,Eldest Male,Rectangular Wooden Houses,Thatched Roofs,Hinged Door,Stick,Wooden Fence,Entrance,Exit Door,Dimba Neighbors,Bantu Language,Havakona,Hakawona,Niger-Congo,Atlantic-Congo,Benue-Congo,Southern Bantoid,Bantu,Kavango-Southwest,Southwest Bantu,Anita Pfouts,Dialect,Maho,Northwest Herero,Zimba,Muhakaona,Mucawama,Indigenous,Aboriginal,Nomadic,Agriculturalist,Remote,Villages,Oncocua Town,Isolated,Deserts,Mountains,Ethnic Individuality,Culture,Seclusion,Herero Language,Similar,Hairdo,Cow Dung,Fat,Herbs,Fragrance,Kapapo Headdress,Waste Materials,Little Girls,Two Braids,Forehead,Little Boys,One Braid,Behind Head,Child,Single Braid,Twins,Pubescent Girls,Long Dreadlocks,Own Hair,Brothers,Sisters,Near Towns,Merchants,Hair Extensions,India,Bodies,Otijze,Ash,Butter,Black-Copper Colour,Beauty Symbol,Lower Teeth,Removed,Stone,Bandana,Wooden Pillow,Leather Cushion,Comfort,Kaokoveld,Mountainous Northwest Corner,Cunene River Basin,Bantu-speaking Pastoralist Peoples,Otjize,Red Ochre Paste,Photographed People,OvaHimba,Mobile Pastoralism,South Africa,Colonial Border,Tjimba,International Boundary,Mucubai,Southwest Angola,Namibe Province,Huila Province,Cattle Herders,Ompota Headdress,Geometric Body Ornament,Herero-related Pastoralist Groups,Angolan Drylands,Hairstyle,Adornment Grammar,Nyaneka,Agropastoral People,Huila Plateau,Nyaneka-Nkhumbi Language,Culturally Adjacent,Herero-kin Proper,Victorian-derived Otjikaiva Dress,Horn-shaped Headdress,German Colonial Period,Visual Signature,Diverged,Angolan Civil War,Closed Region,Outside Researchers,Photographers,Public Familiarity,Lopsided,Globally Recognized,Angolan Herero-kin,Thinly Documented,Accessible Reference Sources,Shared Descent,Economy,Adornment Logic,Sibling Links,Angolan Border,Entries,Striking Case,Single People,Victorian-dress Herero,Southern Africa Region Hub,Semi-nomadic People,Southern Angola,Closely Related,Language,Customs,Small Circular Villages,Onganda,Mud Wood Huts,Elaborate Hairstyles,Reddish Clay,Ghee,Beauty,Sun Protection,Livestock,Crops,Deep Connection,Ancestors,Nature,Remote Borderlands,Southwestern Angola,Namibian Frontier,Kaokoland Cultural Continuum,Related Groups,Cattle-herding Societies,Seasonal Movements,Grazing Conditions,Water Availability,Livestock Defines,Wealth,Identity,Social Structure,Basketry,Beadwork,Leather Craftsmanship,Trade,Traditional Healing Knowledge,Herbalists,Ritual Specialists,Plant Medicine,Inherited Knowledge,Generations,Appearance,Cultural Meaning,Hairstyles,Sculpted,Distinctive Forms,Animal Fat,Oils,Clay,Plant Resins,Braiding,Extensions,Leather Adornments,Jewelry,Age,Marital Status,Life Stages,Dark Leather Headpiece,Exclusively,Unmarried Girls,Young Women,Visible Symbol,Marriage,Adulthood,Community,Donkeys,Water Containers,Ordinary Moment,Open,Relaxed,Dancing,Laughing,Camping,Socializing,Games,Observing,Talking,Photographs,Natural Experience,Encounters,Distance,Curiosity,Both Sides,Disappear,Trust,Develops,Briefly,Visitor,Passing Through,Rhythm,Small Moment,Someone Else's World,Quim Fàbregas,Fotografía y Viajes",
     "status": "COMPLETE"
   },
   {
@@ -666,7 +666,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Damongo,Bowena,Yazori,Langantere,Murugu,Larabanga,Busunu,Mole Game Reserve,Savannah Region,Northern Region,West Gonja Municipal District,Dagombe District,Bole,Bouna,Salaga,Yendi,Kamara,Northern Hanga,Southern Hanga,Mole National Park,Ghana,Sawla,Kalpohin,Tuna,Kulmasa,Wasipe,Sompani,Grupe,Boromoa",
+    "b": "Damongo,Bowena,Yazori,Langantere,Murugu,Larabanga,Busunu,Mole Game Reserve,Savannah Region,Northern Region,West Gonja Municipal District,Dagombe District,Bole,Bouna,Salaga,Yendi,Kamara,Mole National Park,Ghana,Sawla,Kalpohin,Tuna,Kulmasa,Wasipe,Sompani,Grupe,Boromoa",
     "status": "COMPLETE"
   },
   {
@@ -686,7 +686,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Néguéni,Banfora,Léraba,Loumana,Mali,Cascades Region,Ouara,Ouala,Samba,Gur Language,Dialects,Negueni-Klani,Ouatourou-Niasogoni,Soulani,Negueni,Mutual Intelligibility,Difficulty,Extreme Southwest Burkina Faso,Loumana Department,Leraba Province,Mali Border,Route,Pluriel,Small Territory,Isolated,Ecart,Palɛni,Différent,Niger-Congolese Family,Ethnologue 2005,Classification,Naden 1989,Gur Centrales,Oti-voltaïques,Closely Related,Two Main Dialects,North Dialect,South Dialect,Esquisse,Parler,Langue à Part,Courte Description Générale,Winkelmann 2007,Recherches,Classes Nominiales,Samue,Années Trente,Tauxier 1939,Recherche Anthropologique,Recueilli,Liste,Publications,Enquête Sociolinguistique,Non-publiée,Sawadogo 1997/2006,Travaux Linguistiques,Détaillés,Inexistent,Terrain,Collection,Février 2010,Recherche,Base,Recueillis,Monomorphemiques,Suffixes,Classe,Majorité,Personne,Liste Réduite,Dix Locuteurs,Enregistrée,Textes,Plusieurs Personnes,Phonologie,Phonèmes Consonantiques,Tableau,Endangered Languages Project,Context 30025,Countries,Comoé Province,Location Description,West of Banfora,Near Town,Formerly,Samwe Speakers,Settled,Rocky Hills,Dominating,Plain,Lerbara,Nowadays,Left,Hills,Government Support,Wara Language,Central Gur,Oti-Volta,Eastern Berba,Mbelime,Tammari,Waama,Western Birifor,Dagbani,Frafra,Hanga,Kamara,Kantosi,Kusasi,Mamprusi,Mooré,Nabit,Notre,Safaliba,Talni,Wali,Gurma,Konkomba,Moba,Nateni,Ngangam,Ntcham,Buli,Konni,Nawdm,Yom,Bwamu Bomu,Eastern,Bago-Kusuntu,Chala,Delo,Kabiyé,Lama,Lukpa,Tem,Kalamsé,Lyélé,Nuni,Pana,Western,Chakali,Deg,Paasaal,Phuie,Sisaala,Tamprusi,Vagla,Winye,Koromfe,Turka,Lobi,Dyan,Dogoso,Khe,Minyanka,Sucite,Supyire,Central,Cebaara,Kar,Nyarafolo,Kpalaga,Senara,Syer-Tenyer,Southern,Djimini,Nafanan,Tagwana,Lomakka,Téén,Bariba,Tiefo,Tusya,Vyemo,Yobe,Indigenous Languages,Mande,Bissa,Bobo,Ula,Kpee,Marka,Birifor,Bomu,Buamu,Karaboro,er-Tenyer,Samwe,Fula,Hausa,Humburi Senni,Siamou,Tamasheq,Western Plains,Dogon,Immigrant Languages,English,French,Punjabi,Spanish,German,Italian,Hindi,Hebrew,Arabic,Chinese,Portuguese,Japanese,Russian,Danish,Dutch",
+    "b": "Néguéni,Banfora,Léraba,Loumana,Mali,Cascades Region,Ouara,Ouala,Samba,Gur Language,Dialects,Negueni-Klani,Ouatourou-Niasogoni,Soulani,Negueni,Mutual Intelligibility,Difficulty,Extreme Southwest Burkina Faso,Loumana Department,Leraba Province,Mali Border,Route,Pluriel,Small Territory,Isolated,Ecart,Palɛni,Différent,Niger-Congolese Family,Ethnologue 2005,Classification,Naden 1989,Gur Centrales,Oti-voltaïques,Closely Related,Two Main Dialects,North Dialect,South Dialect,Esquisse,Parler,Langue à Part,Courte Description Générale,Winkelmann 2007,Recherches,Classes Nominiales,Samue,Années Trente,Tauxier 1939,Recherche Anthropologique,Recueilli,Liste,Publications,Enquête Sociolinguistique,Non-publiée,Sawadogo 1997/2006,Travaux Linguistiques,Détaillés,Inexistent,Terrain,Collection,Février 2010,Recherche,Base,Recueillis,Monomorphemiques,Suffixes,Classe,Majorité,Personne,Liste Réduite,Dix Locuteurs,Enregistrée,Textes,Plusieurs Personnes,Phonologie,Phonèmes Consonantiques,Tableau,Endangered Languages Project,Context 30025,Countries,Comoé Province,Location Description,West of Banfora,Near Town,Formerly,Settled,Rocky Hills,Dominating,Plain,Lerbara,Nowadays,Left,Hills,Government Support,Wara Language,Central Gur,Oti-Volta,Eastern Berba,Mbelime,Tammari,Waama,Western Birifor,Dagbani,Frafra,Hanga,Kamara,Kantosi,Kusasi,Mamprusi,Mooré,Nabit,Notre,Safaliba,Talni,Wali,Gurma,Konkomba,Moba,Nateni,Ngangam,Ntcham,Buli,Konni,Nawdm,Yom,Bwamu Bomu,Eastern,Bago-Kusuntu,Chala,Delo,Kabiyé,Lama,Lukpa,Tem,Kalamsé,Lyélé,Nuni,Pana,Western,Chakali,Deg,Paasaal,Phuie,Sisaala,Tamprusi,Vagla,Winye,Koromfe,Turka,Lobi,Dyan,Dogoso,Khe,Minyanka,Sucite,Supyire,Central,Cebaara,Kar,Nyarafolo,Kpalaga,Senara,Syer-Tenyer,Southern,Djimini,Nafanan,Tagwana,Lomakka,Téén,Bariba,Tiefo,Tusya,Vyemo,Yobe,Indigenous Languages,Mande,Bissa,Bobo,Ula,Kpee,Marka,Birifor,Bomu,Buamu,Karaboro,er-Tenyer,Samwe,Fula,Hausa,Humburi Senni,Siamou,Tamasheq,Western Plains,Dogon,Immigrant Languages,English,French,Punjabi,Spanish,German,Italian,Hindi,Hebrew,Arabic,Chinese,Portuguese,Japanese,Russian,Danish,Dutch",
     "status": "COMPLETE"
   },
   {
@@ -696,7 +696,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Otoro,Heiban,Shabun,Cerumba,Ndano,Shirumba,Shuway,Ludumor,Nuba Hills,Kordofanian,Talodi-Heiban,Heiban West-Central,Critically Endangered,UNESCO Atlas,World Languages in Danger,Janub Kurdufan State,Ethnologue 2016,ISO 639-3:shw,Glottolog:shwa1239,ELP:Shwai,First Language,Adults,Ethnic Community,Young People,Not Taught,Schools,Sudan Notes and Records,MacDiarmid 1931,Languages of the Nuba Mountains,Dalami,Kadugli,State Capital,Active War Zone,Koalib Language,Umm Heitan People,Muslim,Small Ethnic Group,Arid Regions,Kordofan,Generations,Resilience,Harsh Desert Environment,Unique Way of Life,Language,Customs,External Pressures,Conflicts,Encroachment,Modernity,Pastoralism,Camels,Goats,Sheep,Nomadic Lifestyle,Constant Movement,Water,Grazing Land,Daily Routines,Social Structures,Traditional Tents,Animal Hides,Portable,Shelter,Tight-knit Community,Strong Familial Bonds,Deep Sense,Mutual Support,Sub-Saharan Peoples,People Cluster,Nguqwurang Dialect,Umm Berumbita,Turum,Ngunduna Dialect,Koalib Hills Area,Nginyukwur,Nyukwur,Hadra,Ngirere,Abri Area,Villages Scattered,Plain,Koalib,ISO 639-3:kib,Glottolog:Heibanic,Primary Dialect,Dialect Code,Written,Published,ScriptSource Listing,Shwai Ethnic Group,Speak Shwai,Niger-Congo Language,Origin,Live Near,Otoro People,Shwai of Sudan,Indigenous People,Nuba Mountains People Cluster,Sub-Saharan African Peoples Affinity Bloc,Primary Language,Primary Religion,Sunni Islam,Population,Strategic Progress Index,SPI,Global Status of Evangelical Christianity,GSEC,Less than 2% Evangelical,No Recent CP Activity,People Group ID,PG012138,Joshua Project,Language Family,Heibanic",
+    "b": "Otoro,Heiban,Shabun,Cerumba,Ndano,Shirumba,Shuway,Ludumor,Nuba Hills,Kordofanian,Talodi-Heiban,Heiban West-Central,Critically Endangered,UNESCO Atlas,World Languages in Danger,Janub Kurdufan State,Ethnologue 2016,ISO 639-3:shw,Glottolog:shwa1239,ELP:Shwai,First Language,Adults,Ethnic Community,Young People,Not Taught,Schools,Sudan Notes and Records,MacDiarmid 1931,Languages of the Nuba Mountains,Dalami,Kadugli,State Capital,Active War Zone,Koalib Language,Umm Heitan People,Muslim,Small Ethnic Group,Arid Regions,Kordofan,Generations,Resilience,Harsh Desert Environment,Unique Way of Life,Language,Customs,External Pressures,Conflicts,Encroachment,Modernity,Pastoralism,Camels,Goats,Sheep,Nomadic Lifestyle,Constant Movement,Water,Grazing Land,Daily Routines,Social Structures,Traditional Tents,Animal Hides,Portable,Shelter,Tight-knit Community,Strong Familial Bonds,Deep Sense,Mutual Support,Sub-Saharan Peoples,People Cluster,Nguqwurang Dialect,Umm Berumbita,Turum,Ngunduna Dialect,Koalib Hills Area,Nginyukwur,Nyukwur,Hadra,Ngirere,Abri Area,Villages Scattered,Plain,Koalib,ISO 639-3:kib,Glottolog:Heibanic,Primary Dialect,Dialect Code,Written,Published,ScriptSource Listing,Niger-Congo Language,Origin,Live Near,Otoro People,Indigenous People,Nuba Mountains People Cluster,Sub-Saharan African Peoples Affinity Bloc,Primary Language,Primary Religion,Sunni Islam,Population,Strategic Progress Index,SPI,Global Status of Evangelical Christianity,GSEC,Less than 2% Evangelical,No Recent CP Activity,People Group ID,PG012138,Joshua Project,Language Family,Heibanic",
     "status": "COMPLETE"
   },
   {
@@ -806,7 +806,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Shewa Robit,Berket,Metehara,Yimlawo,Gusa,Wärk-Amba,Särbädin,Ğänno,Essoyyä Hijirota,Ğonkä,Färäja,Mägäräjja,Ğolaha,Aliyu Amba-Ankober,Shonke-T'allaha,Gachene,Rasa,Rasa kâbâlé,Sânbâté,Fiqi Debes,Ataye,Timuga,Wereabu,Yifat,Timuga Province,Awraja,Shoa,Governorate General,Mata Qore,Mudhii Akambaaloo,Kara Qore,Qomboro,Qomboro Washa Mujahid,Kemisse,Sànbâté,Sanbâté,Border Market Town,ArÇume,Jilé Wàràda,Jilé Timuga Wereabu,Oromigna,Afarigna,Trist,Lingual,Semi-Sedentary,Muslim,Neighbours,Raided,Djibouti-Addis Ababa Railway,Early 20th Century,Trade Routes,Marginalizing,Isolating,Commercial Posts,Erosion,Walashma Authority,Argobba Regional Economy,State Taxation,Christian Amhara Settlers,Highlands,Kingdom of Shewa,Late 17th,Negus Sahle Selassie,Successors,Incorporated,Shewan Kingdom,Nassir,Ankober Wäräda,Sub-ṭabia,Chief Town,Border,Region 2,Afar National Region,Ancient Town,Climate,Woyna Dega,Ankober Mountain Chain,Hilly Town,Depression,Marketplace,Three Entrances,Exits,Fort Town,Abdul Resul Village,Founder,Arab,Nassir Changed,Founded Before Aliyu Amba,Gachene Kabàlé,Descends,Afar Plains,Hot Side,Surrounded,Angus Hager,Wachu,Western Edge,Accessible,Car,Monolithic Tombstone,Seal of Solomon,Ph 3,Stone-working,Skill,Patterns,Ph 4,Historical Site,Guba,Mother,Edge,Argobba Villages,Upper,Pastureland,Old Days,Furthest Down,Local Elders,Settlement,Fort,One Entrance,One Exit,Watchmen,Ancient Days,Mule Track,Dug,Laid,Stone,Forest,Area,Walking,Exit,Rasa Kabàlé,Flat Plain,Middle Awash,Gewane,Uphill Climb,Village,Height,Highest Mountain,Military Significance,Control,Surrounding Area,Easier,Access,One Point,Two Stepped Mountain,Higher,Cemeteries,Artistic Workmanship,Chief Difference,Mosques,Summits,Areas,Condition,Peace,Elsewhere,Moslems,Older People,Speak Language,Younger Generation,Argobba Speakers,Market Section,Preliminary Description,Wolf Leslau,Investigation,Outlines,Getahun Amare,Argobba Language Learners,Administrative Regions,Amhara,Oromiya,Argobba People,Language Status,Elderly Semi-Speakers,Stable Bilingualism,Language Endangered,Language Needs,Speech Community,Language Pedagogy,Component,Language Revitalization,Grammar Studies,Grammatical Items,Learnable,Teachable,Study Outlines,Phonology,Morphology,Syntax,Pedagogical Orientation,Contribution,Pedagogically Sound,Learning/Teaching Materials,Paves Way,Detailed,Graded,Pedagogical Grammar Work,Two-fold,Pedagogical,Sub Family,Some Linguists,Bender,Fulas,Zelealem,Leslau,Dialect,Contrary,Wetter,Getahun,Independent,Sister Language,Heavily Influenced,Neighboring Languages,Afaan Oromo,Getahun 2017a,Regional Varieties,Researchers,Consensus,Name,Number,Getahun 2009,Two Varieties,Conversely,Three Distinctive Varieties,Ankober-K'awat,Berehet-Minjar,Dawa Ch'affa,Girma 2015,Four Varieties,Shonke-Tollaha,Inconsistent Findings,Further Exhaustive Research,Dialects,Fluent Argobba Speakers,Gacheni Independent Personal Pronouns,Attempts,Sketch Out,Classified,Subfamily,Some Claim,Arabs,Opposed,Earlier Studies,Dialect Amharic,Recent Research,Confirmed,Independent Language,Sister,Ousman Shafi Awol,Day-to-Day Communication,Argobba Zone,Central Statistical Agency 2008:59,Linguistic Features,Well Described,Escarpment Slopes,Northeastern Shewa,Southeastern Wollo,Minority,Adjoining Settlements,Eastern Ethiopia,Plants,Breeding Animals,Islam,Influences,Culture,Living Style,Society,Central Aim,Paper,Comprehensive Description,Features,Descriptive,Nature,Primary Linguistic Data,Elicited Grammatical Data,Five Kebeles,Administrative Center,Noun Self,Meaning,Reduplicated Form,Self With Self,Reflexive Pronouns,Formed,Combining Self,Possessive Suffixes,Comitative Morpheme,Intersects,Reduplicated Noun Self,Plural Possessive Suffixes,Language,People,Place,Argobbas Live,Aklilu 2000:174,Tesfaye 2000:196-197,Stitz 1973:188,Identified Contextually,Central Statistical Agency Ethiopia CSA,Muslim People,North-Eastern Mountainous Part,Amhara Regional State,Argobba Special Woreda,North Eastern Shewa,Oromiya Region,East West Hararge Zones,City Harar,Northern Southern Argobba,Southern Argobbas,Northern Argobbas,Two Roads,Travel North,Either Side,Rift Valley,Town Kemise,Sorghum,Millet,Maize,Pulse,Wheat,Barley,Coffee,Chat,Tobacco,Cotton,Cash Crops,Profession,Stone Buildings,Resemble Harar,Rectangular Shape,Flat Roofs,Length,Stitz 1973:189,Scholars Differ,Some Say,Rural Harari,Ways of Life,Changed,City Dwellers,Recent Arrivals,Tesfaye 2000:197,Three Versions,First Second,Arabia: BeniUmayya,Son of Umeyya,Descendants,First Muslim Asylum Seekers,Prophet Mohammed,Third Version,Not Immigrants,Accept Islam,Early,Religious Leaders,Weekes 1984:49-53,Three Hypotheses,First Oral Tradition,BeniUmayya,Arabiya,Second Hypothesis,Fortunate Wolasma Dynasty,South,Conquered Muslim States,Shewa,Established Sultanate,Ifat,Ifat Defeated,Christian Kings,Dawit I Yishaq,Wolasmas Retreated,Etymologically Arabic,Justice Maker,Impartial Ruler,Sultanate,Capital,Near Harar,Last Hypothesis,Northern Southern Argobba Communities,Two Major Historical Events,Imam Ahmed Ibrahim al-Ghazi,Ahmed Gragn,Defeat,End,Weekes 1984:51,Second Last Hypotheses,Similar Idea,Aklilu 2000,First Version,Writes,Related,Aksumite Empire,South Past Angot,Nomadic People,Awash Valley,South-Eastern Shewa,Aklilu 2000:175,Tribe,First,Embrace Islam,Came,Called Argobba,Ahmed 1999 E.C:13,First Islamic Territory,Argobbas Built,Abyssinian Geez Word gǝbǝr,Means,Servants of God,Righteous Religious People,Interact Easily,Live,Harmony,Other Communities,Further Research,Verify,Same Tribe,Denote Different References,Ahmed 1999 E.C:9-11,Fieldwork,Interview,Elders,Community,Makhzumite Dynasty,Islamic Sultanate,Shawa,Meccan Clan,Ahmed 1999:175,Idris 1999:11,Classification,Argobba Languages,Similar,Bender Hetzron 1976:29,Hetzron 1972,Sub-Branch,Language Phylum,Sub-branch,Transversal South Ethiopic,Outer South Ethiopic,Former,Further Divided,Central East Gurage,Categorized,Central-Transversal-South Ethiopic,Subgroup,Meyer 2011:1222,Amharic Argobba Language Group,Transversal South-Ethio Semitic,Division,Language Group,Further Divides,Two Major Typological Groups,Amharic Argobba Group versus Eastern Gurage Harari Group,Amharic Argobba Group,Amharic Argobba Languages,Eastern Gurage Harari Group,Harari Eastern Guarage Languages,Eastern Guarage,Further Subdivided,Three Branches,Silt'e Wolane Zay Languages,Met'ek'leya,AbuleArada,Awash Fentale Woreda,Hussein 2006:423,Girma 2003 E.C:10,Dewwa Ch'effa Woreda,North Shewa Zone,Ankober Woreda,AliyyuAmba,Afre,K'ewot Woreda,Goze,Wank'ar,Berehet Woreda,Mett'ehBila,Hussein 2006:434,Two Dialects,Shonke Dialect,Oromiya Special Zone,Gachinne Dialect,Aliyyu Amba,North Shewa,ISO 639-3:agj,Glottolog:argo1239,WALS:Argb",
+    "b": "Shewa Robit,Berket,Metehara,Yimlawo,Gusa,Wärk-Amba,Särbädin,Ğänno,Essoyyä Hijirota,Ğonkä,Färäja,Mägäräjja,Ğolaha,Aliyu Amba-Ankober,Shonke-T'allaha,Gachene,Rasa,Rasa kâbâlé,Sânbâté,Fiqi Debes,Ataye,Timuga,Wereabu,Yifat,Timuga Province,Awraja,Shoa,Governorate General,Mata Qore,Mudhii Akambaaloo,Kara Qore,Qomboro,Qomboro Washa Mujahid,Kemisse,Sànbâté,Sanbâté,Border Market Town,ArÇume,Jilé Wàràda,Jilé Timuga Wereabu,Oromigna,Afarigna,Trist,Lingual,Semi-Sedentary,Muslim,Neighbours,Raided,Djibouti-Addis Ababa Railway,Early 20th Century,Trade Routes,Marginalizing,Isolating,Commercial Posts,Erosion,Walashma Authority,State Taxation,Christian Amhara Settlers,Highlands,Kingdom of Shewa,Late 17th,Negus Sahle Selassie,Successors,Incorporated,Shewan Kingdom,Nassir,Ankober Wäräda,Sub-ṭabia,Chief Town,Border,Region 2,Afar National Region,Ancient Town,Climate,Woyna Dega,Ankober Mountain Chain,Hilly Town,Depression,Marketplace,Three Entrances,Exits,Fort Town,Abdul Resul Village,Founder,Arab,Nassir Changed,Founded Before Aliyu Amba,Gachene Kabàlé,Descends,Afar Plains,Hot Side,Surrounded,Angus Hager,Wachu,Western Edge,Accessible,Car,Monolithic Tombstone,Seal of Solomon,Ph 3,Stone-working,Skill,Patterns,Ph 4,Historical Site,Guba,Mother,Edge,Upper,Pastureland,Old Days,Furthest Down,Local Elders,Settlement,Fort,One Entrance,One Exit,Watchmen,Ancient Days,Mule Track,Dug,Laid,Stone,Forest,Area,Walking,Exit,Rasa Kabàlé,Flat Plain,Middle Awash,Gewane,Uphill Climb,Village,Height,Highest Mountain,Military Significance,Control,Surrounding Area,Easier,Access,One Point,Two Stepped Mountain,Higher,Cemeteries,Artistic Workmanship,Chief Difference,Mosques,Summits,Areas,Condition,Peace,Elsewhere,Moslems,Older People,Speak Language,Younger Generation,Market Section,Preliminary Description,Wolf Leslau,Investigation,Outlines,Getahun Amare,Administrative Regions,Amhara,Oromiya,Language Status,Elderly Semi-Speakers,Stable Bilingualism,Language Endangered,Language Needs,Speech Community,Language Pedagogy,Component,Language Revitalization,Grammar Studies,Grammatical Items,Learnable,Teachable,Study Outlines,Phonology,Morphology,Syntax,Pedagogical Orientation,Contribution,Pedagogically Sound,Learning/Teaching Materials,Paves Way,Detailed,Graded,Pedagogical Grammar Work,Two-fold,Pedagogical,Sub Family,Some Linguists,Bender,Fulas,Zelealem,Leslau,Dialect,Contrary,Wetter,Getahun,Independent,Sister Language,Heavily Influenced,Neighboring Languages,Afaan Oromo,Getahun 2017a,Regional Varieties,Researchers,Consensus,Name,Number,Getahun 2009,Two Varieties,Conversely,Three Distinctive Varieties,Ankober-K'awat,Berehet-Minjar,Dawa Ch'affa,Girma 2015,Four Varieties,Shonke-Tollaha,Inconsistent Findings,Further Exhaustive Research,Dialects,Gacheni Independent Personal Pronouns,Attempts,Sketch Out,Classified,Subfamily,Some Claim,Arabs,Opposed,Earlier Studies,Dialect Amharic,Recent Research,Confirmed,Independent Language,Sister,Ousman Shafi Awol,Day-to-Day Communication,Central Statistical Agency 2008:59,Linguistic Features,Well Described,Escarpment Slopes,Northeastern Shewa,Southeastern Wollo,Minority,Adjoining Settlements,Eastern Ethiopia,Plants,Breeding Animals,Islam,Influences,Culture,Living Style,Society,Central Aim,Paper,Comprehensive Description,Features,Descriptive,Nature,Primary Linguistic Data,Elicited Grammatical Data,Five Kebeles,Administrative Center,Noun Self,Meaning,Reduplicated Form,Self With Self,Reflexive Pronouns,Formed,Combining Self,Possessive Suffixes,Comitative Morpheme,Intersects,Reduplicated Noun Self,Plural Possessive Suffixes,Language,People,Place,Aklilu 2000:174,Tesfaye 2000:196-197,Stitz 1973:188,Identified Contextually,Central Statistical Agency Ethiopia CSA,Muslim People,North-Eastern Mountainous Part,Amhara Regional State,North Eastern Shewa,Oromiya Region,East West Hararge Zones,City Harar,Two Roads,Travel North,Either Side,Rift Valley,Town Kemise,Sorghum,Millet,Maize,Pulse,Wheat,Barley,Coffee,Chat,Tobacco,Cotton,Cash Crops,Profession,Stone Buildings,Resemble Harar,Rectangular Shape,Flat Roofs,Length,Stitz 1973:189,Scholars Differ,Some Say,Rural Harari,Ways of Life,Changed,City Dwellers,Recent Arrivals,Tesfaye 2000:197,Three Versions,First Second,Arabia: BeniUmayya,Son of Umeyya,Descendants,First Muslim Asylum Seekers,Prophet Mohammed,Third Version,Not Immigrants,Accept Islam,Early,Religious Leaders,Weekes 1984:49-53,Three Hypotheses,First Oral Tradition,BeniUmayya,Arabiya,Second Hypothesis,Fortunate Wolasma Dynasty,South,Conquered Muslim States,Shewa,Established Sultanate,Ifat,Ifat Defeated,Christian Kings,Dawit I Yishaq,Wolasmas Retreated,Etymologically Arabic,Justice Maker,Impartial Ruler,Sultanate,Capital,Near Harar,Last Hypothesis,Two Major Historical Events,Imam Ahmed Ibrahim al-Ghazi,Ahmed Gragn,Defeat,End,Weekes 1984:51,Second Last Hypotheses,Similar Idea,Aklilu 2000,First Version,Writes,Related,Aksumite Empire,South Past Angot,Nomadic People,Awash Valley,South-Eastern Shewa,Aklilu 2000:175,Tribe,First,Embrace Islam,Came,Ahmed 1999 E.C:13,First Islamic Territory,Abyssinian Geez Word gǝbǝr,Means,Servants of God,Righteous Religious People,Interact Easily,Live,Harmony,Other Communities,Further Research,Verify,Same Tribe,Denote Different References,Ahmed 1999 E.C:9-11,Fieldwork,Interview,Elders,Community,Makhzumite Dynasty,Islamic Sultanate,Shawa,Meccan Clan,Ahmed 1999:175,Idris 1999:11,Classification,Similar,Bender Hetzron 1976:29,Hetzron 1972,Sub-Branch,Language Phylum,Sub-branch,Transversal South Ethiopic,Outer South Ethiopic,Former,Further Divided,Central East Gurage,Categorized,Central-Transversal-South Ethiopic,Subgroup,Meyer 2011:1222,Transversal South-Ethio Semitic,Division,Language Group,Further Divides,Two Major Typological Groups,Eastern Gurage Harari Group,Harari Eastern Guarage Languages,Eastern Guarage,Further Subdivided,Three Branches,Silt'e Wolane Zay Languages,Met'ek'leya,AbuleArada,Awash Fentale Woreda,Hussein 2006:423,Girma 2003 E.C:10,Dewwa Ch'effa Woreda,North Shewa Zone,Ankober Woreda,AliyyuAmba,Afre,K'ewot Woreda,Goze,Wank'ar,Berehet Woreda,Mett'ehBila,Hussein 2006:434,Two Dialects,Shonke Dialect,Oromiya Special Zone,Gachinne Dialect,Aliyyu Amba,North Shewa,ISO 639-3:agj,Glottolog:argo1239,WALS:Argb",
     "status": "COMPLETE"
   },
   {
@@ -906,7 +906,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Kutu,Oshwe,Bokoro,Semendua,Vanga,Kikwit,Idiofa,Kwamouth,Bolobo,Yumbi,Kiri,Cuvette centrale congolaise,Congo River Basin,Lukenie River,Kamtsha River,Kwilu Province,West-Coastal Bantu,Kinshasa,Kwango River,Kwilu River,Kasai Rivers,Biboko Island,King Leopold II,Rubber Plantations,Ivory Resources,Continued,Leopold II,Patronage,Rubber,Ivory,Phonetic Phonological Research,Mai-Ndombe,Transition Zone,Moist Broadleaf Rainforest,Shrubland,Savannah,Least Well-surveyed Areas,Planet,Bantu Varieties,Guthrie Zones B,C,H,West-Coastal Bantu Homeland,Hot Spot,Phonological Diversity,Hunter-gatherer Twa Communities,Eastern,Northern Forests,Severely Endangered,Social Stigma,National,Regional Linguae Francae,Doctoral Project,Phonetic Data,May,July 2021,Provincial Capital,Multilingual City,Unofficial Economic Capital,Second Most Multilingual City,Recording Conditions,Sub-optimal,Preliminary Analysis,OSF Link,Sound Files,Spectrograms,Oscillograms,March 2024,Labial-velars,Trilling/Flapping Realisations,Phonetic Phonological Variation,Earlier Stages,Greater Linguistic Diversity,Phonetic Possibilities,Language-bound Outcomes,Traditional Sound Change Rules,Language Contact,Highly Multilingual Contexts,Documentation,Description,Bantu Lects,Southern Mai-Ndombe,ISO 639-3:skt,Glottocode:saka1287,Sakata People,Indigenous,WCB,Bantu Phylogeny,Grollemund 2015,Pacchiarotti 2019,Koile 2022,Continuum,Closely Related Varieties,Mutual Intelligibility,Regiolects,Kinzinzale,Tolo,Mongobele,Kilima,Matabisi 1979,Tylleskär 1987,Bontenge 1995,Bokwankon Bosonkie 1997,WCB Varieties,B82,B822,Maho 2009,Glottocode:boma1251,ISO 639-3:boh,Hammarström 2022,Boma Yumu,Bantu B80z,Conflating,Two Different Languages,Stappers 1986,Outline,Bobala,Mbali,Eboli,Recent Research,Maselli n.d.a.,Linguistic Classification,Niger-Congo,Atlantic-Congo,Volta-Congo,Benue-Congo,Bantoid,Southern Bantoid,Bantu,Zone C,C.34,Glottolog:saka1287,Lesa,Odual,Saka,Sakata,Congo,Democratic Republic of the Congo,CD,Estimated 300,AES 6a,Vigorous Status,Stable Indigenous Language,Home,Community,Cultural Contexts,Lacks Institutional Support,Formal Education,Official Recognition,Tropical Semi-humid,Savannahs,Gallery Forests,Isosceles Triangle,Length,Width,Seven Autonomous Chiefdoms,Idju,Mbantin,Lenvia Nord,Batere,Lenvia-Sud,Nduele,Average 4,Clustered Near Lakes,Rivers,Non-mobile,Sedentary Patterns,Territorial Boundaries,Kin-related Compounds,Schools,Dispensaries,Tropical Semi-humid Climate,Annual Precipitation,Slash-and-burn Agriculture,Cassava,Maize,Yams,Beans,Plantains,Peanuts,Oil Palm,Rice,Extensive Fishing,Riverine Transportation,Dugout Canoes,Agricultural Coordination,Fishing Expeditions,Men,Communal Rituals,Land Fertility,Harvests,Dialects,Bantu C34 Group,C34A,Wadia,Kidjia,C34B,Kibay,Kibai,C34C,Ketu,Batow Subgroups,C34D,Core Varieties,Dialect Continuum,Divergence,Lexicon,Phonology,Regional Identities,Geographically,Central Variety,Northern,Central Areas,South of Lake,Southern Adjacent Zones,Distribution,Local River Systems,Mfimi-Lukenie Complex,Phonological Isogloss,Northern Varieties,Variable Southern Ones,Socially,Kenkare,Village Communities,Kinship-based Identities,Exogamous Practices,Chiefdoms,No Standardized Dialect,Speakers,General Autonym,Language as a Whole,Tuku Dialect,Particularly Associated,Batow Subgroup,Localized Clan Affiliations,Southern Villages,Origins,Proto-Bantu,Ancestral Language,Bantu Family,Cameroon-Nigeria Border Region,West-Central Africa,Northwest Bantu Branch,Emerged,Migrations,Southwestern DRC,Savanna Corridors,Congo Rainforest,Early Settlements,Mai-Ndombe Province Area,Linguistic Diversification,Proto-Bantu Forms,Core Bantu Noun Class Systems,Regional Innovations,kp,gb,Atypical,Core Bantu Phonology,Historical Coarticulation,Assimilation Processes,Velar Stops,k,g,Labial Elements,Bantu Comparative Studies,Early Contacts,Non-Bantu Languages,Macro-Sudan Belt Linguistic Area,Northwest Bantu Dispersals,Double Articulations,Common,Remnants,Greater Phonological Diversity,Region's Prehistory,Pre-colonial Written Records,Oral Myths,Document,Sakata Earlier Stages,European Contact,Inferred,Comparative Bantu Linguistics,First External Documentation,Colonial Era,French Baptist Missionaries,Late 19th,Early 20th Century,Encountered Sakata Speakers,Western DRC,Rudimentary Linguistic Recordings,Evangelization Efforts,Limited Lexical Influences,Trade Pidgins,Belgian,French Colonial Traders,Core Structure,Stable,Relative Isolation,Lukenie-Kasai Interfluve Region",
+    "b": "Kutu,Oshwe,Bokoro,Semendua,Vanga,Kikwit,Idiofa,Kwamouth,Bolobo,Yumbi,Kiri,Cuvette centrale congolaise,Congo River Basin,Lukenie River,Kamtsha River,Kwilu Province,West-Coastal Bantu,Kinshasa,Kwango River,Kwilu River,Kasai Rivers,Biboko Island,King Leopold II,Rubber Plantations,Ivory Resources,Continued,Leopold II,Patronage,Rubber,Ivory,Phonetic Phonological Research,Mai-Ndombe,Transition Zone,Moist Broadleaf Rainforest,Shrubland,Savannah,Least Well-surveyed Areas,Planet,Bantu Varieties,Guthrie Zones B,C,H,West-Coastal Bantu Homeland,Hot Spot,Phonological Diversity,Hunter-gatherer Twa Communities,Eastern,Northern Forests,Severely Endangered,Social Stigma,National,Regional Linguae Francae,Doctoral Project,Phonetic Data,May,July 2021,Provincial Capital,Multilingual City,Unofficial Economic Capital,Second Most Multilingual City,Recording Conditions,Sub-optimal,Preliminary Analysis,OSF Link,Sound Files,Spectrograms,Oscillograms,March 2024,Labial-velars,Trilling/Flapping Realisations,Phonetic Phonological Variation,Earlier Stages,Greater Linguistic Diversity,Phonetic Possibilities,Language-bound Outcomes,Traditional Sound Change Rules,Language Contact,Highly Multilingual Contexts,Documentation,Description,Bantu Lects,Southern Mai-Ndombe,ISO 639-3:skt,Glottocode:saka1287,Indigenous,WCB,Bantu Phylogeny,Grollemund 2015,Pacchiarotti 2019,Koile 2022,Continuum,Closely Related Varieties,Mutual Intelligibility,Regiolects,Kinzinzale,Tolo,Mongobele,Kilima,Matabisi 1979,Tylleskär 1987,Bontenge 1995,Bokwankon Bosonkie 1997,WCB Varieties,B82,B822,Maho 2009,Glottocode:boma1251,ISO 639-3:boh,Hammarström 2022,Boma Yumu,Bantu B80z,Conflating,Two Different Languages,Stappers 1986,Outline,Bobala,Mbali,Eboli,Recent Research,Maselli n.d.a.,Linguistic Classification,Niger-Congo,Atlantic-Congo,Volta-Congo,Benue-Congo,Bantoid,Southern Bantoid,Bantu,Zone C,C.34,Glottolog:saka1287,Lesa,Odual,Saka,Sakata,Congo,Democratic Republic of the Congo,CD,Estimated 300,AES 6a,Vigorous Status,Stable Indigenous Language,Home,Community,Cultural Contexts,Lacks Institutional Support,Formal Education,Official Recognition,Tropical Semi-humid,Savannahs,Gallery Forests,Isosceles Triangle,Length,Width,Seven Autonomous Chiefdoms,Idju,Mbantin,Lenvia Nord,Batere,Lenvia-Sud,Nduele,Average 4,Clustered Near Lakes,Rivers,Non-mobile,Sedentary Patterns,Territorial Boundaries,Kin-related Compounds,Schools,Dispensaries,Tropical Semi-humid Climate,Annual Precipitation,Slash-and-burn Agriculture,Cassava,Maize,Yams,Beans,Plantains,Peanuts,Oil Palm,Rice,Extensive Fishing,Riverine Transportation,Dugout Canoes,Agricultural Coordination,Fishing Expeditions,Men,Communal Rituals,Land Fertility,Harvests,Dialects,Bantu C34 Group,C34A,Wadia,Kidjia,C34B,Kibay,Kibai,C34C,Ketu,Batow Subgroups,C34D,Core Varieties,Dialect Continuum,Divergence,Lexicon,Phonology,Regional Identities,Geographically,Central Variety,Northern,Central Areas,South of Lake,Southern Adjacent Zones,Distribution,Local River Systems,Mfimi-Lukenie Complex,Phonological Isogloss,Northern Varieties,Variable Southern Ones,Socially,Kenkare,Village Communities,Kinship-based Identities,Exogamous Practices,Chiefdoms,No Standardized Dialect,Speakers,General Autonym,Language as a Whole,Tuku Dialect,Particularly Associated,Batow Subgroup,Localized Clan Affiliations,Southern Villages,Origins,Proto-Bantu,Ancestral Language,Bantu Family,Cameroon-Nigeria Border Region,West-Central Africa,Northwest Bantu Branch,Emerged,Migrations,Southwestern DRC,Savanna Corridors,Congo Rainforest,Early Settlements,Mai-Ndombe Province Area,Linguistic Diversification,Proto-Bantu Forms,Core Bantu Noun Class Systems,Regional Innovations,kp,gb,Atypical,Core Bantu Phonology,Historical Coarticulation,Assimilation Processes,Velar Stops,k,g,Labial Elements,Bantu Comparative Studies,Early Contacts,Non-Bantu Languages,Macro-Sudan Belt Linguistic Area,Northwest Bantu Dispersals,Double Articulations,Common,Remnants,Greater Phonological Diversity,Region's Prehistory,Pre-colonial Written Records,Oral Myths,Document,European Contact,Inferred,Comparative Bantu Linguistics,First External Documentation,Colonial Era,French Baptist Missionaries,Late 19th,Early 20th Century,Western DRC,Rudimentary Linguistic Recordings,Evangelization Efforts,Limited Lexical Influences,Trade Pidgins,Belgian,French Colonial Traders,Core Structure,Stable,Relative Isolation,Lukenie-Kasai Interfluve Region",
     "status": "COMPLETE"
   },
   {
@@ -996,7 +996,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Durame,Angacha,Shinshicho,Hadero,Damboya,Doyogena,Marre,Holeta,Kedida,Omo Sheleko,Kacha Bira,Wacha,Shishinda,Garbo,Danot,Alduba,Durame Town,Angacha Woreda,Hadero Tunto,Tambaro,Alaba,K'abeena,Xambaaro,T'ambaaro,Timbaro,Kambaata-Tembaro Zone,Central Ethiopia Regional State,Southern Nations,Nationalities,Peoples Region",
+    "b": "Durame,Angacha,Shinshicho,Hadero,Damboya,Doyogena,Marre,Holeta,Kedida,Omo Sheleko,Kacha Bira,Wacha,Shishinda,Garbo,Danot,Alduba,Durame Town,Angacha Woreda,Hadero Tunto,Tambaro,Alaba,K'abeena,Xambaaro,T'ambaaro,Timbaro,Central Ethiopia Regional State,Southern Nations,Nationalities,Peoples Region",
     "status": "COMPLETE"
   },
   {
@@ -1016,7 +1016,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Wulu,Rumbek,Mvolo,Lakes State,Western Equatoria,Bahr Gel,Billing,Bogri,Woko,Bahr Girindi,Yirol,Maridi,Mundri West,Mundri East,Central Equatoria,Terekeka,Wulu County,Mvolo County,Rumbek East County,Yirol West County,Juba,Central African Republic,Sopi,Bahri Girinti,Wulu Dialect,Jur Beli,Jur Modo,Bongo,Morokodo,Mo'da,Baka,Nyamusa,Nilo-Saharan,Central Sudanic,Bongo-Baka Group,Sudanic",
+    "b": "Wulu,Rumbek,Mvolo,Lakes State,Western Equatoria,Bahr Gel,Billing,Bogri,Woko,Bahr Girindi,Yirol,Maridi,Mundri West,Mundri East,Central Equatoria,Terekeka,Wulu County,Mvolo County,Rumbek East County,Yirol West County,Juba,Central African Republic,Sopi,Bahri Girinti,Wulu Dialect,Jur Modo,Bongo,Morokodo,Mo'da,Baka,Nyamusa,Nilo-Saharan,Central Sudanic,Bongo-Baka Group,Sudanic",
     "status": "COMPLETE"
   },
   {
@@ -1036,7 +1036,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Bal,Bibal,Mayo Beli,Kerke,Kamkam,Magu,Somie,Sonkolong,Atta,Ndiba,Gembu,Mverep,Bon,Barr,Tep,San,Yamba,Warwar,Vokkude,Tamnya,Mbamnga,Mambasa,Lolwa,Komanda,Democratic Republic of Congo,Mbuti Pygmies,West Bila,kiBila,Forest Bira,Bira,Zone D.20-30,Kango-Sua,Dialects,Bombi-Ngbanja,Nyaku,Ibutu,ISO 639-3:bip,kzy,Glottolog:bila1255,kang1285,belu1239,Guthrie Code:D.211,Mambasa Territory,Ituri Province,Northeast DRC,Stable Indigenous Language,Niger-Congo,Atlantic-Congo,Benue-Congo,Bantoid,First Language,Ethnic Community,Not Taught,Schools,Written,Published,ScriptSource Listing,Total Languages 1,Pygmy Groups,West,Other Mbuti,Languages,Distinct Dialects,Southern,Mutual Intelligibility,Farming,Bila Patrons,L'Apare,Stream,Affluent,Ituri,Bantous Babali,Route,Bafwasende,Bomili,Pygmées,Sédentaires,Documentation,Basua,Bango wa mugwase,Author Prefers,Substitute,Appellations,Own Names,Balioli,Belueli,Sing Dioy,Vice-versa,Bango,Sing Mwango,Four Populations,Each,Babudu,Western Edge,Aka,Mangbetu,Northwest,Efe,Widely Distributed,Eastern Portions,Walese,Hunt,Gather,Meat,Honey,Forest Resources,Consumption,Trade,Farming Villages,Food Crops,Cloth,Ironware,Salt,Material,Hunting,Bows,Arrows,Small Game,Spears,Large Game,Nets,Village Agriculturalists,Shifting Slash-and-Burn Farmers,Bantu Languages,Sub-Saharan Africa,Ndaka,Farming Village,Small,Patriclan,Houses,Saplings,Plastered,Mud,Leaf-Thatch Roofs",
+    "b": "Bal,Bibal,Mayo Beli,Kerke,Kamkam,Magu,Somie,Sonkolong,Atta,Ndiba,Gembu,Mverep,Bon,Barr,Tep,San,Yamba,Warwar,Vokkude,Tamnya,Mbamnga,Mambasa,Lolwa,Komanda,Democratic Republic of Congo,Mbuti Pygmies,kiBila,Forest Bira,Bira,Zone D.20-30,Kango-Sua,Dialects,Bombi-Ngbanja,Nyaku,Ibutu,ISO 639-3:bip,kzy,Glottolog:bila1255,kang1285,belu1239,Guthrie Code:D.211,Mambasa Territory,Ituri Province,Northeast DRC,Stable Indigenous Language,Niger-Congo,Atlantic-Congo,Benue-Congo,Bantoid,First Language,Ethnic Community,Not Taught,Schools,Written,Published,ScriptSource Listing,Total Languages 1,Pygmy Groups,West,Other Mbuti,Languages,Distinct Dialects,Southern,Mutual Intelligibility,Farming,L'Apare,Stream,Affluent,Ituri,Bantous Babali,Route,Bafwasende,Bomili,Pygmées,Sédentaires,Documentation,Basua,Bango wa mugwase,Author Prefers,Substitute,Appellations,Own Names,Balioli,Belueli,Sing Dioy,Vice-versa,Bango,Sing Mwango,Four Populations,Each,Babudu,Western Edge,Aka,Mangbetu,Northwest,Efe,Widely Distributed,Eastern Portions,Walese,Hunt,Gather,Meat,Honey,Forest Resources,Consumption,Trade,Farming Villages,Food Crops,Cloth,Ironware,Salt,Material,Hunting,Bows,Arrows,Small Game,Spears,Large Game,Nets,Village Agriculturalists,Shifting Slash-and-Burn Farmers,Bantu Languages,Sub-Saharan Africa,Ndaka,Farming Village,Small,Patriclan,Houses,Saplings,Plastered,Mud,Leaf-Thatch Roofs",
     "status": "COMPLETE"
   },
   {
@@ -1046,7 +1046,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Njombe,Iringa,Makambako,Ilembula,Uwemba,Lupembe,Kidugala,Wanging'ombe,Mdandu,Nyikolwe,Nyumbaniitu,Utalingoro,Itipula,Ng'anda,Maswamu,Bena Manga,Ulanga Valley,Kilombero District,Morogoro Region,Southern Highlands,Tanzania,Lake Nyasa,Muzale,Rugemalira,Swahili,English,Niger-Congo,Bantu,Southern Bantu,G63,Iringa Region,Njombe Region,Kinga,Kisi,Manda,Pangwa,Wanji,Hehe,Mbunga,Ndamba,Wabena,Mbena,Ubena,German missionaries,Lutheran Church,Wycliffe,Language Cluster,Bible translation,hymnal,alphabet book,missionary schools,orthography",
+    "b": "Njombe,Iringa,Makambako,Ilembula,Uwemba,Lupembe,Kidugala,Wanging'ombe,Mdandu,Nyikolwe,Nyumbaniitu,Utalingoro,Itipula,Ng'anda,Maswamu,Ulanga Valley,Kilombero District,Morogoro Region,Southern Highlands,Tanzania,Lake Nyasa,Muzale,Rugemalira,Swahili,English,Niger-Congo,Bantu,Southern Bantu,G63,Iringa Region,Njombe Region,Kinga,Kisi,Manda,Pangwa,Wanji,Hehe,Mbunga,Ndamba,Wabena,Mbena,Ubena,German missionaries,Lutheran Church,Wycliffe,Language Cluster,Bible translation,hymnal,alphabet book,missionary schools,orthography",
     "status": "COMPLETE"
   },
   {
@@ -1056,7 +1056,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Kongola,Sibbinda,Lizauli,Singalamwe,Imusho,Mutomena,Sinjembela,Caprivi Strip,Zambezi Region,Katima Mulilo,Sesheke,Zambia,Namibia,Botswana,Angola,Western Province,Kwando River,Makanga Village,Shanjo Area,Yeyi Area,Totela Area,Kwamashi Area,Caprivi Game Park,Mbukushu Villages,Khwe Area,Lozi,Chifwe,Mafwe,Bafwe,Subia,Chisubia,Botatwe,Niger-Congo,Atlantic-Congo,Benue-Congo,Southern Bantoid,Bantu,K.402,Click Consonants,Dialectal Variation,Northern Fwe,Southern Fwe,Imusho Transition Zone,Negation Marker,Past Tense Marker,Progressive Construction,Phonological Differences,Clicks,Non-Clicks,Crosslinguistic Variation",
+    "b": "Kongola,Sibbinda,Lizauli,Singalamwe,Imusho,Mutomena,Sinjembela,Caprivi Strip,Zambezi Region,Katima Mulilo,Sesheke,Zambia,Namibia,Botswana,Angola,Western Province,Kwando River,Makanga Village,Shanjo Area,Yeyi Area,Totela Area,Kwamashi Area,Caprivi Game Park,Mbukushu Villages,Khwe Area,Lozi,Chifwe,Mafwe,Bafwe,Subia,Chisubia,Botatwe,Niger-Congo,Atlantic-Congo,Benue-Congo,Southern Bantoid,Bantu,K.402,Click Consonants,Dialectal Variation,Imusho Transition Zone,Negation Marker,Past Tense Marker,Progressive Construction,Phonological Differences,Clicks,Non-Clicks,Crosslinguistic Variation",
     "status": "COMPLETE"
   },
   {
@@ -1096,7 +1096,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Bardaï,Zouar,Faya-Largeau,Sabha,Ghat,Ubari,Aouzou,Zoumri,Yebbibou,Gouro,Tin-Tarak,Tchoumeri,Archei,Tibesti Region,Borkou Region,Ennedi Region,Kanem Prefecture,BET,Kanem,Tibesti,Agadez,Kawar,Djado,Manga,Termit Mountains,Fezzan,Kufra Oases,N'Djamena,Djourab Desert,Borku Region,Taw-valley,Hyphaene-palms,Wild Cereals,Goats,Camels,Dates,Grains,Legumes,Roots,Cattle,Donkeys,Caravan Trade,Palm-thatched Houses,Rectangular Mud Houses,Cylindrical Huts,Conical Thatch,Toubou People,Teda Language,Tedaga,Todaga,Todga,Tudaga,Nilo-Saharan,Saharan,Western,Tebu,ISO 639-3:tuq,Glottolog:teda1241,ELP:Tedaga,Linguasphere:02-BAA-aa,Writing System Latin,Nomadic Herdsmen,Farmers,Oases",
+    "b": "Bardaï,Zouar,Faya-Largeau,Sabha,Ghat,Ubari,Aouzou,Zoumri,Yebbibou,Gouro,Tin-Tarak,Tchoumeri,Archei,Tibesti Region,Borkou Region,Ennedi Region,Kanem Prefecture,BET,Kanem,Tibesti,Agadez,Kawar,Djado,Manga,Termit Mountains,Fezzan,Kufra Oases,N'Djamena,Djourab Desert,Borku Region,Taw-valley,Hyphaene-palms,Wild Cereals,Goats,Camels,Dates,Grains,Legumes,Roots,Cattle,Donkeys,Caravan Trade,Palm-thatched Houses,Rectangular Mud Houses,Cylindrical Huts,Conical Thatch,Toubou People,Tedaga,Todaga,Todga,Tudaga,Nilo-Saharan,Saharan,Western,Tebu,ISO 639-3:tuq,Glottolog:teda1241,ELP:Tedaga,Linguasphere:02-BAA-aa,Writing System Latin,Nomadic Herdsmen,Farmers,Oases",
     "status": "COMPLETE"
   },
   {
@@ -1106,7 +1106,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Kikara,Banikani,Mounivel,Ganka,Dansa,Albengouma,Ganda Bundo,Sahelian Villages,Flood Cycles,Rural Villages,Mud Bricks,Thatched Roofs,Hot Dry Climate,Sorghum,Rainy Season,June,November,Men,River,Herd Small Livestock,Goats,Women,Process Grains,Vegetable Gardens,Local Markets,Patrilineal Lines,Extended Clans,Polygynous Marriages,Cross-cousin Unions,Alliances,Elders,Authority,Land Use,Dispute Resolution,Daily Tasks,Celebrations,Births,Weddings,Harvests,Singing,Dancing,Praise-songs,Griots,Epic Poetry,Heroic Past,Islamic Holidays,Eid al-Fitr,Eid al-Adha,Communal Feasts,Gift-giving,Food Staples,Thick Porridge,Doonu,Paste,Howru,Pancakes,Haini Maasa,Greens,Peanut Sauce,Shared Bowl,Unity,Songway Kiini People,Subgroup,Trade Routes,Niger River,Traders,Warriors,Expanded,Scholarship,Fall,Retained,Adapted,Southern Songhay,Nilo-Saharan,Tonal Language,Primary Language,L1,No Significant L2 Speakers,Vitality,Home,Community Settings,Formal Institutional Support,Lacks,Villages,Northeast,Southern Songhay Subgroup,Distinct Enclave,Songhay-speaking Regions,Speech Area,Rural Sahelian Villages,Semi-arid Landscapes,Key Livelihood Activities,Inland Delta Environment,Geographic Setting,Community Practices,River Flood Cycles,Single Linguistic Variety,Minimal Internal Differentiation,No Major Dialects,Relative Isolation,Individual Villages,Subtle Micro-variations,Pronunciation,Unstudied,Language Community,Proximate,Songhay-speaking Groups,Neighboring Populations,Dogon Languages,Fulfulde,Fulani Language,Potential Contact Influences,Intermarriage,Shared Pastoral Territories,First Noted,Western Linguists,Sociolinguistic Surveys,SIL International,Mali Mopti Region,Time,Formal Acknowledgment,Existence,Local Communities,Prior to 1998,Undocumented,Scholarly Literature,Remote Villages,Limited External Awareness,Locally Known,No Systematic Attention,Possible Incidental Oral References,Earlier Studies,Broader Songhay Varieties,Key Milestones,Intensive Fieldwork,Early 2000s,Comprehensive Reference Grammar,TSK-English-French Dictionary,Distinct Status,Initial Recordings,Collaborations,Anthropologists,Missionary Linguists,SIL,Early Lexical,Phonetic Data Collection,Regional Surveys,Subsequent Studies,Referenced,Heath's Work,Analyses,Songhay Grammar,Contact Phenomena,No Major New Comprehensive Documentation,Early Research Efforts,Significant Challenges,Political Instability,Tuareg Rebellions,Ongoing Security Issues,Restricted Access,Remote Areas,Delayed Sustained Fieldwork,Primary Resource,Tondi Songway Kiini (Songhay,Mali): Reference Grammar and TSK-English-French Dictionary,Center for the Study of Language and Information,Detailed Grammatical Sketch,Phonological Description,Bilingual Trilingual Dictionary,Over 1,Nouns,Verbs,Word Classes,Foundational Text,Understanding,Structure,Fieldwork,Additional Resources,Ethnologue Entry,Classification,Speaker Base,Ethnologue Assesses,Stable,Community,First Language,No Updated Numerical Speaker Estimate,Glottolog,Bibliographic References,Genealogical Data,Confirms,Distinct Southern Songhay Variety,Endangered Languages Project,Profile,Assesses,Vitality Status,Global Recordings Network,Audio Recordings,Bible Stories,Oral Narratives,Phonetic,Cultural Study,Sahelian Context,Core Vocabulary,Agriculture,Pastoralism,Riverine Life,Niger,wo,Fonio,Environmental Features,hari,water,hE,tree,Borrowings,Contact Languages,Prominent,Arabic Loanwords,Religious,Trade Domains,Prayer,Market Goods,French Influences,Colonial Administration,Administrative Concepts,Bambara,Mande Language,Contributions,Daily Life,Kinship Terminology,Historical Interactions,Heath's Dictionary,Entries,Basic Pronouns,ayi,I,ni,you (singular),yeri,we (exclusive),Common Nouns,boro,person,hansi,dog,nuna,fire,kambE,hand,fo,one,hiNka,two,Body Parts,moyse,eye,Tonal System,High,Low Tones,Distinguishing Meanings,Specific Greetings,Morning,Evening Encounters,Detailed,Full Dictionary,Preview Excerpts,Unavailable",
+    "b": "Kikara,Banikani,Mounivel,Ganka,Dansa,Albengouma,Ganda Bundo,Sahelian Villages,Flood Cycles,Rural Villages,Mud Bricks,Thatched Roofs,Hot Dry Climate,Sorghum,Rainy Season,June,November,Men,River,Herd Small Livestock,Goats,Women,Process Grains,Vegetable Gardens,Local Markets,Patrilineal Lines,Extended Clans,Polygynous Marriages,Cross-cousin Unions,Alliances,Elders,Authority,Land Use,Dispute Resolution,Daily Tasks,Celebrations,Births,Weddings,Harvests,Singing,Dancing,Praise-songs,Griots,Epic Poetry,Heroic Past,Islamic Holidays,Eid al-Fitr,Eid al-Adha,Communal Feasts,Gift-giving,Food Staples,Thick Porridge,Doonu,Paste,Howru,Pancakes,Haini Maasa,Greens,Peanut Sauce,Shared Bowl,Unity,Songway Kiini People,Subgroup,Trade Routes,Niger River,Traders,Warriors,Expanded,Scholarship,Fall,Retained,Adapted,Southern Songhay,Nilo-Saharan,Tonal Language,Primary Language,L1,No Significant L2 Speakers,Vitality,Home,Community Settings,Formal Institutional Support,Lacks,Villages,Northeast,Southern Songhay Subgroup,Distinct Enclave,Songhay-speaking Regions,Speech Area,Rural Sahelian Villages,Semi-arid Landscapes,Key Livelihood Activities,Inland Delta Environment,Geographic Setting,Community Practices,River Flood Cycles,Single Linguistic Variety,Minimal Internal Differentiation,No Major Dialects,Relative Isolation,Individual Villages,Subtle Micro-variations,Pronunciation,Unstudied,Language Community,Proximate,Songhay-speaking Groups,Neighboring Populations,Dogon Languages,Fulfulde,Fulani Language,Potential Contact Influences,Intermarriage,Shared Pastoral Territories,First Noted,Western Linguists,Sociolinguistic Surveys,SIL International,Mali Mopti Region,Time,Formal Acknowledgment,Existence,Local Communities,Prior to 1998,Undocumented,Scholarly Literature,Remote Villages,Limited External Awareness,Locally Known,No Systematic Attention,Possible Incidental Oral References,Earlier Studies,Broader Songhay Varieties,Key Milestones,Intensive Fieldwork,Early 2000s,Comprehensive Reference Grammar,TSK-English-French Dictionary,Distinct Status,Initial Recordings,Collaborations,Anthropologists,Missionary Linguists,SIL,Early Lexical,Phonetic Data Collection,Regional Surveys,Subsequent Studies,Referenced,Heath's Work,Analyses,Songhay Grammar,Contact Phenomena,No Major New Comprehensive Documentation,Early Research Efforts,Significant Challenges,Political Instability,Tuareg Rebellions,Ongoing Security Issues,Restricted Access,Remote Areas,Delayed Sustained Fieldwork,Primary Resource,Mali): Reference Grammar and TSK-English-French Dictionary,Center for the Study of Language and Information,Detailed Grammatical Sketch,Phonological Description,Bilingual Trilingual Dictionary,Over 1,Nouns,Verbs,Word Classes,Foundational Text,Understanding,Structure,Fieldwork,Additional Resources,Ethnologue Entry,Classification,Speaker Base,Ethnologue Assesses,Stable,Community,First Language,No Updated Numerical Speaker Estimate,Glottolog,Bibliographic References,Genealogical Data,Confirms,Distinct Southern Songhay Variety,Endangered Languages Project,Profile,Assesses,Vitality Status,Global Recordings Network,Audio Recordings,Bible Stories,Oral Narratives,Phonetic,Cultural Study,Sahelian Context,Core Vocabulary,Agriculture,Pastoralism,Riverine Life,Niger,wo,Fonio,Environmental Features,hari,water,hE,tree,Borrowings,Contact Languages,Prominent,Arabic Loanwords,Religious,Trade Domains,Prayer,Market Goods,French Influences,Colonial Administration,Administrative Concepts,Bambara,Mande Language,Contributions,Daily Life,Kinship Terminology,Historical Interactions,Heath's Dictionary,Entries,Basic Pronouns,ayi,I,ni,you (singular),yeri,we (exclusive),Common Nouns,boro,person,hansi,dog,nuna,fire,kambE,hand,fo,one,hiNka,two,Body Parts,moyse,eye,Tonal System,High,Low Tones,Distinguishing Meanings,Specific Greetings,Morning,Evening Encounters,Detailed,Full Dictionary,Preview Excerpts,Unavailable",
     "status": "COMPLETE"
   },
   {
@@ -1116,7 +1116,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0.1,
-    "b": "Sukur_plateau,Damay,Dungom,Gwafa,Dlandev,Mataka_Central,Mataka_Wakda,Məlđəŋ Massif,Blama Zugorio's,Slaver,Adamawa Emirate,British,Slave Raiding,Deposed,Montagnards,Descend,Hills,Iron Industry,Collapse,Plains Colonization,Maiduguri-Bama-Madagali-Mubi-Yola Road,Main Market,Sukur Community,Mildo,Track,GEP Images,Denser Plains Settlement,Towns,Population Increase,Administrative Changes,Village Wards,Adjusted,Ethnographic Present,Sukur Informants,Wards,Smallest Administrative Unit,Tax Collection,Community Groupings,Young Farmers Associations,Residential Groupings,Scales,Plains Wards,Northern Extension,Eastern Wards,Mataka,Mountain,Duŋgom Ward,Map 3,Sukur-speaking Settlements,SAKUN,Western Part,Damay Chiefdom,Sukur-speaking,Never Subject,Margi Settlements,Mabas Group,Lamang-speakers,Mandara State Outpost,Conquered,Adamawa,Southeastern Emirate,Hausa-Fulbe,Fulani Empire,Turn 20th Century,Son,Successor,Notorious Slaver,Fulbe Language,Atlantic,Westernmost,Niger-Congo Family,Mixed Population,Mandara Montagnard Origin,Two Sukur Wards,Linguistic Differentiation,Branches,Thousands Years,Proto-language,Differentiate,Hundreds Years,Biu-Mandara Languages,Only Member,A6 Group,Ritual Seniority,Long Been Evolving,Map 4,Sakun-speakers,Yellow,Kapsiki-speaking Neighbors,Mədləŋ Massif,Largely Abandoned,Muduvu,Small Upper Case Text,Larger Upper-case Font,Sakun-speaking Wards,Larger Populations,Lower-case Text,Kasa,Down Below,Appended,Village Name,Damay Kasa,Daughter Settlement,Sukur Plains Wards,Dlandəv,Mataka Central,Mataka Wakda,Collectively,Gwafak,Sama,Base Image,Google Earth Pro,Landsat-Copernicus,Human Occupation,Plateau,Concentrated,Near Edges,Interior,Reserved,Cultivation,Crops,Collection,Thatching Grass,Wild Products,Fig 1,Upper,Lower Wards,Named,Chief,Hidi Sukur,Ward Populations,Average Household Size,Giwa Boundaries,Not Attempted,Households,Space,Frequent Minor Changes,Pop 254,Ward,Fig 2,Court Quarter,Retainers,Appointed,Hidi,Descendants,Former Title-holders,Dur Households,Karandu,Shagwam Clans,Close Allies,Gudur Days,Zwahei,Later Dur Allies,Tə Mandak,Gurundahwa,Western Side,Path,Leading South,Further West,Ɗida,Topping,Slope Down,Duŋgom Sub-ward,Mainly Occupied,Pop 230,Main Sakun-Sama Market,Larger,Two Primary Schools,Catholic Church,Most Inhabitants,Deghul,Təsesau,Təbutə,Towards Dunggom,Occupied,Mainly,Kiggi Clansmen,Kilometer Away,Separated,Mass,Mt Muva,Fig 3,Dur tə dlagam Section,Pop 180,Disparate Ward,Categorized,Lower Sukur,Distinct Characteristics,Shagwam,Kəmavuɗ Clan Households,Cluster,Beneath,Gwassa Sub-ward,Fig 4,Further North,Smith/Potters,Təvwa Clan,Located,Ndilləi,Fine Stretch,Northern Paved Way,Nearby,Close Associates,Dəmsa,Goeri,Diminishing Numbers,Members,Mədləŋ ləiwaɗ Clan Section,Specializing,Cattle Raising,Live,Bahwa,Steep Drop,Guzka Valley,No Title-holders,Resident,Family Compound,Late Hidi Ziraŋkwadə Matlay,Died,Pop 271,Guzka Stream,Northernmost Ward,Guzka,Habəga humtəva,Mədləŋ həi,Ka-Mariya Clan Households,Relatively Recent,Smith/Potter Immigrants,Via Damay,Mbəzəfwai,Only Title-holder,Biu-Mandara,Grammar of Sakun,Biu-Mandara Branch,Previous Work,Wordlists,Archaeologists,First Systematic Description,Categories,Functions,Language Internal Evidence,A Priori Categories,Imposed,Data,Description,More Than Year,Participant Observation,Sakun Consultants,Analysis,Corpus,Time-aligned,Transcribed,Translated,Videos,Mandara Mountains,Massif West,Bama Road,Stretching S.E.,Cameroon Border,Sakun Speakers,Gordon 2005,Simon Waida,p.c.2,Living,Around,Inscribed,UNESCO World Heritage Cultural Landscape,Recommended,World Heritage List,Primarily,Integration,Terraced Farming System,Pre-industrial Local Iron Industry,Practices,Resisted Change,Centuries,Cultural Landscape,Eloquent Testimony,Strong,Continuing Cultural Tradition,UNESCO 1999:91,Anecdotal Evidence,Strengthened,Local Sakun Identity,Stories,Sakun Living,Passing,Began Projecting,Sakun Heritage,Criteria,Appear,Bode Well,However,Put Increased Pressure,Subsequent Infrastructure Development,Visitation,Substantially Increased,Outside Contact,Local Population Pressure,Leading,More Sakun,Leaving Area,Nearby Cities,Development,Educational Infrastructure,Many Teachers,Coming Outside,Lead,Increased Incursion,Independent,UNESCO Enlistment,Not Moribund,Still Speaking,First Language,Often Cited,Best Tellers,Traditional Stories,gəmakákaw,Occupying,More Domains,Church,Strong Majority,At Least Nominally,Christian,Along With English,Education,Corpus Collected,Readily Evident,Mixing Hausa,Into Sakun,Heavily,Times,Although Most Sakun,Speak Four,More Languages,Often Local Minority Languages,Varieties,Permeating,Sakun Speech,Directly,Easily Recognizable Loan Words,Multilingualism,Prominent,Area,Typically Speaking,Main Contact Languages,Other Local Languages,Mostly Varieties,Both Central Chadic Languages,Informal Survey,Participants,Documentation Project,Speak Between 2,Majority Speaking Hausa,Addition,Often Referred,Linguistic,Ethnic Group,Claimed,Provided First,Literature,Provided Next,When Known,Many Sakun,Claim,Speak Dwa,Village,Strong Ties,Language Spoken,Appears,Distribution,Native Speakers,Provided,Tables,Table 1,Lingua Francas,Kanuri,Dwa,Sákún,Native Sakun,ⁿda Sákún,Person of Sakun,Gəma Sákún,Language of Sakun,Work Specific,Word Lists,David 2003,Meek 1931:317-20,Growing Body,Ethnographic,Scholar Colorado,Concern,Graduate Thesis Or Dissertations",
+    "b": "Sukur_plateau,Damay,Dungom,Gwafa,Dlandev,Mataka_Central,Mataka_Wakda,Məlđəŋ Massif,Blama Zugorio's,Slaver,Adamawa Emirate,British,Slave Raiding,Deposed,Montagnards,Descend,Hills,Iron Industry,Collapse,Plains Colonization,Maiduguri-Bama-Madagali-Mubi-Yola Road,Main Market,Mildo,Track,GEP Images,Denser Plains Settlement,Towns,Population Increase,Administrative Changes,Village Wards,Adjusted,Ethnographic Present,Wards,Smallest Administrative Unit,Tax Collection,Community Groupings,Young Farmers Associations,Residential Groupings,Scales,Plains Wards,Northern Extension,Eastern Wards,Mataka,Mountain,Duŋgom Ward,Map 3,SAKUN,Western Part,Damay Chiefdom,Sukur-speaking,Never Subject,Margi Settlements,Mabas Group,Lamang-speakers,Mandara State Outpost,Conquered,Adamawa,Southeastern Emirate,Hausa-Fulbe,Fulani Empire,Turn 20th Century,Son,Successor,Notorious Slaver,Fulbe Language,Atlantic,Westernmost,Niger-Congo Family,Mixed Population,Mandara Montagnard Origin,Linguistic Differentiation,Branches,Thousands Years,Proto-language,Differentiate,Hundreds Years,Biu-Mandara Languages,Only Member,A6 Group,Ritual Seniority,Long Been Evolving,Map 4,Sakun-speakers,Yellow,Kapsiki-speaking Neighbors,Mədləŋ Massif,Largely Abandoned,Muduvu,Small Upper Case Text,Larger Upper-case Font,Sakun-speaking Wards,Larger Populations,Lower-case Text,Kasa,Down Below,Appended,Village Name,Damay Kasa,Daughter Settlement,Dlandəv,Mataka Central,Mataka Wakda,Collectively,Gwafak,Sama,Base Image,Google Earth Pro,Landsat-Copernicus,Human Occupation,Plateau,Concentrated,Near Edges,Interior,Reserved,Cultivation,Crops,Collection,Thatching Grass,Wild Products,Fig 1,Upper,Lower Wards,Named,Chief,Ward Populations,Average Household Size,Giwa Boundaries,Not Attempted,Households,Space,Frequent Minor Changes,Pop 254,Ward,Fig 2,Court Quarter,Retainers,Appointed,Hidi,Descendants,Former Title-holders,Dur Households,Karandu,Shagwam Clans,Close Allies,Gudur Days,Zwahei,Later Dur Allies,Tə Mandak,Gurundahwa,Western Side,Path,Leading South,Further West,Ɗida,Topping,Slope Down,Duŋgom Sub-ward,Mainly Occupied,Pop 230,Main Sakun-Sama Market,Larger,Two Primary Schools,Catholic Church,Most Inhabitants,Deghul,Təsesau,Təbutə,Towards Dunggom,Occupied,Mainly,Kiggi Clansmen,Kilometer Away,Separated,Mass,Mt Muva,Fig 3,Dur tə dlagam Section,Pop 180,Disparate Ward,Categorized,Distinct Characteristics,Shagwam,Kəmavuɗ Clan Households,Cluster,Beneath,Gwassa Sub-ward,Fig 4,Further North,Smith/Potters,Təvwa Clan,Located,Ndilləi,Fine Stretch,Northern Paved Way,Nearby,Close Associates,Dəmsa,Goeri,Diminishing Numbers,Members,Mədləŋ ləiwaɗ Clan Section,Specializing,Cattle Raising,Live,Bahwa,Steep Drop,Guzka Valley,No Title-holders,Resident,Family Compound,Late Hidi Ziraŋkwadə Matlay,Died,Pop 271,Guzka Stream,Northernmost Ward,Guzka,Habəga humtəva,Mədləŋ həi,Ka-Mariya Clan Households,Relatively Recent,Smith/Potter Immigrants,Via Damay,Mbəzəfwai,Only Title-holder,Biu-Mandara,Grammar of Sakun,Biu-Mandara Branch,Previous Work,Wordlists,Archaeologists,First Systematic Description,Categories,Functions,Language Internal Evidence,A Priori Categories,Imposed,Data,Description,More Than Year,Participant Observation,Sakun Consultants,Analysis,Corpus,Time-aligned,Transcribed,Translated,Videos,Mandara Mountains,Massif West,Bama Road,Stretching S.E.,Cameroon Border,Sakun Speakers,Gordon 2005,Simon Waida,p.c.2,Living,Around,Inscribed,UNESCO World Heritage Cultural Landscape,Recommended,World Heritage List,Primarily,Integration,Terraced Farming System,Pre-industrial Local Iron Industry,Practices,Resisted Change,Centuries,Cultural Landscape,Eloquent Testimony,Strong,Continuing Cultural Tradition,UNESCO 1999:91,Anecdotal Evidence,Strengthened,Local Sakun Identity,Stories,Sakun Living,Passing,Began Projecting,Sakun Heritage,Criteria,Appear,Bode Well,However,Put Increased Pressure,Subsequent Infrastructure Development,Visitation,Substantially Increased,Outside Contact,Local Population Pressure,Leading,More Sakun,Leaving Area,Nearby Cities,Development,Educational Infrastructure,Many Teachers,Coming Outside,Lead,Increased Incursion,Independent,UNESCO Enlistment,Not Moribund,Still Speaking,First Language,Often Cited,Best Tellers,Traditional Stories,gəmakákaw,Occupying,More Domains,Church,Strong Majority,At Least Nominally,Christian,Along With English,Education,Corpus Collected,Readily Evident,Mixing Hausa,Into Sakun,Heavily,Times,Although Most Sakun,Speak Four,More Languages,Often Local Minority Languages,Varieties,Permeating,Sakun Speech,Directly,Easily Recognizable Loan Words,Multilingualism,Prominent,Area,Typically Speaking,Main Contact Languages,Other Local Languages,Mostly Varieties,Both Central Chadic Languages,Informal Survey,Participants,Documentation Project,Speak Between 2,Majority Speaking Hausa,Addition,Often Referred,Linguistic,Ethnic Group,Claimed,Provided First,Literature,Provided Next,When Known,Many Sakun,Claim,Speak Dwa,Village,Strong Ties,Language Spoken,Appears,Distribution,Native Speakers,Provided,Tables,Table 1,Lingua Francas,Kanuri,Dwa,Sákún,Native Sakun,ⁿda Sákún,Person of Sakun,Gəma Sákún,Language of Sakun,Work Specific,Word Lists,David 2003,Meek 1931:317-20,Growing Body,Ethnographic,Scholar Colorado,Concern,Graduate Thesis Or Dissertations",
     "status": "COMPLETE"
   },
   {
@@ -1136,7 +1136,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Vulnerable Language,Extinction Risk,Culture,Historic Value,Fading,Dialect Shift,Kanuri Language Roots,Badr of Yemen,Muhammad,Purportedly Drove Out,Failure to Pray,Nigerian Endangered Languages,Local Dialect,Colonization,Deterioration,Local Languages,Hausa Speaking Villages,Northern Part,Three Dialects,Regions,Bade-Kado,Letter R̃,Endangered Languages Project,Context 30362,Yobe Languages Research Project,Current Location,Court,Western Half,Two-thirds,Bade Area,Larger Western Bade Speaking Towns,Southeast,Western Area,South of Gashua,Main Southern Bade-speaking Towns,Largest Town,Villages Fanning Out,Around Gashua,Covers Several Towns,Most People,Businessmen,Fulani,Duwai Languages,Islam,Widely Practised Religion,Fishing,Cultural Festivals,Yobe River,Hadejia River,Jama'are River,Convergence,Average Elevation,Population 2006,Largest,Most Developed Towns,Nguru-Gashua Wetlands,Economically,Ecologically Important,Ecological System,Bade Language,Area Fanning Out,Seven Languages,Chadic Family,Indigenous,Gashua Area,Bade Languages,Bade-Ngizim Languages,B.1 West Chadic,Branch,West Chadic Languages,Most Widely Spoken,Many Bade Languages,Teshenawa,Auyokawa,Extinct,Magwaram,Bade k-Aɗo,Includes Duwai,Hadejia LGA,Yobe,Jigawa States,Badanci,Bede,Homes,Taught,Primary Schools,Literature,Radio,Bade Speakers,Shifting,Dominant Language,Region,Three Main Dialects,Surrounding Area,Western Gade,Most Speakers,Within Each Dialect,Much Variation,Each Bade-speaking Town,Village,Own Version,Language,Bade Alphabet,Pronunciation,Notes,West Chadic-B Language,Area In and Around Gashua,Dialectally Diverse,Closely Related Languages,Single Language,Overviews,Bade-Ngizim Group,Schuh 1971,Schuh 2008,Internet,Comparative Chadic Perspective,West Chadic Sub-branch B Language,Newman 1990,Together,Extinct Languages,Teshena,Auyo,Shira,Broß 1997,Schuh 2001,Bade Ngizim Group,Dialect Continuum,Northern Bade,Linguistic Features,Common,Features,Main Dialect Variety,Dialectally Very Diverse,Several Bade Languages,Schuh 1981,Major Languages,Adjacent,Bade Speaking Area,History,North-eastern Nigeria,Linguistic Scrutiny,Suggests,Bade Heavily Influenced,Neighbouring Languages,Several Linguistic Domains,Borrowing Content Words,High Amount,Function Words,Linguistic Influence,Evident,Grammatical Domains,Borrowing Derivational Morphology,Schuh 2011,Ziegelmeyer 2009a,Data Presented,Article,Predominantly,Fieldwork,Northern,Free,Unpublished Texts,Drawn,Russell Schuh 2008,Description,Aims,Illustrating Differences,Similarities,Outlined,Closely Related Ngizim,Possible,Establish,Found,Most Important Innovation,Expresses Future Reference,Action in Progress,Most Often Denotes Future Events,New Innovative TAM-form,Denotes Progressive,Habitual Events,Already Stated,Probably Conditioned,Contact,Exhibits Future TAM,Expressing Tense,Future-time Reference,Range,Modal Attitudinal Meanings,Imperfective TAM,Encompassing Dimensions,Action-in-progress,Respect To,Expressions,Probably Constitutes,Conservative Type,Encompasses Dimension,Whereas,Expressed,Terms,Habitual Verbal Extension,§6,Furthermore,Constructions,Transitive Verb,No Overt Direct Object,Add,Previous Reference Marker,Preceding Verbal Noun,Construction Type,Not Used,Three Major Dialects,Speakers Shifting,Lives Like,Other Occupation,Dry Season,Farm,Raise Millet,Staple Crop,Supplement,Sorghum,Corn,Peanuts,Raise Sheep,Goats,Horses,Settlements,Vary in Size,Most Contain Walled-in Compounds,Surrounding Several Mud,Grass Houses,Thatched,Cone-shaped Roofs,Houses,Cool,Hot Months,Farmland Surrounds,Each Settlement,Local Markets,Administrative Centers,Local School,Attached,Smaller Schools,Religious Teachings,Household,Not Family,Economic Unit,Greater Number,Family,More Prestige,Family Head,Jakusko,Bursari,Karasuwa LGAs,Guri LGA,Bauchi State,Zaki LGA,Ethnologue 2016,Primary Language,Ethnologue Language Code,bde,Ethnologue Language Family,Glottolog Language Family,Primary Dialect,Dialect Code,Written,Published,ScriptSource Listing,Total Languages",
+    "b": "Vulnerable Language,Extinction Risk,Culture,Historic Value,Fading,Dialect Shift,Kanuri Language Roots,Badr of Yemen,Muhammad,Purportedly Drove Out,Failure to Pray,Nigerian Endangered Languages,Local Dialect,Colonization,Deterioration,Local Languages,Hausa Speaking Villages,Northern Part,Three Dialects,Regions,Bade-Kado,Letter R̃,Endangered Languages Project,Context 30362,Yobe Languages Research Project,Current Location,Court,Western Half,Two-thirds,Southeast,Western Area,South of Gashua,Largest Town,Villages Fanning Out,Around Gashua,Covers Several Towns,Most People,Businessmen,Fulani,Duwai Languages,Islam,Widely Practised Religion,Fishing,Cultural Festivals,Yobe River,Hadejia River,Jama'are River,Convergence,Average Elevation,Population 2006,Largest,Most Developed Towns,Nguru-Gashua Wetlands,Economically,Ecologically Important,Ecological System,Area Fanning Out,Seven Languages,Chadic Family,Indigenous,Gashua Area,B.1 West Chadic,Branch,West Chadic Languages,Most Widely Spoken,Teshenawa,Auyokawa,Extinct,Magwaram,Includes Duwai,Hadejia LGA,Yobe,Jigawa States,Badanci,Bede,Homes,Taught,Primary Schools,Literature,Radio,Shifting,Dominant Language,Region,Three Main Dialects,Surrounding Area,Western Gade,Most Speakers,Within Each Dialect,Much Variation,Village,Own Version,Language,Pronunciation,Notes,West Chadic-B Language,Area In and Around Gashua,Dialectally Diverse,Closely Related Languages,Single Language,Overviews,Schuh 1971,Schuh 2008,Internet,Comparative Chadic Perspective,West Chadic Sub-branch B Language,Newman 1990,Together,Extinct Languages,Teshena,Auyo,Shira,Broß 1997,Schuh 2001,Dialect Continuum,Linguistic Features,Common,Features,Main Dialect Variety,Dialectally Very Diverse,Schuh 1981,Major Languages,Adjacent,History,North-eastern Nigeria,Linguistic Scrutiny,Suggests,Neighbouring Languages,Several Linguistic Domains,Borrowing Content Words,High Amount,Function Words,Linguistic Influence,Evident,Grammatical Domains,Borrowing Derivational Morphology,Schuh 2011,Ziegelmeyer 2009a,Data Presented,Article,Predominantly,Fieldwork,Northern,Free,Unpublished Texts,Drawn,Russell Schuh 2008,Description,Aims,Illustrating Differences,Similarities,Outlined,Closely Related Ngizim,Possible,Establish,Found,Most Important Innovation,Expresses Future Reference,Action in Progress,Most Often Denotes Future Events,New Innovative TAM-form,Denotes Progressive,Habitual Events,Already Stated,Probably Conditioned,Contact,Exhibits Future TAM,Expressing Tense,Future-time Reference,Range,Modal Attitudinal Meanings,Imperfective TAM,Encompassing Dimensions,Action-in-progress,Respect To,Expressions,Probably Constitutes,Conservative Type,Encompasses Dimension,Whereas,Expressed,Terms,Habitual Verbal Extension,§6,Furthermore,Constructions,Transitive Verb,No Overt Direct Object,Add,Previous Reference Marker,Preceding Verbal Noun,Construction Type,Not Used,Three Major Dialects,Speakers Shifting,Lives Like,Other Occupation,Dry Season,Farm,Raise Millet,Staple Crop,Supplement,Sorghum,Corn,Peanuts,Raise Sheep,Goats,Horses,Settlements,Vary in Size,Most Contain Walled-in Compounds,Surrounding Several Mud,Grass Houses,Thatched,Cone-shaped Roofs,Houses,Cool,Hot Months,Farmland Surrounds,Each Settlement,Local Markets,Administrative Centers,Local School,Attached,Smaller Schools,Religious Teachings,Household,Not Family,Economic Unit,Greater Number,Family,More Prestige,Family Head,Jakusko,Bursari,Karasuwa LGAs,Guri LGA,Bauchi State,Zaki LGA,Ethnologue 2016,Primary Language,Ethnologue Language Code,bde,Ethnologue Language Family,Glottolog Language Family,Primary Dialect,Dialect Code,Written,Published,ScriptSource Listing,Total Languages",
     "status": "COMPLETE"
   },
   {
@@ -1166,7 +1166,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "East London,Port Elizabeth,Uitenhage,Cradock,Stutterheim,Fort Beaufort,Mdantsane,Mthatha,Lusikisiki,Flagstaff,Tabankulu,Elliotdale,Nqamakwe,Queenstown,Grahamstown,King William's Town,Cape Town,Gqeberha,Makhanda,Kingwilliamstown,Bhisho,Graaff-Reinet,Despatch,Zwelitsha,Idutywa,Port St Johns,Bizana,Mount Frere,Mount Ayliff,Kokstad,Matatiele,Tsolo,Qumbu,Centane,Kentani,Ngqeleni,Libode,Peddie,Cathcart,Sterkspruit,Aliwal North,Engcobo,Indwe,Dordrecht,Molteno,Steynsburg,Tarkastad,Seymour,Bedford,Adelaide,Willowmore,Jansenville,Klipplaat,Bathurst,Port Alfred,Keiskammahoek,Pirie,Kimbili,Eastern Cape,Western Cape,Northern Cape,Free State,Gauteng,KwaZulu-Natal,Limpopo,Mpumalanga,North West,Niger-Congo,Bantu,Nguni,Click Consonants,IsiXhosa,AmaXhosa,Xhosa People,Bantu Migration,Great Kei River,Keiskamma River,Fish River,Sundays River,Gamtoos River,Great Fish River,Orange River,Vaal River,Limpopo River,Zambezi River,African Language,Indigenous Language,Tonal Language,Agglutinative Language,Noun Classes,Prefixes,Suffixes,Click Sounds,Alveolar Lateral Click,Dental Click,Palatal Click,Labial Click,Polite Address,Hlomla,Hlonipha,Respect Language,Women,Traditional Language,Initiation Schools,Ulwaluko,Abakwetha,Amakhwenkwe,Traditional Healing,Herbal Medicine,Sangoma,Inyanga,Ancestral Spirits,Amadlozi,Divination,Bones,Dream Interpretation,Proverbs,IsiXhosa Literature,Oral Tradition,Storytelling,Poetry,Songs,Dances,Indlamu,Umngqokolo,Overtone Singing,Musical Bow,Uhadi,Umakhwenyana,Ijika,Traditional Clothing,Ibhayi,Incebetha,Imibhaco,Beadwork,Patterns,Symbolism,Social Status,Age,Marital Status,Clan Identity,Iziduko,Praise Names,Isibongo,Genealogy,Lineage,Ubuntu,Humanity,Communalism,Respect,Dignity,Interconnectedness,Moral Philosophy,African Philosophy,Decolonization,Mother Tongue Education,Multilingual Education,Constitution,Equality,Non-discrimination,Pan South African Language Board,PanSALB,Language Development,Promotion,Preservation,Standardization,Terminology,Dictionaries,Corpora,Lexicography,Orthography,Spelling Rules,Grammar,Textbooks,Curriculum,Assessment,Examinations,Teacher Training,Professional Development,Media,Broadcasting,Radio,Television,Print,Digital,Online,Social Media,Internet,Language Technology,Machine Translation,Speech Recognition,Text-to-Speech,Natural Language Processing,Computational Linguistics,Language Resources,Corpus Linguistics,Annotation,Parsing,Morphological Analysis,Syntactic Analysis,Semantic Analysis,Pragmatic Analysis,Discourse Analysis,Conversation Analysis,Interactional Linguistics,Sociolinguistics,Language Variation,Language Change,Language Contact,Language Shift,Language Maintenance,Language Death,Language Planning,Language Policy,Language Ideology,Language Attitudes,Language Identity,Language Power,Language Politics,Language Education,Language Justice,Language Equality,Language Diversity,Language Endangerment,Language Documentation,Language Description,Language Typology,Language Universals,Language Acquisition,First Language,Second Language,Foreign Language,Heritage Language,Community Language,Minority Language,Majority Language,National Language,Regional Language,Local Language,Global Language,World Language,International Language,Auxiliary Language,Constructed Language,Artificial Language,Planned Language,Esperanto,Ido,Interlingua,Volapük,Loglan,Lojban,Klingon,Quenya,Sindarin,Dothraki,High Valyrian,Newspeak",
+    "b": "East London,Port Elizabeth,Uitenhage,Cradock,Stutterheim,Fort Beaufort,Mdantsane,Mthatha,Lusikisiki,Flagstaff,Tabankulu,Elliotdale,Nqamakwe,Queenstown,Grahamstown,King William's Town,Cape Town,Gqeberha,Makhanda,Kingwilliamstown,Bhisho,Graaff-Reinet,Despatch,Zwelitsha,Idutywa,Port St Johns,Bizana,Mount Frere,Mount Ayliff,Kokstad,Matatiele,Tsolo,Qumbu,Centane,Kentani,Ngqeleni,Libode,Peddie,Cathcart,Sterkspruit,Aliwal North,Engcobo,Indwe,Dordrecht,Molteno,Steynsburg,Tarkastad,Seymour,Bedford,Adelaide,Willowmore,Jansenville,Klipplaat,Bathurst,Port Alfred,Keiskammahoek,Pirie,Kimbili,Eastern Cape,Western Cape,Northern Cape,Free State,Gauteng,KwaZulu-Natal,Limpopo,Mpumalanga,North West,Niger-Congo,Bantu,Nguni,Click Consonants,IsiXhosa,AmaXhosa,Bantu Migration,Great Kei River,Keiskamma River,Fish River,Sundays River,Gamtoos River,Great Fish River,Orange River,Vaal River,Limpopo River,Zambezi River,African Language,Indigenous Language,Tonal Language,Agglutinative Language,Noun Classes,Prefixes,Suffixes,Click Sounds,Alveolar Lateral Click,Dental Click,Palatal Click,Labial Click,Polite Address,Hlomla,Hlonipha,Respect Language,Women,Traditional Language,Initiation Schools,Ulwaluko,Abakwetha,Amakhwenkwe,Traditional Healing,Herbal Medicine,Sangoma,Inyanga,Ancestral Spirits,Amadlozi,Divination,Bones,Dream Interpretation,Proverbs,Oral Tradition,Storytelling,Poetry,Songs,Dances,Indlamu,Umngqokolo,Overtone Singing,Musical Bow,Uhadi,Umakhwenyana,Ijika,Traditional Clothing,Ibhayi,Incebetha,Imibhaco,Beadwork,Patterns,Symbolism,Social Status,Age,Marital Status,Clan Identity,Iziduko,Praise Names,Isibongo,Genealogy,Lineage,Ubuntu,Humanity,Communalism,Respect,Dignity,Interconnectedness,Moral Philosophy,African Philosophy,Decolonization,Mother Tongue Education,Multilingual Education,Constitution,Equality,Non-discrimination,Pan South African Language Board,PanSALB,Language Development,Promotion,Preservation,Standardization,Terminology,Dictionaries,Corpora,Lexicography,Orthography,Spelling Rules,Grammar,Textbooks,Curriculum,Assessment,Examinations,Teacher Training,Professional Development,Media,Broadcasting,Radio,Television,Print,Digital,Online,Social Media,Internet,Language Technology,Machine Translation,Speech Recognition,Text-to-Speech,Natural Language Processing,Computational Linguistics,Language Resources,Corpus Linguistics,Annotation,Parsing,Morphological Analysis,Syntactic Analysis,Semantic Analysis,Pragmatic Analysis,Discourse Analysis,Conversation Analysis,Interactional Linguistics,Sociolinguistics,Language Variation,Language Change,Language Contact,Language Shift,Language Maintenance,Language Death,Language Planning,Language Policy,Language Ideology,Language Attitudes,Language Identity,Language Power,Language Politics,Language Education,Language Justice,Language Equality,Language Diversity,Language Endangerment,Language Documentation,Language Description,Language Typology,Language Universals,Language Acquisition,First Language,Second Language,Foreign Language,Heritage Language,Community Language,Minority Language,Majority Language,National Language,Regional Language,Local Language,Global Language,World Language,International Language,Auxiliary Language,Constructed Language,Artificial Language,Planned Language,Esperanto,Ido,Interlingua,Volapük,Loglan,Lojban,Klingon,Quenya,Sindarin,Dothraki,High Valyrian,Newspeak",
     "status": "COMPLETE"
   },
   {
@@ -1176,7 +1176,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Zomba,Mangochi,Machinga,Balaka,Nkhotakota,Salima,Ntchisi,Dedza,Thyolo,Mulanje,Chiradzulu,Nsanje,Phalombe,Zimbabwe,Bantu,Guthrie Zone N,Tumbuka Language,Lost Status,National Radio,Tumbuka Programmes,Niassa Province,Court,Two Years,First Extensive Record,Spoken Further South,A Grammar of the Chinyanja Language,Vocabulary of English-Chinyanja,Likoma Island Dialect,Distinctive Nyanja Dialect,Languages,Matrilineal Descent,Inheritance,Succession,Polygyny,Compact Villages,Stockaded,Hereditary Headman,Advisory Council,Elders,Agriculture,Small Landholdings,Tea Estates,Tobacco Estates,Urban Centers,Capital,Judiciary,Ten Major Ethnic Groups,Lomwe,Yao,Tonga,Ngoni,Ngonde,Lambya,Nyiha,Population 2025,Chewa Language,Prefix Chi,Manner of,Chewa People,Recognised Minority,Eastern Zambia,Tete Province,History,Official Languages,Niassa",
+    "b": "Zomba,Mangochi,Machinga,Balaka,Nkhotakota,Salima,Ntchisi,Dedza,Thyolo,Mulanje,Chiradzulu,Nsanje,Phalombe,Zimbabwe,Bantu,Guthrie Zone N,Tumbuka Language,Lost Status,National Radio,Tumbuka Programmes,Niassa Province,Court,Two Years,First Extensive Record,Spoken Further South,A Grammar of the Chinyanja Language,Vocabulary of English-Chinyanja,Likoma Island Dialect,Distinctive Nyanja Dialect,Languages,Matrilineal Descent,Inheritance,Succession,Polygyny,Compact Villages,Stockaded,Hereditary Headman,Advisory Council,Elders,Agriculture,Small Landholdings,Tea Estates,Tobacco Estates,Urban Centers,Capital,Judiciary,Ten Major Ethnic Groups,Lomwe,Yao,Tonga,Ngoni,Ngonde,Lambya,Nyiha,Population 2025,Prefix Chi,Manner of,Recognised Minority,Eastern Zambia,Tete Province,History,Official Languages,Niassa",
     "status": "COMPLETE"
   },
   {
@@ -1226,7 +1226,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Ansongo,Talataye,Ménaka,Gao,Inékar,Ménaka Region,Gao Region,Mali,Daoussahak,Dahoussahak,Dausahaq,Daosahaq,Daoussahaq,Daoussak,Dawsahaq,Dawsahak,Idaksahak,Tuareg,Tamasheq,Tamajaq,Northern Songhai,Songhay,Nilo-Saharan,Berber,Arabic Script,Latin Alphabet,Transhumance,Cattle,Goats,Camels,Algeria,Isawaghan,Kel Essouk Tuareg,Ihatan Songhay,Berberiche Arab Factions,Muslim,Pre-Islamic Beliefs,Cross-Cousin Marriage,Patrilineal Parallel Cousin Marriage,Islamic Learning,Sixteenth Century,Regula Christiansen-Bolli,Grammar of Tadaksahak,Leiden University,Doctoral Thesis,Phonology,Morphology,Syntax,Tamasheq Suppletion,Subject Pronoun Cliticization,Nominalization Strategy,Etymology,Adjectives,Focalization,Topicalization,Question Words,Complement Clauses,Relativization Strategies,Subordinate Clauses,Verb Roots,Suppletions,Wordlists,Menaka Circle,Tamaya,Mazababu,Tiguirwit,Teguidda-n-Tessoumt,Abalak,Tofabayogh,Iberogan,Tagdal,Tabarog,Tasawaq,Mutual Intelligibility,Intelligibility Testing,Sub-Prefect of Abalak,Village Chiefs,Azawagh,Western Berber,Tetserrét,Language Contact,Systematic Suppletion,Proto-Northern Songhay,Cultural Changes,Identity Assertion,Political Shifts,Lameen Souag,Non-Tuareg Berber,Genesis,Nomadic Northern Songhay,Berber Influence,Western Berber Stratum,Language Shift,Regional Norm",
+    "b": "Ansongo,Talataye,Ménaka,Gao,Inékar,Ménaka Region,Gao Region,Mali,Daoussahak,Dahoussahak,Dausahaq,Daosahaq,Daoussahaq,Daoussak,Dawsahaq,Dawsahak,Idaksahak,Tuareg,Tamasheq,Tamajaq,Northern Songhai,Songhay,Nilo-Saharan,Berber,Arabic Script,Latin Alphabet,Transhumance,Cattle,Goats,Camels,Algeria,Isawaghan,Kel Essouk Tuareg,Ihatan Songhay,Berberiche Arab Factions,Muslim,Pre-Islamic Beliefs,Cross-Cousin Marriage,Patrilineal Parallel Cousin Marriage,Islamic Learning,Sixteenth Century,Regula Christiansen-Bolli,Leiden University,Doctoral Thesis,Phonology,Morphology,Syntax,Tamasheq Suppletion,Subject Pronoun Cliticization,Nominalization Strategy,Etymology,Adjectives,Focalization,Topicalization,Question Words,Complement Clauses,Relativization Strategies,Subordinate Clauses,Verb Roots,Suppletions,Wordlists,Menaka Circle,Tamaya,Mazababu,Tiguirwit,Teguidda-n-Tessoumt,Abalak,Tofabayogh,Iberogan,Tagdal,Tabarog,Tasawaq,Mutual Intelligibility,Intelligibility Testing,Sub-Prefect of Abalak,Village Chiefs,Azawagh,Western Berber,Tetserrét,Language Contact,Systematic Suppletion,Proto-Northern Songhay,Cultural Changes,Identity Assertion,Political Shifts,Lameen Souag,Non-Tuareg Berber,Genesis,Nomadic Northern Songhay,Berber Influence,Western Berber Stratum,Language Shift,Regional Norm",
     "status": "COMPLETE"
   },
   {
@@ -1246,7 +1246,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Nakwenda,Kwemba,Likemwa,Samisisi,Malabwe,Sesheke,Kazungula,Makusi,Kachansi,Imukusi,Katima Mulilo,Lubuta,Kachikau,Parakarungu,Satau,Kavimba,Zambezi Region,Caprivi Region,Bantu Botatwe,K41,K411,Endangered Language,K21,Language of Education,Wider Communication,Rapidly Overtaking,EGIDS Scale,Vigorous,Shifting,Moribund,Fortune 1959,Zambia 2010 Census,Primary Language of Communication,Central Statistical Office 2012,Undercount,Shift Away,Childbearing Generation,Proficiency,Transmitted to Children,Namibian Variety,Dialect Continuum,K402,Subiya,K42,Widespread Daily Use,Seidel 2005,de Luna 2010,Namibia 2011 Census,Caprivi Languages,Totela Speakers,Fieldwork,Zambian Totela,ZT,Namibian Totela,NT,Kwemba River,Nakwenda Village,Elicitation,Recorded Texts,Narrative,Conversational Data,Namibian Totela Lexical Data,Kathryn de Luna,Bantu Botatwe Research,Field Notes,Thera Marie Crane,Melodic Tone,TAM,Africana Linguistica,Bantu Languages,Benue-Congo,Southern Bantoid,Botatwe,Echitotela,ISO 639-3:ttl,Glottolog:tote1238,Guthrie Code:K.41,Poorly Described,Bantu Language,Bantu Ethnic Group,Classification Assumed,Rather Than Demonstrated,Endangered Indigenous Language,Niger-Congo Language Family,First Language,Decreasing Number,Young People,Not Taught,Schools,Zambia 46 Other Languages,Ethnologue,Languages of Zambia,Comprehensive Country Overview,Statistical Summaries,Language Status,Size,Alphabetical Listing,In-depth Descriptions,Full-color Language Maps,Visual Reference,Listings by Population,Status,Indexes,ISO 639 Codes,Alternate Language Names,Western Zambia,Zambezi River,Lozi Kingdom,Barotseland,Powerful Centralized State,Great Zambezi Floodplain,Smaller Ethnic Groups,Absorbed,Lozi Cultural Political Sphere,Language Exists Alongside,Lozi Lingua Franca,Dominant Language,Education,Worship,Public Life,Niger-Congo Bantu Family,Closely Related,Yeyi Peoples,Endangered,Fluency Increasingly Confined,Older Generations,Younger Totela Shift,English,Riverine People,Way of Life,Zambezi,Annual Flood Cycle,Floodplains,Fishing,Central,Livelihood,Communities,Stretch of River,Small-scale Farming,Cattle Keeping,Gathering,Natural Resources,River,Margins,Seasonal Flooding,Barotse Floodplain,Kuomboka Ceremony,Rhythm,Agricultural,Social Life,Village Life,Extended Family Networks,Community Decisions,Kinship,Traditional Leadership Structures,Rural Western Province,Modest,Access,Healthcare,Clean Water,Formal Education,Economic Opportunity,Varying Considerably,Scattered Riverside Communities,Close Ties,Land,Water,Sustained,People,Generations,Location in Country,North of Subia,Kazungula District,Ethnologue 2016,Ethnologue Language Code,ttl,Ethnologue Language Family,Glottolog Language Family,Written,Published,ScriptSource Listing,Total Languages,Sub-Saharan Peoples,Affinity Bloc,Central-South,People Cluster,People Group,Ethnic Code,Country,East and Southern,Continent,No,National Bible Society,Website,Persecution Rank,Not Ranked",
+    "b": "Nakwenda,Kwemba,Likemwa,Samisisi,Malabwe,Sesheke,Kazungula,Makusi,Kachansi,Imukusi,Katima Mulilo,Lubuta,Kachikau,Parakarungu,Satau,Kavimba,Zambezi Region,Caprivi Region,Bantu Botatwe,K41,K411,Endangered Language,K21,Language of Education,Wider Communication,Rapidly Overtaking,EGIDS Scale,Vigorous,Shifting,Moribund,Fortune 1959,Zambia 2010 Census,Primary Language of Communication,Central Statistical Office 2012,Undercount,Shift Away,Childbearing Generation,Proficiency,Transmitted to Children,Namibian Variety,Dialect Continuum,K402,Subiya,K42,Widespread Daily Use,Seidel 2005,de Luna 2010,Namibia 2011 Census,Caprivi Languages,Fieldwork,ZT,NT,Kwemba River,Nakwenda Village,Elicitation,Recorded Texts,Narrative,Conversational Data,Kathryn de Luna,Bantu Botatwe Research,Field Notes,Thera Marie Crane,Melodic Tone,TAM,Africana Linguistica,Bantu Languages,Benue-Congo,Southern Bantoid,Botatwe,Echitotela,ISO 639-3:ttl,Glottolog:tote1238,Guthrie Code:K.41,Poorly Described,Bantu Language,Bantu Ethnic Group,Classification Assumed,Rather Than Demonstrated,Endangered Indigenous Language,Niger-Congo Language Family,First Language,Decreasing Number,Young People,Not Taught,Schools,Zambia 46 Other Languages,Ethnologue,Languages of Zambia,Comprehensive Country Overview,Statistical Summaries,Language Status,Size,Alphabetical Listing,In-depth Descriptions,Full-color Language Maps,Visual Reference,Listings by Population,Status,Indexes,ISO 639 Codes,Alternate Language Names,Western Zambia,Zambezi River,Lozi Kingdom,Barotseland,Powerful Centralized State,Great Zambezi Floodplain,Smaller Ethnic Groups,Absorbed,Lozi Cultural Political Sphere,Language Exists Alongside,Lozi Lingua Franca,Dominant Language,Education,Worship,Public Life,Niger-Congo Bantu Family,Closely Related,Yeyi Peoples,Endangered,Fluency Increasingly Confined,Older Generations,English,Riverine People,Way of Life,Zambezi,Annual Flood Cycle,Floodplains,Fishing,Central,Livelihood,Communities,Stretch of River,Small-scale Farming,Cattle Keeping,Gathering,Natural Resources,River,Margins,Seasonal Flooding,Barotse Floodplain,Kuomboka Ceremony,Rhythm,Agricultural,Social Life,Village Life,Extended Family Networks,Community Decisions,Kinship,Traditional Leadership Structures,Rural Western Province,Modest,Access,Healthcare,Clean Water,Formal Education,Economic Opportunity,Varying Considerably,Scattered Riverside Communities,Close Ties,Land,Water,Sustained,People,Generations,Location in Country,North of Subia,Kazungula District,Ethnologue 2016,Ethnologue Language Code,ttl,Ethnologue Language Family,Glottolog Language Family,Written,Published,ScriptSource Listing,Total Languages,Sub-Saharan Peoples,Affinity Bloc,Central-South,People Cluster,People Group,Ethnic Code,Country,East and Southern,Continent,No,National Bible Society,Website,Persecution Rank,Not Ranked",
     "status": "COMPLETE"
   },
   {
@@ -1266,7 +1266,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Kungbor,Zuie,Butter_Hill,Fula_Camp,Camp_Israel,Fornor,Kawelahun,Tonglay_Village,Sonah_Creek,Soso_camp,ULC,Thomas_Camp,Grand_Cape_Mount,Gbarpolu County,Mano River,Saint Paul River,Deng,Todii,Kongba,Senje,Latin Script,Vai Script,Gola Script,ISO 639-3:gol,Glottolog:gola1255,Atlantic-Congo,Eastern Sierra Leone,Border,Gola People,Gula,West African Ethnic Group,Common Cultural Heritage,Language,History,Poro,Initiation Societies,Women's Initiation,Masked Figures,Powerful Spiritual Beings,Public Performances,Ritual Contexts,Museum,Anthropological Literature,Water Symbolism,Female Authority,Beauty,Discipline,Social Order,Gola Oral Traditions,Spiritual Beings,Water,Nature,Moral Regulation,Society,Mende Interpretations,Sande Mask Spirit,Regional Variation,Beliefs,Ritual Practice,Male Counterpart,Forest Settings,Cultural Traditions,Social Responsibilities,Leadership,Governance,Dispute Resolution,Transmission,Cultural Knowledge,Trans-ethnic Institutions,Multiple Groups,Cultural Exchange,Regional Interaction,Total Population,Northwestern Liberia,Concentrated,Northwestern,Less Than 7%,Gola Population,Border Areas,Cross-border Ethnic Ties,Eastern Districts,Kailahun,Koinadugu,Minor Ethnic Presence,Liberia 2022 Population Housing Census,LISGIS,National Population,Pre-census Estimates,Ethnographic Compilations,Global Gola Population,Over 90%,Minimal Diaspora,Post-conflict Recovery,Urban Migration,Monrovia,Peri-urban Areas,Annual Population Growth Rate,Earliest Indigenous Inhabitants,Côte d'Ivoire,Inland,Kissi Groups,Displacing,Integrating,Prior Populations,Southward,Westward,Riverine Corridors,Mano,Moa Rivers,Oral Traditions,Ethnographic Accounts,Initial Settlements,Forested Uplands,Coastal Hinterlands,Dispersed Chiefdoms,Autonomy,Kinship-based Land Tenure,Gola Settlement Patterns,Border Zones,Clusters,Kailahun District,Semi-sedentary Agriculture,Cleared Forest Patches,Salt,Fish,Forest Products,Coastal Expansions,Inland Bases,Historical Resistance,External Incursions,European Traders,Grain Coast,Fortified Villages,Defend,Mande,Kru Expansions,Population Densities,Low,Settlements,Adaptive Strategies,Malaria-prone,Inter-group Raids,Pre-colonial Patterns,Cyclical Relocations,Established Territories,Soil Exhaustion,Epidemics,Core Areas,Endured,Sacred Groves,Ancestral Claims,Anchoring Clans,Specific Locales,Fluidity,Centralized Mande Polities,Gola Resilience,Vulnerability,Americo-Liberian Encroachments,Compressed Settlements,Narrower Coastal Strips,Ethnographic Reconstructions,Early 1800s,Gola Domains,Approximately 10000 Square Kilometers,Foundational Occupants,Preceding,Dominant Kwa-speaking Migrations,Mel Language,Patrilineal Kinship,Agricultural Practices,Central Social Organization,Sande Society,Initiation Rites,Enforce Moral Codes,Historically Extended,Gola Influence,Neighboring Groups,Ritual Authority,Leadership Structure,Hierarchical Chieftaincy System,West African Ethnic Groups,Region,Apex,Oversee,Entire Chiefdoms,Multiple Clans,Custodians,Communal Land,Arbitrators,Preservers,Cultural Customs,Gola-inhabited Chiefdoms,Malema,Gaura,Tunkia,Koya,Barri,Makpele,Governed,Coordinate,Section,Village Chiefs,Regulate,Community Affairs,Head,Subordinate Clan Chiefs,Manage,Ethnic Lineages,Town Chiefs,Handle,Local Administration,Law Enforcement,Resource Allocation,Selection,Consensus,Elders,Mature Clansmen,Community Elections,Secret Societies,Ancestral Lineages,Modern Statutory Laws,Both Countries,Mandate Periodic Elections,Paramount Positions,Five Years,Presidential Confirmation,Responsibilities,Resolving Civil Disputes,Customary Law,Allocating Farmland,Settlement Areas,Intermediaries,Communities,Central Governments,Maintaining Social Order,Facilitating Development Initiatives,Contemporary Gola Practice,Restricts,Paramount,Town Leadership,Predominantly Men,Patrilineal Descent Patterns,Parallel Influence,Female-led Institutions,Broader Governance,National Frameworks,Participate,Legislative Bodies,Liberia's County Councils,Sierra Leone's Local Councils,Bridging,Customary Authority,State Functions,Taxation,Public Health Enforcement,Environmental Stewardship,Gola Rainforest,Challenges,Elite Capture,Resources,Tensions,Formal Decentralization,Pivotal,Upholding,Gola Identity,Migration,Modernization Pressures,Gola Language,Cote d'Ivoire,Uninhabited,Not Suitable,Excellent Farming Methods,Land,Productive,Farmers,Produce More,Consume,Transportation,Improved,Good Roadways,Mobility,Urban Environment,Round Huts,Thatched Roofs,Clans,Territorial Units,Kinship Groups,Families,Work Together,Abundant Harvests,Clear Fields,Plant Rice,Taro,Peanuts,Harvest Crops,Winnow Rice,Chase Birds,Fields,Large Part,Lives,Gola Religion,Revolves,Agriculture,First Fruits,Year,Celebrate,Yam,Peanut Harvest,Drought,Village Elders,Elder,Pray,Rain,God,Da,Sacrifices,Chicken,Pours,Chicken Blood,Circumcision,Important Rite,Rebirth,Way,Link,Affiliation,Seclusion,Month,Cannot Talk,Anyone,Gifts,Arrows,Food,Status,Responsible Man,Join,Religious Cults",
+    "b": "Kungbor,Zuie,Butter_Hill,Fula_Camp,Camp_Israel,Fornor,Kawelahun,Tonglay_Village,Sonah_Creek,Soso_camp,ULC,Thomas_Camp,Grand_Cape_Mount,Gbarpolu County,Mano River,Saint Paul River,Deng,Todii,Kongba,Senje,Latin Script,Vai Script,ISO 639-3:gol,Glottolog:gola1255,Atlantic-Congo,Eastern Sierra Leone,Border,Gula,West African Ethnic Group,Common Cultural Heritage,Language,History,Poro,Initiation Societies,Women's Initiation,Masked Figures,Powerful Spiritual Beings,Public Performances,Ritual Contexts,Museum,Anthropological Literature,Water Symbolism,Female Authority,Beauty,Discipline,Social Order,Spiritual Beings,Water,Nature,Moral Regulation,Society,Mende Interpretations,Sande Mask Spirit,Regional Variation,Beliefs,Ritual Practice,Male Counterpart,Forest Settings,Cultural Traditions,Social Responsibilities,Leadership,Governance,Dispute Resolution,Transmission,Cultural Knowledge,Trans-ethnic Institutions,Multiple Groups,Cultural Exchange,Regional Interaction,Total Population,Northwestern Liberia,Concentrated,Northwestern,Less Than 7%,Border Areas,Cross-border Ethnic Ties,Eastern Districts,Kailahun,Koinadugu,Minor Ethnic Presence,Liberia 2022 Population Housing Census,LISGIS,National Population,Pre-census Estimates,Ethnographic Compilations,Over 90%,Minimal Diaspora,Post-conflict Recovery,Urban Migration,Monrovia,Peri-urban Areas,Annual Population Growth Rate,Earliest Indigenous Inhabitants,Côte d'Ivoire,Inland,Kissi Groups,Displacing,Integrating,Prior Populations,Southward,Westward,Riverine Corridors,Mano,Moa Rivers,Oral Traditions,Ethnographic Accounts,Initial Settlements,Forested Uplands,Coastal Hinterlands,Dispersed Chiefdoms,Autonomy,Kinship-based Land Tenure,Border Zones,Clusters,Kailahun District,Semi-sedentary Agriculture,Cleared Forest Patches,Salt,Fish,Forest Products,Coastal Expansions,Inland Bases,Historical Resistance,External Incursions,European Traders,Grain Coast,Fortified Villages,Defend,Mande,Kru Expansions,Population Densities,Low,Settlements,Adaptive Strategies,Malaria-prone,Inter-group Raids,Pre-colonial Patterns,Cyclical Relocations,Established Territories,Soil Exhaustion,Epidemics,Core Areas,Endured,Sacred Groves,Ancestral Claims,Anchoring Clans,Specific Locales,Fluidity,Centralized Mande Polities,Vulnerability,Americo-Liberian Encroachments,Compressed Settlements,Narrower Coastal Strips,Ethnographic Reconstructions,Early 1800s,Approximately 10000 Square Kilometers,Foundational Occupants,Preceding,Dominant Kwa-speaking Migrations,Mel Language,Patrilineal Kinship,Agricultural Practices,Central Social Organization,Sande Society,Initiation Rites,Enforce Moral Codes,Historically Extended,Neighboring Groups,Ritual Authority,Leadership Structure,Hierarchical Chieftaincy System,West African Ethnic Groups,Region,Apex,Oversee,Entire Chiefdoms,Multiple Clans,Custodians,Communal Land,Arbitrators,Preservers,Cultural Customs,Malema,Gaura,Tunkia,Koya,Barri,Makpele,Governed,Coordinate,Section,Village Chiefs,Regulate,Community Affairs,Head,Subordinate Clan Chiefs,Manage,Ethnic Lineages,Town Chiefs,Handle,Local Administration,Law Enforcement,Resource Allocation,Selection,Consensus,Elders,Mature Clansmen,Community Elections,Secret Societies,Ancestral Lineages,Modern Statutory Laws,Both Countries,Mandate Periodic Elections,Paramount Positions,Five Years,Presidential Confirmation,Responsibilities,Resolving Civil Disputes,Customary Law,Allocating Farmland,Settlement Areas,Intermediaries,Communities,Central Governments,Maintaining Social Order,Facilitating Development Initiatives,Restricts,Paramount,Town Leadership,Predominantly Men,Patrilineal Descent Patterns,Parallel Influence,Female-led Institutions,Broader Governance,National Frameworks,Participate,Legislative Bodies,Liberia's County Councils,Sierra Leone's Local Councils,Bridging,Customary Authority,State Functions,Taxation,Public Health Enforcement,Environmental Stewardship,Challenges,Elite Capture,Resources,Tensions,Formal Decentralization,Pivotal,Upholding,Migration,Modernization Pressures,Cote d'Ivoire,Uninhabited,Not Suitable,Excellent Farming Methods,Land,Productive,Farmers,Produce More,Consume,Transportation,Improved,Good Roadways,Mobility,Urban Environment,Round Huts,Thatched Roofs,Clans,Territorial Units,Kinship Groups,Families,Work Together,Abundant Harvests,Clear Fields,Plant Rice,Taro,Peanuts,Harvest Crops,Winnow Rice,Chase Birds,Fields,Large Part,Lives,Revolves,Agriculture,First Fruits,Year,Celebrate,Yam,Peanut Harvest,Drought,Village Elders,Elder,Pray,Rain,God,Da,Sacrifices,Chicken,Pours,Chicken Blood,Circumcision,Important Rite,Rebirth,Way,Link,Affiliation,Seclusion,Month,Cannot Talk,Anyone,Gifts,Arrows,Food,Status,Responsible Man,Join,Religious Cults",
     "status": "COMPLETE"
   },
   {
@@ -1296,7 +1296,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Kadiolo,Lobougoula,Niena,Zanférébougou,Blendio,Nkourala,Kafouziéla,Gongasso,Kignan,Finkolo,Finkolo Ganadougou,Kouoro,Danderesso,Koumankou,Koungoba,Kapolondougou,Sanzana,Nimbougou,Diou,Dioumaténé,Fourou,Kaï,Misséni,Zégoua,Kadiolo Cercle,Gur,Mali Independence,Farakala Village,Cultivating,Millet,Ancestral History,Agricultural Processes,Neighboring Cultures,Bananas,Manioc,Successfully Cultivated,Care,Chickens,Sheep,Goats,Guinea Fowl,Significant Source,Nutrition,Wealth,Correlated,Number,Quality,Money,Hunting,Fishing,Important,Smaller Degree,Risen Above,Hunter-gatherer,Traditional Mode,Organization,Single Person,Excessive Power,Two Traditional Classes,Laborers,Farmers,Approximately 2.2 Million Speakers,Senufo People,Oldest Ethnic Groups,Descended,Ruled,Established,Last City,Invasion Mali,French Colonial Rule,Autonomy,Independent Country,A Grammar of Supyire,Chapter 1 Introduction,Noun süpyfrä,Two Meanings,Language Spoken,Name,Both Senses,Southeastern Mali,Came,Historically Accurate,Main Body,Northern Côte d'Ivoire,Cultivate,Various Kinds,Keep Livestock,Incorporated,Various Political Entities,Last 125 Years,Successively,Data Collected,Nanerge,Central Senufo Languages,Narrow Band,Mande-speaking People,Separated,Several,Dialects,Diverge,Within Kampwo Area,Speech,Fairly Homogenous,Difficulty,Communicating,Further Afield,Notable Differences,Investigation,Gur Languages,Suffixal Noun Class System,Atypical,Geographically Contiguous,Chief Peculiarity,Placement,Direct Object,Before Verb,Indirect Objects,After Verb,Order,Areal Phenomenon,Shared,Songai,Kru Languages,Resemble,Numerous Ways,Similarities,Noted,Doubtless Come Light,Systematically Studied,Long History,Bilingualism,Diaspora Jula,Many Lexical Items,Grammatical Ones,Borrowed,Probable,Several Grammatical Constructions,Caiques,Corresponding Bambara Constructions,Effort,Indicate,Bambara Borrowings,Examples,Bambara Forms,Given,Bailleul 1981,Standard Bambara,Source Dialects,Supyire Loans,Normally,Sikasso Jula,Data Base,Research Begun,Lived,Principal Consultant,Ely Sanogo,Helped,Yaya Sanogo,Lamin Sanogo,Kleno Sanogo,Kafono Sanogo,Brema Diamoutane,Recorded,Transcribed,Length,Narratives Predominate,Procedural,Expository Discourses,Lengthy Conversations,Speakers,Surrounding Villages,Age,Teenagers,Old People,Old Man,Slave,Freed,French Conquest,Half Texts,Contributed,Women,Referred,Corpus,Present Grammar,Judgments Frequency,Actual Counts,Representative,Speech Behavior,People Living,Kampwo,Finite Sample,Elicitation,Extensively Used,Investigations,Little,Elicitation Alone,Included,Description,Assumed,Size,Variety,Contain,Most Major Grammatical,Through Shedding Blood,Comparison,Levitical,Supyire Concepts,Sacrifice,Michael William Thomas,Jemphrey,SIL Resources,Archives,Wife Miranda,Daughter Shona,Two-year-old,Village Kabakanha,Twenty Miles West,Sikasso Town,Capital Mali,SIL Team,Linguistic,Anthropological Research,Literacy,Time Approached,Move,Daunting,Years,Learned Language,Circle Friends,Acquaintances,Rejoiced,Stephanie,Born,Little Family,Personal,Family Dramas,Unfolding,Co-operation,Church Leaders,Missionaries,Studied,Worked,Producing Written Materials,Sense Utter Strangeness,Way,Belonging,Strangers,Never Fully Understand,Strange Ways,Fully Understood,Place,Become,Working,Confronted Day,One Language,One Whole Worldview,Simple Word,Seems Easy,Translate,Pwun,Designates,Familiar Four-legged Creature,Connotations,Word,May Bring,Mind,Hearer,Jews,Despised Gentiles,Bring Up Images,Hunting Animal,Bloody Sacrificial Offering,Fetish,Complicating Factor,Multiethnic Team,Call Someone,Derogatory,German Colleague,Assures,Hund,Compliment Someone,Intelligence,Guard Against Possible Mismatches,Meaning,Essential,Process,Jesus' Remark,Gentile Woman,Take Children's Bread,Toss,Dogs,Proved Necessary,Add,Explanatory Footnote,Bridge,Cultural Gap,Increase Comprehension,Dialogue,Over 350000,Live,South-eastern Mali,Maps,Figures 1,pp.10-11,Name Supyire,Chain,Seventeen Senufo Languages,Spoken,Savannah,West Africa,Stretching,Côte d'Ivoire,Divided,Northern Group,Further North,Border,Largest Ethnic Groups,Non-Senufo,Jula,Languages,Dominant,Militarily,Politically,Jula Traders,Considerable Economic Power,Large Majority,Both Groups,Muslim,Barbara F.,Ed,Ethnologue: Languages of the World,Dallas: Summer Institute of Linguistics Inc.,p.310,Figure 2: Map of Supyirephone Area in Mali,ENVIRONMENT,Breadbasket Mali,Environment,Gentler,Humans,Rest Country,Terrain,Forested,Hosts,Series,Gently Undulating Hills,Few Plains,First Christian,Good Illustration,Va,Warrior,Renowned,Certain Supernatural Powers,Predict Future,No Metal Object,Penetrate Body,Wealthy,Cattle,Jealousy,Riches,Chased,One Village,Finally Settled,Time,Protestant Missionaries,Hard Time,Finding,Supyire Village,Welcome,Message,Naba,Predicted,Refused,Whites,Later Come,Admire,Converted,Predominately Christian Village,Striking Note,Ongoing Effects,Decision Today,Large Number,Christians,Reverted,Animism,Stranglehold,Fear Change,Held,Broken,Today,Major Market Town,Boasts,Dispensary,Maternity,Primary,Secondary Schools,Seat,New Mayor's Office,Ongoing Struggle,Supyire Identity,Education French,Migration,Other Ethnic Groups,North Mali,Outside Religion,Development Agencies,Introducing,New Technologies,Modern Communication,Tendency,Squeeze,Sidelines,Public Life,Other Hand,Remain Proud,Identity,Local Radio Stations,Broadcast,Author,Grandson Pabara Sagoro,AGE AND BUSH,Supyire World,Divided Two: Village,Safe Sanctuary,Surrounded,Wild Bush,Inhabited,Dangerous Animals,Spirits,Animals,Two Categories: Bush Animals,Domestic Animals,Even More Sinister,Night,Point of View,Make Decision,Attempt Please Everyone,Guarding Peace,At Least Surface,Flip Side,Stress Unity,Individualism,Not Readily Tolerated,Families,Install Themselves,Outside Main Village,Regarded Suspicion,Heard One Village,Anyone,Might Become Christian,Threatened Death,Malana Sagoro,Story,One Man,Only Son,Married,Fulani Girl,Adopted,Fulani Name,Fulani Customs,Herded Cattle,Fulani Nomad,Father Insisted,Son Return,Supyire Ways,Son Refused,Son Died Prematurely,Father Said,Asked Ancestors,Punish Son,Large Family,Similar Decision-making Process,Three Main Families,Same Surname,Two Descended,Two Brothers,Founded Village,Third Descended,Slave Family,Members,Become Village Chief,Chiefdom,Handed,Oldest Man,Two Free Families,National International Level,Identify Closely,Generally Keep Distance,Other Ethnic Races,Town Sikasso,Largest Ethnic Group,Own Political Party,Command Overall Majority,Local Legislative Body,Dispute Arises,Preference,Resolve Internally,Rather Than,Bringing,Attention,Civil Authorities,Where Sacrifices Made,Different Spirits,Supyire Pantheon,Live Outside Village,Fields,Trees,Rivers,Take Place,Often Sacred Spot,Marked,Unusual Geographical Feature,Reside: Village Sarazo,Dense Thicket,Trees Must Not Cut,Original Alliance,Founding Fathers,Jinas,Made,Ifola,Pool,Sacred Fish,Eaten,Large Flat Solid Rock,Misiricoro,Unusual Grotto,Case,Niara,Le Pori,Une Fête Traditionelle en Milieu Senoufo,Mémoire de Fin d'Etudes à l'Ecole Nationale d'Administration,p.19,Map Showing,Supyire Spoken,IPA Phonetic Symbols,Guide,IPA Symbols",
+    "b": "Kadiolo,Lobougoula,Niena,Zanférébougou,Blendio,Nkourala,Kafouziéla,Gongasso,Kignan,Finkolo,Finkolo Ganadougou,Kouoro,Danderesso,Koumankou,Koungoba,Kapolondougou,Sanzana,Nimbougou,Diou,Dioumaténé,Fourou,Kaï,Misséni,Zégoua,Kadiolo Cercle,Gur,Mali Independence,Farakala Village,Cultivating,Millet,Ancestral History,Agricultural Processes,Neighboring Cultures,Bananas,Manioc,Successfully Cultivated,Care,Chickens,Sheep,Goats,Guinea Fowl,Significant Source,Nutrition,Wealth,Correlated,Number,Quality,Money,Hunting,Fishing,Important,Smaller Degree,Risen Above,Hunter-gatherer,Traditional Mode,Organization,Single Person,Excessive Power,Two Traditional Classes,Laborers,Farmers,Approximately 2.2 Million Speakers,Senufo People,Oldest Ethnic Groups,Descended,Ruled,Established,Last City,Invasion Mali,French Colonial Rule,Autonomy,Independent Country,Chapter 1 Introduction,Noun süpyfrä,Two Meanings,Language Spoken,Name,Both Senses,Southeastern Mali,Came,Historically Accurate,Main Body,Northern Côte d'Ivoire,Cultivate,Various Kinds,Keep Livestock,Incorporated,Various Political Entities,Last 125 Years,Successively,Data Collected,Nanerge,Central Senufo Languages,Narrow Band,Mande-speaking People,Separated,Several,Dialects,Diverge,Within Kampwo Area,Speech,Fairly Homogenous,Difficulty,Communicating,Further Afield,Notable Differences,Investigation,Gur Languages,Suffixal Noun Class System,Atypical,Geographically Contiguous,Chief Peculiarity,Placement,Direct Object,Before Verb,Indirect Objects,After Verb,Order,Areal Phenomenon,Shared,Songai,Kru Languages,Resemble,Numerous Ways,Similarities,Noted,Doubtless Come Light,Systematically Studied,Long History,Bilingualism,Diaspora Jula,Many Lexical Items,Grammatical Ones,Borrowed,Probable,Several Grammatical Constructions,Caiques,Corresponding Bambara Constructions,Effort,Indicate,Bambara Borrowings,Examples,Bambara Forms,Given,Bailleul 1981,Standard Bambara,Source Dialects,Normally,Sikasso Jula,Data Base,Research Begun,Lived,Principal Consultant,Ely Sanogo,Helped,Yaya Sanogo,Lamin Sanogo,Kleno Sanogo,Kafono Sanogo,Brema Diamoutane,Recorded,Transcribed,Length,Narratives Predominate,Procedural,Expository Discourses,Lengthy Conversations,Speakers,Surrounding Villages,Age,Teenagers,Old People,Old Man,Slave,Freed,French Conquest,Half Texts,Contributed,Women,Referred,Corpus,Present Grammar,Judgments Frequency,Actual Counts,Representative,Speech Behavior,People Living,Kampwo,Finite Sample,Elicitation,Extensively Used,Investigations,Little,Elicitation Alone,Included,Description,Assumed,Size,Variety,Contain,Most Major Grammatical,Through Shedding Blood,Comparison,Levitical,Sacrifice,Michael William Thomas,Jemphrey,SIL Resources,Archives,Wife Miranda,Daughter Shona,Two-year-old,Village Kabakanha,Twenty Miles West,Sikasso Town,Capital Mali,SIL Team,Linguistic,Anthropological Research,Literacy,Time Approached,Move,Daunting,Years,Learned Language,Circle Friends,Acquaintances,Rejoiced,Stephanie,Born,Little Family,Personal,Family Dramas,Unfolding,Co-operation,Church Leaders,Missionaries,Studied,Worked,Producing Written Materials,Sense Utter Strangeness,Way,Belonging,Strangers,Never Fully Understand,Strange Ways,Fully Understood,Place,Become,Working,Confronted Day,One Language,One Whole Worldview,Simple Word,Seems Easy,Translate,Pwun,Designates,Familiar Four-legged Creature,Connotations,Word,May Bring,Mind,Hearer,Jews,Despised Gentiles,Bring Up Images,Hunting Animal,Bloody Sacrificial Offering,Fetish,Complicating Factor,Multiethnic Team,Call Someone,Derogatory,German Colleague,Assures,Hund,Compliment Someone,Intelligence,Guard Against Possible Mismatches,Meaning,Essential,Process,Jesus' Remark,Gentile Woman,Take Children's Bread,Toss,Dogs,Proved Necessary,Add,Explanatory Footnote,Bridge,Cultural Gap,Increase Comprehension,Dialogue,Over 350000,Live,South-eastern Mali,Maps,Figures 1,pp.10-11,Chain,Seventeen Senufo Languages,Spoken,Savannah,West Africa,Stretching,Côte d'Ivoire,Divided,Northern Group,Further North,Border,Largest Ethnic Groups,Non-Senufo,Jula,Languages,Dominant,Militarily,Politically,Jula Traders,Considerable Economic Power,Large Majority,Both Groups,Muslim,Barbara F.,Ed,Ethnologue: Languages of the World,Dallas: Summer Institute of Linguistics Inc.,p.310,ENVIRONMENT,Breadbasket Mali,Environment,Gentler,Humans,Rest Country,Terrain,Forested,Hosts,Series,Gently Undulating Hills,Few Plains,First Christian,Good Illustration,Va,Warrior,Renowned,Certain Supernatural Powers,Predict Future,No Metal Object,Penetrate Body,Wealthy,Cattle,Jealousy,Riches,Chased,One Village,Finally Settled,Time,Protestant Missionaries,Hard Time,Finding,Welcome,Message,Naba,Predicted,Refused,Whites,Later Come,Admire,Converted,Predominately Christian Village,Striking Note,Ongoing Effects,Decision Today,Large Number,Christians,Reverted,Animism,Stranglehold,Fear Change,Held,Broken,Today,Major Market Town,Boasts,Dispensary,Maternity,Primary,Secondary Schools,Seat,New Mayor's Office,Ongoing Struggle,Education French,Migration,Other Ethnic Groups,North Mali,Outside Religion,Development Agencies,Introducing,New Technologies,Modern Communication,Tendency,Squeeze,Sidelines,Public Life,Other Hand,Remain Proud,Identity,Local Radio Stations,Broadcast,Author,Grandson Pabara Sagoro,AGE AND BUSH,Divided Two: Village,Safe Sanctuary,Surrounded,Wild Bush,Inhabited,Dangerous Animals,Spirits,Animals,Two Categories: Bush Animals,Domestic Animals,Even More Sinister,Night,Point of View,Make Decision,Attempt Please Everyone,Guarding Peace,At Least Surface,Flip Side,Stress Unity,Individualism,Not Readily Tolerated,Families,Install Themselves,Outside Main Village,Regarded Suspicion,Heard One Village,Anyone,Might Become Christian,Threatened Death,Malana Sagoro,Story,One Man,Only Son,Married,Fulani Girl,Adopted,Fulani Name,Fulani Customs,Herded Cattle,Fulani Nomad,Father Insisted,Son Return,Son Refused,Son Died Prematurely,Father Said,Asked Ancestors,Punish Son,Large Family,Similar Decision-making Process,Three Main Families,Same Surname,Two Descended,Two Brothers,Founded Village,Third Descended,Slave Family,Members,Become Village Chief,Chiefdom,Handed,Oldest Man,Two Free Families,National International Level,Identify Closely,Generally Keep Distance,Other Ethnic Races,Town Sikasso,Largest Ethnic Group,Own Political Party,Command Overall Majority,Local Legislative Body,Dispute Arises,Preference,Resolve Internally,Rather Than,Bringing,Attention,Civil Authorities,Where Sacrifices Made,Different Spirits,Live Outside Village,Fields,Trees,Rivers,Take Place,Often Sacred Spot,Marked,Unusual Geographical Feature,Reside: Village Sarazo,Dense Thicket,Trees Must Not Cut,Original Alliance,Founding Fathers,Jinas,Made,Ifola,Pool,Sacred Fish,Eaten,Large Flat Solid Rock,Misiricoro,Unusual Grotto,Case,Niara,Le Pori,Une Fête Traditionelle en Milieu Senoufo,Mémoire de Fin d'Etudes à l'Ecole Nationale d'Administration,p.19,Map Showing,IPA Phonetic Symbols,Guide,IPA Symbols",
     "status": "COMPLETE"
   },
   {
@@ -1316,7 +1316,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Natitingou,Bassila,Malanville,Karimama,Segbana,Kalale,Banikoara,N'Dali,Perere,Gogonou,Kerou,Kouande,Wassa-Tobre,Wassa-Pehunco,Baruten,Okuta,Ilesha,Yashikera,Kenu,Kaoje,Bagudo,Kebbi State,Kwara State,Niger State,Borgu LGA,Kaiama LGA,Illo district,Nigeria,Togo,Mekrou River,Dosso Region,Zarma,Koyraboro Senni,Dialect Cluster,Bariba,Songhai Empire,Dendiganda,Dendi Province,Down the River,Trade Language,Northern Benin,Alibori,Borgou,Donga,Atakora,Kebbi,Kwara,Sokoto,Bordering States,Dendawa,Hausa Name,Recognised Minority Language,ISO 639-3:ddn,Glottolog:dend1243,Nilo-Saharan,Southern Dendi,Latin Writing System,Wider Communication,First Language,Ethnic Community,Education,Instruction,Subject,Subsistence Farming,Millet,Maize,Plantains,Manioc,Rice,Cowpeas,Groundnuts,Cassava,Carrots,Tomatoes,Peppers,Cabbage,Squash,Cattle,Camels,Sheep,Goats,Chickens,Milk,Cows,Vegetables,Herbs,Fruit Production,Mango,Guava,Citrus,Papayas,Bananas,Dates,Islam,Ibadhi,Ahmadi,Alevi,Yazidi,Druze,Khariji,Magic,Spirit Possession,Ancestor Worship,Witchcraft,Magician-healers,Witches,Weekly Ceremonies,Malanville sub-Prefecture,Karimama sub-prefecture,Mokole,Yoruba,Yom,Lokpa,Fulfulde,Baatonum,Boko/Busa,Arabic Loanwords,Religion,Trade Items,Abstract Concepts,Parakou Kings,Tchabe,Akpaki Dynasty,Baatonu,Wassangari,Rulers,Land Owners,Vassals,Peasants,Zoki,Vassal King,Zoana,Zona,Slave,Vassal,Intermarriage,First Boko Royal Clans,Baatonu Royal Clans,King of Nikki,Oral History,Campagns,Askia Mohammed Descendants,Tara,Village Chief Dakou,Tassa,Samsou Béri,Dizi,Overthrow,Marriage,Village Chief's Daughter,Alliance,Indigenous Leaders,Traditional Deities,Conflicts,Aristocracy,Migration,Small Groups,Border Region,Second Half 18th Century,Binary Opposition,Traditional Religion,Conquerors,Political Power,Founding Hero,Contact Songhay Conquerors,Lineage,Former Askias,Populations,Rule Today,Highly Hierarchical Society,Founding Myths,City Wall,Slave Raids,Fulani,Spirits of the Earth,Warned,Man in Charge,Die,Completing Work,Songhay Samsou Béri,Refused,Urged,Kyanga Chief Kokoa Monzon,Accepted,Designated,Fara Monzon,Symbolic Gesture,Resignation,Military Superiority,City Surrounded,Wall,Division Functions,Songhay Political Authority,Kyanga Religious Authority,Dendi Identity,Historical Alliance,Native Immigrant,Common Language,Songhay Origin,Kept the Place,Songhay Perspective,Waves Settlement,Oldest Campaigns,Second Wave,Current Songhay Chiefdoms,Followed Niger River,Two Brothers,Descendants Askia Mohammed,Founded City Tanda,Established Both Banks,Descendants,Rule Neighborhood,Canton Chiefdoms,Songhay Narrative,Founding City,Differs Significantly,Kyanga Narrative,Kyanga Claim,Ancestors,Prior Arrival,Descendants Claim,Temporarily Occupied,Chief Ekoye,Former Canton Chief,El Hadj Hanga,Founder Dendi,Left Songhay Empire,Settled Garou,Married Tassa,Daughter Village Chief Dakou,Birth Samsou Béri,Dakou Died,Dizi Designated Successor,Samsou Grew Up,Tried Overthrow Dizi,Proclaim Village Chief,Faced Opposition,Crossed River,Allies,Founding Tara,Story Similarities,Historical Socio-political Organization,Aristocracy Allied,Marrying Village Chief's Daughter,Security Indigenous Leaders,Support Traditional Deities,Conflicts Members Aristocracy,Migration Small Groups,Key Moments,Kyanga Narratives,Leadership Founding Hero,Attempts Establish Contact,Newly-arrived Songhay Conquerors,Results Encounter,Oral History Emphasizes,Lineage Former Askias,Populations Rule Today,Superiority Highly Hierarchical Society,Foundation Myths,City Wall Gaya,Slave Raids Fulani,Spirits Earth Warned,Man Charge Construction Die Completing Work,Songhay Samsou Béri Refused Build Wall Symbolized Foundation City Instead Urged Kyanga Chief Kokoa Monzon Take Task Despite Risk Building Wall Kokoa Monzon Accepted Designated Fara Monzon Successor Symbolic Gesture Resignation Military Superiority Songhay City Gaya Finally Surrounded Wall Division Functions Songhay Political Authority Kyanga Religious Authority Dendi Identity Historical Alliance Native Immigrant Unified Common Language Songhay Origin We Have Kept Place Songhay Perspective Songhay Populations Established Waves Settlement Oldest Dating Campaigns Askia Muhammad 1505 1517 Second Wave Linked Fall Songhay Empire 1591 Third Gave Birth Current Songhay Chiefdoms Region Probably Left Region Located Between Ansongo Niamey Very Beginning Eighteenth Century Reached Gaya Followed Niger River Among Them Two Brothers Daouda Hanga Often Considered Descendants Askia Mohammed Local Accounts Regarded First Songhay Immigrants Daouda Hanga Said Founded City Tanda Gaya Before Establishing Themselves Both Banks Niger River Descendants Still Rule Neighborhood Canton Chiefdoms Gaya Songhay Own Narrative Founding City Differs Significantly Kyanga Narrative Kyanga Claim Ancestors Established Gaya Prior Arrival Songhay Descendants Claim Kyanga Had Only Temporarily Occupied Gaya Chief Ekoye Former Canton Chief Gaya 1970 2011 Tells Following Story Establishment Songhay El Hadj Hanga Founder Dendi Left Songhay Empire Settle Garou Benin Married Tassa Daughter Village Chief Dakou Birth Samsou Béri Hari Gani Dakou Died Dizi Designated Successor Samsou Grew Tried Overthrow Dizi Proclaim Village Chief Mother Objected Faced Opposition Crossed River Left Bank Disgruntled Allies Founded Village Tara Founding Tara Sought Another Site Became Gaya",
+    "b": "Natitingou,Bassila,Malanville,Karimama,Segbana,Kalale,Banikoara,N'Dali,Perere,Gogonou,Kerou,Kouande,Wassa-Tobre,Wassa-Pehunco,Baruten,Okuta,Ilesha,Yashikera,Kenu,Kaoje,Bagudo,Kebbi State,Kwara State,Niger State,Borgu LGA,Kaiama LGA,Illo district,Nigeria,Togo,Mekrou River,Dosso Region,Zarma,Koyraboro Senni,Dialect Cluster,Bariba,Songhai Empire,Dendiganda,Down the River,Trade Language,Northern Benin,Alibori,Borgou,Donga,Atakora,Kebbi,Kwara,Sokoto,Bordering States,Dendawa,Hausa Name,Recognised Minority Language,ISO 639-3:ddn,Glottolog:dend1243,Nilo-Saharan,Latin Writing System,Wider Communication,First Language,Ethnic Community,Education,Instruction,Subject,Subsistence Farming,Millet,Maize,Plantains,Manioc,Rice,Cowpeas,Groundnuts,Cassava,Carrots,Tomatoes,Peppers,Cabbage,Squash,Cattle,Camels,Sheep,Goats,Chickens,Milk,Cows,Vegetables,Herbs,Fruit Production,Mango,Guava,Citrus,Papayas,Bananas,Dates,Islam,Ibadhi,Ahmadi,Alevi,Yazidi,Druze,Khariji,Magic,Spirit Possession,Ancestor Worship,Witchcraft,Magician-healers,Witches,Weekly Ceremonies,Malanville sub-Prefecture,Karimama sub-prefecture,Mokole,Yoruba,Yom,Lokpa,Fulfulde,Baatonum,Boko/Busa,Arabic Loanwords,Religion,Trade Items,Abstract Concepts,Parakou Kings,Tchabe,Akpaki Dynasty,Baatonu,Wassangari,Rulers,Land Owners,Vassals,Peasants,Zoki,Vassal King,Zoana,Zona,Slave,Vassal,Intermarriage,First Boko Royal Clans,Baatonu Royal Clans,King of Nikki,Oral History,Campagns,Askia Mohammed Descendants,Tara,Village Chief Dakou,Tassa,Samsou Béri,Dizi,Overthrow,Marriage,Village Chief's Daughter,Alliance,Indigenous Leaders,Traditional Deities,Conflicts,Aristocracy,Migration,Small Groups,Border Region,Second Half 18th Century,Binary Opposition,Traditional Religion,Conquerors,Political Power,Founding Hero,Contact Songhay Conquerors,Lineage,Former Askias,Populations,Rule Today,Highly Hierarchical Society,Founding Myths,City Wall,Slave Raids,Fulani,Spirits of the Earth,Warned,Man in Charge,Die,Completing Work,Songhay Samsou Béri,Refused,Urged,Kyanga Chief Kokoa Monzon,Accepted,Designated,Fara Monzon,Symbolic Gesture,Resignation,Military Superiority,City Surrounded,Wall,Division Functions,Songhay Political Authority,Kyanga Religious Authority,Historical Alliance,Native Immigrant,Common Language,Songhay Origin,Kept the Place,Songhay Perspective,Waves Settlement,Oldest Campaigns,Second Wave,Current Songhay Chiefdoms,Followed Niger River,Two Brothers,Descendants Askia Mohammed,Founded City Tanda,Established Both Banks,Descendants,Rule Neighborhood,Canton Chiefdoms,Songhay Narrative,Founding City,Differs Significantly,Kyanga Narrative,Kyanga Claim,Ancestors,Prior Arrival,Descendants Claim,Temporarily Occupied,Chief Ekoye,Former Canton Chief,El Hadj Hanga,Left Songhay Empire,Settled Garou,Married Tassa,Daughter Village Chief Dakou,Birth Samsou Béri,Dakou Died,Dizi Designated Successor,Samsou Grew Up,Tried Overthrow Dizi,Proclaim Village Chief,Faced Opposition,Crossed River,Allies,Founding Tara,Story Similarities,Historical Socio-political Organization,Aristocracy Allied,Marrying Village Chief's Daughter,Security Indigenous Leaders,Support Traditional Deities,Conflicts Members Aristocracy,Migration Small Groups,Key Moments,Kyanga Narratives,Leadership Founding Hero,Attempts Establish Contact,Newly-arrived Songhay Conquerors,Results Encounter,Oral History Emphasizes,Lineage Former Askias,Populations Rule Today,Superiority Highly Hierarchical Society,Foundation Myths,City Wall Gaya,Slave Raids Fulani,Spirits Earth Warned,Man Charge Construction Die Completing Work",
     "status": "COMPLETE"
   },
   {
@@ -1356,7 +1356,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Kurana Basa,Ghwa,Barawa,Hambagda,Yola,Belel,Kurana Kwandama,Ghweɗe,Hude,Johode,Traude,Dehoxde,Tghuade,Toghwede,Wa'a,Zaghvana,Chadic,Biu-Mandara,Wandala-Mafa,A.4,West Dghweɗe,Borno State,Gwoza LGA,Nigeria,Cameroon,Displaced Persons,Camps,Adamawa State,UNHCR,Refugee Camp,Boko Haram Violence,Ancestral Lands,Gerhard Müller-Kosack,Anthropologist,Recordings 1994-2001,Dghwede Villages,Wolff 1971:11,Wandala Group,Central-Chadic,SIL Ethnologue,Mandara Proper,Glavda Subgroup,Blench 1999,Mandara Group A,Wandala Cluster,Mura,Malgwa,Ethnic Identity,Sons Mbra/Ngra,Turu,Traditional Context,Dghwede-Ghwa'a,First Comers,Dghwede-Vaghagaya,Came Later,Associated Lineages,Clans,Himbe,Rainmaker Lineage,Gaske,Ske,Peacemaker Lineage,Dagha,Historically Related,Zelidva,Highest Parts,Large Section Zelidva,Speak Lamang,Independent Ethnic Unit,Dghwede Descent,Podokwa,Formerly Lived,North-eastern Parts,Migrated,Mora Hills,Close Ancestral Relationships,Mandara,Refer Own Language,Meaning I Said,Population Estimates,Census 1963 Projects 25000 Azagvana 1996,Census 1991 Projects 12000,Population Density 150 Inhabitants Sq/km Mountains,Traditional Units,Takweshe,Administratively Divided Two Villages,Units 1-7,Units 8-13,Division Settlement None Settlement Farmland,Not Entirely Clear Cut,Closer Lineage Bonds,Common Ancestor Korana,Neighbours,Settlement Area Closely Bound North,Outer Fields South,Inner Fields Outer Fields,Traditional Settlement Unit,Unit Boundaries Follow Shape Natural Landscape,Dwellings Found Along Slopes,Never Valleys,Farmland Extended,River Cuts Valley,Traditional Boundary,Whole Valley Outer Fields Only",
+    "b": "Kurana Basa,Ghwa,Barawa,Hambagda,Yola,Belel,Kurana Kwandama,Ghweɗe,Hude,Johode,Traude,Dehoxde,Tghuade,Toghwede,Wa'a,Zaghvana,Chadic,Biu-Mandara,Wandala-Mafa,A.4,West Dghweɗe,Borno State,Gwoza LGA,Nigeria,Cameroon,Displaced Persons,Camps,Adamawa State,UNHCR,Refugee Camp,Boko Haram Violence,Ancestral Lands,Gerhard Müller-Kosack,Anthropologist,Recordings 1994-2001,Wolff 1971:11,Wandala Group,Central-Chadic,SIL Ethnologue,Mandara Proper,Glavda Subgroup,Blench 1999,Mandara Group A,Wandala Cluster,Mura,Malgwa,Ethnic Identity,Sons Mbra/Ngra,Turu,Traditional Context,Dghwede-Ghwa'a,First Comers,Dghwede-Vaghagaya,Came Later,Associated Lineages,Clans,Himbe,Rainmaker Lineage,Gaske,Ske,Peacemaker Lineage,Dagha,Historically Related,Zelidva,Highest Parts,Large Section Zelidva,Speak Lamang,Independent Ethnic Unit,Podokwa,Formerly Lived,North-eastern Parts,Migrated,Mora Hills,Close Ancestral Relationships,Mandara,Refer Own Language,Meaning I Said,Population Estimates,Census 1963 Projects 25000 Azagvana 1996,Census 1991 Projects 12000,Population Density 150 Inhabitants Sq/km Mountains,Traditional Units,Takweshe,Administratively Divided Two Villages,Units 1-7,Units 8-13,Division Settlement None Settlement Farmland,Not Entirely Clear Cut,Closer Lineage Bonds,Common Ancestor Korana,Neighbours,Settlement Area Closely Bound North,Outer Fields South,Inner Fields Outer Fields,Traditional Settlement Unit,Unit Boundaries Follow Shape Natural Landscape,Dwellings Found Along Slopes,Never Valleys,Farmland Extended,River Cuts Valley,Traditional Boundary,Whole Valley Outer Fields Only",
     "status": "COMPLETE"
   },
   {
@@ -1366,7 +1366,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Hiré-Ouatta,Fresco,Sassandra,Guéyo,Vavoua,Gagnoa,Jacqueville,Godie,Djiboua,Gôgnoa,Godié,Abou,Vata,Lozoua,Lozwa,Divo Varieties,Prestige Variety,Lakota Dida,Yocoboué Dida,Gaɓogbo,Guébié,Gebye,ISO 639-3:gud,dic,gie,Glottolog:dida1245,yoco1235,lako1244,gabo1234,Niger-Congo,Kru,Eastern Dida,Dialect Cluster,Ivory Coast,Southern Ivory Coast,Yocoboué 101600,Lakota 93800,Limited Mutual Intelligibility,Separate Languages,Lozoua 7100,Divo 94500,Lakota Varieties Lakota Abou Vata,Côte d'Ivoire,Lagunes District,Gôh-Djiboua District,Lake Taabo,Lakota Town Area,Several Small Areas,Subdivisions,South Dida Lagunary Peoples,Islands,West Godyé,Bété,North Gagou,Gouro,East Baoulé,Contact Different Civilizations,Language 19 Dialects,Lavergne de Tressan,Delafosse,Krou Group,Bété Subgroup,West Ivorian Languages,Patrilineal Filiation,Predominant,Baoulé,AgnI,Women,Hotte,Usage,Original Cultural Forms,Fractions,Diverse Origins,Dida Mamini,Cantons Wata Zégo,Garo Group,Route Tiassalé,Migration Baoulé,Early 18th Century,Komoé River,Miraculous Crossing,Canton Wata,Gogobro,Bwakabo,Kagbé,Hiré-Wata,Sakota,Hunter,North,Game,Population,Returned,Described,Invaded,Garo,Inhabitants Gohou,Withdrew,Villages Data Troko,Marriages,Adopted Language Customs,Original Language Lost,Dead,Buried Garo,First Times,Man Akpala Godé,Heavy Body,Transported,Buried Place,Since Then,Villagers Bury Dead,New Installation,Inhabitants Lagazé,Gold Exploitation,Five Villages,Forced Leave,West,Disputes,Agni,Zaguié,Oumé,Fetishist Akposohiri,Attack Didoko,Magical Power,Storm,Attack Moment,Inhabitants Shelter,Huts,Village Burned,Many Burned Killed,Data Canton Zégo,Subd Divo,Zaroko Village,Awalé 12 Holes Game,Footnotes,Grivot Circle Grand-Lahou,Bull IFAN,Delafosse Vocabulaire 60 Languages,Paris Leroux 1904,Lavergne Tressan Inventaire Linguistique,Occidental Francais Togo,Mem IFAN 1953 Dakar,Bernus Ahouati Notes Village Dida,gt Ebum 1957 Abidjan,Zkroko Village,Bandama River,Right Bank,Woman Hidden Gold,Swamélé Fraction Baoulé,North Tiassalé,Banana,Oumé Subd Bouaflé,Léléblé Taabo,Canton Swamélé,Subd Tiassalé",
+    "b": "Hiré-Ouatta,Fresco,Sassandra,Guéyo,Vavoua,Gagnoa,Jacqueville,Godie,Djiboua,Gôgnoa,Godié,Abou,Vata,Lozoua,Lozwa,Divo Varieties,Prestige Variety,Gaɓogbo,Guébié,Gebye,ISO 639-3:gud,dic,gie,Glottolog:dida1245,yoco1235,lako1244,gabo1234,Niger-Congo,Kru,Dialect Cluster,Ivory Coast,Southern Ivory Coast,Yocoboué 101600,Lakota 93800,Limited Mutual Intelligibility,Separate Languages,Lozoua 7100,Divo 94500,Lakota Varieties Lakota Abou Vata,Côte d'Ivoire,Lagunes District,Gôh-Djiboua District,Lake Taabo,Lakota Town Area,Several Small Areas,Subdivisions,Islands,West Godyé,Bété,North Gagou,Gouro,East Baoulé,Contact Different Civilizations,Language 19 Dialects,Lavergne de Tressan,Delafosse,Krou Group,Bété Subgroup,West Ivorian Languages,Patrilineal Filiation,Predominant,Baoulé,AgnI,Women,Hotte,Usage,Original Cultural Forms,Fractions,Diverse Origins,Cantons Wata Zégo,Garo Group,Route Tiassalé,Migration Baoulé,Early 18th Century,Komoé River,Miraculous Crossing,Canton Wata,Gogobro,Bwakabo,Kagbé,Hiré-Wata,Sakota,Hunter,North,Game,Population,Returned,Described,Invaded,Garo,Inhabitants Gohou,Withdrew,Villages Data Troko,Marriages,Adopted Language Customs,Original Language Lost,Dead,Buried Garo,First Times,Man Akpala Godé,Heavy Body,Transported,Buried Place,Since Then,Villagers Bury Dead,New Installation,Inhabitants Lagazé,Gold Exploitation,Five Villages,Forced Leave,West,Disputes,Agni,Zaguié,Oumé,Fetishist Akposohiri,Attack Didoko,Magical Power,Storm,Attack Moment,Inhabitants Shelter,Huts,Village Burned,Many Burned Killed,Data Canton Zégo,Subd Divo,Zaroko Village,Awalé 12 Holes Game,Footnotes,Grivot Circle Grand-Lahou,Bull IFAN,Delafosse Vocabulaire 60 Languages,Paris Leroux 1904,Lavergne Tressan Inventaire Linguistique,Occidental Francais Togo,Mem IFAN 1953 Dakar,gt Ebum 1957 Abidjan,Zkroko Village,Bandama River,Right Bank,Woman Hidden Gold,Swamélé Fraction Baoulé,North Tiassalé,Banana,Oumé Subd Bouaflé,Léléblé Taabo,Canton Swamélé,Subd Tiassalé",
     "status": "COMPLETE"
   },
   {
@@ -1406,7 +1406,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Tchakijebe,Doulek,Tchere,Ɗugwor,ISO 639-3:dme,Glottolog:dugw1239,Mixed with Gemzek,Extrapolated 4300,Dugwor Village,Mekere Village,Dugwor Speaking People",
+    "b": "Tchakijebe,Doulek,Tchere,Ɗugwor,ISO 639-3:dme,Glottolog:dugw1239,Mixed with Gemzek,Extrapolated 4300,Mekere Village",
     "status": "WAITING"
   },
   {
@@ -1416,7 +1416,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Population 1900,Indigenous,Progress Scale,Unreached,Frontier,GSEC 4,PeopleGroups.org,Pioneer Workers Needed,PeopleID3 12538,ROP3 Code 104661,West and Central,Yes,National Bible Society,Website,Persecution Rank,Open Doors Top 50 Rank,Location in Country,Barkin Ladi LGA,Akwanga LGA,Kerifa Village,Ethnologue 2016,Primary Language,Ethnologue Language Code,kbz,Ethnologue Language Family,Glottolog Language Family,Primary Dialect,Dialect Code,Published,ScriptSource Listing,Total Languages,Sociolinguistic Survey,Three Lesser-known Ron Languages,Duhwa kbz,Mindat mmf,Sya scw,Manguna Districts,North Central Nigeria,West,A,A.4,Western Ron Languages,Siebert 1997:6,Blench 2001:25,Population Estimates,Duhwa Speakers,Speaker Population,Entire Ethnic Community,One Main Village,Three Sub-villages,One Village,Ten Villages,Largest,Three Groups,Within Few Kilometers,Particularly Remote,Isolated Locations,No Dialectal Variation,Interviewees,Active Oral Use,Parents,Caregivers,Own Languages,Children,Speak Respective Languages,Very Well,Some Mindat People,Understand Duhwa,Some Sya,Understand Mindat,No Comprehension,Limited Multilingualism,Adults,Kulere,Turkwam,Age Groups,Varying Degrees,Proficiency,Some Use,Use,Limited,Those Languages,Multilingualism,Heritage Language Use,All Domains,Language Vitality,Assessed,EGIDS 6a,Sustainable Oral Language Use,Duhwa (Karfa) Transcribed Wordlist Spreadsheet,Name Duhwa,Strong People,Word Karfi,Hausa Language,Village Name Karfa,Meaning,Reality,People Group,Proud,Came From,Place Called Mupun,Pankshin LGA,Migrated,Margor,Current Location,Duhwa Speaking People,Live,Village Named Karfa,Two Smaller Parts,Karfa Located,Village Lies,Growing Crops,Manguna District,Latitude 9°19'53''N,Longitude 8°51'68''E,Local Government Headquarters,Jos,Plateau State Capital,Six Villages,Manguna District Headquarters,Hurti,Mahurum,Dambwash,Gwande,Inhabited,Shagawu Dialect,Ron Language,Linguistically Homogenous,Minor Variations,Major Languages,Spoken,Barkin Ladi LGAs,Possibly,Shagau Dialect,Blench 24,Location,Area of Linguistic Diversity,Interaction,Benue Congo,Niger-Congo Phylum,Afro-Asiatic Phylum,Greenberg's Four Phyla,African Languages,Widely Recognized,Linguistic Literature,Lis Ma Run,Maleni,Nafunfia,Shagawu,Clans,Mbar,Mangor,Kunduk,Bargesh,Butura,Blench,Group,Ten Languages,Distinct Lects,Daffo-Butura,Monguna,Mundat,Ngas Group,West Chadic,Sub-Branch A,Absence,Regular Sound Correspondences,Languages,Ron Group,Internal Diversity,Substrate Influences,Expansion,Assimilation,Pre-existing Benue-Congo Speaking Communities,Non-Ron Languages,Ron Area,Horom,Bo-Rukul,Mabo-Barkul,Plateau,Benue-Congo Languages,Remnants,Larger Group,Plateau Languages,Once Occupied,Entire Region,Kirk-Greene,Complexity,Very Rapid Language Change,Diversification,Benue-Congo Influences,Distinct,Benue-Congo Neighbours,Cultural Contiguity,Variety,Linguistic Interactions,Benue-Congo Loans,Distinctive,Manguna Women,Body Scarification,Sha Women,Aspect,Neighbours,Especially,Ere,Type,Masquerades,Manguna Area,Mangam,Munja,Identified,Kulere Area,Mangut,Mangut 101,Maram,Study 17",
+    "b": "Population 1900,Indigenous,Progress Scale,Unreached,Frontier,GSEC 4,PeopleGroups.org,Pioneer Workers Needed,PeopleID3 12538,ROP3 Code 104661,West and Central,Yes,National Bible Society,Website,Persecution Rank,Open Doors Top 50 Rank,Location in Country,Barkin Ladi LGA,Akwanga LGA,Kerifa Village,Ethnologue 2016,Primary Language,Ethnologue Language Code,kbz,Ethnologue Language Family,Glottolog Language Family,Primary Dialect,Dialect Code,Published,ScriptSource Listing,Total Languages,Sociolinguistic Survey,Three Lesser-known Ron Languages,Mindat mmf,Sya scw,Manguna Districts,North Central Nigeria,West,A,A.4,Western Ron Languages,Siebert 1997:6,Blench 2001:25,Population Estimates,Speaker Population,Entire Ethnic Community,One Main Village,Three Sub-villages,One Village,Ten Villages,Largest,Three Groups,Within Few Kilometers,Particularly Remote,Isolated Locations,No Dialectal Variation,Interviewees,Active Oral Use,Parents,Caregivers,Own Languages,Children,Speak Respective Languages,Very Well,Some Mindat People,Some Sya,Understand Mindat,No Comprehension,Limited Multilingualism,Adults,Kulere,Turkwam,Age Groups,Varying Degrees,Proficiency,Some Use,Use,Limited,Those Languages,Multilingualism,Heritage Language Use,All Domains,Language Vitality,Assessed,EGIDS 6a,Sustainable Oral Language Use,Strong People,Word Karfi,Hausa Language,Village Name Karfa,Meaning,Reality,People Group,Proud,Came From,Place Called Mupun,Pankshin LGA,Migrated,Margor,Current Location,Live,Village Named Karfa,Two Smaller Parts,Karfa Located,Village Lies,Growing Crops,Manguna District,Latitude 9°19'53''N,Longitude 8°51'68''E,Local Government Headquarters,Jos,Plateau State Capital,Six Villages,Manguna District Headquarters,Hurti,Mahurum,Dambwash,Gwande,Inhabited,Shagawu Dialect,Ron Language,Linguistically Homogenous,Minor Variations,Major Languages,Spoken,Barkin Ladi LGAs,Possibly,Shagau Dialect,Blench 24,Location,Area of Linguistic Diversity,Interaction,Benue Congo,Niger-Congo Phylum,Afro-Asiatic Phylum,Greenberg's Four Phyla,African Languages,Widely Recognized,Linguistic Literature,Lis Ma Run,Maleni,Nafunfia,Shagawu,Clans,Mbar,Mangor,Kunduk,Bargesh,Butura,Blench,Group,Ten Languages,Distinct Lects,Daffo-Butura,Monguna,Mundat,Ngas Group,West Chadic,Sub-Branch A,Absence,Regular Sound Correspondences,Languages,Ron Group,Internal Diversity,Substrate Influences,Expansion,Assimilation,Pre-existing Benue-Congo Speaking Communities,Non-Ron Languages,Ron Area,Horom,Bo-Rukul,Mabo-Barkul,Plateau,Benue-Congo Languages,Remnants,Larger Group,Plateau Languages,Once Occupied,Entire Region,Kirk-Greene,Complexity,Very Rapid Language Change,Diversification,Benue-Congo Influences,Distinct,Benue-Congo Neighbours,Cultural Contiguity,Variety,Linguistic Interactions,Benue-Congo Loans,Distinctive,Manguna Women,Body Scarification,Sha Women,Aspect,Neighbours,Especially,Ere,Type,Masquerades,Manguna Area,Mangam,Munja,Identified,Kulere Area,Mangut,Mangut 101,Maram,Study 17",
     "status": "COMPLETE"
   },
   {
@@ -1426,7 +1426,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Rumbek,Gogrial,Aweil,Bentiu,Jaang,Jieng,Muonyjieng,Thuɔŋjäŋ,Thuɔŋ ë Jiɛ̈ɛ̈ŋ,Jiɛ̈ɛ̈ŋ,Akutmɛ̈t Latueŋ Thuɔŋjäŋ,Dinka Language Development Association,Unified Written Grammar,Nuer Language,Major Tributary,Bahr el Ghazal,Padaŋ de Ayuël jiel,Abiliang,Nyiël,Ageer,Döŋjɔl,Luäc,Akook,Wieu,Aguer,Ŋɔŋ de Jok,Rut,Thoi,Ciëc,Jang,Gɔ̈k,Twi,Malual-Jiɛrnyaaŋ,Abiëm,Paliëët,Aroyo,Paliëupiny ku Pajok,Luänyjäŋ,Twic Bol,ŋ Aköc,Atok Buk,n Mawien,Kɔŋgör,Padɔc,Yär Ayi,Jurwïïr,Thɔny Amɔ̈,Luä,Bol Malek,Aköök,Acuïï,Thï,Akuëcb,Adöör Mabiör D,ISO 639-2:din,ISO 639-3:din,dks,Glottolog:dink1261,Official Language,Latin Writing System,Nilotic Dialect Cluster,Dinka People,Major Ethnic Group,Main Varieties,Distinct Enough,Mutually Intelligible,Separate Literary Standards,General Term,Cover All Dinka Languages,Proposed Unified Written Grammar,Closely Related,Nuer,Vocabulary,Proximity,Found Mainly,Flowing North,Bahr el Ghazal Region,Upper Nile State,Linguists Divide,Respect To Each Other,Multiple Sections,Chiefdoms,Clans,Seasonal Migration,Transhumance,Primary Road,Runs East,Yirol Town,Terekeka,Central Equatoria State,Logistics Cluster,Passable,Wet Season 2024,Secondary Road,Runs North,Amongpiny/Amok Piny,Rainy Season 2024,Amongpiny,Impassable,Tertiary Road Network,South-west Parts,Condition,Unknown,Conflict Sensitivity Resource Facility,County Profile",
+    "b": "Rumbek,Gogrial,Aweil,Bentiu,Jaang,Jieng,Muonyjieng,Thuɔŋjäŋ,Thuɔŋ ë Jiɛ̈ɛ̈ŋ,Jiɛ̈ɛ̈ŋ,Akutmɛ̈t Latueŋ Thuɔŋjäŋ,Unified Written Grammar,Nuer Language,Major Tributary,Bahr el Ghazal,Padaŋ de Ayuël jiel,Abiliang,Nyiël,Ageer,Döŋjɔl,Luäc,Akook,Wieu,Aguer,Ŋɔŋ de Jok,Rut,Thoi,Ciëc,Jang,Gɔ̈k,Twi,Malual-Jiɛrnyaaŋ,Abiëm,Paliëët,Aroyo,Paliëupiny ku Pajok,Luänyjäŋ,Twic Bol,ŋ Aköc,Atok Buk,n Mawien,Kɔŋgör,Padɔc,Yär Ayi,Jurwïïr,Thɔny Amɔ̈,Luä,Bol Malek,Aköök,Acuïï,Thï,Akuëcb,Adöör Mabiör D,ISO 639-2:din,ISO 639-3:din,dks,Glottolog:dink1261,Official Language,Latin Writing System,Nilotic Dialect Cluster,Major Ethnic Group,Main Varieties,Distinct Enough,Mutually Intelligible,Separate Literary Standards,General Term,Proposed Unified Written Grammar,Closely Related,Nuer,Vocabulary,Proximity,Found Mainly,Flowing North,Bahr el Ghazal Region,Upper Nile State,Linguists Divide,Respect To Each Other,Multiple Sections,Chiefdoms,Clans,Seasonal Migration,Transhumance,Primary Road,Runs East,Yirol Town,Terekeka,Central Equatoria State,Logistics Cluster,Passable,Wet Season 2024,Secondary Road,Runs North,Amongpiny/Amok Piny,Rainy Season 2024,Amongpiny,Impassable,Tertiary Road Network,South-west Parts,Condition,Unknown,Conflict Sensitivity Resource Facility,County Profile",
     "status": "COMPLETE"
   },
   {
@@ -1466,7 +1466,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Bata,Ebebiyin,Mongomo,Evinayong,Aconibe,Micomeseng,Bitica,Cogo,Rio Campo,Acurenam,Ayene,Niefang,Kogo,Akonibe,Acalayong,Mbini,Rio Muni,Malabo,Corisco,Bioko,Annobon,Libreville,Port-Gentil,Franceville,Oyem,Bitam,Minvoul,Mitzic,Medouneu,Mekambo,Makokou,Lastoursville,Koulamoutou,Mouila,Tchibanga,Gamba,Mayumba,Omboue,Fougamou,Ogooue River,Ogooue Estuary,Ivindo River,Woleu River,Ntem River,Kom River,Muni River,Mbini River,Kie River,Wele Nzas Province,Centro Sur Province,Kie-Ntem Province,Woleu-Ntem Province,Ogooue-Ivindo Province,Ogooue-Lolo Province,Ogooue-Maritime Province,Haut-Ogooue Province,Ngounie Province,Nyanga Province,Mongomo District,Ebebiyin District,Akonibe District,Niefang District,Kogo District,Bata District,Republic of Congo,Southern Cameroon,Dja-et-Lobo Department,Djoum,Mvila Department,Mvangan,Ocean Department,Lolodorf,Kribi,Vallée-du-Ntem Department,Ntoumou,Mekê,Atsi,Batsi,Nzaman,Zaman,Mveni,Mvaïe,Ntumu,Mvayn,Southwest Fang,ISO 639-3:fan,Glottolog:fang1246,Atlantic-Congo,Volta-Congo,Benue-Congo,Bantoid,Bantu,Beti-Pahuin,Beti,Bulu,Ewondo,Fãn,Fang People,Largest Ethnic Group,Quarter Population,Oral Tradition,Musical,Spanish,French,German,English,Second Language,Spanish Colonial Rule,French Colonial Rule,German Colonial Rule,Patrilineal Kinship,Social Structure,Villages,Linked,Lineage,Exogamous,Father's Side,Polygamy,Culture,Independence Villages,Notable,Knowledge,Animals,Plants,Herbs,Equatorial Forests,Traditionally Farmers,Hunters,Cocoa Farmers,Colonial Era,Cannibals,Stereotyped,Explorers,Missionaries,Human Skulls,Bones,Open,Wooden Boxes,Near Villages,Claim,Justify Violence,Enslavement,Villages Raided,Thousands,Wooden Idols,Villages Burnt,Colonial Administration,Later Ethnologists,Not Cannibalistic,Human Bones,Boxes,Dead Loved Ones,Remembrance,Religious Reverence,Musical Oral Tradition,History Preserved,Fang Language,Similar Intelligible,Beti-Pahuin Peoples,Beti People,Bulu People,Ogooue River Estuary,Anthropologists",
+    "b": "Bata,Ebebiyin,Mongomo,Evinayong,Aconibe,Micomeseng,Bitica,Cogo,Rio Campo,Acurenam,Ayene,Niefang,Kogo,Akonibe,Acalayong,Mbini,Rio Muni,Malabo,Corisco,Bioko,Annobon,Libreville,Port-Gentil,Franceville,Oyem,Bitam,Minvoul,Mitzic,Medouneu,Mekambo,Makokou,Lastoursville,Koulamoutou,Mouila,Tchibanga,Gamba,Mayumba,Omboue,Fougamou,Ogooue River,Ogooue Estuary,Ivindo River,Woleu River,Ntem River,Kom River,Muni River,Mbini River,Kie River,Wele Nzas Province,Centro Sur Province,Kie-Ntem Province,Woleu-Ntem Province,Ogooue-Ivindo Province,Ogooue-Lolo Province,Ogooue-Maritime Province,Haut-Ogooue Province,Ngounie Province,Nyanga Province,Mongomo District,Ebebiyin District,Akonibe District,Kogo District,Bata District,Republic of Congo,Southern Cameroon,Dja-et-Lobo Department,Djoum,Mvila Department,Mvangan,Ocean Department,Lolodorf,Kribi,Vallée-du-Ntem Department,Ntoumou,Mekê,Atsi,Batsi,Nzaman,Zaman,Mveni,Mvaïe,Ntumu,Mvayn,ISO 639-3:fan,Glottolog:fang1246,Atlantic-Congo,Volta-Congo,Benue-Congo,Bantoid,Bantu,Beti-Pahuin,Beti,Bulu,Ewondo,Fãn,Largest Ethnic Group,Quarter Population,Oral Tradition,Musical,Spanish,French,German,English,Second Language,Spanish Colonial Rule,French Colonial Rule,German Colonial Rule,Patrilineal Kinship,Social Structure,Villages,Linked,Lineage,Exogamous,Father's Side,Polygamy,Culture,Independence Villages,Notable,Knowledge,Animals,Plants,Herbs,Equatorial Forests,Traditionally Farmers,Hunters,Cocoa Farmers,Colonial Era,Cannibals,Stereotyped,Explorers,Missionaries,Human Skulls,Bones,Open,Wooden Boxes,Near Villages,Claim,Justify Violence,Enslavement,Villages Raided,Thousands,Wooden Idols,Villages Burnt,Colonial Administration,Later Ethnologists,Not Cannibalistic,Human Bones,Boxes,Dead Loved Ones,Remembrance,Religious Reverence,Musical Oral Tradition,History Preserved,Similar Intelligible,Beti-Pahuin Peoples,Beti People,Bulu People,Ogooue River Estuary,Anthropologists",
     "status": "COMPLETE"
   },
   {
@@ -1506,7 +1506,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Onitsha,Aba,Abakaliki,Awka,Asaba,Nsukka,Nkwerre,Nnewi,Awgu,Eha-Amufu,Ikem,Udi,Agbani,Nkanu,Mbaise,Mbano,Mbieri,Mbaitoli,Mbele,Mbodo,Aboh,Isu,Nwangele,Oru-East,Oru-West,Ihite,Obowo,Ezinihitte,Aboh-Mbaise,Ahiazu-Mbaise,Eziobodo,Ngor-Okpala,Ikeduru,Owerri-North,Owerri-West,Owerri-Municipal,Iho,Atta,Eziama,Amaimo,Umuelemai,Anara,Amaraku,Umundugba,Amandugba,Isu-Njaba,Nwaorieubi,Ogbaku,Ordo,Ifakala,Umuneke-Ngor,Umuowa,Ozuzu,Nnenasa,Umuaka,Amaigbo,Agulu,Neni,Ichida,Adazi-Nnukwu,Akwaeze,Obeledu,Nri,Aguluzigbo,Oraeri,Nanka,Ekwulobia,Isuofia,Umuchu,Igbo-Ukwu,Awka-Etiti,Amawbia,Nibo,Nise,Mbaukwu,Okpuno,Umuawulu,Nnewi-Ichi,Otolo,Uruagu,Umudim,Nnobi,Oba,Ojoto,Okija,Ozubulu,Ihiala,Ogoloma,Amorka,Ubulu,Ubulu-Uku,Ogwashi-Uku,Issele-Uku,Ibusa,Agbor,Orji,Eke,Ibagwa,Opi,Edem,Okpuje,Ibagwa-Ndiagu,Alor,Ovoko,Ohebe,Obollo-Afor,Enugu-Ezike,Orba,Obollo-Etiti,Umulokpa,Adani,Nimbo,Agbogugu,Mpu,Nenwe,Ndiabor,Oduma,Okpanku,Amoli,Ukehe,Aku,Diogbe,Ohodo,Umuna,Ozalla,Ikolo,Ochima,Achi,Inyi,Oji-River,Akpugo,Nkerefi,Nomeh,Ogbahu,Oruku,Ugbawka,Afor-Oru,Idemili,Ogidi,Nkpor,Obosi,Abatete,Uke,Oraukwu,Okpoko,Fegge,Ichi,Omuko,Akokwa,Arondizuogu,Dikenafai,Okwelle,Ofeahia,Okwe,Isinweke,Uboma,Afro-Asiatic,Niger-Congo,Atlantic-Congo,Volta-Congo,Benue-Congo,Igboid,Igbo,ISO 639-3:ibo,Glottolog:igbo1248,Equatorial Guinea,Cameroon,Haiti,Barbados,Jamaica,Trinidad,USA,UK,Canada,Language Family,Official Language,Lingua Franca,South East Nigeria,Anambra,Imo,Abia,Ebonyi,Rivers,Delta,Cross River,Benue,Kogi,Edo,Ondo,Osun,Oyo,Kwara,Niger,Plateau,Nasarawa,FCT Abuja,Dialects,Standard Igbo,Onicha,Ngwa,Olu,Etche,Ika,Ikwere,Ekpeye,Item,Isuikwuato",
+    "b": "Onitsha,Aba,Abakaliki,Awka,Asaba,Nsukka,Nkwerre,Nnewi,Awgu,Eha-Amufu,Ikem,Udi,Agbani,Nkanu,Mbaise,Mbano,Mbieri,Mbaitoli,Mbele,Mbodo,Aboh,Isu,Nwangele,Oru-East,Oru-West,Ihite,Obowo,Ezinihitte,Aboh-Mbaise,Ahiazu-Mbaise,Eziobodo,Ngor-Okpala,Ikeduru,Owerri-North,Owerri-West,Owerri-Municipal,Iho,Atta,Eziama,Amaimo,Umuelemai,Anara,Amaraku,Umundugba,Amandugba,Isu-Njaba,Nwaorieubi,Ogbaku,Ordo,Ifakala,Umuneke-Ngor,Umuowa,Ozuzu,Nnenasa,Umuaka,Amaigbo,Agulu,Neni,Ichida,Adazi-Nnukwu,Akwaeze,Obeledu,Nri,Aguluzigbo,Oraeri,Nanka,Ekwulobia,Isuofia,Umuchu,Igbo-Ukwu,Awka-Etiti,Amawbia,Nibo,Nise,Mbaukwu,Okpuno,Umuawulu,Nnewi-Ichi,Otolo,Uruagu,Umudim,Nnobi,Oba,Ojoto,Okija,Ozubulu,Ihiala,Ogoloma,Amorka,Ubulu,Ubulu-Uku,Ogwashi-Uku,Issele-Uku,Ibusa,Agbor,Orji,Eke,Ibagwa,Opi,Edem,Okpuje,Ibagwa-Ndiagu,Alor,Ovoko,Ohebe,Obollo-Afor,Enugu-Ezike,Orba,Obollo-Etiti,Umulokpa,Adani,Nimbo,Agbogugu,Mpu,Nenwe,Ndiabor,Oduma,Okpanku,Amoli,Ukehe,Aku,Diogbe,Ohodo,Umuna,Ozalla,Ikolo,Ochima,Achi,Inyi,Oji-River,Akpugo,Nkerefi,Nomeh,Ogbahu,Oruku,Ugbawka,Afor-Oru,Idemili,Ogidi,Nkpor,Obosi,Abatete,Uke,Oraukwu,Okpoko,Fegge,Ichi,Omuko,Akokwa,Arondizuogu,Dikenafai,Okwelle,Ofeahia,Okwe,Isinweke,Uboma,Afro-Asiatic,Niger-Congo,Atlantic-Congo,Volta-Congo,Benue-Congo,Igboid,Igbo,ISO 639-3:ibo,Glottolog:igbo1248,Equatorial Guinea,Cameroon,Haiti,Barbados,Jamaica,Trinidad,USA,UK,Canada,Language Family,Official Language,Lingua Franca,South East Nigeria,Anambra,Imo,Abia,Ebonyi,Rivers,Delta,Cross River,Benue,Kogi,Edo,Ondo,Osun,Oyo,Kwara,Niger,Plateau,Nasarawa,FCT Abuja,Dialects,Onicha,Ngwa,Olu,Etche,Ika,Ikwere,Ekpeye,Item,Isuikwuato",
     "status": "COMPLETE"
   },
   {
@@ -1516,7 +1516,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Akwanga,Awe,Keana,Doma,Obi,Abuja,Karshi,New Karshi,Karu,Nyankpa,Gwandara Kyan-Kyara,Gwandara Ara,Gwandara Padan Karshi,Gurku,Angwan Gwandara,Yarkade,Gwandara Madaki,Kokona,Garaku,Agwada,Amba,Dan,Ninkoro,Haderi,Pam Barau,Kufai Gwari,Yelwa,Akware,Kofar Gwari,Moroa,Ajuye,Angwan Yaro,Angwan Doka,Dokan Daji,Shabu,Jaman Gayan,Nasarawa,Nassarawa,Toto,Keffi LGA,Lafia LGA,Akwanga LGA,Awe LGA,Doma LGA,Obi LGA,Abuja FCT,Bwali LGA,Kwai LGA,Niger State,Suleija LGA,Gurara LGA,Kaduna State,Kaura LGA,Plateau State,Riyom LGA,Taraba State,Benue State,Zaria,Gwandara Toni,Gwandara Karshi,Gwandara Panda,Govandara,Madaki Keffi,Nuhu,Dauda,Maikwoto,Magaji Dan Yamusa,Captain Maloney,Ibrahim Mai Gunduma,Bashayi,Mainasara,Gankuma,Afo,Gbagyi,Migili,Alago,Eggon,Mada,Koro,Hausa,Angas,Geomai,Odoma,Agatu,Tiv,Afro-Asiatic,Chadic,West Chadic,Hausa-Gwandara,A.1,Dialects,Gwandara Karashi,Kyan Kyar,Nimbia,ISO 639-3:gwn,Glottolog:gwan1254,Stable Indigenous Language,North Central,FCT Abuja,Indigenous Tribes,Capital City Nigeria,Political System,Hausa City States,Sark,Sangari,Whurki,Seleki,Leader,Settlement,Title Holders,Hierarchical Structure,Subsistence Farmers,Farms,Bush,Outside Villages,Huts,Circle,Compound,Extended Family,One Entrance,Hut Connected,Corn Bin,Granary,Village Chief,Handles Affairs,Settles Disputes,Men,Hausa-style Gowns,Women,Cloths,Loose Strings,Hips,Bundles Leaves,Hanging,Front,Back,Palm Oil,Uses,Obtained,Kept,Village,Sold,Markets,Mats,Major Product,Four Days,Make,Beer,Tobacco,Gwandara Life,Neither Smoke Pipes,Nor Drink Excess,Young Men,Fathers' Farms,Until Marry,Age Seventeen,Girls,Betrothed,Young Children,Before Marriageable Age,Right,Break Engagement,Bride Price,Returned,Suitor,Ritual Dances,Important Aspect,Ethnic Religious Society,Ethnic Religions,Deeply Rooted,Ethnic Identity,Conversion,Equates,Assimilation,Betrayal,Sacrificing Goats,Sheep,Lesser Gods,Each,Open Circular Spaces,Inside,Approached,Avenues Palms,Temples,Mud,Containing,Village God,History,Introduced,Fourteenth Century,Younger Brother,Ruling Chief,Refused Convert,Warning,Chief,Convert,Enslaved,Followers,Traveled Southward,Gwagwa,Muslim Attacks,Another Dispersion,Farther South,Finally Settled,Jukun Territory,Seventeenth,Eighteenth Centuries,Refuge Zone,Diverse Peoples,Fleeing Communities,Various Reasons,Gwandara Dominating,Politically,Region,Many Years,Now Live,Mainly,Akwaja,Nassarawa Divisions,Plateau Province,Nasawara State,Created,Includes Divisions,Gwandara Live,Often Found,Major City,Northern Nigeria,Traditionally Grouped,Hausa People,Inhabitants City Kano,Connection,Huge People Group,Close Contact,Diverse Ethnic Groups,Benue Basin Region,Culturally Resemble,Gwari,Yeskwa Peoples,Often Marry,Yeskwa Tribe,Dances,Religion,Similar,Arago People",
+    "b": "Akwanga,Awe,Keana,Doma,Obi,Abuja,Karshi,New Karshi,Karu,Nyankpa,Gurku,Yarkade,Kokona,Garaku,Agwada,Amba,Dan,Ninkoro,Haderi,Pam Barau,Kufai Gwari,Yelwa,Akware,Kofar Gwari,Moroa,Ajuye,Angwan Yaro,Angwan Doka,Dokan Daji,Shabu,Jaman Gayan,Nasarawa,Nassarawa,Toto,Keffi LGA,Lafia LGA,Akwanga LGA,Awe LGA,Doma LGA,Obi LGA,Abuja FCT,Bwali LGA,Kwai LGA,Niger State,Suleija LGA,Gurara LGA,Kaduna State,Kaura LGA,Plateau State,Riyom LGA,Taraba State,Benue State,Zaria,Govandara,Madaki Keffi,Nuhu,Dauda,Maikwoto,Magaji Dan Yamusa,Captain Maloney,Ibrahim Mai Gunduma,Bashayi,Mainasara,Gankuma,Afo,Gbagyi,Migili,Alago,Eggon,Mada,Koro,Hausa,Angas,Geomai,Odoma,Agatu,Tiv,Afro-Asiatic,Chadic,West Chadic,Hausa-Gwandara,A.1,Dialects,Kyan Kyar,Nimbia,ISO 639-3:gwn,Glottolog:gwan1254,Stable Indigenous Language,North Central,FCT Abuja,Indigenous Tribes,Capital City Nigeria,Political System,Hausa City States,Sark,Sangari,Whurki,Seleki,Leader,Settlement,Title Holders,Hierarchical Structure,Subsistence Farmers,Farms,Bush,Outside Villages,Huts,Circle,Compound,Extended Family,One Entrance,Hut Connected,Corn Bin,Granary,Village Chief,Handles Affairs,Settles Disputes,Men,Hausa-style Gowns,Women,Cloths,Loose Strings,Hips,Bundles Leaves,Hanging,Front,Back,Palm Oil,Uses,Obtained,Kept,Village,Sold,Markets,Mats,Major Product,Four Days,Make,Beer,Tobacco,Neither Smoke Pipes,Nor Drink Excess,Young Men,Fathers' Farms,Until Marry,Age Seventeen,Girls,Betrothed,Young Children,Before Marriageable Age,Right,Break Engagement,Bride Price,Returned,Suitor,Ritual Dances,Important Aspect,Ethnic Religious Society,Ethnic Religions,Deeply Rooted,Ethnic Identity,Conversion,Equates,Assimilation,Betrayal,Sacrificing Goats,Sheep,Lesser Gods,Each,Open Circular Spaces,Inside,Approached,Avenues Palms,Temples,Mud,Containing,Village God,History,Introduced,Fourteenth Century,Younger Brother,Ruling Chief,Refused Convert,Warning,Chief,Convert,Enslaved,Followers,Traveled Southward,Gwagwa,Muslim Attacks,Another Dispersion,Farther South,Finally Settled,Jukun Territory,Seventeenth,Eighteenth Centuries,Refuge Zone,Diverse Peoples,Fleeing Communities,Various Reasons,Politically,Region,Many Years,Now Live,Mainly,Akwaja,Nassarawa Divisions,Plateau Province,Nasawara State,Created,Includes Divisions,Often Found,Major City,Northern Nigeria,Traditionally Grouped,Hausa People,Inhabitants City Kano,Connection,Huge People Group,Close Contact,Diverse Ethnic Groups,Benue Basin Region,Culturally Resemble,Gwari,Yeskwa Peoples,Often Marry,Yeskwa Tribe,Dances,Religion,Similar,Arago People",
     "status": "COMPLETE"
   },
   {
@@ -1546,7 +1546,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Makari,Hilé Alifa,Zina,Muxule,Douguia,Dro,Walia,Kousséri,Sahu,Sao,Logone River,Lake Chad,Maladi,Woulki,Biamo,Bodo,Belguede,Blangape,Blangwa,El Beid River,Serbéouel River,Buduma,yedina,Maltam Kotoko,maslam,Makary Kotoko,mpade,Goulfey Kotoko,malgbe,Afade Kotoko,afaɗə,Kousseri Kotoko,msər,Logone-Birni Kotoko,lagwan,Mazera Kotoko,maʒera,Island Buduma,yedəna,Northern Makary,Central Kousseri,Southern Mazera,Fishing,Farming,Rivers Flow Into Lake Chad,Traditionally Primary Occupation,Nigeria,West,Gambarou,Woumbi,Maiduguri,Chad,East,N'Djamena,Major Cities Cameroon,Maroua,Garoua,Ngaoundere,Yaounde,Douala,Majority Muslim,Auto-denomination Village Language Same,wo,Makary mpadə,Dougoumsilio ɗəgəmsəlio,Mutual Intelligibility,Cover Term,Makary Largest Town,Government Offices,Mayor's Office,Sub-prefect's Office,Police Station,Gendarme Post,Prison,Post Office,Public Education Offices,Agricultural Offices,Nine Kotoko Languages,Kotoko Group,Central Chadic B Branch,Biu-Mandara B Branch,Afro-Asiatic Family,Mutually Unintelligible,Tourneux 2000a:113,Grouping Language Name Auto-denomination,Island Buduma yedəna,Northern Makary Kotoko Makary Kotoko mpadə,Goulfey Kotoko malgbe,Afade Kotoko afaɗə,Maltam Kotoko maɬam,Central Kousseri Kotoko msər,Logone-Birni Kotoko lagwan,Southern Mazera Kotoko maʒera,Villages Situated Rivers Flow Lake Chad,Primary Occupation Fishing Farming,Speakers Nigeria West Gambarou Woumbi Maiduguri Chad East Mani N'Djamena Major Cities Cameroon Kousseri Maroua Garoua Ngaoundere Yaounde Douala Majority Muslim Village Language Same wo Makary mpadə Dougoumsilio ɗəgəmsəlio Mutual Intelligibility Cover Term Makary Largest Town 2-3000 Inhabitants Government Offices Mayor's Office Sub-prefect's Office Police Station Gendarme Post Prison Post Office Public Education Offices Agricultural Offices Nine Kotoko Languages Kotoko Group Central Chadic B Branch Biu-Mandara B Branch Afro-Asiatic Family Mutually Unintelligible Tourneux 2000a:113 Grouping Language Name Auto-denomination Island Buduma yedəna Northern Makary Kotoko Makary Kotoko mpadə Goulfey Kotoko malgbe Afade Kotoko afaɗə Maltam Kotoko maɬam Central Kousseri Kotoko msər Logone-Birni Kotoko lagwan Southern Mazera Kotoko maʒera,Sao Civilisation,Independent Kingdom,Logone-et-Chari Far North Region Cameroon West Africa Right East Bank Distributary Chari River Delta Before Enters Lake Chad Kotoko People Local Language Mpade Fulani Fulfulde Trade Language Primary Economic Activity Fishing,Makary Part Indigenous Sao Civilisation Occupied Land South Lake Chad Sixth Century A.D Decline Fourteenth Century Decline Sao Confederation Makary Independent Kingdom Kotoko Kingdom City-states Early Fifteenth Century Ally King Idris Alooma Bornu Empire Converted Islam Late Eighteenth Century Nominally Still Part Bornu City States Reasserted Themselves 1800 Makary Formed Federation Seven Fortified Towns Prince Mé,Cameroon,Logone-et-Chari,West Africa,Right East Bank Distributary Chari River Delta Lake Chad,Kotoko People,Local Language Mpade,Fulani Fulfulde Trade Language,Primary Economic Activity Fishing,Makary Part Indigenous Sao Civilisation,Decline Sao Confederation,Makary Independent Kingdom",
+    "b": "Makari,Hilé Alifa,Zina,Muxule,Douguia,Dro,Walia,Kousséri,Sahu,Sao,Logone River,Lake Chad,Maladi,Woulki,Biamo,Bodo,Belguede,Blangape,Blangwa,El Beid River,Serbéouel River,Buduma,yedina,maslam,mpade,malgbe,afaɗə,msər,lagwan,maʒera,Island Buduma,yedəna,Northern Makary,Central Kousseri,Southern Mazera,Fishing,Farming,Rivers Flow Into Lake Chad,Traditionally Primary Occupation,Nigeria,West,Gambarou,Woumbi,Maiduguri,Chad,East,N'Djamena,Major Cities Cameroon,Maroua,Garoua,Ngaoundere,Yaounde,Douala,Majority Muslim,Auto-denomination Village Language Same,wo,Makary mpadə,Dougoumsilio ɗəgəmsəlio,Mutual Intelligibility,Cover Term,Makary Largest Town,Government Offices,Mayor's Office,Sub-prefect's Office,Police Station,Gendarme Post,Prison,Post Office,Public Education Offices,Agricultural Offices,Central Chadic B Branch,Biu-Mandara B Branch,Afro-Asiatic Family,Mutually Unintelligible,Tourneux 2000a:113,Grouping Language Name Auto-denomination,Island Buduma yedəna,Villages Situated Rivers Flow Lake Chad,Primary Occupation Fishing Farming,Sao Civilisation,Independent Kingdom,Cameroon,Logone-et-Chari,West Africa,Right East Bank Distributary Chari River Delta Lake Chad,Local Language Mpade,Fulani Fulfulde Trade Language,Primary Economic Activity Fishing,Makary Part Indigenous Sao Civilisation,Decline Sao Confederation,Makary Independent Kingdom",
     "status": "COMPLETE"
   },
   {
@@ -1556,7 +1556,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Sorombéo,Mbe,Ngaoundéré,Meiganga,Garoua-Boulaï,Bétaré-Oya,Vina,Lom-et-Djerem,East Region,Cameroon,Scattered Communities,Savannas,Forests,Subsistence Farming,Small Livestock,Grains,Vegetables,Meat,Fish,Family Life,Close-knit,Generations Living Together,Sharing Responsibilities,Community Gatherings,Festivals,Planting Season,Harvest Season,Weddings,Naming Ceremonies,Music,Dance,Storytelling,Cultural Values,Social Bonds,Quality Education,Healthcare,Clean Water,Improved Infrastructure,Mbum Language,Koh,Kali,Vina Department,Eastern Part,Mbe Commune,Eastern Ngaoundéré Commune,Mbere Department,Meiganga Commune,Eastern Region,Lom-et-Djerem Department,Northern Part,Garoua-Boulaï Commune,Bétaré-Oya Commune,Niger-Congo,Atlantic-Congo,Mbum-Day Branch,ISO 639-3:xuo,Glottolog:kuo1238,North Region,Sorombeo,Chad Border,Garoua Area,Eastern Mbum Survey,Early 1990,Intersection Cameroon,Central African Republic,Language Development Projects,Karang,Kuo,Nzak Mbay,Extendable,Eastern Mbum Communities,Man,Ngomi,Pana,Sakpu,Lexicostatistical Analysis,Intelligibility Testing,Speaker Self-reports,Two-stage Strategy,Written Language,Eastern Mbum Speakers,Karang [kzr] Mbere [mdt] Nzakambay [nzy] Pana [pnz] Kuo [xuo]",
+    "b": "Sorombéo,Mbe,Ngaoundéré,Meiganga,Garoua-Boulaï,Bétaré-Oya,Vina,Lom-et-Djerem,East Region,Cameroon,Scattered Communities,Savannas,Forests,Subsistence Farming,Small Livestock,Grains,Vegetables,Meat,Fish,Family Life,Close-knit,Generations Living Together,Sharing Responsibilities,Community Gatherings,Festivals,Planting Season,Harvest Season,Weddings,Naming Ceremonies,Music,Dance,Storytelling,Cultural Values,Social Bonds,Quality Education,Healthcare,Clean Water,Improved Infrastructure,Mbum Language,Koh,Kali,Vina Department,Eastern Part,Mbe Commune,Eastern Ngaoundéré Commune,Mbere Department,Meiganga Commune,Eastern Region,Lom-et-Djerem Department,Northern Part,Garoua-Boulaï Commune,Bétaré-Oya Commune,Niger-Congo,Atlantic-Congo,Mbum-Day Branch,ISO 639-3:xuo,Glottolog:kuo1238,North Region,Sorombeo,Chad Border,Garoua Area,Eastern Mbum Survey,Early 1990,Intersection Cameroon,Central African Republic,Language Development Projects,Karang,Kuo,Nzak Mbay,Extendable,Eastern Mbum Communities,Man,Ngomi,Pana,Sakpu,Lexicostatistical Analysis,Intelligibility Testing,Speaker Self-reports,Two-stage Strategy,Written Language,Eastern Mbum Speakers",
     "status": "COMPLETE"
   },
   {
@@ -1566,7 +1566,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Zawse,Bawku Municipal,Pusiga-Polimakom,Garu-Tempane,Togo,Agole,Volta River,Kusaal,Kusaasi,Gur Language,Bawku Central,Bawku Capital,Zugraan Naba Asigri Abugrago Azoka II,Kusaug Traditional Council,Traditional Authority,Vested,Embodies,Ceremonial Figurehead,Last Resort,Traditional Adjudication,Civil Offences,Traditional Representatives,Divisional Sub-chiefs,Small Towns,Villages,Kusaug,Syme,Cleveland 1980,History,Kusasis,Chieftaincy,Colonial,Ethno-political Undertones,Christians,Islam,African Traditional Religion,Predominantly,Farmer,Staple Foods,Rice,Yams,Season,Migrate,Fertile Farmland,Hausa,Moore,Trading,Positive Attitude,Language,Kusaal Taught,Schools,Used,Churches,Gospel,Assemblies God Pastors,Laymen,Hospital,Corn Mills,Training Courses,Community,Muslims Influence,Located,Northeast Corner,Kusaal 743000 Speakers,ISO 639-3:kus,Glottolog:kusa1238,Niger-Congo,Atlantic-Congo,Written Published Yes,ScriptSource Listing,Total Languages 1,Migrated,Biengu,Zoogo,Major Towns,Tindaan,Landowner,Earth-priest,Authority Over Land,Rests With Tindaan,Not Naba,Chief,Abass-Abaah,Reconstruction Formative Years,Four Years Research,Consultations,Indigenous Knowledge Holders,Sapalugu Village,Three Major Settlement Timelines,New Settlements,Zodeuk,Agole Kusaas Went Eastward,Settle Zawse,Bawku Areas,Established,Oral Sources Toende,Kusaas Arrived,Met Pockets,Bissa Craftsmen,Blacksmiths,Areas,Sawadogo Alain,Kusasi Scholar,PhD Candidate,Joseph Ki-Zerbo University,Conference,Institute Social Sciences,Socio-Political Institutions,Precolonial Kusaateng,Pusigdem First Settlers,Before Na Gbewa Deed,Mamprusi Claim,Original Inhabitants,Oral History,Colonial Records,First Chief Bawku,Mamprusi,Ali Atabia,Enskinned,Nayiri Mamprugu,Permanent Mamprusi Settlement,Sinnebaga,Seven Successive Mamprusi Chiefs,Ruling,Before 1890,Kusasi Migration,Entry Ghana,Independent Kusasi Towns,First Arrival Century Back,Consistent Kusasi Timeline,Mamprusi Presence,Predates Kusasi,At Least 150 Years,Conclusion Unambiguously,Mamprusi Account,Original First Settlement,Proves Consistent,Authentic,Supported,Independent Authors,Reliable,Historically Prior,Does Not Deny Kusasis Subsequent Rootedness,Clarifies Historical Sequence,Settlement,Acknowledging Dual Legacies,Basis Peaceful Coexistence,Crucial Principle,One Cannot Become Chief Without Proof Owning Land,Together,Provide Honest Foundation,Mediation,IRB,Immigration Refugee Board,Canada,Information Kusasi Language,Spoken,People Speak Another Language,Bawku Roman Catholic School,GHA25029.E,Document 1265631,ecoi.net,Ethnologue Languages World,Kusaal Language Kusasi People,Northeastern Ghana,Two Per Cent Population,Reportedly Literate,Not Specify Languages,Kusaal Spoken Bawku,Distinct,Spoken Burkina Faso,Other Dialects,Angole,Inherently Intelligible,Telephone Interview,DIRB,Professor Political Science,Specializing African,Ghanaian Politics,Carleton University,Ottawa,Many Roman Catholic Schools,English Official Language,Ghanaian Schools,Elementary University Level,Ghanaian Languages Also Taught,Elementary Level,Local Language Taught,Normally One Spoken Area",
+    "b": "Zawse,Bawku Municipal,Pusiga-Polimakom,Garu-Tempane,Togo,Agole,Volta River,Kusaal,Kusaasi,Gur Language,Bawku Central,Bawku Capital,Zugraan Naba Asigri Abugrago Azoka II,Kusaug Traditional Council,Traditional Authority,Vested,Embodies,Ceremonial Figurehead,Last Resort,Traditional Adjudication,Civil Offences,Traditional Representatives,Divisional Sub-chiefs,Small Towns,Villages,Kusaug,Syme,Cleveland 1980,History,Kusasis,Chieftaincy,Colonial,Ethno-political Undertones,Christians,Islam,African Traditional Religion,Predominantly,Farmer,Staple Foods,Rice,Yams,Season,Migrate,Fertile Farmland,Hausa,Moore,Trading,Positive Attitude,Language,Kusaal Taught,Schools,Used,Churches,Gospel,Assemblies God Pastors,Laymen,Hospital,Corn Mills,Training Courses,Community,Muslims Influence,Located,Northeast Corner,Kusaal 743000 Speakers,ISO 639-3:kus,Glottolog:kusa1238,Niger-Congo,Atlantic-Congo,Written Published Yes,ScriptSource Listing,Total Languages 1,Migrated,Biengu,Zoogo,Major Towns,Tindaan,Landowner,Earth-priest,Authority Over Land,Rests With Tindaan,Not Naba,Chief,Abass-Abaah,Reconstruction Formative Years,Four Years Research,Consultations,Indigenous Knowledge Holders,Sapalugu Village,Three Major Settlement Timelines,New Settlements,Zodeuk,Agole Kusaas Went Eastward,Settle Zawse,Bawku Areas,Established,Oral Sources Toende,Kusaas Arrived,Met Pockets,Bissa Craftsmen,Blacksmiths,Areas,Sawadogo Alain,PhD Candidate,Joseph Ki-Zerbo University,Conference,Institute Social Sciences,Socio-Political Institutions,Precolonial Kusaateng,Pusigdem First Settlers,Before Na Gbewa Deed,Mamprusi Claim,Original Inhabitants,Oral History,Colonial Records,First Chief Bawku,Mamprusi,Ali Atabia,Enskinned,Nayiri Mamprugu,Permanent Mamprusi Settlement,Sinnebaga,Seven Successive Mamprusi Chiefs,Ruling,Before 1890,Entry Ghana,First Arrival Century Back,Mamprusi Presence,At Least 150 Years,Conclusion Unambiguously,Mamprusi Account,Original First Settlement,Proves Consistent,Authentic,Supported,Independent Authors,Reliable,Historically Prior,Clarifies Historical Sequence,Settlement,Acknowledging Dual Legacies,Basis Peaceful Coexistence,Crucial Principle,One Cannot Become Chief Without Proof Owning Land,Together,Provide Honest Foundation,Mediation,IRB,Immigration Refugee Board,Canada,Spoken,People Speak Another Language,Bawku Roman Catholic School,GHA25029.E,Document 1265631,ecoi.net,Ethnologue Languages World,Northeastern Ghana,Two Per Cent Population,Reportedly Literate,Not Specify Languages,Kusaal Spoken Bawku,Distinct,Spoken Burkina Faso,Other Dialects,Angole,Inherently Intelligible,Telephone Interview,DIRB,Professor Political Science,Specializing African,Ghanaian Politics,Carleton University,Ottawa,Many Roman Catholic Schools,English Official Language,Ghanaian Schools,Elementary University Level,Ghanaian Languages Also Taught,Elementary Level,Local Language Taught,Normally One Spoken Area",
     "status": "COMPLETE"
   },
   {
@@ -1576,7 +1576,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Ovan,Kelle,Mbomo,Okondja,Lastoursville,Franceville,Sibiti,Kota-Kota,Bushamaye,Obamba,Mindumu,Bawumbu,Mbahouins,Bungom,Mekora,Ogooué River,Bouéni Route,Lalara,Boué,Mitzic,Bounguidi,Mvadhi,Kongwé,Chute de Kongwé,Mbamba Mountain,Mindemba,Ogooué-Ivindo Province,Ogooué-Lolo Province,Haut-Ogooué Province,Ivindo River Basin,Headwaters Area,East Makokou,North Ogooué-Lolo,Haut-Ogooué,Etoumhi,Ouesso,Mossendjo,Republic of Congo,Mbamba-Ndoumou Group,Bakota Proper,Singoué River,Nona River,Bakwélé,Poupou War,Guerre de Poupou,Friendship,Flee Ivindo,Rafts,Left Bank,Villages Founded,Life of Stone,Mekomba,Warrior,Ferocity,War,Tributaries Left Bank Ivindo,North Lastoursville,Chase,Kongwé Falls,Fight,Mekomba Killed,Bakouélé Captured,Became Bakota,Peace Reigned,Fang Arrival,New Reflux,Isolated,Lalara Region,Booué Bakotas,Disputes,Emigrated,Ivindo,Pygmées,Bakola,Mont Mbamba,Region Mékambo,Name,Bakota Plural,Ikota Singular,Kota Rallying,Parents,Distant Parents,Benga,Patrilineal,Patrilocal,Clan,Ikaka,Plural Makaka,Exogamous,Chief,Neni,Chosen,Aptitudes,Village Chief,Powerful,Judged,Palabres,Clans,Many,Extended,Multiple Peoples,Bousandou,Mohaza,Exist,Masaka,Sakounda,Isekè Bakota,Clan Corresponding,Clan Interdicts,Clear,Well Known,Northeast Peoples,Bantu Ethnic Group,Northeastern Gabon,Congo,iKota Language,Mekora Fang,Dialects,Regional Variations,Matrilineal,From Your Father,Circumcision,Widow-Purification Rituals,Originality,Roman Catholic,Apostolic Vicariate,Population,Majority Population,Regional Capital,Stateless Societies,Egalitarian Background,Age,Gender Lines,Children,Tradition,Respect Elderly,Ewele,Pride",
+    "b": "Ovan,Kelle,Mbomo,Okondja,Lastoursville,Franceville,Sibiti,Kota-Kota,Bushamaye,Obamba,Mindumu,Bawumbu,Mbahouins,Bungom,Mekora,Ogooué River,Bouéni Route,Lalara,Boué,Mitzic,Bounguidi,Mvadhi,Kongwé,Chute de Kongwé,Mbamba Mountain,Mindemba,Ogooué-Ivindo Province,Ogooué-Lolo Province,Haut-Ogooué Province,Ivindo River Basin,Headwaters Area,East Makokou,North Ogooué-Lolo,Haut-Ogooué,Etoumhi,Ouesso,Mossendjo,Republic of Congo,Mbamba-Ndoumou Group,Singoué River,Nona River,Bakwélé,Poupou War,Guerre de Poupou,Friendship,Flee Ivindo,Rafts,Left Bank,Villages Founded,Life of Stone,Mekomba,Warrior,Ferocity,War,Tributaries Left Bank Ivindo,North Lastoursville,Chase,Kongwé Falls,Fight,Mekomba Killed,Bakouélé Captured,Peace Reigned,Fang Arrival,New Reflux,Isolated,Lalara Region,Disputes,Emigrated,Ivindo,Pygmées,Bakola,Mont Mbamba,Region Mékambo,Name,Parents,Distant Parents,Benga,Patrilineal,Patrilocal,Clan,Ikaka,Plural Makaka,Exogamous,Chief,Neni,Chosen,Aptitudes,Village Chief,Powerful,Judged,Palabres,Clans,Many,Extended,Multiple Peoples,Bousandou,Mohaza,Exist,Masaka,Sakounda,Clan Corresponding,Clan Interdicts,Clear,Well Known,Northeast Peoples,Bantu Ethnic Group,Northeastern Gabon,Congo,Mekora Fang,Dialects,Regional Variations,Matrilineal,From Your Father,Circumcision,Widow-Purification Rituals,Originality,Roman Catholic,Apostolic Vicariate,Population,Majority Population,Regional Capital,Stateless Societies,Egalitarian Background,Age,Gender Lines,Children,Tradition,Respect Elderly,Ewele,Pride",
     "status": "COMPLETE"
   },
   {
@@ -1586,7 +1586,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Plateau Language,Ibiro-Ikryo,ISO 639-3:khj,Glottolog:kutu1262,ELP:Kuturmi,Stable Indigenous Language,Niger-Congo,Atlantic-Congo,Benue-Congo,Plateau,Central,Akru,West Kuturmi,Two Villages Kachia LGA,Antara Village Kachia LGA,Akriyo,Varieties,Headquarters,Dialects,Ariko,Awon,Asane,Akwando,Speech Form,Speakers,Latitude 9.5 North,Longitude 7.5 East,Western Part,Kachia District Headquarters,Region Bounded,River Gwarara,East,Hippopotamus,West,Kadara Tribe,Northern Part,Range Hills,Apan-okung,Central Location,Range Mountains,Kankan Hills,Kilometers,Kachia Local Government,Forefather,Mortal Carving,Sassakan Turmi,Hausa,Turmi,Mortal,Language,Identified,Other Tribes,Longitudinal Marks,Chicks,Kano Empire,Overthrown 1809 AD,Kuturmi People,Residing,Kano City,Bakutumba,Kutumbawa,Fled,Sabo Village,West Kano City,Migrated Southwards,Passed Zaria,Kauru,Village Called Kallah,Kauru District,Kajuru Local Government Areas,Arriving,People Attacked,Conquered,Kajuru Kingdom,Moved Further Southward,Iburu,Kufana District,Moved Southward,Present Site,Settling Down,Forefathers,Continued,Traditional Rulership Constitution,Ogumo,King,Kuturmi Language,West Yamma,Population 21000,Indigenous,Unreached No,Frontier No,GSEC 4,PeopleGroups.org,Pioneer Workers Needed,PeopleID3 12892,ROP3 Code 105495,ROP25 Code 304453,ROP25 Name Kuturmi,Country Nigeria,Region Africa West Central,Continent Africa,National Bible Society Website,Persecution Rank 7,Open Doors Top 50,Location Country Kaduna State Kachia LGA,Ethnologue 2016,Primary Language Kuturmi 21000 Speakers,Language Code khj,Ethnologue Listing,Written Published Yes,ScriptSource Listing,Total Languages 1,People Groups Speaking Kuturmi,Language Alternate Names,Akro,Dialect Alternate Names,Kuturmi Gabas,Kuturmi Yamma,Yamma",
+    "b": "Plateau Language,Ibiro-Ikryo,ISO 639-3:khj,Glottolog:kutu1262,ELP:Kuturmi,Stable Indigenous Language,Niger-Congo,Atlantic-Congo,Benue-Congo,Plateau,Central,Akru,Two Villages Kachia LGA,Antara Village Kachia LGA,Akriyo,Varieties,Headquarters,Dialects,Ariko,Awon,Asane,Akwando,Speech Form,Speakers,Latitude 9.5 North,Longitude 7.5 East,Western Part,Kachia District Headquarters,Region Bounded,River Gwarara,East,Hippopotamus,West,Kadara Tribe,Northern Part,Range Hills,Apan-okung,Central Location,Range Mountains,Kankan Hills,Kilometers,Kachia Local Government,Forefather,Mortal Carving,Sassakan Turmi,Hausa,Turmi,Mortal,Language,Identified,Other Tribes,Longitudinal Marks,Chicks,Kano Empire,Overthrown 1809 AD,Residing,Kano City,Bakutumba,Kutumbawa,Fled,Sabo Village,West Kano City,Migrated Southwards,Passed Zaria,Kauru,Village Called Kallah,Kauru District,Kajuru Local Government Areas,Arriving,People Attacked,Conquered,Kajuru Kingdom,Moved Further Southward,Iburu,Kufana District,Moved Southward,Present Site,Settling Down,Forefathers,Continued,Traditional Rulership Constitution,Ogumo,King,West Yamma,Population 21000,Indigenous,Unreached No,Frontier No,GSEC 4,PeopleGroups.org,Pioneer Workers Needed,PeopleID3 12892,ROP3 Code 105495,ROP25 Code 304453,Country Nigeria,Region Africa West Central,Continent Africa,National Bible Society Website,Persecution Rank 7,Open Doors Top 50,Location Country Kaduna State Kachia LGA,Ethnologue 2016,Language Code khj,Ethnologue Listing,Written Published Yes,ScriptSource Listing,Total Languages 1,Language Alternate Names,Akro,Dialect Alternate Names,Yamma",
     "status": "COMPLETE"
   },
   {
@@ -1596,7 +1596,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Tidikelt region,Ksar Laarab,Ksar Lemrabtine,Deghamcha,El Barka,Igostène,Hassi Lahdjar,Sahla Tahtania,Sahla Fougania,Tadjemout,Western Sahara,Morocco,Tunisia,Tit,Akabil,Reggane,In Salah District,Algeria,Zenati Berber,Mzab-Wargla Languages,Tidikelt Tamazight,Tit Dialect,Endangered Language,Nearly Extinct,Decreasing,Elderly Speakers,Shifted To Algerian Arabic,External Intervention Required,Preserve Language,Louis Voinot,Le Tidikelt,End Nineteenth Century,Geographical Characteristics,Astronomical Location,Climate,Agriculture,Population,Historical Dimension,History,Origins,Principal Settlements,Earliest Tribes,Settled Region,European Attempts,Explore Tidikelt,Customs,Traditions,Hospitality,Marriage Ceremonies,Celebration,Religious Occasions,Aougrout,Documentation,Description,Tidikelt-Tuat Tamazight,Endangered Berber Language,In Salah Area,Moribund,Ethnologue,Local Population,Less,Linguistic Fieldwork,Primary Data,Community,Berberologists,Comparison,Berber Varieties,Phonology,Morphosyntax,Speech,Translated,Transcribed,Annotated Corpus,Sketch Grammar,Lexicon,Endangered Languages Documentation Programme,CNRS,LACITO,Paris Sorbonne,Arcadia Funding,Commencement 12/2022,Project Status Completed,Grand Erg Occidental,Gourara Oases Group,Plateau du Tademai't,Palm Fields,Irrigated,Foggaras System,Interaction Human Nature,Human Genius Action,Traditional Know-how,Hostile Environment,Scarce Resources,Groundwater Reserves,Main Source Oases,Location Oases,Three Factors,Groundwater Level,Method Drawing,Cultivable Alluvial Soils,Protection Wind Heat,Edge Depressions,Water Pumped,Pendulum Wells,Norias,Collected,Gravitation,Conduits,Foggaras,Higher Altitude,Striking Example,Size,Number Structures 900,Length Tunnels 14 km,Timimoun,Gourara,Natural Heritage Components,Granitic Mouydir Mountains,Tidikelt Depression,Gueltas,Gorges Leading Out Mountains,Gorge Arak,Lower Altitudes,Farther West,Borders Tidikelt Depression,Oueds,Numerous Pools,Aït Elkra,Talohak,Aguelman Tadjelet,Bou Rhanet,Tikkindine,I-n-Rellal,Ti-n-Atanan,Petrified Forest,Gisement d'In Rhar,Enormous 1m Diameter,Ancient Trees Turned Stone,Secondary Era,Oases Settlements Aoulef,Nature Human Activity Mixed,Cultural Heritage Components,Traditional Houses,Traditional Handcrafts,Historical Trade Routes,Trans-Saharan Motor Route,Passes Area,Artifacts,Archaeological Remains,Temples,Caves,Fortresses,Necropolises,Maintenance Foggaras,Particular Irrigation,Small Walled Villages,Ksour,Singular Ksar,Gsar,Forts,Kasbahs,Mostly Abandoned,Foggara System,Man-made Subterranean Irrigation Conduits,Social Organization,Architectonical Tradition Berber Culture,Living Heritage,Traditional Way Farming,Irrigation System Foggaras,Practiced Oases,Valleys,Typical Architecture Bereber Tradition,Well Preserved,Settlements,Mythical Religious Values,Oases Garden Eden,Social Significance,Ethnological,Ancient Customs,Original Berber Traditions,Characteristics,UNESCO Cultural Landscape,Main Oases Tidikelt Depression,Aoulef Villages,Ouamanat,Takaraft,Djedid,Gasbet Bellal,Gasbet Maïkhaf,Roukina,Zaouit Heinoume,Habbadat,La palmeraie de Tit,Population Tidikelt Oases Group 24500 1966,Languages Dialects,Tidikelt Berber Language Algeria,Lifestyle Believing Cults Traditional Rites,Majority Algerians Muslims,Other Berber Groups Kabyles Shawiya Tuareg Saharan Berbers Nominally Muslim,Observances Islamic Law Lax,Concept Baraka Holiness Highly Developed North Africa,Berbers Believe Many People Endowed Baraka,Holiest Shurifa Direct Descendants Mohammed,Another Class Holy People Marabouts,Tuaregs Particular Marabouts Different Ordinary Men,Believed Possess Even After Death Powers Protection Healing,General Acceptance Islam,Almost All Berbers Prefer Monogamous Marriages,Marriage Only One Partner,Oasis Dwellers Tuareg Hold Preference,Few Tribes Polygamy Exist Practiced Only Few Wealthy Men,Ten Million Berbers Scattered Vast Regions Northern Africa,Maghrib Arabized Language Islamic Culture Centuries,Groups Berbers Nine Saharan Berber Tribes Retained Much Original Berber Traditions Characteristics,In Salah Political Commercial Centre Ksar-el-Arab Grand Ksar In-Salah,History Touât GE,Tidikelt Group Oases Sahara Algerien Oriental Archipel Touatien,Extends South Plateau Tademaït North Plateau Mouydir Length 150 km East West,Three Regions North South Zone Oases Foot Cliff Tademaït Zone Boisée Depression Alluviale Humide Raaba Terres Parcours Troupeaux Long Oued Akaraba Inclined West,Oases Renferment Cinquantaine Ksour Groupes Six Districts East West Foggaret-es-Zoua Igosten 15 Ksour In-Salah 12 Ksour In-Rar 7 Ksour Tit 2 Ksour Aoulef 9 Ksour Canton Voisin Touât Sud-Est Aoulef Hors Alignement Akabli 7 Ksour,Population Principalement Arabe Noblesse Religieuse Cheurfa Descendants Prophète Groupée Aoulef Tribus Principales Ouled Ba-Hammou Famille Directrice Badjouda Installée In-Salah Ouled-Moktar Également In-Salah Ouled-Zénan Akabli Aoulef Caravaniers Éprouvés Adopté Moeurs Touareg",
+    "b": "Tidikelt region,Ksar Laarab,Ksar Lemrabtine,Deghamcha,El Barka,Igostène,Hassi Lahdjar,Sahla Tahtania,Sahla Fougania,Tadjemout,Western Sahara,Morocco,Tunisia,Tit,Akabil,Reggane,In Salah District,Algeria,Zenati Berber,Mzab-Wargla Languages,Tidikelt Tamazight,Tit Dialect,Endangered Language,Nearly Extinct,Decreasing,Elderly Speakers,Shifted To Algerian Arabic,External Intervention Required,Preserve Language,Louis Voinot,Le Tidikelt,End Nineteenth Century,Geographical Characteristics,Astronomical Location,Climate,Agriculture,Population,Historical Dimension,History,Origins,Principal Settlements,Earliest Tribes,Settled Region,European Attempts,Explore Tidikelt,Customs,Traditions,Hospitality,Marriage Ceremonies,Celebration,Religious Occasions,Aougrout,Documentation,Description,Tidikelt-Tuat Tamazight,Endangered Berber Language,In Salah Area,Moribund,Ethnologue,Local Population,Less,Linguistic Fieldwork,Primary Data,Community,Berberologists,Comparison,Berber Varieties,Phonology,Morphosyntax,Speech,Translated,Transcribed,Annotated Corpus,Sketch Grammar,Lexicon,Endangered Languages Documentation Programme,CNRS,LACITO,Paris Sorbonne,Arcadia Funding,Commencement 12/2022,Project Status Completed,Grand Erg Occidental,Gourara Oases Group,Plateau du Tademai't,Palm Fields,Irrigated,Foggaras System,Interaction Human Nature,Human Genius Action,Traditional Know-how,Hostile Environment,Scarce Resources,Groundwater Reserves,Main Source Oases,Location Oases,Three Factors,Groundwater Level,Method Drawing,Cultivable Alluvial Soils,Protection Wind Heat,Edge Depressions,Water Pumped,Pendulum Wells,Norias,Collected,Gravitation,Conduits,Foggaras,Higher Altitude,Striking Example,Size,Number Structures 900,Length Tunnels 14 km,Timimoun,Gourara,Natural Heritage Components,Granitic Mouydir Mountains,Tidikelt Depression,Gueltas,Gorges Leading Out Mountains,Gorge Arak,Lower Altitudes,Farther West,Borders Tidikelt Depression,Oueds,Numerous Pools,Aït Elkra,Talohak,Aguelman Tadjelet,Bou Rhanet,Tikkindine,I-n-Rellal,Ti-n-Atanan,Petrified Forest,Gisement d'In Rhar,Enormous 1m Diameter,Ancient Trees Turned Stone,Secondary Era,Oases Settlements Aoulef,Nature Human Activity Mixed,Cultural Heritage Components,Traditional Houses,Traditional Handcrafts,Historical Trade Routes,Trans-Saharan Motor Route,Passes Area,Artifacts,Archaeological Remains,Temples,Caves,Fortresses,Necropolises,Maintenance Foggaras,Particular Irrigation,Small Walled Villages,Ksour,Singular Ksar,Gsar,Forts,Kasbahs,Mostly Abandoned,Foggara System,Man-made Subterranean Irrigation Conduits,Social Organization,Architectonical Tradition Berber Culture,Living Heritage,Traditional Way Farming,Irrigation System Foggaras,Practiced Oases,Valleys,Typical Architecture Bereber Tradition,Well Preserved,Settlements,Mythical Religious Values,Oases Garden Eden,Social Significance,Ethnological,Ancient Customs,Original Berber Traditions,Characteristics,UNESCO Cultural Landscape,Main Oases Tidikelt Depression,Aoulef Villages,Ouamanat,Takaraft,Djedid,Gasbet Bellal,Gasbet Maïkhaf,Roukina,Zaouit Heinoume,Habbadat,La palmeraie de Tit,Population Tidikelt Oases Group 24500 1966,Languages Dialects,Lifestyle Believing Cults Traditional Rites,Majority Algerians Muslims,Other Berber Groups Kabyles Shawiya Tuareg Saharan Berbers Nominally Muslim,Observances Islamic Law Lax,Concept Baraka Holiness Highly Developed North Africa,Berbers Believe Many People Endowed Baraka,Holiest Shurifa Direct Descendants Mohammed,Another Class Holy People Marabouts,Tuaregs Particular Marabouts Different Ordinary Men,Believed Possess Even After Death Powers Protection Healing,General Acceptance Islam,Almost All Berbers Prefer Monogamous Marriages,Marriage Only One Partner,Oasis Dwellers Tuareg Hold Preference,Few Tribes Polygamy Exist Practiced Only Few Wealthy Men,Ten Million Berbers Scattered Vast Regions Northern Africa,Maghrib Arabized Language Islamic Culture Centuries,Groups Berbers Nine Saharan Berber Tribes Retained Much Original Berber Traditions Characteristics,In Salah Political Commercial Centre Ksar-el-Arab Grand Ksar In-Salah,History Touât GE,Tidikelt Group Oases Sahara Algerien Oriental Archipel Touatien,Extends South Plateau Tademaït North Plateau Mouydir Length 150 km East West,Three Regions North South Zone Oases Foot Cliff Tademaït Zone Boisée Depression Alluviale Humide Raaba Terres Parcours Troupeaux Long Oued Akaraba Inclined West,Oases Renferment Cinquantaine Ksour Groupes Six Districts East West Foggaret-es-Zoua Igosten 15 Ksour In-Salah 12 Ksour In-Rar 7 Ksour Tit 2 Ksour Aoulef 9 Ksour Canton Voisin Touât Sud-Est Aoulef Hors Alignement Akabli 7 Ksour,Population Principalement Arabe Noblesse Religieuse Cheurfa Descendants Prophète Groupée Aoulef Tribus Principales Ouled Ba-Hammou Famille Directrice Badjouda Installée In-Salah Ouled-Moktar Également In-Salah Ouled-Zénan Akabli Aoulef Caravaniers Éprouvés Adopté Moeurs Touareg",
     "status": "COMPLETE"
   },
   {
@@ -1606,7 +1606,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Dampar,Wase,Awannu,Wurbo,Banani,Baada,Abakwariga,Numa,Jimetu,Mayo,Lokoja,Makurdi,Benue River,Niger River,Gongola Hawal,Upper Benue Basin,Middle Benue Region,Wuryo,Gassol LGA,Uka,Southern Taraba,Wukari LGA,Takum LGA,Bali LGA,Sardauna LGA,Awe LGA,Lafia LGA,Shendam LGA,Langtang South LGA,Furu-Awa Subdivision,Cameroon,Taraba State,Adamawa State,Gombe State,Bauchi State,Northwestern Cameroon,Kwararafa Confederacy,Power Tussle,Alago,Agatu,Rendere,Goemai,Shendam,Jukun Wapa,Fishermen,Niger,Taraba,Nasarawa,Kororofawa,Kwana,Apa-juku,Wapa,Kam,Apang,Chamba,Kpazo,Jiba,Kpe,Mumuye,Kwe,Jen,C.K. Meek,Abinsi West,Kona East,Pindiga North,Donga South,Six Dialects,Fulani Conquests,Wapâ,Local King,Administration,Adamawa Province,Fulani Emir of Muri,Post-colonial Period,Nigeria,Ethnic Tensions,Tiv People,Egypt,Ngazargamu,Mandala Hills,Ngizim,Upper Gongola Valley,Kanuri,Upper East,Kanem Bornu Empire,Middle Belt,Mid-13th Century,Jukun Religion,Culture,Military Prowess,Middle-Belt,Jukun War Medicine,Pi,Spears,Arrows,Enemies,API,Leaves,Herbs,Religious Endeavours,Biepi,Place of Leaves,Religious Powers,Capital City,Aku Angyu Katakpa,Wukari Community,Wapan,Middle East,Gongola Basin,Migrated,Appealing Abode,Ukari,Greatest,Best,Comparison,Previous Dwellings,Jukun Culture,Wukari Society,Maintained,Ethnic Identity,Military Skill,Prowess,Collapse,Kingdom,Meek 1931,Adesoji,Alao,Smaller Towns,Cultural Heritage,Tourism Development,Games,Anga,Langa,Vinvin,Adzwe,Music,Songs,Dance,Akishe,Ajo Kweku,Goge,Ajo Kovo,Masquerades,Festivals,Aku Wa-Shon,Atukun,Puje,Jukun Cultural Heritage,Focus Group Discussions,FGDs,Jukun Wapan,Jukun Kpazon,Rich Heritage,Recreation,Tourism Activities,Awareness,Mobilization,Fund,Promotion,Private Investment,Calendar,Events,Local Government Councils,Taraba State Government,Guma LGA,Abinsi Capital,Azudo,Ayiyo-ga,Ati-wa-kwo,Avyuvyo,Azhoko,Azhe-Anumgbe,Asede,Anuwha,Logo LGA,Ashuku,Anyishi,Asugu,Agyogo,Wurukum,Clerk Ward,New Garage,Akatungu,North Bank,Afubor,ljaha,Agyetashi,Jukun Population,Monarch,Adamawa,Politically Separate,Wukari Government",
+    "b": "Dampar,Wase,Awannu,Wurbo,Banani,Baada,Abakwariga,Numa,Jimetu,Mayo,Lokoja,Makurdi,Benue River,Niger River,Gongola Hawal,Upper Benue Basin,Middle Benue Region,Wuryo,Gassol LGA,Uka,Southern Taraba,Wukari LGA,Takum LGA,Bali LGA,Sardauna LGA,Awe LGA,Lafia LGA,Shendam LGA,Langtang South LGA,Furu-Awa Subdivision,Cameroon,Taraba State,Adamawa State,Gombe State,Bauchi State,Northwestern Cameroon,Kwararafa Confederacy,Power Tussle,Alago,Agatu,Rendere,Goemai,Shendam,Fishermen,Niger,Taraba,Nasarawa,Kororofawa,Kwana,Apa-juku,Wapa,Kam,Apang,Chamba,Kpazo,Jiba,Kpe,Mumuye,Kwe,Jen,C.K. Meek,Abinsi West,Kona East,Pindiga North,Donga South,Six Dialects,Fulani Conquests,Wapâ,Local King,Administration,Adamawa Province,Fulani Emir of Muri,Post-colonial Period,Nigeria,Ethnic Tensions,Tiv People,Egypt,Ngazargamu,Mandala Hills,Ngizim,Upper Gongola Valley,Kanuri,Upper East,Kanem Bornu Empire,Middle Belt,Mid-13th Century,Culture,Military Prowess,Middle-Belt,Pi,Spears,Arrows,Enemies,API,Leaves,Herbs,Religious Endeavours,Biepi,Place of Leaves,Religious Powers,Capital City,Aku Angyu Katakpa,Wukari Community,Wapan,Middle East,Gongola Basin,Migrated,Appealing Abode,Ukari,Greatest,Best,Comparison,Previous Dwellings,Wukari Society,Maintained,Ethnic Identity,Military Skill,Prowess,Collapse,Kingdom,Meek 1931,Adesoji,Alao,Smaller Towns,Cultural Heritage,Tourism Development,Games,Anga,Langa,Vinvin,Adzwe,Music,Songs,Dance,Akishe,Ajo Kweku,Goge,Ajo Kovo,Masquerades,Festivals,Aku Wa-Shon,Atukun,Puje,Focus Group Discussions,FGDs,Rich Heritage,Recreation,Tourism Activities,Awareness,Mobilization,Fund,Promotion,Private Investment,Calendar,Events,Local Government Councils,Taraba State Government,Guma LGA,Abinsi Capital,Azudo,Ayiyo-ga,Ati-wa-kwo,Avyuvyo,Azhoko,Azhe-Anumgbe,Asede,Anuwha,Logo LGA,Ashuku,Anyishi,Asugu,Agyogo,Wurukum,Clerk Ward,New Garage,Akatungu,North Bank,Afubor,ljaha,Agyetashi,Monarch,Adamawa,Politically Separate,Wukari Government",
     "status": "COMPLETE"
   },
   {
@@ -1666,7 +1666,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0.1,
-    "b": "Dar Fongoro,Fongoro Canton,Sila Region,Bir Nahal,Ghadar,Ouaddaï Region,Chad,Central African Republic,Darfur Sultanate,Sila Department,Along Sudan Border,South of Mongororo,Sinyar,Inaccessible,Highly Endangered,Giving Way to Fur,Dialectal Variant,Gula Language,CAR,Nilo-Saharan,Central Sudanic,Sara-Bongo-Bagirmi,Fongoro,ISO 639-3:fgr,Glottolog:fong1243,ELP:Fongoro,Few Elder Speakers,Endangered Indigenous Language,First Language,Elderly Only,Not Taught,Schools,Gelege,Kole,Forgy,Names,Small Ethnic Group,Eastern Chad,Western Sudan,Sila Area,Near Darfur,Historically Inhabited,More Fertile Regions,Old Darfur Sultanate,Pushed,Remote,Less Productive Lands,Arab Expansion,Isolation,Poverty,Assimilate,Surrounding Peoples,Severely Endangered,Central Sudanic Language,Some Communities,Spoken Only,Older Generations,Younger People,Increasingly Speak,Arabic,Regional Languages,Mixed Settlements,Market Towns,Language,Distinct Cultural Identity,Risk,Disappearing,Hunting,Gathering,Small-scale Farming,Sorghum Cultivation,Farming Possible,Goats,Cattle,Drying Fish,Food,Rivers,Seasonal Water Sources,Harsher Regions,Gathering Wild Foods,Forest Products,Survive,Difficult Seasons,Physically Demanding,Poor Soil,Limited Rainfall,Disease-carrying Insects,Weak Infrastructure,Tsetse Flies,Environmental Challenges,People,Livestock,Economic Opportunities Limited,Food Insecurity,Unstable Income,Family,Clan Relationships,Central,Community Life,Villages,Extended Family Ties,Local Customs,Marriage,Conflict Resolution,Social Responsibilities,Polygamy Practiced,Oral Tradition,Shared Cultural Memory,Preserving Identity,Outside Pressure,Assimilation,Ongoing Instability,Border Regions,Disrupted Normal Life,Insecurity,Reduced Access,Services,Remote Living Conditions,Limit Access,Healthcare,Education,Transportation,Communication",
+    "b": "Sila Region,Bir Nahal,Ghadar,Ouaddaï Region,Chad,Central African Republic,Darfur Sultanate,Sila Department,Along Sudan Border,South of Mongororo,Sinyar,Inaccessible,Highly Endangered,Giving Way to Fur,Dialectal Variant,Gula Language,CAR,Nilo-Saharan,Central Sudanic,Sara-Bongo-Bagirmi,Fongoro,ISO 639-3:fgr,Glottolog:fong1243,ELP:Fongoro,Few Elder Speakers,Endangered Indigenous Language,First Language,Elderly Only,Not Taught,Schools,Gelege,Kole,Forgy,Names,Small Ethnic Group,Eastern Chad,Western Sudan,Sila Area,Near Darfur,Historically Inhabited,More Fertile Regions,Old Darfur Sultanate,Pushed,Remote,Less Productive Lands,Arab Expansion,Isolation,Poverty,Assimilate,Surrounding Peoples,Severely Endangered,Central Sudanic Language,Some Communities,Spoken Only,Older Generations,Younger People,Increasingly Speak,Arabic,Regional Languages,Mixed Settlements,Market Towns,Language,Distinct Cultural Identity,Risk,Disappearing,Hunting,Gathering,Small-scale Farming,Sorghum Cultivation,Farming Possible,Goats,Cattle,Drying Fish,Food,Rivers,Seasonal Water Sources,Harsher Regions,Gathering Wild Foods,Forest Products,Survive,Difficult Seasons,Physically Demanding,Poor Soil,Limited Rainfall,Disease-carrying Insects,Weak Infrastructure,Tsetse Flies,Environmental Challenges,People,Livestock,Economic Opportunities Limited,Food Insecurity,Unstable Income,Family,Clan Relationships,Central,Community Life,Villages,Extended Family Ties,Local Customs,Marriage,Conflict Resolution,Social Responsibilities,Polygamy Practiced,Oral Tradition,Shared Cultural Memory,Preserving Identity,Outside Pressure,Assimilation,Ongoing Instability,Border Regions,Disrupted Normal Life,Insecurity,Reduced Access,Services,Remote Living Conditions,Limit Access,Healthcare,Education,Transportation,Communication",
     "status": "COMPLETE"
   },
   {
@@ -1676,7 +1676,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Kau,South Kordofan,Fungur,Benue-Congo,Niger-Congo,Atlantic-Congo,Talodi-Heiban,Heiban,East Heiban,ISO 639-3:fuj,Glottolog:kooo1244,ELP:Ko,Threatened,North,Extreme East,Nuba Hills,Between Talodi,Fungor People,Fungs,Ethnic Group,Village of Fungor,Several Thousand Members,State of Origin,South Kurdufan,Fungor Language,Benue-Congo Language,Ethnologue Code fuj,Glottolog Heibanic,Written Published Unknown,Total Languages 1,Alternate Names Kau,Population 8000,Indigenous,Unreached,Frontier,Unengaged,GSEC 0,Pioneer Workers Needed 1,PeopleID3 11778,ROP3 Code 103083,Affinity Bloc Sub-Saharan Peoples,People Cluster Nuba Mountains,People Group Fungor,Ethnic Code NAB66h,Country Sudan,Region Africa East Southern,Continent Africa,National Bible Society Website,Persecution Rank 4,Open Doors Top 50,Location Country Janub Kurdufan State,Ethnologue 2016,Language Code fuj,Ethnologue Language Family Niger-Congo,Glottolog Language Family Heibanic,Agricultural People,Daily Lives,Tied to Land,Families Cultivate Crops,Local Environment,Important Source,Livelihood,Livestock,Goats,Sheep,Cattle,Income,Social Value,Village,Family Relationships,Central,Fungor Society,Extended Families,Work Together,Agricultural Activities,Support,Planting,Harvest Seasons,Daily Responsibilities,Caring,Animals,Preparing Meals,Gathering Water,Maintaining Homes,Reflects,Grown Locally,Grains,Staple Part,Diet,Community Life,Strengthened,Shared Work,Family Gatherings,Local Traditions,Preserve,Cultural Identity,Generations,Ancestors Lived,Village Called Fungor,Own Language Ko,Most Also Speak,Sudanese Arabic",
+    "b": "Kau,South Kordofan,Fungur,Benue-Congo,Niger-Congo,Atlantic-Congo,Talodi-Heiban,Heiban,East Heiban,ISO 639-3:fuj,Glottolog:kooo1244,ELP:Ko,Threatened,North,Extreme East,Nuba Hills,Between Talodi,Fungs,Ethnic Group,Several Thousand Members,State of Origin,South Kurdufan,Benue-Congo Language,Ethnologue Code fuj,Glottolog Heibanic,Written Published Unknown,Total Languages 1,Alternate Names Kau,Population 8000,Indigenous,Unreached,Frontier,Unengaged,GSEC 0,Pioneer Workers Needed 1,PeopleID3 11778,ROP3 Code 103083,Affinity Bloc Sub-Saharan Peoples,People Cluster Nuba Mountains,Ethnic Code NAB66h,Country Sudan,Region Africa East Southern,Continent Africa,National Bible Society Website,Persecution Rank 4,Open Doors Top 50,Location Country Janub Kurdufan State,Ethnologue 2016,Language Code fuj,Ethnologue Language Family Niger-Congo,Glottolog Language Family Heibanic,Agricultural People,Daily Lives,Tied to Land,Families Cultivate Crops,Local Environment,Important Source,Livelihood,Livestock,Goats,Sheep,Cattle,Income,Social Value,Village,Family Relationships,Central,Extended Families,Work Together,Agricultural Activities,Support,Planting,Harvest Seasons,Daily Responsibilities,Caring,Animals,Preparing Meals,Gathering Water,Maintaining Homes,Reflects,Grown Locally,Grains,Staple Part,Diet,Community Life,Strengthened,Shared Work,Family Gatherings,Local Traditions,Preserve,Cultural Identity,Generations,Ancestors Lived,Own Language Ko,Most Also Speak,Sudanese Arabic",
     "status": "COMPLETE"
   },
   {
@@ -1836,7 +1836,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Muri,Wukan,Gassol LGA,Gassol,Lafia,Awe,Shendam,Langtang South,Guma,Wukari II Districts,Wukan Dialect,Latin Writing System,ISO 639-3:juk,Glottolog:wapa1235,ELP:Wapan,Central,Major Language,Atlantic-Congo,Benue-Congo,Wapan Wukari,Jukun Wapan,Jukun Wukari,Wakari,Jinkum,Jukon,Juku,Juku Junkun,Jukum,Nigerian Journals Online,Plural Formation,Wukari Local Government Area,Descriptive Method,Leipzig Glossing Rules,Abuken-hora,Rat,Shirt,Merging Morpheme,Phonology,Teachers,Gifts,Greenberg 1963,Ekpan-Nyonyon,Eberhard,Simons,Fenning,Population,Worldwide,Wurukum,Guma LGA,Gombe State,Welmers 1947,Fortifying Settlement,Selected Areas,Interviewed,Wukari II,Descriptive Approach,Plural Word Formation,Analysis,Fit,All Words,More Than One Object,Reason,Both,Certain Group,Numerous,General,Category,Infix,One,Two Syllables,Articulation,Articulated Once,Two Segments,Ho-ra,Stress,First Syllable,Not Plural Markers,Signals,Plural Formation Process,New Words,Two Plural Markers,Abuken Hora,Rats,Shirts,Guide,Contribute,Linguistic Development,Enviable Position,Willing,Joseph Greenberg 1963,Ekpan,Nasarawa,Gombe,Traced Origin,Settled,Fortifying,Settlement,Long Period,Research,Term,Kpanzo,Traditionally Located,Benue,Adamawa,Gombe States,Northwestern Cameroon,Descendants,Tribes,North Central Nigeria,Trace Origin,One Way,Other,Relate,Southern Part,Variations,Almost Every LGA,Different Varieties,Quite Similar,So Different,Almost Different Languages,Regional Dialect,Certain Geographical Area,Social Dialect,Socio-economic Class,Working Class Dialects,England,Ghetto Languages,United States,Wapan Variety,Basis,City,Commercial Area,Requirements,Recognized Standard,Important Note,Never Purely Regional,Social,Ethnic,Sometimes,Factors,Combine,Intersect,Various Ways,Identification,Mutual Intelligibility,Own Words,Name Things,Neighbors,Ease Communication,Prestige,City Center,Largest Number,Accepted,All Other Dialects,Everyone,Attributed,Fact,Wapan Speakers,Look Down,Inferior,Insist,Using,Own Dialects,Rather,Accepting,Kuteb,Kpanzon,Din,Etulo,Chamba,Parts,Root,Connected,Culture,Tradition,Associated,Conceptual,Research Design,Descriptive Survey,Gathered,Note Taking,Subsequent Analysis,Selected Individuals,Scholars,Highly Conversant,Elders,Academics,Clergy,Farmers,Businessmen,Women,Versed,Acquainted,Basics,Considered,Youths,Social Gatherings,Researchers,Course,Communication,Critically Observed,Identify,Important State,Native Speaker,Elicited,Comparison,Kuteb Dialects,Fall,Kókw,Orthography,Etulo Dialects,Voicing,Marks,Significant Role,Semantic Variation,Words,Spelled Same,Identified,Presented,Analyzed,Descriptively,Tonal Disparity,Spoken Word,Wapan Words,Independently Formed,Function,Different Environments,Bringing About,Same Word,Result,References,Work,Train Teachers,Master,Teach,Encouraged,Handsome Gifts,Best Performer,All Participants,Encourage,More People,Programs,Contribution",
+    "b": "Muri,Wukan,Gassol LGA,Gassol,Lafia,Awe,Shendam,Langtang South,Guma,Wukari II Districts,Wukan Dialect,Latin Writing System,ISO 639-3:juk,Glottolog:wapa1235,ELP:Wapan,Central,Major Language,Atlantic-Congo,Benue-Congo,Jukun Wukari,Wakari,Jinkum,Jukon,Juku,Juku Junkun,Jukum,Nigerian Journals Online,Plural Formation,Wukari Local Government Area,Descriptive Method,Leipzig Glossing Rules,Abuken-hora,Rat,Shirt,Merging Morpheme,Phonology,Teachers,Gifts,Greenberg 1963,Ekpan-Nyonyon,Eberhard,Simons,Fenning,Population,Worldwide,Wurukum,Guma LGA,Gombe State,Welmers 1947,Fortifying Settlement,Selected Areas,Interviewed,Wukari II,Descriptive Approach,Plural Word Formation,Analysis,Fit,All Words,More Than One Object,Reason,Both,Certain Group,Numerous,General,Category,Infix,One,Two Syllables,Articulation,Articulated Once,Two Segments,Ho-ra,Stress,First Syllable,Not Plural Markers,Signals,Plural Formation Process,New Words,Two Plural Markers,Abuken Hora,Rats,Shirts,Guide,Contribute,Linguistic Development,Enviable Position,Willing,Joseph Greenberg 1963,Ekpan,Nasarawa,Gombe,Traced Origin,Settled,Fortifying,Settlement,Long Period,Research,Term,Kpanzo,Traditionally Located,Benue,Adamawa,Gombe States,Northwestern Cameroon,Descendants,Tribes,North Central Nigeria,Trace Origin,One Way,Other,Relate,Southern Part,Variations,Almost Every LGA,Different Varieties,Quite Similar,So Different,Almost Different Languages,Regional Dialect,Certain Geographical Area,Social Dialect,Socio-economic Class,Working Class Dialects,England,Ghetto Languages,United States,Basis,City,Commercial Area,Requirements,Recognized Standard,Important Note,Never Purely Regional,Social,Ethnic,Sometimes,Factors,Combine,Intersect,Various Ways,Identification,Mutual Intelligibility,Own Words,Name Things,Neighbors,Ease Communication,Prestige,City Center,Largest Number,Accepted,All Other Dialects,Everyone,Attributed,Fact,Look Down,Inferior,Insist,Using,Own Dialects,Rather,Accepting,Kuteb,Kpanzon,Din,Etulo,Chamba,Parts,Root,Connected,Culture,Tradition,Associated,Conceptual,Research Design,Descriptive Survey,Gathered,Note Taking,Subsequent Analysis,Selected Individuals,Scholars,Highly Conversant,Elders,Academics,Clergy,Farmers,Businessmen,Women,Versed,Acquainted,Basics,Considered,Youths,Social Gatherings,Researchers,Course,Communication,Critically Observed,Identify,Important State,Native Speaker,Elicited,Comparison,Kuteb Dialects,Fall,Kókw,Orthography,Etulo Dialects,Voicing,Marks,Significant Role,Semantic Variation,Words,Spelled Same,Identified,Presented,Analyzed,Descriptively,Tonal Disparity,Spoken Word,Independently Formed,Function,Different Environments,Bringing About,Same Word,Result,References,Work,Train Teachers,Master,Teach,Encouraged,Handsome Gifts,Best Performer,All Participants,Encourage,More People,Programs,Contribution",
     "status": "COMPLETE"
   },
   {
@@ -2096,8 +2096,8 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0.1,
-    "b": "Diddesa Valley,Didessa Valley,Muts'a,Mutsa,Dimtu,Dimt'u,Asosa,Assosa,Bambishi,Benishangul-Gumuz,Blue Nile Region,Didessa River,Muts'a Valley,Asosa Town,Asosa Zone,Asosa Woreda,Asosa Region,Bambassi People,Bambassi Language,North Omotic,Mao River,Dabus River,Yabus River,Blue Nile,Nilo-Saharan",
-    "status": "COMPLETE"
+    "b": "Diddesa Valley,Didessa Valley,Muts'a,Mutsa,Dimtu,Dimt'u,Asosa,Assosa,Bambishi,Benishangul-Gumuz,Blue Nile Region,Didessa River,Muts'a Valley,Asosa Town,Asosa Zone,Asosa Woreda,Asosa Region,North Omotic,Mao River,Dabus River,Yabus River,Blue Nile,Nilo-Saharan",
+    "status": "WAITING"
   },
   {
     "name": "Tagoi",
@@ -2106,7 +2106,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Tagoi Hills,Nuba Mountains,South Kordofan,Sudan,Tagoi People,Tumale Village,Tuling Village,Turjok Village,Tukum Village,Moreb Village,Tagoi Language,Niger-Congo,Kordofanian",
+    "b": "Nuba Mountains,South Kordofan,Sudan,Tumale Village,Tuling Village,Turjok Village,Tukum Village,Moreb Village,Niger-Congo,Kordofanian",
     "status": "WAITING"
   },
   {
@@ -2116,7 +2116,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0.1,
-    "b": "",
+    "b": "Wali,Boboi,Kurum,Abu Seida,Seidi,Julud",
     "status": "WAITING"
   },
   {
@@ -2246,7 +2246,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0.1,
-    "b": "Mongala,DR Congo,Libenge,Bumba,Bosobolo,Mobayi-Mbongo,Inongo,Mushie,Bolobo,Oshwe,Nioki,Mongala River,Congo River,Lomami River,Ubangi River,Lualaba River,DRC,Democratic Republic of Congo,Equateur Province,Mongala Province,Sud-Ubangi Province,Wongo People,Zone C,Niger-Congo,Atlantic-Congo,Volta-Congo,Benue-Congo,Bantoid,Southern Bantoid,Wongo Language,Wongo Dialect,Bantu C.50",
+    "b": "Mongala,DR Congo,Libenge,Bumba,Bosobolo,Mobayi-Mbongo,Inongo,Mushie,Bolobo,Oshwe,Nioki,Mongala River,Congo River,Lomami River,Ubangi River,Lualaba River,DRC,Democratic Republic of Congo,Equateur Province,Mongala Province,Sud-Ubangi Province,Zone C,Niger-Congo,Atlantic-Congo,Volta-Congo,Benue-Congo,Bantoid,Southern Bantoid,Bantu C.50",
     "status": "COMPLETE"
   },
   {
@@ -2276,7 +2276,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Awjila people,Awjila language,Al Jaghbub,Al Jaghbub oasis,Al Jaghbub town,Al Jaghbub people,Al Jaghbub language,Jalu oasis,Jalu town,Jalu people,Jalu language,Tazirbu oasis,Tazirbu town,Tazirbu people,Tazirbu language,Zella oasis,Zella town,Zella people,Zella language,Waddan oasis,Waddan town,Waddan people,Waddan language,Hun oasis,Hun town,Hun people,Hun language",
+    "b": "Al Jaghbub,Al Jaghbub oasis,Al Jaghbub town,Al Jaghbub people,Al Jaghbub language,Jalu oasis,Jalu town,Jalu people,Jalu language,Tazirbu oasis,Tazirbu town,Tazirbu people,Tazirbu language,Zella oasis,Zella town,Zella people,Zella language,Waddan oasis,Waddan town,Waddan people,Waddan language,Hun oasis,Hun town,Hun people,Hun language",
     "status": "COMPLETE"
   },
   {
@@ -2466,7 +2466,7 @@ window.africaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Johannesburg,Durban,Pretoria,Cape Town,Port Elizabeth,Bloemfontein,Kimberley,Windhoek,Keetmanshoop,Gobabis,Mariental,Rehoboth,Luderitz,Oranjemund,Rundu,Katima Mulilo,Oshakati,Ondangwa,Tsumeb,Grootfontein,Otjiwarongo,Okahandja,Gweru,Masvingo,Victoria Falls,Mbombela,Stellenbosch,George,Upington,Ndola,Kitwe,Livingstone,Pietermaritzburg,Arroyo,Bayamon,SanJuan,Maricao,SanSebastian,RioGrande,Santalsabel,SantaIsabel,Canovanas,Kralendijk,Utuado,VegaAlta,Yauco,Ciales,Luquillo,Amosport,Amalview,Amikport,Anagville,Abomville,Akesport,Aaview,Alurport,Adubville,Aukport,Aagview,Akikville,Afedville,Adodport,Alulport,Fanagalotown,Fanagaloville,Fanagaloburg,Fanagaloview,Fanagaloside",
+    "b": "Johannesburg,Durban,Pretoria,Cape Town,Port Elizabeth,Bloemfontein,Kimberley,Windhoek,Keetmanshoop,Gobabis,Mariental,Rehoboth,Luderitz,Oranjemund,Rundu,Katima Mulilo,Oshakati,Ondangwa,Tsumeb,Grootfontein,Otjiwarongo,Okahandja,Gweru,Masvingo,Victoria Falls,Mbombela,Stellenbosch,George,Upington,Ndola,Kitwe,Livingstone,Pietermaritzburg,Arroyo,Bayamon,SanJuan,Maricao,SanSebastian,RioGrande,Santalsabel,SantaIsabel,Canovanas,Kralendijk,Utuado,VegaAlta,Yauco,Ciales,Luquillo",
     "status": "COMPLETE"
   },
   {
@@ -2516,7 +2516,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Tunis,Sfax,Sousse,Kairouan,Monastir,Mahdia,Bizerte,Gabes,Medenine,Tozeur,Gafsa,Dar es Salaam,Dodoma,Arusha,Mwanza,Tanga,Mbeya,Songea,Kigoma,Tabora,Morogoro,Iringa,Shinyanga,Kagera,Ruvuma,Touba,Ségou,Sikasso,Mopti,Timbuktu,Gao,Bobo-Dioulasso,Amogbridge,Abanbridge,Apunport,Amimport,Amibport,Abeswood,Alaport,Amekport,Alidport,Anilport,Afusbridge,Anebbridge,Afeswood,Amutport,Amitbridge,Douirettown,Douiretville,Douiretburg,Douiretview,Douiretside",
+    "b": "Tunis,Sfax,Sousse,Kairouan,Monastir,Mahdia,Bizerte,Gabes,Medenine,Tozeur,Gafsa,Dar es Salaam,Dodoma,Arusha,Mwanza,Tanga,Mbeya,Songea,Kigoma,Tabora,Morogoro,Iringa,Shinyanga,Kagera,Ruvuma,Touba,Ségou,Sikasso,Mopti,Timbuktu,Gao,Bobo-Dioulasso",
     "status": "COMPLETE"
   },
   {
@@ -2546,7 +2546,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Yaoundé,Mbalmayo,Nanga-Eboko,Obala,Sa'a,Mfou,Akonolinga,Bafia,Bafang,Bangangté,Nkongsamba,Ebolowa,Ambam,Ntui,Mbandjock,Bafut,Galim,Bali,Goura,Bélabo,Belabo,Binguela,Bodomo,Boné,Dar es Salaam,Aeswood,Abetwood,Aerwood,Amemwood,ewondopopulaireHeights,ewondopopulaireFalls,ewondopopulaireBeach,ewondopopulairePoint,ewondopopulaireBay,ewondopopulaireGrove,Humacao,Orocovis,Mayaguez,Juncos,Maunabo,Castries,Dorado,Arecibo,Jayuya,Aguada,Ceiba,Guayama,Arroyo,Bayamon,SanJuan,Anolbridge,Apetport,Alinbridge,Abadport,Abambridge,Adigbridge,Apebport,Amubbridge,Alolport,Adidport,Afukbridge,EwondoPopulairetown,EwondoPopulaireville,EwondoPopulaireburg,EwondoPopulaireview,EwondoPopulaireside",
+    "b": "Yaoundé,Mbalmayo,Nanga-Eboko,Obala,Sa'a,Mfou,Akonolinga,Bafia,Bafang,Bangangté,Nkongsamba,Ebolowa,Ambam,Ntui,Mbandjock,Bafut,Galim,Bali,Goura,Bélabo,Belabo,Binguela,Bodomo,Boné,Dar es Salaam,Humacao,Orocovis,Mayaguez,Juncos,Maunabo,Castries,Dorado,Arecibo,Jayuya,Aguada,Ceiba,Guayama,Arroyo,Bayamon,SanJuan",
     "status": "COMPLETE"
   },
   {
@@ -2566,7 +2566,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Gyaazi,Bichiki,Sakani,Zaranda,Byeru,Haɗobilang,Pakimi,Beddare,Balla,Mәgang,Rauta Geji,Dawa,Gumau,Rishi,Badiko,Tafawa-Balewa,Toro,Bununu,Dass,Jos,Dar es Salaam,Dodoma,Arusha,Mwanza,Nzérékoré,Kuru",
+    "b": "Gyaazi,Bichiki,Sakani,Zaranda,Byeru,Haɗobilang,Pakimi,Beddare,Balla,Mәgang,Dawa,Gumau,Rishi,Badiko,Tafawa-Balewa,Toro,Bununu,Dass,Jos,Dar es Salaam,Dodoma,Arusha,Mwanza,Nzérékoré,Kuru",
     "status": "COMPLETE"
   },
   {
@@ -2616,7 +2616,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0.1,
-    "b": "Pankshin,Mangu,Bokkos,Kanke,Barkin Ladi,Riyom,Shendam,Langtang,Wase,Panyam,Kanam,Dengi,Ibadan,Jos,Plateau State,Mangu LGA,Pankshin LGA,Bokkos LGA,Kanke LGA,Barkin Ladi LGA,Riyom LGA,Shendam LGA,Langtang LGA,Wase LGA,Panyam LGA,Kanam LGA,Dengi LGA,Gadang Language,Plateau,West Chadic,Afro-Asiatic,Chadic,Biu-Mandara,Wandala-Mafa,Mafa,North",
+    "b": "Pankshin,Mangu,Bokkos,Kanke,Barkin Ladi,Riyom,Shendam,Langtang,Wase,Panyam,Kanam,Dengi,Ibadan,Jos,Plateau State,Mangu LGA,Pankshin LGA,Bokkos LGA,Kanke LGA,Barkin Ladi LGA,Riyom LGA,Shendam LGA,Langtang LGA,Wase LGA,Panyam LGA,Kanam LGA,Dengi LGA,Plateau,West Chadic,Afro-Asiatic,Chadic,Biu-Mandara,Wandala-Mafa,Mafa,North",
     "status": "COMPLETE"
   },
   {
@@ -2626,7 +2626,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Pada Galambi,Galambi Yelwa,Dindima,Dadin Kowa,Guri,Kyanda,Minza,Nasarawa,Minjala,Sharuwa,Tudun Wada,Turiya,Ung Wakili,Bauchi State,Galambu Language,Galambu People,Afro-Asiatic,Chadic,West Chadic,Bade-Warji,Warji,B.2,Gulani Town,Gulani District,Gulani Ward,Gulani Village,Gulani Settlement,Gulani Community,Gulani Area,Gulani Region,Gulani Zone,Yobe State",
+    "b": "Pada Galambi,Galambi Yelwa,Dindima,Dadin Kowa,Guri,Kyanda,Minza,Nasarawa,Minjala,Sharuwa,Tudun Wada,Turiya,Ung Wakili,Bauchi State,Afro-Asiatic,Chadic,West Chadic,Bade-Warji,Warji,B.2,Gulani Town,Gulani District,Gulani Ward,Gulani Village,Gulani Settlement,Gulani Community,Gulani Area,Gulani Region,Gulani Zone,Yobe State",
     "status": "COMPLETE"
   },
   {
@@ -2666,7 +2666,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Gera LGA,Gera Language,Gera People,Afro-Asiatic,Chadic,West Chadic,Bade-Warji,Warji,B.2,Yobe State,Gombe State,Adamawa State,Borno State",
+    "b": "Afro-Asiatic,Chadic,West Chadic,Bade-Warji,Warji,B.2,Yobe State,Gombe State,Adamawa State,Borno State",
     "status": "WAITING"
   },
   {
@@ -2676,7 +2676,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Geruma Language,Geruma People,Afro-Asiatic,Chadic,West Chadic,Bade-Warji,Warji,B.2,Gera,Gombe State,Adamawa State,Borno State,Yobe State",
+    "b": "Afro-Asiatic,Chadic,West Chadic,Bade-Warji,Warji,B.2,Gera,Gombe State,Adamawa State,Borno State,Yobe State",
     "status": "WAITING"
   },
   {
@@ -2746,7 +2746,7 @@ window.africaNameBases = [
     "max": 19,
     "d": "lnrt",
     "m": 0,
-    "b": "Timimoun,Adrar,Reggane,Bordj Badji Mokhtar,Tamanrasset,Aoulef,Fenoughil,Metarfa,Tamentit,Charouine,Adghak,Yola,Mubi,Madagali,Michika,Hong,Gombi,Song,Garkida,Guyaku,Boga,Numan,Demsa,Jimeta,Ganye,Porto-Novo,Parakou,Sokodé,Kara,Cape Coast,Yamoussoukro,Dakar,Bamako,Ouagadougou,Conakry,Akasford,Abatford,Alerside,Abosford,Apetford,Afubford,Apukford,Afadside,Aobside,Apodford,Akakford,Akinford,Ababford,Alodland,Amegside,Guraratown,Guraraville,Guraraburg,Guraraview,Guraraside",
+    "b": "Timimoun,Adrar,Reggane,Bordj Badji Mokhtar,Tamanrasset,Aoulef,Fenoughil,Metarfa,Tamentit,Charouine,Adghak,Yola,Mubi,Madagali,Michika,Hong,Gombi,Song,Garkida,Guyaku,Boga,Numan,Demsa,Jimeta,Ganye,Porto-Novo,Parakou,Sokodé,Kara,Cape Coast,Yamoussoukro,Dakar,Bamako,Ouagadougou,Conakry,Alodland",
     "status": "COMPLETE"
   },
   {
@@ -2766,7 +2766,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Chefchaouen,Tetouan,Tangier,Asilah,Larache,Ksar el-Kebir,Al Hoceima,Ouezzane,Rissani,Fnideq,Yola,Mubi,Madagali,Michika,Hong,Gombi,Song,Garkida,Guyaku,Boga,Numan,Demsa,Jimeta,Ganye,Jada,Accra,Kumasi,Abidjan,Lomé,Cotonou,Lagos,Kano,Ibadan,Abuja,Tamale,Bouaké,Aolport,Afuport,Amabport,Apemport,Abunport,Abonville,Apurport,Amarview,Anotport,Abagville,Aloville,Aelport,Aurville,Akanville,Adomport,Ghomaratown,Ghomaraville,Ghomaraburg,Ghomaraview,Ghomaraside",
+    "b": "Chefchaouen,Tetouan,Tangier,Asilah,Larache,Ksar el-Kebir,Al Hoceima,Ouezzane,Rissani,Fnideq,Yola,Mubi,Madagali,Michika,Hong,Gombi,Song,Garkida,Guyaku,Boga,Numan,Demsa,Jimeta,Ganye,Jada,Accra,Kumasi,Abidjan,Lomé,Cotonou,Lagos,Kano,Ibadan,Abuja,Tamale,Bouaké",
     "status": "COMPLETE"
   },
   {
@@ -2816,8 +2816,8 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Amsa,Boppa,Tukwri,Vi,Shike,Ligwe,Gameta,Mukta,Nkafa,Dakwa,Sina,Futu,Tili Pte,Hya,Hya Language,Hya People,Nigeria,FCT Abuja,Kano State,Katsina State,Jigawa State,Yobe State,Borno State,Sokoto State,Zamfara State,Kebbi State",
-    "status": "COMPLETE"
+    "b": "Amsa,Boppa,Tukwri,Vi,Shike,Ligwe,Gameta,Mukta,Nkafa,Dakwa,Sina,Futu,Tili Pte,Hya,Nigeria,FCT Abuja,Kano State,Katsina State,Jigawa State,Yobe State,Borno State,Sokoto State,Zamfara State,Kebbi State",
+    "status": "WAITING"
   },
   {
     "name": "Guruntum",
@@ -2826,7 +2826,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Guruntum Language,Guruntum People,Afro-Asiatic,Chadic,West Chadic,North Bauchi,B.2,Gombe State,Adamawa State,Borno State,Yobe State",
+    "b": "Afro-Asiatic,Chadic,West Chadic,North Bauchi,B.2,Gombe State,Adamawa State,Borno State,Yobe State",
     "status": "WAITING"
   },
   {
@@ -2846,8 +2846,8 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Far North Province,Mayo-Tsanaga Division,Mokolo Subdivision,Canton Matakam-South,Matakam-South,Cuvok,Mafa,Mefele,Daba,Hina,Mina,Gavar,Gawar,Gavar-Fulfulde,Mse Mountain,Mandara Mountains,Bual,Ma Buwal,Buwal Language,Buwal People,Afro-Asiatic,Chadic,Biu-Mandara,Wandala-Mafa,Wandala,A.4",
-    "status": "COMPLETE"
+    "b": "Far North Province,Mayo-Tsanaga Division,Mokolo Subdivision,Canton Matakam-South,Matakam-South,Cuvok,Mafa,Mefele,Daba,Hina,Mina,Gavar,Gawar,Gavar-Fulfulde,Mse Mountain,Mandara Mountains,Bual,Afro-Asiatic,Chadic,Biu-Mandara,Wandala-Mafa,Wandala,A.4",
+    "status": "WAITING"
   },
   {
     "name": "Komo",
@@ -2856,7 +2856,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Asosa,Gambella,Kurmuk,Assosa,Penishuba,Yabeldigis,Mao,Ura,Aftimt,Bisha,Guba,Didessa,Omo,Beloj,Dabus,Sherkole,Menge,Durame,Kacha,Bita,Ethiopia,Sudan,South Sudan,Benishangul-Gumuz,Gambella Region,Komo Language,Komo People,Nilo-Saharan,Komuz,Koma",
+    "b": "Asosa,Gambella,Kurmuk,Assosa,Penishuba,Yabeldigis,Mao,Ura,Aftimt,Bisha,Guba,Didessa,Omo,Beloj,Dabus,Sherkole,Menge,Durame,Kacha,Bita,Ethiopia,Sudan,South Sudan,Benishangul-Gumuz,Gambella Region,Nilo-Saharan,Komuz,Koma",
     "status": "COMPLETE"
   },
   {
@@ -2936,7 +2936,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Bulawayo,Gwanda,Lupane,Beitbridge,Plumtree,Esigodini,Filabusi,Insiza,Kezi,Victoria Falls,Harare,Mutare,Gweru,Kwekwe,Kadoma,Chinhoyi,Karoi,Kariba,Hurungwe,Muzarabani,Mount Darwin,Bindura,Shamva,Marondera,Murewa,Mutoko,Chitungwiza,Epworth,Seke,Chivhu,Featherstone,Beatrice,Mashava,Masvingo,Zaka,Bikita,Nyika,Ndanga,Gutu,Chatsworth,Fort Rixon,Inyathi,Umguza,Magwegwe,Pumula,Luveve,Njube,Mzilikazi,Barbourfields,Hammanskraal,Atteridgeville,Mamelodi,Soshanguve,Pretoria North,Mabopane,Ga-Rankuwa,Winterveld,Refilwe,Cullinan,Rayton,Roodeplaat,Pretoria East,Witbank,Middelburg,Standerton,Secunda,eMbalenhle,KwaNdebele,Bronkhorstspruit,Zimbabwe,South Africa,Botswana,Mozambique,Ndebele Language,Ndebele People,Nguni,Bantu,Niger-Congo,Atlantic-Congo,Volta-Congo,Benue-Congo,Bantoid,Southern Bantoid",
+    "b": "Bulawayo,Gwanda,Lupane,Beitbridge,Plumtree,Esigodini,Filabusi,Insiza,Kezi,Victoria Falls,Harare,Mutare,Gweru,Kwekwe,Kadoma,Chinhoyi,Karoi,Kariba,Hurungwe,Muzarabani,Mount Darwin,Bindura,Shamva,Marondera,Murewa,Mutoko,Chitungwiza,Epworth,Seke,Chivhu,Featherstone,Beatrice,Mashava,Masvingo,Zaka,Bikita,Nyika,Ndanga,Gutu,Chatsworth,Fort Rixon,Inyathi,Umguza,Magwegwe,Pumula,Luveve,Njube,Mzilikazi,Barbourfields,Hammanskraal,Atteridgeville,Mamelodi,Soshanguve,Pretoria North,Mabopane,Ga-Rankuwa,Winterveld,Refilwe,Cullinan,Rayton,Roodeplaat,Pretoria East,Witbank,Middelburg,Standerton,Secunda,eMbalenhle,KwaNdebele,Bronkhorstspruit,Zimbabwe,South Africa,Botswana,Mozambique,Nguni,Bantu,Niger-Congo,Atlantic-Congo,Volta-Congo,Benue-Congo,Bantoid,Southern Bantoid",
     "status": "COMPLETE"
   },
   {
@@ -2966,7 +2966,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Kisii,Awendo,Kisumu West,Awang,Mathare,Nakuru,Busia,Rachuonyo,Suba,Nyando,Muhuroni,Chemelil,Nandi Hills,Kapsabet,Eldoret,Kakamega,Vihiga,Malava,Mumias,Matungu,Butere,Khwisero,Shinyalu,Ikolomani,Lurambi,Kwanza,Saboti,Cherangany,Kaiti,Ndori,Asembo,Luanda,Rangala,Maseno,Chulaimbo,Port Victoria,Sega,Usenge,Bumala,Funyula,Nambale,Malakisi,Kimilili,Kapsokwony,Kitale,Kapenguria,Makutano,Lodwar,Lokichoggio,Maralal,Baragoi,Borabu,Keroka,Nyansiongo,Nyangusu,Kendu Bay,Mbita,Ndhiwa,Rangwe,Rodi,Kopany,Gulu,Lira,Soroti,Arua,Kitgum,Moyo,Adjumani,Pakwach,Masindi,Hoima,Nebbi,Kenya,Tanzania,Uganda,Sudan,South Sudan,Luo Language,Luo People,Nilotic,Western Nilotic",
+    "b": "Kisii,Awendo,Kisumu West,Awang,Mathare,Nakuru,Busia,Rachuonyo,Suba,Nyando,Muhuroni,Chemelil,Nandi Hills,Kapsabet,Eldoret,Kakamega,Vihiga,Malava,Mumias,Matungu,Butere,Khwisero,Shinyalu,Ikolomani,Lurambi,Kwanza,Saboti,Cherangany,Kaiti,Ndori,Asembo,Luanda,Rangala,Maseno,Chulaimbo,Port Victoria,Sega,Usenge,Bumala,Funyula,Nambale,Malakisi,Kimilili,Kapsokwony,Kitale,Kapenguria,Makutano,Lodwar,Lokichoggio,Maralal,Baragoi,Borabu,Keroka,Nyansiongo,Nyangusu,Kendu Bay,Mbita,Ndhiwa,Rangwe,Rodi,Kopany,Gulu,Lira,Soroti,Arua,Kitgum,Moyo,Adjumani,Pakwach,Masindi,Hoima,Nebbi,Kenya,Tanzania,Uganda,Sudan,South Sudan,Nilotic,Western Nilotic",
     "status": "COMPLETE"
   },
   {
@@ -2976,7 +2976,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Mtwara,Lindi,Masasi,Nachingwea,Ruangwa,Newala,Mueda,Macomia,Mecula,Mecufi,Chiure,Namuno,Nipepe,Nangade,Muidumbe,Meluco,Murrupula,Tunduru,Tanzania,Mozambique,Bantu,Niger-Congo,Atlantic-Congo,Volta-Congo,Benue-Congo,Bantoid,Southern Bantoid,Makonde Culture,Makonde Carvings,Makonde Masks,Makonde Dance,Makonde Music,Makonde Traditions,Makonde History,Makonde Escarpment,Makonde Coast,Makonde Hinterland,Makonde Villages,Makonde Towns,Makonde Districts,Makonde Regions,Makonde Country",
+    "b": "Mtwara,Lindi,Masasi,Nachingwea,Ruangwa,Newala,Mueda,Macomia,Mecula,Mecufi,Chiure,Namuno,Nipepe,Nangade,Muidumbe,Meluco,Murrupula,Tunduru,Tanzania,Mozambique,Bantu,Niger-Congo,Atlantic-Congo,Volta-Congo,Benue-Congo,Bantoid,Southern Bantoid",
     "status": "COMPLETE"
   },
   {
@@ -2986,7 +2986,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Mambwe,Mfuwe,Chongwe,Chadiza,Chipangali,Vubwi,Chama,Chipata,Katete,Pfwele,Lundazi,Petauke,Jumbe,Mnkhanya,Msoro,Nsefu,Kakumbi,Malama,Zambia,Mozambique,Bantu,Niger-Congo,Atlantic-Congo,Volta-Congo,Benue-Congo,Bantoid,Southern Bantoid,Kunda Culture,Kunda Traditions,Kunda History,Kunda Plateau,Kunda Coast,Makonde Plateau,Makonde Escarpment,Makonde Coast,Makonde Hinterland,Makonde Villages,Makonde Towns,Makonde Districts,Makonde Regions,Makonde Country",
+    "b": "Mambwe,Mfuwe,Chongwe,Chadiza,Chipangali,Vubwi,Chama,Chipata,Katete,Pfwele,Lundazi,Petauke,Jumbe,Mnkhanya,Msoro,Nsefu,Kakumbi,Malama,Zambia,Mozambique,Bantu,Niger-Congo,Atlantic-Congo,Volta-Congo,Benue-Congo,Bantoid,Southern Bantoid,Makonde Plateau,Makonde Escarpment,Makonde Coast,Makonde Hinterland,Makonde Villages,Makonde Towns,Makonde Districts,Makonde Regions,Makonde Country",
     "status": "COMPLETE"
   },
   {
@@ -2996,7 +2996,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Sioma,Sesheke,Mongu,Shangombo,Limakazo,Kwamashi,Imusho,Lukonge,Kalabo,Lukulu,Kazungula,Senanga,Lealui,Litenge,Lufubu,Luena,Lupingu,Zambia,Botswana,Namibia,Angola,Bantu,Niger-Congo,Atlantic-Congo,Volta-Congo,Benue-Congo,Bantoid,Southern Bantoid,Shanjo Plateau,Shanjo Coast,Shanjo Hinterland,Shanjo Villages,Shanjo Towns,Shanjo Districts,Shanjo Regions,Shanjo Country",
+    "b": "Sioma,Sesheke,Mongu,Shangombo,Limakazo,Kwamashi,Imusho,Lukonge,Kalabo,Lukulu,Kazungula,Senanga,Lealui,Litenge,Lufubu,Luena,Lupingu,Zambia,Botswana,Namibia,Angola,Bantu,Niger-Congo,Atlantic-Congo,Volta-Congo,Benue-Congo,Bantoid,Southern Bantoid",
     "status": "COMPLETE"
   },
   {
@@ -3026,7 +3026,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Ouagadougou,Koudougou,Bobo-Dioulasso,Banfora,Kaya,Fada N'Gourma,Gorom-Gorom,Dori,Ouahigouya,Koupéla,Gaoua,Bittou,Ziniaré,Kongoussi,RéOuagadougou,Ré,Burkina Faso,Mossi,Mossi Language,Mossi People,Bantu,Niger-Congo,Atlantic-Congo,Volta-Congo,Benue-Congo,Bantoid,Southern Bantoid,Moore Plateau,Moore Coast,Moore Hinterland,Moore Villages,Moore Towns,Moore Districts,Moore Regions,Moore Country",
+    "b": "Ouagadougou,Koudougou,Bobo-Dioulasso,Banfora,Kaya,Fada N'Gourma,Gorom-Gorom,Dori,Ouahigouya,Koupéla,Gaoua,Bittou,Ziniaré,Kongoussi,RéOuagadougou,Ré,Burkina Faso,Mossi,Mossi Language,Mossi People,Bantu,Niger-Congo,Atlantic-Congo,Volta-Congo,Benue-Congo,Bantoid,Southern Bantoid",
     "status": "COMPLETE"
   },
   {
@@ -3046,7 +3046,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Bujumbura,Gitega,Muyinga,Ngozi,Ruyigi,Kayanza,Muramvya,Makamba,Rumonge,Mwaro,Cankuzo,Karusi,Ntahangwa,Kabizi,Mugendo,Musongati,Mutaho,Rubanda,Rugombo,Rutana,Bubanza,Bururi,Burundi,Rwanda,Tanzania,DRC,Kenya,Uganda,Bantu,Niger-Congo,Atlantic-Congo,Volta-Congo,Benue-Congo,Bantoid,Southern Bantoid,Kirundi Plateau,Kirundi Coast,Kirundi Hinterland,Kirundi Villages,Kirundi Towns,Kirundi Districts,Kirundi Regions,Kirundi Country",
+    "b": "Bujumbura,Gitega,Muyinga,Ngozi,Ruyigi,Kayanza,Muramvya,Makamba,Rumonge,Mwaro,Cankuzo,Karusi,Ntahangwa,Kabizi,Mugendo,Musongati,Mutaho,Rubanda,Rugombo,Rutana,Bubanza,Bururi,Burundi,Rwanda,Tanzania,DRC,Kenya,Uganda,Bantu,Niger-Congo,Atlantic-Congo,Volta-Congo,Benue-Congo,Bantoid,Southern Bantoid",
     "status": "COMPLETE"
   },
   {
@@ -3056,7 +3056,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Kinshasa,Mbanza Kongo,Matadi,Boma,Muanda,Soyo,Cabinda,Luanda,Kikwit,Bandundu,Basankusu,Bolomba,Bomongo,Mbanza Ngungu,Lisala,Kalemie,Kikumba,Kamina,Kinga,Kipushi,Kilisuku,Likasi,Luebo,Madimba,Maji,Mangala,Nsona-Mpangu",
+    "b": "Kinshasa,Matadi,Boma,Muanda,Soyo,Cabinda,Luanda,Kikwit,Bandundu,Basankusu,Bolomba,Bomongo,Mbanza Ngungu,Lisala,Kalemie,Kikumba,Kamina,Kinga,Kipushi,Kilisuku,Likasi,Luebo,Madimba,Maji,Mangala,Nsona-Mpangu",
     "status": "COMPLETE"
   },
   {
@@ -3066,7 +3066,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Kinshasa,Pointe-Noire,Dolisie,Nkayi,Boma,Matadi,Bandundu,Kikwit,Madingou,Mossendjo,Ntamo,Nsaba,Ntemo,Ntima,Ntokou,Ntsila,Ntumba,Nzambi,Nzinga,DRC,Congo,Republic of Congo,Angola,Gabon,Bantu,Niger-Congo,Atlantic-Congo,Volta-Congo,Benue-Congo,Bantoid,Southern Bantoid,Kituba Plateau,Kituba Coast,Kituba Hinterland,Kituba Villages,Kituba Towns,Kituba Districts,Kituba Regions,Kituba Country",
+    "b": "Kinshasa,Pointe-Noire,Dolisie,Nkayi,Boma,Matadi,Bandundu,Kikwit,Madingou,Mossendjo,Ntamo,Nsaba,Ntemo,Ntima,Ntokou,Ntsila,Ntumba,Nzambi,Nzinga,DRC,Congo,Republic of Congo,Angola,Gabon,Bantu,Niger-Congo,Atlantic-Congo,Volta-Congo,Benue-Congo,Bantoid,Southern Bantoid",
     "status": "COMPLETE"
   },
   {
@@ -3076,8 +3076,8 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Barentu,Shambuko,Teseney,Tserona,Asmara,Massawa,Assab,Adi Quala,Suka,Shingaleti,Shumaniti,Tuguliti,Afdera,Badri,Beylul,Bletsa,Dalasa,Deqi,Dghiray,Eritrea,Ethiopia,Sudan,Nilo-Saharan,Afro-Asiatic,Kunama Plateau,Kunama Coast,Kunama Hinterland,Kunama Villages,Kunama Towns,Kunama Districts,Kunama Regions,Kunama Country",
-    "status": "COMPLETE"
+    "b": "Barentu,Shambuko,Teseney,Tserona,Asmara,Massawa,Assab,Adi Quala,Suka,Shingaleti,Shumaniti,Tuguliti,Afdera,Badri,Beylul,Bletsa,Dalasa,Deqi,Dghiray,Eritrea,Ethiopia,Sudan,Nilo-Saharan,Afro-Asiatic",
+    "status": "WAITING"
   },
   {
     "name": "Lusoga",
@@ -3106,8 +3106,8 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Kadugli,Mugum,Rashad,Talodi,Dilling,Lagawa,Abri,Babanusa,Bertakw,Bertatw,Bertapw,Bertamw,Bertasw,Sudan,Ethiopia,Nilo-Saharan,Afro-Asiatic,Berta Plateau,Berta Coast,Berta Hinterland,Berta Villages,Berta Towns,Berta Districts,Berta Regions,Berta Country",
-    "status": "COMPLETE"
+    "b": "Kadugli,Mugum,Rashad,Talodi,Dilling,Lagawa,Abri,Babanusa,Bertakw,Bertatw,Bertapw,Bertamw,Bertasw,Sudan,Ethiopia,Nilo-Saharan,Afro-Asiatic",
+    "status": "WAITING"
   },
   {
     "name": "Tasawaq",
@@ -3116,7 +3116,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "In-Gall,Teguidda-n-Tessoumt,Agadez,Abalak,Tahoua,Arlit,Tchirozerine,Akoubounou,Shadwanka,Azeye,Tabalak,Tamaya,Tiguirwit,Tofabayogh,Tchin-Tabaredene,Inecal,Ilalo,Kolo,Bouza,ElKere,Niger,Mali,Nigeria,Algeria,Libya,Nilo-Saharan,Songhay,Western Songhay,Tasawaq Plateau,Tasawaq Coast,Tasawaq Hinterland,Tasawaq Villages,Tasawaq Towns,Tasawaq Districts,Tasawaq Regions,Tasawaq Country",
+    "b": "In-Gall,Teguidda-n-Tessoumt,Agadez,Abalak,Tahoua,Arlit,Tchirozerine,Akoubounou,Shadwanka,Azeye,Tabalak,Tamaya,Tiguirwit,Tofabayogh,Tchin-Tabaredene,Inecal,Ilalo,Kolo,Bouza,ElKere,Niger,Mali,Nigeria,Algeria,Libya,Nilo-Saharan,Songhay,Western Songhay",
     "status": "COMPLETE"
   },
   {
@@ -3126,7 +3126,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Abalak,Tahoua,Agadez,Arlit,In-Gall,Tamaya,Tiguirwit,Tofabayogh,Tchin-Tabaredene,Tamatlokko,Kel Amdid,Abargan,Tarbun,Kel Illoko,Ibaroogan,Zinder,Maradi,Niamey,Goure,Kolo,TulaNaga,Niger,Mali,Algeria,Libya,Nigeria,Nilo-Saharan,Songhay,Western Songhay,Tagdal Plateau,Tagdal Coast,Tagdal Hinterland,Tagdal Villages,Tagdal Towns,Tagdal Districts,Tagdal Regions,Tagdal Country",
+    "b": "Abalak,Tahoua,Agadez,Arlit,In-Gall,Tamaya,Tiguirwit,Tofabayogh,Tchin-Tabaredene,Tamatlokko,Kel Amdid,Abargan,Tarbun,Kel Illoko,Ibaroogan,Zinder,Maradi,Niamey,Goure,Kolo,TulaNaga,Niger,Mali,Algeria,Libya,Nigeria,Nilo-Saharan,Songhay,Western Songhay",
     "status": "COMPLETE"
   },
   {
@@ -3166,7 +3166,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Katla,Lagawa,Kadugli,Dilling,Talodi,Rashad,Abu Jebha,Tima,El Fasher,El Geneina,El Obeid,Wad Medani,Sennar,Kassala,Al-Damazin,Atbara,Dongola,Nyala,Kauda,Kebkabiya,Koltogola,Kurmuk,Lado,Leila,Manawashi,Jebel Tima,KaTima",
+    "b": "Katla,Lagawa,Kadugli,Dilling,Talodi,Rashad,Abu Jebha,Tima,El Fasher,El Geneina,El Obeid,Wad Medani,Sennar,Kassala,Al-Damazin,Atbara,Dongola,Nyala,Kauda,Kebkabiya,Koltogola,Kurmuk,Lado,Leila,Manawashi,KaTima",
     "status": "COMPLETE"
   },
   {
@@ -3186,8 +3186,8 @@ window.africaNameBases = [
     "max": 17,
     "d": "lnrt",
     "m": 0,
-    "b": "Igije,Imanjela,Thodero,Thoge,Tobaredeng,Tocho Goos,Tocho Saraf Jamus,Toderum,Togero,Togiding,Toriya,Torobang,Tothokrek,Al-Fasher,Al-Junaynah,Al-Ubayyid,Al-Damazin,El Fasher,Nyala,Kadugli,El Geneina,El Obeid,Dongola,Atbara,Kindia,Turu",
-    "status": "COMPLETE"
+    "b": "Igije,Imanjela,Thodero,Thoge,Tobaredeng,Toderum,Togero,Togiding,Toriya,Torobang,Tothokrek,Al-Fasher,Al-Junaynah,Al-Ubayyid,Al-Damazin,El Fasher,Nyala,Kadugli,El Geneina,El Obeid,Dongola,Atbara,Kindia,Turu",
+    "status": "WAITING"
   },
   {
     "name": "Tumtum",
@@ -3216,7 +3216,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Monrovia,Buchanan,Gbarnga,Kakata,Harper,Voinjama,Zwedru,Sanniquellie,Robertsport,Kabxan,Gaalkacyo,Maraag,Mackinnon,Nyamira,Wamba,Xato,Sarameer,Rigomane,BilisQoqani,Jombo,Kihancha,Liberia,Sierra Leone,Guinea,Ivory Coast,Ghana,Bantu,Niger-Congo,Atlantic-Congo,Volta-Congo,Benue-Congo,Bantoid,Southern Bantoid,Liberian Kreyol Plateau,Liberian Kreyol Coast,Liberian Kreyol Hinterland,Liberian Kreyol Villages,Liberian Kreyol Towns,Liberian Kreyol Districts,Liberian Kreyol Regions,Liberian Kreyol Country",
+    "b": "Monrovia,Buchanan,Gbarnga,Kakata,Harper,Voinjama,Zwedru,Sanniquellie,Robertsport,Kabxan,Gaalkacyo,Maraag,Mackinnon,Nyamira,Wamba,Xato,Sarameer,Rigomane,BilisQoqani,Jombo,Kihancha,Liberia,Sierra Leone,Guinea,Ivory Coast,Ghana,Bantu,Niger-Congo,Atlantic-Congo,Volta-Congo,Benue-Congo,Bantoid,Southern Bantoid",
     "status": "COMPLETE"
   },
   {
@@ -3306,7 +3306,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Hosaena,Shone,Gimbichu,Badawacho,Leemo,Soro,Kembata,Angacha,Durame,Mudula,Buee,Sodo,Yirgalem,Araba Minch,Wondo Genet,Dilla,Bati,Bonga,Butajira,Alaba Kulito,Bokicha,Marako,Gubre,Tiye,Ethiopia,Hadiyya Zone,SNNPR,Hadiyya Language,Hadiyya People,Highland East Cushitic,Afro-Asiatic",
+    "b": "Hosaena,Shone,Gimbichu,Badawacho,Leemo,Soro,Kembata,Angacha,Durame,Mudula,Buee,Sodo,Yirgalem,Araba Minch,Wondo Genet,Dilla,Bati,Bonga,Butajira,Alaba Kulito,Bokicha,Marako,Gubre,Tiye,Ethiopia,SNNPR,Highland East Cushitic,Afro-Asiatic",
     "status": "COMPLETE"
   },
   {
@@ -3326,8 +3326,8 @@ window.africaNameBases = [
     "max": 15,
     "d": "lnrt",
     "m": 0,
-    "b": "Mizan Teferi,Shewa Gimira,Debub Bench,Semien Bench,She Bench,Bensa,Kacha,Meinit,Mizan Aman,Guraferda,Sheko,Addis Ababa,Jimma,Hawassa,Wolaytta,Kaffa,Gambela,Bonga,Tepi,Shey Bench,Bench Maji,Surma,Garu,Mentac,Biro,Geisha,Semab,Jaba,Gorei",
-    "status": "COMPLETE"
+    "b": "Mizan Teferi,Shewa Gimira,Bensa,Kacha,Meinit,Mizan Aman,Guraferda,Sheko,Addis Ababa,Jimma,Hawassa,Wolaytta,Kaffa,Gambela,Bonga,Tepi,Surma,Garu,Mentac,Biro,Geisha,Semab,Jaba,Gorei",
+    "status": "WAITING"
   },
   {
     "name": "Ganza",
@@ -3426,7 +3426,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Mongala,Uele,Arua,Koboko,Bumba,Lisala,Gemena,Budjala,Buta,Businga,Isiro,Likasi,Mbandaka,Luebo,Mweka,Aketi,Bafwasende,Basankusu,Bikoro,Bolomba,Bomongo,Bongandanga,Kisangani,Yakoma,Libenge,Mobayi,Mbala,Kananga,Tshikapa,Matadi,Kinshasa,DRC,Congo,Central African Republic,South Sudan,Congo River,Mongala River,Bantu,Niger-Congo,Atlantic-Congo,Volta-Congo,Benue-Congo,Bantoid,Southern Bantoid,Bangala Culture,Bangala Traditions,Bangala History",
+    "b": "Mongala,Uele,Arua,Koboko,Bumba,Lisala,Gemena,Budjala,Buta,Businga,Isiro,Likasi,Mbandaka,Luebo,Mweka,Aketi,Bafwasende,Basankusu,Bikoro,Bolomba,Bomongo,Bongandanga,Kisangani,Yakoma,Libenge,Mobayi,Mbala,Kananga,Tshikapa,Matadi,Kinshasa,DRC,Congo,Central African Republic,South Sudan,Congo River,Mongala River,Bantu,Niger-Congo,Atlantic-Congo,Volta-Congo,Benue-Congo,Bantoid,Southern Bantoid",
     "status": "COMPLETE"
   },
   {
@@ -3446,7 +3446,7 @@ window.africaNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Maridi,Faradje,Mambe,Olo,Tore,Yei,Naam,Yambio,Tambura,Kapoeta,Torit,Bor,Mundri,Rumbek,Ezo,Kaya,Laseru,Obbu,Pibor,Lainya,Tonj,Wau,Yirol,Ibba,Andari,Tumbura,Amadi,Rodho,Nyara,Avokaya Boma",
+    "b": "Maridi,Faradje,Mambe,Olo,Tore,Yei,Naam,Yambio,Tambura,Kapoeta,Torit,Bor,Mundri,Rumbek,Ezo,Kaya,Laseru,Obbu,Pibor,Lainya,Tonj,Wau,Yirol,Ibba,Andari,Tumbura,Amadi,Rodho,Nyara",
     "status": "COMPLETE"
   },
   {
@@ -3466,8 +3466,8 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Aabiisa,Aliyooro Manadaha,Jebels Tulishi,Kamdang,Kirakaati,Laati,Lawwa,Nattilongke,Ntukungnge,Thudhi,Abu Hashim,Sudan,South Sudan,Kordofanian,Niger-Congo,Atlantic-Congo,Volta-Congo,Benue-Congo,Bantoid,Southern Bantoid,Tulishi Plateau,Tulishi Coast,Tulishi Hinterland,Tulishi Villages,Tulishi Towns,Tulishi Districts,Tulishi Regions,Tulishi Country",
-    "status": "COMPLETE"
+    "b": "Aabiisa,Aliyooro Manadaha,Kamdang,Kirakaati,Laati,Lawwa,Nattilongke,Ntukungnge,Thudhi,Abu Hashim,Sudan,South Sudan,Kordofanian,Niger-Congo,Atlantic-Congo,Volta-Congo,Benue-Congo,Bantoid,Southern Bantoid",
+    "status": "WAITING"
   },
   {
     "name": "Uduk",
@@ -3526,7 +3526,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Bombo,Kampala,Luweero,Entebbe,Masindi,Soroti,Jinja,Arua,Kibera,Nairobi,Mombasa,Nakuru,Kisumu,Eldoret,Thika,Nyeri,Meru,Embu,Kitui,Machakos,Kilifi,Maralal,Kakamega,Uganda,Kenya,Tanzania,South Sudan,Sudan,Sudanese Creole Arabic,Sudanese Arabic,Afro-Asiatic,Creole,Nubi Plateau,Nubi Coast,Nubi Hinterland,Nubi Villages,Nubi Towns,Nubi Districts,Nubi Regions,Nubi Country",
+    "b": "Bombo,Kampala,Luweero,Entebbe,Masindi,Soroti,Jinja,Arua,Kibera,Nairobi,Mombasa,Nakuru,Kisumu,Eldoret,Thika,Nyeri,Meru,Embu,Kitui,Machakos,Kilifi,Maralal,Kakamega,Uganda,Kenya,Tanzania,South Sudan,Sudan,Sudanese Creole Arabic,Sudanese Arabic,Afro-Asiatic,Creole",
     "status": "COMPLETE"
   },
   {
@@ -3576,7 +3576,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Mundabli,Mufu,Wum,Abar,Koshin,Mbuk,Missong,Munken,Ngun-Ngwen,Zak-ZaBiya,Esimbi,Fang,Lower Fungom,Fungom,Menchum,Bamenda,Kumbo,Nkambe,Mbengwi,Fundong,Cameroon,Nigeria,Bantu,Niger-Congo,Atlantic-Congo,Volta-Congo,Benue-Congo,Bantoid,Southern Bantoid,Buu Plateau,Buu Coast,Buu Hinterland,Buu Villages,Buu Towns,Buu Districts,Buu Regions,Buu Country",
+    "b": "Mundabli,Mufu,Wum,Abar,Koshin,Mbuk,Missong,Munken,Ngun-Ngwen,Zak-ZaBiya,Esimbi,Fang,Lower Fungom,Fungom,Menchum,Bamenda,Kumbo,Nkambe,Mbengwi,Fundong,Cameroon,Nigeria,Bantu,Niger-Congo,Atlantic-Congo,Volta-Congo,Benue-Congo,Bantoid,Southern Bantoid",
     "status": "COMPLETE"
   },
   {
@@ -3596,7 +3596,7 @@ window.africaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Awing-Bambaluwe,Bamenda,Mezam,Bambui,Bafut,Nso,Kom,Oku,Mankon,Pinyin,Ngemba,Tubah,Babanki,Tungo,Lake Awing,Fontem,Fontem South,Awing,Nkwen,Bangwa,Fontem Southwest,Bamessingue,Bamali,Bamum,Banso,Batcha,Fotouni,Kekpo,Kumba,Loum,Bamena,Bati,Bazou,Kouoptamo,Maga",
+    "b": "Awing-Bambaluwe,Bamenda,Mezam,Bambui,Bafut,Nso,Kom,Oku,Mankon,Pinyin,Ngemba,Tubah,Babanki,Tungo,Fontem,Fontem South,Awing,Nkwen,Bangwa,Fontem Southwest,Bamessingue,Bamali,Bamum,Banso,Batcha,Fotouni,Kekpo,Kumba,Loum,Bamena,Bati,Bazou,Kouoptamo,Maga",
     "status": "COMPLETE"
   },
   {
@@ -3616,7 +3616,7 @@ window.africaNameBases = [
     "max": 14,
     "d": "lnrt",
     "m": 0,
-    "b": "Jebel el Amira,Lafofa,Nuba Hills,Kadugli,Dilling,Lagawa,Rashad,Talodi,Abu Jebha,Eliri,Amira,Tegem,Tingal,Kajakka,Gom,Rashad Hills,El Fasher,El Geneina,El Obeid,Wad Medani,Sennar,Kassala,Al-Damazin,Atbara,Dongola,Nyala",
+    "b": "Lafofa,Nuba Hills,Kadugli,Dilling,Lagawa,Rashad,Talodi,Abu Jebha,Eliri,Amira,Tegem,Tingal,Kajakka,Gom,Rashad Hills,El Fasher,El Geneina,El Obeid,Wad Medani,Sennar,Kassala,Al-Damazin,Atbara,Dongola,Nyala",
     "status": "COMPLETE"
   },
   {
@@ -3626,7 +3626,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Kejom Ketinguh,Kejom Keku,Babanki Tungo,Big Babanki,Bamenda,Kom,Bafut,Nso,Oku,Bafoussam,Bangwa,Bali,Bafang,Fontem,Fundong,Mundu,Dschang,Jouni,Kumbo,Menjang,Morom,Ndiop,Awing,Kekpo,Mbiame,Nkwen,Bangwa Fontem,Babanki Ndop",
+    "b": "Kejom Ketinguh,Kejom Keku,Bamenda,Kom,Bafut,Nso,Oku,Bafoussam,Bangwa,Bali,Bafang,Fontem,Fundong,Mundu,Dschang,Jouni,Kumbo,Menjang,Morom,Ndiop,Awing,Kekpo,Mbiame,Nkwen,Bangwa Fontem",
     "status": "COMPLETE"
   },
   {
@@ -3766,7 +3766,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Wau,Busere,Tonj,Aguka,Juba,Maridi,Yambio,Rumbek,Aweil,Bentiu,Malakal,Bor,Nimule,Lainya,Pibor,Mundri,Lafon,Panyikang,Gogrial,Twic,Leer,South Sudan,Sudan,Nilo-Saharan,Central Sudanic,Bongo-Baka,Bongo Plateau,Bongo Coast,Bongo Hinterland,Bongo Villages,Bongo Towns,Bongo Districts,Bongo Regions,Bongo Country",
+    "b": "Wau,Busere,Tonj,Aguka,Juba,Maridi,Yambio,Rumbek,Aweil,Bentiu,Malakal,Bor,Nimule,Lainya,Pibor,Mundri,Lafon,Panyikang,Gogrial,Twic,Leer,South Sudan,Sudan,Nilo-Saharan,Central Sudanic,Bongo-Baka",
     "status": "COMPLETE"
   },
   {
@@ -3776,7 +3776,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Nikki,Parakou,Kandi,Natitingou,Borgu,Baruten,Saki West,Gwanara,Bankubu,Boriya,Ilesha Baruba,Bussa,New Bussa,Kaiama,Cotonou,Djougou,Savé,Sakété,Pobè,Kétou,Abomey,Lokossa,Dassa-Zoumé,Benin,Nigeria,Gur,Niger-Congo,Atlantic-Congo,Volta-Congo,Benue-Congo,Bantoid,Southern Bantoid,Bariba Plateau,Bariba Coast,Bariba Hinterland,Bariba Villages,Bariba Towns,Bariba Districts,Bariba Regions,Bariba Country",
+    "b": "Nikki,Parakou,Kandi,Natitingou,Borgu,Baruten,Saki West,Gwanara,Bankubu,Boriya,Ilesha Baruba,Bussa,New Bussa,Kaiama,Cotonou,Djougou,Savé,Sakété,Pobè,Kétou,Abomey,Lokossa,Dassa-Zoumé,Benin,Nigeria,Gur,Niger-Congo,Atlantic-Congo,Volta-Congo,Benue-Congo,Bantoid,Southern Bantoid",
     "status": "COMPLETE"
   },
   {
@@ -3786,7 +3786,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Kédougou,Tambacounda,Salémata,Edun,Bokore,Gaoual,Labé,Boké,Youkounkoun,Dindefelo,Mako,Sinthiou Malème,Kédougou Region,Tamba,Dialakoto,Bandafassi,Etyolo,Salemata,Bedick,Fongolimbi,Moudéry,Bounkiling,Goudiry,Senegal,Guinea,Tenda,Niger-Congo,Atlantic-Congo,Volta-Congo,Benue-Congo,Bantoid,Southern Bantoid,Bassari Plateau,Bassari Coast,Bassari Hinterland,Bassari Villages,Bassari Towns,Bassari Districts,Bassari Regions,Bassari Country",
+    "b": "Kédougou,Tambacounda,Salémata,Edun,Bokore,Gaoual,Labé,Boké,Youkounkoun,Dindefelo,Mako,Sinthiou Malème,Kédougou Region,Tamba,Dialakoto,Bandafassi,Etyolo,Salemata,Bedick,Fongolimbi,Moudéry,Bounkiling,Goudiry,Senegal,Guinea,Tenda,Niger-Congo,Atlantic-Congo,Volta-Congo,Benue-Congo,Bantoid,Southern Bantoid",
     "status": "COMPLETE"
   },
   {
@@ -3816,7 +3816,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Port Sudan,Kassala,Gedaref,Tokar,Atrun,Bayuda,Hala'ib,Aswan,Bisharin,Hadendoa,Amarar,Beni-Amer,Shalatin,Abidiya,Ad-Damazin,Al-Fashir,Atbara,Shendi,Dongola,Halfa,Abu Hamed,Merowe,Karima,Sudan,Egypt,Eritrea,Cushitic,Afro-Asiatic,Beja Plateau,Beja Coast,Beja Hinterland,Beja Villages,Beja Towns,Beja Districts,Beja Regions,Beja Country",
+    "b": "Port Sudan,Kassala,Gedaref,Tokar,Atrun,Bayuda,Hala'ib,Aswan,Bisharin,Hadendoa,Amarar,Beni-Amer,Shalatin,Abidiya,Ad-Damazin,Al-Fashir,Atbara,Shendi,Dongola,Halfa,Abu Hamed,Merowe,Karima,Sudan,Egypt,Eritrea,Cushitic,Afro-Asiatic",
     "status": "COMPLETE"
   },
   {
@@ -3866,7 +3866,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Mount Frere,Ixopo,Umzimkhulu,Bulwer,Underberg,Mzimkhulu,Harding,Umzinto,Umzumbe,Flagstaff,Mount Ayliff,Umzimvubu,Mbizana,Tabankulu,Lusikisiki,Qumbu,Tsolo,Cofimvaba,Engcobo,Idutywa,Willowvale,Butterworth,Centane,South Africa,Lesotho,Nguni,Bantu,Niger-Congo,Atlantic-Congo,Volta-Congo,Benue-Congo,Bantoid,Southern Bantoid,Bhaca Plateau,Bhaca Coast,Bhaca Hinterland,Bhaca Villages,Bhaca Towns,Bhaca Districts,Bhaca Regions,Bhaca Country",
+    "b": "Mount Frere,Ixopo,Umzimkhulu,Bulwer,Underberg,Mzimkhulu,Harding,Umzinto,Umzumbe,Flagstaff,Mount Ayliff,Umzimvubu,Mbizana,Tabankulu,Lusikisiki,Qumbu,Tsolo,Cofimvaba,Engcobo,Idutywa,Willowvale,Butterworth,Centane,South Africa,Lesotho,Nguni,Bantu,Niger-Congo,Atlantic-Congo,Volta-Congo,Benue-Congo,Bantoid,Southern Bantoid",
     "status": "COMPLETE"
   },
   {
@@ -3906,7 +3906,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Bangui,Bambari,Bouar,Berberati,Bossangoa,Bozoum,Carnot,Mbaiki,Boda,Kaga-Bandoro,Paoua,Obo,Zemio,Rafaï,Sibut,Alindao,Bria,Ouadda,Bakouma,Dékoa,Kaga,Bimbo,Boali,Berbérati,Central African Republic,Bantu,Niger-Congo,Atlantic-Congo,Volta-Congo,Benue-Congo,Bantoid,Southern Bantoid,Bokoto Plateau,Bokoto Coast,Bokoto Hinterland,Bokoto Villages,Bokoto Towns,Bokoto Districts,Bokoto Regions,Bokoto Country",
+    "b": "Bangui,Bambari,Bouar,Berberati,Bossangoa,Bozoum,Carnot,Mbaiki,Boda,Kaga-Bandoro,Paoua,Obo,Zemio,Rafaï,Sibut,Alindao,Bria,Ouadda,Bakouma,Dékoa,Kaga,Bimbo,Boali,Berbérati,Central African Republic,Bantu,Niger-Congo,Atlantic-Congo,Volta-Congo,Benue-Congo,Bantoid,Southern Bantoid",
     "status": "COMPLETE"
   },
   {
@@ -3936,7 +3936,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Okordia,Oruma,Yenagoa,Sagbama,Okodia,Kalabari,Nembe,Akassa,Brass,Odi,Kolokuma,Opokuma,Ekeremor,Patani,Warri,Forcados,Burutu,Amassoma,Oloibiri,Gbarantoru,Eleme,Ogu,Bodo,Nigeria,Ijo,Niger-Congo,Atlantic-Congo,Volta-Congo,Benue-Congo,Bantoid,Southern Bantoid,Biseni Plateau,Biseni Coast,Biseni Hinterland,Biseni Villages,Biseni Towns,Biseni Districts,Biseni Regions,Biseni Country",
+    "b": "Okordia,Oruma,Yenagoa,Sagbama,Okodia,Kalabari,Nembe,Akassa,Brass,Odi,Kolokuma,Opokuma,Ekeremor,Patani,Warri,Forcados,Burutu,Amassoma,Oloibiri,Gbarantoru,Eleme,Ogu,Bodo,Nigeria,Ijo,Niger-Congo,Atlantic-Congo,Volta-Congo,Benue-Congo,Bantoid,Southern Bantoid",
     "status": "COMPLETE"
   },
   {
@@ -3946,7 +3946,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Garango,Gomboussougou,Zabré,Tenkodogo,Boudry,Bawku,Nima,Ouagadougou,Barka,Lebir,Lere,Sapouy,Koudougou,Banfora,Ziniaré,Kongoussi,Kaya,Fada N'Gourma,Gorom-Gorom,Yako,Gayeri,Zorgho,Bittou,Boussé,Burkina Faso,Ghana,Togo,Gur,Niger-Congo,Atlantic-Congo,Volta-Congo,Benue-Congo,Bantoid,Southern Bantoid,Bissa Plateau,Bissa Coast,Bissa Hinterland,Bissa Villages,Bissa Towns,Bissa Districts,Bissa Regions,Bissa Country",
+    "b": "Garango,Gomboussougou,Zabré,Tenkodogo,Boudry,Bawku,Nima,Ouagadougou,Barka,Lebir,Lere,Sapouy,Koudougou,Banfora,Ziniaré,Kongoussi,Kaya,Fada N'Gourma,Gorom-Gorom,Yako,Gayeri,Zorgho,Bittou,Boussé,Burkina Faso,Ghana,Togo,Gur,Niger-Congo,Atlantic-Congo,Volta-Congo,Benue-Congo,Bantoid,Southern Bantoid",
     "status": "COMPLETE"
   },
   {
@@ -3956,7 +3956,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Baissa,Sardauna,Abong,Mambila,Turan,Takum,Wukari,Gboko,Makurdi,Katsina-Ala,Vandeikya,Zaki Biam,Adikpo,Ugep,Akamkpa,Ogoja,Bekwarra,Obanliku,Ikom,Calabar,Nigeria,Cameroon,Tivoid,Niger-Congo,Atlantic-Congo,Volta-Congo,Benue-Congo,Bantoid,Southern Bantoid,Bitare Plateau,Bitare Coast,Bitare Hinterland,Bitare Villages,Bitare Towns,Bitare Districts,Bitare Regions,Bitare Country",
+    "b": "Baissa,Sardauna,Abong,Mambila,Turan,Takum,Wukari,Gboko,Makurdi,Katsina-Ala,Vandeikya,Zaki Biam,Adikpo,Ugep,Akamkpa,Ogoja,Bekwarra,Obanliku,Ikom,Calabar,Nigeria,Cameroon,Tivoid,Niger-Congo,Atlantic-Congo,Volta-Congo,Benue-Congo,Bantoid,Southern Bantoid",
     "status": "COMPLETE"
   },
   {
@@ -3986,7 +3986,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Segbana,Kalalé,Borgu,Bagudo,Baruten,Bussa,Illo,Senji,Kenugbe,Kaoje,Demmo,Swalla,Karalé,Borgou,Alibori,Abuja,Nikki,Parakou,Kandi,Natitingou,Djougou,Sakété,Pobè,Kétou,Benin,Nigeria,Gur,Niger-Congo,Atlantic-Congo,Volta-Congo,Benue-Congo,Bantoid,Southern Bantoid,Boko Plateau,Boko Coast,Boko Hinterland,Boko Villages,Boko Towns,Boko Districts,Boko Regions,Boko Country",
+    "b": "Segbana,Kalalé,Borgu,Bagudo,Baruten,Bussa,Illo,Senji,Kenugbe,Kaoje,Demmo,Swalla,Karalé,Borgou,Alibori,Abuja,Nikki,Parakou,Kandi,Natitingou,Djougou,Sakété,Pobè,Kétou,Benin,Nigeria,Gur,Niger-Congo,Atlantic-Congo,Volta-Congo,Benue-Congo,Bantoid,Southern Bantoid",
     "status": "COMPLETE"
   },
   {
@@ -4006,7 +4006,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Epena,Likouala-aux-Herbes,Impfondo,Ouesso,Enyele,Bondongo,Mbonzo,Dibole,Bongili,Ngondi,Matoki,Leke,Likouala,CAR,Pointe-Noire,Dolisie,Madingou,Gamboma,Kindamba,Owando,Mossendjo,Mbinda,Makokou,Brazzaville,Congo,DRC,Central African Republic,Bantu,Niger-Congo,Atlantic-Congo,Volta-Congo,Benue-Congo,Bantoid,Southern Bantoid,Bomitaba Plateau,Bomitaba Coast,Bomitaba Hinterland,Bomitaba Villages,Bomitaba Towns,Bomitaba Districts,Bomitaba Regions,Bomitaba Country",
+    "b": "Epena,Likouala-aux-Herbes,Impfondo,Ouesso,Enyele,Bondongo,Mbonzo,Dibole,Bongili,Ngondi,Matoki,Leke,Likouala,CAR,Pointe-Noire,Dolisie,Madingou,Gamboma,Kindamba,Owando,Mossendjo,Mbinda,Makokou,Brazzaville,Congo,DRC,Central African Republic,Bantu,Niger-Congo,Atlantic-Congo,Volta-Congo,Benue-Congo,Bantoid,Southern Bantoid",
     "status": "COMPLETE"
   },
   {
@@ -4016,7 +4016,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "San,Tominian,Mandiakuy,Sialo,Dahanmu,Dwemu,Bobo-Dioulasso,Ouagadougou,Dedougou,Banfora,Koudougou,Kaya,Fada N'Gourma,Gorom-Gorom,Yako,Gayeri,Zorgho,Bittou,Boussé,Kouka,Mogtédo,Rambo,Yargo,Burkina Faso,Mali,Gur,Niger-Congo,Atlantic-Congo,Volta-Congo,Benue-Congo,Bantoid,Southern Bantoid,Bomu Plateau,Bomu Coast,Bomu Hinterland,Bomu Villages,Bomu Towns,Bomu Districts,Bomu Regions,Bomu Country",
+    "b": "San,Tominian,Mandiakuy,Sialo,Dahanmu,Dwemu,Bobo-Dioulasso,Ouagadougou,Dedougou,Banfora,Koudougou,Kaya,Fada N'Gourma,Gorom-Gorom,Yako,Gayeri,Zorgho,Bittou,Boussé,Kouka,Mogtédo,Rambo,Yargo,Burkina Faso,Mali,Gur,Niger-Congo,Atlantic-Congo,Volta-Congo,Benue-Congo,Bantoid,Southern Bantoid",
     "status": "COMPLETE"
   },
   {
@@ -4026,7 +4026,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Pikounda,Ouesso,Liouesso,Sangha River,Sangha Department,Likouala,Cuvette,Bomitaba,Ngondi,Bokiba,Bongwili,Mbomotaba,Dibole,Bogongo,Pande,Mbati,Pointe-Noire,Dolisie,Madingou,Gamboma,Kindamba,Owando,Brazzaville,Congo,DRC,Central African Republic,Bantu,Niger-Congo,Atlantic-Congo,Volta-Congo,Benue-Congo,Bantoid,Southern Bantoid,Bongili Plateau,Bongili Coast,Bongili Hinterland,Bongili Villages,Bongili Towns,Bongili Districts,Bongili Regions,Bongili Country",
+    "b": "Pikounda,Ouesso,Liouesso,Sangha River,Sangha Department,Likouala,Cuvette,Bomitaba,Ngondi,Bokiba,Bongwili,Mbomotaba,Dibole,Bogongo,Pande,Mbati,Pointe-Noire,Dolisie,Madingou,Gamboma,Kindamba,Owando,Brazzaville,Congo,DRC,Central African Republic,Bantu,Niger-Congo,Atlantic-Congo,Volta-Congo,Benue-Congo,Bantoid,Southern Bantoid",
     "status": "COMPLETE"
   },
   {
@@ -4046,7 +4046,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Impfondo,Likouala,Mbonzo,Bomitaba,Enyele,Bondongo,Ouesso,Sangha,Cuvette,Bokiba,Bongili,Ngondi,Lingala,Bangui,Pointe-Noire,Dolisie,Madingou,Gamboma,Kindamba,Owando,Mossendjo,Mbinda,Brazzaville,Congo,DRC,Central African Republic,Bantu,Niger-Congo,Atlantic-Congo,Volta-Congo,Benue-Congo,Bantoid,Southern Bantoid,Bonjo Plateau,Bonjo Coast,Bonjo Hinterland,Bonjo Villages,Bonjo Towns,Bonjo Districts,Bonjo Regions,Bonjo Country",
+    "b": "Impfondo,Likouala,Mbonzo,Bomitaba,Enyele,Bondongo,Ouesso,Sangha,Cuvette,Bokiba,Bongili,Ngondi,Lingala,Bangui,Pointe-Noire,Dolisie,Madingou,Gamboma,Kindamba,Owando,Mossendjo,Mbinda,Brazzaville,Congo,DRC,Central African Republic,Bantu,Niger-Congo,Atlantic-Congo,Volta-Congo,Benue-Congo,Bantoid,Southern Bantoid",
     "status": "COMPLETE"
   },
   {
@@ -4086,7 +4086,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Bumba,Bongandanga,Basoko,Mongala,Tshopo,Yambuli,Lisala,Congo River,Ubangi River,Bosambi,Egbuta,Kwanza,Mbila,Monzamboli,Yaliambi,Yasonjo,Tembo,Kunda,Gbuta,Babale,DRC,Congo,Bantu,Niger-Congo,Atlantic-Congo,Volta-Congo,Benue-Congo,Bantoid,Southern Bantoid,Budza Plateau,Budza Coast,Budza Hinterland,Budza Villages,Budza Towns,Budza Districts,Budza Regions,Budza Country",
+    "b": "Bumba,Bongandanga,Basoko,Mongala,Tshopo,Yambuli,Lisala,Congo River,Ubangi River,Bosambi,Egbuta,Kwanza,Mbila,Monzamboli,Yaliambi,Yasonjo,Tembo,Kunda,Gbuta,Babale,DRC,Congo,Bantu,Niger-Congo,Atlantic-Congo,Volta-Congo,Benue-Congo,Bantoid,Southern Bantoid",
     "status": "COMPLETE"
   },
   {
@@ -4116,7 +4116,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Dédougou,Houndé,Bobo-Dioulasso,Nouna,Fara,Sourou,Mouhoun,Banwa,Kossi,Houet,Balé,Tuy,Bougouriba,Sissili,Bani River,Black Volta,Burkina Faso,Mali,Gur,Niger-Congo,Atlantic-Congo,Volta-Congo,Benue-Congo,Bantoid,Southern Bantoid,Bwamu Plateau,Bwamu Coast,Bwamu Hinterland,Bwamu Villages,Bwamu Towns,Bwamu Districts,Bwamu Regions,Bwamu Country",
+    "b": "Dédougou,Houndé,Bobo-Dioulasso,Nouna,Fara,Sourou,Mouhoun,Banwa,Kossi,Houet,Balé,Tuy,Bougouriba,Sissili,Bani River,Black Volta,Burkina Faso,Mali,Gur,Niger-Congo,Atlantic-Congo,Volta-Congo,Benue-Congo,Bantoid,Southern Bantoid",
     "status": "COMPLETE"
   },
   {
@@ -4216,7 +4216,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Mongu,Senanga,Kalabo,Lukulu,Zambezi,Rundu,Lozi,Luyana,Mulonga,Mwenyi,Koma,Imilangu,Liyuwa,Nyengo,Kaoma,Nkeyema,Limulunga,Shangombo,Sikongo,Sioma,Nalolo,Namwala,Zambia,Botswana,Namibia,Angola,Bantu,Niger-Congo,Atlantic-Congo,Volta-Congo,Benue-Congo,Bantoid,Southern Bantoid,Simaa Plateau,Simaa Coast,Simaa Hinterland,Simaa Villages,Simaa Towns,Simaa Districts,Simaa Regions,Simaa Country",
+    "b": "Mongu,Senanga,Kalabo,Lukulu,Zambezi,Rundu,Lozi,Luyana,Mulonga,Mwenyi,Koma,Imilangu,Liyuwa,Nyengo,Kaoma,Nkeyema,Limulunga,Shangombo,Sikongo,Sioma,Nalolo,Namwala,Zambia,Botswana,Namibia,Angola,Bantu,Niger-Congo,Atlantic-Congo,Volta-Congo,Benue-Congo,Bantoid,Southern Bantoid",
     "status": "COMPLETE"
   },
   {
@@ -4276,8 +4276,8 @@ window.africaNameBases = [
     "max": 15,
     "d": "lnrt",
     "m": 0,
-    "b": "Wolane Jimma,Mahal Amba,Kokir,Zabbidar,Hadiya,Harar,Addis Ababa,Däga,Qabena,Kebena,Muher,Wolane Ezha,Ezhana Wolene,Endegagn,Enemorina Eanor,Inor,Gedeb,Ezha,Sede,Soddo,Silt'e,Zigem,Haro,Garo,Sodo",
-    "status": "COMPLETE"
+    "b": "Mahal Amba,Kokir,Zabbidar,Hadiya,Harar,Addis Ababa,Däga,Qabena,Kebena,Muher,Ezhana Wolene,Endegagn,Enemorina Eanor,Inor,Gedeb,Ezha,Sede,Soddo,Silt'e,Zigem,Haro,Garo,Sodo",
+    "status": "WAITING"
   },
   {
     "name": "Mesqan",
@@ -4316,8 +4316,8 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Endegagn,Enemorina Eaner,Welkite,Gyeto,Ezha,Chaha,Gumer,Gura,Muher,Sebat Bet,Wolkite,Addis Ababa,Cheha,Abeshge,Geta,Enseno,East Meskane,Meskane,Soddo,Ethiopia,Gurage,Niger-Congo,Afro-Asiatic,Ethio-Semitic,Inor Plateau,Inor Coast,Inor Hinterland,Inor Villages,Inor Towns,Inor Districts,Inor Regions,Inor Country",
-    "status": "COMPLETE"
+    "b": "Endegagn,Enemorina Eaner,Welkite,Gyeto,Ezha,Chaha,Gumer,Gura,Muher,Sebat Bet,Wolkite,Addis Ababa,Cheha,Abeshge,Geta,Enseno,East Meskane,Meskane,Soddo,Ethiopia,Gurage,Niger-Congo,Afro-Asiatic,Ethio-Semitic",
+    "status": "WAITING"
   },
   {
     "name": "Chaha",
@@ -4326,8 +4326,8 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Cheha,Emdeber,Wolkite,Ezha,Enemorina Ener,Abeshge,Gumer,Welkite,Joka,Tug Megheccia,Haram Shet,Wink E Shet,Attat,Azer,Gotam,Megecha,Wabe,Metrakat,Ethiopia,Gurage,Niger-Congo,Afro-Asiatic,Ethio-Semitic,Chaha Plateau,Chaha Coast,Chaha Hinterland,Chaha Villages,Chaha Towns,Chaha Districts,Chaha Regions,Chaha Country",
-    "status": "COMPLETE"
+    "b": "Cheha,Emdeber,Wolkite,Ezha,Enemorina Ener,Abeshge,Gumer,Welkite,Joka,Tug Megheccia,Haram Shet,Wink E Shet,Attat,Azer,Gotam,Megecha,Wabe,Metrakat,Ethiopia,Gurage,Niger-Congo,Afro-Asiatic,Ethio-Semitic",
+    "status": "WAITING"
   },
   {
     "name": "Chung",
@@ -4336,7 +4336,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Kimbi,Bum,Boyo Division,Mbuk,Bebe,Kemezung,Naki,Saari,Noni,Ncane,Mungong,Fio,Bikya,Koshin,Mundabli,Buu,Mungbam,Missong,Ajumbu,Lung,Cameroon,Nigeria,Bantu,Niger-Congo,Atlantic-Congo,Volta-Congo,Benue-Congo,Bantoid,Southern Bantoid,Chung Plateau,Chung Coast,Chung Hinterland,Chung Villages,Chung Towns,Chung Districts,Chung Regions,Chung Country",
+    "b": "Kimbi,Bum,Boyo Division,Mbuk,Bebe,Kemezung,Naki,Saari,Noni,Ncane,Mungong,Fio,Bikya,Koshin,Mundabli,Buu,Mungbam,Missong,Ajumbu,Lung,Cameroon,Nigeria,Bantu,Niger-Congo,Atlantic-Congo,Volta-Congo,Benue-Congo,Bantoid,Southern Bantoid",
     "status": "COMPLETE"
   },
   {
@@ -4346,7 +4346,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Rundu,Ndiyona,Andara,Kavango East,Kavango West,Okavango River,Mamono,Rutco,Shambyu,Mashi,Kavango Delta,Mbukushu,Kwangali,Fwe,Subiya,Totela,Namibia,Angola,Botswana,Bantu,Niger-Congo,Atlantic-Congo,Volta-Congo,Benue-Congo,Bantoid,Southern Bantoid,Dciriku Plateau,Dciriku Coast,Dciriku Hinterland,Dciriku Villages,Dciriku Towns,Dciriku Districts,Dciriku Regions,Dciriku Country",
+    "b": "Rundu,Ndiyona,Andara,Kavango East,Kavango West,Okavango River,Mamono,Rutco,Shambyu,Mashi,Kavango Delta,Mbukushu,Kwangali,Fwe,Subiya,Totela,Namibia,Angola,Botswana,Bantu,Niger-Congo,Atlantic-Congo,Volta-Congo,Benue-Congo,Bantoid,Southern Bantoid",
     "status": "COMPLETE"
   },
   {
@@ -4356,7 +4356,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Nkoro,Ịwọma Nkọrọ,Iwoama Nkoro,Opobo-Nkoro LGA,Rivers State,Nigeria,Ijo,Niger-Congo,Atlantic-Congo,Volta-Congo,Benue-Congo,Bantoid,Southern Bantoid,Defaka Plateau,Defaka Coast,Defaka Hinterland,Defaka Villages,Defaka Towns,Defaka Districts,Defaka Regions,Defaka Country",
+    "b": "Nkoro,Ịwọma Nkọrọ,Iwoama Nkoro,Opobo-Nkoro LGA,Rivers State,Nigeria,Ijo,Niger-Congo,Atlantic-Congo,Volta-Congo,Benue-Congo,Bantoid,Southern Bantoid",
     "status": "WAITING"
   },
   {
@@ -4366,8 +4366,8 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Bambasi,Asosa,Begi,Hozo,Seze,Ganza,Benishangul-Gumuz,Oromia,Didessa River,Belo Jegonfoy,Kondala,Kwama,Koma,Anfillo,Blue Nile,Ethiopia,Omotic,Afro-Asiatic,Mao Plateau,Mao Coast,Mao Hinterland,Mao Villages,Mao Towns,Mao Districts,Mao Regions,Mao Country",
-    "status": "COMPLETE"
+    "b": "Bambasi,Asosa,Begi,Hozo,Seze,Ganza,Benishangul-Gumuz,Oromia,Didessa River,Belo Jegonfoy,Kondala,Kwama,Koma,Anfillo,Blue Nile,Ethiopia,Omotic,Afro-Asiatic",
+    "status": "WAITING"
   },
   {
     "name": "Kafa",
@@ -4406,7 +4406,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Chibok,Askira-Uba,Damboa,Borno State,Nigeria,Chadic,Afro-Asiatic,Cibak Plateau,Cibak Coast,Cibak Hinterland,Cibak Villages,Cibak Towns,Cibak Districts,Cibak Regions,Cibak Country",
+    "b": "Chibok,Askira-Uba,Damboa,Borno State,Nigeria,Chadic,Afro-Asiatic",
     "status": "WAITING"
   },
   {
@@ -4416,7 +4416,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Bauchi State,Nigeria,Chadic,Afro-Asiatic,Cineni Plateau,Cineni Coast,Cineni Hinterland,Cineni Villages,Cineni Towns,Cineni Districts,Cineni Regions,Cineni Country",
+    "b": "Bauchi State,Nigeria,Chadic,Afro-Asiatic",
     "status": "WAITING"
   },
   {
@@ -4426,8 +4426,8 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Tsagu,Kudawa,Kampani,Koliya,Nabolke,Kawa,Laya,Dangulam,Ganjuwa LGA,Bauchi State,Gwaram LGA,Jigawa State,Ningi LGA,Darazo LGA,Nigeria,Chadic,Afro-Asiatic,Ciwogai Plateau,Ciwogai Coast,Ciwogai Hinterland,Ciwogai Villages,Ciwogai Towns,Ciwogai Districts,Ciwogai Regions,Ciwogai Country",
-    "status": "COMPLETE"
+    "b": "Tsagu,Kudawa,Kampani,Koliya,Nabolke,Kawa,Laya,Dangulam,Ganjuwa LGA,Bauchi State,Gwaram LGA,Jigawa State,Ningi LGA,Darazo LGA,Nigeria,Chadic,Afro-Asiatic",
+    "status": "WAITING"
   },
   {
     "name": "Coptic",
@@ -4446,7 +4446,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Tchouvouk,Zamai,Mokolo,Mayo-Tsanaga,Far North Region,Cameroon,Chadic,Afro-Asiatic,Cuvok Plateau,Cuvok Coast,Cuvok Hinterland,Cuvok Villages,Cuvok Towns,Cuvok Districts,Cuvok Regions,Cuvok Country",
+    "b": "Tchouvouk,Zamai,Mokolo,Mayo-Tsanaga,Far North Region,Cameroon,Chadic,Afro-Asiatic",
     "status": "WAITING"
   },
   {
@@ -4456,8 +4456,8 @@ window.africaNameBases = [
     "max": 17,
     "d": "lnrt",
     "m": 0,
-    "b": "Mayo-Oulo,Douroum,Garoua Daba,Hina,Bourrha,Guider,Figuil,Ndoukoula,Tpala,Mazagway,Maroua,Mora,Waza,Kolbila,Mayo-Darlé,Mayo-Rey,Mbé,Sirri,Vouté,Béré,Doumé,Mboumama,Gado Badzéré,Gado Bakongo,Gado Bissam",
-    "status": "COMPLETE"
+    "b": "Mayo-Oulo,Douroum,Hina,Bourrha,Guider,Figuil,Ndoukoula,Tpala,Mazagway,Maroua,Mora,Waza,Kolbila,Mayo-Darlé,Mayo-Rey,Mbé,Sirri,Vouté,Béré,Doumé,Mboumama,Gado Badzéré,Gado Bakongo,Gado Bissam",
+    "status": "WAITING"
   },
   {
     "name": "Dahalik",
@@ -4466,7 +4466,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Dahlak Kebir,Nora,Dehil,Durrubishet,Dasquo,Dahlak,Dissei,Shumma,Dohul,Harat,Eritrea,Afro-Asiatic,South Ethiopic,Dahalik Plateau,Dahalik Coast,Dahalik Hinterland,Dahalik Villages,Dahalik Towns,Dahalik Districts,Dahalik Regions,Dahalik Country",
+    "b": "Dahlak Kebir,Nora,Dehil,Durrubishet,Dasquo,Dahlak,Dissei,Shumma,Dohul,Harat,Eritrea,Afro-Asiatic,South Ethiopic",
     "status": "WAITING"
   },
   {
@@ -4476,7 +4476,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Toro,Lukshi,Durr,Baraza,Zumbul,Wandi,Dot,Bauchi State,Plateau State,Nigeria,Chadic,Afro-Asiatic,Dass Plateau,Dass Coast,Dass Hinterland,Dass Villages,Dass Towns,Dass Districts,Dass Regions,Dass Country",
+    "b": "Toro,Lukshi,Durr,Baraza,Zumbul,Wandi,Dot,Bauchi State,Plateau State,Nigeria,Chadic,Afro-Asiatic",
     "status": "WAITING"
   },
   {
@@ -4486,8 +4486,8 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Borkou Region,Faya-Largeau,Tibesti Mountains,Tibesti Region,Djurab Desert,Kanem Region,Bahr el Gazel Region,Ennedi Plateau,Ennedi Region,N'guigmi,Diffa Region,Zinder Region,Sabha,Kufra,Tazirbu,Jalu,Awjila,Omdurman,Chad,Libya,Niger,Sudan,Nilo-Saharan,Saharan,Daza Plateau,Daza Coast,Daza Hinterland,Daza Villages,Daza Towns,Daza Districts,Daza Regions,Daza Country",
-    "status": "COMPLETE"
+    "b": "Borkou Region,Faya-Largeau,Tibesti Mountains,Tibesti Region,Djurab Desert,Kanem Region,Bahr el Gazel Region,Ennedi Plateau,Ennedi Region,N'guigmi,Diffa Region,Zinder Region,Sabha,Kufra,Tazirbu,Jalu,Awjila,Omdurman,Chad,Libya,Niger,Sudan,Nilo-Saharan,Saharan",
+    "status": "WAITING"
   },
   {
     "name": "Dazawa",
@@ -4496,7 +4496,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Sokoto State,Nigeria,Chadic,Afro-Asiatic,Dazawa Plateau,Dazawa Coast,Dazawa Hinterland,Dazawa Villages,Dazawa Towns,Dazawa Districts,Dazawa Regions,Dazawa Country",
+    "b": "Sokoto State,Nigeria,Chadic,Afro-Asiatic",
     "status": "WAITING"
   },
   {
@@ -4516,7 +4516,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Ngaoundéré,Tcholliré,Mbé,Mayo-Rey,Vina,Bénoué,Dugun,Sari,Mbe,Ngaoundal,Tibati,Banyo,Tignère,Faro,Djérem,Mayo-Banyo,Meiganga,Cameroon,Central African Republic,Adamawa,Niger-Congo,Atlantic-Congo,Volta-Congo,Benue-Congo,Bantoid,Southern Bantoid,Dii Plateau,Dii Coast,Dii Hinterland,Dii Villages,Dii Towns,Dii Districts,Dii Regions,Dii Country",
+    "b": "Ngaoundéré,Tcholliré,Mbé,Mayo-Rey,Vina,Bénoué,Dugun,Sari,Mbe,Ngaoundal,Tibati,Banyo,Tignère,Faro,Djérem,Mayo-Banyo,Meiganga,Cameroon,Central African Republic,Adamawa,Niger-Congo,Atlantic-Congo,Volta-Congo,Benue-Congo,Bantoid,Southern Bantoid",
     "status": "COMPLETE"
   },
   {
@@ -4526,7 +4526,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Kolmonyi,Kole,Lodja,Dekese,Ileo,Lukenie,Tetela,Ndengese,Bonkese,Bonkesse,Ndenkese,Nkutu,Mongo,Luba,Kasai,Kara,Sankuru,DRC,Congo,Bantu,Niger-Congo,Atlantic-Congo,Volta-Congo,Benue-Congo,Bantoid,Southern Bantoid,Dengese Plateau,Dengese Coast,Dengese Hinterland,Dengese Villages,Dengese Towns,Dengese Districts,Dengese Regions,Dengese Country",
+    "b": "Kolmonyi,Kole,Lodja,Dekese,Ileo,Lukenie,Tetela,Ndengese,Bonkese,Bonkesse,Ndenkese,Nkutu,Mongo,Luba,Kasai,Kara,Sankuru,DRC,Congo,Bantu,Niger-Congo,Atlantic-Congo,Volta-Congo,Benue-Congo,Bantoid,Southern Bantoid",
     "status": "COMPLETE"
   },
   {
@@ -4536,8 +4536,8 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Fika,Dukku,Alkaleri,Darazo,Wase,Bole,Denawa,Denwa,Pali,Giiwo,Geruma,Galambu,Ngamo,Maaka,Nigeria,Chadic,Afro-Asiatic,Deno Plateau,Deno Coast,Deno Hinterland,Deno Villages,Deno Towns,Deno Districts,Deno Regions,Deno Country",
-    "status": "COMPLETE"
+    "b": "Fika,Dukku,Alkaleri,Darazo,Wase,Bole,Denawa,Denwa,Pali,Giiwo,Geruma,Galambu,Ngamo,Maaka,Nigeria,Chadic,Afro-Asiatic",
+    "status": "WAITING"
   },
   {
     "name": "Lisan al-Gharbi",
@@ -4546,8 +4546,8 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Tamesna,Igiliz,Salé,Rabat,Casablanca,Marrakesh,Essaouira,Safi,Azemmour,Agadir,Taroudant,Tiznit,Guelmim,Tan-Tan,Laayoune,Dakhla,Chefchaouen,Ouarzazate,Morocco,Berber,Afro-Asiatic,Lisan al-Gharbi Plateau,Lisan al-Gharbi Coast,Lisan al-Gharbi Hinterland,Lisan al-Gharbi Villages,Lisan al-Gharbi Towns,Lisan al-Gharbi Districts,Lisan al-Gharbi Regions,Lisan al-Gharbi Country",
-    "status": "COMPLETE"
+    "b": "Tamesna,Igiliz,Salé,Rabat,Casablanca,Marrakesh,Essaouira,Safi,Azemmour,Agadir,Taroudant,Tiznit,Guelmim,Tan-Tan,Laayoune,Dakhla,Chefchaouen,Ouarzazate,Morocco,Berber,Afro-Asiatic",
+    "status": "WAITING"
   },
   {
     "name": "Matmata Berber",
@@ -4556,7 +4556,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Matmata,Tamezret,Zrawa,Taoujout,Tunisia,Berber,Afro-Asiatic,Matmata Berber Plateau,Matmata Berber Coast,Matmata Berber Hinterland,Matmata Berber Villages,Matmata Berber Towns,Matmata Berber Districts,Matmata Berber Regions,Matmata Berber Country",
+    "b": "Matmata,Tamezret,Zrawa,Taoujout,Tunisia,Berber,Afro-Asiatic",
     "status": "WAITING"
   },
   {
@@ -4766,7 +4766,7 @@ window.africaNameBases = [
     "max": 7,
     "d": "",
     "m": 0,
-    "b": "Belneng,Bauchi State,Nigeria",
+    "b": "Langung,Korom",
     "status": "WAITING"
   },
   {
@@ -4836,7 +4836,7 @@ window.africaNameBases = [
     "max": 1,
     "d": "",
     "m": 0,
-    "b": "Chakato,Bauchi State,Nigeria",
+    "b": "Dokan Tofa",
     "status": "WAITING"
   },
   {
@@ -4886,7 +4886,7 @@ window.africaNameBases = [
     "max": 9,
     "d": "",
     "m": 0,
-    "b": "Bafut Subdivision,Tuba,Mezam Division,Metchum Division,Northwest Region,Northwest Province,Bamenda",
+    "b": "Tuba,Mezam Division,Metchum Division,Northwest Region,Northwest Province,Bamenda",
     "status": "WAITING"
   },
   {
@@ -4966,7 +4966,7 @@ window.africaNameBases = [
     "max": 6,
     "d": "",
     "m": 0,
-    "b": "Jilbe town,Borno State,Nigeria",
+    "b": "Jilbe",
     "status": "WAITING"
   },
   {
@@ -4986,7 +4986,7 @@ window.africaNameBases = [
     "max": 4,
     "d": "",
     "m": 0,
-    "b": "Jimi villages,Bauchi State,Nigeria",
+    "b": "Jimi",
     "status": "WAITING"
   },
   {
@@ -5016,7 +5016,7 @@ window.africaNameBases = [
     "max": 10,
     "d": "",
     "m": 0.1,
-    "b": "Ju,Bauchi State,Nigeria",
+    "b": "Ju",
     "status": "WAITING"
   },
   {
@@ -5086,7 +5086,7 @@ window.africaNameBases = [
     "max": 12,
     "d": "",
     "m": 0,
-    "b": "Kariya Gyada,Tulu,Sabon Kariya,Sabon Tulu,Dutsen Giwa,Ganjuwa LGA,Bauchi State",
+    "b": "Tulu,Sabon Tulu,Dutsen Giwa,Ganjuwa LGA,Bauchi State",
     "status": "WAITING"
   },
   {
@@ -5136,7 +5136,7 @@ window.africaNameBases = [
     "max": 7,
     "d": "",
     "m": 0,
-    "b": "Kirya-Konzal,Bauchi State,Nigeria",
+    "b": "Kirya,Konzəl,Mijilu",
     "status": "WAITING"
   },
   {
@@ -5146,7 +5146,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Lifidi,Nwoop,Koezam,Kumshimak,Koemu,Zamder,Pangsot,Pangshot,Zomo,Lifin,Tingyilshen,Kongya,Kongbozuk,Tingzam,Lamer,Koenoem District,Mikang LGA,Plateau State",
+    "b": "Lifidi,Nwoop,Koezam,Kumshimak,Koemu,Zamder,Pangsot,Pangshot,Zomo,Lifin,Tingyilshen,Kongya,Kongbozuk,Tingzam,Lamer,Mikang LGA,Plateau State",
     "status": "WAITING"
   },
   {
@@ -5186,7 +5186,7 @@ window.africaNameBases = [
     "max": 10,
     "d": "",
     "m": 0,
-    "b": "Kutto,Bauchi State,Nigeria",
+    "b": "Bajoga",
     "status": "WAITING"
   },
   {
@@ -5256,7 +5256,7 @@ window.africaNameBases = [
     "max": 6,
     "d": "",
     "m": 0,
-    "b": "Maaka,Bauchi State,Nigeria",
+    "b": "Bara,Gulani",
     "status": "WAITING"
   },
   {
@@ -5356,7 +5356,7 @@ window.africaNameBases = [
     "max": 17,
     "d": "",
     "m": 0.1,
-    "b": "Baktchoro,Bakchoro,Marba Bakchoro,Marba Gogor,Marba Damdou,Marba Mander,Marba Kakrao,Marba Ganane,Marba Gana,Domo Marba,Tchiré,Tchiré Gogor,Tchire Andam,Tchiré Seména,Tchiré Mouséï,Tchire Mandjojo,Tchiré Wowora,Kolobey,Méguéné,Méguéné Bagaye,Méguéné Ngolo,Bagaye Tchilang,Bagay Toua,Bagay Déoué,Kandja,Kolon,Kolon Kaséré,Kolonbagay Balo,Bezmé Kolon,Bologo,Bologo Madang,Dadji,Massang,Kouroup,Marbelem,Marbelem Pindjing,Marbélem Lamgué,Marbelem Kokro,Mangsé,Mangsé Bembok,Damdou Mbasa,Léo Mbassa,Léo Gono,Léo Moro,Léo Bidim,Léo Koré,Léo Baktano,Léo Mbaya",
+    "b": "Baktchoro,Bakchoro,Tchiré,Tchiré Gogor,Tchire Andam,Tchiré Seména,Tchiré Mouséï,Tchire Mandjojo,Tchiré Wowora,Kolobey,Méguéné,Méguéné Bagaye,Méguéné Ngolo,Bagaye Tchilang,Bagay Toua,Bagay Déoué,Kandja,Kolon,Kolon Kaséré,Kolonbagay Balo,Bezmé Kolon,Bologo,Bologo Madang,Dadji,Massang,Kouroup,Marbelem,Marbelem Pindjing,Marbélem Lamgué,Marbelem Kokro,Mangsé,Mangsé Bembok,Damdou Mbasa,Léo Mbassa,Léo Gono,Léo Moro,Léo Bidim,Léo Koré,Léo Baktano,Léo Mbaya",
     "status": "COMPLETE"
   },
   {
@@ -5436,7 +5436,7 @@ window.africaNameBases = [
     "max": 7,
     "d": "",
     "m": 0,
-    "b": "Mawa,Mongo area,Chad",
+    "b": "",
     "status": "WAITING"
   },
   {
@@ -5486,7 +5486,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Burku village,Miya District,Ganjuwa LGA",
+    "b": "Burku",
     "status": "WAITING"
   },
   {
@@ -5556,7 +5556,7 @@ window.africaNameBases = [
     "max": 9,
     "d": "",
     "m": 0,
-    "b": "Miler,Bauchi State,Nigeria",
+    "b": "",
     "status": "WAITING"
   },
   {
@@ -5576,7 +5576,7 @@ window.africaNameBases = [
     "max": 12,
     "d": "",
     "m": 0,
-    "b": "Mire,Bauchi State,Nigeria",
+    "b": "",
     "status": "WAITING"
   },
   {
@@ -5696,7 +5696,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Mangalmé,Kouka Margni,Bitchotchi,Mongo,Baro,Bitkine,Niergui,Melfi,Mokofi,Am-Dam,Bokoro,Aboudéïa,Bang-Bang,Oum Hadjer,Amchédiré,Saraf Abuzbah,Mubi Zarga,Mubi Goz,Mubi Hadaba,Moussoro,Massakory,N'Gouri,Bol,Bahr Signaka,Ati,Biltine,Guéréda,Iriba,Am Timan,Mao,Moundou,Sarh,Kélo",
+    "b": "Mangalmé,Kouka Margni,Bitchotchi,Mongo,Baro,Bitkine,Niergui,Melfi,Mokofi,Am-Dam,Bokoro,Aboudéïa,Bang-Bang,Oum Hadjer,Amchédiré,Saraf Abuzbah,Moussoro,Massakory,N'Gouri,Bol,Bahr Signaka,Ati,Biltine,Guéréda,Iriba,Am Timan,Mao,Moundou,Sarh,Kélo",
     "status": "COMPLETE"
   },
   {
@@ -6146,7 +6146,7 @@ window.africaNameBases = [
     "max": 9,
     "d": "",
     "m": 0,
-    "b": "Sha,Tasha,Tagon,Takau,Bakel,Tawusya,Mistakuku,Afazoh,Aryau,Abutura,Sha District,Bokkos LGA,Plateau State,Nigeria",
+    "b": "Sha,Tasha,Tagon,Takau,Bakel,Tawusya,Mistakuku,Afazoh,Aryau,Abutura,Bokkos LGA,Plateau State,Nigeria",
     "status": "WAITING"
   },
   {
@@ -6176,7 +6176,7 @@ window.africaNameBases = [
     "max": 12,
     "d": "",
     "m": 0.1,
-    "b": "Siri villages,Bauchi State,Nigeria",
+    "b": "Sini Ningi",
     "status": "WAITING"
   },
   {
@@ -6316,7 +6316,7 @@ window.africaNameBases = [
     "max": 10,
     "d": "",
     "m": 0,
-    "b": "Kuka,Talan Kasa,Bauchi State,Bauchi LGA,Nigeria",
+    "b": "Kuka,Bauchi State,Bauchi LGA,Nigeria",
     "status": "WAITING"
   },
   {
@@ -6416,7 +6416,7 @@ window.africaNameBases = [
     "max": 12,
     "d": "",
     "m": 0,
-    "b": "Nditam,Mankim,Ngambé,Tikar Plains,Bankim,Mbam,Ngoumou,Mbangassina,Ngoro",
+    "b": "Nditam,Mankim,Ngambé,Bankim,Mbam,Ngoumou,Mbangassina,Ngoro",
     "status": "WAITING"
   },
   {
@@ -6506,7 +6506,7 @@ window.africaNameBases = [
     "max": 6,
     "d": "",
     "m": 0,
-    "b": "Tumak,Mongo area,Chad",
+    "b": "Goundi",
     "status": "WAITING"
   },
   {
@@ -6536,7 +6536,7 @@ window.africaNameBases = [
     "max": 3,
     "d": "",
     "m": 0,
-    "b": "Ubi village,six surrounding villages,Mongo subprefecture",
+    "b": "",
     "status": "WAITING"
   },
   {
@@ -6586,7 +6586,7 @@ window.africaNameBases = [
     "max": 3,
     "d": "",
     "m": 0,
-    "b": "Weh village,Menchum Division,Wum Central subdivision",
+    "b": "Weh,Fungom,Wum,Mbum,Papum,Banyo,Ndop,Bafut",
     "status": "WAITING"
   },
   {
@@ -6596,7 +6596,7 @@ window.africaNameBases = [
     "max": 8,
     "d": "",
     "m": 0,
-    "b": "West Banda,Ouham-Pende,Central African Republic",
+    "b": "Bakala,Modomale,Yamindou,Nyango",
     "status": "WAITING"
   },
   {
@@ -6726,7 +6726,7 @@ window.africaNameBases = [
     "max": 8,
     "d": "",
     "m": 0,
-    "b": "Zirenkel,Mongo area,Chad",
+    "b": "",
     "status": "WAITING"
   },
   {
@@ -6736,7 +6736,7 @@ window.africaNameBases = [
     "max": 5,
     "d": "",
     "m": 0,
-    "b": "Jilvu town,Mubi North LGA,west of Guili Cameroon",
+    "b": "Jilvu,Zhilvu,Guili",
     "status": "WAITING"
   },
   {
@@ -6746,7 +6746,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "",
     "m": 0.1,
-    "b": "Serawa,Gaboua,Tala Zoulgo",
+    "b": "Tala-Zoulgo,Mambeza,Sérawa,Gaboua,Méri,Mbele,Tokombéré,Koza",
     "status": "WAITING"
   },
   {
@@ -6756,7 +6756,7 @@ window.africaNameBases = [
     "max": 12,
     "d": "",
     "m": 0.1,
-    "b": "Zumaya,Mongo area,Chad",
+    "b": "Ouro-Lamordé,Ouro-Zangui,Bogo",
     "status": "WAITING"
   },
   {
@@ -7076,7 +7076,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Cartagena,Barranquilla,SantaMarta,Valledupar,Sincelejo,Monteria,Cucuta,Bucaramanga,Medellin,Cali,Pasto,Popayan,Ipiales,Tumaco,Quibdo,Turbo,Apartado,Chigorodo,SanAntero,Lorica,Tolu,Covenas,ElCarmen,Ovejas,Zambrano,Plato,Maganque,Chimichagua,Curumani,Riohacha,Maicao,Uribia,London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Maunabo,Guaynabo,Ponce,Adjuntas,Isabela,Loiza,Coamo,Patillas,Carolina,Philipsburg,Lares,ToaBaja,Pefiuelas,Villalba,RioGrande,Alibland,Afakburg,Alulside,Amemburg,Adikland,Anemland,Amidburg,Akobland,Afutland,Akakburg,Abekland,Afomburg,Afusside,Aagland,Anesland,Palenquerotown,Palenqueroville,Palenqueroburg,Palenqueroview,Palenqueroside",
+    "b": "Cartagena,Barranquilla,SantaMarta,Valledupar,Sincelejo,Monteria,Cucuta,Bucaramanga,Medellin,Cali,Pasto,Popayan,Ipiales,Tumaco,Quibdo,Turbo,Apartado,Chigorodo,SanAntero,Lorica,Tolu,Covenas,ElCarmen,Ovejas,Zambrano,Plato,Maganque,Chimichagua,Curumani,Riohacha,Maicao,Uribia,London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Santiago,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília,Maunabo,Guaynabo,Ponce,Adjuntas,Isabela,Loiza,Coamo,Patillas,Carolina,Philipsburg,Lares,ToaBaja,Pefiuelas,Villalba,RioGrande,Alibland,Adikland,Anemland,Akobland,Afutland,Abekland,Aagland,Anesland",
     "status": "COMPLETE"
   },
   {
@@ -7136,7 +7136,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Bhaya villages,Madhya Pradesh,India",
+    "b": "",
     "status": "WAITING"
   },
   {
@@ -7156,7 +7156,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Goaria villages,Rajasthan,India",
+    "b": "",
     "status": "WAITING"
   },
   {
@@ -7186,7 +7186,7 @@ window.africaNameBases = [
     "max": 12,
     "d": "",
     "m": 0.1,
-    "b": "Siri Chadic villages,Bauchi State,Nigeria",
+    "b": "Siri Baba,Siri Babba,Siri Galda,Siri Zurhu,Sini Ningi",
     "status": "WAITING"
   },
   {
@@ -7226,8 +7226,8 @@ window.africaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Yuit,Kaolack,Rijau,Bolgatanga,Louga,Giwa,Bouaké,Ambam,Kumasi,Wa,Kissidougou,Buchanan,Awka,Abéché,Gwoza,Aksum,Makeni,Yamoussoukro,Buea,Hadejia,Sesheke,Gabú,Timbuktu,Ngaoundéré,Okigwe,Tiko,Brikama,Banjul,Bamako,Daloa,Wukari,Conakry,Gbarnga,Kara,Freetown,Kankan,Bobo-Dioulasso,Bamenda,Praia,Porto-Novo,Parakou,Zinder,Nouakchott,Korhogo,Nzérékoré,Sunyani,Ouagadougou,Zaria,Tenkodogo,Ebebiyín,Sikasso",
-    "status": "COMPLETE"
+    "b": "Naukan,Nuvuqaq,Ungaziq,Ungazik,Chaplino,Novo Chaplino,Nunyamo,Pinakul,Savoonga,Gambell,Wales,Tkachen",
+    "status": "WAITING"
   },
   {
     "name": "A'Tong",
@@ -7536,7 +7536,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Mara,Kaolack,Rijau,Bolgatanga,Louga,Giwa,Bouaké,Ambam,Kumasi,Wa,Kissidougou,Buchanan,Awka,Abéché,Gwoza,Aksum,Makeni,Yamoussoukro,Buea,Hadejia,Sesheke,Gabú,Timbuktu,Ngaoundéré,Okigwe,Tiko,Brikama,Banjul,Shigatse,Chamdo,Nyingchi,Nagqu,Barkam,Lijiang,Kangding,Gangtok,Baoshan,Weixi,Singtam,Zhongdian,Mangan,Namchi,Batang,Melli,Shillong,Rangpo,Dali,Cherrapunji,Wangdue,Dalton Ganj,Rhenock,Pu'er,Paro,Jakar,Rishikesh",
+    "b": "Siaha,Tipa,Iana,Chakhei,Chheitlah,Chapi,Chhaolo,College Vaih,Council Vaih,ECM Vaih,Kiasie,Kaochao,Pala,Laty,Lomasu,Lobo,Lodaw,Lopu,Amobyu,Amobyu Vaihthieh,Mawhrei,Meisa Vaih,New Laty,New Siaha,New Saikao,Noaotlah,Old Tisopi,Thiahra,Amohtlah,Siaha Vaihpi,Siahatlah,Saikao,Thosai,Tokalo,Tipi Ferry,Tisi,Tisopi,Vahia,Zyhno,Pala Tipo,Tisi Chavah,Kaochao Chavah,Tisopi Chavah,Tilao Chavah,Salyu Chavah,Pala Chavah,Siaha Chavah,Typaku Chavah,Khaikhy Chavah",
     "status": "COMPLETE"
   },
   {
@@ -7556,7 +7556,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Yareba villages,Papua,Indonesia",
+    "b": "Bantva,Kutiyanah,Dhoraji,Jetpur,Gondal,Vanthli,Veraval,Jamnagar,Junagadh,Porbandar,Upleta,Halari,Okha Port",
     "status": "WAITING"
   },
   {
@@ -7756,8 +7756,8 @@ window.africaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Oeld,Kaolack,Rijau,Bolgatanga,Louga,Giwa,Bouaké,Ambam,Kumasi,Wa,Kissidougou,Buchanan,Awka,Abéché,Gwoza,Aksum,Makeni,Yamoussoukro,Buea,Hadejia,Sesheke,Gabú,Timbuktu,Ngaoundéré,Okigwe,Tiko,Brikama,Banjul,Bissau,Accra,Cotonou,Bamako,Freetown,Kankan,Kaduna,Nouakchott,Nzérékoré,Daloa,Monrovia,Man,Lafia,Koudougou,Maiduguri,Assomada,Jalingo,Sunyani,Ouagadougou,Ségou,Kumba,Mindelo,Parakou,Thiès,Tambacounda,Koidu",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Oi",
@@ -7786,8 +7786,8 @@ window.africaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Önge,Kaolack,Rijau,Bolgatanga,Louga,Giwa,Bouaké,Ambam,Kumasi,Wa,Kissidougou,Buchanan,Awka,Abéché,Gwoza,Aksum,Makeni,Yamoussoukro,Buea,Hadejia,Sesheke,Gabú,Timbuktu,Ngaoundéré,Okigwe,Tiko,Brikama,Banjul,Basse,Accra,Bissau,Gbarnga,Koudougou,Katsina,Daloa,Dakar,Monrovia,Kankan,Kano,Man,Tema,Bamako,Lafia,Ziguinchor,Bafatá,Mopti,Niamey,Porto-Novo,Koidu,Parakou,Jalingo,Sunyani,Ebebiyín",
-    "status": "COMPLETE"
+    "b": "Dugong Creek,South Bay,Tandalu,Hut Bay,Harminder Bay,Little Andaman",
+    "status": "WAITING"
   },
   {
     "name": "Ordos Mongol",
@@ -7836,8 +7836,8 @@ window.africaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Paha,Kaolack,Rijau,Bolgatanga,Louga,Giwa,Bouaké,Ambam,Kumasi,Wa,Kissidougou,Buchanan,Awka,Abéché,Gwoza,Aksum,Makeni,Yamoussoukro,Buea,Hadejia,Sesheke,Gabú,Timbuktu,Ngaoundéré,Okigwe,Tiko,Brikama,Banjul,Abidjan,Accra,Ouagadougou,Zaria,Bobo-Dioulasso,Sokodé,Cotonou,Lomé,Katsina,Man,Bertoua,Dakar,Koidu,Tamale,Jalingo,Nzérékoré,Conakry,Porto-Novo,Kankan,Tema,Gbarnga,Saint-Louis,Nouakchott",
-    "status": "COMPLETE"
+    "b": "Yangliancun,Anshecun,Yanglian,Anshe",
+    "status": "WAITING"
   },
   {
     "name": "Pahari-Pothwari",
@@ -7886,8 +7886,8 @@ window.africaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Pear,Kaolack,Rijau,Bolgatanga,Louga,Giwa,Bouaké,Ambam,Kumasi,Wa,Kissidougou,Buchanan,Awka,Abéché,Gwoza,Aksum,Makeni,Yamoussoukro,Buea,Hadejia,Sesheke,Gabú,Timbuktu,Ngaoundéré,Okigwe,Tiko,Brikama,Banjul,Abidjan,Gbarnga,Bissau,Sokodé,Malabo,Lomé,Cotonou,Korhogo,Ouagadougou,Monrovia,Bamako,Tema,Ziguinchor,Koidu,Saint-Louis,Maiduguri,Bauchi,Freetown,Ebebiyín,Bobo-Dioulasso,Man,Kumba,Jos,Sokoto",
-    "status": "COMPLETE"
+    "b": "Rovieng",
+    "status": "WAITING"
   },
   {
     "name": "Pengo",
@@ -8506,8 +8506,8 @@ window.africaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Yong,Kaolack,Rijau,Bolgatanga,Louga,Giwa,Bouaké,Ambam,Kumasi,Wa,Kissidougou,Buchanan,Awka,Abéché,Gwoza,Aksum,Makeni,Yamoussoukro,Buea,Hadejia,Sesheke,Gabú,Timbuktu,Ngaoundéré,Okigwe,Tiko,Brikama,Banjul,Bobo-Dioulasso,Cotonou,Mopti,Dakar,Nzérékoré,Kara,Monrovia,Tamale,Bertoua,Koidu,Jos,Ebebiyín,Abidjan,Saint-Louis,Sokodé,Maiduguri,Gbarnga,Ouagadougou,Tenkodogo,Freetown,Parakou,Zaria,Cacheu",
-    "status": "COMPLETE"
+    "b": "Ban Vieng Vong,Kengtung",
+    "status": "WAITING"
   },
   {
     "name": "Yoy",
@@ -9527,6 +9527,16 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Mackay,Bundaberg,Gladstone,Cairns,Townsville,Rockhampton,MackayRegion,BundabergRegion,Ayr,NorthQueensland,CentralQueensland,QueenslandCanefields,QueenslandPlantations,TorresStrait,MoaIsland,QueenslandPearling,QueenslandKanakaEnglish",
+    "status": "WAITING"
+  },
+  {
+    "name": "Abron",
+    "i": 210000,
+    "min": 5,
+    "max": 10,
+    "d": "",
+    "m": 0,
+    "b": "Bondoukou,Bouna,Tanda,Transua,Koun-Fao,Zanzan,Yakassé,Amanvi,Tabagne,Assuéfri,Adandia,Tangamourou,Sokorobango,Famienkro,Hérébo,Béréya,Wam,Akouamou,Gontougou,Nassian",
     "status": "WAITING"
   }
 ];

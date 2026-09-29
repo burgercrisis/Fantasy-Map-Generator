@@ -53,6 +53,7 @@ const {
   detectStemPadding,
   detectTemplatePadding,
   detectNonPlaceTokens,
+  detectSelfNamedSeeds,
   findDuplicateSeeds,
   labelOf
 } = require("./namebase-lib");
@@ -67,6 +68,7 @@ const totals = {
   templatePadding: 0,
   numericSeeds: 0,
   duplicateSeeds: 0,
+  labelSeeds: 0,
   statusFixed: 0
 };
 
@@ -132,6 +134,13 @@ for (const continent of CONTINENTS) {
     for (const s of detectNonPlaceTokens(entry)) remove.add(s);
     for (const s of findDuplicateSeeds(entry)) remove.add(s);
 
+    // Research labels that were pasted into the seed field: "Javanese macro
+    // entry", "Ulch villages,Kamchatka,Russia", "Lunda Norte Province".
+    for (const label of detectSelfNamedSeeds(entry).labels) {
+      remove.add(label);
+      totals.labelSeeds++;
+    }
+
     const before = seedsOf(entry);
     if (remove.size) {
       if (detectStemPadding(entry).length) totals.stemPadding += detectStemPadding(entry).length;
@@ -175,7 +184,8 @@ const totalRemoved =
   totals.stemPadding +
   totals.templatePadding +
   totals.numericSeeds +
-  totals.duplicateSeeds;
+  totals.duplicateSeeds +
+  totals.labelSeeds;
 
 console.log("");
 console.log("clean-namebase-data " + (write ? "(applied)" : "(dry run)"));
@@ -191,6 +201,7 @@ console.log(`  language-name+letter padding  : ${totals.stemPadding}`);
 console.log(`  english-suffix template seeds : ${totals.templatePadding}`);
 console.log(`  non-place (digit) seeds       : ${totals.numericSeeds}`);
 console.log(`  repeated seeds within entry   : ${totals.duplicateSeeds}`);
+console.log(`  research labels in seed fields : ${totals.labelSeeds}`);
 console.log(`  status fields corrected       : ${totals.statusFixed}`);
 console.log(`  total items removed           : ${totalRemoved}`);
 console.log("");
