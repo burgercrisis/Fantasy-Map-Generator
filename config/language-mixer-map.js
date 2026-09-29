@@ -10936,7 +10936,7 @@ globalThis.languageMixerMap = [
   {
     "iso": "castilian",
     "bases": [
-      200855
+      286
     ]
   },
   {
@@ -16082,7 +16082,7 @@ globalThis.languageMixerMap = [
   {
     "iso": "maori",
     "bases": [
-      202358
+      20072
     ]
   },
   {
@@ -16541,7 +16541,9 @@ globalThis.languageMixerMap = [
   },
   {
     "iso": "riantana",
-    "bases": []
+    "bases": [
+      201148
+    ]
   },
   {
     "iso": "retta",
@@ -18260,7 +18262,7 @@ globalThis.languageMixerMap = [
   {
     "iso": "ayo",
     "bases": [
-      201308
+      5631
     ]
   },
   {
