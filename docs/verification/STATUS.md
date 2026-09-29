@@ -361,6 +361,76 @@ detector is contiguity-and-order based precisely so it does not do that.
 | Language | Continent | Index | Partners | Block |
 |---|---|---:|---:|---|
 
+## Entries whose seeds say they are in the wrong continent file
+
+58 entries hold seeds that belong overwhelmingly to another
+continent's entries. Which FILE a language lives in is organisational and
+is not a claim about its toponymy, so this is not automatically an error -
+Siberian Tatar, Khakas and Mari are all genuinely transcontinental. But an
+Australian Aboriginal language carrying Nigerian cities is one thing, and
+nothing in the name says so.
+
+| Entry | In file | Seeds belong to | Confidence | Examples |
+|---|---|---|---:|---|
+| Kuuk Thaayore (i=202750) | oceania | europe | 94% | Okigwe, Fada N'Gourma, Gwoza |
+| Mocho' (i=202243) | oceania | europe | 93% | Accra, Bouaké, Banjul |
+| Kaera (i=202343) | oceania | europe | 93% | Parakou, Lafia, Rijau |
+| Kafoa (i=202344) | oceania | europe | 93% | Parakou, Lafia, Rijau |
+| Siberian Tatar (i=24736) | asia | europe | 92% | Tobolsk, Tyumen, Ishim |
+| Nagamese (i=202280) | oceania | asia | 91% | Agra, Mymensingh, Visakhapatnam |
+| Kainuu (i=202886) | europe | asia | 90% | Ölgii, Pohang, Thetford Mines |
+| Pretoria Sotho (i=202291) | northAmerica | asia | 90% | Lhokseumawe, Ben Tre, Bacolod |
+| Kaitag (i=202798) | africa | europe | 89% | Zugdidi, Quba, Xinaliq |
+| Mari (i=24732) | asia | europe | 89% | Yoshkar-Ola, Volzhsk, Kozmodemyansk |
+| Khakas (i=2194) | asia | europe | 88% | Minusinsk, Kyzyl, Krasnoyarsk |
+| Amdo Tibetan  (i=869) | europe | asia | 88% | Haibei, Huangnan, Hainan |
+| Javindo (i=202270) | oceania | europe | 88% | Tchibanga, Conakry, Parakou |
+| Petjo (i=202286) | oceania | europe | 87% | Parakou, Lafia, Rijau |
+| Sui Lang  (i=863) | europe | asia | 86% | Sandu, Libo, Jiarong |
+| Maritime Polynesian Pidgin (i=203068) | asia | europe | 85% | Samamea, Newcastle, Navua |
+| Tai Ya  (i=865) | europe | asia | 85% | Jinghong, Menghai, Mengla |
+| Yi  (i=868) | europe | asia | 85% | Kunming, Dali, Lijiang |
+| Dungmali (i=851) | europe | asia | 84% | Bhojpur, Hile, Pakhribas |
+| Urum (i=203037) | africa | europe | 83% | Barcelona, Málaga, Nantes |
+| Kungarakany (i=202748) | oceania | europe | 82% | Bolgatanga, Bafatá, Yola |
+| Chamdo  (i=1544) | europe | asia | 81% | Chamdo, Dege, Jomda |
+| Palaung (i=194) | europe | asia | 80% | Namhsan, Kalaw, Kengtung |
+| Tansi (i=200995) | oceania | asia | 80% | Guwahati, Dibrugarh, Tinsukia |
+| Limbu  (i=847) | europe | asia | 79% | Taplejung, Phidim, Ilam |
+| Lauhut  (i=1063) | europe | asia | 79% | Wanning, Lingshui, Tunchang |
+| Pashto, Central  (i=1109) | europe | asia | 78% | Kabul, Kandahar, Herat |
+| Newar (i=2440) | europe | asia | 77% | Kathmandu, Lalitpur, Banepa |
+| Żejtun dialect (i=738) | asia | europe | 76% | Mdina, Qormi, Mellieħa |
+| Cappadocian Greek (i=203065) | asia | europe | 76% | Dundee, Podgorica, Liepāja |
+| Waxiang (i=203140) | europe | asia | 76% | Changsha, Zhuzhou, Xiangtan |
+| Philippine (i=2072) | oceania | asia | 76% | Davao, Quezon City, Baguio |
+| Andalusi Arabic (i=21108) | asia | europe | 75% | Granada, Zaragoza, Valencia |
+| Tatar (i=24639) | asia | europe | 75% | Kazan, Leninogorsk, Bavly |
+| Vedda (i=201000) | europe | asia | 75% | Colombo, Kandy, Galle |
+| Zay (i=200928) | asia | africa | 74% | Ziway, Butajira, Boditi |
+| Grenadian Creole English (i=202780) | africa | europe | 73% | Oistins, Plymouth, Spanish Town |
+| Chukchi (i=1601) | asia | europe | 73% | Anadyr, Lavrentiya, Uelen |
+| Mordvin (i=24733) | asia | europe | 73% | Saransk, Kovylkino, Krasnoslobodsk |
+| Javanese macro entry (i=202342) | oceania | asia | 73% | Derbent, Abovyan, Khashuri |
+| Leeward Caribbean Creole English (i=202784) | africa | europe | 72% | Oistins, Saint-Marc, Bordeaux |
+| Kott (i=2092) | asia | europe | 72% | Kansk, Krasnoyarsk, Karpinsk |
+| Karipºna French Creole (i=203253) | asia | southAmerica | 72% | Paramaribo, Albina, Moengo |
+| Sri Lankan Portuguese Creole (i=202653) | asia | europe | 72% | Palermo, Lyon, Bilbao |
+| Xieheyu (i=201003) | europe | asia | 72% | Lanzhou, Wuwei, Jinchang |
+| Tai Dam  (i=864) | europe | asia | 72% | LaiChau, ViengPhoukha, LuangNamtha |
+| Chakhar Mongol (i=202412) | africa | asia | 71% | Yuen Long, Niigata, Haeju |
+| Min Zhuang (i=202522) | africa | asia | 71% | Pingtung, Ölgii, Miaoli |
+| Nung Tai (i=202558) | africa | asia | 71% | Soc Trang, Rayong, Serang |
+| Ordos Mongol (i=202570) | africa | asia | 71% | Chiba, Ölgii, Baotou |
+| Shan macro entry (i=202634) | africa | asia | 71% | Lang Son, Shantou, Chiang Rai |
+| Sri Lankan English (i=202652) | africa | asia | 71% | Narathiwat, Lao Cai, Nong Khai |
+| Tay (Tai) (i=202684) | africa | asia | 71% | Nakhon Si Thammarat, Bandar Lampung, Miri |
+| Hmong macro entry (i=202819) | africa | asia | 71% | Dongguan, Kanggye, Arvaikheer |
+| Brahui  (i=1374) | europe | asia | 71% | Kalat, Khuzdar, Quetta |
+| Ladino (i=2622) | southAmerica | europe | 71% | Istanbul, Thessaloniki, Izmir |
+| Mijikenda (i=1624) | africa | asia | 70% | Ulaanbaatar, Khovd, Erdenet |
+| Pakistani English (i=202577) | africa | asia | 70% | Hue, Tebing Tinggi, Ang Mo Kio |
+
 ## Map ISOs with no namebase
 
 846 languages the mixer map offers have no namebase entry

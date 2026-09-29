@@ -69,6 +69,7 @@ const {
   findPastedBlocks,
   detectSelfNamedSeeds,
   nearIdenticalPairs,
+  continentMismatches,
   alpha,
   labelOf
 } = require("./namebase-lib");
@@ -415,6 +416,35 @@ for (const p of nearIdenticalPairs(allEntries, {threshold: 0.9, minSeeds: 8})) {
     `namebases-${p.a.__continent}.js / ${p.b.__continent}.js`,
     `"${p.a.name}" and "${p.b.name}" are ${sameName ? "the same name" : "the same language, one marked (dedicated)"} ` +
       `with ${Math.round(p.jaccard * 100)}% identical seeds: i=${p.a.i} and i=${p.b.i} (${p.shared} shared). Delete one.`
+  );
+}
+
+// ---------------------------------------------------------------------------
+// W006 - the seeds say this entry is in the wrong continent file
+// ---------------------------------------------------------------------------
+//
+// Which file a language lives in is organisational, not a claim about its
+// toponymy - CONTINENT-ASSIGNMENTS.md says so explicitly. So a wrong file is
+// only a problem when the SEEDS say so, and that is mechanically testable:
+// work out which continent's entries use each seed most, and see whether an
+// entry's seeds overwhelmingly belong somewhere else.
+//
+// This is how the misplaced entries were found. Research agents working the
+// queues kept hitting entries that plainly were not there - Kosena in europe
+// holding PNG Highlands towns, Wutunhua and Central Min holding Chinese towns,
+// two Algerian Berber dialects in oceania. None of that is visible from a name.
+//
+// A warning, not an error, because the boundary cases are real: Siberian Tatar,
+// Khakas and Mari are all transcontinental, and whether Mari El counts as
+// europe or asia is a judgement the data cannot make.
+
+for (const [e, info] of continentMismatches(allEntries, {minSeeds: 6, share: 0.7})) {
+  warn(
+    "W006",
+    `namebases-${e.__continent}.js`,
+    `${labelOf(e)}: ${Math.round(info.share * 100)}% of its seeds are used overwhelmingly by ` +
+      `${info.to} entries, e.g. ${info.examples.slice(0, 3).join(", ")}. ` +
+      `Either the entry or the file it is in is wrong.`
   );
 }
 

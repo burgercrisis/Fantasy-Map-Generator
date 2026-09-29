@@ -39,7 +39,8 @@ const {
   seedCount,
   buildSeedFrequency,
   contaminationFor,
-  findPastedBlocks
+  findPastedBlocks,
+  continentMismatches
 } = require("./namebase-lib");
 
 const write = process.argv.includes("--write");
@@ -75,6 +76,7 @@ const contaminated = all
   .sort((a, b) => b.c.shared.length - a.c.shared.length);
 
 const pasted = findPastedBlocks(all, {run: 8, minEntries: 20});
+const misplaced = continentMismatches(all, {minSeeds: 6, share: 0.7});
 
 // Languages the mixer map offers but which have no namebase under that name.
 // These are the largest remaining research backlog: a real language the user can
@@ -234,6 +236,27 @@ if (pasted.size > 60) {
   L.push("");
   L.push(`_Showing ${Math.min(60, pasted.size)} of ${pasted.size}. Full list: ` +
     "`node tools/namebase-tools/verify-namebase-integrity.js` (W004)_");
+}
+L.push("");
+L.push("## Entries whose seeds say they are in the wrong continent file");
+L.push("");
+L.push(`${misplaced.size} entries hold seeds that belong overwhelmingly to another`);
+L.push("continent's entries. Which FILE a language lives in is organisational and");
+L.push("is not a claim about its toponymy, so this is not automatically an error -");
+L.push("Siberian Tatar, Khakas and Mari are all genuinely transcontinental. But an");
+L.push("Australian Aboriginal language carrying Nigerian cities is one thing, and");
+L.push("nothing in the name says so.");
+L.push("");
+L.push("| Entry | In file | Seeds belong to | Confidence | Examples |");
+L.push("|---|---|---|---:|---|");
+for (const [e, info] of [...misplaced.entries()]
+  .sort((a, b) => b[1].share - a[1].share)
+  .slice(0, 80)) {
+  L.push(`| ${e.name} (i=${e.i}) | ${e.__continent} | ${info.to} | ${Math.round(info.share * 100)}% | ${info.examples.slice(0, 3).join(", ")} |`);
+}
+if (misplaced.size > 80) {
+  L.push("");
+  L.push(`_Showing 80 of ${misplaced.size}._`);
 }
 L.push("");
 L.push("## Map ISOs with no namebase");

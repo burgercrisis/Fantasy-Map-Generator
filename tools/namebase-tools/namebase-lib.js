@@ -511,6 +511,92 @@ function findLongSharedRuns(entries, opts) {
   return found;
 }
 
+/**
+ * Score every entry for continent misplacement.
+ *
+ * The continent files are organisational, not a claim about toponymy - see
+ * CONTINENT-ASSIGNMENTS.md - so a language living in the "wrong" file is only a
+ * problem when its SEEDS say so. That gives a mechanical test: for each seed,
+ * work out which continent's entries use it most, then ask whether an entry's
+ * seeds overwhelmingly belong to some other continent.
+ *
+ * This is how the misplaced entries were found. Research agents working the
+ * continent queues kept turning up entries that plainly were not there:
+ * Kosena in europe holding PNG Highlands towns (Lufa, Kainantu); Wutunhua and
+ * Central Min holding Chinese towns; Kaera in oceania holding a block of West
+ * African cities. None of that is visible from a name.
+ *
+ * Two guards keep it from firing on the legitimate case. Dialect kin share
+ * settlements by definition - the twenty Mari varieties in europe all live in
+ * the Mari El villages - so the entry's own continent must be excluded from the
+ * comparison, and a majority, not a plurality, is required. Cosmopolitan and
+ * colonial languages are allowlisted outright.
+ *
+ * @param {object[]} entries
+ * @param {{minSeeds?: number, share?: number}} [opts]
+ * @returns {Map<object, {to: string, share: number, examples: string[]}>}
+ */
+function continentMismatches(entries, opts) {
+  const minSeeds = (opts && opts.minSeeds) || 6;
+  const shareNeeded = (opts && opts.share) || 0.7;
+
+  // seed -> Map(continent -> count), over entries that have enough seeds to
+  // carry weight. Very short entries are excluded so a 3-seed entry is not
+  // judged on the strength of one lucky name.
+  const profile = new Map();
+  for (const e of entries) {
+    if (COSMOPOLITAN_ALLOWLIST.has(alpha(e.name || ""))) continue;
+    const seeds = seedsOf(e);
+    if (seeds.length < minSeeds) continue;
+    for (const s of new Set(seeds)) {
+      if (!profile.has(s)) profile.set(s, new Map());
+      const m = profile.get(s);
+      m.set(e.__continent, (m.get(e.__continent) || 0) + 1);
+    }
+  }
+
+  const out = new Map();
+  for (const e of entries) {
+    if (COSMOPOLITAN_ALLOWLIST.has(alpha(e.name || ""))) continue;
+    const seeds = seedsOf(e);
+    if (seeds.length < minSeeds) continue;
+
+    const perContinent = new Map();
+    for (const s of seeds) {
+      const m = profile.get(s);
+      if (!m) continue;
+      for (const [c, n] of m) perContinent.set(c, (perContinent.get(c) || 0) + n);
+    }
+    if (!perContinent.size) continue;
+
+    let bestC = null;
+    let bestN = 0;
+    let ownN = 0;
+    for (const [c, n] of perContinent) {
+      if (c === e.__continent) { ownN = n; continue; }
+      if (n > bestN) { bestN = n; bestC = c; }
+    }
+    if (!bestC || bestN <= ownN) continue;
+
+    const total = bestN + ownN;
+    const share = bestN / total;
+    if (share < shareNeeded) continue;
+
+    // Name a few seeds that are strongest in the other continent.
+    const examples = [];
+    for (const s of seeds) {
+      const m = profile.get(s);
+      if (!m) continue;
+      const a = m.get(bestC) || 0;
+      const b = m.get(e.__continent) || 0;
+      if (a > b && a >= 3 && !examples.includes(s)) examples.push(s);
+      if (examples.length >= 5) break;
+    }
+    out.set(e, {to: bestC, share: Math.round(share * 100) / 100, examples});
+  }
+  return out;
+}
+
 /** Human label for an entry, used in all report output. */
 function labelOf(entry) {
   return `${entry.name} (i=${entry.i})`;
@@ -609,5 +695,6 @@ module.exports = {
   detectSelfNamedSeeds,
   nearIdenticalPairs,
   findLongSharedRuns,
+  continentMismatches,
   labelOf
 };
