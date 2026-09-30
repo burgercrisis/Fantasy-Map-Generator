@@ -11,35 +11,36 @@ Generated: 2026-09-30  |  Seed floor: 25
 
 | Metric | Count |
 |---|---:|
-| Language entries | 3210 |
-| Marked COMPLETE (>= 25 seeds) | 2104 |
-| Marked WAITING (< 25 seeds) | 1106 |
-| Below seed floor | 1106 |
-| Zero seeds | 50 |
-| Heavily contaminated (>=10 shared seeds) | 151 |
+| Language entries | 3191 |
+| Marked COMPLETE (>= 25 seeds) | 1990 |
+| Marked WAITING (< 25 seeds) | 1201 |
+| Below seed floor | 1201 |
+| Zero seeds | 63 |
+| Heavily contaminated (>=10 shared seeds) | 0 |
 | Pasted 8-seed blocks (W004, actionable) | 0 |
-| Map ISOs with no namebase (research backlog) | 776 |
+| Map ISOs with no namebase (research backlog) | 789 |
 | Map ISOs that can never have a namebase | 3 |
 
 ## By continent
 
 | Continent | Entries | Below floor | Zero seed | Median seeds |
 |---|---:|---:|---:|---:|
-| africa | 699 | 234 | 3 | 27 |
-| asia | 1132 | 552 | 35 | 25 |
-| europe | 661 | 49 | 6 | 37 |
+| africa | 699 | 235 | 4 | 27 |
+| asia | 1130 | 577 | 35 | 24 |
+| europe | 644 | 114 | 15 | 31 |
 | northAmerica | 215 | 63 | 0 | 29 |
-| southAmerica | 159 | 15 | 2 | 34 |
-| oceania | 334 | 193 | 4 | 20 |
+| southAmerica | 159 | 18 | 2 | 34 |
+| oceania | 334 | 194 | 7 | 20 |
 | fantasy | 10 | 0 | 0 | 200 |
 
 ## Work queue: entries below the seed floor
 
-1106 entries need authentic settlement names. Ordered by seed count,
+1201 entries need authentic settlement names. Ordered by seed count,
 so the emptiest entries come first. One at a time, research then edit.
 
 | Seeds | Continent | Index | Language |
 |---:|---|---:|---|
+| 0 | africa | 511 | Zhire |
 | 0 | africa | 200097 | Miler |
 | 0 | africa | 200099 | Mire |
 | 0 | africa | 203072 | Settler Swahili |
@@ -78,19 +79,32 @@ so the emptiest entries come first. One at a time, research then edit.
 | 0 | asia | 202563 | Oeld |
 | 0 | asia | 203196 | Bhaya  |
 | 0 | asia | 203208 | Goaria  |
+| 0 | europe | 1633 | Colloquial Finnish |
+| 0 | europe | 200736 | Kainuu |
 | 0 | europe | 200755 | Merya |
 | 0 | europe | 200756 | Meshcherian |
 | 0 | europe | 200761 | Muromian |
+| 0 | europe | 200772 | Obdorsk |
+| 0 | europe | 200777 | Päijänne Tavastia |
+| 0 | europe | 200792 | Siberian Finnish |
+| 0 | europe | 200821 | Turku highlands |
+| 0 | europe | 200832 | Värmland Savonian |
+| 0 | europe | 200840 | Western Uusimaa |
+| 0 | europe | 200845 | Ylä-Satakunta |
 | 0 | europe | 201003 | Xieheyu |
 | 0 | europe | 202296 | Skepi Dutch Creole |
 | 0 | europe | 202265 | Duvle-Wano Pidgin |
+| 0 | oceania | 201161 | Sawi |
 | 0 | oceania | 202338 | Auye |
 | 0 | oceania | 202779 | Bocas del Toro Creole |
 | 0 | oceania | 202753 | Manytjilyitjarra |
 | 0 | oceania | 202763 | Umbugarla |
+| 0 | oceania | 203117 | Yareba |
+| 0 | oceania | 203118 | Yaweyuha |
 | 0 | southAmerica | 201314 | Ka'apor |
 | 0 | southAmerica | 203124 | Andoque |
-| 1 | africa | 511 | Zhire |
+| 1 | africa | 20722 | Cineni |
+| 1 | africa | 20731 | Dazawa |
 | 1 | africa | 200017 | Chakato |
 | 1 | africa | 200035 | Jilbe |
 | 1 | africa | 200037 | Jimi Nigeria |
@@ -102,18 +116,18 @@ so the emptiest entries come first. One at a time, research then edit.
 | 1 | asia | 202627 | Sapa |
 | 1 | asia | 202659 | Suoy |
 | 1 | asia | 202585 | Pear |
+| 1 | europe | 757 | Atlym |
+| 1 | europe | 1483 | Central Selkup |
 | 1 | oceania | 202270 | Javindo |
 | 1 | oceania | 202368 | Nakai |
 | 1 | oceania | 202759 | Nunggubuyu |
 | 2 | africa | 11282 | Geme |
-| 2 | africa | 20722 | Cineni |
-| 2 | africa | 20731 | Dazawa |
 | 2 | africa | 200005 | Belneng |
 | 2 | africa | 200064 | Maaka |
 | 2 | asia | 2147 | Gong |
 | 2 | asia | 202632 | Savi |
 | 2 | asia | 202732 | Yong |
-| 2 | europe | 202981 | Vakh |
+| 2 | europe | 200747 | Lower Demjanka |
 | 2 | northAmerica | 200938 | Cauque Mayan |
 | 2 | oceania | 187 | Ari (Papuan) |
 | 2 | oceania | 2272 | Kosena  |
@@ -123,17 +137,23 @@ so the emptiest entries come first. One at a time, research then edit.
 | 2 | oceania | 202771 | Wik Mungkan |
 | 3 | africa | 200052 | Kirya-Konzal |
 | 3 | africa | 200085 | Mawa |
+| 3 | africa | 200112 | Mundat |
+| 3 | africa | 200182 | Tala |
 | 3 | africa | 200224 | Zirenkel |
 | 3 | africa | 200225 | Zizilivakan |
 | 3 | africa | 200227 | Zumaya |
 | 3 | asia | 133 | Kenaboi |
 | 3 | asia | 1675 | Kaikadi |
+| 3 | asia | 2387 | Kayort |
 | 3 | asia | 200267 | Daman |
 | 3 | asia | 200325 | Khetrani |
 | 3 | asia | 202620 | Samre |
 | 3 | asia | 202696 | Toda |
 | 3 | asia | 211004 | Malaccan Creole Malay |
+| 3 | europe | 2326 | Malij Jugan |
+| 3 | europe | 200729 | Cingali |
 | 3 | europe | 202894 | Kuuďärv Ludic |
+| 3 | europe | 202912 | Mysy |
 | 3 | europe | 202920 | Northern Veps |
 | 3 | oceania | 200994 | Tangwang |
 | 3 | oceania | 202354 | Makalero |
@@ -146,14 +166,15 @@ so the emptiest entries come first. One at a time, research then edit.
 | 4 | africa | 2034 | Fungor |
 | 4 | africa | 5628 | Awjila |
 | 4 | africa | 11636 | Gvoko |
+| 4 | africa | 20721 | Cibak |
 | 4 | africa | 21109 | Bimbashi Arabic |
 | 4 | africa | 21112 | Turku Arabic |
 | 4 | africa | 200002 | Áncá |
 | 4 | africa | 200051 | Kir-Balar |
 | 4 | africa | 200054 | Kubi |
-| 4 | africa | 200112 | Mundat |
+| 4 | africa | 200077 | Margi South |
 | 4 | africa | 200115 | Muskum |
-| 4 | africa | 200182 | Tala |
+| 4 | africa | 200130 | Ngwaba |
 | 4 | africa | 200200 | Tsuvan |
 | 4 | africa | 200211 | West Banda |
 | 4 | africa | 200222 | Zemba |
@@ -164,6 +185,7 @@ so the emptiest entries come first. One at a time, research then edit.
 | 4 | asia | 1654 | Damu |
 | 4 | asia | 1719 | Duan |
 | 4 | asia | 1967 | Taman |
+| 4 | asia | 200280 | Ghera |
 | 4 | asia | 200337 | Longsang Zhuang |
 | 4 | asia | 200353 | Malasar |
 | 4 | asia | 200354 | Malpande |
@@ -173,7 +195,14 @@ so the emptiest entries come first. One at a time, research then edit.
 | 4 | asia | 202614 | Sa-och |
 | 4 | asia | 1062 | Nuoxi Naxi Yao  |
 | 4 | asia | 202574 | Paha |
-| 4 | europe | 202912 | Mysy |
+| 4 | europe | 559 | Eastern Khanty |
+| 4 | europe | 560 | Eastern Mansi |
+| 4 | europe | 561 | Western Mansi |
+| 4 | europe | 758 | Atlym-Nizyam Khanty |
+| 4 | europe | 761 | Western Khanty |
+| 4 | europe | 1093 | Southern Selkup |
+| 4 | europe | 2325 | Surgut Khanty |
+| 4 | europe | 200833 | Vartovskoe |
 | 4 | oceania | 202756 | Murrinh Patha |
 | 4 | oceania | 202432 | Rapa Nui |
 | 4 | oceania | 756 | Agalega Creole |
@@ -191,16 +220,15 @@ so the emptiest entries come first. One at a time, research then edit.
 | 4 | oceania | 203274 | Wambon |
 | 4 | southAmerica | 5822 | Resígaro |
 | 5 | africa | 11634 | Guruntum |
-| 5 | africa | 20721 | Cibak |
+| 5 | africa | 203058 | Defaka |
+| 5 | africa | 20726 | Cuvok |
 | 5 | africa | 20739 | Matmata Berber |
 | 5 | africa | 20744 | Sokna |
 | 5 | africa | 200039 | Jonkor |
 | 5 | africa | 200047 | Kariya |
 | 5 | africa | 200049 | Kholok |
-| 5 | africa | 200077 | Margi South |
 | 5 | africa | 200087 | Mbara language (Chad) |
 | 5 | africa | 200109 | Mpre |
-| 5 | africa | 200130 | Ngwaba |
 | 5 | africa | 200209 | Warji |
 | 5 | africa | 200220 | Zari |
 | 5 | asia | 808 | Aka-Bo |
@@ -220,10 +248,9 @@ so the emptiest entries come first. One at a time, research then edit.
 | 5 | asia | 2129 | Nadou |
 | 5 | asia | 2246 | Lakkia-Kam-Sui |
 | 5 | asia | 2267 | Korlai Portuguese Creole |
-| 5 | asia | 2387 | Kayort |
 | 5 | asia | 2409 | Lavi |
 | 5 | asia | 2475 | Koro |
-| 5 | asia | 200280 | Ghera |
+| 5 | asia | 2486 | Basum |
 | 5 | asia | 200299 | Jandavra |
 | 5 | asia | 200312 | Kalkoti |
 | 5 | asia | 203138 | Kili |
@@ -233,6 +260,11 @@ so the emptiest entries come first. One at a time, research then edit.
 | 5 | asia | 202372 | Nedebang |
 | 5 | asia | 211002 | Bishnupriya Manipuri |
 | 5 | asia | 1481 | Central Min  |
+| 5 | europe | 759 | Nizyam |
+| 5 | europe | 1088 | Northern Karelian |
+| 5 | europe | 2110 | Karelian proper |
+| 5 | europe | 2324 | Upper Demjanka |
+| 5 | europe | 200768 | Northern Ludic |
 | 5 | europe | 200888 | Urum |
 | 5 | europe | 867 | Wutunhua  |
 | 5 | europe | 202887 | Kamassian proper |
@@ -248,18 +280,15 @@ so the emptiest entries come first. One at a time, research then edit.
 | 5 | oceania | 203094 | Rumu |
 | 5 | oceania | 203101 | Silimo |
 | 5 | oceania | 203113 | Wiru |
-| 5 | oceania | 203117 | Yareba |
-| 5 | oceania | 203118 | Yaweyuha |
 | 5 | oceania | 203267 | Saaroa |
 | 5 | oceania | 203273 | Walak |
 | 5 | oceania | 203275 | Wano |
 | 6 | africa | 11286 | Gera |
-| 6 | africa | 203058 | Defaka |
-| 6 | africa | 20726 | Cuvok |
 | 6 | africa | 200004 | Bebe |
 | 6 | africa | 200023 | Fut |
 | 6 | africa | 200036 | Jimi Cameroon |
 | 6 | africa | 200065 | Mabire |
+| 6 | africa | 200088 | Mbudum |
 | 6 | africa | 200091 | Mefele |
 | 6 | africa | 200101 | Miya |
 | 6 | africa | 200205 | Ubi |
@@ -272,6 +301,7 @@ so the emptiest entries come first. One at a time, research then edit.
 | 6 | asia | 1882 | Hezhang Buyi |
 | 6 | asia | 1892 | Northern Ghale |
 | 6 | asia | 1963 | Yuanmen Hlai |
+| 6 | asia | 2194 | Khakas |
 | 6 | asia | 2243 | Mednyj Aleut |
 | 6 | asia | 50009 | Ai Cham |
 | 6 | asia | 200279 | Ekhirit-Bulagat Buryat |
@@ -288,6 +318,9 @@ so the emptiest entries come first. One at a time, research then edit.
 | 6 | asia | 200646 | Botlikh |
 | 6 | asia | 200656 | Tindi |
 | 6 | europe | 905 | Ludic |
+| 6 | europe | 1094 | Vadey |
+| 6 | europe | 200830 | Uralo-Siberian |
+| 6 | europe | 200835 | Verkhne-Kalimsk |
 | 6 | northAmerica | 6636 | Holikachuk |
 | 6 | northAmerica | 6640 | Upper Tanana |
 | 6 | northAmerica | 8136 | Poqomam |
@@ -307,41 +340,8 @@ so the emptiest entries come first. One at a time, research then edit.
 | 7 | africa | 1234 | Fwe |
 | 7 | africa | 1720 | Dugwor |
 | 7 | africa | 11287 | Geruma |
-| 7 | africa | 21113 | Juba Arabic |
-| 7 | africa | 200034 | Jibyal |
-| 7 | africa | 200088 | Mbudum |
-| 7 | africa | 200198 | Toram |
-| 7 | africa | 200228 | Zumbun |
-| 7 | africa | 203099 | Saʼban |
-| 7 | africa | 200948 | KiKAR |
-| 7 | asia | 1025 | Baekje Korean |
-| 7 | asia | 1133 | Barzani Jewish Neo-Aramaic |
-| 7 | asia | 1377 | Baram |
-| 7 | asia | 1257 | Ciqam |
-| 7 | asia | 1561 | Dhuleli |
-| 7 | asia | 1626 | Chilsso |
-| 7 | asia | 1768 | Eravallan |
-| 7 | asia | 1944 | Hayu (Vayu) |
-| 7 | asia | 2127 | Tai Meuay |
-| 7 | asia | 2194 | Khakas |
-| 7 | asia | 2489 | Ole |
-| 7 | asia | 200306 | Jru' |
-| 7 | asia | 200307 | Jumli |
-| 7 | asia | 200309 | Kaco' |
-| 7 | asia | 200326 | Khorchin Mongol |
-| 7 | asia | 200341 | Lower Uda Buryat |
-| 7 | asia | 2443 | Bai |
-| 7 | asia | 202694 | Thmon |
-| 7 | northAmerica | 396 | Seri |
-| 7 | northAmerica | 1198 | Tlicho |
-| 7 | northAmerica | 1630 | Chicomuceltec |
-| 7 | northAmerica | 8055 | Chontal Maya |
-| 7 | oceania | 1827 | Grass Koiari |
-| 7 | oceania | 97974 | Huli |
-| 7 | oceania | 1069 | Kárás |
-| 7 | oceania | 202442 | Saisiyat |
 
-_Showing the lowest 300 of 1106. Full queue:_
+_Showing the lowest 300 of 1201. Full queue:_
 
 ```
 node tools/namebase-tools/verify-namebase-integrity.js --json
@@ -364,7 +364,7 @@ detector is contiguity-and-order based precisely so it does not do that.
 
 ## Entries whose seeds say they are in the wrong continent file
 
-1 entries hold seeds that belong overwhelmingly to another
+0 entries hold seeds that belong overwhelmingly to another
 continent's entries. Which FILE a language lives in is organisational and
 is not a claim about its toponymy, so this is not automatically an error -
 Siberian Tatar, Khakas and Mari are all genuinely transcontinental. But an
@@ -373,11 +373,10 @@ nothing in the name says so.
 
 | Entry | In file | Seeds belong to | Confidence | Examples |
 |---|---|---|---:|---|
-| Khakas (i=2194) | asia | europe | 86% | Abakan, Kyzyl |
 
 ## Map ISOs with no namebase
 
-776 languages the mixer map offers have no namebase entry
+789 languages the mixer map offers have no namebase entry
 under that name, so they currently resolve to an unrelated seed list. Real
 languages — Agaw, Baka, Bamukumbit, Dibiyaso, Guriaso. Each needs a namebase
 created from research. Nothing here is guessed at.
@@ -462,7 +461,7 @@ created from research. Nothing here is guessed at.
 | baruga | Baruga | undefined |
 | basap | Basap | undefined |
 | byq | Basay | undefined |
-| bak | Bashkir Names | 2642 |
+| bak | Bashkir Names | 20153 |
 | eus2 | Basque Expanded 2 | 20014 |
 | bata | Bata | undefined |
 | bauwaki | Bauwaki | undefined |
@@ -535,7 +534,7 @@ created from research. Nothing here is guessed at.
 | busa | Busa | undefined |
 | cameroonian-pidgin-english | Cameroonian Pidgin English | 246 |
 
-_Showing 150 of 776._
+_Showing 150 of 789._
 
 ## How to work on this
 

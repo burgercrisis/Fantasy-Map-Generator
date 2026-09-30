@@ -3852,7 +3852,7 @@ globalThis.languageMixerMap = [
   {
     "iso": "bashkir",
     "bases": [
-      2642
+      20153
     ]
   },
   {
@@ -4708,7 +4708,7 @@ globalThis.languageMixerMap = [
   {
     "iso": "hin",
     "bases": [
-      2574
+      10000
     ]
   },
   {
@@ -20036,7 +20036,7 @@ globalThis.languageMixerMap = [
   {
     "iso": "bak",
     "bases": [
-      2642
+      20153
     ]
   },
   {
@@ -21054,7 +21054,7 @@ globalThis.languageMixerMap = [
   {
     "iso": "hin2",
     "bases": [
-      2574
+      10000
     ]
   },
   {
