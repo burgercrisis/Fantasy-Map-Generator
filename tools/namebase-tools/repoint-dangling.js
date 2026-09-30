@@ -16,6 +16,15 @@
  * exact normalised name, then alias, then prefix. Rows whose language has no
  * namebase at all are left alone and reported, because pointing them somewhere
  * arbitrary would be worse than leaving them visibly unresolved.
+ *
+ * The prefix rule is deliberately narrow, because it has produced wrong
+ * repairs. "karasuk" prefix-matches "karas" with a one-character difference,
+ * which offered a row a pointer at a Trans-New Guinea entry, and "gonga"
+ * matched a Tai language. Neither is a variant spelling; they are unrelated
+ * languages whose names happen to share a prefix. A prefix match is therefore
+ * only accepted when the shorter name is most of the longer one, and anything
+ * that fails that test is reported as ambiguous for a human rather than
+ * repaired. Ambiguous rows are never written.
  */
 
 const fs = require("node:fs");
@@ -55,6 +64,14 @@ for (const r of catalog) if (r && r.iso && r.name) isoName.set(r.iso, String(r.n
 const mapJson = readBracketArray(path.join(CONFIG_DIRS[0], "language-mixer-map.json"));
 const mapJs = readBracketArray(path.join(CONFIG_DIRS[0], "language-mixer-map.js"));
 
+// A prefix match must be between names that are mostly the same length, and
+// both sides must be long enough for "same name, one letter different" to mean
+// something. Otherwise a short name that merely starts the same way gets
+// offered as the target for a different language.
+const PREFIX_MIN_LEN = 5;
+const PREFIX_RATIO = 0.8;
+const ambiguous = [];
+
 function findTarget(want) {
   if (!want) return null;
   if (byName.has(want)) return byName.get(want);
@@ -69,11 +86,17 @@ function findTarget(want) {
   let best = null;
   let bestLen = Infinity;
   for (const k of nameKeys) {
-    if (k.length < 4) continue;
-    if (k.startsWith(want) || want.startsWith(k)) {
-      const d = Math.abs(k.length - want.length);
-      if (d < bestLen) { bestLen = d; best = byName.get(k); }
+    if (k.length < PREFIX_MIN_LEN || want.length < PREFIX_MIN_LEN) continue;
+    if (!(k.startsWith(want) || want.startsWith(k))) continue;
+    const shorter = Math.min(k.length, want.length);
+    const longer = Math.max(k.length, want.length);
+    if (shorter / longer < PREFIX_RATIO) {
+      if (!ambiguous.some(a => a.want === want && a.candidate === k))
+        ambiguous.push({want, candidate: k, toName: byName.get(k).name, to: byName.get(k).i});
+      continue;
     }
+    const d = Math.abs(k.length - want.length);
+    if (d < bestLen) { bestLen = d; best = byName.get(k); }
   }
   return best;
 }
@@ -95,6 +118,7 @@ console.log("========================================");
 console.log(`  map rows total            : ${mapJs.length}`);
 console.log(`  rows whose index resolves : ${mapJs.length - repairs.size - unresolvable.length}`);
 console.log(`  dangling, fixable by name : ${repairs.size}`);
+console.log(`  ambiguous prefix matches  : ${ambiguous.length}`);
 console.log(`  dangling, no namebase     : ${unresolvable.length}`);
 console.log("");
 console.log("  sample repairs:");
@@ -102,6 +126,13 @@ console.log("  sample repairs:");
   console.log(`    ${r.iso.padEnd(22)} i=${String(r.from).padEnd(7)} -> ${String(r.to).padEnd(7)} ${r.name} (${r.toName})`)
 );
 console.log("");
+if (ambiguous.length) {
+  console.log("  AMBIGUOUS - near-miss names that are NOT the same language, needs a human:");
+  ambiguous.slice(0, 10).forEach(a =>
+    console.log(`    "${a.want}" vs "${a.candidate}" -> i=${a.to} ${a.toName}  (left as-is, not repaired)`)
+  );
+  console.log("");
+}
 console.log("  sample unresolvable (no namebase exists for this language):");
 unresolvable.slice(0, 10).forEach(r => console.log(`    ${r.iso.padEnd(22)} "${r.name}"  -> i=${r.b}`));
 console.log("");

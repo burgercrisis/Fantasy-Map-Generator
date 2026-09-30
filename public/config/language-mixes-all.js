@@ -721,8 +721,8 @@
       "name": "Boon",
       "iso": "boon",
       "region": "Africa",
-      "category": "Niger-Congo",
-      "family": "Niger-Congo"
+      "category": "Afroasiatic",
+      "family": "Cushitic"
     },
     {
       "name": "Boor",
@@ -1529,7 +1529,7 @@
       "family": "Mel"
     },
     {
-      "name": "Gonga",
+      "name": "Kafa",
       "iso": "gonga",
       "region": "Africa",
       "category": "Afroasiatic",
@@ -7293,8 +7293,8 @@
       "name": "Malpande",
       "iso": "x-nepal-malpande",
       "region": "Asia",
-      "category": "Indo-European",
-      "family": "Indo-Aryan"
+      "category": "Dravidian",
+      "family": "South Dravidian"
     },
     {
       "name": "Malto",
@@ -20099,7 +20099,7 @@
       "family": "Algonquian"
     },
     {
-      "name": "Joual",
+      "name": "Quebec French",
       "iso": "joual",
       "region": "North America",
       "category": "Romance",
@@ -25544,7 +25544,7 @@
       "family": "Arawakan"
     },
     {
-      "name": "Argentinian Rioplatense Spanish",
+      "name": "Rioplatense Spanish",
       "iso": "argentinian-spanish",
       "region": "South America",
       "category": "Romance",

@@ -11,14 +11,14 @@ Generated: 2026-09-30  |  Seed floor: 25
 
 | Metric | Count |
 |---|---:|
-| Language entries | 3161 |
-| Marked COMPLETE (>= 25 seeds) | 1930 |
-| Marked WAITING (< 25 seeds) | 1231 |
-| Below seed floor | 1231 |
+| Language entries | 3157 |
+| Marked COMPLETE (>= 25 seeds) | 1927 |
+| Marked WAITING (< 25 seeds) | 1230 |
+| Below seed floor | 1230 |
 | Zero seeds | 65 |
 | Heavily contaminated (>=10 shared seeds) | 0 |
 | Pasted 8-seed blocks (W004, actionable) | 0 |
-| Map ISOs with no namebase (research backlog) | 802 |
+| Map ISOs with no namebase (research backlog) | 801 |
 | Map ISOs that can never have a namebase | 3 |
 
 ## By continent
@@ -26,7 +26,7 @@ Generated: 2026-09-30  |  Seed floor: 25
 | Continent | Entries | Below floor | Zero seed | Median seeds |
 |---|---:|---:|---:|---:|
 | africa | 696 | 242 | 6 | 27 |
-| asia | 1124 | 572 | 35 | 24 |
+| asia | 1120 | 571 | 35 | 24 |
 | europe | 633 | 122 | 15 | 30 |
 | northAmerica | 212 | 68 | 0 | 29 |
 | southAmerica | 155 | 28 | 2 | 32 |
@@ -35,7 +35,7 @@ Generated: 2026-09-30  |  Seed floor: 25
 
 ## Work queue: entries below the seed floor
 
-1231 entries need authentic settlement names. Ordered by seed count,
+1230 entries need authentic settlement names. Ordered by seed count,
 so the emptiest entries come first. One at a time, research then edit.
 
 | Seeds | Continent | Index | Language |
@@ -341,7 +341,7 @@ so the emptiest entries come first. One at a time, research then edit.
 | 6 | oceania | 203109 | Uare |
 | 6 | oceania | 203206 | Golin  |
 
-_Showing the lowest 300 of 1231. Full queue:_
+_Showing the lowest 300 of 1230. Full queue:_
 
 ```
 node tools/namebase-tools/verify-namebase-integrity.js --json
@@ -376,7 +376,7 @@ nothing in the name says so.
 
 ## Map ISOs with no namebase
 
-802 languages the mixer map offers have no namebase entry
+801 languages the mixer map offers have no namebase entry
 under that name, so they currently resolve to an unrelated seed list. Real
 languages — Agaw, Baka, Bamukumbit, Dibiyaso, Guriaso. Each needs a namebase
 created from research. Nothing here is guessed at.
@@ -422,7 +422,6 @@ created from research. Nothing here is guessed at.
 | arabic-javanese-of-klego | Arabic-Javanese of Klego | 17 |
 | arc | Aramaic Names | 801 |
 | arawak | Arawak | undefined |
-| argentinian-spanish | Argentinian Rioplatense Spanish | 237 |
 | arin | Arin | 5258 |
 | aru | Aru | 2456 |
 | saj | Asabano | undefined |
@@ -533,8 +532,9 @@ created from research. Nothing here is guessed at.
 | buruwai | Buruwai | undefined |
 | bua | Buryat Names | 20112 |
 | busa | Busa | undefined |
+| cameroonian-pidgin-english | Cameroonian Pidgin English | 246 |
 
-_Showing 150 of 802._
+_Showing 150 of 801._
 
 ## How to work on this
 
