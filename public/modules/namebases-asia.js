@@ -12520,16 +12520,6 @@ window.asiaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Gawar",
-    "i": 200024,
-    "min": 4,
-    "max": 10,
-    "d": "",
-    "m": 0,
-    "b": "Gawar,Kortchi,Gadala,Gnibango,Ngafakat,Mandoula,Djeleng,Membeng,Wanarou,Koitakwa,Zili,Woudango,Mangare,Tchamaye,Gazawao,Dimeo,Bahale,Djimeta,Minawao,Nora",
-    "status": "WAITING"
-  },
-  {
     "name": "Ghale ",
     "i": 855,
     "min": 4,
@@ -12537,16 +12527,6 @@ window.asiaNameBases = [
     "d": "nic-GH",
     "m": 0,
     "b": "Barpak,Kyaura,Laprak,Uiya,Jagat,Philim,Nyak,Bihi,Chak,Rana,Prok,Sirdibas,Khorla,Saurpani,Gorkha,Arughat,Ghyachchok,Chumchet",
-    "status": "WAITING"
-  },
-  {
-    "name": "Jara",
-    "i": 200032,
-    "min": 3,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Biu,Kwaya-Kusar,Akko,Yamaltu-Deba,Borno,Gombe",
     "status": "WAITING"
   },
   {
@@ -12770,16 +12750,6 @@ window.asiaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Wali",
-    "i": 2063,
-    "min": 2,
-    "max": 9,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Wa,Charia,Kperisi,Bamahu,Busa,Boli,Nakore,Kpongu,Danko,Sing,Sagu,Piisi,Guli,Konjiahi,Gberu,Jonga,Yibile,Loho,Chansa,Anhiwienu,Belinga,Chegli,Kaleo,Dorimon,Dabo,Wechiau,Vieri,Loggu,Manwe,Nyagili",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Yong",
     "i": 202732,
     "min": 4,
@@ -12797,16 +12767,6 @@ window.asiaNameBases = [
     "d": "",
     "m": 0,
     "b": "Yoy,Ayutthaya,Payakumbuh,Klang,Phongsali,Nong Khai,Samarinda,Hat Yai,Sittwe,Alor Setar,Zamboanga,Bac Lieu,George Town,Miri,General Santos,Tawau,Kota Bharu,My Tho,Bangar,Soc Trang,Hue,Tampines,Maubara,Ha Giang,Semarang,Tra Vinh,Lampang,Surabaya",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Xhosa",
-    "i": 1466,
-    "min": 3,
-    "max": 13,
-    "d": "lnrt",
-    "m": 0,
-    "b": "East London,Port Elizabeth,Uitenhage,Cradock,Stutterheim,Fort Beaufort,Mdantsane,Mthatha,Lusikisiki,Flagstaff,Tabankulu,Elliotdale,Nqamakwe,Queenstown,Grahamstown,King William's Town,Cape Town,Gqeberha,Makhanda,Kingwilliamstown,Bhisho,Graaff-Reinet,Despatch,Zwelitsha,Idutywa,Port St Johns,Bizana,Mount Frere,Mount Ayliff,Kokstad,Matatiele,Tsolo,Qumbu,Centane,Kentani,Ngqeleni,Libode,Peddie,Cathcart,Sterkspruit,Aliwal North,Engcobo,Indwe,Dordrecht,Molteno,Steynsburg,Tarkastad,Seymour,Bedford,Adelaide,Willowmore,Jansenville,Klipplaat,Bathurst,Port Alfred,Keiskammahoek,Pirie,Kimbili,Eastern Cape,Western Cape,Northern Cape,Free State,Gauteng,KwaZulu-Natal,Limpopo,Mpumalanga,North West,Great Kei River,Keiskamma River,Fish River,Sundays River,Gamtoos River,Great Fish River,Orange River,Vaal River,Limpopo River,Zambezi River",
     "status": "COMPLETE"
   },
   {

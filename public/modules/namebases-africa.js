@@ -8588,5 +8588,45 @@ window.africaNameBases = [
     "m": 0,
     "b": "Durban,Pietermaritzburg,Newcastle,Richards Bay,Ulundi,Nongoma,KwaDukuza,Empangeni,Eshowe,Mtunzini,Stanger,Tongaat,Ballito,Port Shepstone,Margate,Scottburgh,Amanzimtoti,Kokstad,Dundee,Vryheid,Ladysmith,Colenso,Winterton,Bergville,Estcourt,Mooi River,Greytown,Kranskop,Mandeni,eSikhawini,Hluhluwe,Ingwavuma,Jozini,Pongola,Paulpietersburg,Louwsburg,Mahlabatini,Piet Retief,Nqutu,Wasbank,Glencoe,Dannhauser,Utrecht,Memel,Harrismith,Phuthaditjhaba,Underberg,Himeville,Bulwer,Richmond,Ixopo,Creighton,Harding,Weza,Kelso,Park Rynie,Umkomaas,Winkelspruit,Illovo,Umhlanga,La Lucia,Verulam,Ottawa,Mount Edgecombe,Inanda,KwaMashu,Umlazi,Isipingo,Prospecton,Umzimkulu",
     "status": "COMPLETE"
+  },
+  {
+    "name": "Xhosa",
+    "i": 1466,
+    "min": 3,
+    "max": 13,
+    "d": "lnrt",
+    "m": 0,
+    "b": "East London,Port Elizabeth,Uitenhage,Cradock,Stutterheim,Fort Beaufort,Mdantsane,Mthatha,Lusikisiki,Flagstaff,Tabankulu,Elliotdale,Nqamakwe,Queenstown,Grahamstown,King William's Town,Cape Town,Gqeberha,Makhanda,Kingwilliamstown,Bhisho,Graaff-Reinet,Despatch,Zwelitsha,Idutywa,Port St Johns,Bizana,Mount Frere,Mount Ayliff,Kokstad,Matatiele,Tsolo,Qumbu,Centane,Kentani,Ngqeleni,Libode,Peddie,Cathcart,Sterkspruit,Aliwal North,Engcobo,Indwe,Dordrecht,Molteno,Steynsburg,Tarkastad,Seymour,Bedford,Adelaide,Willowmore,Jansenville,Klipplaat,Bathurst,Port Alfred,Keiskammahoek,Pirie,Kimbili,Eastern Cape,Western Cape,Northern Cape,Free State,Gauteng,KwaZulu-Natal,Limpopo,Mpumalanga,North West,Great Kei River,Keiskamma River,Fish River,Sundays River,Gamtoos River,Great Fish River,Orange River,Vaal River,Limpopo River,Zambezi River",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Wali",
+    "i": 2063,
+    "min": 2,
+    "max": 9,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Wa,Charia,Kperisi,Bamahu,Busa,Boli,Nakore,Kpongu,Danko,Sing,Sagu,Piisi,Guli,Konjiahi,Gberu,Jonga,Yibile,Loho,Chansa,Anhiwienu,Belinga,Chegli,Kaleo,Dorimon,Dabo,Wechiau,Vieri,Loggu,Manwe,Nyagili",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Gawar",
+    "i": 200024,
+    "min": 4,
+    "max": 10,
+    "d": "",
+    "m": 0,
+    "b": "Gawar,Kortchi,Gadala,Gnibango,Ngafakat,Mandoula,Djeleng,Membeng,Wanarou,Koitakwa,Zili,Woudango,Mangare,Tchamaye,Gazawao,Dimeo,Bahale,Djimeta,Minawao,Nora",
+    "status": "WAITING"
+  },
+  {
+    "name": "Jara",
+    "i": 200032,
+    "min": 3,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "Biu,Kwaya-Kusar,Akko,Yamaltu-Deba,Borno,Gombe",
+    "status": "WAITING"
   }
 ];

@@ -307,6 +307,15 @@ for (const e of all) {
   }).length;
   if (n >= 3) stemPads.push(`${e.i}"${e.name}" x${n}`);
 }
+// E008 parity. The integrity gate fails a COMPLETE entry under the seed floor;
+// the session checks did not, so an agent that trimmed seeds saw one tool red
+// and the other green. Two checks disagreeing about the same rule is worse
+// than either one alone.
+const completeUnderFloor = all.filter(e => e.status === "COMPLETE" && lib.seedCount(e) > 0 && lib.seedCount(e) < lib.SEED_FLOOR);
+check("no entry claims COMPLETE below the seed floor", completeUnderFloor.length === 0,
+  completeUnderFloor.length ? completeUnderFloor.map(e => `i=${e.i} "${e.name}" ${lib.seedCount(e)}`).slice(0, 5).join("; ")
+    : "agrees with E008 in verify-namebase-integrity.js");
+
 check("no entry seeded with variants of its own name", stemPads.length === 0,
   stemPads.length ? `${stemPads.length} found, e.g. ` + stemPads.slice(0, 4).join("; ")
     : "81 removed across 15 entries");

@@ -280,7 +280,7 @@ window.southAmericaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Kwaza-Xocó Amazonian",
+    "name": "Kwaza",
     "i": 21000,
     "min": 4,
     "max": 22,
