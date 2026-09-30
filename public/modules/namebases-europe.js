@@ -5630,16 +5630,6 @@ window.europeNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Ripuarian (Platt)",
-    "i": 200878,
-    "min": 4,
-    "max": 19,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Köln,Bonn,Aachen,Düsseldorf,Essen,Duisburg,Wuppertal,Bochum,Gelsenkirchen,Mönchengladbach,Krefeld,Oberhausen,Hagen,Mülheim an der Ruhr,Solingen,Leverkusen,Neuss,Paderborn,Siegen,Hamm,Herne,Mülheim,Bergisch Gladbach,Moers,Remscheid",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Romani",
     "i": 200879,
     "min": 3,
