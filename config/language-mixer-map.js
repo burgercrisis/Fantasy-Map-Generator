@@ -9444,7 +9444,7 @@ globalThis.languageMixerMap = [
   {
     "iso": "karelian",
     "bases": [
-      2109
+      2110
     ]
   },
   {
@@ -11442,7 +11442,7 @@ globalThis.languageMixerMap = [
   {
     "iso": "gle",
     "bases": [
-      200862
+      25303
     ]
   },
   {
@@ -12298,7 +12298,7 @@ globalThis.languageMixerMap = [
   {
     "iso": "slovak",
     "bases": [
-      2715
+      20004
     ]
   },
   {
@@ -19976,7 +19976,7 @@ globalThis.languageMixerMap = [
   {
     "iso": "slk",
     "bases": [
-      2715
+      20004
     ]
   },
   {

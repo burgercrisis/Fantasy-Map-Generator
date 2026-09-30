@@ -1,4 +1,10 @@
 {
   "staleHours": 8,
-  "claims": {}
+  "claims": {
+    "asia": {
+      "agent": "wb3-asia",
+      "task": "W003 de-contamination + W011 cluster triage",
+      "claimedAt": "2026-09-30T18:24:39.901Z"
+    }
+  }
 }

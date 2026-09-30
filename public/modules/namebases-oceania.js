@@ -876,8 +876,8 @@ window.oceaniaNameBases = [
     "max": 15,
     "d": "",
     "m": 0,
-    "b": "Nambioman Bapai,Minyamur,Edera,Venaha,Syahcame,Bamgi,Yakomi,Obaa,Passue,Haju,Assue,Citakmitak,Kaibar,Passue Bawah,Ti Zain,Mur,Kabe,Bade,Sahapikia,Asset,Yeloba,Yame,Kepi,Kotiak,Yagatsu,Eci,Senggo,Amazu,Wonggi,Kumaban",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Saʼban",
@@ -3106,7 +3106,7 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Papua,Jayapura,Merauke,Wamena,Indonesia",
+    "b": "",
     "status": "WAITING"
   },
   {
@@ -3116,7 +3116,7 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Papua,Jayapura,Merauke,Wamena,Indonesia",
+    "b": "",
     "status": "WAITING"
   },
   {

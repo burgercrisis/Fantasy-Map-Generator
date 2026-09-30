@@ -1355,7 +1355,7 @@ window.northAmericaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Belize City,Belmopan,San Ignacio,Orange Walk Town,Corozal Town,Dangriga,Punta Gorda,Ambergris Caye,Caye Caulker,Placencia,Hopkins,Sittee River,San Antonio,San Pablo,San Jose,San Roman,San Miguel,San Carlos,San Francisco,San Juan,San Luis,San Marcos,San Nicolas,San Rafael,San Vicente,Santa Cruz,Santa Elena,Santa Rosa,Santiago",
+    "b": "Belize City,Belmopan,San Ignacio,Santa Elena,Orange Walk Town,Corozal Town,Dangriga,Punta Gorda,San Pedro,Benque Viejo del Carmen,Caye Caulker,Bermudian Landing,Burrell Boom,Ladyville,Maskall,May Pen,Sandhill,Scotland Halfmoon,Willows Bank,Crooked Tree,Flowers Bank,Freetown Sibun,Double Head Cabbage,Corozalito,Sarteneja,Xaibe,Patchakan,Progresso,Consejo,Copper Bank,Concepcion,Libertad,Caledonia,Trial Farm,Tower Hill,Shipyard,San Luis,San Pablo,San Roman,Santa Cruz,Santa Marta,Blue Creek,Trinidad,Yo Creek,San Lazaro,Spanish Lookout,San Marcos,San Jose Succotz,Teakettle,Unitedville,Upper Barton Creek,Valley of Peace,Armenia,Buena Vista,Placencia,Hopkins,Sittee River,Independence,Maya Center,Maya Mopan,Seine Bight,Silk Grass,Mullins River,Steadfast,Red Bank,Santa Rosa,Sarawee,Cow Pen,Middlesex,Alta Vista",
     "status": "COMPLETE"
   },
   {
@@ -2125,7 +2125,7 @@ window.northAmericaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Bahamian Creole,Holetown,Les Cayes,St. John's,Marigot,The Valley,Tabernacle,Gros Islet,Sandy Ground,Cayon,Tortola,English Harbour,Chaguanas,Philipsburg,Roseau,Micoud,Grenville,Hillsborough,Salisbury,Cockburn Harbour,Cockburn Town,Soufrière,Liberta,Arima,Freeport,Santiago,Basseterre,Matanzas,Montego Bay,Jacmel,Hastings,Mandeville,Ocho Ríos,Saint-Marc,Cap-Haïtien,Simpson Bay,Nassau,Alice Town,Bridgetown,Fort-Liberté,Jérémie,Point Fortin,Port of Spain,Dunmore Town,Santiago de Cuba,Kingston,Brievengat,Speightstown,Holguín,Bathsheba,Upper Prince's Quarter",
+    "b": "Nassau,Freeport,West End,Coopers Town,Marsh Harbour,High Rock,Freetown,Andros Town,Spanish Wells,Clarence Town,Dunmore Town,Rock Sound,Arthur's Town,Cockburn Town,George Town,Alice Town,Sweeting Cay,Matthew Town,Snug Corner,Great Harbour,Nicholls Town,Colonel Hill,Pirates Well,Port Nelson,Duncan Town,Albert Town,Governor's Harbour,Bullock's Harbour,The Bluff,Gregory Town,Hatchet Bay,Abraham's Bay,Sandy Point,Yamacraw,Centreville,Bluff Settlement,Bogue,Current,James Cistern,Lower Bogue,Upper Bogue,Holetown,Sandy Ground,Cockburn Harbour,The Valley,Tabernacle,Cayon,Brievengat,Speightstown,Upper Prince's Quarter",
     "status": "COMPLETE"
   },
   {
