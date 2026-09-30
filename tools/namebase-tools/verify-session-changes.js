@@ -156,6 +156,17 @@ for (const e of all) {
 check("no descriptive metadata in any seed list", metaSeeds.length === 0,
   metaSeeds.length ? metaSeeds.slice(0, 5).join(", ") : "125 removed across 54 entries");
 
+// A PeopleGroups.org / Joshua Project infobox pasted into a seed list. 21
+// entries carried one; i=1979 "Kuturmi" and i=2034 "Fungor" were scraped whole
+// and were cleared rather than half-kept, because a handful of village names
+// rescued from a persecution-ranking spreadsheet is not a researched place list
+// either, and keeping it would imply a verification that never happened.
+const SCRAPE = /\b(Persecution Rank|Open Doors|GSEC|ROP3? Code|PeopleID|ScriptSource|Etnologue Listing|Total Languages|Alternate Names|Unreached|Frontier|Indigenous Language|Speech Form|Written Published|National Bible Society|Pioneer Workers)\b/i;
+const scraped = [];
+for (const e of all) for (const s of lib.seedsOf(e)) if (SCRAPE.test(String(s).trim())) scraped.push(`${e.i}:"${s}"`);
+check("no scraped infobox data in any seed list", scraped.length === 0,
+  scraped.length ? scraped.slice(0, 5).join(", ") : "56 terms removed from 19 entries, 2 entries cleared");
+
 // cross-continent identical seed lists are the fabrication signature
 const groups = new Map();
 for (const e of all) {
