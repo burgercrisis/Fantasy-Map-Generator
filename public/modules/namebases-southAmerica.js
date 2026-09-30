@@ -1450,7 +1450,7 @@ window.southAmericaNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "Kawésqar",
+    "name": "Qawasqar",
     "i": 7947,
     "min": 4,
     "max": 11,
