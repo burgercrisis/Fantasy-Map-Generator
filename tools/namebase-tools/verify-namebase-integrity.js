@@ -872,6 +872,50 @@ function err_has(code) {
 }
 
 // ---------------------------------------------------------------------------
+// W012 - two entries in one file share a name but not a seed list
+// ---------------------------------------------------------------------------
+//
+// The language list is populated from each entry's `name`. So when two entries in
+// one continent file carry the same name, the user picks that language twice over
+// and cannot tell which one they get - they get a different set of invented place
+// names depending on the choice. W007 does not catch this: it only fires when
+// the seed lists overlap substantially, and these pairs are exactly the ones
+// whose seed lists differ.
+//
+//   Urdu     i=2594 (27 seeds)   i=10006 (164)
+//   German   i=200860 (81)        i=10041 (163)
+//   Oromo    i=1067 (32)          i=20033 (90)
+//   Pa       i=203141, 203052, 201134   (oceania; three)
+//
+// Some of these are legitimate - a parent and its own variety, or two unrelated
+// languages sharing an autonym - and then the second needs a distinguishing
+// name. That is a linguistic judgement, so this is reported, not enforced.
+
+{
+  const byName = new Map();
+  for (const e of allEntries) {
+    const name = String(e.name || "").trim().toLowerCase().replace(/\s+/g, " ");
+    if (!name) continue;
+    if (!byName.has(name)) byName.set(name, []);
+    byName.get(name).push(e);
+  }
+  for (const [name, members] of byName) {
+    if (members.length < 2) continue;
+    // W011 already covers the case where the seed lists are identical
+    const lists = new Set(members.map((m) => String(m.b || "").split(",").filter(Boolean).sort().join("|")));
+    if (lists.size < 2) continue;
+    const detail = members
+      .map((m) => `i=${m.i} "${String(m.name).trim()}" (${String(m.b || "").split(",").filter(Boolean).length})`)
+      .join(", ");
+    warn("W012", `namebases-${members[0].__continent}.js`,
+      `${members.length} entries are all named "${members[0].name}" but hold different seed lists: ` +
+      `${detail}. The language list offers that label more than once. Either they are the ` +
+      `same language entered twice and one should be merged, or one needs a distinguishing name.`
+    );
+  }
+}
+
+// ---------------------------------------------------------------------------
 // Ratchet
 // ---------------------------------------------------------------------------
 
