@@ -1076,8 +1076,8 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Gashua,Dogona,Dagona,Gabaruwa,Amshi,Azam,Gapchia,Garinkura,Katamba,Katuzu,Katangana,Tagli,Tagali,Madamuwa,Gorgoram,Kumariya,Adia,Alagarno,Chirawa,Dalia,Dikum,Garin-Dallari,Gasamu,Gweek,Gwuiyo,Jawa,Jawun,Karage,Lawan-Alwali,Lawan-Audu,Lawan-Musa,Muguram,Ngelewa,Ngeliabe,Sarkin-Hausawa,Tarjiwa,Wasur,Yakuburi,Zabadam",
+    "status": "COMPLETE"
   },
   {
     "name": "Bokyi",
@@ -1336,7 +1336,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "",
+    "b": "Lafia,Akwanga,Keffi,Nasarawa,Kokona,Karu,Toto,Wamba,Awe,Doma,Keana,Obi,Eggon,Garaku,Masaka,Gwanje,Rinze,Loko,Bingham,Usha Kadu,Ungwan Mai Samari,Yerewata,Barimaw",
     "status": "WAITING"
   },
   {
@@ -6606,8 +6606,8 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Aden,Taiz,Ibb,Crater,Tawahi,Mualla,Al Mansura,Sheikh Othman,Dar Sad,Khur Maksar,Al Buraiqa,Dimnat Chadir,Hais,Mocha,Jibla,Mukayras,Wadi Dawan,At Tawilah,Dammaj,Mawza,Maqbanah,Hayfan,Al Mukha,Al Mawasit,Shara'b Ar Rawnah,Dhi as-Sufal,Yarim,Zinjibar,Mudiyah,Lahij,Kawkaban",
+    "status": "COMPLETE"
   },
   {
     "name": "Aleppine Arabic",
@@ -6616,8 +6616,8 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Aleppo,Afrin,Atarib,Ayn al-Arab,A'zaz,Al-Bab,Al-Safira,Dayr Hafir,Jarabulus,Manbij,Idlib,Arihah,Harem,Jisr ash-Shugur,Maarat al-Numaan,Kafr Takharim,Saraqib,Latakia,Jableh,Qardaha,Al-Haffah,Kessab,Manjila,Qaranjah,Salma,Tartus,Baniyas,Dreikiche,Safita,Hama,Masyaf,Mhardeh,Al-Suqaylabiyah,Raqqa,Tabqa,Al-Qusayr,Deir ez-Zor,Mayadin,Abu Kamal,Tell Abyad",
+    "status": "COMPLETE"
   },
   {
     "name": "Algerian Arabic",
@@ -7006,8 +7006,8 @@ window.africaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Ranchi,Khunti,Torpa,Muri,Bundu,Kanke,Khelari,Namkum,Ratu,Tundul,Tati,Ray,Ara,Arsande,Bishrampur,Churi,Irba,Hatia,Simdega,Gumla,Ghaghra,Palkot,Bishunpur,Sisai,Jalim,Marda,Nagfeni,Chainpur,Dumri,Jari,Kamdara,Basia,Raidih,Lohardaga,Kisko,Kuru,Senha,Bhandra,Bagru,Kairo,Bano,Bolba,Jaldega,Kolebira,Bansjore,Latehar,Barwadih,Netarhat,Betla,Hazaribagh,Barkagaon,Ichak,Churchu,Barhi,Tati Jhariya,Keredari,Daru,Dadi,Padma,Chauparan,Barkatha,Chas,Gomia,Nawadih,Jaridih,Chandrapura,Bermo",
+    "status": "COMPLETE"
   },
   {
     "name": "Naiki",
@@ -7016,7 +7016,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "",
+    "b": "Angul,Talcher,Dhenkanal,Bhuban,Budhapanka,Gunupur,Bissam Cuttack,Jeypore,Barbil,Kendujhar,Joda",
     "status": "WAITING"
   },
   {
@@ -7356,8 +7356,8 @@ window.africaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Bargarh,Barapali,Bijepur,Khaliapali,Bardol,Sonepur,Patnagad,Balangir,Kantabanji,Titlagarh,Loisinga,Bangomunda,Sambalpur,Burla,Hirakud,Kuchinda,Rairakhol,Redhakhol,Gambharipank,Samasingha,Laida,Lapanga,Maneswar,Jharsuguda,Belpahar,Brajarajnagar,Bandhbahal,Bundia,Sundargarh,Rourkela,Banaigarh,Hatibandha,Lathikata,Bhawanipatna,Kesinga,Dharmagada,Madanpur Rampur,Boudh,Nuapada,Khariar,Komna,Sinapali,Parashkhol,Deobahal,Khadial",
+    "status": "COMPLETE"
   },
   {
     "name": "Sanskrit",

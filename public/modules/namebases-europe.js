@@ -2466,7 +2466,7 @@ window.europeNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "",
+    "b": "Svyatoozero,Yarn,Konchezero,Spasskaya Guba,Tivdiya,Mikhailovskoye",
     "status": "WAITING"
   },
   {
@@ -2936,8 +2936,8 @@ window.europeNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Altstadt,Neustadt,Nordstadt,Südstadt,Sandberg,Mürwik,Weiche,Tarup,Fruerlund,Jürgensby,Friesischer Berg,Engelsby,Westliche Höhe,Osbek,Wasserloos,Friedheim,Solitüde,Klosterholz,Sonwik,Twedt,Twedter Holz,Fahrensodde,Sünderup,Kattloch,Löwenberg,Adelby,Gottrupel,Sophienhof,Tastrup",
+    "status": "COMPLETE"
   },
   {
     "name": "Sercquiais",
@@ -2976,7 +2976,7 @@ window.europeNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "",
+    "b": "Cheboksary,Novocheboksarsk,Kanash,Alatyr,Tsivilsk,Yadrin,Shumerlya,Mariinsky Posad,Kozlovka,Poretskoye,Semyonovskoye,Shikhrany,Atishevo,Kuges",
     "status": "WAITING"
   },
   {
@@ -3706,8 +3706,8 @@ window.europeNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Syktyvkar,Vorkuta,Inta,Pechora,Usinsk,Ukhta,Sosnogorsk,Yemva,Vuktyl,Mikun,Krasnozatonsky,Sedkyrkeshch,Verkhnyaya Maksakovka,Komsomolsky,Mulda,Oktyabrsky,Promyshlenny,Severny,Vorgashor,Yeletsky,Zapolyarny,Kozhym,Verkhnyaya Inta,Izyayu,Kozhwa,Puteyets,Parma,Borovoy,Shudayag,Vodny,Yarega",
+    "status": "COMPLETE"
   },
   {
     "name": "Asturian",
@@ -6706,7 +6706,7 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "",
+    "b": "Abalakovo,Permyakovo,Pyankovo,Aginskoye,Agul",
     "status": "WAITING"
   },
   {
@@ -6736,7 +6736,7 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "",
+    "b": "Verkh-Yazva,Antipina,Arefina,Boloto,Bychina,Vanina,Vankova,Verkhneye Zapolye,Grishina,Yegorova,Ivachina,Konovalova,Nizhneye Zapolye,Nizhnyaya Bychina,Parshakova,Severny Kolchim,Simanova,Sysoeva,Talavol,Tsepyol,Yaborova",
     "status": "WAITING"
   },
   {
@@ -7116,8 +7116,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Urvaste,Rõuge,Vastseliina,Kanepi,Põlva,Räpina,Karula,Harglõ,Mõniste,Varstu,Haanja,Lasva,Antsla,Sõmerpalu,Võru,Kõlleste,Valgjärve,Orava,Mooste,Veriora,Laheda,Taheva,Meeksi,Misso,Sute",
+    "status": "COMPLETE"
   },
   {
     "name": "South Vagilsk",
@@ -7126,7 +7126,7 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "",
+    "b": "Sosva,Komar,Kurikova Yurta,Uray-Paul,Ounya-Paul,Ahvasym-Paul,Suevatpaul,Khandybina Yurta,Verkhniy Pelym,Garevka,Yurta Anyamova,Ushma,Yurta Pakina,Lepla",
     "status": "WAITING"
   },
   {
@@ -7656,8 +7656,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Bausen,Bussau,Diahren,Dolgow,Ganze,Granstedt,Gühlitz,Güstritz,Jabel,Klennow,Köhlen,Küsten,Lübeln,Lensian,Mammoißel,Püggen,Prießeck,Satemin,Schreyahn,Wustrow,Lüchow,Clenze,Gartow,Sagard,Süthen",
+    "status": "COMPLETE"
   },
   {
     "name": "Pomeranian",
@@ -7666,8 +7666,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Stolp,Culpino,Mulkenthin,Wulckow,Stargrod,Belgrod,Belgroensem,Zitarigroda,Dargozlaw,Dergschlaff,Oboy,Obrita,Zarno,Perlow,Czernekowe,Kolbrzega,Kresyn,Crossin,Gressin,Grossin,Romptzke,Rumpske,Grumbckow,Prebbentow,Schmentzin,Pepelow,Dentzick,Clemme,Gumethow,Teterow,Petervitz,Cusserowe,Sedel,Drenow,Corlin,Corlyn,Bandergowe,Berenslauu",
+    "status": "COMPLETE"
   },
   {
     "name": "Ripuarian (Platt)",
@@ -7916,7 +7916,7 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "",
+    "b": "Charlotte Amalie,Charlotte Amalie East,Charlotte Amalie West,Christiansted,Coral Bay,Cruz Bay,Frederiksted,Frederiksted Southeast,Red Hook,Tutu,Anna's Retreat,Grove Place,Sion Farm",
     "status": "WAITING"
   },
   {
@@ -8036,7 +8036,7 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "",
+    "b": "Madjalis,Sanchi,Gazeya,Karatsan,Barshamai,Jhibakhni,Jhavgat,Jhirabachi,Kulidjha,Adaga,Antil',Varseet,Kirki,Gool'bii,Shileyagi,Shilansha,Khungeya,Akhmedkent,Surgeya,Mizhigli,Dooregi,Bazhlukh,Mashatlii,Pilyaki",
     "status": "WAITING"
   },
   {

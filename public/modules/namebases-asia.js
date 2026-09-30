@@ -9416,7 +9416,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "",
+    "b": "Manga,Takanua,Nangisalu,Maya",
     "status": "WAITING"
   },
   {
@@ -9512,12 +9512,12 @@ window.asiaNameBases = [
   {
     "name": "Northern and Central Bunun",
     "i": 202416,
-    "min": 0,
-    "max": 0,
+    "min": 4,
+    "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Kantaban,Vogai,Kadu,Kalibuan,Mahavun,Laidazuan,Nehunpu,Takkei,Haitutuan,Tamazuan,Mahowan,Malibasi,Kakacawan,Kohkoh,Dili,Tannan,Wanfeng,Fazhi,Wangxiang,Jiumei,Zhongzheng,Mayuan,Ren'ai,Xinyi,Zhuoxi,Haiduan,Wanrong,Nanxi,Qimei",
+    "status": "COMPLETE"
   },
   {
     "name": "Onjob",
@@ -11146,7 +11146,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "",
+    "b": "Baoyou,Hongshui,Changshui,Baoding,Baoban,Banqiao,Chaoyang Xiaodao,Datian,Dazhuanpo,Dongfang,Gancheng,Ji,Sigeng,Xinlong,Gongai,Guangba,Jiangbian,Luodia,Xiaoling,Zhongsha,Baisha,Yuanmen,Baoting,Basuo",
     "status": "WAITING"
   },
   {
@@ -11276,7 +11276,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "",
+    "b": "Ampani,Rajouda,Balle,Kalikada,Ratu,Damar,Kalchedanda,Khanar,Lalikanda,Jhunja,Baraha,Tallo Dungeshwor,Rakam,Kusapani,Tunibagar,Singhasain,Chhedagad,Thalaha Bazar",
     "status": "WAITING"
   },
   {
@@ -11286,8 +11286,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Badaga,Hebbale,Nokya,Kutta,Kothur,Arakeri,Balele,Badagarakeri,Devanoor,Kanoor,Kurchi,Nalkeri,Santapura,Kakuru,Chikkiri,Virajpet,Somvarpet,Heggadadevanakote,Piriyapatna,Hunsur,Madikeri,Gonikoppal,Kushalanagara,Siddapura,Ponnampet,Ammathi,Tithimathi,Devarakadu,Tirunelly,Kartikulam,Bavali",
+    "status": "COMPLETE"
   },
   {
     "name": "Rengao",
@@ -11316,8 +11316,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Ranchi,Chatra,Latehar,Daltonganj,Simdega,Gumla,Khunti,Bokaro,Hazaribagh,Ramgarh,Dhanbad,Giridih,Jamshedpur,Chaibasa,Medininagar,Madhurgaon,Sarangarh,Ambikapur,Raigarh,Jashpur Nagar,Dharamjaigarh,Surajpur,Balrampur,Sundargarh,Jharsuguda,Balangir,Jhapa,Anarmani,Bahundangi,Dhaijan,Shantinagar,Damak",
+    "status": "COMPLETE"
   },
   {
     "name": "Sakhalin Ainu",
@@ -11356,7 +11356,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "",
+    "b": "Chelpek,Burma-Suu,Tash-Kya,Beryu-Bash,Ak-Suu,Karakol",
     "status": "WAITING"
   },
   {
@@ -11376,8 +11376,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Tu Mo Rong,Dak To,Dak Ha,Kon Plong,Mang Den,Dak Tang,Vi Ro Ngheo,Kon Pring,Mang Canh,Kon Chenh,Kon Hring,Dak Nung,Dak Hroi,Dak Ruong,Ia Pi,Dak Lap,Dak Pom,Ngoc Lay,Ngoc Yeu,Te Xang,Mang Ri,Dak To Kan,Dak Ro Ong,Dak Sut,Dak Pek,Kon Tum",
+    "status": "COMPLETE"
   },
   {
     "name": "Sherpa",
@@ -11386,8 +11386,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Namche Bazaar,Lukla,Khumjung,Khunde,Thame,Thameteng,Pangboche,Dingboche,Tengboche,Pheriche,Gokyo,Monjo,Phakding,Jorsale,Deboche,Lobuche,Gorak Shep,Junbesi,Goli,Toktok,Salleri,Beni,Bapha,Chaulakharka,Kaku,Mukali,Necha Batase,Nele,Tapting,Thapma,Dhading,Pungyen",
+    "status": "COMPLETE"
   },
   {
     "name": "Shina",
@@ -11866,7 +11866,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "",
+    "b": "Mankhan,Zereg,Altai,Uyench,Must,Khovd,Shar Khulsan,Zeregiin Gol,Tsagaan Gol,Uushiin Gol,Khar Us,Zeregiin Khoid,Zereg Aimak,Yonchilin Khuree,Zugayn Khoshuu",
     "status": "WAITING"
   },
   {
@@ -12076,7 +12076,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "",
+    "b": "Cuyo,Taytay,San Vicente,Coron,Culion,Busuanga,Linapacan,Baras,Calis,Kurung,Banuang Daan,Delian,Tara,Malawig,Turda,Buenavista,Marcilla,Bulalacao,Camanga,Napaskud,Biong,Calauit",
     "status": "WAITING"
   },
   {
@@ -12206,7 +12206,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "",
+    "b": "Thepnimit,Nong Takang,Khlong Yai,Thrai Khao,Pong Nam Rak,Sai Daeng,Chanthaburi,Pailin,Phnom Saravan,Veal Veng",
     "status": "WAITING"
   },
   {
@@ -12646,8 +12646,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Udaipur,Chittorgarh,Bhilwara,Rajsamand,Pratapgarh,Nathdwara,Banswara,Dungarpur,Shahpura,Bari Sadri,Bhindar,Dhariawad,Gogunda,Kanor,Baansi,Dindoli,Bhadoo,Nai,Bichri,Gosunda,Kapasan,Rashmi,Railmagra,Bhopalsagar,Nimbahera,Harnathpura,Turkiya Khurd,Dovani,Bheemgarh,Pandoli",
+    "status": "COMPLETE"
   },
   {
     "name": "Nuoxi Naxi Yao ",

@@ -1366,7 +1366,7 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "",
+    "b": "Tangwang,Tangjia,Wangjia",
     "status": "WAITING"
   },
   {
@@ -1396,7 +1396,7 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "",
+    "b": "Motozintla de Mendoza,Motozintla,Tuzantan,Tuzantan Pueblo,Estacion Tuzantan,Toliman,Buenos Aires,La Campana,Cerro La Campana,Belisario Dominguez,Huixtla,Mozotal,Niquivil,Boqueron,Male,San Jeronimo",
     "status": "WAITING"
   },
   {
@@ -1406,7 +1406,7 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "",
+    "b": "Semarang",
     "status": "WAITING"
   },
   {
@@ -1416,7 +1416,7 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "",
+    "b": "Kemajoran,Karangbidara,Krambangan,Batavia,Bandung,Semarang,Surabaya,Malang,Garut,Depok,Magelang,Sukabumi,Koja,Dayeuh Manggung,The Hague",
     "status": "WAITING"
   },
   {
@@ -1526,7 +1526,7 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "",
+    "b": "Kaleb,Batu,Bunga Bali,Lalafang,Lekom,Mawar,Merdeka,Nule,Ombay,Treweng,Padang Sul,Abang Iwang,Tamalabang,Tamalpusi",
     "status": "WAITING"
   },
   {
@@ -1536,7 +1536,7 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "",
+    "b": "Moru,Moramam,Morba,Pintu Mas,Kafelulang,Wakapsir,Wakapsir Timur,Pailelang,Probur,Probur Utara,Wolwal,Wolwal Selatan,Wolwal Barat,Wolwal Tengah,Halerman,Manatang,Orgen,Tribur,Kuifana,Margeta,Bawah",
     "status": "WAITING"
   },
   {
@@ -1756,7 +1756,7 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "",
+    "b": "Oenpelli,Bininak,East Alligator,East Alligator River,Cahills Crossing,Ubirr,Jabiru,Adelaide River,Kapalga,Merl,Gimbat,Marrakai,Beatrice Hill,Humpty Doo,Goodparla,Munmalarri",
     "status": "WAITING"
   },
   {
@@ -1766,7 +1766,7 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "",
+    "b": "Wujal Wujal,Rossville,Ayton,Bloomfield,Jajikal,Shipton's Flat,Cooktown,Cape Tribulation,Daintree,Mossman,Kuranda,Mareeba,Chillagoe,Middle Camp,Palm Island,Yarrabah,Cow Bay,Mount Mulgrave",
     "status": "WAITING"
   },
   {
@@ -1776,7 +1776,7 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "",
+    "b": "Batchelor,Rum Jungle,Adelaide River,Berry Springs,Finniss River,Mount Litchfield,Reynolds River,Argument Flats,Stapleton Siding,Mount Sabine,Powers Creek,Peartree Creek,Fergusson River,Acacia Hills,Pickeridge,Howard Springs,Manton,Finniss Valley,Litchfield Park",
     "status": "WAITING"
   },
   {
@@ -1786,8 +1786,8 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "One Arm Point,Ardiyooloon,Djarindjin,Lombadina,Beagle Bay,Derby,Bidyadanga,Kooljaman,Cape Leveque,Cape Borda,Curlew Bay,Thomas Bay,Goodenough Bay,Sunday Island,Ralooraloo,Skeleton Point,Cunningham Point,Pender Bay,Brue Reef,Mayala,Jayirri,Ngamoogoon,Gambarnan,Boolgin,Jologo,Mardnan,Garramal,Cygnet Bay",
+    "status": "COMPLETE"
   },
   {
     "name": "Laragia",
@@ -1796,8 +1796,8 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Darwin,Belyuen,Delissaville,Rapid Creek,Nightcliff,Coconut Grove,Millner,Jingili,Alawa,Brinkin,Stuart Park,Casuarina,Kulaluk,Minmarama Park,Southport,Coolalinga,Hidden Valley,Karama,Marrara,Nakara,Holtze,The Narrows,East Arm,Fog Bay,Finniss River,Gunn Point,Cox Peninsula,Bynoe Harbour,Howard River,Manton Dam,Stokes Hill,Mindil Beach",
+    "status": "COMPLETE"
   },
   {
     "name": "Murrinh Patha",
@@ -1816,7 +1816,7 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "",
+    "b": "Warburton,Milyirrtjarra,Irrunytju,Wingellina,Papulankutja,Blackstone,Mantamaru,Jameson,Warakurna,Tjirrkarli,Tjukurla,Wanarn,Kiwirrkurra,Patjarr,Pira Kata,Kanpa,Docker River,Giles,Elder Creek,Rawlinson Range,Warburton Ranges,Laverton,Kalgoorlie",
     "status": "WAITING"
   },
   {
@@ -1826,8 +1826,8 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Raukkan,Pomberuk,Tagalang,Tailem Bend,Murray Bridge,Mannum,Swan Reach,Wellington,Goolwa,Meningie,Moorlands,Coomandook,Kingston,Cape Jervis,Victor Harbor,Encounter Bay,Robe,Mundoo Island,Kumarangk,The Coorong,Lake Alexandrina,Ngaut Ngaut,Pennington,Milang,Port Elliot,Palana,Cape Jaffa,Lucindale",
+    "status": "COMPLETE"
   },
   {
     "name": "Nyangumarta",
@@ -1836,7 +1836,7 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "",
+    "b": "Port Hedland,South Hedland,Marble Bar,Strelley,Warralong,Woodstock,Yandeyarra,Bidyadanga,Tjalku Wara,Skull Springs,Wallal Downs,Mandora,Sandfire,Telfer,Lake Waukarlykarly,Mount Arthur,Mount Alexander,Yarrie,Pardoo,Whim Creek,Cooraboolie,Erema",
     "status": "WAITING"
   },
   {
@@ -1846,7 +1846,7 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "",
+    "b": "truwana,yingina,taypalaka,kunanyi,wukalina,kanamaluka,pinmatik,laraturunawn,titima,takayna,nungu,tulampanga,tinamirakuna,larapuna,putalina,narawntapu,Triabunna,Ringarooma,Boobyalla",
     "status": "WAITING"
   },
   {
@@ -1866,7 +1866,7 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "",
+    "b": "Delissaville,Belyuen,Daly River,Channel Point,Point Blaze,Fog Bay,Point Charles,Cape Ford,Cape Don,Anson Bay,Reynolds River,East Point,Tree Point,Finniss River",
     "status": "WAITING"
   },
   {
@@ -1876,8 +1876,8 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Jambinu,Munyimiya,Maluwa,Manymany,Balinyu,Byro,Burun.garra,Gulumburr,Pia Wadjari,Yulga Jinna,Irratha,Balbaru,Barndiyarra,Mullewa,Cue,Gascoyne Junction,Three Springs,Meekatharra,Mount Magnet,Yalgoo,Boolardy,Mileura,Sandford,Wooleen,Dalgety Downs,Three Rivers",
+    "status": "COMPLETE"
   },
   {
     "name": "Warumungu",
@@ -1886,7 +1886,7 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "",
+    "b": "Tennant Creek,Tennant Creek Telegraph Station,Banka Banka,Bonney Well,Rockhampton Downs,Alroy Downs,Renner Springs,Mount Grayling,Kurundi,Hatcher Creek,Philipp Creek,Warrego,Ewaninga,Julalikari,Gosse River,Davenport Murchison Ranges,Wolfram Camp",
     "status": "WAITING"
   },
   {
@@ -1896,7 +1896,7 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "",
+    "b": "Pukatja,Ernabella,Musgrave Ranges,Umuwa,Nyapari,Angatja,Amata,Pipalyatjara,Kalka,Kaltjiti,Fregon,Iwantja,Indulkana,Kanpi,Watarru,Tjurma,Anilalya,Mimili,Irintata,Officer Creek",
     "status": "WAITING"
   },
   {
