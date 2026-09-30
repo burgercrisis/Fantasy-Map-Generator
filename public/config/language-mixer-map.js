@@ -4740,7 +4740,7 @@ globalThis.languageMixerMap = [
   {
     "iso": "hoc",
     "bases": [
-      200290
+      203151
     ]
   },
   {
@@ -5127,11 +5127,15 @@ globalThis.languageMixerMap = [
   },
   {
     "iso": "katua-bahnaric",
-    "bases": []
+    "bases": [
+      202471
+    ]
   },
   {
     "iso": "kayong-bahnaric",
-    "bases": []
+    "bases": [
+      200321
+    ]
   },
   {
     "iso": "kenaboi",
@@ -7143,7 +7147,9 @@ globalThis.languageMixerMap = [
   },
   {
     "iso": "tariang-bahnaric",
-    "bases": []
+    "bases": [
+      202683
+    ]
   },
   {
     "iso": "tay-tai",
@@ -19236,7 +19242,7 @@ globalThis.languageMixerMap = [
   {
     "iso": "persian",
     "bases": [
-      2603
+      10040
     ]
   },
   {
@@ -19508,7 +19514,7 @@ globalThis.languageMixerMap = [
   {
     "iso": "pes",
     "bases": [
-      2603
+      10040
     ]
   },
   {
@@ -20780,7 +20786,7 @@ globalThis.languageMixerMap = [
   {
     "iso": "pes2",
     "bases": [
-      2603
+      10040
     ]
   },
   {
