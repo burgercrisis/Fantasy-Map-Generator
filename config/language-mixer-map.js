@@ -1265,9 +1265,7 @@ globalThis.languageMixerMap = [
   },
   {
     "iso": "gonga",
-    "bases": [
-      20713
-    ]
+    "bases": []
   },
   {
     "iso": "goundo",
@@ -5931,9 +5929,7 @@ globalThis.languageMixerMap = [
   },
   {
     "iso": "mongghuor",
-    "bases": [
-      200377
-    ]
+    "bases": []
   },
   {
     "iso": "mongolian",
@@ -9873,9 +9869,7 @@ globalThis.languageMixerMap = [
   },
   {
     "iso": "obdorsk",
-    "bases": [
-      2321
-    ]
+    "bases": []
   },
   {
     "iso": "old-hungarian",
@@ -10519,15 +10513,11 @@ globalThis.languageMixerMap = [
   },
   {
     "iso": "yaran",
-    "bases": [
-      2678
-    ]
+    "bases": []
   },
   {
     "iso": "yaransk",
-    "bases": [
-      2678
-    ]
+    "bases": []
   },
   {
     "iso": "yazva",
@@ -14681,9 +14671,7 @@ globalThis.languageMixerMap = [
   },
   {
     "iso": "joual",
-    "bases": [
-      1340
-    ]
+    "bases": []
   },
   {
     "iso": "kjq",
@@ -18187,9 +18175,7 @@ globalThis.languageMixerMap = [
   },
   {
     "iso": "argentinian-spanish",
-    "bases": [
-      237
-    ]
+    "bases": []
   },
   {
     "iso": "arh",
