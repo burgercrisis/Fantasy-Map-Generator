@@ -1529,7 +1529,7 @@
       "family": "Mel"
     },
     {
-      "name": "Kafa",
+      "name": "Gonga",
       "iso": "gonga",
       "region": "Africa",
       "category": "Afroasiatic",
@@ -20099,7 +20099,7 @@
       "family": "Algonquian"
     },
     {
-      "name": "Quebec French",
+      "name": "Joual",
       "iso": "joual",
       "region": "North America",
       "category": "Romance",
@@ -25544,7 +25544,7 @@
       "family": "Arawakan"
     },
     {
-      "name": "Rioplatense Spanish",
+      "name": "Argentinian Rioplatense Spanish",
       "iso": "argentinian-spanish",
       "region": "South America",
       "category": "Romance",

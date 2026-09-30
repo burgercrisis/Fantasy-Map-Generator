@@ -3210,16 +3210,6 @@ window.europeNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "Meadow Mari Proper",
-    "i": 2230,
-    "min": 4,
-    "max": 16,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Kozmodemyansk,Volzhsk,Zvenigovo,Sernur,Orshanka,Kilemary,Mari-Turek,Kuzhener,Novy Toryal,Medvedevo,Kiknur,Tonshaevo,Tuzha,Yaransk,Alikovo,Bogolyubovo,Fedorkino,Gornomar,Kalinino,Korkatovo,Mochalishche,Pektuban,Solnechny",
-    "status": "WAITING"
-  },
-  {
     "name": "Kochevo",
     "i": 2250,
     "min": 4,
@@ -4146,7 +4136,7 @@ window.europeNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "",
+    "b": "Kajaani,Kuhmo,Suomussalmi,Sotkamo,Paltamo,Puolanka,Ristijärvi,Hyrynsalmi,Vaala,Oulujärvi",
     "status": "WAITING"
   },
   {
@@ -4410,16 +4400,6 @@ window.europeNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "Obdorsk",
-    "i": 200772,
-    "min": 4,
-    "max": 15,
-    "d": "lnrt",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-  {
     "name": "On",
     "i": 200775,
     "min": 4,
@@ -4446,7 +4426,7 @@ window.europeNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "",
+    "b": "Lahti,Hollola,Heinola,Asikkala,Iitti,Kärkölä,Hartola,Hämeenkoski,Orimattila,Padasjoki,Sysmä,Nastola,Päijänne",
     "status": "WAITING"
   },
   {
@@ -4956,7 +4936,7 @@ window.europeNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "",
+    "b": "Espoo,Hanko,Kauniainen,Karkkila,Kirkkonummi,Lohja,Raseborg,Siuntio,Vihti,Nummela",
     "status": "WAITING"
   },
   {
@@ -4968,36 +4948,6 @@ window.europeNameBases = [
     "m": 0,
     "b": "Kingisepp,Luga,Gatchina,Tosno,Lomonosov,Kronstadt,Sosnovy Bor,Sertolovo,Volkhov,Kirishi,Chudovo,Novaya Ladoga,Shapki,Babayevo,Cherepovets,Kirillov,Belozersk,Narva-Jõesuu,Ivangorod,Slantsy,Vyborg",
     "status": "WAITING"
-  },
-  {
-    "name": "Yaran",
-    "i": 200842,
-    "min": 4,
-    "max": 16,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Zvenigovo,Sernur,Orshanka,Kilemary,Sovetsky,Morki,Paranga,Yurino,Mari-Turek,Kuzhener,Novy Toryal,Medvedevo,Krasnooktyabrsky,Kiknur,Tonshaevo,Tuzha,Kozlan,Yunger,Lipsha,Yaran,Kozymodemyan,Sernur-Morkin,Mariinsky Posad,Vasilsursk,Santala,Shoybulatovo,Troitsky,Mariets,Semyonovka",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Yaransk",
-    "i": 200843,
-    "min": 4,
-    "max": 16,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Zvenigovo,Sernur,Orshanka,Kilemary,Sovetsky,Morki,Paranga,Yurino,Mari-Turek,Kuzhener,Novy Toryal,Medvedevo,Krasnooktyabrsky,Kiknur,Tonshaevo,Tuzha,Kozlan,Yunger,Lipsha,Yaran,Kozymodemyan,Sernur-Morkin,Alekseyevka,KadjiSay,Kozmodemyansk,Volzhsk,Yaransk,Mariinsky Posad,Vasilsursk,Santala,Shoybulatovo,Troitsky,Mariets,Semyonovka",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Yazva",
-    "i": 200844,
-    "min": 4,
-    "max": 17,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Vorkuta,Usinsk,Pechora,Inta,Ukhta,Sosnogorsk,Yemva,Vylgort,Kortkeros,Izhma,Nizhny Odes,Zheshart,Koslan,Troitsko-Pechorsk,Ust-Tsilma,Ust-Kulom,Vizinga,Letskoya,Obyachevo,Kudymkar,Gaynsk,Yurla,Naryan-Mur,Amderma,Kharuta,Bugrino,Varandey,Gyda,Antipayuta,Dikson,Vuktyl,Aikino,Ust-Usa,Ust-Shchuger,Ust-Vym,Ust-Berezovka,Ust-Unya,Ust-Kyma,Ust-Pyzha,Ust-Ilava,Ust-Kyzym,Ust-Lyzha,Ust-Voya,Voyvozh",
-    "status": "COMPLETE"
   },
   {
     "name": "Ylä-Satakunta",
@@ -6317,6 +6267,36 @@ window.europeNameBases = [
     "d": "",
     "m": 0,
     "b": "Tobolsk,Tyumen,Ishim,Yalutorovsk,Zavodoukovsk,Omutinsky,Berdyuzhye,Kazanskoe,Vikulovo,Abatskoye,Golyshmanovo,Sloboda,Aromashevo,Yurginskoye,Uporovo,Isetsky,Tobolsky,Vagaysky,Nizhnetavdinsky,Embaevo,Kaskara,Mullashi,Narimanovo,Salairka,Uspenka,Chikcha,Amanad,Bolshie Akiyary,Yesaulovo,Turayevo,Chaplyk,Yakushi,Yantyk,Andreyevskiy,Bogandinskiy,Borovskiy,Vinizili,Omsk,Tara,Yarkovo,Biysk,Kuybyshev,Chany,Chanovskiy,Kupino,Kargat,Tatarsk,Kalachinsk,Nazyvayevsk",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Yazva",
+    "i": 200844,
+    "min": 4,
+    "max": 17,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Vorkuta,Usinsk,Pechora,Inta,Ukhta,Sosnogorsk,Yemva,Vylgort,Kortkeros,Izhma,Nizhny Odes,Zheshart,Koslan,Troitsko-Pechorsk,Ust-Tsilma,Ust-Kulom,Vizinga,Letskoya,Obyachevo,Kudymkar,Gaynsk,Yurla,Naryan-Mur,Amderma,Kharuta,Bugrino,Varandey,Gyda,Antipayuta,Dikson,Vuktyl,Aikino,Ust-Usa,Ust-Shchuger,Ust-Vym,Ust-Berezovka,Ust-Unya,Ust-Kyma,Ust-Pyzha,Ust-Ilava,Ust-Kyzym,Ust-Lyzha,Ust-Voya,Voyvozh",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Courland Livonian",
+    "i": 1639,
+    "min": 3,
+    "max": 20,
+    "d": "lnrt",
+    "m": 0.1,
+    "b": "Riga,Daugavpils,Liepāja,Jelgava,Jūrmala,Ventspils,Rezekne,Ogre,Valmiera,Tukums,Salaspils,Cēsis,Sigulda,Bauska,Kuldīga,Talsi,Saldus,Grobina,Aizkraukle,Limbazi,Madona,Preiļi,Ludza,Rēzekne,Varakļāni,Viļaka,Alūksne,Gulbene,Smiltene,Strenči,Baltinava,Karsava,Zilupe",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Krevinian",
+    "i": 2281,
+    "min": 3,
+    "max": 20,
+    "d": "lnrt",
+    "m": 0.1,
+    "b": "Võru,Põlva,Räpina,Antsla,Lasva,Sõmerpalu,Vastseliina,Mõniste,Hargla,Kanepi,Kõlleste,Laheda,Lepistu,Mikitamäei,Mooste,Orava,Saverna,Tõrva,Kohtla-Järve,Sillamäe,Tallinn,Narva,Pärnu,Maardu,Jõgeva,Viljandi,Rakvere,Kuressaare,Paide,Valga,Valka,Tapa,Kiviõli,Kunda,Jõhvi,Kärdla,Põltsamaa,Rapla,Keila,Loksa,Türi,Kohtla,Viru-Nigula,Haljala,Väike-Maarja,Tamsalu,Abja-Paluoja,Mõisaküla,Karksi-Nuia,Suure-Jaani,Võhma,Kambja,Nõo,Elva,Otepää,Sangaste,Palupera,Puka,Rannu,Rõngu,Helme,Hummuli,Karksi,Halliste,Mulgi,Abja,Tarvastu,Paistu,Kolga-Jaani,Kärstä,Olustvere,Aakre,Kurista,Väätsa,Järva-Jaani,Koeru",
     "status": "COMPLETE"
   },
   {

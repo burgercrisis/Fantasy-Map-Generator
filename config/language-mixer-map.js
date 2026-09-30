@@ -5932,7 +5932,7 @@ globalThis.languageMixerMap = [
   {
     "iso": "mongghuor",
     "bases": [
-      200376
+      200377
     ]
   },
   {
@@ -6659,9 +6659,7 @@ globalThis.languageMixerMap = [
   },
   {
     "iso": "santa-mongol",
-    "bases": [
-      200472
-    ]
+    "bases": []
   },
   {
     "iso": "santa-sijiaji",
@@ -8781,9 +8779,7 @@ globalThis.languageMixerMap = [
   },
   {
     "iso": "mo-piu",
-    "bases": [
-      202833
-    ]
+    "bases": []
   },
   {
     "iso": "modern-korean",
@@ -9710,7 +9706,7 @@ globalThis.languageMixerMap = [
   {
     "iso": "meadow-mari-proper",
     "bases": [
-      2230
+      2229
     ]
   },
   {
@@ -9882,7 +9878,7 @@ globalThis.languageMixerMap = [
   {
     "iso": "obdorsk",
     "bases": [
-      200772
+      2321
     ]
   },
   {
@@ -10538,13 +10534,13 @@ globalThis.languageMixerMap = [
   {
     "iso": "yaran",
     "bases": [
-      200842
+      2678
     ]
   },
   {
     "iso": "yaransk",
     "bases": [
-      200843
+      2678
     ]
   },
   {
@@ -15911,9 +15907,7 @@ globalThis.languageMixerMap = [
   },
   {
     "iso": "uon",
-    "bases": [
-      203265
-    ]
+    "bases": []
   },
   {
     "iso": "kula",
@@ -21670,7 +21664,7 @@ globalThis.languageMixerMap = [
   {
     "iso": "suy",
     "bases": [
-      202659
+      200508
     ]
   },
   {
@@ -22014,7 +22008,7 @@ globalThis.languageMixerMap = [
   {
     "iso": "x-vakh",
     "bases": [
-      202981
+      200831
     ]
   },
   {
@@ -22552,7 +22546,7 @@ globalThis.languageMixerMap = [
   {
     "iso": "x-rajasthani",
     "bases": [
-      202604
+      20053
     ]
   },
   {
@@ -23071,9 +23065,7 @@ globalThis.languageMixerMap = [
   },
   {
     "iso": "x-obdorsk",
-    "bases": [
-      200772
-    ]
+    "bases": []
   },
   {
     "iso": "x-porvoo",
@@ -23095,9 +23087,7 @@ globalThis.languageMixerMap = [
   },
   {
     "iso": "x-yaransk",
-    "bases": [
-      200843
-    ]
+    "bases": []
   },
   {
     "iso": "x-cof-n-dedicated",
@@ -23179,9 +23169,7 @@ globalThis.languageMixerMap = [
   },
   {
     "iso": "x-yaran",
-    "bases": [
-      200842
-    ]
+    "bases": []
   },
   {
     "iso": "x-cai-long",

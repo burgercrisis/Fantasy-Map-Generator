@@ -166,11 +166,14 @@ function checkFailures() {
   // Load valid base indices from the same files the aggregator loads.
   //
   // namebases-research.js was missing from this list, so any index that lives
-  // only there was reported as invalid. Five languages resolve through it -
-  // Chamorro (24702), Marshallese (24703), Palauan (24704), Rapa Nui (202432)
-  // and Tahitian (24699) - and all five were reported as having every base
-  // invalid, which made the check report FAIL for languages that work. The
-  // aggregator concatenates the continent files AND research.js, and where an
+  // only there was reported as invalid. Five languages used to resolve through
+  // it alone - Chamorro (24702), Marshallese (24703), Palauan (24704), Rapa Nui
+  // (202432) and Tahitian (24699) - and all five were reported as having every
+  // base invalid, which made the check report FAIL for languages that work. All
+  // five now live in continent files as well, so that specific example is
+  // history, but roughly 1700 indices still exist only in research.js and it
+  // must stay in this list or they are all reported invalid. The aggregator
+  // concatenates the continent files AND research.js, and where an
   // index appears twice the first-loaded copy wins, so the set of resolvable
   // indices is the union across all of them.
   const baseDir = path.join(root, "public/modules");

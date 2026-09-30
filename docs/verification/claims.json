@@ -1,4 +1,25 @@
 {
   "staleHours": 8,
-  "claims": {}
+  "claims": {
+    "europe": {
+      "agent": "wb5-europe",
+      "task": "W005 zero-seed research + W011 cluster triage",
+      "claimedAt": "2026-09-30T20:44:08.783Z"
+    },
+    "northAmerica": {
+      "agent": "wb5-northAmerica",
+      "task": "W005 zero-seed research + W011 cluster triage",
+      "claimedAt": "2026-09-30T20:44:09.098Z"
+    },
+    "oceania": {
+      "agent": "wb5-oceania",
+      "task": "W005 zero-seed research + W011 cluster triage",
+      "claimedAt": "2026-09-30T20:44:09.455Z"
+    },
+    "southAmerica": {
+      "agent": "wb5-southAmerica",
+      "task": "W005 zero-seed research + W011 cluster triage",
+      "claimedAt": "2026-09-30T20:44:09.771Z"
+    }
+  }
 }

@@ -2416,7 +2416,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "",
+    "b": "Kalpetta,Sultan Bathery,Mananthavady,Meppadi,Pottanpara,Muthanga,Vakayar,Thirunelli,Kalaraykudi,Appalamala,Edakkara,Thariyode,Mavoor,Cheruthalay",
     "status": "WAITING"
   },
   {
@@ -3276,7 +3276,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "",
+    "b": "Jeypore,Koraput,Pottangi,Jharial,Nabarangapur,Kotagarh,Junagarh,Umarkote,Raighhat,Borigumma,Kesinga,Sunki,Mahendragiri,Nrusinghpur,Dandbose,Chitrakote,Joida,Malkangiri,Bodemera,Gumos,Puttangi",
     "status": "WAITING"
   },
   {
@@ -6220,16 +6220,6 @@ window.asiaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Mongghuor",
-    "i": 200376,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Huzhu,Ledu,Minhe,Hualong,Xunhua,Jianzha,Zeku,Tongde,Xinghai,Guide,Chaka,Da Qaidam,Datong,Pingan,Xining,Huangyuan,Tongren,Golmud,Dulan,Delingha,Tianzhu,Yongjing,Linxia,Hezuo,Maqu,Luqu,Xiahe,Zoige,Hongyuan,Ruoergai,Aba",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Monguor",
     "i": 200377,
     "min": 4,
@@ -9042,8 +9032,8 @@ window.asiaNameBases = [
   {
     "name": "Turaka",
     "i": 203272,
-    "min": 0,
-    "max": 0,
+    "min": 3,
+    "max": 12,
     "d": "lnrt",
     "m": 0,
     "b": "",
@@ -9066,7 +9056,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "",
+    "b": "Wokha,Mokokchung,Changki,Yimkung,Kippers,Sung,Ngar,Littya,Tuli,Tseminyu,Noklak,Wozho,Bamdika,Chumekedza,Longkhum,Yuchong,Dima,Shamator,Nokum,Lekang,Mancham,Aluckba,Chentang,Kiphire",
     "status": "WAITING"
   },
   {
@@ -9696,7 +9686,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "",
+    "b": "Gyerim,Sabeol,Sabeolju,Hansanju,Sangju,Changyeong,Siljikju,Birae,Geummajeo,Busa,Moksa,Goryeong,Wiryeseong,Ungjin,Sabi,Jolbon,Gungnae,Jusang,Bukhan,Naseong,Naju",
     "status": "WAITING"
   },
   {
@@ -9746,7 +9736,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "",
+    "b": "Kanowit,Song,Igan,Kapit,Lintang,Belaga,Tatau,Matau,Sibu,Julau,Pakan,Bakeri,Gurim,Kuching,Bintangor,Sarikei",
     "status": "WAITING"
   },
   {
@@ -9877,16 +9867,6 @@ window.asiaNameBases = [
     "d": "",
     "m": 0,
     "b": "",
-    "status": "WAITING"
-  },
-  {
-    "name": "Suoy",
-    "i": 202659,
-    "min": 4,
-    "max": 18,
-    "d": "",
-    "m": 0,
-    "b": "Phum Krang Trachak",
     "status": "WAITING"
   },
   {
@@ -10140,7 +10120,7 @@ window.asiaNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "Lauhut ",
+    "name": "Lauhut",
     "i": 1063,
     "min": 4,
     "max": 11,
@@ -10150,7 +10130,7 @@ window.asiaNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "Pashto, Central ",
+    "name": "Pashto, Central",
     "i": 1109,
     "min": 4,
     "max": 11,
@@ -10260,7 +10240,7 @@ window.asiaNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "Ahirani ",
+    "name": "Ahirani",
     "i": 785,
     "min": 4,
     "max": 11,
@@ -10270,7 +10250,7 @@ window.asiaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Altai ",
+    "name": "Altai",
     "i": 858,
     "min": 4,
     "max": 11,
@@ -10280,7 +10260,7 @@ window.asiaNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "Altai Uriankhai ",
+    "name": "Altai Uriankhai",
     "i": 859,
     "min": 4,
     "max": 11,
@@ -10300,7 +10280,7 @@ window.asiaNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "Baima ",
+    "name": "Baima",
     "i": 1075,
     "min": 4,
     "max": 11,
@@ -10310,7 +10290,7 @@ window.asiaNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "Baisha Hlai ",
+    "name": "Baisha Hlai",
     "i": 1076,
     "min": 4,
     "max": 11,
@@ -10320,7 +10300,7 @@ window.asiaNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "Balti ",
+    "name": "Balti",
     "i": 1100,
     "min": 4,
     "max": 11,
@@ -10330,7 +10310,7 @@ window.asiaNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "Buyang ",
+    "name": "Buyang",
     "i": 1403,
     "min": 4,
     "max": 11,
@@ -10350,7 +10330,7 @@ window.asiaNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "Dai Zhuang ",
+    "name": "Dai Zhuang",
     "i": 1653,
     "min": 4,
     "max": 11,
@@ -10370,7 +10350,7 @@ window.asiaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Ghale ",
+    "name": "Ghale",
     "i": 855,
     "min": 4,
     "max": 11,
@@ -10430,7 +10410,7 @@ window.asiaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Lohorung ",
+    "name": "Lohorung",
     "i": 848,
     "min": 4,
     "max": 11,
@@ -10470,7 +10450,7 @@ window.asiaNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "Mewahang ",
+    "name": "Mewahang",
     "i": 845,
     "min": 4,
     "max": 11,
@@ -10490,7 +10470,7 @@ window.asiaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Nuoxi Naxi Yao ",
+    "name": "Nuoxi Naxi Yao",
     "i": 1062,
     "min": 4,
     "max": 11,
@@ -10560,7 +10540,7 @@ window.asiaNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "Puma ",
+    "name": "Puma",
     "i": 850,
     "min": 4,
     "max": 11,
@@ -10570,7 +10550,7 @@ window.asiaNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "Saam ",
+    "name": "Saam",
     "i": 852,
     "min": 4,
     "max": 11,
@@ -10656,7 +10636,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "",
+    "b": "Jharial,Umarkote,Raighhat,Junagarh,Kumar,Jiranga,Sunki,Narsipur,Kesinga,Rairakhol,Karlapat,Bhanjanagar,Ghumar,Kotagarh,Nuapada,Sinapali,Daspalla,Nayagarh,Gopalpur,Borigumma,Padapali,Chitrakote",
     "status": "WAITING"
   },
   {
@@ -10666,7 +10646,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "",
+    "b": "Jalpaiguri,Siliguri,Alipurduar,Jaigaon,Balipara,Churulia,Maynaguri,Kokrajhar,Baghmara,Phulbari,Sitalpur,Udalguri,Barapara,Barpeta,Bongaigaon,Goaigaon,Sarusa,Dhubri,Lakhimpur,Rangapara,Sasane,Ambari,Domohani,Harut,Chengthai,Changthai,Jaldhaka,Nearbhal",
     "status": "WAITING"
   },
   {
@@ -10686,8 +10666,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Ayodhya,Saketa,Mathura,Dvaraka,Dvaravati,Hastinapura,Gajasahvaya,Indraprastha,Pataliputra,Kashi,Varanasi,Prayaga,Kanyakubja,Ujjayini,Avantika,Tamralipta,Kampilya,Kausambi,Kanchi,Mayapuri,Puri,Mithila,Rajagriha,Shravasti,Ahicchatra,Vaishali,Vrindavan,Gokula,Naimisharanya,Badarikashrama,Pushkara,Prabhasa,Mahishmati,Viratanagara,Sopara,Nanda",
+    "status": "COMPLETE"
   },
   {
     "name": "Saraiki",
@@ -10706,7 +10686,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "",
+    "b": "Godda,Pathakpatti,Jama,Dumari,Sarberia,Bagni,Marghi,Salbani,Basantpur,Lalmatia,Sahibganj,Rajmahal,Udhwa,Barhi,Pakur,Kalapara,Gaighat,Maheshpur,Amrapara,Phulhar,Bandu,Tatma,Badampahar,Kahalgaon,Banka,Karia,Madhupur,Pirou,Ghoghardiha,Murshidabad,Lalgola,Sagarpur,Barar,Farakka,Samudragarh,Khargram,Naogaon,Joypurhat,Birampur,Maheshtola,Atrai,Baliati,Bera,Pustia",
     "status": "WAITING"
   },
   {
@@ -10830,7 +10810,7 @@ window.asiaNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "Alyutor ",
+    "name": "Alyutor",
     "i": 862,
     "min": 4,
     "max": 11,
@@ -10840,7 +10820,7 @@ window.asiaNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "Taishanese ",
+    "name": "Taishanese",
     "i": 866,
     "min": 4,
     "max": 11,
@@ -10850,7 +10830,7 @@ window.asiaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Central Min ",
+    "name": "Central Min",
     "i": 1481,
     "min": 4,
     "max": 11,
@@ -11116,7 +11096,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "",
+    "b": "Kad Linx,Qeef Dongb Naif Zeb,Qeef Dongb Naif Dol Hmub Dol Gud Zid Zid Zeb,Kaili",
     "status": "WAITING"
   },
   {
@@ -11180,23 +11160,43 @@ window.asiaNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "Bhaya ",
+    "name": "Bhaya",
     "i": 203196,
     "min": 4,
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "",
+    "b": "Khoski,Digri,Pandoo,Sehwan,Sakhar,Matari,Jhimpir,Khadaro,Shahdadpur,Diplo,Kot Diji,Tando Rahim,Tando Adam,Gadani,Gharo,Tando Masti,Jamrao,Tando Thoro,Tando Ghulam Ali,Tando Jam,Sindhuri,Kario",
     "status": "WAITING"
   },
   {
-    "name": "Goaria ",
+    "name": "Mizo",
+    "i": 20068,
+    "min": 3,
+    "max": 20,
+    "d": "lnrt",
+    "m": 0.1,
+    "b": "Aizawl,Lunglei,Champhai,Serchhip,Kolasib,Lawngtlai,Saiha,Mamit,Saitual,Hnahthial,Khawzawl,Siaha,Demagiri,Bairabi,Vairengte,Thingsul,Darlawn,Khawhai,Sekawk,Sangau,Lungtian,Chawngte,Bungtlang,Southern Tuipui,Lungsen,Tlabung,Lungpher,Chalfilh,Mualthuam,Laitual,Reiek,Ngatlang,Hliappui,Neihdawn,Sihphir,Thenzawl,North Vanlaiphai,Biate,Lungchhuan,Bangla,Maubawk,Kelsih,Lama,Tuichang,Hrangchalkawn,Hualtu,Sakawrdai,Phuaibuang,Lengpui,Rengdil,Sairang,Kepran,Saitlaw,Tinghmun,Vawmbuk,Ngopa,Phaibawk,Khawbung,Khuangleng",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Csángó",
+    "i": 200730,
+    "min": 3,
+    "max": 20,
+    "d": "lnrt",
+    "m": 0.1,
+    "b": "Săbăoani,Pildești,Traian,Iugani,Bărgăoani,Bălușești,Ploscuțeni,Valea Seacă,Galbeni,Valea Mare,Gioseni,Nicolae Bălcescu,Pădureni,Călugăreni,Lespezi,Gârlenii de Sus,Lilieci,Cleja,Arini,Bălțata,Frumoasa,Pustiana,Bogdănești,Târța,Palanca",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Goaria",
     "i": 203208,
     "min": 4,
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "",
+    "b": "Dhor,Mitho,Kalan Kot,Mirpur Mathelo,Tando Hafiz,Channo,Samaro,Tando Mir,Tando Bhayo,Drigh Road,Jalal Khan,Kandhkot,Tando Kot Bux,Kotri,Naudero",
     "status": "WAITING"
   }
 ];

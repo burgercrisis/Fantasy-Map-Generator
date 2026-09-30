@@ -876,7 +876,7 @@ window.oceaniaNameBases = [
     "max": 15,
     "d": "",
     "m": 0,
-    "b": "",
+    "b": "Bawor, Kagami, Tambor, Ero-Sato, Ujar-Kagas, Kamur, Kainam, Esaip, Sanapai, Saremit, Esebor, Wiagas, Minahai, Comoro",
     "status": "WAITING"
   },
   {
@@ -1426,7 +1426,7 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "",
+    "b": "Napan, Siriwo",
     "status": "WAITING"
   },
   {
@@ -1836,7 +1836,7 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "",
+    "b": "Uol Bánk, Buocas Taun",
     "status": "WAITING"
   },
   {
@@ -2536,7 +2536,7 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "",
+    "b": "Papakula, Lenga:na, Wardalikanja",
     "status": "WAITING"
   },
   {
@@ -3076,7 +3076,7 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "",
+    "b": "Bibira, Morobe, Obeia, Ubo",
     "status": "WAITING"
   },
   {
@@ -3086,7 +3086,7 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "",
+    "b": "Yabiyufa, Hipili, Rafayufa, Nivi, Wanto, Omena, Urumfa",
     "status": "WAITING"
   },
   {

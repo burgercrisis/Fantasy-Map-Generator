@@ -386,7 +386,7 @@ window.southAmericaNameBases = [
     "max": 17,
     "d": "",
     "m": 0,
-    "b": "",
+    "b": "Xiepihurena,Waxingí Rená,Parakuy Rená,Ximborendá,Gurupiúna,Axinguirendá,Turizinho,Ypahu renda,Iahu renda,Jaxi puxi renda,Kaju'i renda,Eirehurenda,Tupixi,Zê Gurupi,Água Preta,Sítio Novo",
     "status": "WAITING"
   },
   {
@@ -1506,7 +1506,7 @@ window.southAmericaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "",
+    "b": "Mn̵fɵsikń̵,Adusé,Pɵɵtuɵi,Adukoefisiá,Fe’ikɵsé,Podɨn̵yakn̵’si,Ḭɒ̰yakn̵’si,Hḭ’ḭsé,Pɨdadié,I’ñefɵpiá,Sɒ’dɨn̵sí,Siɒhɒḛbukn̵fisiá,Kooró,Ḭsiakn̵taɨfo’í,Ya’doin̵sí,Po’padɨkń̵,Kɒipopaí,Ḭpa̰se,Paseifo’í",
     "status": "WAITING"
   },
   {

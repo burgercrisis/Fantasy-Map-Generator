@@ -276,7 +276,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0.1,
-    "b": "",
+    "b": "Kenyi,Gindu,Fei,Gigemso,Gidam,Gidum Dutse,Gyeng,Taha,Kongo,Fogyang,Hogyeng,Foyour",
     "status": "WAITING"
   },
   {
@@ -2348,16 +2348,6 @@ window.africaNameBases = [
     "m": 0,
     "b": "Tunis,Sfax,Sousse,Kairouan,Monastir,Mahdia,Bizerte,Gabes,Medenine,Tozeur,Gafsa,Dar es Salaam,Dodoma,Arusha,Mwanza,Tanga,Mbeya,Songea,Kigoma,Tabora,Morogoro,Iringa,Shinyanga,Kagera,Ruvuma,Touba,Ségou,Sikasso,Mopti,Timbuktu,Gao,Bobo-Dioulasso",
     "status": "COMPLETE"
-  },
-  {
-    "name": "Dry",
-    "i": 11030,
-    "min": 3,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
   },
   {
     "name": "Kwanyama",
