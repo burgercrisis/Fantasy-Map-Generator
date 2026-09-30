@@ -1266,7 +1266,7 @@
   {
     "iso": "gonga",
     "bases": [
-      11082
+      20713
     ]
   },
   {
@@ -3274,7 +3274,7 @@
   {
     "iso": "yoruba",
     "bases": [
-      200218
+      772
     ]
   },
   {
@@ -6899,9 +6899,7 @@
   },
   {
     "iso": "southern-tungusic",
-    "bases": [
-      200500
-    ]
+    "bases": []
   },
   {
     "iso": "southwestern-tai",
@@ -7373,9 +7371,7 @@
   },
   {
     "iso": "udegheic",
-    "bases": [
-      200556
-    ]
+    "bases": []
   },
   {
     "iso": "uilta",
@@ -9165,9 +9161,7 @@
   },
   {
     "iso": "central-transdanubian",
-    "bases": [
-      1068
-    ]
+    "bases": []
   },
   {
     "iso": "central-veps",
@@ -9437,9 +9431,7 @@
   },
   {
     "iso": "karasuk",
-    "bases": [
-      2021
-    ]
+    "bases": []
   },
   {
     "iso": "karelian",
@@ -9809,9 +9801,7 @@
   },
   {
     "iso": "northeast-hungary",
-    "bases": [
-      200765
-    ]
+    "bases": []
   },
   {
     "iso": "northeastern-coastal-estonian",
@@ -9971,9 +9961,7 @@
   },
   {
     "iso": "proper-southeastern",
-    "bases": [
-      1080
-    ]
+    "bases": []
   },
   {
     "iso": "ruija",
@@ -10151,9 +10139,7 @@
   },
   {
     "iso": "southern-great-plain",
-    "bases": [
-      1072
-    ]
+    "bases": []
   },
   {
     "iso": "southern-karelian",
@@ -10199,9 +10185,7 @@
   },
   {
     "iso": "southern-transdanubian",
-    "bases": [
-      1071
-    ]
+    "bases": []
   },
   {
     "iso": "southern-udmurt",
@@ -10537,9 +10521,7 @@
   },
   {
     "iso": "western-transdanubian",
-    "bases": [
-      200839
-    ]
+    "bases": []
   },
   {
     "iso": "western-uusimaa",
@@ -13515,9 +13497,7 @@
   },
   {
     "iso": "western-hilali-dialects",
-    "bases": [
-      200921
-    ]
+    "bases": []
   },
   {
     "iso": "western-middle-aramaic",
@@ -13533,9 +13513,7 @@
   },
   {
     "iso": "western-pre-hilali-dialects",
-    "bases": [
-      200923
-    ]
+    "bases": []
   },
   {
     "iso": "yafii-arabic",
@@ -14724,7 +14702,7 @@
   {
     "iso": "joual",
     "bases": [
-      21006
+      1340
     ]
   },
   {
@@ -18232,7 +18210,7 @@
   {
     "iso": "argentinian-spanish",
     "bases": [
-      201306
+      237
     ]
   },
   {
@@ -19474,7 +19452,7 @@
   {
     "iso": "bod",
     "bases": [
-      2438
+      10022
     ]
   },
   {
@@ -19528,7 +19506,7 @@
   {
     "iso": "aze",
     "bases": [
-      20055
+      10031
     ]
   },
   {
@@ -20994,7 +20972,7 @@
   {
     "iso": "bod2",
     "bases": [
-      2438
+      10022
     ]
   },
   {
@@ -21438,7 +21416,7 @@
   {
     "iso": "vro",
     "bases": [
-      200791
+      908
     ]
   },
   {
@@ -22107,9 +22085,7 @@
   },
   {
     "iso": "x-western-hilali-dialects",
-    "bases": [
-      200921
-    ]
+    "bases": []
   },
   {
     "iso": "x-azd-dialect",
@@ -22493,9 +22469,7 @@
   },
   {
     "iso": "x-northeast-hungary",
-    "bases": [
-      200765
-    ]
+    "bases": []
   },
   {
     "iso": "x-south-vagilsk",
@@ -22601,9 +22575,7 @@
   },
   {
     "iso": "x-wadiyara-koli",
-    "bases": [
-      202721
-    ]
+    "bases": []
   },
   {
     "iso": "x-wambule",
@@ -22643,9 +22615,7 @@
   },
   {
     "iso": "x-mysy",
-    "bases": [
-      202912
-    ]
+    "bases": []
   },
   {
     "iso": "x-north-vagilsk",
@@ -23020,7 +22990,7 @@
   {
     "iso": "x-tibetan",
     "bases": [
-      2438
+      10022
     ]
   },
   {
@@ -23031,9 +23001,7 @@
   },
   {
     "iso": "x-judeo-italian-standard",
-    "bases": [
-      23005
-    ]
+    "bases": []
   },
   {
     "iso": "x-chichewa",
@@ -23829,9 +23797,7 @@
   },
   {
     "iso": "x-belizean-creole-dedicated",
-    "bases": [
-      20109
-    ]
+    "bases": []
   },
   {
     "iso": "x-shipibo-conibo-amazonian",
@@ -23973,9 +23939,7 @@
   },
   {
     "iso": "x-bahamian-creole-dedicated",
-    "bases": [
-      20107
-    ]
+    "bases": []
   },
   {
     "iso": "x-flemish",
@@ -24015,9 +23979,7 @@
   },
   {
     "iso": "x-southern-tungusic",
-    "bases": [
-      200500
-    ]
+    "bases": []
   },
   {
     "iso": "x-ulch",
@@ -24045,9 +24007,7 @@
   },
   {
     "iso": "x-san-ma",
-    "bases": [
-      78
-    ]
+    "bases": []
   },
   {
     "iso": "x-chambri",
@@ -24177,9 +24137,7 @@
   },
   {
     "iso": "x-udegheic",
-    "bases": [
-      200556
-    ]
+    "bases": []
   },
   {
     "iso": "x-western-votic",

@@ -11,36 +11,38 @@ Generated: 2026-09-30  |  Seed floor: 25
 
 | Metric | Count |
 |---|---:|
-| Language entries | 3191 |
-| Marked COMPLETE (>= 25 seeds) | 1990 |
-| Marked WAITING (< 25 seeds) | 1201 |
-| Below seed floor | 1201 |
-| Zero seeds | 63 |
+| Language entries | 3161 |
+| Marked COMPLETE (>= 25 seeds) | 1930 |
+| Marked WAITING (< 25 seeds) | 1231 |
+| Below seed floor | 1231 |
+| Zero seeds | 65 |
 | Heavily contaminated (>=10 shared seeds) | 0 |
 | Pasted 8-seed blocks (W004, actionable) | 0 |
-| Map ISOs with no namebase (research backlog) | 789 |
+| Map ISOs with no namebase (research backlog) | 802 |
 | Map ISOs that can never have a namebase | 3 |
 
 ## By continent
 
 | Continent | Entries | Below floor | Zero seed | Median seeds |
 |---|---:|---:|---:|---:|
-| africa | 699 | 235 | 4 | 27 |
-| asia | 1130 | 577 | 35 | 24 |
-| europe | 644 | 114 | 15 | 31 |
-| northAmerica | 215 | 63 | 0 | 29 |
-| southAmerica | 159 | 18 | 2 | 34 |
-| oceania | 334 | 194 | 7 | 20 |
+| africa | 696 | 242 | 6 | 27 |
+| asia | 1124 | 572 | 35 | 24 |
+| europe | 633 | 122 | 15 | 30 |
+| northAmerica | 212 | 68 | 0 | 29 |
+| southAmerica | 155 | 28 | 2 | 32 |
+| oceania | 331 | 199 | 7 | 19 |
 | fantasy | 10 | 0 | 0 | 200 |
 
 ## Work queue: entries below the seed floor
 
-1201 entries need authentic settlement names. Ordered by seed count,
+1231 entries need authentic settlement names. Ordered by seed count,
 so the emptiest entries come first. One at a time, research then edit.
 
 | Seeds | Continent | Index | Language |
 |---:|---|---:|---|
 | 0 | africa | 511 | Zhire |
+| 0 | africa | 11030 | Dry |
+| 0 | africa | 20606 | Boon |
 | 0 | africa | 200097 | Miler |
 | 0 | africa | 200099 | Mire |
 | 0 | africa | 203072 | Settler Swahili |
@@ -118,6 +120,8 @@ so the emptiest entries come first. One at a time, research then edit.
 | 1 | asia | 202585 | Pear |
 | 1 | europe | 757 | Atlym |
 | 1 | europe | 1483 | Central Selkup |
+| 1 | northAmerica | 6625 | Ixcatec |
+| 1 | northAmerica | 8425 | Matlatzinca |
 | 1 | oceania | 202270 | Javindo |
 | 1 | oceania | 202368 | Nakai |
 | 1 | oceania | 202759 | Nunggubuyu |
@@ -152,9 +156,9 @@ so the emptiest entries come first. One at a time, research then edit.
 | 3 | asia | 211004 | Malaccan Creole Malay |
 | 3 | europe | 2326 | Malij Jugan |
 | 3 | europe | 200729 | Cingali |
+| 3 | europe | 200734 | Jugan |
 | 3 | europe | 202894 | Kuuďärv Ludic |
-| 3 | europe | 202912 | Mysy |
-| 3 | europe | 202920 | Northern Veps |
+| 3 | northAmerica | 6624 | Chochotec |
 | 3 | oceania | 200994 | Tangwang |
 | 3 | oceania | 202354 | Makalero |
 | 3 | oceania | 202371 | Nduga |
@@ -187,8 +191,6 @@ so the emptiest entries come first. One at a time, research then edit.
 | 4 | asia | 1967 | Taman |
 | 4 | asia | 200280 | Ghera |
 | 4 | asia | 200337 | Longsang Zhuang |
-| 4 | asia | 200353 | Malasar |
-| 4 | asia | 200354 | Malpande |
 | 4 | asia | 200494 | Somray |
 | 4 | asia | 200718 | Yangchun Pai Yao |
 | 4 | asia | 200720 | Yeheni |
@@ -268,6 +270,7 @@ so the emptiest entries come first. One at a time, research then edit.
 | 5 | europe | 200888 | Urum |
 | 5 | europe | 867 | Wutunhua  |
 | 5 | europe | 202887 | Kamassian proper |
+| 5 | oceania | 200973 | Papuan Pidgin English |
 | 5 | oceania | 201113 | Nedebang |
 | 5 | oceania | 202464 | Suganga |
 | 5 | oceania | 202477 | Thao |
@@ -296,6 +299,7 @@ so the emptiest entries come first. One at a time, research then edit.
 | 6 | asia | 1021 | Baoting Hlai |
 | 6 | asia | 1059 | Vandu |
 | 6 | asia | 1268 | Muya |
+| 6 | asia | 1287 | Biao Mon |
 | 6 | asia | 1676 | Kakkala |
 | 6 | asia | 1706 | Dameli |
 | 6 | asia | 1882 | Hezhang Buyi |
@@ -336,12 +340,8 @@ so the emptiest entries come first. One at a time, research then edit.
 | 6 | oceania | 203104 | Tainae |
 | 6 | oceania | 203109 | Uare |
 | 6 | oceania | 203206 | Golin  |
-| 6 | oceania | 203268 | Sakizaya |
-| 7 | africa | 1234 | Fwe |
-| 7 | africa | 1720 | Dugwor |
-| 7 | africa | 11287 | Geruma |
 
-_Showing the lowest 300 of 1201. Full queue:_
+_Showing the lowest 300 of 1231. Full queue:_
 
 ```
 node tools/namebase-tools/verify-namebase-integrity.js --json
@@ -376,7 +376,7 @@ nothing in the name says so.
 
 ## Map ISOs with no namebase
 
-789 languages the mixer map offers have no namebase entry
+802 languages the mixer map offers have no namebase entry
 under that name, so they currently resolve to an unrelated seed list. Real
 languages — Agaw, Baka, Bamukumbit, Dibiyaso, Guriaso. Each needs a namebase
 created from research. Nothing here is guessed at.
@@ -422,6 +422,7 @@ created from research. Nothing here is guessed at.
 | arabic-javanese-of-klego | Arabic-Javanese of Klego | 17 |
 | arc | Aramaic Names | 801 |
 | arawak | Arawak | undefined |
+| argentinian-spanish | Argentinian Rioplatense Spanish | 237 |
 | arin | Arin | 5258 |
 | aru | Aru | 2456 |
 | saj | Asabano | undefined |
@@ -532,9 +533,8 @@ created from research. Nothing here is guessed at.
 | buruwai | Buruwai | undefined |
 | bua | Buryat Names | 20112 |
 | busa | Busa | undefined |
-| cameroonian-pidgin-english | Cameroonian Pidgin English | 246 |
 
-_Showing 150 of 789._
+_Showing 150 of 802._
 
 ## How to work on this
 

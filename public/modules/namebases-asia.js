@@ -874,7 +874,7 @@ window.asiaNameBases = [
     "i": 200315,
     "min": 4,
     "max": 11,
-    "d": "Kam Sui is a language family/cover term for Kam-Sui languages, not a single language.",
+    "d": "",
     "m": 0,
     "b": "Sandu,Sandong,Shuilong,Zhonghe,Miaocao,Bajie,Jiadao,Shiqi,Jiarong,Hengfeng,Zhouqin,Jiuqian,Tangzhou,Yangmeng,Yaoqing,Dushan,Wenquan,Tianxing,Rongjiang,Congjiang,Sanhe,Dahe,Fengle,Hejiang,Pu'an,Dujiang,Tingpai,Jiaoli,Lalan,Dayu,Yangfu,Wubu,Yanggong,Zenlei,Hezhai,Shuigen,Guchang,Laliang,Shuiyao,Shuiwei,Banliang,Tangnian,Gaorong,Pandong,Gengding,Duliu",
     "status": "COMPLETE"
@@ -1004,7 +1004,7 @@ window.asiaNameBases = [
     "i": 996,
     "min": 4,
     "max": 12,
-    "d": "north munda",
+    "d": "",
     "m": 1,
     "b": "Hatru,Chilati,Semadoh,Jarida,Payvihir,Nayakheda,Ektai,Rui Pathar,Raipur,Dolar,Marita,Churni,Mandu,Boryathakheda,Khanapur,Amdhana,Lahi",
     "status": "WAITING"
@@ -1034,7 +1034,7 @@ window.asiaNameBases = [
     "i": 1011,
     "min": 4,
     "max": 13,
-    "d": "angkuic austroasiatic",
+    "d": "",
     "m": 1,
     "b": "Xiaomanmi,Damanmi,Jiangtou Manmi,Manmi,Sanjia",
     "status": "WAITING"
@@ -1044,7 +1044,7 @@ window.asiaNameBases = [
     "i": 1012,
     "min": 4,
     "max": 12,
-    "d": "Hu (also Kongge / Kun'ge / Kon Keu) is a language of the Angkuic branch of Austroasiatic (Palaungic), spoken in Yunnan (China) and adjacent northern Myanmar (Shan State).",
+    "d": "",
     "m": 0,
     "b": "Na Huipa,Mengyang,Xiao Mengyang,Jinghong",
     "status": "WAITING"
@@ -1054,7 +1054,7 @@ window.asiaNameBases = [
     "i": 1013,
     "min": 4,
     "max": 13,
-    "d": "U is an Angkuic (Palaungic/Austroasiatic) language (endonym P'uman) of Yunnan and northern Myanmar. The parenthetical 'Pouma' also points to Poumai Naga (Poula, Angami-Pochuri/Sino-Tibetan) of Manipur/Nagaland; the source entry conflates the two real languages. Retained as valid on the U (Angkuic) base.",
+    "d": "",
     "m": 0,
     "b": "Pengpan,Pangpin,Bangbing,Pã Xep,Paa Xep,Gantang,Hazhai,Avala,Auva",
     "status": "WAITING"
@@ -1064,7 +1064,7 @@ window.asiaNameBases = [
     "i": 1018,
     "min": 4,
     "max": 18,
-    "d": "Badaga is a Southern Dravidian language (Kannada-Badaga subgroup) spoken by the Badaga people of the Nilgiris district, Tamil Nadu, India. Closely related to Kannada with Tamil influence.",
+    "d": "",
     "m": 0,
     "b": "Ooty,Coonoor,Kotagiri,Kundah,Gudalur,Pandalur,Kukal,Kadanad,Ithalar,Nundala,Meluru,Hulical,Athikaratty,Melkunda,Kilkundha,Ketti,Thanthanadu,Milidenu,Nandatti,Jakkanari,Aravenu,Thinniyoor,Iyooru,Kannerimukku,Beragany,Pethuva,Jakkatha,Thuneri,Doddabetta,Kattabetu,Kodanadu",
     "status": "COMPLETE"
@@ -1074,7 +1074,7 @@ window.asiaNameBases = [
     "i": 1019,
     "min": 4,
     "max": 12,
-    "d": "Baoan (Bonan) is a Southern Mongolic language of the Shirongol (Baoanic) group, spoken by the Bonan people of Gansu and Qinghai, China. Endonym Manikacha; heavily influenced by Chinese and Amdo Tibetan.",
+    "d": "",
     "m": 0,
     "b": "Nianduhu,Guomare,Gasare,Ganhetan,Dadun,Meipo,Gaoli,Dahejia,Liuji",
     "status": "WAITING"
@@ -1084,7 +1084,7 @@ window.asiaNameBases = [
     "i": 1021,
     "min": 4,
     "max": 12,
-    "d": "Baoting Hlai is a variety of the Hlai (Li) languages, a Kra-Dai family of Hainan, China. The Bǎotíng (保亭) dialect is one of the recognized Hlai varieties (~24,000 speakers).",
+    "d": "",
     "m": 0,
     "b": "Baocheng,Shiling,Jiamao,Xiangshui,Xinzheng,Shangeng",
     "status": "WAITING"
@@ -1104,7 +1104,7 @@ window.asiaNameBases = [
     "i": 1025,
     "min": 4,
     "max": 11,
-    "d": "Baekje Korean refers to the Koreanic language spoken in the Baekje (Paekche) kingdom of southwestern Korea (18 BCE-660 CE). Per the Paekche article, the common language was 'Baekje' (Koreanic), with Classical Chinese as the literary language.",
+    "d": "",
     "m": 0,
     "b": "Wirye,Ungjin,Sabi,Hanseong,Gongju,Buyeo,Iksan",
     "status": "WAITING"
@@ -1404,7 +1404,7 @@ window.asiaNameBases = [
     "i": 1162,
     "min": 4,
     "max": 17,
-    "d": "E language (also Ei, Wuse, Wusehua) is a Tai-Chinese mixed language spoken in Rongshui Miao Autonomous County, Guangxi, China. Adopts Chinese vocabulary into Tai grammar.",
+    "d": "",
     "m": 0,
     "b": "Rongshui,Hemu,Yuanbao,Dongtou,Fengyi,Sanfang,Datong,Huaibao,Zhongdong,Anchui,Gunbei,Dongwang,Daxing,Bailiang,Liangzhai,Wangdong,Gaoliang,Zhaiya,Gunsha,Xiaoxiang",
     "status": "WAITING"
@@ -1474,7 +1474,7 @@ window.asiaNameBases = [
     "i": 1177,
     "min": 3,
     "max": 11,
-    "d": "Tai Long (Shan) is a Southwestern Tai language spoken in Shan State, Myanmar, northern Thailand, Yunnan China, Laos, and Assam India. ISO 639-3: thi. Major towns include Taunggyi, Lashio, Kengtung, Tachileik, Muse, Namkham, Hsipaw, Kyaukme, Mong Hsat, Mong Nai, Kholam, Kunhing, Mong Pan, Mawkmai, Panglong, Loilem, Hopong, Hsi Hseng, Namhsan, Mantong, Kyaing Tong, Mae Hong Son, Chiang Mai, Chiang Rai, Fang, Mae Sai, Ruili, Mangshi, Luxi, Longchuan, Yingjiang, Tengchong, Zayü, Menglian, Ximeng, Cangyuan, Gengma, Lancang, Menghai, Jinghong, Mengla, Xishuangbanna, Muang Sing, Luang Namtha, Muang Long, Vieng Phoukha, Nalae, Dien Bien Phu, Son La, Lai Chau, Phongsaly, Houay Xai, Luang Prabang, Vientiane, Muang Phuan, Xiangkhouang, Phonsavan, Sam Neua, Xam Neua, Houaphanh, Na Klang, Muang Mok, Muang Kham, Dien Bien, Tuan Giao, Muong Lay, Than Uyen, Binh Lu, Sa Pa, Bac Ha, Si Ma Cai, Bac Quang, Ha Giang, Yen Minh, Dong Van, Meo Vac, Xin Man, Hoang Su Phi, Vi Xuyen, Bac Me, Quang Binh, Yen Binh, Luc Yen, Van Chan, Mu Cang Chai, Tram Tau, Yen Bai, Nghia Lo, Van Yen, Van Chan, Yen The, Luc Ngan, Son Dong, Tan Yen, Luc Nam, Hiep Hoa, Yen Dung, Tan Hiep, Phu Binh, Phu Luong, Dong Hy, Vo Nhai, Dinh Hoa, Phu Luong, Vo Nhai, Dinh Hoa, Phu Binh, Cho Moi, Na Ri, Ba Be, Cho Don, Bach Thong, Pac Nam, Thong Nhat, Yen Son, Ham Yen, Chiem Hoa, Na Hang, Lam Binh, Son Duong, Yen Son, Tuyen Quang, Son Duong, Yen Son, Ham Yen, Chiem Hoa, Na Hang, Lam Binh, Tuyen Quang, Bac Kan, Ba Be, Cho Don, Pac Nam, Thong Nhat, Yen Son, Ham Yen, Chiem Hoa, Na Hang, Lam Binh, Tuyen Quang, Thai Nguyen, Phu Luong, Vo Nhai, Dinh Hoa, Phu Binh, Cho Moi, Na Ri, Ba Be, Cho Don, Bach Thong, Pac Nam, Thong Nhat, Yen Son, Ham Yen, Chiem Hoa, Na Hang, Lam Binh, Tuyen Quang, Cao Bang, Bao Lac, Bao Lam, Thong Nong, Ha Quang, Tra Linh, Trung Khanh, Nguyen Binh, Quang Uyen, Thach An, Ha Lang, Hoa An, Bao Lam, Thong Nong, Ha Quang, Tra Linh, Trung Khanh, Nguyen Binh, Quang Uyen, Thach An, Ha Lang, Hoa An, Lang Son, Binh Gia, Van Lang, Van Quan, Bac Son, Chi Lang, Cao Loc, Dinh Lap, Huu Lung, Loc Binh, Trang Dinh, Van Lang, Van Quan, Bac Son, Chi Lang, Cao Loc, Dinh Lap, Huu Lung, Loc Binh, Trang Dinh, Bac Giang, Yen The, Luc Ngan, Son Dong, Tan Yen, Luc Nam, Hiep Hoa, Yen Dung, Tan Hiep, Phu Binh, Phu Luong, Dong Hy, Vo Nhai, Dinh Hoa, Phu Binh, Cho Moi, Na Ri, Ba Be, Cho Don, Bach Thong, Pac Nam, Thong Nhat, Yen Son, Ham Yen, Chiem Hoa, Na Hang, Lam Binh, Tuyen Quang, Thai Nguyen, Phu Luong, Vo Nhai, Dinh Hoa, Phu Binh, Cho Moi, Na Ri, Ba Be, Cho Don, Bach Thong, Pac Nam, Thong Nhat, Yen Son, Ham Yen, Chiem Hoa, Na Hang, Lam Binh, Tuyen Quang, Lang Son, Binh Gia, Van Lang, Van Quan, Bac Son, Chi Lang, Cao Loc, Dinh Lap, Huu Lung, Loc Binh, Trang Dinh, Van Lang, Van Quan, Bac Son, Chi Lang, Cao Loc, Dinh Lap, Huu Lung, Loc Binh, Trang Dinh",
+    "d": "",
     "m": 0,
     "b": "Taunggyi,Lashio,Kengtung,Tachileik,Muse,Namkham,Hsipaw,Kyaukme,MongHsat,MongNai,Kholam,Kunhing,MongPan,Mawkmai,Panglong,Loilem,Hopong,HsiHseng,Namhsan,Mantong,KyaingTong,MaeHongSon,ChiangMai,ChiangRai,Fang,MaeSai,Ruili,Mangshi,Luxi,Longchuan,Yingjiang,Tengchong,Zayu,Menglian,Ximeng,Cangyuan,Gengma,Lancang,Menghai,Jinghong,Mengla,Xishuangbanna,MuangSing,LuangNamtha,MuangLong,ViengPhoukha,Nalae,DienBienPhu,SonLa,LaiChau,Phongsaly,HouayXai,LuangPrabang,Vientiane,MuangPhuan,Xiangkhouang,Phonsavan,SamNeua,XamNeua,Houaphanh,NaKlang,MuangMok,MuangKham,DienBien,TuanGiao,MuongLay,ThanUyen,BinhLu,SaPa,BacHa,SiMaCai,BacQuang,HaGiang,YenMinh,DongVan,MeoVac,XinMan,HoangSuPhi,ViXuyen,BacMe,QuangBinh,YenBinh,LucYen,MuCangChai,TramTau,YenBai,NghiaLo,VanYen,CaoBang,BaoLac,LangSon,BinhGia,BacGiang",
     "status": "COMPLETE"
@@ -1484,7 +1484,7 @@ window.asiaNameBases = [
     "i": 1178,
     "min": 4,
     "max": 11,
-    "d": "Yei Zhuang (Northern Tai) spoken in Wenshan Prefecture, Yunnan, China. Speakers known as Sha subgroup of Zhuang.",
+    "d": "",
     "m": 0,
     "b": "Qiubei,Gehan,Funing,Boai,Naneng,Zhesan,Gula,Guangnan,Zhetai,Diyu,Bada,Dixu,Maguan,Nanlao,Yanshan,Zhela,Bange,Mile,Luxi,Huaping,Ninglang,Fengshan,Lingyun,Tianlin,Longlin",
     "status": "COMPLETE"
@@ -1504,7 +1504,7 @@ window.asiaNameBases = [
     "i": 1247,
     "min": 4,
     "max": 11,
-    "d": "Makrani dialect of Balochi, a Northwestern Iranian language of the Balochistan region (Pakistan, Iran, Afghanistan); Makran coast includes Gwadar, Turbat, Pasni, Ormara, Kech and Iran's Chabahar (Wikipedia: Balochi_language).",
+    "d": "",
     "m": 0,
     "b": "Gwadar,Pasni,Ormara,Turbat,Buleda,Dasht,Tump,Balnigor,Karachi,Jiwani,Chabahar,Konarak,Qasr-e Qand,Nikshahr,Rask,Iranshahr,Bampur,Lashar,Bandar Abbas,Gwatar,Jask,Sirik,Dashtiari,Negur,Pishin,Sarbaz,Bent,Espakeh",
     "status": "COMPLETE"
@@ -1514,7 +1514,7 @@ window.asiaNameBases = [
     "i": 1248,
     "min": 4,
     "max": 11,
-    "d": "Rakhshani dialect of Balochi, a Northwestern Iranian language; spoken in northern/western Balochistan (Quetta, Kalat, Khuzdar, Sibi, Mastung, Chagai, Nushki, Washuk, Pishin, Kharan, Bolan) (Wikipedia: Balochi_language).",
+    "d": "",
     "m": 0,
     "b": "Dalbandin,Kharan,Nushki,Washuk,Mashkel,Besima,Kalat,Mastung,Sibi,Quetta,Zahedan,Zabol,Iranshahr,Saravan,Khash,Chabahar,Nik Shahr,Nosratabad,Sarbaz,Bampur,Zaranj,Chahar Burjak,Kang,Mary",
     "status": "WAITING"
@@ -1524,7 +1524,7 @@ window.asiaNameBases = [
     "i": 1249,
     "min": 4,
     "max": 14,
-    "d": "Indo-Aryan language of the Rajasthani group, named for the Bagar tract of northwestern India (Rajasthan, Punjab, Haryana); historically the Bikaner state (Bikaner, Sri Ganganagar, Hanumangarh, Churu, Sirsa, Hisar) (Wikipedia: Bagri_language).",
+    "d": "",
     "m": 0,
     "b": "Anupgarh,Karanpur,Sri Ganganagar,Hanumangarh,Nohar,Bhadra,Sangaria,Rawatsar,Pilibangan,Churu,Sujangarh,Sardarshahar,Ratangarh,Rajgarh,Sadulpur,Taranagar,Bidasar,Ratannagar,Chhapar,Bikaner,Nokha,Sri Dungargarh,Lunkaransar,Kolayat,Khajuwala,Chhatargarh,Pugal,Deshnoke,Napasar,Siana,Punrasar,Suin,Dhirdan,Beriwala,Toliyasar,Nai Bhadera,Bhairu Payan,Barsinghsar,Khara,Sobhasar,Purana Sohajrasar,Daiyan,Udasar,Bachhasar,Birsilpur,Binjasar,Koramdesar,Khindasar,Kirtasar,Kapurisar,Kunpalsar,Seura,Riri,Sirsa,Mandi Dabwali,Rania,Ellenabad,Dabwali,Kalanwali,Fatehabad,Tohana,Ratia,Jakhal Mandi,Hisar,Hansi,Barwala,Narnaund,Uklana Mandi,Adampur,Bhiwani,Siwani,Loharu,Tosham,Bawani Khera,Charkhi Dadri,Badhra,Abohar,Fazilka,Jalalabad,Muktsar,Malout,Giddarbaha,Bahawalpur,Hasilpur,Ahmedpur East,Yazman,Khairpur Tamewah,Uch Sharif,Luddan,Bahawalnagar,Chishtian,Harunabad,Minchinabad,Fort Abbas,Faqirwali,Dunga Bunga",
     "status": "COMPLETE"
@@ -1534,7 +1534,7 @@ window.asiaNameBases = [
     "i": 1250,
     "min": 4,
     "max": 12,
-    "d": "Kuki-Chin (Sino-Tibetan) language primarily spoken in Bangladesh (Chittagong Hill Tracts) and adjacent Northeast India (Mizoram) and Myanmar; settlements called 'Bawmram' (Wikipedia: Bawm_language).",
+    "d": "",
     "m": 0,
     "b": "Bethel Para,Pankhyang Para,Faruk Para,Eden Para,Darjeeling Para,Lairunpi Para,Munlai Para,Ronin Para,Basatolang Para,Happy Hill Para,Shajahan Para,Baklai Para,Suanlu Para,Barua Para,Langyak Para,Sharon Para,Hebron Para,Chinlong Para,Jaion Para,Elim Para,Sunsang Para,Simatalanping Para,Arthah Para,Sippi Para,Zurvarawng,Raunin Para,Painkhyang Para,Lungthauchi Para,Sunsaung Para,Tai Khyang Para,Salaupi Para,Tindol De Para,Tamlao Para,Fainung Para,Luan Mual Para,Cheihlchiang Para,Thingdolte Tlang Para,Silopy Para,Thingdawl Te Para,Shailaprapat,Hruitezawl,Tuithumhnar,Chamdur,Lawngtlai,Parva-III,Hmawngbhu,Lunglei,Aizawl,Chhimtuipui,Ban Hong Taung,Pi Taung,Ton Balay,Bahun Taung",
     "status": "COMPLETE"
@@ -1706,8 +1706,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Guangxi,Sanjiang,Tongdao,Xinhuang,Jinxiu,Lipu,Yangshuo,Hunan,Rongshui,Guilin,Liuzhou,Hezhou,Longsheng,Ziyuan,Lingchuan,Xingan,Yongfu,Luzhai,RongAn,Liucheng,Liujiang,Guanyang,Quanzhou,Pingle,Gongcheng,Mengshan,Tengxian,Cenxi,Xiangzhou,Heshan,Guiping,Pingnan,Bobai,Luchuan,Beiliu,Rongxian,Xingye,Hengxian,Binyang,Nanning,Hechi,Laibin,Wuzhou,Yulin,Beihai,Qinzhou,Chongzuo,Baise,Debao,Huaihua,Shaoyang,Zhijiang,Mayang,Chenxi,Xupu,Yuanling,Longhui,Wugang,Chengbu,Suining,Xinning,Dongkou,Jingzhou,Huitong,Qianyang,Hongjiang,Xiangtan,Zhuzhou,Changsha",
-    "status": "COMPLETE"
+    "b": "Quanzhou,Gongcheng,Hezhou,Hechi,Liucheng,Liujiang,Guanyang,Nandan,Tian'e,Luocheng,Huanjiang,Bama,Du'an,Daxin,Yizhou,Xiangzhou,RongAn,Jin Chengjiang",
+    "status": "WAITING"
   },
   {
     "name": "Biao Mon",
@@ -1716,8 +1716,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Guangxi,Sanjiang,Tongdao,Xinhuang,Jinxiu,Lipu,Yangshuo,Hunan,Rongshui,Guilin,Liuzhou,Hezhou,Longsheng,Ziyuan,Lingchuan,Xingan,Yongfu,Luzhai,RongAn,Liucheng,Liujiang,Guanyang,Quanzhou,Pingle,Gongcheng,Mengshan,Tengxian,Cenxi,Xiangzhou,Heshan,Guiping,Pingnan,Bobai,Luchuan,Beiliu,Rongxian,Xingye,Hengxian,Binyang,Nanning,Hechi,Laibin,Wuzhou,Yulin,Beihai,Qinzhou,Chongzuo,Baise,Debao,Huaihua,Shaoyang,Zhijiang,Mayang,Chenxi,Xupu,Yuanling,Longhui,Wugang,Chengbu,Suining,Xinning,Dongkou,Jingzhou,Huitong,Qianyang,Hongjiang,Xiangtan,Zhuzhou,Loudi",
-    "status": "COMPLETE"
+    "b": "Lipu,Zhaoping,Pingle,Mengshan,Jinxiu,Dongping",
+    "status": "WAITING"
   },
   {
     "name": "Brahui",
@@ -2594,7 +2594,7 @@ window.asiaNameBases = [
     "i": 1745,
     "min": 4,
     "max": 11,
-    "d": "Dzao Min (Zao Min) is a Hmong-Mien language of China with 60,000+ speakers in Liannan & Yangshan Counties (Guangdong) and Yizhang County (Hunan). Speakers also called Bapai Yao.",
+    "d": "",
     "m": 0,
     "b": "Yizhang,Bapai,Daping,Junliao,Nan'gang,Panshi,Youling,Liannan,Yangshan,Mangshan,Ruyuan",
     "status": "WAITING"
@@ -3266,8 +3266,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Palana,Tigil,Karaga,Ossora,Anadyr,Kyshtym,Komsomolsk,Talitsa,Kuldur,Alapayevsk,Novobureysky,Kirovgrad,Svobodny,Kachkanar,Skovorodino,Ivdel,Salsk,Neryungri",
-    "status": "WAITING"
+    "b": "Palana,Tigil,Ossora,Karaga,Ivashka,Tymlat,Ilpyrsky,Kostroma,Tlichiki,Korf,Vyvenka,Pakhachi,Srednie Pakhachi,Apuka,Achayvyam,Khailino,Ust-Khayryuzovo,Kovran,Voyampolka,Lesnaya,Khayryuzovo,Sedanka,Manily,Kamenskoye,Ayanka,Slautnoye,Talovka,Paren,Oklan",
+    "status": "COMPLETE"
   },
   {
     "name": "Kott",
@@ -3344,7 +3344,7 @@ window.asiaNameBases = [
     "i": 2129,
     "min": 4,
     "max": 11,
-    "d": "Nadou is a Hlai language spoken by ~4,000 people in two villages (Nàdòu in Xīnlóng Town, Yuè in Bāsuǒ Town) in Dongfang, Hainan, China.",
+    "d": "",
     "m": 0,
     "b": "Xinlong Town,Basu Town,Dongfang,Hainan,China",
     "status": "WAITING"
@@ -3924,7 +3924,7 @@ window.asiaNameBases = [
     "i": 2385,
     "min": 4,
     "max": 11,
-    "d": "Parkari Koli (Koli, Parkari) is an Indo-Aryan language spoken in Tharparkar District, Sindh, Pakistan with ~358,000 speakers. Also spoken in adjacent Rajasthan, India.",
+    "d": "",
     "m": 0,
     "b": "Nagarparkar,Islamkot,Mithi,Diplo,Chachro,Khokhrapar,Dabhi,Virawah,Bela,Satidera,Kharoro Syed,Sanghar,Hala,Tando Adam,Shahdadpur,Sinjhoro,Jaisalmer,Pokaran,Fatehgarh,Barmer,Balotra,Siwana,Gudamalani,Chohtan,Dhorimanna,Gadra,Jalore,Bhinmal,Sanchore,Ahore,Sayla,Baghra",
     "status": "COMPLETE"
@@ -3934,7 +3934,7 @@ window.asiaNameBases = [
     "i": 2387,
     "min": 4,
     "max": 14,
-    "d": "Kayort (Kewat) is a Bengali-Assamese language spoken in the Terai and adjacent lowlands of southern Nepal with ~22,000 speakers. Considered endangered.",
+    "d": "",
     "m": 0,
     "b": "Rajbiraj,Gaur,Janakpur",
     "status": "WAITING"
@@ -3944,7 +3944,7 @@ window.asiaNameBases = [
     "i": 2392,
     "min": 4,
     "max": 18,
-    "d": "Kudmali (Kurmali, Kurmali Thar) is an Indo-Aryan language spoken in Jharkhand, West Bengal, Odisha, India with ~350,000 speakers. Closely related to Panchpargania.",
+    "d": "",
     "m": 0,
     "b": "Jamshedpur,Dhanbad,Bokaro,Deoghar,Hazaribagh,Giridih,Koderma,Chatra,Latehar,Lohardaga,Simdega,Khunti,West Singhbhum,Saraikela,East Singhbhum,Godda,Sahibganj,Pakur,Dumka,Jamtara,Bankura,Purulia,Midnapore,Paschim Bardhaman",
     "status": "WAITING"
@@ -4097,16 +4097,6 @@ window.asiaNameBases = [
     "d": "",
     "m": 0,
     "b": "Damascus,Aleppo,Beirut,Jerusalem,Gaza,Haifa,Latakia,Tartus,Homs,Nablus,Ramallah,Irbid,Sham,Shaam,Amman",
-    "status": "WAITING"
-  },
-  {
-    "name": "Tibetan",
-    "i": 2438,
-    "min": 4,
-    "max": 15,
-    "d": "",
-    "m": 0,
-    "b": "Shigatse,Chamdo,Nagqu,Nyingchi,Gyantse,Tsetang,Drigung,Ralung,Samye,Sakya,Reting,Tashilhunpo,Drepung,Sera,Ganden,Norbu Lingka,Potala,Barkhor,Amdo,Kham,U-Tsang,Tinsukia,Lhasa",
     "status": "WAITING"
   },
   {
@@ -4356,8 +4346,8 @@ window.asiaNameBases = [
     "max": 12,
     "d": "",
     "m": 0,
-    "b": "Jhapa,Morang,Sunsari,Damak,Belbari,Naxalbari,Hatighisha,Darjeeling,Namchi,Gyalshing,Kalimpong,Tinsukia,Mokokchung",
-    "status": "WAITING"
+    "b": "Damak,Belbari,Mechinagar,Bhadrapur,Birtamod,Dhobighat,Arjundhara,Kankai,Gauradaha,Gauriganj,Shivatar,Buddhashanti,Haldibari,Kachankawal,Barhadashi,Kamal,Hattikilla,Satnumber,Ayabari,Santinagar,Annakhadi,Karikoshi,Matiganu,Biratnagar,Urlabari,Rangeli,Letang,Budhiganga,Kerabari,Katahari,Jahada,Dhanpalthan,Kanepokhari,Ratuwamai,Pathari Shanishchare,Sundar Haraicha,Inaruwa,Itahari,Dumariya,Rajghat,Jindabaad",
+    "status": "COMPLETE"
   },
   {
     "name": "Toto",
@@ -4406,7 +4396,7 @@ window.asiaNameBases = [
     "max": 18,
     "d": "",
     "m": 0,
-    "b": "Peren,Pauna,Michidui,Tamenglong,Tousem,Tadubi,Dima Hasao,Haflong,North Cachar Hills,Zeliangrong,Mysore,Mangalore,Nagpur,Indore,Bhopal,Delhi,Jalukie Valley",
+    "b": "Haflong,Dima Hasao,Peren,Pauna,Michidui,Tamenglong,Tousem,Tadubi,Jalukie Valley,Zeliangrong,Gaili Namdi,Ze-nnui,Nkiulongdi,Tuli",
     "status": "WAITING"
   },
   {
@@ -4456,8 +4446,8 @@ window.asiaNameBases = [
     "max": 16,
     "d": "",
     "m": 0,
-    "b": "Trashigang,Pemagatshel,Samdrup Jongkhar,Mongar,Trashiyangtse,Kalaktang,Dirang,Tuting,Kopu,Bona,Gelling,Bishing,Upper Siang,Bangkok",
-    "status": "WAITING"
+    "b": "Trashigang,Pemagatshel,Samdrup Jongkhar,Mongar,Trashiyangtse,Kalaktang,Dirang,Bartsham,Bidung,Kanglung,Kangpara,Khaling,Lumang,Merak,Phongmey,Radhi,Sakten,Samkhar,Shongphu,Thrimshing,Uzorong,Yangneer,Dewathang,Gomdar,Langchenphu,Lauri,Martshala,Orong,Pemathang,Phuntshothang,Serthi,Wangphu,Chhimung,Choekhorling,Chongshing Borang,Dechenling,Dungmaed,Khar,Nanong,Norbugang,Shumar,Yurung,Zobel,Ngadi,Balam,Chaskhar,Drametse,Drepung,Jurmey,Kengkhar,Narang,Ngatshang,Saleng,Sherimung,Silambi,Thangrong,Tsakaling,Tsamang,Saling,Damtang,Bumdeling,Yangtse",
+    "status": "COMPLETE"
   },
   {
     "name": "Tani",
@@ -4736,8 +4726,8 @@ window.asiaNameBases = [
     "max": 12,
     "d": "",
     "m": 0,
-    "b": "Colombo,Hambantota,Kandy,Galle,Badulla,Nuwara Eliya,Trincomalee,Batticaloa,Kurunegala,Welimada,Beruwala,Kirinda,Matara,Tangalle,Ampara,Polonnaruwa,Anuradhapura,Jaffna,Mannar",
-    "status": "WAITING"
+    "b": "Hambantota,Kirinda,Bolana,Badagiriya,Tissamaharama,Ambalantota,Mirissa,Matara,Colombo,Slave Island,Maradana,Wattala,Hendala,Akbar Town,Hunupitiya,Kandy,Gampola,Nawalapitiya,Badulla,Kurunegala,Trincomalee,Kinniyai,Mutur,Ginigathena,Talawakele,Hatton,Ella",
+    "status": "COMPLETE"
   },
   {
     "name": "Gondi",
@@ -4864,7 +4854,7 @@ window.asiaNameBases = [
     "i": 20161,
     "min": 4,
     "max": 11,
-    "d": "Lotha Naga is a Sino-Tibetan language spoken in Wokha District, Nagaland, India, with ~180,000 speakers across 114+ villages.",
+    "d": "",
     "m": 0,
     "b": "Wokha,Bhandari,Sanis,Doyang,Changsu,Nagajuna,Ralang,Pangti,Kappa,Narong,Yantsami,Yangpa,Lakhuti,Kotaba,Phirosu,Tsosu,Chukitong,Ponren,Riwo,Englan,Baghty,Maraju,Longchum,Phiro,Shaki,Longtsiri,Longsachung,Longayim,Yanlum,Seluku,Vankhosung,Hayiyan,Yimparasa,Longla,Chudi,Tssori,Liphi,Meikirang,Suphayan,Lio,Yimkha,Yimpang,Lishyüo",
     "status": "COMPLETE"
@@ -5034,7 +5024,7 @@ window.asiaNameBases = [
     "i": 50009,
     "min": 4,
     "max": 11,
-    "d": "Ai Cham is a Kam-Sui language spoken in Guizhou, China.",
+    "d": "",
     "m": 0,
     "b": "Diwo,Boyao,Libo County,Qiannan Prefecture,Guizhou,Gengfang",
     "status": "WAITING"
@@ -5394,7 +5384,7 @@ window.asiaNameBases = [
     "i": 200267,
     "min": 3,
     "max": 11,
-    "d": "Daman (Daman and Diu Portuguese Creole) is a Portuguese-based creole spoken in Daman, India with ~2,000 speakers. Endangered.",
+    "d": "",
     "m": 0,
     "b": "Daman,Diu,Silvassa",
     "status": "WAITING"
@@ -5514,7 +5504,7 @@ window.asiaNameBases = [
     "i": 200282,
     "min": 4,
     "max": 11,
-    "d": "Hagei (Green Gelao) is a severely endangered Kra-Dai language spoken in Guizhou, China and Ha Giang, Vietnam with ~1,700 speakers.",
+    "d": "",
     "m": 0,
     "b": "Renhuai,Qingzhen,Zhenning,Guanling,Qinglong,Zhenfeng,Pu'an,Sanchong,Longlin,Malipo,Dong Van,Yen Minh,Hoang Su Phi",
     "status": "WAITING"
@@ -5834,7 +5824,7 @@ window.asiaNameBases = [
     "i": 200322,
     "min": 4,
     "max": 11,
-    "d": "Kewarat is a dialect of Malayalam spoken in Kerala, India.",
+    "d": "",
     "m": 0,
     "b": "Kasaragod,Kanhangad,Nileshwar,Thrikaripur,Payyanur,Taliparamba,Iritty,Mattannur,Kuthuparamba",
     "status": "WAITING"
@@ -5914,7 +5904,7 @@ window.asiaNameBases = [
     "i": 200333,
     "min": 4,
     "max": 9,
-    "d": "Lakkia is a Kam-Sui language spoken in Guangxi, China.",
+    "d": "",
     "m": 0,
     "b": "Hechi,Yizhou,Luocheng,Du'an,Donglan,Huanjiang,Fengshan,Nandan",
     "status": "WAITING"
@@ -5924,7 +5914,7 @@ window.asiaNameBases = [
     "i": 200334,
     "min": 10,
     "max": 26,
-    "d": "Lambadi (Banjara) is an Indo-Aryan language spoken by the Banjara community across India. Thandas are their traditional settlements.",
+    "d": "",
     "m": 0,
     "b": "Sittilingi Thanda,Mel Thanda,Keezh Thanda,A K Thanda,Kondyanaik Thanda,Seetharama Tanda,Banjara Tanda Nanded,Nagarjuna Sagar Thanda,Anupu Thanda,Banjara Thanda Nagireddypet,Banjara Thanda Kuravi,Banjara Thanda Nalgonda,Banjara Nagar Rangareddy,Jairam Thanda,Dubba Thanda",
     "status": "WAITING"
@@ -5934,7 +5924,7 @@ window.asiaNameBases = [
     "i": 200337,
     "min": 4,
     "max": 9,
-    "d": "Longsang Zhuang is a Zhuang dialect spoken in Longsang area of Guangxi, China.",
+    "d": "",
     "m": 0,
     "b": "Sanhe,Qiaotou,Qiaonan,Daji",
     "status": "WAITING"
@@ -5944,7 +5934,7 @@ window.asiaNameBases = [
     "i": 200336,
     "min": 4,
     "max": 20,
-    "d": "Larantuka Malay is a Malay-based creole spoken in Larantuka, Flores, Indonesia.",
+    "d": "",
     "m": 0,
     "b": "Larantuka,Lewoleba,Wailiti,Wairotin,Waturia,Wodong,Bola,Kabor,Lela,Mbelling,Nangalimang,Napunggire,Ola,Pajama,Pau,Riang Kemie,Riawolo,Roja,Sikka,Tanjung Bunga,Waiblaki,Watugere,Wolowae",
     "status": "WAITING"
@@ -5984,7 +5974,7 @@ window.asiaNameBases = [
     "i": 200341,
     "min": 4,
     "max": 14,
-    "d": "Lower Uda Buryat is a Buryat dialect spoken in Buryatia, Russia.",
+    "d": "",
     "m": 0,
     "b": "Kyakhta,Gusinoozyorsk,Selenginsk,Tarbagatay,Novoilinsk,Sotnikovo,Bichura",
     "status": "WAITING"
@@ -6014,7 +6004,7 @@ window.asiaNameBases = [
     "i": 200345,
     "min": 4,
     "max": 12,
-    "d": "Magar Dhut is a Sino-Tibetan language spoken in Nepal by the Magar people.",
+    "d": "",
     "m": 0,
     "b": "Palpa,Syangja,Tanahu,Gorkha,Nawalparasi,Rupandehi,Kapilvastu,Arghakhanchi,Pyuthan,Rolpa,Salyan,Surkhet,Dailekh,Jajarkot,Dolpa,Jumla,Mugu,Humla,Kalikot,Darchula,Baitadi,Dadeldhura,Doti,Achham,Bajhang,Bajura",
     "status": "COMPLETE"
@@ -6024,7 +6014,7 @@ window.asiaNameBases = [
     "i": 200346,
     "min": 5,
     "max": 10,
-    "d": "Magar Kham is a Sino-Tibetan language spoken in Nepal by the Kham Magar people.",
+    "d": "",
     "m": 0,
     "b": "Rukum,Rolpa,Salyan,Pyuthan,Dang,Surkhet,Dailekh,Jajarkot,Dolpa,Jumla,Mugu,Humla,Kalikot",
     "status": "WAITING"
@@ -6044,7 +6034,7 @@ window.asiaNameBases = [
     "i": 200348,
     "min": 4,
     "max": 11,
-    "d": "Majhi is an Indo-Aryan language spoken in Nepal by the Majhi people.",
+    "d": "",
     "m": 0,
     "b": "Kavrepalanchok,Dolakha,Sindhupalchok,Ramechhap,Okhaldhunga,Udayapur,Siraha,Saptari,Sunsari,Morang,Jhapa",
     "status": "WAITING"
@@ -6054,7 +6044,7 @@ window.asiaNameBases = [
     "i": 200350,
     "min": 4,
     "max": 14,
-    "d": "Mala Malasar is a Dravidian language spoken by the Malasar tribe in Kerala/Tamil Nadu, India.",
+    "d": "",
     "m": 0,
     "b": "Palakkad,Coimbatore,Thrissur,Ernakulam,Idukki",
     "status": "WAITING"
@@ -6064,7 +6054,7 @@ window.asiaNameBases = [
     "i": 200351,
     "min": 4,
     "max": 18,
-    "d": "Malankuravan is a Dravidian language spoken in Kerala, India.",
+    "d": "",
     "m": 0,
     "b": "Palakkad,Thrissur,Ernakulam,Idukki,Kottayam,Alappuzha",
     "status": "WAITING"
@@ -6074,7 +6064,7 @@ window.asiaNameBases = [
     "i": 200352,
     "min": 4,
     "max": 14,
-    "d": "Malapandaram is a Dravidian language spoken in Kerala, India by the Malapandaram tribe.",
+    "d": "",
     "m": 0,
     "b": "Aryankavu,Piravanthoor,Thenmala,Ranni,Perunad,Seethathodu,Aruvappulam,Chittar,Konni,Malayalappuzha,Thannithode,Vadaserikkara,Kulathooppuzha,Achankovil,Mambazhathara,Kattathi,Azhutha,Azhuthamuzhi,Pampa,Manimala,Kodapara",
     "status": "WAITING"
@@ -6084,19 +6074,19 @@ window.asiaNameBases = [
     "i": 200353,
     "min": 4,
     "max": 14,
-    "d": "Malasar is a Dravidian language spoken in Kerala/Tamil Nadu, India.",
+    "d": "",
     "m": 0,
-    "b": "Palakkad,Coimbatore,Thrissur,Ernakulam",
-    "status": "WAITING"
+    "b": "Nelliampathy,Thuthanpara,Pothumudi,Kollengode,Sungam,Nemmara,Parambikulam,Chittur,Palakkad,Ottapalam,Mannarkkad,Alathur,Malampuzha,Thrissur,Pattambi,Shoranur,Thiruvuthwamala,Kanjikode,Ponnani,Perinthalmanna,Karuvarakundu,Karulai,Nagarcoil,Coimbatore,Pollachi,Anamalai",
+    "status": "COMPLETE"
   },
   {
     "name": "Malpande",
     "i": 200354,
     "min": 4,
     "max": 14,
-    "d": "Malpande is a dialect of Malasar spoken in Kerala/Tamil Nadu, India.",
+    "d": "",
     "m": 0,
-    "b": "Palakkad,Coimbatore,Thrissur,Ernakulam",
+    "b": "Chittur,Nemmara,Nelliampathy,Thuthanpara,Pothumudi,Kollengode,Sungam,Madakkathara,Thekkamala,Chittur Thathamangalam,Moothedam,Peringamala,Thottakam,Kollathara,Vadakarappally,Kozhippara,Kurinji,Nangayamkode",
     "status": "WAITING"
   },
   {
@@ -6144,7 +6134,7 @@ window.asiaNameBases = [
     "i": 200361,
     "min": 4,
     "max": 13,
-    "d": "Maonan is a Kam-Sui language spoken in Guangxi, China.",
+    "d": "",
     "m": 0,
     "b": "Huanjiang,Du'an,Nandan,Donglan,Fengshan",
     "status": "WAITING"
@@ -6544,7 +6534,7 @@ window.asiaNameBases = [
     "i": 200414,
     "min": 4,
     "max": 13,
-    "d": "Oirat Mongolian (Clear Script) is a Mongolic language spoken in Mongolia, China, Russia, and Kazakhstan.",
+    "d": "",
     "m": 0,
     "b": "Ulaanbaatar,Khovd,Ölgii,Ulaangom,Erdenet,Mörön,Altai,Bayankhongor,Tsetserleg,Arvaikheer,Chinggis City,Öndörkhaan,Zamyn-Üüd,Sainshand,Dalanzadgad,Baruun-Urt,Sükhbaatar,Darkhan,Bulgan,Choibalsan",
     "status": "WAITING"
@@ -6554,7 +6544,7 @@ window.asiaNameBases = [
     "i": 200417,
     "min": 4,
     "max": 14,
-    "d": "Ollari (Pottangi Ollar Gadaba) is a Central Dravidian language spoken in Odisha and Andhra Pradesh, India with ~15,000 speakers. Closely related to Kondekor.",
+    "d": "",
     "m": 0,
     "b": "Pottangi,Gugaguda,Tokkal,Pommi,Lamtaput,Kunduli,Sunki,Chandaka,Kotiya,Renga",
     "status": "WAITING"
@@ -6564,7 +6554,7 @@ window.asiaNameBases = [
     "i": 200419,
     "min": 4,
     "max": 11,
-    "d": "Ordos Mongolian (Urdus) is a Central Mongolic language spoken in Ordos City region, Inner Mongolia, China with ~100,000+ speakers. Retains archaic features.",
+    "d": "",
     "m": 0,
     "b": "Dongsheng,Jungar,Etuoke,Hanggin,Uxin,Dalad,Otog,Linhe,Dengkou,Hangginhou,Uradzhong,Uradhou,Alashanzuo,Etuokeqian,Otogqian,Wuyuan,Uradqian,Wuhai,Alashan,Ordos,Ejin Horo,Kangbashi",
     "status": "WAITING"
@@ -6574,7 +6564,7 @@ window.asiaNameBases = [
     "i": 200420,
     "min": 4,
     "max": 16,
-    "d": "Ormuri (Baraki) is an Eastern Iranian language spoken in Kaniguram, South Waziristan, Pakistan and Baraki Barak, Logar Province, Afghanistan with ~6,000 speakers. Closely related to Parachi.",
+    "d": "",
     "m": 0,
     "b": "Kaniguram,Makin,Shakai,Wana,Serwekai,Jandola,Tank,Dera Ismail Khan,Lakki Marwat,Bannu,Hangu,Kohat,Parachinar,Miranshah,Mir Ali,Razmak,Gardai,Spinkai,Sararogha,Baraki Barak",
     "status": "WAITING"
@@ -6584,7 +6574,7 @@ window.asiaNameBases = [
     "i": 200424,
     "min": 4,
     "max": 11,
-    "d": "Pahari is a Sino-Tibetan language spoken in central Nepal by the Pahari people.",
+    "d": "",
     "m": 0,
     "b": "Badikhel,Tikabhairav,Lele,Salintar,Sikharpa,Maasdada,Pyangaun,Chhampi,Jamune,Thokarpa,Khopasi,Sakhatar,Chitlang,Balami,Dadagaun,Saping,Kodku,Ramechhap",
     "status": "WAITING"
@@ -6624,7 +6614,7 @@ window.asiaNameBases = [
     "i": 200428,
     "min": 4,
     "max": 10,
-    "d": "Palula (Phalura) is an Indo-Aryan language spoken in Chitral, Pakistan.",
+    "d": "",
     "m": 0,
     "b": "Chitral,Mastuj,Boone,Ashret,Biori,Birir,Kalash,Bumboret,Rumbur,Ayun,Reshun,Barenis,Ghizin,Shogor,Drosh,Ursoon,Broze,Mirkhani,Torikhow,Kalkatak",
     "status": "WAITING"
@@ -6644,7 +6634,7 @@ window.asiaNameBases = [
     "i": 200430,
     "min": 4,
     "max": 13,
-    "d": "Pangkhua is a Kuki-Chin language spoken in Bangladesh and India.",
+    "d": "",
     "m": 0,
     "b": "Khagrachari,Rangamati,Dighinala,Panchari,Matiranga,Ramu,Jarachari,Manikchari,Lakshmichari,Mohalchari,Guimara,Bilaichari,Chandhraghona,Sajek,Ruishil,Barkal,Alutila,Bangalhalia",
     "status": "WAITING"
@@ -6784,7 +6774,7 @@ window.asiaNameBases = [
     "i": 200460,
     "min": 4,
     "max": 16,
-    "d": "Riang (Riang Lang) is a Palaungic language spoken in Myanmar.",
+    "d": "",
     "m": 0,
     "b": "Kengtung,Tachileik,Mong Hsat,Mong Nai,Mong Pan,Mong Ping,Mong Yai,Mong Hta,Mong Hka,Mong Hsu,Mong Hko,Mong Htaw,Mong Hkay,Mong Hkui,Mong Hkeng,Mong Hkong,Mong Hkye,Mong Hkyam,Mong Hkyet,Mong Hkyit",
     "status": "WAITING"
@@ -6814,7 +6804,7 @@ window.asiaNameBases = [
     "i": 200472,
     "min": 4,
     "max": 16,
-    "d": "Santa Mongol is a dialect of the Santa/Dongxiang language spoken in Gansu, China.",
+    "d": "",
     "m": 0,
     "b": "Linxia,Lanzhou,Tianshui,Dingxi,Zhangye,Wuwei,Pingliang,Qingyang,Baiyin,Jinchang,Jiuquan,Linxia County,Yongjing,Guanghe,Hezheng,Dongxiang,Jishishan",
     "status": "WAITING"
@@ -6824,7 +6814,7 @@ window.asiaNameBases = [
     "i": 200473,
     "min": 4,
     "max": 16,
-    "d": "Santa Sijiaji is a village dialect of Santa/Dongxiang spoken in Gansu, China.",
+    "d": "",
     "m": 0,
     "b": "Linxia,Lanzhou,Tianshui,Dingxi,Zhangye,Wuwei,Pingliang,Qingyang,Baiyin,Jinchang,Jiuquan,Linxia County,Yongjing,Guanghe,Hezheng,Dongxiang,Jishishan",
     "status": "WAITING"
@@ -6846,7 +6836,7 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Thua Thien Hue,Quang Nam,Binh Thuan,Dak Lak,Dak Nong,Quang Tri,Quang Binh,Da Nang,Quang Ngai,Binh Dinh,Phu Yen,Khanh Hoa,Ninh Thuan,Kon Tum,Gia Lai,Lam Dong",
+    "b": "Ban Sapuan,Attapeu,Attabou,Sanamsay,Ban Chanto,Ban Mai,Salavan,Sekong,Xayaburi,Savannakhet,Pakse,Vientiane",
     "status": "WAITING"
   },
   {
@@ -6854,7 +6844,7 @@ window.asiaNameBases = [
     "i": 200485,
     "min": 4,
     "max": 16,
-    "d": "Shilingol Khalkha is a Mongolian dialect spoken in Xilingol League, Inner Mongolia, China.",
+    "d": "",
     "m": 0,
     "b": "Xilinhot,Erenhot,Abaga,Sonid Left,Sonid Right,East Ujimqin,West Ujimqin,Taibus,Zhengxiangbai,Zhenglan,Xianghuang,Duolun,Ongniud,Harqin,Keerqin",
     "status": "WAITING"
@@ -6864,7 +6854,7 @@ window.asiaNameBases = [
     "i": 200486,
     "min": 4,
     "max": 16,
-    "d": "Shina is a Dardic language spoken in Gilgit-Baltistan, Pakistan and Jammu & Kashmir, India.",
+    "d": "",
     "m": 0,
     "b": "Gilgit,Skardu,Chilas,Astore,Gupis,Yasin,Gahkuch,Punial,Ishkoman,Yasin Valley,Gupis Valley,Chatorkhand,Shandur Pass",
     "status": "WAITING"
@@ -6874,7 +6864,7 @@ window.asiaNameBases = [
     "i": 200487,
     "min": 4,
     "max": 16,
-    "d": "Shina Kohistani is a Dardic language spoken in Kohistan, Pakistan.",
+    "d": "",
     "m": 0,
     "b": "Dasu,Jijal,Pattan,Keyal,Kandia,Gabrial,Dubair,Seo,Komila,Gayal,Shatial,Thak,Raikot",
     "status": "WAITING"
@@ -6884,7 +6874,7 @@ window.asiaNameBases = [
     "i": 200488,
     "min": 4,
     "max": 16,
-    "d": "Shira Yugur (Western Yugur) is a Mongolic language spoken in Gansu, China.",
+    "d": "",
     "m": 0,
     "b": "Sunan,Zhangye,Jiuquan,Jinta,Yumen,Dunhuang,Anxi,Aksay,Subei",
     "status": "WAITING"
@@ -6894,7 +6884,7 @@ window.asiaNameBases = [
     "i": 200489,
     "min": 4,
     "max": 16,
-    "d": "Shirongol (Eastern Yugur) is a Mongolic language spoken in Gansu, China.",
+    "d": "",
     "m": 0,
     "b": "Sunan,Zhangye,Jiuquan,Jinta,Yumen,Dunhuang,Anxi,Aksay,Subei",
     "status": "WAITING"
@@ -6904,7 +6894,7 @@ window.asiaNameBases = [
     "i": 200491,
     "min": 4,
     "max": 16,
-    "d": "Sholaga is a Dravidian language spoken by the Sholaga tribe in Karnataka/Tamil Nadu, India.",
+    "d": "",
     "m": 0,
     "b": "Mysore,Mandya,Chamarajanagar,Coimbatore,Erode,Nilgiris",
     "status": "WAITING"
@@ -6914,7 +6904,7 @@ window.asiaNameBases = [
     "i": 200492,
     "min": 4,
     "max": 16,
-    "d": "Sikkimese (Bhutia) is a Tibetic language spoken in Sikkim, India.",
+    "d": "",
     "m": 0,
     "b": "Labrang,Kabi,Tingmo,Tumlong,Phensang",
     "status": "WAITING"
@@ -6924,7 +6914,7 @@ window.asiaNameBases = [
     "i": 200494,
     "min": 4,
     "max": 16,
-    "d": "Somray is a Mon-Khmer language spoken in Cambodia.",
+    "d": "",
     "m": 0,
     "b": "Ratanakiri,Stung Treng,Kratie,Mondulkiri",
     "status": "WAITING"
@@ -6944,7 +6934,7 @@ window.asiaNameBases = [
     "i": 200496,
     "min": 4,
     "max": 16,
-    "d": "Sonid Mongol is a Mongolian dialect spoken in Sonid Banners, Inner Mongolia, China.",
+    "d": "",
     "m": 0,
     "b": "Sonid Left,Sonid Right,Erenhot,Xilinhot,Abaga,East Ujimqin,West Ujimqin,Taibus,Zhengxiangbai,Zhenglan,Xianghuang,Duolun",
     "status": "WAITING"
@@ -6970,23 +6960,13 @@ window.asiaNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "Southern Tungusic",
-    "i": 200500,
-    "min": 4,
-    "max": 16,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Khabarovsk,Vladivostok,Blagoveshchensk,Tongjiang,Komsomolsk-on-Amur,Bikin,Lesozavodsk,Dalnerechensk,Dolinsk,Yuzhno-Sakhalinsk,Ulan-Ude,Chita,Amursk,Artyom,Ussuriysk,Partizansk,Spassk-Dalny,Luchegorsk,Dalnegorsk,Kavalerovo,Vanino,Chernyshevsky,Neryungri,Tygda,Mogocha",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Sri Lankan Portuguese Creole",
     "i": 200502,
     "min": 4,
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Colombo,Hambantota,Kandy,Galle,Badulla,Nuwara Eliya,Trincomalee,Batticaloa,Kurunegala,Welimada,Beruwala,Kirinda,Matara,Tangalle,Ampara,Polonnaruwa,Anuradhapura,Jaffna,Mannar",
+    "b": "Batticaloa,Koolavaddy,Mamangam,Uppodai,Dutch Bar,Akkaraipattu,Trincomalee,Palayuttu,Puttalam,Mannar,Galewala,Wahakotte,Kallady,Kattankudy,Vellavely,Kalmunai,Arugam Bay",
     "status": "WAITING"
   },
   {
@@ -7016,8 +6996,8 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Thua Thien Hue,Quang Nam,Binh Thuan,Dak Lak,Dak Nong,Quang Tri,Quang Binh,Da Nang,Quang Ngai,Binh Dinh,Phu Yen,Khanh Hoa,Ninh Thuan,Kon Tum,Gia Lai,Lam Dong",
-    "status": "WAITING"
+    "b": "Dong Xoai,Binh Long,Loc Ninh,Phuoc Long,Chon Duc,Hon Duc,Hoa Lu,Thong Nhat,Xuan Loc,Duc Trong,Da Hoi,Da Lat,Tan Chau,Tay Ninh,O Xuy,Tan Bien,Kratie,Snuol,Stung Treng,Sekong,Buon Ma Thuot,Buon Tri,Duc Co,Hon Bao,Phuoc Binh",
+    "status": "COMPLETE"
   },
   {
     "name": "Su'",
@@ -7026,7 +7006,7 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Thua Thien Hue,Quang Nam,Binh Thuan,Dak Lak,Dak Nong,Quang Tri,Quang Binh,Da Nang,Quang Ngai,Binh Dinh,Phu Yen,Khanh Hoa,Ninh Thuan,Kon Tum,Gia Lai,Lam Dong",
+    "b": "Ban Chanto,Ban Mai,Sanamsay,Ban Sapuan,Attapeu,Attabou,Salavan,Sekong,Xayaburi,Savannakhet,Pakse,Vientiane",
     "status": "WAITING"
   },
   {
@@ -7046,7 +7026,7 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Thua Thien Hue,Quang Nam,Binh Thuan,Dak Lak,Dak Nong,Quang Tri,Quang Binh,Da Nang,Quang Ngai,Binh Dinh,Phu Yen,Khanh Hoa,Ninh Thuan,Kon Tum,Gia Lai,Lam Dong",
+    "b": "Kampong Cham,Krong Cham,Kampong Trabaek,Cheung Prey,Prey Veng,Kampong Svay,Kampong Thom,Kratie,Snuol,Stung Treng,Sekong,Banlung,Veal Veng,Chaktomuk,Sambo Prey Kuk,Thma Puok,Memot,Koh Dach",
     "status": "WAITING"
   },
   {
@@ -7076,7 +7056,7 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Sylhet,Chittagong,Cox's Bazar,Comilla,Noakhali,Feni,Lakshmipur,Brahmanbaria,Chandpur,Narayanganj,Dhaka,Mymensingh,Netrokona,Kishoreganj,Manikganj,Munshiganj,Narsingdi,Tangail,Kushtia,Jessore,Barisal,Patuakhali,Bhola,Jhalokati,Rangamati,Khagrachari,Moulvibazar,Habiganj,Sunamganj,Gazipur,Pirojpur,Bandarban",
+    "b": "Sylhet,Srihatta,Jaflong,Beanibazar,Bishwanath,Companiganj,Fenchuganj,Golapganj,Jaintiapur,Kanaighat,Balaganj,Zakiganj,Osmani Nagar,South Surma,Moulvibazar,Kulaura,Rajnagar,Barlekha,Sreemangal,Juri,Kamalganj,Sunamganj,Chhatak,Dharmapasha,Jagannathpur,Bishwamvarpur,Derai,Dakshin Sunamganj,Dowarabazar,Jamalganj,Madhyanagar,Shantiganj,Sullah,Tahirpur,Habiganj,Chunarughat,Baniachong,Bahubal,Ajmiriganj,Nabiganj,Sayestaganj,Madhabpur,Lakhai,Silchar,Hailakandi,Karimganj,Badarpur,Sonai,Hojai,Agartala,Dharmanagar,Kailashahar,Udaipur",
     "status": "COMPLETE"
   },
   {
@@ -7114,7 +7094,7 @@ window.asiaNameBases = [
     "i": 200517,
     "min": 4,
     "max": 16,
-    "d": "Tai Khang (Tay Khang) is an endangered Southwestern Tai language spoken in Bolikhamsai Province, Laos with ~1,500-200 speakers. Also known as Kang.",
+    "d": "",
     "m": 0,
     "b": "Paksan,Khamkeut,Bolikham,Bolikhamxay,Viengthong,Xam Tai,Nongkhet,Viangthong",
     "status": "WAITING"
@@ -7124,7 +7104,7 @@ window.asiaNameBases = [
     "i": 200518,
     "min": 4,
     "max": 16,
-    "d": "Tai Laing (Shan-Ni, Tai Leng) is a Southwestern Tai language spoken in Sagaing Region and Kachin State, Myanmar with ~115,000 speakers. Also known as Shan-Ni, Red Tai.",
+    "d": "",
     "m": 0,
     "b": "Homalin,Bhamo,Myitkyina,Mogaung,Mohnyin,Waingmaw,Chindwin River,Irrawaddy River,Uru River,Sagaing,Mandalay,Kachin State,Sagaing Region,Hkamti District",
     "status": "WAITING"
@@ -7134,7 +7114,7 @@ window.asiaNameBases = [
     "i": 200520,
     "min": 4,
     "max": 16,
-    "d": "Tai Lue (Lue, Dai Lue) is a Southwestern Tai language spoken in Yunnan, China; Laos; Thailand; Myanmar; Vietnam with ~550,000 speakers. Also known as Lue, Dai Lue.",
+    "d": "",
     "m": 0,
     "b": "Jinghong,Menghai,Mengla,Xishuangbanna,Luang Namtha,Muang Sing,Boten,Muang Long,Vieng Phoukha,Nalae,Chiang Rai,Chiang Mai,Mae Sai,Tachileik,Kengtung,Mong La,Mong Yang,Monglar,Mongpyin,Mongyang,Namkham,Muse,Ruili,Longchuan,Yingjiang",
     "status": "COMPLETE"
@@ -7144,7 +7124,7 @@ window.asiaNameBases = [
     "i": 200521,
     "min": 4,
     "max": 16,
-    "d": "Tai Nuea (Tai Nua, Dehong Dai, Chinese Shan) is a Southwestern Tai language spoken in Yunnan, China and Myanmar with ~540,000 speakers. Also known as Dehong Dai, Chinese Shan.",
+    "d": "",
     "m": 0,
     "b": "Ruili,Mangshi,Luxi,Longchuan,Yingjiang,Wanding,Zhefang,Mongmao,Mong Yang,Namkham,Muse,Myitkyina,Bhamo,Mogaung,Kachin State,Dehong Prefecture",
     "status": "WAITING"
@@ -7154,7 +7134,7 @@ window.asiaNameBases = [
     "i": 200522,
     "min": 4,
     "max": 16,
-    "d": "Tai Pao is a Southwestern Tai language spoken in Bolikhamsai and Khammouane Provinces, Laos with ~10,000 speakers.",
+    "d": "",
     "m": 0,
     "b": "Paksan,Khamkeut,Bolikham,Bolikhamxay,Viengthong,Thakhek,Mahaxay,Nakai,Gnommalath,Boualapha",
     "status": "WAITING"
@@ -7164,7 +7144,7 @@ window.asiaNameBases = [
     "i": 200523,
     "min": 4,
     "max": 16,
-    "d": "Tai Song (Lao Song) is a Southwestern Tai language spoken in central Thailand by descendants of Lao deportees with ~30,000 speakers.",
+    "d": "",
     "m": 0,
     "b": "Phetchabun,Phitsanulok,Loei,Chaiyaphum,Nakhon Sawan,Uthai Thani,Kamphaeng Phet,Tak,Sukhothai,Phichit,Phrae,Nan,Uttaradit,Chiang Rai,Phayao,Lampang,Lamphun,Chiang Mai",
     "status": "WAITING"
@@ -7176,7 +7156,7 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Thua Thien Hue,Quang Nam,Binh Thuan,Dak Lak,Dak Nong,Quang Tri,Quang Binh,Da Nang,Quang Ngai,Binh Dinh,Phu Yen,Khanh Hoa,Ninh Thuan,Kon Tum,Gia Lai,Lam Dong",
+    "b": "Thanh Hoa,Vinh,Cam Pho,Dien Tho,Nghi Xuan,Ha Tinh,Cua Lo,Do Luong,Dien Xa,Quang Phong,Con Cuong,Tam Diep,Nga Son,Yen Mo,Tho Xuan,Ngoc Lac,Quang Hoa,Pho Cat,Bach Ha,Vinh Bai",
     "status": "WAITING"
   },
   {
@@ -7184,7 +7164,7 @@ window.asiaNameBases = [
     "i": 200525,
     "min": 4,
     "max": 16,
-    "d": "Tai Yao (Tai Mène) is a Southwestern Tai language spoken in Houaphan Province, Laos with ~1,500 speakers.",
+    "d": "",
     "m": 0,
     "b": "Xam Neua,Vieng Xai,Houaphan,Sam Neua,Xamtay,Sop Bao,Viengthong,Xon Neua,Et,Houameuang,Sone,Add,Xiengkhor,Xamtai",
     "status": "WAITING"
@@ -7194,7 +7174,7 @@ window.asiaNameBases = [
     "i": 200526,
     "min": 4,
     "max": 16,
-    "d": "Tai Yo (Nyaw) is a Southwestern Tai language spoken in Loei, Nong Khai, and Udon Thani Provinces, Thailand; also in Laos with ~15,000 speakers.",
+    "d": "",
     "m": 0,
     "b": "Loei,Nong Khai,Udon Thani,Bueng Kan,Nong Bua Lamphu,Chiang Khan,Pho Tak,Sri Chiang Mai,Tha Li,Wang Saphung,Phu Ruea,Dan Sai,Erawan,Phu Luang,Pha Khao",
     "status": "WAITING"
@@ -7206,7 +7186,7 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Thua Thien Hue,Quang Nam,Binh Thuan,Dak Lak,Dak Nong,Quang Tri,Quang Binh,Da Nang,Quang Ngai,Binh Dinh,Phu Yen,Khanh Hoa,Ninh Thuan,Kon Tum,Gia Lai,Lam Dong",
+    "b": "Quang Nam,Tam Ky,Hoi An,Duy Xuyen,Thang Ba,Dien Ban,Que Son,Phuoc Son,Tay Son,Bac Tra,Quang Ngai,Dai Loc,Duc Pho,Ly Son,Nam Tra My,Tuan Nghiem,Tra Que,Huyen",
     "status": "WAITING"
   },
   {
@@ -7244,7 +7224,7 @@ window.asiaNameBases = [
     "i": 200533,
     "min": 4,
     "max": 16,
-    "d": "Tay is a Central Tai language spoken in northeastern Vietnam (Cao Bang, Lang Son, Bac Kan, Thai Nguyen, Ha Giang, Tuyen Quang, Quang Ninh) with ~1.63 million speakers.",
+    "d": "",
     "m": 0,
     "b": "Bac Giang,Yen Bai,Phu Tho,Hanoi,Cho Don,Phu Luong,Vo Nhai,Dai Tu,Na Ri,Trung Khanh,Thach An,Ha Lang,Trang Dinh,Van Quan,Chi Lang,Cao Loc,Binh Gia,Loc Binh,Dinh Lap,Dong Van,Meo Vac,Yen Minh,Quang Binh,Vi Xuyen,Hoang Su Phi,Xin Man,Yen Son,Son Duong,Na Hang,Chiem Hoa,Lam Binh",
     "status": "COMPLETE"
@@ -7324,7 +7304,7 @@ window.asiaNameBases = [
     "i": 200544,
     "min": 4,
     "max": 16,
-    "d": "Tichurong is a Sino-Tibetan language spoken by the Magar people in the Tichurong valley, Dolpa District, Nepal with ~2,700 speakers across 18 villages. Also known as Tichurongke, Poike, Poinke, Rongke.",
+    "d": "",
     "m": 0,
     "b": "Gumbatara,Kola,Baijibara,Banthada,Khani,Chilpara,Lawan,Tachin,Rukha,Dharapani,Byasi,Khani Gumba,Sariba,Syala,Namdel,Gufa,Nakko,Chhoredada,Byasigad,Dolpa,Karnali,Thuli Bheri River",
     "status": "WAITING"
@@ -7334,7 +7314,7 @@ window.asiaNameBases = [
     "i": 200545,
     "min": 4,
     "max": 16,
-    "d": "Toda is a Dravidian language spoken by the Toda people in the Nilgiri Hills, Tamil Nadu, India with ~1,600 speakers. Critically endangered, ~60 munds (villages).",
+    "d": "",
     "m": 0,
     "b": "Ootacamund,Udhagamandalam,Kotagiri,Coonoor,Wellington,Ketti,Sholur,Hulikal,Masinagudi,Gudalur,Pandalur,Needle Rock,Mund,Doddabetta,Avalanche,Emerald Lake,Pykara,Ooty Lake,Kalhatty,Frog Hill",
     "status": "WAITING"
@@ -7344,7 +7324,7 @@ window.asiaNameBases = [
     "i": 200548,
     "min": 4,
     "max": 16,
-    "d": "Torwali is a Dardic Indo-Aryan language spoken in the Swat Valley, Khyber Pakhtunkhwa, Pakistan with ~80,000-130,000 speakers. Also known as Bahrain Kohistani.",
+    "d": "",
     "m": 0,
     "b": "Bahrain,Chail,Madyan,Kalam,Bishigram,Asret,Peshmal,Swat River,Swat Valley,Swat Kohistan,Khyber Pakhtunkhwa,Swat District,Upper Swat,Chail Valley,Bahrain Tehsil,Kalam Tehsil",
     "status": "WAITING"
@@ -7354,7 +7334,7 @@ window.asiaNameBases = [
     "i": 200550,
     "min": 3,
     "max": 14,
-    "d": "Tripuri (Kokborok) is a Tibeto-Burman language spoken in Tripura, India with ~1 million speakers. Official language of Tripura state.",
+    "d": "",
     "m": 0,
     "b": "Agartala,Udaipur,Kailasahar,Dharmanagar,Kamalpur,Ambul,Bishramganj,Sonamura,Melaghar,Santirbazar,Belonia,Amarpur,Gandacherra,Longtharai Valley,Manu,Kanchanpur,Panisagar,Dhamcherra,Dasda,Jampui Hill,Kanchancherra,Chawmanu,Raishyabari,Dumburnagar,Damcharra,Karbook,Ompi,Ampinagar,Tulashikhar,Mohanpur,Hezamara,Jirania,Mandwi,Padmabil,Lefunga,Bakhrabad,Old Agartala,West Tripura,South Tripura,North Tripura,Dhalai,Gomati,Khowai,Sepahijala,Unakoti",
     "status": "COMPLETE"
@@ -7378,16 +7358,6 @@ window.asiaNameBases = [
     "m": 0,
     "b": "Khabarovsk,Vladivostok,Blagoveshchensk,Tongjiang,Komsomolsk-on-Amur,Bikin,Lesozavodsk,Dalnerechensk,Dolinsk,Yuzhno-Sakhalinsk,Ulan-Ude,Chita,Amursk,Artyom,Ussuriysk,Partizansk,Spassk-Dalny,Luchegorsk,Dalnegorsk,Kavalerovo,Vanino,Chernyshevsky,Neryungri,Tygda,Mogocha",
     "status": "COMPLETE"
-  },
-  {
-    "name": "Udegheic",
-    "i": 200556,
-    "min": 4,
-    "max": 16,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Khabarovsk,Vladivostok,Blagoveshchensk,Tongjiang,Komsomolsk-on-Amur,Bikin,Lesozavodsk,Dalnerechensk,Dolinsk,Yuzhno-Sakhalinsk,Chita,Amursk,Artyom,Ussuriysk,Partizansk,Spassk-Dalny,Luchegorsk,Dalnegorsk,Kavalerovo,Vanino,Chernyshevsky,Tygda,Mogocha",
-    "status": "WAITING"
   },
   {
     "name": "Uilta",
@@ -7424,7 +7394,7 @@ window.asiaNameBases = [
     "i": 200560,
     "min": 4,
     "max": 16,
-    "d": "Ushojo is an Indo-Aryan Dardic language spoken in Kohistan and Swat districts, Khyber Pakhtunkhwa, Pakistan with ~2,000-500 speakers. Endangered.",
+    "d": "",
     "m": 0,
     "b": "Peshmal,Bahrain,Madyan,Kalam,Asret,Chail,Swat Kohistan,Khyber Pakhtunkhwa,Kohistan District,Swat District,Upper Swat",
     "status": "WAITING"
@@ -7524,7 +7494,7 @@ window.asiaNameBases = [
     "i": 200570,
     "min": 4,
     "max": 16,
-    "d": "Vishavan (Malankudi/Malayan) is a critically endangered Dravidian language spoken in central Kerala, India with ~150 speakers. Spoken in Idamalayar (Ernakulam) and Vazhachal (Thrissur) regions.",
+    "d": "",
     "m": 0,
     "b": "Idamalayar,Parana,Perumuzhi,Vazhachal,Ittyani,Chalakudi River,Ernakulam,Thrissur,Moovatupuzha,Idukki",
     "status": "WAITING"
@@ -7564,7 +7534,7 @@ window.asiaNameBases = [
     "i": 200574,
     "min": 4,
     "max": 16,
-    "d": "Wambule is a Western Kiranti language spoken in eastern Nepal (Okhaldhunga, Khotang, Udayapur, Sindhuli districts) with ~14,000 speakers.",
+    "d": "",
     "m": 0,
     "b": "Okhaldhunga,Khotang,Udayapur,Sindhuli,Khanbu,Kui-Bhir,Sunkoshi,Dudhkosi,Hilepane,Wamdyal,Jhappali,Sunari,Morang,Panbari",
     "status": "WAITING"
@@ -7574,7 +7544,7 @@ window.asiaNameBases = [
     "i": 200575,
     "min": 4,
     "max": 16,
-    "d": "Wayanad Chetti (Chetti) is an endangered Southern Dravidian language spoken in Wayanad district, Kerala, India with ~5,000 speakers.",
+    "d": "",
     "m": 0,
     "b": "Chekadi,Appapara,Panavalli,Pulpalli,Thirunelli,Tholpetti,Kattikkulam,Mananthavady,Sulthan Bathery,Vythiri,Meppadi,Muttil,Panamaram,Padinharethara,Poothadi,Noolpuzha,Mullankolly",
     "status": "WAITING"
@@ -7594,7 +7564,7 @@ window.asiaNameBases = [
     "i": 200578,
     "min": 4,
     "max": 16,
-    "d": "Yadgha (Yidgha) is an Eastern Iranian Pamiri language spoken in the Lotkoh Valley, Chitral District, Khyber Pakhtunkhwa, Pakistan with ~5,000-6,000 speakers. Closely related to Munji.",
+    "d": "",
     "m": 0,
     "b": "Lutkuh Valley,Chitral,Baroghil,Garam Chashma,Yarkhun,Mastuj,Burbunu,Gobar,Munji,Khowar,Parwak,Lotkoh Tehsil,Upper Chitral",
     "status": "WAITING"
@@ -7634,7 +7604,7 @@ window.asiaNameBases = [
     "i": 200585,
     "min": 4,
     "max": 16,
-    "d": "Zandui (Qiandui) is a Hlai language (Qi dialect) spoken in Hainan, China with ~29,000 speakers. Part of the Kra-Dai language family.",
+    "d": "",
     "m": 0,
     "b": "Qiongzhong,Baisha,Changjiang,Dongfang,Ledong,Wuzhishan,Sanya,Lingshui,Baoting,Wanning,Tuncheng,Haikou,Chengmai,Danzhou,Lingao,Wenchang,Dingan",
     "status": "WAITING"
@@ -7644,7 +7614,7 @@ window.asiaNameBases = [
     "i": 200659,
     "min": 3,
     "max": 12,
-    "d": "Sarikoli (Sariqoli/Selekur) is an Eastern Iranian Pamiri language spoken in Tashkurgan Tajik Autonomous County, Xinjiang, China with ~16,000-35,000 speakers. Also known as Tashkorghani.",
+    "d": "",
     "m": 0,
     "b": "Tashkurgan,Taxkorgan,Kashgar,Yarkand,Hotan,Aksu,Korla,Kuqa,Alar,Tumxuk,Wujiaqu,Beitun,Shihezi,Changji,Urumqi,Ili,Karamay,Altay,Tacheng,Bole,Alashankou,Horgos,Jinghe,Manas,Hutubi,Fukang,Qitai,Jimsar,Qingtongxia,Wuzhong,Yinchuan",
     "status": "COMPLETE"
@@ -7654,7 +7624,7 @@ window.asiaNameBases = [
     "i": 200661,
     "min": 3,
     "max": 12,
-    "d": "Wakhi is an Eastern Iranian Pamiri language spoken in the Wakhan Corridor (Afghanistan), Gorno-Badakhshan (Tajikistan), Gilgit-Baltistan (Pakistan), and Taxkorgan (China) with ~58,000 speakers. Also known as Khik, Wakhani, Vakhan.",
+    "d": "",
     "m": 0,
     "b": "Wakhan,Ishkashim,Putur,Khandud,Qala Panja,Zong,Sharshar,Baharak,Murghab,Gojal,Hunza,Gulmit,Passu,Hussaini,Borith,Gulkin,Sost,Chipursan,Shingshal,Ishkoman,Yasin,Gupis,Yarkhun,Darkot,Baroghil,Imit,Karambar,Taxkorgan,Kashgar,Yarkand",
     "status": "COMPLETE"
@@ -7664,7 +7634,7 @@ window.asiaNameBases = [
     "i": 200662,
     "min": 4,
     "max": 11,
-    "d": "Big Flowery Miao (A-Hmao) is a Hmongic language spoken in northeast Yunnan and western Guizhou, China with ~300,000 speakers. Also known as Large Flowery Miao, Hua Miao, Northeast Yunnan Miao. The Pollard script was designed for this language.",
+    "d": "",
     "m": 0,
     "b": "Zhaotong,Kunming,Chuxiong,Wuding,Lujing,Dongchuan,Huaqing,Xundian,Fumin,Luquan,Anning,Jinning,Chenggong,Yiliang,Daguan,Suijiang,Zhenxiong,Weixin,Shuifu,Qiaojia,Yongshan,Huize,Xuanwei,Luliang,Shizong,Luoping",
     "status": "COMPLETE"
@@ -7684,7 +7654,7 @@ window.asiaNameBases = [
     "i": 200664,
     "min": 4,
     "max": 11,
-    "d": "Gyeonggi/Seoul Korean is the standard dialect of Korean spoken in Seoul, Incheon, and Gyeonggi Province, South Korea.",
+    "d": "",
     "m": 0,
     "b": "Seoul,Incheon,Suwon,Seongnam,Goyang,Yongin,Bucheon,Anyang,Ansan,Namyangju,Uijeongbu,Gwangmyeong,Siheung,Gunpo,Osan,Uiwang,Suji,Pangyo,Bundang,Gwangju,Ichon,Yeoju,Gapyeong,Yeoncheon,Pocheon,Dongducheon,Yangju,Guri",
     "status": "COMPLETE"
@@ -7694,7 +7664,7 @@ window.asiaNameBases = [
     "i": 200665,
     "min": 4,
     "max": 11,
-    "d": "Gyeongsang Korean is a dialect of Korean spoken in Busan, Daegu, Ulsan, and North/South Gyeongsang Provinces, South Korea.",
+    "d": "",
     "m": 0,
     "b": "Busan,Daegu,Ulsan,Pohang,Gyeongju,Andong,Gimcheon,Gyeongsan,Miryang,Chilgok,Uiseong,Cheongsong,Yeongdeok,Uljin,Bonghwa,Changnyeong,Haman,Uiryeong,Changwon,Gimhae,Jinju,Sacheon,Tongyeong,Geoje,Namhae,Hadong,Sancheong,Hapcheon,Goseong",
     "status": "COMPLETE"
@@ -7704,7 +7674,7 @@ window.asiaNameBases = [
     "i": 200666,
     "min": 4,
     "max": 11,
-    "d": "Hamgyŏng Korean is a dialect of Korean spoken in North Hamgyŏng and South Hamgyŏng Provinces, North Korea.",
+    "d": "",
     "m": 0,
     "b": "Hamhung,Chongjin,Kimchaek,Hoeryong,Musan,Onyang,Kilju,Myongchon,Puryong,Orang,Rason,Rajin,Sonbong,Sinpo,Tanchon,Hungnam,Yonggwang,Sinhung,Kowon,Changjin,Chongpyong",
     "status": "WAITING"
@@ -7714,7 +7684,7 @@ window.asiaNameBases = [
     "i": 200668,
     "min": 4,
     "max": 12,
-    "d": "Hm Nai (Hmong Nai) is a Hmongic language spoken in Guizhou and Guangxi, China with ~2,000 speakers.",
+    "d": "",
     "m": 0,
     "b": "Rongjiang,Congjiang,Leishan,Taijiang,Huangping,Shibing,Sandu,Pingtang,Luodian,Huishui,Wengan,Longhua,Nanzhou,Dajin,Liuxiang,Mentou,Gubu,Chang'e",
     "status": "WAITING"
@@ -7724,7 +7694,7 @@ window.asiaNameBases = [
     "i": 200671,
     "min": 4,
     "max": 11,
-    "d": "Huishui Miao is a Hmongic language spoken in Huishui, Changshun, Longli, Guiding, and surrounding counties in Guizhou, China.",
+    "d": "",
     "m": 0,
     "b": "Huishui,Wangyou,Lushan,Duanshan,Yashui,Baijin,Gangdu,Xiantang,Haohuahong,Changshun,Longli,Guiding,Wengan,Jiarong,Sandu,Bihai,Gaopo,Jiading,Shanping,Yunding,Mengjiang,Lianjiang,Dulong,Kematang,Luanriao,Luodian",
     "status": "COMPLETE"
@@ -7734,7 +7704,7 @@ window.asiaNameBases = [
     "i": 200672,
     "min": 4,
     "max": 11,
-    "d": "Hwanghae Korean is a dialect of Korean spoken in North and South Hwanghae Provinces, North Korea.",
+    "d": "",
     "m": 0,
     "b": "Haeju,Sariwon,Anak,Unnyul,Jangyon,Songhwa,Samchon,Ryongyon,Kangryong,Paechon,Yonan,Changyon,Sinwon",
     "status": "WAITING"
@@ -7744,7 +7714,7 @@ window.asiaNameBases = [
     "i": 200673,
     "min": 4,
     "max": 11,
-    "d": "Jeju (Jejueo) is a Koreanic language spoken on Jeju Island, South Korea. Considered a separate language by some linguists due to low mutual intelligibility with mainland Korean.",
+    "d": "",
     "m": 0,
     "b": "Seogwipo,Aewol,Gujwa,Hangyeong,Daejung,Andeok,Pyeongdae,Seongsan,Sehwa,Gosi,Hallim,Jungmun,Jungang,Ora,Sanghyo,Hwasun,Saebyeol,Wimi",
     "status": "WAITING"
@@ -7754,7 +7724,7 @@ window.asiaNameBases = [
     "i": 200674,
     "min": 4,
     "max": 11,
-    "d": "Jeolla Korean is a dialect of Korean spoken in Gwangju and North/South Jeolla Provinces, South Korea.",
+    "d": "",
     "m": 0,
     "b": "Gwangju,Jeonju,Iksan,Gunsan,Namyangju,Mokpo,Yeosu,Suncheon,Naju,Jangheung,Wando,Jindo,Haenam,Yeonggwang,Hampyeong,Muan,Sinan,Gimje,Sunchang,Imsil,Jinan,Jangsu",
     "status": "WAITING"
@@ -7764,7 +7734,7 @@ window.asiaNameBases = [
     "i": 200675,
     "min": 4,
     "max": 11,
-    "d": "Jiaoliao Mandarin is a dialect of Mandarin Chinese spoken on the Jiaodong Peninsula (Qingdao, Yantai, Weihai) and Liaodong Peninsula (Dalian, Yingkou) in China.",
+    "d": "",
     "m": 0,
     "b": "Qingdao,Yantai,Weihai,Rongcheng,Laizhou,Penglai,Longkou,Zhaoyuan,Qixia,Haicheng,Dalian,Yingkou,Anshan,Fushun,Benxi,Dandong,Fengcheng,Donggang,Zhuanghe,Wafangdian,Pulandian,Changhai",
     "status": "WAITING"
@@ -7774,7 +7744,7 @@ window.asiaNameBases = [
     "i": 200676,
     "min": 4,
     "max": 12,
-    "d": "Jilu Mandarin is a dialect of Mandarin Chinese spoken in Hebei (Ji), Beijing, Tianjin, and western Shandong (Lu) in China.",
+    "d": "",
     "m": 0,
     "b": "Beijing,Tianjin,Shijiazhuang,Baoding,Tangshan,Qinhuangdao,Chengde,Zhangjiakou,Langfang,Cangzhou,Hengshui,Xingtai,Handan,Dezhou,Binzhou,Liaocheng,Heze,Jining,Zibo,Weifang,Qingzhou,Changle,Anqiu,Zhucheng,Linqu",
     "status": "COMPLETE"
@@ -7824,7 +7794,7 @@ window.asiaNameBases = [
     "i": 200684,
     "min": 4,
     "max": 11,
-    "d": "Modern Korean (South Korean standard) is the standard variety of Korean spoken in South Korea, based on the Seoul dialect.",
+    "d": "",
     "m": 0,
     "b": "Seoul,Busan,Daegu,Incheon,Daejeon,Ulsan,Suwon,Changwon,Goyang,Yongin,Bucheon,Cheongju,Ansan,Jeonju,Cheonan,Namyangju,Anyang,Gimhae,Hwaseong,Pohang,Gimpo,Jeju,Uijeongbu",
     "status": "WAITING"
@@ -7834,7 +7804,7 @@ window.asiaNameBases = [
     "i": 200685,
     "min": 4,
     "max": 11,
-    "d": "Munhwaŏ (Cultured Language) is the standard variety of Korean spoken in North Korea, based on the Pyongyang dialect.",
+    "d": "",
     "m": 0,
     "b": "Pyongyang,Hamhung,Chongjin,Nampo,Wonsan,Kaesong,Sinuiju,Hyesan,Kanggye,Kimchaek,Tanchon,Huichon,Kusong,Sariwon,Pyongsong,Anju,Kangso,Sunchon,Unsan",
     "status": "WAITING"
@@ -7844,7 +7814,7 @@ window.asiaNameBases = [
     "i": 200686,
     "min": 4,
     "max": 11,
-    "d": "Ná-Meo is a Hmongic language spoken in northern Vietnam and southern China with ~2,000 speakers. Also known as Mieu, Hm Nai.",
+    "d": "",
     "m": 0,
     "b": "Yen Minh,Hoang Su Phi,Xin Man,Vi Xuyen,Bac Me,Bac Quang",
     "status": "WAITING"
@@ -7854,7 +7824,7 @@ window.asiaNameBases = [
     "i": 200687,
     "min": 4,
     "max": 11,
-    "d": "Nao Klao is a Bunu (Yao) language spoken in Guangxi, China.",
+    "d": "",
     "m": 0,
     "b": "Leye,Lingyun,Fengshan,Baise,Tianyang,Pingguo,Debao,Jingxi,Napo",
     "status": "WAITING"
@@ -7864,7 +7834,7 @@ window.asiaNameBases = [
     "i": 200690,
     "min": 4,
     "max": 11,
-    "d": "Numao is a Bunu (Yao) language spoken in Guangxi, China.",
+    "d": "",
     "m": 0,
     "b": "Leye,Lingyun,Fengshan,Baise,Tianyang,Pingguo,Debao,Jingxi,Napo",
     "status": "WAITING"
@@ -7904,7 +7874,7 @@ window.asiaNameBases = [
     "i": 200699,
     "min": 4,
     "max": 11,
-    "d": "Pu–Xian Min (Puxian Min) is a dialect of Min Chinese spoken in Putian and Xianyou, Fujian, China.",
+    "d": "",
     "m": 0,
     "b": "Putian,Xianyou,Fuzhou,Quanzhou,Zhangzhou,Sanming,Nanping,Ningde,Shanghang,Wuping,Liancheng,Changting,Zhangping",
     "status": "WAITING"
@@ -7914,7 +7884,7 @@ window.asiaNameBases = [
     "i": 200702,
     "min": 4,
     "max": 11,
-    "d": "Pyongan Korean is a dialect of Korean spoken in Pyongyang and North/South Pyongan Provinces, North Korea.",
+    "d": "",
     "m": 0,
     "b": "Pyongyang,Anju,Kangso,Sunchon,Unsan,Tokchon,Sinuiju,Chongju,Uiju,Sakju,Changsong,Pyoktong,Chason,Wiwon,Manpo,Huchang,Huichon,Chasong",
     "status": "WAITING"
@@ -7944,7 +7914,7 @@ window.asiaNameBases = [
     "i": 200705,
     "min": 4,
     "max": 11,
-    "d": "Shanghainese (Shanghai dialect) is a dialect of Wu Chinese spoken in Shanghai and surrounding areas, China.",
+    "d": "",
     "m": 0,
     "b": "Shanghai,Changshu,Zhangjiagang,Taicang,Kunshan,Suzhou,Wuxi,Changzhou,Zhenjiang,Nanjing,Nantong,Yangzhou,Taizhou,Yancheng,Hangzhou,Ningbo,Wenzhou,Jiaxing,Huzhou,Shaoxing,Zhoushan",
     "status": "WAITING"
@@ -7954,7 +7924,7 @@ window.asiaNameBases = [
     "i": 200706,
     "min": 4,
     "max": 11,
-    "d": "Shao–Jiang Min (Shaojiang Min) is a dialect of Min Chinese spoken in Shaowu and Jiangle, Fujian, China.",
+    "d": "",
     "m": 0,
     "b": "Shaowu,Jiangle,Guangze,Wuyishan,Jianyang,Jianou,Songxi,Zhenghe,Taining,Jianning,Nanping,Fuzhou,Sanming,Longyan,Zhangzhou,Quanzhou,Putian,Ningde",
     "status": "WAITING"
@@ -7984,7 +7954,7 @@ window.asiaNameBases = [
     "i": 200712,
     "min": 4,
     "max": 11,
-    "d": "Southern Min (Minnan) is a branch of Min Chinese spoken in southern Fujian, eastern Guangdong, Hainan, Taiwan, and Southeast Asia.",
+    "d": "",
     "m": 0,
     "b": "Xiamen,Quanzhou,Zhangzhou,Longyan,Sanming,Nanping,Ningde,Shantou,Chaozhou,Jieyang,Meizhou,Shenzhen,Hong Kong,Macau,Taipei,Kaohsiung,Tainan,Taichung,Hsinchu,Keelung,Chiayi,Changhua,Pingtung,Hualien,Taitung,Yilan,Penghu,Kinmen,Matsu",
     "status": "COMPLETE"
@@ -7994,7 +7964,7 @@ window.asiaNameBases = [
     "i": 200713,
     "min": 4,
     "max": 12,
-    "d": "Suzhounese (Suzhou dialect) is a dialect of Wu Chinese spoken in Suzhou, Jiangsu, China.",
+    "d": "",
     "m": 0,
     "b": "Suzhou,Wuxi,Changzhou,Zhenjiang,Nanjing,Shanghai,Kunshan,Taicang,Zhangjiagang,Changshu,Mudu,Luzhi,Weitang,Zhouzhuang,Tongli,Jinxi,Zhujiajiao,Qianjiang",
     "status": "WAITING"
@@ -8004,7 +7974,7 @@ window.asiaNameBases = [
     "i": 200714,
     "min": 4,
     "max": 11,
-    "d": "Taiwanese Mandarin (Guoyu) is the standard variety of Mandarin Chinese spoken in Taiwan.",
+    "d": "",
     "m": 0,
     "b": "Taipei,New Taipei,Taoyuan,Taichung,Tainan,Kaohsiung,Keelung,Hsinchu,Chiayi,Changhua,Pingtung,Hualien,Taitung,Yilan,Miaoli,Nantou,Yunlin,Penghu,Kinmen,Matsu",
     "status": "WAITING"
@@ -8014,7 +7984,7 @@ window.asiaNameBases = [
     "i": 200715,
     "min": 4,
     "max": 11,
-    "d": "Wenzhounese (Wenzhou dialect) is a dialect of Wu Chinese spoken in Wenzhou, Zhejiang, China.",
+    "d": "",
     "m": 0,
     "b": "Wenzhou,Lishui,Quzhou,Jinhua,Jiaxing,Huzhou,Shaoxing,Ningbo,Hangzhou,Shanghai,Yuhuan,Wenling,Yandang,Qiaotou,Longwan,Ouhai,Lucheng",
     "status": "WAITING"
@@ -8024,7 +7994,7 @@ window.asiaNameBases = [
     "i": 200716,
     "min": 4,
     "max": 13,
-    "d": "Xixiu Miao is a Hmongic language spoken in Guizhou, China.",
+    "d": "",
     "m": 0,
     "b": "Xixiu,Pingba,Zhenning,Guanling,Ziyun,Wangmo,Zunyi,Kaili,Duyun,Fuquan,Rongjiang,Congjiang,Leishan,Taijiang,Huangping,Shibing,Sandu,Pingtang,Luodian,Huishui,Wengan,Xifeng,Xiuwen,Kaiyang,Qingzhen,Zhijin,Nayong,Weining,Dafang,Liupanshui,Tongren,Bijie",
     "status": "COMPLETE"
@@ -8034,7 +8004,7 @@ window.asiaNameBases = [
     "i": 200717,
     "min": 4,
     "max": 11,
-    "d": "Xong (Qo Xiong) is a Hmongic language spoken in Hunan, China.",
+    "d": "",
     "m": 0,
     "b": "Huayuan,Zhangjiajie,Fenghuang,Luxi,Jishou,Baojing",
     "status": "WAITING"
@@ -8044,7 +8014,7 @@ window.asiaNameBases = [
     "i": 200718,
     "min": 4,
     "max": 11,
-    "d": "Yangchun Pai Yao is a Bunu (Yao) language spoken in Guangdong, China.",
+    "d": "",
     "m": 0,
     "b": "Yangjiang,Guangzhou,Foshan,Zhaoqing",
     "status": "WAITING"
@@ -8064,7 +8034,7 @@ window.asiaNameBases = [
     "i": 200721,
     "min": 4,
     "max": 11,
-    "d": "Yeongdong Korean is a dialect of Korean spoken in Gangwon Province (Yeongdong region), South Korea.",
+    "d": "",
     "m": 0,
     "b": "Gangneung,Sokcho,Donghae,Samcheok,Taebaek,Jeongseon,Pyeongchang,Hongcheon,Hoengseong,Wonju,Inje,Goseong,Yangyang",
     "status": "WAITING"
@@ -8074,7 +8044,7 @@ window.asiaNameBases = [
     "i": 200722,
     "min": 4,
     "max": 11,
-    "d": "Yeongseo Korean is a dialect of Korean spoken in Gangwon Province (Yeongseo region), South Korea.",
+    "d": "",
     "m": 0,
     "b": "Wonju,Cheorwon,Hwacheon,Chuncheon,Hongcheon,Hoengseong,Pyeongchang,Jeongseon,Inje,Taebaek",
     "status": "WAITING"
@@ -8084,7 +8054,7 @@ window.asiaNameBases = [
     "i": 200723,
     "min": 4,
     "max": 11,
-    "d": "Younian is a Kam-Sui language spoken in Guizhou, China.",
+    "d": "",
     "m": 0,
     "b": "Liping,Zunyi,Anshun,Kaili,Duyun,Fuquan,Leishan,Taijiang,Huangping,Shibing,Sandu,Pingtang,Luodian,Huishui,Wengan,Xifeng,Xiuwen,Kaiyang,Qingzhen,Zhijin,Nayong,Weining,Dafang,Liupanshui,Tongren,Bijie",
     "status": "COMPLETE"
@@ -8094,7 +8064,7 @@ window.asiaNameBases = [
     "i": 200725,
     "min": 4,
     "max": 11,
-    "d": "Yukjin Korean is a dialect of Korean spoken in the Yukjin region of North Hamgyŏng Province, North Korea (and by descendants in China/Russia).",
+    "d": "",
     "m": 0,
     "b": "Hoeryong,Onyang,Kilju,Myongchon,Puryong,Orang,Musan,Chongjin,Kimchaek,Rason,Rajin,Sonbong,Hunchun,Wangqing,Longjing,Yanji,Tumen,Helong",
     "status": "WAITING"
@@ -8104,7 +8074,7 @@ window.asiaNameBases = [
     "i": 200726,
     "min": 4,
     "max": 11,
-    "d": "Zainichi Korean is a variety of Korean spoken by the Zainichi Korean community in Japan.",
+    "d": "",
     "m": 0,
     "b": "Tokyo,Osaka,Nagoya,Kyoto,Kobe,Yokohama,Fukuoka,Sapporo,Sendai,Hiroshima,Kitakyushu,Chiba,Saitama,Kawasaki,Sagamihara,Niigata,Shizuoka,Hamamatsu,Kagoshima,Okinawa",
     "status": "WAITING"
@@ -8140,16 +8110,6 @@ window.asiaNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "Western Hilali dialects",
-    "i": 200921,
-    "min": 3,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Casablanca,Rabat,Marrakech,Fes,Tangier,Algiers,Constantine,Tunis,Sfax,Sousse,Tripoli,Benghazi,Misrata,Agadir,Oujda,Tlemcen,Annaba,Gabes,Tafilalt,Draa,Haha,Chiadma,Doukkala,Gharb,Rif,Kroumirie,Aurès",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Western Middle Aramaic",
     "i": 200922,
     "min": 4,
@@ -8160,23 +8120,13 @@ window.asiaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Western pre-Hilali dialects",
-    "i": 200923,
-    "min": 3,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Casablanca,Rabat,Marrakech,Fes,Tangier,Algiers,Constantine,Tunis,Sfax,Sousse,Tripoli,Benghazi,Misrata,Agadir,Oujda,Tlemcen,Annaba,Gabes,Tafilalt,Draa,Haha,Chiadma,Doukkala,Gharb,Rif,Kroumirie,Aurès",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Yafi'i Arabic",
     "i": 200924,
     "min": 3,
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Sana'a,Aden,Taiz,Hodeidah,Ibb,Dhamar,Al-Mukalla,Seiyun,Lahij,Sa'dah,Al Bayda,Ataq,Al Ghaydah,Mahra,Socotra,Al-Mahwit,Hajja,Raymah,Al-Hudaydah,Zabid,Marib,Shabwa,Al-Jawf,Hadhramaut",
+    "b": "Yafa'a,Lahij,Hawl,Al Hawtah,Al Had,Al Madaribah,Al Arah,Al Maflahy,Al Maqatirah,Al Milah,Al Musaymir,Al Qabbaytah,Habil Jabr,Halimayn,Radfan,Tuban,Yahr,Zirigibar,Tur Al Bahah,Al Qarah,Al Mahjarah",
     "status": "WAITING"
   },
   {
@@ -8326,7 +8276,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Ziro,Roing,Tezu,Anini,Daporijo,Seppa,Mechuka,Monigong,Hunli,Hayuliang,Changlang,Khonsa,Namsai,Lekang,Chowkham,Wakro,Bordumsa,Miao,Deomali,Aalo,Itanagar,Pasighat,Jairampur",
+    "b": "Ziro,Aalo,Seppa,Mechuka,Namsai,Khonsa,Changlang,Monigong,Hunli,Hayuliang,Anini,Itanagar,Daporijo,Yingkyong,Bomdila,Tawang,Kalaktang,Rupa,Lengri",
     "status": "WAITING"
   },
   {
@@ -8424,7 +8374,7 @@ window.asiaNameBases = [
     "i": 201292,
     "min": 4,
     "max": 11,
-    "d": "Rung is a Sino-Tibetan language spoken in Sichuan, China.",
+    "d": "",
     "m": 0,
     "b": "Tu'e,Bijifeng,Wupijiang,Guoli,Xiaocun,Jiangmo,Lanping,Lushui,Nujiang,Yunnan",
     "status": "WAITING"
@@ -8474,7 +8424,7 @@ window.asiaNameBases = [
     "i": 201300,
     "min": 4,
     "max": 11,
-    "d": "Yitdut Bai is a Bai dialect spoken in Yunnan, China.",
+    "d": "",
     "m": 0,
     "b": "Yongping,Yangbi,Midu,Xiangyun,Shuanglang,Lanping,Liuku,Pianma,Longling,Fengqing,Dali,Xiaguan,Eryuan,Binchuan,Yunlong,Weishan,Nanjian,Heqing,Jianchuan,Lijiang,Shangri-La,Deqin,Fugong,Gongshan,Nujiang,Lushui,Tengchong,Changning",
     "status": "COMPLETE"
@@ -8486,7 +8436,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Ziro,Roing,Tezu,Anini,Daporijo,Seppa,Mechuka,Monigong,Hunli,Hayuliang,Changlang,Khonsa,Namsai,Lekang,Chowkham,Wakro,Bordumsa,Miao,Deomali,Aalo,Itanagar,Pasighat,Jairampur",
+    "b": "Tezu,Roing,Chowkham,Namsai,Wakro,Lekang,Anini,Walong,Kibithoo,Lohit,Sunpanhara,Zlawng,Nartu",
     "status": "WAITING"
   },
   {
@@ -8494,7 +8444,7 @@ window.asiaNameBases = [
     "i": 201303,
     "min": 4,
     "max": 11,
-    "d": "Zho is a dialect of Yi (Nuosu) spoken in Sichuan, China.",
+    "d": "",
     "m": 0,
     "b": "Jiangchen,Beiquba,Xiaoping,Zhangzidan,Guabie,Boao,Lieao,Ninglang,Yanbian,Tibet,Mangkang",
     "status": "WAITING"
@@ -8534,7 +8484,7 @@ window.asiaNameBases = [
     "i": 201348,
     "min": 4,
     "max": 15,
-    "d": "Kasiguranin (Kasiguran) is a Central Philippine language spoken in Aurora Province, Philippines.",
+    "d": "",
     "m": 0,
     "b": "Baler,Casiguran,Dilasag,Dinalungan,Dipaculao,Maria Aurora,San Luis,Alabat,General Nakar,Infanta,Real,Polillo,Jomalig,Patnanungan,Burdeos,Panukulan",
     "status": "WAITING"
@@ -8544,7 +8494,7 @@ window.asiaNameBases = [
     "i": 201349,
     "min": 3,
     "max": 19,
-    "d": "Kayah (Karenni) is a Karen language spoken in Kayah State, Myanmar.",
+    "d": "",
     "m": 0,
     "b": "Loikaw,Demoso,Shadaw,Hpruso,Bawlake,Hpasaung,Mese,Panlong,Maungdaw,Buthidaung,Rathedaung,Sittwe,Pauktaw,Myebon,Minbya,Mrauk-U,Kyauktaw,Palawa",
     "status": "WAITING"
@@ -8604,7 +8554,7 @@ window.asiaNameBases = [
     "i": 201357,
     "min": 4,
     "max": 15,
-    "d": "Waray is a Central Philippine language spoken in Samar, Leyte, and Biliran, Philippines.",
+    "d": "",
     "m": 0,
     "b": "Tacloban,Ormoc,Catbalogan,Catarman,Maasin,Baybay,Borongan,Taft,Laoang,Allen,Capul,San Jose,Lavezares,Rosario,Lope de Vega,Victoria,Gamay,Las Navas,Mapanas,Palapag,San Roque,Santo Nino,Silvino Lobos,San Policarpo,Arteche,Oras,Dolores,Can-avid,Mercedes,Jipapad,San Julian,Suluan,Gen. MacArthur,Hernani,Quinapondan,Balangiga,Lawaan,Pinabacdao,Calbiga,San Sebastian,Santa Margarita,Santa Rita",
     "status": "COMPLETE"
@@ -8614,7 +8564,7 @@ window.asiaNameBases = [
     "i": 2603,
     "min": 4,
     "max": 11,
-    "d": "nic-GH",
+    "d": "",
     "m": 0,
     "b": "Iran,Afghanistan,Tajikistan,Uzbekistan,Turkmenistan,Russia,Dagestan,Bahrain,Oman,Yemen,UAE,Pakistan,India,Dari,Tajik,Farsi,Tehran,Kabul,Dushanbe,Bukhara,Samarqand,Herat,Mazar-i-Sharif,Kandahar,Qandahar,Isfahan,Shiraz,Tabriz,Mashhad,Qom,Qazvin,Karaj,Rasht,Orumiyeh,Kermanshah,Hamadan,Arak,Yazd,Zanjan,Ardabil,Bushehr,Bandar Abbas,Kerman,Sari,Gorgan,Qaem Shahr,Saveh,Birjand,Yasuj,Shahr-e Kord,Bojnurd,Zabol,Bam,Zahedan,Sanandaj,Khorramabad,Dezful,Masjed Soleiman,Bandar Mahshahr,Omidiyeh,Abadan,Khorramshahr",
     "status": "COMPLETE"
@@ -8624,7 +8574,7 @@ window.asiaNameBases = [
     "i": 2615,
     "min": 4,
     "max": 11,
-    "d": "nic-GH",
+    "d": "",
     "m": 0,
     "b": "Armenia,Yerevan,Gyumri,Vanadzor,Vagharshapat,Armavir,Masis,Artashat,Gavar,Artik,Goris,Ararat,Ashtarak,Spitak,Tbilisi,Kutaisi,Batumi,Rustavi,Gori,Zugdidi,Poti,Telavi,Akhaltsikhe,Mtskheta,Sukhumi,Ejmiatsin,Kapan,Stepanakert,Makhachkala,Derbent,Grozny,Nazran,Cherkessk,Nalchik,Vladikavkaz,Maikop,Abovyan,Hrazdan,Charentsavan,Sevan,Ijevan,Dilijan,Sisian",
     "status": "COMPLETE"
@@ -8644,7 +8594,7 @@ window.asiaNameBases = [
     "i": 2619,
     "min": 4,
     "max": 11,
-    "d": "nic-GH",
+    "d": "",
     "m": 0,
     "b": "Ürümqi,Hami,Karamay,Turpan,Aksu,Altay,Alashankou,Aral,Artux,Beitun,Bole,Changji,Fukang,Hotan,Kashgar,Korla,Kokdala,Kunyu,Kuytun,Khorgos,Shihezi,Shuanghe,Tiemenguan,Tumxuk,Tacheng,Wusu,Wujiaqu,Yining,Kucha,Yarkand,Tashkurghan,Yengisar",
     "status": "COMPLETE"
@@ -8654,7 +8604,7 @@ window.asiaNameBases = [
     "i": 2441,
     "min": 4,
     "max": 11,
-    "d": "nic-GH",
+    "d": "",
     "m": 0,
     "b": "Manipur,Imphal,Thoubal,Kakching,Jiribam,Moirang,Nambol,Wangjing,Yairipok,Sugnu,MayangImphal,Lamlai,Porompat,Heirok,Kumbi,Lilong,Noney,Tengnoupal,Kamjong,Kangpokpi,Saikul,Mao,Ukhrul,Chandel,Tamenglong,Senapati,Phek,Assam,Barak Valley,Tripura,Nagaland,Myanmar,Bangladesh",
     "status": "COMPLETE"
@@ -8664,7 +8614,7 @@ window.asiaNameBases = [
     "i": 203172,
     "min": 4,
     "max": 11,
-    "d": "Jerung (Jero) is a Kiranti language spoken in eastern Nepal with ~1,700 speakers.",
+    "d": "",
     "m": 0,
     "b": "Okhaldhunga,Solu,Diktel,Salleri,Taplejung,Phidim,Hile,Mangalbare,Thoklung,Chhintang,Nele,Bamdanda,Moplung,Mane,Sake,Chivali,Solma,Chainpur",
     "status": "WAITING"
@@ -8674,7 +8624,7 @@ window.asiaNameBases = [
     "i": 203173,
     "min": 3,
     "max": 14,
-    "d": "Limbu is a Kiranti language spoken in eastern Nepal, Sikkim, Bhutan, and India with ~380,000 speakers.",
+    "d": "",
     "m": 0,
     "b": "Taplejung,Panchthar,Ilam,Jhapa,Morang,Sunsari,Dhankuta,Terhathum,Sankhuwasabha,Okhaldhunga,Udayapur,Sikkim,Phodong,Mangan,Gangtok,Gyalshing,Namchi,Bhutan,Thimphu,Phuntsholing,Samtse,Gelephu,Trashigang,Trashiyangtse,Samdrup Jongkhar,Mongar,Lhuentse,Pemagatshel,Zhemgang",
     "status": "COMPLETE"
@@ -8684,7 +8634,7 @@ window.asiaNameBases = [
     "i": 203174,
     "min": 4,
     "max": 11,
-    "d": "Dungmali is a Kiranti language spoken in eastern Nepal with ~5,000 speakers.",
+    "d": "",
     "m": 0,
     "b": "Udayapur,Sankhuwasabha,Dhankuta,Terhathum,Taplejung,Panchthar,Ilam",
     "status": "WAITING"
@@ -8694,7 +8644,7 @@ window.asiaNameBases = [
     "i": 203175,
     "min": 4,
     "max": 11,
-    "d": "Chantyal is a Magaric language spoken in western Nepal with ~10,000 speakers.",
+    "d": "",
     "m": 0,
     "b": "Myagdi,Bagh,Rolpa,Rukum,Pyuthan,Dang,Surkhet,Dailekh,Jajarkot,Dolpa,Jumla,Mugu,Humla,Kalikot,Darchula,Baitadi,Dadeldhura,Doti,Achham,Bajhang,Bajura",
     "status": "WAITING"
@@ -8704,7 +8654,7 @@ window.asiaNameBases = [
     "i": 2443,
     "min": 4,
     "max": 11,
-    "d": "nic-GH",
+    "d": "",
     "m": 0,
     "b": "Yunnan,Binchuan,Eryuan,Weishan,Nanjian,Gongshan,Weixi",
     "status": "WAITING"
@@ -8714,7 +8664,7 @@ window.asiaNameBases = [
     "i": 203177,
     "min": 3,
     "max": 12,
-    "d": "Manang (Manange) is a Tamangic language spoken in Manang District, Nepal with ~5,000 speakers.",
+    "d": "",
     "m": 0,
     "b": "Bagarchhap,Bratang,Braga,Chame,Danakyu,Dharapani,Gyaru,Ghusang,Humde,Khangsar,Karte,Koto,Upper Manang,Naar,Nache,Manang,Pisang,Hongde,Tanki Manang,Tal,Dana,Nar,Phu",
     "status": "WAITING"
@@ -8724,7 +8674,7 @@ window.asiaNameBases = [
     "i": 203197,
     "min": 4,
     "max": 11,
-    "d": "nic-GH",
+    "d": "",
     "m": 0,
     "b": "Ingushetia,Chechnya,North Ossetia,Russia,Kazakhstan,Uzbekistan,Turkmenistan,Turkey,Jordan,Belgium,Norway",
     "status": "WAITING"
@@ -8734,7 +8684,7 @@ window.asiaNameBases = [
     "i": 2601,
     "min": 4,
     "max": 11,
-    "d": "nic-GH",
+    "d": "",
     "m": 0,
     "b": "Armenia,Azerbaijan,Central Asia,Stockholm,Berlin,Cologne,Hamburg,London,Paris,Anatolia,Kermanshah,Ilam,Lorestan",
     "status": "WAITING"
@@ -8744,7 +8694,7 @@ window.asiaNameBases = [
     "i": 203186,
     "min": 4,
     "max": 11,
-    "d": "Amdo Tibetan is a Tibetic language spoken in Qinghai, Sichuan, Gansu, China with ~1,000,000 speakers.",
+    "d": "",
     "m": 0,
     "b": "Xining,Haidong,Haibei,Hainan,Huangnan,Golog,Yushu,Qinghai,Gansu,Zoige,Hongyuan,Ruoergai,Aba,Sungqu,Jiuzhi,Banma,Dari,Gande,Maqin,Gonghe,Guide,Huzhu,Menghua,Dulan,Tianjun,Delingha,Golmud",
     "status": "COMPLETE"
@@ -8764,7 +8714,7 @@ window.asiaNameBases = [
     "i": 203181,
     "min": 4,
     "max": 11,
-    "d": "nic-GH",
+    "d": "",
     "m": 0,
     "b": "Sandu,Dushan,Duyun,Rongshui,Nandan,Yizhou,Guizhou,Guangxi,Yunnan,Vietnam,Tuyen Quang,Hồng Quang,Chiêm Hoá,Shuilong,Zhonghe,Miaocao,Bajie,Jiadao,Shiqi,Jiarong,Hengfeng,Zhouqin,Jiuqian,Tangzhou,Yangmeng,Sandu Shui Autonomous County",
     "status": "COMPLETE"
@@ -8774,7 +8724,7 @@ window.asiaNameBases = [
     "i": 203182,
     "min": 4,
     "max": 11,
-    "d": "nic-GH",
+    "d": "",
     "m": 0,
     "b": "Dien Bien Phu,Lai Chau,Son La,Yen Bai,Lao Cai,Hoa Binh,Thanh Hoa,Nghe An,Luang Prabang,Bolikhamxay,Khammouane,Vientiane,Xieng Khouang,Jinping,Yunnan,Maguan,Wenshan,Hekou,Yuanjiang,Muchang,Dalishu,Pojiao,Dehou,Panzhihua,Qiaotou,Baihei,Gantianzhai,Dashuiping,Gaozhai,Yangmahe,Thailand,Central Thailand,Isan,Vietnam,Laos",
     "status": "COMPLETE"
@@ -8784,7 +8734,7 @@ window.asiaNameBases = [
     "i": 203183,
     "min": 4,
     "max": 11,
-    "d": "nic-GH",
+    "d": "",
     "m": 0,
     "b": "Xinping,Yuanjiang,Yuanyang,Lüchun,Shiping,Wuding,Yongren,Maguan,Lüshí,Yuánxīn,Yǒngwǔ,Mǎguān,Yuánjiāng,Lǜshí,Yanshou,Honghe,Chuxiong,Wenshan,Kunming,Chiang Rai,Mae Sai,Mae Chan,Ban Nam Bor Khaw,Ban Pa Sak Khwang,Ban Nam Lat,Ban Wang Din,Ban Sang Khong,Ban Pratu Chiang Mai,Shitouzhai,Xiaomiao,Panlong",
     "status": "COMPLETE"
@@ -8814,7 +8764,7 @@ window.asiaNameBases = [
     "i": 251,
     "min": 4,
     "max": 11,
-    "d": "nic-GH",
+    "d": "",
     "m": 0,
     "b": "Ishigaki,Taketomi,Iriomote,Kohama,Hateruma,Hatoma,Kuroshima,Aragusuku,Yubujima,Shiraho,Kabira,Ohama,Miyara,Yonehara,Fusaki,Hirae,Ibaruma,Oohama",
     "status": "WAITING"
@@ -8824,7 +8774,7 @@ window.asiaNameBases = [
     "i": 252,
     "min": 4,
     "max": 11,
-    "d": "nic-GH",
+    "d": "",
     "m": 0,
     "b": "Yonaguni,Sonai,Kubura,Higawa,Irizaki,Tindabana,Agariyama,Utaki,San-ninu-dai,Nandahama,Kitabokujo,Kuburabari",
     "status": "WAITING"
@@ -8834,7 +8784,7 @@ window.asiaNameBases = [
     "i": 253,
     "min": 4,
     "max": 11,
-    "d": "nic-GH",
+    "d": "",
     "m": 0,
     "b": "Yoron,Chabana,Mugiya,Asato,Furusato,Gusuku,Yurigahama,Udonosu,Akasaki,Techa,Riku,Tomori",
     "status": "WAITING"
@@ -8844,7 +8794,7 @@ window.asiaNameBases = [
     "i": 254,
     "min": 4,
     "max": 11,
-    "d": "nic-GH",
+    "d": "",
     "m": 0,
     "b": "Yilan,Suao,Toucheng,Jiaoxi,Zhuangwei,Yuanshan,Dongshan,Sanxing,Wujie,Luodong,Nanfangao,Taipei,Keelung,Taoyuan,Datong,Nanao,Wutai,Jianshi",
     "status": "WAITING"
@@ -8854,7 +8804,7 @@ window.asiaNameBases = [
     "i": 270,
     "min": 4,
     "max": 11,
-    "d": "nic-GH",
+    "d": "",
     "m": 0,
     "b": "Myitkyina,Bhamo,Puta-O,Hpakant,Shwegu,Momeik,Namhkam,Muse,Laukkaing,Mongko,Kutkai,Hopin,Putao,Machanbaw,Injangyang,Tanai,Waingmaw,Momauk,Katha,Banmauk,Wuntho,Kawlin",
     "status": "WAITING"
@@ -8864,7 +8814,7 @@ window.asiaNameBases = [
     "i": 271,
     "min": 4,
     "max": 11,
-    "d": "nic-GH",
+    "d": "",
     "m": 0,
     "b": "Xichang,Aba,Barkam,Songpan,Heishui,Maoxian,Wenchuan,Luding,Litang,Daocheng,Danba,Jiulong,Muli,Yanyuan,Mianning,Huili,Huidong,Panzhihua,Myitkyina,Chipwi,Tsawlaw,Injangyang,Tanai,Machanbaw,Putao,Sumprabum,Waingmaw,Momauk,Shwegu,Bhamo",
     "status": "COMPLETE"
@@ -8874,7 +8824,7 @@ window.asiaNameBases = [
     "i": 272,
     "min": 4,
     "max": 11,
-    "d": "nic-GH",
+    "d": "",
     "m": 0,
     "b": "Bijie,Qianxi,Weining,Nayong,Jinsha,Dafang,Qixingguan,Hezhang,Xingyi,Anshun,Liupanshui,Panzhihua,Huili,Xichang,Zhaojue,Meigu,Leibo,Jinyang,Butuo,Ninglang,Yongshan,Yanbian",
     "status": "WAITING"
@@ -8884,7 +8834,7 @@ window.asiaNameBases = [
     "i": 273,
     "min": 4,
     "max": 11,
-    "d": "nic-GH",
+    "d": "",
     "m": 0,
     "b": "Chitwan,Makwanpur,Dhading,Gorkha,Tanahun,Lamjung,Kaski,Syangja,Palpa,Gulmi,Arghakhanchi,Kapilvastu,Rupandehi,Nawalparasi,Parsa,Bara,Rautahat,Sarlahi,Mahottari,Dhanusha,Siraha,Saptari,Sunsari,Morang",
     "status": "WAITING"
@@ -8894,7 +8844,7 @@ window.asiaNameBases = [
     "i": 280,
     "min": 4,
     "max": 11,
-    "d": "nic-GH",
+    "d": "",
     "m": 0,
     "b": "Miyakojima,Hirara,Shimoji,Irabu,Ikema,Kurima,Taramajima,Shimajiri,Gusukube,Ueno,Karimata,Sugama",
     "status": "WAITING"
@@ -8904,7 +8854,7 @@ window.asiaNameBases = [
     "i": 282,
     "min": 4,
     "max": 11,
-    "d": "nic-GH",
+    "d": "",
     "m": 0,
     "b": "Wadomari,China,Kunigami,Inoha,Serikaku,Nishime,Shinjo,Yashichi,Kamisato,Shoryu,Izena,Okinoerabu",
     "status": "WAITING"
@@ -8914,7 +8864,7 @@ window.asiaNameBases = [
     "i": 293,
     "min": 4,
     "max": 11,
-    "d": "nic-GH",
+    "d": "",
     "m": 0,
     "b": "Amami,Naze,Kasari,Tatsugo,Yuwan,Sumiyo,Koniya,Setouchi,Uken,Yamato,Akina,Kominato,Amami-Naze,Amami-Kasari,Amami-Tatsugo,Amami-Yuwan,Amami-Sumiyo,Amami-Koniya,Amami-Setouchi,Amami-Uken,Amami-Yamato,Amami-Akina,Amami-Kominato,Amami-Amami",
     "status": "WAITING"
@@ -8924,7 +8874,7 @@ window.asiaNameBases = [
     "i": 294,
     "min": 4,
     "max": 11,
-    "d": "nic-GH",
+    "d": "",
     "m": 0,
     "b": "Kikai,Wan,Kasari,Yonama,Araki,Aden,Shitooke,Nakadomari,Akaren,Shimamura,Shioya,Tean,Kikai-Wan,Kikai-Kasari,Kikai-Yonama,Kikai-Araki,Kikai-Aden,Kikai-Shitooke,Kikai-Nakadomari,Kikai-Akaren,Kikai-Shimamura,Kikai-Shioya,Kikai-Tean,Kikai-Kikai",
     "status": "WAITING"
@@ -8934,7 +8884,7 @@ window.asiaNameBases = [
     "i": 295,
     "min": 4,
     "max": 11,
-    "d": "nic-GH",
+    "d": "",
     "m": 0,
     "b": "Kunigami,Nago,Nakijin,Ogimi,Higashi,Motobu,Ginoza,Onna,Yomitan,Gusuku,Nakagusuku,Kunigami-Nago,Kunigami-Nakijin,Kunigami-Ogimi,Kunigami-Higashi,Kunigami-Kunigamison,Kunigami-Motobu,Kunigami-Ginoza,Kunigami-Onna,Kunigami-Yomitan,Kunigami-Gusuku,Kunigami-Nakagusuku,Kunigami-Kunigami",
     "status": "WAITING"
@@ -8944,7 +8894,7 @@ window.asiaNameBases = [
     "i": 296,
     "min": 4,
     "max": 11,
-    "d": "nic-GH",
+    "d": "",
     "m": 0,
     "b": "Naha,Shuri,Urasoe,Itoman,Tomigusuku,Ginowan,OkinawaCity,Uruma,Nago,Chatan,Yomitan,Nakagusuku,Okinawa-Naha,Okinawa-Shuri,Okinawa-Urasoe,Okinawa-Itoman,Okinawa-Tomigusuku,Okinawa-Ginowan,Okinawa-OkinawaCity,Okinawa-Uruma,Okinawa-Nago,Okinawa-Chatan,Okinawa-Yomitan,Okinawa-Nakagusuku",
     "status": "WAITING"
@@ -8954,7 +8904,7 @@ window.asiaNameBases = [
     "i": 297,
     "min": 4,
     "max": 11,
-    "d": "nic-GH",
+    "d": "",
     "m": 0,
     "b": "Chennai,Bangalore,Hyderabad,Coimbatore,Madurai,Trichy,Salem,Vellore,Thanjavur,Tirunelveli,Kanyakumari,Nagercoil,Thoothukudi,Rameswaram,Puducherry,Cuddalore,Villupuram,Tirupati,Kanchipuram,Mahabalipuram,Mylapore,Adyar,Guindy,Velachery,Tambaram,Kolkata,Mumbai,Delhi,Pune,Ahmedabad,Jaipur,Lucknow,Kanpur,Nagpur",
     "status": "COMPLETE"
@@ -8964,7 +8914,7 @@ window.asiaNameBases = [
     "i": 300,
     "min": 4,
     "max": 11,
-    "d": "nic-GH",
+    "d": "",
     "m": 0,
     "b": "Cherkessk,Karachay,Cherkessia,Elbrus,Teberda,Dombay,Khasaut,Khabez,UstDzheguta,Zelenchuk,Arkhyz,Ust-Dzheguta,CherkessiaElbrus",
     "status": "WAITING"
@@ -8974,7 +8924,7 @@ window.asiaNameBases = [
     "i": 303,
     "min": 4,
     "max": 11,
-    "d": "nic-GH",
+    "d": "",
     "m": 0,
     "b": "Bzypta,Pitsunda,Gagra,Gudauta,Ritsa,Ldzaa,Alakhadzi,Gegsky,Psyrtskha,Kodori,Geg,BzyptaRitsa,PsyrtskhaKodori",
     "status": "WAITING"
@@ -8984,7 +8934,7 @@ window.asiaNameBases = [
     "i": 304,
     "min": 4,
     "max": 11,
-    "d": "nic-GH",
+    "d": "",
     "m": 0,
     "b": "Tpig,Richa,Fite,Khudig,Keren,Chirag,Akhty,Rutul,Kasumkent,Derbent,Tabasaran,Kurakh,TpigKurakh,DerbentTabasaran,RichaChirag",
     "status": "WAITING"
@@ -8994,7 +8944,7 @@ window.asiaNameBases = [
     "i": 308,
     "min": 4,
     "max": 11,
-    "d": "nic-GH",
+    "d": "",
     "m": 0,
     "b": "Mersin,Adana,Hatay,Gaziantep,Kilis,Sanliurfa,Antakya,Iskenderun,Tarsus,Osmaniye,Kahramanmaras,Diyarbakir",
     "status": "WAITING"
@@ -9004,7 +8954,7 @@ window.asiaNameBases = [
     "i": 311,
     "min": 4,
     "max": 11,
-    "d": "nic-GH",
+    "d": "",
     "m": 0,
     "b": "Manama,Muharraq,Riffa,Isa Town,Hamad Town,Sitra,Budaiya,Jidhafs,Sanabis,Seef,Busaiteen,A'ali",
     "status": "WAITING"
@@ -9014,7 +8964,7 @@ window.asiaNameBases = [
     "i": 313,
     "min": 4,
     "max": 11,
-    "d": "nic-GH",
+    "d": "",
     "m": 0,
     "b": "Bukhara,Samarkand,Navoi,Kattakurgan,Karshi,Shahrisabz,Termez,Dushanbe,Khujand,Panjakent,Tashkent,Balkh",
     "status": "WAITING"
@@ -9024,7 +8974,7 @@ window.asiaNameBases = [
     "i": 314,
     "min": 4,
     "max": 11,
-    "d": "nic-GH",
+    "d": "",
     "m": 0,
     "b": "Cairo,Giza,Hilwan,Shubra El-Kheima,Maadi,Nasr City,Imbaba,Old Cairo,Abbasiya,Zamalek,Al-Marg,Al-Matariya",
     "status": "WAITING"
@@ -9034,7 +8984,7 @@ window.asiaNameBases = [
     "i": 315,
     "min": 4,
     "max": 11,
-    "d": "nic-GH",
+    "d": "",
     "m": 0,
     "b": "Bukhara,Samarkand,Kattakurgan,Karshi,Termez,Dushanbe,Khujand,Panjakent,Shahrisabz,Navoi,Tashkent,Balkh",
     "status": "WAITING"
@@ -9044,7 +8994,7 @@ window.asiaNameBases = [
     "i": 316,
     "min": 4,
     "max": 11,
-    "d": "nic-GH",
+    "d": "",
     "m": 0,
     "b": "Sapporo,Asahikawa,Obihiro,Kushiro,Abashiri,Wakkanai,Nemuro,Shiraoi,Nibutani,Akan,Mukawa,Chitose,Biratori,Nayoro,Rumoi,Fukagawa,Takikawa,Sunagawa,Mikasa,Tomakomai,Noboribetsu,Date,Shinhidaka,Hidaka,Urakawa,Samani,Hiroo,Erimo,Oshamambe",
     "status": "COMPLETE"
@@ -9054,7 +9004,7 @@ window.asiaNameBases = [
     "i": 317,
     "min": 4,
     "max": 11,
-    "d": "nic-GH",
+    "d": "",
     "m": 0,
     "b": "Okago,Mitsune,Nakanogo,Kashitate,Sueyoshi,Aogashima,Utsuki,Toriuchi,Minamidaito,Kitadaito",
     "status": "WAITING"
@@ -9064,7 +9014,7 @@ window.asiaNameBases = [
     "i": 321,
     "min": 4,
     "max": 11,
-    "d": "nic-GH",
+    "d": "",
     "m": 0,
     "b": "Naha,Shuri,Okinawa City,Ishigaki,Miyakojima,Amami Ōshima,Urasoe,Nago,Ginowan,Itoman,Tomigusuku,Nanjō,Chatan,Onna,Motobu,Nakijin,Yomitan,Kadena,Nishihara,Haebaru,Yaese,Yonabaru,Kitanakagusuku,Nakagusuku,Kin,Ginoza,Kunigami,Ogimi,Higashi,Ie,Izena,Iheya,Kumejima,Tokunoshima,Okinoerabu,Yoron,Taketomi,Iriomote,Yonaguni,Tarama,Tatsugō,Setouchi,Uken,Yamato,Zamami,Aguni,Tonami,Minna,Kudaka,Geruma,Tokashiki,Aka,Kohama,Kuroshima,Hateruma,Hatoma,Aragusuku,Kayama,Ikema,Kurima,Irabu,Shimoji,Ogami,Gusukube,Ueno,Chinen,Sashiki,Ōzato,Tamagusuku,Katsuren,Yonashiro,Gushikawa,Ishikawa,Henza,Hamahiga,Tsuken,Yagaji,Sesoko,Kouri,Noho,Kitadaito,Minamidaito",
     "status": "COMPLETE"
@@ -9796,7 +9746,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Ho (Munda),Dehradun,Nagpur,Agra,Mymensingh,Visakhapatnam,Ludhiana,Jhang,Faisalabad,Ahmedabad,Kashmore,Sialkot,Itanagar,Cuttack,Indore,Ghaziabad,Panaji,Lahore,Belgaum,Delhi,Barisal,Dhanbad,Shimla,Bhubaneswar,Bharatpur,Allahabad,Aurangabad,Dharamshala,Bangalore,Silchar,Jalandhar,Vadodara,Gwalior,Jabalpur,Kozhikode,Raipur,Coimbatore,Jammu,Nashik,Mangalore,Mysore",
+    "b": "Chaibasa,Noamundi,Jamshedpur,Saraikela,Kharsawan,Ranchi,Khunti,Simdega,Gumla,Lohardaga,Kandra,Musabani,Galathea,Manoharpur,Jhalda,Baghmundi,Purulia,Manbazar,Raghunathpur,Baripada,Karanjia,Jashipur,Udala,Bangriposi,Keonjhar,Rourkela,Bamra,Biramitrapur,Rajnagarpur,Ghatsila,Bisipara,Nohatu,Gua,Seraikella,Chandil,Bokaro,Hazaribagh,Chatra,Latehar,Medininagar,Jamtara,Dumka,Godda,Sahebganj,Kulka",
     "status": "COMPLETE"
   },
   {
@@ -9826,7 +9776,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Odia,Jhang,Chennai,Kolhapur,Hubli,Sialkot,Colombo,Surat,Karachi,Varanasi,Panaji,Bhopal,Amritsar,Shikarpur,Agartala,Kanpur,Bhubaneswar,Silchar,Warangal,Mysore,Gulbarga,Tiruchirappalli,Itanagar,Allahabad,Aizawl,Kolkata,Chandigarh,Jammu,Dharamshala,Jabalpur,Ahmedabad,Coimbatore,Ghaziabad,Thiruvananthapuram,Jaipur,Jalandhar,Leh,Dhaka,Raipur,Ludhiana",
+    "b": "Bhubaneswar,Cuttack,Rourkela,Sambalpur,Puri,Balasore,Bhadrak,Jajpur,Dhenkanal,Angul,Bargarh,Bolangir,Boudh,Deogarh,Dharasana,Ganjam,Gajapati,Kalahandi,Kandhamal,Kendrapara,Khordha,Koraput,Malkangiri,Mayurbhanj,Nabarangpur,Nayagarh,Nuapada,Paradip,Jharsuguda,Rayagada,Rairangpur,Jeypore,Sundargarh,Talcher,Barang,Haldia,Chandrapur,Attabira,Titlagarh,Kantabanji,Bhawanipatna,Phulbani,Paralakhemundi,Baripada",
     "status": "COMPLETE"
   },
   {
@@ -9836,7 +9786,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Rajasthani,Dehradun,Nagpur,Agra,Mymensingh,Visakhapatnam,Ludhiana,Jhang,Faisalabad,Ahmedabad,Kashmore,Sialkot,Itanagar,Cuttack,Indore,Ghaziabad,Panaji,Lahore,Belgaum,Delhi,Barisal,Dhanbad,Shimla,Bhubaneswar,Bharatpur,Chandigarh,Pune,Coimbatore,Allahabad,Bangalore,Faridabad,Jalandhar,Rourkela,Jodhpur,Khulna,Nashik,Dharamshala,Kochi,Jammu,Udaipur,Mysore,Madurai,Rangpur",
+    "b": "Jaipur,Jodhpur,Udaipur,Kota,Bikaner,Ajmer,Bhilwara,Alwar,Bharatpur,Sikar,Pali,Sri Ganganagar,Tonk,Kishangarh,Hanumangarh,Beawar,Dholpur,Churu,Sawai Madhopur,Gangapur City,Jhunjhunu,Baran,Chittorgarh,Hindaun,Bundi,Nagaur,Sujangarh,Banswara,Barmer,Jaisalmer,Balotra,Jalore,Mount Abu,Karauli,Dausa,Pratapgarh,Dungarpur,Rajsamand,Sirohi,Phalodi",
     "status": "COMPLETE"
   },
   {
@@ -10026,7 +9976,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Tulu,Jhang,Chennai,Kolhapur,Hubli,Sialkot,Colombo,Surat,Karachi,Varanasi,Panaji,Bhopal,Amritsar,Shikarpur,Agartala,Kanpur,Bhubaneswar,Silchar,Warangal,Mysore,Gulbarga,Tiruchirappalli,Itanagar,Bangalore,Pune,Nagpur,Aurangabad,Visakhapatnam,Aizawl,Kolkata,Madurai,Jaipur,Mangalore,Nashik,Udaipur,Kochi,Rangpur,Jammu,Siliguri,Ludhiana",
+    "b": "Mangalore,Udupi,Manipal,Malpe,Kundapura,Hebri,Brahmavara,Byndoor,Kollur,Karkala,Kaup,Sullia,Bantwal,Puttur,Coondapoor,Dharmasthala,Moodbidri,Kanhangad,Kasaragod,Hosdurg,Kumbla,Nileshwaram,Ambalpady,Vamanjoor,Uppinakott,Thokur,Kudremukh,Chandragiri,Kiril,Brahmavar,Nelliyadi",
     "status": "COMPLETE"
   },
   {
@@ -10048,16 +9998,6 @@ window.asiaNameBases = [
     "m": 0,
     "b": "Mudajor,Sukajor,Manedihi,Wadi,Balingkhola,Kondre,Aadmara,Pali Gau,Marin Khola",
     "status": "WAITING"
-  },
-  {
-    "name": "Wadiyara Koli",
-    "i": 202721,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Wadiyara Koli,Kochi,Pune,Dehradun,Rishikesh,Agra,Madurai,Visakhapatnam,Sylhet,Agartala,Jacobabad,Khanewal,Rawalpindi,Quetta,Aurangabad,Jaipur,Bogra,Karachi,Margao,Coimbatore,Thatta,Siliguri,Dhaka,Aizawl,Varanasi,Dhanbad,Ahmedabad,Allahabad,Amritsar,Bhopal,Chennai,Ghaziabad,Rangpur,Dharamshala,Raipur,Indore,Nagpur,Silchar,Itanagar,Surat,Kozhikode,Chittagong,Kolkata",
-    "status": "COMPLETE"
   },
   {
     "name": "Zakhchin",
@@ -10116,8 +10056,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Andaman Creole Hindi,Rourkela,Jalandhar,Amritsar,Allahabad,Chandigarh,Kolkata,Chennai,Coimbatore,Ludhiana,Jabalpur,Nagpur,Indore,Thiruvananthapuram,Jaipur,Rangpur,Aurangabad,Jodhpur,Delhi,Kochi,Visakhapatnam",
-    "status": "WAITING"
+    "b": "Port Blair,Diglipur,Rangat,Mayabunder,Port McNeil,Baratang,Havelock,Neil Island,Swaraj Dweep,Car Nicobar,Nancowry,Camorta,Teressa,Katchal,Campbell Bay,Little Nicobar,Afra Bay,Malacca,Sawi,Kinyuka,Tamaloo,Chuckchucha,Arong,Perka,Big Lapati,Small Lapati,Tapoiming,Kimois,Teetop,Kinmai,Ferrargunj,Wandoor,Wimberleyganj,Landfall Island",
+    "status": "COMPLETE"
   },
   {
     "name": "Cypriot Maronite-Arabic",
@@ -10186,7 +10126,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Haflong Hindi,Kochi,Pune,Dehradun,Rishikesh,Agra,Madurai,Visakhapatnam,Sylhet,Agartala,Jacobabad,Khanewal,Rawalpindi,Quetta,Aurangabad,Jaipur,Bogra,Karachi,Margao,Coimbatore,Thatta,Siliguri,Dhaka,Aizawl,Varanasi,Dhanbad,Allahabad,Bhopal,Jabalpur,Chandigarh,Gangtok,Kozhikode,Gwalior,Itanagar,Ghaziabad,Rangpur,Mangalore,Thiruvananthapuram,Panaji,Chennai,Srinagar,Ludhiana,Warangal,Surat,Tiruchirappalli",
+    "b": "Haflong,Maibang,Mahur,Umrangso,Diyungbra,Langting,Semkhor,Asalu,Harangajao,Sarala,Jatinga,Panimur,Jagiroad,Mossung,Katingar,Nilambazar,Kalapahar,Badarpur,Sonai,Dholai,Silchar,Lalgazar,Bikrampur,Katigor,Boalukhan,Udalbari,Lakhiya,Bansukhal,Rupkonwar,Karimganj,Hailakandi,Hojai",
     "status": "COMPLETE"
   },
   {
@@ -10244,7 +10184,7 @@ window.asiaNameBases = [
     "i": 1063,
     "min": 4,
     "max": 11,
-    "d": "nic-GH",
+    "d": "",
     "m": 0,
     "b": "Baoding,Wanning,Lingshui,Ding'an,Tunchang,Chengmai,Qionghai,Ledong,ChengmaiCounty,WanningCity,LingshuiCounty",
     "status": "WAITING"
@@ -10254,7 +10194,7 @@ window.asiaNameBases = [
     "i": 1109,
     "min": 4,
     "max": 11,
-    "d": "nic-GH",
+    "d": "",
     "m": 0,
     "b": "Kabul,Kandahar,Herat,Jalalabad,Mazar-i-Sharif,Kunduz,Ghazni,Khost,Paktia,Farah,Bamyan,Kapisa,Gardez,Laghman,Logar,Wardak,Paktika,Badakhshan,Takhar,Baghlan",
     "status": "WAITING"
@@ -10266,7 +10206,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Tinsukia,Jorhat,Sibsagar,Tezpur,Nagaon,Mokokchung,Tuensang,Wokha,Phek,Zunheboto,Mon,Itanagar,Naharlagun,Pasighat,Silchar,Haflong,Diphu,Jowai,Shillong,Tura,Barpeta,Goalpara,Umling,Boko,Rangia,Quebradillas,Cayey,Comerio,SabanaGrande,Naguabo,Plymouth,Barceloneta,Carolina,Barranquitas,Hormigueros,SanLorenzo,Yabucoa,Kingstown,VegaBaja,Aguadilla",
+    "b": "Sawahlunto,Lembah Segar,Barangin,Talawi,Siladang,Kerapu,Padang Aro,Padang Rubber,Sumanik,Ulakan,Tuo,Koto Tuo,Salak,Sijunjung,Muara Kalaban,Sumpur,Arosuka,Sarilamak,Puncak,Solok,Padang,Bukittinggi,Batusangkar,Payakumbuh,Padang Panjang,Balimbing,Harau,Tanjung Gadang",
     "status": "COMPLETE"
   },
   {
@@ -10276,7 +10216,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Nagamese,Agra,Mymensingh,Visakhapatnam,Madurai,Jhang,Thinadhoo,Agartala,Karachi,Sialkot,Trincomalee,Aurangabad,Chennai,Panaji,Ghaziabad,Chandigarh,Shikarpur,Rajahmundry,Dhanbad,Varanasi,Bhubaneswar,Haridwar,Warangal,Nashik,Weixi,Mangan,Zhongdian,Dali,Trashigang,Xichang,Deqin,Haldwani,Ngari,Mawlai,Litang,Rhenock,Rishikesh,Jakar,Nainital,Singtam,Dalton Ganj,Samdrup Jongkhar,Pithoragarh,Pu'er,Umroi,Yibin,Naga,Assamese,Mokokchung,Wokha,Phek,Tuensang,Zunheboto,Mon",
+    "b": "Kohima,Dimapur,Chumoukedima,Mokokchung,Wokha,Mon,Tuensang,Phek,Zunheboto,Kiphire,Longleng,Noklak,Peren,Niuland,Shamator,Tseminyu,Meluri,Medziphema,Seithekema,Chiephobozou,Jakhama,Sechu Zubza,Botsa,Kezocha,Mangkolemba,Tuli Town,Changtongya,Chuchuyimlang,Ongpangkong,Naginimora,Tizit,Tening,Jalukie,Athibung,Ngwalwa,Nsong,Chozuba,Pfutsero,Chizami,Sakraba,Khezhakeno,Englan,Tobu,Thuonoknyu,Pungro,Khonoma,Viswema,Dzukou Valley,Pangti,Yikhum,Merapani,Merangkong,Langmeing,Lungwa,Khaibung,Molung,Longkhum,Ungma,Sovima,Vidima,Tenyidphe",
     "status": "COMPLETE"
   },
   {
@@ -10286,7 +10226,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Awadhi,Visakhapatnam,Rishikesh,Jhang,Chennai,Sambalpur,Fuvahmulah,Sialkot,Faisalabad,Rawalpindi,Vijayawada,Barisal,Panaji,Asansol,Haridwar,Shikarpur,Muzaffargarh,Jamshedpur,Patna,Bhubaneswar,Kurunegala,Warangal,Guntur,Ahmedabad,Bhopal,Delhi,Allahabad,Amritsar,Aurangabad,Khulna,Indore,Jodhpur,Itanagar,Ghaziabad,Rajkot,Gwalior,Dhaka,Jammu,Pune,Rourkela,Thiruvananthapuram,Faridabad,Noida,Aizawl",
+    "b": "Lucknow,Kanpur,Unnao,Barabanki,Sitapur,Hardoi,Lakhimpur Kheri,Rae Bareli,Sultanpur,Pratapgarh,Ambedkar Nagar,Ayodhya,Faizabad,Basti,Sant Kabir Nagar,Varanasi,Banaras,Allahabad,Ghazipur,Jaunpur,Mirzapur,Chandauli,Kaushambi,Fatehpur,Amethi,Shravasti",
     "status": "COMPLETE"
   },
   {
@@ -10296,7 +10236,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Noakhailla,Dehradun,Nagpur,Agra,Mymensingh,Visakhapatnam,Ludhiana,Jhang,Faisalabad,Ahmedabad,Kashmore,Sialkot,Itanagar,Cuttack,Indore,Ghaziabad,Panaji,Lahore,Belgaum,Delhi,Barisal,Dhanbad,Shimla,Bhubaneswar,Bharatpur,Lhasa,Gangtok,Punakha,Xichang,Dali,Lijiang,Weixi,Ngari,Batang,Mangan,Lhokha,Chuxiong,Namchi,Samdrup Jongkhar,Koksar,Paro,Dalton Ganj,Rangpo,Trongsa,Panzhihua,Nainital,Thimphu,Trashigang,Shillong,Jorthang",
+    "b": "Noakhali,Lakshmipur,Feni,Maijdi,Ramganj,Begumganj,Chakia,Raipura,Hatiya,Sonaimari,Mohammadpur,Sandwip,Mirsarai,Fatikchari,Sitakunda,Bariyarhat,Anwara,Sonargaon,Kaptai,Rangamati,Khagrachhari,Panchthali,Matiranga,Manikchari,Ramgarh,Dharmagarh,Chandpur,Hajiganj,Titar,Bhola,Char Fasson,Borhanupen,Panchbibi,Salyanadi,Jaynagar,Nagarkanda,Akhaura,Companiabazar,Brahmanbaria,Nandail,Debiganj",
     "status": "COMPLETE"
   },
   {
@@ -10306,7 +10246,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Sindhi Bhil,Bangalore,Dehradun,Rangpur,Agra,Rishikesh,Visakhapatnam,Sylhet,Sambalpur,Rajahmundry,Khanewal,Naifaru,Jaipur,Bhopal,Shimla,Karachi,Ludhiana,Haridwar,Thatta,Siliguri,Gangtok,Jamshedpur,Patna,Dhanbad,Mapusa,Bhubaneswar,Ahmedabad,Kolkata,Aurangabad,Chennai,Itanagar,Dharamshala,Aizawl,Nagpur,Thiruvananthapuram,Kochi,Amritsar,Jammu,Shillong,Coimbatore,Vijayawada,Madurai,Dhaka,Jodhpur,Mysore",
+    "b": "Jaisalmer,Barmer,Bikaner,Jodhpur,Churu,Hanumangarh,Sri Ganganagar,Nagaur,Didwana,Balotra,Jalore,Sirohi,Pali,Jhalawar,Pokaran,Fatehgarh,Nachna,Mandawa,Risinghnagar,Anupgarh,Suratgarh,Pilibanga,Nokha,Khetri,Neem Ka Thana,Dantaramgarh,Ladnu,Kuchaman,Umarkot,Khipro,Diplo,Nagarparkar,Mithi,Thatta,Kashmore",
     "status": "COMPLETE"
   },
   {
@@ -10356,15 +10296,15 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Attapady Kurumba,Vijayawada,Amritsar,Mangalore,Bangalore,Kochi,Surat,Dehradun,Rishikesh,Agra,Mymensingh,Visakhapatnam,Sambalpur,Kurunegala,Jhang,Aurangabad,Rawalpindi,Shikarpur,Bharatpur,Asansol,Haridwar,Dalbandin,Panaji,Muzaffargarh,Jamshedpur",
-    "status": "COMPLETE"
+    "b": "Attappady,Pottanur,Agali,Chittur,Nemmara,Nelliampathy,Ottapalam,Mannarkkad,Palakkad,Perinthalmanna,Nilambur,Gudalur,Ooty,Coimbatore,Udumalaipettai,Pollachi,Anamalai,Valparai,Malappuram,Karulai,Thiruvuthwamala,Edakkara",
+    "status": "WAITING"
   },
   {
     "name": "Ahirani ",
     "i": 785,
     "min": 4,
     "max": 11,
-    "d": "nic-GH",
+    "d": "",
     "m": 0,
     "b": "Dhule,Jalgaon,Nandurbar,Amalner,Burhanpur,Muktainagar,Bhusawal,Chalisgaon,Pachora,Erandol,Parola,Dharangaon,Chopda,Yawal,Raver,Faizpur,Savda,Shendurni,Jamner,Bhadgaon,Shirpur,Sindkheda,Sakri,Navapur,Shahada,Taloda,Akkalkuwa,Akrani,Dhadgaon,Nashik,Aurangabad,Malegaon,Manmad,Satana,Niphad,Yeola,Lasalgaon,Deola,Kalwan,Surgana,Peth,Dindori,Trimbak,Igatpuri,Sinnar",
     "status": "COMPLETE"
@@ -10374,7 +10314,7 @@ window.asiaNameBases = [
     "i": 858,
     "min": 4,
     "max": 11,
-    "d": "nic-GH",
+    "d": "",
     "m": 0,
     "b": "GornoAltaysk,KoshAgach,Turochak,Chemal,Mayma,Shebalino,Aktash,Inya,Onguday,UstKan,UstKoksa,KyzylOzek,Belyashi,Dzhazator,Kuray,ZhanaAul,ChaganUzun,Ulagan,Karakol",
     "status": "WAITING"
@@ -10384,7 +10324,7 @@ window.asiaNameBases = [
     "i": 859,
     "min": 4,
     "max": 11,
-    "d": "nic-GH",
+    "d": "",
     "m": 0,
     "b": "KoshAgach,Turochak,Chemal,Mayma,Shebalino,Aktash,Inya,Onguday,UstKan,UstKoksa,KyzylOzek,GornoAltaysk,Bulgan,Altai",
     "status": "WAITING"
@@ -10404,7 +10344,7 @@ window.asiaNameBases = [
     "i": 1075,
     "min": 4,
     "max": 11,
-    "d": "nic-GH",
+    "d": "",
     "m": 0,
     "b": "Huangyangguan,Yiwadaire,Yazhezaozu,Gaoshinao,Eli,Muzuotang,Mupitang,Wujiao,Xinyang,Yingge,Jiawu,Yangshan,Punan,Tielou,Anbandi,Caoheba,Maigongshan",
     "status": "WAITING"
@@ -10414,7 +10354,7 @@ window.asiaNameBases = [
     "i": 1076,
     "min": 4,
     "max": 11,
-    "d": "nic-GH",
+    "d": "",
     "m": 0,
     "b": "Yacha,Qifang,Bangxi,Daan,Xishui,Yuanmen,Nankai,Fulong,Qingsong,Jinbo,Rongbang",
     "status": "WAITING"
@@ -10424,7 +10364,7 @@ window.asiaNameBases = [
     "i": 1100,
     "min": 4,
     "max": 11,
-    "d": "nic-GH",
+    "d": "",
     "m": 0,
     "b": "Skardu,Khaplu,Shigar,Askole,Sangkha,Stak,Hushe,Turtuk,Dras",
     "status": "WAITING"
@@ -10434,7 +10374,7 @@ window.asiaNameBases = [
     "i": 1403,
     "min": 4,
     "max": 11,
-    "d": "nic-GH",
+    "d": "",
     "m": 0,
     "b": "Funing,Napo,Guangnan,Yanshan,Maguan,Ecun,Zhelong,Nada,Longna,Langjia,Nianlang,Rongtun,Gonghe,Yongan,Bohe",
     "status": "WAITING"
@@ -10444,7 +10384,7 @@ window.asiaNameBases = [
     "i": 1060,
     "min": 3,
     "max": 13,
-    "d": "nic-GH",
+    "d": "",
     "m": 0,
     "b": "Lingui County,Guilin,Guangxi,Liangjiang Township,Yongfu County,Longjiang Township,Qingyuanfu,Nandan County,Guilin Prefecture,Longsheng County",
     "status": "WAITING"
@@ -10454,7 +10394,7 @@ window.asiaNameBases = [
     "i": 1653,
     "min": 4,
     "max": 11,
-    "d": "nic-GH",
+    "d": "",
     "m": 0,
     "b": "Bamei,Liancheng,Babao,Nanping,Zhujie,Nasa,Zhulin,Zhuilijie,Xigu,Walong,Gumu,Pingba,Matang,Dehou,Xiaojie,Bozu,Xinhua,Guichao,Boai,Lida,Tianpeng,Muyang,Xisa,Xingjie,Fadou,Dongma,Lianhua,Benzhai,Gela",
     "status": "COMPLETE"
@@ -10464,7 +10404,7 @@ window.asiaNameBases = [
     "i": 1061,
     "min": 3,
     "max": 13,
-    "d": "nic-GH",
+    "d": "",
     "m": 0,
     "b": "Noi Thon Village,Ha Quang District,Vietnam,Jingxi County,Guangxi,Nung Ven,Buyang,Gelao,Lachi,Laha,Qabiao,Paha,Langjia,Ecun,Yalang,Dugan,Zhelong,Nada,Longna,Maguan,Nianlang,Gula Township,Funing County,Wenshan Prefecture,Yunnan,Napo County,Rongtun,Gonghe,Shanhe,Yong an,Guoba,Renhecun,Guangnan County,Yanglian,Anshe,Pohe Township,Ha Giang Province,Lao Cai Province,Son La Province",
     "status": "COMPLETE"
@@ -10474,7 +10414,7 @@ window.asiaNameBases = [
     "i": 855,
     "min": 4,
     "max": 11,
-    "d": "nic-GH",
+    "d": "",
     "m": 0,
     "b": "Barpak,Kyaura,Laprak,Uiya,Jagat,Philim,Nyak,Bihi,Chak,Rana,Prok,Sirdibas,Khorla,Saurpani,Gorkha,Arughat,Ghyachchok,Chumchet",
     "status": "WAITING"
@@ -10494,7 +10434,7 @@ window.asiaNameBases = [
     "i": 856,
     "min": 3,
     "max": 13,
-    "d": "nic-GH",
+    "d": "",
     "m": 0,
     "b": "Sahartara,Tupatara,Tarakot,Belawa,Lingdu,Namdel,Samteling,Shahartara,Tarang,Tichen,Gumba Tara,Kane,Bhantara,Lawan,Riwa,Dunai,Juphal,Tichurong Valley,Dolpa District,Karnali Province,Bheri River,Tibrikot,Magar,Tamangic,Tarali",
     "status": "COMPLETE"
@@ -10506,7 +10446,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Kisan (Kurukh dialect),Ahmedabad,Trashigang,Cuttack,Darjeeling,Thiruvananthapuram,Vijayawada,Larkana,Mangalore,Vadodara,Kochi,Negombo,Dehradun,Rajahmundry,Chennai,Mymensingh,Gwadar,Silchar,Sialkot,Jhang,Rourkela,Khanewal,Badulla,Visakhapatnam,Haridwar",
+    "b": "Ranchi,Hazaribagh,Bokaro,Dhanbad,Giridih,Koderma,Chatra,Latehar,Palamu,Medininagar,Lohardaga,Gumla,Simdega,Khunti,Ramgarh,Chaibasa,Saraikela,Jamshedpur,Purulia,Jhalda,Baghmundi,Baripada,Karanjia,Jashipur,Udala,Keonjhar,Rourkela,Bamra,Rajnagarpur,Biramitrapur,Gomia,Chandrapura,Bhojudih,Nawagaon,Jamtara,Dumka,Godda,Sahebganj",
     "status": "COMPLETE"
   },
   {
@@ -10534,7 +10474,7 @@ window.asiaNameBases = [
     "i": 848,
     "min": 4,
     "max": 11,
-    "d": "nic-GH",
+    "d": "",
     "m": 0,
     "b": "Pangma,Angala,Higuwa,Khorande,Bardeu,Gairiaula,Malta,Sitalpati,Dhupu,Bodhe,Mounabudhuk,Bhedetar,Rajaran,Devitar,Khartuwa,Magawa,Masapten,Sekaha,Ghondey,Ghotane,Lamichhane,Manebhanjyang",
     "status": "WAITING"
@@ -10574,7 +10514,7 @@ window.asiaNameBases = [
     "i": 845,
     "min": 4,
     "max": 11,
-    "d": "nic-GH",
+    "d": "",
     "m": 0,
     "b": "Khandbari,Chainpur,Num,Madi,Tamku,Barmaga,Tumlingtar,Yaphu,Bala,Chirkhuwa,Yamdang,Chhoyang,Sisuwakhola,Pathibhara,Diding,Matsepokhari,Shitalpati,Dhupu,Keurepani,Mulpani,Papung,Nepaledanda,Dobhane,Khatamma,Kulung",
     "status": "COMPLETE"
@@ -10594,7 +10534,7 @@ window.asiaNameBases = [
     "i": 1062,
     "min": 4,
     "max": 11,
-    "d": "nic-GH",
+    "d": "",
     "m": 0,
     "b": "Nuoxi,Lianmin,Xiaohuang,Tianluoxuan",
     "status": "WAITING"
@@ -10626,8 +10566,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Oroch,Pyongyang,Anadyr,Suntar,Saskylakh,Zhigansk,Magadan,Norilsk,Khatanga,Beringovsky,Tigil,Olyokminsk,Romanovka,Provideniya,Uelen,Barguzin,Khandyga,Parabel,Myaundzha,Verkhoyansk,Yelizovo,Yakutsk,Esso,Susuman,Klyuchi,Pevek",
-    "status": "COMPLETE"
+    "b": "Vanino,Sovetskaya Gavan,Amursk,Komsomolsk-on-Amur,Nikolaevsk-on-Amur,Datta,Uska-Orochskaya,Kennada,Snezhny,Gatka,Sovety Ilyicha,Novoye Ommi,Chumikan,Tuguro-Chumikansky,De-Kastri,Nelkan,Lazarev,Kikh,Arsenyevo,Ayan,Imeni Poliny Osipenko,Solnechny,Ulcha,Aykhan",
+    "status": "WAITING"
   },
   {
     "name": "Orok",
@@ -10664,7 +10604,7 @@ window.asiaNameBases = [
     "i": 850,
     "min": 4,
     "max": 11,
-    "d": "nic-GH",
+    "d": "",
     "m": 0,
     "b": "Diplung,Mauwabote,Devisthan,Pauwasera,Chisapani,Beltar,Saunechour,Siddipur,Madibas,Basaha,Chaudandi,Cabalokkha",
     "status": "WAITING"
@@ -10674,7 +10614,7 @@ window.asiaNameBases = [
     "i": 852,
     "min": 4,
     "max": 11,
-    "d": "nic-GH",
+    "d": "",
     "m": 0,
     "b": "Saidor,Bogia,Madang,Bongu,Garagasi,Biliau,Kepolak,Baru,Mamgak,Mur,Umboldi,Kakimar,Yaimas,Waibol,Sibog,Suri,Bagalawa,Lamtup,Maibang,Yorkia,Sari,Sorang,Kiambaui,Matako,Gogou,Sarakiri,Kwongo,Wado,Simimididi,Wongetuo,Ganglau,Orinma,Mebu,Batoto,Matafun,Bok,Malala,Kul,Bangri,Bang,Boram,Male,Lalok,Kulel,Saipa,Bom,Jamjam,Kwato,Erima,Ato,Ileg,Bogadjim,Sawoi,Sio",
     "status": "COMPLETE"
@@ -10904,7 +10844,7 @@ window.asiaNameBases = [
     "i": 265,
     "min": 4,
     "max": 11,
-    "d": "nic-GH",
+    "d": "",
     "m": 0,
     "b": "Aden,Taiz,Ibb,Crater,Tawahi,Mualla,Al Mansura,Sheikh Othman,Dar Sad,Khur Maksar,Al Buraiqa,Dimnat Chadir,Hais,Mocha,Jibla,Mukayras,Wadi Dawan,At Tawilah,Dammaj,Mawza,Maqbanah,Hayfan,Al Mukha,Al Mawasit,Shara'b Ar Rawnah,Dhi as-Sufal,Yarim,Zinjibar,Mudiyah,Lahij,Kawkaban",
     "status": "COMPLETE"
@@ -10914,7 +10854,7 @@ window.asiaNameBases = [
     "i": 266,
     "min": 4,
     "max": 11,
-    "d": "nic-GH",
+    "d": "",
     "m": 0,
     "b": "Aleppo,Afrin,Atarib,Ayn al-Arab,A'zaz,Al-Bab,Al-Safira,Dayr Hafir,Jarabulus,Manbij,Idlib,Arihah,Harem,Jisr ash-Shugur,Maarat al-Numaan,Kafr Takharim,Saraqib,Latakia,Jableh,Qardaha,Al-Haffah,Kessab,Manjila,Qaranjah,Salma,Tartus,Baniyas,Dreikiche,Safita,Hama,Masyaf,Mhardeh,Al-Suqaylabiyah,Raqqa,Tabqa,Al-Qusayr,Deir ez-Zor,Mayadin,Abu Kamal,Tell Abyad",
     "status": "COMPLETE"
@@ -10924,7 +10864,7 @@ window.asiaNameBases = [
     "i": 268,
     "min": 4,
     "max": 11,
-    "d": "nic-GH",
+    "d": "",
     "m": 0,
     "b": "",
     "status": "WAITING"
@@ -10934,7 +10874,7 @@ window.asiaNameBases = [
     "i": 862,
     "min": 4,
     "max": 11,
-    "d": "nic-GH",
+    "d": "",
     "m": 0,
     "b": "Palana,Tigil,Ossora,Karaga,Tilichiki,Klyuchi,UstKamchatsk,Milkovo,Kozyrevsk,Esso,Anavgai,Beringovsky",
     "status": "WAITING"
@@ -10944,7 +10884,7 @@ window.asiaNameBases = [
     "i": 866,
     "min": 4,
     "max": 11,
-    "d": "nic-GH",
+    "d": "",
     "m": 0,
     "b": "Taishan,Kaiping,Enping,Xinhui,Heshan,Jiangmen,Taicheng,Baisha,Shuibu,Xiqi,Sijiu,Doushan,Duhu,Chixi,Sanhe,Chonglou,Guanghai,Shenjing,Duanfen,Haiyan,Wencun,Naqin,Longkou,Changsha,Sanbu,Chikan,Yueliangwan",
     "status": "COMPLETE"
@@ -10954,7 +10894,7 @@ window.asiaNameBases = [
     "i": 1481,
     "min": 4,
     "max": 11,
-    "d": "nic-GH",
+    "d": "",
     "m": 0,
     "b": "Sanming,YongAn,ShaCounty,Meilie,Sanyuan",
     "status": "WAITING"
@@ -11244,7 +11184,7 @@ window.asiaNameBases = [
     "i": 203059,
     "min": 4,
     "max": 11,
-    "d": "nic-GH",
+    "d": "",
     "m": 0,
     "b": "Cairo,Alexandria,Giza,ShubraElKheima,PortSaid,Suez,Luxor,Mansoura,ElMahallaElKubra,Tanta,Asyut,Ismailia,Fayyum,Zagazig,Aswan,Damietta,Damanhur,Minya,BeniSuef,Qena,Sohag,Hurghada,KafrElSheikh,Mallawi,Banha,Bilbeis,BorgElArab,Desouk,DarElSalam,Dokki,Daraw,DeirMawas,Dekernes,Dishna,Edfu,Delengat,Heliopolis,Helwan,KafrElDawwar,KafrElZayat,KomHamada,Maadi,Maghaghah,Manfalut,MarinaElAlamein,MarsaAlam,Matay,Menouf,MitGhamr,MinyetElNasr,NagHammadi,Naqada,NewCairo,Obour,OldCairo,PortFuad,Qalyub,Quesna,Qus,Rosetta,SadatCity,Samalut,ShibinElKom,SidiSalem,Tala,Tahta,TellElKebir,Zamalek,Zeitoun,SixthOfOctober,TenthOfRamadan,ElGouna,Shorouk,Badr,NewBorgElArab,NewDamietta,NewMinya,NewSohag,NewQena,NewAsyut,NewFayyum,NewBeniSuef,NewIsmailia",
     "status": "COMPLETE"
@@ -11284,7 +11224,7 @@ window.asiaNameBases = [
     "i": 203196,
     "min": 4,
     "max": 11,
-    "d": "nic-GH",
+    "d": "",
     "m": 0,
     "b": "",
     "status": "WAITING"
@@ -11294,7 +11234,7 @@ window.asiaNameBases = [
     "i": 203208,
     "min": 4,
     "max": 11,
-    "d": "nic-GH",
+    "d": "",
     "m": 0,
     "b": "",
     "status": "WAITING"

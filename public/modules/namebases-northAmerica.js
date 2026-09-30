@@ -396,7 +396,7 @@ window.northAmericaNameBases = [
     "max": 28,
     "d": "lnrt",
     "m": 0,
-    "b": "Quebec City,Trois-Rivières,Sherbrooke,Saguenay,Lévis,Longueuil,Laval,Gatineau,Rimouski,Saint-Jérôme,Saint-Hyacinthe,Rouyn-Noranda,Val-d'Or,Sept-Îles,La Tuque,Alma,Jonquière,Shawinigan,Thetford Mines,Matane,Rivière-du-Loup,Saint-Georges,Montmagny,Asbestos,Windsor,Magog,Granby,Saint-Jean-sur-Richelieu,Chambly,Brossard,Saint-Lambert,Repentigny,Joliette,Rawdon,Saint-Lin,Val-des-Sources,Amos,La Sarre,Témiscaming,Ville-Marie,Notre-Dame-du-Nord,Laverlochère,Angliers,Guérin,Reynaud,Clerval,Latulipe,Champneuf,Senneterre,Barbel,Trécesson,Champigny,Launay,Corbeil,Notre-Dame-de-la-Merci,Entrelacs,Assomption,L'Épiphanie,Saint-Roch-de-l'Achigan,Saint-Alexis,Saint-Calixte,Sainte-Julienne,Saint-Liguori,Saint-Charles-Borromée,Saint-Paul,Saint-Pierre,Saint-Alphonse-Rodriguez,Saint-Ambroise-de-Kildare,Saint-Barthélemy,Saint-Cléophas,Saint-Cuthbert,Saint-Damien,Saint-Édouard-de-Fabre,Saint-Édouard-de-Lotbinière,Saint-Esprit,Saint-Félix-de-Valois,Saint-François-de-Sales,Saint-Gabriel,Saint-Gabriel-de-Brandon,Saint-Gérard-Majella,Saint-Henri-de-Taillon,Saint-Ignace-de-Loyola,Saint-Isidore,Saint-Jacques,Saint-Jacques-de-Leeds,Saint-Jean-de-Matha,Saint-Joseph-de-Beauce,Saint-Joseph-de-Coleraine,Saint-Jude,Saint-Just-de-Bretenières,Saint-Lazare,Séon,Drummondville,Beauceville,Plessisville,Victoriaville,Cowansville,Boucherville",
+    "b": "Montreal,Quebec City,Trois-Rivières,Sherbrooke,Saguenay,Lévis,Longueuil,Laval,Gatineau,Rimouski,Saint-Jérôme,Saint-Hyacinthe,Rouyn-Noranda,Val-d'Or,Sept-Îles,La Tuque,Alma,Jonquière,Shawinigan,Thetford Mines,Matane,Rivière-du-Loup,Saint-Georges,Montmagny,Asbestos,Windsor,Magog,Granby,Saint-Jean-sur-Richelieu,Chambly,Brossard,Saint-Lambert,Repentigny,Joliette,Rawdon,Saint-Lin,Val-des-Sources,Amos,La Sarre,Témiscaming,Ville-Marie,Notre-Dame-du-Nord,Laverlochère,Angliers,Guérin,Reynaud,Clerval,Latulipe,Champneuf,Senneterre,Barbel,Trécesson,Champigny,Launay,Corbeil,Notre-Dame-de-la-Merci,Entrelacs,Assomption,L'Épiphanie,Saint-Roch-de-l'Achigan,Saint-Alexis,Saint-Calixte,Sainte-Julienne,Saint-Liguori,Saint-Charles-Borromée,Saint-Paul,Saint-Pierre,Saint-Alphonse-Rodriguez,Saint-Ambroise-de-Kildare,Saint-Barthélemy,Saint-Cléophas,Saint-Cuthbert,Saint-Damien,Saint-Édouard-de-Fabre,Saint-Édouard-de-Lotbinière,Saint-Esprit,Saint-Félix-de-Valois,Saint-François-de-Sales,Saint-Gabriel,Saint-Gabriel-de-Brandon,Saint-Gérard-Majella,Saint-Henri-de-Taillon,Saint-Ignace-de-Loyola,Saint-Isidore,Saint-Jacques,Saint-Jacques-de-Leeds,Saint-Jean-de-Matha,Saint-Joseph-de-Beauce,Saint-Joseph-de-Coleraine,Saint-Jude,Saint-Just-de-Bretenières,Saint-Lazare,Séon,Drummondville,Beauceville,Plessisville,Victoriaville,Cowansville,Boucherville",
     "status": "COMPLETE"
   },
   {
@@ -673,7 +673,7 @@ window.northAmericaNameBases = [
     "i": 2316,
     "min": 5,
     "max": 18,
-    "d": "abcdefghijklmnopqrstuvwxyz 'ȟǧáéíóúŋABCDEF... (Lakota Latin alphabet plus ȟ ǧ ʼ and acute/nasal diacritics)",
+    "d": "",
     "m": 0.38,
     "b": "Rosebud,Cheyenne River,Standing Rock,Flandreau,Lower Brule,Eagle Butte,Pine Ridge,Oglala,Kyle,Manderson,Wanblee,Allen,Batesland,Porcupine,Wakpamni,Wounded Knee,Pine Ridge Reservation,Crow Creek,Maȟpíya Lúta,Pahá Sápa,Mní Wičhóni,Čaŋkpé Opí,Heȟáka,Thúŋwaŋ,Oglála,Wakpá Wašté,Íŋyaŋ Woslál Háŋ,Sičháŋǧu Oyáte,Khulwíčhaša Oyáte,Wazí Aháŋhaŋ Oyáŋke",
     "status": "COMPLETE"
@@ -685,8 +685,8 @@ window.northAmericaNameBases = [
     "max": 28,
     "d": "lnrt",
     "m": 0.9,
-    "b": "San Juan Bautista Cuicatlan,San Pedro Tepeuxila,Santa Maria Pápalo,Santiago Nacaltepec,Santo Tomas Tepeuxila,Concepcion Pápalo,San Andres Teotilalpam,San Antonio Eloxochitlan,San Bartolome Ayautla,San Felipe Usila,San Francisco Chapulapa,San Juan Bautista Atatlahuca,San Juan Bautista Coixtlahuaca,San Juan Bautista Tlachichilco,San Juan Bautista Valle Nacional,San Lucas Ojitlan,San Miguel Soyaltepec,San Pedro Ixcatlan,San Pedro Pochutla,Santa Ana Ateixtlahuaca,Santa Cruz Acatepec,Santa Maria Chilchotla,Santa Maria Tecomavaca,Santa Maria Yolotepec,Santiago Choapam,Santo Domingo Teojomulco",
-    "status": "COMPLETE"
+    "b": "San Juan Bautista Cuicatlan,San Pedro Tepeuxila,Santo Tomas Tepeuxila,San Pedro Teutila,Santa Maria Pápalo,Concepcion Pápalo,Santiago Nacaltepec",
+    "status": "WAITING"
   },
   {
     "name": "Ahtna",
@@ -865,8 +865,8 @@ window.northAmericaNameBases = [
     "max": 30,
     "d": "lnrt",
     "m": 0.9,
-    "b": "San Juan Bautista Tuxtepec,Valle Nacional,San Felipe Usila,Santiago Choapam,Santa Maria Chilchotla,San Andres Tenejapa,San Andres Teotilalpam,San Antonio Eloxochitlan,San Bartolome Ayautla,San Carlos Yautepec,San Francisco Chapulapa,San Francisco Huehuetlan,San Juan Bautista Cuicatlan,San Lucas Ojitlan,San Miguel Soyaltepec,San Pedro Ixcatlan,San Pedro Pochutla,Santa Ana Ateixtlahuaca,Santa Cruz Acatepec,Santa Cruz Amilpas,Santa Maria Tecomavaca,Santa Maria Yolotepec,Santiago Comaltepec,Santiago Ihuitlan Plumas,Santiago Jocotepec,Santo Domingo Teojomulco",
-    "status": "COMPLETE"
+    "b": "Santa Maria Nativitas,San Juan Bautista Coixtlahuaca,San Miguel Tulancingo",
+    "status": "WAITING"
   },
   {
     "name": "Ixcatec",
@@ -875,8 +875,8 @@ window.northAmericaNameBases = [
     "max": 30,
     "d": "lnrt",
     "m": 0.9,
-    "b": "Santa Maria Ixcatlan,Huautla de Jimenez,Jalapa de Diaz,San Jose Tenango,San Lucas Ojitlan,San Juan Bautista Atatlahuca,San Juan Bautista Coixtlahuaca,San Juan Bautista Cuicatlan,San Juan Bautista Tlachichilco,San Juan Bautista Valle Nacional,San Mateo Yoloxochitl,San Pedro Ixcatlan,Santa Maria Chilchotla,Santa Maria Tecomavaca,Santa Maria Yolotepec,Santiago Choapam,Santo Domingo Ingenio,Santo Tomas Ocotepec,San Felipe Usila,San Miguel Soyaltepec,San Pedro Pochutla,San Andres Teotilalpam,San Antonio Eloxochitlan,San Bartolome Ayautla,San Lorenzo Cuaunecuiltitlan,Santa Ana Ateixtlahuaca,Santa Cruz Acatepec,Santiago Texcalcingo,Santo Domingo Teojomulco",
-    "status": "COMPLETE"
+    "b": "Santa Maria Ixcatlan",
+    "status": "WAITING"
   },
   {
     "name": "Dena'ina",
@@ -1185,8 +1185,8 @@ window.northAmericaNameBases = [
     "max": 24,
     "d": "lnrt",
     "m": 0,
-    "b": "San Francisco Oxtotilpan,Temascaltepec,San Felipe del Progreso,San Lucas Ocotepec,Temoaya,San Antonio la Isla,Toluca,Metepec,Calimaya,Tenango del Valle,Almoloya de Juarez,Zinacantepec,Otzoloapan,Villa Guerrero,Coatepec Harinas,Ixtapan de la Sal,Tonatico,Zumpahuacan,Almoloya del Rio,Joquicingo,Ocuilan,Chalco,Xalatlaco,Capulhuac,Santiago Tianguistenco",
-    "status": "COMPLETE"
+    "b": "San Francisco Oxtotilpan",
+    "status": "WAITING"
   },
   {
     "name": "Mazahua",
@@ -1195,8 +1195,8 @@ window.northAmericaNameBases = [
     "max": 23,
     "d": "lnrt",
     "m": 0,
-    "b": "San Felipe del Progreso,San Lucas Ocotepec,Temoaya,San Antonio la Isla,Toluca,Metepec,Calimaya,Tenango del Valle,Almoloya de Juarez,Zinacantepec,Otzoloapan,Temascaltepec,Villa Guerrero,Coatepec Harinas,Ixtapan de la Sal,Tonatico,Zumpahuacan,Almoloya del Rio,Joquicingo,Ocuilan,Chalco,Xalatlaco,Capulhuac,Santiago Tianguistenco,Ixtlahuaca,Atlacomulco,Aculco,Jilotepec,Timilpan,Villa del Carbon",
-    "status": "COMPLETE"
+    "b": "Almoloya de Juarez,Atlacomulco,Donato Guerra,El Oro,Ixtapan del Oro,Ixtlahuaca,Jocotitlán,San Felipe del Progreso,San José del Rincón,Temascalcingo,Villa de Allende,Villa Victoria",
+    "status": "WAITING"
   },
   {
     "name": "Mayo",
@@ -1329,17 +1329,7 @@ window.northAmericaNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "Bahamian Creole (dedicated)",
-    "i": 20107,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Nassau,Freeport,West End,Coopers Town,Rock Sound,Arthur's Town,George Town,Matthew Town,Cockburn Town,Duncan Town,Clarence Town,Spring Point,Deadman's Cay,Sweeting's Cay,Black Point,Lower Bogue,Great Harbour Cay,Bimini,Cat Island,Long Island,Exuma,Eleuthera,Abaco,Andros,Grand Bahama,New Providence",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Bajan Creole (dedicated)",
+    "name": "Jamaican Maroon Creole",
     "i": 20108,
     "min": 4,
     "max": 11,
@@ -1349,13 +1339,13 @@ window.northAmericaNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "Belizean Creole (dedicated)",
-    "i": 20109,
+    "name": "Belizean Creole",
+    "i": 200628,
     "min": 4,
-    "max": 11,
+    "max": 23,
     "d": "lnrt",
-    "m": 0,
-    "b": "Belize City,Belmopan,San Ignacio,Santa Elena,Orange Walk Town,Corozal Town,Dangriga,Punta Gorda,San Pedro,Benque Viejo del Carmen,Caye Caulker,Bermudian Landing,Burrell Boom,Ladyville,Maskall,May Pen,Sandhill,Scotland Halfmoon,Willows Bank,Crooked Tree,Flowers Bank,Freetown Sibun,Double Head Cabbage,Corozalito,Sarteneja,Xaibe,Patchakan,Progresso,Consejo,Copper Bank,Concepcion,Libertad,Caledonia,Trial Farm,Tower Hill,Shipyard,San Luis,San Pablo,San Roman,Santa Cruz,Santa Marta,Blue Creek,Trinidad,Yo Creek,San Lazaro,Spanish Lookout,San Marcos,San Jose Succotz,Teakettle,Unitedville,Upper Barton Creek,Valley of Peace,Armenia,Buena Vista,Placencia,Hopkins,Sittee River,Independence,Maya Center,Maya Mopan,Seine Bight,Silk Grass,Mullins River,Steadfast,Red Bank,Santa Rosa,Sarawee,Cow Pen,Middlesex,Alta Vista",
+    "m": 0.34,
+    "b": "Belize City,Belmopan,San Ignacio,Orange Walk Town,Corozal Town,Dangriga,Punta Gorda,Benque Viejo del Carmen,Placencia,Hopkins,Sarteneja,Crooked Tree,Caye Caulker,San Pedro,Ladyville,Burrell Boom,Freetown Sibun,Maskall,Alta Vista,San Antonio,San Felipe,San Jose Succotz,Spanish Lookout,Arenal,Consejo,Copper Bank,Gracie Rock,Independence,Lagoon,Mullins River,Progresso,Rancho Dolores,Sandhill,Sittee River,Gales Point,Hattieville,Big Falls,Upper Barton Creek,Santa Elena,Bermudian Landing,May Pen,Scotland Halfmoon,Willows Bank,Flowers Bank,Double Head Cabbage,Corozalito,Xaibe,Patchakan,Concepcion,Libertad,Caledonia,Trial Farm,Tower Hill,Shipyard,San Luis,San Pablo,San Roman,Santa Cruz,Santa Marta,Blue Creek,Trinidad,Yo Creek,San Lazaro,San Marcos,Teakettle,Unitedville,Valley of Peace,Armenia,Buena Vista,Maya Center,Maya Mopan,Seine Bight,Silk Grass,Steadfast,Red Bank,Santa Rosa,Sarawee,Cow Pen,Middlesex",
     "status": "COMPLETE"
   },
   {
@@ -1489,16 +1479,6 @@ window.northAmericaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Joual",
-    "i": 21006,
-    "min": 4,
-    "max": 28,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Montreal,Quebec City,Trois-Rivières,Sherbrooke,Saguenay,Lévis,Longueuil,Laval,Gatineau,Rimouski,Saint-Jérôme,Saint-Hyacinthe,Rouyn-Noranda,Val-d'Or,Sept-Îles,La Tuque,Alma,Jonquière,Shawinigan,Thetford Mines,Matane,Rivière-du-Loup,Saint-Georges,Montmagny,Asbestos,Windsor,Magog,Granby,Saint-Jean-sur-Richelieu,Chambly,Brossard,Saint-Lambert,Repentigny,Joliette,Rawdon,Saint-Lin,Val-des-Sources,Amos,La Sarre,Témiscaming,Ville-Marie,Notre-Dame-du-Nord,Laverlochère,Angliers,Guérin,Reynaud,Clerval,Latulipe,Champneuf,Senneterre,Barbel,Trécesson,Champigny,Launay,Corbeil,Notre-Dame-de-la-Merci,Entrelacs,Assomption,L'Épiphanie,Saint-Roch-de-l'Achigan,Saint-Alexis,Saint-Calixte,Sainte-Julienne,Saint-Liguori,Saint-Charles-Borromée,Saint-Paul,Saint-Pierre,Saint-Alphonse-Rodriguez,Saint-Ambroise-de-Kildare,Saint-Barthélemy,Saint-Gabriel,Saint-Gabriel-de-Brandon,Saint-Gérard-Majella,Saint-Henri-de-Taillon,Saint-Ignace-de-Loyola,Saint-Isidore,Saint-Jacques,Saint-Jacques-de-Leeds,Saint-Jean-de-Matha,Saint-Joseph-de-Beauce,Saint-Joseph-de-Coleraine,Saint-Jude,Saint-Just-de-Bretenières,Saint-Lazare,Séon,Drummondville,Beauceville,Plessisville,Victoriaville,Cowansville,Boucherville",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Chiac",
     "i": 21117,
     "min": 4,
@@ -1526,16 +1506,6 @@ window.northAmericaNameBases = [
     "d": "lnrt",
     "m": 0.27,
     "b": "Bridgetown,Holetown,Oistins,Speightstown,Warrens,Black Rock,Folkestone,Fontabelle,Pinelands,Station Hill,Goodland,Carrington Village,Thyme Bottom,White Hill,St.George,St.Philip,St.Thomas,St.James,St.Michael,Christ Church,St.Peter,St.Andrew,St.Lucy,St.Joseph,St.John,St.Mary,St.Paul",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Belizean Creole",
-    "i": 200628,
-    "min": 4,
-    "max": 23,
-    "d": "lnrt",
-    "m": 0.34,
-    "b": "Belize City,Belmopan,San Ignacio,Orange Walk Town,Corozal Town,Dangriga,Punta Gorda,Benque Viejo del Carmen,Placencia,Hopkins,Sarteneja,Crooked Tree,Caye Caulker,San Pedro,Ladyville,Burrell Boom,Freetown Sibun,Maskall,Alta Vista,San Antonio,San Felipe,San Jose Succotz,Spanish Lookout,Arenal,Consejo,Copper Bank,Gracie Rock,Independence,Lagoon,Mullins River,Progresso,Rancho Dolores,Sandhill,Sittee River,Gales Point,Hattieville,Big Falls,Upper Barton Creek",
     "status": "COMPLETE"
   },
   {
@@ -1785,7 +1755,7 @@ window.northAmericaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Cayenne,Kourou,Saint-Laurent-du-Maroni,Matoury,Remire-Montjoly,Macouria,Mana,Maripasoula,Grand-Santi,Apatou,Papaïchton,Camopi,Awala-Yalimapo,Sinnamary,Iracoubo,Roura,Balata-Tekou-Tou,Cacao,Charvein-Montsinéry,Tonnegrande,Placoly,Bois Chaud,La Désirade,Îles du Salut,Roche Saint-Joseph,Bourg de Kourou,Saint-Élie,Trois Sauts,Dacca,Pointe Isère",
+    "b": "Cayenne,Kourou,Saint-Laurent-du-Maroni,Matoury,Remire-Montjoly,Macouria,Mana,Maripasoula,Grand-Santi,Apatou,Papaïchton,Camopi,Awala-Yalimapo,Sinnamary,Iracoubo,Roura,Balata-Tekou-Tou,Cacao,Charvein-Montsinéry,Tonnegrande,Placoly,Bois Chaud,Îles du Salut,Roche Saint-Joseph,Bourg de Kourou,Saint-Élie,Trois Sauts,Dacca,Pointe Isère",
     "status": "COMPLETE"
   },
   {

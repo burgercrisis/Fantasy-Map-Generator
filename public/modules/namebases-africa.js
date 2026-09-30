@@ -260,16 +260,6 @@ window.africaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Bassa",
-    "i": 494,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Eseka,Makak,Matomb,Boumnyebel,Messondo,Biyouha,Ngog-Mapubi,Bot-Makak,Bondjock,Ngui-Bassal,Edea,Ngambe,Ndom,Pouma,Dibamba,Mouanko,Ngwei,Nyanon,Massock,Yabassi,Nkondjock,Ndobian,Malimba,Bassa,Bikok,Logasse,Logkat,Ndogmbock,Babimbi,Bakem",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Shilluk",
     "i": 500,
     "min": 4,
@@ -446,7 +436,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0.1,
-    "b": "Kortchi,Mokolo,Mora,Koza,Meri,Bourrha,Kalfou,Limani,Kolofata,Tokombere,Kerawa,Ziver,Hitawa,Bourha,Maroua,Gazawa,Fotokol,Far North Province,Mayo-Tsanaga Division,Mokolo Subdivision,Canton Matakam-South,Matakam-South,Cuvok,Mafa,Mefele,Daba,Hina,Mina,Gavar,Gawar,Gavar-Fulfulde,Mse Mountain,Mandara Mountains,Bual",
+    "b": "Kortchi,Mokolo,Mora,Koza,Meri,Bourrha,Kalfou,Limani,Kolofata,Tokombere,Kerawa,Ziver,Hitawa,Bourha,Maroua,Gazawa,Fotokol,Far North Province,Mayo-Tsanaga Division,Mokolo Subdivision,Canton Matakam-South,Matakam-South,Cuvok,Mafa,Mefele,Daba,Hina,Mina,Mse Mountain,Mandara Mountains,Bual",
     "status": "COMPLETE"
   },
   {
@@ -886,8 +876,8 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Windhoek,Swakopmund,Walvis Bay,Keetmanshoop,Gobabis,Mariental,Rehoboth,Luderitz,Oranjemund,Rundu,Katima Mulilo,Oshakati,Ondangwa,Tsumeb,Grootfontein,Otjiwarongo,Okahandja,Gibeon,Bethanie,Gochas,Aroab,Noordoewer,Upington,Kalahari,Etosha,Damaraland,Namib Desert,Botswana,South Africa,Nama,Dama,Hai||om,ǂĀkhoe,ǂNūkhoen,ǁUbun,ǂAoni,ǀXam,ǁGâen",
-    "status": "COMPLETE"
+    "b": "Gibeon,Bethanie,Gochas,Aroab,Noordoewer,Upington,Kalahari,Etosha,Damaraland,Namib Desert,Botswana,South Africa,Nama,Dama,Hai||om,ǂĀkhoe,ǂNūkhoen,ǁUbun,ǂAoni,ǀXam,ǁGâen",
+    "status": "WAITING"
   },
   {
     "name": "Somali",
@@ -1496,7 +1486,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Mbaïki,Boda,Bagandu,Bagandou,Lobaye Prefecture,Sangha-Mbaéré Prefecture,Likouala Department,Ubangi River,Sangha River,Central African Republic,Republic of Congo,Lobe,Ngotto,Mongomassi,Kobadja,Kobadja 2,Bokolanga,Moale,Ndele,Yem,Yongo,Koumbala,Bossembele,Bozoum,Bangui,Berberati,Dzanga-Sangha,Ndoki,Nouabale-Ndoki,Odzala,Likouala,Mbomo,Epena,Impfondo,Bétou,Dongou,Imbondo,Mossaka,Souanke,Mokeko,Kellé,Boundji,Lastourville,Franceville,Oyem,Bitam,Minvoul,Mitzic,Medouneu,Mekambo,Makokou,Lastoursville,Mouila,Tchibanga,Gamba,Mayumba,Omboue,Fougamou,Ogooue River,Ogooue Estuary,Ivindo River,Woleu River,Ntem River,Kom River,Muni River,Mbini River,Kie River,Wele Nzas Province,Centro Sur Province,Kie-Ntem Province,Woleu-Ntem Province,Ogooue-Ivindo Province,Ogooue-Lolo Province,Ogooue-Maritime Province,Haut-Ogooue Province,Ngounie Province,Nyanga Province",
+    "b": "Mbaïki,Boda,Bagandu,Bagandou,Lobaye Prefecture,Sangha-Mbaéré Prefecture,Likouala Department,Ubangi River,Sangha River,Central African Republic,Republic of Congo,Lobe,Ngotto,Mongomassi,Kobadja,Kobadja 2,Bokolanga,Moale,Ndele,Yem,Yongo,Koumbala,Bossembele,Bozoum,Bangui,Berberati,Dzanga-Sangha,Ndoki,Nouabale-Ndoki,Odzala,Likouala,Mbomo,Epena,Impfondo,Bétou,Dongou,Imbondo,Mossaka,Souanke,Mokeko,Kellé,Boundji",
     "status": "COMPLETE"
   },
   {
@@ -2276,8 +2266,8 @@ window.africaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Keffi,Lafia,Akwanga,Awe,Keana,Oto,Doma,Obi,Agatu,Otukpo,Ugbokpo,Gboko,Aliade,Vandeikya,Katsina-Ala,Zaki Biam,Mongu,Sesheke,Sioma,Kalabo,Lukulu,Shangombo,Kwamashi,Limakazo,Namibia,Cadaado,Bardhere,Wangwana,Keumbu,Witu,Lokitaung,Baydhabo,Jalalaqsi,Luq,Mafisini,Rangwe,Takwa,Dimeka,Sablaale,Yubbe,Adibwa,Afulka,Akitla,Alibwa,Apetla,Amegla,Amenka,Amiswa,Abarla,Akibla,Alikwa,Aokla,Aidka,Akitka,Aligwa",
-    "status": "COMPLETE"
+    "b": "Keffi,Lafia,Akwanga,Awe,Keana,Oto,Doma,Obi,Agatu,Otukpo,Ugbokpo,Gboko,Aliade,Vandeikya,Katsina-Ala,Zaki Biam",
+    "status": "WAITING"
   },
   {
     "name": "Eman",
@@ -2366,8 +2356,8 @@ window.africaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Jos,Riyom,Mangu,Bokkos,Pankshin,Shendam,Langtang,Wase,Keffi,Lafia,Akwanga,Awe,Keana,Oto,Doma,Obi,Agatu,Otukpo,Ugbokpo,Gboko,Aliade,Vandeikya,Katsina-Ala,Zaki Biam,Kindia,Bukuru",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Kwanyama",
@@ -2390,16 +2380,6 @@ window.africaNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "Gonga",
-    "i": 11082,
-    "min": 4,
-    "max": 12,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Bonga,Tepi,Mizan Teferi,Decha,Gesha,Gewata,Ginbo,Adiyo,Chena,Cheta,Deka,Sayilem,Telo,Wacha,Shishinda,Awurada,Bita,Goba,Menjiwo,Amilma,Akokta,Afagra,Akinta,Apolma,Afumta,Autma,Apuma,Anurta,Aelta,Adokma,Amasra,Afogta,Abesma,Adata",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Geji",
     "i": 11138,
     "min": 3,
@@ -2416,8 +2396,8 @@ window.africaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Bafang,Fotouni,Nufi,Bangangté,Bafoussam,Dschang,Mbouda,Bamboutos,Dar es Salaam,Dodoma,Arusha,Mwanza,Tanga,Mbeya,Songea,Kigoma,Tabora,Morogoro,Iringa,Shinyanga,Kagera,Ruvuma,Mongu,Sesheke,Sioma",
-    "status": "COMPLETE"
+    "b": "Bafang,Fotouni,Nufi,Bangangté,Bafoussam,Dschang,Mbouda,Bamboutos",
+    "status": "WAITING"
   },
   {
     "name": "Fon",
@@ -2986,8 +2966,8 @@ window.africaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Kadugli,Dilling,Lagawa,Rashad,Talodi,Karondi,Talassa,Abu Jebha,Jebel Dango,Kassara,Kebkabiya,Koltogola,Koya,Lado,Marla,Mideir,Mirmi,Mogola,Muglad,Murtah,Narma,Nukhn,Rizeigat,Rubatab,Rufa a,Sawarda,Sindi,Sirba,Tabat,Tafei,Taiba,Tandalti,Tegale,Tidi,Tingideis,Tinja,Tireis,Tolubi,Tongeren,Torit,Tulluk,Karondiwa,Karondita,Karondibwe,Talassawa,Talassata,Talassabwe",
-    "status": "COMPLETE"
+    "b": "Kadugli,Karondi,Talassa,Tolubi,Karondiwa,Karondita,Karondibwe,Talassawa,Talassata,Talassabwe",
+    "status": "WAITING"
   },
   {
     "name": "Sandawe",
@@ -3176,8 +3156,8 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Annobón,Praia de Santa Cruz,Santo António de Palé,Aual,Anganchi,Bioko Island,Annobon Island,Equatorial Guinea,Bata,Ebebiyin,Mongomo,Aconibe,Micomeseng,Bitica,Cogo,Rio Campo,Acurenam,Ayene,Niefang,Kogo,Akonibe,Acalayong,Mbini,Rio Muni,Corisco,Bioko,Annobon,Annobonese,Fa d'Ambu,Falar de Ano Bom,Annobonese Creole",
-    "status": "COMPLETE"
+    "b": "Annobón,Praia de Santa Cruz,Santo António de Palé,Aual,Anganchi,Bioko Island,Annobon Island,Equatorial Guinea,Annobonese,Fa d'Ambu,Falar de Ano Bom,Annobonese Creole",
+    "status": "WAITING"
   },
   {
     "name": "Baca",
@@ -3796,8 +3776,8 @@ window.africaNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Bongor,Moundou,Sarh,Koumra,Moissala,Bébédjia,Gori,N'Djaména,Laal,Boua,Bagirmi,Miltu,Sarua,Gadang,Ndam,Mawa,Korbol,Am Timan,Abéché,Mongo,Ati,Biltine,Fada,Faya-Largeau,Bria,Oum Hadjer",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Budza",
@@ -6227,16 +6207,6 @@ window.africaNameBases = [
     "d": "",
     "m": 0,
     "b": "Shendam,Langung,Panyam,Balong,Jos,Pankshin,Mangu,Kabwir,Gindiri,Riyom,Barkin Ladi,Goechim,Mapen,Dok,Kamu,Kurgwi,Kwande,Kwallak,Nafuta,Namut,Lankon,Shimankar,Kagadama,Kagoro,Moro,Parakou'a,Chigwong,Pyem,Dok-Pai,Kofyar,Chakfem,Bwong,Chor,Yelwa,Bargoni,Chwele,Bukuru,Moro'a,Tunkus,Garkawa,Koenoem,Piapung,Montol,Hyel Ywom",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Yoruba alt code",
-    "i": 200218,
-    "min": 2,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Ibadan,Abeokuta,Oshogbo,Ilorin,Ile-Ife,Ado-Ekiti,Akure,Ogbomosho,Ilaro,Ede,Iwo,Eruwa,Iperu,Ota,Ifo,Ikorodu,Epe,Shagamu,Osogbo,Ilesa,Ife,Ijebu Ode,Sagamu,Badagry,Apomu,Gbongan,Ikirun,Ila Orangun,Okuku,Issyin,Okeho,Igbo Ora,Idoani,Idanre,Emure,Ir,Ise,Otun,Arigidi,Ilave,Sango-Otta",
     "status": "COMPLETE"
   },
   {
