@@ -81,7 +81,79 @@ const ALLOWED_REMOVALS = new Set([
     //          "Banat" - Timisoara, Arad, Lugoj, Resita, Caransebes, Oradea
     //          are the Banat of Romania and Serbia. The catalog's banat row,
     //          already Daco-Romanian, now lists it.
-    "ambo", "bana"
+    "ambo", "bana",
+    // Rows that had their namebase entry deleted, leaving a key that must not
+    // survive as a stub. mixer-map-resolution.test.js requires every row with
+    // "bases": [] to be a real catalog language that is not tagged as a family
+    // and not a reconstruction - a stub is a placeholder for un-researched
+    // work, not a slot for something that was found to be not a language.
+    //
+    // Reconstructions and rejected hypotheses, catalogued as Hypothetical or
+    // proposed groupings, so no speaker ever coined a name in them:
+    //   almosan          Sapir's 1929 Algonquian-Wakashan grouping, recorded as
+    //                    widely rejected
+    //   karasuk          van Driem's speculative Yenisei-Altai grouping; the
+    //                    catalog classes it Hypothetical / Proposed Groupings
+    //   uralic-yukaghir  a hypothesis linking Uralic and Yukaghir as one family,
+    //                    which the literature notes none of the proposed
+    //                    relations are generally accepted
+    //
+    // Dialect strata and groupings rather than languages:
+    //   sakhalin-dialects             a Sakhalin Ainu grouping
+    //   western-hilali-dialects       the post-Hilalian Maghrebi stratum
+    //   western-pre-hilali-dialects   the pre-Hilalian old-urban stratum
+    //
+    // Keys that are not in the catalog at all, so they were never languages
+    // this project tracked. Their entries were deleted as duplicates or as
+    // non-languages, and there is no correct entry to point them at:
+    //   mpu   a row left pointing at the unverifiable "Mo Piu"
+    //   okm   ISO Middle Korean, but the only candidate was a Silla Korean
+    //         entry, which is a different period, and no Old Korean entry exists
+    //   mkn   a duplicate key alongside the real iso for the same language
+    //   man   a macro-family row that had been pointed at a Mansi dialect
+    "almosan", "karasuk", "uralic-yukaghir",
+    "sakhalin-dialects", "western-hilali-dialects", "western-pre-hilali-dialects",
+    "mpu", "okm", "mkn", "man",
+    // The same case again for synthetic "x-" shadow keys. Each duplicated a real
+    // row; when the duplicate namebase entry was removed as a duplicate or as a
+    // non-language, the shadow had nothing left to point at. An "x-" key was
+    // never a language identifier - it is an internal alias - and none of these
+    // is in the catalog, so none can be a stub for un-researched work:
+    //   x-santa-suonanba          shadow of a Santa (Mong) subdialect that was
+    //                              merged into the Santa Mongol entry
+    //   x-castilian-spanish        shadow of a stale research-only Castilian copy
+    //   x-irish                    shadow of a research-only Irish copy
+    //   x-raute                    shadow of a research-only Raute copy whose
+    //                              seeds were Mexican and Chilean sites
+    //   x-yoshkar-olin            shadow of a research-only Yoshkar-Olin copy,
+    //                              which is a Russian city not a language
+    //   x-western-hilali-dialects  shadow of the deleted dialect stratum
+    //   x-tharu-languages          shadow of an umbrella that was not a language
+    //   x-south-korean             shadow of a deleted standard-variety row
+    "x-santa-suonanba", "x-castilian-spanish", "x-irish", "x-raute",
+    "x-yoshkar-olin", "x-western-hilali-dialects", "x-tharu-languages",
+    "x-south-korean",
+    // "pyo" is not an ISO 639-3 code for the language it was named for. Puyo is
+    // xpy (Puyo, Quechua) or xpp (Puyo-Paekche); "pyo" was a key invented from
+    // the name, and it had been pointing at a Middle Korean entry. It has never
+    // been a valid language identifier.
+    //
+    // "uralic-family" is a family macro, which cultures-generator.ts and
+    // races.ts both skip, so it can never contribute a name.
+    "pyo", "uralic-family",
+    // The remaining "x-" shadows, all following the same pattern: each was an
+    // internal alias for a real row, and each was left empty when the entry it
+    // pointed at was removed - a research-only copy that was never in the
+    // catalog, a town rather than a language (Porvoo, Yoshkar-Olin, Obdorsk,
+    // Yaran, Yaransk), a language that was merged into another entry (Mysy,
+    // Mina, Wadiyara Koli, Southern Tungusic, Udegheic, Sanoma, Finnish Savo),
+    // or a dedicated duplicate of a creole entry (Belizean, Bahamian). None is
+    // in the catalog, so none can be a stub for un-researched work:
+    "x-semisjaur-njarg", "x-likrisovskoe", "x-northeast-hungary", "x-tundra-enets",
+    "x-wadiyara-koli", "x-mysy", "x-momina", "x-judeo-italian-standard", "x-ludza",
+    "x-obdorsk", "x-porvoo", "x-yaransk", "x-yaran", "x-finnish-savo",
+    "x-belizean-creole-dedicated", "x-bahamian-creole-dedicated",
+    "x-southern-tungusic", "x-san-ma", "x-udegheic"
   ]);
 
 

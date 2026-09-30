@@ -11,7 +11,13 @@
 const fs = require("fs");
 const path = require("path");
 
-const moduleDir = path.resolve(__dirname, "..", "modules");
+// The live tree is public/modules. The repo-root modules/ directory is a stale
+// copy that nothing in the app loads - src/index.html loads only the seven
+// continent files under public/modules - so reading from it is what made the
+// generated research file accumulate copies of entries that were later deleted
+// or rebuilt. This previously read from `../modules`, which is why research.js
+// still held a 66-seed Han-script Eastern Yugur long after that entry had been
+// rebuilt, plus Cyrillic letters the live files no longer had.
 const publicDir = path.resolve(__dirname, "..", "public", "modules");
 const mapPath = path.resolve(__dirname, "..", "public", "config", "language-mixer-map.js");
 const catalogPath = path.resolve(__dirname, "..", "config", "language-mixes.json");
@@ -75,7 +81,7 @@ const continentFiles = [
 ];
 for (const f of continentFiles) {
   try {
-    const c = fs.readFileSync(path.join(moduleDir, f), "utf8");
+    const c = fs.readFileSync(path.join(publicDir, f), "utf8");
     const entryRegex = /\{[^{}]*\}/g;
     const m = c.match(entryRegex);
     if (m) {
@@ -83,11 +89,27 @@ for (const f of continentFiles) {
         const nameMatch = em.match(/"name"\s*:\s*"([^"]+)"/);
         const iMatch = em.match(/"i"\s*:\s*(\d+)/);
         const bMatch = em.match(/"b"\s*:\s*"([^"]*)"/);
+        // The shape fields have to be carried through, not defaulted. This
+        // writer used to emit `min: 3, max: 20, d: "lnrt", m: 0.1` for every
+        // entry, which silently flattened the real bounds of any language whose
+        // seeds are not 3-20 characters long.
+        const minMatch = em.match(/"min"\s*:\s*(\d+|null)/);
+        const maxMatch = em.match(/"max"\s*:\s*(\d+|null)/);
+        const dMatch = em.match(/"d"\s*:\s*"([^"]*)"/);
+        const mMatch = em.match(/"m"\s*:\s*(\d+(?:\.\d+)?)/);
         if (nameMatch && iMatch) {
           const iVal = parseInt(iMatch[1], 10);
           const b = bMatch ? bMatch[1] : "";
           if (!iToData.has(iVal)) {
-            iToData.set(iVal, { name: nameMatch[1], b: b, i: iVal });
+            iToData.set(iVal, {
+              name: nameMatch[1],
+              b: b,
+              i: iVal,
+              min: minMatch && minMatch[1] !== "null" ? parseInt(minMatch[1], 10) : 3,
+              max: maxMatch && maxMatch[1] !== "null" ? parseInt(maxMatch[1], 10) : 20,
+              d: dMatch ? dMatch[1] : "lnrt",
+              m: mMatch ? parseFloat(mMatch[1]) : 0.1
+            });
           }
         }
       }
@@ -104,18 +126,15 @@ for (const m of map) {
 }
 console.log(`Unique map bases: ${uniqueI.size}`);
 
-// Find max i to use for creating new entries
+// Find max i to use for reporting only - no index is ever allocated
 let maxI = Math.max(...iToData.keys(), 0);
-function getNextI() {
-  do { maxI++; } while (iToData.has(maxI));
-  return maxI++;
-}
 
 // For each map base, check if we have data
 let fixed = 0;
 let created = 0;
 let hadData = 0;
 let missing = 0;
+const needsIndex = []; // reported, never created - see the "No entry exists" branch
 
 for (const i of uniqueI) {
   const entry = iToData.get(i);
@@ -165,7 +184,12 @@ for (const i of uniqueI) {
   }
 
   if (!entry && repName) {
-    // No entry exists, create one
+    // No entry exists for a mixer-map base. This used to mint a new index and
+    // repoint the map row at it, which meant running this tool rewrote
+    // config/language-mixer-map.js wholesale - reformatting it away from the
+    // shape tools/regenerate-js-from-json.js produces and breaking the M001
+    // parity check between config/ and public/config/. Index allocation and map
+    // edits are not this tool's job, so it now only reports.
     let names = nameToResearch.get(repName.toLowerCase().trim());
     if (!names) {
       // Try substring match
@@ -182,14 +206,7 @@ for (const i of uniqueI) {
       if (bestMatch) names = nameToResearch.get(bestMatch);
     }
     const bData = names ? names.join(",") : "";
-    const newI = getNextI();
-    iToData.set(newI, { name: repName, b: bData, i: newI });
-    // Update the map to point to the new index
-    for (const m of map) {
-      if (m.bases && m.bases.includes(i)) {
-        m.bases = [newI];
-      }
-    }
+    needsIndex.push({ i, repISO, repName, bData });
     created++;
     if (bData) hadData++;
   }
@@ -199,7 +216,15 @@ for (const i of uniqueI) {
   }
 }
 
-console.log(`Had data: ${hadData}, Fixed: ${fixed}, Created: ${created}, Missing: ${missing}`);
+console.log(`Had data: ${hadData}, Fixed: ${fixed}, Reported as needing an entry: ${created}, Missing: ${missing}`);
+
+if (needsIndex.length) {
+  console.log(`\nMixer-map bases with no namebase entry (NOT created - this tool does not`);
+  console.log(`allocate indices or edit the map; promote these into a continent file by hand):`);
+  for (const n of needsIndex.slice(0, 20))
+    console.log(`  ${String(n.repISO).padEnd(24)} i=${n.i} "${n.repName}"${n.bData ? `  (research data available: ${n.bData.split(",").length} names)` : ""}`);
+  if (needsIndex.length > 20) console.log(`  ... and ${needsIndex.length - 20} more`);
+}
 
 // Assign ISO to each entry
 for (const m of map) {
@@ -221,7 +246,7 @@ for (const e of iToData.values()) {
   if (e.i === undefined || e.i === null) continue;
   const bEscaped = (e.b || "").replace(/\\/g, "\\\\").replace(/"/g, '\\"');
   const iso = e.iso || "unknown";
-  js += `  { name: "${e.name}", iso: "${iso}", i: ${e.i}, min: 3, max: 20, d: "lnrt", m: 0.1, b: "${bEscaped}" },\n`;
+  js += `  { name: "${e.name}", iso: "${iso}", i: ${e.i}, min: ${e.min ?? 3}, max: ${e.max ?? 20}, d: "${e.d ?? "lnrt"}", m: ${e.m ?? 0.1}, b: "${bEscaped}" },\n`;
   writtenCount++;
 }
 js += '];\n';
@@ -229,15 +254,10 @@ js += '];\n';
 console.log(`Built JS string with ${writtenCount} entries, total length: ${js.length}`);
 console.log("First 500 chars:", js.substring(0, 500));
 
-fs.writeFileSync(path.join(moduleDir, "namebases-research.js"), js);
+// Only the research file is written. This tool previously also rewrote
+// config/language-mixer-map.js and public/config/language-mixer-map.js in a
+// hand-rolled wrapper format, which broke the M001 parity check that
+// tools/regenerate-js-from-json.js maintains and silently reformatted the map.
+// The map is owned by regenerate-js-from-json.js; nothing here touches it.
 fs.writeFileSync(path.join(publicDir, "namebases-research.js"), js);
-console.log(`Wrote research file with ${iToData.size} entries`);
-
-// Write updated map
-let newMapContent = '"use strict";\n\n';
-newMapContent += '(function(){\n';
-newMapContent += '  globalThis.languageMixerMap = ' + JSON.stringify(map, null, 2).split("\n").map((l, i) => i === 0 ? l : '  ' + l).join("\n") + ';\n';
-newMapContent += '})();\n';
-fs.writeFileSync(path.resolve(__dirname, "..", "config", "language-mixer-map.js"), newMapContent);
-fs.writeFileSync(mapPath, newMapContent);
-console.log(`Wrote updated map`);
+console.log(`Wrote research file with ${iToData.size} entries (map not modified)`);
