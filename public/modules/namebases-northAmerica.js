@@ -2007,5 +2007,35 @@ window.northAmericaNameBases = [
     "m": 0,
     "b": "Eskasoni,Membertou,Millbrook,Sipekne'katik,Wagmatcook,Waycobah,Potlotek,Pictou Landing,Paqtnkek,Glooscap,Bear River,Annapolis Valley,Acadia,Lennox Island,Abegweit,Miawpukek,Qalipu,Gesgapegiag,Listuguj,Metepenagiag,Natoaganeg,Buctouche,Eel River Bar,Fort Folly,Indian Island,Kingsclear,Oromocto,Pabineau,Tobique,Woodstock,Aroostook",
     "status": "COMPLETE"
+  },
+  {
+    "name": "Chamorro",
+    "i": 24702,
+    "min": 3,
+    "max": 20,
+    "d": "lnrt",
+    "m": 0.1,
+    "b": "Hagatna,Dededo,Yigo,Tamuning,Mangilao,Barrigada,Agat,Santa Rita,Chalan Pago,Sinajana,Agana Heights,Asan-Maina,Piti,Talofofo,Inarajan,Merizo,Umatac,Yona,Talisayan,Mongmong,Toto,Maite,Tumon,Latte,Anigua,Maina,Asan,Tiyan,Ordot,Saipan,Garapan,San Jose,Tanapag,Chalan Kanoa,San Antonio,San Vicente,Koblerville,Capitol Hill,Susupe,Oleai,Kagman,San Roque,Kanat Tabla,Talufofo,Tagpochau,Achugao,As Matuis,Capital Hill,Garapan Village,Gualo Rai,Chalan Piao,Maturana Hill,As Perdido,Sugar King",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Marshallese",
+    "i": 24703,
+    "min": 3,
+    "max": 20,
+    "d": "lnrt",
+    "m": 0.1,
+    "b": "Majuro,Ebeye,Jaluit,Arno,Wotje,Ailinglaplap,Maloelap,Mili,Utirik,Ujae,Lae,Rongelap,Rongerik,Bikini,Enewetak,Ujelang,Likiep,Mejit,Aur,Wotho,Kwajalein,Namorik,Namu,Ebon,Lib,Ailuk,Jabat,Kili,Rita,Laura,Marshall Islands,Delap,Uliga,Djarrit,Ajeltake,Rairok,Woja,Long Island,Ine,Taroa,Imiej,Enejet",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Palauan",
+    "i": 24704,
+    "min": 3,
+    "max": 20,
+    "d": "lnrt",
+    "m": 0.1,
+    "b": "Ngerulmud,Koror,Airai,Meyungs,Malakal,Ngermid,Imeong,Ngetkib,Ngerkeai,Ngardmau,Aimeliik,Ngatpang,Angaur,Peleliu,Kayangel,Sonsorol,Hatohobei,Melekeok,Ngchesar,Ngiwal,Ngaraard,Ngarchelong,Ngeremlengui,Oikull,Ngeruluobel,Ngerusar,Medorm,Ngchemiangel,Mongami,Ngersuul,Ulimang,Mengellang,Imul,Kloulklubed,Ngaramasch,Arakabesan,Chelbacheb,Ngerbeched,Eil Malk,Rois",
+    "status": "COMPLETE"
   }
 ];

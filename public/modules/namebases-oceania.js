@@ -1908,5 +1908,25 @@ window.oceaniaNameBases = [
     "m": 0,
     "b": "Bocas del Toro Creole,Governor's Harbour,All Saints,Charlestown,English Harbour,St. Peter's,Road Town,San Fernando,St. George's,Vieux Fort,Tabernacle,Victoria,Sandy Ground,Five Cays,Portmore,Portsmouth,Marigot,St. John's,Philipsburg",
     "status": "WAITING"
+  },
+  {
+    "name": "Rapa Nui",
+    "i": 202432,
+    "min": 3,
+    "max": 20,
+    "d": "lnrt",
+    "m": 0.1,
+    "b": "Easter Island,Hanga Roa,Rapa Nui,Isla de Pascua",
+    "status": "WAITING"
+  },
+  {
+    "name": "Tahitian",
+    "i": 24699,
+    "min": 3,
+    "max": 20,
+    "d": "lnrt",
+    "m": 0.1,
+    "b": "Papeete,Faaa,Punaauia,Pirae,Arue,Mahina,Paea,Papara,Taiarapu,Taiarapu-Est,Taiarapu-Ouest,Teva I Uta,Hitiaa,Moorea,Teahupoo,Fare,Haapiti,Paopao,Vaiorea,Atuona,Taiohae,Vaipaee,Omoa,Vaitahu,Rikitea,Avera,Akamaru,Taravai,Afaahiti,Vairao,Faaone,Mahaena,Tiarei,Papenoo,Mataiea,Papeari,Mataiva,Tikehau,Rangiroa,Arutua,Kaukura,Apataki,Fakarava,Hao,Hereheretue,Reao,Mangareva,Aukena,Adamstown,Pitcairn",
+    "status": "COMPLETE"
   }
 ];
