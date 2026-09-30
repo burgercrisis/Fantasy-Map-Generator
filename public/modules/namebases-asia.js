@@ -3126,8 +3126,8 @@ window.asiaNameBases = [
     "max": 13,
     "d": "",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Sop Cop,Dom Cang,Sam Kha,Muong Leo,Pung Banh,Nam Lanh,Muong Va,Muong Lan,Banh Han,Cang,Cang On,Cap Ven,Co Duca,Hoc Mot,Hua Lanh,Hua Muong,Huoi Ai,Huoi Ca,Huoi Duong,Huoi Hia,Huoi Lau,Huoi Nieng,Huoi Pot,Keo Vai,Na Dia,Na Khoang,Na Loc,Na Lua,Nghe Ven,No Sai",
+    "status": "COMPLETE"
   },
   {
     "name": "Kuy",
@@ -9246,7 +9246,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "",
+    "b": "Sri Ksetra,Thaye Khittaya,Hmawza,Halin,Beikthano,Maingmaw,Binnaka,Pinle,Hanlin,Wati,Ayadawkye,Nyaunggan,Ywa Htin,Koneyoe",
     "status": "WAITING"
   },
   {
@@ -9266,7 +9266,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "",
+    "b": "Reckong Peo,Kalpa,Nako,Leo,Lippa,Kamru,Sarahan,Rampur,Khab,Sangla,Pooh,Moorang,Hangrang,Nichar,Chitkul,Kothi,Rewghar,Bhaba Nagar",
     "status": "WAITING"
   },
   {
@@ -9996,8 +9996,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Zhonglu,Dazhai,Xiaozhai,Pannei,Ximen,Zhoujia,Jianxin,Lijiang,Qinling,Liuli,Tongluo,Tonglie,Tandi,Heping,Daliu,Baishui,Yueqiao,Bailing,Baishi,Jinjiang,Longji,Ping'an,Huangjiang,Mahai,Zhongliu,Jiangliu,Nitan,Qijialing,Dapan,Dalang,Tiantang",
+    "status": "COMPLETE"
   },
   {
     "name": "Yukjin Korean",
@@ -10306,7 +10306,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "",
+    "b": "Kon Kotol,Kon Tup,Kon Monay,Kon Tum,Dak Ha,Dak To,Dak Glei,Sa Thay",
     "status": "WAITING"
   },
   {
@@ -10316,7 +10316,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "",
+    "b": "Veal Renh,Banteay Prey,Long Leh,Samrong",
     "status": "WAITING"
   },
   {
@@ -10346,7 +10346,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "",
+    "b": "Nonsi,Ma-Muang,Bo Rai",
     "status": "WAITING"
   },
   {
@@ -10666,7 +10666,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "",
+    "b": "Dak Glei,Ngoc Linh,Muong Hoong,Dak Choong,Xop,Dak Man,Dak Blo,Dak Nhoong,Dak Pek,Dak Kroong,Dak Mon,Dak Long",
     "status": "WAITING"
   },
   {
@@ -10686,7 +10686,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "",
+    "b": "Muong Chang,Phong Tho,Son La,Than Uyen,Muong Luon,Chieng Son,Na Sang,Muong Muon,Muong Loi,Na Son,Dien Bien Dong,Dien Bien",
     "status": "WAITING"
   },
   {
@@ -11106,7 +11106,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "",
+    "b": "Longwu,Rongwo,Baoan,Tokya,Dowa,Lancai,Zainmo,Hornag,Qokog,Nyaintog,Garze,Gyaiwo,Rekong Peo,Kamru,Sarahan,Rampur,Lippa,Chitkul,Nako,Khab,Kalpa,Pooh",
     "status": "WAITING"
   },
   {
@@ -11566,7 +11566,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "",
+    "b": "Samakkixay,Xaysetha,Sanamxay,Sanxay,Phouvong,Tamoyot,Saisi,Gayeu",
     "status": "WAITING"
   },
   {
@@ -11796,8 +11796,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Multan,Shujabad,Mehmood Kot,Qadirpur Ran,Sher Shah,Bahawalpur,Hasilpur,Khairpur Tamiwali,Khanqah Sharif,Qaimpur,Yazman,Mianwala Kariya,Muhammadgarh,Bait Bakhtiari,Khosa,Dera Ghazi Khan,Taunsa Sharif,Choti Zerine,Chotibala,Bahadur Garh,Ghaus Abad,Gulzar Khanwala,Kot Haibat,Kot Mubarak,Kot Qaisrani,Makwal Kalan,Morejhangi,Nari Shumali,Jampur,Rojhan,Rahim Yar Khan,Sadiqabad,Khanpur,Layyah,Chowk Azam,Karor Lal Esan,Muzaffargarh,Kot Addu,Rohilanwali,Khanewal,Abdul Hakeem,Mian Channu,Lodhran,Vehari,Mailsi,Burewala,Dera Ismail Khan,Mianwali,Kalabagh,Bhakkar,Rajanpur,Dajal",
+    "status": "COMPLETE"
   },
   {
     "name": "Sauria Paharia",
@@ -11826,8 +11826,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Uliastai,Tosontsengel,Shiree,Tegsh,Oygon,Khungiy,Chandman,Nuga,Altanbulag,Tsavdan,Ovogdiy,Bayan-Ukhaa,Asgat,Aldarkhaan,Zavkhanmandal,Sharbulag,Kharkhiraa,Tarialan,Bugat,Tsalgar,Naranbulag,Khar-Us,Bayshint,Mondookhoo,Khavtsal,Namir,Tooromt,Kharmod,Dorvoljin,Erdenekhairkhan",
+    "status": "COMPLETE"
   },
   {
     "name": "Tabghach",
@@ -11846,8 +11846,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Xingqing,Liangzhou,Ganzhou,Suzhou,Guazhou,Shazhou,Dingzhou,Huaizhou,Yongzhou,Lingzhou,Hongzhou,Youzhou,Yinzhou,Xiazhou,Shizhou,Yanzhou,Nanweizhou,Huizhou,Xiningzhou,Lezhou,Kuozhou,Jishizhou,Khara-Khoto,Lingwu,Baibao,Tiandu,Zhenrong,Fuzhou,Linzhou",
+    "status": "COMPLETE"
   },
   {
     "name": "Tariang",
@@ -11876,7 +11876,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "",
+    "b": "Phtar,Ton,Srae Hiu,Memom,Roluos Mean Chey,Srae Chis,Roya",
     "status": "WAITING"
   },
   {
@@ -11886,7 +11886,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "",
+    "b": "Longwu,Rongwo,Baoan,Tokya,Dowa,Lancai,Zainmo,Hornag,Qokog,Nyaintog,Gyaiwo",
     "status": "WAITING"
   },
   {
@@ -11916,7 +11916,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "",
+    "b": "Purang,Burang,Gar,Shiquanhe,Zanda,Rutog,Ge'gyai,Gerze,Coqen,Tsaparang,Tholing,Kyunglung,Gartok,Chiu,Zhabura,Zheri,Zhozhub",
     "status": "WAITING"
   },
   {
