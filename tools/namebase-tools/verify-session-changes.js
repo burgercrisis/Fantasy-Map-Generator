@@ -122,10 +122,21 @@ const PADDED = [202491, 202500, 202551, 201003, 1624, 2092, 203037, 203121, 2026
 const stillPadded = PADDED.filter(i => byI.has(i) && lib.seedCount(byI.get(i)) >= lib.SEED_FLOOR);
 check("no known-padded entry carries a fabricated list", stillPadded.length === 0, stillPadded.join(","));
 
-// research-label seeds ("Glottolog:...") must not have returned
-const LABEL = /^(ELP|Glottolog|ISO|Wikipedia|OLAC|iso)\s*:/i;
-const labelled = all.filter(e => lib.seedsOf(e).some(s => LABEL.test(String(s).trim())));
-check("no research-label seeds in the b field", labelled.length === 0, `${labelled.length} entries`);
+// research-label seeds must not have returned.
+//
+// The original pattern was /^(ELP|Glottolog|ISO|Wikipedia|OLAC|iso)\s*:/i, which
+// requires the colon immediately after the label. That catches "ISO:xyz" and
+// misses "ISO 639-1:aa", "ISO 639-2:din", "Guthrie Code:C.41",
+// "Linguist List:tzm-cen", "WALS:Argb", "Linguasphere:02-BAA-aa" - which were all
+// present in the data. The colon can appear anywhere after the label.
+const LABEL = /^(ELP|Glottolog|ISO|Wikipedia|OLAC|Linguasphere|Linguist\s*List|Guthrie|WALS|ALCAM|BFM|EGIDS|HBD)\b[^,]*(?=:|Code|Zone)/i;
+const labelled = [];
+for (const e of all) for (const s of lib.seedsOf(e)) {
+  const t = String(s).trim();
+  if (LABEL.test(t) || /^(ELP|Glottolog|Wikipedia|OLAC|iso)\s*:/i.test(t)) labelled.push(`${e.i}:"${t}"`);
+}
+check("no research-label seeds in the b field", labelled.length === 0,
+  labelled.length ? `${labelled.length} remaining, e.g. ` + labelled.slice(0, 3).join(", ") : "0 entries");
 
 // descriptive metadata pasted into seed lists: ISO pointers, writing-system
 // notes, colonial-history lines, statements about dialects. 125 of these were
@@ -186,6 +197,70 @@ for (const e of all) {
 check(`no generated pseudo-place block (>=${GEN_MIN} matches)`, generated.length === 0,
   generated.length ? generated.slice(0, 5).join(", ")
     : "Afigtown/Abalburg/Akakbridge shape occurs 15-24x per padded entry, at most 2x in a real list");
+
+// A generator that expands a seed into variants - "Kasongo Territory",
+// "Yambio Town", "Gulani Ward", "Bono Plateau", "AlgerianArabicabad",
+// "Apadland", "Al Jaghbub oasis" - produces seeds that are concatenations of two
+// other seeds of the same entry. Generator-agnostic, so it covers every variant
+// the shape check misses: the template tails, the Type-word expansions, the
+// ethnonym expansions and the Xland family, with one rule.
+const TYPEWORD = /^(Territory|Town|City|Village|Ward|Zone|County|Province|Region|Regions|Villages|Plateau|Coast|Escarpment|Desert|land|oasis|people|language|tribe|Kamtok|abad|Fields|Forest|River|Hills)$/i;
+const concat = [];
+for (const e of all) {
+  const s = lib.seedsOf(e).map(x => String(x).trim());
+  if (s.length < 8) continue;
+  const set = new Set(s);
+  // Count the type-word variants per stem, not the matches. One variant is a
+  // real compound - "Zambezi River" and "Aketi River" are actual places whose
+  // bare stem is also a town. A generator emits three or more: Kasongo
+  // Territory / Town / Ward, Bono Plateau / Villages / Regions.
+  const byStem = new Map();
+  for (const x of s) {
+    const parts = x.split(/(?=[A-Z])|[\s-]+/).filter(Boolean);
+    if (parts.length < 2) continue;
+    for (const w of parts) {
+      if (!TYPEWORD.test(w)) continue;
+      const stem = x.replace(new RegExp(w + "$", "i"), "").replace(/[\s-]+$/, "");
+      if (stem.length < 4 || !set.has(stem)) continue;
+      if (!byStem.has(stem)) byStem.set(stem, []);
+      byStem.get(stem).push(w);
+      break;
+    }
+  }
+  for (const [stem, words] of byStem) {
+    if (words.length >= 3) concat.push(`${e.i} "${e.name}": ${stem} x${words.length} (${[...new Set(words)].join(", ")})`);
+  }
+}
+check("no seed stem expanded into 3+ type-word variants", concat.length === 0,
+  concat.length ? `${concat.length} found, e.g. ` + concat.slice(0, 4).join("; ")
+    : "Kasongo Territory/Town/Ward pattern; one variant is a real compound");
+
+// Document word-list dumps. This was 55 of the 68 entries cleared in the
+// continent audit and no seed-level rule can see it: every item in
+// i=1605 "Supyire" is a plausible string (Dimbasara, safɩri, Noun süpyfrä,
+// Serial Verb Constructions, Mémoire de Fin d'Etudes à l'Ecole Nationale
+// d'Administration). What distinguishes a dump from a gazetteer is positional:
+// in a researched list the last ten seeds are still toponyms, in a dump the tail
+// is prose and citations. Taking the tail and counting how much of it is not
+// place-name material is the only cheap signal that fires.
+const NONPLACE = /\b(the|and|of|for|with|without|from|into|over|under|than|are|were|was|has|have|had|not|but|also|however|which|their|these|those|such|language|languages|dialect|dialects|family|families|group|groups|code|codes|source|sources|reference|references|study|research|phoneme|phonology|morphology|syntax|semantics|pronunciation|vocabulary|grammar|version|edition|university|journal|press|proceedings|volume|number|pages|isbn|doi|et\s+al|ibid)\b/i;
+// "p." and "pp." as page citations, separately. This was previously folded into
+// the alternation as `pp?\.?`, which made every character of it optional and
+// matched a bare "p" - so each Chakma village ending in "-para" was a false
+// positive.
+const PAGECITE = /\bp{1,2}\.(?=\s|$)/;
+const looksLikeProse = t => NONPLACE.test(t) || PAGECITE.test(t);
+const dumps = [];
+for (const e of all) {
+  const s = lib.seedsOf(e);
+  if (s.length < 40) continue;
+  const tail = s.slice(-10).map(x => String(x).trim());
+  const bad = tail.filter(looksLikeProse).length;
+  if (bad >= 3) dumps.push(`${e.i}"${e.name}" ${bad}/10 tail`);
+}
+check("no document word-list appended to a seed list", dumps.length === 0,
+  dumps.length ? `${dumps.length} suspected, e.g. ` + dumps.slice(0, 4).join("; ")
+    : "55 such entries were cleared in the continent audit");
 
 // cross-continent identical seed lists are the fabrication signature
 const groups = new Map();

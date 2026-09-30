@@ -1986,7 +1986,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0.1,
-    "b": "Diddesa Valley,Didessa Valley,Muts'a,Mutsa,Dimtu,Dimt'u,Asosa,Assosa,Bambishi,Benishangul-Gumuz,Blue Nile Region,Didessa River,Muts'a Valley,Asosa Town,Asosa Zone,Asosa Woreda,Asosa Region,North Omotic,Mao River,Dabus River,Yabus River,Blue Nile",
+    "b": "Diddesa Valley,Didessa Valley,Muts'a,Mutsa,Dimtu,Dimt'u,Asosa,Assosa,Bambishi,Benishangul-Gumuz,Blue Nile Region,Didessa River,Muts'a Valley,North Omotic,Mao River,Dabus River,Yabus River,Blue Nile",
     "status": "WAITING"
   },
   {
@@ -3166,7 +3166,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Al Kurumik,Penishuba,Yabeldigis,Asosa,Tugubele,Korbum,Darsoma,Yeshkab,Yamasala,Ganza,Benishangul-Gumuz,Ethiopia,Sudan Border,Bambasi,Assosa,Mengi,Sirba,Abay,Blue Nile,Didessa,Dabus,Yabus,Asosa Zone,Asosa Woreda,Asosa Region,Bambasi Woreda,Bambasi Town,Assosa Town,Assosa Zone,Assosa Woreda,Assosa Region",
+    "b": "Al Kurumik,Penishuba,Yabeldigis,Asosa,Tugubele,Korbum,Darsoma,Yeshkab,Yamasala,Ganza,Benishangul-Gumuz,Ethiopia,Sudan Border,Bambasi,Assosa,Mengi,Sirba,Abay,Blue Nile,Didessa,Dabus,Yabus,Asosa Zone,Asosa Woreda,Asosa Region,Bambasi Woreda,Bambasi Town",
     "status": "COMPLETE"
   },
   {
