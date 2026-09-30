@@ -166,8 +166,8 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Djokupunda,Luebo,Kabeya-Kamwanga,Mweka,Lusambo,Bulape,Tshimpumpu,Musenge,Kakenge,Ilebo,Tshitenge,Mukumbi,Tshishimbi,Bibanga,Ngombe,Djembe,Pianga,Mapey,Mushenge,Nsheng,Kamakongo,Kuba Kingdom,Kasai Province,DRC,Kasai-Occidental,Mweka Territory,Ilebo Territory,Upper Kasai River,Charlesville,Congo Inland Mission,Mennonite Mission,Missions,Schools,Health Clinics,Dirt Tracks,Makumbi,Forminière Company,Shuwa",
+    "status": "COMPLETE"
   },
   {
     "name": "Bwela",
@@ -226,8 +226,8 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Assum Bari,Argobba Bari,Suqutat Bari,Badro Bari,Asmadin Bari,Aweday,Kombolcha,Babile,Erer,Jijiga,Fik,Gode,Kebri Dehar,Degehabur,Warder,Shilabo,Kelafo,Mustahil,Ferfer,Fedis,Girawa,Kersa,Asebe Teferi,Chinaksen,Meta,Jarso,Bedeno,Funyan Bira,Dirir,Kurfa Chele,Qordere,Tulube,Sofi,Aboker,Harewa,Kirt Abe,Harar Town,Walled City,Jegol,Five Gates,Assum Gate,Argobba Gate,Suqutat Gate,Badro Gate,Asmadin Gate,Adere",
+    "status": "COMPLETE"
   },
   {
     "name": "Angolar Creole",
@@ -296,7 +296,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0.1,
-    "b": "",
+    "b": "Nigeria",
     "status": "WAITING"
   },
   {
@@ -316,7 +316,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0.1,
-    "b": "",
+    "b": "Haykota,Bisha,Tokombia,Shambuqo,Tessenei,Haikota,Agordat,Akurdet,Western Eritrea,Barea,Nara-Bana,Nilo-Saharan,Eastern Sudanic,Northern Eastern",
     "status": "WAITING"
   },
   {
@@ -386,7 +386,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "",
+    "b": "Wadi Fira,Goz Beida,Abeche,Abdi,Bir Kedde,Magrane,Koundoul,Gurda,Woda'a,Fafa,Abu Daza,Ouaddai Region,Darfur,Kordofan,Abu Daza District",
     "status": "WAITING"
   },
   {
@@ -396,8 +396,8 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Sindou,Banfora,Bobo-Dioulasso,Orodara,Houndé,Bama,Faramana,Tengrela,Fabédougou,Mangodara,Niangoloko,Boromo,Nouna,Safané,Dédougou,Southwest Burkina Faso,Dorosie,Dorhosye,Dokhosié,Doghosié,Doro Doghosié,Dokhobe,Dorobé,Doghose,Dorhossié,Dorossé,Klamaasise,Mesise,Lutise,Gbeyãse,Sukurase,Gbogorose",
+    "status": "COMPLETE"
   },
   {
     "name": "Eton",
@@ -416,7 +416,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "",
+    "b": "Makary,Logone-Birni,Mara,Fotokol,Maroua,Maiduguri,Ngala,Waza,Mayo-Danay,Chadic,Biu-Mandara,Kotoko,North,Afaɗə,Ngala LGA",
     "status": "WAITING"
   },
   {
@@ -426,8 +426,8 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Asayta,Logiya,Mille,Awash,Gewane,Chifra,Bure Mudaytu,Gulina,Yalo,Abala,Dubti,Obock,Tadjoura,Dikhil,Ali Sabieh,Yoboki,Damerjog,Holhol,Arta,Galafi,Dorra,Loyada,Aysaqiita,Aussa,Awsa,Afambo,Elidar,Awsi Rasu,Administrative Zone 1,Gabi Rasu,Hari Rasu,Amhara Region,Fanti Rasu,Kilbet Rasu,Mille River,Logiya River,Gargori,Laitali,Gummare,Bario,Lake Abbe,Lake Abhe Bad,Awash–Asseb Highway,Capital,New Capital,Planned Settlement,Salt Lakes,Lake Gummare,Flamingos,Final Destination,Cushitic,East,Lowland,Saho-Afar,Latin Script",
+    "status": "COMPLETE"
   },
   {
     "name": "Bura",
@@ -516,8 +516,8 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Abinsi,Lokoja,Makurdi,Ibi,Numa,Jimetu,Mayo,Narewa,Tella,Sheka,Nwonyo,Argungu,Benue River,Niger River,Kwararafa Kingdom,Gongola Hawal,Upper Benue Basin,Lake Chad,Wukari,Gassol LGA,Wuryo,Uka,Wurbo,Jukun Wapan,Kororofa,Jukunoid,Benue-Congo,Niger-Congo,Atlantic-Congo,Makurdi LGA,Iharev District,Abinsi Town,Benue State,Nasarawa State,Riverine Communities,Fishing,Farming,Canoe Construction,Yams,Millet,Maize",
+    "status": "COMPLETE"
   },
   {
     "name": "Yalunka",
@@ -566,8 +566,8 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "NanaKru,SettraKru,GrandCess,Barclayville,Garraway,Pleebo,King Williams Town,King Weah Town,Picaninny Cess,Kabor,Firestone Rubber Plantation,Margibi County,Lofa County,Bong County,Nimba County,Monrovia,Providence Island,Sinoe County,Grand Kru County,Maryland County,Grand Gedeh County,Klao,Coastal Lagoons,Fishing Settlements,Migrant Worker Settlements,Canoes,Surf Waters,British Merchant Ships,War Ships,Liverpool,Americas,Five Large Towns,King Willie Town,Largest,Most Powerful,Grebos,Cape Palmas,Tabou,Power Concentrated,African-American Settlers,Quee People,Westernized Colonists,Gold Coast,Britain,European American Writers,Kru Men,Sailors,Freetown,Ivorian Coast,Nigerian Coast,Liberia,Ivory Coast,Kru Tribes,Jlao Kru,Bété,Guéré,Klao/Krao,Dida,Jabo,Oral Tradition,James Connelly,Mid Nineteenth Century,Interior,Coast,Poor River,Salt,Town,Little Kroo,Setra Kroo,Kroo-Bar,Nana Kroo,King Will's Town,Home District,Offshoots,Welteh",
+    "status": "COMPLETE"
   },
   {
     "name": "Liberian Pidgin English",
@@ -626,8 +626,8 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Oncócua,Chitado,Cahama,Opuwo,Okangwati,Epupa,Ruacana,Sesfontein,Soba,Moimba,Kunene Province,South Angola,Goat Herders,Cattle,Black Himba,Himba Herds,Social Submission,Traditional Doctors,Artisans,Maize,Millet,Rain-fed Crops,Clan-based Tribal Structure,Eldest Male,Rectangular Wooden Houses,Thatched Roofs,Hinged Door,Stick,Wooden Fence,Entrance,Exit Door,Dimba Neighbors",
+    "status": "COMPLETE"
   },
   {
     "name": "Hanga",
@@ -656,7 +656,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "",
+    "b": "Néguéni,Banfora,Léraba,Loumana,Mali,Cascades Region,Ouara,Ouala,Samba",
     "status": "WAITING"
   },
   {
@@ -666,7 +666,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "",
+    "b": "Otoro,Heiban,Shabun,Cerumba,Ndano,Shirumba,Shuway,Ludumor,Nuba Hills,Kordofanian,Talodi-Heiban,Heiban West-Central,Critically Endangered,UNESCO Atlas",
     "status": "WAITING"
   },
   {
@@ -676,7 +676,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "",
+    "b": "Lastourville,Boundji,Lingara,Liyodia",
     "status": "WAITING"
   },
   {
@@ -736,8 +736,8 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Taza,Sefrou,Imouzzer Kandar,Oum Jeniba,Figuig,Bouarfa,Kebdana,Moulouya River,Middle Atlas,Morocco,Ait Youssi,Beni Mguild,Oulad El-Haj,Beni Guil,Ait Yafelmane,Midelt,Talesinnt,Tichikout,Sidi Ali,Imouzzer,Talsinnt,Jbel Tishshoukt,Skoura,El-Mers,Ait Warrayn,Beni Ouaraïn,Marmousha,Beni Mtir,Sefrou Province,Ifrane Province,Taza-Al Hoceima-Taounate Region,Oued Sebou,Watershed,Cedar Forests,Atlas Mountains",
+    "status": "COMPLETE"
   },
   {
     "name": "Aizi",
@@ -746,8 +746,8 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Tiémié,Abrunamiambo,Krokpo,Prokpamrin,Lélémrin,Tiagbamrin,Mobu,Adioukrou,Alladian,Ezibo,Lagoon Akan,Southern Côte d'Ivoire,Jacqueville Subprefecture,Dabou Subprefecture,Apro,People,Lélemrin,Mobuin,Twelve Age Classes,Dugout Canoes,Palm Oil,Trade Goods,Transportation,Waterways,Nineteenth Century,Treich-Laplène,Bombarded Jacqueville,Independence,Maintained,Niger-Congo,Native To,Ethnicity",
+    "status": "COMPLETE"
   },
   {
     "name": "Argobba",
@@ -756,8 +756,8 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Shewa Robit,Berket,Metehara,Yimlawo,Gusa,Wärk-Amba,Särbädin,Ğänno,Essoyyä Hijirota,Ğonkä,Färäja,Mägäräjja,Ğolaha,Aliyu Amba-Ankober,Shonke-T'allaha,Gachene,Rasa,Rasa kâbâlé,Sânbâté,Fiqi Debes,Ataye,Timuga,Wereabu,Yifat,Timuga Province,Awraja,Shoa,Governorate General,Mata Qore,Mudhii Akambaaloo,Kara Qore,Qomboro,Qomboro Washa Mujahid,Kemisse,Sànbâté,Sanbâté,Border Market Town,ArÇume,Jilé Wàràda,Jilé Timuga Wereabu,Oromigna,Afarigna,Trist,Lingual,Semi-Sedentary,Muslim,Neighbours,Raided,Djibouti-Addis Ababa Railway,Early 20th Century,Trade Routes,Marginalizing,Isolating,Commercial Posts,Erosion,Walashma Authority,State Taxation,Christian Amhara Settlers,Highlands",
+    "status": "COMPLETE"
   },
   {
     "name": "Bube",
@@ -856,8 +856,8 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Kutu,Oshwe,Bokoro,Semendua,Vanga,Kikwit,Idiofa,Kwamouth,Bolobo,Yumbi,Kiri,Cuvette centrale congolaise,Congo River Basin,Lukenie River,Kamtsha River,Kwilu Province,West-Coastal Bantu,Kinshasa,Kwango River,Kwilu River,Kasai Rivers,Biboko Island,King Leopold II,Rubber Plantations,Ivory Resources,Continued,Leopold II,Patronage,Rubber,Ivory",
+    "status": "COMPLETE"
   },
   {
     "name": "Southern Ndebele",
@@ -976,7 +976,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "",
+    "b": "Bal,Bibal,Mayo Beli,Kerke,Kamkam,Magu,Somie,Sonkolong,Atta,Ndiba,Gembu,Mverep,Bon,Barr,Tep,San,Yamba,Warwar,Vokkude,Tamnya,Mbamnga,Mambasa,Lolwa,Komanda",
     "status": "WAITING"
   },
   {
@@ -986,8 +986,8 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Njombe,Iringa,Makambako,Ilembula,Uwemba,Lupembe,Kidugala,Wanging'ombe,Mdandu,Nyikolwe,Nyumbaniitu,Utalingoro,Itipula,Ng'anda,Maswamu,Ulanga Valley,Kilombero District,Morogoro Region,Southern Highlands,Tanzania,Lake Nyasa,Muzale,Rugemalira,Swahili,English,Niger-Congo,Bantu,Southern Bantu,Iringa Region,Njombe Region,Kinga,Kisi,Manda,Pangwa,Wanji,Hehe,Mbunga,Ndamba,Wabena,Mbena,Ubena,German missionaries,Lutheran Church,Wycliffe",
+    "status": "COMPLETE"
   },
   {
     "name": "Fwe",
@@ -1006,7 +1006,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0.1,
-    "b": "",
+    "b": "Mongororo,Kurgul,Kawaynan,Kodoro,Firgul,Foro Boranga town,Waddai Region,Western Darfur,Chad,Sudan,Goz Beïda,Darfur,Kaja River,Azum River,Salih River",
     "status": "WAITING"
   },
   {
@@ -1016,8 +1016,8 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Gorouol,Tera,Anzourou,Say,Dosso,Tillaberi,Namari Goungou,Dolbel,Dibilo,Fantio,Namarigoungou,Sawani,Maloum Beri,Gaya,Ouallam,Torodi,Zarmaganda,Zarmatarey,Kurtey,Wogo,Sinder,Sansani,Dessa,Gotheye,Niger River,Niger,Mali,Burkina Faso,Benin,Nigeria,Songhay Empire,Niamey,National Route 1,N4 Road,Ferry Crossing,Catholic Mission Gorouol,Kaado,Zarma,Dendi,Southern Songhay,Nilo-Saharan,Songhay",
+    "status": "COMPLETE"
   },
   {
     "name": "Surbakhal",
@@ -1046,8 +1046,8 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Kikara,Banikani,Mounivel,Ganka,Dansa,Albengouma,Ganda Bundo,Sahelian Villages,Flood Cycles,Rural Villages,Mud Bricks,Thatched Roofs,Hot Dry Climate,Sorghum,Rainy Season,June,November,Men,River,Herd Small Livestock,Goats,Women,Process Grains,Vegetable Gardens,Local Markets,Patrilineal Lines,Extended Clans,Polygynous Marriages,Cross-cousin Unions,Alliances,Elders,Authority,Land Use,Dispute Resolution,Daily Tasks,Celebrations,Births,Weddings,Harvests,Singing,Dancing,Praise-songs,Griots,Epic Poetry,Heroic Past,Islamic Holidays,Eid al-Fitr,Eid al-Adha,Communal Feasts,Gift-giving,Food Staples,Doonu,Paste,Howru,Pancakes,Haini Maasa,Greens,Peanut Sauce,Shared Bowl,Unity,Songway Kiini People,Subgroup,Trade Routes,Niger River,Traders,Warriors,Expanded,Scholarship,Fall,Retained,Adapted,Southern Songhay,Nilo-Saharan",
+    "status": "COMPLETE"
   },
   {
     "name": "Sukur",
@@ -1056,8 +1056,8 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0.1,
-    "b": "",
-    "status": "WAITING"
+    "b": "Sukur_plateau,Damay,Dungom,Gwafa,Dlandev,Mataka_Central,Mataka_Wakda,Məlđəŋ Massif,Blama Zugorio's,Slaver,Adamawa Emirate,British,Slave Raiding,Deposed,Montagnards,Descend,Hills,Iron Industry,Collapse,Plains Colonization,Maiduguri-Bama-Madagali-Mubi-Yola Road,Main Market,Mildo,Track,GEP Images,Denser Plains Settlement,Towns",
+    "status": "COMPLETE"
   },
   {
     "name": "Bacama",
@@ -1106,7 +1106,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "",
+    "b": "Zomba,Mangochi,Machinga,Balaka,Nkhotakota,Salima,Ntchisi,Dedza,Thyolo,Mulanje,Chiradzulu,Nsanje,Phalombe,Zimbabwe,Bantu",
     "status": "WAITING"
   },
   {
@@ -1126,7 +1126,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "",
+    "b": "Tengréla,Tiékouna,Sitiéna,Karfiguéla,Kiribina,Diongolo,Siniéna,Banfora,Comoé Province,Burkina Faso,Ferké,Bobo-Dioulasso,Banfora Road,Karaboro,Western Karaboro,Syer,Tenyer",
     "status": "WAITING"
   },
   {
@@ -1146,8 +1146,8 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Ansongo,Talataye,Ménaka,Gao,Inékar,Ménaka Region,Gao Region,Mali,Daoussahak,Dahoussahak,Dausahaq,Daosahaq,Daoussahaq,Daoussak,Dawsahaq,Dawsahak,Idaksahak,Tuareg,Tamasheq,Tamajaq,Northern Songhai,Songhay,Nilo-Saharan,Berber,Arabic Script,Latin Alphabet,Transhumance,Cattle,Goats,Camels,Algeria,Isawaghan,Kel Essouk Tuareg,Ihatan Songhay,Berberiche Arab Factions,Muslim,Pre-Islamic Beliefs,Cross-Cousin Marriage,Patrilineal Parallel Cousin Marriage,Islamic Learning,Sixteenth Century,Regula Christiansen-Bolli",
+    "status": "COMPLETE"
   },
   {
     "name": "Tonga Malawi",
@@ -1156,8 +1156,8 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Nkhotakota,Nkhata Bay,Mzimba,Rumphi,Likoma,Mangochi,Salima,Lake Malawi,Lake Nyasa,Nkhotakota Bay,Livingstone Tree,Chief Jumbe,David Livingstone,Hastings Banda,Swahili-Arab Slave Traders,MV Ilala Ferry,Kasungu Airport,Salima Township,Minibuses,Main Road,Nkhata Bay District,Northern Region,Malawi,Chitonga,Chitumbuka,Tumbuka,Nkhonde,Chewa,Lomwe,Ngoni,Yao,Sukwa,Lambya,Sena,Others,Nkhata Bay Tonga Heritage,Mdawuku wa Atonga,MWATO,Park Town Band,Honala Dance,Hohner Accordion,Northern Province,Luweya River,Nkhamanga Kingdom,Nkhamanga Empire,Chichewa",
+    "status": "COMPLETE"
   },
   {
     "name": "Totela",
@@ -1166,7 +1166,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "",
+    "b": "Nakwenda,Kwemba,Likemwa,Samisisi,Malabwe,Sesheke,Kazungula,Makusi,Kachansi,Imukusi,Katima Mulilo,Lubuta,Kachikau,Parakarungu,Satau,Kavimba,Zambezi Region,Caprivi Region,Bantu Botatwe",
     "status": "WAITING"
   },
   {
@@ -1186,8 +1186,8 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Kungbor,Zuie,Butter_Hill,Fula_Camp,Camp_Israel,Fornor,Kawelahun,Tonglay_Village,Sonah_Creek,Soso_camp,ULC,Thomas_Camp,Grand_Cape_Mount,Gbarpolu County,Mano River,Saint Paul River,Deng,Todii,Kongba,Senje,Latin Script,Vai Script,Atlantic-Congo,Eastern Sierra Leone,Border,Gula",
+    "status": "COMPLETE"
   },
   {
     "name": "Soninke",
@@ -1216,8 +1216,8 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Kadiolo,Lobougoula,Niena,Zanférébougou,Blendio,Nkourala,Kafouziéla,Gongasso,Kignan,Finkolo,Finkolo Ganadougou,Kouoro,Danderesso,Koumankou,Koungoba,Kapolondougou,Sanzana,Nimbougou,Diou,Dioumaténé,Fourou,Kaï,Misséni,Zégoua,Kadiolo Cercle,Gur,Mali Independence,Farakala Village,Cultivating,Millet,Ancestral History,Agricultural Processes,Neighboring Cultures,Bananas,Manioc,Successfully Cultivated,Care,Chickens,Sheep,Goats,Guinea Fowl",
+    "status": "COMPLETE"
   },
   {
     "name": "Mijikenda",
@@ -1236,8 +1236,8 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Natitingou,Bassila,Malanville,Karimama,Segbana,Kalale,Banikoara,N'Dali,Perere,Gogonou,Kerou,Kouande,Wassa-Tobre,Wassa-Pehunco,Baruten,Okuta,Ilesha,Yashikera,Kenu,Kaoje,Bagudo,Kebbi State,Kwara State,Niger State,Borgu LGA,Kaiama LGA,Illo district,Nigeria,Togo,Mekrou River,Dosso Region,Zarma,Koyraboro Senni",
+    "status": "COMPLETE"
   },
   {
     "name": "Jerba Berber",
@@ -1246,7 +1246,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "",
+    "b": "Mezraya,Cedriane,Mahboubine,Adjim,Elmaï,Mahboubin,Sedghiane,Srandi,Khenansa,Tamast,Taguermess,Guettâya Guebliya",
     "status": "WAITING"
   },
   {
@@ -1256,8 +1256,8 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Figuig,Beni Ounif,Béchar,Aïn Sefra,Mecheria,Naama,Tiout,Ain Sfisifa,Boussemghoun,Moghrar,Chellala,Asla,Fendi,Mougheul,Lahmar,Boukais,Sfissifa,Ouakda,Barrbi,Taghit,Igli,Mazzer,Iche,Ain Chair,Ait Wadday,Ait Amar,Ait Lamiz,Ait Sliman,Ait Anaj,Ait Addi,Laabidate,Loudaghir,Oulad Slimane,Hamam Tahtani,Hamam Foukani,El Maïz,At Wadday,At Amar,At Lamiz,At Sliman,At Anaj,At Addi,At nneţ,At ɍeddi,At slimane,At wadday,At ɍamer,At lemɍiz,Ksour,Oases,Fortified Villages,Algeria,Morocco,Saoura Basin,Ksour Mountains,Figuig Region,Sud-Oranais,Parlers des Kçours Oranais et de Figuig,Tachelhit,Tabeldit,Tashelhiyt,Zenati,Mzab-Wargla,Afro-Asiatic,Berber,Northern Berber,Arabic,Latin,Tifinagh,Bipartite Verbal Negation,ul,un,il,ša,šay,iš,Preverbal Negator,Postverbal Negator,Numerals 1 2 Berber,Higher Numerals Arabic Borrowings,Figuig Oasis,Eastern Morocco,Atlas Mountains",
+    "status": "COMPLETE"
   },
   {
     "name": "Tawellemmet",
@@ -1266,8 +1266,8 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Tahoua,In-Gall,Tchirozerine,Maradi,Agadez Region,Agadez,Ingal,Teguidda In Tessoum,Azalai Salt Caravans,Uranium Mining,Azawagh Valley,Tanout,Tchintabaraden,Abalak,Tuareg,Iwellemmeden,Kel Ataram,Kel Dinnik,Kel Nan,Amenokal,Imajeghen,Irreulen,Lisawan,Tiggirmat,Tellemidez,Ikhekheren,Timbuktu,Niger River,Say,Fula Macina Empire,Fihirun,Tuareg Refugees,Lazert,Niamey,Northern Nigeria,Songhai Settlements,Mali,Niger,Burkina Faso,Nigeria,Tamasheq,Tamajeq,Tayart",
+    "status": "COMPLETE"
   },
   {
     "name": "Dghwede",
@@ -1276,8 +1276,8 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Kurana Basa,Ghwa,Barawa,Hambagda,Yola,Belel,Kurana Kwandama,Ghweɗe,Hude,Johode,Traude,Dehoxde,Tghuade,Toghwede,Wa'a,Zaghvana,Chadic,Biu-Mandara,Wandala-Mafa,West Dghweɗe,Borno State,Gwoza LGA,Nigeria,Cameroon,Displaced Persons,Camps,Adamawa State,UNHCR,Refugee Camp,Boko Haram Violence,Ancestral Lands,Gerhard Müller-Kosack,Anthropologist,Recordings 1994-2001,Wolff 1971:11",
+    "status": "COMPLETE"
   },
   {
     "name": "Dida",
@@ -1286,8 +1286,8 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Hiré-Ouatta,Fresco,Sassandra,Guéyo,Vavoua,Gagnoa,Jacqueville,Godie,Djiboua,Gôgnoa,Godié,Abou,Vata,Lozoua,Lozwa,Divo Varieties,Prestige Variety,Gaɓogbo,Guébié,Gebye,dic,gie,yoco1235,lako1244,gabo1234,Niger-Congo,Kru",
+    "status": "COMPLETE"
   },
   {
     "name": "Diri",
@@ -1306,7 +1306,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "",
+    "b": "Bomongo,Ingende,Budjala,Lisala,Lulonga,Ikelemba,Basankusu,Mongala Province,Sud-Ubangi,Équateur Provinces,Congo River,Ubangi River,Lomami River,Bantu C.41,Southern Bantoid,Bantu,Zone C,Buja-Ngombe",
     "status": "WAITING"
   },
   {
@@ -1346,7 +1346,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "",
+    "b": "Rumbek,Gogrial,Aweil,Bentiu,Jaang,Jieng,Muonyjieng,Thuɔŋjäŋ,Thuɔŋ ë Jiɛ̈ɛ̈ŋ,Jiɛ̈ɛ̈ŋ,Akutmɛ̈t Latueŋ Thuɔŋjäŋ",
     "status": "WAITING"
   },
   {
@@ -1386,8 +1386,8 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Bata,Ebebiyin,Mongomo,Evinayong,Aconibe,Micomeseng,Bitica,Cogo,Rio Campo,Acurenam,Ayene,Niefang,Kogo,Akonibe,Acalayong,Mbini,Rio Muni,Malabo,Corisco,Bioko,Annobon,Libreville,Port-Gentil,Franceville,Oyem,Bitam,Minvoul,Mitzic,Medouneu,Mekambo,Makokou,Lastoursville,Koulamoutou,Mouila,Tchibanga,Gamba,Mayumba,Omboue,Fougamou,Ogooue River,Ogooue Estuary,Ivindo River,Woleu River,Ntem River,Kom River,Muni River,Mbini River,Kie River,Wele Nzas Province,Centro Sur Province,Kie-Ntem Province,Woleu-Ntem Province,Ogooue-Ivindo Province,Ogooue-Lolo Province,Ogooue-Maritime Province,Haut-Ogooue Province,Ngounie Province,Nyanga Province,Mongomo District,Ebebiyin District,Akonibe District,Kogo District,Bata District",
+    "status": "COMPLETE"
   },
   {
     "name": "Tetuani",
@@ -1416,8 +1416,8 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Kusu,Nzanga,Kombo,Buma,Maso,Kakpo,Bawule,Vunga,Ngoligbi,Nganza,Ngayi,Ngoyi,Dula,Bagaembo,Bwamase,Kungu,Linginda,Komenga-Moke,Bonduburu,Mobaye,Molegbe,Businga,Gemena,Bagero,Bagiro,Baguiero,Baguiro,Haut-Uele,Dungu River,Meri Refugee Site,Darfur,Ubangi River,Cassava,Peanuts,Native Grasses,Roofing Material,Houses,Creator God,Nzapa,Intermediary Spirits,Kwara Tree,Nafe,Health,Good Luck,Good Harvests,Zuga,Hunt,Living Ancestors,Dead Ancestors,Fear,Rituals,Savior,Freedom,Peace,Abundant Life,Scripture,Translation Project,MP3 Audio Scripture,Pastors,Teaching,Preaching,Choirs,Songs,Music,Nilo-Saharan,Central Sudanic,Bongo-Bagirmi,Kara,Equateur Province,Mobaye Territories",
+    "status": "COMPLETE"
   },
   {
     "name": "Igbo",
@@ -1436,8 +1436,8 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Akwanga,Awe,Keana,Doma,Obi,Abuja,Karshi,New Karshi,Karu,Nyankpa,Gurku,Yarkade,Kokona,Garaku,Agwada,Amba,Dan,Ninkoro,Haderi,Pam Barau,Kufai Gwari,Yelwa,Akware,Kofar Gwari,Moroa,Ajuye,Angwan Yaro,Angwan Doka,Dokan Daji,Shabu,Jaman Gayan,Nasarawa,Nassarawa,Toto,Keffi LGA,Lafia LGA,Akwanga LGA,Awe LGA,Doma LGA,Obi LGA,Abuja FCT,Bwali LGA,Kwai LGA,Niger State,Suleija LGA,Gurara LGA,Kaduna State,Kaura LGA,Plateau State,Riyom LGA,Taraba State,Benue State,Zaria,Govandara,Madaki Keffi,Nuhu,Dauda,Maikwoto,Magaji Dan Yamusa,Captain Maloney,Ibrahim Mai Gunduma,Bashayi,Mainasara,Gankuma,Afo,Gbagyi,Migili,Alago,Eggon,Mada,Koro,Hausa,Angas,Geomai,Odoma,Agatu,Tiv,Afro-Asiatic,Chadic,West Chadic,Hausa-Gwandara",
+    "status": "COMPLETE"
   },
   {
     "name": "Hausa",
@@ -1446,7 +1446,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Zaria,Katsina,Dutse,Gusau,Birnin Kebbi,Hadejia,Gumel,Kano,Kaduna,Sokoto,Maiduguri,Bauchi,Rano,Gobir,Birnin Kudu,Azare,Gaya,Misau,Jama'are,Ningi,Potiskum,Fika,Damaturu,Gombe,Billiri,Kaltungo,Bajoga,Biu,Gwoza,Dikwa,Bama,Nguru,Guri,Hadeja,Kiyawa,Jahun,Ringim,Taura,Malam Madori,Kazaure,Roni,Dambatta,Wudil,Gwarzo,Bagwai,Shanono,Rimin Gado,Tofa,Dala,Nassarawa,Tarauni,Gwale,Fagge,Kumbotso,Ungogo,Minjibir,Dawakin Tofa,Takai,Kibiya,Tudun Wada,Kiru,Karaye,Makoda,Tsanyawa,Kunchi,Bichi,Danbatta,Bunkure,Gezawa,Funtua,Bakori,Danja,Dandume,Faskari,Sabuwa,Kafur,Malumfashi,Kankara,Rimi,Musawa,Matazu,Safana,Dutsin-Ma,Kurfi,Charanchi,Jibia,Batsari,Dan Musa,Kankia,Kusada,Ingawa,Bindawa,Mani,Mashi,Dandi,Shinkafi,Zurmi,Bukkuyum,Anka,Talata Mafara,Maradun,Gummi,Wurno,Goronyo,Rabah,Wammako,Silame,Tambuwal,Tangaza,Binji,Sabon Birni,Isa,Dogondaji,Gada,Kware,Ilela,Gwadabawa,Bodinga,Tureta,Kebbe,Yabo,Shagari,Augie,Arewa-Dandi,Suru,Ngaski,Yauri,Zuru,Danko-Wasagu,Sakaba,Fakai,Koko-Besse,Aleiro,Gwandu,Kalgo,Jega,Maiyama,Bagudo,Maradi,Zinder,Tahoua,Agadez,Birni-N'Konni,Madaoua,Illela,Dakoro,Tessaoua,Aguié,Hausa-Gwandara,Hausa,Fulani,Ajami,Boko,Niger,Nigeria,Ghana,Benin,Cameroon,Chad,Sudan,Lingua Franca,West Africa,L1,L2,Radio,Television,Newspapers,Literature,Film,Kannywood,Nollywood,Education,Commerce,Poetry,Proverbs,Songs,Music,Weddings,Funerals,Naming Ceremonies,Durbar Festival,Sallah,Emirs,Sultans,District Heads,Wards,Districts,Local Government Areas,States,Federal Capital Territory,Abuja,Northern Nigeria,North West,North East,North Central,Middle Belt,Fulani Nomads,Berom,Tiv,Jukun,Igala,Idoma,Ebira,Nupe,Gbagyi,Kambari,Duka,Hunters,Farmers,Traders,Craftsmen,Weavers,Dyers,Leather Workers,Potters,Compound Living,Polygyny,Islam,Sunni,Maliki,Schools,Madrasas,Tsangaya,Almajirai,Quranic Education,Western Education,Universities,Polytechnics,Colleges,Research Institutes,Groundnuts,Cotton,Groundnut Pyramids,Kano Groundnut Pyramids,History,Legends,Bayuajida,Queen Amina,Kano Chronicle,Sokoto Caliphate,Usman dan Fodio,Jihad,Emirates,Sultanate,Indirect Rule,Independence 1960,First Republic,Military Coups,Civil War,Second Republic,Third Republic,Fourth Republic,Democracy,Elections,Political Parties,APC,PDP,LP,NNPP,President,Governors,Senators,Representatives,Local Government Chairmen,Councillors",
+    "b": "Zaria,Katsina,Dutse,Gusau,Birnin Kebbi,Hadejia,Gumel,Kano,Kaduna,Sokoto,Maiduguri,Bauchi,Rano,Gobir,Birnin Kudu,Azare,Gaya,Misau,Jama'are,Ningi,Potiskum,Fika,Damaturu,Gombe,Billiri,Kaltungo,Bajoga,Biu,Gwoza,Dikwa,Bama,Nguru,Guri,Hadeja,Kiyawa,Jahun,Ringim,Taura,Malam Madori,Kazaure,Roni,Dambatta,Wudil,Gwarzo,Bagwai,Shanono,Rimin Gado,Tofa,Dala,Nassarawa,Tarauni,Gwale,Fagge,Kumbotso,Ungogo,Minjibir,Dawakin Tofa,Takai,Kibiya,Tudun Wada,Kiru,Karaye,Makoda,Tsanyawa,Kunchi,Bichi,Danbatta,Bunkure,Gezawa,Funtua,Bakori,Danja,Dandume,Faskari,Sabuwa,Kafur,Malumfashi,Kankara,Rimi,Musawa,Matazu,Safana,Dutsin-Ma,Kurfi,Charanchi,Jibia,Batsari,Dan Musa,Kankia,Kusada,Ingawa,Bindawa,Mani,Mashi,Dandi,Shinkafi,Zurmi,Bukkuyum,Anka,Talata Mafara,Maradun,Gummi,Wurno,Goronyo,Rabah,Wammako,Silame,Tambuwal,Tangaza,Binji,Sabon Birni,Isa,Dogondaji,Gada,Kware,Ilela,Gwadabawa,Bodinga,Tureta,Kebbe,Yabo,Shagari,Augie,Arewa-Dandi,Suru,Ngaski,Yauri,Zuru,Danko-Wasagu,Sakaba,Fakai,Koko-Besse,Aleiro,Gwandu,Kalgo,Jega,Maiyama,Bagudo,Maradi,Zinder,Tahoua,Agadez,Birni-N'Konni,Madaoua,Illela,Dakoro,Tessaoua,Aguié,Hausa-Gwandara,Hausa,Fulani,Ajami,Boko,Niger,Nigeria,Ghana,Benin,Cameroon,Chad,Sudan,Lingua Franca,West Africa,Radio,Television,Newspapers,Literature,Film,Kannywood,Nollywood,Education,Commerce,Poetry,Proverbs,Songs,Music,Weddings,Funerals,Naming Ceremonies,Durbar Festival,Sallah,Emirs,Sultans,District Heads,Wards,Districts,Local Government Areas,States,Federal Capital Territory,Abuja,Northern Nigeria,North West,North East,North Central,Middle Belt,Fulani Nomads,Berom,Tiv,Jukun,Igala,Idoma,Ebira,Nupe,Gbagyi,Kambari,Duka,Hunters,Farmers,Traders,Craftsmen,Weavers,Dyers,Leather Workers,Potters,Compound Living,Polygyny,Islam,Sunni,Maliki,Schools,Madrasas,Tsangaya,Almajirai,Quranic Education,Western Education,Universities,Polytechnics,Colleges,Research Institutes,Groundnuts,Cotton,Groundnut Pyramids,Kano Groundnut Pyramids,History,Legends,Bayuajida,Queen Amina,Kano Chronicle,Sokoto Caliphate,Usman dan Fodio,Jihad,Emirates,Sultanate,Indirect Rule,Independence 1960,First Republic,Military Coups,Civil War,Second Republic,Third Republic,Fourth Republic,Democracy,Elections,Political Parties,APC,PDP,LP,NNPP,President,Governors,Senators,Representatives,Local Government Chairmen,Councillors",
     "status": "COMPLETE"
   },
   {
@@ -1466,8 +1466,8 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Makari,Hilé Alifa,Zina,Muxule,Douguia,Dro,Walia,Kousséri,Sahu,Sao,Logone River,Lake Chad,Maladi,Woulki,Biamo,Bodo,Belguede,Blangape,Blangwa,El Beid River,Serbéouel River,Buduma,yedina,maslam,mpade,malgbe,afaɗə,msər,lagwan,maʒera,Island Buduma,yedəna,Northern Makary,Central Kousseri,Southern Mazera,Fishing,Farming",
+    "status": "COMPLETE"
   },
   {
     "name": "Kuo",
@@ -1476,7 +1476,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "",
+    "b": "Sorombéo,Mbe,Ngaoundéré,Meiganga,Garoua-Boulaï,Bétaré-Oya,Vina,Lom-et-Djerem,East Region,Cameroon,Scattered Communities,Savannas,Forests,Subsistence Farming,Small Livestock,Grains,Vegetables,Meat,Fish",
     "status": "WAITING"
   },
   {
@@ -1486,7 +1486,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "",
+    "b": "Zawse,Bawku Municipal,Pusiga-Polimakom,Garu-Tempane,Togo,Agole,Volta River,Kusaal,Kusaasi",
     "status": "WAITING"
   },
   {
@@ -1506,7 +1506,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "",
+    "b": "Tidikelt region,Ksar Laarab,Ksar Lemrabtine,Deghamcha,El Barka,Igostène,Hassi Lahdjar,Sahla Tahtania,Sahla Fougania,Tadjemout,Western Sahara,Morocco,Tunisia,Tit,Akabil,Reggane,In Salah District,Algeria,Zenati Berber",
     "status": "WAITING"
   },
   {
@@ -1556,7 +1556,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "",
+    "b": "Evant,Bauchi State,Avand,Balegete,Belegete,Ovand,Ovande,Ovando,Cross River State,Obanliku LGA,Belegete Village,Tivoid,Central (A),Niger-Congo,Atlantic-Congo,Benue-Congo,Southern Bantoid",
     "status": "WAITING"
   },
   {
@@ -1566,7 +1566,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0.1,
-    "b": "",
+    "b": "Sila Region,Bir Nahal,Ghadar,Ouaddaï Region,Chad,Central African Republic,Darfur Sultanate,Sila Department,Along Sudan Border",
     "status": "WAITING"
   },
   {
@@ -1636,7 +1636,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0.1,
-    "b": "",
+    "b": "Tittaf,Tuat Region,Zenati Berber,Southern Algeria,Tuwat,Tuat,Zenata Berbers,Extinct 1985,Practically Extinct,Tamentit Town,Commune,Fenoughil District,Southcentral Algeria",
     "status": "WAITING"
   },
   {
@@ -1656,7 +1656,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "",
+    "b": "Antere,Sardauna LGA,Taraba State,Nigeria,Cameroon Border,Half Kilometre,Nde-Gbite,Biti,Viti,Vötö,Bötö,Narrow Grassfields,Grassfields,Eastern Grassfields,Unclassified,Niger-Congo,Atlantic-Congo,Volta-Congo,Benue-Congo,Bantoid,Southern Bantoid,ned,ndeg1238",
     "status": "WAITING"
   },
   {
@@ -1726,7 +1726,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "",
+    "b": "Muri,Wukan,Gassol LGA,Gassol,Lafia,Awe,Shendam,Langtang South,Guma,Wukari II Districts",
     "status": "WAITING"
   },
   {
@@ -2156,7 +2156,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "",
+    "b": "Al Jaghbub,Al Jaghbub oasis,Al Jaghbub town,Al Jaghbub people",
     "status": "WAITING"
   },
   {
@@ -5446,7 +5446,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0.1,
-    "b": "",
+    "b": "D'kar,Ncojane,Kacgae,Groote Laagte,Karakubis,Tsootsha,Chobokwane,New Xanagas,Qabo,Kule,Ncoakhoe,Khoisan,Basarwa,Bushmen,Tshu-Khwe",
     "status": "WAITING"
   },
   {

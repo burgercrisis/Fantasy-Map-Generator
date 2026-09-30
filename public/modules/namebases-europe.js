@@ -6756,7 +6756,7 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "",
+    "b": "Kuuďärv Ludic,Canterbury,Soroca",
     "status": "WAITING"
   },
   {
@@ -6926,7 +6926,7 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "",
+    "b": "Northern Veps,Canterbury,Soroca",
     "status": "WAITING"
   },
   {

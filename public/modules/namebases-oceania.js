@@ -1906,7 +1906,7 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "",
+    "b": "Bocas del Toro Creole,Governor's Harbour,All Saints,Charlestown,English Harbour,St. Peter's,Road Town,San Fernando,St. George's,Vieux Fort,Tabernacle,Victoria,Sandy Ground,Five Cays,Portmore,Portsmouth,Marigot,St. John's,Philipsburg",
     "status": "WAITING"
   }
 ];
