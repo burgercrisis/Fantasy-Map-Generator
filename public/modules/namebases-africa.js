@@ -6560,16 +6560,6 @@ window.africaNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "Algerian Arabic",
-    "i": 267,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-  {
     "name": "Holma",
     "i": 202376,
     "min": 4,
@@ -6590,108 +6580,8 @@ window.africaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Naukan",
-    "i": 202383,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-  {
-    "name": "Sirenik",
-    "i": 202384,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-  {
     "name": "Sakhalin dialects",
     "i": 202618,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-  {
-    "name": "Limonese Creole",
-    "i": 202785,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-  {
-    "name": "Montserrat Creole",
-    "i": 202787,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-  {
-    "name": "Pa-Hng",
-    "i": 202843,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-  {
-    "name": "Pingtang",
-    "i": 202844,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-  {
-    "name": "Pu–Xian Min",
-    "i": 202849,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-  {
-    "name": "Sanqiao",
-    "i": 202854,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-  {
-    "name": "Shanghainese",
-    "i": 202855,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-  {
-    "name": "Shao–Jiang Min",
-    "i": 202856,
     "min": 4,
     "max": 11,
     "d": "",

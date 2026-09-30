@@ -1410,16 +1410,6 @@ window.oceaniaNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "Pidgin Onin",
-    "i": 202289,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-  {
     "name": "South Oran and Figuig Berber",
     "i": 202311,
     "min": 4,
@@ -1837,16 +1827,6 @@ window.oceaniaNameBases = [
     "d": "",
     "m": 0,
     "b": "truwana,yingina,taypalaka,kunanyi,wukalina,kanamaluka,pinmatik,laraturunawn,titima,takayna,nungu,tulampanga,tinamirakuna,larapuna,putalina,narawntapu,Triabunna,Ringarooma,Boobyalla",
-    "status": "WAITING"
-  },
-  {
-    "name": "Panyjima",
-    "i": 202762,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "",
     "status": "WAITING"
   },
   {
