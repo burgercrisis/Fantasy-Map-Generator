@@ -12800,16 +12800,6 @@ window.asiaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Zulu",
-    "i": 10037,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Durban,Pietermaritzburg,Newcastle,Richards Bay,Ulundi,Nongoma,KwaDukuza,Empangeni,Eshowe,Mtunzini,Stanger,Tongaat,Ballito,Port Shepstone,Margate,Scottburgh,Amanzimtoti,Kokstad,Dundee,Vryheid,Ladysmith,Colenso,Winterton,Bergville,Estcourt,Mooi River,Greytown,Kranskop,Mandeni,eSikhawini,Hluhluwe,Ingwavuma,Jozini,Pongola,Paulpietersburg,Louwsburg,Mahlabatini,Piet Retief,Nqutu,Wasbank,Glencoe,Dannhauser,Utrecht,Memel,Harrismith,Phuthaditjhaba,Underberg,Himeville,Bulwer,Richmond,Ixopo,Creighton,Harding,Weza,Kelso,Park Rynie,Umkomaas,Winkelspruit,Illovo,Umhlanga,La Lucia,Verulam,Ottawa,Mount Edgecombe,Inanda,KwaMashu,Umlazi,Isipingo,Prospecton,Umzimkulu",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Xhosa",
     "i": 1466,
     "min": 3,
@@ -12820,13 +12810,13 @@ window.asiaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Swahili",
-    "i": 27,
-    "min": 4,
-    "max": 13,
-    "d": "",
+    "name": "Ambonese Malay",
+    "i": 200240,
+    "min": 3,
+    "max": 11,
+    "d": "lnrt",
     "m": 0,
-    "b": "Zanzibar,Mombasa,Dar es Salaam,Nairobi,Kigali,Kampala,Dodoma,Arusha,Mwanza,Tanga,Lamu,Malindi,Pemba,Kilwa,Gedi,Shanga,Manda,Songo Mnara,Pate,Bagamoyo,Mogadishu,Barawa,Kismayu,Merca,Lindi,Mtwara,Garbaharey,Loyangalani,CelDheer,Saakow",
+    "b": "Aru,Piru,Saumlaki,Kai,Tanimbar,Sofifi,Masohi,Babar,Saparua,Seram,Nusa Laut,Gorom,Dobo,Tidore,Banda,Leti,Ternate,Tual,Haruku,Ambon,Kei,Amahai,Wetar,Namlea,Buru,Watubela,Kelang,Buano,Manipa,Obi,Bacan,Halmahera,Morotai,Tobelo,Galela,Jailolo,Maba,Weda,Buli,Gane,Pati,Loloda,Namrole,Bula,Sanana,Sula,Mangoli,Taliabu,Mangon,Larat,Wonreli,Adaut,Kola",
     "status": "COMPLETE"
   }
 ];

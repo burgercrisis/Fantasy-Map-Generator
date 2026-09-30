@@ -8500,26 +8500,6 @@ window.africaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Ambonese Malay",
-    "i": 200240,
-    "min": 3,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Aru,Piru,Saumlaki,Kai,Tanimbar,Sofifi,Masohi,Babar,Saparua,Seram,Nusa Laut,Gorom,Dobo,Tidore,Banda,Leti,Ternate,Tual,Haruku,Ambon,Kei,Amahai,Wetar,Namlea,Buru,Watubela,Kelang,Buano,Manipa,Obi,Bacan,Halmahera,Morotai,Tobelo,Galela,Jailolo,Maba,Weda,Buli,Gane,Pati,Loloda,Namrole,Bula,Sanana,Sula,Mangoli,Taliabu,Mangon,Larat,Wonreli,Adaut,Kola",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Banat",
-    "i": 378,
-    "min": 4,
-    "max": 15,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Timișoara,Arad,Lugoj,Reșița,Caransebeș,Oradea,Satu Mare,Chișineu-Criș,Deta,Făget,Lipova,Sânnicolau Mare,Nădlac,Pecica,Sebiș,Sântana,Vinga,Gurahonț,Șiria,Ineu,Săcueni,Becicherecu Mic,Cenad,Sânmartin,Lovrin,Buziaș,Jimbolia,Biled,Ciacova,Dudeștii Noi",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Ewondo",
     "i": 24968,
     "min": 4,
@@ -8587,6 +8567,26 @@ window.africaNameBases = [
     "d": "",
     "m": 0,
     "b": "Tamanrasset,Insalah,Inguezzam,Tabelbala,Bordjbadjimokhtar,Tinzaouatine,Reggane,Timimoun,Adrar,Aoulef,Timokten,Tamest,Fenoughil,Tamentit,Tinerkouk,Aougrout,Saoura,Beniabbes,Kerzaz,Elouata,Bechar,Abadla,Brezina,Elbayadh,Boussemghoun,Chellala,Boualem,Bougtoub,Asla,Tousmouline,Ksour,Ghassoul,Arbaouat,Chottelgharbi,Taouiala,Sidibamahdi,Tighenif,Illizi,Djanet,Inamenas,Tin,Elkoum,Aghoum,Adjahil,Eferi,Azelouaz,Elmihan,Tamadjert,Fadnoune,Aharhar,Tarat,Tamanghasset,Idles,Tinzouaten,Teggeg,Oum,El,Assel,Tindouf,Chenachene,Garet,Djebilet,Aouinet,Belagraa",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Swahili",
+    "i": 27,
+    "min": 4,
+    "max": 13,
+    "d": "",
+    "m": 0,
+    "b": "Zanzibar,Mombasa,Dar es Salaam,Nairobi,Kigali,Kampala,Dodoma,Arusha,Mwanza,Tanga,Lamu,Malindi,Pemba,Kilwa,Gedi,Shanga,Manda,Songo Mnara,Pate,Bagamoyo,Mogadishu,Barawa,Kismayu,Merca,Lindi,Mtwara,Garbaharey,Loyangalani,CelDheer,Saakow",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Zulu",
+    "i": 10037,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "Durban,Pietermaritzburg,Newcastle,Richards Bay,Ulundi,Nongoma,KwaDukuza,Empangeni,Eshowe,Mtunzini,Stanger,Tongaat,Ballito,Port Shepstone,Margate,Scottburgh,Amanzimtoti,Kokstad,Dundee,Vryheid,Ladysmith,Colenso,Winterton,Bergville,Estcourt,Mooi River,Greytown,Kranskop,Mandeni,eSikhawini,Hluhluwe,Ingwavuma,Jozini,Pongola,Paulpietersburg,Louwsburg,Mahlabatini,Piet Retief,Nqutu,Wasbank,Glencoe,Dannhauser,Utrecht,Memel,Harrismith,Phuthaditjhaba,Underberg,Himeville,Bulwer,Richmond,Ixopo,Creighton,Harding,Weza,Kelso,Park Rynie,Umkomaas,Winkelspruit,Illovo,Umhlanga,La Lucia,Verulam,Ottawa,Mount Edgecombe,Inanda,KwaMashu,Umlazi,Isipingo,Prospecton,Umzimkulu",
     "status": "COMPLETE"
   }
 ];
