@@ -6070,16 +6070,6 @@ window.europeNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "Auyokawa language ",
-    "i": 893,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Belo Horizonte,Ouro Preto,Tiradentes,Diamantina,São João del-Rei,Mariana,Sabará,Congonhas,Barbacena,Itabira,Conselheiro Lafaiete,Divinópolis,Juiz de Fora,Pouso Alegre,Poços de Caldas,Araxá,Lambari,Caxambu,Lavras,Governador Valadares,Teófilo Otoni,Janaúba,Patos de Minas,Uberlândia,Araguari,Ituiutaba,Montes Claros,Curvelo,Paracatu,Unaí,Januária,Almenara,Nazareno,Piedade do Rio Grande,Prados,Resende Costa,Ritápolis,Santa Cruz de Minas,Santana do Garambéu,São Tiago,Bom Despacho,Araújos,Dores do Indaiá,Formiga,Itapeceriba,Luz,Oliveira,Pitangui,Camanducaia,Extrema,Itapeva,Maria da Fé,São Lourenço,Soledade de Minas,São Gonçalo do Sapucaí,Carmo de Minas,Cristina,Dores de Campos,Itaverava,Lavras Novas,Matias Barbosa,Ouro Branco,Rio Piracicaba,Santa Bárbara,Santa Rita de Ouro Preto,Santo Antônio do Leite,São Bartolomeu,São José da Lapa,São Miguel do Anta,Santos Dumont,Sarzedo,Serro,Taboão,Vespasiano,Viçosa",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Bariji ",
     "i": 203194,
     "min": 4,

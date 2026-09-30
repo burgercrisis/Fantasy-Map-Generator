@@ -208,9 +208,10 @@
   {
     "name": "Auyokawa",
     "iso": "auyokawa",
-    "region": "Africa",
-    "category": "Afroasiatic",
-    "family": "Chadic"
+    "region": "South America",
+    "category": "Tupian",
+    "family": "Tupi-Guarani",
+    "wikipedia": "https://en.wikipedia.org/wiki/Auyokawa_language"
   },
   {
     "name": "Avokaya",
@@ -6519,11 +6520,12 @@
     ]
   },
   {
-    "name": "Kewat",
+    "name": "Kayort",
     "iso": "kyv",
     "region": "Asia",
     "category": "Indo-Aryan",
-    "family": "Central Pahari"
+    "family": "Central Pahari",
+    "wikipedia": "https://en.wikipedia.org/wiki/Kayort_language"
   },
   {
     "name": "Khakas",
